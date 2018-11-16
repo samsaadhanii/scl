@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+<title>न्यायचित्रदीपिका</title>
+<link type="text/css" rel="stylesheet" href="../css_files/bootstrap.min.css">
+<link type="text/css" rel="stylesheet" href="../css_files/bootstrap-theme.min.css">
+<link type="text/css" rel="stylesheet" href="../../css_files/menu.css">
+<link type="text/css" rel="stylesheet" href="../../css_files/samsaadhanii.css">
+<script type="text/javascript" src="../js_files/jquery.min.js"></script>
+<script type="text/javascript" src="../js_files/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js_files/jquery.autosize.js"></script>
+<script>
+$(document).ready(function(){
+	$("form").submit(function(){
+		 if($("#nne").val() ==""){
+			$("#nne").focus();
+			return false;
+		}
+		else{
+			return	check();
+		}
+	});
+    $("#expertBtn").click(function(){
+       var decide = $("#expertSelect").val();               
+        
+        window.location = decide == "Yes" ? "expert.html" : "non-expert.html" ;
+    });
+    
+});
+</script>
+<style>
+  .btn-group>.btn-group {
+    padding: 5px;
+}
+.head_div{background:none repeat scroll 0px 0px #5678AA; color:#fff;}
+h3{margin-top:3px !important; font-size:30px;}
+.head_div p{font-size:16px !important; }
+.text div{padding:5px;}
+input[type="submit"]{margin-top:2px; width:160px;}
+/*select{margin-top:1px; width:900px !important; padding:3px !important;}*/
+.listdiv{margin-top:1px;}
+    .link{ color:#fff !important;} .link:hover{ text-decoration: none; color:brown; }
+    .intro-body{display: table-cell;vertical-align: middle;}
+</style>
+</head>
+<body>
+<div class="container-full">
+
+<header class="head_div col-md-12">
+    <div class="col-md-6 text-right"><h2><a class="link" href="NN/segmenter/index.html"><font color="white">न्यायचित्रदीपिका </font></a></h2>
+    <p>A tool to analyse Navya-Nyāya Expressions</p>
+        </div>
+<div class="col-md-6 text-left"><h2><a class="link" href="index.html"><font color="white">संसाधनी-Saṃsādhanī</font></a></h2>
+    <p>Department of Sanskrit Studies, University of Hyderabad.</p>
+    </div>
+
+</header>
+        <div class="col-md-12">
+            
+            <h4>We present a semi-automatic computational tool to represent a Navya-Nyāya Expressions(NNE) through Conceptual Graphs of Sowa.<br>
+            This tool consists of a domain specific Segmenter, a semi-automatic constituency Parser, Graph renderer and a type-identifier.<br>
+            <br>
+            1) <b><font color="red">Segmenter</font></b> (पदच्छेदिका) splits tha given NNE into components<br>
+            2) <b><font color="red">Parser</font></b> (अन्वयनिर्धारिका)  provides an ian user interface for interactive constitutional parsing.<br>
+            3) <b><font color="red">Graph renderer</font></b> (चित्रदर्शिका) renders the Conceptual Graph and Compressed Conceptual Graph.<br>
+            4) <b><font color="red">Compound-Type-identifier</font></b> (समास-प्रकार-अन्वेषिका)  identifies the type of tha compound of an NNE.<br>
+            <br>
+            </h4>
+        
+        </div>
+        
+    <div class="container">
+        <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 section">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+				<div class="form-group form-inline span7 text-center start">
+           				<select name="expert" class="form-control" id="expertSelect">
+						<option value="No">Selected Examples from Navya-Nyāya texts</option>
+						<option value="Yes">My own example</option>
+					</select>
+					<input name="submit" value="submit" id="expertBtn" class="btn btn-danger" type="button">
+			        </div>
+			</div>
+        
+        </div>
+        
+    
+    </div>
+<div class="listdiv">
+<center>
+    
+    <footer>
+        <div class="col-md-12 copy-info copyright-lb tail nav">
+            <p> <span class="cons link">© 2012-18  Arjuna S.R. &amp; <a href="http://sanskrit.uohyd.ac.in/faculty/amba" class="link"><font color="darkblue">Amba Kulkarni</font></a></span></p>
+        </div>
+    
+    </footer>
+</center>
+ <div class="col-md-6 text-left">
+    <a href="http://validator.w3.org/check?uri=referer"><img
+        src="/scl/imgs/w3c.jpg"
+        alt="Valid XHTML 1.0 Transitional" height="31" width="" style="border-style:none;" /></a>
+  </div>
+<!-- <img src="http://scl.samsaadhanii.in/cgi-bin/Count.cgi?ft=0&df=sample.dat" alt="Count"> -->
+    
+ <div class="col-md-6 text-right">
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript" src="/scl/statcounter_dummy.js">
+</script>
+<noscript><div class="statcounter"><a title="web analytics" href="http://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/8421849/0/34917efe/0/" alt="web analytics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+ </div>
+</body>
+</html>

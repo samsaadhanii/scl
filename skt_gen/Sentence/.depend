@@ -1,0 +1,78 @@
+../../SHMT/prog/kAraka/Prepare_Graph/ZEN/gen.cmo :
+../../SHMT/prog/kAraka/Prepare_Graph/ZEN/gen.cmx :
+../../SHMT/prog/kAraka/Prepare_Graph/ZEN/list2.cmo :
+../../SHMT/prog/kAraka/Prepare_Graph/ZEN/list2.cmx :
+../../SHMT/prog/kAraka/Prepare_Graph/ZEN/word.cmo : \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/list2.cmo
+../../SHMT/prog/kAraka/Prepare_Graph/ZEN/word.cmx : \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/list2.cmx
+../../SHMT/prog/kAraka/Prepare_Graph/ZEN/share.cmi :
+../../SHMT/prog/kAraka/Prepare_Graph/ZEN/share.cmo : \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/share.cmi
+../../SHMT/prog/kAraka/Prepare_Graph/ZEN/share.cmx : \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/share.cmi
+../../SHMT/prog/kAraka/Prepare_Graph/ZEN/unshare.cmo : \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/trie.cmo
+../../SHMT/prog/kAraka/Prepare_Graph/ZEN/unshare.cmx : \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/trie.cmx
+../../SHMT/prog/kAraka/Prepare_Graph/ZEN/trie.cmo : \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/word.cmo \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/list2.cmo \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/gen.cmo
+../../SHMT/prog/kAraka/Prepare_Graph/ZEN/trie.cmx : \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/word.cmx \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/list2.cmx \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/gen.cmx
+../../SHMT/prog/kAraka/Prepare_Graph/ZEN/mini.cmo : \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/trie.cmo \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/share.cmi \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/gen.cmo
+../../SHMT/prog/kAraka/Prepare_Graph/ZEN/mini.cmx : \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/trie.cmx \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/share.cmx \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/gen.cmx
+../../SHMT/prog/kAraka/Prepare_Graph/ZEN/deco.cmo : \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/word.cmo \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/trie.cmo \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/list2.cmo
+../../SHMT/prog/kAraka/Prepare_Graph/ZEN/deco.cmx : \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/word.cmx \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/trie.cmx \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/list2.cmx
+../../SHMT/prog/kAraka/Prepare_Graph/ZEN/lexmap.cmo : \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/word.cmo \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/list2.cmo \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/deco.cmo
+../../SHMT/prog/kAraka/Prepare_Graph/ZEN/lexmap.cmx : \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/word.cmx \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/list2.cmx \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/deco.cmx
+../../SHMT/prog/kAraka/Prepare_Graph/ZEN/minimap.cmi : \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/lexmap.cmo
+../../SHMT/prog/kAraka/Prepare_Graph/ZEN/minimap.cmo : \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/share.cmi \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/lexmap.cmo \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/deco.cmo \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/minimap.cmi
+../../SHMT/prog/kAraka/Prepare_Graph/ZEN/minimap.cmx : \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/share.cmx \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/lexmap.cmx \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/deco.cmx \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/minimap.cmi
+../../SHMT/prog/kAraka/Prepare_Graph/ZEN/zen_lexer.cmo :
+../../SHMT/prog/kAraka/Prepare_Graph/ZEN/zen_lexer.cmx :
+pada_structure.cmi :
+sentence_generator.cmo : ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/trie.cmo \
+    paths.cmo pada_structure.cmi \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/gen.cmo bank_lexer.cmo
+sentence_generator.cmx : ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/trie.cmx \
+    paths.cmx pada_structure.cmi \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/gen.cmx bank_lexer.cmx
+dump.cmo : ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/gen.cmo
+dump.cmx : ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/gen.cmx
+paths.cmo :
+paths.cmx :
+../../SHMT/prog/kAraka/Prepare_Graph/Heritage_ML/transduction.cmo : \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/zen_lexer.cmo
+../../SHMT/prog/kAraka/Prepare_Graph/Heritage_ML/transduction.cmx : \
+    ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/zen_lexer.cmx

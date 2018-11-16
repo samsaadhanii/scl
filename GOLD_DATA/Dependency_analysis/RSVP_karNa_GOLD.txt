@@ -1,0 +1,1202 @@
+SENT: aham sUwasya aXiraWasya puwraH karNaH gafgAyAH paviwre wIre aswam yAnwam sUryam arcayiwum upaviRtaH
+ANALYSIS:
+1 aham karwA 13
+2 sUwasya viSeRaNam 3
+3 aXiraWasya RaRTIsambanXaH 4
+4 puwraH viSeRaNam 5
+5 karNaH karwqsamAnAXikaraNam 13
+6 gafgAyAH RaRTIsambanXaH 8
+7 paviwre viSeRaNam 8
+8 wIre xeSAXikaraNam 13
+9 aswam karma 10
+10 yAnwam viSeRaNam 11
+11 sUryam karma 12
+12 arcayiwum prayojanam 13
+13 upaviRtaH 
+
+
+SENT: kaWaya me kA wvam (Bavasi) iwi
+ANALYSIS:
+1 kaWaya 
+2 me RaRTIsambanXaH 3
+3 kA karwqsamAnAXikaraNam 5
+4 wvam karwA 5
+5 (Bavasi) prawiyogI 6
+6 iwi anuyogI 1
+
+
+SENT: wvayA arcyamAnena sUryeNa saha wava praWamaparicayam kqwavawI swrI aham (asmi)
+
+ANALYSIS:
+1 wvayA karwA 2
+2 arcyamAnena viSeRaNam 3
+3 sUryeNa prawiyogI 4
+4 saha anuyogI 6
+5 wava RaRTIsambanXaH 6
+6 praWamaparicayam karma 7
+7 kqwavawI viSeRaNam 8
+8 swrI karwqsamAnAXikaraNam 10
+9 aham karwA 10
+10 (asmi)
+
+
+SENT: wava ASayam na jAnami
+ANALYSIS:
+1 wava RaRTIsambanXaH 2
+2 ASayam karma 4
+3 na sambanXaH 4
+4 jAnami 
+
+
+SENT: kinwu praBAwasUryakiraNacumbanena parvawaSiKaragawahimarASiH iva wava newrasamparkeNa mama hqxayam xravIBavawi
+ANALYSIS:
+1 kinwu sambanXaH 9
+2 praBAwasUryakiraNacumbanena karaNam 9
+3 parvawaSiKaragawahimarASiH prawiyogI 4
+4 iva anuyogI 8
+5 wava RaRTIsambanXaH 6
+6 newrasamparkeNa karaNam 9
+7 mama RaRTIsambanXaH 8
+8 hqxayam karwA 9
+9 xravIBavawi 
+
+
+SENT: wava svareNa mayi gUDam xuHKam AvirBavawi
+ yasya kAraNam mama smqwipaWAw suxUram nihiwam syAw
+ANALYSIS:
+1 wava RaRTIsambanXaH 2
+2 svareNa karaNam 6
+3 mayi aXikaraNam 6
+4 gUDam viSeRaNam 5
+5 xuHKam karma 6
+6 AvirBavawi
+7 yasya RaRTIsambanXaH 8
+8 kAraNam karwA 12
+9 mama RaRTIsambanXaH 10
+10 smqwipaWAw apAxAnam 12
+11 suxUram kriyAviSeRaNam 12
+12 nihiwam karwA 13
+13 syAw 
+
+
+SENT: mahile! kaWaya kena rahasyena mama janma wvayA sambaxXam iwi
+ANALYSIS:
+1 mahile! samboXya 2
+2 kaWaya 
+3 kena viSeRaNam 4
+4 rahasyena karaNam 8
+5 mama RaRTIsambanXaH 6
+6 janma karma 8
+7 wvayA karwA 8
+8 sambaxXam prawiyogI 9
+9 iwi anuyogI 2
+
+
+SENT: puwra! XIraH Bava
+ANALYSIS:
+1 puwra! samboXya 3
+2 XIraH karwA 3
+3 Bava 
+
+
+SENT: yaxA(-i) xinaprakASasUkRmekRikayA anXakArasya piXAnam apAvqwam syAw waxA(+i) kaWayAmi
+ANALYSIS:
+1 yaxA(-i) kAlAXikaraNam 5
+2 xinaprakASasUkRmekRikayA karaNam 5
+3 anXakArasya RaRTIsambanXaH 4
+4 piXAnam karma 5
+5 apAvqwam karwA 6
+6 syAw 
+7 waxA(+i) kAlAXikaraNam 8
+8 kaWayAmi 
+
+
+SENT: ixAnIm mAm kunwIm vijAnIhi
+
+ANALYSIS:
+1 ixAnIm kAlAXikaraNam 4
+2 mAm karma 4
+3 kunwIm karmasamAnAXikaraNam 4
+4 vijAnIhi
+
+
+SENT: arjunasya mAwA kunwI! (aswi)
+
+ANALYSIS:
+1 arjunasya RaRTIsambanXaH 2
+2 mAwA karwA 4
+3 kunwI! karwasamAnAXikaraNam 4
+4 (aswi)
+
+
+SENT: aWakim wava viroXinaH arjunasya mAwA! (asmi)
+ kinwu ewAvawA na mAm xviRa
+ANALYSIS:
+1 aWakim sambanXaH 6
+2 wava RaRTIsambanXaH 4
+3 viroXinaH viSeRaNam 4
+4 arjunasya RaRTIsambanXaH 5
+5 mAwA! karwA 6
+6 (asmi)
+7 kinwu sambanXaH 11
+8 ewAvawA hewuH 11
+9 na sambanXaH 11
+10 mAm karma 11
+11 xviRa 
+
+
+SENT: wasmin xine haswinApure SaswrakOSalaparIkRAsparXAvasare na kasya api vixiwaH wvam XEryeNa sparXABUmim AgawaH iwi ixam xqDam aham smarAmi
+ANALYSIS:
+1 wasmin viSeRaNam 2
+2 xine kAlAXikaraNam 12
+3 haswinApure xeSAXikaraNam 12
+4 SaswrakOSalaparIkRAsparXAvasare aXikaraNam 12
+5 na sambanXaH 8
+6 kasya RaRTIsambanXaH 8
+7 api sambanXaH 6
+8 vixiwaH viSeRaNam 9
+9 wvam karwA 12
+10 XEryeNa kriyAviSeRaNam 12
+11 sparXABUmim karma 12
+12 AgawaH prawiyogI 13
+13 iwi anuyogI 14
+14 ixam karma 17
+15 xqDam kriyAviSeRaNam 17
+16 aham karwA 17
+17 smarAmi 
+
+
+SENT: rAwrinakRawrarASim BiwvA prasaran aruNoxayakiraNaH iva wvam AgawaH
+ 
+ANALYSIS:
+1 rAwrinakRawrarASim karma 2
+2 BiwvA pUrvakAlaH 3
+3 prasaran viSeRaNam 4
+4 aruNoxayakiraNaH prawiyogI 5
+5 iva anuyogI 6
+6 wvam karwA 7
+7 AgawaH
+
+
+
+SENT: kA sA SokAkulA mahilA (aswi)
+ yasyAH bARpAkulEH newrEH sWiram analafkqwam wava SarIram spqSaxByaH ASiRaH xawwAH
+ANALYSIS:
+1 kA karwA 5
+2 sA viSeRaNam 4
+3 SokAkulA viSeRaNam 4
+4 mahilA karwqsamAnAXikaraNam 5
+5 (aswi)
+6 yasyAH RaRTIsambanXaH 8
+7 bARpAkulEH viSeRaNam 8
+8 newrEH karaNam 15
+9 sWiram viSeRaNam 12
+10 analafkqwam viSeRaNam 12
+11 wava RaRTIsambanXaH 12
+12 SarIram karma 13
+13 spqSaxByaH sampraxAnam 15
+14 ASiRaH karma 15
+15 xawwAH 
+
+
+SENT: sparXAkRewrapArSve kuwra sA upaviRtA
+ANALYSIS:
+1 sparXAkRewrapArSve aXikaraNam 4
+2 kuwra aXikaraNam 4
+3 sA karwA 4
+4 upaviRtA 
+
+
+SENT: arjunasya mAwA Kalu sA (aswi)
+
+ANALYSIS:
+1 arjunasya RaRTIsambanXaH 2
+2 mAwA karwA 5
+3 Kalu sambanXaH 2
+4 sA karwqsamAnAXikaraNam 5
+5 (aswi)
+
+
+SENT: wawaH SaswravixyAguruNA wena brAhmaNena purawaH Agawya ukwam akulInena yUnA arjunena saha SaswrasparXAm karwum na anumoxyawe iwi
+ANALYSIS:
+1 wawaH apAxAnam 7
+2 SaswravixyAguruNA viSeRaNam 4
+3 wena viSeRaNam 4
+4 brAhmaNena karwA 7
+5 purawaH aXikaraNam 6
+6 Agawya pUrvakAlaH 7
+7 ukwam 
+8 akulInena viSeRaNam 9
+9 yUnA karwA 12
+10 arjunena prawiyogI 11
+11 saha anuyogI 12
+12 SaswrasparXAm karma 13
+13 karwum prayojanam 15
+14 na sambanXaH 15
+15 anumoxyawe prawiyogI 16
+16 iwi anuyogI 7
+
+
+SENT: kuNTiwaviXucCatAsPurawsanXyAkAlInameGaH iva wvam wURNIm sWiwaH
+
+ANALYSIS:
+1 kuNTiwaviXucCatAsPurawsanXyAkAlInameGaH prawiyogI 2
+2 iva anuyogI 3
+3 wvam karwA 5
+4 wURNIm kriyAviSeRaNam 5
+5 sWiwaH
+
+
+SENT: kinwu kA sA mahilA aswi
+ yasyAH hqxayam wava avajFayA kroXena ca mOnam eva jvaliwam
+ANALYSIS:
+1 kinwu sambanXaH 5
+2 kA viSeRaNam 4
+3 sA viSeRam 4
+4 mahilA karwA 5
+5 aswi
+6 yasyAH RaRTIsambanXaH 7
+7 hqxayam karwA 14
+8 wava RaRTIsambanXaH 11
+9 avajFayA samucciwam 11
+10 kroXena samucciwam 11
+11 ca karaNam 14
+12 mOnam kriyAviSeRaNam 14
+13 eva sambanXaH 12
+14 jvaliwam 
+
+
+SENT: arjunasya mAwA Kalu sA (aswi)
+
+ANALYSIS:
+1 arjunasya RaRTIsambanXaH 2
+2 mAwA karwA 5
+3 Kalu sambanXaH 5
+4 sA karwqsamAnAXikaraNam 5
+5 (aswi)
+
+
+SENT: wava parAkramam aBijFAya wvAm afgarAjye aBiRicya kOravANAm puraskarwAram sampAxiwavAn xuryoXanaH praSaMsanIyaH
+ANALYSIS:
+1 wava RaRTIsambanXaH 2
+2 parAkramam karma 3
+3 aBijFAya pUrvakAlaH 6
+4 wvAm karma 6
+5 afgarAjye xeSAXikaraNam 6
+6 aBiRicya pUrvakAlaH 9
+7 kOravANAm RaRTIsambanXaH 8
+8 puraskarwAram karma 9
+9 sampAxiwavAn viSeRaNam 10
+10 xuryoXanaH karwA 11
+11 praSaMsanIyaH 
+
+
+SENT: ewam SuBoxarkam xqRtvA vikasiwahqxayaH aXiraWaH janasafkulam BiwvA purawaH AgawaH
+ANALYSIS:
+1 ewam viSeRaNam 2
+2 SuBoxarkam karma 3
+3 xqRtvA pUrvakAlaH 9
+4 vikasiwahqxayaH viSeRaNam 5
+5 aXiraWaH karwA 7
+6 janasafkulam karma 7
+7 BiwvA pUrvakAlaH 9
+8 purawaH aXikaraNam 9
+9 AgawaH 
+
+
+SENT: wvam sahasA wam upagacCan wasya pAxayoH wava kirItam arpiwavAn
+ANALYSIS:
+1 wvam karwA 4
+2 sahasA kriyAviSeRaNam 4
+3 wam karma 4
+4 upagacCan samAnakAlaH 9
+5 wasya RaRTIsambanXaH 6
+6 pAxayoH aXikaraNam 9
+7 wava RaRTIsambanXaH 8
+8 kirItam karma 9
+9 arpiwavAn 
+
+
+SENT: ewam SuBoxarkam xqRtvA vikasiwahqxayaH aXiraWaH janasafkulam BiwwvA purawaH AgawaH
+ANALYSIS:
+1 ewam viSeRaNam 2
+2 SuBoxarkam karma 3
+3 xqRtvA pUrvakAlaH 9
+4 vikasiwahqxayaH viSeRaNam 5
+5 aXiraWaH karwA 7
+6 janasafkulam karma 7
+7 BiwwvA pUrvakAlaH 9
+8 purawaH aXikaraNam 9
+9 AgawaH 
+
+
+SENT: kinwu pANdavagqhasya ekasyAH mahilAyAH hqxayam wava vinayam vIrociwagarvanamram xqRtvA harReNa prakASiwam
+ANALYSIS:
+1 kinwu sambanXaH 11
+2 pANdavagqhasya RaRTIsambanXaH 4
+3 ekasyAH viSeRaNam 4
+4 mahilAyAH RaRTIsambanXaH 5
+5 hqxayam karwA 11
+6 wava RaRTIsambanXaH 7
+7 vinayam karma 9
+8 vIrociwagarvanamram viSeRaNam 7
+9 xqRtvA pUrvakAlaH 11
+10 harReNa hewuH 11
+11 prakASiwam 
+
+
+SENT: arjunasya mAwuH hqxayam ixam (aswi)
+
+ANALYSIS:
+1 arjunasya viSeRaNam 2
+2 mAwuH RaRTIsambanXaH 3
+3 hqxayam karwA 5
+4 ixam karwqsamAnAXikaraNam 5
+5 (aswi)
+
+
+SENT: ayi rAjamAwaH! kimarWam iha AgawA(asi)
+
+ANALYSIS:
+1 ayi samboXanasUcakam 2
+2 rAjamAwaH! saMboXya 5
+3 kimarWam prayojanam 5
+4 iha xeSAXikaraNam 5
+5 AgawA(asi)
+
+
+SENT: yAciwum aham AgawA
+
+ANALYSIS:
+1 yAciwum prayojanam 3
+2 aham karwA 3
+3 AgawA
+
+
+SENT: AjFApaya mAm
+ANALYSIS:
+1 AjFApaya 
+2 mAm karma 1
+
+
+SENT: kRawriyasya puruRakArasya ca yaxyaw uciwam waw sarvam wava pAxayoH arpayAmi
+
+ANALYSIS:
+1 kRawriyasya samucciwam 3
+2 puruRakArasya samucciwam 3
+3 ca RaRTIsambanXaH 5
+4 yaxyaw sambanXaH 6
+5 uciwam prawiyogI 4
+6 waw anuyogI 10
+7 sarvam karma 10
+8 wava RaRTIsambanXaH 9
+9 pAxayoH aXikaraNam 10
+10 arpayAmi
+
+
+SENT: aham wvAm newum AgawA
+
+ANALYSIS:
+1 aham karwA 4
+2 wvAm karma 3
+3 newum prayojanam 4
+4 AgawA
+
+
+SENT: kuwra? (nayawi)
+
+ANALYSIS:
+1 kuwra? aXikaraNam 2
+2 (nayawi)
+
+
+SENT: wava premNaH wqRNAyawe mama hqxayAya
+
+ANALYSIS:
+1 wava RaRTIsambanXaH 2
+2 premNaH SeRasaMbanXaH 3
+3 wqRNAyawe 
+4 mama RaRTIsambanXaH 5***
+5 hqxayAya
+
+
+SENT: parAkramiNAm paFca rAjapuwrANAm BAgyavawi mAwaH! akulInasya kevalam maNdalAXipaweH mama wava hqxaye kuwra sWAnam? (aswi)
+
+ANALYSIS:
+1 parAkramiNAm viSeRaNam 3
+2 paFca viSeRaNam 3
+3 rAjapuwrANAm saMbanXaH 5
+4 BAgyavawi viSeRaNam 5
+5 mAwaH! saMboXya 14
+6 akulInasya viSeRaNam 9
+7 kevalam sambanXaH 8*
+8 maNdalAXipaweH viSeRaNam 9
+9 mama RaRTIsambanXaH 13
+10 wava RaRTIsambanXaH 11
+11 hqxaye aXikaraNam 14
+12 kuwra aXikaraNam 14
+13 sWAnam? karwA 14
+14 (aswi)
+
+
+SENT: mama ananwarapuwreByaH pUrvam eva wava me hqxi sWAnam (aswi)
+
+ANALYSIS:
+1 mama RaRTIsambanXaH 2
+2 ananwarapuwreByaH upapaxasambanXaH 3
+3 pUrvam kAlAXikaraNam 9
+4 eva sambanXaH 3
+5 wava RaRTIsambanXaH 8
+6 me RaRTIsambanXaH 7
+7 hqxi aXikaraNam 9
+8 sWAnam karwA 9
+9 (aswi)
+
+
+SENT: kaH me aXikAraH imam sWAnam prApwum (aswi)
+
+ANALYSIS:
+1 kaH karwA 7
+2 me RaRTIsambanXaH 3
+3 aXikAraH karwqsamAnAXikaraNam 7
+4 imam viSeRaNam 5
+5 sWAnam karma 6
+6 prApwum prayojanam 7
+7 (aswi)
+
+
+SENT: wava xevawayA sUryeNa eva mAwuH premNaH wava aXikAraH kalpiwaH
+
+ANALYSIS:
+1 wava RaRTIsambanXaH 3
+2 xevawayA viSeRaNam 3
+3 sUryeNa karwA 9
+4 eva sambanXaH 3
+5 mAwuH viSeRaNam 6
+6 premNaH RaRTIsambanXaH 8
+7 wava viSeRaNam 6
+8 aXikAraH karma 9
+9 kalpiwaH
+
+
+SENT: sanXyAmAMxyam pqWivIm AvqNowi jalam mOnam ASrayawe
+ANALYSIS:
+1 sanXyAmAMxyam karwA 3
+2 pqWivIm karma 3
+3 AvqNowi 
+4 jalam karwA 6
+5 mOnam karma 6
+6 ASrayawe 
+
+
+SENT: (ahaM) wava svareNa gUDe cEwanye nimagnAm bAlyAvasWAm nIwaH asmi
+ANALYSIS:
+1 (ahaM) karwA 9
+2 wava RaRTIsambanXaH 3
+3 svareNa karwA 8
+4 gUDe viSeRaNam 5
+5 cEwanye aXikaraNam 6
+6 nimagnAm viSeRaNam 7
+7 bAlyAvasWAm karma 8
+8 nIwaH karwqsamAnAXikaraNam 9
+9 asmi 
+
+
+SENT: ayam svapnaH vA Bavawu vismqwasya sawyasya aMSawaH smaraNam vA Bavawu mama anwikam AgacCa mama BAle wava xakRiNahaswam niXehi
+ANALYSIS:
+1 ayam karwA 4
+2 svapnaH anyawaraH 3
+3 vA karwqsamAnAXikaraNam 10
+4 Bavawu 
+5 vismqwasya viSeRaNam 6
+6 sawyasya RaRTIsambanXaH 8
+7 aMSawaH kriyAviSeRaNam 8
+8 smaraNam anyawaraH 3
+9 vA -
+10 Bavawu -
+11 mama upapaxasambanXaH 12
+12 anwikam aXikaraNam 13
+13 AgacCa 
+14 mama RaRTIsambanXaH 16
+15 BAle aXikaraNam 18
+16 wava RaRTIsambanXaH 17
+17 xakRiNahaswam karma 18
+18 niXehi 
+
+
+SENT: aham mama mAwrA pariwyakwaH iwi kiMvaxawI SrUyawe
+ANALYSIS:
+1 aham karwA 4
+2 mama RaRTIsambanXaH 3
+3 mAwrA karaNam 4
+4 pariwyakwaH prawiyogI 5
+5 iwi anuyogI 6
+6 kiMvaxawI karma 7
+7 SrUyawe 
+
+
+SENT: anekAsu rAwriRu mama saMmugXanixrAvasWAyAm sA AgawA 
+ANALYSIS:
+1 anekAsu viSeRaNam 2
+2 rAwriRu aXikaraNam 6
+3 mama RaRTIsambanXaH 4
+4 saMmugXanixrAvasWAyAm aXikaraNam 6
+5 sA karwA 6
+6 AgawA 
+
+
+
+SENT: kinwu wava javanikAm apAvqNu
+ANALYSIS:
+1 kinwu sambanXaH 4
+2 wava RaRTIsambanXaH 3
+3 javanikAm karma 4
+4 apAvqNu 
+
+
+SENT: wava muKam xarSaya iwi mayi vaxawi sA nissarawi
+ANALYSIS:
+1 wava RaRTIsambanXaH 2
+2 muKam karma 3
+3 xarSaya prawiyogI 4
+4 iwi anuyogI 5
+5 mayi karwA 6
+6 vaxawi samAnakAlaH 8
+7 sA karwA 8
+8 nissarawi 
+
+
+SENT: kim ewAxqSaH eva svapnaH mayi jAgqwi eva axya AgawaH
+
+ANALYSIS:
+1 kim sambanXaH 9
+2 ewAxqSaH viSeRaNam 4
+3 eva sambanXaH 4
+4 svapnaH karwA 9
+5 mayi karwA 6
+6 jAgqwi samAnakAlaH 9
+7 eva sambanXaH 6
+8 axya kAlAXikaraNam 9
+9 AgawaH
+
+
+SENT: paSya! naxyAH apare wIre wava puwrANAm vaswrapatalagqhANAm xIpAH xUrawaH prakASanwe
+
+ANALYSIS:
+1 paSya! 
+2 naxyAH RaRTIsambanXaH 4
+3 apare viSeRaNam 4
+4 wIre aXikaraNam 10
+5 wava viSeRaNam 7
+6 puwrANAm viSeRaNam 7
+7 vaswrapatalagqhANAm RaRTIsambanXaH 8
+8 xIpAH karwA 10
+9 xUrawaH apAxAnam 10
+10 prakASanwe
+
+
+SENT: asmin wIre kOravANAm vaswrapatalagqhaSiKarANi sAgarasya swabXawarafgAH iva xqSyanwe
+
+ANALYSIS:
+1 asmin viSeRaNam 2
+2 wIre aXikaraNam 8
+3 kOravANAm RaRTIsambanXaH 4
+4 vaswrapatalagqhaSiKarANi karma 8
+5 sAgarasya RaRTIsambanXaH 6
+6 swabXawarafgAH prawiyogI 7
+7 iva anuyogI 8
+8 xqSyanwe
+
+
+SENT: SvaH pravarwamAnasaMgrAmasya pUrvaxine axya yawra(-i) BUmO yuxXaH pravarwayiwavyaH wawra(+i) eva kimarWaM mama viroXinaH arjunasya mAwuH svareNa mayA vismqwaH mama mAwqBAvaH jFApanIyaH?
+ANALYSIS:
+1 SvaH kAlAXikaraNam 2
+2 pravarwamAnasaMgrAmasya RaRTIsambanXaH 6
+3 pUrvaxine viSeRaNam 4
+4 axya kAlAXikaraNam 21
+5 yawra(-i) aXikaraNam 6
+6 BUmO aXikaraNam 8
+7 yuxXaH karma 8
+8 pravarwayiwavyaH 
+9 wawra(+i) aXikaraNam 21
+10 eva sambanXaH 9
+11 kimarWaM sambanXaH 21
+12 mama viSeRaNam 13
+13 viroXinaH viSeRaNam 14
+14 arjunasya viSeRaNam 15
+15 mAwuH RaRTIsambanXaH 16
+16 svareNa karaNam 21
+17 mayA karwA 18
+18 vismqwaH viSeRaNam 20
+19 mama RaRTIsambanXaH 20
+20 mAwqBAvaH karma 21
+21 jFApanIyaH? 
+
+
+SENT: kimarWam wasyAH jihvAyAm mama nAma ewAvaw mAXuryam ApnuyAw
+ANALYSIS:
+1 kimarWam sambanXaH 8
+2 wasyAH RaRTIsambanXaH 3
+3 jihvAyAm aXikaraNam 8
+4 mama RaRTIsambanXaH 5
+5 nAma karwA 8
+6 ewAvaw viSeRaNam 7
+7 mAXuryam karma 8
+8 ApnuyAw 
+
+
+SENT: yena mama hqxayam arjunam (prawi) pANdavAn prawi ca AkqRtam syAw?
+
+ANALYSIS:
+1 yena hewuH 8
+2 mama RaRTIsambanXaH 3
+3 hqxayam karwA 8
+4 arjunam upapaxasambanXaH 5
+5 (prawi) samucciwam 8
+6 pANdavAn upapaxasambanXaH 7
+7 prawi samucciwam 8
+8 ca sambanXaH 9
+9 AkqRtam karwA 10
+10 syAw?
+
+
+SENT: puwra! mA vilambasva 
+ANALYSIS:
+1 puwra! samboXya 3
+2 mA sambanXaH 3
+3 vilambasva 
+
+
+
+SENT: mayA saha AgacCa
+ (wvaM)
+ANALYSIS:
+1 mayA prawiyogI 2
+2 saha anuyogI 4
+3 AgacCa
+4 (wvaM) karwA 3
+
+
+SENT: vinA praSnAn vinA sanxeham aham AgamiRyAmi
+ANALYSIS:
+1 vinA anuyogI 5
+2 praSnAn prawiyogI 1
+3 vinA anuyogI 5
+4 sanxeham prawiyogI 3
+5 aham karwA 6
+6 AgamiRyAmi 
+
+
+SENT: mama AwmA AhvAnam anumoxawe
+ANALYSIS:
+1 mama RaRTIsambanXaH 2
+2 AwmA karwA 4
+3 AhvAnam karma 4
+4 anumoxawe 
+
+
+SENT: vijayAya saMramBaH yaSasaH ASA xveRAveSaH (ca) ewe sarve svapnaxqRtaviRayAH praBAwe iva miWyABUwAH (sanwi)
+ANALYSIS:
+1 vijayAya prayojanam 2
+2 saMramBaH samucciwam 6
+3 yaSasaH RaRTIsambanXaH 4
+4 ASA samucciwam 6
+5 xveRAveSaH samucciwam 6
+6 (ca) viSeRaNam
+7 ewe viSeRaNam 9
+8 sarve viSeRaNam 9
+9 svapnaxqRtaviRayAH karwA 13
+10 praBAwe prawiyogI 11
+11 iva anuyogI 12
+12 miWyABUwAH karwqsamAnAXikaraNam 13
+13 (sanwi) 
+
+
+SENT: kaWaya kuwra mAm nayasi iwi
+ANALYSIS:
+1 kaWaya 
+2 kuwra aXikaraNam 4
+3 mAm karma 4
+4 nayasi prawiyogI 5
+5 iwi anuyogI 1
+
+
+SENT: naxyAH aparam wIram nayAmi yawra(-i) BayajanakavAlukApraxeSeRu xIpAH prakASanwe
+ (wawra)(+i)
+ANALYSIS:
+1 naxyAH RaRTIsambanXaH 3
+2 aparam viSeRaNam 3
+3 wIram karma 4
+4 nayAmi 
+5 yawra(-i) aXikaraNam 8
+6 BayajanakavAlukApraxeSeRu aXikaraNam 8
+7 xIpAH karwA 8
+8 prakASanwe
+9 (wawra)(+i) aXikaraNam 4
+
+
+SENT: kim wawra me mAwaram prApwum gacCAmi
+ANALYSIS:
+1 kim sambanXaH 6
+2 wawra aXikaraNaM 6
+3 me RaRTIsambanXaH 4
+4 mAwaram karma 5
+5 prApwum prayojanam 6
+6 gacCAmi ?
+
+
+SENT: evam mama puwra (aswu)
+
+ANALYSIS:
+1 evam sambanXaH 4
+2 mama RaRTIsambanXaH 3
+3 puwra samboXya 4
+4 (aswu)
+
+
+SENT: warhi kimarWam aham pariwyakwaH Asam?
+ANALYSIS:
+1 warhi sambanXaH 5
+2 kimarWam sambanXaH 4
+3 aham karwA 5
+4 pariwyakwaH karwqsamAnAXikaraNam 5
+5 Asam? 
+
+
+SENT: mama pUrvajAnAm BUmeH unmIlaya kim mAm gqhaSUnyam viXAya avajFApravAhe akRipaH?
+ANALYSIS:
+1 mama viSeRaNam 2
+2 pUrvajAnAm RaRTIsambanXaH 3
+3 BUmeH RaRTIsaMbanXaH 4
+4 unmIlaya pUrvakAlaH 8
+5 kim saMbanXaH 8
+6 mAm karma 8
+7 gqhaSUnyam karmasamAnAXikaraNaM 8
+8 viXAya 
+9 avajFApravAhe aXikaraNaM 10
+10 akRipaH? 
+
+
+SENT: kimarWam mama arjunasya ca sahajaBrAwqBAvam uwpAtya BIkaraxveRaparyavasAyi vEram uwpAxiwam?
+ANALYSIS:
+1 kimarWam sambanXaH 9
+2 mama samucciwam 4
+3 arjunasya samucciwam 4
+4 ca RaRTIsambanXaH 5
+5 sahajaBrAwqBAvam karma 6
+6 uwpAtya pUrvakAlaH 9
+7 BIkaraxveRaparyavasAyi viSeRaNam 8
+8 vEram karma 9
+9 uwpAxiwam? 
+
+
+SENT: wvam wURNIm sWiwA asi 
+ANALYSIS:
+1 wvam karwA 3
+2 wURNIm kriyAviSeRaNam 3
+3 sWiwA karwqsamAnAXikaraNam 4
+4 asi 
+
+
+
+SENT: wava avajFA viSAlam anXakAram praviSya me afgAni kampayawi
+ANALYSIS:
+1 wava RaRTIsambanXaH 2
+2 avajFA karwA 8
+3 viSAlam viSeRaNam 4
+4 anXakAram karma 5
+5 praviSya pUrvakAlaH 8
+6 me RaRTIsambanXaH 7
+7 afgAni karma 8
+8 kampayawi 
+
+
+SENT: na me praSnAn uwwaraya
+ANALYSIS:
+1 na sambanXaH 4
+2 me RaRTIsambanXaH 3
+3 praSnAn karma 4
+4 uwwaraya 
+
+
+SENT: kimarWam aham mAwqpremNA vaFciwaH iwi mA viSaxaya
+
+ANALYSIS:
+1 kimarWam sambanXaH 4
+2 aham karwA 4
+3 mAwqpremNA karaNam 4
+4 vaFciwaH prawiyogI 5
+5 iwi anuyogI 7
+6 mA sambanXaH 7
+7 viSaxaya
+
+
+SENT: kevalam ixam wAvaw kaWaya yaw wvayA eva vinASiw svargasya vinASAvaSeRAn xruRtam kimarWam axya aham AkArye iwi
+ANALYSIS:
+1 kevalam sambanXaH 2
+2 ixam karma 4
+3 wAvaw sambanXaH 4
+4 kaWaya 
+5 yaw sambanXaH 4
+6 wvayA karwA 8
+7 eva sambanXaH 6
+8 vinASiw viSeRaNam 9*
+9 svargasya RaRTIsambanXaH 10
+10 vinASAvaSeRAn karma 11
+11 xruRtam prayojanam 15
+12 kimarWam sambanXaH 15
+13 axya kAlAXikaraNam 15
+14 aham karwA 15
+15 AkArye prawiyogI 16
+16 iwi anuyogI 4
+
+
+SENT: wava avajFApekRayA aXikena SApena aham SapwA
+ANALYSIS:
+1 wava RaRTIsambanXaH 2
+2 avajFApekRayA viSeRaNam 6*
+3 aXikena viSeRaNam 4
+4 SApena karwA 6
+5 aham karma 6
+6 SapwA 
+
+
+SENT: yaxyapi aham paFcapuwrEH samAvqwA waWApi mama hqxayam apahqwasarvapuwrAH iva vyaWawe
+ANALYSIS:
+1 yaxyapi sambanXaH 5
+2 aham karma 4
+3 paFcapuwrEH karwA 4
+4 samAvqwA prawiyogI 1 
+5 waWApi anuyogI 10
+6 mama RaRTIsambanXaH 7
+7 hqxayam karwA 10
+8 apahqwasarvapuwrAH prawiyogI 9 
+9 iva anuyogI 7
+10 vyaWawe 
+
+
+SENT: pariwyakwena mama praWamapuwreNa yA avajFA anuBUwA wayA mama sarvam suKam apahqwam
+ANALYSIS:
+1 pariwyakwena viSeRaNam 3
+2 mama RaRTIsambanXaH 3
+3 praWamapuwreNa karwA 6
+4 yA viSeRaNam 5
+5 avajFA karma 6
+6 anuBUwA 
+7 wayA karwA 11
+8 mama RaRTIsambanXaH 10
+9 sarvam viSeRaNam 10
+10 suKam karma 11
+11 apahqwam 
+
+
+SENT: yasmin(-i) xurxine mayA mAwqBAvaH xURiwaH wasmin(+i) xine na wvam ekam api vacanam vakwum asamarWaH AsIH
+ANALYSIS:
+1 yasmin(-i) viSeRaNam 2
+2 xurxine aXikaraNam 5
+3 mayA karwA 5
+4 mAwqBAvaH karma 5
+5 xURiwaH 
+6 wasmin(+i) viSeRaNam 7
+7 xine aXikaraNam 15
+8 na sambanXaH 15
+9 wvam karwA 15
+10 ekam viSeRaNam 12
+11 api sambanXaH 12
+12 vacanam karma 13
+13 vakwum sambanXaH 15
+14 asamarWaH karwqsamAnAXikaraNam 15
+15 AsIH 
+
+
+SENT: wava kRamAguNaH wasyAH hqxayam xahawu (kRamAguNaH) pApam ca BasmIkarowu
+ANALYSIS:
+1 wava RaRTIsambanXaH 2
+2 kRamAguNaH karwA 5
+3 wasyAH RaRTIsambanXaH 4
+4 hqxayam karma 5
+5 xahawu samucciwam 8
+6 (kRamAguNaH) karwA 9
+7 pApam karma 9
+8 ca 
+9 BasmIkarowu samucciwam 8
+
+
+SENT: mAwaH! mama aSrUNi mA naya
+
+ANALYSIS:
+1 mAwaH! samboXya 5
+2 mama RaRTisambanXaH 3
+3 aSrUNi karma 5
+4 mA sambanXaH 5
+5 naya
+
+
+SENT: wvAm punaH mama bAhupASena prApwum na aham AgawA
+ANALYSIS:
+1 wvAm karma 5
+2 punaH sambanXaH 5
+3 mama RaRTIsambanXaH 4
+4 bAhupASena karaNam 5
+5 prApwum prayojanam 8
+6 na sambanXaH 8
+7 aham karwA 8
+8 AgawA 
+
+
+SENT: kinwu wava aXikAram prawiRTApayiwum AgawA
+ANALYSIS:
+1 kinwu sambanXaH 5
+2 wava RaRTIsambanXaH 3
+3 aXikAram karma 4
+4 prawiRTApayiwum prayojanam 5
+5 AgawA 
+
+
+SENT: wvaM ehi rAjapuwraH iva BrAwqRu we aXikAram prApnuhi
+
+ANALYSIS:
+1 wvaM karwA 2
+2 ehi 
+3 rAjapuwraH prawiyogI 4
+4 iva anuyogI 8
+5 BrAwqRu aXikaraNam 8
+6 we RaRTIsambanXaH 7
+7 aXikAram karma 8
+8 prApnuhi
+
+
+SENT: aham sUwapuwraH iwi eva aXikam manye
+ANALYSIS:
+1 aham karwA 6
+2 sUwapuwraH prawiyogI 3
+3 iwi anuyogI 5
+4 eva sambanXaH 6
+5 aXikam karma 6
+6 manye 
+
+
+SENT: iwopi aXikam vaMSagOravam na apekRe
+
+ANALYSIS:
+1 iwopi sambanXaH 5
+2 aXikam viSeRaNam 3
+3 vaMSagOravam karma 5
+4 na sambanXaH 5
+5 apekRe
+
+
+SENT: waw waWA eva aswu
+ANALYSIS:
+1 waw karwA 4
+2 waWA kriyAviSeRaNam 4
+3 eva sambanXaH 4
+4 aswu 
+
+
+SENT: rAjyam wu prApnuhi yawra(-i) we aswi aXikAraH wawra(+i)
+ANALYSIS:
+1 rAjyam karma 3
+2 wu sambanXaH 1
+3 prApnuhi 
+4 yawra(-i) aXikaraNam 6
+5 we RaRTIsambanXaH 7
+6 aswi 
+7 aXikAraH karwA 6
+8 wawra(+i) aXikaraNam 3
+
+
+SENT: kim ixam yukwam yaw mAwqpremNA mAm vaFciwavawyA wvayA aham ixAnIm rAjyena loBanIyaH iwi 
+ANALYSIS:
+1 kim sambanXaH 3
+2 ixam karma 3
+3 yukwam 
+4 yaw sambanXaH 3
+5 mAwqpremNA karaNam 7
+6 mAm karma 7
+7 vaFciwavawyA viSeRaNam 8
+8 wvayA karwA 12
+9 aham karma 12
+10 ixAnIm kAlAXikaraNam 12
+11 rAjyena karaNam 12
+12 loBanIyaH prawiyogI 13
+13 iwi anuyogI 4
+
+
+
+SENT: wvayA mUle eva nikqnwiwaH BrAwqBAvaH ixAnIm vinaRtaH
+ANALYSIS:
+1 wvayA karwA 4
+2 mUle aXikaraNam 4
+3 eva sambanXaH 2
+4 nikqnwiwaH viSeRaNam 5
+5 BrAwqBAvaH karma 7
+6 ixAnIm kAlAXikaraNam 7
+7 vinaRtaH 
+
+
+SENT: saH na kaxApi prarohew
+ANALYSIS:
+1 saH karwA 4
+2 na sambanXaH 4
+3 kaxApi kAlAXikaraNam 4
+4 prarohew 
+
+
+SENT: sUwagqhe vixyamAnAm mama mAwaram vihAya yaxi aham ixAnIm rAjamAwaram mAwaram vaxAmi warhi kqpaNaH syAm
+ ahaM
+ANALYSIS:
+1 sUwagqhe aXikaraNam 2
+2 vixyamAnAm viSeRaNam 4
+3 mama RaRTIsambanXaH 4
+4 mAwaram karma 5
+5 vihAya pUrvakAlaH 11
+6 yaxi sambanXaH 12
+7 aham karwA 11
+8 ixAnIm kAlAXikaraNam 11
+9 rAjamAwaram karma 11
+10 mAwaram karmasamAnAXikaraNam 9
+11 vaxAmi prawiyogI 6
+12 warhi anuyogI 14
+13 kqpaNaH karwqsamAnAXikaraNam 15
+14 syAm
+15 ahaM karwA 14
+
+
+SENT: puwra garIyAn asi wvaM
+ANALYSIS:
+1 puwra samboXya 3
+2 garIyAn karwqsamAnAXikaraNam 4
+3 asi 
+4 wvaM karwA 3
+
+
+SENT: xevaxaNdaH sUkRmabIjarUpeNa ArabXaH mahAn Bavawi
+ANALYSIS:
+1 xevaxaNdaH karwA 5
+2 sUkRmabIjarUpeNa hewuH 5
+3 ArabXaH viSeRaNam 1
+4 mahAn karwqsamAnAXikaraNam 1
+5 Bavawi 
+
+
+SENT: mAwrA pariwyakwaH SiSuH svaBrAwQNAm eva SawruH Bavawi
+
+ANALYSIS:
+1 mAwrA karwA 2
+2 pariwyakwaH viSeRaNam 3
+3 SiSuH karwA 7
+4 svaBrAwQNAm RaRTIsambanXaH 6
+5 eva sambanXaH 3
+6 SawruH karwqsamAnAXikaraNam 7
+7 Bavawi
+
+
+SENT: mAwaH! BIwA mA Bava wvaM 
+ANALYSIS:
+1 mAwaH! samboXya 4
+2 BIwA karwqsamAnAXikaraNam 5
+3 mA sambanXaH 4
+4 Bava 
+5 wvaM karwA 4
+
+
+
+SENT: pANdavAH eva vijayIBaveyuH iwi aham jAnAmi
+ANALYSIS:
+1 pANdavAH karwA 3
+2 eva sambanXaH 1
+3 vijayIBaveyuH prawiyogI 4
+4 iwi anuyogI 5
+5 aham karwA 6
+6 jAnAmi 
+
+
+SENT: ayam ca vijayaH SAnwaH sWiraH ca syAw
+ANALYSIS:
+1 ayam viSeRaNam 3
+2 ca 
+3 vijayaH karwA 6
+4 SAnwaH samucciwaM 6
+5 sWiraH samucciwaM 6
+6 ca karwqsamAnAXikaraNam 7
+7 syAw 
+
+
+SENT: waWApi me hqxayam sAhasam anapekRiwapariNAmam ca ASAswe
+ANALYSIS:
+1 waWApi sambanXaH 7
+2 me RaRTIsambanXaH 3
+3 hqxayam karwA 7
+4 sAhasam samucciwam 6
+5 anapekRiwapariNAmam samucciwam 6
+6 ca karma 7
+7 ASAswe 
+
+
+SENT: yeRAm parAjayaH niSciwaH eva wAn wyakwum mA mAm upaxiSa 
+ANALYSIS:
+1 yeRAm RaRTIsambanXaH 2
+2 parAjayaH karma 3
+3 niSciwaH 
+4 eva sambanXaH 3
+5 wAn karma 6
+6 wyakwum prayojanam 9
+7 mA sambanXaH 9
+8 mAm karma 9
+9 upaxiSa 
+
+
+
+SENT: pANdavAH vijayinaH Bavanwu 
+ANALYSIS:
+1 pANdavAH karwA 3
+2 vijayinaH karwqsamAnAXikaraNam 3
+3 Bavanwu 
+
+
+
+SENT: aham wu nirASagraswEH sarvapariwyakwEH sahEva wiRTAmi
+ 
+ANALYSIS:
+1 aham karwA 6
+2 wu sambanXaH 1
+3 nirASagraswEH viSeRaNam 4
+4 sarvapariwyakwEH prawiyogI 5
+5 sahEva anuyogI 1
+6 wiRTAmi
+
+
+
+SENT: yasyAm(-i) rAwrO aham jAwaH wasyAm(+i) aham anAmaXeyaH nagnaH eva pariwyakwaH 
+ANALYSIS:
+1 yasyAm(-i) viSeRaNam 2
+2 rAwrO aXikaraNam 4
+3 aham karwA 4
+4 jAwaH 
+5 wasyAm(+i) aXikaraNam 10
+6 aham karwA 10
+7 anAmaXeyaH karwqsamAnAXikaraNam 6
+8 nagnaH karwqsamAnAXikaraNam 6
+9 eva sambanXaH 6
+10 pariwyakwaH 
+
+
+
+SENT: ixAnIm api niGqNA sawI wvaM mAm praSAnwawayA parAjayam mqwyum ca prApwum pariwyaja
+
+ANALYSIS:
+1 ixAnIm kAlAXikaraNam
+2 api sambanXaH 1
+3 niGqNA karwA 4
+4 sawI samAnakAlaH 11
+5 wvaM karwA 12
+6 mAm karma 12
+7 praSAnwawayA kriyAviSeRaNam 11
+8 parAjayam samucciwam 10
+9 mqwyum samucciwam 10
+10 ca karma 11
+11 prApwum prayojanam 12
+12 pariwyaja
+
+

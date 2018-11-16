@@ -1,0 +1,369 @@
+<!--
+#  Copyright (C) 2010-2018 Amba Kulkarni (ambapradeep@gmail.com)
+#
+#  This program is free software; you can redistribute it and/or
+#  modify it under the terms of the GNU General Public License
+#  as published by the Free Software Foundation; either
+#  version 2 of the License, or (at your option) any later
+#  version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+-->
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<script type="text/javascript" src="js_files/jquery.min.js"></script>
+<script type="text/javascript" src="js_files/callcgiscripts.js"></script>
+<script type="text/javascript" src="js_files/transliteration.js"></script>
+
+<script type="text/javascript" src="js_files/jquery-ui.js"></script>
+<!--<script src="js_files/validation.js"></script> -->
+
+<meta http-equiv="CONTENT-TYPE" content="text/html; charset=utf-8" />
+<meta name ="keywords" content="india,indology,sanskrit,lexicography,linguistics,computational linguistics,tools, morph analyser" />
+<meta name ="date" content="2011-10-5" />
+<meta name="classification" content="computational linguistics, sanskrit, morphology, lexicography, indology" />
+<meta name="description" content="This site provides tools for Analysis of Sanskrit processing: morphological analysis and generation, segmentation, sandhi splitter, and parsing." />
+
+<!-- All css links for all modules -->
+<!-- <link rel="stylesheet" href="css_files/jquery-ui.css"> -->
+<link rel="stylesheet" href="css_files/samsaadhanii.css"/>
+<link rel="stylesheet" href="css_files/menu.css"/>
+<link rel="stylesheet" href="css_files/sktmt.css"/>
+
+
+<!-- All javascripts links for all modules -->
+
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+$("#content").load("description.html");
+
+    $(".ddmenu").mouseover(function(){
+        $(".dropdown_5columns").show();
+    });
+
+  $(".project-pix-div").click(function(){
+    $("#content").load("description.html");
+  });
+
+  $("#morph-analyser").click(function(){
+    $("#content").load("morph/morph.html");
+    $(".dropdown_5columns").hide();
+  });
+  
+  $("#sandhi-joiner").click(function(){
+    $("#content").load("sandhi/sandhi.html");
+    $(".dropdown_5columns").hide();
+  });
+  
+  $("#sandhi-splitter").click(function(){
+    $("#content").load("sandhi_splitter/sandhi_splitter.html");
+    $(".dropdown_5columns").hide();
+  });
+  
+  $("#project-pix-div").click(function(){
+    $("#content").load("description.html");
+  });
+  
+  $("#noun").click(function(){
+    $("#content").load("skt_gen/noun/noun.html");
+    $(".dropdown_5columns").hide();
+  });
+  
+  $("#verb-fnd").click(function(){
+    $("#content").load("skt_gen/verb/verb.html");
+    $(".dropdown_5columns").hide();
+  });
+  
+  $("#kridant-fnd").click(function(){
+    $("#content").load("skt_gen/kqw/kqw.html");
+    $(".dropdown_5columns").hide();
+  });
+  
+  $("#waxXiwa-fnd").click(function(){
+    $("#content").load("skt_gen/waxXiwa/waxXiwa.html");
+    $(".dropdown_5columns").hide();
+  });
+  
+  $("#transliterate").click(function(){
+    $("#content").load("transliteration/transliteration.html");
+    $(".dropdown_5columns").hide();
+  });
+  
+  $("#ashtadhyayi-simulator").click(function(){
+    $("#content").load("ashtadhyayi_simulator/ashtadhyayi.html");
+    $(".dropdown_5columns").hide();
+  });
+
+  $("#compound_gen").click(function(){
+    $("#content").load("skt_gen/compounds/index.html");
+    $(".dropdown_5columns").hide();
+  });
+  
+  $("#nyaya").click(function(){
+     $(".dropdown_5columns").hide();
+  });
+  
+  
+  $("#contactLink").click(function(){
+                    if ($("#contactForm").is(":hidden")){
+                        $("#contactForm").slideDown("slow");
+                    }
+                    else{
+                        $("#contactForm").slideUp("slow");
+                    }
+     });
+                
+  $("#hidecontactform").click(function(){
+    $("#contactForm").hide("slow");
+  });
+  
+});
+
+function closeForm(){
+                $("#messageSent").show("slow");
+                setTimeout('$("#messageSent").hide();$("#contactForm").slideUp("slow")', 2000);
+                
+             	$.post("feedback.cgi",{"name":$("#name").val(),"Message":$("#Message").val(),"Email":$("#Email").val()},function(data){
+               	$("#output").html(data);
+     		});
+               	
+               	return false;
+ }
+
+</script>
+<title> संसाधनी </title>
+</head>
+
+<body>
+<script type="text/javascript" src="js_files/wz_tooltip.js"></script>
+<div class="main-container">
+
+<div class="samsaadhani">
+<table>
+<tr>
+<td class="sam-div1">
+<div  class="project-pix-div"><img class="samsaadhani-img" src="imgs/samsadhani3.jpg" alt="Samsaadhanii logo"/></div>
+</td>
+
+<td class="sam-div2">
+<div id="mmmm">
+<ul id="menu">
+     <li class="ddmenu"><a href="#" class="drop">साधनानि <br /> Tools</a>
+     <div class="dropdown_5columns">
+     
+     <table border="0">
+     <tr>
+     <td style="width:300px; vertical-align:top;">
+                <!-- <h2>Analysers</h2> -->
+              
+                 <table class="skttools">
+                    <tr><td><b><span id="morph-analyser">पद-विश्लेषिका (Morphological Analyser)</span></b></td></tr>
+                    <tr><td><b><span id="sandhi-joiner">सन्धिः (Sandhi)</span></b></td></tr>
+                    <tr><td><b><span id="sandhi-splitter">सन्धि-विच्छेदिका (Sandhi-Splitter)</span></b></td></tr>
+                    <!-- <tr><td><b><span id="parser">कारकविश्लेषिका (Parser)</span><b></td></tr> -->
+                    <tr><td><b><span id="ashtadhyayi-simulator">प्रक्रिया-सन्दर्शिनी (Aṣṭādhyāyī Simulator) </span></b></td></tr>
+                    <tr><td><b><span id="transliterate"> लिपि-परिवर्तनिका (Transliteraion) </span></b></td></tr>
+                    <tr><td><b><a href="NN/segmenter"><span id="nyaya">न्यायचित्रदीपिका (Nyāyacitradīpikā) </span></a></b></td></tr>
+                </table>         
+            
+     </td>
+     <td  style="width:300px;vertical-align:top;">
+	           <!-- <h2>Generators</h2> -->
+                    
+             <table class="skttools">
+              <tr><td><span id="morph-gen-lb"><b>पद-निष्पादिका / Morphological Generator</b></span></td></tr>
+	      <tr><td><span id="noun">&nbsp;&nbsp; &rArr; नामरूपनिष्पादिका (Noun-Generator)</span></td></tr>
+	      <tr><td><span id="verb-fnd">&nbsp;&nbsp; &rArr;  क्रियारूपनिष्पादिका (Verb-forms-Generator)</span></td></tr>
+	      <tr><td><span id="kridant-fnd">&nbsp;&nbsp;&rArr; कृदन्तरूपनिष्पादिका (Krt-Generator) </span></td></tr>
+	      <tr><td><span id="waxXiwa-fnd">&nbsp; &rArr; तद्धितरूपनिष्पादिका (Taddhita-Generator)</span></td></tr>
+	     </table>
+	     <table class="skttools">
+                    <tr><td><b><a href="skt_gen/compounds/start.html"><span id="compound_gen">समस्तपदव्युत्पादिका (Compound Generator) </a></span></b></td></tr>
+             </table>         
+              
+    
+                 </td>
+     </tr>
+     </table>
+           
+     </div>
+     </li>
+
+    <li class="ddmenu"><a href="#" class="drop">कोशाः <br /> Dictionaries</a><!-- Begin 4 columns Item -->
+    
+        <div class="dropdown_2columns"><!-- Begin 4 columns container -->
+                   
+           <div class="col_2">
+            
+   <!--            <h3>Sanskrit - English </h3>
+               <table class="skttools">
+                    <tr><td><b><a href="http://sanskrit.uohyd.ernet.in/~karunakara/dictionaries/san-eng/"> <span>Vyavaharaguna-kosha</span></a></b></td></tr>                    
+                </table>   
+		
+	     
+	     
+	      <h3> Sanskrit - Hindi </h3>
+	      <table class="skttools">
+                    <tr><td><b><a href="http://sanskrit.uohyd.ernet.in/~karunakara/dictionaries/apte/"> <span>Shivaram Vaman Apte </span></a></b></td></tr>                    
+                </table>   
+	      	      
+	     
+	      <h3> English - Sanskrit </h3>
+	      <table class="skttools">
+                    <tr><td><b><a href="http://sanskrit.uohyd.ernet.in/~karunakara/dictionaries/mw/"><span>Monier Williams </span></a></b></td></tr>
+                    <tr><td><b><a href="http://sanskrit.uohyd.ernet.in/~karunakara/dictionaries/eng-san/"><span>Vyavaharaguna-kosha </span></a> </b></td></tr>                    
+                </table> -->
+	      
+	      <h3> अमरकोशः/Amarakosha </h3>
+	       <table class="skttools">
+                    <tr><td><b><a href="amarakosha/index.html"><span>Knowledge-Net of Amarakosha</span></a></b></td></tr>                    
+                </table>
+	      <h3> धातुपाठः /Dha&#772tupa&#772;tha </h3>
+	       <table class="skttools">
+                    <tr><td><b><a href="dhaatupaatha/index.html"><span>Concordance of Pa&#772;n&#803;inian Dh&#772;tuvr&#803;ttis</span></a></b></td></tr>                    
+                </table>
+	    </div>
+	  </div><!-- End 4 columns container -->
+    
+     </li><!-- End 4 columns Item -->
+
+   <li class="ddmenu"><a href="#" class="drop">कॉर्पस् <br /> Corpus </a>
+         <div class="dropdown_1column">
+         <p><a href="http://sanskrit.uohyd.ac.in/Corpus/">Digital Resources</a></p>
+         <p><a href="GOLD_DATA/Tagging_Guidelines/guidelines.html">Tagging Guidelines</a></p>
+        <p><a href="GOLD_DATA/tagged_data.html">Tagged Corpora</a></p>
+         </div>
+   </li>
+   
+    <li><a href="http://sanskrit.uohyd.ac.in/faculty/amba#d4" class="drop" id="publications">प्रकाशनानि <br /> Publications</a></li>
+      
+    <li class="ddmenu"><a href="#" class="drop">शोधकार्याणि <br />Thesis</a>
+    <div class="dropdown_2columns align_right">
+     <table border="0">
+     <tr>
+     <td style="width:100px; vertical-align:top;">
+<!-- Begin 3 columns container -->
+            <h2>M.Phil.</h2>
+            
+          <table><tr><td>
+                <ul class="greybox">
+                    <li><a href="http://sanskrit.uohyd.ac.in/faculty/amba/PUBLICATIONS/Student_Thesis/Shailaja_MPhil.pdf">Shailaja - 2009</a></li>
+                    <li><a href="http://sanskrit.uohyd.ac.in/faculty/amba/PUBLICATIONS/Student_Thesis/Preeti_MPhil.pdf">Preeti Shukla - 2010</a></li>
+                    <li><a href="http://sanskrit.uohyd.ac.in/faculty/amba/PUBLICATIONS/Student_Thesis/Monali_MPhil.pdf">Monali Das - 2010</a></li>
+                    <li>K. Surendra - 2011</li>
+                    <li>V V R Avinash Kumar - 2014</li>
+                </ul>   
+   </td></tr> </table></td>
+            
+   <td style="width:100px; vertical-align:top;">
+                <h2>Ph.D.</h2>
+    
+          <table><tr><td>
+                <ul class="greybox">
+                    <li><a href="http://sanskrit.uohyd.ac.in/faculty/amba/PUBLICATIONS/Student_Thesis/shivaja.pdf">Sivaja S. Nair - 2011</a></li>
+                    <li><a href="http://sanskrit.uohyd.ac.in/faculty/amba/PUBLICATIONS/Student_Thesis/anil.pdf">Anil Kumar - 2012</a></li>
+                    <li><a href="http://sanskrit.uohyd.ac.in/faculty/amba/PUBLICATIONS/Student_Thesis/shailaja_PhD.pdf">Shailaja N. - 2014</a></li>
+                    <li><a href="http://sanskrit.uohyd.ac.in/faculty/amba/PUBLICATIONS/Student_Thesis/Pavan_PhD.pdf">Pavankumar Satuluri - 2016</a></li>
+                    <li><a href="http://sanskrit.uohyd.ac.in/faculty/amba/PUBLICATIONS/Student_Thesis/Monali_PhD.pdf">Monali Das - 2017</a></li>
+                    <li><a href="http://sanskrit.uohyd.ac.in/faculty/amba/PUBLICATIONS/Student_Thesis/Arjuna_PhD.pdf">Arjuna S.R. - 2017</a></li>
+                </ul>   
+          </td></tr> </table> </td>
+</tr></table> 
+   </div>
+   </li> 
+    <li><a href="http://scl.samsaadhanii.in:8080/searchengine/" class="drop">गवेषिका <br /> Search Engine</a></li>
+    <li><a href="SHMT/index.html" class="drop" id="sktmt">अनुसारकम् <br /> MT(Skt-Hnd)</a></li>
+    <li class="ddmenu"><a href="#" class="drop">सविश्लेषण-e-ग्रन्थ<br /> e-readers</a>
+        <div class="dropdown_2columns">
+	       <table class="skttools">
+                    <tr><td><b><a href="e-readers/sankshepa_ramayanam/index.html"><span>संक्षेपरामायणम्</span></a></b></td></tr>                    
+                </table>
+	       <table class="skttools">
+                    <tr><td><b><a href="e-readers/sbg/main.html"><span>श्रीमद्भगवद्गीता</span></a></b></td></tr>                    
+                </table>
+	       <table class="skttools">
+                    <tr><td><b><a href="e-readers/shishu/"><span>शिशुपालवधम्</span></a></b></td></tr>                    
+                </table>
+	  </div>
+     </li>
+<!--    <li><a href="#" class="drop" id="contactLink"> सम्पर्कः <br />Contact Us</a></li> -->
+</ul>
+<div class="line-div"> <center><font color="magenta" size="3">5th Jul 2018 </font>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</center>
+</div>
+</td> <!-- Menu td ends here -->
+</tr>
+</table>
+</div> <!-- samsaadhanii div ends here -->
+
+<!--<div id="contactFormContainer">
+
+                <div id="contactForm">
+                
+                    <fieldset>
+                        <label >Name *</label>
+                        <input id="name" type="text" name="name" />
+                        <label for="Email">Email address *</label>
+                        <input id="Email" type="text" name="Email"/>
+                        <label for="Message">Your message *</label>
+                        <textarea id="Message" rows="5" cols="40" name="Message"></textarea>
+                        <input id="sendMail" type="submit" name="submit" onclick="closeForm()" />
+                        <span id="hidecontactform">&#x2718; Close&nbsp;&nbsp;&nbsp;</span>
+                        <span id="messageSent">Your message has been sent successfully!</span>
+                   </fieldset>
+                </div>
+            </div> -->
+
+<div id="content">  </div><!--content ends here -->
+
+<div class="tail"> &nbsp; </div>
+<div id="copyright-lb">
+<table>
+<tr>
+<td id="copy-verify">
+<p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+        src="imgs/w3c.jpg"
+        alt="Valid XHTML 1.0 Transitional" height="31" width="" style="border-style:none;" /></a>
+  </p>
+</td>
+<td id="copy-info">
+<center>
+<p> <span class="cons">© 2002-18 <a href="http://sanskrit.uohyd.ac.in/faculty/amba" target="_blank">Amba Kulkarni</a></span></p>
+</center>
+</td>
+<td>
+<center>
+<p> <span class="cons1"><a href="contributors.html" target="_blank">Contributors</a></span></p>
+</center>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- <img src="http://scl.samsaadhanii.in/cgi-bin/Count.cgi?ft=0&df=sample.dat" alt="Count"> -->
+
+</div><!--container-div ends here -->
+<!-- Start of StatCounter Code for Default Guide -->
+<div id="counter">
+<script type="text/javascript" src="/scl/statcounter_dummy.js">
+</script>
+<noscript><div class="statcounter"><a title="web analytics" href="http://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/8421849/0/34917efe/0/" alt="web analytics" /></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+</div>
+</body>
+</html>

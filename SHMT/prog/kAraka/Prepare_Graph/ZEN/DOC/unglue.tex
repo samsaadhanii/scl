@@ -1,0 +1,82 @@
+\section{Finite State Machines as Lexicon Morphisms}
+
+\subsection{Finite-state lore}
+
+Computational phonetics and morphology is one of the main applications
+of finite state methods: regular expressions, rational languages, 
+finite-state automata and transducers, rational relations have been the
+topic of systematic investigations \cite{mohri, rs2}, and have been used widely
+in speech recognition and natural language processing applications.
+These methods usually combine logical structures such as rewrite rules 
+% and type-theoretical frameworks \cite{ranta} TODO talk about GF
+with statistical ones such as weighted automata derived from hidden Markov
+chains analysis in corpuses. In morphology, the pioneering work of
+Koskenniemi \cite{kosk} was put in a systematic framework of rational relations
+and transducers by the work of Kaplan and Kay \cite{kk} which is the basis for
+the Xerox morphology toolset \cite{karttunen1,karttunen2,beeskar}.
+In such approaches, lexical data bases and phonetic and morphological
+transformations are systematically compiled in a low-level algebra of 
+finite-state machines operators. Similar toolsets have been developed at
+University Paris VII, Bell Labs, Mitsubishi Labs, etc.
+
+Compiling complex rewrite rules in rational transducers is however rather
+subtle. Some high-level operations are more easily expressed over deterministic
+automata, certain others are easier to state with $\epsilon$-transitions,
+still others demand non-deterministic descriptions. Inter-traductions are
+well known, but tend to make the compiled systems bulky, since for instance
+removing non-determinism is an exponential operation in the worst case. 
+Knowing when to compact and minimize the descriptions is a craft which is 
+not widely disseminated, and thus there is a gap between theoretical
+descriptions, widely available, and operational technology, kept confidential.
+
+Here we shall depart from this fine-grained methodology and propose more
+direct translations which preserve the structure of large modules such
+as the lexicon. The resulting algorithms will not have the full generality
+of the standard approach, and the ensuing methodology may be thought by some
+as a backward development. Its justification lies in the greater efficiency
+of such direct translations, together with a simpler understanding of
+high-level operations which may be refined easily e.g. with statistical 
+refinements, whereas the automata compiled by complex sequences of 
+fine-grained operations are opaque blackboxes which are not easily
+amenable to heuristic refinements by human programming. Furthermore, the
+techniques are complementary, and 
+it is envisioned that a future version of our % the Zen 
+toolset will offer both fine-grained and lexicon-based technologies. 
+
+The point of departure of our approach is the above remark that a lexicon 
+represented as a lexical tree or trie is {\sl directly} the state space 
+representation of the (deterministic) finite state machine that recognizes 
+its words, and that its minimization consists {\sl exactly} in sharing
+the lexical tree as a dag. Thus we are in a case where the state graph 
+of such finite languages recognizers is an acyclic structure. Such
+a pure data structure may be easily built without mutable references, and thus
+allocatable in the static part of the heap, which the garbage collector need
+not visit, an essential practical consideration. Furthermore, avoiding 
+a costly reconstruction of the automaton from the lexicon data base is a 
+computational advantage.
+
+In the same spirit, we shall define automata which implement non-trivial 
+rational relations (and their inversion) and whose state structure is 
+nonetheless a more or less direct decoration of the lexicon trie. The crucial
+notion is that the state structure is a {\sl lexicon morphism}.
+
+\subsection{Unglueing}
+
+We shall start with a toy problem which is the simplest case of juncture
+analy\-sis, namely when there are no non-trivial juncture rules, and 
+segmentation consists just in retrieving the words of a sentence
+glued together in one long string of characters (or phonemes). 
+Let us consider an instance of
+the problem say in written English. You have a text file
+consisting of a sequence of words separated with blanks, and you have
+a lexicon complete for this text (for instance, `spell' has been successfully
+applied). Now, suppose you make some editing mistake, which removes all
+spaces, and the task is to undo this operation to restore the original.
+
+We shall show that the corresponding transducer may be defined as a simple
+navigation in the lexical tree state space, but now with a measure of
+non-determinism. Let us give the detailed construction of this unglueing
+automaton. 
+
+The transducer is defined as a functor, taking the lexicon trie structure
+as parameter.

@@ -1,0 +1,133 @@
+/*
+Copyright (C) 2005 Sunil Mohan Adapa <sunil atc atc tcs co in>
+
+This program is free software; you can redistribute it and/or 
+modify it under the terms of the GNU General Public License 
+as published by the Free Software Foundation; either 
+version 2 of the License, or (at your option) any later 
+version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+*/
+
+td.number	{ background-color: lightgreen;			} 
+td.N1		{ background-color: #00BFFF /* deepskyblue*/	}
+td.N2		{ background-color: #93DB70/*Green Yellow*/	}
+td.N3		{ background-color: #40E0D0 /*turquoise*/	}
+td.N4		{ background-color: #B0E2FF/*skyblue*/		}
+td.N5		{ background-color: rgb(180,255,180) /*lightgreen*/		}
+td.N6		{ background-color: rgb(135,206,235); /*skyblue*/	}
+td.N7		{ background-color: rgb(198,226,235); /*slategrey*/	}
+td.N8		{ background-color: #6FFFC3 /*Aquamarine*/	}
+td.NA		{ background-color: #FF99FF /*Mauve*/	}
+td.KP		{ background-color: #FF1975 /*Cadmiumredlight*/	}
+
+li.number	{ background-color: lightgreen;			} 
+li.N1		{ background-color: #00BFFF /* deepskyblue*/	}
+li.N2		{ background-color: #93DB70/*Green Yellow*/	}
+li.N3		{ background-color: #40E0D0 /*turquoise*/	}
+li.N4		{ background-color: #B0E2FF/*skyblue*/		}
+li.N5		{ background-color: rgb(180,255,180) /*lightgreen*/		}
+li.N6		{ background-color: rgb(135,206,235); /*skyblue*/	}
+li.N7		{ background-color: rgb(198,226,235); /*slategrey*/	}
+li.N8		{ background-color: #6FFFC3 /*Aquamarine*/	}
+li.NA		{ background-color: #FF99FF /*Mauve*/	}
+li.KP		{ background-color: #FF1975 /*Carmin*/	}
+
+ul.number	{ background-color: lightgreen;			} 
+ul.N1		{ background-color: #00BFFF /* deepskyblue*/	}
+ul.N2		{ background-color: #93DB70/*Green Yellow*/	}
+ul.N3		{ background-color: #40E0D0 /*turquoise*/	}
+ul.N4		{ background-color: #B0E2FF/*skyblue*/		}
+ul.N5		{ background-color: rgb(180,255,180) /*lightgreen*/		}
+ul.N6		{ background-color: rgb(135,206,235); /*skyblue*/	}
+ul.N7		{ background-color: rgb(198,226,235); /*slategrey*/	}
+ul.N8		{ background-color: #6FFFC3 /*Aquamarine*/	}
+ul.NA		{ background-color: #FF99FF /*Mauve*/	}
+ul.KP		{ background-color: #FF1975 /*Cadmiumredlight*/	}
+
+td.number
+{
+  padding-left: 3px;
+  padding-right: 3px;
+  border-left: solid 2px black;
+}
+
+td
+{
+  border-left: 0px;
+  border-top: 0px;
+  line-height: 1.4em; /* TODO: Ugly way of doing this */
+  white-space: nowrap;
+
+  /* dynamic */
+  border-right: solid 1px white;
+  border-bottom: solid 1px white;
+}
+
+body
+{
+  font-family: "sans";
+  font-size: smaller;
+}
+
+table
+{
+  float: left;
+  margin-bottom: 10px;
+/*  text-align: center;*/
+}
+
+input.suggestion
+{
+  border: solid 1px white;
+  width: 100%;
+}
+
+input.submit_button,
+div.submit_button_block
+{
+  width: 0px;
+  height: 0px;
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+form.suggestion
+{
+  margin: 0px;
+  display: inline;
+}
+
+#help {
+  float: right;
+  margin-right: 2em;
+}
+
+#about {
+  float: center;
+}
+
+#navigation {
+  position: fixed;
+  background: white;
+  border-top: ridge;
+  bottom: 0;
+  width: 100%;
+}
+div.bottom {
+  clear: both;
+  height: 3em;
+}
+div.float_clear {
+  clear: both;
+}

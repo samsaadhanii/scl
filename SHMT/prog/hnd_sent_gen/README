@@ -1,0 +1,43 @@
+This directory contains programs related to transformations of Sanskrit syntax to Hindi.
+
+Sanskrit and Hindi differ in the following aspects:
+
+a) Hindi takes an ergative marker 'ne' in the past tense, whereas Sanskrit does not have it.
+   e.g. rAma ne kAma kiyA.
+ Function name: add_ne 
+ File name: add_ne.pl
+
+b) The karma vibhkati in Hindi is not always present.
+   e.g. rAma Pala KAwA hE.
+ Function name:handle_hindi_idio_karma_ko
+ File Name: hindi_idio_karma_ko.pl
+
+c) When a Sanskrit verb is translated to a conjunct verb in Hindi (kriyAmUla), then the karma vibhakti and also the agreement in Hindi changes.
+In the case of negation, the negative particle occurs after the kriyAmUla, but before the verb.
+ e.g. sIwA rAmam anusarawi -> sIwA rAma_kA anusaraNa_karawI_hE.
+ Function Name: kriyAmUla_karma_viBakwi, handle_kriyAmUla_verb_agr
+ File name: kriyAmUla_karma_vibh.pl, kriyAmUla_verb_agr.pl
+
+d) When the karwA and karma vibhkatis change, then the noun-verb agreement also changes. This needs to handled.
+Function Name: copy_abhihita_gen_num_to_verb
+File name: handle_noun_verb_agr.pl
+
+e) Hindi does not have the neuter gender. Therefore the agreement between karwA and karwA_samAnAXikaraNa needs to be checked.
+ Function Name: karwA_and_karwA_samAnAXikaraNa_agr
+ File name: predicative_adj_agr.pl
+
+f) In Sanskrit viSeRaNas agree with the viSeRyas in gender, number and person.
+   In Hindi on the other hand, the viSeRaNa-viSeRya form a chunk/quasi-compound, and the viSeRaNas have only the oblique marker.
+ maXuram Palam -> maXura_ko Pala_ko -> maXura Pala_ko
+ Function Name: chunk_viSeRaNa
+ File Name: intra_chunk.pl
+
+g) In Sanskrit the RaRTI viBakwi may be ambiguous if the viSeRya also has RaRTI viBhakti.
+e.g. W1{6} W2{6} may mean either W1 is related to W2 by RaRTI sambanXa or it may mean W1 is a viSeRaNa of W2.
+ Function Name: handle_RaRTI_lifgam
+ File Name: intra_chunk_RaRTI_agr.pl
+
+h) Finally, the current Hindi generator has wu-wuma-Apa, where wu is singular, wuma is honorific and Apa is plural.
+So if yuRmax is mapped to wuma, then wuma takes singular number, and the o/p is wrong. This is handled by a simple module that handles honorificity in second case.
+Function Name: handle_second_person_honorificity
+File Name: hindi_second_person_honorificity.pl

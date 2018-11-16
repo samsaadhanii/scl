@@ -1,0 +1,68 @@
+\subsection{Some statistics}
+
+\vspace*{15pt}
+
+If we apply this technique to our English lexicon, with command:\\
+\verb:dagify <english.rem >small.rem:, we now get an optimal
+representation which only needs 1Mb of storage, half of the
+original ASCII string representation.
+
+The recursive algorithms given so far are fairly straightforward. 
+They are easy to debug, maintain and modify,
+due to the strong typing safeguard of ML, and even easy to formally certify. 
+They are nonetheless efficient enough for production use, thanks to the
+optimizing native-code compiler of Objective Caml. 
+
+In our Sanskrit application, the trie of 11500 entries
+is shrunk from 219Kb to 103Kb in 0.1s, whereas the trie of 120000 flexed
+forms is shrunk from 1.63Mb to 140Kb in 0.5s on a 864MHz PC.
+
+Our list of 173528 English words, represented as an ASCII file of 1.92
+Mbytes, is represented as a trie of 4.5 Mbytes, which shrinks to 1.1
+Mbytes by sharing (in 2.7s).
+
+Measurements showed that the time complexity is linear with the size of
+the lexicon (within comparable sets of words). This is consistent with
+algorithmic analysis, since it is known that tries compress dictionaries
+up to a linear entropy factor, and that perfect hashing compresses trees
+in dags in linear time \cite{flajsipste}.
+
+Tuning of the hash function parameters leads to many variations.
+For instance if we assume an infinite memory we may turn the hash calculation
+into a one-to-one G\"odel numbering, and at the opposite end taking
+{\sl hash\_max} to 1 we would do list lookup in the unique bucket,
+with worse than quadratic performance. 
+
+Using hash tables for sharing with bottom-up traversal is a standard
+dynamic programming technique, but the usual 
+way is to delegate computation of the hash function to some hash library,
+using a generic low-level package. This is what happens for instance
+if one uses the module hashtbl from the Ocaml library. Here the 
+{\sl Share} module does {\sl not} compute the keys, which are computed
+on the client side, avoiding re-exploration of the structures. That is,
+{\sl Share} is just an associative memory. Furthermore, key computation may 
+take advantage of specific statistical distribution of the application domain.
+
+We shall see later another application of the {\sl Share}
+functor to the minimization of the state space of (acyclic) finite automata.
+Actually, what we just did is minimization of acyclic deterministic 
+automata represented as lexical dags. 
+
+More sophisticated compression techniques are known, which may combine with
+array implementations insuring fast access, and which may extend to possibly
+cyclic automata state spaces. Such techniques are used in lexical analysers
+for programming languages, for which speed is essential. See for instance
+the table-compression method described in section 3.9 of \cite{asu}.
+
+\subsection{ISO-LATIN and French}
+
+The next modules explain how to define the ISO-LATIN encoding, and
+how to use it to represent French words. 
+
+First we give a simple lexer, which is used to parse raw text with
+Camlp4 grammars. Next we give such a grammar, used to define a
+transducer from notations such as \verb:e': to ISO-LATIN character
+\'e. Finally, we give a module Latin which defines ISO-LATIN encoding.
+
+
+

@@ -1,0 +1,46 @@
+We remark that nondeterministic programming is basically
+trivial in a functional programming language, provided one identifies well
+the search space, states of computation are stored as pure data structures
+(which cannot get corrupted by pointer mutation),
+and fairness is taken care of by a termination argument 
+(here this amounts to proving that \verb:react: always terminate).
+
+Nondeterminism is best handled by a generating process which delivers
+one solution at a time, and which thus may be used in coroutine fashion with
+a solution handler. 
+
+The reader will note that the very same state graph which was originally the
+state space of the deterministic lexicon lookup is used here for a possibly
+non-deterministic transduction. What changes is not the state space, but
+the way it is traversed. That is we clearly separate the notion of 
+finite-state graph, a data structure, from the notion of a reactive process,
+which uses this graph as a component of its computation space, other components
+being the input and output tapes, possibly a backtrack stack, etc.
+
+We shall continue to investigate transducers which are lexicon mappings,
+but now with an explicit non-determinism state component. Such components,
+whose structure may vary according to the particular construction, are
+decorations on the lexicon structure, which is seen as the basic
+deterministic state skeleton of all processes which are
+lexicon-driven; we shall say that such processes are
+{\sl lexicon morphisms} whenever the decoration of a lexicon trie node is a 
+function of the sub-trie at that node. 
+This property entails an important
+efficiency consideration, since the sharing of the trie as a dag may be 
+preserved when constructing the automaton structure:
+
+\noindent
+{\bf Fact}. Every lexicon morphism may minimize its state space isomorphically
+with the dag maximal sharing of the lexical tree. That is, we may directly 
+decorate the lexicon dag, since in this case
+decorations are invariant by sub-tree sharing.
+
+There are numerous practical applications of this general methodology.
+For instance, it is shown in \cite{2004-Huet-1} how to construct 
+a Sanskrit segmenter as a
+decorated inflected forms lexicon, where the decorations express application
+of the euphony (sandhi) rules at the juncture between words. 
+This construction is a
+direct extension of the unglueing construction, which is the special case
+when there are no euphony rules, or when they are optional. 
+

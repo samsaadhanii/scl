@@ -1,0 +1,107 @@
+/*
+Copyright (C) 2005 Sunil Mohan Adapa <sunil atc atc tcs co in>
+
+This program is free software; you can redistribute it and/or 
+modify it under the terms of the GNU General Public License 
+as published by the Free Software Foundation; either 
+version 2 of the License, or (at your option) any later 
+version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+*/
+
+td.n1		{ background-color: #ccffff;				} 
+td.n2		{ background-color: #00FF7F; /*cadetblue*/	}
+td.n3		{ background-color: #eb613d; /*lightpink*/	}
+td.n4		{ background-color: #e6ff00; /*lightgolden*/	}
+td.n5		{ background-color: #1E90FF; /*aquamarine*/	}
+td.n6		{ background-color: #FF69B4; /*peach*/		}
+td.n7		{ background-color: #BC8F8F; /*slategray*/	}
+td.v		{ background-color: #FE6265; /*darkseagreen*/	}
+td.i		{ background-color: rgb(255,240,245); /* lavender */	} 
+td.n8		{ background-color: rgb(192,255,193); /*darkseagreen #C0FFC1*/	}
+td.NA		{ background-color: rgb(233,207,236); /*lavendar  #E9CFEC(E6E6FA)*/	}
+td.number
+{
+  padding-left: 3px;
+  padding-right: 3px;
+  border-left: solid 2px black;
+  background-color: rgb(255,240,245); /* lavender */
+}
+
+td
+{
+  border-left: 0px;
+  border-top: 0px;
+  line-height: 1.4em; /* TODO: Ugly way of doing this */
+  white-space: nowrap;
+
+  /* dynamic */
+  border-right: solid 1px white;
+  border-bottom: solid 1px white;
+ width:;
+ height:25px;
+}
+
+body
+{
+  font-family: "sans";
+  font-size: smaller;
+}
+
+table
+{
+  float: left;
+  margin-bottom: 10px;
+/*  text-align: center;*/
+}
+
+input.suggestion
+{
+  border: solid 1px black;
+  width: 100%;
+}
+
+input.submit_button,
+div.submit_button_block
+{
+  width: 0px;
+  height: 0px;
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+form.suggestion
+{
+  margin: 0px;
+  display: inline;
+}
+
+#help {
+  float: right;
+  margin-right: 2em;
+}
+
+#navigation {
+  position: fixed;
+  background: white;
+  border-top: ridge;
+  bottom: 0;
+  width: 100%;
+}
+div.bottom {
+  clear: both;
+  height: 3em;
+}
+div.float_clear {
+  clear: both;
+}

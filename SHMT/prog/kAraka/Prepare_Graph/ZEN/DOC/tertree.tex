@@ -1,0 +1,18 @@
+\section{Variation: Ternary trees}
+
+Let us now try a variation on lexicon structure, using the notion of a
+ternary tree.
+
+This notion is fairly natural if one wants to restore for ordered trees
+the locality of zipper navigation in binary trees. Remark that when we
+go up to the current father, we have to close the list of elder siblings
+in order to restore the full list of children of the upper node.
+With ternary trees each tree node has two lists of children, elders and 
+youngers. When we go up in the zipper structure, it is now a constant
+cost operation. Remark that this partition into elders and youngers is
+not intrinsic and carries no information, except the memory of the previous
+navigation. This is again an idea of optimizing computation by
+creating redundancy in the data structure representations. We may for instance 
+exploit this redundancy in balancing our trees for faster access. 
+
+Ternary trees are inspired from Bentley and Sedgewick\cite{bentley}.

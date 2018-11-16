@@ -1,0 +1,98 @@
+/*
+#  Copyright (C) 2009-2016 Amba Kulkarni (ambapradeep@gmail.com)
+#
+#  This program is free software; you can redistribute it and/or
+#  modify it under the terms of the GNU General Public License
+#  as published by the Free Software Foundation; either
+#  version 2 of the License, or (at your option) any later
+#  version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+
+*/
+body,html{
+background-color:#616D7E;
+margin:0px;
+font-size:15px;
+}
+#maindiv {
+width:960px;
+margin:0px auto;
+position:relative;
+}
+div{
+background-color:#FFFFFF;
+}
+a{
+text-decoration:none;
+}
+
+textarea:hover {
+border-color:red;
+}
+div#input-area ul{
+display:inline;
+font-size:15px;
+}
+div#input-area li{
+float:left;
+display:inline;
+margin-right:5px;
+font-size:12px;
+}
+#dept-menu {
+        width:100%;
+        height:150px;
+        margin-top:2px;
+        font-size:12px;
+}
+#project-title{
+ color:blue;
+ background-color:#FFFFFF;
+ width:100%;
+ height:65px;
+ margin-top:1px;
+ border-width:5px;
+ text-align:center;
+}
+#shwOut{
+width:100%;
+margin-top:5px;
+
+}
+#menu {
+        margin-top:0px;
+        width:960px;
+}
+#menu li {
+ display:inline;
+ }
+#menu li a {
+        color:#253B66;padding:3px;background:#489CDF;border-radius:3px;color:#fff;
+text-decoration:none;
+ }
+#menu li  a:hover
+{
+color:#E54B01;
+}
+#menu ul {
+        list-style-type:none;
+        margin:auto;
+        padding-top:5px;
+        margin-left:-30px;
+ }
+ .feed ul {list-style-type:none;}
+              .feed  li { padding:4px;display:;}
+                .sub li {display:block;}
+                .feed textarea {padding:10px;width:400px;height:150px;}
+                .feed{width:500px; display:none;background:#fff;color:#333;border-radius:5px;}
+               .feed input[type="submit"],input[type="button"]{color:#fff;border:1px solid #489CDF;background:#489CDF;padding:10px;font-size:18px;width:150px;}
+a{cursor:pointer;}

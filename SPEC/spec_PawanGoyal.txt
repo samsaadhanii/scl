@@ -1,0 +1,27 @@
+#Path for installation of all packages.
+SCLINSTALLDIR=/Users/pgoyal/Documents/Toolkits/scl
+
+#Paths for enabling web services
+HTDOCSDIR=/Library/WebServer/Documents/SCL
+
+CGIDIR=/Library/WebServer/CGI-Executables/SCL
+
+APACHE_USER_GROUP="_www:_www"
+
+#Path for JAVA
+JAVAPATH=/usr/bin/javac
+
+#Path of lt-proc
+LTPROCBIN=/opt/local/bin/lt-proc
+
+#Paths for webdot.pl
+GraphvizDot=/opt/local/bin/dot
+
+#Heritage installation path (for interface)
+HERITAGE_CGIURL=http://localhost/cgi-bin/SKT/sktgraph
+
+#Path for temporary files
+TFPATH=/private/tmp/SKT_TEMP
+
+#Counter
+COUNTER=statcounter_dummy.js

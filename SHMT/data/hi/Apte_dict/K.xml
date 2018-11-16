@@ -1,0 +1,3064 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dict SYSTEM "apte.dtd">
+<?xml-stylesheet href="apte.css" type="text/css" ?>
+<dict>
+<lexhead no="1">
+<root>खः</root>
+<prAwipaxikam>ख</prAwipaxikam>
+<grammar>पुं*</grammar>
+<is_a_part>देहः</is_a_part>
+<kind_of>इन्द्रियम्</kind_of>
+<upAXi>इन्द्रियम्</upAXi>
+<jAwi>आकाशः</jAwi>
+<sense no="1">सूर्य</sense>
+</lexhead>
+
+<lexhead no="2">
+<root>खम्</root>
+<prAwipaxikam>ख</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<is_a_part>देहः</is_a_part>
+<kind_of>इन्द्रियम्</kind_of>
+<upAXi>इन्द्रियम्</upAXi>
+<jAwi>आकाशः</jAwi>
+<sense no="1">आकाश, खं केशवोऽपर इवाक्रमितुं प्रवृत्तः, यावद्गिरः खे मरुतां चरन्ति<citation>कु* ३।७२</citation><citation>मेघ* ९</citation>मृच्छ* ५।२</sense>
+<sense n="2">स्वर्ग</sense>
+<sense n="3">ज्ञानेन्द्रिय</sense>
+<sense n="4">एक नगर</sense>
+<sense n="5">खेत</sense>
+<sense n="6">शून्य</sense>
+<sense n="7">एक बिन्दु, अनुस्वार</sense>
+<sense n="8">गह्वर, द्वारक, विवर, रन्ध्र M<citation>मनु* ९।४३</citation></sense>
+<sense n="9">शरीर के द्वारकMखानि चैव स्पृशेदद्भिः<citation>मनु* २।६०</citation>५३, ४।१४४<citation>याज्ञ* १।२०</citation><citation>कु* ३।५० जो गिनती में ९ हैं अर्थात मुंह</citation>दो कान, दो आँखें, दो नाथुनें, गुदा तथा जननेन्द्रिय</sense>
+<sense n="10">घाव</sense>
+<sense n="11">प्रसन्नता, आनन्द</sense>
+<sense n="12">अभ्रक</sense>
+<sense n="13">कर्म</sense>
+<sense n="14">ज्ञान</sense>
+<sense n="15">ब्रह्मा</sense>
+<segmenthd>
+<root>खेऽटः</root>
+<prAwipaxikam>खेऽट</prAwipaxikam>
+<seg>खम्-अटः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">ग्रह</sense>
+<sense no="2">राहु, आरोही शिरोबिन्दु</sense>
+</segmenthd>
+<segmenthd>
+<root>खापगा</root>
+<prAwipaxikam>खापगा</prAwipaxikam>
+<seg>खम्-आपगा</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">गंगा का विशेषण</sense>
+</segmenthd>
+<segmenthd>
+<root>खोल्मुकः</root>
+<prAwipaxikam>खोल्मुक</prAwipaxikam>
+<seg>खम्-उल्कः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">धूमकेतु</sense>
+<sense no="2">ग्रह</sense>
+<sense no="3">मंगल ग्रह</sense>
+</segmenthd>
+<segmenthd>
+<root>खकामिनी</root>
+<prAwipaxikam>खकामिनी</prAwipaxikam>
+<seg>खम्-कामिनी</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">दुर्गा</sense>
+</segmenthd>
+<segmenthd>
+<root>खकुन्तलः</root>
+<prAwipaxikam>खकुन्तल</prAwipaxikam>
+<seg>खम्-कुन्तलः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">शिव</sense>
+</segmenthd>
+<segmenthd>
+<root>खगः</root>
+<prAwipaxikam>खग</prAwipaxikam>
+<seg>खम्-गः</seg>
+<grammar>पुं*</grammar>
+<kind_of>अर्कादयः</kind_of>
+<jAwi>ग्रहः</jAwi>
+<kind_of>आयुधम्</kind_of>
+<upAXi>आयुधम्</upAXi>
+<jAwi>पक्षी</jAwi>
+<sense no="1">पक्षीMअधुनीत खगः स नैकधा तनुम्<citation>नै* २।२</citation><citation>मनु* १२।६३</citation></sense>
+<sense no="2">वायु, हवा Fतमांसीव यथा सूर्यो वृक्षानग्निर्घनान्खगः<citation>महा*</citation></sense>
+<sense no="3">सूर्य</sense>
+<sense no="4">ग्रहMअपोक्लिमे यदि खगाः स किलेन्दुवारः<citation>तारा*</citation></sense>
+<sense no="5">टिड्डा</sense>
+<sense no="6">देवता</sense>
+<sense no="7">बाण</sense>
+<subsegmenthd>
+<root>खगाधिपः</root>
+<prAwipaxikam>खगाधिप</prAwipaxikam>
+<seg>खम्-ग-अधिपः</seg>
+<grammar>पुं*</grammar>
+<sense no="8">गरुड़ का विशेषण</sense>
+</subsegmenthd>
+<subsegmenthd>
+<root>खगान्तकः</root>
+<prAwipaxikam>खगान्तक</prAwipaxikam>
+<seg>खम्-ग-अन्तकः</seg>
+<grammar>पुं*</grammar>
+<sense no="8">बाज, श्येन</sense>
+</subsegmenthd>
+<subsegmenthd>
+<root>खगाभिरामः</root>
+<prAwipaxikam>खगाभिराम</prAwipaxikam>
+<seg>खम्-ग-अभिरामः</seg>
+<grammar>पुं*</grammar>
+<sense no="8">शिव का विशेषण</sense>
+</subsegmenthd>
+<subsegmenthd>
+<root>खगासनः</root>
+<prAwipaxikam>खगासन</prAwipaxikam>
+<seg>खम्-ग-आसनः</seg>
+<grammar>पुं*</grammar>
+<sense no="8">उदयाचल</sense>
+</subsegmenthd>
+<subsegmenthd>
+<root>खगासनः</root>
+<prAwipaxikam>खगासन</prAwipaxikam>
+<seg>खम्-ग-आसनः</seg>
+<grammar>पुं*</grammar>
+<sense no="8">विष्णु का विशेषण</sense>
+</subsegmenthd>
+<subsegmenthd>
+<root>खगेन्द्रः</root>
+<prAwipaxikam>खगेन्द्र</prAwipaxikam>
+<seg>खम्-ग-इन्द्रः</seg>
+<grammar>पुं*</grammar>
+<sense no="8">गरुड़ का विशेषण</sense>
+</subsegmenthd>
+<subsegmenthd>
+<root>खगीश्वरः</root>
+<prAwipaxikam>खगीश्वर</prAwipaxikam>
+<seg>खम्-ग-ईश्वरः</seg>
+<grammar>पुं*</grammar>
+<sense no="8">गरुड़ का विशेषण</sense>
+</subsegmenthd>
+<subsegmenthd>
+<root>खगपतिः</root>
+<prAwipaxikam>खगपति</prAwipaxikam>
+<seg>खम्-ग-पतिः</seg>
+<grammar>पुं*</grammar>
+<sense no="8">गरुड़ का विशेषण</sense>
+</subsegmenthd>
+<subsegmenthd>
+<root>खगवती</root>
+<prAwipaxikam>खगवती</prAwipaxikam>
+<seg>खम्-ग-वती</seg>
+<grammar>स्त्री*</grammar>
+<sense no="8">पृथ्वी</sense>
+</subsegmenthd>
+<subsegmenthd>
+<root>खगस्थानम्</root>
+<prAwipaxikam>खगस्थान</prAwipaxikam>
+<seg>खम्-ग-स्थानम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="8">वृक्ष की खोडर</sense>
+</subsegmenthd>
+<subsegmenthd>
+<root>खगस्थानम्</root>
+<prAwipaxikam>खगस्थान</prAwipaxikam>
+<seg>खम्-ग-स्थानम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="8">पक्षी का घोंसला</sense>
+</subsegmenthd>
+</segmenthd>
+<segmenthd>
+<root>खगङ्गा</root>
+<prAwipaxikam>खगङ्गा</prAwipaxikam>
+<seg>खम्-गङ्गा</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">आकाशगंगा</sense></segmenthd>
+<segmenthd>
+<root>खगतिः</root>
+<prAwipaxikam>खगम</prAwipaxikam>
+<seg>खम्-गतिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">हवा में उड़ान</sense>
+</segmenthd>
+<segmenthd>
+<root>खगमः</root>
+<prAwipaxikam>खगमन</prAwipaxikam>
+<seg>खम्-गमः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">पक्षी</sense>
+</segmenthd>
+<segmenthd>
+<root>खगमनः</root>
+<prAwipaxikam>खगोल</prAwipaxikam>
+<seg>खम्-गमनः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">एक प्रकार का जलकुक्कुट</sense>
+</segmenthd>
+<segmenthd>
+<root>खगोलः</root>
+<prAwipaxikam>खगोल</prAwipaxikam>
+<seg>खम्-गोलः</seg>
+<grammar>पुं*</grammar>
+<etymology>[]</etymology>
+<sense no="1">आकाशमण्डल</sense>
+<subsegmenthd>खगोलविद्या
+<seg>खम्-गोल-विद्या</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">ज्योतिष विद्या</sense></subsegmenthd></segmenthd>
+<segmenthd>
+<root>खचमसः</root>
+<prAwipaxikam>खचमस</prAwipaxikam>
+<seg>खम्-चमसः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">चाँद</sense>
+</segmenthd>
+<segmenthd>
+<root>खचरः</root>
+<prAwipaxikam>खचर</prAwipaxikam>
+<seg>खम्-चरः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">पक्षी</sense>
+<sense no="2">बादल</sense>
+<sense no="3">वृक्ष</sense>
+<sense no="4">हवा</sense>
+</segmenthd>
+<segmenthd>
+<root>खेचरी</root>
+<prAwipaxikam>खेचरी</prAwipaxikam>
+<seg>खम्-चरी</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">उड़ने वाली अप्सरा</sense>
+<sense no="2">दुर्गा की उपाधि</sense>
+</segmenthd>
+<segmenthd>
+<root>खजलम्</root>
+<prAwipaxikam>खजल</prAwipaxikam>
+<seg>खम्-जलम्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">आकाशीय जल, ओस, वर्षा, कोहरा आदि</sense>
+</segmenthd>
+<segmenthd>
+<root>खज्योतिस्</root>
+<prAwipaxikam>खज्योतिस्</prAwipaxikam>
+<seg>खम्-ज्योतिस्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">जुगनू</sense>
+</segmenthd>
+<segmenthd>
+<root>खतमालः</root>
+<prAwipaxikam>खतमाल</prAwipaxikam>
+<seg>खम्-तमालः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">बादल</sense>
+<sense no="2">धूँआ</sense>
+</segmenthd>
+<segmenthd>
+<root>खद्योतः</root>
+<prAwipaxikam>खद्योत</prAwipaxikam>
+<seg>खम्-द्योतः</seg>
+<grammar>पुं*</grammar>
+<kind_of>मक्षिका</kind_of>
+<jAwi>कीटः</jAwi>
+<kind_of>अर्कादयः</kind_of>
+<jAwi>ग्रहः</jAwi>
+<upAXi>नाम</upAXi>
+<sense no="1">जुगनूMखद्योताली विलसितनिभां विद्युदुन्मेषदृष्टिम्<citation>मेघ* ८१</citation></sense>
+<sense no="2">सूर्य</sense>
+</segmenthd>
+<segmenthd>
+<root>खद्योतनः</root>
+<prAwipaxikam>खद्योतन</prAwipaxikam>
+<seg>खम्-द्योतनः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">सूर्य</sense>
+</segmenthd>
+<segmenthd>
+<root>खधूपः</root>
+<prAwipaxikam>खधूप</prAwipaxikam>
+<seg>खम्-धूपः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">अग्निबाणMमुमुचुः खधूपान्<citation>भट्टि* ३।५</citation></sense>
+</segmenthd>
+<segmenthd>
+<root>खपरागः</root>
+<prAwipaxikam>खपराग</prAwipaxikam>
+<seg>खम्-परागः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">अंधकार</sense>
+</segmenthd>
+<segmenthd>
+<root>खपुष्पम्</root>
+<prAwipaxikam>खपुष्प</prAwipaxikam>
+<seg>खम्-पुष्पम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">आकाश का फूल, असम्भवता को प्रकट करने की अभिव्यक्ति Fमृगतृष्णाम्भसि स्नातः शशश्रृंगधनुर्धृतः, एष बन्ध्यासुतो याति खपुष्पकृतशेखरः<citation>सुभा* आलं  इस प्रकार की ४ असंभावनाएं इस श्लोक में बतलाई गई है</citation></sense>
+</segmenthd>
+<segmenthd>
+<root>खभम्</root>
+<prAwipaxikam>खभ</prAwipaxikam>
+<seg>खम्-भम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">ग्रह</sense>
+</segmenthd>
+<segmenthd>
+<root>खभ्रान्ति</root>
+<prAwipaxikam>खभ्रान्ति</prAwipaxikam>
+<seg>खम्-भ्रान्तिः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">श्येन</sense>
+</segmenthd>
+<segmenthd>
+<root>खमणिः</root>
+<prAwipaxikam>खमणि</prAwipaxikam>
+<seg>खम्-मणिः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">‘आकाश की मणि’, सूर्य</sense>
+</segmenthd>
+<segmenthd>
+<root>खमीलनम्</root>
+<prAwipaxikam>खमीलन</prAwipaxikam>
+<seg>खम्-मीलनम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">निद्रालुता, थकावट</sense>
+</segmenthd>
+<segmenthd>
+<root>खमूर्तिः</root>
+<prAwipaxikam>खमूर्ति</prAwipaxikam>
+<seg>खम्-मूर्तिः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">शिव का विशेषण</sense>
+</segmenthd>
+<segmenthd>
+<root>खवारि</root>
+<prAwipaxikam>खवारि</prAwipaxikam>
+<seg>खम्-वारि</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">वर्षा का पानी ओस आदि</sense>
+</segmenthd>
+<segmenthd>
+<root>खवाष्पः</root>
+<prAwipaxikam>खवाष्प</prAwipaxikam>
+<seg>खम्-वाष्पः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">बर्फ, पाला</sense>
+</segmenthd>
+<segmenthd>
+<root>खशय</root>
+<prAwipaxikam>खशय</prAwipaxikam>
+<seg>खम्-शय</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खशय</prAwipaxikam>
+<sense no="1">आकाश में विश्राम करने वाला या रहने वाला FMN खेशय भी</sense>
+</segmenthd>
+<segmenthd>
+<root>खशरीरम्</root>
+<prAwipaxikam>खशरीर</prAwipaxikam>
+<seg>खम्-शरीरम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">आकाशीय शरीर</sense>
+</segmenthd>
+<segmenthd>
+<root>खश्वासः</root>
+<prAwipaxikam>खश्वास</prAwipaxikam>
+<seg>खम्-श्वासः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">हवा, वायु</sense>
+</segmenthd>
+<segmenthd>
+<root>खसमुत्थ</root>
+<prAwipaxikam>खसमुत्थ</prAwipaxikam>
+<seg>खम्-समुत्थ</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खसमुत्थ</prAwipaxikam>
+<sense no="1">आकाश में उत्पन्न</sense>
+</segmenthd>
+<segmenthd>
+<root>खसम्भवः</root>
+<prAwipaxikam>खसम्भव</prAwipaxikam>
+<seg>खम्-सम्भवः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">आकाश में उत्पन्न</sense>
+</segmenthd>
+<segmenthd>
+<root>खसिन्धुः</root>
+<prAwipaxikam>खसिन्धु</prAwipaxikam>
+<seg>खम्-सिन्धुः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">चाँद</sense>
+</segmenthd>
+<segmenthd>
+<root>खस्तनी</root>
+<prAwipaxikam>खस्तनी</prAwipaxikam>
+<seg>खम्-स्तनी</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">पृथ्वी</sense>
+</segmenthd>
+<segmenthd>
+<root>खस्फटिकम्</root>
+<prAwipaxikam>खस्फटिक</prAwipaxikam>
+<seg>खम्-स्फटिकम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">सूर्यकान्त या चन्द्रकान्त मणि</sense>
+</segmenthd>
+<segmenthd>
+<root>खहर</root>
+<prAwipaxikam>खहर</prAwipaxikam>
+<seg>खम्-हर</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खहर</prAwipaxikam>
+<sense no="1">जिसका हर शून्य होM राशि</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="3">
+<root>खक्खट</root>
+<prAwipaxikam>खक्खट</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खक्खट</prAwipaxikam>
+<etymology>[खक्ख् - अटन्]</etymology>
+<jAwi>द्रव्यम्</jAwi>
+<sense no="1">कठोर, ठोस</sense>
+</lexhead>
+
+<lexhead no="4">
+<root>खक्खटः</root>
+<prAwipaxikam>खक्खट</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खक्ख् - अटन्]</etymology>
+<jAwi>द्रव्यम्</jAwi>
+<sense no="1">खड़िया</sense>
+</lexhead>
+
+<lexhead no="5">
+<root>खङ्करः</root>
+<prAwipaxikam>खङ्कर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[ख - कृ - खच्, मुम्]</etymology>
+<sense no="1">अलक, बालों की लट</sense>
+</lexhead>
+
+<lexhead no="6">
+<root>खच्</root>
+<prAwipaxikam>खच्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa>क्या*<paxI>पर*</paxI><vform>खचति</vform>,<vform>खच्नाति</vform>,<vform>खचित</vform></grammar>
+<sense no="1">आगे आना, प्रकट होना</sense>
+<sense n="2">पुनर्जन्म होना</sense>
+<sense n="3">पवित्र करना</sense>
+<sense n="4">जकड़ना, बाँधना, जड़ना</sense>
+<segmenthd>
+<root>उत्खच्</root>
+<prAwipaxikam>उत्खच्</prAwipaxikam>
+<seg>उद्-खच्</seg>
+<grammar><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
+<sense no="1">मिलाना, गडमड करना, जड़ना M<citation>रघु* ८।५३</citation>१३।५४<citation>मुद्रा* ४।१२</citation></sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="7">
+<root>खचित</root>
+<prAwipaxikam>खचित</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खचित</prAwipaxikam>
+<etymology>[खच् - क्त]</etymology>
+<sense no="1">जकड़ा हुआ, संयुक्त, भरा हुआ, अन्तर्मिश्रित, शकुन्तनीडखचितं बिभ्रज्जटामण्डलम्<citation>श* ७।११</citation></sense>
+<sense n="2">निश्चित, सम्मिश्रित</sense>
+<sense n="3">जड़ा हुआ, जटित, भरा हुआ FMNसमासगत - मणिखचित, रत्नखचित</sense>
+</lexhead>
+
+<lexhead no="8">
+<root>खज्</root>
+<prAwipaxikam>खज्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>खजति</vform>,<vform>खजित</vform></grammar>
+<sense no="1">मन्थन करना, बिलोना, आन्दोलित करना</sense>
+</lexhead>
+
+<lexhead no="9">
+<root>खजः</root>
+<prAwipaxikam>खज</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खज् - अच्]</etymology>
+<sense no="1">मथानी, रई का डंडा</sense>
+</lexhead>
+
+<lexhead no="10">
+<root>खजकः</root>
+<prAwipaxikam>खजक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खज् - अच्, कन् च]</etymology>
+<kind_of>उपकरणम्</kind_of>
+<upAXi>गार्हिकोपकरणम्</upAXi>
+<sense no="1">मथानी, रई का डंडा</sense>
+</lexhead>
+
+<lexhead no="11">
+<root>खजपम्</root>
+<prAwipaxikam>खजप</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खज् - कपन्]</etymology>
+<sense no="1">घी</sense>
+</lexhead>
+
+<lexhead no="12">
+<root>खजाकः</root>
+<prAwipaxikam>खजाक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खज् - आक्]</etymology>
+<sense no="1">पक्षी</sense>
+</lexhead>
+
+<lexhead no="13">
+<root>खजाजिका</root>
+<prAwipaxikam>खजाजिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खज् - अ - टाप् = खजा, अज् - घञ्, खजायै आजो यस्याः ब* स*, खजाज - ङीष् - कन् - टाप्, ह्रस्वः]</etymology>
+<sense no="1">कड़छी, चम्मच</sense>
+</lexhead>
+
+<lexhead no="14">
+<root>खञ्ज्</root>
+<prAwipaxikam>खञ्ज्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>खञ्जति</vform></grammar>
+<sense no="1">लँगड़ाना, ठहर-ठहर कर चलना, खञ्जन् प्रभञ्जनजनः पथिकः पिपासुः<citation>नै* ११।१०७</citation></sense>
+</lexhead>
+
+<lexhead no="15">
+<root>खञ्ज</root>
+<prAwipaxikam>खञ्ज</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खञ्ज</prAwipaxikam>
+<etymology>[खञ्ज् - अच्]</etymology>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">लँगड़ा, विकलांग, पंगु, पादेन खञ्जः<citation>सिद्धा*</citation><citation>मनु* ८।२४२</citation><citation>भर्तृ* १।६४</citation></sense>
+<segmenthd>
+<root>खञ्जखेटः</root>
+<prAwipaxikam>खञ्जखेट</prAwipaxikam>
+<seg>खञ्ज-खेटः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">खञ्जनपक्षी</sense>
+</segmenthd>
+<segmenthd>
+<root>खञ्जखेलः</root>
+<prAwipaxikam>खञ्जखेल</prAwipaxikam>
+<seg>खञ्ज-खेलः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">खञ्जनपक्षी</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="16">
+<root>खञ्जनः</root>
+<prAwipaxikam>खञ्जन</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खञ्ज् - ल्युट्]</etymology>
+<kind_of>पक्षिः</kind_of>
+<jAwi>पक्षी</jAwi>
+<sense no="1">खञ्जनपक्षी, स्फुटकमलोदर खेलितखञ्जनयुगमिव शरदि तड़ागम्<citation>गीत* ११</citation>नेत्रे खञ्जनगञ्जने<citation>साहित्यदर्पण</citation>एको हि खञ्जनवरो नलिनीदलस्थः<citation>श्रृंगार* ४</citation>७</sense>
+</lexhead>
+
+<lexhead no="17">
+<root>खञ्जनम्</root>
+<prAwipaxikam>खञ्जन</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खञ्ज् - ल्युट्]</etymology>
+<kind_of>पक्षिः</kind_of>
+<jAwi>पक्षी</jAwi>
+<sense no="1">लँगड़ा कर जाने वाला</sense>
+<segmenthd>
+<root>खञ्जनरतम्</root>
+<prAwipaxikam>खञ्जनरत</prAwipaxikam>
+<seg>खञ्जन-रतम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">सन्यासियों का गुप्त मैथुन</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="18">
+<root>खञ्जना</root>
+<prAwipaxikam>खञ्जना</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खञ्जन - टाप्]</etymology>
+<sense no="1">खञ्जनपक्षियों की जाति</sense>
+</lexhead>
+
+<lexhead no="19">
+<root>खञ्जनिका</root>
+<prAwipaxikam>खञ्जनिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खञ्जन - ठन् - टाप्]</etymology>
+<sense no="1">खञ्जनपक्षियों की जाति</sense>
+</lexhead>
+
+<lexhead no="20">
+<root>खञ्जरीटः</root>
+<prAwipaxikam>खञ्जरीट</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खञ्ज - ऋ - कीटन्]</etymology>
+<kind_of>पक्षिः</kind_of>
+<jAwi>पक्षी</jAwi>
+<sense no="1">खञ्जनपक्षी, भामि* २।७८<citation>चौर* ८</citation><citation>मनु* ५।१४</citation><citation>याज्ञ* १।१७४</citation><citation>अमरु* ९९</citation></sense>
+</lexhead>
+
+<lexhead no="21">
+<root>खञ्जरीटकः</root>
+<prAwipaxikam>खञ्जरीटक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खञ्ज - ऋ - कीटन्, कन् च]</etymology>
+<sense no="1">खञ्जनपक्षी, भामि* २।७८<citation>चौर* ८</citation><citation>मनु* ५।१४</citation><citation>याज्ञ* १।१७४</citation><citation>अमरु* ९९</citation></sense>
+</lexhead>
+
+<lexhead no="22">
+<root>खञ्जलेखः</root>
+<prAwipaxikam>खञ्जलेख</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खञ्ज - ऋ - कीटन्, कन् च, खञ्ज - लिख् - घञ्]</etymology>
+<sense no="1">खञ्जनपक्षी, भामि* २।७८<citation>चौर* ८</citation><citation>मनु* ५।१४</citation><citation>याज्ञ* १।१७४</citation><citation>अमरु* ९९</citation></sense>
+</lexhead>
+
+<lexhead no="23">
+<root>खटः</root>
+<prAwipaxikam>खट</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खट् - अच्]</etymology>
+<sense no="1">कफ</sense>
+<sense n="2">अन्धा कुआँ</sense>
+<sense n="3">कुल्हाड़ी</sense>
+<sense n="4">हल</sense>
+<sense n="5">घास</sense>
+<segmenthd>
+<root>खटकटाहकः</root>
+<prAwipaxikam>खटकटाहक</prAwipaxikam>
+<seg>खट-कटाहकः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">पीकदान</sense>
+</segmenthd>
+<segmenthd>
+<root>खटखादकः</root>
+<prAwipaxikam>खटखादक</prAwipaxikam>
+<seg>खट-खादकः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">गीदड़</sense>
+<sense no="2">कौवा</sense>
+<sense no="3">जानवर</sense>
+<sense no="4">शीशे का बर्तन</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="24">
+<root>खटकः</root>
+<prAwipaxikam>खटक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खट् - वुन्]</etymology>
+<sense no="1">सगाई-विवाह तय करने का व्यवसाय करने वाला, तु* घटकः</sense>
+<sense n="2">अधमुँदा हाथ</sense>
+</lexhead>
+
+<lexhead no="25">
+<root>खटकामुखम्</root>
+<prAwipaxikam>खटकामुख</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<sense no="1">बाण चलाते समय हाथ की विशेष अवस्थिति</sense>
+</lexhead>
+
+<lexhead no="26">
+<root>खटिका</root>
+<prAwipaxikam>खटिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खट् - अच् - कन् - टाप्, इत्वम्]</etymology>
+<sense no="1">खड़िया</sense>
+<sense n="2">कान का बाहरी विवर</sense>
+</lexhead>
+
+<lexhead no="27">
+<root>खटक्किका</root>
+<prAwipaxikam>खटक्किका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<sense no="1">पार्श्वद्वार, खिड़की</sense>
+</lexhead>
+
+<lexhead no="28">
+<root>खडक्किका</root>
+<prAwipaxikam>खडक्किका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<sense no="1">पार्श्वद्वार, खिड़की</sense>
+</lexhead>
+
+<lexhead no="29">
+<root>खटिनी</root>
+<prAwipaxikam>खटिनी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<sense no="1">खड़िया</sense>
+</lexhead>
+
+<lexhead no="30">
+<root>खटी</root>
+<prAwipaxikam>खटी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<sense no="1">खड़िया</sense>
+</lexhead>
+
+<lexhead no="31">
+<root>खट्टन</root>
+<prAwipaxikam>खट्टन</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खट्टन</prAwipaxikam>
+<etymology>[खट्ट - ल्युट]</etymology>
+<sense no="1">ठिंगना</sense>
+</lexhead>
+
+<lexhead no="32">
+<root>खट्टनः</root>
+<prAwipaxikam>खट्टन</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खट्ट - ल्युट]</etymology>
+<sense no="1">ठिंगना आदमी</sense>
+</lexhead>
+
+<lexhead no="33">
+<root>खट्टा</root>
+<prAwipaxikam>खट्टा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खट्ट - अच् - टाप्]</etymology>
+<sense no="1">खाट</sense>
+<sense n="2">एक प्रकार का घास</sense>
+</lexhead>
+
+<lexhead no="34">
+<root>खट्टिः</root>
+<prAwipaxikam>खट्टि</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खट्ट - इन्]</etymology>
+<sense no="1">अर्थी</sense>
+</lexhead>
+
+<lexhead no="35">
+<root>खट्टिकः</root>
+<prAwipaxikam>खट्टिक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खट्ट - अच् - ठन्]</etymology>
+<sense no="1">कसाई</sense>
+<sense n="2">शिकारी, बहेलिया</sense>
+</lexhead>
+
+<lexhead no="36">
+<root>खेट्टरक</root>
+<prAwipaxikam>खेट्टरक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खेट्टरक</prAwipaxikam>
+<etymology>[खट्ट - एरक]</etymology>
+<sense no="1">ठिंगना</sense>
+</lexhead>
+
+<lexhead no="37">
+<root>खट्वा</root>
+<prAwipaxikam>खट्वा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खट् - क्वन - टाप्]</etymology>
+<is_a_part>गृहम्</is_a_part>
+<kind_of>उपकरणम्</kind_of>
+<upAXi>गार्हिकोपकरणम्</upAXi>
+<sense no="1">खाट, सोफा, खटोला</sense>
+<sense n="2">झूला, पालना</sense>
+<segmenthd>
+<root>खट्वाङ्ग</root>
+<prAwipaxikam>खट्वाङ्ग</prAwipaxikam>
+<seg>खट्वा-अङ्ग</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खट्वाङ्ग</prAwipaxikam>
+<sense no="4">सोटा या लकड़ी जिसके सिरे पर खोपड़ी जड़ी हो F<citation>मा* ५।४</citation>२३ यह शिव जी का हथियार समझा जाता है तथा सन्यासी और योगी इसे धारण करत्ते हैं</sense>
+<sense no="5">दिलीपM धर, भृत्</sense>
+<sense no="6">शिव की उपाधियाँ</sense>
+</segmenthd>
+<segmenthd>
+<root>खट्वाङिगन्</root>
+<prAwipaxikam>खट्वाङिगन्</prAwipaxikam>
+<seg>खट्वा-अङिगन्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">शिव की विशेषण</sense>
+</segmenthd>
+<segmenthd>
+<root>खट्वाप्लुत्</root>
+<prAwipaxikam>खट्वाप्लुत्</prAwipaxikam>
+<seg>खट्वा-आप्लुत्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">नीच, दुष्ट</sense>
+<sense no="2">परित्यक्त, बदमाश</sense>
+<sense no="3">मूर्ख, बेवकूफ</sense>
+</segmenthd>
+<segmenthd>
+<root>खट्वारुढ</root>
+<prAwipaxikam>खट्वारुढ</prAwipaxikam>
+<seg>खट्वा-आरुढ</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खट्वारुढ</prAwipaxikam>
+<sense no="1">नीच, दुष्ट</sense>
+<sense no="2">परित्यक्त, बदमाश</sense>
+<sense no="3">मूर्ख, बेवकूफ</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="38">
+<root>खट्वाका</root>
+<prAwipaxikam>खट्वाका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खट्वा - कन् - टाप्]</etymology>
+<sense no="1">खटोला, छोटी खाट</sense>
+</lexhead>
+
+<lexhead no="39">
+<root>खटिवका</root>
+<prAwipaxikam>खटिवका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खट्वा - कन् - टाप्, इत्वम् वा]</etymology>
+<sense no="1">खटोला, छोटी खाट</sense>
+</lexhead>
+
+<lexhead no="40">
+<root>खड्</root>
+<prAwipaxikam>खड्</prAwipaxikam>
+<grammar><gaNa>चुरा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">तोड़ना, काटना, टुकडे-टुकडे करना, कुचलना<citation>भट्टि* १५।५४</citation></sense>
+<sense n="2">पूरी तरह हराना, नष्ट करना, मिटाना</sense>
+<sense n="3">निराश करना, भग्नाश करना, हताश करना प्रणय में</sense>
+<sense n="4">विघ्न डालना</sense>
+<sense n="5">धोखा देना</sense>
+</lexhead>
+
+<lexhead no="41">
+<root>खडः</root>
+<prAwipaxikam>खड</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खड् - अच्]</etymology>
+<sense no="1">तोड़ना, टुकड़े टुकड़े करना</sense>
+</lexhead>
+
+<lexhead no="42">
+<root>खडिका</root>
+<prAwipaxikam>खडिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खड् - अच् - ङीष्, कन्, ह्रस्व, खड - ङीष्]</etymology>
+<sense no="1">खड़ियाँ</sense>
+</lexhead>
+
+<lexhead no="43">
+<root>खडी</root>
+<prAwipaxikam>खडी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खड् - अच् - ङीष्, कन्, ह्रस्व, खड - ङीष्]</etymology>
+<sense no="1">खड़ियाँ</sense>
+</lexhead>
+
+<lexhead no="44">
+<root>खङ्गः</root>
+<prAwipaxikam>खङ्ग</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खड् - गन्]</etymology>
+<sense no="1">तलवार, न हि खङ्गो विजानाति कर्मकारं स्वकारणम् - उद्भट, खङ्गं परामृश्य आदि</sense>
+<sense n="2">गैंडे के सींग</sense>
+<sense n="3">गैंडाM<citation>रघु* ९।६२</citation><citation>मनु* ३।७२</citation>५।१८</sense>
+</lexhead>
+
+<lexhead no="45">
+<root>खङ्गम्</root>
+<prAwipaxikam>खङ्ग</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खड् - गन्]</etymology>
+<sense no="1">लोहा</sense>
+<segmenthd>
+<root>खङ्गाघातः</root>
+<prAwipaxikam>खङ्गाघात</prAwipaxikam>
+<seg>खङ्ग-आघातः</seg>
+<grammar>पुं*</grammar>
+<sense no="3">तलवार का घाव</sense>
+</segmenthd>
+<segmenthd>
+<root>खङ्गाधारः</root>
+<prAwipaxikam>खङ्गाधार</prAwipaxikam>
+<seg>खङ्ग-आधारः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">म्यान, कोश</sense>
+</segmenthd>
+<segmenthd>
+<root>खङ्गामिषम्</root>
+<prAwipaxikam>खङ्गामिष</prAwipaxikam>
+<seg>खङ्ग-आमिषम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">भैंस का मांस</sense>
+</segmenthd>
+<segmenthd>
+<root>खङ्गाह्वः</root>
+<prAwipaxikam>खङ्गाह्व</prAwipaxikam>
+<seg>खङ्ग-आह्वः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">गैंडा</sense>
+</segmenthd>
+<segmenthd>
+<root>खङ्गकोशः</root>
+<prAwipaxikam>खङ्गकोश</prAwipaxikam>
+<seg>खङ्ग-कोशः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">म्यान</sense>
+</segmenthd>
+<segmenthd>
+<root>खङ्गधरः</root>
+<prAwipaxikam>खङ्गधर</prAwipaxikam>
+<seg>खङ्ग-धरः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">खड़गधारी योद्धा</sense>
+</segmenthd>
+<segmenthd>
+<root>खङ्गधेनुः</root>
+<prAwipaxikam>खङ्गधेनु</prAwipaxikam>
+<seg>खङ्ग-धेनुः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">छोटी तलवार</sense>
+<sense no="2">गैंडे की मादा</sense>
+</segmenthd>
+<segmenthd>
+<root>खङ्गधेनुका</root>
+<prAwipaxikam>खङ्गधेनुका</prAwipaxikam>
+<seg>खङ्ग-धेनुका</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">छोटी तलवार</sense>
+<sense no="2">गैंडे की मादा</sense>
+</segmenthd>
+<segmenthd>
+<root>खङ्गपत्रम्</root>
+<prAwipaxikam>खङ्गपत्र</prAwipaxikam>
+<seg>खङ्ग-पत्रम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">तलवार की धार</sense>
+</segmenthd>
+<segmenthd>
+<root>खङ्गपाणि</root>
+<prAwipaxikam>खङ्गपाणि</prAwipaxikam>
+<seg>खङ्ग-पाणि</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खङ्गपाणि</prAwipaxikam>
+<sense no="1">हाथ में तलवार लिए हुए</sense>
+</segmenthd>
+<segmenthd>
+<root>खङ्गपात्रम्</root>
+<prAwipaxikam>खङ्गपात्र</prAwipaxikam>
+<seg>खङ्ग-पात्रम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">भैंस के सींगों का बना पात्र</sense>
+</segmenthd>
+<segmenthd>
+<root>खङ्गपिधानम्</root>
+<prAwipaxikam>खङ्गपिधान</prAwipaxikam>
+<seg>खङ्ग-पिधानम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">म्यान</sense>
+</segmenthd>
+<segmenthd>
+<root>खङ्गपिधानकम्</root>
+<prAwipaxikam>खङ्गपिधानक</prAwipaxikam>
+<seg>खङ्ग-पिधानकम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">म्यान</sense>
+</segmenthd>
+<segmenthd>
+<root>खङ्गपुत्रिका</root>
+<prAwipaxikam>खङ्गपुत्रिका</prAwipaxikam>
+<seg>खङ्ग-पुत्रिका</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">चाकू, छोटी तलवार</sense>
+</segmenthd>
+<segmenthd>
+<root>खङ्गप्रहारः</root>
+<prAwipaxikam>खङ्गप्रहार</prAwipaxikam>
+<seg>खङ्ग-प्रहारः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">तलवार का आघात</sense>
+</segmenthd>
+<segmenthd>
+<root>खङ्गफलम्</root>
+<prAwipaxikam>खङ्गफल</prAwipaxikam>
+<seg>खङ्ग-फलम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">तलवार का फलकM मूठ को छोड़ कर शेष तलवार</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="46">
+<root>खड्गवत्</root>
+<prAwipaxikam>खड्गवत्</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खड्गवत्</prAwipaxikam>
+<etymology>[खड् - मतुप्]</etymology>
+<sense no="1">तलवार से सुसज्जित</sense>
+</lexhead>
+
+<lexhead no="47">
+<root>खड्गिकः</root>
+<prAwipaxikam>खड्गिक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खड्ग - ठन्]</etymology>
+<sense no="1">खङ्गधारी योद्धा</sense>
+<sense n="2">कसाई</sense>
+</lexhead>
+
+<lexhead no="48">
+<root>खड्गिन्</root>
+<prAwipaxikam>खड्गिन्</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खड्ग - इनि]</etymology>
+<kind_of>पशुः</kind_of>
+<jAwi>स्तनपायी</jAwi>
+<sense no="1">तलवार से सुसज्जित, स्त्री - खड्गिनी</sense>
+<sense n="2">गैंडा</sense>
+</lexhead>
+
+<lexhead no="49">
+<root>खड्गीकम्</root>
+<prAwipaxikam>खड्गीक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खड्ग - ईक बा*]</etymology>
+<sense no="1">दराँती</sense>
+</lexhead>
+
+<lexhead no="50">
+<root>खण्ड्</root>
+<prAwipaxikam>खण्ड्</prAwipaxikam>
+<grammar><gaNa>चुरा*</gaNa><paxI>पर*</paxI><vform>खण्डयति</vform>,<vform>खण्डित</vform></grammar>
+<sense no="1">तोड़ना, काटना, टुकडे-टुकडे करना, कुचलना<citation>भट्टि* १५।५४</citation></sense>
+<sense n="2">पूरी तरह हराना, नष्ट करना, मिटानारजनीचरनाथेन खण्डिते तिमिरे निशि<citation>हि* ३।१११</citation></sense>
+<sense n="3">निराश करना, भग्नाश करना, हताश करनास्त्रीभिः कस्य न खण्डितं भुवि मनः<citation>पंच* १।१४६ प्रणय में</citation></sense>
+<sense n="4">विघ्न डालना</sense>
+<sense n="5">धोखा देना</sense>
+</lexhead>
+
+<lexhead no="51">
+<root>खण्डः</root>
+<prAwipaxikam>खण्ड</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खण्ड् - घञ्]</etymology>
+<is_a_part>चन्द्रः</is_a_part>
+<jAwi>परिमाणः</jAwi>
+<sense no="1">दरार, खाई, विच्छेद, कटाव, अस्थिभंग</sense>
+<sense n="2">टुकड़ा, भाग, खण्ड, अंश Mदिवः कान्तिमत्खंडमेकं<citation>मेघ* ३०काष्ठखण्डः</citation>मांसखण्डः</sense>
+<sense n="3">ग्रन्थ का अनुभाग - अध्याय</sense>
+<sense n="4">समुच्चय, संघात, समूह Mतरुखण्डस्य<citation>का* २३</citation></sense>
+</lexhead>
+
+<lexhead no="52">
+<root>खण्डम्</root>
+<prAwipaxikam>खण्ड</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खण्ड् - घञ्]</etymology>
+<is_a_part>चन्द्रः</is_a_part>
+<jAwi>परिमाणः</jAwi>
+<sense no="1">दरार, खाई, विच्छेद, कटाव, अस्थिभंग</sense>
+<sense n="2">टुकड़ा, भाग, खण्ड, अंश Mदिवः कान्तिमत्खंडमेकं<citation>मेघ* ३०काष्ठखण्डम्</citation>मांसखण्डम्</sense>
+<sense n="3">ग्रन्थ का अनुभाग - अध्याय</sense>
+<sense n="4">समुच्चय, संघात, समूह Mतरुखण्डस्य<citation>का* २३</citation></sense>
+</lexhead>
+
+<lexhead no="53">
+<root>खण्डः</root>
+<prAwipaxikam>खण्ड</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खण्ड् - घञ्]</etymology>
+<is_a_part>चन्द्रः</is_a_part>
+<jAwi>परिमाणः</jAwi>
+<sense no="1">चीनी, खाँड़</sense>
+<sense n="2">रत्न का एक दोष</sense>
+</lexhead>
+
+<lexhead no="54">
+<root>खण्डम्</root>
+<prAwipaxikam>खण्ड</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खण्ड् - घञ्]</etymology>
+<is_a_part>चन्द्रः</is_a_part>
+<jAwi>परिमाणः</jAwi>
+<sense no="1">एक प्रकार का नमक</sense>
+<sense n="2">एक प्रकार का ईख, गन्ना</sense>
+<segmenthd>
+<root>खण्डाभ्रम्</root>
+<prAwipaxikam>खण्डाभ्र</prAwipaxikam>
+<seg>खण्ड-अभ्रम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">बिखरे हुए बादल</sense>
+<sense no="2">कामकेलि में दाँतों का चिह्न</sense>
+</segmenthd>
+<segmenthd>
+<root>खण्डालिः</root>
+<prAwipaxikam>खण्डालि</prAwipaxikam>
+<seg>खण्ड-आलिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">तेल की एक नाप</sense>
+<sense no="2">सरोवर या झील</sense>
+<sense no="3">वह स्त्री जिसका पति व्याभिचारी हो</sense>
+</segmenthd>
+<segmenthd>
+<root>खण्डकथा</root>
+<prAwipaxikam>खण्डकथा</prAwipaxikam>
+<seg>खण्ड-कथा</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">छोटी कहानी</sense>
+</segmenthd>
+<segmenthd>
+<root>खण्डकाव्यम्</root>
+<prAwipaxikam>खण्डकाव्य</prAwipaxikam>
+<seg>खण्ड-काव्यम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">मेघदूत जैसा छोटा काव्यMपरिभाषाः खण्डकाव्यं भवेत्काव्यस्यैकदेशानुसारि च<citation>सा* द* ५।६४</citation></sense>
+</segmenthd>
+<segmenthd>
+<root>खण्डजः</root>
+<prAwipaxikam>खण्डज</prAwipaxikam>
+<seg>खण्ड-जः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">एक प्रकार की खाँड़</sense>
+</segmenthd>
+<segmenthd>
+<root>खण्डधारा</root>
+<prAwipaxikam>खण्डधारा</prAwipaxikam>
+<seg>खण्ड-धारा</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">कैंची</sense>
+</segmenthd>
+<segmenthd>
+<root>खण्डपरशुः</root>
+<prAwipaxikam>खण्डपरशु</prAwipaxikam>
+<seg>खण्ड-परशुः</seg>
+<grammar>पुं*</grammar>
+<kind_of>देवः</kind_of>
+<jAwi>ईश्वरः</jAwi>
+<sense no="1">शिव का विशेषणMमहैश्वर्यं लीलाजनितजगतः खण्डपरशोः<citation>गंगा १</citation>येनानेन जगत्सु खण्डपरशुर्देवो हरः ख्याप्यते<citation>महावी* २।३३</citation></sense>
+<sense no="2">जमदग्नि का पुत्र, परशुराम का विशेषण</sense>
+</segmenthd>
+<segmenthd>
+<root>खण्डपर्शुः</root>
+<prAwipaxikam>खण्डपर्शु</prAwipaxikam>
+<seg>खण्ड-पर्शुः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">शिव</sense>
+<sense no="2">परशुराम</sense>
+<sense no="3">राहु</sense>
+<sense no="4">टूटे दाँत वाला हाथी</sense>
+</segmenthd>
+<segmenthd>
+<root>खण्डपालः</root>
+<prAwipaxikam>खण्डपाल</prAwipaxikam>
+<seg>खण्ड-पालः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">हलवाई</sense>
+</segmenthd>
+<segmenthd>
+<root>खण्डप्रलयः</root>
+<prAwipaxikam>खण्डप्रलय</prAwipaxikam>
+<seg>खण्ड-प्रलयः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">विश्व का आंशिक प्रलय जिसमें स्वर्ग से नीचे के सब लोकों का नाश हो जाता है</sense>
+</segmenthd>
+<segmenthd>
+<root>खण्डमण्डलम्</root>
+<prAwipaxikam>खण्डमण्डल</prAwipaxikam>
+<seg>खण्ड-मण्डलम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">वृत्त का अंश</sense>
+</segmenthd>
+<segmenthd>
+<root>खण्डमोदकः</root>
+<prAwipaxikam>खण्डमोदक</prAwipaxikam>
+<seg>खण्ड-मोदकः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">खांड के लड्डू</sense>
+</segmenthd>
+<segmenthd>
+<root>खण्डलवणम्</root>
+<prAwipaxikam>खण्डलवण</prAwipaxikam>
+<seg>खण्ड-लवणम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">एक प्रकार का नमक</sense>
+</segmenthd>
+<segmenthd>
+<root>खण्डविकारः</root>
+<prAwipaxikam>खण्डविकार</prAwipaxikam>
+<seg>खण्ड-विकारः</seg>
+<grammar>पुं*</grammar>
+<kind_of>शर्करा</kind_of>
+<upAXi>विकृतिकखाद्यम्</upAXi>
+<sense no="1">चीनी</sense>
+</segmenthd>
+<segmenthd>
+<root>खण्डशर्करा</root>
+<prAwipaxikam>खण्डशर्करा</prAwipaxikam>
+<seg>खण्ड-शर्करा</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">मिसरी</sense>
+</segmenthd>
+<segmenthd>
+<root>खण्डशीला</root>
+<prAwipaxikam>खण्डशीला</prAwipaxikam>
+<seg>खण्ड-शीला</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">असती, व्याभिचारिणी स्त्री</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="55">
+<root>खण्डकः</root>
+<prAwipaxikam>खण्डक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खण्ड - कन्]</etymology>
+<sense no="1">टुकड़ा, भाग, अंश</sense>
+</lexhead>
+
+<lexhead no="56">
+<root>खण्डकम्</root>
+<prAwipaxikam>खण्डक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खण्ड - कन्]</etymology>
+<sense no="1">टुकड़ा, भाग, अंश</sense>
+</lexhead>
+
+<lexhead no="57">
+<root>खण्डकः</root>
+<prAwipaxikam>खण्डक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खण्ड - कन्]</etymology>
+<sense no="1">चीनी, खांड</sense>
+<sense n="2">जिसके नाखून न हो</sense>
+</lexhead>
+
+<lexhead no="58">
+<root>खण्डन</root>
+<prAwipaxikam>खण्डन</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खण्डन</prAwipaxikam>
+<etymology>[खण्ड - ल्युट्]</etymology>
+<sense no="1">तोड़ने वाला, काटने वाला, मारने वाला, स्मरगरलखण्डनं गम् शिरसी मण्डणम्<citation>गीत* १०</citation>भवज्वरखण्डनम् १२</sense>
+</lexhead>
+
+<lexhead no="59">
+<root>खण्डनम्</root>
+<prAwipaxikam>खण्डन</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खण्ड - ल्युट्]</etymology>
+<sense no="1">तोड़ना, काटना</sense>
+<sense n="2">काट लेना, क्षति पहुँचाना, चोट पहुँचाना Mअधरोष्ठखण्डनम्<citation>पंच* १</citation>घटय भुजबन्धनं जनय रदखण्डनं<citation>गीत* १०</citation><citation>चौर* १३</citation></sense>
+<sense n="3">हताश करना, निराश करनाM M प्रणय में</sense>
+<sense n="4">विघ्न डालनाMरसखण्डनवर्जितम्<citation>रघु* ९।३६</citation></sense>
+<sense n="5">ठगना, धोखा देना</sense>
+<sense n="6">निराकरण करनाMनै* ६।१३० तर्क का</sense>
+<sense n="7">विद्रोह, विरोध</sense>
+<sense n="8">बर्खास्तगी</sense>
+</lexhead>
+
+<lexhead no="60">
+<root>खण्डलः</root>
+<prAwipaxikam>खण्डल</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खण्ड - लच् नि*]</etymology>
+<sense no="1">टुकड़ा</sense>
+</lexhead>
+
+<lexhead no="61">
+<root>खण्डलम्</root>
+<prAwipaxikam>खण्डल</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खण्ड - लच् नि*]</etymology>
+<sense no="1">टुकड़ा</sense>
+</lexhead>
+
+<lexhead no="62">
+<root>खण्डशः</root>
+<prAwipaxikam>खण्डशः</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<etymology>[खण्ड - शस्]</etymology>
+<sense no="1">अंशों में, टुकड़ों में</sense>
+<compound>
+<root>खण्डशःकृ</root>
+<prAwipaxikam>खण्डशःकृ</prAwipaxikam>
+<seg>खण्डशः-कृ</seg>
+<grammar></grammar>
+<sense no="1">काट कर टुकड़े-टुकड़े करना</sense></compound>
+<compound>
+<root>खण्डशःकृ</root>
+<prAwipaxikam>खण्डशःकृ</prAwipaxikam>
+<seg>खण्डशः-कृ</seg>
+<grammar></grammar>
+<sense no="1">थोड़ा-थोड़ा करके, टुकड़ा-टुकड़ा करके, टुकड़े-टुकड़े करके</sense></compound>
+</lexhead>
+
+<lexhead no="63">
+<root>खण्डित</root>
+<prAwipaxikam>खण्डित</prAwipaxikam>
+<grammar>भू* क* कृ*</grammar>
+<etymology>[खण्ड् - क्त]</etymology>
+<sense no="1">काट कर टुकड़े-टुकड़े किया हुआ</sense>
+<sense n="2">नष्ट किया हुआ, ध्वंस किया हुआ</sense>
+<sense n="3">निराकरण किया हुआ तर्क का</sense>
+<sense n="4">विद्रोह किया हुआ</sense>
+<sense n="5">निराश किया हुआ, धोखा दिया हुआ, परित्यक्तखण्डितयुवतिविलापम्<citation>गीत* ८</citation></sense>
+</lexhead>
+
+<lexhead no="64">
+<root>खण्डिता</root>
+<prAwipaxikam>खण्डिता</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खण्ड् - क्त - टाप्]</etymology>
+<sense no="1">वह स्त्री जिसका पति अपनी पत्नी के प्रति अविश्वास का अपराधी रहा हो और इसलिए उसकी पत्नी उससे क्रुद्ध हो<citation>रघु* ५।६७</citation><citation>मेघ* ३९</citation>पार्श्वमेति प्रियो यस्या अन्यसंभोगचिह्नितः, सा खण्डितेति कथिता धीरैरीर्ष्याकषायिता<citation>सा* द* ११४</citation>संस्कृत साहित्य में वर्णित १० प्रकार की नायिकाओं में से एक</sense>
+<segmenthd>
+<root>खण्डितविग्रह</root>
+<prAwipaxikam>खण्डितविग्रह</prAwipaxikam>
+<seg>खण्डित-विग्रह</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खण्डितविग्रह</prAwipaxikam>
+<sense no="1">अंगहीन, विकलांग</sense>
+</segmenthd>
+<segmenthd>
+<root>खण्डितवृत्त</root>
+<prAwipaxikam>खण्डितवृत्त</prAwipaxikam>
+<seg>खण्डित-वृत्त</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खण्डितवृत्त</prAwipaxikam>
+<sense no="1">आचारहीन, दुश्चरित्र</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="65">
+<root>खण्डिनी</root>
+<prAwipaxikam>खण्डिनी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खण्ड् - इनि - ङीप्]</etymology>
+<sense no="1">पृथ्वी</sense>
+</lexhead>
+
+<lexhead no="66">
+<root>खदिकाः</root>
+<prAwipaxikam>खदिका</prAwipaxikam>
+<grammar>स्त्री*</grammar><num>[ब* व*]</num>
+<sense no="1">खील, लाजा, तला हुआ या भुना हुआ अनाज</sense>
+</lexhead>
+
+<lexhead no="67">
+<root>खदिरः</root>
+<prAwipaxikam>खदिर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खद् - किरच्]</etymology>
+<kind_of>वृक्षः</kind_of>
+<jAwi>वृक्षः</jAwi>
+<sense no="1">खैर का पेड़<citation>याज्ञ* १।३०२</citation></sense>
+<sense n="2">इन्द्र का विशेषण</sense>
+<sense n="3">चाँद</sense>
+</lexhead>
+
+<lexhead no="68">
+<root>खन्</root>
+<prAwipaxikam>खन्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>उभ*</paxI><vform>खनति</vform>,<vform>खनते</vform>,<vform>खात</vform>, कर्म*<vform>खन्यते</vform>,<vform>खायते</vform></grammar>
+<sense no="1">खोदना, खनना, खोखला करना, खनन्नाखबिलं सिंहः<citation>पंच* ३।१७</citation><citation>मनु* २।२१८</citation><citation>भट्टि* १।१७</citation></sense>
+<segmenthd>
+<root>अभिखन्</root>
+<prAwipaxikam>अभिखन्</prAwipaxikam>
+<seg>अभि-खन्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>उभ*</paxI></grammar>
+<sense no="1">खोदना</sense>
+</segmenthd>
+<segmenthd>
+<root>उदखन्</root>
+<prAwipaxikam>उदखन्</prAwipaxikam>
+<seg>उद-खन्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>उभ*</paxI></grammar>
+<sense no="1">खुदाई करना, जड़ निकालना, उन्मूलन करना, उखाड़ना Mवङ्गानुत्खाय तरसा<citation>रघु* ४।३६</citation>३३, १४।७३<citation>मेघ* ५२</citation><citation>भट्टि* १२।५</citation>१५।५५<citation>मा* ९।३४ आलं भी</citation></sense>
+</segmenthd>
+<segmenthd>
+<root>निखन्</root>
+<prAwipaxikam>निखन्</prAwipaxikam>
+<seg>नि-खन्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>उभ*</paxI></grammar>
+<sense no="1">खनना, खोदना</sense>
+<sense no="2">दफनाना, गाड़ना Mऊनद्विवर्षं निखनेत्<citation>याज्ञ* ३।१</citation>वसुधायां निचख्नतुः<citation>रघु* १२।३०</citation><citation>भट्टि* ४।३</citation>१६।२२</sense>
+<sense no="3">उठानाMनिचखान जयस्तम्भान्<citation>रघु* ४।३६ स्तंभ के रुप में</citation></sense>
+<sense no="4">जमाना, स्थिर करना, घुसेड़ना Mनिचखान शरं भुजे<citation>रघु* ३।५५</citation>१२।९०<citation>भट्टि* ३।८</citation><citation>हि* ४।७२</citation></sense>
+</segmenthd>
+<segmenthd>
+<root>परिखन्</root>
+<prAwipaxikam>परिखन्</prAwipaxikam>
+<seg>परि-खन्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>उभ*</paxI></grammar>
+<sense no="1">खोदनाM खाई आदि</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="69">
+<root>खनकः</root>
+<prAwipaxikam>खनक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खन् - ण्वुल्]</etymology>
+<kind_of>पशुः</kind_of>
+<jAwi>स्तनपायी</jAwi>
+<sense no="1">खनिक</sense>
+<sense n="2">सेंध लगाने वाला</sense>
+<sense n="3">चूहा</sense>
+<sense n="4">कान</sense>
+</lexhead>
+
+<lexhead no="70">
+<root>खननम्</root>
+<prAwipaxikam>खनन</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खन् - ल्युट्]</etymology>
+<sense no="1">खोदना, खोखला करना, पोला करना, गाड़ना</sense>
+</lexhead>
+
+<lexhead no="71">
+<root>खनिः</root>
+<prAwipaxikam>खनि</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खन् - इ ]</etymology>
+<kind_of>स्थानम्</kind_of>
+<jAwi>प्राकृतिकस्थानम्</jAwi>
+<sense no="1">खान<citation>रघु* १७।६६</citation>१८।२२<citation>मुद्रा* ७।३१</citation></sense>
+<sense n="2">गुफा</sense>
+</lexhead>
+
+<lexhead no="72">
+<root>खनी</root>
+<prAwipaxikam>खनी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खन् - इ स्त्रियां ङीष्]</etymology>
+<sense no="1">खान<citation>रघु* १७।६६</citation>१८।२२<citation>मुद्रा* ७।३१</citation></sense>
+<sense n="2">गुफा</sense>
+</lexhead>
+
+<lexhead no="73">
+<root>खनित्रम्</root>
+<prAwipaxikam>खनित्र</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खन् - इत्र]</etymology>
+<kind_of>आयुधम्</kind_of>
+<upAXi>आयुधम्</upAXi>
+<sense no="1">कुदाल, खुर्पा, गैती</sense>
+</lexhead>
+
+<lexhead no="74">
+<root>खपुरः</root>
+<prAwipaxikam>खपुर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खं पिपर्ति उच्चतया - ख - पृ - क]</etymology>
+<kind_of>वृक्षः</kind_of>
+<jAwi>वृक्षः</jAwi>
+<sense no="1">सुपारी का पेड़</sense>
+</lexhead>
+
+<lexhead no="75">
+<root>खर</root>
+<prAwipaxikam>खर</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खर</prAwipaxikam>
+<etymology>[खं मुखविलमतिशयेन अस्ति अस्य - ख - र अथवा खमिन्द्रियं राति - ख - रा - क]</etymology>
+<kind_of>पशुः</kind_of>
+<jAwi>स्तनपायी</jAwi>
+<jAwi>तेजः</jAwi>
+<sense no="1">कठोर, खुर्दरा, ठोस,  विप* मृदु, श्लक्ष्ण, द्रव</sense>
+<sense n="2">अमृदु, तेज, सख्त AV<citation>रघु* ८।९</citation>स्मरः खरः खलः कांत<citation>काव्या* १।५९</citation></sense>
+<sense n="3">तीखा, चरपरा</sense>
+<sense n="4">घना, सघन</sense>
+<sense n="5">पीडाकर, हानिकर, कर्कश</sense>
+<sense n="6">तेज धार वालाFMNदेहि खरनयनशरघातम्<citation>गीत*</citation></sense>
+<sense n="7">गरमAVखरांशु आदि</sense>
+<sense n="8">क्रूर, निष्ठुर</sense>
+</lexhead>
+
+<lexhead no="76">
+<root>खरः</root>
+<prAwipaxikam>खर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खं मुखविलमतिशयेन अस्ति अस्य - ख - र अथवा खमिन्द्रियं राति - ख - रा - क]</etymology>
+<kind_of>पशुः</kind_of>
+<jAwi>स्तनपायी</jAwi>
+<jAwi>तेजः</jAwi>
+<sense no="1">गधा<citation>मनु* २।२०१</citation>४।११५, १२०, ८।३७०<citation>याज्ञ* २।१६०</citation></sense>
+<sense n="2">खच्चर</sense>
+<sense n="3">बगुला</sense>
+<sense n="4">कौवा</sense>
+<sense n="5">एक राक्षस का नामM<citation>रघु* १२।४२ जो रावण का सौतेला भाई था और जो राम के द्वारा मारा गया था</citation></sense>
+<segmenthd>
+<root>खरांशुः</root>
+<prAwipaxikam>खरांशु</prAwipaxikam>
+<seg>खर-अंशुः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">सूर्य</sense>
+</segmenthd>
+<segmenthd>
+<root>खरकरः</root>
+<prAwipaxikam>खरकर</prAwipaxikam>
+<seg>खर-करः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">सूर्य</sense>
+</segmenthd>
+<segmenthd>
+<root>खररश्मिः</root>
+<prAwipaxikam>खररश्मि</prAwipaxikam>
+<seg>खर-रश्मिः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">सूर्य</sense>
+</segmenthd>
+<segmenthd>
+<root>खरकुटी</root>
+<prAwipaxikam>खरकुटी</prAwipaxikam>
+<seg>खर-कुटी</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">गधों का अस्तबल</sense>
+<sense no="2">नाई की दुकान</sense>
+</segmenthd>
+<segmenthd>
+<root>खरकोणः</root>
+<prAwipaxikam>खरकोण</prAwipaxikam>
+<seg>खर-कोणः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">चकोर, तीतर</sense>
+</segmenthd>
+<segmenthd>
+<root>खरकोमलः</root>
+<prAwipaxikam>खरकोमल</prAwipaxikam>
+<seg>खर-कोमलः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">ज्येष्ठ मास</sense>
+</segmenthd>
+<segmenthd>
+<root>खरगृहम्</root>
+<prAwipaxikam>खरगृह</prAwipaxikam>
+<seg>खर-गृहम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">गधों का अस्तबल</sense>
+</segmenthd>
+<segmenthd>
+<root>खरगेहम्</root>
+<prAwipaxikam>खरगेह</prAwipaxikam>
+<seg>खर-गेहम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">गधों का अस्तबल</sense>
+</segmenthd>
+<segmenthd>
+<root>खरणस्</root>
+<prAwipaxikam>खरणस्</prAwipaxikam>
+<seg>खर-णस्</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खरणस्</prAwipaxikam>
+<kind_of>पुरुषः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">नुकीली नाक वाला</sense>
+</segmenthd>
+<segmenthd>
+<root>खरणस</root>
+<prAwipaxikam>खरणस</prAwipaxikam>
+<seg>खर-णस</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खरणस</prAwipaxikam>
+<kind_of>पुरुषः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">नुकीली नाक वाला</sense>
+</segmenthd>
+<segmenthd>
+<root>खरदण्डम्</root>
+<prAwipaxikam>खरदण्ड</prAwipaxikam>
+<seg>खर-दण्डम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">कमल</sense>
+</segmenthd>
+<segmenthd>
+<root>खरध्वंसिन्</root>
+<prAwipaxikam>खरध्वंसिन्</prAwipaxikam>
+<seg>खर-ध्वंसिन्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">खरहन्ता राम का विशेषण</sense>
+</segmenthd>
+<segmenthd>
+<root>खरनादः</root>
+<prAwipaxikam>खरनाद</prAwipaxikam>
+<seg>खर-नादः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">गधे का रेंकना</sense>
+</segmenthd>
+<segmenthd>
+<root>खरनलः</root>
+<prAwipaxikam>खरनल</prAwipaxikam>
+<seg>खर-नलः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">कमल</sense>
+</segmenthd>
+<segmenthd>
+<root>खरपात्रम्</root>
+<prAwipaxikam>खरपात्र</prAwipaxikam>
+<seg>खर-पात्रम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">लोहे का बर्तन</sense>
+</segmenthd>
+<segmenthd>
+<root>खरपालः</root>
+<prAwipaxikam>खरपाल</prAwipaxikam>
+<seg>खर-पालः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">लकड़ी का बर्तन</sense>
+</segmenthd>
+<segmenthd>
+<root>खरप्रियः</root>
+<prAwipaxikam>खरप्रिय</prAwipaxikam>
+<seg>खर-प्रियः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">कबूतर</sense>
+</segmenthd>
+<segmenthd>
+<root>खरयानम्</root>
+<prAwipaxikam>खरयान</prAwipaxikam>
+<seg>खर-यानम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">गधों से खींची जाने वाली गाड़ी</sense>
+</segmenthd>
+<segmenthd>
+<root>खरशब्दः</root>
+<prAwipaxikam>खरशब्द</prAwipaxikam>
+<seg>खर-शब्दः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">गधे का रेंकना</sense>
+<sense no="2">समुद्री बाज</sense>
+</segmenthd>
+<segmenthd>
+<root>खरशाला</root>
+<prAwipaxikam>खरशाला</prAwipaxikam>
+<seg>खर-शाला</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">गधों का अस्तबल</sense>
+</segmenthd>
+<segmenthd>
+<root>खरस्वरा</root>
+<prAwipaxikam>खरस्वरा</prAwipaxikam>
+<seg>खर-स्वरा</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">जंगली चमेली</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="77">
+<root>खरिका</root>
+<prAwipaxikam>खरिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खर - कन् - टाप्, इत्वम्]</etymology>
+<sense no="1">पिसी हुई कस्तूरी</sense>
+</lexhead>
+
+<lexhead no="78">
+<root>खरिन्धम</root>
+<prAwipaxikam>खरिन्धम</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खरिन्धम</prAwipaxikam>
+<etymology>[खरी - ध्मा (धमादेशः) पक्षे धे - खश्, मुम्]</etymology>
+<sense no="1">गधी का दूध पीने वाला</sense>
+</lexhead>
+
+<lexhead no="79">
+<root>खरिन्धय</root>
+<prAwipaxikam>खरिन्धय</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खरिन्धय</prAwipaxikam>
+<etymology>[खरी - ध्मा (धमादेशः) पक्षे धे - खश्, मुम्]</etymology>
+<sense no="1">गधी का दूध पीने वाला</sense>
+</lexhead>
+
+<lexhead no="80">
+<root>खरी</root>
+<prAwipaxikam>खरी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खर - ङीष्]</etymology>
+<sense no="1">गधी</sense>
+<segmenthd>
+<root>खरीजङ्घः</root>
+<prAwipaxikam>खरीजङ्घ</prAwipaxikam>
+<seg>खरी-जङ्घः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">शिव का विशेषण</sense>
+</segmenthd>
+<segmenthd>
+<root>खरीवृषः</root>
+<prAwipaxikam>खरीवृष</prAwipaxikam>
+<seg>खरी-वृषः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">गधा</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="81">
+<root>खरु</root>
+<prAwipaxikam>खरु</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खरु</prAwipaxikam>
+<etymology>[खन् - कु, रश्चान्तादेशः]</etymology>
+<sense no="1">श्वेत, मूर्ख, मूढ़</sense>
+<sense n="2">क्रूर</sense>
+<sense n="3">निषिद्ध वस्तुओं का इच्छुक</sense>
+</lexhead>
+
+<lexhead no="82">
+<root>खरुः</root>
+<prAwipaxikam>खरु</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खन् - कु, रश्चान्तादेशः]</etymology>
+<sense no="1">घोड़ा</sense>
+<sense n="2">दाँत</sense>
+<sense n="3">घमण्ड</sense>
+<sense n="4">कामदेव</sense>
+<sense n="5">शिव</sense>
+<sense n="6">लड़की जो अपना पति स्वयं चुने</sense>
+</lexhead>
+
+<lexhead no="83">
+<root>खर्ज्</root>
+<prAwipaxikam>खर्ज्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>खर्जति</vform>,<vform>खर्जित</vform></grammar>
+<sense no="1">पीडा देना, बेचैन करना</sense>
+<sense n="2">कड़कड़ शब्द मत करो</sense>
+</lexhead>
+
+<lexhead no="84">
+<root>खर्जनम्</root>
+<prAwipaxikam>खर्जन</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खर्ज = ल्युट्]</etymology>
+<sense no="1">खरोचना</sense>
+</lexhead>
+
+<lexhead no="85">
+<root>खर्जिका</root>
+<prAwipaxikam>खर्जिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खर्ज् - ण्वुल् - टाप्, इत्वम्]</etymology>
+<sense no="1">उपदंश रोग</sense>
+<sense n="2">गजक</sense>
+</lexhead>
+
+<lexhead no="86">
+<root>खर्जुः</root>
+<prAwipaxikam>खर्जु</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खर्ज् - उन्]</etymology>
+<sense no="1">खरोंच</sense>
+<sense n="2">खजूर का वृक्ष</sense>
+<sense n="3">धतूरे का पेड़</sense>
+</lexhead>
+
+<lexhead no="87">
+<root>खर्जूरन्</root>
+<prAwipaxikam>खर्जूरन्</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खर्ज् - उरच्]</etymology>
+<sense no="1">चाँदी</sense>
+</lexhead>
+
+<lexhead no="88">
+<root>खर्जूः</root>
+<prAwipaxikam>खर्जू</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खर्ज् - ऊ]</etymology>
+<kind_of>रोगः</kind_of>
+<jAwi>अवस्था</jAwi>
+<sense no="1">खाज, खुजली</sense>
+</lexhead>
+
+<lexhead no="89">
+<root>खर्जूरः</root>
+<prAwipaxikam>खर्जूर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खर्ज् - ऊर]</etymology>
+<kind_of>धातुविशेषः</kind_of>
+<jAwi>धातुः</jAwi>
+<kind_of>वृक्षः</kind_of>
+<jAwi>वृक्षः</jAwi>
+<sense no="1">खजूर का पेड़</sense>
+<sense n="2">बिच्छू</sense>
+</lexhead>
+
+<lexhead no="90">
+<root>खर्जूरम्</root>
+<prAwipaxikam>खर्जूर</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खर्ज् - ऊर]</etymology>
+<kind_of>धातुविशेषः</kind_of>
+<jAwi>धातुः</jAwi>
+<kind_of>वृक्षः</kind_of>
+<jAwi>वृक्षः</jAwi>
+<sense no="1">चाँदी</sense>
+<sense n="2">हरताल</sense>
+</lexhead>
+
+<lexhead no="91">
+<root>खर्जूरी</root>
+<prAwipaxikam>खर्जूरी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खर्ज् - ऊर - ङीप्]</etymology>
+<sense no="1">खजूर का पेड़<citation>रघु* ४।५७</citation></sense>
+</lexhead>
+
+<lexhead no="92">
+<root>खर्परः</root>
+<prAwipaxikam>खर्पर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[कर्पर पृषो* कस्य खः]</etymology>
+<sense no="1">चोर</sense>
+<sense n="2">बदमाश, ठग</sense>
+<sense n="3">भिखारी का कटोरा</sense>
+<sense n="4">खोपड़ी</sense>
+<sense n="5">मिट्टी का फूटा हुआ बर्तन ठीकरा</sense>
+<sense n="6">छाता</sense>
+</lexhead>
+
+<lexhead no="93">
+<root>खर्परिका</root>
+<prAwipaxikam>खर्परिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खर्पर - अच् - ङीष्, - कन्, टाप्, ह्रस्व]</etymology>
+<sense no="1">एक प्रकार का सुरमा</sense>
+</lexhead>
+
+<lexhead no="94">
+<root>खर्परी</root>
+<prAwipaxikam>खर्परी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खर्पर - अच् - ङीष्, - कन्, टाप्, ह्रस्व, खर्पर - ङीष्]</etymology>
+<sense no="1">एक प्रकार का सुरमा</sense>
+</lexhead>
+
+<lexhead no="95">
+<root>खर्व्</root>
+<prAwipaxikam>खर्व्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>खर्वति</vform>,<vform>खर्वित</vform></grammar>
+<sense no="1">जाना, फिरना, चलना</sense>
+<sense n="2">घमण्ड करना</sense>
+</lexhead>
+
+<lexhead no="96">
+<root>खर्ब</root>
+<prAwipaxikam>खर्ब</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>खर्वति</vform>,<vform>खर्वित</vform></grammar>
+<sense no="1">जाना, फिरना, चलना</sense>
+<sense n="2">घमण्ड करना</sense>
+</lexhead>
+
+<lexhead no="97">
+<root>खर्व</root>
+<prAwipaxikam>खर्व</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खर्व</prAwipaxikam>
+<etymology>[खर्व् - अच्]</etymology>
+<jAwi>परिमाणः</jAwi>
+<kind_of>पुरुषः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<kind_of>सामान्यनिधिः</kind_of>
+<upAXi>धनम्</upAXi>
+<sense no="1">विकलांग, अपाहज, अपूर्ण,  अंगहीन</sense>
+<sense n="2">ठिगना, ओछा, कद में छोटा</sense>
+</lexhead>
+
+<lexhead no="98">
+<root>खर्ब</root>
+<prAwipaxikam>खर्ब</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खर्ब</prAwipaxikam>
+<etymology>[खर्ब - अच्]</etymology>
+<sense no="1">विकलांग, अपाहज, अपूर्ण,  अंगहीन</sense>
+<sense n="2">ठिगना, ओछा, कद में छोटा</sense>
+</lexhead>
+
+<lexhead no="99">
+<root>खर्वः</root>
+<prAwipaxikam>खर्व</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खर्व् - अच्]</etymology>
+<jAwi>परिमाणः</jAwi>
+<kind_of>पुरुषः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<kind_of>सामान्यनिधिः</kind_of>
+<upAXi>धनम्</upAXi>
+<sense no="1">दस अरब की संख्या</sense>
+</lexhead>
+
+<lexhead no="100">
+<root>खर्बः</root>
+<prAwipaxikam>खर्ब</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खर्ब - अच्]</etymology>
+<sense no="1">दस अरब की संख्या</sense>
+</lexhead>
+
+<lexhead no="101">
+<root>खर्वन्</root>
+<prAwipaxikam>खर्वन्</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<sense no="1">दस अरब की संख्या</sense>
+</lexhead>
+
+<lexhead no="102">
+<root>खर्बन्</root>
+<prAwipaxikam>खर्बन्</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<sense no="1">दस अरब की संख्या</sense>
+<segmenthd>
+<root>खर्वशाख</root>
+<prAwipaxikam>खर्वशाख</prAwipaxikam>
+<seg>खर्व-शाख</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खर्वशाख</prAwipaxikam>
+<sense no="1">ठिंगना, ओछा, छोटा</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="103">
+<root>खर्वटः</root>
+<prAwipaxikam>खर्वट</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खर्व् - अटन्]</etymology>
+<sense no="1">नगर जिसमें पेंठ भरती हो, मण्डी</sense>
+<sense n="2">पहाड़ की तराई का गाँव</sense>
+</lexhead>
+
+<lexhead no="104">
+<root>खर्वटम्</root>
+<prAwipaxikam>खर्वट</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खर्व् - अटन्]</etymology>
+<sense no="1">नगर जिसमें पेंठ भरती हो, मण्डी</sense>
+<sense n="2">पहाड़ की तराई का गाँव</sense>
+</lexhead>
+
+<lexhead no="105">
+<root>खल्</root>
+<prAwipaxikam>खल्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>खलति</vform>,<vform>खलित</vform></grammar>
+<sense no="1">चलना-फिरना, हिलना-जुलना</sense>
+<sense n="2">एकत्र करना, संग्रह करना</sense>
+</lexhead>
+
+<lexhead no="106">
+<root>खलः</root>
+<prAwipaxikam>खल</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खल् - अच्]</etymology>
+<kind_of>मनुष्यः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">खलिहान<citation>मनु* ११।१७</citation>११४<citation>याज्ञ* २।२८२</citation></sense>
+<sense n="2">पृथ्वी, भूमि</sense>
+<sense n="3">स्थान, जगह</sense>
+<sense n="4">धूल का ढेर</sense>
+<sense n="5">तलछट, गाद, तेल आदि के नीचे जमा हुआ मैल</sense>
+</lexhead>
+
+<lexhead no="107">
+<root>खलम्</root>
+<prAwipaxikam>खल</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खल् - अच्]</etymology>
+<kind_of>मनुष्यः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">खलिहान<citation>मनु* ११।१७</citation>११४<citation>याज्ञ* २।२८२</citation></sense>
+<sense n="2">पृथ्वी, भूमि</sense>
+<sense n="3">स्थान, जगह</sense>
+<sense n="4">धूल का ढेर</sense>
+<sense n="5">तलछट, गाद, तेल आदि के नीचे जमा हुआ मैल</sense>
+</lexhead>
+
+<lexhead no="108">
+<root>खलः</root>
+<prAwipaxikam>खल</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खल् - अच्]</etymology>
+<kind_of>मनुष्यः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">दुष्ट या शरारती आदमी, सर्पः क्रूरः खलः क्रूरः सर्पात् क्रूरतरः खलः, मन्त्रौषधिवशः सर्पः, खलः केन निवार्यते<citation>चाण* २६</citation>विषधरतोऽप्यतिविषमः खल इति न मृषा वदन्ति विद्वांसः, यदयं नकुलद्वेषी सकुलद्वेषी पुनः पिशुनः<citation>वास*</citation></sense>
+<compound>
+<root>खलीकृ</root>
+<prAwipaxikam>खलीकृ</prAwipaxikam>
+<grammar></grammar>
+<sense no="1">कुचलना</sense></compound>
+<compound>
+<root>खलीकृ</root>
+<prAwipaxikam>खलीकृ</prAwipaxikam>
+<grammar></grammar>
+<sense no="1">घायल करना या क्षति पहुँचाना</sense></compound>
+<compound>
+<root>खलीकृ</root>
+<prAwipaxikam>खलीकृ</prAwipaxikam>
+<grammar></grammar>
+<sense no="1">दुर्व्यवहार करना, घृणा करना Mपरोक्षे खलीकृतोऽयं द्यूतकारः<citation>मृच्छ* २</citation></sense></compound>
+</lexhead>
+
+<lexhead no="109">
+<root>खलकः</root>
+<prAwipaxikam>खलक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[ख - ला - क - कन्]</etymology>
+<sense no="1">घड़ा</sense>
+</lexhead>
+
+<lexhead no="110">
+<root>खलति</root>
+<prAwipaxikam>खलति</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खलति</prAwipaxikam>
+<etymology>[स्खलन्तिकेशा अस्मात् - स्खल् - अतच् नि* साधुः]</etymology>
+<sense no="1">गंजे सिर वाला, गंजा, युवखलतिः</sense>
+</lexhead>
+
+<lexhead no="111">
+<root>खलतिकः</root>
+<prAwipaxikam>खलतिक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खलति - कै - क]</etymology>
+<sense no="1">पहाड़</sense>
+</lexhead>
+
+<lexhead no="112">
+<root>खलिः</root>
+<prAwipaxikam>खलि</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खल् - इन्]</etymology>
+<sense no="1">तेल की तलछट, खली, स्थाल्यां वैदूर्यमय्यां पचति तिलखलीमिन्धनैश्चन्दनाद्यैः<citation>भर्तृ* २।१००</citation></sense>
+</lexhead>
+
+<lexhead no="113">
+<root>खली</root>
+<prAwipaxikam>खली</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खल् - इन्-ङीप्]</etymology>
+<sense no="1">तेल की तलछट, खली, स्थाल्यां वैदूर्यमय्यां पचति तिलखलीमिन्धनैश्चन्दनाद्यैः<citation>भर्तृ* २।१००</citation></sense>
+</lexhead>
+
+<lexhead no="114">
+<root>खलिनः</root>
+<prAwipaxikam>खलिन</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खे अश्वमुखछिद्रे लीनम्<citation>पृषो* वा ह्रस्वः]</citation></etymology>
+<sense no="1">लगाम का दहाना, लगाम की रस</sense>
+</lexhead>
+
+<lexhead no="115">
+<root>खलीनः</root>
+<prAwipaxikam>खलीन</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खे अश्वमुखछिद्रे लीनम्<citation>पृषो* वा ह्रस्वः]</citation></etymology>
+<upAXi>अवयवः</upAXi>
+<sense no="1">लगाम का दहाना, लगाम की रस</sense>
+</lexhead>
+
+<lexhead no="116">
+<root>खलिनम्</root>
+<prAwipaxikam>खलिन</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खे अश्वमुखछिद्रे लीनम्<citation>पृषो* वा ह्रस्वः]</citation></etymology>
+<sense no="1">लगाम का दहाना, लगाम की रस</sense>
+</lexhead>
+
+<lexhead no="117">
+<root>खलीनम्</root>
+<prAwipaxikam>खलीन</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खे अश्वमुखछिद्रे लीनम्<citation>पृषो* वा ह्रस्वः]</citation></etymology>
+<upAXi>अवयवः</upAXi>
+<sense no="1">लगाम का दहाना, लगाम की रस</sense>
+</lexhead>
+
+<lexhead no="118">
+<root>खलिनी</root>
+<prAwipaxikam>खलिनी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खल् - इनि - ङीप्]</etymology>
+<kind_of>समूहः</kind_of>
+<upAXi>समूहः</upAXi>
+<sense no="1">खलिहानों का समूह</sense>
+</lexhead>
+
+<lexhead no="119">
+<root>खलीङ्कार</root>
+<prAwipaxikam>खलीङ्कार</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खल् - च्वि - कृ - घन्]</etymology>
+<sense no="1">चोट पहुँचाना, क्षति पहुँचाना</sense>
+<sense n="2">दुर्व्यवहारM<citation>शा* १।२५</citation></sense>
+<sense n="3">अनिष्ट, उत्पात</sense>
+</lexhead>
+
+<lexhead no="120">
+<root>खलीङ्कृतिः</root>
+<prAwipaxikam>खलीङ्कृति</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खल् - च्वि - कृ - क्तिन् ]</etymology>
+<sense no="1">चोट पहुँचाना, क्षति पहुँचाना</sense>
+<sense n="2">दुर्व्यवहारM<citation>शा* १।२५</citation></sense>
+<sense n="3">अनिष्ट, उत्पात</sense>
+</lexhead>
+
+<lexhead no="121">
+<root>खलु</root>
+<prAwipaxikam>खलु</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<etymology>[खल् - उन् बा*]</etymology>
+<jAwi>पौरुषेयम्</jAwi>
+<jAwi>मानसिकभावः</jAwi>
+<kind_of>इच्छा</kind_of>
+<jAwi>बुद्धिः</jAwi>
+<jAwi>क्रिया</jAwi>
+<sense no="1">निस्सन्देह, निश्चय ही, अवश्य, सचमुच, मार्गे पदानि खलु ते विषमीभवन्ति<citation>श* ४।१४</citation>अनुत्सेकः खलुः विक्रमालङ्कारः<citation>विक्रम* १</citation>न खल्वनिर्जित्य रघुं कृती भवान्<citation>रघु* ३।५१</citation>यह अव्यय निम्नांकित अर्थों को प्रकट करता हैं</sense>
+<sense n="2">अनुरोध, अनुनय-विनय प्रार्थनान खलु न खलु बाणः सन्निपात्योऽयमस्मिन्<citation>श* १।१०</citation>न खलु न खलु मुग्धे साहसं कार्यमेतत्<citation>नागा* ३</citation></sense>
+<sense n="3">पूछताछन खलु तामभिक्रुद्धो गुरुः<citation>विक्रम* ३</citation>नकलु विदितास्ते तत्र निवसन्तस्चाणक्यहतकेन<citation>मुद्रा* २</citation>न खलूग्ररुषा पिनाकिना गमितः सोऽपि सुहृद्गतां गतिम्<citation>कु* ४।२४ =किमभिक्रुद्धो गुरुः</citation></sense>
+<sense n="4">प्रतिषेधनिर्धारितेऽर्थे लेखेन खलूक्त्त्वा खलु वाचिकम्<citation>शि* २।७० क्रियात्मक संज्ञाओं के साथ</citation></sense>
+<sense n="5">तर्कन विदीर्ये कठिना खलु स्त्रियः<citation>कु* ४।५</citation>विधिना जन एष वञिचतस्त्वधीनं खलु देहिनां सुखम् - ४।१० गण* कार इसे विषाद के निदर्शन के रुप में उद्धृत करता हैं</sense>
+<sense n="6">कभी कभी ‘खलु’ पूरक की भाँति भर्ती कर दिया जाता है</sense>
+<sense n="7">कभी कभी वाक्यालंकार की तरह प्रयुक्त होता है</sense>
+</lexhead>
+
+<lexhead no="122">
+<root>खलुच्</root>
+<prAwipaxikam>खलुच्</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खम् इन्द्रियं लुञ्चति हन्ति इति - ख - लुञ्च् - क्विप्]</etymology>
+<sense no="1">अन्धकार</sense>
+</lexhead>
+
+<lexhead no="123">
+<root>खलुरिका</root>
+<prAwipaxikam>खलुरिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<sense no="1">परेड का मैदान जहाँ सैनिक लोग कवायद करें</sense>
+</lexhead>
+
+<lexhead no="124">
+<root>खल्या</root>
+<prAwipaxikam>खल्या</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खल - यत् - टाप्]</etymology>
+<kind_of>समूहः</kind_of>
+<upAXi>समूहः</upAXi>
+<sense no="1">खलिहानों का समूह</sense>
+</lexhead>
+
+<lexhead no="125">
+<root>खल्लः</root>
+<prAwipaxikam>खल्ल</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खल् - क्विप्, तं लाति -- खल् - ला - क]</etymology>
+<sense no="1">खरल, जिसमें डालकर औषधियाँ पीसी जाय, चक्की</sense>
+<sense n="2">गढ़ा</sense>
+<sense n="3">चमड़ा</sense>
+<sense n="4">चातक पक्षी</sense>
+<sense n="5">मशक</sense>
+</lexhead>
+
+<lexhead no="126">
+<root>खल्लिका</root>
+<prAwipaxikam>खल्लिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खल्ल - कन् - टाप्, इत्वम्]</etymology>
+<sense no="1">कढ़ाई</sense>
+</lexhead>
+
+<lexhead no="127">
+<root>खल्लिट</root>
+<prAwipaxikam>खल्लिट</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खल्लिट</prAwipaxikam>
+<etymology>[खल्ल - इन् - टल् - ड ]</etymology>
+<sense no="1">गंजे सिर वाला</sense>
+</lexhead>
+
+<lexhead no="128">
+<root>खल्लीट</root>
+<prAwipaxikam>खल्लीट</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खल्लीट</prAwipaxikam>
+<etymology>[खल्लि - ङीष् - टल् - ड]</etymology>
+<sense no="1">गंजे सिर वाला</sense>
+</lexhead>
+
+<lexhead no="129">
+<root>खल्वाट</root>
+<prAwipaxikam>खल्वाट</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खल्वाट</prAwipaxikam>
+<etymology>[खल् - वाट उप* स*]</etymology>
+<sense no="1">गंजा, गंजे सिर वाला, खल्वाटो दिवसेश्वरस्य किरणैः सन्तापितो मस्तके<citation>भर्तृ* २।९०</citation><citation>विक्रमांक* १८।९९</citation></sense>
+</lexhead>
+
+<lexhead no="130">
+<root>खशः</root>
+<prAwipaxikam>खश</prAwipaxikam>
+<grammar>पुं*</grammar>
+<sense no="1">भारत के उत्तर में स्थित एक पहाड़ी प्रदेश तथा उसके अधिवासी<citation>मनु* १०।४४</citation></sense>
+</lexhead>
+
+<lexhead no="131">
+<root>खशरः</root>
+<prAwipaxikam>खशर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<sense no="1">एक देश तथा उसके अधिवासियों का नाम</sense>
+</lexhead>
+
+<lexhead no="132">
+<root>खष्पः</root>
+<prAwipaxikam>खष्प</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खन् - प नि* नस्य षः]</etymology>
+<sense no="1">क्रोध</sense>
+<sense n="2">हिंसा, निष्ठुरता</sense>
+</lexhead>
+
+<lexhead no="133">
+<root>खसः</root>
+<prAwipaxikam>खस</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खानि इन्द्रियाणी स्यति निश्चलीकरोति - ख - सो - क]</etymology>
+<sense no="1">खाज, खुजली</sense>
+<sense n="2">एक देश का नामM दे* ‘खश’</sense>
+</lexhead>
+
+<lexhead no="134">
+<root>खसूचिः</root>
+<prAwipaxikam>खसूचि</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[ख - सूच् - इ]</etymology>
+<sense no="1">अपमानसूचक अभिव्यक्ति, वैयाकरण खसूचिः, समास के अन्त में  जो व्याकरण अच्छी तरह नहीं जानता हो या भूल गया हो</sense>
+</lexhead>
+
+<lexhead no="135">
+<root>खस्खसः</root>
+<prAwipaxikam>खस्खस</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खस प्रकारे द्वित्वम्, पृषो* अकारलोपः]</etymology>
+<sense no="1">पोस्त</sense>
+<segmenthd>
+<root>खस्खसरसः</root>
+<prAwipaxikam>खस्खसरस</prAwipaxikam>
+<seg>खस्खस-रसः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">अफ़ीम</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="136">
+<root>खाजिकः</root>
+<prAwipaxikam>खाजिक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खाज - ठन्]</etymology>
+<sense no="1">तला हुआ या भुना हुआ अनाज</sense>
+</lexhead>
+
+<lexhead no="137">
+<root>खाट्</root>
+<prAwipaxikam>खाट्</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<sense no="1">गला साफ करते समय होने वाली ध्वनि</sense>
+</lexhead>
+
+<lexhead no="138">
+<root>खात्</root>
+<prAwipaxikam>खात्</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<sense no="1">गला साफ करते समय होने वाली ध्वनि</sense>
+<compound>
+<root>खात्कृ</root>
+<prAwipaxikam>खात्कृ</prAwipaxikam>
+<grammar></grammar>
+<sense no="1">खखारना</sense></compound>
+</lexhead>
+
+<lexhead no="139">
+<root>खाटः</root>
+<prAwipaxikam>खाट</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[ख - अट् - घञ् स्त्रियां टाप् - खाट - कन् - टाप्, इत्वम्, खाट - ङीप्]</etymology>
+<sense no="1">अर्थी, टिक्ठी जिसपर मुर्दे को रखकर चिता तक ले जाते हैं</sense>
+</lexhead>
+
+<lexhead no="140">
+<root>खाटा</root>
+<prAwipaxikam>खाटा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[ख - अट् - घञ् स्त्रियां टाप् - खाट - कन् - टाप्, इत्वम्, खाट - ङीप्]</etymology>
+<sense no="1">अर्थी, टिक्ठी जिसपर मुर्दे को रखकर चिता तक ले जाते हैं</sense>
+</lexhead>
+
+<lexhead no="141">
+<root>खाटिका</root>
+<prAwipaxikam>खाटिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[ख - अट् - घञ् स्त्रियां टाप् - खाट - कन् - टाप्, इत्वम्, खाट - ङीप्]</etymology>
+<sense no="1">अर्थी, टिक्ठी जिसपर मुर्दे को रखकर चिता तक ले जाते हैं</sense>
+</lexhead>
+
+<lexhead no="142">
+<root>खाटी</root>
+<prAwipaxikam>खाटी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[ख - अट् - घञ् स्त्रियां टाप् - खाट - कन् - टाप्, इत्वम्, खाट - ङीप्]</etymology>
+<sense no="1">अर्थी, टिक्ठी जिसपर मुर्दे को रखकर चिता तक ले जाते हैं</sense>
+</lexhead>
+
+<lexhead no="143">
+<root>खाण्डव</root>
+<prAwipaxikam>खाण्डव</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खाण्डव</prAwipaxikam>
+<etymology>[खण्ड - अण् - वा - क]</etymology>
+<sense no="1">खाँड़, मिश्री</sense>
+</lexhead>
+
+<lexhead no="144">
+<root>खाण्डवम्</root>
+<prAwipaxikam>खाण्डव</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खण्ड - अण् - वा - क]</etymology>
+<sense no="1">कुरुक्षेत्र प्रदेश में विद्यमान इन्द्र का प्रिय वन जिसे अर्जुन और कृष्ण की सहायता से अग्नि ने जला दिया था</sense>
+<segmenthd>
+<root>खाण्डवप्रस्थः</root>
+<prAwipaxikam>खाण्डवप्रस्थ</prAwipaxikam>
+<seg>खाण्डव-प्रस्थः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">एक नगर का नाम</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="145">
+<root>खाण्डविकः</root>
+<prAwipaxikam>खाण्डविक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खाण्डव - ठन्]</etymology>
+<sense no="1">हलवाई</sense>
+</lexhead>
+
+<lexhead no="146">
+<root>खाण्डिकः</root>
+<prAwipaxikam>खाण्डिक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खाण्डव - ठन्, खण्ड - ठन्]</etymology>
+<sense no="1">हलवाई</sense>
+</lexhead>
+
+<lexhead no="147">
+<root>खात</root>
+<prAwipaxikam>खात</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खात</prAwipaxikam>
+<etymology>[खन् - क्त]</etymology>
+<kind_of>तटाकादयः</kind_of>
+<jAwi>मानवनिर्मितिः</jAwi>
+<sense no="1">खुदा हुआ, खोखला किया हुआ</sense>
+<sense n="2">फाड़ा हुआ, चीरा हुआ</sense>
+</lexhead>
+
+<lexhead no="148">
+<root>खातम्</root>
+<prAwipaxikam>खात</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खन् - क्त]</etymology>
+<kind_of>तटाकादयः</kind_of>
+<jAwi>मानवनिर्मितिः</jAwi>
+<sense no="1">खुदाई</sense>
+<sense n="2">सूराख</sense>
+<sense n="3">खाई, परिखा</sense>
+<sense n="4">आयताकार तालाब</sense>
+<segmenthd>
+<root>खातभूः</root>
+<prAwipaxikam>खातभू</prAwipaxikam>
+<seg>खात-भूः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">खाई, परिखा</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="149">
+<root>खातकः</root>
+<prAwipaxikam>खातक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खात - कन्]</etymology>
+<sense no="1">खोदने वाला</sense>
+<sense n="2">कर्जदार</sense>
+</lexhead>
+
+<lexhead no="150">
+<root>खातकम्</root>
+<prAwipaxikam>खातक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खात - कन्]</etymology>
+<sense no="1">खाई, परिखा</sense>
+</lexhead>
+
+<lexhead no="151">
+<root>खाता</root>
+<prAwipaxikam>खाता</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खात - टाप्]</etymology>
+<sense no="1">बनाया हुआ तालाब</sense>
+</lexhead>
+
+<lexhead no="152">
+<root>खातिः</root>
+<prAwipaxikam>खाति</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खन् - क्तिन्]</etymology>
+<sense no="1">खुदाई, खोखला करना</sense>
+</lexhead>
+
+<lexhead no="153">
+<root>खात्रम्</root>
+<prAwipaxikam>खात्र</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खन् - ष्ट्रन्, कित्]</etymology>
+<sense no="1">कुदाली, आयताकार तालाब</sense>
+<sense n="2">धागा</sense>
+<sense n="3">वन, जंगल</sense>
+<sense n="4">विस्मयोत्पादक भय</sense>
+</lexhead>
+
+<lexhead no="154">
+<root>खाद्</root>
+<prAwipaxikam>खाद्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>खादति</vform>,<vform>खादित</vform></grammar>
+<sense no="1">खाना निगल लेना, खिलाना, शिकार करना, काट लेना, प्राक्पादयोः पतति खादति पृष्ठमांसम्<citation>हि* १।८१</citation>खादन्मांसं न दुष्यति<citation>मनु* ५।३२</citation>५३<citation>भट्टि* ६।६</citation>९।७८, १४।८७, १०१, १५।३५</sense>
+</lexhead>
+
+<lexhead no="155">
+<root>खादक</root>
+<prAwipaxikam>खादक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खादक</prAwipaxikam>
+<etymology>[खाद् - ण्वुल्]</etymology>
+<sense no="1">खाने वाला, उपभोग करने वाला,  स्त्री - खादिका</sense>
+</lexhead>
+
+<lexhead no="156">
+<root>खादकः</root>
+<prAwipaxikam>खादक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खाद् - ण्वुल्]</etymology>
+<sense no="1">कर्जदार</sense>
+</lexhead>
+
+<lexhead no="157">
+<root>खादनः</root>
+<prAwipaxikam>खादन</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खाद् - ल्युट्]</etymology>
+<sense no="1">दाँत</sense>
+</lexhead>
+
+<lexhead no="158">
+<root>खादनम्</root>
+<prAwipaxikam>खादन</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खाद् - ल्युट्]</etymology>
+<sense no="1">खाना चबाना</sense>
+<sense n="2">भोजन</sense>
+</lexhead>
+
+<lexhead no="159">
+<root>खादिर</root>
+<prAwipaxikam>खादिर</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खादिर</prAwipaxikam>
+<etymology>[खादिर - अञ्]</etymology>
+<sense no="1">खैर वृक्ष का, या खैर वृक्ष की लकड़ी का बना हुआ, खादिरं यूपं कुर्वीत<citation>मनु* २।४५</citation>स्त्री - खादिरी</sense>
+</lexhead>
+
+<lexhead no="160">
+<root>खादुक</root>
+<prAwipaxikam>खादुक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खादुक</prAwipaxikam>
+<etymology>[खाद् - उन् - कन्]</etymology>
+<sense no="1">उत्पाती, हानिकर द्वेषपूर्ण,  स्त्री - खादुकी</sense>
+</lexhead>
+
+<lexhead no="161">
+<root>खाद्यम्</root>
+<prAwipaxikam>खाद्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खाद् - ण्यत्]</etymology>
+<sense no="1">भोजन, भोज्य पदार्थ</sense>
+</lexhead>
+
+<lexhead no="162">
+<root>खानम्</root>
+<prAwipaxikam>खान</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[कन् - ल्युट्]</etymology>
+<sense no="1">खुदाई, क्षति</sense>
+<segmenthd>
+<root>खानोदकः</root>
+<prAwipaxikam>खानोदक</prAwipaxikam>
+<seg>खानम्-उदकः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">नारियल का पेड़</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="163">
+<root>खानक</root>
+<prAwipaxikam>खानक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खानक</prAwipaxikam>
+<etymology>[खन् - ण्वुल्]</etymology>
+<sense no="1">खोदने वाला, खनिक,  स्त्री - खानिका</sense>
+</lexhead>
+
+<lexhead no="164">
+<root>खानिः</root>
+<prAwipaxikam>खानि</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खनिरेव पृषो* वृद्धिः]</etymology>
+<sense no="1">खान</sense>
+</lexhead>
+
+<lexhead no="165">
+<root>खानिकः</root>
+<prAwipaxikam>खानिक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खान - ठञ्]</etymology>
+<sense no="1">दीवार में किया हुआ छेद, दरार, तरेड़</sense>
+</lexhead>
+
+<lexhead no="166">
+<root>खानिकम्</root>
+<prAwipaxikam>खानिक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खान - ठञ्]</etymology>
+<sense no="1">दीवार में किया हुआ छेद, दरार, तरेड़</sense>
+</lexhead>
+
+<lexhead no="167">
+<root>खानिलः</root>
+<prAwipaxikam>खानिल</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खान - इलच् बा*]</etymology>
+<sense no="1">घर में सेंध लगाने वाला</sense>
+</lexhead>
+
+<lexhead no="168">
+<root>खारः</root>
+<prAwipaxikam>खार</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खम् आकाशम् आधिक्येन ऋच्छति - ख - ऋ - अण्, ख - आ - रा - क - ङीष् वा ह्रस्वः]</etymology>
+<sense no="1">१६ द्रोण के बराबर अनाज का माप, स्त्री - खारी</sense>
+</lexhead>
+
+<lexhead no="169">
+<root>खारि</root>
+<prAwipaxikam>खारि</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खम् आकाशम् आधिक्येन ऋच्छति - ख - ऋ - अण्, ख - आ - रा - क - ङीष् वा ह्रस्वः]</etymology>
+<sense no="1">१६ द्रोण के बराबर अनाज का माप, स्त्री - खारी</sense>
+</lexhead>
+
+<lexhead no="170">
+<root>खारिम्पच</root>
+<prAwipaxikam>खारिम्पच</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खारिम्पच</prAwipaxikam>
+<etymology>[खारिम् - पच् - खश्]</etymology>
+<sense no="1">एक खारी - भर अनाज पकाने वाला</sense>
+</lexhead>
+
+<lexhead no="171">
+<root>खार्वा</root>
+<prAwipaxikam>खार्वा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<sense no="1">त्रेतायुग, दूसरा युग</sense>
+</lexhead>
+
+<lexhead no="172">
+<root>खिङ्खरः</root>
+<prAwipaxikam>खिङ्खर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खिम् इति शब्दं किरति - खिम् - कृ - क पृषो*]</etymology>
+<sense no="1">लोमड़ी, स्त्री - खिङ्खरी</sense>
+<sense n="2">खाट या चारपाई का पाया</sense>
+</lexhead>
+
+<lexhead no="173">
+<root>खिद्</root>
+<prAwipaxikam>खिद्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><gaNa>तुदा*</gaNa><paxI>पर*</paxI><vform>खिन्दति</vform>,<vform>खिन्न</vform></grammar>
+<sense no="1">प्रहार करना, खींचना, कष्ट देना</sense>
+<sense n="2">पीडित होना, कष्ट सहना, कष्टग्रस्त होना, क्लान्त होना, थकान अनुभव करना, अवसाद या श्रान्ति अनुभव करनाश* ५।७, किं नाम मयि खिद्यते गुरुः<citation>वेणी* १</citation>स पुरुषो यः खिद्यते नेन्द्रियैः<citation>हि* २।१४१</citation>पराभूत<citation>शा* ३।७</citation><citation>भट्टि* १४।१०८</citation>१७।१०</sense>
+<sense n="3">डरना, त्रस्त करना</sense>
+<segmenthd>
+<root>परिखिद्</root>
+<prAwipaxikam>परिखिद्</prAwipaxikam>
+<seg>परि-खिद्</seg>
+<grammar><gaNa>दिवा*</gaNa><gaNa>रुधा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">पीडित होना, कष्ट सहना, दुःखी या क्लान्त होना</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="174">
+<root>खिदिरः</root>
+<prAwipaxikam>खिदिर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खिद् - किरच्]</etymology>
+<sense no="1">संन्यासी</sense>
+<sense n="2">दरिद्र</sense>
+<sense n="3">चन्द्रमा</sense>
+</lexhead>
+
+<lexhead no="175">
+<root>खिन्न</root>
+<prAwipaxikam>खिन्न</prAwipaxikam>
+<grammar>भू* क* कृ*</grammar>
+<etymology>[खिद् - क्त]</etymology>
+<sense no="1">अवसाद प्राप्त, कष्टग्रस्त, उदास, दुःखी, पीडित, गुरुः खेदं खिन्ने मयि भजति नाद्यापि कुरुषु<citation>वेणी* १।११</citation>अनङ्गबाणव्रणखिन्नमानसः<citation>गीत* ३</citation></sense>
+<sense n="2">क्लान्त, थका हुआ, श्रान्तखिन्नः खिन्नः शिखरिषु पदं न्यस्य गन्तासि यत्र<citation>मेघ* १३</citation>३८, तयोपचारांञ्जलिखिन्नहस्तया<citation>रघु* ३।११</citation><citation>चौर* ३।२०</citation><citation>शि* ९।११</citation></sense>
+</lexhead>
+
+<lexhead no="176">
+<root>खिलः</root>
+<prAwipaxikam>खिल</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खिल् - क]</etymology>
+<kind_of>भूमिः</kind_of>
+<jAwi>पृथ्वी</jAwi>
+<sense no="1">ऊसर भूमि या परती जमीन का टुकड़ा, मरुभूमि, वृक्षहीन भूमि</sense>
+<sense n="2">अतिरिक्त सूक्त जो किसी मूलसंग्रह में जोड़ा गया होM<citation>मनु* ३।२३२</citation></sense>
+<sense n="3">सम्पूरक</sense>
+<sense n="4">संग्रहग्रन्थ या संकलित ग्रन्थ</sense>
+<sense n="5">खोखलापन, शून्यता F खिल का प्रयोग भू या कृ के साथ भी होता है</sense>
+<compound>
+<root>खिलीभू</root>
+<prAwipaxikam>खिलीभू</prAwipaxikam>
+<grammar></grammar>
+<sense no="1">अगम्य होना, बन्द होना, अनभ्यस्त रहना Mखिलीभूते विमानानां तदापातभयात्पथि<citation>कु* २।४५</citation></sense></compound>
+<compound>
+<root>खिलीकृ</root>
+<prAwipaxikam>खिलीकृ</prAwipaxikam>
+<grammar></grammar>
+<sense no="1">रोकना, बाधा डालना, अगम्य बनाना, रोकना M<citation>रघु* ११।१४</citation>८७</sense></compound>
+<compound>
+<root>खिलीकृ</root>
+<prAwipaxikam>खिलीकृ</prAwipaxikam>
+<grammar></grammar>
+<sense no="1">परती छोड़ना, उजाड़ना, पूर्णतः नष्ट कर देना Mविपक्षमखिलीकृत्य प्रतिष्ठा खलु दुर्लभा<citation>शि* २।३४</citation></sense></compound>
+</lexhead>
+
+<lexhead no="177">
+<root>खुङ्गाहः</root>
+<prAwipaxikam>खुङ्गाह</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खुम् इत्यव्यक्तशब्दं कृत्वा गाहते - खुम् - गाह - अच्]</etymology>
+<sense no="1">काला टट्टू या घोड़ा</sense>
+</lexhead>
+
+<lexhead no="178">
+<root>खुरः</root>
+<prAwipaxikam>खुर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खुर - क]</etymology>
+<is_a_part>अश्वः</is_a_part>
+<upAXi>अवयवः</upAXi>
+<kind_of>सुगन्धद्रव्यभेदः</kind_of>
+<jAwi>अचलनिर्जीववस्तु</jAwi>
+<sense no="1">सुम<citation>रघु* १।८५</citation>२।२<citation>मनु* ४।६७</citation></sense>
+<sense n="2">एक प्रकार का सुगन्धित द्रव्य</sense>
+<sense n="3">उस्तरा</sense>
+<sense n="4">खाट का पाया</sense>
+<segmenthd>
+<root>खुराघातः</root>
+<prAwipaxikam>खुराघात</prAwipaxikam>
+<seg>खुर-आघातः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">लात मारना</sense>
+</segmenthd>
+<segmenthd>
+<root>खुरक्षेपः</root>
+<prAwipaxikam>खुरक्षेप</prAwipaxikam>
+<seg>खुर-क्षेपः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">लात मारना</sense>
+</segmenthd>
+<segmenthd>
+<root>खुरणस्</root>
+<prAwipaxikam>खुरणस्</prAwipaxikam>
+<seg>खुर-णस्</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खुरणस्</prAwipaxikam>
+<kind_of>पुरुषः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">चिपटी नाक वाला</sense>
+</segmenthd>
+<segmenthd>
+<root>खुरणस</root>
+<prAwipaxikam>खुरणस</prAwipaxikam>
+<seg>खुर-णस</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खुरणस</prAwipaxikam>
+<kind_of>पुरुषः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">चिपटी नाक वाला</sense>
+</segmenthd>
+<segmenthd>
+<root>खुरपदवी</root>
+<prAwipaxikam>खुरपदवी</prAwipaxikam>
+<seg>खुर-पदवी</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">घोड़े के पदचिह्न</sense>
+</segmenthd>
+<segmenthd>
+<root>खुरप्रः</root>
+<prAwipaxikam>खुरप्र</prAwipaxikam>
+<seg>खुर-प्रः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">अर्द्धगोलाकार नोंक का बाणM दे* क्षुरप्र</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="179">
+<root>खुरली</root>
+<prAwipaxikam>खुरली</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खुरैः सह लाति पौनः पुन्येन यत्र - खुर - ला - क - ङीष्]</etymology>
+<sense no="1">सैनिक अभ्यास, अस्त्र प्रयोगखुरलीकलहे गणानाम्<citation>महावी* २।३४</citation>दूरोत्पतनखुरलीकेलिजनितान् ५।५, शस्त्र तथा धनुष आदि का</sense>
+</lexhead>
+
+<lexhead no="180">
+<root>खुरालकः</root>
+<prAwipaxikam>खुरालक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खुर इव अलति पर्याप्नोति - खुर - अल् - ण्वुल्]</etymology>
+<sense no="1">लोहे का बाण</sense>
+</lexhead>
+
+<lexhead no="181">
+<root>खुरालिकः</root>
+<prAwipaxikam>खुरालिक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खुराणाम् आलिभिः कायति प्रकाशते - खुरालि - कै - क]</etymology>
+<sense no="1">उस्तरा रखने का घर</sense>
+<sense n="2">लोहे का तीर</sense>
+<sense n="3">तकिया</sense>
+</lexhead>
+
+<lexhead no="182">
+<root>खुल्ल</root>
+<prAwipaxikam>खुल्ल</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खुल्ल</prAwipaxikam>
+<etymology>[ = क्षुल्ल, पृषो*]</etymology>
+<sense no="1">छोटा, ओछा, अधम, नीच,  दे* ‘क्षुद्र’</sense>
+<segmenthd>
+<root>खुल्लतातः</root>
+<prAwipaxikam>खुल्लतात</prAwipaxikam>
+<seg>खुल्ल-तातः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">चाचा</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="183">
+<root>खेचरः</root>
+<prAwipaxikam>खेचर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<sense no="1">पक्षी</sense>
+<sense n="2">बादल</sense>
+<sense n="3">वृक्ष</sense>
+<sense n="4">हवा</sense>
+</lexhead>
+
+<lexhead no="184">
+<root>खटः</root>
+<prAwipaxikam>खट</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खे अटति - अट् - अच्, खिच् - अच् वा]</etymology>
+<sense no="1">गाँव, छोटा नगर, पुरखा</sense>
+<sense n="2">कफ</sense>
+<sense n="3">बलराम की गदा</sense>
+<sense n="4">घोड़ाM वि* समासान्त ‘खेट’ सदोषता तथा ह्रास को प्रकट करता है जो ‘अभागा’ या ‘कंबख्त’ आदि शब्दों से पुकारा जा सकता है, नगरखेटम् अभागा नगर ‘खेऽट’ के लिए देखें ख के नीचे</sense>
+</lexhead>
+
+<lexhead no="185">
+<root>खेटितानः</root>
+<prAwipaxikam>खेटितान</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खिट् - इन् = खेटि, खेटिः तानोऽस्य, तालोऽस्य वा]</etymology>
+<sense no="1">वैतालिक, स्तुतिपाठक जो गृहस्वामी को गा बजा कर जगाता है</sense>
+</lexhead>
+
+<lexhead no="186">
+<root>खेटिन्</root>
+<prAwipaxikam>खेटिन्</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खिट् - णिनि]</etymology>
+<sense no="1">दुराचारी, दुश्चरित्र</sense>
+</lexhead>
+
+<lexhead no="187">
+<root>खेदः</root>
+<prAwipaxikam>खेद</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खिद् - घञ्]</etymology>
+<sense no="1">अवसाद, आलस्य, उदासी</sense>
+<sense n="2">थकान, श्रान्ति Fअलसलुलितमुग्धान्यध्वसंजातखेदात्<citation>उत्तर* १।२४</citation>अध्वखेदं नयेथाः<citation>मेघ* ३२</citation><citation>रघु* १८।४५</citation></sense>
+<sense n="3">पीडा, यन्त्रणा F<citation>अमरु* ३</citation></sense>
+<sense n="4">दुःख, शोक Mगुरुः खेदं खिन्ने मयि भजति नाद्यापि कुरुषु<citation>वेणी* १।११</citation><citation>अमरु* ५३</citation></sense>
+</lexhead>
+
+<lexhead no="188">
+<root>खेयम्</root>
+<prAwipaxikam>खेय</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खन् - क्यप्, इकारादेशः]</etymology>
+<kind_of>तटाकादयः</kind_of>
+<jAwi>मानवनिर्मितिः</jAwi>
+<sense no="1">खाई, परिखा</sense>
+</lexhead>
+
+<lexhead no="189">
+<root>खेयः</root>
+<prAwipaxikam>खेय</prAwipaxikam>
+<grammar>पुं*</grammar>
+<kind_of>तटाकादयः</kind_of>
+<jAwi>मानवनिर्मितिः</jAwi>
+<sense no="1">पुल</sense>
+</lexhead>
+
+<lexhead no="190">
+<root>खेल्</root>
+<prAwipaxikam>खेल्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>खेलति</vform>,<vform>खेलित</vform></grammar>
+<sense no="1">हिलाना, इधर-उधर आना जाना</sense>
+<sense n="2">काँपना</sense>
+<sense n="3">खेलना</sense>
+</lexhead>
+
+<lexhead no="191">
+<root>खेल</root>
+<prAwipaxikam>खेल</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खेल</prAwipaxikam>
+<etymology>[खेल् - अच्]</etymology>
+<sense no="1">खिलाड़ी, रसिया, क्रीड़ापूर्ण<citation>रघु* ४।२२</citation><citation>विक्रम* ४।१६</citation>४३</sense>
+</lexhead>
+
+<lexhead no="192">
+<root>खेलनम्</root>
+<prAwipaxikam>खेलन</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खेल् - ल्युट्]</etymology>
+<sense no="1">हिलाना</sense>
+<sense n="2">खेल, मनोरञ्जन</sense>
+<sense n="3">तमाशा</sense>
+</lexhead>
+
+<lexhead no="193">
+<root>खेला</root>
+<prAwipaxikam>खेला</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खेल् - अ - टाप्]</etymology>
+<kind_of>क्रीडा</kind_of>
+<jAwi>क्रिया</jAwi>
+<sense no="1">क्रीडा, खेल</sense>
+</lexhead>
+
+<lexhead no="194">
+<root>खेलिः</root>
+<prAwipaxikam>खेलि</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खे आकाशे अलति पर्याप्नोति खे - अल् - इन्]</etymology>
+<sense no="1">क्रीडा, खेल</sense>
+<sense n="2">तीर</sense>
+</lexhead>
+
+<lexhead no="195">
+<root>खोटिः</root>
+<prAwipaxikam>खोटि</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खोट् - इन्]</etymology>
+<sense no="1">चालाक और चतुर स्त्री</sense>
+</lexhead>
+
+<lexhead no="196">
+<root>खोड</root>
+<prAwipaxikam>खोड</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खोड</prAwipaxikam>
+<etymology>[खोड् - अच्]</etymology>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">विकलांग, लंगड़ा, पंगु</sense>
+</lexhead>
+
+<lexhead no="197">
+<root>खोर</root>
+<prAwipaxikam>खोर</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खोर</prAwipaxikam>
+<etymology>[खोर् - अच्]</etymology>
+<sense no="1">लंगड़ा, पंगु</sense>
+</lexhead>
+
+<lexhead no="198">
+<root>खोल</root>
+<prAwipaxikam>खोल</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">खोल</prAwipaxikam>
+<etymology>[खोल् - अच्]</etymology>
+<sense no="1">लंगड़ा, पंगु</sense>
+</lexhead>
+
+<lexhead no="199">
+<root>खोलकः</root>
+<prAwipaxikam>खोलक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[खोल - कन्]</etymology>
+<sense no="1">पुरवा</sense>
+<sense n="2">बाँबी</sense>
+<sense n="3">सुपारी का छिलका</sense>
+<sense n="4">डेगची</sense>
+</lexhead>
+
+<lexhead no="200">
+<root>खोलिः</root>
+<prAwipaxikam>खोलि</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[खोल् - इन्]</etymology>
+<sense no="1">तरकस</sense>
+</lexhead>
+
+<lexhead no="201">
+<root>ख्या</root>
+<prAwipaxikam>ख्या</prAwipaxikam>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI><vform>ख्याति</vform>,<vform>ख्यात</vform></grammar>
+<sense no="1">कहना, घोषणा करना, समाचार देना, अर्धधातुक लकारों में आ* भी</sense>
+<sense n="2">कहलाना<citation>भट्टि* ६।९७ संप्र के साथ</citation></sense>
+<sense n="3">प्रसिद्ध या परिचित होना</sense>
+<sense n="4">ज्ञात करना, प्रकथन करना<citation>मनु* ७।२०१</citation></sense>
+<sense n="5">कहना, घोषणा करना, वर्णन करना<citation>भर्तृ* २।५९</citation><citation>मनु* ११।९९</citation></sense>
+<sense n="6">स्तुति करना, प्रख्यात करना, प्रशंसा करना</sense>
+<segmenthd>
+<root>अभिख्या</root>
+<prAwipaxikam>अभिख्या</prAwipaxikam>
+<seg>अभि-ख्या</seg>
+<grammar><gaNa>अदा*</gaNa>कर्म*</grammar>
+<sense no="1">ज्ञात होना</sense>
+<sense no="2">घोषना करना, प्रकथन करना</sense>
+</segmenthd>
+<segmenthd>
+<root>आख्या</root>
+<prAwipaxikam>आख्या</prAwipaxikam>
+<seg>आ-ख्या</seg>
+<grammar><gaNa>अदा*</gaNa></grammar>
+<sense no="1">कहना, घोषणा करना, समाचार देनाते रामाय वधोपायमाचख्युर्विबुधद्विषः<citation>रघु* १५।५</citation>४१, ७१, ९३ १२।४२, ९१<citation>भग* ११।३१</citation>१८।६३<citation>पंच* ४।१५ प्रायः संप्र के साथ  कभी-कभी संब* के साथ - आख्याहि भद्रे प्रियदर्शनस्य</citation></sense>
+<sense no="2">घोषणा करना, व्यक्त करना</sense>
+<sense no="3">पुकारना, नाम लेना<citation>रघु* १०।५१</citation><citation>मनु* ४।६</citation></sense>
+</segmenthd>
+<segmenthd>
+<root>परिख्या</root>
+<prAwipaxikam>परिख्या</prAwipaxikam>
+<seg>परि-ख्या</seg>
+<grammar><gaNa>अदा*</gaNa></grammar>
+<sense no="1">सुपरिचित होना</sense>
+</segmenthd>
+<segmenthd>
+<root>परिसंख्या</root>
+<prAwipaxikam>परिसंख्या</prAwipaxikam>
+<seg>परिसम्-ख्या</seg>
+<grammar><gaNa>अदा*</gaNa></grammar>
+<sense no="1">गिनती करना</sense>
+</segmenthd>
+<segmenthd>
+<root>प्रख्या</root>
+<prAwipaxikam>प्रख्या</prAwipaxikam>
+<seg>प्र-ख्या</seg>
+<grammar><gaNa>अदा*</gaNa></grammar>
+<sense no="1">सुपरिचित होना</sense>
+</segmenthd>
+<segmenthd>
+<root>प्रत्याख्या</root>
+<prAwipaxikam>प्रत्याख्या</prAwipaxikam>
+<seg>प्रत्या-ख्या</seg>
+<grammar><gaNa>अदा*</gaNa></grammar>
+<sense no="1">मुकर जाना</sense>
+<sense no="2">इनकार करना, मना करना, अस्वीकार करना</sense>
+<sense no="3">मना करना, प्रतिषेध करना</sense>
+<sense no="4">वर्जित करना</sense>
+<sense no="5">पीछे छोड़ देना, आगे बढ़ जाना<citation>मालवि* ३।५</citation></sense>
+</segmenthd>
+<segmenthd>
+<root>विख्या</root>
+<prAwipaxikam>विख्या</prAwipaxikam>
+<seg>वि-ख्या</seg>
+<grammar><gaNa>अदा*</gaNa></grammar>
+<sense no="1">सुप्रसिद्ध या परिचित होना</sense>
+</segmenthd>
+<segmenthd>
+<root>व्याख्या</root>
+<prAwipaxikam>व्याख्या</prAwipaxikam>
+<seg>व्या-ख्या</seg>
+<grammar><gaNa>अदा*</gaNa></grammar>
+<sense no="1">कहना, घोषणा करना, समाचार देना<citation>भट्टि* १४।११३</citation></sense>
+<sense no="2">व्याख्या करना, वर्णन करनारावणस्यापि ते जन्म व्याख्यास्यामी<citation>महा*</citation></sense>
+<sense no="3">नाम लेना, पुकारनाविद्वद्वृन्दैर्वीणावाणी व्याख्याता सा विद्युन्माला<citation>श्रुत* १५</citation></sense>
+</segmenthd>
+<segmenthd>
+<root>संख्या</root>
+<prAwipaxikam>संख्या</prAwipaxikam>
+<seg>सम्-ख्या</seg>
+<grammar><gaNa>अदा*</gaNa></grammar>
+<sense no="1">गिनना, गणना करना, हिसाब लगाना, जोड़नातावन्त्येव च तत्त्वानि साङ्ख्यैः सख्ङ्यायन्ते<citation>शारी*</citation></sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="202">
+<root>ख्यात</root>
+<prAwipaxikam>ख्यात</prAwipaxikam>
+<grammar>भू* क* कृ*</grammar>
+<etymology>[ख्या - क्त]</etymology>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">ज्ञात<citation>रघु* १८।६</citation></sense>
+<sense n="2">नाम लिया गया, पुकारा गया</sense>
+<sense n="3">कहा गया</sense>
+<sense n="4">विश्रुत, प्रसिद्ध, बदनाम</sense>
+<segmenthd>
+<root>ख्यातगर्हण</root>
+<prAwipaxikam>ख्यातगर्हण</prAwipaxikam>
+<seg>ख्यात-गर्हण</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ख्यातगर्हण</prAwipaxikam>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">कुख्यात, दुष्ट, बदनाम</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="203">
+<root>ख्यातिः</root>
+<prAwipaxikam>ख्याति</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[ख्या - क्तिन्]</etymology>
+<jAwi>मानसिकभावः</jAwi>
+<sense no="1">विश्रुति, प्रसिद्धि, यश, कीर्ति, प्रतिष्ठा<citation>मनु* १२।३६</citation><citation>पंच* १।३७१</citation></sense>
+<sense n="2">नाम, शीर्षक, अभिधान</sense>
+<sense n="3">वर्णन</sense>
+<sense n="4">प्रशंसा</sense>
+<sense n="5">ज्ञान, उपयुक्त पद द्वारा वस्तुओं का विवेचन करने की शक्ति F<citation>शि* ४।५५ दर्शन* में</citation></sense>
+</lexhead>
+
+<lexhead no="204">
+<root>ख्यापनम्</root>
+<prAwipaxikam>ख्यापन</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[ख्या - णिच् - ल्युट्]</etymology>
+<sense no="1">घोषणा करना, उदघाटन करना,  रहस्य का</sense>
+<sense n="2">अपराध स्वीकार करना, मान लेना, सार्वजनिक घोषणा करना M<citation>मनु* ११।२२७</citation></sense>
+<sense n="3">विख्यात करना, प्रसिद्ध करना</sense>
+</lexhead>
+
+<lexhead no="205">
+<root>ग</root>
+<prAwipaxikam>ग</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ग</prAwipaxikam>
+<etymology>[गै+ क]</etymology>
+<sense no="0">जो जाता है, जाने वाला, गतिमान होने वाला, ठहरने वाला, शेष रहने वाला, मैथुन करने वाला, केवल समास के अन्त में प्रयुक्त</sense>
+</lexhead>
+
+</dict>

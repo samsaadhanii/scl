@@ -1,0 +1,37 @@
+./ZEN/gen.cmo :
+./ZEN/gen.cmx :
+./ZEN/list2.cmo :
+./ZEN/list2.cmx :
+./ZEN/word.cmo : ./ZEN/list2.cmo
+./ZEN/word.cmx : ./ZEN/list2.cmx
+./ZEN/share.cmi :
+./ZEN/share.cmo : ./ZEN/share.cmi
+./ZEN/share.cmx : ./ZEN/share.cmi
+./ZEN/unshare.cmo : ./ZEN/trie.cmo
+./ZEN/unshare.cmx : ./ZEN/trie.cmx
+./ZEN/trie.cmo : ./ZEN/word.cmo ./ZEN/list2.cmo ./ZEN/gen.cmo
+./ZEN/trie.cmx : ./ZEN/word.cmx ./ZEN/list2.cmx ./ZEN/gen.cmx
+./ZEN/mini.cmo : ./ZEN/trie.cmo ./ZEN/share.cmi ./ZEN/gen.cmo
+./ZEN/mini.cmx : ./ZEN/trie.cmx ./ZEN/share.cmx ./ZEN/gen.cmx
+./ZEN/deco.cmo : ./ZEN/word.cmo ./ZEN/trie.cmo ./ZEN/list2.cmo
+./ZEN/deco.cmx : ./ZEN/word.cmx ./ZEN/trie.cmx ./ZEN/list2.cmx
+./ZEN/lexmap.cmo : ./ZEN/word.cmo ./ZEN/list2.cmo ./ZEN/deco.cmo
+./ZEN/lexmap.cmx : ./ZEN/word.cmx ./ZEN/list2.cmx ./ZEN/deco.cmx
+./ZEN/minimap.cmi : ./ZEN/lexmap.cmo
+./ZEN/minimap.cmo : ./ZEN/share.cmi ./ZEN/lexmap.cmo ./ZEN/deco.cmo \
+    ./ZEN/minimap.cmi
+./ZEN/minimap.cmx : ./ZEN/share.cmx ./ZEN/lexmap.cmx ./ZEN/deco.cmx \
+    ./ZEN/minimap.cmi
+./ZEN/zen_lexer.cmo :
+./ZEN/zen_lexer.cmx :
+pada_structure.cmi :
+build_graph.cmo : ./ZEN/trie.cmo paths.cmo pada_structure.cmi \
+    ./ZEN/list2.cmo constraint.cmo bank_lexer.cmo
+build_graph.cmx : ./ZEN/trie.cmx paths.cmx pada_structure.cmi \
+    ./ZEN/list2.cmx constraint.cmx bank_lexer.cmx
+constraint.cmo : pada_structure.cmi bank_lexer.cmo
+constraint.cmx : pada_structure.cmi bank_lexer.cmx
+paths.cmo :
+paths.cmx :
+./Heritage_ML/transduction.cmo : ./ZEN/zen_lexer.cmo
+./Heritage_ML/transduction.cmx : ./ZEN/zen_lexer.cmx

@@ -1,0 +1,27 @@
+#Path for installation of all packages.
+SCLINSTALLDIR=/home/ambaji/scl
+
+#Paths for enabling web services
+HTDOCSDIR=/var/www/html
+
+CGIDIR=/usr/lib/cgi-bin
+
+APACHE_USER_GROUP=www-data:www-data
+
+#Path for JAVA
+JAVAPATH=/usr/bin/javac
+
+#Path of lt-proc
+LTPROCBIN=/usr/bin/lt-proc
+
+#Paths for webdot.pl
+GraphvizDot=/usr/bin/dot
+
+#Heritage installation path (for interface)
+HERITAGE_CGIURL=/cgi-bin/SKT/sktgraph
+
+#Path for temporary files
+TFPATH=/tmp/SKT_TEMP
+
+#Counter
+COUNTER=statcounter.js

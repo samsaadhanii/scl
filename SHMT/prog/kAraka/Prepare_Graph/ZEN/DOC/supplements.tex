@@ -1,0 +1,1305 @@
+% This is taken from tagger.tex and has nothing to do with Zen
+But first we must explain what exactly we mean by euphony rules.
+
+\section{Rewrite Rules for Reversible Transducers}
+
+\subsection{Phonetics and euphony}
+
+The utterance of a phoneme demands a certain configuration of the vocal 
+apparatus: articulation point of the tongue within the mouth, opening or
+closing of the nasal cavity, vibration or not of the larynx, etc.
+Uttering a sequence of phonemes provoques physiological transformations and
+incurs an expense of energy. Minimization of this energy leads to the 
+smoothing of the vocal signal, and its discretization leads to phoneme
+transformations.
+When the transformation is local to a word, we speak of
+{\sl internal sandhi}, a process which transforms the sequence of morphemes
+from which the word originates into a smoothly %continuous 
+euphonic stream of phonemes which
+stabilises to the {\sl standard} pronunciation of the word in a given state
+of development of a language. Such transformations are frozen forms, at the
+time scale of the synchronous view of a language (whereas it may continue to
+evolve in the diachronous point of view). These transformations may or may not
+be apparent in the spelling of the word. Thus the voiced {\sl [b]} 
+in the French 
+verb {\sl absorber} becomes the surd {\sl [p]} in the derived substantive
+{\sl absorption}, whereas in English the {\sl [z]} sound of {\sl dogs} is not
+distinguished from the {\sl [s]} sound of {\sl cats} in the written form. 
+
+Similar phonetic fusion processes occur at the juncture of successive 
+words in a spoken sentence, but such {\sl external sandhi} is usually less
+permanently marked, and seldom indicated in writing. In French {\sl external 
+sandhi} concerns the liaison, its absence with the so-called aspirated {\sl h} 
+leading to hiatus, elisions like in {\sl ma{\^\i}tre d'h{\^o}tel}, 
+and the euphonic {\sl t} in ``Malbrough s'en va-t-en guerre''.
+In Sanskrit however, such euphonic transformations have been systematically
+studied, standardized in grammar rules, and applied to the written 
+representation, which reflects faithfully the normalized pronounciation.
+Thus the demonstrative pronoun {\sl tad} (this) followed by the
+absolutive {\sl \'srutv\=a} (heard) becomes {\sl tacchrutv\=a} 
+``having heard this''. This merging of sounds is reflected in writing
+by a contiguous chain of letters, further glued together by complex ligatures
+in one continuous drawing. Thus, in the {\sl devan\=agar{\=\i}} system,
+we get {\sl tad} joined to 
+{\sl \'srutv\=a} to form {\sl tacchrutv\=a}). 
+Retrieving the words within the sentence amounts to our unglueing process
+above, aggravated by the fact that sandhi must be undone, leading to a 
+complex non-deterministic analysis. It is the solving of this segmentation
+problem which is the central achievement of the present work.
+
+%Describe physiological smoothing, then discretization, leading to
+%euphony triangles. Describe u-prediction.
+
+\subsection{Juncture rewrite rules}
+
+We model external sandhi with rewrite rules of the form 
+$u|v\rightarrow w$, where $u$, $v$ and $w$ are words (standing for
+strings of phonemes). Such a rule represents the rational relation which
+holds between all pairs of strings (from now on we use strings and
+words interchangeably) $\lambda u | v \rho$ and $\lambda w \rho$, for 
+$\lambda$ and $\rho$ any strings. 
+The symbol $|$ stands for word juncture.
+Some rules (terminal sandhi) pertain to the case where $u$ is at the end
+of a sentence. Using  $\#$ as the symbol for end of sentence, we may 
+represent them as $u|\#\rightarrow w$, and they represent the relation
+which holds between $\lambda u|\#$ and $\lambda w$. 
+
+In our application, we shall assume the option rule 
+$\epsilon|\epsilon\rightarrow\epsilon$, making sandhi optional, which has
+the advantage of avoiding a lot of individual identity rules
+$u|v\rightarrow u v$ for the cases where there is no transformation (typically
+between a word ending with a vowel and a word starting with a consonant).
+This has the advantage that we can use our algorithm alternatively on 
+sandhied or unsandhied text, while it generally does 
+not overgenerate when parsing a sandhied text. However, let us stress that
+our methodology does not rely on the assumption that the rule replacement
+is optional, and our algorithms can be adapted easily to the case where this
+assumption is not met, as indicated in section \ref{variants}. 
+However, it is convenient to expose sandhi in the presence of the option
+rule, since this last rule glues together words in the precise sense which
+we studied above, and sandhi analysis will be seen as a direct
+extension of the unglueing algorithm.
+
+For non-option rules, we shall assume %without loss of generality 
+that $u\neq\epsilon$, and that $v=\epsilon$ only for terminal sandhi rules,
+alleviating the use of the special symbol $\#$. 
+We shall see in the following that we shall have to assume also 
+$w\neq\epsilon$ for non-terminal sandhi rules,
+in order to ensure termination of our segmenter. 
+
+We shall also consider contextual rewrite rules of the form
+$\lsq x\rsq u|v\rightarrow w$, with $x$ a (left context) string. They
+generate the relation which holds between $\lambda x u | v \rho$ and 
+$\lambda x w \rho$. Such a rule is of course equivalent to the rule
+$xu|v\rightarrow x w$, but we shall see that contextual 
+rules are treated in a
+way which optimizes their computational treatment. 
+Fig. 1
+shows the juncture of two phonetic words, their smoothing, and the 
+phonemic discretization of the situation with a rewrite rule.
+\begin{figure}[htb]
+\begin{center}
+\epsfig{file=fig1.eps}
+\end{center}
+\label{fig1}
+\caption{Juncture euphony and its discretization}
+\end{figure}
+
+The sandhi problem may then be posed as a regular expression problem, namely
+the correspondance between $(L\cdot |)^{*}$ and $\Sigma^{*}$ by relation $\R$,
+where $\Sigma$ is the word alphabet (not comprising the special symbol 
+$|$), $L$ is the set of inflected forms, and $\R$ is the rational
+relation which is the concatenation closure of the union of the
+rational relations corresponding to the sandhi rules. This presentation
+is a standard one since the classic work of Kaplan and Kay \cite{kk}, and is 
+the basis of the Xerox finite state morphological 
+package \cite{karttunen1,karttunen2,beeskar}. 
+In the Kaplan and Kay notation, the rule we write $\lsq x\rsq u|v\rightarrow w$
+would be written as \verb:u | v -> w / x __:. 
+A discussion of the generality
+of our approach is given in section \ref{compar}.
+
+Note that the sandhi problem is expressed in a symmetric way. Going from
+$z_1|z_2|...z_n|\in(L\cdot |)^{*}$ to $s\in\Sigma^{*}$ is generating
+a correct phonemic sentence $s$ with word forms $z_1,z_2,...z_n$, using
+the sandhi transformations. Whereas going the other way means analysing the
+sentence $s$ as a possible phonemic stream using words from the lexicon
+transformed by sandhi. It is this second problem we are interested in solving,
+since sandhi, while basically
+deterministic in generation, is strongly ambiguous in analysis. 
+
+\section{Construction of a Segmenting Automaton}
+% by Decoration of the Inflected Forms Trie
+\label{segment} 
+
+%We shall now exploit the remark above that a trie index may be seen as
+%a deterministic automaton graph for recognizing its set of words.
+We shall now use the inflected forms trie as the deterministic skeleton of a
+non-deterministic finite-state transducer solving the sandhi problem for
+analysis, by decorating it with rewrite opportunities. 
+% TODO talk about prediction
+
+\subsection{Choice points compiling from rewriting rules}
+
+The algorithm proceeds in one bottom-up sweep of the inflected forms trie. 
+For every accepting node (i.e. lexicon word), at occurrence $z$, we collect
+all sandhi rules 
+$\sigma:u|v\rightarrow w$ such that $u$ is a terminal substring of
+$z$: $z=\lambda u$ for some $\lambda$. When we move up the trie,
+recursively building the automaton graph, we decorate the node
+at occurrence $\lambda$ with a choice point labeled with the sandhi rule.
+This builds in the automaton the prediction structure for rule $\sigma$,
+at distance $u$ above a matching lexicon word. 
+At interpretation time, when we enter the state corresponding to
+$\lambda$, we shall consider this rule as a possible non-deterministic choice, 
+provided the input tape contains $w$ as an initial substring. If this
+is the case, we shall then move to the state of the automaton at occurrence
+$v$ (a precomputation checks that all sandhi rules are plausible in the sense
+that occurrence $v$ exists in the inflected trie, i.e. there are some words
+which start with string $v$). When we take this action, the automaton acts 
+as a transducer, by writing on its output tape the pair $(z,\sigma)$.
+Note that we do not need to build a looping state graph structure 
+for the automaton,
+since all loops are implemented by jumps to a ``virtual address'' $v$.
+This allows us to keep within the paradigm of pure functional programming,
+with no references and no modifiable data structures.
+
+The treatment of a contextual rule $\lsq x\rsq u|v\rightarrow w$
+is similar, we check that $z=\lambda x u$, but the decorated state is
+now at occurrence $\lambda x$. In both kinds of rules, the choice point 
+is put at the ancestor of $z$ at distance $u$. This suggests as 
+implementation to compute at the accepting node $z$ a stack of choice
+points arranged by the lengths of their left component $u$. Furthermore,
+once the matching is done, the context $x$ may be dropped when stacking a
+contextual rule, since it is no more needed. 
+
+Fig. 2 illustrates the decoration of the trie by a rule,
+and the reading of the input tape (along the dotted line) at segmentation time.
+\begin{figure}[htb]
+\begin{center}
+\epsfig{file=fig2.eps}
+\end{center}
+\label{fig2}
+\caption{Decorated lexicon}
+\end{figure}
+
+The current occurrence $z$ is maintained in a stack argument, as a word
+\verb:occ: representing the reverse of the access string $z$. 
+To facilitate matching, our sandhi rules are represented as triples 
+\verb:(revu,v,w): where \verb:revu: is the word coding the reverse 
+of string $u$, 
+so that matching amounts to checking that word \verb:revu: is an initial 
+sublist of word \verb:occ:. 
+
+\subsection{Compiling inflected tries as acyclic transducer state dags}
+
+Let us first define the relevant data types. First, the lexicon and
+euphony rules. The lexicon is a \verb:trie:, obtained from the 
+inflected \verb:deco: by forgetting the information, and sharing as a dag.
+
+\begin{verbatim}
+type lexicon = trie
+and rule = (word * word * word);
+\end{verbatim}
+The rule triple \verb:(rev u, v, w): represents the string rewrite 
+$u|v\rightarrow w$. Now for the transducer state space:
+\begin{verbatim}
+type auto = [ State of (bool * deter * choices) ]
+and deter = list (letter * state)
+and choices = list rule;
+\end{verbatim}
+The \verb:auto: state \verb:State(b,d,c): comprises the acceptance boolean 
+\verb:b:, the deterministic skeleton \verb:d:, and the non-deterministic 
+choices \verb:c: given as a list of rules. 
+Note that type \verb:auto: is very similar to 
+type \verb:(deco rule):, with \verb:deter: playing the role of 
+\verb:(succs rule): and \verb:choices: playing the role of 
+\verb:(info rule):. The only difference is that we keep a boolean 
+information, since choice points label not words in the lexicon, but rather
+initial subwords where rewriting effect is predicted.
+
+Finally, we stack choice points sets in lists:
+\begin{verbatim}
+type stack = list choices; 
+exception Conflict;
+\end{verbatim}
+
+We shall minimize our autos at construction time, using
+exactly the same technology as we used for sharing trees into dags. 
+Our algebra is now the state space:
+
+\begin{verbatim}
+module Auto = Share (struct type domain=auto; 
+                            value size=hash_max; end);
+\end{verbatim}
+
+We shall use the simplistic \verb:hash0: and \verb:hash1: hashing 
+primitives already seen, whereas we parameterize \verb:hash: with
+one extra argument to take care of the rules structure:
+\begin{verbatim}
+value hash b arcs rules = 
+  (arcs + if b then 1 else 0 + length rules) mod hash_max;
+\end{verbatim}
+
+We are now ready to give the complete ML program that compiles the lexicon
+index as a transducer, using function \verb:build_auto::
+
+\begin{verbatim}
+(* build_auto : word -> lexicon -> (auto * stack * int) *)
+value rec build_auto occ = fun
+  [ Trie(b,arcs) -> 
+     let local_stack = if b then get_sandhi occ else []
+  in let f (deter,stack,span) (n,t) = 
+     let current = [n::occ]     (* current occurrence *)
+     in let (auto,st,k) = build_auto current t
+        in ([(n,auto)::deter],merge st stack,hash1 n k span)
+  in let (deter,stack,span) = fold_left f ([],[],hash0) arcs
+  in let (h,l) = match stack with
+                   [[] -> ([],[]) | [h::l] -> (h,l)]
+  in let key = hash b span h
+  in let s = Auto.share (State(b,deter,h)) key
+  in (s,merge local_stack l,key)
+  ];
+
+(* compile : lexicon -> auto *)
+value compile lexicon = 
+  let (transducer,stack,_) = build_auto [] lexicon 
+  in if stack = [] then transducer else raise Conflict;
+\end{verbatim}
+
+\subsection{Discussion}
+
+The most striking feature of this algorithm is its
+conciseness and efficiency, since the whole computation is done in one
+linear sweep of the inflected forms trie. We do not give the details of the
+service function \verb|get_sandhi| which, given word \verb|occ|, returns
+the matching sandhi rules arranged in a stack \verb|[l1; l2; ...]| where
+\verb|li| is the list of matching rules with $\vert u\vert=i$. We do not give
+either the library function \verb|merge|, which merges such stacks level 
+by level, an easy list programming exercise. 
+
+The automaton structure is a tree of nodes \verb:State(b,deter,choices):,
+where \verb:b: is a boolean indicating whether the path from the
+initial state is a inflected form word, \verb:deter: is its deterministic 
+skeleton, mirroring the structure of the trie of inflected forms, 
+and \verb:choices:
+is the non-deterministic part, consisting of choice points labeled with
+euphony rules. 
+These choice points are inserted exactly where the effect of
+the predicted rule 
+(on a inflected form somewhere below in the deterministic part) starts.
+\verb:choices: is computed by merging together the stacks of rules computed 
+when constructing its deterministic children. When the current node is created,
+this stack is popped, and its remainder is merged with 
+the locally matching sandhi rules in order to initialise the choices stack
+for upper nodes. The main function \verb:compile: checks that at the end
+of the computation the stack is empty, that is no lexicon item is a proper
+suffix of some left hand side $u$ of a rewrite rule.
+
+If we had allowed rewrite rules $\sigma:u|v\rightarrow w$ 
+such that $u=\epsilon$, we would have had to provide for 
+\verb:get_sandhi: to return an extra initial layer
+for such rules, and then modify accordingly function 
+\verb:build_auto: by replacing
+
+\begin{verbatim}
+   let (h,l) = match stack with
+   ...
+   in (s,merge local_stack l,key)
+\end{verbatim}
+by:
+\begin{verbatim}
+   let (h,l) = match (merge local_stack stack) with
+   ...
+   in (s,l,key).
+\end{verbatim}
+
+A few remarks on state minimization are now in order.
+
+First of all, the attentive reader will have remarked that there is no
+analogue in \verb:build_auto:
+of the reverse operation used in \verb:compress: above. 
+This reversal of arcs was necessary for tries in order to keep the
+ordering of subtries, since the terminal recursive traversal \verb:fold_left:
+reverses the order, and since we assume that subtries are given in increasing
+order of codes of siblings. 
+We have no such invariant in our state space representation, and thus we 
+do not need this reversal. It is assumed that the ordering of siblings, both
+in the deterministic part and in the non-deterministic part, will be the
+subject of later optimization, typically by corpus training computing
+frequency weights. Similarly, if we wanted to optimize lexicon lookup
+we would have to go back and relax the increasing labels invariant.
+
+Secondly, we remark that it would be incorrect to share states having the 
+same $b$ and $d$, since the non-deterministic choices substructure
+may possibly depend on upper nodes because of contextual rules. 
+More precisely, \verb:get_sandhi occ: in  \verb:build_auto: will
+pattern-match a rule $\lsq x\rsq u|v\rightarrow w$
+by checking that $z=\lambda x u$, but the decorated auto state is
+at occurrence $\lambda x$. That is, the decoration may depend on the
+path $x$ {\sl above} the decorated lexicon subtrie, and thus \verb:build_auto: 
+is {\sl not} strictly a lexicon morphism in the presence of contextual rules.
+We see clearly a tension between contextual and non-contextual rules, even
+though they have the same rewriting power: with contextual rules we get
+a potentially bigger state space, since some suffix sharing is lost when
+we compile the lexicon dag. On the other hand, we explore the state space
+faster using contextual rules: since they label nodes deeper in the tree than
+the equivalent non-contextual rule, 
+some needless backtrack may be avoided, for solution paths that go through 
+the upper node but not the lower one. 
+
+Thirdly, we remark that we arrive at basically the same algorithm
+for state minimization as the one given in \cite{daciuk},
+but here expressed as a simple application of a generic sharing functor. 
+Furthermore, we obtain a natural minimization algorithm for 
+{\sl non-deterministic} machines, since we represent such machines state
+spaces as dags. The innovation here is that out of all possible transitions
+from a state when reading a letter, we favor the one that explores the
+lexicon structure, as opposed to the phonological 
+transformations. The linguistic rationale is that on average
+we speak words rather than twist our tongues between them in a sentence.
+
+\section{Running the Segmenting Transducer}
+
+\subsection{The reactive engine}
+
+We assume that we compiled a segmentation transducer from the inflected
+lexicon trie:
+\begin{verbatim}
+value automaton = compile Lexicon.lexicon;
+\end{verbatim}
+
+The transducer interpreter is a simple reactive engine reading its input tape
+and making transitions in the automaton state structure, managing
+the non-deterministic choices with a \verb:resumption: stack and keeping
+track of its 
+partial output in an \verb:output: stack storing word/transition pairs .
+
+Let us define the various types and exceptions involved.
+
+\begin{verbatim}
+type transition =
+  [ Euphony of rule (* (rev u,v,w) st u|v -> w *)
+  | Id              (* identity or no sandhi *)
+  ]
+and output = list (word * transition); 
+\end{verbatim}
+Similarly to the unglueing situation, $z$ is the reverse of
+the predicted inflected form, but now it may be paired in the $output$ of
+the transducer with either $Id$, indicating mere glueing (hiatus or
+no sandhi), or $Euphony$,
+indicating non-trivial sandhi. When we backtrack, there are now two situations,
+one similar to unglueing, when we reach the end of a word, and another
+one, when non-deterministic sandhi choices exist. In this last case, we 
+stack the list of such choices, together with the current occurrence,
+needed to construct the partial solution. This gives us a $backtrack$ 
+algebra with two constructors:
+\begin{verbatim}
+type backtrack =
+  [ Next of (input * output * word * choices)
+  | Init of (input * output)
+  ]
+and resumption = list backtrack; (* coroutine resumptions *)
+
+exception Finished;
+\end{verbatim}
+
+The two \verb:backtrack: constructors correspond to the
+two kinds of resumptions in the non-deterministic computation. 
+Constructor \verb:Next: indicates a state in which some non-deterministic 
+rewrite choices are still to be explored, whereas \verb:Init: indicates that we
+have reached the end of a word, and we continue from the initial state
+of the transducer, assuming absence of sandhi. 
+
+Let us now present a few simple service routines. The first one
+checks the prefix relation between words; 
+the second advances the input tape by $n$ characters; 
+the last accesses the automaton state from its initial state
+when doing a sandhi transition, using its $v$ part as a virtual address.
+
+\begin{verbatim}
+value rec prefix u v = 
+  match u with
+    [ [] -> True
+    | [a::r] -> match v with
+        [ [] -> False
+        | [b::s] -> a=b && prefix r s 
+        ]
+    ];
+
+(* advance : letter -> int -> word *)
+value rec advance n l = if n = 0 then l
+                        else advance (n-1) (tl l);
+
+(* access : word -> auto *)
+value access = acc automaton (* initial state *)
+  where rec acc state = fun
+     [ [] -> state
+     | [c::word] -> match state with
+         [ State(_,deter,_) -> acc (List.assoc c deter) word ]
+     ];
+\end{verbatim}
+Two things ought to be remarked. The first one is that we assume that the
+\verb:assoc: operation will not fail. As said above, this assumption is 
+verified at the time of compiling the sandhi rules: we checked that every
+rule $\sigma:u|v\rightarrow w$ is relevant in the sense that there exists in
+the lexicon at least one word starting with $v$. 
+%Such checks must be done
+%in Sanskrit, where grammarians sometimes discuss theoretical constructs that
+%do not actually appear anywhere in the corpus. 
+
+The second remark is that access is done in the deterministic part of
+the automaton: we do not attempt to run through possible non-deterministic
+choice points. This is justified by the non-cascading nature of external
+sandhi, we shall come back to this point later. 
+
+Let us now present the transducer interpreter. It takes as arguments
+the input tape represented as a \verb:word:, an accumulator holding the 
+current output (of type \verb:output: given above), the backtrack stack of 
+type \verb:resumption:, the access code in the deterministic part \verb:occ:
+of type \verb:word: and finally the current transducer state of type 
+\verb:auto:.
+
+\begin{verbatim}
+value rec react input output back occ = fun
+  [ State(b,det,choices) -> 
+    (* we try the deterministic space first *)
+    let deter cont = match input with
+         [ [] -> backtrack cont
+         | [letter :: rest] -> 
+      try let next_state = List.assoc letter det
+          in react rest output cont [letter::occ] next_state 
+      with [ Not_found -> backtrack cont ]
+         ] in
+    let nondets = if choices=[] then back
+                  else [Next(input,output,occ,choices)::back] 
+    in if b then 
+          let out = [(occ,Id)::output] (* opt final sandhi *)
+          in if input=[] then (out,nondets) (* solution *)
+             else let alterns = [ Init(input,out) :: nondets ]
+                  (* we first try the longest matching word *)
+                  in deter alterns
+       else deter nondets
+  ]
+and choose input output back occ = fun
+  [ [] -> backtrack back 
+  | [((u,v,w) as rule)::others] -> 
+       let alterns = [ Next(input,output,occ,others) :: back ]
+       in if prefix w input then 
+             let tape = advance (length w) input 
+             and out = [(u @ occ,Euphony(rule))::output]
+             in if v=[] (* final sandhi *) then
+                   if tape=[] then (out,alterns) 
+                   else backtrack alterns
+                else let next_state = access v 
+                     in react tape out alterns v next_state 
+          else backtrack alterns
+  ]
+and backtrack = fun
+  [ [] -> raise Finished
+  | [resume::back] -> match resume with
+      [ Next(input,output,occ,choices) -> 
+            choose input output back occ choices 
+      | Init(input,output) -> 
+            react input output back [] automaton
+      ] 
+  ];
+\end{verbatim}
+
+\subsection{Comments and variations}
+\label{variants}
+
+This algorithm is a natural extension of the unglueing reactive engine. 
+When we backtrack, we resume
+the computation according to the first resumption on the stack; if it is
+\verb:Next:, we explore the-non deterministic choices with function
+\verb:choose:; if it is \verb:Init:, we 
+iterate the search by calling \verb:react: from the initial state 
+\verb:automaton:.
+When the backtrack stack is empty, we raise exception \verb:Finished:.
+
+Function \verb:choose: looks at the current choices list. If it is
+empty, it backtracks, otherwise it stacks the other alternatives as a 
+\verb:Next: resumption, and checks whether the input is consistent with
+the right-hand side \verb:w: of the current \verb:rule:. If it is, we
+advance the tape accordingly, emit the corresponding transition on the
+output tape, and jump to the \verb:next_state: by accessing the virtual
+address \verb:v:; that is, provided the input tape is not exhausted,
+in which case we have found a solution if the sandhi rule is final. 
+
+In the main routine \verb:react:, we decide to explore the 
+deterministic space before the non-deterministic one, with 
+function \verb:deter:, which attempts to match the input tape with 
+the current lexicon continuations. Thus
+we stack the non-deterministic \verb:choices: for later consideration
+with a \verb:Next: resumption. 
+If we have reached an accepting state, that is if we have read a full word
+from the lexicon, we emit the corresponding transition on the
+output tape; if the input is exhausted, we have found a potential solution
+with optional final sandhi. Otherwise, we just stack this partial solution,
+but first look whether we may recognize a longer word from the lexicon,
+using \verb:deter:, similarly to the case where the state is not accepting.
+
+For applications where the optional euphony rule
+$o:\epsilon|\epsilon\rightarrow\epsilon$ is not allowed, 
+the program branch \verb:if b: should be
+trimmed out, and acceptance would be defined as just finishing the input with a
+final euphony rule. The boolean component of states is not needed in this case,
+since the only accepting state is the initial one. This means that a segmenter
+defined with a complete set of mandatory juncture rules may use as state
+space just a decorated trie of type \verb:(deco rule):
+with no extra information, but the existence of
+decorations at a certain occurrence in this space has no direct relationship
+with this occurrence being (the reverse of) a word.
+
+While it should be clear that the algorithm is complete, since it explores
+completely the search space by proper management of the backtrack stack, 
+the order of the various choices is rather arbitrary, in the sense that
+it will not change the solution set, only the order in which it is
+enumerated. Here we choose to explore the deterministic space before
+the non-deterministic one, favoring matching longer words from the lexicon over
+doing euphony with shorter words. 
+Also, we consider choice points in the order
+in which they have been computed by the matching algorithm, whereas we
+could use a more sophisticated algorithm, using priority queues with
+some frequency count, or some Markov model or other statistical device
+issued from corpus training. Such refinements are easy to implement 
+as adaptations of our raw basic algorithm. 
+
+The full justification of this transducer will be given in section 
+\ref{formal}, where the well-foundedness of its recursion structure is formally
+proved, and where we show its correctness and completeness independently
+from the particular non-deterministic strategy exhibited above.
+%and which is tuned to the Sanskrit sandhi analysis application.
+
+\subsection{The segmenting coroutine}
+
+Let us now explain how to use our interpreter as a word segmenter.
+We enumerate solutions with a resumption manager \verb:resume:, which 
+calls \verb:backtrack: with its resumption argument \verb:cont:, and prints
+the \verb:n:-th solution with a service routine \verb:print_out:.
+We omit the details, since this is very similar to what we already saw in
+section \ref{resumptions}.
+
+Now, in order to find a possible segmentation for a sentence, 
+represented as a \verb:word: input, we just invoke \verb:resume: with
+an \verb:Init: resumption: using the following \verb:segment_first: 
+function, which either returns as a value some
+pair \verb!(solution, stack) : (output * resumption)!,
+or else raises the exception \verb:Finished::
+\begin{verbatim}
+value segment_first sentence = resume [Init(sentence,[])] 1;
+\end{verbatim}
+
+Similarly, we get all solutions with the following \verb:segment_all: 
+program which just iterates \verb:resume: until \verb:Finished:,
+in the \verb:unglue_all: style:
+
+\begin{verbatim}
+value segment_all sentence = segment [Init(sentence,[])] 1
+  where rec segment cont n = 
+  try let resumption = resume cont n
+      in segment resumption (n+1)
+  with [ Finished ->
+         if n=1 then print " No solution " else () ];
+\end{verbatim}
+
+Many variations are of course possible. For instance, the \verb:resume:
+resumption manager could be used in coroutine fashion with the next phase of
+parsing, where solutions could be discarded because of lack of chunk % concord
+agreement or unfulfillment of verbal valence. 
+
+\section{Applications to Sanskrit Processing}
+
+Let us give some sample experiments with our
+generic morphological toolset applied to Sanskrit.
+
+\subsection{Sanskrit segmentation}
+
+Let us illustrate our segmenting transducer by giving simple examples of its 
+operation on the Sanskrit reading application. We use in our examples
+the Velthuis transliteration scheme for representing the
+{\sl devan\=agar{\=\i}} Sanskrit alphabet. Since verbs are not yet treated,
+we limit ourselves to noun phrases, a complex enough issue in the presence
+of arbitrarily nested compounds.
+
+\begin{verbatim}
+value process sentence = segment_all (encode sentence);
+\end{verbatim}
+
+\begin{verbatim}
+process "o.mnama.h\"sivaaya"; 
+
+ Solution 1 :
+[  om with sandhi m|n -> .mn]
+[  namas with sandhi s|"s -> .h"s]
+[  "sivaaya with no sandhi]  
+
+process "sugandhi.mpu.s.tivardhanam";
+
+ Solution 1 :
+[  sugandhim with sandhi m|p -> .mp]
+[  pu.s.ti with no sandhi]
+[  vardhanam with no sandhi]  
+
+process "saccidaanandaat";
+
+ Solution 1 :
+[  sat with sandhi t|c -> cc]
+[  cit with sandhi t|aa -> daa]
+[  aanandaat with no sandhi]
+
+ Solution 2 :
+[  sat with sandhi t|c -> cc]
+[  cid with no sandhi]
+[  aanandaat with no sandhi]   
+\end{verbatim}
+
+This last example is over-generative, the second solution being noise
+created by the indefinite particle {\sl cid}. 
+
+\subsection{From segmenting to grammatical tagging}
+
+Since our segmenter is lexicon-driven, with inflected forms analysis
+kept in a deco indexing every word with its potential lexeme generators,
+it is easy to combine segmentation and lexicon-lookup in order to refine
+the segmentation solutions into text tagging with grammatical information,
+giving for each declined substantive its possible stem, gender, number and 
+case. 
+Let us run again some of the previous examples in this more verbose mode. 
+
+\begin{verbatim}
+lemmatize True;
+process "o.mnama.h\"sivaaya";
+
+ Solution 1 :
+[  om
+ < und. form of om
+ >  with sandhi m|n -> .mn]
+[  namas
+ < iic. form of namas#1
+ | acc. sg. n. of namas#1
+ | nom. sg. n. of namas#1
+ | voc. sg. n. of namas#1
+ | und. form of namas#1
+ >  with sandhi s|"s -> .h"s]
+[  "sivaaya
+ < dat. sg. m. of "siva
+ | dat. sg. n. of "siva
+ >  with no sandhi]
+
+process "sugandhi.mpu.s.tivardhanam";
+
+ Solution 1 :
+[  sugandhim
+ < acc. sg. m. of sugandhi
+ >  with sandhi m|p -> .mp]
+[  pu.s.ti
+ < iic. form of pu.s.ti
+ >  with no sandhi]
+[  vardhanam
+ < acc. sg. m. of vardhana
+ | acc. sg. n. of vardhana
+ | nom. sg. n. of vardhana
+ | voc. sg. n. of vardhana
+ >  with no sandhi]
+\end{verbatim}
+
+Thus each solution details for each inflected form segment its possible
+lemmatizations. We have obtained a grammatical tagger, with two levels of 
+ambiguities: a choice of segment solutions and for each segment a number
+of lemmatization choices. We have thus paved the way to interaction with
+a further parsing process, which will examine the plausibility of
+each solution with regard to constraints such as chunk agreement % concord 
+or subcategorization by verb valency
+satisfaction --- possibly in cooperation with further semantic levels which
+may compute distances in ontology classifications of the stems, or
+statistical information on co-occurrences. 
+
+In our Web implementation of this Sanskrit reader (Available
+from http://pauillac.inria.fr/$\sim$huet/SKT/reader.html) the lemma 
+information items are direct hyperlinks to the corresponding lexicon entries.
+Lexicon entries themselves hold grammatical information in the form
+of hyperlinks to morphology processors, giving a uniform feel of
+linked linguistic tools ``one click away''.
+
+So far we assumed that the sandhi rules were modeled as relations on
+the strings representing the words in contact. Actually, some particular
+cases of sandhi are more semantic in nature: special rules pertain to the
+personal pronoun {\sl sa}, and others to substantives declensions in the
+dual number. We shall deal with these special rules by allowing these sandhis
+as generally allowed for the corresponding strings, filtering out the 
+extra solutions (such as non-dual declensions which happen to be homophonic
+to dual declensions) at the tagging stage. This easy resolution of semantic
+sandhi illustrates the appropriateness of a lexicon-directed methodology.
+
+The problem of recognizing compounds words is specially acute in Sanskrit, 
+since there is no depth limit to such compound chunks --- sometimes a full
+sentence is one giant compound. We deal with this problem by recognizing 
+compounds one piece at a time, profiting of the fact that compound glueing
+is very similar to external sandhi between words. This is indicated in the
+examples above by the \verb"iic." notation, standing for 
+{\sl in initio composi}. This puts compound recognition at the level of 
+syntax rather than morphology, a conscious decision to keep morphology
+finitistic. 
+
+At the time of writing, we are able to lemmatize Sanskrit
+sentences without finite verb forms. Initial experiments show that the 
+algorithm has to be tuned for short particle words which tend to overgenerate, 
+but the noise ratio seems low enough for the tool to be useful. 
+
+A specific difficulty emerged for 
+so-called {\sl bahuvr{\=\i}hi} (much-rice=rich)
+compounds. Such determinative compounds used as
+adjectives may admit extra genders in addition to 
+the possible genders of their rightmost segment, 
+and the extra inflected forms have to be accounted for. 
+For instance \'Siva's sign ({\sl li\.nga}) is a neuter substantive,
+forming {\sl li\.ngam} in the nominative case. But when
+compounded with {\sl \=urdhva} (upward) it makes
+{\sl \=urdhvali\.nga} (ithyphallic), typically used as a masculine adjective,
+yielding an extra form for the nominative case {\sl \=urdhvali\.nga{\d h}}. 
+%(celui qui bande).
+This difficulty is currently handled by keeping track of all such 
+{\sl bahuvr{\=\i}hi} compounds occurring in the lexicon; a extra pass
+over the lexicon collects such extra stems, and adds the corresponding inflected
+forms. This is not fully satisfactory, since we may segment with our reader
+compounds which are hereditarily generated from root stems, except in the case
+of {\sl bahuvr{\=\i}hi} extra genders derivations, 
+for which the full compound must be 
+explicitly present in the lexicon. An alternative solution would be to try
+and give all genders to every compound, anticipating every possible
+{\sl bahuvr{\=\i}hi} use, at the risk of overgeneration. This extreme measure
+would be sweeping the problem under the rug anyway, since {\sl bahuvr{\=\i}hi} 
+semantics is not compositional with morphology in general, and
+so specific meanings for such compounds 
+must often be listed explicitly in the dictionary. 
+Thus R\=ama's father's name Da\'saratha ``Ten-chariot'' does not mean that he
+possesses 10 chariots, but rather that he is such a powerful monarch that he
+may drive his war chariot in all directions. 
+Such ``frozen'' compounds must be accommodated wholesale.
+
+Another difficulty comes from short suffixes
+such as {\sl -ga}, {\sl -da}, {\sl -pa}, and {\sl -ya}, 
+which make the sandhi analysis grossly
+overgenerate if treated as compound-forming words. Such derived forms
+have to be dealt with by the addition of extra morphology paradigms.
+It is to be expected anyway that the status of derived words, such as the
+quality substantives (neuters in $-tva$ and feminines in {\sl -t\=a}), the
+patronyms and other possessive adjectives (obtained by taking the
+{\sl v{\d r}ddhi} vocal degree of the stem with suffix {\sl -ya} or {\sl -ka}),
+the agent constructions in {\sl -in}, the possessive constructs in 
+{\sl -vat} or {\sl -mat}, etc. will have to be reconsidered, 
+and treated by secondary
+morphological paradigms. This is after all in conformity with 
+the P\=a{\d n}inean tradition and specially the linguistic theory of
+Pata{\~n}jali concerning the {\sl taddhita} % or secondary suffixes 
+derivations \cite{filliozat}. 
+
+\subsection{Quantitative evaluation}
+
+Our functional programming tools are very concise. Yet as executable 
+programs they are reasonably efficient. 
+The complete automaton construction from the inflected forms lexicon takes
+only 9s on a 864MHz PC. % with 387 MB of RAM...
+We get a very
+compact automaton, with only 7337 states, 1438 of which accepting states,
+fitting in 746KB of memory. Without the sharing, we would have generated
+about 200000 states for a size of 5.65MB! 
+
+Let us give some indications on the nondeterministic structure. The total
+number of sandhi rules is 2802, of which 2411 are contextual. 
+While 4150 states have no choice points, the remaining 3187
+have a non-deterministic component, with a fan-out
+usually less than 100. The state with
+worst fan-out concerns the form {\sl par\=a},
+which combines the generative powers of the pronominal adjective 
+{\sl para/par\=a} with its derivative {\sl par\=ac} to produce
+inflected forms {\sl par\=ak, par\=a\.n, par\=at, par\=an, par\=am, par\=a{\d h}},
+with respective contributions to their parent {\sl par\=a} of
+respectively 28, 11, 33, 23, 29 and 40 sandhi choices, totalling 
+164 potential choices. Fortunately, even in this extreme situation,
+the actual possible matches against a given input string limit the number
+of choices to 2; that is, on a given string, there will be at most one
+backtrack when going through this state, and this is a general situation. 
+Actually, the interpreter is fast enough to appear instantaneous in 
+interactive use on a plain PC. 
+
+The heuristic we used to order the solutions is very simple, namely to favor
+longest matching sequences in the lexicon. The model may be refined into
+a stochastic algorithm in the usual way, by computing statistical weights 
+by corpus training. An important practical addition which will be needed
+at that stage will be to make the method robust by allowing recovery
+in the presence of unknown words. This is an important component of 
+realistic taggers such as Brill's and its successors \cite{brill,rs1}. 
+A more ambitious extension
+of this work will be to turn this robustified tagger into an acquisition
+machinery, in order to bootstrap our simple lexicon into a larger one, complete
+for a given corpus. This however will force us to face the problem of 
+morphology analysis, in order to propose stems generating an unknown inflected
+form. For this task the fine-grained finite-state methods are better suited
+than our lexicon-based one. 
+
+It may come as a surprise that we need so many sandhi rules.
+For instance, Coulson \cite{coulson} describes consonant external sandhi 
+in a one-page
+grid, with 10 columns for $u$ and 19 raws for $v$. The first problem is
+that Coulson uses conditions such as ``ended by {\sl \d h} except {\sl a\d h}
+and {\sl \=a\d h}'' which we must expand into as many rules as there
+are letters {\sl a}, {\sl \=a}, etc. The second one is that we cannot take
+advantage of possible factorings according to the value of $v$, since when
+compiling the state space we do prediction on the $u$ part but not on the
+$v$. 
+
+Actually, generating the set of sandhi rules is an interesting challenge,
+since writing by hand such a large set of rules without mistakes
+would be hopeless. What we actually did was to represent sandhi by a 
+two-tape automaton, one for the $u$ and one for the $v$, and to fill
+sandhi rules tables by systematic evaluation of this automaton for
+all needed combinations. The two-tape automaton is a formal definition
+of sandhi which may be compared to traditional definitions such as Coulson's.
+Details of this compiling process are omitted here. 
+
+\section{Soundness and Completeness of the Algorithms}
+\label{formal}
+In this last section, we shall formally prove the correctness of our 
+methodology in a general algebraic framework.
+
+\subsection{Formalisation}
+
+\noindent
+{\bf Definitions}. A {\sl lexical juncture system} on a finite alphabet 
+$\Sigma$ is
+composed of a finite set of words $L\subseteq \Sigma^*$ 
+and a finite set $R$ of rewrite rules of the form 
+$\lsq x\rsq u|v\rightarrow w$, with $x,v,w\in\Sigma^*$ and $u\in\Sigma^+$ 
+($x=\epsilon$ for non-contextual rules, $v=\epsilon$ for terminal rules). 
+% and $w=\epsilon$ is permitted only when $v=\epsilon$ 
+We note $R^o$ for $R$ to which we add the special optional sandhi rule 
+$o:\epsilon|\epsilon\rightarrow\epsilon$.
+
+The word $y\in\Sigma^*$ is said to be 
+{\sl solution} to the system $(L,R)$ iff there exists a sequence
+$\lbr z_1,\sigma_1\rbr ;...\lbr z_p,\sigma_p\rbr $ with $z_j\in L$ 
+and $\sigma_j=\lsq x_j\rsq u_j|v_j\rightarrow w_j\in R^o$ 
+for $(1\leq j\leq p)$, $v_p=\epsilon$ and $v_j=\epsilon$ for $j<p$ only if
+$\sigma_j=o$, subject to the matching conditions:
+$z_j=v_{j-1} s_j x_j u_j$ for some $s_j\in\Sigma^*$ 
+for all $(1\leq j\leq p)$, where by convention $v_0=\epsilon$,  
+and finally $y=y_1 ... y_p$ with
+$y_j=s_j x_j w_j$ for $(1\leq j\leq p)$.
+We also say that such a sequence is an {\sl analysis} of the solution
+word $y$.
+
+Let us give a more abstract alternative definition in terms of rational
+relations.
+
+\noindent
+{\bf Definitions}. 
+We define the binary relations $\R$ and $\widehat{\R}$ as the inductive
+closures of the following clauses:
+\begin{itemize}
+\item $xu|v ~{\R}~ xw$ if $\lsq x\rsq u|v\rightarrow w\in R~(v\neq\epsilon)$
+\item $xu| ~{\widehat{\R}}~ xw$ if $\lsq x\rsq u|\epsilon\rightarrow w\in R$
+\item $|~{\R}~\epsilon$
+\item $|~{\widehat{\R}}~\epsilon$
+\item $s~{\R}~s$
+\item $x_1 ~{\R}~ y_1$ and $x_2 ~\widehat{\R}~ y_2$ imply 
+$x_1  x_2 ~\widehat{\R}~ y_1  y_2.$
+\end{itemize}
+
+In the clauses above, $s$, $u$, $v$, $w$, $x$, $y_1$, $y_2$
+range over $\Sigma^*$, and $x_1$, $x_2$ range over $(\Sigma\cup\{|\})^*$,
+so that $\R, \widehat{\R} \subseteq (\Sigma\cup\{|\})^*\times\Sigma^*$. 
+
+%Alternatively,
+%we could have all variables range over $(\Sigma\cup\{|\})^*$, so that
+%$\R$ and $\widehat{\R}$ could be iterated for more complex phonetic 
+%transformations. We could also have lumped together $\R$ and $\widehat{\R}$ 
+%by using an auxiliary symbol $\#$ for marking the end of a sentence. 
+
+Now we say that $s\in\Sigma^*$ is an {\sl (L,R)-sentence} iff there exists 
+$t\in(L\cdot |)^{+}$ such that $t ~{\widehat{\R}}~ s$.
+
+It is easy to check that the existence of such
+$t$ is equivalent to the existence
+of an analysis showing that $s$ is a solution as defined above. Actually,
+an analysis gives a precise proof in terms of the inductive clauses above,
+with $\R$ modelling (parallel disjoint) sandhi and $\widehat{\R}$ modelling 
+(parallel disjoint sandhi followed by) terminal sandhi.
+
+A rewrite rule $\sigma:\lsq x\rsq u|v\rightarrow w$ is said to be
+{\sl cancelling} iff $v\neq\epsilon$ and $w=\epsilon$. That is, a 
+non-cancelling sandhi rule is allowed to rewrite to the empty string only
+if it is terminal. The lexical system $(L,R)$ is said
+to be {\sl strict} if $\epsilon\notin L$ and no rule in $R$ is cancelling.
+
+Finally we say that $(L,R)$ is {\sl weakly non-overlapping} if there can be
+no context overlap of juncture rules of $R$ within one word of $L$. Formally,
+rules $\lsq x\rsq u|v\rightarrow w$ and $\lsq x'\rsq u'|v'\rightarrow w'$
+yield a context overlap within $z\in L$ if $z=\lambda x u = v'\rho$ with
+$\vert\lambda\vert<\vert v'\vert\leq \vert\lambda x\vert$.
+
+We shall prove that for weakly non-overlapping strict lexical juncture
+systems our segmenting algorithm is correct, complete and
+terminating, in the sense that it returns all solutions in a finite time.
+The tricky part is to measure the progress of the exploration of the search
+space by a complexity function $\chi$ which defines an
+appropriate well-founded ordering that decreases during the computation.
+
+\subsection{Termination}
+
+\noindent
+{\bf Definitions}. If $res$ is a resumption, we define $\chi(res)$
+as the multiset of all $\chi(back)$, for $back$ a backtrack value in $res$,
+where $\chi(Next(in,out,occ,ch))$
+$=\lbr\vert in\vert,\vert occ\vert,\vert ch\vert\rbr$,
+and $\chi(Init(in,out))=\lbr\vert in\vert,0,\kappa\rbr$, 
+with $\kappa=1+\vert R\vert$. $\kappa$ is chosen
+in such a way that it exceeds every non-deterministic fan-out of the
+transducer states. 
+
+$\chi$ defines a well-founded ordering, with the standard ordering on natural
+numbers, extended lexicographically to triples for backtrack values 
+and by multiset extension \cite{dershowitz} for resumptions.
+
+We now associate a complexity to every function invocation.
+First\\
+$\chi(react ~in ~out ~back ~occ ~state)=
+\{\lbr\vert in\vert,\vert occ\vert,\kappa\rbr\}\oplus \chi(back)$, 
+where $\oplus$ is multiset union.
+Then $\chi(choose ~in ~out ~back ~occ ~ch)=
+\{\lbr\vert in\vert,\vert occ\vert,\vert ch \vert\rbr\}\oplus \chi(back)$.
+Finally $\chi(backtrack ~back)=\chi(back)$. 
+
+\noindent
+{\bf Proposition 1}. If the system is strict, every call to
+$backtrack(cont)$ either raises the exception \verb:Finished:,
+or else returns a value $(out,res)$ such that $\chi(res)<\chi(cont)$.
+
+\noindent
+{\bf Proof}. By n{\oe}therian induction over the well-founded
+ordering computed by $\chi$. It is easy to show that every function invocation 
+decreases the complexity, we leave the details to the reader.
+
+\noindent
+{\bf Corollary}. Under the strictness condition,
+$resume$ always terminates, either raising the exception \verb:Finished:,
+or returning a resumption of lower complexity than its argument. 
+Therefore $segment\_all$ always terminates with a finite set of solutions.
+
+\noindent
+{\bf Strengthening}. Since we used a multiset complexity, invariant by
+permutation of the backtrack values in resumptions, we have actually proved
+the above results for a more abstract algorithm, where resumptions are not
+necessarily organized as sequential lists, but may be implemented as priority
+queues where elements are selected by an unspecified strategy or oracle. 
+Thus these results remain for more sophisticated management policies of
+non-deterministic choices, obtained for instance by training on
+some reference annotated corpus.
+
+\noindent
+{\bf Necessity of the strictness conditions}. If $\epsilon$ is in $L$, a
+call to $react$ will loop, building an infinite analysis attempt
+iterating $(\epsilon,o)$, with $o$ the optional sandhi rule.
+%This condition may be however be relaxed 
+%if we do not admit this optional sandhi, since the segmenting algorithm for 
+%strict sandhi does not possess the \verb:if b: branch.
+If the system contains a cancelling rewriting, such as 
+$\sigma:b|a\rightarrow \epsilon$, with $ab\in L$, the segmenter will loop on
+input $a$, attempting an infinite analysis iterating
+$(ab,\sigma)$. This shows that the strictness condition is necessary for
+termination. 
+
+\subsection{Soundness}
+
+It remains to show that the returned results 
+of $(segment\_all ~input)$ are indeed analyses of $input$
+in the sense defined above, exhibiting the property for
+$input$ to be a solution to the system in case of success.
+
+We need first to generalize the notion of $y=y_1 ... y_p$ being a solution
+to the system, with analysis $z=\lbr z_1,\sigma_1\rbr 
+;...\lbr z_p,\sigma_p\rbr $, into a 
+slightly more general notion of partial solution which may be defined
+inductively. Using the same notations, we do not insist any more that
+$v_p=\epsilon$, and we then say that $y=y_1 ... y_p$ is a {\sl partial
+solution anticipating} $v_p$. The empty sequence is a partial solution
+of segment length $0$ anticipating $\epsilon$; a partial solution $y$ of
+segment length $p$ anticipating $v_p$ with analysis 
+$z$ may be extended into a partial solution $y y_{p+1}$
+of segment length $p+1$ anticipating $v$ with
+$z;\lbr z_{p+1},\sigma_{p+1}\rbr $ provided $z_{p+1}\in L$, 
+$\sigma_{p+1}\in R^o$,
+$z_{p+1}=v_p s_{p+1} x_{p+1} u_{p+1}$
+for some $s_{p+1}\in\Sigma^*$,
+$y_{p+1}=s_{p+1} x_{p+1} w_{p+1}$, and $v=v_{p+1}$. 
+Note that a solution is a partial solution anticipating $\epsilon$.
+
+\noindent
+{\bf Proposition 2}. Assume the lexical system $(L,R)$ is strict
+and weakly non-overlap\-ping, and
+let $s\in\Sigma^*$. We show that every invocation of \verb:react:, 
+\verb:choose: and \verb:backtrack: met in the computation of
+\verb:(react s [] [] [] automaton): enjoys property $P$ defined as follows:\\
+-- either its execution raises the exception \verb:Finished:,\\ 
+-- or else it returns a value \verb:(output,cont): such that
+\verb:rev(output): is a valid analysis of $s$ as a solution to $(L,R)$
+and \verb:backtrack(cont): enjoys property $P$.
+
+\noindent
+{\bf Proof}. First of all, we note that the inductive predicate
+$P$ is well-defined by n{\oe}therian induction on $\chi$, 
+the system being assumed strict. The proof itself is
+by simultaneous induction, the statement of the 
+proposition being appropriately strengthened for each procedure, as follows.
+Every tuple $(input,output,occ)$ of values passed as parameters of the
+invocations or within a backtrack value is such that $s=r\cdot input$ for
+some $r\in\Sigma^*$ (the already read portion of the input tape),
+and $rev(output)$ is a valid analysis of 
+$r$ as a partial solution anticipating some prefix of $occ$. 
+% some ? not the prefix s.t. ?
+The proof is a routine case analysis, the details of
+which being left to the reader. We just remark that the proof needs 
+two correctness assumptions on the automaton construction. The first one is
+that the deterministic structure stores words in $L$ - this follows from the
+construction of \verb:automaton: by \verb:compile lexicon:. The second one
+is that its non-deterministic structure is correct with respect to $R$,
+that is every \verb:(revu,v,w) as rule: in the \verb:choices: argument of
+\verb:choose: is such that
+there exists a rule $\lsq x\rsq u|v\rightarrow w\in R$ with 
+$u$ the reverse of $revu$, and taking $z$ as the reverse of $occ$,
+$x$ is a suffix of $z$ and $z*u\in L$. 
+This property is part of the specification of
+the service routine \verb:get_sandhi: invoked by \verb:build_auto:.
+The only tricky part of the proof concerns the case where a contextual rule
+would fire even though its context is not fully present in the solution.
+Let us see why the non-overlapping condition is necessary to prevent this
+situation.
+
+\noindent 
+{\bf Necessity of the non-overlapping condition}.
+Let us consider the juncture system $(L,R)$ with 
+$R=\{\sigma:\lsq b\rsq d|\rightarrow e, \:\sigma':a|b\rightarrow c\}$,
+$L=\{BD,IA\}$. The overlap concerns context $B$ in word $BD$. 
+The algorithm incorrectly segments the sentence \verb:ICE: as
+\verb:[IA with sandhi A|B -> C]: 
+followed by \verb:[BD with sandhi D| -> E]:; the second rewriting is
+incorrect since context \verb:B: is absent from \verb:ICD: after application
+of the first rule. 
+
+\subsection{Completeness}
+
+The segmenting algorithm is not only correct, it is complete:
+
+\noindent
+{\bf Proposition 3}. Under the same condition of strictness of system $(L,R)$,
+the segmenting algorithm is complete in the sense that 
+\verb:(segment_all s): will return all the analyses of $s$ when $s$ is 
+indeed a solution to the system. 
+
+This proposition is provable along the same pattern as Proposition 2 above, of
+which it is the converse. Actually, the two properties may be proved together
+within the same induction, every `if' being strengthened into an
+`iff', since it is easy to show that the algorithm covers all possible cases
+of building a valid partial analysis. This of course requires the 
+corresponding strengthening of the two properties of \verb:build_auto:, namely
+that the deterministic structure of the automaton is complete for $L$ and that
+its non-deterministic structure is complete for $R$. Again we skip the details
+of the proof, which is straightforward but notationally heavy. 
+
+The propositions 1, 2 and 3 may be summed up as:
+
+\noindent
+{\bf Theorem}. If the lexical system $(L,R)$ is strict and weakly
+non-overlapping
+$s$ is an {\sl (L,R)-sentence} iff the algorithm $(segment\_all~s)$ 
+returns a solution; conversely, the set of all such solutions exhibits
+all the proofs for $s$ to be an {\sl (L,R)-sentence}.
+
+A variant of the theorem, without the closures $|~{\R}~\epsilon$
+and $|~{\widehat{\R}}~\epsilon$ (optional sandhi and terminal sandhi), 
+is obtained by the variant algorithm explained above, where we
+suppress the program branch \verb:if b: in algorithm
+\verb:react:. All successes must end with terminal sandhi, and thus the
+accepting boolean information in the states may be dispensed with.
+If only certain rules are optional, we may use the obligatory algorithm,
+complementing every optional rule $\lsq x\rsq u|v\rightarrow w$ with
+its specific option $\lsq x\rsq u|v\rightarrow uv$. 
+
+We remark that the weak
+non-overlapping condition is very mild indeed, since it pertains 
+only to contextual rules. Whenever a contextual rule 
+$\lsq x\rsq u|v\rightarrow w$ forms a context overlap with others,
+it is enough to replace it with the equivalent non-contextual
+rule $xu|v\rightarrow xw$ in order to correct the problem. Note that
+non-contextual rules may have arbitrary overlappings, since
+we do not cascade replacements (i.e. we do not close our
+rational relations with transitivity), and thus a juncture rewrite can
+neither prevent nor help its neighbourgs. 
+
+Actually in practice a stronger non-overlapping condition is met.
+
+\noindent
+{\bf Definition}. 
+$(L,R)$ is {\sl strongly non-overlapping} if there can be
+no overlap of juncture rules of $R$ within one word of $L$. Formally,
+rules $\lsq x\rsq u|v\rightarrow w$ and $\lsq x'\rsq u'|v'\rightarrow w'$
+overlap within $z$ if $z=\lambda x u = v'\rho$ with
+$\vert\lambda\vert<\vert v'\vert$.
+
+This condition means that the juncture euphony between two words
+is not disturbed by the previously spoken phoneme stream. 
+We believe that
+this is a mild condition on the adequation of the euphony system. An
+overlap would signify that some word is too short to be stable in speech,
+to the point that it deserves to disappear as an independant lexical item.
+Indeed, it is the case that:
+
+\noindent
+{\bf Fact}. In classical Sanskrit, external sandhi is strongly non-overlapping.
+
+This fact is easy to check, since for external sandhi the maximal length of
+$u$, $v$, and $x$ is 1, so we have only to check for words of length at most 2.
+In the Vedic language, the emphasis particle $u$ (indeed, furthermore, now) 
+would be problematic, and would have to be dealt with by prosody 
+considerations.
+
+In contrast, internal sandhi cascades over morphemes within one word
+with complex retroflexions, 
+and is not directly amenable to our euphony treatment. Obviously 
+morphology must be treated by a layer of phonetic transformations 
+isolated from the juncture adjustments. 
+
+We end this section by remarking that the non-overlapping conditions 
+considered above are not imposing some kind of determinism on juncture
+rewriting, such as confluence of the corresponding string rewriting system.
+Indeed they do not rule out ambiguities of application arising from speech
+variants, such as two rules with same patterns $u$ and $v$, but distinct
+replacements $w_1$ and $w_2$. 
+
+%TODO Express non-overlap as associativity of juncture, or transitivity
+% of \R
+
+\subsection{Comparison with related work}
+
+\label{compar}
+We considered in this work only a simple case of general rational relations 
+as studied by Kaplan and Kay \cite{kk}, or even of the replace operator 
+proposed by Karttunen \cite{karttunen2}. Our relations are binary, not $n$-ary.
+We allow context only to the left. We consider only two relations 
+(sandhi and terminal sandhi), with possibly optional rules. We consider
+closure by concatenation, yielding one-step parallel replacement,
+but have not studied complex strategies iterating possibly overlapping
+replacements. For instance, it is not clear to us how to model {\sl internal}
+sandhi by cascading regular replacements - 
+thus we are able to compute inflected forms with an ad-hoc internal sandhi 
+synthesis procedure, but we do not have in inverse internal sandhi analyzer;
+such an analyzer would be useful for stemming purposes, by
+proposing new lemmas for lexicon completion
+from unknown inflected forms encountered in a corpus. 
+
+We have neither attempted yet to design a rational relation language 
+on top of our primitive rewrite rules. However, we believe that a general 
+language for describing phonological transformations ought to admit a
+specific high-level construct for the kind of left-contextual rewrite rules 
+which we consider here. The modular compiling of its expressions
+could profitably use our algorithms in its backend toolkit, in the same way
+that the \verb:grep: regular expression compiler used in UNIX shells and
+similar regular pattern search commands in text editors profit of
+specific string matching algorithms. Ultimately, the traditional
+fine-grained approach and the lexicon-driven one presented here should
+merge as consistent and complementary technologies.
+%The design of such a general framework is out of the scope of the present work.
+
+\section*{Conclusion}
+
+We have exhibited a consistent design for computational morphology
+mixing lexicon structures and finite automata state space
+representations within a uniform notion of lexical tree decorated with 
+information structures. These representations are finitely generated
+structures, which are definable in purely applicative kernels of
+programming languages, and thus benefit from safety (immutability due
+to absence of references), ease of formal reasoning (induction principles)
+and efficiency (static memory allocation). Being acyclic, they
+may be compressed optimally as dags by a uniform sharing functor.
+In particular, decorated structures which are lexicon morphisms preserve
+the natural sharing of the lexicon trie.
+
+An an instance of application, we showed how euphony analysis, inverting
+rational juncture rewrite rules, was amenable to processing with 
+finite state transducers organized as deterministic lexical automata decorated
+with non-deterministic choice points predicting euphony. 
+Under a mild assumption of non-interference of euphony rules across words, 
+we showed that the resulting transduction coroutine 
+produced a finite but complete set of solutions to
+the problem of segmentation of a stream of phonemes modulo euphony. 
+
+We showed application of this technique to a lexicon-driven Sanskrit 
+segmenter, resulting in a non-deterministic tagger, complete with respect
+to the lexicon. Compound analysis from root stems is solved by the
+same process. We believe this is the first computational solution to
+{\sl sandhi} analysis. This prototype tagger has been tested 
+satisfactorily on nominal phrases. It will tag full sentences of
+classical Sanskrit, at completion of its verbal morphology implementation. 
+It constitutes the first layer of a Sanskrit processing workbench under 
+development by the author. 
+
+This design has been presented as an operational set of programs in
+the Objective Caml language, providing a free toolbox for morphology
+experiments, much in the spirit of the Grammatical Framework type
+theory implementation of Aarne Ranta \cite{ranta}.
+
+%We have shown a technique to generate mechanically a grammatical tagger
+%from a sentence represented as a stream of phonemes by lexicon-directed
+%euphony analysis. We showed how to deal with both plain phonemic 
+%rewrite rules and contextual ones. The methodology used is finite-state
+%transducers implementing rational relations. A central role is devoted
+%to trie representations of lexical information. The segmenting transducer is
+%generated in one bottom-up pass from a trie storing inflected word forms,
+%including its minimization by a generic sharing algorithm.
+%
+%Similar techniques have been used by computational linguists in various
+%laboratories. However, published accounts
+%do not precisely describe the algorithms. Indeed, if one tries to compile
+%such finite state machines from first principles, as explained
+%in \cite{kk} and the various finite-state literature, one gets puzzled by
+%the diverse automaton representations needed for the various operations:
+%some assume deterministic machines, possibly minimized, some allow
+%$\epsilon$-transitions, other demand full non-deterministic representations,
+%finally more complex transitions with an output tape are needed for
+%transducers. Translations between these diverse representations are known,
+%but often at an exponential cost. Building a reversible transducer for
+%a non-trivial language, with several hundred thousand word forms and several
+%thousands morphological transformations, is hard without expert
+%knowledge about the inner operations of the various tools involved.
+%
+%Here we showed a general methodology for building an optimized 
+%non-deterministic transducer in a piecewise manner. The skeleton of
+%the transducer is a minimized deterministic finite automaton state dag
+%recognizing the lexical word forms. Choice points are then inserted on this
+%structure. They represent non-deterministic, possibly $\epsilon$, transitions
+%which generate output segments when looping on the state structure
+%through virtual addresses. All the algorithms are given as actual running
+%Objective Caml programs. They consist of very simple recursive applicative
+%programs, but are nonetheless efficient enough for use in
+%real scale applications. The resulting coroutine interpreter may be tailored
+%in various ways for implementing specific strategies ordering the
+%choices by specific priority criteria. 
+%
+%We proved the correctness of our method with a general methodology, where
+%termination is justified by a multiset ordering on the non-deterministic
+%choices, making the analysis independent of the non-determinism resolution
+%strategy. The search algorithm may thus be tuned for specific applications,
+%ordering the choices with priorities computed by corpus training or other
+%statistical data analysis techniques. 
+%
+%We believe this small
+%library of finite state tools is convenient for a quick start 
+%in various speech recognition or computational linguistics applications.
+%We exhibited one such typical application in demonstrating a Sanskrit
+%segmenter implementing sandhi analysis. This segmenter combines with
+%a lexical data base storing grammatical information in order to yield
+%a non-deterministic tagging coroutine, which is the first layer of
+%a Sanskrit processing workbench under development by the author. %
+

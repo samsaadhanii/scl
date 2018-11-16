@@ -1,0 +1,15 @@
+javac afga_viXi_rule.java
+javac change_aRt.java
+javac change_output1.java
+javac change_output.java
+javac check.java
+javac console_output.java
+javac get_input.java
+javac get_SabdarUpa_new.java
+javac input_DS.java
+javac paxa_DS.java
+javac prawyaya_viXi_rule.java
+javac regex_check.java
+javac rule.java
+javac Sandhi_rule.java
+javac wripAxI_rule.java

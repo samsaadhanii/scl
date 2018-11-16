@@ -1,0 +1,31 @@
+\vspace*{15pt}
+Ternary trees are more complex than tries, but use slightly less storage.
+Access is potentially faster in balanced trees than tries. 
+A good methodology seems to use tries for edition, and to translate them
+to balanced ternary trees for production use with a fixed lexicon.
+
+The ternary version of our English lexicon takes 3.6Mb, a savings of 20\%
+over its trie version using 4.5Mb. After dag minimization, it takes 1Mb,
+a savings of 10\% over the trie dag version using 1.1Mb. 
+In the case of our Sanskrit lexicon index, the trie takes 221Kb and the tertree
+180Kb, whereas shared as dags the trie takes 103Kb and the tertree 96Kb.
+
+\section{Decorated Tries for Inflected Forms Storage}
+
+\subsection{Decorated Tries}
+
+A set of elements of some type $\tau$ may be identified as its
+characteristic predicate in $\tau\rightarrow bool$. A trie with boolean 
+information may similarly be generalized to a structure
+representing a map, or function from words to some target type, by storing
+elements of that type in the information slot. 
+
+In order to distinguish absence of information, we could use a type
+{\sl (option info)} with constructor {\sl None}, presence of value
+{\sl v} being indicated by {\sl Some(v)}. We rather 
+choose here a variant with lists,
+which are versatile to represent sets, feature structures, etc. Now we
+may associate to a word a non-empty list of information of polymorphic
+type $\alpha$, absence of information being encoded by the empty list.
+We shall call such associations a {\sl decorated trie}, or 
+{\sl deco} in short.

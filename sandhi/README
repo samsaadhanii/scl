@@ -1,0 +1,33 @@
+Prerequisites:
+	Linux
+	Apache
+	Perl (version 5+)
+
+To Install
+	Create a directory where you want to istall this package
+	untar the package 
+	Make the necessary path changes in configure
+	./configure
+	sudo make install
+
+About the package: 
+
+This is a sandhi package, which does 'padaanta' sandhis.
+It is basically a CGI script, meant for web service.
+The program is written in perl.
+
+The sandhi rules are classified into two categories: apavAda, and default.
+First the machine searches for apavAda rules, and if not found, the default sandhi rules are applied.
+ApavAda rules are expressed using regular expressions.
+ApavAda rules which require special conditions on the categories, or semantic fields etc. (for example, conditions such as if the word is in dvi-vacana, or if the word is a pratyaya, etc.) are not yet handled.
+
+The default rules have following 6 fields:
+
+last_char_of_left_word,first-char_of_right_word,output,sandhi_name,sandhi_rule,udAharaNa
+(All these fields are seperated by comma.)
+
+License: GPL 
+
+Amba Kulkarni
+ambapradeep@gmail.com
+20/1/2011

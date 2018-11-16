@@ -1,0 +1,10 @@
+(* Exemple automaton description - see syntax in Parser module (regular.ml) *)
+
+initial init epsilon_aum
+
+alphabet a; b; c end
+
+  automaton Disp
+     node A = a* . b in
+     node FINAL = A.c.A
+  end

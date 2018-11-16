@@ -1,0 +1,32 @@
+\vspace*{15pt}
+
+For instance, with \verb:english.lst: storing a list of 173528 English
+words, as a text file of size 2Mb, the command
+\verb:make_lex < english.lst > english.rem:
+produces a trie representation as a file of 4.5Mb. Obviously
+we are wasting storage because we create a huge structure which shares
+the words along with their common initial prefixes, but which ignores the
+potential space saving of sharing common suffixes. We shall develop
+such sharing in a completely generic manner, as follows. 
+
+\section{Sharing}
+\label{sharing}
+
+Sharing data representation is a very general problem. 
+Sharing identical representations is ultimately the responsibility of
+the runtime system, which allocates and desallocates data with dynamic memory
+management processes such as garbage collectors. 
+
+But sharing of representations of the same type may also be programmed by 
+bottom-up computation. All that is needed is a memo function building the 
+corresponding map without duplications.
+Let us show the generic algorithm, as an ML {\sl functor}.
+
+% Note: no use of pointer equality (\verb:==: in ML). 
+
+\subsection{The Share functor}
+
+This functor (that is, parametric module) takes as parameter an algebra
+with its domain seen here as an abstract type. Here is its public interface
+declaration:
+

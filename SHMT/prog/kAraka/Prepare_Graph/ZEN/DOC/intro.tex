@@ -1,0 +1,94 @@
+%\documentclass[11pt]{article}
+%\pagestyle{plain}
+
+\def\lbr{\langle} %<
+\def\rbr{\rangle} %>
+\def\lsq{[} %[
+\def\rsq{]} %]
+\def\R{{\cal R}} % script R
+\def\otrema{\"o} % otrema necessary for balance of "..." in comments.
+\def\skip{\vspace{10pt}}
+
+%\def\url{}
+
+%\begin{document}
+\begin{center}
+\vspace*{24pt}
+{\Large The Zen Computational Linguistics Toolkit}\\[10pt]
+{\Large Version 3.2}\\[15pt]
+{November 24th, 2013}\\[15pt]
+{\large G\'erard Huet}\\[10pt]
+{\large Copyright \copyright ~2002-2013 INRIA}\\[20pt]
+\end{center}
+
+\tableofcontents
+
+\begin{abstract}
+We present in this document a few fundamental structures useful for
+computational linguistics. 
+
+The central structure is that of lexical tree, or {\sl trie}.
+A crucial observation is that a trie is isomorphic to the state space
+of a deterministic acyclic automaton. More complex finite-state
+automata and transducers, deterministic or not, and cyclic or
+not, may be represented as tries decorated by extra information. Thus we
+obtain a family of structures underlying lexicon-directed linguistic
+processes.
+
+First we describe plain tries, which are adequate to represent lexicon indexes.
+Then we describe decorated tries, or {\sl decos}, which are appropriate to
+represent symbol tables, and dictionaries associating with the lexicon
+grammatical or other informations. We then describe how to represent
+maps and more generally invertible relations between lexicons. We call these
+structures lexical maps or {\sl lexmaps}. Lexmaps are appropriate for instance
+to associate inflected forms to lexicon stems and roots, using morphological
+operations. Such lexmaps are invertible in the sense that we may retrieve
+from the lexmap entry of a inflected form the stems and operations from which
+it may be obtained. Finally we show how lexicon directed transducers may
+be represented using tries decorated with choice points. Such transducers
+are useful to describe segmentation and taggings processes.
+
+All data structures and algorithms are described
+in a computational metalanguage called \verb:Pidgin ML:. \verb:Pidgin ML: is a 
+publication language for the ML family of programming languages. All the
+algorithms described here could be described as well in Standard ML
+or in Objective CAML, to cite two popular ML implementations, or in the
+lazy functional language Haskell. They could also be described in a 
+programming language such as LISP or Scheme, but the strong typing discipline
+of ML, supporting polymorphism and modules, is an insurance that computations
+cannot corrupt data structures and lead to run-type errors. 
+An initial chapter of these notes gives a quick overview of \verb:Pidgin ML:. 
+
+The resulting design may be considered as the reference implementation of a Free 
+Computational Linguistics Toolkit. It may turn useful as an ``off the shelf''
+toolkit for simple operations on linguistics material. Due to its
+lightweight approach we shall talk of the Zen CL Toolkit. 
+
+This toolkit was abstracted from the Sanskrit ML Library, which constitutes
+its first large-scale application. Thus some of this material already
+appeared in the documentation of the Sanskrit Segmenter algorithm,
+which solves Sandhi Analysis \cite{2004-Huet-1}.
+%The Sanskrit Library Documentation, a companion to this document,
+%is available at \url{http://pauillac.inria.fr/~huet/SKT/DOC/doc.ps} under
+%format postscript, \verb|doc.pdf| under format pdf, 
+%and \verb|doc.html| under format html.
+
+This document was automatically generated from the code of the toolkit
+using the Ocamlweb package of Jean-Christophe Filli\^atre,
+with the Latex package, in the literate programming style pioneered by
+Don Knuth. 
+%The Html version uses the Hevea Tex-to-Html translator of Luc Maranget.
+
+\end{abstract}
+
+\part{Dictionaries}
+
+\section{Pidgin ML}
+
+We shall use as {\sl meta language} for the description of our algorithms
+a pidgin version of the functional language ML 
+\cite{ML-LCF,MLer,paulson,caml}. 
+Readers familiar with ML
+may skip this section, which gives a crash
+overview of its syntax and semantics.
+

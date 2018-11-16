@@ -1,0 +1,283 @@
+<!--
+#  Copyright (C) 2010-2018 Amba Kulkarni (ambapradeep@gmail.com)
+#
+#  This program is free software; you can redistribute it and/or
+#  modify it under the terms of the GNU General Public License
+#  as published by the Free Software Foundation; either
+#  version 2 of the License, or (at your option) any later
+#  version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+-->
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- <script type="text/javascript" src="js/jquery.min.js"></script> -->
+<meta http-equiv="CONTENT-TYPE" content="text/html; charset=utf-8" />
+<meta name ="keywords" content="india,indology,sanskrit,lexicography,linguistics,computational linguistics,tools, morph analyser" />
+<meta name ="date" content="2011-10-5" />
+<meta name="classification" content="computational linguistics, sanskrit, morphology, lexicography, indology" />
+<meta name="description" content="This site provides tools for Analysis of Sanskrit processing: morphological analysis and generation, segmentation, sandhi splitter, and parsing." />
+
+
+<script language="Javascript" type="text/javascript">
+
+   function check(){
+     if(document.test.text.value == "") {
+	alert("Please enter some sentence(s)");
+        return false;
+     }
+     else {
+     	var inputlang=document.getElementById("encoding").value;
+	//var data=document.getElementById("word").value;
+	var data=document.test.text.value;
+	
+	var reg=/[aAiIuUqQlLeEoOMHzkKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRshZ \.\?\-\_\!\^\,]/;
+	/*var reguni=/[अआइईउऊएऐओऔंःकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसहृ ऽ।॥?.]/;*/
+	
+	var reguni=/[अआइईउऊऋॠऌएऐओऔअंअःकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह ्ािीुूृॄॢेैोौंः  -_?.,!+/|।॥ऽ]/;
+        var regitrans=/[AaiuRiLIeoMH.Nkgh~NcChjnThDtdpbmyrlvsS \?\-\_\.\,\!\^]/;
+	var regslp=/[aAiIuUfFlxeEoOMHkKgGNcCqQjJwWQRtTdDnpPbBmyrlvSzsh \.\?]/;
+        var regvel=/[aiurleomhkgncjtdpbvysz \~\"\?\-\_\.\,\!]/;
+	var regrom=/[aÄiÄ«uÅ«á¹›?leoá¹ƒá¸¥khgá¹…cjÃ±á¹­á¸á¹‡tdnpbmyrlvÅ›á¹£s \.\?]/;
+	var regkh=/[aAiIuUlReaoMHkghGcjJTDNtdnpbmyrlvzSs \.\?]/;
+		
+		if(inputlang=="Unicode"){//<![CDATA[
+			for(var i=0;i<data.length;i++){
+			   if(reguni.test(data[i])){
+			   } else {
+				alert("please check encoding notation and input text notation");
+				return false;
+			}
+
+		    }	
+		}
+		else if(inputlang=="Itrans"){
+			for(var i=0;i<data.length;i++){
+				if(regitrans.test(data[i])){
+				}
+				else {
+					alert("please check encoding notation and input text notation");
+					return false;
+				}
+			}
+			
+		}
+		else if(inputlang=="SLP"){
+			for(var i=0;i<data.length;i++){
+                                if(regslp.test(data[i])){
+                                }
+                                else {
+                                	alert("please check encoding notation and input text notation");
+                                        return false;
+                                }
+                        }
+      		}
+
+		else if(inputlang=="roman"){
+                        for(var i=0;i<data.length;i++){
+                                if(regrom.test(data[i])){
+                                }
+                                else {	
+                                	alert("please check encoding notation and input text notation");
+                                        return false;
+                                }
+                        }
+      
+                }		
+
+		else if(inputlang=="KH"){
+                        for(var i=0;i<data.length;i++){
+                                if(regkh.test(data[i])){
+                                }
+                                else {
+                                	alert("please check encoding notation and input text notation");
+                                        return false;
+                                }
+                        }
+      
+                }
+
+		else if(inputlang=="VH"){
+                        for(var i=0;i<data.length;i++){
+                                if(regvel.test(data[i])){
+                                }
+                                else {
+                                	alert("please check encoding notation and input text notation");
+                                        return false;
+                                }
+                        }
+      
+                }
+
+		else if(inputlang=="WX"){
+                        for(var i=0;i<data.length;i++){
+                                if(reg.test(data[i])){
+                                }
+                                else {
+                                	alert("please check encoding notation and input text notation");
+                                        return false;
+                                }
+                        }
+                       
+                }//]]>
+     
+     
+     
+     }
+  }
+</script>
+<!-- All css links for all modules -->
+<link rel="stylesheet" href="../css_files/sktmt.css"/>
+
+<!-- All javascripts links for all modules -->
+<title> Sanskrit Hindi Machine Translation (Anusaaraka) </title>
+</head>
+
+<body>
+<div id="container">
+<center>
+<div id="project-name">
+<img src="../imgs/sktmt.jpg" alt="anusaaraka logo" /> 
+    </div>
+</div> <!-- project name div ends here-->
+</center>
+
+<div id="line1"> 
+<table width="100%"><tr>
+<td width="80%"><h3><a href="/scl"><font color="DarkBlue">संसाधनी-Saṃsādhanī</font></a></h3></td><td text-align="center" width="20%"><font color="magenta" size="3">5th Jul 2018</font></td><td text-align="right">  </td></tr></table>
+</center>
+</div>
+<div id="input-dashboard">
+<center>
+<form name="test" method="post" action="/cgi-bin/scl/SHMT/test_xml.cgi"  onsubmit="return check();">
+
+<div id="selection-area">
+<table>
+<tr>
+<td> <a href='#' style="color:blue;" onclick="window.open('table.html','Details','width=800, height=500,scrollbars=yes');">Input Encoding</a><br />
+<select name="encoding" id="encoding">
+<!--	    <option value="Unicode">Select encoding for Input</option> -->
+	    <option value="Unicode">Unicode-Devanagari</option>
+            <option value="WX">WX-Alphabetic</option>
+            <option value="Itrans">Itrans-5.3</option>
+            <option value="VH">Velthuis</option>
+            <option value="SLP">SLP1</option>
+            <option value="KH">Kyoto-Harvard(KH)</option>
+            <option value="IAST">IAST(Roman-Diacritic)</option>
+            </select> 
+</td>
+<td> <a href='#' style="color:blue;" onclick="window.open('table.html','Details','width=800, height=500,scrollbars=yes');">Output Encoding</a><br />
+            <select name="out_encoding">
+   <!--          <option>Select encoding for Output</option> -->
+            <option value="Devanagari">Devanagari</option>
+            <option value="IAST">IAST(Roman-Diacritic)</option>
+            </select>
+</td>
+<td> Segmenter<br />
+           <select name="splitter">
+ <!--          <option>Segmenter</option> -->
+            <option>None</option>
+ <!--           <option>Anusaaraka Splitter</option> 
+ This does not work well, especially with complete sentence such as rAmovanafgacCawi as one word. -->
+            <option>Heritage Splitter</option>
+            <!--<option>Heritage Splitter Interactive</option> -->
+            </select>
+</td>
+
+            <td>Parse <br/>
+            <select name="parse">
+            <option>Full</option>
+            <option>Partial</option>
+            <option>NO</option>
+            </select>
+</td>
+<td> Text type <br />
+            <select name="text_type">
+ <!--           <option>Text Type</option> -->
+            <option>Prose</option>
+            <option>Sloka</option>
+            <option>Vedic</option>
+            </select>
+</td>
+</tr>
+</table>
+</div>
+
+
+<div id="input-area">
+<table border="0">
+<tr>
+<td>
+<br />
+<center>
+Try <font color="blue">दशरथस्य पुत्रः रामः नगरे कोशात् हस्तेन ब्राह्मणाय धनं ददाति. (Without segmenter) </font><br />
+Try <font color="blue">दशरथपुत्रः रामः अयोध्यानगर्यां कोशात् हस्तेन ब्राह्मणाय धनं ददाति. (With segmenter)</font> 
+</center>
+</td>
+</tr>
+<tr>
+<td>
+<br />
+<textarea name="text" cols="100" rows="2" id="textbox-mt" placeholder="Type the sentence"></textarea>
+</td>
+</tr>
+<tr>
+<td>
+<center>
+<input type="submit" value="Submit" id="translatebutton" />
+</center>
+</td>
+</tr>
+</table>
+</div>
+
+</form>
+</center>
+</div> <!-- input-dashboard -->
+
+<div id="line"> &nbsp; </div>
+<div id="copy">
+<center>
+<table>
+<tr>
+<td id="copy-verify">
+<p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+        src="imgs/w3c.jpg"
+        alt="Valid XHTML 1.0 Transitional" height="31" width="" style="border-style:none;" /></a>
+  </p>
+</td>
+<td id="copy-info">
+<p> <span class="cons">© 2002-18 <a href="http://sanskrit.uohyd.ac.in/faculty/amba">Amba Kulkarni</a></span></p>
+</td>
+<td>
+<p> <span class="cons1"><a href="/scl/contributors.html">Contributors</a></span></p>
+</td>
+</tr>
+</table>
+</center>
+</div>
+</div><!--container-div ends here -->
+<!-- <img src="http://scl.samsaadhanii.in/cgi-bin/Count.cgi?ft=0&df=sample.dat" alt="Count"> -->
+<div id="outout"> </div>
+<div>
+<div id="counter">
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript" src="/scl/statcounter_dummy.js">
+</script>
+<noscript><div class="statcounter"><a title="web analytics" href="http://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/8421849/0/34917efe/0/" alt="web analytics"/></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+This directory contains programmes to parse the given segmented NN expression.
+
+The Context Free grammar, uses the lexical category to decide the potential anuyogins and pratiyogins for each relation term. The pratiyogin is always the term which is previous to it, whereas the anuyogin can be potentially any conceptual term that follows the relation term.
+
+The grammar is very simple:
+----------------------------------------
+examples: example 
+        | examples example
+        ;
+example: terms '\n' 
+       ;
+terms: terms '-' TR
+     | terms '-' TC
+     | TC
+     ;
+TC: concept 
+   ;
+TR: sambanXaH 
+   ;
+--------------------------------------
+The user interface allows the user to select the correct anuyogin in the given context.
+
+Once the anuyogins and pratiyogins for each relation are marked, then the parsed structure with parenthesis is generated.
+
+Such a parsed string then can be passed on to the NN2CG programme to get the CG.
+
+Amba
+21.3.2014

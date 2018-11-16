@@ -1,0 +1,84 @@
+pidgin.cmo :
+pidgin.cmx :
+gen.cmo :
+gen.cmx :
+list2.cmo :
+list2.cmx :
+ascii.cmo : list2.cmo
+ascii.cmx : list2.cmx
+latin.cmo : transducer.cmo list2.cmo
+latin.cmx : transducer.cmx list2.cmx
+word.cmo : list2.cmo
+word.cmx : list2.cmx
+zen_lexer.cmo :
+zen_lexer.cmx :
+transducer.cmo : zen_lexer.cmo
+transducer.cmx : zen_lexer.cmx
+zipper.cmo : word.cmo list2.cmo
+zipper.cmx : word.cmx list2.cmx
+bintree.cmo :
+bintree.cmx :
+share.cmi :
+share.cmo : share.cmi
+share.cmx : share.cmi
+sharemod.cmi :
+sharemod.cmo : sharemod.cmi
+sharemod.cmx : sharemod.cmi
+trie.cmo : word.cmo list2.cmo gen.cmo
+trie.cmx : word.cmx list2.cmx gen.cmx
+mini.cmo : trie.cmo share.cmi gen.cmo
+mini.cmx : trie.cmx share.cmx gen.cmx
+deco.cmo : word.cmo trie.cmo list2.cmo
+deco.cmx : word.cmx trie.cmx list2.cmx
+lexmap.cmo : word.cmo list2.cmo deco.cmo
+lexmap.cmx : word.cmx list2.cmx deco.cmx
+minimap.cmi : lexmap.cmo
+minimap.cmo : share.cmi lexmap.cmo deco.cmo minimap.cmi
+minimap.cmx : share.cmx lexmap.cmx deco.cmx minimap.cmi
+tertree.cmo : trie.cmo gen.cmo
+tertree.cmx : trie.cmx gen.cmx
+minitertree.cmo : tertree.cmo share.cmi gen.cmo
+minitertree.cmx : tertree.cmx share.cmx gen.cmx
+lexicon.cmo : trie.cmo ascii.cmo
+lexicon.cmx : trie.cmx ascii.cmx
+make_lex.cmo : word.cmo trie.cmo
+make_lex.cmx : word.cmx trie.cmx
+unglue.cmo : word.cmo trie.cmo ascii.cmo
+unglue.cmx : word.cmx trie.cmx ascii.cmx
+aum0.cmi : word.cmo
+react0.cmo : word.cmo aum0.cmi
+react0.cmx : word.cmx aum0.cmi
+aume.cmi : word.cmo
+reacte.cmo : word.cmo list2.cmo aume.cmi
+reacte.cmx : word.cmx list2.cmx aume.cmi
+aumt.cmi : word.cmo
+reactt.cmo : word.cmo list2.cmo aumt.cmi
+reactt.cmx : word.cmx list2.cmx aumt.cmi
+regular.cmo :
+regular.cmx :
+unshare.cmo : trie.cmo
+unshare.cmx : trie.cmx
+terdagify.cmo : tertree.cmo minitertree.cmo
+terdagify.cmx : tertree.cmx minitertree.cmx
+list_iso.cmo : trie.cmo latin.cmo
+list_iso.cmx : trie.cmx latin.cmx
+dagify.cmo : trie.cmo mini.cmo
+dagify.cmx : trie.cmx mini.cmx
+timeshare.cmo : trie.cmo mini.cmo gen.cmo
+timeshare.cmx : trie.cmx mini.cmx gen.cmx
+test.cmo : word.cmo ascii.cmo
+test.cmx : word.cmx ascii.cmx
+unglue_test.cmo : unglue.cmo lexicon.cmo ascii.cmo
+unglue_test.cmx : unglue.cmx lexicon.cmx ascii.cmx
+make_english_lexicon.cmo : make_lex.cmo ascii.cmo
+make_english_lexicon.cmx : make_lex.cmx ascii.cmx
+make_french_lexicon.cmo : make_lex.cmo latin.cmo
+make_french_lexicon.cmx : make_lex.cmx latin.cmx
+example_dispatch.cmo :
+example_dispatch.cmx :
+sanskrit_dispatch.cmo :
+sanskrit_dispatch.cmx :
+example_engine.cmo : react0.cmo example_dispatch.cmo aum0.cmi
+example_engine.cmx : react0.cmx example_dispatch.cmx aum0.cmi
+sanskrit_engine.cmo : sanskrit_dispatch.cmo reactt.cmo aumt.cmi
+sanskrit_engine.cmx : sanskrit_dispatch.cmx reactt.cmx aumt.cmi

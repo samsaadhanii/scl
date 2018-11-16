@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sanskrit Sentence Generator</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="bootstrap/jquery/jquery.min.js"></script>
+  <script src="bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+<script type="text/javascript">
+function test () {
+      $.ajax({
+        url:"run_skt_gen2.php", //the page containing php script
+        type: "GET", //request type
+        data : $("#inpts").serialize(),
+        success:function(result){
+                $("#rootinfo").html(result);
+       }
+     });
+}
+
+function callgen () {
+      $.ajax({
+        url:"run_skt_gen.cgi", //the page containing php script
+        type: "GET", //request type
+        data : $("#geninput").serialize(),
+        success:function(result){
+                $("#gen_out").html(result);
+       }
+     });
+}
+
+</script>
+
+
+
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+	<h3>Sanskrit Sentence Generator (v03)</h3>
+  </div>
+</nav>
+<div class="container">
+
+<table>
+<tr><td valign="top">
+<form class="form-inline" id="inpts">
+  <textarea class="form-control" rows="15" cols="50" id="texts" name="texts"></textarea> <br /><br />
+<!--  <button type="button" class="btn btn-primary" onclick="test();" >संश्लेषणं दृश्यताम्</button> -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onclick="callgen();" >संश्लेषणं दृश्यताम्</button>-
+
+</form>
+
+</td>
+<td valign="top">
+<div id="gen_out"></div>
+
+</td>
+</tr>
+</table>
+<br />
+<div id="gen_out2"></div>
+
+</div><!--div ends container-->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLabel">Sanskrit Sentence Generator (v03)</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body jumbotron" id="rootinfo">
+        ...
+      </div>
+	
+      <div class="modal-body" id="rootinfo2">
+        ...
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary" onclick="callgen();">Save changes</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+<!-- <img src="http://scl.samsaadhanii.in/cgi-bin/Count.cgi?ft=0&df=sample.dat" alt="Count"> -->
+
+</body>
+</html>
+
+

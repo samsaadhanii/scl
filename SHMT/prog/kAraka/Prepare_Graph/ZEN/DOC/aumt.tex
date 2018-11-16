@@ -1,0 +1,30 @@
+The function {\sl react1} is a recognizer for the rational language which is the 
+image by the {\sl transducer} morphism of the regular expression over phases. 
+It stops at the first solution - when the input string is a word in this language 
+- otherwise it raises the exception {\sl Finished}. However, note that the 
+general mechanism for managing non-determinism through coroutine resumptions 
+allows restarting the computation to find other solutions. This mechanism will 
+be specially important later when our engine
+is used for transductions, where we may be interested in the various solutions.
+
+We give above an example of using {\sl continue} as a coroutine by computing 
+the {\sl multiplicity} function, which counts the number of ways in which 
+the input string may be solution to the regular expression. We remark that 
+standard formal language theory deals with languages as {\sl sets} of words,
+whereas here we formalize the finer notion of a {\sl stream} (i.e. a 
+potentially infinite list) of words recursively enumerating a {\sl multiset}
+of words. 
+
+% amiable together etc -> 4 TODO
+
+% completeness, finiteness condition : morphism such that epsilon not in languages 
+
+\section{Modular aum transducers}
+
+So far our automata were mere deterministic recognizers for finite sets of words
+(although a dose of non-determinism arises from the choice, at any accepting node,
+between external transition to the next phase and continuing the local search, since
+the local language may contain a word and one of its proper prefixes). 
+We now consider a more general framework where we handle loops in the transition 
+relation, non-deterministic transitions, and output.
+

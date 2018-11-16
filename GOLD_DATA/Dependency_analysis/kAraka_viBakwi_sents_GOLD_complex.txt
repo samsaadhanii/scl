@@ -1,0 +1,223 @@
+SENT: xaSaraWasya puwraH nAmnA rAmaH
+ANALYSIS:
+1	xaSaraWasya	RaRTIsambanXaH,2
+2	puwraH	viSeRaNam,4
+3	nAmnA
+4	rAmaH
+
+SENT: kRewragAminA varwmanA gacCanwaM yAwrikaM apaSyaw
+ANALYSIS:
+1	kRewragAminA	viSeRaNam,2
+2	varwmanA	karaNam,3
+3	gacCanwaM	samAnakAlaH,5
+4	yAwrikaM	karma,5
+5	apaSyaw
+
+SENT: janasya kalyANAya yawamAnena rAmeNa AwmA kleSaM upAnIyawa
+ANALYSIS:
+1	janasya	RaRTIsambanXaH,2
+2	kalyANAya	wAxarWyam,3
+3	yawamAnena	viSeRaNam,4
+4	rAmeNa	karwA,7
+5	AwmA	karma,7
+6	kleSaM	muKyakarma,7
+7	upAnIyawa
+
+SENT: SrIReNasya rAjFaH mahiRI sUryaM canxraM ca AwmanaH uwsafgavarwinO svapne apaSyaw
+ANALYSIS:
+1	SrIReNasya	RaRTIsambanXaH,2
+2	rAjFaH	RaRTIsambanXaH,3
+3	mahiRI	karwA,10
+4	sUryaM	samucciwam,6
+5	canxraM	samucciwam,6
+6	ca	karma,10
+7	AwmanaH	RaRTIsambanXaH,8
+8	uwsafgavarwinO	karmasamAnAXikaraNam,6
+9	svapne	aXikaraNam,10
+10	apaSyaw
+
+SENT: jagawA kutumbinaM manyawe AwmAnaM sAXuH
+ANALYSIS:
+1	jagawA	karwA,3
+2	kutumbinaM	karma,3
+3	manyawe
+4	AwmAnaM	viSeRaNam,2
+5	sAXuH	kriyAviSeRaNam,3
+
+SENT: huwaBujA xagXaM araNyaM apaSyan nalaH
+ANALYSIS:
+1	huwaBujA	karwA,2
+2	xagXaM	viSeRaNam,3
+3	araNyaM	karma,4
+4	apaSyan
+5	nalaH	karwA,4
+
+SENT: hemnaH saMlakRyawe hi agnO viSuxXiH SyAmikA api vA
+ANALYSIS:
+1	hemnaH	RaRTIsambanXaH,5
+2	saMlakRyawe
+3	hi	sambanXaH,4
+4	agnO	aXikaraNam,2
+5	viSuxXiH	anyawaraH,8
+6	SyAmikA	anyawaraH,8
+7	api	sambanXaH,6
+8	vA	karwA,2
+
+SENT: saMxehe sawAM anwaHkaraNasya pravqwwayaH pramANam
+ANALYSIS:
+1	saMxehe	sambanXaH,4
+2	sawAM	RaRTIsambanXaH,3
+3	anwaHkaraNasya	RaRTIsambanXaH,4
+4	pravqwwayaH
+5	pramANam	karwqsamAnAXikaraNam,4
+
+SENT: piwarO prasIxawam
+ANALYSIS:
+1	piwarO	karma,2
+2	prasIxawam
+
+SENT: piwarO prasIxawam
+ANALYSIS:
+1	piwarO	samboXyaH,2
+2	prasIxawam
+
+SENT: ciwwaM svAsWyaM laBawAm
+ANALYSIS:
+1	ciwwaM	karma,3
+2	svAsWyaM	karma,3
+3	laBawAm
+
+SENT: bAhvoH balena pqWvIM ajayaw
+ANALYSIS:
+1	bAhvoH	RaRTIsambanXaH,2
+2	balena	karaNam,4
+3	pqWvIM	muKyakarma,4
+4	ajayaw
+
+SENT: guruByaH SiRyasya na vinayaM kaWayAmi
+ANALYSIS:
+1	guruByaH	wAxarWyam,5
+2	SiRyasya	RaRTIsambanXaH,4
+3	na	sambanXaH,5
+4	vinayaM	karma,5
+5	kaWayAmi
+
+SENT: nAryAH kabaryAH puRpe asraMsewAm
+ANALYSIS:
+1	nAryAH	RaRTIsambanXaH,2
+2	kabaryAH	apAxAnam,4
+3	puRpe	karwA,4
+4	asraMsewAm
+
+SENT: raWyAyAM janAnAM samUhaM EkRAmahi
+ANALYSIS:
+1	raWyAyAM	aXikaraNam,4
+2	janAnAM	RaRTIsambanXaH,3
+3	samUhaM	karma,4
+4	EkRAmahi
+
+SENT: miwrANAM aByuxaye narAH moxanwe
+ANALYSIS:
+1	miwrANAM	RaRTIsambanXaH,2
+2	aByuxaye	sambanXaH,4
+3	narAH	karwA,4
+4	moxanwe
+
+SENT: pApAH na vacanIyaM IkRanwe
+ANALYSIS:
+1	pApAH	karwA,4
+2	na	sambanXaH,4
+3	vacanIyaM	karma,4
+4	IkRanwe
+
+SENT: sawyaM hiwakaraM ca vAkyaM BARanwe prajFAH
+ANALYSIS:
+1	sawyaM	samucciwam,3
+2	hiwakaraM	samucciwam,3
+3	ca	viSeRaNam,4
+4	vAkyaM	karma,5
+5	BARanwe
+6	prajFAH	karwA,5
+
+SENT: gAyakAw saMgIwaM SikRAvahe
+ANALYSIS:
+1	gAyakAw	apAxAnam,3
+2	saMgIwaM	karma,3
+3	SikRAvahe
+
+SENT: saKyoH paramaH snehaH SakunwalAyAH AsIw
+ANALYSIS:
+1	saKyoH	aXikaraNam,3
+2	paramaH	viSeRaNam,3
+3	snehaH	karwA,5
+4	SakunwalAyAH	RaRTIsambanXaH,3
+5	(AsIw)
+
+SENT: gafgAyAH purI kroSO
+ANALYSIS:
+1	gafgAyAH	??,2
+2	purI
+3	kroSO	??,2
+
+SENT: vApI nagarAw kroSO
+ANALYSIS:
+1	vApI
+2	nagarAw	??,1
+3	kroSO	??,1
+
+SENT: pAxena KaFjaH
+ANALYSIS:
+1	pAxena	??,2
+2	KaFjaH
+
+SENT: wileByaH prawiyacCawi mARAn
+ANALYSIS:
+1	wileByaH	sampraxAnam,2
+2	prawiyacCawi
+3	mARAn	karma,2
+
+SENT: nagaraM vanAw yojanam aswi
+ANALYSIS:
+1	nagaraM	karwA,4
+2	vanAw	??,4
+3	yojanam	karwqsamAnAXikaraNam,4
+4	aswi
+
+SENT: xvArakAM aXyURuRaH janasya saMpaxaH manasaH api aBUmiH aBavan
+ANALYSIS:
+1	xvArakAM	aXikaraNam,2
+2	aXyURuRaH	viSeRaNam,3
+3	janasya	RaRTIsambanXaH,4
+4	saMpaxaH	karwA,8
+5	manasaH	apAxAnam,8
+6	api	sambanXaH,5
+7	aBUmiH	karma,8
+8	aBavan
+
+SENT: guNAH pUjA-sWAnaM guNiRu na ca lifgaM na ca vayaH
+ANALYSIS:
+1	guNAH	??,2
+2	pUjA-sWAnaM
+3	guNiRu	??
+4	na	sambanXaH,6
+5	ca	sambanXaH,6
+6	lifgaM	??,2
+7	na	sambanXaH,9
+8	ca	sambanXaH,9
+9	vayaH	??,2
+
+SENT: kEkeyyAH xAruNaM vacaH SruwvA mahArAjaH xaSaraWaH sahasA BUmO apawaw niSceRtaH ca aBavaw
+ANALYSIS:
+1	kEkeyyAH	RaRTIsambanXaH,2
+2	xAruNaM	viSeRaNam,3
+3	vacaH	karma,4
+4	SruwvA	pUrvakAlaH,12
+5	mahArAjaH	viSeRaNam,6
+6	xaSaraWaH	karwA,12
+7	sahasA	kriyAviSeRaNam,9
+8	BUmO	aXikaraNam,9
+9	apawaw	vAkyasamucciwam,11
+10	niSceRtaH	karwqsamAnAXikaraNam,12
+11	ca
+12	aBavaw	vAkyasamucciwam,11
+

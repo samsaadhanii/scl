@@ -1,0 +1,32 @@
+Similarly to above, we could use {\sl continue} to compute
+the stream of solutions in coroutine fashion. Such examples have already
+been given in Part I, for the unglueing process.
+
+Remark that we may now understand unglueing as a special case of
+a reactive transducer. There is only one phase {\sl L}, and the global regular
+expression is {\sl L*}. The dictionary nodes {\sl Trie(b,arcs)} play the 
+role of {\sl State(arcs,c)} where {\sl c=[]} if {\sl b=False} and
+{\sl c=[External([],([],[])]} if {\sl b=True}.
+
+Remark that when we have only {\sl External} transitions, the engine simplifies,
+since the {\sl stack} access path is not needed any more to interpret
+the internal jumps. However, its first component, i.e. the access {\sl word},
+may be necessary as an argument to the transducer output. 
+
+\section{Macro-Generation of the {\it Dispatch} module}
+\label{macro}
+
+\subsection{Introduction} 
+
+The meta-programming of the {\it Dispatch} module is effected by the 
+{\sl Regular} module, which uses the Berry-Sethi algorithm to linearize the 
+given regular expression, compute the follow relation, and macro-generate the 
+source of a specific dispatching module,
+seen as a user-specified plug-in to the generic toolkit. 
+
+This facility uses the excellent Camlp4 Caml preprocessor, 
+both for input (yielding a parser
+for the regular expression minilanguage), and for output 
+(macro-generating the abstract syntax
+of the resulting module, piped into the Pidgin ML pretty-printer). 
+

@@ -1,0 +1,58 @@
+A list of 138257 French words, represented as an 8-bit ASCII file of 1.52
+Mbytes, is represented as a trie of 2.4 Mbytes, which shrinks to 450
+Kbytes by sharing. 
+
+\subsection{Lexicon repositories using tries and decos}
+
+In a typical computational linguistics application, grammatical information
+(part of speech role, gender/number for substantives, valency and other
+subcategorization information for verbs, etc) may be stored as 
+decoration of the lexicon of roots/stems. From such a decorated trie
+a morphological processor may compute the lexmap of all inflected forms,
+decorated with their derivation information encoded as an inverse map.
+This structure may itself be used by a tagging processor 
+to construct the linear representation of a 
+sentence decorated by feature structures. Such a representation
+will support further processing, such as computing
+syntactic and functional structures, typically as solutions of
+constraint satisfaction problems. 
+
+Let us for example give some information on the indexing structures 
+\verb|trie|, \verb|deco| and \verb|lexmap| used
+in our computational linguistics tools for Sanskrit.
+
+The main component in our tools is a structured lexical database,
+described in \cite{dico-report,wcre}. From this database,
+various documents may be produced mechanically, such as a
+printable dictionary through a {\TeX}/Pdf 
+compiling chain,
+and a Web site (\url{http://pauillac.inria.fr/~huet/SKT}) 
+with indexing tools. The index CGI engine searches the words
+by navigating in a persistent trie index of stem entries. In the current 
+version, the database comprises 12000 items.
+The corresponding trie (shared as a dag) has a size of 103KB. 
+
+When computing this index, another persistent structure is created. It
+records in a deco all the genders associated with a noun entry
+(nouns comprise substantives and adjectives, a blurred distinction in
+Sanskrit). 
+At present, this deco records genders for 5700 nouns, and it has
+a size of 268KB. 
+
+A separate process may then iterate on this genders structure a 
+grammatical engine, which for each stem and associated gender generates
+all the corresponding declined forms. Sanskrit has a specially 
+prolific morphology, with 3 genders, 3 numbers and 7 cases. The grammar
+rules are encoded into 84 declension tables, and for each declension 
+suffix an internal sandhi computation is effected to compute the final 
+inflected form. All such words are recorded in a inflected forms lexmap,
+which stores for every word the list of
+pairs (stem,declension) which may produce it. This lexmap records
+about 120000 such inflected forms with associated grammatical
+information, and it has a size of 341KB (after minimization by sharing, 
+which contracts approximately by a factor of 10). 
+A companion trie, without the information, keeps the index of inflected words 
+as a minimized structure of 140KB. 
+
+A similar process produces the conjugated forms of root verbs. 
+

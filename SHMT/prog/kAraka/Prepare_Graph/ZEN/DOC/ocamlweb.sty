@@ -1,0 +1,255 @@
+% This is ocamlweb.sty, by Jean-Christophe Filliâtre
+% modified by Claude Marché
+% This LaTeX package is used by ocamlweb (http://www.lri.fr/~filliatr/ocamlweb)
+%
+% You can modify the following macros to customize the appearance
+% of the document.
+
+\newif\iflatexsectioning\latexsectioningfalse
+% the following comment tells HeVeA to ignore all this until END LATEX
+%BEGIN LATEX
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{ocamlweb}[1999/05/21]
+
+%      package options
+
+% option for the sectioning style
+% if false, the sectioning is similar to the web sectioning, sections
+% numbered in sequences. If true, structured sectioning is allowed
+% using LaTeX sectioning commands.
+
+\DeclareOption{noweb}{\latexsectioningtrue}
+\DeclareOption{web-sects}{\latexsectioningfalse}
+
+% option for visible spaces
+
+\newif\ifvisiblespaces\visiblespacestrue
+\DeclareOption{novisiblespaces}{\visiblespacesfalse}
+
+% option for index by pages
+
+\newif\ifbypage\bypagetrue
+\DeclareOption{bypages}{\bypagetrue}
+\DeclareOption{bysections}{\bypagefalse}
+
+\ProcessOptions
+
+% needed to make hypertex work
+\AtBeginDocument{\let\Hy@tempa\relax}
+
+%END LATEX
+% HeVeA reads the following
+
+% Hevea puts to much space with \medskip and \bigskip
+%HEVEA\renewcommand{\medskip}{}
+%HEVEA\renewcommand{\bigskip}{}
+
+% own name
+\newcommand{\ocamlweb}{\textsf{ocamlweb}}
+
+% pretty underscores (the package fontenc causes ugly underscores)
+%BEGIN LATEX
+\def\_{\kern.08em\vbox{\hrule width.35em height.6pt}\kern.08em}
+%END LATEX
+
+% Bigger underscore for ocamllex files (lexers).
+\newcommand{\ocwlexwc}{\textnormal{\large \_\,}}
+
+% macro for typesetting ocamllex keywords and for regexp and rule idents
+\newcommand{\ocwlexkw}[1]{\textsf{#1}}
+\newcommand{\ocwlexident}[1]{\ensuremath{\mathit{#1\/}}}
+
+% macro for typesetting ocamlyacc keywords and for non-terminals and tokens
+\newcommand{\ocwyacckw}[1]{\textsf{#1}}
+\newcommand{\ocwyaccident}[1]{\ensuremath{\mathit{#1\/}}}
+
+% macro for typesetting keywords
+\newcommand{\ocwkw}[1]{\textsf{#1}}
+
+% macro for typesetting base types (int, bool, string, etc.)
+\newcommand{\ocwbt}[1]{\textit{#1\/}}
+
+% macro for typesetting type variables
+\newcommand{\ocwtv}[1]{\textit{'#1\/}}
+
+% macro for typesetting identifiers
+\newcommand{\ocwsymbolid}[1]{{#1}}
+
+\newcommand{\ocwlowerid}[1]{\ensuremath{\mathit{#1\/}}}
+\newcommand{\ocwupperid}[1]{\ensuremath{\mathit{#1\/}}}
+
+% macros for typesetting constants
+\newcommand{\ocwhexconst}[1]{\ensuremath{\mathtt{#1}_{16}}}
+\newcommand{\ocwoctconst}[1]{\ensuremath{#1_8}}
+\newcommand{\ocwbinconst}[1]{\ensuremath{#1_2}}
+
+\newcommand{\ocwfloatconst}[2]{\ensuremath{#1\cdot 10^{#2}}}
+\newcommand{\ocwfloatconstexp}[1]{\ensuremath{10^{#1}}}
+
+% newline, and indentation 
+%BEGIN LATEX
+\newcommand{\ocweol}{\setlength\parskip{0pt}\par\penalty5000}
+\newcommand{\ocwindent}[1]{\noindent\kern#1}
+%END LATEX
+%HEVEA\newcommand{\ocweol}{\begin{rawhtml}<BR>\end{rawhtml}}
+%HEVEA\newcommand{\ocwindent}[1]{\hspace{#1}\hspace{#1}}
+
+% macro for typesetting comments
+\newcommand{\ocwbc}{\ensuremath{(\ast}}
+\newcommand{\ocwec}{\ensuremath{\ast)}}
+% yacc comments
+\newcommand{\ocwbyc}{\ensuremath{/\ast}}
+\newcommand{\ocweyc}{\ensuremath{\ast/}}
+ 
+% yacc special notations
+\iflatexsectioning
+\newcommand{\ocwyaccrules}{\subsection*{Grammar rules}}
+\newcommand{\ocwyacctrailer}{\subsection*{Trailer}}
+\newcommand{\ocwyaccopercentbrace}{\subsection*{Header}}
+\newcommand{\ocwyacccpercentbrace}{\subsection*{Token declarations}}
+\else
+\newcommand{\ocwyaccrules}{}
+\newcommand{\ocwyacctrailer}{}
+\newcommand{\ocwyaccopercentbrace}{}
+\newcommand{\ocwyacccpercentbrace}{}
+\fi
+\newcommand{\ocwyacccolon}{\ensuremath{::=}}
+\newcommand{\ocwyaccendrule}{}
+\newcommand{\ocwyaccpipe}{\ensuremath{\mid}}
+
+
+%BEGIN LATEX
+\newbox\boxA
+\newbox\boxB
+\newdimen\boxwidth
+\def\ocwcomment{\unskip\hskip 2em\null\par\nointerlineskip
+  \setbox\boxA=\lastbox
+  \setbox\boxB=\hbox{\strut\unhbox\boxA}\boxwidth=\wd\boxB
+  \noindent\box\boxB\par
+  \ifdim\boxwidth<.5\hsize\vskip -\baselineskip
+  \else\boxwidth=.5\hsize\fi
+  \noindent\hangafter=0 \hangindent=\boxwidth
+  \llap{$(*$ }\ignorespaces}
+\def\ocwendcomment{\unskip~$*)$\strut\par}
+%END LATEX
+%HEVEA\newcommand{\ocwcomment}{(*}
+%HEVEA\newcommand{\ocwendcomment}{*)}
+
+%BEGIN LATEX
+\def\ocwbegincode{}
+\def\ocwendcode{}
+\def\ocwbegindcode{}
+\def\ocwenddcode{}
+%END LATEX
+%HEVEA\newcommand{\ocwbegincode}{}
+%HEVEA\newcommand{\ocwendcode}{}
+%HEVEA\newcommand{\ocwbegindcode}{}
+%HEVEA\newcommand{\ocwenddcode}{}
+
+%HEVEA\newcommand{\endgraf}{}
+
+\newcommand{\ocwstring}[1]{\texttt{#1}}
+% visible space in a string
+%BEGIN LATEX
+\ifvisiblespaces
+\newcommand{\ocwvspace}{{\tt\char`\ }}
+\else
+\newcommand{\ocwvspace}{{\tt ~}}
+\fi
+%END LATEX
+%HEVEA\newcommand{\ocwvspace}{\hspace{1em}}
+
+% macro to insert a title and to set the header accordingly
+%BEGIN LATEX
+\def\currentmodule{}
+\newcommand{\ocwheader}[1]{\gdef\currentmodule{#1}}
+
+\newcommand{\ocwtitle}[1]{%
+ \section*{#1}%
+ \def\currentmodule{#1}%
+ \addtocounter{ocwcounter}{1}%
+ \markboth{}{#1 \hfill {\rm\S\theocwcounter}\quad}%
+ \addtocounter{ocwcounter}{-1}%
+}
+%END LATEX
+%HEVEA\newcommand{\ocwtitle}[1]{\section*{#1}}
+
+% macro for typesetting the title of a module implementation
+\newcommand{\ocwmodule}[1]{\ocwtitle{Module #1}}
+
+% macro for typesetting the title of a module interface
+\newcommand{\ocwinterface}[1]{\ocwtitle{Interface for module #1}}
+
+% interface part of a module
+\newcommand{\ocwinterfacepart}{\subsection*{Interface}}
+
+% code part of a module
+\newcommand{\ocwcodepart}{\subsection*{Code}}
+
+% macro for typesetting the title of a lex description
+\newcommand{\ocwlexmodule}[1]{\ocwtitle{Module #1 (Lex)}}
+
+% macro for typesetting the title of a yacc description
+\newcommand{\ocwyaccmodule}[1]{\ocwtitle{Module #1 (Yacc)}}
+
+% new WEB section
+\newcounter{ocwcounter}
+\setcounter{ocwcounter}{0}
+\newcommand{\ocwsection}{%
+\refstepcounter{ocwcounter}%
+\bigskip\noindent{\bf\theocwcounter.}%
+%BEGIN LATEX
+\markboth{}{\currentmodule \hfill {\rm\S\theocwcounter}\quad}%
+\kern1em%
+%END LATEX
+%HEVEA\hspace{1em}
+}
+%HEVEA\newcommand{\currentmodule}{}
+
+% index
+%BEGIN LATEX
+\newcommand{\ocwbeginindex}{%
+  \markboth{}{Index \hfill {\rm\S\theocwcounter}\quad}%
+  \begin{theindex}%
+}%
+\newcommand{\ocwendindex}{\end{theindex}}
+%END LATEX
+%HEVEA\newcommand{\ocwbeginindex}{\section{Index}\begin{itemize}}
+%HEVEA\newcommand{\ocwendindex}{\end{itemize}}
+
+% index entry in web-sects option
+\newcommand{\ocwwebindexentry}[3]{\item #1,\quad#2#3}
+
+% index entry in noweb option
+
+%BEGIN LATEX
+\def\loopbody{%
+\edef\ocwnext{%
+\@ifundefined{r@\ocwloop}{??}{\ifbypage\pageref{\ocwloop}\else
+    \ref{\ocwloop}\fi}}%
+\ifx\ocwprevious\ocwnext\relax
+\else
+\ocwsep\ocwoutputref{\ocwnext}%
+\edef\ocwprevious{\ocwnext}%
+\def\ocwsep{, }%
+\fi}
+
+\newcommand{\ocwrefindexentry}[5]{\item #1,\quad
+\def\ocwsep{\relax}%
+\def\ocwoutputref{\textbf}%
+\def\ocwprevious{0}%
+\@for\ocwloop:=#2\do{\loopbody}%
+\def\ocwoutputref{\textrm}%
+\def\ocwprevious{0}%
+\@for\ocwloop:=#3\do{\loopbody}%
+}
+%END LATEX
+%HEVEA\newcommand{\ocwrefindexentry}[5]{\item #1,\quad#4, #5}
+
+
+%HEVEA\newcommand{\lnot}{\ocwkw{not}}
+%HEVEA\newcommand{\lor}{\ocwkw{or}}
+%HEVEA\newcommand{\land}{\&}
+%HEVEA\newcommand{\markboth}{}{}
+

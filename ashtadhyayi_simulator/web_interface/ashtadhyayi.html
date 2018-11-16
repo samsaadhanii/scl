@@ -1,0 +1,73 @@
+
+<script>
+function blinker() {
+    $('#focus').fadeOut(200);
+    $('#focus').fadeIn(200);
+    $('#focus2').fadeOut(200);
+    $('#focus2').fadeIn(200);
+}
+
+setInterval(blinker, 2000);
+
+</script>
+
+
+<!-- <form name="test" method="get" action="http://sanskrit.uohyd.ernet.in/cgi-bin/scl/ashtadhyayi_simulator/simulation.cgi" onsubmit="return check();">-->
+
+<div id="asht_simul_dashboard">
+<div class="dept-name">
+   <span class="title">&nbsp;&nbsp;&nbsp;प्रक्रिया-सन्दर्शिनी <span id="focus">[अकारान्त-पुंलिङ्ग-पदानामेव]</span> (Aṣṭādhyāyī Simulator)</span>
+</div>
+<form name="test" method="get" onsubmit="return callashtadhyayisimulator();">
+<br />
+<table>
+<tr><td align="center" style="font-size:12px; color:red;"><a href='#' style="color:blue;" onclick="window.open('table.html','Details','width=800, height=500,scrollbars=yes');">Encoding</a></td> <td></td> <td></td><td> <a href="ashtadhyayi_simulator/aRt.html">Aṣṭādhyāyī with vṛtti </a></td></tr>
+<tr>
+<td>
+<select name="encoding" id="encoding">
+	<option value="Unicode">Unicode-Devanagari</option>
+	<option value='WX'>WX-Alphabetic</option>
+	<option value="Itrans">Itrans-5.3</option>
+	<option value="VH">Velthuis</option>
+	<option value="SLP">SLP1</option>
+	<option value="HK">Kyoto-Harvard(KH)</option>
+	</select>
+</td>
+<td><input name="praatipadika" id="rt" type="text" placeholder="Enter the प्रातिपदिकम्/Praatipadika." /></td>
+<td>
+            <select name="vibhakti" id="case">
+            <option value="praWamA">प्रथमा</option>
+            <option value="xviwIyA">द्वितीया</option>
+            <option value="wqwIyA">तृतीया</option>
+            <option value="cawurWI">चतुर्थी</option>
+            <option value="paFcamI">पञ्चमी</option>
+            <option value="RaRTI">षष्ठी</option>
+            <option value="sapwamI">सप्तमी</option>
+            </select>
+</td>
+<td>
+            <select name="linga" id="gender">
+            <option value="puM">पु</option>
+            <option value="swrI">स्त्री</option>
+            <option value="napuM">नपु</option>
+            </select>
+</td>
+<td>
+            <select name="vacana" id="number">
+            <option value="ekavacana">एकवचन</option>
+            <option value="xvivacana">द्विवचन</option>
+            <option value="bahuvacana">बहुवचन</option>
+            </select>
+</td>
+            <td>
+            <input value="submit" height="4" type="submit" id="submit_query" />
+            </td>
+
+</tr>
+</table>
+
+</form>
+<br />
+</div>
+<div id="output"><br /><div id="asht" style="margin-left:40px;margin-right:10px;"> </div></div>
+

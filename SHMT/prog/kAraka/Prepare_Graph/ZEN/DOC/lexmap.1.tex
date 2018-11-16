@@ -1,0 +1,20 @@
+\subsection{Lexical maps}
+
+We can easily generalize sharing to decorated tries. However,
+substantial savings will result only if the information at a given node
+is a function of the subtrie at that node, i.e. if such information is
+defined as a {\sl trie morphism}. This will not be generally the case,
+since this information is in general a function of the word stored at
+that point, and thus of all the accessing path to that node. The way in which
+the information is encoded is of course crucial. For instance, encoding
+morphological derivation as an operation on the suffix of a flexed form
+is likely to be amenable to sharing common suffixes in the flexed trie,
+whereas encoding it as an operation on the whole stem will prevent any 
+such sharing. 
+
+In order to facilitate the sharing of mappings which preserve an initial
+prefix of a word, we shall use the notion of {\sl differential word} above.
+
+We may now store inverse maps of lexical relations (such as morphology
+derivations) using the following structures 
+(where the type parameter $\alpha$: codes the relation).

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+source ./spec.txt
+
+perl -i -p -e "s#sclinstalldir = .*#sclinstalldir = \"$SCLINSTALLDIR\"#; s#ltprocbin = .*#ltprocbin = \"$LTPROCBIN\" ;#" ./skt_gen/Sentence/paths.ml
+
+perl -i -p -e "s#sclinstalldir = .*#sclinstalldir = \"$SCLINSTALLDIR\";#" ./SHMT/prog/kAraka/Prepare_Graph/paths.ml
+
+
+perl -i -p -e "s#SCLINSTALLDIR .*#SCLINSTALLDIR \"$SCLINSTALLDIR\"#; s#LTPROCBIN .*#LTPROCBIN \"$LTPROCBIN\"#; s#TFPATH .*#TFPATH \"$TFPATH\"#;" ./skt_gen/compounds/paths.h
+
+perl -i -p -e "s#SCLINSTALLDIR=.*#SCLINSTALLDIR=\"$SCLINSTALLDIR\";#; s#HTDOCSDIR=.*#HTDOCSDIR=\"$HTDOCSDIR\";#; s#TFPATH=.*#TFPATH=\"$TFPATH\";#; s#LTPROCBIN=.*#LTPROCBIN=\"$LTPROCBIN\";#; s#Graphvizdot=.*#Graphvizdot=\"$GraphvizDot\";#; s#HERITAGE_CGIURL=.*#HERITAGE_CGIURL=\"$HERITAGE_CGIURL\";#;" ./paths.pl
+
+perl -i -p -e "s#SCLINSTALLDIR=.*#SCLINSTALLDIR=$SCLINSTALLDIR#; s#HTDOCSDIR.*#HTDOCSDIR=$HTDOCSDIR#; s#TFPATH=.*#TFPATH=$TFPATH#; s#LTPROCBIN=.*#LTPROCBIN=$LTPROCBIN#; s#JAVAPATH=.*#JAVAPATH=$JAVAPATH#; s#CGIDIR=.*#CGIDIR=$CGIDIR#; s#APACHE_USER_GROUP=.*#APACHE_USER_GROUP=$APACHE_USER_GROUP#;" ./paths.sh

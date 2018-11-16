@@ -1,0 +1,221 @@
+#upapaxa-vibhakti
+#0,sahakAraka
+#1,upapaxaviBakwiH
+0,samUha
+1,samUha
+2,niwya_sambanXaH
+3,prawiyogI
+4,sahAyakakriyA
+
+5,vIpsA
+#6,samucciwam
+6,apekRA
+7,uxgAravAcaka
+8,svAmI
+9,karmapravacanIya
+10,afgavikAra
+
+# kaaraka vibhkati
+20,karwA
+21,karwqrahiwakarwqsamAnAXikaraNam
+22,karwqsamAnAXikaraNam
+#Note the order of karwA and kawqsamAnAXikaraNa
+# aSvaH SvewaH aswi: with these wts, cost = 14+8 = 22
+# If it were reverse, cost = 16 + 7 = 23
+
+#praXAna karma should be nearer to the verb.
+# in the worst case, if gONa karma and praXana karma both are present, praXAna karma will be near the verb (dist,1, and gONa karma away from the verb (dist = 2).
+#So total distance,2*(n-1) + 1*n = 3*n-2
+#If gONa karma,n and and praXAna karma =n-1, then the dist = 2*n + 1*(n-1) = 3*n-1
+#Hence the above order is chosen.
+23,karmasamAnAXikaraNam
+24,muKyakarma # muKya karma ; to handle dvikarmaka
+25,gONakarma # gONa karma ; to handle dvikarmaka
+26,vAkyakarma
+27,karma
+
+#karma is given priority over prayijya karwA and prayojaka karwA because the causatives are less probable than the sakarmaka usage.
+
+#This is moved here so that if a 2nd case / 5th case word is a kriyAviSeRaNa, it gets preference over the kaaraka relation.
+# To handle more than one possible kriyAviSeRaNas, we provide a special traetment in the parser.
+#Sheetal had moved kriyAviSeRaNam to 11 from 25.
+# I do not have any evidence why she did so. I am restoring its original position viz. 25. One reason being there can be more than one kriyAviSeRaNas. So if we put it in the kaaraka region, then it gets restricted to only one kriyAviSeRaNa at a time.
+#Example with >1 kriyAviSeRaNas
+# उभौ परिवारौ हर्षपूर्वकम् परस्परं वार्ताम् अकुरुताम्
+#karmasamAnAXikaraNam
+
+28,prayojakakarwA
+29,prayojyakarwA
+30,karaNam
+31,sampraxAnam
+32,apAxAnam
+33,xeSAXikaraNam
+34,kAlAXikaraNam
+35,viRayAXikaraNam
+# aXikaraNa is given less preference over the specific aXikaraNas.
+36,pUrvakAlaH
+#25,kriyAviSeRaNam
+#Moved back to 11 as Sheetal did. See explanation there
+
+# non-kaaraka vibhakti
+37,aXikaraNam
+38,kriyAviSeRaNam
+39,hewuH
+40,sambanXaH
+41,prawiReXaH
+
+#29,pUrvakAlaH
+42,samAnakAlaH
+43,samboXanasUcakam
+44,viSeRaNam
+45,aBexa
+46,wIvrawAxarSI
+47,RaRTIsambanXaH
+48,parimANa_viSeRaNam
+#31,samucciwam
+#32,samucciwam2
+#33,samucciwam3
+#34,samucciwam4
+#35,samucciwam5
+#36,samucciwam6
+#37,samucciwam7
+#38,samucciwaviSeRaNam
+#39,samucciwaprayojanam
+#40,samucciwahewu
+#41,samucciwakriyA
+#42,samuccayaxyowaka
+
+#42,anyawaraH  -- We need to add this.
+
+49,prayojanam
+#In case of prayojanam/wAxarWya, the weight function should not take into account the distance.
+#mayUrO prAsAxAya SiKare nqwyawAm
+50,anuyogI
+
+# noun/avy-verb relations
+#45,pUrvakAlaH
+#46,samAnakAlaH
+51,wAxarWyam # 27 -> 40; since wAxarWya should be at least twice greater than the sampraxAnam; 40 -> 43, since else it clashes with samucciwaprayojanam
+# 43 -> 46, since prayojanam should be given more preference over wAxarWya. 
+#mayUrO prAsAxAya SiKare nqwyawAm
+#47,niReXyaH
+#39,samApwi_sUcakam
+#40,aBAva_prawiyogikaH
+#48,samboXanasUcakam
+#49,viSeRaNam
+#50,vikAryakarma  ### NOT USED in TAGSET SHOULD BE CHANGED to KARMA
+
+#samucciwam is given more preference over viSeRaNam.
+#rAmaH kqRNaH ca vanam gacCawi.; rAmaH is not viSeRaNa of kqRNaH but samucciwa with kqRNaH
+# SeRa/viSeRaNa
+#51,RaRTIsambanXaH
+52,samboXyaH# More than one samboXya is not allowed.
+# RaRTI is given low priority, to handle cases such as gafgAyAH naxyAH, where both viSeRya and viSeRaNa have 6th case.
+
+53,samucciwa
+54,sup_samucciwa
+55,samuccayaxyowaka
+56,sup_samuccayaxyowaka
+## To add from the tagset
+#61,vAkyasamucciwam
+#anyawaraH
+62,ananwarakAlaH
+#64,maXyasWakarwA
+65,nirXAraNam
+67,uxgAravAcaka
+
+75,BAvalakRaNasapwamI
+76,lyapkarmAXikaraNam
+#89,apekRA
+#90,uxgAravAcaka
+#91,svAmI
+91,samUha
+92,avaXi
+93,sahavinArWakawvam
+94,prawiReXaH
+95,ABImuKya
+96,apavarga_sambanXa
+97,vAkyakarmaxyowaka
+98,iwWamBUwa
+99,awyanwasaMyoga_sambanXa
+
+2000,upa_apekRA
+2100,upa_aXikaraNam
+2200,upa_karma
+2300,upa_karmapravacanIya
+2400,upa_ABImuKya
+2500,upa_nirXAraNam
+2600,upa_prawisixXa
+2700,upa_prayojanam
+2800,upa_sambanXa
+2900,upa_srowa
+3000,upa_svAmI
+3200,upa_viRayAXikaraNam
+4000,apAxAnam_upa
+4100,xeSAXikaraNam_upa
+4200,karwqsamAnAXikaraNam_upa
+4300,sambanXa_upa
+4400,karwA_upa
+
+####################################
+### These are the relation names after collapsing.
+### These are the relation names for co-references.
+
+#####################################
+# noun-noun emphatic/etc (misc) relations
+#48,avaXAraNam
+
+#verb-avy relations
+#51,niReXyaH
+#52,vAkya_samucciwam
+#53,pUrvaBAviwvam
+#54,avaXiH
+
+## TOADD
+#sAmyam (brAhmaNavaw aXIwe)
+#nirXAraNa sapwamI/ RaRTI
+
+######################
+# old assignment 1st oct 2010
+#0,upapaxa_viBakwi
+#1,karwA
+#2,prayojaka_karwA
+#3,prayojya_karwA
+#4,karma
+#5,karma # gONa karma ; to handle dvikarmaka
+#6,karma # muKya karma ; to handle dvikarmaka
+##praXAna karma should be nearer to the verb.
+## in the worst case, if gONa karma and praXana karma both are present, praXAna karma will be near the verb (dist,1, and gONa karma away from the verb (dist = 2).
+##So total distance,2*5 + 1*6 = 16
+##If gONa karma,6 and and praXAna karma =5, then the dist = 2*6 + 1*5 = 17
+##Hence the above order is chosen.
+#7,karaNa
+#8,sampraxAna
+#9,apAxAna
+#10,karwA_samAnAXikaraNa
+#11,aXikaraNa
+#12,xeSa_aXikaraNa
+#13,kAla_aXikaraNa
+#14,viRaya_aXikaraNa
+#15,kriyA_viSeRaNa
+#16,karma_samAnAXikaraNa
+#17,vIpsA
+#18,viSeRaNa
+#20,wAxarWya
+#21,pUrvakAlIna
+#22,samAnakAlIna
+#23,prayojana
+#27,sambanXa
+#28,SeRa_sambanXa
+#29,kAraka_RaRTI
+#30,niReXa
+#31,samuccaya
+#32,hewu
+#33,avaXAraNa
+#34,vAkya_samuccaya
+#40,samboXana
+#41,kriyA_anvayI
+#42,BUwakAla_xarSaka
+#43,samApwi_sUcaka
+#44,upamAnam
+#45,upamAnaxyowaka

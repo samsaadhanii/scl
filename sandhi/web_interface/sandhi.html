@@ -1,0 +1,120 @@
+<script>
+$(document).ready(function(){
+  $("#description").hide();
+     
+  $("#desc-sandhi").click(function(){
+     $("#description").fadeIn(1500);
+  });
+  
+  $("#desc-hide").click(function(){
+    $("#description").fadeOut(1500);
+  });
+  
+  
+  
+});
+
+function blinker() {
+    $('#focus').fadeOut(500);
+    $('#focus').fadeIn(500);
+    $('#focus2').fadeOut(500);
+    $('#focus2').fadeIn(500);
+}
+
+setInterval(blinker, 1000);
+
+</script>
+
+<div id="description"> 
+<div class="dept-name-sandhi">
+ <table>
+      <tr>
+      <td><span class="title">&nbsp;&nbsp;&nbsp;&nbsp;सन्धिः (Sandhiḥ)</span></td>
+      <td id="description-sandhi"> <font size="5" color="yellow">&#x261E</font> <span id="desc-hide"><font size="3">सन्धिः इत्युपकरणम् उपयोक्तुं ध्यातव्याः अंशाः <span id="focus">जुगुप्सन्ताम्</span></font></span>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      </tr>
+ </table>
+</div>
+
+<ol id="test">
+<li> सन्धिनामकस्य उपकरणस्य प्रथमं संस्करणमिदं द्वयोः पदयोः सन्धिं प्रदर्शयति।</li>
+<li>एकस्मिन्नेव पदे जायमानः सन्धिः अत्र न स्वीक्रियते यथा सुध्युपास्यः इत्यत्र <font color="brown">"अनचि च (8.4.047)" </font>  इत्यादिसूत्रविहितकार्याणि पूर्वस्मिन् पदे एव भवन्ति। अतः तादृशानि सूत्राणि अस्मिन् संस्करणे त्यक्तानि।
+किञ्च यत्र समासादिज्ञानापेक्षा वर्तते यथा ऋते च तृतीया समासे एव वृद्धौ सत्यां सुखार्तः इत्येतादृशान्यपि उदाहरणानि अस्मिन् संस्करणे नोपयुक्तानि। त्यक्तसूत्राणां सूची अधः प्रदत्ता वर्तते।</li>
+<li>सुध्युपास्यः इति समासघटितप्रयोगः। परं तत्र सङ्गणकः पदद्वयं मत्त्वा <font color="brown">"इकोऽसवर्णे शाकल्यस्य ह्रस्वश्च (6.1.127)"</font> इति सूत्रस्यापि प्रवृत्तिं दर्शयति । इत्येवं कानिचन स्थालानि वर्तन्ते तानि समीकर्तुं यत्नः क्रियमाणः वर्तते।</li>
+<li>क्वचित् हरिः शेते इत्यादि उदाहरणेषु अस्माभिः सन्धिप्रदर्शनं हरिः + शेते इत्येवं रीत्या कृत्वा तत्रोपयुक्तेषु सूत्रवार्तिकादिषु प्रथमं <font color="brown"> "ससजुषो रुः (8.2.66)" </font> इति निर्दिष्टम्। तद्धि प्रक्रियानिर्वाहायैव । यतः हरिस् शेते इत्यवस्थायां प्रक्रियारम्भस्तथापि जनसामान्यजिघृक्षया हरिः शेते इत्येव निवेशः (INPUT) स्वीक्रियते। अतः तत्र नियमेषु स्खलनमिति न शङ्क्यम् ।
+<p>	एवञ्च यत्र यत्र द्वयोः पदयोः प्रथमपदस्यान्ते सकारात् प्रक्रियारम्भस्तत्र तत्र विसर्गान्तः निवेशः स्वीक्रियते। परं प्रक्रियारम्भः सकारान्तं मत्वैव प्रदर्श्यते। अतः हरिः शेते सः गच्छति इत्यादि स्थलेषु यद्यपि प्रक्रियारम्भः हरिस् शेते, सस् गच्छति इत्यादिरूपेण भवति। तथापि प्रथमे कल्पेऽस्मिन् विसर्गान्तः एव निवेशः स्वीक्रियते। अग्रिमसंस्करणे एतत् परिवर्तयामः इति विज्ञापना वर्तते। </p>
+<p>	इत्थं यावच्छक्तिः अस्माभिः निर्मितेऽस्मिन् परिणामांशः (OUTPUT) 96% तः 98% सम्यक् वर्तते। अथापि समेषां भवतां परामर्शं (FEEDBACK) निरीक्षमाणाः वयम्। भवतां परामर्शाः अग्रे एतद् इतोपि विवर्धने उपयोगाय भवेयुः।</p>
+
+</li>
+</ol>
+
+<br />
+<br />
+
+</div><!--description ends here -->
+
+
+
+<div class="input-dashboard-sandhi">
+
+<div class="dept-name-sandhi">
+ <table>
+ <tr>
+ <td>
+ <span class="title">&nbsp;&nbsp;&nbsp;&nbsp;सन्धिः (Sandhiḥ)</span>
+ </td>
+ <td id="description-sandhi">
+  <span id="desc-sandhi"><font size="3">सन्धिः इत्युपकरणम् उपयोक्तुं ध्यातव्याः अंशाः <span id="focus2">दृश्यन्ताम् </span></font></span><font size="5" color="yellow">&#x261C;</font>&nbsp;&nbsp;&nbsp;&nbsp;
+  </td>
+  </tr>
+  </table>
+</div>
+
+
+<div class="dashboard-sandhi">
+<form name="f1" method="get" onsubmit="return callsandhi();">
+<table>
+<tr>
+<td>
+      <select name="encoding"  id="encoding">
+        <!-- <option value="Unicode">Select Encoding</option> -->
+	<option value="Unicode">Unicode-Devanagari</option>
+	<option value="WX">WX-Alphabetic</option>
+	<option value="Itrans">Itrans-5.3</option>
+	<option value="VH">Velthuis</option>
+	<option value="SLP">SLP1</option>
+	<option value="KH">Kyoto-Harvard(KH)</option>
+      </select>
+</td>
+
+<td>
+    <input name="text" type="text" id="text"  placeholder="Enter the first word"/>
+</td>
+<td>
+    <input name="text1" type="text" id="text1"  placeholder="Enter the second word"/>
+</td>
+<td>
+ <input value="submit" type="submit" id="submit-sandhi" class="styled-sandhi" /> 
+
+</td>
+
+</tr>
+<tr>
+<td>
+<center><a href='#' style="color:blue;" onclick="window.open('table.html','Details','width=800, height=500,scrollbars=yes');">Encoding Table</a></center>
+</td>
+<td>
+For instance: लक्ष्मीवान् as a first word
+</td>
+<td>
+शुभलक्षणः as a second word.
+</td>
+</tr>
+
+</table>
+</form>
+</div>
+
+</div> <!-- Input dashboard ends here -->
+
+<div id="output"></div>
+

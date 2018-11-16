@@ -1,0 +1,50 @@
+    <div class="container">
+        <div style="clear:both"></div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+           <!-- <div class="panel-body"> -->
+               <table>
+               <tr> <td style='width:50%'>
+                Enter a Navya-Nyāya Expression.<br>
+                For instance: <br />
+in Devanagari: गन्धनिष्ठाधेयतानिरूपिताधिकरणता, or <br>
+in WX notation: ganXaniRTAXeyawAnirUpiwAXikaraNawA <br />
+                </td> <td style='width:50%'>
+<!-- We provide two segmenters. <br />
+A Segmenter splits a given NNE into components using the Nyāya lexicon. <br />
+<b>SCL segmenter</b> which is a part of Saṃsādhanī a platform for Sanskrit Computational Linguistics, and <br />
+<b>Heritage Segmenter</b> which is a part of Heritage Engine. -->
+</td></tr></table>
+            </div>
+        
+        </div>
+        
+        <div class="col-md-12 col-sm-12 col-xs-12 section">
+            <form method="post" action="" role="form">
+           <div class="col-md-12 col-sm-12 col-xs-12">
+				<div class="form-group form-inline span1 text-center start">
+            			<label for="Choose the output encoding:">
+<a href='#' style="color:blue;" onclick="window.open('/scl/table.html','Details','width=800, height=500,scrollbars=yes');">Encoding</a></label>
+           				<select name="encoding"  id="encoding" class="form-control">
+	            <option value="WX">WX-Alphabetic</option>
+		    <option value="Unicode">Unicode-Devanagari</option>
+        	    <option value="Itrans">Itrans-5.3</option>
+        	    <option value="VH">Velthuis</option>
+        	    <option value="SLP">SLP1</option>
+        	    <option value="KH">Kyoto-Harvard(KH)</option>
+        	    <option value="IAST">IAST(Roman-Diacritic)</option>
+        	</select>
+                </div>
+                    
+           <div class="form-group col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
+                    <textarea name="nne" required="required" class="form-control"></textarea>
+                
+                </div>
+                <div class="form-group form-inline text-center col-md-12">
+                    <input type="submit" value="SCL-segmenter" class="btn btn-danger" onclick="javascript:form.action='/cgi-bin/scl/NN/segmenter/split.cgi'">
+<!--                    <input type="submit" value="Heritage-segmenter" onclick="javascript:form.action='st/~arjun/Heritage/sktgraph.cgi?lex=MW&cache=t&st=f&us=f&cp=t&t=WX&topic=&mode=g&text='+document.getElementById('nne').value" class="btn btn-success"> -->
+                </div>
+			</div>
+            </form>
+        </div>
+     </div>

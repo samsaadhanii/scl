@@ -1,0 +1,25 @@
+start.html
+  showindex.cgi
+    index_rmn.html / index.html
+      samAsaprakAracgi js
+       samAsaprakAra.cgi
+        samAsaprakAra.out
+         samAsAnwa.out
+	  samAsAnwanocgi/samAsAnwayescgi/samAsAnwaNullcgi
+	   samAsAnwa.cgi
+            upasarjana.out
+             upasarjanayescgi/upasarjananocgi/upasarjanaNullcgi
+              upasarjana.cgi
+               aluk.out
+                 alukyescgi/aluknocgi/alukNullcgi
+                  aluk.cgi
+		   (alukkArya.out)
+		    nonalukkArya.out
+		     pUrvapaxa.out
+		      pUrvapaxayescgi/pUrvapaxaNocgi/pUrvapaxaNullcgi
+			pUrvapaxa.cgi
+			 uwwarapaxa.out
+			  uwwarapaxayescgi/uwwarapaxaNocgi/uwwarapaxaNullcgi
+			   uwwarapaxa.cgi
+			    paxakArya.out
+			    (samastapada)

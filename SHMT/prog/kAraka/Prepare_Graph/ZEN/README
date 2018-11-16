@@ -1,0 +1,52 @@
+(**************************************************************************)
+(*                                                                        *)
+(*                 The Zen Computational Linguistics Toolkit              *)
+(*                                                                        *)
+(*                              Gérard Huet                               *)
+(*                                                                        *)
+(* ©2012 Institut National de Recherche en Informatique et en Automatique *)
+(**************************************************************************)
+
+The Zen Computational Linguistics Toolkit (Version 3.1) is a library of
+Objective Caml modules and module interfaces of use for computational
+linguistics applications - in the aspects of lexicon representation, 
+morphology processing, segmentation and tagging.
+
+Its license is described under the file LICENSE. These programs are 
+distributed without warranty, use them at your own risk. 
+
+This software runs under Objective Caml, version 3.12 or more recent. 
+The Objective Caml system is available from http://caml.inria.fr/ocaml/
+In order to install, under a Unix/Linux system or MacOSX, do "make all" 
+in the main directory which will compile all modules and produce a few 
+executable applications.
+
+The documentation is in directory DOC, under Postscript format as zen.ps, 
+under pdf format as zen.pdf, and under a Web page format as zen.html. 
+
+This library has been used for the implementation of the Sanskrit Library,
+available at http://sanskrit.inria.fr/
+
+Gérard Huet
+30-07-2012
+
+Description of the various components of the Zen library.
+
+ML sources.
+
+Module interfaces: share.mli sharemod.mli minimap.mli aum0.mli aumt.mli
+
+Modules: pidgin.ml gen.ml list2.ml ascii.ml latin.ml list_iso.ml word.ml 
+lexer.ml transducer.ml zipper.ml bintree.ml share.ml sharemod.ml unshare.ml 
+trie.ml mini.ml dagify.ml deco.ml lexmap.ml minimap.ml tertree.ml lexicon.ml 
+minitertree.ml terdagify.ml make_lex.ml timeshare.ml test.ml unglue.ml 
+unglue_test.ml react0.ml reactt.ml regular.ml make_dispatch.ml
+make_english_lexicon.ml make_french_lexicon.ml example_dispatch.ml 
+sanskrit_dispatch.ml example_engine.ml
+
+Aut format examples: example.aut sanskrit.aut
+
+Scripts and info files: Makefile README COPYRIGHT LICENSE .ocamlinit .depend
+
+Documentation: zen.ps zen.pdf zen.html
+

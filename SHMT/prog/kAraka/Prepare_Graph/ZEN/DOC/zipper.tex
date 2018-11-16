@@ -1,0 +1,104 @@
+\section{Zippers}
+
+Zippers encode the context in which some substructure is embedded.
+They are used to implement applicatively destructive operations in
+mutable data structures. They are also used to navigate in complex data
+structures, such as state spaces of non-deterministic search processes,
+while keeping operations local and preserving sharing.
+
+\subsection{Top-down structures vs bottom-up structures}
+
+We understand well top-down structures. They are the representations of
+initial algebra values. For instance, the structure $bool$ has two
+constant constructors, the booleans $True$ and $False$. 
+The polymorphic structure
+$list~\alpha$ admits two constructors, the empty list $[]$ and the
+list constructor consing a value $x:\alpha$ to a homogeneous
+list $l:list~\alpha$ to form $[a::l]:list~\alpha$. 
+
+Bottom-up structures are useful for creating, editing, traversing and 
+changing top-down structures in a local but applicative manner.
+They are sometimes called computation contexts, or recursion structures.
+We shall call them {\sl zippers}, following \cite{zipper}. 
+% "The Zipper", G. Huet, J. Functional Programming 7 (5): 549-554, 9-97 
+
+Top-down structures are the finite elements inhabiting inductively
+defined types. Bottom-up structures are also finite, but they permit 
+the progressive definition of (potentially infinite) values of co-inductive 
+types. They permit incremental navigation and modification of very general
+data types values. We shall also see that they model linear structural
+functions, in the sense of linear logic.
+
+Finally, bottom-up computing is the right way to build shared structures
+in an applicative fashion, opening the optimisation path from trees to dags.
+Binding algebras ($\lambda$-calculus expressions for inductive values
+and B\"ohm trees for the co-inductive ones) may be defined by either 
+de Bruijn indices or higher-order abstract syntax, and general graph structures
+may be represented by some spanning tree decorated with virtual adresses,
+so we see no reason to keep explicit references and pointer objects, with
+all the catastrophies they are liable for, and we shall stick to purely
+applicative programming.
+
+\subsection{Lists and stacks}
+
+Lists are first-in first-out sequences (top-down) whereas stacks
+are last-in first-out sequences (bottom-up). They are not clearly
+distinguished in usual programming, because the underlying data structure
+is the same : the list $[x_1;~x_2; ...~x_n]$ may be reversed into
+the stack $[x_n~...; x_2; x_1]$ which is of the same {\sl type} list. So
+we cannot expect to capture their difference with the type discipline of ML.
+At best by declaring:\\
+$type~stack~\alpha = list~\alpha;$\\
+we may use type annotations to document whether a given list is used by
+a function in the r\^ole of a list or of a stack. But such {\sl intentions}
+are not enforced by ML's type system, which just uses freely the type
+declaration above as an equivalence. So we have to check
+these intentions carefully, if we want our values to come in the right
+order. But we certainly wish to distinguish lists and stacks, since stacks
+are built and analysed in unit time, whereas adding a new element to a list
+is proportional to the length of the list. 
+
+A typical exemple of stack use is $List2.unstack$ above. 
+In $(unstack~l~s)$, $s$ is an accumulator stack, where values are listed
+in the opposite order as they are in list $l$. Indeed, we may define
+the reverse operation on lists as:\\
+\ocwkw{value}~$rev~l = unstack~l~[];$\\
+
+In the standard Ocaml's library, $unstack$ is called $rev\_append$.
+It is efficient, since it is {\sl tail recursive}: no intermediate values 
+of computation need to be kept on the recursion stack, and the recursion
+is executed as a mere jump. It is much more efficient, if some list $l_1$
+is kept in its reversed stack form $s_1$, to obtain the result of 
+appending $l_1$ to $l_2$ by calling $rev\_append~s_1~l_2$ 
+than to call $append~l_1~l_2$,
+which amounts to first reversing $l_1$ into $s_1$, 
+and then doing the same computation.
+Similarly, the $List$ library defines a function $rev\_map$ which is
+more efficient than $map$, if one keeps in mind that its result 
+is the stack order.
+But no real discipline of these library functions is really enforced.
+
+Here we want to make this distinction precise, favor local operations, and
+delay as much as possible any reversal. For instance, if some list $l_1$
+is kept in its reversed stack form $s_1$, and we wish to append list 
+$l_2$ to it,
+the best is to just wait and keep the pair $(s_1,l_2)$ as the state
+of computation where we have $l_2$ {\sl in the context} $s_1$. 
+In this computation
+state, we may finish the construction of the result $l$ of appending 
+$l_1$ to $l_2$ by ``zipping up'' $l_1$ with $unstack~s_1~l_2$, 
+or we may choose rather to ``zip down'' $l_2$ with $unstack~l_2~s_1$ 
+to get the stack context value $rev~l$. But we may also consider that
+the computation state $(s_1,l_2)$ represents $l$ locally accessed
+as its prefix $l_1$ stacked in context value $s_1$ followed
+by its suffix $l_2$. And it is very easy to insert as this point a new
+element $x$, either stacked upwards in state $([x::s_1],l_2)$, 
+or consed downwards in state $(s_1,[x::l_2])$. 
+
+Once this intentional programming methodology of keeping focused structures
+as pairs $(context,sub\-structure)$ is clear, it is very easy to understand the
+generalisation to zippers, which are to general tree structures what stacks are
+to lists, i.e. upside-down access representations of (unary) contexts.
+
+\subsection{Contexts as zippers}
+

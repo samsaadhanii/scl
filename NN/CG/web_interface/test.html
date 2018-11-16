@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>NNE </title>
+
+<meta http-equiv="CONTENT-TYPE" content="text/html; charset=utf-8" />
+<script language="Javascript" type="text/javascript">
+
+function check(){
+     if(document.test.nne.value == "") {
+        alert("Please type an expression");
+        return false;
+     }
+}
+</script>
+
+</head>
+
+<center>
+<font color="red"><h1 style ="text-align:center;"><p style=font-size:25px;width:1000px"><em>Graphical Renderer of Navya-Nyaya Expressions</em></p></h1></font>
+
+<p><b>Department of Sanskrit Studies, University of Hyderabad.</b></p>
+<textarea name ="nne" cols="80" rows = "1" value=""></textarea>
+<select name="type" class="form-control" id="typeSelect">
+     <option value="R">Conceptual Graph</option>
+     <option value="C">Compressed Conceptual Graph</option>
+</select>
+<br>
+
+<form name="test" method="post" action="/cgi-bin/scl/NN/CG/generate_open.cgi">
+
+<input value="submit" type="submit" alert= "Please give an input.">
+<font size="3px"><p><b>Some instructions:</b> </font> <br>
+<textarea rows="8" cols="100" readonly autofocus>
+Enter tagged input text in Unicode-Devanagari.<br />
+For instance:&lt;&lt;&lt;&lt;समवायसम्बन्ध-अवच्छिन्न&gt;-&lt;&lt;गन्धत्व-अवच्छिन्न&gt;-&lt;&lt;गन्ध-निष्ठ&gt;-आधेयता&gt;&gt;&gt;-निरूपित&gt;-अधिकरणता&gt;^वती <br/>
+Please give input in शाब्दबोध form  with compounds properly marked by '&lt;' and '&gt;'. For example - We can say घटाभावः as घटप्रतियोगिकाभावः and also as घटनिष्ठप्रतियोगितानिरूपकाभावः and more clearly घटनिष्ठप्रतियोगितानिरूपितानुयोगितावदभावः.  The latter two forms are accepted.
+&rarr; If the NNE ends in any of the taddhita pratyayas such as वत्/वती/वत्यः/वान्/त्वम्/शालि/शाली add ^(Shift+6) before those pratyayas.</textarea>
+</font></font></center><font color="black"><font style="background-color:white;">
+</center>
+</form>
+</div>
+</body>
+</html>

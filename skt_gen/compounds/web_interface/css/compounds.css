@@ -1,0 +1,56 @@
+.head_div{background:none repeat scroll 0px 0px #5678AA; color:#fff;}
+h3{margin-top:1px !important; font-size:20px;}
+.head_div p{font-size:16px !important; }
+.text div{padding:5px;}
+select{padding:3px !important;}
+
+#output1,#output2,#output3, #output4, #output5, #output7, #output8, #output6{
+  font-size:15px; border:1px solid #333;min-height:50px;padding:10px; margin-top:5px;	
+}
+
+.start>label{ 
+	font:16px solid #333 !important;
+	font-size:16px;
+	padding:6px;
+}
+.menu{
+	padding-top:1%;
+}
+.menu ul li{
+	padding:3px !important;
+	display: inline !important;
+}
+.menu li a {
+	color:#fff !important;
+	text-decoration: none;
+	font-size: 16px !important;
+}
+.menu ul{
+	margin-right:15%;
+	float:right !important;
+}
+/* 
+	Important CSS. Don't modify it.  am overriding bootstrap core class here. 
+*/
+.navbar{
+	min-height:81px !important; 
+}
+.navbar-inverse{
+	background:#5678AA; color:#fff !important;
+}
+.navbar-header{
+	float:none !important;
+}
+.result td{
+padding:3px !important;
+}
+.start select {
+	min-width:100px !important;
+	padding:6px;
+}
+.contact-info p{
+font-size: 16px !important;
+}
+.contact-info p{
+padding:3px !important;
+}

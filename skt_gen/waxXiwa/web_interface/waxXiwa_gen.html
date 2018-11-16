@@ -1,0 +1,241 @@
+<!--
+#  Copyright (C) 2002-2018 Amba Kulkarni (ambapradeep@gmail.com)
+#
+#  This program is free software; you can redistribute it and/or
+#  modify it under the terms of the GNU General Public License
+#  as published by the Free Software Foundation; either
+#  version 2 of the License, or (at your option) any later
+#  version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+-->
+
+
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<title> waxXiwa form generator </title>
+<script type="text/javascript" src="../../google.js"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+ <style type="text/css">
+body{
+background:#616D7E;
+}
+
+.navigation {
+  height:5%; width:100%; 
+  color:white;
+  border-color:maroon; 
+  border-style:none; 
+  border-width:1px; 
+  float:left; 
+
+}
+
+.content {
+  height:50%; 
+  width:100%; 
+  border-color:maroon; 
+  border-style:none; 
+  border-width:1px; 
+  float:right;
+}
+
+#container {
+  height:100%; 
+  width:100%; 
+  border-color:maroon; 
+  border-style:none; 
+  border-width:none; 
+  margin:-1px auto 0;
+  background-color:white;
+  position:relative;
+
+  float:left;
+}
+
+
+a:link {
+  color:; 
+  font-weight:bold;
+}
+input[type="text"],select{ border:3px solid #e5e5e5; height:35px;}
+input[type="submit"]{ border:3px solid #D14638;color:#fff;background:#D14638; height:35px;font-size:18px;}
+
+</style>
+<script type="text/javascript">
+       function validation(){
+	var count=0;
+var data=document.getElementById("rt").value;
+               if(document.getElementById("rt").value==""){
+                       alert("Please enter text in textbox ");
+                       return false;
+               }
+		else {//<![CDATA[
+			for(var i=0;i<data.length;i++){
+				if(data[i]==" "){
+					count=1;
+				}
+			}//]]>
+			if(count==1){
+				alert("Dont use Multiple words,Use single word");
+				return false;
+			}
+		}
+        if(document.getElementById("rt").value!=""){
+     		var inputlang=document.getElementById("encoding").value;
+	
+	
+	var reguni=/[अआइईउऊऋॠऌएऐओऔअंअःकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह ्ािीुूृॄॢेैोौंः]/;
+	var reg=/[aAiIuUqQlLeEoOMHzkKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRsh]/;
+	var regitrans=/[aiuURiLIeoMH.Nkgh~NcChj~nThDtdpbmyrlvwGYsSA^]/;
+	var regslp=/[aAiIuUfFlxeEoOMHkKgGNcCqQjJwWQRtTdDnpPbBmyrlvSzsh]/;
+	var regvel=/[aiurleomhkgncjtdpbyszv \~\"\?\-\_\.\,\!]/;
+	var regrom=/[aÄiÄ«uÅ«á¹›?leoá¹ƒá¸¥khgá¹…cjÃ±á¹­á¸á¹‡tdnpbmyrlvÅ›á¹£s]/;
+	var regkh=/[aAiIuUlReaoMHkghGcjJTDNtdnpbmyrlvzSs]/;
+		
+		if(inputlang=="Unicode"){//<![CDATA[
+			for(var i=0;i<data.length;i++){
+			if(reguni.test(data[i])){
+				
+			}
+			else{
+				alert("Please check encoding notation and input text notation");
+				return false;
+			}
+			}//]]>
+		}
+		else if(inputlang=="Itrans"){//<![CDATA[
+			for(var i=0;i<data.length;i++){
+				if(regitrans.test(data[i])){
+				}
+				else {
+					alert("Please check encoding notation and input text notation");
+					return false;
+				}
+			}//]]>
+			
+		}
+		else if(inputlang=="SLP"){//<![CDATA[
+			for(var i=0;i<data.length;i++){
+                                if(regslp.test(data[i])){
+                                }
+                                else {
+                                	alert("Please check encoding notation and input text notation");
+                                        return false;
+                                }
+                        }//]]>
+      		}
+
+		else if(inputlang=="roman"){//<![CDATA[
+                        for(var i=0;i<data.length;i++){
+                                if(regrom.test(data[i])){
+                                }
+                                else {	
+                                	alert("Please check encoding notation and input text notation");
+                                        return false;
+                                }
+                        }//]]>
+      
+                }		
+
+		else if(inputlang=="KH"){//<![CDATA[
+                        for(var i=0;i<data.length;i++){
+                                if(regkh.test(data[i])){
+                                }
+                                else {
+                                	alert("Please check encoding notation and input text notation");
+                                        return false;
+                                }
+                        }//]]>
+      
+                }
+
+		else if(inputlang=="VH"){//<![CDATA[
+                        for(var i=0;i<data.length;i++){
+                                if(regvel.test(data[i])){
+                                }
+                                else {
+                                	alert("Please check encoding notation and input text notation");
+                                        return false;
+                                }
+                        }//]]>
+      
+                }
+
+		else if(inputlang=="WX"){//<![CDATA[
+                        for(var i=0;i<data.length;i++){
+                                if(reg.test(data[i])){
+                                }
+                                else {
+                                	alert("Please check encoding notation and input text notation");
+                                        return false;
+                                }
+                        }//]]>
+                       
+                }
+     }
+       
+       }
+</script>
+</head>
+<body>
+<div id="container">
+
+<center><font color="#550000" size="5"><b>तद्धितरूपनिष्पादिका</b> (Taddhita-Generator)</font> </center>
+<div class="navigation">
+<form name="test" method="post" action="skt_gen/waxXiwa/waxXiwa_gen.cgi" target="showMyopt1" onsubmit="return validation()">
+<table border="0" align="center" cellspacing="3" cellpadding="3">
+<tr><td>
+<font color="red"><a href='#' style="color:blue;" onclick="window.open('table.html','Details','width=800, height=500,scrollbars=yes');">Input Encoding:</a></td><td>
+            <select name="encoding" style="width: 200px" id="encoding">
+            <option value="Unicode">Unicode-Devanagari</option>
+            <option value="WX">WX-alphabetic</option>
+            <option value="Itrans">Itrans-5.3</option>
+            <option value="VH">Vethuis</option>
+            <option value="SLP">SLP1</option>
+            <option value="KH">Kyoto-Harvard(KH)</option>
+            </select> 
+            </font> 
+</td>
+<td>
+            <font color="red">
+प्रातिपदिकम् : 
+</font> </td><td>
+<input type="text" name="rt"  id="rt" />
+</td>
+
+<td align="center" colspan="2">
+<input type="submit" value="रूपाणि दर्शयतु"   style="width: 150px"/>
+</td>
+</tr>
+</table>
+</form>
+</div>
+
+<div class="content">
+<iframe name="showMyopt1" frameborder="0" width="100%" height="500"></iframe>
+</div>
+</div>
+<!-- <img src="http://scl.samsaadhanii.in/cgi-bin/Count.cgi?ft=0&df=sample.dat" alt="Count"> -->
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript" src="/scl/statcounter_dummy.js"></script>
+<noscript><div class="statcounter"><a title="web analytics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/8421849/0/34917efe/0/"
+alt="web analytics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+</body>
+</html>

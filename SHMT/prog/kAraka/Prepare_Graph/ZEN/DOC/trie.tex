@@ -1,0 +1,21 @@
+\section{Trie Structures for Lexicon Indexing}
+
+Tries are tree structures that store finite sets of strings sharing
+initial prefixes. 
+
+\subsection{Tries as Lexical Trees}
+
+Tries (also called {\sl lexical trees})
+may be implemented in various ways. A node in a trie represents a
+string, which may or may not belong to the set of strings encoded in the
+trie, together
+with the set of tries of all suffixes of strings in the set having this 
+string as a prefix. The forest of sibling tries at a given level 
+may be stored as an array, or as a list if we assume a sparse representation. 
+It could also use any of the more efficient representations of finite sets,
+such as search trees \cite{bentley}.
+Here we shall assume the simple sparse representation with 
+lists (which is actually the original presentation of tries
+by Ren\'e de la Briantais (1959)), 
+yielding the following inductive type structure.
+

@@ -1,0 +1,109 @@
+body{
+ font-family: Helvetica; 
+ /*background-color:#FFFAFA;*/
+ background-color:#FFFED1;
+}
+
+
+#container{
+    width:1150px;
+    margin:auto;
+    position:relative;
+    border:5px none #FFFFFF;
+    margin-top:10px;
+    background-color:#FFFED1;
+}
+
+#project-name{
+    background-color:#FFFED1;
+    box-shadow: 1px 1px 4px gray;
+    border-radius:3px;    
+}
+
+#project-name img{
+    width:380px;
+    height:60px;
+    border: 1px none peru;
+    margin-top:10px;
+    
+}
+
+#selection-area{
+    background-color:#F5F9F9;
+    box-shadow: 1px 1px 4px gray;
+    border-radius:3px;    
+    vertical-align:top;
+    margin-top:10px;
+}
+
+#input-area{
+    width:100%;
+    background-color:#FFFED1;
+    box-shadow: 1px 1px 4px gray;
+    border-radius:3px;    
+    vertical-align:top;
+    margin-top:10px;
+}
+
+#textbox-mt{
+ width:1100px;
+ height:100px;
+ border:1px solid peru;
+ box-shadow: 1px 1px 4px gray;
+ border-radius:3px;
+ #background-color:#FFFFFF;
+ background-color:#FFFED1;
+ margin-left:auto;
+ margin-right:auto;
+}
+
+#input-dashboard select{ border-style:solid;border-width:1px;border-color:#C0C0C0;font-size:14px;width:200px;height:40px; box-shadow: 1px 1px 6px gray;}
+#input-dashboard td{
+  padding:8px;
+}
+
+#line{
+  width:100%;
+  height:20px;
+  background-color:#489CDF;
+  box-shadow: 1px 1px 4px gray;
+  border-radius:3px;    
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+
+input#translatebutton{
+    cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+    padding:5px 25px; /*add some padding to the inside of the button*/
+    background:#3e9cbf; /*the colour of the button*/
+    border:1px solid #33842a; /*required or the default border for the browser will appear*/
+    /*give the button curved corners, alter the size as required*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    /*give the button a drop shadow*/
+    -webkit-box-shadow: 0 0 4px rgba(0,0,0, .75);
+    -moz-box-shadow: 0 0 4px rgba(0,0,0, .75);
+    box-shadow: 0 0 4px rgba(0,0,0, .75);
+    /*style the text*/
+    color:#f3f3f3;
+    font-size:1.1em;
+    }
+
+input#translatebutton:hover, input#translatebutton:focus{
+    background-color :#399630; /*make the background a little darker*/
+    /*reduce the drop shadow size to give a pushed button effect*/
+    -webkit-box-shadow: 0 0 1px rgba(0,0,0, .75);
+    -moz-box-shadow: 0 0 1px rgba(0,0,0, .75);
+    box-shadow: 0 0 1px rgba(0,0,0, .75);
+    }
+
+
+  #copy{
+   width:100%; 
+  }
+  #copy table{
+   width:80%; 
+  }
+  

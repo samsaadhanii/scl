@@ -1,0 +1,52 @@
+\contentsline {part}{I\hspace {1em}Dictionaries}{3}
+\contentsline {section}{\numberline {1}Pidgin ML}{4}
+\contentsline {section}{\numberline {2}Basic Utilities}{5}
+\contentsline {subsection}{\numberline {2.1}Miscellaneous primitives}{6}
+\contentsline {subsection}{\numberline {2.2}List processing}{6}
+\contentsline {subsection}{\numberline {2.3}Words}{10}
+\contentsline {section}{\numberline {3}Zippers}{12}
+\contentsline {subsection}{\numberline {3.1}Top-down structures vs bottom-up structures}{12}
+\contentsline {subsection}{\numberline {3.2}Lists and stacks}{13}
+\contentsline {subsection}{\numberline {3.3}Contexts as zippers}{14}
+\contentsline {subsection}{\numberline {3.4}Structured edition on focused trees}{16}
+\contentsline {subsection}{\numberline {3.5}Zipper operations}{17}
+\contentsline {subsection}{\numberline {3.6}Zippers as linear maps}{18}
+\contentsline {subsection}{\numberline {3.7}Zippers for binary trees}{19}
+\contentsline {section}{\numberline {4}Trie Structures for Lexicon Indexing}{21}
+\contentsline {subsection}{\numberline {4.1}Tries as Lexical Trees}{22}
+\contentsline {subsection}{\numberline {4.2}Ascii encoding}{25}
+\contentsline {subsection}{\numberline {4.3}Implementing a lexicon as a trie}{26}
+\contentsline {subsection}{\numberline {4.4}Building a trie lexicon from a byte stream}{26}
+\contentsline {section}{\numberline {5}Sharing}{27}
+\contentsline {subsection}{\numberline {5.1}The Share functor}{28}
+\contentsline {subsection}{\numberline {5.2}Compressing tries}{29}
+\contentsline {subsection}{\numberline {5.3}Dagified lexicons}{30}
+\contentsline {subsection}{\numberline {5.4}Some statistics}{31}
+\contentsline {subsection}{\numberline {5.5}ISO-LATIN and French}{32}
+\contentsline {subsection}{\numberline {5.6}Statistics for French}{37}
+\contentsline {subsection}{\numberline {5.7}Lexicon repositories using tries and decos}{37}
+\contentsline {section}{\numberline {6}Variation: Ternary trees}{38}
+\contentsline {section}{\numberline {7}Decorated Tries for Inflected Forms Storage}{42}
+\contentsline {subsection}{\numberline {7.1}Decorated Tries}{42}
+\contentsline {subsection}{\numberline {7.2}Lexical maps}{46}
+\contentsline {subsection}{\numberline {7.3}Minimizing lexical maps}{49}
+\contentsline {section}{\numberline {8}Finite State Machines as Lexicon Morphisms}{50}
+\contentsline {subsection}{\numberline {8.1}Finite-state lore}{50}
+\contentsline {subsection}{\numberline {8.2}Unglueing}{51}
+\contentsline {part}{II\hspace {1em}Reactive Transducers}{58}
+\contentsline {section}{\numberline {9}Introduction}{58}
+\contentsline {section}{\numberline {10}A simplistic modular Automaton recognizer}{58}
+\contentsline {subsection}{\numberline {10.1}Simplistic aums}{59}
+\contentsline {subsection}{\numberline {10.2}From automata to reactive processes}{59}
+\contentsline {subsection}{\numberline {10.3}Dispatching}{59}
+\contentsline {subsection}{\numberline {10.4}Scheduling and React}{60}
+\contentsline {section}{\numberline {11}Modular aum transducers}{62}
+\contentsline {section}{\numberline {12}Macro-Generation of the {\it Dispatch} module}{68}
+\contentsline {subsection}{\numberline {12.1}Introduction}{68}
+\contentsline {subsection}{\numberline {12.2}Module Berry\kern .08em\vbox {\hrule width.35em height.6pt}\kern .08emSethi}{68}
+\contentsline {subsection}{\numberline {12.3}Module Regexp\kern .08em\vbox {\hrule width.35em height.6pt}\kern .08emsystem}{75}
+\contentsline {subsection}{\numberline {12.4}The concrete syntax for modular aums}{77}
+\contentsline {subsection}{\numberline {12.5}Example: Sanskrit morphology}{79}
+\contentsline {subsection}{\numberline {12.6}Module Generate\kern .08em\vbox {\hrule width.35em height.6pt}\kern .08emast}{80}
+\contentsline {subsection}{\numberline {12.7}Generating the plug-in module}{84}
+\contentsline {section}{\numberline {13}Producing the engine}{86}

@@ -1,0 +1,124 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-image:url(images/bg.png);
+}
+
+//=====================main_site_css====================
+.style1 {
+	font-family: Vinod;
+	font-size: 24px;
+	color: #660000;
+	text-decoration:none;
+}
+.style10 {font-size: 20px; font-family: Vinod; color: #336600; font-weight: bold; text-decoration:none; text-align:justify; }
+.style12 {font-size: 20px}
+.style13 {color: #336600; font-weight: bold; font-family: Vinod; text-align:justify; font-size:20px;}
+.style15 {color: #000099; font-weight: bold; font-family: Vinod; text-decoration:none;}
+.style16 {font-family: Vinod; text-decoration:none;}
+.style17 {font-size: 28px; font-family: Vinod; color: #336600; font-weight: bold; text-decoration: none; }
+=======================================
+.red10 {font-size: 20px; font-family: Vinod; color: #990000; font-weight: bold; text-decoration:none; text-align:justify; }
+.menu_text{
+font:"Kruti Dev 010", Kartika;
+font-style:normal;
+font-weight:bold;
+color: #666600;
+font-size:28px;
+	
+}
+.contact{
+font:"Kruti Dev 010", Kartika;
+font-style:normal;
+font-weight:bold;
+color: #666600;
+text-align:justify;
+font-size:15px;
+}
+.address{
+font:Verdana;
+font-style:normal;
+font-weight:bold;
+color: #000000;
+font-size:23px;
+}
+.footer_text{
+font:"Kruti Dev 010", Kartika;
+font-style:normal;
+font-weight:bold;
+color:#993300;
+font-size:20px;
+}
+.copyright{
+font:Arial;
+font-style:normal;
+font-weight:bold;
+color:#993300;
+font-size:11px;
+}
+a:link {
+	color:#4e4631;
+}
+a:visited {
+	color:#4e4631;
+	
+	}
+a:hover {
+	text-decoration: none;
+	color: #993333;
+	text-decoration: none;
+}
+a:active {
+	color:#4e4631;
+}
+.style28 {font-size: 20px; text-decoration: none; font-family: Vinod; text-align:justify; }
+.style50 {	color: #0000FF;
+	font-size: 22px;
+	font-weight: bold;
+	text-decoration:none;
+	font-family: Vinod;
+}
+.style11 {font-size: 22px; font-family: Vinod; color: #000066; text-decoration:none; }
+.style26 {font-size: 22px; color: #993300; font-family: Vinod; }
+.style20 {	font-family: Vinod;
+	font-size: 24px;
+}
+.style22 {color: #FF9900; text-decoration:none;}
+.style51 {	color: #993300;
+	font-style: italic;
+	font-weight: bold;
+}
+.style52 {	font-size: 24px;
+	text-decoration: none;
+	font-family: Vinod;
+	font-weight: bold;
+}
+.style53 {font-size: 20px; text-decoration:none;}
+.style31 {color: #000000}
+.style54 {	color: #993300;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+}
+.style35 {font-family: "Kruti Dev 010"}
+.style37 {font-family: Vinod; font-size: 22px; color: #660000; text-decoration: none; font-weight: bold; text-decoration:blink; text-decoration:underline; }
+.style46 {font-size: 18px}
+.style47 {font-family: Vinod}
+.style49 {color: #660000; text-decoration: none; font-weight: bold; font-size: 18px;}
+.style1 {	font-family: Vinod;
+	font-size: 24px;
+	color: #660000;
+	text-decoration:none;
+}
+.style38 {	font-size: 26px;
+	font-weight: bold;
+	font-style: italic;
+}
+.style41 {font-family: Arial, Helvetica, sans-serif; font-size: 13px; }
+.contact_us{
+	font:Verdana;
+	font-size:14px;
+	color: #000000;
+	 
+	}

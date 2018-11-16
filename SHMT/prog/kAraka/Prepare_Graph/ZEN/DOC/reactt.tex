@@ -1,0 +1,12 @@
+Note that in this model there is no acceptance boolean. Their role is played by the existence
+in the current choices of an {\sl External} transition.
+
+The acceptance condition for the full language is that, when the input string has been 
+completely read, we are in a terminal phase, and the final {\sl External} transition has
+a {\sl v} component which is recognized as {\sl final} - here we shall adopt the convention
+that {\sl v} must be empty. Otherwise, when the input string is not empty, it must
+contain {\sl v} as a prefix. 
+
+The next module will present the corresponding reactive engine,
+which will be used to realize possibly non-deterministic transductions.
+

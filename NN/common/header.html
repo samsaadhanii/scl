@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+<title>न्यायचित्रदीपिका</title>
+<link type="text/css" rel="stylesheet" href="../css_files/bootstrap.min.css">
+<link type="text/css" rel="stylesheet" href="../css_files/bootstrap-theme.min.css">
+<link type="text/css" rel="stylesheet" href="../../css_files/menu.css">
+<link type="text/css" rel="stylesheet" href="../../css_files/samsaadhanii.css">
+<script type="text/javascript" src="../js_files/jquery.min.js"></script>
+<script type="text/javascript" src="../js_files/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js_files/jquery.autosize.js"></script>
+<script>
+$(document).ready(function(){
+	$("form").submit(function(){
+		 if($("#nne").val() ==""){
+			$("#nne").focus();
+			return false;
+		}
+		else{
+			return	check();
+		}
+	});
+    $("#expertBtn").click(function(){
+       var decide = $("#expertSelect").val();               
+        
+        window.location = decide == "Yes" ? "expert.html" : "non-expert.html" ;
+    });
+    
+});
+</script>
+<style>
+  .btn-group>.btn-group {
+    padding: 5px;
+}
+.head_div{background:none repeat scroll 0px 0px #5678AA; color:#fff;}
+h3{margin-top:3px !important; font-size:30px;}
+.head_div p{font-size:16px !important; }
+.text div{padding:5px;}
+input[type="submit"]{margin-top:2px; width:160px;}
+/*select{margin-top:1px; width:900px !important; padding:3px !important;}*/
+.listdiv{margin-top:1px;}
+    .link{ color:#fff !important;} .link:hover{ text-decoration: none; color:brown; }
+    .intro-body{display: table-cell;vertical-align: middle;}
+</style>
+</head>
+<body>
+<div class="container-full">
+
+<header class="head_div col-md-12">
+    <div class="col-md-6 text-right"><h2><a class="link" href="NN/segmenter/index.html"><font color="white">न्यायचित्रदीपिका </font></a></h2>
+    <p>A tool to analyse Navya-Nyāya Expressions</p>
+        </div>
+<div class="col-md-6 text-left"><h2><a class="link" href="index.html"><font color="white">संसाधनी-Saṃsādhanī</font></a></h2>
+    <p>Department of Sanskrit Studies, University of Hyderabad.</p>
+    </div>
+
+</header>

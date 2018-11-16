@@ -1,0 +1,13 @@
+dict{ display:block; margin:5% 10% 5% 10%; color: #333; text-align:justify;}
+lexhead{margin-top:10px; display:block;color:olive; padding:5px;}
+cat{margin-top:5px; display:;color:red;padding:5px;}
+gen{margin-top:5px; display:;color:blue;padding:5px;}
+etymology{margin-top:5px; display:;color:green;padding:5px;}
+sense{margin-top:5px; display:;color:#454568;padding:5px;}
+seg{margin-top:5px; display:;color:#545465;padding:5px;}
+segmenthd{margin-top:5px; display:block;color:#800000;padding:5px;}
+subsegmenthd{margin-top:5px;display:block;color:violet;padding;5px;}
+compound{margin-top:5px;display:block;color:#7E2217;padding;5px;}
+ref{margin-top:5px;display:;color:red;padding;5px;}
+root{margin-top:5px;display:;color:blue;padding;5px;}
+head{display:block;}

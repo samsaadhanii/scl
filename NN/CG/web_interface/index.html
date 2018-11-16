@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>NNE </title>
+<script type="text/javascript" src="../../css_files/menu.css"></script>
+<script type="text/javascript" src="../../js_files/jquery.min.js"></script>
+<script type="text/javascript" src="../../js_files/jquery.autosize.js"></script>
+<script type="text/javascript" src="validation.js"></script>
+<script>
+$(document).ready(function(){
+	$("textarea").autosize();
+	$("form").submit(function(){
+		if($("#encoding").val() == ""){
+			$("#encoding").focus();
+			return false;
+		}else if($("#text").val() ==""){
+			$("#text").focus();
+			return false;
+		}
+		else{
+			return	check();
+		}
+	});
+});
+</script>
+<style>
+body,html{margin:0; padding:0; border:none;}
+.header{position:relative;width:100%;margin:auto;background:#5678AA; color:#fff; height:90px;}
+.heading{position:relative;width:770px;margin:auto;padding:2px;}
+.heading span{font-size:1.8em;font-family:verdana;font-style:italic;}
+div p{font-weight:bold;}
+.formdiv{width:1000px;position:relative;margin-left:auto; margin-right:auto;margin-top:50px;overflow:scroll;}
+td{padding:6px;text-align:center;} 
+select:focus, textarea:focus { box-shadow:0 0 3px #999;}
+</style>
+</head>
+<body>
+<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+<script language="Javascript" type="text/javascript">
+
+function check(){
+     if(document.test.nne.value == "") {
+        alert("Please Select an expression");
+        return false;
+     }
+}
+</script>
+</head>
+<body style="background-color:skyblue;">
+
+<div class="header">
+<div class="heading"><span>A Graphical Renderer of Navya-Nyaya Expressions</span></div>
+<center><div><p>Department of Sanskrit Studies, University of Hyderabad </p></div></center>
+<center><div><a href="/scl">Samsaadhanii</a></div></center>
+</div>
+<div class="formdiv">
+<center>
+<form name="test" method="post" action="/cgi-bin/scl/NN/CG/generate.cgi" onsubmit="return check();">
+<button name="Conceptual Graph" type="submit" value="C">Conceptual Graph</button>
+<button name="Compressed Conceptual Graph" type="submit" value="C">Compressed Conceptual Graph</button>
+<select name="nne" ;="" size="10" value=""> 
+<option selected="selected">&lt;&lt;&lt;&lt;&lt;&lt;समवायसम्बन्ध-अवच्छिन्न&gt;-&lt;&lt;गन्धत्व-अवच्छिन्न&gt;-&lt;&lt;गन्ध-निष्ठ&gt;-आधेयता&gt;&gt;&gt;-निरूपित&gt;-अधिकरणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;समवायसम्बन्ध-अवच्छिन्न&gt;-&lt;&lt;शीतस्पर्शत्व-अवच्छिन्न&gt;-&lt;&lt;शीतस्पर्श-निष्ठ&gt;-आधेयता&gt;&gt;&gt;-निरूपित&gt;-अधिकरणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;समवायसम्बन्ध-अवच्छिन्न&gt;-&lt;&lt;उष्णस्पर्शत्व-अवच्छिन्न&gt;-&lt;&lt;उष्णस्पर्श-निष्ठ&gt;-आधेयता&gt;&gt;&gt;-निरूपित&gt;-अधिकरणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;समवायसम्बन्ध-अवच्छिन्न&gt;-&lt;&lt;रूपत्व-अवच्छिन्न&gt;-&lt;&lt;रूप-निष्ठ&gt;-प्रतियोगिता&gt;&gt;&gt;-निरूपक&gt;-अभाव&gt;-आश्रयः&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;समवायसम्बन्ध-अवच्छिन्न&gt;-&lt;&lt;स्पर्शत्व-अवच्छिन्न&gt;-&lt;&lt;स्पर्श-निष्ठ&gt;-आधेयता&gt;&gt;&gt;-निरूपित&gt;-अधिकरणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;समवायसम्बन्ध-अवच्छिन्न&gt;-&lt;&lt;शब्द-निष्ठ&gt;-आधेयता&gt;&gt;-निरूपित&gt;-अधिकरणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;अतीतत्वादि-निष्ठ&gt;-विषयता&gt;-निरूपित&gt;-विषयिता&gt;-आश्रय&gt;-ज्ञान&gt;-निरूपक&gt;-जनकता&gt;-वत्&gt;-शब्दप्रयोग&gt;-निष्ठ&gt;-कार्यता&gt;-निरूपित&gt;-असाधारणकारणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;प्राच्यादि-निष्ठ&gt;-विषयता&gt;-निरूपक&gt;-ज्ञान&gt;-निरूपक&gt;-जनकता&gt;-वत्&gt;-शब्दप्रयोग&gt;-निष्ठ&gt;-कार्यता&gt;-निरूपित&gt;-कारणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;समवायसम्बन्ध-अवच्छिन्न&gt;-&lt;&lt;ज्ञानत्व-अवच्छिन्न&gt;-&lt;&lt;ज्ञान-निष्ठ&gt;-आधेयता&gt;&gt;&gt;-निरूपित&gt;-अधिकरणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;सुखादि-निष्ठ&gt;-विषयता&gt;-निरूपक&gt;-साक्षात्कार&gt;-निष्ठ&gt;-कार्यता&gt;-निरूपित&gt;-कारणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;चक्षुरिन्द्रिय-निष्ठ&gt;-प्रतियोगिता&gt;-निरूपक&gt;-भेद&gt;-वत्&gt;-वस्तु&gt;-निष्ठ&gt;-जनकता&gt;-निरूपित&gt;-जन्यता&gt;-आश्रय&gt;-प्रत्यक्ष&gt;-निरूपित&gt;-विषयता&gt;-निष्ठ&gt;-प्रतियोगिता&gt;-निरूपक&gt;-अभाव&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;&lt;रसनेन्द्रिय-निष्ठ&gt;-जनकता&gt;-निरूपक&gt;-प्रत्यक्ष&gt;-निरूपित&gt;-विषयता&gt;-आश्रयः&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;&lt;घ्राणेन्द्रिय-निष्ठ&gt;-जनकता&gt;-निरूपक&gt;-प्रत्यक्ष&gt;-निरूपित&gt;-विषयता&gt;-आश्रयः&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;&lt;त्वगिन्द्रिय-निष्ठ&gt;-जनकता&gt;-निरूपक&gt;-प्रत्यक्ष&gt;-निरूपित&gt;-विषयता&gt;-आश्रयः&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;एकत्वादि-निष्ठ&gt;-विषयता&gt;-निरूपक&gt;-ज्ञान&gt;-निरूपक&gt;-जनकता&gt;-वत्&gt;-शब्दप्रयोग&gt;-निष्ठ&gt;-कार्यता&gt;-निरूपित&gt;-कारणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;परिमाण-निष्ठ&gt;-विषयता&gt;-निरूपक&gt;-ज्ञान&gt;-निरूपक&gt;-जनकता&gt;-वत्&gt;-शब्दप्रयोग&gt;-निष्ठ&gt;-कार्यता&gt;-निरूपित&gt;-कारणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;पृथक्त्व-निष्ठ&gt;-विषयता&gt;-निरूपक&gt;-ज्ञान&gt;-निरूपक&gt;-जनकता&gt;-वत्&gt;-शब्दप्रयोग&gt;-निष्ठ&gt;-कार्यता&gt;-निरूपित&gt;-असाधारणकारणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;संयोग-निष्ठ&gt;-विषयता&gt;-निरूपक&gt;-ज्ञान&gt;-निरूपक&gt;-जनकता&gt;-वत्&gt;-शब्दप्रयोग&gt;-निष्ठ&gt;-कार्यता&gt;-निरूपित&gt;-कारणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;संयोग-निष्ठ&gt;-प्रतियोगिता&gt;-निरूपक&gt;-ध्वंस&gt;-निष्ठ&gt;-कार्यता&gt;-निरूपित&gt;-कारणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;परत्व-निष्ठ&gt;-विषयता&gt;-निरूपक&gt;-ज्ञान&gt;-निरूपक&gt;-जनकता&gt;-वत्&gt;-शब्दप्रयोग&gt;-निष्ठ&gt;-कार्यता&gt;-निरूपित&gt;-असाधारणकारणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;अपरत्व-निष्ठ&gt;-विषयता&gt;-निरूपक&gt;-ज्ञान&gt;-निरूपक&gt;-जनकता&gt;-वत्&gt;-शब्दप्रयोग&gt;-निष्ठ&gt;-कार्यता&gt;-निरूपित&gt;-असाधारणकारणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;आद्यपतन-निष्ठ&gt;-कार्यता&gt;-निरूपित&gt;-असमवायिकारणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;आद्यस्यदन-निष्ठ&gt;-कार्यता&gt;-निरूपित&gt;-असमवायिकारणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;समवायसम्बन्ध-अवच्छिन्न&gt;-&lt;&lt;चूर्णादि-निष्ठ&gt;-&lt;&lt;&lt;&lt;&lt;&lt;धारणाकर्षण-निष्ठ&gt;-जन्यता&gt;-निरूपित&gt;-जनकता&gt;-वत्&gt;-विलक्षणसंयोग&gt;&gt;&gt;-निष्ठ&gt;-कार्यता&gt;-निरूपित&gt;-कारणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;&lt;श्रोत्रेन्द्रिय-निष्ठ&gt;-जनकता&gt;-निरूपक&gt;-प्रत्यक्ष&gt;-निरूपित&gt;-विषयता&gt;-आश्रयः&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;व्यवहारत्व-अवच्छिन्न&gt;-कार्यता&gt;-निरूपित&gt;-कारणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;व्यवहारत्व-अवच्छिन्न&gt;-&lt;&lt;व्यवहार-निष्ठ&gt;-कार्यता&gt;&gt;-निरूपित&gt;-कारणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;व्यवहारत्व-अवच्छिन्न&gt;-&lt;&lt;व्यवहार-निष्ठ&gt;-कार्यता&gt;&gt;-निरूपित&gt;-कारणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;संस्कार-निष्ठ&gt;-जनकता&gt;-निरूपित&gt;-जन्यता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;स्मृति-निष्ठ&gt;-प्रतियोगिता&gt;-निरूपक&gt;-अन्योन्याभाव&gt;-आश्रयः&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;तत्-निष्ठ&gt;-आधेयता&gt;-निरूपित&gt;-अधिकरणता&gt;-आश्रय&gt;-वस्तु&gt;-निष्ठ&gt;-विशेष्यता&gt;-निरूपक&gt;-&lt;&lt;&lt;&lt;&lt;&lt;तत्-निष्ठ&gt;-प्रकारता&gt;-निरूपित&gt;-प्रकारिता&gt;-वत्&gt;-अनुभवः&gt;&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;तत्-निष्ठ&gt;-प्रतियोगिता&gt;-निरूपक&gt;-अभाव&gt;-निष्ठ&gt;-आधेयता&gt;-निरूपित&gt;-अधिकरणता&gt;-आश्रय&gt;-वस्तु&gt;-निष्ठ&gt;-विशेष्यता&gt;-निरूपित&gt;-&lt;&lt;तत्-निष्ठ&gt;-प्रकारता&gt;&gt;-शालि&gt;-अनुभवः&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;व्यापार-निष्ठ&gt;-आधेयता&gt;-निरूपित&gt;-अधिकरणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;कार्यत्व-व्याप्य&gt;-धर्म&gt;-अवच्छिन्न&gt;-कार्यता&gt;-निरूपित&gt;-करणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;प्रागभाव-निरूपित&gt;-प्रतियोगिता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;समवायसम्बन्ध-अवच्छिन्न&gt;-कार्यता&gt;-निरूपित&gt;-&lt;&lt;तादात्म्यसम्बन्ध-अवच्छिन्न&gt;-करणत्वम्&gt;&gt;</option>
+<option>&lt;&lt;&lt;&lt;समवायसम्बन्ध-अवच्छिन्न&gt;-कार्यता&gt;-निरूपित&gt;-&lt;&lt;तादात्म्यसम्बन्ध-अवच्छिन्न&gt;-करणत्वम्&gt;&gt;</option>
+<option>&lt;&lt;&lt;&lt;समवायसम्बन्ध-अवच्छिन्न&gt;-कार्यता&gt;-निरूपित&gt;-&lt;&lt;समवायसम्बन्ध-अवच्छिन्न&gt;-करणत्वम्&gt;&gt;</option>
+<option>&lt;&lt;&lt;&lt;समवायसम्बन्ध-अवच्छिन्न&gt;-कार्यता&gt;-निरूपित&gt;-&lt;&lt;स्वसमवायिसमवेतत्वसम्बन्ध-अवच्छिन्न&gt;-करणम्&gt;&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;समवायिकारण-निष्ठ&gt;-प्रतियोगिता&gt;-निरूपक&gt;-भेद&gt;-निष्ठ&gt;-आधेयता&gt;-निरूपित&gt;-अधिकरणता&gt;-शालि&gt;-&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;असमवायिकारण-निष्ठ&gt;-प्रतियोगिता&gt;-निरूपक&gt;-भेद&gt;-निष्ठ&gt;-आधेयता&gt;-निरूपित&gt;-अधिकरणता&gt;-शालि&gt;-कारणम्&gt;&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;अनुमिति-निष्ठ&gt;-कार्यता&gt;-निरूपित&gt;-असाधारणकरणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;साध्यतावच्छेदकसम्बन्ध-अवच्छिन्न&gt;-&lt;&lt;साध्य-निष्ठ&gt;-प्रतियोगिता&gt;&gt;-निरूपक&gt;-अभाव&gt;-आश्रयवस्तु&gt;-निरूपित&gt;-&lt;&lt;वृत्तिवस्तु-निष्ठ&gt;-प्रतियोगिता&gt;&gt;-निरूपक&gt;-अभावः&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;साध्यतावच्छेदकसम्बन्ध-अवच्छिन्न&gt;-&lt;&lt;साध्यतावच्छेदकधर्म-अवच्छिन्न&gt;-&lt;&lt;साध्य-निष्ठ&gt;-प्रतियोगिता&gt;&gt;&gt;-निरूपक&gt;-अभाव&gt;-आश्रयवस्तु&gt;-निरूपित&gt;-&lt;&lt;वृत्तिवस्तु-निष्ठ&gt;-प्रतियोगिता&gt;&gt;-निरूपक&gt;-अभावः&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;साध्यतावच्छेदकसम्बन्ध-अवच्छिन्न&gt;-&lt;&lt;वैशिष्ट्य-अनवच्छिन्न&gt;-&lt;&lt;साध्यतावच्छेदक-अवच्छिन्न&gt;-&lt;&lt;साध्य-निष्ठ&gt;-प्रतियोगिता&gt;&gt;&gt;&gt;-निरूपक&gt;-अभाव&gt;-वत्&gt;-वस्तु&gt;-निरूपित&gt;-&lt;&lt;वृत्तिवस्तु-निष्ठ&gt;-प्रतियोगिता&gt;&gt;-निरूपक&gt;-अभावः&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;साध्यतावच्छेदकसम्बन्ध-अवच्छिन्न&gt;-&lt;&lt;&lt;&lt;साध्यतावच्छेदकतापर्याप्ति-निष्ठ&gt;-अनुयोगितावच्छेदकधर्म&gt;-अवच्छिन्न&gt;-&lt;&lt;&lt;&lt;&lt;&lt;पर्याप्तावच्छेदकता-निरूपक&gt;-अभाव&gt;-वत्&gt;-वस्तु&gt;-निरूपित&gt;-&lt;&lt;हेतुतावच्छेदकसम्बन्ध-अवच्छिन्न&gt;-&lt;&lt;वृत्तितावच्छेदक-निष्ठ&gt;-प्रतियोगिता&gt;&gt;&gt;&gt;&gt;-निरूपक&gt;-अभाव&gt;-वत्&gt;-धर्म&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;हेतु-समानाधिकरण&gt;-अत्यन्ताभाव&gt;-&lt;अ-प्रतियोगि&gt;&gt;-&lt;साध्य-समानाधिकरणम्&gt;&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;साध्य-निष्ठ&gt;-प्रकारता&gt;-निरूपक&gt;-संशय&gt;-निरूपित&gt;-विशेष्यता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;अनुमिति-&lt;तत्-करण&gt;&gt;-अन्यतर&gt;-प्रतिबन्धक&gt;-यथार्थज्ञान&gt;-विषायः&gt;</option>
+<option>&lt;&lt;&lt;&lt;&lt;&lt;उपमिति-निष्ठ&gt;-कार्यता&gt;-निरूपित&gt;-असाधारणकरणता&gt;-वत्&gt;-वस्तु&gt;</option>
+<option>&lt;&lt;&lt;&lt;एकधर्मि-निष्ठ&gt;-विशेष्यता&gt;-निरूपक&gt;-&lt;&lt;&lt;&lt;परस्परविरुद्धनानाधर्म-निष्ठ&gt;-प्रकारता&gt;-निरूपक&gt;-ज्ञानम्&gt;&gt;</option>
+<option>&lt;&lt;&lt;&lt;तादात्म्यसम्बन्ध-अवच्छिन्न&gt;-प्रतियोगिता&gt;-निरूपक&gt;-अभावः&gt;</option>
+</select>
+</center>
+</form>
+</div>
+<div class="tail"> &nbsp; </div>
+<div id="copyright-lb">
+<table>
+<tr>
+<td id="copy-verify">
+<p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+        src="/scl/images/w3c.jpg"
+        alt="Valid XHTML 1.0 Transitional" height="31" width="" style="border-style:none;" /></a>
+  </p>
+</td>
+<td id="copy-info">
+<center>
+<p> <span class="cons">© 2012-18 <a href="http://sanskrit.uohyd.ac.in/faculty/amba">Arjuna S.R. &amp; Amba Kulkarni</a></span></p>
+</center>
+</td>
+<td>
+<center>
+<p> <span class="cons1"><a href="/scl/contributors.html">Contributors</a></span></p>
+</center>
+</td>
+</tr>
+</table>
+<!-- <img src="http://scl.samsaadhanii.in/cgi-bin/Count.cgi?ft=0&df=sample.dat" alt="Count"> -->
+
+<div>
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript" src="/scl/statcounter_dummy.js">
+</script>
+<noscript><div class="statcounter"><a title="web analytics" href="http://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/8421849/0/34917efe/0/" alt="web analytics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+<div id="counter">
+</div>
+</body></html>

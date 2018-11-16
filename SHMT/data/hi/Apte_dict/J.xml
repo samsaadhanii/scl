@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dict SYSTEM "apte.dtd">
+<?xml-stylesheet href="apte.css" type="text/css" ?>
+<dict>
+<lexhead no="1">
+<root>झः</root>
+<prAwipaxikam>झ</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[झट्+ड]</etymology>
+<sense no="1">समय का बिताना</sense>
+<sense n="2">झन झन, खनखन या इसी प्रकार की कोई और ध्वनि</sense>
+<sense n="3">झंझावात</sense>
+<sense n="4">बृहस्पति</sense>
+</lexhead>
+
+<lexhead no="2">
+<root>झगझगायति</root>
+<prAwipaxikam>झगझगायति</prAwipaxikam>
+<grammar>ना*धा*<paxI>पर*</paxI></grammar>
+<sense no="1">चमक उठना, दमकना, जगमगाना, चमचमाना</sense>
+</lexhead>
+
+<lexhead no="3">
+<root>झगति</root>
+<prAwipaxikam>झगति</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<sense no="1">जल्दी से, तुरन्त, साऽप्यप्सरा झगित्यासीत्तद्रूपाकृष्टलोचना<citation>महा*</citation>=झटिति</sense>
+</lexhead>
+
+<lexhead no="4">
+<root>झगिति</root>
+<prAwipaxikam>झगिति</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<sense no="1">जल्दी से, तुरन्त, साऽप्यप्सरा झगित्यासीत्तद्रूपाकृष्टलोचना<citation>महा*</citation>=झटिति</sense>
+</lexhead>
+
+<lexhead no="5">
+<root>झङ्कारः</root>
+<prAwipaxikam>झङ्कार</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>झमिति अव्यक्तशब्दस्य कारः</vigraha_vAkya>[झम्-कृ+घञ्]</etymology>
+<sense no="1">झनझनाहट, भिनभिनाना, (अयं) दिगन्तानातेने मधुपकुलझङ्कारभरितान्<citation>भामि*१/३३</citation>४/२९<citation>भर्तृ* १/९</citation><citation>अमरु ४८</citation>पंच*५/५३</sense>
+</lexhead>
+
+<lexhead no="6">
+<root>झङ्कृतम्</root>
+<prAwipaxikam>झङ्कृत</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology><vigraha_vAkya>झमिति अव्यक्तशब्दस्य कारः</vigraha_vAkya>[झम्-कृ+क्त]</etymology>
+<sense no="1">झनझनाहट, भिनभिनाना, (अयं) दिगन्तानातेने मधुपकुलझङ्कारभरितान्<citation>भामि*१/३३</citation>४/२९<citation>भर्तृ* १/९</citation><citation>अमरु ४८</citation>पंच*५/५४</sense>
+</lexhead>
+
+<lexhead no="7">
+<root>झङ्कारिणी</root>
+<prAwipaxikam>झङ्कारिणी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[झङ्कार+इनि+ङीप्]</etymology>
+<sense no="1">गङ्गा नदी</sense>
+</lexhead>
+
+<lexhead no="8">
+<root>झङ्कृतिः</root>
+<prAwipaxikam>झङ्कृति</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[झम्-कॄ+क्तिन्]</etymology>
+<sense no="1">खनखनाहट या झनझनाहट, धातु के बने आभूषणों की ध्वनि जैसी ध्वनि</sense>
+</lexhead>
+
+<lexhead no="9">
+<root>झञ्झनम्</root>
+<prAwipaxikam>झञ्झन</prAwipaxikam>
+<grammar></grammar>
+<etymology>[झञ्झ्+ल्युट्]</etymology>
+<sense no="1">आभूषणों की झनझन या खनखन</sense>
+<sense n="2">खड़खड़ाहट या टनटन की ध्वनि</sense>
+</lexhead>
+
+<lexhead no="10">
+<root>झञ्झा</root>
+<prAwipaxikam>झञ्झा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+?<etymology><vigraha_vAkya>झमिति अव्यक्तशब्दं कृत्वा झटिति वेगेन वहति</vigraha_vAkya>[झम्-झट्+ड+टाप्]</etymology>
+<sense no="1">हवा के चलने या वर्षा के होने के शब्द</sense>
+<sense n="2">हवा और पानी, तूफान, आँधी</sense>
+<sense n="3">खनखन की ध्वनि, झनझन</sense>
+<segmenthd>
+<root>झञ्झानिलः</root>
+<prAwipaxikam>झञ्झानिल</prAwipaxikam>
+<seg>झञ्झा-अनिलः</seg>
+<grammar>पुं*</grammar>
+?<sense no="1">वर्षा के साथ आँधी, तूफान, प्रभञ्जक, अन्धड़ Fझञ्झावातः सवृष्टिकः<citation>अमर*</citation>हिमम्बुझञ्झानिलविह्वलस्य (पद्मस्य)<citation>भामि*२/६९</citation><citation>अमरु*४८</citation><citation>मा*९/१७</citation></sense>
+</segmenthd>
+<segmenthd>
+<root>झञ्झामरुत्</root>
+<prAwipaxikam>झञ्झामरुत्</prAwipaxikam>
+<seg>झञ्झा-मरुत्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">वर्षा के साथ आँधी, तूफान, प्रभञ्जक, अन्धड़ Mझञ्झावातः सवृष्टिकः<citation>अमर*</citation>हिमम्बुझञ्झानिलविह्वलस्य (पद्मस्य)<citation>भामि*२/६९</citation><citation>अमरु*४८</citation><citation>मा*९/१८</citation></sense>
+</segmenthd>
+<segmenthd>
+<root>झञ्झावातः</root>
+<prAwipaxikam>झञ्झावात</prAwipaxikam>
+<seg>झञ्झा-वातः</seg>
+<grammar>पुं*</grammar>
+<kind_of>वायुः</kind_of>
+<jAwi>वायुः</jAwi>
+<sense no="1">वर्षा के साथ आँधी, तूफान, प्रभञ्जक, अन्धड़ Mझञ्झावातः सवृष्टिकः<citation>अमर*</citation>हिमम्बुझञ्झानिलविह्वलस्य (पद्मस्य)<citation>भामि*२/६९</citation><citation>अमरु*४८</citation><citation>मा*९/१९</citation></sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="11">
+<root>झटिति</root>
+<prAwipaxikam>झटिति</prAwipaxikam>
+<grammar>अव्य*</grammar>
+?<etymology>[झट्+क्विप्, इ+क्तिन्]</etymology>
+<jAwi>क्रिया</jAwi>
+<sense no="1">जल्दी से, तुरन्त, मुक्ताजालमिव प्रयाति झटिति भ्रंस्यद्दॄशोऽदृश्यताम्<citation>भर्तृ*१/९६</citation>७०</sense>
+</lexhead>
+
+<lexhead no="12">
+<root>झणझणम्</root>
+<prAwipaxikam>झणझण</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[झणत्+डाच्, द्वित्वं, पूर्वपदटिलोपः]</etymology>
+<sense no="1">झनझनाहट</sense>
+</lexhead>
+
+<lexhead no="13">
+<root>झणझणा</root>
+<prAwipaxikam>झणझणा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[झणत्+डाच्, द्वित्वं, पूर्वपदटिलोपः]</etymology>
+<sense no="1">झनझनाहट</sense>
+</lexhead>
+
+<lexhead no="14">
+<root>झणझणायित</root>
+<prAwipaxikam>झणझणायित</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">झणझणायित</prAwipaxikam>
+<etymology>[झणझण+क्यङ्+क्त]</etymology>
+<sense no="1">टनटन, झनझन, टनटन करना<citation>उत्तर*५/५</citation></sense>
+</lexhead>
+
+<lexhead no="15">
+<root>झणत्कारः</root>
+<prAwipaxikam>झणत्कार</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[झणत्-कृ+घञ्]</etymology>
+<sense no="1">झनझन, टनटन, झुनझनाना, खनखनाना, झणत्कारक्रूरक्वणितगुणगुञ्जद्गुरुधनुर्धृतप्रेमा बाहुः<citation>उत्तर* ५/२६</citation>उद्वेजयति दरिद्रं परमुद्रागणनझणत्कारः<citation>उद्भट</citation></sense>
+</lexhead>
+
+<lexhead no="16">
+<root>झनत्कारः</root>
+<prAwipaxikam>झनत्कार</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[झनत्-कृ+घञ्]</etymology>
+<sense no="1">झनझन, टनटन, झुनझनाना, खनखनाना, झणत्कारक्रूरक्वणितगुणगुञ्जद्गुरुधनुर्धृतप्रेमा बाहुः<citation>उत्तर* ५/२६</citation>उद्वेजयति दरिद्रं परमुद्रागणनझणत्कारः<citation>उद्भट</citation></sense>
+</lexhead>
+
+<lexhead no="17">
+<root>झम्पः</root>
+<prAwipaxikam>झम्प</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[झम्-पत्+ड]</etymology>
+<sense no="1">उछल, कूद, छलाँग<citation>महावी* ५/६२</citation></sense>
+</lexhead>
+
+<lexhead no="18">
+<root>झम्पा</root>
+<prAwipaxikam>झम्पा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[झम्-पत्+ड+टाप्]</etymology>
+<sense no="1">उछल, कूद, छलाँग<citation>महावी* ५/६३</citation></sense>
+</lexhead>
+
+<lexhead no="19">
+<root>झम्पाकः</root>
+<prAwipaxikam>झम्पाक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>झम्पेन अकतिगच्छति</vigraha_vAkya>[झम्प+अक्+अण्]</etymology>
+<sense no="1">बन्दर, लङ्गूर, बन्दर, लङ्गूर</sense>
+</lexhead>
+
+<lexhead no="20">
+<root>झम्पारुः</root>
+<prAwipaxikam>झम्पारु</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>झम्पेन अकतिगच्छति</vigraha_vAkya>[झम्प+आ+रा+डु]</etymology>
+<sense no="1">बन्दर, लङ्गूर, बन्दर, लङ्गूर</sense>
+</lexhead>
+
+<lexhead no="21">
+<root>झम्पिन्</root>
+<prAwipaxikam>झम्पिन्</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>झम्पेन अकतिगच्छति</vigraha_vAkya>[झम्पा+इनि]</etymology>
+<sense no="1">बन्दर, लङ्गूर, बन्दर, लङ्गूर</sense>
+</lexhead>
+
+<lexhead no="22">
+<root>झरः</root>
+<prAwipaxikam>झर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[झृ+अच्]</etymology>
+<kind_of>अविच्छेदेन_जलादिप्रवृत्तिः</kind_of>
+<jAwi>प्राकृतिकस्थानम्</jAwi>
+<sense no="1">प्रपातिका, झरना, निर्झर, नदी, प्रत्यग्रक्षतजझरीनिवृत्तपाद्यः<citation>महावी*६/१४</citation><citation>भामि*४/३७</citation></sense>
+</lexhead>
+
+<lexhead no="23">
+<root>झरा</root>
+<prAwipaxikam>झरा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[झृ+अच्+टाप्]</etymology>
+<sense no="1">प्रपातिका, झरना, निर्झर, नदी, प्रत्यग्रक्षतजझरीनिवृत्तपाद्यः<citation>महावी*६/१४</citation><citation>भामि*४/३८</citation></sense>
+</lexhead>
+
+<lexhead no="24">
+<root>झरी</root>
+<prAwipaxikam>झरी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[झृ+अच्+ङीष्]</etymology>
+<sense no="1">प्रपातिका, झरना, निर्झर, नदी, प्रत्यग्रक्षतजझरीनिवृत्तपाद्यः<citation>महावी*६/१४</citation><citation>भामि*४/३९</citation></sense>
+</lexhead>
+
+<lexhead no="25">
+<root>झर्झरः</root>
+<prAwipaxikam>झर्झर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[झर्झ्+अरन्]</etymology>
+<upAXi>वाद्योपकरणम्</upAXi>
+<sense no="1">एक प्रकार का ढोल</sense>
+<sense n="2">कलियुग</sense>
+<sense n="3">बेंत की छड़ी</sense>
+<sense n="4">झाँझ, मजीरा</sense>
+</lexhead>
+
+<lexhead no="26">
+<root>झर्झरा</root>
+<prAwipaxikam>झर्झरा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<sense no="1">वेश्या, वारांगना</sense>
+</lexhead>
+
+<lexhead no="27">
+<root>झर्झरिन्</root>
+<prAwipaxikam>झर्झरिन्</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[झर्झर+इनि]</etymology>
+<sense no="1">शिव का विशेषण</sense>
+</lexhead>
+
+<lexhead no="28">
+<root>झलज्झला</root>
+<prAwipaxikam>झलज्झला</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology><vigraha_vAkya>झलज्झल इत्यव्यक्तः शब्दः अस्त्यत्र</vigraha_vAkya>[झलज्झल+अच्+टाप्]</etymology>
+<sense no="1">बूँदों के गिरने का शब्द, झड़ी, हाथी के कान की फड़फड़ाहट</sense>
+</lexhead>
+
+<lexhead no="29">
+<root>झला</root>
+<prAwipaxikam>झला</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[ =झरा पृषो*]</etymology>
+<sense no="1">लड़की, पुत्री</sense>
+<sense n="2">धूप, चिलचिलाती धूप, चमक</sense>
+</lexhead>
+
+<lexhead no="30">
+<root>झल्लः</root>
+<prAwipaxikam>झल्ल</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[झर्झ्+क्विप्-ला+क, तं लाति]</etymology>
+<sense no="1">मल्लयोद्धा, एकनीच जाति<citation>मनु*१०/२२</citation>१२/४५</sense>
+</lexhead>
+
+<lexhead no="31">
+<root>झल्ली</root>
+<prAwipaxikam>झल्ली</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<sense no="1">ढ़ोलकी</sense>
+</lexhead>
+
+<lexhead no="32">
+<root>झल्लकम्</root>
+<prAwipaxikam>झल्लक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[झल्ल+कन्]</etymology>
+<sense no="1">झाँझ, मजीरा</sense>
+</lexhead>
+
+<lexhead no="33">
+<root>झल्लकी</root>
+<prAwipaxikam>झल्लकी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[झल्ल+कन्+ङीष्]</etymology>
+<sense no="1">झाँझ, मजीरा</sense>
+</lexhead>
+
+<lexhead no="34">
+<root>झल्लकण्ठः</root>
+<prAwipaxikam>झल्लकण्ठ</prAwipaxikam>
+<grammar>पुं*</grammar>
+<sense no="1">कबूतर</sense>
+</lexhead>
+
+<lexhead no="35">
+<root>झल्लरी</root>
+<prAwipaxikam>झल्लरी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[झर्झ्+अरन्+ङीष्, पृषो*]</etymology>
+<sense no="1">झाँझ, मजीरा</sense>
+<sense n="2">झाँझ, मजीरा</sense>
+</lexhead>
+
+<lexhead no="36">
+<root>झल्लिका</root>
+<prAwipaxikam>झल्लिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[झल्ली+कै+क, पृषो*]</etymology>
+<sense no="1">उबटन आदि के लगाने से शरीर से छूटा हुआ मैल</sense>
+<sense n="2">प्रकाश, चमक, दमक</sense>
+</lexhead>
+
+<lexhead no="37">
+<root>झषः</root>
+<prAwipaxikam>झष</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[झष्+अच्]</etymology>
+<kind_of>मत्स्यः</kind_of>
+<jAwi>जलीयः</jAwi>
+<kind_of>जलचरमात्रः</kind_of>
+<jAwi>जलीयः</jAwi>
+<sense no="1">मछली, झषाणां मकरश्चास्मि<citation>भग* १०/३१</citation>तु*नी* दिये गये ’झषकेतन’ आदि शब्दों से</sense>
+<sense n="2">बड़ी मछली, मगरमच्छ</sense>
+<sense n="3">मीन राशि</sense>
+<sense n="4">गर्मी, ताप</sense>
+</lexhead>
+
+<lexhead no="38">
+<root>झषम्</root>
+<prAwipaxikam>झष</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<kind_of>मत्स्यः</kind_of>
+<jAwi>जलीयः</jAwi>
+<kind_of>जलचरमात्रः</kind_of>
+<jAwi>जलीयः</jAwi>
+<sense no="1">मरुस्थल, सुनसान जङ्गल</sense>
+<segmenthd>
+<root>झषाङ्कः</root>
+<prAwipaxikam>झषाङ्क</prAwipaxikam>
+<seg>झषः-अङ्कः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">कामदेव Mस्त्रीमुद्रां झषकेतनस्य<citation>पञ्च*४/३४</citation></sense>
+</segmenthd>
+<segmenthd>
+<root>झषकेतनः</root>
+<prAwipaxikam>झषकेतन</prAwipaxikam>
+<seg>झषः-केतनः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">कामदेवMस्त्रीमुद्रां झषकेतनस्य<citation>पञ्च*४/३५</citation></sense>
+</segmenthd>
+<segmenthd>
+<root>झषकेतुः</root>
+<prAwipaxikam>झषकेतु</prAwipaxikam>
+<seg>झषः-केतुः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">कामदेवMस्त्रीमुद्रां झषकेतनस्य<citation>पञ्च*४/३६</citation></sense>
+</segmenthd>
+<segmenthd>
+<root>झषध्वजः</root>
+<prAwipaxikam>झषध्वज</prAwipaxikam>
+<seg>झषः-ध्वजः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">कामदेवMस्त्रीमुद्रां झषकेतनस्य<citation>पञ्च*४/३७</citation></sense>
+</segmenthd>
+<segmenthd>
+<root>झषाशनः</root>
+<prAwipaxikam>झषाशन</prAwipaxikam>
+<seg>झषः-अशनः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">सूँस</sense>
+</segmenthd>
+<segmenthd>
+<root>झषोदरी</root>
+<prAwipaxikam>झषोदरी</prAwipaxikam>
+<seg>झषः-उदरी</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">व्यास की माता सत्यवती का विशेषण</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="39">
+<root>झाङ्कृतम्</root>
+<prAwipaxikam>झाङ्कृत</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[झङ्कृत+अण्]</etymology>
+<sense no="1">झाँझन, पायजेब</sense>
+<sense n="2">आवाज, छपछप का शब्दस्थाने स्थाने मुखरककुभो झाङ्कुतैर्निर्झराणाम्<citation>उत्तर* २/१४ जल के गिरने की</citation></sense>
+</lexhead>
+
+<lexhead no="40">
+<root>झाटः</root>
+<prAwipaxikam>झाट</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[झट्+घञ्]</etymology>
+<sense no="1">पर्णशाला, लतामण्डप, कान्तार, वृक्षों का झुरमुट</sense>
+</lexhead>
+
+<lexhead no="41">
+<root>झिटिः</root>
+<prAwipaxikam>झिटि</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[झिम्+रट्+अच्+ङीष्, पृषो*]</etymology>
+<sense no="1">एक प्रकार की झाड़ी</sense>
+</lexhead>
+
+<lexhead no="42">
+<root>झिटी</root>
+<prAwipaxikam>झिटी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[झिम्+रट्+अच्+ङीष्, पृषो*]</etymology>
+<sense no="1">एक प्रकार की झाड़ी</sense>
+</lexhead>
+
+<lexhead no="43">
+<root>झिरिका</root>
+<prAwipaxikam>झिरिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[झिरि+कै+क+टाप्]</etymology>
+<sense no="1">झींगुर</sense>
+</lexhead>
+
+<lexhead no="44">
+<root>झिल्लिः</root>
+<prAwipaxikam>झिल्लि</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology><vigraha_vAkya>झिरिति अव्यक्त शब्दं लिशति</vigraha_vAkya>[झिर्-लिश्+डि]</etymology>
+<sense no="1">झींगुर, एक प्रकार का वाद्ययन्त्र</sense>
+</lexhead>
+
+<lexhead no="45">
+<root>झिल्लिका</root>
+<prAwipaxikam>झिल्लिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[झिल्लि+कन्+टाप्]</etymology>
+<kind_of>मक्षिका</kind_of>
+<jAwi>कीटः</jAwi>
+<sense no="1">झींगुर</sense>
+<sense n="2">धूप का प्रकाश, चमक, दीप्ति</sense>
+</lexhead>
+
+<lexhead no="46">
+<root>झिल्ली</root>
+<prAwipaxikam>झिल्ली</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[झिल्लि+ङीप्]</etymology>
+<sense no="1">झींगुर, दीये की बत्ती</sense>
+<sense n="2">प्रकाश, चमक</sense>
+<segmenthd>
+<root>झिल्लीकण्ठः</root>
+<prAwipaxikam>झिल्लीकण्ठ</prAwipaxikam>
+<seg>झिल्ली-कण्ठः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">पालतू कबूतर</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="47">
+<root>झीरुका</root>
+<prAwipaxikam>झीरुका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<kind_of>मक्षिका</kind_of>
+<jAwi>कीटः</jAwi>
+<sense no="1">झींगुर</sense>
+</lexhead>
+
+<lexhead no="48">
+<root>झुण्डः</root>
+<prAwipaxikam>झुण्ड</prAwipaxikam>
+<grammar>पुं*</grammar>
+?<etymology>[लुण्ट्+अच्, पृषो*]</etymology>
+<sense no="1">वृक्ष, बिना तने का पेड़</sense>
+<sense n="2">झाड़ी, झाड़-झखाड़</sense>
+</lexhead>
+
+<lexhead no="49">
+<root>झोडः</root>
+<prAwipaxikam>झोड</prAwipaxikam>
+<grammar>पुं*</grammar>
+<sense no="0">सुपारी का पेड़</sense>
+</lexhead>
+
+</dict>

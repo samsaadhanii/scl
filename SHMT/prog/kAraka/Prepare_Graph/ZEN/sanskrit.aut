@@ -1,0 +1,15 @@
+(* Automaton description for Sanskrit segmentation - see syntax in Parser module (regular.ml) *)
+
+initial init epsilon_aum
+
+alphabet 
+noun; root; unde; abso; iic; iiv; auxi; ifc; prev
+end
+
+automaton Disp
+  node INVAR = prev.abso | unde in
+  node CONJUG = prev? . root in
+  node SUBST = iic* .noun | iic+ .ifc in 
+  node VERB = CONJUG | iiv.auxi in
+  node PHRASE = (SUBST | VERB | INVAR)+
+end

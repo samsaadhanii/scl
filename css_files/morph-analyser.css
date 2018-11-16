@@ -1,0 +1,87 @@
+
+#encoding{ border-style:solid;border-width:1px;border-color:#C0C0C0;font-size:14px;width:300px;height:40px; box-shadow: 1px 1px 6px gray;}
+
+#morphword{
+	width:290px;
+	height:30px;
+	margin-top:10px;
+	padding:2px;
+	box-shadow: 1px 1px 6px gray;
+	border-radius:3px;
+  
+}
+
+
+#submit-bttn{width:300px;box-shadow: 1px 1px 8px gray;margin-top:10px;}
+
+
+.styled-button-3 {
+	background-color:#5B74A8;
+	border:1px solid #29447E;
+	padding:2px 6px;
+	height:40px;
+	color:#fff;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+.styled-button-3:hover {
+        cursor: pointer;
+	background-color:blue;
+}
+
+#output{
+    text-align:left;
+    box-shadow: 1px 1px 4px gray;
+    border-right: 1px solid #FFFFFF;
+    border-radius:3px;
+}
+#output table{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+/* input dashboard div */
+
+.input-dashboard{
+    background-color:#FFFFFF;
+    border:1px none peru;
+    margin-top:10px;
+    
+}
+
+.input-dashboard-div1{
+      border:1px none peru;
+      box-shadow: 1px 1px 4px gray;
+      border-radius:3px;
+      vertical-align:top;
+
+}
+
+.input-dashboard-div2{
+    border:1px none peru;
+      box-shadow: 1px 1px 4px gray;
+      border-radius:3px;
+      vertical-align:top;
+}
+
+.input-dashboard-div2 p{
+  margin-left:10px;	
+  margin-right:20px;	
+  text-align:justify;
+}
+
+.dept-name{
+    background-color:#686868;
+    height:40px;
+    color:#FFFFFF;
+    font: normal Arial;
+    border-radius:3px;  
+}
+
+.title{
+   font-size:17px;
+   vertical-align:-25px;
+}
+

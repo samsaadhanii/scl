@@ -1,0 +1,830 @@
+
+body{
+ font-family: Helvetica; 
+ background-color:#FFFED1; 
+/* background-color:#FFFAFA; */
+}
+
+
+.main-container{
+    width:1150px;
+    margin:auto;
+    position:relative;
+    background-color:#FFFED1; 
+    border:5px none #FFFFFF;
+    margin-top:10px;
+}
+
+
+.container-div{
+    margin:auto;
+    position:relative;
+    border:5px none #FFFFFF;
+    box-shadow: 1px 1px 4px gray;
+    border-radius:3px;
+    background-color:#FFFED1; 
+   /* background-color:#FFFFFF;*/
+    margin-top:10px;
+}
+
+.samsaadhani{
+    width:100%;
+    height:80px;
+    border:1px none red;
+    background-color:#FFFED1; 
+/*    background-color:#FFFFFF;
+    box-shadow: 1px 1px 4px gray;
+    border-right: 1px solid #FFFFFF;
+    border-radius:3px;     */
+}
+
+.samsaadhani-img{
+    width:250px;
+    border: 1px none peru;
+    margin-top:10px;
+    
+}
+
+.samsaadhani table{
+  width:100%;
+}
+
+.samsaadhani a{
+  text-decoration:none;
+}
+
+.samsaadhani td{
+  font-size:13px;
+  height:20px;
+}
+
+.sam-div1{
+  text-align:center;
+  width:250px;
+  border:1px none;
+  background-color:#FFFED1; 
+  /*background-color:#FFFFFF;*/
+  box-shadow: 1px 1px 4px gray;
+  border-radius:3px;
+  vertical-align:top;    
+}
+
+#mmmm{
+  width:100%;
+  border:1px none;
+  text-align:top;
+}
+
+.sam-div2{
+  text-align:top;
+  border:1px none;
+  vertical-align:top;
+  background-color:#FFFED1; 
+
+}
+
+
+.line-div{
+   width:100%;
+   height:10px;
+ /*  background-color:gray; 
+   box-shadow: 2px 2px 5px gray;
+   border-radius:3px;   */ 
+}
+
+
+/* Input dashboard area */
+
+.intro{
+  width:100%;
+  height:100px;
+  margin-top:10px;
+  box-shadow: 1px 1px 4px gray;
+  border-radius:3px;    
+}
+
+.intro p{
+  margin-top:10px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.input-dashboard-morph-gen{
+  width:100%;
+  border:1px none;
+  margin-top:10px;
+}
+
+.input-dashboard-morph-gen table{
+  width:100%;
+  border:1px none red;
+  /* box-shadow: 1px 1px 4px gray;
+  border-radius:3px;    
+  padding:10px; 
+  background:#FFF5EE; */
+}
+
+.input-dashboard-morph-gen td{
+  width:25%;
+  border:1px none peru;
+  box-shadow: 1px 1px 4px gray;
+  border-radius:3px;    
+  vertical-align:top;
+  padding:5px;
+  cursor:pointer;
+}
+
+.input-dashboard-morph-gen tr:hover{
+ background-color:red;
+  
+}
+
+.input-dashboard-morph-gen td p{
+  margin-left:10px;
+  margin-right:10px;
+  text-align:justify;
+}
+
+.titles{
+  height:40px;
+  width:100%;
+  background-color:#5E5E5E;
+  box-shadow: 1px 1px 4px gray;
+  border-radius:3px;    
+  font-size:8px;
+}
+.title{
+    vertical-align:-20px;
+    color:#FFFFFF;
+    line-height:20px;
+    font-size:14px;
+}
+
+.noun p{
+  margin-left:10px;
+  margin-top:10px;
+  
+}
+
+.noun:hover{
+  background-color:#FFFFFF;
+}
+
+.noun{
+  background-color:#F0FFFF; 
+}
+
+.verb{
+  background-color:#F5F5DC;
+}
+
+.verb:hover{
+  background-color:#FFFFFF;
+}
+
+.kridant{
+  background-color:#E6E6FA;
+}
+
+.kridant:hover{
+  background-color:#FFFFFF;
+}
+
+.taddhita{
+  background-color:#FFFFF0;
+}
+
+.taddhita:hover{
+  background-color:#FFFFFF;
+}
+
+.enters{
+  width:100%;
+  height:35px;
+  background-color:#A44747;
+  box-shadow: 1px 1px 4px gray;
+  border-radius:3px;
+}
+
+.enters span{
+  font-size:14px;
+  vertical-align:-25px;
+}
+
+.enters span a{
+  font-size:20px;
+  color:#FFFFFF;
+  text-decoration:none;
+}
+
+.enters span a:hover{
+  font-size:25px;
+  color:#FFFFFF;
+}
+
+/* tail */
+.tail {
+    margin-top:10px;
+    height:20px;
+    background-color:#489CDF;
+    box-shadow: 1px 1px 4px gray;
+    border-radius:3px;
+ }
+ 
+.last {
+    text-align:left;
+    height:220px;
+    width:300px;
+    border-style:solid; 
+    border-width:1px;
+    border-color:#717D7D;
+    border-left-width:0px;
+    border-top-width:0px;
+    border-bottom-width:0px;
+    border-right-width:1px;
+}
+.last1{
+  text-align:left;
+  height:20px;
+  border-style:solid; 
+  border-width:1px;
+  border-color:#717D7D;
+  border-left-width:0px;
+  border-top-width:1px;
+  border-bottom-width:0px;
+  border-right-width:0px;
+}
+
+#output{
+    text-align:left;
+    box-shadow: 1px 1px 4px gray;
+    border-right: 1px solid #FFFFFF; 
+    border-radius:3px;
+    margin-top:10px;
+}
+#output table{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+/* input dashboard div */
+
+.input-dashboard{
+    background-color:#FFFFFF;
+    border:1px none peru;
+    margin-top:10px;
+    
+}
+
+.input-dashboard table{
+    background-color:#FFFFFF;
+    border:1px none peru;
+    margin-top:10px;
+    width:100%;
+}
+
+.input-dashboard-div1{
+      border:1px none peru;
+      box-shadow: 1px 1px 4px gray;
+      border-radius:3px;
+      vertical-align:top;
+      
+
+}
+
+.input-dashboard-div1 table{
+      width:auto;
+      vertical-align:top;
+      
+}
+
+#morph-input-tb td{ 
+       vertical-align:bottom;
+       height:50px; 
+
+}
+
+.input-dashboard-div2{
+    border:1px none peru;
+      box-shadow: 1px 1px 4px gray;
+      border-radius:3px;
+      vertical-align:top;
+}
+
+.input-dashboard-div2 p{
+  margin-left:10px;	
+  margin-right:20px;	
+  text-align:justify;
+}
+
+.dept-name{
+    background-color:#686868;
+    height:40px;
+    color:#FFFFFF;
+    font: normal Arial;
+    border-radius:3px;  
+}
+
+.title{
+   font-size:17px;
+   vertical-align:-25px;
+   
+}
+
+#content{
+   width:100%;
+   border:1px none;
+   overflow:none;
+   margin-left:auto;
+   margin-right:auto;
+   margin-top:30px;
+}
+
+/***** Morph Analyser css starts from here ****/
+
+#encoding{ border-style:solid;border-width:1px;border-color:#C0C0C0;font-size:14px;height:35px; box-shadow: 1px 1px 6px gray;}
+
+#morphword{
+	width:290px;
+	height:30px;
+	margin-top:10px;
+	padding:2px;
+	box-shadow: 1px 1px 6px gray;
+	border-radius:3px;
+  
+}
+
+
+#submit-bttn{width:200px;box-shadow: 1px 1px 8px gray;margin-top:10px;}
+
+
+.styled-button-3 {
+	background-color:#5B74A8;
+	border:1px solid #29447E;
+	padding:2px 6px;
+	height:40px;
+	color:#fff;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+.styled-button-3:hover {
+        cursor: pointer;
+	background-color:blue;
+}
+
+#output{
+    text-align:left;
+    box-shadow: 1px 1px 4px gray;
+    border-right: 1px solid #FFFFFF;
+    border-radius:3px;
+}
+#output table{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+/* input dashboard div */
+
+.input-dashboard{
+    background-color:#FFFFFF;
+    border:1px none peru;
+    margin-top:10px;
+    
+}
+
+/* .input-dashboard-div1{ */
+/*       border:1px none peru; */
+/*       box-shadow: 1px 1px 4px gray; */
+/*       border-radius:3px; */
+/*       vertical-align:top; */
+
+/* } */
+
+.input-dashboard-div2{
+    border:1px none peru;
+      box-shadow: 1px 1px 4px gray;
+      border-radius:3px;
+      vertical-align:top;
+}
+
+.input-dashboard-div2 p{
+  margin-left:10px;	
+  margin-right:20px;	
+  text-align:justify;
+}
+
+.dept-name{
+    background-color:#686868;
+    height:40px;
+    color:#FFFFFF;
+    font: normal Arial;
+    border-radius:3px;  
+}
+
+.title{
+   font-size:17px;
+   vertical-align:-25px;
+}
+
+
+/***** Sandhi css starts from here ****/
+
+.input-dashboard-sandhi{
+    width:100%;
+    background-color:#FFFFFF;
+    border:1px none peru;
+    margin-top:10px;
+    box-shadow: 1px 1px 4px gray;
+    border-radius:3px;
+}
+
+.dept-name-sandhi{
+    background-color:#686868;
+    height:40px;
+    color:#FFFFFF;
+    font: normal Arial;
+    border-radius:3px;
+    border:1px none red;
+}
+
+.dept-name-sandhi table{
+  width:100%;
+  border:1px none #FFFFFF;
+  
+}
+
+.dept-name-sandhi td{
+  vertical-align:top;
+}
+
+.dashboard-sandhi table{
+    border:1px none green;
+    margin-top:10px;
+    margin:auto;
+}
+
+.dashboard-sandhi td{
+    vertical-align:bottom;   
+    padding:8px;
+}
+
+#text{
+	width:250px;
+	height:35px;
+	margin-top:10px;
+	padding:2px;
+	box-shadow: 1px 1px 6px gray;
+	border-radius:3px;
+  
+}
+
+#text1{
+	width:250px;
+	height:35px;
+	margin-top:10px;
+	padding:2px;
+	box-shadow: 1px 1px 6px gray;
+	border-radius:3px;
+  
+}
+
+#submit-sandhi{width:200px;box-shadow: 1px 1px 8px gray;margin-top:10px;height:45px;}
+
+
+.styled-sandhi {
+	background-color:#5B74A8;
+	border:1px solid #29447E;
+	padding:2px 6px;
+	height:40px;
+	color:#fff;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+.styled-sandhi:hover {
+        cursor: pointer;
+	background-color:blue;
+}
+
+#description-sandhi{
+	border:1px none #29447E;
+	color:#FFFFFF;
+	cursor:pointer;
+	text-align:right;
+}
+
+#description{
+  	box-shadow: 1px 1px 6px gray;
+	border-radius:3px;
+}
+
+
+/***** Sandhi splitter css starts from here ****/
+
+
+#word{
+	width:250px;
+	height:35px;
+	margin-top:10px;
+	padding:2px;
+	box-shadow: 1px 1px 6px gray;
+	border-radius:3px;
+  
+}
+
+#sandhi_type{ border-style:solid;border-width:1px;border-color:#C0C0C0;font-size:14px;width:200px;height:40px; box-shadow: 1px 1px 6px gray;} 
+
+#description p{
+  	text-align:justify;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+/**** Samsaadhanii css starts here */
+#samsaadhani-content{
+     /* box-shadow: 1px 1px 6px gray;
+	border-radius:3px; */
+    background-color:#FFFED1; 
+}
+
+#samsaadhani-content p{
+    margin-left:20px;
+    margin-right:20px;
+    
+}
+
+#samsaadhani-content li{
+    margin-left:20px;
+    margin-right:20px;
+}
+
+#sams-intro{
+     background-color:#FFFED1; 
+     box-shadow: 1px 1px 6px gray;
+     border-radius:3px;
+     margin-top:10px;
+}
+
+#snk-ramayanam{
+     background-color:#FFFED1;
+     box-shadow: 1px 1px 6px gray;
+     border-radius:3px;
+     margin-top:10px;
+     height:115px;
+}
+
+.snk-rama-img{
+    width:100px;
+    border: 1px none peru;
+    height: 60px
+    margin:auto;
+}
+
+.rama-and-tools{
+  width:100%;
+  background-color:#FFFED1; 
+}
+
+#sanskrit-tools{
+     background-color:#FFFED1;
+     box-shadow: 1px 1px 6px gray;
+     border-radius:3px;
+     margin-top:10px;
+     height:260px;
+}
+
+#amarakosha{
+     background-color:#FFFED1;
+     box-shadow: 1px 1px 6px gray;
+     border-radius:3px;
+     margin-top:10px;
+     height:385px;
+}
+.ramayanam{
+  width:70%;
+}
+
+#lang-tech-info{
+      background-color:#FFFED1;
+     box-shadow: 1px 1px 6px gray;
+     border-radius:3px;
+     margin-top:10px;
+}
+
+/** morph-gen css starts here **/
+#rt{
+	width:290px;
+	height:30px;
+/* 	margin-top:10px; */
+	padding:2px;
+	box-shadow: 1px 1px 6px gray;
+	border-radius:3px;
+  
+}
+#gen-opt{ border-style:solid;border-width:1px;border-color:#C0C0C0;font-size:14px;width:150px;height:40px; box-shadow: 1px 1px 6px gray;}
+
+/** morph-gen verb css starts here **/
+#verb-dashboard{
+   background: #FFFFFF;
+   box-shadow: 1px 1px 6px gray;
+   border-radius:3px;
+  
+}
+
+#verb-dashboard select{
+   width: 100px; 
+   font-size: 16px;
+   line-height: 5;
+   box-shadow: 1px 1px 6px gray;
+   border-radius:3px;
+   border:1px none;
+   padding:5px;
+}
+#verb-dashboard table{
+   text-align:center;
+   padding:0px;
+   margin-left:auto;
+   margin-right:auto;
+   margin-top:10px;
+}
+
+/* #textbox{
+	width:300px;
+	height:40px;
+	padding:2px;
+	box-shadow: 1px 1px 6px gray;
+	border-radius:3px;
+	   
+} */
+
+#submit-verb{ border-style:solid;border-width:1px;border-color:#C0C0C0;font-size:14px;width:200px;height:40px; box-shadow: 1px 1px 6px gray;}
+
+#input-output{
+  vertical-align:top;
+}
+
+#input-output table{
+  width:100%;
+  margin-left:auto;
+  margin-right:auto;
+}
+#input-output td{
+  vertical-align:top;
+}
+
+/** Transliteration **/
+
+#transbox{
+ border:1px none; 
+ text-align:center;
+}
+
+#transbox select{ border-style:solid;border-width:1px;border-color:#C0C0C0;font-size:14px;width:150px;height:40px; box-shadow: 1px 1px 6px gray;}
+
+#source{
+ width:450px;
+ height:300px;
+ box-shadow: 1px 1px 6px gray;
+ border-radius:3px;
+}
+
+#target{
+ width:450px;
+ height:300px;
+ box-shadow: 1px 1px 6px gray;
+ border-radius:3px;
+}
+
+#transbox input{ border-style:solid;border-width:1px;border-color:#C0C0C0;font-size:14px;width:200px;height:40px; box-shadow: 1px 1px 6px gray;cursor:pointer;}
+
+
+.custom-combobox {
+/* position: relative;
+display: inline-block; */
+}
+.custom-combobox-toggle {
+/* position: absolute; */
+top: 0;
+bottom: 0;
+margin-left: -1px;
+padding: 0;
+}
+.custom-combobox-input {
+margin: 0;
+padding: 5px 10px;
+}
+
+/* Ashtadhyayi simulator code starts from here */
+
+#asht_simul_dashboard{
+ width:100%; 
+ box-shadow: 1px 1px 6px gray;
+ border-radius:3px;
+ }
+
+
+#asht_simul_dashboard table{
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#asht_simul_dashboard td{
+  vertical-align:top;
+}
+
+ 
+#asht_simul_dashboard select{ border-style:solid;border-width:1px;border-color:#C0C0C0;font-size:14px;width:160px;height:40px; box-shadow: 1px 1px 6px gray;cursor:pointer;}
+ 
+
+#asht_simul_dashboard #submit_query{ border-style:solid;border-width:1px;border-color:#C0C0C0;font-size:14px;width:100px;height:40px; box-shadow: 1px 1px 6px gray;cursor:pointer;}
+ #asht_simul_dashboard #rt{border-style:solid;border-width:1px;border-color:#C0C0C0;font-size:14px;width:220px;height:35px; box-shadow: 1px 1px 6px gray;}
+ 
+ /* compound generator code starts from here */
+ 
+ #Alaukika{
+  width:100%;
+  box-shadow: 1px 1px 6px gray;
+  border-radius:3px; 
+ }
+ 
+ #Alaukika select{ border-style:solid;border-width:1px;border-color:#C0C0C0;font-size:20px;width:200px;height:40px; box-shadow: 1px 1px 6px gray;cursor:pointer;}
+ 
+#comp_choice select{ border-style:solid;border-width:1px;border-color:#C0C0C0;font-size:15px;width:100px;height:40px; cursor:pointer;}
+ 
+ 
+#Alaukika #submit_query{ border-style:solid;border-width:1px;border-color:#C0C0C0;font-size:14px;width:100px;height:40px; box-shadow: 1px 1px 6px gray;cursor:pointer;}
+
+#comp_choice #submit_query{ border-style:solid;border-width:1px;border-color:#C0C0C0;font-size:20px;width:250px;height:40px; box-shadow: 1px 1px 6px gray;cursor:pointer;font-color:blue;}
+
+#comp_choice p{
+  font-size:18px;
+  margin-left:20px;
+}
+
+#Alaukika table{
+ width:100%;
+ border:1px none;
+}
+
+#Alaukika td{
+  vertical-align:top;
+}
+
+#Alaukika #vigraha_vAkya_td{
+  width:300px;
+  
+}
+
+#select_vigraha_combo_box{
+  margin-left:20px;
+  width:300px;
+}
+
+#select_vigraha_combo_box table{
+  width:100%; 
+}
+#select_vigraha_combo_box td{
+    padding:10px;
+    width:300px;
+}
+
+#select_vigraha_combo_box{
+    border-style:solid;
+    border-right-style:1px;
+    border-left-style:none;
+    border-top-style:none;
+    border-bottom-style:none;
+}
+
+#comp_output{
+ margin-left:100px;
+}
+
+#comp_choice{
+ width:500px; 
+}
+#comp_choice table{
+  box-shadow: 1px 1px 1px gray;
+  border-radius:3px; 
+}
+
+#comp_choice #questions{
+ width:400px;
+ padding:10px;
+ }
+ 
+ #output2{
+   font-size:15px;
+  box-shadow: 1px 1px 6px gray;
+  border-radius:3px;
+  margin-top:10px;
+ }
+ 
+ #prakriya_output{
+  margin-left:100px; 
+  width:100%;
+  }

@@ -1,0 +1,58 @@
+<div class="input-dashboard">
+<div id="line"> &nbsp;</div>
+<div id="transbox">
+<form id="trans" name="trans" method="post">
+<table>
+<tr>
+<td>
+	<div id="box1">
+		<textarea id="source" name="source" cols="" rows="" placeholder="Copy here the text you want to transliterate"></textarea>
+	</div>
+</td>
+<td>
+	<div id="box2">
+	  <table id="btntable" cellspacing="6" cellpadding="6">
+	  <tr>
+           <td><select name="srclang" id="srclang" class="list">
+               <option value="1">From</option>
+               <option value="Unicode-Devanagari">Unicode-Devanagari</option>
+               <option value="Unicode-Roman-Diacritic">Roman Diacritic(IAST)</option>
+               <option value="WX-Alphabetic">WX-Alphabetic</option>
+               <option value="Itrans">Itrans-5.3</option>
+               <option value="Velthuis">Velthuis</option>
+               <option value="SLP">SLP1</option>
+               <option value="Kyoto-Harvard">Kyoto-Harvard</option>
+               </select></td>
+           </tr>
+           
+           <tr>
+             <td><select name="tarlang" id="tarlang" class="list">
+             <option value="1">To</option>
+               <option value="Unicode-Devanagari">Unicode-Devanagari</option>
+               <option value="Unicode-Roman-Diacritic">Roman Diacritic(IAST)</option>
+               <option value="WX-Alphabetic">WX-Alphabetic</option>
+               <option value="Itrans">Itrans-5.3</option>
+               <option value="Velthuis">Velthuis</option>
+               <option value="SLP">SLP1</option>
+               <option value="Kyoto-Harvard">Kyoto-Harvard</option>
+             </select></td>
+             </tr>
+		<tr>
+            <td align="center"><input type="button" name="transliteration" value="Transliterate" id="transbtn" onclick="return validation()" /></td></tr>
+            <tr><td align="center"><input type="button" value="Reset-All" onclick="set()" /></td></tr>
+	    <tr><td align="center" style="font-size:12px; color:red;"><a href='#' style="color:blue;" onclick="window.open('table.html','Details','width=800, height=500,scrollbars=yes');">Encoding Table</a></td></tr>
+	    <tr><td align="center" style="font-size:12px; color:red;"><a href='#' style="color:blue;" onclick="window.open('transliteration/about.html','Details','width=400, height=500,scrollbars=yes');">About</a></td></tr>
+	    </table>
+	</div>
+</td>
+<td>
+	<div id="box3" >
+		<textarea id="target" name="target" cols="" rows="" placeholder="The transliterated text will appear here."></textarea>
+<!--	<iframe name=results class=results style="width:450px; height:80%;background-color:white;" ></iframe> -->
+      </div>
+</td>
+</table>
+</div>
+</div> <!-- Input dashboard ends here -->
+
+

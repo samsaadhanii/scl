@@ -1,0 +1,27 @@
+This grammar, written in lex-yacc, converts a parsed NN expression into a CG.
+
+The grammar is:
+-------------------------------
+examples: example 
+        | examples example
+        ;
+example: NNE '\n' 
+   ;
+NNE: compoundC	
+   ;
+compoundC: '<' compoundR '-' concept_term '>' 
+	 | '<' concept_term '-' concept_term '>' 
+         ;
+compoundR: '<' concept_term '-' rel_term '>'	
+        ;
+concept_term: NNE	
+	    | concept
+	    ;
+rel_term: sambanXaH	
+	    ;
+------------------------
+This programme producs two type of graphs:
+a) A Concptual graph with relations and concepts shown as nodes, relations connecting the concepts.
+b) A concise graph  where the relations are named on the arrows linking the concepts. Only concepts are marked as nodes.
+-- Amba 
+21/03/2014

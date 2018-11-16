@@ -1,0 +1,29 @@
+						Saṅkṣēpa-Rāmāyaṇam (e-version)
+						--------------------------
+
+Introduction:
+----------
+Welcome to the e-version of Saṅkṣēpa rāmāyaṇam. The e-version captures the salient features of the book viz.
+
+    * पदपाठः (padapāṭhaḥ)
+    * पदपरिचयः (padaparicayaḥ)
+    * आकाङ्क्षा (ākāṅkṣā)
+    * अन्वयः (anvayaḥ)
+
+style of understanding a text, and present them in the e-form.
+
+The advantage of e-version is that the reader has full control over the interface and can choose to display only the relevent part. The department of Sanskrit Studies, in addition has provided the pictorial representation of the कारक (kāraka) analysis as well as समास (samāsa) analysis.
+
+The समास-विग्रह (samāsa-vigrah) is available as a tool-tip along with the picture showing the composition. By placing a cursor on the समास (samāsa), one gets this information. The कारक (kāraka) analysis is available as a link to the sentence numbers.
+
+
+How to use and open :
+----------------
+To open it just find the `sankshepa-ramayanam.html' or 'sankshepa-ramayanam' file inside 'sankshepa-ramayanam' folder and open  `sankshepa-ramayanam.html' or 'sankshepa-ramayanam' file in any web-browser. We recommend mozilla firefox 3+ web-browser because it supports unicode very well. It is freely available and downloadable from internet.
+
+
+Tips for better visualisation of e-version:
+-----------------------------
+*If texts and contentes are not visible properly after opening the sankshepa-ramayanam.html file. Please set your encoding into unicode or UTF-8 on your web-browser.
+
+* Keep your screen resolution 1366 X 768 for best view.

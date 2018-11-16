@@ -1,0 +1,37 @@
+%Part II
+\part{Reactive Transducers}
+
+\section{Introduction}
+
+This second part gives additional tools for manipulating variants of finite-state machines.
+They are a natural extension of the unglueing process presented at the end of Part I.
+
+The general idea is to represent applicatively the state graph of finite-state machines
+as a decorated dictionary. The dictionary, used as spanning tree of the state transition graph,
+is a deterministic subset of this graph. The rest of the structure of the finite-state machine,
+permitting the representation of non-determinism, of loops, and of transducer operations,
+is encoded as attributes decorating the dictionary nodes. This general framework
+of {\sl mixed automata} or {\sl aums}, is described in reference \cite{2003-Huet-3}. 
+Its application to the problem of segmentation and tagging of Sanskrit is described
+in \cite{2004-Huet-1}. 
+
+We provide here various specific examples of this general methodology, and a mechanism
+for composing such finite-state descriptions in a modular fashion \cite{2006-Huet-Razet}.
+
+This methodology has been lifted more recently
+to a very general paradigm of relational 
+programming within the framework of Eilenberg machines by Beno{\^\i}t Razet
+\cite{2008-Huet-Razet, Razet08a, Razet08b, Razet09}.
+
+\section{A simplistic modular Automaton recognizer}
+
+The simplest aum structure is the one reduced to deterministic acyclic finite-state automata,
+where the aum structure is reduced to the underlying dictionary (Trie). Provided all
+states are accessible from the initial one, the reduced structure obtained by applying the
+Sharing functor yields the minimal deterministic automaton. This framework applies to the
+simple but important subcase of finite languages.
+
+We assume known the modules of the first part of the toolkit documentation. 
+
+\subsection{Simplistic aums}
+

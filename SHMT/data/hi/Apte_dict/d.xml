@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dict SYSTEM "apte.dtd">
+<?xml-stylesheet href="apte.css" type="text/css" ?>
+<dict>
+<lexhead no="1">
+<root>डमः</root>
+<prAwipaxikam>डम</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[ड+मा+क]</etymology>
+<sense no="1">एक घृणित और मिश्रित जाति, डोम</sense>
+</lexhead>
+
+<lexhead no="2">
+<root>डमरः</root>
+<prAwipaxikam>डमर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>मृ+अच्=मरम्, डेन त्रासेन मरं पलायनम्</vigraha_vAkya><compound_type>तृ*त*</compound_type></etymology>
+<jAwi>क्रिया</jAwi>
+<sense no="1">झगड़ा, फ़साद, दंगा</sense>
+<sense n="2">भावभंगिमा और ललकारों से शत्रु को भयभीत करना</sense>
+</lexhead>
+
+<lexhead no="3">
+<root>डमरम्</root>
+<prAwipaxikam>डमर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<jAwi>क्रिया</jAwi>
+<sense no="1">डर के कारण भाग जाना, भगदड़</sense>
+</lexhead>
+
+<lexhead no="4">
+<root>डमरुः</root>
+<prAwipaxikam>डमरु</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>डमित्यव्यक्तशब्दम् ऋच्छति</vigraha_vAkya>[ डम्-ऋ+कु]</etymology>
+<upAXi>वाद्योपकरणम्</upAXi>
+<sense no="1">एक प्रकार बाजा, डुगडुगी,  इस वाद्ययंत्र को प्रायः कापालिक साधु बजाया करते हैं। [कभी-कभी नपुं* भी माना जाता है।]</sense>
+</lexhead>
+
+<lexhead no="5">
+<root>डम्ब्</root>
+<prAwipaxikam>डम्ब्</prAwipaxikam>
+<grammar><gaNa>चुरा*</gaNa><paxI>उभ*</paxI><vform>डम्बयति</vform>,<vform>डम्बयते</vform></grammar>
+<sense no="1">फेंकना, भेजना</sense>
+<sense n="2">आदेश देना</sense>
+<sense n="3">देखना</sense>
+<segmenthd>
+<root>विडम्ब्</root>
+<prAwipaxikam>विडम्ब्</prAwipaxikam>
+<seg>वि-डम्ब्</seg>
+<grammar><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
+<sense no="1">अनुकरण करना, नक़ल करना, तुलना करना(तं) ऋतुर्विडम्बयामास न पुनः प्राप तच्छ्रियम्<citation>रघु* ४/१७</citation>वपुःप्रकर्षेण विडम्बितेश्वरः ३/१२, १३/२९, १६/११<citation>कि* ५/४६</citation>१२/३८<citation>शि*१/६</citation>१२/५</sense>
+<sense no="2">हँसी उड़ाना, अवहास करना, खिल्ली उड़ानासम्मोहयन्ति, मदयन्ति, विडम्बयन्ति, निर्भत्सयन्ति रमयन्ति विषादयन्ति<citation>भर्तृ*१/२२</citation>यथा न विडम्ब्यसे जनैः<citation>का*१०९</citation></sense>
+<sense no="3">ठगना, धोखा देनाएवमात्माभिप्रायसम्भावितेष्टजनचित्तवृत्तिः प्रार्थयिता विडम्व्यते<citation>श*२</citation></sense>
+<sense no="4">कष्ट देना, पीड़ा देना</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="6">
+<root>डम्बर</root>
+<prAwipaxikam>डम्बर</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">डम्बर</prAwipaxikam>
+?<etymology>[डम्ब्+अरन्]</etymology>
+<sense no="1">प्रसिद्ध, विख्यात</sense>
+</lexhead>
+
+<lexhead no="7">
+<root>डम्बरः</root>
+<prAwipaxikam>डम्बर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<sense no="1">समवाय, संग्रह, ढेर<citation>मा**९/१६</citation></sense>
+<sense n="2">दिखावा, अहंकार</sense>
+</lexhead>
+
+<lexhead no="8">
+<root>डम्भ्</root>
+<prAwipaxikam>डम्भ्</prAwipaxikam>
+<grammar><gaNa>चुरा*</gaNa><paxI>उभ*</paxI><vform>डम्भयति</vform>,<vform>डम्भयते</vform></grammar>
+<sense no="1">इकट्ठा करना</sense>
+</lexhead>
+
+<lexhead no="9">
+<root>डयनम्</root>
+<prAwipaxikam>डयन</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[डी+ल्युट्]</etymology>
+<kind_of>शकटम्</kind_of>
+<jAwi>चलनिर्जीवः</jAwi>
+<upAXi>वाहनम्</upAXi>
+<sense no="1">उड़ान</sense>
+<sense n="2">डोली, पालकी</sense>
+</lexhead>
+
+<lexhead no="10">
+<root>डवित्थः</root>
+<prAwipaxikam>डवित्थ</prAwipaxikam>
+<grammar>पुं*</grammar>
+<sense no="1">काठ का बारहसिंहा</sense>
+</lexhead>
+
+<lexhead no="11">
+<root>डाकिनी</root>
+<prAwipaxikam>डाकिनी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology><vigraha_vAkya>डाय भयदानाम अकति व्रजति</vigraha_vAkya>[ड+अक्+इनि+ङीप्]</etymology>
+<sense no="1">पिशाचनी, भूतनी</sense>
+</lexhead>
+
+<lexhead no="12">
+<root>डाङ्कृतिः</root>
+<prAwipaxikam>डाङ्कृति</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[डाम्-कृ+क्तिन्]</etymology>
+<sense no="1">घण्टी के बजने की ध्वनि, डिङ्ग-डाङ्ग आदि</sense>
+</lexhead>
+
+<lexhead no="13">
+<root>डामर</root>
+<prAwipaxikam>डामर</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">डामर</prAwipaxikam>
+<etymology>[डमर+अण्]</etymology>
+<sense no="1">डरावना, भयावह, भयानक, पर्याप्तं मयि रमणीयडामरत्वं संधत्ते गगनतलप्रयाणवेगः<citation>मा*५/३</citation></sense>
+<sense n="2">दंगा करने वाला, हुड़दङ्गी</sense>
+<sense n="3">सूरत शक्ल में मिलता-जुलता, अनुरूप AVरतिगलिते ललिते कुसुमानि शिखण्डकडामरे(चिकुरे)<citation>गीत*१२ अर्थात्</citation>मनोहर, सुन्दर</sense>
+</lexhead>
+
+<lexhead no="14">
+<root>डामरः</root>
+<prAwipaxikam>डामर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<sense no="1">हो हल्ला, हंगामा, दंगा, फ़साद</sense>
+<sense n="2">उत्सव के अवसर पर चहल-पहल, लड़ाई झगड़े के अवसर पर खलबली, हलचल</sense>
+</lexhead>
+
+<lexhead no="15">
+<root>डालिमः</root>
+<prAwipaxikam>डालिम</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[=दाडिमः, पृषो*]</etymology>
+<sense no="1">अनार</sense>
+</lexhead>
+
+<lexhead no="16">
+<root>डाहलः</root>
+<prAwipaxikam>डाहल</prAwipaxikam>
+<grammar>पुं*</grammar>
+<sense no="1">एक देश तथा उसके अधिवासी, कीर्तिः समाश्लिष्यति डाहलोर्वीम्<citation>विक्रमांक*१/१०३</citation></sense>
+</lexhead>
+
+<lexhead no="17">
+<root>डिङ्गरः</root>
+<prAwipaxikam>डिङ्गर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<sense no="1">सेवक</sense>
+<sense n="2">बदमाश, ठग, धूर्त</sense>
+<sense n="3">पतित या नीच आदमी</sense>
+</lexhead>
+
+<lexhead no="18">
+<root>डिण्डिमः</root>
+<prAwipaxikam>डिण्डिम</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>डिंडीति शब्दं माति</vigraha_vAkya>[डिण्डि+मा+क]</etymology>
+<upAXi>वाद्योपकरणम्</upAXi>
+<sense no="1">एक प्रकार छोटा ढ़ोल, इति घोषयतीव डिण्डिमः<citation>हि* २/८६</citation>मुखरयस्व यशो नवडिण्डिमम्<citation>नै* ४/५३</citation><citation>अमरु*२८</citation>चण्डि रणिरसनारवडिण्डिममभिसर सरसमलज्जं<citation>गीत*११</citation>आर्यबालचरितप्रस्तावनाडिण्डिमः<citation>महावी*१/५४</citation></sense>
+</lexhead>
+
+<lexhead no="19">
+<root>डिण्डीरः</root>
+<prAwipaxikam>डिण्डीर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[डिण्डि+र, दीर्घः]</etymology>
+<sense no="1">मसिक्षेपी का भीतरी कवच; जो समुद्रफेन की भाँति काम में लाया जाता है</sense>
+?<sense n="2">झाग Mउद्दण्डातेन डिण्डीरे पिण्डपङ्क्तिरदृश्यत<citation>विक्रमांक* ४/६४</citation>२/४</sense>
+</lexhead>
+
+<lexhead no="20">
+<root>डिण्डिरः</root>
+<prAwipaxikam>डिण्डिर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[डिण्डि+र ]</etymology>
+<sense no="1">मसिक्षेपी का भीतरी कवच; जो समुद्रफेन की भाँति काम में लाया जाता है</sense>
+?<sense n="2">झाग Mउद्दण्डातेन डिण्डीरे पिण्डपङ्क्तिरदृश्यत<citation>विक्रमांक* ४/६४</citation>२/४</sense>
+</lexhead>
+
+<lexhead no="21">
+<root>डिमः</root>
+<prAwipaxikam>डिम</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[डिम्+क]</etymology>
+<sense no="1">दस प्रकार के नाटकों मे से एक, मायेन्द्रजालसंग्रामक्रोधाद् भ्रान्तादिचेष्टितः, उपरागश्च भूयिष्ठोडिमः ख्यातोऽतिवृत्तकः<citation>सा*द* ५/१७</citation></sense>
+</lexhead>
+
+<lexhead no="22">
+<root>डिम्बः</root>
+<prAwipaxikam>डिम्ब</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[डिम्ब्+घञ्]</etymology>
+<jAwi>क्रिया</jAwi>
+<sense no="1">दंगा, फ़साद</sense>
+<sense n="2">कोलाहल, भय के कारण चीत्कार</sense>
+<sense n="3">छोटा बच्चा या छोटा जानवर</sense>
+<sense n="4">अण्डा</sense>
+<sense n="5">गोला, गेंद, पिण्ड</sense>
+<segmenthd>
+<root>डिम्बावहः</root>
+<prAwipaxikam>डिम्बावह</prAwipaxikam>
+<seg>डिम्बः-आहवः</seg>
+<grammar>पुं*</grammar>
+<sense no="4">मामूली लड़ाई, झड़प, खटपट, मुठभेड़, झूठमूठ की लड़ाई M<citation>मनु*५/९५ बिना शस्त्र प्रयोग के</citation></sense>
+</segmenthd>
+<segmenthd>
+<root>डिम्बयुद्धम्</root>
+<prAwipaxikam>डिम्बयुद्ध</prAwipaxikam>
+<seg>डिम्बः-युद्धम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">मामूली लड़ाई, झड़प, खटपट, मुठभेड़, झूठमूठ की लड़ाई F<citation>मनु*५/९६ बिना शस्त्र प्रयोग के</citation></sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="23">
+<root>डिम्बिका</root>
+<prAwipaxikam>डिम्बिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[डिम्+ण्वुल्+टाप्, इत्वम्]</etymology>
+<sense no="1">कामुकी स्त्री</sense>
+<sense n="2">बुलबुला</sense>
+</lexhead>
+
+<lexhead no="24">
+<root>डिम्भः</root>
+<prAwipaxikam>डिम्भ</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[डिम्+अच्]</etymology>
+<kind_of>मनुष्यः</kind_of>
+<jAwi>मानसिकभावः</jAwi>
+<jAwi>चलसजीवः</jAwi>
+<sense no="1">छोटा बच्चा</sense>
+<sense n="2">कोई छोटा जानवर जैसे शेर का बच्चा Mजृंम्भस्व रे डिम्भ दन्तांस्ते गणयिष्यामि<citation>श* ७</citation></sense>
+<sense n="3">मूर्ख, बुद्धू</sense>
+</lexhead>
+
+<lexhead no="25">
+<root>डिम्भकः</root>
+<prAwipaxikam>डिम्भक</prAwipaxikam>
+<grammar>पुं*</grammar>
+?<etymology>[डिम्भ्+ण्वुल्, स्त्रिया टाप् इत्वं च]</etymology>
+<sense no="1">एक छोटा बच्चा</sense>
+<sense n="2">जानवर का छोटा बच्चा</sense>
+</lexhead>
+
+<lexhead no="26">
+<root>डी</root>
+<prAwipaxikam>डी</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><gaNa>दिवा*</gaNa><paxI>आ*</paxI><vform>डयते</vform>,<vform>डीयते</vform>,<vform>डीन</vform></grammar>
+<sense no="1">उड़ना, हवा में से गुज़रना</sense>
+<sense n="2">जाना</sense>
+<segmenthd>
+<root>उड्डी</root>
+<prAwipaxikam>उड्डी</prAwipaxikam>
+<seg>उद्-डी</seg>
+<grammar><gaNa>भ्वा*</gaNa><gaNa>दिवा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">हवा में उड़ना, ऊपर उड़नासर्वैरुड्डीयताम्<citation>हि*१</citation>(हंसैः) उदडीयत वैकृतात्करग्रहजासस्य विकस्वरस्वरैः<citation>नै*२/५</citation></sense>
+</segmenthd>
+<segmenthd>
+<root>प्रडी</root>
+<prAwipaxikam>प्रडी</prAwipaxikam>
+<seg>प्र-डी</seg>
+<grammar><gaNa>भ्वा*</gaNa><gaNa>दिवा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">ऊपर उड़नाहंसैः प्रडीनैरिव<citation>मृच्छ*५/५</citation></sense>
+</segmenthd>
+<segmenthd>
+<root>प्रोड्डी</root>
+<prAwipaxikam>प्रोड्डी</prAwipaxikam>
+<seg>प्रोद्-डी</seg>
+<grammar><gaNa>भ्वा*</gaNa><gaNa>दिवा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">ऊपर उड़ जानाप्रोड्डीयेव बलाकया सरभसं सोत्कण्ठमालिङ्गितः- २३</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="27">
+<root>डीन</root>
+<prAwipaxikam>डीन</prAwipaxikam>
+<grammar>भू* क* कृ*</grammar>
+<etymology>[डी+क्त]</etymology>
+<sense no="1">उड़ा हुआ, पक्षियों की उड़ान १०१ प्रकार की बताई गई हैं, किसी भी विशेष उड़ान को प्रकट करने के लिए ’डीन’ से पूर्व उपयुक्त उपसर्ग लगा दिया जाता है-उदा* अवडीनम्, उड्डीनम्, प्रडीनम्, अभिडीनम्, विडीनम्, परिडीनम्, पराडीनम् आदि</sense>
+</lexhead>
+
+<lexhead no="28">
+<root>डीनम्</root>
+<prAwipaxikam>डीन</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<sense no="1">पक्षी की उड़ान</sense>
+</lexhead>
+
+<lexhead no="29">
+<root>डुण्डुभः</root>
+<prAwipaxikam>डुण्डुभ</prAwipaxikam>
+<grammar>पुं*</grammar>
+?<etymology>[डुण्डु+भा+क]</etymology>
+<kind_of>सर्पः</kind_of>
+<jAwi>सरीसृपः</jAwi>
+<sense no="1">साँपों का एक प्रकार जिनमें ज़हर नहीं होता, निर्विषाः डुण्डुभाः स्मृताः</sense>
+</lexhead>
+
+<lexhead no="30">
+<root>डुलिः</root>
+<prAwipaxikam>डुलि</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[ =ढुलिः पृषो*]</etymology>
+<kind_of>जलचरमात्रः</kind_of>
+<jAwi>उभयचरः</jAwi>
+<sense no="1">एक छोटी कछवी</sense>
+</lexhead>
+
+<lexhead no="31">
+<root>डोमः</root>
+<prAwipaxikam>डोम</prAwipaxikam>
+<grammar>पुं*</grammar>
+<sense no="0">अत्यन्त नीच जाति का पुरुष</sense>
+</lexhead>
+
+</dict>
