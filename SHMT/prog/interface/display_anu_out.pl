@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 
-$CSSPATH = "/scl/SHMT/";
-$CGIPATH = "/cgi-bin/scl/SHMT/";
+$CSSPATH = "/scl/SHMT";
+$CGIPATH = "/cgi-bin/scl/SHMT";
 
 $pid = $ARGV[0];
 $TFPATH = $ARGV[1];
