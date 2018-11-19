@@ -2,29 +2,29 @@
 
 source ./spec.txt
 
-echo "value sclinstalldir = \"$SCLINSTALLDIR\"\n" > ./skt_gen/Sentence/paths.ml
-echo "and ltprocbin = \"$LTPROCBIN\" ;\n" >> ./skt_gen/Sentence/paths.ml
+echo "value sclinstalldir = \"$SCLINSTALLDIR\"" > ./skt_gen/Sentence/paths.ml
+echo "and ltprocbin = \"$LTPROCBIN\" ;" >> ./skt_gen/Sentence/paths.ml
 
-echo "value sclinstalldir = \"$SCLINSTALLDIR\"; \n"; > ./SHMT/prog/kAraka/Prepare_Graph/paths.ml
+echo "value sclinstalldir = \"$SCLINSTALLDIR\";"; > ./SHMT/prog/kAraka/Prepare_Graph/paths.ml
 
-echo "#define SCLINSTALLDIR \"$SCLINSTALLDIR\"\n" > ./skt_gen/compounds/paths.h
-echo "#define TFPATH \"$TFPATH\"\n" >> ./skt_gen/compounds/paths.h
-echo "#define LTPROCBIN \"$LTPROCBIN\"\n" >> ./skt_gen/compounds/paths.h
+echo "#define SCLINSTALLDIR \"$SCLINSTALLDIR\"" > ./skt_gen/compounds/paths.h
+echo "#define TFPATH \"$TFPATH\"" >> ./skt_gen/compounds/paths.h
+echo "#define LTPROCBIN \"$LTPROCBIN\"" >> ./skt_gen/compounds/paths.h
 
-echo "#!/usr/bin/env perl\n" > ./paths.pl
-echo "package GlblVar\n" >> ./paths.pl
-echo "\$SCLINSTALLDIR=\"$SCLINSTALLDIR\"\n" >> ./paths.pl
-echo "\$HTDOCSDIR=\"$HTDOCSDIR\"\n" >> ./paths.pl
-echo "\$LTPROCBIN=\"$LTPROCBIN\"\n" >> ./paths.pl
-echo "\$GraphvizDot=\"$GraphvizDot\"\n" >> ./paths.pl
-echo "\$HERITAGE_CGIURL=\"$HERITAGE_CGIURL\"\n" >> ./paths.pl
-echo "\$TFPATH=\"$TFPATH\"\n" >> ./paths.pl
+echo "#!/usr/bin/env perl" > ./paths.pl
+echo "package GlblVar" >> ./paths.pl
+echo "\$SCLINSTALLDIR=\"$SCLINSTALLDIR\"" >> ./paths.pl
+echo "\$HTDOCSDIR=\"$HTDOCSDIR\"" >> ./paths.pl
+echo "\$LTPROCBIN=\"$LTPROCBIN\"" >> ./paths.pl
+echo "\$GraphvizDot=\"$GraphvizDot\"" >> ./paths.pl
+echo "\$HERITAGE_CGIURL=\"$HERITAGE_CGIURL\"" >> ./paths.pl
+echo "\$TFPATH=\"$TFPATH\"" >> ./paths.pl
 
-echo "\$SCLINSTALLDIR=\"$SCLINSTALLDIR\"\n" > ./paths.sh
-echo "\$LTPROCBIN=\"$LTPROCBIN\"\n" >> ./paths.sh
-echo "\$TFPATH=\"$TFPATH\"\n" >> ./paths.sh
-echo "\$HTDOCSDIR=\"$HTDOCSDIR\"\n" >> ./paths.sh
-echo "\$JAVAPATH=\"$JAVAPATH\"\n" >> ./paths.sh
-echo "\$CGIDIR=\"$CGIDIR\"\n" >> ./paths.sh
-echo "\$GraphvizDot=\"$GraphvizDot\"\n" >> ./paths.sh
-echo "\$APACHE_USER_GROUP=\"$APACHE_USER_GROUP\"\n" >> ./paths.sh
+echo "\$SCLINSTALLDIR=\"$SCLINSTALLDIR\"" > ./paths.sh
+echo "\$LTPROCBIN=\"$LTPROCBIN\"" >> ./paths.sh
+echo "\$TFPATH=\"$TFPATH\"" >> ./paths.sh
+echo "\$HTDOCSDIR=\"$HTDOCSDIR\"" >> ./paths.sh
+echo "\$JAVAPATH=\"$JAVAPATH\"" >> ./paths.sh
+echo "\$CGIDIR=\"$CGIDIR\"" >> ./paths.sh
+echo "\$GraphvizDot=\"$GraphvizDot\"" >> ./paths.sh
+echo "\$APACHE_USER_GROUP=\"$APACHE_USER_GROUP\"" >> ./paths.sh
