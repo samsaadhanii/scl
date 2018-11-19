@@ -19,6 +19,3 @@ GraphvizDot=/usr/bin/dot
 
 #Path for temporary files
 TFPATH=/tmp/SKT_TEMP
-
-#Counter
-COUNTER=statcounter_dummy.js

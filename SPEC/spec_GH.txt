@@ -22,6 +22,3 @@ HERITAGE_CGIURL=http://localhost/cgi-bin/SKT/sktgraph.cgi
 
 #Path for temporary files
 TFPATH=/private/tmp/SKT_TEMP
-
-#Counter
-COUNTER=statcounter_dummy.js
