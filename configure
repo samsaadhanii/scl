@@ -12,13 +12,13 @@ echo "#define TFPATH \"$TFPATH\"" >> ./skt_gen/compounds/paths.h
 echo "#define LTPROCBIN \"$LTPROCBIN\"" >> ./skt_gen/compounds/paths.h
 
 echo "#!/usr/bin/env perl" > ./paths.pl
-echo "package GlblVar" >> ./paths.pl
-echo "\$SCLINSTALLDIR=\"$SCLINSTALLDIR\"" >> ./paths.pl
-echo "\$HTDOCSDIR=\"$HTDOCSDIR\"" >> ./paths.pl
-echo "\$LTPROCBIN=\"$LTPROCBIN\"" >> ./paths.pl
-echo "\$GraphvizDot=\"$GraphvizDot\"" >> ./paths.pl
-echo "\$HERITAGE_CGIURL=\"$HERITAGE_CGIURL\"" >> ./paths.pl
-echo "\$TFPATH=\"$TFPATH\"" >> ./paths.pl
+echo "package GlblVar;" >> ./paths.pl
+echo "\$SCLINSTALLDIR=\"$SCLINSTALLDIR\";" >> ./paths.pl
+echo "\$HTDOCSDIR=\"$HTDOCSDIR\";" >> ./paths.pl
+echo "\$LTPROCBIN=\"$LTPROCBIN\";" >> ./paths.pl
+echo "\$GraphvizDot=\"$GraphvizDot\";" >> ./paths.pl
+echo "\$HERITAGE_CGIURL=\"$HERITAGE_CGIURL\";" >> ./paths.pl
+echo "\$TFPATH=\"$TFPATH\";" >> ./paths.pl
 
 echo "SCLINSTALLDIR=$SCLINSTALLDIR" > ./paths.sh
 echo "LTPROCBIN=$LTPROCBIN" >> ./paths.sh
