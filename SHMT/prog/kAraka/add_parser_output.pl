@@ -24,7 +24,7 @@
 #use GDBM_File;
 
 #tie(%kAraka_name,GDBM_File,"$ARGV[1]/kAraka_name.gdbm",GDBM_READER,0644) || die "Can't open $ARGV[1]/kAraka_name.dbm for reading";
-open(TMP,"$ARGV[1]/kAraka_names.txt") || die "Can't open $ARGV[1]/kAraka_names.txt for reading";
+open(TMP,"$ARGV[1]") || die "Can't open $ARGV[1] for reading";
 while(<TMP>) {
 chomp;
 if(/^([^ ]+) ([0-9]+)/){

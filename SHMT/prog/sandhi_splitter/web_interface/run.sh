@@ -48,5 +48,5 @@ cut -f1 most_probable_output.txt | $PROG_PATH/web_interface/add_tooltip.pl mo_di
 tail -n +3 full_output | cut -f1 | $PROG_PATH/web_interface/add_tooltip.pl mo_display | $SCLINSTALLDIR/converters/ri_skt | $SCLINSTALLDIR/converters/iscii2utf8.py 1 > all_possible_outputs.txt
 
 #if [ $DEBUG = "OFF" ] ; then
-# rm expected_output expected_output_notfound words_notdone wordwx wordwx.1 words_notdone temp_result most_probable_output.txt todelete rank_percentages percent_discards full_output
+rm expected_output expected_output_notfound wordwx wordwx.1 words_notdone temp_result most_probable_output.txt todelete rank_percentages percent_discards full_output temp_result_mo mo_display
 #fi

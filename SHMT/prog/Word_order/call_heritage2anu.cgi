@@ -33,21 +33,12 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
  my $display = "";
 
 read(STDIN, $b, $ENV{'CONTENT_LENGTH'});
-# open (TMP,">/tmp/1");
- #if (param()){
- #  foreach my $p (param()){
- #   if($p eq "DISPLAY") { $display = param($p);}
- #   else {$buffer .= param($p);}
- #  }
 
  if (param()){
    foreach my $p (param()){
     if($p eq "DISPLAY") { $display = param($p);}
     else {$buffer .= param($p);}
   }
-# print TMP "buffer = $buffer";
-# print TMP "display = $display";
-# close(TMP);
  my $pid = $$;
  system("mkdir -p $GlblVar::TFPATH/tmp_in$pid");
 
@@ -57,11 +48,6 @@ read(STDIN, $b, $ENV{'CONTENT_LENGTH'});
 
 if($display eq "") { $display = "DEV";}
 
-#open (TMP,">/tmp/111");
-#print TMP $buffer,"\n";
-#print TMP $display,"\n";
-#close TMP;
- 
  system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/Heritage_anu_skt_hnd.sh in$pid $GlblVar::TFPATH $display Full Prose NOECHO ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
 
  system("$GlblVar::SCLINSTALLDIR/SHMT/prog/interface/display_anu_out.pl $pid $GlblVar::TFPATH");

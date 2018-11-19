@@ -60,17 +60,19 @@ $ANU_MT_PATH/kAraka/kaaraka_sharing.pl $SCLINSTALLDIR $ANU_MT_PATH/kAraka/list_n
  fi
  
  #$ANU_MT_PATH/kAraka/add_parser_output.pl $SCLINSTALLDIR $ANU_MT_PATH/kAraka/gdbm_n $TMP_FILES_PATH/parser_files/parseop$j.txt 1 $GH_INPUT < $TMP_FILES_PATH/parser_files/morph$j.out |\
- $ANU_MT_PATH/kAraka/add_parser_output.pl $SCLINSTALLDIR $ANU_MT_PATH/kAraka/list_n $TMP_FILES_PATH/parser_files/parseop$j.txt 1 $GH_INPUT < $TMP_FILES_PATH/parser_files/morph$j.out |\
+ $ANU_MT_PATH/kAraka/add_parser_output.pl $SCLINSTALLDIR $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt $TMP_FILES_PATH/parser_files/parseop$j.txt 1 $GH_INPUT < $TMP_FILES_PATH/parser_files/morph$j.out |\
   $ANU_MT_PATH/kAraka/add_abhihita_info.pl |\
   $ANU_MT_PATH/kAraka/disambiguate_hewu_karaNa.pl $SCLINSTALLDIR $SHMT_PATH/data/hi > $TMP_FILES_PATH/parser_files/morph${j}_1.out 
  
 $ANU_MT_PATH/kAraka/prepare_dot_files.sh $SCLINSTALLDIR $GraphvizDot $OUTSCRIPT $j mk_kAraka_help.pl $TMP_FILES_PATH/parser_files/morph$j.out $TMP_FILES_PATH/parser_files/parseop$j.txt $TMP_FILES_PATH 1
 cat $TMP_FILES_PATH/parser_files/morph${j}_1.out >> $TMP_FILES_PATH/$5.1
+#rm $TMP_FILES_PATH/parser_files/morph${j}_1.out
+#rm $TMP_FILES_PATH/parser_files/morph$j.out
 done
  
  mv $TMP_FILES_PATH/$5.1 $TMP_FILES_PATH/$5
 else
  touch $TMP_FILES_PATH/parser_files/parseop.txt
- $ANU_MT_PATH/kAraka/handle_no_parse.pl < $TMP_FILES_PATH/$5 > $TMP_FILES_PATH/ttt
- $ANU_MT_PATH/kAraka/add_parser_output.pl $ANU_MT_PATH/kAraka/gdbm_n $TMP_FILES_PATH/parser_files/parseop.txt 1 $GH_INPUT <$TMP_FILES_PATH/ttt > $TMP_FILES_PATH/$5
+ $ANU_MT_PATH/kAraka/handle_no_parse.pl < $TMP_FILES_PATH/$5 |\
+ $ANU_MT_PATH/kAraka/add_parser_output.pl $ANU_MT_PATH/kAraka/list_n $TMP_FILES_PATH/parser_files/parseop.txt 1 $GH_INPUT > $TMP_FILES_PATH/$5
 fi

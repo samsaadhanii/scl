@@ -179,8 +179,8 @@ cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
   perl -p -e $cmd1 |\
   perl -p -e $cmd2 > $temp_files_path/../$3.html
 
-#if [ $DEBUG = "OFF" ]; then 
-#   rm -rf $temp_files_path/tmp* $temp_files_path/ERR $temp_files_path/in* ERR* $temp_files_path/debug_hindi_gen ${fbn} tmp
-#fi
 $ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out | $my_converter > $temp_files_path/table.csv
+#if [ $DEBUG = "OFF" ]; then 
+   rm -rf $temp_files_path/tmp* $temp_files_path/in* $temp_files_path/wsd_files
+#fi
 fi

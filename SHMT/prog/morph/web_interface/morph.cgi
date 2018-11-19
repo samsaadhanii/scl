@@ -70,8 +70,9 @@ print TMP1 $word_wx;
 chomp($word_wx);
 $ans = `$GlblVar::SCLINSTALLDIR/SHMT/prog/morph/webrun_morph.sh $word_wx`;
 print TMP1 $ans;
+close(TMP1);
+
 chomp($ans);
-  close(TMP1);
 
 print "<table style=\"border-collapse: collapse;\" bordercolor='brown' valign='middle' bgcolor='#297e96' border='1' cellpadding='2' cellspacing='2' >
 <tr>";

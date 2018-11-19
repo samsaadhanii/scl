@@ -141,6 +141,6 @@ $ANU_MT_PATH/kAraka/shabdabodha.sh $SCLINSTALLDIR $GraphvizDot $Heritage_Input $
   perl -p -e $cmd2  > $temp_files_path/../$1.html
 
 #if [ $DEBUG = "OFF" ]; then 
-#   rm -rf $temp_files_path/tmp* $temp_files_path/ERR $temp_files_path/in* ERR* $temp_files_path/debug_hindi_gen ${fbn} tmp
+   rm -rf $temp_files_path/tmp* $temp_files_path/in* $temp_files_path/wor.* $temp_files/wsd_files
 #fi
 $ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out | $my_converter > $temp_files_path/table.csv

@@ -21,7 +21,7 @@ require "../paths.pl";
 package main;
 use CGI qw/:standard/;
 
-my $version = "DEVELOP";
+#my $version = "DEVELOP";
 
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";

@@ -2,11 +2,10 @@
 *.out
 *.gdbm
 *.class
-./converters/ir
-./converters/ir_skt
-./converters/ri
-./converters/ri_skt
-./GOLD_DATA
+converters/ir
+converters/ir_skt
+converters/ri
+converters/ri_skt
 *.output
 *.tab.c
 *.dbm
