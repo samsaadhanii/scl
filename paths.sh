@@ -1,9 +1,0 @@
-SCLINSTALLDIR=/home/ambaji/scl
-LTPROCBIN=/usr/bin/lt-proc
-HERITAGE_PATH=/home/ambaji/SKT/Heritage_Platform/
-TFPATH=/tmp/SKT_TEMP
-JAVAPATH=/usr/bin/javac
-CGIDIR=/usr/lib/cgi-bin
-HTDOCSDIR=/var/www/html
-GraphvizDot=/usr/bin/dot
-APACHE_USER_GROUP=www-data:www-data
