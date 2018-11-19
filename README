@@ -15,7 +15,6 @@ python
 xsltproc
 
 Perl modules:
-GDBM_File.pm
 CGI.pm
 
 Ocaml
@@ -34,9 +33,9 @@ b) cp appropriate SPEC/spec*.txt file to scl directory. Name it as spec.txt
 
 c) ./configure 
 
-d) make server
+d) make
 
-e) sudo make install_server
+e) sudo make
 
 All the packages are available under GPL. You would have received a copy of GPL license with this package.
 

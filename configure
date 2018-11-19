@@ -28,3 +28,7 @@ echo "JAVAPATH=$JAVAPATH" >> ./paths.sh
 echo "CGIDIR=$CGIDIR" >> ./paths.sh
 echo "GraphvizDot=$GraphvizDot" >> ./paths.sh
 echo "APACHE_USER_GROUP=$APACHE_USER_GROUP" >> ./paths.sh
+
+echo "For compilation run"
+echo "make"
+echo "sudo make install"
