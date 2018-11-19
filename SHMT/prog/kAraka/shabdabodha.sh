@@ -53,7 +53,7 @@ j=`basename $i .clp`
 $ANU_MT_PATH/kAraka/Prepare_Graph/build_graph $TMP_FILES_PATH/parser_files/ $9 < $i  |\
 #$ANU_MT_PATH/kAraka/kaaraka_sharing_Sawq_kwa.pl morph$j.out $ANU_MT_PATH/kAraka/gdbm_n |\
 #$ANU_MT_PATH/kAraka/kaaraka_sharing.pl $SCLINSTALLDIR $ANU_MT_PATH/kAraka/gdbm_n/kAraka_name.gdbm  $ANU_MT_PATH/kAraka/gdbm_n/kAraka_num.gdbm > $TMP_FILES_PATH/parser_files/parseop$j.txt
-$ANU_MT_PATH/kAraka/kaaraka_sharing.pl $SCLINSTALLDIR $ANU_MT_PATH/kAraka/list_n> $TMP_FILES_PATH/parser_files/parseop$j.txt
+$ANU_MT_PATH/kAraka/kaaraka_sharing.pl $SCLINSTALLDIR $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt > $TMP_FILES_PATH/parser_files/parseop$j.txt
 
  if [ $ECHO = "ECHO" ] ; then
       echo "calling constraint solver to solve the equations"
@@ -74,5 +74,5 @@ done
 else
  touch $TMP_FILES_PATH/parser_files/parseop.txt
  $ANU_MT_PATH/kAraka/handle_no_parse.pl < $TMP_FILES_PATH/$5 |\
- $ANU_MT_PATH/kAraka/add_parser_output.pl $ANU_MT_PATH/kAraka/list_n $TMP_FILES_PATH/parser_files/parseop.txt 1 $GH_INPUT > $TMP_FILES_PATH/$5
+ $ANU_MT_PATH/kAraka/add_parser_output.pl $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt $TMP_FILES_PATH/parser_files/parseop.txt 1 $GH_INPUT > $TMP_FILES_PATH/$5
 fi
