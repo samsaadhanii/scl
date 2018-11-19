@@ -63,15 +63,3 @@ install:
 	mkdir -p $(CGIDIR)/scl/ashtadhyayi_simulator
 	cp ../web_interface/*.html $(HTDOCSDIR)/scl/ashtadhyayi_simulator
 	cp ../web_interface/*.cgi $(CGIDIR)/scl/ashtadhyayi_simulator
-
-debian_install:
-	mkdir -p /tmp/scl/$(HTDOCSDIR)/scl/ashtadhyayi_simulator
-	mkdir -p /tmp/scl/$(CGIDIR)/scl/ashtadhyayi_simulator
-	cp ../web_interface/*.html /tmp/scl/$(HTDOCSDIR)/scl/ashtadhyayi_simulator
-	cp ../web_interface/*.cgi /tmp/scl/$(CGIDIR)/scl/ashtadhyayi_simulator
-
-web_install:
-	mkdir -p $(HTDOCSDIR)/scl/ashtadhyayi_simulator
-	mkdir -p $(CGIDIR)/scl/ashtadhyayi_simulator
-	cp ../web_interface/*.html $(HTDOCSDIR)/scl/ashtadhyayi_simulator
-	cp ../web_interface/*.cgi $(CGIDIR)/scl/ashtadhyayi_simulator

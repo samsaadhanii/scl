@@ -6,7 +6,7 @@
 ##sh N1 $i | wc
 #done
 
-/home/ambaji/scl/converters/utf82wx.sh < $1 > $1_wx
+/home/ambaji/scl/converters/utf82wx.sh /home/ambaji/scl < $1 > $1_wx
 
 grep ' puM\*' $1_wx > masc
 grep ' napuM\*' $1_wx >> neut
