@@ -27,7 +27,7 @@
 #tie(%kAraka_name,GDBM_File,"$ARGV[1]",GDBM_READER,0644) || die "Can't open $ARGV[1] for reading";
 #tie(%kAraka_num,GDBM_File,"$ARGV[2]",GDBM_READER,0644) || die "Can't open $ARGV[2] for reading";
 
-open(TMP,"$ARGV[1]/kAraka_names.txt") || die "Can't open $ARGV[1]/kAraka_name.txt for reading";
+open(TMP,"$ARGV[1]") || die "Can't open $ARGV[1] for reading";
 while(<TMP>) {
 chomp;
 if(/^([^ ]+) ([0-9]+)/){
