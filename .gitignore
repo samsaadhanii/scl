@@ -11,6 +11,7 @@ converters/ri_skt
 *.dbm
 *.cmi
 *.cmx
+*.cmo
 spec.txt
 **/OLD_versions
 **/TEST_DATA
@@ -19,4 +20,8 @@ spec.txt
 **/UNUSED
 **/DEBUG
 **/WIP
+**/OLD_Versions
 **/Makefile.stage2
+skt_gen/Sentence/sentence_generator
+skt_gen/Sentence/dump
+SHMT/prog/wsd/wsd
