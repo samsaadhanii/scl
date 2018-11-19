@@ -5,7 +5,7 @@ source ./spec.txt
 echo "value sclinstalldir = \"$SCLINSTALLDIR\"" > ./skt_gen/Sentence/paths.ml
 echo "and ltprocbin = \"$LTPROCBIN\" ;" >> ./skt_gen/Sentence/paths.ml
 
-echo "value sclinstalldir = \"$SCLINSTALLDIR\";"; > ./SHMT/prog/kAraka/Prepare_Graph/paths.ml
+echo "value sclinstalldir = \"$SCLINSTALLDIR\";" > ./SHMT/prog/kAraka/Prepare_Graph/paths.ml
 
 echo "#define SCLINSTALLDIR \"$SCLINSTALLDIR\"" > ./skt_gen/compounds/paths.h
 echo "#define TFPATH \"$TFPATH\"" >> ./skt_gen/compounds/paths.h
