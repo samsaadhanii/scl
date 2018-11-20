@@ -44,8 +44,6 @@ read(STDIN, $b, $ENV{'CONTENT_LENGTH'});
 
  system("echo '$buffer' | $GlblVar::SCLINSTALLDIR/SHMT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $GlblVar::SCLINSTALLDIR > $GlblVar::TFPATH/tmp_in$pid/in$pid.out");
 
- system("cp /tmp/SKT_TEMP/tmp_in$pid/in$pid.out /tmp/SKT_TEMP/tmp_in$pid/in$pid.out.bak");
-
 if($display eq "") { $display = "DEV";}
 
  system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/Heritage_anu_skt_hnd.sh in$pid $GlblVar::TFPATH $display Full Prose NOECHO ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
