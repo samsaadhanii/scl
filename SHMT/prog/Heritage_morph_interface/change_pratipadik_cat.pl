@@ -70,10 +70,7 @@ while($in = <TMP>){
 }
 close(TMP);
 
-#open (TMP,">/tmp/aa")|| die "Can't open /tmp/aa for writing\n";
-#print TMP "TTT\n";
 while($in = <STDIN>){
-#  print TMP $in;
   chomp($in);
   if($in) {
    ($no,$pretag,$sword,$word,$posttag,$ana) = split(/\t/,$in);

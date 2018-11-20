@@ -17,11 +17,8 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 SCLINSTALLDIR=$1
-#echo $SCLINSTALLDIR > /tmp/a
 MY_PATH=$SCLINSTALLDIR/SHMT/prog/Heritage_morph_interface
 
-#$MY_PATH/../Word_order/change_word_order.pl $1 $2 |\
 $MY_PATH/Heritage_anusaaraka_morph.out |\
-#$MY_PATH/change_pratipadik_cat.pl $SCLINSTALLDIR $MY_PATH/Heritage_anusaaraka.gdbm $MY_PATH/../morph/rUDa_kqw.gdbm $MY_PATH/fem_pratipadik_Heritage_anusaaraka_map.txt $MY_PATH/pratipadika_heritage_anusaaraka_map.txt |\
 $MY_PATH/change_pratipadik_cat.pl $SCLINSTALLDIR $MY_PATH/mapping_Heritage_saMsAdhanii_WX.txt $MY_PATH/../morph/rUDa_kqw.txt $MY_PATH/fem_pratipadik_Heritage_anusaaraka_map.txt $MY_PATH/pratipadika_heritage_anusaaraka_map.txt |\
 $MY_PATH/postprocess.pl | $MY_PATH/add_end_s_tag.pl
