@@ -70,7 +70,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
       my $cgi = new CGI;
       if($morph eq "GH") {
          $sentences =~ s/\.//;
-         $cmd = "/cgi-bin/SKT/sktgraph?lex=SH\&cache=t\&st=t\&us=f\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=g";
+         $cmd = "$GlblVar::HERITAGE_CGIURL?lex=SH\&cache=t\&st=t\&us=f\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=g";
          print CGI-> redirect($cmd);
       } else {
          system("mkdir -p $GlblVar::TFPATH/tmp_in$pid");
