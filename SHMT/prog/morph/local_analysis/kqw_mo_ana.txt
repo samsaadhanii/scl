@@ -42,7 +42,6 @@ anupAlayaw	pAl<upasarga:anu><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:pAl><gaNa
 anuxarSayan	xqS1<upasarga:anu><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:xqSizr><gaNaH:BvAxiH><level:0>
 avalokayan	lok2<upasarga:ava><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:lokqz><gaNaH:curAxiH>
 vilapan	lap1<upasarga:vi><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:lapaz><gaNaH:BvAxiH><level:0>
-vinirmiwam	mA1<upasarga:vi_nnir><kqw_prawyayaH:kwa><lifgam:puM><XAwuH:mA><gaNaH:axAxiH>
 vinaSyanwam	naS1<upasarga:vi><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:NaSaz><gaNaH:xivAxiH>
 vinaSyaw	naS1<upasarga:vi><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:kRipaz><gaNaH:BvAxiH><level:0>
 vinaSyawsu	naS1<upasarga:vi><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:NaSaz><gaNaH:xivAxiH>

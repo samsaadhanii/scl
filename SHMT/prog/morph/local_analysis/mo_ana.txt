@@ -1,3 +1,5 @@
+vinirmiwam      mA1<upasarga:vi_nir><kqw_prawyayaH:kwa><XAwuH:mA><gaNaH:axAxiH><kqw_pratipadika:vinirmiwa><vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:2>
+paryatan      at1<upasarga:pari><kqw_prawyayaH:Sawq><XAwuH:ataz><gaNaH:BvAxiH><kqw_pratipadika:paryataw><vargaH:nA><lifgam:napuM><viBakwiH:1><vacanam:1>
 aBijAwa	aBijAwa<vargaH:nA><lifgam:puM><viBakwiH:8><vacanam:eka><level:1>/<krw_vrb_rt:jan3><upasarga:aBi><kqw_prawyayaH:kwa><XAwuH:janIz><gaNaH:xivAxiH>aBijAwa<vargaH:nA><lifgam:puM><viBakwiH:8><vacanam:eka><level:1>
 nirAsWaw	RTA1<upasarga:nir><prayogaH:karwari><lakAraH:luf><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:RTA><gaNaH:BvAxiH><level:1>
 vyajeRta	ji1<upasarga:vi><prayogaH:karwari><lakAraH:luf><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:jI><gaNaH:BvAxiH><level:1>
