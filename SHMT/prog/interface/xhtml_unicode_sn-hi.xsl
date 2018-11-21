@@ -30,14 +30,14 @@ Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
   <form action="" onsubmit="goto_section(); return false;">
     <p>
       <center>
-      <a id="about" href="http://localhost/scl/SHMT/about.html" target="_new">About</a>
-      <a id="help" href="http://localhost/scl/SHMT/anu_help.html" target="_new">Help</a>
+      <a id="about" href="/scl/SHMT/about.html" target="_new">About</a>
+      <a id="help" href="/scl/SHMT/anu_help.html" target="_new">Help</a>
       <xsl:variable name="no_of_rows" select="@rows" />
       <input type="hidden" name="no_of_rows" value="{$no_of_rows}" />
       <input type="button" value="Show/Hide Rows..." onclick="window.open('/scl/SHMT/rows.html','ShowHideRowsWindow','top=200,left=200,height=500,width=300,location=no,menubar=no,toolbar=no,directories=no,statusbar=no');" />
       <input type="checkbox" name="border_value" onchange="toggle_borders()" />Borders
-      <xsl:text disable-output-escaping="yes"> &lt;a href="http://localhost/scl/SHMT/DEMO/tmp_anu_dir/table.csv"&gt;Save as Excel Sheet&lt;/a&gt;</xsl:text>
-      <xsl:text disable-output-escaping="yes"> &lt;a href="http://localhost/cgi-bin/scl/skt_gen/Sentence/gen.cgi?filename=tmp_dir_gen/table.csv"&gt;Generate&lt;/a&gt;</xsl:text>
+      <xsl:text disable-output-escaping="yes"> &lt;a href="/scl/SHMT/DEMO/tmp_anu_dir/table.csv"&gt;Save Annotation&lt;/a&gt;</xsl:text>
+      <xsl:text disable-output-escaping="yes"> &lt;a href="/cgi-bin/scl/skt_gen/Sentence/gen.cgi?filename=tmp_dir_gen/table.csv"&gt;Generate&lt;/a&gt;</xsl:text>
       </center>
     </p>
   </form>
@@ -197,7 +197,7 @@ Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
       <td class="number"> 
             <xsl:if test="$row_no=3">
 <!-- corresponding to morph analysis shown in row 3, we get all possible relations -->
-           <xsl:text disable-output-escaping="yes"> &lt;a href="http://localhost/cgi-bin/scl/SHMT/prog/interface/show_graph.cgi?filename=tmp_anu_dir/&amp;sentnum=</xsl:text>
+           <xsl:text disable-output-escaping="yes"> &lt;a href="/cgi-bin/scl/SHMT/prog/interface/show_graph.cgi?filename=tmp_anu_dir/&amp;sentnum=</xsl:text>
 	    <xsl:value-of select="$fig_sent_name"/>
             <xsl:text disable-output-escaping="yes">" </xsl:text>
             <xsl:text disable-output-escaping="yes"> onmouseover="Tip('&lt;img src=/scl/SHMT/DEMO/tmp_anu_dir/</xsl:text>
@@ -205,7 +205,7 @@ Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
             <xsl:text disable-output-escaping="yes">.svg &gt;' ,FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true)" onmouseout="UnTip()"&gt;</xsl:text>
 	    </xsl:if>
             <xsl:if test="$row_no=1">
-            <xsl:text disable-output-escaping="yes"> &lt;a href="http://localhost/cgi-bin/scl/SHMT/prog/interface/call_parser_summary.cgi?filename=tmp_dir_scrpt&amp;rel=''&amp;sentnum=</xsl:text>
+            <xsl:text disable-output-escaping="yes"> &lt;a href="/cgi-bin/scl/SHMT/prog/interface/call_parser_summary.cgi?filename=tmp_dir_scrpt&amp;rel=''&amp;sentnum=</xsl:text>
 	    <!-- <xsl:value-of select="$fig_parasent_name"/>  -->
 	    <xsl:value-of select="$fig_sent_name"/>
             <!-- <xsl:text disable-output-escaping="yes">.</xsl:text> 
