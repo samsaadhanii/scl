@@ -3705,7 +3705,7 @@ value process morphs text_type tfpath =
     ; flush cho
     ; close_out cho
     ; let tpl_lst = mk_tuple_lst [] sorted_lst in 
-        Constraint.solver tpl_lst 
+        Constraint.solver tpl_lst text_type
     }
     (*List.iter Constraint.print_relation tpl_lst*)
   }

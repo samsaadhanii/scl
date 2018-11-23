@@ -295,10 +295,11 @@ value single_relation_label m1 m2 = match m1 with
     ]
 ;
 
-value no_crossing m1 m2 = match m1 with
+value no_crossing text_type m1 m2 = match m1 with
     [ Relationc (to_id1,to_mid1,r1,from_id1,from_mid1) -> match m2 with
       [Relationc (to_id2,to_mid2,r2,from_id2,from_mid2) -> 
-           (* Crossing edges not allowed (*except RaRTI(=33) and ViSeRaNa(=32) *)  except niwya_sambanXaH (=2) and samucciwa (=53) *)
+           (* Crossing edges not allowed except niwya_sambanXaH (=2) and samucciwa (=53) *)
+           (* Crossing edges allowedeven with RaRTI(=35) and ViSeRaNa(=32)  in text_type = Shloka *)
          if  (   (    between to_id1 to_id2 from_id2
                    || between from_id1 to_id2 from_id2
                  )
@@ -310,6 +311,7 @@ value no_crossing m1 m2 = match m1 with
                 not (r1=2)  && not (r1 = 90) (*&& not(r1=53) && not (r2=53)*) (*&& not (r1=59) && not(r2=59)*)
              && (* not (r2=32) && not (r2=33)  &&*) 
                 not (r2=2) && not (r2=90)
+	     && text_type ="Sloka" && not ((r1 = 35) || (r1 = 32) || (r2 = 35) || (r2 == 32))
          then False (* do { print_string "C11"; print_relation m1; print_relation m2;False} *)
          else True
       ]
@@ -475,20 +477,20 @@ value relation_mutual_yogyataa m1 m2 = match m1 with
     ]
 ;
 
-value chk_compatible m1 m2 = 
+value chk_compatible text_type m1 m2 = 
          single_morph_per_word m1 m2
       && single_relation_label m1 m2
-      && no_crossing m1 m2 
+      && no_crossing text_type m1 m2 
       && relation_mutual_expectancy m1 m2 
       && relation_mutual_yogyataa m1 m2 
 ;
 
-value rec add_cost acc rels = fun
+value rec add_cost text_type acc rels = fun
   [ [] -> acc
   |  [i :: r] ->  match List.nth rels (i-1) with
        [ Relationc (a1,b1,rel,a2,b2) -> let res = 
             if rel=2 then 0
-             else if  rel=35 then 35 (* RaRTI *)
+             (*else if  rel=35 then 35*) (* RaRTI *)
          (*   else if  rel=42 then 42 (* viSeRaNam *) *)
             (*else if  rel=33 then 0 *) (* aBexa *)
             else if  rel> 80 && rel < 90 then 0 (* upapada-LWG relations *)
@@ -509,10 +511,13 @@ value rec add_cost acc rels = fun
 (* special case of LWG*)
             then 0
             (* else rel * (a2-a1) *)
-            else if a1 > a2 && rel=60 then 0
-            else rel * (a2-a1)
-             (* if the kaarakas are to the right, give penalty *)
-        in add_cost (acc+res) rels r
+            else if a1 > a2 
+                 then if rel=60 then 0
+                      else if text_type = "Prose" || rel=35
+                      then rel * (a1-a2) * 10 (* if the kaarakas or RaRTI are to the right, give penalty *)
+                      else rel * (a1-a2) (* no penalty in case of Sloka *)
+                 else rel * (a2-a1)
+        in add_cost text_type (acc+res) rels r
        ]
   ]
 ;
@@ -536,7 +541,7 @@ value get_wrd_ids rel = match rel with
 (* for every relation, prepare a list of compatible and non-compatible relations among the relations seen so far *)
 (* populate_compatible_lists: Relationc list -> unit *)
 
-value populate_compatible_lists rel total_wrds = 
+value populate_compatible_lists text_type rel total_wrds = 
   let length = List.length rel -1 in do 
    { for i = 0 to length do
      { let reli = List.nth rel i in  do
@@ -553,7 +558,7 @@ value populate_compatible_lists rel total_wrds =
            (*;print_int j
            ;print_string " "
            ;print_relation relj *)
-          ;if (chk_compatible reli relj)
+          ;if (chk_compatible text_type reli relj)
           then do {
              compatible_relations.(i+1) := List.append [j+1] compatible_relations.(i+1)
              ;let l = get_wrd_ids relj in
@@ -1069,17 +1074,17 @@ let maprel = List.map (fun y -> List.nth relations (y-1) ) relsindag in
 
 (* Get dag list of size n from the array of lists relations, where each list corresponds to a relation and associated dags with it. *)
 
-value rec get_dag_list rel acc = fun
+value rec get_dag_list text_type rel acc = fun
    [ [] -> acc
    | [hd :: tl ] -> if samucciwa_anyawara_constraint rel hd
                     && global_compatible rel hd
                     then  
-                         let cost = add_cost 0 rel hd in
+                         let cost = add_cost text_type 0 rel hd in
                          let len  = List.length hd in
                          let triplet = (len, cost, hd) in
                          let res1 = List.append [triplet] acc in
-                         get_dag_list rel res1 tl
-                    else get_dag_list rel acc tl
+                         get_dag_list text_type rel res1 tl
+                    else get_dag_list text_type rel acc tl
   ]
 ;
 
@@ -1121,9 +1126,9 @@ value rec wrd_boundaries acc rel_indx wrd_indx rel =match rel with
 ]
 ;
 
-value solver rel_lst =
+value solver rel_lst text_type =
   let total_wrds = (largest 0 rel_lst) in do
-  { populate_compatible_lists rel_lst total_wrds
+  { populate_compatible_lists text_type rel_lst total_wrds
     (*; print_string "initialise inout_rels = "
     ; print_int inout_rels.(1)
     ; print_newline()*)
@@ -1144,7 +1149,7 @@ value solver rel_lst =
             if (List.length a >= total_wrds-5) 
             then [a::y]
             else y) [] dags in 
-    let soln =  List.sort comparecostlength (get_dag_list rel_lst [] dagsj) in do
+    let soln =  List.sort comparecostlength (get_dag_list text_type rel_lst [] dagsj) in do
        {print_string "1.minion\n"
        ; let l = List.filter 
               (fun (x,y,z) -> if x = total_wrds-1 then True else False ) 
