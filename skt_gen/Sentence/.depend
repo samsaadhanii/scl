@@ -68,8 +68,6 @@ sentence_generator.cmo : ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/trie.cmo \
 sentence_generator.cmx : ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/trie.cmx \
     paths.cmx pada_structure.cmi \
     ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/gen.cmx bank_lexer.cmx
-dump.cmo : ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/gen.cmo
-dump.cmx : ../../SHMT/prog/kAraka/Prepare_Graph/ZEN/gen.cmx
 paths.cmo :
 paths.cmx :
 ../../SHMT/prog/kAraka/Prepare_Graph/Heritage_ML/transduction.cmo : \

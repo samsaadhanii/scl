@@ -78,21 +78,25 @@ SOURCES=$(ML_SOURCES) $(SPECIFIC_AUTOMATA_SOURCES)
 INSTALL_DIR = `ocamlc -where`/zen
 #INSTALL_DIR = $(HOME)/lib/ocaml/zen
 
-COMPILE=ocamlopt -pp "camlp4rf" -I +camlp4 -c
+ANNOTFLAGS = -annot -bin-annot
 
-COMPILEI=ocamlc -pp "camlp4rf" -I +camlp4 -c 
+COMPILE=ocamlopt -pp "camlp4rf" -I +camlp4 -c $(ANNOTFLAGS)
 
-LINK=ocamlopt -I +camlp4 
+COMPILEI=ocamlc -pp "camlp4rf" -I +camlp4 -c $(ANNOTFLAGS)
+
+LINK=ocamlopt -I +camlp4 dynlink.cmxa camlp4lib.cmxa
 LINKG=ocamlopt -I +camlp4 dynlink.cmxa camlp4lib.cmxa
 
 LINK_BYTE=ocamlc -I +camlp4 
 LINK_BYTEG=ocamlc -I +camlp4 dynlink.cma camlp4lib.cma
 
 # NB regular.ml compiled as regular.cmo for meta-programming - regular.cmx unused 
-all: timeshare unshare make_english_lexicon make_french_lexicon dagify \
-terdagify list_iso test unglue_test.cmx minimap.cmx lexmap.cmx bintree.cmx \
-deco.cmx zen_lexer.cmx transducer.cmx sharemod.cmx react0.cmx reactt.cmx reacte.cmx \
-regular.cmo #specific_cmx
+all: timeshare unshare make_english_lexicon dagify \
+terdagify test  minimap.cmx lexmap.cmx bintree.cmx \
+deco.cmx zen_lexer.cmx transducer.cmx sharemod.cmx react0.cmx reactt.cmx \
+reacte.cmx mini.cmx regular.cmo #specific_cmx
+
+problematic: make_french_lexicon list_iso unglue_test.cmx
 
 # specific dispatch and engine modules
 specific_cmx: example_dispatch.cmx sanskrit_dispatch.cmx example_engine.cmx \
@@ -271,7 +275,8 @@ oug.weight: dsort.txt
 	scp yquem:oug-weight.png .
 
 clean:
-	rm -f *.cmo *.cmi *.cmx *.ppi *.ppo *.o *.cma *.a *.cmxa *~ .order 
+	rm -f *.cmo *.cmi *.cmx *.ppi *.ppo *.o *.cma *.a *.cmxa *~	\
+		*.annot *.cmt *.cmti .order
 	-rm -f dagify list_iso make_french_lexicon make_english_lexicon terdagify test timeshare unshare $(GEN_CODE)
 
 .SUFFIXES: .ml .mli .cmx .cmo .cmi

@@ -12,6 +12,9 @@ converters/ri_skt
 *.cmi
 *.cmx
 *.cmo
+*.cmt
+*.cmti
+*.annot
 spec.txt
 **/OLD_versions
 **/TEST_DATA
