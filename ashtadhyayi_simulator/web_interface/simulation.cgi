@@ -2,9 +2,13 @@
 
 require "../paths.pl";
 
+require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
+
 package main;
 use CGI qw/:standard/;
 #use CGI::Carp qw(fatalsToBrowser);
+
+
       if (param) {
       $encoding=param("encoding");
       $pra=param("praatipadika");
@@ -18,7 +22,14 @@ use CGI qw/:standard/;
 
       chomp($pra);
       chomp($vib);
+      chomp($lifga);
       chomp($vac);
 
-      system("$GlblVar::SCLINSTALLDIR/ashtadhyayi_simulator/callrun.pl $encoding $pra $vib $lifga $vac $pid");
-      }
+      $praatipadika = &convert($encoding,$pra,$GlblVar::SCLINSTALLDIR);
+
+      my $cgi = new CGI;
+      print $cgi->header ( -charset => 'UTF-8');
+      system("cd $GlblVar::SCLINSTALLDIR/ashtadhyayi_simulator/june12; ./run.sh $praatipadika $vib $lifga $vac");
+
+print "</BODY></HTML>";
+}	
