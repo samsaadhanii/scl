@@ -2,6 +2,7 @@
 (* Indian Institute of Advanced Study, Shimla (2015-17)             *)
 
 (* To add: gam1 can not have both karma and aXikaraNa *)
+open Hashtbl;
 open Pada_structure;
 
 open Bank_lexer;
@@ -299,7 +300,7 @@ value no_crossing text_type m1 m2 = match m1 with
     [ Relationc (to_id1,to_mid1,r1,from_id1,from_mid1) -> match m2 with
       [Relationc (to_id2,to_mid2,r2,from_id2,from_mid2) -> 
            (* Crossing edges not allowed except niwya_sambanXaH (=2) and samucciwa (=53) *)
-           (* Crossing edges allowedeven with RaRTI(=35) and ViSeRaNa(=32)  in text_type = Shloka *)
+           (* Crossing edges allowed even with RaRTI(=35) and ViSeRaNa(=32)  in text_type = Shloka *)
          if  (   (    between to_id1 to_id2 from_id2
                    || between from_id1 to_id2 from_id2
                  )
@@ -311,7 +312,9 @@ value no_crossing text_type m1 m2 = match m1 with
                 not (r1=2)  && not (r1 = 90) (*&& not(r1=53) && not (r2=53)*) (*&& not (r1=59) && not(r2=59)*)
              && (* not (r2=32) && not (r2=33)  &&*) 
                 not (r2=2) && not (r2=90)
-	     && text_type ="Sloka" && not ((r1 = 35) || (r1 = 32) || (r2 = 35) || (r2 == 32))
+	     (* && text_type ="Sloka" *)
+             && not ((r1 = 35) || (r1 = 32) || (r1 = 22) || (r1 = 33) ||
+                     (r2 = 35) || (r2 = 32) || (r2 = 22) || (r2 = 33))
          then False (* do { print_string "C11"; print_relation m1; print_relation m2;False} *)
          else True
       ]
@@ -343,7 +346,7 @@ value relation_mutual_expectancy m1 m2 = match m1 with
                  || (r2 = 62 && r1 = 62)
                  || (r1 = 62 && r2 = 62)
                  )
-         then (*False*)  do { print_string "C13"; False} 
+         then False  (*do { print_string "C13"; False} *)
            (* For every prawiyogi, the other end should be either a sambandha
             or anuyogi  or niwya_sambanXa or niwya_sambanXa1 *)
          else if (from_id1 = to_id2) && (from_mid1 = to_mid2)
@@ -555,12 +558,12 @@ value populate_compatible_lists text_type rel total_wrds =
           do {
            let l = get_wrd_ids relj in
            compatible_words.(j+1) := List.append l compatible_words.(j+1)
-           (*;print_int j
-           ;print_string " "
-           ;print_relation relj *)
           ;if (chk_compatible text_type reli relj)
           then do {
-             compatible_relations.(i+1) := List.append [j+1] compatible_relations.(i+1)
+          (* print_int j
+           ;print_string " "
+           ;print_relation relj 
+           ;*) compatible_relations.(i+1) := List.append [j+1] compatible_relations.(i+1)
              ;let l = get_wrd_ids relj in
              compatible_words.(i+1) := List.append l compatible_words.(i+1)
              ;let l = get_wrd_ids reli in
@@ -590,7 +593,7 @@ value populate_compatible_lists text_type rel total_wrds =
      ; print_string " = "
      ; List.iter print_sint compatible_relations.(i+1)
      ; print_newline()
-     *)
+     *) 
     }
   }
 ;
@@ -758,15 +761,15 @@ value rec construct_dags init final wrdb dags =
             ; print_newline()
             ; print_acc dag8
             ; print_newline()
-            ;*) let dag9 = delete_small (final-init-1) dag8 in do {
-            (* print_string "dag9= "
+            ;*) let dag9 = delete_small (final-init-1) dag8 in (*do {
+             print_string "dag9= "
             ; print_string "size of dag9 = "
             ; print_int (List.length dag9)
             ; print_newline()
             ; print_acc dag9
             ; print_newline() 
             ;*) dag9 
-             } 
+             (*} *)
             }
             }
             }
@@ -1072,12 +1075,56 @@ let maprel = List.map (fun y -> List.nth relations (y-1) ) relsindag in
    ]
 ;
 
+value print_pair (a,b) =
+  do {print_int a; print_string " "; print_int b; print_string "\n";}
+;
+
+value build_list rels dag =
+let maprel = List.map (fun y -> List.nth rels (y-1) ) dag in
+    loop [] maprel
+    where rec loop acc = fun
+    [ [] -> (*do { List.iter print_pair acc;*) acc
+    | [ Relationc (a,b,r,c,d) :: rest] -> let acc1 = [(a,c) :: acc]
+					  in loop acc1 rest
+    ]
+;
+
+value print_sint a = do {print_int a; print_string ";" }
+;
+
+value rec chk_cycles key_list v acc =
+    (*do { List.iter print_sint key_list;
+        print_string "v = ";print_int v; print_string "\n";*)
+     let acc1 =  List.filter (fun (k1,v1) -> if k1=v then True else False) acc in
+     if acc1 = [] then False else loop acc1
+     where rec loop = fun
+     [[] -> False
+     | [(k1,v1)::r] -> let key_list1 = [k1 :: key_list] in
+                       if List.mem v1 key_list then True
+                       else if chk_cycles key_list1 v1 acc then True
+		       else loop r
+     ]
+ (* }*)
+;
+
+value no_cycles relations relsindag = (*do 
+    { List.iter print_sint relsindag; print_string "\n"; *)
+      let acc = build_list relations relsindag in loop acc
+      where rec loop = fun
+      [ [] -> (* do { print_string "OK\n";*) True
+      |[(k,v)::r] -> let key_list = [k] in 
+                         if not (chk_cycles key_list v acc) then loop r else False
+      ]
+(* } *)
+;
+
 (* Get dag list of size n from the array of lists relations, where each list corresponds to a relation and associated dags with it. *)
 
 value rec get_dag_list text_type rel acc = fun
    [ [] -> acc
    | [hd :: tl ] -> if samucciwa_anyawara_constraint rel hd
                     && global_compatible rel hd
+                    && no_cycles rel hd
                     then  
                          let cost = add_cost text_type 0 rel hd in
                          let len  = List.length hd in
