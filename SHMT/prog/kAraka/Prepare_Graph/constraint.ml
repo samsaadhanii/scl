@@ -321,7 +321,7 @@ value no_crossing text_type m1 m2 = match m1 with
     ]
 ;
 
-value relation_mutual_expectancy m1 m2 = match m1 with
+value relation_mutual_expectancy text_type m1 m2 = match m1 with
     [ Relationc (to_id1,to_mid1,r1,from_id1,from_mid1) -> match m2 with
       [Relationc (to_id2,to_mid2,r2,from_id2,from_mid2) -> 
            (* If there is a vAkyakarma-xyowaka, then there can not be a karma  but there can be gONa / muKya karma*)
@@ -375,7 +375,11 @@ value relation_mutual_expectancy m1 m2 = match m1 with
          (* karwqsamAnAXikaraNa should be to the right of karwA *)
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
      (*           && (r2=15 && r1=17) && ((to_id1 - to_id2 > 3) || (to_id1 < to_id2 )) *)
-                && (r2=7 && r1=9) && (to_id2 > to_id1 ) 
+                && (r2=7 && r1=9) && (text_type="Prose") && (to_id2 > to_id1)
+         then False
+         else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
+                (*&& (r2=17 && r1=15) && ((to_id2 - to_id1 > 3) || (to_id2 < to_id1))*)
+                && (r2=9 && r1=7) && (text_type="Prose") && (to_id2 < to_id1)
          then False
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
                 && (r2=7 && r1 >= 4200 && r1 / 100 = 42) && ((to_id1 - to_id2 > 3) || (to_id1 < to_id2 ))
@@ -383,10 +387,6 @@ value relation_mutual_expectancy m1 m2 = match m1 with
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
      (*           && ((r2 / 100 = 44) && r1=17) && ((to_id1 - to_id2 > 3) || (to_id1 < to_id2)) *)
                 && ((r2 / 100 = 44) && r1=9) && (to_id1 < to_id2)
-         then False
-         else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
-                (*&& (r2=17 && r1=15) && ((to_id2 - to_id1 > 3) || (to_id2 < to_id1))*)
-                && (r2=9 && r1=7) && (to_id2 < to_id1)
          then False
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
                 (*&& (r2=17 && (r1 / 100 = 44)) && ((to_id2 - to_id1 > 3) || (to_id2 < to_id1))*)
@@ -484,7 +484,7 @@ value chk_compatible text_type m1 m2 =
          single_morph_per_word m1 m2
       && single_relation_label m1 m2
       && no_crossing text_type m1 m2 
-      && relation_mutual_expectancy m1 m2 
+      && relation_mutual_expectancy text_type m1 m2 
       && relation_mutual_yogyataa m1 m2 
 ;
 
@@ -834,7 +834,7 @@ value samucciwa_anyawara_constraint relations relsindag =
       then True  else False
 ;
 
-value global_compatible relations relsindag = 
+value global_compatible text_type relations relsindag = 
 let maprel = List.map (fun y -> List.nth relations (y-1) ) relsindag in
     loop maprel
     where rec loop = fun
@@ -986,7 +986,8 @@ let maprel = List.map (fun y -> List.nth relations (y-1) ) relsindag in
                                    ((r=14 && r1=10) || (r / 100 = 44 && r1=9)))
                                    )
                                (* || (z=c && t=d && (r=15 && r1=17) && (a-x < 3) && (a-x) > 0) *)
-                                || (z=c && t=d && r=7 && r1=9 && (a-x) > 0) 
+                                || (z=c && t=d && r=7 && r1=9 && text_type="Prose" && (a-x) > 0) 
+                                || (z=c && t=d && r=7 && r1=9 && text_type="Sloka") 
                                 || (x=c && y=d && r=24 && r1=9)  (* karwqsamAnAXikaraNa and pUrvakAlaH *)
                                 || (z=a && t=b && r1=75 && (r=14 || r=7))  (* karwq or karma and BAvalakRaNasapwamI *)
                                 || (x=c && y=d && r=60 && r1=64 )  (* samucciwa *)
@@ -1123,7 +1124,7 @@ value no_cycles relations relsindag = (*do
 value rec get_dag_list text_type rel acc = fun
    [ [] -> acc
    | [hd :: tl ] -> if samucciwa_anyawara_constraint rel hd
-                    && global_compatible rel hd
+                    && global_compatible text_type rel hd
                     && no_cycles rel hd
                     then  
                          let cost = add_cost text_type 0 rel hd in

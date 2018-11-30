@@ -1,6 +1,4 @@
-(* Copyright: Amba Kulkarni (2014-18) Sanjeev Panchal (2015-18)  *)
-(* 2015-17: Indian Institute of Advanced Study, Shimla           *)
-
+(* Copyright: Amba Kulkarni (2018-) *)
 
 
 open Paths;
@@ -2572,7 +2570,7 @@ value rlkarwqsamAnAXikaraNam m1 m2 m3 text_type = match m2 with
            (*&& not (member_of rt1 guNavacana)*) (* yogyawA *)
            (* && not (pUrva2=uwwara2) || (member_of rt2 guNavacana)) *)
            && not (rt1="kim" || rt1="kiFciw" || rt1="kiFcana"|| rt1="yAvaw" || rt1="wAvaw" ) (* yogyawA  To stop: kA hAniH Bavawi hAniH is not karwqsamAnAXikaraNa of kA*)
-           && word_order id1 id2
+           && (text_type="Sloka" || word_order id1 id2)
            && word_order id2 id3
            (* && id2-id1 <= 3   Found an example where this diff is > 3 *)
 (* Bhatti kAavya 1.1 shloka *)
