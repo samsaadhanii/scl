@@ -5,9 +5,8 @@ $CGIPATH = "/cgi-bin/scl/SHMT/";
 
 $SCLINSTALLDIR = $ARGV[0];
 $TFPATH = $ARGV[1];
-$in_encoding = $ARGV[2];
-$out_encoding = $ARGV[3];
-$pid = $ARGV[4];
+$out_encoding = $ARGV[2];
+$pid = $ARGV[3];
 
 require "$SCLINSTALLDIR/converters/convert.pl";
 
@@ -71,7 +70,8 @@ if ( $out_encoding eq "DEV" ){
       system("cat $TFPATH/in${pid}_trnsltn");
 
       print "</td></tr>\n
-      <!--division for hindi texts ends here-->\n</table>\n<br>\n <!--division for Anusaaraka output starts here-->\n
+      <!--division for hindi texts ends here-->\n</table>\n<br>\n 
+      <!--division for Anusaaraka output starts here-->\n
       <div id=\"anusaaraka-output\" style=\"width:99%;min-height:320px; margin-left:5px;margin-right:5px;border-style:solid;border-width:1px; overflow:auto; position:absolute; margin-top:110px;border-color:#C0C0C0;\">\n
       <div id=\"skt-title\" style=\"height:25px;background-color:gray;color:#FFFFFF;font-size:15px;width:100%;\"><center> वाक्यविश्लेषणम्</center></div> \n
       <br /> <font color=\"red\">Below we give the step by step analysis of the input. By default only three rows with the original Sanskrit sentence, relevant morph analysis and the Hindi translation are shown. <br/> You can hide/open other rows using the <font color=\"green\">Show/Hide Rows button</font> at the bottom. The color of each cell indicates the vibhakti / category of the word. Details of color coding are available <a target=\"_blank\" href=\"/scl/SHMT/anu_help.html#sec1.4\">here</a>. <br /> If you bring the cursor on the sentence ID, you will see the <font color=\"green\">parsed tree (Kaaraka Analysis)</font> for the given sentence. Clicking on this link will show you all the possible parses. <br /> Finally each word is linked to the <font color=\"green\">Apte's dictionary</font>. The link is available along with the morph analysis displayed in row C.</font><br /> <br />";

@@ -81,7 +81,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
          print $cgi->header (-charset => 'UTF-8');
            $sentences = '"'. $sentences  . '"';
            system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/callmtshell.pl $GlblVar::TFPATH $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot $sentences $encoding $pid $script $sandhi $morph $parse $text_type $GlblVar::LTPROCBIN");
-           system("$GlblVar::SCLINSTALLDIR/SHMT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $encoding $script $pid");
+           system("$GlblVar::SCLINSTALLDIR/SHMT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $script $pid");
       }
     }
   if($version eq "DEVELOP") {
