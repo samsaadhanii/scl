@@ -1,7 +1,11 @@
+SHELL=/bin/sh
+
+include ../../paths.sh
+
 FILES = sentence_generator.ml paths.ml
 INTERFACES = pada_structure.mli
 SYNTAX = .ocamlinit
-ZEN=../../SHMT/prog/kAraka/Prepare_Graph/ZEN
+ZEN=$(ZENDIR)
 HPATH=../../SHMT/prog/kAraka/Prepare_Graph/Heritage_ML
 
 all: sentence_generator scan_input.out
@@ -19,17 +23,17 @@ COMPILEI=ocamlc -pp "camlp4r pa_extend.cmo" -I $(ZEN)  -I $(HPATH) -I +camlp4 -c
 LINK=ocamlopt -I $(ZEN) -I +camlp4 dynlink.cmxa camlp4lib.cmxa
 
 ZENSOURCES=gen.ml list2.ml word.ml share.mli share.ml unshare.ml trie.ml \
-mini.ml deco.ml lexmap.ml minimap.mli minimap.ml zen_lexer.ml
+mini.ml deco.ml lexmap.ml minimap.mli minimap.ml
 
-SOURCES= $(INTERFACES) $(FILES) $(HPATH)/transduction.ml
+SOURCES= $(INTERFACES) $(FILES) $(HPATH)/transduction.ml $(HPATH)/min_lexer.ml
 
-CORE=$(ZEN)/list2.cmx $(ZEN)/ascii.cmx $(ZEN)/gen.cmx $(ZEN)/trie.cmx $(ZEN)/zen_lexer.cmx
+CORE=$(ZEN)/list2.cmx $(ZEN)/ascii.cmx $(ZEN)/gen.cmx $(ZEN)/trie.cmx
 
-EXECS=$(HPATH)/transduction.cmx 
+EXECS=$(HPATH)/min_lexer.cmx $(HPATH)/transduction.cmx
 
 VPATH=$(ZEN) $(HPATH)
 
-sentence_generator: pada_structure.cmi bank_lexer.cmx sentence_generator.cmx paths.cmx
+sentence_generator: pada_structure.cmi bank_lexer.cmx min_lexer.cmx transduction.cmx sentence_generator.cmx paths.cmx
 	$(LINK) bank_lexer.cmx unix.cmxa $(CORE) $(EXECS) str.cmxa paths.cmx sentence_generator.cmx -o sentence_generator
 
 scan_input.out: scan_input.lex

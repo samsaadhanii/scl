@@ -35,13 +35,13 @@ install:
 install_server:
 	rm -rf $(HTDOCSDIR)/scl
 	rm -rf $(CGIDIR)/scl
-	cp paths.pl paths.sh $(CGIDIR)/scl
 	cp htdocs/statcounter.js htdocs/statcounter_dummy.js
 	cd sandhi; make install
 	cd SHMT; make install
 	cd htdocs; make install
 	cd skt_gen; make install
 	cd transliteration; make install
+	cp paths.pl paths.sh $(CGIDIR)/scl
 	cd ashtadhyayi_simulator/june12; make install
 	cd amarakosha; make install
 	cd NN; make install
