@@ -2,18 +2,18 @@
 (*                                                                        *)
 (*                     The Sanskrit Heritage Platform                     *)
 (*                                                                        *)
-(*                              Gérard Huet                               *)
+(*                              GÃ©rard Huet                               *)
 (*                                                                        *)
-(* ©2015 Institut National de Recherche en Informatique et en Automatique *)
+(* Â©2018 Institut National de Recherche en Informatique et en Automatique *)
 (**************************************************************************)
 
 (*i module Transduction = struct i*)
 
 open Camlp4.PreCast; (* MakeGram Loc *)
 
-module Gram = MakeGram Zen_lexer 
+module Gram = MakeGram Min_lexer 
 ;
-open Zen_lexer.Token
+open Min_lexer.Token
 ;
 value transducer trad t =
   try Gram.parse_string trad Loc.ghost t with
@@ -61,7 +61,9 @@ EXTEND Gram (* skt to tex *)
       | LETTER "U" -> "U"
       | "~"; LETTER "n" -> "\\~n"
       | LETTER "l"; "~"; "~"  -> "\\~l" (* candrabindu *)
-      | "+" -> "\\-" (* cesure autorisee *)
+      | LETTER "y"; "~"; "~"  -> "\\~y" (* candrabindu *)
+      | LETTER "v"; "~"; "~"  -> "\\~v" (* candrabindu *)
+      | "+" -> "\\-" (* hyphenation hint *)
       | "$" -> "\\_" (* pra-uga *)
       | "_" -> "\\_" (* hiatus *)
       | "&" -> "\\&" (* reserved *)
@@ -178,23 +180,23 @@ EXTEND Gram (* skt to url *)
       | "~" -> "%7E"
       | "#"; i = INT -> "%23" ^ i
       | "'" -> "" (* accents and avagraha hidden *)
-(*    | "'" \R "%27" (* if preserved *) *)
+(*    | "'" {\R} "%27" (* if preserved *) *)
       | "." -> "."
       | "+" -> "" (* "%2B" *)
       | "-" -> "-"
       | " " -> "+"
       | "_" -> "_"
       | "$" -> "%24"
-(*i   | "&" \R "%26" (* unused *)
-      | "%" \R "%25"
-      | "#" \-> "%23"
-      | "@" \R "%40"
-      | ":" \R "%3A"
-      | ";" \R "%3B"
-      | "?" \R "%3F"
-      | "=" \R "%3D"
-      | "/" \R "%2F"
-      | "," \R "%2C" i*)
+(*i   | "&" {\R} "%26" (* unused *)
+      | "%" {\R} "%25"
+      | "#" {\R} "%23"
+      | "@" {\R} "%40"
+      | ":" {\R} "%3A"
+      | ";" {\R} "%3B"
+      | "?" {\R} "%3F"
+      | "=" {\R} "%3D"
+      | "/" {\R} "%2F"
+      | "," {\R} "%2C" i*)
       | i = LETTER -> i 
     ] ];
   url:
@@ -370,7 +372,7 @@ EXTEND Gram (* greek and math to html *)
       | "|" -> "|"
       | "!" -> "!"
       | "~" -> "~" 
-(*i   | "^" \R "^" i*)
+(*i   | "^" {\R} "^" i*)
       | "=" -> "="
       | "," -> ", "
       | i = INT -> i
@@ -407,8 +409,9 @@ EXTEND Gram (* skt to nat *)
       | "\""; LETTER "m" -> 15 (* compat Velthuis *)
       | "~"; "~" -> 15 (* candrabindu *)
       | "~"; LETTER "n" -> 26
-      | "+"; c=lower -> c (* prevent hyphenation in TeX *)
+(* OBS | "+"; c=lower -> c (* prevent hyphenation in TeX *) *)
       | "-" -> 0  (* notation for affixing *)
+      | "+" -> -10 (* notation for compounding *) 
       | "&" -> -1 (* \& = alternate avagraha preserved - legacy *)
       | "_" -> 50 (* sentential hiatus *) 
       | "'"; LETTER "a"; LETTER "a" -> 2 (* accented vowels - accent is lost *)
@@ -419,6 +422,7 @@ EXTEND Gram (* skt to nat *)
       | "'"; LETTER "i" -> 3
       | "'"; LETTER "u" -> 5
       | "'"; LETTER "e" -> 10
+      | "'"; LETTER "o"; "$" -> 12 (* g'o-agra *) 
       | "'"; LETTER "o" -> 12
       | "'" -> -1  (* avagraha *) 
       | "."; "."; "."; c=lower -> c
@@ -433,8 +437,9 @@ EXTEND Gram (* skt to nat *)
       | "."; LETTER "l" -> 9
       | "."; LETTER "m" -> 14
       | "."; LETTER "h" -> 16
+      | ":" -> 16 (* alternate notation for vigraha *)
       | LETTER "a"; LETTER "a"; "|"; LETTER "a" -> -3 (* *a *)
-      | LETTER "a"; LETTER "a"; "|"; LETTER "i" -> -4 (* *i *)
+      | LETTER "a"; LETTER "a"; "|"; LETTER "i" -> -4 (* *i *)  
       | LETTER "a"; LETTER "a"; "|"; LETTER "u" -> -5 (* *u *)
       | LETTER "a"; LETTER "a"; "|"; LETTER "A" -> -9 (* *a *)
       | LETTER "a"; LETTER "a"; "|"; LETTER "I" -> -7 (* *i *)
@@ -450,6 +455,7 @@ EXTEND Gram (* skt to nat *)
       | LETTER "u"; LETTER "u" -> 6
       | LETTER "u" -> 5
       | LETTER "e" -> 10
+      | LETTER "o"; "$" -> 12 (* go-agraa *) 
       | LETTER "o" -> 12
       | LETTER "k"; LETTER "h" -> 18
       | LETTER "k" -> 17
@@ -473,7 +479,8 @@ EXTEND Gram (* skt to nat *)
       | LETTER "r" -> 43
       | LETTER "l" -> 44
       | LETTER "v" -> 45
-      | LETTER "s" -> 48
+      | LETTER "w" -> 45 (* alternate v rather than raising Stream error *)
+      | LETTER "s" -> 48 
       | LETTER "h" -> 49
       | "#"; i = INT -> 50+int_of_string i (* 0 *) 
       | "["; "-"; "]" -> -2 (* amuissement *)
@@ -545,11 +552,15 @@ EXTEND Gram (* skt to nat *)
       | LETTER "R" -> 47
       | LETTER "s" -> 48
       | LETTER "h" -> 49
-      | "_" -> 50 (* sentential hiatus *) 
+     (* | "-" -> 0  (* notation for affixing *)  Commented by Amba *)
+      | "+" -> -10 (* notation for compounding *)
+      | "_" -> 50 (* sentential hiatus *)
       | LETTER "Z" -> -1 (* avagraha *)
-      | "-" -> 51 (* used in compounds to separate the components  AMBA *) 
-      | "#"; i = INT -> 51+int_of_string i (* 0  AMBA *) 
-      | i = INT -> 51+int_of_string i (* 0  AMBA *) 
+     (* | "#"; i = INT -> 50+int_of_string i (* 0 *) Commented by Amba  *)
+      | "-" -> 51 (* used in compounds to separate the components  AMBA *)
+      | "#"; i = INT -> 51+int_of_string i (* 0  AMBA *)
+      | i = INT -> 51+int_of_string i (* 0  AMBA *)
+
     ] ];
   wordwx:
     [ [ w = LIST0 wx; `EOI -> w ] ];
@@ -604,6 +615,8 @@ EXTEND Gram (* skt to nat *)
       | LETTER "s" -> 48
       | LETTER "h" -> 49
       | "'"  -> -1  (* avagraha *)
+      | "-" -> 0  (* notation for affixing *)
+      | "+" -> -10 (* notation for compounding *)
       | "_" -> 50 (* sentential hiatus *) 
       (* avagraha missing *)
       | "#"; i = INT -> 50+int_of_string i (* 0 *) 
@@ -661,6 +674,8 @@ EXTEND Gram (* skt to nat *)
       | LETTER "s" -> 48
       | LETTER "h" -> 49
       | "'"  -> -1 (* avagraha *)
+      | "-" -> 0  (* notation for affixing *)
+      | "+" -> -10 (* notation for compounding *)
       | "_" -> 50 (* sentential hiatus *) 
       | "#"; i = INT -> 50+int_of_string i (* 0 *) 
     ] ];
@@ -882,7 +897,7 @@ EXTEND Gram (* skt to nat *)
       | LETTER "S" -> 148
       | LETTER "H" -> 149 
 (* duplication with lower necessary in order to get proper sharing of prefix *)
-      | "\""; LETTER "m" -> 41 
+      | "\""; LETTER "m" -> 15 
       | "\""; LETTER "n" -> 36
       | LETTER "f" -> 36
       | "\""; LETTER "s" -> 48

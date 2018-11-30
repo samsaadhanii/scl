@@ -9,9 +9,10 @@
 
 (* A very simple lexer recognizing 1 character idents and integers 
    and skipping spaces and comments between [%] and eol; 
-   used for various transduction tasks with Camlp4 Grammars. *)
+   used for various transduction tasks with Camlp4 Grammars. 
+   It is a copy of ZEN/zen_lexer.ml in order to simplify dependencies. *)
 
-(*i module Zen_lexer = struct i*)
+(*i module Min_lexer = struct i*)
 
 open Camlp4.PreCast;
 open Format;
