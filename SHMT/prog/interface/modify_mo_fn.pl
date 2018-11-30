@@ -79,8 +79,8 @@ sub modify_mo{
   $in =~ s/^([^<]+)<upapaxa_cp:([^>]+)>/$1-$2/g;
   $in =~ s/ [ ]+/ /g;
   $in =~ s/\$//g;
-  $in =~ s/Y/</g;
-  $in =~ s/Z/>/g;
+#  $in =~ s/Y/</g;
+#  $in =~ s/Z/>/g;
   $in =~ s/{TITLE}/<TITLE>/g;
   $in =~ s/{\/TITLE}/<\/TITLE>/g;
   $in =~ s/\/\t/\t/g;
