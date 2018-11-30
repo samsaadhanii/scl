@@ -95,6 +95,7 @@ cana,avy,na_kevala
 caya,avy,saMgraha
 cew,avy,wo
 ciram,avy,aXika
+cEva,avy,Ora_BI
 ekalavya,n,puM,ekalavya
 ekaSaH,avy,eka_eka
 ekasmin,avy,eka

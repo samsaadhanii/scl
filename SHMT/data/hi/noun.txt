@@ -1477,6 +1477,7 @@ aXyAwma,puM,aXyAwma,puM
 aXyayana,napuM,aXyayana,puM,caraka
 aXyAya,puM,aXyAya,puM
 aXyURuR,puM,rahane_vAlA,puM
+ayana,napuM,mArga,puM
 ayana,napuM,kAla,puM,caraka
 Ayana,napuM,xiSA_sambanXI,puM,caraka
 Ayana,puM,xiSA_sambanXI,puM,caraka
@@ -12075,9 +12076,9 @@ nAvika,puM,jahAja_kA_cAlaka,puM
 navIna,puM,navIna,puM
 nawa,napuM,wagara,puM,caraka
 nAWa,puM,nAWa,swrI
-nAxa,napuM,cIKa,puM
+nAxa,napuM,nAxa,puM
 naxa,puM,badI_naxI,puM
-nAxa,puM,cIKa,puM
+nAxa,puM,nAxa,puM
 naxI,swrI,naxI,swrI
 nAyaka,puM,nAyaka,puM
 nayana,napuM,AzKa,swrI
@@ -13417,6 +13418,7 @@ praWama,swrI,praWama,swrI
 praWamA,swrI,praWama,swrI,caraka
 prawAna,puM,viswAra,puM,caraka
 prawApa,puM,prawApa,puM,caraka
+prawApavaw,puM,kIrwiSAlI,puM
 prawApin,puM,prawApI,puM
 praWa,puM,PElAnA,puM
 prawapwA,swrI,prawapwa,swrI,caraka
