@@ -1,3 +1,6 @@
+#Path for ZEN Library
+ZENDIR=/Users/pgoyal/
+
 #Path for installation of all packages.
 SCLINSTALLDIR=/Users/pgoyal/Documents/Toolkits/scl
 

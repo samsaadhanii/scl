@@ -1,3 +1,6 @@
+#Path for ZEN Library
+ZENDIR=/home/malhar/SKT/Heritage_Platform/Zen/ML
+
 #Path for installation of all packages.
 SCLINSTALLDIR=/home/malhar/Documents/scl
 

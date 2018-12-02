@@ -1,3 +1,6 @@
+#Path for ZEN Library
+ZENDIR=/home/ambaji/SKT/Heritage_Platform/Zen/ML
+
 #Path for installation of all packages.
 SCLINSTALLDIR=/home/ambaji/scl
 
