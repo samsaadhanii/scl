@@ -1704,7 +1704,6 @@ value rlwAxarWya m1 m2 m3 text_type = match m3 with
 (* assign_assign_prayojana_avykqw *)
 value rlpUrvakAla m1 m2 text_type = match m2 with
   [ Wif (id2,mid2,_,rt2,_,_,_,_,_,_,_,_,_,_,_,_)
-  | Kqw (id2,mid2,_,rt2,_,_,_,_,_,_,_,_,_,_,_,_,_)
   | Avykqw (id2,mid2,_,rt2,_,_,_,_,_,_,_,_) ->
      match m1 with
      [ Avykqw (id1,mid1,_,_,_,_,_,_,kqw1,_,_,_) ->
@@ -1716,6 +1715,22 @@ value rlpUrvakAla m1 m2 text_type = match m2 with
         else []
      | _ -> []
      ]
+   | Kqw (id2,mid2,_,rt2,_,_,_,_,_,_,_,_,_,_,viBakwiH2,_,_) ->
+     if not (viBakwiH2=7) then (* to avoid relting xqRtvA with pravqwwe in
+     अथ व्यवस्थितान् दृष्ट्वा धार्तराष्ट्रान् कपि-ध्वजः।
+प्रवृत्ते शस्त्र-सम्पाते धनुः उद्यम्य पाण्डवः।।1.20
+हृषीकेशम् तदा वाक्यम् इदम् आह मही-पते। *)
+     match m1 with
+     [ Avykqw (id1,mid1,_,_,_,_,_,_,kqw1,_,_,_) ->
+       if prose_order id1 id2 text_type 
+       then if (kqw1="kwvA" || kqw1="lyap")
+        then [ Relation (id1,mid1,"pUrvakAlaH",id2,mid2,"9.1")] 
+             (* samAna karwqkayoH pUrvakAle  rAmaH xugXam pIwvA vanam gacCawi*)  
+        else []
+        else []
+     | _ -> []
+     ]
+     else []
    | _ -> []
    ]
 ;
@@ -3013,8 +3028,13 @@ value rlBAvalakRaNa_sapwamI1 m1 m2 text_type = match m1 with
         if   viBakwiH2=1  
            && prose_order id1 id2 text_type
            && (no_boundary_crossing id1 id2)
-           then [ Relation (id1,mid1,"BAvalakRaNasapwamI",id2,mid2,"33.1")] 
+        then [ Relation (id1,mid1,"BAvalakRaNasapwamI",id2,mid2,"33.1")] 
         else []
+     |  Avykqw (id2,mid2,_,rt2,_,_,_,_,_,_,_,_) ->
+         if prose_order id1 id2 text_type
+           && (no_boundary_crossing id1 id2)
+         then [ Relation (id1,mid1,"BAvalakRaNasapwamI",id2,mid2,"33.1")] 
+         else []
      | _ -> []
      ]
      else []
@@ -3352,7 +3372,8 @@ value rlniwya_sambanXa_sup m1 m2 text_type = match m2 with
      ]
 ; 
 
-value rl_initial_avy m1 m2 text_type = match m2 with
+(* redundant see sent_beginning_connectives 38.3 *)
+(* value rl_initial_avy m1 m2 text_type = match m2 with
     [ Wif (id2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_) -> match m1 with
       [ Avy (id1,mid1,word1,_,_,_,_) -> match word1 with
             ["aWa"
@@ -3366,7 +3387,7 @@ value rl_initial_avy m1 m2 text_type = match m2 with
       ]
     | _ -> []
     ]
-;
+; *)
 
 value rl_ca m1 m2 text_type = match m2 with
     [ Wif (id2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
@@ -3655,7 +3676,7 @@ rlwifkarwA_karma; rlkqwkarwA_karma;
 rlanaBihiwe; rlapAxAna_wasil; rlAvy_kriyAviSeRaNam_or_aXikaraNam; rlBAvalakRaNa_sapwamI1; rlBAvalakRaNa_sapwamI2; rlpUrvakAla; rlwumun; rlkwa_as; rlsamAnakAla; rlviSeRaNam; rlavy_viSeRaNam; rlvIpsA; rlsamboXanasUcakam; rlnirXAraNam; rlupapaxa_other_rel; rlupapaxa; rlsambanXa1; rlsambanXa2; rlsambanXa3; rlavy_wif_mA; rlavy_wifkqw_special;
 rl_kAraka_RaRTI1; rl_kAraka_RaRTI2; rl_kAraka_RaRTI3;
 rl_nAma; rlAvykqw_karma; rlevamkarma; rliwi; rlRaRTIsambanXaH; rlviRayAXikaraNam; rlhewuprayoge; 
-rlniwya_sambanXa_avy; rlniwya_sambanXa_sup; rl_initial_avy; rl_ca; rlsent_beginning_connectives; (*rlparimANa_viSeRaNam;*) rl_exclamatory1; (*rlhewu_sup;*) rlkarwqrahiwakarwqsamAnAXikaraNam; rlafgavikAra
+rlniwya_sambanXa_avy; rlniwya_sambanXa_sup; (* rl_initial_avy;*)  rl_ca; rlsent_beginning_connectives; (*rlparimANa_viSeRaNam;*) rl_exclamatory1; (*rlhewu_sup;*) rlkarwqrahiwakarwqsamAnAXikaraNam; rlafgavikAra
   ]
 ;
 value all_rules3 = [rlkarwqsamAnAXikaraNam; rlkarmasamAnAXikaraNam; rlwAxarWya; rlvAkyakarma; rlvAkyakarma1; rlyaxi_warhi_cew; rlsent_connectives; rlupamAna_upameya_sup; rlca_samucciwa; rl_exclamatory2; rl_ca_wif_aBihiwa_karwA_karma]
