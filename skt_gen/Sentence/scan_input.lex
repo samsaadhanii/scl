@@ -25,7 +25,7 @@ INTERSENTENTIALRELATION samucciwa
 CAT sarva
 PRAYOGA karwari|karmaNi|BAve
 LAKARA varwamAnaH|anaxyawanaBUwaH|sAmAnyaBUwaH|parokRaBUwaH|anaxyawanaBaviRyakAlaH|sAmAnyaBaviRyakAlaH|AjFAprArWanAxiRu|viXiH|ASIH|kriyAniRpawwO_hewumaxBAve_ca
-KQW_N varwamAnasamAnakAlaH|BaviRyawsamAnakAlaH|pUrvakAlaH|BUwakarwA|BUwakarma|prayojanam|BAvaH
+KQW_N varwamAnasamAnakAlaH|varwamAnasamAnakAlaH-karwari|varwamAnasamAnakAlaH-karmaNi|BaviRyawsamAnakAlaH|BaviRyawsamAnakAlaH-karwari|BaviRyawsamAnakAlaH-karmaNi|pUrvakAlaH|BUwakarwA|BUwakarma|prayojanam|BAvaH
 KQW_A kwvA|lyap
 SANADI san|Nic|yaf|luk|yafluk|san_Nic|Nic_san
 SARVA12 asmax|yuRmax

@@ -570,42 +570,44 @@ value call_sup_gen rt cat gen vib num =
       ]
 ;
 		      
-value call_kqwrt_gen upasarga rt san_suff gen kqw_suff feature_list =
-      let str = "<kqw_vrb_rt:"^rt^">"^upasarga^san_suff^"<lifgam:"^gen^"><kqw_prawyayaH:"^kqw_suff^"><XAwuH:"^feature_list.(1)^"><gaNaH:"^feature_list.(2)^"><level:0>" in
+value call_kqwrt_gen upasarga rt san_suff gen kqw_suff prayoga feature_list =
+      let pr = if not (prayoga = "") then "<prayogaH:"^prayoga^">" else prayoga in
+      let str = "<kqw_vrb_rt:"^rt^">"^upasarga^san_suff^"<lifgam:"^gen^"><kqw_prawyayaH:"^kqw_suff^">"^pr^"<XAwuH:"^feature_list.(1)^"><gaNaH:"^feature_list.(2)^"><level:0>" in
       let str_kqwrt_gen = "echo '"^str^"'|"^ltproc^scl_morph_path^"kqw_gen.bin" in
       let (strout, strerr) = syscall str_kqwrt_gen in 
       strip_last_char strout
 ;
 
-value call_kqwform_gen upasarga rt san_suff gen kqw_suff feature_list kqwrt vib num =
-      let str = "<kqw_vrb_rt:"^rt^">"^upasarga^san_suff^"<kqw_prawyayaH:"^kqw_suff^"><XAwuH:"^feature_list.(1)^"><gaNaH:"^feature_list.(2)^">"^kqwrt^"<vargaH:nA><lifgam:"^gen^"><viBakwiH:"^ string_of_int vib^"><vacanam:"^num^"><level:2>" in
+value call_kqwform_gen upasarga rt san_suff gen kqw_suff prayoga feature_list kqwrt vib num =
+      let pr = if not (prayoga = "") then "<prayogaH:"^prayoga^">" else prayoga in
+      let str = "<kqw_vrb_rt:"^rt^">"^upasarga^san_suff^"<kqw_prawyayaH:"^kqw_suff^">"^pr^"<XAwuH:"^feature_list.(1)^"><gaNaH:"^feature_list.(2)^">"^kqwrt^"<vargaH:nA><lifgam:"^gen^"><viBakwiH:"^ string_of_int vib^"><vacanam:"^num^"><level:2>" in
       let str_kqw_gen = "echo '"^str^"'|"^ltproc^scl_morph_path^"kqw_gen.bin" in
       let (strout, strerr) = syscall str_kqw_gen in 
-      strip_last_char strout 
+      strip_last_char strout
 ;
 
-value call_core_kqw_gen upasarga rt san_suff gen kqw_suff feature_list vib num =
-   let kqwrt = call_kqwrt_gen upasarga rt san_suff gen kqw_suff feature_list in
-   call_kqwform_gen upasarga rt san_suff gen kqw_suff feature_list kqwrt vib num
+value call_core_kqw_gen upasarga rt san_suff gen kqw_suff prayoga feature_list vib num =
+   let kqwrt = call_kqwrt_gen upasarga rt san_suff gen kqw_suff prayoga feature_list in
+   call_kqwform_gen upasarga rt san_suff gen kqw_suff prayoga feature_list kqwrt vib num
 ;
 
-value call_kqw_gen upasarga rt san_suff gen kqw_suff feature_list vib num =
+value call_kqw_gen upasarga rt san_suff gen kqw_suff prayoga feature_list vib num =
       match gen with
-      [ "puM" -> call_core_kqw_gen upasarga rt san_suff "puM" kqw_suff feature_list vib num
-      | "napuM" -> call_core_kqw_gen upasarga rt san_suff "napuM" kqw_suff feature_list vib num 
-      | "swrI" -> call_core_kqw_gen upasarga rt san_suff "swrI" kqw_suff feature_list vib num 
-      | "puM_napuM" -> let acc1 = call_core_kqw_gen upasarga rt san_suff "puM" kqw_suff feature_list vib num in
-                       let acc2 = call_core_kqw_gen upasarga rt san_suff "napuM" kqw_suff feature_list vib num in
+      [ "puM" -> call_core_kqw_gen upasarga rt san_suff "puM" kqw_suff prayoga feature_list vib num
+      | "napuM" -> call_core_kqw_gen upasarga rt san_suff "napuM" kqw_suff prayoga feature_list vib num 
+      | "swrI" -> call_core_kqw_gen upasarga rt san_suff "swrI" kqw_suff prayoga feature_list vib num 
+      | "puM_napuM" -> let acc1 = call_core_kqw_gen upasarga rt san_suff "puM" kqw_suff prayoga feature_list vib num in
+                       let acc2 = call_core_kqw_gen upasarga rt san_suff "napuM" kqw_suff prayoga feature_list vib num in
                        acc1^"/"^acc2
-      | "puM_swrI" -> let acc1 = call_core_kqw_gen upasarga rt san_suff "puM" kqw_suff feature_list vib num in
-                      let acc2 = call_core_kqw_gen upasarga rt san_suff "swrI" kqw_suff feature_list vib num in
+      | "puM_swrI" -> let acc1 = call_core_kqw_gen upasarga rt san_suff "puM" kqw_suff prayoga feature_list vib num in
+                      let acc2 = call_core_kqw_gen upasarga rt san_suff "swrI" kqw_suff prayoga feature_list vib num in
                       acc1^"/"^acc2
-      | "napuM_swrI" -> let acc1 = call_core_kqw_gen upasarga rt san_suff "napuM" kqw_suff feature_list vib num in
-                        let acc2 = call_core_kqw_gen upasarga rt san_suff "swrI" kqw_suff feature_list vib num in
+      | "napuM_swrI" -> let acc1 = call_core_kqw_gen upasarga rt san_suff "napuM" kqw_suff prayoga feature_list vib num in
+                        let acc2 = call_core_kqw_gen upasarga rt san_suff "swrI" kqw_suff prayoga feature_list vib num in
                         acc1^"/"^acc2
-      | "a" -> let acc1 = call_core_kqw_gen upasarga rt san_suff "puM" kqw_suff feature_list vib num in
-               let acc2 = call_core_kqw_gen upasarga rt san_suff "swrI" kqw_suff feature_list vib num in
-               let acc3 = call_core_kqw_gen upasarga rt san_suff "napuM" kqw_suff feature_list vib num in
+      | "a" -> let acc1 = call_core_kqw_gen upasarga rt san_suff "puM" kqw_suff prayoga feature_list vib num in
+               let acc2 = call_core_kqw_gen upasarga rt san_suff "swrI" kqw_suff prayoga feature_list vib num in
+               let acc3 = call_core_kqw_gen upasarga rt san_suff "napuM" kqw_suff prayoga feature_list vib num in
                 acc1^"/"^acc2^"/"^acc3
       | _ -> "-"
       ]
@@ -676,7 +678,11 @@ value get_lakAra kAla = match kAla with
 |"ASIH" -> "ASIrlif"
 |"kriyAniRpawwO hewumaxBAve ca" -> "lqf"
 |"varwamAnasamAnakAlaH" -> "Sawq_lat"
+|"varwamAnasamAnakAlaH-karwari" -> "SAnac_lat_karwari"
+|"varwamAnasamAnakAlaH-karmaNi" -> "SAnac_lat_karmaNi"
 |"BaviRyawsamAnakAlaH" -> "Sawq_lqt"
+|"BaviRyawsamAnakAlaH-karwari" -> "SAnac_lqt_karwari"
+|"BaviRyawsamAnakAlaH-karmaNi" -> "SAnac_lqt_karmaNi"
 |"BUwakarma" -> "kwa"
 |"BUwakarwA" -> "kwavawu"
 |"prayojanam" -> "wumun"
@@ -706,10 +712,10 @@ value handle_viSeRaNas id gen num vib parse root_info_list =
             let u = if upasarga = "-" then "" else "<upasarga:"^upasarga^">" in
             let feature_list = Array.of_list (Str.bounded_split (Str.regexp_string ",") root_info 3) in
             let s = if san_suff = "-" then "" else "<sanAxi_prawyayaH:"^san_suff^">" in
-            let str_kqw_gen = call_kqw_gen u rt s gen kqw_suff feature_list vib num in
+            let str_kqw_gen = call_kqw_gen u rt s gen kqw_suff "" feature_list vib num in
             if kAla="BUwakarwA" && (members_of upasarga rt akarmaka_verbs || members_of upasarga rt gawyarWa_verbs || members_of upasarga rt shliR_Axi_verbs || members_of upasarga rt aaxikarma_verbs)
             then 
-            let str1_kqw_gen = call_kqw_gen u rt s gen "kwa" feature_list vib num in
+            let str1_kqw_gen = call_kqw_gen u rt s gen "kwa" "" feature_list vib num in
             let str = String.concat "/" [str1_kqw_gen; str_kqw_gen] in 
             let acc1 = List.append acc [str] in
             loop acc1 r1
@@ -932,6 +938,7 @@ value get_vibhakti m parse = match m with
            match kqw_suff1 with
            [ "BUwakarwA" (* kwavawu *)
            | "varwamAnasamAnakAlaH" (* Sawq_lat *)
+           | "varwamAnasamAnakAlaH-karwari" (* SAnac_lat_karwari *)
            | "BaviRyawsamAnakAlaH"  (* Sawq_lqt *) ->
               if ( toid = id1)
               then match rel with
@@ -987,7 +994,8 @@ value get_vibhakti m parse = match m with
               | _ -> 0 (* raise exception *)
               ]
               else loop2 r2
-          | "BUwakarma" -> 
+           | "BUwakarma"
+           | "varwamAnasamAnakAlaH-karmaNi" (* SAnac_lat_karmaNi *) ->
               if members_of upasarga1 rt1 akarmaka_verbs
               then 0 (*raise exception *)
               else if ( toid = id1)
@@ -1100,9 +1108,13 @@ value get_generated_words parses root_info_list=
              let s = if san_suff = "-" then "" else "<sanAxi_prawyayaH:"^san_suff^">" in
              let str = handle_viSeRaNas id gen num v1 parses root_info_list in
              let acc1 = List.append acc str in
-             let str_kqw_gen = call_kqw_gen u rt s gen kqw_suff feature_list v1 num in
+             let str_kqw_gen = if kqw_suff="SAnac_lat_karwari"
+             then call_kqw_gen u rt s gen "SAnac_lat" "karwari" feature_list v1 num 
+             else if kqw_suff="SAnac_lat_karmaNi"
+             then call_kqw_gen u rt s gen "SAnac_lat" "karmaNi" feature_list v1 num 
+             else call_kqw_gen u rt s gen kqw_suff "" feature_list v1 num in
              if kAla="BUwakarwA" && (members_of upasarga rt akarmaka_verbs || members_of upasarga rt gawyarWa_verbs || members_of upasarga rt shliR_Axi_verbs || members_of upasarga rt aaxikarma_verbs)
-            then let str1_kqw_gen = call_kqw_gen u rt s gen "kwa" feature_list v1 num in 
+            then let str1_kqw_gen = call_kqw_gen u rt s gen "kwa" "" feature_list v1 num in 
             let str = String.concat "/" [str1_kqw_gen; str_kqw_gen] in
             let acc2 = List.append acc1 [str] in
             loop1 acc2 r1 
