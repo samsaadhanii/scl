@@ -84,6 +84,7 @@ Af_sWA1,v,aXirUDa_ho^Upara_bETa
 Af_vA1,v,A
 Af_vah1,v,A
 Af_vas1,v,raha
+Af_viS1,v,kAbU_pA
 Af_vq2,v,Gera^lapeta
 Af_vq4,v,Gera^lapeta
 Af_wQ1,v,BAra_xekara_nAva_para_caDa_jA
@@ -214,6 +215,7 @@ ava_grah1,v,atakA
 ava_granW1,v,cAxara_Axi_se_muKa_Axi_ko_CipA
 ava_hq1,v,punaH_sampAxana_kara^Pira_prApwa_kara^SAsana_kara^xaNda_xe
 ava_i1,v,jAna^samaJa
+ava_IkR1,v,xeKa
 ava_jFA2,v,apamAna_kara
 ava_kQ1,v,PeMka
 ava_kRip2,v,nIce_PeMka
@@ -224,7 +226,7 @@ ava_ruh1,v,uwara
 ava_ruX1,v,roka
 ava_saFj1,v,lataka^hila
 ava_SiR2,v,baca
-ava_sWA1,v,sevA_kara^Wama^sWira_raha
+ava_RTA1,v,avasWiwa_raha^sevA_kara^Wama
 ava_waMs1,v,sajA
 ava_wQ1,v,uwara
 ava_XU4,v,naRta_kara
@@ -1352,6 +1354,7 @@ pari_pAla1,v,pAlana_kara
 pari_praC1,v,pUCa^jAnane_kI_icCA_kara,jFIpsAyAm
 pari_puR3,v,uwkqRta_ho^pAlana_kara
 parisam_Ap2,v,samApwa_kara^pUrA_kara
+pari_SuR1,v,sUKa
 pari_vax1,v,viruxXa_bola
 pari_vax2,v,viruxXa_bola
 parivi_Ap1,v,cAroM_ora_se_vyApa
@@ -1687,6 +1690,7 @@ Sam3,v,prasixXa_kara^spaRtawA_se_xiKA^jAhira_kara,Alocane
 sAma1,v,sAnwvanA_xe^samAXAna_kara^SAnwa_kara,sAnwvaprayoge
 samaBi_vA1,v,samIpa_jA
 sam_Af_car1,v,AcaraNa_kara
+sam_Af_gam1,v,ikaTTA_ho
 sam_Af_sax1,v,raha
 sam_Af_XA1,v,samAXAna_kara
 sam_ava_I1,v,ikaTTA_ho
@@ -1722,6 +1726,7 @@ sam_han1,v,hiMsA_kara^mAra^ekawra_kara
 sam_hve1,v,yuxXa_ke_lie_bulA
 sam_i1,v,mila
 sam_Ir2,v,vAyu_ke_samAna_jA
+sam_IkR1,v,samIkaRA_kara
 sam_jan2,v,uwpanna_kara^pExA_kara,janane
 sam_jFA2,v,acCI_waraha_jAna^prawijFA_kara^vacana_xe
 sam_ji1_NiC,v,ho
@@ -1758,6 +1763,7 @@ sam_sqj1,v,milApa_kara_yA_ho
 saMsw1,v,so,svapne
 saMsw2,v,so,svapne
 sam_sWA1,v,acCA_ho^pAsa_ho^pUrNa_ho^ekamawa_ho
+sam_upa_RTA1,v,samupasWiwa_ho
 samupa_i1,v,sAmane_A
 samupa_xiS1,v,upaxeSa_kara
 saMvi_Ap1,v,acCI_waraha_vyApa
@@ -1804,10 +1810,10 @@ SaT4,v,xuBARaNa_kara^xurvacana_kaha^mOna_XAraNa_kara^cupa_raha,samyag-avaBARaNe
 satt1,v,mAra_dAlanA_yA_xuHKa_xe^pIdA_xe,hiMsAyAm
 Sav1,v,jA,gawO
 sawra1,v,PelA^viswAra_kara^sambanXa_kara^saMsargI_ho,sanwAnakriyAyAm
-sax1,v,jA^cala^SakwihIna_ho^mlAna_ho^sUKa^murJA^naRta_kara,viSaraNa-gawi-avasAxaneRu
+Rax1,v,jA^cala^SakwihIna_ho^mlAna_ho^sUKa^murJA^naRta_kara,viSaraNa-gawi-avasAxaneRu
 Sax1,v,jIrNa_ho^XIre-XIre_kama_ho^murJA^gira^nIce_PeMka,SAwane
 sAX1,v,sixXa_kara^jaya_pA^sAXana_kara,saMsixXO
-sax2,v,cala^SakwihIna_ho^jA^Kinna_ho,viSaraNa-gawi-avasAxaneRu
+Rax2,v,cala^SakwihIna_ho^jA^Kinna_ho,viSaraNa-gawi-avasAxaneRu
 Sax2,v,jIrNa_ho^murJA^gira^nIce_PeMka,SAwane
 Scyuw1,v,tapaka^Jara^sIMcanA_prokRaNa_kara_CIMtA_xe,kRaraNe
 sE1,v,naRta_ho^hrAsa_ho^kama_ho^mlAna_ho,kRaye
@@ -2144,6 +2150,7 @@ uw_Svas1,v,vivasiwa_ho^praPulliwa_ho^Kila
 uw_sWA1,v,KadA_hoM^Asana_se_uTa
 uw_vah1,v,uTA
 uw_wQ1,v,uwwara_xe^Upara_xe
+uw_yam1,v,uTA
 uw_xiS1,v,xiKAnA_prakata_kara
 uxA_hq1,v,kaha^uxAharaNa_xe
 uxA_kq3,v,xURaNa_lagA^Cala
