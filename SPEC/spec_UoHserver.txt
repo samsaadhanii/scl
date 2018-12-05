@@ -22,3 +22,6 @@ HERITAGE_CGIURL=http://sanskrit.uohyd.ac.in/~anusaaraka/Heritage/sktgraph.cgi
 
 #Path for temporary files
 TFPATH=/tmp/SKT_TEMP
+
+#Version SERVER/STANDALONE
+VERSION=SERVER

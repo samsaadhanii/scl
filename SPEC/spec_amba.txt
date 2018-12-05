@@ -25,3 +25,6 @@ HERITAGE_CGIURL=/cgi-bin/SKT/sktgraph
 
 #Path for temporary files
 TFPATH=/tmp/SKT_TEMP
+
+#Version SERVER/STANDALONE
+VERSION=SERVER

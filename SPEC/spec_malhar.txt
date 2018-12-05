@@ -22,3 +22,6 @@ GraphvizDot=/usr/bin/dot
 
 #Path for temporary files
 TFPATH=/tmp/SKT_TEMP
+
+#Version SERVER/STANDALONE
+VERSION=STANDALONE
