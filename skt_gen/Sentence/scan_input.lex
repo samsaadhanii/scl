@@ -24,7 +24,7 @@ VISERANA viSeRaNam|aBexa
 INTERSENTENTIALRELATION samucciwa
 CAT sarva
 PRAYOGA karwari|karmaNi|BAve
-LAKARA varwamAnaH|anaxyawanaBUwaH|sAmAnyaBUwaH|parokRaBUwaH|anaxyawanaBaviRyakAlaH|sAmAnyaBaviRyakAlaH|AjFAprArWanAxiRu|viXiH|ASIH|kriyAniRpawwO_hewumaxBAve_ca
+LAKARA varwamAnaH|anaxyawanaBUwaH|sAmAnyaBUwaH|parokRaBUwaH|anaxyawanaBaviRyakAlaH|sAmAnyaBaviRyakAlaH|AjFAprArWanAxiRu|viXiH|ASIH|kriyAniRpawwO-hewumaxBAve-ca
 KQW_N varwamAnasamAnakAlaH|varwamAnasamAnakAlaH-karwari|varwamAnasamAnakAlaH-karmaNi|BaviRyawsamAnakAlaH|BaviRyawsamAnakAlaH-karwari|BaviRyawsamAnakAlaH-karmaNi|pUrvakAlaH|BUwakarwA|BUwakarma|prayojanam|BAvaH
 KQW_A kwvA|lyap
 SANADI san|Nic|yaf|luk|yafluk|san_Nic|Nic_san

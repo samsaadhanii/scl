@@ -676,7 +676,7 @@ value get_lakAra kAla = match kAla with
 |"AjFAprArWanAxiRu" -> "lot"
 |"viXiH" -> "viXXilif"
 |"ASIH" -> "ASIrlif"
-|"kriyAniRpawwO hewumaxBAve ca" -> "lqf"
+|"kriyAniRpawwO-hewumaxBAve-ca" -> "lqf"
 |"varwamAnasamAnakAlaH" -> "Sawq_lat"
 |"varwamAnasamAnakAlaH-karwari" -> "SAnac_lat_karwari"
 |"varwamAnasamAnakAlaH-karmaNi" -> "SAnac_lat_karmaNi"
@@ -1061,8 +1061,10 @@ value get_generated_wif id upasarga rt san_suff prayoga kAla acc parses root_inf
        then if prayoga = "karwari" 
        then
 	let str1 = call_wif_gen u rt s prayoga lakAra "parasmEpaxI" per_num feature_list in
+        let str11 = str1^" (papa)" in
 	let str2 = call_wif_gen u rt s prayoga lakAra "AwmanepaxI" per_num feature_list in
-        let str = String.concat "/" [str1; str2] in List.append acc [str]
+        let str21 = str2^" (Apa)" in
+        let str = String.concat "/" [str11; str21] in List.append acc [str]
        else
 	let str = call_wif_gen u rt s prayoga lakAra "AwmanepaxI" per_num feature_list in
         List.append acc [str]
