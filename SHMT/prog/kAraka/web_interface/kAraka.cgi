@@ -27,12 +27,10 @@ $CGILOC = "/cgi-bin/scl/SHMT/";
 use CGI qw/:standard/;
 #use CGI::Carp qw(fatalsToBrowser);
 
-my $version = "DEVELOP";
-
+ if($VERSION eq "SERVER") {
     if (! (-e "$TFPATH")){
         mkdir "$TFPATH" or die "Error creating directory $TFPATH";
     }
- if($version eq "DEVELOP") {
     open(TMP1,">>$TFPATH/parser.log") || die "Can't open $TFPATH/parser.log for writing";
  }
       if (param) {
@@ -43,7 +41,7 @@ my $version = "DEVELOP";
       $parse=param("parse");
       $text_type=param("text_type");
 
-   if($version eq "DEVELOP"){
+   if($VERSION eq "SERVER"){
       print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."encoding:$encoding\t"."sentences:$sentences\t"."preprocess:$preprocess\t"."out_encoding:$out_encoding\t"."parse:$parse\n#########################\n";
    }
       if ($out_encoding eq "Devanagari") { $script = "DEV";}
@@ -105,6 +103,6 @@ print "<script type=\"text/javascript\">\n";
       system("cat $TFPATH/in${pid}.html");
       print "</div><div style=\"height:100px\"></div></body></html>";
       }
-   if($version eq "DEVELOP"){
+   if($VERSION eq "SERVER"){
       close(TMP1);
    }

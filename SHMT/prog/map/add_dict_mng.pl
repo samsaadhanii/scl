@@ -484,7 +484,7 @@ my($ans);
      $kqw_prawyayaH = $2;
      $XAwu = $3;
      $gaNa = $4;
-     $kqw_prawipaxika = $5;
+     $kqw_prAwipaxika = $5;
      $lifgam = $6;
      $viB = $7;
      $vacana = $8;
