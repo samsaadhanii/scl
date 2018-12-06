@@ -410,7 +410,7 @@ uwpawanwi	paw1<upasarga:uw><prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:
 uwpAxayanwi	paw1<upasarga:uw><prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:bahu><paxI:parasmEpaxI><XAwuH:pawl><gaNaH:BvAxiH><level:1>
 uwpaxyawe	pax1<upasarga:uw><prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:paxL><gaNaH:xivAxiH><level:1>
 uwsasarja	sqj1<upasarga:uw><prayogaH:karwari><lakAraH:lit><puruRaH:pra><vacanam:eka><paxI:AtmanepaxI><XAwuH:sqja><gaNaH:BvAxiH><level:1>
-uwsAxyanwe	sax1<upasarga:uw><sanAxi_prawyayaH:Nic><prayyogaH:karmaNi><lakAraH:lat><puruRaH:pra><vacanam:bahu><paxI:AwmanepaxI><XAwuH:RaxLz><gaNaH:BvAxiH><level:1>
+uwsAxyanwe	sax1<upasarga:uw><sanAxi_prawyayaH:Nic><prayogaH:karmaNi><lakAraH:lat><puruRaH:pra><vacanam:bahu><paxI:AwmanepaxI><XAwuH:RaxLz><gaNaH:BvAxiH><level:1>
 uwsIxeyuH	sax1<upasarga:uw><prayogaH:karwari><lakAraH:viXilif><puruRaH:pra><vacanam:bahu><paxI:parasmEpaxI><XAwuH:RaxLz><gaNaH:BvAxiH><level:1>
 uwsqjAmi	sqj2<upasarga:uw><prayogaH:karwari><lakAraH:lat><puruRaH:u><vacanam:eka><paxI:parasmEpaxI><XAwuH:sqjaz><gaNaH:wuxAxiH><level:1>
 uwWApayawi	sWA1<upasarga:uw><sanAxi_prawyayaH:Nic><prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:svIkq><gaNaH:BvAxiH><level:1>

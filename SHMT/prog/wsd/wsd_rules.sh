@@ -32,5 +32,5 @@ $ANU_MT_PATH/wsd/wsd $ANU_MT_PATH/wsd/ < $TMP_FILES_PATH/wsd_files/rl1.clp > $TM
 cat $3 | $ANU_MT_PATH/wsd/create_wsd.pl $TMP_FILES_PATH/wsd_files/wsd.txt > $4
 
 paste $2 $4 | perl -p -e 's/^\t//'  > $TMP_FILES_PATH/tmpwsd
-mv $TMP_FILES_PATH/tmpwsd $2
+cp $TMP_FILES_PATH/tmpwsd $2
 #rm $TMP_FILES_PATH/wsd

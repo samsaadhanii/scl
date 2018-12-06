@@ -2618,7 +2618,7 @@ canxra,puM,canxra,puM
 capalA,swrI,lakRmI,swrI
 capalawA,swrI,caMMcalawA,swrI
 cApalya,napuM,caMcalawA,swrI
-cApa,napuM,cApa,puM
+cApa,napuM,XanuRa,puM
 capetikA,swrI,Wappada,swrI
 caRaka,puM,pyAlA,puM
 caraNa,napuM,caraNa,puM
@@ -10954,7 +10954,7 @@ maXuravAc,puM,maXuraBARI,puM
 maXurawraya,napuM,wIna_mITe_paxArWa{Sakkara_Sahaxa_Ora_GI},puM
 maXurawva,napuM,suhAvanApana^rocakawA,puM
 maXuriman,puM,mAXurya^rocakawA,puM
-maXuripu,puM,viRNu{viSeRaNa},puM
+maXuripu,puM,viRNu,puM
 mAXurI,swrI,miTAsa^maXura_svAxa^KIMcI_huI_SarAba,swrI
 mAXurya,napuM,mAXurya,puM
 maXusahAya,puM,kAmaxeva,puM
@@ -10962,13 +10962,13 @@ maXusaKa,puM,kAmaxeva,puM
 maXuSAKa,puM,mahue{vqkRa},puM
 maXusAraWi,puM,kAmaxeva,puM
 maXuSarkarA,swrI,Sahaxa_se_wEyAra_kI_huI_Sakkara,swrI
-maXuSawru,puM,viRNu{viSeRaNa},puM
+maXuSawru,puM,viRNu,puM
 maXuSeRa,napuM,moma,puM
 maXusikWaka,puM,viRa{eka_prakAra_kA},puM
 maXuSiRta,napuM,moma,puM
 maXusuhqx,napuM,kAmaxeva,puM
 maXusuhqx,puM,kAmaxeva,puM
-maXusUxana,puM,BOMrA,puM
+maXusUxana,puM,maXusUxana,puM
 maXusvara,puM,koyala,swrI
 maXu,swrI,maXu,swrI
 maXuvana,napuM,maXurAkRasa_kA_vana{vaha_jaMgala_jahAz_maXu_nAmaka_rAkRasa_rahA_karawA_WA_jisako_mArakara_SawruGna_ne_maWurA_nagarI_basAI_WI},puM
