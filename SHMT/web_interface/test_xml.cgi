@@ -21,12 +21,10 @@ require "../paths.pl";
 package main;
 use CGI qw/:standard/;
 
-#my $version = "DEVELOP";
-
+  if($VERSION eq "SERVER") {
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
     }
-  if($version eq "DEVELOP") {
     open(TMP1,">>$GlblVar::TFPATH/shmt.log") || die "Can't open $GlblVar::TFPATH/shmt.log for writing";
   }
 
@@ -42,7 +40,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
       my $text_type=param("text_type");
 
 
-  if($version eq "DEVELOP") {
+  if($VERSION eq "SERVER") {
       print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."encoding:$encoding\t"."sentences:$sentences\t"."splitter:$splitter\t"."out_encoding:$out_encoding\t"."parse:$parse\n#####################\n\n";
   }
 
@@ -54,8 +52,8 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 
       $pid = $$;
 
-      $sentences =~ s/\r//g;
-      $sentences =~ s/\n/#/g;
+      $sentences =~ s/\r\n/ /g;
+      $sentences =~ s/[\r\n]/ /g;
       $sentences =~ s/ ।/./g;
       $sentences =~ s/[ ]+\|/./g;
       $sentences =~ s/[ ]+([\.!\?])/$1/g;
@@ -84,6 +82,6 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
            system("$GlblVar::SCLINSTALLDIR/SHMT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $script $pid");
       }
     }
-  if($version eq "DEVELOP") {
+  if($VERSION eq "SERVER") {
     close(TMP1);
   }
