@@ -33,6 +33,7 @@ while($in = <STDIN>){
 
     print $word,"=";
  
+     my $ans = "";
      foreach ($i=0; $i<=$#analysis;$i++){
         if ($analysis[$i] =~ /kqw_prawyayaH.*viBakwiH:7/) {
              $found = 0;
@@ -43,10 +44,11 @@ while($in = <STDIN>){
                   }
                } 
              }
-             if($found) { if($i>0) { print "/";} print $analysis[$i];}
-        } else { if($i>0) { print "/";} print $analysis[$i];}
+             if($found) { if($i>0) { $ans .= "/";} $ans .= $analysis[$i];}
+        } else { if($i>0) { $ans .= "/";} $ans .= $analysis[$i];}
      }
-     print "\n";
+     if ($ans eq "") { $ans = join ("/",@analysis);}
+     print $ans, "\n";
   }
  }
  print "\n";
