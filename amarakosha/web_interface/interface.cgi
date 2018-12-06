@@ -20,16 +20,13 @@
 use strict;
 use warnings;
 
-my $version = "DEVELOP";
-
 require "../paths.pl";
 
 use CGI qw( :standard );
 
+  if($VERSION eq "SERVER"){
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
-    }
-  if($version eq "DEVELOP"){
     open(TMP1,">>$GlblVar::TFPATH/amarakosha.log") || die "Can't open $GlblVar::TFPATH/amarakosha.log for writing";
   }
 
@@ -46,9 +43,10 @@ print "  window.open('/cgi-bin/scl/amarakosha/noun_gen.cgi?encoding='+encod+'&rt
 print "}\n";
 print "</script>\n";
 
-  if($version eq "DEVELOP"){
+  if($VERSION eq "SERVER"){
     print TMP1 $ENV{'REMOTE_ADDR'},"\t",$ENV{'HTTP_USER_AGENT'},"\n";
     print TMP1 "word:$word\tencoding:$encoding\trelation:$relation\tout_encoding:$out_encoding\n###################\n";
+    close(TMP1);
   }
 
 my $pid = $$;
@@ -58,7 +56,3 @@ print $result;
 
 print "<center><font size=5 color=\"white\">&nbsp;</font></center>";
 print "</td></tr></table>";
-
-  if($version eq "DEVELOP"){
-   close(TMP1);
-  }

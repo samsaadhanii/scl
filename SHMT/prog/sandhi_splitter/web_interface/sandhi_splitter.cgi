@@ -25,12 +25,10 @@ use strict;
 use warnings;
 use CGI qw( :standard );
 
-my $version = "DEVELOP";
-
+if($VERSION eq "SERVER") {
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
     }
-if($version eq "DEVELOP") {
    open(TMP1,">>$GlblVar::TFPATH/sandhi_splitter.log") || die "Can't open $GlblVar::TFPATH/sandhi_splitter.log for writing";
 }
 
@@ -44,7 +42,7 @@ if (param){
   $word = param('word');
   $encoding=param("encoding");
   $sandhi_type=param("sandhi_type");
-  if($version eq "DEVELOP"){
+  if($VERSION eq "SERVER"){
      print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."encoding:$encoding\t"."word:$word\t"."sandhi_type:$sandhi_type\n";
   }
 }
@@ -63,6 +61,6 @@ print `/bin/cat $GlblVar::TFPATH/seg_$$/all_possible_outputs.txt`;
 print "</div><br />";
 }
 
-if($version eq "DEVELOP"){
+if($VERSION eq "SERVER"){
    close(TMP1);
 }

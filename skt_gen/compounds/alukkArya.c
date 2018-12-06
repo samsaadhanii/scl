@@ -60,7 +60,7 @@ return 1;
 
 void subanwa_kArya(char *prawi, char *iwsup, char *lifgam, int vacanam, char *subanwa) {
 int viBakwiH,sup_vacanam;
-char cmd[200];
+char cmd[200]; fn[200];
 FILE *fp;
 char fout[100];
 int pid;
@@ -70,8 +70,7 @@ pid = getpid();
 get_viBakwi_vacanam(iwsup,&viBakwiH,&sup_vacanam);
 if(vacanam == 1){ vacanam = sup_vacanam;}
 
-/* sprintf(fout,"TFPATH/tmp_gen%d",pid); */
- sprintf(fout,"/tmp/SKT_TEMP/tmp_gen%d",pid); 
+ sprintf(fout,"%s/tmp_gen%d",TFPATH,pid); 
 
 sprintf(cmd,"/bin/echo \"^%s<vargaH:nA><lifgam:%s><viBakwiH:%d><vacanam:%d><level:1>$\" | LTPROCBIN -c -g %s/morph_bin/sup_gen.bin > %s",prawi,lifgam,viBakwiH,vacanam,SCLINSTALLDIR,fout);
 system(cmd);

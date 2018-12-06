@@ -22,13 +22,12 @@ require "../../paths.pl";
 package main;
 use CGI qw/:standard/;
 
-my $version = "DEVELOP";
 
 #use CGI::Carp qw(fatalsToBrowser);
+ if($VERSION eq "SERVER"){
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
     }
- if($version eq "DEVELOP"){
    open(TMP1,">>$GlblVar::TFPATH/waxXiwa.log") || die "Can't open $GlblVar::TFPATH/waxXiwa.log for writing";
  }
    if (param) {
@@ -50,11 +49,11 @@ my $version = "DEVELOP";
       print "<body onload=\"register_keys()\"> <script src=\"/scl/SHMT/wz_tooltip.js\" type=\"text/javascript\"></script>\n";
       my $result = `$GlblVar::SCLINSTALLDIR/skt_gen/waxXiwa/gen_noun.pl $rt $gen $encoding $prawyaya`;
       print $result;
-      if($version eq "DEVELOP"){
+      if($VERSION eq "SERVER"){
          print TMP1 "running:","calling gen_waxXiwa.pl from waxXiwa generator";
          print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."rt:$rt\t"."gen:$gen\t"."encoding:$encoding#######################\n\n";
       }
    }
- if($version eq "DEVELOP"){
+ if($VERSION eq "SERVER"){
    close(TMP1);
  }

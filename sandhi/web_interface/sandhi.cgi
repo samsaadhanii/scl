@@ -8,13 +8,11 @@ require "$GlblVar::SCLINSTALLDIR/sandhi/apavAxa_any.pl";
 require "$GlblVar::SCLINSTALLDIR/sandhi/any_sandhi.pl";
 
 package main;
-my $version = "DEVELOP";
 
+if($VERSION eq "SERVER"){
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
     }
-
-if($version eq "DEVELOP"){
   open(TMP1,">>$GlblVar::TFPATH/sandhi.log") || die "Can't open $GlblVar::TFPATH/sandhi.log for writing";
 }
 
@@ -46,7 +44,7 @@ use CGI qw/:standard/;
       $san = `$cmd`;
       $san=~s/,:/,/g;
 
-if($version eq "DEVELOP"){
+if($VERSION eq "SERVER"){
       if($san){ 
             print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n\n"."encoding:$encoding\t"."word1:$word1\t"."word2:$word2###############\n\n"; 
       } else { 
@@ -85,6 +83,6 @@ if($version eq "DEVELOP"){
 
 print "<br></BODY></HTML>";
 }
-if($version eq "DEVELOP"){
+if($VERSION eq "SERVER"){
   close (TMP1);
 }

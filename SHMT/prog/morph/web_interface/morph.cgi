@@ -26,8 +26,6 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 
 use CGI qw( :standard );
 
-my $version = "DEVELOP";
-
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
     }
@@ -55,7 +53,7 @@ if (param()){
     $encoding=param("encoding");
 }
 
-if($version eq "DEVELOP"){
+if($VERSION eq "SERVER"){
   open(TMP1,">>$GlblVar::TFPATH/morph.log") || die "Can't open $GlblVar::TFPATH/morph.log for writing";
   print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."encoding:$encoding\t"."morfword:$word\n"."tempnew_data:$ans\n############################\n\n";
   close(TMP1);

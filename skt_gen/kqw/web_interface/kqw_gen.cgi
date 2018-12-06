@@ -20,12 +20,11 @@ package main;
 use CGI qw/:standard/;
 
 require "../../paths.pl";
-my $version = "DEVELOP";
 
+    if($VERSION eq "SERVER"){
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
     }
-    if($version eq "DEVELOP"){
       open(TMP1,">>$GlblVar::TFPATH/kqw.log") || die "Can't open $GlblVar::TFPATH/kqw.log for writing";
     }
       if (param) {
@@ -46,11 +45,13 @@ my $version = "DEVELOP";
 
       my $result = &getResult("$GlblVar::SCLINSTALLDIR/skt_gen/kqw/gen_kqw.pl $encoding $word $upasarga");
       print $result;
-      if($version eq "DEVELOP"){
+      if($VERSION eq "SERVER"){
          print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."word:$word\n#################\n";
-         close(TMP1);
       }
      }
+      if($VERSION eq "SERVER"){
+         close(TMP1);
+      }
 
 sub getResult{
         $cmd = $_[0];

@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2010-2012 Karunakar 2013-17 Amba Kulkarni
+#  Copyright (C) 2010-2012 Karunakar 2013-18 Amba Kulkarni
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -19,11 +19,9 @@
 
 require "../paths.pl";
 
-my $version = "DEVELOP";
+ if($VERSION eq "SERVER"){
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
-    }
- if($version eq "DEVELOP"){
     open(TMP1,">>$GlblVar::TFPATH/transliterate.log") || die "Can't open $GlblVar::TFPATH/transliterate.log for writing";
  }
     #TMP1 is a global variable; available for all the sub-routines in this file.
@@ -43,18 +41,16 @@ $trgt = $query->param('tarlang');
 chomp($src);
 chomp($trgt);
 
- if($version eq "DEVELOP"){
+ if($VERSION eq "SERVER"){
    print TMP1 $ENV{'REMOTE_ADDR'},"\t",$ENV{'HTTP_USER_AGENT'},"\n";
    print TMP1 "$input\tFrom:$src\tTo:$trgt\n###################\n";
+   close(TMP1);
  }
 
 print $query->header;
 
 $cnvrt_prgm = &get_prgm_nm($src,$trgt);
 &my_convert($input,$cnvrt_prgm);
- if($version eq "DEVELOP"){
-   close(TMP1);
- }
 
 sub my_convert{
 
