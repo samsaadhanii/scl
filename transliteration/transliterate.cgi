@@ -19,11 +19,12 @@
 
 require "../paths.pl";
 
- if($VERSION eq "SERVER"){
+ if($GlblVar::VERSION eq "SERVER"){
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
     open(TMP1,">>$GlblVar::TFPATH/transliterate.log") || die "Can't open $GlblVar::TFPATH/transliterate.log for writing";
  }
+}
     #TMP1 is a global variable; available for all the sub-routines in this file.
 
 
@@ -41,7 +42,7 @@ $trgt = $query->param('tarlang');
 chomp($src);
 chomp($trgt);
 
- if($VERSION eq "SERVER"){
+ if($GlblVar::VERSION eq "SERVER"){
    print TMP1 $ENV{'REMOTE_ADDR'},"\t",$ENV{'HTTP_USER_AGENT'},"\n";
    print TMP1 "$input\tFrom:$src\tTo:$trgt\n###################\n";
    close(TMP1);

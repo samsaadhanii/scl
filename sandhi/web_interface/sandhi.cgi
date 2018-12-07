@@ -9,7 +9,7 @@ require "$GlblVar::SCLINSTALLDIR/sandhi/any_sandhi.pl";
 
 package main;
 
-if($VERSION eq "SERVER"){
+if($GlblVar::VERSION eq "SERVER"){
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
     }
@@ -44,7 +44,7 @@ use CGI qw/:standard/;
       $san = `$cmd`;
       $san=~s/,:/,/g;
 
-if($VERSION eq "SERVER"){
+if($GlblVar::VERSION eq "SERVER"){
       if($san){ 
             print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n\n"."encoding:$encoding\t"."word1:$word1\t"."word2:$word2###############\n\n"; 
       } else { 
@@ -83,6 +83,6 @@ if($VERSION eq "SERVER"){
 
 print "<br></BODY></HTML>";
 }
-if($VERSION eq "SERVER"){
+if($GlblVar::VERSION eq "SERVER"){
   close (TMP1);
 }

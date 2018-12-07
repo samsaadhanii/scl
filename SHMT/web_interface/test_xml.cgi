@@ -21,7 +21,7 @@ require "../paths.pl";
 package main;
 use CGI qw/:standard/;
 
-  if($VERSION eq "SERVER") {
+  if($GlblVar::VERSION eq "SERVER") {
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
     }
@@ -40,7 +40,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
       my $text_type=param("text_type");
 
 
-  if($VERSION eq "SERVER") {
+  if($GlblVar::VERSION eq "SERVER") {
       print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."encoding:$encoding\t"."sentences:$sentences\t"."splitter:$splitter\t"."out_encoding:$out_encoding\t"."parse:$parse\n#####################\n\n";
   }
 
@@ -82,6 +82,6 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
            system("$GlblVar::SCLINSTALLDIR/SHMT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $script $pid");
       }
     }
-  if($VERSION eq "SERVER") {
+  if($GlblVar::VERSION eq "SERVER") {
     close(TMP1);
   }

@@ -71,6 +71,7 @@ extern void trim_word();
 extern void cooked_TAM_suff();
 extern void prefix_suffix();
 extern int exceptional();
+extern int substring();
 
 char word_num_str[MEDIUM],map_wc[SMALL], root[VERY_LARGE];
 

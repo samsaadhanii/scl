@@ -25,7 +25,7 @@ use strict;
 use warnings;
 use CGI qw( :standard );
 
-if($VERSION eq "SERVER") {
+if($GlblVar::VERSION eq "SERVER") {
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
     }
@@ -42,7 +42,7 @@ if (param){
   $word = param('word');
   $encoding=param("encoding");
   $sandhi_type=param("sandhi_type");
-  if($VERSION eq "SERVER"){
+  if($GlblVar::VERSION eq "SERVER"){
      print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."encoding:$encoding\t"."word:$word\t"."sandhi_type:$sandhi_type\n";
   }
 }
@@ -61,6 +61,6 @@ print `/bin/cat $GlblVar::TFPATH/seg_$$/all_possible_outputs.txt`;
 print "</div><br />";
 }
 
-if($VERSION eq "SERVER"){
+if($GlblVar::VERSION eq "SERVER"){
    close(TMP1);
 }

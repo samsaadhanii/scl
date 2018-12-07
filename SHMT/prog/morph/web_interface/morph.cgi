@@ -53,7 +53,7 @@ if (param()){
     $encoding=param("encoding");
 }
 
-if($VERSION eq "SERVER"){
+if($GlblVar::VERSION eq "SERVER"){
   open(TMP1,">>$GlblVar::TFPATH/morph.log") || die "Can't open $GlblVar::TFPATH/morph.log for writing";
   print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."encoding:$encoding\t"."morfword:$word\n"."tempnew_data:$ans\n############################\n\n";
   close(TMP1);

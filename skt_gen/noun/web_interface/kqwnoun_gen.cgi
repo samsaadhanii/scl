@@ -23,7 +23,7 @@ use CGI qw/:standard/;
 require "../../paths.pl";
 
 my $myPATH = "$GlblVar::SCLINSTALLDIR/skt_gen/noun";
-  if($VERSION eq "SERVER"){
+  if($GlblVar::VERSION eq "SERVER"){
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
     }
@@ -53,11 +53,11 @@ my $myPATH = "$GlblVar::SCLINSTALLDIR/skt_gen/noun";
 
        print `$myPATH/gen_kqwnoun.pl $encoding $prAwi $gen $rt u=$upasarga $kqw_prawyaya $XAwu $gaNa`;
 
-       if($VERSION eq "SERVER"){
+       if($GlblVar::VERSION eq "SERVER"){
           print TMP1 "running:","calling gen_kqwnoun.pl from noun generator";
           print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."rt:$rt\t"."gen:$gen\t"."encoding:$encoding\t"."prAwi:$prAwi\n##########################\n\n";
        }
      }
-       if($VERSION eq "SERVER"){
+       if($GlblVar::VERSION eq "SERVER"){
           close(TMP1);
        }

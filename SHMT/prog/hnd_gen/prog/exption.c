@@ -31,11 +31,11 @@ char result[VERY_LARGE],my_tam[MEDIUM],root[VERY_LARGE];
     /* If the root is "ho" and the tam is "yA_huA" then the word becomes 
        "huA" instead of huA_huA  - This is hardwired here */
 
-    else if( (!strcmp(root,"ho") || sufix(root,"ho")) && !strcmp(my_tam,"yA_huA") ){
+    /* else if( (!strcmp(root,"ho") || sufix(root,"ho")) && !strcmp(my_tam,"yA_huA") ){
 	  delete_from_end(root,2);
           sprintf(result,"%shuA",root);
 	  return 1;
-	  }
+	  } */
      else if(!strcmp(root,"[huA]") && !strcmp(my_tam,"-"))
      { sprintf(result,"%s","_huA");
        return 1;

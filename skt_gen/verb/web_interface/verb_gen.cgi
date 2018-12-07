@@ -21,12 +21,11 @@ require "../../paths.pl";
 
 package main;
 use CGI qw/:standard/;
-my $VERSION = "SERVER";
 
+    if($GlblVar::VERSION eq "SERVER"){
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
     }
-    if($VERSION eq "SERVER"){
       open(TMP1,">>$GlblVar::TFPATH/verb.log") || die "Can't open $GlblVar::TFPATH/verb.log for writing";
     }
       if (param) {
@@ -57,11 +56,11 @@ my $VERSION = "SERVER";
       #print "verb generator is being called\n";
       my $result = `$GlblVar::SCLINSTALLDIR/skt_gen/verb/gen_verb.pl $encoding $prayoga $upasarga $word $paxI`;
       print $result;
-      if($VERSION eq "SERVER"){
+      if($GlblVar::VERSION eq "SERVER"){
          print TMP1 "running:","calling gen_verb.pl from noun generator";
          print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."upasarga:$upasarga\t"."word:$word\t"."prayoga:$prayoga\n#######################\n\n";
       }
       }
-      if($VERSION eq "SERVER"){
+      if($GlblVar::VERSION eq "SERVER"){
         close(TMP1);
       }

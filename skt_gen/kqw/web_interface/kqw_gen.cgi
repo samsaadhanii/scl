@@ -21,7 +21,7 @@ use CGI qw/:standard/;
 
 require "../../paths.pl";
 
-    if($VERSION eq "SERVER"){
+    if($GlblVar::VERSION eq "SERVER"){
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
     }
@@ -45,11 +45,11 @@ require "../../paths.pl";
 
       my $result = &getResult("$GlblVar::SCLINSTALLDIR/skt_gen/kqw/gen_kqw.pl $encoding $word $upasarga");
       print $result;
-      if($VERSION eq "SERVER"){
+      if($GlblVar::VERSION eq "SERVER"){
          print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."word:$word\n#################\n";
       }
      }
-      if($VERSION eq "SERVER"){
+      if($GlblVar::VERSION eq "SERVER"){
          close(TMP1);
       }
 
