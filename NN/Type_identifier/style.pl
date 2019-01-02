@@ -8,13 +8,13 @@ $style_header = "<!DOCTYPE html>
 <meta charset=\"UTF-8\">
 <meta http-equiv=\"CONTENT-TYPE\" content=\"text/html; charset=UTF-8\">
 <title>Nyaayacitradeepika</title>
-<link rel=\"stylesheet\" href=\"http://localhost/scl/NN/css_files/bootstrap.min.css\">
-<link rel=\"stylesheet\" href=\"http://localhost/scl/NN/css_files/bootstrap-theme.min.css\">
-<link rel=\"stylesheet\" href=\"http://localhost/scl/css_files/menu.css\">
-<link rel=\"stylesheet\" href=\"http://localhost/scl/css_files/samsaadhanii.css\">
-<script src=\"http://localhost/scl/NN/js_files/jquery.min.js\"></script>
-<script src=\"http://localhost/scl/NN/js_files/bootstrap.min.js\"></script>
-<script src=\"http://localhost/scl/NN/js_files/jquery.autosize.js\"></script>
+<link rel=\"stylesheet\" href=\"/scl/NN/css_files/bootstrap.min.css\">
+<link rel=\"stylesheet\" href=\"/scl/NN/css_files/bootstrap-theme.min.css\">
+<link rel=\"stylesheet\" href=\"/scl/css_files/menu.css\">
+<link rel=\"stylesheet\" href=\"/scl/css_files/samsaadhanii.css\">
+<script src=\"/scl/NN/js_files/jquery.min.js\"></script>
+<script src=\"/scl/NN/js_files/bootstrap.min.js\"></script>
+<script src=\"/scl/NN/js_files/jquery.autosize.js\"></script>
 <style>
 .head_div{background:none repeat scroll 0px 0px #5678AA; color:#fff;}
 h3{margin-top:2px !important; font-size:30px;}
@@ -68,7 +68,7 @@ $title = "<div class=\"container-full\">
 	<h3>न्यायचित्रदीपिका</h3>
 	<p>A Type-identifier for Navya-Nyaya Expressions</p>
 	<p>Department of Sanskrit Studies, University of Hyderabad.</p>
-	<h3><a href=\"http://localhost/scl/\">Samsaadhanii</a></h3>
+	<h3><a href=\"/scl/\">Samsaadhanii</a></h3>
 </header> 
 <section id=\"inputarea\">
 <div class=\"container\">

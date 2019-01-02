@@ -18,7 +18,7 @@ JAVAPATH=/usr/bin/javac
 GraphvizDot=/usr/bin/dot
 
 #Heritage installation path (for interface)
-HERITAGE_CGIURL=http://sanskrit.uohyd.ac.in/~anusaaraka/Heritage/sktgraph.cgi
+HERITAGE_CGIURL=/~anusaaraka/Heritage/sktgraph.cgi
 
 #Path for temporary files
 TFPATH=/tmp/SKT_TEMP

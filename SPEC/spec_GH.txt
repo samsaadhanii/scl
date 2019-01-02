@@ -21,7 +21,7 @@ LTPROCBIN=/opt/local/bin/lt-proc
 GraphvizDot=/opt/local/bin/dot
 
 #Heritage installation path (for interface)
-HERITAGE_CGIURL=http://localhost/cgi-bin/SKT/sktgraph.cgi
+HERITAGE_CGIURL=/cgi-bin/SKT/sktgraph.cgi
 
 #Path for temporary files
 TFPATH=/private/tmp/SKT_TEMP

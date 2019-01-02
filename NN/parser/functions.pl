@@ -73,12 +73,12 @@ sub print_table{
                @anu = split(/,/,$possible_anu);
                for($j=0;$j<$#anu;$j++) {
                 $tmp = $rel.":".$count.",".$anu[$j];
-                print "<a href=\"http://localhost/cgi-bin/scl/NN/parser/select.cgi?pid=$pid&amp;instr=$tmp\">$anu[$j]</a>";
+                print "<a href=\"/cgi-bin/scl/NN/parser/select.cgi?pid=$pid&amp;instr=$tmp\">$anu[$j]</a>";
 		print ",";
                 $more_choices = 1;
                }
                 $tmp = $rel.":".$count.",".$anu[$j];
-                print "<a href=\"http://localhost/cgi-bin/scl/NN/parser/select.cgi?pid=$pid&amp;instr=$tmp\">$anu[$j]</a>";
+                print "<a href=\"/cgi-bin/scl/NN/parser/select.cgi?pid=$pid&amp;instr=$tmp\">$anu[$j]</a>";
 	    }
            print "</td></tr>";
       }
