@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#  Copyright (C) 2017-2018 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2017-2019 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -142,5 +142,5 @@ $ANU_MT_PATH/kAraka/shabdabodha.sh $SCLINSTALLDIR $GraphvizDot $Heritage_Input $
 
 $ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out | $my_converter > $temp_files_path/table.csv
 #if [ $DEBUG = "OFF" ]; then 
-   rm -rf $temp_files_path/tmp* $temp_files_path/in* $temp_files_path/wor.* $temp_files/wsd_files
+#   rm -rf $temp_files_path/tmp* $temp_files_path/in* $temp_files_path/wor.* $temp_files/wsd_files
 #fi

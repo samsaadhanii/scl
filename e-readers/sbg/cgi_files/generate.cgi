@@ -1,10 +1,9 @@
-#!/usr/bin/env perl
+#!/usr/bin/perl -I /usr/lib/perl/5.18.2/
 
+my $myPATH = "/home/ambaji/scl";
 package main;
 
 use CGI qw/:standard/;
-
-require "../../paths.pl";
 
 my $cgi = new CGI;
 print $cgi->header (-charset => 'UTF-8');
@@ -16,7 +15,7 @@ $word = param('word');
 #$outencoding = param('encoding');
 $cword = "";
 
-$Files_Path = "$GlblVar::SCLINSTALLDIR/SHMT/data/hi";
+$Files_Path = "$myPATH/SHMT/data/hi";
 
 chomp $word;
 # converting word utf8 to wx to get filename
@@ -29,7 +28,7 @@ chomp $word;
 #  chomp($cword);
 #  $sword = `echo $cword | $myPATH/converters/wx2utf8.sh`;
 #}
- $cword = `echo $word | $GlblVar::SCLINSTALLDIR/converters/utf82wx.sh`;
+ $cword = `echo $word | $myPATH/converters/utf82wx.sh`;
  chomp($cword);
  $sword = $word;
 
@@ -51,7 +50,7 @@ if($word ne ""){
    }
 }
          if($dic_name  eq "amara"){
-	    system("$GlblVar::SCLINSTALLDIR/amarakosha/relations.sh NULL 'paryAyavAcI' $cword DEV $GlblVar::SCLINSTALLDIR");
+	    system("$myPATH/amarakosha/relations.sh NULL 'paryAyavAcI' $cword DEV");
 	    $found = 1;
 	 }
 	 elsif($dic_name  eq "apte"){

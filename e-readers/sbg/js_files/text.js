@@ -14,6 +14,8 @@ var rows_visibility = [
 1, // row9 I
 1, // row10 J
 0, // row11 K
+0, // row12 L
+0, // row13 M
 ]; // The array can be of different size than the number of rows at hand
 
 var row_labels = [
@@ -28,6 +30,8 @@ var row_labels = [
 "Hindi Meaning (I)",
 "English Meaning (J)",
 "Derivational Meaning (K)",
+"Sandhi rules(L)",
+"Meter: Guru-Laghu(M)",
 ];
 
 var row_descriptions = [
@@ -42,4 +46,6 @@ var row_descriptions = [
 "Hindi Meaning",
 "English Meaning",
 "Derivational meaning",
+"Sandhi rules",
+"Meter: Guru-Laghu",
 ];

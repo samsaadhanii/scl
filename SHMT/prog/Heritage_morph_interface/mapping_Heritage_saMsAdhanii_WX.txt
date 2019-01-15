@@ -1384,7 +1384,7 @@ BvAxiH	yamaz	uparame	pa.pa	yam	yam2	yam
 BvAxiH	wapaz	sanwApe	pa.pa	wap	wap1	wap
 BvAxiH	wyajaz	hAnO	pa.pa	wyaj#1	wyaj1	wyaj
 BvAxiH	Ranjaz	safge	pa.pa	saFj	Ranj1	Ranj
-BvAxiH	xqSizr	prekRaNe	pa.pa	xqS#1(4),paS(4)	xqS1	xqS
+BvAxiH	xqSizr	prekRaNe	pa.pa	xqS#1(xivAxiH),paS(xivAxiH)	xqS1	xqS
 BvAxiH	kqRaz	vileKane	pa.pa	kqR	kqR1	kqR
 BvAxiH	xahaz	BasmIkaraNe	pa.pa	xah#1	xah1	xah
 BvAxiH	mihaz	secane	pa.pa	mih	mih1	mih

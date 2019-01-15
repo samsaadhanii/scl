@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2010-2018 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2010-2019 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -33,7 +33,7 @@ chomp($in);
  if($Heritage_rt ne "-") {
   @f = split(/,/,$Heritage_rt);
   foreach $f (@f) {
-    $f =~ s/\([0-9]+\)//;
+    if($f =~ /\(([a-zA-Z]+)\)/) { $gaNa = $1; $f =~ s/\([a-zA-Z]+\)//;}
     $key = $f."_".$paxI;
     $value = $SaMsAXanI_rt."_".$XAwu."_".$gaNa;
     if($LEX{$key} eq "") { $LEX{$key} = $value;}

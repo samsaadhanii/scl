@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/usr/bin/perl -I /usr/lib/perl/5.18.2/
 
 package main;
 use CGI qw/:standard/;
@@ -7,6 +7,7 @@ my $cgi = new CGI;
 print $cgi->header(-charset => 'UTF-8');
 
 $word = param('word');
+$encod = param('outencoding');
 
 print "<html><head>
 <script type=\"text/javascript\" src=\"/scl/e-readers/sbg/jquery.tools.min.js\"></script>
@@ -17,6 +18,7 @@ print "<html><head>
 </head><body><div id=\"check\">";
         print "<form name=\"dicthelp\" method=\"post\">\n";
 	print "<input type=\"hidden\" name=\"word\" value=\"$word\" id=\"word\"/>\n";
+	print "<input type=\"hidden\" name=\"outencoding\" value=\"$encod\" id=\"outencoding\"/>\n";
         print "<table cellpadding=\"4\"><tr>\n";
         print "<td>Amarakosha<input type=\"checkbox\" name=\"Amara\" id=\"amara\" value=\"amara\" onclick=\"showcontent(this.value)\"/></td>\n";
         print "<td>Apte-dic<input type=\"checkbox\" onclick=\"showcontent(this.value)\"  name=\"apte\" value=\"apte\" id=\"apte\"/></td>\n";
