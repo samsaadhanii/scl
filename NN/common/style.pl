@@ -119,7 +119,7 @@ $NN::style_tail = "<font color=\"white\" size=2>
     
     <footer>
         <div class=\"col-md-12 copy-info copyright-lb tail nav\">
-            <span class=\"cons link\">© 2012-18  Arjuna S.R. &amp; <a href=\"http://sanskrit.uohyd.ac.in/faculty/amba\" class=\"link\"><font color=\"darkblue\">Amba Kulkarni</font></a></span>
+            <span class=\"cons link\">© 2012-19  Arjuna S.R. &amp; <a href=\"http://sanskrit.uohyd.ac.in/faculty/amba\" class=\"link\"><font color=\"darkblue\">Amba Kulkarni</font></a></span>
         </div>
     
     </footer>

@@ -115,7 +115,7 @@ $contribution = "<div class=\"tail\"> &nbsp; </div>
 </td>
 <td id=\"copy-info\">
 <center>
-<p> <span class=\"cons\">© 2012-18 <a href=\"http://sanskrit.uohyd.ac.in/faculty/amba\">Arjuna S.R. &amp; Amba Kulkarni</a></span></p>
+<p> <span class=\"cons\">© 2012-19 <a href=\"http://sanskrit.uohyd.ac.in/faculty/amba\">Arjuna S.R. &amp; Amba Kulkarni</a></span></p>
 </center>
 </td>
 <td>
