@@ -674,7 +674,7 @@ value get_lakAra kAla = match kAla with
 |"anaxyawanaBaviRyakAlaH" -> "lut"
 |"sAmAnyaBaviRyakAlaH" -> "lqt"
 |"AjFAprArWanAxiRu" -> "lot"
-|"viXiH" -> "viXXilif"
+|"viXiH" -> "viXilif"
 |"ASIH" -> "ASIrlif"
 |"kriyAniRpawwO-hewumaxBAve-ca" -> "lqf"
 |"varwamAnasamAnakAlaH" -> "Sawq_lat"
@@ -767,10 +767,200 @@ value get_person_number id prayoga parse =
    ]
 ;
 
+value get_upapaxa rel =
+    match rel with
+    [ "aBiwaH_xeSAXikaraNam"	    -> "aBiwaH"
+    | "aByASam_xeSAXikaraNam"	    ->  "aByASam"
+    | "aByASAw_xeSAXikaraNam"	    ->  "aByASAw"
+    | "aByASena_xeSAXikaraNam"	    ->  "aByASena"
+    | "aByASe_xeSAXikaraNam" 	    ->  "aByASe"
+    | "agrawaH_xeSAXikaraNam"	    ->  "agrawaH"
+    | "anwaH_xeSAXikaraNam"	    ->  "anwaH"
+    | "anwarA_xeSAXikaraNam"	    ->  "anwarA"
+    | "anwikam_xeSAXikaraNam"	    ->  "anwikam"
+    | "anwikAw_xeSAXikaraNam"	    ->  "anwikAw"
+    | "anwikena_xeSAXikaraNam"	    ->  "anwikena"
+    | "anwike_xeSAXikaraNam"	    ->  "anwike"
+    | "ArAw_xeSAXikaraNam"	    ->  "ArAw"
+    | "avaH_xeSAXikaraNam"	    ->  "avaH"
+    | "avaraswAw_xeSAXikaraNam"	    ->  "avaraswAw"
+    | "avarawaH_xeSAXikaraNam"	    ->  "avarawaH"
+    | "avaswAw_xeSAXikaraNam"	    ->  "avaswAw"
+    | "aXaH_xeSAXikaraNam"	    ->  "aXaH"
+    | "aXarAw_xeSAXikaraNam"	    ->  "aXarAw"
+    | "aXareNa_xeSAXikaraNam"	    ->  "aXareNa"
+    | "aXaswAw_xeSAXikaraNam"	    ->  "aXaswAw"
+    | "aXoXaH_xeSAXikaraNam"	    ->  "aXoXaH"
+    | "aXoZXaH_xeSAXikaraNam"	    ->  "aXoZXaH"
+    | "aXyaXi_xeSAXikaraNam"	    ->  "aXyaXi"
+    | "bahiH_xeSAXikaraNam"	    ->  "bahiH"
+    | "nikaRA_xeSAXikaraNam"	    ->  "nikaRA"
+    | "nikatam_xeSAXikaraNam"	    ->  "nikatam"
+    | "nikatAw_xeSAXikaraNam"	    ->  "nikatAw"
+    | "nikatena_xeSAXikaraNam"	    ->  "nikatena"
+    | "nikate_xeSAXikaraNam"	    ->  "nikate"
+    | "paraswAw_xeSAXikaraNam"	    ->  "paraswAw"
+    | "parawaH_xeSAXikaraNam"	    ->  "parawaH"
+    | "pariwaH_xeSAXikaraNam"	    ->  "pariwaH"
+    | "paScAw_xeSAXikaraNam"	    ->  "paScAw"
+    | "prAFca_xeSAXikaraNam"	    ->  "prAFca"
+    | "prawyaFca_xeSAXikaraNam"	    ->  "prawyaFca"
+    | "prawyak_xeSAXikaraNam"	    ->  "prawyak"
+    | "puraH_xeSAXikaraNam"	    ->  "puraH"
+    | "puraswAw_xeSAXikaraNam"	    ->  "puraswAw"
+    | "purawaH_xeSAXikaraNam"	    ->  "purawaH"
+    | "samayA_xeSAXikaraNam" 	    ->  "samayA" 
+    | "samIpam_xeSAXikaraNam"	    ->  "samIpam"
+    | "samIpAw_xeSAXikaraNam"	    ->  "samIpAw"
+    | "samIpena_xeSAXikaraNam"	    ->  "samIpena"
+    | "samIpe_xeSAXikaraNam"	    ->  "samIpe"
+    | "sarvawaH_xeSAXikaraNam"	    ->  "sarvawaH"
+    | "uBayawaH_xeSAXikaraNam"	    ->  "uBayawaH"
+    | "upariRtAw_xeSAXikaraNam"	    ->  "upariRtAw"
+    | "upari_xeSAXikaraNam"	    ->  "upari"
+    | "uwwarAhi_xeSAXikaraNam"	    ->  "uwwarAhi"
+    | "uwwaram_xeSAXikaraNam"	    ->  "uwwaram"
+    | "uwwarawaH_xeSAXikaraNam"     ->  "uwwarawaH"
+    | "uwwarAw_xeSAXikaraNam"	    ->  "uwwarAw"
+    | "uwwarA_xeSAXikaraNam"	    ->  "uwwarA"
+    | "uwwareNa_xeSAXikaraNam"	    ->  "uwwareNa"
+    | "uwware_xeSAXikaraNam" 	    ->  "uwware"
+    | "viprakqRtam_xeSAXikaraNam"	    ->  "viprakqRtam"
+    | "viprakqRtAw_xeSAXikaraNam"	    ->  "viprakqRtAw"
+    | "viprakqRtena_xeSAXikaraNam"	    ->  "viprakqRtena"
+    | "viprakqRte_xeSAXikaraNam"	    ->  "viprakqRte"
+    | "xakRiNAhi_xeSAXikaraNam"	    ->  "xakRiNAhi"
+    | "xakRiNam_xeSAXikaraNam"	    ->  "xakRiNam"
+    | "xakRiNawaH_xeSAXikaraNam"	    ->  "xakRiNawaH"
+    | "xakRiNAw_xeSAXikaraNam"	    ->  "xakRiNAw"
+    | "xakRiNA_xeSAXikaraNam" 	    ->  "xakRiNA"
+    | "xakRiNena_xeSAXikaraNam"     ->  "xakRiNena"
+    | "xakRiNe_xeSAXikaraNam" 	    ->  "xakRiNe"
+    | "xUram_xeSAXikaraNam"	    ->  "xUram"
+    | "xUrAw_xeSAXikaraNam"	    ->  "xUrAw"
+    | "xUreNa_xeSAXikaraNam"	    ->  "xUreNa"
+    | "xUre_xeSAXikaraNam"	    ->  "xUre"
+    | "aXaH_apAxAnam"		   -> "aXaH"
+    | "avaH_apAxAnam"		   -> "avaH"
+    | "aXaswAw_apAxAnam"	   -> "aXaswAw"
+    | "puraH_apAxAnam"		   -> "puraH"
+    | "puraswAw_apAxAnam"	   -> "puraswAw"
+    | "paraswAw_apAxAnam"	   -> "paraswAw"
+    | "parawaH_apAxAnam"	   -> "parawaH"
+    | "avaraswAw_apAxAnam"	   -> "avaraswAw"
+    | "avarawaH_apAxAnam"	   -> "avarawaH"
+    | "purawaH_apAxAnam"	   -> "purawaH"
+    | "xakRiNawaH_apAxAnam"	   -> "xakRiNawaH"
+    | "xakRiNAw_apAxAnam"	   -> "xakRiNAw"
+    | "upariRtAw_apAxAnam"	   -> "upariRtAw"
+    | "paScAw_apAxAnam"		   -> "paScAw"
+    | "uwwarAw_apAxAnam"	   -> "uwwarAw"
+    | "upari_apAxAnam"		   -> "upari"
+    | "uwwarawaH_apAxAnam" 	   -> "uwwarawaH"
+    | _ -> ""
+    ]	
+;
+
+value get_upapaxa_vibhakti rel =
+    match rel with
+    [ "aBiwaH_xeSAXikaraNam"
+    | "aXoZXaH_xeSAXikaraNam"
+    | "aXoXaH_xeSAXikaraNam"
+    | "aXyaXi_xeSAXikaraNam"
+    | "anwarA_xeSAXikaraNam"
+    | "nikaRA_xeSAXikaraNam"
+    | "pariwaH_xeSAXikaraNam"
+    | "samayA_xeSAXikaraNam" 
+    | "sarvawaH_xeSAXikaraNam"
+    | "uBayawaH_xeSAXikaraNam" -> 2
+    | "xakRiNena_xeSAXikaraNam"
+    | "aXareNa_xeSAXikaraNam"
+    | "uwwareNa_xeSAXikaraNam" -> 26
+    | "samIpam_xeSAXikaraNam"
+    | "samIpAw_xeSAXikaraNam"
+    | "samIpena_xeSAXikaraNam"
+    | "samIpe_xeSAXikaraNam"
+    | "viprakqRtam_xeSAXikaraNam"
+    | "viprakqRtAw_xeSAXikaraNam"
+    | "viprakqRtena_xeSAXikaraNam"
+    | "viprakqRte_xeSAXikaraNam"
+    | "xUram_xeSAXikaraNam"
+    | "xUrAw_xeSAXikaraNam"
+    | "xUre_xeSAXikaraNam"
+    | "xUreNa_xeSAXikaraNam"
+    | "nikatam_xeSAXikaraNam"
+    | "nikatAw_xeSAXikaraNam"
+    | "nikatena_xeSAXikaraNam"
+    | "nikate_xeSAXikaraNam"
+    | "anwikam_xeSAXikaraNam"
+    | "anwikAw_xeSAXikaraNam"
+    | "anwikena_xeSAXikaraNam"
+    | "anwike_xeSAXikaraNam"
+    | "aByASam_xeSAXikaraNam"
+    | "aByASAw_xeSAXikaraNam"
+    | "aByASena_xeSAXikaraNam"
+    | "aByASe_xeSAXikaraNam" -> 56
+    | "ArAw_xeSAXikaraNam"
+    | "bahiH_xeSAXikaraNam"
+    | "prAFca_xeSAXikaraNam"
+    | "prawyaFca_xeSAXikaraNam"
+    | "prawyak_xeSAXikaraNam"
+    | "uwwarAhi_xeSAXikaraNam"
+    | "uwwaram_xeSAXikaraNam"
+    | "xakRiNAhi_xeSAXikaraNam"
+    | "xakRiNam_xeSAXikaraNam"
+    | "xakRiNA_xeSAXikaraNam" -> 5
+    | "agrawaH_xeSAXikaraNam"
+    | "anwaH_xeSAXikaraNam"
+    | "aXaH_xeSAXikaraNam"
+    | "avaH_xeSAXikaraNam"
+    | "aXaswAw_xeSAXikaraNam"
+    | "puraH_xeSAXikaraNam"
+    | "puraswAw_xeSAXikaraNam"
+    | "paraswAw_xeSAXikaraNam"
+    | "avaswAw_xeSAXikaraNam"
+    | "parawaH_xeSAXikaraNam"
+    | "avarawaH_xeSAXikaraNam"
+    | "avaraswAw_xeSAXikaraNam"
+    | "purawaH_xeSAXikaraNam"
+    | "xakRiNawaH_xeSAXikaraNam"
+    | "xakRiNAw_xeSAXikaraNam"
+    | "upariRtAw_xeSAXikaraNam"
+    | "paScAw_xeSAXikaraNam"
+    | "uwwarA_xeSAXikaraNam"
+    | "uwwarAw_xeSAXikaraNam"
+    | "aXarAw_xeSAXikaraNam"
+    | "upari_xeSAXikaraNam"
+    | "uwwarawaH_xeSAXikaraNam" 
+    | "aXaH_apAxAnam"
+    | "avaH_apAxAnam"
+    | "aXaswAw_apAxAnam"
+    | "puraH_apAxAnam"
+    | "puraswAw_apAxAnam"
+    | "paraswAw_apAxAnam"
+    | "parawaH_apAxAnam"
+    | "avaraswAw_apAxAnam"
+    | "avarawaH_apAxAnam"
+    | "purawaH_apAxAnam"
+    | "xakRiNawaH_apAxAnam"
+    | "xakRiNAw_apAxAnam"
+    | "upariRtAw_apAxAnam"
+    | "paScAw_apAxAnam"
+    | "uwwarAw_apAxAnam"
+    | "upari_apAxAnam"
+    | "uwwarawaH_apAxAnam" -> 6
+    | "xakRiNe_xeSaXikaraNam" -> 7
+    | "uwware_xeSaXikaraNam" -> 7
+    | _  -> 1
+    ]
+;
+
 value get_vibhakti m parse = match m with
  [Sup (_,_,_,_,_,rel,toid)
  | Kqw (_,_,_,_,_,_,_,rel,toid)  ->
       if not (rel = "karwA" || 
+              rel = "prayojakakarwA" || 
+              rel = "prayojyakarwA" || 
               rel = "karwqsamAnAXikaraNam" || 
               rel = "karma" || 
               rel = "muKyakarma" || 
@@ -796,15 +986,76 @@ value get_vibhakti m parse = match m with
               | "kriyAviSeRaNam" -> 2
               | "xeSAXikaraNam" -> 7
               | "kAlAXikaraNam" -> 7
-              | "viRayAikaraNam" -> 7
+              | "viRayAXikaraNam" -> 7
               | "samboXyaH" -> 8
-              | _ -> let str = "I do not know how to handle "^rel^"relation"
-                     in report_rel str
+              | _ -> get_upapaxa_vibhakti rel
+              (* | _ -> let str = "I do not know how to handle "^rel^"relation"
+                     in report_rel str *)
               ] else  loop1 r1
-       |Sup (id1,_,_,_,_,_,_)
-       |Kqw_viSeRaNa (id1,_,_,_,_,_,_)
-       |Sup_viSeRaNa (id1,_,_,_) ->
-              if (toid = id1) && (rel = "RaRTIsambanXaH") then 6 else loop1 r1
+       |Sup (id1,rt1,_,_,_,_,_)
+       |Kqw_viSeRaNa (id1,rt1,_,_,_,_,_)
+       |Sup_viSeRaNa (id1,rt1,_,_) ->
+              if (toid = id1) then match rel with
+              [ "RaRTIsambanXaH" -> 6
+              | "apekRA" -> match rt1 with
+                [ "yukwa" -> 3
+                | "avAcI" 
+                | "avAc" 
+                | "Binna" 
+                | "BinnA" 
+                | "iwara" 
+                | "iwarA" 
+                | "paScimA" 
+                | "paScima" 
+                | "prAcI" 
+                | "pUrvA" 
+                | "pUrva" 
+                | "vilakRaNa" 
+                | "vilakRaNA" 
+                | "xUrA" 
+                | "prawIcI" 
+                | "uxac" 
+                | "uxIcI" -> 5
+                | "samAna" 
+                | "samAnA" 
+                | "saxqkRA" 
+                | "saxqkRa" 
+                | "saxqkRI" 
+                | "saxqSA" 
+                | "saxqSa" 
+                | "saxqS" 
+                | "wulya" 
+                | "wulyA"  -> 36
+                | "aByASA" 
+                | "aByASa" 
+                | "viprakqRta" 
+                | "xUra"
+                | "viprakqRtA" -> 56
+                | _ -> 1 (* raise an error *)
+              ]
+             | "prayojanam" -> match rt1 with
+                [ "arWe"
+                | "kqwe" -> 6
+                | "AyuRyam" 
+                | "Baxram" 
+                | "ciraFjIviwam" 
+                | "hiwam" 
+                | "kuSalam" 
+                | "maxram" 
+                | "nirAmayam" 
+                | "Sam" 
+                | "suKam"  -> 46
+                | "svAhA" 
+                | "svaswi" 
+                | "svaXA" 
+                | "vaRat" -> 4
+                | _ -> 1 (* raise an error *)
+                ]
+             | _ -> let str = "I do not know how to handle "^rel^"relation"
+                     in report_rel str
+             ]
+              else loop1 r1
+        (*block samboXanaviBakwi with upapawa*)
        | _ -> loop1 r1
        ]
      ]
@@ -819,8 +1070,8 @@ value get_vibhakti m parse = match m with
               ["karwA"
               |"karwqsamAnAXikaraNam" -> 
                  report upasarga1 rt1 "being in Nic form, karwA is not allowed"
-              |"prayojaka_karwA" -> if (prayoga1 = "karwari") then 1 else 3
-              |"prayojya_karwA" -> 
+              |"prayojakakarwA" -> if (prayoga1 = "karwari") then 1 else 3
+              |"prayojyakarwA" -> 
                  if (prayoga1 = "karwari") 
                  then match verb_type upasarga1 rt1 with
                  ["akarmaka"
@@ -839,7 +1090,7 @@ value get_vibhakti m parse = match m with
                  |"gawi" -> 1
                  |"buxXi"
                  |"prawyavasAnArWa" 
-                 |"Sabxakarma" -> 12 
+                 |"Sabxakarma" -> 2 (* 12 *)
                  | "sakarmaka"
                  | "xvikarmaka1"
                  | "xvikarmaka2" -> 3
@@ -855,7 +1106,7 @@ value get_vibhakti m parse = match m with
                  ["gawi" -> 1
                  |"buxXi"
                  |"prawyavasAnArWa" 
-                 |"Sabxakarma" -> 12 
+                 |"Sabxakarma" -> 1 (*12 *)
                  |"sakarmaka" -> 1
                  | _ -> 0 (* raise an exception *)
                  ]
@@ -892,7 +1143,7 @@ value get_vibhakti m parse = match m with
               | "-" -> 1
               | _ -> 0 (* raise exception *)
               ]
-          | "-" ->  match rel with
+          | "-" ->  match rel with (* Not-Nic *)
               ["karwA" -> if (prayoga1 = "karwari") then 1 else 3
               |"karwqsamAnAXikaraNam" -> if (prayoga1 = "karwari") 
                                          then 1 else 0 (* raise exception *)
@@ -1067,14 +1318,16 @@ value get_generated_wif id upasarga rt san_suff prayoga kAla acc parses root_inf
         let str = String.concat "/" [str11; str21] in List.append acc [str]
        else
 	let str = call_wif_gen u rt s prayoga lakAra "AwmanepaxI" per_num feature_list in
-        List.append acc [str]
+        let str1 = str^" (Apa)" in
+        List.append acc [str1]
        else
           if prayoga = "karwari" then
            let str_wif_gen = call_wif_gen u rt s prayoga lakAra feature_list.(0) per_num feature_list in 
            List.append acc [str_wif_gen]
        else
           let str_wif_gen = call_wif_gen u rt s prayoga lakAra "AwmanepaxI" per_num feature_list in
-          List.append acc [str_wif_gen]
+        let str1 = str_wif_gen^" (Apa)" in
+          List.append acc [str1]
 ;
 
 value get_generated_words parses root_info_list=
@@ -1096,8 +1349,10 @@ value get_generated_words parses root_info_list=
 	     let str_sup_gen = call_sup_gen rt cat1 gen1 v1 num in
              
              let acc3 = List.append acc2 [str_sup_gen] in
-             if str1 = [] then loop1 acc3 r1 
-             else loop1 (List.append acc3 ["ca"]) r1
+             let upastr = get_upapaxa rel in
+             let acc4 = if upastr = "" then acc3 else List.append acc3 [upastr] in
+             if str1 = [] then loop1 acc4 r1 
+             else loop1 (List.append acc4 ["ca"]) r1
           else loop1 acc r1
     | Kqw (id,upasarga,rt,san_suff,kAla,gen,num,_,_) ->
           (*if not (rel = "samucciwam")

@@ -3772,7 +3772,7 @@ sek1 AwmanepaxI,sekqz,BvAxiH
 Sel1 parasmEpaxI,Selqz,BvAxiH
 sev1 AwmanepaxI,sevqz,BvAxiH
 Sev1 AwmanepaxI,Sevqz,BvAxiH
-SI1 uBayapaxI,SIf,axAxiH
+SI1 AwmanepaxI,SIf,axAxiH
 Si1 uBayapaxI,SiF,svAxiH
 SIB1 AwmanepaxI,SIBqz,BvAxiH
 SiG1 parasmEpaxI,SiGiz,BvAxiH

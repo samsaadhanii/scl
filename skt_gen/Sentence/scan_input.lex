@@ -19,7 +19,7 @@ PRATIPADIKA [a-zA-Z\-]+
 DHATU [a-zA-Z]+[1-5]
 UPASARGA [a-zA-Z_]+
 WAXXIWA mawup
-SAMBANXAH karwA|karma|karaNam|sampraxAnam|apAxAnam|xeSAXikaraNam|kAlAXikaraNam|aXikaraNam|hewuH|prayojanam|pUrvakAlaH|niwya_sambanXaH|anuyogI|prawiyogI|RaRTIsambanXaH|samucciwa|sup_samucciwa|karwqsamAnAXikaraNam|karmasamAnAXikaraNam|sambanXaH|samboXyaH|muKyakarma|gONakarma|kriyAviSeRaNam|prawiReXaH
+SAMBANXAH karwA|karma|karaNam|sampraxAnam|apAxAnam|xeSAXikaraNam|kAlAXikaraNam|aXikaraNam|hewuH|prayojanam|pUrvakAlaH|niwya_sambanXaH|anuyogI|prawiyogI|RaRTIsambanXaH|samucciwa|sup_samucciwa|karwqsamAnAXikaraNam|karmasamAnAXikaraNam|sambanXaH|samboXyaH|muKyakarma|gONakarma|kriyAviSeRaNam|prawiReXaH|prayojakakarwA|prayojyakarwA|viRayAXikaraNam|apekRA|pariwaH_xeSAXikaraNam
 VISERANA viSeRaNam|aBexa
 INTERSENTENTIALRELATION samucciwa
 CAT sarva

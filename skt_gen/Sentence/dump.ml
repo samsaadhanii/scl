@@ -1,4 +1,4 @@
-value datapath = "SCLINSTALLDIR/skt_gen/Sentence/data/";
+value datapath = "/home/ambaji/scl/skt_gen/Sentence/data/";
 
 value split2 str fmt =  Scanf.sscanf str fmt (fun x y -> (x,y))
 ;
@@ -22,9 +22,9 @@ value root_info_list =
       read_list (datapath ^ "dhatu_info_chart_uBaya_wx.txt") "%s %s"
 ;
 
-value wif_info_list =
+(* value wif_info_list =
       read_list (datapath ^ "wif_gen.txt") "%s %s"
-;
+; *)
 
 value main = do {
              let rt_lst = root_info_list in
