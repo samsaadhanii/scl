@@ -516,7 +516,7 @@ value rec add_cost text_type acc rels = fun
             (* else rel * (a2-a1) *)
             else if a1 > a2 
                  then if rel=60 then 0
-                      else if text_type = "Prose" || rel=35
+                      else if text_type = "Prose" && rel=35
                       then rel * (a1-a2) * 10 (* if the kaarakas or RaRTI are to the right, give penalty *)
                       else rel * (a1-a2) (* no penalty in case of Sloka *)
                  else rel * (a2-a1)
@@ -544,6 +544,13 @@ value get_wrd_ids rel = match rel with
 (* for every relation, prepare a list of compatible and non-compatible relations among the relations seen so far *)
 (* populate_compatible_lists: Relationc list -> unit *)
 
+(* algo:
+   for each relation R between a and b,
+    -- mark a,b as a set of compatible words corresponding to relation R
+    -- if R compatible with some other relation S between c and d,
+    -- then mark c,d as compatible words corresponding to relation R
+    -- if R is compatible with S, then add S in the list of compatible relations for R
+*)
 value populate_compatible_lists text_type rel total_wrds = 
   let length = List.length rel -1 in do 
    { for i = 0 to length do
@@ -553,11 +560,13 @@ value populate_compatible_lists text_type rel total_wrds =
            ;print_relation reli 
           ;*)let l = get_wrd_ids reli in
            compatible_words.(i+1) := List.append l compatible_words.(i+1)
+          (* a word is compatible with self *)
          ;for j = i+1 to length do
         { let relj = List.nth rel j in
           do {
            let l = get_wrd_ids relj in
            compatible_words.(j+1) := List.append l compatible_words.(j+1)
+          (* a word is compatible with self *)
           ;if (chk_compatible text_type reli relj)
           then do {
           (* print_int j
@@ -577,10 +586,14 @@ value populate_compatible_lists text_type rel total_wrds =
     
    ; for i = 0 to length do {
       compatible_relations.(i+1) := List.sort compare compatible_relations.(i+1)
-      ;compatible_all_words.(i+1) := if List.length (List.sort_uniq compare compatible_words.(i+1)) = total_wrds then True else False
-  
-    (*; print_string "compatible words for "
-     ; print_int i
+      ;compatible_all_words.(i+1) := List.length (List.sort_uniq compare compatible_words.(i+1)) = total_wrds
+
+ (* compatible_all_words.(i+1) is a boolean, it is true if the i+1th word is potentially related to all other words in the sentence.
+This condition is added to ensure that the necessary condition that all the words are related is satisfied.
+Thus, for ungrammatical sentences such as rAmaH granWam svapiwi, the parser halts here. However, for sentences such as rAmaH annam svapiwi, since potentially annam being in neuter gender can be a kartA for svapiwi, the programme continues. *)
+ 
+(*    ; print_string "compatible words for "
+     ; print_int (i+1)
      ; print_string " = "
      ; List.iter print_sint (List.sort_uniq compare compatible_words.(i+1))
      ; print_newline() 
@@ -592,8 +605,7 @@ value populate_compatible_lists text_type rel total_wrds =
      ; print_int (i+1)
      ; print_string " = "
      ; List.iter print_sint compatible_relations.(i+1)
-     ; print_newline()
-     *) 
+     ; print_newline() *)
     }
   }
 ;

@@ -130,7 +130,7 @@ while($in = <STDIN>){
               my $tmp1 = $sentence.".".$s_w_no.".".$s_w_a_no;
               $word{$tmp} = $word{$tmp1}."_".$word{$tmp};
               $word_used{$s_w_no} = 1;
-              $word_used{$d_w_no} = 1;
+             # $word_used{$d_w_no} = 1;
            } elsif($rel_nm == 1) {
               my $tmp = $sentence.".".$d_w_no.".".$d_w_a_no;
               my $tmp1 = $sentence.".".$s_w_no.".".$s_w_a_no;
