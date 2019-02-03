@@ -697,7 +697,7 @@ value handle_viSeRaNas id gen num vib parse root_info_list =
    [ [] -> acc
    | [m1 :: r1 ] -> match m1 with
         [ Sup_viSeRaNa (id1,rt,rel,to_id1) ->
-               if (id=to_id1) && (rel="viSeRaNam" || rel="aBexa")
+               if (id=to_id1) && (rel="viSeRaNam" || rel="aBexaH")
                then let cat = get_category rt rel in
 		    let str_sup_gen = call_sup_gen rt cat gen vib num in
                     let acc1 = List.append acc [str_sup_gen] in
@@ -706,7 +706,7 @@ value handle_viSeRaNas id gen num vib parse root_info_list =
                else loop acc r1
  
         | Kqw_viSeRaNa (id1,upasarga,rt,san_suff,kAla,rel,to_id1) -> 
-            if (id=to_id1) && (rel="viSeRaNam" || rel="aBexa") then
+            if (id=to_id1) && (rel="viSeRaNam" || rel="aBexaH") then
             let kqw_suff = get_lakAra kAla in
             let root_info = get_assoc rt root_info_list in
             let u = if upasarga = "-" then "" else "<upasarga:"^upasarga^">" in
