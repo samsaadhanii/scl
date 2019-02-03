@@ -80,14 +80,13 @@ and avykqw = ( int * int * string * string * string *string * string * string * 
   ; gaNaH : string   
   ; level : int   
   }*)
-and waxXiwa = ( int * int * string * string * string *string * string * string * string * int * string * int )
+and waxXiwa = ( int * int * string * string * string * string * string * string * int * string * int )
 (*{ id : int   
   ; mid : int   
   ; word : string   
   ; rt : string   
   ; pUrvapaxa : string
   ; uwwarapaxa : string
-  ; waxXiwa_rt : string   
   ; waxXiwa_prawyayaH : string   
   ; lifgam : string   
   ; viBakwiH : int   
