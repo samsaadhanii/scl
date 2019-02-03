@@ -57,7 +57,7 @@ use CGI qw/:standard/;
 #Since we are using only first 3 fields, $mean is removed.
     ($rt,$XAwu,$gaNa,$mng) = split(/_/,$rt_XAwu_gaNa_mng);
 
-    if($prayogaH eq "Nickarwari") { $prayogaH = "karwari"; $sanAxi = "<sanAxi:Nic>";} else {$sanAxi = "";}
+    if($prayogaH eq "Nickarwari") { $prayogaH = "karwari"; $sanAxi = "<sanAxi_prawyayaH:Nic>";} else {$sanAxi = "";}
     if($prayogaH eq "karmaNi") { $paxI = "AwmanepaxI"}
     if ($upasarga ne "-") { $upasargastr = "<upasarga:$upasarga>";} else { $upasargastr = "";}
   print "<body>\n";
@@ -76,7 +76,7 @@ use CGI qw/:standard/;
   print "<font color=\"green\" size=\"6\"><b>परस्मैपदी</b></font>\n";
   print "</center></td></tr>\n";
   print "<tr>\n"; 
-  $LTPROC_IN = &get_generator_string($rt,$upasargastr,$prayogaH,$XAwu,$gaNa,"parasmEpaxI");
+  $LTPROC_IN = &get_generator_string($rt,$upasargastr,$sanAxi,$prayogaH,$XAwu,$gaNa,"parasmEpaxI");
 #$str = $LTPROC_IN;
 #$str =~ s/</&lt;/g;
 #$str =~ s/>/&gt;/g;
@@ -94,7 +94,7 @@ use CGI qw/:standard/;
   print "</center></td></tr>\n";
 
   print "<tr>\n"; 
-  $LTPROC_IN1 = &get_generator_string($rt,$upasargastr,$prayogaH,$XAwu,$gaNa,"AwmanepaxI");
+  $LTPROC_IN1 = &get_generator_string($rt,$upasargastr,$sanAxi,$prayogaH,$XAwu,$gaNa,"AwmanepaxI");
 
 #$str = $LTPROC_IN1;
 #$str =~ s/</&lt;/g;
@@ -108,7 +108,7 @@ use CGI qw/:standard/;
   print "</body></html>\n";
 
 sub get_generator_string {
- my($rt,$upasarga,$prayogaH,$XAwu,$gaNa,$paxI) = @_;
+ my($rt,$upasarga,$sanAxi,$prayogaH,$XAwu,$gaNa,$paxI) = @_;
  my ($l,$lakAra,$per,$num,$str,$STR);
 
        for($l=0;$l<10;$l++){
@@ -117,7 +117,7 @@ sub get_generator_string {
                 $person = $person[$per];
                 for($num=0;$num<3;$num++){
                      $vacanam = $vacanam[$num];
-                     $str = "${rt}${upasarga}<prayogaH:$prayogaH><lakAraH:$lakAra><puruRaH:$person><vacanam:$vacanam><paxI:$paxI><XAwuH:$XAwu><gaNaH:$gaNa><level:1>";
+                     $str = "${rt}${upasarga}${sanAxi}<prayogaH:$prayogaH><lakAraH:$lakAra><puruRaH:$person><vacanam:$vacanam><paxI:$paxI><XAwuH:$XAwu><gaNaH:$gaNa><level:1>";
                    $STR .=  $str."\n";
                 } # number
             } #person

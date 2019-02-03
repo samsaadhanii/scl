@@ -31,15 +31,15 @@ use CGI qw/:standard/;
       if (param) {
 
       my $word=param("vb");
-      my $prayoga=param("prayoga");
-      my $paxI=param("paxI");
+#      my $prayoga=param("prayoga");
+#      my $paxI=param("paxI");
       my $prayoga_paxI=param("prayoga-paxI");
       my $upasarga=param("upasarga");
       my $encoding=param("encoding");
 
-      if($prayoga_paxI ne "") {
+      if($prayoga_paxI =~ /\-/) {
         ($prayoga,$paxI) = split(/-/,$prayoga_paxI,2);
-      }
+      } else {$prayoga = $prayoga_paxI;}
 
       $upasarga =~ s/Y/_/g;
 
