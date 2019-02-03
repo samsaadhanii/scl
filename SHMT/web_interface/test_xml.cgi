@@ -48,7 +48,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
       if ($out_encoding eq "IAST") { $script = "IAST";}
       if ($splitter eq "None") { $sandhi = "NO"; $morph = "UoHyd";}
       if ($splitter eq "Heritage Splitter") { $sandhi = "YES"; $morph = "GH";}
-      if ($splitter eq "Anusaaraka Splitter") { $sandhi = "YES"; $morph = "UoHyd";}
+#      if ($splitter eq "Anusaaraka Splitter") { $sandhi = "YES"; $morph = "UoHyd";}
 
       $pid = $$;
 

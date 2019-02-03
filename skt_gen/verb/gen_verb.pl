@@ -60,7 +60,6 @@ use CGI qw/:standard/;
     if($prayogaH eq "Nickarwari") { $prayogaH = "karwari"; $sanAxi = "<sanAxi:Nic>";} else {$sanAxi = "";}
     if($prayogaH eq "karmaNi") { $paxI = "AwmanepaxI"}
     if ($upasarga ne "-") { $upasargastr = "<upasarga:$upasarga>";} else { $upasargastr = "";}
-
   print "<body>\n";
   $rtutf8 = `echo $rt | sed 's/[1-5]//' | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;
   $gaNautf8 = `echo $gaNa | sed 's/[1-5]//' | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;

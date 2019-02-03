@@ -46,8 +46,8 @@ read(STDIN, $b, $ENV{'CONTENT_LENGTH'});
 
 if($display eq "") { $display = "DEV";}
 
- #system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/Heritage_anu_skt_hnd.sh in$pid $GlblVar::TFPATH $display Full Prose NOECHO ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
- system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/Heritage_anu_skt_hnd.sh in$pid $GlblVar::TFPATH $display Full Sloka NOECHO ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
+ system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/Heritage_anu_skt_hnd.sh in$pid $GlblVar::TFPATH $display Full Prose NOECHO ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
+ #system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/Heritage_anu_skt_hnd.sh in$pid $GlblVar::TFPATH $display Full Sloka NOECHO ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
 
  system("$GlblVar::SCLINSTALLDIR/SHMT/prog/interface/display_anu_out.pl $pid $GlblVar::TFPATH");
 # system("$GlblVar::SCLINSTALLDIR/SHMT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $display $pid");
