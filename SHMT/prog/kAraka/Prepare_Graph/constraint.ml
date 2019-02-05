@@ -144,33 +144,33 @@ value rec print_relations_in_dag = fun
   ]
 ;
 
-value join_relations a b c d e u v w x y =
-    do { 
-    if d=u && e=v && c >= 2000 && c < 2100
+value join_relations a b c d e u v w x y = 
+    if d=u && e=v && c >= 2000 && c < 2100 
     then if w >= 4000 && w < 4100 then [Relationc (u,v,20,x,y)] 
-    else if w >= 4100 && w < 4200 then [Relationc (u,v,21,x,y)] 
-    else if w >= 4200 && w < 4300 then [Relationc (u,v,9,x,y)] 
-    else if w >= 4300 && w < 4400 then [Relationc (u,v,28,x,y)] 
-    else if w >= 4400 && w < 4500 then [Relationc (u,v,7,x,y)] 
-    else []
+     else if w >= 4100 && w < 4200 then [Relationc (u,v,21,x,y)] 
+     else if w >= 4200 && w < 4300 then [Relationc (u,v,9,x,y)] 
+     else if w >= 4300 && w < 4400 then [Relationc (u,v,28,x,y)] 
+     else if w >= 4400 && w < 4500 then [Relationc (u,v,7,x,y)] 
+     else []
     else if d=u && e=v && c >= 2100 && c < 2200
     then [Relationc (u,v,21,x,y)] 
     else if d=u && e=v && c >= 2200 && c < 2300
     then [Relationc (u,v,14,x,y)] 
     else if d=u && e=v && c >= 2300 && c < 2400 && w >= 4300 && w < 4400 
-    then [Relationc (a,b,c,d,e);Relationc (u,v,w,x,y)] 
+    then [Relationc (a,b,c,d,e);Relationc (u,v,w,x,y)]
     else if d=u && e=v && c >= 2400 && c < 2500
     then [Relationc (u,v,95,x,y)] 
     else if d=u && e=v && c >= 2600 && c < 2700
     then [Relationc (u,v,94,x,y)] 
     else if d=u && e=v && c >= 2700 && c < 2800
     then [Relationc (u,v,14,x,y)] 
-    else if d=u && e=v && c >= 2800 && c < 2900
-    then [Relationc (u,v,93,x,y)]
     else if d=u && e=v && c >= 2900 && c < 3000
-    then [Relationc (u,v,92,x,y)] 
+    then [Relationc (u,v,91,x,y)] 
+    else if d=u && e=v && c >= 3100 && c < 3200
+    then [Relationc (u,v,92,x,y)]
+    else if d=u && e=v && c >= 3200 && c < 3300
+    then [Relationc (u,v,93,x,y)]
     else []
-  }
 ;
 
 value collapse_upapada_relations relations part_dag a b c d e = 
@@ -180,12 +180,12 @@ value collapse_upapada_relations relations part_dag a b c d e =
             then if not (acc = [])
             then List.append acc [Relationc (a,b,0,d,e)] 
             else [Relationc (a,b,c,d,e)] 
-            else if (c >= 2300 && c < 2400)
+            else if (c >= 2300 && c < 2400) || (c >= 4000)
             then acc
             else []
     | [r :: l ] -> let rel = List.nth relations (r-1) in
             match rel with
-            [Relationc (u,v,w,x,y) ->
+            [Relationc (u,v,w,x,y) -> 
                     let acc1 =
                     if c >= 2000 && c < 4000 && w >= 4000
                     then join_relations a b c d e u v w x y
@@ -202,20 +202,21 @@ value lwg_and_collapse relations dag =
     loop [] relations dag
     where rec loop acc relations = fun
     [ [] -> acc
-    | [r :: l ] ->
+    | [r :: l ] -> 
            let rel = List.nth relations (r-1) in
             match rel with
-            [Relationc (a,b,c,d,e) -> 
+            [Relationc (a,b,c,d,e) ->
                if c < 2000 
-               then let acc1 = if c = 91 
+               then let acc1 = if c = 90 
                                then List.append acc [Relationc (a,b,0,d,e)] 
                                else List.append acc [rel] 
                     in loop acc1 relations l
-               else let acc1 = 
+               else 
+		    let acc1 = 
                     collapse_upapada_relations relations l a b c d e
                     in let acc2 = List.append acc acc1
-                    in loop acc2 relations l
-            ]
+                    in loop acc2 relations l 
+            ] 
     ]
 ;
 
@@ -223,9 +224,9 @@ value print_cost_soln (len,c,l) n count rel = do
   { if len > count
     then do { print_string "Solution:"
             ; print_int n; print_newline ()
+            (*; print_relation_list rel l *)
             ; let l1 = lwg_and_collapse rel l in
-              print_relations_in_dag l1
-            (*  print_relation_list rel l *)
+              print_relations_in_dag l1 
             ; print_string "Cost = "; print_int c
             ; print_string "\n\n"
             }
@@ -507,9 +508,10 @@ value rec add_cost text_type acc rels = fun
             else if rel >= 2400 && rel < 2500 then 95 * (a2-a1)
             else if rel >= 2600 && rel < 2700 then 94 * (a2-a1)
             else if rel >= 2700 && rel < 2800 then 9 * (a2-a1) (* karwqsam *)
-            else if rel >= 2800 && rel < 2900 then 93 * (a2-a1)
-            else if rel >= 2900 && rel < 3000 then 92 * (a2-a1)
-            else if  rel=64 ||rel=65 || rel = 91
+            else if rel >= 2900 && rel < 3000 then 91 * (a2-a1)
+            else if rel >= 3100 && rel < 3200 then 92 * (a2-a1)
+            else if rel >= 3200 && rel < 3300 then 93 * (a2-a1)
+            else if  rel=64 ||rel=65 || rel = 90
                  ||  rel=66 ||rel=67 
 (* special case of LWG*)
             then 0

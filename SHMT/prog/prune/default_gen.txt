@@ -31286,6 +31286,7 @@ Suklala_puM
 SuklalA_swrI
 SuklAmla_napuM
 Sukla_napuM
+Sukla_puM
 SuklApAfga_puM
 SuklapakRa_puM
 SuklA_swrI

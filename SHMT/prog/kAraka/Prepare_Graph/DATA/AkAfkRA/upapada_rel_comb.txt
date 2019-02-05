@@ -38,8 +38,11 @@ sambanXa_upa/upa_prawisixXa:
 sambanXa_upa/upa_srowa: 
  AraBya, praBqwi
 
-sambanXa_upa/upa_sambanXa:
-  vinA, anwareNa, sArXam, vinA, saha, sAkam, samam, vinA, qwe
+sambanXa_upa/upa_saha
+  sArXam, saha, sAkam, samam
+
+sambanXa_upa/upa_vinA
+  vinA, anwareNa, vinA, vinA, qwe
 
 viSeRaNam_upa/upa_sambanXa:
  samA, anya, anyA, sama, samA

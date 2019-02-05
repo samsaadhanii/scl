@@ -1201,7 +1201,7 @@ parb1	sakarmaka
 para_Af_ay1	akarmaka
 pari_Ap1	akarmaka
 pari_BAR1	sakarmaka
-pari_cakR1	sakarmaka
+pari_cakR1	sakarmaka				karmasamAnAXikaraNa
 pari_hq1	sakarmaka
 pari_IkR1	sakarmaka
 pari_kQw1	akarmaka				karwqsamAnAXikaraNa
@@ -2398,7 +2398,8 @@ yu3	sakarmaka
 yuC1	akarmaka
 yug1	sakarmaka
 yuj1	sakarmaka
-yuj2	sakarmaka
+#yuj2	sakarmaka
+yuj2	akarmaka
 yuj3	sakarmaka
 yup1	sakarmaka
 yUR1	sakarmaka

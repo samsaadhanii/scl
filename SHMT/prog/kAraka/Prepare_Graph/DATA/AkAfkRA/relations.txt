@@ -56,8 +56,9 @@ svAmI 85
 karmapravacanIyaH 86
 afgavikAraH 87
 niwya_sambanXaH1 90
-avaXiH 92
-sahavinArWakawvam 93
+avaXiH 91
+sahArWaH 92
+vinArWaH 93
 prawiReXaH 94
 ABimuKyam 95
 apavarga_sambanXaH 96
@@ -75,7 +76,9 @@ upa_prayojanam 2700
 upa_sambanXaH 2800
 upa_srowaH 2900
 upa_svAmI 3000
-upa_viRayAXikaraNam 3200
+upa_saha 3100
+upa_vinA 3200
+upa_viRayAXikaraNam 3300
 apAxAnam_upa 4000
 xeSAXikaraNam_upa 4100
 karwqsamAnAXikaraNam_upa 4200

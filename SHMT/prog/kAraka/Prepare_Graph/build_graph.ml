@@ -2062,9 +2062,9 @@ value rlupapaxa m1 m2 text_type = match m2 with
 		 | "uwwareNa" | "xakRiNena" | "aXareNa" -> 
                     [Relation (id1,mid1,"upa_apekRA",id2,mid2,"17.8")]
 		 | "anwareNa" ->
-                    [Relation (id1,mid1,"upa_sambanXaH",id2,mid2,"17.9")]
+                    [Relation (id1,mid1,"upa_vinA",id2,mid2,"17.9")]
 		 | "vinA" ->
-                    [Relation (id1,mid1,"upa_sambanXaH",id2,mid2,"17.10")]
+                    [Relation (id1,mid1,"upa_vinA",id2,mid2,"17.10")]
                  | _ -> []
                  ]
          | 3  -> match rt2 with
@@ -2079,8 +2079,10 @@ value rlupapaxa m1 m2 text_type = match m2 with
                  | _ -> match word2 with
                     [ "alam" ->
                       [Relation (id1,mid1,"upa_prawisixXaH",id2,mid2,"17.14")]
-                    | "saha" | "sAkam" | "sArXam" | "samam" | "vinA" ->
-                    [Relation (id1,mid1,"upa_sambanXaH",id2,mid2,"17.15")]
+                    | "saha" | "sAkam" | "sArXam" | "samam" ->
+                    [Relation (id1,mid1,"upa_saha",id2,mid2,"17.15")]
+                    | "vinA" ->
+                    [Relation (id1,mid1,"upa_vinA",id2,mid2,"17.15a")]
                     | _ -> []
                     ]
                  ]
@@ -2114,8 +2116,7 @@ value rlupapaxa m1 m2 text_type = match m2 with
                  | "apa" | "pari" | "prawi" ->
                     [Relation (id1,mid1,"upa_karmapravacanIyaH",id2,mid2,"17.20")]
                  | "A" ->
-                    [Relation (id1,mid1,"upa_apekRA",id2,mid2,"17.18")
-                    ;Relation (id1,mid1,"upa_karmapravacanIyaH",id2,mid2,"17.20")]
+                    [Relation (id1,mid1,"upa_karmapravacanIyaH",id2,mid2,"17.20")]
                  | "AraBya" | "praBqwi" ->
                     [Relation (id1,mid1,"upa_srowaH",id2,mid2,"17.21")]
                  | _ -> match rt2 with
