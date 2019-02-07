@@ -42,8 +42,8 @@ yukwa	rt	3	-/upa_apekRA	AyukwakuSalAByAM cAsevAyAm 2.3.40
 
 alam	word	3	sambanXa_upa/upa_prawisixXa	sahayukwe apraXAne2.3.19
 
-?uwsuka	rt	3	-/upa_viRayAXikaraNam	prasiwowsukAByAm wqwIyA ca 2.3.44
-?prasiwa	rt	3	-/upa_viRayAXikaraNam	prasiwowsukAByAm wqwIyA ca 2.3.44
+?uwsuka	rt	3	viRayAXikaraNam	prasiwowsukAByAm wqwIyA ca 2.3.44
+?prasiwa	rt	3	viRayAXikaraNam	prasiwowsukAByAm wqwIyA ca 2.3.44
 
 sArXam	word	3	sambanXa_upa/upa_sambanXa	sahayukwe apraXAne2.3.19
 vinA	word	3	sambanXa_upa/upa_sambanXa	pqWakvinAnAnABiswqwIyAnyawarasyAm 2.3.32
@@ -195,8 +195,6 @@ anwikAw	word	6	xeSAXikaraNam_upa/upa_apekRA	xUrAnwikArWEH RaRTyanyawarasyAm 2.3.
 anwikena	word	6	xeSAXikaraNam_upa/upa_apekRA	xUrAnwikArWEH RaRTyanyawarasyAm 2.3.34
 anwike	word	6	xeSAXikaraNam_upa/upa_apekRA	xUrAnwikArWEH RaRTyanyawarasyAm 2.3.34
 aXaH	word	6	xeSAXikaraNam_upa/upa_apekRA
-aXaH	word	6	apAxAnam_upa/upa_apekRA
-aXaH	word	6	karwA_upa/upa_apekRA
 avaH	word	6	xeSAXikaraNam_upa/upa_apekRA
 avaH	word	6	apAxAnam_upa/upa_apekRA
 avaH	word	6	karwA_upa/upa_apekRA
@@ -259,6 +257,7 @@ uwwarAw	word	6	xeSAXikaraNam_upa/upa_apekRA	RaRTyawasarWaprawyayena 2.3.30
 uwwarAw	word	6	apAxAnam_upa/upa_apekRA	RaRTyawasarWaprawyayena 2.3.30
 uwwarAw	word	6	karwA_upa/upa_apekRA	RaRTyawasarWaprawyayena 2.3.30
 aXarAw	word	6	xeSAXikaraNam_upa/upa_apekRA	RaRTyawasarWaprawyayena 2.3.30
+aXarAw	word	6	apAxAnam_upa/upa_apekRA	RaRTyawasarWaprawyayena 2.3.30
 aXarAw	word	6	karwA_upa/upa_apekRA	RaRTyawasarWaprawyayena 2.3.30
 
 upari	word	6	xeSAXikaraNam_upa/upa_apekRA
@@ -284,37 +283,37 @@ samIpAw	word	6	xeSAXikaraNam_upa/upa_apekRA	xUrAnwikArWEH RaRTyanyawarasyAm 2.3.
 samIpena	word	6	xeSAXikaraNam_upa/upa_apekRA	xUrAnwikArWEH RaRTyanyawarasyAm 2.3.34
 samIpe	word	6	xeSAXikaraNam_upa/upa_apekRA	xUrAnwikArWEH RaRTyanyawarasyAm 2.3.34
 
-anurakwa	rt	7	-/upa_viRayAXikaraNam
-anurakwA	rt	7	-/upa_viRayAXikaraNam
-Asakwa	rt	7	-/upa_viRayAXikaraNam
-AsakwA	rt	7	-/upa_viRayAXikaraNam
+anurakwa	rt	7	viRayAXikaraNam
+anurakwA	rt	7	viRayAXikaraNam
+Asakwa	rt	7	viRayAXikaraNam
+AsakwA	rt	7	viRayAXikaraNam
 aXipawi	rt	7		-/upa_svAmI	svAmISvarAXipawixAyAxasAkRiprawiBUprasUwESca 2.3.39
-Ayukwa	rt	7	-/upa_viRayAXikaraNam	AyukwakuSalAByAM cAsevAyAm 2.3.40
-AyukwA	rt	7	-/upa_viRayAXikaraNam	AyukwakuSalAByAM cAsevAyAm 2.3.40
+Ayukwa	rt	7	viRayAXikaraNam	AyukwakuSalAByAM cAsevAyAm 2.3.40
+AyukwA	rt	7	viRayAXikaraNam	AyukwakuSalAByAM cAsevAyAm 2.3.40
 ISvara	rt	7		-/upa_svAmI	svAmISvarAXipawixAyAxasAkRiprawiBUprasUwESca 2.3.39
-kuSala	rt	7	-/upa_viRayAXikaraNam	AyukwakuSalAByAM cAsevAyAm 2.3.40
-kuSalA	rt	7	-/upa_viRayAXikaraNam	AyukwakuSalAByAM cAsevAyAm 2.3.40
-lagna	rt	7	-/upa_viRayAXikaraNam
-lagnA	rt	7	-/upa_viRayAXikaraNam
-nipuNa	rt	7	-/upa_viRayAXikaraNam	sAXunipuNAByAm arcAyAM sapwamyapraweH 2.3.43
-nipuNA	rt	7	-/upa_viRayAXikaraNam	sAXunipuNAByAm arcAyAM sapwamyapraweH 2.3.43
-prasiwa	rt	7	-/upa_viRayAXikaraNam	prasiwowsukAByAm wqwIyA ca 2.3.44
-prasiwA	rt	7	-/upa_viRayAXikaraNam	prasiwowsukAByAm wqwIyA ca 2.3.44
+kuSala	rt	7	viRayAXikaraNam	AyukwakuSalAByAM cAsevAyAm 2.3.40
+kuSalA	rt	7	viRayAXikaraNam	AyukwakuSalAByAM cAsevAyAm 2.3.40
+lagna	rt	7	viRayAXikaraNam
+lagnA	rt	7	viRayAXikaraNam
+nipuNa	rt	7	viRayAXikaraNam	sAXunipuNAByAm arcAyAM sapwamyapraweH 2.3.43
+nipuNA	rt	7	viRayAXikaraNam	sAXunipuNAByAm arcAyAM sapwamyapraweH 2.3.43
+prasiwa	rt	7	viRayAXikaraNam	prasiwowsukAByAm wqwIyA ca 2.3.44
+prasiwA	rt	7	viRayAXikaraNam	prasiwowsukAByAm wqwIyA ca 2.3.44
 prasUwA	rt	7	-/upa_nirXAraNam	svAmISvarAXipawixAyAxasAkRiprawiBUprasUwESca 2.3.39
 prawiBU	rt	7		-/upa_svAmI	svAmISvarAXipawixAyAxasAkRiprawiBUprasUwESca 2.3.39
 sAkRiNI	rt	7		-/upa_svAmI	svAmISvarAXipawixAyAxasAkRiprawiBUprasUwESca 2.3.39
 sAkRin	rt	7		-/upa_svAmI	svAmISvarAXipawixAyAxasAkRiprawiBUprasUwESca 2.3.39
 svAminI	rt	7		-/upa_svAmI	svAmISvarAXipawixAyAxasAkRiprawiBUprasUwESca 2.3.39
 svAmin	rt	7	-/upa_svAmI	svAmISvarAXipawixAyAxasAkRiprawiBUprasUwESca 2.3.39
-uwsuka	rt	7	-/upa_viRayAXikaraNam	prasiwowsukAByAm wqwIyA ca 2.3.44
-uwsukA	rt	7	-/upa_viRayAXikaraNam	prasiwowsukAByAm wqwIyA ca 2.3.44
+uwsuka	rt	7	viRayAXikaraNam	prasiwowsukAByAm wqwIyA ca 2.3.44
+uwsukA	rt	7	viRayAXikaraNam	prasiwowsukAByAm wqwIyA ca 2.3.44
 xAyAxa	rt	7	-/upa_svAmI	svAmISvarAXipawixAyAxasAkRiprawiBUprasUwESca 2.3.39
 
-asAXu	word	7	-/upa_viRayAXikaraNam	sAXunipuNAByAm arcAyAM sapwamyapraweH 2.3.43
-sAXu	word	7	-/upa_viRayAXikaraNam	sAXunipuNAByAm arcAyAM sapwamyapraweH 2.3.43
+asAXu	word	7	viRayAXikaraNam	sAXunipuNAByAm arcAyAM sapwamyapraweH 2.3.43
+sAXu	word	7	viRayAXikaraNam	sAXunipuNAByAm arcAyAM sapwamyapraweH 2.3.43
 
-xakRiNe	word	7	xeSAXikaraNam_upa/upa_aXikaraNam
-uwware	word	7	xeSAXikaraNam_upa/upa_aXikaraNam
+xakRiNe	word	6	xeSAXikaraNam_upa/upa_aXikaraNam
+uwware	word	6	xeSAXikaraNam_upa/upa_aXikaraNam
 
 aXi	word	7	sambanXa_upa/upa_karmapravacanIya	aXiparI anarWakO 1.4.93, yasmAxaXikaM yasya ceSvaravacanaM wawra sapwamI 2.3.9
 upa	word	7	sambanXa_upa/upa_karmapravacanIya	upoZXike ca 1.4.87, yasmAxaXikaM yasya ceSvaravacanaM wawra sapwamI 2.3.9

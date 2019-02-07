@@ -2098,7 +2098,7 @@ value rlupapaxa m1 m2 text_type = match m2 with
                  | _ -> []
                  ]
         | 5 -> match word2 with
-                 [ "aByASam" | "aByASAw" | "aByASena" | "aByASe" |
+                 [ "aByASam" | "aByASAw" | "aByASena" | "aByASe" | "anwikAn"|
                    "anwikena" | "anwike" | "anwikAw" | "anwikam" |"ArAw" |
                    "bahiH" | "nikatam" | "nikatAw" | "nikatena" | "nikate" |
                    "pqWak" | "prAFca" | "prawyaFca" | "prawyak" |
@@ -2109,7 +2109,7 @@ value rlupapaxa m1 m2 text_type = match m2 with
                    "xakRiNAhi" | "xakRiNA" | "xakRiNam" | "xUram" | "xUreNa" |
                    "xUrAw" | "xUre" ->
                     [Relation (id1,mid1,"upa_apekRA",id2,mid2,"17.18a")]
-                 | "prawIcI" | "uxac" | "uxIcI" ->
+                 | "prawIcI" | "uxac" | "uxak" | "uxIcI" ->
                     [Relation (id1,mid1,"apekRA",id2,mid2,"17.18b")]
                  | "vinA" | "qwe" ->
                     [Relation (id1,mid1,"upa_sambanXaH",id2,mid2,"17.19")]
@@ -2148,6 +2148,8 @@ value rlupapaxa m1 m2 text_type = match m2 with
                    "hiwam" | "kuSalam" | "maxram" | "nirAmayam" | "Sam" |
                    "suKam" |"arWe" | "kqwe" ->
                     [Relation (id1,mid1,"prayojanam",id2,mid2,"17.16")]
+                 | "xakRiNe" | "uwware" ->
+                         [Relation (id1,mid1,"upa_aXikaraNam",id2,mid2,"17.16a")]
                  | _ -> match rt2 with
                    [ "aByASa" | "samAna" | "samAnA" | "saxqkRa" | "saxqkRI" |
                      "saxqS" | "viprakqRta" | "viprakqRtA" | "wulya" |"wulyA" | 
@@ -2175,8 +2177,6 @@ value rlupapaxa m1 m2 text_type = match m2 with
                | _ -> match word2 with
                       [ "sAXu" | "asAXu" ->
                          [Relation (id1,mid1,"viRayAXikaraNam",id2,mid2,"17.31")]
-                      | "xakRiNe" | "uwware" ->
-                         [Relation (id1,mid1,"upa_aXikaraNam",id2,mid2,"17.32")]
                       | "aXi" | "upa" ->
                          [Relation (id1,mid1,"upa_karmapravacanIyaH",id2,mid2,"17.33")]
                       | _ -> [] 
@@ -2306,7 +2306,7 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
              |_ -> []
              ]
           | "aXaswAw" | "puraswAw" | "paraswAw" | "avaraswAw" | 
-             "uwwarawaH" | "xakRiNawaH" | "aXaH" | "avaH" | "parawaH" | 
+             "uwwarawaH" | "xakRiNawaH" | "avaH" | "parawaH" | 
              "avarawaH" | "puraH" | "purawaH" | "upari" | "upariRtAw" | "paScAw" | 
              "uwwarAw" | "aXarAw" | "xakRiNAw"   ->
              match m2 with 
