@@ -1488,8 +1488,8 @@ value rlanaBihiwe m1 m2 text_type = match m2 with
        then anaBihiwe m1 m2 id1 mid1 rt1 word1 uwwarapaxa1 lifgam1 viBakwiH1 id2 mid2 rt2 upasarga2 text_type
        else []
      | Kqw (id1,mid1,word1,_,_,_,kqw1,_,_,_,rt1,_,uwwarapaxa1,lifgam1,viBakwiH1,_,_) ->
-       if prose_order id1 id2 text_type
-       then if (* kqw1="wqc" && *) viBakwiH1=3
+       if prose_order id1 id2 text_type (* check for leKani etc. *)
+       then if (* kqw1="wqc" && *) (viBakwiH1=3 || viBakwiH1 = 5)
        then [ Relation (id1,mid1,"hewuH",id2,mid2,"3.25")] 
        else anaBihiwe m1 m2 id1 mid1 rt1 word1 uwwarapaxa1 lifgam1 viBakwiH1 id2 mid2 rt2 upasarga2 text_type
        else []

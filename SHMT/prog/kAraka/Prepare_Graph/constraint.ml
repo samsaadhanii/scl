@@ -272,10 +272,11 @@ value single_relation_label m1 m2 = match m1 with
          && not (r1=2) && not(r2=2) 
          && not (r1=90) && not(r2=90) 
          then False (* do { print_string "C5"; False} *)
-         else if (to_id1=to_id2) && (to_mid1=to_mid2) 
-              && (r1=r2) && not(r1=2) && not(r1=90) 
-              && not (from_id1=from_id2) 
-         then False (* do { print_string "C6"; False} *)
+         				(* else if (to_id1=to_id2) && (to_mid1=to_mid2) 
+              				&& (r1=r2) && not(r1=2) && not(r1=90) 
+              				&& not (from_id1=from_id2) 
+         				then False (* do { print_string "C6"; False} *) 
+				        The above condition covers this , thus redundant *)
             (* Two outgoing arrows with same label *)
          else if (from_id1=from_id2) && (from_mid1=from_mid2) && (r1=r2)
               && ( (r1 < multiple_relations_begin  && not (r1 = 2))
@@ -284,13 +285,14 @@ value single_relation_label m1 m2 = match m1 with
          then False (* do { print_string "C9"; False}*)
          else if (from_id1=from_id2) && (from_mid1=from_mid2) && (r1 >= 2000 && r2 >= 2000) (* upapaxa sambanXa*)
          then False (* do { print_string "C9"; False} *)
-            (* No cycles of length 2 *)
          else if  (from_id1 = to_id2) && (from_mid1 = to_mid2) 
                && r1=82 (*vIpsA*) && (r2=2 || r2 = 90)
               then False (* do { print_string "C10"; False} *)
-         else if  (from_id1 = to_id2) && (to_id1 = from_id2)
+       (*  else if  (from_id1 = to_id2) && (to_id1 = from_id2)
                && (from_mid1 = to_mid2) && (to_mid1 = from_mid2)
               then False (* do { print_string "C10"; False} *)
+              (* no self loop *) 
+           covered under no_cycles *)
          else True
       ]
     ]
@@ -300,7 +302,7 @@ value no_crossing text_type m1 m2 = match m1 with
     [ Relationc (to_id1,to_mid1,r1,from_id1,from_mid1) -> match m2 with
       [Relationc (to_id2,to_mid2,r2,from_id2,from_mid2) -> 
            (* Crossing edges not allowed except niwya_sambanXaH (=2) and samucciwa (=53) *)
-           (* Crossing edges allowed even with RaRTI(=35) and ViSeRaNa(=32)  in text_type = Shloka *)
+           (* Crossing edges allowed even with RaRTI(=35), ViSeRaNa(=32) andd aBexaH (=33) *)
          if  (   (    between to_id1 to_id2 from_id2
                    || between from_id1 to_id2 from_id2
                  )
@@ -308,11 +310,8 @@ value no_crossing text_type m1 m2 = match m1 with
                    || between from_id2 to_id1 from_id1
                  )
              )
-             && (* not (r1=32) && not (r1=33)  &&*) 
-                not (r1=2)  && not (r1 = 90) (*&& not(r1=53) && not (r2=53)*) (*&& not (r1=59) && not(r2=59)*)
-             && (* not (r2=32) && not (r2=33)  &&*) 
-                not (r2=2) && not (r2=90)
-	     (* && text_type ="Sloka" *)
+             && not (r1=2)  && not (r1=90) (*&& not(r1=53) && not (r2=53)*) (*&& not (r1=59) && not(r2=59)*)
+             && not (r2=2) && not (r2=90)
              && not ((r1 = 35) || (r1 = 32) || (r1 = 22) || (r1 = 33) ||
                      (r2 = 35) || (r2 = 32) || (r2 = 22) || (r2 = 33))
          then False (* do { print_string "C11"; print_relation m1; print_relation m2;False} *)
@@ -333,8 +332,8 @@ value relation_mutual_expectancy text_type m1 m2 = match m1 with
               && (  ((r2 = 11 || r2 = 12) && (r1 = 14))
                  || ((r1 = 11 || r1 = 12) && (r2 = 14)))
          then False (* do { print_string "C13"; False} *)
-(* If there is any kAraka relation, there can not be viSeRaNa, 
-   in case of kqxanwas. *)
+(* If there is any kAraka relation, there can not be viSeRaNa, in case of kqxanwas. *)
+(* need example *)
          else if (from_id1 = from_id2) && (from_mid1 = from_mid2)
               && (  (((r2 > 7 && r2 < 24) || r2 = 81 || r2 = 41) && (r1 = 32))
                  || (((r1 > 7 && r1 < 24) || r1 = 81 || r2 = 41) && (r2 = 32)))
@@ -366,6 +365,7 @@ value relation_mutual_expectancy text_type m1 m2 = match m1 with
          then False (* do { print_string "C16"; False} *)
            (* There can not be a samboXya of a verb, which is viSeRaNa/pUrvakAla etc. Only 'iwi' relation with such verbs are allowed. 
               samboXya = 47; vAkyakarama = 13 ; prawiyogi = 3*)
+(* need example *)
          else if (from_id2 = to_id1) && (from_mid2 = to_mid1)
                 && (r2=47) && (r1=13) && not(r1=3)
          then False
@@ -374,22 +374,18 @@ value relation_mutual_expectancy text_type m1 m2 = match m1 with
          then False
          (* karwqsamAnAXikaraNa should be to the right of karwA *)
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
-     (*           && (r2=15 && r1=17) && ((to_id1 - to_id2 > 3) || (to_id1 < to_id2 )) *)
                 && (r2=7 && r1=9) && (text_type="Prose") && (to_id2 > to_id1)
          then False
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
-                (*&& (r2=17 && r1=15) && ((to_id2 - to_id1 > 3) || (to_id2 < to_id1))*)
                 && (r2=9 && r1=7) && (text_type="Prose") && (to_id2 < to_id1)
          then False
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
                 && (r2=7 && r1 >= 4200 && r1 / 100 = 42) && ((to_id1 - to_id2 > 3) || (to_id1 < to_id2 ))
          then False
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
-     (*           && ((r2 / 100 = 44) && r1=17) && ((to_id1 - to_id2 > 3) || (to_id1 < to_id2)) *)
                 && ((r2 / 100 = 44) && r1=9) && (to_id1 < to_id2)
          then False
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
-                (*&& (r2=17 && (r1 / 100 = 44)) && ((to_id2 - to_id1 > 3) || (to_id2 < to_id1))*)
                 && (r2=9 && (r1 / 100 = 44)) && (to_id2 < to_id1)
          then False
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
@@ -425,7 +421,7 @@ value relation_mutual_yogyataa m1 m2 = match m1 with
     [ Relationc (to_id1,to_mid1,r1,from_id1,from_mid1) -> match m2 with
       [Relationc (to_id2,to_mid2,r2,from_id2,from_mid2) -> 
          if from_id2=to_id1 && from_mid2=to_mid1
-                && (r1=38 || r1 = 42) && r2=58 (* a RaRTI of a kriyAviSeRaNa or a viSeRaNa is not allowed *)
+                && (r1=26 || r1 = 32) && r2=35 (* a RaRTI of a kriyAviSeRaNa or a viSeRaNa is not allowed *)
          then False
          else if from_id1=to_id2 && from_mid1=to_mid2
                 && (r2=26 || r2 = 32) && r1=35 (* a RaRTI of a kriyAviSeRaNa or a viSeRaNa is not allowed *)
@@ -457,11 +453,11 @@ value relation_mutual_yogyataa m1 m2 = match m1 with
          else if from_id1=to_id2 && from_mid1=to_mid2
                 && ( (r2=61 && r1=61) (* sup_samucciwa of sup_samucciwa is not allowed *)
                   || (r2=63 && r1=63)) (* sup_anyawara of sup_anyawara is not allowed *)
-         then (* False *) do { print_string "False: case  aa"; False }
+         then False (* do { print_string "False: case  aa"; False }*)
          else if from_id2=to_id1 && from_mid2=to_mid1
                 && (  (r2=61 && r1=61) (* sup_samucciwa of sup_samucciwa is not allowed *)
                    || (r2=63 && r1=63)) (* sup_anyawara of sup_anyawara is not allowed *)
-         then (* False *) do { print_string "False: case  bb"; False }
+         then False (* do { print_string "False: case  bb"; False }*)
         (* else if from_id2=to_id1 && from_mid2=to_mid1
                 && (r2 < 53) && r1=53 && abs (from_id1 - to_id2) < abs (from_id2 -to_id2) (* In case of samucciwa verbs, the kaaraka should be of the closest verb *)
          then False
@@ -691,6 +687,7 @@ value rec get_initial_dag acc start n =
             
 ;
 
+(* we mark the nodes as root node (2) , leaf node(1) and intermediate node(3) *)
 value rec populate_inout_rels length rel =match rel with
     [ [] -> ()
     | [Relationc(a,b,c,d,e)::xs] ->  do {
@@ -946,6 +943,9 @@ let maprel = List.map (fun y -> List.nth relations (y-1) ) relsindag in
                                          then False (* do { print_string "failed case 14";False}*)
                                          else if  m=a && n=b && r=3 (* prawiyogI *)
                                          then False (* do { print_string "failed case 15";False}*)
+                                         else if z=o && t = p && m = c && d = n && not (r=2) && not(r=90)
+                                         (* if there is a niwya sambanXa a,b,R,c,d, then (a,b) and (c,d) should not be related to the same head *)
+                                         then False 
                                          else loop2 rest2
                                    ]
                          else if  z=a && t=b && r1=3 then (* prawiyogI *)
