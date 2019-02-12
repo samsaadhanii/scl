@@ -126,74 +126,63 @@ value print_relation r = match r with
  ]
 ;
 
-value rec print_relation_list rel = fun
-  [ [] -> ()
-  | [ r :: l ] -> do
-      { print_relation (List.nth rel (r-1))
-      ; print_relation_list rel l
-      }
-  ]
-;
-
-value rec print_relations_in_dag = fun
-  [ [] -> ()
-  | [ r :: l ] -> do
-      { print_relation r
-      ; print_relations_in_dag l
-      }
-  ]
+value print_relation_in_dag relations r = 
+	let rel = List.nth relations (r-1) in
+	print_relation rel
 ;
 
 value join_relations a b c d e u v w x y =
-    do { 
-    if d=u && e=v && c >= 2000 && c < 2100
-    then if w >= 4000 && w < 4100 then [Relationc (u,v,20,x,y)] 
-    else if w >= 4100 && w < 4200 then [Relationc (u,v,21,x,y)] 
-    else if w >= 4200 && w < 4300 then [Relationc (u,v,9,x,y)] 
-    else if w >= 4300 && w < 4400 then [Relationc (u,v,28,x,y)] 
-    else if w >= 4400 && w < 4500 then [Relationc (u,v,7,x,y)] 
-    else []
-    else if d=u && e=v && c >= 2100 && c < 2200
-    then [Relationc (u,v,21,x,y)] 
-    else if d=u && e=v && c >= 2200 && c < 2300
-    then [Relationc (u,v,14,x,y)] 
-    else if d=u && e=v && c >= 2300 && c < 2400 && w >= 4300 && w < 4400 
+    if d=u && e=v 
+    then if c >= 2000 && c < 2100
+      then if w >= 4000 && w < 4100 then [Relationc (u,v,20,x,y)] 
+      else if w >= 4100 && w < 4200 then [Relationc (u,v,21,x,y)]
+      else if w >= 4200 && w < 4300 then [Relationc (u,v,9,x,y)] 
+      else if w >= 4300 && w < 4400 then [Relationc (u,v,28,x,y)] 
+      else if w >= 4400 && w < 4500 then [Relationc (u,v,7,x,y)] 
+      else []
+    else if c >= 2100 && c < 2200 then [Relationc (u,v,21,x,y)]
+    else if c >= 2200 && c < 2300 then [Relationc (u,v,14,x,y)] 
+    else if c >= 2400 && c < 2500 then [Relationc (u,v,95,x,y)] 
+    else if c >= 2600 && c < 2700 then [Relationc (u,v,94,x,y)] 
+    else if c >= 2700 && c < 2800 then [Relationc (u,v,14,x,y)] 
+    else if c >= 2800 && c < 2900 then [Relationc (u,v,93,x,y)]
+    else if c >= 2900 && c < 3000 then [Relationc (u,v,92,x,y)] 
+    else if c >= 2300 && c < 2400 && w >= 4300 && w < 4400 
     then [Relationc (a,b,c,d,e);Relationc (u,v,w,x,y)] 
-    else if d=u && e=v && c >= 2400 && c < 2500
-    then [Relationc (u,v,95,x,y)] 
-    else if d=u && e=v && c >= 2600 && c < 2700
-    then [Relationc (u,v,94,x,y)] 
-    else if d=u && e=v && c >= 2700 && c < 2800
-    then [Relationc (u,v,14,x,y)] 
-    else if d=u && e=v && c >= 2800 && c < 2900
-    then [Relationc (u,v,93,x,y)]
-    else if d=u && e=v && c >= 2900 && c < 3000
-    then [Relationc (u,v,92,x,y)] 
     else []
-  }
+    else []
 ;
 
 value collapse_upapada_relations relations part_dag a b c d e = 
     loop [] relations part_dag
     where rec loop acc relations = fun
-    [ [] -> if (c >=2000 && c < 2300) || (c >= 2400 && c < 4000)
+    [ [] -> acc (* if (c >=2000 && c < 2300) || (c >= 2400 && c < 4000) 
+(*(c >= 2400)*)
             then if not (acc = [])
             then List.append acc [Relationc (a,b,0,d,e)] 
-            else [Relationc (a,b,c,d,e)] 
+            else []
+            (*else [Relationc (a,b,c,d,e)] *)
+(* We need to handle karma pravacanIya separately *)
             else if (c >= 2300 && c < 2400)
             then acc
-            else []
+            else [] *)
     | [r :: l ] -> let rel = List.nth relations (r-1) in
             match rel with
-            [Relationc (u,v,w,x,y) ->
+            [Relationc (u,v,w,x,y) -> 
                     let acc1 =
                     if c >= 2000 && c < 4000 && w >= 4000
                     then join_relations a b c d e u v w x y
                     else if c >= 4000 && w >=2000 && w < 4000
-                    then join_relations u v w x y a b c d e
+                    then join_relations u v w x y a b c d e 
                     else []
-                in  let acc2 = List.append acc acc1
-                in  loop acc2 relations l
+                in  let acc2 = if acc1 = [] then []
+                    else if ((c >= 2000 && c < 2300) || (c >= 2400 && c < 4000))
+                    then List.append acc1 [Relationc (a,b,0,d,e)] 
+                    else if (c >=4000)
+                    then List.append acc1 [Relationc (u,v,0,x,y)] 
+		    else []
+                in let acc3 = List.append acc acc2
+                in  loop acc3 relations l
             ]
     ]
 ; 
@@ -206,7 +195,7 @@ value lwg_and_collapse relations dag =
            let rel = List.nth relations (r-1) in
             match rel with
             [Relationc (a,b,c,d,e) -> 
-               if c < 2000 
+               if c < 2000
                then let acc1 = if c = 91 
                                then List.append acc [Relationc (a,b,0,d,e)] 
                                else List.append acc [rel] 
@@ -224,8 +213,7 @@ value print_cost_soln (len,c,l) n count rel = do
     then do { print_string "Solution:"
             ; print_int n; print_newline ()
             ; let l1 = lwg_and_collapse rel l in
-              print_relations_in_dag l1
-            (*  print_relation_list rel l *)
+              List.iter print_relation l1
             ; print_string "Cost = "; print_int c
             ; print_string "\n\n"
             }
@@ -1100,9 +1088,6 @@ let maprel = List.map (fun y -> List.nth rels (y-1) ) dag in
     | [ Relationc (a,b,r,c,d) :: rest] -> let acc1 = [(a,c) :: acc]
 					  in loop acc1 rest
     ]
-;
-
-value print_sint a = do {print_int a; print_string ";" }
 ;
 
 value rec chk_cycles key_list v acc =

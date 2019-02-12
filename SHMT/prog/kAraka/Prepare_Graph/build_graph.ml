@@ -1566,14 +1566,16 @@ value rlapAxAna_wasil m1 m2 text_type = match m2 with
   | Kqw (id2,mid2,_,rt2,upasarga2,_,_,_,_,_,_,_,_,_,_,_,_) 
   | Avykqw (id2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_) ->
      match m1 with
-     [ AvywaxXiwa (id1,mid1,_,rt1,_,_,taddhita1,_)->
+     [ AvywaxXiwa (id1,mid1,word1,rt1,_,_,taddhita1,_)->
        if prose_order id1 id2 text_type  && taddhita1="wasil" && no_boundary_crossing id1 id2 text_type
        then if members_of rt2 upasarga2 apAxAna_verbs && (not(member_of rt1 guNavacana) || pronominal123 rt1)
        then [ Relation (id1,mid1,"apAxAnam",id2,mid2,"5.1")] 
      (*  This leads to over generalisation, since only few waH ending words are kriyAviSeRaNas. We list them in the kriyAviSeRaNa list
  else if not (member_of rt1 xravyavAcI) 
        then [ Relation (id1,mid1,"kriyAviSeRaNam",id2,mid2,"5.2")]  *)
-       else  [ Relation (id1,mid1,"kriyAviSeRaNam",id2,mid2,"5.2")] 
+       else if member_of (word1^" avy") kriyAviSeRaNas
+       then [ Relation (id1,mid1,"kriyAviSeRaNam",id2,mid2,"5.2")] 
+       else []
        else []
      |_ -> []
      ]
@@ -2074,7 +2076,7 @@ value rlupapaxa m1 m2 text_type = match m2 with
                    "saxqkRA" | "saxqkRI" | "saxqSA" | "saxqSa" | "saxqS" | 
                    "wulya" | "wulyA" | "yukwa" | "samA" ->
                     [Relation (id1,mid1,"apekRA",id2,mid2,"17.11b")]
-                 | "uwsuka" | "prasiwa" ->
+                 | "uwsuka" | "prasiwa" | "uwsukA" | "prasiwA" ->
                     [Relation (id1,mid1,"viRayAXikaraNam",id2,mid2,"17.12")]
                  | _ -> match word2 with
                     [ "alam" ->
@@ -2216,7 +2218,7 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
          [ Wif (id2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
          | Kqw (id2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
          | Avykqw (id2,mid2,_,_,_,_,_,_,_,_,_,_) ->
-           if id1 < id2  && no_boundary_crossing id1 id2 text_type
+           if (id1 < id2)  && no_boundary_crossing id1 id2 text_type
            then [ Relation (id1,mid1,"xeSAXikaraNam_upa",id2,mid2,"18.1")] 
            else []
          |_ -> []
@@ -2227,7 +2229,7 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
          [ Wif (id2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_,_,_,_,_)
          | Kqw (id2,mid2,_,rt2,upasarga2,_,_,_,_,_,_,_,_,_,_,_,_)
          | Avykqw (id2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_) ->
-           if id1 < id2  && no_boundary_crossing id1 id2 text_type
+           if (id1 < id2) && no_boundary_crossing id1 id2 text_type
           (*  && members_of rt2 upasarga2 apAxAna_verbs
            then [ Relation (id1,mid1,"apAxAnam_upa",id2,mid2,"18.2")] *)
             && members_of rt2 upasarga2 karwqsamAnAXikaraNa_verbs 
@@ -2240,7 +2242,7 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
          [ Wif (id2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
          | Kqw (id2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
          | Avykqw (id2,mid2,_,_,_,_,_,_,_,_,_,_) ->
-           if id1 < id2  && no_boundary_crossing id1 id2 text_type
+           if (id1 < id2)  && no_boundary_crossing id1 id2 text_type
            then [ Relation (id1,mid1,"xeSAXikaraNam_upa",id2,mid2,"18.1")] 
            else []
          |_ -> []
@@ -2250,7 +2252,7 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
          [ Wif (id2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_,_,_,_,_)
          | Kqw (id2,mid2,_,rt2,upasarga2,_,_,_,_,_,_,_,_,_,_,_,_)
          | Avykqw (id2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_) ->
-           if id1 < id2  && no_boundary_crossing id1 id2 text_type
+           if (id1 < id2) && no_boundary_crossing id1 id2 text_type
              && members_of rt2 upasarga2 karwqsamAnAXikaraNa_verbs
            then  [ Relation (id1,mid1,"karwqsamAnAXikaraNam_upa",id2,mid2,"18.6")
                  ; Relation (id1,mid1,"sambanXa_upa",id2,mid2,"18.7")
@@ -2264,7 +2266,7 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
            [ Wif (id2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
            | Kqw (id2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
            | Avykqw (id2,mid2,_,_,_,_,_,_,_,_,_,_) ->
-             if  id1 < id2  && no_boundary_crossing id1 id2 text_type
+             if  (id1 < id2) && no_boundary_crossing id1 id2 text_type
              then  [ Relation (id1,mid1,"sambanXa_upa",id2,mid2,"18.8")] 
              else []
            |_ -> []
@@ -2300,7 +2302,7 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
              [ Wif (id2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
              | Kqw (id2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
              | Avykqw (id2,mid2,_,_,_,_,_,_,_,_,_,_) ->
-               if id1 < id2  && no_boundary_crossing id1 id2 text_type
+               if (id1 < id2) && no_boundary_crossing id1 id2 text_type
                then [ Relation (id1,mid1,"sambanXa_upa",id2,mid2,"18.5")] 
                else []
              |_ -> []
@@ -2313,7 +2315,7 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
              [ Wif (id2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_,_,_,_,_)
              | Kqw (id2,mid2,_,rt2,upasarga2,_,_,_,_,_,_,_,_,_,_,_,_)
              | Avykqw (id2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_) ->
-               if    id1 < id2  && no_boundary_crossing id1 id2 text_type
+               if (id1 < id2) && no_boundary_crossing id1 id2 text_type
                   && members_of rt2 upasarga2 apAxAna_verbs
                then [ Relation (id1,mid1,"apAxAnam_upa",id2,mid2,"18.2")] 
                else if members_of rt2 upasarga2 karwqsamAnAXikaraNa_verbs 
@@ -2331,7 +2333,7 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
              [ Wif (id2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
              | Kqw (id2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
              | Avykqw (id2,mid2,_,_,_,_,_,_,_,_,_,_) ->
-               if id1 < id2  && no_boundary_crossing id1 id2 text_type
+               if (id1 < id2) && no_boundary_crossing id1 id2 text_type
                then [ Relation (id1,mid1,"sambanXa_upa",id2,mid2,"18.5")] 
                else []
              |_ -> []
@@ -2343,7 +2345,7 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
               [ Wif (id2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
               | Kqw (id2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
               | Avykqw (id2,mid2,_,_,_,_,_,_,_,_,_,_) ->
-                if id1 < id2  && no_boundary_crossing id1 id2 text_type
+                if (id1 < id2)  && no_boundary_crossing id1 id2 text_type
                 then [ Relation (id1,mid1,"xeSAXikaraNam_upa",id2,mid2,"18.1")]
                 else []
               |_ -> []
