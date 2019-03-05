@@ -143,7 +143,7 @@ value join_relations a b c d e u v w x y =
     else if c >= 2100 && c < 2200 then [Relationc (u,v,21,x,y)]
     else if c >= 2200 && c < 2300 then [Relationc (u,v,14,x,y)] 
     else if c >= 2400 && c < 2500 then [Relationc (u,v,95,x,y)] 
-    else if c >= 2600 && c < 2700 then [Relationc (u,v,94,x,y)] 
+    else if c >= 2600 && c < 2700 then [Relationc (u,v,49,x,y)] 
     else if c >= 2700 && c < 2800 then [Relationc (u,v,14,x,y)] 
     else if c >= 3100 && c < 3200  && w >= 4300 && w < 4400 then [Relationc (u,v,92,x,y)]
     else if c >= 3200 && c < 3300  && w >= 4300 && w < 4400 then [Relationc (u,v,93,x,y)] 
@@ -489,7 +489,7 @@ value rec add_cost text_type acc rels = fun
     	    else if rel >= 2100 && rel < 2200 then 21 * (a2-a1) (* xeSAXi *)
             else if rel >= 2200 && rel < 2300 then 14 * (a2-a1) (* karma *)
             else if rel >= 2400 && rel < 2500 then 95 * (a2-a1)
-            else if rel >= 2600 && rel < 2700 then 94 * (a2-a1)
+            else if rel >= 2600 && rel < 2700 then 49 * (a2-a1)
             else if rel >= 2700 && rel < 2800 then 9 * (a2-a1) (* karwqsam *)
             else if rel >= 2800 && rel < 2900 then 93 * (a2-a1)
             else if rel >= 2900 && rel < 3000 then 92 * (a2-a1)
@@ -931,9 +931,17 @@ let maprel = List.map (fun y -> List.nth relations (y-1) ) relsindag in
                                          then False (* do { print_string "failed case 14";False}*)
                                          else if  m=a && n=b && r=3 (* prawiyogI *)
                                          then False (* do { print_string "failed case 15";False}*)
-                                         else if z=o && t = p && m = c && d = n && not (r=2) && not(r=90)
+                                         else if z=o && t = p && m = c && d = n (* && not (r=2) && not(r=90) && not (r=32) && not (r=35) *)
                                          (* if there is a niwya sambanXa a,b,R,c,d, then (a,b) and (c,d) should not be related to the same head *)
                                          then False 
+                                         else if m = c && d = n && (r=32 || r=35) then
+                                   		loop3 maprel
+                               		        where rec loop3 = fun
+                                                [ [] ->  loop2 rest2
+                                                | [Relationc (h,i,r3,j,k)::rest3] -> 
+                                                     if h=o && i=p && z=j && k=t then False
+                                                     else loop3 rest3
+                                                ]
                                          else loop2 rest2
                                    ]
                          else if  z=a && t=b && r1=3 then (* prawiyogI *)
