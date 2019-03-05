@@ -31,7 +31,7 @@ use CGI qw/:standard/;
 
       $filename = "morph".$sentnum.".out.out";
       $pid = $dirname;
-      $pid =~ s/\.\/tmp_in//;
+      $pid =~ s/.*\/tmp_in//;
 
       my $cgi = new CGI;
       print $cgi->header (-charset => 'UTF-8');
@@ -50,7 +50,7 @@ use CGI qw/:standard/;
       print "<\/head>\n<body>\n<div>\n";
       print "<center>\n";
       if($translate eq "yes") {
-         system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/callmtshell_after_parse.sh $dirname $pid");
+         system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/callmtshell_after_parse.sh $dirname $pid $outscript");
       } elsif($save eq "yes") {
         system("$GlblVar::SCLINSTALLDIR/SHMT/prog/kAraka/mk_summary.pl $GlblVar::SCLINSTALLDIR $outscript $dirname/parser_files/$filename $GlblVar::SCLINSTALLDIR/SHMT/prog/kAraka/list_n $dirname $relations $sentnum $dirname/parser_files/parseop_new.txt $save < $dirname/parser_files/parseop$sentnum.txt");
       } else {
