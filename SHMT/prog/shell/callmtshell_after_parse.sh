@@ -21,22 +21,32 @@ source ../../../paths.sh
 
 SHMT_PATH=$SCLINSTALLDIR/SHMT/
 ANU_MT_PATH=$SHMT_PATH/prog
-GH_INPUT=YES #This is misleading; needs to be fixed properly. Here the input need not be from GH's morph, but the constraint interface somewhere needs it.
+GH_INPUT="NO" 
+#This is misleading; needs to be fixed properly. Here the input need not be from GH's morph, but the constraint interface somewhere needs it.
 
-dirname=$1
+TMP_FILES_PATH=$1
 pid=$2
-inpid="in".$pid
+OUTSCRIPT=$3
+outfilename="in"$pid".out"
 
-$ANU_MT_PATH/kAraka/cnvrtclips2morph.pl $ANU_MT_PATH/kAraka/gdbm_n $TFPATH/$dirname/clips_files/parseop_new.txt 1 $GH_INPUT < $TFPATH/$dirname/$inpid.out |\
-$ANU_MT_PATH/kAraka/add_abhihita_info.pl |\
+echo $pid > /tmp/bb
+#$ANU_MT_PATH/kAraka/cnvrtclips2morph.pl $ANU_MT_PATH/kAraka/gdbm_n $dirname/parser_files/parseop_new.txt 1 $GH_INPUT < $dirname/$filename |\
+#$ANU_MT_PATH/kAraka/add_abhihita_info.pl |\
+#
+#$ANU_MT_PATH/kAraka/disambiguate_hewu_karaNa.pl $SCLINSTALLDIR $SHMT_PATH/data/hi > $dirname/$inpid.out.1
+#
+#$ANU_MT_PATH/kAraka/prepare_dot_files.sh DEV mk_kAraka_help.pl $SCLINSTALLDIR $dirname/$inpid.out $dirname/parseop_new.txt $dirname
+#
+#$ANU_MT_PATH/kAraka/prepare_kAraka_tagged_file.pl 2 9 < $dirname/$inpid.out.1 > $dirname/$inpid.kAraka
+#cp $dirname/$inpid.out.1 $dirname/$inpid.out
 
-$ANU_MT_PATH/kAraka/disambiguate_hewu_karaNa.pl $SCLINSTALLDIR $SHMT_PATH/data/hi > $TFPATH/$dirname/$inpid.out.1
+ $ANU_MT_PATH/kAraka/add_parser_output.pl $SCLINSTALLDIR $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt $TMP_FILES_PATH/parser_files/parseop_new.txt 1 $GH_INPUT < $TMP_FILES_PATH/parser_files/morph1.out |\
+  $ANU_MT_PATH/kAraka/add_abhihita_info.pl > $TMP_FILES_PATH/parser_files/morph${j}_1.out
+#  $ANU_MT_PATH/kAraka/disambiguate_hewu_karaNa.pl $SCLINSTALLDIR $SHMT_PATH/data/hi > $TMP_FILES_PATH/parser_files/morph${j}_1.out 
 
-$ANU_MT_PATH/kAraka/prepare_dot_files.sh DEV mk_kAraka_help.pl $SCLINSTALLDIR $TFPATH/$dirname/$inpid.out $TFPATH/$dirname/parseop_new.txt $TFPATH/$dirname
+$ANU_MT_PATH/kAraka/prepare_dot_files.sh $SCLINSTALLDIR $GraphvizDot $OUTSCRIPT 1 mk_kAraka_help.pl $TMP_FILES_PATH/parser_files/morph1.out $TMP_FILES_PATH/parser_files/parseop1.txt $TMP_FILES_PATH 1
+cat $TMP_FILES_PATH/parser_files/morph1_1.out >> $TMP_FILES_PATH/$outfilename.1
 
-$ANU_MT_PATH/kAraka/prepare_kAraka_tagged_file.pl 2 9 < $TFPATH/$dirname/$inpid.out.1 > $TFPATH/$dirname/$inpid.kAraka
-cp $TFPATH/$dirname/$inpid.out.1 $TFPATH/$dirname/$inpid.out
+$ANU_MT_PATH/shell/anu_skt_hnd.sh $SCLINSTALLDIR $GraphvizDot "in"$pid $TFPATH hi DEV NO UoHyd AVAILABLE Prose NOECHO $LTPROCBIN D 2>> $TMP_FILES_PATH/err$pid;
 
-$ANU_MT_PATH/shell/anu_skt_hnd.sh $inpid $temp_files_path hi DEV NO UoHyd AVAILABLE PROSE NOECHO 2>> $temp_files_path/$dirname/err$pid
-
-$ANU_MT_PATH/interface/display_output.pl $pid
+$ANU_MT_PATH/interface/display_output.pl $SCLINSTALLDIR $TFPATH $OUTSCRIPT $pid

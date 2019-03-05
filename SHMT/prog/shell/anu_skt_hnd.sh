@@ -30,6 +30,8 @@ TEXT_TYPE=${10}
 ECHO=${11}
 LTPROCBIN=${12}
 
+echo $3 > /tmp/cc
+echo $4 >> /tmp/cc
 export SHMT_PATH=$SCLINSTALLDIR/SHMT
 ANU_MT_PATH=$SHMT_PATH/prog
 export LC_ALL=POSIX
@@ -64,6 +66,9 @@ dnm=`dirname $3` #dnm = directory name
 
 temp_files_path=$TMP_DIR_PATH/${dnm}/tmp_$fbn
 
+echo $fbn > /tmp/dd
+echo $dnm >> /tmp/dd
+echo $temp_files_path >> /tmp/dd
 export TMP_FILES_PATH=$temp_files_path
 
 if [ -f "tmp_$fbn"  ] ; then 
@@ -129,7 +134,7 @@ cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
 
 ############
 # wsd in the 12th field
-    $ANU_MT_PATH/wsd/wsd_rules.sh $SCLINSTALLDIR $temp_files_path/$fbn.out $temp_files_path/$fbn.wsd $temp_files_path/$fbn.wsd_upapaxa
+    $ANU_MT_PATH/wsd/wsd_rules.sh $SCLINSTALLDIR $temp_files_path $fbn.out $fbn.wsd $fbn.wsd_upapaxa
 #    if [ $DEBUG = "OFF" ]; then 
 #      rm $temp_files_path/$fbn.wsd $temp_files_path/$fbn.wsd_upapaxa
 #    fi
@@ -181,6 +186,6 @@ cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
 
 $ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out | $my_converter > $temp_files_path/table.csv
 #if [ $DEBUG = "OFF" ]; then 
-   rm -rf $temp_files_path/tmp* $temp_files_path/in* $temp_files_path/wsd_files
+#   rm -rf $temp_files_path/tmp* $temp_files_path/in* $temp_files_path/wsd_files
 #fi
 fi

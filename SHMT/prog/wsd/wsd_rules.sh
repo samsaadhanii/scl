@@ -18,19 +18,21 @@
 
 
 SCLINSTALLDIR=$1
+TMP_FILES_PATH=$2
 
 ANU_MT_PATH=$SCLINSTALLDIR/SHMT/prog
 
+echo $TMP_FILES_PATH > /tmp/aa
 rm -rf $TMP_FILES_PATH/wsd_files
 mkdir $TMP_FILES_PATH/wsd_files
 
-cut -f4,9,10 $2 | $ANU_MT_PATH/wsd/add_kaaraka_info.pl > $3
-$ANU_MT_PATH/wsd/cnvrtkaaraka2uniform_format.pl $TMP_FILES_PATH < $3
+cut -f4,9,10 $TMP_FILES_PATH/$3 | $ANU_MT_PATH/wsd/add_kaaraka_info.pl > $TMP_FILES_PATH/$4
+$ANU_MT_PATH/wsd/cnvrtkaaraka2uniform_format.pl $TMP_FILES_PATH < $TMP_FILES_PATH/$4
 touch $TMP_FILES_PATH/wsd_files/wsd.txt
 $ANU_MT_PATH/wsd/wsd $ANU_MT_PATH/wsd/ < $TMP_FILES_PATH/wsd_files/rl1.clp > $TMP_FILES_PATH/wsd_files/wsd.txt
 
-cat $3 | $ANU_MT_PATH/wsd/create_wsd.pl $TMP_FILES_PATH/wsd_files/wsd.txt > $4
+cat $TMP_FILES_PATH/$4 | $ANU_MT_PATH/wsd/create_wsd.pl $TMP_FILES_PATH/wsd_files/wsd.txt > $TMP_FILES_PATH/$5
 
-paste $2 $4 | perl -p -e 's/^\t//'  > $TMP_FILES_PATH/tmpwsd
-cp $TMP_FILES_PATH/tmpwsd $2
+paste $TMP_FILES_PATH/$3 $TMP_FILES_PATH/$5 | perl -p -e 's/^\t//'  > $TMP_FILES_PATH/tmpwsd
+cp $TMP_FILES_PATH/tmpwsd $TMP_FILES_PATH/$3
 #rm $TMP_FILES_PATH/wsd
