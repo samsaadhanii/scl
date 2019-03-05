@@ -57,26 +57,29 @@ while($in = <STDIN>){
   $in =~ s/\t[\t]*/\t/g;
   $in =~ s/\?\?*/-/g;
   @in = split(/\t/,$in);
+  if($in[0] =~ /\-/) { $in[0] = "-";}
+  if($in[1] =~ /\-/) { $in[1] = "-";}
+  if($in[2] =~ /\-/) { $in[2] = "-";}
   if($in[0] eq "") { $in[0] = "-";}
   if($in[1] eq "") { $in[1] = "-";}
   if($in[2] eq "") { $in[2] = "-";}
   print "<tr><td  width='10%' bgcolor='#461B7E'  align='middle'>\n";
   print "<font color=\"white\" size=\"4\">$vib[$line_no]</font></td><td align=\"center\" bgcolor='#E6CCFF'><font color=\"black\" size=\"4\">\n";
-  if($line_no != 7) {
+  if (($line_no != 7)  && ($in[0] !~ /\-/)){
      print "<a href=\"javascript:show_prakriyA('WX','$pUrvapaxa$rt_wx','$vib_num[$line_no]','$linga_wx','ekavacana','$$')\">$pUrvapaxautf$in[0]</a></font></td>\n";
   } else {
       print "$pUrvapaxautf$in[0]</font></td>\n";
   }
   print "<td align=\"center\" bgcolor='#E6CCFF'>\n";
   print "<font color=\"black\" size=\"4\">\n";
-  if($line_no != 7) {
+  if (($line_no != 7)  && ($in[1] !~ /\-/)){
     print "<a href=\"javascript:show_prakriyA('WX','$pUrvapaxa$rt_wx','$vib_num[$line_no]','$linga_wx','xvivacana','$$')\">$pUrvapaxautf$in[1]</a></font></td>\n";
   } else {
       print "$pUrvapaxautf$in[1]\n";
   }
   print "</font></td>\n";
   print "<td align=\"center\"  bgcolor='#E6CCFF'><font color=\"black\" size=\"4\">\n";
-  if($line_no != 7) {
+  if (($line_no != 7)  && ($in[2] !~ /\-/)){
     print "<a href=\"javascript:show_prakriyA('WX','$pUrvapaxa$rt_wx','$vib_num[$line_no]','$linga_wx','bahuvacana','$$')\">$pUrvapaxautf$in[2]</a></font></td>\n";
   } else {
       print "$pUrvapaxautf$in[2]</font></td>\n";

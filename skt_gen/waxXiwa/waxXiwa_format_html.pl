@@ -19,8 +19,10 @@
 
 
 #@waxXiwa_prawyayaH = ("तल्","मतुप्","तरप्","तमप्","त्व","वत्","तसिल्","मयट्","वारम्","कृत्वसुच्","धा","शस्");
-@waxXiwa_prawyayaH = ("मतुप्","तरप्","तमप्","मयट्");
+@waxXiwa_prawyayaH = ("मतुप्","तरप्","तमप्","मयट्","क");
 $line_no = 0;
+$rt_wx = $ARGV[0];
+
 while($in = <STDIN>){
  chomp($in);
 if($in ne ""){
@@ -47,11 +49,11 @@ print "<tr><td colspan=4 align=\"center\"><font color=\"brown\" size=\"5\"><b>�
 if(($m ne "-")&&($f ne "-")&&($n ne "-")){
 print "<tr><td width=20% bgcolor='#461B7E'  align='middle'><font color=\"white\" size=\"4\">$waxXiwa_prawyayaH[$line_no]</font></td>";
 print "<td width=20% align=\"center\" bgcolor='#E6CCFF'><font color=\"black\" size=\"4\">";
-print "<a href=\"javascript:generate_waxXiwa_noun_forms('Unicode','$m','पुं','$waxXiwa_prawyayaH[$line_no]')\">$m</a></td></font>";
+print "<a href=\"javascript:generate_waxXiwa_noun_forms('Unicode','$rt_wx','पुं','$waxXiwa_prawyayaH[$line_no]')\">$m</a></td></font>";
 print "<td width=20% align=\"center\" bgcolor='#E6CCFF'><font color=\"black\" size=\"4\">";
-print "<a href=\"javascript:generate_waxXiwa_noun_forms('Unicode','$f','स्त्री','$waxXiwa_prawyayaH[$line_no]')\">$f</a></td></font>";
+print "<a href=\"javascript:generate_waxXiwa_noun_forms('Unicode','$rt_wx','स्त्री','$waxXiwa_prawyayaH[$line_no]')\">$f</a></td></font>";
 print "<td width=20% align=\"center\" bgcolor='#E6CCFF'><font color=\"black\" size=\"4\">";
-print "<a href=\"javascript:generate_waxXiwa_noun_forms('Unicode','$n','नपुं','$waxXiwa_prawyayaH[$line_no]')\">$n</a></td></font></tr>";
+print "<a href=\"javascript:generate_waxXiwa_noun_forms('Unicode','$rt_wx','नपुं','$waxXiwa_prawyayaH[$line_no]')\">$n</a></td></font></tr>";
 }
   if($line_no == 11) {
      print "</table>\n";

@@ -50,8 +50,8 @@ use CGI qw/:standard/;
       my $result = `$GlblVar::SCLINSTALLDIR/skt_gen/waxXiwa/gen_noun.pl $rt $gen $encoding $prawyaya`;
       print $result;
       if($GlblVar::VERSION eq "SERVER"){
-         print TMP1 "running:","calling gen_waxXiwa.pl from waxXiwa generator";
-         print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."rt:$rt\t"."gen:$gen\t"."encoding:$encoding#######################\n\n";
+         print TMP1 "running:","calling gen_noun.pl from waxXiwa generator";
+         print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."rt:$rt\t"."gen:$gen\t"."encoding:$encoding\tprawyaya:$prawyaya#######################\n\n";
       }
    }
  if($GlblVar::VERSION eq "SERVER"){

@@ -112,7 +112,7 @@ my($prgm_nm);
      } elsif($trgt eq "Itrans"){
 	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/utf82iscii.pl | $GlblVar::SCLINSTALLDIR/converters/ir_skt | $GlblVar::SCLINSTALLDIR/converters/ra_itrans.out";
      } elsif($trgt eq "SLP"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/utf82iscii.pl | $GlblVar::SCLINSTALLDIR/converters/ir_sktutf82iscii.pl | $GlblVar::SCLINSTALLDIR/converters/ir_skt | $GlblVar::SCLINSTALLDIR/converters/wx2slp.out";
+	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/utf82iscii.pl | $GlblVar::SCLINSTALLDIR/converters/ir_skt | $GlblVar::SCLINSTALLDIR/converters/wx2slp.out";
      } elsif($trgt eq "Unicode-Roman-Diacritic"){
 	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/utf82iscii.pl | $GlblVar::SCLINSTALLDIR/converters/ir_skt | $GlblVar::SCLINSTALLDIR/converters/wx2utf8roman.out";
      }elsif($trgt eq "Kyoto-Harvard") {

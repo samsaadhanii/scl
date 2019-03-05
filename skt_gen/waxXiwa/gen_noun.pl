@@ -24,12 +24,12 @@ package main;
 use CGI qw/:standard/;
 @vacanam = ("eka","xvi","bahu");
 
- my $rt = $ARGV[0];
+ my $rt_wx = $ARGV[0];
  my $gen = $ARGV[1];
  my $encoding = $ARGV[2];
  my $suffix = $ARGV[3];
 
- $rt_wx=&convert($encoding,$rt,$GlblVar::SCLINSTALLDIR);
+# $rt_wx=&convert($encoding,$rt,$GlblVar::SCLINSTALLDIR);
  $lifga_wx=&convert($encoding,$gen,$GlblVar::SCLINSTALLDIR);
  $suffix_wx=&convert($encoding,$suffix,$GlblVar::SCLINSTALLDIR);
 
@@ -45,11 +45,14 @@ use CGI qw/:standard/;
  for($vib=1;$vib<9;$vib++){
     for($num=0;$num<3;$num++){
          $vacanam = $vacanam[$num];
-         $str = "$rt_wx<vargaH:nA_$suffix_wx><lifgam:$lifga_wx><viBakwiH:$vib><vacanam:$vacanam><level:3>"; 
+    #     $str = "$rt_wx<vargaH:nA_$suffix_wx><lifgam:$lifga_wx><viBakwiH:$vib><vacanam:$vacanam><level:3>"; 
+         $str = "$rt_wx<vargaH:nA><waxXiwa_prawyayaH:$suffix_wx><lifgam:$lifga_wx><viBakwiH:$vib><vacanam:$vacanam><level:3>"; 
          $LTPROC_IN .=  $str."\n";
     } # number
  } #vib
- #print $LTPROC_in;
+ open (TMP,">/tmp/111");
+ print TMP $LTPROC_IN;
+ close (TMP);
 
  $str = "echo '".$LTPROC_IN."' | $generator | grep . | pr --columns=3 --across --omit-header | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1| $GlblVar::SCLINSTALLDIR/skt_gen/waxXiwa/noun_format_html.pl $rt_wx $lifga_wx";
  system($str);
