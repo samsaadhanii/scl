@@ -16,6 +16,7 @@ aByasUyawi	asUya<upasarga:aBi><prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacan
 afgIkqwvA	kq3<upasarga:afgI><vargaH:avy><kqw_prawyayaH:kwvA><XAwuH:dukq><gaNaH:wuwAxiH><level:1>
 AgawavAn	Agawavaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 ahafkqwaH	ahafkqwa<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
+nivexaya	vix5<upasarga:ni><prayogaH:karwari><lakAraH:lot><puruRaH:ma><vacanam:eka><paxI:parasmEpaxI><XAwuH:vixaz><gaNaH:curAxiH><level:1>
 Ahvaya	hve1<upasarga:Af><prayogaH:karwari><lakAraH:lot><puruRaH:ma><vacanam:eka><paxI:parasmEpaxI><XAwuH:hveF><gaNaH:BvAxiH><level:1>
 AhvayAmaH	hve1<upasarga:Af><prayogaH:karwari><lakAraH:lat><puruRaH:u><vacanam:bahu><paxI:parasmEpaxI><XAwuH:hveF><gaNaH:BvAxiH><level:1>
 Ahvayawi	hve1<upasarga:Af><prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:hveF><gaNaH:BvAxiH><level:1>

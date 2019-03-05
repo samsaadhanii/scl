@@ -24,6 +24,6 @@ source ../paths.sh
 word=$1
 
 echo $word | $SCLINSTALLDIR/SHMT/prog/Normalisation/get_std_spelling.out |\
-$LTPROCBIN -c $SCLINSTALLDIR/morph_bin/all_morf.bin | grep . | perl -p -e 's/\//=/' | perl -p -e 's/^.*=\*.*//' | perl -p -e 's/.*=//' | perl -p -e 's/^^//' |\
-$SCLINSTALLDIR/SHMT/prog/interface/modify_mo_for_mo_display.pl $SCLINSTALLDIR |\
+$LTPROCBIN -c $SCLINSTALLDIR/morph_bin/all_morf.bin | grep . | perl -p -e 's/\//=/' | perl -p -e 's/^.*=\*.*//' | perl -p -e 's/.*=//' | perl -p -e 's/^^//' > /tmp/111
+$SCLINSTALLDIR/SHMT/prog/interface/modify_mo_for_mo_display.pl $SCLINSTALLDIR < /tmp/111 |\
 perl -p -e 's/\/\/\+/\//g' | perl -p -e 's/\/$//' | perl -p -e  's/^\///' | perl -pe 's/\$//' | perl -pe 's/</{/g' | perl -pe 's/>/}/g' | perl -pe 's/:/ /g' | $SCLINSTALLDIR/converters/ri_skt | $SCLINSTALLDIR/converters/iscii2utf8.py 1 

@@ -89,8 +89,10 @@ if($ans ne "") {
    $ans =~ s/^([^{ ]+)([ {])/$2/;
    $rt = $1;
  # We need to separate the upasarga from the rts for generation purpose.
-   if($rt =~ /^(.+)_([^_]+)/){ $upasarga = $1; $rt = $2;}
-   else {$upasarga = "-";}
+#   if($rt =~ /^(.+)_([^_]+)/){ $upasarga = $1; $rt = $2;}
+#   else {$upasarga = "-";}
+   if ($ans =~ /उपसर्ग ([^}]+)/) { $upasarga = $1;} else {$upasarga = "";}
+   if ($ans =~ /{उपसर्ग [^}]+}/) { $ans =~ s/{उपसर्ग [^}]+}//;}
 
 
    #if($rt ne $word) { #  To avoid the infinite regress
@@ -104,10 +106,12 @@ if($ans ne "") {
           $link = "<a href=\"javascript:generate_kqw_forms('Unicode','$rt_XAwu_gaNa','$upasarga')\">$rt</a>";
        }
        $color = "lavendar";
-    } elsif ($ans =~ /तद्धित_प्रत्यय/){
+#    } elsif ($ans =~ /तद्धित_प्रत्यय/){
+    } elsif ($ans =~ /तद्धित/){
+       $ans =~ s/{वर्गः ना}//;
        $link = "<a href=\"javascript:generate_waxXiwa_forms('Unicode','$rt','$lifga')\">$rt</a>";
        $color = "";
-    } elsif($ans =~ /कृदन्त/) {
+    } elsif(($ans =~ /कृदन्त/) && ($ans !~ /अव्य/)) {
              $ans =~ s/{वर्गः ना}//;
              if ($ans =~ /(पुं|नपुं|स्त्री)/){ $lifga = $1;}
              $link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga','nA','1')\">$rt</a>";
@@ -129,7 +133,8 @@ if($ans ne "") {
          if ($ans =~ /(पुं|नपुं|स्त्री)/){ $lifga = $1;} else  {$lifga = "अ";}
          $link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga','sarva','1')\">$rt</a>";
          $color = "skyblue";
-     } elsif ($ans =~ /(लट्|लिट्|लुट्|लोट्|लृट्|लङ्|लृङ|लुङ्|लिङ्)/) {
+     } elsif (($ans =~ /(लट्|लिट्|लुट्|लोट्|लृट्|लङ्|लृङ|लुङ्|लिङ्)/) 
+      || ($ans =~ /अव्य.*कृदन्त/)) {
         if($ans =~ /{धातुः ([^}]+)/) { $XAwu = $1;}
         if($ans =~ /{गणः ([^}]+)/) { $gaNa = $1;}
         if($ans =~ /{सनादि:णिच}/) { $prayogaH = "णिजन्त-कर्तरि";} else { $prayogaH = "कर्तरि";}
