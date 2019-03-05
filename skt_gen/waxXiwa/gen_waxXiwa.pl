@@ -27,7 +27,7 @@ use CGI qw/:standard/;
 
 @avy_waxXiwa_prawyayaH = ("vaw","wasil");
 #,"karam","arWam","pUrvaka");
-@nA_waxXiwa_prawyayaH = ("mawup","warap","wamap","mayat");
+@nA_waxXiwa_prawyayaH = ("mawup","warap","wamap","mayat","ka");
 @nA_napuM_waxXiwa_prawyayaH = ("wva");
 @nA_swrI_waxXiwa_prawyayaH = ("wal");
 
@@ -65,7 +65,7 @@ $rtutf8 = `echo $rt_wx | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::S
   print "<a href=\"javascript:show('$rtutf8','DEV')\">$rtutf8<\/a>\n";
   print "<\/center>\n";
 
-  for($l=0;$l<4;$l++) {
+  for($l=0;$l<5;$l++) {
       for($g=0;$g<3;$g++) {
           $lifga = $lifga[$g];
 	  $str = "$rt_wx<vargaH:nA><waxXiwa_prawyayaH:$nA_waxXiwa_prawyayaH[$l]><lifgam:$lifga><level:0>";
@@ -73,7 +73,7 @@ $rtutf8 = `echo $rt_wx | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::S
       } 
    }
 
-   $str1 = "echo '".$LTPROC_IN."' | $ltproc_cmd3 | $GlblVar::SCLINSTALLDIR/skt_gen/waxXiwa/waxXiwa_format_html.pl";
+   $str1 = "echo '".$LTPROC_IN."' | $ltproc_cmd3 | $GlblVar::SCLINSTALLDIR/skt_gen/waxXiwa/waxXiwa_format_html.pl $rt_wx";
 
   $LTPROC_IN2 = "$rt_wx<vargaH:nA><waxXiwa_prawyayaH:wal><lifgam:swrI><level:0>";
   $LTPROC_IN2 .= "\n$rt_wx<vargaH:nA><waxXiwa_prawyayaH:wva><lifgam:napuM><level:0>";
@@ -93,7 +93,7 @@ print "<html><body>\n";
   print "<tr><td width=50%>\n";
   system($str1);
   print "<hr />\n";
- # system($str2); Temporarily disabled Taddhita morpf needs to be rewritten with new inputs from apaertium derivational morph
+  system($str2); #Temporarily disabled Taddhita morpf needs to be rewritten with new inputs from apaertium derivational morph
   print "</td>\n";
   print "<td width=50% valign=\"top\">\n";
   system($str3);

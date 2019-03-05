@@ -27,6 +27,8 @@ while($in = <STDIN>){
  $in =~ s/<kqw_vrb_rt:([^>]+)>< upasarga:([^>]+)>/$2_$1/g;
  $in =~ s/<kqw_vrb_rt:([^>]+)>/$1/g;
 
+ $in =~ s/^[^\/]+<level:0>//;
+ $in =~ s/\/[^\/]+<level:0>//g;
 # $in =~ s/^[^<]+<level:4>//;
 # $in =~ s/\/[^<]+<level:4>//g;
  print "$in\n";
