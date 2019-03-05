@@ -105,8 +105,8 @@ BvAxiH	kraxiz	roxane	pa.pa	kranx	krax2	kranx
 BvAxiH	klixiz	parixevane	A.pa	-	klix1	klinx
 BvAxiH	klixiz	parixevane	pa.pa	-	klix1	klinx
 BvAxiH	SunXaz	SuxXO	pa.pa	-	SunX1	SunX
-BvAxiH	SIkqz	gawO	A.pa	-	SIk1	SIk
-BvAxiH	SIkqz	secane	A.pa	-	SIk1	SIk
+BvAxiH	SIkqz	gawO	A.pa	SIk	SIk1	SIk
+BvAxiH	SIkqz	secane	A.pa	SIk	SIk1	SIk
 BvAxiH	lokqz	xarSane	A.pa	lok	lok1	lok
 BvAxiH	Slokqz	safGAwe	A.pa	-	Slok1	Slok
 BvAxiH	xrekqz	Sabxe	A.pa	-	xrek1	xrek
@@ -147,9 +147,9 @@ BvAxiH	maGiz	gawyAkRepe	A.pa	-	maG1	mafG
 BvAxiH	rAGqz	sAmarWye	A.pa	-	rAG1	rAG
 BvAxiH	lAGqz	sAmarWye	A.pa	-	lAG1	lAG
 BvAxiH	XrAGqz	sAmarWye	A.pa	-	XrAG1	XrAG
-BvAxiH	xrAGqz	AyAme	A.pa	-	xrAG1	xrAG
-BvAxiH	xrAGqz	AyAse	A.pa	-	xrAG1	xrAG
-BvAxiH	xrAGqz	sAmarWye	A.pa	-	xrAG1	xrAG
+BvAxiH	xrAGqz	AyAme	A.pa	xrAG	xrAG1	xrAG
+BvAxiH	xrAGqz	AyAse	A.pa	xrAG	xrAG1	xrAG
+BvAxiH	xrAGqz	sAmarWye	A.pa	xrAG	xrAG1	xrAG
 BvAxiH	SlAGqz	kawWane	A.pa	SlAG	SlAG1	SlAG
 BvAxiH	Pakkaz	nIcErgawO	pa.pa	-	Pakk1	Pakk
 BvAxiH	wakaz	hasane	pa.pa	-	wak1	wak
@@ -299,10 +299,10 @@ BvAxiH	ajaz	kRepaNe	pa.pa	aj	aj1	aj
 BvAxiH	wejaz	pAlane	pa.pa	-	wej1	wej
 BvAxiH	Kajaz	manWe	pa.pa	-	Kaj1	Kaj
 BvAxiH	Kajaz	pAlane	pa.pa	-	Kaj1	Kaj
-BvAxiH	Kajiz	gawivEkalye	pa.pa	KaFj	Kaj2	KaFj
+BvAxiH	Kajiz	gawivEkalye	pa.pa	KaFj#1	Kaj2	KaFj
 BvAxiH	ejqz	xIpwO	A.pa	-	ej2	ej
 BvAxiH	tuozsPUrjAz	vajranirGoRe	pa.pa	-	sPUrj1	sPUrj
-BvAxiH	kRi	kRaye	pa.pa	-	kRi1	kRi
+BvAxiH	kRi	kRaye	pa.pa	kRi	kRi1	kRi
 BvAxiH	kRIjaz	avyakwe_Sabxe	pa.pa	-	kRIj1	kRIj
 BvAxiH	lajaz	Barjane	pa.pa	-	laj1	laj
 BvAxiH	lajaz	Barwsane	pa.pa	-	laj1	laj
@@ -494,15 +494,15 @@ BvAxiH	kRIbqz	maxe	A.pa	-	kRIb1	kRIb
 BvAxiH	SIBqz	kawWane	A.pa	-	SIB1	SIB
 BvAxiH	cIBqz	kawWane	A.pa	-	cIB1	cIB
 BvAxiH	reBqz	Sabxe	A.pa	-	reB1	reB
-BvAxiH	RwaBiz	prawibanXe	A.pa	-	RwaB1	swamB
-BvAxiH	skaBiz	prawibanXe	A.pa	-	skaB1	skamB
+BvAxiH	RwaBiz	prawibanXe	A.pa	swamB	RwaB1	swamB
+BvAxiH	skaBiz	prawibanXe	A.pa	skamB	skaB1	skamB
 BvAxiH	jaBIz	gAwravinAme	A.pa	jaB#1	jaB1	jaB
 BvAxiH	jqBiz	gAwravinAme	A.pa	jqmB	jqB1	jqmB
 BvAxiH	SalBaz	kawWane	A.pa	-	SalB1	SalB
 BvAxiH	valBaz	Bojane	A.pa	-	valB1	valB
 BvAxiH	galBaz	XArRtye	A.pa	galB	galB1	galB
 BvAxiH	SranBuz	pramAxe	A.pa	SramB	SranB1	SramB
-BvAxiH	RwuBuz	swamBe	A.pa	-	RwuB1	swuB
+BvAxiH	RwuBuz	swamBe	A.pa	swuB	RwuB1	swuB
 BvAxiH	gupUz	rakRaNe	pa.pa	-	gup1	gup
 BvAxiH	XUpaz	sanwApe	pa.pa	-	XUp1	XUp
 BvAxiH	japaz	mAnase	pa.pa	jap	jap1	jap
@@ -688,7 +688,7 @@ BvAxiH	mUlaz	prawiRTAyAm	pa.pa	-	mUl1	mUl
 BvAxiH	Palaz	niRpawwO	pa.pa	-	Pal2	Pal
 BvAxiH	cullaz	BAvakaraNe	pa.pa	-	cull1	cull
 BvAxiH	cullaz	hAvakaraNe	pa.pa	-	cull1	cull
-BvAxiH	Pullaz	vikasane	pa.pa	-	Pull1	Pull
+BvAxiH	Pullaz	vikasane	pa.pa	Pull	Pull1	Pull
 BvAxiH	cillaz	BAvakaraNe	pa.pa	-	cill1	cill
 BvAxiH	cillaz	SEWilye	pa.pa	-	cill1	cill
 BvAxiH	wilaz	gawO	pa.pa	-	wil1	wil
@@ -802,7 +802,7 @@ BvAxiH	XikRaz	jIvane	A.pa	-	XikR1	XikR
 BvAxiH	XikRaz	kleSane	A.pa	-	XikR1	XikR
 BvAxiH	XikRaz	sanxIpane	A.pa	-	XikR1	XikR
 BvAxiH	vqkRaz	varaNe	A.pa	-	vqkR1	vqkR
-BvAxiH	SikRaz	vixyopAxAne	A.pa	-	SikR1	SikR
+BvAxiH	SikRaz	vixyopAxAne	A.pa	SikR	SikR1	SikR
 BvAxiH	BikRaz	alABe	A.pa	-	BikR1	BikR
 BvAxiH	BikRaz	BikRAyAm	A.pa	-	BikR1	BikR
 BvAxiH	BikRaz	lABe	A.pa	-	BikR1	BikR
@@ -890,15 +890,15 @@ BvAxiH	mrakRaz	safGAwe	pa.pa	-	mrakR1	mrakR
 BvAxiH	wakRaz	wvacane	pa.pa	-	wakR2	wakR
 BvAxiH	pakRaz	parigrahe	pa.pa	-	pakR1	pakR
 BvAxiH	sUrkRaz	Axare	pa.pa	-	sUrkR1	sUrkR
-BvAxiH	kAkRiz	kAfkRAyAm	pa.pa	kAfkR1	kAkR1	kAfkR
+BvAxiH	kAkRiz	kAfkRAyAm	pa.pa	kAfkR	kAkR1	kAfkR
 BvAxiH	vAkRiz	kAfkRAyAm	pa.pa	-	vAkR1	vAfkR
 BvAxiH	mAkRiz	kAfkRAyAm	pa.pa	-	mAkR1	mAfkR
 BvAxiH	xrAkRiz	GoravAsiwe	pa.pa	-	xrAkR1	xrAfkR
 BvAxiH	XrAkRiz	GoravAsiwe	pa.pa	-	XrAkR1	XrAfkR
 BvAxiH	xrAkRiz	kAfkRAyAm	pa.pa	-	xrAkR1	xrAfkR
 BvAxiH	XrAkRiz	kAfkRAyAm	pa.pa	-	XrAkR1	XrAfkR
-BvAxiH	XvAkRiz	GoravAsiwe	pa.pa	-	XvAkR1	XvAfkR
-BvAxiH	XvAkRiz	kAfkRAyAm	pa.pa	-	XvAkR1	XvAfkR
+BvAxiH	XvAkRiz	GoravAsiwe	pa.pa	XvAfkR	XvAkR1	XvAfkR
+BvAxiH	XvAkRiz	kAfkRAyAm	pa.pa	XvAfkR	XvAkR1	XvAfkR
 BvAxiH	cURaz	pAne	pa.pa	cUR	cUR1	cUR
 BvAxiH	wURaz	wuRtO	pa.pa	-	wUR1	wUR
 BvAxiH	pURaz	vqxXO	pa.pa	-	pUR1	pUR
@@ -1135,7 +1135,7 @@ BvAxiH	ramuz	krIdAyAm	A.pa	ram	ram1	ram
 BvAxiH	RaxLz	avasAxane	pa.pa	sax#1	Rax1	sax
 BvAxiH	RaxLz	gawO	pa.pa	sax#1	Rax1	sax
 BvAxiH	RaxLz	viSaraNe	pa.pa	sax#1	Rax1	sax
-BvAxiH	SaxLz	SAwane	pa.pa	-	Sax1	Sax
+BvAxiH	SaxLz	SAwane	pa.pa	Sax	Sax1	Sax
 BvAxiH	kruSaz	AhvAne	pa.pa	-	kruS1	kruS
 BvAxiH	kruSaz	roxane	pa.pa	kruS	kruS1	kruS
 BvAxiH	kucaz	kOtilye	pa.pa	kuc	kuc1	kuc
@@ -1463,7 +1463,7 @@ BvAxiH	KarKa	hasane	pa.pa	-	KarKa1	KarKa
 BvAxiH	kasaz	gawO	pa.pa	-	kas1	kas
 BvAxiH	kataz	gawO	pa.pa	-	kat3	kat
 BvAxiH	kavaz	Sabxe	pa.pa	-	kav1	kav
-BvAxiH	kaWaz	hiMsAyAm	pa.pa	-	kaW1	kaW
+BvAxiH	kaWaz	hiMsAyAm	pa.pa	kaW	kaW1	kaW
 BvAxiH	kRalaz	saFcalane	pa.pa	-	kRal1	kRal
 BvAxiH	kRalaz	saFcaye	pa.pa	-	kRal1	kRal
 BvAxiH	kRivuz	nirasane	pa.pa	-	kRiv1	kRiv
@@ -1506,13 +1506,13 @@ BvAxiH	Rebqz	sevane	A.pa	-	Reb1	seb
 BvAxiH	Revqz	secane	A.pa	-	Rev1	sev
 BvAxiH	Revqz	sevane	A.pa	-	Rev1	sev
 BvAxiH	RiXUz	mAfgalye	pa.pa	-	RiX1	siX
-BvAxiH	RkaBiz	prawibanXe	A.pa	-	RkaB1	skamB
+BvAxiH	RkaBiz	prawibanXe	A.pa	skamB	RkaB1	skamB
 BvAxiH	RNE	veRtane	pa.pa	-	RNE1	snE
 BvAxiH	RqnBuz	hiMsAyAm	pa.pa	-	RqnB1	sqmB
 BvAxiH	RqXqz	unxe	A.pa	-	RqX1	sqX
 BvAxiH	RqXqz	unxe	pa.pa	-	RqX1	sqX
 BvAxiH	RtqkRaz	gawO	pa.pa	-	RtqkR1	swqkR
-BvAxiH	RtuBuz	swamBe	A.pa	-	RtuB1	swuB
+BvAxiH	RtuBuz	swamBe	A.pa	swuB	RtuB1	swuB
 BvAxiH	Rtucaz	prasAxe	A.pa	-	Rtuc1	swuc
 BvAxiH	RtyE	Sabxe	pa.pa	-	RtyE1	swyE
 BvAxiH	RtyE	safGAwe	pa.pa	-	RtyE1	swyE
@@ -1596,7 +1596,7 @@ axAxiH	xihaz	upawApe	A.pa	xih	xih1	xih
 axAxiH	xihaz	upawApe	pa.pa	xih	xih1	xih
 axAxiH	lihaz	AsvAxane	A.pa	lih#1	lih1	lih
 axAxiH	lihaz	AsvAxane	pa.pa	lih#1	lih1	lih
-axAxiH	cakRizf	vyakwAyAM_vAci	A.pa	-	cakR1	cakR
+axAxiH	cakRizf	vyakwAyAM_vAci	A.pa	cakR	cakR1	cakR
 axAxiH	Iraz	gawO	A.pa	Ir	Ir1	Ir
 axAxiH	Iraz	kampane	A.pa	Ir	Ir1	Ir
 axAxiH	Idaz	swuwO	A.pa	Id	Id1	Id
@@ -1624,7 +1624,7 @@ axAxiH	yu	miSraNe	pa.pa	yu#1	yu1	yu
 axAxiH	ru	Sabxe	pa.pa	ru	ru2	ru
 axAxiH	Nu	swuwO	pa.pa	nu#1	Nu1	nu
 axAxiH	tukRu	Sabxe	pa.pa	kRu	kRu1	kRu
-axAxiH	kRNu	wejane	pa.pa	-	kRNu1	kRNu
+axAxiH	kRNu	wejane	pa.pa	kRNu	kRNu1	kRNu
 axAxiH	Rnu	prasravaNe	pa.pa	snu	Rnu1	snu
 axAxiH	UrNuF	AcCAxane	A.pa	-	UrNu1	UrNu
 axAxiH	UrNuF	AcCAxane	pa.pa	-	UrNu1	UrNu
@@ -1719,7 +1719,7 @@ juhowyAxiH	Gq	kRaraNe	pa.pa	-	+Gq2	+Gq
 juhowyAxiH	Gq	xIpwO	pa.pa	Gq	+Gq2	+Gq
 juhowyAxiH	gq	kRaraNe	pa.pa	-	+gq2	+gq
 juhowyAxiH	gq	xIpwO	pa.pa	-	+gq2	+gq
-juhowyAxiH	hq	prasahyakaraNe	pa.pa	-	hq2	hq
+juhowyAxiH	hq	prasahyakaraNe	pa.pa	hq#1	hq2	hq
 juhowyAxiH	q	gawO	pa.pa	q	q2	q
 juhowyAxiH	sq	gawO	pa.pa	sq	sq2	sq
 juhowyAxiH	Basaz	Barwsane	pa.pa	Bas	Bas1	Bas
@@ -1887,7 +1887,7 @@ xivAxiH	jasuz	mokRaNe	pa.pa	jas	jas1	jas
 xivAxiH	wasuz	prakRepaNe	pa.pa	-	was1	was
 xivAxiH	wasuz	upakRaye	pa.pa	-	was1	was
 xivAxiH	xasuz	prakRepaNe	pa.pa	-	xas1	xas
-xivAxiH	xasuz	upakRaye	pa.pa	xas	xas1	xas
+xivAxiH	xasuz	upakRaye	pa.pa	xas	xas1	xa
 xivAxiH	vasuz	swamBe	pa.pa	-	vas3	vas
 xivAxiH	pyusaz	viBAge	pa.pa	-	pyus1	pyus
 xivAxiH	vyuRaz	xAhe	pa.pa	-	vyuR1	vyuR
@@ -2044,7 +2044,7 @@ wuxAxiH	qnPaz	hiMsAyAm	pa.pa	-	qnP1	qnP
 wuxAxiH	guPaz	granWe	pa.pa	-	guP1	guP
 wuxAxiH	gunPaz	granWe	pa.pa	gumP	gunP1	gunP
 wuxAxiH	uBaz	pUraNe	pa.pa	-	uB1	uB
-wuxAxiH	unBaz	pUraNe	pa.pa	-	unB1	umB
+wuxAxiH	unBaz	pUraNe	pa.pa	umB	unB1	umB
 wuxAxiH	SuBaz	SoBArWe	pa.pa	-	SuB2	SuB
 wuxAxiH	SunBaz	SoBArWe	pa.pa	-	SunB2	SumB
 wuxAxiH	xqBIz	granWe	pa.pa	xqB	xqB1	xqB
@@ -2081,7 +2081,7 @@ wuxAxiH	Guraz	Sabxe	pa.pa	-	Gur1	Gur
 wuxAxiH	puraz	agragamane	pa.pa	-	pur1	pur
 wuxAxiH	bqhuz	uxyamane	pa.pa	bqh#1,bqh#2	bqh3	bqh
 wuxAxiH	vqhUz	uxyamane	pa.pa	vqh	vqh3	vqh
-wuxAxiH	wqhUz	hiMsAyAm	pa.pa	-	wqh3	wqh
+wuxAxiH	wqhUz	hiMsAyAm	pa.pa		wqh3	wqh
 wuxAxiH	swqhUz	hiMsAyAm	pa.pa	-	swqh1	swqh
 wuxAxiH	wqnhUz	hiMsAyAm	pa.pa	-	wqnh1	wqMh
 wuxAxiH	iRuz	icCAyAm	pa.pa	iR#1	iR2	iR
@@ -2253,18 +2253,18 @@ ruXAxiH	kqwIz	veRtane	A.pa	-	+kqw2	+kqw
 ruXAxiH	kqwIz	veRtane	pa.pa	-	kqw2	kqw
 ruXAxiH	FiinXIz	xIpwO	A.pa	inX	inX1	inX
 ruXAxiH	Kixaz	xEnye	A.pa	-	Kix3	Kix
-ruXAxiH	vixaz	vicAraNe	A.pa	-	vix4	vix
+ruXAxiH	vixaz	vicAraNe	A.pa	vix#2	vix4	vix
 ruXAxiH	SiRLz	viSeRaNe	pa.pa	SiR	SiR2	SiR
 ruXAxiH	piRLz	saFcUrNane	pa.pa	piR	piR1	piR
 ruXAxiH	Banjoz	Amarxane	pa.pa	BaFj	Banj1	BaFj
 ruXAxiH	Bujaz	aByavahAre	pa.pa	-	Buj2	Buj
 ruXAxiH	Bujaz	pAlane	pa.pa	-	Buj2	Buj
-ruXAxiH	wqhaz	hiMsAyAm	pa.pa	-	wqh4	wqh
+ruXAxiH	wqhaz	hiMsAyAm	pa.pa	wqh	wqh4	wqh
 ruXAxiH	hisiz	hiMsAyAm	pa.pa	hiMs	his1	hiMs
 ruXAxiH	unxIz	klexane	pa.pa	unx	unx1	unx
 ruXAxiH	anjUz	gawO	pa.pa	-	anj1	aFj
 ruXAxiH	anjUz	kAnwO	pa.pa	aFj	anj1	aFj
-ruXAxiH	anjUz	mrakRaNe	SiRAxiH	-	anj1	aFj
+ruXAxiH	anjUz	mrakRaNe	pa.pa	-	anj1	aFj
 ruXAxiH	anjUz	mrakRaNe	pa.pa	-	anj1	aFj
 ruXAxiH	anjUz	vyakwO	pa.pa	-	anj1	aFj
 ruXAxiH	wancUz	safkocane	pa.pa	waFc	wanc2	waFc
@@ -2292,7 +2292,7 @@ wanAxiH	wqNuz	axane	A.pa	-	wqN1	wqN
 wanAxiH	wqNuz	axane	pa.pa	-	wqN1	wqN
 wanAxiH	GqNuz	xIpwO	A.pa	-	GqN2	GqN
 wanAxiH	GqNuz	xIpwO	pa.pa	-	GqN2	GqN
-wanAxiH	vanuz	yAFcAyAm	A.pa	-	van3	van
+wanAxiH	vanuz	yAFcAyAm	A.pa	van	van3	van
 wanAxiH	manuz	avaboXane	A.pa	man	+man2	+man
 wanAxiH	dukqF	karaNe	A.pa	kq#1	kq3	kq
 wanAxiH	dukqF	karaNe	pa.pa	kq#1	kq3	kq
@@ -2309,7 +2309,7 @@ kryAxiH	prIF	warpaNe	A.pa	prI	prI2	prI
 kryAxiH	prIF	warpaNe	pa.pa	prI	prI2	prI
 kryAxiH	SrIF	pAke	A.pa	-	SrI1	SrI
 kryAxiH	SrIF	pAke	pa.pa	-	SrI1	SrI
-kryAxiH	mIF	hiMsAyAm	A.pa	-	mI2	mI
+kryAxiH	mIF	hiMsAyAm	A.pa		mI2	mI
 kryAxiH	mIF	hiMsAyAm	pa.pa	mI	mI2	mI
 kryAxiH	RiF	banXane	A.pa	si	Ri2	si
 kryAxiH	RiF	banXane	pa.pa	si	Ri2	si
@@ -2381,7 +2381,7 @@ kryAxiH	mqdaz	kRoxe	pa.pa	-	mqd2	mqd
 kryAxiH	mqdaz	suKe	pa.pa	-	mqd2	mqd
 kryAxiH	guXaz	roRe	pa.pa	-	guX2	guX
 kryAxiH	kuRaz	niRkarRe	pa.pa	-	kuR1	kuR
-kryAxiH	kRuBaz	saFcalane	pa.pa	-	kRuB3	kRuB
+kryAxiH	kRuBaz	saFcalane	pa.pa	kRuB	kRuB3	kRuB
 kryAxiH	NaBaz	hiMsAyAm	pa.pa	-	NaB3	naB
 kryAxiH	wuBaz	hiMsAyAm	pa.pa	-	wuB3	wuB
 kryAxiH	kliSUz	vibAXAyAm	pa.pa	kliS	kliS2	kliS
@@ -2399,7 +2399,7 @@ kryAxiH	pluRaz	pUraNe	pa.pa	pluR	pluR3	pluR
 kryAxiH	pluRaz	secane	pa.pa	pluR	pluR3	pluR
 kryAxiH	pluRaz	sevane	pa.pa	pluR	pluR3	pluR
 kryAxiH	pluRaz	snehane	pa.pa	pluR	pluR3	pluR
-kryAxiH	puRaz	puRtO	pa.pa	-	puR3	puR
+kryAxiH	puRaz	puRtO	pa.pa	puR#1	puR3	puR
 kryAxiH	muRaz	sweye	pa.pa	muR#1	muR2	muR
 kryAxiH	Kacaz	BUwaprAxurBAve	pa.pa	-	Kac1	Kac
 kryAxiH	Kavaz	BUwaprAxurBAve	pa.pa	-	Kav1	Kav
@@ -2608,7 +2608,7 @@ curAxiH	SaTaz	SlAGAyAm	A.pa	-	SaT2	SaT
 curAxiH	yakRaz	pUjAyAm	A.pa	-	yakR1	yakR
 curAxiH	syamaz	viwarke	A.pa	-	syam2	syam
 curAxiH	Samaz	Alocane	A.pa	-	Sam2	Sam
-curAxiH	lakRaz	xarSane	pa.pa	-	lakR2	lakR
+curAxiH	lakRaz	xarSane	pa.pa	lakR	lakR2	lakR
 curAxiH	kuwsaz	avakRepaNe	A.pa	kuws	kuws1	kuws
 curAxiH	wrutaz	Cexane	A.pa	-	wrut2	wrut
 curAxiH	Balaz	ABaNdane	A.pa	-	Bal2	Bal
@@ -2777,7 +2777,7 @@ curAxiH	SiRaz	asarvopayoge	pa.pa	-	SiR3	SiR
 curAxiH	wapaz	xAhe	pa.pa	-	wap3	wap
 curAxiH	wqpaz	sanxIpane	pa.pa	-	wqp4	wqp
 curAxiH	wqpaz	wqpwO	pa.pa	-	wqp4	wqp
-curAxiH	CqxIz	sanxIpane	pa.pa	-	Cqx2	Cqx
+curAxiH	CqxIz	sanxIpane	pa.pa	Cqx	Cqx2	Cqx
 curAxiH	xqpaz	sanxIpane	pa.pa	-	xqp2	xqp
 curAxiH	xqBIz	Baye	pa.pa	-	xqB2	xqB
 curAxiH	xqBaz	sanxarBe	pa.pa	-	xqB3	xqB
@@ -2815,8 +2815,8 @@ curAxiH	kaTiz	Soke	pa.pa	-	kaT3	kaNT
 curAxiH	mqjUz	alafkAre	pa.pa	-	mqj2	mqj
 curAxiH	mqjUz	SOce	pa.pa	mqj(1)	mqj2	mqj
 curAxiH	mqRaz	wiwikRAyAm	pa.pa	-	mqR3	mqR
-curAxiH	XqRaz	aprasahane	pa.pa	-	XqR2	XqR
-curAxiH	XqRaz	prasahane	pa.pa	-	XqR2	XqR
+curAxiH	XqRaz	aprasahane	pa.pa	XqR	XqR2	XqR
+curAxiH	XqRaz	prasahane	pa.pa	XqR	XqR2	XqR
 curAxiH	kaWa	vAkyaprabanXe	pa.pa	-	kaWa1	kaWa
 curAxiH	vara	IpsAyAm	pa.pa	-	vara1	vara
 curAxiH	gaNa	safKyAne	pa.pa	gaN	gaNa1	gaNa
@@ -2911,7 +2911,7 @@ curAxiH	rasa	AsvAxane	pa.pa	-	rasa1	rasa
 curAxiH	rasa	snehane	pa.pa	-	rasa1	rasa
 curAxiH	vyaya	gawO	pa.pa	-	vyaya1	vyaya
 curAxiH	vyaya	viwwasamuwsarge	pa.pa	-	vyaya1	vyaya
-curAxiH	rUpa	rUpakriyAyAm	pa.pa	-	rUpa1	rUpa
+curAxiH	rUpa	rUpakriyAyAm	pa.pa	rUp	rUpa1	rUpa
 curAxiH	Cexa	xvEXIkaraNe	pa.pa	-	Cexa1	Cexa
 curAxiH	Caxa	apavAraNe	pa.pa	-	Caxa1	Caxa
 curAxiH	lABa	preraNe	pa.pa	-	lABa1	lABa
@@ -2961,7 +2961,7 @@ curAxiH	kutaz	prawApane	A.pa	-	kut2	kut
 curAxiH	laja	prakASane	pa.pa	-	laja1	laja
 curAxiH	laja	prANane	pa.pa	-	laja1	laja
 curAxiH	lakaz	AsvAxane	pa.pa	-	lak1	lak
-curAxiH	lakRaz	afkane	pa.pa	-	lakR1	lakR
+curAxiH	lakRaz	afkane	pa.pa	lakR	lakR1	lakR
 curAxiH	lataz	BARArWe	pa.pa	-	lat2	lat
 curAxiH	mrakRaz	mlecCane	pa.pa	-	mrakR2	mrakR
 curAxiH	mrakRaz	mrakRaNe	pa.pa	-	mrakR2	mrakR
