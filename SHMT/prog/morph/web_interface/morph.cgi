@@ -110,7 +110,7 @@ if($ans ne "") {
     } elsif ($ans =~ /तद्धित/){
        $ans =~ s/{वर्गः ना}//;
        $link = "<a href=\"javascript:generate_waxXiwa_forms('Unicode','$rt','$lifga')\">$rt</a>";
-       $color = "";
+       $color = "lavendar";
     } elsif(($ans =~ /कृदन्त/) && ($ans !~ /अव्य/)) {
              $ans =~ s/{वर्गः ना}//;
              if ($ans =~ /(पुं|नपुं|स्त्री)/){ $lifga = $1;}
