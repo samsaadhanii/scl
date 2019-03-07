@@ -91,7 +91,7 @@ if($ans ne "") {
  # We need to separate the upasarga from the rts for generation purpose.
 #   if($rt =~ /^(.+)_([^_]+)/){ $upasarga = $1; $rt = $2;}
 #   else {$upasarga = "-";}
-   if ($ans =~ /उपसर्ग ([^}]+)/) { $upasarga = $1;} else {$upasarga = "";}
+   if ($ans =~ /उपसर्ग ([^}]+)/) { $upasarga = $1;} else {$upasarga = "-";}
    if ($ans =~ /{उपसर्ग [^}]+}/) { $ans =~ s/{उपसर्ग [^}]+}//;}
 
 
