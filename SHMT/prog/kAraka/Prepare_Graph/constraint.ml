@@ -149,6 +149,8 @@ value join_relations a b c d e u v w x y =
     else if c >= 3200 && c < 3300  && w >= 4300 && w < 4400 then [Relationc (u,v,93,x,y)] 
     else if c >= 2300 && c < 2400 && w >= 4300 && w < 4400 
     then [Relationc (a,b,c,d,e);Relationc (u,v,w,x,y)] 
+    else if c >= 2900 && c < 3000 && w >= 4300 && w < 4400 
+    then [Relationc (u,v,94,x,y)] 
     else []
     else []
 ;

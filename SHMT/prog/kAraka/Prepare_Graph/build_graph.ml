@@ -2039,6 +2039,7 @@ value rlupapaxa m1 m2 text_type = match m2 with
    | AvywaxXiwa (id2,mid2,word2,rt2,_,_,_,_)
    | Sup (id2,mid2,word2,rt2,_,_,_,_,_,_)
    | Kqw (id2,mid2,word2,_,_,_,_,_,_,_,rt2,_,_,_,_,_,_)
+   | Avykqw (id2,mid2,word2,rt2,_,_,_,_,_,_,_,_)
    | WaxXiwa (id2,mid2,word2,rt2,_,_,_,_,_,_,_) ->
       match m1 with
       [ Sup (id1,mid1,_,rt1,_,_,_,viBakwiH1,_,_)
@@ -2059,16 +2060,14 @@ value rlupapaxa m1 m2 text_type = match m2 with
                     ]
                  | "aBi" | "anu" (* |"api"   Discuss with Sanjeev *) ->
                     [Relation (id1,mid1,"upa_karmapravacanIyaH",id2,mid2,"17.5")]
-		 | "anwarA" | "nAnA" | "pqWak" | "uwwareNa" | "xakRiNena" | "aXareNa" -> 
+		 | "anwarA" | "uwwareNa" | "xakRiNena" | "aXareNa" -> 
                     [Relation (id1,mid1,"upa_apekRA",id2,mid2,"17.8")]
-		 | "anwareNa" | "vinA" ->
+		 | "anwareNa" | "vinA" | "nAnA" | "pqWak" ->
                     [Relation (id1,mid1,"upa_vinA",id2,mid2,"17.10")]
                  | _ -> []
                  ]
          | 3  -> match rt2 with
-                 [ "nAnA" | "pqWak"  ->
-                    [Relation (id1,mid1,"upa_apekRA",id2,mid2,"17.11a")]
-                 | "samAna" | "samAnA" | "saxqkRa" | 
+                 [ "samAna" | "samAnA" | "saxqkRa" | 
                    "saxqkRA" | "saxqkRI" | "saxqSA" | "saxqSa" | "saxqS" | 
                    "wulya" | "wulyA" | "yukwa" | "samA" ->
                     [Relation (id1,mid1,"apekRA",id2,mid2,"17.11b")]
@@ -2079,7 +2078,7 @@ value rlupapaxa m1 m2 text_type = match m2 with
                       [Relation (id1,mid1,"upa_prawisixXaH",id2,mid2,"17.14")]
                     | "saha" | "sAkam" | "sArXam" | "samam" ->
                     [Relation (id1,mid1,"upa_saha",id2,mid2,"17.15")]
-                    | "vinA" ->
+                    | "vinA" | "nAnA" | "pqWak"->
                     [Relation (id1,mid1,"upa_vinA",id2,mid2,"17.15a")]
                     | _ -> []
                     ]
@@ -2096,45 +2095,40 @@ value rlupapaxa m1 m2 text_type = match m2 with
                  | _ -> []
                  ]
         | 5 -> match word2 with
-                 [ "aByASam" | "aByASAw" | "aByASena" | "aByASe" | "anwikAn"|
-                   "anwikena" | "anwike" | "anwikAw" | "anwikam" |"ArAw" |
+                 [ "aByASam" | "aByASAw" | "aByASena" | "aByASe" | "aByASA" | "aByASaH" |"anwikAn"|
+                   "anwikena" | "anwike" | "anwikAw" | "anwikam" |"ArAw" | "avAcI" | "avAc" |
                    "bahiH" | "nikatam" | "nikatAw" | "nikatena" | "nikate" |
-                   "pqWak" | "prAFca" | "prawyaFca" | "prawyak" |
+                    "prAFca" | "prawyaFca" | "prawyak" |"paScimA" | "paScimam" | "paScimAn" |
                    "samIpam" | "samIpAw" | "samIpena" | "samIpe" | "uwwarA" |
-                   "uwwarAhI" |
-                   "uwwaram" | "viprakqRtam" |
-                   "viprakqRtAw" | "viprakqRtena" | "viprakqRte" | 
-                   "xakRiNAhi" | "xakRiNA" | "xakRiNam" | "xUram" | "xUreNa" |
-                   "xUrAw" | "xUre" ->
+                   "uwwarAhi"  | "prawIcI" | "uxac" | "uxak" | "uxIcI" |"prAcI" | "prAk" | "pUrvA" | "pUrvaH" |
+                  "pUrvam" | "pUrvAn" | "uwwaram" | "viprakqRtam" |
+                   "viprakqRtAw" | "viprakqRtena" | "viprakqRte" |"viprakqRtA" |
+                   "xakRiNAhi" | "xakRiNA" | "xakRiNam"|"xakRiNAn" |"uwwarAn" | "xUram" | "xUreNa" |
+                   "xUrAw" | "xUrA" | "xUre" ->
                     [Relation (id1,mid1,"upa_apekRA",id2,mid2,"17.18a")]
-                 | "prawIcI" | "uxac" | "uxak" | "uxIcI" ->
-                    [Relation (id1,mid1,"apekRA",id2,mid2,"17.18b")]
-                 | "vinA" | "qwe" ->
-                    [Relation (id1,mid1,"upa_sambanXaH",id2,mid2,"17.19")]
+                 | "vinA" | "nAnA" | "pqWak" | "qwe" ->
+                    [Relation (id1,mid1,"upa_vinA",id2,mid2,"17.19")]
                  | "apa" | "pari" | "prawi" ->
                     [Relation (id1,mid1,"upa_karmapravacanIyaH",id2,mid2,"17.20")]
                  | "A" ->
                     [Relation (id1,mid1,"upa_karmapravacanIyaH",id2,mid2,"17.20")]
                  | "AraBya" | "praBqwi" ->
-                    [Relation (id1,mid1,"upa_srowaH",id2,mid2,"17.21")]
+                       [Relation (id1,mid1,"upa_srowaH",id2,mid2,"17.21")]
                  | _ -> match rt2 with
-                     [ "aByASA" | "aByASa" | "avAcI" | "avAc" | "Binna" | 
-                       "BinnA" | "iwara" | "iwarA" | "paScimA" | "paScima" |
-                       "prAcI" | "prAk" | "pUrvA" | "pUrva" | "vilakRaNa" | 
-                       "vilakRaNA" | "viprakqRta" | "viprakqRtA" | "xUra" |
-                       "xUrA" | "anya" | "anyA" ->
+                     [  "Binna" | "BinnA" | "iwara" | "iwarA" | "pUrvA" | "pUrva" | "vilakRaNa" | 
+                       "vilakRaNA"| "anya" | "anyA" ->
                        [Relation (id1,mid1,"apekRA",id2,mid2,"17.22")]
                      | _ -> []
                      ]
                  ]
         | 6 -> match word2 with
-                 [ "aByASam" | "aByASena" | "aByASAw" | "aByASe" |
+                 [ "aByASam" | "aByASena" | "aByASAw" | "aByASA" | "aByASe" |
                    "agrawaH" | "anwaH" | "anwikam" | "anwikAw" | "anwikAn" | "anwikena" |
-                   "anwike" | "nikatam" | "nikatena" | "nikatAw" | 
-                   "nikate" | "purawaH" | "xUram"  | "xUrAw" | "xUreNa" | 
-                   "xUre" | "viprakqRtAw" | "viprakqRtena" |
-                   "viprakqRte" |"viprakqRtam" | "uwwarAhi" |
-                   "samIpam" | "samIpAw" | "samIpena" | "samIpe" |
+                   "anwike" | "nikatam" | "nikatena" | "nikatAw" | "nikatAn" | 
+                   "nikate" | "purawaH" | "xUram" | "xUrA" | "xUrAw" | "xUreNa" | 
+                   "xUre" | "viprakqRtAw" | "viprakqRtena" |  "viprakqRtA" |
+                   "viprakqRte" |"viprakqRtam" | 
+                   "samIpam" | "samIpAw" | "samIpena" | "samIpe" | "xakRiNAn" | "uwwarAn" |
                    "uwwarawaH" | "xakRiNawaH" | "aXaswAw" | "puraswAw" | 
                    "paraswAw" | "avaraswAw" | "parawaH" | "avarawaH" | 
                    "upari" | "upariRtAw" | "paScAw" | "uwwarAw" | "aXarAw" | 
@@ -2150,10 +2144,10 @@ value rlupapaxa m1 m2 text_type = match m2 with
                          [Relation (id1,mid1,"upa_aXikaraNam",id2,mid2,"17.16a")]
                  | _ -> match rt2 with
                    [ "aByASa" | "samAna" | "samAnA" | "saxqkRa" | "saxqkRI" |
-                     "saxqS" | "viprakqRta" | "viprakqRtA" | "wulya" |"wulyA" | 
-                     "xUra" | "saxqSa" | "sama" | "samA" ->
+                     "saxqS" |  "saxqkRA" |  "saxqSA" | "saxqSa" |
+                     "wulya" | "wulyA" | "yukwa" | "samA"| "sama"  ->
                        [Relation (id1,mid1,"apekRA",id2,mid2,"17.26")]
-                   | "prasUwA" ->
+                   | "prasUwA" | "prasUwa" ->
                        [Relation (id1,mid1,"nirXAraNam",id2,mid2,"17.28")]
                    | "aXipawi" | "ISvara"  | "prawiBU" | "sAkRin" | "sAkRiNI" |
                      "xAyAxa" | "svAmin" | "svAminI" ->
@@ -2163,19 +2157,17 @@ value rlupapaxa m1 m2 text_type = match m2 with
                  ]
         | 7 -> match rt2 with
                ["anurakwa" | "anurakwA" | "Asakwa" | "AsakwA" |
-                "Ayukwa" | "AyukwA" | "kuSala" |"kuSAlA" | "lagna"|
+                "Ayukwa" | "AyukwA" | "yukwa" | "kuSala" |"kuSAlA" | "lagna"|
                 "lagnA" | "nipuNA" | "nipuNa" | "prasiwa" | "prasiwA" |
-                "uwsuka" | "uwsukA" ->
+                "uwsuka" | "uwsukA" | "sAXu" | "sAXvI" | "asAXvI" | "asAXu" ->
                        [Relation (id1,mid1,"viRayAXikaraNam",id2,mid2,"17.30")]
                | "prawiBU" |"sAkRiNI" | "sAkRin" | "svAmin" | "svAminI" | 
                   "ISvara" | "xAyAxa" | "aXipawi" ->
                        [Relation (id1,mid1,"svAmI",id2,mid2,"17.29")]
-               | "prasUwA" ->
+               | "prasUwA" | "prasUwa"  ->
                        [Relation (id1,mid1,"nirXAraNam",id2,mid2,"17.28")]
                | _ -> match word2 with
-                      [ "sAXu" | "asAXu" ->
-                         [Relation (id1,mid1,"viRayAXikaraNam",id2,mid2,"17.31")]
-                      | "aXi" | "upa" ->
+                     [ "aXi" | "upa" ->
                          [Relation (id1,mid1,"upa_karmapravacanIyaH",id2,mid2,"17.33")]
                       | _ -> [] 
                       ]
@@ -2203,13 +2195,13 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
   | WaxXiwa (id1,mid1,word1,rt1,_,_,_,_,viB1,_,_) ->
    if not (viB1=8) then
     match word1 with
-       [ "aByASam" | "aByASaH" | "aByASAw" | "aByASe" | "aByASena" |
-         "anwikam" | "anwikAw" | "anwike" | "anwikena" | "anwikAn" | "ArAw" | 
-         "prAFca" | "prawyaFca" | "prawyak" | "avAcI" |
-         "samIpam" | "samIpAw" | "samIpe" | "samIpena" | "uwwaram" | 
-	 "uwware" | "viprakqRtam" | "viprakqRtAw" | 
-         "viprakqRte" | "viprakqRtena" | "xakRiNam" | "xakRiNe" | 
-         "xUram" | "xUrAw" | "xUre" | "xUreNa" | "nikatam" | "nikatAw" | "nikatena" | "nikate" ->
+       [ "aByASam" | "aByASaH" | "aByASAw" | "aByASe" | "aByASA" | "aByASena" | "pUrvam" | "pUrvAn"|
+         "anwikam" | "anwikAw" | "anwike" | "anwikena" | "anwikAn" | "ArAw" | "prAcI" | "prAk" | "pUrvA" | "pUrvaH" | 
+         "prAFca" | "prawyaFca" | "prawyak" | "avAcI" | "avAc" |"prawIcI" | "uxac" | "uxak" | "uxIcI"|
+         "samIpam" | "samIpAw" | "samIpe" | "samIpena" | "uwwaram" | "paScimA" | "paScimam" | "paScimAn" | 
+	 "uwware" | "viprakqRtam" | "viprakqRtAw" | "viprakqRtA" | 
+         "viprakqRte" | "viprakqRtena" | "xakRiNam" |"xakRiNAn" | "uwwarAn" | "xakRiNe" | 
+         "xUram" | "xUrAw" | "xUre" | "xUrA" | "xUreNa" | "nikatam" | "nikatAw" | "nikatena" | "nikate" ->
         match m2 with 
          [ Wif (id2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
          | Kqw (id2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
@@ -2255,11 +2247,12 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
          ]
        ] else []
    | Avy (id1,mid1,word1,rt1,_,_,_) 
-   | AvywaxXiwa (id1,mid1,word1,rt1,_,_,_,_) ->
+   | AvywaxXiwa (id1,mid1,word1,rt1,_,_,_,_)
+   | Avykqw (id1,mid1,word1,rt1,_,_,_,_,_,_,_,_) ->
            match word1 with
           [ "anwareNa" | "praBqwi"|
            "aBi" | "anu" | "apa" | "api" |
-            "AraBya" | "A" | "aXi" |
+            "AraBya" | "A" | "aXi" | "vaRat" |
             "namaH" | "nAnA" | "pari" | "pqWak" | "prawi" | "qwe" | 
             "saha" | "sAkam" | "samam" | "sArXam" |
             "upa" | "vinA" ->
@@ -2917,7 +2910,7 @@ value rlavy_wifkqw_special m1 m2 text_type = match m2 with
        | "na" ->  if prose_order id1 id2 text_type
          then [ Relation (id1,mid1,"prawiReXaH",id2,mid2,"29.2")]
            else []
-       | "kacciw" 
+       | "kacciw" | "Sam" | "svaswi" | "svAhA" | "svaXA" | "vaRat" 
        | "kim" ->  if prose_order id1 id2 text_type
          then [ Relation (id1,mid1,"sambanXaH",id2,mid2,"29.3")]
            else []
