@@ -41,7 +41,8 @@ $kAraka_name{$num}=$name;
 }
 }
 $path = $ARGV[6]; # path for temporary files
-$parse = $ARGV[7]; # parse no
+#$parse = $ARGV[7]; # parse no
+$parse = 1;
 
 
 if($SCRIPT eq "DEV") {
@@ -107,7 +108,8 @@ while($in = <STDIN>){
         $distance = $1;
         print TMP1 "A [shape=rectangle label=\"Parse: $parse of $total_parses; Cost = $distance\"]\n";
       } elsif($in =~ /Solution:([0-9]+)/){
-             if($parse == $1) { $solnfound = 1;} else {$solnfound = 0;}
+       #      if($parse == $1) { $solnfound = 1;} else {$solnfound = 0;}
+              $solnfound = 1;
       }
       elsif(($solnfound == 1) && ($in =~ /\(/)){
          $in =~ s/\(//;
@@ -119,7 +121,7 @@ while($in = <STDIN>){
             $rel_nm = $3;
             $d_w_no = $4;
             $d_w_a_no = $5;
-          # if($rel_nm == 0) {
+          # if($rel_nm == 0) 
           #    my $tmp = $sentence.".".$d_w_no.".".$d_w_a_no;
           #    my $tmp1 = $sentence.".".$s_w_no.".".$s_w_a_no;
           #    $word{$tmp} .= "_".$word{$tmp1};
