@@ -19,11 +19,7 @@ PRATIPADIKA [a-zA-Z\-]+
 DHATU [a-zA-Z]+[1-5]
 UPASARGA [a-zA-Z_]+
 WAXXIWA mawup
-SAMBANXAH karwA|karma|karaNam|sampraxAnam|apAxAnam|xeSAXikaraNam|kAlAXikaraNam|aXikaraNam|hewuH|prayojanam|pUrvakAlaH|niwya_sambanXaH|anuyogI|prawiyogI|RaRTIsambanXaH|samucciwa|sup_samucciwa|karwqsamAnAXikaraNam|karmasamAnAXikaraNam|sambanXaH|samboXyaH|muKyakarma|gONakarma|kriyAviSeRaNam|prawiReXaH|prayojakakarwA|prayojyakarwA|viRayAXikaraNam|apekRA
-UPAPADA_SAMBANXAH pariwaH_xeSAXikaraNam|aBiwaH_xeSAXikaraNam|aXoZXaH_xeSAXikaraNam|aXoXaH_xeSAXikaraNam|aXyaXi_xeSAXikaraNam|anwarA_xeSAXikaraNam|nikaRA_xeSAXikaraNam|pariwaH_xeSAXikaraNam|samayA_xeSAXikaraNam|sarvawaH_xeSAXikaraNam|uBayawaH_xeSAXikaraNam|uparyupari_xeSAXikaraNam|uwwareNa_xeSAXikaraNam|aByASam_xeSAXikaraNam|aByASAw_xeSAXikaraNam|aByASena_xeSAXikaraNam|aByASe_xeSAXikaraNam|anwikam_xeSAXikaraNam|anwikena_xeSAXikaraNam|anwikAw_xeSAXikaraNam|anwike_xeSAXikaraNam|ArAw_xeSAXikaraNam|bahiH_xeSAXikaraNam|nikatam_xeSAXikaraNam|nikatAw_xeSAXikaraNam|nikatena_xeSAXikaraNam|nikate_xeSAXikaraNam|prAFca_xeSAXikaraNam|prawyaFca_xeSAXikaraNam|prawyak_xeSAXikaraNam|samIpam_xeSAXikaraNam|samIpAw_xeSAXikaraNam|samIpena_xeSAXikaraNam|samIpe_xeSAXikaraNam|uwwarAhi_xeSAXikaraNam|uwwaram_xeSAXikaraNam|viprakqRtam_xeSAXikaraNam|viprakqRtAw_xeSAXikaraNam|viprakqRtena_xeSAXikaraNam|viprakqRte_xeSAXikaraNam
-UPAPADA_SAMBANXAH1 xakRiNAhi_xeSAXikaraNam|xakRiNam_xeSAXikaraNam|xakRiNA_xeSAXikaraNam|xUram_xeSAXikaraNam|xUrAw_xeSAXikaraNam|xUreNa_xeSAXikaraNam|xUre_xeSAXikaraNam|aByASam_xeSAXikaraNam|aByASAw_xeSAXikaraNam|aByASena_xeSAXikaraNam|aByASe_xeSAXikaraNam|agrawaH_xeSAXikaraNam|anwaH_xeSAXikaraNam|anwikam_xeSAXikaraNam|anwikAw_xeSAXikaraNam|anwikena_xeSAXikaraNam|anwike_xeSAXikaraNam|aXaH_xeSAXikaraNam|avaH_xeSAXikaraNam|aXaswAw_xeSAXikaraNam|nikatam_xeSAXikaraNam|nikatAw_xeSAXikaraNam|nikatena_xeSAXikaraNam|nikate_xeSAXikaraNam|puraH_xeSAXikaraNam|puraswAw_xeSAXikaraNam|paraswAw_xeSAXikaraNam|avaswAw_xeSAXikaraNam|parawaH_xeSAXikaraNam|avarawaH_xeSAXikaraNam|avaraswAw_xeSAXikaraNam|purawaH_xeSAXikaraNam|xakRiNawaH_xeSAXikaraNam|xakRiNAw_xeSAXikaraNam|xakRiNena_xeSAXikaraNam|xakRiNena_xeSAXikaraNam|xUram_xeSAXikaraNam|xUrAw_xeSAXikaraNam|xUreNa_xeSAXikaraNam|xUre_xeSAXikaraNam|upariRtAw_xeSAXikaraNam|paScAw_xeSAXikaraNam|uwwarA_xeSAXikaraNam|uwwarAw_xeSAXikaraNam|aXarAw_xeSAXikaraNam|upari_xeSAXikaraNam|viprakqRtAw_xeSAXikaraNam|viprakqRtena_xeSAXikaraNam|viprakqRte_xeSAXikaraNam|uwwarawaH_xeSAXikaraNam|uwwareNa_xeSAXikaraNam|aXareNa_xeSAXikaraNam|viprakqRtam_xeSAXikaraNam|samIpam_xeSAXikaraNam|samIpAw_xeSAXikaraNam|samIpena_xeSAXikaraNam|samIpe_xeSAXikaraNam|xakRiNe_xeSAXikaraNam|uwware_xeSAXikaraNam
-UPAPADA_SAMBANXAH2 aXaH_apAxAnam|avaH_apAxAnam|aXaswAw_apAxAnam|puraH_apAxAnam|puraswAw_apAxAnam|paraswAw_apAxAnam|parawaH_apAxAnam|avaraswAw_apAxAnam|avarawaH_apAxAnam|purawaH_apAxAnam|xakRiNawaH_apAxAnam|xakRiNAw_apAxAnam|upariRtAw_apAxAnam|paScAw_apAxAnam|uwwarAw_apAxAnam|upari_apAxAnam|uwwarawaH_apAxAnam
-UPAPADA_SAMBANXAH3 aXaswAw_karwA
+SAMBANXAH karwA|karma|karaNam|sampraxAnam|apAxAnam|xeSAXikaraNam|kAlAXikaraNam|aXikaraNam|hewuH|prayojanam|pUrvakAlaH|niwya_sambanXaH|anuyogI|prawiyogI|RaRTIsambanXaH|samucciwa|sup_samucciwa|karwqsamAnAXikaraNam|karmasamAnAXikaraNam|sambanXaH|samboXyaH|muKyakarma|gONakarma|kriyAviSeRaNam|prawiReXaH|prayojakakarwA|prayojyakarwA|viRayAXikaraNam|apekRA|varwamAnasamAnakAlaH|sahArWaH|vinArWaH|sanxarBa_binxuH|wulanA_binxuH|samboXanasUcakam
 VISERANA viSeRaNam|aBexaH
 INTERSENTENTIALRELATION samucciwa
 CAT sarva
@@ -36,21 +32,21 @@ SARVA12 asmax|yuRmax
 CR \r
 NL \n
 %%
-{INDEX}[ ]{SARVA12}[ ]{CAT}[ ]{VACANA}[ ]({SAMBANXAH}|{UPAPADA_SAMBANXAH}|{UPAPADA_SAMBANXAH1}|{UPAPADA_SAMBANXAH2}|{UPAPADA_SAMBANXAH3})[ ]{INDEX}{CR}?{NL}		{
+{INDEX}[ ]{SARVA12}[ ]{CAT}[ ]{VACANA}[ ]{SAMBANXAH}[ ]{INDEX}{CR}?{NL}		{
 	sprintf(tmp,"%s",yytext);
         indx = 0; p[0] = '\0'; num[0] = '\0';
         rel[0] = '\0'; to_indx = 0;cat[0] = '\0';
 	sscanf(tmp,"%d %s %s %s %s %d",&indx,p,cat,num,rel,&to_indx);
 	printf("(sup (id %d) (rt %s) (cat %s) (gen a) (num %s) (rel %s) (to_indx %d) )\n",indx,p,cat,num,rel,to_indx);
 	}
-{INDEX}[ ]{PRATIPADIKA}[ ]{CAT}[ ]{LIFGA}[ ]{VACANA}[ ]({SAMBANXAH}|{UPAPADA_SAMBANXAH}|{UPAPADA_SAMBANXAH1}|{UPAPADA_SAMBANXAH2}|{UPAPADA_SAMBANXAH3})[ ]{INDEX}{CR}?{NL}		{
+{INDEX}[ ]{PRATIPADIKA}[ ]{CAT}[ ]{LIFGA}[ ]{VACANA}[ ]{SAMBANXAH}[ ]{INDEX}{CR}?{NL}		{
 	sprintf(tmp,"%s",yytext);
         indx = 0; p[0] = '\0'; gen[0] = '\0';num[0] = '\0';
         rel[0] = '\0'; to_indx = 0;cat[0] = '\0';
 	sscanf(tmp,"%d %s %s %s %s %s %d",&indx,p,cat,gen,num,rel,&to_indx);
 	printf("(sup (id %d) (rt %s) (cat %s) (gen %s) (num %s) (rel %s) (to_indx %d) )\n",indx,p,cat,gen,num,rel,to_indx);
 	}
-{INDEX}[ ]{PRATIPADIKA}[ ]{LIFGA}[ ]{VACANA}[ ]({SAMBANXAH}|{UPAPADA_SAMBANXAH}|{UPAPADA_SAMBANXAH1}|{UPAPADA_SAMBANXAH2}|{UPAPADA_SAMBANXAH3})[ ]{INDEX}{CR}?{NL}		{
+{INDEX}[ ]{PRATIPADIKA}[ ]{LIFGA}[ ]{VACANA}[ ]{SAMBANXAH}[ ]{INDEX}{CR}?{NL}		{
 	sprintf(tmp,"%s",yytext);
         indx = 0; p[0] = '\0'; gen[0] = '\0';num[0] = '\0';
         rel[0] = '\0'; to_indx = 0;

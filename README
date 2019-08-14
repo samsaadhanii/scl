@@ -6,23 +6,54 @@ bash
 bison
 flex
 graphviz
-gcc/g++
-javac
+gcc
+g++
 lttoolbox
 make
 perl
 python
 xsltproc
+default-jdk
 
-Perl modules:
-CGI.pm
+AND
 
-Ocaml
-Ocamlp4 patch
+Ocaml, Ocamlp4 patch
+
+-------------------------------------------------------------------
+Installation commands for Pre-requisites are as under:
+
+sudo apt-get install apache2 bash bison flex graphviz gcc lttoolbox make perl python xsltproc default-jdk g++
+
+#Install Objective Caml (ocaml-4.07.1.tar.gz)
+available at http://ocaml.org/releases/
+./configure
+make world.opt
+sudo make install
+
+#Install package Ocamlbuild from (ocamlbuild-0.13.0.tar.gz)
+available at https://github.com/ocaml/ocamlbuild/releases
+make configure #% beware: not ./configure
+make
+sudo make install
+
+#Then install Camlp4 (camlp4-4.07-1.tar.gz)
+https://github.com/ocaml/camlp4/releases
+./configure
+make all # beware: not just make
+sudo make install
+
+#Install Zen (zen-master.tar.gz)
+https://gitlab.inria.fr/huet/Zen.git
+cd Zen/ML 
+make
+
+sudo a2enmod cgid
+sudo systemctl restart apache2
+
+-------------------------------------------------------------------
 
 The distribution has following modules bundled together
-   Morph analyser, Morph generator, Sandhi, Sandhi splitter, Anusaaraka Skt-Hnd MT system, transliteration modules, Amarakosha and Sankshepa Ramayana
-  (scl.tgz)
+   Morph analyser, Morph generator, Sandhi joiner, Sandhi splitter, Anusaaraka Skt-Hnd MT system, transliteration modules, Amarakosha, Ashtadhyayi Simulator, Navya-Nyaya Diagramatic Representation, Compound word generator, and e-readers for Sankshepa Ramayanam and SrimadBhagvadGita
 
 To install Sanskrit Computational Linguistics tools
 
@@ -35,7 +66,7 @@ c) ./configure
 
 d) make
 
-e) sudo make
+e) sudo make install
 
 All the packages are available under GPL. You would have received a copy of GPL license with this package.
 
@@ -98,7 +129,9 @@ g) Mr. Karunakar
 h) Dr. Shivaja
 i) Dr. Shailaja
 j) Dr. Pavankumar Satuluri
-k) Dr. Arjun K
+k) Dr. Monali Das
+l) Dr. Arjun K
+m) Dr. Preeti Shukla
 
 In addition Converters and Transliteration modules for converting/transliterating from one scheme to the other are developed. Following schemes have been addressed.
 a) Unicode Devanagari (UTF-8)
@@ -117,6 +150,12 @@ Dr. Shailaja developed the concordance of three Paninian Dhatuvrttis as a part o
 Dr. Pavankumar Satuluri developed the compound generator as a part of his PhD thesis (2011-15).
 
 Dr. Arjuna developed the Nyaayacitradiipikaa, an analyser for Navya Nyaya Expressions as a prt of his PhD thesis (2013-17).
+
+Dr. Monali Das provided the Kaaraka analysis of Sankshepa Ramayanam.
+
+Dr. Preeti Patel (Shukl) developed the e-reader for SrimadBhagvadGeeta.
+
+Dr. Anupama Ryali developed the e-reader for Shishupalavadham as a part of her Post Doctoral Fellowship.
 
 Since 2007 Amba Kulkarni is also collaborating with Gérard Huet, INRIA. As a result of this collaboration, an inter-communication between the Sanskrit Heritage tools and the Anusaaraka tools has been possible.
 

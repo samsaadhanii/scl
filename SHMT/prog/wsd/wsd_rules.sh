@@ -22,7 +22,6 @@ TMP_FILES_PATH=$2
 
 ANU_MT_PATH=$SCLINSTALLDIR/SHMT/prog
 
-echo $TMP_FILES_PATH > /tmp/aa
 rm -rf $TMP_FILES_PATH/wsd_files
 mkdir $TMP_FILES_PATH/wsd_files
 

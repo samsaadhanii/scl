@@ -1760,7 +1760,7 @@
 "n,m,nm,dePAlt,,,",#naSca apaxAnwSca Jali
 "n,y,ny,dePAlt,,,",
 "n,r,nr,dePAlt,,,",
-"n,l,zll,parasavarNa,worli (8.4.60),",
+"n,l,lzl,parasavarNa,worli (8.4.60),",
 "n,v,nv,dePAlt,,,",
 "n,S,FcS,wugAgama -> Scuwva-> carwva,Si wuk (8.3.31)-> swoH ScunA ScuH (8.4.40)-> Kari ca (8.4.55),",
 "n,S,FS,Scuwva,swoH ScunA ScuH (8.4.40),",

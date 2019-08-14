@@ -88,9 +88,9 @@ $hdr = "digraph G\{\nrankdir=BT;\n compound=true;\n bgcolor=\"lemonchiffon1\";";
 $dir = "back";
 
 ## STDIN : parser output as a set of 5 tuples
-while($in = <STDIN>){
+while(($in = <STDIN>) && !$solnfound){
   chomp($in);
-  if($in =~ /./) {
+  if ($in =~ /./){
       if($in =~ /^([0-9]+).minion$/){
          $dotfl_nm = "$sentence.$parse.dot"; 
          if ($filehandle_status == "open") { 
@@ -109,9 +109,9 @@ while($in = <STDIN>){
         print TMP1 "A [shape=rectangle label=\"Parse: $parse of $total_parses; Cost = $distance\"]\n";
       } elsif($in =~ /Solution:([0-9]+)/){
        #      if($parse == $1) { $solnfound = 1;} else {$solnfound = 0;}
-              $solnfound = 1;
+       #       if ($solnfound == 0) { $solnfound = 1;} else {$solnfound = 0;}
       }
-      elsif(($solnfound == 1) && ($in =~ /\(/)){
+      elsif($in =~ /\(/){
          $in =~ s/\(//;
          $in =~ s/\)//;
          if($in =~ /^([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+)/){
@@ -178,7 +178,9 @@ while($in = <STDIN>){
          }
        }
       }
-  } else {
+  } else { $solnfound = 1;}
+}
+ #else
         if ($solnfound) {
           if ($rel_str ne "") {
 
@@ -198,8 +200,8 @@ while($in = <STDIN>){
              system("$GraphvizDot -Tsvg -o${path}/$sentence.$parse.svg ${path}/$sentence.$parse.dot");
           }
     }
-  }
-}
+#  }
+#}
  
 ## When is the following code needed ? 
 ## Add clusters

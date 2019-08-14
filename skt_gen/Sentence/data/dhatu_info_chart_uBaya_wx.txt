@@ -1106,7 +1106,7 @@ BU1 parasmEpaxI,BU,BvAxiH
 BU2 parasmEpaxI,BU,curAxiH
 bud1 parasmEpaxI,budaz,wuxAxiH
 Buj1 parasmEpaxI,Bujoz,wuxAxiH
-Buj2 parasmEpaxI,Bujaz,ruXAxiH
+Buj2 uBayapaxI,Bujaz,ruXAxiH
 Buj3 parasmEpaxI,Bujiz,curAxiH
 bukk1 parasmEpaxI,bukkaz,BvAxiH
 bukk2 parasmEpaxI,bukkaz,curAxiH
@@ -5009,7 +5009,7 @@ Xor1 parasmEpaxI,Xorqz,BvAxiH
 xq1 parasmEpaxI,xq,BvAxiH
 xQ1 parasmEpaxI,xQ,BvAxiH
 Xq1 uBayapaxI,XqF,BvAxiH
-Xq2 AwmanepaxI,Xqf,BvAxiH
+Xq2 uBayapaxI,Xqf,BvAxiH
 xQ2 parasmEpaxI,xQ,kryAxiH
 xq2 parasmEpaxI,xq,svAxiH
 xq3 AwmanepaxI,xqf,wuxAxiH

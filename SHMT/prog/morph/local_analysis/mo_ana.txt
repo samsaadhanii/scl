@@ -1,3 +1,4 @@
+samprApwe	<krw_vrb_rt:Ap1><upasarga:sam_pra><kqw_prawyayaH:kwa><XAwuH:ApLz><gaNaH:svAxiH>samprApwa<vargaH:nA><lifgam:puM><viBakwiH:7><vacanam:eka><level:1>
 aBijAwa	aBijAwa<vargaH:nA><lifgam:puM><viBakwiH:8><vacanam:eka><level:1>/<krw_vrb_rt:jan3><upasarga:aBi><kqw_prawyayaH:kwa><XAwuH:janIz><gaNaH:xivAxiH>aBijAwa<vargaH:nA><lifgam:puM><viBakwiH:8><vacanam:eka><level:1>
 aBikruXyawi	kruX1<upasarga:aBi><prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:kruXa><gaNaH:xivAxiH><level:1>
 aBilaRanwI	aBilaRaw<vargaH:nA><lifgam:swrI><viBakwiH:1><vacanam:eka><level:1>
@@ -30,6 +31,7 @@ anuRajjawe	sasj1<upasarga:anu><prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacan
 anuRTIwaH	<kqw_vrb_rt:RTA1><upasarga:anu><kqw_prawyayaH:kwa><XAwuH:RTA><gaNaH:BvAxiH>anuRTIwa<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 anuRTiwAw	anuRTiwa<vargaH:nA><lifgam:puM><viBakwiH:5><vacanam:eka><level:1>
 anuSuSruma	Sru1<upasarga:anu><prayogaH:karwari><lakAraH:lit><puruRaH:u><vacanam:bahu><paxI:parasmEpaxI><XAwuH:Sru><gaNaH:BvAxiH><level:1>
+prawiyowsyAmi	yuX1<upasarga:prawi><prayogaH:karwari><lakAraH:lqt><puruRaH:u><vacanam:eka><paxI:parasmEpaxI><XAwuH:yuXaz><gaNaH:xivAxiH><level:1>
 anuvarNayAmi	varN1<upasarga:anu><prayogaH:karwari><lakAraH:lat><puruRaH:u><vacanam:eka><paxI:parasmEpaxI><XAwuH:varNaz><gaNaH:curAxiH><level:1>
 anuvarwayanwi	vqw3<upasarga:anu><prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:bahu><paxI:parasmEpaxI><XAwuH:vqwu><gaNaH:curAxiH><level:1>
 anuvarwayawi	vqw1<upasarga:anu><sanAxi_prawyayaH:Nic><prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:vqwuz><gaNaH:BvAxiH><level:1>/vqw3<upasarga:anu><prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:vqwuz><gaNaH:curAxiH><level:1>
@@ -99,6 +101,7 @@ BojayiRyAmi	Buj1<sanAxi_prawyayaH:Nic><prayogaH:karwari><lakAraH:lqt><puruRaH:u>
 BojiwavAn	Bojiwavaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 BrAmayan	Bramayaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 BrAmayiwum	Bram1<vargaH:avy><kqw_prawyayaH:wumun><XAwuH:Bramu><gaNaH:xivAxiH><level:1>
+BuFjAnaH	<kqw_vrb_rt:Buj2><upasarga:X><kqw_prawyayaH:SAnac_lat><XAwuH:Bujaz><gaNaH:ruXAxiH>BuFjAna<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 buxXvA	buX1<vargaH:avy><kqw_prawyayaH:kwvA><XAwuH:buXir><ganaH:BvAxiH>/buX3<vargaH:avy><kqw_prawyayaH:kwvA><XAwuH:buXaz><gaNaH:xivAxiH><level:1>
 CalayawAm	Calayaw<vargaH:nA><lifgam:napuM><viBakwiH:6><vacanam:bahu><level:1>
 camU	camU<vargaH:nA><lifgam:swrI><viBakwiH:1><vacanam:eka><level:1>
@@ -213,6 +216,8 @@ nyavarwawa	vqw1<upasarga:ni><prayogaH:karwari><lakAraH:laf><puruRaH:pra><vacanam
 nyavarwyaw	vruw1<upasarga:ni><prayogaH:karwari><lakAraH:laf><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:vruwu><gaNaH:curAxiH><level:1>
 nyavexayan	vix1<upasarga:ni><prayogaH:karwari><lakAraH:laf><puruRaH:pra><vacanam:bahu><paxI:parasmEpaxI><XAwuH:vixa><gaNaH:BvAxiH><level:1>
 nyavexayaw	vix1<upasarga:ni><prayogaH:karwari><lakAraH:laf><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:vixa><gaNaH:BvAxiH><level:1>
+pApAH	pApa<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:bahu><level:1>
+pArafgawaH	pArafgawa<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 parameSvara	parameSvara<vargaH:nA><lifgam:puM><viBakwiH:8><vacanam:eka><level:1>
 parAvarwamAnam	parAvarwamAna<vargaH:nA><lifgam:puM><viBakwiH:2><vacanam:eka><level:1>
 parAvarwasva	vqw1<upasarga:para_Af><prayogaH:karwari><lakAraH:lot><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:vqwu><gaNaH:BvAxiH><level:1>
@@ -258,6 +263,7 @@ prakRAlayAmaH	kRala1<upasarga:pra><prayogaH:karwari><lakAraH:lat><puruRaH:u><vac
 prakRAlayaWa	kRal1<upasarga:pra><prayogaH:karwari><lakAraH:lat><puruRaH:ma><vacanam:eka><paxI:parasmEpaxI><XAwuH:kRala><gaNaH:curAxiH><level:1>
 prakRAlayew	kRal1<upasarga:pra><prayogaH:karwari><lakAraH:viXilif><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:kRala><gaNaH:curAxiH><level:1>
 pramAWIni	pramAWin<vargaH:nA><lifgam:napuM><viBakwiH:1><vacanam:bahu><level:1>
+pramawwaH	<kqw_vrb_rt:max1><upasarga:pra><kqw_prawyayaH:kwa><XAwuH:maxiz><gaNaH:BvAxiH>pramawwa<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:2>
 pramucyawe	muc1<upasarga:pra><prayogaH:karmaNi><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:mucLz><gaNaH:wuxAxiH>/muc2<upasarga:pra><prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:mucaz><gaNaH:curAxiH><level:1>
 pramumoxa	mux1<upasarga:pra><prayogaH:karwari><lakAraH:lit><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:muxaz><gaNaH:BvAxiH><level:1>
 praNipawanwIm	pranipawaw<vargaH:nA><lifgam:swrI><viBakwiH:2><vacaam:1><level:1>
@@ -473,7 +479,7 @@ vixArya	xQ1<vargaH:avy><sanAxi_prawyayaH:Nic><kqw_prawyayaH:lyap><XAwuH:xQ><gaNa
 vyaBURayawa	BUR1<upasarga:vi><prayogaH:karwari><lakAraH:laf><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:BURa><gaNaH:curAxiH><level:1>
 vyajeRta	ji1<upasarga:vi><prayogaH:karwari><lakAraH:luf><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:jI><gaNaH:BvAxiH><level:1>
 vyajijFapan	jFA<upasarga:vi><prayogaH:karwari><lakAraH:laf><puruRaH:pra><vacanam:bahu><paxI:parasmEpaxI><XAwuH:jFA><gaNaH:BvAxiH><level:1>
-vyanunAxayan	vyanunAxayaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
+vyanunAxayan	<kqw_vrb_rt:Nax2><upasarga:vi_anu><kqw_prawyayaH:Sawq_lat><XAwuH:Naxaz><gaNaH:curAxiH>vyanunAxayaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 vyaramaw	ram1<upasarga:vi><prayogaH:karwari><lakAraH:laf><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:ramu><gaNaH:BvAxiH><level:1>
 vyaramayaw	ram1<upasarga:vi><prayogaH:nic><lakAraH:laf><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:ramu><gaNaH:BvAxiH><level:1>
 vyasarjayaw	sq2<upasarga:vi><prayogaH:karwari><lakAraH:laf><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:sqj><gaNaH:wuxAxiH><level:1>

@@ -46,6 +46,9 @@ $BIN_PATH/handle_samboXana.pl D  2> /dev/null |\
 $BIN_PATH/keep_freq_mo.pl $SCLINSTALLDIR $BIN_PATH/default_morph.txt |\
 $BIN_PATH/rm_duplicate_ans.pl |\
 $BIN_PATH/handle_sawi_sapwami.pl |\
+$BIN_PATH/remove_wal.pl |\
+## commented the below line, since it did not parse wena kqwam properly, as kqxanwa analysis of kqw were removed
+#$BIN_PATH/remove_derivational_kqw_ana.pl < /tmp/1 |\
 $BIN_PATH/priotarize.pl |\
 perl -pe 's/=\//=/; s/^\///; s/\/\//\//g;' 2> /dev/null
 

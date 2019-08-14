@@ -23,9 +23,9 @@ LTPROCBIN=$2
 
 PROG_PATH=$SCLINSTALLDIR/SHMT/prog/sandhi_splitter
 
-$PROG_PATH/sandhi_samaasa_splitter.out -t -b $PROG_PATH/samAsa_words.txt $PROG_PATH/samAsa_rules.txt $LTPROCBIN $SCLINSTALLDIR/morph_bin/samAsa_splitter.bin $3 4 > sandhi_splitter_out
-#$PROG_PATH/sandhi_samaasa_splitter.out -t -S $PROG_PATH/samAsa_words.txt $PROG_PATH/samAsa_rules.txt $SCLINSTALLDIR/morph_bin/samAsa_splitter.bin $1 4 > sandhi_splitter_out
+#$PROG_PATH/sandhi_samaasa_splitter.out -t -b $PROG_PATH/samAsa_words.txt $PROG_PATH/samAsa_rules.txt $LTPROCBIN $SCLINSTALLDIR/morph_bin/samAsa_splitter.bin $3 4 > sandhi_splitter_out
+#$PROG_PATH/sandhi_samaasa_splitter.out -t -S $PROG_PATH/samAsa_words.txt $PROG_PATH/samAsa_rules.txt $LTPROCBIN $SCLINSTALLDIR/morph_bin/samAsa_splitter.bin $3 4 > sandhi_splitter_out
 
-#$PROG_PATH/sandhi_samaasa_splitter.out -t -s $PROG_PATH/sandhi_words.txt $PROG_PATH/sandhi_rules.txt $SCLINSTALLDIR/morph_bin/samAsa_splitter.bin $1 4 >> sandhi_splitter_out
+$PROG_PATH/sandhi_samaasa_splitter.out -t -s $PROG_PATH/sandhi_words.txt $PROG_PATH/sandhi_rules.txt $LTPROCBIN $SCLINSTALLDIR/morph_bin/samAsa_splitter.bin $3 4 >> sandhi_splitter_out
 
 sort sandhi_splitter_out | grep . | $SCLINSTALLDIR/SHMT/prog/sandhi_splitter/pick_best.pl | cut -f1 

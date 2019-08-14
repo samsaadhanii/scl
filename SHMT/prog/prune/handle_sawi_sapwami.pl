@@ -35,7 +35,8 @@ while($in = <STDIN>){
  
      my $ans = "";
      foreach ($i=0; $i<=$#analysis;$i++){
-        if ($analysis[$i] =~ /kqw_prawyayaH.*viBakwiH:7/) {
+        #if ($analysis[$i] =~ /kqw_prawyayaH.*viBakwiH:7/) {
+        if ($analysis[$i] =~ /kqw_prawyayaH:(kwa|kwavawu|Sawq|SAnac).*viBakwiH:7/) {
              $found = 0;
              foreach ($j=0; $j<=$#in; $j++){
                if($j != $k) {

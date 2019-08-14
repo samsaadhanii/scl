@@ -46,7 +46,7 @@ vinaSyanwam	naS1<upasarga:vi><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:NaSaz><g
 vinaSyaw	naS1<upasarga:vi><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:kRipaz><gaNaH:BvAxiH><level:0>
 vinaSyawsu	naS1<upasarga:vi><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:NaSaz><gaNaH:xivAxiH>
 paripAlayan	pAla1<upasarga:pari><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:pAla><gaNaH:curAxiH><level:0>
-vyanunAxayaw	nax2<upasarga:vi_anu><kqw_prawyayaH:Sawq_lat><XAwuH:Naxaz><gaNaH:curAxiH>
+vyanunAxayaw	Nax2<upasarga:vi_anu><kqw_prawyayaH:Sawq_lat><XAwuH:Naxaz><gaNaH:curAxiH>
 saFjanayaw	jan2<upasarga:sam><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:janI><gaNaH:xivAxiH>
 samprekRya	IkR1<upasarga:sam_pra><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:IkRaz><gaNaH:BvAxiH>
 unmiRan	miR1<upasarga:uw><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:miRuz><gaNaH:BvAxiH>

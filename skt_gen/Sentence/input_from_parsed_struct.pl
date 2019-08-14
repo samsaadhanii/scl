@@ -718,11 +718,13 @@ while($in = <STDIN>){
  $mo =~ s/;/,/g;
  $mo =~ s/,अव्य$//;
  if($wrd_no =~ /[0-9]+/) {
-  $wrd_no =~ s/^ //;
+  $wrd_no =~ s/^[ ]+//;
   $mo =~ s/,/ /g;
   $rel =~ s/,/ /g;
   if ($rel ne "") {
-    print $wrd_no," ",$mo," ",$rel,"\n";
-  } else { print $wrd_no," ",$mo,"\n";}
+    $res = $wrd_no." ".$mo." ".$rel."\n";
+  } else { $res = $wrd_no." ".$mo."\n";}
+  $res =~ s/  / /g;
+  print $res;
   }
 }

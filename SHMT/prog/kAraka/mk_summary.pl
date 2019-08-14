@@ -113,12 +113,12 @@ while($in = <STDIN>){
          } elsif($in =~ /Cost/) { 
            if  ($cmptbl && ($match == $selected_relations)) {
                &populate_data($tmp);
-               $soln++; $parse .= $tmp.$in."\n"; $tmp = ""; $match = 0; $cmptbl = 1;
+               $soln++; $parse .= $tmp.$in."\n\n"; $tmp = ""; $match = 0; $cmptbl = 1;
            } else { $cmptbl=1; $tmp = ""; $match = 0;}
         } elsif($in =~ /Solution:/) { 
               $tmp.=$in."\n";
         } else { $parse .= $in."\n";}
-  } else {$parse .= $in."\n";}
+  }# else {$parse .= $in."\n";}
  }
 
 # print all reduced solutions to $OUTFILE

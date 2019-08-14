@@ -5,22 +5,11 @@ a) tar -xvzf scl.tgz
 b) cp appropriate SPEC/spec*.txt file to scl directory. Name it as spec.txt
    Check that the paths are correct, else make necessary changes.
 
-   **** Installation steps for non-SERVER version ***
-
 c) ./configure
 
-d) make all
+d) make
 
 e) sudo make install
-
-
-   **** Installation steps for SERVER version ****
-
-c) ./configure_server
-
-d) make server
-
-e) sudo make install_server
 
 
 All the packages are licensed under GPL. You would have received a copy of GPL license with this package.
@@ -28,5 +17,5 @@ All the packages are licensed under GPL. You would have received a copy of GPL l
 In case of any queries, please contact ambapradeep@gmail.com.
 
 -- Amba Kulkarni
-12th Dec 2016
+24th June 2019
 -------------------------------------------------------------------------------

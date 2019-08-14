@@ -58,8 +58,6 @@ dnm=`dirname $1` #dnm = directory name
 
 temp_files_path=$TMP_DIR_PATH/${dnm}/tmp_$fbn
 
-export TMP_FILES_PATH=$temp_files_path
-
 if [ -f "tmp_$fbn"  ] ; then 
   echo "File tmp_$fbn exists. Remove or rename it, and give the command again."
 else
@@ -90,7 +88,7 @@ $ANU_MT_PATH/kAraka/shabdabodha.sh $SCLINSTALLDIR $GraphvizDot $Heritage_Input $
 
 ############
 # wsd in the 12th field
-    $ANU_MT_PATH/wsd/wsd_rules.sh $SCLINSTALLDIR $temp_files_path/$fbn.out $temp_files_path/$fbn.wsd $temp_files_path/$fbn.wsd_upapaxa
+    $ANU_MT_PATH/wsd/wsd_rules.sh $SCLINSTALLDIR $temp_files_path $fbn.out $fbn.wsd $fbn.wsd_upapaxa
 #    if [ $DEBUG = "OFF" ]; then 
 #      rm $temp_files_path/$fbn.wsd $temp_files_path/$fbn.wsd_upapaxa
 #    fi

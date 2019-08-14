@@ -300,7 +300,7 @@ bAX1,v,roka^bAXA_xe^xuHKa_xe,vilodane
 bax1,v,sWira_raha,sWErye
 baX2,v,niyanwriwa_kara^bAMXa,saMyamane
 BeR1,v,dara^jA,Baye
-BI1,v,Baya_kara^dara,Baye
+BI1,v,dara^Baya_kara,Baye
 BikR1,v,mAMga^prApwa_kara^prApwa_na_ho,BikRAyAm-alABe_lABe_ca
 bil1,v,Bexana_kara^Cexa_kara,Bexane
 bil2,v,Cexa_kara^cIra,Bexane

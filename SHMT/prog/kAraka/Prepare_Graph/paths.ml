@@ -1,1 +1,1 @@
-value sclinstalldir = "/home/ambaji/scl";
+value sclinstalldir = "/home/amba/scl";

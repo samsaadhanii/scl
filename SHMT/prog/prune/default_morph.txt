@@ -10,7 +10,6 @@ jalam=jala<vargaH:nA><lifgam:napuM><viBakwiH:2><vacanam:eka><level:1>/jala<varga
 anena=ixam<vargaH:sarva><lifgam:napuM><viBakwiH:3><vacanam:eka><level:1>ixam<vargaH:sarva><lifgam:napuM><viBakwiH:3><vacanam:eka><level:1>
 xIyanwe=xA1<prayogaH:karmaNi><lakAraH:lat><puruRaH:pra><vacanam:bahu><paxI:AwmanepaxI><XAwuH:xAN><gaNaH:BvAxiH><level:1>
 jAnIWa=jFA1<prayogaH:karwari><lakAraH:lot><puruRaH:ma><vacanam:eka><paxI:parasmEpaxI><XAwuH:jFA><gaNaH:kryAxiH><level:1>
-jAyawe=jan3<prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:janIz><gaNaH:xivAxiH><level:1>
 kariRyAmi=kq3<prayogaH:karwari><lakAraH:lqt><puruRaH:u><vacanam:eka><paxI:parasmEpaxI><XAwuH:dukqF><gaNaH:wanAxiH><level:1>
 kariRyawi=kq3<prayogaH:karwari><lakAraH:lqt><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:dukqF><gaNaH:wanAxiH><level:1>
 #kAryam=kArya<vargaH:nA><lifgam:napuM><viBakwiH:2><vacanam:eka><level:2>

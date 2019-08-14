@@ -32,4 +32,5 @@ $in1 = <STDIN>;
     elsif($wt1 < $wt2) { print $in2,"\n";}
     elsif($wt2 < $wt1) { print $in1,"\n";}
     $in1 = $in2;
+    $wt1 = $wt2;
 }

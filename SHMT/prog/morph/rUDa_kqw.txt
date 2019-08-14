@@ -42,10 +42,12 @@ BAjaka
 BakRaka
 bAla
 bAlaka
+bAlikA
 BANaka
 banXa
 banXaka
 BARaNa
+Barwq
 Barwsaka
 BAryA
 BAsaka
@@ -56,6 +58,7 @@ Bexaka
 Bojana
 boXaka
 BrAjaka
+buxXi
 cAlaka
 campaka
 cAraka
@@ -97,8 +100,6 @@ kAvya
 kaWaka
 kaWana
 KAxaka
-kqwa
-kqwA
 kqwe
 kRepaka
 kRewra
@@ -130,6 +131,7 @@ mocaka
 moRaka
 motakaH
 moxaka
+mUDa
 mURaka
 nanxaka
 nArya
@@ -147,6 +149,7 @@ Pala
 pAlaka
 paNdiwa
 parAkrama
+paraw
 paricAraka
 paricArikA
 parihArya
@@ -157,7 +160,7 @@ parivarwana
 parivarwikA
 parivAxaka
 pariveRaka
-parvawa
+parvaw
 paryApwa
 pASaka
 pAvaka
@@ -199,6 +202,7 @@ pUrvaka
 puswaka
 rAjya
 rakRaka
+ramaNIya
 ramya
 rotikA
 saFcAraka
@@ -263,6 +267,8 @@ vilapana
 vilAsikA
 vimarxaka
 viSeRaka
+viSiRta
+viSiRtA
 viSrAma
 vivAha
 vivaraNa

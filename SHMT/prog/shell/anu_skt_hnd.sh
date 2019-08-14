@@ -30,8 +30,6 @@ TEXT_TYPE=${10}
 ECHO=${11}
 LTPROCBIN=${12}
 
-echo $3 > /tmp/cc
-echo $4 >> /tmp/cc
 export SHMT_PATH=$SCLINSTALLDIR/SHMT
 ANU_MT_PATH=$SHMT_PATH/prog
 export LC_ALL=POSIX
@@ -66,9 +64,6 @@ dnm=`dirname $3` #dnm = directory name
 
 temp_files_path=$TMP_DIR_PATH/${dnm}/tmp_$fbn
 
-echo $fbn > /tmp/dd
-echo $dnm >> /tmp/dd
-echo $temp_files_path >> /tmp/dd
 export TMP_FILES_PATH=$temp_files_path
 
 if [ -f "tmp_$fbn"  ] ; then 
