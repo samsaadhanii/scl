@@ -403,13 +403,15 @@ value relation_mutual_expectancy text_type m1 m2 = match m1 with
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
                 && r1=8 && r2 = 7
          then False
-         (* karmasamAnAXikaraNa should be to the right of karma *)
+         (* karmasamAnAXikaraNa should be to the right of karma 
+          * The order info is taken care by build_graph.ml
+          * Constraint programme should not look at the order again 
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
                 && ((r2=11||r2=12||r2=14) && r1=10) && (to_id1 < to_id2)
          then False
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
                 && (r2=10 && (r1=11||r1=12||r1=14)) && (to_id2 < to_id1)
-         then False
+         then False *)
          else True
       ]
     ]
@@ -1017,7 +1019,7 @@ let maprel = List.map (fun y -> List.nth relations (y-1) ) relsindag in
          where rec loop1 = fun
                           [ [] -> False (* do { print_string "failed case 5\n"; False} *)
                           | [Relationc (x,y,r,z,t)::rest1] -> 
-                                if (z=c && t=d && r = 14)
+                                if (z=c && t=d && (r = 14 || r = 11 || r = 12))
                                then  loop rest
                                else  loop1 rest1
                           ]

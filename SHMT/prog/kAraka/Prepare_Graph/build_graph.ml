@@ -1892,7 +1892,8 @@ I think Head can not be kqw or waxxXiwa *)
 (* To account for both words to be compounds *)
 (* (member_of rt1 uwwara_guNavAcI && not (compound_hd1=word1)) *)
 (compound word1 uwwarapaxa1 && not (rt1="arWa") && not (rt1="pUrvaka"))
-|| (pronominal123 rt1 && not (viBakwiH1 = 6) && (id1 = next id2 || id2 > id1)))
+|| (pronoun3 rt1 && not (viBakwiH1 = 6) && (id1 = next id2 || id2 > id1)))
+       (*pronominal123 -> pronoun3; need good examples in support of asmax and yuRmax to be adjectives. mayA purA (BhG 3.2), was wrongly parsed as mayA as an adj of purA. To stop this, pronominal123 is changed to pronoun3; Malay  16th Aug 2019*)
        (* pronouns are immediately after the viSeRya e.g. vAkyam ixam *)
        (* && not (rt2="yax") && not (rt2="wax") *) 
 (* Whether to allow yax/wax or not: 
@@ -2813,6 +2814,7 @@ value rlkarmasamAnAXikaraNam m1 m2 m3 text_type =
     [ Sup (id2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,gen2,viB2,vac2,_)
     | Kqw (id2,mid2,word2,_,_,_,_,_,_,_,rt2,pUrvapaxa2,uwwarapaxa2,gen2,viB2,vac2,_)
     | WaxXiwa (id2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_,gen2,viB2,vac2,_) ->
+                    if not (pronominal123 rt2) then
       match m1 with
       [ Sup (id1,mid1,word1,rt1,_,_,gen1,viB1,vac1,_)
       | Kqw (id1,mid1,word1,_,_,_,_,_,_,_,rt1,_,_,gen1,viB1,vac1,_)
@@ -2851,7 +2853,7 @@ value rlkarmasamAnAXikaraNam m1 m2 m3 text_type =
             ]
             else []
         | _ -> []
-        ]
+        ] else []
       | Avy (id2,mid2,_,rt2,_,_,_) ->
         match m1 with
         [ Sup (id1,mid1,_,rt1,_,_,_,_,_,_)
