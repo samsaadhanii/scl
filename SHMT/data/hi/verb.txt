@@ -1350,7 +1350,7 @@ pari_kala1,v,yAxa_kara
 pari_kRip2,v,bAzXa
 pari_mA2,v,nApa
 pari_nI1,v,vivAha_kara^DUDa
-pari_pAla1,v,pAlana_kara
+pari_pAl1,v,pAlana_kara
 pari_praC1,v,pUCa^jAnane_kI_icCA_kara,jFIpsAyAm
 pari_puR3,v,uwkqRta_ho^pAlana_kara
 parisam_Ap2,v,samApwa_kara^pUrA_kara
@@ -2212,10 +2212,10 @@ varNa1,v,varNana_kara^viswqwa_kara^PElA^praSaMsA_kara^camakA^prakASiwa_kara,varN
 varR1,v,gIlA_ho^Baga^cikanA_ho,snehane
 varX1,v,kAta^cIra^Bara^pUrNa_kara,Cexana-pUraNayoH
 vaS1,v,icCA_kara^cAha,kAnwO
-vas3,v,raha,nivAse
+vas1,v,raha,nivAse
 vAS1,v,Sabxa_kara,Sabxe
-vas1,v,Daka^vaswra_pahana^oDa^poSAka_XAraNa_kara,AcCAxane
-vas2,v,niScala_ho^sIXA_ho,swamBe
+vas2,v,Daka^vaswra_pahana^oDa^poSAka_XAraNa_kara,AcCAxane
+vas3,v,niScala_ho^sIXA_ho,swamBe
 vas4,v,sneha_kara^kawara^CexA_kara^naRta_kara^apaharaNa_kara^moha_kara,sneha-moha-Cexa-apaharaNeRu
 vAsa1,v,DUDa^pawA_lagA,upasevAyAm
 vasa1,v,nivAsa_kara^vasa,nivAse
