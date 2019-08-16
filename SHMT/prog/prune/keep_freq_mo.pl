@@ -23,7 +23,7 @@
 
 #use GDBM_File;
 #tie(%MORPH,GDBM_File,$ARGV[1],GDBM_READER,0444) || die "Can't open $ARGV[1] for reading";
-open(TMP,$ARGV[1]) || die "Can't open $ARGV[1] for reading";
+open(TMP,$ARGV[0]) || die "Can't open $ARGV[0] for reading";
 while(<TMP>) {
 chomp;
 $_ =~ /^(.*)=(.*)$/;
@@ -35,7 +35,7 @@ while($in = <STDIN>){
    chomp($in);
    if($in){
     ($word,$analysis) = split(/=/, $in);
-    if($MORPH{$word}) { print $word,"=",$MORPH{$word};}
+    if($MORPH{$word} ne "") { print $word,"=",$MORPH{$word};}
     else { print $in;}
    }
    print "\n";
