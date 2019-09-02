@@ -303,7 +303,7 @@ prokwaH	vac1<upasarga:pra><kqw_prawyayaH:kwa><XAwuH:vacaz><gaNaH:axAxiH><kqw_pra
 prokwam	vac1<upasarga:pra><kqw_prawyayaH:kwa><XAwuH:vacaz><gaNaH:axAxiH><kqw_pratipadika:prokwa><lifgam:napuM><viBakwiH:1><vacanam:eka><level:2>/vac1<upasarga:pra><kqw_prawyayaH:kwa><XAwuH:vacaz><gaNaH:axAxiH><kqw_pratipadika:prokwa><lifgam:napuM><viBakwiH:2><vacanam:eka><level:2>/vac1<upasarga:pra><kqw_prawyayaH:kwa><XAwuH:vacaz><gaNaH:axAxiH><kqw_pratipadika:prokwa><lifgam:puM><viBakwiH:2><vacanam:eka><level:2>
 prokwA	vac1<upasarga:pra><kqw_prawyayaH:kwa><XAwuH:vacaz><gaNaH:axAxiH><kqw_pratipadika:prokwA><lifgam:swrI><viBakwiH:1><vacanam:eka><level:2>
 prokwavAn	vac1<upasarga:pra><kqw_prawyayaH:kwavawu><XAwuH:vacaz><gaNaH:axAxiH>prokwavaw<vargaH:nA><lifgam:puM><viBakwiH:2><vacanam:eka><level:2>
-prowsAhayaw	sah1<upasarga:pra_uw><prayogaH:karwari><lakAraH:laf><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:sah><gaNaH:xivAxiH><level:1>
+prowsAhayaw	Rah1<upasarga:pra_uw><prayogaH:karwari><lakAraH:laf><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:sah><gaNaH:xivAxiH><level:1>
 puruRarRaBa	puruRarRaBa<vargaH:nA><lifgam:puM><viBakwiH:8><vacanam:eka><level:1>
 puruRavyAGra	puruRavyAGra<vargaH:nA><lifgam:puM><viBakwiH:8><vacanam:eka><level:1>
 rAhulaH	rAhula<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
