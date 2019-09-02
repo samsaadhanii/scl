@@ -1,10 +1,9 @@
 (**************************************************************************)
 (*                                                                        *)
-(*                     The Sanskrit Heritage Platform                     *)
 (*                                                                        *)
-(*                              Gérard Huet                               *)
 (*                                                                        *)
-(* ©2015 Institut National de Recherche en Informatique et en Automatique *)
+(* ©2015  Gérard Huet                                                     *)
+(* ©2016 - 2019 Amba Kulkarni                                             *)
 (**************************************************************************)
 
 (* A simple lexer recognizing idents formed from ASCII letters and integers 

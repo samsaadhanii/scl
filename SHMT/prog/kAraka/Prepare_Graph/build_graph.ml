@@ -1,4 +1,5 @@
-(* Copyright: Amba Kulkarni (2018-2019) *)
+(* Copyright: Amba Kulkarni (2014-2019) 
+ * Sanjeev Panchal (2015-2019) *)
 
 
 open Paths;
@@ -1100,7 +1101,7 @@ But in grAmam gawaH xevaxawwaH puswakaM paTawi, here xevaxawwa should not be mar
                     then match viBakwiH1 with
                 [ 1 -> if    noun_agreement vacanam1 vacanam2 lifgam1 lifgam2
                       && viBakwiH2=1
-                      && id1 < id2  (* This condition is added, to rule out the possibility of karwA in Sloka form when kqw precedes the noun as in gawaH rAmaH, or samavewAH pANdavAH, where gawaH and samavewAH should be marked as viSeRaNas and not rAmaH pr pANdavAH as karwA *)
+                      && id1 < id2  (* This condition is added, to rule out the possibility of karwA in Sloka form when kqw precedes the noun as in gawaH rAmaH, or samavewAH pANdavAH, where gawaH and samavewAH should be marked as viSeRaNas and not rAmaH or pANdavAH as karwA *)
                       (*&&  (finite_verb_in_sentence.val=1000 ||
                            finite_verb_in_sentence.val=id2  ||
                            finite_verb_in_sentence.val=id1) 
@@ -2905,8 +2906,7 @@ value rlsambanXa1 m1 m2 text_type = match m2 with
 ;
 
 (* ayi Bo Rama mAma uxXara *)
-(* yaxi ... warhi ... *)
-value rlsambanXa2 m1 m2 text_type = match m2 with
+(* value rlsambanXa2 m1 m2 text_type = match m2 with
   [ Avy (id2,mid2,word2,_,_,_,_) ->
    match m1 with
      [ Avy (id1,mid1,word1,_,_,_,_) ->
@@ -2921,9 +2921,9 @@ value rlsambanXa2 m1 m2 text_type = match m2 with
      ]
   | _ -> []
   ]
-  ;
+  ; *)
 (* eva ca, ca eva, ... *)
-value rlsambanXa3 m1 m2 text_type = match m2 with
+(* value rlsambanXa2 m1 m2 text_type = match m2 with
   [ Avy (id2,mid2,word2,_,_,_,_) ->
    match m1 with
      [ Avy (id1,mid1,word1,_,_,_,_) ->
@@ -2945,7 +2945,7 @@ value rlsambanXa3 m1 m2 text_type = match m2 with
      ]
   | _ -> []
   ]
-  ;
+  ; *)
 
 (* ;wvaM mA gacCa. *)
 value rlavy_wifkqw_special m1 m2 text_type = match m2 with
@@ -3012,8 +3012,8 @@ value rl_nAma m1 m2 text_type = match m2 with
        if  word1="nAma"
        then if id1=previous id2
         then [ Relation (id1,mid1,"sambanXaH",id2,mid2,"31.1")]
-        else if id2=previous id1
-        then [ Relation (id2,mid2,"sambanXaH",id1,mid1,"31.2")]
+        (* else if id2=previous id1
+        then [ Relation (id2,mid2,"sambanXaH",id1,mid1,"31.2")] *)
         else []
     else []
      | _ -> []
@@ -3479,7 +3479,7 @@ value rlniwya_sambanXa_sup m1 m2 text_type = match m2 with
          else []
        (*  else if  rt1="yax" && rt2="ewax"
          then [ Relation (id1,mid1,"niwya_sambanXaH",id2,mid2,"43.3")] 
-           yax ewax should bbe treated as viSeRaNa: e.g. ye ewe in BhG *)
+           yax ewax should be treated as viSeRaNa: e.g. ye ewe in BhG *)
         else []
       | _ -> []
       ]
@@ -3552,7 +3552,10 @@ value rl_exclamatory2 m1 m2 m3 text_type = match m1 with
               if id1 = previous id2 && id2 < id3
               && no_boundary_crossing id2 id3 text_type
               &&   ((word1="hA" && word2="hanwa") || 
-                  (word1="aho" && word2="bawa"))
+                  (word1="aho" && word2="bawa") ||
+                  (word1="ayi" && word2="Bo") ||
+                  (word1="eva" && word2="ca") ||
+                  (word1="ca" && word2="eva"))
               then [ Relation (id1,mid1,"sambanXaH",id2,mid2,"48a.1") 
                    ; Relation (id2,mid2,"sambanXaH",id3,mid3,"48a.2") 
                    ]
@@ -3784,7 +3787,7 @@ value init_sentence_feature_variables morphs  =
 value all_rules2 = 
 [
 rlwifkarwA_karma; rlkqwkarwA_karma;
-rlanaBihiwe; rlapAxAna_wasil; rlAvy_kriyAviSeRaNam_or_aXikaraNam; rlBAvalakRaNa_sapwamI1; rlBAvalakRaNa_sapwamI2; rlpUrvakAla; rlwumun; rlkwa_as; rlsamAnakAla; rlviSeRaNam; rlavy_viSeRaNam; rlvIpsA; rlsamboXanasUcakam; rlnirXAraNam; rlupapaxa_other_rel; rlupapaxa; rlsambanXa1; rlsambanXa2; rlsambanXa3; rlavy_wif_mA; rlavy_wifkqw_special;
+rlanaBihiwe; rlapAxAna_wasil; rlAvy_kriyAviSeRaNam_or_aXikaraNam; rlBAvalakRaNa_sapwamI1; rlBAvalakRaNa_sapwamI2; rlpUrvakAla; rlwumun; rlkwa_as; rlsamAnakAla; rlviSeRaNam; rlavy_viSeRaNam; rlvIpsA; rlsamboXanasUcakam; rlnirXAraNam; rlupapaxa_other_rel; rlupapaxa; rlsambanXa1; rlavy_wif_mA; rlavy_wifkqw_special;
 rl_kAraka_RaRTI1; rl_kAraka_RaRTI2; rl_kAraka_RaRTI3;
 rl_nAma; rlAvykqw_karma; rlevamkarma; rliwi; rlRaRTIsambanXaH; rlviRayAXikaraNam; rlhewuprayoge; 
 rlniwya_sambanXa_avy; rlniwya_sambanXa_sup; (* rl_initial_avy;*)  rl_ca; rlsent_beginning_connectives; (*rlparimANa_viSeRaNam;*) rl_exclamatory1; (*rlhewu_sup;*) rlkarwqrahiwakarwqsamAnAXikaraNam; rlafgavikAra; rl_spl_kAlAXikaraNam;
