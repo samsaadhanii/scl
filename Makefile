@@ -55,3 +55,11 @@ install_server:
 
 uninstall:
 	rm -r $(HTDOCSDIR)/scl $(CGIDIR)/scl $(TFPATH)
+
+clean:	
+	cd converters; make clean
+	cd SHMT; make clean
+	cd skt_gen/compounds; make clean
+	cd skt_gen/Sentence; make clean
+	cd ashtadhyayi_simulator/june12; make clean
+	cd NN; make clean

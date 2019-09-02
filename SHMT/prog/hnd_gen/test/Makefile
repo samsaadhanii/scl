@@ -63,3 +63,6 @@ get_prdtbl_entry.o    : ${INCLUDE}/get_prdtbl_entry.c
 	   	cc -Wall -g -c ${INCLUDE}/get_prdtbl_entry.c
 my_bsrch.o    : ${INCLUDE}/my_bsrch.c
 	   	cc -Wall -g -c ${INCLUDE}/my_bsrch.c
+
+clean:	
+		rm -f adj_utils.o amba_new.o exption.o fix.o form_wor.o function.o future.o get_prdtbl_entry.o my_bsrch.o n_excp.o nou_utils.o parad.o pro_utils.o RaR.o strcp.o subj.o suffix.o tam.o trim.o verb_utils.o word_gen.o ya_form.o new_gen.out

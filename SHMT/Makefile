@@ -27,3 +27,13 @@ test:
 	mv input_trnsltn.html output
 	rm *
 	diff -r output ../test_data/input
+
+clean:
+	cd prog/format; make clean
+	cd prog/Normalisation; make clean
+	cd prog/hnd_gen/test; make clean
+	cd prog/sandhi_splitter; make clean
+	cd prog/Heritage_morph_interface; make clean
+	cd prog/translation; make clean
+	cd prog/kAraka/Prepare_Graph/; make clean
+	cd prog/wsd; make clean

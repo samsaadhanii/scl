@@ -11,7 +11,7 @@ HPATH=../../SHMT/prog/kAraka/Prepare_Graph/Heritage_ML
 all: sentence_generator scan_input.out
 #all: scan_input.out
 
-LIBPATH = LPATH
+LIBPATH = /usr/lib
 FLEX = lex
 CC = gcc
 CFLAGS = -L$(LIBPATH) -g -Wall -o
@@ -62,4 +62,4 @@ scan_input.out: scan_input.lex
 include .depend
 
 clean:
-	rm -f *.cmo *.cmi *.cmx *.ppi *.ppo *.o
+	rm -f *.cmo *.cmi *.cmx *.ppi *.ppo *.o scan_input.out

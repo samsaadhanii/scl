@@ -49,3 +49,6 @@ paxakArya.out:paxakArya.lex cnvrtwx2utf.c fgetword.c get_sandhied_word.c cnvrtut
 install:
 	source ../../spec.sh
 	mkdir -p $(SCLINSTALLDIR)/skt_gen/compounds;mkdir -p $(CGIDIR)/scl/skt_gen/compounds;cp web_interface/*.html $(SCLINSTALLDIR)/skt_gen/compounds; cp web_interface/*.cgi $(CGIDIR)/scl/skt_gen/compounds;
+
+clean:	
+	rm -f alukkArya.out aluk.out nonalukkArya.out paxakArya.out samAsAnwa.out samAsaprakAra.out upasarjana.out uwwarapaxa.out

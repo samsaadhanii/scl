@@ -20,3 +20,8 @@ install:
 	cd $(HTDOCSDIR)/scl/NN/Type_identifier; ln -sf $(TFPATH)/NN/Type_identifier DOT
 	cp -r css_files $(HTDOCSDIR)/scl/NN
 	cp -r js_files $(HTDOCSDIR)/scl/NN
+
+clean:
+	cd CG; make clean
+	cd Type_identifier; make clean
+	cd parser; make clean

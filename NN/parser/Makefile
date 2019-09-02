@@ -16,3 +16,6 @@ nneparse.out:  nneparse.lex nneparse.y
 	bison -d -v nneparse.y
 	$(CC) $(CFLAGS) nneparse.out -DDEBUG=0 nneparse.tab.c lex.yy.c -ll
 	rm lex.yy.c
+
+clean:	
+	rm -f $(TARGETS)
