@@ -21,12 +21,14 @@ kim,puM,kOna
 kim,swrI,kOna
 sarva,puM,saba
 sarva,napuM,saba
+uBa,puM,xonoM
 uBaya,puM,xono
 wax,napuM,vaha
 wax,puM,vaha
 wax,swrI,vaha
 yax,napuM,jo
 yax,puM,jo
+yax,swrI,jo
 yuRmax,a,wuma
 kimciw,puM,koI
 kimciw,napuM,koI

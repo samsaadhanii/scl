@@ -345,7 +345,7 @@ amoGa,puM,amoGa,puM
 amoGA,swrI,amoGa,swrI
 amqwa,napuM,amqwa,puM
 amqwa,puM,amqwa,puM
-amqwA,swrI,amqwa,swrI
+amqwA,swrI,amqwA,swrI
 Amra,napuM,Ama,puM
 Amra,puM,Ama,puM
 aMSaka,puM,hissexAra,puM
@@ -369,6 +369,7 @@ anala,puM,Aga,swrIcaraka
 Anana,puM,muKa,puM
 ananwapAra,napuM,ananwapAra,puM
 ananwa,puM,ananwa,puM
+ananwavijaya,puM,yuXiRTira_kA_SaMKa,puM
 ananwara,napuM,bAxa_meM,puM
 ananwarA,swrI,anwara_rawiwa,swrI
 ananwA,swrI,ananwa,swrI
@@ -408,6 +409,8 @@ aniRta,puM,aniRta,puM
 anirvacanIya,puM,anirvacanIya,puM
 anivArya,napuM,anivArya,puM
 anivArya,puM,anivArya,puM
+anIka,napuM,senA,swrI
+anIka,puM,senA,swrI
 AnIwa,napuM,AnIwa,puM
 AnIwa,puM,AnIwa,puM
 aniyawAwman,puM,asaMyamI,puM
@@ -616,6 +619,7 @@ ApannA,swrI,prApwa,swrI
 apara,napuM,xUsarA,puM
 apara,puM,xUsarA,puM
 aparA,swrI,xUsarI,swrI
+aparAjiwa,puM,ajeya^jo_jIwA_na_gayA_ho,puM
 aparAXa,napuM,aparAXa,puM
 aparAXa,puM,aparAXa,puM
 aparAXina,napuM,aparAXI,puM
@@ -1069,6 +1073,7 @@ AwafkakArin,puM,AwafkakArI,puM
 Awafka,puM,Awafka,puM
 Awapa,napuM,garmI,puM
 Awapa,puM,garmI,puM
+AwawAyin,puM,xuHsAhasI^kisI_kA_vaXa_karane_ke_liye_prayawnaSIla,puM
 aWarvANa,napuM,aWarvavexa_kI_anuRTAna_paxXawi,puM
 aWarvaNi,puM,aWarvavexa_meM_niRNAwa{inameM_nirxiRta_saMskAroM_ke_anuRTAna_meM_kuSala_brAhmaNa},puM
 aWarvaniXi,puM,aWarvavexa_ke_jFAna_kA_BaMdAra^aWarva-jFAna_se_saMpanna,puM
@@ -1110,7 +1115,7 @@ Awmahiwa,napuM,apanA_hiwa,puM
 Awmaja,napuM,puwra,puM
 Awmaja,puM,puwra,puM
 AwmajA,swrI,puwrI,swrI
-Awman,puM,awmA,puM
+Awman,puM,AwmA,puM
 AwmaSakwi,swrI,apanI_Sakwi,swrI
 AwmavaSa,napuM,apane_ko_vaSa_meM_karane_vAlA,puM
 Awmavaw,napuM,apane_jEsA,puM
@@ -2248,6 +2253,9 @@ bilva,puM,bela,swrIcaraka
 bilvaxaMda,puM,Siva{viSeRaNa},puM
 BIma,napuM,BayAnaka,puM
 BIma,puM,BIma,puM
+BImakarman,puM,BayAnaka_parAkrama_vAlA,puM
+BImakarman,napuM,BayAnaka_parAkrama_vAlA,puM
+BImakarman,swrI,BayAnaka_parAkrama_vAlI,swrI
 BImasena,puM,BImasena,puM
 BImA,swrI,xurgA,swrI
 bimbaka,napuM,sUryamaMdala^canxramaNdala^biMbaPala,puM
@@ -2875,7 +2883,7 @@ Gana,puM,xqDZa,puM
 Gana,swrI,kaTora,swrI
 gaNdakI,swrI,gaNdakI,swrI
 gaNda,puM,galakaNda_roga,puM
-gANdIva,puM,gANdIva,puM
+gANdIva,puM,gANdIva_XanuRa,puM
 gANdIvin,puM,arjuna,puM
 gaNdURa,napuM,mutTI_Bara_pAnI,puM
 gaNeSa,puM,gaNeSa,puM
@@ -11481,7 +11489,7 @@ nimanwriwA,swrI,nimanwriwa,swrI
 nimanwriwavaw,puM,nimanwriwa_kiyA_huA,puM
 nimba,puM,nIma,puM
 nimiwwamAwra,napuM,nimiwwamAwra,puM
-nimiwwa,napuM,nimiwwa,puM
+nimiwwa,napuM,kAraNa^prayojana^AXAra^nimiwwa,puM
 ninxaka,puM,ninxaka,puM
 ninxanIya,napuM,ninxanIya,puM
 ninxanIya,puM,ninxanIya,puM
@@ -11798,6 +11806,7 @@ paFcawva,napuM,paFcawva,puM
 paFcaxaSa,napuM,panxraha,puM
 paFcaxaSa,puM,paMxraha,puM
 paFcaxaSa,swrI,paMxraha,swrI
+pAFcajanya,puM,kqRNa_kA_SaMKa,puM
 pafgu,puM,laMgadA,puM
 pafgu,swrI,laMgadA,swrI
 paFjara,puM,piMjadA,puM
@@ -12212,9 +12221,11 @@ piwqxawwa,napuM,piwqxawwa,puM
 piwqxawwa,puM,piwqxawwa,puM
 piwryA,swrI,pEwqka,swrI
 piwwa,napuM,piw,puM
+plava,puM,CotI_nOkA,swrI
 plIhan,puM,willI,puM
 plIhA,swrI,willI,swrI
 pOnaHpunya,napuM,bAra-bAra,puM
+pONdra,puM,BIma_kA_SaMKa^ek_xeSa_kA_nAma^usa_xeSa_kA_rAjA,puM
 poRaNa,napuM,pORtikapoRaNa,puM
 pOra,napuM,nAgarika,puM
 pOra,puM,pOra,swrI
@@ -12230,7 +12241,8 @@ pOruRa,swrI,pOruRa,swrI
 potalikA,swrI,potalI,swrI
 powaBafga,napuM,jahAja_kA_tUta_jAnA,puM
 powaBafga,puM,jahAja_kA_tUta_jAnA,puM
-pOwra,puM,pOwra,puM
+pOwra,puM,powA^puwra_kA_betA,puM
+pOwrI,swrI,powI^puwra_kI_betI,swrI
 pqcCaka,puM,pUCawACa_karane_vAlA,puM
 pqcCaka,swrI,pUCawACa_karane_vAlA,swrI
 pqRTa,napuM,pqRTa,puM
@@ -12721,7 +12733,7 @@ prODa,napuM,prODa,puM
 prODa,puM,prODa,puM
 prokwa,napuM,kahA_huA,puM
 prokwa,puM,kahA_huA,puM
-prokwA,swrI,kahA_huA,swrI
+prokwA,swrI,kahI_gayI^bawAyi_gayI,swrI
 pronnawa,napuM,uBarA_huA,puM
 pronnawa,puM,uBarA_huA,puM
 pronnawa,swrI,uBarA_huA,swrI
@@ -12730,6 +12742,7 @@ proxyawa,puM,uTAyA_huA,puM
 proxyawa,swrI,uTAyA_huA,swrI
 pucCa,napuM,pUzCa,swrI
 pucCa,puM,pUzCa,swrI
+pufgava,puM,SreRTa,puM
 pUjaka,napuM,ArAXaka,puM
 pUjaka,puM,pUjA_karane_vAlA,puM
 pUjaka,swrI,pUjA_karane_vAlA,swrI
@@ -17016,6 +17029,7 @@ sawyABisanXi,napuM,apanI_prawijFA_pUrI_karane_vAlA^niRkapata,puM
 sawyABisanXi,puM,apanI_prawijFA_pUrI_karane_vAlA^niRkapata,puM
 sawyafkAra,puM,sawya_karanA^vAxA_pUrA_karanA^sOxe_kI_Sarwe_pUrI_karanA^vayAne_kI_rakama,puM
 sawyakAma,puM,sawya_kA_premI,puM
+sAwyaki,puM,yaxuvaMSI_yoxXA^kqSNa_kA_sAraWi^mahABArawa_ke_yuxXa_meM_pANdavoM_kA_pakSa_lene_vAlA,puM
 sawyaloka,puM,sawyaloka,puM
 sawya,napuM,sawya,puM
 Sawya,napuM,sO_se_yukwa^sO_se_sambanXa_raKane_vAlA^sO_se_praBAviwa^sO_meM_mola_liyA^sO_se_baxalA_kiyA_huA^prawiSawa_Sulka^byAja_xene_vAlA^sO_kA_sUcakasO_se_yukwa^sO_se_sambanXa_raKane_vAlA^sO_se_praBAviwa^sO_meM_mola_liyA^sO_se_baxalA_kiyA_huA^prawiSawa_Sulka_yA_byAja_xene_vAlA^sO_kA_sUcaka,puM
@@ -18386,6 +18400,7 @@ somaSarman,puM,somaSarmA,puM
 somasUwrapraxakRiNA,swrI,parikramA{SivaliMga_kI_isa_waraha_parikramA_karanA_ki_nAlI_lAMGanI_na_padZe},swrI
 somawIrWa,napuM,somawIrWa,puM
 somaxawwa,puM,somaxawwa,puM
+sOmaxawwi,puM,somaxawwa_kA_puwra_BUriSravA,puM
 sOmAyana,puM,sOmAyana{buxXa_kA_piwqparaka_nAma},puM
 sOmecaka,napuM,sonA^svarNa,puM
 sOmeruka,napuM,sonA^svarNa^sumeru_saMbaMXI^sumeru_se_AyA_huA,puM
@@ -21253,7 +21268,7 @@ swyena,puM,amqwa^cora,puM
 SyAlaka,puM,sAlA,swrI
 SyAlaka,swrI,sAlA,swrI
 SyAlakI,swrI,sAlI{pawnI_kI_bahana},swrI
-SyAla,puM,sAlA,swrI
+SyAla,puM,sAlA,puM
 SyAlikA,swrI,sAlI{pawnI_kI_bahana},swrI
 SyAlI,swrI,sAlI{pawnI_kI_bahana},swrI
 SyAmaBAsa,napuM,camakIlA_kAlA,puM
@@ -23594,6 +23609,7 @@ veNuyaRti,puM,bAzsa_kI_lakadZI,puM
 vEPalya,napuM,viPalawA,puM
 vEparIwya,napuM,viroXiwA^viroXa^asaMgawi,puM
 vepaw,napuM,kAzpanA,puM
+vepaWu,puM,WaraWarI^kaMpakaMpI,swrI
 vEpulya,napuM,viswAra^viSAlawA^puRkalawA^bahuwAyawa,puM
 vEraBAva,puM,SawruwApUrNa_ravEyA,puM
 vErafgika,puM,vErAgI{jisane_apanI_saba_icCAoM_evaM_vAsanAoM_kA_xamana_kara_xiyA_hE},puM
@@ -25960,7 +25976,7 @@ vqkaXUpa,puM,wArapIna^miSragaMXa,puM
 vqkaXUrwa,puM,gIxadZa,puM
 vqkNa,napuM,katA_huA^bAMtA_huA^PAdZA_huA^wodZA_huA,puM
 vqkNa,puM,katA_huA^bAMtA_huA^PAdZA_huA^wodZA_huA,puM
-vqkoxara,puM,brahmA_kA_viSeRaNa,puM
+vqkoxara,puM,xviwIya_pANdava_BIma_kA_viSeRaNa^brahmA_kA_viSeRaNa,puM
 vqkRaBix,napuM,kulhAdZI,swrI
 vqkRaBix,puM,kulhAdZI,swrI
 vqkRacara,puM,banxara,puM
@@ -27153,6 +27169,7 @@ wuliwa,swrI,wOlA_huvA,swrI
 wulya,puM,wulya,puM
 wulyA,swrI,samAnA,swrI
 wumbikA,swrI,wUmbI,swrI
+wumula,puM,BIRaNa^kolAhalamaya,puM
 wuNda,napuM,muha,puM
 wUNI,swrI,warakasa,swrI
 wurafgama,napuM,GodA,puM
@@ -27168,6 +27185,7 @@ wuRta,puM,prasanna,puM
 wuRtA,swrI,prasanna,swrI
 wuRti,swrI,sanwoRa,swrI
 wuwWa,napuM,Aga,swrIcaraka
+wvac,swrI,wvacA^KAla^camadA,swrI
 wvarA,swrI,jalxI,swrI
 wvariwa,napuM,jalxI,swrI
 wvariwa,swrI,jalxI,swrI
@@ -27456,6 +27474,7 @@ xaNdin,puM,saMnyAsI^yama^rAjA^jEna_saMnyAsI^xvArapAla^dyoDZIvAna^xaNdI_kavi^dAzd
 xaNdiwA,swrI,xaNdiwa,swrI
 Xanika,puM,XanavAn,puM
 Xanin,puM,XanI,puM
+Xanu,puM,XanuRa,puM
 xanuH,swrI,xanu_{xakRa_kI_eka_kanyA_jo_kaSyapa_ko_byAhI_gaI_WIê_yahI_xAnavoM_kI_mAwA_WIê},swrI
 xanuja,puM,xanuja{eka_rAkRasa},puM
 Xanu,napuM,XanuRa,puM
@@ -28159,7 +28178,7 @@ xevaxAru,napuM,xevaxAru,puM
 xevaxAru,puM,xevaxAru,puM
 xevaxAsa,puM,manxira_kA_sevaka,puM
 xevaxAsI,swrI,manxira_xevoM_kI_sevikA,swrI
-xevaxawwa,puM,xevaxawwa,puM
+xevaxawwa,puM,xevaxawwa^arjuna_kA_SaMKa,puM
 xevaxeva,puM,brahmA{viSeRaNa}^Siva^viRNu,puM
 xEvAXIna,napuM,xEvAXIna,puM
 xEvAXIna,puM,xEvAXIna,puM
@@ -28702,11 +28721,13 @@ xrava,puM,xrava,puM
 xraviNakaNa,puM,WodZA_pariNAma,puM
 xravya,napuM,xravya,puM
 xravya,puM,xravya,puM
+xroha,puM,anyAya^vixroha^kisi_ke_viruxXa_Radyanwra_raca,puM
 xrohin,napuM,xrohI,puM
 xrohin,puM,xrohI,puM
 xroNAcArya,puM,xroNAcArya,puM
 xroNa,napuM,xroNa,puM
 xrOpaxI,swrI,xrOpaxI,swrI
+xrOpaxeya,puM,xrOpaxI_kA_puwra,puM
 xruma,puM,vqkRa,puM
 Xruva,puM,Xruva,puM
 xruwa,napuM,jalxI,swrI
@@ -28823,7 +28844,7 @@ xUrArUDa,puM,UzcAI_para_caDA_huA^xUra_waka_Age_baDA_huA^gaharA^uwkata,puM
 xUrasaMsWa,napuM,xUravarwI,puM
 xUrasaMsWa,puM,xUravarwI,puM
 xurASA,swrI,burI_icCA,swrI
-xurAsaxa,puM,xurgama,puM
+xurAsaxa,puM,xurgama^xurjeya,puM
 xurASaya,napuM,kuwsiwa_vicAroM_vAlA_vyakwi,puM
 xurASaya,puM,kuwsiwa_vicAroM_vAlA_vyakwi,puM
 xUrasWa,napuM,xUra,puM
@@ -29871,6 +29892,6 @@ yuxXavixyA,swrI,yuxXavixyA,swrI
 yuxXonmawwa,napuM,yuxXa_ke_lie_pAgala,puM
 yuxXonmawwa,puM,yuxXa_ke_lie_pAgala,puM
 yuyu,puM,GodZA,puM
-yuyuwsA,swrI,ladZane_kI_icCA^viroXI_irAxA,swrI
-yuyuwsu,napuM,ladZane_kI_icCA_vAlA,puM
-yuyuwsu,puM,ladZane_kI_icCA_vAlA,puM
+yuyuwsA,swrI,ladane_kI_icCA^viroXI_irAxA,swrI
+yuyuwsu,napuM,ladane_kI_icCA_vAlA,puM
+yuyuwsu,puM,ladane_kI_icCA_vAlA,puM
