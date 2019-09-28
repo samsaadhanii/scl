@@ -17,27 +17,34 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
+use utf8;
 use strict;
 use warnings;
 
 require "../../../paths.pl";
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+
 
 require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 
- use CGI qw( :standard );
+# use CGI qw( :standard );
  
- my $cgi = new CGI;
- print $cgi->header (-charset => 'UTF-8');
+# my $cgi = new CGI;
+# print $cgi->header (-charset => 'UTF-8');
  
+print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
+
+  my %param = &get_parameters();
+
  my $buffer = "";
  my $display = "";
 
 read(STDIN, $b, $ENV{'CONTENT_LENGTH'});
 
- if (param()){
-   foreach my $p (param()){
-    if($p eq "DISPLAY") { $display = param($p);}
-    else {$buffer .= param($p);}
+# if (param()){
+   foreach my $p (keys %param){
+    if($p eq "DISPLAY") { $display = $param{$p};}
+    else {$buffer .= $param{$p};}
   }
  my $pid = $$;
  system("mkdir -p $GlblVar::TFPATH/tmp_in$pid");
@@ -52,4 +59,4 @@ if($display eq "") { $display = "DEV";}
  system("$GlblVar::SCLINSTALLDIR/SHMT/prog/interface/display_anu_out.pl $pid $GlblVar::TFPATH");
 # system("$GlblVar::SCLINSTALLDIR/SHMT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $display $pid");
 
- }
+ #}

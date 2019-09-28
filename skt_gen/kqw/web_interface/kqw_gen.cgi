@@ -16,10 +16,12 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
+use utf8;
 package main;
-use CGI qw/:standard/;
+#use CGI qw/:standard/;
 
 require "../../paths.pl";
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 
     if($GlblVar::VERSION eq "SERVER"){
     if (! (-e "$GlblVar::TFPATH")){
@@ -27,15 +29,18 @@ require "../../paths.pl";
     }
       open(TMP1,">>$GlblVar::TFPATH/kqw.log") || die "Can't open $GlblVar::TFPATH/kqw.log for writing";
     }
-      if (param) {
-      my $word=param("vb");
-      my $upasarga=param("upasarga");
-      my $encoding=param("encoding");
+      print "Content-type:text/html;charset:UTF-8\n\n";
+    my %param = &get_parameters();
+    #      if (param) {
+      my $word=$param{vb};
+      my $upasarga=$param{upasarga};
+      my $encoding=$param{encoding};
 
-      my $cgi = new CGI;
-      print $cgi->header (-charset => 'UTF-8');
+      #my $cgi = new CGI;
+      #print $cgi->header (-charset => 'UTF-8');
       
       print "<head>\n";
+      print "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />";
       print "<script type=\"text/javascript\">\n";
       print "function show(word,encod){\n";
       print "window.open('/cgi-bin/scl/SHMT/options1.cgi?word='+word+'&outencoding='+encod+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=yes').focus();\n }\n </script>";
@@ -48,7 +53,7 @@ require "../../paths.pl";
       if($GlblVar::VERSION eq "SERVER"){
          print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."word:$word\n#################\n";
       }
-     }
+      #     }
       if($GlblVar::VERSION eq "SERVER"){
          close(TMP1);
       }

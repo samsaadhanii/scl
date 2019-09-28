@@ -17,10 +17,12 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
+use utf8;
 require "../../paths.pl";
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 
 package main;
-use CGI qw/:standard/;
+#use CGI qw/:standard/;
 
     if($GlblVar::VERSION eq "SERVER"){
     if (! (-e "$GlblVar::TFPATH")){
@@ -28,14 +30,15 @@ use CGI qw/:standard/;
     }
       open(TMP1,">>$GlblVar::TFPATH/verb.log") || die "Can't open $GlblVar::TFPATH/verb.log for writing";
     }
-      if (param) {
+    my %param = &get_parameters();
+    #      if (param) {
 
-      my $word=param("vb");
+      my $word=$param{vb};
 #      my $prayoga=param("prayoga");
 #      my $paxI=param("paxI");
-      my $prayoga_paxI=param("prayoga-paxI");
-      my $upasarga=param("upasarga");
-      my $encoding=param("encoding");
+      my $prayoga_paxI=$param{prayoga_paxI};
+      my $upasarga=$param{upasarga};
+      my $encoding=$param{encoding};
 
       if($prayoga_paxI =~ /\-/) {
         ($prayoga,$paxI) = split(/-/,$prayoga_paxI,2);
@@ -43,9 +46,12 @@ use CGI qw/:standard/;
 
       $upasarga =~ s/Y/_/g;
 
-      my $cgi = new CGI;
-      print $cgi->header (-charset => 'UTF-8');
+      #   my $cgi = new CGI;
+      #print $cgi->header (-charset => 'UTF-8');
+
+      print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
       print "<head>\n";
+      print "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />";
       print "<script type=\"text/javascript\">\n";
       print "function show(word,encod){\n";
       print "window.open('/cgi-bin/scl/SHMT/options1.cgi?word='+word+'&outencoding='+encod+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=yes');\n }\n </script>";
@@ -60,7 +66,7 @@ use CGI qw/:standard/;
          print TMP1 "running:","calling gen_verb.pl from noun generator";
          print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."upasarga:$upasarga\t"."word:$word\t"."prayoga:$prayoga\n#######################\n\n";
       }
-      }
+      #      }
       if($GlblVar::VERSION eq "SERVER"){
         close(TMP1);
       }

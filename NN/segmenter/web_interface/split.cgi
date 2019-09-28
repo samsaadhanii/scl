@@ -20,24 +20,28 @@
 package main;
 use warnings;
 
-use CGI qw( :standard );
+use utf8;
+#use CGI qw( :standard );
 
 require "../../paths.pl";
-
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 require "$GlblVar::SCLINSTALLDIR/NN/common/style.pl";
 
 system("mkdir -p $GlblVar::TFPATH");
 
-      my $cgi = new CGI;
-      print $cgi->header (-charset => 'UTF-8');
+#my $cgi = new CGI;
+#      print $cgi->header (-charset => 'UTF-8');
+      print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
       print $NN::style_header;
       print $NN::title;
+      
 
-      if (param) {
-        my $text=param("nne");
-        my $encoding=param("encoding");
+      my %param = &get_parameters();
+#      if (param) {
+        my $text=$param{nne};
+        my $encoding=$param{encoding};
 
         $textwx=&convert($encoding,$text,$GlblVar::SCLINSTALLDIR);
         $textutf = `echo $textwx | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;
@@ -55,5 +59,5 @@ system("mkdir -p $GlblVar::TFPATH");
         print "<font color=\"black\">";
        print "</center>";
 
-      }
+       #      }
       print $NN::style_tail;

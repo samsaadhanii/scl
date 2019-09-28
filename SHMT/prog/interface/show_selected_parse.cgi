@@ -17,16 +17,20 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
+use utf8;
 package main;
-use CGI qw/:standard/;
+#use CGI qw/:standard/;
 #use CGI::Carp qw(fatalsToBrowser);
-require "../../../paths.pl";
 
-          if (param) {
-            my $filename=param("filename");
-            my $sentnum=param("sentnum");
-            my $start=param("start");
-            my $outscript=param("outscript");
+require "../../../paths.pl";
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+
+
+#          if (param) {
+            my $filename=$param{filename};
+            my $sentnum=$param{sentnum};
+            my $start=$param{start};
+            my $outscript=$param{outscript};
 
 open(TMP,"<$filename/parser_files/parseop_new.txt") || die "Can't open $filename/parser_files/parseop_new.txt for reading";
 
@@ -41,8 +45,8 @@ while($in = <TMP>){
 }
 close(TMP);
 
-          my $cgi = new CGI;
-          print $cgi->header (-charset => 'UTF-8');
+#my $cgi = new CGI;
+#          print $cgi->header (-charset => 'UTF-8');
           print "<head>\n";
           print "</head>\n<body>";
           print "<div id=\"imgitems\" class=\"parsetrees\">\n<center>\n<ul id=\"trees\">\n";
@@ -57,4 +61,4 @@ close(TMP);
              $filename =~ s/^$GlblVar::TFPATH//;
              print "<img src=\"/scl/SHMT/DEMO/$filename/${sentnum}.$i.svg\" width=\"\" height=\"\" kddalt=\"graph for parse number $i\">\n";
           }
-}
+	  #}

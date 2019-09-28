@@ -17,14 +17,17 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
+use utf8;
 package main;
 
 require "../../paths.pl";
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+
 $CSSLOC = "/scl/SHMT/";
 $CGILOC = "/cgi-bin/scl/SHMT/";
 
 
-use CGI qw/:standard/;
+#use CGI qw/:standard/;
 #use CGI::Carp qw(fatalsToBrowser);
 
  if($GlblVar::VERSION eq "SERVER") {
@@ -33,13 +36,17 @@ use CGI qw/:standard/;
     }
     open(TMP1,">>$TFPATH/parser.log") || die "Can't open $TFPATH/parser.log for writing";
  }
-      if (param) {
-      $encoding=param("encoding");
-      $sentences=param("text");
-      $preprocess=param("sandhi");
-      $out_encoding=param("out_encoding");
-      $parse=param("parse");
-      $text_type=param("text_type");
+  print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
+
+  my %param = &get_parameters();
+
+ #      if (param) {
+      $encoding=$param{encoding};
+      $sentences=$param{text};
+      $preprocess=$param{sandhi};
+      $out_encoding=$param{out_encoding};
+      $parse=$param{parse};
+      $text_type=$param{text_type};
 
    if($GlblVar::VERSION eq "SERVER"){
       print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."encoding:$encoding\t"."sentences:$sentences\t"."preprocess:$preprocess\t"."out_encoding:$out_encoding\t"."parse:$parse\n#########################\n";
@@ -72,8 +79,8 @@ use CGI qw/:standard/;
       $sentences = '"'. $sentences  . '"';
 
 
-      my $cgi = new CGI;
-      print $cgi->header (-charset => 'UTF-8');
+      #  my $cgi = new CGI;
+      #print $cgi->header (-charset => 'UTF-8');
       
       system("$GlblVar::SCLINSTALLDIR/SHMT/prog/kAraka/call_kAraka_shell.pl $GlblVar::SCLINSTALLDIR $TFPATH $sentences $encoding $pid $script $sandhi $morph $parse $text_type NOECHO D");
       print "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n";
@@ -102,7 +109,7 @@ print "<script type=\"text/javascript\">\n";
       print "</script>\n";
       system("cat $TFPATH/in${pid}.html");
       print "</div><div style=\"height:100px\"></div></body></html>";
-      }
+      #      }
    if($GlblVar::VERSION eq "SERVER"){
       close(TMP1);
    }

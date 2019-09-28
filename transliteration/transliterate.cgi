@@ -17,7 +17,10 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
+use utf8;
+
 require "../paths.pl";
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 
  if($GlblVar::VERSION eq "SERVER"){
     if (! (-e "$GlblVar::TFPATH")){
@@ -28,17 +31,20 @@ require "../paths.pl";
     #TMP1 is a global variable; available for all the sub-routines in this file.
 
 
-use CGI;
+    #use CGI;
 
 my $pid = $$;
 
-$query = new CGI;
-$query->header(-charset => 'UTF-8');
+#$query = new CGI;
+#$query->header(-charset => 'UTF-8');
 
+print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
-$input = $query->param('src');
-$src = $query->param('srclang');
-$trgt = $query->param('tarlang');
+my %param = &get_parameters();
+
+$input = $param{src};
+$src = $param{srclang};
+$trgt = $param{tarlang};
 chomp($src);
 chomp($trgt);
 
@@ -48,7 +54,7 @@ chomp($trgt);
    close(TMP1);
  }
 
-print $query->header;
+ #print $query->header;
 
 $cnvrt_prgm = &get_prgm_nm($src,$trgt);
 &my_convert($input,$cnvrt_prgm);

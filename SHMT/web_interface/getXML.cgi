@@ -18,20 +18,27 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 
+use utf8;
 require "../paths.pl";
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+
 
 package main;
-use CGI qw/:standard/;
+#use CGI qw/:standard/;
 #use CGI::Carp qw(fatalsToBrowser);
 
+ print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
-      if (param) {
-      my $encoding=param("encoding");
-      my $sentences=param("text");
-      my $splitter=param("splitter");
-      my $out_encoding=param("out_encoding");
-      my $morph=param("morph");
-      my $parse=param("parse");
+  my %param = &get_parameters();
+
+
+#      if (param) {
+      my $encoding=$param{encoding};
+      my $sentences=$param{text};
+      my $splitter=$param{splitter};
+      my $out_encoding=$param{out_encoding};
+      my $morph=$param{morph};
+      my $parse=$param{parse};
 
       if ($out_encoding eq "Devanagari") { $script = "DEV";}
       if ($out_encoding eq "IAST") { $script = "IAST";}
@@ -62,8 +69,8 @@ use CGI qw/:standard/;
       $sentences = '"'. $sentences  . '"';
 
 
-      my $cgi = new CGI;
-      print $cgi->header (-charset => 'UTF-8');
+      #my $cgi = new CGI;
+      #print $cgi->header (-charset => 'UTF-8');
       system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/callmtshell.pl $GlblVar::TFPATH $sentences $encoding $pid $script $sandhi $morph $parse $GlblVar::LTPROCBIN");
       system ("cat $GlblVar::TFPATH/tmp_in${pid}/in${pid}_main.xml");
-      }
+      #      }

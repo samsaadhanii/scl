@@ -17,24 +17,31 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
+use utf8;
 require "../../../paths.pl";
-package main;
-use CGI qw/:standard/;
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 
-   if (param) {
-      my $dirname=param("filename");
-      my $outscript=param("outscript");
-      my $relations=param("rel");
-      my $sentnum=param("sentnum");
-      my $save=param("save");
-      my $translate=param("translate");
+package main;
+#use CGI qw/:standard/;
+
+print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
+
+my %param = &get_parameters();
+
+#   if (param) {
+      my $dirname=$param{filename};
+      my $outscript=$param{outscript};
+      my $relations=$param{rel};
+      my $sentnum=$param{sentnum};
+      my $save=$param{save};
+      my $translate=$param{translate};
 
       $filename = "morph".$sentnum.".out.out";
       $pid = $dirname;
       $pid =~ s/.*\/tmp_in//;
 
-      my $cgi = new CGI;
-      print $cgi->header (-charset => 'UTF-8');
+      #  my $cgi = new CGI;
+      #print $cgi->header (-charset => 'UTF-8');
       print "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n";
       print "<html xmlns=\"http://www.w3.org/1999/xhtml\">";
       print "<html><head><title>Anusaaraka</title>\n";
@@ -68,4 +75,4 @@ use CGI qw/:standard/;
       print "<\/div>\n";
       print "<\/body>\n<\/html>\n";
     }
-   }
+    #   }

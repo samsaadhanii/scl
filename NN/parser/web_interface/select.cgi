@@ -18,21 +18,27 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 package main;
-use CGI qw/:standard/;
+#use CGI qw/:standard/;
 
 require "../../paths.pl";
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+
 require "$GlblVar::SCLINSTALLDIR/NN/common/style.pl";
 require "$GlblVar::SCLINSTALLDIR/NN/parser/functions.pl";
 
-  my $cgi = new CGI;
-  print $cgi->header (-charset => 'UTF-8');
+#  my $cgi = new CGI;
+#  print $cgi->header (-charset => 'UTF-8');
 
+  print "Content-type:text/html;charset:UTF-8\n\n";
   print $NN::style_header;
   print $NN::title;
 
-  if (param) {
-      $pid=param("pid");
-      $instr=param("instr");
+  my %param = &get_parameters();
+
+
+  #  if (param) {
+      $pid=$param{pid};
+      $instr=$param{instr};
 
       $filepath="$GlblVar::TFPATH/NN/parser/tmp_in$pid";
       $filename=$filepath."/out.txt";
@@ -53,4 +59,4 @@ require "$GlblVar::SCLINSTALLDIR/NN/parser/functions.pl";
   $ans =~ s/\<([.*])\-\^(wva|wA)\>/([.*])\-$1/g;
   $ans;
       print $NN::style_tail;
-   }
+      #   }

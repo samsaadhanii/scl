@@ -18,23 +18,31 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 package main;
-use CGI qw/:standard/;
-#use CGI::Carp qw(fatalsToBrowser);
+use utf8;
+use Encode qw/ decode /;
 
 require "../../paths.pl";
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+
+#use CGI qw/:standard/;
+#use CGI::Carp qw(fatalsToBrowser);
+
 my $converters_path="$GlblVar::SCLINSTALLDIR/converters";
 my $NNCG_path="$GlblVar::SCLINSTALLDIR/NN/CG";
 require "$GlblVar::SCLINSTALLDIR/NN/common/style.pl";
 
-      my $cgi = new CGI;
-      print $cgi->header (-charset => 'UTF-8');
+#      my $cgi = new CGI;
+#      print $cgi->header (-charset => 'UTF-8');
 
+      print "Content-type:text/html;charset:UTF-8\n\n";
       print $NN::style_header;
       print $NN::title;
 
-      if (param) {
-        my $nne=param("nne");
-        my $type=param("type");
+      my %param = &get_parameters();
+
+      #if (param) {
+        my $nne=$param{nne};
+        my $type=$param{type};
 
 
         print "<center><br>";
@@ -43,7 +51,7 @@ require "$GlblVar::SCLINSTALLDIR/NN/common/style.pl";
 
         system("echo '$nne' | $converters_path/utf82iscii.pl | $converters_path/ir_skt | $NNCG_path/nne2diagram.out $type | $converters_path/ri_skt | $converters_path/iscii2utf8.py 1 | $GlblVar::GraphvizDot -Tsvg ");
         print "<br>";
-      }
+	#}
       print $NN::style_tail;
 
 

@@ -21,6 +21,7 @@
 @waxXiwa_prawyayaH = ("तल्","त्व");
 @lifgam =("स्त्री","नपुं");
 $line_no = 0;
+$rt_wx = $ARGV[0];
 while($in = <STDIN>){
   $in =~ s/\t[\t]*/\t/g;
   @in = split(/\t/,$in);
@@ -41,7 +42,7 @@ if($m=~/\?/){
   }
 if(($m ne "-")&&($f ne "-")&&($n ne "-")){
 	print "<tr><td width=20% bgcolor='#461B7E'  align='middle'><font color=\"white\" size=\"4\">$waxXiwa_prawyayaH[$line_no]\{$lifgam[$line_no]\}</font></td><td width=80% align=\"center\" bgcolor='#E6CCFF' size=\"4\">";
-       print "<a href=\"javascript:generate_waxXiwa_noun_forms('Unicode','$m','$lifgam[$line_no]','$waxXiwa_prawyayaH[$line_no]')\">$m</a></td></tr>";
+       print "<a href=\"javascript:generate_waxXiwa_noun_forms('Unicode','$rt_wx','$lifgam[$line_no]','$waxXiwa_prawyayaH[$line_no]')\">$m</a></td></tr>";
 }
 $line_no++;
 }

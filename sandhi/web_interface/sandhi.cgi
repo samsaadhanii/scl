@@ -1,7 +1,25 @@
 #!/usr/bin/env perl
+#
+#  Copyright (C) 2006-2019 Amba Kulkarni (ambapradeep@gmail.com)
+#
+#  This program is free software; you can redistribute it and/or
+#  modify it under the terms of the GNU General Public License
+#  as published by the Free Software Foundation; either
+#  version 2 of the License, or (at your option) any later
+#  version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 
 require "../paths.pl";
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 require "$GlblVar::SCLINSTALLDIR/sandhi/sandhi.pl";
 require "$GlblVar::SCLINSTALLDIR/sandhi/apavAxa_any.pl";
@@ -16,13 +34,14 @@ if($GlblVar::VERSION eq "SERVER"){
   open(TMP1,">>$GlblVar::TFPATH/sandhi.log") || die "Can't open $GlblVar::TFPATH/sandhi.log for writing";
 }
 
-use CGI qw/:standard/;
+#use CGI qw/:standard/;
 #use CGI::Carp qw(fatalsToBrowser);
 
-  if (param) {
-     $encoding=param("encoding");
-     $word1=param("text");
-     $word2=param("text1");
+  my %param = &get_parameters();
+#  if (param) {
+     $encoding=$param{encoding};
+     $word1=$param{text};
+     $word2=$param{text1};
      $word1 =~ s/\r//g;
      $word2 =~ s/\r//g;
      chomp($word1);
@@ -59,8 +78,10 @@ if($GlblVar::VERSION eq "SERVER"){
 
 ##using table and giving ouput to the html file
 
-      $cgi = new CGI;
-      print $cgi->header (-charset => 'UTF-8');
+      #      $cgi = new CGI;
+      #print $cgi->header (-charset => 'UTF-8');
+      print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
+
 	
       print "<br>\n<center>";
       print "<table border='1' cellpadding='2' style='border-collapse:collapse' bordercolor='brown' width='92%' id='AoutoNumber1'>";
@@ -82,7 +103,7 @@ if($GlblVar::VERSION eq "SERVER"){
  print  "<br><br>";
 
 print "<br></BODY></HTML>";
-}
+#}
 if($GlblVar::VERSION eq "SERVER"){
   close (TMP1);
 }

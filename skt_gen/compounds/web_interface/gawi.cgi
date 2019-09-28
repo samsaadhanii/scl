@@ -1,32 +1,58 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
+#
+#
+#  Copyright (C) 2012-2019 Amba Kulkarni (ambapradeep@gmail.com)
+#
+#  This program is free software; you can redistribute it and/or
+#  modify it under the terms of the GNU General Public License
+#  as published by the Free Software Foundation; either
+#  version 2 of the License, or (at your option) any later
+#  version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
+
+use utf8;
 require "../../paths.pl";
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+
 
 $myPATH="$GlblVar::SCLINSTALLDIR/skt_gen/compounds";
 require "$myPATH/cnvrt2utf.pl";
 require "$myPATH/cnvrt2utfr.pl";
 
 use warnings;
-use CGI ':standard';
+#use CGI ':standard';
 
-my $cgi = new CGI;
+#my $cgi = new CGI;
 
-print $cgi->header(-type    => 'text/html',
-                   -charset => 'utf-8');
+#print $cgi->header(-type    => 'text/html',
+#                   -charset => 'utf-8');
 
-if (param) {
-  my $encodinggawi = param("encodinggawi");
-  my $avigrahagawi = param("vigrahagawi");
-  my $p1gawi = param("p1gawi");
-  my $p2gawi = param("p2gawi");
-  my $s1gawi = param("s1gawi");
-  my $s2gawi = param("s2gawi");
-  my $samAsaprakAragawi = param("samAsaprakAragawi");
-  my $samAsAnwagawi = param("samAsAnwagawi");
-  my $viXAyakasUwragawi = param("viXAyakasUwragawi");
-  my $positiongawi = param("positiongawi");
-  my $gawisUwragawi = param("gawisUwra");
-  my $ansgawi = param("ansgawi");
+print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
+
+my %param = &get_parameters();
+
+#if (param) {
+  my $encodinggawi = $param{encodinggawi};
+  my $avigrahagawi = $param{vigrahagawi};
+  my $p1gawi = $param{p1gawi};
+  my $p2gawi = $param{p2gawi};
+  my $s1gawi = $param{s1gawi};
+  my $s2gawi = $param{s2gawi};
+  my $samAsaprakAragawi = $param{samAsaprakAragawi};
+  my $samAsAnwagawi = $param{samAsAnwagawi};
+  my $viXAyakasUwragawi = $param{viXAyakasUwragawi};
+  my $positiongawi = $param{positiongawi};
+  my $gawisUwragawi = $param{gawisUwra};
+  my $ansgawi = $param{ansgawi};
 
   my $p1utf = &cnvrt2utf($p1gawi);
   my $p2utf = &cnvrt2utf($p2gawi);
@@ -96,4 +122,4 @@ if (param) {
          print "<input type=\"submit\" name=\"ansupasarjana\" value= \"upasarjana saṃjñā nirdhāraṇa\" id=\"ansupasarjana\" onclick=\"return upasarjanaNullcgi()\" />\n";
        }
      print "</form></td></tr></table>";
-}
+     #}

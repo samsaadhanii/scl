@@ -1,32 +1,58 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
+#
+#
+#  Copyright (C) 2012-2019 Amba Kulkarni (ambapradeep@gmail.com)
+#
+#  This program is free software; you can redistribute it and/or
+#  modify it under the terms of the GNU General Public License
+#  as published by the Free Software Foundation; either
+#  version 2 of the License, or (at your option) any later
+#  version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
+
+#use utf8;
 require "../../paths.pl";
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+
 
 my $myPATH = "$GlblVar::SCLINSTALLDIR/skt_gen/compounds";
 require "$myPATH/cnvrt2utf.pl";
 require "$myPATH/cnvrt2utfr.pl";
 
 use warnings;
-use CGI ':standard';
+#use CGI ':standard';
 
-my $cgi = new CGI;
+#my $cgi = new CGI;
 
-print $cgi->header(-type    => 'text/html',
-                   -charset => 'utf-8');
+#print $cgi->header(-type    => 'text/html',
+#                   -charset => 'utf-8');
 
-if (param) {
-  my $encodingupasarjana = param("encodingupasarjana");
-  my $avigrahaupasarjana = param("vigrahaupasarjana");
-  my $p1upasarjana = param("p1upasarjana");
-  my $p2upasarjana = param("p2upasarjana");
-  my $s1upasarjana = param("s1upasarjana");
-  my $s2upasarjana = param("s2upasarjana");
-  my $samAsaprakAraupasarjana = param("samAsaprakAraupasarjana");
-  my $samAsAnwaupasarjana = param("samAsAnwaupasarjana");
-  my $viXAyakasUwraupasarjana = param("viXAyakasUwraupasarjana"); # Not needed
-  my $positionupasarjana = param("positionupasarjana");
-  my $dividupasarjana = param("dividupasarjana");
-  my $ansupasarjana = param("ansupasarjana");
+  print "Content-type:text/html;charset:UTF-8\n\n";
+
+  my %param = &get_parameters("nodecode");
+
+#if (param) {
+  my $encodingupasarjana = $param{encodingupasarjana};
+  my $avigrahaupasarjana = $param{vigrahaupasarjana};
+  my $p1upasarjana = $param{p1upasarjana};
+  my $p2upasarjana = $param{p2upasarjana};
+  my $s1upasarjana = $param{s1upasarjana};
+  my $s2upasarjana = $param{s2upasarjana};
+  my $samAsaprakAraupasarjana = $param{samAsaprakAraupasarjana};
+  my $samAsAnwaupasarjana = $param{samAsAnwaupasarjana};
+  my $viXAyakasUwraupasarjana = $param{viXAyakasUwraupasarjana}; # Not needed
+  my $positionupasarjana = $param{positionupasarjana};
+  my $dividupasarjana = $param{dividupasarjana};
+  my $ansupasarjana = $param{ansupasarjana};
 
   # print "in upasarjana.cgi samAsAnwa = $samAsAnwaupasarjana<br />";
   my $p1utf = &cnvrt2utf($p1upasarjana);
@@ -124,4 +150,4 @@ if (param) {
   # Note the changed word order of components
   my $cmd = "$myPATH/aluk.out \"$encodingupasarjana\" \"$avigrahaupasarjana\" \"$p1upasarjana\" \"$s1upasarjana\" \"$p2upasarjana\" \"$s2upasarjana\" \"$samAsaprakAraupasarjana\" \"$samAsAnwaupasarjana\" $dividupasarjana";
   system($cmd);
-}
+  #}

@@ -18,9 +18,13 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 package main;
-use CGI qw/:standard/;
+#use CGI qw/:standard/;
+
+use utf8;
 
 require "../../paths.pl";
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+
 
 my $myPATH = "$GlblVar::SCLINSTALLDIR/skt_gen/noun";
   if($GlblVar::VERSION eq "SERVER"){
@@ -29,20 +33,24 @@ my $myPATH = "$GlblVar::SCLINSTALLDIR/skt_gen/noun";
     }
       open(TMP1,">>$GlblVar::TFPATH/noun.log") || die "Can't open $GlblVar::TFPATH/noun.log for writing";
     }
-      if (param) {
-        my $encoding=param("encoding");
-        my $prAwi=param("prAwi");
-        my $gen=param("gen");
-        my $rt=param("rt");
-        my $upasarga=param("upasarga");
-        my $kqw_prawyaya=param("kqw_prawyaya");
-        my $XAwu=param("XAwu");
-        my $gaNa=param("gaNa");
+    my %param = &get_parameters();
+    #      if (param) {
+        my $encoding=$param{encoding};
+        my $prAwi=$param{prAwi};
+        my $gen=$param{gen};
+        my $rt=$param{rt};
+        my $upasarga=$param{upasarga};
+        my $kqw_prawyaya=$param{kqw_prawyaya};
+        my $XAwu=$param{XAwu};
+        my $gaNa=$param{gaNa};
 
-        my $cgi = new CGI;
-        print $cgi->header (-charset => 'UTF-8');
+	# my $cgi = new CGI;
+	#print $cgi->header (-charset => 'UTF-8');
+	#
+	 print "Content-type:text/html;charset:UTF-8\n\n";
 
         print "<head>\n";
+	print "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n";
         print "<script type=\"text/javascript\">\n";
         print "function show(word,encod){\n";
         print "window.open('/cgi-bin/scl/SHMT/options1.cgi?word='+word+'&outencoding='+encod+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=yes').focus();\n }\n </script>";
@@ -57,7 +65,7 @@ my $myPATH = "$GlblVar::SCLINSTALLDIR/skt_gen/noun";
           print TMP1 "running:","calling gen_kqwnoun.pl from noun generator";
           print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."rt:$rt\t"."gen:$gen\t"."encoding:$encoding\t"."prAwi:$prAwi\n##########################\n\n";
        }
-     }
+       #     }
        if($GlblVar::VERSION eq "SERVER"){
           close(TMP1);
        }

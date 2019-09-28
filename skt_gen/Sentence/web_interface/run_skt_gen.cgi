@@ -17,15 +17,21 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
+use utf8;
 require "../../paths.pl";
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 
 package main;
-use CGI qw/:standard/;
+#use CGI qw/:standard/;
 
-   if (param) {
-      $texts_input=param("texts");
-      my $cgi = new CGI;
-      print $cgi->header (-charset => 'UTF-8');
+my %param = &get_parameters();
+
+#   if (param) {
+      $texts_input=$param{texts};
+      #     my $cgi = new CGI;
+      #print $cgi->header (-charset => 'UTF-8');
+      print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
+
 
       $analysis = `echo "$texts_input" |$GlblVar::SCLINSTALLDIR/converters/utf82iscii.pl | $GlblVar::SCLINSTALLDIR/converters/ir_skt | $GlblVar::SCLINSTALLDIR/skt_gen/Sentence/scan_input.out | $GlblVar::SCLINSTALLDIR/skt_gen/Sentence/sentence_generator | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;
 #print $analysis;
@@ -36,4 +42,4 @@ use CGI qw/:standard/;
        print "<div class=\"well well-lg\">
          <strong><h4><font color='red'>$analysis</font></h4></strong>
        </div>";
-  }
+       #  }

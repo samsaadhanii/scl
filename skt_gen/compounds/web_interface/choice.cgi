@@ -1,9 +1,32 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
+#
+#  Copyright (C) 2012-2019 Amba Kulkarni (ambapradeep@gmail.com)
+#
+#  This program is free software; you can redistribute it and/or
+#  modify it under the terms of the GNU General Public License
+#  as published by the Free Software Foundation; either
+#  version 2 of the License, or (at your option) any later
+#  version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
+
+use utf8;
 require "../../paths.pl";
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 
 use warnings;
-use CGI ':standard';
+#use CGI ':standard';
+
+print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
+my %param = &get_parameters();
 
 my $prAwipaxikam1;
 my $prAwipaxikam2;
@@ -175,12 +198,12 @@ my %ques = (
 "na rAjan+su (2.2.6)","",
 );
 
-my $cgi = new CGI;
+#my $cgi = new CGI;
 
-$cgi->charset('utf-8');
+#$cgi->charset('utf-8');
 
-print $cgi->header(-type    => 'text/html',
-                   -charset => 'utf-8');
+#print $cgi->header(-type    => 'text/html',
+#                   -charset => 'utf-8');
 
 print "<style>
 .head_div{background:none repeat scroll 0px 0px #5678AA; color:#fff;}
@@ -224,17 +247,17 @@ my @ques_nos = ();
 my $user_choices = "";
 my $avigraha = "";
 
-if (param) {
-  $avigraha = param("vigraha");
-  if(param("ch0")) {$ch0 = param("ch0");} else { $ch0 = "";}
-  if(param("ch1")) {$ch1 = param("ch1");} else { $ch1 = "";}
-  if(param("ch2")) {$ch2 = param("ch2");} else { $ch2 = "";}
-  if(param("ch3")) {$ch3 = param("ch3");} else { $ch3 = "";}
-  if(param("ch4")) {$ch4 = param("ch4");} else { $ch4 = "";}
-  if(param("ch5")) {$ch5 = param("ch5");} else { $ch5 = "";}
-  if(param("ch6")) {$ch6 = param("ch6");} else { $ch6 = "";}
-  $rem_ques = param("ques_nos");
-  $user_choices = param("user_choices");
+#if (param) {
+  $avigraha = $param{vigraha};
+  if(param("ch0")) {$ch0 = $param{ch0};} else { $ch0 = "";}
+  if(param("ch1")) {$ch1 = $param{ch1};} else { $ch1 = "";}
+  if(param("ch2")) {$ch2 = $param{ch2};} else { $ch2 = "";}
+  if(param("ch3")) {$ch3 = $param{ch3};} else { $ch3 = "";}
+  if(param("ch4")) {$ch4 = $param{ch4};} else { $ch4 = "";}
+  if(param("ch5")) {$ch5 = $param{ch5};} else { $ch5 = "";}
+  if(param("ch6")) {$ch6 = $param{ch6};} else { $ch6 = "";}
+  $rem_ques = $param{ques_nos};
+  $user_choices = $param{user_choices};
   
   $user_choices .= $ch0.$ch1.$ch2.$ch3.$ch4.$ch5.$ch6;
           $ch0 = "";
@@ -305,7 +328,7 @@ if (param) {
         }
     }
     print "</body></html>\n";
-}
+    #}
 
 sub call_generator{
   my($avigraha,$ch0,$ch1,$ch2,$ch3,$ch4,$ch5,$ch6,$user_choices) = @_;

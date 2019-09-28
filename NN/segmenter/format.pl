@@ -11,7 +11,7 @@ while($in = <STDIN>){
 	$tmp =~ s/{([^{]+)}//g;
 	$tmp =~ s/\n.*//g;
        while($in =~ /{/){
-           $in =~ /^([^{]+){([^}]+)}(.*)/;
+           $in =~ /^([^{]+)\{([^}]+)}(.*)/;
 	   $in = $3;
            print "<a data-placement=\"top\" data-toggle=\"tooltip\" class=\"tip-top\" data-original-title=\"$2\">$1</a>";
        }

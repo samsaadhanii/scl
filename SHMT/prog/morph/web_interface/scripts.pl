@@ -21,7 +21,7 @@ function generate_waxXiwa_forms(encod,rt,gen){
 }\n
 
 function generate_verb_forms(encod,rt,prayoga,upasarga,paxI){
-  window.open('/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding='+encod+'&vb='+rt+'&prayoga-paxI='+prayoga+'-'+paxI+'&upasarga='+upasarga+'','popUpWindow','height=500,width=800,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();
+  window.open('/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding='+encod+'&vb='+rt+'&prayoga_paxI='+prayoga+'-'+paxI+'&upasarga='+upasarga+'','popUpWindow','height=500,width=800,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();
 }\n
 
 function show(word,encod){

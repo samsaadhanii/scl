@@ -18,22 +18,30 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 package main;
-use CGI qw/:standard/;
+#use CGI qw/:standard/;
+
+
+use utf8;
+use Encode qw/ decode /;
 
 require "../../paths.pl";
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 require "$GlblVar::SCLINSTALLDIR/NN/common/style.pl";
 require "$GlblVar::SCLINSTALLDIR/NN/parser/functions.pl";
 
-     my $cgi = new CGI;
-     print $cgi->header (-charset => 'UTF-8');
+#     my $cgi = new CGI;
+#     print $cgi->header (-charset => 'UTF-8');
 
+     print "Content-type:text/html;charset:UTF-8\n\n";
      print $NN::style_header;
      print $NN::title;
 
-     if (param) {
-        $text=param("text");
-        $encoding=param("encoding");
+     my %param = &get_parameters();
+
+     #     if (param) {
+        $text=$param{text};
+        $encoding=$param{encoding};
         $pid = $$;
 
         system("mkdir -p $GlblVar::TFPATH/NN/parser");
@@ -63,7 +71,7 @@ require "$GlblVar::SCLINSTALLDIR/NN/parser/functions.pl";
            #&tail($ans,"tmp_in$pid/in.pdf");
            &NN::tail($ans);
           } else { print "<div id=\"navigation\"></div>";}
-        }
+	  #  }
       print "<br />";
       print $NN::style_tail;
 

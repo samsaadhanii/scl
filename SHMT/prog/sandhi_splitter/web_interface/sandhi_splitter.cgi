@@ -19,11 +19,18 @@
 #$DEVELOP = "2.0";
 
 
+use utf8;
 require "../paths.pl";
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+
 
 use strict;
 use warnings;
-use CGI qw( :standard );
+#use CGI qw( :standard );
+
+ print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
+
+  my %param = &get_parameters();
 
 if($GlblVar::VERSION eq "SERVER") {
     if (! (-e "$GlblVar::TFPATH")){
@@ -32,20 +39,22 @@ if($GlblVar::VERSION eq "SERVER") {
    open(TMP1,">>$GlblVar::TFPATH/sandhi_splitter.log") || die "Can't open $GlblVar::TFPATH/sandhi_splitter.log for writing";
 }
 
-print header(-type=>"text/html" , -charset=>"utf-8");
+#print header(-type=>"text/html" , -charset=>"utf-8");
 
 my $word;
 my $encoding;
 my $sandhi_type;
 my $sandhi_splitter_out;
-if (param){
-  $word = param('word');
-  $encoding=param("encoding");
-  $sandhi_type=param("sandhi_type");
+
+#if (param){
+  $word = $param{word};
+  $encoding=$param{encoding};
+  $sandhi_type=$param{sandhi_type};
+
   if($GlblVar::VERSION eq "SERVER"){
      print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."encoding:$encoding\t"."word:$word\t"."sandhi_type:$sandhi_type\n";
   }
-}
+  #}
 
 system("$GlblVar::SCLINSTALLDIR/SHMT/prog/sandhi_splitter/web_interface/callsandhi_splitter.pl $GlblVar::SCLINSTALLDIR $encoding $word $sandhi_type $$");
 

@@ -89,7 +89,7 @@ if($("#vb").val()==""){
                else{
               
                		$("#output").html("कृपया प्रतीक्ष्यताम्....");
-               		$.post("/cgi-bin/scl/skt_gen/verb/verb_gen.cgi",{"vb":$("#select").val(),"prayoga-paxI":$("#prayoga-paxI").val(),"upasarga":$("#upasarga").val(),"encoding":$("#encoding").val()},function(data){
+               		$.post("/cgi-bin/scl/skt_gen/verb/verb_gen.cgi",{"vb":$("#select").val(),"prayoga_paxI":$("#prayoga_paxI").val(),"upasarga":$("#upasarga").val(),"encoding":$("#encoding").val()},function(data){
                		
                			$("#output").html(data);
                		});

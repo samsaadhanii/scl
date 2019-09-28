@@ -17,6 +17,7 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
+#use utf8;
 require "../paths.pl";
 
 require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
@@ -45,6 +46,8 @@ require "$GlblVar::SCLINSTALLDIR/skt_gen/noun/pUraNa.pl";
  $lifga_wx=&convert("Unicode",$lifga,$GlblVar::SCLINSTALLDIR);
  chomp($rt_wx);
  chomp($lifga_wx);
+
+
  if(!&check_cat($rt_wx,$lcat)) {
       print "<center> <b>Please check your input. </b></center>";
  } else {
@@ -89,7 +92,7 @@ sub check_cat{
  elsif(($cat eq "sarva") && $sarvanAma{$rt} ) { $ans = 1;}
  elsif(($cat eq "saMKyeyam") && $saMKyeya{$rt} ) { $ans = 1;}
  elsif(($cat eq "saMKyA") && $saMKyA{$rt} ) { $ans = 1;}
- elsif(($cat eq "pUraNa") && $pUraNa{$rt} ) { $ans = 1;}
+ elsif(($cat eq "pUraNam") && $pUraNa{$rt} ) { $ans = 1;}
  else {$ans = 0;}
 $ans;
 }

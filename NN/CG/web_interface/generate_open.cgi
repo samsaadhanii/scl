@@ -18,25 +18,34 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 package main;
-use CGI qw/:standard/;
+#use CGI qw/:standard/;
 #use CGI::Carp qw(fatalsToBrowser);
 
+
+use utf8;
+use Encode qw/ decode /;
+
 require "../../paths.pl";
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+
 my $tmp_path="$GlblVar::TFPATH/NN/CG";
 my $converters_path="$GlblVar::SCLINSTALLDIR/converters";
 my $NNCG_path="$GlblVar::SCLINSTALLDIR/NN/CG";
 my $CG_htdocspath="/scl/NN/CG";
 
-      my $cgi = new CGI;
-      print $cgi->header (-charset => 'UTF-8');
+#      my $cgi = new CGI;
+#      print $cgi->header (-charset => 'UTF-8');
 #      print "<span><font size=\"3px\"><p><b>Instructions:</b> </font></span><br />\n";
 #      print "<span>In Conceptual Graph, 'Relations' are shown as oval shaped nodes and 'Concepts' as Rectangle shaped nodes.</span><br/>\n";
 #      print "<span>In Compressed Conceptual Graph, 'Concepts' are in Rectangle shaped nodes and 'relations' are shown through arrows.</span><br/>\n";
 #      print "<span> If the relation between two concepts is not mentioned explicitly, a default relation \"R\" is shown.</span>;\n";
 #      print "</center><br>";
 
-      if (param) {
-       my $nne=param("nne");
+my %param = &get_parameters();
+#if (param) {
+
+      print "Content-type:text/html;charset:UTF-8\n\n";
+       my $nne=$param{nne};
        my $pid = $$;
        system("mkdir -p $tmp_path/tmp_in$pid");
 
@@ -49,4 +58,4 @@ my $CG_htdocspath="/scl/NN/CG";
       print "<img src=\"$CG_htdocspath/relation_convention.jpg\">\n";
       print "<br>";
       #print "<a href=\"$CG_htdocspath/test.html\"> Try Another<\/a>";
-      }
+      #}

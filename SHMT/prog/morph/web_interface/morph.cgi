@@ -17,21 +17,30 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
+#use utf8;
+## Why utf8 is to be commented is not clear.
+##If it is not commented, then we do not get proper colors in the output
 use strict;
 use warnings;
 
 require "../paths.pl";
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+
 require "$GlblVar::SCLINSTALLDIR/SHMT/prog/morph/web_interface/scripts.pl";
 require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 
-use CGI qw( :standard );
+#use CGI qw( :standard );
 
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
     }
 
+     print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
-print header(-type=>"text/html" , -charset=>"utf-8");
+  my %param = &get_parameters();
+
+
+    #print header(-type=>"text/html" , -charset=>"utf-8");
 
 #Declaration of all the variables
 my $word;
@@ -48,10 +57,10 @@ my $upasarga;
 my $prayogaH;
 my $color;
 
-if (param()){ 
-    $word = param('morfword');
-    $encoding=param("encoding");
-}
+#if (param()){
+    $word = $param{morfword};
+    $encoding=$param{encoding};
+    #}
 
 if($GlblVar::VERSION eq "SERVER"){
   open(TMP1,">>$GlblVar::TFPATH/morph.log") || die "Can't open $GlblVar::TFPATH/morph.log for writing";

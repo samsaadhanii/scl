@@ -78,7 +78,7 @@ $rtutf8 = `echo $rt_wx | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::S
   $LTPROC_IN2 = "$rt_wx<vargaH:nA><waxXiwa_prawyayaH:wal><lifgam:swrI><level:0>";
   $LTPROC_IN2 .= "\n$rt_wx<vargaH:nA><waxXiwa_prawyayaH:wva><lifgam:napuM><level:0>";
 
-   $str2 = "echo '".$LTPROC_IN2."' | $ltproc_cmd1 | $GlblVar::SCLINSTALLDIR/skt_gen/waxXiwa/waxXiwa_ind_html.pl";
+   $str2 = "echo '".$LTPROC_IN2."' | $ltproc_cmd1 | $GlblVar::SCLINSTALLDIR/skt_gen/waxXiwa/waxXiwa_ind_html.pl $rt_wx";
 
    $LTPROC_IN1 = "";
   for($l=0;$l<2;$l++){

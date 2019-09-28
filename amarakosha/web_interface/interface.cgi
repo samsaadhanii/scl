@@ -20,9 +20,12 @@
 use strict;
 use warnings;
 
-require "../paths.pl";
+use utf8;
 
-use CGI qw( :standard );
+require "../paths.pl";
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+
+#use CGI qw( :standard );
 
   if($GlblVar::VERSION eq "SERVER"){
     if (! (-e "$GlblVar::TFPATH")){
@@ -31,12 +34,15 @@ use CGI qw( :standard );
     open(TMP1,">>$GlblVar::TFPATH/amarakosha.log") || die "Can't open $GlblVar::TFPATH/amarakosha.log for writing";
   }
 
-print CGI::header('-type'=>'text/html', '-expires'=>60*60*24, '-charset' => 'UTF-8');
+#print CGI::header('-type'=>'text/html', '-expires'=>60*60*24, '-charset' => 'UTF-8');
+  print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
-my $word=param('word');
-my $relation=param('relation');
-my $encoding=param('encoding');
-my $out_encoding=param('out_encoding');
+  my %param = &get_parameters("decode");
+
+my $word=$param{word};
+my $relation=$param{relation};
+my $encoding=$param{encoding};
+my $out_encoding=$param{out_encoding};
 
 print "<script>\n";
 print "function generate_noun_forms(encod,prAwi,lifga){\n";

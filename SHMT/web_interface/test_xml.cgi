@@ -17,9 +17,12 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
+use utf8;
 require "../paths.pl";
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+
 package main;
-use CGI qw/:standard/;
+#use CGI qw/:standard/;
 
   if($GlblVar::VERSION eq "SERVER") {
     if (! (-e "$GlblVar::TFPATH")){
@@ -30,14 +33,19 @@ use CGI qw/:standard/;
 
 require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 
-      if (param) {
-      my $encoding=param("encoding");
-      my $sentences=param("text");
-      my $splitter=param("splitter");
-      my $out_encoding=param("out_encoding");
+print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
+
+  my %param = &get_parameters();
+
+
+#      if (param) {
+      my $encoding=$param{encoding};
+      my $sentences=$param{text};
+      my $splitter=$param{splitter};
+      my $out_encoding=$param{out_encoding};
       #$morph=param("morph");
-      my $parse=param("parse");
-      my $text_type=param("text_type");
+      my $parse=$param{parse};
+      my $text_type=$param{text_type};
 
 
   if($GlblVar::VERSION eq "SERVER") {
@@ -65,7 +73,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
       $sentences=&convert($encoding,$sentences,$GlblVar::SCLINSTALLDIR);
       chomp($sentences);
 
-      my $cgi = new CGI;
+      # my $cgi = new CGI;
       if($morph eq "GH") {
          $sentences =~ s/\.//;
          $cmd = "$GlblVar::HERITAGE_CGIURL?lex=SH\&cache=t\&st=t\&us=f\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=g";
@@ -76,12 +84,12 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
          print TMP $sentences,"\n";
          close(TMP);
 
-         print $cgi->header (-charset => 'UTF-8');
+	 #  print $cgi->header (-charset => 'UTF-8');
            $sentences = '"'. $sentences  . '"';
            system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/callmtshell.pl $GlblVar::TFPATH $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot $sentences $encoding $pid $script $sandhi $morph $parse $text_type $GlblVar::LTPROCBIN");
            system("$GlblVar::SCLINSTALLDIR/SHMT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $script $pid");
       }
-    }
+      #  }
   if($GlblVar::VERSION eq "SERVER") {
     close(TMP1);
   }

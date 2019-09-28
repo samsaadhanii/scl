@@ -17,14 +17,21 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
+use utf8;
 package main;
-use CGI qw/:standard/;
+#use CGI qw/:standard/;
 require "../../../paths.pl";
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+
 #use CGI::Carp qw(fatalsToBrowser);
 
-      if (param) {
-          my $filename=param("filename");
-          my $sentnum=param("sentnum");
+ print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
+
+  my %param = &get_parameters();
+
+  #      if (param) {
+          my $filename=$param{filename};
+          my $sentnum=$param{sentnum};
        #   $sentnumalter=$sentnum;
        #   if($sentnumalter =~ /c.$/) { 
        #      $sentnumalter =~ s/c\.$/./;
@@ -33,8 +40,8 @@ require "../../../paths.pl";
        #      $sentnumalter =~ s/\.$/c./;
 #	     $alter = "Collapse";
 #          }
-          my $cgi = new CGI;
-          print $cgi->header (-charset => 'UTF-8');
+       #          my $cgi = new CGI;
+       #   print $cgi->header (-charset => 'UTF-8');
 	  print "<head>\n";
 	  print "</head>\n<body>";
 	  print "<div id=\"imgitems\" class=\"parsetrees\">\n<center>\n<ul id=\"trees\">\n"; 
@@ -46,4 +53,4 @@ require "../../../paths.pl";
      $i++;
     }
         print "</ul> </center> </div> </body> </html>\n";
-}
+	#}

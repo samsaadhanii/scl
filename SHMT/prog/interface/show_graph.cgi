@@ -17,16 +17,23 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
+use utf8; 
 package main;
-use CGI qw/:standard/;
+#use CGI qw/:standard/;
 #use CGI::Carp qw(fatalsToBrowser);
 
 require "../../../paths.pl";
-      if (param) {
-          $filename=param("filename");
-          $sentnum=param("sentnum");
-          my $cgi = new CGI;
-          print $cgi->header (-charset => 'UTF-8');
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+
+ print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
+
+ my %param = &get_parameters();
+
+#      if (param) {
+          $filename=$param{filename};
+          $sentnum=$param{sentnum};
+	  #   my $cgi = new CGI;
+	  #print $cgi->header (-charset => 'UTF-8');
 	  print "<head>\n";
 	  print "</head>\n<body>";
 	  print "<div id=\"imgitems\" class=\"parsetrees\">\n<center>\n<ul id=\"trees\">\n"; 
@@ -37,4 +44,4 @@ require "../../../paths.pl";
                print "<img src=\"/scl/SHMT/DEMO/$filename/$sentnum.svg\" width=\"\" height=\"\" kddalt=\"graph showing all relations\"></li>\n";
           }
           print "</ul> </center> </div> </body> </html>\n";
-      }
+#      }

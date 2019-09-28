@@ -17,10 +17,14 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
+use utf8;
+
 package main;
-use CGI qw/:standard/;
+#use CGI qw/:standard/;
 
 require "../paths.pl";
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+
 my $myPATH = "$GlblVar::SCLINSTALLDIR/amarakosha";
 
  if($GlblVar::VERSION eq "SERVER"){
@@ -30,22 +34,28 @@ my $myPATH = "$GlblVar::SCLINSTALLDIR/amarakosha";
 
       open(TMP1,">>$GlblVar::TFPATH/noun.log") || die "Can't open $GlblVar::TFPATH/noun.log for writing";
     }
-      if (param) {
-        $encoding=param("encoding");
-        $rt=param("rt");
-        $gen=param("gen");
-        $jAwi=param("jAwi");
-        $level=param("level");
+    my %param = &get_parameters("decode");
 
-        my $cgi = new CGI;
-        print $cgi->header (-charset => 'UTF-8');
+    #      if (param) {
+    my    $encoding=$param{encoding};
+    my    $rt=$param{rt};
+    my    $gen=$param{gen};
+    my    $jAwi=$param{jAwi};
+    my    $level=$param{level};
 
+    #    my $cgi = new CGI;
+    #    print $cgi->header (-charset => 'UTF-8');
+
+
+        print "Content-Type:text/html; charset:UTF-8\n\n";
+        print "<html>\n";
+	print "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"/>";
         print "<head>\n";
         print "<script type=\"text/javascript\">\n";
         print "function show(word,encod){\n";
         print "window.open('/cgi-bin/scl/SHMT/options1.cgi?word='+word+'&outencoding='+encod+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=yes').focus();\n }\n </script>";
 
-        print "</head>\n";
+        print "</head>\n\n";
 
         print "<body onload=\"register_keys()\"> <script src=\"/scl/SHMT/wz_tooltip.js\" type=\"text/javascript\"></script>\n";
 
@@ -56,4 +66,3 @@ my $myPATH = "$GlblVar::SCLINSTALLDIR/amarakosha";
           print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."rt:$rt\t"."gen:$gen\t"."encoding:$encoding\t"."jAwi:$jAwi\n##########################\n\n";
           close(TMP1);
        }
-     }
