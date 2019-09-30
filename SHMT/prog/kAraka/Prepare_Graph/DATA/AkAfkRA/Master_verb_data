@@ -48,7 +48,7 @@ Af_pax1	sakarmaka	gawi
 Af_praC1	sakarmaka
 Af_raB1	sakarmaka
 Af_Rax1	sakarmaka
-Af_RTA1	sakarmaka	gawi
+Af_RWA1	sakarmaka	gawi
 Af_rAX1	sakarmaka
 Af_ruh1	sakarmaka			SliR
 Af_Rvax2	sakarmaka
@@ -108,7 +108,7 @@ anu_mAn1	sakarmaka
 anu_NI1	sakarmaka
 anu_pAl1	sakarmaka	gawi
 anu_pra_Ap1	sakarmaka
-anu_RTA1	sakarmaka
+anu_RWA1	sakarmaka
 anu_SAs1	xvi1
 anu_smq1	sakarmaka
 anu_smq2	sakarmaka
@@ -182,7 +182,7 @@ aXi_As1	sakarmaka
 aXi_gam1	sakarmaka
 aXi_i2	sakarmaka
 aXi_kram1	sakarmaka
-aXi_RTA1	sakarmaka
+aXi_RWA1	sakarmaka
 aXi_ruh1	sakarmaka
 aXi_SI1	sakarmaka
 aXi_SIf1	sakarmaka
@@ -1118,7 +1118,6 @@ namas_kq3	sakarmaka
 narx1	akarmaka
 Nas1	akarmaka
 NAs1	akarmaka
-NaS1	sakarmaka
 Nat1	akarmaka
 nat1	sakarmaka
 nAW1	sakarmaka
@@ -1150,7 +1149,7 @@ nir_mA1	sakarmaka
 ni_Riv1	sakarmaka
 NiRk1	sakarmaka
 nir_NI1	sakarmaka		vAkyakarma
-nir_RTA1	sakarmaka
+nir_RWA1	sakarmaka
 niR_pax1	akarmaka
 ni_ruX1	sakarmaka
 NiS1	akarmaka
@@ -1317,7 +1316,7 @@ pra_pax1	xvi1	Sabxakarma	vAkyakarma
 pra_Rah1	sakarmaka
 pra_Rax1	akarmaka
 pra_Rax1	sakarmaka
-pra_RTA1	sakarmaka	gawi
+pra_RWA1	sakarmaka	gawi
 pra_Rwu1	sakarmaka
 pras1	sakarmaka
 pra_Sans1	sakarmaka
@@ -1342,7 +1341,7 @@ prawi_IkR1	sakarmaka
 prawi_jFA1	sakarmaka		vAkyakarma
 prawi_pax1	sakarmaka
 prawi_Rax1	sakarmaka
-prawi_RTA1	sakarmaka
+prawi_RWA1	sakarmaka
 prawi_Sru1	sakarmaka
 prawi_vac1	sakarmaka
 prawi_yam2	sakarmaka
@@ -1590,6 +1589,7 @@ sam_Ap2	sakarmaka
 sam_as3	sakarmaka
 sam_ava_I1	akarmaka
 sam_ava_lok1	sakarmaka
+sam_awi_i1	sakarmaka
 sam_aXi_gam1	sakarmaka
 sam_grah1	sakarmaka
 saMgrAm1	akarmaka
@@ -1615,7 +1615,7 @@ sam_smq1	sakarmaka
 sam_Sri1	sakarmaka
 saMsw1	akarmaka
 sam_upa_Af_Sri1	sakarmaka
-sam_upa_RTA1	sakarmaka	gawi
+sam_upa_RWA1	sakarmaka	gawi
 sam_vix1	sakarmaka
 sam_wap1	sakarmaka
 sam_wQ1	sakarmaka
@@ -1889,7 +1889,7 @@ upa_lakR2	akarmaka
 upa_lip1	sakarmaka
 upa_pax1	sakarmaka
 upa_ram1	sakarmaka
-upa_RTA1	sakarmaka			SliR
+upa_RWA1	sakarmaka			SliR
 upa_sam_gam1	sakarmaka
 upasam_gam1	sakarmaka
 upa_sev1	sakarmaka
