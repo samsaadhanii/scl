@@ -41,8 +41,8 @@ $kAraka_name{$num}=$name;
 }
 }
 $path = $ARGV[6]; # path for temporary files
-#$parse = $ARGV[7]; # parse no
-$parse = 1;
+$parse = $ARGV[7]; # parse no
+#$parse = 1;
 
 
 if($SCRIPT eq "DEV") {
@@ -92,22 +92,23 @@ while(($in = <STDIN>) && !$solnfound){
   chomp($in);
   if ($in =~ /./){
       if($in =~ /^([0-9]+).minion$/){
-         $dotfl_nm = "$sentence.$parse.dot"; 
          if ($filehandle_status == "open") { 
             # This condition is encountered when there is no solution.
             &print_no_solution();
          }
+         $dotfl_nm = "$sentence.$parse.dot"; 
          open TMP1, ">${path}/${dotfl_nm}" || die "Can't open ${path}/${dotfl_nm} for writing";
+         $filehandle_status = "open";
          $indx = $sentence; 
 	 %word_used = ();
-         $filehandle_status = "open";
-         print TMP1 $hdr;
       } elsif($in =~ /Total (Complete|Partial) Solutions=([0-9]+)/){
         $total_parses = $2;
       } elsif($in =~ /Cost = (.*)/){
         $distance = $1;
-        print TMP1 "A [shape=rectangle label=\"Parse: $parse of $total_parses; Cost = $distance\"]\n";
+        print TMP1 $hdr;
+        print TMP1 "A [shape=rectangle label=\"Parse: $curr_parse of $total_parses; Cost = $distance\"]\n";
       } elsif($in =~ /Solution:([0-9]+)/){
+	       $curr_parse = $1; 
        #      if($parse == $1) { $solnfound = 1;} else {$solnfound = 0;}
        #       if ($solnfound == 0) { $solnfound = 1;} else {$solnfound = 0;}
       }

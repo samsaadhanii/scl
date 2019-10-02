@@ -25,6 +25,9 @@ package main;
 require "../../../paths.pl";
 require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 
+print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
+
+my %param = &get_parameters();
 
 #          if (param) {
             my $filename=$param{filename};
@@ -53,9 +56,11 @@ close(TMP);
           $parse_nos =~ s/^#//;
           @parse_nos = split(/#/,$parse_nos);
 
+
           foreach $i (@parse_nos) {
             if($i != 1) {
-              system("$GlblVar::SCLINSTALLDIR/SHMT/prog/kAraka/prepare_dot_files.sh $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot $outscript $sentnum mk_kAraka_help.pl $SCLINSTALLDIR $filename/parser_files/morph$sentnum.out $filename/parser_files/parseop1.txt $filename $i");
+		    #system("$GlblVar::SCLINSTALLDIR/SHMT/prog/kAraka/prepare_dot_files.sh $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot $outscript $sentnum mk_kAraka_help.pl $SCLINSTALLDIR $filename/parser_files/morph$sentnum.out $filename/parser_files/parseop1.txt $filename $i");
+		    system("$GlblVar::SCLINSTALLDIR/SHMT/prog/kAraka/prepare_dot_files.sh $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot $outscript $sentnum mk_kAraka_help.pl $filename/parser_files/morph$sentnum.out $filename/parser_files/parseop_new.txt $filename $i");
             }
             system("$GlblVar::GraphvizDot -Tsvg -o$filename/${sentnum}.$i.svg $filename/${sentnum}.$i.dot");
              $filename =~ s/^$GlblVar::TFPATH//;
