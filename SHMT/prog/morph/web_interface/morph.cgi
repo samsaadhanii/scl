@@ -56,6 +56,8 @@ my $link;
 my $upasarga;
 my $prayogaH;
 my $color;
+my $disp_rt;
+my $paxI;
 
 #if (param()){
     $word = $param{morfword};
@@ -71,13 +73,19 @@ if($GlblVar::VERSION eq "SERVER"){
 &printscripts();
 
 $word_wx = &convert($encoding,$word,$GlblVar::SCLINSTALLDIR);
+
+if($GlblVar::VERSION eq "SERVER"){
   open(TMP1,">>$GlblVar::TFPATH/morph.log") || die "Can't open $GlblVar::TFPATH/morph.log for writing";
-print TMP1 $word_wx;
+  print TMP1 $word_wx;
+}
 
 chomp($word_wx);
+
 $ans = `$GlblVar::SCLINSTALLDIR/SHMT/prog/morph/webrun_morph.sh $word_wx`;
-print TMP1 $ans;
-close(TMP1);
+if($GlblVar::VERSION eq "SERVER"){
+   print TMP1 $ans;
+   close(TMP1);
+}
 
 chomp($ans);
 
@@ -98,10 +106,10 @@ if($ans ne "") {
    $ans =~ s/^([^{ ]+)([ {])/$2/;
    $rt = $1;
  # We need to separate the upasarga from the rts for generation purpose.
-#   if($rt =~ /^(.+)_([^_]+)/){ $upasarga = $1; $rt = $2;}
-#   else {$upasarga = "-";}
-   if ($ans =~ /उपसर्ग ([^}]+)/) { $upasarga = $1;} else {$upasarga = "-";}
-   if ($ans =~ /{उपसर्ग [^}]+}/) { $ans =~ s/{उपसर्ग [^}]+}//;}
+   if ($ans =~ /उपसर्ग ([^}]+)/) { 
+	   $upasarga = $1;
+   	   $ans =~ s/{उपसर्ग [^}]+}//;
+   } else {$upasarga = "-";}
 
 
    #if($rt ne $word) { #  To avoid the infinite regress
@@ -109,13 +117,11 @@ if($ans ne "") {
        if($ans =~ /{धातुः ([^}]+)/) { $XAwu = $1;}
        if($ans =~ /{गणः ([^}]+)/) { $gaNa = $1;}
        $rt_XAwu_gaNa = $rt."_".$XAwu."_".$gaNa;
-       if($upasarga ne "-"){
-          $link = "<a href=\"javascript:generate_kqw_forms('Unicode','$rt_XAwu_gaNa','$upasarga')\">${upasarga}_$rt</a>";
-       } else {
-          $link = "<a href=\"javascript:generate_kqw_forms('Unicode','$rt_XAwu_gaNa','$upasarga')\">$rt</a>";
-       }
-       $color = "lavendar";
-#    } elsif ($ans =~ /तद्धित_प्रत्यय/){
+        if($upasarga ne "-"){
+	   $disp_rt = $upasarga."_".$rt;
+         } else {$disp_rt = $rt;}
+         $link = "<a href=\"javascript:generate_kqw_forms('Unicode','$rt_XAwu_gaNa','$upasarga')\">$disp_rt</a>";
+         $color = "lavendar";
     } elsif ($ans =~ /तद्धित/){
        $ans =~ s/{वर्गः ना}//;
        $link = "<a href=\"javascript:generate_waxXiwa_forms('Unicode','$rt','$lifga')\">$rt</a>";
@@ -147,14 +153,14 @@ if($ans ne "") {
         if($ans =~ /{धातुः ([^}]+)/) { $XAwu = $1;}
         if($ans =~ /{गणः ([^}]+)/) { $gaNa = $1;}
         if($ans =~ /{सनादि:णिच}/) { $prayogaH = "णिजन्त-कर्तरि";} else { $prayogaH = "कर्तरि";}
+        if($ans =~ /परस्मैपदी/) { $paxI = "parasmEpaxI";} 
+	else { $paxI = "AwmanepaxI";}
         $rt_XAwu_gaNa = $rt."_".$XAwu."_".$gaNa;
+        $rt =~ s/[1-9]//;
         if($upasarga ne "-"){
-          $rt =~ s/[1-9]//;
-          $link = "<a href=\"javascript:generate_verb_forms('Unicode','$rt_XAwu_gaNa','$prayogaH','$upasarga','uBayapaxI')\">${upasarga}_$rt</a>";
-        } else {
-          $rt =~ s/[1-9]//;
-          $link = "<a href=\"javascript:generate_verb_forms('Unicode','$rt_XAwu_gaNa','$prayogaH','$upasarga','uBayapaxI')\">$rt</a>";
-        }
+	   $disp_rt = $upasarga."_".$rt;
+         } else {$disp_rt = $rt;}
+         $link = "<a href=\"javascript:generate_verb_forms('Unicode','$rt_XAwu_gaNa','$prayogaH','$upasarga','$paxI')\">$disp_rt</a>";
         $color = "pink";
     } else {
         $rt =~ s/[1-9]//;
