@@ -6,6 +6,7 @@ aBiXAyaka
 aBiXAyikA
 aByASa
 AcArya
+Af_cArya
 AhvAyaka
 AjIvana
 Akalpaka
@@ -148,6 +149,7 @@ nixarSaka
 PakkikA
 Pala
 pAlaka
+pAwa
 paNdiwa
 parAkrama
 paraw
