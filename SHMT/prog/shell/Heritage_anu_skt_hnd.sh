@@ -49,7 +49,7 @@ if [ $OUTSCRIPT = "VH" ]; then
 fi
 
 if [ $# -lt 1 ] ; then
-  echo "Usage: Heritage_anu_skt_hnd.sh <file> tmp_dir_path [DEV|IAST|VH] [NO|Partial|Full] [Prose|Verse] [ECHO|NOECHO]"
+  echo "Usage: Heritage_anu_skt_hnd.sh <file> tmp_dir_path [DEV|IAST|VH] [NO|Partial|Full] [Prose|Sloka] [ECHO|NOECHO]"
 fi
 
 #cd $TMP_DIR_PATH
