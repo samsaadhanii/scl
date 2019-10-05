@@ -142,7 +142,8 @@ value join_relations a b c d e u v w x y =
       else []
     (* else if c >= 2100 && c < 2200 then [Relationc (u,v,21,x,y)]  *)
     else if c >= 2200 && c < 2300 then [Relationc (u,v,14,x,y)] 
-    else if c >= 2400 && c < 2500 then [Relationc (u,v,95,x,y)] 
+    else if c >= 2400 && c < 2500 && w >= 4300 && w < 4400 then [
+            Relationc (u,v,95,x,y); Relationc(a,b,0,d,e)] 
     else if c >= 2600 && c < 2700 then [Relationc (u,v,49,x,y)] 
     (* else if c >= 2700 && c < 2800 then [Relationc (u,v,14,x,y)]  *)
     else if c >= 3100 && c < 3200  && w >= 4300 && w < 4400 then [Relationc (u,v,92,x,y)]
@@ -200,7 +201,7 @@ value lwg_and_collapse relations dag =
             match rel with
             [Relationc (a,b,c,d,e) -> 
                if c < 2000
-               then let acc1 = if c = 91 
+               then let acc1 = if c = 91  (* avaXiH  why this condition ?*)
                                then List.append acc [Relationc (a,b,0,d,e)] 
                                else List.append acc [rel] 
                     in loop acc1 relations l
@@ -389,12 +390,12 @@ value relation_mutual_expectancy text_type m1 m2 = match m1 with
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
                 && (r1=7 &&  r2 >= 4200 && r2 / 100 = 42) && ((to_id2 - to_id1 > 3) || (to_id2 < to_id1 ))
          then False
-         (* With karwqsamAnAXikaraNa there can not be karma *)
+         (* With karwqsamAnAXikaraNa there can not be karma,karaNa,sampraxAna,apAxAna *)
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
-                && (r2=9 && (r1 = 11 || r1 = 12 || r1 = 14))
+                && (r2=9 && (r1 = 11 || r1 = 12 || r1 = 14 || r1=15 || r1=16 || r1=18 || r1=19 || r1=20))
          then False
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
-                && (r1=9 && (r2 = 11 || r2 = 12 || r2 = 14))
+                && (r1=9 && (r2 = 11 || r2 = 12 || r2 = 14 || r2 = 15 || r2=16|| r2=18||r2=19||r2=20))
          then False
          (* With karwqrahiwakarwqsamAnAXikaraNa there can not be karwA *)
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
@@ -845,14 +846,14 @@ value samucciwa_anyawara_constraint relations relsindag =
       && ca_vA_compatibility samu_c samu_xyowaka_c
       && ca_vA_compatibility sup_anya_c sup_anya_xyowaka_c
       && ca_vA_compatibility anya_c anya_xyowaka_c
-      then do { print_string "True"; True}  else do { print_string "False"; False}
+      then True  else False
 ;
 
 value global_compatible text_type relations relsindag = 
 let maprel = List.map (fun y -> List.nth relations (y-1) ) relsindag in
     loop maprel
     where rec loop = fun
-            [ [] -> do { print_string "True"; True }
+            [ [] -> True
      (* prawiyogI, anuyogI/sambanXa 
         There are two cases: 
           Either only prawiyogI, anuyogI as in the case of yaw, kinwu, paranwu, aWa, etc.
@@ -1183,7 +1184,7 @@ value no_cycles relations relsindag = (*do
     { List.iter print_sint relsindag; print_string "\n"; *)
       let acc = build_list relations relsindag in loop acc
       where rec loop = fun
-      [ [] -> do { print_string "OK\n"; True}
+      [ [] -> True
       |[(k,v)::r] -> let key_list = [k] in 
                          if not (chk_cycles key_list v acc) then loop r else False
       ]
@@ -1201,12 +1202,12 @@ value rec print_dag = fun
 (* Get dag list of size n from the array of lists relations, where each list corresponds to a relation and associated dags with it. *)
 
 value rec get_dag_list text_type rel acc = fun
-        [ [] -> do { print_dag acc; acc}
-   | [hd :: tl ] -> do { List.iter print_int hd
-                      ; if samucciwa_anyawara_constraint rel hd
+        [ [] -> acc
+   | [hd :: tl ] -> do {
+                      if samucciwa_anyawara_constraint rel hd
                     && global_compatible text_type rel hd
                     && no_cycles rel hd
-                      then  do { print_string "success\n";
+                      then  do {
                          let cost = add_cost text_type 0 rel hd in
                          let len  = List.length hd in
                          let triplet = (len, cost, hd) in

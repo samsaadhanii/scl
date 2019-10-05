@@ -1150,7 +1150,11 @@ But in grAmam gawaH xevaxawwaH puswakaM paTawi, here xevaxawwa should not be mar
 		     then [ Relation (id1,mid1,"karma",id2,mid2,"2.4")] 
 Why this condition? 
 Counter example: sarva-BUwa-hiwe rawAH *)
-                     else [ Relation (id1,mid1,"karma",id2,mid2,"2.7")] 
+                     else if members_of rt2 upasarga2 sakarmaka_verbs
+                           ||  members_of rt2 upasarga2 xvikarmaka1
+                           ||  members_of rt2 upasarga2 xvikarmaka2
+                     then [ Relation (id1,mid1,"karma",id2,mid2,"2.7")] 
+                     else []
                      else [] (*  Why 2.8 is needed? wawkAlam pravqwwAH -> wawkAlam is marked as a karma for pra_vqw, which is asakarmaka [ Relation (id1,mid1,"karma",id2,mid2,"2.8")] *)
                     (* anaBihiwe karmaNi xviwIyA gurum upaSliRtaH , grAmaM gawaH, kataM prakqwaH*)
                      (* else [ Relation (id1,mid1,"viSeRaNam",id2,mid2,"2.5")]  Any example for this rule? *)
@@ -1422,7 +1426,10 @@ value anaBihiwe m1 m2 id1 mid1 rt1 word1 uwwarapaxa1 lifgam1 viBakwiH1 id2 mid2 
                else []
        | 5 -> if no_boundary_crossing id1 id2 text_type
               then if members_of rt2 upasarga2 apAxAna_verbs
-                   then if not(member_of rt1 guNavacana) (*|| pronominal123 rt1*)
+                   then if pronominal123 rt1
+                        then [ Relation (id1,mid1,"apAxAnam",id2,mid2,"3.12")
+                             ; Relation (id1,mid1,"hewuH",id2,mid2,"3.13") ]
+                        else if not(member_of rt1 guNavacana) (*|| pronominal123 rt1*)
                         then [ Relation (id1,mid1,"apAxAnam",id2,mid2,"3.12")]  (* apAxAne paFcamI  - rAmaH grAmAw AgacCawi *) 
                         else [ Relation (id1,mid1,"hewuH",id2,mid2,"3.13") ]   (* XUmAw vahnIm anuminowi *)
                    else if   rt1="swoka" 
@@ -1588,6 +1595,12 @@ value rlapAxAna_wasil m1 m2 text_type = match m2 with
        then [ Relation (id1,mid1,"kriyAviSeRaNam",id2,mid2,"5.2")]  *)
        else if member_of (word1^" avy") kriyAviSeRaNas
        then [ Relation (id1,mid1,"kriyAviSeRaNam",id2,mid2,"5.2")] 
+       else []
+       else []
+     | Avy (id1,mid1,word1,_,_,uwwarapaxa1,_) -> 
+       if prose_order id1 id2 text_type && word1="wawaH" && no_boundary_crossing id1 id2 text_type
+       then if members_of rt2 upasarga2 apAxAna_verbs
+       then [ Relation (id1,mid1,"apAxAnam",id2,mid2,"5.3")] 
        else []
        else []
      |_ -> []
@@ -2209,10 +2222,11 @@ value rlupapaxa m1 m2 text_type = match m2 with
                  ]
         | 7 -> match rt2 with
                ["anurakwa" | "anurakwA" | "Asakwa" | "AsakwA" |
-                "Ayukwa" | "AyukwA" | "yukwa" | "kuSala" |"kuSAlA" | "lagna"|
+                "Ayukwa" | "AyukwA" | (*"yukwa" | *) "kuSala" |"kuSAlA" | "lagna"|
                 "lagnA" | "nipuNA" | "nipuNa" | "prasiwa" | "prasiwA" |
                 "uwsuka" | "uwsukA" | "sAXu" | "sAXvI" | "asAXvI" | "asAXu" ->
                        [Relation (id1,mid1,"viRayAXikaraNam",id2,mid2,"17.30")]
+                       (* why should yukwa have viRayAXikaraNa ? any example? *)
                | "prawiBU" |"sAkRiNI" | "sAkRin" | "svAmin" | "svAminI" | 
                   "ISvara" | "xAyAxa" | "aXipawi" ->
                        [Relation (id1,mid1,"svAmI",id2,mid2,"17.29")]
@@ -2625,8 +2639,9 @@ value rlkarwqrahiwakarwqsamAnAXikaraNam m1 m2 text_type = match m1 with
 
 value rlkarwqsamAnAXikaraNam m1 m2 m3 text_type = match m2 with
     [ Sup (id2,mid2,word2,rt2,_,uwwarapaxa2,_,viBakwiH2,vacanam2,_) ->
-      if compound word2 uwwarapaxa2 || member_of rt2 guNavacana
-      then
+      (* if compound word2 uwwarapaxa2  || member_of rt2 guNavacana 
+      guNavacana removed to accound for kAkaH kokilaH na Bavawi
+      then*)
       match m1 with
       [ Sup (id1,mid1,_,rt1,_,_,_,viBakwiH1,vacanam1,_)
       | Kqw (id1,mid1,_,_,_,_,_,_,_,_,rt1,_,_,_,viBakwiH1,vacanam1,_)
@@ -2635,7 +2650,9 @@ value rlkarwqsamAnAXikaraNam m1 m2 m3 text_type = match m2 with
         [ Wif (id3,mid3,_,rt3,_,_,upasarga3,_,_,_,puruRaH3,vacanam3,_,_,_,_) ->
           if    aBihiwa rt1 vacanam1 vacanam3 puruRaH3
              &&  members_of rt3 upasarga3 karwqsamAnAXikaraNa_verbs
-             &&  viBakwiH1=viBakwiH2
+             && viBakwiH1=1 || viBakwiH2=6
+             (*  viBakwiH2=6 is added to account for ixam mama Bavawi  5.10.2019*)
+              (* &&  viBakwiH1=viBakwiH2 *)
            (*&& ((noun_agreement_vibh rt1 vacanam1 vacanam2 lifgam1 lifgam2 viBakwiH1 viBakwiH2) || pronominal12 rt1)  to account for jyowiH agniH Bavawi *)
 (* || pronominal12 rt1 *)
            && ((vacanam1=vacanam2) || (rt1="mAsa" && (rt2="xakRiNAyana" || rt2="uwwarAyaNa"))|| (rt2="xArA") || (rt1 = "vexa" && rt2="pramANa"))
@@ -2643,12 +2660,13 @@ value rlkarwqsamAnAXikaraNam m1 m2 m3 text_type = match m2 with
            && (not (pronominal123 rt2) || rt2="kim")
            (*&& not (member_of rt1 guNavacana)*) (* yogyawA *)
            (* && not (pUrva2=uwwara2) || (member_of rt2 guNavacana)) *)
-           && not (rt1="kim" || rt1="kiFciw" || rt1="kiFcana"|| rt1="yAvaw" || rt1="wAvaw" ) (* yogyawA  To stop: kA hAniH Bavawi hAniH is not karwqsamAnAXikaraNa of kA*)
-           && prose_order id1 id2 text_type
-           && prose_order id2 id3 text_type
+           && not (rt1="kiFciw" || rt1="kiFcana"|| rt1="yAvaw" || rt1="wAvaw" ) (* yogyawA  To stop: kA hAniH Bavawi hAniH is karwqsamAnAXikaraNa of kA
+           Earlier kim was also included in the above list. But hAniH as karwqsam is OK. This is similar to sunxara-kANde kim na sunxaram bhavawi *)
+           && (*prose_order id1 id2 text_type *)
+           id1 < id2 
+           && prose_order id2 id3 text_type 
            (* && id2-id1 <= 3   Found an example where this diff is > 3 *)
 (* Bhatti kAavya 1.1 shloka *)
-         && viBakwiH1=1 
          && no_boundary_crossing id2 id3 text_type
         then [Relation (id2,mid2,"karwqsamAnAXikaraNam",id3,mid3,"25.1a") ]
 (* rel is marked with the verb and not with the karwA. This is to ensure that the parse is correct. 
@@ -2698,7 +2716,7 @@ E.g. grAmasya aXareNa vanam aswi.*)
         ]
       | _ -> []
       ]
-      else []
+      (* else [] *)
   | Kqw (id2,mid2,_,_,_,_,_,_,_,_,rt2,_,_,_,viBakwiH2,vacanam2,_)
   | WaxXiwa (id2,mid2,_,rt2,_,_,_,_,viBakwiH2,vacanam2,_) ->
       match m1 with
@@ -2817,12 +2835,12 @@ value rlkarmasamAnAXikaraNam m1 m2 m3 text_type =
     [ Sup (id2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,gen2,viB2,vac2,_)
     | Kqw (id2,mid2,word2,_,_,_,_,_,_,_,rt2,pUrvapaxa2,uwwarapaxa2,gen2,viB2,vac2,_)
     | WaxXiwa (id2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_,gen2,viB2,vac2,_) ->
-                    if not (pronominal123 rt2) then
+                    if not (pronominal123 rt2)  && (member_of rt2 guNavacana) then
       match m1 with
       [ Sup (id1,mid1,word1,rt1,_,_,gen1,viB1,vac1,_)
       | Kqw (id1,mid1,word1,_,_,_,_,_,_,_,rt1,_,_,gen1,viB1,vac1,_)
       | WaxXiwa (id1,mid1,word1,rt1,_,_,_,gen1,viB1,vac1,_) ->
-           if no_boundary_crossing id1 id2 text_type && prose_order id1 id2 text_type
+           if no_boundary_crossing id1 id2 text_type && id1 < id2
            then match m3 with 
             [ Kqw (id3,mid3,_,rt3,upasarga3,_,_,_,_,_,_,_,_,_,_,_,_)
             | Avykqw (id3,mid3,_,rt3,_,_,upasarga3,_,_,_,_,_) ->
@@ -2857,20 +2875,21 @@ value rlkarmasamAnAXikaraNam m1 m2 m3 text_type =
             else []
         | _ -> []
         ] else []
-      | Avy (id2,mid2,_,rt2,_,_,_) ->
+      | Avy (id2,mid2,_,rt2,_,_,_) -> 
+        if rt2="BasmasAwa" then
         match m1 with
         [ Sup (id1,mid1,_,rt1,_,_,_,_,_,_)
         | Kqw (id1,mid1,_,_,_,_,_,_,_,_,rt1,_,_,_,_,_,_)
         | WaxXiwa (id1,mid1,_,rt1,_,_,_,_,_,_,_) ->
-             if no_boundary_crossing id1 id2 text_type && prose_order id1 id2 text_type
+             if no_boundary_crossing id1 id2 text_type && id1 < id2
              then match m3 with 
               [ Kqw (id3,mid3,_,rt3,upasarga3,_,_,_,_,_,_,_,_,_,_,_,_)
               | Avykqw (id3,mid3,_,rt3,_,_,upasarga3,_,_,_,_,_) ->
-                if rt3="kq3" && rt2="BasmasAw" && prose_order id2 id3 text_type
+                if rt3="kq3" && prose_order id2 id3 text_type
                 then [ Relation (id2,mid2,"karmasamAnAXikaraNam",id3,mid3,"26.4") ]
                 else []
               | Wif (id3,mid3,_,rt3,_,_,upasarga3,_,prayogaH3,_,_,_,_,_,_,_) ->
-                if rt3="kq3" && rt2="BasmasAw" && prose_order id2 id3 text_type
+                if rt3="kq3" && prose_order id2 id3 text_type
                 then [ Relation (id2,mid2,"karmasamAnAXikaraNam",id3,mid3,"26.5") ]
                 else []
               | _ -> []
@@ -2878,6 +2897,7 @@ value rlkarmasamAnAXikaraNam m1 m2 m3 text_type =
               else []
         | _ -> []
         ]
+        else []
    | _ -> []
    ]
 ;
