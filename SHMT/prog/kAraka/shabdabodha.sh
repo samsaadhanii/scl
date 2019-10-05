@@ -50,7 +50,7 @@ $ANU_MT_PATH/kAraka/split_multisentence_input.pl $TMP_FILES_PATH/parser_files/mo
 for i in `ls -1 $TMP_FILES_PATH/parser_files/*.clp| sort -n`
 do
 j=`basename $i .clp`
-$ANU_MT_PATH/kAraka/Prepare_Graph/build_graph $TMP_FILES_PATH/parser_files/ $9 < $i  |\
+$ANU_MT_PATH/kAraka/Prepare_Graph/build_graph $TMP_FILES_PATH/parser_files/ $TEXT_TYPE < $i  |\
 #$ANU_MT_PATH/kAraka/kaaraka_sharing_Sawq_kwa.pl morph$j.out $ANU_MT_PATH/kAraka/gdbm_n |\
 #$ANU_MT_PATH/kAraka/kaaraka_sharing.pl $SCLINSTALLDIR $ANU_MT_PATH/kAraka/gdbm_n/kAraka_name.gdbm  $ANU_MT_PATH/kAraka/gdbm_n/kAraka_num.gdbm > $TMP_FILES_PATH/parser_files/parseop$j.txt
 $ANU_MT_PATH/kAraka/kaaraka_sharing.pl $SCLINSTALLDIR $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt > $TMP_FILES_PATH/parser_files/parseop$j.txt
