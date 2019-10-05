@@ -12,8 +12,6 @@ jAjvalyamAnA	jval1<kqw_prawyayaH:SAnac><sanAxi_prawyayaH:san><lifgam:puM><XAwuH:
 
 arha	arh1<kqw_prawyayaH:ac><lifgam:puM><XAwuH:arhaz><gaNaH:BvAxiH>
 
-buxXi	buX1<kqw_prawyayaH:kwin><lifgam:swrI><XAwuH:buXaz><gaNaH:BvAxiH>
-
 prawIkRA	IkR1<kqw_prawyayaH:A><lifgam:swrI><XAwuH:IkRaz><gaNaH:BvAxiH>
 
 AsIna	As1<kqw_prawyayaH:kwa><lifgam:puM><XAwuH:Asaz><gaNaH:axAxiH>

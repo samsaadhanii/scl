@@ -1584,6 +1584,7 @@ anicCukA_swrI
 anigIrNA_swrI
 anIhA_swrI
 anIka_puM
+anIka_napuM
 ANikA_swrI
 anikewa_puM
 anikewA_swrI
@@ -18047,6 +18048,7 @@ mqxiwA_swrI
 mqx_swrI
 mqxuBARin_puM
 mqxula_napuM
+mqxula_puM
 mqxulA_swrI
 mqxu_napuM
 mqxunnaka_napuM
