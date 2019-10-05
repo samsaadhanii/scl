@@ -16,7 +16,7 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
-#BEGIN{require "$ARGV[0]/paths.pl";}
+BEGIN{require "$ARGV[0]/paths.pl";}
 
 #use lib $GlblVar::LIB_PERL_PATH;
 
@@ -189,6 +189,8 @@ while($tmpin = <STDIN>){
          $cat = "v";
 
          $map_rt = &get_dict_mng($rt, $rVERB);
+	 #print "rt = $rt\n";
+	 #print "map_rt = $map_rt\n";
          $map_kqw = &get_dict_mng($kqw, $rTAM);
 
          $hn_lifga = &get_skt_hn_lifga($lifgam);
@@ -528,6 +530,7 @@ sub get_dict_mng{
 my($rt,$rdatabase) = @_;
 my($ans) = "";
        
+#print "rt = $rt";
        if($$rdatabase{$rt} ne "") {
           $ans = &clean($$rdatabase{$rt});
        } elsif($rt =~ /_Nic/) {
@@ -536,7 +539,8 @@ my($ans) = "";
              ## Before calling the causative handler, we need to disambiguate Nic with verbs in curaxi gaNa. If they are in svArWa, we need not call the causative handler.
 ## For example, rAmaH puswakam corayawi Versus rAmaH mohanena puswakam corayawi.
 ## In the first example, it is not Nic while in the second it is.
-           $ans = `python $SCLINSTALLDIR/SHMT/prog/map/causal_verb_handler.py $hnd_rt`;
+	     chomp($hnd_rt);
+	     $ans = `/usr/bin/env python $GlblVar::SCLINSTALLDIR/SHMT/prog/map/causal_verb_handler.py $hnd_rt`;
            chomp($ans);
           } else {
           if($rt =~ /1_/) { $rt =~ s/1_/_/;} 
