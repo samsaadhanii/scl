@@ -24,7 +24,7 @@ try:
     if hi_v in apavadaList.keys():
        print apavadaList[hi_v] 
     elif hi_v.endswith('_ho'):
-       print hi_v[0:-2] + '_kara'                  # 'vyApwa_ho' -> 'vyApwa_kara'
+       print hi_v[0:-3] + '_kara'                  # 'vyApwa_ho' -> 'vyApwa_kara'
     elif hi_v.endswith('_kara'):
        print hi_v[0:-1] + 'A'                      # 'prawIkRA_kara' -> 'prawIkRA_karA'
     elif hi_v.endswith('I') or hi_v.endswith('e'):         # 'jI', pI, xe
