@@ -191,8 +191,10 @@ while($in = <STDIN>){
             } else {
                $tana =~ s/^[^<]+(<upasarga:[^>]+>.*<kqw_prawyayaH:[^>]+>)/${A_rt}$1<XAwuH:$XAwuH><gaNaH:$gaNaH>/;
             }
-               $tans .= "/".$tana;
-               $found = 1;
+	       if (($tans !~ /^$tana/) && ($tans !~ /\/$tana/)){
+                    $tans .= "/".$tana;
+                    $found = 1;
+               }
              }
              $tans =~ s/^\///;
              $ana  = $tans;

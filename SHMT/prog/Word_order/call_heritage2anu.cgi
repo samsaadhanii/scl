@@ -38,17 +38,24 @@ print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
  my $buffer = "";
  my $display = "";
+ my $field_nm = "";
 
 read(STDIN, $b, $ENV{'CONTENT_LENGTH'});
 
 # if (param()){
-   foreach my $p (keys %param){
-    if($p eq "DISPLAY") { $display = $param{$p};}
-    else {$buffer .= $param{$p};}
-  }
+#foreach my $p (sort keys %param){
+#    if($p eq "DISPLAY") { $display = $param{$p};}
+#    else {$buffer .= $param{$p};}
+    $display = $param{DISPLAY};
+    my $hash_count = keys %param;
+    for (my $i = 1; $i <= $hash_count; $i++) {
+	    $field_nm = "field".$i;
+            $buffer .= $param{$field_nm};
+    }
  my $pid = $$;
  system("mkdir -p $GlblVar::TFPATH/tmp_in$pid");
 
+ system ("echo '$buffer' > /tmp/abcd");
  system("echo '$buffer' | $GlblVar::SCLINSTALLDIR/SHMT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $GlblVar::SCLINSTALLDIR > $GlblVar::TFPATH/tmp_in$pid/in$pid.out");
 
 if($display eq "") { $display = "DEV";}
