@@ -22,13 +22,13 @@ viṣayādhikaraṇam 23
 pūrvakālaḥ 24
 adhikaraṇam 25
 kriyāviśeṣaṇam 26
-hetuḥ 27
 sambandhaḥ 28
 vartamānasamānakālaḥ 29
 bhaviṣyatsamānakālaḥ 30
 sambodhanasūcakam 31
 viśeṣaṇam 32
 abhedaḥ 33
+hetuḥ 34
 ṣaṣṭhīsambandhaḥ 35
 sandarbha_binduḥ 36
 tulanā_binduḥ 37
