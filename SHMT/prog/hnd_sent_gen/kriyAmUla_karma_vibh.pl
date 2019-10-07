@@ -55,7 +55,13 @@ my($j,$verb_pos,$kriyAmUla,$karma_marker);
          if(${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^([^_]+_([^ ])+)/){
             $kriyAmUla = $1;
             if($kriyAmUla_marker{$kriyAmUla}) { $karma_marker = $kriyAmUla_marker{$kriyAmUla};
+	      if ((${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ / v /) &&
+	          ($kriyAmUla eq "icCA_kara"))
+	      {
+               ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 nA\~$karma_marker/;
+       } else {
                ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 $karma_marker/;
+              }
            }
          }
        }
