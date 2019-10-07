@@ -1,5 +1,6 @@
 ucyawe=brU1<prayogaH:karmaNi><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:brUF><gaNaH:axAxiH><level:1>
 kariRyawe=kq3<prayogaH:karwari><lakAraH:lqt><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:dukqF><gaNaH:wanAxiH><level:1>
+karwum=kq3<vargaH:avy><kqw_prawyayaH:wumun><XAwuH:dukqF><gaNaH:wanAxiH><level:2>
 ajAyawa=jan1<prayogaH:karwari><lakAraH:laf><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:janIz><gaNaH:xivAxiH><level:1>
 Aha=brU1<prayogaH:karwari><lakAraH:lit><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:brUF><gaNaH:axAxiH><level:1>
 arhawi=arh2<prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:arhaz><gaNaH:curAxiH><level:1>/arh1<prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:arhaz><gaNaH:BvAxiH><level:1>
