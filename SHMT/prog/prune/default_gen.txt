@@ -3135,6 +3135,7 @@ asaxqSA_swrI
 asaxqSI_swrI
 asAXu_puM
 asAXya_puM
+asAXya_napuM
 asAXyA_swrI
 ASaya_puM
 AScarya_napuM
