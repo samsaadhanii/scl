@@ -219,6 +219,9 @@ while($tmpin = <STDIN>){
        $map_rt = &get_dict_mng($rt, $rVERB);
        $map_kqw = &get_dict_mng($kqw, $rTAM);
 
+       #print "map_rt = $map_rt\n";
+       #print "map_kqw = $map_kqw\n";
+
        $cat = "v";
        $ans .= "/$map_rt $cat $default_lifga $default_vacana $default_puruRa $map_kqw";
 
@@ -409,7 +412,7 @@ my($in) = @_;
 
    if($in =~ /vargaH:sarva/){ $cat = "P";}
 
-   elsif($in =~ /vargaH:avy;kqw_prawyayaH:/){ $cat = "kqw-avy";}
+   elsif($in =~ /vargaH:avy;.*kqw_prawyayaH:/){ $cat = "kqw-avy";}
    elsif($in =~ /kqw_prawyayaH/){ $cat = "kqw-noun";}
 
    elsif($in =~ /vargaH:avy;waxXiwa_prawyayaH:([^;]+;lifga)/){ $cat = "n";}
@@ -440,7 +443,7 @@ my($in) = @_;
 
 my($ans);
 
-if($in =~ /^.*rt:([^;]+).*vargaH:avy;kqw_prawyayaH:([^;]+);XAwuH:([^;]+);gaNaH:([^;]+)/){
+if($in =~ /^.*rt:([^;]+).*vargaH:avy;.*kqw_prawyayaH:([^;]+);XAwuH:([^;]+);gaNaH:([^;]+)/){
 
      $rt = $1;
      $kqw_prawyayaH = $2;
@@ -530,7 +533,7 @@ sub get_dict_mng{
 my($rt,$rdatabase) = @_;
 my($ans) = "";
        
-#print "rt = $rt";
+#print "rt = $rt\n";
        if($$rdatabase{$rt} ne "") {
           $ans = &clean($$rdatabase{$rt});
        } elsif($rt =~ /_Nic/) {
@@ -540,8 +543,10 @@ my($ans) = "";
 ## For example, rAmaH puswakam corayawi Versus rAmaH mohanena puswakam corayawi.
 ## In the first example, it is not Nic while in the second it is.
 	     chomp($hnd_rt);
+	     #print "hnd_rt = $hnd_rt\n";
 	     $ans = `/usr/bin/env python $GlblVar::SCLINSTALLDIR/SHMT/prog/map/causal_verb_handler.py $hnd_rt`;
            chomp($ans);
+	   #print "ans = $ans\n";
           } else {
           if($rt =~ /1_/) { $rt =~ s/1_/_/;} 
           $rt =~ s/X_//; # In case of upasargas
