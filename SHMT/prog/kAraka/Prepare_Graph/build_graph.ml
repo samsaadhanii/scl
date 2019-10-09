@@ -2659,7 +2659,8 @@ value rlkarwqsamAnAXikaraNam m1 m2 m3 text_type = match m2 with
         [ Wif (id3,mid3,_,rt3,_,_,upasarga3,_,_,_,puruRaH3,vacanam3,_,_,_,_) ->
           if    aBihiwa rt1 vacanam1 vacanam3 puruRaH3
              &&  members_of rt3 upasarga3 karwqsamAnAXikaraNa_verbs
-             && viBakwiH1=1 || (viBakwiH2=6 && pronominal123 rt2)
+             && viBakwiH1=1
+             && (viBakwiH2=1 || (viBakwiH2=6 && pronominal123 rt2))
              (*  viBakwiH2=6 is added to account for ixam mama Bavawi  5.10.2019*)
               (* &&  viBakwiH1=viBakwiH2 *)
            (*&& ((noun_agreement_vibh rt1 vacanam1 vacanam2 lifgam1 lifgam2 viBakwiH1 viBakwiH2) || pronominal12 rt1)  to account for jyowiH agniH Bavawi *)
@@ -2748,7 +2749,7 @@ E.g. grAmasya aXareNa vanam aswi.*)
            (* && id2-id1 <= 3   found an example where diff is > 3 *)
 (* Bhatti kAavya 1.1 shloka *)
          && viBakwiH1=1 && no_boundary_crossing id2 id3 text_type
-        then [ Relation (id2,mid2,"karwqsamAnAXikaraNam",id3,mid3,"25.1a") ] 
+        then [ Relation (id2,mid2,"karwqsamAnAXikaraNam",id3,mid3,"25.4") ] 
 (* rel is marked with the verb and not with the karwA. This is to ensure that the parse is correct. 
 Consider a sent with X Y v1 v2, where X and Y are karwA and karwAsamAnAXikaraNa w.r.t v1 and not wrt v2. And suppose in the final parse X is karwA of v2, then marking a relation of karwAsamAnAXikaraNa between X and Y will be wrong *)
         else []
@@ -2764,7 +2765,7 @@ Consider a sent with X Y v1 v2, where X and Y are karwA and karwAsamAnAXikaraNa 
            && prose_order id2 id3 text_type
            (* && id2-id1 <= 3 *)
          && viBakwiH1=1 && no_boundary_crossing id2 id3 text_type
-        then [ Relation (id2,mid2,"karwqsamAnAXikaraNam",id3,mid3,"25.2a") ] 
+        then [ Relation (id2,mid2,"karwqsamAnAXikaraNam",id3,mid3,"25.5") ] 
         else []
         | _ -> []
         ]
@@ -2786,7 +2787,7 @@ Consider a sent with X Y v1 v2, where X and Y are karwA and karwAsamAnAXikaraNa 
             "upariRtAw"| "uwwarA"| "uwwarAhi"| "uwwarAw"| "uwwarawaH"|
             "uwwareNa"| "xakRiNA"| "xakRiNAhi"| "xakRiNAw"| "xakRiNawaH"|
             "xakRiNena" ->
-            [ Relation (id2,mid2,"karwqsamAnAXikaraNam",id3,mid3,"25.3a") ] 
+            [ Relation (id2,mid2,"karwqsamAnAXikaraNam",id3,mid3,"25.6") ] 
           |_ -> []
           ]
           else []
@@ -2817,7 +2818,7 @@ Consider a sent with X Y v1 v2, where X and Y are karwA and karwAsamAnAXikaraNa 
               && prose_order id2 id3 text_type
               (* && id2-id1 <= 3 *)
             && viBakwiH1=1 && no_boundary_crossing id2 id3 text_type
-           then [ Relation (id2,mid2,"karwqsamAnAXikaraNam_upa",id3,mid3,"25.3b") ] 
+           then [ Relation (id2,mid2,"karwqsamAnAXikaraNam_upa",id3,mid3,"25.7") ] 
            else []
 (* rel is marked with the verb and not with the karwA. This is to ensure that the parse is correct. 
 Consider a sent with X Y v1 v2, where X and Y are karwA and karwAsamAnAXikaraNa w.r.t v1 and not wrt v2. And suppose in the final parse X is karwA of v2, then marking a relation of karwAsamAnAXikaraNa between X and Y will be wrong *)
@@ -2828,7 +2829,7 @@ Consider a sent with X Y v1 v2, where X and Y are karwA and karwAsamAnAXikaraNa 
            && prose_order id2 id3 text_type
            (* && id2-id1 <= 3 *)
            && viBakwiH1=1 && no_boundary_crossing id2 id3 text_type
-           then [ Relation (id2,mid2,"karwqsamAnAXikaraNam_upa",id3,mid3,"25.4") ] 
+           then [ Relation (id2,mid2,"karwqsamAnAXikaraNam_upa",id3,mid3,"25.8") ] 
            else []
           |_ -> []
           ]

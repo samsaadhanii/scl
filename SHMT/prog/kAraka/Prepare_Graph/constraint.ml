@@ -419,6 +419,14 @@ value relation_mutual_expectancy text_type m1 m2 = match m1 with
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
                 && r1=8 && r2 = 7
          then False
+         (* With karmasamAnAXikaraNa there can not be gONa-karma 
+          * brU1 and vax1 dhaatus are xvikarmaka, and if there is karmasamaanaadhikarana relation with them, then gONa karma should be absent *)
+         else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
+                && r2=10 && r1 =12 
+         then False
+         else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
+                && r1=10 && r2 =12 
+         then False
          (* karmasamAnAXikaraNa should be to the right of karma 
           * The order info is taken care by build_graph.ml
           * Constraint programme should not look at the order again 
