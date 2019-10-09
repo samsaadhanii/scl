@@ -293,7 +293,7 @@ value single_relation_label m1 m2 = match m1 with
     ]
 ;
 
-value no_crossing text_type m1 m2 = match m1 with
+value no_crossing text_type rel m1 m2 = match m1 with
     [ Relationc (to_id1,to_mid1,r1,from_id1,from_mid1) -> match m2 with
       [Relationc (to_id2,to_mid2,r2,from_id2,from_mid2) -> 
            (* Crossing edges not allowed except niwya_sambanXaH (=2) and samucciwa (=53) *)
@@ -309,8 +309,23 @@ value no_crossing text_type m1 m2 = match m1 with
              && not (r2=2) && not (r2=90)
              && not ((r1 = 35) || (r1 = 32) || (r1 = 22) || (r1 = 33) ||
                      (r2 = 35) || (r2 = 32) || (r2 = 22) || (r2 = 33))
-         then False (* do { print_string "C11"; print_relation m1; print_relation m2;False} *)
-         else True
+         then (*False else True*)
+              let length = List.length rel -1 in
+              loop False 0 
+              where rec loop acc j = 
+              if j > length then acc else
+               match List.nth rel j with
+               [ Relationc (id1,mid1,r,id2,mid2)  ->
+                  if (r=32) &&
+                   ((id1 = to_id1 && mid1 = to_mid1 && id2 = from_id2 && mid2 = from_mid2) ||
+                   (id1 = from_id2 && mid1 = from_mid2 && id2 = to_id1 && mid2 = to_mid1) ||
+                   (id1 = to_id2 && mid1 = to_mid2 && id2 = from_id1 && mid2 = from_mid1) ||
+                   (id1 = from_id1 && mid1 = from_mid1 && id2 = to_id2 && mid2 = to_mid2))
+                  then loop True (length+1) 
+                  else loop False (j+1) 
+               | _  ->  True
+               ]
+         else True 
       ]
     ]
 ;
@@ -440,10 +455,10 @@ value relation_mutual_yogyataa m1 m2 = match m1 with
                 && r2=33 && r1=33 (* an aBexa of an aBexa is not allowed *)
          then False
          else if from_id2=to_id1 && from_mid2=to_mid1
-                && r2=47 (* a samboXyaH can be only of the root verb *)
+                && r2=47  && not (r1 = 13) (* a samboXyaH can be only of the root verb  or an embeded verb in iwi clause *)
          then False
          else if from_id1=to_id2 && from_mid1=to_mid2
-                && r1=47 (* a samboXyaH can be only of the root verb *)
+                && r1=47 && not (r2 = 13) (* a samboXyaH can be only of the root verb  or an embeded verb in iwi clause *)
          then False
         (* else if from_id1=to_id2 && from_mid1=to_mid2
                 && r2=53 && r1=53 (* samucciwa of samucciwa is not allowed *)
@@ -480,10 +495,10 @@ value relation_mutual_yogyataa m1 m2 = match m1 with
     ]
 ;
 
-value chk_compatible text_type m1 m2 = 
+value chk_compatible text_type rel m1 m2 = 
          single_morph_per_word m1 m2
       && single_relation_label m1 m2
-      && no_crossing text_type m1 m2 
+      && no_crossing text_type rel m1 m2 
       && relation_mutual_expectancy text_type m1 m2 
       && relation_mutual_yogyataa m1 m2 
 ;
@@ -567,7 +582,7 @@ value populate_compatible_lists text_type rel total_wrds =
            let l = get_wrd_ids relj in
            compatible_words.(j+1) := List.append l compatible_words.(j+1)
           (* a word is compatible with self *)
-          ;if (chk_compatible text_type reli relj)
+          ;if (chk_compatible text_type rel reli relj)
           then do {
           (* print_int j
            ;print_string " "
