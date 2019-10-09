@@ -51,3 +51,4 @@ asmAn=asmax<vargaH:sarva><lifgam:a><viBakwiH:2><vacanam:bahu><level:1>
 asyAm=ixam<vargaH:sarva><lifgam:swrI><viBakwiH:7><vacanam:eka><level:1>/asI<vargaH:nA><lifgam:swrI><viBakwiH:7><vacanam:eka><level:1>/asi<vargaH:nA><lifgam:swrI><viBakwiH:7><vacanam:eka><level:1>
 wAm=wax<vargaH:sarva><lifgam:swrI><viBakwiH:2><vacanam:eka><level:1>/wA<vargaH:nA><lifgam:swrI><viBakwiH:2><vacanam:eka><level:1>
 prAwaH=prAwaH<vargaH:avy><level:1>
+maXye=maXya<vargaH:nA><lifgam:puM><viBakwiH:7><vacanam:eka><level:1>
