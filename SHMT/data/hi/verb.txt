@@ -2,11 +2,13 @@ aBi_As1,v,aXyyAna_kara
 aBi_BU1,v,jIwa^pIdA_xe
 aBi_han1,v,muKa_se_bajA
 aBi_hq1,v,hallA_kara^mAra_pIta_kara
+aBi_jan2,v,uwpanna_ho^pExA_ho,praxurBAve
 aBi_i1,v,sAmane_A^sarvawra_jA
 aBi_kruX1,v,kroXa_kara
 aBi_KyA1,v,camaka
 aBi_man1,v,aBimAna_kara^icCA_kara
 aBi_nanx1,v,aBinanxana_kara
+aBi_nax1,v,prasanna_ho^aBInanxna_kara
 aBi_nI1,v,aBinaya_kara
 aBi_rakR1,v,rakRA_kara
 aBini_viS1,v,sAmane_bETa^ArAma_kara
@@ -141,12 +143,14 @@ anu_pax2,v,anuraNa_kara
 anusam_XA1,v,anusaMXAna_kara
 anu_RWA1,v,anusaraNa_kara^ #it's meaning not foun in Apate or MW
 anu_Sru1,v,suna
+anu_Suc1,v,Soka_kara
 anu_sq1,v,anusaraNa_kara^anukaraNa_kara
 anu_sWA1,v,yaWA_SAswra_varwa^upayoga_meM_lA^sate_raha^lataka^cipake_raha
 anu_vA1,v,anusaraNa_kara^pICe
 anu_varN1,v,varNana_kara
 anu_vax1,v,pICe_se_bola
-anu-vax2,v,pICe_bola
+anu_vax2,v,pICe_bola
+anu_vi_XA1,v,anugAmI_bana^sAWa_meM_cala^ added this meaning but I am not sure about this meaning.
 anu_vqw1,v,AramBa_kara
 anu_vqw3,v,pICe_cala
 anu_wakR1,v,XAra_lagA
@@ -160,6 +164,7 @@ anx1,v,bAMXa^pA^hAsila_kara,banXane
 anXa1,v,anXA_ho^xiKAI_na_xe^AMKe_mUMxa,xqRtyupaGAwe
 Ap1,v,vyApwa_ho^vyApa,vyApwO
 Ap2,v,prApwa_ho^pA,lamBane
+apa_Af_vq1,v,KulA_ho
 apa_ci1,v,nASa_kara
 apa_gam1,v,lOta_jA
 apa_hq1,v,apaharaNa_kara^corI_kara
@@ -171,7 +176,7 @@ apa_kqR1,v,baha
 apa_mA2,v,upamA_xe
 apa_mqj1,v,pra
 apa_nI1,v,le_jA^haraNa_kara
-apa_nux1,v,xUra_kara
+apa_Nux1,v,xUra_kara_saka
 apa_rAX2,v,aparAXa_kara
 apa_sq1,v,lOta^pICe_jA
 apA_Sri1,v,Coda
@@ -185,7 +190,7 @@ A_raB1,v,AramBa_kara
 arb1,v,jA,gawO
 arc1,v,pUjA_kara^mAna_kara,pUjAyAm
 arc2,v,pUjA_kara^arcanA_kara,pUjAyAm
-arh1,v,pUjA_kara,pUjAyAM_yogyawve_ca
+arh1,v,yogya_ho^pUjA_kara,pUjAyAM_yogyawve_ca
 arh2,v,pUjA_kara^arcanA_kara,pUjAyAM_yogyawve_ca
 arh3,v,pUjA_kara^arcanA_kara,pUjAyAM_yogyawve_ca
 arj1,v,sampAxana_kara^pA^pExA_kara,arjane
@@ -199,7 +204,7 @@ arx2,v,hiMsA_kara^mAra,hiMsAyAm
 As1,v,bETa,upaveSane
 as1,v,jA^camaka^le,gawi-xIpwi-AxAneRu
 aS1,v,PEla^rASi_kara^Dera_kara,vyApwO_saMGAwe_ca
-as2,v,ho1
+as2,v,ho
 aS2,v,KA^BojanA_kara,Bojane
 as3,v,Peka,kRepaNe
 asUya_nAma,v,IrRyA_kara
@@ -349,7 +354,7 @@ BU1,v,ho,sawwAyAm
 BU2,v,prApwa_kara^mila_jA^cinwana_kara,prApwO
 bufg1,v,wyAga_xe,varjane
 Buj1,v,teDA_ho,kOtilye
-Buj2,v,JukA^saMrakRaNa_kara^pAlana_kara^KA^BakRaNa_kara,pAlana-aByavahArayoH
+Buj2,v,KA^BakRaNa_kara^JukA^saMrakRaNa_kara^pAlana_kara,pAlana-aByavahArayoH
 bukk1,v,BOMka^kuwwe_ke_samAna_Sabxa_kara,BaRaNe
 bukk2,v,BOMka^kuwwe_ke_samAna_Sabxa_kara,BaRaNe
 bul1,v,AcCAxiwa_kara^lapeta,nimajjane
@@ -854,7 +859,8 @@ klinx1,v,ro^Soka_kara,parixevane
 klinx2,v,ro^Soka_kara,parixevane
 kliS1,v,rogI_ho^xuHKI_ho^xuHKa_sahana_kara,upawApe
 kliS2,v,kleSa_xe^harakawa_kara^xuHKa_sahana_kara,vibAXane
-klix1,v,Arxa_ho^gIlA_ho,ArxrIBAve
+klix1,v,vilApa^ronA_Xo^Kexa_ho^pScAwwApa_ho,parixevane
+klix2,v,gIlA_ho^Arxra_ho,ArxrIBAve
 klu1,v,jA,gawO
 kmar1,v,SarIra_se_teDA_ho^mana_se_teDA_ho,hUrcCane
 knas1,v,Sabxa_kara,Sabxe
@@ -1302,6 +1308,7 @@ ni_vix5,v,samaJA
 ni_vq2,v,rokA
 ni_vqw1,v,nivqwwa_ho^virawa_ho^hatA
 nix1,v,xoRa_lagA^ninxA_kara^samIpa_jAnA_yA_A,kuwsA-sannikarRayoH
+Nix1,v,ninxA_kara
 ni_XA1,v,Upara_le^uwpanna_ho^XAraNa_kara
 ni_xrA1,v,so
 ni_XyE1,v,SoXa^DUMDa
@@ -1347,6 +1354,7 @@ parA_ji1,v,parAjiwa_ho
 parA_jri1,v,parAjiwa_ho^parAjaya_kara
 parA_kq3,v,nirAkaraNa_kara
 parb1,v,jA,gawO
+pari_ava_RWA1,v,BalIBAzwi_sWira_ho_jA
 pari_Ap1,v,wqpwi_kara^pUrwi_kara
 pari_ci1,v,pahacAna
 pari_Gatt2,v,PElA^Gota
@@ -1448,11 +1456,14 @@ pra_Ap1,v,prApwa_ho
 pra_Ap1,v,prApwa_kara
 pra_A_raB1,v,prAramBa_kara
 pra_ax1,v,KA
+pra_BAR1,v,bola
 pra_BU1,v,prakata_ho^nikala
 praC1,v,pUCa^jAnane_kI_icCA_kara,jFIpsAyAm
 pra_cal1,v,cala
 pra_car2,v,pracAra_kara
 pra_han1,v,Upara_raKa^prahAra_kara^mAra
+pra_has1,v,hazsa
+pra_hA1,v,Coda_xe^wyaga_kara
 pra_hq1,v,prahAra_kara^mAra
 pra_Ir2,v,preraNA_kara
 pra_kq3,v,prAramBa_kara^jalxI_kara
@@ -1480,6 +1491,7 @@ pra_su1,v,uwpanna_kara^garBa_XAraNa_kara
 pra_sWA1,v,jA^Age_jA^sWApiwa_kara
 pra_swu1,v,praswuwa_kara
 pra_vA1,v,jA
+pra_vax1,v,bola^kaha
 pravi_pax2,v,Tahara^sWApanA_kara
 pra_viS1,v,praveSa_kara
 pra_vqR1,v,varRA_ho
@@ -1522,6 +1534,7 @@ prawyuw_vA1,v,sAmane_jA
 pra_xA1,v,xe
 pra_xA3,v,xe
 pra_xiS1,v,niyawa_kara
+pra_xih1,v,sana_jA^cikanAI_lapetI_huI
 pra_xuR1,v,awyanwa_xURiwa_ho
 pra_xqS1,v,jAna^xeKa
 pra_yaw1,v,prayawna_kara
@@ -1739,11 +1752,12 @@ sam_gam1,v,sAWa_jA
 sam_grah1,v,ekawra_kara
 saMgrAma1,v,yuxXa_kara^ladAI_kara,yuxXe
 sam_han1,v,hiMsA_kara^mAra^ekawra_kara
+sam_hq1,v,sameta_le^hatA_le
 sam_hve1,v,yuxXa_ke_lie_bulA
 sam_i1,v,mila
 sam_Ir2,v,vAyu_ke_samAna_jA
 sam_IkR1,v,samIkRA_kara
-sam_jan2,v,uwpanna_kara^pExA_kara,janane
+sam_jan2,v,uwpanna_ho^pExA_ho,praxurBAve
 sam_jFA2,v,acCI_waraha_jAna^prawijFA_kara^vacana_xe
 sam_ji1_NiC,v,ho
 sam_kala1,v,wAwparya_kaha^saMkalana_kara^milA
@@ -1795,7 +1809,8 @@ sam_wQ1,v,acCI_waraha_se_wara_jA
 sam_XA1,v,sWApanA_kara^raKa^niSAnA_lagA
 sam_yA1,v,Gera^lapeta
 sam_yam1,v,xe
-sam_yam1,v,roka^niyanwraNa^prawibanXa     #dont found the meaning sam_yam1=xe so I have added this meaning 
+sam_yam1,v,roka^niyanwraNa^prawibanXa     #dont found the meaning sam_yam1=xe so I have added this meaning
+sam_yam2,v,vaSa_meM_kara
 sam_yuj1,v,lagA
 sam_yuj2,v,yukwa_kara
 saN1,v,sevA_kara^Apaxgraswa_ho,samBakwO
@@ -1980,7 +1995,7 @@ su3,v,snAna_kara^yanwrAxi_xvArA_arka_nikala^maWa^maxya_cuA,aBiRave
 SuB1,v,BARaNa_kara^bola^mAra^SoBApA^camaka,BARaNe
 SuB2,v,SoBA_xe,xIpwO
 SuB4,v,sunxara_ho^SoBAyAn_ho,SoBArWe
-Suc1,v,cinwA_kara^Soka_kara,Soke
+Suc1,v,Soka_kara^cinwA_kara,Soke
 Suc2,v,SuxXa_ho^snAna_kara^paviwra_ho,pUwIBAve
 sUca1,v,sUcanA_xe^bAwa_kaha^xUsare_kI_nyUnawA_xiKA,pESunye
 Sucy1,v,snAna_kara^sAra_nikAla^maWa^CApa,aBiRave
@@ -2109,11 +2124,13 @@ upa_hq1,v,BeMta_xe^samIpa_lA
 upa_hve1,v,yuxXa_ke_lie_bulA
 upa_hu1,v,havana_kara
 upa_i1,v,vApasa_A^sahAyawA_kara
+upa_jan2,v,uwpanna_ho^pExA_ho,praxurBAve
 upa_jFA2,v,pahale_samaJa
 upa_kq3,v,upakAra_kara
 upa_kruS1,v,xAga_lagA^xoRa_xe
 upa_lakR1,v,boXa_kara
 upa_nI1,v,Boga
+upa_pax1,v,uciwa_ho
 upa_pax2,v,uwpanna_kara^samIpa_raha^cipaka_ke_raha
 upa_ram1,v,uparAma_ho_jA
 upa_ruX1,v,Gera
@@ -2170,6 +2187,7 @@ uw_RWA1,v,Kade_ho_jA
 uw_SmIl1,v,jAga^Kila^PEla
 uw_sq1,v,xUra_ho
 uw_sqj1,v,Coda_xe
+uw_SuR1,v,suKA_xe^murJA_xe^kumhalA
 uw_Svas1,v,vivasiwa_ho^praPulliwa_ho^Kila
 uw_sWA1,v,KadA_hoM^Asana_se_uTa
 uw_vah1,v,uTA
@@ -2267,6 +2285,7 @@ veW1,v,mAMga^yAcanA_kara,yAcane
 vI1,v,jA^Gera^AkramaNa_kara^garBavawI_ho^garBaXAraNa_kara^camaka^PeMka^KA^BakRaNa_kara,gawi-vyApwi-prajana-kAnwi-asana-KAxaneRu
 vi_anu_Nax2,v,UzcI_gUzja^prawiXvani
 vi_Ap1,v,vyApa
+vi_awi_wQ1,v,BalIBAzwi_wara_jA
 vi_ax1,v,kAta^kawara_xe^cabA
 vi_BAja1,v,viBAjana_kara
 vi_BU1,v,ASraya_xe^pAlana_kara
@@ -2283,14 +2302,17 @@ vi_gal2,v,najaxIka_jA^maxaxa_le
 vi_Gatt2,v,mAMja^Xo^bigAda
 vi_grah1,v,Jagada^alaga_alaga_kara
 vi_has1,v,hazsa
+vi_hA1,v,wyAga^CodZa
 vi_hve1,v,yuxXa_ke_lie_bulA
 vi_i1,v,vyaya_kara^viXvaMsa_kara
 vij1,v,pqWaka_kara^alaga_ho,varaNe
 vij2,v,dara^dara_se_kampiwa_ho^kAMpa^Apaxgraswa_ho^cala,Baya-calanayoH
+vi_jFA1,v,jAna
 vi_jFA2,v,spaRta_jAna
 vi_ji1,v,jIwa
 vi_jri1,v,jIwa
 vi_kala1,v,vyAkula_ho
+vi_kap1,v,asWira_ho^caMcala_ho^BayaBIwa_ho
 vi_kas1,v,Kila
 vi_kQ1,v,virala_kara
 vi_kq3,v,baxala^kampiwa_kara
@@ -2302,12 +2324,14 @@ vil2,v,udA^PeMka^preraNA_kara,kRepe
 vi_lap1,v,vilApa_kara
 vi_luFj2,v,BAga_jA^vixAraNa_kara^girA
 vi_lup2,v,lupwa_kara
+vi_muh1,v,mohiwa_ho
 vi_mqS1,v,vimarSa_kara
 vi_nI1,v,namra_ho^prArWanA_kara
 vini_kRip2,v,xe
 vinir_ci1,v,TIka_niScaya_kara
 vinir_nI1,v,nyAya_se_vicAra_kara^nyAya_kara
 vinir_xiS1,v,sAPa
+vi_ni_vqw1,v,nivqwwa_ho_jA
 vi_ni_yuj1,v,lagA
 vi_Nax1,v,bajA
 vini_yuj2,v,vyaya_kara^niyamiwa_kara
@@ -2326,6 +2350,7 @@ vi_rah1,v,alaga_ho^Binna_ho
 vi_rah2,v,alaga_ho^Binna_ho
 vi_ram1,v,ruka
 vi_ram1,v,virAma_kara^sWira_raha
+vi_Rax1,v,Soka_kara
 vi_ric1,v,mala_SuxXi_ho
 viRk1,v,mAra_dAla,hiMsAyAm
 viRka1,v,xeKa,xarSane
@@ -2360,6 +2385,7 @@ vix3,v,prApwa_kara,lABe
 vix4,v,manana_kara^vicAra_kara,vicArane
 vix5,v,SarIra_kI_suXa_raKa^samaJa^jAna,cewanA-AKyAna-nivAseRu
 vi_XA1,v,kara^kaha^pasanxa_kara^AjFA_kara
+vi_XI1,v,ho
 vi_XU4,v,prakalpiwa_kara^kRoBiwa_kara
 vi_xyuw1,v,camaka
 vi_xQ2,v,vixIrNa_kara

@@ -29,6 +29,7 @@ karmaNi_lat_sma,yA_jAwA_WA
 karmaNi_lut,yA
 karmaNi_laf,yA_gayA
 karmaNi_lot,subj
+BAve_lot,subj
 karmaNi_lqt,gA
 karmaNi_lqf,yA_gayA
 karwari_laf,yA
@@ -60,6 +61,7 @@ kwavawu_fin,yA
 Sawq,wA_huA
 wasil,se
 SAnac,wA_huA
+SAnac_lat,wA_huA
 wumun,nA~ke_liye
 wumunkI,nA~kI
 wumun0,0
