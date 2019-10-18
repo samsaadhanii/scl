@@ -40,7 +40,7 @@ print $word,"=";
 
 # Current  Following  Actions				
 #  1        2,3       print, remove analysis with 2,3	
-#  1        4         Skip				
+#  1        4         Skip			
 #  2,3      1,4       Skip				
 #  2        3         print				
 #  3        2         print				
@@ -48,28 +48,23 @@ print $word,"=";
 
   $ans = "";
   foreach ($i=0; $i<=$#analysis;$i++){
-     #print "i=$i", $analysis[$i],"\n";
      $tmp = $analysis[$i];
      $tmp =~ s/<level:[1234]>//;
-     #print "tmp=", $tmp,"\n";
-     #print "analysis = $#analysis\n";
      if($#analysis == 0) { $ans = $analysis[$i];}
      else {
       $diff = 1;
       foreach ($j=$i+1; $j <= $#analysis; $j++){
        if($analysis[$j] ne "") {
-       #print "j=$j", $analysis[$j],"\n";
          $tmp1 = $analysis[$j];
          $tmp1 =~ s/<level:[1234]>//;
-         #print "tmp1=", $tmp1,"\n";
          if ($tmp eq $tmp1) {
-           if($analysis[$i] eq $analysis[$j]) { $analysis[$j] = ""; $ans .= "/". $analysis[$i];}
+           if($analysis[$i] eq $analysis[$j]) { $analysis[$j] = ""; }
            elsif ((($analysis[$i] =~ /<level:1>/) && ($analysis[$j] =~ /<level:4>/))
           || (($analysis[$i] =~ /<level:[23]>/) && ($analysis[$j] =~ /<level:[14]>/)))
            { $diff = 0;}
            elsif ((($analysis[$i] =~ /<level:4>/) && ($analysis[$j] =~ /<level:[123]>/))
             || (($analysis[$i] =~ /<level:1>/) && ($analysis[$j] =~ /<level:[23]>/)))
-            {$analysis[$j] = "";} 
+            {$analysis[$j] = "";}
 #	      $tmp =~ s/nA_[^>]+>/nA>/;  # This is to remove the taddhita analysis, if present
 #	      $tmp1 =~ s/nA_[^>]+>/nA>/;  # This is to remove the taddhita analysis, if present
            #print "ans = $ans\n";

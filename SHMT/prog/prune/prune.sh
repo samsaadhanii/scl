@@ -24,7 +24,7 @@ export BIN_PATH=$SCLINSTALLDIR/SHMT/prog/prune
 #wvam mawwaH SqNu; here we need wasil analysis
 #$BIN_PATH/rm_wasil.pl  |\
 $BIN_PATH/handle_special_words_repetitive.pl  |\
-#$BIN_PATH/rm_duplicate_ans.pl  |\
+$BIN_PATH/rm_duplicate_ans.pl  |\
 #$BIN_PATH/rm_non_apte.pl $SCLINSTALLDIR $BIN_PATH/default_gen.dbm $BIN_PATH/apte_pratipadik.dbm $SHMT_PATH/prog/morph/rUDa_kqw.gdbm |\
 $BIN_PATH/rm_non_apte.pl $SCLINSTALLDIR $BIN_PATH/default_gen.txt $SHMT_PATH/prog/morph/rUDa_kqw.txt  |\
 #$BIN_PATH/retain_only_inflectional_if_exists.pl  |\
