@@ -63,6 +63,7 @@ $val = $2;
 $TAM{$key}=$val;
 }
 close(TMP);
+print $TAM{"SAnac_lat"};
 
 open(TMP,"$Data_Path/hi/verb.txt") || die "Can't open verb.tam for reading";
 while(<TMP>) {
@@ -169,7 +170,7 @@ while($tmpin = <STDIN>){
       } elsif($cat eq "kqw-noun") {
 
        ($rt, $kqw, $XAwu, $gaNa, $kqw_pratipadika, $lifgam, $viBakwi, $vacana) = 
-         split(/:/, &get_kqw_noun_features($in[$i]));
+        split(/:/, &get_kqw_noun_features($in[$i]));
 
        $key = $kqw_pratipadika."_".$lifgam;
 
@@ -483,7 +484,7 @@ my($in) = @_;
 
 my($ans);
 
-  if($in =~ /^.*rt:([^;]+).*kqw_prawyayaH:([^;]+);XAwuH:([^;]+);gaNaH:([^;]+).*kqw_pratipadika:([^;]+).*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;}]+)/){
+  if($in =~ /^.*rt:([^;]+).*kqw_prawyayaH:([^;]+);.*XAwuH:([^;]+);gaNaH:([^;]+).*kqw_pratipadika:([^;]+).*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;}]+)/){
 
      $rt = $1;
      $kqw_prawyayaH = $2;
@@ -493,6 +494,9 @@ my($ans);
      $lifgam = $6;
      $viB = $7;
      $vacana = $8;
+     if($in =~ /kqw_prawyayaH:([^;]+);prayogaH:([^;]+)/) {
+        $kqw_prawyayaH = $1."_".$2;
+      }
   if ($in =~ /upasarga:([^;]+)/) { $rt = $1."_".$rt;}
   if ($in =~ /sanAxi_prawyayaH:([^;]+)/) { $rt = $rt."_".$1;}
   $ans = join(":",$rt,$kqw_prawyayaH,$XAwu,$gaNa,$kqw_prAwipaxika,$lifgam,$viB,$vacana);
