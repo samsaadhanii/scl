@@ -297,7 +297,7 @@ value no_crossing text_type rel m1 m2 = match m1 with
     [ Relationc (to_id1,to_mid1,r1,from_id1,from_mid1) -> match m2 with
       [Relationc (to_id2,to_mid2,r2,from_id2,from_mid2) -> 
            (* Crossing edges not allowed except niwya_sambanXaH (=2) and samucciwa (=53) *)
-           (* Crossing edges allowed even with RaRTI(=35), ViSeRaNa(=32) andd aBexaH (=33) *)
+           (* Crossing edges allowed even with RaRTI(=35), ViSeRaNa(=32) and aBexaH (=33) *)
          if  (   (    between to_id1 to_id2 from_id2
                    || between from_id1 to_id2 from_id2
                  )
@@ -307,8 +307,9 @@ value no_crossing text_type rel m1 m2 = match m1 with
              )
              && not (r1=2)  && not (r1=90) (*&& not(r1=53) && not (r2=53)*) (*&& not (r1=59) && not(r2=59)*)
              && not (r2=2) && not (r2=90)
-             && not ((r1 = 35) || (r1 = 32) || (r1 = 22) || (r1 = 33) ||
-                     (r2 = 35) || (r2 = 32) || (r2 = 22) || (r2 = 33))
+             && not ((r1 = 32) || (r1 = 22) || (r1 = 33) ||
+                     (r2 = 32) || (r2 = 22) || (r2 = 33))
+             (* removed 35 temporarily *)
          then (*False else True*)
               let length = List.length rel -1 in
               loop False 0 
@@ -445,10 +446,10 @@ value relation_mutual_yogyataa m1 m2 = match m1 with
     [ Relationc (to_id1,to_mid1,r1,from_id1,from_mid1) -> match m2 with
       [Relationc (to_id2,to_mid2,r2,from_id2,from_mid2) -> 
          if from_id2=to_id1 && from_mid2=to_mid1
-                && (r1=26 || r1 = 32) && r2=35 (* a RaRTI of a kriyAviSeRaNa or a viSeRaNa is not allowed *)
+                && (r1=26 || r1 = 32) && r2=35 (* a RaRTI of a kriyAviSeRaNa or a viSeRaNa is not allowed ; removed aBexa; RaRTI of aBexa is allowed; SriyaH pawiH*)
          then False
          else if from_id1=to_id2 && from_mid1=to_mid2
-                && (r2=26 || r2 = 32) && r1=35 (* a RaRTI of a kriyAviSeRaNa or a viSeRaNa is not allowed *)
+                && (r2=26 || r2 = 32) && r1=35 (* a RaRTI of a kriyAviSeRaNa or a viSeRaNa is not allowed ; removed aBexa; RaRTI of aBexa is allowed; SriyaH pawiH*) 
          then False
          else if from_id1=to_id2 && from_mid1=to_mid2
                 && r2=32 && r1=32 (* a viSeRaNa of a viSeRaNa is not allowed *)
@@ -461,6 +462,18 @@ value relation_mutual_yogyataa m1 m2 = match m1 with
          then False
          else if from_id2=to_id1 && from_mid2=to_mid1
                 && r2=33 && r1=33 (* an aBexa of an aBexa is not allowed *)
+         then False
+         else if from_id1=to_id2 && from_mid1=to_mid2
+                && r2=33 && r1=32 (* an aBexa of a viSeRaNa is not allowed *)
+         then False
+         else if from_id2=to_id1 && from_mid2=to_mid1
+                && r2=32 && r1=33 (* an aBexa of a viSeRaNa is not allowed *)
+         then False
+         else if from_id1=to_id2 && from_mid1=to_mid2
+                && r2=32 && r1=33 (* a viSeRaNa of an aBexa is not allowed *)
+         then False
+         else if from_id2=to_id1 && from_mid2=to_mid1
+                && r2=33 && r1=32 (* a viSeRaNa of an aBexa is not allowed *)
          then False
          else if from_id2=to_id1 && from_mid2=to_mid1
                 && r2=47  && not (r1 = 13) (* a samboXyaH can be only of the root verb  or an embeded verb in iwi clause *)
@@ -608,7 +621,7 @@ value populate_compatible_lists text_type rel total_wrds =
      }
     
    ; for i = 0 to length do {
-      compatible_relations.(i+1) := List.sort compare compatible_relations.(i+1)
+      compatible_relations.(i+1) := List.sort_uniq compare compatible_relations.(i+1)
       ;compatible_all_words.(i+1) := List.length (List.sort_uniq compare compatible_words.(i+1)) = total_wrds
 
  (* compatible_all_words.(i+1) is a boolean, it is true if the i+1th word is potentially related to all other words in the sentence.
