@@ -1132,18 +1132,18 @@ value get_vibhakti m parse = match m with
                                 then 0 (* raise exception *)
 				else if (prayoga1 = "karwari") then 2 
                                 else if (members_of upasarga1 rt1 xvikarmaka1)
-                                then 1
-                                else if (members_of upasarga1 rt1 xvikarmaka2)
                                 then 2
+                                else if (members_of upasarga1 rt1 xvikarmaka2)
+                                then 1
 				else 0 (* this case does not arise *)
               |"gONakarma" ->  if   not (members_of upasarga1 rt1 xvikarmaka1)
                                 &&  not (members_of upasarga1 rt1 xvikarmaka2)
                                 then 0 (* raise exception *)
 				else if (prayoga1 = "karwari") then 2 
                                 else if (members_of upasarga1 rt1 xvikarmaka1)
-                                then 2
-                                else if (members_of upasarga1 rt1 xvikarmaka2)
                                 then 1
+                                else if (members_of upasarga1 rt1 xvikarmaka2)
+                                then 2
 				else 0 (* this case does not arise *)
               |"karmasamAnAXikaraNam" -> if (prayoga1 = "karwari") 
                                          then 2 else 0 (* raise exception *)
