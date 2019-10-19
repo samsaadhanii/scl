@@ -185,6 +185,10 @@ value collapse_upapada_relations relations part_dag a b c d e =
                      (* for saha and vinA grouping *)
                     (*else if (c >=4000)
                     then List.append acc1 [Relationc (u,v,0,x,y)] *)
+                    else if (c = 200) (*gawikarwA -> karwA *)
+                    then List.append acc1 [Relationc (a,b,7,d,e)] 
+                    else if (c = 201) (*gawikarma -> karma *)
+                    then List.append acc1 [Relationc (a,b,14,d,e)] 
 		    else acc1
                 in let acc3 = List.append acc acc2 
                 in  loop acc3 relations l
@@ -305,13 +309,14 @@ value no_crossing text_type rel m1 m2 = match m1 with
                    || between from_id2 to_id1 from_id1
                  )
              )
-             && not (r1=2)  && not (r1=90) (*&& not(r1=53) && not (r2=53)*) (*&& not (r1=59) && not(r2=59)*)
-             && not (r2=2) && not (r2=90)
-             && not ((r1 = 32) || (r1 = 22) || (r1 = 33) ||
-                     (r2 = 32) || (r2 = 22) || (r2 = 33))
-             (* removed 35 temporarily *)
-         then (*False else True*)
-              let length = List.length rel -1 in
+             && not (r1=2 || r1=90 || r1 = 22 || r1 = 47 || r1=29 || r1=30)
+             && not (r2=2 || r2=90 || r2=22 || r2=47 || r2=29 || r2=30)
+             && (((not ((r1 = 32) || (r1 = 33) || (r1=35) ||
+                     (r2 = 32) || (r2 = 33)) || (r2=35)) && text_type="Sloka")
+                 || text_type = "Prose")
+             (* removed RaRTI, viSeRaNa, aBexa, temporarily *)
+         then False else True
+             (* let length = List.length rel -1 in
               loop False 0 
               where rec loop acc j = 
               if j > length then acc else
@@ -325,8 +330,8 @@ value no_crossing text_type rel m1 m2 = match m1 with
                   then loop True (length+1) 
                   else loop False (j+1) 
                | _  ->  True
-               ]
-         else True 
+               ] 
+         else True  *)
       ]
     ]
 ;
@@ -337,11 +342,17 @@ value no_crossing text_type rel m1 m2 = match m1 with
 value relation_mutual_expectancy text_type m1 m2 = match m1 with
     [ Relationc (to_id1,to_mid1,r1,from_id1,from_mid1) -> match m2 with
       [Relationc (to_id2,to_mid2,r2,from_id2,from_mid2) -> 
-           (* If there is a vAkyakarma-xyowaka, then there can not be a karma  but there can be gONa / muKya karma*)
+              (* There can not be both gawi karma and gawi karwA simultaneously *)
          if (from_id1 = from_id2) && (from_mid1 = from_mid2)
+              && ( (r1 = 200 && r2 = 201)
+                 ||( r2 = 200 && r1 = 201))
+         then False (* do { print_string "C12"; False} *)
+           (* If there is a vAkyakarma-xyowaka, then there can not be a karma  but there can be gONa / muKya karma*)
+         else if (from_id1 = from_id2) && (from_mid1 = from_mid2)
               && ( (r1 = 97 && (r2 = 14 || r2 = 11 || r2 = 12))
                  ||( r2 = 97 && (r1 = 14 || r1 = 11 || r1 = 12)))
          then False (* do { print_string "C12"; False} *)
+           (* If there is a karma, then there can not be a gONa or muKyakarma *)
            (* If there is a karma, then there can not be a gONa or muKyakarma *)
          else if (from_id1 = from_id2) && (from_mid1 = from_mid2)
               && (  ((r2 = 11 || r2 = 12) && (r1 = 14))
