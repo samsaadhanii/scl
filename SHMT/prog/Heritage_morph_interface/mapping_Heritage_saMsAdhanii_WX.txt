@@ -1311,7 +1311,7 @@ BvAxiH	pA	pAne	pa.pa	pA#1	pA1	pA
 BvAxiH	GrA	ganXopAxAne	pa.pa	GrA	GrA1	GrA
 BvAxiH	XmA	agnisaMyoge	pa.pa	Xam	XmA1	XmA
 BvAxiH	XmA	Sabxe	pa.pa	-	XmA1	XmA
-BvAxiH	RTA	gawinivqwwO	pa.pa	sWA#1	RTA1	sWA
+BvAxiH	RWA	gawinivqwwO	pa.pa	sWA#1	RWA1	sWA
 BvAxiH	mnA	aByAse	pa.pa	mnA	mnA1	mnA
 BvAxiH	xAN	xAne	pa.pa	xA#1	xA1	xA
 BvAxiH	hvq	kOtilye	pa.pa	hvq	hvq1	hvq
