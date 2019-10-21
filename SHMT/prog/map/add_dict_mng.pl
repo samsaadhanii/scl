@@ -63,7 +63,6 @@ $val = $2;
 $TAM{$key}=$val;
 }
 close(TMP);
-print $TAM{"SAnac_lat"};
 
 open(TMP,"$Data_Path/hi/verb.txt") || die "Can't open verb.tam for reading";
 while(<TMP>) {
