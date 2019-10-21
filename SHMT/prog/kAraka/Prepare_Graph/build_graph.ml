@@ -3356,10 +3356,10 @@ value sent_beginning_connectives id1 mid1 id2 mid2 rt2 upasarga2 word1 text_type
               |"waWA"
               |"waWEva"
               |"wawwvawaH"
-              |"waxananwaram"
-              |"wu"	-> if (no_boundary_crossing id1 id2 text_type || (id1 = 1))
+              |"waxananwaram" -> if (no_boundary_crossing id1 id2 text_type || (id1 = 1))
 			   then  [ Relation (id1,mid1,"sambanXaH",id2,mid2,"38.4") ]
 			    else []
+                            (*|"wu"  wu is never used in the beginning of a sentence; we always show its relation with the previous word, and then disambiguate*)
               | _ -> []
               ]
               else []
