@@ -54,5 +54,6 @@ use CGI qw/:standard/;
  print TMP $LTPROC_IN;
  close (TMP);
 
- $str = "echo '".$LTPROC_IN."' | $generator | grep . | pr --columns=3 --across --omit-header | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1| $GlblVar::SCLINSTALLDIR/skt_gen/waxXiwa/noun_format_html.pl $rt_wx $lifga_wx";
+ #$str = "echo '".$LTPROC_IN."' | $generator | grep . | pr --columns=3 --across --omit-header | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1| $GlblVar::SCLINSTALLDIR/skt_gen/waxXiwa/noun_format_html.pl $rt_wx $lifga_wx";
+ $str = "echo '".$LTPROC_IN."' | $generator | grep . | pr -3 -a -t | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1| $GlblVar::SCLINSTALLDIR/skt_gen/waxXiwa/noun_format_html.pl $rt_wx $lifga_wx";
  system($str);

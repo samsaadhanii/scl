@@ -55,5 +55,6 @@ $myPath = $GlblVar::SCLINSTALLDIR;
  } #vib
  chomp($LTPROC_IN); # To chomp the last \n, else it produces an extra blank line in the o/p of lt-proc
 
- $str = "echo '".$LTPROC_IN."' | $generator | grep . | pr --columns=3 --across --omit-header | $myPath/converters/ri_skt | $myPath/converters/iscii2utf8.py 1 | $myPath/skt_gen/noun/noun_format_html.pl '' $prAwi_wx $lifga";
+ #$str = "echo '".$LTPROC_IN."' | $generator | grep . | pr --columns=3 --across --omit-header | $myPath/converters/ri_skt | $myPath/converters/iscii2utf8.py 1 | $myPath/skt_gen/noun/noun_format_html.pl '' $prAwi_wx $lifga";
+ $str = "echo '".$LTPROC_IN."' | $generator | grep . | pr -3 -a -t  | $myPath/converters/ri_skt | $myPath/converters/iscii2utf8.py 1 | $myPath/skt_gen/noun/noun_format_html.pl '' $prAwi_wx $lifga";
  system($str);

@@ -56,8 +56,13 @@ $rt_wx=&convert($encoding,$rt,$GlblVar::SCLINSTALLDIR);
 chomp($rt_wx);
 
 $LTPROC_IN = "";
-$ltproc_cmd3 = "$GlblVar::LTPROCBIN -c -t $GlblVar::SCLINSTALLDIR/morph_bin/skt_taddhita_gen.bin | pr --columns=3 --across --omit-header | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
-$ltproc_cmd1 = "$GlblVar::LTPROCBIN -c -t $GlblVar::SCLINSTALLDIR/morph_bin/skt_taddhita_gen.bin | pr --columns=1 --across --omit-header | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
+#$ltproc_cmd3 = "$GlblVar::LTPROCBIN -c -t $GlblVar::SCLINSTALLDIR/morph_bin/skt_taddhita_gen.bin | pr --columns=3 --across --omit-header | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
+
+$ltproc_cmd3 = "$GlblVar::LTPROCBIN -c -t $GlblVar::SCLINSTALLDIR/morph_bin/skt_taddhita_gen.bin | pr -3 -a -t | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
+
+#$ltproc_cmd1 = "$GlblVar::LTPROCBIN -c -t $GlblVar::SCLINSTALLDIR/morph_bin/skt_taddhita_gen.bin | pr --columns=1 --across --omit-header | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
+
+$ltproc_cmd1 = "$GlblVar::LTPROCBIN -c -t $GlblVar::SCLINSTALLDIR/morph_bin/skt_taddhita_gen.bin | pr -1 -a -t | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
 
 $rtutf8 = `echo $rt_wx | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;
 

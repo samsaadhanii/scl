@@ -36,7 +36,8 @@ use CGI qw/:standard/;
  #$generator = "/usr/bin/lt-proc -ct $myPATH/morph_bin/skt_gen.bin";
  $generator = "$GlblVar::LTPROCBIN -ct $GlblVar::SCLINSTALLDIR/morph_bin/wif_gen.bin";
 
- my $ltproc_cmd = "$generator | grep . | pr --columns=3 --across --omit-header --width=300| $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
+ #my $ltproc_cmd = "$generator | grep . | pr --columns=3 --across --omit-header --width=300| $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
+ my $ltproc_cmd = "$generator | grep . | pr -3 -a -t -w 300| $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
 
 # print "encoding = $encoding\n";
  if($encoding ne "WX"){
