@@ -18,6 +18,8 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 
+use utf8;
+
 require "../paths.pl";
 require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
