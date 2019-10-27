@@ -17,10 +17,12 @@ void cnvrtutfd2r(char in[], char out[]){
   char tmp[MEDIUM];
 
   pid = getpid();
-  sprintf(fin,SCLINSTALLDIR);
+  /*sprintf(fin,SCLINSTALLDIR);*/
+  sprintf(fin,TFPATH);
   sprintf(tmp,"/tmp%d",pid);
   strcat(fin,tmp);
-  sprintf(fout,SCLINSTALLDIR);
+  /*sprintf(fout,SCLINSTALLDIR);*/
+  sprintf(fout,TFPATH);
   sprintf(tmp,"/result%d",pid);
   strcat(fout,tmp);
 
@@ -31,7 +33,7 @@ void cnvrtutfd2r(char in[], char out[]){
   fprintf(fp,"%s ",in);
   fclose(fp);
 
-  sprintf(cmd,"%s/converters/utfd2r.sh < %s > %s",SCLINSTALLDIR,fin,fout);
+  sprintf(cmd,"%s/converters/utfd2r.sh %s < %s > %s",SCLINSTALLDIR,SCLINSTALLDIR,fin,fout);
   system(cmd);
 
   if((fp = fopen(fout,"r"))==NULL){
