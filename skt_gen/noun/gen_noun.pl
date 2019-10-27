@@ -20,7 +20,7 @@
 
 BEGIN{require "../../paths.pl";}
 
-use lib $GlblVar::LIB_PERL_PATH;
+#use lib $GlblVar::LIB_PERL_PATH;
 
 $myPATH=$GlblVar::SCLINSTALLDIR;
 
