@@ -18,7 +18,7 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 #use utf8;
-## Why utf8 is to be commented is not clear.
+## If utf8 is commented, then Devanagari input is not accepted
 ##If it is not commented, then we do not get proper colors in the output
 use strict;
 use warnings;
@@ -95,6 +95,7 @@ print "<table style=\"border-collapse: collapse;\" bordercolor='brown' valign='m
 my @ans=split(/\//,$ans);
 my $i = 0;
 if($ans ne "") {
+	#	print "ans = $ans\n";
  foreach $ans (@ans) {
 
    if($ans =~ /^[^{]+{लेवेल् 4}/) { $ans =~ s/^[^{]+{लेवेल् 4}//;}
