@@ -23,6 +23,8 @@ require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 
 package main;
 #use CGI qw/:standard/;
+#use URL::Escape;
+
 
   if($GlblVar::VERSION eq "SERVER") {
     if (! (-e "$GlblVar::TFPATH")){
@@ -33,7 +35,6 @@ package main;
 
 require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 
-print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
   my %param = &get_parameters();
 
@@ -76,14 +77,16 @@ print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
       # my $cgi = new CGI;
       if($morph eq "GH") {
          $sentences =~ s/\.//;
-         $cmd = "$GlblVar::HERITAGE_CGIURL?lex=SH\&cache=t\&st=t\&us=f\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=g";
-         print CGI-> redirect($cmd);
+	 $cmd = "$GlblVar::HERITAGE_CGIURL?lex=SH\&cache=t\&st=t\&us=f\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=g";
+	 #print CGI-> redirect($cmd);
+	 print "location:$cmd\n\n";
       } else {
          system("mkdir -p $GlblVar::TFPATH/tmp_in$pid");
          open(TMP,">$GlblVar::TFPATH/tmp_in$pid/wor.$pid") || die "Can't open $GlblVar::TFPATH/tmp_in$pid/wor.$pid for writing";
          print TMP $sentences,"\n";
          close(TMP);
 
+         print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 	 #  print $cgi->header (-charset => 'UTF-8');
            $sentences = '"'. $sentences  . '"';
            system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/callmtshell.pl $GlblVar::TFPATH $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot $sentences $encoding $pid $script $sandhi $morph $parse $text_type $GlblVar::LTPROCBIN");
