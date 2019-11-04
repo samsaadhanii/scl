@@ -84,10 +84,10 @@ z{NUKTA}				{
 					BEGIN INITIAL;
 					}
 
-<CONS>{NUKTA}				{
-					tmp='è';
+<CONS>{NUKTA}a				{
+					/*tmp='è';
 					tmp1='ê';
-					printf("%c%c",tmp,tmp1);
+					printf("%c%c",tmp,tmp1);*/
 					tmp='é';
 					printf("%c",tmp);
 					BEGIN INITIAL;
