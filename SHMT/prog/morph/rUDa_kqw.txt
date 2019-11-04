@@ -24,6 +24,7 @@ anuSAsaka
 anveRaka
 anXikA
 apakAraka
+aparAXa
 apakarRaka
 apalARikA
 apavAxaka
@@ -38,6 +39,7 @@ avawAraka
 avaXAraka
 AveRtaka
 Axya
+aXikAra
 BaFjaka
 BAjaka
 BakRaka
@@ -62,6 +64,7 @@ boXaka
 BrAjaka
 buxXi
 cAlaka
+cAlana
 campaka
 cAraka
 cArikA
@@ -149,6 +152,7 @@ nixarSaka
 PakkikA
 Pala
 pAlaka
+plavana
 pAwa
 paNdiwa
 parAkrama
