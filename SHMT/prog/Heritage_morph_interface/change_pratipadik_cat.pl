@@ -156,7 +156,8 @@ while($in = <STDIN>){
               $pUrva = $1; 
               $o_key = $2;
            } else { $pUrva = "";$o_key = $rt;}
-           $ana =~ s/<upasarga:A>/<upasarga:Af>/;
+	   #$ana =~ s/<upasarga:A>/<upasarga:Af>/;
+           $ana =~ s/<upasarga:([a-zA-Z_]*)A([^>]*)>/<upasarga:$1Af$2>/;
            if ($ana =~ /<upasarga:X>/) { $upa = "";}
            elsif ($ana =~ /<upasarga:([^>]+)>/) { $upa = $1;}
            if($upa ne "") {

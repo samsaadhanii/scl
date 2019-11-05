@@ -84,7 +84,7 @@
 \<morpho_infl\>	{}
 \<\/morpho_infl\>	{}
 \<morpho_gen\>	{}
-\<morpho_gen>[a-zA-Z]+	{strcpy(pv,yytext+12);
+\<morpho_gen>[a-zA-Z_]+	{strcpy(pv,yytext+12);
 			// strcat(pv,"_");
 			// Added 18 Jul 2015 to handle GH's new treatment of pvs
                         }
