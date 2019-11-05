@@ -255,7 +255,7 @@ void pUrvapaxa_cgi_interface(char *condition, char *pstrmod, char *pstrunmod, ch
 int chk_kqw(char *str, char *kqw_str){
 FILE *fp;
 char ans[VERYSMALL];
-char cmd[MEDIUM];
+char cmd[LARGE];
 char fin[MEDIUM];
 char fout[MEDIUM];
 char tmp[MEDIUM];

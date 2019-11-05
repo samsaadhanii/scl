@@ -132,7 +132,7 @@ void cnvrtwx2utf();
 void cnvrtutfd2r();
 
 int main (int argc, char *argv[]) {
-char cmd[MEDIUM];
+char cmd[LARGE];
 char avigraha[MEDIUM];
 char samAsaprakAra_utf[MEDIUMUTF];
 char samAsaprakAra_utfr[MEDIUMUTF];
@@ -182,7 +182,7 @@ char encoding[MEDIUM];
   return 1; 
 }
 
-void call_samAsaprakAralex(char *in){
+void call_samAsaprakAralex(char in[LARGE]){
   yy_scan_string(in);
   yylex();
 }
@@ -192,7 +192,7 @@ int yywrap()
 return 1;
 }
 
-void print_samAsaprakAra (char *avigraha, char *title, char *samAsaprakAra, char *sUwra)
+void print_samAsaprakAra (char avigraha[LARGE], char title[MEDIUM], char samAsaprakAra[MEDIUM], char sUwra[MEDIUM])
   {
      printf("<table><tr>");
      printf("<td><font color=\"blue\"> %s",avigraha);

@@ -740,7 +740,7 @@ void upasarjana_cgi_interface(char *question, int position, char *condition){
 int chk_kqw(char *str, char *kqw_str){
 FILE *fp;
 char ans[SMALL];
-char cmd[MEDIUM];
+char cmd[LARGE];
 char fin[MEDIUM];
 char fout[MEDIUM];
 int pid;

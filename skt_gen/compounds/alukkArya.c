@@ -60,9 +60,9 @@ return 1;
 
 void subanwa_kArya(char *prawi, char *iwsup, char *lifgam, int vacanam, char *subanwa) {
 int viBakwiH,sup_vacanam;
-char cmd[200]; 
+char cmd[LARGE]; 
 FILE *fp;
-char fout[100];
+char fout[MEDIUM];
 int pid;
 
 pid = getpid();

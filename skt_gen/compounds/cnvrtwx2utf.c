@@ -8,12 +8,12 @@
 
 extern void fgetword();
 
-void cnvrtwx2utf(char *in, char *out){
+void cnvrtwx2utf(char in[LARGE], char out[LARGE]){
   int pid;
   FILE *fp;
   char fin[MEDIUM];
   char fout[MEDIUM];
-  char cmd[MEDIUM];
+  char cmd[LARGE];
   char tmp[MEDIUM];
 
   pid = getpid();
