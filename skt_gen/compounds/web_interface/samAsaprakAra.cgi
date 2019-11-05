@@ -37,7 +37,7 @@ use warnings;
 
   my %param = &get_parameters();
 
-#if (param) {
+ #if (param) {
   my $encoding = $param{encoding};
   my $avigraha = $param{vigraha};
 
