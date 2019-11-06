@@ -20955,7 +20955,7 @@ swaniwa,puM,Xvaniwa^SabxAyamAna^kolAhalamaya^garajane_vAlA^xahAd.Zane_vAlA,puM
 sWAnIya,napuM,sWAnIya,puM
 sWAnIya,puM,sWAnaviSeRa_se_saMbaxXa^kisI_sWAna_kA^kisI_sWAna_ke_lie_upayukwa,puM
 sWANucCexa,puM,lakadZahArA{vaha_jo_vqkRoM_ke_wane_kAtawA_hE^jo_wane_ko_CIla_kara_sAPa_karawA_hE},puM
-sWANu,napuM,xqDZa^atala^sWira^tikAU^acala^gawihIna,puM
+sWANu,vi,xqDZa^atala^sWira^tikAU^acala^gawihIna,puM
 sWANu,puM,Siva{viSeRaNa}^teka^pola^swamBa^KUztI^kIla^XUpaGad.ZI_kA_SaMku,puM
 swanyamwyAga,puM,mAM_kA_xUXa_CudZAnA,puM
 swanya,napuM,swana_se,puM
