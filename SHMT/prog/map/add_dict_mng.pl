@@ -286,8 +286,18 @@ while($tmpin = <STDIN>){
 	  # If karma is absent in a sentence, then the verb is assumed 
 	  # to be akarmaka
 
- 	$key = $rt."_".$paxI."_".$transitivity;
+	  # First find the meaning with up, if not found then use the given paxI
+ 	$key = $rt."_up_".$transitivity;
 	$map_rt = &get_dict_mng($key, $rVERB);
+
+	#print "clean key =",&clean($key),"\n";
+	#print "key =",$key,"\n";
+	#print "map_rt =",$map_rt,"\n";
+
+	if($map_rt eq &clean($key)) {
+     	   $key = $rt."_".$paxI."_".$transitivity;
+	   $map_rt = &get_dict_mng($key, $rVERB);
+	}
 
 	if($map_rt eq $key) {
 	#This happens only if there is no karma, and the verb is only sakarmaka
@@ -573,7 +583,6 @@ sub get_dict_mng{
 my($rt,$rdatabase) = @_;
 my($ans) = "";
        
-#print "rt = $rt\n";
        if($$rdatabase{$rt} ne "") {
           $ans = &clean($$rdatabase{$rt});
 	  #print "ans = $ans\n";
@@ -589,8 +598,8 @@ my($ans) = "";
            chomp($ans);
 	   #print "ans = $ans\n";
           } else {
-          if($rt =~ /1_/) { $rt =~ s/1_/_/;} 
-          $rt =~ s/X_//; # In case of upasargas
+		  #if($rt =~ /1_/) { $rt =~ s/1_/_/;} 
+		  #$rt =~ s/X_//; # In case of upasargas
 #This has been added to take care of Names that are not to be translated.
           $ans = $rt;
 	  $ans =~ s/_puM/:puM/; 
