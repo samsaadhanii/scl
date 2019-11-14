@@ -25,6 +25,7 @@ while($in = <STDIN>){
   @in = split(/\n/,$in);
   $verb_pos = -1;
   $abhihita_pos = -1;
+  $karma = -1;
   
   for($i=0;$i<=$#in;$i++){
       if($in[$i] =~ /prayogaH:([^>]+)/) {
@@ -37,6 +38,10 @@ while($in = <STDIN>){
          if($prayogaH eq "karwari")  { $abhihita = "karwA";}
          elsif($prayogaH eq "karmaNi")  { $abhihita = "karma";}
 	 else { $abhihita = "";}
+      }
+      if($in[$i] =~ /karma,([0-9]+)/) { 
+	      $karma = $1;
+	      $in[$karma-1] =~ s/$/;sakarmaka/;
       }
   }
 
