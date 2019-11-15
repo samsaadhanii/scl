@@ -22,6 +22,7 @@ viRayAXikaraNam 23
 pUrvakAlaH 24
 aXikaraNam 25
 kriyAviSeRaNam 26
+nirXAraNam 27
 sambanXaH 28
 varwamAnasamAnakAlaH 29
 BaviRyawsamAnakAlaH 30
@@ -45,7 +46,6 @@ samuccayaxyowakaH 64
 sup_samuccayaxyowakaH 65
 anyawaraxyowakaH 66
 sup_anyawaraxyowakaH 67
-nirXAraNam 73
 lyapkarmAXikaraNam 78
 sahAyakakriyA 81
 vIpsA 82

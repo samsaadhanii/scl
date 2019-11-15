@@ -235,6 +235,10 @@ value nirXAraNa_list =
         read_list (datapath ^"AkAfkRA/nirXAraNa.txt") "%s %s"
 ;
 
+value amarakosha_jAwi = 
+        read_list (datapath ^"AkAfkRA/amarakosha_jAwi.txt") "%s %s"
+;
+
 (* value wAxarWya_list = [ ("yUpa","xAru"); ]
 ; *)
 
@@ -361,7 +365,7 @@ value mk_tuple r = match r with
  ;
  
 value rec mk_tuple_lst acc = fun
-   [ [] -> acc
+   [ [] -> List.sort_uniq compare acc
    | [r :: l ] -> let tpl = mk_tuple r in
                   let acc1 = tpl@acc in
                   mk_tuple_lst acc1 l
@@ -1165,9 +1169,10 @@ But in grAmam gawaH xevaxawwaH puswakaM paTawi, here xevaxawwa should not be mar
 Why this condition? 
 Counter example: sarva-BUwa-hiwe rawAH *)
                      else if members_of rt2 upasarga2 sakarmaka_verbs
-                           ||  members_of rt2 upasarga2 xvikarmaka1
-                           ||  members_of rt2 upasarga2 xvikarmaka2
                      then [ Relation (id1,mid1,"karma",id2,mid2,"2.7b")] 
+                     else if members_of rt2 upasarga2 xvikarmaka1
+                           ||  members_of rt2 upasarga2 xvikarmaka2
+                     then [ Relation (id1,mid1,"gONakarma",id2,mid2,"2.7c")] 
                      else [] (*  Why 2.8 is needed? wawkAlam pravqwwAH -> wawkAlam is marked as a karma for pra_vqw, which is asakarmaka [ Relation (id1,mid1,"karma",id2,mid2,"2.8")] *)
                     (* anaBihiwe karmaNi xviwIyA gurum upaSliRtaH , grAmaM gawaH, kataM prakqwaH*)
                      (* else [ Relation (id1,mid1,"viSeRaNam",id2,mid2,"2.5")]  Any example for this rule? *)
@@ -2063,11 +2068,12 @@ value rlnirXAraNam m1 m2 text_type = match m2 with
            && (viBakwiH1=6 || viBakwiH1=7)  
            && (vacanam1="xvi" || vacanam1="bahu")
            && vacanam2="eka" (* && not(viBakwiH2=8) -- xehaBUwAm vara *)
-           && ((rt2 = (get_assoc rt1 nirXAraNa_list)) || rt2 = "kiFciw" || rt2="vara" || rt2="SreRTa")
+           && ((rt2 = (get_assoc rt1 nirXAraNa_list)) || rt2 = "kiFciw" || rt2="vara" || rt2="SreRTa"
+              || (rt1 = (get_assoc rt2 amarakosha_jAwi)))
        (* && (member_of rt2 guNavAcI || member_of rt2 sambanXavAcI) *)  (* yogyawA *)
        (* It is necessary to check  ((is_jAwi rt1) || (is_guNa rt1) || (is_kriyA rt1)); 
           jAwi-guNa-kriyABiH samuxAyAw ekasya pqWak-karaNam nirXAraNam  Under A 2.2.10 in kASikA *)
-       then [ Relation (id1,mid1,"nirXAraNam",id2,mid2,"15.1")] (* 2.3.41;*)
+        then [ Relation (id1,mid1,"nirXAraNam",id2,mid2,"15.1")] (* 2.3.41;*)
        else []
       | _ -> []
       ]
@@ -2477,6 +2483,8 @@ value rlRaRTIsambanXaH m1 m2 text_type = match m1 with
 		   if   prose_order id1 id2 text_type
                    then if no_boundary_crossing id1 id2 text_type
                        && (kqw2="GaF" || kqw2="wavyaw" || kqw2="wqc" || kqw2 = "kwin" || kqw2 = "ac" || kqw2="Nvul")
+                       (* Rules for kAraka RaRTI are given below.
+                        * Here we are dealing with only SeRe RaRTI *)
 (* pawriNAm viruwena 
 Removed Sawq_l?t, SAnac_l?t, kwa and kwavawu *)
                        && not (viBakwiH2 = 8)
@@ -2535,8 +2543,9 @@ member_of rt1 sambanXavAcI *)
 
 (* rAmeNa prajAyAH SAsanam kriyawe *)
 (* rAmasya vanagamanam xaSaraWAya na rocawe *)
+(* na lokAvyayaniRTAKalarWawqNAm 2.3.69 *)
 value rl_kAraka_RaRTI1 m1 m2 text_type = match m2 with
-  [ Kqw (id2,mid2,_,kqw_rt2,_,_,kqw2,_,_,_,rt2,_,_,_,_,_,_) ->
+  [ Kqw (id2,mid2,_,kqw_rt2,upasarga2,_,kqw2,_,_,_,rt2,_,_,_,_,_,_) ->
      match m1 with
      [ Sup (id1,mid1,_,_,_,_,_,viBakwiH1,_,_)
      | Kqw (id1,mid1,_,_,_,_,_,_,_,_,_,_,_,_,viBakwiH1,_,_)
@@ -2548,13 +2557,20 @@ value rl_kAraka_RaRTI1 m1 m2 text_type = match m2 with
           || (kqw2="ukaF" && not (kqw_rt2="kAmuka")) 
           || kqw2="SAnac_lat" || kqw2="Kal" || kqw2="yuc" || kqw2="u" || kqw2="wqN" || kqw2="SAnan" 
           || kqw2="cAnaS" || kqw2="wqc" || kqw2="kAnac" || kqw2="kvasu" || kqw2="ki" 
-          || kqw2="kin" || kqw2="kwvA" || kqw2="Namul" || kqw2="kvasun" || kqw2="wosun" || kqw2="lyap" || kqw2 = "Nyaw"
+          || kqw2="kin" || kqw2="kwvA" || kqw2="Namul" || kqw2="kvasun" || kqw2="wosun" || kqw2="lyap" 
+          (* || kqw2 = "Nyaw" *)
           || kqw2="wumun" || kqw2="se" || kqw2="ase" || kqw2="ken"
           || (kqw2="kwa" && not(rt2="man1" || rt2="buX1" || rt2="buX2" || rt2="buX3" || rt2="pUj1"))
          )
-       then  [ Relation (id1,mid1,"karwA",id2,mid2,"21.1") (* karwq_karmaNoH_kqwi *) 
-             ; Relation (id1,mid1,"karma",id2,mid2,"21.2") (* karwq_karmaNoH_kqwi *) 
-             ]
+       then  
+           match verb_type rt2 upasarga2 with
+           [ "xvikarmaka1" 
+           | "xvikarmaka2" -> [ Relation (id1,mid1,"muKyakarma",id2,mid2,"21.1")
+                              ; Relation (id1,mid1,"gONakarma",id2,mid2,"21.2")]
+           | "akarmaka" ->    [ Relation (id1,mid1,"karwA",id2,mid2,"21.3")]
+           | _ ->             [ Relation (id1,mid1,"karwA",id2,mid2,"21.4")
+                               ; Relation (id1,mid1,"karma",id2,mid2,"21.5")]
+           ]
        else []
      |_ -> []
      ]
@@ -2562,6 +2578,8 @@ value rl_kAraka_RaRTI1 m1 m2 text_type = match m2 with
  ]
 ;
 
+(* ixam eRAm Sayiwam / gawam / Bukwam *)
+(* kwaH aXikaraNe ca XrOvya-gawi-prawyavasAnArWeByaH 3.4.76 *)
 value rl_kAraka_RaRTI2 m1 m2 text_type = match m2 with
   [ Kqw (id2,mid2,rt2,upasarga2,_,_,kqw2,_,_,_,_,_,_,_,_,_,_) ->
      match m1 with
@@ -2572,8 +2590,11 @@ value rl_kAraka_RaRTI2 m1 m2 text_type = match m2 with
       && viBakwiH1=6 
        && no_boundary_crossing id1 id2 text_type
       && kqw2="kwa" 
-      && (members_of rt2 upasarga2 akarmaka_verbs || members_of rt2 upasarga2 gawyarWa_verbs || members_of rt2 upasarga2 prawyavasAnArWa_verbs)
-       then  [ Relation (id1,mid1,"karwA",id2,mid2,"22.1")] (* karwq_karmaNoH_kqwi *) 
+      && (   members_of rt2 upasarga2 akarmaka_verbs 
+          || members_of rt2 upasarga2 gawyarWa_verbs 
+          || members_of rt2 upasarga2 prawyavasAnArWa_verbs)
+       then  [ Relation (id1,mid1,"karwA",id2,mid2,"22.1")]  (*aXikaraNa vAcanaH ca 2.3.68 *)
+       (* karwq_karmaNoH_kqwi *) 
        else []
      |_ -> []
      ]
@@ -3913,13 +3934,13 @@ value process morphs text_type tfpath =
   }
 ;
 
-(* value text_type arg1 = if arg1="prose" || arg1="poetry" then arg1 else failwith "Incorrect Argument\n"
+(* value text_type arg1 = if arg1="Prose" || arg1="Sloka" then arg1 else failwith "Incorrect Argument\n"
 ; 
 *)
 
 value main () = if (Array.length Sys.argv < 3 ) then do
            { print_string "\n\n"
-           ; print_string "Usage: ./build_graph tmp_file_path prose|poetry\n\n"
+           ; print_string "Usage: ./build_graph tmp_file_path Prose|Sloka\n\n"
            ; failwith "Parsing aborted\n"
            } 
         else do

@@ -139,6 +139,7 @@ value join_relations a b c d e u v w x y =
       else if w >= 4200 && w < 4300 then [Relationc (a,b,36,d,e); Relationc (u,v,9,x,y)] 
       else if w >= 4300 && w < 4400 then [Relationc (a,b,36,d,e); Relationc (u,v,28,x,y)] 
       else if w >= 4400 && w < 4500 then [Relationc (a,b,36,d,e); Relationc (u,v,7,x,y)] 
+      else if w = 21 && c >= 2000 && c < 2100 then [Relationc (a,b,36,d,e)] 
       else []
     (* else if c >= 2100 && c < 2200 then [Relationc (u,v,21,x,y)]  *)
     else if c >= 2200 && c < 2300 then [Relationc (u,v,14,x,y)] 
@@ -177,6 +178,10 @@ value collapse_upapada_relations relations part_dag a b c d e =
                     then join_relations a b c d e u v w x y
                     else if c >= 4000 && w >=2000 && w < 4000
                     then join_relations u v w x y a b c d e 
+                    else if c >= 2000 &&  c < 2100 && w = 21
+                    then join_relations a b c d e u v w x y
+                    else if c = 21 && w >= 2000  && w < 2100
+                    then join_relations u v w x y a b c d e
                     else []
                 in  let acc2 = if acc1 = [] then []
                     else if ((c >= 3100 && c < 3300))
@@ -217,7 +222,23 @@ value lwg_and_collapse relations dag =
     ]
 ;
 
+
 value print_cost_soln (len,c,l) n count rel = do
+        { (*print_string "len = "; print_int len; *)
+          if len > count then 
+          do { print_string "Solution:"
+            ; print_int n; print_newline ()
+            (*; let l1 = lwg_and_collapse rel l in *)
+            ; List.iter print_relation l
+            ; print_string "Cost = "; print_int c
+            ; print_string "\n\n"
+            }
+    else ()
+}
+;
+
+(*  OLD
+ value print_cost_soln (len,c,l) n count rel = do
   { if len > count
     then do { print_string "Solution:"
             ; print_int n; print_newline ()
@@ -229,11 +250,15 @@ value print_cost_soln (len,c,l) n count rel = do
     else ()
   }
 ;
+*)
 
+ 
+  (*expects (int,int,int list) list *)
 value rec print_cost_soln_list n count rel = fun
   [ [] -> ()
   | [ (len,a,l) :: r ] -> do
-      { print_cost_soln (len,a,l) n count rel
+          { (*print_string "n="; print_int n; print_newline()
+      ; *)print_cost_soln (len,a,l) n count rel
       ; print_cost_soln_list (n+1) count rel r
       }
   ]
@@ -311,8 +336,9 @@ value no_crossing text_type rel m1 m2 = match m1 with
              )
              && not (r1=2 || r1=90 || r1 = 22 || r1 = 47 || r1=29 || r1=30)
              && not (r2=2 || r2=90 || r2=22 || r2=47 || r2=29 || r2=30)
-             && (((not ((r1 = 32) || (r1 = 33) || (r1=35) ||
-                     (r2 = 32) || (r2 = 33)) || (r2=35)) && text_type="Sloka")
+             && (((not ((r1 = 32) || (r1 = 33) || (r1=35) || (r1=61) ||
+                     (r2 = 32) || (r2 = 33)) || (r2=35) || (r2=61))
+                    && text_type="Sloka")
                  || text_type = "Prose")
              (* removed RaRTI, viSeRaNa, aBexa, temporarily *)
          then False else True
@@ -572,6 +598,19 @@ value rec add_cost text_type acc rels = fun
   ]
 ;
 
+value lwg_and_collapse_all_solns text_type rel solns =
+        loop [] rel solns
+        where rec loop acc rel = fun
+        [ [] -> acc
+        | [ (len,cost,l)  :: r ] -> let l1 = lwg_and_collapse rel l in
+                         let len1  = List.length l1 in
+                         let triplet = (len1, cost, l1) in
+                         let new_acc = List.append [triplet] acc in
+                         loop new_acc rel r
+        ]
+;
+
+
 (* Min cost, and largest length *)
 value comparecostlength (l1,c1,_) (l2,c2,_) =
     if l1 = l2 then compare c1 c2 else compare l2 l1
@@ -751,7 +790,8 @@ value rec populate_inout_rels length rel =match rel with
           ; print_string "="
           ; print_int inout_rels.(d)
           ; print_newline()
-          ;*)if (inout_rels.(a) = 0) then inout_rels.(a) := 1
+          ;*)
+          if (inout_rels.(a) = 0) then inout_rels.(a) := 1
           else if (inout_rels.(a) = 2) then inout_rels.(a) := 3
           else ()
           ;if (inout_rels.(d) = 0) then inout_rels.(d) := 2
@@ -1053,7 +1093,11 @@ let maprel = List.map (fun y -> List.nth relations (y-1) ) relsindag in
          where rec loop1 = fun
                           [ [] -> False (* do { print_string "failed case 5\n"; False} *)
                           | [Relationc (x,y,r,z,t)::rest1] -> 
-                                if (z=c && t=d && (r / 100 = 44 && r1=9))
+                                if (z=c && t=d && (r / 100 = 44 && r1=7))
+                                then False
+                                else if (x=c && y=d && (r1 / 100 = 44 && r=7))
+                                then False
+                                else if (z=c && t=d && (r / 100 = 44 && r1=9))
                                  || (x=c && y=d && (r1 / 100 = 44 && r=9))
                                  || (z=c && t=d && r=7 && r1=9 && text_type="Prose" && (a-x) > 0) 
                                  || (z=c && t=d && r=7 && r1=9 && text_type="Sloka") 
@@ -1250,7 +1294,7 @@ value rec print_dag = fun
 
 value rec get_dag_list text_type rel acc = fun
         [ [] -> acc
-   | [hd :: tl ] -> do {
+        | [hd :: tl ] -> do {
                       if samucciwa_anyawara_constraint rel hd
                     && global_compatible text_type rel hd
                     && no_cycles rel hd
@@ -1261,7 +1305,7 @@ value rec get_dag_list text_type rel acc = fun
                          let res1 = List.append [triplet] acc in
                          get_dag_list text_type rel res1 tl}
                       else get_dag_list text_type rel acc tl }
-  ]
+       ]
 ;
 
 (* To get the total number of words in the sentence
@@ -1302,6 +1346,9 @@ value rec wrd_boundaries acc rel_indx wrd_indx rel =match rel with
 ]
 ;
 
+(* rel_lst: 5 tuple (to_id,to_mid,rel,from_id.from_mid)
+ * text_type: Prose / Sloka *)
+
 value solver rel_lst text_type =
   let total_wrds = (largest 0 rel_lst) in do
   { populate_compatible_lists text_type rel_lst total_wrds
@@ -1326,27 +1373,38 @@ value solver rel_lst text_type =
             then [a::y]
             else y) [] dags in 
      (*do { print_acc dags 
-    ; *)let soln =  List.sort comparecostlength (get_dag_list text_type rel_lst [] dagsj) in do
+    ; *)let soln =  List.sort_uniq comparecostlength (get_dag_list text_type rel_lst [] dagsj) in do
        {print_string "1.minion\n"
        ; let l = List.filter 
               (fun (x,y,z) -> if x = total_wrds-1 then True else False ) 
               soln in
               if (List.length l > 0)
               then do
-              { (* print_string "Total dags = "
+              {  print_string "Total dags = "
               ; print_int total_dags_so_far.val
               ; print_newline ()
-              ;*) print_string "Total Complete Solutions="
+              ; print_int total_wrds
               ; print_int (List.length l)
+              ; let collapsed_soln = lwg_and_collapse_all_solns text_type rel_lst l in
+                let uniq_collapsed_soln = List.sort_uniq comparecostlength collapsed_soln in do {
+                print_string "Total Complete Solutions="
+              ; print_int (List.length uniq_collapsed_soln)
               ; print_newline ()
-              ; print_cost_soln_list 1 (total_wrds-2) rel_lst soln
+              ; print_int (List.length uniq_collapsed_soln)
+              ; print_newline ()
+              ; print_int (List.length soln)
+              ; print_newline ()
+              ; print_cost_soln_list 1 (total_wrds-2) rel_lst uniq_collapsed_soln
+                }
+              (*; print_cost_soln_list 1 (total_wrds-2) rel_lst soln*)
               }
               else do
               { print_string "Total Partial Solutions="
               ;let psols = (List.length soln - List.length l)
                in print_int psols
               ; print_newline ()
-              ; print_cost_soln_list 1 0 rel_lst soln
+              (*; print_cost_soln_list 1 0 rel_lst soln
+               * TO MODIFY according to new parameter types *)
               }
      } (*} *)
  }
