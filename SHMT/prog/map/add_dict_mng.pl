@@ -101,7 +101,7 @@ $rNOUN = \%NOUN;
 $rPRONOUN = \%PRONOUN;
 $rTAM = \%TAM;
 $rVERB = \%VERB;
-#$rVERB_RT = \%VERB_RT;
+$rVERB_RT = \%VERB_RT;
 $rAVY = \%AVY;
 $rPRATIPADIKAM = \%PRATIPADIKAM;
 
@@ -267,11 +267,12 @@ while($tmpin = <STDIN>){
 # Commented the previous line, since in case of vixyAlaya n NW NW NW se, machine produced vixyAlayaeyegA_se. Here 'se' corresponds to waxXiwa_prawyayaH:wasil
 
       } elsif($cat eq "avy"){
-          #print "in = ", $in[$i],"\n";
 
-          $rt = &get_avy_feature($in[$i]);
+          ($rt,$rel) = split(/:/,&get_avy_feature($in[$i]));
+	  #print "rt = ", $rt,"\n";
 
           $map_rt = &get_dict_mng($rt, $rAVY);
+	  #print "map_rt = ", $map_rt,"\n";
           if($samAsa_pUrvapaxa) { $map_rt = $samAsa_pUrvapaxa.$map_rt;}
           $ans .= "/$map_rt avy NW NW NW NW";
 
@@ -454,6 +455,7 @@ sub get_cat{
 
 my($in) = @_;
 
+my $cat  = "";
    if($in =~ /vargaH:sarva/){ $cat = "P";}
 
    elsif($in =~ /vargaH:avy;.*kqw_prawyayaH:/){ $cat = "kqw-avy";}
@@ -472,7 +474,7 @@ my($in) = @_;
 
 sub get_noun_features{
 my($in) = @_;
-my($ans);
+my $ans = "";
   if($in =~ /^.*rt:([^;]+).*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;]+).*rel_nm:([^;]+)/){
 
      $ans = join(":",$1,$2,$3,$4,$5);
@@ -485,7 +487,7 @@ $ans;
 sub get_kqw_avy_features{
 my($in) = @_;
 
-my($ans);
+my $ans = "";
 
 if($in =~ /^.*rt:([^;]+).*vargaH:avy;.*kqw_prawyayaH:([^;]+);XAwuH:([^;]+);gaNaH:([^;]+).*rel_nm:([^;]+)/){
 
@@ -504,7 +506,7 @@ $ans;
 
 sub get_verb_features{
 my($in) = @_;
-my($ans);
+my $ans = "";
 
     if($in =~ /^.*rt:([^;]+).*prayogaH:([^;]+);lakAraH:([^;]+);puruRaH:([^;]+);vacanam:([^;]+);.*paxI:([^;]+);.*XAwuH:([^;]+);gaNaH:([^;]+)/){
 
@@ -528,7 +530,7 @@ $ans;
 sub get_kqw_noun_features{
 my($in) = @_;
 
-my($ans);
+my $ans = "";
 
   if($in =~ /^.*rt:([^;]+).*kqw_prawyayaH:([^;]+);.*XAwuH:([^;]+);gaNaH:([^;]+).*kqw_pratipadika:([^;]+).*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;}]+).*rel_nm:([^;]+)/){
 
@@ -555,7 +557,7 @@ $ans;
 sub get_waxXiwa_avy_features{
 my($in) = @_;
 
-my($ans);
+my $ans = "";
 
   if($in =~ /^.*rt:([^;]+).*vargaH:avy;waxXiwa_prawyayaH:([^;]+);lifgam:([^;]+).*rel_nm:([^;]+)/){
      $ans = join(":",$1,$2,$3);
@@ -570,6 +572,7 @@ $ans;
 sub get_avy_feature{
 my($in) = @_;
 my($rt);
+my $ans = "";
 
   if($in =~ /^.*rt:([^;]+).*vargaH:avy.*rel_nm:([^;]+)/){
      $ans = join(":",$1,$2);
@@ -581,7 +584,7 @@ $ans;
 sub get_dict_mng{
 #my($rt,$missing_fl_nm,$rdatabase) = @_;
 my($rt,$rdatabase) = @_;
-my($ans) = "";
+my $ans = "";
        
        if($$rdatabase{$rt} ne "") {
           $ans = &clean($$rdatabase{$rt});
@@ -606,6 +609,7 @@ my($ans) = "";
 	  $ans =~ s/_napuM/:napuM/; 
 	  $ans =~ s/_swrI/:swrI/; 
        }
+       #print"ans = $ans\n";
 $ans;
 }
 1;
