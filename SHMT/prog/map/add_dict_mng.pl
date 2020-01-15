@@ -208,7 +208,6 @@ while($tmpin = <STDIN>){
       }elsif($cat eq "n") {
 
         ($rt,$lifga,$viBakwi,$vacana,$rel) = split(/:/, &get_noun_features($in[$i]));
-
 	if (($rel eq "karwqsamAnAXikaraNam") || ($rel eq "viSeRaNam")) {
            $key = $rt."_vi";
            $map_rt = &get_dict_mng($key, $rNOUN);
@@ -288,17 +287,17 @@ while($tmpin = <STDIN>){
 	  # to be akarmaka
 
 	  # First find the meaning with up, if not found then use the given paxI
- 	$key = $rt."_up_".$transitivity;
-	$map_rt = &get_dict_mng($key, $rVERB);
+ 	#$key = $rt."_up_".$transitivity;
+	#$map_rt = &get_dict_mng($key, $rVERB);
 
 	#print "clean key =",&clean($key),"\n";
 	#print "key =",$key,"\n";
 	#print "map_rt =",$map_rt,"\n";
 
-	if($map_rt eq &clean($key)) {
+	#if($map_rt eq &clean($key)) {
      	   $key = $rt."_".$paxI."_".$transitivity;
 	   $map_rt = &get_dict_mng($key, $rVERB);
-	}
+	   #}
 
 	if($map_rt eq $key) {
 	#This happens only if there is no karma, and the verb is only sakarmaka
@@ -476,9 +475,9 @@ sub get_noun_features{
 my($in) = @_;
 my $ans = "";
   if($in =~ /^.*rt:([^;]+).*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;]+).*rel_nm:([^;]+)/){
-
      $ans = join(":",$1,$2,$3,$4,$5);
-
+  } elsif($in =~ /^.*rt:([^;]+).*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;]+)/){
+     $ans = join(":",$1,$2,$3,$4,"");
   }
 $ans;
 }
@@ -590,16 +589,19 @@ my $ans = "";
           $ans = &clean($$rdatabase{$rt});
 	  #print "ans = $ans\n";
        } elsif($rt =~ /_Nic/) {
+	   open(T,">/tmp/j");
+	   print T $rt,"\n";
            $rt =~ s/_Nic//;
            $hnd_rt = &clean($$rdatabase{$rt});
              ## Before calling the causative handler, we need to disambiguate Nic with verbs in curaxi gaNa. If they are in svArWa, we need not call the causative handler.
 ## For example, rAmaH puswakam corayawi Versus rAmaH mohanena puswakam corayawi.
 ## In the first example, it is not Nic while in the second it is.
 	     chomp($hnd_rt);
-	     #print "hnd_rt = $hnd_rt\n";
+	     print T "hnd_rt = $hnd_rt\n";
 	     $ans = `/usr/bin/env python $GlblVar::SCLINSTALLDIR/SHMT/prog/map/causal_verb_handler.py $hnd_rt`;
            chomp($ans);
-	   #print "ans = $ans\n";
+	   print T "ans = $ans\n";
+	   close(T);
           } else {
 		  #if($rt =~ /1_/) { $rt =~ s/1_/_/;} 
 		  #$rt =~ s/X_//; # In case of upasargas

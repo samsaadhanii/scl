@@ -1380,20 +1380,18 @@ value solver rel_lst text_type =
               soln in
               if (List.length l > 0)
               then do
-              {  print_string "Total dags = "
+              {  (*print_string "Total dags = "
               ; print_int total_dags_so_far.val
-              ; print_newline ()
-              ; print_int total_wrds
-              ; print_int (List.length l)
-              ; let collapsed_soln = lwg_and_collapse_all_solns text_type rel_lst l in
+              ; print_newline () *)
+              (*;  print_int total_wrds
+              ; print_int (List.length l) 
+              ; *) let collapsed_soln = lwg_and_collapse_all_solns text_type rel_lst l in
                 let uniq_collapsed_soln = List.sort_uniq comparecostlength collapsed_soln in do {
                 print_string "Total Complete Solutions="
               ; print_int (List.length uniq_collapsed_soln)
               ; print_newline ()
-              ; print_int (List.length uniq_collapsed_soln)
-              ; print_newline ()
-              ; print_int (List.length soln)
-              ; print_newline ()
+              (*; print_int (List.length soln)
+              ; print_newline () *)
               ; print_cost_soln_list 1 (total_wrds-2) rel_lst uniq_collapsed_soln
                 }
               (*; print_cost_soln_list 1 (total_wrds-2) rel_lst soln*)

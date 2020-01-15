@@ -1977,7 +1977,7 @@ We can have vyAkulaH saH, and also ye janAH ...*)
 (* When it is Sawq_lat with viB = 1, then it is more likely that it is a kriyAviSeRaNa, linking directly with the wifganwa.
 gacCan bAlakaH wqNam spqSawi / bAlakaH gacCan wqNam spqSawi *)
        && not (member_of (word2^" "^string_of_int viBakwiH2) kriyAviSeRaNas) (* Why is this cond? *)
-       && not(rt1=rt2) && not(rt2="kim") && no_boundary_crossing id1 id2 text_type
+       && not(rt1=rt2) && not(rt2="kim")
        then [ Relation (id1,mid1,"viSeRaNam",id2,mid2,"12.5")]
        else []
      | _ -> []
