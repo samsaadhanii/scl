@@ -34,7 +34,7 @@ $TFPATH = $ARGV[1];
     <div id=\"line1\">
     <table width=\"100%\"><tr>
     <td width=\"80%\">
-    <h3><a href=\"/scl/index.html\"><font color=\"DarkBlue\"> संसाधनी-Saṃsādhanī </font></a></h3></td><td text-align=\"center\" width=\"20%\"><nt color=\"magenta\" size=\"3\">Updated on 5th Nov 2019</font></td><td text-align=\"right\">  </td></tr></table>
+    <h3><a href=\"/scl/index.html\"><font color=\"DarkBlue\"> संसाधनी-Saṃsādhanī </font></a></h3></td><td text-align=\"center\" width=\"20%\"><nt color=\"magenta\" size=\"3\">Updated on 15th Jan 2020</font></td><td text-align=\"right\">  </td></tr></table>
     </center>
     </div>
 

@@ -9216,7 +9216,7 @@ mahAwejas,puM,mahAwejas,puM
 mahAwIkRNa,napuM,awyanwa_weja,puM
 mahAwIkRNa,puM,BilAvAz^awyanwa_weja,puM
 mahAwikwa,puM,niMbavqkRa,puM
-mahawI,swrI,bahuwa,swrI
+mahawI,swrI,bahuwa^badI,swrI
 mahawkaWa,napuM,badZoM_xvArA_kaWiwa,puM
 mahawkaWa,puM,badZoM_xvArA_kaWiwa,puM
 mahawkRewra,napuM,viswqwa_praxeSa_para_aXikAra_karane_vAlA,puM
@@ -25337,6 +25337,7 @@ viSIrNa,napuM,Cinna-Binna_kiyA_huA^murJAyA_huA^girA_huA^sikudZA_huA,puM
 viSIrNa,puM,Cinna-Binna_kiyA_huA^murJAyA_huA^girA_huA^sikudZA_huA,puM
 viSiRtabuxXi,swrI,praBexaka_jFAna^praBexIkaraNa,swrI
 viSiRtA,swrI,viSiRta,swrI
+viSiRta,puM,viSiRta,puM
 viSiRtavarNa,napuM,pramuKa_raMga_kA,puM
 viSiRtavarNa,puM,pramuKa_raMga_kA,puM
 viSiRtAxvEwavAxa,puM,viSiRtAxvEwavAxa{rAmAnuja_kA_eka_sixXAnwa^jisake_anusAra_brahma_Ora_prakqwi_samarUpa_waWA_vAswavika_sawwA_mAnI_jAwI_hEM_arWAw_mUlawaH_xonoM_eka_hI_hE},puM

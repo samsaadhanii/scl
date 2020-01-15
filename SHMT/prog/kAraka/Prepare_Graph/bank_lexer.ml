@@ -3,7 +3,7 @@
 (*                                                                        *)
 (*                                                                        *)
 (* ©2015  Gérard Huet                                                     *)
-(* ©2016 - 2019 Amba Kulkarni                                             *)
+(* ©2016 - 2020 Amba Kulkarni                                             *)
 (**************************************************************************)
 
 (* A simple lexer recognizing idents formed from ASCII letters and integers 

@@ -160,7 +160,7 @@ function callashtadhyayisimulator(){
         var inputlang = encoding;
         var data = word;
         var stat = 0;
-	var reguni=/[अआइईउऊऋॠऌएऐओऔअंअःकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह ्ािीुूृॄॢेैोौंः\-]/;
+	var reguni=/[अआइईउऊऋॠऌएऐओऔअंअःकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह ्ािीुूृॄॢेैोौंःळ\-]/;
 	var reg=/[aAiIuUqQlLeEoOMHzkKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRsh\-]/;
 	var regitrans=/[aiuURiLIeoMH.Nkgh~NcChj~nThDtdpbmyrlvwGYsSA\^\-]/;
 	var regslp=/[aAiIuUfFlxeEoOMHkKgGNcCqQjJwWQRtTdDnpPbBmyrlvSzsh\-]/;
@@ -175,7 +175,7 @@ function callashtadhyayisimulator(){
 				
 			}
 			else{
-				alert("Please check encoding notation and input text notation");
+				alert("Please check encoding notation and input text notation; the input text is not in Unicode Devanagari");
 				stat = 1;
 				return stat;
 			}
@@ -187,7 +187,7 @@ function callashtadhyayisimulator(){
 				if(regitrans.test(data[i])){
 				}
 				else {
-					alert("Please check encoding notation and input text notation");
+					alert("Please check encoding notation and input text notation; the input text is not in Itrans");
 					stat = 1;
 					return stat;
 				}
@@ -200,7 +200,7 @@ function callashtadhyayisimulator(){
                                 if(regslp.test(data[i])){
                                 }
                                 else {
-                                	alert("Please check encoding notation and input text notation");
+                                	alert("Please check encoding notation and input text notation; The input text is not in SLP");
                                        stat = 1;
 					return stat;
                                 }
@@ -212,7 +212,7 @@ function callashtadhyayisimulator(){
                                 if(regrom.test(data[i])){
                                 }
                                 else {	
-                                	alert("Please check encoding notation and input text notation");
+                                	alert("Please check encoding notation and input text notation; the input text is not in roman");
                                         stat = 1;
 					 return stat;
                                 }
@@ -226,7 +226,7 @@ function callashtadhyayisimulator(){
                                 if(regkh.test(data[i])){
                                 }
                                 else {
-                                	alert("Please check encoding notation and input text notation");
+                                	alert("Please check encoding notation and input text notation; the input tet is not in Harvard Kyoto");
                                         stat = 1;
 					 return stat;
                                 }
@@ -240,7 +240,7 @@ function callashtadhyayisimulator(){
                                 if(regvel.test(data[i])){
                                 }
                                 else {
-                                	alert("Please check encoding notation and input text notation");
+                                	alert("Please check encoding notation and input text notation; the input text is not in Velthuis-Huet");
                                         stat = 1;
 					 return stat;
                                 }
@@ -253,7 +253,7 @@ function callashtadhyayisimulator(){
                         for(var i=0;i<data.length;i++){
                                 if(reg.test(data[i])){ }
                                 else {
-                                	alert("Please check encoding notation and input text notation");
+                                	alert("Please check encoding notation and input text notation; the input text is not in WX");
                                         stat = 1;
 					 return stat;
                                 }

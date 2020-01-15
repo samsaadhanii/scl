@@ -1,4 +1,4 @@
-#  Copyright (C) 2002-2019 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2002-2020 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License

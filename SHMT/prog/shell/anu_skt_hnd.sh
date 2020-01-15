@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#  Copyright (C) 2008-2019 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2008-2020 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -114,7 +114,8 @@ $ANU_MT_PATH/morph/morph.sh $SCLINSTALLDIR $temp_files_path/$fbn.out $temp_files
 #     # First argument: Name of the file
 #     # Second argument: no of parses
 #     # Third argument: Name of the file with kaaraka analysis for annotation
-# Fields 9 and 10: morph analysis corresponding to the kaaraka role and kaaraka role in the 10th field
+# Field 9: morph analysis corresponding to the kaaraka role
+# Field 10: kaaraka role
 #     /usr/bin/time -f "%Uuser %Ssystem %Eelapsed %PCPU (%Xtext+%Ddata %Mmax)k\n%Iinputs+%Ooutputs (%Fmajor+%Rminor)pagefaults %Wswaps %C\n" 
 $ANU_MT_PATH/kAraka/shabdabodha.sh $SCLINSTALLDIR $GraphvizDot $Heritage_Input $temp_files_path $fbn.out $fbn.kAraka $OUTSCRIPT $PARSE $TEXT_TYPE $ECHO 
 cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
@@ -141,7 +142,7 @@ cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
 # gen o/p in the 17th field
     $ANU_MT_PATH/interface/add_colorcode.pl < $temp_files_path/$fbn.out |\
     $ANU_MT_PATH/chunker/lwg.pl |\
-    $ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $SHMT_PATH/data ONE |\
+    $ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $SHMT_PATH/data hi |\
     $ANU_MT_PATH/map/lwg_avy_avy.pl $SCLINSTALLDIR $SHMT_PATH/data hi  |\
     $ANU_MT_PATH/hnd_sent_gen/agreement.pl $SCLINSTALLDIR $SHMT_PATH/data $ANU_MT_PATH/hnd_sent_gen  |\
     $ANU_MT_PATH/hnd_sent_gen/call_gen.pl $SCLINSTALLDIR |\

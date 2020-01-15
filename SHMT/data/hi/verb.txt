@@ -530,7 +530,7 @@ Rasw1,UNKN,ak,v,NW,NW
 Rat1,UNKN,ak,v,NW,NW
 Rawt1,UNKN,sk,v,NW,NW
 Rax1,pp,ak,v,jA^cala^SakwihIna_ho^mlAna_ho^sUKa^murJA^naRta_kara,viSaraNa-gawi-avasAxaneRu
-Rax2,pp,sk,v,cala^SakwihIna_ho^jA^Kinna_ho,viSaraNa-gawi-avasAxaneRu
+Rax2,pp,ak,v,cala^SakwihIna_ho^jA^Kinna_ho,viSaraNa-gawi-avasAxaneRu
 Rev1,ap,UNKN,v,NW,NW
 Ri1,UNKN,sk,v,NW,NW
 Ri2,UNKN,sk,v,NW,NW
@@ -1727,7 +1727,7 @@ bqMh2,pp,sk,v,kaha^daMka_mArane_ke_samAna_bola,BARArWaH
 bqh1,pp,ak,v,baDa,vqxXO
 bqh2,pp,ak,v,baDa,vqxXO
 bqh3,pp,sk,v,prayawna_kara^uxyoga_kara,uxyamane
-brU1,up,sk,v,kaha^bola,vyakwAyAM_vAci
+brU1,pp,sk,v,kaha^bola,vyakwAyAM_vAci
 brUs1,pp,sk,v,mAra_dAla^xuHKa_xe,hiMsAyAm
 buX1,pp,sk,v,jAna^samaJa,avagamane
 buX2,up,sk,v,jAna^samaJa,boXane
@@ -5048,7 +5048,8 @@ vafK1,pp,sk,v,jA,gawyarWaH
 vafg1,pp,sk,v,jA,gawyarWaH
 vafk1,pp,sk,v,jA,gawyarWaH
 vag1,UNKN,sk,v,NW,NW
-vah1,up,sk,v,baha^Jara^Do^Do_le_jA,prApaNe
+vah1,up,ak,v,baha^Jara,prApaNe
+vah1,up,sk,v,Do^Do_le_jA,prApaNe
 vah2,ap,UNKN,v,NW,NW
 vaj1,pp,sk,v,jA,gawO
 vak1,UNKN,sk,v,NW,NW
