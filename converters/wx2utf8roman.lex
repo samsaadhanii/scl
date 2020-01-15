@@ -59,6 +59,8 @@ B		{ printf("bh");}
 
 S		{ printf("ś");}
 R		{ printf("ṣ");}
+
+Z		{ printf("'");}
 @		{}
 .		{ECHO;}
 \n		{ECHO;}
