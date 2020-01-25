@@ -280,33 +280,59 @@ while($tmpin = <STDIN>){
        ($rt,$prayoga,$lakAra,$purURa,$vacana,$paxI,$XAwu,$gaNa,$rel) = 
           split(/:/, &get_verb_features($in[$i]));
        
+	  # If karma is absent in a sentence, then the verb is assumed 
+	  # to be akarmaka
 	  if($kAraka =~ /sakarmaka/) { $transitivity = "sk";}
 	  else {$transitivity = "ak";}
 
-	  # If karma is absent in a sentence, then the verb is assumed 
-	  # to be akarmaka
 
-	  # First find the meaning with up, if not found then use the given paxI
- 	#$key = $rt."_up_".$transitivity;
-	#$map_rt = &get_dict_mng($key, $rVERB);
-
-	#print "clean key =",&clean($key),"\n";
-	#print "key =",$key,"\n";
-	#print "map_rt =",$map_rt,"\n";
-
-	#if($map_rt eq &clean($key)) {
-     	   $key = $rt."_".$paxI."_".$transitivity;
-	   $map_rt = &get_dict_mng($key, $rVERB);
-	   #}
-
-	if($map_rt eq $key) {
-	#This happens only if there is no karma, and the verb is only sakarmaka
-	#
- 	$key = $rt."_".$paxI."_sk";
-	$map_rt = &get_dict_mng($key, $rVERB);
-        }
-
-	if($map_rt eq $key) { $map_rt = $rt;}
+	  # In the case of karwari prayoga,
+	  # if an entry that matches with both paxI and transitivity is found, we use that entry
+	  # if such an entry is not found and the transitivity is akarmaka, then we search for an entry with sakarmaka in the dictionary, assuming that the sentence has an ellipsis of a karma.
+	  # In case no such entry is found in the dictionary, we produce the same Skt verb as the output.
+	  # In such cases, we need to add the corresponding entry in to the dictionary.
+	  if ($prayoga =~ /karwari/) {
+     	      $key = $rt."_".$paxI."_".$transitivity;
+	      $map_rt = &get_dict_mng($key, $rVERB);
+	      if($map_rt eq $key) { # mng not found
+		      if ($transitivity eq "ak") { 
+	#This happens only if the sentence does not have a karma, and the verb is only sakarmaka
+ 	                  $key = $rt."_".$paxI."_sk";
+	                  $map_rt = &get_dict_mng($key, $rVERB);
+		      }
+	      }
+	  } else { # karmaNi / BAve
+	  #In the case of karmaNi / BAve prayoga, we do not have any information of paxI of the verb from the output.
+	  #Hence in such cases, we search for both the pp and ap entry in the dictionary.
+	  # And produce both the meanings in the output.
+     	      $key1 = $rt."_pp_".$transitivity;
+	      $rt_pp = &get_dict_mng($key1, $rVERB);
+     	      $key2 = $rt."_ap_".$transitivity;
+	      $rt_ap = &get_dict_mng($key2, $rVERB);
+	      if($rt_pp ne $key1) { 
+		      $map_rt = $rt_pp;
+		      if (($rt_ap ne $key2)  && ($rt_ap ne $rt_pp))
+		         {$map_rt .= $rt_pp."/".$rt_ap;}
+	      }
+	      else {$map_rt = $rt_ap;}
+	      # If the transitivity is ak, it is possible that the sentence does not have a karma.
+	      # So we check if the dict has a corresponding entry with sk.
+	      if (($map_rt eq $key2)  && ($transitivity eq "ak")) {
+     	         $key1 = $rt."_pp_sk";
+	         $rt_pp = &get_dict_mng($key1, $rVERB);
+     	         $key2 = $rt."_ap_sk";
+	         $rt_ap = &get_dict_mng($key2, $rVERB);
+		 #print "rt_pp = ", $rt_pp,"\n";
+		 # print "rt_ap = ", $rt_ap,"\n";
+		 # print "key1 = ", $key1,"\n";
+		 #print "key2 = ", $key2,"\n";
+	         if($rt_pp ne $key1) { 
+		      $map_rt = $rt_pp;
+		      if (($rt_ap ne $key2)  && ($rt_ap ne $rt_pp))
+		         {$map_rt .= $rt_pp."/".$rt_ap;}
+	         } else {$map_rt = $rt_ap;}
+	      }
+	  }
 
 
        $pra_lakAra = $prayoga."_".$lakAra;
