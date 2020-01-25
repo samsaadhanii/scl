@@ -29,9 +29,15 @@ karmaNi_lat_sma,yA_jAwA_WA
 karmaNi_lut,yA
 karmaNi_laf,yA_gayA
 karmaNi_lot,subj
-BAve_lot,subj
 karmaNi_lqt,gA
 karmaNi_lqf,yA_gayA
+BAve_lat,yA_jAwA_hE
+BAve_lat_sma,yA_jAwA_WA
+BAve_lut,yA
+BAve_laf,yA_gayA
+BAve_lot,subj
+BAve_lqt,gA
+BAve_lqf,yA_gayA
 karwari_laf,yA
 karwari_luf,yA
 karwari_lqf,wA_hE~wo
