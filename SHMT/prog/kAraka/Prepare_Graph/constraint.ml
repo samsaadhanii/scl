@@ -1373,9 +1373,10 @@ value solver rel_lst text_type =
             then [a::y]
             else y) [] dags in 
      (*do { print_acc dags 
-    ; *)let soln =  List.sort_uniq comparecostlength (get_dag_list text_type rel_lst [] dagsj) in do
-       {print_string "1.minion\n"
-       ; let l = List.filter 
+    ; let soln =  List.sort_uniq comparecostlength (get_dag_list text_type rel_lst [] dagsj) in do
+    ; *)let soln =  List.sort comparecostlength (get_dag_list text_type rel_lst [] dagsj) in do
+       { (*print_string "1.minion\n"
+       ; *)let l = List.filter 
               (fun (x,y,z) -> if x = total_wrds-1 then True else False ) 
               soln in
               if (List.length l > 0)
@@ -1386,7 +1387,8 @@ value solver rel_lst text_type =
               (*;  print_int total_wrds
               ; print_int (List.length l) 
               ; *) let collapsed_soln = lwg_and_collapse_all_solns text_type rel_lst l in
-                let uniq_collapsed_soln = List.sort_uniq comparecostlength collapsed_soln in do {
+                (*let uniq_collapsed_soln = List.sort_uniq comparecostlength collapsed_soln in do {*)
+                let uniq_collapsed_soln = List.sort comparecostlength collapsed_soln in do {
                 print_string "Total Complete Solutions="
               ; print_int (List.length uniq_collapsed_soln)
               ; print_newline ()
