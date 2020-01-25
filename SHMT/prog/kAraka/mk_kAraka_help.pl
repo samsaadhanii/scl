@@ -91,7 +91,7 @@ $dir = "back";
 while(($in = <STDIN>) && !$solnfound){
   chomp($in);
   if ($in =~ /./){
-      if($in =~ /^([0-9]+).minion$/){
+      if($in =~ /Total (Complete|Partial) Solutions=([0-9]+)/){
          if ($filehandle_status == "open") { 
             # This condition is encountered when there is no solution.
             &print_no_solution();
@@ -101,7 +101,6 @@ while(($in = <STDIN>) && !$solnfound){
          $filehandle_status = "open";
          $indx = $sentence; 
 	 %word_used = ();
-      } elsif($in =~ /Total (Complete|Partial) Solutions=([0-9]+)/){
         $total_parses = $2;
       } elsif($in =~ /Cost = (.*)/){
         $distance = $1;
@@ -111,8 +110,7 @@ while(($in = <STDIN>) && !$solnfound){
 	       $curr_parse = $1; 
        #      if($parse == $1) { $solnfound = 1;} else {$solnfound = 0;}
        #       if ($solnfound == 0) { $solnfound = 1;} else {$solnfound = 0;}
-      }
-      elsif($in =~ /\(/){
+      } elsif($in =~ /\(/){
          $in =~ s/\(//;
          $in =~ s/\)//;
          if($in =~ /^([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+)/){

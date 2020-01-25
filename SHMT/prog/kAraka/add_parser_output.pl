@@ -42,11 +42,11 @@ $GH_input = $ARGV[4];
 $sent = 0;
 $parse = 0;
 while ($in = <TMP>) {
-	if($in =~ /^([0-9]+).minion/) {
+	if($in =~ /Total /) {
            if($parse == 1) { $parse = 2;} # To print the analysis
            $PARSE{$sent} = $parse; 
 	#print "$sent=$PARSE{$sent}\n"; 
-           $sent = $1; 
+           $sent++; 
            $parse = 1;
         } elsif($in =~ /\(/) {
             #$in =~ /^\(([0-9]+) ([0-9]+)\)/;
