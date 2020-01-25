@@ -442,6 +442,9 @@ value karaNa_verbs = build_trie (datapath ^ "AkAfkRA/karaNa_XAwu_list")
 value sampraxAna_verbs = build_trie (datapath ^ "AkAfkRA/sampraxAna_XAwu_list")
 ;
 
+value animate_nouns = build_trie (datapath ^ "yogyawA/animate_list")
+;
+
 value apAxAna_verbs = build_trie (datapath ^ "AkAfkRA/apAxAna_XAwu_list")
 ;
 
@@ -1431,16 +1434,19 @@ value anaBihiwe m1 m2 id1 mid1 rt1 word1 uwwarapaxa1 lifgam1 viBakwiH1 id2 mid2 
               else []
            (* anaBihiwa karwA -> rlanaBihiwakarwA *)
        | 4 ->  if members_of rt2 upasarga2 sampraxAna_verbs
+               then if member_of rt1 animate_nouns
                     then [ Relation (id1,mid1,"sampraxAnam",id2,mid2,"3.8")  (* rajakAya xaxAwi *)
-                         ; Relation (id1,mid1,"prayojanam",id2,mid2,"3.8a") (* prakRAlanAya xaxAwi *)
-                         ] (*cawurWI sampraxAne 2-3-13  viprAya xaxAwi *) 
-                    else if    members_of rt2 upasarga2 gawyarWa_verbs 
-                         then [ Relation (id1,mid1,"karma",id2,mid2,"3.8b") ] 
-             (* gawyarWakarmaNi xviwIyAcawurWyO ceRtAyAmanaXvani 2-3-12 rAmaH grAmAya gacCawi, *)
-                         else if rt2="man1"
-                              then [ Relation (id1,mid1,"karmasamAnAXikaraNam",id2,mid2,"3.9") ]
+                         ; Relation (id1,mid1,"prayojanam",id2,mid2,"3.8a")]  (* rajakAya xaxAwi *)
+                    else [ Relation (id1,mid1,"prayojanam",id2,mid2,"3.8b")] (* prakRAlanAya xaxAwi *)
+                         (*cawurWI sampraxAne 2-3-13  viprAya xaxAwi *) 
+               else if  members_of rt2 upasarga2 gawyarWa_verbs 
+                    then [ Relation (id1,mid1,"karma",id2,mid2,"3.8b") ] 
+             (* gawyarWakarmaNi xviwIyAcawurWyO ceRtAyAmanaXvani 2-3-12 rAmaH grAmAya gacCawi 
+              * Malay -- whether sampraxAna or karma ? *)
+                    else if rt2="man1"
+                         then [ Relation (id1,mid1,"karmasamAnAXikaraNam",id2,mid2,"3.9") ]
                 (* manyakarmaNyanAxare viBARAZprANiRu 2-3-17 ahaM wvAM wqNAya manye / aham wvA wqNAya manye *)
-                              else [ Relation (id1,mid1,"prayojanam",id2,mid2,"3.10")] (* puwrAya puswakaM krINAwi *) 
+                         else [ Relation (id1,mid1,"prayojanam",id2,mid2,"3.10")] (* puwrAya puswakaM krINAwi *) 
        | 5 -> if members_of rt2 upasarga2 apAxAna_verbs
                    then if pronominal123 rt1
                         then [ Relation (id1,mid1,"apAxAnam",id2,mid2,"3.12")
