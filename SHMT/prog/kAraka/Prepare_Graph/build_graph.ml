@@ -505,6 +505,12 @@ value karwqsamAnAXikaraNa_verbs = build_trie (datapath ^ "AkAfkRA/karwqsamAnAXik
 value karmasamAnAXikaraNa_verbs = build_trie (datapath ^ "AkAfkRA/karmasamAnAXikaraNa_XAwu_list")
 ;
 
+value buxXivAci_nouns = build_trie (datapath ^ "yogyawA/buxXivAci_list")
+;
+
+value shabxavAci_nouns = build_trie (datapath ^ "yogyawA/SabxavAci_list")
+;
+
 (* value karmakqw_verbs = build_trie (datapath ^ "karma_kqw_list")
 ;
 *)
@@ -541,7 +547,7 @@ value guNavacana = build_trie (datapath ^ "yogyawA/guNavacana_list")
 value guNa_not_guNavacana = build_trie (datapath ^ "yogyawA/guNa_not_guNavacana_list")
 ;
 
-(*value xravyavAcI = build_trie (datapath ^ "yogyawA/xravyavAcI_list")
+(*value xravyavAci_nouns = build_trie (datapath ^ "yogyawA/xravyavAcI_list")
 ; *)
 
  (* kqxanwa list is introduced, since we still do not have an exhastive kqxanwa analyser ; we need it for viSeRaNas and RaRTI sambanXa*)
@@ -1411,15 +1417,16 @@ value anaBihiwe m1 m2 id1 mid1 rt1 word1 uwwarapaxa1 lifgam1 viBakwiH1 id2 mid2 
        [ 3 -> if (rt2="yaj1")
                    then [ Relation (id1,mid1,"karma",id2,mid2,"3.1")] (* yajeH karmaNaH karaNa saFjFA  vArwika*)
 	           else if (member_of rt1 kAlAXvas)
-                        then [ Relation (id1,mid1,"apavarga_sambanXaH",id2,mid2,"3.1") (* xevaxawwena mAsena pATaH aXIwaH apavarge wqwIyA A 2.3.6 *)  (* yogyawA *)
-                   ]
+                        then [ Relation (id1,mid1,"apavarga_sambanXaH",id2,mid2,"3.1")] (* xevaxawwena mAsena pATaH aXIwaH apavarge wqwIyA A 2.3.6 *)  (* yogyawA *)
+                        
                         else if (member_of (uwwarapaxa1^" "^string_of_int viBakwiH1) kriyAviSeRaNas) (* yogyawA *) (*&& lifgam1="napuM"*)
-                             then [ Relation (id1,mid1,"kriyAviSeRaNam",id2,mid2,"3.2") (* vegena XAvawi *)  (* yogyawA *)
-                   ]
+                             then [ Relation (id1,mid1,"kriyAviSeRaNam",id2,mid2,"3.2")] (* vegena XAvawi *)  (* yogyawA *)
                              else if members_of rt2 upasarga2 karaNa_verbs
-                                  then if not (member_of rt1 guNa_not_guNavacana) (*|| pronominal123 rt1*)
-                      && not (member_of rt1 upAXi)
-                      && not (member_of rt1 sambanXavAcI)
+                                  then if (member_of rt1 shabxavAci_nouns
+                                         || member_of rt1 buxXivAci_nouns
+                                         || not (member_of rt1 guNa_not_guNavacana)) (*|| pronominal123 rt1*)
+                                       && not (member_of rt1 upAXi)
+                                       && not (member_of rt1 sambanXavAcI)
                                        then [ Relation (id1,mid1,"karaNam",id2,mid2,"3.3") ]  (*karwq karaNayoswqwIyA - yAnena gacCawi*) 
                                        else [ Relation (id1,mid1,"hewuH",id2,mid2,"3.4") ]
                                   else if (rt2="jFA2" && upasarga2 = "sam")
