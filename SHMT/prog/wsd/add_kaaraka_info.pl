@@ -30,8 +30,12 @@ while($in = <STDIN>){
     if($kaaraka) {
        $kaaraka =~ s/^/<rel_nm:/;
        $kaaraka =~ s/;.*//; #Remove the shared kaaraka info
-       $kaaraka =~ s/,/><relata_pos:/;
-       $kaaraka =~ s/$/>/;
+       if($kaaraka =~ /,/) { 
+	  $kaaraka =~ s/,/><relata_pos:/;
+          $kaaraka =~ s/$/>/;
+       } else {
+	  $kaaraka =~ s/$/><relata_pos:>/;
+       }
        print $kaaraka;
     }else { print "<rel_nm:><relata_pos:>";}
  }

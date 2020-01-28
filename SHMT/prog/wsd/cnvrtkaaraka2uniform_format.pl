@@ -91,7 +91,9 @@ while($in = <STDIN>){
 
           $wrd_ana =~ s/^([^<]+)$//g;
           $wrd_ana =~ s/<([^:]+):([^>]+)>/($1 $2)/g;
-          $wrd_ana =~ s/<([^:]+):>//g;
+          $wrd_ana =~ s/<rel_nm:>/(rel_nm X)/g;
+          $wrd_ana =~ s/<relata_pos:>/(relata_pos 0)/g;
+	  #$wrd_ana =~ s/<([^:]+):>//g;
           $wrd_ana =~ s/\$//g;
 
         $sent .= "(id $word_count) ";

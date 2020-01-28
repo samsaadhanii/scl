@@ -119,14 +119,15 @@ EXTEND Gram
         "(word"; w = IDENT; ")"; 
         "(rt"; r = IDENT; ")"; 
         "(compound_hd"; c = IDENT; ")"; 
-        "(sanAxiH"; san = IDENT; ")";
+        "(upasarga"; upa = IDENT; ")"; 
+        "(sanAxi_prawyayaH"; san = IDENT; ")";
         "(kqw_prawyayaH"; kqw = IDENT; ")"; 
         "(XAwuH"; rtwithiw = IDENT; ")"; 
         "(gaNaH"; gana = IDENT; ")"; 
         "(rel_nm"; rel = IDENT; ")";
         "(relata_pos"; rel_pos = INT; ")";
      ")" -> 
-    (int_of_string i,int_of_string m,w,r,c,san,kqw,rtwithiw,gana, rel, int_of_string rel_pos)
+    (int_of_string i,int_of_string m,w,r,c,upa,san,kqw,rtwithiw,gana, rel, int_of_string rel_pos)
     ] ] ;
 
   waxXiwa:
@@ -411,14 +412,14 @@ value upapaxa_vib = [ ("2_aBi","2u6");
 value distinct_2 m1 m2 = match m1 with
   [ Wif (id1,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
   | Kqw (id1,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
-  | Avykqw (id1,_,_,_,_,_,_,_,_,_,_)
+  | Avykqw (id1,_,_,_,_,_,_,_,_,_,_,_)
   | AvywaxXiwa (id1,_,_,_,_,_,_,_)
   | Sup (id1,_,_,_,_,_,_,_,_,_)
   | Avy (id1,_,_,_,_,_,_)
   | WaxXiwa (id1,_,_,_,_,_,_,_,_,_,_,_) -> match m2 with
   	[ Wif (id2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
   	| Kqw (id2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
- 	| Avykqw (id2,_,_,_,_,_,_,_,_,_,_)
+ 	| Avykqw (id2,_,_,_,_,_,_,_,_,_,_,_)
  	| AvywaxXiwa (id2,_,_,_,_,_,_,_)
  	| Sup (id2,_,_,_,_,_,_,_,_,_)
  	| Avy (id2,_,_,_,_,_,_)
