@@ -48,6 +48,7 @@ sub modify_mo{
   $in =~ s/<vibhaktiḥ:([^>]+)>/ $1/g;
   $in =~ s/<torḍ:[^>]+>//g;
   $in =~ s/<gaṇaḥ:([^>]+)>/ $1/g;
+  $in =~ s/<gaṇaḥ:([^>]*)>/ /g;
   $in =~ s/<padī:([^>]+)>/ $1/g;
   $in =~ s/<dhātuḥ:([^>]+)>/ /g;
   $in =~ s/<pratyayaḥ:([^>]+)/ $1/g;

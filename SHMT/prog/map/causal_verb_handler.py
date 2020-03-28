@@ -25,6 +25,8 @@ try:
        print apavadaList[hi_v] 
     elif hi_v.endswith('_ho'):
        print hi_v[0:-3] + '_kara'                  # 'vyApwa_ho' -> 'vyApwa_kara'
+    elif hi_v.endswith('_le'):
+       print hi_v[0:-3] + '_livA'                  # 'vyApwa_ho' -> 'vyApwa_kara'
     elif hi_v.endswith('_kara'):
        print hi_v[0:-1] + 'A'                      # 'prawIkRA_kara' -> 'prawIkRA_karA'
     elif hi_v.endswith('I') or hi_v.endswith('e'):         # 'jI', pI, xe
@@ -32,7 +34,7 @@ try:
     elif hi_v.endswith('U'):                       # 'cU', CU 
         print hi_v[0:-1] + 'uA'                    # 'cuA', CuA
     elif hi_v.endswith('o'):                       # ro
-        print hi_v[:-1] + 'ulA'                    # rulA               
+        print hi_v[:-1] + 'ulA'                    # rulA
     elif hi_v.endswith('a'):  
         if secondLastVowel(hi_v)[0] == 'A':                                                          # kAzpa, jAga
             print hi_v[:secondLastVowel(hi_v)[1]] + 'a' + hi_v[secondLastVowel(hi_v)[1]+1:-1] + 'A'  # kazpA, jagA

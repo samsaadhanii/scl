@@ -4,7 +4,8 @@ grep xvi2 Master_verb_data | cut -f1 | grep -v '#' > xvikarmaka_XAwu_list2
 grep sakarmaka Master_verb_data | cut -f1 | grep -v '#' > sakarmaka_XAwu_list
 grep '	akarmaka' Master_verb_data | cut -f1 | grep -v '#' > akarmaka_XAwu_list
 
-grep gawi Master_verb_data | grep sakarmaka | cut -f1 | grep -v '#' > gawyarWa_XAwu_list
+grep gawi Master_verb_data | cut -f1 | grep -v '#' > gawyarWa_XAwu_list 
+# grep sakarmaka removed, since we extract all the gawi verbs
 grep buxXi Master_verb_data | grep sakarmaka | cut -f1 | grep -v '#' > buxXyarWa_XAwu_list
 grep Sabxakarma Master_verb_data | grep sakarmaka | cut -f1 | grep -v '#' > Sabxakarma_XAwu_list
 grep prawyavasAnArWa Master_verb_data | grep sakarmaka | cut -f1 | grep -v '#' > prawyavasAnArWa_XAwu_list

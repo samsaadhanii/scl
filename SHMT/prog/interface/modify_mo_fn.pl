@@ -66,6 +66,8 @@ sub modify_mo{
   $in =~ s/<sanAxi_prawyayaH:([^>]+)>/ $1anwa/g;
   $in =~ s/<prayogaH:([^>]+)>/ $1/g;
   $in =~ s/<puruRaH:([^>]+)>/ $1/g;
+  $in =~ s/<gaNaH([^>]+)>/ $1/g;
+  $in =~ s/<gaNaH([^>]*)>/ /g;
   $in =~ s/<lakAraH:([^>]+)>/ $1/g;
   $in =~ s/<vacanam:([^>]+)>/ $1/g;
   $in =~ s/<rel_nm:([^>]*)>//g;

@@ -24957,20 +24957,23 @@
 <jAwi>द्रव्यम्</jAwi>
 <sense no="1">शिखर पर खड़ा हुआ, सर्वोच्च पद पर अधिष्ठित AV वंशावलीद्योतक तालिका में प्रधान पद पर अवस्थित</sense>
 </segmenthd>
-<segmenthd>
-<root>कूटस्थः</root>
-<prAwipaxikam>कूटस्थ</prAwipaxikam>
-<seg>कूट-स्थः</seg>
-<grammar>पुं*</grammar>
-<jAwi>द्रव्यम्</jAwi>
-<sense no="1">परमात्माM<citation>भग* ६।८</citation>१२।३ अचल, अपरिवर्तनीय, तथा शाश्वत</sense>
-</segmenthd>
+
 <segmenthd>
 <root>कूटस्वर्णम्</root>
 <prAwipaxikam>कूटस्वर्ण</prAwipaxikam>
 <seg>कूट-स्वर्णम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">खोटा सोना</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="138a">
+<root>कूटस्थः</root>
+<prAwipaxikam>कूटस्थ</prAwipaxikam>
+<seg>कूट-स्थः</seg>
+<grammar>पुं*</grammar>
+<jAwi>द्रव्यम्</jAwi>
+<sense no="1">परमात्मा<citation>भग* ६।८</citation>१२।३ अचल, अपरिवर्तनीय, तथा शाश्वत</sense>
 </segmenthd>
 </lexhead>
 

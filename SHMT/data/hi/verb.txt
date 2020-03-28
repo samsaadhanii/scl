@@ -2329,10 +2329,9 @@ namas_kq2,ap,UNKN,v,NW,NW
 namas_kq2,pp,UNKN,v,NW,NW
 nanx1,pp,sk,v,vqxXi_ho^baDawI_ho,samqxXO
 narx1,pp,ak,v,Sabxa_kara,Sabxe
-naS1,pp,sk,v,naRta_ho^axarSana_ho^xiKAI_na_xe,axarSane
+NaS1,pp,ak,v,naRta_ho^axarSana_ho^xiKAI_na_xe,axarSane
 nAs1,pp,sk,v,Sabxa_kara,Sabxe
 nas1,pp,sk,v,teDA_ho^vakra_ho^nama_ho,kOtilye
-NaS1,pp,UNKN,v,NW,NW
 nat1,pp,sk,v,nqwya_kara^nAca,nqwwO
 nat2,pp,sk,v,nqwya_kara,nqwwO_gawO_{iwyanye}
 nat3,pp,sk,v,xiKA,avasyanxane
@@ -2347,7 +2346,6 @@ neR1,pp,sk,v,jA,gawO
 nex1,pp,sk,v,xoRa_lagA^ninxA_kara^samIpa_jAnA_yA_A,kuwsA-sannikarRayoH
 NI1,ap,sk,v,le_jA,prApaNe
 NI1,pp,sk,v,le_jA,prApaNe
-nI1,pp,sk,v,le_jA^prApwa_ho^pA,prApaNe
 ni_anc2,pp,UNKN,v,NW,NW
 ni_as3,pp,UNKN,v,NW,NW
 ni_banX1,pp,sk,v,banXana_mukwa_kara^ikatTA_kara,
@@ -4714,7 +4712,7 @@ Svall1,pp,ak,v,wejI_se_jA,ASugamane
 svan1,pp,sk,v,Sabxa_kara,avawaMsane_{miw}
 #svan2,pp,sk,v,Sabxa_kara,Sabxe
 SvaNT1,pp,sk,v,TIka_na_banA^AXA_hI_Coda^asaMskqwa_raKa^jA^cala,asaMskAra-gawyoH
-svap1,pp,sk,v,so^nixrA_le,Saye
+svap1,pp,ak,v,so^nixrA_le,Saye
 svara1,pp,sk,v,Sabxa_kara^AvAja_kara^xoRa_lagA^ninxA_kara^AkRepa_kara,AkRepe
 svaRk1,ap,sk,v,jA,gawyarWaH
 Svarw1,pp,sk,v,jA,gawyAm

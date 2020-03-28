@@ -80,6 +80,7 @@ cumbaka
 ejaka
 gaNaka
 gAyaka
+gADa
 gIwa
 gIwA
 goXikA
@@ -127,6 +128,7 @@ leKaka
 lepaka
 locaka
 mahaw
+maraNa
 mallaka
 mAnikA
 mANikA
@@ -149,6 +151,7 @@ nASaka
 nAsikA
 nAtakam
 nAyaka
+niSciwam
 niScAyaka
 nivAsa
 niXAna
@@ -220,6 +223,7 @@ saFcAraka
 saFcArikA
 safGAtikA
 saFjaya
+sahiwa
 SAkya
 samApaka
 samarWakam

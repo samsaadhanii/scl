@@ -232,6 +232,7 @@ while($tmpin = <STDIN>){
       } elsif($cat eq "kqw-avy") {
         ($rt,$kqw,$XAwu,$gaNa,$rel) = (split/:/, &get_kqw_avy_features($in[$i]));
 
+	#print "rt = $rt\n";
        $map_rt = &get_dict_mng($rt, $rVERB_RT);
        $map_kqw = &get_dict_mng($kqw, $rTAM);
 
@@ -611,6 +612,8 @@ sub get_dict_mng{
 my($rt,$rdatabase) = @_;
 my $ans = "";
        
+#print "rt = $rt\n";
+#print "val = $$rdatabase{$rt}\n";
        if($$rdatabase{$rt} ne "") {
           $ans = &clean($$rdatabase{$rt});
 	  #print "ans = $ans\n";

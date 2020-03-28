@@ -518,6 +518,12 @@ value relation_mutual_yogyataa m1 m2 = match m1 with
          else if from_id1=to_id2 && from_mid1=to_mid2
                 && r1=47 && not (r2 = 13) (* a samboXyaH can be only of the root verb  or an embeded verb in iwi clause *)
          then False
+         else if from_id2=to_id1 && from_mid2=to_mid1
+                && r1=10 && (r2=7||r2=11||r2=12||r2=14) (* karwA / karma of a karmasamAnAXikaraNam not allowed *)
+         then False
+         else if from_id1=to_id2 && from_mid1=to_mid2
+                && r2=10 && (r1=7 || r1=11||r1=12||r1=14) (* karwA / karma of a karmasamAnAXikaraNam not allowed *)
+         then False
         (* else if from_id1=to_id2 && from_mid1=to_mid2
                 && r2=53 && r1=53 (* samucciwa of samucciwa is not allowed *)
          then False

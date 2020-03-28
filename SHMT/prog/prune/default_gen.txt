@@ -7780,6 +7780,7 @@ gurukA_swrI
 gurukI_swrI
 gurukula_napuM
 guru_puM
+guru_napuM
 gurusevA_swrI
 guruSuSrURA_swrI
 guruvqwwi_swrI
@@ -28459,6 +28460,7 @@ sawwvavihiwa_napuM
 sawwvavihiwa_puM
 sawwvaviplava_puM
 sAwwvika_puM
+sAwwvika_napuM
 sAwwvikA_swrI
 sawwvoxreka_puM
 sawyaBAmA_swrI

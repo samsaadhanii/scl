@@ -490,6 +490,7 @@ uxGoRayanwam	uxGoRayaw<vargaH:nA><lifgam:puM><viBakwiH:2><vacanam:eka><level:1>
 uxGoRayanwi	GuR1<upasarga:uw><prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:bahu><paxI:parasmEpaxI><XAwuH:GuRir><gaNaH:curAxiH><level:1>
 uxGoRiwaH	uxGoRiwa<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 uxGoRya	GuR1<upasarga:uw><vargaH:avy><kqw_prawyayaH:lyap><XAwuH:GuRi><gaNaH:BvAxiH><level:1>/GuR2<upasarga:uw><vargaH:avy><kqw_prawyayaH:lyap><XAwuH:GuRir><gaNaH:BvAxiH><level:0>/GuR3<upasarga:uw><vargaH:avy><kqw_prawyayaH:lyap><XAwuH:GuRir><gaNaH:curAxiH><level:0>
+uxvijew	vij2<upasarga:uw><prayogaH:karwari><lakAraH:viXilif><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:oZvijIZ><gaNaH:wuxAxiH><level:1>
 uxXarew	hq1<upasarga:uw><prayogaH:karwari><lakAraH:viXilif><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:hqF><gaNaH:BvAxiH><level:1>/Xq1<upasarga:uw><prayogaH:karwari><lakAraH:viXilif><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:XqF><gaNaH:BvAxiH><level:1>
 uxyanwam	uxyaw<vargaH:nA><lifgam:puM><viBakwiH:2><vacanam:eka><level:1>
 vacArayanwi	cara1<upasarga:vi><sanAxi_prawyayaH:Nic><prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:bahu><paxI:parasmEpaxI><XAwuH:cara><gaNaH:BvAdiH><level:1>
