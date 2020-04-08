@@ -1,3 +1,4 @@
+BavanwaH=Bavaw<vargaH:sarva><lifgam:puM><viBakwiH:1><vacanam:bahu><level:1>/Bavanwa<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 yaw=yaw<vargaH:avy><level:1>/yax<vargaH:sarva><lifgam:napuM><viBakwiH:1><vacanam:eka><level:1>/yax<vargaH:sarva><lifgam:napuM><viBakwiH:2><vacanam:eka><level:1>
 ucyawe=brU1<prayogaH:karmaNi><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:brUF><gaNaH:axAxiH><level:1>
 kariRyawe=kq3<prayogaH:karwari><lakAraH:lqt><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:dukqF><gaNaH:wanAxiH><level:1>
