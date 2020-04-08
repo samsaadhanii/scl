@@ -27,6 +27,7 @@ anwikam,avy,samIpa
 anwikAw,avy,samIpa_se
 anwike,avy,samIpa_meM
 anwikena,avy,samIpa_se
+anyaw,avy,anya
 anyaWA,avy,anyaWA
 anyawra,avy,anyawra
 anyexyuH,avy,agale_xina
@@ -85,6 +86,7 @@ Baviwavya,n,puM,honahAra
 BaviwavyawA,n,swrI,BAgya
 bawa,avy,oha
 bawa,avy,saMboXana^pukaranA^sanwoRa^Kexa^AScarya
+BasmasAw,avy,jalAkara_rAKa_kara_xe
 BoH,avy,he
 buk,avy,anukaraNamUlaka_Sabxa
 buxXipuraHsaram,avy,irAxawana^jAnabUJa_kara_svecCA_se
@@ -296,6 +298,7 @@ paranwu,avy,paranwu
 paraspara,avy,paraspara
 parasparam,avy,paraspara
 paraSvaH,avy,parasoM
+parawaH,avy,para
 parawra,avy,BaviRya_meM
 pariSalAkam,avy,jUe_meM_manahUsa_pAsA_padZanA
 pariwaH,avy,cAroM_ora

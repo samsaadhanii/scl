@@ -287,11 +287,12 @@ Af_hq1,ap,sk,v,karavA,
 Af_hq1,pp,sk,v,karavA,
 Af_hu1,pp,sk,v,bulA,
 Af_hve1,pp,sk,v,bulA,
-Af_i1,pp,UNKN,v,NW,NW
+Af_i1,pp,sk,v,A,NW
 aFj1,pp,sk,v,joda,vyakwi-mrakRaNa-kAnwi-gawiRu
 aFj2,pp,sk,v,bola^kaha^prakASiwa_ho^camaka^warka_kara^kalpa^vAxa_kara^SafkA_kara,BARArWaH
 Af_jan2,ap,UNKN,v,NW,NW
 Af_jap1,pp,UNKN,v,NW,NW
+Af_jFA1,pp,sk,v,AjFA_kara,NW
 Af_jFA2,pp,UNKN,v,NW,NW
 Af_ji1,pp,UNKN,v,NW,NW
 Af_jIv1,pp,UNKN,v,NW,NW
@@ -342,7 +343,7 @@ Af_lI1,ap,UNKN,v,NW,NW
 Af_lig2,pp,UNKN,v,NW,NW
 Af_lih1,ap,UNKN,v,NW,NW
 Af_lih1,pp,UNKN,v,NW,NW
-Af_liK1,pp,UNKN,v,NW,NW
+Af_liK1,pp,sk,v,AleKana_kara^reKAciwra_banA^ciwriwa_kara,NW
 Af_lip1,ap,UNKN,v,NW,NW
 Af_lip1,pp,UNKN,v,NW,NW
 Af_liS1,ap,UNKN,v,NW,NW
@@ -358,7 +359,7 @@ Af_mux1,ap,UNKN,v,NW,NW
 Af_narx1,pp,UNKN,v,NW,NW
 Af_nax1,pp,UNKN,v,NW,NW
 Af_Nax1,pp,UNKN,v,NW,NW
-Af_nI1,pp,sk,v,lA,
+Af_NI1,pp,sk,v,lA,
 Af_nqw1,pp,UNKN,v,NW,NW
 Af_NU1,pp,UNKN,v,NW,NW
 Af_pA1,pp,UNKN,v,NW,NW
@@ -471,9 +472,9 @@ Af_wqx1,ap,UNKN,v,NW,NW
 Af_wqx1,pp,UNKN,v,NW,NW
 Af_wux1,ap,UNKN,v,NW,NW
 Af_wux1,pp,UNKN,v,NW,NW
-Af_XA1,ap,sk,v,svIkAra_kara^sWApiwa_kara,
+Af_XA1,ap,sk,v,raKa, ## after the disscussion we have change it raKanA instead of svikAra_karanA (BG 5.10)
 Af_xA1,pp,sk,v,le^afgakAra_kara,
-Af_xA3,ap,sk,v,le,
+Af_xA3,ap,sk,v,uga,
 Af_xA3,pp,sk,v,le,
 Af_xanS1,ap,UNKN,v,NW,NW
 Af_xanS1,pp,UNKN,v,NW,NW
@@ -720,7 +721,7 @@ anwar_XA1,ap,UNKN,v,NW,NW
 anwar_XA1,pp,UNKN,v,NW,NW
 anx1,pp,sk,v,bAMXa^pA^hAsila_kara,banXane
 anXa1,pp,sk,v,anXA_ho^xiKAI_na_xe^AMKe_mUMxa,xqRtyupaGAwe
-Ap1,pp,sk,v,vyApwa_ho^vyApa,vyApwO
+Ap1,pp,sk,v,prApwa_kara,vyApwO
 Ap2,pp,sk,v,prApwa_ho^pA,lamBane
 apa_Af_hA1,ap,UNKN,v,NW,NW
 apa_Af_hA2,pp,UNKN,v,NW,NW
@@ -920,7 +921,8 @@ arx1,pp,sk,v,jA^mAMga^yAcanA_kara^mAra,gawO_yAcane_ca
 arx2,pp,sk,v,hiMsA_kara^mAra,hiMsAyAm
 As1,ap,ak,v,bETa,upaveSane
 as1,ap,sk,v,jA^camaka^le,gawi-xIpwi-AxAneRu
-aS1,ap,sk,v,PEla^rASi_kara^Dera_kara,vyApwO_saMGAwe_ca
+aS1,ap,ak,v,vyApwa_ho^PEla^rASi_kara^Dera_kara,vyApwO_saMGAwe_ca ## after discussion I have changed it (BG 5.21)
+aS1,ap,sk,v,anuBava_kara,vyApwO_saMGAwe_ca ## after discussion I have changed it (BG 5.21)
 as1,pp,sk,v,jA^camaka^le,gawi-xIpwi-AxAneRu
 as2,pp,ak,v,ho,
 aS2,pp,sk,v,KA^BojanA_kara,Bojane
@@ -1059,6 +1061,7 @@ ava_ruX1,pp,sk,v,roka,
 ava_rux1,pp,UNKN,v,NW,NW
 ava_Rvap1,pp,UNKN,v,NW,NW
 ava_RWA1,pp,ak,v,avasWiwa_raha^sevA_kara^Wama,
+ava_RWA1,ap,ak,v,avasWiwa_raha^sevA_kara^Wama,
 ava_saFj1,pp,sk,v,lataka^hila,
 ava_Sas1,pp,UNKN,v,NW,NW
 ava_Sax1,pp,UNKN,v,NW,NW
@@ -1198,7 +1201,7 @@ awi_xiS1,ap,UNKN,v,NW,NW
 awi_xiS1,pp,UNKN,v,NW,NW
 awi_xiv2,pp,UNKN,v,NW,NW
 awi_yA1,pp,UNKN,v,NW,NW
-ax1,pp,sk,v,KA,BakRaNe
+ax2,pp,sk,v,KA,BakRaNe
 aXi_Af_gam1,pp,UNKN,v,NW,NW
 aXi_Af_hq1,ap,UNKN,v,NW,NW
 aXi_Af_hq1,pp,UNKN,v,NW,NW
@@ -1225,14 +1228,15 @@ aXi_kq2,pp,UNKN,v,NW,NW
 aXi_kq3,ap,sk,v,jIwa^aXikAra_ho,
 aXi_kq3,pp,sk,v,jIwa^aXikAra_ho,
 aXi_kRi3,pp,UNKN,v,NW,NW
-aXi_kRip1,pp,UNKN,v,NW,NW
+aXi_kRip1,pp,sk,v,Aropiwa_kara,NW
 aXi_kRip2,ap,sk,v,Aropa_lagA,
 aXi_kRip2,pp,sk,v,Aropa_lagA,
 aXi_manW1,pp,UNKN,v,NW,NW
 aXi_mih1,pp,UNKN,v,NW,NW
 aXi_nqw1,pp,UNKN,v,NW,NW
 aXi_rakR1,pp,UNKN,v,NW,NW
-aXi_SI1,ap,sk,v,nivAsa_kara,
+aXi_RWA1,pp,sk,v,raha,NW
+aXi_SI1,ap,sk,v,so,
 aXi_Sri1,ap,UNKN,v,NW,NW
 aXi_Sri1,pp,UNKN,v,NW,NW
 aXi_sWA1,pp,sk,v,paxAruDa_ho^aXikArAruDa_ho^Upara_raha^Upara_bETa,
@@ -1356,6 +1360,7 @@ BreR1,ap,ak,v,jA,gawO
 BreR1,pp,ak,v,jA,gawO
 BrI1,pp,ak,v,dara^XAraNa_kara^ASraya_xe^pAlana_kara,Baye_BaraNe_{iwyeke}
 brU1,pp,sk,v,kaha^bola,vyakwAyAM_vAci ***
+brU1,ap,sk,v,kaha^bola,vyakwAyAM_vAci ***
 Brud1,pp,UNKN,v,NW,NW
 BrUN1,ap,sk,v,ASA_kara^BarosA_kara^SafkA_kara^garBa_XAraNa_kara,ASA-viSafkayoH
 brUs1,pp,sk,v,mAra_dAla^xuHKa_xe,hiMsAyAm
@@ -1540,8 +1545,8 @@ ganX1,ap,ak,v,xuHKa_xe^mAra_dAla^lajA,arxane
 garb1,pp,sk,v,jA,gawO
 garh1,ap,sk,v,ninxA_kara^xoRa_lagA,kuwsAyAm
 garh2,pp,sk,v,xoRa_lagA^ninxA_kara,vininxane
-garj1,pp,ak,v,Sabxa_kara^garaja,Sabxe
-garj2,pp,sk,v,_Sabxa_kara,aBikAfkRAyAm
+garj1,pp,ak,v,garaja^Sabxa_kara,Sabxe
+garj2,pp,sk,v,Sabxa_kara,aBikAfkRAyAm
 garv1,pp,ak,v,ahaMkAra_kara,xarpe
 garva1,ap,ak,v,aBimAna_kara,mAne
 garx1,pp,ak,v,Sabxa_kara,Sabxe
@@ -1650,7 +1655,7 @@ hamm1,pp,sk,v,jA,gawO
 han1,pp,sk,v,mAra^jA,hiMsA-gawyoH
 hary1,pp,sk,v,jA^camakA^prakASiwa_ho,gawi-kAnwyoH
 has1,pp,UNKN,v,NW,NW
-hasez1,pp,sk,v,haMsa,hasane
+has1,pp,sk,v,hazsa,hasane
 hat1,pp,ak,v,prakASiwa_ho,xIpwO
 haT1,pp,ak,v,Puxaka^xuRta_ho^GAwakI_ho^balAwkAra_kara^julma_kara,pluwi-SaTawvayoH_balAwkAra_iwyanye
 hax1,ap,ak,v,mala_wyAga_kara,purIRowsarge
@@ -1708,6 +1713,7 @@ i3,pp,sk,v,smaraNa_kara^yAxa_kara^cinwana_kara,smaraNe
 Id1,ap,sk,v,prArWanA_kara,swuwO
 Id2,pp,sk,v,swuwi_kara^praSaMsA_kara,swuwO
 ifg1,pp,sk,v,jA,gawyarWaH
+ifg1,ap,sk,v,hila^kAzpa^jA,gawyarWaH
 ifK1,pp,sk,v,jA,gawyarWaH
 IfK1,pp,sk,v,jA,gawyarWaH
 Ih1,ap,ak,v,prayawna_kara,ceRtAyAm
@@ -1767,9 +1773,9 @@ Jat1,pp,ak,v,jamA_ho^ekawra_ho,safGAwe
 jE1,pp,ak,v,naRta_ho^hrAsa_ho^kama_ho^mlAna_ho,kRaye
 jeh1,ap,ak,v,koSiSa_kara^jA,prayawne_gawO_ca
 jeR1,ap,sk,v,jA,gawO
-jFA1,pp,sk,v,mAra^wIkRNa_kara,mAraNa-woraNa-niSAmaneRu_{miw}
-jFA2,pp,sk,v,jAna^samaJA,avaboXane
-jFA3,pp,sk,v,AjFA_kara,niyoge
+##jFA1,pp,sk,v,mAra^wIkRNa_kara,mAraNa-woraNa-niSAmaneRu_{miw}
+jFA1,pp,sk,v,jAna^samaJA,avaboXane
+jFA2,pp,sk,v,AjFA_kara,niyoge
 jFap1,pp,sk,v,jAna^samaJa^siKA^samaJA^Ananxiwa_kara^prasana_kara^mAra^TAMka^wIkRNa_kara,jFAna-jFApana-mAraNa-woRaNa-niSAna-niSAmaneRu
 ji1,pp,sk,v,jIwa,jaye
 ji2,pp,sk,v,parajiwa_kara^jIwa,jaye_aBiBave_ca
@@ -2303,6 +2309,7 @@ muNd2,pp,sk,v,cUrNa_kara^kROra_kara^muNdana_kara^hajAmawa_kara,KaNdane
 muNT1,pp,sk,v,pAlana_kara,pAlane
 mUR1,pp,sk,v,corI_kara,sweye
 muR1,pp,sk,v,curA^corI_kara,sweye
+muR2,pp,sk,v,corI_kara,sweye
 mur1,pp,sk,v,Gera^lapeta,saMveRtane
 murC1,pp,ak,v,mUrcCiwa_ho^muraJA,moha-samucCrAyayoH
 murv1,pp,sk,v,uxyama_kara,banXane
@@ -2329,9 +2336,10 @@ namas_kq2,ap,UNKN,v,NW,NW
 namas_kq2,pp,UNKN,v,NW,NW
 nanx1,pp,sk,v,vqxXi_ho^baDawI_ho,samqxXO
 narx1,pp,ak,v,Sabxa_kara,Sabxe
-NaS1,pp,ak,v,naRta_ho^axarSana_ho^xiKAI_na_xe,axarSane
+naS1,pp,sk,v,naRta_ho^axarSana_ho^xiKAI_na_xe,axarSane
 nAs1,pp,sk,v,Sabxa_kara,Sabxe
 nas1,pp,sk,v,teDA_ho^vakra_ho^nama_ho,kOtilye
+NaS1,pp,UNKN,v,NW,NW
 nat1,pp,sk,v,nqwya_kara^nAca,nqwwO
 nat2,pp,sk,v,nqwya_kara,nqwwO_gawO_{iwyanye}
 nat3,pp,sk,v,xiKA,avasyanxane
@@ -2346,6 +2354,7 @@ neR1,pp,sk,v,jA,gawO
 nex1,pp,sk,v,xoRa_lagA^ninxA_kara^samIpa_jAnA_yA_A,kuwsA-sannikarRayoH
 NI1,ap,sk,v,le_jA,prApaNe
 NI1,pp,sk,v,le_jA,prApaNe
+nI1,pp,sk,v,le_jA^prApwa_ho^pA,prApaNe
 ni_anc2,pp,UNKN,v,NW,NW
 ni_as3,pp,UNKN,v,NW,NW
 ni_banX1,pp,sk,v,banXana_mukwa_kara^ikatTA_kara,
@@ -2700,7 +2709,7 @@ nyak_kq3,ap,UNKN,v,NW,NW
 nyak_kq3,pp,UNKN,v,NW,NW
 oK1,pp,sk,v,SuRka_ho^sUKa^kAnwimAna_ho^alafkqwa_kara,SoRaNa-alamarWayoH
 oN1,pp,sk,v,xUra_kara^xUra_le_jA,apanayane
-pA1,pp,sk,v,pI,
+pA1,pp,sk,v,pI,pAne
 pA2,pp,sk,v,rakRA_kara,rakRaNe
 pac1,pp,sk,v,pakA,pAke
 paFc1,pp,sk,v,spaRta_kara,vyakwIkaraNe
@@ -3053,8 +3062,8 @@ pari_wux1,pp,UNKN,v,NW,NW
 pari_wvar1,ap,UNKN,v,NW,NW
 pari_wvar1,pp,UNKN,v,NW,NW
 pari_wyaj1,pp,sk,v,Coda,
-pari_XA1,ap,sk,v,vaswrAxi_XAraNa_kara^svIkAra_kara^gupwa_raha,
-pari_XA1,pp,sk,v,vaswrAxi_XAraNa_kara^svIkAra_kara^gupwa_raha,
+pari_XA1,ap,sk,v,XAraNa_kara^svIkAra_kara^gupwa_raha,
+pari_XA1,pp,sk,v,XAraNa_kara^svIkAra_kara^gupwa_raha,
 pari_xA1,pp,sk,v,xe^sOMpa,
 pari_xA3,ap,sk,v,xe^sOMpa,
 pari_xA3,pp,sk,v,xe^sOMpa,
@@ -3157,7 +3166,8 @@ pra_Af_vq1,ap,UNKN,v,NW,NW
 pra_Af_vq1,pp,UNKN,v,NW,NW
 pra_Af_vqw1,ap,UNKN,v,NW,NW
 pra_Af_xus_as2,pp,UNKN,v,NW,NW
-pra_Ap1,ap,sk,v,prApwa_kara,NW *** #pp-ap#
+pra_Ap1,ap,sk,v,prApwa_kara,NW 
+pra_Ap1,pp,sk,v,prApwa_kara,NW
 pra_A_raB1,pp,sk,v,prAramBa_kara,
 pra_arc1,pp,UNKN,v,NW,NW
 pra_arj1,pp,UNKN,v,NW,NW
@@ -3240,6 +3250,7 @@ pra_kala1,pp,UNKN,v,NW,NW
 pra_kam1,ap,UNKN,v,NW,NW
 pra_kap1,ap,UNKN,v,NW,NW
 pra_kas1,pp,UNKN,v,NW,NW
+pra_kAS1,pp,ak,prakASiwa_kara_xe,
 pra_kat1,pp,UNKN,v,NW,NW
 pra_kQ1,pp,UNKN,v,NW,NW
 pra_kq2,ap,UNKN,v,NW,NW
@@ -3308,6 +3319,7 @@ pra_muR2,pp,UNKN,v,NW,NW
 pra_mux1,ap,UNKN,v,NW,NW
 pra_NaB1,ap,UNKN,v,NW,NW
 pra_nam1,pp,sk,v,praNAma_kara,
+pra_Nam1,pp,sk,v,praNAma_kara,
 pra_NaS1,pp,sk,v,naRta_ho,
 pra_nax1,pp,sk,v,samuxra,
 pra_nI1,pp,sk,v,SikRA_kara^prIwi_kara,
@@ -3354,6 +3366,7 @@ pra_ruh1,pp,UNKN,v,NW,NW
 pra_rux1,pp,UNKN,v,NW,NW
 pra_Rvap1,pp,UNKN,v,NW,NW
 pra_Rvix1,ap,UNKN,v,NW,NW
+pra_RWA1,pp,sk,v,vixyamAna_ho^prawiRTiwa_ho,NW
 pras1,ap,sk,v,viswAra_kara,viswAre
 pra_Sabx1,pp,sk,v,spaRta_bola^vacana_xe,
 pra_Sam1,pp,UNKN,v,NW,NW
@@ -3426,6 +3439,7 @@ pra_vi_XA1,pp,UNKN,v,NW,NW
 pra_vlI1,pp,UNKN,v,NW,NW
 pra_vqh3,pp,UNKN,v,NW,NW
 pra_vqR1,pp,sk,v,varRA_ho,
+pra_vqw1,ap,sk,v,ho,NW
 pra_vqX1,ap,UNKN,v,NW,NW
 pra_vraj1,pp,UNKN,v,NW,NW
 praW1,ap,ak,v,varNan_kar,praKyAne
@@ -3501,6 +3515,7 @@ prawi_BAR1,ap,UNKN,v,NW,NW
 prawi_bAX1,ap,UNKN,v,NW,NW
 prawi_Bq1,ap,UNKN,v,NW,NW
 prawi_Bq1,pp,UNKN,v,NW,NW
+prawi_brU1,pp,sk,v,bola^kaha^saMkewa_kara,
 prawi_BU1,pp,sk,v,baxale_meM_xe,
 prawi_buX1,pp,UNKN,v,NW,NW
 prawi_buX2,pp,UNKN,v,NW,NW
@@ -3532,6 +3547,7 @@ prawi_IkR1,ap,sk,v,prawIkRA_kara,
 prawi_iR2,pp,sk,v,le,
 prawi_jAgq1,pp,UNKN,v,NW,NW
 prawi_jan2,ap,UNKN,v,NW,NW
+prawi_jFA1,pp,sk,v,prawijFA_kara,NW
 prawi_jFA2,pp,UNKN,v,NW,NW
 prawi_juR1,ap,UNKN,v,NW,NW
 prawi_jyA1,pp,UNKN,v,NW,NW
@@ -3826,7 +3842,7 @@ pra_xviR1,pp,UNKN,v,NW,NW
 pra_XyE1,ap,UNKN,v,NW,NW
 pra_XyE1,pp,UNKN,v,NW,NW
 pra_xyuw1,ap,UNKN,v,NW,NW
-pra_yA1,pp,UNKN,v,NW,NW
+pra_yA1,pp,sk,v,prayANa_kara^jA,NW
 pra_yAc1,ap,UNKN,v,NW,NW
 pra_yAc1,pp,UNKN,v,NW,NW
 prayA_gal1,pp,UNKN,v,NW,NW
@@ -3991,6 +4007,7 @@ riNv1,pp,sk,v,jA,gawyarWaH
 riP1,pp,sk,v,bola^yuxXa_kara^ninxA_kara^xe^xAna_xe,kawWana-yuxXa-ninxA-hiMsA-xAneRu
 riR1,pp,sk,v,hiMsA_kara^mAra,hiMsArWaH
 riS1,pp,sk,v,mAra_dAla,hiMsAyAm
+RnA1,pp,ak,v,snAna_kara^nahA,SOce
 rod1,pp,ak,v,unmawwa_kara^prayawna_kara,unmAxe
 rOd1,pp,sk,v,apamAna_kara,anAxare
 RqB1,pp,UNKN,v,NW,NW
@@ -4033,6 +4050,7 @@ ruX1,ap,sk,v,roka^Gera_le^Gera,AvaraNe
 rux1,pp,ak,v,ro,aSruvimocane
 ruX1,pp,sk,v,roka^Gera_le^Gera,AvaraNe
 Rvanj1,ap,UNKN,v,NW,NW
+Rvap1,pp,ak,v,so,NW
 RWA1,pp,ak,v,KadA_ho^Tahara^SeRa_baca,
 RWag1,pp,UNKN,v,NW,NW
 Rwak1,pp,UNKN,v,NW,NW
@@ -4105,7 +4123,7 @@ sam_Af_XA1,pp,sk,v,samAXAna_kara,
 sam_Af_XU1,ap,UNKN,v,NW,NW
 sam_Af_XU1,pp,UNKN,v,NW,NW
 sam_Af_XU2,pp,UNKN,v,NW,NW
-sam_Af_yA1,pp,UNKN,v,NW,NW
+sam_Af_yA1,pp,sk,v,A,NW
 samA_kRip2,pp,sk,v,Beja,
 samA_KyA1,pp,sk,v,nAma_raKa,
 sam_am1,pp,UNKN,v,NW,NW
@@ -4289,6 +4307,7 @@ sam_pId1,pp,UNKN,v,NW,NW
 sam_plu1,ap,UNKN,v,NW,NW
 sam_pra_gAh1,ap,UNKN,v,NW,NW
 sam_pra_gQ2,pp,UNKN,v,NW,NW
+sam_pra_IkR1,pp,sk,v,acCI_waraha_se_xeKa,NW
 sam_pra_kRE1,pp,UNKN,v,NW,NW
 sam_pra_kRuB1,ap,UNKN,v,NW,NW
 sam_pra_lI1,ap,UNKN,v,NW,NW
@@ -4712,7 +4731,7 @@ Svall1,pp,ak,v,wejI_se_jA,ASugamane
 svan1,pp,sk,v,Sabxa_kara,avawaMsane_{miw}
 #svan2,pp,sk,v,Sabxa_kara,Sabxe
 SvaNT1,pp,sk,v,TIka_na_banA^AXA_hI_Coda^asaMskqwa_raKa^jA^cala,asaMskAra-gawyoH
-svap1,pp,ak,v,so^nixrA_le,Saye
+svap1,pp,sk,v,so^nixrA_le,Saye
 svara1,pp,sk,v,Sabxa_kara^AvAja_kara^xoRa_lagA^ninxA_kara^AkRepa_kara,AkRepe
 svaRk1,ap,sk,v,jA,gawyarWaH
 Svarw1,pp,sk,v,jA,gawyAm
@@ -4729,6 +4748,7 @@ Svel1,pp,UNKN,v,NW,NW
 Svi1,pp,ak,v,jA^baDa^saPexa_ho,gawi-vqxXayoH
 svI_kq1,pp,sk,v,svIkAra_kara,
 svI_kq3,pp,sk,v,svIkAra_kara,
+svIkq3,pp,sk,v,svIkAra_kara,
 Svinx1,pp,sk,v,saPexa_ho^SuBra_ho,SvEwye
 Sviw1,ap,ak,v,saPexa_ho^SuBa_ho,varNe
 svix1,pp,sk,v,cikanA_kara^wyAga,snehana-mocanayoH
@@ -4830,7 +4850,7 @@ upa_hq1,pp,sk,v,BeMta_xe^samIpa_lA,
 upa_hu1,pp,sk,v,havana_kara,
 upa_hve1,ap,sk,v,yuxXa_ke_lie_bulA,
 upa_hve1,pp,sk,v,yuxXa_ke_lie_bulA,
-upa_i1,pp,sk,v,vApasa_A^sahAyawA_kara,
+upa_i1,pp,sk,v,pAsa_jA,
 upa_jan2,ap,sk,v,uwpanna_ho^pExA_ho,praxurBAve
 upa_jap1,pp,UNKN,v,NW,NW
 upa_jFA2,pp,sk,v,pahale_samaJa,
@@ -4840,7 +4860,7 @@ upa_kq2,pp,UNKN,v,NW,NW
 upa_kq3,ap,sk,v,upakAra_kara,
 upa_kq3,pp,sk,v,upakAra_kara,
 upa_kqp1,ap,UNKN,v,NW,NW
-upa_kram1,pp,UNKN,v,NW,NW
+upa_kram1,pp,sk,v,AraMBa_kara,NW
 upa_krI1,ap,UNKN,v,NW,NW
 upa_krI1,pp,UNKN,v,NW,NW
 upa_kRip1,pp,UNKN,v,NW,NW
@@ -5018,6 +5038,7 @@ uw_guh1,ap,UNKN,v,NW,NW
 uw_guh1,pp,UNKN,v,NW,NW
 uw_gur1,ap,UNKN,v,NW,NW
 uw_gUr2,ap,UNKN,v,NW,NW
+uw_GuR2,pp,sk,v,bola^cillA,NW
 uw_hA1,ap,UNKN,v,NW,NW
 uw_hA2,pp,UNKN,v,NW,NW
 uw_han1,pp,UNKN,v,NW,NW
@@ -5188,7 +5209,7 @@ uw_vI1,pp,UNKN,v,NW,NW
 uw_vi_IkR1,ap,UNKN,v,NW,NW
 uw_vij1,ap,UNKN,v,NW,NW
 uw_vij1,pp,UNKN,v,NW,NW
-uw_vij2,ap,UNKN,v,NW,NW
+uw_vij2,pp,sk,v,uxvigna_ho,NW
 uw_vqh3,pp,UNKN,v,NW,NW
 uw_vqw1,ap,UNKN,v,NW,NW
 uw_vraj1,pp,UNKN,v,NW,NW
@@ -5310,7 +5331,7 @@ vata1,pp,sk,v,gUMWa^lapeta,granWe
 vata2,pp,sk,v,viBAjana_kara^alaga_alaga_kara^gUMWa,viBAjane_granWe_ca
 vAvqw1,ap,UNKN,v,NW,NW
 vAwa1,pp,sk,v,kAta^kawara^SuxXa_kara^svacCa_kara^girA,suKa-sevanayoH
-vax1,pp,sk,v,kaha^spaRta_bola,vyakwAyAM_vAci
+vax1,pp,sk,v,bola^kaha^spaRta_bola,vyakwAyAM_vAci
 vax2,ap,sk,v,swuwi_kara,
 vay1,ap,sk,v,jA,gawO
 ve1,ap,sk,v,bunanA_bata,wanwusanwAne
@@ -5338,7 +5359,7 @@ vi_Af_NI1,ap,UNKN,v,NW,NW
 vi_Af_NI1,pp,UNKN,v,NW,NW
 vi_Af_pax1,ap,UNKN,v,NW,NW
 vi_Af_vqw1,ap,UNKN,v,NW,NW
-vi_Af_xA3,ap,UNKN,v,NW,NW
+vi_Af_xA3,pp,sk,v,Kola,NW
 vi_Af_xA3,pp,UNKN,v,NW,NW
 vi_Af_xIp1,ap,UNKN,v,NW,NW
 vi_aMsa1,ap,UNKN,v,NW,NW
@@ -5346,7 +5367,7 @@ vi_aMsa1,pp,UNKN,v,NW,NW
 vi_anc2,pp,UNKN,v,NW,NW
 vi_anj1,pp,UNKN,v,NW,NW
 vi_anu_Nax2,pp,sk,v,UzcI_gUzja^prawiXvani,
-vi_Ap1,pp,sk,v,vyApa,
+vi_Ap1,pp,sk,v,vyApwa_ho^vyApa,vyApwO
 vi_apa_gam1,pp,UNKN,v,NW,NW
 vi_apa_i1,pp,UNKN,v,NW,NW
 vi_apa_IkR1,ap,UNKN,v,NW,NW
@@ -5839,6 +5860,7 @@ vye1,ap,sk,v,AcCAxana_kara^Daka^sI,saMvaraNe
 vye1,pp,sk,v,AcCAxana_kara^Daka^sI,saMvaraNe
 vyuR1,pp,sk,v,jalA^jala^BUna^alaga_kara,xAhe_viBAge_ca
 vyuR2,pp,sk,v,alaga_kara,viBAge
+wad1,pp,sk,v,mAra^wAdana_kara,AGAwe
 wad1,ap,sk,v,mAra^wAdana_kara,AGAwe
 wad2,pp,sk,v,bola,BARArWaH
 waFc1,pp,sk,v,jA,gawyarWaH
@@ -6195,6 +6217,8 @@ yufg1,pp,sk,v,wyAga_xe,varjane
 yuj1,ap,sk,v,ciwwa_sWira_kara^mana_ko_roka,samAXO
 yuj2,ap,ak,v,juda^milApa_kara^ekawra_kara,yoge
 yuj2,pp,ak,v,juda^milApa_kara^ekawra_kara,yoge
+yuj2,ap,sk,v,juda^milApa_kara^ekawra_kara,yoge
+yuj2,pp,sk,v,juda^milApa_kara^ekawra_kara,yoge
 yuj3,pp,sk,v,saMyawa_kara^bAMXa^vaSa_meM_raKa,saMyamane
 yup1,pp,sk,v,ciwwa_vikala_ho^BrAnwa_ho^GabadA_jA,vimohane
 yUR1,pp,sk,v,hiMsA_kara^mAra,hiMsAyAm
