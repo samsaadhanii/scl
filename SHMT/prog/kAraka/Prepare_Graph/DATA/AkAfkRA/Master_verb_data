@@ -291,9 +291,9 @@ BUR2	akarmaka
 bus1	sakarmaka
 busw1	sakarmaka
 Buv1	sakarmaka
-buX1	sakarmaka		vAkyakarma
-buX2	sakarmaka
-buX3	sakarmaka
+buX1	sakarmaka	buxXi	vAkyakarma
+buX2	sakarmaka	buxXi
+buX3	sakarmaka	buxXi
 Byas1	akarmaka
 byuR1	sakarmaka
 byus1	sakarmaka
@@ -355,7 +355,7 @@ cit1	akarmaka
 cIv1	sakarmaka
 cIv3	sakarmaka
 ciw1	akarmaka
-ciw2	sakarmaka		vAkyakarma
+ciw2	sakarmaka	buxXi	vAkyakarma
 ciwra1	sakarmaka
 Cix1	sakarmaka
 Cixra1	sakarmaka
@@ -1135,6 +1135,7 @@ NeR1	sakarmaka
 Nex1	sakarmaka
 NI1	xvi2
 ni_Bq1	akarmaka
+ni_vq2	sakarmaka
 ni_banX1	sakarmaka				karmasamAnAXikaraNa
 ni_buX1	sakarmaka
 ni_buX2	sakarmaka
@@ -1299,6 +1300,7 @@ pra_BAR1	sakarmaka
 pra_brU1	sakarmaka
 pra_buX1	sakarmaka
 pra_cal1	sakarmaka	gawi
+pra_sq1	sakarmaka
 praC1	xvi1
 pra_hA1	sakarmaka
 pra_han1	sakarmaka
@@ -1314,6 +1316,7 @@ pra_kq3	sakarmaka					Axikarma
 pra_kRal2	sakarmaka
 pra_kRip2	sakarmaka
 pra_max2	sakarmaka
+pra_mux1	sakarmaka	gawi
 pra_Nam1	sakarmaka
 pra_NI1	sakarmaka
 pra_ni_XA1	sakarmaka
