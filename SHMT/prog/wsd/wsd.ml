@@ -499,7 +499,7 @@ value disambiguate_viBakwiH m1 m2 = match m1 with
                then  [ Relation (id1,mid1,"viBakwiH","2","2para","3.2")]
                else if rt1="xiv1"
                then  [ Relation (id1,mid1,"viBakwiH","2","2se","3.2")]
-               else if rel="kriyA_viSeRaNam"
+               else if rel="kriyAviSeRaNam"
                then [ Relation (id1,mid1,"viBakwiH",string_of_int viBakwiH1,"0","3.3")]
                else if rel="gONakarma" && id2=relata_pos
                then match rt2 with 
