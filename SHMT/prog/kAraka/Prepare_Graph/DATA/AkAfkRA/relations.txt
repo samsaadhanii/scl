@@ -3,9 +3,9 @@ prawiyogI 3
 BAvalakRaNasapwamI_samAnakAlaH 4
 BAvalakRaNasapwamI_pUrvakAlaH 5
 BAvalakRaNasapwamI_ananwarakAlaH 6
-karwA 7
+karwqsamAnAXikaraNam 7
 karwqrahiwakarwqsamAnAXikaraNam 8
-karwqsamAnAXikaraNam 9
+karwA 9
 karmasamAnAXikaraNam 10
 muKyakarma 11
 gONakarma 12
@@ -81,3 +81,4 @@ sambanXa_upa 4300
 karwA_upa 4400
 gawikarwA 200
 gawikarma 201
+iRkarma 141
