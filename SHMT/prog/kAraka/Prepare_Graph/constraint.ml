@@ -136,9 +136,9 @@ value join_relations a b c d e u v w x y =
     then if c >= 2000 && c < 2100
       then if w >= 4000 && w < 4100 then [Relationc (a,b,36,d,e);Relationc (u,v,20,x,y)]
       else if w >= 4100 && w < 4200 then [Relationc (a,b,36,d,e); Relationc (u,v,21,x,y)]
-      else if w >= 4200 && w < 4300 then [Relationc (a,b,36,d,e); Relationc (u,v,9,x,y)] 
+      else if w >= 4200 && w < 4300 then [Relationc (a,b,36,d,e); Relationc (u,v,7,x,y)] 
       else if w >= 4300 && w < 4400 then [Relationc (a,b,36,d,e); Relationc (u,v,28,x,y)] 
-      else if w >= 4400 && w < 4500 then [Relationc (a,b,36,d,e); Relationc (u,v,7,x,y)] 
+      else if w >= 4400 && w < 4500 then [Relationc (a,b,36,d,e); Relationc (u,v,9,x,y)] 
       else if w = 21 && c >= 2000 && c < 2100 then [Relationc (a,b,36,d,e)] 
       else []
     (* else if c >= 2100 && c < 2200 then [Relationc (u,v,21,x,y)]  *)
@@ -191,7 +191,7 @@ value collapse_upapada_relations relations part_dag a b c d e =
                     (*else if (c >=4000)
                     then List.append acc1 [Relationc (u,v,0,x,y)] *)
                     else if (c = 200) (*gawikarwA -> karwA *)
-                    then List.append acc1 [Relationc (a,b,7,d,e)] 
+                    then List.append acc1 [Relationc (a,b,9,d,e)] 
                     else if (c = 201) (*gawikarma -> karma *)
                     then List.append acc1 [Relationc (a,b,14,d,e)] 
 		    else acc1
@@ -305,8 +305,8 @@ value single_relation_label m1 m2 = match m1 with
                   || (r1 > multiple_relations_end && not (r1 = 90) && not (r1=61))
                   ) (* niwya sambanXaH *)
          then False (* do { print_string "C9"; False}*)
-         else if (from_id1=from_id2) && (from_mid1=from_mid2) && (r1=7 && r2 / 100 = 44) then False
-         else if (from_id1=from_id2) && (from_mid1=from_mid2) && (r2=7 && r1 / 100 = 44) then False
+         else if (from_id1=from_id2) && (from_mid1=from_mid2) && (r1=9 && r2 / 100 = 44) then False
+         else if (from_id1=from_id2) && (from_mid1=from_mid2) && (r2=9 && r1 / 100 = 44) then False
          else if (from_id1=from_id2) && (from_mid1=from_mid2) && ((r1 >= 2000  && r1 < 4000) || (r2 >= 2000 && r2 < 4000)) (* there can not be another outgoing rel with an upapaxa sambanXa*)
          then False  (*do { print_string "C9"; print_int r1; print_int r2;False} *)
          else if  (from_id1 = to_id2) && (from_mid1 = to_mid2) 
@@ -387,8 +387,8 @@ value relation_mutual_expectancy text_type m1 m2 = match m1 with
 (* If there is any kAraka relation, there can not be viSeRaNa, in case of kqxanwas. *)
 (* need example *)
          else if (from_id1 = from_id2) && (from_mid1 = from_mid2)
-              && (  (((r2 > 7 && r2 < 24) || r2 = 81 || r2 = 41) && (r1 = 32))
-                 || (((r1 > 7 && r1 < 24) || r1 = 81 || r2 = 41) && (r2 = 32)))
+              && (  (((r2 > 9 && r2 < 24) || r2 = 81 || r2 = 41) && (r1 = 32))
+                 || (((r1 > 9 && r1 < 24) || r1 = 81 || r2 = 41) && (r2 = 32)))
          then False (* do { print_string "C13"; False} *)
  (* There can not be more than one samucciwa for a verb *)
          else if (from_id1 = from_id2) && (from_mid1 = from_mid2)
@@ -426,36 +426,36 @@ value relation_mutual_expectancy text_type m1 m2 = match m1 with
          then False
          (* karwqsamAnAXikaraNa should be to the right of karwA *)
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
-                && (r2=7 && r1=9) && (text_type="Prose") && (to_id2 > to_id1)
+                && (r2=9 && r1=7) && (text_type="Prose") && (to_id2 > to_id1)
          then False
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
-                && (r2=9 && r1=7) && (text_type="Prose") && (to_id2 < to_id1)
+                && (r2=7 && r1=9) && (text_type="Prose") && (to_id2 < to_id1)
          then False
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
-                && (r2=7 && r1 >= 4200 && r1 / 100 = 42) && ((to_id1 - to_id2 > 3) || (to_id1 < to_id2 ))
+                && (r2=9 && r1 >= 4200 && r1 / 100 = 42) && ((to_id1 - to_id2 > 3) || (to_id1 < to_id2 ))
          then False
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
-                && ((r2 / 100 = 44) && r1=9) && (to_id1 < to_id2)
+                && ((r2 / 100 = 44) && r1=7) && (to_id1 < to_id2)
          then False
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
-                && (r2=9 && (r1 / 100 = 44)) && (to_id2 < to_id1)
+                && (r2=7 && (r1 / 100 = 44)) && (to_id2 < to_id1)
          then False
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
-                && (r1=7 &&  r2 >= 4200 && r2 / 100 = 42) && ((to_id2 - to_id1 > 3) || (to_id2 < to_id1 ))
+                && (r1=9 &&  r2 >= 4200 && r2 / 100 = 42) && ((to_id2 - to_id1 > 3) || (to_id2 < to_id1 ))
          then False
          (* With karwqsamAnAXikaraNa there can not be karma,karaNa,sampraxAna,apAxAna *)
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
-                && (r2=9 && (r1 = 11 || r1 = 12 || r1 = 14 || r1=15 || r1=16 || r1=18 || r1=19 || r1=20))
+                && (r2=7 && (r1 = 11 || r1 = 12 || r1 = 14 || r1=15 || r1=16 || r1=18 || r1=19 || r1=20))
          then False
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
-                && (r1=9 && (r2 = 11 || r2 = 12 || r2 = 14 || r2 = 15 || r2=16|| r2=18||r2=19||r2=20))
+                && (r1=7 && (r2 = 11 || r2 = 12 || r2 = 14 || r2 = 15 || r2=16|| r2=18||r2=19||r2=20))
          then False
          (* With karwqrahiwakarwqsamAnAXikaraNa there can not be karwA *)
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
-                && r2=8 && r1 = 7
+                && r2=8 && r1 = 9
          then False
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
-                && r1=8 && r2 = 7
+                && r1=8 && r2 = 9
          then False
          (* With karmasamAnAXikaraNa there can not be gONa-karma 
           * brU1 and vax1 dhaatus are xvikarmaka, and if there is karmasamaanaadhikarana relation with them, then gONa karma should be absent *)
@@ -519,10 +519,16 @@ value relation_mutual_yogyataa m1 m2 = match m1 with
                 && r1=47 && not (r2 = 13) (* a samboXyaH can be only of the root verb  or an embeded verb in iwi clause *)
          then False
          else if from_id2=to_id1 && from_mid2=to_mid1
-                && r1=10 && (r2=7||r2=11||r2=12||r2=14) (* karwA / karma of a karmasamAnAXikaraNam not allowed *)
+                && r1=10 && (r2=9||r2=11||r2=12||r2=14) (* karwA / karma of a karmasamAnAXikaraNam not allowed *)
          then False
          else if from_id1=to_id2 && from_mid1=to_mid2
-                && r2=10 && (r1=7 || r1=11||r1=12||r1=14) (* karwA / karma of a karmasamAnAXikaraNam not allowed *)
+                && r2=10 && (r1=9 || r1=11||r1=12||r1=14) (* karwA / karma of a karmasamAnAXikaraNam not allowed *)
+         then False
+         else if from_id2=to_id1 && from_mid2=to_mid1
+                && r1=7 && (r2=9||r2=11||r2=12||r2=14) (* karwA / karma of a karwqsamAnAXikaraNam not allowed *)
+         then False
+         else if from_id1=to_id2 && from_mid1=to_mid2
+                && r2=7 && (r1=9 || r1=11||r1=12||r1=14) (* karwA / karma of a karwqsamAnAXikaraNam not allowed *)
          then False
         (* else if from_id1=to_id2 && from_mid1=to_mid2
                 && r2=53 && r1=53 (* samucciwa of samucciwa is not allowed *)
@@ -530,6 +536,13 @@ value relation_mutual_yogyataa m1 m2 = match m1 with
          else if from_id2=to_id1 && from_mid2=to_mid1
                 && r2=53 && r1=53 (* samucciwa of samucciwa is not allowed *)
          then False *)
+         else if from_id1=to_id2 && from_mid1=to_mid2
+                && r2=60 && r1=7 (* samucciwa of karwqsamAnAXikaraNa is not allowed 
+                BavanwaH jAnanwi yaw mama puwrAH SAswra-vimuKAH avivekinaH ca sanwi  *)
+         then False
+         else if from_id2=to_id1 && from_mid2=to_mid1
+                && r2=7 && r1=60 (* samucciwa of karwqsamAnAXikaraNa is not allowed *)
+         then False
          else if from_id1=to_id2 && from_mid1=to_mid2
                 && ( (r2=61 && r1=61) (* sup_samucciwa of sup_samucciwa is not allowed *)
                   || (r2=63 && r1=63)) (* sup_anyawara of sup_anyawara is not allowed *)
@@ -579,9 +592,9 @@ value rec add_cost text_type acc rels = fun
             else if  rel= 78 then 100 (* lyapkarmAXikaraNam ; select this only if there is no other analysis possible *)
             else if rel >= 4000 && rel < 4100 then 20 * (a2-a1) (* apAxAnam *)
             else if rel >= 4100 && rel < 4200 then 21 * (a2-a1) (* xeSAXi *)
-            else if rel >= 4200 && rel < 4300 then 9 * (a2-a1) (* karwqsam *)
+            else if rel >= 4200 && rel < 4300 then 7 * (a2-a1) (* karwqsam *)
             else if rel >= 4300 && rel < 4400 then 28 * (a2-a1) (* sambanXaH *)
-            else if rel >= 4400 && rel < 4500 then 7 * (a2-a1) (* karwA *)
+            else if rel >= 4400 && rel < 4500 then 9 * (a2-a1) (* karwA *)
             else if rel >= 2200 && rel < 2300 then 14 * (a2-a1) (* karma *)
             else if rel >= 2400 && rel < 2500 then 95 * (a2-a1) 
             else if rel >= 2600 && rel < 2700 then 49 * (a2-a1)
@@ -1092,22 +1105,22 @@ let maprel = List.map (fun y -> List.nth relations (y-1) ) relsindag in
                                 then False
                                 else  loop1 rest1
                           ]
-         else if r1=9  || r1 >= 4400 then
+         else if r1=7  || r1 >= 4400 then
                                (* karwqsamAnAXikaraNam, karwA *)
                                (* karwA, karwA_upa *)
          loop1 maprel 
          where rec loop1 = fun
-                          [ [] -> False (* do { print_string "failed case 5\n"; False} *)
+                          [ [] -> False  (*do { print_string "failed case 5\n"; False} *)
                           | [Relationc (x,y,r,z,t)::rest1] -> 
-                                if (z=c && t=d && (r / 100 = 44 && r1=7))
+                                if (z=c && t=d && (r / 100 = 44 && r1=9))
                                 then False
-                                else if (x=c && y=d && (r1 / 100 = 44 && r=7))
+                                else if (x=c && y=d && (r1 / 100 = 44 && r=9))
                                 then False
-                                else if (z=c && t=d && (r / 100 = 44 && r1=9))
-                                 || (x=c && y=d && (r1 / 100 = 44 && r=9))
-                                 || (z=c && t=d && r=7 && r1=9 && text_type="Prose" && (a-x) > 0) 
-                                 || (z=c && t=d && r=7 && r1=9 && text_type="Sloka") 
-                                 || (x=c && y=d && r=24 && r1=9)  (* karwqsamAnAXikaraNa and pUrvakAlaH *)
+                                else if (z=c && t=d && (r / 100 = 44 && r1=7))
+                                 || (x=c && y=d && (r1 / 100 = 44 && r=7))
+                                 || (z=c && t=d && r=9 && r1=7 && text_type="Prose" && (a-x) > 0) 
+                                 || (z=c && t=d && r=9 && r1=7 && text_type="Sloka") 
+                                 || (x=c && y=d && r=24 && r1=7)  (* karwqsamAnAXikaraNa and pUrvakAlaH *)
                                then  loop rest
                                else  loop1 rest1
                           ]
@@ -1126,7 +1139,7 @@ let maprel = List.map (fun y -> List.nth relations (y-1) ) relsindag in
          where rec loop1 = fun
                   [ [] -> False (* do { print_string "failed case 5\n"; False} *)
                   | [Relationc (x,y,r,z,t)::rest1] -> 
-                          if z=a && t=b && (r=14 || r=7)  (* karwq or karma and BAvalakRaNasapwamI *)
+                          if z=a && t=b && (r=14 || r=9)  (* karwq or karma and BAvalakRaNasapwamI *)
                           then  loop rest
                           else  loop1 rest1
                   ]
@@ -1190,16 +1203,16 @@ let maprel = List.map (fun y -> List.nth relations (y-1) ) relsindag in
 		            else if (z=a) && (t=b) && (r < 46) && (x < c)  then False
                             else loop2 rest2
                          ] *)
-        else if r1=15 || r1 = 7 || r1=16  then
+        else if r1=15 || r1 = 9 || r1=16  then
     (* prayojakakarwA & karwA both can not be present simultaneously *)
          loop1 maprel 
          where rec loop1 = fun
                           [ [] -> loop rest
                           | [Relationc (x,y,r,z,t)::rest1] -> 
-                            if   (z=c && t=d && r1=15 && r=7) (* karwA  & prayojakakarwA*)
-                              || (z=c && t=d && r1=16 && r=7) (* karwA  & prayojyakarwA*)
-                              || (z=c && t=d && r=16 && r1=7) (* karwA  & prayojyakarwA*)
-                              || (z=c && t=d && r=15 && r1=7) (* karwA  & prayojakakarwA*)
+                            if   (z=c && t=d && r1=15 && r=9) (* karwA  & prayojakakarwA*)
+                              || (z=c && t=d && r1=16 && r=9) (* karwA  & prayojyakarwA*)
+                              || (z=c && t=d && r=16 && r1=9) (* karwA  & prayojyakarwA*)
+                              || (z=c && t=d && r=15 && r1=9) (* karwA  & prayojakakarwA*)
     (* karwA_upa & karwA both can not be present simultaneously *)
                             then False  (* do { print_string "failed case 9"; False} *)
                             else loop1 rest1
