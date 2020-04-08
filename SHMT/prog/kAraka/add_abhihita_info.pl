@@ -25,7 +25,7 @@ while($in = <STDIN>){
   @in = split(/\n/,$in);
   $verb_pos = -1;
   $abhihita_pos = -1;
-  $karma = -1;
+  $sakarmaka = 0;
   
   for($i=0;$i<=$#in;$i++){
       if($in[$i] =~ /prayogaH:([^>]+)/) {
@@ -40,8 +40,7 @@ while($in = <STDIN>){
 	 else { $abhihita = "";}
       }
       if($in[$i] =~ /karma,([0-9]+)/) { 
-	      $karma = $1;
-	      $in[$karma-1] =~ s/$/;sakarmaka/;
+	      $sakarmaka = 1;
       }
   }
 
@@ -51,6 +50,9 @@ while($in = <STDIN>){
          $abhihita_pos = $i+1;
          if($in[$verb_pos] =~ /\t$/) {
             $in[$verb_pos] =~ s/\t$/\taBihiwa_$abhihita,$abhihita_pos/;
+	    if($sakarmaka) {
+               $in[$verb_pos] =~ s/$/;sakarmaka/;
+            }
          }
       }
   }
