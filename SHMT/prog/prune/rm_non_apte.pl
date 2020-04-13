@@ -72,15 +72,16 @@ while($in = <STDIN>){
 #At present we remove only those analysis at level 1, for which there is no entry in the Apte's dictionary.
 #Thus all the entries at the 2,3 and 4th level will be retained. 
 #However, in the later stages, if an analysis with level 1 exists, others will not be shown. If analysis at level 1 does not exist, then analysis at level 2 will be shown, and so on.
-          #print "ana = $analysis[$i]\n";
-          if(($analysis[$i] =~ /<vargaH:nA/) || ($analysis[$i] =~ /<vargaH:sarva/) || ($analysis[$i] =~ /<vargaH:sa\-u\-pa/)){ 
+	       #print "ana = $analysis[$i]\n";
+          if((($analysis[$i] =~ /<vargaH:nA/) || ($analysis[$i] =~ /<vargaH:sarva/) || ($analysis[$i] =~ /<vargaH:sa\-u\-pa/)) && ($analysis[$i] !~ /kqw_prawyayaH/)){ 
+		  #condition of kqw prawyayaH is added, since some of the analysis of kqxanwas are still needed even if the kqxanwa is not found in the Apte's dictionary. For example saFjAwAH
               $key = $head_wrd."_".$lifga;
               #print "key = $key\n";
               if($APTE{$key}) { 
                  $ans .= "/".$analysis[$i];
-              #print "key found\n";
+		 #print "key found\n";
               }
-            #else { print "\n$analysis[$i] IGNORING\n";}
+	      # else { print "\n$analysis[$i] IGNORING\n";}
           } else { $ans .= "/".$analysis[$i];}
       } elsif($analysis[$i] =~ /<level:[23]>/) {
           if(($analysis[$i] =~ /<vargaH:nA/) || ($analysis[$i] =~ /<vargaH:sarva/) || ($analysis[$i] =~ /<vargaH:sa\-u\-pa/)){ 

@@ -18531,6 +18531,7 @@ navaXA_a
 navaxvIpa_puM
 nAvika_puM
 navIna_puM
+navIna_napuM
 navInA_swrI
 navyA_swrI
 nAvyA_swrI

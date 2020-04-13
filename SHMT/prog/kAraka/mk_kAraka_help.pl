@@ -126,13 +126,14 @@ while(($in = <STDIN>) && !$solnfound){
           #    $word{$tmp} .= "_".$word{$tmp1};
           #    $word_used{$s_w_no} = 1;
           # } elsif($rel_nm == 1) {
-            if($rel_nm == 0) {
-              my $tmp = $sentence.".".$d_w_no.".".$d_w_a_no;
-              my $tmp1 = $sentence.".".$s_w_no.".".$s_w_a_no;
-              $word{$tmp} = $word{$tmp1}."_".$word{$tmp};
-              $word_used{$s_w_no} = 1;
-             # $word_used{$d_w_no} = 1;
-           } elsif($rel_nm == 1) {
+	  #if($rel_nm == 0) {
+	  #    my $tmp = $sentence.".".$d_w_no.".".$d_w_a_no;
+	  #    my $tmp1 = $sentence.".".$s_w_no.".".$s_w_a_no;
+	  #    $word{$tmp} = $word{$tmp1}."_".$word{$tmp};
+	  #    $word_used{$s_w_no} = 1;
+	  #   # $word_used{$d_w_no} = 1;
+	  # } elsif($rel_nm == 1) {
+	  if($rel_nm == 1) {
               my $tmp = $sentence.".".$d_w_no.".".$d_w_a_no;
               my $tmp1 = $sentence.".".$s_w_no.".".$s_w_a_no;
               $word{$tmp} .= "_".$word{$tmp1};
@@ -150,7 +151,7 @@ while(($in = <STDIN>) && !$solnfound){
               $dir = "back";
             }
             $k_rel_nm = $kAraka_name{$rel_nm};
-            if (&cluster_relations($k_rel_nm)) {
+            if (&cluster_relations($k_rel_nm) || $rel_nm == 0) {
               if($cluster[$cluster_no] =~ /#$d_w_no;$d_w_a_no,/) {
                  if($cluster[$cluster_no] !~ /#$s_w_no;$s_w_a_no,/) {
                     $cluster[$cluster_no] .= "#".$s_w_no.";".$s_w_a_no.",";
