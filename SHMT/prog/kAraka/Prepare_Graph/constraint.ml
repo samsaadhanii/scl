@@ -190,10 +190,6 @@ value collapse_upapada_relations relations part_dag a b c d e =
                      (* for saha and vinA grouping *)
                     (*else if (c >=4000)
                     then List.append acc1 [Relationc (u,v,0,x,y)] *)
-                    else if (c = 200) (*gawikarwA -> karwA *)
-                    then List.append acc1 [Relationc (a,b,9,d,e)] 
-                    else if (c = 201) (*gawikarma -> karma *)
-                    then List.append acc1 [Relationc (a,b,14,d,e)] 
 		    else acc1
                 in let acc3 = List.append acc acc2 
                 in  loop acc3 relations l
@@ -212,6 +208,12 @@ value lwg_and_collapse relations dag =
                if c < 2000
                then let acc1 = if c = 91  (* avaXiH  why this condition ?*)
                                then List.append acc [Relationc (a,b,0,d,e)] 
+                               else if c =214
+                               then List.append acc [Relationc (a,b,14,d,e)] 
+                               else if (c = 200) (*gawikarwA -> karwA *)
+                               then List.append acc [Relationc (a,b,9,d,e)] 
+                               else if (c = 201) (*gawikarma -> karma *)
+                               then List.append acc [Relationc (a,b,14,d,e)] 
                                else List.append acc [rel] 
                     in loop acc1 relations l
                else let acc1 = 
@@ -408,6 +410,16 @@ value relation_mutual_expectancy text_type m1 m2 = match m1 with
                  && (  ((r2 = 3) && not (r1 = 44) && not (r1 = 28) && not(r1=2) && not(r2=90))
                     || ((r1 = 44) && not (r2 = 3) && not (r2 = 28) && not(r2=2) && not(r2=90)))
          then False (* do { print_string "C15"; False} *)
+         (* For every nAma1 -- counterpart of prawiyogi, there should be nAma2  -- counterpart of anuyogi,
+          * nAma1 = 1002; nAma2 -- 1003*)
+         else if (from_id1 = to_id2) && (from_mid1 = to_mid2)
+                 &&  (  ((r1 = 1002) && not (r2 = 1003))
+                     || ((r2 = 1003) && not (r1 = 1002)))
+         then False  (* do { print_string "C14"; False} *)
+         else if (from_id2 = to_id1) && (from_mid2 = to_mid1)
+                 && (  ((r2 = 1002) && not (r1 = 1003))
+                    || ((r1 = 1003) && not (r2 = 1002)))
+         then False (* do { print_string "C15"; False} *)
            (* For every outgoing vAkyakarma, there should be an incoming vAkyakarmaxyowaka and no other relation should pair with either vAkyakarma or vAkyakarmaxyowaka*)
          else if (from_id2 = to_id1) && (from_mid2 = to_mid1)
                  &&  (r1 = 97 && not (r2 = 13))
@@ -585,6 +597,7 @@ value rec add_cost text_type acc rels = fun
   |  [i :: r] ->  match List.nth rels (i-1) with
        [ Relationc (a1,b1,rel,a2,b2) -> let res = 
             if rel=2 then 0
+            else if rel=1001 then 0 (* wIvrawAxarSI *)
              (*else if  rel=35 then 35*) (* RaRTI *)
          (*   else if  rel=42 then 42 (* viSeRaNam *) *)
             (*else if  rel=33 then 0 *) (* aBexa *)
@@ -601,6 +614,8 @@ value rec add_cost text_type acc rels = fun
             else if rel >= 3200 && rel < 3300 then 93 * (a2-a1)
             else if rel >= 3100 && rel < 3200 then 92 * (a2-a1)
             else if rel >= 2000 && rel < 2100 then 36 * (a2-a1)
+            else if rel = 1002 then 2 * (a2-a1)
+            else if rel = 1003 then 3 * (a2-a1)
             else if  rel=64 ||rel=65 || rel = 91
                  ||  rel=66 ||rel=67 
 (* special case of LWG*)
@@ -1028,6 +1043,28 @@ let maprel = List.map (fun y -> List.nth relations (y-1) ) relsindag in
                           | [Relationc (x,y,r,z,t)::rest1] ->
                                    loop1 rest1
                           ]
+   | [ Relationc (a,b,1002,c,d) :: rest] ->  (* nAma2 -- anuyogI *)
+         loop1 maprel 
+         where rec loop1 = fun
+                          [ [] -> False (* do { print_string "failed case 3"; False}*) (* sambanXa/anuyogi not found *)
+                          | [Relationc (x,y,1003,z,t)::rest1] ->  (* anuyogI *)
+                                   if  (x=c && y=d)
+                                   then loop rest 
+                                   else loop1 rest1
+                          | [Relationc (x,y,r,z,t)::rest1] ->
+                                   loop1 rest1
+                          ]
+    | [ Relationc (a,b,1003,c,d) :: rest] ->  (* nAma1 -- prawiyogI*)
+         loop1 maprel 
+         where rec loop1 = fun
+         [ [] -> False (* do {print_string "failed case 1"; False}*) (* if there is no sambanXa / anuyogI from the head *)
+         | [Relationc (x,y,1002,z,t)::rest1] ->  (* nAma2 -- anuyogI *)
+                  if    (z=a && t=b)
+                  then loop rest  (* anuyogI-prawiyogI seq found *)
+                  else loop1 rest1
+         | [Relationc (x,y,r,z,t)::rest1] ->
+                  loop1 rest1
+         ]
    | [ Relationc (a,b,90,c,d) :: rest]     (* niwya_sambanXaH1 *)
    | [ Relationc (a,b,2,c,d) :: rest] ->   (* niwya_sambanXaH *)
                   loop1 maprel 

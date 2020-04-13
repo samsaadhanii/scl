@@ -81,4 +81,7 @@ sambanXa_upa 4300
 karwA_upa 4400
 gawikarwA 200
 gawikarma 201
-iRkarma 141
+iRkarma 214
+wIvrawAxarSI 1001
+nAma2 1002
+nAma1 1003
