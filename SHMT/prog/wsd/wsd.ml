@@ -481,23 +481,24 @@ value remove_viSeRaNa_viBakwiH m1 = match m1 with
 ;
 
 value disambiguate_viBakwiH m1 m2 = match m1 with
-  [ Sup (id1,mid1,word1,rt1,compound_hd1,_,viBakwiH1,_,rel,relata_pos) ->
+  [ Sup (id1,mid1,word1,rt1,_,_,viBakwiH1,_,rel,relata_pos) 
+  | Kqw (id1,mid1,word1,_,_,_,_,_,_,rt1,_,_,viBakwiH1,_,rel,relata_pos) ->
       match viBakwiH1 with
       [ 2 -> match m2 with
              [ Wif (id2,mid2,_,rt2,_,_,sanAxiH2,_,_,_,_,_,_,_,_,_)->
-               if rt1="aBi_kruX1" 
+               if rt2="aBi_kruX1" 
                then  [ Relation (id1,mid1,"viBakwiH","2","2para","3.1")]
-               else if rt1="aBi_xruh1"
+               else if rt2="aBi_xruh1"
                then  [ Relation (id1,mid1,"viBakwiH","2","2se","3.2")]
-               else if rt1="ruh1"
+               else if rt2="ruh1"
                then  [ Relation (id1,mid1,"viBakwiH","2","2para","3.2")]
-               else if rt1="anu_sq1"
+               else if rt2="anu_sq1"
                then  [ Relation (id1,mid1,"viBakwiH","2","2kA","3.2")]
-               else if rt1="aBi_ni_viS1" || rt1="upa_vas1" || rt1="aXi_sWA1"
+               else if rt2="aBi_ni_viS1" || rt1="upa_vas1" || rt1="aXi_sWA1"
                then  [ Relation (id1,mid1,"viBakwiH","2","2meM","3.2")]
-               else if rt1="aXi_SI1" || rt1="aXi_As1"
+               else if rt2="aXi_SI1" || rt1="aXi_As1"
                then  [ Relation (id1,mid1,"viBakwiH","2","2para","3.2")]
-               else if rt1="xiv1"
+               else if rt2="xiv1"
                then  [ Relation (id1,mid1,"viBakwiH","2","2se","3.2")]
                else if rel="kriyAviSeRaNam"
                then [ Relation (id1,mid1,"viBakwiH",string_of_int viBakwiH1,"0","3.3")]
@@ -523,9 +524,9 @@ value disambiguate_viBakwiH m1 m2 = match m1 with
              ]
       | 3 -> match m2 with
              [ Wif (id2,mid2,_,rt2,_,_,sanAxiH2,_,_,_,_,_,_,_,_,_)->
-               if rt1="sam_jFA2" 
+               if rt2="sam_jFA2" 
                then  [ Relation (id1,mid1,"viBakwiH","3","2","3.1")]
-               else if rt1="sam_gam1"
+               else if rt2="sam_gam1"
                then  [ Relation (id1,mid1,"viBakwiH","3","3u","3.2")]
                else if rel="karwA"
                then  [ Relation (id1,mid1,"viBakwiH","3","3xvArA","3.2")]
@@ -534,17 +535,17 @@ value disambiguate_viBakwiH m1 m2 = match m1 with
              ]
       | 4 -> match m2 with
              [ Wif (id2,mid2,_,rt2,_,_,sanAxiH2,_,_,_,_,_,_,_,_,_)->
-               if rt1="kruX1" 
+               if rt2="kruX1" 
                then  [ Relation (id1,mid1,"viBakwiH","4","4para","3.4")]
-               else if rt1="xruh1" || rt1="IrRy1" || rt1="apa_rAX1"
+               else if rt2="xruh1" || rt1="IrRy1" || rt1="apa_rAX1"
                then  [ Relation (id1,mid1,"viBakwiH","4","4se","3.5")]
-               else if rt1="asUya1"
+               else if rt2="asUya1"
                then  [ Relation (id1,mid1,"viBakwiH","4","4meM","3.5")]
-               else if rt1="SlAG1"
+               else if rt2="SlAG1"
                then  [ Relation (id1,mid1,"viBakwiH","4","4kI","3.5")]
-               else if rt1="hnu1"
+               else if rt2="hnu1"
                then  [ Relation (id1,mid1,"viBakwiH","4","4ko","3.5")]
-               else if rt1="sWA1" || rt1="Sap1"
+               else if rt2="sWA1" || rt1="Sap1"
                then  [ Relation (id1,mid1,"viBakwiH","4","4ke_liye","3.5")]
                else if rel="prayojanam"
                then  [ Relation (id1,mid1,"viBakwiH","4","4ke_liye","3.5")]
@@ -553,7 +554,7 @@ value disambiguate_viBakwiH m1 m2 = match m1 with
              ]
       | 6 -> match m2 with
              [ Wif (id2,mid2,_,rt2,_,_,sanAxiH2,_,_,_,_,_,_,_,_,_)->
-               if rt1="xiv1" 
+               if rt2="xiv1" 
                then  [ Relation (id1,mid1,"viBakwiH","6","20","3.6")]
                else [] 
              | _ -> [] 
@@ -673,13 +674,33 @@ value upapaxa m1 m2= match m1 with
      ]
 ;
 
+value disambiguate_wumun m1 m2 = match m1 with
+  [ Avykqw (id1,mid1,word1,_,_,_,_,kqw_prawyayaH1,_,_,rel,relata_pos) ->
+          if rel="sahAyakakriyA" && kqw_prawyayaH1 ="wumun"
+          then match m2 with
+          [ Wif (id2,mid2,_,rt2,_,upasarga2,sanAxiH2,_,_,_,_,_,_,_,_,_)->
+                  if rt2= "Sak3" || rt2 = "arh1" || rt2 = "Gat1"
+                  then
+                  [ Relation (id1,mid1,"kqw_prawyayaH",kqw_prawyayaH1,"wumun0","10.2")]
+                  else if (rt2 = "raB1" && upasarga2 = "Af") || rt2 = "jFA1" || (rt2 ="kram1" && upasarga2 = "pra")  
+                  then
+                  [ Relation (id1,mid1,"kqw_prawyayaH",kqw_prawyayaH1,"wumun_nA","10.2")]
+                  else []
+          | _ -> []
+          ]
+          else []
+  | _ -> []
+  ]
+;
+
+
 value all_rules3 =
 [ disambiguate_nAma ]
 ;
 
 value all_rules2 = 
 [
-  disambiguate_viBakwiH; disambiguate_wawra; disambiguate_iwi; upapaxa; mark_name
+        disambiguate_viBakwiH; disambiguate_wawra; disambiguate_iwi; upapaxa; mark_name; disambiguate_wumun
 ]
 ;
 

@@ -67,6 +67,13 @@ while($in = <STDIN>){
               $ans =~ s/(.*)<rt:$old_rt>/$1<rt:$MSG{$key}>/;
           }
       }
+      if ($ans =~ /<kqw_prawyayaH:([^>]+)>/){
+          $old_prawyaya = $1;
+          $key = $sent.".".$id.".".$mid.".".$old_prawyaya;
+          if (defined($MSG{$key})) { 
+              $ans =~ s/(.*)<kqw_prawyayaH:$old_prawyaya>/$1<kqw_prawyayaH:$MSG{$key}>/;
+          }
+      }
       #if ($ans =~ /([^<]+)</){
       #    $old_rt = $1;
       #    $key = $sent.".".$id.".".$mid.".".$old_rt;

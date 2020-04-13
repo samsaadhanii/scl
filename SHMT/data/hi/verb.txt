@@ -924,7 +924,7 @@ as1,ap,sk,v,jA^camaka^le,gawi-xIpwi-AxAneRu
 aS1,ap,ak,v,vyApwa_ho^PEla^rASi_kara^Dera_kara,vyApwO_saMGAwe_ca ## after discussion I have changed it (BG 5.21)
 aS1,ap,sk,v,anuBava_kara,vyApwO_saMGAwe_ca ## after discussion I have changed it (BG 5.21)
 as1,pp,sk,v,jA^camaka^le,gawi-xIpwi-AxAneRu
-as2,pp,ak,v,ho,
+as2,pp,ak,v,ho1,
 aS2,pp,sk,v,KA^BojanA_kara,Bojane
 as3,pp,sk,v,Peka,kRepaNe
 asUya_nAma,pp,sk,v,IrRyA_kara,
@@ -4077,7 +4077,7 @@ sah3,pp,sk,v,saha^sahana_kara^SakwimAna_ho^sanwuRta_ho,marRaNe
 Sak1,ap,sk,v,saka,SakwO
 SAK1,pp,sk,v,vyApwa_ho^Pela,vyApwO
 Sak2,pp,sk,v,saka,marRaNe
-Sak3,pp,ak,v,samarWa_ho,SakwO
+Sak3,pp,sk,v,samarWa_ho,SakwO
 Sal1,ap,sk,v,cala^Daka,calana-saMvaraNayoH
 sal1,pp,sk,v,jA,gawO
 Sal2,pp,sk,v,jA,gawO

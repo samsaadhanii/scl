@@ -71,6 +71,7 @@ SAnac_lat,wA_huA
 wumun,nA~ke_liye
 wumunkI,nA~kI
 wumun0,0
+wumun_nA,nA
 wqc,ne_vAlA
 lyut,nA
 anIyar,nA

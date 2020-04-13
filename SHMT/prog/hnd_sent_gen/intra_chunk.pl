@@ -47,7 +47,7 @@ my($j,$viSeRya_gen);
 ######################################################################
   for($j=1;$j<=$#wrd_ana+1;$j++){
        $var_nm = "wrd_ana_flds_".$j;
-       if(${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:(viSeRaNam|vIpsA)><relata_pos:([0-9]+)>/){
+       if(${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:(viSeRaNam|vIpsA|aBexaH)><relata_pos:([0-9]+)>/){
          $new_var_nm = "wrd_ana_flds_".$2;
          if((${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] !~ /^[^ ]+ [nP] ([^ ]+) [^ ]+ [^ ]+ 0/)
           && (${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] !~ /^[^ ]+ [nP] ([^ ]+) [^ ]+ [^ ]+ kA/)){

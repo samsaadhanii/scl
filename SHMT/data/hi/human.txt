@@ -11,12 +11,16 @@ BrAwq,puM
 bAlikA,swrI
 bAlaka,puM
 hari,puM
+hariScanxra,puM
 janaka,puM
 jananI,swrI
 jana,puM
+kim,puM
+kim,swrI
 kulyaH,puM
 kumArakaH,puM
 kumBakAra,puM
+kqRNa,puM
 manuja,puM
 manujAwaH,puM
 manu,puM
@@ -34,7 +38,9 @@ nq,puM
 paWika,puM
 piwA,puM
 puwra,puM
+puruRa,puM
 qRi,puM
+rajaka,puM
 rakRas,napuM
 rAma,puM
 sAraWI,puM
@@ -43,5 +49,8 @@ viRaxanwaka,puM
 viRkira,puM
 vqXasAna,puM
 vqXasAnu,puM
+xAsa,puM
+xAsI,swrI
 xeva,puM
+xevaxawwa,puM
 xevI,swrI

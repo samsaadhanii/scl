@@ -20357,7 +20357,7 @@ svakarmin,napuM,svArWI,puM
 svakarmin,puM,svArWI,puM
 SvAkarNa,puM,kuwwe_kA_kAna,puM
 svakArya,napuM,svakArya,puM
-svakIya,napuM,apanA_yaha,puM
+svakIya,napuM,apanA,puM
 svakIya,puM,apanA,puM
 svakIyA,swrI,apanA,swrI
 svAkqwi,napuM,sunirmiwa^sunxara,puM
