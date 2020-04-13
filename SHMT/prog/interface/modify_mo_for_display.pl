@@ -55,7 +55,8 @@ sub clean_other_info {
  $a =~ s/<gaNaH:([^>]+)>/ $1/g;
  $a =~ s/<vargaH:nA>//g;
  $a =~ s/<vargaH:[^>]+>//g;
- $a =~ s/\(([^>]+)<upasarga:([^>]+)>/($2_$1/g;
+ #$a =~ s/\(([^>]+)<upasarga:([^>]+)>/($2_$1/g;
+ $a =~ s/([^>]+)<upasarga:([^>]+)>/$2_$1/g;
  $a =~ s/<kqw_vrb_rt:([^>]+)><upasarga:([^>]+)>/$2_$1/g;
  $a =~ s/<rt:([^>]+)><upasarga:([^>]+)>/$2_$1/g;
  $a =~ s/<kqw_vrb_rt:([^>]+)>/$1/g;
