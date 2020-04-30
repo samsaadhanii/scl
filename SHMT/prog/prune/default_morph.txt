@@ -1,3 +1,6 @@
+kRewre=kRewra<vargaH:nA><lifgam:napuM><viBakwiH:7><vacanam:eka><level:1>
+sahasA=sahasA<vargaH:avy><level:1>
+ayaneRu=ayana<vargaH:nA><lifgam:napuM><viBakwiH:7><vacanam:bahu><level:1>
 BavanwaH=Bavaw<vargaH:sarva><lifgam:puM><viBakwiH:1><vacanam:bahu><level:1>/Bavanwa<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 yaw=yaw<vargaH:avy><level:1>/yax<vargaH:sarva><lifgam:napuM><viBakwiH:1><vacanam:eka><level:1>/yax<vargaH:sarva><lifgam:napuM><viBakwiH:2><vacanam:eka><level:1>
 ucyawe=brU1<prayogaH:karmaNi><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:brUF><gaNaH:axAxiH><level:1>
@@ -58,7 +61,6 @@ agrawaH=agrawaH<vargaH:avy><level:1>
 anwarA=anwarA<vargaH:avy><level:1>
 anware=anware<vargaH:avy><level:1>
 anwareNa=anwareNa<vargaH:avy><level:1>
-anyaw=anyaw<vargaH:avy><level:1>
 anyonya=anyonya<vargaH:avy><level:1>
 ArAw=ArAw<vargaH:avy><level:1>
 are=are<vargaH:avy><level:1>
