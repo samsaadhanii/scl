@@ -85,3 +85,4 @@ iRkarma 214
 wIvrawAxarSI 1001
 nAma2 1002
 nAma1 1003
+samAnAXikaraNam 1007
