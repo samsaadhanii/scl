@@ -45,7 +45,9 @@ sub handle_RaRTI_lifgam{
 
 my($gen,$num,$per,$vibh,$continue);
 
-%ke_parsarg_list = ("Age",1,"bAhara",1, "barAbara",1, "bAre",1, "bAxa",1, "baxale",1, "binA",1, "BIwara",1, "cAroM",1, "xonoM",1, "hewu",1, "jEsA",1, "kAraNa",1, "nikata",1,"nIce",1,"pahale",1,"pAsa",1,"paScima",1,"pICe",1,"prawi",1,"pUrva",1,"saba",1,"samAna",1,"sAmane",1,"samIpa",1,"sAWa",1,"Upara",1,"uwwara",1,"vinA",1,"viparIwa",1,"viRaya",1,"xakRiNa",1,"xvArA",1,"sAWa",1,"sAWa_sAWa",1,"Gara",1);
+#%ke_parsarg_list = ("Age",1,"bAhara",1, "barAbara",1, "bAre",1, "bAxa",1, "baxale",1, "binA",1, "BIwara",1, "cAroM",1, "xonoM",1, "hewu",1, "jEsA",1, "kAraNa",1, "nikata",1,"nIce",1,"pahale",1,"pAsa",1,"paScima",1,"pICe",1,"prawi",1,"pUrva",1,"saba",1,"samAna",1,"sAmane",1,"samIpa",1,"sAWa",1,"Upara",1,"uwwara",1,"vinA",1,"viparIwa",1,"viRaya",1,"xakRiNa",1,"xvArA",1,"sAWa",1,"sAWa_sAWa",1,"Gara",1);
+#Why the word 'Gara is there in this list? This creates problems with 'wasya gqham kuwra aswi. -- 23 Apr 2020
+%ke_parsarg_list = ("Age",1,"bAhara",1, "barAbara",1, "bAre",1, "bAxa",1, "baxale",1, "binA",1, "BIwara",1, "cAroM",1, "xonoM",1, "hewu",1, "jEsA",1, "kAraNa",1, "nikata",1,"nIce",1,"pahale",1,"pAsa",1,"paScima",1,"pICe",1,"prawi",1,"pUrva",1,"saba",1,"samAna",1,"sAmane",1,"samIpa",1,"sAWa",1,"Upara",1,"uwwara",1,"vinA",1,"viparIwa",1,"viRaya",1,"xakRiNa",1,"xvArA",1,"sAWa_sAWa",1);
 
 %kI_parsarg_list = ("ora",1,"waraha",1,"xAIM",1);
 
@@ -60,8 +62,8 @@ my($gen,$num,$per,$vibh,$continue);
   $SeRa_sambanXa_found = 0;
   for($j=1;$j<=$#wrd_ana+1;$j++){
        $var_nm = "wrd_ana_flds_".$j;
-       if((${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:(RaRTIsambanXaH|karwA|karma|upapaxasambanXaH|prawiyogI|viSeRaNam)><relata_pos:([0-9]+)>/)  && (${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^([^ ]+) (n|P|adj) ([^ ]+) ([^ ]+) ([^ ]+) kA/)){
-       ${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:(RaRTIsambanXaH|karwA|karma|upapaxasambanXaH|prawiyogI|viSeRaNam)><relata_pos:([0-9]+)>/;
+       if((${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:(RaRTIsambanXaH|karwA|karma|upa_saha|upa_vinA|prawiyogI|viSeRaNam)><relata_pos:([0-9]+)>/)  && (${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^([^ ]+) (n|P|adj) ([^ ]+) ([^ ]+) ([^ ]+) kA/)){
+       ${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:(RaRTIsambanXaH|karwA|karma|upa_saha|upa_vinA|prawiyogI|viSeRaNam)><relata_pos:([0-9]+)>/;
           $new_var_nm = "wrd_ana_flds_".$2;
        #if(${$new_var_nm}[$parse_ana_fld] =~ /(RaRTI_sambanXaH|kAraka_RaRTI|upapaxa_sambanXaH),([0-9]+)/){
 #This is removed, because the RaRTI in Sanskrit is ambiguous.

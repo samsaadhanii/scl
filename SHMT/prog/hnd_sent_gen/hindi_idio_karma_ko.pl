@@ -62,10 +62,10 @@ my($j,$k,$verb_pos,$dvikarmaka,$karma_lifgam,$karma_rt,$karwA_rt,$karwA_lifgam);
          }
 
 #If the ontologial class of karma is higher than that of the karwA, then retain the karma viBakwi 'ko' , else 0.
-	 print STDERR $karwA_rt,"\n";
-	 print STDERR $karma_rt,"\n";
-	 print STDERR &onto_cat($karma_rt),"\n";
-	 print STDERR &onto_cat($karwA_rt),"\n";
+	 #print STDERR $karwA_rt,"\n";
+	 #print STDERR $karma_rt,"\n";
+	 #print STDERR &onto_cat($karma_rt),"\n";
+	 #print STDERR &onto_cat($karwA_rt),"\n";
          if( &onto_cat($karwA_rt) > &onto_cat($karma_rt)) 
 	      { $karma_vibh = 0; }
 	 else { $karma_vibh = "ko";}
@@ -84,14 +84,14 @@ my($j,$k,$verb_pos,$dvikarmaka,$karma_lifgam,$karma_rt,$karwA_rt,$karwA_lifgam);
     my($rt);
 
        $rt = "";
-       print STDERR $morph_anal,"\n";
+       #print STDERR $morph_anal,"\n";
        if($morph_anal =~ /<kqw_pratipadika:([^>]+)>.*<lifgam:([^>]+)/){
 	   $rt = $1.",".$2;
         } elsif($morph_anal =~ /<rt:([^>]+).*<lifgam:([^>]+)/){
            $rt = $1.",".$2;
        }
        $rt =~ s/.*-//;
-       print STDERR $rt,"\n";
+       #print STDERR $rt,"\n";
        $rt;
    }
   1;
