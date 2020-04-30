@@ -35,7 +35,11 @@ while($in = <STDIN>){
    chomp($in);
    if($in){
     ($word,$analysis) = split(/=/, $in);
-    if($MORPH{$word} ne "") { print $word,"=",$MORPH{$word};}
+    $mword = $word;
+    # In the case of compounds, there are '-'s either in the beginning or at the end, or at both sides.
+    if($word =~ /^-/) { $mword =~ s/^-//;}
+    if($word =~ /-$/) { $mword =~ s/-$//;}
+    if($MORPH{$mword} ne "") { print $word,"=",$MORPH{$mword};}
     else { print $in;}
    }
    print "\n";
