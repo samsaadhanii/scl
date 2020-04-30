@@ -33,7 +33,13 @@ char match_word[VERY_LARGE],gender[SMALL],vibhakti[SMALL],number[SMALL],result[V
   len = strlen(match_word);
   ch = match_word[len - 1];
   if ((ch == 'A') && (gender[0] == 'm')){
-          if ((!strcmp(match_word,"baDiyA")) || (!strcmp(match_word,"bAlikA")) || (!strcmp(match_word,"jyAxA")))
+          if (   (!strcmp(match_word,"baDiyA")) 
+	      || (!strcmp(match_word,"jyAxA"))
+	      || (!strcmp(match_word,"rAjA"))
+	      || (!strcmp(match_word,"karwA"))
+	      || (!strcmp(match_word,"piwA"))
+	     )
+		  /* All relation words ending in 'A' such as piwA, rAjA, karwA etc also behave like an adjective */
 	       strcpy(result,match_word);
                 else{
                      if ((number[0] == 's') && (vib == 'd'))
