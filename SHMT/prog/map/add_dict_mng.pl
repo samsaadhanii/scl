@@ -158,6 +158,7 @@ while($tmpin = <STDIN>){
     for($i=0;$i<=$LAST;$i++){
   #    print "in = $in\n";
       $cat = &get_cat($in[$i]);
+      #   print "cat = $cat\n";
       if($cat eq "P") {
 
         ($rt,$lifga,$viBakwi,$vacana,$rel) = split(/:/, &get_noun_features($in[$i]));
@@ -179,6 +180,7 @@ while($tmpin = <STDIN>){
        ($rt, $kqw, $XAwu, $gaNa, $kqw_pratipadika, $lifgam, $viBakwi, $vacana,$rel) = 
         split(/:/, &get_kqw_noun_features($in[$i]));
 
+	#	print "rt = $rt\n";
        $key = $kqw_pratipadika."_".$lifgam;
 
        $map_rt = &get_dict_mng($key, $rNOUN);
@@ -208,7 +210,7 @@ while($tmpin = <STDIN>){
       }elsif($cat eq "n") {
 
         ($rt,$lifga,$viBakwi,$vacana,$rel) = split(/:/, &get_noun_features($in[$i]));
-	if (($rel eq "karwqsamAnAXikaraNam") || ($rel eq "viSeRaNam")) {
+	if (($rel eq "karwqsamAnAXikaraNam") || ($rel eq "viSeRaNam") || ($rel eq "aBexaH")) {
            $key = $rt."_vi";
            $map_rt = &get_dict_mng($key, $rNOUN);
 	   if ($map_rt eq $key) {
@@ -495,6 +497,7 @@ my $cat  = "";
    elsif($in =~ /lakAraH:([^;]+)/){ $cat = "v"; }
 
    elsif($in =~ /vargaH:(nA|saMKyeyam|pUraNam)/){ $cat = "n";}
+   $cat;
 }
 1;
 
@@ -558,7 +561,7 @@ my($in) = @_;
 
 my $ans = "";
 
-  if($in =~ /^.*rt:([^;]+).*kqw_prawyayaH:([^;]+);.*XAwuH:([^;]+);gaNaH:([^;]+).*kqw_pratipadika:([^;]+).*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;}]+).*rel_nm:([^;]+)/){
+  if($in =~ /^.*rt:([^;]+).*kqw_prawyayaH:([^;]+);.*XAwuH:([^;]+);gaNaH:([^;]+).*kqw_pratipadika:([^;]+).*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;}]+).*rel_nm:([^;]*)/){
 
      $rt = $1;
      $kqw_prawyayaH = $2;
@@ -574,6 +577,7 @@ my $ans = "";
       }
   if ($in =~ /upasarga:([^;]+)/) { $rt = $1."_".$rt;}
   if ($in =~ /sanAxi_prawyayaH:([^;]+)/) { $rt = $rt."_".$1;}
+  #print "rt = $rt\n";
   $ans = join(":",$rt,$kqw_prawyayaH,$XAwu,$gaNa,$kqw_prAwipaxika,$lifgam,$viB,$vacana,$rel);
   }
 $ans;
@@ -600,7 +604,8 @@ my($in) = @_;
 my($rt);
 my $ans = "";
 
-  if($in =~ /^.*rt:([^;]+).*vargaH:avy.*rel_nm:([^;]+)/){
+#print "in = $in\n";
+  if($in =~ /^.*rt:([^;]+).*vargaH:avy.*rel_nm:([^;]*)/){
      $ans = join(":",$1,$2);
   }
 $ans;
