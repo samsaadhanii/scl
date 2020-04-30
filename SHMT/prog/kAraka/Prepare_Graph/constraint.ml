@@ -114,10 +114,10 @@ value print_relation r = match r with
     ; print_int (i1-1); print_string ","
     ; print_int (i2-1); print_string ","
     ; if (i3 >= 2000) then print_int (i3 - (i3 mod 100)) 
-      else if (i3 = 64) || (i3 = 65) (* samuccayaxyowaka,sup_samuccayaxyowaka *)
+      (* else if (i3 = 64) || (i3 = 65) (* samuccayaxyowaka,sup_samuccayaxyowaka *)
       then print_int 1
       else if (i3 = 66) || (i3 = 67) (* anyawaraxyowaka,sup_anyawaraxyowaka *)
-      then print_int 1
+      then print_int 1 *)
       else print_int i3
     ; print_string ","
     ; print_int (i4-1); print_string ","
@@ -147,8 +147,8 @@ value join_relations a b c d e u v w x y =
             Relationc (u,v,95,x,y); Relationc(a,b,0,d,e)] 
     else if c >= 2600 && c < 2700 then [Relationc (u,v,49,x,y)] 
     (* else if c >= 2700 && c < 2800 then [Relationc (u,v,14,x,y)]  *)
-    else if c >= 3100 && c < 3200  && w >= 4300 && w < 4400 then [Relationc (u,v,92,x,y)]
-    else if c >= 3200 && c < 3300  && w >= 4300 && w < 4400 then [Relationc (u,v,93,x,y)] 
+    else if c >= 3100 && c < 3200  && w >= 4300 && w < 4400 then [Relationc (a,b,c,d,e);Relationc (u,v,92,x,y)]
+    else if c >= 3200 && c < 3300  && w >= 4300 && w < 4400 then [Relationc (a,b,c,d,e);Relationc (u,v,93,x,y)] 
     else if c >= 2300 && c < 2400 && w >= 4300 && w < 4400 
     then [Relationc (a,b,c,d,e);Relationc (u,v,w,x,y)] 
     else if c >= 2900 && c < 3000 && w >= 4300 && w < 4400 
@@ -184,9 +184,10 @@ value collapse_upapada_relations relations part_dag a b c d e =
                     then join_relations u v w x y a b c d e
                     else []
                 in  let acc2 = if acc1 = [] then []
-                    else if ((c >= 3100 && c < 3300))
+                    (*else if ((c >= 3100 && c < 3300)) -- removed, since now upa_vinA and upa_saha relations are being marked from translation point of view.
+                     * Earlier we would group them together with the previous wqwIyA viBakwi word
                     (* else if ((c >= 2000 && c < 2300) || (c >=2400 && c < 4000)) *)
-                    then List.append acc1 [Relationc (a,b,0,d,e)] 
+                    then List.append acc1 [Relationc (a,b,0,d,e)]  *)
                      (* for saha and vinA grouping *)
                     (*else if (c >=4000)
                     then List.append acc1 [Relationc (u,v,0,x,y)] *)
@@ -379,6 +380,13 @@ value relation_mutual_expectancy text_type m1 m2 = match m1 with
          else if (from_id1 = from_id2) && (from_mid1 = from_mid2)
               && ( (r1 = 97 && (r2 = 14 || r2 = 11 || r2 = 12))
                  ||( r2 = 97 && (r1 = 14 || r1 = 11 || r1 = 12)))
+         then False (* do { print_string "C12"; False} *)
+         (* In the case of brU, occasionally sampraxAna is also allowed.
+          * But then there can not be a gONa karma
+          * ex: BhG we wAna bravImi BHg 1.7 *)
+         else if (from_id1 = from_id2) && (from_mid1 = from_mid2)
+              && ( (r1 = 19 && r2 = 12)
+                 ||( r2 = 19 && r1 = 12))
          then False (* do { print_string "C12"; False} *)
            (* If there is a karma, then there can not be a gONa or muKyakarma *)
            (* If there is a karma, then there can not be a gONa or muKyakarma *)
@@ -598,6 +606,12 @@ value rec add_cost text_type acc rels = fun
        [ Relationc (a1,b1,rel,a2,b2) -> let res = 
             if rel=2 then 0
             else if rel=1001 then 0 (* wIvrawAxarSI *)
+            else if rel=64 then 0 (* samuccayaxyowaka *)
+            else if rel=65 then 0 (* sup_samuccayaxyowaka *)
+            else if rel=66 then 0 (* anyawaraxyowaka *)
+            else if rel=67 then 0 (* sup_anyawaraxyowaka *)
+            else if rel=91 then 0 (*  avaXiH *)
+            else if rel=1007 then 7 (* karwqsamAnAXikaraNam *)
              (*else if  rel=35 then 35*) (* RaRTI *)
          (*   else if  rel=42 then 42 (* viSeRaNam *) *)
             (*else if  rel=33 then 0 *) (* aBexa *)
@@ -616,10 +630,12 @@ value rec add_cost text_type acc rels = fun
             else if rel >= 2000 && rel < 2100 then 36 * (a2-a1)
             else if rel = 1002 then 2 * (a2-a1)
             else if rel = 1003 then 3 * (a2-a1)
-            else if  rel=64 ||rel=65 || rel = 91
+            (*else if  rel=64 ||rel=65 || rel = 91
                  ||  rel=66 ||rel=67 
-(* special case of LWG*)
-            then 0
+                 (* special case of LWG ;
+                  * Do not group them together, but treat the cost as 0;
+                  * cost is treated as zero in add_cost function *)
+            then 0 *)
             (* else rel * (a2-a1) *)
             else if a1 > a2 
                  then if rel=60 then 0
@@ -1412,15 +1428,15 @@ value solver rel_lst text_type =
     ; print_int inout_rels.(1)
     ; print_newline()*)
     ;populate_inout_rels (List.length rel_lst -1) rel_lst
-    ; let wrdb = wrd_boundaries [0] 0 1 rel_lst in do {
+    ; let wrdb = wrd_boundaries [0] 0 1 rel_lst in (* do {*)
     (* List.iter print_int wrdb; *)
     let final = 
          if List.length wrdb > total_wrds 
          then List.length wrdb-1 
-         else (total_wrds-1) in do {
+         else (total_wrds-1) in (* do {*)
          (*print_string "final = "
        ; print_int final
-    ; *) let dags = construct_dags 0 final wrdb [] in do {
+    ; *) let dags = construct_dags 0 final wrdb [] in (* do { *)
      (*print_string "DAGS=" 
      ;print_acc dags 
      ;*)let dagsj = List.fold_left ( fun y (a,b) -> 
@@ -1428,10 +1444,10 @@ value solver rel_lst text_type =
             if (List.length a >= total_wrds-5) 
             then [a::y]
             else y) [] dags in 
-     (*do { print_acc dags 
+     (*do  print_acc dags 
     ; let soln =  List.sort_uniq comparecostlength (get_dag_list text_type rel_lst [] dagsj) in do
-    ; *)let soln =  List.sort comparecostlength (get_dag_list text_type rel_lst [] dagsj) in do
-       { (*print_string "1.minion\n"
+    ; *)let soln =  List.sort comparecostlength (get_dag_list text_type rel_lst [] dagsj) in (*do
+       { *)(*print_string "1.minion\n"
        ; *)let l = List.filter 
               (fun (x,y,z) -> if x = total_wrds-1 then True else False ) 
               soln in
@@ -1443,7 +1459,7 @@ value solver rel_lst text_type =
               (*;  print_int total_wrds
               ; print_int (List.length l) 
               ; *) let collapsed_soln = lwg_and_collapse_all_solns text_type rel_lst l in
-                (*let uniq_collapsed_soln = List.sort_uniq comparecostlength collapsed_soln in do {*)
+                (*let uniq_collapsed_soln = List.sort_uniq comparecostlength collapsed_soln in do *)
                 let uniq_collapsed_soln = List.sort comparecostlength collapsed_soln in do {
                 print_string "Total Complete Solutions="
               ; print_int (List.length uniq_collapsed_soln)
@@ -1454,18 +1470,27 @@ value solver rel_lst text_type =
                 }
               (*; print_cost_soln_list 1 (total_wrds-2) rel_lst soln*)
               }
-              else do
-              { print_string "Total Partial Solutions="
-              ;let psols = (List.length soln - List.length l)
-               in print_int psols
+              else do { 
+              let l = List.filter 
+              (fun (x,y,z) -> if x = total_wrds-1 then False else True ) 
+              soln in
+              if (List.length l > 0)
+              then
+                let collapsed_soln = lwg_and_collapse_all_solns text_type rel_lst l in
+                let uniq_collapsed_soln = List.sort comparecostlength collapsed_soln in do {
+              print_string "Total Partial Solutions="
+              ; print_int (List.length uniq_collapsed_soln)
+              (*;let psols = (List.length soln - List.length l)
+               in print_int psols *)
               ; print_newline ()
+              ; print_cost_soln_list 1 (total_wrds-3) rel_lst uniq_collapsed_soln
               (*; print_cost_soln_list 1 0 rel_lst soln
                * TO MODIFY according to new parameter types *)
-              }
+              } else ()
      } (*} *)
- }
- }
- }
+ (*}*)
+ (*}*)
+ (*}*)
  }
 ;
 
