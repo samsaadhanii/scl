@@ -2961,10 +2961,8 @@ GatA,swrI,GatA,swrI
 Gatowkaca,puM,Gatowkaca,puM
 gavya,napuM,go_mUwra,puM
 gavya,puM,go_mUwra,puM
-gawa,napuM,gawa,swrI
 gawAnugawika,puM,nakalacI,puM
 gawAnugawika,swrI,nakalacI,swrI
-gawa,puM,gayA_huA,puM
 gawaxina,napuM,bIwA_huA_kala,puM
 gawi,swrI,gawi,swrI
 gaw,napuM,gaw,puM
