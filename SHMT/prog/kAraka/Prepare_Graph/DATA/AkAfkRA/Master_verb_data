@@ -152,7 +152,7 @@ As1	akarmaka			SliR
 as1	sakarmaka
 aS1	sakarmaka
 as2	akarmaka			Sak	karwqsamAnAXikaraNa
-aS2	sakarmaka
+aS2	sakarmaka	prawyavasAnArWa
 as3	sakarmaka
 at1	sakarmaka
 aT2	sakarmaka
@@ -185,7 +185,7 @@ ax2	sakarmaka
 axd1	sakarmaka
 aXi_As1	sakarmaka
 aXi_gam1	sakarmaka
-aXi_i2	sakarmaka
+aXi_i2	sakarmaka	buxXi
 aXi_kram1	sakarmaka
 aXi_RWA1	sakarmaka
 aXi_ruh1	sakarmaka
@@ -1314,6 +1314,7 @@ pra_kAS1	sakarmaka
 pra_kAS2	sakarmaka
 pra_kaWa1	xvi1		vAkyakarma
 pra_kq3	sakarmaka					Axikarma
+pra_kRal1	sakarmaka
 pra_kRal2	sakarmaka
 pra_kRip2	sakarmaka
 pra_max2	sakarmaka
@@ -1349,6 +1350,7 @@ prawi_brU1	sakarmaka
 prawi_IkR1	sakarmaka
 prawi_jFA1	sakarmaka		vAkyakarma
 prawi_pax1	sakarmaka
+prawi_pUj1	sakarmaka
 prawi_Rax1	sakarmaka
 prawi_RWA1	sakarmaka
 prawi_Sru1	sakarmaka
@@ -1893,6 +1895,7 @@ upa_i1	sakarmaka
 upa_Af_i1	sakarmaka
 upa_IkR1	sakarmaka
 upa_iN1	sakarmaka
+upa_kram1	sakarmaka
 upa_kruS1	sakarmaka
 upa_laB1	sakarmaka
 upa_lakR2	akarmaka
@@ -1935,6 +1938,7 @@ uw_Xq1	sakarmaka
 uw_xqS1	sakarmaka
 uw_yam1	akarmaka	gawi
 uw_yam2	sakarmaka
+uw_yam3	sakarmaka
 uxJ1	sakarmaka
 uXras1	sakarmaka
 ux_yam1	sakarmaka
@@ -2081,7 +2085,7 @@ vi_wan1	sakarmaka
 vi_wark1	sakarmaka
 vi_wQ1	sakarmaka
 viX1	sakarmaka
-vix1	sakarmaka				karmasamAnAXikaraNa
+vix1	sakarmaka	buxXi			karmasamAnAXikaraNa
 vix2	akarmaka			Sak	karwqsamAnAXikaraNa
 vix3	sakarmaka
 vix4	sakarmaka
