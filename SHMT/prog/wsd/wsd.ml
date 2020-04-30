@@ -694,6 +694,19 @@ value disambiguate_wumun m1 m2 = match m1 with
 ;
 
 
+(* To Disambiguate the final kwa and kwavawu
+ * kwa/kwavawu = yA_huA in Hindi, but kwa final is yA
+ * *)
+value disambiguate_final_kqw m1 = match m1 with
+  [ Kqw (id1,mid1,word1,_,_,_,_,kqw_prawyayaH,_,rt1,_,_,_,_,rel,_) ->
+      if rel="X"  && kqw_prawyayaH = "kwa" then
+        [ Relation (id1,mid1,"kqw_prawyayaH",kqw_prawyayaH,"kwa_fin","1.1") ]
+        else if rel="X"  && kqw_prawyayaH = "kwavawu" then
+        [ Relation (id1,mid1,"kqw_prawyayaH",kqw_prawyayaH,"kwavawu_fin","1.1") ]
+      else []
+  | _ -> []
+  ]
+;
 value all_rules3 =
 [ disambiguate_nAma ]
 ;
@@ -706,7 +719,7 @@ value all_rules2 =
 
 value all_rules1 = 
 [
-  disambiguate_avys; disambiguate_kim; remove_viSeRaNa_viBakwiH
+        disambiguate_avys; disambiguate_kim; remove_viSeRaNa_viBakwiH; disambiguate_final_kqw
 ]
 ;
 

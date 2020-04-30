@@ -40,11 +40,11 @@ $BIN_PATH/rm_non_apte.pl $SCLINSTALLDIR $BIN_PATH/default_gen.txt $SHMT_PATH/pro
 #Earlier we added the kqw analysis later. Now derivational analysis is produced simultaneously with the inflectional morph analysis. Hence this programme is removed.
 #$BIN_PATH/remove_derivational_analysis_of_rUDa_kqws.pl $SCLINSTALLDIR $SHMT_PATH/prog/morph/rUDa_kqw.gdbm |\
 $BIN_PATH/remove_derivational_analysis_of_rUDa_kqws.pl $SCLINSTALLDIR $SHMT_PATH/prog/morph/rUDa_kqw.txt  |\
-$BIN_PATH/rm_saMKyA.pl  |\
-$BIN_PATH/handle_samboXana.pl D  2> /dev/null  |\
+$BIN_PATH/rm_saMKyA.pl |\
+$BIN_PATH/handle_samboXana.pl D  2> /dev/null   >/tmp/111
 #$BIN_PATH/keep_freq_mo.pl $SCLINSTALLDIR $BIN_PATH/default_morph.dbm |\
-$BIN_PATH/keep_freq_mo.pl $BIN_PATH/default_morph.txt  |\
-$BIN_PATH/rm_duplicate_ans.pl |\
+$BIN_PATH/keep_freq_mo.pl $BIN_PATH/default_morph.txt  < /tmp/111 > /tmp/222
+$BIN_PATH/rm_duplicate_ans.pl < /tmp/222 |\
 $BIN_PATH/handle_sawi_sapwami.pl |\
 $BIN_PATH/remove_wal.pl |\
 ## commented the below line, since it did not parse wena kqwam properly, as kqxanwa analysis of kqw were removed
