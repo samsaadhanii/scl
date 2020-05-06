@@ -1975,13 +1975,16 @@ value rlsamAnakAla m1 m2 text_type = match m1 with
 (* grAmam gacCanwam rAmam SyAmaH paSyawi. *)
 (* yogyawA *)
 value rlviSeRaNam m1 m2 text_type = match m2 with
-  [ Sup (id2,mid2,word2,rt2,_,uwwarapaxa2,lifgam2,viBakwiH2,vacanam2,_)  ->
-  (* | Kqw (id2,mid2,word2,_,_,_,_,_,_,_,rt2,_,uwwarapaxa2,lifgam2,viBakwiH2,vacanam2,_)
-  | WaxXiwa (id2,mid2,word2,rt2,_,uwwarapaxa2,_,lifgam2,viBakwiH2,vacanam2,_) ->   *)
+  [ Sup (id2,mid2,word2,rt2,_,uwwarapaxa2,lifgam2,viBakwiH2,vacanam2,_) 
+   | Kqw (id2,mid2,word2,_,_,_,_,_,_,_,rt2,_,uwwarapaxa2,lifgam2,viBakwiH2,vacanam2,_) ->
+  (*| WaxXiwa (id2,mid2,word2,rt2,_,uwwarapaxa2,_,lifgam2,viBakwiH2,vacanam2,_) ->   *)
 (*  There is a problem with sentences such as 
 aham Bavanwam anviRyan upAgamam
 I think Head can not be kqw or waxxXiwa 
 Not clear about this. So uncommented kqw and waxXiwa -- Amba 26th Sep 2019
+
+Uncommented Kqw to handle
+kaH aByupAyaH aswi.
 *)
    match m1 with
       [ Sup (id1,mid1,word1,rt1,pUrvapaxa1,uwwarapaxa1,lifgam1,viBakwiH1,vacanam1,_) ->
@@ -3676,6 +3679,9 @@ value sent_beginning_connectives id1 mid1 id2 mid2 rt2 upasarga2 word1 text_type
               |"kinwu"
               |"paranwu" -> if ((id1 = 1  && text_type="Prose") || (text_type = "Sloka"))  then
 			    [ Relation (id1,mid1,"sambanXaH",id2,mid2,"38.3") ]
+			    else []
+              |"warhi" -> if id1 = 1 then
+			    [ Relation (id1,mid1,"sambanXaH",id2,mid2,"38.3a") ]
 			    else []
               |"anyaWA"
               |"aWavA"
