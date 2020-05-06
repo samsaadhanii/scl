@@ -387,7 +387,7 @@ samarpayawu	q1<upasarga:sam><sanAxi_prawyayaH:Nic><prayogaH:karwari><lakAraH:lot
 samarpiwavAn	samarpiwavaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 samarpya	q1<upasarga:sam><vargaH:avy><sanAxi_prawyayaH:Nic><kqw_prawyayaH:lyap><XAwuH:q><gaNaH:BvAxiH><level:1>
 samarpyewa	arpa1<upasarga:sam><prayogaH:karwari><lakAraH:viXi><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:q><gaNaH:BvAxiH><level:1>
-samAsIxanwi	sax1<upasarga:sam_Af><prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:bahu><paxI:parasmEpaxI><XAwuH:Raxa><gaNaH:BvAxiH><level:1>
+samAsIxanwi	Rax1<upasarga:sam_Af><prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:bahu><paxI:parasmEpaxI><XAwuH:Raxa><gaNaH:BvAxiH><level:1>
 samavAhayaw	vAh1<upasarga:sam><prayogaH:karwari><lakAraH:laf><puruRaH:pra><vacanam:eka><paxI:pasamEpaxI><XAwuH:vAhi><gaNaH:BvAxiH><level:1>
 samawIwya	i1<upasarga:sam_awi><vargaH:avy><kqw_prawyayaH:lyap><XAwuH:i><gaNaH:axAxih><level:1>
 samAxixeSa	xiS1<upasarga:sam_Af><prayogaH:karwari><lakAraH:lit><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:xiSa><gaNaH:wuxAxiH><level:1>
