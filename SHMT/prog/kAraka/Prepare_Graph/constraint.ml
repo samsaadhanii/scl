@@ -139,6 +139,7 @@ value join_relations a b c d e u v w x y =
       else if w >= 4200 && w < 4300 then [Relationc (a,b,36,d,e); Relationc (u,v,7,x,y)] 
       else if w >= 4300 && w < 4400 then [Relationc (a,b,36,d,e); Relationc (u,v,28,x,y)] 
       else if w >= 4400 && w < 4500 then [Relationc (a,b,36,d,e); Relationc (u,v,9,x,y)] 
+      else if w >= 4500 && w < 4600 then [Relationc (a,b,36,d,e); Relationc (u,v,25,x,y)] 
       else if w = 21 && c >= 2000 && c < 2100 then [Relationc (a,b,36,d,e)] 
       else []
     (* else if c >= 2100 && c < 2200 then [Relationc (u,v,21,x,y)]  *)
@@ -622,6 +623,7 @@ value rec add_cost text_type acc rels = fun
             else if rel >= 4200 && rel < 4300 then 7 * (a2-a1) (* karwqsam *)
             else if rel >= 4300 && rel < 4400 then 28 * (a2-a1) (* sambanXaH *)
             else if rel >= 4400 && rel < 4500 then 9 * (a2-a1) (* karwA *)
+            else if rel >= 4500 && rel < 4600 then 25 * (a2-a1) (* aXikaraNa *)
             else if rel >= 2200 && rel < 2300 then 14 * (a2-a1) (* karma *)
             else if rel >= 2400 && rel < 2500 then 95 * (a2-a1) 
             else if rel >= 2600 && rel < 2700 then 49 * (a2-a1)
@@ -1158,7 +1160,7 @@ let maprel = List.map (fun y -> List.nth relations (y-1) ) relsindag in
                                 then False
                                 else  loop1 rest1
                           ]
-         else if r1=7  || r1 >= 4400 then
+         else if r1=7  || (r1 >= 4400 && r1 < 4500)  then
                                (* karwqsamAnAXikaraNam, karwA *)
                                (* karwA, karwA_upa *)
          loop1 maprel 

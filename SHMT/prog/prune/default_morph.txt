@@ -63,6 +63,7 @@ anware=anware<vargaH:avy><level:1>
 anwareNa=anwareNa<vargaH:avy><level:1>
 anyonya=anyonya<vargaH:avy><level:1>
 ArAw=ArAw<vargaH:avy><level:1>
+purA=purA<vargaH:avy><level:1>
 are=are<vargaH:avy><level:1>
 aswa=aswa<vargaH:avy><level:1>
 avAk=avAk<vargaH:avy><level:1>
