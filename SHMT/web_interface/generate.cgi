@@ -69,7 +69,12 @@ if($dic_name eq "apte"){
 }
 elsif($dic_name eq "heritage"){
 	$l = &get_Heritage_Index($word_wx);
-	$filename = "$Files_Path/fr/Heritage/$l.html";
+	if($l eq "") {
+           print "\n$sword not found in ";
+           print "Heritage Sanskrit-French dictionary\n";
+        } else {
+	   $filename = "$Files_Path/fr/Heritage/$l.html";
+        }
 }
 elsif($dic_name eq "mw"){
 	$filename = "$Files_Path/en/MW/$l.new.html";
@@ -232,7 +237,7 @@ sub get_Heritage_Index {
 	elsif ($w =~ /^w[^aAiIuU]/) { $index = "30";}
 	elsif ($w =~ /^x[aA]/) { $index = "31";}
 	elsif ($w =~ /^x[iIuUqQL]/) { $index = "32";}
-	elsif ($w =~ /^xe[kKgGfcCjJFtTdDNwWxXnpPbBmyrl]/) { $index = "33";}
+	elsif ($w =~ /^xe[kKgGfcCjJFtTdDNwWxXnpPbBmyrlv]/) { $index = "33";}
 	elsif ($w =~ /^X/) { $index = "34";}
 	elsif ($w =~ /^na/) { $index = "34";}
 	elsif ($w =~ /^nA/) { $index = "35";}
