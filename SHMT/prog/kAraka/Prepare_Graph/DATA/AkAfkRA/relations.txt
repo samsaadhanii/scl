@@ -79,6 +79,7 @@ xeSAXikaraNam_upa 4100
 karwqsamAnAXikaraNam_upa 4200
 sambanXa_upa 4300
 karwA_upa 4400
+aXikaraNam_upa 4500
 gawikarwA 200
 gawikarma 201
 iRkarma 214
