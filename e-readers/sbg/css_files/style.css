@@ -17,17 +17,19 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 */
 
-td.n1		{ background-color: #ccffff;				} 
-td.n2		{ background-color: #00FF7F; /*cadetblue*/	}
-td.n3		{ background-color: #eb613d; /*lightpink*/	}
-td.n4		{ background-color: #e6ff00; /*lightgolden*/	}
-td.n5		{ background-color: #1E90FF; /*aquamarine*/	}
-td.n6		{ background-color: #FF69B4; /*peach*/		}
-td.n7		{ background-color: #BC8F8F; /*slategray*/	}
-td.v		{ background-color: #FE6265; /*darkseagreen*/	}
+td.n1           { background-color: #00BFFF /* deepskyblue*/    }
+td.n2           { background-color: #93DB70/*Green Yellow*/     }
+td.n3           { background-color: #40E0D0 /*turquoise*/       }
+td.n4           { background-color: #B0E2FF/*skyblue*/          }
+td.n5           { background-color: rgb(180,255,180) /*lightgreen*/             }
+td.n6           { background-color: rgb(135,206,235); /*skyblue*/       }
+td.n7           { background-color: rgb(198,226,235); /*slategrey*/     }
+td.n8           { background-color: #6FFFC3 /*Aquamarine*/      }
+td.NA           { background-color: #FF99FF /*Mauve*/   }
+td.v           { background-color: #FF1975 /*Cadmiumredlight*/ }
+
 td.i		{ background-color: rgb(255,240,245); /* lavender */	} 
-td.n8		{ background-color: rgb(192,255,193); /*darkseagreen #C0FFC1*/	}
-td.NA		{ background-color: rgb(233,207,236); /*lavendar  #E9CFEC(E6E6FA)*/	}
+
 td.number
 {
   padding-left: 3px;
