@@ -3,9 +3,9 @@ pratiyogī 3
 bhāvalakṣaṇasaptamī_samānakālaḥ 4
 bhāvalakṣaṇasaptamī_pūrvakālaḥ 5
 bhāvalakṣaṇasaptamī_anantarakālaḥ 6
-kartā 7
+kartṛsamānādhikaraṇam 7
 kartṛrahitakartṛsamānādhikaraṇam 8
-kartṛsamānādhikaraṇam 9
+kartā 9
 karmasamānādhikaraṇam 10
 mukhyakarma 11
 gauṇakarma 12
@@ -81,3 +81,8 @@ sambandha_upa 4300
 kartā_upa 4400
 gatikartā 200
 gatikarma 201
+iṣkarma 214
+tīvratādarśī 1001
+nāma2 1002
+nāma1 1003
+samānādhikaraṇam 1007
