@@ -38,6 +38,7 @@ nq,puM
 paWika,puM
 piwA,puM
 puwra,puM
+puwrI,swrI
 puruRa,puM
 qRi,puM
 rajaka,puM
