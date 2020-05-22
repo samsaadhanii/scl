@@ -13,8 +13,10 @@ grep prawyavasAnArWa Master_verb_data | grep sakarmaka | cut -f1 | grep -v '#' >
 grep vAkyakarma Master_verb_data | cut -f1 | grep -v '#' > vAkyakarma_XAwu_list
 grep Axikarma Master_verb_data | cut -f1 | grep -v '#' > Axikarma_XAwu_list
 grep karwqsamAnAXikaraNa Master_verb_data | cut -f1 | grep -v '#' > karwqsamAnAXikaraNa_XAwu_list
-grep karmasamAnAXikaraNa Master_verb_data | cut -f1 | grep -v '#' > karmasamAnAXikaraNa_XAwu_list
-cat buxXyarWa_XAwu_list >> karmasamAnAXikaraNa_XAwu_list
+grep karmasamAnAXikaraNa Master_verb_data | cut -f1 | grep -v '#' > jnk
+cat buxXyarWa_XAwu_list >> jnk
+sort -u jnk > karmasamAnAXikaraNa_XAwu_list
+rm jnk
 
 grep '	SliR' Master_verb_data | cut -f1 | grep -v '#' > SliR_Axi_list
 grep '	Sak' Master_verb_data | cut -f1 | grep -v '#' > SakAxi_list
