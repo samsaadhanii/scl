@@ -687,7 +687,8 @@ value get_lakAra kAla = match kAla with
 |"BUwakarwA" -> "kwavawu"
 |"prayojanam" -> "wumun"
 |"pUrvakAlaH" -> "kwvA"
-|"BAvaH" -> "lyut"
+|"BAvaH1" -> "lyut"
+|"BAvaH2" -> "GaF"
 | _ -> kAla
 ]
 ;
