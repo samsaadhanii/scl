@@ -248,7 +248,7 @@ wEyAra_kara,kI
 wiraskAra_kara,kA
 wyAga_kara,kA
 xAna_kara,kA
-XAraNa_kara,kA
+XAraNa_kara,ko
 xayA_kara,para
 xivAnA_ho,para
 xuHKI_ho,se

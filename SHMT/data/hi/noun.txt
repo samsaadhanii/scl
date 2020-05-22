@@ -2731,10 +2731,6 @@ Cinna,swrI,KaNdiwa,swrI
 cinwana,napuM,cinwana,puM
 cinwanIya,puM,cinwanIya,puM
 cinwA,swrI,cinwA,swrI
-cinwiwa,napuM,cinwiwa,puM
-cinwiwa,puM,cinwiwa,puM
-cinwiwa,swrI,cinwiwa,swrI
-cinwiwA,swrI,cinwiwa,swrI
 ciraFjIvin,puM,ciraFjIvI,puM
 cirakAla,napuM,cirakAla,puM
 ciram,napuM,xIrGakAla,puM

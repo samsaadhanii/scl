@@ -21,6 +21,7 @@ kulyaH,puM
 kumArakaH,puM
 kumBakAra,puM
 kqRNa,puM
+lakRmaNa,puM
 manuja,puM
 manujAwaH,puM
 manu,puM
@@ -45,6 +46,7 @@ rajaka,puM
 rakRas,napuM
 rAma,puM
 sAraWI,puM
+sIwA,swrI
 sWUraH,puM
 viRaxanwaka,puM
 viRkira,puM

@@ -93,6 +93,8 @@ buxXipuraHsaram,avy,irAxawana^jAnabUJa_kara_svecCA_se
 buxXipUrvakam,avy,irAxawana^jAnabUJa_kara_svecCA_se
 buxXipUrvam,avy,irAxawana^jAnabUJa_kara_svecCA_se
 ca,avy,Ora
+ca1,avy,BI
+ca2,avy,Ora
 cana,avy,na_kevala
 caya,avy,saMgraha
 cew,avy,wo

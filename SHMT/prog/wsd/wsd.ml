@@ -617,11 +617,17 @@ value disambiguate_nAma m1 m2 m3 = match m1 with
 
 
 value disambiguate_avys m1 = match m1 with
-  [ Avy (id1,mid1,word1,rt1,_,_,_) ->
+  [ Avy (id1,mid1,word1,rt1,_,relation1,rel_pos1) ->
       if (rt1="api" || rt1="param" || rt1="purA") && id1=1
       then [ Relation (id1,mid1,"rt",rt1,rt1^"1","7.1")]
       else if rt1="param" && id1=1
       then [ Relation (id1,mid1,"rt",rt1,rt1^"1","7.2")]
+      else if rt1="ca" && relation1="sambanXaH"
+      then [ Relation (id1,mid1,"rt",rt1,rt1^"1","7.3")]
+      else if rt1="ca" && relation1="samuccayaxyowakaH"
+      then [ Relation (id1,mid1,"rt",rt1,rt1^"2","7.4")]
+      else if rt1="ca" && relation1="sup_samuccayaxyowakaH"
+      then [ Relation (id1,mid1,"rt",rt1,rt1^"2","7.5")]
       else []
   | _ -> []
   ]

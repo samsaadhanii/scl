@@ -62,9 +62,17 @@ my($gen,$num,$per,$vibh,$continue);
   $SeRa_sambanXa_found = 0;
   for($j=1;$j<=$#wrd_ana+1;$j++){
        $var_nm = "wrd_ana_flds_".$j;
-       if((${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:(RaRTIsambanXaH|karwA|karma|upa_saha|upa_vinA|prawiyogI|viSeRaNam)><relata_pos:([0-9]+)>/)  && (${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^([^ ]+) (n|P|adj) ([^ ]+) ([^ ]+) ([^ ]+) kA/)){
-       ${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:(RaRTIsambanXaH|karwA|karma|upa_saha|upa_vinA|prawiyogI|viSeRaNam)><relata_pos:([0-9]+)>/;
+       $sup_nm = "";
+
+        if (${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:sup_samucciwaH><relata_pos:([0-9]+)>/){
+	   $sup_nm = $var_nm;
+           $var_nm = "wrd_ana_flds_".$1;
+        }
+
+	#print STDERR "var_nm = ",$var_nm,"\n";
+        if ((${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^[^ ]+ (n|P|adj) [^ ]+ [^ ]+ [^ ]+ kA/) && (${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:(RaRTIsambanXaH|karwA|karma|upa_saha|upa_vinA|prawiyogI|viSeRaNam)><relata_pos:([0-9]+)>/)){
           $new_var_nm = "wrd_ana_flds_".$2;
+	  #print STDERR "new_var_nm = ",$new_var_nm,"\n";
        #if(${$new_var_nm}[$parse_ana_fld] =~ /(RaRTI_sambanXaH|kAraka_RaRTI|upapaxa_sambanXaH),([0-9]+)/){
 #This is removed, because the RaRTI in Sanskrit is ambiguous.
 # W1{6} W2{6}: Here W1 may be related to W2 either by the vyadhikaraNa relation (hence 6th case) or by samAnAXikaraNa relation (since W2 is in 6th case, Skt will also have 6th case).) So the assumtion that this is always viSeRaNa is wrong.
@@ -78,12 +86,24 @@ my($gen,$num,$per,$vibh,$continue);
                $vibh = $6;
                if(($ke_parsarg_list{$n_word}) || ($n_word =~ /_meM|_se|_ko|_para|_kI|_ke|_ora/)) {
                   ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 ke/;
+		    if(sup_nm ne "") {
+                       ${$sup_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 ke/;
+	            }
                }elsif($kI_parsarg_list{$n_word}) {
-                  ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 kI/;
+                 ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 kI/;
+		 if(sup_nm ne "") {
+                    ${$sup_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 kI/;
+		 }
                }elsif($gen eq "f") {
                   ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 kI/;
+		 if($sup_nm ne "") {
+                  ${$sup_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 kI/;
+	         }
                }elsif(($gen eq "m") && (($vibh ne "0")|| ($num eq "p"))) {
                   ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 ke/;
+		  if($sup_nm ne "") {
+                    ${$sup_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 ke/;
+	          }
                }
            }
            $SeRa_sambanXa_found = 1;

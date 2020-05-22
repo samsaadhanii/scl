@@ -1461,7 +1461,7 @@ cIv1,ap,sk,v,le^pahana^pakada,AxAna-saMvaraNayoH
 cIv1,pp,sk,v,le^pahana^pakada,AxAna-saMvaraNayoH
 cIv2,pp,sk,v,kaha^daMka_mArane_ke_samAna_bola,BARArWaH
 ciw1,pp,ak,v,acCI_waraha_vicAra_kara^cinwana_kara^hoSa_me_A,saMjFAne
-ciw2,pp,sk,v,soca_kara,smqwyAm
+ciw2,pp,sk,v,soca,smqwyAm
 ciw3,ap,sk,v,vicAra_kara^cinwana_kara^smaraNa_kara^yAxa_kara,saMcewane
 cIw_kq3,pp,sk,v,cIwkAra_kara,
 ciwra1,pp,sk,v,wasvIra_KIMca^ciwra_banA,ciwrIkaraNe

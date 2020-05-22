@@ -59,22 +59,44 @@ my($j,$abhihita_lifgam,$abhihita_pos);
            $abhihita_lifgam = $1;
            $abhihita_vacanam = $2;
         }
-	if($abhihita_vacanam eq "NW"){
-          if(${$new_var_nm}[$wrd_fld] eq "ca") {
-             $abhihita_vacanam = "p";
-          }
+
+	# In the earlier version, 'ca' was marked as the head. Hence in that case the abhihita_vacanam and abhihita_lifgam were "NW"
+	
+	#	if($abhihita_vacanam eq "NW"){
+	#  if(${$new_var_nm}[$wrd_fld] eq "ca") {
+	#     $abhihita_vacanam = "p";
+	#  }
+	#}
+	#if($abhihita_lifgam eq "NW"){
+	#  for($k=1;$k<=$#wrd_ana+1;$k++){
+	#   $new_var_nm = "wrd_ana_flds_".$k;
+	#   if(${$new_var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:samucciwam><relata_pos:$abhihita_pos>/){
+	#      ${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^[^ ]+ [^ ]+ ([^ ]+) [^ ]+/;
+	#      $tmp_lifgam = $1;
+	#      if($abhihita_lifgam eq "NW") { $abhihita_lifgam = $tmp_lifgam;}
+	#      elsif($tmp_lifgam eq "m") { $abhihita_lifgam = $tmp_lifgam;}
+	#   }
+	#  }
+	#}
+	
+	# Now the head is the noun closest to the verb. Hence we get the lifgam and vacanam. But if there is another noun 'samucciwa' with this noun, then the vacanam and lifgam should be changed as follows.
+	# vacanam will always be plural. (Since Hindi does not have xvi-vacana
+	# lifgam will be swrI if all the sup-samucciwas are fem else masc.
+	#
+
+	for ($i=1;$i< $#wrd_ana+1; $i++) {
+        $tmp_var_nm = "wrd_ana_flds_".$i;
+	if (${$tmp_var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:sup_samucciwaH><relata_pos:$abhihita_pos>/) {
+         if (${$tmp_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^[^ ]+ [^ ]+ ([^ ]+) ([^ ]+)/){
+           $samucciwa_lifgam = $1;
+	   if(($abhihita_lifgam eq "f") && ($samucciwa_lifgam eq "m")){
+		   $abhihita_lifgam = "m";
+	   }
+           $abhihita_vacanam = "p";
+         }
         }
-	if($abhihita_lifgam eq "NW"){
-          for($k=1;$k<=$#wrd_ana+1;$k++){
-           $new_var_nm = "wrd_ana_flds_".$k;
-           if(${$new_var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:samucciwam><relata_pos:$abhihita_pos>/){
-              ${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^[^ ]+ [^ ]+ ([^ ]+) [^ ]+/;
-              $tmp_lifgam = $1;
-              if($abhihita_lifgam eq "NW") { $abhihita_lifgam = $tmp_lifgam;}
-              elsif($tmp_lifgam eq "m") { $abhihita_lifgam = $tmp_lifgam;}
-           }
-          }
-        }
+       }
+
         ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $abhihita_lifgam $abhihita_vacanam/;
      }
   }
