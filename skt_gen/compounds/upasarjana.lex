@@ -380,16 +380,6 @@ vyAGrAxi	(vyAGra|siMha|qkRa|qRaBa|canxana|vqka|vqRa|varAha|haswin|waru|kuFjara|r
 		/* 2.1.59 SreNyAxayaH kqwAxiBiH */
 		/* 2.1.60 kwena naFviSiRtenAnaF */
 
-^(saw|mahaw|mahawI|parama|uwwama|uwkqRta)\+{sup}[ ]{word}[ ]\(2\.1\.61\)	{ 
-										 sprintf(ques,"अनेन समासेन पूज्यमानार्थः गम्यते(Y/N)?"); 
-										 upasarjana_cgi_interface(ques,1,"");
-										}
-
-^{word}[ ](saw|mahaw|mahawI|parama|uwwama|uwkqRta)\+{sup}[ ]\(2\.1\.61\)	{ 
-										 sprintf(ques,"अनेन समासेन पूज्यमानार्थः गम्यते(Y/N)?");
-										 upasarjana_cgi_interface(ques,2,"");
-										}
-
 ^{word}[ ](vqnxAraka|nAga|kuFjara)\+{praWamA}[ ]\(2\.1\.62\)	{ 
 								 sprintf(ques,"अनेन समासेन पूज्यमानार्थः गम्यते(Y/N)?"); 
 								 upasarjana_cgi_interface(ques,1,"");
