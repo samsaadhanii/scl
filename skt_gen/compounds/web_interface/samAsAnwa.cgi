@@ -21,7 +21,7 @@
 
 $| = 1;
 
-use utf8;
+#use utf8;
 require "../../paths.pl";
 require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 
