@@ -165,6 +165,8 @@ PakkikA
 Pala
 pAlaka
 plavana
+pIna
+pInA
 pAwa
 paNdiwa
 parAkrama
