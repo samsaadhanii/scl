@@ -110,7 +110,9 @@ if($ans ne "") {
    if ($ans =~ /उपसर्ग ([^}]+)/) { 
 	   $upasarga = $1;
    	   $ans =~ s/{उपसर्ग [^}]+}//;
-   } else {$upasarga = "-";}
+   } elsif ($rt =~ /^(.+)_([^_]+)/){
+	   $upasarga = $1; $rt = $2;
+   } else { $upasarga = "-"; }
 
 
    #if($rt ne $word) { #  To avoid the infinite regress

@@ -623,19 +623,14 @@ my $ans = "";
           $ans = &clean($$rdatabase{$rt});
 	  #print "ans = $ans\n";
        } elsif($rt =~ /_Nic/) {
-	   open(T,">/tmp/j");
-	   print T $rt,"\n";
            $rt =~ s/_Nic//;
            $hnd_rt = &clean($$rdatabase{$rt});
              ## Before calling the causative handler, we need to disambiguate Nic with verbs in curaxi gaNa. If they are in svArWa, we need not call the causative handler.
 ## For example, rAmaH puswakam corayawi Versus rAmaH mohanena puswakam corayawi.
 ## In the first example, it is not Nic while in the second it is.
 	     chomp($hnd_rt);
-	     print T "hnd_rt = $hnd_rt\n";
 	     $ans = `/usr/bin/env python $GlblVar::SCLINSTALLDIR/SHMT/prog/map/causal_verb_handler.py $hnd_rt`;
            chomp($ans);
-	   print T "ans = $ans\n";
-	   close(T);
           } else {
 		  #if($rt =~ /1_/) { $rt =~ s/1_/_/;} 
 		  #$rt =~ s/X_//; # In case of upasargas
