@@ -9,9 +9,10 @@ if(($in =~ /(.*<td class=[^>]+>[ ]*)(.*)(<\/td>.*)/) && ($add_ref)) {
  $middle = $2;
  $right = $3;
 
+ $middle =~ s/\(([^ ]*[_\-])?([^0-9\- ]+)([0-9]*)[ ]/\($1<a href="javascript:show('$2','$outscript')">$2$3<AAA>/g;
  $middle =~ s/^([^ ]*[_\-])?([^0-9\- ]+)([0-9]*)[ ]/$1<a href="javascript:show('$2','$outscript')">$2$3<AAA>/;
  $middle =~ s/\/([^ ]*[_\-])?([^0-9\- ]+)([0-9]*)[ ]/\/$1<a href="javascript:show('$2','$outscript')">$2$3<AAA>/g;
- #$middle =~ s/\-([^ ]*_)?([^0-9\- ]+)([0-9]*)[ ]/-$1<a href="javascript:show('$2','$outscript')">$2$3<AAA>/g;
+ # $middle =~ s/\-([^ ]*_)?([^0-9\- ]+)([0-9]*)[ ]/-$1<a href="javascript:show('$2','$outscript')">$2$3<AAA>/g;
 
  $middle =~ s/<AAA>/<\/a> /g;
  print $left,$middle,$right,"\n";
