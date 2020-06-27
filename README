@@ -1,4 +1,7 @@
-The distribution contains various tools related to Sanskrit computations developed under the guidance of Amba Kulkarni since 2002.
+The distribution contains following tools related to Sanskrit computations developed under the guidance of Amba Kulkarni since 2002.
+
+   Morph analyser, Morph generator, Sandhi joiner, Sandhi splitter, Anusaaraka Skt-Hnd MT system, transliteration modules, Amarakosha, Ashtadhyayi Simulator, Navya-Nyaya Diagramatic Representation, Compound word generator, and e-readers for Sankshepa Ramayanam and SrimadBhagvadGita
+
 
 Pre-requisites:
 apache HTTP server
@@ -52,14 +55,12 @@ sudo systemctl restart apache2
 
 -------------------------------------------------------------------
 
-The distribution has following modules bundled together
-   Morph analyser, Morph generator, Sandhi joiner, Sandhi splitter, Anusaaraka Skt-Hnd MT system, transliteration modules, Amarakosha, Ashtadhyayi Simulator, Navya-Nyaya Diagramatic Representation, Compound word generator, and e-readers for Sankshepa Ramayanam and SrimadBhagvadGita
-
 To install Sanskrit Computational Linguistics tools
 
-a) git pull http://scl.samsaadhanii.in:3000/amba/scl.git
+a) If you have already have a tar, or updated version, then skip this step.
+git pull http://scl.samsaadhanii.in:3000/amba/scl.git
 
-b) cp appropriate SPEC/spec*.txt file to scl directory. Name it as spec.txt
+b) cp SPEC/spec_users.txt file to scl directory. Name it as spec.txt
    Check that the paths are correct, else make necessary changes.
 
 c) ./configure 
@@ -74,7 +75,7 @@ In case of any queries, please contact ambapradeep@gmail.com.
 
 
 -- Amba Kulkarni
-10th Sept 2018
+27th Jun 2020
 -------------------------------------------------------------------------------
 
 History:
