@@ -1093,7 +1093,7 @@ e	a+I	38
 e	a+e	40
 e	a+i	644
 e	e+a	106
-e	e+i	14
+zze	e+i	14
 eB	e+B	1
 eC	e+C	1
 eD	e+D	1

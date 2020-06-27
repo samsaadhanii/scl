@@ -103,7 +103,7 @@ e	A+I	35
 e	A+i	515
 e	a+i	892
 e	e+a	106
-e	e+i	14
+zze	e+i	14
 El	E+l	16
 en	e+n	6
 eS	e+S	4
