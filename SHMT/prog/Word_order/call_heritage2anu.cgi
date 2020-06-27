@@ -57,6 +57,7 @@ read(STDIN, $b, $ENV{'CONTENT_LENGTH'});
 
  system ("echo '$buffer' > /tmp/abcd");
  system("echo '$buffer' | $GlblVar::SCLINSTALLDIR/SHMT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $GlblVar::SCLINSTALLDIR > $GlblVar::TFPATH/tmp_in$pid/in$pid.out");
+ system("rm /tmp/abcd");
 
 if($display eq "") { $display = "DEV";}
 
