@@ -98,6 +98,7 @@ jagaw
 jana
 jFApaka
 jIvaka
+jIvana
 joRikA
 KAnaka
 kaNdikA
@@ -188,6 +189,7 @@ pAvaka
 petikA
 piwA
 potaka
+praSAnwa
 pracAyikA
 prajanikA
 prakarRa
@@ -236,8 +238,10 @@ sahiwa
 SAkya
 SAswra
 samApaka
+samUha
 samarWakam
 samarWana
+samaswa
 samAXAna
 samaya
 saMskqwa
@@ -258,6 +262,7 @@ SiRyA
 SoXaka
 sqRti
 SrAvaka
+SrAnwa
 Sreya
 SuxXa
 sWAna
