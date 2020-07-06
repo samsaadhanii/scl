@@ -171,7 +171,8 @@ ava_RwaB1	sakarmaka
 ava_RWA1	akarmaka
 ava_sax1	sakarmaka
 ava_SiR2	sakarmaka
-ava_wQ1	sakarmaka
+ava_wQ1	sZZakarmaka
+ava_wQ1	akarmaka
 aw1	sakarmaka
 aw2	akarmaka
 awi_i1	sakarmaka	gawi
@@ -882,8 +883,8 @@ kuS1	sakarmaka
 kus2	sakarmaka
 kusm1	akarmaka
 kut1	akarmaka
-kuT1	akarmaka
-kuT1	saZZkarmaka
+kuT1	ZZakarmaka
+kuT1	sakarmaka
 kUt1	sakarmaka
 kut2	sakarmaka
 kUta1	akarmaka
@@ -1344,6 +1345,7 @@ pra_wap1	sakarmaka
 prawi_Af_cakR1	sakarmaka
 prawi_Af_gam1	sakarmaka	gawi
 prawi_Af_KyA1	sakarmaka
+prawi_Af_NI1	sakarmaka
 prawyA_KyA1	sakarmaka
 prawi_Bix1	sakarmaka
 prawi_brU1	sakarmaka
@@ -2352,7 +2354,8 @@ XrAkR1	akarmaka
 xrAkR1	sakarmaka
 xram1	sakarmaka
 Xras1	sakarmaka
-xrav1	sakarmaka
+xrav1	sZZakarmaka
+xrav1	akarmaka
 xrE1	akarmaka
 XrE1	sakarmaka
 xrek1	akarmaka
