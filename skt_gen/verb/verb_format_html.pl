@@ -18,7 +18,8 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 
-@lakAra = ("लट्","लिट्","लुट्","लृट्","लोट्","लङ्","विधिलिङ्","आशीर्लिङ्","लुङ्","लृङ्");
+#@lakAra = ("लट्","लिट्","लुट्","लृट्","लोट्","लङ्","विधिलिङ्","आशीर्लिङ्","लुङ्","लृङ्");
+@disp_lakAra = ("लट्(वर्तमान)","लिट्(परोक्ष)","लुट्(अनद्यतन भविष्यत्)","लृट्(अद्यतन भविष्यत्)","लोट्(आज्ञार्थ)","लङ्(अनद्यतन भूत)","विधिलिङ्","आशीर्लिङ्","लुङ्(अद्यतन भूत)","लृङ्(भविष्यत्)");
 @person = ("प्रथमपुरुषः","मध्यमपुरुषः","उत्तमपुरुषः");
 $line_no = 0;
 $lakAra_no = 0;
@@ -31,7 +32,7 @@ if($in){
   }
   if($line_no == 0) {
      print "<table border=0>\n";
-     print "<center><tr><td colspan=4 align=\"center\"><font color=\"brown\" size=\"5\"><b>$lakAra[$lakAra_no]</b></font></td></tr>\n";
+     print "<center><tr><td colspan=4 align=\"center\"><font color=\"brown\" size=\"5\"><b>$disp_lakAra[$lakAra_no]</b></font></td></tr>\n";
      print "<tr  bgcolor='tan'><td></td><td align=\"center\"><font color=\"white\" size=\"4\">एकवचनम्</font></td><td align=\"center\"><font color=\"white\" size=\"4\">द्विवचनम्</font></td><td align=\"center\"><font color=\"white\" size=\"4\">बहुवचनम्</font></td></tr>\n";
   }
   $in =~ s/[ \t][ \t]*/ /g;
