@@ -521,12 +521,13 @@ value relation_mutual_yogyataa m1 m2 = match m1 with
          else if from_id2=to_id1 && from_mid2=to_mid1
                 && r2=33 && r1=33 (* an aBexa of an aBexa is not allowed *)
          then False
-         else if from_id1=to_id2 && from_mid1=to_mid2
+         (*else if from_id1=to_id2 && from_mid1=to_mid2
                 && r2=33 && r1=32 (* an aBexa of a viSeRaNa is not allowed *)
          then False
          else if from_id2=to_id1 && from_mid2=to_mid1
                 && r2=32 && r1=33 (* an aBexa of a viSeRaNa is not allowed *)
-         then False
+         then False 
+         wava XImawA SiRyeNa xrupaxa-puwreNa; here viSeRaNa of aBexa is allowed*)
          else if from_id1=to_id2 && from_mid1=to_mid2
                 && r2=32 && r1=33 (* a viSeRaNa of an aBexa is not allowed *)
          then False
@@ -1173,8 +1174,15 @@ let maprel = List.map (fun y -> List.nth relations (y-1) ) relsindag in
                                 then False
                                 else if (z=c && t=d && (r / 100 = 44 && r1=7))
                                  || (x=c && y=d && (r1 / 100 = 44 && r=7))
-                                 || (z=c && t=d && r=9 && r1=7 && text_type="Prose" && (a-x) > 0) 
-                                 || (z=c && t=d && r=9 && r1=7 && text_type="Sloka") 
+                                 || (z=c && t=d && r=9 && r1=7 && (a-x) > 0) 
+
+(*  Why should there be distinction between Prose and Sloka with regards to karwqsamAnAXikaraNa?
+ *     After all this is related to uxxeSya and viXeya, typically uxxeSya comes before viXeya.
+ ---> Because of constructions such as 'aprayAwam balam waw BIRma-aBirakRiwam'
+ We need to think over such constructions. So still the following is commented 
+
+                           *     || (z=c && t=d && r=7 && r1=9 && text_type="Prose" && (a-x) > 0) 
+                                 || (z=c && t=d && r=7 && r1=9 && text_type="Sloka")  *)
                                  || (x=c && y=d && r=24 && r1=7)  (* karwqsamAnAXikaraNa and pUrvakAlaH *)
                                then  loop rest
                                else  loop1 rest1
@@ -1455,9 +1463,9 @@ value solver rel_lst text_type =
               soln in
               if (List.length l > 0)
               then do
-              {  (*print_string "Total dags = "
+              { (* print_string "Total dags = "
               ; print_int total_dags_so_far.val
-              ; print_newline () *)
+              ; print_newline () ; *)
               (*;  print_int total_wrds
               ; print_int (List.length l) 
               ; *) let collapsed_soln = lwg_and_collapse_all_solns text_type rel_lst l in
