@@ -6,6 +6,7 @@ aBiXAyaka
 aBiXAyikA
 aByASa
 AcArya
+ABaraNa
 AryA
 Af_cArya
 AhvAyaka
@@ -33,6 +34,7 @@ arcaka
 arjaka
 Asana
 avaguNTikA
+avanwI
 avaroXaka
 AvAsa
 avawaMsaka
@@ -104,6 +106,7 @@ KAnaka
 kaNdikA
 kaNtakaH
 kAraka
+kAnwA
 kAraNa
 kArikA
 KarjikA
@@ -151,7 +154,10 @@ moxaka
 mUDa
 mURaka
 nanxaka
+nayana
 nArya
+nAvika
+nAvikA
 nAryA
 nASaka
 nAsikA
@@ -197,6 +203,7 @@ pralepaka
 praNAma
 praNAyaka
 prApaka
+prAya
 prArWaka
 prasanna
 prasAxaka
@@ -238,6 +245,7 @@ sahiwa
 SAkya
 SAswra
 samApaka
+samBAra
 samUha
 samarWakam
 samarWana
@@ -250,6 +258,7 @@ saMvAhaka
 saMvarwaka
 saMvarXaka
 sanxeSa
+sanwapwa
 SaraNa
 sattakam
 SAyaka
@@ -267,6 +276,7 @@ Sreya
 SuxXa
 sWAna
 ucyaw
+uwsAha
 upahAsaka
 uparoXaka
 upAsaka
@@ -274,6 +284,7 @@ upasWAyaka
 upAya
 vAcaka
 vacana
+vasaw
 vaFcaka
 vaFcana
 vAhaka
@@ -293,6 +304,7 @@ vAyaka
 veRtaka
 veXaka
 vicAraka
+viwwa
 vikASaka
 vilambikA
 vilapana
@@ -314,6 +326,7 @@ vyavahAraka
 vyavahArikA
 vyAvarwaka
 vyavaXAyaka
+wrANa
 wAraka
 wArikA
 xAhaka

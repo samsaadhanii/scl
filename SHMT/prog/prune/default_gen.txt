@@ -7121,6 +7121,7 @@ gaminI_swrI
 gAminI_swrI
 gamin_puM
 gAmin_puM
+gAmin_napuM
 gamyA_swrI
 GanAGana_puM
 gaNakikA_swrI

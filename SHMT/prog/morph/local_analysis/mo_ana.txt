@@ -188,7 +188,6 @@ mahArAja	mahArAja<vargaH:nA><lifgam:puM><viBakwiH:8><vacanam:eka><level:1>
 mamaH	mama<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 maMsyanwe	man1<prayogaH:karwari><lakAraH:lqt><puruRaH:pra><vacanam:bahu><paxI:AwmanepaxI><XAwuH:manuz><gaNaH:xivAxiH><level:1>
 mAnaxa	mAnaxa<vargaH:nA><lifgam:puM><viBakwiH:8><vacanam:eka><level:1>/mAnaxa<vargaH:nA><lifgam:napuM><viBakwiH:8><vacanam:eka><level:1>
-manyawe	man1<prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:manuz><gaNaH:xivAxiH><level:1>
 manye	man1<prayogaH:karwari><lakAraH:lat><puruRaH:u><vacanam:eka><paxI:AwmanepaxI><XAwuH:manuz><gaNaH:xivAxiH><level:1>
 mArayiwum	mq1<vargaH:avy><sanAxi_prawyayaH:Nic><kqw_prawyayaH:wumun><XAwuH:mqf><gaNaH:wuxAxiH><level:1>
 mArayiwvA	mq1<vargaH:avy><sanAxi_prawyayaH:Nic><kqw_prawyayaH:kwvA><XAwuH:mq><gaNaH:wuxAxiH><level:1>
@@ -362,6 +361,8 @@ puruRarRaBa	puruRarRaBa<vargaH:nA><lifgam:puM><viBakwiH:8><vacanam:eka><level:1>
 puruRavyAGra	puruRavyAGra<vargaH:nA><lifgam:puM><viBakwiH:8><vacanam:eka><level:1>
 raFjiwa	raFjiwa<vargaH:nA><lifgam:puM><viBakwiH:8><vacanam:eka><level:1>
 rAhulaH	rAhula<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
+qRyaSrqfgasya	qRyaSrqfga<vargaH:nA><lifgam:puM><viBakwiH:6><vacanam:eka><level:1>
+SrIReNasya	SrIReNa<vargaH:nA><lifgam:puM><viBakwiH:6><vacanam:eka><level:1>
 rAhulasya	rAhula<vargaH:nA><lifgam:puM><viBakwiH:6><vacanam:eka><level:1>
 rAjyasuKaloBena	rAjyasuKaloBa<vargaH:nA><lifgam:puM><viBakwiH:3><vacanam:eka><level:1>
 rAjyasuKaloBena	rAjyasuKaloBa<vargaH:nA><lifgam:puM><viBakwiH:3><vacanam:eka><level:1>h	
