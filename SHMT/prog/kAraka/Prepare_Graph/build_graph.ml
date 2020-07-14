@@ -3336,9 +3336,19 @@ value rlavy_wifkqw_special m1 m2 text_type = match m2 with
          then [ Relation (id1,mid1,"prawiReXaH",id2,mid2,"29.2")]
            else []
        | "kacciw" | "Sam" | "svaswi" | "svAhA" | "svaXA" | "vaRat" 
-       | "kim" ->  if prose_order id1 id2 text_type
-         then [ Relation (id1,mid1,"sambanXaH",id2,mid2,"29.3")]
-         else []
+       | "kim" ->  if id1 = total_wrds.val 
+                   then [ Relation (id1,mid1,"sambanXaH",id2,mid2,"29.3")]
+                   else if  id1 < id2 
+                        then if not (id1 = 1) && id2 = id1+1
+                             then [ Relation (id1,mid1,"prayojanam",id2,mid2,"29.4")]
+                             else [ Relation (id1,mid1,"prayojanam",id2,mid2,"29.5")
+                                  ; Relation (id1,mid1,"sambanXaH",id2,mid2,"29.6")]
+                        else []
+                   (* kim wvam paTasi -> yes/no, prayojanam     29.5,29.6
+                    * kim wvam saMskqwam paTasi -> yes/no, prayojanam 29.5, 29.6
+                    * wvam saMskqwam kim paTasi -> prayojanam   29.4
+                    * wvam kim saMskqwam paTasi -> yes/no, prayojanam 29.5,29.6
+                    * wvam paTasi kim -> yes/no  29.3 *)
       (* | "saha"
        | "sAkam"
        | "sArXam"

@@ -202,7 +202,8 @@ kila,avy,ASA^prawyASA^saMBAvanA
 kila,avy,avaSya
 kimapi,avy,kuCa_BI^kuCa_aMSa_waka^kuCa^bahuwa_aMSo_waka
 kimarWam,avy,kisalie
-kim,avy,kyA
+kim_1,avy,kyA
+kim_2,avy,kyoM
 kiMca,avy,isake_awirikwa_Ora_Pira_Age
 kiMcana,avy,kuCa_xarje_waka^kuCa^WodZA_sA
 kiMciw,avy,kuCa_xarje_waka^kuCa^WodZA_sA

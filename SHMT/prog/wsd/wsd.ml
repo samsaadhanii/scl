@@ -590,6 +590,14 @@ value disambiguate_kim m1 = match m1 with
            ; Relation (id1,mid1,"viBakwiH",string_of_int viBakwiH1,"0","5.2")
            ]
       else []
+  | Avy (id1,mid1,_,rt1,_,rel_nm,_) -> 
+           if rt1="kim" 
+           then if rel_nm = "prayojanam"
+           then [ Relation (id1,mid1,"rt",rt1,rt1^"_2","5.3")]
+           else if rel_nm = "sambanXaH"
+                then [ Relation (id1,mid1,"rt",rt1,rt1^"_1","5.4")]
+                else []
+           else []
   | _ -> []
   ]
 ;
