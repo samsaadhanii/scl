@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2002-2020 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2002-2021 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -27,6 +27,7 @@ $in =~ s/M([tTdDN])/N$1/g;
 $in =~ s/M([wWxXn])/n$1/g;
 $in =~ s/M([pPbBm])/m$1/g;
 $in =~ s/M$/m/g;
+$in =~ s/zS/MS/g;
 #$in =~ s/x$/w/g; THIS IS A WRONG RULE.
 $in =~ s/rww([aeiouAEIOUqQ])/rw$1/g;
 $in =~ s/M(\b)/m$1/g;

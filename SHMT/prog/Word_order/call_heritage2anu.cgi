@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-#  Copyright (C) 2017-2020 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2017-2021 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -55,9 +55,9 @@ read(STDIN, $b, $ENV{'CONTENT_LENGTH'});
  my $pid = $$;
  system("mkdir -p $GlblVar::TFPATH/tmp_in$pid");
 
- system ("echo '$buffer' > /tmp/abcd");
+ system ("echo '$buffer' > /tmp/SKT_TEMP/abcd");
  system("echo '$buffer' | $GlblVar::SCLINSTALLDIR/SHMT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $GlblVar::SCLINSTALLDIR > $GlblVar::TFPATH/tmp_in$pid/in$pid.out");
- system("rm /tmp/abcd");
+ # system("rm /tmp/abcd");
 
 if($display eq "") { $display = "DEV";}
 

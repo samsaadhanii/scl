@@ -51,11 +51,11 @@ while(i < len) {
      else {
        c1 = in[i+1];
        switch(c1) {
-         case 'k': case 'K': case 'g': case 'G': {out[j] = 'f', out[j+1]= c1; j += 2; i += 2;break;}
-         case 'c': case 'C': case 'j': case 'J': {out[j] = 'F'; out[j+1] = c1; j+= 2; i += 2;break;}
-         case 't': case 'T': case 'd': case 'D': {out[j] = 'N'; out[j+1] = c1; j+= 2; i += 2;break;}
-         case 'w': case 'W': case 'x': case 'X': {out[j] = 'n'; out[j+1] = c1; j+= 2; i += 2;break;}
-         case 'p': case 'P': case 'b': case 'B': {out[j] = 'm'; out[j+1] = c1; j+= 2; i += 2;break;}
+	       case 'k': case 'K': case 'g': case 'G': case 'f': {out[j] = 'f', out[j+1]= c1; j += 2; i += 2;break;}
+	       case 'c': case 'C': case 'j': case 'J': case 'F': {out[j] = 'F'; out[j+1] = c1; j+= 2; i += 2;break;}
+	       case 't': case 'T': case 'd': case 'D': case 'N': {out[j] = 'N'; out[j+1] = c1; j+= 2; i += 2;break;}
+	       case 'w': case 'W': case 'x': case 'X': case 'n': {out[j] = 'n'; out[j+1] = c1; j+= 2; i += 2;break;}
+	       case 'p': case 'P': case 'b': case 'B': case 'm': {out[j] = 'm'; out[j+1] = c1; j+= 2; i += 2;break;}
          default: {out[j] = 'M'; out[j+1] = c1; j += 2; i += 2;}
        }
      }

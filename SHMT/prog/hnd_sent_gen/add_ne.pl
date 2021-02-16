@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2009-2020 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2009-2021 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -72,18 +72,26 @@ sub add_ne{
                  if ($karma_pos != -1) {
                      $karma_nm = "wrd_ana_flds_".$karma_pos;
                      if (${$karma_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) 0/){
+# rAmaH Palam aKAxaw
                         ${$new_var_nm}[$morph_kaaraka_anal] =~ s/<rel_nm:aBihiwa_karwA><relata_pos:[0-9]+>/<rel_nm:aBihiwa_karma><relata_pos:$karma_pos>/;
                      }
-                     else {${$new_var_nm}[$morph_kaaraka_anal] =~ s/<rel_nm:aBihiwa_karwA><relata_pos:[0-9]+>/<rel_nm:><relata_pos:>/;
+                     else {
+			   ${$new_var_nm}[$morph_kaaraka_anal] =~ s/<rel_nm:aBihiwa_karwA><relata_pos:[0-9]+>/<rel_nm:><relata_pos:>/;
+                           ${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) /$1 $2 m s $5 /;
+# ramaH mohanam awAdayaw
                      }
                  } else {
                      ${$new_var_nm}[$morph_kaaraka_anal] =~ s/<rel_nm:aBihiwa_karwA><relata_pos:[0-9]+>/<rel_nm:><relata_pos:>/;
                      ${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) /$1 $2 m s $5 /;
+# rAmaH aKAxaw
 		 }
              }
           }
       }
   }
+
+  # If there is no karwA in the sentence then to mark the agreement with the karma, in case the karma has 0 vibhkati (which is decided by the later rules)
+  #  Palam aKAxam / rotikAm aKAxam / mohanam awAdayam/ Palam aKAxaH / rotikAm aKAxaH / mohanam awAdayaH
       $karma_pos = -1;
       for($k=1;$k<=$#wrd_ana+1;$k++){
           $tmp_var_nm = "wrd_ana_flds_".$k;
@@ -99,12 +107,12 @@ sub add_ne{
     if($karwA_found == 0) {
      for($j=1;$j<=$#wrd_ana+1;$j++){
          $var_nm = "wrd_ana_flds_".$j;
-         if((${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karwA><relata_pos:([0-9]+)>/) || (${$var_nm}[$morph_kaaraka_anal] =~ /puruRaH:u/) || (${$var_nm}[$morph_kaaraka_anal] =~ /puruRaH:ma/)){
-             if ($karma_pos != -1) {
-                 ${$var_nm}[$morph_kaaraka_anal] =~ s/<rel_nm:><relata_pos:>/<rel_nm:aBihiwa_karma><relata_pos:$karma_pos>/;
-             }
-         }
-      }
+	      if((${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karwA><relata_pos:([0-9]+)>/) || (${$var_nm}[$morph_kaaraka_anal] =~ /puruRaH:u/) || (${$var_nm}[$morph_kaaraka_anal] =~ /puruRaH:ma/)){
+	     if ($karma_pos != -1) {
+		     	 	     ${$var_nm}[$morph_kaaraka_anal] =~ s/<rel_nm:><relata_pos:>/<rel_nm:aBihiwa_karma><relata_pos:$karma_pos>/;
+	     }
+	    } 
+	  }
   }
  }
 }
