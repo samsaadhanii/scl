@@ -846,6 +846,7 @@ Arya,napuM
 Arya,puM
 Aryapuwra,puM
 AryA,swrI
+AryAvarwa,napuM
 asafgawa,napuM
 asafgawa,puM
 asafgawi,swrI
@@ -3254,6 +3255,7 @@ kumArI,swrI
 kumBa,puM
 kuNdala,napuM
 kuNdala,puM
+kuNdalinI,swrI
 kuNTiwA,swrI
 kUpa,puM
 kupiwa,napuM
@@ -3311,6 +3313,7 @@ kuxxAla,puM
 kvaNaw,napuM
 kvaWiwa,napuM
 kvaWiwa,puM
+kvaWikA,swrI
 KyAwa,napuM
 KyAwa,puM
 KyAwA,swrI
@@ -3604,6 +3607,8 @@ maNikAra,puM
 mAnin,puM
 maNi,puM
 manmaWa,puM
+manohara,puM
+manohara,napuM
 manoharI,swrI
 manorama,puM
 manoramA,swrI
@@ -4688,6 +4693,7 @@ parjanya,puM
 parNakutI,swrI
 parNa,napuM
 parNaSAlA,swrI
+parpata,puM
 parokRA,swrI
 parokRawva,napuM
 paropakAra,puM
@@ -5560,6 +5566,7 @@ purohiwA,swrI
 purohiwi,swrI
 puRpaka,napuM
 puRpakavimAna,napuM
+puRpamAlA,swrI
 puRpa,napuM
 puRpA,swrI
 pur,swrI
@@ -9630,6 +9637,7 @@ yApya,napuM
 yApya,puM
 yApyA,swrI
 yaRti,swrI
+yaRtikA,swrI
 yaRtyAhva,puM
 yaSaskara,napuM
 yaSaskara,puM
@@ -11863,6 +11871,7 @@ hanu,swrI
 hanwokwi,swrI
 hariNIxqS,swrI
 harixiS,swrI
+harixvAra,napuM
 harihewi,swrI
 haswasixXi,swrI
 hAni,swrI

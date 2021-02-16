@@ -74,6 +74,12 @@ wumun0,0
 wumun_nA,nA
 wqc,ne_vAlA
 lyut,nA
+lyut_2,nA~ko
+lyut_3,nA~se
+lyut_4ke_liye,nA~ke_liye
+lyut_5,nA~se
+lyut_6,nA~kA
+lyut_7,nA~meM
 anIyar,nA
 wavyaw,nA_cAhiye
 BAve_lat,yA_jAwA_hE

@@ -3,6 +3,7 @@ upaxeSa_xe,kA
 svAxa_le,kA
 vixyA_prApwa_kara,kI
 parIkRA_kara,kI
+pAsa_jA,ke
 aBinanxana_kara,kA
 aByaFjana_ho,kA
 aByaFjana_kara,kA
@@ -15,6 +16,7 @@ AkuFciwa_ho,kA
 AkuFciwa_kara,kA
 alaga_kara,kA
 alaMkAra_kara,kA
+AleKana_kara,kA
 Alifgana_kara,kA
 AmanwraNa_kara,kA
 aMgIkAra_kara,kA
@@ -192,7 +194,6 @@ sevA_kara,kI
 sevana_kara,kA
 SikRA_xe,kI
 smaraNa_kara,kA
-smaraNa_kara,kA
 sneha_kara,se
 SoBiwa_ho,se
 Soka_kara,kA
@@ -255,6 +256,8 @@ xuHKI_ho,se
 xUra_kara,se
 xuRkarma_kara,para
 xuRtawA_kara,se
+xveRa_kara,kA
+XyAna_kara,kA
 yAcanA_kara,kI
 yajFa_kara,kA
 yuxXa_kara,se

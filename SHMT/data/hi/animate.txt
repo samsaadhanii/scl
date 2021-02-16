@@ -42,6 +42,8 @@ go,swrI
 govawsa,puM
 govqRaBa,puM
 govqRa,puM
+guhya,napuM
+guru,puM
 haMsaka,puM
 haMsa,puM
 haMsI,swrI
@@ -137,6 +139,7 @@ SUkara,puM
 Sunaka,puM
 Svan,puM
 SvApaxa,puM
+suvarNakAra,puM
 tittiBa,puM
 tittiBI,swrI
 ulUka,puM
@@ -164,11 +167,13 @@ vyAGrI,swrI
 vyAla,puM
 vyAlI,swrI
 wAmracUda,puM
+wEla,napuM
 wurafgama,napuM
 wurafga,puM
 wuraga,napuM
 wuraga,puM
 xivAnXa,puM
+xIvAna-canxra,puM
 xvIpin,puM
 yUka,puM
 yUkA,swrI
@@ -271,6 +276,7 @@ hariBuj,puM
 haMsayuvan,puM
 haswin,puM
 heRin,puM
+kanayA,swrI
 kaNerA,swrI
 kariNI,swrI
 kareNu,swrI
@@ -415,6 +421,7 @@ jalavyAlaH,puM
 jalaxarxuraH,puM
 jaleSayaH,puM
 jambUlaH,puM
+jana,puM
 janASanaH,puM
 javAXikaH,puM
 javanaH,puM
@@ -781,6 +788,7 @@ viRNuvAhya,puM
 viRamqwyu,puM
 viRamqwyuka,puM
 viSvakaxru,puM
+viSvAmiwra,puM
 viciwrAMga,puM
 viciwrAMga,puM
 vihaMga,puM
