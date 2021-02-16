@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2009-2020 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2009-2021 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -76,7 +76,7 @@ sub modify_mo{
     $in =~ s/\/([^<]+-)?([^\-<]+)<upasarga:([a-zA-Z_]+)>/\/$1$3_$2/g;
     $in =~ s/^([^<]+-)?([^\-<]+)<upasarga:([a-zA-Z_]+)>/$1$3_$2/g;
   } else { $in =~ s/<upasarga:X>//;}
-  #$in =~ s/<upapaxa_cp:([^>]+)>/-$1/g;
+  $in =~ s/<upapaxa_cp:([^>]+)>/-$1/g;
   $in =~ s/\/([^<]+)<upapaxa_cp:([^>]+)>/\/$1-$2/g;
   $in =~ s/^([^<]+)<upapaxa_cp:([^>]+)>/$1-$2/g;
   $in =~ s/ [ ]+/ /g;

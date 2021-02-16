@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2009-2020 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2009-2021 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -61,6 +61,7 @@ sub clean_other_info {
  $a =~ s/<rt:([^>]+)><upasarga:([^>]+)>/$2_$1/g;
  $a =~ s/<kqw_vrb_rt:([^>]+)>/$1/g;
  $a =~ s/<rt:([^>]+)>/$1/g;
+ $a =~ s/<upapaxa_cp:([^>]+)>/$1/g;
  $a;
 }
 1;
