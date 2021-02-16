@@ -47,7 +47,7 @@ my($gen,$num,$per,$vibh,$continue);
 
 #%ke_parsarg_list = ("Age",1,"bAhara",1, "barAbara",1, "bAre",1, "bAxa",1, "baxale",1, "binA",1, "BIwara",1, "cAroM",1, "xonoM",1, "hewu",1, "jEsA",1, "kAraNa",1, "nikata",1,"nIce",1,"pahale",1,"pAsa",1,"paScima",1,"pICe",1,"prawi",1,"pUrva",1,"saba",1,"samAna",1,"sAmane",1,"samIpa",1,"sAWa",1,"Upara",1,"uwwara",1,"vinA",1,"viparIwa",1,"viRaya",1,"xakRiNa",1,"xvArA",1,"sAWa",1,"sAWa_sAWa",1,"Gara",1);
 #Why the word 'Gara is there in this list? This creates problems with 'wasya gqham kuwra aswi. -- 23 Apr 2020
-%ke_parsarg_list = ("Age",1,"bAhara",1, "barAbara",1, "bAre",1, "bAxa",1, "baxale",1, "binA",1, "BIwara",1, "cAroM",1, "xonoM",1, "hewu",1, "jEsA",1, "kAraNa",1, "nikata",1,"nIce",1,"pahale",1,"pAsa",1,"paScima",1,"pICe",1,"prawi",1,"pUrva",1,"saba",1,"samAna",1,"sAmane",1,"samIpa",1,"sAWa",1,"Upara",1,"uwwara",1,"vinA",1,"viparIwa",1,"viRaya",1,"xakRiNa",1,"xvArA",1,"sAWa_sAWa",1);
+%ke_parsarg_list = ("Age",1,"bAhara",1, "barAbara",1, "bAre",1, "bAxa",1, "baxale",1, "binA",1, "BIwara",1, "cAroM",1, "xonoM",1, "hewu",1, "jEsA",1, "kAraNa",1, "maXya", 1,"nikata",1,"nIce",1,"pUrva",1,"pahale",1,"pAsa",1,"paScima",1,"pICe",1,"prawi",1,"pUrva",1,"saba",1,"samAna",1,"sAmane",1,"samIpa",1,"sAWa",1,"Upara",1,"uwwara",1,"vinA",1,"viparIwa",1,"viRaya",1,"xakRiNa",1,"xvArA",1,"sAWa_sAWa",1);
 
 %kI_parsarg_list = ("ora",1,"waraha",1,"xAIM",1);
 
@@ -55,8 +55,8 @@ my($gen,$num,$per,$vibh,$continue);
 ######################################################################
 #Algo: Check the word in 6th case with which it agrees.
 # If that word is feminine, then kA -> kI
-# If that word is masculine with viBakwi, kA -> ke
-# If that word is masculine with 0 viBaki NO Change.
+# If that word is masculine with viBakwi, or pl: kA -> ke
+# If that word is masculine with 0 viBaki and sg: NO Change.
 
 # If the parser has failed, traverse to the right, and get the viSeRya.
   $SeRa_sambanXa_found = 0;
@@ -70,7 +70,7 @@ my($gen,$num,$per,$vibh,$continue);
         }
 
 	#print STDERR "var_nm = ",$var_nm,"\n";
-        if ((${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^[^ ]+ (n|P|adj) [^ ]+ [^ ]+ [^ ]+ kA/) && (${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:(RaRTIsambanXaH|karwA|karma|upa_saha|upa_vinA|prawiyogI|viSeRaNam)><relata_pos:([0-9]+)>/)){
+        if ((${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^[^ ]+ (n|P|adj) [^ ]+ [^ ]+ [^ ]+ k[Ao]/) && (${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:(RaRTIsambanXaH|karwA|karma|upa_saha|upa_vinA|prawiyogI|viSeRaNam|sanxarBa_binxuH|nirXAraNam)><relata_pos:([0-9]+)>/)){
           $new_var_nm = "wrd_ana_flds_".$2;
 	  #print STDERR "new_var_nm = ",$new_var_nm,"\n";
        #if(${$new_var_nm}[$parse_ana_fld] =~ /(RaRTI_sambanXaH|kAraka_RaRTI|upapaxa_sambanXaH),([0-9]+)/){
@@ -86,12 +86,12 @@ my($gen,$num,$per,$vibh,$continue);
                $vibh = $6;
                if(($ke_parsarg_list{$n_word}) || ($n_word =~ /_meM|_se|_ko|_para|_kI|_ke|_ora/)) {
                   ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 ke/;
-		    if(sup_nm ne "") {
+		    if($sup_nm ne "") {
                        ${$sup_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 ke/;
 	            }
                }elsif($kI_parsarg_list{$n_word}) {
                  ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 kI/;
-		 if(sup_nm ne "") {
+		 if($sup_nm ne "") {
                     ${$sup_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 kI/;
 		 }
                }elsif($gen eq "f") {

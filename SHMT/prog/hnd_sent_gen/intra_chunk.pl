@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2010-2020 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2010-2021 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -49,10 +49,10 @@ my($j,$viSeRya_gen);
        $var_nm = "wrd_ana_flds_".$j;
        if(${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:(viSeRaNam|vIpsA|aBexaH)><relata_pos:([0-9]+)>/){
          $new_var_nm = "wrd_ana_flds_".$2;
-         if((${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] !~ /^[^ ]+ [nP] ([^ ]+) [^ ]+ [^ ]+ 0/)
-          && (${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] !~ /^[^ ]+ [nP] ([^ ]+) [^ ]+ [^ ]+ kA/)){
-            ${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^[^ ]+ [nP] ([^ ]+) /;
-            $viSeRya_gen = $1;
+         if(${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] !~ /^[^ ]+ [nP] ([^ ]+) [^ ]+ [^ ]+ 0/){
+		 #      && (${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] !~ /^[^ ]+ [nP] ([^ ]+) [^ ]+ [^ ]+ kA/)){
+	    ${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^[^ ]+ [nP] ([^ ]+) /;
+	    $viSeRya_gen = $1;
             if(${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/) {
                $rt = $1;
                $cat = $2;
@@ -64,7 +64,8 @@ my($j,$viSeRya_gen);
 		 } else {
                    ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $viSeRya_gen $4 $5 vAle/;
                  } 
-               } else { ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $mod_cat $viSeRya_gen $4 $5 1/;
+               } else { 
+		   ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $mod_cat $viSeRya_gen $4 $5 1/;
 	       }
 #In case the viSeRaNa is a kqxanwa, then its form should have the same gender and number as the viSeRya.
 # nalaH huwaBujA xagXaM araNyaM apaSyaw.

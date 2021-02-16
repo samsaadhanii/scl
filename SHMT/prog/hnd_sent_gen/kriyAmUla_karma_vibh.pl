@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2010-2020 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2010-2021 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -48,21 +48,26 @@ my($j,$verb_pos,$kriyAmUla,$karma_marker);
   for($j=1;$j<=$#wrd_ana+1;$j++){
        $var_nm = "wrd_ana_flds_".$j;
 
+       #print ${$var_nm}[$morph_kaaraka_anal],"\n";
 #If the word is karma
-      if((${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karma><relata_pos:([0-9]+)>/) || (${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:muKyakarma><relata_pos:([0-9]+)>/)){
+      if((${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karma><relata_pos:([0-9]+)>/) || (${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:(muKya|gONa)karma><relata_pos:([0-9]+)>/)){
          $verb_pos = $1;
          $new_var_nm = "wrd_ana_flds_".$verb_pos;
          if(${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^([^_]+_([^ ])+)/){
             $kriyAmUla = $1;
-            if($kriyAmUla_marker{$kriyAmUla}) { $karma_marker = $kriyAmUla_marker{$kriyAmUla};
+            if($kriyAmUla_marker{$kriyAmUla}) { 
+	       $karma_marker = $kriyAmUla_marker{$kriyAmUla};
 	      if ((${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ / v /) &&
-	          ($kriyAmUla eq "icCA_kara"))
-	      {
-               ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 nA\~$karma_marker/;
-       } else {
+	          ($kriyAmUla eq "icCA_kara")) {
+                   ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 nA\~$karma_marker/;
+              } else {
+	       if(${$var_nm}[$morph_kaaraka_anal] =~ /<rt:kim_1>/) {
+                  ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 avy NW NW NW NW/;
+	      } else {
                ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 $karma_marker/;
               }
-           }
+             }
+	   }
          }
        }
    }

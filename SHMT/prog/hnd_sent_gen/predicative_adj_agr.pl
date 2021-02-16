@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2010-2020 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2010-2021 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -47,9 +47,10 @@ sub karwA_and_karwA_samAnAXikaraNa_agr{
   for($j=1;$j<=$#wrd_ana+1;$j++){
        $var_nm = "wrd_ana_flds_".$j;
 
-     if(${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karwqsamAnAXikaraNa><relata_pos:([0-9]+)>/){
+     if(${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karwqsamAnAXikaraNam><relata_pos:([0-9]+)>/){
          $verb_pos = $1;
-         for($k=0;$k<=$flds;$k++){
+	 #for($k=0;$k<=$flds;$k++){
+	 for($k=1;$k<=$#wrd_ana+1;$k++){
              $new_var_nm = "wrd_ana_flds_".$k;
              if(${$new_var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karwA><relata_pos:$verb_pos>/){
                if(${$new_var_nm}[$morph_kaaraka_anal] =~ /<lifgam:([^>]+)>/){

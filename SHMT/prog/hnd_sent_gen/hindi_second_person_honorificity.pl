@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2010-2020 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2010-2021 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -51,20 +51,19 @@ my($j,$verb_pos);
 #Algo: If the root is wuma, always it is plural
   for($j=1;$j<=$#wrd_ana+1;$j++){
        $var_nm = "wrd_ana_flds_".$j;
-#       if((${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karwA><relata_pos:([0-9]+)>/) && (${$var_nm}[$morph_kaaraka_anal] =~ /^(yuRmax|Bavaw)</))
-### This algo should be modified with karwA -> aBihiwa
-#Should it not be second person singular -> second person plural?
-  #         ${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karwA><relata_pos:([0-9]+)>/;
-  #         $verb_pos = $1;
-  #         $new_var_nm = "wrd_ana_flds_".$verb_pos;
-  #         ${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 p $5 $6/;
-#Current algorithm changes the verb to plural if it is in 2nd 2nd person.
-#But this may create problems if the verb is not in karwari prayoga.
-#e.g. भृत्यैः सेव्यसे.
-#Hence added following condition.
-
+  # flds in gen: root cat gen num per vibh/tam
+  # In Sanskrit, 2nd person pronoun yuRmax can be dropped as in 'gacCasi'. Hence we just check the final verb form, as below, and change number from 's' to 'p' if it is in maXyama puruRa in Sanskrit.
        if(${$var_nm}[$morph_kaaraka_anal] =~ /<prayogaH:karwari>/){
            ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) v ([^ ]+) s m ([^ ]+)/$1 v $2 p m $3/;
+       }
+       if((${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karwA><relata_pos:([0-9]+)>/) && (${$var_nm}[$morph_kaaraka_anal] =~ /<rt:Bavaw>/)) {
+           ${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karwA><relata_pos:([0-9]+)>/;
+           $verb_pos = $1;
+	   #print "verb_pos = $verb_pos\n";
+           $new_var_nm = "wrd_ana_flds_".$verb_pos;
+	   if (${$new_var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:aBihiwa_karwA><relata_pos:[0-9]+>/) {
+              ${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 p m $6/;
+           }
        }
    }
 }
