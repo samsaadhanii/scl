@@ -2,7 +2,7 @@
 
 #  Copyright (C) 2002-2012 Pankaj Vyas
 #  Copyright (C) 2002-2012 Sivaja Nair
-#  Copyright (C) 2002-2020 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2002-2021 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -1762,7 +1762,8 @@
 "n,r,nr,dePAlt,,,",
 "n,l,lzl,parasavarNa,worli (8.4.60),",
 "n,v,nv,dePAlt,,,",
-"n,S,FcS,wugAgama -> Scuwva-> carwva,Si wuk (8.3.31)-> swoH ScunA ScuH (8.4.40)-> Kari ca (8.4.55),",
+#"n,S,FcS,wugAgama -> Scuwva-> carwva,Si wuk (8.3.31)-> swoH ScunA ScuH (8.4.40)-> Kari ca (8.4.55),",
+"n,S,FcS,wugAgama -> Scuwva-> Scuwva,Si wuk (8.3.31)-> swoH ScunA ScuH (8.4.40)-> SwoH ScunA ScuH (8.4.40),",
 "n,S,FS,Scuwva,swoH ScunA ScuH (8.4.40),",
 "n,R,nR,dePAlt,,,",
 "n,s,nws,XudAgama -> carwva,naSca (8.3.30)-> Kari ca (8.4.55),san+saH",

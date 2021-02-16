@@ -5675,6 +5675,7 @@ BiRaj_puM
 BiRakwama_napuM
 BiRakwama_puM
 BIRaNa_puM
+BIRaNa_napuM
 BIRaNA_swrI
 BIRA_swrI
 BiriMtikA_swrI
@@ -8731,7 +8732,6 @@ hqxaya_napuM
 hqxayasWAna_napuM
 hqxayasWa_napuM
 hqxayasWa_puM
-hqxaya_swrI
 hqxayaveXin_napuM
 hqxayaveXin_puM
 hqxayaviX_napuM
@@ -17881,7 +17881,7 @@ miRam_swrI
 miRa_napuM
 miRa_puM
 mIra_puM
-miRtam_napuM
+miRta_napuM
 miRtAnna_napuM
 miRta_puM
 miRtA_swrI
@@ -21712,6 +21712,7 @@ prakURmAMdI_swrI
 prakvaNa_puM
 prakvANa_puM
 prAkwana_puM
+prAkwana_napuM
 prAkwanA_swrI
 praKyA_swrI
 praKyAwA_swrI
@@ -37787,6 +37788,8 @@ vikRepa_puM
 vikreya_napuM
 vikreya_puM
 vikreyA_swrI
+vikrewq_puM
+vikrewrI_swrI
 vikRINaka_puM
 vikRINaka_swrI
 vikRipwa_napuM
