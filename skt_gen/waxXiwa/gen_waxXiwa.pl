@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2010-2020 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2010-2021 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -85,6 +85,7 @@ $rtutf8 = `echo $rt_wx | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::S
 
    $str2 = "echo '".$LTPROC_IN2."' | $ltproc_cmd1 | $GlblVar::SCLINSTALLDIR/skt_gen/waxXiwa/waxXiwa_ind_html.pl $rt_wx";
 
+   #  print "str2 = ", $str2;
    $LTPROC_IN1 = "";
   for($l=0;$l<2;$l++){
       $str = "$rt_wx<vargaH:avy><waxXiwa_prawyayaH:$avy_waxXiwa_prawyayaH[$l]><level:1>";
