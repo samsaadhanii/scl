@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#  Copyright (C) 2008-2020 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2008-2021 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -141,7 +141,7 @@ cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
 # map o/p in the 15th field and lwg o/p in 16th field
 # gen o/p in the 17th field
     $ANU_MT_PATH/interface/add_colorcode.pl < $temp_files_path/$fbn.out |\
-    $ANU_MT_PATH/chunker/lwg.pl |\
+    $ANU_MT_PATH/chunker/lwg.pl  |\
     $ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $SHMT_PATH/data hi |\
     $ANU_MT_PATH/map/lwg_avy_avy.pl $SCLINSTALLDIR $SHMT_PATH/data hi  |\
     $ANU_MT_PATH/hnd_sent_gen/agreement.pl $SCLINSTALLDIR $SHMT_PATH/data $ANU_MT_PATH/hnd_sent_gen  D |\

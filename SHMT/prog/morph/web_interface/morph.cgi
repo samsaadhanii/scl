@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2010-2020 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2010-2021 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -168,7 +168,7 @@ if($ans ne "") {
         $color = "pink";
     } else {
         $rt =~ s/[1-9]//;
-        $link = "<a href=\"javascript:show('$rt')\">$rt</a>";
+        $link = "<a href=\"javascript:show('$rt','DEV')\">$rt</a>";
         $color = "lightgreen";
     }
    print "<td bgcolor='$color'>",$link,$ans,"</td>";

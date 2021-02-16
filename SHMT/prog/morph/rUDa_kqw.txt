@@ -57,8 +57,10 @@ banXa
 banXaka
 BARaNa
 Barwq
+Baraw
 Barwsaka
 BAryA
+BAra
 BAsaka
 BAvaka
 Bavaw
@@ -92,6 +94,7 @@ goXikA
 Gqwa
 grAhaka
 guNaka
+hiMsaka
 IkRaka
 IkRaNa
 IkRikA
@@ -202,6 +205,8 @@ prakarRa
 pralepaka
 praNAma
 praNAyaka
+praNewq
+praNewrI
 prApaka
 prAya
 prArWaka
@@ -220,6 +225,7 @@ prawihAraka
 prawipAlaka
 prawipAxaka
 prawiroXakaH
+prawIkRA
 prawyarWaka
 prawyAyaka
 praxarSaka
@@ -235,9 +241,11 @@ puswaka
 rAjya
 rakRaka
 ramaNIya
+ramaNIyA
 ramya
 rotikA
 saFcAraka
+snAna
 saFcArikA
 safGAtikA
 saFjaya
@@ -245,6 +253,7 @@ sahiwa
 SAkya
 SAswra
 samApaka
+samIra
 samBAra
 samUha
 samarWakam
@@ -259,6 +268,7 @@ saMvarwaka
 saMvarXaka
 sanxeSa
 sanwapwa
+sanwuRta
 SaraNa
 sattakam
 SAyaka
@@ -281,10 +291,10 @@ upahAsaka
 uparoXaka
 upAsaka
 upasWAyaka
-upAya
+zupAya
 vAcaka
 vacana
-vasaw
+zvasaw
 vaFcaka
 vaFcana
 vAhaka
@@ -306,6 +316,7 @@ veXaka
 vicAraka
 viwwa
 vikASaka
+vikrewq
 vilambikA
 vilapana
 vilAsikA
@@ -326,13 +337,14 @@ vyavahAraka
 vyavahArikA
 vyAvarwaka
 vyavaXAyaka
-wrANa
+zwrANa
 wAraka
 wArikA
 xAhaka
 xaMSaka
 xAna
 XAnya
+XAwq
 xAraka
 xarpaka
 XarRaka
@@ -346,6 +358,7 @@ xIpikA
 xrAvaka
 xravya
 xuhiwA
+xugXa
 XyAna
 xyowaka
 yAcaka

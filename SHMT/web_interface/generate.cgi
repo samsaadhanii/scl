@@ -2,7 +2,7 @@
 #
 #
 #  Copyright (C) 2010-2013 Karunakar
-#  2014-2020 Amba Kulkarni (ambapradeep@gmail.com)
+#  2014-2021 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License

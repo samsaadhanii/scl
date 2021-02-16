@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-#  Copyright (C) 2002-2020 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2002-2021 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -47,6 +47,6 @@
   }
   close(TMP1);
      `date > $tmp_file_path/tmp_in$pid/err$pid`;
-     $cmd = "$SCLINSTALLDIR/SHMT/prog/shell/anu_skt_hnd.sh $SCLINSTALLDIR $GraphvizDot in$pid $tmp_file_path hi $script $sandhi $morph $parse $text_type NOECHO $LTPROCBIN D 2>> $tmp_file_path/tmp_in$pid/err$pid;";
+     $cmd = " timeout 3m $SCLINSTALLDIR/SHMT/prog/shell/anu_skt_hnd.sh $SCLINSTALLDIR $GraphvizDot in$pid $tmp_file_path hi $script $sandhi $morph $parse $text_type NOECHO $LTPROCBIN D 2>> $tmp_file_path/tmp_in$pid/err$pid;";
   system($cmd);
      `date >> $tmp_file_path/tmp_in$pid/err$pid`;

@@ -6,8 +6,7 @@ kArayan	kq3<kqw_prawyayaH:Sawq_lat><sanAxi_prawyayaH:Nic><lifgam:puM><XAwuH:dukq
 XArayan	Xq1<kqw_prawyayaH:Sawq_lat><sanAxi_prawyayaH:Nic><lifgam:puM><XAwuH:XqF><gaNaH:BvAxiH>
 xarSayaw	xqS1<kqw_prawyayaH:Sawq_lat><sanAxi_prawyayaH:Nic><lifgam:puM><XAwuH:XqSizr><gaNaH:BvAxiH>
 yiyakRamANa	yaj1<kqw_prawyayaH:SAnac><sanAxi_prawyayaH:san><lifgam:puM><XAwuH:yajaz><gaNaH:BvAxiH>
-SayAna	SI1<kqw_prawyayaH:SAnac><sanAxi_prawyayaH:san><lifgam:puM><XAwuH:SIf><gaNaH:axAxiH>
-
+SayAna	SI1<sanAxi_prawyayaH:san><kqw_prawyayaH:SAnac><lifgam:puM><XAwuH:SIf><gaNaH:axAxiH>
 jAjvalyamAnA	jval1<kqw_prawyayaH:SAnac><sanAxi_prawyayaH:san><lifgam:puM><XAwuH:jvalaz><gaNaH:BvAxiH>
 
 arha	arh1<kqw_prawyayaH:ac><lifgam:puM><XAwuH:arhaz><gaNaH:BvAxiH>

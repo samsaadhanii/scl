@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2009-2020 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2009-2021 Amba Kulkarni (ambapradeep@gmail.com)
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
 #  as published by the Free Software Foundation; either
@@ -190,6 +190,7 @@ while($tmpin = <STDIN>){
 
           $map_viBakwi = &get_dict_mng($viBakwi, $rTAM);
 
+	  #print "map_viBakwi = $map_viBakwi\n";
           if($map_rt =~ /(.*):(.*)/) { $map_rt = $1; $hn_lifga = &get_skt_hn_lifga($2);}
          # $hn_lifga = &get_hn_lifga($map_rt,$lifgam);
           $hn_vacana = &get_hn_vacana($vacana);
@@ -574,6 +575,9 @@ my $ans = "";
      $rel = $9;
      if($in =~ /kqw_prawyayaH:([^;]+);prayogaH:([^;]+)/) {
         $kqw_prawyayaH = $1."_".$2;
+      }
+      if ($kqw_prawyayaH eq "lyut") {
+	      $kqw_prawyayaH = "lyut_".$viB;
       }
   if ($in =~ /upasarga:([^;]+)/) { $rt = $1."_".$rt;}
   if ($in =~ /sanAxi_prawyayaH:([^;]+)/) { $rt = $rt."_".$1;}

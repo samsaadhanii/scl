@@ -1,5 +1,5 @@
 #!/bin/sh
-#  Copyright (C) 2002-2020 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2002-2021 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -36,7 +36,7 @@ $BIN_PATH/rm_non_apte.pl $SCLINSTALLDIR $BIN_PATH/default_gen.txt $SHMT_PATH/pro
 #When this is uuncommented, sawi sapwami does not work well
 #rAme vanam gacCawi sawi sIwA anusarawi
 # This is again uncommented, since now we have kqw analysis for all words. So all those analysis which are rare need to bbe deleted. For example, in praBawe, we need to delete pra_BA1 analysis.
-#$BIN_PATH/remove_prAtipadik_derivation_info.pl < /tmp/5 > /tmp/6
+$BIN_PATH/remove_derived_prAtipadikas.pl |\
 #Earlier we added the kqw analysis later. Now derivational analysis is produced simultaneously with the inflectional morph analysis. Hence this programme is removed.
 #$BIN_PATH/remove_derivational_analysis_of_rUDa_kqws.pl $SCLINSTALLDIR $SHMT_PATH/prog/morph/rUDa_kqw.gdbm |\
 $BIN_PATH/remove_derivational_analysis_of_rUDa_kqws.pl $SCLINSTALLDIR $SHMT_PATH/prog/morph/rUDa_kqw.txt  |\
@@ -49,7 +49,7 @@ $BIN_PATH/handle_sawi_sapwami.pl |\
 $BIN_PATH/remove_wal.pl |\
 ## commented the below line, since it did not parse wena kqwam properly, as kqxanwa analysis of kqw were removed
 #$BIN_PATH/remove_derivational_kqw_ana.pl < /tmp/1 |\
-$BIN_PATH/priotarize.pl |\
+$BIN_PATH/prioritize.pl |\
 perl -pe 's/=\//=/; s/^\///; s/\/\//\//g;' 2> /dev/null
 
 #$BIN_PATH/retain_only_pronominal_if_exists.pl |\
