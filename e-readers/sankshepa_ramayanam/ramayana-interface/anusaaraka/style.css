@@ -17,16 +17,17 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 */
 
-td.v	{ background-color: #FE6265}
-td.A	{ background-color: #ccffff} 
-td.B		{ background-color: #00FF7F}
-td.C		{ background-color: #eb613d}
-td.D		{ background-color: #e6ff00}
-td.E		{ background-color: #1E90FF}
-td.F		{ background-color: #FF69B4}
-td.G		{ background-color: #BC8F8F}
-td.H		{ background-color: #CDAA7D}
-//td.v	{ background-color: rgb(192,255,193); /*darkseagreen*/	}
+td.v	{ background-color: #FF1975}
+td.A	{ background-color: #00BFFF} 
+td.B		{ background-color: #93DB70}
+td.C		{ background-color: #40E0D0}
+td.D		{ background-color: #B0E2FF}
+td.E		{ background-color: rgb(180,255,180)}
+td.F		{ background-color: rgb(135,206,235)}
+td.G		{ background-color: rgb(198,226,235)}
+td.H		{ background-color: #6FFFC3}
+td.NA		{ background-color: #FF99FF}
+/* td.v	{ background-color: rgb(192,255,193); darkseagreen	} */
 /*td.INTJ		{ background-color: rgb(255,240,245); lavender	} */
 /*td.UCP		{ background-color: rgb(173,216,230); lightblue	} */
 /*td.LST		{ background-color: rgb(240,255,240); honeydew	} */
