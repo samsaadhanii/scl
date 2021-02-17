@@ -9,7 +9,7 @@ aBi_BU2	sakarmaka
 aBi_han1	sakarmaka
 aBi_jFA1	sakarmaka		vAkyakarma
 aBi_kruX1	sakarmaka
-aBi_Nax1	sakarmaka
+aBi_nax1	sakarmaka
 aBi_ni_viS1	sakarmaka
 aBi_pra_i1	sakarmaka
 aBi_rakR1	sakarmaka
@@ -37,6 +37,8 @@ Af_hq1	sakarmaka
 Af_hu1	sakarmaka
 Af_hve1	sakarmaka
 afka1	sakarmaka
+Af_jFA1	sakarmaka
+Af_jFA2	sakarmaka
 Af_kAkR1	sakarmaka
 Af_karNa1	sakarmaka
 Af_krax2	sakarmaka
@@ -152,7 +154,7 @@ arx2	sakarmaka
 As1	akarmaka			SliR
 as1	sakarmaka
 aS1	sakarmaka
-as2	akarmaka			Sak	karwqsamAnAXikaraNa
+as2	akarmaka			zSak	karwqsamAnAXikaraNa
 aS2	sakarmaka	prawyavasAnArWa
 as3	sakarmaka
 at1	sakarmaka
@@ -174,6 +176,7 @@ ava_sax1	sakarmaka
 ava_SiR2	sakarmaka
 ava_wQ1	sZZakarmaka
 ava_wQ1	akarmaka
+ava_Xq1	sakarmaka		vAkyakarma
 aw1	sakarmaka
 aw2	akarmaka
 awi_i1	sakarmaka	gawi
@@ -265,7 +268,7 @@ BqS2	sakarmaka
 BrAj1	akarmaka
 BrAj2	akarmaka
 BrakR1	sakarmaka
-Bram1	akarmaka
+Bram1	sakarmaka
 Bram2	akarmaka
 BraMs1	akarmaka
 BraN1	akarmaka
@@ -280,7 +283,7 @@ BrI1	akarmaka
 brU1	xvi1	Sabxakarma	vAkyakarma		karmasamAnAXikaraNa
 BrUN1	sakarmaka
 brUs1	sakarmaka
-BU1	akarmaka			Sak	karwqsamAnAXikaraNa
+BU1	akarmaka			zSak	karwqsamAnAXikaraNa
 BU2	sakarmaka
 bufg1	sakarmaka
 Buj1	sakarmaka
@@ -1147,6 +1150,7 @@ ni_gam1	sakarmaka
 ni_han1	sakarmaka
 ni_mIl1	sakarmaka
 ni_XA1	sakarmaka
+ni_viS1	sakarmaka
 Nij1	sakarmaka
 Nij2	sakarmaka
 NikR1	sakarmaka
@@ -1165,10 +1169,11 @@ NiS1	akarmaka
 Nis1	sakarmaka
 nis_ci1	sakarmaka				karmasamAnAXikaraNa
 nis_vap1	sakarmaka
+nis_vah1	sakarmaka
 NIv1	akarmaka
 Niv1	sakarmaka
 nivAsa1	sakarmaka
-ni_viS1	sakarmaka
+ni_viS1	akarmaka
 ni_vix1	sakarmaka
 ni_vix5	sakarmaka
 Nix1	sakarmaka
@@ -1228,6 +1233,7 @@ pari_wap2	sakarmaka
 pari_wrE1	sakarmaka
 pari_wyaj1	sakarmaka
 pari_xah1	sakarmaka
+pari_XA1	sakarmaka
 parNa1	akarmaka
 parp1	sakarmaka
 parv1	sakarmaka
@@ -1348,6 +1354,7 @@ prawi_Af_gam1	sakarmaka	gawi
 prawi_Af_KyA1	sakarmaka
 prawi_Af_NI1	sakarmaka
 prawyA_KyA1	sakarmaka
+prawi_NI1	xvi2
 prawi_Bix1	sakarmaka
 prawi_brU1	sakarmaka
 prawi_IkR1	sakarmaka
@@ -1360,6 +1367,7 @@ prawi_Sru1	sakarmaka
 prawi_vac1	sakarmaka
 prawi_yam2	sakarmaka
 prawi_yuX1	sakarmaka
+pra_iR1	sakarmaka
 pra_xiS1	sakarmaka
 pra_XmA1	sakarmaka
 pra_xqS1	sakarmaka
@@ -1580,7 +1588,7 @@ Sad1	sakarmaka
 SAd1	sakarmaka
 saFj1	sakarmaka
 safkewa1	sakarmaka
-saha1	sakarmaka
+zsaha1	sakarmaka
 Sak1	sakarmaka
 SAK1	sakarmaka
 Sak2	sakarmaka
@@ -1992,9 +2000,9 @@ varR1	akarmaka
 varX1	sakarmaka
 vAS1	akarmaka
 vaS1	sakarmaka
-vas1	sakarmaka			SliR
+vas1	akarmaka			SliR
 vas2	sakarmaka
-vas3	akarmaka
+vas3	sakarmaka
 vas4	sakarmaka
 vasa1	sakarmaka
 vAsa1	sakarmaka
@@ -2028,6 +2036,7 @@ vi_Af_cakR1	sakarmaka
 vi_Af_hq1	sakarmaka
 vi_Af_kq3	sakarmaka
 vi_Af_KyA1	sakarmaka
+vi_Af_pax1	sakarmaka
 vi_anu_Nax2	sakarmaka
 vi_Ap1	sakarmaka
 vi_apa_Af_Sri1	sakarmaka
@@ -2340,7 +2349,7 @@ xqp2	akarmaka
 xqp3	sakarmaka
 XqR1	akarmaka
 XqR2	sakarmaka
-xqS1	sakarmaka			Sak
+xqS1	sakarmaka		vAkyakarma	Sak
 xrA1	akarmaka
 xrAd1	akarmaka
 XrAd1	akarmaka
