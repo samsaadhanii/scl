@@ -1,4 +1,4 @@
-(* Copyright: Amba Kulkarni (2014-2020)                             *)
+(* Copyright: Amba Kulkarni (2014-2021)                             *)
 (* Indian Institute of Advanced Study, Shimla (2015-17)             *)
 
 (* To add: gam1 can not have both karma and aXikaraNa *)
@@ -114,6 +114,7 @@ value print_relation r = match r with
     ; print_int (i1-1); print_string ","
     ; print_int (i2-1); print_string ","
     ; if (i3 >= 2000) then print_int (i3 - (i3 mod 100)) 
+      else if (i3 = 1009) then print_int 9 
       (* else if (i3 = 64) || (i3 = 65) (* samuccayaxyowaka,sup_samuccayaxyowaka *)
       then print_int 1
       else if (i3 = 66) || (i3 = 67) (* anyawaraxyowaka,sup_anyawaraxyowaka *)
@@ -145,10 +146,10 @@ value join_relations a b c d e u v w x y =
     (* else if c >= 2100 && c < 2200 then [Relationc (u,v,21,x,y)]  *)
     else if c >= 2200 && c < 2300 then [Relationc (u,v,14,x,y)] 
     else if c >= 2400 && c < 2500 && w >= 4300 && w < 4400 then [
-            Relationc (u,v,95,x,y); Relationc(a,b,0,d,e)] 
+            Relationc (u,v,95,x,y); Relationc(a,b,36,d,e)] 
     else if c >= 2600 && c < 2700 then [Relationc (u,v,49,x,y)] 
     (* else if c >= 2700 && c < 2800 then [Relationc (u,v,14,x,y)]  *)
-    else if c >= 3100 && c < 3200  && w >= 4300 && w < 4400 then [Relationc (a,b,c,d,e);Relationc (u,v,92,x,y)]
+    (*else if c >= 3100 && c < 3200  && w >= 4300 && w < 4400 then [Relationc (a,b,c,d,e);Relationc (u,v,92,x,y)]*)
     else if c >= 3200 && c < 3300  && w >= 4300 && w < 4400 then [Relationc (a,b,c,d,e);Relationc (u,v,93,x,y)] 
     else if c >= 2300 && c < 2400 && w >= 4300 && w < 4400 
     then [Relationc (a,b,c,d,e);Relationc (u,v,w,x,y)] 
@@ -306,7 +307,7 @@ value single_relation_label m1 m2 = match m1 with
             (* Two outgoing arrows with same label *)
          else if (from_id1=from_id2) && (from_mid1=from_mid2) && (r1=r2)
               && ( (r1 < multiple_relations_begin  && not (r1 = 2))
-                  || (r1 > multiple_relations_end && not (r1 = 90) && not (r1=61))
+                  || (r1 > multiple_relations_end && not (r1 = 90) && not (r1 = 60) && not (r1=61) && not (r1=62) && not (r1=63))
                   ) (* niwya sambanXaH *)
          then False (* do { print_string "C9"; False}*)
          else if (from_id1=from_id2) && (from_mid1=from_mid2) && (r1=9 && r2 / 100 = 44) then False
@@ -329,7 +330,7 @@ value single_relation_label m1 m2 = match m1 with
 value no_crossing text_type rel m1 m2 = match m1 with
     [ Relationc (to_id1,to_mid1,r1,from_id1,from_mid1) -> match m2 with
       [Relationc (to_id2,to_mid2,r2,from_id2,from_mid2) -> 
-           (* Crossing edges not allowed except niwya_sambanXaH (=2) and samucciwa (=53) *)
+           (* Crossing edges not allowed except niwya_sambanXaH (=2) and samucciwa (=53) , upamAnaxyowakaH (=80) in some cases*)
            (* Crossing edges allowed even with RaRTI(=35), ViSeRaNa(=32) and aBexaH (=33) *)
          if  (   (    between to_id1 to_id2 from_id2
                    || between from_id1 to_id2 from_id2
@@ -338,10 +339,12 @@ value no_crossing text_type rel m1 m2 = match m1 with
                    || between from_id2 to_id1 from_id1
                  )
              )
+         (* sup_samucciwaH = 61 removed from the following list. It overgenerates.
+          * We need at least one example to retain it *)
              && not (r1=2 || r1=90 || r1 = 22 || r1 = 47 || r1=29 || r1=30)
              && not (r2=2 || r2=90 || r2=22 || r2=47 || r2=29 || r2=30)
-             && (((not ((r1 = 32) || (r1 = 33) || (r1=35) || (r1=61) ||
-                     (r2 = 32) || (r2 = 33)) || (r2=35) || (r2=61))
+             && (((not ((r1 = 32) || (r1 = 33) || (r1=35) || (r1=80) ||
+                     (r2 = 32) || (r2 = 33) || (r2=35) || (r2=80)))
                     && text_type="Sloka")
                  || text_type = "Prose")
              (* removed RaRTI, viSeRaNa, aBexa, temporarily *)
@@ -377,10 +380,15 @@ value relation_mutual_expectancy text_type m1 m2 = match m1 with
               && ( (r1 = 200 && r2 = 201)
                  ||( r2 = 200 && r1 = 201))
          then False (* do { print_string "C12"; False} *)
-           (* If there is a vAkyakarma-xyowaka, then there can not be a karma  but there can be gONa / muKya karma*)
+           (* If there is a vAkyakarma, then there can not be a karma  but there can be gONa / muKya karma*)
          else if (from_id1 = from_id2) && (from_mid1 = from_mid2)
-              && ( (r1 = 97 && (r2 = 14 || r2 = 11 || r2 = 12))
-                 ||( r2 = 97 && (r1 = 14 || r1 = 11 || r1 = 12)))
+              && ( (r1 = 13 && (r2 = 14 || r2 = 11 || r2 = 12))
+                 ||( r2 = 13 && (r1 = 14 || r1 = 11 || r1 = 12)))
+         then False (* do { print_string "C12"; False} *)
+           (* If there is a iRkarma, there can not be karma, gONakarma, muKyakarma *)
+         else if (from_id1 = from_id2) && (from_mid1 = from_mid2)
+              && ( (r1 = 214 && (r2 = 14 || r2 = 11 || r2 = 12))
+                 ||( r2 = 214 && (r1 = 14 || r1 = 11 || r1 = 12)))
          then False (* do { print_string "C12"; False} *)
          (* In the case of brU, occasionally sampraxAna is also allowed.
           * But then there can not be a gONa karma
@@ -395,20 +403,25 @@ value relation_mutual_expectancy text_type m1 m2 = match m1 with
               && (  ((r2 = 11 || r2 = 12) && (r1 = 14))
                  || ((r1 = 11 || r1 = 12) && (r2 = 14)))
          then False (* do { print_string "C13"; False} *)
-(* If there is any kAraka relation, there can not be viSeRaNa, in case of kqxanwas. *)
+(* If there is any kAraka relation, or prayojana or hewu, there can not be viSeRaNa, in case of kqxanwas. *)
+         (* Allow viRayAXikaraNam;
+           xAsyoH vacaneRu mahiRyAH nirAwiSayA SraxXA Bavawi *)
 (* need example *)
          else if (from_id1 = from_id2) && (from_mid1 = from_mid2)
-              && (  (((r2 > 9 && r2 < 24) || r2 = 81 || r2 = 41) && (r1 = 32))
-                 || (((r1 > 9 && r1 < 24) || r1 = 81 || r2 = 41) && (r2 = 32)))
+              && (  (((r2 > 9 && r2 < 22) || r2 = 34 || r2 = 41) && (r1 = 32))
+                 || (((r1 > 9 && r1 < 22) || r1 = 34 || r2 = 41) && (r2 = 32)))
          then False (* do { print_string "C13"; False} *)
- (* There can not be more than one samucciwa for a verb *)
-         else if (from_id1 = from_id2) && (from_mid1 = from_mid2)
+ (* There can not be more than one samucciwa for a verb 
+  * Why this condition?
+  * We can have a sentence such as
+  * wvam pAsi meXasi moxase ca *)
+       (*  else if (from_id1 = from_id2) && (from_mid1 = from_mid2)
               && (  (r2 = 60 && r1 = 60)
                  || (r1 = 60 && r2 = 60)
                  || (r2 = 62 && r1 = 62)
                  || (r1 = 62 && r2 = 62)
                  )
-         then False  (*do { print_string "C13"; False} *)
+         then False  (*do { print_string "C13"; False} *) *)
            (* For every prawiyogi, the other end should be either a sambandha
             or anuyogi  or niwya_sambanXa or niwya_sambanXa1 *)
          else if (from_id1 = to_id2) && (from_mid1 = to_mid2)
@@ -429,12 +442,39 @@ value relation_mutual_expectancy text_type m1 m2 = match m1 with
                  && (  ((r2 = 1002) && not (r1 = 1003))
                     || ((r1 = 1003) && not (r2 = 1002)))
          then False (* do { print_string "C15"; False} *)
+         (* sahArWaH, sahArWa_xyowakaH *)
+         else if (from_id1 = to_id2) && (from_mid1 = to_mid2)
+                 &&  (  ((r1 = 76) && not (r2 = 92))
+                     || ((r2 = 92) && not (r1 = 76)))
+         then False  (* do { print_string "C14"; False} *)
+         else if (from_id2 = to_id1) && (from_mid2 = to_mid1)
+                 && (  ((r2 = 76) && not (r1 = 92))
+                    || ((r1 = 92) && not (r2 = 76)))
+         then False (* do { print_string "C15"; False} *)
+         (* vinArWaH, vinArWa-xyowakaH *)
+         else if (from_id1 = to_id2) && (from_mid1 = to_mid2)
+                 &&  (  ((r1 = 77) && not (r2 = 93))
+                     || ((r2 = 93) && not (r1 = 77)))
+         then False  (* do { print_string "C14"; False} *)
+         else if (from_id2 = to_id1) && (from_mid2 = to_mid1)
+                 && (  ((r2 = 77) && not (r1 = 93))
+                    || ((r1 = 93) && not (r2 = 77)))
+         then False (* do { print_string "C15"; False} *)
+         (* For every upamAna, there should be upamAnaxyowakaH *)
+         else if (from_id1 = to_id2) && (from_mid1 = to_mid2)
+                 &&  (  ((r1 = 79) && not (r2 = 80))
+                     || ((r2 = 80) && not (r1 = 79)))
+         then False  (* do { print_string "C14"; False} *)
+         else if (from_id2 = to_id1) && (from_mid2 = to_mid1)
+                 && (  ((r2 = 79) && not (r1 = 80))
+                    || ((r1 = 80) && not (r2 = 79)))
+         then False (* do { print_string "C15"; False} *)
            (* For every outgoing vAkyakarma, there should be an incoming vAkyakarmaxyowaka and no other relation should pair with either vAkyakarma or vAkyakarmaxyowaka*)
          else if (from_id2 = to_id1) && (from_mid2 = to_mid1)
-                 &&  (r1 = 97 && not (r2 = 13))
+                 &&  (r1 = 13 && not (r2 = 97))
          then False (* do { print_string "C16"; False} *)
          else if (from_id1 = to_id2) && (from_mid1 = to_mid2)
-                 &&  (r1 = 13 && not (r2 = 97))
+                 &&  (r1 = 97 && not (r2 = 13))
          then False (* do { print_string "C16"; False} *)
            (* There can not be a samboXya of a verb, which is viSeRaNa/pUrvakAla etc. Only 'iwi' relation with such verbs are allowed. 
               samboXya = 47; vAkyakarama = 13 ; prawiyogi = 3*)
@@ -446,7 +486,7 @@ value relation_mutual_expectancy text_type m1 m2 = match m1 with
                 && (r1=47) && not (r2=13) && not(r2=3)
          then False
          (* karwqsamAnAXikaraNa should be to the right of karwA *)
-         else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
+         (*else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
                 && (r2=9 && r1=7) && (text_type="Prose") && (to_id2 > to_id1)
          then False
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
@@ -463,13 +503,13 @@ value relation_mutual_expectancy text_type m1 m2 = match m1 with
          then False
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
                 && (r1=9 &&  r2 >= 4200 && r2 / 100 = 42) && ((to_id2 - to_id1 > 3) || (to_id2 < to_id1 ))
-         then False
-         (* With karwqsamAnAXikaraNa there can not be karma,karaNa,sampraxAna,apAxAna *)
+         then False *)
+         (* With karwqsamAnAXikaraNa/samAnAXikaraNa there can not be karma,karaNa,sampraxAna,apAxAna *)
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
-                && (r2=7 && (r1 = 11 || r1 = 12 || r1 = 14 || r1=15 || r1=16 || r1=18 || r1=19 || r1=20))
+                && ((r2=9 || r2=1009) && (r1 = 11 || r1 = 12 || r1 = 14 || r1=15 || r1=16 || r1=18 || r1=19 || r1=20))
          then False
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
-                && (r1=7 && (r2 = 11 || r2 = 12 || r2 = 14 || r2 = 15 || r2=16|| r2=18||r2=19||r2=20))
+                && ((r1=9 || r1=1009)&& (r2 = 11 || r2 = 12 || r2 = 14 || r2 = 15 || r2=16|| r2=18||r2=19||r2=20))
          then False
          (* With karwqrahiwakarwqsamAnAXikaraNa there can not be karwA *)
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
@@ -504,10 +544,10 @@ value relation_mutual_yogyataa m1 m2 = match m1 with
     [ Relationc (to_id1,to_mid1,r1,from_id1,from_mid1) -> match m2 with
       [Relationc (to_id2,to_mid2,r2,from_id2,from_mid2) -> 
          if from_id2=to_id1 && from_mid2=to_mid1
-                && (r1=26 || r1 = 32) && r2=35 (* a RaRTI of a kriyAviSeRaNa or a viSeRaNa is not allowed ; removed aBexa; RaRTI of aBexa is allowed; SriyaH pawiH*)
+                && (r1=26 || r1 = 32) && (r2=35 || r2 = 49) (* a RaRTI/prawiReXaH of a kriyAviSeRaNa or a viSeRaNa is not allowed ; removed aBexa; RaRTI of aBexa is allowed; SriyaH pawiH*)
          then False
          else if from_id1=to_id2 && from_mid1=to_mid2
-                && (r2=26 || r2 = 32) && r1=35 (* a RaRTI of a kriyAviSeRaNa or a viSeRaNa is not allowed ; removed aBexa; RaRTI of aBexa is allowed; SriyaH pawiH*) 
+                && (r2=26 || r2 = 32) && (r1=35 || r1 = 49) (* a RaRTI/prawiReXaH of a kriyAviSeRaNa or a viSeRaNa is not allowed ; removed aBexa; RaRTI of aBexa is allowed; SriyaH pawiH*) 
          then False
          else if from_id1=to_id2 && from_mid1=to_mid2
                 && r2=32 && r1=32 (* a viSeRaNa of a viSeRaNa is not allowed *)
@@ -520,6 +560,11 @@ value relation_mutual_yogyataa m1 m2 = match m1 with
          then False
          else if from_id2=to_id1 && from_mid2=to_mid1
                 && r2=33 && r1=33 (* an aBexa of an aBexa is not allowed *)
+         then False
+         else if (   from_id1=to_id2 && from_mid1=to_mid2
+                  || from_id2=to_id1 && from_mid2=to_mid1 )
+              && (r2=r1) 
+              && (r2=60|| r2=61||r2=62||r2=63) (* a samucciwa of a samucciwa is not allowed *)
          then False
          (*else if from_id1=to_id2 && from_mid1=to_mid2
                 && r2=33 && r1=32 (* an aBexa of a viSeRaNa is not allowed *)
@@ -541,38 +586,33 @@ value relation_mutual_yogyataa m1 m2 = match m1 with
                 && r1=47 && not (r2 = 13) (* a samboXyaH can be only of the root verb  or an embeded verb in iwi clause *)
          then False
          else if from_id2=to_id1 && from_mid2=to_mid1
-                && r1=10 && (r2=9||r2=11||r2=12||r2=14) (* karwA / karma of a karmasamAnAXikaraNam not allowed *)
+                && r1=10 && (r2=7||r2=11||r2=12||r2=14) (* karwA / karma of a karmasamAnAXikaraNam not allowed *)
          then False
          else if from_id1=to_id2 && from_mid1=to_mid2
-                && r2=10 && (r1=9 || r1=11||r1=12||r1=14) (* karwA / karma of a karmasamAnAXikaraNam not allowed *)
+                && r2=10 && (r1=7 || r1=11||r1=12||r1=14) (* karwA / karma of a karmasamAnAXikaraNam not allowed *)
          then False
          else if from_id2=to_id1 && from_mid2=to_mid1
-                && r1=7 && (r2=9||r2=11||r2=12||r2=14) (* karwA / karma of a karwqsamAnAXikaraNam not allowed *)
+                && (r1=9 || r1 = 1009) && (r2=7||r2=11||r2=12||r2=14) (* karwA / karma of a karwqsamAnAXikaraNam  or samAnAXikaraNam not allowed *)
          then False
          else if from_id1=to_id2 && from_mid1=to_mid2
-                && r2=7 && (r1=9 || r1=11||r1=12||r1=14) (* karwA / karma of a karwqsamAnAXikaraNam not allowed *)
-         then False
-        (* else if from_id1=to_id2 && from_mid1=to_mid2
-                && r2=53 && r1=53 (* samucciwa of samucciwa is not allowed *)
+                && (r2=9 || r2 = 1009) && (r1=7 || r1=11||r1=12||r1=14) (* karwA / karma of a karwqsamAnAXikaraNam or samAnAXikaraNam not allowed *)
          then False
          else if from_id2=to_id1 && from_mid2=to_mid1
-                && r2=53 && r1=53 (* samucciwa of samucciwa is not allowed *)
-         then False *)
+                && (r2=9 || r2 = 1009) && (r1=7||r1=11||r1=12||r1=14) (* karwqsamAnAXikaraNam  or samAnAXikaraNam of karwA / karma not allowed *)
+         then False
+         else if from_id1=to_id2 && from_mid1=to_mid2
+                && (r1=9 || r1 = 1009) && (r2=7 || r1=11||r1=12||r1=14) (* karwqsamAnAXikaraNam or samAnAXikaraNam of a karwA/karma not allowed *)
+         then False
+         else if from_id2=to_id1 && from_mid2=to_mid1
+                && (r1=9 || r1 = 1009) && (r2=9 || r2 = 1009) (* karwqsamAnAXikaraNam/samAnAXikaraNam of a karwqsamAnAXikaraNam/samAnAXikaraNam not allowed *)
+         then False
          else if from_id1=to_id2 && from_mid1=to_mid2
                 && r2=60 && r1=7 (* samucciwa of karwqsamAnAXikaraNa is not allowed 
                 BavanwaH jAnanwi yaw mama puwrAH SAswra-vimuKAH avivekinaH ca sanwi  *)
          then False
          else if from_id2=to_id1 && from_mid2=to_mid1
-                && r2=7 && r1=60 (* samucciwa of karwqsamAnAXikaraNa is not allowed *)
+                && (r2=9 || r2 = 1009) && r1=60 (* samucciwa of karwqsamAnAXikaraNa/samAnAXikaraNam is not allowed *)
          then False
-         else if from_id1=to_id2 && from_mid1=to_mid2
-                && ( (r2=61 && r1=61) (* sup_samucciwa of sup_samucciwa is not allowed *)
-                  || (r2=63 && r1=63)) (* sup_anyawara of sup_anyawara is not allowed *)
-         then False (* do { print_string "False: case  aa"; False }*)
-         else if from_id2=to_id1 && from_mid2=to_mid1
-                && (  (r2=61 && r1=61) (* sup_samucciwa of sup_samucciwa is not allowed *)
-                   || (r2=63 && r1=63)) (* sup_anyawara of sup_anyawara is not allowed *)
-         then False (* do { print_string "False: case  bb"; False }*)
         (* else if from_id2=to_id1 && from_mid2=to_mid1
                 && (r2 < 53) && r1=53 && abs (from_id1 - to_id2) < abs (from_id2 -to_id2) (* In case of samucciwa verbs, the kaaraka should be of the closest verb *)
          then False
@@ -613,26 +653,32 @@ value rec add_cost text_type acc rels = fun
             else if rel=66 then 0 (* anyawaraxyowaka *)
             else if rel=67 then 0 (* sup_anyawaraxyowaka *)
             else if rel=91 then 0 (*  avaXiH *)
-            else if rel=1007 then 7 (* karwqsamAnAXikaraNam *)
              (*else if  rel=35 then 35*) (* RaRTI *)
          (*   else if  rel=42 then 42 (* viSeRaNam *) *)
             (*else if  rel=33 then 0 *) (* aBexa *)
             else if  rel> 80 && rel < 90 then 0 (* upapada-LWG relations *)
             else if  rel= 78 then 100 (* lyapkarmAXikaraNam ; select this only if there is no other analysis possible *)
+            else if rel = 1003 then 2 * (a2-a1) (*niwya_sambanXaH *)
+            else if rel = 1002 then 3 * (a2-a1) (*prawiyogI *)
+            else if rel = 1009 then 9 * (a2-a1) (* karwqsamAnAXikaraNam *)
+            else if rel = 79 then 1 * (a2-a1) (*upamAna *)
+            else if rel = 80 then 1 * (a2-a1) (* upamAnaxyowakaH *)
+            else if rel = 76 then 1 * (a2-a1) (* sahArWa_xyowakaH *)
+            else if rel = 92 then 1 * (a2-a1) (* sahArWaH *)
+            else if rel = 77 then 1 * (a2-a1) (* vinArWa_xyowakaH *)
+            else if rel = 93 then 1 * (a2-a1) (* vinArWaH *)
+            else if rel >= 2000 && rel < 2100 then 36 * (a2-a1) (*sanxarBa_binxuH *)
+            else if rel >= 2200 && rel < 2300 then 14 * (a2-a1) (* karma *)
+            else if rel >= 2400 && rel < 2500 then 95 * (a2-a1)  (*ABomiKyam *)
+            else if rel >= 2600 && rel < 2700 then 49 * (a2-a1) (* prawiReXaH *)
+            else if rel >= 3200 && rel < 3300 then 93 * (a2-a1) (*vinArWaH *)
+            (*else if rel >= 3100 && rel < 3200 then 92 * (a2-a1) (*sahArWaH *)*)
             else if rel >= 4000 && rel < 4100 then 20 * (a2-a1) (* apAxAnam *)
             else if rel >= 4100 && rel < 4200 then 21 * (a2-a1) (* xeSAXi *)
-            else if rel >= 4200 && rel < 4300 then 7 * (a2-a1) (* karwqsam *)
+            else if rel >= 4200 && rel < 4300 then 9 * (a2-a1) (* karwqsam *)
             else if rel >= 4300 && rel < 4400 then 28 * (a2-a1) (* sambanXaH *)
-            else if rel >= 4400 && rel < 4500 then 9 * (a2-a1) (* karwA *)
+            else if rel >= 4400 && rel < 4500 then 7 * (a2-a1) (* karwA *)
             else if rel >= 4500 && rel < 4600 then 25 * (a2-a1) (* aXikaraNa *)
-            else if rel >= 2200 && rel < 2300 then 14 * (a2-a1) (* karma *)
-            else if rel >= 2400 && rel < 2500 then 95 * (a2-a1) 
-            else if rel >= 2600 && rel < 2700 then 49 * (a2-a1)
-            else if rel >= 3200 && rel < 3300 then 93 * (a2-a1)
-            else if rel >= 3100 && rel < 3200 then 92 * (a2-a1)
-            else if rel >= 2000 && rel < 2100 then 36 * (a2-a1)
-            else if rel = 1002 then 2 * (a2-a1)
-            else if rel = 1003 then 3 * (a2-a1)
             (*else if  rel=64 ||rel=65 || rel = 91
                  ||  rel=66 ||rel=67 
                  (* special case of LWG ;
@@ -694,10 +740,10 @@ value populate_compatible_lists text_type rel total_wrds =
   let length = List.length rel -1 in do 
    { for i = 0 to length do
      { let reli = List.nth rel i in  do
-         { (*print_int i
+         { (* print_int i
            ;print_string "=>"
            ;print_relation reli 
-          ;*)let l = get_wrd_ids reli in
+          ;*) let l = get_wrd_ids reli in
            compatible_words.(i+1) := List.append l compatible_words.(i+1)
           (* a word is compatible with self *)
          ;for j = i+1 to length do
@@ -708,10 +754,10 @@ value populate_compatible_lists text_type rel total_wrds =
           (* a word is compatible with self *)
           ;if (chk_compatible text_type rel reli relj)
           then do {
-          (* print_int j
+           (* print_int j
            ;print_string " "
            ;print_relation relj 
-           ;*) compatible_relations.(i+1) := List.append [j+1] compatible_relations.(i+1)
+           ; *) compatible_relations.(i+1) := List.append [j+1] compatible_relations.(i+1)
              ;let l = get_wrd_ids relj in
              compatible_words.(i+1) := List.append l compatible_words.(i+1)
              ;let l = get_wrd_ids reli in
@@ -720,7 +766,7 @@ value populate_compatible_lists text_type rel total_wrds =
           else ()
           } 
         }
-     } 
+     }
      }
     
    ; for i = 0 to length do {
@@ -731,7 +777,7 @@ value populate_compatible_lists text_type rel total_wrds =
 This condition is added to ensure that the necessary condition that all the words are related is satisfied.
 Thus, for ungrammatical sentences such as rAmaH granWam svapiwi, the parser halts here. However, for sentences such as rAmaH annam svapiwi, since potentially annam being in neuter gender can be a kartA for svapiwi, the programme continues. *)
  
-(*    ; print_string "compatible words for "
+    (* ; print_string "compatible words for "
      ; print_int (i+1)
      ; print_string " = "
      ; List.iter print_sint (List.sort_uniq compare compatible_words.(i+1))
@@ -744,8 +790,9 @@ Thus, for ungrammatical sentences such as rAmaH granWam svapiwi, the parser halt
      ; print_int (i+1)
      ; print_string " = "
      ; List.iter print_sint compatible_relations.(i+1)
-     ; print_newline() *)
-    }
+     ; print_newline() 
+    *)
+   }
   }
 ;
 
@@ -802,12 +849,15 @@ value join_dags dag1 dag2 init final =
 
 value rec get_initial_dag acc start n = 
    if n = start then do {
-                     (* print_string "n = start"
+                     (* print_string "n ="
                      ; print_int n
                      ; print_newline()
+                     ; print_string "start ="
+                     ; print_int start
+                     ; print_string "acc = "
                      ; print_acc acc
                      ; print_newline()
-                     ;*)let dag = List.rev acc in
+                     ;*) let dag = List.rev acc in
                      let dag1 = join_dags dag dag 0 0 in
                       if dag1 = [] then dag else List.append dag dag1
                  } 
@@ -816,17 +866,19 @@ value rec get_initial_dag acc start n =
                 ;[]
                 } *)
    else  do { (* print_int n
+           ; print_newline()
+           ; print_string "start = "
            ; print_int start
            ; print_newline()
            ; if n=0 || compatible_all_words.(n) then print_string "True" else print_string "False"
            ; print_newline()
-         ; *) if compatible_all_words.(n)
+         ; *)  if compatible_all_words.(n)
             then let t = compatible_relations.(n) in
                  let p = if t = [] then [n] else t in
                  let l = List.append acc [([n],p)] in
                    get_initial_dag l start (n-1)
             else get_initial_dag acc start (n-1)
-        }
+         } 
             
 ;
 
@@ -964,13 +1016,18 @@ value mycount relid maprel =
 
 (* The number of ca/vA is one less than the number of sups or wifs
  * or =1 *)
-value ca_vA_compatibility group_count marker_count =
+(* value ca_vA_compatibility group_count marker_count =
      if (group_count = 0 && marker_count = 0)
      || (group_count = 1 && (group_count = marker_count))
-     || (group_count > 1 && (   (group_count = marker_count -1) 
+     || (group_count > 1 && (   (group_count = marker_count -1)
                              || (marker_count = 1)))
      then True else False
-;
+; *)
+
+value ca_vA_compatibility group_count marker_count =
+
+     group_count = marker_count || marker_count = 1
+; 
 
 value samucciwa_anyawara_constraint relations relsindag =
   let maprel = List.map (fun y -> List.nth relations (y-1) ) relsindag in
@@ -982,11 +1039,15 @@ value samucciwa_anyawara_constraint relations relsindag =
       and sup_anya_c = mycount 63 maprel
       and anya_xyowaka_c = mycount 66 maprel
       and sup_anya_xyowaka_c = mycount 67 maprel in
-      if ca_vA_compatibility sup_samu_c sup_samu_xyowaka_c
+          ca_vA_compatibility sup_samu_c sup_samu_xyowaka_c
+       && ca_vA_compatibility samu_c samu_xyowaka_c
+       && ca_vA_compatibility sup_anya_c sup_anya_xyowaka_c
+       && ca_vA_compatibility anya_c anya_xyowaka_c
+   (* if ca_vA_compatibility sup_samu_c sup_samu_xyowaka_c
       && ca_vA_compatibility samu_c samu_xyowaka_c
       && ca_vA_compatibility sup_anya_c sup_anya_xyowaka_c
       && ca_vA_compatibility anya_c anya_xyowaka_c
-      then True  else False
+      then True  else False *)
 ;
 
 value global_compatible text_type relations relsindag = 
@@ -1062,23 +1123,23 @@ let maprel = List.map (fun y -> List.nth relations (y-1) ) relsindag in
                           | [Relationc (x,y,r,z,t)::rest1] ->
                                    loop1 rest1
                           ]
-   | [ Relationc (a,b,1002,c,d) :: rest] ->  (* nAma2 -- anuyogI *)
+   | [ Relationc (a,b,1003,c,d) :: rest] ->  (* nAma2 -- anuyogI *)
          loop1 maprel 
          where rec loop1 = fun
                           [ [] -> False (* do { print_string "failed case 3"; False}*) (* sambanXa/anuyogi not found *)
-                          | [Relationc (x,y,1003,z,t)::rest1] ->  (* anuyogI *)
-                                   if  (x=c && y=d)
+                          | [Relationc (x,y,1002,z,t)::rest1] ->  (* anuyogI *)
+                                   if  (z=a && t=b)
                                    then loop rest 
                                    else loop1 rest1
                           | [Relationc (x,y,r,z,t)::rest1] ->
                                    loop1 rest1
                           ]
-    | [ Relationc (a,b,1003,c,d) :: rest] ->  (* nAma1 -- prawiyogI*)
+    | [ Relationc (a,b,1002,c,d) :: rest] ->  (* nAma1 -- prawiyogI*)
          loop1 maprel 
          where rec loop1 = fun
          [ [] -> False (* do {print_string "failed case 1"; False}*) (* if there is no sambanXa / anuyogI from the head *)
-         | [Relationc (x,y,1002,z,t)::rest1] ->  (* nAma2 -- anuyogI *)
-                  if    (z=a && t=b)
+         | [Relationc (x,y,1003,z,t)::rest1] ->  (* nAma2 -- anuyogI *)
+                  if    (x=c && y=d)
                   then loop rest  (* anuyogI-prawiyogI seq found *)
                   else loop1 rest1
          | [Relationc (x,y,r,z,t)::rest1] ->
@@ -1152,16 +1213,16 @@ let maprel = List.map (fun y -> List.nth relations (y-1) ) relsindag in
          where rec loop1 = fun
                           [ [] -> False (* do { print_string "failed case 5\n"; False} *)
                           | [Relationc (x,y,r,z,t)::rest1] -> 
-                                if   (z=a && t=b && r1=97 && r=13)
-				  || (x=c && y=d && r1=13 && r=97)
+                                if   (z=a && t=b && r1=13 && r=97)
+				  || (x=c && y=d && r1=97 && r=13)
                                 then  loop rest
-                                else if ( z=c && t=d && r1=97
+                                else if ( z=c && t=d && r1=13
                                       && (r=11 || r=12 || r=14)) (* karma *)
                                  (* vAkyakarmaxyowaka & karma both can not be present simultaneously *)
                                 then False
                                 else  loop1 rest1
                           ]
-         else if r1=7  || (r1 >= 4400 && r1 < 4500)  then
+         else if r1=9 || (r1 >= 4400 && r1 < 4500)  then
                                (* karwqsamAnAXikaraNam, karwA *)
                                (* karwA, karwA_upa *)
          loop1 maprel 
@@ -1174,7 +1235,7 @@ let maprel = List.map (fun y -> List.nth relations (y-1) ) relsindag in
                                 then False
                                 else if (z=c && t=d && (r / 100 = 44 && r1=7))
                                  || (x=c && y=d && (r1 / 100 = 44 && r=7))
-                                 || (z=c && t=d && r=9 && r1=7 && (a-x) > 0) 
+                                 || (z=c && t=d && r=7 && r1=9) (* && (a-x) > 0   removed, since karwqsamAnAXikaraNam can be to the left. For example samraWaH aswi janaH *)
 
 (*  Why should there be distinction between Prose and Sloka with regards to karwqsamAnAXikaraNa?
  *     After all this is related to uxxeSya and viXeya, typically uxxeSya comes before viXeya.
@@ -1183,7 +1244,7 @@ let maprel = List.map (fun y -> List.nth relations (y-1) ) relsindag in
 
                            *     || (z=c && t=d && r=7 && r1=9 && text_type="Prose" && (a-x) > 0) 
                                  || (z=c && t=d && r=7 && r1=9 && text_type="Sloka")  *)
-                                 || (x=c && y=d && r=24 && r1=7)  (* karwqsamAnAXikaraNa and pUrvakAlaH *)
+                                 || (x=c && y=d && r=24 && r1=9)  (* karwqsamAnAXikaraNa and pUrvakAlaH *)
                                then  loop rest
                                else  loop1 rest1
                           ]
@@ -1202,51 +1263,42 @@ let maprel = List.map (fun y -> List.nth relations (y-1) ) relsindag in
          where rec loop1 = fun
                   [ [] -> False (* do { print_string "failed case 5\n"; False} *)
                   | [Relationc (x,y,r,z,t)::rest1] -> 
-                          if z=a && t=b && (r=14 || r=9)  (* karwq or karma and BAvalakRaNasapwamI *)
+                          if z=a && t=b && (r=14 || r=7)  (* karwq or karma and BAvalakRaNasapwamI *)
                           then  loop rest
                           else  loop1 rest1
                   ]
 
-         else if  r1=60 || r1=64 then
+
+                  (* We can have 60 without 64, since more samuccayas are allowed with only one samuccayaxyowaka. But if there is 64, then 60 is necessary *)
+         else if r1=64 || r1 = 65 || r1 = 66 || r1 = 67 then
          loop1 maprel 
          where rec loop1 = fun
-                  [ [] -> False (* do { print_string "failed case 5\n"; False} *)
-                  | [Relationc (x,y,r,z,t)::rest1] -> 
-                          if    (x=c && y=d && r=60 && r1=64 )  (* samucciwa *)
-                             || (z=a && t=b && r=64 && r1=60 )  (* samucciwa *)
-                          then  loop rest
-                          else  loop1 rest1
+                  [ [] -> False  (*do { print_string "failed case 5a\n"; False} *)
+                  | [Relationc (x,y,r,z,t)::rest1] ->  
+                          if    ((x=c && y=d)
+                             && (( r=60 && r1=64 )  (* samucciwa *)
+                               ||  ( r=62 && r1=66 )  (* samucciwa *)
+                               ||  ( r=63 && r1=67 ))
+                                )  (* samucciwa *)
+                               ||  (( r=61 && r1=65 ) (* checked with mAlA sIwA ca vanam gacCawi *)
+                                   && (z=c && t=d))
+                               (* samucciwa *)
+                          then loop rest
+                          else loop1 rest1
                   ]
-         else if  r1=61 || r1=65 then
+         (*else if r1=60 || r1 = 61 || r1 = 62 || r1 = 63 then
          loop1 maprel 
          where rec loop1 = fun
-                  [ [] -> False (* do { print_string "failed case 5\n"; False} *)
-                  | [Relationc (x,y,r,z,t)::rest1] -> 
-                          if    (z=c && t=d && r=61 && r1=65 )  (* sup_samucciwa *)
-                             || (z=c && t=d && r=65 && r1=61 )  (* sup_samucciwa *)
+                  [ [] -> (*False *)  do { print_string "failed case 5\n"; False} 
+                  | [Relationc (x,y,r,z,t)::rest1] ->
+                          if    (z=a && t=b)
+                             && (( r1=60 && r=64 )  (* samucciwa *)
+                               ||  ( r1=61 && r=65 )  (* samucciwa *)
+                               ||  ( r1=62 && r=66 )  (* samucciwa *)
+                               ||  ( r1=63 && r=67 ))  (* samucciwa *)
                           then  loop rest
                           else  loop1 rest1
-                  ]
-         else if  r1=62 || r1=66 then
-         loop1 maprel 
-         where rec loop1 = fun
-                  [ [] -> False (* do { print_string "failed case 5\n"; False} *)
-                  | [Relationc (x,y,r,z,t)::rest1] -> 
-                          if    (x=c && y=d && r=62 && r1=66 )  (* anyawaraH *)
-                             || (z=a && t=b && r=66 && r1=62 )  (* anyawaraH *)
-                          then  loop rest
-                          else  loop1 rest1
-                  ]
-         else if  r1=63 || r1=67 then
-         loop1 maprel 
-         where rec loop1 = fun
-                  [ [] -> False (* do { print_string "failed case 5\n"; False} *)
-                  | [Relationc (x,y,r,z,t)::rest1] -> 
-                          if    (x=c && y=d && r=63 && r1=67 )  (* sup_anyawaraH *)
-                             || (z=a && t=b && r=67 && r1=63 )  (* sup_anyawaraH *)
-                          then  loop rest
-                          else  loop1 rest1
-                  ]
+                  ] *)
          (* else if r1=60 || r1 = 62 (* This needs to be understood; the subroutine is not at all clear *)
               then loop2 maprel 
                     where rec loop2 = fun
@@ -1266,16 +1318,16 @@ let maprel = List.map (fun y -> List.nth relations (y-1) ) relsindag in
 		            else if (z=a) && (t=b) && (r < 46) && (x < c)  then False
                             else loop2 rest2
                          ] *)
-        else if r1=15 || r1 = 9 || r1=16  then
+        else if r1=15 || r1 = 7 || r1=16  then
     (* prayojakakarwA & karwA both can not be present simultaneously *)
          loop1 maprel 
          where rec loop1 = fun
                           [ [] -> loop rest
                           | [Relationc (x,y,r,z,t)::rest1] -> 
-                            if   (z=c && t=d && r1=15 && r=9) (* karwA  & prayojakakarwA*)
-                              || (z=c && t=d && r1=16 && r=9) (* karwA  & prayojyakarwA*)
-                              || (z=c && t=d && r=16 && r1=9) (* karwA  & prayojyakarwA*)
-                              || (z=c && t=d && r=15 && r1=9) (* karwA  & prayojakakarwA*)
+                            if   (z=c && t=d && r1=15 && r=7) (* karwA  & prayojakakarwA*)
+                              || (z=c && t=d && r1=16 && r=7) (* karwA  & prayojyakarwA*)
+                              || (z=c && t=d && r=16 && r1=7) (* karwA  & prayojyakarwA*)
+                              || (z=c && t=d && r=15 && r1=7) (* karwA  & prayojakakarwA*)
     (* karwA_upa & karwA both can not be present simultaneously *)
                             then False  (* do { print_string "failed case 9"; False} *)
                             else loop1 rest1
@@ -1377,16 +1429,16 @@ value rec print_dag = fun
 value rec get_dag_list text_type rel acc = fun
         [ [] -> acc
         | [hd :: tl ] -> do {
-                      if samucciwa_anyawara_constraint rel hd
+                    if samucciwa_anyawara_constraint rel hd
                     && global_compatible text_type rel hd
                     && no_cycles rel hd
-                      then  do {
+                      then do {
                          let cost = add_cost text_type 0 rel hd in
                          let len  = List.length hd in
                          let triplet = (len, cost, hd) in
                          let res1 = List.append [triplet] acc in
-                         get_dag_list text_type rel res1 tl}
-                      else get_dag_list text_type rel acc tl }
+                         get_dag_list text_type rel res1 tl }
+                    else get_dag_list text_type rel acc tl }
        ]
 ;
 
