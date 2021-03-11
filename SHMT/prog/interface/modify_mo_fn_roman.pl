@@ -42,7 +42,7 @@ sub modify_mo{
 
   $in =~ s/<vargaḥ:[^>]+>//g;
   $in =~ s/<kṛt_praṭipaḍika:[^>]+//g;
-  $in =~ s/<kṛt_vrb_rt:[^>]+//g;
+  $in =~ s/<kṛt_dhātu:[^>]+//g;
   $in =~ s/<liṅgam:a>/ /g;
   $in =~ s/<liṅgam:([^>]+)>/ $1/g;
   $in =~ s/<vibhaktiḥ:([^>]+)>/ $1/g;
