@@ -33,20 +33,26 @@ sub sandhi{
  my($first,$second)=@_;
  my($ans);
  $ans = "";
+ #print "f = $first\n";
+ #print "s = $second\n";
+
  $complete=$first."+".$second;
  ($ans,$ans1,$ans2,$cont)=split(/,/,&apavAdaniyamAH($complete));
-# if($DEBUG) { print "ans from apavAda niyama = $ans\n";}
+ if($DEBUG) { print "ans from apavAda niyama = $ans\n";}
  if($cont == 1){
          #$ans = "";
-         $first =~ /^(.*)(.)$/;
-         $f_rem1 = $1;
-         $lf1 = $2;
-         $first =~ /^(.*)(..)$/;
-         $f_rem2 = $1;
-         $lf2 = $2;
-         $second =~ /^(.)(.*)$/;
-         $sf= $1;
-         $s_rem = $2;
+         if($first =~ /^(.*)(.)$/) {
+            $f_rem1 = $1;
+            $lf1 = $2;
+         } else {$f_rem1 = ""; $lf1 = "";}
+         if ($first =~ /^(.*)(..)$/){
+             $f_rem2 = $1;
+             $lf2 = $2;
+         } else {$f_rem2 = ""; $lf2 = "";}
+         if($second =~ /^(.)(.*)$/){
+            $sf= $1;
+            $s_rem = $2;
+         } else {$sf = ""; $s_rem = "";}
          $srch_str1 = $lf1.",".$sf;
          $srch_str2 = $lf2.",".$sf;
          if($DEBUG) { print "srch_str1 = ",$srch_str1,"\n";}
