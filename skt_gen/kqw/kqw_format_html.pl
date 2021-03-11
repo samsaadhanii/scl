@@ -18,7 +18,7 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 
-@kqw_prawyayaH = ("तृच्","तव्यत्","यक्","शतृ_लट्","शानच्_लट्","घञ्","ण्वुल्","ण्यत्","ल्युट्","यत्","क्त","क्तवतु","अनीयर्");
+@kqw_prawyayaH = ("तृच्","तव्यत्","यक्","शतृ_लट्","शानच्_लट्_कर्तरि","शानच्_लट्_कर्मणि","घञ्","ण्वुल्","ण्यत्","ल्युट्","यत्","क्त","क्तवतु","अनीयर्");
 my $line_no = 0;
 my $rt = $ARGV[0];
 my $upa = $ARGV[1];
@@ -62,12 +62,12 @@ print "</td></tr>\n";
 #}else{
 #$unknown="$unknown $kqw_prawyayaH[$line_no] ,";
 #}
-	if($line_no == 13) {
+	if($line_no == 14) {
      print "</table>\n";
 	print "</center>\n";
   }
 $line_no++;
-  if($line_no == 13) { $line_no = 0;}
+  if($line_no == 14) { $line_no = 0;}
 }
 }
 print "<center>\n";

@@ -1,4 +1,34 @@
 
+<script>
+
+function livetrans () {
+  var codec = document.getElementById("encoding").value;
+  var itext = document.getElementById("rt").value;
+  var otext = "";
+  if (codec == "WX") {
+    otext = slp2dev(wx2slp(itext));
+  }
+  else if (codec == "Itrans") {
+    otext = slp2dev(itrans2slp(itext));
+  }
+  else if (codec == "VH") {
+    otext = slp2dev(vel2slp(itext));
+  }
+  else if (codec == "SLP") {
+    otext = slp2dev(itext);
+  }
+  else if (codec == "KH") {
+    otext = slp2dev(hk2slp(itext));
+  }
+  else if (codec == "IAST") {
+    otext = slp2dev(iast2slp(itext));
+  }
+  document.getElementById("devtext").innerHTML = otext;
+}
+
+setInterval(blinker, 1000);
+
+</script>
 <div class="input-dashboard-sandhi">
 
 <div class="dept-name-sandhi">
@@ -15,8 +45,14 @@
 <div class="dashboard-sandhi">
 <table>
 <tr>
+<td></td>
+<td id="devtext"></td>
+<td></td>
+</tr>
+<tr>
+
 <td>
-      <select name="encoding"  id="encoding">
+      <select name="encoding"  id="encoding" onchange="livetrans()">
         <!-- <option value="Unicode">Select Encoding</option> -->
 	<option value="Unicode">Unicode-Devanagari</option>
 	<option value="WX">WX-Alphabetic</option>
@@ -28,7 +64,7 @@
 </td>
 
 <td>
-     <input name="rt" type="text" id="rt"  placeholder="प्रातिपदिकम्/Prātipadikam"/>
+     <input name="rt" type="text" id="rt"  oninput="livetrans()" placeholder="प्रातिपदिकम्/Prātipadikam"/>
 </td>
 <td>
  <input type="submit" id="submit-bttn" class="styled-button-3" value="रूपाणि दर्श्यताम्"/> 

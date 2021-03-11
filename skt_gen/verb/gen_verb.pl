@@ -37,7 +37,7 @@ use CGI qw/:standard/;
  $generator = "$GlblVar::LTPROCBIN -ct $GlblVar::SCLINSTALLDIR/morph_bin/wif_gen.bin";
 
  #my $ltproc_cmd = "$generator | grep . | pr --columns=3 --across --omit-header --width=300| $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
- my $ltproc_cmd = "$generator | grep . | pr -3 -a -t -w 300| $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
+ my $ltproc_cmd = "$generator | grep . | pr -3 -a -t -w 300| tr ' ' '\t' | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
 
 # print "encoding = $encoding\n";
  if($encoding ne "WX"){
@@ -66,7 +66,7 @@ use CGI qw/:standard/;
   $gaNautf8 = `echo $gaNa | sed 's/[1-5]//' | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;
   if ($upasarga ne "-") {$upasarga = `echo $upasarga | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`."_";} else {$upasarga = "";}
   print "<center>\n";
-  print "$upasarga<a href=\"javascript:show('$rtutf8','DEV')\">$rtutf8 ($gaNautf8)<\/a>\n";
+  print "<a href=\"javascript:show('${upasarga}$rtutf8','DEV')\">${upasarga}$rtutf8 ($gaNautf8)<\/a>\n";
 # In javascript:show also upasarga needs to be added. But I do not know how is the dict organised. Hence it is postponed. Amba 9th Nov 2016
   print "<\/center>\n";
 
@@ -126,3 +126,28 @@ sub get_generator_string {
  $STR;
 }
 1;
+
+## Added to handle upa_viS etc. 
+#But this is taken care of by the javascript, hence not needed here.
+#sub join {
+#	my ($upasarga,$rt) = @_;
+#
+#	my ($sandhi);
+#
+#	if ($upasarga eq "Af") { $upasarga = "A";}
+#	if($upasarga ne "-") { $sandhi = $upasarga.$rt;} else {$sandhi = $rt;}
+#	$sandhi =~ s/[aA][aA]/A/;
+#	$sandhi =~ s/[aA][iI]/e/;
+#	$sandhi =~ s/[aA][uU]/o/;
+#	$sandhi =~ s/[aA][qQ]/ar/;
+#	$sandhi =~ s/[aA][eE]/E/;
+#	$sandhi =~ s/[aA][oO]/O/;
+#	$sandhi =~ s/i([aAuUqQeEoO])/y\1/;
+#	$sandhi =~ s/i[iI]/I/;
+#	$sandhi =~ s/u([aAuUqQeEoO])/v\1/;
+#	$sandhi =~ s/u[uU]/U/;
+#	$sandhi =~ s/[1-5]//;
+#
+#        $ans = `echo $sandhi | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;
+#	$ans;
+#}

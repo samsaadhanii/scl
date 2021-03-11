@@ -43,7 +43,7 @@ require "$myPATH/skt_gen/noun/pUraNa.pl";
  my $encoding = $ARGV[3];
  my $level = $ARGV[4];
 
- #$generator = "/usr/bin/lt-proc -ct $myPATH/morph_bin/all_gen.bin";
+ #$generator = "$GlblVar::LTPROCBIN -ct $myPATH/morph_bin/all_gen.bin";
  $generator = "$GlblVar::LTPROCBIN -ct $myPATH/morph_bin/sup_gen.bin";
 
  $rt_wx=&convert($encoding,$rt,$myPATH);
@@ -70,7 +70,7 @@ require "$myPATH/skt_gen/noun/pUraNa.pl";
  chomp($LTPROC_IN); # To chomp the last \n, else it produces an extra blank line in the o/p of lt-proc
 
  #$str = "echo '".$LTPROC_IN."' | $generator | grep . | pr --columns=3 --across --omit-header --width=150 | $myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1 | $myPATH/skt_gen/noun/noun_format_html.pl $pUrvapaxa $rt_wx $lifga_wx";
- $str = "echo '".$LTPROC_IN."' | $generator | grep . | pr -3 -a -t -w 150 | $myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1 | $myPATH/skt_gen/noun/noun_format_html.pl $pUrvapaxa $rt_wx $lifga_wx";
+ $str = "echo '".$LTPROC_IN."' | $generator | grep . | pr -3 -a -t -w 150 | tr ' ' '\t' | $myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1 | $myPATH/skt_gen/noun/noun_format_html.pl $pUrvapaxa $rt_wx $lifga_wx";
  system($str);
 }
 

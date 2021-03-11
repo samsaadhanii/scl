@@ -187,6 +187,34 @@ var data=document.getElementById("rt").value;
      }
        
        }
+
+function livetrans () {
+  var codec = document.getElementById("encoding").value;
+  var itext = document.getElementById("rt").value;
+  var otext = "";
+  if (codec == "WX") {
+    otext = slp2dev(wx2slp(itext));
+  }
+  else if (codec == "Itrans") {
+    otext = slp2dev(itrans2slp(itext));
+  }
+  else if (codec == "VH") {
+    otext = slp2dev(vel2slp(itext));
+  }
+  else if (codec == "SLP") {
+    otext = slp2dev(itext);
+  }
+  else if (codec == "KH") {
+    otext = slp2dev(hk2slp(itext));
+  }
+  else if (codec == "IAST") {
+    otext = slp2dev(iast2slp(itext));
+  }
+  document.getElementById("devtext").innerHTML = otext;
+}
+
+setInterval(blinker, 1000);
+
 </script>
 </head>
 <body>
@@ -196,9 +224,15 @@ var data=document.getElementById("rt").value;
 <div class="navigation">
 <form name="test" method="post" action="skt_gen/waxXiwa/waxXiwa_gen.cgi" target="showMyopt1" onsubmit="return validation()">
 <table border="0" align="center" cellspacing="3" cellpadding="3">
-<tr><td>
+<tr>
+<td></td>
+<td id="devtext"></td>
+<td></td>
+</tr>
+<tr>
+<td>
 <font color="red"><a href='#' style="color:blue;" onclick="window.open('table.html','Details','width=800, height=500,scrollbars=yes');">Input Encoding:</a></td><td>
-            <select name="encoding" style="width: 200px" id="encoding">
+            <select name="encoding" style="width: 200px" id="encoding" onchange="livetrans()">
             <option value="Unicode">Unicode-Devanagari</option>
             <option value="WX">WX-alphabetic</option>
             <option value="Itrans">Itrans-5.3</option>
@@ -212,7 +246,7 @@ var data=document.getElementById("rt").value;
             <font color="red">
 प्रातिपदिकम् : 
 </font> </td><td>
-<input type="text" name="rt"  id="rt" />
+<input type="text" name="rt"  id="rt" oninput="livetrans()"/>
 </td>
 
 <td align="center" colspan="2">

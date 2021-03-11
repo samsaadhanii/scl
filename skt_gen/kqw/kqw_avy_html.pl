@@ -18,7 +18,10 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 @kqw_avy_prawyayaH = ("तुमुन्","णमुल्","क्त्वा");
+@kqw_avy_upa_prawyayaH = ("तुमुन्","णमुल्","ल्यप्");
 $line_no = 0;
+
+$upa = $ARGV[0];
 
 while($in = <STDIN>){
   chomp($in);
@@ -29,7 +32,10 @@ while($in = <STDIN>){
        print "<tr><td colspan=2 align=\"center\"><font color=\"brown\" size=\"5\"><b>कृदव्ययम्</b></font></td></tr>\n";
     }
     if($in =~ /\?/) { $in = "-";}
-    print "<tr><td width=20% bgcolor='#461B7E'  align='middle'><font color=\"white\" size=\"4\">$kqw_avy_prawyayaH[$line_no]</font></td><td width=80% align=\"center\" bgcolor='#E6CCFF'><font color=\"black\" size=\"4\">$in</font> </td></tr>\n";
+    if ($upa eq "N") {
+    print "<tr><td width=20% bgcolor='#461B7E'  align='middle'><font color=\"white\" size=\"4\">$kqw_avy_prawyayaH[$line_no]</font></td><td width=80% align=\"center\" bgcolor='#E6CCFF'><font color=\"black\" size=\"4\">$in</font> </td></tr>\n"; } else {
+    print "<tr><td width=20% bgcolor='#461B7E'  align='middle'><font color=\"white\" size=\"4\">$kqw_avy_upa_prawyayaH[$line_no]</font></td><td width=80% align=\"center\" bgcolor='#E6CCFF'><font color=\"black\" size=\"4\">$in</font> </td></tr>\n";
+    }
   $line_no++;
   }
 }

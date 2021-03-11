@@ -49,12 +49,12 @@ $myPath = $GlblVar::SCLINSTALLDIR;
  for($vib=1;$vib<9;$vib++){
     for($num=0;$num<3;$num++){
         $vacanam = $vacanam[$num];
-        $str = "<kqw_vrb_rt:$rt><kqw_prawyayaH:$kqw_prawyaya_wx><XAwuH:$XAwu><gaNaH:$gaNa>$prAwi_wx<vargaH:nA><lifgam:$lifga><viBakwiH:$vib><vacanam:$vacanam><level:2>"; 
+        $str = "<kqw_XAwu:$rt><kqw_prawyayaH:$kqw_prawyaya_wx><XAwuH:$XAwu><gaNaH:$gaNa>$prAwi_wx<vargaH:nA><lifgam:$lifga><viBakwiH:$vib><vacanam:$vacanam><level:2>"; 
         $LTPROC_IN .=  $str."\n";
     } # number
  } #vib
  chomp($LTPROC_IN); # To chomp the last \n, else it produces an extra blank line in the o/p of lt-proc
 
  #$str = "echo '".$LTPROC_IN."' | $generator | grep . | pr --columns=3 --across --omit-header | $myPath/converters/ri_skt | $myPath/converters/iscii2utf8.py 1 | $myPath/skt_gen/noun/noun_format_html.pl '' $prAwi_wx $lifga";
- $str = "echo '".$LTPROC_IN."' | $generator | grep . | pr -3 -a -t  | $myPath/converters/ri_skt | $myPath/converters/iscii2utf8.py 1 | $myPath/skt_gen/noun/noun_format_html.pl '' $prAwi_wx $lifga";
+ $str = "echo '".$LTPROC_IN."' | $generator | grep . | pr -3 -a -t  | tr ' ' '\t' | $myPath/converters/ri_skt | $myPath/converters/iscii2utf8.py 1 | $myPath/skt_gen/noun/noun_format_html.pl '' $prAwi_wx $lifga";
  system($str);
