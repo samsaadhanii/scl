@@ -7862,7 +7862,7 @@ kRewrasImA,swrI,kRewrasImA,swrI
 kRewrasWa,napuM,kRewrasWa,puM
 kRewrasWa,puM,kRewrasWa,puM
 krIdA,swrI,krIdA,swrI
-krIdanam,napuM,KelanA,puM
+krIdana,napuM,KelanA,puM
 kRINa,napuM,kRINa,puM
 kRINa,puM,kRINa,puM
 kRINaSakwi,puM,kRINaSakwi,puM

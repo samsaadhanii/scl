@@ -23451,20 +23451,27 @@
 <sense no="1">जल</sense>
 </lexhead>
 
+<lexhead no="1373a">
+<root>पुम्स्</root>
+<prAwipaxikam>पुम्स्</prAwipaxikam>
+<sense n="1">पुरुषकर्तृ*- पुमान्, पुमांसौ, पुमांसः, करण द्वि* व* - पुभ्याम्, संबो* ए* व* पुमन्</sense>
+<sense n="2">नरपुंसि विश्वसिति कुत्र कुमारी<citation>नै* ५/११०</citation></sense>
+<sense n="3">इंसान, मानवयस्यार्थाः स पुमाँल्लोके<citation>हि* १</citation></sense>
+<sense n="4">मनुष्य, मनुष्य जाति, क़ौम, राष्ट्रवंद्यैः पुंसां रघुपतिपदैः<citation>मेघ* १२</citation></sense>
+<sense n="5">टहलुआ, सेवक</sense>
+<sense n="6">पुंल्लिंग शब्द</sense>
+<sense n="7">पुंल्लिगपुंसि वा हरिचन्दनम्<citation>अमर*</citation></sense>
+<sense n="8">आत्मा</sense>
+</lexhead>
+
 <lexhead no="1373">
 <root>पुंस्</root>
 <prAwipaxikam>पुंस्</prAwipaxikam>
 <grammar><gaNa>चुरा*</gaNa><paxI>उभ*</paxI><vform>पुंसयति</vform>,<vform>पुंसयते</vform></grammar>
 <sense no="1">कुचलना, पीसना</sense>
 <sense n="2">पीडा देना, कष्ट देना, दण्ड देना</sense>
-<sense n="3">पुरुषकर्तृ*- पुमान्, पुमांसौ, पुमांसः, करण द्वि* व* - पुभ्याम्, संबो* ए* व* पुमन्</sense>
-<sense n="4">नरपुंसि विश्वसिति कुत्र कुमारी<citation>नै* ५/११०</citation></sense>
-<sense n="5">इंसान, मानवयस्यार्थाः स पुमाँल्लोके<citation>हि* १</citation></sense>
-<sense n="6">मनुष्य, मनुष्य जाति, क़ौम, राष्ट्रवंद्यैः पुंसां रघुपतिपदैः<citation>मेघ* १२</citation></sense>
-<sense n="7">टहलुआ, सेवक</sense>
-<sense n="8">पुंल्लिंग शब्द</sense>
-<sense n="9">पुंल्लिगपुंसि वा हरिचन्दनम्<citation>अमर*</citation></sense>
-<sense n="10">आत्मा</sense>
+</lexhead>
+
 <segmenthd>
 <root>पुंसानुज</root>
 <prAwipaxikam>पुंसानुज</prAwipaxikam>
