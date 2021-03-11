@@ -156,9 +156,12 @@ if($ans ne "") {
         if($ans =~ /{धातुः ([^}]+)/) { $XAwu = $1;}
 	#if($ans =~ /{गणः ([^}]+)/) { $gaNa = $1;}
 	if($ans =~ / ([^ ]+दिः)/) { $gaNa = $1;}
-        if($ans =~ /{सनादि:णिच}/) { $prayogaH = "णिजन्त-कर्तरि";} else { $prayogaH = "कर्तरि";}
+        if($ans =~ /{सनादि:णिच}/) { $prayogaH = "णिजन्त-कर्तरि";} 
+	elsif ($ans =~ /(कर्तरि|कर्मणि)/) {$prayogaH = $1;}
+	else { $prayogaH = "कर्तरि";}
         if($ans =~ /परस्मैपदी/) { $paxI = "parasmEpaxI";} 
-	else { $paxI = "AwmanepaxI";}
+        elsif($ans =~ /आत्मनेपदी/) { $paxI = "AwmanepaxI";} 
+	else { $paxI = "uBayapaxI";}
         $rt_XAwu_gaNa = $rt."_".$XAwu."_".$gaNa;
         $rt =~ s/[1-9]//;
         if($upasarga ne "-"){

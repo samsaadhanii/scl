@@ -42,7 +42,7 @@ chomp($in);
     @ana = split(/\//,$in);
     $ans = "";
     foreach $ana (@ana) {
-       $ana =~ s/<kqw_vrb_rt:([^>]+)>/$1/;
+       $ana =~ s/<kqw_XAwu:([^>]+)>/$1/;
        $ana =~ s/>([a-zA-Z]+)</><kqw_pratipadika:$1></;
        $ana =~ /^([^<]*\-)*([^<\-]+)</;
        $ppada = $1;$rt = $2;
