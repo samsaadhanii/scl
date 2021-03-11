@@ -127,7 +127,7 @@ while($tmpin = <STDIN>){
   $ans = "";
 
   if($in =~ /\-/) {
-     $in =~ /<rt:([^>]+)-([^>]+)>/;
+     $in =~ /<word:([^>]+)-([^>]+)>/;
      $pUrvapaxa = $1;
      $uwwarapaxa = $2;
      $pUrvapaxa =~ s/<[^>]+>//g;
@@ -146,9 +146,9 @@ while($tmpin = <STDIN>){
   $in =~ s/({vargaH:sa\-pU\-pa;[^}]+}(\/[^{]+)?)+\-/-/g;
   #print "in = $in\n";
 
-  if($in =~ /rt:(.+)\-([^;]+)/) { 
+  if($in =~ /word:(.+)\-([^;]+)/) { 
      $samAsa_pUrvapaxa = &get_dict_mng($1,$rPRATIPADIKAM)."-"; 
-     $in =~ s/rt:[^;]+/rt:$uwwarapaxa/;
+     $in =~ s/word:[^;]+/word:$uwwarapaxa/;
   } else { $samAsa_pUrvapaxa = "";}
 
   #print "in = $in\n";
