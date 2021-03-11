@@ -117,7 +117,7 @@ EXTEND Gram
     [ [ "(kqw"; "(id"; i = INT; ")"; 
         "(mid"; m = INT; ")"; 
         "(word"; w = IDENT; ")"; 
-        "(kqw_vrb_rt"; kqwrt = IDENT; ")"; 
+        "(kqw_XAwu"; kqwrt = IDENT; ")"; 
         "(upasarga"; upa = IDENT; ")"; 
         "(sanAxi_prawyayaH"; san = IDENT; ")"; 
         "(kqw_prawyayaH"; kp = IDENT; ")"; 

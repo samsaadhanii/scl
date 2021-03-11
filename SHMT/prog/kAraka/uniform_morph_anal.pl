@@ -68,8 +68,8 @@ while($in = <STDIN>){
             if(($wrd_ana !~ /<upasarga:/) && (($cat eq "kqw") || ($cat eq "wif") || ($cat eq "avykqw"))){
                if($wrd_ana =~ /^[^<]+</) {
                  $wrd_ana =~ s/^([^<]+)</$1<upasarga:X></;
-               } elsif($wrd_ana =~ /^<kqw_vrb_rt/) {
-                 $wrd_ana =~ s/^(<kqw_vrb_rt:[^>]+>)</$1<upasarga:X></;
+               } elsif($wrd_ana =~ /^<kqw_XAwu/) {
+                 $wrd_ana =~ s/^(<kqw_XAwu:[^>]+>)</$1<upasarga:X></;
                }
             }
             if(($wrd_ana !~ /<sanAxi_prawyayaH:/) && (($cat eq "kqw") || ($cat eq "wif") || ($cat eq "avykqw"))){
@@ -80,7 +80,7 @@ while($in = <STDIN>){
             }
 
             if($cat eq "kqw") {
-               $wrd_ana =~ s/^([^<]+)</(kqw_vrb_rt $1)</;
+               $wrd_ana =~ s/^([^<]+)</(kqw_XAwu $1)</;
                $wrd_ana =~ s/<kqw_pratipadika:([^>]+)>/(rt $1)(pUrvapaxa $pUrvapaxa)(uwwarapaxa $uwwarapaxa)/g;
             } else { 
                  $wrd_ana =~ s/^([^<]+)</(rt $1)(pUrvapaxa $pUrvapaxa)(uwwarapaxa $uwwarapaxa)</;
@@ -115,7 +115,7 @@ sub get_cat{
            $cat="avywaxXiwa";
    }elsif($in =~ /waxXiwa_prawyayaH:/) {
       $cat="waxXiwa";
-   } elsif($in =~ /<kqw_vrb_rt:.*<kqw_prawyayaH:/) {
+   } elsif($in =~ /<kqw_XAwu:.*<kqw_prawyayaH:/) {
            $cat="kqw";
    } elsif($in =~ /<kqw_prawyayaH:.*<kqw_pratipadika:/) {
            $cat="kqw";
