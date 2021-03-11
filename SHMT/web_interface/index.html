@@ -29,6 +29,7 @@
     <meta name="classification" content="computational linguistics, sanskrit, morphology, lexicography, indology" />
     <meta name="description" content="This site provides tools for Analysis of Sanskrit processing: morphological analysis and generation, segmentation, sandhi splitter, and parsing." />
 
+    <script src="../js_files/devtrans.js"></script>
     <script language="Javascript" type="text/javascript">
       function check() {
         var data=document.test.text.value;
@@ -59,6 +60,35 @@
           }
         }
       }
+
+
+function livetrans () {
+  var codec = document.getElementById("encoding").value;
+  var itext = document.getElementById("textbox-mt").value;
+  var otext = "";
+  if (codec == "WX") {
+    otext = slp2dev(wx2slp(itext));
+  }
+  else if (codec == "Itrans") {
+    otext = slp2dev(itrans2slp(itext));
+  }
+  else if (codec == "VH") {
+    otext = slp2dev(vel2slp(itext));
+  }
+  else if (codec == "SLP") {
+    otext = slp2dev(itext);
+  }
+  else if (codec == "KH") {
+    otext = slp2dev(hk2slp(itext));
+  }
+  else if (codec == "IAST") {
+    otext = slp2dev(iast2slp(itext));
+  }
+  document.getElementById("devtext").innerHTML = otext;
+}
+
+setInterval(blinker, 1000);
+
     </script>
     <!-- All css links for all modules -->
     <link rel="stylesheet" href="../css_files/sktmt.css"/>
@@ -101,7 +131,7 @@
               <td>
                 <a href='#' style="color:blue;" onclick="window.open('table.html','Details','width=800, height=500,scrollbars=yes');">Input Encoding</a>
                 <br />
-                <select name="encoding" id="encoding">
+                <select name="encoding" id="encoding" onchange="livetrans()">
                   <!--	    <option value="Unicode">Select encoding for Input</option> -->
                   <option value="Unicode">Unicode-Devanagari</option>
                   <option value="WX">WX-Alphabetic</option>
@@ -165,9 +195,12 @@
               </td>
             </tr>
             <tr>
+            <td id="devtext"></td>
+            </tr>
+            <tr>
               <td>
                 <br />
-                <textarea name="text" cols="100" rows="2" id="textbox-mt" placeholder="Type the sentence"></textarea>
+                <textarea name="text" cols="100" rows="2" id="textbox-mt" oninput="livetrans()" placeholder="Type the sentence"></textarea>
               </td>
             </tr>
             <tr>

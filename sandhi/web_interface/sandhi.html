@@ -23,6 +23,56 @@ function blinker() {
 
 setInterval(blinker, 1000);
 
+function livetrans () {
+  var codec = document.getElementById("encoding").value;
+  var itext = document.getElementById("text").value;
+  var itext1 = document.getElementById("text1").value;
+
+  var otext = "";
+  if (codec == "WX") {
+    otext = slp2dev(wx2slp(itext));
+  }
+  else if (codec == "Itrans") {
+    otext = slp2dev(itrans2slp(itext));
+  }
+  else if (codec == "VH") {
+    otext = slp2dev(vel2slp(itext));
+  }
+  else if (codec == "SLP") {
+    otext = slp2dev(itext);
+  }
+  else if (codec == "KH") {
+    otext = slp2dev(hk2slp(itext));
+  }
+  else if (codec == "IAST") {
+    otext = slp2dev(iast2slp(itext));
+  }
+
+  var otext1 = "";
+  if (codec == "WX") {
+    otext1 = slp2dev(wx2slp(itext1));
+  }
+  else if (codec == "Itrans") {
+    otext1 = slp2dev(itrans2slp(itext1));
+  }
+  else if (codec == "VH") {
+    otext1 = slp2dev(vel2slp(itext1));
+  }
+  else if (codec == "SLP") {
+    otext1 = slp2dev(itext1);
+  }
+  else if (codec == "KH") {
+    otext1 = slp2dev(hk2slp(itext1));
+  }
+  else if (codec == "IAST") {
+    otext1 = slp2dev(iast2slp(itext1));
+  }
+  document.getElementById("devtext").innerHTML = otext;
+  document.getElementById("devtext1").innerHTML = otext1;
+}
+
+setInterval(blinker, 1000);
+
 </script>
 
 <div id="description"> 
@@ -74,8 +124,15 @@ setInterval(blinker, 1000);
 <form name="f1" method="get" onsubmit="return callsandhi();">
 <table>
 <tr>
+<td></td>
+<td id="devtext"></td>
+<td id="devtext1"></td>
+<td></td>
+</tr>
+<tr>
+
 <td>
-      <select name="encoding"  id="encoding">
+	<select name="encoding"  id="encoding" onchange="livetrans()">>
         <!-- <option value="Unicode">Select Encoding</option> -->
 	<option value="Unicode">Unicode-Devanagari</option>
 	<option value="WX">WX-Alphabetic</option>
@@ -87,10 +144,10 @@ setInterval(blinker, 1000);
 </td>
 
 <td>
-    <input name="text" type="text" id="text"  placeholder="Enter the first word"/>
+    <input name="text" type="text" id="text" oninput="livetrans()" placeholder="Enter the first word"/>
 </td>
 <td>
-    <input name="text1" type="text" id="text1"  placeholder="Enter the second word"/>
+    <input name="text1" type="text" id="text1" oninput="livetrans()" placeholder="Enter the second word"/>
 </td>
 <td>
  <input value="submit" type="submit" id="submit-sandhi" class="styled-sandhi" /> 

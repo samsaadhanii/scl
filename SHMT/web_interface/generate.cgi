@@ -60,14 +60,18 @@ if ($outencoding eq "DEV") {
 }
 
 #grep the 1st character in a word;
-$word_wx =~ /^(.)/;
-$l = $1;
+$word_wx =~ /^(.)/; $l = $1;
 #forming file name using dic_name and Word
 chomp $dic_name;
 if($dic_name eq "apte"){
+        $sword =~ s/_//;
+        if($word_wx =~ /_/) { $word_wx =~ /_(.)/; $l = $1;}
+        else {$word_wx =~ /^(.)/; $l = $1;}
 	$filename = "$Files_Path/hi/Apte_dict/$l.xml";
 }
 elsif($dic_name eq "heritage"){
+        $sword =~ s/_//;
+        $word_wx =~ s/_//;
 	$l = &get_Heritage_Index($word_wx);
 	if($l eq "") {
            print "\n$sword not found in ";
@@ -77,10 +81,13 @@ elsif($dic_name eq "heritage"){
         }
 }
 elsif($dic_name eq "mw"){
+        $sword =~ s/_//;
+        $word_wx =~ /^(.)/; $l = $1;
 	$filename = "$Files_Path/en/MW/$l.new.html";
 }
 
 if($sword ne ""){
+   $word_wx =~ /^(.)/; $l = $1;
    if($dic_name ne "amara") {
 	  open(TMP,"$filename") || die print "$filename does not exist";
    }
