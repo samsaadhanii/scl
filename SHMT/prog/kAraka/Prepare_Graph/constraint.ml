@@ -1258,6 +1258,26 @@ let maprel = List.map (fun y -> List.nth relations (y-1) ) relsindag in
                                then  loop rest
                                else  loop1 rest1
                           ]
+         else if r1=76 then
+                               (* sahArWaH -92 & sahArWa_xyowaka -76 *)
+         loop1 maprel 
+         where rec loop1 = fun
+                          [ [] -> False (* do { print_string "failed case 5\n"; False} *)
+                          | [Relationc (x,y,r,z,t)::rest1] -> 
+                                if (x=c && y=d && r=92)
+                               then  loop rest
+                               else  loop1 rest1
+                          ]
+         else if r1=92 then
+                               (* sahArWaH -92 & sahArWa_xyowaka -76 *)
+         loop1 maprel 
+         where rec loop1 = fun
+                          [ [] -> False (* do { print_string "failed case 5\n"; False} *)
+                          | [Relationc (x,y,r,z,t)::rest1] -> 
+                                if (z=a && t=b && r=76)
+                               then  loop rest
+                               else  loop1 rest1
+                          ]
          else if r1=4 || r1 = 5 || r1 = 6 then (* BAvalakRaNasapwamI / karwA or karma *)
          loop1 maprel 
          where rec loop1 = fun

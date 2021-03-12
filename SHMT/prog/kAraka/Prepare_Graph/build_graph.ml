@@ -3629,11 +3629,11 @@ value rl_saha_vinA m1 m2 m3 text_type = match m3 with
              else match m2 with
              [ Avy (id2,mid2,word2,_,_,_,_) -> match word2 with
                     [ "saha" | "sAkam" | "sArXam" | "samam" | "sahiwaH" ->
-                         [ Relation (id1,mid1,"sahArWaH",id3,mid3,"31.1")
-                         ; Relation (id2,mid2,"sahArWa_xyowakaH",id1,mid1,"31.2")]
+                         [ Relation (id1,mid1,"sahArWaH",id3,mid3,"31b.1")
+                         ; Relation (id2,mid2,"sahArWa_xyowakaH",id1,mid1,"31b.2")]
 		    | "anwareNa" | "vinA" | "nAnA" | "pqWak" | "qwe" ->
-                         [ Relation (id1,mid1,"vinArWaH",id3,mid3,"31.1")
-                         ; Relation (id2,mid2,"vinArWa_xyowakaH",id1,mid1,"31.2")]
+                         [ Relation (id1,mid1,"vinArWaH",id3,mid3,"31b.1")
+                         ; Relation (id2,mid2,"vinArWa_xyowakaH",id1,mid1,"31b.2")]
                          
                     | _ -> []
                     ]

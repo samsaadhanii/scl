@@ -69,6 +69,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
       $sentences =~ s/:/ः/g;
       $sentences =~ s/\|[ ]+$/./g;
       $sentences =~ s/\.[ ]+$/./g;
+      $sentences =~ s/[ ]+$//g;
 
 
       $sentences=&convert($encoding,$sentences,$GlblVar::SCLINSTALLDIR);

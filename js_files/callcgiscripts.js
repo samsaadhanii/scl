@@ -160,8 +160,8 @@ function callashtadhyayisimulator(){
         var inputlang = encoding;
         var data = word;
         var stat = 0;
-	var reguni=/[अआइईउऊऋॠऌएऐओऔअंअःकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह ्ािीुूृॄॢेैोौंःळ\-]/;
-	var reg=/[aAiIuUqQlLeEoOMHzkKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRsh\-]/;
+	var reguni=/[अआइईउऊऋॠऌएऐओऔअंअःकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह ्ािीुूृॄॢेैोौंःळ\-ऽ]/;
+	var reg=/[aAiIuUqQlLeEoOMHzkKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRshZ\-]/;
 	var regitrans=/[aiuURiLIeoMH.Nkgh~NcChj~nThDtdpbmyrlvwGYsSA\^\-]/;
 	var regslp=/[aAiIuUfFlxeEoOMHkKgGNcCqQjJwWQRtTdDnpPbBmyrlvSzsh\-]/;
 	var regvel=/[aiurleomhkgncjtdpbyszv \~\"\?\-\_\.\,\!\-]/;

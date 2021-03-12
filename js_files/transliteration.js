@@ -38,8 +38,8 @@ else if(srclang == tarlang){
 }
 else if(srclang!="1" && tarlang!="1" && src!=""){
 
-	var reg=/[aAiIuUqQlLeEoOMHzkKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRsh \.\?\n \t,]/;
-        var reguni=/[अआइईउऊऋॠऌएऐओऔअंअःकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह ्ा्ािीुूृॄॢेैोौंः \-\_\\_[\]\(\)\? \.\,\!\"\'\`\+\/\|।॥ऽ०१२३४५६७८९\n\t]/;
+	var reg=/[aAiIuUqQlLeEoOMHzkKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRshZ \.\?\n \t,]/;
+        var reguni=/[अआइईउऊऋॠऌएऐओऔअंअःकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह ्ा्ािीुूृॄॢेैोौंः \-\_\\_[\]\(\)\? \.\,\!\"\'\`\+\/\|।॥ऽ०१२३४५६७८९\n\tऽ]/;
         var regitrans=/[AaiuURiLIeoMH.Nkgh~NcChjnThDtdpbmyrlvsS \?\-\_\.\,\!\^\n\t]/;
         var regslp=/[aAiIuUfFlxeEoOMHkKgGNcCqQjJwWQRtTdDnpPbBmyYrlvSzsh \?\-\_\.\,\!\n\t]/;
         var regvel=/[faiurleomhkgncjtdpbyszv \~\"\?\-\_\.\,\!\n\t]/;
