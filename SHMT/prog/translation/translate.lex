@@ -8,6 +8,6 @@
 \n\n	{printf("<@br>");}
 \n	{}
 [ \t]	{ printf(" ");}
-[a-zA-Z]+	{printf("%s",yytext);}
+[a-zA-Z\-\/]+	{printf("%s",yytext);}
 _	{printf(" ");}
 .	{}
