@@ -61,7 +61,7 @@ package main;
       $sentences =~ s/\|[ ]+$/./g;
       $sentences =~ s/\.[ ]+$/./g;
 
-      if ( -d $GlblVar::TFPATH/tmp_in$pid) {
+      if ( -d "$GlblVar::TFPATH/tmp_in$pid") {
 	      system("rm -rf $GlblVar::TFPATH/tmp_in$pid");
       }
       system("mkdir -p $GlblVar::TFPATH/tmp_in$pid");

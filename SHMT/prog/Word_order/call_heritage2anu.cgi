@@ -53,7 +53,7 @@ read(STDIN, $b, $ENV{'CONTENT_LENGTH'});
             $buffer .= $param{$field_nm};
     }
  my $pid = $$;
- if (-d $GlblVar::TFPATH/tmp_in$pid) { system ("rm -rf $GlblVar::TFPATH/tmp_in$pid");
+ if (-d "$GlblVar::TFPATH/tmp_in$pid") { system ("rm -rf $GlblVar::TFPATH/tmp_in$pid");
  system("mkdir -p $GlblVar::TFPATH/tmp_in$pid");
 
  system ("echo '$buffer' > /tmp/SKT_TEMP/abcd");

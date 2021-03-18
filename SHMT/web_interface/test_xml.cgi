@@ -82,7 +82,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 	 #print CGI-> redirect($cmd);
 	 print "location:$cmd\n\n";
       } else {
-         if(-d $GlblVar::TFPATH/tmp_in$pid) {
+         if(-d "$GlblVar::TFPATH/tmp_in$pid") {
             system("rm -rf $GlblVar::TFPATH/tmp_in$pid");
          }
          system("mkdir -p $GlblVar::TFPATH/tmp_in$pid");
