@@ -33,7 +33,7 @@ require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 
     #use CGI;
 
-my $pid = $$;
+    #my $pid = $$;
 
 #$query = new CGI;
 #$query->header(-charset => 'UTF-8');

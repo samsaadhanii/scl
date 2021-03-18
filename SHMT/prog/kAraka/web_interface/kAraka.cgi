@@ -71,6 +71,9 @@ $CGILOC = "/cgi-bin/scl/SHMT/";
       $sentences =~ s/\|[ ]+$/./g;
       $sentences =~ s/\.[ ]+$/./g;
 
+      # If the directory already exists, remove it.
+      if(-d "$TFPATH/tmp_in$pid") {system("rm -rf $TFPATH/tmp_in$pid");}
+
       system("mkdir -p $TFPATH/tmp_in$pid");
       open(TMP,">$TFPATH/tmp_in$pid/wor.$pid") || die "Can't open $TFPATH/tmp_in$pid/wor.$pid for writing";
       print TMP $sentences,"\n";

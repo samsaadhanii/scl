@@ -61,6 +61,9 @@ package main;
       $sentences =~ s/\|[ ]+$/./g;
       $sentences =~ s/\.[ ]+$/./g;
 
+      if ( -d $GlblVar::TFPATH/tmp_in$pid) {
+	      system("rm -rf $GlblVar::TFPATH/tmp_in$pid");
+      }
       system("mkdir -p $GlblVar::TFPATH/tmp_in$pid");
       open(TMP,">$GlblVar::TFPATH/tmp_in$pid/wor.$pid") || die "Can't open $GlblVar::TFPATH/tmp_in$pid/wor.$pid for writing";
       print TMP $sentences,"\n";

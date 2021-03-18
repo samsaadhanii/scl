@@ -56,9 +56,10 @@ print "</script>\n";
     close(TMP1);
   }
 
-my $pid = $$;
+  #my $pid = $$;
 
-my $result = `$GlblVar::SCLINSTALLDIR/amarakosha/callrel.pl $word $relation $encoding $out_encoding $pid`;
+#my $result = `$GlblVar::SCLINSTALLDIR/amarakosha/callrel.pl $word $relation $encoding $out_encoding $pid`;
+my $result = `$GlblVar::SCLINSTALLDIR/amarakosha/callrel.pl $word $relation $encoding $out_encoding`;
 print $result;
 
 print "<center><font size=5 color=\"white\">&nbsp;</font></center>";

@@ -20,7 +20,7 @@ my %param = &get_parameters("decode");
       $lifga=$param{linga};
       $vac=$param{vacana};
 
-      $pid = $$;
+      #$pid = $$;
       
       $pra=~ s/\r//g;
 

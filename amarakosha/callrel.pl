@@ -30,7 +30,7 @@ my $word = $ARGV[0];
 my $relation = $ARGV[1];
 my $encoding = $ARGV[2];
 my $out_encoding = $ARGV[3];
-my $pid = $ARGV[4];
+#my $pid = $ARGV[4];
 
       $word_wx=&convert($encoding,$word,$GlblVar::SCLINSTALLDIR);
       chomp($word_wx);
