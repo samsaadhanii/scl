@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-VI/SV-29/29.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-29/29.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">29.A</a>#!html/SV-VI/SV-29/29.jpg#!row1#!n1#!पथिक-अङ्गना
+row2#!number#!29.B</a>#!row2#!n1#!पथिक-अङ्गना
+row3#!number#!29.C</a>#!row3#!n1#!पथिक-अङ्गना{स्त्री;1;एक}
+row4#!number#!29.D</a>#!row4#!n1#!<a (click)=showDic('पथिक')>पथिक</a>-<a (click)=showDic('अङ्गना')>अङ्गना</a>{स्त्री;1;एक}
+row5#!number#!29.E</a>#!row5#!n1#!कर्ता,11
+row6#!number#!29.F</a>#!row6#!n1#!विदेश को गये हुए पति की पत्नी
+row7#!number#!29.G</a>#!row7#!n1#!Wife of a person who went on travel
+row8#!number#!29.H#!row8#!n1#!<a href="html/SV-VI/SV-29/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-29/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><पथिक-अङ्गना>T6</a>#!html/SV-VI/SV-29/samaasa1.jpg
+row9#!number#!29.I</a>#!row9#!n1#!
+row10#!number#!29.J</a>#!row10#!n1#!
+row11#!number#!29.K</a>#!row11#!n1#!
+row12#!number#!29.L</a>#!row12#!n1#!
+
+row1#!NA#!सपदि
+row2#!NA#!सपदि
+row3#!NA#!सपदि{अव्य}
+row4#!NA#!<a (click)=showDic('सपदि')>सपदि</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,4</a>
+row6#!NA#!तत्काल
+row7#!NA#!at that moment
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!जीवित-संशयम्
+row2#!n2#!जीवित-संशयम्
+row3#!n2#!जीवित-संशय{पुं;2;एक}/संशयपुं;2;एक}
+row4#!n2#!<a (click)=showDic('जीवित')>जीवित</a>-<a (click)=showDic('संशय')>संशय</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,4</a>
+row6#!n2#!मृत्यु_को
+row7#!n2#!death
+row8#!n2#!<a href="html/SV-VI/SV-29/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-29/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><जीवित-संशयः>T6</a>#!html/SV-VI/SV-29/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!एष्यती
+row2#!n1#!एष्यती
+row3#!n1#!एष्यती}
+row4#!n1#!<a (click)=showDic('इ1')>इ1</a>{कृत्_प्रत्ययः:शतृ;इण्;अदादिः;स्त्री}{1;एक}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,11</a>
+row6#!n1#!प्राप्त होती हुई
+row7#!n1#!while obtaining
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!'अच्छीनद्योर्नुम्' (7।1।80) इति विकल्पान्नुमभावः ।
+
+row1#!n5#!सनयनाम्बुसखीजनसम्भ्रमात्
+row2#!n5#!सनयनाम्बु-सखी-जन-सम्भ्रमात्
+row3#!n5#!सनयनाम्बुसखीजनसम्भ्रम{पुं;5;एक}
+row4#!n5#!<a (click)=showDic('सनयनाम्बु')>सनयनाम्बु</a>-<a (click)=showDic('सखी')>सखी</a>-<a (click)=showDic('जन')>जन</a>-<a (click)=showDic('सम्भ्रम')>सम्भ्रम</a>{पुं;5;एक}
+row5#!n5#!<a href="javascript:show('हेतुः,')">हेतुः,6</a>
+row6#!n5#!आँसुओं से युक्त सखी की घबराहट से
+row7#!n5#!by her dismay who is with tears in her eyes
+row8#!n5#!<a href="html/SV-VI/SV-29/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-29/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<स-<नयन-अम्बु>T6>BvS-<सखी-जन>K3>K3-सम्भ्रमः>T6</a>#!html/SV-VI/SV-29/samaasa3.jpg
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!
+
+row1#!n1#!विधुर-बन्धुः
+row2#!n1#!विधुर-बन्धुः
+row3#!n1#!विधुर-बन्धु{पुं;1;एक}/बन्धु{पुं;1;एक}
+row4#!n1#!<a (click)=showDic('विधुर')>विधुर</a>-<a (click)=showDic('बन्धु')>बन्धु</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('कर्तृसमानाधिकरणम्,')">कर्तृसमानाधिकरणम्,7</a>
+row6#!n1#!व्याकुल हो रहे हैं बन्धुजन जीसकी
+row7#!n1#!her relatives who were distressed
+row8#!n1#!<a href="html/SV-VI/SV-29/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-29/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><विधुर-बन्धुः>Bs6</a>#!html/SV-VI/SV-29/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!(सती)
+row2#!n1#!सती
+row3#!n1#!सति{स्त्री;1;द्वि}/सति{स्त्री;2;द्वि}/सति{स्त्री;8;द्वि}/सती{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('अस्2')>अस्2</a>{कृत्_प्रत्ययः:शतृ;असँ;अदादिः;स्त्री}{1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!रहने_पर
+row7#!n1#!being
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!अम्बु-मुचां
+row2#!n6#!अम्बु-मुचां
+row3#!n6#!अम्बु-मुच्{पुं;6;बहु}/मुच्{स्त्री;6;बहु}/मुच्{स्त्री;6;बहु}
+row4#!n6#!<a (click)=showDic('अम्बु')>अम्बु</a>-<a (click)=showDic('मुच्')>मुच्</a>{पुं;6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,9</a>
+row6#!n6#!बादलों_के
+row7#!n6#!of clouds
+row8#!n6#!<a href="html/SV-VI/SV-29/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-29/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अम्बु-मुच्>U</a>#!html/SV-VI/SV-29/samaasa5.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!पटलम्
+row2#!n2#!पटलम्
+row3#!n2#!पटल{नपुं;1;एक}/पटल{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('पटल')>पटल</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,11</a>
+row6#!n2#!समूह_को
+row7#!n2#!multitude
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!अबन्धुरम्
+row2#!n2#!अबन्धुरम्
+row3#!n2#!अबन्धुरम्}
+row4#!n2#!<a (click)=showDic('अबन्धुरम्')>अबन्धुरम्</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n2#!अशोभन_रूप_से
+row7#!n2#!inauspicious
+row8#!n2#!<a href="html/SV-VI/SV-29/samaasa6.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-29/samaasa6.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-बन्धुरः>Tn</a>#!html/SV-VI/SV-29/samaasa6.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!ऐक्षत
+row2#!v#!ऐक्षत
+row3#!v#!ईक्ष्1{कर्तरि;लङ्;प्र;एक;आत्मनेपदी;ईक्षँ;भ्वादिः}
+row4#!v#!<a (click)=showDic('ईक्ष्1')>ईक्ष्1</a>{कर्तरि;लङ्;प्र;एक;आत्मनेपदी;ईक्षँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!देखा.
+row7#!v#!saw.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!यमकम् ।
+row12#!v#!ईक्षतेर्लङ् 'आटश्च' (6।1।90) इति वृद्धिः ।
+
+

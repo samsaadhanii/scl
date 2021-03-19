@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-III/SV-26/26.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-26/26.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">26.A</a>#!html/SV-III/SV-26/26.jpg#!row1#!NA#!अथ
+row2#!number#!26.B</a>#!row2#!NA#!अथ 
+row3#!number#!26.C</a>#!row3#!NA#!अथ{अव्य}/अथ{अव्य} 
+row4#!number#!26.D</a>#!row4#!NA#!<a (click)=showDic('अथ')>अथ</a>{अव्य} 
+row5#!number#!26.E</a>#!row5#!NA#!सम्बन्धः,9
+row6#!number#!26.F</a>#!row6#!NA#!इस_के_बाद
+row7#!number#!26.G</a>#!row7#!NA#!Thereafter
+row8#!number#!26.H#!row8#!NA#!
+row9#!number#!26.I</a>#!row9#!NA#!
+row10#!number#!26.J</a>#!row10#!NA#!
+row11#!number#!26.K</a>#!row11#!NA#!
+row12#!number#!26.L</a>#!row12#!NA#!
+
+row1#!n1#!उच्चकैः-तोरण-सङ्ग-भङ्ग-भयावनम्रीकृत-केतनानि
+row2#!n1#!उच्चकैः-तोरण-सङ्ग-भङ्ग-भयावनम्रीकृत-केतनानि 
+row3#!n1#!उच्चकैः-तोरण-सङ्ग-भङ्ग-भयावनम्रीकृत-केतन{नपुं}{1;बहु}/केतन{नपुं}{2;बहु} 
+row4#!n1#!<a (click)=showDic('उच्चकैः')>उच्चकैः</a>-<a (click)=showDic('तोरण')>तोरण</a>-<a (click)=showDic('सङ्ग')>सङ्ग</a>-<a (click)=showDic('भङ्ग')>भङ्ग</a>-<a (click)=showDic('भयावनम्रीकृत')>भयावनम्रीकृत</a>-<a (click)=showDic('केतन')>केतन</a>{नपुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n1#!ऊँचें_तोरणों_में_लगकर_टूटने_के_भय_से_पताकाओं_को_झुकायें_हुए
+row7#!n1#!with their banners lowered for fear of breaking by striking against the high gateway
+row8#!n1#!<a href="html/SV-III/SV-26/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-26/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<उच्चक-तोरण>K1-सङ्ग>T3-भङ्ग>T3-भय>T5-<अवनम्रीकृत-केतनम्>K3>Bs3</a>#!html/SV-III/SV-26/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!सैन्यानि
+row2#!n1#!सैन्यानि 
+row3#!n1#!सैन्य{नपुं}{1;बहु}/सैन्य{नपुं}{2;बहु} 
+row4#!n1#!<a (click)=showDic('सैन्य')>सैन्य</a>{नपुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,9</a>
+row6#!n1#!सैनिक
+row7#!n1#!(his) armies
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!सोम-अन्वयम्
+row2#!n2#!सोमान्वयं 
+row3#!n2#!सोम-अन्वय{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('सोम')>सोम</a>-<a (click)=showDic('अन्वय')>अन्वय</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n2#!चन्द्रवंशी
+row7#!n2#!a descandant of the Moon
+row8#!n2#!<a href="html/SV-III/SV-26/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-26/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सोम-अन्वयः>T6</a>#!html/SV-III/SV-26/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!तं
+row2#!n2#!तं 
+row3#!n2#!तद्{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('तद्')>तद्</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n2#!उस 
+row7#!n2#!him
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!सुनीति-भाजं
+row2#!n2#!सुनीति-भाजं 
+row3#!n2#!सुनीति-भाज्{पुं}{2;एक}/भाज{पुं}{2;एक}/भाज{नपुं}{1;एक}/भाज{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('सुनीति')>सुनीति</a>-<a (click)=showDic('भाज्')>भाज्</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,9</a>
+row6#!n2#!श्रेष्ठ-नीतिवाले_पुरुष_के
+row7#!n2#!one who adopts a good policy
+row8#!n2#!<a href="html/SV-III/SV-26/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-26/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सुनीति-भाक्>U</a>#!html/SV-III/SV-26/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!क्रिया-फलानि
+row2#!n1#!क्रिया-फलानि 
+row3#!n1#!क्रिया-फल{नपुं}{1;बहु}/फल{नपुं}{2;बहु} 
+row4#!n1#!<a (click)=showDic('क्रिया')>क्रिया</a>-<a (click)=showDic('फल')>फल</a>{नपुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,8</a>
+row6#!n1#!कर्मों_का_फल
+row7#!n1#!fruits of one's actions
+row8#!n1#!<a href="html/SV-III/SV-26/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-26/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><क्रिया-फलम्>T6</a>#!html/SV-III/SV-26/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इव
+row2#!NA#!इव 
+row3#!NA#!इव{अव्य} 
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,3</a>
+row6#!NA#!जैसे 
+row7#!NA#!just as
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!अन्वयुः.
+row2#!v#!अन्वयुः 
+row3#!v#!अनु_या1{कर्तरि;लङ्;प्र;बहु;परस्मैपदी;या;अदादिः}.
+row4#!v#!<a (click)=showDic('अनु_या1')>अनु_या1</a>{कर्तरि;लङ्;प्र;बहु;परस्मैपदी;या;अदादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!पीछे चलते_हैं.
+row7#!v#!follow.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!उपजाति ।
+row11#!v#!-
+row12#!v#!यातेर्लङ् ‘लङः शाकटायनस्य’ (3।4।111) इति झेर्जुस् ।
+
+

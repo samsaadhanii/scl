@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-VII/SV-48/48.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-48/48.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">48.A</a>#!html/SV-VII/SV-48/48.jpg#!row1#!n1#!अन्या
+row2#!number#!48.B</a>#!row2#!n1#!अन्या
+row3#!number#!48.C</a>#!row3#!n1#!अन्या{स्त्री;1;एक}/अन्या{स्त्री;1;एक}
+row4#!number#!48.D</a>#!row4#!n1#!<a (click)=showDic('अन्या')>अन्या</a>{स्त्री;1;एक}
+row5#!number#!48.E</a>#!row5#!n1#!कर्ता,11
+row6#!number#!48.F</a>#!row6#!n1#!अन्या (अङ्गना)
+row7#!number#!48.G</a>#!row7#!n1#!Another (woman)
+row8#!number#!48.H#!row8#!n1#!
+row9#!number#!48.I</a>#!row9#!n1#!
+row10#!number#!48.J</a>#!row10#!n1#!
+row11#!number#!48.K</a>#!row11#!n1#!
+row12#!number#!48.L</a>#!row12#!n1#!
+
+row1#!n3#!उच्चतर-उच्चिचीषया
+row2#!n3#!उच्चतर-उच्चिचीषया
+row3#!n3#!उच्चतर-उच्चिचीषया}
+row4#!n3#!<a (click)=showDic('उच्चतर')>उच्चतर</a>-<a (click)=showDic('उच्चिचीषा')>उच्चिचीषा</a>{स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('हेतुः,')">हेतुः,6</a>
+row6#!n3#!अत्यधिक उन्नतस्थान पर स्थित पुष्पों को ग्रहण करने की इच्छा से
+row7#!n3#!with an intention to pluck cluster of flowers that are elevated
+row8#!n3#!<a href="html/SV-VII/SV-48/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-48/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><उच्चतर-उच्चिचीषा>T6</a>#!html/SV-VII/SV-48/samaasa1.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!चिनोतेः सन्नन्तास्त्रियामप्रत्यये टाप् । ‘विभाषा चेः’ (7।3।58) इति कुत्वविकल्पः ।
+
+row1#!n5#!मृदुचरणतलाग्र-दुःस्थितत्वात्
+row2#!n5#!मृदुचरणतलाग्र-दुःस्थितत्वात्
+row3#!n5#!मृदुचरणतलाग्र-दुःस्थितत्वात्}
+row4#!n5#!<a (click)=showDic('मृदुचरणतलाग्र')>मृदुचरणतलाग्र</a>-<a (click)=showDic('दुःस्थितत्व')>दुःस्थितत्व</a>{पुं;5;एक}
+row5#!n5#!<a href="javascript:show('हेतुः,')">हेतुः,6</a>
+row6#!n5#!कोमलपादाग्र पर कष्टपूर्वक ठहरने के कारण
+row7#!n5#!with a great difficulty stood on her tender feet
+row8#!n5#!<a href="html/SV-VII/SV-48/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-48/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<मृदु-चरण>K3-तलाग्र>T6-दुःस्थितत्वः>T3</a>#!html/SV-VII/SV-48/samaasa2.jpg
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!
+
+row1#!n6#!कुच-कुम्भयोः
+row2#!n6#!कुच-कुम्भयोः
+row3#!n6#!कुच-कुम्भ{पुं;6;द्वि}/कुम्भा{स्त्री;6;द्वि}/कुम्भ{पुं;7;द्वि}/कुम्भा{स्त्री;7;द्वि}
+row4#!n6#!<a (click)=showDic('कुच')>कुच</a>-<a (click)=showDic('कुम्भ')>कुम्भ</a>{पुं;6;द्वि}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,5</a>
+row6#!n6#!पीनस्तनरूपी घट के
+row7#!n6#!of heavy bosoms that are like jars
+row8#!n6#!<a href="html/SV-VII/SV-48/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-48/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कुच-कुम्भः>K5</a>#!html/SV-VII/SV-48/samaasa3.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!‘पुंसि सञ्ज्ञायां घः प्रायेण’ (3।3।117) इति घप्रत्ययः ।
+
+row1#!n6#!भरस्य
+row2#!n6#!भरस्य
+row3#!n6#!भर{पुं;6;एक}
+row4#!n6#!<a (click)=showDic('भर')>भर</a>{पुं;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,6</a>
+row6#!n6#!भार_को
+row7#!n6#!burden
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!असहतरा
+row2#!n1#!असहतरा
+row3#!n1#!असहतरा{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('असहतरा')>असहतरा</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,1</a>
+row6#!n1#!सहन करने में अत्यधिक निर्बल
+row7#!n1#!helpless
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!अथ
+row2#!NA#!अथ
+row3#!NA#!अथ{अव्य}/अथ{अव्य}
+row4#!NA#!<a (click)=showDic('अथ')>अथ</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,11</a>
+row6#!NA#!और
+row7#!NA#!hence
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!निरवलम्बनं
+row2#!n2#!निरवलम्बनं
+row3#!n2#!निरवलम्बनम्}
+row4#!n2#!<a (click)=showDic('निरवलम्बन')>निरवलम्बन</a>{नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,11</a>
+row6#!n2#!अवलम्बन के अभाव में
+row7#!n2#!she was unable to bear the burden
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n6#!प्रियस्य
+row2#!n6#!प्रियस्य
+row3#!n6#!प्रिय{पुं;6;एक}/प्रिय{नपुं;6;एक}
+row4#!n6#!<a (click)=showDic('प्रिय')>प्रिय</a>{पुं;6;एक}
+row5#!n6#!<a href="javascript:show('उपपदविभक्तिः,')">उपपदविभक्तिः,10</a>
+row6#!n6#!प्रिय_के
+row7#!n6#!beloved
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!NA#!उपरि
+row2#!NA#!उपरि
+row3#!NA#!उपरि{अव्य}
+row4#!NA#!<a (click)=showDic('उपरि')>उपरि</a>{अव्य}
+row5#!NA#!<a href="javascript:show('उपपदसम्बन्धः,')">उपपदसम्बन्धः,11</a>
+row6#!NA#!ऊपर
+row7#!NA#!on
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!न्यपतत्
+row2#!v#!न्यपतत्
+row3#!v#!न्यपतत्}
+row4#!v#!<a (click)=showDic('नि_पत्1')>नि_पत्1</a>{कर्तरि;लङ्;प्र;एक;परस्मैपदी;पत्लृँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!गिर_पड़ी.
+row7#!v#!fell down.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!पुष्पिताग्रा ।
+row11#!v#!स्वभावोक्तिः ।
+row12#!v#!
+
+

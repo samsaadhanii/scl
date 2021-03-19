@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-VI/SV-68/68.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-68/68.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">68.A</a>#!html/SV-VI/SV-68/68.jpg#!row1#!NA#!अरम्
+row2#!number#!68.B</a>#!row2#!NA#!अरम्
+row3#!number#!68.C</a>#!row3#!NA#!ऋ{स्त्री;2;एक}/अर{पुं;2;एक}
+row4#!number#!68.D</a>#!row4#!NA#!<a (click)=showDic('अरम्')>अरम्</a>{अव्य}
+row5#!number#!68.E</a>#!row5#!NA#!विशेषणम्,2
+row6#!number#!68.F</a>#!row6#!NA#!अत्यन्त
+row7#!number#!68.G</a>#!row7#!NA#!very much
+row8#!number#!68.H#!row8#!NA#!
+row9#!number#!68.I</a>#!row9#!NA#!
+row10#!number#!68.J</a>#!row10#!NA#!
+row11#!number#!68.K</a>#!row11#!NA#!
+row12#!number#!68.L</a>#!row12#!NA#!
+
+row1#!n1#!इष्टमधुवास-रसा
+row2#!n1#!इष्टमधुवास-रसा
+row3#!n1#!इष्टमधुवास-रसा{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('इष्टमधुवास')>इष्टमधुवास</a>-<a (click)=showDic('रसा')>रसा</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n1#!अभीष्ट मकरन्द में रहने की अभ्यस्त
+row7#!n1#!which is always desirous to consume honey
+row8#!n1#!<a href="html/SV-VI/SV-68/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-68/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<इष्ट-मधु>K3-वास>T7-रसा>Bs7</a>#!html/SV-VI/SV-68/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!अलिनाम्
+row2#!n6#!अलिनाम्
+row3#!n6#!अलिन्{पुं;6;बहु}
+row4#!n6#!<a (click)=showDic('अलिन्')>अलिन्</a>{पुं;6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,4</a>
+row6#!n6#!भ्रमरों_की
+row7#!n6#!of bees
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!आलिः
+row2#!n1#!आलिः
+row3#!n1#!आलि{पुं;1;एक}
+row4#!n1#!<a (click)=showDic('आलि')>आलि</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,12</a>
+row6#!n1#!श्रेणी
+row7#!n1#!cluster
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n7#!युवतिमान-निरासे
+row2#!n7#!युवतिमान-निरासे
+row3#!n7#!युवतिमान-निरास{पुं;7;एक}
+row4#!n7#!<a (click)=showDic('युवतिमान')>युवतिमान</a>-<a (click)=showDic('निरास')>निरास</a>{पुं;7;एक}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,12</a>
+row6#!n7#!युवतियों के मान को दूर करने में
+row7#!n7#!in removing the pride of women-folk
+row8#!n7#!<a href="html/SV-VI/SV-68/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-68/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<युवति-मान>T6-निरासः>T6</a>#!html/SV-VI/SV-68/samaasa2.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n2#!दक्षं
+row2#!n2#!दक्षं
+row3#!n2#!दक्ष{पुं;2;एक}
+row4#!n2#!<a (click)=showDic('दक्ष')>दक्ष</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n2#!कुशल
+row7#!n2#!expert
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!मधुवासरसारं
+row2#!n2#!मधुवासर-सारं
+row3#!n2#!मधुवासरसार{पुं;2;एक}/सार{नपुं;1;एक}/सार{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('मधुवासरसार')>मधुवासरसार</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n2#!वसन्त ऋतु के दिनों में सारभूत
+row7#!n2#!which is the best during spring season
+row8#!n2#!<a href="html/SV-VI/SV-68/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-68/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<मधु-वासर>T6-सारः>T6</a>#!html/SV-VI/SV-68/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!चूतम्
+row2#!n2#!चूतम्
+row3#!n2#!चूत{पुं;2;एक}
+row4#!n2#!<a (click)=showDic('चूत')>चूत</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,12</a>
+row6#!n2#!आम_के_पेड़_को
+row7#!n2#!mango tree
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n5#!अति-रागात्
+row2#!n5#!अति-रागात्
+row3#!n5#!अति-राग{पुं;5;एक}
+row4#!n5#!<a (click)=showDic('अति')>अति</a>-<a (click)=showDic('राग')>राग</a>{पुं;5;एक}
+row5#!n5#!<a href="javascript:show('हेतुः,')">हेतुः,10</a>
+row6#!n5#!अत्यन्त अनुराग होने के कारण
+row7#!n5#!out of very much longing
+row8#!n5#!-
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!
+
+row1#!NA#!उज्झितुं
+row2#!NA#!उज्झितुं
+row3#!NA#!उज्झ्1{अव्य;तुमुन्;उज्झँ;तुदादिः}
+row4#!NA#!<a (click)=showDic('उज्झ्1')>उज्झ्1</a>{अव्य;तुमुन्;उज्झँ;तुदादिः}
+row5#!NA#!<a href="javascript:show('प्रयोजनम्,')">प्रयोजनम्,12</a>
+row6#!NA#!छोडने_में
+row7#!NA#!to leave
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!न
+row2#!NA#!न
+row3#!NA#!न{अव्य}
+row4#!NA#!<a (click)=showDic('न')>न</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,12</a>
+row6#!NA#!नहीं
+row7#!NA#!not
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!अक्षमिष्ट
+row2#!v#!अक्षमिष्ट
+row3#!v#!क्षम्1{कर्तरि;लुङ्;प्र;एक;आत्मनेपदी;क्षमूँष्;भ्वादिः}
+row4#!v#!<a (click)=showDic('क्षम्1')>क्षम्1</a>{कर्तरि;लुङ्;प्र;एक;आत्मनेपदी;क्षमूँष्;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!हुआ.
+row7#!v#!able.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!स्वागता ।
+row11#!v#!यमकम् ।
+row12#!v#!
+
+

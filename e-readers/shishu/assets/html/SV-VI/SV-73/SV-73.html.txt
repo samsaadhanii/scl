@@ -1,0 +1,196 @@
+row1#!number#!<a href="html/SV-VI/SV-73/73.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-73/73.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">73.A</a>#!html/SV-VI/SV-73/73.jpg#!row1#!n2#!शिखरि-इन्द्रं
+row2#!number#!73.B</a>#!row2#!n2#!शिखरि-इन्द्रं
+row3#!number#!73.C</a>#!row3#!n2#!शिखरि-इन्द्र{पुं;2;एक}
+row4#!number#!73.D</a>#!row4#!n2#!<a (click)=showDic('शिखरि')>शिखरि</a>-<a (click)=showDic('इन्द्र')>इन्द्र</a>{पुं;2;एक}
+row5#!number#!73.E</a>#!row5#!n2#!उपपदविभक्तिः,2
+row6#!number#!73.F</a>#!row6#!n2#!पर्वतराज रैवतक
+row7#!number#!73.G</a>#!row7#!n2#!Raivataka mountain
+row8#!number#!73.H#!row8#!n2#!<a href="html/SV-VI/SV-73/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-73/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><शिखरि-इन्द्रः>T7</a>#!html/SV-VI/SV-73/samaasa1.jpg
+row9#!number#!73.I</a>#!row9#!n2#!
+row10#!number#!73.J</a>#!row10#!n2#!
+row11#!number#!73.K</a>#!row11#!n2#!
+row12#!number#!73.L</a>#!row12#!n2#!'अभितःपरितःसमया-' (वा०) इत्यादिना द्वितीया ।
+
+row1#!NA#!समया
+row2#!NA#!समया
+row3#!NA#!समया{अव्य}/समा{स्त्री;3;एक}/समा{स्त्री;3;एक}
+row4#!NA#!<a (click)=showDic('समया')>समया</a>{अव्य}
+row5#!NA#!<a href="javascript:show('उपपदसम्बन्धः,')">उपपदसम्बन्धः,15</a>
+row6#!NA#!के_समीप
+row7#!NA#!near
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n7#!अवनौ
+row2#!n7#!अवनौ
+row3#!n7#!अवनि{स्त्री;7;एक}
+row4#!n7#!<a (click)=showDic('अवनि')>अवनि</a>{स्त्री;7;एक}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,9</a>
+row6#!n7#!भूमि_पर
+row7#!n7#!on the land (of)
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n2#!घनमद-भ्रमराणि
+row2#!n2#!घनमद-भ्रमराणि
+row3#!n2#!घनमद-भ्रमराणि}
+row4#!n2#!<a (click)=showDic('घनमद')>घनमद</a>-<a (click)=showDic('भ्रमर')>भ्रमर</a>{नपुं;2;बहु}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n2#!अत्यन्त मद वाले भ्रमरों से युक्त
+row7#!n2#!with intoxicated bumble-bees
+row8#!n2#!<a href="html/SV-VI/SV-73/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-73/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<घन-मद>Bs6-भ्रमरम्>Bs7</a>#!html/SV-VI/SV-73/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!कुटजानि
+row2#!n2#!कुटजानि
+row3#!n2#!कुटजानि}
+row4#!n2#!<a (click)=showDic('कुटजानि')>कुटजानि</a>{नपुं;2;बहु}
+row5#!n2#!<a href="javascript:show('समुच्चितम्,')">समुच्चितम्,8</a>
+row6#!n2#!कोरैया के फूलों को
+row7#!n2#!coral swirls
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!वनौघ-नमद्-अभ्रं
+row2#!n2#!वनौघ-नमद्-अभ्रं
+row3#!n2#!वनौघ-नमद्-अभ्र}
+row4#!n2#!<a (click)=showDic('वनौघ')>वनौघ</a>-<a (click)=showDic('नमद्')>नमद्</a>-<a (click)=showDic('अभ्र')>अभ्र</a>{नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!जलभार से नीचे की ओर झुके हुए बादलों वाले
+row7#!n2#!with clouds that were bent down due to heaviness of water
+row8#!n2#!<a href="html/SV-VI/SV-73/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-73/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<वन-ओघ>T6-<नमद्-अभ्रमम्>K3>Bs7</a>#!html/SV-VI/SV-73/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!गगनं
+row2#!n2#!गगनं
+row3#!n2#!गगन{नपुं;1;एक}/गगन{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('गगन')>गगन</a>{नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('समुच्चितम्,')">समुच्चितम्,8</a>
+row6#!n2#!आकाश_को
+row7#!n2#!sky
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!च
+row2#!NA#!च
+row3#!NA#!च{अव्य}
+row4#!NA#!<a (click)=showDic('च')>च</a>{अव्य}
+row5#!NA#!<a href="javascript:show('समुच्चितकर्म,')">समुच्चितकर्म,9</a>
+row6#!NA#!और
+row7#!NA#!and
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!वीक्ष्य
+row2#!NA#!वीक्ष्य
+row3#!NA#!वीक्ष्य{पुं;8;एक}/वीक्ष्य{नपुं;8;एक}
+row4#!NA#!<a (click)=showDic('वि_ ईक्ष्1')>वि_ ईक्ष्1</a>{कृत्_प्रत्ययः:ल्यप्;ईक्षँ;भ्वादिः}
+row5#!NA#!<a href="javascript:show('पूर्वकाल,')">पूर्वकाल,15</a>
+row6#!NA#!देख_कर
+row7#!NA#!having seen
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!शिखिभिः
+row2#!n3#!शिखिभिः
+row3#!n3#!शिखिन्{पुं;3;बहु}
+row4#!n3#!<a (click)=showDic('शिखिन्')>शिखिन्</a>{पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,15</a>
+row6#!n3#!मोरों_के_द्वारा
+row7#!n3#!by Peacocks
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n6#!गीत-निनदस्य
+row2#!n6#!गीत-निनदस्य
+row3#!n6#!गीत-निनद{पुं;6;एक}
+row4#!n6#!<a (click)=showDic('गीत')>गीत</a>-<a (click)=showDic('निनद')>निनद</a>{पुं;6;एक}
+row5#!n6#!<a href="javascript:show('उपपदविभक्तिः,')">उपपदविभक्तिः,12</a>
+row6#!n6#!'केका' नामक गीत-निनद_के
+row7#!n6#!'Keka' sound aloud
+row8#!n6#!<a href="html/SV-VI/SV-73/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-73/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><गीत-निनदः>T6</a>#!html/SV-VI/SV-73/samaasa4.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!'तुल्यार्थे-' (2।3।72) इत्यादिना वैकल्पिकी षष्ठी ।
+
+row1#!NA#!समया
+row2#!NA#!समया
+row3#!NA#!समया{अव्य}/समा{स्त्री;3;एक}/समा{स्त्री;3;एक}
+row4#!NA#!<a (click)=showDic('समया')>समया</a>{अव्य}
+row5#!NA#!<a href="javascript:show('उपपदसम्बन्धः,')">उपपदसम्बन्धः,15</a>
+row6#!NA#!समान
+row7#!NA#!equal to
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!गिरा
+row2#!n3#!गिरा
+row3#!n3#!गिर्{स्त्री;3;एक}/गिरा{स्त्री;1;एक}
+row4#!n3#!<a (click)=showDic('गिर्')>गिर्</a>{स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('करण,')">करण,15</a>
+row6#!n3#!वाणी_से
+row7#!n3#!with sound
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!उच्चैः
+row2#!NA#!उच्चैः
+row3#!NA#!उच्चैः{अव्य}/उच्च{पुं;3;बहु}/उच्च{नपुं;3;बहु}
+row4#!NA#!<a (click)=showDic('उच्चैः')>उच्चैः</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रियाविशेषणम्,')">क्रियाविशेषणम्,15</a>
+row6#!NA#!उच्च स्वर_से
+row7#!NA#!aloud
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!अराणि
+row2#!v#!अराणि
+row3#!v#!रण्1{भावे;लुङ्;प्र;एक;आत्मनेपदी;रणँ;भ्वादिः}/रण्2{कर्मणि;लुङ्;प्र;एक;आत्मनेपदी;रणँ;भ्वादिः}
+row4#!v#!<a (click)=showDic('रण्2')>रण्2</a>{भावे;लुङ्;प्र;एक;आत्मनेपदी;रणँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!शब्द_करने_लगें.
+row7#!v#!made.
+row8#!v#!-
+row9#!v#!भावे
+row10#!v#!कुटजा ।
+row11#!v#!यमकम् ।
+row12#!v#!
+
+

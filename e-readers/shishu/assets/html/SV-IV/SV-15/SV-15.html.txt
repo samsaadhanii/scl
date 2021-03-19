@@ -1,0 +1,183 @@
+row1#!number#!<a href="html/SV-IV/SV-15/15.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-15/15.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">15.A</a>#!html/SV-IV/SV-15/15.jpg#!row1#!NA#!यत्र
+row2#!number#!15.B</a>#!row2#!NA#!यत्र
+row3#!number#!15.C</a>#!row3#!NA#!यत्र{अव्य}
+row4#!number#!15.D</a>#!row4#!NA#!<a (click)=showDic('यत्र')>यत्र</a>{अव्य}
+row5#!number#!15.E</a>#!row5#!NA#!अधिकरणम्,14
+row6#!number#!15.F</a>#!row6#!NA#!जिस (रैवतक पर्वत पर)
+row7#!number#!15.G</a>#!row7#!NA#!On which (raivataka mountain)
+row8#!number#!15.H#!row8#!NA#!
+row9#!number#!15.I</a>#!row9#!NA#!
+row10#!number#!15.J</a>#!row10#!NA#!
+row11#!number#!15.K</a>#!row11#!NA#!
+row12#!number#!15.L</a>#!row12#!NA#!
+
+row1#!n3#!सम्-उन्-नमद्भिः
+row2#!n3#!सम्-उन्-नमद्भिः
+row3#!n3#!नमत्{;नपुं;3;बहु(सम्-उन्-;शतृ_लट्;णमँ;भ्वादिः)}/नमत्{;पुं;3;बहु(;शतृ_लट्;णमँ;भ्वादिः)}
+row4#!n3#!<a (click)=showDic('सम्_उन्_नमत्')>सम्_उन्_नमत्</a>{;पुं;3;बहु(सम्-उन्-णम्1;शतृ_लट्;णमँ;भ्वादिः)}
+row5#!n3#!<a href="javascript:show('समानकालः,')">समानकालः,14</a>
+row6#!n3#!ऊपर को उमड़ते हुए
+row7#!n3#!by the rising
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!अम्बु-वाहैः
+row2#!n3#!अम्बु-वाहैः
+row3#!n3#!अम्बु-वाह{;पुं;3;बहु}/वाह{;नपुं;3;बहु}
+row4#!n3#!<a (click)=showDic('अम्बु')>अम्बु</a>-<a (click)=showDic('वाह')>वाह</a>{;पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n3#!बादलों_से
+row7#!n3#!by the clouds
+row8#!n3#!<a href="html/SV-IV/SV-15/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-15/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अम्बु-वाहः>U</a>#!html/SV-IV/SV-15/samaasa1.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!उज्झिताभिः
+row2#!n3#!उज्झिताभिः
+row3#!n3#!उज्झिता{;स्त्री;3;बहु(;क्त;उद्झँ;तुदादिः)}
+row4#!n3#!<a (click)=showDic('उज्झिता')>उज्झिता</a>{;स्त्री;3;बहु(उद्झ्1;क्त;उद्झँ;तुदादिः)}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n3#!वर्षाये गये
+row7#!n3#!poured down
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!अद्भिः
+row2#!n3#!अद्भिः
+row3#!n3#!अप्{;स्त्री;3;बहु}
+row4#!n3#!<a (click)=showDic('अप्')>अप्</a>{;स्त्री;3;बहु}
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,14</a>
+row6#!n3#!जलों_से
+row7#!n3#!by the waters
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!मुहुः
+row2#!NA#!मुहुः
+row3#!NA#!मुहुः{अव्य}
+row4#!NA#!<a (click)=showDic('मुहुः')>मुहुः</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,7</a>
+row6#!NA#!बार-बार
+row7#!NA#!frequently
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!समुन्नम्
+row2#!n2#!समुन्नम्
+row3#!n2#!समुन्न{;पुं;2;एक}/समुन्न{;नपुं;1;एक}/समुन्न{;नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('समुन्न')>समुन्न</a>{;नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,10</a>
+row6#!n2#!भिगोये हुए
+row7#!n2#!moistened
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!‘उन्दी क्लेदने’ इति धातोः कर्मणि क्तः । 'नुदविद-' (8।2।56) इत्यादिना निष्ठानत्वम् ।
+
+row1#!n6#!अविपन्नगानां
+row2#!n6#!अविपन्नगानां
+row3#!n6#!अविपन्नग{;पुं;6;बहु}/नग{;नपुं;6;बहु}/नगा{;स्त्री;6;बहु}
+row4#!n6#!<a (click)=showDic('अ')>अ</a>-<a (click)=showDic('विपन्नग')>विपन्नग</a>{;पुं;6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,9</a>
+row6#!n6#!सर्पों_से_युक्त
+row7#!n6#!possessed with serpents
+row8#!n6#!<a href="html/SV-IV/SV-15/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-15/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अ-विपन्नगः>Bsmn</a>#!html/SV-IV/SV-15/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!नगानां
+row2#!n6#!नगानां
+row3#!n6#!नग{;पुं;6;बहु}
+row4#!n6#!<a (click)=showDic('नग')>नग</a>{;पुं;6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,10</a>
+row6#!n6#!वृक्षों_से_युक्त
+row7#!n6#!with trees
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!वनं
+row2#!n2#!वनं
+row3#!n2#!वन{;नपुं;1;एक}/वन{;नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('वन')>वन</a>{;नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,14</a>
+row6#!n2#!वन_को
+row7#!n2#!forests
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!विषपावक-उत्था
+row2#!n1#!विषपावक-उत्था
+row3#!n1#!विषपावक-उत्था{;स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('विषपावक')>विषपावक</a>-<a (click)=showDic('उत्था')>उत्था</a>{;स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,12</a>
+row6#!n1#!विष की अग्नि से उत्पन्न
+row7#!n1#!arising from the fire of poison
+row8#!n1#!<a href="html/SV-IV/SV-15/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-15/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<विष-पावक>K6-उत्था>U</a>#!html/SV-IV/SV-15/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!विपद्
+row2#!n1#!विपद्
+row3#!n1#!विपद्{;स्त्री;1;एक}/विपद्{;स्त्री;8;एक}
+row4#!n1#!<a (click)=showDic('विपद्')>विपद्</a>{;स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,14</a>
+row6#!n1#!विपत्_ने
+row7#!n1#!the calamity
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!न
+row2#!NA#!न
+row3#!NA#!न{अव्य}/नस्{;स्त्री;8;एक}
+row4#!NA#!<a (click)=showDic('न')>न</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,14</a>
+row6#!NA#!नहीं
+row7#!NA#!not
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!बबाधे
+row2#!v#!बबाधे
+row3#!v#!बाध्1{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;बाधृँ;भ्वादिः}/बाध्1{कर्तरि;लिट्;उ;एक;आत्मनेपदी;बाधृँ;भ्वादिः}/बाध्1{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;बाधृँ;भ्वादिः}/बाध्1{कर्मणि;लिट्;उ;एक;आत्मनेपदी;बाधृँ;भ्वादिः}
+row4#!v#!<a (click)=showDic('बाध्1')>बाध्1</a>{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;बाधृँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!पीड़ित_किया.
+row7#!v#!befall.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!उपजाति ।
+row11#!v#!-
+row12#!v#!
+
+

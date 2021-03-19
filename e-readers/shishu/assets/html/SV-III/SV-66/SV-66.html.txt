@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-III/SV-66/66.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-66/66.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">66.A</a>#!html/SV-III/SV-66/66.jpg#!row1#!n1#!अन्योऽन्य-मुखाग्र-सङ्गस्खलत्-खलीनं
+row2#!number#!66.B</a>#!row2#!n1#!अन्योऽन्य-मुखाग्र-सङ्गस्खलत्-खलीनं 
+row3#!number#!66.C</a>#!row3#!n1#!अन्योऽन्य-मुखाग्र-सङ्गस्खलत्-खलीन{पुं}{2;एक} 
+row4#!number#!66.D</a>#!row4#!n1#!<a (click)=showDic('अन्योऽन्य')>अन्योऽन्य</a>-<a (click)=showDic('मुखाग्र')>मुखाग्र</a>-<a (click)=showDic('सङ्गस्खलत्')>सङ्गस्खलत्</a>-<a (click)=showDic('खलीन')>खलीन</a>{नपुं}{1;एक} 
+row5#!number#!66.E</a>#!row5#!n1#!कर्म,2
+row6#!number#!66.F</a>#!row6#!n1#!एक दूसरे_के_मुखाग्र_के_सटने_से_रगड़ खाती_हुई
+row7#!number#!66.G</a>#!row7#!n1#!Who pressed so much against one another that their bits slipped on account of their mouths
+row8#!number#!66.H#!row8#!n1#!<a href="html/SV-III/SV-66/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-66/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<अन्योऽन्य<मुख-अग्र>T6-सङ्ग>T7-स्खलत्खलीनम्>Bs7</a>#!html/SV-III/SV-66/samaasa1.jpg
+row9#!number#!66.I</a>#!row9#!n1#!
+row10#!number#!66.J</a>#!row10#!n1#!
+row11#!number#!66.K</a>#!row11#!n1#!
+row12#!number#!66.L</a>#!row12#!n1#!
+
+row1#!n3#!श्लिष्यद्भिः
+row2#!n3#!श्लिष्यद्भिः 
+row3#!n3#!श्लिष्यत्{पुं}{3;बहु}/श्लिष्यत्{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('श्लिष्2')>श्लिष्2</a>{कृत्_प्रत्ययः:शतृ;श्लिषँ;दिवादिः;पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n3#!लगामों_वाले
+row7#!n3#!coming into close contact with one another
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!विलोलैः
+row2#!n3#!विलोलैः 
+row3#!n3#!विलोल{पुं}{3;बहु}/विलोल{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('विलोल')>विलोल</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n3#!चंचल
+row7#!n3#!restive
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!हरिभिः
+row2#!n3#!हरिभिः 
+row3#!n3#!हरि{पुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('हरि')>हरि</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('करण,')">करण,8</a>
+row6#!n3#!घोड़ों_से
+row7#!n3#!horses
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!अश्ववाराः
+row2#!n1#!अश्ववाराः 
+row3#!n1#!अश्ववार{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('अश्ववार')>अश्ववार</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n1#!घुड़सवार
+row7#!n1#!the horsemen
+row8#!n1#!<a href="html/SV-III/SV-66/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-66/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अश्व-वारः>U</a>#!html/SV-III/SV-66/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!परस्पर-उत्पीडित-जानुभागाः
+row2#!n1#!परस्पर-उत्पीडित-जानुभागाः 
+row3#!n1#!परस्पर-उत्पीडित-जानुभागाः 
+row4#!n1#!<a (click)=showDic('परस्पर')>परस्पर</a>-<a (click)=showDic('उत्पीडित')>उत्पीडित</a>-<a (click)=showDic('जानुभाग')>जानुभाग</a>{पुं}{1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!परस्पर दबे_हुए_जंघोंवाले
+row7#!n1#!who had their thighs rubbed against those of others
+row8#!n1#!<a href="html/SV-III/SV-66/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-66/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<परस्पर-उत्पीडित>T3-जानुभागः>Bs6</a>#!html/SV-III/SV-66/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!दुःखेन
+row2#!n3#!दुःखेन 
+row3#!n3#!दुःख{नपुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('दुःख')>दुःख</a>{नपुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('हेतुः,')">हेतुः,8</a>
+row6#!n3#!बड़े कष्ट_से
+row7#!n3#!with great difficulty
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!v#!निश्चक्रमुः.
+row2#!v#!निश्चक्रमुः 
+row3#!v#!निस्_क्रम्1{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;क्रमुँ;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('निस्_क्रम्1')>निस्_क्रम्1</a>{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;क्रमुँ;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!बाहर_निकलें.
+row7#!v#!went out.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!उपजाति ।
+row11#!v#!स्वभावोक्तिः + अतिशयोक्तिः = सङ्करः ।
+row12#!v#!
+
+

@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-IX/SV-28/28.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-28/28.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">28.A</a>#!html/SV-IX/SV-28/28.jpg#!row1#!n6#!नवचन्द्रिकाकुसुमकीर्णतमःकबरी-भृतः
+row2#!number#!28.B</a>#!row2#!n6#!नवचन्द्रिकाकुसुमकीर्णतमःकबरी-भृतः
+row3#!number#!28.C</a>#!row3#!n6#!नवचन्द्रिकाकुसुमकीर्णतमःकबरी-भृत{;पुं;1;एक}
+row4#!number#!28.D</a>#!row4#!n6#!<a (click)=showDic('नवचन्द्रिकाकुसुमकीर्णतमःकबरी')>नवचन्द्रिकाकुसुमकीर्णतमःकबरी</a>-<a (click)=showDic('भृ2')>भृ2</a>{क्त;डुँभृञ्;जुहोत्यादिः;;पुं;6;एक}
+row5#!number#!28.E</a>#!row5#!n6#!विशेषणम्,2
+row6#!number#!28.F</a>#!row6#!n6#!नवीन चाँदनीरूप पुष्पों से व्याप्त (पक्ष-सजाये गये) अन्धकाररूपी केशजाल से युक्त
+row7#!number#!28.G</a>#!row7#!n6#!decked with new sandalwood and flowers of moonlight to the tuft of darkness
+row8#!number#!28.H#!row8#!n6#!<a href="html/SV-IX/SV-28/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-28/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<नव-<चन्द्रिका-कुसुम>K6>K3-<कीर्ण-तम>K3>T3-कबरी>K6-भृत्>U</a>#!html/SV-IX/SV-28/samaasa1.jpg
+row9#!number#!28.I</a>#!row9#!n6#!
+row10#!number#!28.J</a>#!row10#!n6#!
+row11#!number#!28.K</a>#!row11#!n6#!
+row12#!number#!28.L</a>#!row12#!n6#!जानपद (4।1।42) इत्यादिना ङीप् ।
+
+row1#!n6#!हरेः
+row2#!n6#!हरेः
+row3#!n6#!हरि{;पुं;5;एक}/हरि{;पुं;6;एक}/हृ1{कर्तरि;विधिलिङ्;म;एक;परस्मैपदी;हृञ्;भ्वादिः}
+row4#!n6#!<a (click)=showDic('हरि')>हरि</a>{;पुं;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,3</a>
+row6#!n6#!इन्द्र_के
+row7#!n6#!of Indra
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!हरितः
+row2#!n6#!हरितः
+row3#!n6#!हरित्{;पुं;1;बहु}/हरित्{;पुं;2;बहु}/हरित्{;पुं;5;एक}/हरित्{;पुं;6;एक}/हरित्{;पुं;8;बहु}/हरित्{;स्त्री;1;बहु}/हरित्{;स्त्री;2;बहु}/हरित्{;स्त्री;5;एक}/हरित्{;स्त्री;6;एक}/हरित्{;स्त्री;8;बहु}/हरित{;पुं;1;एक}
+row4#!n6#!<a (click)=showDic('हरित्')>हरित्</a>{;पुं;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,4</a>
+row6#!n6#!पूर्व_दिशा_के
+row7#!n6#!of the eastern direction
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n7#!मुखे
+row2#!n7#!मुखे
+row3#!n7#!मुख{;नपुं;1;द्वि}/मुख{;नपुं;2;द्वि}/मुख{;नपुं;8;द्वि}/मुख{;पुं;7;एक}/मुख{;नपुं;7;एक}
+row4#!n7#!<a (click)=showDic('मुख')>मुख</a>{;नपुं;7;एक}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,9</a>
+row6#!n7#!मुख_पर
+row7#!n7#!on the face
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n1#!ललाटतट-हारि
+row2#!n1#!ललाटतट-हारि
+row3#!n1#!ललाटतट-हारि{;नपुं;1;एक}/हारि{;नपुं;2;एक}/हारिन्{;नपुं;1;एक}/हारिन्{;नपुं;2;एक}/हारि{;नपुं;8;एक}/हारी{;स्त्री;8;एक}
+row4#!n1#!<a (click)=showDic('ललाटतट')>ललाटतट</a>-<a (click)=showDic('हारि')>हारि</a>{;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!ललाटप्रदेश के सदृश मनोहर
+row7#!n1#!beautiful on the forepart
+row8#!n1#!<a href="html/SV-IX/SV-28/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-28/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<ललाट-तट>T6-हारि>K4</a>#!html/SV-IX/SV-28/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!तुहिनरश्मि-दलं
+row2#!n1#!तुहिनरश्मि-दलं
+row3#!n1#!तुहिनरश्मि-दल{;पुं;2;एक}/दल{;नपुं;1;एक}/दल{;नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('तुहिनरश्मि')>तुहिनरश्मि</a>-<a (click)=showDic('दल')>दल</a>{;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,9</a>
+row6#!n1#!चन्द्रमा का आधा भाग
+row7#!n1#!the crescent moon
+row8#!n1#!<a href="html/SV-IX/SV-28/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-28/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<तुहिन-रश्मि>T6-दलः>T6</a>#!html/SV-IX/SV-28/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!मलय-आर्द्रम्
+row2#!n1#!मलय-आर्द्रम्
+row3#!n1#!मलय-आर्द्र{;पुं;2;एक}/आर्द्र{;नपुं;1;एक}/आर्द्र{;नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('मलय')>मलय</a>-<a (click)=showDic('आर्द्र')>आर्द्र</a>{;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,8</a>
+row6#!n1#!मलयज चन्दन से गीले हुए
+row7#!n1#!smeared in the form of mountains of Malaya
+row8#!n1#!<a href="html/SV-IX/SV-28/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-28/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><मलय-आर्द्रम्>T3</a>#!html/SV-IX/SV-28/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इव
+row2#!NA#!इव
+row3#!NA#!इव{अव्य}
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,6</a>
+row6#!NA#!जैसे
+row7#!NA#!as if
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!ददृशे
+row2#!v#!ददृशे
+row3#!v#!दृश्1{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;दृशिँर्;भ्वादिः}/दृश्1{कर्मणि;लिट्;उ;एक;आत्मनेपदी;दृशिँर्;भ्वादिः}
+row4#!v#!<a (click)=showDic('दृश्1')>दृश्1</a>{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;दृशिँर्;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!परिलक्षित होने लगा.
+row7#!v#!were appearing.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!प्रमिताक्षरा ।
+row11#!v#!रूपकम् + उत्प्रेक्षा = सङ्करः ।
+row12#!v#!
+
+

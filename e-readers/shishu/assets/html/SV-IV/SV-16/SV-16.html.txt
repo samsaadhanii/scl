@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-IV/SV-16/16.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-16/16.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">16.A</a>#!html/SV-IV/SV-16/16.jpg#!row1#!n1#!यः
+row2#!number#!16.B</a>#!row2#!n1#!यः
+row3#!number#!16.C</a>#!row3#!n1#!यद्{सर्वनाम;पुं;1;एक}
+row4#!number#!16.D</a>#!row4#!n1#!<a (click)=showDic('यद्')>यद्</a>{सर्वनाम;पुं;1;एक}
+row5#!number#!16.E</a>#!row5#!n1#!कर्ता,11
+row6#!number#!16.F</a>#!row6#!n1#!जो (रैवतक पर्वत)
+row7#!number#!16.G</a>#!row7#!n1#!That raivataka mountain
+row8#!number#!16.H#!row8#!n1#!
+row9#!number#!16.I</a>#!row9#!n1#!
+row10#!number#!16.J</a>#!row10#!n1#!
+row11#!number#!16.K</a>#!row11#!n1#!
+row12#!number#!16.L</a>#!row12#!n1#!
+
+row1#!n5#!उष्णांशुकर-अभिमर्शात्
+row2#!n5#!उष्णांशुकर-अभिमर्शात्
+row3#!n5#!उष्णांशुकर-अभिमर्श{;पुं;5;एक}/अभिमर्श{;नपुं;5;एक}
+row4#!n5#!<a (click)=showDic('उष्णांशुकर')>उष्णांशुकर</a>-<a (click)=showDic('अभिमर्श')>अभिमर्श</a>{;पुं;5;एक}
+row5#!n5#!<a href="javascript:show('हेतुः,')">हेतुः,5</a>
+row6#!n5#!सूर्य की किरणों के सम्पर्क से
+row7#!n5#!due to the touch of the Sun’s rays
+row8#!n5#!<a href="html/SV-IV/SV-16/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-16/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<उष्ण-अंशु>Bs6-कर>T6-अभिमर्शः>T6</a>#!html/SV-IV/SV-16/samaasa1.jpg
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!
+
+row1#!n2#!कार्शनवं
+row2#!n2#!कार्शनवं
+row3#!n2#!कार्शनवम्}
+row4#!n2#!<a (click)=showDic('कार्शनव')>कार्शनव</a>{नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n2#!अग्नि_के
+row7#!n2#!of fire
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!धाम
+row2#!n2#!धाम
+row3#!n2#!धामन्{;नपुं;1;एक}/धामन्{;नपुं;2;एक}/धामन्{;नपुं;8;एक}
+row4#!n2#!<a (click)=showDic('धामन्')>धामन्</a>{;नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,5</a>
+row6#!n2#!तेज_को
+row7#!n2#!lustre
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n3#!फलद्भिः
+row2#!n3#!फलद्भिः
+row3#!n3#!फलत्{;नपुं;3;बहु(;शतृ_लट्;फलँ;भ्वादिः)}/फलत्{;पुं;3;बहु(;शतृ_लट्;फलँ;भ्वादिः)}/फलत्{;नपुं;3;बहु(;शतृ_लट्;ञिफलाँ;भ्वादिः)}/फलत्{;पुं;3;बहु(;शतृ_लट्;ञिफलाँ;भ्वादिः)}
+row4#!n3#!<a (click)=showDic('फलत्')>फलत्</a>{;पुं;3;बहु(फल्2;शतृ_लट्;फलँ;भ्वादिः)}
+row5#!n3#!<a href="javascript:show('समानकालः,')">समानकालः,11</a>
+row6#!n3#!गलते_हुए
+row7#!n3#!while emitting
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!पतङ्गकान्तैः
+row2#!n3#!पतङ्गकान्तैः
+row3#!n3#!पतङ्गक{स्त्री-अन्त;;पुं;3;बहु}/अन्त{;नपुं;3;बहु}
+row4#!n3#!<a (click)=showDic('पतङ्गकान्त')>पतङ्गकान्त</a>{पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,8</a>
+row6#!n3#!सूर्यकान्तमणियों के द्वारा
+row7#!n3#!by means of its sunstones
+row8#!n3#!<a href="html/SV-IV/SV-16/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-16/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><पतङ्ग-कान्तः>Bs6</a>#!html/SV-IV/SV-16/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n6#!गुणानां
+row2#!n6#!गुणानां
+row3#!n6#!गुण{;पुं;6;बहु}/गुणा{;स्त्री;6;बहु}
+row4#!n6#!<a (click)=showDic('गुण')>गुण</a>{;पुं;6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,8</a>
+row6#!n6#!गुणों_का
+row7#!n6#!that the good qualities that are imparted to it
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!सङ्क्रान्तिम्
+row2#!n2#!सङ्क्रान्तिम्
+row3#!n2#!सङ्क्रान्ति{;स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('सङ्क्रान्ति')>सङ्क्रान्ति</a>{;स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,11</a>
+row6#!n2#!सङ्क्रमण_को
+row7#!n2#!which substantiated
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n5#!पात्र-गुणात्
+row2#!n5#!पात्र-गुणात्
+row3#!n5#!पात्र-गुण{;पुं;5;एक}/गुण{;नपुं;5;एक}
+row4#!n5#!<a (click)=showDic('पात्र')>पात्र</a>-<a (click)=showDic('गुण')>गुण</a>{;पुं;5;एक}
+row5#!n5#!<a href="javascript:show('हेतुः,')">हेतुः,11</a>
+row6#!n5#!आधार के गुण के साहचर्य से
+row7#!n5#!with the association of the reliable virtues
+row8#!n5#!<a href="html/SV-IV/SV-16/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-16/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><पात्र-गुणः>T6</a>#!html/SV-IV/SV-16/samaasa3.jpg
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!
+
+row1#!n2#!आक्रान्तगुण-अतिरेकां
+row2#!n2#!आक्रान्तगुण-अतिरेकां
+row3#!n2#!आक्रान्तगुण-अतिरेका{;स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('आक्रान्तगुण')>आक्रान्तगुण</a>-<a (click)=showDic('अतिरेका')>अतिरेका</a>{;स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्मसमानाधिकरणम्,')">कर्मसमानाधिकरणम्,11</a>
+row6#!n2#!अधिक उत्कर्ष को प्राप्त
+row7#!n2#!acquire higher excellence
+row8#!n2#!<a href="html/SV-IV/SV-16/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-16/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><आक्रान्त-गुणातिरेका>Bs6</a>#!html/SV-IV/SV-16/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!शशंस
+row2#!v#!शशंस
+row3#!v#!शशंस}
+row4#!v#!<a (click)=showDic('शंस्1')>शंस्1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;शन्सुँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!प्रशंसा_किया.
+row7#!v#!praised.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!उपजाति ।
+row11#!v#!वृत्यनुप्रासः ।
+row12#!v#!
+
+

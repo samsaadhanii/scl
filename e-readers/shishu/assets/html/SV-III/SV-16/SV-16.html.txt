@@ -1,0 +1,235 @@
+row1#!number#!<a href="html/SV-III/SV-16/16-a.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-16/16-a.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">16-a.A</a>#!html/SV-III/SV-16/16-a.jpg#!row1#!n1#!प्रियः
+row2#!number#!16-a.B</a>#!row2#!n1#!प्रियः 
+row3#!number#!16-a.C</a>#!row3#!n1#!प्री{नपुं}{5;एक}/प्री{नपुं}{6;एक}/प्रिय{पुं}{1;एक} 
+row4#!number#!16-a.D</a>#!row4#!n1#!<a (click)=showDic('प्रिय')>प्रिय</a>{पुं}{1;एक} 
+row5#!number#!16-a.E</a>#!row5#!n1#!कर्ता,5
+row6#!number#!16-a.F</a>#!row6#!n1#!प्रिय_ने (श्रीकृष्ण)
+row7#!number#!16-a.G</a>#!row7#!n1#!The lover
+row8#!number#!16-a.H#!row8#!n1#!
+row9#!number#!16-a.I</a>#!row9#!n1#!
+row10#!number#!16-a.J</a>#!row10#!n1#!
+row11#!number#!16-a.K</a>#!row11#!n1#!
+row12#!number#!16-a.L</a>#!row12#!n1#!
+
+row1#!n2#!यां
+row2#!n2#!यां 
+row3#!n2#!यद्{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('यद्')>यद्</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('वीप्सा,')">वीप्सा,3</a>
+row6#!n2#!जिस
+row7#!n2#!at whom
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!यां
+row2#!n2#!यां 
+row3#!n2#!यद्{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('यद्')>यद्</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('नित्यसम्बन्धः,')">नित्यसम्बन्धः,7</a>
+row6#!n2#!जिस
+row7#!n2#!-
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!‘नित्यवीप्सयोः’ (8।1।4) इति वीप्सायां द्विर्भावः एकपदम् ।
+
+row1#!n2#!कातर-अक्षीं
+row2#!n2#!कातराक्षीं
+row3#!n2#!कातर-अक्षी{पुं}{1;द्वि}/अक्षि{पुं}{2;द्वि}
+row4#!n2#!<a (click)=showDic('कातर')>कातर</a>-<a (click)=showDic('अक्षी')>अक्षी</a>{स्त्री}{2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,5</a>
+row6#!n2#!संकुचित नेत्रवाली_को
+row7#!n2#!with her eyes tremulous
+row8#!n2#!<a href="html/SV-III/SV-16/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-16/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कातर-अक्षी>Bs6</a>#!html/SV-III/SV-16/samaasa1.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!प्रैक्षत
+row2#!v#!प्रैक्षत 
+row3#!v#!प्र_ईक्ष्1{कर्तरि;लङ्;प्र;एक;आत्मनेपदी;ईक्षँ;भ्वादिः} 
+row4#!v#!<a (click)=showDic('प्र_ईक्ष्1')>प्र_ईक्ष्1</a>{कर्तरि;लङ्;प्र;एक;आत्मनेपदी;ईक्षँ;भ्वादिः} 
+row5#!v#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,7</a>
+row6#!v#!देखा
+row7#!v#!saw
+row8#!v#!-
+row9#!v#!
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!n1#!सा
+row2#!n1#!सा 
+row3#!n1#!तद्{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('तद्')>तद्</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('वीप्सा,')">वीप्सा,7</a>
+row6#!n1#!वह 
+row7#!n1#!that
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!सा
+row2#!n1#!सा 
+row3#!n1#!तद्{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('तद्')>तद्</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,10</a>
+row6#!n1#!वह (अंगना)
+row7#!n1#!that (woman)
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘नित्यवीप्सयोः’ (8।1।4) इति वीप्सायां द्विर्भावः एकपदम् ।
+
+row1#!n3#!ह्रिया
+row2#!n3#!ह्रिया 
+row3#!n3#!ह्री{स्त्री}{3;एक} 
+row4#!n3#!<a (click)=showDic('ह्री')>ह्री</a>{स्त्री}{3;एक} 
+row5#!n3#!<a href="javascript:show('हेतुः,')">हेतुः,10</a>
+row6#!n3#!लज्जा_से 
+row7#!n3#!out of bashfulness
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!नम्रमुखी
+row2#!n1#!नम्रमुखी 
+row3#!n1#!नम्रमुखी{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('नम्रमुखी')>नम्रमुखी</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n1#!नम्रमुखी 
+row7#!n1#!hung down
+row8#!n1#!<a href="html/SV-III/SV-16/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-16/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><नम्र-मुखी>Bs6</a>#!html/SV-III/SV-16/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!बभूव.
+row2#!v#!बभूव 
+row3#!v#!भू1{कर्तरि;लिट्;उ;एक;परस्मैपदी;भू;भ्वादिः}/भू1{कर्तरि;लिट्;म;बहु;परस्मैपदी;भू;भ्वादिः}/भू1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;भू;भ्वादिः}/अस्2{कर्तरि;लिट्;उ;एक;परस्मैपदी;असँ;अदादिः}/अस्2{कर्तरि;लिट्;म;बहु;परस्मैपदी;असँ;अदादिः}/अस्2{कर्तरि;लिट्;प्र;एक;परस्मैपदी;असँ;अदादिः}. 
+row4#!v#!<a (click)=showDic('भू1')>भू1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;भू;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!हुई. 
+row7#!v#!was.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!उपजाति ।
+row11#!v#!-
+row12#!v#!
+
+row1#!number#!<a href="html/SV-III/SV-16/16-b.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-16/16-b.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">16-b.A</a>#!html/SV-III/SV-16/16-b.jpg#!row1#!n1#!अन्याः
+row2#!number#!16-b.B</a>#!row2#!n1#!अन्याः 
+row3#!number#!16-b.C</a>#!row3#!n1#!अन्या{स्त्री}{1;बहु}/अन्या{स्त्री}{2;बहु}/अन्या{स्त्री}{1;बहु}/अन्या{स्त्री}{2;बहु}/अन्या{स्त्री}{8;बहु}/अन्1{कर्तरि;आशीर्लिङ्;म;एक;परस्मैपदी;अनँ;अदादिः}/अन्1{कर्तरि;विधिलिङ्;म;एक;परस्मैपदी;अनँ;अदादिः} 
+row4#!number#!16-b.D</a>#!row4#!n1#!<a (click)=showDic('अन्या')>अन्या</a>{स्त्री}{1;बहु} 
+row5#!number#!16-b.E</a>#!row5#!n1#!विशेषणम्,2
+row6#!number#!16-b.F</a>#!row6#!n1#!दूसरी
+row7#!number#!16-b.G</a>#!row7#!n1#!the others
+row8#!number#!16-b.H#!row8#!n1#!
+row9#!number#!16-b.I</a>#!row9#!n1#!
+row10#!number#!16-b.J</a>#!row10#!n1#!
+row11#!number#!16-b.K</a>#!row11#!n1#!
+row12#!number#!16-b.L</a>#!row12#!n1#!
+
+row1#!n1#!आहित-ईर्ष्याः
+row2#!n1#!आहितेर्ष्याः 
+row3#!n1#!आहित-ईर्ष्या{स्त्री}{1;बहु}/ईर्ष्या{स्त्री}{2;बहु} 
+row4#!n1#!<a (click)=showDic('आहित')>आहित</a>-<a (click)=showDic('ईर्ष्या')>ईर्ष्या</a>{स्त्री}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n1#!ईर्ष्यालु
+row7#!n1#!filled with jealousy
+row8#!n1#!<a href="html/SV-III/SV-16/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-16/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><आहिता-ईर्ष्या>Bs3</a>#!html/SV-III/SV-16/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!तत्रान्तरे
+row2#!NA#!तत्रान्तरे
+row3#!NA#!तत्रान्तरे{अव्य}
+row4#!NA#!<a (click)=showDic('तत्र')>तत्र</a>{अव्य}
+row5#!NA#!<a href="javascript:show('देशाधिकरणम्,')">देशाधिकरणम्,8</a>
+row6#!NA#!तब
+row7#!NA#!in the meanwhile
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!निःशङ्कं
+row2#!NA#!निःशङ्कं 
+row3#!NA#!निःशङ्क{पुं}{2;एक}/निःशङ्क{नपुं}{1;एक}/निःशङ्क{नपुं}{2;एक} 
+row4#!NA#!<a (click)=showDic('निःशङ्क')>निःशङ्क</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,8</a>
+row6#!NA#!निःशङ्क_होकर
+row7#!NA#!fearlessly
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!कटाक्षैः
+row2#!n3#!कटाक्षैः 
+row3#!n3#!कटाक्ष{पुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('कटाक्ष')>कटाक्ष</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('उपपदविभक्तिः,')">उपपदविभक्तिः,6</a>
+row6#!n3#!कटाक्षों_से 
+row7#!n3#!with their glances
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!समं
+row2#!NA#!समं 
+row3#!NA#!सम{पुं}{2;एक}/समम्{अव्य}/सम{पुं}{2;एक}/सम{नपुं}{1;एक}/सम{नपुं}{2;एक} 
+row4#!NA#!<a (click)=showDic('समम्')>समम्</a>{अव्य}
+row5#!NA#!<a href="javascript:show('उपपदसम्बन्धः,')">उपपदसम्बन्धः,8</a>
+row6#!NA#!एक_साथ
+row7#!NA#!at once
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!अमुं
+row2#!n2#!अमुं 
+row3#!n2#!अदस्{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('अदस्')>अदस्</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n2#!इन्हें (श्रीकृष्ण_को)
+row7#!n2#!him (Śrī Kŗṣṇa)
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!जघ्नुः.
+row2#!v#!जघ्नुः 
+row3#!v#!जघ्नु{पुं}{1;एक}/हन्1{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;हनँ;अदादिः}. 
+row4#!v#!<a (click)=showDic('हन्1')>हन्1</a>{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;हनँ;अदादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!आहत_करने_लगी.
+row7#!v#!struck.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+

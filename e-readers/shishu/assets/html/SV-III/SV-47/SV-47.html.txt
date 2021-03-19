@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-III/SV-47/47.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-47/47.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">47.A</a>#!html/SV-III/SV-47/47.jpg#!row1#!n7#!यस्यां
+row2#!number#!47.B</a>#!row2#!n7#!यस्यां 
+row3#!number#!47.C</a>#!row3#!n7#!यद्{स्त्री}{7;एक} 
+row4#!number#!47.D</a>#!row4#!n7#!<a (click)=showDic('यद्')>यद्</a>{स्त्री}{7;एक} 
+row5#!number#!47.E</a>#!row5#!n7#!अधिकरणम्,10
+row6#!number#!47.F</a>#!row6#!n7#!जिस_द्वारका_पुरी_में
+row7#!number#!47.G</a>#!row7#!n7#!Where
+row8#!number#!47.H#!row8#!n7#!
+row9#!number#!47.I</a>#!row9#!n7#!
+row10#!number#!47.J</a>#!row10#!n7#!
+row11#!number#!47.K</a>#!row11#!n7#!
+row12#!number#!47.L</a>#!row12#!n7#!
+
+row1#!n7#!कलधौत-धाम-स्तम्भेषु
+row2#!n7#!कलधौतधामस्तम्भेषु 
+row3#!n7#!कलधौत-धामन्-स्तम्भ{पुं}{7;बहु} 
+row4#!n7#!<a (click)=showDic('कलधौत')>कलधौत</a>-<a (click)=showDic('धाम')>धाम</a>-<a (click)=showDic('स्तम्भ')>स्तम्भ</a>{पुं}{7;बहु} 
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,3</a>
+row6#!n7#!सोने_के_बने_गृहस्तम्भों_में
+row7#!n7#!(set) in the pillars of the golden mansions
+row8#!n7#!<a href="html/SV-III/SV-47/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-47/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<कलधौत-धाम>T6-स्तम्भः>T6</a>#!html/SV-III/SV-47/samaasa1.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n6#!प्रतिमागतानां
+row2#!n6#!प्रतिमागतानां 
+row3#!n6#!प्रतिमागत{पुं}{6;बहु}/प्रतिमागत{नपुं}{6;बहु}/प्रतिमागता{स्त्री}{6;बहु} 
+row4#!n6#!<a (click)=showDic('प्रतिमागता')>प्रतिमागता</a>{स्त्री}{6;बहु} 
+row5#!n6#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n6#!प्रतिबिम्बित_के
+row7#!n6#!in which the women were reflected
+row8#!n6#!<a href="html/SV-III/SV-47/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-47/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><प्रतिमा-गता>T2</a>#!html/SV-III/SV-47/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!सावर्ण्य-भाजाम्
+row2#!n6#!सावर्ण्यभाजाम् 
+row3#!n6#!सावर्ण्य-भाज्{पुं}{6;बहु}/भाज्{नपुं}{6;बहु}/भाजा{स्त्री}{2;एक} 
+row4#!n6#!<a (click)=showDic('सावर्ण्य')>सावर्ण्य</a>-<a (click)=showDic('भाज्')>भाज्</a>{स्त्री}{6;बहु}
+row5#!n6#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n6#!समानवर्णवाली
+row7#!n6#!and which had the same (bright yellowish) colour
+row8#!n6#!<a href="html/SV-III/SV-47/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-47/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सावर्णय-भाक्>U</a>#!html/SV-III/SV-47/samaasa3.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!अङ्गनानां
+row2#!n6#!अङ्गनानां 
+row3#!n6#!अङ्गन{नपुं}{6;बहु}/अङ्गना{स्त्री}{6;बहु} 
+row4#!n6#!<a (click)=showDic('अङ्गन')>अङ्गन</a>{स्त्री}{6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,6</a>
+row6#!n6#!कुलाङ्गनाओं_के
+row7#!n6#!of women
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n3#!स्मर-आपाण्डुतया
+row2#!n3#!स्मरापाण्डुतया 
+row3#!n3#!स्मर-आपाण्डुता{स्त्री}{3;एक} 
+row4#!n3#!<a (click)=showDic('स्मर')>स्मर</a>-<a (click)=showDic('आपाण्डुता')>आपाण्डुता</a>{स्त्री}{3;एक} 
+row5#!n3#!<a href="javascript:show('हेतुः,')">हेतुः,10</a>
+row6#!n3#!कामवश पाण्डुवर्ण_होने_से
+row7#!n3#!by their pallor of love-sickness
+row8#!n3#!<a href="html/SV-III/SV-47/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-47/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><स्मर-आपाण्डुता>T3</a>#!html/SV-III/SV-47/samaasa4.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!लक्ष्यैः
+row2#!n3#!लक्ष्यैः 
+row3#!n3#!लक्ष्य{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('लक्ष्य')>लक्ष्य</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n3#!लक्षित_होने_वाली
+row7#!n3#!conspicious
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!कपोलैः
+row2#!n3#!कपोलैः 
+row3#!n3#!कपोल{पुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('कपोल')>कपोल</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n3#!कपोलों_ने
+row7#!n3#!by the cheeks
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!मणिदर्पण-श्रीः
+row2#!n1#!मणिदर्पणश्रीः 
+row3#!n1#!मणिदर्पण-श्री{स्त्री}{1;एक}/श्री{स्त्री}{2;बहु} 
+row4#!n1#!<a (click)=showDic('मणिदर्पण')>मणिदर्पण</a>-<a (click)=showDic('श्री')>श्री</a>{स्त्री}{1;एक}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n1#!मणिदर्पण_की_शोभा_को
+row7#!n1#!the beauty of crystal mirrors
+row8#!n1#!<a href="html/SV-III/SV-47/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-47/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<मणि-दर्पण>T6-श्रीः>K4</a>#!html/SV-III/SV-47/samaasa5.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!भेजे.
+row2#!v#!भेजे 
+row3#!v#!भज्1{कर्तरि;लिट्;उ;एक;आत्मनेपदी;भजँ;भ्वादिः}/भज्1{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;भजँ;भ्वादिः}/भज्1{कर्मणि;लिट्;उ;एक;आत्मनेपदी;भजँ;भ्वादिः}/भज्1{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;भजँ;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('भज्1')>भज्1</a>{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;भजँ;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!प्राप्त_किया.
+row7#!v#!attained.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!उपजाति ।
+row11#!v#!निदर्शना + सामान्यः = सङ्करः ।
+row12#!v#!
+
+

@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-IV/SV-26/26.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-26/26.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">26.A</a>#!html/SV-IV/SV-26/26.jpg#!row1#!NA#!एकत्र
+row2#!number#!26.B</a>#!row2#!NA#!एकत्र 
+row3#!number#!26.C</a>#!row3#!NA#!एकत्र{अव्य} 
+row4#!number#!26.D</a>#!row4#!NA#!<a (click)=showDic('एकत्र')>एकत्र</a>{अव्य} 
+row5#!number#!26.E</a>#!row5#!NA#!विशेषणम्,6
+row6#!number#!26.F</a>#!row6#!NA#!एक_ओर
+row7#!number#!26.G</a>#!row7#!NA#!In one place
+row8#!number#!26.H#!row8#!NA#!
+row9#!number#!26.I</a>#!row9#!NA#!
+row10#!number#!26.J</a>#!row10#!NA#!
+row11#!number#!26.K</a>#!row11#!NA#!
+row12#!number#!26.L</a>#!row12#!NA#!
+
+row1#!n1#!स्फटिक-तटांशु-भिन्न-नीराः
+row2#!n1#!स्फटिक-तटांशु-भिन्न-नीराः 
+row3#!n1#!स्फटिक-तटांशु-भिन्न-नीर{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('स्फटिक')>स्फटिक</a>-<a (click)=showDic('तटांशु')>तटांशु</a>-<a (click)=showDic('भिन्न')>भिन्न</a>-<a (click)=showDic('नीर')>नीर</a>{स्त्री}{1;बहु} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!स्फटिक-मणि_की_प्रभा_से_श्वेत जलवाली
+row7#!n1#!that have their waters mingled with the rays of the crystal bank
+row8#!n1#!<a href="html/SV-IV/SV-26/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-26/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<स्फटिक-तट>T6-अंशु>T6-भिन्ननीरा>Bs6</a>#!html/SV-IV/SV-26/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!अपरत्र
+row2#!NA#!अपरत्र 
+row3#!NA#!अ-{अव्य}-परत्र{अव्य} 
+row4#!NA#!<a (click)=showDic('अपरत्र')>अपरत्र</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!NA#!(तथा) दूसरी_ओर
+row7#!NA#!(and) in another
+row8#!NA#!<a href="html/SV-IV/SV-26/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-26/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-परत्र>Tn</a>#!html/SV-IV/SV-26/samaasa2.jpg
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!नीलाश्म-द्युति-भिदुर-अम्भसः
+row2#!n1#!नीलाश्म-द्युति-भिदुर-अम्भसः 
+row3#!n1#!नीलाश्म-द्युति-भिदुर-अम्भस्{नपुं}{5;एक}/अम्भस्{नपुं}{6;एक} 
+row4#!n1#!<a (click)=showDic('नीलाश्म')>नीलाश्म</a>-<a (click)=showDic('द्युति')>द्युति</a>-<a (click)=showDic('भिदुर')>भिदुर</a>-<a (click)=showDic('अम्भस्')>अम्भस्</a>{स्त्री}{1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!इन्द्रनीलमणि_की_प्रभा_से_मिश्रित_होने_से_नीले जलवाली
+row7#!n1#!blended with the radiance of sapphires
+row8#!n1#!<a href="html/SV-IV/SV-26/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-26/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<नील-अश्म>K1-द्युतिभिदुराम्भस्>Bs6</a>#!html/SV-IV/SV-26/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!सरितः
+row2#!n1#!सरितः 
+row3#!n1#!सरित्{स्त्री}{1;बहु}/सरित्{स्त्री}{2;बहु}/सरित्{स्त्री}{5;एक}/सरित्{स्त्री}{6;एक} 
+row4#!n1#!<a (click)=showDic('सरित्')>सरित्</a>{स्त्री}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n1#!नदियाँ
+row7#!n1#!rivers
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इह
+row2#!NA#!इह
+row3#!NA#!इह{अव्य}
+row4#!NA#!<a (click)=showDic('इह')>इह</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,10</a>
+row6#!NA#!यहाँ (इस रैवतक पर्वत_पर)
+row7#!NA#!here
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n6#!कालिन्दी-जल-जनित-श्रियः
+row2#!n6#!कालिन्दी-जल-जनित-श्रियः 
+row3#!n6#!कालिन्दी-जल-जनित-श्री{स्त्री}{1;बहु}/श्री{स्त्री}{5;एक}/श्री{स्त्री}{6;एक}/श्री{स्त्री}{2;बहु} 
+row4#!n6#!<a (click)=showDic('कालिन्दी')>कालिन्दी</a>-<a (click)=showDic('जल')>जल</a>-<a (click)=showDic('जनित')>जनित</a>-<a (click)=showDic('श्री')>श्री</a>{स्त्री}{6;बहु} 
+row5#!n6#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n6#!यमुना_के_जल_से_सुशोभित
+row7#!n6#!heightened by the waters of Yamunā
+row8#!n6#!<a href="html/SV-IV/SV-26/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-26/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<कालिन्दी-जल>T6-जनितश्रीः>Bs6</a>#!html/SV-IV/SV-26/samaasa4.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!सुरापगायाः
+row2#!n6#!सुरापगायाः 
+row3#!n6#!सुरापगा{स्त्री}{5;एक}/सुरापगा{स्त्री}{6;एक} 
+row4#!n6#!<a (click)=showDic('सुरापगा')>सुरापगा</a>{स्त्री}{6;बहु} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,9</a>
+row6#!n6#!गङ्गा_की
+row7#!n6#!of Ganges
+row8#!n6#!<a href="html/SV-IV/SV-26/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-26/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सुर-अपगा>T6</a>#!html/SV-IV/SV-26/samaasa5.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!वैदग्धीं
+row2#!n2#!वैदग्धीं
+row3#!n2#!वैदग्धीं
+row4#!n2#!<a (click)=showDic('वैदग्धीं')>वैदग्धीं</a>{स्त्री}{2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n2#!शोभा_को
+row7#!n2#!beauty
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!'गुणवचन-' (5।1।124) इत्यादिना ष्यञ्प्रत्ययः । 'षिद्गौरादिभ्यश्च' (4।1।41) इति ङीष् ।
+
+row1#!v#!श्रयन्ते.
+row2#!v#!श्रयन्ते 
+row3#!v#!श्रि1{कर्तरि;लट्;प्र;बहु;आत्मनेपदी;श्रिञ्;भ्वादिः}.
+row4#!v#!<a (click)=showDic('श्रि1')>श्रि1</a>{कर्तरि;लट्;प्र;बहु;आत्मनेपदी;श्रिञ्;भ्वादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!धारण_करती_हैं.
+row7#!v#!holds.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!प्रहर्षिणी ।
+row11#!v#!निदर्शना ।
+row12#!v#!
+
+

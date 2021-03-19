@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-V/SV-13/13.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-13/13.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">13.A</a>#!html/SV-V/SV-13/13.jpg#!row1#!n1#!अन्ये
+row2#!number#!13.B</a>#!row2#!n1#!अन्ये 
+row3#!number#!13.C</a>#!row3#!n1#!अन्य{नपुं}{1;द्वि}/अन्य{नपुं}{2;द्वि}/अन्य{नपुं}{8;द्वि}/अन्य{पुं}{1;बहु}/अन्य{नपुं}{1;द्वि}/अन्य{नपुं}{2;द्वि}/अन्या{स्त्री}{1;द्वि}/अन्या{स्त्री}{2;द्वि}/अन्या{स्त्री}{8;एक}/अन्या{स्त्री}{8;द्वि}/अन्या{स्त्री}{1;द्वि}/अन्या{स्त्री}{2;द्वि}/अन्1{भावे;लट्;उ;एक;आत्मनेपदी;अनँ;अदादिः}/अन्य{नपुं}{7;एक} 
+row4#!number#!13.D</a>#!row4#!n1#!<a (click)=showDic('अन्य')>अन्य</a>{पुं}{1;बहु} 
+row5#!number#!13.E</a>#!row5#!n1#!कर्ता,8
+row6#!number#!13.F</a>#!row6#!n1#!दूसरे (राजा लोग)
+row7#!number#!13.G</a>#!row7#!n1#!The other kings
+row8#!number#!13.H#!row8#!n1#!
+row9#!number#!13.I</a>#!row9#!n1#!
+row10#!number#!13.J</a>#!row10#!n1#!
+row11#!number#!13.K</a>#!row11#!n1#!
+row12#!number#!13.L</a>#!row12#!n1#!
+
+row1#!n2#!बहल-यावक-पङ्क-पिङ्ग-पिच्छ-अवचूडं
+row2#!n2#!बहल-यावक-पङ्क-पिङ्ग-पिच्छ-अवचूडं
+row3#!n2#!बहल-यावक-पङ्क-पिङ्ग-पिच्छ-अवचूड{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('बहल')>बहल</a>-<a (click)=showDic('यावक')>यावक</a>-<a (click)=showDic('पङ्क')>पङ्क</a>-<a (click)=showDic('पिङ्ग')>पिङ्ग</a>-<a (click)=showDic('पिच्छ')>पिच्छ</a>-<a (click)=showDic('अवचूड')>अवचूड</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,3</a>
+row6#!n2#!गाढ़े महावर_से_पिङ्गलवर्ण-वाले गरुड_के_पङ्क_के_गुच्छों_को
+row7#!n2#!the banners of fickle snakes that carry shrubs of flowers that were in golden colour
+row8#!n2#!<a href="html/SV-V/SV-13/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-13/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<बहल-<यावक-पङ्क>K5>K3-पिङ्ग>T3-पिच्छ>K3-अवचूडः>K6</a>#!html/SV-V/SV-13/samaasa1.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!‘यावादिभ्यः कन्’ (5।4।29) इति स्वार्थे कन् ।
+
+row1#!n3#!बिभ्राणया
+row2#!n3#!बिभ्राणया 
+row3#!n3#!बिभ्राणा{स्त्री}{3;एक} 
+row4#!n3#!<a (click)=showDic('भृ2')>भृ2</a>{कृत्_प्रत्ययः:शानच्;डुँभृञ्;जुहोत्यादिः;स्त्री}{3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n3#!धारण_करती_हुई 
+row7#!n3#!who were bearing
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!चञ्चु-अग्रदष्ट-चटुल-अहि-पताकया
+row2#!n3#!चञ्चु-अग्रदष्ट-चटुल-अहि-पताकया
+row3#!n3#!चञ्चु-अग्रदष्ट-चटुल-अहि-पताका{स्त्री}{3;एक} 
+row4#!n3#!<a (click)=showDic('चञ्चु')>चञ्चु</a>-<a (click)=showDic('अग्रदष्ट')>अग्रदष्ट</a>-<a (click)=showDic('चटुल')>चटुल</a>-<a (click)=showDic('अहि')>अहि</a>-<a (click)=showDic('पताका')>पताका</a>{स्त्री}{3;एक} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n3#!चोंच_के_अग्रभाग_से_काटे_हुए_चंचल-सर्प_रूपी पताका_वाले
+row7#!n3#!which were cut by the edge of beak of Garuḍa
+row8#!n3#!<a href="html/SV-V/SV-13/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-13/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<चञ्चु-अग्र>T6-दष्ट>T3-<चटुलाहि-पताका>K3>Bs7</a>#!html/SV-V/SV-13/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!उरगअशन-केतु-यष्ट्या
+row2#!n3#!उरगअशन-केतु-यष्ट्या 
+row3#!n3#!उरगअशन-केतु-यष्टि{स्त्री}{3;एक} 
+row4#!n3#!<a (click)=showDic('उरगअशन')>उरगअशन</a>-<a (click)=showDic('केतु')>केतु</a>-<a (click)=showDic('यष्टि')>यष्टि</a>{स्त्री}{3;एक} 
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,8</a>
+row6#!n3#!गरुड_बैठे_हुए_है_उस_पताका_के_दण्ड_से_अनुमित
+row7#!n3#!with which it can be assumed that Garuḍa is being seated there
+row8#!n3#!<a href="html/SV-V/SV-13/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-13/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<उरग-अशन>Bs6-केतु>Bs6-यष्टिः>T6</a>#!html/SV-V/SV-13/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!अनु-माधव-धाम
+row2#!NA#!अनु-माधव-धाम 
+row3#!NA#!अनु-माधव-धामन्{नपुं}{1;एक}/धामन्{नपुं}{2;एक}
+row4#!NA#!<a (click)=showDic('अनु')>अनु</a>-<a (click)=showDic('माधव')>माधव</a>-<a (click)=showDic('धाम')>धाम</a>{अव्ययम्}
+row5#!NA#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!NA#!श्रीकृष्ण भगवान_के_निवास स्थान_के
+row7#!NA#!which were nearby to the abode of Śrī Kṛṣṇa
+row8#!NA#!<a href="html/SV-V/SV-13/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-13/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अनु-<माधव-धाम>T6>A1</a>#!html/SV-V/SV-13/samaasa4.jpg
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!स्व-आवास-भागं
+row2#!n2#!स्व-आवास-भागं 
+row3#!n2#!स्व-आवास-भाग{पुं}{2;एक}/भाग{नपुं}{1;एक}/भाग{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('स्व')>स्व</a>-<a (click)=showDic('आवास')>आवास</a>-<a (click)=showDic('भाग')>भाग</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n2#!समीपवर्ती अपने-अपने शिबिरों_को
+row7#!n2#!to their camps
+row8#!n2#!<a href="html/SV-V/SV-13/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-13/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><स्व-<आवास-भागः>T6>T6</a>#!html/SV-V/SV-13/samaasa5.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!जग्मुः.
+row2#!v#!जग्मुः 
+row3#!v#!गम्1{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;गमॢँ;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('गम्1')>गम्1</a>{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;गमॢँ;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!चले_गये.
+row7#!v#!left.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!वसन्ततिलका ।
+row11#!v#!-
+row12#!v#!
+
+

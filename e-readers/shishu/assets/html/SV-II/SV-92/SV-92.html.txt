@@ -1,0 +1,66 @@
+row1#!number#!<a href="html/SV-II/SV-92/92.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-92/92.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">92.A</a>#!html/SV-II/SV-92/92.jpg#!row1#!n7#!एकार्थ-तन्तु-प्रोतायाम्
+row2#!number#!92.B</a>#!row2#!n7#!एकार्थतन्तुप्रोतायां 
+row3#!number#!92.C</a>#!row3#!n7#!एकार्थ-तन्तु-प्रोता{स्त्री}{7;एक} 
+row4#!number#!92.D</a>#!row4#!n7#!<a (click)=showDic('एकार्थ')>एकार्थ</a>-<a (click)=showDic('तन्तु')>तन्तु</a>-<a (click)=showDic('प्रोता')>प्रोता</a>{स्त्री}{7;एक} 
+row5#!number#!92.E</a>#!row5#!n7#!विशेषणम्,2
+row6#!number#!92.F</a>#!row6#!n7#!एक_प्रयोजन_रूपी_धागे_में
+row7#!number#!92.G</a>#!row7#!n7#!In a garland which is strung fastened with the string of a common aim
+row8#!number#!92.H#!row8#!n7#!<a href="html/SV-II/SV-92/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-92/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<एक-अर्थ>K3-तन्तु>K6-प्रोता>T6</a>#!html/SV-II/SV-92/samaasa1.jpg
+row9#!number#!92.I</a>#!row9#!n7#!
+row10#!number#!92.J</a>#!row10#!n7#!
+row11#!number#!92.K</a>#!row11#!n7#!
+row12#!number#!92.L</a>#!row12#!n7#!प्रपूर्वाद्वेञः कर्मणि क्तः । ‘वचिस्वपि-’ (6।1।15) इत्यादिना सम्प्रसारणम् ।
+
+row1#!n7#!यातव्य-पार्ष्णिग्राह-आदि-मालायाम्
+row2#!n7#!यातव्यपार्ष्णिग्राहादिमालायाम् 
+row3#!n7#!यातव्य-पार्ष्णिग्राह-आदिन्-माला{स्त्री}{7;एक} 
+row4#!n7#!<a (click)=showDic('यातव्य')>यातव्य</a>-<a (click)=showDic('पार्ष्णिग्राह')>पार्ष्णिग्राह</a>-<a (click)=showDic('आदि')>आदि</a>-<a (click)=showDic('माला')>माला</a>{स्त्री}{7;एक} 
+row5#!n7#!<a href="javascript:show('अधिकरण,')">अधिकरण,5</a>
+row6#!n7#!यातव्य_और_पार्ष्णिग्राह-आदि-माला_में 
+row7#!n7#!with the kings Yātavya and Pārshņigrāha etc.,
+row8#!n7#!-
+row9#!n7#!<<<यातव्य-पार्ष्णिग्राह>Di-आदय>Bs6-माला>K6
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n1#!अधिक-द्युतिः
+row2#!n1#!अधिकद्युतिः 
+row3#!n1#!अधिक-द्युति{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('अधिक')>अधिक</a>-<a (click)=showDic('द्युति')>द्युति</a>{पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n1#!अधिक-तेजस्वी
+row7#!n1#!more brilliant
+row8#!n1#!<a href="html/SV-II/SV-92/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-92/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अधिक-द्युतिः>Bs6</a>#!html/SV-II/SV-92/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!नायकः
+row2#!n1#!नायकः 
+row3#!n1#!नायक{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('नायक')>नायक</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,5</a>
+row6#!n1#!नायक 
+row7#!n1#!the chief king
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!नायकायते.
+row2#!v#!नायकायते 
+row3#!v#!नायक-अयत्{पुं}{4;एक}/अयत्{नपुं}{4;एक}/अयत{पुं}{7;एक}/अयत{नपुं}{1;द्वि}/अयत{नपुं}{2;द्वि}/अयत{नपुं}{7;एक}/अयता{स्त्री}{1;द्वि}/अयता{स्त्री}{2;द्वि}. 
+row4#!v#!<a (click)=showDic('नायक_क्यङ्')>नायक_क्यङ्</a>{कर्तरि;सन्;लट्;प्र;एक;नायक;आत्मनेपदी;नायक;}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!नायक_के_समान_आचरण_करता_है.
+row7#!v#!acts like a chief or like a central gem in a necklace.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!रूपकम् + उपमा = सङ्करः ।
+row12#!v#!‘उपमानादाचारे’ (3।1।10) इति क्यच् । ‘अकृत्सार्वधातुक-’ (7।4।25) इति दीर्घः ।
+
+

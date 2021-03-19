@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-IV/SV-62/62.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-62/62.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">62.A</a>#!html/SV-IV/SV-62/62.jpg#!row1#!NA#!इह
+row2#!number#!62.B</a>#!row2#!NA#!इह 
+row3#!number#!62.C</a>#!row3#!NA#!इह{अव्य} 
+row4#!number#!62.D</a>#!row4#!NA#!<a (click)=showDic('इह')>इह</a>{अव्य} 
+row5#!number#!62.E</a>#!row5#!NA#!अधिकरणम्,10
+row6#!number#!62.F</a>#!row6#!NA#!यहाँ 
+row7#!number#!62.G</a>#!row7#!NA#!Here
+row8#!number#!62.H#!row8#!NA#!
+row9#!number#!62.I</a>#!row9#!NA#!
+row10#!number#!62.J</a>#!row10#!NA#!
+row11#!number#!62.K</a>#!row11#!NA#!
+row12#!number#!62.L</a>#!row12#!NA#!
+
+row1#!n6#!यूनां
+row2#!n6#!यूनां 
+row3#!n6#!युवन्{पुं}{6;बहु} 
+row4#!n6#!<a (click)=showDic('युवन्')>युवन्</a>{पुं}{6;बहु} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,3</a>
+row6#!n6#!युवकों_की 
+row7#!n6#!of youths
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!'पुमान्स्त्रिया' (1।2।60) इत्येकशेषः ।
+
+row1#!n4#!प्रीत्यै
+row2#!n4#!प्रीत्यै 
+row3#!n4#!प्रीति{स्त्री}{4;एक} 
+row4#!n4#!<a (click)=showDic('प्रीति')>प्रीति</a>{स्त्री}{4;एक} 
+row5#!n4#!<a href="javascript:show('तादर्थ्यम्,')">तादर्थ्यम्,4</a>
+row6#!n4#!प्रसन्नता_के_लिये 
+row7#!n4#!to the great delight
+row8#!n4#!-
+row9#!n4#!
+row10#!n4#!
+row11#!n4#!
+row12#!n4#!
+
+row1#!n1#!व्यवहित-तपनाः
+row2#!n1#!व्यवहित-तपनाः
+row3#!n1#!व्यवहित-तपन{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('व्यवहित')>व्यवहित</a>-<a (click)=showDic('तपन')>तपन</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!सूर्य_को_ढकनेवाले (तथा)
+row7#!n1#!who ward off the sun
+row8#!n1#!<a href="html/SV-IV/SV-62/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-62/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><व्यवहित-तपनः>Bs3</a>#!html/SV-IV/SV-62/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!सुरत-क्रीडा-आयास-श्रम-शम-पटवः
+row2#!n1#!सुरत-क्रीडा-आयास-श्रम-शम-पटवः 
+row3#!n1#!सुरत-क्रीडा-आयास-श्रम-शम-पटु{पुं}{1;बहु}/पटु{स्त्री}{1;बहु} 
+row4#!n1#!<a (click)=showDic('सुरत')>सुरत</a>-<a (click)=showDic('क्रीडा')>क्रीडा</a>-<a (click)=showDic('आयास')>आयास</a>-<a (click)=showDic('श्रम')>श्रम</a>-<a (click)=showDic('शम')>शम</a>-<a (click)=showDic('पटु')>पटु</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!रति क्रीडा_में_उत्पन्न_थकावट_को_दूर_करने_में_समर्थ
+row7#!n1#!who are clever in removing the fatigue caused by the exertion of the sport of cohabitation
+row8#!n1#!<a href="html/SV-IV/SV-62/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-62/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<सुरत-क्रीडा>K6-आयास>T3-श्रम>T3-शम>T6-पटुः>T7</a>#!html/SV-IV/SV-62/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!जलदाः
+row2#!n1#!जलदाः 
+row3#!n1#!जलद{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('जलद')>जलद</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n1#!बादल
+row7#!n1#!the clouds
+row8#!n1#!<a href="html/SV-IV/SV-62/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-62/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><जल-दः>U</a>#!html/SV-IV/SV-62/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!प्रौढध्वान्तं
+row2#!n2#!प्रौढध्वान्तं 
+row3#!n2#!प्रौढध्वान्त{पुं}{2;एक}/वान्त{नपुं}{1;एक}/वान्त{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('प्रौढध्वान्त')>प्रौढध्वान्त</a>{नपुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n2#!घने अन्धकार वाले
+row7#!n2#!the pitch dark
+row8#!n2#!<a href="html/SV-IV/SV-62/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-62/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><प्रौढ-ध्वान्तम्>Bs7</a>#!html/SV-IV/SV-62/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!दिनं
+row2#!n2#!दिनं 
+row3#!n2#!दिन{पुं}{2;एक}/दिन{नपुं}{1;एक}/दिन{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('दिन')>दिन</a>{नपुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n2#!दिन_को
+row7#!n2#!day
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!दोषामन्यं
+row2#!n2#!दोषामन्यं
+row3#!n2#!दोषामन्य{पुं}{2;एक}/दोषामन्य{नपुं}{1;एक}/दोषामन्य{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('दोषामन्य')>दोषामन्य</a>{नपुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्मसमानाधिकरणम्,')">कर्मसमानाधिकरणम्,10</a>
+row6#!n2#!अपने_को_रात्रि_मानने_वाला
+row7#!n2#!think itself to be night
+row8#!n2#!<a href="html/SV-IV/SV-62/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-62/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><दोषा-मन्यम्>U</a>#!html/SV-IV/SV-62/samaasa5.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!दोषेत्यव्ययं तदुपपादान्मन्यतेर्धातोः 'आत्ममाने खश् च' (3।2।83) इति खश्प्रत्ययः ।
+
+row1#!v#!विदधति.
+row2#!v#!विदधति
+row3#!v#!वि_धा1{कर्तरि;लट्;प्र;बहु;उभयपदी;डुधाञ्;जुहोत्यादिः}. 
+row4#!v#!<a (click)=showDic('वि_धा1')>वि_धा1</a>{कर्तरि;लट्;प्र;बहु;उभयपदी;डुधाञ्;जुहोत्यादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!बना_रहे_हैं.
+row7#!v#!make.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!भ्रमरविलसित ।
+row11#!v#!-
+row12#!v#!
+
+

@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-VI/SV-53/53.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-53/53.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">53.A</a>#!html/SV-VI/SV-53/53.jpg#!row1#!n1#!अभिताम्र-मुखी
+row2#!number#!53.B</a>#!row2#!n1#!अभिताम्र-मुखी
+row3#!number#!53.C</a>#!row3#!n1#!अभिताम्र-मुखी{स्त्री;1;एक}
+row4#!number#!53.D</a>#!row4#!n1#!<a (click)=showDic('अभिताम्र')>अभिताम्र</a>-<a (click)=showDic('मुखी')>मुखी</a>{स्त्री;1;एक}
+row5#!number#!53.E</a>#!row5#!n1#!विशेषणम्,7
+row6#!number#!53.F</a>#!row6#!n1#!अत्यन्त अरुण मुख वाली
+row7#!number#!53.G</a>#!row7#!n1#!Twany faced
+row8#!number#!53.H#!row8#!n1#!<a href="html/SV-VI/SV-53/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-53/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अभिताम्र-मुखी>Bs6</a>#!html/SV-VI/SV-53/samaasa1.jpg
+row9#!number#!53.I</a>#!row9#!n1#!
+row10#!number#!53.J</a>#!row10#!n1#!
+row11#!number#!53.K</a>#!row11#!n1#!
+row12#!number#!53.L</a>#!row12#!n1#!'स्वाङ्गाच्चोपसर्जनात्-' (4।1।54) इत्यादिना विकल्पान्ङीष् ।
+
+row1#!n1#!शुक-आवलिः
+row2#!n1#!शुक-आवलिः
+row3#!n1#!शुक-आवलि{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('शुक')>शुक</a>-<a (click)=showDic('आवलि')>आवलि</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!तोतों_की_पंक्ति_ने
+row7#!n1#!flock of parrots
+row8#!n1#!<a href="html/SV-VI/SV-53/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-53/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><शुक-आवलिः>T6</a>#!html/SV-VI/SV-53/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!मरुद्-गणैः
+row2#!n3#!मरुद्-गणैः
+row3#!n3#!मरुद्-गण{पुं;3;बहु}
+row4#!n3#!<a (click)=showDic('मरुद्')>मरुद्</a>-<a (click)=showDic('गण')>गण</a>{पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,12</a>
+row6#!n3#!देवताओं_के_द्वारा
+row7#!n3#!by the Gods
+row8#!n3#!<a href="html/SV-VI/SV-53/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-53/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><मरुद्-गणः>T6</a>#!html/SV-VI/SV-53/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n7#!दिवि
+row2#!n7#!दिवि
+row3#!n7#!दिव्{स्त्री;7;एक}
+row4#!n7#!<a (click)=showDic('दिव्')>दिव्</a>{स्त्री;7;एक}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,12</a>
+row6#!n7#!आकाश_में
+row7#!n7#!in the sky
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n1#!तता
+row2#!n1#!तता
+row3#!n1#!तता{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('तन्1')>तन्1</a>{क्त;तनुँ;तनादिः;स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!फैलायी_गयी
+row7#!n1#!showered
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!हरितपत्रमयी
+row2#!n1#!हरितपत्रमयी
+row3#!n1#!हरितपत्रमयी{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('हरितपत्रमयी')>हरितपत्रमयी</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!हरे रंग के पत्तों से रचित
+row7#!n1#!created with green leaves
+row8#!n1#!<a href="html/SV-VI/SV-53/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-53/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><हरित-पत्रम्>K3</a>#!html/SV-VI/SV-53/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!'टिङ्ढाणञ्' (4।1।15) इत्यादिना विकल्पात् ङीप् ।
+
+row1#!n1#!अवनद्धमनोरम-पल्लवा
+row2#!n1#!अवनद्धमनोरम-पल्लवा
+row3#!n1#!अवनद्धमनोरम-पल्लवा}
+row4#!n1#!<a (click)=showDic('अवनद्धमनोरम')>अवनद्धमनोरम</a>-<a (click)=showDic('पल्लवा')>पल्लवा</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,12</a>
+row6#!n1#!गुथे हुए मनोहर नवीन पत्तों वाली
+row7#!n1#!entwined with tender leaves
+row8#!n1#!<a href="html/SV-VI/SV-53/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-53/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अवनद्ध-<मनोरम-पल्लवा>K3>Bs7</a>#!html/SV-VI/SV-53/samaasa5.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!स्रग्
+row2#!n1#!स्रग्
+row3#!n1#!स्रज्{पुं;1;एक}/स्रज्{पुं;8;एक}/स्रज्{नपुं;1;एक}/स्रज्{नपुं;2;एक}/स्रज्{नपुं;8;एक}
+row4#!n1#!<a (click)=showDic('स्रज्')>स्रज्</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,9</a>
+row6#!n1#!माला
+row7#!n1#!garland
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इव
+row2#!NA#!इव
+row3#!NA#!इव{अव्य}
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,7</a>
+row6#!NA#!जैसे
+row7#!NA#!like
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n6#!मधु-रिपोः
+row2#!n6#!मधु-रिपोः
+row3#!n6#!मधु-रिपु{पुं;5;एक}/रिपु{पुं;6;एक}
+row4#!n6#!<a (click)=showDic('मधु')>मधु</a>-<a (click)=showDic('रिपु')>रिपु</a>{पुं;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,11</a>
+row6#!n6#!श्रीकृष्ण भगवान् के
+row7#!n6#!of Śrī Kṛṣṇa
+row8#!n6#!<a href="html/SV-VI/SV-53/samaasa6.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-53/samaasa6.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><मधु-रिपुः>T6</a>#!html/SV-VI/SV-53/samaasa6.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!मुदं
+row2#!n2#!मुदं
+row3#!n2#!मुद्{स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('मुद्')>मुद्</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,12</a>
+row6#!n2#!हर्ष_को
+row7#!n2#!happiness
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!विततान
+row2#!v#!विततान
+row3#!v#!वि_तन्1{कर्तरि;लिट्;उ;एक;उभयपदी;तनुँ;तनादिः}/वि_तन्1{कर्तरि;लिट्;प्र;एक;उभयपदी;तनुँ;तनादिः}
+row4#!v#!<a (click)=showDic('वि_तन्1')>वि_तन्1</a>{कर्तरि;लिट्;प्र;एक;उभयपदी;तनुँ;तनादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!बढ़ाया.
+row7#!v#!increased.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!उत्प्रेक्षा + यमकम् = सङ्करः ।
+row12#!v#!
+
+

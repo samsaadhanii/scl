@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-IX/SV-25/25.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-25/25.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">25.A</a>#!html/SV-IX/SV-25/25.jpg#!row1#!NA#!अथ
+row2#!number#!25.B</a>#!row2#!NA#!अथ
+row3#!number#!25.C</a>#!row3#!NA#!अथ{अव्य}
+row4#!number#!25.D</a>#!row4#!NA#!<a (click)=showDic('अथ')>अथ</a>{अव्य}
+row5#!number#!25.E</a>#!row5#!NA#!सम्बन्धः,11
+row6#!number#!25.F</a>#!row6#!NA#!उस (प्रदोषकाल)_के_पश्चात्
+row7#!number#!25.G</a>#!row7#!NA#!After that (after the evening tide)
+row8#!number#!25.H#!row8#!NA#!
+row9#!number#!25.I</a>#!row9#!NA#!
+row10#!number#!25.J</a>#!row10#!NA#!
+row11#!number#!25.K</a>#!row11#!NA#!
+row12#!number#!25.L</a>#!row12#!NA#!
+
+row1#!n6#!अहि-पतेः
+row2#!n6#!अहि-पतेः
+row3#!n6#!अहि-पत्1{कर्तरि;विधिलिङ्;म;एक;परस्मैपदी;पतॢँ;भ्वादिः}/पति{;पुं;5;एक}/पति{;पुं;6;एक}
+row4#!n6#!<a (click)=showDic('अहि')>अहि</a>-<a (click)=showDic('पति')>पति</a>{;पुं;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,3</a>
+row6#!n6#!शेषनाग_की
+row7#!n6#!of Vāsuki the serpent king
+row8#!n6#!<a href="html/SV-IX/SV-25/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-25/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अहि-पतिः>T6</a>#!html/SV-IX/SV-25/samaasa1.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!फणामणि-सहस्र-रुचां
+row2#!n6#!फणामणि-सहस्र-रुचां
+row3#!n6#!फणामणि-सहस्र-रुच्{;स्त्री;6;बहु}/रुचा{;स्त्री;2;एक}
+row4#!n6#!<a (click)=showDic('फणामणि')>फणामणि</a>-<a (click)=showDic('सहस्र')>सहस्र</a>-<a (click)=showDic('रुच्')>रुच्</a>{;स्त्री;6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,4</a>
+row6#!n6#!सहस्र फणों के रत्नों की कान्ति
+row7#!n6#!of thousand rays of hood-gem
+row8#!n6#!<a href="html/SV-IX/SV-25/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-25/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<फणा-मणि>T6-<सहस्र-रुच्>T6>T6</a>#!html/SV-IX/SV-25/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!पटलम्
+row2#!n1#!पटलम्
+row3#!n1#!पटल{;नपुं;1;एक}/पटल{;नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('पटल')>पटल</a>{;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,5</a>
+row6#!n1#!पटल
+row7#!n1#!the multitude
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इव
+row2#!NA#!इव
+row3#!NA#!इव{अव्य}
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,8</a>
+row6#!NA#!के सदृश
+row7#!NA#!like
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!वसुधान्त-निःसृतं
+row2#!n1#!वसुधान्त-निःसृतं
+row3#!n1#!वसुधान्त-निःसृत{;पुं;2;एक}/सृत{;नपुं;1;एक}/सृत{;नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('वसुधान्त')>वसुधान्त</a>-<a (click)=showDic('निः')>निः</a>-<a (click)=showDic('सृ2')>सृ2</a>{क्त;सृ;जुहोत्यादिः;;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n1#!पृथ्वी की सीमाप्रान्त से उदित
+row7#!n1#!that came forth from boundaries of the earth
+row8#!n1#!<a href="html/SV-IX/SV-25/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-25/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<वसुधा-अन्त>T6-निःसृतम्>T3</a>#!html/SV-IX/SV-25/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!शीत-रुचः
+row2#!n6#!शीत-रुचः
+row3#!n6#!शीत-रुच्{;स्त्री;1;बहु}/रुच्{;स्त्री;2;बहु}/रुच्{;स्त्री;5;एक}/रुच्{;स्त्री;6;एक}/रुच्{;स्त्री;8;बहु}
+row4#!n6#!<a (click)=showDic('शीत')>शीत</a>-<a (click)=showDic('रुक्')>रुक्</a>{;पुं;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,8</a>
+row6#!n6#!चन्द्रमा के
+row7#!n6#!of the moon
+row8#!n6#!<a href="html/SV-IX/SV-25/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-25/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><शीत-रुक्>Bs6</a>#!html/SV-IX/SV-25/samaasa4.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!स्फुरदंशु-जालं
+row2#!n1#!स्फुरदंशु-जालं
+row3#!n1#!स्फुरदंशु-जाल{;पुं;2;एक}/जाल{;नपुं;1;एक}/जाल{;नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('स्फुरदंशु')>स्फुरदंशु</a>-<a (click)=showDic('जाल')>जाल</a>{;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,11</a>
+row6#!n1#!स्फुरित होनेवाले किरणजाल_ने
+row7#!n1#!beam of light
+row8#!n1#!<a href="html/SV-IX/SV-25/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-25/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><स्फुरत्-<अंशु-जालम्>T6>K3</a>#!html/SV-IX/SV-25/samaasa5.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!माघवनीं
+row2#!n2#!माघवनीं
+row3#!n2#!माघवनी{;स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('माघवनी')>माघवनी</a>{;स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,10</a>
+row6#!n2#!पूर्व
+row7#!n2#!eastern
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!'मघवा बहुलम्' (6।4।128) इति विकल्पान्न आदेशः ।
+
+row1#!n2#!ककुभम्
+row2#!n2#!ककुभम्
+row3#!n2#!ककुभ्{;स्त्री;2;एक}/ककुभ{;पुं;2;एक}/ककुभ{;नपुं;1;एक}/ककुभ{;नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('ककुभ्')>ककुभ्</a>{;स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,11</a>
+row6#!n2#!दिशा_को
+row7#!n2#!direction
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!समस्-कुरुत
+row2#!v#!समस्-कुरुत
+row3#!v#!समस्-कृ3{कर्तरि;लोट्;म;बहु;परस्मैपदी;डुकृञ्;तनादिः}
+row4#!v#!<a (click)=showDic('समस्')>समस्</a>-<a (click)=showDic('कृ3')>कृ3</a>{कर्तरि;लङ्;प्र;बहु;आत्मनेपदी;डुकृञ्;तनादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!भूषित_किया.
+row7#!v#!adorned
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!प्रमिताक्षरा ।
+row11#!v#!उत्प्रेक्षा ।
+row12#!v#!'सम्पर्युपेभ्यः करोतौ भूषणे' इति सम्पूर्वस्य सुडागमः 'अडभ्यासव्यवायेऽपि' (वा०) इति नियमात् ।
+
+

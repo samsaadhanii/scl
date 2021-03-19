@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-IV/SV-49/49.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-49/49.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">49.A</a>#!html/SV-IV/SV-49/49.jpg#!row1#!NA#!इह
+row2#!number#!49.B</a>#!row2#!NA#!इह
+row3#!number#!49.C</a>#!row3#!NA#!इह{अव्य}
+row4#!number#!49.D</a>#!row4#!NA#!<a (click)=showDic('इह')>इह</a>{अव्य}
+row5#!number#!49.E</a>#!row5#!NA#!अधिकरणम्,10
+row6#!number#!49.F</a>#!row6#!NA#!इस पर्वत पर
+row7#!number#!49.G</a>#!row7#!NA#!on this mountain
+row8#!number#!49.H#!row8#!NA#!
+row9#!number#!49.I</a>#!row9#!NA#!
+row10#!number#!49.J</a>#!row10#!NA#!
+row11#!number#!49.K</a>#!row11#!NA#!
+row12#!number#!49.L</a>#!row12#!NA#!
+
+row1#!NA#!प्राग्-भागतः
+row2#!NA#!प्राग्-भागतः
+row3#!NA#!प्राग्-भाग{अव्य;तसिल्}
+row4#!NA#!<a (click)=showDic('प्राग्')>प्राग्</a>-<a (click)=showDic('भाग')>भाग</a>{अव्य;तसिल्}
+row5#!NA#!<a href="javascript:show('अपादानम्,')">अपादानम्,10</a>
+row6#!NA#!ऊपर की ओर से
+row7#!NA#!from the uplands
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n7#!उपत्यकासु
+row2#!n7#!उपत्यकासु
+row3#!n7#!उपत्यका{;स्त्री;7;बहु}
+row4#!n7#!<a (click)=showDic('उपत्यका')>उपत्यका</a>{;स्त्री;7;बहु}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,4</a>
+row6#!n7#!पहाड़ों के निचले भागों में
+row7#!n7#!on to the lowlands
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!'उपाधिभ्याम्-' (5।2।34) इत्यादिनापशब्दात्त्यकन्प्रत्ययः ।
+
+row1#!n1#!पतत्
+row2#!n1#!पतत्
+row3#!n1#!पतत्{;नपुं;8;एक}/पतत्{;नपुं;1;एक(;शतृ_लट्;पतॢँ;भ्वादिः)}/पतत्{;नपुं;2;एक(;शतृ_लट्;पतॢँ;भ्वादिः)}
+row4#!n1#!पतत्;नपुं;1;एक(पत्1;शतृ_लट्;पतॢँ;भ्वादिः)}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,10</a>
+row6#!n1#!गिरता_हुआ
+row7#!n1#!while falling
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!श्रृङ्गारितायतमहेभ-कर-आभं
+row2#!n1#!श्रृङ्गारितायतमहेभ-कर-आभं
+row3#!n1#!श्रृङ्गारितायतमहेभ-कर-आभम्}
+row4#!n1#!<a (click)=showDic('श्रृङ्गारितायतमहेभ')>श्रृङ्गारितायतमहेभ</a>-<a (click)=showDic('कर')>कर</a>-<a (click)=showDic('आभ')>आभ</a>{नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n1#!सिन्दूरादि से मण्डित गजराज के लम्बे सूँड़ के समान
+row7#!n1#!having the beauty of the decorated long trunk of a large elephant
+row8#!n1#!<a href="html/SV-IV/SV-49/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-49/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<शृङ्गारित-आयत>K3-<महा-इभ>K3-कर>T6>K3-आभम्>Bs6</a>#!html/SV-IV/SV-49/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!विविधरत्नकर-अनुविद्धम्
+row2#!n1#!विविधरत्नकर-अनुविद्धम्
+row3#!n1#!अनुविद्ध{;पुं;2;एक(विविधरत्नकर-;क्त;व्यधँ;दिवादिः)}/अनुविद्ध{;नपुं;1;एक(;क्त;व्यधँ;दिवादिः)}/अनुविद्ध{;नपुं;2;एक(;क्त;व्यधँ;दिवादिः)}
+row4#!n1#!<a (click)=showDic('विविधरत्नकर')>विविधरत्नकर</a>-<a (click)=showDic('अनुविद्ध')>अनुविद्ध</a>{नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n1#!अनेक रत्न किरणों से अनुरञ्जित
+row7#!n1#!being tinted with rays of various jewels
+row8#!n1#!<a href="html/SV-IV/SV-49/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-49/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<विविध-रत्न>K3-कर>T6-अनुविद्धम्>T3</a>#!html/SV-IV/SV-49/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!इदम्
+row2#!n1#!इदम्
+row3#!n1#!इदम्{सर्वनाम;नपुं;1;एक}/इदम्{सर्वनाम;नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('इदम्')>इदम्</a>{सर्वनाम;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n1#!यह
+row7#!n1#!this
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!अम्भः
+row2#!n1#!अम्भः
+row3#!n1#!अम्भस्{;नपुं;1;एक}/अम्भस्{;नपुं;2;एक}/अम्भस्{;नपुं;8;एक}
+row4#!n1#!<a (click)=showDic('अम्भस्')>अम्भस्</a>{;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n1#!जल
+row7#!n1#!water
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!ऊर्ध्वप्रसारितसुराधिपचाप-चारु
+row2#!n1#!ऊर्ध्वप्रसारितसुराधिपचाप-चारु
+row3#!n1#!ऊर्ध्वप्रसारितसुराधिपचाप-चारु{;नपुं;1;एक}/चारु{;नपुं;2;एक}/चारु{;नपुं;8;एक}
+row4#!n1#!<a (click)=showDic('ऊर्ध्वप्रसारितसुराधिपचाप')>ऊर्ध्वप्रसारितसुराधिपचाप</a>-<a (click)=showDic('चारु')>चारु</a>{;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n1#!ऊपर की ओर फैलाये हुए इन्द्र धनुष के समान सुन्दर
+row7#!n1#!as lovely as a rainbow turned upward
+row8#!n1#!<a href="html/SV-IV/SV-49/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-49/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<ऊर्ध्वप्रसारित-<<सुर-अधिप>T6-चाप>T6>K3-चारु>K4</a>#!html/SV-IV/SV-49/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!संलक्ष्यते
+row2#!v#!संलक्ष्यते
+row3#!v#!सम्_लक्ष्1{कर्मणि;लट्;प्र;एक;आत्मनेपदी;लक्षँ;चुरादिः}/सम्_लक्ष्2{कर्मणि;लट्;प्र;एक;आत्मनेपदी;लक्षँ;चुरादिः}
+row4#!v#!<a (click)=showDic('सम्_लक्ष्1')>सम्_लक्ष्1</a>{कर्मणि;लट्;प्र;एक;आत्मनेपदी;लक्षँ;चुरादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!सुन्दर दिखाई देता है
+row7#!v#!looks beautiful
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!वसन्तितिलका ।
+row11#!v#!अतिशयोक्तिः ।
+row12#!v#!
+
+

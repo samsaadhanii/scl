@@ -1,0 +1,92 @@
+row1#!number#!<a href="html/SV-VII/SV-20/20.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-20/20.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">20.A</a>#!html/SV-VII/SV-20/20.jpg#!row1#!n1#!काचित्
+row2#!number#!20.B</a>#!row2#!n1#!काचित्
+row3#!number#!20.C</a>#!row3#!n1#!किञ्चित्{सर्वनाम;स्त्री;1;एक}
+row4#!number#!20.D</a>#!row4#!n1#!<a (click)=showDic('किञ्चित्')>किञ्चित्</a>{स्त्री;1;एक}
+row5#!number#!20.E</a>#!row5#!n1#!कर्ता,7
+row6#!number#!20.F</a>#!row6#!n1#!अन्य कोई अङ्गना
+row7#!number#!20.G</a>#!row7#!n1#!Another lady
+row8#!number#!20.H#!row8#!n1#!
+row9#!number#!20.I</a>#!row9#!n1#!
+row10#!number#!20.J</a>#!row10#!n1#!
+row11#!number#!20.K</a>#!row11#!n1#!
+row12#!number#!20.L</a>#!row12#!n1#!
+
+row1#!n2#!अलघुपीवर-उरु
+row2#!n2#!अलघुपीवर-उरु
+row3#!n2#!अलघुपीवर-उरु{नपुं;1;एक}/उरु{नपुं;2;एक}/उरु{नपुं;8;एक}
+row4#!n2#!<a (click)=showDic('अलघुपीवर')>अलघुपीवर</a>-<a (click)=showDic('उरु')>उरु</a>{नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n2#!पृथु एवं पीवर ऊरुद्वयवाले
+row7#!n2#!possessing big and fat (two) thighs
+row8#!n2#!<a href="html/SV-VII/SV-20/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-20/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<न-लघु>Tn-पीवर>K1-उरु>Bs6</a>#!html/SV-VII/SV-20/samaasa1.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!उरुनिबिरीसनितम्बभार-खेदि
+row2#!n2#!उरुनिबिरीसनितम्बभार-खेदि
+row3#!n2#!उरुनिबिरीसनितम्बभार-खेदि}
+row4#!n2#!<a (click)=showDic('उरुनिबिरीसनितम्बभार')>उरुनिबिरीसनितम्बभार</a>-<a (click)=showDic('खेदि')>खेदि</a>{नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n2#!स्थूल एवं निबिड़ नितम्बों के भार से खिन्न
+row7#!n2#!afflicted with the heaviness of huge buttocks
+row8#!n2#!<a href="html/SV-VII/SV-20/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-20/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<उरु-निबिरीस>K1-नितम्ब>K1-भार>K6-खेदि>U</a>#!html/SV-VII/SV-20/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!'नेर्बिडज्विरीसचौ' (5।2।32) इति निशब्दाद्बिरीसच्प्रत्ययः ।
+
+row1#!n2#!जघनम्
+row2#!n2#!जघनम्
+row3#!n2#!जघन{पुं;2;एक}
+row4#!n2#!<a (click)=showDic('जघन')>जघन</a>{नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,7</a>
+row6#!n2#!जघन_को
+row7#!n2#!buttock
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n3#!दयिततमशिरोधरावलम्बिस्वभुजलता-विभवेन
+row2#!n3#!दयिततमशिरोधरावलम्बिस्वभुजलता-विभवेन
+row3#!n3#!दयिततमशिरोधरावलम्बिस्वभुजलता-विभव{पुं;3;एक}/विभव{नपुं;3;एक}
+row4#!n3#!<a (click)=showDic('दयिततमशिरोधरावलम्बिस्वभुजलता')>दयिततमशिरोधरावलम्बिस्वभुजलता</a>-<a (click)=showDic('विभव')>विभव</a>{पुं;3;एक}
+row5#!n3#!<a href="javascript:show('हेतुः,')">हेतुः,6</a>
+row6#!n3#!प्रियतम के कन्धों पर अपनी भुजलताओं को रखकर उनकी महिमा से
+row7#!n3#!while placing her shoulders like creepers on her beloved
+row8#!n3#!<a href="html/SV-VII/SV-20/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-20/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<दयिततम-शिरोधरा>T6-अवलम्बि>T7-<<स्व-भुज>T6-लता>K5>Di-विभवः>T6</a>#!html/SV-VII/SV-20/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n5#!कृच्छ्रात्
+row2#!n5#!कृच्छ्रात्
+row3#!n5#!कृच्छ्र{पुं;5;एक}/कृच्छ्र{नपुं;5;एक}
+row4#!n5#!<a (click)=showDic('कृच्छ्र')>कृच्छ्र</a>{पुं;5;एक}
+row5#!n5#!<a href="javascript:show('हेतुः,')">हेतुः,7</a>
+row6#!n5#!कष्ट_से
+row7#!n5#!with great difficulty
+row8#!n5#!-
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!
+
+row1#!v#!ऊहे
+row2#!v#!ऊहे
+row3#!v#!ऊह्1{कर्तरि;लट्;उ;एक;आत्मनेपदी;ऊहँ;भ्वादिः}/उह्1{कर्मणि;लिट्;उ;एक;आत्मनेपदी;उहिँर्;भ्वादिः}/उह्1{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;उहिँर्;भ्वादिः}/वह्1{कर्तरि;लिट्;उ;एक;आत्मनेपदी;वहँ;भ्वादिः}/वह्1{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;वहँ;भ्वादिः}/वह्1{कर्मणि;लिट्;उ;एक;आत्मनेपदी;वहँ;भ्वादिः}/वह्1{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;वहँ;भ्वादिः}/ऊह{पुं;7;एक}
+row4#!v#!<a (click)=showDic('वह्1')>वह्1</a>{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;वहँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!वह_रही_थी.
+row7#!v#!bore.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!पुष्पिताग्रा ।
+row11#!v#!-
+row12#!v#!
+
+

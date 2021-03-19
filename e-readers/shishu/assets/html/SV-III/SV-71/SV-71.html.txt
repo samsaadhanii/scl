@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-III/SV-71/71.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-71/71.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">71.A</a>#!html/SV-III/SV-71/71.jpg#!row1#!n1#!असौ
+row2#!number#!71.B</a>#!row2#!n1#!असौ 
+row3#!number#!71.C</a>#!row3#!n1#!अदस्{पुं}{1;एक}/अदस्{स्त्री}{1;एक}/असि{पुं}{7;एक}/असि{स्त्री}{7;एक}/असु{पुं}{7;एक} 
+row4#!number#!71.D</a>#!row4#!n1#!<a (click)=showDic('अदस्')>अदस्</a>{पुं}{1;एक}
+row5#!number#!71.E</a>#!row5#!n1#!कर्ता,11
+row6#!number#!71.F</a>#!row6#!n1#!उस श्रीकृष्ण_ने
+row7#!number#!71.G</a>#!row7#!n1#!That Śrī Kŗśṇa
+row8#!number#!71.H#!row8#!n1#!
+row9#!number#!71.I</a>#!row9#!n1#!
+row10#!number#!71.J</a>#!row10#!n1#!
+row11#!number#!71.K</a>#!row11#!n1#!
+row12#!number#!71.L</a>#!row12#!n1#!
+
+row1#!NA#!अधि-वेलं
+row2#!NA#!अधि-वेलं 
+row3#!NA#!अधि-वेल{नपुं}{1;एक}/वेल{नपुं}{2;एक} 
+row4#!NA#!<a (click)=showDic('अधि')>अधि</a>-<a (click)=showDic('वेल')>वेल</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,11</a>
+row6#!NA#!समुद्र तट_पर
+row7#!NA#!on the sea shore
+row8#!NA#!<a href="html/SV-III/SV-71/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-71/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अधि-वेलम्>A1</a>#!html/SV-III/SV-71/samaasa1.jpg
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!लक्ष्मी-भृतः
+row2#!n2#!लक्ष्मी-भृतः 
+row3#!n2#!लक्ष्मी-भृत{पुं}{1;एक} 
+row4#!n2#!<a (click)=showDic('लक्ष्मी')>लक्ष्मी</a>-<a (click)=showDic('भृत')>भृत</a>{पुं}{2;बहु} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!लक्ष्मीयुक्त
+row7#!n2#!which were possessed of beauty and Lakșmī
+row8#!n2#!<a href="html/SV-III/SV-71/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-71/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><लक्ष्मी-भृत्>U</a>#!html/SV-III/SV-71/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!अम्भोधि-तट-अधिवासान्
+row2#!n2#!अम्भोधि-तट-अधिवासान् 
+row3#!n2#!अम्भोधि-तट-अधि-वास{पुं}{2;बहु} 
+row4#!n2#!<a (click)=showDic('अम्भोधि')>अम्भोधि</a>-<a (click)=showDic('तट')>तट</a>-<a (click)=showDic('अधि')>अधि</a>-<a (click)=showDic('वास')>वास</a>{पुं}{2;बहु} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!समुद्र तट_पर_स्थित
+row7#!n2#!which had their abode on the shore of the ocean
+row8#!n2#!<a href="html/SV-III/SV-71/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-71/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<अम्बोधि-तट>T6-अधिवासः>Bs6</a>#!html/SV-III/SV-71/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!नीरद-नील-भासः
+row2#!n2#!नीरद-नील-भासः 
+row3#!n2#!नीरद-नील-भास्{स्त्री}{1;बहु}/भास्{स्त्री}{2;बहु}/भास्{स्त्री}{5;एक}/भास्{स्त्री}{6;एक}/भास{पुं}{1;एक} 
+row4#!n2#!<a (click)=showDic('नीरद')>नीरद</a>-<a (click)=showDic('नील')>नील</a>-<a (click)=showDic('भास्')>भास्</a>{पुं}{2;बहु} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!नील मेघ_के_समान_कान्तिवाले
+row7#!n2#!and which were dark coloured like clouds
+row8#!n2#!<a href="html/SV-III/SV-71/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-71/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><नीरदनील-भासः>Bs6</a>#!html/SV-III/SV-71/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!लतावधू-सम्प्रयुजः
+row2#!n2#!लतावधू-सम्प्रयुजः 
+row3#!n2#!लतावधू-सम्प्रयुज्{पुं}{1;बहु}/सम्प्रयुज्{पुं}{2;बहु}/सम्प्रयुज्{पुं}{5;एक}/सम्प्रयुज्{पुं}{6;एक}/सम्प्रयुज्{नपुं}{5;एक}/सम्प्रयुज्{नपुं}{6;एक}/सम्प्रयुज{पुं}{1;एक} 
+row4#!n2#!<a (click)=showDic('लतावधू')>लतावधू</a>-<a (click)=showDic('सम्प्रयुज्')>सम्प्रयुज्</a>{पुं}{2;बहु} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!लतारूपिणी स्त्रियों_से संयुक्त
+row7#!n2#!united with creepers as their wives
+row8#!n2#!<a href="html/SV-III/SV-71/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-71/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<लता-वधू>K5-सम्प्रयुज्>U</a>#!html/SV-III/SV-71/samaasa5.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!द्रुमान्
+row2#!n2#!द्रुमान् 
+row3#!n2#!द्रुम{पुं}{2;बहु}/द्रुमत्{पुं}{1;एक} 
+row4#!n2#!<a (click)=showDic('द्रुम')>द्रुम</a>{पुं}{2;बहु} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,11</a>
+row6#!n2#!वृक्षों_को 
+row7#!n2#!trees
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!बहू-कृतान्
+row2#!n2#!बहू-कृतान् 
+row3#!n2#!बहू-कृत{पुं}{2;बहु} 
+row4#!n2#!<a (click)=showDic('बहू_कृ3')>बहू_कृ3</a>{कृत्_प्रत्ययः:क्त;कृञ्;डुकृञ्;तनादिः;पुं}{2;बहु}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!अनेक_रूप_ग्रहण_किये_हुए
+row7#!n2#!multiplied
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!स्वान्
+row2#!n2#!स्वान् 
+row3#!n2#!स्व{पुं}{2;बहु}/स्व{पुं}{2;बहु} 
+row4#!n2#!<a (click)=showDic('स्व')>स्व</a>{पुं}{2;बहु} 
+row5#!n2#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,10</a>
+row6#!n2#!अपने_शरीर_के
+row7#!n2#!his own form of
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!इव
+row2#!NA#!इव 
+row3#!NA#!इव{अव्य} 
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,7</a>
+row6#!NA#!समान
+row7#!NA#!like
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!पश्यति
+row2#!v#!पश्यति 
+row3#!v#!दृश्1{कर्तरि;लट्;प्र;एक;परस्मैपदी;दृशिँर्;भ्वादिः}/पश्यत्{पुं}{7;एक} 
+row4#!v#!<a (click)=showDic('दृश्1')>दृश्1</a>{कर्तरि;लट्;प्र;एक;परस्मैपदी;दृशिँर्;भ्वादिः} 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!देखा
+row7#!v#!saw
+row8#!v#!-
+row9#!v#!
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!NA#!स्म.
+row2#!NA#!स्म 
+row3#!NA#!स्म{अव्य}. 
+row4#!NA#!<a (click)=showDic('स्म')>स्म</a>{अव्य}. 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,11</a>
+row6#!NA#!था.
+row7#!NA#!
+row8#!NA#!-
+row9#!NA#!कर्तरि
+row10#!NA#!उपजाति ।
+row11#!NA#!श्लेषः + उत्प्रेक्षा = सङ्कीर्णः ।
+row12#!NA#!
+
+

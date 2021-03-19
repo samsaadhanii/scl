@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-III/SV-79/79.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-79/79.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">79.A</a>#!html/SV-III/SV-79/79.jpg#!row1#!n1#!उत्सङ्गित-अम्भःकणकः
+row2#!number#!79.B</a>#!row2#!n1#!उत्सङ्गित-अम्भःकणकः 
+row3#!number#!79.C</a>#!row3#!n1#!उत्सङ्गित-अम्भस्-कणकः 
+row4#!number#!79.D</a>#!row4#!n1#!<a (click)=showDic('उत्सङ्गित')>उत्सङ्गित</a>-<a (click)=showDic('अम्भस्')>अम्भस्</a>-<a (click)=showDic('कणकः')>कणकः</a>{पुं}{1;एक}
+row5#!number#!79.E</a>#!row5#!n1#!विशेषणम्,4
+row6#!number#!79.F</a>#!row6#!n1#!अपने_मध्य_में_जलकण_को_ग्रहण_किया_हुआ
+row7#!number#!79.G</a>#!row7#!n1#!Wafting sprays of water
+row8#!number#!79.H#!row8#!n1#!<a href="html/SV-III/SV-79/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-79/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><उत्सङ्गित-<अम्भस्-कणकः>T6>Bs3</a>#!html/SV-III/SV-79/samaasa1.jpg
+row9#!number#!79.I</a>#!row9#!n1#!
+row10#!number#!79.J</a>#!row10#!n1#!
+row11#!number#!79.K</a>#!row11#!n1#!
+row12#!number#!79.L</a>#!row12#!n1#!'तत्करोति-’ (ग०) इति ण्यन्तात् कर्मणि क्तः । उत्सङ्गिता अन्भःकणा येनेति ‘शेषद्विभाषा’ (5।4।154) इति कप् ।
+
+row1#!n1#!एला-लता-आस्फालन-लब्ध-गन्धः
+row2#!n1#!एला-लता-आस्फालन-लब्ध-गन्धः 
+row3#!n1#!एला-लता-आस्फालन-लब्ध-गन्ध{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('एला')>एला</a>-<a (click)=showDic('लता')>लता</a>-<a (click)=showDic('आस्फालन')>आस्फालन</a>-<a (click)=showDic('लब्ध')>लब्ध</a>-<a (click)=showDic('गन्ध')>गन्ध</a>{पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n1#!छोटी इलायची_की_लता_को_कम्पित_करने_से_गन्धयुक्त
+row7#!n1#!fragrant by contact with the cardamom creepers
+row8#!n1#!<a href="html/SV-III/SV-79/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-79/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<एला-लता>T6-आस्फालन>T6-<लब्ध-गन्धः>K1>Bs3</a>#!html/SV-III/SV-79/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!उदन्वतः
+row2#!n6#!उदन्वतः 
+row3#!n6#!उदन्वत्{पुं}{2;बहु}/उदन्वत्{पुं}{5;एक}/उदन्वत्{पुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('उदन्वत्')>उदन्वत्</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,4</a>
+row6#!n6#!समुद्र_के
+row7#!n6#!of the ocean
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!नभस्वान्
+row2#!n1#!नभस्वान् 
+row3#!n1#!नभस्व-अन्{अव्य}
+row4#!n1#!<a (click)=showDic('नभस्वत्')>नभस्वत्</a>{पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n1#!वायु
+row7#!n1#!breeze
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!अधि-वेलं
+row2#!NA#!अधि-वेलं 
+row3#!NA#!अधि-वेल{नपुं}{1;एक}/वेल{नपुं}{2;एक} 
+row4#!NA#!<a (click)=showDic('अधि')>अधि</a>-<a (click)=showDic('वेल')>वेल</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अधिकरण,')">अधिकरण,6</a>
+row6#!NA#!तीर_पर
+row7#!NA#!along the shore
+row8#!NA#!<a href="html/SV-III/SV-79/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-79/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अधि-वेलम्>A1</a>#!html/SV-III/SV-79/samaasa3.jpg
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n6#!व्रजतः
+row2#!n6#!व्रजतः 
+row3#!n6#!व्रज्1{कर्तरि;लट्;प्र;द्वि;परस्मैपदी;व्रजँ;भ्वादिः}/व्रजत्{पुं}{2;बहु}/व्रजत्{पुं}{5;एक}/व्रजत्{पुं}{6;एक}/व्रजत्{नपुं}{5;एक}/व्रजत्{नपुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('व्रज्1')>व्रज्1</a>{कृत्_प्रत्ययः:शतृ;व्रजँ;भ्वादिः;पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n6#!चलते_हुए
+row7#!n6#!while going
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!तस्य
+row2#!n6#!तस्य 
+row3#!n6#!तद्{पुं}{6;एक}/तद्{नपुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('तद्')>तद्</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,8</a>
+row6#!n6#!उसका 
+row7#!n6#!his
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!स्वेद-लवान्
+row2#!n2#!स्वेद-लवान् 
+row3#!n2#!स्वेद-लव{पुं}{2;बहु} 
+row4#!n2#!<a (click)=showDic('स्वेद')>स्वेद</a>-<a (click)=showDic('लव')>लव</a>{पुं}{2;बहु} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n2#!पसीनों_को
+row7#!n2#!the drops of perspiration
+row8#!n2#!<a href="html/SV-III/SV-79/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-79/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><स्वेद-लवः>T6</a>#!html/SV-III/SV-79/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!अनु-वेलं
+row2#!NA#!अनु-वेलं 
+row3#!NA#!अनु-वेल{नपुं}{1;एक}/वेल{नपुं}{2;एक} 
+row4#!NA#!<a (click)=showDic('अनु')>अनु</a>-<a (click)=showDic('वेल')>वेल</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अधिकरण,')">अधिकरण,10</a>
+row6#!NA#!प्रतिक्षण
+row7#!NA#!every moment
+row8#!NA#!<a href="html/SV-III/SV-79/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-79/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अनु-वेलम्>A1</a>#!html/SV-III/SV-79/samaasa5.jpg
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!ममार्ज.
+row2#!v#!ममार्ज 
+row3#!v#!मृज्1{कर्तरि;लिट्;उ;एक;परस्मैपदी;मृजूँष्;अदादिः}/मृज्1{कर्तरि;लिट्;म;बहु;परस्मैपदी;मृजूँष्;अदादिः}/मृज्1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;मृजूँष्;अदादिः}. 
+row4#!v#!<a (click)=showDic('मृज्1')>मृज्1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;मृजूँष्;अदादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!दूर_करता_था.
+row7#!v#!wiped off.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!उपजाति ।
+row11#!v#!काव्यलिङ्गम् ।
+row12#!v#!
+
+

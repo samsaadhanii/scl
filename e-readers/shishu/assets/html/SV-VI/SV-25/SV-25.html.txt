@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-VI/SV-25/25.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-25/25.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">25.A</a>#!html/SV-VI/SV-25/25.jpg#!row1#!n1#!स्फुरदधीरतडिन्नयना
+row2#!number#!25.B</a>#!row2#!n1#!स्फुरदधीरतडिन्नयना
+row3#!number#!25.C</a>#!row3#!n1#!स्फुरदधीरतडिन्नयना{स्त्री;1;एक}
+row4#!number#!25.D</a>#!row4#!n1#!<a (click)=showDic('स्फुरदधीरतडिन्नयना')>स्फुरदधीरतडिन्नयना</a>{स्त्री;1;एक}
+row5#!number#!25.E</a>#!row5#!n1#!विशेषणम्,3
+row6#!number#!25.F</a>#!row6#!n1#!चमकते हुए चञ्चल बिजली रूपी नेत्रों वाली
+row7#!number#!25.G</a>#!row7#!n1#!(i) Splendorous and fickle (ii) the women with fickle and splendorous eyes
+row8#!number#!25.H#!row8#!n1#!<a href="html/SV-VI/SV-25/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-25/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<स्फुरद्-अधीरा>K1-<तडित्-नयना>K5>Bs6</a>#!html/SV-VI/SV-25/samaasa1.jpg
+row9#!number#!25.I</a>#!row9#!n1#!
+row10#!number#!25.J</a>#!row10#!n1#!
+row11#!number#!25.K</a>#!row11#!n1#!
+row12#!number#!25.L</a>#!row12#!n1#!
+
+row1#!n1#!अगलित-उरु-पयो-धरा
+row2#!n1#!अगलित-उरु-पयो-धरा
+row3#!n1#!अगलित-उरु-पयो-धरा{स्त्री;1;एक}/धरा{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('अगलित')>अगलित</a>-<a (click)=showDic('उरु')>उरु</a>-<a (click)=showDic('पयो')>पयो</a>-<a (click)=showDic('धरा')>धरा</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n1#!नहीं बरसने से बड़े-बड़े मेघों वाली
+row7#!n1#!(i) that were big in size as they didn't pour down (ii) with large breasts and thighs
+row8#!n1#!<a href="html/SV-VI/SV-25/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-25/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<अगलित-उरु-पयोधरा>Di>Bs7</a>#!html/SV-VI/SV-25/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!जल-धर-आवलिः
+row2#!n1#!जल-धर-आवलिः
+row3#!n1#!जल-धर-आवलि{स्त्री;1;एक}/आवलि{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('जल')>जल</a>-<a (click)=showDic('धर')>धर</a>-<a (click)=showDic('आवलि')>आवलि</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n1#!बादलों_की_पंक्ति
+row7#!n1#!row of clouds
+row8#!n1#!<a href="html/SV-VI/SV-25/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-25/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<जल-धर>U-आवलिः>T6</a>#!html/SV-VI/SV-25/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!अप्रति-पालित-स्व-समया
+row2#!n1#!अप्रति-पालित-स्व-समया
+row3#!n1#!अप्रति-पालित-स्व-समया{अव्य}/समा{स्त्री;3;एक}/समा{स्त्री;3;एक}/समा{स्त्री;3;एक}
+row4#!n1#!<a (click)=showDic('अप्रति')>अप्रति</a>-<a (click)=showDic('पालित')>पालित</a>-<a (click)=showDic('स्व')>स्व</a>-<a (click)=showDic('समया')>समया</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('कर्तृसमानाधिकरणम्,')">कर्तृसमानाधिकरणम्,5</a>
+row6#!n1#!अपने समय (क्रमिक काल) की अपेक्षा नहीं करने वाली
+row7#!n1#!(i) without waiting for their season to arrive (ii) without even waiting for an opportunity
+row8#!n1#!<a href="html/SV-VI/SV-25/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-25/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<न-प्रतिपालित>Tn-<स्व-समयः>T6>Bs3</a>#!html/SV-VI/SV-25/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!(सती)
+row2#!n1#!सती
+row3#!n1#!सति{स्त्री;1;द्वि}/सति{स्त्री;2;द्वि}/सति{स्त्री;8;द्वि}/सती{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('अस्2')>अस्2</a>{कृत्_प्रत्ययः:शतृ;असँ;अदादिः;स्त्री}{1;एक}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,10</a>
+row6#!n1#!रहने_पर
+row7#!n1#!while
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!जगती-धरं
+row2#!n2#!जगती-धरं
+row3#!n2#!जगती-धर{पुं;2;एक}/धर{नपुं;1;एक}/धर{नपुं;2;एक}/धर{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('जगती')>जगती</a>-<a (click)=showDic('धर')>धर</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n2#!पृथ्वी-धर_को
+row7#!n2#!the Raivataka mountain
+row8#!n2#!<a href="html/SV-VI/SV-25/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-25/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><जगती-धरः>U</a>#!html/SV-VI/SV-25/samaasa5.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!प्रियम्
+row2#!n2#!प्रियम्
+row3#!n2#!प्रिय{पुं;2;एक}/प्रिय{नपुं;1;एक}/प्रिय{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('प्रिय')>प्रिय</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,8</a>
+row6#!n2#!प्रिय_के
+row7#!n2#!beloved
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!इव
+row2#!NA#!इव
+row3#!NA#!इव{अव्य}
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,6</a>
+row6#!NA#!जैसे
+row7#!NA#!like
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!मुहुः
+row2#!NA#!मुहुः
+row3#!NA#!मुहुः{अव्य}
+row4#!NA#!<a (click)=showDic('मुहुः')>मुहुः</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,10</a>
+row6#!NA#!बार-बार
+row7#!NA#!frequently
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!समयात्
+row2#!v#!समयात्
+row3#!v#!समय{पुं;5;एक}/सम्_या1{कर्तरि;लङ्;प्र;एक;परस्मैपदी;या;अदादिः}
+row4#!v#!<a (click)=showDic('सम्_अ_या1')>सम्_अ_या1</a>{कर्तरि;लङ्;प्र;एक;परस्मैपदी;या;अदादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!उपस्थित_हो_जाती_है.
+row7#!v#!approached.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!समासोक्तिः + उपमा + यमकम् = सङ्करः ।
+row12#!v#!
+
+

@@ -1,0 +1,92 @@
+row1#!number#!<a href="html/SV-IX/SV-54/54.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-54/54.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">54.A</a>#!html/SV-IX/SV-54/54.jpg#!row1#!n2#!नमत्-करपल्लव-अर्पित-कपोल-तलं
+row2#!number#!54.B</a>#!row2#!n2#!नमत्-करपल्लव-अर्पित-कपोल-तलं
+row3#!number#!54.C</a>#!row3#!n2#!नमत्-करपल्लव-अर्पित-कपोल-तल{पुं;2;एक}/तल{नपुं;1;एक}/तल{नपुं;2;एक}
+row4#!number#!54.D</a>#!row4#!n2#!<a (click)=showDic('नमत्')>नमत्</a>-<a (click)=showDic('करपल्लव')>करपल्लव</a>-<a (click)=showDic('अर्पित')>अर्पित</a>-<a (click)=showDic('कपोल')>कपोल</a>-<a (click)=showDic('तल')>तल</a>{;पुं;2;एक}
+row5#!number#!54.E</a>#!row5#!n2#!विशेषणम्,2
+row6#!number#!54.F</a>#!row6#!n2#!झुकते हुए करपल्लव (हथेली) पर कपोलतल को धारण करनेवाले
+row7#!number#!54.G</a>#!row7#!n2#!of twigs on (her buttock) by bending it on the middle part of (her) cheeks
+row8#!number#!54.H#!row8#!n2#!<a href="html/SV-IX/SV-54/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-54/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><नमत्-<<कर-पल्लव>K5-अर्पित>T7-<कपोल-तलम्>T6>Bs6</a>#!html/SV-IX/SV-54/samaasa1.jpg
+row9#!number#!54.I</a>#!row9#!n2#!
+row10#!number#!54.J</a>#!row10#!n2#!
+row11#!number#!54.K</a>#!row11#!n2#!
+row12#!number#!54.L</a>#!row12#!n2#!
+
+row1#!n2#!बाहुम्
+row2#!n2#!बाहुम्
+row3#!n2#!बाहु{पुं;2;एक}
+row4#!n2#!<a (click)=showDic('बाहु')>बाहु</a>{;पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,4</a>
+row6#!n2#!हाथ_को
+row7#!n2#!hand
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!अधि-जानु
+row2#!NA#!अधि-जानु
+row3#!NA#!अधि-जानु{;नपुं;1;एक}/जानु{;नपुं;2;एक}/जानु{;नपुं;8;एक}
+row4#!NA#!<a (click)=showDic('अधि')>अधि</a>-<a (click)=showDic('जानु')>जानु</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,4</a>
+row6#!NA#!जघनस्थल पर
+row7#!NA#!on buttock
+row8#!NA#!<a href="html/SV-IX/SV-54/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-54/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अधि-जानु>A1</a>#!html/SV-IX/SV-54/samaasa2.jpg
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!उपधाय
+row2#!NA#!उपधाय
+row3#!NA#!उप_धा1{अव्य;ल्यप्;डुधाञ्;जुहोत्यादिः}/उपधाय{;पुं;8;एक}
+row4#!NA#!<a (click)=showDic('उप_धा1')>उप_धा1</a>{अव्य;ल्यप्;डुधाञ्;जुहोत्यादिः}
+row5#!NA#!<a href="javascript:show('पूर्वकालः,')">पूर्वकालः,7</a>
+row6#!NA#!रखकर
+row7#!NA#!having placed
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!कण्ठ-परिवर्तित-कल-स्वर-शून्य-गान-परया
+row2#!n3#!कण्ठ-परिवर्तित-कल-स्वर-शून्य-गान-परया
+row3#!n3#!कण्ठ-परिवर्तित-कल-स्वर-शून्य-गान-परा{सर्वनाम;स्त्री;3;एक}/परा{;स्त्री;3;एक}
+row4#!n3#!<a (click)=showDic('कण्ठ')>कण्ठ</a>-<a (click)=showDic('परिवर्तित')>परिवर्तित</a>-<a (click)=showDic('कल')>कल</a>-<a (click)=showDic('स्वर')>स्वर</a>-<a (click)=showDic('शून्य')>शून्य</a>-<a (click)=showDic('गान')>गान</a>-<a (click)=showDic('परा')>परा</a>{सर्वनाम;स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n3#!कण्ठ के भीतर ही गूंजते हुए अस्पष्ट मधुर स्वर से गाती हुई
+row7#!n3#!with a low voice was engaged in humming a song that had no tone
+row8#!n3#!<a href="html/SV-IX/SV-54/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-54/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<कण्ठ-परिवर्तित>U-<कल-स्वरशून्य>K3-गान>K3>K3-परा>Bs7</a>#!html/SV-IX/SV-54/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!अपरया
+row2#!n3#!अपरया
+row3#!n3#!अपरा{;स्त्री;3;एक}/अपरा{सर्वनाम;स्त्री;3;एक}
+row4#!n3#!<a (click)=showDic('अपरा')>अपरा</a>{सर्वनाम;स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,7</a>
+row6#!n3#!अन्य_नायिका
+row7#!n3#!another woman
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!v#!उदकण्ठि
+row2#!v#!उदकण्ठि
+row3#!v#!उदकण्ठि}
+row4#!v#!<a (click)=showDic('उत्_कण्ठ्2')>उत्_कण्ठ्2</a>{भावे;लुङ्;प्र;एक;आत्मनेपदी;कठिँ;चुरादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!उत्कण्ठित हो रही थी.
+row7#!v#!was longing.
+row8#!v#!-
+row9#!v#!भावे
+row10#!v#!प्रमिताक्षरा ।
+row11#!v#!प्रेयः ।
+row12#!v#!
+
+

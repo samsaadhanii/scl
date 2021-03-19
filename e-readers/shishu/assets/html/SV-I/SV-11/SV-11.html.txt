@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-I/SV-11/11.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-11/11.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">11.A</a>#!html/SV-I/SV-11/11.jpg#!row1#!n1#!अतीन्द्रियज्ञान-निधिः
+row2#!number#!11.B</a>#!row2#!n1#!अतीन्द्रियज्ञान-निधिः
+row3#!number#!11.C</a>#!row3#!n1#!अतीन्द्रियज्ञान-निधि{;पुं;1;एक}
+row4#!number#!11.D</a>#!row4#!n1#!<a (click)=showDic('अतीन्द्रियज्ञान')>अतीन्द्रियज्ञान</a>-<a (click)=showDic('निधि')>निधि</a>{;पुं;1;एक}
+row5#!number#!11.E</a>#!row5#!n1#!विशेषणम्,2
+row6#!number#!11.F</a>#!row6#!n1#!अतीन्द्रिय ज्ञान के निधि
+row7#!number#!11.G</a>#!row7#!n1#!who is the treasure of supersensual knowledge
+row8#!number#!11.H#!row8#!n1#!<a href="html/SV-I/SV-11/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-11/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<अतीन्द्रिय>A1-<ज्ञान-निधिः>T6>T6</a>#!html/SV-I/SV-11/samaasa1.jpg
+row9#!number#!11.I</a>#!row9#!n1#!
+row10#!number#!11.J</a>#!row10#!n1#!
+row11#!number#!11.K</a>#!row11#!n1#!
+row12#!number#!11.L</a>#!row12#!n1#!‘अत्यादयकान्ताद्यर्थे द्वितीयया’ इति समासः ।
+
+row1#!n1#!सः
+row2#!n1#!सः
+row3#!n1#!तद्{सर्वनाम;पुं;1;एक}
+row4#!n1#!<a (click)=showDic('तद्')>तद्</a>{सर्वनाम;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,11</a>
+row6#!n1#!वह (नारद)
+row7#!n1#!that Nārada
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!कृत-आनतीन्
+row2#!n2#!कृत-आनतीन्
+row3#!n2#!कृत{पुं(;क्त;कृञ्;स्वादिः)}/कृत{नपुं(;क्त;कृञ्;स्वादिः)}/कृत{पुं(;क्त;डुकृञ्;तनादिः)}/कृत{नपुं(;क्त;डुकृञ्;तनादिः)}/कृत{पुं(;क्त;कृञ्;भ्वादिः)}/कृत{नपुं-आनति;;पुं;2;बहु(;क्त;कृञ्;भ्वादिः)}
+row4#!n2#!<a (click)=showDic('कृत')>कृत</a>-<a (click)=showDic('आनति')>आनति</a>{पुं;2;बहु}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n2#!नमस्कार किये हुए
+row7#!n2#!having saluted
+row8#!n2#!<a href="html/SV-I/SV-11/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-11/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कृत-आनतिः>Bs3</a>#!html/SV-I/SV-11/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!अनु-व्रजतः
+row2#!n2#!अनु-व्रजतः
+row3#!n2#!अनु-व्रज{अव्य;तसिल्}/व्रज्1{कर्तरि;लट्;प्र;द्वि;परस्मैपदी;व्रजँ;भ्वादिः}/व्रजत्{;पुं;2;बहु(;शतृ_लट्;व्रजँ;भ्वादिः)}/व्रजत्{;पुं;5;एक(;शतृ_लट्;व्रजँ;भ्वादिः)}/व्रजत्{;पुं;6;एक(;शतृ_लट्;व्रजँ;भ्वादिः)}/व्रजत्{;नपुं;5;एक(;शतृ_लट्;व्रजँ;भ्वादिः)}/व्रजत्{;नपुं;6;एक(;शतृ_लट्;व्रजँ;भ्वादिः)}
+row4#!n2#!<a (click)=showDic('अनु')>अनु</a>-<a (click)=showDic('व्रजत्')>व्रजत्</a>{;पुं;2;बहु(व्रज्1;शतृ_लट्;व्रजँ;भ्वादिः)}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n2#!पीछे-पीछे आनेवाले
+row7#!n2#!while following
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!नभःसदः
+row2#!n2#!नभःसदः
+row3#!n2#!नभःसद{;पुं;1;एक}/सदस्{;नपुं;1;एक}/सदस्{;नपुं;2;एक}/सदस्{;नपुं;8;एक}
+row4#!n2#!<a (click)=showDic('नभःसदस्')>नभःसदस्</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,6</a>
+row6#!n2#!देवताओं_को
+row7#!n2#!gods
+row8#!n2#!<a href="html/SV-I/SV-11/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-11/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><नभस्-सदः>U</a>#!html/SV-I/SV-11/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!‘सत्सूद्विष-’ (3।2।61) इत्यादिना क्विप् ।
+
+row1#!NA#!निवर्त्य
+row2#!NA#!निवर्त्य
+row3#!NA#!निवर्त्य}
+row4#!NA#!<a (click)=showDic('नि_वृत्1')>नि_वृत्1</a>{कृत्_प्रत्ययःःल्यप्;वर्तँ;भ्वादिः}
+row5#!NA#!<a href="javascript:show('पूर्वकालः,')">पूर्वकालः,11</a>
+row6#!NA#!लौटाकर
+row7#!NA#!having sent
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n6#!सादितदैत्य-सम्पदः
+row2#!n6#!सादितदैत्य-सम्पदः
+row3#!n6#!सादितदैत्य-सम्पद्{;स्त्री;1;बहु}/सम्पद्{;स्त्री;2;बहु}/सम्पद्{;स्त्री;5;एक}/सम्पद्{;स्त्री;6;एक}/सम्पद्{;स्त्री;8;बहु}
+row4#!n6#!<a (click)=showDic('सादितदैत्य')>सादितदैत्य</a>-<a (click)=showDic('सम्पद्')>सम्पद्</a>{;पुं;6;एक}
+row5#!n6#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n6#!असुरों की समपत्ति को नष्टकरने वाले
+row7#!n6#!who destroyed the prosperity of the demons
+row8#!n6#!<a href="html/SV-I/SV-11/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-11/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सादित-<दैत्य-सम्पद्>T6>Bs3</a>#!html/SV-I/SV-11/samaasa4.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!चक्रिणः
+row2#!n6#!चक्रिणः
+row3#!n6#!चक्रिन्{;पुं;1;बहु}/चक्रिन्{;पुं;2;बहु}/चक्रिन्{;पुं;5;एक}/चक्रिन्{;पुं;6;एक}/चक्रिन्{;पुं;8;बहु}
+row4#!n6#!<a (click)=showDic('चक्रिन्')>चक्रिन्</a>{;पुं;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,10</a>
+row6#!n6#!श्रीकृष्ण_के
+row7#!n6#!of Śrī Kṛṣṇa
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!महेन्द्रालय-चारु
+row2#!n2#!महेन्द्रालय-चारु
+row3#!n2#!महेन्द्रालय-चारु{;नपुं;1;एक}/चारु{;नपुं;2;एक}/चारु{;नपुं;8;एक}
+row4#!n2#!<a (click)=showDic('महेन्द्रालय')>महेन्द्रालय</a>-<a (click)=showDic('चारु')>चारु</a>{;नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,10</a>
+row6#!n2#!इन्द्रभवन के समान सुन्दर
+row7#!n2#!beautiful as Indra’s abode
+row8#!n2#!<a href="html/SV-I/SV-11/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-11/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<महा-इन्द्र>K3-आलय>T6-चारु>K4</a>#!html/SV-I/SV-11/samaasa5.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!पदं
+row2#!n2#!पदं
+row3#!n2#!पद्{;पुं;2;एक}/पद{;नपुं;1;एक}/पद{;नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('पद्')>पद्</a>{;पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,11</a>
+row6#!n2#!(निवास) स्थान में
+row7#!n2#!dwelling place
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!सम्-आसदत्
+row2#!v#!सम्-आसदत्
+row3#!v#!सम्-षद्1{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;षदॢँ;भ्वादिः}/षद्2{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;षदॢँ;तुदादिः}
+row4#!v#!<a (click)=showDic('सम्')>सम्</a>-<a (click)=showDic('षद्1')>षद्1</a>{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;षदॢँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!पहु़ँचे.
+row7#!v#!reached.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!वंशस्थम् ।
+row11#!v#!छेकः + वृत्यानुप्रासः = संसृष्टिः ।
+row12#!v#!समाङ्पूर्वात्वद्लृधातोर्लुङ् । ‘पुषादि-’ स (3।1।55) इत्यङ् ।
+
+

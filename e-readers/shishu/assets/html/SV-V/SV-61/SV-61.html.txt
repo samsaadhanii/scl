@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-V/SV-61/61.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-61/61.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">61.A</a>#!html/SV-V/SV-61/61.jpg#!row1#!n1#!मुक्ताः
+row2#!number#!61.B</a>#!row2#!n1#!मुक्ताः 
+row3#!number#!61.C</a>#!row3#!n1#!मुक्त{पुं}{1;बहु}/मुक्त{पुं}{8;बहु}/मुक्ता{स्त्री}{1;बहु}/मुक्ता{स्त्री}{2;बहु}/मुक्ता{स्त्री}{8;बहु}/मुक्ता{स्त्री}{1;बहु}/मुक्ता{स्त्री}{2;बहु}/मुक्ता{स्त्री}{8;बहु} 
+row4#!number#!61.D</a>#!row4#!n1#!<a (click)=showDic('मुच्1')>मुच्1</a>{कृत्_प्रत्ययः:क्त;मुचॢँ;तुदादिः;पुं}{1;बहु} 
+row5#!number#!61.E</a>#!row5#!n1#!कर्ता,5
+row6#!number#!61.F</a>#!row6#!n1#!छोड़े_गये
+row7#!number#!61.G</a>#!row7#!n1#!Having freed
+row8#!number#!61.H#!row8#!n1#!
+row9#!number#!61.I</a>#!row9#!n1#!
+row10#!number#!61.J</a>#!row10#!n1#!
+row11#!number#!61.K</a>#!row11#!n1#!
+row12#!number#!61.L</a>#!row12#!n1#!
+
+row1#!n2#!कटकं
+row2#!n2#!कटकं 
+row3#!n2#!कटक{पुं}{2;एक}/कटक{नपुं}{1;एक}/कटक{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('कटक')>कटक</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('उपपदविभक्तिः,')">उपपदविभक्तिः,3</a>
+row6#!n2#!शिबिर_को
+row7#!n2#!canopy
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!‘अभितःपरितः-’ (वा०) इत्यादिना द्वितीया ।
+
+row1#!NA#!परितः
+row2#!NA#!परितः 
+row3#!NA#!परितः{अव्य} 
+row4#!NA#!<a (click)=showDic('परितः')>परितः</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('उपपदसम्बन्धः,')">उपपदसम्बन्धः,10</a>
+row6#!NA#!चारों_ओर 
+row7#!NA#!around
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!तृणानि
+row2#!n2#!तृणानि 
+row3#!n2#!तृण{नपुं}{1;बहु}/तृण{नपुं}{2;बहु} 
+row4#!n2#!<a (click)=showDic('तृण')>तृण</a>{नपुं}{2;बहु} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,5</a>
+row6#!n2#!तृणों_को 
+row7#!n2#!grass
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!चरन्तः
+row2#!n1#!चरन्तः 
+row3#!n1#!चरत्{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('चर्1')>चर्1</a>{कृत्_प्रत्ययः:शतृ;चरँ;भ्वादिः;पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,10</a>
+row6#!n1#!चरते_हुए
+row7#!n1#!while grazing
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!त्रुट्यद्-वितान-तनिका-व्यतिषङ्ग-भाजः
+row2#!n1#!त्रुट्यद्-वितान-तनिका-व्यतिषङ्ग-भाजः 
+row3#!n1#!त्रुट्यद्-वितान-तनिका-व्यतिषङ्ग-भाज्{पुं}{1;बहु}/भाज्{पुं}{2;बहु}/भाज्{पुं}{5;एक}/भाज्{पुं}{6;एक}/भाज्{नपुं}{5;एक}/भाज्{नपुं}{6;एक}/भाज{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('त्रुट्यद्')>त्रुट्यद्</a>-<a (click)=showDic('वितान')>वितान</a>-<a (click)=showDic('तनिका')>तनिका</a>-<a (click)=showDic('व्यतिषङ्ग')>व्यतिषङ्ग</a>-<a (click)=showDic('भाज्')>भाज्</a>{पुं}{1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n1#!तम्बू की टूटी हुई रस्सियों के सम्बन्ध को प्राप्त
+row7#!n1#!having got locked with the broken ropes of canopies
+row8#!n1#!<a href="html/SV-V/SV-61/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-61/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<त्रुट्यद्-वितानतनिका>K1-व्यतिषङ्ग>T7-भाक्>U</a>#!html/SV-V/SV-61/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!सरोष-परिचारक-वार्य-माणाः
+row2#!n1#!सरोष-परिचारक-वार्य-माणाः 
+row3#!n1#!सरोष-परिचारक-वार्य-माण{पुं}{1;बहु}/माणा{स्त्री}{1;बहु}/माणा{स्त्री}{2;बहु} 
+row4#!n1#!<a (click)=showDic('सरोष')>सरोष</a>-<a (click)=showDic('परिचारक')>परिचारक</a>-<a (click)=showDic('वार्य')>वार्य</a>-<a (click)=showDic('माण')>माण</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n1#!रोषपूर्वक भृत्यों के द्वारा दूर हटाये गये
+row7#!n1#!when freed by the servants angrily
+row8#!n1#!<a href="html/SV-V/SV-61/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-61/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<स-रोष>BvS-परिचारक>K1-वार्यमाणः>T3</a>#!html/SV-V/SV-61/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!तुरङ्गाः
+row2#!n1#!तुरङ्गाः 
+row3#!n1#!तुरङ्ग{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('तुरङ्ग')>तुरङ्ग</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n1#!घोडें
+row7#!n1#!horses
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!दामाञ्चल-स्खलित-लोल-पदं
+row2#!n2#!दामाञ्चल-स्खलित-लोल-पदं 
+row3#!n2#!दामाञ्चल-स्खलित-लोल-पद्{पुं}{2;एक}/पद{नपुं}{1;एक}/पद{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('दामाञ्चल')>दामाञ्चल</a>-<a (click)=showDic('स्खलित')>स्खलित</a>-<a (click)=showDic('लोल')>लोल</a>-<a (click)=showDic('पद्')>पद्</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n2#!पैर बाँधने की रस्सियों में उलझ जाने से चञ्चल पैरों से
+row7#!n2#!as their feet were locked with ropes that are used to tie their feet
+row8#!n2#!<a href="html/SV-V/SV-61/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-61/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<दामाञ्चल-स्खलित>T7-<लोल-पदम्>K1>Bs7</a>#!html/SV-V/SV-61/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!सस्रुः.
+row2#!v#!सस्रुः 
+row3#!v#!सृ1{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;सृ;भ्वादिः}/सृ2{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;सृ;जुहोत्यादिः}. 
+row4#!v#!<a (click)=showDic('सृ1')>सृ1</a>{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;सृ;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!भागने_लगे.
+row7#!v#!hobbled.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!वसन्ततिलका ।
+row11#!v#!-
+row12#!v#!
+
+

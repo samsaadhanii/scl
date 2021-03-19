@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-V/SV-17/17.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-17/17.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">17.A</a>#!html/SV-V/SV-17/17.jpg#!row1#!n3#!परि-जनैः
+row2#!number#!17.B</a>#!row2#!n3#!परि-जनैः 
+row3#!number#!17.C</a>#!row3#!n3#!परि-{अव्य}-जन{पुं}{3;बहु} 
+row4#!number#!17.D</a>#!row4#!n3#!<a (click)=showDic('परि')>परि</a>--<a (click)=showDic('जन')>जन</a>{पुं}{3;बहु} 
+row5#!number#!17.E</a>#!row5#!n3#!करणम्,10
+row6#!number#!17.F</a>#!row6#!n3#!सेवकों_द्वारा
+row7#!number#!17.G</a>#!row7#!n3#!By the servants
+row8#!number#!17.H#!row8#!n3#!
+row9#!number#!17.I</a>#!row9#!n3#!
+row10#!number#!17.J</a>#!row10#!n3#!
+row11#!number#!17.K</a>#!row11#!n3#!
+row12#!number#!17.L</a>#!row12#!n3#!
+
+row1#!n5#!यानात्
+row2#!n5#!यानात् 
+row3#!n5#!यान{नपुं}{5;एक} 
+row4#!n5#!<a (click)=showDic('यान')>यान</a>{नपुं}{5;एक} 
+row5#!n5#!<a href="javascript:show('अपादानम्,')">अपादानम्,3</a>
+row6#!n5#!सवारियों_से
+row7#!n5#!from the vehicle
+row8#!n5#!-
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!
+
+row1#!n2#!अव-रोप्यमाणाः
+row2#!n2#!अव-रोप्यमाणाः 
+row3#!n2#!अव-रोप्यमाणाः 
+row4#!n2#!<a (click)=showDic('अव_रुह्1')>अव_रुह्1</a>{कृत्_प्रत्ययः:शानच्;रुहँ;भ्वादिः;स्त्री}{2;बहु}
+row5#!n2#!<a href="javascript:show('समानकालः,')">समानकालः,10</a>
+row6#!n2#!उतारी_जाती_हुई
+row7#!n2#!being descended
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!रुहेर्ण्यन्तात्कर्मणि लटः शानजादेशः। ‘रुहः पोऽन्यतरस्याम्’ (7।3।43) इति पकारः ।
+
+row1#!n2#!नर-अपनयन-आकुल-सौविदल्लाः
+row2#!n2#!नर-अपनयन-आकुल-सौविदल्लाः 
+row3#!n2#!नर-अपनयन-आकुल-सौविदल्ल{पुं}{1;बहु}
+row4#!n2#!<a (click)=showDic('नर')>नर</a>-<a (click)=showDic('अपनयन')>अपनयन</a>-<a (click)=showDic('आकुल')>आकुल</a>-<a (click)=showDic('सौविदल्ल')>सौविदल्ल</a>{स्त्री}{2;बहु} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!पुरुषों_को_हटाने_में_व्यग्र_कञ्चुकियों_वाली
+row7#!n2#!who were busy in making men getting down
+row8#!n2#!<a href="html/SV-V/SV-17/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-17/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<नर-अपनयन>T6-आकुलसौविदल्ला>Bs6</a>#!html/SV-V/SV-17/samaasa1.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!स्रस्त-अवगुण्ठन-पटाः
+row2#!n2#!स्रस्त-अवगुण्ठन-पटाः 
+row3#!n2#!स्रस्त-अवगुण्ठन-पट{पुं}{1;बहु} 
+row4#!n2#!<a (click)=showDic('स्रस्त')>स्रस्त</a>-<a (click)=showDic('अवगुण्ठन')>अवगुण्ठन</a>-<a (click)=showDic('पट')>पट</a>{स्त्री}{2;बहु} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!खिसकते_हुए_घूँघटों_के_वस्त्रों_वाली
+row7#!n2#!one whose veils were shifted from their faces
+row8#!n2#!<a href="html/SV-V/SV-17/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-17/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><स्रस्त-<अवगुण्ठन-पटाः>T6>Bs6</a>#!html/SV-V/SV-17/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!क्षण-लक्ष्यमाण-वक्त्र-श्रियः
+row2#!n2#!क्षण-लक्ष्यमाण-वक्त्र-श्रियः 
+row3#!n2#!क्षण-लक्ष्यमाण-वक्त्र-श्री{स्त्री}{1;बहु}/श्री{स्त्री}{5;एक}/श्री{स्त्री}{6;एक}/श्री{स्त्री}{2;बहु} 
+row4#!n2#!<a (click)=showDic('क्षण')>क्षण</a>-<a (click)=showDic('लक्ष्यमाण')>लक्ष्यमाण</a>-<a (click)=showDic('वक्त्र')>वक्त्र</a>-<a (click)=showDic('श्री')>श्री</a>{स्त्री}{2;बहु} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!क्षणमात्र_देखी_गई_है_मुख_शोभा_जिनकी_उन
+row7#!n2#!for a moment whose beauty was seen
+row8#!n2#!<a href="html/SV-V/SV-17/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-17/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><क्षणलक्ष्यमाण-<वक्त्र-श्रीः>T6>Bs6</a>#!html/SV-V/SV-17/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!राज्ञीः
+row2#!n2#!राज्ञीः 
+row3#!n2#!राज्ञी{स्त्री}{2;बहु} 
+row4#!n2#!<a (click)=showDic('राज्ञी')>राज्ञी</a>{स्त्री}{2;बहु} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n2#!रानियों_को
+row7#!n2#!queens
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!‘पुंयोगादाख्यायाम्’ (4।1।48) इति ङीप् ।
+
+row1#!n1#!जनः
+row2#!n1#!जनः 
+row3#!n1#!जन{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('जन')>जन</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n1#!लोगों_ने
+row7#!n1#!people
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!सभय-कौतुकम्
+row2#!n2#!सभय-कौतुकम् 
+row3#!n2#!सभय-कौतुक{नपुं}{1;एक}/कौतुक{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('सभय')>सभय</a>-<a (click)=showDic('कौतुक')>कौतुक</a>{नपुं}{2;बहु}
+row5#!n2#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,10</a>
+row6#!n2#!भय_तथा_कौतुक_के_साथ
+row7#!n2#!were fearful and curious
+row8#!n2#!<a href="html/SV-V/SV-17/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-17/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सभय-कौतुकम्>Di</a>#!html/SV-V/SV-17/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!ईक्षते
+row2#!v#!ईक्षते 
+row3#!v#!ईक्ष्1{कर्तरि;लट्;प्र;एक;आत्मनेपदी;ईक्षँ;भ्वादिः}/ईक्षता{स्त्री}{1;द्वि}/ईक्षता{स्त्री}{2;द्वि} 
+row4#!v#!<a (click)=showDic('ईक्ष्1')>ईक्ष्1</a>{कर्तरि;लट्;प्र;एक;आत्मनेपदी;ईक्षँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!देखते
+row7#!v#!see
+row8#!v#!-
+row9#!v#!
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!NA#!स्म.
+row2#!NA#!स्म 
+row3#!NA#!स्म{अव्य}. 
+row4#!NA#!<a (click)=showDic('स्म')>स्म</a>{अव्य}.
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,10</a>
+row6#!NA#!थे.
+row7#!NA#!used to.
+row8#!NA#!-
+row9#!NA#!कर्तरि
+row10#!NA#!वसन्ततिलका ।
+row11#!NA#!-
+row12#!NA#!
+
+

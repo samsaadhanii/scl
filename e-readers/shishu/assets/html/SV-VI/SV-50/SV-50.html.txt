@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-VI/SV-50/50.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-50/50.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">50.A</a>#!html/SV-VI/SV-50/50.jpg#!row1#!n1#!अयुक्छदगुच्छ-सुगन्धयः
+row2#!number#!50.B</a>#!row2#!n1#!अयुक्छदगुच्छ-सुगन्धयः
+row3#!number#!50.C</a>#!row3#!n1#!अयुक्छदगुच्छ-सुगन्धि{पुं;1;बहु}/सुगन्धि{स्त्री;1;बहु}/सुगन्धि{स्त्री;1;बहु}/सुगन्धि{पुं;8;बहु}
+row4#!number#!50.D</a>#!row4#!n1#!<a (click)=showDic('अयुक्छदगुच्छ')>अयुक्छदगुच्छ</a>-<a (click)=showDic('सुगन्धि')>सुगन्धि</a>{पुं;1;बहु}
+row5#!number#!50.E</a>#!row5#!n1#!विशेषणम्,4
+row6#!number#!50.F</a>#!row6#!n1#!सप्तपर्ण के गुच्छों से सुगन्धित (हाथी_के_समान_गन्धवाली)
+row7#!number#!50.G</a>#!row7#!n1#!endowed with the fragrance of an elephant
+row8#!number#!50.H#!row8#!n1#!<a href="html/SV-VI/SV-50/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-50/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<अयुक्-छद>Bs6-गुच्छ>T6-सुगन्धिः>T3</a>#!html/SV-VI/SV-50/samaasa1.jpg
+row9#!number#!50.I</a>#!row9#!n1#!
+row10#!number#!50.J</a>#!row10#!n1#!
+row11#!number#!50.K</a>#!row11#!n1#!
+row12#!number#!50.L</a>#!row12#!n1#!
+
+row1#!n3#!अलिभिः
+row2#!n3#!अलिभिः
+row3#!n3#!अलि{पुं;3;बहु}/अलिन्{पुं;3;बहु}
+row4#!n3#!<a (click)=showDic('अलि')>अलि</a>{पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,10</a>
+row6#!n3#!भौरों_से
+row7#!n3#!by bumble-bees
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!ततगान-गिरः
+row2#!n1#!ततगान-गिरः
+row3#!n1#!ततगान-गिर्{स्त्री;1;बहु}/गिर्{स्त्री;2;बहु}/गिर्{स्त्री;5;एक}/गिर्{स्त्री;6;एक}/गिर्{स्त्री;8;बहु}
+row4#!n1#!<a (click)=showDic('ततगान')>ततगान</a>-<a (click)=showDic('गिर्')>गिर्</a>{पुं;1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n1#!उच्च स्वर से गायी गयी
+row7#!n1#!being sung loudly
+row8#!n1#!<a href="html/SV-VI/SV-50/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-50/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><तत-<गान-गिर्>T6>Bs6</a>#!html/SV-VI/SV-50/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!सततगाः
+row2#!n1#!सतत-गाः
+row3#!n1#!सततग{पुं;1;बहु}/गो{पुं;2;बहु}/गो{स्त्री;2;बहु}/गो{स्त्री;2;बहु}/ग{पुं;8;बहु}
+row4#!n1#!<a (click)=showDic('सततग')>सततग</a>{पुं;1;बहु}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n1#!वायु
+row7#!n1#!wind
+row8#!n1#!<a href="html/SV-VI/SV-50/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-50/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सतत-गः>U</a>#!html/SV-VI/SV-50/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!कृत-मदम्
+row2#!n2#!कृत-मदम्
+row3#!n2#!कृत-मद{पुं;2;एक}/मद{नपुं;1;एक}/मद{नपुं;2;एक}/मद{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('कृत')>कृत</a>-<a (click)=showDic('मद')>मद</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!मद युक्त किये गये
+row7#!n2#!made intoxicated
+row8#!n2#!<a href="html/SV-VI/SV-50/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-50/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कृत-मदः>Bs3</a>#!html/SV-VI/SV-50/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!आकुलीकृतजगत्-त्रयम्
+row2#!n2#!आकुलीकृतजगत्-त्रयम्
+row3#!n2#!आकुलीकृतजगत्-त्रय{पुं;2;एक}/त्रय{नपुं;1;एक}/त्रय{नपुं;2;एक}/त्रय{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('आकुलीकृतजगत्')>आकुलीकृतजगत्</a>-<a (click)=showDic('त्रय')>त्रय</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!लोकत्रय को व्याकुल करने वाले
+row7#!n2#!that brings distress to all the three worlds
+row8#!n2#!<a href="html/SV-VI/SV-50/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-50/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><आकुलीकृत-<जगत्-त्रयः>T6>Bs3</a>#!html/SV-VI/SV-50/samaasa5.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!ऊर्जमतङ्गजं
+row2#!n2#!ऊर्जमतङ्ग-जं
+row3#!n2#!ऊर्जमतङ्गज{पुं;2;एक}
+row4#!n2#!<a (click)=showDic('ऊर्जमतङ्गज')>ऊर्जमतङ्गज</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n2#!कार्तिक मास रूपी हाथी के
+row7#!n2#!of month of Kārthika in the form of elephant
+row8#!n2#!<a href="html/SV-VI/SV-50/samaasa6.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-50/samaasa6.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><ऊर्ज-<मतङ्ग-जः>U>K6</a>#!html/SV-VI/SV-50/samaasa6.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!निगदन्तः
+row2#!n1#!निगदन्तः
+row3#!n1#!निगदन्तः}
+row4#!n1#!<a (click)=showDic('नि_गद्2')>नि_गद्2</a>{कृत्_प्रत्ययः:शतृ;गदीँ;चुरादिः;पुं}{1;बहु}
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,9</a>
+row6#!n1#!आने की सूचना देती हुई
+row7#!n1#!indicating the arrival
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इव
+row2#!NA#!इव
+row3#!NA#!इव{अव्य}
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,4</a>
+row6#!NA#!जैसे
+row7#!NA#!as if
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!ववुः
+row2#!v#!ववुः
+row3#!v#!वा1{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;वा;अदादिः}/वे1{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;वेञ्;भ्वादिः}/वै1{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;ओँवै;भ्वादिः}
+row4#!v#!<a (click)=showDic('वा1')>वा1</a>{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;वा;अदादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!बहने_लगा.
+row7#!v#!blew.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!उत्प्रेक्षा + रूपकम् + यमकम् = सङ्करः ।
+row12#!v#!
+
+

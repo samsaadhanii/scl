@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-V/SV-30/30.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-30/30.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">30.A</a>#!html/SV-V/SV-30/30.jpg#!row1#!n2#!हास्तिकानि
+row2#!number#!30.B</a>#!row2#!n2#!हास्तिकानि 
+row3#!number#!30.C</a>#!row3#!n2#!हास्तिक{नपुं}{1;बहु}/हास्तिक{नपुं}{2;बहु}/हास्तिक{नपुं}{8;बहु} 
+row4#!number#!30.D</a>#!row4#!n2#!<a (click)=showDic('हास्तिक')>हास्तिक</a>{नपुं}{2;बहु} 
+row5#!number#!30.E</a>#!row5#!n2#!उपपदविभक्तिः,2
+row6#!number#!30.F</a>#!row6#!n2#!हाथियों_के_झुण्डों_ने
+row7#!number#!30.G</a>#!row7#!n2#!Multitude of elephants
+row8#!number#!30.H#!row8#!n2#!
+row9#!number#!30.I</a>#!row9#!n2#!
+row10#!number#!30.J</a>#!row10#!n2#!
+row11#!number#!30.K</a>#!row11#!n2#!
+row12#!number#!30.L</a>#!row12#!n2#!‘अचित्तहस्तिधेनोष्ठक्’ (4।2।27) ।
+
+row1#!NA#!अभितः
+row2#!NA#!अभितः 
+row3#!NA#!अभितः{अव्य} 
+row4#!NA#!<a (click)=showDic('अभितः')>अभितः</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('उपपदसम्बन्धः,')">उपपदसम्बन्धः,9</a>
+row6#!NA#!चारों_ओर
+row7#!NA#!around
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!आलोल-पुष्कर-मुख-उल्लसितैः
+row2#!n3#!आलोल-पुष्कर-मुख-उल्लसितैः 
+row3#!n3#!आलोल-पुष्कर-मुख-उल्लसित{पुं}{3;बहु}/उल्लसित{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('आलोल')>आलोल</a>-<a (click)=showDic('पुष्कर')>पुष्कर</a>-<a (click)=showDic('मुख')>मुख</a>-<a (click)=showDic('उल्लसित')>उल्लसित</a>{नपुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n3#!चञ्चल सूँड़ों के अग्रभाग के रन्द्रों से ऊपर फैंकी हुई
+row7#!n3#!with the front part of their trunks
+row8#!n3#!<a href="html/SV-V/SV-30/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-30/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<आलोल-पुष्कर>K1-मुख>T6-उल्लसितम्>T3</a>#!html/SV-V/SV-30/samaasa1.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!अम्बु-वर्षैः
+row2#!n3#!अम्बु-वर्षैः 
+row3#!n3#!अम्बु-वर्ष{पुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('अम्बु')>अम्बु</a>-<a (click)=showDic('वर्ष')>वर्ष</a>{नपुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,9</a>
+row6#!n3#!जल-वृष्टियों_से
+row7#!n3#!by raining water
+row8#!n3#!<a href="html/SV-V/SV-30/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-30/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अम्बु-वर्षम्>T6</a>#!html/SV-V/SV-30/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!खेदायत-श्वसित-वेग-निरस्त-मुग्ध-मूर्धन्य-रत्न-निकरैः
+row2#!n3#!खेदायत-श्वसित-वेग-निरस्त-मुग्ध-मूर्धन्य-रत्न-निकरैः 
+row3#!n3#!खेदायत-श्वसित-वेग-निरस्त-मुग्ध-मूर्धन्य-रत्न-निकर{पुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('खेदायत')>खेदायत</a>-<a (click)=showDic('श्वसित')>श्वसित</a>-<a (click)=showDic('वेग')>वेग</a>-<a (click)=showDic('निरस्त')>निरस्त</a>-<a (click)=showDic('मुग्ध')>मुग्ध</a>-<a (click)=showDic('मूर्धन्य')>मूर्धन्य</a>-<a (click)=showDic('रत्न')>रत्न</a>-<a (click)=showDic('निकर')>निकर</a>{नपुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,6</a>
+row6#!n3#!मार्ग की थकान से दीर्घ उच्छ्रवास वायु के वेग से निकले हुए मनोहर मस्तक में स्थित मानों गजमुक्ताओं
+row7#!n3#!those sprinkles of water on their forehead when touched with wind that came out of exhale of elephants (were appearing like) pearls
+row8#!n3#!<a href="html/SV-V/SV-30/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-30/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<खेद-आयत>T3-<श्वसित-वेग>T6>K3-निरस्त>T3-<<मुग्ध-मूर्धन्य>K1-रत्ननिकरम्>K1>K3</a>#!html/SV-V/SV-30/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!‘शरीरावयवाच्च’ (4।3।55) इति यत्प्रत्ययः । ‘ये चाभावकर्मणोः’ (6।1।168) इति प्रकृतिभावात् ‘नस्तद्धिते’ (6।4।144) इति टिलोपाभावः ।
+
+row1#!NA#!इव
+row2#!NA#!इव 
+row3#!NA#!इव{अव्य} 
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,4</a>
+row6#!NA#!के_समान
+row7#!NA#!as if
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!वपुः
+row2#!n2#!वपुः 
+row3#!n2#!वपुस्{नपुं}{1;एक}/वपुस्{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('वपुस्')>वपुस्</a>{नपुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,9</a>
+row6#!n2#!शरीर_को
+row7#!n2#!(their) bodies
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!अभीक्ष्णम्
+row2#!NA#!अभीक्ष्णम् 
+row3#!NA#!अभीक्ष्णम्{अव्य} 
+row4#!NA#!<a (click)=showDic('अभीक्ष्णम्')>अभीक्ष्णम्</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,9</a>
+row6#!NA#!बार-बार
+row7#!NA#!very often
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!उक्षाम्बभूवुः.
+row2#!v#!उक्षाम्बभूवुः 
+row3#!v#!उक्ष्1{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;उक्षँ;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('उक्ष्1')>उक्ष्1</a>{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;उक्षँ;भ्वादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!भिगोया.
+row7#!v#!drenched.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!वसन्ततिलका ।
+row11#!v#!उत्प्रेक्षा ।
+row12#!v#!‘उक्ष सेचने’ ‘इजादेश्च गुरुतोऽनृच्छः’ (3।1।36) इत्याम्प्रत्ययः ।
+
+

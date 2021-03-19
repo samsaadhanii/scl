@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-V/SV-52/52.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-52/52.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">52.A</a>#!html/SV-V/SV-52/52.jpg#!row1#!n1#!शुक्लांशुक-उप-रचितानि
+row2#!number#!52.B</a>#!row2#!n1#!शुक्लांशुक-उप-रचितानि 
+row3#!number#!52.C</a>#!row3#!n1#!शुक्लांशुक-उप-रचित{नपुं}{1;बहु}/रचित{नपुं}{2;बहु} 
+row4#!number#!52.D</a>#!row4#!n1#!<a (click)=showDic('शुक्लांशुक')>शुक्लांशुक</a>-<a (click)=showDic('उप')>उप</a>-<a (click)=showDic('रचित')>रचित</a>{नपुं}{1;बहु} 
+row5#!number#!52.E</a>#!row5#!n1#!विशेषणम्,5
+row6#!number#!52.F</a>#!row6#!n1#!सफेद कपड़ों से बनाये गये
+row7#!number#!52.G</a>#!row7#!n1#!which were made of white clothes
+row8#!number#!52.H#!row8#!n1#!<a href="html/SV-V/SV-52/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-52/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<शुक्ल-अंशुक>K3-उपरचितम्>T3</a>#!html/SV-V/SV-52/samaasa1.jpg
+row9#!number#!52.I</a>#!row9#!n1#!
+row10#!number#!52.J</a>#!row10#!n1#!
+row11#!number#!52.K</a>#!row11#!n1#!
+row12#!number#!52.L</a>#!row12#!n1#!‘अल्पे’ (5।3।85) इत्यल्पार्थे कन्प्रत्ययः ।
+
+row1#!n1#!रश्मि-विततानि
+row2#!n1#!रश्मि-विततानि 
+row3#!n1#!रश्मि-वितत{नपुं}{1;बहु}/वितत{नपुं}{2;बहु} 
+row4#!n1#!<a (click)=showDic('रश्मि')>रश्मि</a>-<a (click)=showDic('वितत')>वितत</a>{नपुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!रस्सियों से बँधे हुए
+row7#!n1#!fastened with white ropes
+row8#!n1#!<a href="html/SV-V/SV-52/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-52/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><रश्मि-विततम्>T3</a>#!html/SV-V/SV-52/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!चन्द्र-आकृतीनि
+row2#!n1#!चन्द्र-आकृतीनि 
+row3#!n1#!चन्द्र-आकृति{नपुं}{1;बहु}/आकृति{नपुं}{2;बहु} 
+row4#!n1#!<a (click)=showDic('चन्द्र')>चन्द्र</a>-<a (click)=showDic('आकृति')>आकृति</a>{नपुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!सफेद एवं सूक्ष्म किरणों से व्याप्त
+row7#!n1#!confederation of the moon
+row8#!n1#!<a href="html/SV-V/SV-52/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-52/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><चन्द्र-आकृतम्>Bs6</a>#!html/SV-V/SV-52/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!नर-अधिपानां
+row2#!n6#!नर-अधिपानां 
+row3#!n6#!नर-अधिप{पुं}{6;बहु} 
+row4#!n6#!<a (click)=showDic('नर')>नर</a>-<a (click)=showDic('अधिप')>अधिप</a>{पुं}{6;बहु} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,5</a>
+row6#!n6#!राजाओं_के
+row7#!n6#!of kings
+row8#!n6#!<a href="html/SV-V/SV-52/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-52/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><नर-अधिपः>T6</a>#!html/SV-V/SV-52/samaasa4.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!वेश्मानि
+row2#!n1#!वेश्मानि 
+row3#!n1#!वेश्मन्{नपुं}{1;बहु}/वेश्मन्{नपुं}{2;बहु} 
+row4#!n1#!<a (click)=showDic('वेश्मन्')>वेश्मन्</a>{नपुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n1#!तम्बुओं_ने
+row7#!n1#!canopies
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!निरन्तराभिः
+row2#!n3#!निरन्तराभिः 
+row3#!n3#!निरन्तरा{स्त्री}{3;बहु} 
+row4#!n3#!<a (click)=showDic('निरन्तरा')>निरन्तरा</a>{स्त्री}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n3#!परस्पर_में_सटे_हुए
+row7#!n3#!densely interlocked
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!उच्चैः
+row2#!NA#!उच्चैः 
+row3#!NA#!उच्चैः{अव्य}/उच्च{पुं}{3;बहु}/उच्च{नपुं}{3;बहु} 
+row4#!NA#!<a (click)=showDic('उच्चैः')>उच्चैः</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!NA#!ऊँचे
+row7#!NA#!high
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!गज-मण्डलिकाभिः
+row2#!n3#!गज-मण्डलिकाभिः 
+row3#!n3#!गज-मण्डलिका{स्त्री}{3;बहु} 
+row4#!n3#!<a (click)=showDic('गज')>गज</a>-<a (click)=showDic('मण्डलिका')>मण्डलिका</a>{स्त्री}{3;बहु} 
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,10</a>
+row6#!n3#!हाथियों की श्रेणियों से
+row7#!n3#!line of black elephants
+row8#!n3#!<a href="html/SV-V/SV-52/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-52/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><गज-मण्डलिकः>T6</a>#!html/SV-V/SV-52/samaasa5.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n2#!नील-अभ्र-पङ्क्ति-परिवेशं
+row2#!n2#!नील-अभ्र-पङ्क्ति-परिवेशं 
+row3#!n2#!नील-अभ्र-पङ्क्ति-परिवेशम् 
+row4#!n2#!<a (click)=showDic('नील')>नील</a>-<a (click)=showDic('अभ्र')>अभ्र</a>-<a (click)=showDic('पङ्क्ति')>पङ्क्ति</a>-<a (click)=showDic('परिवेश')>परिवेश</a>{पुं}{2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n2#!श्याम वर्ण मेघ श्रेणी के घेरों को
+row7#!n2#!black clouds around the moon's confederation
+row8#!n2#!<a href="html/SV-V/SV-52/samaasa6.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-52/samaasa6.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<नील-अभ्र>K1-पङ्क्ति>T6-परिवेशः>T3</a>#!html/SV-V/SV-52/samaasa6.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!अधिजग्मुः
+row2#!v#!अधिजग्मुः 
+row3#!v#!अधि_गम्1{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;गमॢँ;भ्वादिः}
+row4#!v#!<a (click)=showDic('अधि_गम्1')>अधि_गम्1</a>{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;गमॢँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!प्राप्त_किये
+row7#!v#!obtained
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!NA#!इव.
+row2#!NA#!इव 
+row3#!NA#!इव{अव्य}. 
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}. 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,10</a>
+row6#!NA#!जैसे. 
+row7#!NA#!resembling.
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!वसन्ततिलका ।
+row11#!NA#!उत्प्रेक्षा ।
+row12#!NA#!
+
+

@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-VIII/SV-33/33.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-33/33.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">33.A</a>#!html/SV-VIII/SV-33/33.jpg#!row1#!n6#!त्रिनयनलोचनानलार्चिर्निर्दग्धस्मरपृतनाधिराज्य-लक्ष्म्याः
+row2#!number#!33.B</a>#!row2#!n6#!त्रिनयनलोचनानलार्चिर्निर्दग्धस्मरपृतनाधिराज्य-लक्ष्म्याः
+row3#!number#!33.C</a>#!row3#!n6#!त्रिनयनलोचनानलार्चिर्निर्दग्धस्मरपृतनाधिराज्य-लक्ष्मी{स्त्री;5;एक}/लक्ष्मी{स्त्री;6;एक}
+row4#!number#!33.D</a>#!row4#!n6#!<a (click)=showDic('त्रिनयनलोचनानलार्चिर्निर्दग्धस्मरपृतनाधिराज्य')>त्रिनयनलोचनानलार्चिर्निर्दग्धस्मरपृतनाधिराज्य</a>-<a (click)=showDic('लक्ष्मी')>लक्ष्मी</a>{स्त्री;6;एक}
+row5#!number#!33.E</a>#!row5#!n6#!षष्ठीसम्बन्धः,2
+row6#!number#!33.F</a>#!row6#!n6#!त्रिनेत्रधारी शङ्कर के (तृतीय) नेत्र की अभिज्वालाओं से भस्मीभूत कामदेव की सेना के स्वामित्वरूपिणी लक्ष्मी के
+row7#!number#!33.G</a>#!row7#!n6#!to be supremacy of armament of splendor of cupid who was burned by the flames of lord Śiva's third eye
+row8#!number#!33.H#!row8#!n6#!<a href="html/SV-VIII/SV-33/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-33/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<<त्रि-नयन>Bs6-<<लोचन-अनल>T6-अर्चिष्>T6>T6-<निर्दग्ध-स्मर>K3>T3-पृतन>Bs6-अधिराज्य>T6-लक्ष्मीः>K6</a>#!html/SV-VIII/SV-33/samaasa1.jpg
+row9#!number#!33.I</a>#!row9#!n6#!
+row10#!number#!33.J</a>#!row10#!n6#!
+row11#!number#!33.K</a>#!row11#!n6#!
+row12#!number#!33.L</a>#!row12#!n6#!‘क्षुभ्नादिषु च’ (8।4।39) इति निषेधात् ‘पूर्वपदात्संज्ञायाम्’ (8।4।3) इति णत्वाभावः ।
+
+row1#!n6#!योग्यस्य
+row2#!n6#!योग्यस्य
+row3#!n6#!योग्य{पुं;6;एक}/योग्य{नपुं;6;एक}
+row4#!n6#!<a (click)=showDic('योग्य')>योग्य</a>{पुं;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,3</a>
+row6#!n6#!योग्य_के
+row7#!n6#!which befits
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!कान्तायाः
+row2#!n6#!कान्तायाः
+row3#!n6#!कान्ता{स्त्री;5;एक}/कान्ता{स्त्री;6;एक}
+row4#!n6#!<a (click)=showDic('कान्ता')>कान्ता</a>{स्त्री;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,4</a>
+row6#!n6#!कान्ता_के
+row7#!n6#!of beloved
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!वक्त्र-इन्दोः
+row2#!n6#!वक्त्र-इन्दोः
+row3#!n6#!वक्त्र-इन्दु{पुं;5;एक}/इन्दु{पुं;6;एक}
+row4#!n6#!<a (click)=showDic('वक्त्र')>वक्त्र</a>-<a (click)=showDic('इन्दु')>इन्दु</a>{पुं;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,5</a>
+row6#!n6#!मुख-चन्द्रमा_के
+row7#!n6#!of a moon
+row8#!n6#!<a href="html/SV-VIII/SV-33/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-33/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><वक्त्र-इन्दुः>K5</a>#!html/SV-VIII/SV-33/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n3#!करकलश-उद्यतैः
+row2#!n3#!करकलश-उद्यतैः
+row3#!n3#!करकलश-उद्यत{पुं;3;बहु}/उद्यत{नपुं;3;बहु}
+row4#!n3#!<a (click)=showDic('करकलश')>करकलश</a>-<a (click)=showDic('उद्यत')>उद्यत</a>{नपुं;3;बहु}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n3#!ऊपर-उठाये गये हाथरूपी घड़ों के
+row7#!n3#!having lifted up his hand with water that resembles like a jar
+row8#!n3#!<a href="html/SV-VIII/SV-33/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-33/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<कर-कलश>K6-उद्यतम्>T3</a>#!html/SV-VIII/SV-33/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!पयोभिः
+row2#!n3#!पयोभिः
+row3#!n3#!पयस्{नपुं;3;बहु}
+row4#!n3#!<a (click)=showDic('पयस्')>पयस्</a>{नपुं;3;बहु}
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,9</a>
+row6#!n3#!जल_से
+row7#!n3#!with water
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!एकः
+row2#!n1#!एकः
+row3#!n1#!एक{पुं;1;एक}
+row4#!n1#!<a (click)=showDic('एक')>एक</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,9</a>
+row6#!n1#!एक_ने (किसी_कामी_युवक)
+row7#!n1#!some other (amorous person)
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!महा-अभिषेकम्
+row2#!n2#!महा-अभिषेकम्
+row3#!n2#!महा-अभिषेक{पुं;2;एक}
+row4#!n2#!<a (click)=showDic('महा')>महा</a>-<a (click)=showDic('अभिषेक')>अभिषेक</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,9</a>
+row6#!n2#!महाभिषेक
+row7#!n2#!consecration
+row8#!n2#!<a href="html/SV-VIII/SV-33/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-33/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><महा-अभिषेकः>K3</a>#!html/SV-VIII/SV-33/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!अकृत
+row2#!v#!अकृत
+row3#!v#!कृ2{कर्तरि;लुङ्;प्र;एक;आत्मनेपदी;कृञ्;स्वादिः}/कृ3{कर्तरि;लुङ्;प्र;एक;आत्मनेपदी;डुकृञ्;तनादिः}
+row4#!v#!<a (click)=showDic('कृ3')>कृ3</a>{कर्तरि;लुङ्;प्र;एक;आत्मनेपदी;डुकृञ्;तनादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!किया.
+row7#!v#!did.
+row8#!v#!-
+row9#!v#!कर्तरि ।
+row10#!v#!प्रहर्षिणी ।
+row11#!v#!उत्प्रेक्षा + रूपकम् = सङ्करः ।
+row12#!v#!करोतेर्लुङि तङ् । ‘तनादिभ्यस्तथासोः’ (2।4।79) इति सिचो लुक् ।
+
+

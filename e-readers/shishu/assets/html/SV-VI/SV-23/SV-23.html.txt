@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-VI/SV-23/23.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-23/23.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">23.A</a>#!html/SV-VI/SV-23/23.jpg#!row1#!n7#!दलितकोमलपटाल-कुड्मले
+row2#!number#!23.B</a>#!row2#!n7#!दलितकोमलपटाल-कुड्मले
+row3#!number#!23.C</a>#!row3#!n7#!दलितकोमलपटाल-कुड्मल{नपुं;1;द्वि}/कुड्मल{नपुं;2;द्वि}/कुड्मला{स्त्री;1;द्वि}/कुड्मला{स्त्री;2;द्वि}/कुड्मला{स्त्री;2;द्वि}/कुड्मल{पुं;7;एक}/कुड्मल{नपुं;7;एक}/कुड्मल{नपुं;8;द्वि}/कुड्मला{स्त्री;8;एक}/कुड्मला{स्त्री;8;द्वि}
+row4#!number#!23.D</a>#!row4#!n7#!<a (click)=showDic('दलितकोमलपटाल')>दलितकोमलपटाल</a>-<a (click)=showDic('कुड्मल')>कुड्मल</a>{पुं;7;एक}
+row5#!number#!23.E</a>#!row5#!n7#!विशेषणम्,4
+row6#!number#!23.F</a>#!row6#!n7#!कोमल गुलाब की कलियों को विकसित करने वाली
+row7#!number#!23.G</a>#!row7#!n7#!that enables buds of roses to blossom
+row8#!number#!23.H#!row8#!n7#!<a href="html/SV-VI/SV-23/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-23/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<दलित-कोमल>K3-<पटाल-कुड्मलः>K1>K3</a>#!html/SV-VI/SV-23/samaasa1.jpg
+row9#!number#!23.I</a>#!row9#!n7#!
+row10#!number#!23.J</a>#!row10#!n7#!
+row11#!number#!23.K</a>#!row11#!n7#!
+row12#!number#!23.L</a>#!row12#!n7#!लुक्प्रकरणे 'पुष्पमूलेषु बहुलम्' (वा०) इति बहुलग्रहणादलुक् ।
+
+row1#!n7#!निजवधूश्वसित-अनु-विधायिनि
+row2#!n7#!निजवधूश्वसित-अनु-विधायिनि
+row3#!n7#!निजवधूश्वसित-अनु-विधायिनि}
+row4#!n7#!<a (click)=showDic('निजवधूश्वसित')>निजवधूश्वसित</a>-<a (click)=showDic('अनु')>अनु</a>-<a (click)=showDic('विधायिन्')>विधायिन्</a>{पुं;7;एक}
+row5#!n7#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n7#!अपनी स्त्रियों के निश्वास के सदृश (उष्ण)
+row7#!n7#!that resembles the (warm) sigh of their beloved (women)
+row8#!n7#!<a href="html/SV-VI/SV-23/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-23/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<निज-वधू>K3-श्वसित>T6-अनुविधायिन्>U</a>#!html/SV-VI/SV-23/samaasa2.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!उन्मद-भ्रमदलौ
+row2#!n7#!उन्मदभ्रम-दलौ
+row3#!n7#!उन्मदभ्रम-दल{पुं;1;द्वि}/दल{पुं;2;द्वि}/दल{पुं;8;द्वि}/दलि{पुं;7;एक}/दलि{स्त्री;7;एक}/दलि{स्त्री;7;एक}
+row4#!n7#!<a (click)=showDic('उन्मद')>उन्मद</a>-<a (click)=showDic('भ्रमदलि')>भ्रमदलि</a>{पुं;7;एक}
+row5#!n7#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n7#!जिसमें मदोन्मत्त भ्रमर घूम रहै हैं
+row7#!n7#!in which intoxicated bumble-bees roam around
+row8#!n7#!<a href="html/SV-VI/SV-23/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-23/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><उन्मद-<भ्रमद्-अलिः>K1>Bs7</a>#!html/SV-VI/SV-23/samaasa3.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!मरुति
+row2#!n7#!मरुति
+row3#!n7#!मरुत्{पुं;7;एक}
+row4#!n7#!<a (click)=showDic('मरुत्')>मरुत्</a>{पुं;7;एक}
+row5#!n7#!<a href="javascript:show('कर्ता,')">कर्ता,5</a>
+row6#!n7#!वायु_के
+row7#!n7#!wind of (summer season)
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!वाति
+row2#!n7#!वाति
+row3#!n7#!वा1{कर्तरि;लट्;प्र;एक;परस्मैपदी;वा;अदादिः}/वात्{पुं;7;एक}/वात्{नपुं;7;एक}/वाती{स्त्री;8;एक}
+row4#!n7#!<a (click)=showDic('वा1')>वा1</a>{शतृ_लट्;वा;अदादिः;पुं;7;एक}
+row5#!n7#!<a href="javascript:show('भावलक्षणसप्तमी,')">भावलक्षणसप्तमी,9</a>
+row6#!n7#!बहने
+row7#!n7#!blowing
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!(सति)
+row2#!n7#!सति
+row3#!n7#!सती{स्त्री;8;एक}/सत्{पुं;7;एक}/सत्{स्त्री;7;एक}/सत्{नपुं;7;एक}
+row4#!n7#!<a (click)=showDic('अस्2')>अस्2</a>{कृत्_प्रत्ययः:शतृ;असँ;अदादिः;पुं}{7;एक}
+row5#!n7#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,5</a>
+row6#!n7#!पर
+row7#!n7#!while
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n3#!विलासिभिः
+row2#!n3#!विलासिभिः
+row3#!n3#!विलासिन्{पुं;3;बहु}/विलासिन्{नपुं;3;बहु}
+row4#!n3#!<a (click)=showDic('विलासिन्')>विलासिन्</a>{पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,9</a>
+row6#!n3#!विलासिनी_जन_के_द्वारा
+row7#!n3#!by amorous people
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!'वौ कषलसकत्थस्नम्भः' (3।1।143) इति घिनुण्प्रत्ययः ।
+
+row1#!n1#!मद-लौल्यम्
+row2#!n1#!मद-लौल्यम्
+row3#!n1#!मद-लौल्य{नपुं;1;एक}/लौल्य{नपुं;2;एक}/लौल्य{नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('मद')>मद</a>-<a (click)=showDic('लौल्य')>लौल्य</a>{नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,9</a>
+row6#!n1#!मद से चञ्चल
+row7#!n1#!fickle with intoxication
+row8#!n1#!<a href="html/SV-VI/SV-23/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-23/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><मद-लौल्यम्>T3</a>#!html/SV-VI/SV-23/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!उप-आ-ददे
+row2#!v#!उप-आ-ददे
+row3#!v#!उप-{अव्य-आ-;अव्य-दद;नपुं;1;द्वि}/दद{नपुं;2;द्वि}/ददा{स्त्री;1;द्वि}/ददा{स्त्री;2;द्वि}/दो1{कर्मणि;लिट्;उ;एक;आत्मनेपदी;दो;दिवादिः}/दो1{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;दो;दिवादिः}/दा1{कर्मणि;लिट्;उ;एक;आत्मनेपदी;दाण्;भ्वादिः}/दा1{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;दाण्;भ्वादिः}/दा3{कर्तरि;लिट्;उ;एक;आत्मनेपदी;डुदाञ्;जुहोत्यादिः}/दा3{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;डुदाञ्;जुहोत्यादिः}/दा3{कर्तरि;लट्;उ;एक;आत्मनेपदी;डुदाञ्;जुहोत्यादिः}/दा3{कर्मणि;लिट्;उ;एक;आत्मनेपदी;डुदाञ्;जुहोत्यादिः}/दा3{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;डुदाञ्;जुहोत्यादिः}/दा2{कर्मणि;लिट्;उ;एक;आत्मनेपदी;दाप्;अदादिः}/दा2{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;दाप्;अदादिः}/दद्1{कर्तरि;लट्;उ;एक;आत्मनेपदी;ददँ;भ्वादिः}/दद{पुं;7;एक}/दद{नपुं;7;एक}/दद{नपुं;8;द्वि}/ददा{स्त्री;8;एक}/ददा{स्त्री;8;द्वि}
+row4#!v#!<a (click)=showDic('उप_आङ्_दा3')>उप_आङ्_दा3</a>{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;डुदाञ्;जुहोत्यादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!हो_हये.
+row7#!v#!became.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!यमकम् ।
+row12#!v#!
+
+

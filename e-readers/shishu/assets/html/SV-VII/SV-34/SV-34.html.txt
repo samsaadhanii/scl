@@ -1,0 +1,40 @@
+row1#!number#!<a href="html/SV-VII/SV-34/34.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-34/34.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">34.A</a>#!html/SV-VII/SV-34/34.jpg#!row1#!n1#!प्रसकलकुचबन्धुरोद्धुरोरःप्रसभविभिन्नतनु-उत्तरीय-बन्धा
+row2#!number#!34.B</a>#!row2#!n1#!प्रसकलकुचबन्धुरोद्धुरोरःप्रसभविभिन्नतनु-उत्तरीय-बन्धा
+row3#!number#!34.C</a>#!row3#!n1#!प्रसकलकुचबन्धुरोद्धुरोरःप्रसभविभिन्नतनु-उत्तरीय-बन्धा}
+row4#!number#!34.D</a>#!row4#!n1#!<a (click)=showDic('प्रसकलकुचबन्धुरोद्धुरोरःप्रसभविभिन्नतनु')>प्रसकलकुचबन्धुरोद्धुरोरःप्रसभविभिन्नतनु</a>-<a (click)=showDic('उत्तरीय')>उत्तरीय</a>-<a (click)=showDic('बन्धा')>बन्धा</a>{स्त्री;1;एक}
+row5#!number#!34.E</a>#!row5#!n1#!विशेषणम्,2
+row6#!number#!34.F</a>#!row6#!n1#!पीनस्तनों से उन्नतावनत (ऊँचे-नीचे) तथा दृढ़ वक्षःस्थल से सहसा नीचे की ओर सरके हुए स्तनावरणवाली अर्थात् अवयवों के फैलाव के कारण विस्रस्त कुचावरण वाली
+row7#!number#!34.G</a>#!row7#!n1#!(The woman) whose breasts were bent downwards due to their heaviness and whose navel part is apparent when her thin upper garment moves aside
+row8#!number#!34.H#!row8#!n1#!<a href="html/SV-VII/SV-34/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-34/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<प्रसकल-कुच>K1-<बन्धुर-उद्धर>K1>T3-उर>T5-<प्रसभ-विभिन्न>T5>T3-तनूत्तरीयबन्धा>Bs6</a>#!html/SV-VII/SV-34/samaasa1.jpg
+row9#!number#!34.I</a>#!row9#!n1#!
+row10#!number#!34.J</a>#!row10#!n1#!
+row11#!number#!34.K</a>#!row11#!n1#!
+row12#!number#!34.L</a>#!row12#!n1#!'ऋक्पूर-' (5।4।74) इत्यादिना समासान्तः ।
+
+row1#!n1#!अवनमदुदरोच्छ्वसद्दुकूलस्फुटतरलक्ष्यगभीरनाभि-मूला
+row2#!n1#!अवनमदुदरोच्छ्वसद्दुकूलस्फुटतरलक्ष्यगभीरनाभि-मूला
+row3#!n1#!अवनमदुदरोच्छ्वसद्दुकूलस्फुटतरलक्ष्यगभीरनाभि-मूला{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('अवनमदुदरोच्छ्वसद्दुकूलस्फुटतरलक्ष्यगभीरनाभि')>अवनमदुदरोच्छ्वसद्दुकूलस्फुटतरलक्ष्यगभीरनाभि</a>-<a (click)=showDic('मूला')>मूला</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,3</a>
+row6#!n1#!भीतर की ओर गये हुए उदर के कारण वस्त्र के सरक जाने से स्पष्ट परिलक्षित होती हुई नाभिमूलवाली
+row7#!n1#!(as) she possessed a very skinny belly that went within the body (thus) not visible
+row8#!n1#!<a href="html/SV-VII/SV-34/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-34/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<अवनमत्-उदर>K1-<उच्छवसद्-दुकूल>K1>Bs6-<स्फुटतर-लक्ष्य>K1<गभीर-<नाभि-मूला>T6>K1>Bs6</a>#!html/SV-VII/SV-34/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!(अस्थित)
+row2#!v#!अस्थित
+row3#!v#!अस्थित}
+row4#!v#!<a (click)=showDic('स्था1')>स्था1</a>{कर्तरि;लुङ्;प्र;एक;आत्मनेपदी;ष्ठा;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!खड़ी_रही.
+row7#!v#!stood.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!पुष्पिताग्रा ।
+row11#!v#!-
+row12#!v#!
+
+

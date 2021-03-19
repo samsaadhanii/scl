@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-X/SV-4/4.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-4/4.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">4.A</a>#!html/SV-X/SV-4/4.jpg#!row1#!n1#!उन्मदः
+row2#!number#!4.B</a>#!row2#!n1#!उन्मदः
+row3#!number#!4.C</a>#!row3#!n1#!उन्मद{;पुं;1;एक}
+row4#!number#!4.D</a>#!row4#!n1#!<a (click)=showDic('उन्मद')>उन्मद</a>{;पुं;1;एक}
+row5#!number#!4.E</a>#!row5#!n1#!विशेषणम्,3
+row6#!number#!4.F</a>#!row6#!n1#!मत्तवाला
+row7#!number#!4.G</a>#!row7#!n1#!The intoxicated
+row8#!number#!4.H#!row8#!n1#!
+row9#!number#!4.I</a>#!row9#!n1#!
+row10#!number#!4.J</a>#!row10#!n1#!
+row11#!number#!4.K</a>#!row11#!n1#!
+row12#!number#!4.L</a>#!row12#!n1#!
+
+row1#!n1#!वि-घूर्णन्
+row2#!n1#!वि-घूर्णन्
+row3#!n1#!घूर्णत्{;पुं;1;एक(वि-;शतृ_लट्;घूर्णँ;तुदादिः)}
+row4#!n1#!<a (click)=showDic('घूर्णत्')>घूर्णत्</a>{;पुं;1;एक(वि-घूर्ण्2;शतृ_लट्;घूर्णँ;तुदादिः)}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n1#!उडता_हुआ
+row7#!n1#!while flying
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!षडङ्घ्रिः
+row2#!n1#!षडङ्घ्रिः
+row3#!n1#!षडङ्घ्रि{;पुं;1;एक}
+row4#!n1#!<a (click)=showDic('षडङ्घ्रि')>षडङ्घ्रि</a>{;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,11</a>
+row6#!n1#!भ्रमर
+row7#!n1#!honey-bee
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!कापिशायन-सुगन्धि
+row2#!n2#!कापिशायन-सुगन्धि
+row3#!n2#!कापिशायन-सुगन्धि{;नपुं;1;एक}/सुगन्धि{;नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('कापिशायन')>कापिशायन</a>-<a (click)=showDic('सुगन्धि')>सुगन्धि</a>{;नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!मद्य से सुवासित
+row7#!n2#!fragrant due to liquor
+row8#!n2#!<a href="html/SV-X/SV-4/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-4/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कपिशायन-सुगन्धि>Bs6</a>#!html/SV-X/SV-4/samaasa1.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!फुल्ल-दृष्टि
+row2#!n2#!फुल्ल-दृष्टि
+row3#!n2#!फुल्ल{पुं(;क्त;ञिफलाँ;भ्वादिः)}/फुल्ल{नपुं-दृष्टि;;नपुं;8;एक(;क्त;ञिफलाँ;भ्वादिः)}/दृष्टि{;नपुं;1;एक}/दृष्टि{;नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('फुल्लदृष्टि')>फुल्लदृष्टि</a>{;नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!प्रफुल्ल नेत्रोंवाली
+row7#!n2#!blossomed eyes
+row8#!n2#!<a href="html/SV-X/SV-4/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-4/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><फुल्ल-दृष्टिः>Bs6</a>#!html/SV-X/SV-4/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n6#!प्रमदानां
+row2#!n6#!प्रमदानां
+row3#!n6#!प्रमद{;पुं;6;बहु}/प्रमदा{;स्त्री;6;बहु}
+row4#!n6#!<a (click)=showDic('प्रमदा')>प्रमदा</a>{स्त्री;6;बहु}
+row5#!n6#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n6#!सुन्दरियों_के
+row7#!n6#!of the beautiful women
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!वदनम्
+row2#!n2#!वदनम्
+row3#!n2#!वदन{;नपुं;1;एक(;ल्युट्;वदँ;भ्वादिः)}/वदन{;नपुं;2;एक(;ल्युट्;वदँ;भ्वादिः)}
+row4#!n2#!<a (click)=showDic('वदन')>वदन</a>{;नपुं;2;एक(वद्1;ल्युट्;वदँ;भ्वादिः)}
+row5#!n2#!<a href="javascript:show('समुच्चितम्,')">समुच्चितम्,8</a>
+row6#!n2#!मुख
+row7#!n2#!face
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!अब्जचारु-चषकं
+row2#!n2#!अब्जचारु-चषकं
+row3#!n2#!अब्जचारु-चषक{;पुं;2;एक}/चषक{;नपुं;1;एक}/चषक{;नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('अब्जचारु')>अब्जचारु</a>-<a (click)=showDic('चषक')>चषक</a>{;नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n2#!कमल से मनोहर प्याले पर
+row7#!n2#!the lotus like glasses of the liquor
+row8#!n2#!<a href="html/SV-X/SV-4/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-4/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<अब्ज-चारु>T3-चषकम्>K4</a>#!html/SV-X/SV-4/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!च
+row2#!NA#!च
+row3#!NA#!च{अव्य}
+row4#!NA#!<a (click)=showDic('च')>च</a>{अव्य}
+row5#!NA#!<a href="javascript:show('समुच्चितद्योतक,')">समुच्चितद्योतक,7</a>
+row6#!NA#!और
+row7#!NA#!and
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!अधिशयितुं
+row2#!NA#!अधिशयितुं
+row3#!NA#!{अव्य;तुमुन्;शीङ्;अदादिः}
+row4#!NA#!<a (click)=showDic('अधि_शी1')>अधि_शी1</a>{अव्य;तुमुन्;शीङ्;अदादिः}
+row5#!NA#!<a href="javascript:show('प्रयोजनम्,')">प्रयोजनम्,11</a>
+row6#!NA#!बैठने_के_लिये
+row7#!NA#!to sit
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!समशेत
+row2#!v#!समशेत
+row3#!v#!सम्_शी1{कर्तरि;लङ्;प्र;एक;आत्मनेपदी;शीङ्;अदादिः}
+row4#!v#!<a (click)=showDic('सम्_शी1')>सम्_शी1</a>{कर्तरि;लङ्;प्र;एक;आत्मनेपदी;शीङ्;अदादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!दोलायमान मनवाला हो गया.
+row7#!v#!was with a perplexed mind.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!स्वागता ।
+row11#!v#!तुल्ययोगिता ।
+row12#!v#!
+
+

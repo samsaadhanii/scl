@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-X/SV-42/42.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-42/42.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">42.A</a>#!html/SV-X/SV-42/42.jpg#!row1#!n1#!अन्या
+row2#!number#!42.B</a>#!row2#!n1#!अन्या
+row3#!number#!42.C</a>#!row3#!n1#!अन्या{;स्त्री;1;एक}/अन्या{सर्वनाम;स्त्री;1;एक}
+row4#!number#!42.D</a>#!row4#!n1#!<a (click)=showDic('अन्या')>अन्या</a>{सर्वनाम;स्त्री;1;एक}
+row5#!number#!42.E</a>#!row5#!n1#!कर्ता,12
+row6#!number#!42.F</a>#!row6#!n1#!अन्य_कोई_नायिका
+row7#!number#!42.G</a>#!row7#!n1#!Some other woman
+row8#!number#!42.H#!row8#!n1#!
+row9#!number#!42.I</a>#!row9#!n1#!
+row10#!number#!42.J</a>#!row10#!n1#!
+row11#!number#!42.K</a>#!row11#!n1#!
+row12#!number#!42.L</a>#!row12#!n1#!
+
+row1#!n5#!उत्तरीय-विनयात्
+row2#!n5#!उत्तरीय-विनयात्
+row3#!n5#!उत्तरीय-विनय{;पुं;5;एक}/विनय{;नपुं;5;एक}
+row4#!n5#!<a (click)=showDic('उत्तरीय')>उत्तरीय</a>-<a (click)=showDic('विनय')>विनय</a>{;पुं;5;एक}
+row5#!n5#!<a href="javascript:show('हेतुः,')">हेतुः,3</a>
+row6#!n5#!उत्तरीय-वस्त्र (पति के द्वारा) खींचा जाने से
+row7#!n5#!as the upper garment (shawl) was removed
+row8#!n5#!<a href="html/SV-X/SV-42/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-42/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><उत्तरीय-विनयः>T6</a>#!html/SV-X/SV-42/samaasa1.jpg
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!
+
+row1#!n1#!त्रपमाणा
+row2#!n1#!त्रपमाणा
+row3#!n1#!त्रपमाणा}
+row4#!n1#!<a (click)=showDic('त्रप्1')>त्रप्1</a>{कृत्_प्रत्ययः:शानच्;त्रपूँष्;भ्वादिः;स्त्री}{1;एक}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,12</a>
+row6#!n1#!लज्जित
+row7#!n1#!out of shy
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!तदीक्षण-मार्गं
+row2#!n2#!तदीक्षण-मार्गं
+row3#!n2#!तदीक्षण-मार्ग{;पुं;2;एक}/मार्ग{;नपुं;1;एक}/मार्ग{;नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('तदीक्षण')>तदीक्षण</a>-<a (click)=showDic('मार्ग')>मार्ग</a>{;पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,5</a>
+row6#!n2#!उस (पति) के दृष्टिपथ को
+row7#!n2#!(his) range of sight
+row8#!n2#!<a href="html/SV-X/SV-42/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-42/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><तद्-<ईक्षण-मार्गः>T6>T6</a>#!html/SV-X/SV-42/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!रुन्धती
+row2#!n1#!रुन्धती
+row3#!n1#!रुन्धती{;स्त्री;1;एक(;शतृ_लट्;रुधिँर्;रुधादिः)}
+row4#!n1#!<a (click)=showDic('रुन्धती')>रुन्धती</a>{;स्त्री;1;एक(रुध्1;शतृ_लट्;रुधिँर्;रुधादिः)}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,12</a>
+row6#!n1#!रोकती_हुई
+row7#!n1#!while eradicating
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!किल
+row2#!NA#!किल
+row3#!NA#!किल{अव्य}/किल्1{कर्तरि;लोट्;म;एक;परस्मैपदी;किलँ;तुदादिः}
+row4#!NA#!<a (click)=showDic('किल')>किल</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,5</a>
+row6#!NA#!अवश्य
+row7#!NA#!as if
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n6#!विवोढुः
+row2#!n6#!विवोढुः
+row3#!n6#!विवोढृ{;पुं;5;एक(;तृच्;वहँ;भ्वादिः)}/विवोढृ{;पुं;6;एक(;तृच्;वहँ;भ्वादिः)}/विवोढृ{;नपुं;5;एक(;तृच्;वहँ;भ्वादिः)}/विवोढृ{;नपुं;6;एक(;तृच्;वहँ;भ्वादिः)}
+row4#!n6#!<a (click)=showDic('विवोढृ')>विवोढृ</a>{;पुं;6;एक(वह्1;तृच्;वहँ;भ्वादिः)}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,8</a>
+row6#!n6#!पति_के
+row7#!n6#!of (her) husband
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n3#!विकटेन
+row2#!n3#!विकटेन
+row3#!n3#!विकट{;पुं;3;एक}/विकट{;नपुं;3;एक}
+row4#!n3#!<a (click)=showDic('विकट')>विकट</a>{;नपुं;3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n3#!विशाल
+row7#!n3#!vast
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!‘सम्प्रोदश्च कटच्’ (5।2।29) इति चकाराद्वेः कटच्प्रत्ययः ।
+
+row1#!n3#!वक्षसा
+row2#!n3#!वक्षसा
+row3#!n3#!वक्षस्{;नपुं;3;एक}
+row4#!n3#!<a (click)=showDic('वक्षस्')>वक्षस्</a>{;नपुं;3;एक}
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,12</a>
+row6#!n3#!वक्षःस्थल_से
+row7#!n3#!with the chest
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!एव
+row2#!NA#!एव
+row3#!NA#!एव{अव्य}
+row4#!NA#!<a (click)=showDic('एव')>एव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,9</a>
+row6#!NA#!ही
+row7#!NA#!indeed
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!कुच-मण्डलम्
+row2#!n2#!कुच-मण्डलम्
+row3#!n2#!कुच-मण्डल{;पुं;2;एक}/मण्डल{;नपुं;1;एक}/मण्डल{;नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('कुच')>कुच</a>-<a (click)=showDic('मण्डल')>मण्डल</a>{;नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,12</a>
+row6#!n2#!कुच-मण्डल_को
+row7#!n2#!bosom
+row8#!n2#!<a href="html/SV-X/SV-42/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-42/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कुच-मण्डलम्>T6</a>#!html/SV-X/SV-42/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!आवरिष्ट
+row2#!v#!आवरिष्ट
+row3#!v#!आङ्_वृ1{कर्तरि;लुङ्;प्र;एक;आत्मनेपदी;वृञ्;स्वादिः}
+row4#!v#!<a (click)=showDic('आङ्_वृ1')>आङ्_वृ1</a>{कर्तरि;लुङ्;प्र;एक;आत्मनेपदी;वृञ्;स्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!आवृत_कर_लिया.
+row7#!v#!covered.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!स्वागता ।
+row11#!v#!उन्मीलनम् ।
+row12#!v#!
+
+

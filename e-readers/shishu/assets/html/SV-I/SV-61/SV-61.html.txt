@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-I/SV-61/61.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-61/61.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">61.A</a>#!html/SV-I/SV-61/61.jpg#!row1#!n3#!निशान्तनारी-परिधान-धूनन-स्फुटागसा
+row2#!number#!61.B</a>#!row2#!n3#!निशान्तनारीपरिधानधूननस्फुटागसा 
+row3#!number#!61.C</a>#!row3#!n3#!निशान्तनारी-परिधान-धूनन-स्फुटागस्{पुं}{3;एक}/स्फुटागस्{नपुं}{3;एक} 
+row4#!number#!61.D</a>#!row4#!n3#!<a (click)=showDic('निशान्तनारी')>निशान्तनारी</a>-<a (click)=showDic('परिधान')>परिधान</a>-<a (click)=showDic('धूनन')>धूनन</a>-<a (click)=showDic('स्फुटागस्')>स्फुटागस्</a>{पुं}{3;एक} 
+row5#!number#!61.E</a>#!row5#!n3#!हेतुः,10
+row6#!number#!61.F</a>#!row6#!n3#!अन्तःपुर_में रहने_वाली स्त्रियों_के_कपड़े_को_कम्पित करने_से_स्पष्ट अपराध वाले
+row7#!number#!61.G</a>#!row7#!n3#!on account of raising the garments of (Rāvaņa’s) ladies in the harem
+row8#!number#!61.H#!row8#!n3#!<a href="html/SV-I/SV-61/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-61/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<निशा-नारी>T7-परिधान>T6-धूनन>T6-स्फुटागस्>Bs6</a>#!html/SV-I/SV-61/samaasa1.jpg
+row9#!number#!61.I</a>#!row9#!n3#!
+row10#!number#!61.J</a>#!row10#!n3#!
+row11#!number#!61.K</a>#!row11#!n3#!
+row12#!number#!61.L</a>#!row12#!n3#!धूञो ञ्यन्ताल्युट् । ‘घूञ्प्रीञोर्नुग्वक्तव्यः’ (वा०) इति नुक् ।
+
+row1#!NA#!अपि
+row2#!NA#!अपि 
+row3#!NA#!अपि{अव्य} 
+row4#!NA#!<a (click)=showDic('अपि')>अपि</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,1</a>
+row6#!NA#!भी 
+row7#!NA#!yet
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n7#!ऊरुषु
+row2#!n7#!ऊरुषु 
+row3#!n7#!ऊरु{पुं}{7;बहु} 
+row4#!n7#!<a (click)=showDic('ऊरु')>ऊरु</a>{पुं}{7;बहु} 
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,10</a>
+row6#!n7#!ऊरुओं_को
+row7#!n7#!at their thighs
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n6#!लोलचक्षुषः
+row2#!n6#!लोलचक्षुषः 
+row3#!n6#!लोलचक्षुस्{नपुं}{5;एक}/लोलचक्षुस्{नपुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('लोलचक्षुस्')>लोलचक्षुस्</a>{नपुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n6#!(देखते समय) चंचल नेत्रोंवाले
+row7#!n6#!(who cast) longing eyes
+row8#!n6#!<a href="html/SV-I/SV-61/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-61/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><लोल-चक्षुः>Bs6</a>#!html/SV-I/SV-61/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!तस्य
+row2#!n6#!तस्य 
+row3#!n6#!तद्{पुं}{6;एक}/तद्{नपुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('तद्')>तद्</a>{नपुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,6</a>
+row6#!n6#!उसके (रावण के)
+row7#!n6#!his (Rãvaņa's)
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n3#!प्रियेण
+row2#!n3#!प्रियेण 
+row3#!n3#!प्रिय{पुं}{3;एक}/प्रिय{नपुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('प्रिय')>प्रिय</a>{पुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n3#!प्रिय 
+row7#!n3#!dear
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!प्रकम्पनेन
+row2#!n3#!प्रकम्पनेन 
+row3#!n3#!प्रकम्पन{पुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('प्रकम्पन')>प्रकम्पन</a>{पुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('करण,')">करण,10</a>
+row6#!n3#!वायु_से
+row7#!n3#!by wind god
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!अनपराध-बाधिताः
+row2#!n1#!अनपराधबाधिताः 
+row3#!n1#!अनपराध-बाधित{पुं}{1;बहु}/बाधिता{स्त्री}{1;बहु}/बाधिता{स्त्री}{2;बहु} 
+row4#!n1#!<a (click)=showDic('अनपराध')>अनपराध</a>-<a (click)=showDic('बाधित')>बाधित</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n1#!निरपराध बाँधें गये
+row7#!n1#!who were punished without any guilt
+row8#!n1#!<a href="html/SV-I/SV-61/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-61/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<अ-अपराध>Bsmn-बाधितः>K2</a>#!html/SV-I/SV-61/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!सुराः
+row2#!n1#!सुराः 
+row3#!n1#!सुर{पुं}{1;बहु}/सुरा{स्त्री}{1;बहु}/सुरा{स्त्री}{2;बहु} 
+row4#!n1#!<a (click)=showDic('सुर')>सुर</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n1#!देवों_पर
+row7#!n1#!the gods
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!अनुचकम्पिरे.
+row2#!v#!अनुचकम्पिरे
+row3#!v#!अनु_कम्प्1{कर्तरि;लिट्;प्र;बहु;आत्मनेपदी;कपिँ;भ्वादिः}/अनु_कम्प्1{भावे;लिट्;प्र;बहु;आत्मनेपदी;कपिँ;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('अनु_कम्प्1')>अनु_कम्प्1</a>{कर्मणि;लिट्;प्र;बहु;आत्मनेपदी;कपिँ;भ्वादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!अनुकम्पा_की.
+row7#!v#!were sympathised.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!वंशस्थम् । 
+row11#!v#!-
+row12#!v#!
+
+

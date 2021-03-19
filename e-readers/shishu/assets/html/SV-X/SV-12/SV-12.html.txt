@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-X/SV-12/12.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-12/12.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">12.A</a>#!html/SV-X/SV-12/12.jpg#!row1#!n3#!त्रि-सरकेण
+row2#!number#!12.B</a>#!row2#!n3#!त्रि-सरकेण
+row3#!number#!12.C</a>#!row3#!n3#!त्रि-सरकेण}
+row4#!number#!12.D</a>#!row4#!n3#!<a (click)=showDic('त्रि')>त्रि</a>-<a (click)=showDic('सरक')>सरक</a>{नपुं;3;एक}
+row5#!number#!12.E</a>#!row5#!n3#!कर्ता,8
+row6#!number#!12.F</a>#!row6#!n3#!मद्य के तीन चषक लेने से
+row7#!number#!12.G</a>#!row7#!n3#!when consumed three pegs of liquor
+row8#!number#!12.H#!row8#!n3#!<a href="html/SV-X/SV-12/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-12/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><त्रि-सरकम्>Ds</a>#!html/SV-X/SV-12/samaasa1.jpg
+row9#!number#!12.I</a>#!row9#!n3#!
+row10#!number#!12.J</a>#!row10#!n3#!
+row11#!number#!12.K</a>#!row11#!n3#!
+row12#!number#!12.L</a>#!row12#!n3#!‘तद्धितार्थ-’(2।1।51) इत्यादिना समाहारे द्विगुः पात्रादित्वान्नपुंसकत्वम्’ ।
+
+row1#!n2#!प्रातिभं
+row2#!n2#!प्रातिभं
+row3#!n2#!प्रातिभ{;पुं;2;एक}/प्रातिभ{;नपुं;1;एक}/प्रातिभ{;नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('प्रातिभ')>प्रातिभ</a>{;नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,3</a>
+row6#!n2#!बढ़े
+row7#!n2#!increased
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n6#!गतानां
+row2#!n6#!गतानां
+row3#!n6#!गत{;पुं;6;बहु(;क्त;गमॢँ;भ्वादिः)}/गत{;नपुं;6;बहु(;क्त;गमॢँ;भ्वादिः)}/गता{;स्त्री;6;बहु(;क्त;गमॢँ;भ्वादिः)}
+row4#!n6#!<a (click)=showDic('गत')>गत</a>{;स्त्री;6;बहु(गम्1;क्त;गमॢँ;भ्वादिः)}
+row5#!n6#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n6#!हुए
+row7#!n6#!had (gone)
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!सु-भ्रुवां
+row2#!n6#!सु-भ्रुवां
+row3#!n6#!सु-भ्रू{;स्त्री;6;बहु}/भ्रू{;स्त्री;7;एक}/भ्रू{;पुं;6;बहु}
+row4#!n6#!<a (click)=showDic('सु')>सु</a>-<a (click)=showDic('भ्रू')>भ्रू</a>{;स्त्री;6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,5</a>
+row6#!n6#!सुन्दर भौंहों वाली सुन्दरियों के
+row7#!n6#!of beautiful women
+row8#!n6#!<a href="html/SV-X/SV-12/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-12/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सु-भ्रूः>Bs6</a>#!html/SV-X/SV-12/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!वक्र-वाक्य-रचना-रमणीयः
+row2#!n1#!वक्र-वाक्य-रचना-रमणीयः
+row3#!n1#!रमणीय{;पुं;1;एक(वक्र-वाक्य-रचना-;अनीयर्;रमुँ;भ्वादिः)}
+row4#!n1#!<a (click)=showDic('वक्र')>वक्र</a>-<a (click)=showDic('वाक्य')>वाक्य</a>-<a (click)=showDic('रचना')>रचना</a>-<a (click)=showDic('रमणीय')>रमणीय</a>{;पुं;1;एक(वक्र-वाक्य-रचना-रम्1;अनीयर्;रमुँ;भ्वादिः)}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!प्रतिकूल वाक्य प्रयोग से रमणीय
+row7#!n1#!who were skillful in evasive speech
+row8#!n1#!<a href="html/SV-X/SV-12/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-12/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<वक्र-वाक्य>K3-रचना>T6-रमणीयः>T7</a>#!html/SV-X/SV-12/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!गूढ-सूचित-रहस्य-सहासः
+row2#!n1#!गूढ-सूचित-रहस्य-सहासः
+row3#!n1#!गूढ{पुं(;क्त;गुहूँ;भ्वादिः)}/सूचित{पुं(;क्त;गुहूँ;भ्वादिःगूढ;नपुं-;क्त;सूच;चुरादिः)}/सूचित{नपुं-रहस्य-स-हास;;पुं;1;एक(;क्त;सूच;चुरादिः)}
+row4#!n1#!<a (click)=showDic('गूढ')>गूढ</a>-<a (click)=showDic('सूचित')>सूचित</a>-<a (click)=showDic('रहस्य')>रहस्य</a>-<a (click)=showDic('सहास')>सहास</a>{;;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!गुप्तकामचेष्टादि रहस्य को प्रकट करने वाला बार-बार का हास
+row7#!n1#!the intricacies of their playful time
+row8#!n1#!<a href="html/SV-X/SV-12/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-12/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<गूढ-सूचित>K3-रहस्य>Bs7-सहासः>K3</a>#!html/SV-X/SV-12/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!परि-हासः
+row2#!n1#!परि-हासः
+row3#!n1#!परि-हास{;पुं;1;एक}
+row4#!n1#!<a (click)=showDic('परि')>परि</a>-<a (click)=showDic('हास')>हास</a>{;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n1#!परिहास_को
+row7#!n1#!ridicule
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!प्रववृते
+row2#!v#!प्रववृते
+row3#!v#!प्र_वृत्1{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;वृतुँ;भ्वादिः}/प्र_वृत्1{कर्तरि;लिट्;उ;एक;आत्मनेपदी;वृतुँ;भ्वादिः}/प्र_वृत्1{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;वृतुँ;भ्वादिः}/प्र_वृत्1{कर्मणि;लिट्;उ;एक;आत्मनेपदी;वृतुँ;भ्वादिः}
+row4#!v#!<a (click)=showDic('प्र_वृत्1')>प्र_वृत्1</a>{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;वृतुँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!बढ़ाया.
+row7#!v#!intensified.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!स्वागता ।
+row11#!v#!     -
+row12#!v#!
+
+

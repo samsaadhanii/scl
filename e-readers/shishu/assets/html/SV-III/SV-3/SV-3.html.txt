@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-III/SV-3/3.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-3/3.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">3.A</a>#!html/SV-III/SV-3/3.jpg#!row1#!n2#!मृणालसूत्र-अमलम्
+row2#!number#!3.B</a>#!row2#!n2#!मृणालसूत्रामलं 
+row3#!number#!3.C</a>#!row3#!n2#!मृणालसूत्र-अमल{पुं}{2;एक}/अमल{नपुं}{1;एक}/अमल{नपुं}{2;एक} 
+row4#!number#!3.D</a>#!row4#!n2#!<a (click)=showDic('मृणालसूत्र')>मृणालसूत्र</a>-<a (click)=showDic('अमल')>अमल</a>{नपुं}{2;एक} 
+row5#!number#!3.E</a>#!row5#!n2#!विशेषणम्,3
+row6#!number#!3.F</a>#!row6#!n2#!कमलनाल_के_तन्तु_के_समान शुभ्र
+row7#!number#!3.G</a>#!row7#!n2#!White and pure like that of lotus-filaments
+row8#!number#!3.H#!row8#!n2#!<a href="html/SV-III/SV-3/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-3/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<मृणाल-सूत्र>T6-आमलम्>K4</a>#!html/SV-III/SV-3/samaasa1.jpg
+row9#!number#!3.I</a>#!row9#!n2#!
+row10#!number#!3.J</a>#!row10#!n2#!
+row11#!number#!3.K</a>#!row11#!n2#!
+row12#!number#!3.L</a>#!row12#!n2#!
+
+row1#!n6#!चलत्-चामरयोः
+row2#!n6#!चलत्-चामरयोः 
+row3#!n6#!चलत्-चामर{पुं}{6;द्वि}/चामर{पुं}{7;द्वि} 
+row4#!n6#!<a (click)=showDic('चलत्')>चलत्</a>-<a (click)=showDic('चामर')>चामर</a>{नपुं}{6;द्वि} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,3</a>
+row6#!n6#!हिलने-डुलने_वाले_चमरों_के
+row7#!n6#!of waving chowris
+row8#!n6#!<a href="html/SV-III/SV-3/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-3/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><चलत्-चामरम्>K3</a>#!html/SV-III/SV-3/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!द्वयम्
+row2#!n2#!द्वयम् 
+row3#!n2#!द्वय{नपुं}{1;एक}/द्वय{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('द्वय')>द्वय</a>{नपुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('उपपदविभक्तिः,')">उपपदविभक्तिः,4</a>
+row6#!n2#!दो
+row7#!n2#!the two
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!‘अन्तरान्तरेण युक्ते’ (2।3।4) इति द्वितीया ।
+
+row1#!NA#!अन्तरेण
+row2#!NA#!अन्तरेण 
+row3#!NA#!अन्तर{पुं}{3;एक}/अन्तर{नपुं}{3;एक}/अन्तरेण{अव्य}/अन्तर{पुं}{3;एक}/अन्तर{नपुं}{3;एक} 
+row4#!NA#!<a (click)=showDic('अन्तरेण')>अन्तरेण</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('उपपदसम्बन्धः,')">उपपदसम्बन्धः,5</a>
+row6#!NA#!बीच_में
+row7#!NA#!in between
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!स्थितः
+row2#!n1#!स्थितः 
+row3#!n1#!स्थित{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('स्था1')>स्था1</a>{कृत्_प्रत्ययः:क्त;ष्ठा;भ्वादिः;पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!स्थित 
+row7#!n1#!standing
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!सः
+row2#!n1#!सः 
+row3#!n1#!तद्{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('तद्')>तद्</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,11</a>
+row6#!n1#!वह 
+row7#!n1#!he
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!अभितःपातुक-सिद्धसिन्धोः
+row2#!n6#!अभितःपातुकसिद्धसिन्धोः 
+row3#!n6#!अभितःपातुक-सिद्धसिन्धु{पुं}{5;एक}/सिद्धसिन्धु{पुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('अभितःपातुक')>अभितःपातुक</a>-<a (click)=showDic('सिद्धसिन्धु')>सिद्धसिन्धु</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,8</a>
+row6#!n6#!जिसके_दोनों_ओर_गंगा नदी_की_दो_शुभ्र_धाराएँ प्रवाहित_हो_रही_हो
+row7#!n6#!of the celestial Ganges falling on both its sides
+row8#!n6#!<a href="html/SV-III/SV-3/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-3/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अभितःपातुक-<सिद्ध-सिन्धुः>T6>K3</a>#!html/SV-III/SV-3/samaasa3.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!‘पर्यभिभ्यां च’ (5।3।9) इति तसिल्प्रत्ययः । सुप्सुपेति समासः पातुकेति । ‘लषपत-’ (3।2।154) इत्यादिना उकण्प्रत्ययः ।
+
+row1#!n6#!अम्बुराशेः
+row2#!n6#!अम्बुराशेः 
+row3#!n6#!अम्बुराशि{पुं}{5;एक}/अम्बुराशि{पुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('अम्बुराशि')>अम्बुराशि</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,10</a>
+row6#!n6#!समुद्र_की
+row7#!n6#!of the ocean
+row8#!n6#!<a href="html/SV-III/SV-3/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-3/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अम्बु-राशिः>T6</a>#!html/SV-III/SV-3/samaasa4.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!अभूतपूर्वां
+row2#!n2#!अभूतपूर्वां 
+row3#!n2#!अभूतपूर्वा{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('अभूतपूर्वा')>अभूतपूर्वा</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,10</a>
+row6#!n2#!अभूतपूर्व
+row7#!n2#!unprecedented
+row8#!n2#!<a href="html/SV-III/SV-3/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-3/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-<भूत-पूर्वा>S>Tn</a>#!html/SV-III/SV-3/samaasa5.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!रुचं
+row2#!n2#!रुचं 
+row3#!n2#!रुच्{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('रुच्')>रुच्</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,11</a>
+row6#!n2#!शोभा_को
+row7#!n2#!loveliness
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!भेजे.
+row2#!v#!भेजे 
+row3#!v#!भज्1{कर्तरि;लिट्;उ;एक;आत्मनेपदी;भजँ;भ्वादिः}/भज्1{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;भजँ;भ्वादिः}/भज्1{कर्मणि;लिट्;उ;एक;आत्मनेपदी;भजँ;भ्वादिः}/भज्1{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;भजँ;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('भज्1')>भज्1</a>{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;भजँ;भ्वादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!धारण_किया.
+row7#!v#!bore.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!उपजाति ।
+row11#!v#!निदर्शना + अतिशयोक्तिः = सङ्करः ।
+row12#!v#!
+
+

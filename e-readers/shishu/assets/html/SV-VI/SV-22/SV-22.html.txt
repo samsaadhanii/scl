@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-VI/SV-22/22.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-22/22.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">22.A</a>#!html/SV-VI/SV-22/22.jpg#!row1#!NA#!यत्र
+row2#!number#!22.B</a>#!row2#!NA#!यत्र
+row3#!number#!22.C</a>#!row3#!NA#!यत्र{अव्य}
+row4#!number#!22.D</a>#!row4#!NA#!<a (click)=showDic('यत्र')>यत्र</a>{अव्य}
+row5#!number#!22.E</a>#!row5#!NA#!देशाधिकरणम्,10
+row6#!number#!22.F</a>#!row6#!NA#!जहाँ
+row7#!number#!22.G</a>#!row7#!NA#!Where
+row8#!number#!22.H#!row8#!NA#!
+row9#!number#!22.I</a>#!row9#!NA#!
+row10#!number#!22.J</a>#!row10#!NA#!
+row11#!number#!22.K</a>#!row11#!NA#!
+row12#!number#!22.L</a>#!row12#!NA#!
+
+row1#!n1#!शिरीषरजो-रुचः
+row2#!n1#!शिरीषरजो-रुचः
+row3#!n1#!शिरीषरजो-रुच्{स्त्री;1;बहु}/रुच्{स्त्री;2;बहु}/रुच्{स्त्री;5;एक}/रुच्{स्त्री;6;एक}/रुच्{स्त्री;8;बहु}
+row4#!n1#!<a (click)=showDic('शिरीषरजो')>शिरीषरजो</a>-<a (click)=showDic('रुच्')>रुच्</a>{स्त्री;1;बहु}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,4</a>
+row6#!n1#!शिरीष पुष्पों के परागों की कान्तियाँ
+row7#!n1#!pollen-dust of flowers of Flea tree (Śirīṣa)
+row8#!n1#!<a href="html/SV-VI/SV-22/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-22/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<शिरीष-रज>T6-रुच्>T6</a>#!html/SV-VI/SV-22/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!रवितुङतनूरुह-तुल्यतां
+row2#!n2#!रवितुरङ्गतनूरुह-तुल्यतां
+row3#!n2#!रवितुरङ्गतनूरुह-तुल्यता{स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('रवितुरङ्गतनूरुह')>रवितुरङ्गतनूरुह</a>-<a (click)=showDic('तुल्यता')>तुल्यता</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,4</a>
+row6#!n2#!सूर्य के हरित वर्ण वाले किरणें और घोडों के रोमों की समनता को
+row7#!n2#!splendor in green color that resembles rays of the Sun and pores of a horse
+row8#!n2#!<a href="html/SV-VI/SV-22/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-22/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<रवि-तुरङ्ग>T6-<तनु-रुह>U>T6-तुल्यता>T3</a>#!html/SV-VI/SV-22/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n7#!दधति
+row2#!n7#!दधति
+row3#!n7#!धा1{कर्तरि;लट्;प्र;बहु;परस्मैपदी;डुधाञ्;जुहोत्यादिः}/दधत्{पुं;7;एक}/दधत्{नपुं;7;एक}
+row4#!n7#!<a (click)=showDic('धा1')>धा1</a>{शतृ_लट्;डुधाञ्;जुहोत्यादिः;पुं;7;एक}
+row5#!n7#!<a href="javascript:show('समानकालः,')">समानकालः,10</a>
+row6#!n7#!धारण_करती_हुई
+row7#!n7#!while bearing
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n1#!असौ
+row2#!n1#!असौ
+row3#!n1#!अदस्{पुं;1;एक}/अदस्{स्त्री;1;एक}/असि{पुं;7;एक}/असि{स्त्री;7;एक}/असु{पुं;7;एक}
+row4#!n1#!<a (click)=showDic('अदस्')>अदस्</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!वह
+row7#!n1#!that
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!शुचिः
+row2#!n1#!शुचिः
+row3#!n1#!शुचि{पुं;1;एक}/शुचि{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('शुचि')>शुचि</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n1#!ग्रीष्म-ऋतु
+row7#!n1#!summer season
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!नव-मल्लिकाः
+row2#!n2#!नव-मल्लिकाः
+row3#!n2#!नव-मल्लिक{पुं;1;बहु}/मल्लिका{स्त्री;1;बहु}/मल्लिका{स्त्री;2;बहु}/मल्लिक{पुं;8;बहु}/मल्लिका{स्त्री;8;बहु}/मल्लिका{स्त्री;8;बहु}
+row4#!n2#!<a (click)=showDic('नव')>नव</a>-<a (click)=showDic('मल्लिका')>मल्लिका</a>{स्त्री;2;बहु}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n2#!नव-मल्लिकाओं_के
+row7#!n2#!tender jasmine flowers
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!'पुष्पमूलेषु बहुमूलम्' (वा०) इति बहुग्रहगणाल्लुप् ।
+
+row1#!n2#!चिरसौरभ-सम्पदः
+row2#!n2#!चिरसौरभ-सम्पदः
+row3#!n2#!चिरसौरभ-सम्पद्{स्त्री;1;बहु}/सम्पद्{स्त्री;2;बहु}/सम्पद्{स्त्री;5;एक}/सम्पद्{स्त्री;6;एक}/सम्पद्{स्त्री;8;बहु}
+row4#!n2#!<a (click)=showDic('चिरसौरभ')>चिरसौरभ</a>-<a (click)=showDic('सम्पद्')>सम्पद्</a>{स्त्री;2;बहु}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,9</a>
+row6#!n2#!सुगन्ध को चिरस्थायि
+row7#!n2#!fragrance
+row8#!n2#!<a href="html/SV-VI/SV-22/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-22/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><चिर-<सौरभ-सम्पत्>K3>Bs6</a>#!html/SV-VI/SV-22/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!विदधत्
+row2#!n1#!विदधत्
+row3#!n1#!विदधत्{नपुं;1;एक}/विदधत्{नपुं;2;एक}/विदधत्{नपुं;8;एक}
+row4#!n1#!<a (click)=showDic('वि_धा1')>वि_धा1</a>{शतृ_लट्;डुधाञ्;जुहोत्यादिः;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,10</a>
+row6#!n1#!करता_हुआ
+row7#!n1#!enduring
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!उप-ययौ
+row2#!v#!उप-ययौ
+row3#!v#!उप-{अव्य-या1;कर्तरि;लिट्;उ;एक;परस्मैपदी;या;अदादिः}/या1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;या;अदादिः}/ययि{पुं;7;एक}
+row4#!v#!<a (click)=showDic('उप_या1')>उप_या1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;या;अदादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!आ_गया.
+row7#!v#!arrived.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!यमकम् ।
+row12#!v#!
+
+

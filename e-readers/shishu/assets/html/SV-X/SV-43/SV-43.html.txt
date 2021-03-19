@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-X/SV-43/43.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-43/43.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">43.A</a>#!html/SV-X/SV-43/43.jpg#!row1#!n2#!अंशुकं
+row2#!number#!43.B</a>#!row2#!n2#!अंशुकं
+row3#!number#!43.C</a>#!row3#!n2#!अंशुक{;पुं;2;एक}/अंशुक{;नपुं;1;एक}/अंशुक{;नपुं;2;एक}
+row4#!number#!43.D</a>#!row4#!n2#!<a (click)=showDic('अंशुक')>अंशुक</a>{;नपुं;2;एक}
+row5#!number#!43.E</a>#!row5#!n2#!कर्म,2
+row6#!number#!43.F</a>#!row6#!n2#!उत्तरीय को
+row7#!number#!43.G</a>#!row7#!n2#!Upper garment
+row8#!number#!43.H#!row8#!n2#!
+row9#!number#!43.I</a>#!row9#!n2#!
+row10#!number#!43.J</a>#!row10#!n2#!
+row11#!number#!43.K</a>#!row11#!n2#!
+row12#!number#!43.L</a>#!row12#!n2#!
+
+row1#!n3#!हृतवता
+row2#!n3#!हृतवता
+row3#!n3#!हृतवत्{;पुं;3;एक(;क्तवतु;हृञ्;भ्वादिः)}/हृतवत्{;नपुं;3;एक(;क्तवतु;हृञ्;भ्वादिः)}/हृतवत्{;पुं;3;एक(;क्तवतु;हृ;जुहोत्यादिः)}/हृतवत्{;नपुं;3;एक(;क्तवतु;हृ;जुहोत्यादिः)}
+row4#!n3#!<a (click)=showDic('हृतवत्')>हृतवत्</a>{;पुं;3;एक(हृ1;क्तवतु;हृञ्;भ्वादिः)}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n3#!हटाते_हुए
+row7#!n3#!while removing
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!परिणेत्रा
+row2#!n3#!परिणेत्रा
+row3#!n3#!परिणेतृ{;पुं;3;एक}
+row4#!n3#!<a (click)=showDic('परिणेतृ')>परिणेतृ</a>{;पुं;3;एक}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n3#!पति_से
+row7#!n3#!by her husband
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!तनुबाहुस्वस्तिकापिहित-मुग्ध-कुच-अग्रा
+row2#!n3#!तनुबाहुस्वस्तिकापिहित-मुग्ध-कुच-अग्रा
+row3#!n3#!मुग्ध{पुं(तनुबाहुस्वस्तिकापिहित-;क्त;मुहँ;दिवादिः)}/मुग्ध{नपुं-कुच-अग्रा;;स्त्री;1;एक(;क्त;मुहँ;दिवादिः)}
+row4#!n3#!<a (click)=showDic('तनुबाहुस्वस्तिकापिहित')>तनुबाहुस्वस्तिकापिहित</a>-<a (click)=showDic('मुग्ध')>मुग्ध</a>-<a (click)=showDic('कुच')>कुच</a>-<a (click)=showDic('अग्रा')>अग्रा</a>{स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n3#!कृश भुजद्वय से स्वस्तिकाकार बन्धन विशेष द्वारा सुन्दर स्तनाग्रों को
+row7#!n3#!who covered her breasts with her two slim shoulders in the form of Swatstikā
+row8#!n3#!<a href="html/SV-X/SV-43/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-43/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<तनु-बाहु>T6-स्वस्तिक>T6-अपिहित>T3-<मुग्ध-<कुच-अग्रा>T6>K3>Bs6</a>#!html/SV-X/SV-43/samaasa1.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!अचिर-ऊढा
+row2#!n3#!अचिर-ऊढा
+row3#!n3#!ऊढा{;स्त्री;1;एक(अचिर-;क्त;वहँ;भ्वादिः)}
+row4#!n3#!<a (click)=showDic('अचिरोढा')>अचिरोढा</a>{स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n3#!नवोढ़ा का
+row7#!n3#!of a newlywed bride
+row8#!n3#!<a href="html/SV-X/SV-43/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-43/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-चिरोढा>Tn</a>#!html/SV-X/SV-43/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n2#!भिन्न-शङ्ख-वलयं
+row2#!n2#!भिन्न-शङ्ख-वलयं
+row3#!n2#!भिन्न-शङ्ख-वलय{;पुं;2;एक}/वलय{;नपुं;1;एक}/वलय{;नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('भिन्न')>भिन्न</a>-<a (click)=showDic('शङ्ख')>शङ्ख</a>-<a (click)=showDic('वलय')>वलय</a>{;नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,8</a>
+row6#!n2#!टूटे_हुए_शङ्खनिर्मित_कङ्कण
+row7#!n2#!bangles that were made up of conch were broken
+row8#!n2#!<a href="html/SV-X/SV-43/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-43/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><भिन्न-<शङ्क-वलयम्>T6>Bs7</a>#!html/SV-X/SV-43/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n5#!रभसात्
+row2#!n5#!रभसात्
+row3#!n5#!रभस{;पुं;5;एक}/रभस{;नपुं;5;एक}
+row4#!n5#!<a (click)=showDic('रभस')>रभस</a>{;पुं;5;एक}
+row5#!n5#!<a href="javascript:show('हेतुः,')">हेतुः,8</a>
+row6#!n5#!वेगपूर्वक
+row7#!n5#!hastily
+row8#!n5#!-
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!
+
+row1#!v#!पर्यरम्भि
+row2#!v#!पर्यरम्भि
+row3#!v#!पर्यरम्भि}
+row4#!v#!<a (click)=showDic('परि_रभ्1')>परि_रभ्1</a>{कर्मणि;ण्यत्;लुङ्;प्र;एक;आत्मनेपदी;रभँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!गाढ़ आलिङ्गन कर लिया.
+row7#!v#!embraced tightly.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!स्वागता ।
+row11#!v#!-
+row12#!v#!रभेर्ण्यन्तात् कर्मणि लुङ् ।‘रभेरशब्लिटोः’ (7।1।63) इति नुमागमः ।
+
+

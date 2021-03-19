@@ -1,0 +1,79 @@
+row1#!number#!<a href="html/SV-III/SV-80/80.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-80/80.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">80.A</a>#!html/SV-III/SV-80/80.jpg#!row1#!n3#!चमूचरैः
+row2#!number#!80.B</a>#!row2#!n3#!चमूचरैः 
+row3#!number#!80.C</a>#!row3#!n3#!चमूचर{पुं}{3;बहु} 
+row4#!number#!80.D</a>#!row4#!n3#!<a (click)=showDic('चमूचर')>चमूचर</a>{पुं}{3;बहु} 
+row5#!number#!80.E</a>#!row5#!n3#!कर्ता,6
+row6#!number#!80.F</a>#!row6#!n3#!सैनिकों_ने
+row7#!number#!80.G</a>#!row7#!n3#!The soldiers
+row8#!number#!80.H#!row8#!n3#!<a href="html/SV-III/SV-80/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-80/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><चमू-चरः>U</a>#!html/SV-III/SV-80/samaasa1.jpg
+row9#!number#!80.I</a>#!row9#!n3#!
+row10#!number#!80.J</a>#!row10#!n3#!
+row11#!number#!80.K</a>#!row11#!n3#!
+row12#!number#!80.L</a>#!row12#!n3#!‘चरेष्टः’ (3।2।16) इति टप्रत्ययः ।
+
+row1#!n1#!उत्ताल-ताली-वन-सम्प्रवृत्त-समीर-सीमन्तित-केतकीकाः
+row2#!n1#!उत्ताल-ताली-वन-सम्प्रवृत्त-समीर-सीमन्तित-केतकीकाः 
+row3#!n1#!उत्ताल-ताली-वन-सम्प्रवृत्त-समीर-सीमन्तित-केतकीकाः 
+row4#!n1#!<a (click)=showDic('उत्ताल')>उत्ताल</a>-<a (click)=showDic('ताली')>ताली</a>-<a (click)=showDic('वन')>वन</a>-<a (click)=showDic('सम्प्रवृत्त')>सम्प्रवृत्त</a>-<a (click)=showDic('समीर')>समीर</a>-<a (click)=showDic('सीमन्तित')>सीमन्तित</a>-<a (click)=showDic('केतकीकाः')>केतकीकाः</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('विशेषण,')">विशेषण,5</a>
+row6#!n1#!ऊ़ँचे-ऊँचे ताड़_के_वन_में_बहती_हुई_हवा_से_केशरचनारूप_हो_रहे_हैं_केतकीपुष्प_जहाँ_पर_ऐसे
+row7#!n1#!the Ketakī plants in which were parted like hair by the wind arising in the groves of high palm-trees
+row8#!n1#!<a href="html/SV-III/SV-80/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-80/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<उत्ताल-<ताली-वन>K7>K1-सम्प्रवृत्त>T7-समीर>K3-सीमन्तितकेतकीकः>Bs7</a>#!html/SV-III/SV-80/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!सीमन्तशब्दान्मत्वन्तात् 'तत्करोति-’ (ग०) इति ण्यन्तात् कर्मणि क्तः । णाविष्ठवद्भावे विन्मतोर्लुक्  । ताः केतकयो येषु ते तथोक्ताः । ‘नद्युतश्च’ (5।4।153) इति कप् ।
+
+row1#!n6#!लावण-सैन्धवीनां
+row2#!n6#!लावण-सैन्धवीनां 
+row3#!n6#!लावण-सैन्धवी{स्त्री}{6;बहु} 
+row4#!n6#!<a (click)=showDic('लावण')>लावण</a>-<a (click)=showDic('सैन्धवी')>सैन्धवी</a>{स्त्री}{6;बहु} 
+row5#!n6#!<a href="javascript:show('विशेषण,')">विशेषण,4</a>
+row6#!n6#!क्षारसमुद्र_के_जल
+row7#!n6#!of the briny ocean
+row8#!n6#!<a href="html/SV-III/SV-80/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-80/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><लावण-सैन्धवी>T6</a>#!html/SV-III/SV-80/samaasa3.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!‘तस्येदम्’ (4।3।120) इत्यण् । ‘हृद्भगसिन्ध्वन्ते पूर्वपदस्य-’ (7।2।19) इत्युभयपदवद्धिः ।
+
+row1#!n6#!कच्छ-भुवां
+row2#!n6#!कच्छ-भुवां 
+row3#!n6#!कच्छ-भू{स्त्री}{6;बहु}/भू{स्त्री}{7;एक} 
+row4#!n6#!<a (click)=showDic('कच्छ')>कच्छ</a>-<a (click)=showDic('भू')>भू</a>{स्त्री}{6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,5</a>
+row6#!n6#!दलदली भूमियों_वाले
+row7#!n6#!of morasses
+row8#!n6#!<a href="html/SV-III/SV-80/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-80/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कच्छ-भूः>T6</a>#!html/SV-III/SV-80/samaasa4.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!प्रदेशाः
+row2#!n1#!प्रदेशाः 
+row3#!n1#!प्रदेश{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('प्रदेश')>प्रदेश</a>{पुं}{1;बहु}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,6</a>
+row6#!n1#!प्रदेशों_को
+row7#!n1#!the regions
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!आसेदिरे.
+row2#!v#!आसेदिरे 
+row3#!v#!आ-{अव्य}-सेदिरे. 
+row4#!v#!<a (click)=showDic('आ_सद्1')>आ_सद्1</a>{कर्मणि;लिट्;प्र;एक;परस्मैपदी;षदलृँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!प्राप्त_किया.
+row7#!v#!reached.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!उपजाति ।
+row11#!v#!स्वभावोक्तिः + अनुप्रासः = सङ्करः ।
+row12#!v#!
+
+

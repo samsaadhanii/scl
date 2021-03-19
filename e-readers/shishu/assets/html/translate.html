@@ -1,0 +1,141 @@
+<div class="modal-body " ng-controller="homeCtrl">
+	<div class="panel">
+		<div class="modal-title">
+			<h3 class="text-center">
+				<code> {{slokaText}}</code>
+			</h3>
+			<div class="col-md-12 col-lg-12 col-xs-12 col-sm-12" >
+		
+		<div class="col-md-12 helpBar " >
+		<div class="col-md-4">
+			<div class="col-md-4" uib-popover="I appeared on mouse enter!" popover-trigger="mouseenter">
+				<div class="n1 help"></div>
+				<div style="width: auto; font-size: 14px;">प्रथमा विभक्तिः</div>
+			</div>
+			<div class="col-md-4">
+				<div class="n2 help"></div>
+				<div style="width: auto; font-size: 14px;">द्वितीया विभक्तिः </div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="n3 help"></div>
+				<div style="width: auto; font-size: 14px;">तृतीया विभक्तिः</div>
+			</div>
+			<div class="col-md-4">
+				<div class="n4 help"></div>
+				<div style="width: auto; font-size: 14px;">चतुर्थी विभक्तिः </div>
+			</div>
+			<div class="col-md-4">
+				<div class="n5 help"></div>
+				<div style="width: auto; font-size: 14px;">पञ्चमी विभक्तिः </div>
+			</div>
+			<div class="col-md-4">
+				<div class="n6 help"></div>
+				<div style="width: auto; font-size: 14px;"> षष्ठी विभक्तिः</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			
+			<div class="col-md-7">
+				<div class="n7 help"></div>
+				<div style="width: auto; font-size: 14px;">सप्तमी विभक्तिः</div>
+			</div>
+			<div class="col-md-5">
+				<div class="v help"></div>
+				<div style="width: auto; font-size: 14px;">verb</div>
+			</div>
+			<!-- <div class="col-md-4">
+				<div class="i help"></div>
+				<div style="width: auto; font-size: 14px;">i</div>
+			</div> -->
+			
+			<div class="col-md-7">
+				<div class="n8 help"></div>
+				<div style="width: auto; font-size: 14px;">सम्बोधना प्रथमा विभक्तिः</div>
+			</div>
+			<div class="col-md-5">
+				<div class="NA help"></div>
+				<div style="width: auto; font-size: 14px;">NA</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="col-md-3"><input type="checkbox" ng-model="row1"  ng-init="row1=true" class="checkbox-primary" > पदपाठः (A)</div><div class="col-md-3"><input type="checkbox" ng-model="row2" class="checkbox-primary"> संस्कृतम्  (B)</div><div class="col-md-3"> <input type="checkbox" ng-model="row3" class="checkbox-primary"> विभक्तिः  (C)</div>
+			<div class="col-md-3"> <input type="checkbox" ng-model="row4" class="checkbox-primary"> शब्दविश्लेषणम्  (D)</div><div class="col-md-3"> <input type="checkbox" ng-model="row5" class="">हिन्दी-विभक्तिः  (E)</div><div class="col-md-3"> <input type="checkbox" ng-model="row6"  ng-init="row6=true" class="checkbox-primary">हिन्दी अर्थ(F)</div>
+			<div class="col-md-3"> <input type="checkbox" ng-model="row7"  ng-init="row7=true" class="checkbox-primary"> English Meaning(G)</div>
+			<div class="col-md-3"> <input type="checkbox" ng-model="row8"  ng-init="row8=true" class="checkbox-primary"> Samasa(H)</div>
+		</div>
+
+	</div>
+			
+		</div>
+		<div class="panel-body " ng-include src="fileName">
+			
+		
+			<form class="form-horizontal">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label class="col-sm-4 col-xs-4 control-label">Product_info_id</label>
+						<div class="col-xs-6"><input type="text" ng-model="rule.product_info_id"
+							class="form-control" /></div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-4 col-xs-4 control-label">Version</label>
+						<div class="col-xs-6"><input type="text" ng-model="rule.version"
+							class="form-control" /></div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-4 col-xs-4 control-label">Rule</label>
+						<div class="col-xs-6"><input type="text" ng-model="rule.rule"
+							class="form-control" /></div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-4 col-xs-4 control-label">Action Type</label>
+						<div class="col-xs-6"><input type="text" ng-model="rule.action_type"
+							class="form-control" /></div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-4 col-xs-4 control-label">Unit Action Id</label>
+						<div class="col-xs-6"><input type="text" ng-model="rule.unitAction_id"
+							class="form-control" /></div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-4 col-xs-4 control-label">Unit Action Type</label>
+						<div class="col-xs-6"><input type="text" ng-model="rule.unitAction_Type"
+							class="form-control" /></div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-4 col-xs-4 control-label">Feature Name</label>
+						<div class="col-xs-6"><input type="text" ng-model="rule.feature_Name"
+							class="form-control" /></div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-4 col-xs-4 control-label">To type</label>
+						<div class="col-xs-6"><input type="text" ng-model="rule.to_type"
+							class="form-control" /></div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-4 col-xs-4 control-label">To type setting</label>
+						<div class="col-xs-6"><input type="text" ng-model="rule.to_type_setting"
+							class="form-control" /></div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-4 col-xs-4 control-label">Message Code</label>
+						<div class="col-xs-6"><textarea rows="6" ng-model="rule.messageCode"
+								class="form-control"> </textarea></div>
+					</div>
+					<div class="form-group">
+						<label class="col-sm-4 col-xs-4 control-label">PLDS Release</label>
+						<div class="col-xs-6"><input type="text" ng-model="rule.pld_release"
+							class="form-control" /></div>
+					</div>
+
+				</div>
+			</form>
+		</div>
+
+	</div>
+
+</div>
+<div class="modal-footer">
+	<button class="btn btn-danger" ng-click="close()">Close</button>
+</div>

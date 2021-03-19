@@ -1,0 +1,196 @@
+row1#!number#!<a href="html/SV-IV/SV-19/19.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-19/19.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">19.A</a>#!html/SV-IV/SV-19/19.jpg#!row1#!n2#!आच्छादित-आयत-दिगम्बरम्
+row2#!number#!19.B</a>#!row2#!n2#!आच्छादित-आयत-दिगम्बरम् 
+row3#!number#!19.C</a>#!row3#!n2#!आच्छादित-आयत-दिगम्बर{पुं}{2;एक}/दिगम्बर{नपुं}{1;एक}/दिगम्बर{नपुं}{2;एक} 
+row4#!number#!19.D</a>#!row4#!n2#!<a (click)=showDic('आच्छादित')>आच्छादित</a>-<a (click)=showDic('आयत')>आयत</a>-<a (click)=showDic('दिगम्बर')>दिगम्बर</a>{पुं}{2;एक}
+row5#!number#!19.E</a>#!row5#!n2#!विशेषणम्,5
+row6#!number#!19.F</a>#!row6#!n2#!(i) विशाल दिशाओं तथा आकाश_को_आच्छादित_कर_स्थित (ii) दिग्रूप वस्त्र_से_शरीर_को_ढके_हुए_अर्थात् नग्नरूप_में_स्थित
+row7#!number#!19.G</a>#!row7#!n2#!(i) who has covered the vast quarters and the sky (ii) who is clad in an extensive garment in the form of space i.e. lord Śiva
+row8#!number#!19.H#!row8#!n2#!<a href="html/SV-IV/SV-19/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-19/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<आच्छादित-आयत>K3-<दिग्-अम्बरः>Di>Bs3</a>#!html/SV-IV/SV-19/samaasa1.jpg
+row9#!number#!19.I</a>#!row9#!n2#!
+row10#!number#!19.J</a>#!row10#!n2#!
+row11#!number#!19.K</a>#!row11#!n2#!
+row12#!number#!19.L</a>#!row12#!n2#!
+
+row1#!NA#!उच्चकैः
+row2#!NA#!उच्चकैः 
+row3#!NA#!उच्च-किम्{पुं}{3;बहु}/किम्{नपुं}{3;बहु} 
+row4#!NA#!<a (click)=showDic('उच्चकैः')>उच्चकैः</a>{अव्य}
+row5#!NA#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!NA#!ऊँचे
+row7#!NA#!high
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!गाम्
+row2#!n2#!गाम् 
+row3#!n2#!गो{पुं}{2;एक}/गो{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('गो')>गो</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,4</a>
+row6#!n2#!पृथ्वी_में 
+row7#!n2#!on the Earth
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!आक्रम्य
+row2#!NA#!आक्रम्य 
+row3#!NA#!आङ्_क्रम्1{कृत्_प्रत्ययः:ल्यप्;क्रमुँ;भ्वादिः} 
+row4#!NA#!<a (click)=showDic('आङ्_क्रम्1')>आङ्_क्रम्1</a>{कृत्_प्रत्ययः:ल्यप्;क्रमुँ;भ्वादिः} 
+row5#!NA#!<a href="javascript:show('पूर्वकालः,')">पूर्वकालः,5</a>
+row6#!NA#!व्याप्त_हो_कर
+row7#!NA#!having occupied
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!संस्थितम्
+row2#!n2#!संस्थितम् 
+row3#!n2#!संस्थित{पुं}{2;एक}/संस्थित{नपुं}{1;एक}/संस्थित{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('सम्_स्था1')>सम्_स्था1</a>{कृत्_प्रत्ययः:क्त;ष्ठा;भ्वादिः}{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,10</a>
+row6#!n2#!स्थित
+row7#!n2#!stands
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!उदग्र-विशाल-श्रृङ्गम्
+row2#!n2#!उदग्र-विशाल-श्रृङ्गम् 
+row3#!n2#!उदग्र-विशाल-श्रृङ्गम् 
+row4#!n2#!<a (click)=showDic('उदग्र')>उदग्र</a>-<a (click)=showDic('विशाल')>विशाल</a>-<a (click)=showDic('श्रृङ्ग')>श्रृङ्ग</a>{पुं}{2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,10</a>
+row6#!n2#!(i) बड़े-बड़े शिखरों_वाले (ii) बड़ी-बडी सींगोंवाले
+row7#!n2#!(i) whose peaks are lofty and extensive (ii) who is seated on a tall bullock having pointed and large horns
+row8#!n2#!<a href="html/SV-IV/SV-19/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-19/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><उदग्र-<विशाल-श्रृङ्गः>K1>Bs6</a>#!html/SV-IV/SV-19/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n7#!मूर्ध्नि
+row2#!n7#!मूर्ध्नि 
+row3#!n7#!मु-उर्ध्नि 
+row4#!n7#!<a (click)=showDic('मूर्ध्नि')>मूर्ध्नि</a>{पुं}{7;एक}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,11</a>
+row6#!n7#!(i) मस्तक_में (ii) शिखर_में
+row7#!n7#!on summit
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n2#!स्फुरत्-तुहिन-दीधिति-कोटिम्
+row2#!n2#!स्फुरत्-तुहिन-दीधिति-कोटिम् 
+row3#!n2#!स्फुरत्-तुहिन-दीधिति-कोटि{स्त्री}{2;एक}/कोटि{2;एक} 
+row4#!n2#!<a (click)=showDic('स्फुरत्')>स्फुरत्</a>-<a (click)=showDic('तुहिन')>तुहिन</a>-<a (click)=showDic('दीधितिकोटि')>दीधितिकोटि</a>{पुं}{2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,10</a>
+row6#!n2#!चमकते_हुए_चन्द्रप्रान्त_वाले
+row7#!n2#!(i) one who has the bright rays of the moon (ii) one who has on his head the shining digit of the moon
+row8#!n2#!<a href="html/SV-IV/SV-19/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-19/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><स्फुरत्<तुहिन-दीधिति>Bs6-कोटिः>Bs6</a>#!html/SV-IV/SV-19/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!एनं
+row2#!n2#!एनं 
+row3#!n2#!इदम्{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('इदम्')>इदम्</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,10</a>
+row6#!n2#!इसको 
+row7#!n2#!this
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!नगेशम्
+row2#!n2#!नगेशम् 
+row3#!n2#!नगेश{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('नगेश')>नगेश</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,11</a>
+row6#!n2#!(i) पर्वतराज रैवतक_को (ii) शिव_को
+row7#!n2#!(i) Raivataka best of mountains (ii)  lord Śiva
+row8#!n2#!<a href="html/SV-IV/SV-19/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-19/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><नग-ईशः>T6</a>#!html/SV-IV/SV-19/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!उद्वीक्ष्य
+row2#!NA#!उद्वीक्ष्य 
+row3#!NA#!उत्_वि_ईक्ष्1{कृत्_प्रत्ययः:ल्यप्;ईक्षँ;भ्वादिः} 
+row4#!NA#!<a (click)=showDic('उत्_वि_ईक्ष्1')>उत्_वि_ईक्ष्1</a>{कृत्_प्रत्ययः:ल्यप्;ईक्षँ;भ्वादिः} 
+row5#!NA#!<a href="javascript:show('पूर्वकालः,')">पूर्वकालः,15</a>
+row6#!NA#!देख_कर
+row7#!NA#!having seen
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n7#!भुवि
+row2#!n7#!भुवि 
+row3#!n7#!भू{स्त्री}{7;एक} 
+row4#!n7#!<a (click)=showDic('भू')>भू</a>{स्त्री}{7;एक} 
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,15</a>
+row6#!n7#!पृथ्वी_में
+row7#!n7#!on this Earth
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n1#!कः
+row2#!n1#!कः 
+row3#!n1#!किम्{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('किम्')>किम्</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,15</a>
+row6#!n1#!कौन
+row7#!n1#!who
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!न
+row2#!NA#!न 
+row3#!NA#!न{अव्य}
+row4#!NA#!<a (click)=showDic('न')>न</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,15</a>
+row6#!NA#!नहीं
+row7#!NA#!will not be
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!विस्मयते.
+row2#!v#!विस्मयते 
+row3#!v#!वि_स्मि1{कर्तरि;लट्;प्र;एक;आत्मनेपदी;ष्मिङ्;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('वि_स्मि1')>वि_स्मि1</a>{कर्तरि;लट्;प्र;एक;आत्मनेपदी;ष्मिङ्;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!आश्चर्य_करता_है?
+row7#!v#!filled with wonder?
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!वसन्ततिलका ।
+row11#!v#!अर्थान्तरन्यासः ।
+row12#!v#!
+
+

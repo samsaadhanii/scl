@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-IX/SV-18/18.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-18/18.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">18.A</a>#!html/SV-IX/SV-18/18.jpg#!row1#!n7#!पतङ्गमृग-राजि
+row2#!number#!18.B</a>#!row2#!n7#!पतङ्गमृग-राजि
+row3#!number#!18.C</a>#!row3#!n7#!पतङ्गमृग-राजी{;स्त्री;8;एक}/राजि{;नपुं;1;एक}/राजि{;नपुं;2;एक}/राजि{;नपुं;8;एक}
+row4#!number#!18.D</a>#!row4#!n7#!<a (click)=showDic('पतङ्गमृग')>पतङ्गमृग</a>-<a (click)=showDic('राट्')>राट्</a>{;पुं;7;एक}
+row5#!number#!18.E</a>#!row5#!n7#!कर्ता,5
+row6#!number#!18.F</a>#!row6#!n7#!सूर्यरूपी सिंह के
+row7#!number#!18.G</a>#!row7#!n7#!The Sun in the form of a lion
+row8#!number#!18.H#!row8#!n7#!<a href="html/SV-IX/SV-18/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-18/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><पतङ्ग-<मृग-राट्>T6>K6</a>#!html/SV-IX/SV-18/samaasa1.jpg
+row9#!number#!18.I</a>#!row9#!n7#!
+row10#!number#!18.J</a>#!row10#!n7#!
+row11#!number#!18.K</a>#!row11#!n7#!
+row12#!number#!18.L</a>#!row12#!n7#!
+
+row1#!n1#!निजप्रतिबिम्ब-रोषितः
+row2#!n1#!निजप्रतिबिम्ब-रोषितः
+row3#!n1#!निजप्रतिबिम्ब-रोषित{;पुं;1;एक}/रोषितृ{;पुं;8;एक}/रोषितृ{;नपुं;8;एक}
+row4#!n1#!<a (click)=showDic('निजप्रतिबिम्ब')>निजप्रतिबिम्ब</a>-<a (click)=showDic('रुष्1')>रुष्1</a>{तृच्;रुषँ;भ्वादिःपुं;1;एक}
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,3</a>
+row6#!n1#!अपने प्रतिबिम्ब (को देखकर) क्रुद्ध हुए
+row7#!n1#!having got angry on seeing its reflection
+row8#!n1#!<a href="html/SV-IX/SV-18/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-18/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<निज-प्रतिबिम्ब>T6-रोषितः>T3</a>#!html/SV-IX/SV-18/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इव
+row2#!NA#!इव
+row3#!NA#!इव{अव्य}
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,1</a>
+row6#!NA#!मानो
+row7#!NA#!as if
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n7#!अम्बु-निधौ
+row2#!n7#!अम्बु-निधौ
+row3#!n7#!अम्बु-निधि{;पुं;7;एक}
+row4#!n7#!<a (click)=showDic('अम्बु')>अम्बु</a>-<a (click)=showDic('निधि')>निधि</a>{;पुं;7;एक}
+row5#!n7#!<a href="javascript:show('देशाधिकरणम्,')">देशाधिकरणम्,5</a>
+row6#!n7#!समुद्र_में
+row7#!n7#!in the Ocean
+row8#!n7#!<a href="html/SV-IX/SV-18/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-18/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अम्बु-निधिः>T6</a>#!html/SV-IX/SV-18/samaasa3.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!पतिते
+row2#!n7#!पतिते
+row3#!n7#!पतित{;नपुं;1;द्वि}/पतित{;नपुं;2;द्वि}/पतित{;नपुं;8;द्वि}/पतित{;पुं;7;एक}/पतित{;नपुं;7;एक}/पतिता{;स्त्री;8;एक}/पतिता{;स्त्री;8;द्वि}
+row4#!n7#!<a (click)=showDic('पत्1')>पत्1</a>{क्त;पतॢँ;भ्वादिः;पुं;7;एक}
+row5#!n7#!<a href="javascript:show('भावलक्षणसप्तमी,')">भावलक्षणसप्तमी,12</a>
+row6#!n7#!कूदने
+row7#!n7#!jumped
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!(सति)
+row2#!n7#!सति
+row3#!n7#!सती{;स्त्री;8;एक}/सत्{;पुं;7;एक}/सत्{;स्त्री;7;एक}/सत्{;नपुं;7;एक}
+row4#!n7#!<a (click)=showDic('अस्2')>अस्2</a>{शतृ_लट्;असँ;अदादिः;पुं;7;एक}
+row5#!n7#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,5</a>
+row6#!n7#!पर
+row7#!n7#!while
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!NA#!अथ
+row2#!NA#!अथ
+row3#!NA#!अथ{अव्य}
+row4#!NA#!<a (click)=showDic('अथ')>अथ</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,12</a>
+row6#!NA#!और
+row7#!NA#!and
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!नागयूथ-मलिनानि
+row2#!n1#!नागयूथ-मलिनानि
+row3#!n1#!नागयूथ-मलिन{;नपुं;1;बहु}/मलिन{;नपुं;2;बहु}/मलिन{;नपुं;8;बहु}
+row4#!n1#!<a (click)=showDic('नागयूथ')>नागयूथ</a>-<a (click)=showDic('मलिन')>मलिन</a>{;नपुं;1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n1#!गजसमूह के सदृश
+row7#!n1#!in the form of herd of elephants
+row8#!n1#!<a href="html/SV-IX/SV-18/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-18/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<नग-यूथ>T6-मलिनम्>K4</a>#!html/SV-IX/SV-18/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!'उपमानानि सामान्यवचनैः' (2।1।55) इति समासः ।
+
+row1#!n1#!तमांसि
+row2#!n1#!तमांसि
+row3#!n1#!तमस्{;नपुं;1;बहु}/तमस्{;नपुं;2;बहु}/तमस्{;नपुं;8;बहु}
+row4#!n1#!<a (click)=showDic('तमस्')>तमस्</a>{;नपुं;1;बहु}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,12</a>
+row6#!n1#!अन्धकार
+row7#!n1#!the darkness
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!जगत्
+row2#!n2#!जगत्
+row3#!n2#!जगत्{;पुं;1;एक}/जगत्{;पुं;8;एक}/जगत्{;नपुं;1;एक}/जगत्{;नपुं;2;एक}/जगत्{;नपुं;8;एक}
+row4#!n2#!<a (click)=showDic('जगत्')>जगत्</a>{;नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('उपपदविभक्तिः,')">उपपदविभक्तिः,11</a>
+row6#!n2#!जगत्_को
+row7#!n2#!the world
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!परितः
+row2#!NA#!परितः
+row3#!NA#!परितः{अव्य}/परितृ{;पुं;8;एक}/परितृ{;नपुं;8;एक}
+row4#!NA#!<a (click)=showDic('परितः')>परितः</a>{अव्य}
+row5#!NA#!<a href="javascript:show('उपपदसम्बन्धः,')">उपपदसम्बन्धः,12</a>
+row6#!NA#!चारों_ओर_से
+row7#!NA#!from all over
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!परि-तस्तरिरे
+row2#!v#!परि-तस्तरिरे
+row3#!v#!परि-स्तृ1{कर्तरि;लिट्;प्र;बहु;आत्मनेपदी;स्तृञ्;स्वादिः}/स्तॄ1{कर्तरि;लिट्;प्र;बहु;आत्मनेपदी;स्तॄञ्;क्र्यादिः}
+row4#!v#!<a (click)=showDic('परि')>परि</a>-<a (click)=showDic('स्तृ1')>स्तृ1</a>{कर्तरि;लिट्;प्र;बहु;आत्मनेपदी;स्तृञ्;स्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!आच्छादित_किया.
+row7#!v#!surrounded.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!प्रमिताक्षरा ।
+row11#!v#!रूपकम् + उत्प्रेक्षा + उपमा = सङ्करः ।
+row12#!v#!स्तृणातेः कर्तरि लिट् ।'ऋतश्च संयोगादेर्गुणः (7।4।10) ।
+
+

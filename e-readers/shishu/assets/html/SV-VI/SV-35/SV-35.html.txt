@@ -1,0 +1,79 @@
+row1#!number#!<a href="html/SV-VI/SV-35/35.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-35/35.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">35.A</a>#!html/SV-VI/SV-35/35.jpg#!row1#!n1#!दलितमौक्तिकचूर्ण-विपाण्डवः
+row2#!number#!35.B</a>#!row2#!n1#!दलितमौक्तिकचूर्ण-विपाण्डवः
+row3#!number#!35.C</a>#!row3#!n1#!दलितमौक्तिकचूर्ण-विपाण्डु{पुं;1;बहु}/विपाण्डु{पुं;8;बहु}
+row4#!number#!35.D</a>#!row4#!n1#!<a (click)=showDic('दलितमौक्तिकचूर्ण')>दलितमौक्तिकचूर्ण</a>-<a (click)=showDic('विपाण्डु')>विपाण्डु</a>{पुं;1;बहु}
+row5#!number#!35.E</a>#!row5#!n1#!विशेषणम्,3
+row6#!number#!35.F</a>#!row6#!n1#!पीसे गये मोती के चूर्ण के समान अत्यन्त श्वेत वर्ण
+row7#!number#!35.G</a>#!row7#!n1#!in dazzling white resembling powder of grounded pearls
+row8#!number#!35.H#!row8#!n1#!<a href="html/SV-VI/SV-35/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-35/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<दलित-मौक्तिक>K3-चूर्ण>T6-विपाण्डुः>K4</a>#!html/SV-VI/SV-35/samaasa1.jpg
+row9#!number#!35.I</a>#!row9#!n1#!
+row10#!number#!35.J</a>#!row10#!n1#!
+row11#!number#!35.K</a>#!row11#!n1#!
+row12#!number#!35.L</a>#!row12#!n1#!
+
+row1#!n1#!स्फुरितनिर्झरशीकर-चारवः
+row2#!n1#!स्फुरितनिर्झरशीकर-चारवः
+row3#!n1#!स्फुरितनिर्झरशीकर-चारु{पुं;1;बहु}/चारु{पुं;1;बहु}
+row4#!n1#!<a (click)=showDic('स्फुरितनिर्झरशीकर')>स्फुरितनिर्झरशीकर</a>-<a (click)=showDic('चारु')>चारु</a>{पुं;1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n1#!स्फुरित होते हुए झरनों के सूक्ष्म जलकणों के समान मनोहर
+row7#!n1#!was splendorous like flashing and minute water droplets
+row8#!n1#!<a href="html/SV-VI/SV-35/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-35/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<स्फुरित-<निर्झर-शीकर>T6>K3-चारुः>K4</a>#!html/SV-VI/SV-35/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!कुटजपुष्पपराग-कणाः
+row2#!n1#!कुटजपुष्पपराग-कणाः
+row3#!n1#!कुटजपुष्पपराग-कण{पुं;1;बहु}/कण{पुं;8;बहु}
+row4#!n1#!<a (click)=showDic('कुटजपुष्पपराग')>कुटजपुष्पपराग</a>-<a (click)=showDic('कण')>कण</a>{पुं;1;बहु}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,6</a>
+row6#!n1#!इन्द्रजौ के फूलों के परागकण
+row7#!n1#!beautiful pollen-dust of a flower called 'Kutaja' i.e. 'coral-swirl'
+row8#!n1#!<a href="html/SV-VI/SV-35/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-35/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<कुटज-पुष्प>T6-पराग>T6-कणः>T6</a>#!html/SV-VI/SV-35/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!स्फुटं
+row2#!NA#!स्फुटं
+row3#!NA#!स्फुट{पुं;2;एक}
+row4#!NA#!<a (click)=showDic('स्फुट')>स्फुट</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,6</a>
+row6#!NA#!स्पष्ट
+row7#!NA#!clearly
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!दधिरेणु-विडम्बनां
+row2#!n2#!दधिरेणु-विडम्बनां
+row3#!n2#!दधिरेणु-विडम्बना{स्त्री;2;एक}/विडम्बना{स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('दधिरेणु')>दधिरेणु</a>-<a (click)=showDic('विडम्बना')>विडम्बना</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,6</a>
+row6#!n2#!दही के चूर्ण के समान
+row7#!n2#!like curds
+row8#!n2#!<a href="html/SV-VI/SV-35/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-35/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<दधि-रेणु>T6-विडम्बना>T6</a>#!html/SV-VI/SV-35/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!विदधिरे
+row2#!v#!विदधिरे
+row3#!v#!वि_धा1{कर्तरि;लिट्;प्र;बहु;उभयपदी;डुधाञ्;जुहोत्यादिः}/वि_धा1{कर्मणि;लिट्;प्र;बहु;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}/वि_धे1{कर्मणि;लिट्;प्र;बहु;आत्मनेपदी;धेट्;भ्वादिः}
+row4#!v#!<a (click)=showDic('वि_धा1')>वि_धा1</a>{कर्तरि;लिट्;प्र;बहु;उभयपदी;डुधाञ्;जुहोत्यादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!शोभते_थे.
+row7#!v#!shone.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!उपमा + यमकम् = सङ्करः ।
+row12#!v#!
+
+

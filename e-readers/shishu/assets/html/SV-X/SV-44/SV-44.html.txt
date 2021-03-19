@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-X/SV-44/44.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-44/44.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">44.A</a>#!html/SV-X/SV-44/44.jpg#!row1#!n7#!तरुणेषु
+row2#!number#!44.B</a>#!row2#!n7#!तरुणेषु
+row3#!number#!44.C</a>#!row3#!n7#!तरुण{;पुं;7;बहु}/तरुण{;नपुं;7;बहु}
+row4#!number#!44.D</a>#!row4#!n7#!<a (click)=showDic('तरुण')>तरुण</a>{;पुं;7;बहु}
+row5#!number#!44.E</a>#!row5#!n7#!कर्ता,5
+row6#!number#!44.F</a>#!row6#!n7#!युवकों_के
+row7#!number#!44.G</a>#!row7#!n7#!Of young men
+row8#!number#!44.H#!row8#!n7#!
+row9#!number#!44.I</a>#!row9#!n7#!
+row10#!number#!44.J</a>#!row10#!n7#!
+row11#!number#!44.K</a>#!row11#!n7#!
+row12#!number#!44.L</a>#!row12#!n7#!
+
+row1#!n2#!विरोधं
+row2#!n2#!विरोधं
+row3#!n2#!{अव्य;णमुल्;रुधिँर्;रुधादिः}/विरोध{;पुं;2;एक}
+row4#!n2#!<a (click)=showDic('विरोध')>विरोध</a>{;पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,3</a>
+row6#!n2#!विरोध_को
+row7#!n2#!quarrelsomeness
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NS#!विरहय्य
+row2#!NS#!विरहय्य
+row3#!NS#!विरहय्य}
+row4#!NS#!<a (click)=showDic('विरहय्य}')>विरहय्य}</a>
+row5#!NS#!<a href="javascript:show('पूर्वकाल,')">पूर्वकाल,12</a>
+row6#!NS#!छोड़कर
+row7#!NS#!having left
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!रहयतेः स्वार्थण्यन्तात् क्त्वा तस्य ल्यप् ‘ल्यपि लघुपूर्वात्’ (6।4।56) इत्ययादेशः ।
+
+row1#!NA#!सहसा
+row2#!NA#!सहसा
+row3#!NA#!सहसा{अव्य}/सहस्{;पुं;3;एक}/सहस्{;नपुं;3;एक}/सहसा{;स्त्री;1;एक}
+row4#!NA#!<a (click)=showDic('सहसा')>सहसा</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,5</a>
+row6#!NA#!अचानक
+row7#!NA#!suddenly
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n7#!परिरब्ध-प्रेयसीषु
+row2#!n7#!परिरब्ध-प्रेयसीषु
+row3#!n7#!परिरब्ध-प्रेयसी{;स्त्री;7;बहु}
+row4#!n7#!<a (click)=showDic('परिरब्ध')>परिरब्ध</a>-<a (click)=showDic('प्रेयसी')>प्रेयसी</a>{;पुं;7;बहु}
+row5#!n7#!<a href="javascript:show('भावलक्षणसप्तमी,')">भावलक्षणसप्तमी,12</a>
+row6#!n7#!प्रेयसियों का आलिङ्गन किये जाने
+row7#!n7#!embraced their beloved
+row8#!n7#!<a href="html/SV-X/SV-44/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-44/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><परिरब्ध-प्रेयसी>Bs3</a>#!html/SV-X/SV-44/samaasa1.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!‘ईयसश्च (5।4।155) इति कपोऽभावः ।‘ईयसो बहुव्रीहौ प्रतिषेधो वक्तव्यः’ (वा०) इत्युपसर्जनस्य ह्रस्वनिषेधः ।
+
+row1#!n7#!(सत्सु)
+row2#!n7#!सत्सु
+row3#!n7#!सत्{;पुं;7;बहु(;शतृ_लट्;असँ;अदादिः)}/सत्{;नपुं;7;बहु(;शतृ_लट्;असँ;अदादिः)}
+row4#!n7#!<a (click)=showDic('सत्')>सत्</a>{;पुं;7;बहु(अस्2;शतृ_लट्;असँ;अदादिः)}
+row5#!n7#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,5</a>
+row6#!n7#!पर
+row7#!n7#!when
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n1#!रतिपतिः
+row2#!n1#!रतिपतिः
+row3#!n1#!रतिपति{;पुं;1;एक}
+row4#!n1#!<a (click)=showDic('रतिपति')>रतिपति</a>{;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,12</a>
+row6#!n1#!कामदेव
+row7#!n1#!the cupid
+row8#!n1#!<a href="html/SV-X/SV-44/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-44/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><रति-पतिः>T6</a>#!html/SV-X/SV-44/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!संहितं
+row2#!n2#!संहितं
+row3#!n2#!संहित{;पुं;2;एक(;क्त;डुधाञ्;जुहोत्यादिः)}/संहित{;नपुं;1;एक(;क्त;डुधाञ्;जुहोत्यादिः)}/संहित{;नपुं;2;एक(;क्त;डुधाञ्;जुहोत्यादिः)}
+row4#!n2#!<a (click)=showDic('संहित')>संहित</a>{;पुं;2;एक(धा1;क्त;डुधाञ्;जुहोत्यादिः)}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n2#!स्मितपूर्वक
+row7#!n2#!with a natural smile
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!महा-इषुं
+row2#!n2#!महा-इषुं
+row3#!n2#!महा-इषु{;पुं;2;एक}
+row4#!n2#!<a (click)=showDic('महा')>महा</a>-<a (click)=showDic('इषु')>इषु</a>{;पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,12</a>
+row6#!n2#!महान बाण को
+row7#!n2#!great arrow
+row8#!n2#!<a href="html/SV-X/SV-44/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-44/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><महा-इषुः>K3</a>#!html/SV-X/SV-44/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!स्मितभिन्न-क्रोधम्
+row2#!n2#!स्मितभिन्न-क्रोधम्
+row3#!n2#!स्मितभिन्न-क्रोध{;पुं;2;एक}/क्रोध{;नपुं;1;एक}/क्रोध{;नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('स्मितभिन्न')>स्मितभिन्न</a>-<a (click)=showDic('क्रोध')>क्रोध</a>{;नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,12</a>
+row6#!n2#!क्रोध को दूर करते हुए
+row7#!n2#!dissipated his anger
+row8#!n2#!<a href="html/SV-X/SV-44/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-44/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<स्मित-भिन्न>T3-क्रोधम्>Bs6</a>#!html/SV-X/SV-44/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!आशु
+row2#!n2#!आशु
+row3#!n2#!आशु{;नपुं;1;एक}/आशु{;नपुं;2;एक}/आशु{;नपुं;8;एक}
+row4#!n2#!<a (click)=showDic('आशु')>आशु</a>{;नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,12</a>
+row6#!n2#!शीघ्र_ही
+row7#!n2#!immediately
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!सञ्जहार
+row2#!v#!सञ्जहार
+row3#!v#!सम्_हृ1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;हृञ्;भ्वादिः}/सम्_हृ1{कर्तरि;लिट्;उ;एक;परस्मैपदी;हृञ्;भ्वादिः}/सम्_हृ2{कर्तरि;लिट्;प्र;एक;परस्मैपदी;हृ;जुहोत्यादिः}/सम्_हृ2{कर्तरि;लिट्;उ;एक;परस्मैपदी;हृ;जुहोत्यादिः}
+row4#!v#!<a (click)=showDic('सम्_हृ2')>सम्_हृ2</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;हृ;जुहोत्यादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!उतार लिया
+row7#!v#!withdrew
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!स्वागता ।
+row11#!v#!-
+row12#!v#!
+
+

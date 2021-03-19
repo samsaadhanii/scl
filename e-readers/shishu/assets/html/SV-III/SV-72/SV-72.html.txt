@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-III/SV-72/72.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-72/72.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">72.A</a>#!html/SV-III/SV-72/72.jpg#!row1#!n1#!असौ
+row2#!number#!72.B</a>#!row2#!n1#!असौ 
+row3#!number#!72.C</a>#!row3#!n1#!अदस्{पुं}{1;एक}/अदस्{स्त्री}{1;एक}/असि{पुं}{7;एक}/असि{स्त्री}{7;एक}/असु{पुं}{7;एक} 
+row4#!number#!72.D</a>#!row4#!n1#!<a (click)=showDic('अदस्')>अदस्</a>{पुं}{1;एक} 
+row5#!number#!72.E</a>#!row5#!n1#!कर्ता,10
+row6#!number#!72.F</a>#!row6#!n1#!इस श्रीकृष्ण भगवान_ने
+row7#!number#!72.G</a>#!row7#!n1#!He
+row8#!number#!72.H#!row8#!n1#!
+row9#!number#!72.I</a>#!row9#!n1#!
+row10#!number#!72.J</a>#!row10#!n1#!
+row11#!number#!72.K</a>#!row11#!n1#!
+row12#!number#!72.L</a>#!row12#!n1#!
+
+row1#!n2#!आश्लिष्ट-भूमिम्
+row2#!n2#!आश्लिष्ट-भूमिम् 
+row3#!n2#!आश्लिष्ट-भूमि{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('आश्लिष्ट')>आश्लिष्ट</a>-<a (click)=showDic('भूमि')>भूमि</a>{पुं}{2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n2#!भूमि_का_आलिङ्गन_किये_हुए
+row7#!n2#!who touched the land
+row8#!n2#!<a href="html/SV-III/SV-72/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-72/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><आश्लिष्ट-भूमिः>Bs3</a>#!html/SV-III/SV-72/samaasa1.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!उच्चैः
+row2#!NA#!उच्चैः 
+row3#!NA#!उच्चैः{अव्य}/उच्च{पुं}{3;बहु}/उच्च{नपुं}{3;बहु} 
+row4#!NA#!<a (click)=showDic('उच्चैः')>उच्चैः</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!NA#!उच्च
+row7#!NA#!loudly
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!रसितारं
+row2#!n2#!रसितारं 
+row3#!n2#!रसितृ{पुं}{2;एक}
+row4#!n2#!<a (click)=showDic('रसितृ')>रसितृ</a>{पुं}{2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n2#!ध्वनि_करते_हुए
+row7#!n2#!while roaring
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!लोलद्-भुज-आकार-बृहत्-तरङ्गं
+row2#!n2#!लोलद्-भुज-आकार-बृहत्-तरङ्गं 
+row3#!n2#!लोलद्-भुज-आकार-बृहत्-तरङ्ग{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('लोलद्')>लोलद्</a>-<a (click)=showDic('भुज')>भुज</a>-<a (click)=showDic('आकार')>आकार</a>-<a (click)=showDic('बृहत्')>बृहत्</a>-<a (click)=showDic('तरङ्ग')>तरङ्ग</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,6</a>
+row6#!n2#!चंचल बाहु_के_समान_विशाल तरंगोंवाले
+row7#!n2#!whose high waves had the appearance of trembling hands
+row8#!n2#!<a href="html/SV-III/SV-72/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-72/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<लोलद्-भुज>K1-आकार>Bs6-बृहत्तरङ्गः>K2</a>#!html/SV-III/SV-72/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!फेनायमानम्
+row2#!n2#!फेनायमानम् 
+row3#!n2#!फेनायमानम् 
+row4#!n2#!<a (click)=showDic('फेन_क्यङ्')>फेन_क्यङ्</a>{कृत्_प्रत्ययः:शानच्;फेनाय;पुं}{2;एक}
+row5#!n2#!<a href="javascript:show('समानकालः,')">समानकालः,10</a>
+row6#!n2#!फेनयुक्त
+row7#!n2#!who threw out foam
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!‘फेनाच्चेति वक्तव्यम्’ (वा) इति क्यङ्' । अपां समूह आपम् ‘तस्य समूहः’ (4।2।37) इत्यण् ।
+
+row1#!n6#!आपगानां
+row2#!n6#!आपगानां 
+row3#!n6#!आपगा{स्त्री}{6;बहु} 
+row4#!n6#!<a (click)=showDic('आपगा')>आपगा</a>{स्त्री}{6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,8</a>
+row6#!n6#!नदी_के
+row7#!n6#!of rivers
+row8#!n6#!<a href="html/SV-III/SV-72/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-72/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><आप-गा>U</a>#!html/SV-III/SV-72/samaasa3.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!पतिम्
+row2#!n2#!पतिम् 
+row3#!n2#!पति{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('पति')>पति</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n2#!पति (समुद्र_को)
+row7#!n2#!husband (the ocean)
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!अपस्मारिणम्
+row2#!n2#!अपस्मारिणम् 
+row3#!n2#!अपस्मारिन्{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('अपस्मारिन्')>अपस्मारिन्</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n2#!मिर्गी_का_रोगी
+row7#!n2#!a person suffering from epilepsy
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!आशशङ्के.
+row2#!v#!आशशङ्के
+row3#!v#!आ_शङ्क्1{कर्मणि;लिट्;उ;एक;आत्मनेपदी;शकिँ;भ्वादिः}/आ_शङ्क्1{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;शकिँ;भ्वादिः}/आङ्_शङ्क्1{कर्तरि;लिट्;उ;एक;आत्मनेपदी;शकिँ;भ्वादिः}/आङ्_शङ्क्1{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;शकिँ;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('आङ्_शङ्क्1')>आङ्_शङ्क्1</a>{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;शकिँ;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!समझा.
+row7#!v#!suspected.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!उपजाति ।
+row11#!v#!उत्प्रेक्षा ।
+row12#!v#!
+
+

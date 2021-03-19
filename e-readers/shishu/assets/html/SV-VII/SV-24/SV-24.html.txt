@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-VII/SV-24/24.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-24/24.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">24.A</a>#!html/SV-VII/SV-24/24.jpg#!row1#!n3#!ताभिः
+row2#!number#!24.B</a>#!row2#!n3#!ताभिः
+row3#!number#!24.C</a>#!row3#!n3#!तद्{स्त्री;3;बहु}
+row4#!number#!24.D</a>#!row4#!n3#!<a (click)=showDic('तद्')>तद्</a>{स्त्री;3;बहु}
+row5#!number#!24.E</a>#!row5#!n3#!कर्ता,8
+row6#!number#!24.F</a>#!row6#!n3#!उन_यादवाङ्गनाओं_के_द्वारा
+row7#!number#!24.G</a>#!row7#!n3#!By women of Yādava clan
+row8#!number#!24.H#!row8#!n3#!
+row9#!number#!24.I</a>#!row9#!n3#!
+row10#!number#!24.J</a>#!row10#!n3#!
+row11#!number#!24.K</a>#!row11#!n3#!
+row12#!number#!24.L</a>#!row12#!n3#!
+
+row1#!NA#!अनु-नदि
+row2#!NA#!अनु-नदि
+row3#!NA#!अनु-नदी{स्त्री;8;एक}
+row4#!NA#!<a (click)=showDic('अनु')>अनु</a>-<a (click)=showDic('नदी')>नदी</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,8</a>
+row6#!NA#!नदी_के_समीप
+row7#!NA#!nearby the rivers
+row8#!NA#!<a href="html/SV-VII/SV-24/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-24/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अनु-नदी>A1</a>#!html/SV-VII/SV-24/samaasa1.jpg
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!समीपार्थेऽव्ययीभावः । 'अव्ययीभावश्च' (2।4।18) इति नपुंसकत्वे ह्रस्वत्वम् ।
+
+row1#!n2#!जनतामनःशरव्यव्यधपटुमन्मथचापनाद-शङ्कां
+row2#!n2#!जनतामनःशरव्यव्यधपटुमन्मथचापनाद-शङ्कां
+row3#!n2#!जनतामनःशरव्यव्यधपटुमन्मथचापनाद-शङ्का{स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('जनतामनःशरव्यव्यधपटुमन्मथचापनाद')>जनतामनःशरव्यव्यधपटुमन्मथचापनाद</a>-<a (click)=showDic('शङ्का')>शङ्का</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,4</a>
+row6#!n2#!जनता के (जनसमुदाय के) मनरूप लक्ष्य को बेधने में पटु कामदेव के धनुष-टङ्कार के सन्देह को
+row7#!n2#!that resembled the twang of bow of Cupid that is able to transpierce the mind of people
+row8#!n2#!<a href="html/SV-VII/SV-24/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-24/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<<जनता-मन>T6-शरव्य>K6-व्यध>T6-पटु>T7-<मन्मथ-चापनाद>T6>K1-शङ्का>T6</a>#!html/SV-VII/SV-24/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!'ग्रामजन-' (4।2।23) इत्यादिना सामूहिकस्तल्प्रत्ययः । 'व्यधजपोरनुपसर्गे' (2।3।61) इत्यप्प्रत्ययः ।
+
+row1#!n1#!विदधति
+row2#!n1#!विदधति
+row3#!n1#!वि_धा1{कर्तरि;लट्;प्र;बहु;उभयपदी;डुधाञ्;जुहोत्यादिः}/विदधती{स्त्री;8;एक}
+row4#!n1#!<a (click)=showDic('वि_धा1')>वि_धा1</a>{शतृ_लट्;डुधाञ्;जुहोत्यादिः;नपुं;1;बहु}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,8</a>
+row6#!n1#!करते_हुए
+row7#!n1#!while ringing
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!'वा नपुंसकस्य' (7।1।79) इति वैकल्पिको नुम्प्रतिषेधः ।
+
+row1#!n1#!श्रुतिपथ-मधुराणि
+row2#!n1#!श्रुतिपथ-मधुराणि
+row3#!n1#!श्रुतिपथ-मधुर{नपुं;1;बहु}/मधुर{नपुं;2;बहु}/मधुर{नपुं;8;बहु}
+row4#!n1#!<a (click)=showDic('श्रुतिपथ')>श्रुतिपथ</a>-<a (click)=showDic('मधुर')>मधुर</a>{नपुं;1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!कर्णमधुर ध्वनित_करते_हुए
+row7#!n1#!melodious sound to ears
+row8#!n1#!<a href="html/SV-VII/SV-24/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-24/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><श्रृतिपथ-मधुरम्>T7</a>#!html/SV-VII/SV-24/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!सारसानां
+row2#!n6#!सारसानां
+row3#!n6#!सारस{पुं;6;बहु}/सारस{नपुं;6;बहु}/सारसा{स्त्री;6;बहु}
+row4#!n6#!<a (click)=showDic('सारस')>सारस</a>{पुं;6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,7</a>
+row6#!n6#!सारस पक्षियों_के
+row7#!n6#!of stork birds
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!रुतानि
+row2#!n1#!रुतानि
+row3#!n1#!रुत{नपुं;1;बहु}/रुत{नपुं;2;बहु}/रुत{नपुं;8;बहु}
+row4#!n1#!<a (click)=showDic('रुत')>रुत</a>{नपुं;1;बहु}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n1#!शब्दों_को
+row7#!n1#!sound
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!शुश्रुविरे
+row2#!v#!शुश्रुविरे
+row3#!v#!श्रु1{कर्मणि;लिट्;प्र;बहु;आत्मनेपदी;श्रु;भ्वादिः}
+row4#!v#!<a (click)=showDic('श्रु1')>श्रु1</a>{कर्मणि;लिट्;प्र;बहु;आत्मनेपदी;श्रु;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!सुनाया_गया.
+row7#!v#!was heard.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!पुष्पिताग्रा ।
+row11#!v#!भ्रान्तिमत् ।
+row12#!v#!
+
+

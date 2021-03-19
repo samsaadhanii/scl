@@ -1,0 +1,91 @@
+row1#!number#!<a href="html/SV-II/SV-1/1.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-1/1.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">1.A!#row1#!NA#!अथ
+row2#!number#!1.B!#row2#!NA#!अथ 
+row3#!number#!1.C!#row3#!NA#!अथ{अव्य}/अथ{अव्य} 
+row4#!number#!1.D!#row4#!NA#!अथ{अव्य} 
+row5#!number#!1.E!#row5#!NA#!सम्बन्धः,10
+row6#!number#!1.F!#row6#!NA#!उसके बाद
+row7#!number#!1.G!#row7#!NA#!Thereafter
+row8#!number#!1.H!#row8#!NA#!
+
+row1#!n3#!यियक्षमाणेन
+row2#!n3#!यियक्षमाणेन 
+row3#!n3#!यियक्षमाण{पुं}{3;एक}/यियक्षमाण{नपुं}{3;एक} 
+row4#!n3#!यज्1{कृत्_प्रत्ययः:शानच्;यजँ;भ्वादिः;पुं.}{3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3
+row6#!n3#!यज्ञ_करने_के_इच्छुक
+row7#!n3#!desirous of performing sacrifice
+row8#!n3#!-
+
+row1#!n3#!पार्थेन
+row2#!n3#!पार्थेन 
+row3#!n3#!पार्थ{पुं}{3;एक} 
+row4#!n3#!पार्थ{पुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,4
+row6#!n3#!युधिष्ठिर_के_द्वारा
+row7#!n3#!by yudhiṣṭhira
+row8#!n3#!-
+
+row1#!n1#!आहूतः
+row2#!n1#!आहूतः 
+row3#!n1#!आहूत{पुं}{1;एक} 
+row4#!n1#!आङ्_हु1{कृत्_प्रत्ययः:क्त;हु;जुहोत्यादिः;पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('')">0
+row6#!n1#!निमन्त्रित
+row7#!n1#!was invited
+row8#!n1#!-
+
+row1#!n2#!अभि-चैद्यम्
+row2#!n2#!अभिचैद्यं 
+row3#!n2#!अभि-{अव्य}-चैद्य{पुं}{2;एक} 
+row4#!n2#!अभि-चैद्य{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10
+row6#!n2#!शिशुपाल_के_यहाँ
+row7#!n2#!against śiśupāla the king of cedī country
+row8#!<चैद्यं-अभि>A1
+
+row1#!n1#!प्रतिष्ठासुः
+row2#!n1#!प्रतिष्ठासुः 
+row3#!n1#!प्रतिष्ठासु{पुं}{1;एक}
+row4#!n1#!प्रतिष्ठासु{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8
+row6#!n1#!यात्रा_करने_के_इच्छुक
+row7#!n1#!wanted to proceed
+row8#!n1#!-
+
+row1#!n1#!मुरंद्विषन्
+row2#!n1#!मुरंद्विषन्
+row3#!n1#!मुरंद्विषन्{पुं}{2;एक}
+row4#!n1#!मुरं_द्विष्1{कृत्_प्रत्ययः:शतृ;द्विषँ;अदादिः;पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8
+row6#!n1#!मुर_के_शत्रु
+row7#!n1#!The enemy of mura
+row8#!<मुरं-द्विट्>U
+
+row1#!n1#!(श्रीकृष्णः)
+row2#!n1#!श्रीकृष्णः
+row3#!n1#!श्रीकृष्ण{पुं}{1;एक}
+row4#!n1#!श्रीकृष्ण{पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,10
+row6#!n1#!शत्रु
+row7#!n1#!Śrīkṛṣṇa
+row8#!n1#!-
+
+row1#!n1#!कार्यद्वय-आकुलः
+row2#!n1#!कार्यद्वयाकुलः 
+row3#!n1#!कार्य-द्वय-आकुल{पुं}{1;एक} 
+row4#!n1#!कार्य-द्वय-आकुल{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्तृसमानाधिकरण,')">कर्तृसमानाधिकरण,10
+row6#!n1#!दो_कार्यों_से_व्याकुल
+row7#!n1#!perplexed by both the duties
+row8#!<<कार्य-द्वयम्>T6-आकुलः>T3
+
+row1#!v#!आसीत्.
+row2#!v#!आसीत् 
+row3#!v#!अस्2{कर्तरि;लङ्;प्र;एक;परस्मैपदी;असँ;अदादिः}. 
+row4#!v#!अस्2{कर्तरि;लङ्;प्र;एक;परस्मैपदी;असँ;अदादिः}. 
+row5#!v#!<a href="javascript:show('')">0
+row6#!v#!था. 
+row7#!v#!was.
+row8#!v#!-
+
+

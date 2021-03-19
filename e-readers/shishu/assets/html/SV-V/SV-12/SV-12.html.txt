@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-V/SV-12/12.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-12/12.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">12.A</a>#!html/SV-V/SV-12/12.jpg#!row1#!n1#!इन्द्र-अनुज-अनुचर-भूपतयः
+row2#!number#!12.B</a>#!row2#!n1#!इन्द्र-अनुज-अनुचर-भूपतयः 
+row3#!number#!12.C</a>#!row3#!n1#!इन्द्र-अनुज-अनुचर-भूपति{पुं}{1;बहु} 
+row4#!number#!12.D</a>#!row4#!n1#!<a (click)=showDic('इन्द्र')>इन्द्र</a>-<a (click)=showDic('अनुज')>अनुज</a>-<a (click)=showDic('अनुचर')>अनुचर</a>-<a (click)=showDic('भूपति')>भूपति</a>{पुं}{1;बहु} 
+row5#!number#!12.E</a>#!row5#!n1#!कर्ता,9
+row6#!number#!12.F</a>#!row6#!n1#!श्रीकृष्ण भगवान_के_अनुगामी_राजा_लोग
+row7#!number#!12.G</a>#!row7#!n1#!Kings who were followers of Śrī Kṛṣṇa
+row8#!number#!12.H#!row8#!n1#!<a href="html/SV-V/SV-12/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-12/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<इन्द्र-अनुज>T6-अनुचर>T6-भूपतिः>K1</a>#!html/SV-V/SV-12/samaasa1.jpg
+row9#!number#!12.I</a>#!row9#!n1#!
+row10#!number#!12.J</a>#!row10#!n1#!
+row11#!number#!12.K</a>#!row11#!n1#!
+row12#!number#!12.L</a>#!row12#!n1#!
+
+row1#!n2#!मृग-इन्द्रान्
+row2#!n2#!मृग-इन्द्रान् 
+row3#!n2#!मृग-इन्द्र{पुं}{2;बहु} 
+row4#!n2#!<a (click)=showDic('मृग')>मृग</a>-<a (click)=showDic('इन्द्र')>इन्द्र</a>{पुं}{2;बहु}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,6</a>
+row6#!n2#!सिंहों_को
+row7#!n2#!lions
+row8#!n2#!<a href="html/SV-V/SV-12/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-12/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><मृग-इन्द्रः>T6</a>#!html/SV-V/SV-12/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!विद्विषः
+row2#!n2#!विद्विषः 
+row3#!n2#!विद्विष्{पुं}{1;एक} 
+row4#!n2#!<a (click)=showDic('विद्विष्')>विद्विष्</a>{पुं}{2;बहु}
+row5#!n2#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,4</a>
+row6#!n2#!शतृओं_के
+row7#!n2#!enemies
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!इव
+row2#!NA#!इव 
+row3#!NA#!इव{अव्य} 
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,2</a>
+row6#!NA#!समान
+row7#!NA#!as if
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!प्रसभम्
+row2#!NA#!प्रसभम् 
+row3#!NA#!प्रसभ{नपुं}{1;एक}/प्रसभ{नपुं}{2;एक} 
+row4#!NA#!<a (click)=showDic('प्रसभ')>प्रसभ</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया_विशेषणम्,')">क्रिया_विशेषणम्,6</a>
+row6#!NA#!बलपूर्वक
+row7#!NA#!with lots of strength
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!उच्छिद्य
+row2#!NA#!उच्छिद्य 
+row3#!NA#!उत्_छिद्1{कृत्_प्रत्ययः:ल्यप्;छिदिँर्;रुधादिः}/उद्_छिद्1{कृत्_प्रत्ययः:ल्यप्;छिदिँर्;रुधादिः} 
+row4#!NA#!<a (click)=showDic('उत्_छिद्1')>उत्_छिद्1</a>{कृत्_प्रत्ययः:ल्यप्;छिदिँर्;रुधादिः} 
+row5#!NA#!<a href="javascript:show('पूर्वकालः,')">पूर्वकालः,9</a>
+row6#!NA#!मार_कर
+row7#!NA#!having killed
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!वन्येभ-मस्तक-निखात-नख-अग्र-मुक्त-मुक्ता-फल-प्रकर-भाञ्जि
+row2#!n2#!वन्येभ-मस्तक-निखात-नख-अग्र-मुक्त-मुक्ता-फल-प्रकर-भाञ्जि 
+row3#!n2#!वन्येभ-मस्तक-निखात-नख-अग्र-मुक्त-मुक्ता-फल-प्रकर-भाञ्जि 
+row4#!n2#!<a (click)=showDic('वन्येभ')>वन्येभ</a>-<a (click)=showDic('मस्तक')>मस्तक</a>-<a (click)=showDic('निखात')>निखात</a>-<a (click)=showDic('नख')>नख</a>-<a (click)=showDic('अग्र')>अग्र</a>-<a (click)=showDic('युक्त')>युक्त</a>-<a (click)=showDic('मुक्ता')>मुक्ता</a>-<a (click)=showDic('फल')>फल</a>-<a (click)=showDic('प्रकर')>प्रकर</a>-<a (click)=showDic('भाञ्जि')>भाञ्जि</a>{नपुं}{2;बहु}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n2#!जंगली हाथियों_के_मस्तकों_में_गड़ाए_गये_सिंहों_के_नखाग्रों_से_बिखरे_हुए_मोतियों_के_समूहों_से_युक्त
+row7#!n2#!that were appearing like a string of pearls on the temples of elephants which were scattered by the nails of lions
+row8#!n2#!<a href="html/SV-V/SV-12/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-12/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<<वन्य-इभ>K3-मस्तक>T6-<निखात>T7-<<नख-अग्र>T6>K3-मुक्त>T3-मुक्ताफल>K3-प्रकार>T6-भज्>U</a>#!html/SV-V/SV-12/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!गुहा-गृहाणि
+row2#!n2#!गुहा-गृहाणि 
+row3#!n2#!गुहा-गृह{नपुं}{1;बहु}/गृह{नपुं}{2;बहु} 
+row4#!n2#!<a (click)=showDic('गुहा')>गुहा</a>-<a (click)=showDic('गृह')>गृह</a>{नपुं}{2;बहु}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,9</a>
+row6#!n2#!घरों_के_समान_कन्दराओं_में
+row7#!n2#!in caves which were like houses
+row8#!n2#!<a href="html/SV-V/SV-12/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-12/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><गुहा-गृहम्>K5</a>#!html/SV-V/SV-12/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!अध्यवात्सुः.
+row2#!v#!अध्यवात्सुः 
+row3#!v#!अधि_वस्1{कर्तरि;लुङ्;प्र;बहु;परस्मैपदी;वसँ;भ्वादिः}.
+row4#!v#!<a (click)=showDic('अधि_वस्1')>अधि_वस्1</a>{कर्तरि;लुङ्;प्र;बहु;परस्मैपदी;वसँ;भ्वादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!ठहरें.
+row7#!v#!settled.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!वसन्ततिलका ।
+row11#!v#!-
+row12#!v#!‘उपान्वध्याङ्वसः’ (1।4।48) इति कर्मत्वम् ।‘वस निवासे’ लुङि सिचि वृद्धिः । ‘सः स्यार्धधातुके’ (7।4।49) इति तत्वम् ।
+
+

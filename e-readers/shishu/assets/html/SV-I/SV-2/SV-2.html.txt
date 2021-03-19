@@ -1,0 +1,300 @@
+row1#!number#!<a href="html/SV-I/SV-2/2.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-2/2.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">2.A</a>#!html/SV-I/SV-2/2.jpg#!row1#!n6#!अनूरुसारथेः
+row2#!number#!2.B</a>#!row2#!n6#!अनूरुसारथेः 
+row3#!number#!2.C</a>#!row3#!n6#!अनूरुसारथि{पुं}{5;एक}/अनूरुसारथि{पुं}{6;एक} 
+row4#!number#!2.D</a>#!row4#!n6#!<a (click)=showDic('अनूरुसारथि')>अनूरुसारथि</a>{पुं}{6;एक} 
+row5#!number#!2.E</a>#!row5#!n6#!षष्ठीसम्बन्धः,2
+row6#!number#!2.F</a>#!row6#!n6#!अनूरुसारथि_के
+row7#!number#!2.G</a>#!row7#!n6#!of the Sun
+row8#!number#!2.H#!row8#!n6#!<a href="html/SV-I/SV-2/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-2/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<न-ऊरु>Bs6-सारथिः>Bs6</a>#!html/SV-I/SV-2/samaasa1.jpg
+row9#!number#!2.I</a>#!row9#!n6#!
+row10#!number#!2.J</a>#!row10#!n6#!
+row11#!number#!2.K</a>#!row11#!n6#!
+row12#!number#!2.L</a>#!row12#!n6#!
+
+row1#!n1#!गतं
+row2#!n1#!गतं
+row3#!n1#!गत{नपुं}{1;एक}/गत{नपुं}{2;एक}/गत{पुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('गम्1')>गम्1</a>{कृत्_प्रत्ययः:क्त;गमॢँ;भ्वादिः}{नपुं}{1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n1#!गमन
+row7#!n1#!movement
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!तिरश्चीनं
+row2#!n1#!तिरश्चीनं
+row3#!n1#!तिरश्चीन{पुं}{2;एक}/तिरश्चीन{नपुं}{1;एक}/तिरश्चीन{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('तिरश्चीन')>तिरश्चीन</a>{नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,5</a>
+row6#!n1#!टेढ़ा
+row7#!n1#!horizontal
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘विभाषाऽञ्चेरदिक् स्त्रियाम्' इति तिर्यक्शब्दादञ्चत्यन्तात्प्रातिपदिकात् स्वार्थे खप्रत्ययः ।
+
+row1#!n1#!प्रसिद्धं
+row2#!n1#!प्रसिद्धं 
+row3#!n1#!प्रसिद्ध{पुं}{2;एक}/प्रसिद्ध{नपुं}{1;एक}/प्रसिद्ध{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('प्रसिद्ध')>प्रसिद्ध</a>{नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्तृसमानाधिकरणम्,')">कर्तृसमानाधिकरणम्,5</a>
+row6#!n1#!प्रसिद्ध
+row7#!n1#!popular
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!(अस्ति)
+row2#!v#!अस्ति 
+row3#!v#!अस्2{कर्तरि;लट्;प्र;एक;परस्मैपदी;असँ;अदादिः}. 
+row4#!v#!<a (click)=showDic('अस्2')>अस्2</a>{कर्तरि;लट्;प्र;एक;परस्मैपदी;असँ;अदादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!है
+row7#!v#!is
+row8#!v#!-
+row9#!v#!अकर्मककर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!n6#!हविर्भुजः
+row2#!n6#!हविर्भुजः 
+row3#!n6#!हविर्भुज्{पुं}{1;बहु}/हविर्भुज्{पुं}{2;बहु}/हविर्भुज्{पुं}{5;एक}/हविर्भुज्{पुं}{6;एक}/हविर्भुज्{पुं}{8;बहु} 
+row4#!n6#!<a (click)=showDic('हविर्भुज्')>हविर्भुज्</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,2</a>
+row6#!n6#!अग्नि_का 
+row7#!n6#!of fire
+row8#!n6#!<a href="html/SV-I/SV-2/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-2/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><हविस्-भुक्>U</a>#!html/SV-I/SV-2/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!ऊर्ध्व-ज्वलनम्
+row2#!n1#!ऊर्ध्वज्वलनं 
+row3#!n1#!ऊर्ध्व-ज्वलन{पुं}{2;एक}/ज्वलन{नपुं}{1;एक}/ज्वलन{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('ऊर्ध्व')>ऊर्ध्व</a>-<a (click)=showDic('ज्वल्1')>ज्वल्1</a>{कृत्_प्रत्ययः:ल्युट्;ज्वलँ;भ्वादिः;नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,4</a>
+row6#!n1#!ऊपर_की_ओर
+row7#!n1#!upwards
+row8#!n1#!<a href="html/SV-I/SV-2/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-2/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><ऊर्धव-ज्वलनम्>K3</a>#!html/SV-I/SV-2/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!(प्रसिद्धं)
+row2#!n1#!प्रसिद्धं
+row3#!n1#!प्रसिद्ध{पुं}{2;एक}/प्रसिद्ध{नपुं}{1;एक}/प्रसिद्ध{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('प्रसिद्ध')>प्रसिद्ध</a>{नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्तृसमानाधिकरणम्,')">कर्तृसमानाधिकरणम्,4</a>
+row6#!n1#!प्रसिद्ध
+row7#!n1#!popular
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!(अस्ति)
+row2#!v#!अस्ति
+row3#!v#!अस्2{कर्तरि;लट्;प्र;एक;परस्मैपदी;असँ;अदादिः}
+row4#!v#!<a (click)=showDic('अस्2')>अस्2</a>{कर्तरि;लट्;प्र;एक;परस्मैपदी;असँ;अदादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!है
+row7#!v#!is
+row8#!v#!-
+row9#!v#!अकर्मककर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NA#!सर्वतः
+row2#!NA#!सर्वतः 
+row3#!NA#!सर्वतः{अव्य} 
+row4#!NA#!<a (click)=showDic('सर्वतः')>सर्वतः</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अधिकरण,')">अधिकरण,5</a>
+row6#!NA#!सभी_जगह
+row7#!NA#!everywhere
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!विसारि
+row2#!n1#!विसारि 
+row3#!n1#!विसारिन्{नपुं}{1;एक}/विसारिन्{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('विसारिन्')>विसारिन्</a>{नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n1#!प्रसार_करने_वाला
+row7#!n1#!spreading
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!धाम
+row2#!n1#!धाम 
+row3#!n1#!धामन्{नपुं}{1;एक}/धामन्{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('धामन्')>धामन्</a>{नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,5</a>
+row6#!n1#!तेज
+row7#!n1#!brilliance
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!अधः
+row2#!NA#!अधः 
+row3#!NA#!अधः{अव्य} 
+row4#!NA#!<a (click)=showDic('अधः')>अधः</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('देशाधिकरणम्,')">देशाधिकरणम्,5</a>
+row6#!NA#!नीचे
+row7#!NA#!downwards
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!पतति
+row2#!v#!पतति
+row3#!v#!पत्1{कर्तरि;लट्;प्र;एक;परस्मैपदी;पतॢँ;भ्वादिः}/पतत्{नपुं}{7;एक}
+row4#!v#!<a (click)=showDic('पत्1')>पत्1</a>{कर्तरि;लट्;प्र;एक;परस्मैपदी;पतॢँ;भ्वादिः} 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!गिरता_है
+row7#!v#!fall
+row8#!v#!-
+row9#!v#!अकर्मककर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!n1#!एतत्
+row2#!n1#!एतत् 
+row3#!n1#!एतद्{नपुं}{1;एक}/एतद्{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('एतद्')>एतद्</a>{नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,20</a>
+row6#!n1#!यह
+row7#!n1#!this
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!किम्
+row2#!n1#!किम् 
+row3#!n1#!किम्{नपुं}{1;एक}/किम्{नपुं}{2;एक}/किम्{अव्य} 
+row4#!n1#!<a (click)=showDic('किम्')>किम्</a>{नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,6</a>
+row6#!n1#!क्या
+row7#!n1#!what
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इति
+row2#!NA#!इति 
+row3#!NA#!इति{अव्य} 
+row4#!NA#!<a (click)=showDic('इति')>इति</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,7</a>
+row6#!NA#!ऐसा
+row7#!NA#!thus
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!जनैः
+row2#!n3#!जनैः 
+row3#!n3#!जन{पुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('जन')>जन</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,6</a>
+row6#!n3#!जनों_के_द्वारा
+row7#!n3#!by the people
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n2#!आकुलम्
+row2#!n2#!आकुलम् 
+row3#!n2#!आकुल{नपुं}{1;एक}/आकुल{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('आकुल')>आकुल</a>{नपुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('क्रियाविशेषणम्,')">क्रियाविशेषणम्,6</a>
+row6#!n2#!सम्पूर्ण
+row7#!n2#!clearly
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!ईक्षितम्
+row2#!n1#!ईक्षितम्
+row3#!n1#!ईक्षित{पुं}{2;एक}/ईक्षित{नपुं}{1;एक}/ईक्षित{नपुं}{2;एक}
+row4#!n1#!<a (click)=showDic('ईक्ष्1')>ईक्ष्1</a>{कृत्_प्रत्ययः:क्त;ईक्षँ;भ्वादिः;नपुं}{1;एक}
+row5#!n1#!<a href="javascript:show('')">0</a>
+row6#!n1#!देखा_गया.
+row7#!n1#!was seen
+row8#!n1#!-
+row9#!n1#!कर्मणि
+row10#!n1#!वंशस्थम् ।
+row11#!n1#!व्यतिरेकः ।
+row12#!n1#!
+
+

@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-VII/SV-39/39.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-39/39.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">39.A</a>#!html/SV-VII/SV-39/39.jpg#!row1#!n7#!किसलय-शकलेषु
+row2#!number#!39.B</a>#!row2#!n7#!किसलय-शकलेषु
+row3#!number#!39.C</a>#!row3#!n7#!किसलय-शकल{पुं;7;बहु}
+row4#!number#!39.D</a>#!row4#!n7#!<a (click)=showDic('किसलय')>किसलय</a>-<a (click)=showDic('शकल')>शकल</a>{नपुं;7;बहु}
+row5#!number#!39.E</a>#!row5#!n7#!अधिकरणम्,2
+row6#!number#!39.F</a>#!row6#!n7#!नवपल्लवों के टुकड़ों पर स्थित
+row7#!number#!39.G</a>#!row7#!n7#!that appear on fragments of sprouts
+row8#!number#!39.H#!row8#!n7#!<a href="html/SV-VII/SV-39/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-39/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><किसलय-शकलम्>T6</a>#!html/SV-VII/SV-39/samaasa1.jpg
+row9#!number#!39.I</a>#!row9#!n7#!
+row10#!number#!39.J</a>#!row10#!n7#!
+row11#!number#!39.K</a>#!row11#!n7#!
+row12#!number#!39.L</a>#!row12#!n7#!
+
+row1#!n1#!अवाचनीयाः
+row2#!n1#!अवाचनीयाः
+row3#!n1#!अवाचनीयाः}
+row4#!n1#!<a (click)=showDic('नञ्')>नञ्</a>-<a (click)=showDic('अ_वच्1')>अ_वच्1</a>{कृत्_प्रत्ययः:अनीयर्;वचँ;अदादिः;स्त्री}{1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,10</a>
+row6#!n1#!अपठनीय
+row7#!n1#!difficult to read
+row8#!n1#!<a href="html/SV-VII/SV-39/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-39/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-वाचनीया>Tn</a>#!html/SV-VII/SV-39/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!केवलं
+row2#!NA#!केवलं
+row3#!NA#!केवल{पुं;2;एक}/केवल{नपुं;1;एक}/केवल{नपुं;2;एक}
+row4#!NA#!<a (click)=showDic('केवल')>केवल</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,6</a>
+row6#!NA#!केवल
+row7#!NA#!only
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n7#!पुलकिनि
+row2#!n7#!पुलकिनि
+row3#!n7#!पुलकिन्{पुं;7;एक}
+row4#!n7#!<a (click)=showDic('पुलकिन्')>पुलकिन्</a>{नपुं;7;एक}
+row5#!n7#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n7#!रोमाञ्चित
+row7#!n7#!possessed with goose bumps (that arouse due to the touch of beloved)
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!अङ्गके
+row2#!n7#!अङ्गके
+row3#!n7#!अङ्गक{पुं;7;एक}/अङ्गका{स्त्री;1;द्वि}/अङ्गका{स्त्री;2;द्वि}/अङ्गका{स्त्री;8;एक}/अङ्गका{स्त्री;8;द्वि}
+row4#!n7#!<a (click)=showDic('अङ्ग्1')>अङ्ग्1</a>{ण्वुल्;अगिँ;भ्वादिः;नपुं;7;एक}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,6</a>
+row6#!n7#!शरीर_पर
+row7#!n7#!upon the body
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n1#!निधेयाः
+row2#!n1#!निधेयाः
+row3#!n1#!नि_धा1{कर्तरि;आशीर्लिङ्;म;एक;उभयपदी;डुधाञ्;जुहोत्यादिः}
+row4#!n1#!<a (click)=showDic('निधेय')>निधेय</a>{स्त्री;1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,10</a>
+row6#!n1#!लिखने_योग्य
+row7#!n1#!to scribble (write)
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!नखपद-लिपयः
+row2#!n1#!नखपद-लिपयः
+row3#!n1#!नखपद-लिपि{स्त्री;1;बहु}/लिपि{स्त्री;8;बहु}
+row4#!n1#!<a (click)=showDic('नखपद')>नखपद</a>-<a (click)=showDic('लिपि')>लिपि</a>{स्त्री;1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,10</a>
+row6#!n1#!नखक्षतरूप अक्षर
+row7#!n1#!appear to be letters in the form of injuries caused by nails
+row8#!n1#!<a href="html/SV-VII/SV-39/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-39/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<नख-पद>T6-लिपिः>K6</a>#!html/SV-VII/SV-39/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!अपि
+row2#!NA#!अपि
+row3#!NA#!अपि{अव्य}
+row4#!NA#!<a (click)=showDic('अपि')>अपि</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,7</a>
+row6#!NA#!भी
+row7#!NA#!though
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!दीपित-अर्थाः
+row2#!n1#!दीपित-अर्थाः
+row3#!n1#!दीपित-अर्थ{पुं;1;बहु}/अर्थ{पुं;8;बहु}
+row4#!n1#!<a (click)=showDic('दीपित')>दीपित</a>-<a (click)=showDic('अर्थ')>अर्थ</a>{पुं;1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,10</a>
+row6#!n1#!अपने संकेतित अर्थ की प्रकट करनेवाले
+row7#!n1#!that indicate special appellations
+row8#!n1#!<a href="html/SV-VII/SV-39/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-39/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><दीपित-अर्थः>K1</a>#!html/SV-VII/SV-39/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!अनङ्ग-लेखाः
+row2#!n1#!अनङ्ग-लेखाः
+row3#!n1#!अनङ्ग-लेख{पुं;1;बहु}/लेख{पुं;8;बहु}/लेखा{स्त्री;1;बहु}/लेखा{स्त्री;2;बहु}/लेखा{स्त्री;8;बहु}
+row4#!n1#!<a (click)=showDic('अनङ्ग')>अनङ्ग</a>-<a (click)=showDic('लेखा')>लेखा</a>{पुं;1;बहु}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,12</a>
+row6#!n1#!अनङ्गलेखों (कामलेखों) को
+row7#!n1#!letters of sex
+row8#!n1#!<a href="html/SV-VII/SV-39/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-39/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<न-अङ्ग>Tn-लेखः>T6</a>#!html/SV-VII/SV-39/samaasa5.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!दयितैः
+row2#!n3#!दयितैः
+row3#!n3#!दयित{पुं;3;बहु}
+row4#!n3#!<a (click)=showDic('दयित')>दयित</a>{पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,12</a>
+row6#!n3#!प्रियतमों तथा प्रियतमाओं ने (एक दूसरे के शरीर पर)
+row7#!n3#!by both the hero and heroine
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!'पुमान्स्त्रिया' (1।2।67) इत्येकशेषः ।
+
+row1#!v#!प्रणि-दधिरे
+row2#!v#!प्रणि-दधिरे
+row3#!v#!प्रणि-धा1{कर्तरि;लिट्;प्र;बहु;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}/धा1{कर्मणि;लिट्;प्र;बहु;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}/धे1{कर्मणि;लिट्;प्र;बहु;आत्मनेपदी;धेट्;भ्वादिः}
+row4#!v#!<a (click)=showDic('प्रणि_धा1')>प्रणि_धा1</a>{कर्मणि;लिट्;प्र;बहु;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!लिखा (नखक्षत किये).
+row7#!v#!were written.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!पुष्पिताग्रा ।
+row11#!v#!व्यतिरेकः ।
+row12#!v#!दधातेः कर्मणि लिट् । 'नेर्गदनद-' (8।4।17) इत्यादिना नकारस्य णत्वम् ।
+
+

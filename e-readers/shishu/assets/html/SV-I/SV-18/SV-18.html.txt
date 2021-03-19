@@ -1,0 +1,170 @@
+row1#!number#!<a href="html/SV-I/SV-18/18.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-18/18.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">18.A</a>#!html/SV-I/SV-18/18.jpg#!row1#!n1#!अशेष-तीर्थ-उपहृताः
+row2#!number#!18.B</a>#!row2#!n1#!अशेष-तीर्थ-उपहृताः 
+row3#!number#!18.C</a>#!row3#!n1#!अशेष-तीर्थ-उपहृत{पुं}{1;बहु}/उपहृता{स्त्री}{1;बहु}/उपहृता{स्त्री}{2;बहु} 
+row4#!number#!18.D</a>#!row4#!n1#!<a (click)=showDic('अशेष')>अशेष</a>-<a (click)=showDic('तीर्थ')>तीर्थ</a>-<a (click)=showDic('उपहृत')>उपहृत</a>{पुं}{1;बहु}
+row5#!number#!18.E</a>#!row5#!n1#!विशषणम्,9
+row6#!number#!18.F</a>#!row6#!n1#!समस्त तीर्थों से लाये गये
+row7#!number#!18.G</a>#!row7#!n1#!the sacred water collected from all the sacred rivers
+row8#!number#!18.H#!row8#!n1#!<a href="html/SV-I/SV-18/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-18/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<न-शेष>Bsmn-तीर्थ>K1-उपहृतः>T5</a>#!html/SV-I/SV-18/samaasa1.jpg
+row9#!number#!18.I</a>#!row9#!n1#!
+row10#!number#!18.J</a>#!row10#!n1#!
+row11#!number#!18.K</a>#!row11#!n1#!
+row12#!number#!18.L</a>#!row12#!n1#!
+
+row1#!n5#!कमण्डलोः
+row2#!n5#!कमण्डलोः 
+row3#!n5#!कमण्डलु{पुं}{5;एक}/कमण्डलु{पुं}{6;एक} 
+row4#!n5#!<a (click)=showDic('कमण्डलु')>कमण्डलु</a>{पुं}{5;एक} 
+row5#!n5#!<a href="javascript:show('अपादानम्,')">अपादानम्,4</a>
+row6#!n5#!कमण्डलु_से 
+row7#!n5#!from his Kamaņdala
+row8#!n5#!-
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!
+
+row1#!n7#!पाणौ
+row2#!n7#!पाणौ 
+row3#!n7#!पाण{पुं}{1;द्वि}/पाण{पुं}{2;द्वि}/पाणि{पुं}{7;एक} 
+row4#!n7#!<a (click)=showDic('पाणि')>पाणि</a>{पुं}{7;एक} 
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,4</a>
+row6#!n7#!हाथ_में 
+row7#!n7#!in his hand
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!NA#!निधाय
+row2#!NA#!निधाय 
+row3#!NA#!निधाय{अव्य}/नि-धा1{कृत्_प्रत्ययः:ल्यप्;डुधाञ्;जुहोत्यादिः} 
+row4#!NA#!<a (click)=showDic('निधाय')>निधाय</a>-<a (click)=showDic('धा1')>धा1</a>{कृत्_प्रत्ययः:ल्यप्;डुधाञ्;जुहोत्यादिः} 
+row5#!NA#!<a href="javascript:show('पूर्वकालः,')">पूर्वकालः,13</a>
+row6#!NA#!धारण_करके 
+row7#!NA#!having taken
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!ऋषिणा
+row2#!n3#!ऋषिणा 
+row3#!n3#!ऋषि{पुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('ऋषि')>ऋषि</a>{पुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,6</a>
+row6#!n3#!ऋषि_से 
+row7#!n3#!by the sage
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!अभ्युदीरिताः
+row2#!n1#!अभ्युदीरिताः 
+row3#!n1#!अभ्युदीरित{पुं}{1;बहु}/अभ्युदीरिता{स्त्री}{1;बहु}/अभ्युदीरिता{स्त्री}{2;बहु} 
+row4#!n1#!<a (click)=showDic('अभ्युदीरित')>अभ्युदीरित</a>{पुं}{1;बहु}
+row5#!n1#!<a href="javascript:show('विशषणम्,')">विशषणम्,9</a>
+row6#!n1#!छिडके गये
+row7#!n1#!having sprinkled
+row8#!n1#!-
+row9#!n1#!कर्मणि
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n7#!अघौघ-विध्वंस-विधौ
+row2#!n7#!अघौघ-विध्वंस-विधौ 
+row3#!n7#!अघौघ-विध्वंस-विध{पुं}{1;द्वि}/विध{पुं}{2;द्वि}/विधु{पुं}{7;एक}/विधि{पुं}{7;एक} 
+row4#!n7#!<a (click)=showDic('अघौघ')>अघौघ</a>-<a (click)=showDic('विध्वंस')>विध्वंस</a>-<a (click)=showDic('विधि')>विधि</a>{पुं}{7;एक} 
+row5#!n7#!<a href="javascript:show('निर्धारणसम्बन्धः,')">निर्धारणसम्बन्धः,8</a>
+row6#!n7#!पाप समूह_को नष्ट करने_में
+row7#!n7#!sin-dispeller
+row8#!n7#!<a href="html/SV-I/SV-18/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-18/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<अघ-आघ>T6-विध्वंस>T6-विधिः>T6</a>#!html/SV-I/SV-18/samaasa2.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n2#!पटीयसीः
+row2#!n2#!पटीयसीः 
+row3#!n2#!पटीयसी{स्त्री}{2;बहु} 
+row4#!n2#!<a (click)=showDic('पटीयसी')>पटीयसी</a>{स्त्री}{2;बहु} 
+row5#!n2#!<a href="javascript:show('विशषणम्,')">विशषणम्,9</a>
+row6#!n2#!समर्थ
+row7#!n2#!able to
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!पटुशब्ददीयसुनि ‘उगितश्च’ (4।1।6) इति ङीप् ।
+
+row1#!n2#!अपः
+row2#!n2#!अपः 
+row3#!n2#!अपस्{स्त्री}{1;बहु}/अपस्{स्त्री}{2;बहु}/अपस्{नपुं}{1;एक}/अपस्{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('अपस्')>अपस्</a>{स्त्री}{2;बहु}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,13</a>
+row6#!n2#!जल_को
+row7#!n2#!water
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!हरिः
+row2#!n1#!हरिः 
+row3#!n1#!हरि{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('हरि')>हरि</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,13</a>
+row6#!n1#!हरि_ने
+row7#!n1#!lord Hari
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!नतेन
+row2#!n1#!नतेन 
+row3#!n1#!नत{पुं}{3;एक} 
+row4#!n1#!<a (click)=showDic('नम्1')>नम्1</a>{कृत्_प्रत्ययः:क्त;णमँ;भ्वादिः;पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('विशषणम्,')">विशषणम्,12</a>
+row6#!n1#!नम्र _से
+row7#!n1#!with a bowed
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!मूर्ध्ना
+row2#!n3#!मूर्ध्ना 
+row3#!n3#!मूर्धन्{पुं}{3;एक}
+row4#!n3#!<a (click)=showDic('मूर्धन्')>मूर्धन्</a>{पुं}{3;एक}
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,13</a>
+row6#!n3#!मस्तक_से
+row7#!n3#!head
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!v#!अग्रहीत्.
+row2#!v#!अग्रहीत् 
+row3#!v#!ग्रह्1{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;ग्रहँ;क्र्यादिः}. 
+row4#!v#!<a (click)=showDic('ग्रह्1')>ग्रह्1</a>{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;ग्रहँ;क्र्यादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!ग्रहण किया.
+row7#!v#!accepted
+row8#!v#!-
+row9#!v#!सकर्मककर्तरि
+row10#!v#!वंशस्थम् ।
+row11#!v#!-
+row12#!v#!
+
+

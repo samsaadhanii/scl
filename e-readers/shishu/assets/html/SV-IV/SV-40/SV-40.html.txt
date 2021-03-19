@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-IV/SV-40/40.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-40/40.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">40.A</a>#!html/SV-IV/SV-40/40.jpg#!row1#!n7#!अस्मिन्
+row2#!number#!40.B</a>#!row2#!n7#!अस्मिन् 
+row3#!number#!40.C</a>#!row3#!n7#!इदम्{पुं}{7;एक}/इदम्{नपुं}{7;एक} 
+row4#!number#!40.D</a>#!row4#!n7#!<a (click)=showDic('इदम्')>इदम्</a>{पुं}{7;एक} 
+row5#!number#!40.E</a>#!row5#!n7#!अधिकरणम्,11
+row6#!number#!40.F</a>#!row6#!n7#!इस_(रैवतक)_पर्वत_पर
+row7#!number#!40.G</a>#!row7#!n7#!On this mountain
+row8#!number#!40.H#!row8#!n7#!
+row9#!number#!40.I</a>#!row9#!n7#!
+row10#!number#!40.J</a>#!row10#!n7#!
+row11#!number#!40.K</a>#!row11#!n7#!
+row12#!number#!40.L</a>#!row12#!n7#!
+
+row1#!n7#!दन्तोज्ज्वलासु
+row2#!n7#!दन्तोज्ज्वलासु 
+row3#!n7#!दन्तोज्ज्वलासु{अव्य}
+row4#!n7#!<a (click)=showDic('दन्तोज्ज्वलासु')>दन्तोज्ज्वलासु</a>{स्त्री}{7;बहु}
+row5#!n7#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n7#!(i) निकुंजों_से (ii) दाँतो_से
+row7#!n7#!lovely with (i) teeth (ii) bowers
+row8#!n7#!<a href="html/SV-IV/SV-40/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-40/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><दन्त-उज्जवला>T3</a>#!html/SV-IV/SV-40/samaasa1.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!सद्रत्न-चित्र-कटकासु
+row2#!n7#!सद्रत्न-चित्र-कटकासु 
+row3#!n7#!सद्रत्न-चित्र-कटका{स्त्री}{7;बहु} 
+row4#!n7#!<a (click)=showDic('सद्रत्न')>सद्रत्न</a>-<a (click)=showDic('चित्र')>चित्र</a>-<a (click)=showDic('कटका')>कटका</a>{स्त्री}{7;बहु}
+row5#!n7#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n7#!(i) मनोहर श्रेष्ठ रत्नों_से_चित्र-विचित्र-मध्यभागवाली (ii) श्रेष्ठ रत्नों_से_विचित्र कंकणोंवाली
+row7#!n7#!(i) whose peaks are variegated with brilliant gems (ii) whose bracelets are brilliant with excellent gems
+row8#!n7#!<a href="html/SV-IV/SV-40/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-40/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<सत्-रत्न>K1-चित्रकटका>Bs6</a>#!html/SV-IV/SV-40/samaasa2.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!अधित्यकासु
+row2#!n7#!अधित्यकासु
+row3#!n7#!अधित्यका{स्त्री}{7;बहु} 
+row4#!n7#!<a (click)=showDic('अधित्यका')>अधित्यका</a>{स्त्री}{7;बहु} 
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,11</a>
+row6#!n7#!ऊपरी भूमियों_पर
+row7#!n7#!on table-lands
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!'उपाधिभ्यां त्यकन्नासान्नारूढयोः' (5।2।34) इत्यधिशब्दात्त्यकन्प्रत्ययः ।
+
+row1#!n1#!विमल-उपल-मेखल-अन्ताः
+row2#!n1#!विमल-उपल-मेखल-अन्ताः 
+row3#!n1#!विमल-उपल-मेखल-अन्त{पुं}{1;बहु}/अन्ता{स्त्री}{1;बहु}/अन्ता{स्त्री}{2;बहु} 
+row4#!n1#!<a (click)=showDic('विमल')>विमल</a>-<a (click)=showDic('उपल')>उपल</a>-<a (click)=showDic('मेखल')>मेखल</a>-<a (click)=showDic('अन्त')>अन्त</a>{स्त्री}{1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n1#!(i) निर्मल चट्टानवाले मध्यभाग_से रमणीय (ii) निर्दोष होने_से_श्रेष्ठ मणियों_से_युक्त_करधनी_से_रमणीय
+row7#!n1#!(i) girdles of brilliant gems (ii) charming with ridges of brilliant stones or gems
+row8#!n1#!<a href="html/SV-IV/SV-40/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-40/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<विमल-उपल>Bs6-मेखल>K1-अन्ता>T3</a>#!html/SV-IV/SV-40/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!बृहन्नितम्बाः
+row2#!n1#!बृहन्नितम्बाः
+row3#!n1#!बृहन्नितम्ब{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('बृहन्नितम्ब')>बृहन्नितम्ब</a>{स्त्री}{1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n1#!(i) बड़े-बड़े जघनवाली (ii) बड़े-बड़े शिखरों वाली
+row7#!n1#!(i) having large buttocks (ii) having huge precipices
+row8#!n1#!<a href="html/SV-IV/SV-40/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-40/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><बृहत्-नितम्बा>Bs6</a>#!html/SV-IV/SV-40/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!घन-कोमल-गण्ड-शैलाः
+row2#!n1#!घन-कोमल-गण्ड-शैलाः 
+row3#!n1#!घन-कोमल-गण्ड-शैल{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('घन')>घन</a>-<a (click)=showDic('कोमल')>कोमल</a>-<a (click)=showDic('गण्ड')>गण्ड</a>-<a (click)=showDic('शैल')>शैल</a>{स्त्री}{1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n1#!(i) घने और कोमल चट्टानों_से_सुशोभित (ii) अत्यन्त कोमल कपोलमण्डलवाली
+row7#!n1#!(i) having full and delicate cheeks (ii) having large and smooth rocks
+row8#!n1#!<a href="html/SV-IV/SV-40/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-40/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><घनकोमल-गण्डशैला>Bs6</a>#!html/SV-IV/SV-40/samaasa5.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!नार्यः
+row2#!n1#!नार्यः 
+row3#!n1#!नारी{स्त्री}{1;बहु} 
+row4#!n1#!<a (click)=showDic('नारी')>नारी</a>{स्त्री}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,11</a>
+row6#!n1#!नारियाँ 
+row7#!n1#!women
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!अनुरूपम्
+row2#!NA#!अनुरूपम् 
+row3#!NA#!अनुरूप{नपुं}{1;एक}/अनुरूप{नपुं}{2;एक} 
+row4#!NA#!<a (click)=showDic('अनुरूप')>अनुरूप</a>{अव्य}
+row5#!NA#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,10</a>
+row6#!NA#!अपने योग्य
+row7#!NA#!worthy of themselves
+row8#!NA#!<a href="html/SV-IV/SV-40/samaasa6.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-40/samaasa6.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अनु-रूपम्>A1</a>#!html/SV-IV/SV-40/samaasa6.jpg
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!अधिवासं
+row2#!NA#!अधिवासं 
+row3#!NA#!अधिवास{पुं}{2;एक} 
+row4#!NA#!<a (click)=showDic('अधिवास')>अधिवास</a>{अव्य}
+row5#!NA#!<a href="javascript:show('कर्म,')">कर्म,11</a>
+row6#!NA#!निवासस्थान_को
+row7#!NA#!a residence
+row8#!NA#!<a href="html/SV-IV/SV-40/samaasa7.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-40/samaasa7.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अधि-वासम्>A1</a>#!html/SV-IV/SV-40/samaasa7.jpg
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!भजन्ति.
+row2#!v#!भजन्ति 
+row3#!v#!भज्1{कर्तरि;लट्;प्र;बहु;परस्मैपदी;भजँ;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('भज्1')>भज्1</a>{कर्तरि;लट्;प्र;बहु;परस्मैपदी;भजँ;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!प्राप्त_करती_हैं.
+row7#!v#!attain.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!वसन्ततिलका ।
+row11#!v#!तुल्ययोगिता ।
+row12#!v#!
+
+

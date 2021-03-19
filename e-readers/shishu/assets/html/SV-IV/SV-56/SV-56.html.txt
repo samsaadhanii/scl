@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-IV/SV-56/56.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-56/56.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">56.A</a>#!html/SV-IV/SV-56/56.jpg#!row1#!NA#!इह
+row2#!number#!56.B</a>#!row2#!NA#!इह 
+row3#!number#!56.C</a>#!row3#!NA#!इह{अव्य} 
+row4#!number#!56.D</a>#!row4#!NA#!<a (click)=showDic('इह')>इह</a>{अव्य} 
+row5#!number#!56.E</a>#!row5#!NA#!विशेषणम्,2
+row6#!number#!56.F</a>#!row6#!NA#!यहाँ (इस रैवतक पर्वत पर)
+row7#!number#!56.G</a>#!row7#!NA#!Here (on this Raivataka mountain)
+row8#!number#!56.H#!row8#!NA#!
+row9#!number#!56.I</a>#!row9#!NA#!
+row10#!number#!56.J</a>#!row10#!NA#!
+row11#!number#!56.K</a>#!row11#!NA#!
+row12#!number#!56.L</a>#!row12#!NA#!
+
+row1#!n7#!मरकत-मय-मेदिनीषु
+row2#!n7#!मरकत-मय-मेदिनीषु 
+row3#!n7#!मरकत-मय-मेदिनी{स्त्री}{7;बहु} 
+row4#!n7#!<a (click)=showDic('मरकत')>मरकत</a>-<a (click)=showDic('मय')>मय</a>-<a (click)=showDic('मेदिनी')>मेदिनी</a>{स्त्री}{7;बहु} 
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,8</a>
+row6#!n7#!मरकत मणि_की_भूमियों_पर
+row7#!n7#!on the emerald ground
+row8#!n7#!<a href="html/SV-IV/SV-56/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-56/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><मरकतमय-मेदिनी>K1</a>#!html/SV-IV/SV-56/samaasa1.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!'स्त्रियाः पुर्वत्-' (6।3।34) इत्यादिना पुंवद्भावः ।
+
+row1#!n1#!तरु-विटपान्तर-पातिनः
+row2#!n1#!तरु-विटपान्तर-पातिनः 
+row3#!n1#!तरु-विटपान्तर-पातिन्{पुं}{1;बहु}/पातिन्{पुं}{2;बहु}/पातिन्{पुं}{5;एक}/पातिन्{पुं}{6;एक} 
+row4#!n1#!<a (click)=showDic('तरु')>तरु</a>-<a (click)=showDic('विटपान्तर')>विटपान्तर</a>-<a (click)=showDic('पातिन्')>पातिन्</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!पेड़ों_की_डालियों_के_मध्य_से_गिरनेवाली
+row7#!n1#!falling through the interstices between the leaves
+row8#!n1#!<a href="html/SV-IV/SV-56/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-56/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<तरु-विटप>T6-अन्तर>T6-पाती>U</a>#!html/SV-IV/SV-56/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!स्फुरित-अणुरेणु-जालाः
+row2#!n1#!स्फुरित-अणुरेणु-जालाः 
+row3#!n1#!स्फुरित-अणुरेणु-जाल{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('स्फुरित')>स्फुरित</a>-<a (click)=showDic('अणुरेणु')>अणुरेणु</a>-<a (click)=showDic('जाल')>जाल</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!जिनमें_महीन धूलिकण चमक_रहे_हैं
+row7#!n1#!and making the collections of the minute particles visible
+row8#!n1#!<a href="html/SV-IV/SV-56/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-56/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><स्फुरित-<<अणु-रेणु>K3-जालः>T6>Bs7</a>#!html/SV-IV/SV-56/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!भानोः
+row2#!n6#!भानोः 
+row3#!n6#!भानु{पुं}{5;एक}/भानु{पुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('भानु')>भानु</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,6</a>
+row6#!n6#!सूर्य_की
+row7#!n6#!of the Sun
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!मयूखाः
+row2#!n1#!मयूखाः 
+row3#!n1#!मयूख{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('मयूख')>मयूख</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n1#!किरणें
+row7#!n1#!the rays
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!अवनत-शिति-कण्ठ-कण्ठ-लक्ष्मीं
+row2#!n2#!अवनत-शिति-कण्ठ-कण्ठ-लक्ष्मीं 
+row3#!n2#!अवनत-शिति-कण्ठ-कण्ठ-लक्ष्मी{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('अवनत')>अवनत</a>-<a (click)=showDic('शिति')>शिति</a>-<a (click)=showDic('<a (click)=showDic('कण्ठ')>कण्ठ</a>')>कण्ठ</a>-कण्ठ-<a (click)=showDic('लक्ष्मी')>लक्ष्मी</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n2#!नीचे_की_ओर_झुकी_हुई_मयूर_की_गर्दन_की_शोभा_को
+row7#!n2#!the beauty of the peacock's neck bent low
+row8#!n2#!<a href="html/SV-IV/SV-56/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-56/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<अवनत-<शिति-कण्ठ>Bs6-कण्ठ>T6>K3-लक्ष्मीः>T6</a>#!html/SV-IV/SV-56/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!दधति.
+row2#!v#!दधति 
+row3#!v#!धा1{कर्तरि;लट्;प्र;बहु;परस्मैपदी;डुधाञ्;जुहोत्यादिः}/दधत्{पुं}{7;एक}/दधत्{नपुं}{7;एक}. 
+row4#!v#!<a (click)=showDic('धा1')>धा1</a>{कर्तरि;लट्;प्र;बहु;परस्मैपदी;डुधाञ्;जुहोत्यादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!धारण_कर_रही_हैं.
+row7#!v#!holds.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!पुष्पिताग्रा ।
+row11#!v#!निदर्शना ।
+row12#!v#!
+
+

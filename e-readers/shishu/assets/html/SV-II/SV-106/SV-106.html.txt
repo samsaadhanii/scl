@@ -1,0 +1,170 @@
+row1#!number#!<a href="html/SV-II/SV-106/106.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-106/106.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">106.A</a>#!html/SV-II/SV-106/106.jpg#!row1#!n6#!नाकिनां
+row2#!number#!106.B</a>#!row2#!n6#!नाकिनां 
+row3#!number#!106.C</a>#!row3#!n6#!नाकिन्{पुं}{6;बहु} 
+row4#!number#!106.D</a>#!row4#!n6#!<a (click)=showDic('नाकिन्')>नाकिन्</a>{पुं}{6;बहु} 
+row5#!number#!106.E</a>#!row5#!n6#!षष्ठीसम्बन्धः,2
+row6#!number#!106.F</a>#!row6#!n6#!देवों_को
+row7#!number#!106.G</a>#!row7#!n6#!of Gods
+row8#!number#!106.H#!row8#!n6#!
+row9#!number#!106.I</a>#!row9#!n6#!
+row10#!number#!106.J</a>#!row10#!n6#!
+row11#!number#!106.K</a>#!row11#!n6#!
+row12#!number#!106.L</a>#!row12#!n6#!
+
+row1#!n4#!प्रीतये
+row2#!n4#!प्रीतये 
+row3#!n4#!प्रीति{स्त्री}{4;एक} 
+row4#!n4#!<a (click)=showDic('प्रीति')>प्रीति</a>{स्त्री}{4;एक} 
+row5#!n4#!<a href="javascript:show('तादर्थ्यम्,')">तादर्थ्यम्,3</a>
+row6#!n4#!प्रसन्न_करने_के_लिये
+row7#!n4#!to please
+row8#!n4#!-
+row9#!n4#!
+row10#!n4#!
+row11#!n4#!
+row12#!n4#!
+
+row1#!n1#!अरि-वधः
+row2#!n1#!अरिवधः 
+row3#!n1#!अरि-वध{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('अरि')>अरि</a>-<a (click)=showDic('वध')>वध</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n1#!शत्रु-वध 
+row7#!n1#!slaying the enemy
+row8#!n1#!<a href="html/SV-II/SV-106/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-106/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अरि-वधः>T6</a>#!html/SV-II/SV-106/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!श्रेयान्
+row2#!n1#!श्रेयान् 
+row3#!n1#!श्रेयस्{पुं}{1;एक}/श्रेय{पुं}{2;बहु} 
+row4#!n1#!<a (click)=showDic('श्रेयस्')>श्रेयस्</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,5</a>
+row6#!n1#!श्रेष्ठ
+row7#!n1#!is best
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘प्रशस्यस्य श्रः’ (5।3।60) इति श्रादेशः ।
+
+row1#!NA#!इति
+row2#!NA#!इति 
+row3#!NA#!इति{अव्य} 
+row4#!NA#!<a (click)=showDic('इति')>इति</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,6</a>
+row6#!NA#!ऐसा 
+row7#!NA#!thus
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!मन्यसे
+row2#!v#!मन्यसे 
+row3#!v#!मन्1{कर्मणि;लट्;म;एक;आत्मनेपदी;मनँ;दिवादिः}/मन्2{कर्मणि;लट्;म;एक;आत्मनेपदी;मनुँ;तनादिः} 
+row4#!v#!<a (click)=showDic('मन्1')>मन्1</a>{कर्मणि;लट्;म;एक;आत्मनेपदी;मनँ;दिवादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!मानते_हो
+row7#!v#!if you think
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!NA#!(चेत्)
+row2#!NA#!चेत्
+row3#!NA#!चेत्{अव्य} 
+row4#!NA#!<a (click)=showDic('चेत्')>चेत्</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,6</a>
+row6#!NA#!तो 
+row7#!NA#!then
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n6#!पुरोडाशभुजाम्
+row2#!n6#!पुरोडाशभुजाम् 
+row3#!n6#!पुरोडाशभुज्{पुं}{6;बहु} 
+row4#!n6#!<a (click)=showDic('पुरोडाशभुज्')>पुरोडाशभुज्</a>{पुं}{6;बहु} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,9</a>
+row6#!n6#!हविष्य_का_भोजन_करने_वाले_देवों_का
+row7#!n6#!Gods who feed upon the Purodāsa offering
+row8#!n6#!<a href="html/SV-II/SV-106/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-106/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><पुरोडाश-भुक्>U</a>#!html/SV-II/SV-106/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!इष्टं
+row2#!n2#!इष्टं 
+row3#!n2#!इष्ट{पुं}{2;एक}/इष्ट{नपुं}{1;एक}/इष्ट{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('इष्2')>इष्2</a>{कृत्_प्रत्ययः:क्त;इषुँ;तुदादिः;पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n2#!इष्ट
+row7#!n2#!please
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!कर्तुम्
+row2#!NA#!कर्तुम् 
+row3#!NA#!कृ1{कृत्_प्रत्ययः:तुमुन्;कृञ्;भ्वादिः}/कृ2{कृत्_प्रत्ययः:तुमुन्;कृञ्;स्वादिः}/कृ3{कृत्_प्रत्ययः:तुमुन्;डुकृञ्;तनादिः} 
+row4#!NA#!<a (click)=showDic('कृ1')>कृ1</a>{कृत्_प्रत्ययः:तुमुन्;कृञ्;भ्वादिः} 
+row5#!NA#!<a href="javascript:show('प्रयोजनम्,')">प्रयोजनम्,13</a>
+row6#!NA#!करने_के_लिये 
+row7#!NA#!to do
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!इष्टम्
+row2#!n2#!इष्टम् 
+row3#!n2#!इष्ट{पुं}{2;एक}/इष्ट{नपुं}{1;एक}/इष्ट{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('यज्1')>यज्1</a>{कृत्_प्रत्ययः:क्त;यजँ;भ्वादिः;पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('अभिहित_कर्म,')">अभिहित_कर्म,13</a>
+row6#!n2#!यज्ञ
+row7#!n2#!sacrifice
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!यजेर्भावे क्तः । ‘वचिस्वपि-’ (6।1।15) इत्यादिना सम्प्रसारणम् ।
+
+row1#!NA#!अलंतराम्
+row2#!NA#!अलंतराम्
+row3#!NA#!अलम्तराम्{अव्य}
+row4#!NA#!<a (click)=showDic('अलम्तराम्')>अलम्तराम्</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,13</a>
+row6#!NA#!पर्याप्त
+row7#!NA#!enough
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!अव्ययादामुप्रत्ययः ।
+
+row1#!v#!(भवति).
+row2#!v#!भवति
+row3#!v#!भवत्{पुं}{7;एक}/भू1{कर्तरि;लट्;प्र;एक;परस्मैपदी;भू;भ्वादिः}/भवत्{पुं}{7;एक}. 
+row4#!v#!<a (click)=showDic('भू1')>भू1</a>{कर्तरि;लट्;प्र;एक;परस्मैपदी;भू;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!होता_है. 
+row7#!v#!is.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!-
+row12#!v#!
+
+

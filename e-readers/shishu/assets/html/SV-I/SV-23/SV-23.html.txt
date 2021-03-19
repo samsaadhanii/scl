@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-I/SV-23/23.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-23/23.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">23.A</a>#!html/SV-I/SV-23/23.jpg#!row1#!n6#!युगान्त-काल-प्रतिसंहृत-आत्मनः
+row2#!number#!23.B</a>#!row2#!n6#!युगान्त-काल-प्रतिसंहृत-आत्मनः 
+row3#!number#!23.C</a>#!row3#!n6#!युगान्त-काल-प्रतिसंहृत-आत्मन्{पुं}{2;बहु}/आत्मन्{पुं}{5;एक}/आत्मन्{पुं}{6;एक} 
+row4#!number#!23.D</a>#!row4#!n6#!<a (click)=showDic('युगान्त')>युगान्त</a>-<a (click)=showDic('काल')>काल</a>-<a (click)=showDic('प्रतिसंहृत')>प्रतिसंहृत</a>-<a (click)=showDic('आत्मन्')>आत्मन्</a>{पुं}{6;एक} 
+row5#!number#!23.E</a>#!row5#!n6#!विशेषणम्,2
+row6#!number#!23.F</a>#!row6#!n6#!युगों के अन्त में जीवों को अपने आप में लीन करने वाले
+row7#!number#!23.G</a>#!row7#!n6#!who merged all the creatures into himself at the time of deluge
+row8#!number#!23.H#!row8#!n6#!<a href="html/SV-I/SV-23/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-23/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<युग-<अन्त-काल>K1>T6-प्रतिसंहृतात्मा>Bs3</a>#!html/SV-I/SV-23/samaasa1.jpg
+row9#!number#!23.I</a>#!row9#!n6#!
+row10#!number#!23.J</a>#!row10#!n6#!
+row11#!number#!23.K</a>#!row11#!n6#!
+row12#!number#!23.L</a>#!row12#!n6#!
+
+row1#!n6#!कैटभ-द्विषः
+row2#!n6#!कैटभ-द्विषः 
+row3#!n6#!कैटभ-द्विष{पुं}{1;एक}/{पुं}{6;एक}
+row4#!n6#!<a (click)=showDic('कैटभ')>कैटभ</a>-<a (click)=showDic('द्विट्')>द्विट्</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,3</a>
+row6#!n6#!कैटभ_के शत्रु
+row7#!n6#!enemy of Kaiṭabha
+row8#!n6#!<a href="html/SV-I/SV-23/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-23/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कैटभ-द्विट्>U</a>#!html/SV-I/SV-23/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n7#!यस्यां
+row2#!n7#!यस्यां 
+row3#!n7#!यद्{स्त्री}{7;एक} 
+row4#!n7#!<a (click)=showDic('यद्')>यद्</a>{स्त्री}{7;एक} 
+row5#!n7#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n7#!जिस_में
+row7#!n7#!in whom
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!तनौ
+row2#!n7#!तनौ 
+row3#!n7#!तनु{पुं}{7;एक}/तनु{स्त्री}{7;एक} 
+row4#!n7#!<a (click)=showDic('तनु')>तनु</a>{स्त्री}{7;एक} 
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,7</a>
+row6#!n7#!शरीर_में
+row7#!n7#!in the body
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n1#!जगन्ति
+row2#!n1#!जगन्ति 
+row3#!n1#!जगत्{नपुं}{1;बहु}/जगत्{नपुं}{2;बहु}/जगत्{नपुं}{8;बहु}/जगन्ती{स्त्री}{8;एक} 
+row4#!n1#!<a (click)=showDic('जगत्')>जगत्</a>{नपुं}{1;बहु}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,7</a>
+row6#!n1#!चौदह भुवन
+row7#!n1#!in all the worlds
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!सविकासम्
+row2#!n1#!सविकासम् 
+row3#!n1#!सविकास{पुं}{2;एक}/सविकाश{नपुं}{1;एक}/सविकाश{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('सविकास')>सविकास</a>{नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,7</a>
+row6#!n1#!विस्तार_के साथ
+row7#!n1#!with plenty of space
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!आसत
+row2#!v#!आसत 
+row3#!v#!अस्1{कर्तरि;लङ्;म;बहु;परस्मैपदी;असँ;भ्वादिः}/अस्1{कर्तरि;लङ्;प्र;एक;आत्मनेपदी;असँ;भ्वादिः}/आस्1{कर्तरि;लङ्;प्र;बहु;आत्मनेपदी;आसँ;अदादिः} 
+row4#!v#!<a (click)=showDic('आस्1')>आस्1</a>{कर्तरि;लङ्;प्र;बहु;आत्मनेपदी;आसँ;अदादिः}
+row5#!v#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,8</a>
+row6#!v#!रहते थे
+row7#!v#!lived
+row8#!v#!-
+row9#!v#!अकर्मककर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!NA#!तत्र
+row2#!NA#!तत्र 
+row3#!NA#!तत्र{अव्य} 
+row4#!NA#!<a (click)=showDic('तत्र')>तत्र</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,12</a>
+row6#!NA#!वहाँ 
+row7#!NA#!there
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!तपोधन-अभ्यागम-सम्भवाः
+row2#!n1#!तपोधन-अभ्यागम-सम्भवाः 
+row3#!n1#!तपोधन-अभ्यागम-सम्भव{पुं}{1;बहु}/सम्भवा{स्त्री}{1;बहु}/सम्भवा{स्त्री}{2;बहु}/सम्भव{पुं}{8;बहु}/सम्भवा{स्त्री}{8;बहु} 
+row4#!n1#!<a (click)=showDic('तपोधन')>तपोधन</a>-<a (click)=showDic('अभ्यागम')>अभ्यागम</a>-<a (click)=showDic('सम्भवा')>सम्भवा</a>{स्त्री}{1;बहु} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,10</a>
+row6#!n1#!तपोधन_के आने से उत्पन्न
+row7#!n1#!caused by the arrival of the sage
+row8#!n1#!<a href="html/SV-I/SV-23/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-23/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<तपो-धन>Bs6-अभ्यागम>T6-सम्भवा>Bs7</a>#!html/SV-I/SV-23/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!मुदः
+row2#!n1#!मुदः 
+row3#!n1#!मुद्{स्त्री}{1;बहु}/मुद्{स्त्री}{2;बहु}/मुद्{स्त्री}{5;एक}/मुद्{स्त्री}{6;एक}/मुद्{स्त्री}{8;बहु} 
+row4#!n1#!<a (click)=showDic('मुद्')>मुद्</a>{स्त्री}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,12</a>
+row6#!n1#!हर्ष_को 
+row7#!n1#!of the joy
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!न
+row2#!NA#!न 
+row3#!NA#!न{अव्य} 
+row4#!NA#!<a (click)=showDic('न')>न</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,12</a>
+row6#!NA#!नहीं 
+row7#!NA#!not
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!ममुः.
+row2#!v#!ममुः 
+row3#!v#!मा1{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;मा;अदादिः}. 
+row4#!v#!<a (click)=showDic('मा1')>मा1</a>{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;मा;अदादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!समा सका.
+row7#!v#!could not contain.
+row8#!v#!-
+row9#!v#!अकर्मककर्तरि
+row10#!v#!वंशस्थम् ।
+row11#!v#!अतिशयोक्तिः ।
+row12#!v#!
+
+

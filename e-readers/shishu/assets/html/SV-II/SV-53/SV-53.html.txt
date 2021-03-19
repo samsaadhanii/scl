@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-II/SV-53/53.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-53/53.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">53.A</a>#!html/SV-II/SV-53/53.jpg#!row1#!n1#!अङ्क-अधिरोपित-मृगः
+row2#!number#!53.B</a>#!row2#!n1#!अङ्काधिरोपितमृगः 
+row3#!number#!53.C</a>#!row3#!n1#!अङ्क-अधिरोपित-मृग{पुं}{1;एक} 
+row4#!number#!53.D</a>#!row4#!n1#!<a (click)=showDic('अङ्क')>अङ्क</a>-<a (click)=showDic('अधिरोपित')>अधिरोपित</a>-<a (click)=showDic('मृग')>मृग</a>{पुं}{1;एक} 
+row5#!number#!53.E</a>#!row5#!n1#!विशेषणम्,2
+row6#!number#!53.F</a>#!row6#!n1#!अंक_में_मृग_को_रखनेवाले
+row7#!number#!53.G</a>#!row7#!n1#!Who holds a deer on his lap
+row8#!number#!53.H#!row8#!n1#!<a href="html/SV-II/SV-53/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-53/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<अङ्क-अधिरोपित>T7-मृगः>Bs3</a>#!html/SV-II/SV-53/samaasa1.jpg
+row9#!number#!53.I</a>#!row9#!n1#!
+row10#!number#!53.J</a>#!row10#!n1#!
+row11#!number#!53.K</a>#!row11#!n1#!
+row12#!number#!53.L</a>#!row12#!n1#!
+
+row1#!n1#!चन्द्रमा
+row2#!n1#!चन्द्रमा 
+row3#!n1#!चन्द्रमस्{पुं}{1;एक}
+row4#!n1#!<a (click)=showDic('चन्द्रमस्')>चन्द्रमस्</a>{पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,5</a>
+row6#!n1#!चन्द्रमा 
+row7#!n1#!the moon
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!मृग-लाञ्छनः
+row2#!n1#!मृगलाञ्छनः 
+row3#!n1#!मृग-लाञ्छन{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('मृग')>मृग</a>-<a (click)=showDic('लाञ्छन')>लाञ्छन</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,2</a>
+row6#!n1#!मृग-लाञ्छन
+row7#!n1#!deer-stained
+row8#!n1#!<a href="html/SV-II/SV-53/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-53/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><मृग-लाञ्छनः>Bs6</a>#!html/SV-II/SV-53/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!(इति)
+row2#!NA#!इति
+row3#!NA#!इति{अव्य} 
+row4#!NA#!<a (click)=showDic('इति')>इति</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,5</a>
+row6#!NA#!ऐसा 
+row7#!NA#!thus
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!(ख्यातः)
+row2#!n1#!ख्यातः
+row3#!n1#!ख्यात{पुं}{1;एक}/ख्या1{कर्तरि;लट्;प्र;द्वि;परस्मैपदी;ख्या;अदादिः}/ख्यात्{पुं}{2;बहु}/ख्यात्{पुं}{5;एक}/ख्यात्{पुं}{6;एक}/ख्यात्{नपुं}{5;एक}/ख्यात्{नपुं}{6;एक}/ख्या1{कृत्_प्रत्ययः:क्त;ख्या;अदादिः;पुं}{1;एक}
+row4#!n1#!<a (click)=showDic('ख्या1')>ख्या1</a>{कृत्_प्रत्ययः:क्त;ख्या;अदादिः;पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('')">0</a>
+row6#!n1#!कहा_जाता_है
+row7#!n1#!is said
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!निष्ठुर-आक्षिप्त-मृगयूथः
+row2#!n1#!निष्ठुर-आक्षिप्त-मृगयूथः 
+row3#!n1#!निष्ठुर-आक्षिप्त-मृगयूथ{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('निष्ठुर')>निष्ठुर</a>-<a (click)=showDic('आक्षिप्त')>आक्षिप्त</a>-<a (click)=showDic('मृगयूथ')>मृगयूथ</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n1#!निर्दयता-पूर्वक मृग-समूह_को_मारने_वाले
+row7#!n1#!who ruthlessly kills herds of deer
+row8#!n1#!<a href="html/SV-II/SV-53/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-53/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<निष्ठुर-आक्षिप्त>T2-<मृग-यूथः>T6>Bs3</a>#!html/SV-II/SV-53/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!केसरी
+row2#!n1#!केसरी 
+row3#!n1#!केसरिन्{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('केसरिन्')>केसरिन्</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n1#!सिंह 
+row7#!n1#!the lion
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!(तु)
+row2#!NA#!तु
+row3#!NA#!तु{अव्य} 
+row4#!NA#!<a (click)=showDic('तु')>तु</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,7</a>
+row6#!NA#!तो 
+row7#!NA#!but
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!मृगाधिपः
+row2#!n1#!मृगाधिपः 
+row3#!n1#!मृगाधिप{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('मृगाधिप')>मृगाधिप</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,11</a>
+row6#!n1#!मृगाधिप 
+row7#!n1#!the king of deer (or beasts)
+row8#!n1#!<a href="html/SV-II/SV-53/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-53/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><मृग-अधिपः>T6</a>#!html/SV-II/SV-53/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!(इति)
+row2#!NA#!इति
+row3#!NA#!इति{अव्य} 
+row4#!NA#!<a (click)=showDic('इति')>इति</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,11</a>
+row6#!NA#!ऐसा 
+row7#!NA#!thus
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!(ख्यातः).
+row2#!n1#!ख्यातः
+row3#!n1#!ख्यात{पुं}{1;एक}/ख्या1{कर्तरि;लट्;प्र;द्वि;परस्मैपदी;ख्या;अदादिः}/ख्यात्{पुं}{2;बहु}/ख्यात्{पुं}{5;एक}/ख्यात्{पुं}{6;एक}/ख्यात्{नपुं}{5;एक}/ख्यात्{नपुं}{6;एक}. 
+row4#!n1#!<a (click)=showDic('ख्या1')>ख्या1</a>{कृत्_प्रत्ययः:क्त;ख्या;अदादिः;पुं}{1;एक}.
+row5#!n1#!<a href="javascript:show('')">0</a>
+row6#!n1#!कहा_जाता_है.
+row7#!n1#!is said.
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!अनुष्टुप् ।
+row11#!n1#!अप्रस्तुतप्रशंसा ।
+row12#!n1#!
+
+

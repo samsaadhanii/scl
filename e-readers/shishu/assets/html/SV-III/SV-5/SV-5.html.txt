@@ -1,0 +1,79 @@
+row1#!number#!<a href="html/SV-III/SV-5/5.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-5/5.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">5.A</a>#!html/SV-III/SV-5/5.jpg#!row1#!n6#!तस्य
+row2#!number#!5.B</a>#!row2#!n6#!तस्य 
+row3#!number#!5.C</a>#!row3#!n6#!तद्{पुं}{6;एक}/तद्{नपुं}{6;एक} 
+row4#!number#!5.D</a>#!row4#!n6#!<a (click)=showDic('तद्')>तद्</a>{पुं}{6;एक} 
+row5#!number#!5.E</a>#!row5#!n6#!षष्ठीसम्बन्धः,2
+row6#!number#!5.F</a>#!row6#!n6#!उसके 
+row7#!number#!5.G</a>#!row7#!n6#!His
+row8#!number#!5.H#!row8#!n6#!
+row9#!number#!5.I</a>#!row9#!n6#!
+row10#!number#!5.J</a>#!row10#!n6#!
+row11#!number#!5.K</a>#!row11#!n6#!
+row12#!number#!5.L</a>#!row12#!n6#!
+
+row1#!n1#!उरः
+row2#!n1#!उरः 
+row3#!n1#!उरस्{नपुं}{1;एक}/उरस्{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('उरस्')>उरस्</a>{नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,5</a>
+row6#!n1#!वक्षःस्थल
+row7#!n1#!chest
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!उल्लसत्-काञ्चन-कुण्डल-अग्र-प्रत्युप्त-गारुत्मत-रत्नभासा
+row2#!n3#!उल्लसत्-काञ्चन-कुण्डल-अग्र-प्रत्युप्त-गारुत्मत-रत्नभासा 
+row3#!n3#!उल्लसत्-काञ्चन-कुण्डल-अग्र-प्रत्युप्त-गारुत्मत-रत्नभासा 
+row4#!n3#!<a (click)=showDic('उल्लसत्')>उल्लसत्</a>-<a (click)=showDic('काञ्चन')>काञ्चन</a>-<a (click)=showDic('कुण्डल')>कुण्डल</a>-<a (click)=showDic('अग्र')>अग्र</a>-<a (click)=showDic('प्रत्युप्त')>प्रत्युप्त</a>-<a (click)=showDic('गारुत्मत')>गारुत्मत</a>-<a (click)=showDic('रत्नभास्')>रत्नभास्</a>{स्त्री}{3;एक}
+row5#!n3#!<a href="javascript:show('करण,')">करण,5</a>
+row6#!n3#!चमकते_हुए_स्वर्ण-कुण्डलों_के अग्रभाग_में_जड़े_हुए_पद्मराग-मणियों_की_कान्ति_से
+row7#!n3#!with the flashing radiance of the emeralds set at the ends of his golden earrings
+row8#!n3#!<a href="html/SV-III/SV-5/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-5/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<उल्लसत्-<काञ्चन-कुण्डल>K1>K1-अग्र>T6-प्रत्युप्त>T7-गारुत्मतरत्न>K2-भा>Bs6</a>#!html/SV-III/SV-5/samaasa1.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n2#!बाल्य-उचित-नीलकण्ठ-पिच्छावचूडाकलनाम्
+row2#!n2#!बाल्य-उचित-नीलकण्ठ-पिच्छावचूडाकलनाम् 
+row3#!n2#!बाल्य-उचित-नीलकण्ठ-पिच्छावचूडाकलनाम् 
+row4#!n2#!<a (click)=showDic('बाल्य')>बाल्य</a>-<a (click)=showDic('उचित')>उचित</a>-<a (click)=showDic('नीलकण्ठ')>नीलकण्ठ</a>-<a (click)=showDic('पिच्छावचूडाकलना')>पिच्छावचूडाकलना</a>{स्त्री}{2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,5</a>
+row6#!n2#!बचपन_में_वारण_करने_के_योग्य मयूर-पंखों_की_माला धारण_किये_हुए_के_शोभा
+row7#!n2#!the necklace of peacock feathers that he used to wear in his childhood fastened about it
+row8#!n2#!<a href="html/SV-III/SV-5/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-5/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<बाल्य-उचित>T7-नीलकण्ठपिच्छ>K3-अवचूडा>T3-कलना>T6</a>#!html/SV-III/SV-5/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!अवाप
+row2#!v#!अवाप 
+row3#!v#!अव_आप्1{कर्तरि;लिट्;म;बहु;परस्मैपदी;आपॢँ;स्वादिः}/अव_आप्1{कर्तरि;लिट्;उ;एक;परस्मैपदी;आपॢँ;स्वादिः}/अव_आप्1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;आपॢँ;स्वादिः} 
+row4#!v#!<a (click)=showDic('अव_आप्1')>अव_आप्1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;आपॢँ;स्वादिः} 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!पाया 
+row7#!v#!obtained
+row8#!v#!-
+row9#!v#!
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!NA#!इव.
+row2#!NA#!इव 
+row3#!NA#!इव{अव्य}. 
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}. 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,5</a>
+row6#!NA#!समान.
+row7#!NA#!like.
+row8#!NA#!-
+row9#!NA#!कर्तरि
+row10#!NA#!उपजाति ।
+row11#!NA#!उत्प्रेक्षा ।
+row12#!NA#!
+
+

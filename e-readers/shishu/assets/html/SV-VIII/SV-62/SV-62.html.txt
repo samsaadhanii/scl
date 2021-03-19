@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-VIII/SV-62/62.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-62/62.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">62.A</a>#!html/SV-VIII/SV-62/62.jpg#!row1#!n3#!नीरैः
+row2#!number#!62.B</a>#!row2#!n3#!नीरैः
+row3#!number#!62.C</a>#!row3#!n3#!नीर{नपुं;3;बहु}
+row4#!number#!62.D</a>#!row4#!n3#!<a (click)=showDic('नीर')>नीर</a>{नपुं;3;बहु}
+row5#!number#!62.E</a>#!row5#!n3#!कर्ता,11
+row6#!number#!62.F</a>#!row6#!n3#!जल_से
+row7#!number#!62.G</a>#!row7#!n3#!by water
+row8#!number#!62.H#!row8#!n3#!
+row9#!number#!62.I</a>#!row9#!n3#!
+row10#!number#!62.J</a>#!row10#!n3#!
+row11#!number#!62.K</a>#!row11#!n3#!
+row12#!number#!62.L</a>#!row12#!n3#!
+
+row1#!n5#!आसेकात्
+row2#!n5#!आसेकात्
+row3#!n5#!आसेक{पुं;5;एक}
+row4#!n5#!<a (click)=showDic('आसेक')>आसेक</a>{पुं;5;एक}
+row5#!n5#!<a href="javascript:show('हेतुः,')">हेतुः,11</a>
+row6#!n5#!सिंचते रहने के कारण
+row7#!n5#!due to sprinkled with water
+row8#!n5#!-
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!
+
+row1#!n2#!शीत-आर्तिं
+row2#!n2#!शीत-आर्तिं
+row3#!n2#!शीत-आर्ति{स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('शीत')>शीत</a>-<a (click)=showDic('आर्ति')>आर्ति</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,4</a>
+row6#!n2#!शीत_से_व्यथित
+row7#!n2#!troubled due to wind
+row8#!n2#!<a href="html/SV-VIII/SV-62/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-62/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><शीत-आर्तिः>T3</a>#!html/SV-VIII/SV-62/samaasa1.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n3#!बलवद्-उपेयुषा
+row2#!n3#!बलवद्-उपेयुषा
+row3#!n3#!बलवद्-उपेयुषा}
+row4#!n3#!<a (click)=showDic('बलवद्')>बलवद्</a>-<a (click)=showDic('उपेयुष्')>उपेयुष्</a>{स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,5</a>
+row6#!n3#!बल_से_प्राप्त_हुए
+row7#!n3#!obtained forcefully
+row8#!n3#!<a href="html/SV-VIII/SV-62/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-62/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><बलवत्-उपेयुषा>T7</a>#!html/SV-VIII/SV-62/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!इव
+row2#!NA#!इव
+row3#!NA#!इव{अव्य}
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,7</a>
+row6#!NA#!जैसे
+row7#!NA#!as if
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!शिशिरसमीर-कम्पितेन
+row2#!n3#!शिशिरसमीर-कम्पितेन
+row3#!n3#!शिशिरसमीर-कम्पित{पुं;3;एक}/कम्पित{नपुं;3;एक}
+row4#!n3#!<a (click)=showDic('शिशिरसमीर')>शिशिरसमीर</a>-<a (click)=showDic('कम्प्1')>कम्प्1</a>{क्त;कपिँ;भ्वादिः;पुं;3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n3#!शीतलवायु से काँपते हुए
+row7#!n3#!shivering due to cold wind
+row8#!n3#!<a href="html/SV-VIII/SV-62/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-62/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<शिशिर-समीर>T6-कम्पितः>T3</a>#!html/SV-VIII/SV-62/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!नवा-अंशुकेन
+row2#!n3#!नवा-अंशुकेन
+row3#!n3#!नवा-अंशुक{नपुं;3;एक}/अंशुक{पुं;3;एक}
+row4#!n3#!<a (click)=showDic('नवा')>नवा</a>-<a (click)=showDic('अंशुक')>अंशुक</a>{पुं;3;एक}
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,11</a>
+row6#!n3#!नवीन वस्त्र_ने
+row7#!n3#!new garment
+row8#!n3#!<a href="html/SV-VIII/SV-62/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-62/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><नव-अंशुकः>T3</a>#!html/SV-VIII/SV-62/samaasa4.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!अभिनवयौवनोष्म-भाजः
+row2#!n1#!अभिनवयौवनोष्म-भाजः
+row3#!n1#!अभिनवयौवनोष्म-भाज्{पुं;1;बहु}/भाज्{पुं;2;बहु}/भाज्{पुं;5;एक}/भाज्{पुं;6;एक}/भाज्{पुं;8;बहु}/भाज्{नपुं;5;एक}/भाज्{नपुं;6;एक}
+row4#!n1#!<a (click)=showDic('अभिनवयौवनोष्म')>अभिनवयौवनोष्म</a>-<a (click)=showDic('भाज्')>भाज्</a>{स्त्री;1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n1#!अत्यधिक नवयौवनावस्था की ऊष्मा-सम्पन्न
+row7#!n1#!possessing hot breath due to tender youth
+row8#!n1#!<a href="html/SV-VIII/SV-62/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-62/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<अभिनव-<यौवन-उष्म>T6>K3-भाज्>T6</a>#!html/SV-VIII/SV-62/samaasa5.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!रामाणां
+row2#!n6#!रामाणां
+row3#!n6#!राम{पुं;6;बहु}/रामा{स्त्री;6;बहु}
+row4#!n6#!<a (click)=showDic('राम')>राम</a>{स्त्री;6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,10</a>
+row6#!n6#!अङ्गनाओं_के
+row7#!n6#!of women
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n7#!स्तन-तटयोः
+row2#!n7#!स्तन-तटयोः
+row3#!n7#!स्तन-तट{पुं;6;द्वि}/तट{पुं;7;द्वि}
+row4#!n7#!<a (click)=showDic('स्तन')>स्तन</a>-<a (click)=showDic('तट')>तट</a>{पुं;7;द्वि}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,11</a>
+row6#!n7#!स्तन-तटों_में
+row7#!n7#!hot breath
+row8#!n7#!<a href="html/SV-VIII/SV-62/samaasa6.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-62/samaasa6.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><स्तन-तटः>T6</a>#!html/SV-VIII/SV-62/samaasa6.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!v#!आश्लेषि
+row2#!v#!आश्लेषि
+row3#!v#!आ_श्लिष्1{कर्मणि;लुङ्;प्र;एक;आत्मनेपदी;श्लिषुँ;भ्वादिः}/आ_श्लिष्2{कर्मणि;लुङ्;प्र;एक;आत्मनेपदी;श्लिषँ;दिवादिः}
+row4#!v#!<a (click)=showDic('आ_श्लिष्1')>आ_श्लिष्1</a>{भावे;लुङ्;प्र;एक;आत्मनेपदी;श्लिषुँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!आलिंगन_कर_लिया
+row7#!v#!embraced.
+row8#!v#!-
+row9#!v#!भावे
+row10#!v#!प्रहर्षिणी ।
+row11#!v#!उत्प्रेक्षा ।
+row12#!v#!
+
+

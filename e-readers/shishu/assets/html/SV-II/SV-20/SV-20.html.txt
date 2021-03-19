@@ -1,0 +1,92 @@
+row1#!number#!<a href="html/SV-II/SV-20/20.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-20/20.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">20.A</a>#!html/SV-II/SV-20/20.jpg#!row1#!n3#!ककुद्मि-कन्या-वक्त्रान्तर्वास-लब्ध-अधिवासया
+row2#!number#!20.B</a>#!row2#!n3#!ककुद्मि-कन्या-वक्त्रान्तर्वास-लब्ध-अधिवासया
+row3#!number#!20.C</a>#!row3#!n3#!ककुद्मि-कन्या-वक्त्रान्तर्वास-लब्ध-अधिवासा{स्त्री}{3;एक} 
+row4#!number#!20.D</a>#!row4#!n3#!<a (click)=showDic('ककुद्मि')>ककुद्मि</a>-<a (click)=showDic('कन्या')>कन्या</a>-<a (click)=showDic('वक्त्रान्तर्वास')>वक्त्रान्तर्वास</a>-<a (click)=showDic('लब्ध')>लब्ध</a>-<a (click)=showDic('अधिवासा')>अधिवासा</a>{स्त्री}{3;एक} 
+row5#!number#!20.E</a>#!row5#!n3#!विशेषणम्,2
+row6#!number#!20.F</a>#!row6#!n3#!कुकुद्मि_की_कन्या रेवती_के_मुख_में_रहने_से
+row7#!number#!20.G</a>#!row7#!n3#!that had been dwelling (for a time) in the mouth of the daughter of Kukudmin
+row8#!number#!20.H#!row8#!n3#!<a href="html/SV-II/SV-20/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-20/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<कुकुद्मि-कन्या>T6-वक्त्र>T6-अन्त>T6-<वास-लब्ध>T3-अधिवासः>Bs3</a>#!html/SV-II/SV-20/samaasa1.jpg
+row9#!number#!20.I</a>#!row9#!n3#!
+row10#!number#!20.J</a>#!row10#!n3#!
+row11#!number#!20.K</a>#!row11#!n3#!
+row12#!number#!20.L</a>#!row12#!n3#!
+
+row1#!n3#!मदिरया
+row2#!n3#!मदिरया 
+row3#!n3#!मदिरा{स्त्री}{3;एक} 
+row4#!n3#!<a (click)=showDic('मदिरा')>मदिरा</a>{स्त्री}{3;एक} 
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,3</a>
+row6#!n3#!(सुवासित) मदिरा_से
+row7#!n3#!with the smell of the wine
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n2#!कृतानुव्याधं
+row2#!n2#!कृतानुव्याधं 
+row3#!n2#!कृतानुव्याध{पुं}{2;एक}/कृतानुव्याध{नपुं}{1;एक}/कृतानुव्याध{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('कृतानुव्याध')>कृतानुव्याध</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n2#!संसृष्ट
+row7#!n2#!blended
+row8#!n2#!<a href="html/SV-II/SV-20/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-20/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कृत-अनुव्याधः>Bs3</a>#!html/SV-II/SV-20/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!‘व्यधजपोरनुपसर्गे-’ (3।3।61) इत्यनुपसृष्टादप्प्रत्ययविधानादुपसृष्टाद्व्यधेर्धञ्प्रत्ययः ।
+
+row1#!n2#!मुख-आमोदम्
+row2#!n2#!मुखामोदम्
+row3#!n2#!मुख-आमोद{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('मुख')>मुख</a>-<a (click)=showDic('आमोद')>आमोद</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,5</a>
+row6#!n2#!मुख सौरभ_को
+row7#!n2#!the sweet odour of his mouth
+row8#!n2#!<a href="html/SV-II/SV-20/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-20/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><मुख-आमोदः>T6</a>#!html/SV-II/SV-20/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!उद्वमन्
+row2#!n1#!उद्वमन् 
+row3#!n1#!उद्वमत्{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('उद्_वम्2')>उद्_वम्2</a>{कृत्_प्रत्ययः:शतृ;टुवमँ;भ्वादिः;पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,7</a>
+row6#!n1#!उगलते_हुए
+row7#!n1#!while emitting
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!(रामः)
+row2#!n1#!रामः
+row3#!n1#!राम{पुं}{1;एक}/रा1{कर्तरि;लट्;उ;बहु;परस्मैपदी;रा;अदादिः} 
+row4#!n1#!<a (click)=showDic('राम')>राम</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,7</a>
+row6#!n1#!बलरामजी_ने
+row7#!n1#!Balarāma
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!(जगाद).
+row2#!v#!जगाद 
+row3#!v#!गद्1{कर्तरि;लिट्;उ;एक;परस्मैपदी;गदँ;भ्वादिः}/गद्1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;गदँ;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('गद्1')>गद्1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;गदँ;भ्वादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!स्पष्ट_बोला. 
+row7#!v#!spoke.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!-
+row12#!v#!
+
+

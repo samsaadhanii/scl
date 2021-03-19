@@ -1,0 +1,170 @@
+row1#!number#!<a href="html/SV-VII/SV-15/15.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-15/15.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">15.A</a>#!html/SV-VII/SV-15/15.jpg#!row1#!n3#!(भर्त्रा)
+row2#!number#!15.B</a>#!row2#!n3#!भर्त्रा
+row3#!number#!15.C</a>#!row3#!n3#!भर्तृ{पुं;3;एक}
+row4#!number#!15.D</a>#!row4#!n3#!<a (click)=showDic('भर्तृ')>भर्तृ</a>{पुं;3;एक}
+row5#!number#!15.E</a>#!row5#!n3#!उपपदविभक्तिः,2
+row6#!number#!15.F</a>#!row6#!n3#!पति
+row7#!number#!15.G</a>#!row7#!n3#!Husband
+row8#!number#!15.H#!row8#!n3#!
+row9#!number#!15.I</a>#!row9#!n3#!
+row10#!number#!15.J</a>#!row10#!n3#!
+row11#!number#!15.K</a>#!row11#!n3#!
+row12#!number#!15.L</a>#!row12#!n3#!
+
+row1#!NA#!सह
+row2#!NA#!सह
+row3#!NA#!सह{अव्य}/सह{पुं;8;एक}
+row4#!NA#!<a (click)=showDic('सह')>सह</a>{अव्य}
+row5#!NA#!<a href="javascript:show('उपपदसम्बन्धः,')">उपपदसम्बन्धः,3</a>
+row6#!NA#!के_साथ
+row7#!NA#!along with
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n6#!व्रजन्त्याः
+row2#!n6#!व्रजन्त्याः
+row3#!n6#!व्रजन्ती{स्त्री;5;एक}/व्रजन्ती{स्त्री;6;एक}
+row4#!n6#!<a (click)=showDic('व्रज्1')>व्रज्1</a>{शतृ_लट्;व्रजँ;भ्वादिः;स्त्री;6;एक}
+row5#!n6#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n6#!जाती_हुई
+row7#!n6#!while going
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!तरुण्याः
+row2#!n6#!तरुण्याः
+row3#!n6#!तरुणी{स्त्री;5;एक}/तरुणी{स्त्री;6;एक}
+row4#!n6#!<a (click)=showDic('तरुणी')>तरुणी</a>{स्त्री;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,5</a>
+row6#!n6#!युवती_के
+row7#!n6#!of a young woman
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!अविरल-पुलकः
+row2#!n1#!अविरल-पुलकः
+row3#!n1#!अविरल-पुलक{पुं;1;एक}
+row4#!n1#!<a (click)=showDic('अविरल')>अविरल</a>-<a (click)=showDic('पुलक')>पुलक</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!घन-रोमांच_युक्त
+row7#!n1#!endowed with horripilation
+row8#!n1#!<a href="html/SV-VII/SV-15/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-15/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<न-विरल>Tn-पुलकः>K1</a>#!html/SV-VII/SV-15/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!एकतरः
+row2#!n1#!एकतरः
+row3#!n1#!एकतर{पुं;1;एक}/एकतर{पुं;1;एक}
+row4#!n1#!<a (click)=showDic('एकतर')>एकतर</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!एक_स्थान_के
+row7#!n1#!flank
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!'एकाच्च प्राचाम्' (5।3।94) इति द्वयोरेकस्य निर्धारणे डतरच्प्रत्ययः ।
+
+row1#!n1#!स्तनः
+row2#!n1#!स्तनः
+row3#!n1#!स्तन{पुं;1;एक}
+row4#!n1#!<a (click)=showDic('स्तन')>स्तन</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,13</a>
+row6#!n1#!स्तन
+row7#!n1#!breast
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!प्रियस्य
+row2#!n6#!प्रियस्य
+row3#!n6#!प्रिय{पुं;6;एक}/प्रिय{नपुं;6;एक}
+row4#!n6#!<a (click)=showDic('प्रिय')>प्रिय</a>{पुं;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,9</a>
+row6#!n6#!प्रिय_के
+row7#!n6#!of beloved
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n7#!वक्षस्तट-भुवि
+row2#!n7#!वक्षस्तट-भुवि
+row3#!n7#!वक्षस्तट-भू{स्त्री;7;एक}
+row4#!n7#!<a (click)=showDic('वक्षस्तट')>वक्षस्तट</a>-<a (click)=showDic('भू')>भू</a>{स्त्री;7;एक}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,13</a>
+row6#!n7#!वक्षःस्थल के पार्श्व को
+row7#!n7#!to the side of (his) chest
+row8#!n7#!<a href="html/SV-VII/SV-15/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-15/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<वक्षस्-तट>K5-भूः>T6</a>#!html/SV-VII/SV-15/samaasa2.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!NA#!प्रति-पदं
+row2#!NA#!प्रति-पदं
+row3#!NA#!प्रति-पद्{पुं;2;एक}/पद{नपुं;1;एक}/पद{नपुं;2;एक}
+row4#!NA#!<a (click)=showDic('प्रति')>प्रति</a>-<a (click)=showDic('पद')>पद</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,13</a>
+row6#!NA#!सर्वत्र
+row7#!NA#!everywhere
+row8#!NA#!<a href="html/SV-VII/SV-15/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-15/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><प्रति-पदम्>A1</a>#!html/SV-VII/SV-15/samaasa3.jpg
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!घटित-विघटितः
+row2#!n1#!घटित-विघटितः
+row3#!n1#!घटित-विघटित{पुं;1;एक}/विघटितृ{पुं;8;एक}/विघटितृ{नपुं;8;एक}
+row4#!n1#!<a (click)=showDic('घटित')>घटित</a>-<a (click)=showDic('विघटित')>विघटित</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!स्पर्श करता और दूर होता हुआ
+row7#!n1#!at times connected and disconnected
+row8#!n1#!<a href="html/SV-VII/SV-15/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-15/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><घटित-विघटितः>K1</a>#!html/SV-VII/SV-15/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!'विशेषणं विशेष्येण बहुलम्' (2।1।57) इति समासः।
+
+row1#!n2#!कन्दुकविभ्रमं
+row2#!n2#!कन्दुक-विभ्रमं
+row3#!n2#!कन्दुक-विभ्रम{पुं;2;एक}
+row4#!n2#!<a (click)=showDic('कन्दुक')>कन्दुक</a>-<a (click)=showDic('विभ्रम')>विभ्रम</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,13</a>
+row6#!n2#!गेन्द_की-शोभा_को
+row7#!n2#!beauty of a ball
+row8#!n2#!<a href="html/SV-VII/SV-15/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-15/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कन्दुक-विभ्रमः>T6</a>#!html/SV-VII/SV-15/samaasa5.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!बभार
+row2#!v#!बभार
+row3#!v#!भृ2{कर्तरि;लिट्;उ;एक;परस्मैपदी;डुभृञ्;जुहोत्यादिः}/भृ2{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;डुभृञ्;जुहोत्यादिः}/भॄ1{कर्तरि;लिट्;उ;एक;परस्मैपदी;भॄ;क्र्यादिः}/भॄ1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;भॄ;क्र्यादिः}
+row4#!v#!<a (click)=showDic('भृ2')>भृ2</a>{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;डुभृञ्;जुहोत्यादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!धारण_किया.
+row7#!v#!bore.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!पुष्पिताग्रा ।
+row11#!v#!निदर्शना ।
+row12#!v#!
+
+

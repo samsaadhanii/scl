@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-V/SV-9/9.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-9/9.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">9.A</a>#!html/SV-V/SV-9/9.jpg#!row1#!n5#!खुर-अभिघातात्
+row2#!number#!9.B</a>#!row2#!n5#!खुर-अभिघातात् 
+row3#!number#!9.C</a>#!row3#!n5#!खुर-अभिघात{पुं}{5;एक} 
+row4#!number#!9.D</a>#!row4#!n5#!<a (click)=showDic('खुर')>खुर</a>-<a (click)=showDic('अभिघात')>अभिघात</a>{पुं}{5;एक} 
+row5#!number#!9.E</a>#!row5#!n5#!हेतुः,10
+row6#!number#!9.F</a>#!row6#!n5#!(घोड़ों)_के_खुरों_के_प्रहार_से
+row7#!number#!9.G</a>#!row7#!n5#!Due to the contact of the holves of (the horses)
+row8#!number#!9.H#!row8#!n5#!<a href="html/SV-V/SV-9/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-9/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><खुर-अभिघातः>T6</a>#!html/SV-V/SV-9/samaasa1.jpg
+row9#!number#!9.I</a>#!row9#!n5#!
+row10#!number#!9.J</a>#!row10#!n5#!
+row11#!number#!9.K</a>#!row11#!n5#!
+row12#!number#!9.L</a>#!row12#!n5#!
+
+row1#!n7#!उद्यत्कृशानु-शकलेषु
+row2#!n7#!उद्यत्कृशानु-शकलेषु 
+row3#!n7#!उद्यत्कृशानु-शकल{पुं}{7;बहु} 
+row4#!n7#!<a (click)=showDic('उद्यत्कृशानु')>उद्यत्कृशानु</a>-<a (click)=showDic('शकल')>शकल</a>{पुं}{7;बहु} 
+row5#!n7#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n7#!जिनमें_अग्नि_की_चिनगारियाँ_निकल_रही_हैं
+row7#!n7#!when blazes of fire were coming out
+row8#!n7#!<a href="html/SV-V/SV-9/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-9/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><उद्यत्-<कृशानु-शकलः>T6>Bs5</a>#!html/SV-V/SV-9/samaasa2.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!भूमी-समायत-शिला-फलक-आचितेषु
+row2#!n7#!भूमी-समायत-शिला-फलक-आचितेषु 
+row3#!n7#!भूमी-समायत-शिला-फलक-आचित{पुं}{7;बहु}/आचित{नपुं}{7;बहु} 
+row4#!n7#!<a (click)=showDic('भूमी')>भूमी</a>-<a (click)=showDic('समायत')>समायत</a>-<a (click)=showDic('शिला')>शिला</a>-<a (click)=showDic('फलक')>फलक</a>-<a (click)=showDic('आचित')>आचित</a>{पुं}{7;बहु}
+row5#!n7#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n7#!भूमि_पर_समतल_एवं_विशाल_शिलापट्टी_से_जो_व्याप्त_है
+row7#!n7#!where the land was flat and spread with vast slab stones
+row8#!n7#!<a href="html/SV-V/SV-9/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-9/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<भूमि-<सम-आयत>K1-<शिला-फलक>K5>T7-आचितः>T3</a>#!html/SV-V/SV-9/samaasa3.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n6#!शैलस्य
+row2#!n6#!शैलस्य 
+row3#!n6#!शैल{पुं}{6;एक}/शैल{नपुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('शैल')>शैल</a>{पुं}{6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,5</a>
+row6#!n6#!पर्वत_का 
+row7#!n6#!of the Raivataka mountain
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n7#!पर्यन्त-वर्त्मसु
+row2#!n7#!पर्यन्त-वर्त्मसु 
+row3#!n7#!पर्यन्त-वर्त्मन्{नपुं}{7;बहु} 
+row4#!n7#!<a (click)=showDic('पर्यन्त')>पर्यन्त</a>-<a (click)=showDic('वर्त्मन्')>वर्त्मन्</a>{नपुं}{7;बहु} 
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,8</a>
+row6#!n7#!समीपवर्ती-मार्गों_में
+row7#!n7#!on nearby roads
+row8#!n7#!<a href="html/SV-V/SV-9/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-9/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><पर्यन्त-वर्त्म>T7</a>#!html/SV-V/SV-9/samaasa4.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n1#!महाश्वाः
+row2#!n1#!महाश्वाः 
+row3#!n1#!महाश्व{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('महाश्व')>महाश्व</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n1#!श्रेष्ठ-जाति-घोड़ें
+row7#!n1#!the horses of best race
+row8#!n1#!<a href="html/SV-V/SV-9/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-9/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><महा-अश्वः>K3</a>#!html/SV-V/SV-9/samaasa5.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!दर्दुर-पुटान्
+row2#!n2#!दर्दुर-पुटान् 
+row3#!n2#!दर्दुर-पुट{पुं}{2;बहु} 
+row4#!n2#!<a (click)=showDic('दर्दुर')>दर्दुर</a>-<a (click)=showDic('पुट')>पुट</a>{पुं}{2;बहु} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n2#!डुग्गी_को
+row7#!n2#!drum kind special instrument
+row8#!n2#!<a href="html/SV-V/SV-9/samaasa6.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-9/samaasa6.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><दुर्दुर-पटः>T6</a>#!html/SV-V/SV-9/samaasa6.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!वादयन्तः
+row2#!n1#!वादयन्तः 
+row3#!n1#!वादयत्{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('वद्2')>वद्2</a>{कृत्_प्रत्ययः:शतृ;वदँ;चुरादिः;पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,9</a>
+row6#!n1#!बजाते_हुए
+row7#!n1#!while beating
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इव
+row2#!NA#!इव 
+row3#!NA#!इव{अव्य} 
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,7</a>
+row6#!NA#!जैसे 
+row7#!NA#!as if
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!विचक्रमिरे.
+row2#!v#!विचक्रमिरे 
+row3#!v#!वि_क्रम्1{कर्मणि;लिट्;प्र;बहु;आत्मनेपदी;क्रमुँ;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('वि_क्रम्1')>वि_क्रम्1</a>{कर्मणि;लिट्;प्र;बहु;आत्मनेपदी;क्रमुँ;भ्वादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!चलने_लगें.
+row7#!v#!were galloping.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!वसन्ततिलका ।
+row11#!v#!उत्प्रेक्षा ।
+row12#!v#!‘वेः पादविहरणे’ (1।3।41) इत्यात्मनेपदम् ।
+
+

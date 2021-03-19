@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-III/SV-58/58.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-58/58.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">58.A</a>#!html/SV-III/SV-58/58.jpg#!row1#!NA#!यत्र
+row2#!number#!58.B</a>#!row2#!NA#!यत्र 
+row3#!number#!58.C</a>#!row3#!NA#!यत्र{अव्य} 
+row4#!number#!58.D</a>#!row4#!NA#!<a (click)=showDic('यत्र')>यत्र</a>{अव्य} 
+row5#!number#!58.E</a>#!row5#!NA#!देशाधिकरणम्,8
+row6#!number#!58.F</a>#!row6#!NA#!जिस द्वारकापुरी_में
+row7#!number#!58.G</a>#!row7#!NA#!Where
+row8#!number#!58.H#!row8#!NA#!
+row9#!number#!58.I</a>#!row9#!NA#!
+row10#!number#!58.J</a>#!row10#!NA#!
+row11#!number#!58.K</a>#!row11#!NA#!
+row12#!number#!58.L</a>#!row12#!NA#!
+
+row1#!n1#!परस्पर-स्पर्धि-परार्ध्य-रूपाः
+row2#!n1#!परस्परस्पर्धिपरार्ध्यरूपाः 
+row3#!n1#!परस्पर-स्पर्धिन्-परार्ध्य-रूप{पुं}{1;बहु}/रूप{पुं}{8;बहु} 
+row4#!n1#!<a (click)=showDic('परस्पर')>परस्पर</a>-<a (click)=showDic('स्पर्धिन्')>स्पर्धिन्</a>-<a (click)=showDic('परार्ध्य')>परार्ध्य</a>-<a (click)=showDic('रूप')>रूप</a>{स्त्री}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,4</a>
+row6#!n1#!आपस_में_स्पर्धा_करनेवाले_रूपों_वाली
+row7#!n1#!whose most superb charms vied with one another
+row8#!n1#!<a href="html/SV-III/SV-58/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-58/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><परस्परस्पर्धिन्-परार्ध्यरूपा>Bs6</a>#!html/SV-III/SV-58/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!पौर-स्त्रियः
+row2#!n2#!पौरस्त्रियः 
+row3#!n2#!पौर-स्त्री{स्त्री}{1;बहु}/स्त्री{स्त्री}{2;बहु} 
+row4#!n2#!<a (click)=showDic('पौर')>पौर</a>-<a (click)=showDic('स्त्री')>स्त्री</a>{स्त्री}{2;बहु} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,4</a>
+row6#!n2#!नागरिक_अङ्गनाओं_की
+row7#!n2#!the city women
+row8#!n2#!<a href="html/SV-III/SV-58/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-58/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><पौर-स्त्री>T6</a>#!html/SV-III/SV-58/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!‘स्त्रियाः पुंवत्-’ (6।3।34) इत्यादिना पुंवद्भावः ।
+
+row1#!NA#!विधाय
+row2#!NA#!विधाय 
+row3#!NA#!विध{पुं}{4;एक}/विध{नपुं}{4;एक} 
+row4#!NA#!<a (click)=showDic('वि_धा1')>वि_धा1</a>{कृत्_प्रत्ययः:ल्यप्;डुधाञ्;जुहोत्यादिः}
+row5#!NA#!<a href="javascript:show('पूर्वकालः,')">पूर्वकालः,8</a>
+row6#!NA#!रचना_कर
+row7#!NA#!having fashioned
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!वेधाः
+row2#!n1#!वेधाः 
+row3#!n1#!वेध{पुं}{1;बहु}/वेध{पुं}{8;बहु}/वेधस्{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('वेध')>वेध</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n1#!विधाता_ने
+row7#!n1#!the creator
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!श्रीनिर्मिति-प्राप्त-घुणक्षतैक-वर्णोपमा-वाच्यम्
+row2#!n1#!श्रीनिर्मिति-प्राप्त-घुणक्षतैक-वर्णोपमा-वाच्यम् 
+row3#!n1#!श्रीनिर्मिति-प्राप्त-घुणक्षतैक-वर्णोपमा-वाच्य{पुं}{2;एक}/वाच्य{नपुं}{1;एक}/वाच्य{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('श्रीनिर्मिति')>श्रीनिर्मिति</a>-<a (click)=showDic('प्राप्त')>प्राप्त</a>-<a (click)=showDic('घुणक्षतैक')>घुणक्षतैक</a>-<a (click)=showDic('वर्णोपमा')>वर्णोपमा</a>-<a (click)=showDic('वच्1')>वच्1</a>{कृत्_प्रत्ययः:ण्यत्;वचँ;अदादिः;नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('उपपदविभक्तिः,')">उपपदविभक्तिः,7</a>
+row6#!n1#!लक्ष्मी_की_रचना_करने_पर_घुणाक्षर_न्याय_से_प्राप्त_निन्दा_को
+row7#!n1#!the stain of the censure expressed in the comparison with the letter incised by an insect in wood that had been incurred in the creation of Lakshmī was only a fortuitous
+row8#!n1#!<a href="html/SV-III/SV-58/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-58/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<श्री-निर्मिति>T6-प्राप्त>T3-<<<घुण-क्षत>K3-<एक-वर्ण>K3-उपमा>T6-वाच्यम्>T3>K3</a>#!html/SV-III/SV-58/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!अलं
+row2#!NA#!अलं 
+row3#!NA#!अलम्{अव्य} 
+row4#!NA#!<a (click)=showDic('अलम्')>अलम्</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('उपपदसम्बन्धः,')">उपपदसम्बन्धः,8</a>
+row6#!NA#!बस 
+row7#!NA#!enough
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!ममार्ज.
+row2#!v#!ममार्ज 
+row3#!v#!मृज्1{कर्तरि;लिट्;उ;एक;परस्मैपदी;मृजूँष्;अदादिः}/मृज्1{कर्तरि;लिट्;म;बहु;परस्मैपदी;मृजूँष्;अदादिः}/मृज्1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;मृजूँष्;अदादिः}. 
+row4#!v#!<a (click)=showDic('मृज्1')>मृज्1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;मृजूँष्;अदादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!दूर_कर_दिया.
+row7#!v#!wiped off.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!उपजाति ।
+row11#!v#!अतिशयोक्तिः ।
+row12#!v#!
+
+

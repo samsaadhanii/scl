@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-III/SV-7/7.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-7/7.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">7.A</a>#!html/SV-III/SV-7/7.jpg#!row1#!n1#!असौ
+row2#!number#!7.B</a>#!row2#!n1#!असौ 
+row3#!number#!7.C</a>#!row3#!n1#!अदस्{पुं}{1;एक}/अदस्{स्त्री}{1;एक}/असि{पुं}{7;एक}/असि{स्त्री}{7;एक}/असु{पुं}{7;एक} 
+row4#!number#!7.D</a>#!row4#!n1#!<a (click)=showDic('अदस्')>अदस्</a>{पुं}{1;एक}
+row5#!number#!7.E</a>#!row5#!n1#!कर्ता,9
+row6#!number#!7.F</a>#!row6#!n1#!यह
+row7#!number#!7.G</a>#!row7#!n1#!He
+row8#!number#!7.H#!row8#!n1#!
+row9#!number#!7.I</a>#!row9#!n1#!
+row10#!number#!7.J</a>#!row10#!n1#!
+row11#!number#!7.K</a>#!row11#!n1#!
+row12#!number#!7.L</a>#!row12#!n1#!
+
+row1#!n3#!निसर्ग-रक्तैः
+row2#!n3#!निसर्गरक्तैः 
+row3#!n3#!निसर्ग-रक्त{पुं}{3;बहु}/रक्त{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('निसर्ग')>निसर्ग</a>-<a (click)=showDic('रक्त')>रक्त</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n3#!स्वभावतः अरूण-वर्ण
+row7#!n3#!naturally red
+row8#!n3#!<a href="html/SV-III/SV-7/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-7/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><निसर्ग-रक्तः>T3</a>#!html/SV-III/SV-7/samaasa1.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!वलय-अवनद्ध-ताम्राश्म-रश्मि-छुरितैः
+row2#!n3#!वलयावनद्धताम्राश्मरश्मिच्छुरितैः 
+row3#!n3#!वलय-अवनद्ध-ताम्राश्मन्-रश्मि-छुरित{पुं}{3;बहु}/छुरित{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('वलय')>वलय</a>-<a (click)=showDic('अवनद्ध')>अवनद्ध</a>-<a (click)=showDic('ताम्राश्मन्')>ताम्राश्मन्</a>-<a (click)=showDic('रश्मि')>रश्मि</a>-<a (click)=showDic('छुर्1')>छुर्1</a>{कृत्_प्रत्ययः:क्त;छुरँ;तुदादिः;पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n3#!कंकणों_में_जड़े_गये_पद्मरागमणियों_की_कान्ति_से
+row7#!n3#!with the rays of the rubies set in his bracelet 
+row8#!n3#!<a href="html/SV-III/SV-7/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-7/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<वलय-अवनद्ध>T7-<ताम्र-अश्मन्>T6>K3-रश्मि>T6-छुरितः>T3</a>#!html/SV-III/SV-7/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!अद्य
+row2#!NA#!अद्य 
+row3#!NA#!अद्य{अव्य} 
+row4#!NA#!<a (click)=showDic('अद्य')>अद्य</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('कालाधिकरणम्,')">कालाधिकरणम्,9</a>
+row6#!NA#!आज 
+row7#!NA#!today
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!अपि
+row2#!NA#!अपि 
+row3#!NA#!अपि{अव्य} 
+row4#!NA#!<a (click)=showDic('अपि')>अपि</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्ध,')">सम्बन्ध,4</a>
+row6#!NA#!भी 
+row7#!NA#!even
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!सुरारि-वक्षो-विक्षोभजा-असृक्-स्नपितैः
+row2#!n3#!सुरारि-वक्षो-विक्षोभजा-असृक्-स्नपितैः 
+row3#!n3#!सुरारि-वक्षस्-विक्षोभजा-असृज्-स्नपित{पुं}{3;बहु}/स्नपित{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('सुरारि')>सुरारि</a>-<a (click)=showDic('वक्षस्')>वक्षस्</a>-<a (click)=showDic('विक्षोभजा')>विक्षोभजा</a>-<a (click)=showDic('असृज्')>असृज्</a>-<a (click)=showDic('स्नपित')>स्नपित</a>-<a (click)=showDic('स्नै1')>स्नै1</a>{कृत्_प्रत्ययः:क्त;ष्णै;भ्वादिः;नपुं}{3;बहु}
+row5#!n3#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,7</a>
+row6#!n3#!हिरण्यकशिपु_के_वक्षःस्थल_को_विदीर्ण_करने_से_उत्पन्न-रक्त_से_स्नान_किये_हुए_के
+row7#!n3#!stained with the blood that had come out of Hiraņyakaśipu's breast with torn open
+row8#!n3#!<a href="html/SV-III/SV-7/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-7/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<<सुर-अरि>T6-वक्षस्>T6-विक्षोभ>T6-जा>T3-असृक्>K3-स्नपितम्>T3</a>#!html/SV-III/SV-7/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!स्नातेर्ण्यन्तात् क्तः । ‘अर्तिह्री-’(7।3।36) इत्यादिना पुगागमः ।
+
+row1#!NA#!इव
+row2#!NA#!इव 
+row3#!NA#!इव{अव्य} 
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,8</a>
+row6#!NA#!समान
+row7#!NA#!as it were
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!नखाग्रैः
+row2#!n3#!नखाग्रैः 
+row3#!n3#!नखाग्र{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('नखाग्र')>नखाग्र</a>{नपुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('करण,')">करण,9</a>
+row6#!n3#!नखाग्रों_से 
+row7#!n3#!with the tips of his nails
+row8#!n3#!<a href="html/SV-III/SV-7/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-7/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><नख-अग्रम्>T6</a>#!html/SV-III/SV-7/samaasa4.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!v#!व्यद्योतत.
+row2#!v#!व्यद्योतत 
+row3#!v#!वि_द्युत्1{कर्तरि;लङ्;प्र;एक;आत्मनेपदी;द्युतँ;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('वि_द्युत्1')>वि_द्युत्1</a>{कर्तरि;लङ्;प्र;एक;आत्मनेपदी;द्युतँ;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!शोभते_थे.
+row7#!v#!shone.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!उपजाति ।
+row11#!v#!उत्प्रेक्षा ।
+row12#!v#!
+
+

@@ -1,0 +1,209 @@
+row1#!number#!<a href="html/SV-V/SV-28/28.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-28/28.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">28.A</a>#!html/SV-V/SV-28/28.jpg#!row1#!n1#!(सैन्याः)
+row2#!number#!28.B</a>#!row2#!n1#!सैन्याः
+row3#!number#!28.C</a>#!row3#!n1#!सैन्य{पुं}{1;बहु}/सैन्य{पुं}{8;बहु} 
+row4#!number#!28.D</a>#!row4#!n1#!<a (click)=showDic('सैन्य')>सैन्य</a>{पुं}{1;बहु} 
+row5#!number#!28.E</a>#!row5#!n1#!कर्ता,2
+row6#!number#!28.F</a>#!row6#!n1#!सैनिकों_ने
+row7#!number#!28.G</a>#!row7#!n1#!The soldiers
+row8#!number#!28.H#!row8#!n1#!
+row9#!number#!28.I</a>#!row9#!n1#!
+row10#!number#!28.J</a>#!row10#!n1#!
+row11#!number#!28.K</a>#!row11#!n1#!
+row12#!number#!28.L</a>#!row12#!n1#!‘सेनायां वा’ (4।4।45) इति ण्यप्रत्ययः ।
+
+row1#!v#!सस्नुः
+row2#!v#!सस्नुः 
+row3#!v#!स्ना2{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;ष्णा;अदादिः}/स्नै1{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;ष्णै;भ्वादिः} 
+row4#!v#!<a (click)=showDic('स्ना2')>स्ना2</a>{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;ष्णा;अदादिः} 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!स्नान_किया.
+row7#!v#!bathed.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!n2#!पयः
+row2#!n2#!पयः 
+row3#!n2#!पयस्{नपुं}{1;एक}/पयस्{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('पयस्')>पयस्</a>{नपुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,4</a>
+row6#!n2#!पानी
+row7#!n2#!water
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!पपुः
+row2#!v#!पपुः 
+row3#!v#!पा1{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;पा;भ्वादिः}/पा2{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;पा;अदादिः}/पै1{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;पै;भ्वादिः} 
+row4#!v#!<a (click)=showDic('पा1')>पा1</a>{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;पा;भ्वादिः} 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!पिया.
+row7#!v#!drank.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!'ष्णा शौचे' ‘पा पाने' लिट् ।  
+
+row1#!n2#!अम्बराणि
+row2#!n2#!अम्बराणि 
+row3#!n2#!अम्बर{नपुं}{1;बहु}/अम्बर{नपुं}{2;बहु} 
+row4#!n2#!<a (click)=showDic('अम्बर')>अम्बर</a>{नपुं}{2;बहु} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,6</a>
+row6#!n2#!कपडों_को
+row7#!n2#!clothes
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!अनेनिजुः
+row2#!v#!अनेनिजुः 
+row3#!v#!निज्1{कर्तरि;लङ्;प्र;बहु;परस्मैपदी;णिजिँर्;जुहोत्यादिः} 
+row4#!v#!<a (click)=showDic('निज्1')>निज्1</a>{कर्तरि;लङ्;प्र;बहु;परस्मैपदी;णिजिँर्;जुहोत्यादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!धोया.
+row7#!v#!washed.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!'णिजिर् शौचे' । जुहोत्यादित्वाल्लङि ‘श्लौ’ (6।1।10) इति द्विर्भावः । ‘सिजभ्यस्तविदिभ्यश्च’ (6।4।109) इति झेर्जुसादेशः । ‘णिजां त्रयाणां गुणः श्लौ’ इत्भ्यासस्य गुणः ।
+
+row1#!n1#!धृतविकासि-बिस-प्रसूनाः
+row2#!n1#!धृतविकासि-बिस-प्रसूनाः 
+row3#!n1#!धृतविकासि-बिस-प्रसूना{स्त्री}{1;बहु}/प्रसूना{स्त्री}{2;बहु} 
+row4#!n1#!<a (click)=showDic('धृतविकासि')>धृतविकासि</a>-<a (click)=showDic('बिस')>बिस</a>-<a (click)=showDic('प्रसूना')>प्रसूना</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,9</a>
+row6#!n1#!खिले हुए कमलों को धारण किया (एवं)
+row7#!n1#!bore blossomed lotuses (and)
+row8#!n1#!<a href="html/SV-V/SV-28/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-28/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><धृतविकास-<बिस-प्रसूनः>T6>Bs3</a>#!html/SV-V/SV-28/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!बिसं
+row2#!n2#!बिसं 
+row3#!n2#!बिस{नपुं}{1;एक}/बिस{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('बिस')>बिस</a>{नपुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,9</a>
+row6#!n2#!कमल-नालों_को
+row7#!n2#!lotus-stalk
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!जक्षुः
+row2#!v#!जक्षुः 
+row3#!v#!अद्1{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;अदँ;अदादिः}/घस्1{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;घसॢँ;भ्वादिः} 
+row4#!v#!<a (click)=showDic('अद्1')>अद्1</a>{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;अदँ;अदादिः} 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!खाया.
+row7#!v#!ate.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!घसेर्लिटि ‘गहमन-’ (6।4।98) इत्यादिना उपधालोपे चुत्व-‘शासिवसिघसीनां च’ (8।3।60) इति षत्वम् ।
+
+row1#!NA#!(इत्थं)
+row2#!NA#!इत्थं
+row3#!NA#!इत्थम्{अव्य} 
+row4#!NA#!<a (click)=showDic('इत्थम्')>इत्थम्</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,16</a>
+row6#!NA#!इस_प्रकार 
+row7#!NA#!thus
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!(ते)
+row2#!n1#!ते
+row3#!n1#!तद्{पुं}{1;बहु}/तद्{स्त्री}{1;द्वि}/तद्{स्त्री}{2;द्वि}/तद्{नपुं}{1;द्वि}/तद्{नपुं}{2;द्वि}/युष्मद्{4;एक}/युष्मद्{6;एक} 
+row4#!n1#!<a (click)=showDic('तद्')>तद्</a>{पुं}{1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,12</a>
+row6#!n1#!ये
+row7#!n1#!these
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!सैन्याः
+row2#!n1#!सैन्याः 
+row3#!n1#!सैन्य{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('सैन्य')>सैन्य</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,16</a>
+row6#!n1#!सैनिक
+row7#!n1#!soldiers
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘सेनायां वा’ (4।4।45) इति ण्यप्रत्ययः ।
+
+row1#!n6#!नग-निम्नगानां
+row2#!n6#!नग-निम्नगानां 
+row3#!n6#!नग-निम्न-ग{पुं}{6;बहु} 
+row4#!n6#!<a (click)=showDic('न<a (click)=showDic('ग')>ग</a>')>नग</a>-<a (click)=showDic('निम्न')>निम्न</a>-ग{स्त्री}{6;बहु}
+row5#!n6#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,14</a>
+row6#!n6#!पर्वतीय नदियों की सम्पत्तियों का
+row7#!n6#!of mountain and river
+row8#!n6#!<a href="html/SV-V/SV-28/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-28/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><नग-<निम्न-गा>U>T6</a>#!html/SV-V/SV-28/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!श्रियाम्
+row2#!n6#!श्रियाम् 
+row3#!n6#!श्री{स्त्री}{7;एक} 
+row4#!n6#!<a (click)=showDic('श्री')>श्री</a>{स्त्री}{6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,15</a>
+row6#!n6#!श्री_में 
+row7#!n6#!pleasures
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!अनुपभोग-निरर्थकत्व-दोष-प्रवादम्
+row2#!n2#!अनुपभोग-निरर्थकत्व-दोष-प्रवादम् 
+row3#!n2#!अनुपभोग-निरर्थकत्व-दोषन्-प्रवाद{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('अनुपभोग')>अनुपभोग</a>-<a (click)=showDic('निरर्थकत्व')>निरर्थकत्व</a>-<a (click)=showDic('दोष')>दोष</a>-<a (click)=showDic('प्रवाद')>प्रवाद</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,16</a>
+row6#!n2#!उपभोग नहीं होने से निष्फलत्वरूप दोष से उत्पन्न (उन नदियों की) निन्दा को
+row7#!n2#!blame of not enjoying
+row8#!n2#!<a href="html/SV-V/SV-28/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-28/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<न-उपभोग>Tn-निरर्थकत्व>T3-दोष>K6-प्रवादः>T3</a>#!html/SV-V/SV-28/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!अमृजन्.
+row2#!v#!अमृजन् 
+row3#!v#!मृज्1{कर्तरि;लङ्;प्र;बहु;परस्मैपदी;मृजूँष्;अदादिः}. 
+row4#!v#!<a (click)=showDic('मृज्1')>मृज्1</a>{कर्तरि;लङ्;प्र;बहु;परस्मैपदी;मृजूँष्;अदादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!दूर_कर_दिये.
+row7#!v#!swayed away.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!वसन्ततिलका ।
+row11#!v#!काव्यलिङ्गम् ।
+row12#!v#!'मृजष् शुद्धौ' अदादित्वाल्लङि शपो लुक्  । ‘मृजेरजादौ क्ङिति विभाषा वृद्धिर्वक्तव्ये'ति विकल्पाद्वृद्ध्यभावः ।
+
+

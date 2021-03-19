@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-IV/SV-51/51.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-51/51.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">51.A</a>#!html/SV-IV/SV-51/51.jpg#!row1#!n7#!अस्मिन्
+row2#!number#!51.B</a>#!row2#!n7#!अस्मिन् 
+row3#!number#!51.C</a>#!row3#!n7#!इदम्{पुं}{7;एक}/इदम्{नपुं}{7;एक} 
+row4#!number#!51.D</a>#!row4#!n7#!<a (click)=showDic('इदम्')>इदम्</a>{पुं}{7;एक} 
+row5#!number#!51.E</a>#!row5#!n7#!अधिकरणम्,9
+row6#!number#!51.F</a>#!row6#!n7#!इसमें (रैवतकपर्वत_पर)
+row7#!number#!51.G</a>#!row7#!n7#!On this (Raivataka mountain)
+row8#!number#!51.H#!row8#!n7#!
+row9#!number#!51.I</a>#!row9#!n7#!
+row10#!number#!51.J</a>#!row10#!n7#!
+row11#!number#!51.K</a>#!row11#!n7#!
+row12#!number#!51.L</a>#!row12#!n7#!
+
+row1#!n1#!अनवरत-मन्दर-आगता-अमर-सदृशः
+row2#!n1#!अनवरतम्-अमन्दर-आगता-अमर-सदृशः 
+row3#!n1#!अनवरतम्-अमन्दर-आगता-अमर-सदृश्{पुं}{1;बहु}/सदृश्{पुं}{2;बहु}/सदृश्{पुं}{5;एक}/सदृश्{पुं}{6;एक}/सदृश्{नपुं}{1;बहु}/सदृश्{नपुं}{2;बहु}/सदृश्{नपुं}{5;एक}/सदृश्{नपुं}{6;एक}/सदृश{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('अनवरतम्')>अनवरतम्</a>-<a (click)=showDic('अमन्दर')>अमन्दर</a>-<a (click)=showDic('आगता')>आगता</a>-<a (click)=showDic('अमर')>अमर</a>-<a (click)=showDic('सदृश्')>सदृश्</a>{पुं}{1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!श्रेष्ठतम मन्दराचल_से_आए_हुए_अमरों_के_समान
+row7#!n1#!who are most excellent and who resemble the gods coming from Heaven (and)
+row8#!n1#!<a href="html/SV-IV/SV-51/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-51/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अनवरत-<<<अमन्दर-आगत>T5>-K3-अमर>K3-सदृक्>T3</a>#!html/SV-IV/SV-51/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!अमन्द-राग-तामरस-दृशः
+row2#!n1#!अमन्द-राग-तामरस-दृशः 
+row3#!n1#!अमन्द-राग-तामरस-दृश्{पुं}{1;बहु}/सदृश्{पुं}{2;बहु}/सदृश्{पुं}{5;एक}/सदृश्{पुं}{6;एक}/सदृश्{नपुं}{1;बहु}/सदृश्{नपुं}{2;बहु}/सदृश्{नपुं}{5;एक}/सदृश्{नपुं}{6;एक}/सदृश{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('अमन्द')>अमन्द</a>-<a (click)=showDic('राग')>राग</a>-<a (click)=showDic('तामरस')>तामरस</a>-<a (click)=showDic('दृश्')>दृश्</a>{पुं}{1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!गहरे रंगवाले कमल_के_समान_नेत्रोंवाले
+row7#!n1#!whose eyes are like bright red lotuses
+row8#!n1#!<a href="html/SV-IV/SV-51/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-51/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<अमन्दराग-तामरसदृश>K3-सदृक्>Bs6</a>#!html/SV-IV/SV-51/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!सुखिनः
+row2#!n1#!सुखिनः 
+row3#!n1#!सुखी{नपुं}{5;एक}/सुखी{नपुं}{6;एक}/सुखिन्{पुं}{1;बहु}/सुखिन्{पुं}{2;बहु}/सुखिन्{पुं}{5;एक}/सुखिन्{पुं}{6;एक}/सुखिन्{नपुं}{5;एक}/सुखिन्{नपुं}{6;एक} 
+row4#!n1#!<a (click)=showDic('सुखिन्')>सुखिन्</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!भोगी_लोग
+row7#!n1#!voluptuaries
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!सवधूकाः
+row2#!n1#!सवधूकाः 
+row3#!n1#!सवधूक{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('सवधूक')>सवधूक</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,9</a>
+row6#!n1#!स्त्रियों_के_साथ_होकर
+row7#!n1#!with their wives
+row8#!n1#!<a href="html/SV-IV/SV-51/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-51/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><स-वधूकः>BvS</a>#!html/SV-IV/SV-51/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!'तेन सहेति तुल्ययोगे' (2।2।28) इति बहुव्रीहिः । 'नद्यृतश्च' (5।4।153) इति कप् ।
+
+row1#!NA#!रसवत्
+row2#!NA#!रसवत् 
+row3#!NA#!रसवत्{नपुं}{1;एक}/रसवत्{नपुं}{2;एक} 
+row4#!NA#!<a (click)=showDic('रसवत्')>रसवत्</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,9</a>
+row6#!NA#!अनुरागयुुक्त
+row7#!NA#!passionately
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!नवरतम्
+row2#!n2#!नवरतं 
+row3#!n2#!नवरत{पुं}{2;एक}/वरत{नपुं}{1;एक}/वरत{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('नव')>नव</a>-<a (click)=showDic('रत')>रत</a>{नपुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,9</a>
+row6#!n2#!नवीन सुरत_का
+row7#!n2#!new sexual intercourse
+row8#!n2#!<a href="html/SV-IV/SV-51/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-51/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><नव-रतम्>K1</a>#!html/SV-IV/SV-51/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!न
+row2#!NA#!न 
+row3#!NA#!न{अव्य} 
+row4#!NA#!<a (click)=showDic('न')>न</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,9</a>
+row6#!NA#!नहीं
+row7#!NA#!not
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!आसेवन्ते
+row2#!v#!आसेवन्ते 
+row3#!v#!आङ्_सेव्1{कर्तरि;लट्;प्र;बहु;आत्मनेपदी;षेवृँ;भ्वादिः} 
+row4#!v#!<a (click)=showDic('आङ्_सेव्1')>आङ्_सेव्1</a>{कर्तरि;लट्;प्र;बहु;आत्मनेपदी;षेवृँ;भ्वादिः} 
+row5#!v#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,10</a>
+row6#!v#!सेवन करते_हैं
+row7#!v#!enjoy
+row8#!v#!-
+row9#!v#!
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!NA#!(इति)
+row2#!NA#!इति
+row3#!NA#!इति{अव्य}
+row4#!NA#!<a (click)=showDic('इति')>इति</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,11</a>
+row6#!NA#!ऐसा 
+row7#!NA#!thus
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!न.
+row2#!NA#!न 
+row3#!NA#!न{अव्य}. 
+row4#!NA#!<a (click)=showDic('न')>न</a>{अव्य}. 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,9</a>
+row6#!NA#!नहीं.
+row7#!NA#!not.
+row8#!NA#!-
+row9#!NA#!कर्तरि
+row10#!NA#!आर्यागीति ।
+row11#!NA#!उपमा ।
+row12#!NA#!
+
+

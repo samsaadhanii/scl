@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-VI/SV-52/52.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-52/52.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">52.A</a>#!html/SV-VI/SV-52/52.jpg#!row1#!n1#!शरद्-अङ्गना
+row2#!number#!52.B</a>#!row2#!n1#!शरद्-अङ्गना
+row3#!number#!52.C</a>#!row3#!n1#!शरद्-अङ्गना{स्त्री;1;एक}/अङ्गना{स्त्री;1;एक}
+row4#!number#!52.D</a>#!row4#!n1#!<a (click)=showDic('शरद्')>शरद्</a>-<a (click)=showDic('अङ्गना')>अङ्गना</a>{स्त्री;1;एक}
+row5#!number#!52.E</a>#!row5#!n1#!कर्ता,10
+row6#!number#!52.F</a>#!row6#!n1#!शरद् रूपी स्त्री ने
+row7#!number#!52.G</a>#!row7#!n1#!Autumn in the form of a woman
+row8#!number#!52.H#!row8#!n1#!<a href="html/SV-VI/SV-52/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-52/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><शरद्-अङ्गना>K6</a>#!html/SV-VI/SV-52/samaasa1.jpg
+row9#!number#!52.I</a>#!row9#!n1#!
+row10#!number#!52.J</a>#!row10#!n1#!
+row11#!number#!52.K</a>#!row11#!n1#!
+row12#!number#!52.L</a>#!row12#!n1#!
+
+row1#!n3#!अनिलैः
+row2#!n3#!अनिलैः
+row3#!n3#!अनिल{पुं;3;बहु}
+row4#!n3#!<a (click)=showDic('अनिल')>अनिल</a>{पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,10</a>
+row6#!n3#!वायु_से
+row7#!n3#!by wind
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n2#!विलुलितां
+row2#!n2#!विलुलितां
+row3#!n2#!विलुलिता{स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('विलुलिता')>विलुलिता</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n2#!उड़ाई गयी
+row7#!n2#!roused
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!नवसरोरुहकेशर-सम्भवां
+row2#!n2#!नवसरोरुहकेशर-सम्भवां
+row3#!n2#!नवसरोरुहकेशर-सम्भवा{स्त्री;2;एक}/सम्भवा{स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('नवसरोरुहकेशर')>नवसरोरुहकेशर</a>-<a (click)=showDic('सम्भवा')>सम्भवा</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n2#!नवीन कमलों के केसरों से उत्पन्न
+row7#!n2#!born out of pollen-dust of tender lotuses
+row8#!n2#!<a href="html/SV-VI/SV-52/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-52/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<नव-सरोरुह>K3-केशर>K6-सम्भवा>Bs6</a>#!html/SV-VI/SV-52/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!धूलिं
+row2#!n2#!धूलिं
+row3#!n2#!धूलि{स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('धूलि')>धूलि</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n2#!धूल_को
+row7#!n2#!dust
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n3#!परिहास-विधित्सया
+row2#!n3#!परिहास-विधित्सया
+row3#!n3#!परिहास-विधित्सा{स्त्री;3;एक}/विधित्सा{स्त्री;3;एक}
+row4#!n3#!<a (click)=showDic('परिहास')>परिहास</a>-<a (click)=showDic('विधित्सा')>विधित्सा</a>{स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('हेतुः,')">हेतुः,10</a>
+row6#!n3#!हँसी करने की इच्छा से
+row7#!n3#!with an intention to mock
+row8#!n3#!<a href="html/SV-VI/SV-52/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-52/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><परिहास-विधित्सा>T6</a>#!html/SV-VI/SV-52/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n2#!हरि-वधूः
+row2#!n2#!हरि-वधूः
+row3#!n2#!हरि-वधू{स्त्री;1;एक}/वधू{स्त्री;2;बहु}/वधु{स्त्री;2;बहु}/वधु{स्त्री;2;बहु}
+row4#!n2#!<a (click)=showDic('हरि')>हरि</a>-<a (click)=showDic('वधू')>वधू</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n2#!श्रीकृष्ण भगवान् की प्रियाओं के
+row7#!n2#!the beloved women of Śrī Kṛṣṇa
+row8#!n2#!<a href="html/SV-VI/SV-52/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-52/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><हरि-वधूः>T6</a>#!html/SV-VI/SV-52/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!विकरितुम्
+row2#!NA#!विकरितुम्
+row3#!NA#!वि_कॄ1{अव्य;तुमुन्;कॄ;तुदादिः}
+row4#!NA#!<a (click)=showDic('वि_कॄ1')>वि_कॄ1</a>{अव्य;तुमुन्;कॄ;तुदादिः}
+row5#!NA#!<a href="javascript:show('प्रयोजनम्,')">प्रयोजनम्,10</a>
+row6#!NA#!ऊपर वर्षा ने (बखेरने) के लिये
+row7#!NA#!to shower upon
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!'तुमुन्ण्वुलौ क्रियायां क्रियार्थायाम्' (3।3।10) इति तुमुन्प्रत्ययः ।
+
+row1#!NA#!इव
+row2#!NA#!इव
+row3#!NA#!इव{अव्य}
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,10</a>
+row6#!NA#!जैसे
+row7#!NA#!as if
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!उदक्षिपत्
+row2#!v#!उदक्षिपत्
+row3#!v#!उत्_क्षिप्2{कर्तरि;लङ्;प्र;एक;उभयपदी;क्षिपँ;तुदादिः}
+row4#!v#!<a (click)=showDic('उत्_क्षिप्2')>उत्_क्षिप्2</a>{कर्तरि;लङ्;प्र;एक;उभयपदी;क्षिपँ;तुदादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!ऊपर को फेंक दिया.
+row7#!v#!blew upon.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!उत्प्रेक्षा + यमकम् = सङ्करः ।
+row12#!v#!
+
+

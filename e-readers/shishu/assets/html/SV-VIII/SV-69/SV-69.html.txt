@@ -1,0 +1,222 @@
+row1#!number#!<a href="html/SV-VIII/SV-69/69.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-69/69.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">69.A</a>#!html/SV-VIII/SV-69/69.jpg#!row1#!n1#!निजं
+row2#!number#!69.B</a>#!row2#!n1#!निजं
+row3#!number#!69.C</a>#!row3#!n1#!निज{पुं;2;एक}/निज{नपुं;1;एक}/निज{नपुं;2;एक}
+row4#!number#!69.D</a>#!row4#!n1#!<a (click)=showDic('निज')>निज</a>{पुं;1;एक}
+row5#!number#!69.E</a>#!row5#!n1#!विशेषणम्,2
+row6#!number#!69.F</a>#!row6#!n1#!अपनी
+row7#!number#!69.G</a>#!row7#!n1#!One's
+row8#!number#!69.H#!row8#!n1#!
+row9#!number#!69.I</a>#!row9#!n1#!
+row10#!number#!69.J</a>#!row10#!n1#!
+row11#!number#!69.K</a>#!row11#!n1#!
+row12#!number#!69.L</a>#!row12#!n1#!
+
+row1#!n1#!सीमन्तं
+row2#!n1#!सीमन्तं
+row3#!n1#!सीमन्त{पुं;2;एक}
+row4#!n1#!<a (click)=showDic('सीमन्त')>सीमन्त</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,4</a>
+row6#!n1#!केशरचना_को
+row7#!n1#!dressed up hair
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!कराभ्याम्
+row2#!n3#!कराभ्याम्
+row3#!n3#!कर{पुं;3;द्वि}/कर{पुं;4;द्वि}/कर{पुं;5;द्वि}
+row4#!n3#!<a (click)=showDic('कर')>कर</a>{पुं;3;द्वि}
+row5#!n3#!<a href="javascript:show('करण,')">करण,4</a>
+row6#!n3#!हाथों_से
+row7#!n3#!by (her) hands
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!अनु-बध्नती
+row2#!n1#!अनु-बध्नती
+row3#!n1#!अनु-बध्नती}
+row4#!n1#!<a (click)=showDic('अनु')>अनु</a>-<a (click)=showDic('बन्ध्1')>बन्ध्1</a>{शतृ_लट्;बन्धँ;क्र्यादिः;स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,10</a>
+row6#!n1#!पकड_कर
+row7#!n1#!having held
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!आलक्ष्यस्तनतटबाहुमूल-भागा
+row2#!n1#!आलक्ष्यस्तनतटबाहुमूल-भागा
+row3#!n1#!आलक्ष्यस्तनतटबाहुमूल-भागा{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('आलक्ष्यस्तनतटबाहुमूल')>आलक्ष्यस्तनतटबाहुमूल</a>-<a (click)=showDic('भागा')>भागा</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!खड़ी हुई (अत एव) स्तनभाग तथा बाहुमूल जिसके दिखलाई दे रहे हैं
+row7#!n1#!who stood while protruding her breasts and shoulders
+row8#!n1#!<a href="html/SV-VIII/SV-69/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-69/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<आलक्ष्य-<स्तनतट-बाहुमूल>K3>T6-भागा>T6</a>#!html/SV-VIII/SV-69/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!अन्या
+row2#!n1#!अन्या
+row3#!n1#!अन्या{स्त्री;1;एक}/अन्या{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('अन्या')>अन्या</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n1#!किसी एक अङ्गना_को
+row7#!n1#!another woman
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!अभिलष्यता
+row2#!n3#!अभिलष्यता
+row3#!n3#!अभिलष्यता}
+row4#!n3#!<a (click)=showDic('अभि_लस्1')>अभि_लस्1</a>{शतृ_लट्;लसँ;भ्वादिः;पुं;3;एक}
+row5#!n3#!<a href="javascript:show('समानकालः,')">समानकालः,10</a>
+row6#!n3#!चाहते_हुए
+row7#!n3#!while desiring
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!‘वाभ्राश-’ (3।1।70) इत्यादिना वैकल्पिकः श्यन्प्रत्ययः ।
+
+row1#!n3#!भर्त्रा
+row2#!n3#!भर्त्रा
+row3#!n3#!भर्तृ{पुं;3;एक}
+row4#!n3#!<a (click)=showDic('भर्तृ')>भर्तृ</a>{पुं;3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n3#!पति_से
+row7#!n3#!by (her) husband
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!मुहुः
+row2#!NA#!मुहुः
+row3#!NA#!मुहुः{अव्य}/मुहुः{अव्य}
+row4#!NA#!<a (click)=showDic('मुहुः')>मुहुः</a>{अव्य}
+row5#!NA#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!NA#!पुनः_पुनः
+row7#!NA#!frequently
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!निदध्ये
+row2#!v#!निदध्ये
+row3#!v#!निदध्ये}
+row4#!v#!<a (click)=showDic('नि_ध्यै1')>नि_ध्यै1</a>{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;ध्यै;भ्वादिः}
+row5#!v#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,10</a>
+row6#!v#!स्मरण_किया.
+row7#!v#!recollected.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')">0</a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NA#!अहो
+row2#!NA#!अहो
+row3#!NA#!अहो{अव्य}
+row4#!NA#!<a (click)=showDic('अहो')>अहो</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,6</a>
+row6#!NA#!अहो
+row7#!NA#!Alas
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!कौतुकं
+row2#!n1#!कौतुकं
+row3#!n1#!कौतुक{नपुं;1;एक}/कौतुक{नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('कौतुक')>कौतुक</a>{नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,6</a>
+row6#!n1#!आश्चर्य है कि
+row7#!n1#!wonder
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘इगुपधज्ञाप्रीकिरः कः’ (3।1।135) इति कः ।
+
+row1#!n5#!प्रियेभ्यः
+row2#!n5#!प्रियेभ्यः
+row3#!n5#!प्रिय{पुं;4;बहु}/प्रिय{पुं;5;बहु}/प्रिय{नपुं;4;बहु}/प्रिय{नपुं;5;बहु}
+row4#!n5#!<a (click)=showDic('प्रिय')>प्रिय</a>{पुं;5;बहु}
+row5#!n5#!<a href="javascript:show('अपादान,')">अपादान,6</a>
+row6#!n5#!प्रिय_के_लिए
+row7#!n5#!for the beloved
+row8#!n5#!-
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!‘जुगुप्साविरामप्रमादार्थानामुपसङ्ख्यानम्’ (वा०) इति पञ्चमी ।
+
+row1#!NA#!न
+row2#!NA#!न
+row3#!NA#!न{अव्य}
+row4#!NA#!<a (click)=showDic('न')>न</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,6</a>
+row6#!NA#!नहीं
+row7#!NA#!not
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!एव
+row2#!NA#!एव
+row3#!NA#!एव{अव्य}
+row4#!NA#!<a (click)=showDic('एव')>एव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,4</a>
+row6#!NA#!ही
+row7#!NA#!indeed
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!विरमति
+row2#!v#!विरमति
+row3#!v#!वि_रम्1{कर्तरि;लट्;प्र;एक;परस्मैपदी;रमु;भ्वादिः}
+row4#!v#!<a (click)=showDic('वि_रम्1')>वि_रम्1</a>{कर्तरि;लट्;प्र;एक;परस्मैपदी;रमुँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!निवृत्ति_होती_है.
+row7#!v#!ends up.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!प्रहर्षिणी ।
+row11#!v#!अर्थान्तरन्यासः ।
+row12#!v#!‘व्याङ्परिभ्यो रमः’ (1।3।83) इति परस्मैपदम् ।
+
+

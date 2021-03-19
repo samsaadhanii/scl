@@ -1,0 +1,287 @@
+row1#!number#!<a href="html/SV-IX/SV-1/1.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-1/1.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">1.A</a>#!html/SV-IX/SV-1/1.jpg#!row1#!NA#!अथ
+row2#!number#!1.B</a>#!row2#!NA#!अथ
+row3#!number#!1.C</a>#!row3#!NA#!अथ{अव्य}
+row4#!number#!1.D</a>#!row4#!NA#!<a (click)=showDic('अथ')>अथ</a>{अव्य}
+row5#!number#!1.E</a>#!row5#!NA#!सम्बन्धः,12
+row6#!number#!1.F</a>#!row6#!NA#!इस (जलतरङ्गों में प्रवेश करने की अभिलाषा) के पश्चात्
+row7#!number#!1.G</a>#!row7#!NA#!After that
+row8#!number#!1.H#!row8#!NA#!
+row9#!number#!1.I</a>#!row9#!NA#!
+row10#!number#!1.J</a>#!row10#!NA#!
+row11#!number#!1.K</a>#!row11#!NA#!
+row12#!number#!1.L</a>#!row12#!NA#!
+
+row1#!n1#!उष्णरुचिः
+row2#!n1#!उष्णरुचिः
+row3#!n1#!उष्णरुचि{;पुं;1;एक}
+row4#!n1#!<a (click)=showDic('उष्णरुचि')>उष्णरुचि</a>{;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,12</a>
+row6#!n1#!सूर्य
+row7#!n1#!the Sun
+row8#!n1#!<a href="html/SV-IX/SV-1/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-1/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><उष्ण-रुचिः>Bs6</a>#!html/SV-IX/SV-1/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!निज-तेजसाम्
+row2#!n6#!निज-तेजसाम्
+row3#!n6#!निज-तेजस्{;नपुं;6;बहु}/तेजस्{;पुं;6;बहु}
+row4#!n6#!<a (click)=showDic('निज')>निज</a>-<a (click)=showDic('तेजस्')>तेजस्</a>{;नपुं;6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,4</a>
+row6#!n6#!स्वकीय तेज_के
+row7#!n6#!of its own brilliance
+row8#!n6#!<a href="html/SV-IX/SV-1/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-1/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><निज-तेजस्>T6</a>#!html/SV-IX/SV-1/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!अभिताप-सम्पदम्
+row2#!n2#!अभिताप-सम्पदम्
+row3#!n2#!अभिताप-सम्पद्{;स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('अभिताप')>अभिताप</a>-<a (click)=showDic('सम्पद्')>सम्पद्</a>{;स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,5</a>
+row6#!n2#!सन्ताप को
+row7#!n2#!abundance of radiance
+row8#!n2#!<a href="html/SV-IX/SV-1/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-1/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अभिताप-सम्पद्>T6</a>#!html/SV-IX/SV-1/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!असहमानः
+row2#!n1#!असहमानः
+row3#!n1#!असहमानः}
+row4#!n1#!<a (click)=showDic('नञ्')>नञ्</a>-<a (click)=showDic('अ')>अ</a>-<a (click)=showDic('सह्1')>सह्1</a>{कृत्_प्रत्ययः:शानच्;षहँ;भ्वादिः;पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,6</a>
+row6#!n1#!सहन_न_करते_हुए
+row7#!n1#!unable to bear
+row8#!n1#!<a href="html/SV-IX/SV-1/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-1/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-सहमानः>Tn</a>#!html/SV-IX/SV-1/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इव
+row2#!NA#!इव
+row3#!NA#!इव{अव्य}
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,2</a>
+row6#!NA#!मानो
+row7#!NA#!as if
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n6#!अपराम्बु-निधेः
+row2#!n6#!अपराम्बु-निधेः
+row3#!n6#!अपराम्बु-निधि{;पुं;5;एक}/निधि{;पुं;6;एक}
+row4#!n6#!<a (click)=showDic('अपराम्बु')>अपराम्बु</a>-<a (click)=showDic('निधि')>निधि</a>{;पुं;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,8</a>
+row6#!n6#!पश्चिम_समुद्र_के
+row7#!n6#!of the west side of the Ocean
+row8#!n6#!<a href="html/SV-IX/SV-1/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-1/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अपर-<अम्बु-निधिः>T6>T6</a>#!html/SV-IX/SV-1/samaasa5.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n7#!पयसि
+row2#!n7#!पयसि
+row3#!n7#!पयस्{;नपुं;7;एक}
+row4#!n7#!<a (click)=showDic('पयस्')>पयस्</a>{;नपुं;7;एक}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,9</a>
+row6#!n7#!जल_में
+row7#!n7#!into the waters
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n1#!प्रपित्सुः
+row2#!n1#!प्रपित्सुः
+row3#!n1#!प्रपित्सुः}
+row4#!n1#!<a (click)=showDic('प्रपित्सु')>प्रपित्सु</a>{;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,2</a>
+row6#!n1#!गिरने_की_इच्छा_कर
+row7#!n1#!wished to fall
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!'पततेः सन्नन्तादुप्रत्ययः ''सनिमीमा-''(7-4-54) इत्यादिना इसादेशः । ''अत्र लोपोऽभ्यासत्य''(7।4।58) इत्यभ्यासलोपः ।'
+
+row1#!n2#!अस्त-गिरिम्
+row2#!n2#!अस्त-गिरिम्
+row3#!n2#!अस्त-गिरि{;पुं;2;एक}/गिरि{;स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('अस्त')>अस्त</a>-<a (click)=showDic('गिरि')>गिरि</a>{;पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,11</a>
+row6#!n2#!अस्ताचल_पर
+row7#!n2#!on the western mountain
+row8#!n2#!<a href="html/SV-IX/SV-1/samaasa6.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-1/samaasa6.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अस्त-गिरिः>K7</a>#!html/SV-IX/SV-1/samaasa6.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!अधि-रोढुम्
+row2#!NA#!अधि-रोढुम्
+row3#!NA#!अधि-रुह्1{अव्य;तुमुन्;रुहँ;भ्वादिः}
+row4#!NA#!<a (click)=showDic('अधि_रुह्1')>अधि_रुह्1</a>{अव्य;तुमुन्;रुहँ;भ्वादिः}
+row5#!NA#!<a href="javascript:show('प्रयोजनम्,')">प्रयोजनम्,12</a>
+row6#!NA#!चढ़ने_के_लिए
+row7#!NA#!to climb
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!अभि-अपतत्
+row2#!v#!अभि-अपतत्
+row3#!v#!अभि-पत्1{कर्तरि;लङ्;प्र;एक;परस्मैपदी;पतॢँ;भ्वादिः}
+row4#!v#!<a (click)=showDic('अभि_पत्1')>अभि_पत्1</a>{कर्तरि;लङ्;प्र;एक;परस्मैपदी;पतॢँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!दौड_पडे
+row7#!v#!ran away.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!प्रमिताक्षरा ।
+row11#!v#!उत्प्रेक्षा ।
+row12#!v#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!'
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+

@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-II/SV-56/56.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-56/56.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">56.A</a>#!html/SV-II/SV-56/56.jpg#!row1#!n6#!गुणानाम्
+row2#!number#!56.B</a>#!row2#!n6#!गुणानाम् 
+row3#!number#!56.C</a>#!row3#!n6#!गुण{पुं}{6;बहु}/गुणा{स्त्री}{6;बहु} 
+row4#!number#!56.D</a>#!row4#!n6#!<a (click)=showDic('गुण')>गुण</a>{पुं}{6;बहु} 
+row5#!number#!56.E</a>#!row5#!n6#!षष्ठीसम्बन्धः,2
+row6#!number#!56.F</a>#!row6#!n6#!गुणों_के 
+row7#!number#!56.G</a>#!row7#!n6#!of expedients
+row8#!number#!56.H#!row8#!n6#!
+row9#!number#!56.I</a>#!row9#!n6#!
+row10#!number#!56.J</a>#!row10#!n6#!
+row11#!number#!56.K</a>#!row11#!n6#!
+row12#!number#!56.L</a>#!row12#!n6#!
+
+row1#!n5#!आयथातथ्यात्
+row2#!n5#!आयथातथ्यात् 
+row3#!n5#!आयथातथ्य{नपुं}{5;एक} 
+row4#!n5#!<a (click)=showDic('आयथातथ्य')>आयथातथ्य</a>{नपुं}{5;एक} 
+row5#!n5#!<a href="javascript:show('हेतुः,')">हेतुः,5</a>
+row6#!n5#!असमय_में_प्रयोग_से
+row7#!n5#!by wrong means
+row8#!n5#!<a href="html/SV-II/SV-56/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-56/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-<यथा-तथम्>A1>Tn</a>#!html/SV-II/SV-56/samaasa1.jpg
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!यथार्थेऽव्यवीभावः ।‘स नपुंसकम्’ (2।4।17) इति नपुंसकत्वम् ।‘ह्रस्वो नपुंसके?’ (1।2।47) इति ह्रस्वत्वम् । ततो नञ्समासे अयथातथं तस्य भाव अयथातथ्यम् । ब्रह्मणादित्वात्ष्यञ् प्रत्ययः । ‘यथातथयथापुरयोः पर्यायेण (7।3।31) इति विकल्पान्न पूर्वपदवृद्धिः ।
+
+row1#!n2#!अर्थं
+row2#!n2#!अर्थं 
+row3#!n2#!अर्थ{पुं}{2;एक}/अर्थ{नपुं}{1;एक}/अर्थ{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('अर्थ')>अर्थ</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,5</a>
+row6#!n2#!प्रयोजन_को
+row7#!n2#!cause
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!ये
+row2#!n1#!ये 
+row3#!n1#!यद्{पुं}{1;बहु}/यद्{स्त्री}{1;द्वि}/यद्{स्त्री}{2;द्वि}/यद्{नपुं}{1;द्वि}/यद्{नपुं}{2;द्वि} 
+row4#!n1#!<a (click)=showDic('यद्')>यद्</a>{पुं}{1;बहु}
+row5#!n1#!<a href="javascript:show('नित्यसम्बन्धः,')">नित्यसम्बन्धः,6</a>
+row6#!n1#!जो
+row7#!n1#!who
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!विप्लावयन्ति
+row2#!v#!विप्लावयन्ति 
+row3#!v#!प्लु1_णिच्{कर्तरि;लट्;प्र;एक;परस्मैपदी;प्लुङ्;भ्वादिः}
+row4#!v#!<a (click)=showDic('वि_प्लु1_णिच्')>वि_प्लु1_णिच्</a>{कर्तरि;लट्;प्र;एक;परस्मैपदी;प्लुङ्;भ्वादिः}
+row5#!v#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,6</a>
+row6#!v#!नष्ट_करते_हैं
+row7#!v#!imperil
+row8#!v#!-
+row9#!v#!
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!n1#!ते
+row2#!n1#!ते 
+row3#!n1#!तद्{पुं}{1;बहु}/तद्{स्त्री}{1;द्वि}/तद्{स्त्री}{2;द्वि}/तद्{नपुं}{1;द्वि}/तद्{नपुं}{2;द्वि}/युष्मद्{4;एक}/युष्मद्{6;एक} 
+row4#!n1#!<a (click)=showDic('तद्')>तद्</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,11</a>
+row6#!n1#!वे 
+row7#!n1#!those
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!अमात्य-व्यञ्जनाः
+row2#!n1#!अमात्यव्यञ्जनाः 
+row3#!n1#!अमात्य-व्यञ्जन{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('अमात्य')>अमात्य</a>-<a (click)=showDic('व्यञ्जन')>व्यञ्जन</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n1#!अमात्य-नामधारी 
+row7#!n1#!garb of ministers
+row8#!n1#!<a href="html/SV-II/SV-56/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-56/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अमात्य-व्यञ्जनः>Bs6</a>#!html/SV-II/SV-56/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!शत्रु-सञ्ज्ञिताः
+row2#!n1#!शत्रुसंज्ञिताः 
+row3#!n1#!शत्रु-सञ्ज्ञित{पुं}{1;बहु}/सञ्ज्ञिता{स्त्री}{1;बहु}/सञ्ज्ञिता{स्त्री}{2;बहु} 
+row4#!n1#!<a (click)=showDic('शत्रु')>शत्रु</a>-<a (click)=showDic('सञ्ज्ञित')>सञ्ज्ञित</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,11</a>
+row6#!n1#!शत्रु-तुल्य
+row7#!n1#!as enemies
+row8#!n1#!<a href="html/SV-II/SV-56/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-56/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><शतृ-सञ्ज्ञितः>Bs6</a>#!html/SV-II/SV-56/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!राज्ञां
+row2#!n6#!राज्ञां 
+row3#!n6#!राजन्{पुं}{6;बहु} 
+row4#!n6#!<a (click)=showDic('राजन्')>राजन्</a>{पुं}{6;बहु} 
+row5#!n6#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n6#!राजाओं_का 
+row7#!n6#!of the kings
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!‘कृत्यानां कर्तरि वा’ (2।3।71) इति कर्तरि षष्ठी ।
+
+row1#!n6#!दूष्याः
+row2#!n6#!दूष्याः
+row3#!n6#!दूषी{स्त्री}{5;एक}/दूषी{स्त्री}{6;एक}/दूषि{स्त्री}{5;एक}/दूषि{स्त्री}{6;एक}/दूष्या{स्त्री}{1;बहु}/दूष्या{स्त्री}{2;बहु}/दुष्1_णिच्{कर्तरि;आशीर्लिङ्;म;एक;परस्मैपदी;दुषँ;दिवादिः}. 
+row4#!n6#!<a (click)=showDic('दूष्य')>दूष्य</a>{पुं}{6;बहु}
+row5#!n6#!<a href="javascript:show('कर्तृसमानाधिकरणम्,')">कर्तृसमानाधिकरणम्,11</a>
+row6#!n6#!निन्दनीय
+row7#!n6#!to be condemned
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!v#!(भवन्ति).
+row2#!v#!भवन्ति
+row3#!v#!भू1{कर्तरि;लट्;प्र;बहु;परस्मैपदी;भू;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('भू1')>भू1</a>{कर्तरि;लट्;प्र;बहु;परस्मैपदी;भू;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!होते_हैं.
+row7#!v#!are.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!-
+row12#!v#!
+
+

@@ -1,0 +1,79 @@
+row1#!number#!<a href="html/SV-VII/SV-71/71.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-71/71.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">71.A</a>#!html/SV-VII/SV-71/71.jpg#!row1#!n5#!अविरतकुसुमावचाय-खेदात्
+row2#!number#!71.B</a>#!row2#!n5#!अविरतकुसुमावचाय-खेदात्
+row3#!number#!71.C</a>#!row3#!n5#!अविरतकुसुमावचाय-खेद{पुं;5;एक}
+row4#!number#!71.D</a>#!row4#!n5#!<a (click)=showDic('अविरतकुसुमावचाय')>अविरतकुसुमावचाय</a>-<a (click)=showDic('खेद')>खेद</a>{पुं;5;एक}
+row5#!number#!71.E</a>#!row5#!n5#!हेतुः,6
+row6#!number#!71.F</a>#!row6#!n5#!निरन्तर फूल तोड़ने से उत्पन्न खेद से
+row7#!number#!71.G</a>#!row7#!n5#!who was afflicted as she was continuously plucking flowers
+row8#!number#!71.H#!row8#!n5#!<a href="html/SV-VII/SV-71/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-71/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<न-विरत>Tn-<कुसुम-अवचाय>T6>K3-खेदः>T3</a>#!html/SV-VII/SV-71/samaasa1.jpg
+row9#!number#!71.I</a>#!row9#!n5#!
+row10#!number#!71.J</a>#!row10#!n5#!
+row11#!number#!71.K</a>#!row11#!n5#!
+row12#!number#!71.L</a>#!row12#!n5#!‘हस्तादाने चेरस्तेये’ (3।3।40) इति घञ् ।
+
+row1#!NA#!उप-कण्ठं
+row2#!NA#!उप-कण्ठं
+row3#!NA#!उप-{अव्य-कण्ठ;पुं;2;एक}
+row4#!NA#!<a (click)=showDic('उप')>उप</a>-<a (click)=showDic('कण्ठम्')>कण्ठम्</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,6</a>
+row6#!NA#!(अपने पति के) कण्ठ में
+row7#!NA#!(on his) neck
+row8#!NA#!<a href="html/SV-VII/SV-71/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-71/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><उप-कण्ठम्>A1</a>#!html/SV-VII/SV-71/samaasa2.jpg
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!निहितभुजा-लतया
+row2#!n3#!निहितभुजा-लतया
+row3#!n3#!निहितभुजा-लता{स्त्री;3;एक}
+row4#!n3#!<a (click)=showDic('निहितभुजा')>निहितभुजा</a>-<a (click)=showDic('लता')>लता</a>{स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n3#!दोनों भुजाओं को डाली हुई
+row7#!n3#!placed her two hands
+row8#!n3#!<a href="html/SV-VII/SV-71/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-71/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><निहित-<भुजा-लता>K5>Bs3</a>#!html/SV-VII/SV-71/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!एकया
+row2#!n3#!एकया
+row3#!n3#!एका{स्त्री;3;एक}
+row4#!n3#!<a (click)=showDic('एका')>एका</a>{स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n3#!किसी_एक_से
+row7#!n3#!by some other woman
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!विपुलतरनिरन्तरावलग्नस्तनपिहितप्रिय-वक्षसा
+row2#!n3#!विपुलतरनिरन्तरावलग्नस्तनपिहितप्रिय-वक्षसा
+row3#!n3#!विपुलतरनिरन्तरावलग्नस्तनपिहितप्रिय-वक्षस्{नपुं;3;एक}
+row4#!n3#!<a (click)=showDic('विपुलतरनिरन्तरावलग्नस्तनपिहितप्रिय')>विपुलतरनिरन्तरावलग्नस्तनपिहितप्रिय</a>-<a (click)=showDic('वक्षस्')>वक्षस्</a>{स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,6</a>
+row6#!n3#!पीन एवं संश्लिष्ट दोनों स्तनों से प्रिय के वक्षःस्थल को आवृत कर (उसका)
+row7#!n3#!while covering her (two) huge breasts on the chest of her beloved
+row8#!n3#!<a href="html/SV-VII/SV-71/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-71/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<विपुलतर-<निरन्तर-अवलग्न>K3>K3-स्तन>K1-पिहित>T3-<प्रिय-वक्षस्>T6>Bs3</a>#!html/SV-VII/SV-71/samaasa4.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!v#!ललम्बे
+row2#!v#!ललम्बे
+row3#!v#!लम्ब्1{कर्तरि;लिट्;उ;एक;आत्मनेपदी;लबिँ;भ्वादिः}/लम्ब्1{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;लबिँ;भ्वादिः}/लम्ब्1{भावे;लिट्;उ;एक;आत्मनेपदी;लबिँ;भ्वादिः}/लम्ब्1{भावे;लिट्;प्र;एक;आत्मनेपदी;लबिँ;भ्वादिः}
+row4#!v#!<a (click)=showDic('लम्ब्1')>लम्ब्1</a>{भावे;लिट्;प्र;एक;आत्मनेपदी;लबिँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!सहारा_ले_लिया.
+row7#!v#!took (his) support.
+row8#!v#!-
+row9#!v#!भावे
+row10#!v#!पुष्पिताग्रा ।
+row11#!v#!-
+row12#!v#!
+
+

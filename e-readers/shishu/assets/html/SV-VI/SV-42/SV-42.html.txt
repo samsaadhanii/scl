@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-VI/SV-42/42.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-42/42.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">42.A</a>#!html/SV-VI/SV-42/42.jpg#!row1#!n1#!अघनाशन-कीर्तनः
+row2#!number#!42.B</a>#!row2#!n1#!अघनाशन-कीर्तनः
+row3#!number#!42.C</a>#!row3#!n1#!अघनाशन-कीर्तन{पुं;1;एक}
+row4#!number#!42.D</a>#!row4#!n1#!<a (click)=showDic('अघनाशन')>अघनाशन</a>-<a (click)=showDic('कीर्तन')>कीर्तन</a>{पुं;1;एक}
+row5#!number#!42.E</a>#!row5#!n1#!कर्ता,10
+row6#!number#!42.F</a>#!row6#!n1#!पापनाशक नाम (कीर्तन) है जिसका
+row7#!number#!42.G</a>#!row7#!n1#!the one who is famous for his name as sin-dispeller
+row8#!number#!42.H#!row8#!n1#!<a href="html/SV-VI/SV-42/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-42/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अघ-<नाशन-कीर्तनः>K3>K1</a>#!html/SV-VI/SV-42/samaasa1.jpg
+row9#!number#!42.I</a>#!row9#!n1#!
+row10#!number#!42.J</a>#!row10#!n1#!
+row11#!number#!42.K</a>#!row11#!n1#!
+row12#!number#!42.L</a>#!row12#!n1#!
+
+row1#!n1#!सः
+row2#!n1#!सः
+row3#!n1#!तद्{पुं;1;एक}
+row4#!n1#!<a (click)=showDic('तद्')>तद्</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,1</a>
+row6#!n1#!वह हरि
+row7#!n1#!that Lord Śrī Kṛṣṇa
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!विकच-उत्पल-चक्षुषम्
+row2#!n2#!विकच-उत्पल-चक्षुषम्
+row3#!n2#!विकच-उत्पल-चक्षुषम्}
+row4#!n2#!<a (click)=showDic('विकच')>विकच</a>-<a (click)=showDic('उत्पल')>उत्पल</a>-<a (click)=showDic('चक्षुषम्')>चक्षुषम्</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n2#!विकसितकमल रूप नेत्रों वाली
+row7#!n2#!possessed with blossomed lotus eyes
+row8#!n2#!<a href="html/SV-VI/SV-42/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-42/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<विकच-उत्पल>K3-चक्षुषम्>Bs6</a>#!html/SV-VI/SV-42/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!अच्छगलद्वसनोपमाक्षम-घनाम्
+row2#!n2#!अच्छगलद्वसनोपमाक्षम-घनाम्
+row3#!n2#!अच्छगलद्वसनोपमाक्षम-घना{स्त्री;2;एक}/घना{स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('अच्छगलद्वसनोपमाक्षम')>अच्छगलद्वसनोपमाक्षम</a>-<a (click)=showDic('घना')>घना</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n2#!सरकते (नीचे को खिसकते) हुए स्वच्छ कपड़ों के सदृश मेघों वाली
+row7#!n2#!with pure and white clouds moving towards downwards
+row8#!n2#!<a href="html/SV-VI/SV-42/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-42/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<अच्छ-गलद्>K3-वसन>K3-उपमा>T6-<क्षम-घना>K1>Bs7</a>#!html/SV-VI/SV-42/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n6#!क्षिति-भृतः
+row2#!n6#!क्षिति-भृतः
+row3#!n6#!क्षिति-भृत{पुं;1;एक}/भृत{पुं;1;एक}
+row4#!n6#!<a (click)=showDic('क्षिति')>क्षिति</a>-<a (click)=showDic('भृत')>भृत</a>{पुं;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,6</a>
+row6#!n6#!राजा_की
+row7#!n6#!of a king
+row8#!n6#!<a href="html/SV-VI/SV-42/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-42/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><क्षिति-भृत्>U</a>#!html/SV-VI/SV-42/samaasa4.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!अङ्क-गतां
+row2#!n2#!अङ्क-गतां
+row3#!n2#!अङ्क-गता{स्त्री;2;एक}/गता{स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('अङ्क')>अङ्क</a>-<a (click)=showDic('गता')>गता</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n2#!गोद_में_बैठी_हुई
+row7#!n2#!while sitting on the lap
+row8#!n2#!<a href="html/SV-VI/SV-42/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-42/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अङ्क-गता>T7</a>#!html/SV-VI/SV-42/samaasa5.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!दयिताम्
+row2#!n2#!दयिताम्
+row3#!n2#!दयिता{स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('दयिता')>दयिता</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,8</a>
+row6#!n2#!प्रिया_के
+row7#!n2#!beloved lady
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!इव
+row2#!NA#!इव
+row3#!NA#!इव{अव्य}
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,9</a>
+row6#!NA#!समान
+row7#!NA#!like
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!शरदम्
+row2#!n2#!शरदम्
+row3#!n2#!शरद्{स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('शरद्')>शरद्</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n2#!शरद्-ऋतु_को
+row7#!n2#!autumn season
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!ऐक्षत
+row2#!v#!ऐक्षत
+row3#!v#!ईक्ष्1{कर्तरि;लङ्;प्र;एक;आत्मनेपदी;ईक्षँ;भ्वादिः}
+row4#!v#!<a (click)=showDic('ईक्ष्1')>ईक्ष्1</a>{कर्तरि;लङ्;प्र;एक;आत्मनेपदी;ईक्षँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!देखा.
+row7#!v#!saw.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!उत्प्रेक्षा + यमकम् = सङ्करः ।
+row12#!v#!
+
+

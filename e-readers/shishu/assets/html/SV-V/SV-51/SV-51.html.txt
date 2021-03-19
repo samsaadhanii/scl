@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-V/SV-51/51.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-51/51.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">51.A</a>#!html/SV-V/SV-51/51.jpg#!row1#!n1#!उत्क्षिप्त-हस्त-तल-दत्त-विधान-पिण्ड-स्नेह-स्रुति-स्नपित-बाहुः
+row2#!number#!51.B</a>#!row2#!n1#!उत्क्षिप्त-हस्त-तल-दत्त-विधान-पिण्ड-स्नेह-स्रुति-स्नपित-बाहुः 
+row3#!number#!51.C</a>#!row3#!n1#!उत्क्षिप्त-हस्त-तल-दत्त-विधान-पिण्ड-स्नेहन्-स्रुति-स्नपित-बाहु{पुं}{1;एक} 
+row4#!number#!51.D</a>#!row4#!n1#!<a (click)=showDic('उत्क्षिप्त')>उत्क्षिप्त</a>-<a (click)=showDic('हस्त')>हस्त</a>-<a (click)=showDic('तलदत्त')>तलदत्त</a>-<a (click)=showDic('विधान')>विधान</a>-<a (click)=showDic('पिण्ड')>पिण्ड</a>-<a (click)=showDic('स्नेह')>स्नेह</a>-<a (click)=showDic('स्रुति')>स्रुति</a>-<a (click)=showDic('स्नपित')>स्नपित</a>-<a (click)=showDic('बाहु')>बाहु</a>{पुं}{1;एक} 
+row5#!number#!51.E</a>#!row5#!n1#!कर्ता,9
+row6#!number#!51.F</a>#!row6#!n1#!ऊपर उठाई हुई हथेली पर रखे हुए भात के पिण्ड से चूते हुए (घृतादि) रस से लथ-पथ (सने हुए) हाथों वाला
+row7#!number#!51.G</a>#!row7#!n1#!A person with his uplifted thenar, with a gob of food on it, which was drabbled with liquids like ghee etc.
+row8#!number#!51.H#!row8#!n1#!<a href="html/SV-V/SV-51/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-51/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<उत्क्षिप्त-हस्ततल>K1-दत्त>T7-<विधान-पिण्ड>T6>K3-स्नेहस्रुति>T6-सन्पितबाहुः>Bs6</a>#!html/SV-V/SV-51/samaasa1.jpg
+row9#!number#!51.I</a>#!row9#!n1#!
+row10#!number#!51.J</a>#!row10#!n1#!
+row11#!number#!51.K</a>#!row11#!n1#!
+row12#!number#!51.L</a>#!row12#!n1#!स्नातेर्ण्यन्तात्कर्मणि क्तः । ‘अर्तिर्ही-’ (7।3।36) इत्यादिना पुगागमः मित्वाद्ध्रस्वः।
+
+row1#!n3#!आशयिता
+row2#!n3#!आशयिता 
+row3#!n3#!अश्1_णिच्{कर्तरि;लुट्;प्र;एक;परस्मैपदी;अशूँ;स्वादिः}/अश्1_णिच्{कर्तरि;लुट्;प्र;एक;आत्मनेपदी;अशूँ;स्वादिः}/अश्2_णिच्{कर्तरि;लुट्;प्र;एक;परस्मैपदी;अशँ;क्र्यादिः}/अश्2_णिच्{कर्तरि;लुट्;प्र;एक;आत्मनेपदी;अशँ;क्र्यादिः}/आशयिता{स्त्री}{1;एक} 
+row4#!n3#!<a (click)=showDic('अश्1_णिच्')>अश्1_णिच्</a>{कृत्_प्रत्ययः:शतृ;अशूँ;स्वादिः;पुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('समानकालः,')">समानकालः,9</a>
+row6#!n3#!खिलाने_वाला
+row7#!n3#!feeding
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n2#!तुङ्ग-अग्र-कायम्
+row2#!n2#!तुङ्ग-अग्र-कायम् 
+row3#!n2#!तुङ्ग-अग्र-काय{पुं}{2;एक}/काय{नपुं}{1;एक}/काय{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('तुङ्ग')>तुङ्ग</a>-<a (click)=showDic('अग्र')>अग्र</a>-<a (click)=showDic('काय')>काय</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n2#!ऊँचे मस्तक वाले
+row7#!n2#!with an elevated head
+row8#!n2#!<a href="html/SV-V/SV-51/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-51/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<तुङ्ग-<अग्रकार्यः>T6>Bs6</a>#!html/SV-V/SV-51/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n3#!अनादरेण
+row2#!n3#!अनादरेण 
+row3#!n3#!अनादर{पुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('अनादर')>अनादर</a>{पुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('हेतुः,')">हेतुः,5</a>
+row6#!n3#!अवहेलनापूर्वक
+row7#!n3#!easily
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n2#!अनमन्तम्
+row2#!n2#!अनमन्तम् 
+row3#!n2#!अ-{अव्य}-नमन्त{पुं}{2;एक}/नमन्त{नपुं}{1;एक}/नमन्त{नपुं}{2;एक}
+row4#!n2#!<a (click)=showDic('नञ्')>नञ्</a>-<a (click)=showDic('अ_नम्1')>अ_नम्1</a>{कृत्_प्रत्ययः:शतृ;णमँ;भ्वादिः;पुं}{2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n2#!न_झुकते_हुए
+row7#!n2#!while not bending
+row8#!n2#!<a href="html/SV-V/SV-51/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-51/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-नमन्>Tn</a>#!html/SV-V/SV-51/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!इभ-अधि-राजम्
+row2#!n2#!इभ-अधि-राजम् 
+row3#!n2#!इभ-अधि-राज{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('इभ')>इभ</a>-<a (click)=showDic('अधि')>अधि</a>-<a (click)=showDic('राज')>राज</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,9</a>
+row6#!n2#!गजराज_को
+row7#!n2#!an elephant
+row8#!n2#!<a href="html/SV-V/SV-51/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-51/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><इभ-<अधि-राजः>U>T6</a>#!html/SV-V/SV-51/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!‘गतिबुद्धि०’ (1।4।52) इत्यादिना कणि कर्तुर्णौ कर्मत्वम् ।
+
+row1#!n3#!दुःखेन
+row2#!n3#!दुःखेन 
+row3#!n3#!दुःख{नपुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('दुःख')>दुःख</a>{नपुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('हेतुः,')">हेतुः,8</a>
+row6#!n3#!बड़ी_कठिनाई_से
+row7#!n3#!with a great difficulty
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!भोजयितुम्
+row2#!NA#!भोजयितुं 
+row3#!NA#!भोजयितुम् 
+row4#!NA#!<a (click)=showDic('भुज्2_णिच्')>भुज्2_णिच्</a>{कृत्_प्रत्ययः:तुमुन्;भुजँ;रुदाधिः}
+row5#!NA#!<a href="javascript:show('प्रयोजनम्,')">प्रयोजनम्,9</a>
+row6#!NA#!खिलाने_में
+row7#!NA#!to eat
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!शशाक.
+row2#!v#!शशाक 
+row3#!v#!शक्1{कर्तरि;लिट्;उ;एक;परस्मैपदी;शकॢँ;स्वादिः}/शक्1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;शकॢँ;स्वादिः}/शक्2{कर्तरि;लिट्;उ;एक;आत्मनेपदी;शकँ;दिवादिः}/शक्2{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;शकँ;दिवादिः}. 
+row4#!v#!<a (click)=showDic('शक्2')>शक्2</a>{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;शकँ;दिवादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!समर्थ_हुआ.
+row7#!v#!was able to.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!वसन्ततिलका ।
+row11#!v#!-
+row12#!v#!
+
+

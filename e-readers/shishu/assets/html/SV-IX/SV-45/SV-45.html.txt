@@ -1,0 +1,92 @@
+row1#!number#!<a href="html/SV-IX/SV-45/45.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-45/45.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">45.A</a>#!html/SV-IX/SV-45/45.jpg#!row1#!n1#!वधूः
+row2#!number#!45.B</a>#!row2#!n1#!वधूः
+row3#!number#!45.C</a>#!row3#!n1#!वधू{;स्त्री;1;एक}/वधू{;स्त्री;2;बहु}/वधु{;स्त्री;2;बहु}
+row4#!number#!45.D</a>#!row4#!n1#!<a (click)=showDic('वधू')>वधू</a>{;स्त्री;1;एक}
+row5#!number#!45.E</a>#!row5#!n1#!कर्ता,7
+row6#!number#!45.F</a>#!row6#!n1#!किसी एक वधू ने
+row7#!number#!45.G</a>#!row7#!n1#!A woman
+row8#!number#!45.H#!row8#!n1#!
+row9#!number#!45.I</a>#!row9#!n1#!
+row10#!number#!45.J</a>#!row10#!n1#!
+row11#!number#!45.K</a>#!row11#!n1#!
+row12#!number#!45.L</a>#!row12#!n1#!
+
+row1#!n7#!कदली-प्रकाण्ड-रुचिर-उरु-तरौ
+row2#!n7#!कदली-प्रकाण्ड-रुचिर-उरु-तरौ
+row3#!n7#!कदली-प्रकाण्ड-रुचिर-उरु-तर{;पुं;1;द्वि}/तर{;पुं;2;द्वि}/तर{;पुं;8;द्वि}/तरु{;पुं;7;एक}/तरि{;पुं;7;एक}/तरि{;स्त्री;7;एक}
+row4#!n7#!<a (click)=showDic('कदली')>कदली</a>-<a (click)=showDic('प्रकाण्ड')>प्रकाण्ड</a>-<a (click)=showDic('रुचिर')>रुचिर</a>-<a (click)=showDic('उरु')>उरु</a>-<a (click)=showDic('तरु')>तरु</a>{;पुं;7;एक}
+row5#!n7#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n7#!कदलीस्तम्भ के सदृश सुन्दर जघनरूपी वृक्षवाले
+row7#!n7#!hips that are in the form of a trunk of a Banana tree
+row8#!n7#!<a href="html/SV-IX/SV-45/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-45/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<कदली-प्रकाण्ड>T6-रुचिर>K4-<उरु-तरुः>K6>K3</a>#!html/SV-IX/SV-45/samaasa1.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!महति
+row2#!n7#!महति
+row3#!n7#!महती{;स्त्री;8;एक}/मह्1{कर्तरि;लट्;प्र;एक;परस्मैपदी;महँ;भ्वादिः}/महत्{;पुं;7;एक}/महत्{;नपुं;7;एक}
+row4#!n7#!<a (click)=showDic('महत्')>महत्</a>{पुं;7;एक}
+row5#!n7#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n7#!विशाल
+row7#!n7#!huge
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!जघन-स्थली-परिसरे
+row2#!n7#!जघन-स्थली-परिसरे
+row3#!n7#!जघन-स्थली-परिसर{;पुं;7;एक}/परिसर{;नपुं;8;द्वि}/परिसरा{;स्त्री;8;एक}/परिसरा{;स्त्री;8;द्वि}
+row4#!n7#!<a (click)=showDic('जघन')>जघन</a>-<a (click)=showDic('स्थली')>स्थली</a>-<a (click)=showDic('परिसर')>परिसर</a>{;पुं;7;एक}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,7</a>
+row6#!n7#!जघनस्थलरूपी प्रदेश में
+row7#!n7#!around (her) hips
+row8#!n7#!<a href="html/SV-IX/SV-45/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-45/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<जघन-स्थली>T6-परिसरः>K6</a>#!html/SV-IX/SV-45/samaasa2.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n3#!रशना-कलापक-गुणेन
+row2#!n3#!रशना-कलापक-गुणेन
+row3#!n3#!रशना-कलापक-गुण{;पुं;3;एक}/गुण{;नपुं;3;एक}
+row4#!n3#!<a (click)=showDic('रशना')>रशना</a>-<a (click)=showDic('कलापक')>कलापक</a>-<a (click)=showDic('गुण')>गुण</a>{;पुं;3;एक}
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,7</a>
+row6#!n3#!करधनी की लडी रूपी रस्सी से
+row7#!n3#!a girdle that was made up of several strings
+row8#!n3#!<a href="html/SV-IX/SV-45/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-45/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<रशना-कलापक>T6-गुणः>K6</a>#!html/SV-IX/SV-45/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n2#!मकर-ध्वज-द्विरदम्
+row2#!n2#!मकर-ध्वज-द्विरदम्
+row3#!n2#!मकर-ध्वज-द्विरद{;पुं;2;एक}/द्विरद{;नपुं;1;एक}/द्विरद{;नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('मकर')>मकर</a>-<a (click)=showDic('ध्वज')>ध्वज</a>-<a (click)=showDic('द्विरद')>द्विरद</a>{;पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,7</a>
+row6#!n2#!कामदेवरूपी गज को
+row7#!n2#!the cupid in the form of an elephant
+row8#!n2#!<a href="html/SV-IX/SV-45/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-45/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<मकर-ध्वज>Bs6-द्विरदः>K6</a>#!html/SV-IX/SV-45/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!आकलयत्
+row2#!v#!आकलयत्
+row3#!v#!आङ्_कल्2{कर्तरि;लङ्;प्र;एक;उभयपदी;कलँ;चुरादिः}/आङ्_कल्3{कर्तरि;लङ्;प्र;एक;उभयपदी;कलँ;चुरादिः}/आङ्_कल1{कर्तरि;लङ्;प्र;एक;आत्मनेपदी;कल;चुरादिः}/आकलयत्{;नपुं;1;एक}/आकलयत्{;नपुं;2;एक}/आकलयत्{;नपुं;8;एक}
+row4#!v#!<a (click)=showDic('आङ्_कल्2')>आङ्_कल्2</a>{कर्तरि;लङ्;प्र;एक;उभयपदी;कलँ;चुरादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!बाँध_दिया
+row7#!v#!tied.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!प्रमिताक्षरा ।
+row11#!v#!रूपकम् ।
+row12#!v#!
+
+

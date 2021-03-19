@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-X/SV-3/3.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-3/3.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">3.A</a>#!html/SV-X/SV-3/3.jpg#!row1#!n7#!क्रान्त-कान्त-वदन-प्रतिबिम्बे
+row2#!number#!3.B</a>#!row2#!n7#!क्रान्त-कान्त-वदन-प्रतिबिम्बे
+row3#!number#!3.C</a>#!row3#!n7#!क्रान्त{पुं(;क्त;क्रमुँ;भ्वादिः)}/कान्त{पुं(;क्त;क्रमुँ;भ्वादिःक्रान्त;नपुं-;क्त;कमुँ;भ्वादिः)}/वदन{नपुं(;क्त;कमुँ;भ्वादिःकान्त;नपुं-;ल्युट्;वदँ;भ्वादिः)-प्रतिबिम्बे}
+row4#!number#!3.D</a>#!row4#!n7#!<a (click)=showDic('क्रान्त')>क्रान्त</a>-<a (click)=showDic('कान्त')>कान्त</a>-<a (click)=showDic('वदन')>वदन</a>-<a (click)=showDic('प्रतिबिम्ब')>प्रतिबिम्ब</a>{नपुं;7;एक}
+row5#!number#!3.E</a>#!row5#!n7#!समुच्चितम्,6
+row6#!number#!3.F</a>#!row6#!n7#!प्रियतम के प्रतिबिम्ब से युक्त
+row7#!number#!3.G</a>#!row7#!n7#!The image of the beloved
+row8#!number#!3.H#!row8#!n7#!<a href="html/SV-X/SV-3/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-3/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<क्रान्त-<कान्त-वदन>T6>K1-प्रतिबिम्बम्>Bs7</a>#!html/SV-X/SV-3/samaasa1.jpg
+row9#!number#!3.I</a>#!row9#!n7#!
+row10#!number#!3.J</a>#!row10#!n7#!
+row11#!number#!3.K</a>#!row11#!n7#!
+row12#!number#!3.L</a>#!row12#!n7#!
+
+row1#!n7#!भग्नबालसहकार-सुगन्धौ
+row2#!n7#!भग्नबालसहकार-सुगन्धौ
+row3#!n7#!भग्नबालसहकार-सुगन्ध{;पुं;1;द्वि}/सुगन्ध{;पुं;2;द्वि}
+row4#!n7#!<a (click)=showDic('भग्नबालसहकार')>भग्नबालसहकार</a>-<a (click)=showDic('सुगन्धि')>सुगन्धि</a>{नपुं;7;एक}
+row5#!n7#!<a href="javascript:show('समुच्चितम्,')">समुच्चितम्,6</a>
+row6#!n7#!तोड़े गये नवीन एवं सुवासयुक्त आम्रपल्लवों से सौरभयुक्त
+row7#!n7#!tender fragrant and broken twigs of mangoes
+row8#!n7#!<a href="html/SV-X/SV-3/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-3/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<भग्न-बालसहकार>K3-सुगन्धि>T3</a>#!html/SV-X/SV-3/samaasa2.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!‘तृतीयाधिषु भाषितपुंस्कं पुंवद्गालवस्य’ (7।1।74) इति पुंवद्भावः ।
+
+row1#!n7#!स्वादुनि
+row2#!n7#!स्वादुनि
+row3#!n7#!स्वादु{;नपुं;7;एक}
+row4#!n7#!<a (click)=showDic('स्वादु')>स्वादु</a>{;नपुं;7;एक}
+row5#!n7#!<a href="javascript:show('समुच्चितम्,')">समुच्चितम्,6</a>
+row6#!n7#!रुचिकर
+row7#!n7#!tasty
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!प्रणदित-अलिनि
+row2#!n7#!प्रणदित-अलिनि
+row3#!n7#!प्रणदित{पुं(;क्त;णदँ;भ्वादिः)}/प्रणदित{नपुं-अलिन्;;पुं;7;एक(;क्त;णदँ;भ्वादिः)}/अलि{;नपुं;7;एक}
+row4#!n7#!<a (click)=showDic('प्रणदित')>प्रणदित</a>-<a (click)=showDic('अलिन्')>अलिन्</a>{;नपुं;7;एक(;क्त;णदँ;भ्वादिः)}
+row5#!n7#!<a href="javascript:show('समुच्चितम्,')">समुच्चितम्,6</a>
+row6#!n7#!भ्रमरों के गुञ्जारव से युक्त
+row7#!n7#!the melodious buzzing sound of honey-bees
+row8#!n7#!<a href="html/SV-X/SV-3/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-3/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><प्रणदित-अलि>Bs7</a>#!html/SV-X/SV-3/samaasa3.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!शीते
+row2#!n7#!शीते
+row3#!n7#!शीत{;नपुं;1;द्वि}/शीत{;नपुं;2;द्वि}/शीता{;स्त्री;1;द्वि}/शीता{;स्त्री;2;द्वि}/शीत{;नपुं;8;द्वि}/शीता{;स्त्री;8;एक}/शीता{;स्त्री;8;द्वि}/शीत{;पुं;7;एक}/शीत{;नपुं;7;एक}
+row4#!n7#!<a (click)=showDic('शीत')>शीत</a>{;नपुं;7;एक}
+row5#!n7#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n7#!ठंडा
+row7#!n7#!cold breeze
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!मधुनि
+row2#!n7#!मधुनि
+row3#!n7#!मधु{;नपुं;7;एक}
+row4#!n7#!<a (click)=showDic('मधु')>मधु</a>{;नपुं;7;एक}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,9</a>
+row6#!n7#!मधु_में
+row7#!n7#!liquor
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!NA#!(च)
+row2#!NA#!च
+row3#!NA#!च{अव्य}
+row4#!NA#!<a (click)=showDic('च')>च</a>{अव्य}
+row5#!NA#!<a href="javascript:show('समुच्चितद्योतक,')">समुच्चितद्योतक,1</a>
+row6#!NA#!और
+row7#!NA#!and
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!इन्द्रिय-वर्गः
+row2#!n1#!इन्द्रिय-वर्गः
+row3#!n1#!इन्द्रिय-वर्ग{;पुं;1;एक}
+row4#!n1#!<a (click)=showDic('इन्द्रिय')>इन्द्रिय</a>-<a (click)=showDic('वर्ग')>वर्ग</a>{;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,9</a>
+row6#!n1#!इन्द्रिय-वर्ग
+row7#!n1#!sensory-organs
+row8#!n1#!<a href="html/SV-X/SV-3/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-3/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><इन्द्रिय-वर्गः>T6</a>#!html/SV-X/SV-3/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!निर्ववार
+row2#!v#!निर्ववार
+row3#!v#!निस्_वृ1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;वृञ्;स्वादिः}/निस्_वृ1{कर्तरि;लिट्;उ;एक;परस्मैपदी;वृञ्;स्वादिः}
+row4#!v#!<a (click)=showDic('निस्_वृ1')>निस्_वृ1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;वृञ्;स्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!अत्यधिक सन्तुष्ट हो गया.
+row7#!v#!got very much satisfied.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!स्वागता ।
+row11#!v#!काव्यलिङ्गम् ।
+row12#!v#!
+
+

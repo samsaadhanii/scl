@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-VII/SV-26/26.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-26/26.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">26.A</a>#!html/SV-VII/SV-26/26.jpg#!row1#!n1#!मरुत्
+row2#!number#!26.B</a>#!row2#!n1#!मरुत्
+row3#!number#!26.C</a>#!row3#!n1#!मरुत्{पुं;1;एक}
+row4#!number#!26.D</a>#!row4#!n1#!<a (click)=showDic('मरुत्')>मरुत्</a>{पुं;1;एक}
+row5#!number#!26.E</a>#!row5#!n1#!कर्ता,8
+row6#!number#!26.F</a>#!row6#!n1#!वन्य-पवन
+row7#!number#!26.G</a>#!row7#!n1#!Wind of the forest
+row8#!number#!26.H#!row8#!n1#!
+row9#!number#!26.I</a>#!row9#!n1#!
+row10#!number#!26.J</a>#!row10#!n1#!
+row11#!number#!26.K</a>#!row11#!n1#!
+row12#!number#!26.L</a>#!row12#!n1#!
+
+row1#!n6#!असकलकलिकाकुलीकृतालिस्खलनविकीर्णविकासि-केशराणाम्
+row2#!n6#!असकलकलिकाकुलीकृतालिस्खलनविकीर्णविकासि-केशराणाम्
+row3#!n6#!असकलकलिकाकुलीकृतालिस्खलनविकीर्णविकासि-केशर}
+row4#!n6#!<a (click)=showDic('असकलकलिकाकुलीकृतालिस्खलनविकीर्णविकासि')>असकलकलिकाकुलीकृतालिस्खलनविकीर्णविकासि</a>-<a (click)=showDic('केशर')>केशर</a>{पुं;6;बहु}
+row5#!n6#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n6#!अर्ध प्रफुल्लित कलिकाओं से तथा भ्रमरों के बैठने से गिरे हुए विकसित केशरों से युक्त_के
+row7#!n6#!with partly blossomed buds and with pollen-dust of trees that fell when shaken by honey-bees
+row8#!n6#!<a href="html/SV-VII/SV-26/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-26/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<<असकल-कलिक>K2-आकुलीकृत>T3-अलि>T6-<स्खलन-विकीर्ण>T3>T6-विकासि>K2-केशरः>Bs6</a>#!html/SV-VII/SV-26/samaasa1.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!अवनि-रुहां
+row2#!n6#!अवनि-रुहां
+row3#!n6#!अवनि-रुहा{स्त्री;2;एक}
+row4#!n6#!<a (click)=showDic('अवनि')>अवनि</a>-<a (click)=showDic('रुह्')>रुह्</a>{पुं;6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,4</a>
+row6#!n6#!वृक्षों_के
+row7#!n6#!of trees
+row8#!n6#!<a href="html/SV-VII/SV-26/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-26/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अवनि-रुह्>U</a>#!html/SV-VII/SV-26/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n8#!रजः
+row2#!n8#!रजः
+row3#!n8#!रजस्{पुं;8;एक}{पुं;8;एक}
+row4#!n8#!<a (click)=showDic('रजस्')>रजस्</a>{पुं;8;एक}
+row5#!n8#!<a href="javascript:show('कर्म,')">कर्म,6</a>
+row6#!n8#!पराग
+row7#!n8#!pollen-dust
+row8#!n8#!-
+row9#!n8#!
+row10#!n8#!
+row11#!n8#!
+row12#!n8#!
+
+row1#!n4#!वधूभ्यः
+row2#!n4#!वधूभ्यः
+row3#!n4#!वधू{स्त्री;4;बहु}
+row4#!n4#!<a (click)=showDic('वधू')>वधू</a>{स्त्री;4;बहु}
+row5#!n4#!<a href="javascript:show('प्रयोजनम्,')">प्रयोजनम्,6</a>
+row6#!n4#!यादवाङ्गनाओं_के_लिये
+row7#!n4#!for women of Yādavas
+row8#!n4#!-
+row9#!n4#!
+row10#!n4#!
+row11#!n4#!
+row12#!n4#!
+
+row1#!n1#!सम्-उपहरन्
+row2#!n1#!सम्-उपहरन्
+row3#!n1#!सम्_उप_हृ1{कृत्_प्रत्ययः:शतृ;हृञ्;भ्वादिः;पुं}{1;एक}
+row4#!n1#!<a (click)=showDic('सम्_उप_हृ1')>सम्_उप_हृ1</a>{शतृ_लट्;हृञ्;भ्वादिः;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,8</a>
+row6#!n1#!भेंट_करता_हुआ
+row7#!n1#!while gifting
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!धनमर्जयन्वसतीतिवत् 'लक्षणहेत्वोः क्रियायाः' (3।2।126) इति हेत्वर्थे शतृप्रत्ययः ।
+
+row1#!n2#!कोरकाणि
+row2#!n2#!कोरकाणि
+row3#!n2#!कोरक{नपुं;2;बहु}
+row4#!n2#!<a (click)=showDic('कुर्1')>कुर्1</a>{ण्वुल्;कुरँ;तुदादिः;नपुं;2;बहु}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n2#!कलियों_को
+row7#!n2#!buds
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!विचकार
+row2#!v#!विचकार
+row3#!v#!वि_कृ3{कर्तरि;लिट्;प्र;एक;परस्मैपदी;डुकृञ्;तनादिः}
+row4#!v#!<a (click)=showDic('वि')>वि</a>-<a (click)=showDic('कृ2')>कृ2</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;कृञ्;स्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!विकसित_किया.
+row7#!v#!blossomed fully.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!पुष्पिताग्रा ।
+row11#!v#!उत्प्रेक्षा ।
+row12#!v#!
+
+

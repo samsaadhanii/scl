@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-X/SV-80/80.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-80/80.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">80.A</a>#!html/SV-X/SV-80/80.jpg#!row1#!n1#!दुर्वहस्तन-भराः
+row2#!number#!80.B</a>#!row2#!n1#!दुर्वहस्तन-भराः
+row3#!number#!80.C</a>#!row3#!n1#!दुर्वहस्तन-भर{;पुं;8;बहु}/भर{;पुं;1;बहु(;घञ्;भॄ;क्र्यादिः)}/भरा{;स्त्री;8;बहु}/भरा{;स्त्री;1;बहु}/भरा{;स्त्री;2;बहु}
+row4#!number#!80.D</a>#!row4#!n1#!<a (click)=showDic('दुर्वहस्तन')>दुर्वहस्तन</a>-<a (click)=showDic('भरा')>भरा</a>{स्त्री;1;बहु}
+row5#!number#!80.E</a>#!row5#!n1#!विशेषणम्,2
+row6#!number#!80.F</a>#!row6#!n1#!(सुरतजन्य श्रम के कारण) कष्ट से स्तनभार को वहन करसकने वाली
+row7#!number#!80.G</a>#!row7#!n1#!The women possessed with long and dark hair
+row8#!number#!80.H#!row8#!n1#!<a href="html/SV-X/SV-80/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-80/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><दुर्वह-<स्तन-भरा>T6>Bs6</a>#!html/SV-X/SV-80/samaasa1.jpg
+row9#!number#!80.I</a>#!row9#!n1#!
+row10#!number#!80.J</a>#!row10#!n1#!
+row11#!number#!80.K</a>#!row11#!n1#!
+row12#!number#!80.L</a>#!row12#!n1#!
+
+row1#!n1#!असितायत-केश्यः
+row2#!n1#!असितायत-केश्यः
+row3#!n1#!असितायत-केशी{;स्त्री;8;बहु}/केशी{;स्त्री;1;बहु}
+row4#!n1#!<a (click)=showDic('असितायत')>असितायत</a>-<a (click)=showDic('केशी')>केशी</a>{;स्त्री;1;बहु}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n1#!काले एवं दीर्घ केशों वाली प्रमदाएँ
+row7#!n1#!who were somehow able to bear the load of their breasts
+row8#!n1#!<a href="html/SV-X/SV-80/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-80/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<असित-आयत>K3-केशाः>Bs6</a>#!html/SV-X/SV-80/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘स्वाङ्गाच्च-’ (4।1।54) इत्यादिना ङीष् ।
+
+row1#!n5#!मन्मथ-रसात्
+row2#!n5#!मन्मथ-रसात्
+row3#!n5#!मन्मथ-रस{;पुं;5;एक}/रस{;नपुं;5;एक}
+row4#!n5#!<a (click)=showDic('मन्मथ')>मन्मथ</a>-<a (click)=showDic('रस')>रस</a>{;पुं;5;एक}
+row5#!n5#!<a href="javascript:show('हेतुः,')">हेतुः,8</a>
+row6#!n5#!कामासक्ति से
+row7#!n5#!out of affection
+row8#!n5#!<a href="html/SV-X/SV-80/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-80/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><मन्मथ-रसः>T6</a>#!html/SV-X/SV-80/samaasa3.jpg
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!
+
+row1#!n6#!सुरतस्य
+row2#!n6#!सुरतस्य
+row3#!n6#!सुरत{;पुं;6;एक}/सुरत{;नपुं;6;एक}
+row4#!n6#!<a (click)=showDic('सुरत')>सुरत</a>{;पुं;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,5</a>
+row6#!n6#!सुरत की
+row7#!n6#!of coitus
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!अति-भूमिं
+row2#!n2#!अति-भूमिं
+row3#!n2#!अति-भूमि{;स्त्री;2;एक}/भूमि{;पुं;2;एक}
+row4#!n2#!<a (click)=showDic('अति')>अति</a>-<a (click)=showDic('भूमि')>भूमि</a>{;स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,6</a>
+row6#!n2#!चरमसीमा को
+row7#!n2#!climax
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!प्राप्य
+row2#!NA#!प्राप्य
+row3#!NA#!प्र_आङ्_आप्1{अव्य;ल्यप्;आपॢँ;स्वादिः}/प्र_आप्2{अव्य;ल्यप्;आपॢँ;चुरादिः}/प्र_आङ्_आप्2{अव्य;ल्यप्;आपॢँ;चुरादिः}/;अव्य;ल्यप्;आपॢँ;स्वादिः}
+row4#!NA#!<a (click)=showDic('प्र_आङ्_आप्1')>प्र_आङ्_आप्1</a>{अव्य;ल्यप्;आपॢँ;स्वादिः}
+row5#!NA#!<a href="javascript:show('पूर्वकालः,')">पूर्वकालः,8</a>
+row6#!NA#!प्राप्त_कर
+row7#!NA#!having obtained
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!श्रमजलार्द्रललाटश्लिष्ट-केशं
+row2#!n1#!श्रमजलार्द्रललाटश्लिष्ट-केशं
+row3#!n1#!श्रमजलार्द्रललाटश्लिष्ट-केश{;पुं;2;एक}/केश{;नपुं;1;एक}/केश{;नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('श्रमजलार्द्रललाटश्लिष्ट')>श्रमजलार्द्रललाटश्लिष्ट</a>-<a (click)=showDic('केश')>केश</a>{;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n1#!ऐसी थक गयीं कि स्वेदाम्बु से आर्द्र (भींगे हुए उनके) ललाट पर केश
+row7#!n1#!due to sweat (their) hair on their forehead
+row8#!n1#!<a href="html/SV-X/SV-80/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-80/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<श्रम-जल>T6-<आर्द्र-ललाट>K3>T3-श्लिष्टकेशम्>Bs7</a>#!html/SV-X/SV-80/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!शश्रमुः
+row2#!v#!शश्रमुः
+row3#!v#!श्रम्1{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;श्रमुँ;दिवादिः}
+row4#!v#!<a (click)=showDic('श्रम्1')>श्रम्1</a>{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;श्रमुँ;दिवादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!चिपक_गये.
+row7#!v#!was clinging.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!स्वागता ।
+row11#!v#!प्रेयः ।
+row12#!v#!
+
+

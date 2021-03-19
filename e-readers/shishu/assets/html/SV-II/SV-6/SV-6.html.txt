@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-II/SV-6/6.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-6/6.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">6.A</a>#!html/SV-II/SV-6/6.jpg#!row1#!NA#!अथ
+row2#!number#!6.B</a>#!row2#!NA#!अथ 
+row3#!number#!6.C</a>#!row3#!NA#!अथ{अव्य}/अथ{अव्य} 
+row4#!number#!6.D</a>#!row4#!NA#!<a (click)=showDic('अथ')>अथ</a>{अव्य} 
+row5#!number#!6.E</a>#!row5#!NA#!सम्बन्धः,10
+row6#!number#!6.F</a>#!row6#!NA#!उसके बाद
+row7#!number#!6.G</a>#!row7#!NA#!After (taking the seats)
+row8#!number#!6.H#!row8#!NA#!
+row9#!number#!6.I</a>#!row9#!NA#!
+row10#!number#!6.J</a>#!row10#!NA#!
+row11#!number#!6.K</a>#!row11#!NA#!
+row12#!number#!6.L</a>#!row12#!NA#!
+
+row1#!n1#!विचक्षणः
+row2#!n1#!विचक्षणः 
+row3#!n1#!विचक्षण{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('विचक्षण')>विचक्षण</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n1#!आचार_के_ज्ञाता
+row7#!n1#!wise
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘असनयोश्च प्रतिषेधो वक्तव्यः (वा०) इति चक्षिङः ख्याञादेशाभावः ।
+
+row1#!n1#!हरिः
+row2#!n1#!हरिः 
+row3#!n1#!हरि{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('हरि')>हरि</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n1#!हरि_ने 
+row7#!n1#!Hari
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n4#!गुरु-द्वयाय
+row2#!n4#!गुरुद्वयाय 
+row3#!n4#!गुरु-द्वय{नपुं}{4;एक} 
+row4#!n4#!<a (click)=showDic('गुरु')>गुरु</a>-<a (click)=showDic('द्वय')>द्वय</a>{नपुं}{4;एक} 
+row5#!n4#!<a href="javascript:show('प्रयोजनम्,')">प्रयोजनम्,10</a>
+row6#!n4#!दो गुरु जनों
+row7#!n4#!to both the preceptors
+row8#!n4#!<a href="html/SV-II/SV-6/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-6/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><गुरु-द्वयम्>T6</a>#!html/SV-II/SV-6/samaasa1.jpg
+row9#!n4#!
+row10#!n4#!
+row11#!n4#!
+row12#!n4#!
+
+row1#!n6#!गुरुणोः
+row2#!n6#!गुरुणोः
+row3#!n6#!गुरु{पुं}{6;एक}/गुरु{नपुं}{6;एक}
+row4#!n6#!<a (click)=showDic('गुरु')>गुरु</a>{नपुं}{6;द्वि}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,7</a>
+row6#!n6#!बड़े-बड़े
+row7#!n6#!of two great
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!उभयोः
+row2#!n6#!उभयोः 
+row3#!n6#!उभ{पुं}{6;द्वि}/उभ{पुं}{7;द्वि}/उभ{नपुं}{6;द्वि}/उभ{नपुं}{7;द्वि}/उभा{स्त्री}{6;द्वि}/उभा{स्त्री}{7;द्वि} 
+row4#!n6#!<a (click)=showDic('उभ')>उभ</a>{नपुं}{6;द्वि} 
+row5#!n6#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n6#!दो
+row7#!n6#!two
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!कार्ययोः
+row2#!n6#!कार्ययोः 
+row3#!n6#!कार्य{नपुं}{6;द्वि}/कार्य{नपुं}{7;द्वि}/कार्या{स्त्री}{6;द्वि}/कार्या{स्त्री}{7;द्वि} 
+row4#!n6#!<a (click)=showDic('कार्य')>कार्य</a>{नपुं}{6;द्वि}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,9</a>
+row6#!n6#!कार्यों_का
+row7#!n6#!affairs
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!तं
+row2#!n2#!तं 
+row3#!n2#!तद्{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('तद्')>तद्</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n2#!उससे
+row7#!n2#!that
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!विप्रतिषेधम्
+row2#!n2#!विप्रतिषेधम् 
+row3#!n2#!विप्रतिषेध{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('विप्रतिषेध')>विप्रतिषेध</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n2#!पारस्परिक समान विरोध
+row7#!n2#!about the equal importance
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!आचचक्षे.
+row2#!v#!आचचक्षे 
+row3#!v#!आङ्_चक्ष्1{कर्तरि;लिट्;उ;एक;आत्मनेपदी;चक्षिँङ्;अदादिः}/आङ्_चक्ष्1{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;चक्षिँङ्;अदादिः}. 
+row4#!v#!<a (click)=showDic('आङ्_चक्ष्1')>आङ्_चक्ष्1</a>{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;चक्षिँङ्;अदादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!कहा.
+row7#!v#!told.
+row8#!v#!-
+row9#!v#!सकर्मककर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!-
+row12#!v#!
+
+

@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-III/SV-34/34.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-34/34.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">34.A</a>#!html/SV-III/SV-34/34.jpg#!row1#!n6#!भूमिभृतां
+row2#!number#!34.B</a>#!row2#!n6#!भूमिभृतां 
+row3#!number#!34.C</a>#!row3#!n6#!भूमिभृत्{पुं}{6;बहु} 
+row4#!number#!34.D</a>#!row4#!n6#!<a (click)=showDic('भूमिभृत्')>भूमिभृत्</a>{पुं}{6;बहु} 
+row5#!number#!34.E</a>#!row5#!n6#!षष्ठीसम्बन्धः,3
+row6#!number#!34.F</a>#!row6#!n6#!राजाओं_की
+row7#!number#!34.G</a>#!row7#!n6#!of kings
+row8#!number#!34.H#!row8#!n6#!<a href="html/SV-III/SV-34/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-34/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><भूमि-भृत्>U</a>#!html/SV-III/SV-34/samaasa1.jpg
+row9#!number#!34.I</a>#!row9#!n6#!
+row10#!number#!34.J</a>#!row10#!n6#!
+row11#!number#!34.K</a>#!row11#!n6#!
+row12#!number#!34.L</a>#!row12#!n6#!
+
+row1#!n3#!सहस्रैः
+row2#!n3#!सहस्रैः 
+row3#!n3#!सहस्र{पुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('सहस्र')>सहस्र</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,1</a>
+row6#!n3#!सहस्र
+row7#!n3#!thousands of
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!कृतास्पदा
+row2#!n1#!कृतास्पदा 
+row3#!n1#!कृतास्पदा{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('कृतास्पदा')>कृतास्पदा</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!निवास-भूमि_से
+row7#!n1#!extensive
+row8#!n1#!<a href="html/SV-III/SV-34/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-34/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कृत-आस्पदा>Bs6</a>#!html/SV-III/SV-34/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘आस्पदं प्रतिष्ठायाम्’ (6।1।146) इति निपातः ।
+
+row1#!n1#!उदन्वत्-अम्भः-परिवीत-मूर्तिः
+row2#!n1#!उदन्वदम्भःपरिवीतमूर्तिः 
+row3#!n1#!उदन्वत्-अम्भस्-परिवीत-मूर्ति{पुं}{1;एक}/मूर्ति{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('उदन्वत्')>उदन्वत्</a>-<a (click)=showDic('अम्भस्')>अम्भस्</a>-<a (click)=showDic('परिवीत')>परिवीत</a>-<a (click)=showDic('मूर्ति')>मूर्ति</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!समुद्र जल से परिवेष्टिन स्वरूपवाली विशाल
+row7#!n1#!surrounded by the waters of the ocean
+row8#!n1#!<a href="html/SV-III/SV-34/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-34/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<उदन्व-अम्भस्>T6-परिवीतामूर्तिः>Bs3</a>#!html/SV-III/SV-34/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘उदन्वानुदधौ च’ (8।2।12) इति निपातनात् साधुः ।
+
+row1#!n1#!पृथ्वी
+row2#!n1#!पृथ्वी 
+row3#!n1#!पृथ्वी{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('पृथ्वी')>पृथ्वी</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,12</a>
+row6#!n1#!भूमि 
+row7#!n1#!the earth
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘वोतो गुणवचनात्’ (4।1।44) इति ङीप् ।
+
+row1#!n1#!या
+row2#!n1#!या 
+row3#!n1#!यद्{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('यद्')>यद्</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!जिस
+row7#!n1#!which
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!अनिर्विदा
+row2#!n3#!अनिर्विदा 
+row3#!n3#!अनिर्विद्{पुं}{3;एक}/अनिर्विद्{नपुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('अनिर्विद्')>अनिर्विद्</a>{पुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n3#!खेद रहित
+row7#!n3#!had not been obstructed
+row8#!n3#!<a href="html/SV-III/SV-34/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-34/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-निर्वित्>Tn</a>#!html/SV-III/SV-34/samaasa4.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!विदेर्ज्ञानार्थत्वान्निः पूर्वात् ‘सत्सूद्विष-’ (3।2।61) इत्यादिना क्विप् ।
+
+row1#!n3#!विधात्रा
+row2#!n3#!विधात्रा 
+row3#!n3#!विधातृ{पुं}{3;एक}
+row4#!n3#!<a (click)=showDic('विधातृ')>विधातृ</a>{पुं}{3;एक}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,12</a>
+row6#!n3#!ब्रह्मा_ने
+row7#!n3#!by the creator
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n6#!पृथिव्याः
+row2#!n6#!पृथिव्याः 
+row3#!n6#!पृथिवी{स्त्री}{5;एक}/पृथिवी{स्त्री}{6;एक} 
+row4#!n6#!<a (click)=showDic('पृथिवी')>पृथिवी</a>{स्त्री}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,10</a>
+row6#!n6#!पृथ्वी_की 
+row7#!n6#!of the earth
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!‘षिद्गौरादिभ्यश्च’ (4।1।41) इति ङीप् ।
+
+row1#!n1#!प्रतियातना
+row2#!n1#!प्रतियातना 
+row3#!n1#!प्रतियातना{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('प्रतियातना')>प्रतियातना</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,11</a>
+row6#!n1#!प्रतिकृति
+row7#!n1#!an image
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इव
+row2#!NA#!इव 
+row3#!NA#!इव{अव्य} 
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,5</a>
+row6#!NA#!के_समान
+row7#!NA#!as
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!विदधे.
+row2#!v#!विदधे
+row3#!v#!वि_धा1{कर्तरि;लिट्;उ;एक;उभयपदी;डुधाञ्;जुहोत्यादिः}/वि_धा1{कर्तरि;लिट्;प्र;एक;उभयपदी;डुधाञ्;जुहोत्यादिः}/वि_धा1{कर्तरि;लट्;उ;एक;उभयपदी;डुधाञ्;जुहोत्यादिः}/वि_धा1{कर्मणि;लिट्;उ;एक;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}/वि_धा1{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}/वि_धे1{कर्मणि;लिट्;उ;एक;आत्मनेपदी;धेट्;भ्वादिः}/वि_धे1{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;धेट्;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('वि_धा1')>वि_धा1</a>{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!बनाया था.
+row7#!v#!had been made.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!उपजाति ।
+row11#!v#!उत्प्रेक्षा ।
+row12#!v#!
+
+

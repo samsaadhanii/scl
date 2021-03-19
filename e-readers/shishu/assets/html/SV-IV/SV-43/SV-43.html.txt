@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-IV/SV-43/43.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-43/43.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">43.A</a>#!html/SV-IV/SV-43/43.jpg#!row1#!n7#!अस्मिन्
+row2#!number#!43.B</a>#!row2#!n7#!अस्मिन् 
+row3#!number#!43.C</a>#!row3#!n7#!इदम्{पुं}{7;एक}/इदम्{नपुं}{7;एक} 
+row4#!number#!43.D</a>#!row4#!n7#!<a (click)=showDic('इदम्')>इदम्</a>{पुं}{7;एक} 
+row5#!number#!43.E</a>#!row5#!n7#!अधिकरणम्,8
+row6#!number#!43.F</a>#!row6#!n7#!इस (रैवतक-पर्वत_पर)
+row7#!number#!43.G</a>#!row7#!n7#!On this (Raivataka mountain)
+row8#!number#!43.H#!row8#!n7#!
+row9#!number#!43.I</a>#!row9#!n7#!
+row10#!number#!43.J</a>#!row10#!n7#!
+row11#!number#!43.K</a>#!row11#!n7#!
+row12#!number#!43.L</a>#!row12#!n7#!
+
+row1#!n1#!सङ्कीर्ण-कीचक-वन-स्खलित-एक-बाल-विच्छेद-कातर-धियः
+row2#!n1#!सङ्कीर्ण-कीचक-वन-स्खलित-एक-बाल-विच्छेद-कातर-धियः 
+row3#!n1#!सङ्कीर्ण-कीचक-वन-स्खलित-एक-बाल-विच्छेद-कातर-धी{स्त्री}{1;बहु}/धी{स्त्री}{5;एक}/धी{स्त्री}{6;एक}/धी{स्त्री}{2;बहु} 
+row4#!n1#!<a (click)=showDic('सङ्कीर्ण')>सङ्कीर्ण</a>-<a (click)=showDic('कीचक')>कीचक</a>-<a (click)=showDic('वन')>वन</a>-<a (click)=showDic('स्खलित')>स्खलित</a>-<a (click)=showDic('एक')>एक</a>-<a (click)=showDic('बाल')>बाल</a>-<a (click)=showDic('विच्छेद')>विच्छेद</a>-<a (click)=showDic('कातर')>कातर</a>-<a (click)=showDic('धी')>धी</a>{स्त्री}{1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n1#!सघन कीचकों_के_वन_में_उलझे_हुए_एक-बाल_के_टूटने_के_भय_से_खिन्न-चित्तवाली
+row7#!n1#!being frightened at the loss of one hair dropped in the forest of Kīchaka bamboos entangled with another
+row8#!n1#!<a href="html/SV-IV/SV-43/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-43/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<<सङ्कीर्ण-कीचक>K1-वन>T6-स्खलित>T7-एकबाल>K3-विच्छेद>T6-कातरधी>Bs6</a>#!html/SV-IV/SV-43/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!चमर्यः
+row2#!n1#!चमर्यः 
+row3#!n1#!चमरी{स्त्री}{1;बहु} 
+row4#!n1#!<a (click)=showDic('चमरी')>चमरी</a>{स्त्री}{1;बहु}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n1#!चमरी गायें
+row7#!n1#!Chamaris (female Chamara deer)
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n5#!मृदु-श्वसन-गर्भ-तदीय-रन्ध्र-निर्यत्-स्वन-श्रुति-सुखात्
+row2#!n5#!मृदु-श्वसन-गर्भ-तदीय-रन्ध्र-निर्यत्-स्वन-श्रुति-सुखात् 
+row3#!n5#!मृदु-श्वसन-गर्भ-तदीय-रन्ध्र-निर्यत्-स्वन-श्रुतिन्-सुख{पुं}{5;एक}/सुख{नपुं}{5;एक} 
+row4#!n5#!<a (click)=showDic('मृदु')>मृदु</a>-<a (click)=showDic('श्वसन')>श्वसन</a>-<a (click)=showDic('गर्भ')>गर्भ</a>-<a (click)=showDic('तदीय')>तदीय</a>-<a (click)=showDic('रन्ध्र')>रन्ध्र</a>-<a (click)=showDic('निर्यत्')>निर्यत्</a>-<a (click)=showDic('स्वन')>स्वन</a>-<a (click)=showDic('श्रुति')>श्रुति</a>-<a (click)=showDic('सुख')>सुख</a>{नपुं}{5;एक} 
+row5#!n5#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,5</a>
+row6#!n5#!थोड़ी_सी_हवा_से_पूर्ण_उसके_छिद्र_से_निकलते_हुए_ध्वनि_को_सुनने_से_उत्पन्न आनन्द_के_कारण
+row7#!n5#!on account of the pleasure they feel in hearing sweet notes issuing from their interiors containing the soft breath
+row8#!n5#!<a href="html/SV-IV/SV-43/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-43/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<<<मृदु-श्वसन>K3-गर्भ>Bs6-तदीय-रन्ध्र>K2-निर्यत्>T5-स्वन>K3-शृति>T6-सुखम्>T3</a>#!html/SV-IV/SV-43/samaasa2.jpg
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!
+
+row1#!NA#!इव
+row2#!NA#!इव 
+row3#!NA#!इव{अव्य} 
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,3</a>
+row6#!NA#!जैसे मानो
+row7#!NA#!as it were
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!चलितुं
+row2#!NA#!चलितुं 
+row3#!NA#!चल्1{कृत्_प्रत्ययः:तुमुन्;चलँ;भ्वादिः}/चल्2{कृत्_प्रत्ययः:तुमुन्;चलँ;तुदादिः}/चल1{कृत्_प्रत्ययः:तुमुन्;चलिः;भ्वादिः} 
+row4#!NA#!<a (click)=showDic('चल्1')>चल्1</a>{कृत्_प्रत्ययः:तुमुन्;चलँ;भ्वादिः} 
+row5#!NA#!<a href="javascript:show('प्रयोजनम्,')">प्रयोजनम्,8</a>
+row6#!NA#!चलने_के_लिये 
+row7#!NA#!to move
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!'शकधृष-' (3।4।65) इत्यादिना तुमुन्प्रत्ययः ।
+
+row1#!NA#!न
+row2#!NA#!न 
+row3#!NA#!न{अव्य} 
+row4#!NA#!<a (click)=showDic('न')>न</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,8</a>
+row6#!NA#!नहीं 
+row7#!NA#!unable
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!उत्सहन्ते.
+row2#!v#!उत्सहन्ते 
+row3#!v#!उद्_सह्1{कर्तरि;लट्;प्र;बहु;आत्मनेपदी;षहँ;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('उद्_सह्1')>उद्_सह्1</a>{कर्तरि;लट्;प्र;बहु;आत्मनेपदी;षहँ;भ्वादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!उत्साह_करते_हैं.
+row7#!v#!show fortitude.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!वसन्ततिलका ।
+row11#!v#!उत्प्रेक्षा ।
+row12#!v#!
+
+

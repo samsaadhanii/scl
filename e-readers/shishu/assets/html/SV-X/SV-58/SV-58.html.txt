@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-X/SV-58/58.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-58/58.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">58.A</a>#!html/SV-X/SV-58/58.jpg#!row1#!n6#!सोष्मणः
+row2#!number#!58.B</a>#!row2#!n6#!सोष्मणः
+row3#!number#!58.C</a>#!row3#!n6#!सोष्मन्{;पुं;2;बहु}/सोष्मन्{;पुं;5;एक}/सोष्मन्{;पुं;6;एक}
+row4#!number#!58.D</a>#!row4#!n6#!<a (click)=showDic('सोष्मन्')>सोष्मन्</a>{;पुं;6;एक}
+row5#!number#!58.E</a>#!row5#!n6#!षष्ठीसम्बन्धः,2
+row6#!number#!58.F</a>#!row6#!n6#!उष्णता से युक्त
+row7#!number#!58.G</a>#!row7#!n6#!That were warm
+row8#!number#!58.H#!row8#!n6#!<a href="html/SV-X/SV-58/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-58/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><स-उष्मा>BvS</a>#!html/SV-X/SV-58/samaasa1.jpg
+row9#!number#!58.I</a>#!row9#!n6#!
+row10#!number#!58.J</a>#!row10#!n6#!
+row11#!number#!58.K</a>#!row11#!n6#!
+row12#!number#!58.L</a>#!row12#!n6#!
+
+row1#!n5#!स्तनशिला-शिखर-अग्रात्
+row2#!n5#!स्तनशिला-शिखर-अग्रात्
+row3#!n5#!स्तनशिला-शिखर-अग्र{;पुं;5;एक}/अग्र{;नपुं;5;एक}
+row4#!n5#!<a (click)=showDic('स्तनशिला')>स्तनशिला</a>-<a (click)=showDic('शिखर')>शिखर</a>-<a (click)=showDic('अग्र')>अग्र</a>{;पुं;5;एक}
+row5#!n5#!<a href="javascript:show('अपादानम्,')">अपादानम्,8</a>
+row6#!n5#!स्तनरूपी चट्टान की चोटी के ऊपरी भाग (के सेवन करने) से
+row7#!n5#!from the top of the pinnacle of a hill of bosom
+row8#!n5#!<a href="html/SV-X/SV-58/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-58/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<स्तन-शिलाशिखर>K6-अग्रः>T6</a>#!html/SV-X/SV-58/samaasa2.jpg
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!
+
+row1#!n3#!आत्तघर्म-सलिलैः
+row2#!n3#!आत्तघर्म-सलिलैः
+row3#!n3#!आत्तघर्म-सलिल{;पुं;3;बहु}/सलिल{;नपुं;3;बहु}
+row4#!n3#!<a (click)=showDic('आत्तघर्म')>आत्तघर्म</a>-<a (click)=showDic('सलिल')>सलिल</a>{;पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n3#!पसीने युक्त
+row7#!n3#!warm droplets of sweat
+row8#!n3#!<a href="html/SV-X/SV-58/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-58/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><आत्त-<घर्म-सलिलः>K3>Bs3</a>#!html/SV-X/SV-58/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n6#!तरुणानां
+row2#!n6#!तरुणानां
+row3#!n6#!तरुण{;पुं;6;बहु}/तरुण{;नपुं;6;बहु}
+row4#!n6#!<a (click)=showDic('तरुण')>तरुण</a>{;पुं;6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,5</a>
+row6#!n6#!तरुणों_के
+row7#!n6#!of young men
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n3#!हस्तैः
+row2#!n3#!हस्तैः
+row3#!n3#!हस्त{;पुं;3;बहु}
+row4#!n3#!<a (click)=showDic('हस्त')>हस्त</a>{;पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n3#!हाथ_से
+row7#!n3#!by the hands
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n7#!उच्छ्वसत्-कमल-चारुषु
+row2#!n7#!उच्छ्वसत्-कमल-चारुषु
+row3#!n7#!उच्छ्वसत्{पुं(;शतृ_लट्;श्वसँ;अदादिः)}/उच्छ्वसत्{नपुं-कमल-चारु;;पुं;7;बहु(;शतृ_लट्;श्वसँ;अदादिः)}
+row4#!n7#!<a (click)=showDic('उच्छ्वसत्')>उच्छ्वसत्</a>-<a (click)=showDic('कमल')>कमल</a>-<a (click)=showDic('चारु')>चारु</a>{स्त्री;7;बहु}
+row5#!n7#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n7#!विकसित होते हुए कमलों (के समान) से मनोहर
+row7#!n7#!where beautiful lotuses were blossoming
+row8#!n7#!<a href="html/SV-X/SV-58/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-58/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<उच्छ्वसत्-कमल>K3-चारुः>K4</a>#!html/SV-X/SV-58/samaasa4.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!निम्ननाभि-सरसीषु
+row2#!n7#!निम्ननाभि-सरसीषु
+row3#!n7#!निम्ननाभि-सरसी{;स्त्री;7;बहु}
+row4#!n7#!<a (click)=showDic('निम्ननाभि')>निम्ननाभि</a>-<a (click)=showDic('सरसी')>सरसी</a>{;स्त्री;7;बहु}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,8</a>
+row6#!n7#!गहरी नाभिरूपी तडाग में
+row7#!n7#!on the navel that was like a deep lake
+row8#!n7#!<a href="html/SV-X/SV-58/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-58/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><निम्ना-<नाभि-सरसी>K4>K3</a>#!html/SV-X/SV-58/samaasa5.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!v#!नि-पेते
+row2#!v#!नि-पेते
+row3#!v#!नि-पत्1{भावे;लिट्;प्र;एक;आत्मनेपदी;पतॢँ;भ्वादिः}/पत्1{भावे;लिट्;उ;एक;आत्मनेपदी;पतॢँ;भ्वादिः}
+row4#!v#!<a (click)=showDic('नि')>नि</a>-<a (click)=showDic('पत्1')>पत्1</a>{भावे;लिट्;प्र;एक;आत्मनेपदी;पतॢँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!कूद_गया.
+row7#!v#!fell.
+row8#!v#!-
+row9#!v#!भावे
+row10#!v#!स्वागता ।
+row11#!v#!रूपकम् ।
+row12#!v#!
+
+

@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-VII/SV-66/66.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-66/66.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">66.A</a>#!html/SV-VII/SV-66/66.jpg#!row1#!n3#!अतनुकुचभर-आनतेन
+row2#!number#!66.B</a>#!row2#!n3#!अतनुकुचभर-आनतेन
+row3#!number#!66.C</a>#!row3#!n3#!अतनुकुचभर-आनत{नपुं;3;एक}
+row4#!number#!66.D</a>#!row4#!n3#!<a (click)=showDic('अतनुकुचभर')>अतनुकुचभर</a>-<a (click)=showDic('आनत')>आनत</a>{पुं;3;एक}
+row5#!number#!66.E</a>#!row5#!n3#!विशेषणम्,4
+row6#!number#!66.F</a>#!row6#!n3#!पीनस्तनों के भार से नम्र
+row7#!number#!66.G</a>#!row7#!n3#!humble due to heaviness of breasts
+row8#!number#!66.H#!row8#!n3#!<a href="html/SV-VII/SV-66/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-66/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<न-तनु>Tn-<कुच-भर>T6>T3-आनतः>T3</a>#!html/SV-VII/SV-66/samaasa1.jpg
+row9#!number#!66.I</a>#!row9#!n3#!
+row10#!number#!66.J</a>#!row10#!n3#!
+row11#!number#!66.K</a>#!row11#!n3#!
+row12#!number#!66.L</a>#!row12#!n3#!
+
+row1#!NA#!भूयः
+row2#!NA#!भूयः
+row3#!NA#!भूयः{अव्य}/भूयस्{नपुं;1;एक}/भूयस्{नपुं;2;एक}/भूयस्{नपुं;8;एक}
+row4#!NA#!<a (click)=showDic('भूयः')>भूयः</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,6</a>
+row6#!NA#!पुनः
+row7#!NA#!and
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!श्रमजनितानतिना
+row2#!n3#!श्रमजनितानतिना
+row3#!n3#!श्रमजनितानतिना}
+row4#!n3#!<a (click)=showDic('श्रमजनितानति')>श्रमजनितानति</a>{पुं;3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n3#!श्रम के खेद से अधिक आनत
+row7#!n3#!has now (became) much more humble due to tiredness
+row8#!n3#!<a href="html/SV-VII/SV-66/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-66/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<श्रम-जनित>T3-आनतिः>Bs6</a>#!html/SV-VII/SV-66/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!शरीरकेण
+row2#!n3#!शरीरकेण
+row3#!n3#!शरीरक{पुं;3;एक}/शरीरक{नपुं;3;एक}
+row4#!n3#!<a (click)=showDic('शरीरक')>शरीरक</a>{पुं;3;एक}
+row5#!n3#!<a href="javascript:show('करण,')">करण,9</a>
+row6#!n3#!सुकुमार शरीर_से
+row7#!n3#!with a delicate body
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n2#!अनुचितगतिसाद-निःसहत्वम्
+row2#!n2#!अनुचितगतिसाद-निःसहत्वम्
+row3#!n2#!अनुचितगतिसाद-निःसहत्व{नपुं;1;एक}/निःसहत्व{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('अनुचितगतिसाद')>अनुचितगतिसाद</a>-<a (click)=showDic('निःसहत्व')>निःसहत्व</a>{नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,6</a>
+row6#!n2#!पैदल चलने के अभ्यास के अभाव जनित कृशता से अक्षमत्व को
+row7#!n2#!disability born out of thinness caused due to non practice (of long walk)
+row8#!n2#!<a href="html/SV-VII/SV-66/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-66/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<न-उचित>Tn-गति>T3-साद>Bs6-निःसहत्त्वम्>Bs3</a>#!html/SV-VII/SV-66/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n3#!दधानैः
+row2#!n3#!दधानैः
+row3#!n3#!दधान{पुं;3;बहु}/दधान{नपुं;3;बहु}
+row4#!n3#!<a (click)=showDic('धा1')>धा1</a>{शानच्_लट्;डुधाञ्;जुहोत्यादिः;पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('समानकालः,')">समानकालः,9</a>
+row6#!n3#!धारण_करने_वाले
+row7#!n3#!bearing
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!कलभकरो-ऊरुभिः
+row2#!n3#!कलभकरो-ऊरुभिः
+row3#!n3#!कलभकरो-ऊरु{पुं;3;बहु}
+row4#!n3#!<a (click)=showDic('कलभकरो')>कलभकरो</a>-<a (click)=showDic('ऊरु')>ऊरु</a>{स्त्री;3;बहु}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n3#!चलने में असमर्थ हाथी के सूँड के सदृश स्थूल जघनोंवाली
+row7#!n3#!are generally inactive and then what to say when they are with exertion?
+row8#!n3#!<a href="html/SV-VII/SV-66/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-66/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<कलभ-कर>T6-ऊरु>Bs6</a>#!html/SV-VII/SV-66/samaasa4.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!(नितम्बिनीभिः)
+row2#!n3#!नितम्बिनीभिः
+row3#!n3#!नितम्बिनी{स्त्री;3;बहु}
+row4#!n3#!<a (click)=showDic('नितम्बिनी')>नितम्बिनी</a>{स्त्री;3;बहु}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,9</a>
+row6#!n3#!सुंदर_कटियों_वालियों_से
+row7#!n3#!by women with beautiful hips
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!v#!(अतमि)
+row2#!v#!अतमि
+row3#!v#!तम्1{भावे;लुङ्;प्र;एक;आत्मनेपदी;तमुँ;दिवादिः}
+row4#!v#!<a (click)=showDic('तम्1')>तम्1</a>{भावे;लुङ्;प्र;एक;परस्मैपदी;तमुँ;दिवादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!श्रान्त_हो_गयी.
+row7#!v#!were made to be tired.
+row8#!v#!-
+row9#!v#!भावे
+row10#!v#!पुष्पिताग्रा ।
+row11#!v#!-
+row12#!v#!
+
+

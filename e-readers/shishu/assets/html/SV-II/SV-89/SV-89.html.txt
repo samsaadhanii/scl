@@ -1,0 +1,92 @@
+row1#!number#!<a href="html/SV-II/SV-89/89.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-89/89.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">89.A</a>#!html/SV-II/SV-89/89.jpg#!row1#!n1#!उत्तुङ्गः
+row2#!number#!89.B</a>#!row2#!n1#!उत्तुङ्गः 
+row3#!number#!89.C</a>#!row3#!n1#!उत्तुङ्ग{पुं}{1;एक} 
+row4#!number#!89.D</a>#!row4#!n1#!<a (click)=showDic('उत्तुङ्ग')>उत्तुङ्ग</a>{पुं}{1;एक} 
+row5#!number#!89.E</a>#!row5#!n1#!विशेषणम्,3
+row6#!number#!89.F</a>#!row6#!n1#!श्रेष्ठ
+row7#!number#!89.G</a>#!row7#!n1#!Very high
+row8#!number#!89.H#!row8#!n1#!
+row9#!number#!89.I</a>#!row9#!n1#!
+row10#!number#!89.J</a>#!row10#!n1#!
+row11#!number#!89.K</a>#!row11#!n1#!
+row12#!number#!89.L</a>#!row12#!n1#!
+
+row1#!n1#!प्रज्ञा-बल-बृहत्-मूलः
+row2#!n1#!प्रज्ञाबलबृहन्मूलः 
+row3#!n1#!प्रज्ञा-बल-बृहत्-मूल{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('प्रज्ञा')>प्रज्ञा</a>-<a (click)=showDic('बल')>बल</a>-<a (click)=showDic('बृहत्')>बृहत्</a>-<a (click)=showDic('मूल')>मूल</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n1#!बुद्धि-बल रूपी लम्बी जड़ वाला
+row7#!n1#!with the strong roots of intellect
+row8#!n1#!<a href="html/SV-II/SV-89/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-89/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<प्रज्ञा-बल>T6-बृहत्मूलः>Bs6</a>#!html/SV-II/SV-89/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!उत्साह-पादपः
+row2#!n1#!उत्साहपादपः 
+row3#!n1#!उत्साह-पादप{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('उत्साह')>उत्साह</a>-<a (click)=showDic('पादप')>पादप</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,7</a>
+row6#!n1#!उत्साह-रूपी वृक्ष
+row7#!n1#!the tree of enterprise
+row8#!n1#!<a href="html/SV-II/SV-89/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-89/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><उत्साह-पादपः>K5</a>#!html/SV-II/SV-89/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!करप्रचेयां
+row2#!n2#!करप्रचेयां 
+row3#!n2#!करप्रचेया{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('करप्रचेया')>करप्रचेया</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n2#!कर_से_बढ़ने_वाली
+row7#!n2#!increased by the taxes
+row8#!n2#!<a href="html/SV-II/SV-89/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-89/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कर-प्रचेया>T3</a>#!html/SV-II/SV-89/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!प्रथीयसीं
+row2#!n2#!प्रथीयसीं 
+row3#!n2#!प्रथीयसी{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('प्रथीयसी')>प्रथीयसी</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n2#!बहुत_बढ़ी
+row7#!n2#!the abundant
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!‘र ऋतो हलादेः-’ (6।4।161) इति देशः ।
+
+row1#!n2#!प्रभु-शक्तिम्
+row2#!n2#!प्रभुशक्तिं 
+row3#!n2#!प्रभु-शक्ति{पुं}{2;एक}/शक्ति{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('प्रभु')>प्रभु</a>-<a (click)=showDic('शक्ति')>शक्ति</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,7</a>
+row6#!n2#!प्रभु-शक्ति_को 
+row7#!n2#!royal process
+row8#!n2#!<a href="html/SV-II/SV-89/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-89/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><प्रभु-शक्तिः>T6</a>#!html/SV-II/SV-89/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!फलति.
+row2#!v#!फलति 
+row3#!v#!फल्1{कर्तरि;लट्;प्र;एक;परस्मैपदी;ञिफलाँ;भ्वादिः}/फल्2{कर्तरि;लट्;प्र;एक;परस्मैपदी;फलँ;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('फल्1')>फल्1</a>{कर्तरि;लट्;प्र;एक;परस्मैपदी;ञिफलाँ;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!उत्पन्न_करता_है.
+row7#!v#!yields.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!रूपकम् ।
+row12#!v#!
+
+

@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-I/SV-50/50.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-50/50.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">50.A</a>#!html/SV-I/SV-50/50.jpg#!row1#!n1#!यः
+row2#!number#!50.B</a>#!row2#!n1#!यः 
+row3#!number#!50.C</a>#!row3#!n1#!यद्{पुं}{1;एक} 
+row4#!number#!50.D</a>#!row4#!n1#!<a (click)=showDic('यद्')>यद्</a>{पुं}{1;एक} 
+row5#!number#!50.E</a>#!row5#!n1#!सम्बन्धः,5
+row6#!number#!50.F</a>#!row6#!n1#!जिस
+row7#!number#!50.G</a>#!row7#!n1#!who
+row8#!number#!50.H#!row8#!n1#!
+row9#!number#!50.I</a>#!row9#!n1#!
+row10#!number#!50.J</a>#!row10#!n1#!
+row11#!number#!50.K</a>#!row11#!n1#!
+row12#!number#!50.L</a>#!row12#!n1#!
+
+row1#!n6#!पृथिवीभृतां
+row2#!n6#!पृथिवीभृतां 
+row3#!n6#!पृथिवीभृत्{पुं}{6;बहु} 
+row4#!n6#!<a (click)=showDic('पृथिवीभृत्')>पृथिवीभृत्</a>{पुं}{6;बहु} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,3</a>
+row6#!n6#!पर्वतों_के
+row7#!n6#!of mountains
+row8#!n6#!<a href="html/SV-I/SV-50/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-50/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><पृथिवी-भृत्>U</a>#!html/SV-I/SV-50/samaasa1.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!वरं
+row2#!n2#!वरं 
+row3#!n2#!वरम्{अव्य}/वर{पुं}{2;एक}/वर{नपुं}{1;एक}/वर{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('वर')>वर</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('विकार्यकर्म,')">विकार्यकर्म,4</a>
+row6#!n2#!श्रेष्ठ_को 
+row7#!n2#!best of
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!समुत्-क्षिपन्
+row2#!n1#!समुत्-क्षिपन् 
+row3#!n1#!सम्-उत्-क्षिप्2{कृत्_प्रत्ययः:शतृ;क्षिपँ;तुदादिः;पुं}{1;एक}
+row4#!n1#!<a (click)=showDic('सम्')>सम्</a>-<a (click)=showDic('उत्')>उत्</a>-<a (click)=showDic('क्षिप्2')>क्षिप्2</a>{कृत्_प्रत्ययः:शतृ;क्षिपँ;तुदादिः;पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,9</a>
+row6#!n1#!उठाते_हुए
+row7#!n1#!lifting up
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!शूलिनः
+row2#!n6#!शूलिनः 
+row3#!n6#!शूलिन्{पुं}{1;बहु}/शूलिन्{पुं}{2;बहु}/शूलिन्{पुं}{5;एक}/शूलिन्{पुं}{6;एक}/शूलिन{पुं}{1;एक} 
+row4#!n6#!<a (click)=showDic('शूलिन्')>शूलिन्</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,6</a>
+row6#!n6#!शिव_के 
+row7#!n6#!of Śiva
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!वर-प्रदानस्य
+row2#!n6#!वर-प्रदानस्य 
+row3#!n6#!वर-प्रदान{नपुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('वर')>वर</a>-<a (click)=showDic('प्रदान')>प्रदान</a>{नपुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,7</a>
+row6#!n6#!वर-प्रदान_का
+row7#!n6#!granting of boons
+row8#!n6#!<a href="html/SV-I/SV-50/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-50/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><वर-प्रदानम्>T6</a>#!html/SV-I/SV-50/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n3#!त्रसत्-तुषाराद्रि-सुता-ससम्भ्रम-स्वयं-ग्रह-आश्लेष-सुखेन
+row2#!n3#!त्रसत्-तुषाराद्रि-सुता-ससम्भ्रम-स्वयं-ग्रह-आश्लेष-सुखेन 
+row3#!n3#!त्रसत्-तुषाराद्रि-सुता-ससम्भ्रम-स्वयम्-ग्रह-आश्लेष-सुख{पुं}{3;एक}/सुख{नपुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('त्रसत्')>त्रसत्</a>-<a (click)=showDic('तुषाराद्रि')>तुषाराद्रि</a>-<a (click)=showDic('सुता')>सुता</a>-<a (click)=showDic('ससम्भ्रम')>ससम्भ्रम</a>-<a (click)=showDic('स्वयम्')>स्वयम्</a>-<a (click)=showDic('ग्रह')>ग्रह</a>-<a (click)=showDic('आश्लेष')>आश्लेष</a>-<a (click)=showDic('सुख')>सुख</a>{पुं}{3;एक}
+row5#!n3#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,9</a>
+row6#!n3#!डरती-हुई_पार्वती_के_स्वयं ग्रहण जन्य आलिंगन सुख_से 
+row7#!n3#!in the form of the pleasure caused by the hurried and the voluntary embrace of the frightened daughter of the Himālaya mountan (Pārvatī)
+row8#!n3#!<a href="html/SV-I/SV-50/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-50/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<त्रसत्-<<तुषार-अद्रि>T6-सुता>T6>K3-ससम्भ्रम>T6-स्वयंग्रह>S-आश्लेष>T3-सुखः>Bs3</a>#!html/SV-I/SV-50/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n2#!निष्क्रयं
+row2#!n2#!निष्क्रयं 
+row3#!n2#!निष्क्रय{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('निष्क्रय')>निष्क्रय</a>{पुं}{2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,9</a>
+row6#!n2#!बदला चुका
+row7#!n2#!paid the price
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!चकार.
+row2#!v#!चकार 
+row3#!v#!कृ2{कर्तरि;लिट्;उ;एक;परस्मैपदी;कृञ्;स्वादिः}/कृ2{कर्तरि;लिट्;प्र;एक;परस्मैपदी;कृञ्;स्वादिः}/कृ3{कर्तरि;लिट्;उ;एक;परस्मैपदी;डुकृञ्;तनादिः}/कृ3{कर्तरि;लिट्;प्र;एक;परस्मैपदी;डुकृञ्;तनादिः}/कॄ1{कर्तरि;लिट्;उ;एक;परस्मैपदी;कॄ;तुदादिः}/कॄ1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;कॄ;तुदादिः}/कॄ2{कर्तरि;लिट्;उ;एक;परस्मैपदी;कॄञ्;क्र्यादिः}/कॄ2{कर्तरि;लिट्;प्र;एक;परस्मैपदी;कॄञ्;क्र्यादिः}. 
+row4#!v#!<a (click)=showDic('कृ3')>कृ3</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;डुकृञ्;तनादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!दिया.
+row7#!v#!did.
+row8#!v#!-
+row9#!v#!सकर्मककर्तरि
+row10#!v#!वंशस्थम् ।
+row11#!v#!परिवृत्तिः ।
+row12#!v#!
+
+

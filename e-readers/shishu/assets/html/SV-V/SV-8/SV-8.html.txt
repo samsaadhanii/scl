@@ -1,0 +1,79 @@
+row1#!number#!<a href="html/SV-V/SV-8/8.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-8/8.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">8.A</a>#!html/SV-V/SV-8/8.jpg#!row1#!n1#!शैल-उपशल्य-निपतद्रथ-नेमि-धारा-निष्पिष्ट-निष्ठुर-शिला-तल-चूर्ण-गर्भाः
+row2#!number#!8.B</a>#!row2#!n1#!शैल-उपशल्य-निपतद्रथ-नेमि-धारा-निष्पिष्ट-निष्ठुर-शिला-तल-चूर्ण-गर्भाः 
+row3#!number#!8.C</a>#!row3#!n1#!शैल-उपशल्य-निपतद्रथ-नेमिन्-धारा-निष्पिष्ट-निष्ठुर-शिला-तल-चूर्ण-गर्भ{पुं}{1;बहु}
+row4#!number#!8.D</a>#!row4#!n1#!<a (click)=showDic('शैल')>शैल</a>-<a (click)=showDic('उपशल्य')>उपशल्य</a>-<a (click)=showDic('निपतद्रथ')>निपतद्रथ</a>-<a (click)=showDic('नेमि')>नेमि</a>-<a (click)=showDic('धारा')>धारा</a>-<a (click)=showDic('निष्पिष्ट')>निष्पिष्ट</a>-<a (click)=showDic('निष्ठुर')>निष्ठुर</a>-<a (click)=showDic('शिला')>शिला</a>-<a (click)=showDic('तल')>तल</a>-<a (click)=showDic('चूर्ण')>चूर्ण</a>-<a (click)=showDic('गर्भ')>गर्भ</a>{पुं}{1;बहु} 
+row5#!number#!8.E</a>#!row5#!n1#!विशेषणम्,5
+row6#!number#!8.F</a>#!row6#!n1#!रैवतक-पर्वत_के_समीप_चलते_हुए_रथों_की_नेमियों_से_पीसे_गये_कठोर-पत्थरों_की_बालू_जिनके_भीतर_है
+row7#!number#!8.G</a>#!row7#!n1#!Felly of wheels of chariots that were moving near Raivataka mountain had ground the strong rocks that fell under them
+row8#!number#!8.H#!row8#!n1#!<a href="html/SV-V/SV-8/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-8/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<<<शैल-उपशल्य>T6-निपतत्>T7-रथ>T6-नेमि>T6-धार>T6-निष्पिष्ट>T3-<निष्ठुर-शिलातल>K1चूर्णगर्भः>Bs6</a>#!html/SV-V/SV-8/samaasa1.jpg
+row9#!number#!8.I</a>#!row9#!n1#!
+row10#!number#!8.J</a>#!row10#!n1#!
+row11#!number#!8.K</a>#!row11#!n1#!
+row12#!number#!8.L</a>#!row12#!n1#!
+
+row1#!n7#!नभसि
+row2#!n7#!नभसि 
+row3#!n7#!नभस्{नपुं}{7;एक} 
+row4#!n7#!<a (click)=showDic('नभस्')>नभस्</a>{नपुं}{7;एक} 
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,6</a>
+row6#!n7#!आकाश_में 
+row7#!n7#!in the sky
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n1#!नद्ध-पयोद-चक्राः
+row2#!n1#!नद्ध-पयोद-चक्राः 
+row3#!n1#!नद्ध-पयोद-चक्र{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('नद्ध')>नद्ध</a>-<a (click)=showDic('पयोद')>पयोद</a>-<a (click)=showDic('चक्र')>चक्र</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!बादलों_के_आकार_के_घेर
+row7#!n1#!was appearing like clouds
+row8#!n1#!<a href="html/SV-V/SV-8/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-8/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><नद्ध-पयोदचक्रः>Bs3</a>#!html/SV-V/SV-8/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!चक्रीवद्-अङ्गरुह-धूम्र-रुचः
+row2#!n1#!चक्रीवद्-अङ्गरुह-धूम्र-रुचः 
+row3#!n1#!चक्रीवद्-अङ्गरुह-धूम्र-रुच्{स्त्री}{1;बहु}
+row4#!n1#!<a (click)=showDic('चक्रीवद्')>चक्रीवद्</a>-<a (click)=showDic('अङ्गरुह')>अङ्गरुह</a>-<a (click)=showDic('धूम्र')>धूम्र</a>-<a (click)=showDic('रुच्')>रुच्</a>{पुं}{1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!गधों_के_बालों_के_समान_मण्डल_के_क्रम_में_बाँध_लिये_हैं
+row7#!n1#!that were locked in a circular form and was in the colour of Donkey's hair
+row8#!n1#!<a href="html/SV-V/SV-8/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-8/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<चक्रीवद्<अङ्ग-रुह>U>T6-धूम्ररुच्>K4</a>#!html/SV-V/SV-8/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘आसन्दीवदष्ठीवक्कक्रीवत्-’ (8।2।12) इत्यादिना साधुः ।
+
+row1#!n1#!भू-रेणवः
+row2#!n1#!भू-रेणवः 
+row3#!n1#!भू-रेणु{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('भू')>भू</a>-<a (click)=showDic('रेणु')>रेणु</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,6</a>
+row6#!n1#!पृथ्वी_की_धूलि
+row7#!n1#!dust of the earth
+row8#!n1#!<a href="html/SV-V/SV-8/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-8/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><भू-रेणुः>T6</a>#!html/SV-V/SV-8/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!विसस्रुः.
+row2#!v#!विसस्रुः 
+row3#!v#!वि_सृ1{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;सृ;भ्वादिः}.
+row4#!v#!<a (click)=showDic('वि_सृ1')>वि_सृ1</a>{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;सृ;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!फैल_गयी.
+row7#!v#!had spread.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!वसन्ततिलका ।
+row11#!v#!-
+row12#!v#!
+
+

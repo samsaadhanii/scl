@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-IX/SV-47/47.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-47/47.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">47.A</a>#!html/SV-IX/SV-47/47.jpg#!row1#!n1#!प्रमदाः
+row2#!number#!47.B</a>#!row2#!n1#!प्रमदाः
+row3#!number#!47.C</a>#!row3#!n1#!प्रमद{;पुं;1;बहु}/प्रमद{;पुं;8;बहु}/प्रमदा{;स्त्री;1;बहु}/प्रमदा{;स्त्री;2;बहु}/प्रमदा{;स्त्री;8;बहु}
+row4#!number#!47.D</a>#!row4#!n1#!<a (click)=showDic('प्रमदा')>प्रमदा</a>{;स्त्री;1;बहु}
+row5#!number#!47.E</a>#!row5#!n1#!कर्ता,8
+row6#!number#!47.F</a>#!row6#!n1#!उद्दीप्तकामभावोंवाली अङ्गनाएँ
+row7#!number#!47.G</a>#!row7#!n1#!The beautiful women
+row8#!number#!47.H#!row8#!n1#!
+row9#!number#!47.I</a>#!row9#!n1#!
+row10#!number#!47.J</a>#!row10#!n1#!
+row11#!number#!47.K</a>#!row11#!n1#!
+row12#!number#!47.L</a>#!row12#!n1#!
+
+row1#!n3#!स्फुरद्-उज्ज्वल-अधर-दलैः
+row2#!n3#!स्फुरद्-उज्ज्वल-अधर-दलैः
+row3#!n3#!स्फुरद्-उज्ज्वल-अधर-दल{;पुं;3;बहु}/दल{;नपुं;3;बहु}
+row4#!n3#!<a (click)=showDic('स्फुरद्')>स्फुरद्</a>-<a (click)=showDic('उज्ज्वल')>उज्ज्वल</a>-<a (click)=showDic('अधर')>अधर</a>-<a (click)=showDic('दल')>दल</a>{;नपुं;3;बहु}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n3#!स्फुरित होते हुए निर्मल ओष्ठरूपदलोंवाले
+row7#!n3#!with their quivering and brilliant lips of petals
+row8#!n3#!<a href="html/SV-IX/SV-47/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-47/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<स्फुरद्-उज्ज्वल>K3-<अधर-दलम्>K6>K3</a>#!html/SV-IX/SV-47/samaasa1.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!परितः
+row2#!NA#!परितः
+row3#!NA#!परितः{अव्य}/परितृ{;पुं;8;एक}/परितृ{;नपुं;8;एक}
+row4#!NA#!<a (click)=showDic('परितः')>परितः</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,4</a>
+row6#!NA#!चारों_ओर
+row7#!NA#!around
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!विलसद्-दशन-अंशु-केशर-भरैः
+row2#!n3#!विलसद्-दशन-अंशु-केशर-भरैः
+row3#!n3#!विलसद्-दशन-अंशु-केशर-भर{;पुं;3;बहु}
+row4#!n3#!<a (click)=showDic('विलसद्')>विलसद्</a>-<a (click)=showDic('दशन')>दशन</a>-<a (click)=showDic('अंशु')>अंशु</a>-<a (click)=showDic('केशर')>केशर</a>-<a (click)=showDic('भर')>भर</a>{;पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n3#!प्रकाशित होती हुई दान्त-किरणरूपी केशरोंवाले
+row7#!n3#!shining teeth of pollen-dust
+row8#!n3#!<a href="html/SV-IX/SV-47/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-47/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<विलसद्-दशनांशु>K3-केशरभरः>Bs6</a>#!html/SV-IX/SV-47/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!धृत-मुग्धा-गण्ड-फलकैः
+row2#!n3#!धृत-मुग्धा-गण्ड-फलकैः
+row3#!n3#!धृत-मुग्धा-गण्ड-फलक{;नपुं;3;बहु}
+row4#!n3#!<a (click)=showDic('धृत')>धृत</a>-<a (click)=showDic('मुग्धा')>मुग्धा</a>-<a (click)=showDic('गण्ड')>गण्ड</a>-<a (click)=showDic('फलक')>फलक</a>{;पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n3#!मनोहर कपोलरूप कर्णिका (कमलकाष) वाले
+row7#!n3#!beautiful cheeks of buds
+row8#!n3#!<a href="html/SV-IX/SV-47/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-47/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<धृत-मुग्ध>K3-<गण्ड-फलकः>K6>Bs6</a>#!html/SV-IX/SV-47/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!विकसद्भिः
+row2#!n3#!विकसद्भिः
+row3#!n3#!विकसद्भिः}
+row4#!n3#!<a (click)=showDic('वि_कस्1')>वि_कस्1</a>{पुं;शतृ_लट्;कसँ;भ्वादिः;3;बहु}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n3#!विकसित (प्रसन्न) होते हुए
+row7#!n3#!that is blossoming
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!आस्य-कमलैः
+row2#!n3#!आस्य-कमलैः
+row3#!n3#!आस्य-कमल{;नपुं;3;बहु}
+row4#!n3#!<a (click)=showDic('आस्य')>आस्य</a>-<a (click)=showDic('कमल')>कमल</a>{;पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,8</a>
+row6#!n3#!मुखरूपी कमलों से
+row7#!n3#!faces of lotuses
+row8#!n3#!<a href="html/SV-IX/SV-47/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-47/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><आस्य-कमलः>Bs6</a>#!html/SV-IX/SV-47/samaasa4.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!v#!विबभुः
+row2#!v#!विबभुः
+row3#!v#!वि_भा1{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;भा;अदादिः}
+row4#!v#!<a (click)=showDic('वि_भा1')>वि_भा1</a>{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;भा;अदादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!अत्यधिक मनोहर परिलक्षित होने लगीं
+row7#!v#!shone.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!प्रमिताक्षरा ।
+row11#!v#!रूपकम् ।
+row12#!v#!
+
+

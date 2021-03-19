@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-II/SV-64/64.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-64/64.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">64.A</a>#!html/SV-II/SV-64/64.jpg#!row1#!n1#!दाशार्हाः
+row2#!number#!64.B</a>#!row2#!n1#!दाशार्हाः 
+row3#!number#!64.C</a>#!row3#!n1#!दाशार्ह{पुं}{1;बहु}/दाशार्ह{पुं}{8;बहु} 
+row4#!number#!64.D</a>#!row4#!n1#!<a (click)=showDic('दाशार्ह')>दाशार्ह</a>{पुं}{1;बहु} 
+row5#!number#!64.E</a>#!row5#!n1#!कर्ता,9
+row6#!number#!64.F</a>#!row6#!n1#!यादव
+row7#!number#!64.G</a>#!row7#!n1#!Let Yādavas
+row8#!number#!64.H#!row8#!n1#!
+row9#!number#!64.I</a>#!row9#!n1#!
+row10#!number#!64.J</a>#!row10#!n1#!
+row11#!number#!64.K</a>#!row11#!n1#!
+row12#!number#!64.L</a>#!row12#!n1#!
+
+row1#!n1#!निरुद्ध-वीवध-आसार-प्रसाराः
+row2#!n1#!निरुद्धवीवधासारप्रसाराः 
+row3#!n1#!निरुद्ध-वीवधा-सार-प्रसार{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('निरुद्ध')>निरुद्ध</a>-<a (click)=showDic('वीवधा')>वीवधा</a>-<a (click)=showDic('सार')>सार</a>-<a (click)=showDic('प्रसार')>प्रसार</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,1</a>
+row6#!n1#!भोज्य पदार्थ अन्नादि मित्रों_की सहायता सेना तथा घास-भूसा और इन्धन आदि_को रोकनेवाले
+row7#!n1#!cutting off supplies and re-inforcements
+row8#!n1#!<a href="html/SV-II/SV-64/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-64/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><निरुद्ध-<वीवध-<आसार-प्रसारः>K1>T6>Bs3</a>#!html/SV-II/SV-64/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!व्रजं
+row2#!n2#!व्रजं 
+row3#!n2#!व्रज{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('व्रज')>व्रज</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('गौणकर्म,')">गौणकर्म,9</a>
+row6#!n2#!गोशाला_में
+row7#!n2#!in a cow-pen
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!गाः
+row2#!n2#!गाः 
+row3#!n2#!ग{पुं}{1;बहु}/गो{पुं}{2;बहु}/गो{स्त्री}{2;बहु} 
+row4#!n2#!<a (click)=showDic('गो')>गो</a>{पुं}{2;बहु}
+row5#!n2#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,5</a>
+row6#!n2#!गौओं_को
+row7#!n2#!cattle
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!इव
+row2#!NA#!इव 
+row3#!NA#!इव{अव्य} 
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,7</a>
+row6#!NA#!जैसे 
+row7#!NA#!just as
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!माहिष्मतीम्
+row2#!n2#!माहिष्मतीं 
+row3#!n2#!माहिष्मती{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('माहिष्मती')>माहिष्मती</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!माहिष्मती नाम_की
+row7#!n2#!Māhishmatī
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!पुरीं
+row2#!n2#!पुरीं 
+row3#!n2#!पुरी{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('पुरी')>पुरी</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('गौणकर्म,')">गौणकर्म,9</a>
+row6#!n2#!नगरी_को
+row7#!n2#!the city
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!द्विषः
+row2#!n2#!द्विषः 
+row3#!n2#!द्विष{पुं}{1;एक}/द्विट्{पुं}{2;एक}
+row4#!n2#!<a (click)=showDic('द्विट्')>द्विट्</a>{पुं}{2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,9</a>
+row6#!n2#!शत्रुओं_को
+row7#!n2#!foes
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!उपरुन्धन्तु.
+row2#!v#!उपरुन्धन्तु 
+row3#!v#!उप_रुध्1{कर्तरि;लोट्;प्र;बहु;उभयपदी;रुधिँर्;रुधादिः}. 
+row4#!v#!<a (click)=showDic('उप_रुध्1')>उप_रुध्1</a>{कर्तरि;लोट्;प्र;बहु;उभयपदी;रुधिँर्;रुधादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!घेरें. 
+row7#!v#!stop.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!-
+row12#!v#!
+
+

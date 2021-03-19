@@ -1,0 +1,183 @@
+row1#!number#!<a href="html/SV-II/SV-75/75.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-75/75.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">75.A</a>#!html/SV-II/SV-75/75.jpg#!row1#!n6#!विशेषविदुषः
+row2#!number#!75.B</a>#!row2#!n6#!विशेषविदुषः 
+row3#!number#!75.C</a>#!row3#!n6#!विशेषविद्वस्{पुं}{2;बहु}/विशेषविद्वस्{पुं}{5;एक}/विशेषविद्वस्{पुं}{6;एक} 
+row4#!number#!75.D</a>#!row4#!n6#!<a (click)=showDic('विशेषविद्वस्')>विशेषविद्वस्</a>{पुं}{6;एक} 
+row5#!number#!75.E</a>#!row5#!n6#!विशेषणम्,2
+row6#!number#!75.F</a>#!row6#!n6#!विशेषज्ञ
+row7#!number#!75.G</a>#!row7#!n6#!Learned
+row8#!number#!75.H#!row8#!n6#!<a href="html/SV-II/SV-75/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-75/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><विशेष-विद्वान्>U</a>#!html/SV-II/SV-75/samaasa1.jpg
+row9#!number#!75.I</a>#!row9#!n6#!
+row10#!number#!75.J</a>#!row10#!n6#!
+row11#!number#!75.K</a>#!row11#!n6#!
+row12#!number#!75.L</a>#!row12#!n6#!
+
+row1#!n6#!तव
+row2#!n6#!तव 
+row3#!n6#!युष्मद्{6;एक} 
+row4#!n6#!<a (click)=showDic('युष्मद्')>युष्मद्</a>{6;एक} 
+row5#!n6#!<a href="javascript:show('उपपदविभक्तिः,')">उपपदविभक्तिः,3</a>
+row6#!n6#!तुम्हारे
+row7#!n6#!your
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!NA#!पुरः
+row2#!NA#!पुरः 
+row3#!NA#!पुरः{अव्य}/पुर्{स्त्री}{1;बहु}/पुर्{स्त्री}{2;बहु}/पुर्{स्त्री}{5;एक}/पुर्{स्त्री}{6;एक} 
+row4#!NA#!<a (click)=showDic('पुरः')>पुरः</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('उपपदसम्बन्धः,')">उपपदसम्बन्धः,5</a>
+row6#!NA#!सामने
+row7#!NA#!in presence
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!शास्त्रम्
+row2#!n1#!शास्त्रम् 
+row3#!n1#!शास्त्र{नपुं}{1;एक}/शास्त्र{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('शास्त्र')>शास्त्र</a>{नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,5</a>
+row6#!n1#!शास्त्र 
+row7#!n1#!science
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!उद्ग्राह्यते
+row2#!v#!उद्ग्राह्यते
+row3#!v#!उद्ग्राह्यते
+row4#!v#!<a (click)=showDic('उद्_ग्रह्1_णिच्')>उद्_ग्रह्1_णिच्</a>{कर्मणि;लट्;प्र;एक;आत्मनेपदी;ग्रहँ;क्र्रयादिः}.
+row5#!v#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,6</a>
+row6#!v#!उपस्थित_किया_जाता_है
+row7#!v#!quoted
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!NA#!(इति)
+row2#!NA#!इति
+row3#!NA#!इति{अव्य} 
+row4#!NA#!<a (click)=showDic('इति')>इति</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,7</a>
+row6#!NA#!ऐसा 
+row7#!NA#!thus
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!यत्
+row2#!n1#!यत् 
+row3#!n1#!यद्{नपुं}{1;एक}/यद्{नपुं}{2;एक}/यत्{अव्य}/यत्{अव्य} 
+row4#!n1#!<a (click)=showDic('यद्')>यद्</a>{नपुं}{1;एक}
+row5#!n1#!<a href="javascript:show('नित्यसम्बन्धः,')">नित्यसम्बन्धः,8</a>
+row6#!n1#!जो 
+row7#!n1#!that
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!सा
+row2#!n1#!सा 
+row3#!n1#!तद्{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('तद्')>तद्</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,12</a>
+row6#!n1#!वह 
+row7#!n1#!which
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!वक्तुः
+row2#!n6#!वक्तुः 
+row3#!n6#!वक्तृ{पुं}{5;एक}/वक्तृ{पुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('वच्1')>वच्1</a>{कृत्_प्रत्ययः:तृच्;वचँ;अदादिः;पुं}{6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,10</a>
+row6#!n6#!वक्ता_के
+row7#!n6#!of the speaker
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n7#!परिचय-स्थैर्ये
+row2#!n7#!परिचयस्थैर्ये
+row3#!n7#!परिचय-स्थैर्य{नपुं}{1;द्वि}/स्थैर्य{नपुं}{2;द्वि}/स्थैर्य{नपुं}{7;एक} 
+row4#!n7#!<a (click)=showDic('परिचय')>परिचय</a>-<a (click)=showDic('स्थैर्य')>स्थैर्य</a>{नपुं}{7;एक} 
+row5#!n7#!<a href="javascript:show('प्रयोजनम्,')">प्रयोजनम्,14</a>
+row6#!n7#!अभ्यास_की_दृढ़ता_में
+row7#!n7#!to have the confidence regarding the acquaintance of subject
+row8#!n7#!<a href="html/SV-II/SV-75/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-75/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><परिचय-स्थैर्यम्>T6</a>#!html/SV-II/SV-75/samaasa2.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n1#!हेतुः
+row2#!n1#!हेतुः 
+row3#!n1#!हेतु{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('हेतु')>हेतु</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,14</a>
+row6#!n1#!कारण_है
+row7#!n1#!is a cause
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!गुणनिका
+row2#!n1#!गुणनिका
+row3#!n1#!गुणनिका{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('गुणनिका')>गुणनिका</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्तृसमानाधिकरणम्,')">कर्तृसमानाधिकरणम्,14</a>
+row6#!n1#!पुनरावृत्ति
+row7#!n1#!repetition
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘गुण आम्रेडने’ चौरादिकात् ‘ण्यासश्रन्थो युच्’ (3।3।107) इति युच् । ततः सञ्ज्ञायां कन् । कात्पूर्वस्येकारः ।
+
+row1#!NA#!एव
+row2#!NA#!एव
+row3#!NA#!एव{अव्य}
+row4#!NA#!<a (click)=showDic('एव')>एव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,12</a>
+row6#!NA#!ही
+row7#!NA#!only
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!(भवति)
+row2#!v#!भवति
+row3#!v#!भवत्{पुं}{7;एक}/भू1{कर्तरि;लट्;प्र;एक;परस्मैपदी;भू;भ्वादिः} 
+row4#!v#!<a (click)=showDic('भू1')>भू1</a>{कर्तरि;लट्;प्र;एक;परस्मैपदी;भू;भ्वादिः} 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!होती_है.
+row7#!v#!is.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!-
+row12#!v#!
+
+

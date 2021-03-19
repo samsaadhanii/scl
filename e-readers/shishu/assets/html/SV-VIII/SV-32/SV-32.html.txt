@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-VIII/SV-32/32.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-32/32.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">32.A</a>#!html/SV-VIII/SV-32/32.jpg#!row1#!n5#!मुग्धत्वात्
+row2#!number#!32.B</a>#!row2#!n5#!मुग्धत्वात्
+row3#!number#!32.C</a>#!row3#!n5#!मुग्धत्वात्}
+row4#!number#!32.D</a>#!row4#!n5#!<a (click)=showDic('मुग्धत्व')>मुग्धत्व</a>{नपुं;5;एक}
+row5#!number#!32.E</a>#!row5#!n5#!हेतुः,2
+row6#!number#!32.F</a>#!row6#!n5#!मुग्धा_होने_से
+row7#!number#!32.G</a>#!row7#!n5#!Out of ignorance
+row8#!number#!32.H#!row8#!n5#!
+row9#!number#!32.I</a>#!row9#!n5#!
+row10#!number#!32.J</a>#!row10#!n5#!
+row11#!number#!32.K</a>#!row11#!n5#!
+row12#!number#!32.L</a>#!row12#!n5#!
+
+row1#!n1#!अविदितकैतव-प्रयोगाः
+row2#!n1#!अविदितकैतव-प्रयोगाः
+row3#!n1#!अविदितकैतव-प्रयोग{पुं;1;बहु}/प्रयोग{पुं;8;बहु}
+row4#!n1#!<a (click)=showDic('अविदितकैतव')>अविदितकैतव</a>-<a (click)=showDic('प्रयोग')>प्रयोग</a>{स्त्री;1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!(मुख पर जलसिंचनादि) कपट व्यवहार से अपरिचित
+row7#!n1#!of a stake in water games
+row8#!n1#!<a href="html/SV-VIII/SV-32/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-32/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अविदित-<कैतव-प्रयोगा>K3>K1</a>#!html/SV-VIII/SV-32/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!ताः
+row2#!n1#!ताः
+row3#!n1#!तद्{स्त्री;1;बहु}/तद्{स्त्री;2;बहु}
+row4#!n1#!<a (click)=showDic('तद्')>तद्</a>{स्त्री;1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!वे
+row7#!n1#!those
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!सपदि
+row2#!NA#!सपदि
+row3#!NA#!सपदि{अव्य}
+row4#!NA#!<a (click)=showDic('सपदि')>सपदि</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,6</a>
+row6#!NA#!तत्काल
+row7#!NA#!immediately
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!पराजयं
+row2#!n2#!पराजयं
+row3#!n2#!परा_जि1{कर्तरि;लङ्;उ;एक;परस्मैपदी;जि;भ्वादिः}/पराजय{पुं;2;एक}
+row4#!n2#!<a (click)=showDic('परा_जि1')>परा_जि1</a>{घञ्;जि;भ्वादिः;पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,6</a>
+row6#!n2#!पराजय_को
+row7#!n2#!defeat
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!गच्छन्त्यः
+row2#!n1#!गच्छन्त्यः
+row3#!n1#!गच्छन्ती{स्त्री;1;बहु}/गच्छन्ती{स्त्री;8;बहु}
+row4#!n1#!<a (click)=showDic('गम्1')>गम्1</a>{शतृ_लट्;गमॢँ;भ्वादिः;स्त्री;1;बहु}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,12</a>
+row6#!n1#!प्राप्त_करती_हुई
+row7#!n1#!owing to
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!तरुण्यः
+row2#!n1#!तरुण्यः
+row3#!n1#!तरुणी{स्त्री;1;बहु}/तरुणी{स्त्री;8;बहु}
+row4#!n1#!<a (click)=showDic('तरुणी')>तरुणी</a>{स्त्री;1;बहु}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,12</a>
+row6#!n1#!युवतियाँ
+row7#!n1#!women
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!कान्तैः
+row2#!n3#!कान्तैः
+row3#!n3#!कान्त{पुं;3;बहु}
+row4#!n3#!<a (click)=showDic('कान्त')>कान्त</a>{पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('उपपदविभक्तिः,')">उपपदविभक्तिः,9</a>
+row6#!n3#!प्रियतम_के
+row7#!n3#!beloved
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!सह
+row2#!NA#!सह
+row3#!NA#!सह{अव्य}/सह{पुं;8;एक}
+row4#!NA#!<a (click)=showDic('सह')>सह</a>{अव्य}
+row5#!NA#!<a href="javascript:show('उपपदसम्बन्धः,')">उपपदसम्बन्धः,12</a>
+row6#!NA#!साथ
+row7#!NA#!along with
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!अभिसरण-ग्लहां
+row2#!n2#!अभिसरण-ग्लहां
+row3#!n2#!अभिसरण-ग्लहाम्}
+row4#!n2#!<a (click)=showDic('अभिसरण')>अभिसरण</a>-<a (click)=showDic('ग्लहा')>ग्लहा</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,12</a>
+row6#!n2#!गमन करने का दाँव लगाकर
+row7#!n2#!aimed to indulge themselves into the act of convergence
+row8#!n2#!<a href="html/SV-VIII/SV-32/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-32/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अभिसरण-ग्लहा>Bs6</a>#!html/SV-VIII/SV-32/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!‘अक्षेषु ग्लहः’ (3।3।70) इति ग्रहेरेवाक्षपणे लत्वनिपातः । अप्प्रत्ययस्तु ‘ग्रहवृदृनिश्चिगमश्च’ (3।3।58) इत्येव सिद्ध इति केचित् ।
+
+row1#!n2#!करपुष्करेरिताम्बु-व्यात्युक्षीम्
+row2#!n2#!करपुष्करेरिताम्बु-व्यात्युक्षीम्
+row3#!n2#!करपुष्करेरिताम्बु-व्यात्युक्षी{स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('करपुष्करेरिताम्बु')>करपुष्करेरिताम्बु</a>-<a (click)=showDic('व्यात्युक्षी')>व्यात्युक्षी</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,12</a>
+row6#!n2#!एक दूसरे पर करकमल से जलसिंचन करने की
+row7#!n2#!by sprinkling water on each other with their lotus like hands
+row8#!n2#!<a href="html/SV-VIII/SV-32/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-32/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<कर-पुष्कर>K6-ईरित>-T3-<अम्बु-व्यात्युक्षी>T3>Bs2</a>#!html/SV-VIII/SV-32/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!‘कर्मव्यतिहारे णच् स्त्रियाम्’ (3।3।43) इति णच्प्रत्ययः । ‘णचः स्त्रियामञ्’ (5।4।14) इति स्वार्थिकोऽञ्प्रत्ययः । ‘टिङ्ढाणञ्-’ (4।1।15) इत्यादिना ङीप् ।
+
+row1#!v#!अदीव्यन्
+row2#!v#!अदीव्यन्
+row3#!v#!दिव्1{कर्तरि;लङ्;प्र;बहु;परस्मैपदी;दिवुँ;दिवादिः}
+row4#!v#!<a (click)=showDic('दिव्1')>दिव्1</a>{कर्तरि;लङ्;प्र;बहु;परस्मैपदी;दिवुँ;दिवादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!खेल_रहे_थे.
+row7#!v#!were gambling.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!प्रहर्षिणी ।
+row11#!v#!काव्यलिङ्गम् ।
+row12#!v#!‘दिवः कर्म च’ (1।4।43) इति विकल्पात्कर्मत्वम् ।
+
+

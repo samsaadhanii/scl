@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-II/SV-45/45.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-45/45.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">45.A</a>#!html/SV-II/SV-45/45.jpg#!row1#!n1#!यः
+row2#!number#!45.B</a>#!row2#!n1#!यः 
+row3#!number#!45.C</a>#!row3#!n1#!यद्{पुं}{1;एक} 
+row4#!number#!45.D</a>#!row4#!n1#!<a (click)=showDic('यद्')>यद्</a>{पुं}{1;एक} 
+row5#!number#!45.E</a>#!row5#!n1#!नित्यसम्बन्धः,8
+row6#!number#!45.F</a>#!row6#!n1#!जो_व्यक्ति
+row7#!number#!45.G</a>#!row7#!n1#!that person
+row8#!number#!45.H#!row8#!n1#!
+row9#!number#!45.I</a>#!row9#!n1#!
+row10#!number#!45.J</a>#!row10#!n1#!
+row11#!number#!45.K</a>#!row11#!n1#!
+row12#!number#!45.L</a>#!row12#!n1#!
+
+row1#!n1#!परावज्ञा-दुःखदग्धः
+row2#!n1#!परावज्ञादुःखदग्धः 
+row3#!n1#!परावज्ञा-दुःखदग्ध{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('परावज्ञा')>परावज्ञा</a>-<a (click)=showDic('दुःखदग्ध')>दुःखदग्ध</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,6</a>
+row6#!n1#!शत्रु_के_अपमानजन्य_दुःख_से_सन्तप्त_होकर
+row7#!n1#!burnt by insults of others
+row8#!n1#!<a href="html/SV-II/SV-45/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-45/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<पर-अवज्ञा>T6-दुःख>T3-दग्धः>T3</a>#!html/SV-II/SV-45/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!अपि
+row2#!NA#!अपि 
+row3#!NA#!अपि{अव्य} 
+row4#!NA#!<a (click)=showDic('अपि')>अपि</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,2</a>
+row6#!NA#!भी 
+row7#!NA#!though
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!मा
+row2#!NA#!मा 
+row3#!NA#!अस्मद्{2;एक}/मा{अव्य}/मा{स्त्री}{1;एक} 
+row4#!NA#!<a (click)=showDic('मा')>मा</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,5</a>
+row6#!NA#!न
+row7#!NA#!not
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!जीवन्
+row2#!n1#!जीवन् 
+row3#!n1#!जीवत्{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('जीव्1')>जीव्1</a>{कृत्_प्रत्ययः:शतृ;जीवँ;भ्वादिः;पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,6</a>
+row6#!n1#!जीता_हुआ 
+row7#!n1#!been living
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘माङ्याक्रोशे-’ (वा०) इति लटः शत्रादेशः ।
+
+row1#!v#!जीवति
+row2#!v#!जीवति 
+row3#!v#!जीव्1{कर्तरि;लट्;प्र;एक;परस्मैपदी;जीवँ;भ्वादिः}
+row4#!v#!<a (click)=showDic('जीव्1')>जीव्1</a>{कर्तरि;लट्;प्र;एक;परस्मैपदी;जीवँ;भ्वादिः} 
+row5#!v#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,8</a>
+row6#!v#!जीता_है
+row7#!v#!(continues to) live
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!n6#!जननी-क्लेशकारिणः
+row2#!n6#!जननीक्लेशकारिणः 
+row3#!n6#!जननी-क्लेशकारिन्{पुं}{1;बहु}/क्लेशकारिन्{पुं}{2;बहु}/क्लेशकारिन्{पुं}{5;एक}/क्लेशकारिन्{पुं}{6;एक}/क्लेशकारिन्{नपुं}{5;एक}/क्लेशकारिन्{नपुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('जननी')>जननी</a>-<a (click)=showDic('क्लेशकारिन्')>क्लेशकारिन्</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n6#!माता_को_क्लेश_देनेवाला
+row7#!n6#!has caused throes of labour to his mother
+row8#!n6#!<a href="html/SV-II/SV-45/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-45/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<जननी-क्लेश>T6-कारी>U</a>#!html/SV-II/SV-45/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!तस्य
+row2#!n6#!तस्य 
+row3#!n6#!तद्{पुं}{6;एक}/तद्{नपुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('तद्')>तद्</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,11</a>
+row6#!n6#!उसका
+row7#!n6#!his
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!अजननिः
+row2#!n1#!अजननिः 
+row3#!n1#!अजननि{स्त्री}{1;एक}/{पुं}{1;एक}
+row4#!n1#!<a (click)=showDic('अजननि')>अजननि</a>{पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,11</a>
+row6#!n1#!जन्म न
+row7#!n1#!no birth
+row8#!n1#!<a href="html/SV-II/SV-45/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-45/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-जननिः>Bsmn</a>#!html/SV-II/SV-45/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘अक्रोशे नञ्यनिः’ (3।3।113) इति नञ्पूर्वाज्जनिधातोरनिप्रत्ययः ।
+
+row1#!NA#!एव
+row2#!NA#!एव 
+row3#!NA#!एव{अव्य} 
+row4#!NA#!<a (click)=showDic('एव')>एव</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,9</a>
+row6#!NA#!ही 
+row7#!NA#!only
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!अस्तु.
+row2#!v#!अस्तु 
+row3#!v#!अस्तु{अव्य}/अस्2{कर्तरि;लोट्;प्र;एक;परस्मैपदी;असँ;अदादिः}. 
+row4#!v#!<a (click)=showDic('अस्2')>अस्2</a>{कर्तरि;लोट्;प्र;एक;परस्मैपदी;असँ;अदादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!हो. 
+row7#!v#!let be.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!-
+row12#!v#!
+
+

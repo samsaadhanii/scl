@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-II/SV-82/82.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-82/82.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">82.A</a>#!html/SV-II/SV-82/82.jpg#!row1#!n1#!बुद्धिशस्त्रः
+row2#!number#!82.B</a>#!row2#!n1#!बुद्धिशस्त्रः 
+row3#!number#!82.C</a>#!row3#!n1#!बुद्धिशस्त्र{पुं}{1;एक} 
+row4#!number#!82.D</a>#!row4#!n1#!<a (click)=showDic('बुद्धिशस्त्र')>बुद्धिशस्त्र</a>{पुं}{1;एक} 
+row5#!number#!82.E</a>#!row5#!n1#!विशेषणम्,7
+row6#!number#!82.F</a>#!row6#!n1#!बुद्धि_ही_जिसका_शस्त्र_है
+row7#!number#!82.G</a>#!row7#!n1#!One who has intellect for weapon
+row8#!number#!82.H#!row8#!n1#!<a href="html/SV-II/SV-82/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-82/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><बुद्धि-शस्त्रः>Bs6</a>#!html/SV-II/SV-82/samaasa1.jpg
+row9#!number#!82.I</a>#!row9#!n1#!
+row10#!number#!82.J</a>#!row10#!n1#!
+row11#!number#!82.K</a>#!row11#!n1#!
+row12#!number#!82.L</a>#!row12#!n1#!
+
+row1#!n1#!प्रकृति-अङ्गः
+row2#!n1#!प्रकृत्यङ्गः 
+row3#!n1#!प्रकृति-अङ्ग{पुं}{1;एक}/अङ्गस्{नपुं}{1;एक}/अङ्गस्{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('प्रकृति')>प्रकृति</a>-<a (click)=showDic('अङ्ग')>अङ्ग</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!प्रकृतियाँ_ही_जिसके_अवयव_हैं
+row7#!n1#!the constituent elements of his government for limbs
+row8#!n1#!<a href="html/SV-II/SV-82/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-82/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><प्रकृति-अङ्गः>Bs6</a>#!html/SV-II/SV-82/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!घन-संवृति-कञ्चुकः
+row2#!n1#!घनसंवृतिकञ्चुकः 
+row3#!n1#!घन-संवृति-कञ्चुक{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('घन')>घन</a>-<a (click)=showDic('संवृति')>संवृति</a>-<a (click)=showDic('कञ्चुक')>कञ्चुक</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!मन्त्र_को_गुप्त_रखना_ही_जिसके_कवच_है
+row7#!n1#!the impenetrable secrecy of his counsels for armour
+row8#!n1#!<a href="html/SV-II/SV-82/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-82/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<घन-संवृति>K3-कञ्चुकः>Bs6</a>#!html/SV-II/SV-82/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!चारेक्षणः
+row2#!n1#!चारेक्षणः 
+row3#!n1#!चारेक्षण{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('चारेक्षण')>चारेक्षण</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!गुप्तचर_ही_जिसके_आँखें_हैं
+row7#!n1#!spies for eyes
+row8#!n1#!<a href="html/SV-II/SV-82/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-82/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><चार-ईक्षणः>Bs6</a>#!html/SV-II/SV-82/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!दूतमुखः
+row2#!n1#!दूतमुखः 
+row3#!n1#!दूतमुख{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('दूतमुख')>दूतमुख</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!दूत_ही_जिसका_मुख_हैं
+row7#!n1#!messengers for mouth
+row8#!n1#!<a href="html/SV-II/SV-82/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-82/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><दूत-मुखः>Bs6</a>#!html/SV-II/SV-82/samaasa5.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!(एवम्भूतः)
+row2#!n1#!एवम्भूतः
+row3#!n1#!एवम्भूत{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('एवम्भूत')>एवम्भूत</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!इस_प्रकार 
+row7#!n1#!thus
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!पार्थिवः
+row2#!n1#!पार्थिवः 
+row3#!n1#!पार्थिव{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('पार्थिव')>पार्थिव</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,11</a>
+row6#!n1#!राजा
+row7#!n1#!a King
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!कः
+row2#!n1#!कः 
+row3#!n1#!किम्{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('किम्')>किम्</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,10</a>
+row6#!n1#!कोई
+row7#!n1#!an uncommon
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!अपि
+row2#!NA#!अपि 
+row3#!NA#!अपि{अव्य} 
+row4#!NA#!<a (click)=showDic('अपि')>अपि</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,8</a>
+row6#!NA#!भी 
+row7#!NA#!indeed
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!पुरुषः
+row2#!n1#!पुरुषः 
+row3#!n1#!पुरुष{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('पुरुष')>पुरुष</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्तृसमानाधिकरणम्,')">कर्तृसमानाधिकरणम्,11</a>
+row6#!n1#!पुरुष 
+row7#!n1#!personage
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!(अस्ति).
+row2#!v#!अस्ति
+row3#!v#!अस्2{कर्तरि;लट्;प्र;एक;परस्मैपदी;असँ;अदादिः}. 
+row4#!v#!<a (click)=showDic('अस्2')>अस्2</a>{कर्तरि;लट्;प्र;एक;परस्मैपदी;असँ;अदादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!है. 
+row7#!v#!is.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!अतिशयोक्तिः + रूपकम् = सङ्करः ।
+row12#!v#!
+
+

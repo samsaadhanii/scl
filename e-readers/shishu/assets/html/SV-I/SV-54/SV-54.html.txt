@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-I/SV-54/54.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-54/54.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">54.A</a>#!html/SV-I/SV-54/54.jpg#!row1#!n8#!बृहच्छिलानिष्ठुरकण्ठघट्टनात्
+row2#!number#!54.B</a>#!row2#!n8#!बृहच्छिलानिष्ठुरकण्ठघट्टनात् 
+row3#!number#!54.C</a>#!row3#!n8#!बृहच्छिलानिष्ठुरकण्ठघट्टन{नपुं}{5;एक} 
+row4#!number#!54.D</a>#!row4#!n8#!<a (click)=showDic('बृहच्छिलानिष्ठुरकण्ठघट्टन')>बृहच्छिलानिष्ठुरकण्ठघट्टन</a>{पुं}{8;एक} 
+row5#!number#!54.E</a>#!row5#!n8#!हेतुः,11
+row6#!number#!54.F</a>#!row6#!n8#!बड़े चट्टान_के_समान कठोर (रावण के) कण्ठ में टक्कर लगने से
+row7#!number#!54.G</a>#!row7#!n8#!by striking against his large neck which is hard like rock
+row8#!number#!54.H#!row8#!n8#!<a href="html/SV-I/SV-54/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-54/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<बृहत्-शिला>K3-निष्ठुर>K4-कण्ठ>K3-घट्टनम्>T7</a>#!html/SV-I/SV-54/samaasa1.jpg
+row9#!number#!54.I</a>#!row9#!n8#!
+row10#!number#!54.J</a>#!row10#!n8#!
+row11#!number#!54.K</a>#!row11#!n8#!
+row12#!number#!54.L</a>#!row12#!n8#!
+
+row1#!n1#!विकीर्ण-लोल-अग्निकणम्
+row2#!n1#!विकीर्णलोलाग्निकणं 
+row3#!n1#!विकीर्ण-लोल-अग्निकण{पुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('विकीर्ण')>विकीर्ण</a>-<a (click)=showDic('लोल')>लोल</a>-<a (click)=showDic('अग्निकण')>अग्निकण</a>{नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!निकल_रहे_चंचल_चिनगारियाँ_जिससे_ऐसा
+row7#!n1#!which scattered sparkling particles of fire
+row8#!n1#!<a href="html/SV-I/SV-54/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-54/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><विकीर्ण-<लोलाग्नि-कणम्>T6>Bs6</a>#!html/SV-I/SV-54/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!अप्रसहिष्णु
+row2#!n1#!अप्रसहिष्णु 
+row3#!n1#!अप्रसहिष्णु{नपुं}{1;एक}/अप्रसहिष्णु{नपुं}{2;एक}/अप्रसहिष्णु{नपुं}{8;एक}/अप्रसहिष्णु{पुं}{1;एक}
+row4#!n1#!<a (click)=showDic('अप्रसहिष्णु')>अप्रसहिष्णु</a>{नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!असह्य
+row7#!n1#!became powerless
+row8#!n1#!<a href="html/SV-I/SV-54/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-54/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-प्रसहिष्णु>Tn</a>#!html/SV-I/SV-54/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘प्रसहनमभिभवः’ इति वृत्तिकारः । ‘अलङ्कृञ्-’ (3।2।136) इत्यादिना इष्णुच् ।
+
+row1#!n1#!वैष्णवं
+row2#!n1#!वैष्णवं 
+row3#!n1#!वैष्णव{पुं}{2;एक}/वैष्णव{नपुं}{1;एक}/वैष्णव{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('वैष्णव')>वैष्णव</a>{नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!विष्णु_के
+row7#!n1#!of Viṣṇu
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!चक्रं
+row2#!n1#!चक्रं 
+row3#!n1#!चक्र{पुं}{2;एक}/चक्र{नपुं}{1;एक}/चक्र{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('चक्र')>चक्र</a>{नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,11</a>
+row6#!n1#!सुदर्शन चक्र_ने
+row7#!n1#!the disc
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!जगत्प्रभोः
+row2#!n6#!जगत्प्रभोः 
+row3#!n6#!जगत्प्रभु{पुं}{5;एक}/जगत्प्रभु{पुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('जगत्प्रभु')>जगत्प्रभु</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,7</a>
+row6#!n6#!लोकस्वामी
+row7#!n6#!lord of the earth
+row8#!n6#!<a href="html/SV-I/SV-54/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-54/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><जगत्-प्रभुः>T6</a>#!html/SV-I/SV-54/samaasa4.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!अस्य
+row2#!n6#!अस्य 
+row3#!n6#!इदम्{पुं}{6;एक}/इदम्{नपुं}{6;एक}/अस्3{कर्तरि;लोट्;म;एक;परस्मैपदी;असुँ;दिवादिः} 
+row4#!n6#!<a (click)=showDic('इदम्')>इदम्</a>{पुं}{6;एक}
+row5#!n6#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n6#!इस
+row7#!n6#!this
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!सुर-द्विषः
+row2#!n6#!सुरद्विषः 
+row3#!n6#!सुर-द्विट्{पुं}{6;एक}
+row4#!n6#!<a (click)=showDic('सुर')>सुर</a>-<a (click)=showDic('द्विट्')>द्विट्</a>{पुं}{6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,9</a>
+row6#!n6#!रावण_के
+row7#!n6#!of Rāvaņa
+row8#!n6#!<a href="html/SV-I/SV-54/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-54/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सुर-द्विट्>U</a>#!html/SV-I/SV-54/samaasa5.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!NA#!अधि-कन्धरम्
+row2#!NA#!अधिकन्धरं
+row3#!NA#!अधि-कन्धर{पुं}{2;एक} 
+row4#!NA#!<a (click)=showDic('अधि')>अधि</a>-<a (click)=showDic('कन्धरम्')>कन्धरम्</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,11</a>
+row6#!NA#!कंठ_में
+row7#!NA#!on the neck
+row8#!NA#!<a href="html/SV-I/SV-54/samaasa6.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-54/samaasa6.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अधि-कन्धरम्>A1</a>#!html/SV-I/SV-54/samaasa6.jpg
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!विभक्त्यर्थे अव्ययीभावः। ‘अव्ययीभावश्च’ (2।4।18) इति नपुंसकत्वात् ‘ह्रस्वो नपुंसके प्रातिपदिकस्य (1।2।47) इति ह्रस्वत्वम् ।
+
+row1#!NA#!न
+row2#!NA#!न 
+row3#!NA#!न{अव्य}/नस्{स्त्री}{8;एक} 
+row4#!NA#!<a (click)=showDic('न')>न</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,11</a>
+row6#!NA#!नहीं 
+row7#!NA#!not
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!अक्रमत.
+row2#!v#!अक्रमत 
+row3#!v#!अक्रमत{पुं}{8;एक}/मत{नपुं}{8;एक}/क्रम्1{कर्तरि;लङ्;प्र;एक;आत्मनेपदी;भ्वादिः}.
+row4#!v#!<a (click)=showDic('क्रम्1')>क्रम्1</a>{कर्तरि;लङ्;प्र;एक;आत्मनेपदी;क्रमुँ;भ्वादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!आक्रमण_किया.
+row7#!v#!attack.
+row8#!v#!-
+row9#!v#!सकर्मककर्तरि
+row10#!v#!वंशस्थम् ।
+row11#!v#!-
+row12#!v#!‘वृत्तिसर्गतायनेषु त्रमः’ (1।3।38) इति वृत्तावात्मनेपदम् । वृत्तिरप्रतिबन्धः ।
+
+

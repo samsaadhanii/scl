@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-IX/SV-65/65.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-65/65.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">65.A</a>#!html/SV-IX/SV-65/65.jpg#!row1#!n3#!अलघु-ऊष्णिमभिः
+row2#!number#!65.B</a>#!row2#!n3#!अलघु-ऊष्णिमभिः
+row3#!number#!65.C</a>#!row3#!n3#!अलघु-ऊष्णिमभिः{;नपुं;1;एक}/अलघु{;नपुं;2;एक}/अलघु{;नपुं;8;एक}
+row4#!number#!65.D</a>#!row4#!n3#!<a (click)=showDic('अलघु')>अलघु</a>-<a (click)=showDic('ऊष्णिमन्')>ऊष्णिमन्</a>{;नपुं;3;बहु}
+row5#!number#!65.E</a>#!row5#!n3#!विशेषणम्,2
+row6#!number#!65.F</a>#!row6#!n3#!अत्यधिक उष्ण
+row7#!number#!65.G</a>#!row7#!n3#!Long and warm
+row8#!number#!65.H#!row8#!n3#!<a href="html/SV-IX/SV-65/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-65/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<न-लघु>Tn-ऊष्णिमा>Bs6</a>#!html/SV-IX/SV-65/samaasa1.jpg
+row9#!number#!65.I</a>#!row9#!n3#!
+row10#!number#!65.J</a>#!row10#!n3#!
+row11#!number#!65.K</a>#!row11#!n3#!
+row12#!number#!65.L</a>#!row12#!n3#!
+
+row1#!n3#!श्वसितैः
+row2#!n3#!श्वसितैः
+row3#!n3#!श्वसित{;पुं;3;बहु}/श्वसित{;नपुं;3;बहु}
+row4#!n3#!<a (click)=showDic('श्वस्1')>श्वस्1</a>{क्त;श्वसँ;अदादिः;;नपुं;3;बहु}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,4</a>
+row6#!n3#!श्वासवायु से
+row7#!n3#!breathings
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n6#!सितेतर-सरोज-दृशः
+row2#!n6#!सितेतर-सरोज-दृशः
+row3#!n6#!सितेतर-सरोज-दृश्{;स्त्री;1;बहु}/दृश्{;स्त्री;2;बहु}/दृश्{;स्त्री;5;एक}/दृश्{;स्त्री;6;एक}/दृश्{;स्त्री;8;बहु}/दृश{;पुं;1;एक}
+row4#!n6#!<a (click)=showDic('सितेतर')>सितेतर</a>-<a (click)=showDic('सरोज')>सरोज</a>-<a (click)=showDic('दृश्')>दृश्</a>{;स्त्री;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,5</a>
+row6#!n6#!नीलकमल के सदृश नेत्रवाली तुम्हारी प्रिया के
+row7#!n6#!of your lotus-eyed beloved
+row8#!n6#!<a href="html/SV-IX/SV-65/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-65/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<सितेतर-सरोज>K3-दृक्>Bsu</a>#!html/SV-IX/SV-65/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!v#!उप-ताप्यमानं
+row2#!v#!उप-ताप्यमानं
+row3#!v#!उप-ताप्यमान{;पुं;2;एक}/ताप्यमान{;नपुं;1;एक}/ताप्यमान{;नपुं;2;एक}
+row4#!v#!<a (click)=showDic('उप')>उप</a>-<a (click)=showDic('तप्3')>तप्3</a>{शानच्_लट्;कर्मणि;तपँ;चुरादिः;;पुं;2;एक}
+row5#!v#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!v#!सन्तप्त होते हुए
+row7#!v#!while being tormented
+row8#!v#!-
+row9#!v#!
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!n2#!अधरं
+row2#!n2#!अधरं
+row3#!n2#!अधर{;पुं;2;एक}/अधर{;नपुं;1;एक}/अधर{;नपुं;2;एक}/अधर{सर्वनाम;पुं;2;एक}/अधर{सर्वनाम;नपुं;1;एक}/अधर{सर्वनाम;नपुं;2;एक}/धृ1{कर्तरि;लङ्;उ;एक;परस्मैपदी;धृञ्;भ्वादिः}/धृ2{कर्तरि;लङ्;उ;एक;परस्मैपदी;धृङ्;भ्वादिः}
+row4#!n2#!<a (click)=showDic('अधर')>अधर</a>{;पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n2#!अधर_को
+row7#!n2#!lips
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!नव-नागवल्ली-दल-राग-रसः
+row2#!n1#!नव-नागवल्ली-दल-राग-रसः
+row3#!n1#!नव-नागवल्ली-दल-राग-रस{;पुं;1;एक}
+row4#!n1#!<a (click)=showDic('नव')>नव</a>-<a (click)=showDic('नागवल्ली')>नागवल्ली</a>-<a (click)=showDic('दल')>दल</a>-<a (click)=showDic('राग')>राग</a>-<a (click)=showDic('रस')>रस</a>{;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n1#!नये पान (के बीड़े) का रस
+row7#!n1#!juices of new betel leaves
+row8#!n1#!<a href="html/SV-IX/SV-65/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-65/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<नव-नागवल्ली>K3-दल>T6-रागरसः>T6</a>#!html/SV-IX/SV-65/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!द्रवतां
+row2#!n2#!द्रवतां
+row3#!n2#!द्रु1{कर्तरि;लोट्;प्र;द्वि;परस्मैपदी;द्रु;भ्वादिः}/द्रवत्{;पुं;6;बहु}/द्रवत्{;नपुं;6;बहु}/द्रवता{;स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('द्रवता')>द्रवता</a>{;स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n2#!आर्द्र
+row7#!n2#!wetness
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!नेतुं
+row2#!NA#!नेतुं
+row3#!NA#!नी1{अव्य;तुमुन्;णीञ्;भ्वादिः}
+row4#!NA#!<a (click)=showDic('नी1')>नी1</a>{अव्य;तुमुन्;णीञ्;भ्वादिः}
+row5#!NA#!<a href="javascript:show('प्रयोजनम्,')">प्रयोजनम्,10</a>
+row6#!NA#!रखने_में
+row7#!NA#!to maintain
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!न
+row2#!NA#!न
+row3#!NA#!न{अव्य}
+row4#!NA#!<a (click)=showDic('न')>न</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,10</a>
+row6#!NA#!नहीं
+row7#!NA#!not
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!क्षमते
+row2#!v#!क्षमते
+row3#!v#!क्षम्1{कर्तरि;लट्;प्र;एक;आत्मनेपदी;क्षमूँष्;भ्वादिः}/क्षमता{;स्त्री;1;द्वि}/क्षमता{;स्त्री;2;द्वि}/क्षमता{;स्त्री;8;एक}/क्षमता{;स्त्री;8;द्वि}
+row4#!v#!<a (click)=showDic('क्षम्1')>क्षम्1</a>{कर्तरि;लट्;प्र;एक;आत्मनेपदी;क्षमूँष्;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!क्षम_है.
+row7#!v#!able
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!प्रमिताक्षरा ।
+row11#!v#!अतिशयोक्तिः ।
+row12#!v#!
+
+

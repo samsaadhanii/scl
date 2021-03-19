@@ -1,0 +1,183 @@
+row1#!number#!<a href="html/SV-X/SV-29/29.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-29/29.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">29.A</a>#!html/SV-X/SV-29/29.jpg#!row1#!NA#!प्राक्
+row2#!number#!29.B</a>#!row2#!NA#!प्राक्
+row3#!number#!29.C</a>#!row3#!NA#!प्राक्{अव्य}/प्राश्{;स्त्री;1;एक}
+row4#!number#!29.D</a>#!row4#!NA#!<a (click)=showDic('प्राक्')>प्राक्</a>{अव्य}
+row5#!number#!29.E</a>#!row5#!NA#!अधिकरणम्,14
+row6#!number#!29.F</a>#!row6#!NA#!पहले
+row7#!number#!29.G</a>#!row7#!NA#!Initially
+row8#!number#!29.H#!row8#!NA#!
+row9#!number#!29.I</a>#!row9#!NA#!
+row10#!number#!29.J</a>#!row10#!NA#!
+row11#!number#!29.K</a>#!row11#!NA#!
+row12#!number#!29.L</a>#!row12#!NA#!
+
+row1#!n1#!कोपवती
+row2#!n1#!कोपवती
+row3#!n1#!कोपवती{;स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('कोपवती')>कोपवती</a>{;स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,14</a>
+row6#!n1#!कुपित_हुई
+row7#!n1#!being angry
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!अनुनयान्
+row2#!n2#!अनुनयान्
+row3#!n2#!अनुनय{;पुं;2;बहु}
+row4#!n2#!<a (click)=showDic('अनुनय')>अनुनय</a>{;पुं;2;बहु}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,4</a>
+row6#!n2#!प्रार्थना_को
+row7#!n2#!request
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!अगृहीत्वा
+row2#!NA#!अगृहीत्वा
+row3#!NA#!अगृहीत्वा}
+row4#!NA#!<a (click)=showDic('अ_ग्रह')>अ_ग्रह</a>{अव्य;क्त्वा;ग्रहँ;क्र्यादिः}
+row5#!NA#!<a href="javascript:show('पूर्वकालः,')">पूर्वकालः,14</a>
+row6#!NA#!तिरस्कार कर
+row7#!NA#!having rejected
+row8#!NA#!<a href="html/SV-X/SV-29/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-29/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-गृहीत्वा>Tn</a>#!html/SV-X/SV-29/samaasa1.jpg
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!अथ
+row2#!NA#!अथ
+row3#!NA#!अथ{अव्य}
+row4#!NA#!<a (click)=showDic('अथ')>अथ</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,14</a>
+row6#!NA#!उसके_बाद
+row7#!NA#!later
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!विरहखेदित-चित्ता
+row2#!n1#!विरहखेदित-चित्ता
+row3#!n1#!विरहखेदित-चित्ता{;स्त्री;1;एक}/चित्ता{;स्त्री;1;एक(;क्त;चितीँ;भ्वादिः)}
+row4#!n1#!<a (click)=showDic('विरहखेदित')>विरहखेदित</a>-<a (click)=showDic('चित्ता')>चित्ता</a>{;स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n1#!पश्चात्तापचित्तवाली
+row7#!n1#!out of repentance
+row8#!n1#!<a href="html/SV-X/SV-29/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-29/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<विरह-खेदित>T5-चित्ता>Bs6</a>#!html/SV-X/SV-29/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!(काचित्)
+row2#!n1#!काचित्
+row3#!n1#!किञ्चित्{सर्वनाम;स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('किञ्चित्')>किञ्चित्</a>{सर्वनाम;स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n1#!कोई
+row7#!n1#!some other woman
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!मधुमदाहित-मोहा
+row2#!n1#!मधुमदाहित-मोहा
+row3#!n1#!मधुमदाहित-मोहा{;स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('मधुमदाहित')>मधुमदाहित</a>-<a (click)=showDic('मोहा')>मोहा</a>{;स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('कर्तृसमानाधिकरणम्,')">कर्तृसमानाधिकरणम्,9</a>
+row6#!n1#!मद्य के नशे से विमोहित चित्तवाली
+row7#!n1#!whose mind was intoxicated due to liquor
+row8#!n1#!<a href="html/SV-X/SV-29/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-29/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<मधु-मदम्>T3-<आहित-मोहा>K3>Bs3</a>#!html/SV-X/SV-29/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!(सती)
+row2#!n1#!सती
+row3#!n1#!सती{;स्त्री;1;एक}/सति{;स्त्री;1;द्वि}/सति{;स्त्री;2;द्वि}/सति{;स्त्री;8;द्वि}
+row4#!n1#!<a (click)=showDic('सत्1')>सत्1</a>{;स्त्री;1;एक}(अस्2;शतृ_लट्;असँ;अदादिः)}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,14</a>
+row6#!n1#!होती_हुई
+row7#!n1#!while being
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!कान्तम्
+row2#!n2#!कान्तम्
+row3#!n2#!कान्त{;पुं;2;एक(;क्त;कमुँ;भ्वादिः)}/कान्त{;नपुं;1;एक(;क्त;कमुँ;भ्वादिः)}/कान्त{;नपुं;2;एक(;क्त;कमुँ;भ्वादिः)}
+row4#!n2#!<a (click)=showDic('कान्त')>कान्त</a>{;पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,14</a>
+row6#!n2#!पति_को
+row7#!n2#!husband
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!एव
+row2#!NA#!एव
+row3#!NA#!एव{अव्य}
+row4#!NA#!<a (click)=showDic('एव')>एव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,10</a>
+row6#!NA#!ही
+row7#!NA#!only
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!कोपितम्
+row2#!n2#!कोपितम्
+row3#!n2#!कोपितम्}
+row4#!n2#!<a (click)=showDic('कुप्')>कुप्</a>{नपुं;2;एक(कुपँ;क्त;दिवादिः)}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,13</a>
+row6#!n2#!कुपित
+row7#!n2#!showed angry
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!कलयन्ती
+row2#!n1#!कलयन्ती
+row3#!n1#!कलयत्{;नपुं;1;द्वि(;शतृ_लट्;कल;चुरादिः)}/कलयत्{;नपुं;2;द्वि(;शतृ_लट्;कल;चुरादिः)}/कलयन्ती{;स्त्री;1;एक(;शतृ_लट्;कल;चुरादिः)}
+row4#!n1#!<a (click)=showDic('कलयत्')>कलयत्</a>{;स्त्री;1;एक(कल1;शतृ_लट्;कल;चुरादिः)}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,14</a>
+row6#!n1#!खिन्न मनवाली होकर
+row7#!n1#!while being distressed
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!अनुनिन्ये
+row2#!v#!अनुनिन्ये
+row3#!v#!अनु_णी1{कर्तरि;लिट्;उ;एक;आत्मनेपदी;णीञ्;भ्वादिः}/अनु_णी1{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;णीञ्;भ्वादिः}
+row4#!v#!<a (click)=showDic('अनु_णी1')>अनु_णी1</a>{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;णीञ्;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!मनाने_लगी.
+row7#!v#!convinced.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!स्वागता ।
+row11#!v#!-
+row12#!v#!
+
+

@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-III/SV-25/25.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-25/25.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">25.A</a>#!html/SV-III/SV-25/25.jpg#!row1#!n6#!जगतां
+row2#!number#!25.B</a>#!row2#!n6#!जगतां 
+row3#!number#!25.C</a>#!row3#!n6#!जगत्{पुं}{6;बहु}/जगत्{नपुं}{6;बहु}/जगता{स्त्री}{2;एक} 
+row4#!number#!25.D</a>#!row4#!n6#!<a (click)=showDic('जगत्')>जगत्</a>{पुं}{6;बहु} 
+row5#!number#!25.E</a>#!row5#!n6#!कर्म,2
+row6#!number#!25.F</a>#!row6#!n6#!विश्व_का 
+row7#!number#!25.G</a>#!row7#!n6#!of all the worlds
+row8#!number#!25.H#!row8#!n6#!
+row9#!number#!25.I</a>#!row9#!n6#!
+row10#!number#!25.J</a>#!row10#!n6#!
+row11#!number#!25.K</a>#!row11#!n6#!
+row12#!number#!25.L</a>#!row12#!n6#!‘कर्तृकर्मणोः कृति’ (2।3।65) इति कर्मणि षष्ठी ।
+
+row1#!n1#!भर्ता
+row2#!n1#!भर्ता 
+row3#!n1#!भर्तृ{पुं}{1;एक}/भृ1{कर्तरि;लुट्;प्र;एक;परस्मैपदी;डुभृञ्;भ्वादिः}/भृ1{कर्तरि;लुट्;प्र;एक;आत्मनेपदी;डुभृञ्;भ्वादिः}/भृ1{कर्मणि;लुट्;प्र;एक;आत्मनेपदी;डुभृञ्;भ्वादिः}/भृ2{कर्तरि;लुट्;प्र;एक;परस्मैपदी;डुभृञ्;जुहोत्यादिः}/भृ2{कर्तरि;लुट्;प्र;एक;आत्मनेपदी;डुभृञ्;जुहोत्यादिः} 
+row4#!n1#!<a (click)=showDic('भर्तृ')>भर्तृ</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,12</a>
+row6#!n1#!स्वामी 
+row7#!n1#!lord
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!सः
+row2#!n1#!सः 
+row3#!n1#!तद्{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('तद्')>तद्</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,2</a>
+row6#!n1#!वह 
+row7#!n1#!he
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!यतः
+row2#!NA#!यतः 
+row3#!NA#!यतः{अव्य}/यत{पुं}{1;एक}/यतः{अव्य} 
+row4#!NA#!<a (click)=showDic('यतः')>यतः</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('नित्यसम्बन्धः,')">नित्यसम्बन्धः,6</a>
+row6#!NA#!जिस (भूभाग)_से
+row7#!NA#!whence
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!जगाम
+row2#!v#!जगाम 
+row3#!v#!गम्1{कर्तरि;लिट्;उ;एक;परस्मैपदी;गमॢँ;भ्वादिः}/गम्1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;गमॢँ;भ्वादिः} 
+row4#!v#!<a (click)=showDic('गम्1')>गम्1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;गमॢँ;भ्वादिः} 
+row5#!v#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,6</a>
+row6#!v#!चले
+row7#!v#!travelled
+row8#!v#!-
+row9#!v#!
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!NA#!ततः
+row2#!NA#!ततः 
+row3#!NA#!ततः{अव्य} 
+row4#!NA#!<a (click)=showDic('ततः')>ततः</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,12</a>
+row6#!NA#!उस_के
+row7#!NA#!from there
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!अधः
+row2#!NA#!अधः 
+row3#!NA#!अधः{अव्य} 
+row4#!NA#!<a (click)=showDic('अधः')>अधः</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,12</a>
+row6#!NA#!नीचे 
+row7#!NA#!beneath
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n6#!धरित्र्याः
+row2#!n6#!धरित्र्याः 
+row3#!n6#!धरित्री{स्त्री}{5;एक}/धरित्री{स्त्री}{6;एक} 
+row4#!n6#!<a (click)=showDic('धॄ1')>धॄ1</a>{कृत्_प्रत्ययः:तृच्;धॄ;क्र्यादिः;स्त्री}{6;एक} 
+row5#!n6#!<a href="javascript:show('कर्म,')">कर्म,9</a>
+row6#!n6#!भूभाग_के
+row7#!n6#!of the world
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!‘कर्तृकर्मणोः कृति’ (2।3।65) इति कर्मणि षष्ठी ।
+
+row1#!n3#!धर्त्रा
+row2#!n3#!धर्त्रा 
+row3#!n3#!धर्तृ{नपुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('धृ1')>धृ1</a>{कृत्_प्रत्ययः:तृच्;धृञ्;भ्वादिः;पुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,10</a>
+row6#!n3#!धारण_करने_वाला 
+row7#!n3#!by the supporter
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!फणिना
+row2#!n3#!फणिना 
+row3#!n3#!फणिन्{पुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('फणिन्')>फणिन्</a>{पुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,12</a>
+row6#!n3#!शेषनाग_से 
+row7#!n3#!the serpent king Śeṣa
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!महाभर-आभुग्न-शिरःसहस्र-साहायक-व्यग्रभुजं
+row2#!n1#!महाभर-आभुग्न-शिरःसहस्र-साहायक-व्यग्रभुजं
+row3#!n1#!महाभर-आभुग्न-शिरःसहस्र-साहायक-व्यग्रभुजम् 
+row4#!n1#!<a (click)=showDic('महाभर')>महाभर</a>-<a (click)=showDic('आभुग्न')>आभुग्न</a>-<a (click)=showDic('शिरःसहस्र')>शिरःसहस्र</a>-<a (click)=showDic('साहायक')>साहायक</a>-<a (click)=showDic('व्यग्रभुज')>व्यग्रभुज</a>{नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,12</a>
+row6#!n1#!अधिक_भार_से_झुकते_हुए_सहस्र_मस्तकों_की_सहायता_में_व्यस्त_भुजाओं_को
+row7#!n1#!in doing which all his coils were occupied in supporting his thousand heads bowed down under the great weight
+row8#!n1#!<a href="html/SV-III/SV-25/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-25/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<महान्-भर>K3-शिरःसहस्र>T3-<साहायक-व्यग्र>T7-भुजम्>Bs6</a>#!html/SV-III/SV-25/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘योपधाद् गुरूपोत्तमाद् वुञ्’ (5।1।132) ।
+
+row1#!v#!प्रसस्रे.
+row2#!v#!प्रसस्रे 
+row3#!v#!प्र_सृ1{कर्मणि;लिट्;उ;एक;आत्मनेपदी;सृ;भ्वादिः}/प्र_सृ1{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;सृ;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('प्र_सृ1')>प्र_सृ1</a>{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;सृ;भ्वादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!फैलाया.
+row7#!v#!has spread (himself).
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!उपजाति ।
+row11#!v#!अतिशयोक्तिः ।
+row12#!v#!
+
+

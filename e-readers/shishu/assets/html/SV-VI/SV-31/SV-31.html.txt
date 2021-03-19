@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-VI/SV-31/31.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-31/31.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">31.A</a>#!html/SV-VI/SV-31/31.jpg#!row1#!n3#!निजया
+row2#!number#!31.B</a>#!row2#!n3#!निजया
+row3#!number#!31.C</a>#!row3#!n3#!निजा{स्त्री;3;एक}
+row4#!number#!31.D</a>#!row4#!n3#!<a (click)=showDic('निजा')>निजा</a>{स्त्री;3;एक}
+row5#!number#!31.E</a>#!row5#!n3#!विशेषणम्,3
+row6#!number#!31.F</a>#!row6#!n3#!अपनी
+row7#!number#!31.G</a>#!row7#!n3#!with its
+row8#!number#!31.H#!row8#!n3#!
+row9#!number#!31.I</a>#!row9#!n3#!
+row10#!number#!31.J</a>#!row10#!n3#!
+row11#!number#!31.K</a>#!row11#!n3#!
+row12#!number#!31.L</a>#!row12#!n3#!
+
+row1#!n3#!स्वन-सम्पदा
+row2#!n3#!स्वन-सम्पदा
+row3#!n3#!स्वन-सम्पद्{स्त्री;3;एक}/सम्पद्{स्त्री;3;एक}
+row4#!n3#!<a (click)=showDic('स्वन')>स्वन</a>-<a (click)=showDic('सम्पद्')>सम्पद्</a>{स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n3#!ध्वनि सम्पत्ति (अधिक गरजने) से
+row7#!n3#!affluence of sound
+row8#!n3#!<a href="html/SV-VI/SV-31/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-31/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><स्वन-सम्पद्>T6</a>#!html/SV-VI/SV-31/samaasa1.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!कृतसमार्जनमर्दलमण्डलध्वनि-जया
+row2#!n3#!कृतसमार्जनमर्दलमण्डलध्वनि-जया
+row3#!n3#!कृतसमार्जनमर्दलमण्डलध्वनि-जया{स्त्री;1;एक}/जया{स्त्री;1;एक}
+row4#!n3#!<a (click)=showDic('कृतसमार्जनमर्दलमण्डलध्वनि')>कृतसमार्जनमर्दलमण्डलध्वनि</a>-<a (click)=showDic('जया')>जया</a>{स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,8</a>
+row6#!n3#!नगाड़े के शब्द को जीतने वाली
+row7#!n3#!that can win over the sound of a drum
+row8#!n3#!<a href="html/SV-VI/SV-31/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-31/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कृत-<स-मार्जन>BvS-<<मर्दल-मण्डल>T6-<ध्वनि-जया>T6>T6>Bs3</a>#!html/SV-VI/SV-31/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!जलद-पङ्क्तिः
+row2#!n1#!जलद-पङ्क्तिः
+row3#!n1#!जलद-पङ्क्ति{स्त्री;1;एक}/पङ्क्ति{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('जलद')>जलद</a>-<a (click)=showDic('पङ्क्ति')>पङ्क्ति</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n1#!बादल_की_श्रेणी
+row7#!n1#!a multitude of clouds
+row8#!n1#!<a href="html/SV-VI/SV-31/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-31/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<जल-द>U-पङ्क्तिः>T6</a>#!html/SV-VI/SV-31/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!उन्मदं
+row2#!n2#!उन्मदं
+row3#!n2#!उन्मद{पुं;2;एक}
+row4#!n2#!<a (click)=showDic('उन्मद')>उन्मद</a>{नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!उन्मत्त_हो_कर
+row7#!n2#!having been intoxicated
+row8#!n2#!<a href="html/SV-VI/SV-31/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-31/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><उत्-मदम्>Bs6</a>#!html/SV-VI/SV-31/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!कल-विलापि
+row2#!n2#!कल-विलापि
+row3#!n2#!कल-विलापि}
+row4#!n2#!<a (click)=showDic('कल')>कल</a>-<a (click)=showDic('विलापि')>विलापि</a>{नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!मधुर केका ध्वनि करने वाले
+row7#!n2#!that cry with melodious 'keka' sound
+row8#!n2#!<a href="html/SV-VI/SV-31/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-31/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कल-विलापि>Bs6</a>#!html/SV-VI/SV-31/samaasa5.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!कलापि-कदम्बकम्
+row2#!n2#!कलापि-कदम्बकम्
+row3#!n2#!कलापि-कदम्बक{पुं;2;एक}/कदम्बक{नपुं;1;एक}/कदम्बक{नपुं;2;एक}/कदम्बक{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('कलापि')>कलापि</a>-<a (click)=showDic('कदम्बक')>कदम्बक</a>{नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n2#!मयूरों_के_समूह_को
+row7#!n2#!flock of peacocks
+row8#!n2#!<a href="html/SV-VI/SV-31/samaasa6.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-31/samaasa6.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कलापि-कदम्बकम्>T6</a>#!html/SV-VI/SV-31/samaasa6.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!अनर्तयत्
+row2#!v#!अनर्तयत्
+row3#!v#!नृत्1_णिच्{कर्तरि;लङ्;प्र;एक;परस्मैपदी;नृतीँ;दिवादिः}
+row4#!v#!<a (click)=showDic('नृत्1_णिच्')>नृत्1_णिच्</a>{कर्तरि;लङ्;प्र;एक;परस्मैपदी;नृतीँ;दिवादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!नचा_दिया.
+row7#!v#!made to dance.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!यमकम् ।
+row12#!v#!
+
+

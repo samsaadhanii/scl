@@ -1,0 +1,170 @@
+row1#!number#!<a href="html/SV-VI/SV-48/48.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-48/48.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">48.A</a>#!html/SV-VI/SV-48/48.jpg#!row1#!n1#!धृतनव-आतपम्
+row2#!number#!48.B</a>#!row2#!n1#!धृतनव-आतपम्
+row3#!number#!48.C</a>#!row3#!n1#!धृतनव-आतप{पुं;2;एक}/आतप{नपुं;1;एक}/आतप{नपुं;2;एक}/आतप{नपुं;2;एक}
+row4#!number#!48.D</a>#!row4#!n1#!<a (click)=showDic('धृतनव')>धृतनव</a>-<a (click)=showDic('आतप')>आतप</a>{नपुं;1;एक}
+row5#!number#!48.E</a>#!row5#!n1#!विशेषणम्,3
+row6#!number#!48.F</a>#!row6#!n1#!प्रातः काल की धूप को धारण करने वाला
+row7#!number#!48.G</a>#!row7#!n1#!bearing early heat of the Sun
+row8#!number#!48.H#!row8#!n1#!<a href="html/SV-VI/SV-48/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-48/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><धृत-<नव-आतपम्>K3>Bs3</a>#!html/SV-VI/SV-48/samaasa1.jpg
+row9#!number#!48.I</a>#!row9#!n1#!
+row10#!number#!48.J</a>#!row10#!n1#!
+row11#!number#!48.K</a>#!row11#!n1#!
+row12#!number#!48.L</a>#!row12#!n1#!
+
+row1#!n7#!अम्भसि
+row2#!n7#!अम्भसि
+row3#!n7#!अम्भस्{नपुं;7;एक}
+row4#!n7#!<a (click)=showDic('अम्भस्')>अम्भस्</a>{नपुं;7;एक}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,8</a>
+row6#!n7#!जलस्थ
+row7#!n7#!in the water
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n1#!कमलं
+row2#!n1#!कमलं
+row3#!n1#!कमल{नपुं;1;एक}/कमल{नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('कमल')>कमल</a>{नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n1#!कमल_ने
+row7#!n1#!lotus
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!यतः
+row2#!NA#!यतः
+row3#!NA#!यतः{अव्य}/यत{पुं;1;एक}/यतः{अव्य}
+row4#!NA#!<a (click)=showDic('यतः')>यतः</a>{अव्य}
+row5#!NA#!<a href="javascript:show('नित्यसम्बन्धः,')">नित्यसम्बन्धः,9</a>
+row6#!NA#!क्यों_कि
+row7#!NA#!as
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!मद-पाटलां
+row2#!n2#!मद-पाटलां
+row3#!n2#!मद-पाटला{स्त्री;2;एक}/पाटला{स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('मद')>मद</a>-<a (click)=showDic('पाटला')>पाटला</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!मद से गुलाबी वर्ण की
+row7#!n2#!due to intoxication whose eyes were pinkish
+row8#!n2#!<a href="html/SV-VI/SV-48/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-48/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><मद-पाटला>T3</a>#!html/SV-VI/SV-48/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n6#!चकोर-दृशां
+row2#!n6#!चकोर-दृशां
+row3#!n6#!चकोर-दृश्{स्त्री;6;बहु}/दृशा{स्त्री;2;एक}/दृशा{स्त्री;2;एक}
+row4#!n6#!<a (click)=showDic('चकोर')>चकोर</a>-<a (click)=showDic('दृश्')>दृश्</a>{स्त्री;6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,7</a>
+row6#!n6#!चकोर-नयनी
+row7#!n6#!the one who possessed the eyes of a partridge (Cakora) bird
+row8#!n6#!<a href="html/SV-VI/SV-48/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-48/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><चकोर-दृक्>Bs6</a>#!html/SV-VI/SV-48/samaasa3.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!मुखसरोज-रुचम्
+row2#!n2#!मुखसरोज-रुचम्
+row3#!n2#!मुखसरोज-रुच्{स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('मुखसरोज')>मुखसरोज</a>-<a (click)=showDic('रुच्')>रुच्</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n2#!स्त्रियों के मुख कमल की शोभा का
+row7#!n2#!the beauty of lotus like face of women
+row8#!n2#!<a href="html/SV-VI/SV-48/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-48/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<मुख-सरोज>K6-रुच्>T6</a>#!html/SV-VI/SV-48/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!अनु-चकार
+row2#!v#!अनु-चकार
+row3#!v#!अनु-कृ2{कर्तरि;लिट्;उ;एक;परस्मैपदी;कृञ्;स्वादिः}/कृ2{कर्तरि;लिट्;प्र;एक;परस्मैपदी;कृञ्;स्वादिः}/कृ3{कर्तरि;लिट्;उ;एक;परस्मैपदी;डुकृञ्;तनादिः}/कृ3{कर्तरि;लिट्;प्र;एक;परस्मैपदी;डुकृञ्;तनादिः}/कॄ1{कर्तरि;लिट्;उ;एक;परस्मैपदी;कॄ;तुदादिः}/कॄ1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;कॄ;तुदादिः}/कॄ2{कर्तरि;लिट्;उ;एक;परस्मैपदी;कॄञ्;क्र्यादिः}/कॄ2{कर्तरि;लिट्;प्र;एक;परस्मैपदी;कॄञ्;क्र्यादिः}/चकार{पुं;8;एक}
+row4#!v#!<a (click)=showDic('अनु_कृ3')>अनु_कृ3</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;डुकृञ्;तनादिः}
+row5#!v#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,9</a>
+row6#!v#!अनुकरण_किया
+row7#!v#!immitated
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!‘अनुपराभ्यां कृञः' (1|3|79) इति परस्मैपदनियमः ।
+
+row1#!NA#!अतः
+row2#!NA#!अतः
+row3#!NA#!अ{अव्य;तसिल्}
+row4#!NA#!<a (click)=showDic('अतः')>अतः</a>{अव्य;तसिल्}
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,13</a>
+row6#!NA#!इसलिये
+row7#!NA#!hence
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!कम्
+row2#!n2#!कम्
+row3#!n2#!कम्{अव्य}/किम्{पुं;2;एक}
+row4#!n2#!<a (click)=showDic('किम्')>किम्</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,13</a>
+row6#!n2#!किस_पुरुष_को
+row7#!n2#!which person
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!उत्सुकतां
+row2#!n2#!उत्सुकतां
+row3#!n2#!उत्सुकता{स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('उत्सुकता')>उत्सुकता</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्मसमानाधिकरणम्,')">कर्मसमानाधिकरणम्,13</a>
+row6#!n2#!उत्कण्ठित
+row7#!n2#!inspired
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!न
+row2#!NA#!न
+row3#!NA#!न{अव्य}/नस्{स्त्री;8;एक}
+row4#!NA#!<a (click)=showDic('न')>न</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,13</a>
+row6#!NA#!नहीं
+row7#!NA#!not
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!अलम्भयत्
+row2#!v#!अलम्भयत्
+row3#!v#!अलम्भयत्}
+row4#!v#!<a (click)=showDic('लम्भ्1_णिच्')>लम्भ्1_णिच्</a>{कर्तरि;लङ्;ण्यन्त=नु;परस्मैपदी:लभँष्;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!कर_दिया.
+row7#!v#!got
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!यमकम् ।
+row12#!v#!अलम्भयदिति लभेर्ण्यन्ताल्लङ् 'लभेश्च' (7।1।64) इति नुमागमः । लभेश्चात्र प्राप्त्युपसर्जनकगत्यर्थत्वात् 'गतिबुद्धि-' (1।4।52) इत्यादिना अणिकर्तुः कर्मत्वे द्विकर्मकता । गत्युपसर्जनकप्राप्त्यर्थत्वे तु वैपारीत्यमित्युक्तं 'सितं सितिम्ना' (1।25) इत्यत्र ।
+
+

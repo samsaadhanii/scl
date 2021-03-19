@@ -1,0 +1,92 @@
+row1#!number#!<a href="html/SV-VI/SV-27/27.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-27/27.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">27.A</a>#!html/SV-VI/SV-27/27.jpg#!row1#!n6#!धृतधनुर्-वलयस्य
+row2#!number#!27.B</a>#!row2#!n6#!धृतधनुर्-वलयस्य
+row3#!number#!27.C</a>#!row3#!n6#!धृतधनुर्-वलय{पुं;6;एक}
+row4#!number#!27.D</a>#!row4#!n6#!<a (click)=showDic('धृतधनुर्')>धृतधनुर्</a>-<a (click)=showDic('वलय')>वलय</a>{पुं;6;एक}
+row5#!number#!27.E</a>#!row5#!n6#!षष्ठीसम्बन्धः,2
+row6#!number#!27.F</a>#!row6#!n6#!इन्द्र धनुष से युक्त
+row7#!number#!27.G</a>#!row7#!n6#!that are endowed with Indra's bow i.e. a variegated rainbow
+row8#!number#!27.H#!row8#!n6#!<a href="html/SV-VI/SV-27/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-27/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><धृत-<धनुष्-वलयः>T6>Bs3</a>#!html/SV-VI/SV-27/samaasa1.jpg
+row9#!number#!27.I</a>#!row9#!n6#!
+row10#!number#!27.J</a>#!row10#!n6#!
+row11#!number#!27.K</a>#!row11#!n6#!
+row12#!number#!27.L</a>#!row12#!n6#!
+
+row1#!n6#!पयो-मुचः
+row2#!n6#!पयो-मुचः
+row3#!n6#!पयो-मुच्{पुं;1;बहु}/मुच्{पुं;2;बहु}/मुच्{पुं;5;एक}/मुच्{पुं;6;एक}/मुच्{स्त्री;1;बहु}/मुच्{स्त्री;2;बहु}/मुच्{स्त्री;5;एक}/मुच्{स्त्री;6;एक}/मुच्{पुं;8;बहु}/मुच्{स्त्री;8;बहु}
+row4#!n6#!<a (click)=showDic('पयो')>पयो</a>-<a (click)=showDic('मुच्')>मुच्</a>{पुं;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,3</a>
+row6#!n6#!बादल_की
+row7#!n6#!of clouds
+row8#!n6#!<a href="html/SV-VI/SV-27/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-27/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><पयो-मुक्>U</a>#!html/SV-VI/SV-27/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!शबलिमा
+row2#!n1#!शबलिमा
+row3#!n1#!शबलिमा}
+row4#!n1#!<a (click)=showDic('शबलिमा')>शबलिमा</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,7</a>
+row6#!n1#!विचित्रता_ने
+row7#!n1#!variegated state
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!'पृथ्वादिभ्य इमनिज्वा' (5।1।22) ।
+
+row1#!n2#!विविधोपलकुण्डलद्युतिवितानकसंवलिता-अंशुकं
+row2#!n2#!विविधोपलकुण्डलद्युतिवितानकसंवलिता-अंशुकं
+row3#!n2#!विविधोपलकुण्डलद्युतिवितानकसंवलिता-अंशुक{नपुं;1;एक}/अंशुक{नपुं;2;एक}/अंशुक{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('विविधोपलकुण्डलद्युतिवितानकसंवलिता')>विविधोपलकुण्डलद्युतिवितानकसंवलिता</a>-<a (click)=showDic('अंशुक')>अंशुक</a>{नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n2#!अनेकप्रकार के मणियों से युक्त कुण्डलों की कान्ति से मिश्रित (शरीर की श्यामल) कान्ति वाले
+row7#!n2#!who possessed splendor of ear-rings that contained various splendorous gems
+row8#!n2#!<a href="html/SV-VI/SV-27/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-27/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<विविध-उपल>Bs6-कुण्डल>K1<द्युति-वितानक>T6-<संवलिता-अंशुकम्>K1>Bs6</a>#!html/SV-VI/SV-27/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!'शेषाद्विभाषा' (5।4।154) इति कप्प्रत्ययः ।
+
+row1#!n6#!बलिमानमुषः
+row2#!n6#!बलिमानमुषः
+row3#!n6#!बलिमान-मुष्{पुं;1;बहु}/मुष्{पुं;2;बहु}/मुष्{पुं;5;एक}/मुष्{पुं;6;एक}/मुष्{स्त्री;1;बहु}/मुष्{स्त्री;2;बहु}/मुष्{स्त्री;5;एक}/मुष्{स्त्री;6;एक}/मुष्{पुं;8;बहु}/मुष्{स्त्री;8;बहु}/मुष{पुं;1;एक}
+row4#!n6#!<a (click)=showDic('बलिमानमुष्')>बलिमानमुष्</a>{पुं;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,6</a>
+row6#!n6#!बलि दैत्य के गर्व को नष्ट करने वाले (वामनावतार_के)
+row7#!n6#!who was the destroyer of pride of demon daitya (lord Vāmana)
+row8#!n6#!<a href="html/SV-VI/SV-27/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-27/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<बलि-मान>T6-मुष्>U</a>#!html/SV-VI/SV-27/samaasa4.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!वपुः
+row2#!n2#!वपुः
+row3#!n2#!वपुस्{नपुं;1;एक}/वपुस्{नपुं;2;एक}/वपुस्{नपुं;8;एक}
+row4#!n2#!<a (click)=showDic('वपुस्')>वपुस्</a>{नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,7</a>
+row6#!n2#!शरीर_का
+row7#!n2#!body of
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!अनु-ययौ
+row2#!v#!अनु-ययौ
+row3#!v#!अनु-या1{कर्तरि;लिट्;उ;एक;परस्मैपदी;या;अदादिः}/या1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;या;अदादिः}/ययि{पुं;7;एक}
+row4#!v#!<a (click)=showDic('अनु')>अनु</a>-<a (click)=showDic('या1')>या1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;या;अदादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!अनुसरण_किया.
+row7#!v#!resembled.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!उपमा + यमकम् = सङ्करः ।
+row12#!v#!
+
+

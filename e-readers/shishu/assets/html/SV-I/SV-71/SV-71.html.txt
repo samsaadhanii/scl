@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-I/SV-71/71.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-71/71.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">71.A</a>#!html/SV-I/SV-71/71.jpg#!row1#!n3#!यदृच्छया
+row2#!number#!71.B</a>#!row2#!n3#!यदृच्छया 
+row3#!number#!71.C</a>#!row3#!n3#!यदृच्छया{अव्य}/यदृच्छा{स्त्री}{3;एक}
+row4#!number#!71.D</a>#!row4#!n3#!<a (click)=showDic('यदृच्छा')>यदृच्छा</a>{स्त्री}{3;एक}
+row5#!number#!71.E</a>#!row5#!n3#!हेतुः,9
+row6#!number#!71.F</a>#!row6#!n3#!स्वेचछा_से
+row7#!number#!71.G</a>#!row7#!n3#!at his free will
+row8#!number#!71.H#!row8#!n3#!
+row9#!number#!71.I</a>#!row9#!n3#!
+row10#!number#!71.J</a>#!row10#!n3#!
+row11#!number#!71.K</a>#!row11#!n3#!
+row12#!number#!71.L</a>#!row12#!n3#!
+
+row1#!NA#!स्वयं
+row2#!NA#!स्वयं 
+row3#!NA#!स्वयम्{अव्य} 
+row4#!NA#!<a (click)=showDic('स्वयम्')>स्वयम्</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,9</a>
+row6#!NA#!खुद
+row7#!NA#!himself
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n6#!सुर-दैत्य-रक्षसाम्
+row2#!n6#!सुर-दैत्य-रक्षसाम् 
+row3#!n6#!सुर-दैत्य-रक्षस्{नपुं}{6;बहु} 
+row4#!n6#!<a (click)=showDic('सुर')>सुर</a>-<a (click)=showDic('दैत्य')>दैत्य</a>-<a (click)=showDic('रक्षस्')>रक्षस्</a>{नपुं}{6;बहु} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,4</a>
+row6#!n6#!देव-दैत्य-राक्षसों_के
+row7#!n6#!to Gods demons and rākṣasas
+row8#!n6#!<a href="html/SV-I/SV-71/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-71/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सुर-दैत्य-रक्षसांसि>Di</a>#!html/SV-I/SV-71/samaasa1.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!अनुग्रह-अवग्रहयोः
+row2#!n6#!अनुग्रहावग्रहयोः 
+row3#!n6#!अनुग्रह-अवग्रह{पुं}{6;द्वि}/अवग्रह{पुं}{7;द्वि} 
+row4#!n6#!<a (click)=showDic('अनुग्रह')>अनुग्रह</a>-<a (click)=showDic('अवग्रह')>अवग्रह</a>{पुं}{6;द्वि} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,5</a>
+row6#!n6#!अनुग्रह तथा अवग्रहों_का 
+row7#!n6#!dispensing favour and punishment
+row8#!n6#!<a href="html/SV-I/SV-71/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-71/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अनुग्रह-अवग्रहः>Di</a>#!html/SV-I/SV-71/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!विधाता
+row2#!n1#!विधाता 
+row3#!n1#!विधातृ{पुं}{1;एक}/वि_धा1{कर्तरि;लुट्;प्र;एक;उभयपदी;डुधाञ्;जुहोत्यादिः}/वि_धा1{कर्मणि;लुट्;प्र;एक;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}/वि_धे1{कर्तरि;लुट्;प्र;एक;परस्मैपदी;धेट्;भ्वादिः}/वि_धे1{कर्मणि;लुट्;प्र;एक;आत्मनेपदी;धेट्;भ्वादिः}/विधाता{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('विधातृ')>विधातृ</a>{पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!विधाता 
+row7#!n1#!the creator
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!असौ
+row2#!n1#!असौ 
+row3#!n1#!अदस्{पुं}{1;एक}/अदस्{स्त्री}{1;एक}/असि{पुं}{7;एक}/असि{स्त्री}{7;एक}/असु{पुं}{7;एक} 
+row4#!n1#!<a (click)=showDic('अदस्')>अदस्</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,9</a>
+row6#!n1#!यह (शिशुपाल)
+row7#!n1#!this (Śiśupāla)
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!अभिराद्ध-देवता-वितीर्ण-वीर्यातिशयान्
+row2#!n2#!अभिराद्ध-देवता-वितीर्ण-वीर्यातिशयान् 
+row3#!n2#!अभिराद्ध-देवता-वितीर्ण-वीर्यातिशयान्{पुं}{2;बहु}
+row4#!n2#!<a (click)=showDic('अभिराद्ध')>अभिराद्ध</a>-<a (click)=showDic('देवता')>देवता</a>-<a (click)=showDic('वितीर्ण')>वितीर्ण</a>-<a (click)=showDic('वीर्यातिशयान्')>वीर्यातिशयान्</a>{पुं}{2;बहु}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n2#!शिव आदि देवों_की_आराधना_से_अधिक पराक्रमी बने_हुए
+row7#!n2#!who had their superior valour given by the Gods propitiated by them
+row8#!n2#!<a href="html/SV-I/SV-71/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-71/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<अभिराद्ध-देवत>K1-वितीर्ण>T3-<वीर्य-अतिशयः>T6>Bs6</a>#!html/SV-I/SV-71/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!दशानन-आदीन्
+row2#!n2#!दशाननादीन् 
+row3#!n2#!दशानन-आदि{पुं}{2;बहु} 
+row4#!n2#!<a (click)=showDic('दशानन')>दशानन</a>-<a (click)=showDic('आदि')>आदि</a>{पुं}{2;बहु} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,9</a>
+row6#!n2#!रावण_आदि_पर
+row7#!n2#!on Rāvaņa and others
+row8#!n2#!<a href="html/SV-I/SV-71/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-71/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<दश-आनन>Bs6-आदिः>Bs6</a>#!html/SV-I/SV-71/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!हसति.
+row2#!v#!हसति 
+row3#!v#!हस्1{कर्तरि;लट्;प्र;एक;परस्मैपदी;हसेँ;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('हस्1')>हस्1</a>{कर्तरि;लट्;प्र;एक;परस्मैपदी;हसेँ;भ्वादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!हसता_है. 
+row7#!v#!ridicules
+row8#!v#!-
+row9#!v#!अकर्मककर्तरि
+row10#!v#!वंशस्थम् ।
+row11#!v#!-
+row12#!v#!
+
+

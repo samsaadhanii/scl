@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-V/SV-20/20.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-20/20.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">20.A</a>#!html/SV-V/SV-20/20.jpg#!row1#!n1#!रोचिष्णु-काञ्चन-चयांशु-पिशङ्गित-आशाः
+row2#!number#!20.B</a>#!row2#!n1#!रोचिष्णु-काञ्चन-चयांशु-पिशङ्गित-आशाः 
+row3#!number#!20.C</a>#!row3#!n1#!रोचिष्णु-काञ्चन-चयांशु-पिशङ्गित-आश{पुं}{1;बहु}/आशा{स्त्री}{1;बहु}/आशा{स्त्री}{2;बहु} 
+row4#!number#!20.D</a>#!row4#!n1#!<a (click)=showDic('रोचिष्णु')>रोचिष्णु</a>-<a (click)=showDic('काञ्चन')>काञ्चन</a>-<a (click)=showDic('चयांशु')>चयांशु</a>-<a (click)=showDic('पिशङ्गित')>पिशङ्गित</a>-<a (click)=showDic('आश')>आश</a>{पुं}{1;बहु}
+row5#!number#!20.E</a>#!row5#!n1#!कर्ता,4
+row6#!number#!20.F</a>#!row6#!n1#!शोभायमान सुवर्ण समूहों_की_किरणों_से_दिशाओं_को_पीला_किये_हुए
+row7#!number#!20.G</a>#!row7#!n1#!Made all directions into golden colour with its group of golden rays
+row8#!number#!20.H#!row8#!n1#!<a href="html/SV-V/SV-20/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-20/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<रोचिष्णु-<काञ्चन-चय>T6>K1-अंशु>T6-पिशङ्गिताशः>Bs3</a>#!html/SV-V/SV-20/samaasa1.jpg
+row9#!number#!20.I</a>#!row9#!n1#!
+row10#!number#!20.J</a>#!row10#!n1#!
+row11#!number#!20.K</a>#!row11#!n1#!
+row12#!number#!20.L</a>#!row12#!n1#!‘अलङ्कृञ्-’ (3।2।136) इत्यादिना इष्णुच्प्रत्ययः ।
+
+row1#!n3#!वंश-ध्वजैः
+row2#!n3#!वंश-ध्वजैः 
+row3#!n3#!वंश-ध्वज{पुं}{3;बहु}/ध्वज{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('वंश')>वंश</a>-<a (click)=showDic('ध्वज')>ध्वज</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('करण,')">करण,11</a>
+row6#!n3#!वंश-ध्वजों_से 
+row7#!n3#!with the banners that decide the clan of kings
+row8#!n3#!<a href="html/SV-V/SV-20/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-20/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><वंश-ध्वजः>T6</a>#!html/SV-V/SV-20/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n2#!जलद-संहतिम्
+row2#!n2#!जलद-संहतिम् 
+row3#!n2#!जलद-संहति{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('जलद')>जलद</a>-<a (click)=showDic('संहति')>संहति</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,4</a>
+row6#!n2#!मेघ_समूह_को
+row7#!n2#!the group of clouds
+row8#!n2#!<a href="html/SV-V/SV-20/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-20/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><जलद-संहतिः>T6</a>#!html/SV-V/SV-20/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!उल्लिखन्त्यः
+row2#!n1#!उल्लिखन्त्यः 
+row3#!n1#!अ-{अव्य}-उल्लिखन्त्यः 
+row4#!n1#!<a (click)=showDic('उद्_लिख्1')>उद्_लिख्1</a>{कृत्_प्रत्ययः:शतृ;लिखँ;तुदादिः;स्त्री}{1;बहु}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,11</a>
+row6#!n1#!स्पर्श_करती_हुई
+row7#!n1#!while touching
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!आयत-निरन्तर-सन्निविष्टाः
+row2#!n1#!आयत-निरन्तर-सन्निविष्टाः 
+row3#!n1#!आयत-निरन्तर-सन्निविष्ट{पुं}{1;बहु}/सन्निविष्टा{स्त्री}{1;बहु}/सन्निविष्टा{स्त्री}{2;बहु} 
+row4#!n1#!<a (click)=showDic('आयत')>आयत</a>-<a (click)=showDic('निरन्तर')>निरन्तर</a>-<a (click)=showDic('सम्_नि_विश्1')>सम्_नि_विश्1</a>{कृत्_प्रत्ययः:क्त;विशँ;तुदादिः}{स्त्री}{1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!दूर_तक_सघन_रूप_से_खड़े_किये_गये
+row7#!n1#!that were assembled till long distance
+row8#!n1#!<a href="html/SV-V/SV-20/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-20/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<आयत-निरन्तर>K3-सन्निविष्टा>K2</a>#!html/SV-V/SV-20/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!रथानाम्
+row2#!n6#!रथानाम् 
+row3#!n6#!रथ{पुं}{6;बहु} 
+row4#!n6#!<a (click)=showDic('रथ')>रथ</a>{पुं}{6;बहु} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,7</a>
+row6#!n6#!रथों_की
+row7#!n6#!of chariots
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!आवलयः
+row2#!n1#!आवलयः 
+row3#!n1#!आवलि{स्त्री}{1;बहु} 
+row4#!n1#!<a (click)=showDic('आवलि')>आवलि</a>{स्त्री}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,11</a>
+row6#!n1#!श्रेणियाँ
+row7#!n1#!streams
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!भूभर्तुः
+row2#!n6#!भूभर्तुः 
+row3#!n6#!भूभर्तृ{पुं}{5;एक}/भूभर्तृ{पुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('भूभर्तृ')>भूभर्तृ</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,9</a>
+row6#!n6#!पर्वत-राजा_के
+row7#!n6#!of a mountain
+row8#!n6#!<a href="html/SV-V/SV-20/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-20/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><भू-भर्ता>T6</a>#!html/SV-V/SV-20/samaasa5.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!पादाः
+row2#!n1#!पादाः 
+row3#!n1#!पाद{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('पाद')>पाद</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,10</a>
+row6#!n1#!शिखर
+row7#!n1#!small mountains
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इव
+row2#!NA#!इव 
+row3#!NA#!इव{अव्य} 
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,7</a>
+row6#!NA#!जैसे 
+row7#!NA#!as if
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!अभिबभुः.
+row2#!v#!अभिबभुः 
+row3#!v#!अभि_भा1{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;भा;अदादिः}. 
+row4#!v#!<a (click)=showDic('अभि_भा1')>अभि_भा1</a>{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;भा;अदादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!शोभ_रहीं_थीं.
+row7#!v#!were splendrous.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!वसन्ततिलका ।
+row11#!v#!उत्प्रेक्षा ।
+row12#!v#!
+
+

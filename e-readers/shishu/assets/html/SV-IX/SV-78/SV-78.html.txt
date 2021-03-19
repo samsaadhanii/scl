@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-IX/SV-78/78.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-78/78.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">78.A</a>#!html/SV-IX/SV-78/78.jpg#!row1#!n1#!प्रमदाः
+row2#!number#!78.B</a>#!row2#!n1#!प्रमदाः
+row3#!number#!78.C</a>#!row3#!n1#!प्रमद{;पुं;1;बहु}/प्रमद{;पुं;8;बहु}/प्रमदा{;स्त्री;1;बहु}/प्रमदा{;स्त्री;2;बहु}/प्रमदा{;स्त्री;8;बहु}
+row4#!number#!78.D</a>#!row4#!n1#!<a (click)=showDic('प्रमदा')>प्रमदा</a>{स्त्री;1;बहु}
+row5#!number#!78.E</a>#!row5#!n1#!कर्ता,12
+row6#!number#!78.F</a>#!row6#!n1#!कामभावनातिशय से युक्त अङ्गनाओं ने
+row7#!number#!78.G</a>#!row7#!n1#!Women
+row8#!number#!78.H#!row8#!n1#!
+row9#!number#!78.I</a>#!row9#!n1#!
+row10#!number#!78.J</a>#!row10#!n1#!
+row11#!number#!78.K</a>#!row11#!n1#!
+row12#!number#!78.L</a>#!row12#!n1#!
+
+row1#!NA#!अधि-वेश्म
+row2#!NA#!अधि-वेश्म
+row3#!NA#!अधि-वेश्मन्{;नपुं;1;एक}/वेश्मन्{;नपुं;2;एक}/वेश्मन्{;नपुं;8;एक}
+row4#!NA#!<a (click)=showDic('अधि')>अधि</a>-<a (click)=showDic('वेश्म')>वेश्म</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,12</a>
+row6#!NA#!अपने निवासस्थान में
+row7#!NA#!in their residence
+row8#!NA#!<a href="html/SV-IX/SV-78/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-78/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अधि-वेश्म>A1</a>#!html/SV-IX/SV-78/samaasa1.jpg
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n6#!पत्युः
+row2#!n6#!पत्युः
+row3#!n6#!पति{;पुं;5;एक}/पति{;पुं;6;एक}
+row4#!n6#!<a (click)=showDic('पति')>पति</a>{;पुं;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,4</a>
+row6#!n6#!पति_के
+row7#!n6#!of (their) husband
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n7#!उपचार-विधौ
+row2#!n7#!उपचार-विधौ
+row3#!n7#!उपचार-विध{;पुं;1;द्वि}/विध{;पुं;2;द्वि}/विध{;पुं;8;द्वि}/विधु{;पुं;7;एक}/विधि{;पुं;7;एक}
+row4#!n7#!<a (click)=showDic('उपचार')>उपचार</a>-<a (click)=showDic('विधि')>विधि</a>{;पुं;7;एक}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,12</a>
+row6#!n7#!सत्कार करने में
+row7#!n7#!in showing hospitality
+row8#!n7#!<a href="html/SV-IX/SV-78/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-78/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><उपचार-विधिः>T6</a>#!html/SV-IX/SV-78/samaasa2.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n1#!अलघु-ऊरु-भरात्
+row2#!n1#!अलघु-ऊरु-भरात्
+row3#!n1#!अलघु-ऊरु-भर{;पुं;5;एक}
+row4#!n1#!<a (click)=showDic('अलघु')>अलघु</a>-<a (click)=showDic('ऊरु')>ऊरु</a>-<a (click)=showDic('भरता')>भरता</a>{;स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('हेतुः,')">हेतुः,9</a>
+row6#!n1#!भारी जघनद्वय के कारण
+row7#!n1#!due to (their) heavy hips
+row8#!n1#!<a href="html/SV-IX/SV-78/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-78/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<न-लघु>Tn-<ऊरु-भरः>T6>K3</a>#!html/SV-IX/SV-78/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!परि-मन्थराभिः
+row2#!n3#!परि-मन्थराभिः
+row3#!n3#!परि-मन्थरा{;स्त्री;3;बहु}
+row4#!n3#!<a (click)=showDic('परि')>परि</a>-<a (click)=showDic('मन्थरा')>मन्थरा</a>{;स्त्री;3;बहु}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n3#!चलने में मन्थर
+row7#!n3#!were strolling
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!अनु-पदं
+row2#!NA#!अनु-पदं
+row3#!NA#!अनु-पद्{;पुं;2;एक}/पद{;नपुं;1;एक}/पद{;नपुं;2;एक}/पद{;पुं;2;एक}
+row4#!NA#!<a (click)=showDic('अनु')>अनु</a>-<a (click)=showDic('पदम्')>पदम्</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,9</a>
+row6#!NA#!पद-पद_पर
+row7#!NA#!in every step
+row8#!NA#!<a href="html/SV-IX/SV-78/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-78/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अनु-पदम्>A1</a>#!html/SV-IX/SV-78/samaasa4.jpg
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!स्खलिताभिः
+row2#!n3#!स्खलिताभिः
+row3#!n3#!स्खलिता{;स्त्री;3;बहु}
+row4#!n3#!<a (click)=showDic('स्खल्1')>स्खल्1</a>{क्त;स्खलँ;भ्वादिः;;स्त्री;3;बहु}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n3#!स्खलित होती हुई
+row7#!n3#!while stumbling
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!गतिभिः
+row2#!n3#!गतिभिः
+row3#!n3#!गति{;स्त्री;3;बहु}
+row4#!n3#!<a (click)=showDic('गति')>गति</a>{;स्त्री;3;बहु}
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,12</a>
+row6#!n3#!अपनी चालों से
+row7#!n3#!through their gaits
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!अपि
+row2#!NA#!अपि
+row3#!NA#!अपि{अव्य}
+row4#!NA#!<a (click)=showDic('अपि')>अपि</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,9</a>
+row6#!NA#!भी
+row7#!NA#!though
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!प्रणयाति-भूमिम्
+row2#!n2#!प्रणयाति-भूमिम्
+row3#!n2#!प्रणयाति-भूमि{;स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('प्रणयाति')>प्रणयाति</a>-<a (click)=showDic('भूमि')>भूमि</a>{;स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,12</a>
+row6#!n2#!(पतियों के प्रति) प्रेमाधिक्य को
+row7#!n2#!love and affection
+row8#!n2#!<a href="html/SV-IX/SV-78/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-78/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><प्रणय-अतिभूमिः>T7</a>#!html/SV-IX/SV-78/samaasa5.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!अगमन्
+row2#!v#!अगमन्
+row3#!v#!गम्1{कर्तरि;लुङ्;प्र;बहु;परस्मैपदी;गमॢँ;भ्वादिः}
+row4#!v#!<a (click)=showDic('गम्1')>गम्1</a>{कर्तरि;लुङ्;प्र;बहु;परस्मैपदी;गमॢँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!व्यक्त-किया.
+row7#!v#!expressed.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!प्रमिताक्षरा ।
+row11#!v#!विरोधाभासः ।
+row12#!v#!
+
+
