@@ -71,5 +71,5 @@ paste -d= $TMP_FILES_PATH/tmpall $TMP_FILES_PATH/tmp_nn | perl -pe 's/\/$//;s/^=
 #fi
 
 #if [ $DEBUG = "OFF" ]; then
-#  rm -f $TMP_FILES_PATH/tmp_std $TMP_FILES_PATH/tmp_n $TMP_FILES_PATH/tmp_samAsa $TMP_FILES_PATH/tmp_k $TMP_FILES_PATH/tmp_all $TMP_FILES_PATH/tmp_k1 $TMP_FILES_PATH/tmp_k_words
+rm -f $TMP_FILES_PATH/tmp_std $TMP_FILES_PATH/tmp_n $TMP_FILES_PATH/tmp_samAsa $TMP_FILES_PATH/tmp_k $TMP_FILES_PATH/tmp_all $TMP_FILES_PATH/tmp_k1 $TMP_FILES_PATH/tmp_k_words
 #fi

@@ -144,7 +144,8 @@ cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
     $ANU_MT_PATH/chunker/lwg.pl  |\
     $ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $SHMT_PATH/data hi  |\
     $ANU_MT_PATH/map/lwg_avy_avy.pl $SCLINSTALLDIR $SHMT_PATH/data hi   |\
-    $ANU_MT_PATH/hnd_sent_gen/agreement.pl $SCLINSTALLDIR $SHMT_PATH/data $ANU_MT_PATH/hnd_sent_gen  D |\
+    #$ANU_MT_PATH/hnd_sent_gen/agreement.pl $SCLINSTALLDIR $SHMT_PATH/data $ANU_MT_PATH/hnd_sent_gen D |\
+    $ANU_MT_PATH/hnd_sent_gen/agreement.pl $SCLINSTALLDIR $SHMT_PATH/data $ANU_MT_PATH/hnd_sent_gen |\
     $ANU_MT_PATH/hnd_sent_gen/call_gen.pl $SCLINSTALLDIR |\
     $ANU_MT_PATH/interface/modify_mo_for_display.pl $SCLINSTALLDIR > $temp_files_path/ttt
     mv $temp_files_path/ttt $temp_files_path/$fbn.out
@@ -184,6 +185,6 @@ $ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out | $my_conve
 #unoconv -f xlsx -i FilterOptions=9,34,76 table.csv
 $ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table.csv $temp_files_path/table.xlsx
 #if [ $DEBUG = "OFF" ]; then 
-#   rm -rf $temp_files_path/tmp* $temp_files_path/in* $temp_files_path/wsd_files
+rm -rf $temp_files_path/tmp* $temp_files_path/in* $temp_files_path/wsd_files
 #fi
 fi

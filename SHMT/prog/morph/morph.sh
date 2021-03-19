@@ -43,5 +43,5 @@ paste $INFILE $OUTFILE $PRUNEOUT $KQWOUT| perl -pe 's/^\t//;s/^\t//;s/^\t//' > $
 mv $TMP_FILES_PATH/tmp_111 $INFILE
 
 #if [ $DEBUG = "OFF" ]; then
-# rm $TMP_FILES_PATH/tmp_mo_all $TMP_FILES_PATH/tmp_mo $TMP_FILES_PATH/tmp_kqw_analy_mo  $TMP_FILES_PATH/tmp_non-samAsa-ppada-wrds $TMP_FILES_PATH/tmp_samAsa-upada-wrds
+rm $TMP_FILES_PATH/tmp_mo_all $TMP_FILES_PATH/tmp_mo
 #fi
