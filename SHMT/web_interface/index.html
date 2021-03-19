@@ -43,7 +43,7 @@
           var noreg_wxe=/[^aAiIuUqQlLeEoOMHzkKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRshZ \.\?\-\_\!\^\,\r\n]/;
           var noreg_uni=/[^अआइईउऊऋॠऌएऐओऔअंअःकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह ्ािीुूृॄॢेैोौंः  -_?.,!+/|।॥ऽ\r\r\n]/;
           var noreg_itr=/[^AaiuRiLIeoMH.Nkgh~NcChjnThDtdpbmyrlvsS \?\-\_\.\,\!\^\r\n]/;
-          var noreg_slp=/[^aAiIuUfFlxeEoOMHkKgGNcCqQjJwWQRtTdDnpPbBmyrlvSzsh \.\?\r\n]/;
+          var noreg_slp=/[^aAiIuUfFlxeEoOMHkKgGNcCqQjJwWQRtTdDnpPbBmyrlvSzsh \.\?\r\n\-]/;
           var noreg_vel=/[^aiurleomhkgncjtdpbvysz \~\"\?\-\_\.\,\!\r\n]/;
           var noreg_rom=/[^aÄiÄ«uÅ«á¹›?leoá¹ƒá¸¥khgá¹…cjÃ±á¹­á¸á¹‡tdnpbmyrlvÅ›á¹£s \.\?\r\n]/;
           var noreg_kyo=/[^aAiIuUlReaoMHkghGcjJTDNtdnpbmyrlvzSs \.\?\r\n]/;
@@ -167,8 +167,8 @@ setInterval(blinker, 1000);
                 <br/>
                 <select name="parse">
                   <option>Full</option>
-                  <option>Partial</option>
-                  <option>NO</option>
+                  <!-- <option>Partial</option>
+		  <option>NO</option> -->
                 </select>
               </td>
               <td> Text type
