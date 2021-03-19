@@ -51,7 +51,7 @@ install_server:
 	mkdir -p $(HTDOCSDIR)/scl/e-readers
 	cp -r e-readers/sankshepa_ramayanam $(HTDOCSDIR)/scl/e-readers
 	cd e-readers/sbg; make install
-	cp -r e-readers/shishu $(HTDOCSDIR)/scl/e-readers
+	#cp -r e-readers/shishu $(HTDOCSDIR)/scl/e-readers
 	cp -r GOLD_DATA $(HTDOCSDIR)/scl
 
 uninstall:
