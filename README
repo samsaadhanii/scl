@@ -17,6 +17,10 @@ perl
 python
 xsltproc
 default-jdk
+python3-pandas and python3-openpyxl
+-- commands for installation are
+   sudo apt install python3-pandas
+   sudo apt install python3-openpyxl
 
 AND
 
