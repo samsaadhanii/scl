@@ -29,7 +29,7 @@ install:
 	cp scl_help.pdf $(HTDOCSDIR)/scl
 	mkdir -p $(HTDOCSDIR)/scl/e-readers
 	cp -r e-readers/sankshepa_ramayanam $(HTDOCSDIR)/scl/e-readers
-	cp -r e-readers/shishu $(HTDOCSDIR)/scl/e-readers
+	#cp -r e-readers/shishu $(HTDOCSDIR)/scl/e-readers
 	cd e-readers/sbg; make install
 	cp -r GOLD_DATA $(HTDOCSDIR)/scl
 
