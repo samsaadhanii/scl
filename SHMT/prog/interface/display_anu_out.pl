@@ -27,7 +27,7 @@ $TFPATH = $ARGV[1];
       <div id=\"container\">\n
       <center>\n
       <div id=\"project-name\">\n
-      <img src=\"/scl/imgs/sktmt.jpg\" alt=\"anusaaraka logo\" style=\"width=300px\" />\n
+      <img src=\"/scl/imgs/sktmt.jpg\" alt=\"anusaaraka logo\" style=\"width:300px\" />\n
     </div>\n
     </center>\n
     </div>\n

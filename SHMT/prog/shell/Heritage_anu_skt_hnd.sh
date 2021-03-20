@@ -139,7 +139,8 @@ $ANU_MT_PATH/kAraka/shabdabodha.sh $SCLINSTALLDIR $GraphvizDot $Heritage_Input $
   perl -p -e $cmd2  > $temp_files_path/../$1.html
 
 $ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out | $my_converter > $temp_files_path/table.csv
-unoconv -f xlsx -i FilterOptions=9,34,76 table.csv
+#unoconv -f xlsx -i FilterOptions=9,34,76 table.csv
+$ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table.csv $temp_files_path/table.xlsx
 #if [ $DEBUG = "OFF" ]; then 
 #   rm -rf $temp_files_path/tmp* $temp_files_path/in* $temp_files_path/wor.* $temp_files/wsd_files
 #fi
