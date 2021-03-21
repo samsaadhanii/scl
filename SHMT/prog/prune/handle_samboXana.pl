@@ -99,7 +99,7 @@ print STDERR "store = ",$store,"\n";
           if($mo !~ /<viBakwiH:8>/){
              $tmp .= "/".$mo;
           }
-          if(($mo =~ /<viBakwiH:8>/) && ($mo =~ /<level:1>/)){
+          if(($mo =~ /<viBakwiH:8>/) && ($mo =~ /<level:[14]>/)){
              $tmp .= "/".$mo;
           }
   # Only level 1 samboXanas are kept. All other samboXanas are deleted.
