@@ -55,8 +55,10 @@ sub clean_other_info {
  $a =~ s/<gaNaH:([^>]+)>/ $1/g;
  $a =~ s/<vargaH:nA>//g;
  $a =~ s/<vargaH:[^>]+>//g;
+ #The following lines are commented, since they were adding one extra upasarga in the beginning.
  #$a =~ s/\(([^>]+)<upasarga:([^>]+)>/($2_$1/g;
- $a =~ s/([^>]+)<upasarga:([^>]+)>/$2_$1/g;
+ # $a =~ s/([^>]+)<upasarga:([^>]+)>/$2_$1/g;
+ $a =~ s/<upasarga:([^>]+)>//g;
  $a =~ s/<kqw_XAwu:([^>]+)><upasarga:([^>]+)>/$2_$1/g;
  $a =~ s/<rt:([^>]+)><upasarga:([^>]+)>/$2_$1/g;
  $a =~ s/<kqw_XAwu:([^>]+)>/$1/g;

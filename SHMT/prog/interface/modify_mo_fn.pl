@@ -72,10 +72,12 @@ sub modify_mo{
   $in =~ s/<vacanam:([^>]+)>/ $1/g;
   $in =~ s/<rel_nm:([^>]*)>//g;
   $in =~ s/<relata_pos:[0-9]*>//g;
+  #print "\nINPUT = $in\n";
   if ($in !~ /<upasarga:X>/ ) {
     $in =~ s/\/([^<]+-)?([^\-<]+)<upasarga:([a-zA-Z_]+)>/\/$1$3_$2/g;
     $in =~ s/^([^<]+-)?([^\-<]+)<upasarga:([a-zA-Z_]+)>/$1$3_$2/g;
   } else { $in =~ s/<upasarga:X>//;}
+  # print "OUTPUT = $in\n";
   $in =~ s/<upapaxa_cp:([^>]+)>/-$1/g;
   $in =~ s/\/([^<]+)<upapaxa_cp:([^>]+)>/\/$1-$2/g;
   $in =~ s/^([^<]+)<upapaxa_cp:([^>]+)>/$1-$2/g;
