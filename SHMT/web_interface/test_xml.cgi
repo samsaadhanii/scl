@@ -78,7 +78,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
       # my $cgi = new CGI;
       if($morph eq "GH") {
          $sentences =~ s/\.//;
-	 $cmd = "$GlblVar::HERITAGE_CGIURL?lex=SH\&cache=t\&st=t\&us=f\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=g";
+	 $cmd = "$GlblVar::HERITAGE_CGIURL?lex=MW\&cache=t\&st=t\&us=f\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=g";
 	 #print CGI-> redirect($cmd);
 	 print "location:$cmd\n\n";
       } else {
