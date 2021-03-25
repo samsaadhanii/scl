@@ -30,8 +30,10 @@ export MY_PATH=$SCLINSTALLDIR/SHMT/prog
 
 #$MY_PATH/morph/word_morph.sh $INFILE $TMP_FILES_PATH/tmp_mo_all $TMP_FILES_PATH/tmp_kqw_analy_mo
 $MY_PATH/morph/word_morph.sh $SCLINSTALLDIR $LTPROCBIN < $INFILE > $TMP_FILES_PATH/tmp_mo_all #$TMP_FILES_PATH/tmp_kqw_analy_mo
-$MY_PATH/morph/local_analysis/add_mo_local.pl $SCLINSTALLDIR $MY_PATH/morph/local_analysis/mo_ana.txt < $TMP_FILES_PATH/tmp_mo_all |\
-$MY_PATH/prune/prune.sh $SCLINSTALLDIR > $TMP_FILES_PATH/tmp_mo
+$MY_PATH/morph/local_analysis/add_mo_local.pl $SCLINSTALLDIR $MY_PATH/morph/local_analysis/mo_ana.txt < $TMP_FILES_PATH/tmp_mo_all > /tmp/222
+#$MY_PATH/prune/prune.sh $SCLINSTALLDIR < /tmp/222 > $TMP_FILES_PATH/tmp_mo
+$MY_PATH/prune/prune.sh $SCLINSTALLDIR < /tmp/222 > /tmp/333
+cp /tmp/333  $TMP_FILES_PATH/tmp_mo
 
 $MY_PATH/morph/bin/join_split_wrds.pl < $TMP_FILES_PATH/tmp_mo_all | cut -f2 > $OUTFILE
 
@@ -43,5 +45,5 @@ paste $INFILE $OUTFILE $PRUNEOUT $KQWOUT| perl -pe 's/^\t//;s/^\t//;s/^\t//' > $
 mv $TMP_FILES_PATH/tmp_111 $INFILE
 
 #if [ $DEBUG = "OFF" ]; then
-rm $TMP_FILES_PATH/tmp_mo_all $TMP_FILES_PATH/tmp_mo
+#rm $TMP_FILES_PATH/tmp_mo_all $TMP_FILES_PATH/tmp_mo
 #fi
