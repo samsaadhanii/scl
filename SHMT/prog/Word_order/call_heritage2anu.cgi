@@ -46,6 +46,7 @@ read(STDIN, $b, $ENV{'CONTENT_LENGTH'});
 #foreach my $p (sort keys %param){
 #    if($p eq "DISPLAY") { $display = $param{$p};}
 #    else {$buffer .= $param{$p};}
+#    $buffer = "";
     $display = $param{DISPLAY};
     my $hash_count = keys %param;
     for (my $i = 1; $i <= $hash_count; $i++) {
@@ -65,7 +66,8 @@ if($display eq "") { $display = "DEV";}
 #system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/Heritage_anu_skt_hnd.sh in$pid $GlblVar::TFPATH $display Full Prose NOECHO ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
 system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/Heritage_anu_skt_hnd.sh in$pid $GlblVar::TFPATH $display Full Sloka NOECHO ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
  #system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/Heritage_anu_skt_hnd.sh in$pid $GlblVar::TFPATH $display Full Sloka NOECHO ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
-
+system("cut -f4 $GlblVar::TFPATH/tmp_in$pid/in$pid.out | tr '\n' ' ' > $GlblVar::TFPATH/tmp_in$pid/wor.$pid");
+system("echo -n \"<s> \"> $GlblVar::TFPATH/in$pid; cat $GlblVar::TFPATH/tmp_in$pid/wor.$pid >> $GlblVar::TFPATH/in$pid; echo \"<\/s>\" >> $GlblVar::TFPATH/in$pid");
  system("$GlblVar::SCLINSTALLDIR/SHMT/prog/interface/display_anu_out.pl $pid $GlblVar::TFPATH");
 # system("$GlblVar::SCLINSTALLDIR/SHMT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $display $pid");
 
