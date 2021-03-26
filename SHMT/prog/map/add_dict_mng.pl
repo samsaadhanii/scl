@@ -186,7 +186,7 @@ while($tmpin = <STDIN>){
        $key = $kqw_pratipadika."_".$lifgam;
 
        $map_rt = &get_dict_mng($key, $rNOUN);
-       if($samAsa_pUrvapaxa) { $map_rt = $samAsa_pUrvapaxa.$map_rt;}
+       #if($samAsa_pUrvapaxa) { $map_rt = $samAsa_pUrvapaxa.$map_rt;}
        if($NOUN{$key} ne "") {
           $cat = "n";
 

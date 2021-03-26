@@ -2411,7 +2411,8 @@ value rlupapaxa m1 m2 text_type = match m2 with
                    "suKam" | "svAhA" | "svaswi" | "svaXA" | "vaRat"  ->
                     [Relation (id1,mid1,"prayojanam",id2,mid2,"17.16b")]
                  | "namaH" ->
-                    [Relation (id1,mid1,"karma",id2,mid2,"17.17")]
+                    [Relation (id1,mid1,"prayojanam",id2,mid2,"17.17")]
+                    (*Sanjeev proposed karma relation; Pavan proposed prayojanam; karma is changed to prayojanam; 21 Mar 2021 *)
                  | _ -> []
                  ]
         | 5 -> match word2 with
