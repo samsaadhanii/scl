@@ -202,7 +202,7 @@ Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
             <xsl:text disable-output-escaping="yes">" </xsl:text>
             <xsl:text disable-output-escaping="yes"> onmouseover="Tip('&lt;img src=/scl/SHMT/DEMO/tmp_anu_dir/</xsl:text>
 	    <xsl:value-of select="$fig_sent_name"/> 
-            <xsl:text disable-output-escaping="yes">.svg &gt;' ,FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true)" onmouseout="UnTip()"&gt;</xsl:text>
+            <xsl:text disable-output-escaping="yes">.svg &gt;' ,FONTSIZE,'18pt',HEIGHT,400,WIDTH,600,STICKY,true,CLOSEBTN,true)" onmouseout="UnTip()"&gt;</xsl:text>
 	    </xsl:if>
             <xsl:if test="$row_no=1">
             <xsl:text disable-output-escaping="yes"> &lt;a href="/cgi-bin/scl/SHMT/prog/interface/call_parser_summary.cgi?filename=tmp_dir_scrpt&amp;rel=''&amp;sentnum=</xsl:text>
@@ -217,7 +217,7 @@ Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
             <xsl:text disable-output-escaping="yes"> onmouseover="Tip('&lt;img src=/scl/SHMT/DEMO/tmp_anu_dir/</xsl:text>
 	    <xsl:value-of select="$fig_parasent_name"/>
 	    <xsl:value-of select="$fig_ana_name"/>
-           <xsl:text disable-output-escaping="yes">.svg &gt;' ,FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true)" onmouseout="UnTip()"&gt;</xsl:text>
+           <xsl:text disable-output-escaping="yes">.svg &gt;' ,FONTSIZE,'18pt',HEIGHT,400,WIDTH,600,STICKY,true,CLOSEBTN,true)" onmouseout="UnTip()"&gt;</xsl:text>
 	    </xsl:if>
             <span Onclick="toggle();">
 	    <xsl:value-of select="$fig_sent_name" />
