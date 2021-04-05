@@ -112,18 +112,22 @@ while($in = <STDIN>){
         #print $sent, "\t",$PARSE{$sent}, "\t",$i,"\n";
         #print "w_ana 3 =",$w_ana[3], "\n";
         print $w_ana[0],"\t",$w_ana[1],"\t",$w_ana[2],"\t",$w_ana[3],"\t",$w_ana[4],"\t",$w_ana[5],"\t",$w_ana[6],"\t",$w_ana[7],"\t";
-        if($w_ana[7] =~ /-/) {
-           $w_ana[7] =~ s/^([^<]+)\-([^\-<]+)/$2/;
-           $samAsa_pUrvapaxa = $1;
-           $samAsa_pUrvapaxa =~ s/<[^>]+>//g;
-           $samAsa_pUrvapaxa =~ s/\/[^-]+//g;
+	#print "w_ana 7 = $w_ana[7]\n";
+        if($w_ana[7] =~ /\-/) {
+           if($w_ana[7] =~ s/^([^<]+)\-([^\-<]+)/$2/){
+              $samAsa_pUrvapaxa = $1;
+              $samAsa_pUrvapaxa =~ s/<[^>]+>//g;
+              $samAsa_pUrvapaxa =~ s/\/[^-]+//g;
+           } elsif ($w_ana[7] =~ /<kqw_pratipadika:([^>]+)>/) {
+                    $samAsa_pUrvapaxa = $1;
+	   }
         } else {$samAsa_pUrvapaxa = "";}
-        #print "s pU = $samAsa_pUrvapaxa\n";
+	#print "s pU = $samAsa_pUrvapaxa\n";
         #print "w ana = $w_ana[6]\n";
         $w_ana[7] =~ s/\/[a-zA-Z]+<vargaH:sa\-u\-pa\-[^>]+>[^\/]+<level:0>//g;
         $w_ana[7] =~ s/^[a-zA-Z]+<vargaH:sa\-u\-pa\-[^>]+>[^\/]+<level:0>//g;
         $w_ana[7] =~ s/^\///;
-        if($samAsa_pUrvapaxa ne "") { print $samAsa_pUrvapaxa,"-";}
+        if($samAsa_pUrvapaxa ne "") { print $samAsa_pUrvapaxa."-";}
         @mo_ana = split(/\//,$w_ana[7]);
         $ana_count = 0;
         $found=0; 
