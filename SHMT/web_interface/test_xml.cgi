@@ -84,6 +84,8 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
       } else {
          if(-d "$GlblVar::TFPATH/tmp_in$pid") {
             system("rm -rf $GlblVar::TFPATH/tmp_in$pid");
+            system("rm -f $GlblVar::TFPATH/in$pid.html");
+            system("rm -f $GlblVar::TFPATH/in$pid_trnsltn");
          }
          system("mkdir -p $GlblVar::TFPATH/tmp_in$pid");
          open(TMP,">$GlblVar::TFPATH/tmp_in$pid/wor.$pid") || die "Can't open $GlblVar::TFPATH/tmp_in$pid/wor.$pid for writing";

@@ -75,7 +75,7 @@ else
 #     /usr/bin/time -f "%Uuser %Ssystem %Eelapsed %PCPU (%Xtext+%Ddata %Mmax)k\n%Iinputs+%Ooutputs (%Fmajor+%Rminor)pagefaults %Wswaps %C\n" 
 #cp $temp_files_path/$fbn.out $temp_files_path/$fbn.pre_parse_out
 $ANU_MT_PATH/kAraka/shabdabodha.sh $SCLINSTALLDIR $GraphvizDot $Heritage_Input $temp_files_path $fbn.out $fbn.kAraka $OUTSCRIPT $PARSE $TEXT_TYPE $ECHO 
-#cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
+cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
  fi  # PARSE != AVAILABLE ends here
 #
 ###########
@@ -103,8 +103,8 @@ $ANU_MT_PATH/kAraka/shabdabodha.sh $SCLINSTALLDIR $GraphvizDot $Heritage_Input $
     $ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $SHMT_PATH/data ONE |\
     $ANU_MT_PATH/map/lwg_avy_avy.pl $SCLINSTALLDIR $SHMT_PATH/data hi  |\
     $ANU_MT_PATH/hnd_sent_gen/agreement.pl $SCLINSTALLDIR $SHMT_PATH/data $ANU_MT_PATH/hnd_sent_gen |\
-    $ANU_MT_PATH/hnd_sent_gen/call_gen.pl $SCLINSTALLDIR  > $temp_files_path/ttt1
-    $ANU_MT_PATH/interface/modify_mo_for_display.pl $SCLINSTALLDIR < $temp_files_path/ttt1 > $temp_files_path/ttt
+    $ANU_MT_PATH/hnd_sent_gen/call_gen.pl $SCLINSTALLDIR  |\
+    $ANU_MT_PATH/interface/modify_mo_for_display.pl $SCLINSTALLDIR  > $temp_files_path/ttt
     cp $temp_files_path/ttt $temp_files_path/$fbn.out
 #
 ##########

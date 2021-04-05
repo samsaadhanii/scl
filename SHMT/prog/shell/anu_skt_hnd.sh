@@ -119,18 +119,21 @@ $ANU_MT_PATH/morph/morph.sh $SCLINSTALLDIR $temp_files_path/$fbn.out $temp_files
 #     /usr/bin/time -f "%Uuser %Ssystem %Eelapsed %PCPU (%Xtext+%Ddata %Mmax)k\n%Iinputs+%Ooutputs (%Fmajor+%Rminor)pagefaults %Wswaps %C\n" 
 $ANU_MT_PATH/kAraka/shabdabodha.sh $SCLINSTALLDIR $GraphvizDot $Heritage_Input $temp_files_path $fbn.out $fbn.kAraka $OUTSCRIPT $PARSE $TEXT_TYPE $ECHO 
 cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
+#echo "within Parse" > /tmp/aaa
  fi  # PARSE != AVAILABLE ends here
 #
 ###########
 # anaphora in the 11th field
+#echo "calling Anaphora" >> /tmp/aaa
      $ANU_MT_PATH/anaphora/anaphora.pl $SCLINSTALLDIR $ANU_MT_PATH/anaphora < $temp_files_path/$fbn.out > $temp_files_path/tmp
      mv $temp_files_path/tmp $temp_files_path/$fbn.out
-#    cp $temp_files_path/tmp $temp_files_path/$fbn.out
 
 
 ############
 # wsd in the 12th field
+    cp $temp_files_path/$fbn.out $temp_files_path/$fbn.pre_wsd
     $ANU_MT_PATH/wsd/wsd_rules.sh $SCLINSTALLDIR $temp_files_path $fbn.out $fbn.wsd $fbn.wsd_upapaxa
+    cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_wsd
 #    if [ $DEBUG = "OFF" ]; then 
 #      rm $temp_files_path/$fbn.wsd $temp_files_path/$fbn.wsd_upapaxa
 #    fi
@@ -140,15 +143,17 @@ cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
 # Chunk/LWG in the 14th field
 # map o/p in the 15th field and lwg o/p in 16th field
 # gen o/p in the 17th field
+    cp $temp_files_path/$fbn.out $temp_files_path/$fbn.pre_final_out
     $ANU_MT_PATH/interface/add_colorcode.pl < $temp_files_path/$fbn.out |\
-    $ANU_MT_PATH/chunker/lwg.pl  |\
-    $ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $SHMT_PATH/data hi  |\
-    $ANU_MT_PATH/map/lwg_avy_avy.pl $SCLINSTALLDIR $SHMT_PATH/data hi   |\
+    $ANU_MT_PATH/chunker/lwg.pl  > /tmp/111
+    $ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $SHMT_PATH/data hi  </tmp/111 > /tmp/222
+    $ANU_MT_PATH/map/lwg_avy_avy.pl $SCLINSTALLDIR $SHMT_PATH/data hi   < /tmp/222 |\
     #$ANU_MT_PATH/hnd_sent_gen/agreement.pl $SCLINSTALLDIR $SHMT_PATH/data $ANU_MT_PATH/hnd_sent_gen D |\
     $ANU_MT_PATH/hnd_sent_gen/agreement.pl $SCLINSTALLDIR $SHMT_PATH/data $ANU_MT_PATH/hnd_sent_gen |\
-    $ANU_MT_PATH/hnd_sent_gen/call_gen.pl $SCLINSTALLDIR |\
+    $ANU_MT_PATH/hnd_sent_gen/call_gen.pl $SCLINSTALLDIR  |\
     $ANU_MT_PATH/interface/modify_mo_for_display.pl $SCLINSTALLDIR > $temp_files_path/ttt
     mv $temp_files_path/ttt $temp_files_path/$fbn.out
+    #cp $temp_files_path/ttt $temp_files_path/$fbn.out
 #
 ##########
     $ANU_MT_PATH/translation/translate.sh $SCLINSTALLDIR $my_converter_wxHindi < $temp_files_path/$fbn.out > $temp_files_path/../$3_trnsltn
@@ -185,6 +190,8 @@ $ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out | $my_conve
 #unoconv -f xlsx -i FilterOptions=9,34,76 table.csv
 $ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table.csv $temp_files_path/table.xlsx
 #if [ $DEBUG = "OFF" ]; then 
-rm -rf $temp_files_path/tmp* $temp_files_path/in* $temp_files_path/wsd_files
+#rm -rf $temp_files_path/tmp* 
+#$temp_files_path/wsd_files
+#rm -rf $temp_files_path/tmp* $temp_files_path/in* $temp_files_path/wsd_files
 #fi
 fi
