@@ -60,11 +60,12 @@ read(STDIN, $b, $ENV{'CONTENT_LENGTH'});
  system("mkdir -p $GlblVar::TFPATH/tmp_in$pid");
 
  system("echo '$buffer' | $GlblVar::SCLINSTALLDIR/SHMT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $GlblVar::SCLINSTALLDIR > $GlblVar::TFPATH/tmp_in$pid/in$pid.out");
+ system("cp $GlblVar::TFPATH/tmp_in$pid/in$pid.out $GlblVar::TFPATH/tmp_in$pid/in$pid.out.orig");
 
 if($display eq "") { $display = "DEV";}
 
 #system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/Heritage_anu_skt_hnd.sh in$pid $GlblVar::TFPATH $display Full Prose NOECHO ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
-system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/Heritage_anu_skt_hnd.sh in$pid $GlblVar::TFPATH $display Full Sloka NOECHO ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
+system("timeout 3m $GlblVar::SCLINSTALLDIR/SHMT/prog/shell/Heritage_anu_skt_hnd.sh in$pid $GlblVar::TFPATH $display Full Sloka NOECHO ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
  #system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/Heritage_anu_skt_hnd.sh in$pid $GlblVar::TFPATH $display Full Sloka NOECHO ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
 system("cut -f4 $GlblVar::TFPATH/tmp_in$pid/in$pid.out | tr '\n' ' ' > $GlblVar::TFPATH/tmp_in$pid/wor.$pid");
 system("echo -n \"<s> \"> $GlblVar::TFPATH/in$pid; cat $GlblVar::TFPATH/tmp_in$pid/wor.$pid >> $GlblVar::TFPATH/in$pid; echo \"<\/s>\" >> $GlblVar::TFPATH/in$pid");
