@@ -697,3 +697,4 @@ zsanwuRtaH	wuR1<upasarga:sam><kqw_prawyayaH:kwa><XAwuH:wuRaz><gaNaH:xivAxiH>sanw
 XanavaxByaH	Xana<vargaH:nA><waxXiwa_prawyayaH:mawup><lifgam:puM><viBakwiH:4><vacanam:bahu><level:3>/Xana<vargaH:nA><waxXiwa_prawyayaH:mawup><lifgam:puM><viBakwiH:5><vacanam:bahu><level:3>/Xana<vargaH:nA><waxXiwa_prawyayaH:mawup><lifgam:napuM><viBakwiH:4><vacanam:bahu><level:3>/Xana<vargaH:nA><waxXiwa_prawyayaH:mawup><lifgam:napuM><viBakwiH:5><vacanam:bahu><level:3>
 yawawAm	<kqw_vrb_rt:yaw1><kqw_prawyayaH:Sawq_lat><XAwuH:yawIz><gaNaH:BvAxiH>yawaw<vargaH:nA><lifgam:puM><viBakwiH:6><vacanam:bahu><level:1>
 prayuyuje	yuj2<upasarga:pra><prayogaH:karwari><lakAraH:lit><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:yujizr><gaNaH:ruXAxiH><level:1>
+gurutvena	gurutva<vargaH:nA><lifgam:napuM><viBakwiH:3><vacanam:eka><level:1>
