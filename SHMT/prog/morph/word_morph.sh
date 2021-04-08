@@ -31,7 +31,7 @@ $SCLINSTALLDIR/SHMT/prog/morph/bin/split-samAsa-wrds.pl $TMP_FILES_PATH/tmpall $
 #/usr/bin/time -f "%Uuser %Ssystem %Eelapsed %PCPU (%Xtext+%Ddata %Mmax)k\n%Iinputs+%Ooutputs (%Fmajor+%Rminor)pagefaults %Wswaps %C\n" 
 $LTPROCBIN -c $BIN_PATH/samAsa_upaxa.bin < $TMP_FILES_PATH/tmpupaxa | perl -pe 's/\//=/;s/^.*=\*.*//;s/.*=//;s/^^//;s/\$$//;' > $TMP_FILES_PATH/tmp_n1
 $LTPROCBIN -c $BIN_PATH/samboXana.bin < $TMP_FILES_PATH/tmpsamb | perl -pe 's/\//=/;s/^.*=\*.*//;s/.*=//;s/^^//;s/\$$//' > $TMP_FILES_PATH/tmp_n2
-$LTPROCBIN -c $BIN_PATH/all_but_samboXana_morf.bin < $TMP_FILES_PATH/tmpany | perl -pe 's/\//=/;s/^.*=\*.*//;s/.*=//;s/^^//;s/\$$//;s/[a-zA-Z]+<vargaH:sa-pU-pa><lifgam:[^>]+><level:0>//g;s/>([a-zA-Z]+)</><kqw_pratipadika:\1></g;' > $TMP_FILES_PATH/tmp_n3
+$LTPROCBIN -c $BIN_PATH/all_but_samboXana_morf.bin < $TMP_FILES_PATH/tmpany | perl -pe 's/\//=/;s/^.*=\*.*//;s/.*=//;s/^^//;s/\$$//;s/[a-zA-Z]+<vargaH:sa-pU-pa><lifgam:[^>]+><level:[02]>//g;s/[a-zA-Z]+[^\/]+<vargaH:sa-pU-pa><level:[02]>//g;s/>([a-zA-Z]+)</><kqw_pratipadika:\1></g;' > $TMP_FILES_PATH/tmp_n3
 
 paste -d'/' $TMP_FILES_PATH/tmp_n3 $TMP_FILES_PATH/tmp_n2 $TMP_FILES_PATH/tmp_n1 | perl -pe 's/\/\//\//g;' > $TMP_FILES_PATH/tmp_n
 
