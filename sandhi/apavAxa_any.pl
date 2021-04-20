@@ -37,12 +37,12 @@ sub apavAdaniyamAH{
  $cont = 1;
 $an =~ /^([^\+]+)\+(.*)/;
 $first = $1; $second = $2;
-if ($second =~ /^A/ && `echo "$second" | $LTPROCBIN -c $SCLINSTALLDIR/morph_bin/skt_morf.bin | grep 'upasarga:Af'`) { 
+if ($second =~ /^A/ && `echo "$second" | $LTPROCBIN -c $SCLINSTALLDIR/morph_bin/all_morf.bin | grep 'upasarga:Af'`) { 
    if($an=~/^(.*)[aA]\+(.*)/) {$ans = "$1$2";$ans1="pararUpa";$ans2="omAfoSca(6.1.95)"; $cont = 0;} # To do: show morph analysis in a tooltip
 }
 else {
    if ($first =~ /[IUe]$/) {
-   @ans = split(/\//,`echo "$first" | $LTPROCBIN -c $SCLINSTALLDIR/scl/morph_bin/skt_morf.bin`);
+   @ans = split(/\//,`echo "$first" | $LTPROCBIN -c $SCLINSTALLDIR/scl/morph_bin/all_morf.bin`);
      for ($i=1; $i<=$#ans && !$found;$i++){
        if($ans[$i] =~ /<vacanam:2>/) { $found = 1;}
      }

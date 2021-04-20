@@ -56,7 +56,7 @@ untie(%LEX);
 sub shwMorph{
 my($word) = @_;
 $word =~ s/[^a-zA-Z]//g;
-$result = `echo $word | $GlblVar::LTPROCBIN -c $GlblVar::SCLINSTALLDIR/morph_bin/skt_morf.bin`;
+$result = `echo $word | $GlblVar::LTPROCBIN -c $GlblVar::SCLINSTALLDIR/morph_bin/all_morf.bin`;
 $result=~ s/\^|\$//g;
 $result=~ s/\//#/g;
 @flds=split(/#/,$result);
