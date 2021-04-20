@@ -39,7 +39,7 @@ $encod = $param{outencoding};
 print "<html><head>
 <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"/>
 <script type=\"text/javascript\" src=\"/scl/js_files/jquery.tools.min.js\"></script>
-<script type=\"text/javascript\" src =\"/scl/SHMT/option.js\"></script>
+<script type=\"text/javascript\" src =\"/scl/SHMT/dict_options.js\"></script>
 <style type=\"text/css\"> #apte{font:22px bold sans-serif;width:100%;background:#333;color:#fff;}</style>
 <style type=\"text/css\"> #mw{font:22px bold sans-serif;width:100%;background:#333;color:#fff;}</style>
 <style type=\"text/css\"> #amara{font:22px bold sans-serif;width:100%;background:#333;color:#fff;}</style>
@@ -54,7 +54,7 @@ window.open('/cgi-bin/scl/amarakosha/noun_gen.cgi?encoding='+encod+'&rt='+prAwi+
 	print "<input type=\"hidden\" name=\"word\" value=\"$word\" id=\"word\"/>\n";
 	print "<input type=\"hidden\" name=\"outencoding\" value=\"$encod\" id=\"outencoding\"/>\n";
         print "<table cellpadding=\"4\"><tr>\n";
-        print "<td>Amarakosha<input type=\"checkbox\" name=\"Amara\" id=\"amara\" value=\"amara\" onclick=\"showcontent(this.value)\"/></td>\n";
+	print "<td>Amarakosha<input type=\"checkbox\" name=\"Amara\" id=\"amara\" value=\"amara\" onclick=\"showcontent(this.value)\"/></td>\n";
         print "<td>Apte-dic<input type=\"checkbox\" onclick=\"showcontent(this.value)\"  name=\"apte\" value=\"apte\" id=\"apte\"/></td>\n";
 	print "<td>MW-dic<input type=\"checkbox\" name=\"mw\" id=\"mw\" value=\"mw\" onclick=\"showcontent(this.value)\"/></td>\n";
 	print "<td>Heritage<input type=\"checkbox\" name=\"heritage\" id=\"heritage\" value=\"heritage\" onclick=\"showcontent(this.value)\"/></td>\n";
