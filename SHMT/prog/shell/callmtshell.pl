@@ -48,6 +48,8 @@
   close(TMP1);
      `date > $tmp_file_path/tmp_in$pid/err$pid`;
      $cmd = " timeout 3m $SCLINSTALLDIR/SHMT/prog/shell/anu_skt_hnd.sh $SCLINSTALLDIR $GraphvizDot in$pid $tmp_file_path hi $script $sandhi $morph $parse $text_type NOECHO $LTPROCBIN D 2>> $tmp_file_path/tmp_in$pid/err$pid;";
-  system($cmd);
+     $exec_status = system($cmd);
      `date >> $tmp_file_path/tmp_in$pid/err$pid`;
      #system("rm $tmp_file_path/tmp_in$pid/err$pid");
+
+     if($exec_status > -1 ) { return 0;}
