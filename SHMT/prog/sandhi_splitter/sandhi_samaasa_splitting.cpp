@@ -70,7 +70,7 @@ int main(int argc,char *argv[])
 		printf("-b for considering both sandhi and samaasa\n");
 		exit(1);
 	}
-	int MAX_LENGTH=1000,tot_freq=0,initial=0,final=0;
+	int MAX_LENGTH=40,tot_freq=0,initial=0,final=0;
 	string sym,input,sandhi;
 	char line[MAX_LENGTH],line2[MAX_LENGTH],*p,*q,*r,*s;
 	map < char, vector <string> > rules;
