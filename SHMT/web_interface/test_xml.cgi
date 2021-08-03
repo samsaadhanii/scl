@@ -18,6 +18,7 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 use utf8;
+use Fcntl ':flock'; 
 require "../paths.pl";
 require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 
@@ -82,6 +83,13 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 	 #print CGI-> redirect($cmd);
 	 print "location:$cmd\n\n";
       } else {
+	      my $q_id = &get_queue_id;
+	      $cpid = &get_curr_id;
+	      if ($cpid != $q_id) { 
+		      sleep(50);
+		      $cpid = &get_curr_id;
+	      }
+
          if(-d "$GlblVar::TFPATH/tmp_in$pid") {
             system("rm -rf $GlblVar::TFPATH/tmp_in$pid");
             system("rm -f $GlblVar::TFPATH/in$pid.html");
@@ -95,10 +103,70 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
          print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 	 #  print $cgi->header (-charset => 'UTF-8');
            $sentences = '"'. $sentences  . '"';
-           system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/callmtshell.pl $GlblVar::TFPATH $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot $sentences $encoding $pid $script $sandhi $morph $parse $text_type $GlblVar::LTPROCBIN");
+           my $exit_status = system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/callmtshell.pl $GlblVar::TFPATH $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot $sentences $encoding $pid $script $sandhi $morph $parse $text_type $GlblVar::LTPROCBIN");
+
+	    if($exit_status > -1) {
+	         &increment_curr_id;
+            }
+
            system("$GlblVar::SCLINSTALLDIR/SHMT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $script $pid");
       }
       #  }
   if($GlblVar::VERSION eq "SERVER") {
     close(TMP1);
+  }
+
+
+  sub get_queue_id {
+	  my $p = 1;
+	  if (-r "/tmp/QUEUE_PID_SCL") {
+	      open (TMP,"</tmp/QUEUE_PID_SCL")  || die "Could not open /tmp/QUEUE_PID_SCL - $!";;
+	      flock(TMP,LOCK_EX);
+	      $p = <TMP>;
+	      chomp($p);
+	      close(TMP);
+	      open (TMP,">/tmp/QUEUE_PID_SCL") ;
+	      flock(TMP,LOCK_EX);
+	      $p++;
+	      print TMP $p;
+	      close(TMP);
+          } else {
+	      open (TMP,">/tmp/QUEUE_PID_SCL") ;
+	      flock(TMP,LOCK_EX);
+	      print TMP $p;
+	      close(TMP);
+	  }
+	  $p;
+  }
+    
+  sub increment_curr_id {
+          my($p);
+	  open (TMP,"</tmp/CURR_PID_SCL")  || die "Could not open /tmp/CURR_PID_SCL - $!";;
+	  flock(TMP,LOCK_SH);
+	  $p = <TMP>;
+	  chomp($p);
+	  close(TMP);
+	  $p++;
+	  open (TMP,">/tmp/CURR_PID_SCL")  || die "Could not open /tmp/CURR_PID_SCL - $!";;
+	  flock(TMP,LOCK_EX);
+	  print TMP $p;
+	  close(TMP);
+  }
+
+  sub get_curr_id {
+	  my($p);
+	  $p = 1;
+	  if (-r "/tmp/CURR_PID_SCL") {
+	  open (TMP,"</tmp/CURR_PID_SCL")  || die "Could not open /tmp/CURR_PID_SCL - $!";;
+	  flock(TMP,LOCK_SH);
+	  $p = <TMP>;
+	  chomp($p);
+	  close(TMP);
+          } else {
+	      open (TMP,">/tmp/CURR_PID_SCL") ;
+	      flock(TMP,LOCK_EX);
+	      print TMP $p;
+	      close(TMP);
+	  }
+	  $p;
   }
