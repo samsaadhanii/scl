@@ -19,7 +19,7 @@ Ex: ekaxA yaxA .. waxA *)
 ;
 value multiple_relations_end = 41 (* inclusive *)
 ;
-value max_rels = 1000 (* Max relations in a sentence *)
+value max_rels = 300 (* Max relations in a sentence *)
 ;
 value compatible_relations = Array.make max_rels []
 ;
@@ -115,6 +115,7 @@ value print_relation r = match r with
     ; print_int (i2-1); print_string ","
     ; if (i3 >= 2000) then print_int (i3 - (i3 mod 100)) 
       else if (i3 = 1009) then print_int 9 
+      else if (i3 = 1079) then print_int 79 
       (* else if (i3 = 64) || (i3 = 65) (* samuccayaxyowaka,sup_samuccayaxyowaka *)
       then print_int 1
       else if (i3 = 66) || (i3 = 67) (* anyawaraxyowaka,sup_anyawaraxyowaka *)
@@ -648,6 +649,7 @@ value rec add_cost text_type acc rels = fun
        [ Relationc (a1,b1,rel,a2,b2) -> let res = 
             if rel=2 then 0
             else if rel=1001 then 0 (* wIvrawAxarSI *)
+            else if rel=1079 then 79 (* wIvrawAxarSI *)
             else if rel=64 then 0 (* samuccayaxyowaka *)
             else if rel=65 then 0 (* sup_samuccayaxyowaka *)
             else if rel=66 then 0 (* anyawaraxyowaka *)

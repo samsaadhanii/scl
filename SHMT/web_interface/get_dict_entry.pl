@@ -63,10 +63,13 @@ if($dic_name eq "apte"){
 elsif($dic_name eq "heritage"){
         $sword =~ s/_//;
         $word_wx =~ s/_//;
+	#print "word = $word_wx\n";
 	$l = &get_Heritage_Index($word_wx);
+	#print "index = $l\n";
 	if($l eq "") {
-           print "\n$sword not found in ";
+           print "<br/> $sword not found in ";
            print "Heritage Sanskrit-French dictionary\n";
+	   $filename = "";
         } else {
 	   $filename = "$Files_Path/fr/Heritage/$l.html";
         }
@@ -78,8 +81,7 @@ elsif($dic_name eq "mw"){
 }
 
 if($sword ne ""){
-   $word_wx =~ /^(.)/; $l = $1;
-   if($dic_name ne "amara") {
+   if (($dic_name ne "amara") && ($filename ne "")){
 	  open(TMP,"$filename") || die print "$filename does not exist";
    }
 }
@@ -101,8 +103,8 @@ $result = "";
 close(TMP);
 
 $result;
-};
-
+}
+1;
 
 sub apte_result{
 	my($sword) = @_;
@@ -177,6 +179,7 @@ sub heritage_result{
 	}
 $result;
 }
+1;
 
 # Following code corresponds to the Ocaml code ML/Chapters.ml
 sub get_Heritage_Index {
@@ -241,6 +244,7 @@ sub get_Heritage_Index {
 	elsif ($w =~ /^P/) { $index = "45";}
 	elsif ($w =~ /^ba[kKgGfcCjJFtTdDNwWxXnpPbBmyr]/) { $index = "45";}
 	elsif ($w =~ /^ba[lvSRsh]/) { $index = "46";}
+	elsif ($w =~ /^b[^a]/) { $index = "46";}
 	elsif ($w =~ /^B[aAiIuUqQ]/) { $index = "47";}
 	elsif ($w =~ /^B[^aAiIuUqQ]/) { $index = "48";}
 	elsif ($w =~ /^ma[kKgGfcCjJFtTdDNwWxX]/) { $index = "48";}
@@ -278,3 +282,4 @@ sub get_Heritage_Index {
 	elsif ($w =~ /^h/) { $index = "73";}
 	$index;
 }
+1;

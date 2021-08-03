@@ -120,7 +120,7 @@ while($in = <STDIN>){
               $samAsa_pUrvapaxa =~ s/\/[^-]+//g;
            } elsif ($w_ana[7] =~ /<kqw_pratipadika:([^>]+)>/) {
                     $samAsa_pUrvapaxa = $1;
-	   }
+	   } else {$samAsa_pUrvapaxa = "";}
         } else {$samAsa_pUrvapaxa = "";}
 	#print "s pU = $samAsa_pUrvapaxa\n";
         #print "w ana = $w_ana[6]\n";

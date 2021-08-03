@@ -170,7 +170,7 @@ while($tmpin = <STDIN>){
        if($map_rt =~ /(.*):(.*)/) { $map_rt = $1; $hn_lifga = &get_skt_hn_lifga($2);}
        $map_viBakwi = &get_dict_mng($viBakwi, $rTAM);
 
-       if($samAsa_pUrvapaxa) { $map_rt = $samAsa_pUrvapaxa.$map_rt;}
+       if($samAsa_pUrvapaxa ne "") { $map_rt = $samAsa_pUrvapaxa.$map_rt;}
       
        $hn_lifga = &get_hn_P_lifga($map_rt,$lifga);
        $hn_vacana = &get_hn_vacana($vacana);

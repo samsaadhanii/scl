@@ -52,4 +52,4 @@
      `date >> $tmp_file_path/tmp_in$pid/err$pid`;
      #system("rm $tmp_file_path/tmp_in$pid/err$pid");
 
-     if($exec_status > -1 ) { return 0;}
+     if($exec_status > -1 ) { exit 0;}

@@ -66,6 +66,7 @@ kwavawu,yA
 kwavawu_fin,yA
 Sawq,wA_huA
 wasil,se
+wal,wA
 SAnac,wA_huA
 SAnac_lat,wA_huA
 wumun,nA~ke_liye

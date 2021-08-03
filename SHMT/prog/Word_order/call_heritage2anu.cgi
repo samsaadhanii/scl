@@ -46,7 +46,7 @@ read(STDIN, $b, $ENV{'CONTENT_LENGTH'});
 #foreach my $p (sort keys %param){
 #    if($p eq "DISPLAY") { $display = $param{$p};}
 #    else {$buffer .= $param{$p};}
-#    $buffer = "";
+    $buffer = "";
     $display = $param{DISPLAY};
     my $hash_count = keys %param;
     for (my $i = 1; $i <= $hash_count; $i++) {

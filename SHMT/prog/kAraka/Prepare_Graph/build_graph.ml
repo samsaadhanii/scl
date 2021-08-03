@@ -1216,7 +1216,7 @@ But in grAmam gawaH xevaxawwaH puswakaM paTawi, here xevaxawwa should not be mar
                       (*3-4-71 wayoreva kqwykwaKalarWAH rAmeNa granWaH paTiwaH *)
                    else if    members_of rt2 upasarga2 xvikarmaka1   
                            || members_of rt2 upasarga2 xvikarmaka2   
-                   then [ Relation (id1,mid1,"karma",id2,mid2,"2.3")]  
+                   then [ Relation (id1,mid1,"muKyakarma",id2,mid2,"2.3")]  
                    else []
                    else []
                    (* Do not mark karma, this is samAnAXikarNa
@@ -2238,9 +2238,12 @@ value rlavy_viSeRaNam m1 m2 text_type = match m2 with
   | Kqw (id2,mid2,_,_,_,_,_,_,_,_,rt2,_,_,lifgam2,viBakwiH2,vacanam2,_)
   | WaxXiwa (id2,mid2,_,rt2,_,_,_,lifgam2,viBakwiH2,vacanam2,_) -> 
      match m1 with
-     [ Avy (id1,mid1,word1,_,_,_,_) ->
+     [ Avy (id1,mid1,word1,_,_,uwwarapaxa1,_) ->
        (*if id1=previous id2 && member_of word1 avy_viSeRaNam_list*)
              (*  changed to id1 < id2 for handling kimapi safkRipwam SAswram *)
+       if uwwarapaxa1="iva" && id1 = id2-1
+       then [ Relation (id1,mid1,"upamAnam_rahiwa_upamAnaxyowaka",id2,mid2,"13.1a")]
+       else
        if id1 < id2 && member_of word1 avy_viSeRaNam_list
        then [ Relation (id1,mid1,"viSeRaNam",id2,mid2,"13.1")]
        else if id1=previous id2 && member_of word1 intensifiers_list && not (pronominal123 rt2)
@@ -2371,7 +2374,7 @@ value rlupapaxa m1 m2 text_type = match m2 with
       | Kqw (id1,mid1,_,_,_,_,_,_,_,_,rt1,_,_,_,viBakwiH1,_,_)
       | WaxXiwa (id1,mid1,_,rt1,_,_,_,_,viBakwiH1,_,_) ->
          if   (id1=previous id2 || id1 = id2-2 (* to handle 'rAmeNa ca saha *)
-               || (id1=next id2  && text_type = "Sloka") || ((word2="hA" || word2 = "Xik") && id1=next id2))
+               || (id1=next id2  && text_type = "Sloka") || ((word2="hA" || word2 = "Xik") && id1=next id2) || ((word2="alam") && id1=next id2))
          then match viBakwiH1 with
          [ 2  -> match word2 with
                  [ "aBiwaH" | "pariwaH" | "nikaRA" | "samayA" 
@@ -2399,7 +2402,7 @@ value rlupapaxa m1 m2 text_type = match m2 with
                     [Relation (id1,mid1,"viRayAXikaraNam",id2,mid2,"17.12")]
                  | _ -> match word2 with
                     [ "alam" ->
-                      [Relation (id1,mid1,"upa_prawisixXaH",id2,mid2,"17.14")]
+                      [Relation (id2,mid2,"prawiReXaH",id1,mid1,"17.14")]
                     | _ -> []
                     ]
                  ]
@@ -2612,7 +2615,7 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
                      ]
                else []
              |_ -> []
-             ]
+             ]  (* What is the example? *)
 	   | "aXaswAw" | "puraswAw" | "paraswAw" | "avaraswAw" | "aXaH" |
              "uwwarawaH" | "xakRiNawaH" | "avaH" | "parawaH" | 
              "avarawaH" | "puraH" | "purawaH" | "pqRTawaH" | "upari" | "upariRtAw" | "paScAw" | 

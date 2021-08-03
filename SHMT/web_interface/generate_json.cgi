@@ -31,6 +31,7 @@ my %param = &get_parameters("nodecode");
 
 my $word = $param{word};
 
+print "Content-type:text/html;charset:UTF-8\n\n";
 print "[\n";
 &call_dict("apte",$word);
 &call_dict("mw",$word);
@@ -43,19 +44,19 @@ sub call_dict{
 
         print "{\"Word\":\"$word\",\n";
         if($dict eq "apte") {
-           print "{\"DICT\":\"Apte's Skt-Hnd Dict\",\n";
+           print "\"DICT\":\"Apte's Skt-Hnd Dict\",\n";
            $result = &get_dict_entry("apte",$word,"DEV");
-           print "{\"Meaning\":\"$result\"},\n";
+           print "\"Meaning\":\"$result\"},\n";
         }
         if($dict eq "mw") {
-           print "{\"DICT\":\"Monier Williams' Skt-Eng Dict\",\n";
+           print "\"DICT\":\"Monier Williams' Skt-Eng Dict\",\n";
            $result = &get_dict_entry("mw",$word,"DEV");
-           print "{\"Meaning\":\"$result\"},\n";
+           print "\"Meaning\":\"$result\"},\n";
         }
         if($dict eq "heritage") {
-           print "{\"DICT\":\"Heritage Skt-French Dict\",\n";
+           print "\"DICT\":\"Heritage Skt-French Dict\",\n";
            $result = &get_dict_entry("heritage",$word,"DEV");
-           print "{\"Meaning\":\"$result\"}\n";
+           print "\"Meaning\":\"$result\"}\n";
         }
 }
 1;
