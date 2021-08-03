@@ -151,10 +151,10 @@ ANALYSIS:
 7 kIrwiwAH
 
 
-SENT: ahaM buxX_vA vakRyAmi
+SENT: ahaM buxXvA vakRyAmi
 ANALYSIS:
 1 ahaM karwA 3
-2 buxX_vA pUrvakAlaH 3
+2 buxXvA pUrvakAlaH 3
 3 vakRyAmi
 
 
@@ -847,12 +847,12 @@ ANALYSIS:
 12 jahAra
 
 
-SENT: gqXraM ca nihawaM xqRt_vA mEWilIM ca hqwAM SruwvA SokasanwapwaH AkulenxriyaH rAGavaH vilalApa
+SENT: gqXraM ca nihawaM xqRtvA mEWilIM ca hqwAM SruwvA SokasanwapwaH AkulenxriyaH rAGavaH vilalApa
 ANALYSIS:
 1 gqXraM viSeRaNam 3
 2 ca pUrvakAlaH 12
 3 nihawaM karma 4
-4 xqRt_vA samucciwam 2
+4 xqRtvA samucciwam 2
 5 mEWilIM viSeRaNam 7
 6 ca pUrvakAlaH 12
 7 hqwAM karma 8
@@ -1592,15 +1592,15 @@ ANALYSIS:
 6 Asan prawiyogI 4
 
 
-SENT: mahAyaSAH rAGavaH aSvameXaSawEH bahusuvarNakEH iRt_vA gavAM kot_yayuwaM asaMKyeya XanaM (ca) vixvaxByaH brAhmaNeByaH viXiparvUkaM xawwvA rAjavaMSAn SawaguNAn sWApayiRyawi
+SENT: mahAyaSAH rAGavaH aSvameXaSawEH bahusuvarNakEH iRtvA gavAM kotyayuwaM asaMKyeya XanaM (ca) vixvaxByaH brAhmaNeByaH viXiparvUkaM xawwvA rAjavaMSAn SawaguNAn sWApayiRyawi
 ANALYSIS:
 1 mahAyaSAH viSeRaNam 2
 2 rAGavaH karwA 17
 3 aSvameXaSawEH karaNam 5
 4 bahusuvarNakEH viSeRaNam 3
-5 iRt_vA pUrvakAlaH 17
+5 iRtvA pUrvakAlaH 17
 6 gavAM samucciwam 10
-7 kot_yayuwaM viSeRaNam 9
+7 kotyayuwaM viSeRaNam 9
 8 asaMKyeya viSeRaNam 9
 9 XanaM samucciwam 10
 10 (ca) karma 14

@@ -1,4 +1,4 @@
-*SENT: xaSaraWasya AjFayA rAmaH vanam gacCawi
+SENT: xaSaraWasya AjFayA rAmaH vanam gacCawi
 ANALYSIS:
 1	xaSaraWasya	RaRTIsambanXaH,2
 2	AjFayA	hewuH,5
@@ -20,34 +20,34 @@ ANALYSIS:
 10	vanam	karma,11
 11	gacCawaH	
 
-*SENT: we ciwrakUtam samAsIxanwi
+SENT: we ciwrakUtam samAsIxanwi
 ANALYSIS:
 1	we	karwA,3
 2	ciwrakUtam	karma,3
 3	samAsIxanwi	
 
-*SENT: ciwrakUtaH awIva ramaNIyaH aswi
+SENT: ciwrakUtaH awIva ramaNIyaH aswi
 ANALYSIS:
 1	ciwrakUtaH	karwA,4
 2	awIva	kriyAviSeRaNam,4
 3	ramaNIyaH	karwqsamAnAXikaraNam,1
 4	aswi	
 
-*SENT: wasya SiKaram wuMgam aswi
+SENT: wasya SiKaram wuMgam aswi
 ANALYSIS:
 1	wasya	RaRTIsambanXaH,2
 2	SiKaram	karwA,4
 3	wuMgam	karwqsamAnAXikaraNam,2
 4	aswi	
 
-*SENT: wawra nirmalAH nirJarAH vahanwi
+SENT: wawra nirmalAH nirJarAH vahanwi
 ANALYSIS:
 1	wawra	xeSAXikaraNam,4
 2	nirmalAH	viSeRaNam,3
 3	nirJarAH	karwA,4
 4	vahanwi	
 
-*SENT: nirJarANAm jaleRu haMsAH waranwi
+SENT: nirJarANAm jaleRu haMsAH waranwi
 ANALYSIS:
 1	nirJarANAm	RaRTIsambanXaH,2
 2	jaleRu	aXikaraNam,4
@@ -62,13 +62,13 @@ ANALYSIS:
 4	wawra	xeSAXikaraNam,5
 5	waranwi	
 
-*SENT: munayaH wawra nimajjanwi
+SENT: munayaH wawra nimajjanwi
 ANALYSIS:
 1	munayaH	karwA,3
 2	wawra	xeSAXikaraNam,3
 3	nimajjanwi	
 
-*SENT: ciwrakUte ramaNIyAH vqkRAH sanwi
+SENT: ciwrakUte ramaNIyAH vqkRAH sanwi
 ANALYSIS:
 1	ciwrakUte	aXikaraNam,4
 2	ramaNIyAH	viSeRaNam,3
@@ -100,13 +100,13 @@ ANALYSIS:
 5	vqkRam	aXikaraNam,6
 6	kUrxanwi	samucciwam,2
 
-*SENT: vqkReRu KagAH vasanwi
+SENT: vqkReRu KagAH vasanwi
 ANALYSIS:
 1	vqkReRu	aXikaraNam,3
 2	KagAH	karwA,3
 3	vasanwi	
 
-*SENT: nirJarANAm wateRu mqgAH caranwi
+SENT: nirJarANAm wateRu mqgAH caranwi
 ANALYSIS:
 1	nirJarANAm	RaRTIsambanXaH,2
 2	wateRu	aXikaraNam,4
@@ -120,42 +120,42 @@ ANALYSIS:
 3	wawra	xeSAXikaraNam,4
 4	Bramanwi	samucciwam,2
 
-*SENT: lawAnAm puRpeRu BramarAH upaviSanwi
+SENT: lawAnAm puRpeRu BramarAH upaviSanwi
 ANALYSIS:
 1	lawAnAm	RaRTIsambanXaH,2
 2	puRpeRu	aXikaraNam,4
 3	BramarAH	karwA,4
 4	upaviSanwi	
 
-*SENT: parvawe SIwalAH samIrAH vahanwi
+SENT: parvawe SIwalAH samIrAH vahanwi
 ANALYSIS:
 1	parvawe	aXikaraNam,4
 2	SIwalAH	viSeRaNam,3
 3	samIrAH	karwA,4
 4	vahanwi	
 
-*SENT: pavanaH kusumAnAm suganXam harawi
+SENT: pavanaH kusumAnAm suganXam harawi
 ANALYSIS:
 1	pavanaH	karwA,4
 2	kusumAnAm	RaRTIsambanXaH,3
 3	suganXam	muKyakarma,4
 4	harawi	
 
-*SENT: kusumAnAm suganXaH sarvawra prasarawi
+SENT: kusumAnAm suganXaH sarvawra prasarawi
 ANALYSIS:
 1	kusumAnAm	RaRTIsambanXaH,2
 2	suganXaH	karwA,4
 3	sarvawra	xeSAXikaraNam,4
 4	prasarawi	
 
-*SENT: ciwrakUte munInAm ASramaH aswi
+SENT: ciwrakUte munInAm ASramaH aswi
 ANALYSIS:
 1	ciwrakUte	aXikaraNam,4
 2	munInAm	RaRTIsambanXaH,3
 3	ASramaH	karwA,4
 4	aswi	
 
-*SENT: wawra munayaH vasanwi
+SENT: wawra munayaH vasanwi
 ANALYSIS:
 1	wawra	xeSAXikaraNam,3
 2	munayaH	karwA,3
@@ -168,14 +168,14 @@ ANALYSIS:
 3	ca	
 4	kurvanwi	samucciwam,3
 
-*SENT: ASramasya samIpam uxyAnam aswi
+SENT: ASramasya samIpam uxyAnam aswi
 ANALYSIS:
 1	ASramasya	upapaxasambanXaH,2
 2	samIpam	aXikaraNam,4
 3	uxyAnam	karwA,4
 4	aswi	
 
-*SENT: rAmaH ciwrakUtam Arohawi
+SENT: rAmaH ciwrakUtam Arohawi
 ANALYSIS:
 1	rAmaH	karwA,3
 2	ciwrakUtam	karma,3
@@ -191,7 +191,7 @@ ANALYSIS:
 6	parvawam	karma,3
 7	ArohawaH	
 
-*SENT: wawra we munIn milanwi
+SENT: wawra we munIn milanwi
 ANALYSIS:
 1	wawra	xeSAXikaraNam,4
 2	we	karwA,4
@@ -207,7 +207,7 @@ ANALYSIS:
 5	rAmam	karma,6
 6	pUjayanwi	
 
-*SENT: rAmaH api munIn namawi
+SENT: rAmaH api munIn namawi
 ANALYSIS:
 1	rAmaH	karwA,4
 2	api	sambanXaH,1
@@ -242,7 +242,7 @@ ANALYSIS:
 6	ciram	kriyAviSeRaNam,7
 7	vasanwi	
 
-*SENT: waxA rAmaH ciwrakUtAw avarohawi
+SENT: waxA rAmaH ciwrakUtAw avarohawi
 ANALYSIS:
 1	waxA	kAlAXikaraNam,4
 2	rAmaH	karwA,4
@@ -286,7 +286,7 @@ ANALYSIS:
 4	sIwAm	karma,5
 5	rakRawaH	
 
-*SENT: we xaNdakAraNyam praviSanwi
+SENT: we xaNdakAraNyam praviSanwi
 ANALYSIS:
 1	we	karwA,3
 2	xaNdakAraNyam	karma,3
@@ -314,14 +314,14 @@ ANALYSIS:
 6	ciram	kriyAviSeRaNam,7
 7	vasanwi	
 
-*SENT: purA ekaH nqpaH AsIw
+SENT: purA ekaH nqpaH AsIw
 ANALYSIS:
 1	purA	kAlAXikaraNam,4
 2	ekaH	viSeRaNam,3
 3	nqpaH	karwA,4
 4	AsIw	
 
-*SENT: wasya rAjye sarve janAH wasya nyAyam prASaMsan
+SENT: wasya rAjye sarve janAH wasya nyAyam prASaMsan
 ANALYSIS:
 1	wasya	RaRTIsambanXaH,2
 2	rAjye	aXikaraNam,7
@@ -379,7 +379,7 @@ ANALYSIS:
 17	kuruwaH	karma,7
 18	(yaw)	sambanXaH,7
 
-*SENT: ekA kaWayawi eRaH mama puwraH (yaw)
+SENT: ekA kaWayawi eRaH mama puwraH (yaw)
 ANALYSIS:
 1	ekA	karwA,2
 2	kaWayawi	
@@ -388,7 +388,7 @@ ANALYSIS:
 5	puwraH	karma,2
 6	(yaw)	sambanXaH,2
 
-*SENT: xviwIyA vaxawi eRaH mama puwraH (yaw)
+SENT: xviwIyA vaxawi eRaH mama puwraH (yaw)
 ANALYSIS:
 1	xviwIyA	karwA,2
 2	vaxawi	
@@ -397,14 +397,14 @@ ANALYSIS:
 5	puwraH	karma,2
 6	(yaw)	sambanXaH,2
 
-*SENT: aham SiSoH jananI asmi
+SENT: aham SiSoH jananI asmi
 ANALYSIS:
 1	aham	karwA,4
 2	SiSoH	RaRTIsambanXaH,3
 3	jananI	karwA,4
 4	asmi	
 
-*SENT: nyAyArWaM aham xve nAryO awra Anayam
+SENT: nyAyArWaM aham xve nAryO awra Anayam
 ANALYSIS:
 1	nyAyArWaM	wAxarWyam,6
 2	aham	karwA,6
@@ -413,14 +413,14 @@ ANALYSIS:
 5	awra	aXikaraNam,6
 6	Anayam	
 
-*SENT: nqpaH wasya vacanAni AkarNayaw
+SENT: nqpaH wasya vacanAni AkarNayaw
 ANALYSIS:
 1	nqpaH	karwA,4
 2	wasya	RaRTIsambanXaH,3
 3	vacanAni	karma,4
 4	AkarNayaw	
 
-*SENT: alpAw kAlAw paScAw saH nqpaH avaxaw he rAja-puruRa asinA SiSum xvayoH KaNdayoH kqwvA ekam ekam KaNdam nArIByAm yacCa (yaw)
+SENT: alpAw kAlAw paScAw saH nqpaH avaxaw he rAja-puruRa asinA SiSum xvayoH KaNdayoH kqwvA ekam ekam KaNdam nArIByAm yacCa (yaw)
 ANALYSIS:
 1	alpAw	viSeRaNam,2
 2	kAlAw	upapaxasambanXaH,3
@@ -442,7 +442,7 @@ ANALYSIS:
 18	yacCa	karma,6
 19	(yaw)	sambanXaH,6
 
-*SENT: sarve janAH viciwram nyAyam AkarNya vismiwAH aBavan
+SENT: sarve janAH viciwram nyAyam AkarNya vismiwAH aBavan
 ANALYSIS:
 1	sarve	viSeRaNam,2
 2	janAH	karwA,7
@@ -452,7 +452,7 @@ ANALYSIS:
 6	vismiwAH	karwqsamAnAXikaraNam,2
 7	aBavan	
 
-*SENT: rAjapuruRaH asiM kare XqwvA SiSum prawi acalaw
+SENT: rAjapuruRaH asiM kare XqwvA SiSum prawi acalaw
 ANALYSIS:
 1	rAjapuruRaH	karwA,7
 2	asiM	karma,4
@@ -482,20 +482,20 @@ ANALYSIS:
 16	(yaw)	sambanXaH,10
 17	(ca)	karma,10
 
-*SENT: mama SiSum rakRa
+SENT: mama SiSum rakRa
 ANALYSIS:
 1	mama	RaRTIsambanXaH,2
 2	SiSum	karma,3
 3	rakRa	
 
-*SENT: SiSoH KaNdam mA kuru
+SENT: SiSoH KaNdam mA kuru
 ANALYSIS:
 1	SiSoH	RaRTIsambanXaH,2
 2	KaNdam	karma,4
 3	mA	sambanXaH,4
 4	kuru	
 
-*SENT: aham mama puwrasya jIvanam icCAmi
+SENT: aham mama puwrasya jIvanam icCAmi
 ANALYSIS:
 1	aham	karwA,5
 2	mama	RaRTIsambanXaH,3
@@ -503,7 +503,7 @@ ANALYSIS:
 4	jIvanam	karma,5
 5	icCAmi	
 
-*SENT: awaH SiSum xviwIyAyE nAryE yacCa
+SENT: awaH SiSum xviwIyAyE nAryE yacCa
 ANALYSIS:
 1	awaH	hewuH,5
 2	SiSum	karma,5
@@ -511,7 +511,7 @@ ANALYSIS:
 4	nAryE	sampraxAnam,5
 5	yacCa	
 
-*SENT: evam mama puwraH jIviRyawi
+SENT: evam mama puwraH jIviRyawi
 ANALYSIS:
 1	evam	kriyAviSeRaNam,
 2	mama	RaRTIsambanXaH,3
@@ -535,19 +535,19 @@ ANALYSIS:
 13	jananI	karwqsamAnAXikaraNam,14
 14	(yaw)	sambanXaH,9
 
-*SENT: xviwIyA asawyam vaxawi
+SENT: xviwIyA asawyam vaxawi
 ANALYSIS:
 1	xviwIyA	karwA,3
 2	asawyam	kriyAviSeRaNam,3
 3	vaxawi	
 
-*SENT: praWamAyE SiSum yacCa
+SENT: praWamAyE SiSum yacCa
 ANALYSIS:
 1	praWamAyE	sampraxAnam,3
 2	SiSum	karma,3
 3	yacCa	
 
-*SENT: xviwIyAm banxIgqham naya
+SENT: xviwIyAm banxIgqham naya
 ANALYSIS:
 1	xviwIyAm	muKyakarma,3
 2	banxIgqham	gONakarma,3
@@ -564,21 +564,21 @@ ANALYSIS:
 7	anayaw	samucciwam,8
 8	ca	
 
-*SENT: asmAkam janmaBUmiH BArawavarRam aswi
+SENT: asmAkam janmaBUmiH BArawavarRam aswi
 ANALYSIS:
 1	asmAkam	RaRTIsambanXaH,2
 2	janmaBUmiH	karwA,4
 3	BArawavarRam	karwqsamAnAXikaraNam,2
 4	aswi	
 
-*SENT: BArawavarRam ekam svawanwraxeSam aswi
+SENT: BArawavarRam ekam svawanwraxeSam aswi
 ANALYSIS:
 1	BArawavarRam	karwA,4
 2	ekam	viSeRaNam,3
 3	svawanwraxeSam	karwqsamAnAXikaraNam,1
 4	aswi	
 
-*SENT: asya uwwaraxiSAyAm girivarahimAlayaH mukutavaw SoBawe
+SENT: asya uwwaraxiSAyAm girivarahimAlayaH mukutavaw SoBawe
 ANALYSIS:
 1	asya	upapaxasambanXaH,2
 2	uwwaraxiSAyAm	aXikaraNam,5
@@ -586,14 +586,14 @@ ANALYSIS:
 4	mukutavaw	prawiyogI,5
 5	SoBawe	
 
-*SENT: awra gaMgAyamunAsinXusarasvawIkqRNAkAverInarmaxApraBqwayaH naxyaH pravahanwi
+SENT: awra gaMgAyamunAsinXusarasvawIkqRNAkAverInarmaxApraBqwayaH naxyaH pravahanwi
 ANALYSIS:
 1	awra	aXikaraNam,4
 2	gaMgAyamunAsinXusarasvawIkqRNAkAverInarmaxApraBqwayaH	viSeRaNam,3
 3	naxyaH	karwA,4
 4	pravahanwi	
 
-*SENT: awaH eva iyam BUmiH sasyEH saxA SyAmalA SoBawe
+SENT: awaH eva iyam BUmiH sasyEH saxA SyAmalA SoBawe
 ANALYSIS:
 1	awaH	hewuH,8
 2	eva	sambanXaH,1
@@ -604,7 +604,7 @@ ANALYSIS:
 7	SyAmalA	karwqsamAnAXikaraNam,4
 8	SoBawe	
 
-*SENT: bahuviXAH vqkRAH BArawaBUmO prarohanwi
+SENT: bahuviXAH vqkRAH BArawaBUmO prarohanwi
 ANALYSIS:
 1	bahuviXAH	viSeRaNam,2
 2	vqkRAH	karwA,4
@@ -620,7 +620,7 @@ ANALYSIS:
 5	ca	karwA,6
 6	vasanwi	
 
-*SENT: haMsaH mayUraH SukaH cAwakaH iwyAxayaH supakRiNaH awra sanwi
+SENT: haMsaH mayUraH SukaH cAwakaH iwyAxayaH supakRiNaH awra sanwi
 ANALYSIS:
 1	haMsaH	samucciwam,5
 2	mayUraH	samucciwam,5
@@ -631,7 +631,7 @@ ANALYSIS:
 7	awra	aXikaraNam,8
 8	sanwi	
 
-*SENT: BArawavarRam AryANAm BUmiH samskqwisaByawAkalAnAm BUmiH iwi prasixXam eva
+SENT: BArawavarRam AryANAm BUmiH samskqwisaByawAkalAnAm BUmiH iwi prasixXam eva
 ANALYSIS:
 1	BArawavarRam	karwA,7
 2	AryANAm	RaRTIsambanXaH,3
@@ -642,7 +642,7 @@ ANALYSIS:
 7	prasixXam	
 8	eva	sambanXaH,7
 
-*SENT: vexAnAm praNewAraH munayaH awra eva avasan
+SENT: vexAnAm praNewAraH munayaH awra eva avasan
 ANALYSIS:
 1	vexAnAm	RaRTIsambanXaH,2
 2	praNewAraH	viSeRaNam,3
@@ -671,13 +671,13 @@ ANALYSIS:
 16	uwpannAH	karwqsamAnAXikaraNam,13
 17	aBavan	
 
-*SENT: BArawavarRasya kIrwiH avarNanIyA
+SENT: BArawavarRasya kIrwiH avarNanIyA
 ANALYSIS:
 1	BArawavarRasya	RaRTIsambanXaH,2
 2	kIrwiH	
 3	avarNanIyA	viSeRaNam,2
 
-*SENT: BArawa-xeSasya purAwanam aBiXAnam AryAvarwam AsIw
+SENT: BArawa-xeSasya purAwanam aBiXAnam AryAvarwam AsIw
 ANALYSIS:
 1	BArawa-xeSasya	RaRTIsambanXaH,2
 2	purAwanam	viSeRaNam,3
@@ -698,7 +698,7 @@ ANALYSIS:
 9	nivAsasWAnam	karwqsamAnAXikaraNam,5
 10	AsIw	prawiyogI,4
 
-*SENT: kasmiFciw vane xvO vqRaBO AswAm
+SENT: kasmiFciw vane xvO vqRaBO AswAm
 ANALYSIS:
 1	kasmiFciw	viSeRaNam,2
 2	vane	aXikaraNam,5
@@ -706,7 +706,7 @@ ANALYSIS:
 4	vqRaBO	karwA,5
 5	AswAm	
 
-*SENT: hariwAni sasyAni BakRayanwO wO parAm puRtim agacCawAm
+SENT: hariwAni sasyAni BakRayanwO wO parAm puRtim agacCawAm
 ANALYSIS:
 1	hariwAni	viSeRaNam,2
 2	sasyAni	karma,3
@@ -727,7 +727,7 @@ ANALYSIS:
 7	ca	
 8	awiRTawAm	samucciwam,7
 
-*SENT: wasmin eva vane ekaH siMhaH api AsIw
+SENT: wasmin eva vane ekaH siMhaH api AsIw
 ANALYSIS:
 1	wasmin	viSeRaNam,3
 2	eva	sambanXaH,1
@@ -737,7 +737,7 @@ ANALYSIS:
 6	api	sambanXaH,6
 7	AsIw	
 
-*SENT: saH saxA eva wO vqRaBO xqRtvA acinwayaw
+SENT: saH saxA eva wO vqRaBO xqRtvA acinwayaw
 ANALYSIS:
 1	saH	karwA,7
 2	saxA	kAlAXikaraNam,7
@@ -767,7 +767,7 @@ ANALYSIS:
 4	kAlaH	karwA,5
 5	gacCew	samucciwam,2
 
-*SENT: paraM siMhaH ekam api vqRaBam mArayiwum samarWaH na AsIw
+SENT: paraM siMhaH ekam api vqRaBam mArayiwum samarWaH na AsIw
 ANALYSIS:
 1	paraM	
 2	siMhaH	karwA,9
@@ -779,7 +779,7 @@ ANALYSIS:
 8	na	sambanXaH,9
 9	AsIw	samucciwam,1
 
-*SENT: yawaH wO saxA eva saha eva awiRTawAm
+SENT: yawaH wO saxA eva saha eva awiRTawAm
 ANALYSIS:
 1	yawaH	hewuH,7
 2	wO	karwA,7
@@ -803,7 +803,7 @@ ANALYSIS:
 10	svaSqMgeNa	karaNam,11
 11	vixArayew	prawiyogI,1
 
-*SENT: awaH saH wO praharwum asamarWaH AsIw
+SENT: awaH saH wO praharwum asamarWaH AsIw
 ANALYSIS:
 1	awaH	hewuH,6
 2	saH	karwA,
@@ -812,7 +812,7 @@ ANALYSIS:
 5	asamarWaH	karwqsamAnAXikaraNam,2
 6	AsIw	
 
-*SENT: ekaxA siMhena manasi cinwiwam
+SENT: ekaxA siMhena manasi cinwiwam
 ANALYSIS:
 1	ekaxA	kAlAXikaraNam,4
 2	siMhena	karwA,4
@@ -832,7 +832,7 @@ ANALYSIS:
 9	saPalaH	karwqsamAnAXikaraNam,10
 10	BaviRyAmi	prawiyogI,1
 
-*SENT: iwi vicinwayan saH ekaxA wO vqRaBO SqMgAByAm parasparam snehena krIdanwO apaSyaw
+SENT: iwi vicinwayan saH ekaxA wO vqRaBO SqMgAByAm parasparam snehena krIdanwO apaSyaw
 ANALYSIS:
 1	iwi	sambanXaH,2
 2	vicinwayan	samAnakAlaH,11
@@ -858,7 +858,7 @@ ANALYSIS:
 8	ca	
 9	avaxaw	samucciwam,8
 
-*SENT: mUrKa awIva xurbalaH asi yax xviwIyaH wvAm paScAw apasArayawi
+SENT: mUrKa awIva xurbalaH asi yax xviwIyaH wvAm paScAw apasArayawi
 ANALYSIS:
 1	mUrKa	samboXyaH,8
 2	awIva	viSeRaNam,2
@@ -870,7 +870,7 @@ ANALYSIS:
 8	paScAw	kriyAviSeRaNam,8
 9	apasArayawi	
 
-*SENT: siMhasya vAkyam SruwvA praWamaH vqRaBaH xviwIyam balena apAkarow waxA siMhaH wam akaWayaw
+SENT: siMhasya vAkyam SruwvA praWamaH vqRaBaH xviwIyam balena apAkarow waxA siMhaH wam akaWayaw
 ANALYSIS:
 1	siMhasya	RaRTIsambanXaH,2
 2	vAkyam	karma,3
@@ -885,7 +885,7 @@ ANALYSIS:
 11	wam	karma,12
 12	akaWayaw	
 
-*SENT: mUrKa wvam wu awIva xurbalaH (asi)
+SENT: mUrKa wvam wu awIva xurbalaH (asi)
 ANALYSIS:
 1	mUrKa	samboXyaH,6
 2	wvam	karwA,6
@@ -894,7 +894,7 @@ ANALYSIS:
 5	xurbalaH	karwqsamAnAXikaraNam,2
 6	(asi)	
 
-*SENT: ekena eva prahAreNa paScAw gawaH asi
+SENT: ekena eva prahAreNa paScAw gawaH asi
 ANALYSIS:
 1	ekena	viSeRaNam,3
 2	eva	sambanXaH,1
@@ -903,7 +903,7 @@ ANALYSIS:
 5	gawaH	karwqsamAnAXikaraNam,6
 6	asi		
 
-*SENT: evam siMhaH wO waWA prowsAhayaw yaWA wO parasparam sawyam eva yoxXum AraBewAm
+SENT: evam siMhaH wO waWA prowsAhayaw yaWA wO parasparam sawyam eva yoxXum AraBewAm
 ANALYSIS:
 1	evam	kriyAviSeRaNam,
 2	siMhaH	karwA,
@@ -937,7 +937,7 @@ ANALYSIS:
 15	xUram	kriyAviSeRaNam,16
 16	aXAvaw	samucciwam,13
 
-*SENT: evam wayoH BexaH uwpannaH aBavaw
+SENT: evam wayoH BexaH uwpannaH aBavaw
 ANALYSIS:
 1	evam	karaNam,5
 2	wayoH	aXikaraNam,5
@@ -956,7 +956,7 @@ ANALYSIS:
 7	ca	
 8	avaxaw	samucciwam,7
 
-*SENT: saxA eva na xUre xUraH awiRTawAm
+SENT: saxA eva na xUre xUraH awiRTawAm
 ANALYSIS:
 1	saxA	
 2	eva	
@@ -965,7 +965,7 @@ ANALYSIS:
 5	xUraH	
 6	awiRTawAm	
 
-*SENT: ekaxA siMhaH ekam vqRaBam ekAkinam caranwam apaSyaw
+SENT: ekaxA siMhaH ekam vqRaBam ekAkinam caranwam apaSyaw
 ANALYSIS:
 1	ekaxA	kAlAXikaraNam,7
 2	siMhaH	karwA,7
@@ -988,7 +988,7 @@ ANALYSIS:
 9	ca	
 10	aBakRayaw	samucciwam,9
 
-*SENT: waxananwaram saH xviwIyam api vqRaBam waWEva mArayiwvA aBakRayaw
+SENT: waxananwaram saH xviwIyam api vqRaBam waWEva mArayiwvA aBakRayaw
 ANALYSIS:
 1	waxananwaram	kAlAXikaraNam,8
 2	saH	karwA,8
@@ -999,7 +999,7 @@ ANALYSIS:
 7	mArayiwvA	pUrvakAlaH,8
 8	aBakRayaw	
 
-*SENT: evam xvO eva suhqxO Bexena naRtO aBavawAm
+SENT: evam xvO eva suhqxO Bexena naRtO aBavawAm
 ANALYSIS:
 1	evam	kriyAviSeRaNam,7
 2	xvO	viSeRaNam,4
@@ -1009,20 +1009,20 @@ ANALYSIS:
 6	naRtO	karwqsamAnAXikaraNam,4
 7	aBavawAm	
 
-*SENT: sawyam eva kaWyawe
+SENT: sawyam eva kaWyawe
 ANALYSIS:
 1	sawyam	kriyAviSeRaNam,3
 2	eva	sambanXaH,1
 3	kaWyawe	
 
-*SENT: saMGe SakwiH Bexe nASaH
+SENT: saMGe SakwiH Bexe nASaH
 ANALYSIS:
 1	saMGe	hewuH,4
 2	SakwiH	
 3	Bexe	hewuH,4
 4	nASaH	
 
-*SENT: AsIw ekaH baMgapuwraH BArawarawnam jFAnasinXuH wawwvavewwA viSvanAWaxawwasya AwmajaH narenxraxawwaH
+SENT: AsIw ekaH baMgapuwraH BArawarawnam jFAnasinXuH wawwvavewwA viSvanAWaxawwasya AwmajaH narenxraxawwaH
 ANALYSIS:
 1	AsIw	
 2	ekaH	viSeRaNam,9
@@ -1034,7 +1034,7 @@ ANALYSIS:
 8	AwmajaH	viSeRaNam,9
 9	narenxraxawwaH	karwA,1
 
-*SENT: saH bAlyAw eva prawiBAvAn XarmajijFAsuH ESvaryasampannaH AsIw
+SENT: saH bAlyAw eva prawiBAvAn XarmajijFAsuH ESvaryasampannaH AsIw
 ANALYSIS:
 1	saH	karwA,7
 2	bAlyAw	??,7
@@ -1044,7 +1044,7 @@ ANALYSIS:
 6	ESvaryasampannaH	karwqsamAnAXikaraNam,1
 7	AsIw	
 
-*SENT: rAmakqRNaparamahaMsamahABAgAnAm SiRyawvam aMgIkqwvA vivekAnanxaH aBavaw narenxraxawwaH
+SENT: rAmakqRNaparamahaMsamahABAgAnAm SiRyawvam aMgIkqwvA vivekAnanxaH aBavaw narenxraxawwaH
 ANALYSIS:
 1	rAmakqRNaparamahaMsamahABAgAnAm	RaRTIsambanXaH,2
 2	SiRyawvam	karma,3
@@ -1053,7 +1053,7 @@ ANALYSIS:
 5	aBavaw	
 6	narenxraxawwaH	karwA,5
 
-*SENT: saH paFcaviMSawiwame varRe samaswam BArawam aBramaw
+SENT: saH paFcaviMSawiwame varRe samaswam BArawam aBramaw
 ANALYSIS:
 1	saH	karwA,6
 2	paFcaviMSawiwame	viSeRaNam,3
@@ -1081,7 +1081,7 @@ ANALYSIS:
 15	rARtriyAm	viSeRaNam,16
 16	saMskqwim	karma,13
 
-*SENT: svAmI vivekAnanxaH 1893 ISabxe varRe SikAgo nAma nagare viSvaXarmapariRaxi BArawIyAm saMskqwim uxGoRayaw
+SENT: svAmI vivekAnanxaH 1893 ISabxe varRe SikAgo nAma nagare viSvaXarmapariRaxi BArawIyAm saMskqwim uxGoRayaw
 ANALYSIS:
 1	svAmI	viSeRaNam,2
 2	vivekAnanxaH	karwA,
@@ -1096,7 +1096,7 @@ ANALYSIS:
 11	saMskqwim	karma,12
 12	uxGoRayaw	
 
-*SENT: BArawarARtriyA janawA yAxqSIm viSvabanXuwAm vAFCawi wAm viSvabanXuwAm prAcArayaw asmAkam rARtraxevawA
+SENT: BArawarARtriyA janawA yAxqSIm viSvabanXuwAm vAFCawi wAm viSvabanXuwAm prAcArayaw asmAkam rARtraxevawA
 ANALYSIS:
 1	BArawarARtriyA	viSeRaNam,2
 2	janawA	karwA,5
@@ -1140,7 +1140,7 @@ ANALYSIS:
 11	Bajawe	anyawaraH,12
 12	vA	prawiyogI,1
 
-*SENT: ekaxA vivekAnanxaH acinwayaw
+SENT: ekaxA vivekAnanxaH acinwayaw
 ANALYSIS:
 1	ekaxA	kAlAXikaraNam,3
 2	vivekAnanxaH	karwA,3
@@ -1159,7 +1159,7 @@ ANALYSIS:
 9	cewasA	karaNam,11
 10	anvaBavam	samucciwam,9
 
-*SENT: awaH miWyA eRaH xehABimAnaH iwi cinwayan vivekAnanxaH gahanam kAnwAram prAviSaw
+SENT: awaH miWyA eRaH xehABimAnaH iwi cinwayan vivekAnanxaH gahanam kAnwAram prAviSaw
 ANALYSIS:
 1	awaH	hewuH,4
 2	miWyA	kriyAviSeRaNam,4
@@ -1172,7 +1172,7 @@ ANALYSIS:
 9	kAnwAram	karma,10
 10	prAviSaw	
 
-*SENT: vivekAnanxe gacCawi kiMciw xUram ekaH kRuwpipAsayA AkulaH siMhaH upAwiRTaw
+SENT: vivekAnanxe gacCawi kiMciw xUram ekaH kRuwpipAsayA AkulaH siMhaH upAwiRTaw
 ANALYSIS:
 1	vivekAnanxe	karwA,2
 2	gacCawi	samAnakAlaH,9
@@ -1199,7 +1199,7 @@ ANALYSIS:
 11	awiRTaw	samucciwam,12
 12	ca	
 
-*SENT: param saH siMhaH svAminaH saMnyAsinaH ahiMsApraBAveNa hiMsAm awyajaw
+SENT: param saH siMhaH svAminaH saMnyAsinaH ahiMsApraBAveNa hiMsAm awyajaw
 ANALYSIS:
 1	param	
 2	saH	viSeRaNam,3
@@ -1218,7 +1218,7 @@ ANALYSIS:
 4	xiSAm	upapaxasambanXaH,5
 5	prawi	sambanXaH,1
 
-*SENT: ekasmin vane ekaH vqkRaH aswi
+SENT: ekasmin vane ekaH vqkRaH aswi
 ANALYSIS:
 1	ekasmin	viSeRaNam,2
 2	vane	aXikaraNam,5
@@ -1226,13 +1226,13 @@ ANALYSIS:
 4	vqkRaH	karwA,5
 5	aswi	
 
-*SENT: wawra vAyasaxampawI vasawaH
+SENT: wawra vAyasaxampawI vasawaH
 ANALYSIS:
 1	wawra	xeSAXikaraNam,3
 2	vAyasaxampawI	karwA,3
 3	vasawaH	
 
-*SENT: wasya vqkRasya kotare ekaH sarpaH api vasawi
+SENT: wasya vqkRasya kotare ekaH sarpaH api vasawi
 ANALYSIS:
 1	wasya	viSeRaNam,2
 2	vqkRasya	RaRTIsambanXaH,3
@@ -1242,7 +1242,7 @@ ANALYSIS:
 6	api	sambanXaH,5
 7	vasawi	
 
-*SENT: wayoH prasavasya kAle saH sarpaH vqkRasya kotarAw niRkrAmya wayoH apawyAni KAxawi
+SENT: wayoH prasavasya kAle saH sarpaH vqkRasya kotarAw niRkrAmya wayoH apawyAni KAxawi
 ANALYSIS:
 1	wayoH	RaRTIsambanXaH,2
 2	prasavasya	RaRTIsambanXaH,3
@@ -1256,19 +1256,19 @@ ANALYSIS:
 10	apawyAni	karma,11
 11	KAxawi	
 
-*SENT: sarvaxA evam Bavawi
+SENT: sarvaxA evam Bavawi
 ANALYSIS:
 1	sarvaxA	kAlAXikaraNam,3
 2	evam	kriyAviSeRaNam,3
 3	Bavawi	
 
-*SENT: wO xuHKam anuBavawaH
+SENT: wO xuHKam anuBavawaH
 ANALYSIS:
 1	wO	karwA,3
 2	xuHKam	karma,3
 3	anuBavawaH	
 
-*SENT: wO apawyAnAm rakRAyE upAyam cinwayawaH
+SENT: wO apawyAnAm rakRAyE upAyam cinwayawaH
 ANALYSIS:
 1	wO	karwA,3
 2	apawyAnAm	RaRTIsambanXaH,3
@@ -1276,7 +1276,7 @@ ANALYSIS:
 4	upAyam	karma,5
 5	cinwayawaH	
 
-*SENT: wayoH ekam miwram SqgAlam aswi
+SENT: wayoH ekam miwram SqgAlam aswi
 ANALYSIS:
 1	wayoH	RaRTIsambanXaH,2
 2	ekam	viSeRaNam,3
@@ -1297,7 +1297,7 @@ ANALYSIS:
 9	upAyam	muKyakarma,10
 10	kaWayawi	
 
-*SENT: vAyasa wvam kasyApi Xanikasya ABaraNam hqwvA wasya sarpasya kotare kRipa
+SENT: vAyasa wvam kasyApi Xanikasya ABaraNam hqwvA wasya sarpasya kotare kRipa
 ANALYSIS:
 1	vAyasa	samboXyaH,10
 2	wvam	karwA,10
@@ -1310,7 +1310,7 @@ ANALYSIS:
 9	kotare	aXikaraNam,10
 10	kRipa	
 
-*SENT: Xanikasya janAH ABaraNAya sarpasya vaXam kariRyanwi
+SENT: Xanikasya janAH ABaraNAya sarpasya vaXam kariRyanwi
 ANALYSIS:
 1	Xanikasya	RaRTIsambanXaH,2
 2	janAH	karwA,6
@@ -1319,27 +1319,27 @@ ANALYSIS:
 5	vaXam	karma,6
 6	kariRyanwi	
 
-*SENT: evam yuvAm apawyAni rakRawam
+SENT: evam yuvAm apawyAni rakRawam
 ANALYSIS:
 1	evam	kriyAviSeRaNam,4
 2	yuvAm	karwA,4
 3	apawyAni	karma,4
 4	rakRawam	
 
-*SENT: vAyasaH waWA karowi
+SENT: vAyasaH waWA karowi
 ANALYSIS:
 1	vAyasaH	karwA,3
 2	waWA	kriyAviSeRaNam,3
 3	karowi	
 
-*SENT: saH nagarasya sarovaram gacCawi
+SENT: saH nagarasya sarovaram gacCawi
 ANALYSIS:
 1	saH	karwA,4
 2	nagarasya	RaRTIsambanXaH,3
 3	sarovaram	karma,4
 4	gacCawi	
 
-*SENT: wawra saH paSyawi ekA rAjFI maFjawi snAnam karowi
+SENT: wawra saH paSyawi ekA rAjFI maFjawi snAnam karowi
 ANALYSIS:
 1	wawra	xeSAXikaraNam,3
 2	saH	karwA,3
@@ -1350,7 +1350,7 @@ ANALYSIS:
 7	snAnam	karma,8
 8	karowi	
 
-*SENT: wasyAH svarNasya ABaraNam sarovarasya wate aswi
+SENT: wasyAH svarNasya ABaraNam sarovarasya wate aswi
 ANALYSIS:
 1	wasyAH	RaRTIsambanXaH,3
 2	svarNasya	RaRTIsambanXaH,3
@@ -1376,7 +1376,7 @@ ANALYSIS:
 13	kRipawi	samucciwam,14
 14	ca	
 
-*SENT: rAjFaH xAsAH ABaraNAya wawra AgacCanwi
+SENT: rAjFaH xAsAH ABaraNAya wawra AgacCanwi
 ANALYSIS:
 1	rAjFaH	RaRTIsambanXaH,2
 2	xAsAH	karwA,5
@@ -1384,7 +1384,7 @@ ANALYSIS:
 4	wawra	xeSAXikaraNam,5
 5	AgacCanwi	
 
-*SENT: ABaraNasya samIpam sarpam xqRtvA we wasya vaXam kqwvA ABaraNam prawyAnayanwi
+SENT: ABaraNasya samIpam sarpam xqRtvA we wasya vaXam kqwvA ABaraNam prawyAnayanwi
 ANALYSIS:
 1	ABaraNasya	RaRTIsambanXaH,2
 2	samIpam	aXikaraNam,4
@@ -1407,7 +1407,7 @@ ANALYSIS:
 6	vasawaH	samucciwam,7
 7	ca	
 
-*SENT: ekasyAH naxyAH wate jambUvqkRaH AsIw
+SENT: ekasyAH naxyAH wate jambUvqkRaH AsIw
 ANALYSIS:
 1	ekasyAH	viSeRaNam,2
 2	naxyAH	RaRTIsambanXaH,3
@@ -1415,14 +1415,14 @@ ANALYSIS:
 4	jambUvqkRaH	karwA,5
 5	AsIw	
 
-*SENT: wawra ekaH vAnaraH avasaw
+SENT: wawra ekaH vAnaraH avasaw
 ANALYSIS:
 1	wawra	xeSAXikaraNam,4
 2	ekaH	viSeRaNam,3
 3	vAnaraH	karwA,4
 4	avasaw	
 
-*SENT: wasyAm naxyAm ekaH makaraH AsIw
+SENT: wasyAm naxyAm ekaH makaraH AsIw
 ANALYSIS:
 1	wasyAm	viSeRaNam,2
 2	naxyAm	aXikaraNam,5
@@ -1430,13 +1430,13 @@ ANALYSIS:
 4	makaraH	karwA,5
 5	AsIw	
 
-*SENT: wayoH miwrawA aBavaw
+SENT: wayoH miwrawA aBavaw
 ANALYSIS:
 1	wayoH	RaRTIsambanXaH,2
 2	miwrawA	karwA,3
 3	aBavaw	
 
-*SENT: prawixinam makaraH naxyAH bahiH AgacCaw
+SENT: prawixinam makaraH naxyAH bahiH AgacCaw
 ANALYSIS:
 1	prawixinam	kAlAXikaraNam,5
 2	makaraH	karwA,5
@@ -1444,14 +1444,14 @@ ANALYSIS:
 4	bahiH	aXikaraNam,5
 5	AgacCaw	
 
-*SENT: vAnaraH wasmE jambUPalAni ayacCaw
+SENT: vAnaraH wasmE jambUPalAni ayacCaw
 ANALYSIS:
 1	vAnaraH	karwA,4
 2	wasmE	sampraxAnam,4
 3	jambUPalAni	karma,4
 4	ayacCaw	
 
-*SENT: makaraH wAni supakvAni maXurANi PalAni aKAxaw
+SENT: makaraH wAni supakvAni maXurANi PalAni aKAxaw
 ANALYSIS:
 1	makaraH	karwA,6
 2	wAni	viSeRaNam,5
@@ -1460,7 +1460,7 @@ ANALYSIS:
 5	PalAni	karma,6
 6	aKAxaw	
 
-*SENT: ekaxA saH makaraH maXurANi jambUPalAni nIwvA svagqham agacCaw
+SENT: ekaxA saH makaraH maXurANi jambUPalAni nIwvA svagqham agacCaw
 ANALYSIS:
 1	ekaxA	kAlAXikaraNam,8
 2	saH	viSeRaNam,3
@@ -1471,7 +1471,7 @@ ANALYSIS:
 7	svagqham	karma,8
 8	agacCaw	
 
-*SENT: wawra saH wAni PalAni svaBAryAyE ayacCaw
+SENT: wawra saH wAni PalAni svaBAryAyE ayacCaw
 ANALYSIS:
 1	wawra	xeSAXikaraNam,6
 2	saH	karwA,6
@@ -1480,7 +1480,7 @@ ANALYSIS:
 5	svaBAryAyE	sampraxAnam,6
 6	ayacCaw	
 
-*SENT: wAni KAxiwvA wasya pawnI avaxaw jambUPalAni awimaXurANi sanwi
+SENT: wAni KAxiwvA wasya pawnI avaxaw jambUPalAni awimaXurANi sanwi
 ANALYSIS:
 1	wAni	karma,2
 2	KAxiwvA	pUrvakAlaH,5
@@ -1491,13 +1491,13 @@ ANALYSIS:
 7	awimaXurANi	karwqsamAnAXikaraNam,6		
 8	sanwi	
 
-*SENT: kuwaH Anayasi wvam
+SENT: kuwaH Anayasi wvam
 ANALYSIS:
 1	kuwaH	apAxAnam,2
 2	Anayasi	
 3	wvam	karwA,2
 
-*SENT: makaraH prawyavaxaw naxyAH wate mama ekam miwram vAnaraH jambUvqkRe vasawi
+SENT: makaraH prawyavaxaw naxyAH wate mama ekam miwram vAnaraH jambUvqkRe vasawi
 ANALYSIS:
 1	makaraH	karwA,2
 2	prawyavaxaw	
@@ -1510,7 +1510,7 @@ ANALYSIS:
 9	jambUvqkRe	aXikaraNam,10
 10	vasawi	
 
-*SENT: saH prawixinam maXurANi jambUPalAni KAxawi
+SENT: saH prawixinam maXurANi jambUPalAni KAxawi
 ANALYSIS:
 1	saH	karwA,5
 2	prawixinam	kAlAXikaraNam,5
@@ -1533,7 +1533,7 @@ ANALYSIS:
 11	KAxAmi	samucciwam,12
 12	ca	
 
-*SENT: wasya pawnI avaxaw
+SENT: wasya pawnI avaxaw
 ANALYSIS:
 1	wasya	RaRTIsambanXaH,2
 2	pawnI	karwA,3
@@ -1554,7 +1554,7 @@ ANALYSIS:
 11	maXuram	karwqsamAnAXikaraNam,10
 12	BaviRyawi	prawiyogI,1
 
-*SENT: aham wasya hqxayam KAxiwum icCAmi
+SENT: aham wasya hqxayam KAxiwum icCAmi
 ANALYSIS:
 1	aham	karwA,5
 2	wasya	RaRTIsambanXaH,3
@@ -1571,7 +1571,7 @@ ANALYSIS:
 5	hqxayam	karma,6
 6	Anaya	
 
-*SENT: naxyAH watam gawvA makaraH vAnaram akaWayaw
+SENT: naxyAH watam gawvA makaraH vAnaram akaWayaw
 ANALYSIS:
 1	naxyAH	RaRTIsambanXaH,2
 2	watam	karma,3
@@ -1597,7 +1597,7 @@ ANALYSIS:
 13	na	sambanXaH,14
 14	nayAmi	samucciwam,8
 
-*SENT: awaH mama pawnI mahyam kupyawi
+SENT: awaH mama pawnI mahyam kupyawi
 ANALYSIS:
 1	awaH	hewuH,5
 2	mama	RaRTIsambanXaH,3
@@ -1605,7 +1605,7 @@ ANALYSIS:
 4	mahyam	sampraxAnam,5
 5	kupyawi	
 
-*SENT: wasyAH anuroXena aham wvAm svagqham BojanAya newum icCAmi
+SENT: wasyAH anuroXena aham wvAm svagqham BojanAya newum icCAmi
 ANALYSIS:
 1	wasyAH	karwA,2
 2	anuroXena	hewuH,7
@@ -1616,20 +1616,20 @@ ANALYSIS:
 7	newum	prayojanam,8
 8	icCAmi	
 
-*SENT: wvam mama pqRTam Aroha
+SENT: wvam mama pqRTam Aroha
 ANALYSIS:
 1	wvam	karwA,4
 2	mama	RaRTIsambanXaH,3
 3	pqRTam	karma,4
 4	Aroha	
 
-*SENT: vAnaraH waWA akarow
+SENT: vAnaraH waWA akarow
 ANALYSIS:
 1	vAnaraH	karwA,3
 2	waWA	kriyAviSeRaNam,3
 3	akarow	
 
-*SENT: makaraH svamiwram vAnaram pqRTena nIwvA jalasya maXye gawvA avaxaw
+SENT: makaraH svamiwram vAnaram pqRTena nIwvA jalasya maXye gawvA avaxaw
 ANALYSIS:
 1	makaraH	karwA,9
 2	svamiwram	viSeRaNam,3
@@ -1641,7 +1641,7 @@ ANALYSIS:
 8	gawvA	pUrvakAlaH,9
 9	avaxaw	
 
-*SENT: miwra mama pawnI wava maXuram hqxayam KAxiwum icCawi
+SENT: miwra mama pawnI wava maXuram hqxayam KAxiwum icCawi
 ANALYSIS:
 1	miwra	samboXyaH,8
 2	mama	RaRTIsambanXaH,3
@@ -1652,7 +1652,7 @@ ANALYSIS:
 7	KAxiwum	prayojanam,8
 8	icCawi	
 
-*SENT: aham vyAjena wvAm svagqham nayAmi
+SENT: aham vyAjena wvAm svagqham nayAmi
 ANALYSIS:
 1	aham	karwA,5
 2	vyAjena	kriyAviSeRaNam,5
@@ -1660,7 +1660,7 @@ ANALYSIS:
 4	svagqham	gONakarma,5
 5	nayAmi	karma,8
 
-*SENT: waw AkarNya vAnaraH acinwayaw axya mama maraNam BaviRyawi
+SENT: waw AkarNya vAnaraH acinwayaw axya mama maraNam BaviRyawi
 ANALYSIS:
 1	waw	karma,2
 2	AkarNya	pUrvakAlaH,4
@@ -1671,20 +1671,20 @@ ANALYSIS:
 7	maraNam	karma,8
 8	BaviRyawi	
 
-*SENT: kena upAyena svarakRAm kariRyAmi
+SENT: kena upAyena svarakRAm kariRyAmi
 ANALYSIS:
 1	kena	viSeRaNam,2
 2	upAyena	karaNam,3
 3	svarakRAm	karma,4
 4	kariRyAmi	
 
-*SENT: kRaNAnanwaram saH avaxaw
+SENT: kRaNAnanwaram saH avaxaw
 ANALYSIS:
 1	kRaNAnanwaram	kAlAXikaraNam,3
 2	saH	karwA,3
 3	avaxaw	
 
-*SENT: miwra wvam pUrvam eva kim na akaWayaH
+SENT: miwra wvam pUrvam eva kim na akaWayaH
 ANALYSIS:
 1	miwra	samboXyaH,7
 2	wvam	karwA,7
@@ -1694,14 +1694,14 @@ ANALYSIS:
 6	na	sambanXaH,7
 7	akaWayaH	
 
-*SENT: kimarWam mAm svagqham nayasi
+SENT: kimarWam mAm svagqham nayasi
 ANALYSIS:
 1	kimarWam	hewuH,4
 2	mAm	muKyakarma,4
 3	svagqham	gONakarma,4
 4	nayasi	
 
-*SENT: wava BAryA mama hqxayam KAxiwum icCasi
+SENT: wava BAryA mama hqxayam KAxiwum icCasi
 ANALYSIS:
 1	wava	RaRTIsambanXaH,2
 2	BAryA	karwA,6
@@ -1710,7 +1710,7 @@ ANALYSIS:
 5	KAxiwum	prayojanam,6
 6	icCasi	
 
-*SENT: mama hqxayam wu wawra vqkRe eva aswi
+SENT: mama hqxayam wu wawra vqkRe eva aswi
 ANALYSIS:
 1	mama	RaRTIsambanXaH,2
 2	hqxayam	karwA,7
@@ -1720,14 +1720,14 @@ ANALYSIS:
 6	eva	sambanXaH,5
 7	aswi	
 
-*SENT: mAm wawra eva naya
+SENT: mAm wawra eva naya
 ANALYSIS:
 1	mAm	muKyakarma,4
 2	wawra	xeSAXikaraNam,4
 3	eva	sambanXaH,2
 4	naya	
 
-*SENT: wawra aham wuByam mama hqxayam xAsyAmi
+SENT: wawra aham wuByam mama hqxayam xAsyAmi
 ANALYSIS:
 1	wawra	sambanXaH,6
 2	aham	karwA,6
@@ -1736,7 +1736,7 @@ ANALYSIS:
 5	hqxayam	karma,6
 6	xAsyAmi	
 
-*SENT: vAnarasya vacanam AkarNya makaraH wam naxyAH watam prawyanayaw
+SENT: vAnarasya vacanam AkarNya makaraH wam naxyAH watam prawyanayaw
 ANALYSIS:
 1	vAnarasya	RaRTIsambanXaH,2
 2	vacanam	karma,3
@@ -1758,7 +1758,7 @@ ANALYSIS:
 7	arohaw	samucciwam,8
 8	ca	
 
-*SENT: vqkRasya aXaH makaraH ciram prawIkRAm kqwvA uccEH avaxaw
+SENT: vqkRasya aXaH makaraH ciram prawIkRAm kqwvA uccEH avaxaw
 ANALYSIS:
 1	vqkRasya	upapaxasambanXaH,2
 2	aXaH	aXikaraNam,5
@@ -1769,35 +1769,35 @@ ANALYSIS:
 7	uccEH	kriyAviSeRaNam,8
 8	avaxaw	
 
-*SENT: miwra kimarWam ciram kariRyasi
+SENT: miwra kimarWam ciram kariRyasi
 ANALYSIS:
 1	miwra	samboXyaH,4
 2	kimarWam	hewuH,3
 3	ciram	kriyAviSeRaNam,4
 4	kariRyasi	
 
-*SENT: yacCa me wava hqxayam
+SENT: yacCa me wava hqxayam
 ANALYSIS:
 1	yacCa	
 2	me	sampraxAnam,2
 3	wava	RaRTIsambanXaH,4
 4	hqxayam	karma,1
 
-*SENT: aham waw svaBAryAyE neRyAmi
+SENT: aham waw svaBAryAyE neRyAmi
 ANALYSIS:
 1	aham	karwA,4
 2	waw	karma,4
 3	svaBAryAyE	wAxarWyam,4
 4	neRyAmi	
 
-*SENT: vqkRe vAnaraH surakRiwaH AsIw
+SENT: vqkRe vAnaraH surakRiwaH AsIw
 ANALYSIS:
 1	vqkRe	aXikaraNam,4
 2	vAnaraH	karwA,4
 3	surakRiwaH	karwqsamAnAXikaraNam,2
 4	AsIw	
 
-*SENT: saH prawyavaxaw viSvAsaGAwakaH mama miwrawAyE yogyaH na aswi wvam
+SENT: saH prawyavaxaw viSvAsaGAwakaH mama miwrawAyE yogyaH na aswi wvam
 ANALYSIS:
 1	saH	karwA,2
 2	prawyavaxaw	
@@ -1809,7 +1809,7 @@ ANALYSIS:
 8	aswi	
 9	wvam	karwA,9
 
-*SENT: kasyApi jIvasya xve hqxaye na BavawaH
+SENT: kasyApi jIvasya xve hqxaye na BavawaH
 ANALYSIS:
 1	kasyApi	viSeRaNam,2
 2	jIvasya	RaRTIsambanXaH,4
@@ -1818,13 +1818,13 @@ ANALYSIS:
 5	na	sambanXaH,6
 6	BavawaH	
 
-*SENT: wvam xuRtaH asi
+SENT: wvam xuRtaH asi
 ANALYSIS:
 1	wvam	karwA,3
 2	xuRtaH	karwqsamAnAXikaraNam,1
 3	asi	
 
-*SENT: na wvayA saha miwrawAm kariRyAmi
+SENT: na wvayA saha miwrawAm kariRyAmi
 ANALYSIS:
 1	na	sambanXaH,5
 2	wvayA	upapaxasambanXaH,3
@@ -1832,7 +1832,7 @@ ANALYSIS:
 4	miwrawAm	karma,5
 5	kariRyAmi	
 
-*SENT: evam buxXeH balena saH vAnaraH svaprANarakRAm akarow
+SENT: evam buxXeH balena saH vAnaraH svaprANarakRAm akarow
 ANALYSIS:
 1	evam	kriyAviSeRaNam,7
 2	buxXeH	RaRTIsambanXaH,3
@@ -1842,47 +1842,47 @@ ANALYSIS:
 6	svaprANarakRAm	karma,7
 7	akarow	
 
-*SENT: CAwraH vixyAlayam gacCawi
+SENT: CAwraH vixyAlayam gacCawi
 ANALYSIS:
 1	CAwraH	karwA,3
 2	vixyAlayam	karma,3
 3	gacCawi	
 
-*SENT: hyaH saH vixyAlayam agacCaw
+SENT: hyaH saH vixyAlayam agacCaw
 ANALYSIS:
 1	hyaH	kAlAXikaraNam,4
 2	saH	karwA,4
 3	vixyAlayam	karma,4
 4	agacCaw	
 
-*SENT: SvaH saH vixyAlayam gamiRyawi
+SENT: SvaH saH vixyAlayam gamiRyawi
 ANALYSIS:
 1	SvaH	kAlAXikaraNam,4
 2	saH	karwA,4
 3	vixyAlayam	karma,4
 4	gamiRyawi	
 
-*SENT: aham kanxukena krIdiRyAmi
+SENT: aham kanxukena krIdiRyAmi
 ANALYSIS:
 1	aham	karwA,3
 2	kanxukena	karaNam,3
 3	krIdiRyAmi	
 
-*SENT: wvam api kanxukena krIdiRyasi
+SENT: wvam api kanxukena krIdiRyasi
 ANALYSIS:
 1	wvam	karwA,4
 2	api	samucciwam,1
 3	kanxukena	karaNam,4
 4	krIdiRyasi	
 
-*SENT: saH api kanxukena krIdiRyawi
+SENT: saH api kanxukena krIdiRyawi
 ANALYSIS:
 1	saH	karwA,4
 2	api	samucciwam,1
 3	kanxukena	karaNam,4
 4	krIdiRyawi	
 
-*SENT: CAwrAH SyAma-pate praSnAn leKiRyanwi
+SENT: CAwrAH SyAma-pate praSnAn leKiRyanwi
 ANALYSIS:
 1	CAwrAH	karwA,4
 2	SyAma-pate	aXikaraNam,4
@@ -1896,60 +1896,60 @@ ANALYSIS:
 3	ca	samucciwam,2
 4	corayiRyAmaH	
 
-*SENT: yUyam puswakAni paTiRyaWa
+SENT: yUyam puswakAni paTiRyaWa
 ANALYSIS:
 1	yUyam	karwA,3
 2	puswakAni	karma,3
 3	paTiRyaWa	
 
-*SENT: AvAm ISvaram pUjayiRyAvaH
+SENT: AvAm ISvaram pUjayiRyAvaH
 ANALYSIS:
 1	AvAm	karwA,3
 2	ISvaram	karma,3
 3	pUjayiRyAvaH	
 
-*SENT: bAlike ABURaNAni XArayiRyawaH
+SENT: bAlike ABURaNAni XArayiRyawaH
 ANALYSIS:
 1	bAlike	prayojakakarwA,3
 2	ABURaNAni	karma,3
 3	XArayiRyawaH	
 
-*SENT: yuvAm uxyAnAw puRpANi AneRyaWaH
+SENT: yuvAm uxyAnAw puRpANi AneRyaWaH
 ANALYSIS:
 1	yuvAm	karwA,4
 2	uxyAnAw	apAxAnam,4
 3	puRpANi	karma,4
 4	AneRyaWaH	
 
-*SENT: guruH rAmasya kaWAm kaWayiRyawi
+SENT: guruH rAmasya kaWAm kaWayiRyawi
 ANALYSIS:
 1	guruH	karwA,4
 2	rAmasya	RaRTIsambanXaH,3
 3	kaWAm	karma,4
 4	kaWayiRyawi	
 
-*SENT: guruH rAmasya kaWAm kaWayiRyawi
+SENT: guruH rAmasya kaWAm kaWayiRyawi
 ANALYSIS:
 1	guruH	prayojakakarwA,4
 2	rAmasya	RaRTIsambanXaH,3
 3	kaWAm	karma,4
 4	kaWayiRyawi	
 
-*SENT: aham naxyAH jalam pAsyAmi
+SENT: aham naxyAH jalam pAsyAmi
 ANALYSIS:
 1	aham	karwA,4
 2	naxyAH	RaRTIsambanXaH,3
 3	jalam	karma,4
 4	pAsyAmi	
 
-*SENT: vIrAH SawruRu iRUn kRepsyanwi
+SENT: vIrAH SawruRu iRUn kRepsyanwi
 ANALYSIS:
 1	vIrAH	karwA,4
 2	SawruRu	aXikaraNam,4
 3	iRUn	karma,4
 4	kRepsyanwi	
 
-*SENT: SvaH prAwaH vayam ISvaram naMsyAmaH
+SENT: SvaH prAwaH vayam ISvaram naMsyAmaH
 ANALYSIS:
 1	SvaH	kAlAXikaraNam,5
 2	prAwaH	kAlAXikaraNam,5
@@ -1957,7 +1957,7 @@ ANALYSIS:
 4	ISvaram	karma,5
 5	naMsyAmaH	
 
-*SENT: yUyam sarovarasya jalena haswO kRAlayiRyaWa
+SENT: yUyam sarovarasya jalena haswO kRAlayiRyaWa
 ANALYSIS:
 1	yUyam	karwA,5
 2	sarovarasya	RaRTIsambanXaH,3
@@ -1965,7 +1965,7 @@ ANALYSIS:
 4	haswO	karma,5
 5	kRAlayiRyaWa	
 
-*SENT: yUyam sarovarasya jalena haswO kRAlayiRyaWa
+SENT: yUyam sarovarasya jalena haswO kRAlayiRyaWa
 ANALYSIS:
 1	yUyam	prayojakakarwA,5
 2	sarovarasya	RaRTIsambanXaH,3
@@ -1973,7 +1973,7 @@ ANALYSIS:
 4	haswO	karma,5
 5	kRAlayiRyaWa	
 
-*SENT: sanXyAyAm kanyAH xevawAyAH pUjAm kariRyanwi
+SENT: sanXyAyAm kanyAH xevawAyAH pUjAm kariRyanwi
 ANALYSIS:
 1	sanXyAyAm	aXikaraNam,5
 2	kanyAH	karwA,5
@@ -1981,7 +1981,7 @@ ANALYSIS:
 4	pUjAm	karma,5
 5	kariRyanwi	
 
-*SENT: sanXyAyAm kanyAH xevawAyAH pUjAm kariRyanwi
+SENT: sanXyAyAm kanyAH xevawAyAH pUjAm kariRyanwi
 ANALYSIS:
 1	sanXyAyAm	aXikaraNam,5
 2	kanyAH	karwA,5
@@ -1989,7 +1989,7 @@ ANALYSIS:
 4	pUjAm	karma,5
 5	kariRyanwi	
 
-*SENT: nqpasya AjFayA xAsaH Xenum grAmAw bahiH neRyawi
+SENT: nqpasya AjFayA xAsaH Xenum grAmAw bahiH neRyawi
 ANALYSIS:
 1	nqpasya	RaRTIsambanXaH,2
 2	AjFayA	hewuH,7
@@ -1999,7 +1999,7 @@ ANALYSIS:
 6	bahiH	aXikaraNam,7
 7	neRyawi	
 
-*SENT: vAyunA warUNAm PalAni sarovarasya jale pawiRyanwi
+SENT: vAyunA warUNAm PalAni sarovarasya jale pawiRyanwi
 ANALYSIS:
 1	vAyunA	karaNam,6
 2	warUNAm	RaRTIsambanXaH,3
@@ -2008,132 +2008,132 @@ ANALYSIS:
 5	jale	aXikaraNam,6
 6	pawiRyanwi	
 
-*SENT: agniH vanasya vqkRAn XakRyawi
+SENT: agniH vanasya vqkRAn XakRyawi
 ANALYSIS:
 1	agniH	karwA,4
 2	vanasya	RaRTIsambanXaH,3
 3	vqkRAn	karma,4
 4	XakRyawi	
 
-*SENT: vAnarANAm samUhAH vqkReRu kUrxiRyanwe
+SENT: vAnarANAm samUhAH vqkReRu kUrxiRyanwe
 ANALYSIS:
 1	vAnarANAm	RaRTIsambanXaH,2
 2	samUhAH	karwA,4
 3	vqkReRu	aXikaraNam,4
 4	kUrxiRyanwe	
 
-*SENT: aham upavanasya SoBAm xrakRyAmi
+SENT: aham upavanasya SoBAm xrakRyAmi
 ANALYSIS:
 1	aham	karwA,4
 2	upavanasya	RaRTIsambanXaH,3
 3	SoBAm	karma,4
 4	xrakRyAmi	
 
-*SENT: saH parIkRAyE yawnena paTawi
+SENT: saH parIkRAyE yawnena paTawi
 ANALYSIS:
 1	saH	karwA,4
 2	parIkRAyE	wAxarWyam,4
 3	yawnena	kriyAviSeRaNam,4
 4	paTawi
 
-*SENT: wO parIkRAyE yawnena paTewAm
+SENT: wO parIkRAyE yawnena paTewAm
 ANALYSIS:
 1	wO	karwA,4
 2	parIkRAyE	wAxarWyam,4
 3	yawnena	kriyAviSeRaNam,4
 4	paTewAm	
 
-*SENT: we parIkRAyE yawnena paTeyuH
+SENT: we parIkRAyE yawnena paTeyuH
 ANALYSIS:
 1	we	karwA,4
 2	parIkRAyE	wAxarWyam,4
 3	yawnena	kriyAviSeRaNam,4
 4	paTeyuH	
 
-*SENT: wvam XAnyam wolayasi
+SENT: wvam XAnyam wolayasi
 ANALYSIS:
 1	wvam	karwA,3
 2	XAnyam	karma,3
 3	wolayasi	
 
-*SENT: wvam XAnyam wolayasi
+SENT: wvam XAnyam wolayasi
 ANALYSIS:
 1	wvam	prayojakakarwA,3
 2	XAnyam	karma,3
 3	wolayasi	
 
-*SENT: wvam XAnyam wolayeH
+SENT: wvam XAnyam wolayeH
 ANALYSIS:
 1	wvam	karwA,3
 2	XAnyam	karma,3
 3	wolayeH	
 
-*SENT: wvam XAnyam wolayeH
+SENT: wvam XAnyam wolayeH
 ANALYSIS:
 1	wvam	prayojakakarwA,3
 2	XAnyam	karma,3
 3	wolayeH	
 
-*SENT: yuvAm XAnyam wolayewam
+SENT: yuvAm XAnyam wolayewam
 ANALYSIS:
 1	yuvAm	karwA,3
 2	XAnyam	karma,3
 3	wolayewam	
 
-*SENT: yuvAm XAnyam wolayewam
+SENT: yuvAm XAnyam wolayewam
 ANALYSIS:
 1	yuvAm	prayojakakarwA,3
 2	XAnyam	karma,3
 3	wolayewam	
 
-*SENT: yUyam XAnyam wolayewa
+SENT: yUyam XAnyam wolayewa
 ANALYSIS:
 1	yUyam	karwA,3
 2	XAnyam	karma,3
 3	wolayewa	
 
-*SENT: yUyam XAnyam wolayewa
+SENT: yUyam XAnyam wolayewa
 ANALYSIS:
 1	yUyam	prayojakakarwA,3
 2	XAnyam	karma,3
 3	wolayewa	
 
-*SENT: aham prawixinam vixyAlayam gacCAmi
+SENT: aham prawixinam vixyAlayam gacCAmi
 ANALYSIS:
 1	aham	karwA,4
 2	prawixinam	kAlAXikaraNam,4
 3	vixyAlayam	karma,4
 4	gacCAmi	
 
-*SENT: aham prawixinam vixyAlayam gacCeyam
+SENT: aham prawixinam vixyAlayam gacCeyam
 ANALYSIS:
 1	aham	karwA,4
 2	prawixinam	kAlAXikaraNam,4
 3	vixyAlayam	karma,4
 4	gacCeyam	
 
-*SENT: AvAm prawixinam vixyAlayam gacCeva
+SENT: AvAm prawixinam vixyAlayam gacCeva
 ANALYSIS:
 1	AvAm	karwA,4
 2	prawixinam	kAlAXikaraNam,4
 3	vixyAlayam	karma,4
 4	gacCeva	
 
-*SENT: vayam prawixinam vixyAlayam gacCema
+SENT: vayam prawixinam vixyAlayam gacCema
 ANALYSIS:
 1	vayam	karwA,4
 2	prawixinam	kAlAXikaraNam,4
 3	vixyAlayam	karma,4
 4	gacCema	
 
-*SENT: sarvaxA sUryoxayAw prAk uwwiRTew
+SENT: sarvaxA sUryoxayAw prAk uwwiRTew
 ANALYSIS:
 1	sarvaxA	kAlAXikaraNam,4
 2	sUryoxayAw	upapaxasambanXaH,3
 3	prAk	kAlAXikaraNam,4
 4	uwwiRTew	
 
-*SENT: kasyApi vikalAfgasya narasya xarSanena subAlakAH na haseyuH
+SENT: kasyApi vikalAfgasya narasya xarSanena subAlakAH na haseyuH
 ANALYSIS:
 1	kasyApi	viSeRaNam,3
 2	vikalAfgasya	viSeRaNam,3
@@ -2143,7 +2143,7 @@ ANALYSIS:
 6	na	sambanXaH,7
 7	haseyuH	
 
-*SENT: sAXavaH saMkate api XEryam na wyajeyuH
+SENT: sAXavaH saMkate api XEryam na wyajeyuH
 ANALYSIS:
 1	sAXavaH	karwA,6
 2	saMkate	aXikaraNam,6
@@ -2164,7 +2164,7 @@ ANALYSIS:
 8	kaWam	kriyAviSeRaNam,9
 9	uwwarew	prawiyogI,2
 
-*SENT: paNdiwAnAm samAje apaNdiwAH mOnam BajeyuH
+SENT: paNdiwAnAm samAje apaNdiwAH mOnam BajeyuH
 ANALYSIS:
 1	paNdiwAnAm	RaRTIsambanXaH,2
 2	samAje	aXikaraNam,1
@@ -2172,14 +2172,14 @@ ANALYSIS:
 4	mOnam	karma,5
 5	BajeyuH	
 
-*SENT: AvAm miwrANi na vismarAva
+SENT: AvAm miwrANi na vismarAva
 ANALYSIS:
 1	AvAm	karwA,4
 2	miwrANi	karma,4
 3	na	sambanXaH,4
 4	vismarAva	
 
-*SENT: jIviwasya hewoH api Xarmam na wyajew
+SENT: jIviwasya hewoH api Xarmam na wyajew
 ANALYSIS:
 1	jIviwasya	RaRTIsambanXaH,2
 2	hewoH	hewuH,6
@@ -2188,7 +2188,7 @@ ANALYSIS:
 5	na	sambanXaH,6
 6	wyajew	
 
-*SENT: sajjanAH xurjanAnAm saMgawO na wiRTeyuH
+SENT: sajjanAH xurjanAnAm saMgawO na wiRTeyuH
 ANALYSIS:
 1	sajjanAH	karwA,5
 2	xurjanAnAm	RaRTIsambanXaH,3
@@ -2228,33 +2228,33 @@ ANALYSIS:
 6	ca	karma,7
 7	cinwayew	
 
-*SENT: puwrAH sucariwEH piwarO prINayeyuH
+SENT: puwrAH sucariwEH piwarO prINayeyuH
 ANALYSIS:
 1	puwrAH	karwA,4
 2	sucariwEH	karaNam,4
 3	piwarO	karma,4
 4	prINayeyuH	
 
-*SENT: wqRiwAya jalam yacCew
+SENT: wqRiwAya jalam yacCew
 ANALYSIS:
 1	wqRiwAya	sampraxAnam,3
 2	jalam	karma,3
 3	yacCew	
 
-*SENT: aham vixyAlayam gamiRyAmi
+SENT: aham vixyAlayam gamiRyAmi
 ANALYSIS:
 1	aham	karwA,3
 2	vixyAlayam	karma,3
 3	gamiRyAmi	
 
-*SENT: wawra aham vixyA-aXyayanam kariRyAmi
+SENT: wawra aham vixyA-aXyayanam kariRyAmi
 ANALYSIS:
 1	wawra	xeSAXikaraNam,4
 2	aham	karwA,4
 3	vixyA-aXyayanam	karma,4
 4	kariRyAmi	
 
-*SENT: aham vixyAlayam gawvA vixyA-aXyayanam kariRyAmi
+SENT: aham vixyAlayam gawvA vixyA-aXyayanam kariRyAmi
 ANALYSIS:
 1	aham	karwA,5
 2	vixyAlayam	karma,3
@@ -2262,20 +2262,20 @@ ANALYSIS:
 4	vixyA-aXyayanam	karma,5
 5	kariRyAmi	
 
-*SENT: bAlikAH uxyAne akrIdan
+SENT: bAlikAH uxyAne akrIdan
 ANALYSIS:
 1	bAlikAH	karwA,3
 2	uxyAne	aXikaraNam,3
 3	akrIdan	
 
-*SENT: waxA wAH gqham AgacCan
+SENT: waxA wAH gqham AgacCan
 ANALYSIS:
 1	waxA	kAlAXikaraNam,4
 2	wAH	karwA,4
 3	gqham	karma,4
 4	AgacCan	
 
-*SENT: uxyAne krIdiwvA bAlikAH gqham AgacCan
+SENT: uxyAne krIdiwvA bAlikAH gqham AgacCan
 ANALYSIS:
 1	uxyAne	aXikaraNam,5
 2	krIdiwvA	pUrvakAlaH,5
@@ -2283,7 +2283,7 @@ ANALYSIS:
 4	gqham	karma,5
 5	AgacCan	
 
-*SENT: wvam paraSunA vqkRam kqnwasi
+SENT: wvam paraSunA vqkRam kqnwasi
 ANALYSIS:
 1	wvam	karwA,4
 2	paraSunA	karaNam,4
@@ -2297,7 +2297,7 @@ ANALYSIS:
 3	Anayasi	samucciwam,4
 4	ca	
 
-*SENT: paraSunA vqkRam karwiwvA wvam inXanam Anayasi
+SENT: paraSunA vqkRam karwiwvA wvam inXanam Anayasi
 ANALYSIS:
 1	paraSunA	karaNam,3
 2	vqkRam	karma,3
@@ -2306,19 +2306,19 @@ ANALYSIS:
 5	inXanam	muKyakarma,6
 6	Anayasi	
 
-*SENT: saH naxIm gamiRyawi
+SENT: saH naxIm gamiRyawi
 ANALYSIS:
 1	saH	karwA,3
 2	naxIm	karma,3
 3	gamiRyawi	
 
-*SENT: wawra saH mafkRyawi
+SENT: wawra saH mafkRyawi
 ANALYSIS:
 1	wawra	xeSAXikaraNam,3
 2	saH	karwA,3
 3	mafkRyawi	
 
-*SENT: naxIm gawvA saH mafkRyawi
+SENT: naxIm gawvA saH mafkRyawi
 ANALYSIS:
 1	naxIm	karma,2
 2	gawvA	pUrvakAlaH,4
@@ -2334,7 +2334,7 @@ ANALYSIS:
 5	xAsyawi	samucciwam,6
 6	ca	
 
-*SENT: ABURaNAni racayiwvA svarNakAraH mahilAyE xAsyawi
+SENT: ABURaNAni racayiwvA svarNakAraH mahilAyE xAsyawi
 ANALYSIS:
 1	ABURaNAni	karma,2
 2	racayiwvA	pUrvakAlaH,5
@@ -2342,7 +2342,7 @@ ANALYSIS:
 4	mahilAyE	sampraxAnam,5
 5	xAsyawi	
 
-*SENT: Sawrum jewum nqpaH raWena yuxXasWalam gacCawi
+SENT: Sawrum jewum nqpaH raWena yuxXasWalam gacCawi
 ANALYSIS:
 1	Sawrum	karma,2
 2	jewum	prayojanam,6
@@ -2351,7 +2351,7 @@ ANALYSIS:
 5	yuxXasWalam	karma,6
 6	gacCawi	
 
-*SENT: uxyAnasya SoBAm xraRtum aham wawra AgacCam
+SENT: uxyAnasya SoBAm xraRtum aham wawra AgacCam
 ANALYSIS:
 1	uxyAnasya	RaRTIsambanXaH,2
 2	SoBAm	karma,3
@@ -2360,7 +2360,7 @@ ANALYSIS:
 5	wawra	xeSAXikaraNam,6
 6	AgacCam	
 
-*SENT: svarNakAraH ABURaNAni racayiwum svarNam Anayaw
+SENT: svarNakAraH ABURaNAni racayiwum svarNam Anayaw
 ANALYSIS:
 1	svarNakAraH	karwA,5
 2	ABURaNAni	karma,3
@@ -2368,7 +2368,7 @@ ANALYSIS:
 4	svarNam	muKyakarma,5
 5	Anayaw	
 
-*SENT: jalam pAwum saH iwaswawaH aBramaw
+SENT: jalam pAwum saH iwaswawaH aBramaw
 ANALYSIS:
 1	jalam	karma,2
 2	pAwum	prayojanam,5
@@ -2376,7 +2376,7 @@ ANALYSIS:
 4	iwaswawaH	kriyAviSeRaNam,5
 5	aBramaw	
 
-*SENT: praSnam leKiwum aham puswikAm AnayAmi
+SENT: praSnam leKiwum aham puswikAm AnayAmi
 ANALYSIS:
 1	praSnam	karma,2
 2	leKiwum	prayojanam,5
@@ -2384,7 +2384,7 @@ ANALYSIS:
 4	puswikAm	karma,5
 5	AnayAmi	
 
-*SENT: naxyAH wate ekaH vqkRaH aswi
+SENT: naxyAH wate ekaH vqkRaH aswi
 ANALYSIS:
 1	naxyAH	RaRTIsambanXaH,2
 2	wate	aXikaraNam,5
@@ -2392,7 +2392,7 @@ ANALYSIS:
 4	vqkRaH	karwA,5
 5	aswi	
 
-*SENT: vqkRasya samIpam ekA SilA aswi
+SENT: vqkRasya samIpam ekA SilA aswi
 ANALYSIS:
 1	vqkRasya	RaRTIsambanXaH,2
 2	samIpam	aXikaraNam,5
@@ -2400,40 +2400,40 @@ ANALYSIS:
 4	SilA	karwA,5
 5	aswi	
 
-*SENT: vqkRasya SAKAsu nIdAH sanwi
+SENT: vqkRasya SAKAsu nIdAH sanwi
 ANALYSIS:
 1	vqkRasya	RaRTIsambanXaH,2
 2	SAKAsu	aXikaraNam,4
 3	nIdAH	karwA,4
 4	sanwi	
 
-*SENT: nIdeRu vihagAH vasanwi
+SENT: nIdeRu vihagAH vasanwi
 ANALYSIS:
 1	nIdeRu	aXikaraNam,3
 2	vihagAH	karwA,3
 3	vasanwi
 
-*SENT: nIdAH vihagAn rakRanwi
+SENT: nIdAH vihagAn rakRanwi
 ANALYSIS:
 1	nIdAH	karwA,3
 2	vihagAn	karma,3
 3	rakRanwi	
 
-*SENT: vqkRasya aXaH vAnarAH sanwi
+SENT: vqkRasya aXaH vAnarAH sanwi
 ANALYSIS:
 1	vqkRasya	upapaxasambanXaH,2
 2	aXaH	aXikaraNam,4
 3	vAnarAH	karwA,4
 4	sanwi	
 
-*SENT: kapayaH gqham na racayanwi
+SENT: kapayaH gqham na racayanwi
 ANALYSIS:
 1	kapayaH	karwA,4
 2	gqham	karma,4
 3	na	sambanXaH,4
 4	racayanwi	
 
-*SENT: we sarvaxA iwaswawaH Bramanwi
+SENT: we sarvaxA iwaswawaH Bramanwi
 ANALYSIS:
 1	we	karwA,4
 2	sarvaxA	kAlAXikaraNam,4
@@ -2453,7 +2453,7 @@ ANALYSIS:
 9	pAram	kriyAviSeRaNam,10
 10	gacCanwi	
 
-*SENT: ekasmin xivase SIwam wAn pIdayawi
+SENT: ekasmin xivase SIwam wAn pIdayawi
 ANALYSIS:
 1	ekasmin	viSeRaNam,2
 2	xivase	aXikaraNam,5
@@ -2461,7 +2461,7 @@ ANALYSIS:
 4	wAn	karma,5
 5	pIdayawi	
 
-*SENT: we SIwAw wrANAya agnim icCanwi
+SENT: we SIwAw wrANAya agnim icCanwi
 ANALYSIS:
 1	we	karwA,5
 2	SIwAw	apAxAnam,3
@@ -2469,7 +2469,7 @@ ANALYSIS:
 4	agnim	karma,5
 5	icCanwi	
 
-*SENT: kuwrApi we agnim na vinxanwi
+SENT: kuwrApi we agnim na vinxanwi
 ANALYSIS:
 1	kuwrApi	aXikaraNam,5
 2	we	karwA,5
@@ -2477,21 +2477,21 @@ ANALYSIS:
 4	na	sambanXaH,5
 5	vinxanwi	
 
-*SENT: ekaH guFjAyAH PalAni paSyawi
+SENT: ekaH guFjAyAH PalAni paSyawi
 ANALYSIS:
 1	ekaH	karwA,4
 2	guFjAyAH	RaRTIsambanXaH,3
 3	PalAni	karma,4
 4	paSyawi	
 
-*SENT: guFjAyAH PalAni rakwAni sanwi
+SENT: guFjAyAH PalAni rakwAni sanwi
 ANALYSIS:
 1	guFjAyAH	RaRTIsambanXaH,2
 2	PalAni	karwA,4
 3	rakwAni	karwqsamAnAXikaraNam,4
 4	sanwi	
 
-*SENT: awaH saH agneH saxqSAni guFjAyAH PalAni Anayawi
+SENT: awaH saH agneH saxqSAni guFjAyAH PalAni Anayawi
 ANALYSIS:
 1	awaH	hewuH,7
 2	saH	karwA,7
@@ -2501,7 +2501,7 @@ ANALYSIS:
 6	PalAni	muKyakarma,7
 7	Anayawi	
 
-*SENT: xviwIyaH wAni guFjAyAH PalAni SilAyAm saMharawi
+SENT: xviwIyaH wAni guFjAyAH PalAni SilAyAm saMharawi
 ANALYSIS:
 1	xviwIyaH	karwA,6
 2	wAni	viSeRaNam,4
@@ -2510,7 +2510,7 @@ ANALYSIS:
 5	SilAyAm	aXikaraNam,6
 6	saMharawi	
 
-*SENT: wawaH we sarve guFjAPalam pariwaH upaviSanwi
+SENT: wawaH we sarve guFjAPalam pariwaH upaviSanwi
 ANALYSIS:
 1	wawaH	samucciwam,6
 2	we	viSeRaNam,3
@@ -2519,7 +2519,7 @@ ANALYSIS:
 5	pariwaH	aXikaraNam,6
 6	upaviSanwi	ananwarakAlaH,1
 
-*SENT: agneH icCayA we muKEH wAni Xamanwi
+SENT: agneH icCayA we muKEH wAni Xamanwi
 ANALYSIS:
 1	agneH	karma,2
 2	icCayA	hewuH,6
@@ -2528,7 +2528,7 @@ ANALYSIS:
 5	wAni	karma,6
 6	Xamanwi	
 
-*SENT: kinwu we agnim na vinxanwi
+SENT: kinwu we agnim na vinxanwi
 ANALYSIS:
 1	kinwu	
 2	we	karwA,5
@@ -2536,7 +2536,7 @@ ANALYSIS:
 4	na	sambanXaH,5
 5	vinxanwi	samucciwam,1
 
-*SENT: we vAnarAH analAya vqWA AyAsam kurvanwi
+SENT: we vAnarAH analAya vqWA AyAsam kurvanwi
 ANALYSIS:
 1	we	viSeRaNam,2
 2	vAnarAH	karwA,6
@@ -2545,32 +2545,32 @@ ANALYSIS:
 5	AyAsam	karma,6
 6	kurvanwi	
 
-*SENT: weRAm SIwam na naSyawi
+SENT: weRAm SIwam na naSyawi
 ANALYSIS:
 1	weRAm	RaRTIsambanXaH,2
 2	SIwam	karwA,4
 3	na	sambanXaH,4
 4	naSyawi	
 
-*SENT: kapayaH mUrKAH sanwi
+SENT: kapayaH mUrKAH sanwi
 ANALYSIS:
 1	kapayaH	karwA,3
 2	mUrKAH	karwqsamAnAXikaraNam,3
 3	sanwi	
 
-*SENT: CAwrAH puswakam paTanwi
+SENT: CAwrAH puswakam paTanwi
 ANALYSIS:
 1	CAwrAH	karwA,3
 2	puswakam	karma,3
 3	paTanwi	
 
-*SENT: CAwrAH rAmAyaNam paTanwi
+SENT: CAwrAH rAmAyaNam paTanwi
 ANALYSIS:
 1	CAwrAH	karwA,3
 2	rAmAyaNam	karma,3
 3	paTanwi	
 
-*SENT: vAlmIkiH rAmAyaNe rAmasya cariwram aliKaw
+SENT: vAlmIkiH rAmAyaNe rAmasya cariwram aliKaw
 ANALYSIS:
 1	vAlmIkiH	karwA,5
 2	rAmAyaNe	aXikaraNam,5
@@ -2578,7 +2578,7 @@ ANALYSIS:
 4	cariwram	karma,5
 5	aliKaw	
 
-*SENT: vane rAkRasAH munIn apIdayan
+SENT: vane rAkRasAH munIn apIdayan
 ANALYSIS:
 1	vane	aXikaraNam,4
 2	rAkRasAH	karwA,4
@@ -2616,7 +2616,7 @@ ANALYSIS:
 16	vanam	karma,17
 17	AgacCawAm	
 
-*SENT: wawra wO rAkRasAnAm vaXam akuruwAm
+SENT: wawra wO rAkRasAnAm vaXam akuruwAm
 ANALYSIS:
 1	wawra	xeSAXikaraNam,5
 2	wO	karwA,5
@@ -2624,7 +2624,7 @@ ANALYSIS:
 4	vaXam	karma,5
 5	akuruwAm	
 
-*SENT: evam wO muneH yajFam pUrNam akuruwAm
+SENT: evam wO muneH yajFam pUrNam akuruwAm
 ANALYSIS:
 1	evam	kriyAviSeRaNam,6
 2	wO	karwA,6
@@ -2644,7 +2644,7 @@ ANALYSIS:
 7	miWilAm	karma,8
 8	AgacCawAm	
 
-*SENT: wawra sIwAyAH svayaMvaraH AsIw
+SENT: wawra sIwAyAH svayaMvaraH AsIw
 ANALYSIS:
 1	wawra	xeSAXikaraNam,4
 2	sIwAyAH	RaRTIsambanXaH,3
@@ -2661,7 +2661,7 @@ ANALYSIS:
 6	paryaNayaw	samucciwam,7
 7	ca	
 
-*SENT: xaSaraWasya AjFayA rAmaH vanam AgacCaw
+SENT: xaSaraWasya AjFayA rAmaH vanam AgacCaw
 ANALYSIS:
 1	xaSaraWasya	RaRTIsambanXaH,2
 2	AjFayA	hewuH,5
@@ -2679,7 +2679,7 @@ ANALYSIS:
 6	vanam	karma,7
 7	AgacCawAm	
 
-*SENT: yaxA rAmaH vane AsIw waxA BarawaH ayoXyAyAm rAjyam akarow
+SENT: yaxA rAmaH vane AsIw waxA BarawaH ayoXyAyAm rAjyam akarow
 ANALYSIS:
 1	yaxA
 2	rAmaH	karwA,4
@@ -2699,7 +2699,7 @@ ANALYSIS:
 4	ca	karma,5
 5	akarow	
 
-*SENT: wawra vane rAmaH ASramam akarow
+SENT: wawra vane rAmaH ASramam akarow
 ANALYSIS:
 1	wawra	xeSAXikaraNam,5
 2	vane	aXikaraNam,5
@@ -2735,7 +2735,7 @@ ANALYSIS:
 15	sIwAm	karma,16
 16	aharaw	prawiyogI,2
 
-*SENT: wO kuwrApi sIwAm na apaSyawAm
+SENT: wO kuwrApi sIwAm na apaSyawAm
 ANALYSIS:
 1	wO	karwA,5
 2	kuwrApi	aXikaraNam,5
@@ -2743,7 +2743,7 @@ ANALYSIS:
 4	na	sambanXaH,5
 5	apaSyawAm	
 
-*SENT: rAmaH sugrIvasya sahAyawayA laMkAm aByaxravaw
+SENT: rAmaH sugrIvasya sahAyawayA laMkAm aByaxravaw
 ANALYSIS:
 1	rAmaH	karwA,5
 2	sugrIvasya	RaRTIsambanXaH,3
@@ -2762,14 +2762,14 @@ ANALYSIS:
 7	ca	
 8	akarow	samucciwam,7
 
-*SENT: waxA rAmaH sIwAm amilaw
+SENT: waxA rAmaH sIwAm amilaw
 ANALYSIS:
 1	waxA	kAlAXikaraNam,4
 2	rAmaH	karwA,4
 3	sIwAm	karma,4
 4	amilaw	
 
-*SENT: laMkAyAH rAjye viBIRaNasya rAjyABiRekam kqwvA we vAyuyAnena ayoXyAm prawi AgacCan
+SENT: laMkAyAH rAjye viBIRaNasya rAjyABiRekam kqwvA we vAyuyAnena ayoXyAm prawi AgacCan
 ANALYSIS:
 1	laMkAyAH	RaRTIsambanXaH,2
 2	rAjye	aXikaraNam,5
@@ -2782,20 +2782,20 @@ ANALYSIS:
 9	prawi	sambanXaH,10
 10	AgacCan	
 
-*SENT: BarawaH rAmAya rAjyaBAram ayacCaw
+SENT: BarawaH rAmAya rAjyaBAram ayacCaw
 ANALYSIS:
 1	BarawaH	karwA,4
 2	rAmAya	sampraxAnam,4
 3	rAjyaBAram	karma,4
 4	ayacCaw	
 
-*SENT: rAmaH rAjyam akarow
+SENT: rAmaH rAjyam akarow
 ANALYSIS:
 1	rAmaH	karwA,3
 2	rAjyam	karma,3
 3	akarow	
 
-*SENT: wasya rAjyakAle janAH saMwuRtAH Asan
+SENT: wasya rAjyakAle janAH saMwuRtAH Asan
 ANALYSIS:
 1	wasya	RaRTIsambanXaH,2
 2	rAjyakAle	aXikaraNam,5
@@ -2803,7 +2803,7 @@ ANALYSIS:
 4	saMwuRtAH	karwqsamAnAXikaraNam,5
 5	Asan	
 
-*SENT: AsIw kaSciw viRamaSIla nAma samrAt
+SENT: AsIw kaSciw viRamaSIla nAma samrAt
 ANALYSIS:
 1	AsIw	
 2	kaSciw	karwA
@@ -2811,7 +2811,7 @@ ANALYSIS:
 4	nAma	karwqsamAnAXikaraNam,4		
 5	samrAt	karwA,1
 
-*SENT: wasya wrayaH puwrAH Asan
+SENT: wasya wrayaH puwrAH Asan
 ANALYSIS:
 1	wasya	RaRTIsambanXaH,2
 2	wrayaH	viSeRaNam,3
@@ -2844,7 +2844,7 @@ ANALYSIS:
 10	aXivasawu	
 11	rAjyam	karma,10
 
-*SENT: balena vijayawAm SawrUn kareNa koRam Barawu
+SENT: balena vijayawAm SawrUn kareNa koRam Barawu
 ANALYSIS:
 1	balena	karaNam,2
 2	vijayawAm	
@@ -2853,7 +2853,7 @@ ANALYSIS:
 5	koRam	karma,6
 6	Barawu	
 
-*SENT: SikRAyE yawawAm guNeByaH spqhyawu xuRteByaH kruXyawu
+SENT: SikRAyE yawawAm guNeByaH spqhyawu xuRteByaH kruXyawu
 ANALYSIS:
 1	SikRAyE	wAxarWyam,2
 2	yawawAm	
@@ -2862,7 +2862,7 @@ ANALYSIS:
 5	xuRteByaH	sampraxAnam,6
 6	kruXyawu	
 
-*SENT: pApAw viramawu niwyam mA aXyayanAw parAjayawAm
+SENT: pApAw viramawu niwyam mA aXyayanAw parAjayawAm
 ANALYSIS:
 1	pApAw	apAxAnam,2
 2	viramawu	
@@ -2891,7 +2891,7 @@ ANALYSIS:
 16	paryEkRaw	
 17	viRamaSIlaH	karwA,16
 
-*SENT: saH rAjA svAn puwrAn sahaBojanAya akaWayaw
+SENT: saH rAjA svAn puwrAn sahaBojanAya akaWayaw
 ANALYSIS:
 1	saH	viSeRaNam,2
 2	rAjA	karwA,5
@@ -2900,7 +2900,7 @@ ANALYSIS:
 5	sahaBojanAya	wAxarWyam,5
 6	akaWayaw	
 
-*SENT: Bojanam upawiRTawsu puwreRu saH gupwaxvArAw wrIn hiMsakAn sArameyAn api prERayaw
+SENT: Bojanam upawiRTawsu puwreRu saH gupwaxvArAw wrIn hiMsakAn sArameyAn api prERayaw
 ANALYSIS:
 1	Bojanam	karma,2
 2	upawiRTawsu	pUrvakAlaH,10
@@ -2913,7 +2913,7 @@ ANALYSIS:
 9	api	sambanXaH,8
 10	prERayaw	
 
-*SENT: hiMsakeByaH sArameyeByaH BIwaH ekaH puwraH palAyanam akarow
+SENT: hiMsakeByaH sArameyeByaH BIwaH ekaH puwraH palAyanam akarow
 ANALYSIS:
 1	hiMsakeByaH	viSeRaNam,2
 2	sArameyeByaH	apAxAnam,3
@@ -2923,7 +2923,7 @@ ANALYSIS:
 6	palAyanam	karma,7
 7	akarow	
 
-*SENT: xviwIyaH BaRamANAn kukkurAn karavAlaBayena vaSIkqwya Bojanam aKAxaw
+SENT: xviwIyaH BaRamANAn kukkurAn karavAlaBayena vaSIkqwya Bojanam aKAxaw
 ANALYSIS:
 1	xviwIyaH	karwA,7
 2	BaRamANAn	viSeRaNam,3
@@ -2933,7 +2933,7 @@ ANALYSIS:
 6	Bojanam	karma,7
 7	aKAxaw	
 
-*SENT: wqwIyaH grAsam grAsam kRipan sArameyAn vaSam nayan aBakRayaw Bojanam
+SENT: wqwIyaH grAsam grAsam kRipan sArameyAn vaSam nayan aBakRayaw Bojanam
 ANALYSIS:
 1	wqwIyaH	karwA,8
 2	grAsam	karma,4
@@ -2945,7 +2945,7 @@ ANALYSIS:
 8	aBakRayaw	
 9	Bojanam	karma,8
 
-*SENT: iwWam viRamaSIlaH svapuwrANAm parIkRAm kqwvA wriRu puwreRu wqwIyam xayAluyukwimanwam ahiMsAvqwwim puwram rAjAnam akarow
+SENT: iwWam viRamaSIlaH svapuwrANAm parIkRAm kqwvA wriRu puwreRu wqwIyam xayAluyukwimanwam ahiMsAvqwwim puwram rAjAnam akarow
 ANALYSIS:
 1	iwWam	kriyAviSeRaNam,12
 2	viRamaSIlaH	karwA,12
@@ -2961,7 +2961,7 @@ ANALYSIS:
 12	rAjAnam	karmasamAnAXikaraNam,12
 13	akarow	
 
-*SENT: SiraskAnAm vikrewA ekaH vaNijaH grAmAnwaram agacCaw
+SENT: SiraskAnAm vikrewA ekaH vaNijaH grAmAnwaram agacCaw
 ANALYSIS:
 1	SiraskAnAm	RaRTIsambanXaH,2
 2	vikrewA	viSeRaNam,4
@@ -2970,14 +2970,14 @@ ANALYSIS:
 5	grAmAnwaram	karma,6
 6	agacCaw	
 
-*SENT: wasya Sirasi BAram AsIw
+SENT: wasya Sirasi BAram AsIw
 ANALYSIS:
 1	wasya	RaRTIsambanXaH,2
 2	Sirasi	aXikaraNam,4
 3	BAram	karwA,4
 4	AsIw	
 
-*SENT: awaH saH SrAnwaH aBavaw
+SENT: awaH saH SrAnwaH aBavaw
 ANALYSIS:
 1	awaH	hewuH,4
 2	saH	karwA,4
@@ -2997,7 +2997,7 @@ ANALYSIS:
 9	vyaSrAmyaw	samucciwam,10
 10	ca	
 
-*SENT: wawra eva waroH CAyAyAm saH Sayanam akarow
+SENT: wawra eva waroH CAyAyAm saH Sayanam akarow
 ANALYSIS:
 1	wawra	xeSAXikaraNam,7
 2	eva	sambanXaH,1
@@ -3007,7 +3007,7 @@ ANALYSIS:
 6	Sayanam	karma,7
 7	akarow	
 
-*SENT: wasya waroH SAKAsu vAnarAH Asan
+SENT: wasya waroH SAKAsu vAnarAH Asan
 ANALYSIS:
 1	wasya	viSeRaNam,2
 2	waroH	RaRTIsambanXaH,3
@@ -3027,7 +3027,7 @@ ANALYSIS:
 8	Sirasi	aXikaraNam,9
 9	aXArayan	samucciwam,6
 
-*SENT: wAni SiraskAni Sirasi XArayiwvA we punaH vqkRam Arohan
+SENT: wAni SiraskAni Sirasi XArayiwvA we punaH vqkRam Arohan
 ANALYSIS:
 1	wAni	viSeRaNam,2
 2	SiraskAni	karma,4
@@ -3038,7 +3038,7 @@ ANALYSIS:
 7	vqkRam	karma,8
 8	Arohan	
 
-*SENT: kapInAm Sabxena saH kapIn apaSyaw
+SENT: kapInAm Sabxena saH kapIn apaSyaw
 ANALYSIS:
 1	kapInAm	RaRTIsambanXaH,2
 2	Sabxena	hewuH,5
@@ -3046,14 +3046,14 @@ ANALYSIS:
 4	kapIn	karma,5
 5	apaSyaw	
 
-*SENT: we vqkRasya SAKAsu akUrxan
+SENT: we vqkRasya SAKAsu akUrxan
 ANALYSIS:
 1	we	karwA,4
 2	vqkRasya	RaRTIsambanXaH,3
 3	SAKAsu	aXikaraNam,4
 4	akUrxan	
 
-*SENT: kaWam SiraskAni aXigacCAmi iwi saH acinwayaw
+SENT: kaWam SiraskAni aXigacCAmi iwi saH acinwayaw
 ANALYSIS:
 1	kaWam	kriyAviSeRaNam,3
 2	SiraskAni	karma,3
@@ -3062,7 +3062,7 @@ ANALYSIS:
 5	saH	karwA,6
 6	acinwayaw	
 
-*SENT: wasya Sirasi ekam Siraskam AsIw
+SENT: wasya Sirasi ekam Siraskam AsIw
 ANALYSIS:
 1	wasya	RaRTIsambanXaH,2
 2	Sirasi	aXikaraNam,5
@@ -3079,7 +3079,7 @@ ANALYSIS:
 5	saH	karwA,6
 6	aboXaw	
 
-*SENT: awaH saH kroXAw SirasaH Siraskam aXaH akRipaw
+SENT: awaH saH kroXAw SirasaH Siraskam aXaH akRipaw
 ANALYSIS:
 1	awaH	hewuH,7
 2	saH	karwA,7
@@ -3089,14 +3089,14 @@ ANALYSIS:
 6	aXaH	aXikaraNam,7
 7	akRipaw	
 
-*SENT: vAnarAH api waWA anvakurvan
+SENT: vAnarAH api waWA anvakurvan
 ANALYSIS:
 1	vAnarAH	karwA,4
 2	api	sambanXaH,1
 3	waWA	kriyAviSeRaNam,4
 4	anvakurvan	
 
-*SENT: we SiraskAni SIrRAw aXaH akRipan
+SENT: we SiraskAni SIrRAw aXaH akRipan
 ANALYSIS:
 1	we	karwA,5
 2	SiraskAni	karma,5
@@ -3104,7 +3104,7 @@ ANALYSIS:
 4	aXaH	aXikaraNam,5
 5	akRipan	
 
-*SENT: vaNijaH api SiraskAni punaH avinxaw
+SENT: vaNijaH api SiraskAni punaH avinxaw
 ANALYSIS:
 1	vaNijaH	karwA,5
 2	api	sambanXaH,1
@@ -3121,20 +3121,20 @@ ANALYSIS:
 5	agacCaw	samucciwam,6
 6	ca	
 
-*SENT: grIRmAnanwaram varRAqwuH AgacCawi
+SENT: grIRmAnanwaram varRAqwuH AgacCawi
 ANALYSIS:
 1	grIRmAnanwaram	kAlAXikaraNam,3
 2	varRAqwuH	karwA,3
 3	AgacCawi	
 
-*SENT: varRAkAle naBaH meGAcCannaH Bavawi
+SENT: varRAkAle naBaH meGAcCannaH Bavawi
 ANALYSIS:
 1	varRAkAle	aXikaraNam,4
 2	naBaH	karwA,4
 3	meGAcCannaH	karwqsamAnAXikaraNam,3
 4	Bavawi	
 
-*SENT: prAyaH sarvawra eva vqRtiH Bavawi
+SENT: prAyaH sarvawra eva vqRtiH Bavawi
 ANALYSIS:
 1	prAyaH	kriyAviSeRaNam,5
 2	sarvawra	aXikaraNam,5
@@ -3142,20 +3142,20 @@ ANALYSIS:
 4	vqRtiH	karwA,5
 5	Bavawi	
 
-*SENT: gagane capalA visPurawi
+SENT: gagane capalA visPurawi
 ANALYSIS:
 1	gagane	aXikaraNam,3
 2	capalA	karwA,3
 3	visPurawi	
 
-*SENT: meGAH gajenxrAH iva garjanwi
+SENT: meGAH gajenxrAH iva garjanwi
 ANALYSIS:
 1	meGAH	karwA,4
 2	gajenxrAH	prawiyogI,3
 3	iva	anuyogI,1
 4	garjanwi	
 
-*SENT: kaxAcix AkASe inxracApam api xqRtigocaram Bavawi
+SENT: kaxAcix AkASe inxracApam api xqRtigocaram Bavawi
 ANALYSIS:
 1	kaxAcix	aXikaraNam,6
 2	AkASe	aXikaraNam,6
@@ -3164,7 +3164,7 @@ ANALYSIS:
 5	xqRtigocaram	karwqsamAnAXikaraNam,6
 6	Bavawi	
 
-*SENT: kvacix prakASam kvacix anXakAram Bavawi
+SENT: kvacix prakASam kvacix anXakAram Bavawi
 ANALYSIS:
 1	kvacix	aXikaraNam,5
 2	prakASam	karwA,5
@@ -3172,7 +3172,7 @@ ANALYSIS:
 4	anXakAram	karwA,5
 5	Bavawi	
 
-*SENT: varRAkAle rajaH praSAnwam Bavawi
+SENT: varRAkAle rajaH praSAnwam Bavawi
 ANALYSIS:
 1	varRAkAle	kAlAXikaraNam,4
 2	rajaH	karwA,4
@@ -3188,7 +3188,7 @@ ANALYSIS:
 5	jalaplAviwAH	karwqsamAnAXikaraNam,4
 6	Bavanwi	
 
-*SENT: sarvawra eva harIwimA Bavawi
+SENT: sarvawra eva harIwimA Bavawi
 ANALYSIS:
 1	sarvawra	aXikaraNam,4
 2	eva	sambanXaH,1
@@ -3205,7 +3205,7 @@ ANALYSIS:
 6	nqwyanwi	samucciwam,7
 7	ca	
 
-*SENT: cAwakAH kUjanwi
+SENT: cAwakAH kUjanwi
 ANALYSIS:
 1	cAwakAH	karwA,2
 2	kUjanwi	
@@ -3219,13 +3219,13 @@ ANALYSIS:
 5	vapanwi	samucciwam,6
 6	ca	
 
-*SENT: sarve Ananxam anuBavanwi
+SENT: sarve Ananxam anuBavanwi
 ANALYSIS:
 1	sarve	karwA,3
 2	Ananxam	karma,3
 3	anuBavanwi	
 
-*SENT: varRAkAle vqRtyA BUmiH paMkilA Bavawi
+SENT: varRAkAle vqRtyA BUmiH paMkilA Bavawi
 ANALYSIS:
 1	varRAkAle	kAlAXikaraNam,5
 2	vqRtyA	hewuH,5
@@ -3233,13 +3233,13 @@ ANALYSIS:
 4	paMkilA	karwqsamAnAXikaraNam,3
 5	Bavawi	
 
-*SENT: mArgAH avaruxXAH Bavanwi
+SENT: mArgAH avaruxXAH Bavanwi
 ANALYSIS:
 1	mArgAH	karwA,3
 2	avaruxXAH	karwqsamAnAXikaraNam,1
 3	Bavanwi	
 
-*SENT: paWikAH svaxeSAn prawi AgacCanwi
+SENT: paWikAH svaxeSAn prawi AgacCanwi
 ANALYSIS:
 1	paWikAH	karwA,4
 2	svaxeSAn	upapaxasambanXaH,3
@@ -3260,7 +3260,7 @@ ANALYSIS:
 10	KAxanwi	samucciwam,11
 11	ca	
 
-*SENT: grIRmarwoH Awapena pIdiwAH janAH varRAkAlasya svAgawam kurvanwi
+SENT: grIRmarwoH Awapena pIdiwAH janAH varRAkAlasya svAgawam kurvanwi
 ANALYSIS:
 1	grIRmarwoH	RaRTIsambanXaH,2
 2	Awapena	hewuH,3
