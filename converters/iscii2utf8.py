@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 
 # released under BSD License
 
@@ -11,6 +11,8 @@
 
 # for usage, either run the script or scroll down to end of the script
 
+#adapted from python2 to python3 by Sanal Vikram sanal.vikram@gmail.com Aug 3 2020
+
 import sys
 import array
 
@@ -22,7 +24,7 @@ DANDA                     = 0x0964
 DELTA                     = 0x0080
 DEV_SVARITA               = 0x0951
 DEV_ANUDATTA              = 0x0952
-DOUBLE_DANDA              = 0x0965                   
+DOUBLE_DANDA              = 0x0965
 ISCII_EXT                 = 0x00F0
 EXT_RANGE_BEGIN           = 0x00A1
 EXT_RANGE_END             = 0x00EE
@@ -56,7 +58,7 @@ ISCII_SCRIPTS = {
     0x44 : 5,  # TAMIL
     0x45 : 6,  # TELUGU
     0x46 : 1,  # ASSAMESE
-    0x47 : 4,  # ORIYA 
+    0x47 : 4,  # ORIYA
     0x48 : 7,  # KANNADA
     0x49 : 8,  # MALAYALAM
     0x4A : 3,  # GUJARATI
@@ -342,7 +344,7 @@ nukta_specials = {
     0xDB : 0x0962,
     0xDC : 0x0963
     }
-    
+
 
 special_maps = {
     ## the two points which are different between assamese and bengali
@@ -354,9 +356,9 @@ special_maps = {
 
 
 def make_script_maps():
-    _invalid_range = range(0xEB, 0xF1) + range(0xFB, 0xFF + 1)    
+    _invalid_range = list(range(0xEB, 0xF1)) + list(range(0xFB, 0xFF + 1))
     scripts = {}
-    
+
     for i in range(9):
         curr_scr = {}
 
@@ -365,18 +367,18 @@ def make_script_maps():
 
 
         for ch in range(0xA0, 0xFF + 1):
-                
+
             if (ch in _invalid_range):
                 continue
-            
+
             t = iscii_to_unicode[ch]
-            
+
             if validation_table[t & 0xFF][i]:
                 curr_scr[ch] = t
 
                 curr_scr[ch] += (i * 0x80)
 
-            
+
         scripts[i] = curr_scr
 
     for i in special_maps:
@@ -396,12 +398,12 @@ def make_invalid_maps():
 
     for i in range(9):
         curr_map = {}
-        
+
         for j in range(0xFF + 1):
-            curr_map[j] = (not script_maps[i].has_key(j)) and \
+            curr_map[j] = (j not in script_maps[i]) and \
                           (j not in ISCII_SPECIALS)
         maps[i] = curr_map
-        
+
     return maps
 
 ## setup the map of invalid characters for each script
@@ -423,35 +425,16 @@ def to_utf8(y):
     converts an array of integers to utf8 string
     """
 
-    out = []
+    return ''.join(map(chr, y))
 
-    for x in y:
 
-        if x < 0x080:
-            out.append(x)
-        elif x < 0x0800:
-            out.append((x >> 6) | 0xC0)
-            out.append((x & 0x3F) | 0x80)
-        elif x < 0x10000:
-            out.append((x >> 12) | 0xE0)
-            out.append(((x >> 6) & 0x3F) | 0x80)
-            out.append((x & 0x3F) | 0x80)
-        else:
-            out.append((x >> 18) | 0xF0)
-            out.append((x >> 12) & 0x3F)
-            out.append(((x >> 6) & 0x3F) | 0x80)
-            out.append((x & 0x3F) | 0x80)
-
-    return ''.join(map(chr, out))
-        
-    
 class IllegalInput(Exception):
     def __init__(self, e):
         self.exception = e
 
     def __str__(self):
         return repr(self.exception)
-    
+
 
 class Parser:
     def __init__(self):
@@ -472,35 +455,35 @@ class Parser:
         sys.stdout.write(out)
 
         self.dest = []
-        
-                       
+
+
 
     def set_script(self, i):
         """
         set the value of delta to reflect the current codepage
-        
+
         """
 
         if i in range(1, 10):
             n = i - 1
         else:
-            raise IllegalInput, "Invalid Value for ATR %s" % (hex(i))
+            raise IllegalInput("Invalid Value for ATR %s" % (hex(i)))
 
         if n > -1: # n = -1 is the default script ..
             self.curr_script = n
             self.delta = n * DELTA
-        
+
         return
-    
+
 
     def isvalid(self, i):
 
         return validation_table[i & 0xFF][self.curr_script]
-    
+
 
     def isvalid_iscii(self, x):
 
-        return not invalid_chars[self.curr_script].has_key(x)
+        return x not in invalid_chars[self.curr_script]
 
 
     def is_nukta_special(self, i):
@@ -513,44 +496,44 @@ class Parser:
     def handle_ext(self, curr_char):
 
         self.pos += 1 # for EXT
-        
+
         for a in range(1):
-            
+
             if not ((EXT_RANGE_END >= curr_char) and\
                     (EXT_RANGE_BEGIN <= curr_char)):
                 break
-            
+
             if curr_char not in [0xBF, 0xB5, 0xB8]:
                 break
-            
+
             if curr_char == 0xBF:
                 dest_char = DEV_ABBR_SIGN
             elif curr_char == 0xB5:
                 dest_char = DEV_SVARITA
             else:
                 dest_char = DEV_ANUDATTA
-                    
+
             if self.isvalid(dest_char):
                 return dest_char
 
 
-        print >> sys.stderr, "Invalid input after EXT %s" % (hex(i))
+        print("Invalid input after EXT %s" % (hex(i)), file=sys.stderr)
         return None
-    
+
 
     def handle_atr(self, i):
 
-        print >> sys.stderr, "Handling ATR:",
-        if i in ISCII_SCRIPTS.keys():
+        print("Handling ATR:", end=' ', file=sys.stderr)
+        if i in ISCII_SCRIPTS:
             self.set_script(ISCII_SCRIPTS[i])
-            print >> sys.stderr, "setting script to", i
+            print("setting script to", i, file=sys.stderr)
         else:
             # ignore all other ATR markers
-            print >> sys.stderr, "ignored"
+            print("ignored", file=sys.stderr)
             pass
-        
+
         self.pos += 2 # for ATR and the following char
-        
+
         return None
 
     def handle_inv(self, i):
@@ -563,76 +546,75 @@ class Parser:
         self.pos += 1 # for INV
 
         return ret
-        
+
 
     def post_analysis(self, prev_char, src_char):
 
         if prev_char == ISCII_ATR:
             ret = self.handle_atr(src_char)
-                
+
         elif prev_char == ISCII_EXT:
-                
+
             ret = self.handle_ext(src_char)
-            
+
         elif prev_char == ISCII_INV:
-            
+
             ret = self.handle_inv(src_char)
-            
+
         return ret
 
 
 
     def iscii2utf8(self, src, flush = 0):
 
-        dest = self.dest
         src = array.array('B', src).tolist()
 
-        
+
         curr_char = prev_char = NO_CHAR
         n = len(src)
         self.pos = 0
 
         stat = self.stat
-        
+
         for i in range(n):
             curr_char = src[i]
             dest_char = NO_CHAR
             add_prev = 0
-            
+
             if invalid_chars[self.curr_script][curr_char]:
                 # just ignore the invalid iscii characters
-                print >> sys.stderr, 'ignoring invalid iscii char', \
-                      hex(curr_char)
+                print('ignoring invalid iscii char', \
+                      hex(curr_char), file=sys.stderr)
                 self.pos += 1
                 continue
-            
+
             if flush and (i == (n - 1)):
                 dest_char = curr_char
-            
+
             elif (prev_char == NO_CHAR):
                 prev_char = curr_char
                 continue
-            
+
             elif prev_char in ISCII_SPECIALS:
                 ret = self.post_analysis(prev_char, curr_char)
 
                 if ret is not None:
                     dest_char = ret
-                    
+
                 prev_char = NO_CHAR
 
             elif not iscii_modifying[curr_char]:
                 pass
-                
+
             elif curr_char in ISCII_SPECIALS:
                 dest_char = prev_char
                 prev_char = curr_char
-            
+
             elif (curr_char == ISCII_DANDA) and (prev_char == ISCII_DANDA):
                 dest_char = DOUBLE_DANDA
                 prev_char = NO_CHAR
                 self.pos += 1
-                    
+
             elif (curr_char == ISCII_HALANT) and (prev_char == ISCII_HALANT):
                 dest_char = ZWNJ
                 add_prev = 1
@@ -644,18 +626,18 @@ class Parser:
 
                 else:
                     tmp = self.is_nukta_special(prev_char)
-                    
+
                     if tmp: # nukta special
                         dest_char = tmp
                         prev_char = NO_CHAR
                         self.pos += 1
 
             to_add = []
-            
+
             if add_prev == 1:
                 to_add.append(prev_char)
                 prev_char = NO_CHAR
-                              
+
             if dest_char != NO_CHAR:
                 to_add.append(dest_char)
 
@@ -670,13 +652,13 @@ class Parser:
                     m = ch
 
                     # end of mapping
-                    
+
                 self.pos += 1
                 self.dest.append(m)
 
 
         return self.pos
-    
+
 
 def show_usage(name):
     usage = """
@@ -700,8 +682,8 @@ def show_usage(name):
 
     any msgs to the user (error msgs etc) are printed on stderr
     """ % (name)
-    
-    print >> sys.stderr,  usage
+
+    print(usage, file=sys.stderr)
     sys.exit(1)
 
 
@@ -710,33 +692,33 @@ chunk_size = 4096
 if __name__ == '__main__':
 
     try:
-        
+
         i = int(sys.argv[1])
-        
+
         if i not in range(1, 10):
             raise ValueError
-    
+
     except (ValueError, IndexError):
         show_usage(sys.argv[0])
-    
+
     mypar = Parser()
     mypar.set_script(i)
 
-    y = ''
+    y = b''
     flush = 0
-    
+
     while 1:
-        
+
         if flush:
             break
-        
-        x = sys.stdin.read(chunk_size)
-        
+
+        x = sys.stdin.buffer.read(chunk_size)
+
         if not x:
             flush = 1
 
         x = y + x
-        
+
         n = mypar.iscii2utf8(x, flush)
         y = x[n:]
 
