@@ -642,7 +642,7 @@ my $ans = "";
 ## For example, rAmaH puswakam corayawi Versus rAmaH mohanena puswakam corayawi.
 ## In the first example, it is not Nic while in the second it is.
 	     chomp($hnd_rt);
-	     $ans = `/usr/bin/env python $GlblVar::SCLINSTALLDIR/SHMT/prog/map/causal_verb_handler.py $hnd_rt`;
+	     $ans = `/usr/bin/env python3 $GlblVar::SCLINSTALLDIR/SHMT/prog/map/causal_verb_handler.py $hnd_rt`;
            chomp($ans);
           } else {
 		  #if($rt =~ /1_/) { $rt =~ s/1_/_/;} 
