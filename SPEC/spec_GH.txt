@@ -1,8 +1,8 @@
 #Path for ZEN Library
-#ZENDIR=/home/ambaji/SKT/Heritage_Platform/Zen/ML
+ZENDIR=/Users/huet/ML/ZEN/Zen/ML/
 
 #Path for installation of all package. 
-SCLINSTALLDIR=/Users/huet/Sanskrit/SCL/scl
+SCLINSTALLDIR=/Users/huet/Sanskrit/SCL
 
 #Paths for enabling web services
 HTDOCSDIR=/Library/WebServer/Documents
@@ -15,10 +15,10 @@ APACHE_USER_GROUP="_www:_www"
 JAVAPATH=/usr/bin/javac
 
 #Path of lt-proc
-LTPROCBIN=/opt/local/bin/lt-proc
+LTPROCBIN=/usr/local/bin/lt-proc
 
 #Paths for webdot.pl
-GraphvizDot=/opt/local/bin/dot
+GraphvizDot=/usr/local/bin/dot
 
 #Heritage installation path (for interface)
 HERITAGE_CGIURL=/cgi-bin/SKT/sktgraph.cgi
