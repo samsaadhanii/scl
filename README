@@ -17,10 +17,14 @@ perl
 python
 xsltproc
 default-jdk
+timeout
 python3-pandas and python3-openpyxl
 -- commands for installation are
    sudo apt install python3-pandas
    sudo apt install python3-openpyxl
+  or alternatively, you may install these with pip3, once python3 is installed.
+   pip3 install pandas 
+   pip3 install openpyxl
 
 AND
 
@@ -29,7 +33,7 @@ Ocaml, Ocamlp4 patch
 -------------------------------------------------------------------
 Installation commands for Pre-requisites are as under:
 
-sudo apt-get install apache2 bash bison flex graphviz gcc lttoolbox make perl python xsltproc default-jdk g++
+sudo apt-get install apache2 bash bison flex graphviz gcc lttoolbox make perl python xsltproc default-jdk timeout g++
 
 #Install Objective Caml (ocaml-4.07.1.tar.gz)
 available at http://ocaml.org/releases/
