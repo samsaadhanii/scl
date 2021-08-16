@@ -648,6 +648,7 @@ value rec add_cost text_type acc rels = fun
   |  [i :: r] ->  match List.nth rels (i-1) with
        [ Relationc (a1,b1,rel,a2,b2) -> let res = 
             if rel=2 then 0
+            else if rel=8 then 9 (* karwqsamAnAXikaraNam *)
             else if rel=1001 then 0 (* wIvrawAxarSI *)
             else if rel=1079 then 79 (* wIvrawAxarSI *)
             else if rel=64 then 0 (* samuccayaxyowaka *)
