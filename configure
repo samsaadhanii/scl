@@ -20,6 +20,7 @@ echo "\$GraphvizDot=\"$GraphvizDot\";" >> ./paths.pl
 echo "\$HERITAGE_CGIURL=\"$HERITAGE_CGIURL\";" >> ./paths.pl
 echo "\$TFPATH=\"$TFPATH\";" >> ./paths.pl
 echo "\$VERSION=\"$VERSION\";" >> ./paths.pl
+echo "\$SIGTERM=\"$SIGTERM\";" >> ./paths.pl
 
 echo "ZENDIR=$ZENDIR" > ./paths.sh
 echo "SCLINSTALLDIR=$SCLINSTALLDIR" >> ./paths.sh

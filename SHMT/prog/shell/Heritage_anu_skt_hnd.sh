@@ -72,7 +72,7 @@ else
 #     # Second argument: no of parses
 #     # Third argument: Name of the file with kaaraka analysis for annotation
 # Fields 9 and 10: morph analysis corresponding to the kaaraka role and kaaraka role in the 10th field
-#     /usr/bin/time -f "%Uuser %Ssystem %Eelapsed %PCPU (%Xtext+%Ddata %Mmax)k\n%Iinputs+%Ooutputs (%Fmajor+%Rminor)pagefaults %Wswaps %C\n" 
+     #/usr/bin/time -f "%Uuser %Ssystem %Eelapsed %PCPU (%Xtext+%Ddata %Mmax)k\n%Iinputs+%Ooutputs (%Fmajor+%Rminor)pagefaults %Wswaps %C\n" 
 #cp $temp_files_path/$fbn.out $temp_files_path/$fbn.pre_parse_out
 $ANU_MT_PATH/kAraka/shabdabodha.sh $SCLINSTALLDIR $GraphvizDot $Heritage_Input $temp_files_path $fbn.out $fbn.kAraka $OUTSCRIPT $PARSE $TEXT_TYPE $ECHO 
 cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
@@ -140,7 +140,7 @@ cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
 
 $ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out | $my_converter > $temp_files_path/table.csv
 #unoconv -f xlsx -i FilterOptions=9,34,76 table.csv
-$ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table.csv $temp_files_path/table.xlsx
+#$ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table.csv $temp_files_path/table.xlsx
 #if [ $DEBUG = "OFF" ]; then 
 #   rm -rf $temp_files_path/tmp* $temp_files_path/in* $temp_files_path/wor.* $temp_files/wsd_files
 #fi
