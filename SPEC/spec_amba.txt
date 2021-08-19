@@ -26,8 +26,8 @@ HERITAGE_CGIURL=/cgi-bin/SKT/sktgraph
 #Path for temporary files
 TFPATH=/tmp/SKT_TEMP
 
-#SIGTERM for Timeout
-SIGTERM=-s15
+#Timeout with SIGTERM signal
+TIMEOUT=timeout -s15
 
 #Version SERVER/STANDALONE
 VERSION=SERVER
