@@ -100,7 +100,7 @@ cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
 # gen o/p in the 17th field
     $ANU_MT_PATH/interface/add_colorcode.pl < $temp_files_path/$fbn.out |\
     $ANU_MT_PATH/chunker/lwg.pl  |\
-    $ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $SHMT_PATH/data ONE |\
+    $ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $SHMT_PATH/data hi |\
     $ANU_MT_PATH/map/lwg_avy_avy.pl $SCLINSTALLDIR $SHMT_PATH/data hi  |\
     $ANU_MT_PATH/hnd_sent_gen/agreement.pl $SCLINSTALLDIR $SHMT_PATH/data $ANU_MT_PATH/hnd_sent_gen |\
     $ANU_MT_PATH/hnd_sent_gen/call_gen.pl $SCLINSTALLDIR  |\
@@ -138,7 +138,7 @@ cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
   perl -p -e $cmd1  |\
   perl -p -e $cmd2  > $temp_files_path/../$1.html
 
-$ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out | $my_converter > $temp_files_path/table.csv
+$ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out | $my_converter > $temp_files_path/table.tsv
 #unoconv -f xlsx -i FilterOptions=9,34,76 table.csv
 #$ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table.csv $temp_files_path/table.xlsx
 #if [ $DEBUG = "OFF" ]; then 
