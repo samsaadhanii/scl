@@ -33,7 +33,7 @@ require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
  
  # my $cgi = new CGI;
 
-$filepath = "$TFPATH/tmp_in$pid/in${pid}_table.xlsx";
+$filepath = "$TFPATH/tmp_in$pid/in${pid}_table.tsv";
 print ("Content-Type:application/x-download\n");
 print "Content-Disposition: attachment; filename=$file\n\n";
 
