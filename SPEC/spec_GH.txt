@@ -30,4 +30,6 @@ TFPATH=/private/tmp/SKT_TEMP
 VERSION=STANDALONE
 
 #TIMEOUT with SIGTERM signal
-TIMEOUT="timeout -15"
+#TIMEOUT="timeout -15 3m"
+TIMEOUT="" 
+# suggested till this problem is solved

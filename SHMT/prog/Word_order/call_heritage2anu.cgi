@@ -65,7 +65,7 @@ read(STDIN, $b, $ENV{'CONTENT_LENGTH'});
 if($display eq "") { $display = "DEV";}
 
 #system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/Heritage_anu_skt_hnd.sh in$pid $GlblVar::TFPATH $display Full Prose NOECHO ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
-system("$GlblVar::TIMEOUT 3m $GlblVar::SCLINSTALLDIR/SHMT/prog/shell/Heritage_anu_skt_hnd.sh in$pid $GlblVar::TFPATH $display Full Sloka NOECHO ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
+system("$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/SHMT/prog/shell/Heritage_anu_skt_hnd.sh in$pid $GlblVar::TFPATH $display Full Sloka NOECHO ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
  #system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/Heritage_anu_skt_hnd.sh in$pid $GlblVar::TFPATH $display Full Sloka NOECHO ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
 system("cut -f4 $GlblVar::TFPATH/tmp_in$pid/in$pid.out | tr '\n' ' ' > $GlblVar::TFPATH/tmp_in$pid/wor.$pid");
 system("echo -n \"<s> \"> $GlblVar::TFPATH/in$pid; cat $GlblVar::TFPATH/tmp_in$pid/wor.$pid >> $GlblVar::TFPATH/in$pid; echo \"<\/s>\" >> $GlblVar::TFPATH/in$pid");
