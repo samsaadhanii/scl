@@ -62,7 +62,7 @@ sudo systemctl restart apache2
 To install Sanskrit Computational Linguistics tools
 
 a) If you have already have a tar, or updated version, then skip this step.
-git pull http://scl.samsaadhanii.in:3000/amba/scl.git
+git clone https://github.com/samsaadhanii/scl.git
 
 b) cp SPEC/spec_users.txt file to scl directory. Name it as spec.txt
    Check that the paths are correct, else make necessary changes.
