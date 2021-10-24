@@ -33,7 +33,7 @@
 	var regitrans=/[aiuURiLIeoMH.Nkgh~NcChj~nThDtdpbmyrlvwGYsSA^]/;
 	var regslp=/[aAiIuUfFlxeEoOMHkKgGNcCqQjJwWQRtTdDnpPbBmyrlvSzsh]/;
 	var regvel=/[aiurleomhkgncjtdpbyszv \~\"\?\-\_\.\,\!]/;
-	var regrom=/[aÄiÄ«uÅ«á¹›?leoá¹ƒá¸¥khgá¹…cjÃ±á¹­á¸á¹‡tdnpbmyrlvÅ›á¹£s]/;
+        var regrom=/[āaīiūuṛḷekgṅcjñṭḍṇtdnpbmyrlvṣśshĀAĪIŪUEOKGCJTDNṬḌHPBMYRLVŚṢS]/;
 	var regkh=/[aAiIuUlReaoMHkghGcjJTDNtdnpbmyrlvzSs]/;
 		
 		if(inputlang=="Unicode"){
@@ -66,7 +66,7 @@
                         }//]]>
       		}
 
-		else if(inputlang=="roman"){//<![CDATA[
+		else if(inputlang=="IAST"){//<![CDATA[
                         for(var i=0;i<data.length;i++){
                                 if(regrom.test(data[i])){
                                 }
@@ -202,6 +202,7 @@ This work is reported in the <a href="amarakosha_knowledge_structure.pdf">Ph.D. 
 <option value="VH">Velthuis </option>
 <option value="KH">KH</option>
 <option value="SLP">SLP1</option>
+<option value="IAST">IAST(Roman Diacritic)</option>
 </select>
 </td>
 
