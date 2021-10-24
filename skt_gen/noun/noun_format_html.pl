@@ -30,6 +30,7 @@ print "<link rel=\"stylesheet\" href=\"/scl/css_files/menu.css\"/>";
 print "<link rel=\"stylesheet\" href=\"/scl/css_files/sktmt.css\"/>";
 
 @vib = ("प्रथमा","द्वितीया","तृतीया","चतुर्थी","पञ्चमी","षष्ठी","सप्तमी","सं.प्र");
+@vib_IAST = ("prathamā","dvitīyā","tṛtīyā","caturthī","pañcamī","ṣaṣṭhī","saptamī","saṃ.pra");
 @vib_num = ("praWamA","xviwIyA","wqwIyA","cawurWI","paFcamI","RaRTI","sapwamI","samboXana");
 $line_no = 0;
 print "<br><br>";
@@ -37,22 +38,40 @@ print "<br><br>";
 my $pUrvapaxa = $ARGV[0];
 my $rt_wx = $ARGV[1];
 my $linga_wx = $ARGV[2];
+my $encoding = $ARGV[3];
+
+if ($encoding eq "IAST") {
+         $conversion_program = "$GlblVar::SCLINSTALLDIR/converters/wx2utf8roman.out";
+ } else {
+         $conversion_program = "$GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
+	 $encoding = "DEV";
+ }
+
 if($linga_wx eq "napuM") { $linga_wx = "napuMsaka";} #Idiosynchrasy of java simulator programme 
 
-$rt_linga = `echo $rt_wx '(' $linga_wx ')' | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;
+#$rt_linga = `echo $rt_wx '(' $linga_wx ')' | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;
 
-$rt = `echo $rt_wx | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;
+   $rt_linga = `echo $rt_wx '(' $linga_wx ')' | $conversion_program`;
+
+   #$rt = `echo $rt_wx | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;
+   $rt = `echo $rt_wx | $conversion_program`;
 
 if ($pUrvapaxa eq "''") { $pUrvapaxautf = "";}
-else { $pUrvapaxautf = `echo $pUrvapaxa | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;}
+#else { $pUrvapaxautf = `echo $pUrvapaxa | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;}
+else { $pUrvapaxautf = `echo $pUrvapaxa | $conversion_program`;}
 
 while($in = <STDIN>){
   chomp($in);
   if($line_no == 0) {
      print "<center>\n";
-     print "<a href=\"javascript:show('$rt','DEV')\">$rt_linga<\/a>\n";
+     print "<a href=\"javascript:show('$rt','$encoding')\">";
+     print "$rt_linga<\/a>\n";
      print "<table bordercolor=\"blue\" border=0 cellpadding=2 cellspacing=2 width='50%'>\n"; 
+     if ($encoding eq "IAST") {
+        print "<tr bgcolor='tan'><td></td><td align=\"center\"><font color=\"white\" size=\"4\">ekavacanam</font> </td><td align=\"center\"><font color=\"white\" size=\"4\">dvivacanam</font></td><td align=\"center\"><font color=\"white\" size=\"4\">bahuvacanam</font></td></tr>\n";
+      } else {
      print "<tr bgcolor='tan'><td></td><td align=\"center\"><font color=\"white\" size=\"4\">एकवचनम्</font> </td><td align=\"center\"><font color=\"white\" size=\"4\">द्विवचनम्</font></td><td align=\"center\"><font color=\"white\" size=\"4\">बहुवचनम्</font></td></tr>\n";
+     }
   }
   $in =~ s/\t[\t]*/\t/g;
   $in =~ s/\?\?*/-/g;
@@ -64,7 +83,13 @@ while($in = <STDIN>){
   if($in[1] eq "") { $in[1] = "-";}
   if($in[2] eq "") { $in[2] = "-";}
   print "<tr><td  width='10%' bgcolor='#461B7E'  align='middle'>\n";
-  print "<font color=\"white\" size=\"4\">$vib[$line_no]</font></td><td align=\"center\" bgcolor='#E6CCFF'><font color=\"black\" size=\"4\">\n";
+  print "<font color=\"white\" size=\"4\">";
+  if ($encoding eq "IAST") {
+     print $vib_IAST[$line_no];
+  } else {
+     print $vib[$line_no];
+  }
+  print "</font></td><td align=\"center\" bgcolor='#E6CCFF'><font color=\"black\" size=\"4\">\n";
   if (($line_no != 7)  && ($in[0] !~ /\-/)){
      print "<a href=\"javascript:show_prakriyA('WX','$pUrvapaxa$rt_wx','$vib_num[$line_no]','$linga_wx','ekavacana','$$')\">$pUrvapaxautf$in[0]</a></font></td>\n";
   } else {

@@ -21,25 +21,33 @@ require "../../paths.pl";
 require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 
 package main;
-use CGI qw/:standard/;
+#use CGI qw/:standard/;
 
 @lakAra = ("lat","lit","lut","lqt","lot","laf","viXilif","ASIrlif","luf","lqf");
 @person = ("pra","ma","u");
 @vacanam = ("eka","xvi","bahu");
 
  my $encoding = $ARGV[0];
- my $prygH = $ARGV[1];
- my $upasarga = $ARGV[2];
- my $rt = $ARGV[3];
- my $paxI = $ARGV[4];
+ my $outencoding = $ARGV[1];
+ my $prygH = $ARGV[2];
+ my $upasarga = $ARGV[3];
+ my $rt = $ARGV[4];
+ my $paxI = $ARGV[5];
 
  #$generator = "/usr/bin/lt-proc -ct $myPATH/morph_bin/skt_gen.bin";
  $generator = "$GlblVar::LTPROCBIN -ct $GlblVar::SCLINSTALLDIR/morph_bin/wif_gen.bin";
 
- #my $ltproc_cmd = "$generator | grep . | pr --columns=3 --across --omit-header --width=300| $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
- my $ltproc_cmd = "$generator | grep . | pr -3 -a -t -w 300| tr ' ' '\t' | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
+ if ($outencoding eq "IAST") {
+         $conversion_program = "$GlblVar::SCLINSTALLDIR/converters/wx2utf8roman.out";
+ } else {
+         $conversion_program = "$GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
+	 $outencoding = "DEV";
+ }
 
-# print "encoding = $encoding\n";
+ my $ltproc_cmd = "$generator | grep . | pr -3 -a -t -w 300| tr ' ' '\t' | $conversion_program";
+
+ #print "encoding = $encoding\n";
+ #print "outencoding = $outencoding\n";
  if($encoding ne "WX"){
    $rt_XAwu_gaNa_mng = &convert($encoding,$rt,$GlblVar::SCLINSTALLDIR);
    chomp($rt_XAwu_gaNa_mng);
@@ -54,7 +62,7 @@ use CGI qw/:standard/;
    $str = "";
    $str1 = "";
 
-#print "rt = $rt upasarga = $upasarga prayoga = $prayogaH\n";
+   #print "rt = $rt upasarga = $upasarga prayoga = $prayogaH\n";
 #Since we are using only first 3 fields, $mean is removed.
     ($rt,$XAwu,$gaNa,$mng) = split(/_/,$rt_XAwu_gaNa_mng);
 
@@ -62,11 +70,11 @@ use CGI qw/:standard/;
     if($prayogaH eq "karmaNi") { $paxI = "AwmanepaxI"}
     if ($upasarga ne "-") { $upasargastr = "<upasarga:$upasarga>";} else { $upasargastr = "";}
   print "<body>\n";
-  $rtutf8 = `echo $rt | sed 's/[1-5]//' | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;
-  $gaNautf8 = `echo $gaNa | sed 's/[1-5]//' | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;
-  if ($upasarga ne "-") {$upasarga = `echo $upasarga | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`."_";} else {$upasarga = "";}
+  $rtutf8 = `echo $rt | sed 's/[1-5]//' | $conversion_program`;
+  $gaNautf8 = `echo $gaNa | $conversion_program`;
+  if ($upasarga ne "-") {$upasarga = `echo $upasarga | $conversion_program`."_";} else {$upasarga = "";}
   print "<center>\n";
-  print "<a href=\"javascript:show('${upasarga}$rtutf8','DEV')\">${upasarga}$rtutf8 ($gaNautf8)<\/a>\n";
+  print "<a href=\"javascript:show('${upasarga}$rtutf8','$outencoding')\">${upasarga}$rtutf8 ($gaNautf8)<\/a>\n";
 # In javascript:show also upasarga needs to be added. But I do not know how is the dict organised. Hence it is postponed. Amba 9th Nov 2016
   print "<\/center>\n";
 
@@ -74,7 +82,13 @@ use CGI qw/:standard/;
   print "<table border=0 width=100%>\n";
   print "<tr><td>\n";
   print "<center>\n";
-  print "<font color=\"green\" size=\"6\"><b>परस्मैपदी</b></font>\n";
+  print "<font color=\"green\" size=\"6\"><b>";
+  if ($outencoding eq "IAST") {
+  print "parasmaipadī";
+  } else {
+  print "परस्मैपदी ";
+  }
+  print "</b></font>\n";
   print "</center></td></tr>\n";
   print "<tr>\n"; 
   $LTPROC_IN = &get_generator_string($rt,$upasargastr,$sanAxi,$prayogaH,$XAwu,$gaNa,"parasmEpaxI");
@@ -82,7 +96,7 @@ use CGI qw/:standard/;
 #$str =~ s/</&lt;/g;
 #$str =~ s/>/&gt;/g;
 #print "str = $str\n";
-  $str = "echo '".$LTPROC_IN."' | $ltproc_cmd |$GlblVar::SCLINSTALLDIR/skt_gen/verb/verb_format_html.pl";
+  $str = "echo '".$LTPROC_IN."' | $ltproc_cmd |$GlblVar::SCLINSTALLDIR/skt_gen/verb/verb_format_html.pl $outencoding";
   system($str);
   print "</tr>\n";
   print "</table>\n";
@@ -91,7 +105,13 @@ use CGI qw/:standard/;
   print "<table border=0 width=100%>\n";
   print "<tr><td>\n";
   print "<center>\n";
-  print "<font color=\"green\" size=\"6\"><b>आत्मनेपदी</b></font>\n"; 
+  print "<font color=\"green\" size=\"6\"><b>";
+  print "</b></font>\n"; 
+  if ($outencoding eq "IAST") {
+  print "ātmanepadī";
+  } else {
+  print "आत्मनेपदी";
+  }
   print "</center></td></tr>\n";
 
   print "<tr>\n"; 
@@ -126,28 +146,3 @@ sub get_generator_string {
  $STR;
 }
 1;
-
-## Added to handle upa_viS etc. 
-#But this is taken care of by the javascript, hence not needed here.
-#sub join {
-#	my ($upasarga,$rt) = @_;
-#
-#	my ($sandhi);
-#
-#	if ($upasarga eq "Af") { $upasarga = "A";}
-#	if($upasarga ne "-") { $sandhi = $upasarga.$rt;} else {$sandhi = $rt;}
-#	$sandhi =~ s/[aA][aA]/A/;
-#	$sandhi =~ s/[aA][iI]/e/;
-#	$sandhi =~ s/[aA][uU]/o/;
-#	$sandhi =~ s/[aA][qQ]/ar/;
-#	$sandhi =~ s/[aA][eE]/E/;
-#	$sandhi =~ s/[aA][oO]/O/;
-#	$sandhi =~ s/i([aAuUqQeEoO])/y\1/;
-#	$sandhi =~ s/i[iI]/I/;
-#	$sandhi =~ s/u([aAuUqQeEoO])/v\1/;
-#	$sandhi =~ s/u[uU]/U/;
-#	$sandhi =~ s/[1-5]//;
-#
-#        $ans = `echo $sandhi | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;
-#	$ans;
-#}

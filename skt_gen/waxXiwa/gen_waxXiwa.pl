@@ -22,7 +22,7 @@ require "../../paths.pl";
 require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 
 package main;
-use CGI qw/:standard/;
+#use CGI qw/:standard/;
 #use CGI::Carp qw(fatalsToBrowser);
 
 @avy_waxXiwa_prawyayaH = ("vaw","wasil");

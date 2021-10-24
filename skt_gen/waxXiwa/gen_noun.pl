@@ -21,7 +21,7 @@ require "../../paths.pl";
 require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 
 package main;
-use CGI qw/:standard/;
+#use CGI qw/:standard/;
 @vacanam = ("eka","xvi","bahu");
 
  my $rt_wx = $ARGV[0];

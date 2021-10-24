@@ -37,13 +37,11 @@ my $myPATH = "$GlblVar::SCLINSTALLDIR/skt_gen/noun";
 
     #      if (param) {
         my $encoding=$param{encoding};
+        my $outencoding=$param{outencoding};
         my $rt=$param{rt};
         my $gen=$param{gen};
         my $jAwi=$param{jAwi};
         my $level=$param{level};
-
-	# my $cgi = new CGI;
-	#print $cgi->header (-charset => 'UTF-8');
 
 	print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
@@ -57,7 +55,7 @@ my $myPATH = "$GlblVar::SCLINSTALLDIR/skt_gen/noun";
 
         print "<body onload=\"register_keys()\"> <script src=\"/scl/SHMT/wz_tooltip.js\" type=\"text/javascript\"></script>\n";
 
-       print `$myPATH/gen_noun.pl $rt $gen $jAwi $encoding $level`;
+	print `$myPATH/gen_noun.pl $rt $gen $jAwi $encoding $outencoding $level`;
 
        if($GlblVar::VERSION eq "SERVER"){
           print TMP1 "running:","calling gen_noun.pl from noun generator";

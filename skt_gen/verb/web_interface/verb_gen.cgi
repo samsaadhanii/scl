@@ -31,23 +31,18 @@ package main;
       open(TMP1,">>$GlblVar::TFPATH/verb.log") || die "Can't open $GlblVar::TFPATH/verb.log for writing";
     }
     my %param = &get_parameters();
-    #      if (param) {
 
       my $word=$param{vb};
-#      my $prayoga=param("prayoga");
-#      my $paxI=param("paxI");
       my $prayoga_paxI=$param{prayoga_paxI};
       my $upasarga=$param{upasarga};
       my $encoding=$param{encoding};
+      my $outencoding=$param{outencoding};
 
       if($prayoga_paxI =~ /\-/) {
         ($prayoga,$paxI) = split(/-/,$prayoga_paxI,2);
       } else {$prayoga = $prayoga_paxI;}
 
       $upasarga =~ s/Y/_/g;
-
-      #   my $cgi = new CGI;
-      #print $cgi->header (-charset => 'UTF-8');
 
       print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
       print "<head>\n";
@@ -60,7 +55,7 @@ package main;
       print "<body onload=\"register_keys()\"> <script src=\"/scl/SHMT/wz_tooltip.js\" type=\"text/javascript\"></script>\n";
 
       #print "verb generator is being called\n";
-      my $result = `$GlblVar::SCLINSTALLDIR/skt_gen/verb/gen_verb.pl $encoding $prayoga $upasarga $word $paxI`;
+      my $result = `$GlblVar::SCLINSTALLDIR/skt_gen/verb/gen_verb.pl $encoding $outencoding $prayoga $upasarga $word $paxI`;
       print $result;
       if($GlblVar::VERSION eq "SERVER"){
          print TMP1 "running:","calling gen_verb.pl from noun generator";

@@ -44,19 +44,27 @@ setInterval(blinker, 1000);
 <div class="dashboard-sandhi">
 <table>
 <tr>
-	<td> </td><td id="devtext"></td> 
+<td> </td>
+<td> </td>
+<td id="devtext"></td> 
 </tr>
 <tr>
 
-<td>
+<td> Input encoding:
       <select name="encoding"  id="encoding" onchange="livetrans()">
-       <!-- <option value="Unicode">Select Encoding</option> -->
 	<option value="Unicode">Unicode-Devanagari</option>
 	<option value="WX">WX-Alphabetic</option>
 	<option value="Itrans">Itrans-5.3</option>
 	<option value="VH">Velthuis</option>
 	<option value="SLP">SLP1</option>
 	<option value="KH">Kyoto-Harvard(KH)</option>
+	<option value="IAST">IAST(Roman Diacritic)</option>
+      </select>
+</td>
+<td> Output Encoding:
+      <select name="outencoding"  id="outencoding" onchange="livetrans()">
+	<option value="Unicode">Unicode-Devanagari</option>
+	<option value="IAST">IAST(Roman Diacritic)</option>
       </select>
 </td>
 
@@ -65,8 +73,8 @@ setInterval(blinker, 1000);
 </td>
 <td>
   <select name="jAwi" id="jAwi-opt">
-            <option value="nA">नाम</option>
-            <option value="sarva">सर्वनाम</option>
+	  <option value="nA">नाम (nāma)</option>
+	  <option value="sarva">सर्वनाम (sarvanāma)</option>
             <option value="saMKyA">सङ्ख्या (Numeral)</option>
             <option value="saMKyeyam">सङ्ख्येय (cardinal)</option>
             <option value="pUraNam">पूरण (ordinal)</option>
@@ -75,9 +83,9 @@ setInterval(blinker, 1000);
 <td>
   <select name="gen" id="gen-opt">
 	    <!-- <option>लिङ्गम्</option> -->
-            <option value="पुं">पुंलिङ्गम्</option>
-            <option value="नपुं">नपुंसकलिङ्गम्</option>
-            <option value="स्त्री">स्त्रीलिङ्गम्</option>
+            <option value="पुं">पुंलिङ्गम् (masc)</option>
+            <option value="नपुं">नपुंसकलिङ्गम् (neuter)</option>
+            <option value="स्त्री">स्त्रीलिङ्गम् (feminine)</option>
             <option value="अ">-(For अस्मद्, युष्मद्)</option>
             </select> 
 </td>
@@ -92,6 +100,7 @@ setInterval(blinker, 1000);
 <td>
 <center><a href='#' style="color:blue;" onclick="window.open('table.html','Details','width=800, height=500,scrollbars=yes');">Encoding Table</a></center>
 </td>
+<td></td>
 <td>
 For instance: राम, रमा, वन etc.
 </td>
