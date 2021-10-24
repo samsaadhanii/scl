@@ -344,6 +344,7 @@ body{
 /***** Morph Analyser css starts from here ****/
 
 #encoding{ border-style:solid;border-width:1px;border-color:#C0C0C0;font-size:14px;height:35px; box-shadow: 1px 1px 6px gray;}
+#outencoding{ border-style:solid;border-width:1px;border-color:#C0C0C0;font-size:14px;height:35px; box-shadow: 1px 1px 6px gray;}
 
 #morphword{
 	width:290px;
@@ -616,7 +617,7 @@ body{
 
 /** morph-gen css starts here **/
 #rt{
-	width:290px;
+	width:200px;
 	height:30px;
 /* 	margin-top:10px; */
 	padding:2px;
@@ -635,7 +636,7 @@ body{
 }
 
 #verb-dashboard select{
-   width: 100px; 
+   width: 200px; 
    font-size: 16px;
    line-height: 5;
    box-shadow: 1px 1px 6px gray;
