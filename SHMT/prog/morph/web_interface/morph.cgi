@@ -47,6 +47,7 @@ my $word;
 my $word_wx;
 my $ans="";
 my $encoding="";
+my $out_encoding="";
 my $rt;
 my $rt_XAwu_gaNa;
 my $XAwu;
@@ -62,6 +63,7 @@ my $paxI;
 #if (param()){
     $word = $param{morfword};
     $encoding=$param{encoding};
+    $outencoding=$param{outencoding};
     #}
 
 if($GlblVar::VERSION eq "SERVER"){

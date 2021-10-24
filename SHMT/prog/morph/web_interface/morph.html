@@ -88,19 +88,25 @@ setInterval(blinker, 1000);
 <table id="morph-input-tb">
 <tr>
 <td></td>
+<td></td>
 <td id="devtext"></td>
 <td></td>
 </tr>
 <tr>
-<td>
+<td> Input Encoding:
       <select name="encoding"  id="encoding" onchange="livetrans()">
-        <!-- <option value="Unicode">Select Encoding</option> -->
 	<option value="Unicode">Unicode-Devanagari</option>
 	<option value="WX">WX-Alphabetic</option>
 	<option value="Itrans">Itrans-5.3</option>
 	<option value="VH">Velthuis</option>
 	<option value="SLP">SLP1</option>
 	<option value="KH">Kyoto-Harvard(KH)</option>
+	<option value="IAST">IAST(Roman-Diacritic)</option>
+      </select>
+</td>
+<td> Output Encoding:
+      <select name="outencoding"  id="outencoding">
+	<option value="Unicode">Unicode-Devanagari</option>
 	<option value="IAST">IAST(Roman-Diacritic)</option>
       </select>
 </td>
@@ -119,6 +125,9 @@ setInterval(blinker, 1000);
 </form>
 </center>
 </table> <!-- Input dashboard table ends here -->
+</div> <!-- Input dashboard ends here -->
+<div id="output"></div>
+
 </div> <!-- Input dashboard ends here -->
 <div id="output"></div>
 
