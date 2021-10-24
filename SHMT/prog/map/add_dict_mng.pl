@@ -225,7 +225,8 @@ while($tmpin = <STDIN>){
        $rt .= $map_waxXiwa;
        $hn_lifga = &get_skt_hn_lifga($lifgam);
        $hn_vacana = &get_hn_vacana($vacana);
-       $hn_viBakwi = &get_hn_viBakwi($viBakwi);
+       # $hn_viBakwi = &get_hn_viBakwi($viBakwi);
+       # get_hn_viBakwi to be written
        $ans .=  "/$samAsa_pUrvapaxa$map_rt $cat $hn_lifga $hn_vacana $default_puruRa $map_waxXiwa";
        #print "ans = $ans\n";
       }elsif($cat eq "n") {
