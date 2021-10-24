@@ -125,22 +125,29 @@ setInterval(blinker, 1000);
 <table>
 <tr>
 <td></td>
+<td></td>
 <td id="devtext"></td>
 <td id="devtext1"></td>
 <td></td>
 </tr>
 <tr>
 
-<td>
-	<select name="encoding"  id="encoding" onchange="livetrans()">>
-        <!-- <option value="Unicode">Select Encoding</option> -->
+<td>	Input Encoding:
+	<select name="encoding"  id="encoding" onchange="livetrans()">
 	<option value="Unicode">Unicode-Devanagari</option>
 	<option value="WX">WX-Alphabetic</option>
 	<option value="Itrans">Itrans-5.3</option>
 	<option value="VH">Velthuis</option>
 	<option value="SLP">SLP1</option>
 	<option value="KH">Kyoto-Harvard(KH)</option>
+	<option value="IAST">IAST(Roman Diacritic)</option>
       </select>
+</td>
+<td> Output Encoding:
+	<select name="outencoding"  id="outencoding">
+	<option value="Unicode">Unicode-Devanagari</option>
+	<option value="IAST">IAST(Roman Diacritic)</option>
+	</select>
 </td>
 
 <td>
@@ -159,8 +166,9 @@ setInterval(blinker, 1000);
 <td>
 <center><a href='#' style="color:blue;" onclick="window.open('table.html','Details','width=800, height=500,scrollbars=yes');">Encoding Table</a></center>
 </td>
+<td> </td>
 <td>
-For instance: लक्ष्मीवान् as a first word
+Ex: लक्ष्मीवान् as a first word
 </td>
 <td>
 शुभलक्षणः as a second word.
