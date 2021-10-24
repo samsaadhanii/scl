@@ -39,7 +39,7 @@ sub convert{
             $conversion_program = "$path/converters/utf82iscii.pl | $path/converters/ir_skt";
          } 
         elsif($encoding eq "IAST") {
-            $conversion_program = "$path/converters/ utf8roman2wx.out";
+            $conversion_program = "$path/converters/utf8roman2wx.out";
          } 
 
          if($conversion_program ne "") {
