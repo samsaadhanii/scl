@@ -9,7 +9,7 @@ function callmorphanalyser(){
                }
                else{
                		$("#output").html("कृपया प्रतीक्ष्यताम्....");
-               		$.post("/cgi-bin/scl/morph/morph.cgi",{"morfword":$("#morphword").val(),"encoding":$("#encoding").val()},function(data){
+               		$.post("/cgi-bin/scl/morph/morph.cgi",{"morfword":$("#morphword").val(),"encoding":$("#encoding").val(),"outencoding":$("#outencoding").val()},function(data){
                		
                			$("#output").html(data);
                		});
@@ -20,18 +20,19 @@ function callmorphanalyser(){
 
 function callsandhi(){
   var x = document.getElementById("encoding").value;
+  var t = document.getElementById("outencoding").value;
   var y = document.getElementById("text").value;
   var z = document.getElementById("text1").value;
   if (avalidation(x,y) == 1){return false;}
   if (avalidation(x,z) == 1){return false;}
   
 if($("#text").val()==""){
-                       alert("Please enter a word the in textbox.");
+                       alert("Please enter a word in the textbox.");
                        return false;
                }
                else{
                		$("#output").html("कृपया प्रतीक्ष्यताम्....");
-               		$.post("/cgi-bin/scl/sandhi/sandhi.cgi",{"text":$("#text").val(),"text1":$("#text1").val(),"encoding":$("#encoding").val()},function(data){
+               		$.post("/cgi-bin/scl/sandhi/sandhi.cgi",{"text":$("#text").val(),"text1":$("#text1").val(),"encoding":$("#encoding").val(),"outencoding":$("#outencoding").val()},function(data){
                		
                			$("#output").html(data);
                		});
@@ -72,7 +73,7 @@ if($("#rt").val()==""){
                else{
 			
                		$("#output").html("कृपया प्रतीक्ष्यताम्....");
-               		$.post("/cgi-bin/scl/skt_gen/noun/noun_gen.cgi",{"rt":$("#rt").val(),"jAwi":$("#jAwi-opt").val(),"gen":$("#gen-opt").val(),"encoding":$("#encoding").val(),"level":$("#level").val()},function(data){
+               		$.post("/cgi-bin/scl/skt_gen/noun/noun_gen.cgi",{"rt":$("#rt").val(),"jAwi":$("#jAwi-opt").val(),"gen":$("#gen-opt").val(),"encoding":$("#encoding").val(),"outencoding":$("#outencoding").val(),"level":$("#level").val()},function(data){
                		
                			$("#output").html(data);
                		});
@@ -87,9 +88,8 @@ if($("#vb").val()==""){
                        return false;
                }
                else{
-              
                		$("#output").html("कृपया प्रतीक्ष्यताम्....");
-               		$.post("/cgi-bin/scl/skt_gen/verb/verb_gen.cgi",{"vb":$("#select").val(),"prayoga_paxI":$("#prayoga_paxI").val(),"upasarga":$("#upasarga").val(),"encoding":$("#encoding").val()},function(data){
+               		$.post("/cgi-bin/scl/skt_gen/verb/verb_gen.cgi",{"vb":$("#select").val(),"prayoga_paxI":$("#prayoga_paxI").val(),"upasarga":$("#upasarga").val(),"encoding":$("#encoding").val(),"outencoding":$("#outencoding").val()},function(data){
                		
                			$("#output").html(data);
                		});
