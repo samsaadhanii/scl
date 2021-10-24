@@ -89,6 +89,11 @@ $("#content").load("description.html");
     $(".dropdown_5columns").hide();
   });
   
+  $("#verb-fnd-iast").click(function(){
+    $("#content").load("skt_gen/verb/verb_iast.html");
+    $(".dropdown_5columns").hide();
+  });
+
   $("#kridant-fnd").click(function(){
     $("#content").load("skt_gen/kqw/kqw.html");
     $(".dropdown_5columns").hide();
@@ -188,7 +193,9 @@ function closeForm(){
              <table class="skttools">
               <tr><td><span id="morph-gen-lb"><b>पद-निष्पादिका / Morphological Generator</b></span></td></tr>
 	      <tr><td><span id="noun">&nbsp;&nbsp; &rArr; नामरूपनिष्पादिका (Noun-Generator)</span></td></tr>
-	      <tr><td><span id="verb-fnd">&nbsp;&nbsp; &rArr;  क्रियारूपनिष्पादिका (Verb-forms-Generator)</span></td></tr>
+	      <tr><td>
+			      <span id="verb-fnd">&nbsp;&nbsp; &rArr;  क्रियारूपनिष्पादिका </span> <br/>
+	      <span id="verb-fnd-iast">&nbsp;&nbsp; &rArr; Verb-forms-Generator</span></td></tr>
 	      <tr><td><span id="kridant-fnd">&nbsp;&nbsp;&rArr; कृदन्तरूपनिष्पादिका (Krt-Generator) </span></td></tr>
 	      <tr><td><span id="waxXiwa-fnd">&nbsp; &rArr; तद्धितरूपनिष्पादिका (Taddhita-Generator)</span></td></tr>
 	     </table>
