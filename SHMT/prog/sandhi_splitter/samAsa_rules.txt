@@ -563,7 +563,7 @@ Uv	U+v	8
 Uw	U+w	4
 Ux	U+x	1
 Uy	U+y	1
-a	a+a	4
+Va	a+a	4
 aA	a+A	2
 aB	a+B	933
 aC	a+C	30
