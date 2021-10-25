@@ -47,7 +47,7 @@ my $word;
 my $word_wx;
 my $ans="";
 my $encoding="";
-my $out_encoding="";
+my $outencoding="";
 my $rt;
 my $rt_XAwu_gaNa;
 my $XAwu;
