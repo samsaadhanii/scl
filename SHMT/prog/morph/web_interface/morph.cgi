@@ -134,24 +134,24 @@ if($ans ne "") {
     } elsif(($ans =~ /कृदन्त/) && ($ans !~ /अव्य/)) {
              $ans =~ s/{वर्गः ना}//;
              if ($ans =~ /(पुं|नपुं|स्त्री)/){ $lifga = $1;}
-             $link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga','nA','1')\">$rt</a>";
+             $link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga','nA','$outencoding','1')\">$rt</a>";
              $color = "skyblue";
     } elsif ($ans =~ /{वर्गः ना}/ ) {
                 $ans =~ s/{वर्गः ना}//;
                if ($ans =~ /(पुं|नपुं|स्त्री)/){ $lifga = $1;}
-                $link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga','nA','1')\">$rt</a>";
+                $link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga','nA','$outencoding','1')\">$rt</a>";
                 $color = "skyblue";
       } elsif ($ans =~ /संख्या/)  {
          if ($ans =~ /(पुं|नपुं|स्त्री)/){ $lifga = $1;} else  {$lifga = "अ";}
-         $link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga','saMKyA','1')\">$rt</a>";
+         $link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga','saMKyA','$outencoding','1')\">$rt</a>";
          $color = "skyblue";
       } elsif ($ans =~ /संख्येय/) {
          if ($ans =~ /(पुं|नपुं|स्त्री)/){ $lifga = $1;} else  {$lifga = "अ";}
-         $link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga','saMKyeyam','1')\">$rt</a>";
+         $link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga','saMKyeyam','$outencoding','1')\">$rt</a>";
          $color = "skyblue";
       } elsif ($ans =~ /सर्वनाम/){
          if ($ans =~ /(पुं|नपुं|स्त्री)/){ $lifga = $1;} else  {$lifga = "अ";}
-         $link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga','sarva','1')\">$rt</a>";
+         $link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga','sarva','$outencoding','1')\">$rt</a>";
          $color = "skyblue";
      } elsif (($ans =~ /(लट्|लिट्|लुट्|लोट्|लृट्|लङ्|लृङ|लुङ्|लिङ्)/) 
       || ($ans =~ /अव्य.*कृदन्त/)) {

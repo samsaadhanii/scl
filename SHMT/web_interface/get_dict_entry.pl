@@ -137,6 +137,7 @@ my $result = "";
                         $lines =~ s/<jAwi>[^<]+<\/jAwi>//g;
                         $lines =~ s/<upAXi>[^<]+<\/upAXi>//g;
                         $lines =~ s/<kind_of>[^<]+<\/kind_of>//g;
+                        $lines =~ s/<is_a_part>[^<]+<\/is_a_part>//g;
 			$result .= $lines;
 		}
 	}
