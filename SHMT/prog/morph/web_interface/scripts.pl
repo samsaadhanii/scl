@@ -20,8 +20,8 @@ function generate_waxXiwa_forms(encod,rt,gen){
   window.open('/cgi-bin/scl/skt_gen/waxXiwa/waxXiwa_gen.cgi?encoding='+encod+'&rt='+rt+'&gen='+gen+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();
 }\n
 
-function generate_verb_forms(encod,rt,prayoga,upasarga,paxI){
-  window.open('/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding='+encod+'&vb='+rt+'&prayoga_paxI='+prayoga+'-'+paxI+'&upasarga='+upasarga+'','popUpWindow','height=500,width=800,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();
+function generate_verb_forms(encod,outencoding,rt,prayoga,upasarga,paxI){
+  window.open('/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?encoding='+encod+'&outencoding='+outencoding+'&vb='+rt+'&prayoga_paxI='+prayoga+'-'+paxI+'&upasarga='+upasarga+'','popUpWindow','height=500,width=800,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();
 }\n
 
 function show(word,encod){

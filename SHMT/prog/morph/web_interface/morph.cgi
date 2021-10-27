@@ -143,7 +143,7 @@ if($ans ne "") {
                 $color = "skyblue";
       } elsif ($ans =~ /संख्या/)  {
          if ($ans =~ /(पुं|नपुं|स्त्री)/){ $lifga = $1;} else  {$lifga = "अ";}
-         $link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga','saMKyA','$outencoding','1')\">$rt</a>";
+         $link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$outencoding','$rt','$lifga','saMKyA','$outencoding','1')\">$rt</a>";
          $color = "skyblue";
       } elsif ($ans =~ /संख्येय/) {
          if ($ans =~ /(पुं|नपुं|स्त्री)/){ $lifga = $1;} else  {$lifga = "अ";}
@@ -169,7 +169,7 @@ if($ans ne "") {
         if($upasarga ne "-"){
 	   $disp_rt = $upasarga."_".$rt;
          } else {$disp_rt = $rt;}
-         $link = "<a href=\"javascript:generate_verb_forms('Unicode','$rt_XAwu_gaNa','$prayogaH','$upasarga','$paxI')\">$disp_rt</a>";
+         $link = "<a href=\"javascript:generate_verb_forms('Unicode','$outencoding','$rt_XAwu_gaNa','$prayogaH','$upasarga','$paxI')\">$disp_rt</a>";
         $color = "pink";
     } else {
         $rt =~ s/[1-9]//;

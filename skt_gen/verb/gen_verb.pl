@@ -38,13 +38,13 @@ package main;
  $generator = "$GlblVar::LTPROCBIN -ct $GlblVar::SCLINSTALLDIR/morph_bin/wif_gen.bin";
 
  if ($outencoding eq "IAST") {
-         $conversion_program = "$GlblVar::SCLINSTALLDIR/converters/wx2utf8roman.out";
+         $conv_program = "$GlblVar::SCLINSTALLDIR/converters/wx2utf8roman.out";
  } else {
-         $conversion_program = "$GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
-	 $outencoding = "DEV";
+         $conv_program = "$GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
+	 	 $outencoding = "DEV";
  }
 
- my $ltproc_cmd = "$generator | grep . | pr -3 -a -t -w 300| tr ' ' '\t' | $conversion_program";
+ my $ltproc_cmd = "$generator | grep . | pr -3 -a -t -w 300| tr ' ' '\t' | $conv_program";
 
  #print "encoding = $encoding\n";
  #print "outencoding = $outencoding\n";
@@ -70,9 +70,9 @@ package main;
     if($prayogaH eq "karmaNi") { $paxI = "AwmanepaxI"}
     if ($upasarga ne "-") { $upasargastr = "<upasarga:$upasarga>";} else { $upasargastr = "";}
   print "<body>\n";
-  $rtutf8 = `echo $rt | sed 's/[1-5]//' | $conversion_program`;
-  $gaNautf8 = `echo $gaNa | $conversion_program`;
-  if ($upasarga ne "-") {$upasarga = `echo $upasarga | $conversion_program`."_";} else {$upasarga = "";}
+  $rtutf8 = `echo $rt | sed 's/[1-5]//' | $conv_program`;
+  $gaNautf8 = `echo $gaNa | $conv_program`;
+  if ($upasarga ne "-") {$upasarga = `echo $upasarga | $conv_program`."_";} else {$upasarga = "";}
   print "<center>\n";
   print "<a href=\"javascript:show('${upasarga}$rtutf8','$outencoding')\">${upasarga}$rtutf8 ($gaNautf8)<\/a>\n";
 # In javascript:show also upasarga needs to be added. But I do not know how is the dict organised. Hence it is postponed. Amba 9th Nov 2016
