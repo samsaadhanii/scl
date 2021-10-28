@@ -52,6 +52,7 @@ elsif ($dic_name eq "heritage") {
 #$word="rAma";
 #$encoding="WX";
 $result = &get_dict_entry($dic_name,$word,$outencoding);
+#print "result = $result";
 
 if($dic_name eq "apte") {
      $result  =~ s/>$sword</><span style=\"background:yellow;\">$sword<\/span></g;
@@ -67,7 +68,7 @@ if($dic_name eq "heritage") {
 			$w = `echo $sword | $GlblVar::SCLINSTALLDIR/converters/utf82wx.sh $GlblVar::SCLINSTALLDIR | $GlblVar::SCLINSTALLDIR/converters/wx-velthuis.out`;
         chomp($w);
         $w =~ s/[ \t\n]//g;
-		          if($result =~ /<a class=\"navy\" name=\"$w\">/){
+		          if($result =~ /<a class=\"navy\" name=\"$w#/){
        			  print "<div style=\"border:1px solid #2175bc;text-align:justify;margin-top:10px;\"><div id=\"$dic_name\">$dic_long_name</div>$result";
        		}
 }

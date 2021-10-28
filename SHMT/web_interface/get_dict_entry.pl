@@ -152,7 +152,7 @@ sub mw_result{
 	my ($count) = 0;
 	while($in = <TMP>){
 		if($in =~ /<span class=\"Deva\">$sword<\/span>/ and $count == 0 and $in =~ /^<xml>/){
-       			  $result = $in;
+       			  $result .= $in;
       		}
        		elsif($count == 1 and $in !~/<\/xml>/){
         		 $result = $in;
@@ -174,7 +174,8 @@ sub heritage_result{
 	#print "w = $w###\n";
 	$/ = "<span class=\"deva\" lang=\"sa\">";
 	while($in = <TMP>){
-		if($in =~ /<a class=\"navy\" name=\"$w\">/){
+		if($in =~ /<a class=\"navy\" name=\"$w#/){
+			 #print $in;
        			  $result = $in;
       		}
 	}
