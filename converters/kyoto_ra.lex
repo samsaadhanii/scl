@@ -42,7 +42,7 @@ P	ph
 B	bh
 S	z
 R	S
-
+Z	'
 *****************************
 */
 %option noinput
@@ -71,4 +71,5 @@ ph {printf("P");}
 bh {printf("B");}
 z {printf("S");}
 S {printf("R");}
+' {printf("Z");}
 %%

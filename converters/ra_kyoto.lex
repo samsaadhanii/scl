@@ -43,3 +43,4 @@ P	printf("ph");
 B	printf("bh");
 S	printf("z");
 R	printf("S");
+Z	printf("'");
