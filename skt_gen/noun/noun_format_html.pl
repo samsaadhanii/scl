@@ -82,6 +82,9 @@ while($in = <STDIN>){
   if($in[0] eq "") { $in[0] = "-";}
   if($in[1] eq "") { $in[1] = "-";}
   if($in[2] eq "") { $in[2] = "-";}
+  if($in[0] =~ /\*/) { $in[0] = "-";}
+  if($in[1] =~ /\*/) { $in[1] = "-";}
+  if($in[2] =~ /\*/) { $in[2] = "-";}
   print "<tr><td  width='10%' bgcolor='#461B7E'  align='middle'>\n";
   print "<font color=\"white\" size=\"4\">";
   if ($encoding eq "IAST") {

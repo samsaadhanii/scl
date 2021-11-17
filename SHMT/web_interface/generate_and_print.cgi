@@ -70,6 +70,8 @@ if($dic_name eq "heritage") {
         $w =~ s/[ \t\n]//g;
 		          if($result =~ /<a class=\"navy\" name=\"$w#/){
        			  print "<div style=\"border:1px solid #2175bc;text-align:justify;margin-top:10px;\"><div id=\"$dic_name\">$dic_long_name</div>$result";
+       		} elsif($result =~ /<a class=\"navy\" name=\"$w\"/){
+       			  print "<div style=\"border:1px solid #2175bc;text-align:justify;margin-top:10px;\"><div id=\"$dic_name\">$dic_long_name</div>$result";
        		}
 }
 1;

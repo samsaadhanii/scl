@@ -41,7 +41,7 @@ require "$myPATH/skt_gen/noun/pUraNa.pl";
  my $level = $ARGV[5];
 
  #$generator = "$GlblVar::LTPROCBIN -ct $myPATH/morph_bin/all_gen.bin";
- $generator = "$GlblVar::LTPROCBIN -ct $myPATH/morph_bin/sup_gen.bin";
+ $generator = "$GlblVar::LTPROCBIN -c $myPATH/morph_bin/sup_gen.bin";
 
  $rt_wx=&convert($encoding,$rt,$myPATH);
  $lifga_wx=&convert("Unicode",$lifga,$myPATH);
@@ -73,6 +73,11 @@ require "$myPATH/skt_gen/noun/pUraNa.pl";
 	 $conversion_program = "$myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1";
  }
  #$str = "echo '".$LTPROC_IN."' | $generator | grep . | pr -3 -a -t -w 150 | tr ' ' '\t' | $myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1 | $myPATH/skt_gen/noun/noun_format_html.pl $pUrvapaxa $rt_wx $lifga_wx";
+
+ $LTPROC_IN =~ s/</LL/g;
+ $LTPROC_IN =~ s/>/GG/g;
+ #$str1 = "echo '".$LTPROC_IN."' | $generator | grep . | pr -3 -a -t -w 150 | tr ' ' '\t' | $conversion_program";
+ #system($str1);
  $str = "echo '".$LTPROC_IN."' | $generator | grep . | pr -3 -a -t -w 150 | tr ' ' '\t' | $conversion_program | $myPATH/skt_gen/noun/noun_format_html.pl $pUrvapaxa $rt_wx $lifga_wx $outencoding";
  system($str);
 }

@@ -65,7 +65,6 @@ elsif($dic_name eq "heritage"){
         $word_wx =~ s/_//;
 	#print "word = $word_wx\n";
 	$l = &get_Heritage_Index($word_wx);
-	#print "index = $l\n";
 	if($l eq "") {
            print "<br/> $sword not found in ";
            print "Heritage Sanskrit-French dictionary\n";
@@ -175,6 +174,10 @@ sub heritage_result{
 	$/ = "<span class=\"deva\" lang=\"sa\">";
 	while($in = <TMP>){
 		if($in =~ /<a class=\"navy\" name=\"$w#/){
+			 #print $in;
+       			  $result = $in;
+      		}
+		elsif($in =~ /<a class=\"navy\" name=\"$w\"/){
 			 #print $in;
        			  $result = $in;
       		}
