@@ -37,17 +37,25 @@ sub apavAdaniyamAH{
  $cont = 1;
 $an =~ /^([^\+]+)\+(.*)/;
 $first = $1; $second = $2;
-if ($second =~ /^A/ && `echo "$second" | $LTPROCBIN -c $SCLINSTALLDIR/morph_bin/all_morf.bin | grep 'upasarga:Af'`) { 
+if ($second =~ /^A/ && `echo "$second" | $GlblVar::LTPROCBIN -c $GlblVar::SCLINSTALLDIR/morph_bin/all_morf.bin | grep 'upasarga:Af'`) { 
    if($an=~/^(.*)[aA]\+(.*)/) {$ans = "$1$2";$ans1="pararUpa";$ans2="omAfoSca(6.1.95)"; $cont = 0;} # To do: show morph analysis in a tooltip
+open TMP, ">>/tmp/111";
+print TMP "1st\n";
+close TMP;
 }
 else {
    if ($first =~ /[IUe]$/) {
-   @ans = split(/\//,`echo "$first" | $LTPROCBIN -c $SCLINSTALLDIR/scl/morph_bin/all_morf.bin`);
+   @ans = split(/\//,`echo "$first" | $GlblVar::LTPROCBIN -c $GlblVar::SCLINSTALLDIR/morph_bin/all_morf.bin`);
+
      for ($i=1; $i<=$#ans && !$found;$i++){
-       if($ans[$i] =~ /<vacanam:2>/) { $found = 1;}
-     }
+       if($ans[$i] =~ /<vacanam:xvi>/) { $found = 1;}
    }
-   if($found) {$ans = "*".$first." ".$second;$ans1="pragqhya";$ans2="IxUxexxvivacanam pragqhyam (1.1.11)-> pluwapragqhyA aci niwyam (6.1.125); $first paxasya xvivacana viSleRaNam aXikqwya";$cont =1;}
+   if($found) {
+	   $ftmp = $first;
+	   $ftmp =~ s/I$/i/;
+	   $ftmp =~ s/U$/u/;
+	   $ans = $ftmp." ".$second;$ans1="pragqhya";$ans2="IxUxexxvivacanam pragqhyam (1.1.11)-> pluwapragqhyA aci niwyam (6.1.125); *$first paxasya xvivacana viSleRaNam aXikqwya";$cont =1;}
+   }
 #if($an=~/akRa\+UhinI/){$ans = "akROhiNI";$ans1="vqxXi";$ans2="akRAxUhinyAmupasaMKyAnam (vA 3604)";}
 if($an=~/^akRa\+Uhin(.*)/){$ans = "akROhiN$1";$ans1="vqxXi";$ans2="akRAxUhinyAmupasaMKyAnam (vA 3604)";$cont =0;}
 #if$an eq "akRa+UhinI"){"$ans = akROhiNI;}
