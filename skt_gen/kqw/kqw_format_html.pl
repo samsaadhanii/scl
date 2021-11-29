@@ -22,9 +22,10 @@
 my $line_no = 0;
 my $rt = $ARGV[0];
 my $upa = $ARGV[1];
-my $upa =~ s/^u=//;
+$upa =~ s/^u=//;
 my $XAwu = $ARGV[2];
 my $gaNa = $ARGV[3];
+
 
 while($in = <STDIN>){
  chomp($in);

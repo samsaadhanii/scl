@@ -36,7 +36,7 @@ $myPath = $GlblVar::SCLINSTALLDIR;
  my $kqw_prawyaya = $ARGV[5];
  my $XAwu = $ARGV[6];
  my $gaNa = $ARGV[7];
- my $upasarga =~ s/^u=//;
+ $upasarga =~ s/^u=//;
 
  my $generator = "$GlblVar::LTPROCBIN -ct $myPath/morph_bin/all_gen.bin";
 
@@ -45,11 +45,20 @@ $myPath = $GlblVar::SCLINSTALLDIR;
  chomp($prAwi_wx);
  chomp($kqw_prawyaya_wx);
 
+ if($upasarga ne "-") { $upasargastr = "<upasarga:$upasarga>";} else {$upasargastr = "";}
+
+ if($kqw_prawyaya_wx eq "SAnac_lat_karwari") {
+	 $kqw_prawyaya_wx = "SAnac_lat><prayogaH:karwari";
+ }
+ if($kqw_prawyaya_wx eq "SAnac_lat_karmaNi") {
+	 $kqw_prawyaya_wx = "SAnac_lat><prayogaH:karmaNi";
+ }
+
  $LTPROC_IN = "";
  for($vib=1;$vib<9;$vib++){
     for($num=0;$num<3;$num++){
         $vacanam = $vacanam[$num];
-        $str = "<kqw_XAwu:$rt><kqw_prawyayaH:$kqw_prawyaya_wx><XAwuH:$XAwu><gaNaH:$gaNa>$prAwi_wx<vargaH:nA><lifgam:$lifga><viBakwiH:$vib><vacanam:$vacanam><level:2>"; 
+        $str = "<kqw_XAwu:$rt>${upasargastr}<kqw_prawyayaH:$kqw_prawyaya_wx><XAwuH:$XAwu><gaNaH:$gaNa>$prAwi_wx<vargaH:nA><lifgam:$lifga><viBakwiH:$vib><vacanam:$vacanam><level:2>"; 
         $LTPROC_IN .=  $str."\n";
     } # number
  } #vib

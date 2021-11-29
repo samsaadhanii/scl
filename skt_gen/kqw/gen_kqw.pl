@@ -61,6 +61,7 @@ $LTPROC_IN = "";
    } else { $rt_XAwu_gaNa = $rt;}
    chomp($rt_XAwu_gaNa);
 
+    $upasarga =~ s/Y/_/g;
     ($rt,$XAwu,$gaNa,$mean) = split(/_/,$rt_XAwu_gaNa);
     if($upasarga ne "-") { $upasargastr = "<upasarga:$upasarga>";} else {$upasargastr = "";}
     for($l=0;$l<14;$l++) {
@@ -78,13 +79,13 @@ $LTPROC_IN = "";
     }
    $ustrutf8 = &join($upasarga,$rt);
    $rtutf8 = `echo $rt | sed 's/[1-5]//' | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;
-   if($upasarga ne "-") {$upasarga = `echo $upasarga | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;} else {$upasarga = "";}
-   chomp($upasarga);
-   if($upasarga ne "") { $upasarga .= "_";}
+   if($upasarga ne "-") {$upasargautf8 = `echo $upasarga | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;} else {$upasargautf8 = "";}
+   chomp($upasargautf8);
+   #if($upasargautf8 ne "") { $upasargautf8 .= "_";}
    print "<center>\n";
    print "<a href=\"javascript:show('$ustrutf8','DEV')\">$ustrutf8<\/a>\n";
    print "<\/center>\n";
-   $str = "echo '".$LTPROC_IN."' | $ltproc_cmd | $GlblVar::SCLINSTALLDIR/skt_gen/kqw/kqw_format_html.pl $rt u=$upasargastr $XAwu $gaNa";
+   $str = "echo '".$LTPROC_IN."' | $ltproc_cmd | $GlblVar::SCLINSTALLDIR/skt_gen/kqw/kqw_format_html.pl $rt u=$upasarga $XAwu $gaNa";
    $LTPROC_IN1 = "";
    for($l=0;$l<3;$l++){
     if($upasarga eq "") {
@@ -110,6 +111,7 @@ sub join {
 
 	my ($sandhi);
 
+	$upasarga =~ s/_//g;
 	if ($upasarga eq "Af") { $upasarga = "A";}
 	if($upasarga ne "-") { $sandhi = $upasarga.$rt;} else {$sandhi = $rt;}
 	$sandhi =~ s/[aA][aA]/A/;

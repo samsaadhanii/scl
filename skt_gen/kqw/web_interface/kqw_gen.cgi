@@ -51,7 +51,7 @@ require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
       my $result = &getResult("$GlblVar::SCLINSTALLDIR/skt_gen/kqw/gen_kqw.pl $encoding $word $upasarga");
       print $result;
       if($GlblVar::VERSION eq "SERVER"){
-         print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."word:$word\n#################\n";
+         print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."word:$word $upasarga\n#################\n";
       }
       #     }
       if($GlblVar::VERSION eq "SERVER"){
