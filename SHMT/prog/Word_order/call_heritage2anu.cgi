@@ -59,6 +59,7 @@ read(STDIN, $b, $ENV{'CONTENT_LENGTH'});
  }
  system("mkdir -p $GlblVar::TFPATH/tmp_in$pid");
 
+ system("echo '$buffer' > /tmp/222; echo 'written' >> /tmp/222");
  system("echo '$buffer' | $GlblVar::SCLINSTALLDIR/SHMT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $GlblVar::SCLINSTALLDIR > $GlblVar::TFPATH/tmp_in$pid/in$pid.out");
  system("cp $GlblVar::TFPATH/tmp_in$pid/in$pid.out $GlblVar::TFPATH/tmp_in$pid/in$pid.out.orig");
 

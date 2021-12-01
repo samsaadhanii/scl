@@ -34,6 +34,7 @@ chomp($in);
   @f = split(/,/,$Heritage_rt);
   foreach $f (@f) {
     if($f =~ /\(([a-zA-Z]+)\)/) { $gaNa = $1; $f =~ s/\([a-zA-Z]+\)//;}
+    if($f =~ /\(([0-9]+)\)/) { $f =~ s/\([0-9]+\)//;}
     $key = $f."_".$paxI;
     $value = $SaMsAXanI_rt."_".$XAwu."_".$gaNa;
     if($LEX{$key} eq "") { $LEX{$key} = $value;}
