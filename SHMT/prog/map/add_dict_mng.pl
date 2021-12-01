@@ -212,23 +212,23 @@ while($tmpin = <STDIN>){
          $hn_vacana = &get_hn_vacana($vacana);
          $ans .=  "/$samAsa_pUrvapaxa$map_rt $cat $hn_lifga $hn_vacana $default_puruRa $map_kqw";
       }
-      } elsif($cat eq "waxXiwa_noun") {
-
-       ($rt, $waxXiwa_prawyaya, $lifgam, $viBakwi, $vacana, $rel) = 
-        split(/:/, &get_waxXiwa_noun_features($in[$i]));
-
-	#	print "rt = $rt\n";
-       $key = $rt."_".$lifga;
-       $map_rt = &get_dict_mng($key, $rNOUN);
-       #if($samAsa_pUrvapaxa) { $map_rt = $samAsa_pUrvapaxa.$map_rt;}
-       $map_waxXiwa = &get_dict_mng($waxXiwa_prawyaya, $rTAM);
-       $rt .= $map_waxXiwa;
-       $hn_lifga = &get_skt_hn_lifga($lifgam);
-       $hn_vacana = &get_hn_vacana($vacana);
-       # $hn_viBakwi = &get_hn_viBakwi($viBakwi);
-       # get_hn_viBakwi to be written
-       $ans .=  "/$samAsa_pUrvapaxa$map_rt $cat $hn_lifga $hn_vacana $default_puruRa $map_waxXiwa";
-       #print "ans = $ans\n";
+      #} elsif($cat eq "waxXiwa_noun") {
+      #
+      # ($rt, $waxXiwa_prawyaya, $lifgam, $viBakwi, $vacana, $rel) = 
+      #  split(/:/, &get_waxXiwa_noun_features($in[$i]));
+      #
+      #	#	print "rt = $rt\n";
+      # $key = $rt."_".$lifga;
+      # $map_rt = &get_dict_mng($key, $rNOUN);
+      # #if($samAsa_pUrvapaxa) { $map_rt = $samAsa_pUrvapaxa.$map_rt;}
+      # $map_waxXiwa = &get_dict_mng($waxXiwa_prawyaya, $rTAM);
+      # $rt .= $map_waxXiwa;
+      # $hn_lifga = &get_skt_hn_lifga($lifgam);
+      # $hn_vacana = &get_hn_vacana($vacana);
+      # # $hn_viBakwi = &get_hn_viBakwi($viBakwi);
+      # # get_hn_viBakwi to be written
+      # $ans .=  "/$samAsa_pUrvapaxa$map_rt $cat $hn_lifga $hn_vacana $default_puruRa $map_waxXiwa";
+      # #print "ans = $ans\n";
       }elsif($cat eq "n") {
 
         ($rt,$lifga,$viBakwi,$vacana,$rel) = split(/:/, &get_noun_features($in[$i]));
@@ -518,7 +518,8 @@ my $cat  = "";
    elsif($in =~ /vargaH:avy;.*kqw_prawyayaH:/){ $cat = "kqw_avy";}
    elsif($in =~ /kqw_prawyayaH/){ $cat = "kqw_noun";}
 
-   elsif($in =~ /vargaH:nA;waxXiwa_prawyayaH:([^;]+;lifga)/){ $cat = "waxXiwa_noun";}
+   #elsif($in =~ /vargaH:nA;waxXiwa_prawyayaH:([^;]+;lifga)/){ $cat = "waxXiwa_noun";}
+   elsif($in =~ /vargaH:nA;waxXiwa_prawyayaH:([^;]+)/){ $cat = "n";}
    elsif($in =~ /vargaH:avy;waxXiwa_prawyayaH:([^;]+)/){ $cat = "waxXiwa_avy";}
 
    elsif($in =~ /vargaH:avy/){ $cat = "avy"; } 
@@ -620,24 +621,24 @@ $ans;
 }
 1;
 
-sub get_waxXiwa_noun_features{
-my($in) = @_;
-
-my $ans = "";
-
-  if($in =~ /^.*rt:([^;]+).*waxXiwa_prawyayaH:([^;]+);.*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;}]+).*rel_nm:([^;]*)/){
-
-     $rt = $1;
-     $waxXiwa_prawyayaH = $2;
-     $lifgam = $3;
-     $viB = $4;
-     $vacana = $5;
-     $rel = $6;
-  $ans = join(":",$rt,$waxXiwa_prawyayaH,$lifgam,$viB,$vacana,$rel);
-  }
-$ans;
-}
-1;
+#sub get_waxXiwa_noun_features{
+#my($in) = @_;
+#
+#my $ans = "";
+#
+#  if($in =~ /^.*rt:([^;]+).*waxXiwa_prawyayaH:([^;]+);.*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;}]+).*rel_nm:([^;]*)/){
+#
+#     $rt = $1;
+#     $waxXiwa_prawyayaH = $2;
+#     $lifgam = $3;
+#     $viB = $4;
+#     $vacana = $5;
+#     $rel = $6;
+#  $ans = join(":",$rt,$waxXiwa_prawyayaH,$lifgam,$viB,$vacana,$rel);
+#  }
+#$ans;
+#}
+#1;
 
 sub get_waxXiwa_avy_features{
 my($in) = @_;
