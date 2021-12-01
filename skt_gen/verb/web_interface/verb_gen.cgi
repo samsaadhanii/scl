@@ -38,6 +38,8 @@ package main;
       my $encoding=$param{encoding};
       my $outencoding=$param{outencoding};
 
+      if($outencoding eq "") { $outencoding="UTF8";}
+
       if($prayoga_paxI =~ /\-/) {
         ($prayoga,$paxI) = split(/-/,$prayoga_paxI,2);
       } else {$prayoga = $prayoga_paxI;}
@@ -54,7 +56,6 @@ package main;
       print "</head>\n";
       print "<body onload=\"register_keys()\"> <script src=\"/scl/SHMT/wz_tooltip.js\" type=\"text/javascript\"></script>\n";
 
-      #print "verb generator is being called\n";
       my $result = `$GlblVar::SCLINSTALLDIR/skt_gen/verb/gen_verb.pl $encoding $outencoding $prayoga $upasarga $word $paxI`;
       print $result;
       if($GlblVar::VERSION eq "SERVER"){
