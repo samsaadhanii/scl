@@ -39,9 +39,6 @@ $an =~ /^([^\+]+)\+(.*)/;
 $first = $1; $second = $2;
 if ($second =~ /^A/ && `echo "$second" | $GlblVar::LTPROCBIN -c $GlblVar::SCLINSTALLDIR/morph_bin/all_morf.bin | grep 'upasarga:Af'`) { 
    if($an=~/^(.*)[aA]\+(.*)/) {$ans = "$1$2";$ans1="pararUpa";$ans2="omAfoSca(6.1.95)"; $cont = 0;} # To do: show morph analysis in a tooltip
-open TMP, ">>/tmp/111";
-print TMP "1st\n";
-close TMP;
 }
 else {
    if ($first =~ /[IUe]$/) {
@@ -265,20 +262,20 @@ if($an=~/(.*)([iIuUqQLeEoO])H\+([aAiIuUqQLeEoOgGfjJFdDNxXnbBmylvh])(.*)/){$ans =
 if($an=~/^eRaH\+([kKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRsh])(.*)/){$ans ="eRa $1$2";$ans1="visargalopa",$ans2= "ewawwaxoH sulopoZkoranaFsamAse hali (6.1.132)";}
 elsif($an=~/^saH\+([kKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRsh])(.*)/){$ans ="sa $1$2";$ans1="visargalopa",$ans2= "ewawwaxoH sulopoZkoranaFsamAse hali (6.1.132)";}
 elsif($an=~/(.*)aH\+([gGfjJFdDNxXnbBmyrlvh])(.*)/){$ans ="$1o $2$3"; $ans1 ="ruwva-> uwva-> guNa";$ans2 = "sasajuRo ruH (8.2.66)-> haSi ca (6.1.114)-> Ax guNaH (6.1.87)" ;$cont=0;}
+elsif($an=~/^BoH\+([kKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRsh])(.*)/){ $ans="Bos$1$2";$ans1="";$ans2="sasajuRo ruH (8.2.66)-> KaravasAnayorvisarjanIyaH (8.3.15)-> visarjanIyasya saH (8.3.34)";$cont=0;}
+elsif($an=~/^BoH\+([aAiIuUqQLeEoO])(.*)/){ $ans="Boy$1$2";$ans1="sawva->yawva->laGuprayawnAxeSaH";$ans2="sasajuRo ruH (8.2.66)->BoBagoaGo apUrvasyayoZSi (8.3.17)->vyorlaGuprayawnawaraH SAkatAyanasya (8.3.18)";$cont=0;}
+elsif($an=~/^BoH\+([aAiIuUqQLeEoO])(.*)/){ $ans=$ans.":"."Bo $1$2";$ans1=$ans1.":"."sawva->yawva->laGuprayawnABAve yawvalopa";$ans2=$ans2.":"."sasajuRo ruH (8.2.66)->BoBagoaGo apUrvasyayoZSi (8.3.17)->owo gArgyasya (8.3.20)";$cont=0;}
+elsif($an=~/^BagoH\+([kKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRsh])(.*)/){ $ans="Bago $1$2";$ans1="yawvalopaH";$ans2="sasajuRo ruH (8.2.66)->BoBagoaGo apUrvasyayoZSi (8.3.17)->hali sarveRAm (8.3.22)";$cont=0;}
+elsif($an=~/^BagoH\+([aAiIuUqQLeEoO])(.*)/){ $ans="Bagoy$1$2";$ans1="sawva->yawva->laGuprayawnAxeSaH";$ans2="sasajuRo ruH (8.2.66)->BoBagoaGo apUrvasyayoZSi (8.3.17)->vyorlaGuprayawnawaraH SAkatAyanasya (8.3.18)";$cont=0;}
+elsif($an=~/^BagoH\+([aAiIuUqQLeEoO])(.*)/){ $ans=$ans.":"."Bago $1$2";$ans1=$ans1.":"."sawva->yawva->laGuprayawnABAve yawvalopa";$ans2=$ans2.":"."sasajuRo ruH (8.2.66)->BoBagoaGo apUrvasyayoZSi (8.3.17)->owo gArgyasya (8.3.20)";$cont=0;}
+elsif($an=~/^aGoH\+([kKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRsh])(.*)/){ $ans="aGo $1$2";$ans1="yawvalopaH";$ans2="sasajuRo ruH (8.2.66)->BoBagoaGo apUrvasyayoZSi (8.3.17)->hali sarveRAm (8.3.22)";$cont=0;}
+elsif($an=~/^aGoH\+([aAiIuUqQLeEoO])(.*)/){ $ans="aGoy$1$2";$ans1="sawva->yawva->laGuprayawnAxeSaH";$ans2="sasajuRo ruH (8.2.66)->BoBagoaGo apUrvasyayoZSi (8.3.17)->vyorlaGuprayawnawaraH SAkatAyanasya (8.3.18)";$cont=0;}
+elsif($an=~/^aGoH\+([aAiIuUqQLeEoO])(.*)/){ $ans=$ans.":"."aGo $1$2";$ans1=$ans1.":"."sawva->yawva->laGuprayawnABAve yawvalopa";$ans2=$ans2.":"."sasajuRo ruH (8.2.66)->BoBagoaGo apUrvasyayoZSi (8.3.17)->owo gArgyasya (8.3.20)";$cont=0;}
 elsif($an=~/(.*)([aAiIuUqQLeEoO])H\+([wW])([^sSR].*)/){$ans = "$1$2s$3$4";$ans1 = "sawva";$ans2 = "visarjanIyasya saH (8.3.34)";$cont=0;}
+elsif($an=~/(.*)([aAiIuUqQLeEoO])H\+([cC])(.*)/){$ans = "$1$2S$3$4"; $ans1 ="sawva-> Scuwva";$ans2 = "visarjanIyasya saH (8.3.34)-> swoH ScunA ScuH (8.4.40)";$cont=0;}
+elsif($an=~/(.*)([aAiIuUqQLeEoO])H\+([tT])(.*)/){$ans = "$1$2R$3$4"; $ans1 ="sawva-> Rtuwva";$ans2 = "visarjanIyasya saH (8.3.34)-> RtunA RtuH (8.4.41)";$cont=0;}
+elsif($an=~/(.*)AH\+([gGfjJFdDNxXnbBmyrlvh])(.*)/){$ans ="$1A $2$3"; $ans1 ="ruwva-> yawva-> lopa";$ans2 = "sasajuRo ruH (8.2.66)-> BoBagoaGo apUrvasya yoZSi (8.3.17)-> hali sarveRAm (8.3.22)" ;$cont=0;}
 
-if($an=~/(.*)([aAiIuUqQLeEoO])H\+([cC])(.*)/){$ans = "$1$2S$3$4"; $ans1 ="sawva-> Scuwva";$ans2 = "visarjanIyasya saH (8.3.34)-> swoH ScunA ScuH (8.4.40)";$cont=0;}
-if($an=~/(.*)([aAiIuUqQLeEoO])H\+([tT])(.*)/){$ans = "$1$2R$3$4"; $ans1 ="sawva-> Rtuwva";$ans2 = "visarjanIyasya saH (8.3.34)-> RtunA RtuH (8.4.41)";$cont=0;}
-if($an=~/(.*)AH\+([gGfjJFdDNxXnbBmyrlvh])(.*)/){$ans ="$1A $2$3"; $ans1 ="ruwva-> yawva-> lopa";$ans2 = "sasajuRo ruH (8.2.66)-> BoBagoaGo apUrvasya yoZSi (8.3.17)-> hali sarveRAm (8.3.22)" ;$cont=0;}
-if($an=~/^BoH\+([kKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRsh])(.*)/){ $ans="Bos$1$2";$ans1="";$ans2="sasajuRo ruH (8.2.66)-> KaravasAnayorvisarjanIyaH (8.3.15)-> visarjanIyasya saH (8.3.34)";$cont=0;}
-if($an=~/^BoH\+([aAiIuUqQLeEoO])(.*)/){ $ans="Boy$1$2";$ans1="sawva->yawva->laGuprayawnAxeSaH";$ans2="sasajuRo ruH (8.2.66)->BoBagoaGo apUrvasyayoZSi (8.3.17)->vyorlaGuprayawnawaraH SAkatAyanasya (8.3.18)";$cont=0;}
-if($an=~/^BoH\+([aAiIuUqQLeEoO])(.*)/){ $ans=$ans.":"."Bo $1$2";$ans1=$ans1.":"."sawva->yawva->laGuprayawnABAve yawvalopa";$ans2=$ans2.":"."sasajuRo ruH (8.2.66)->BoBagoaGo apUrvasyayoZSi (8.3.17)->owo gArgyasya (8.3.20)";$cont=0;}
-if($an=~/^BagoH\+([kKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRsh])(.*)/){ $ans="Bago $1$2";$ans1="yawvalopaH";$ans2="sasajuRo ruH (8.2.66)->BoBagoaGo apUrvasyayoZSi (8.3.17)->hali sarveRAm (8.3.22)";$cont=0;}
-if($an=~/^BagoH\+([aAiIuUqQLeEoO])(.*)/){ $ans="Bagoy$1$2";$ans1="sawva->yawva->laGuprayawnAxeSaH";$ans2="sasajuRo ruH (8.2.66)->BoBagoaGo apUrvasyayoZSi (8.3.17)->vyorlaGuprayawnawaraH SAkatAyanasya (8.3.18)";$cont=0;}
-if($an=~/^BagoH\+([aAiIuUqQLeEoO])(.*)/){ $ans=$ans.":"."Bago $1$2";$ans1=$ans1.":"."sawva->yawva->laGuprayawnABAve yawvalopa";$ans2=$ans2.":"."sasajuRo ruH (8.2.66)->BoBagoaGo apUrvasyayoZSi (8.3.17)->owo gArgyasya (8.3.20)";$cont=0;}
-if($an=~/^aGoH\+([kKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRsh])(.*)/){ $ans="aGo $1$2";$ans1="yawvalopaH";$ans2="sasajuRo ruH (8.2.66)->BoBagoaGo apUrvasyayoZSi (8.3.17)->hali sarveRAm (8.3.22)";$cont=0;}
-if($an=~/^aGoH\+([aAiIuUqQLeEoO])(.*)/){ $ans="aGoy$1$2";$ans1="sawva->yawva->laGuprayawnAxeSaH";$ans2="sasajuRo ruH (8.2.66)->BoBagoaGo apUrvasyayoZSi (8.3.17)->vyorlaGuprayawnawaraH SAkatAyanasya (8.3.18)";$cont=0;}
-if($an=~/^aGoH\+([aAiIuUqQLeEoO])(.*)/){ $ans=$ans.":"."aGo $1$2";$ans1=$ans1.":"."sawva->yawva->laGuprayawnABAve yawvalopa";$ans2=$ans2.":"."sasajuRo ruH (8.2.66)->BoBagoaGo apUrvasyayoZSi (8.3.17)->owo gArgyasya (8.3.20)";$cont=0;}
 if($an=~/^miWo\+([aAiIuUqQLeEoO])(.*)/){$ans ="miWo $1$2" ;$ans1="pragqhyawva->prakqwiBAva";$ans2="ow (1.1.15)-> pluwapragqhyA aci niwyam (6.1.125)";$cont=0;}
 if($an=~/^ho\+([aAiIuUqQLeEoO])(.*)/){$ans ="ho $1$2" ;$ans1="pragqhyawva->prakqwiBAva";$ans2="ow (1.1.15)-> pluwapragqhyA aci niwyam (6.1.125)";$cont=0;}
 if($an=~/^aho\+([aAiIuUqQLeEoO])(.*)/){$ans ="aho $1$2" ;$ans1="pragqhyawva->prakqwiBAva";$ans2="ow (1.1.15)-> pluwapragqhyA aci niwyam (6.1.125)";$cont=0;}
