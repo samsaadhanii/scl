@@ -88,14 +88,14 @@ $LTPROC_IN = "";
    $str = "echo '".$LTPROC_IN."' | $ltproc_cmd | $GlblVar::SCLINSTALLDIR/skt_gen/kqw/kqw_format_html.pl $rt u=$upasarga $XAwu $gaNa";
    $LTPROC_IN1 = "";
    for($l=0;$l<3;$l++){
-    if($upasarga eq "") {
+    if($upasarga eq "-") {
       $str1 = "<kqw_XAwu:${rt}>${upasargastr}<vargaH:avy><kqw_prawyayaH:$kqw_avy_prawyayaH[$l]><XAwuH:$XAwu><gaNaH:$gaNa><level:2>";
     } else {
       $str1 = "<kqw_XAwu:${rt}>${upasargastr}<vargaH:avy><kqw_prawyayaH:$kqw_avy_upa_prawyayaH[$l]><XAwuH:$XAwu><gaNaH:$gaNa><level:2>";
    }
       $LTPROC_IN1 .=  $str1."\n";
   }
-  if ($upasarga eq "") { $upa = "N";} else {$upa = "Y";}
+  if ($upasarga eq "-") { $upa = "N";} else {$upa = "Y";}
    $str1 = "echo '".$LTPROC_IN1."' | $ltproc_cmd1 | $GlblVar::SCLINSTALLDIR/skt_gen/kqw/kqw_avy_html.pl $upa";
   print "<html><body>\n";
   print "<table border=0 width=100%>\n";

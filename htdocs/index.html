@@ -30,6 +30,9 @@
 
 <script type="text/javascript" src="js_files/jquery-ui.js"></script>
 <!--<script src="js_files/validation.js"></script> -->
+<script src="js_files/variables.js"></script>
+<script src="js_files/verb_gen.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
 <meta http-equiv="CONTENT-TYPE" content="text/html; charset=utf-8" />
 <meta name ="keywords" content="india,indology,sanskrit,lexicography,linguistics,computational linguistics,tools, morph analyser" />
@@ -38,6 +41,7 @@
 <meta name="description" content="This site provides tools for Analysis of Sanskrit processing: morphological analysis and generation, segmentation, sandhi splitter, and parsing." />
 
 <!-- All css links for all modules -->
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 <!-- <link rel="stylesheet" href="css_files/jquery-ui.css"> -->
 <link rel="stylesheet" href="css_files/samsaadhanii.css"/>
 <link rel="stylesheet" href="css_files/menu.css"/>
@@ -89,11 +93,6 @@ $("#content").load("description.html");
     $(".dropdown_5columns").hide();
   });
   
-  $("#verb-fnd-iast").click(function(){
-    $("#content").load("skt_gen/verb/verb_iast.html");
-    $(".dropdown_5columns").hide();
-  });
-
   $("#kridant-fnd").click(function(){
     $("#content").load("skt_gen/kqw/kqw.html");
     $(".dropdown_5columns").hide();
@@ -115,6 +114,7 @@ $("#content").load("description.html");
   });
 
   $("#compound_gen").click(function(){
+    $("#content").load("skt_gen/compounds/index.html");
     $(".dropdown_5columns").hide();
   });
   
@@ -192,9 +192,7 @@ function closeForm(){
              <table class="skttools">
               <tr><td><span id="morph-gen-lb"><b>पद-निष्पादिका / Morphological Generator</b></span></td></tr>
 	      <tr><td><span id="noun">&nbsp;&nbsp; &rArr; नामरूपनिष्पादिका (Noun-Generator)</span></td></tr>
-	      <tr><td>
-			      <span id="verb-fnd">&nbsp;&nbsp; &rArr;  क्रियारूपनिष्पादिका </span> <br/>
-	      <span id="verb-fnd-iast">&nbsp;&nbsp; &rArr; Verb-forms-Generator</span></td></tr>
+	      <tr><td><span id="verb-fnd">&nbsp;&nbsp; &rArr;  क्रियारूपनिष्पादिका (Verb-forms-Generator)</span></td></tr>
 	      <tr><td><span id="kridant-fnd">&nbsp;&nbsp;&rArr; कृदन्तरूपनिष्पादिका (Krt-Generator) </span></td></tr>
 	      <tr><td><span id="waxXiwa-fnd">&nbsp; &rArr; तद्धितरूपनिष्पादिका (Taddhita-Generator)</span></td></tr>
 	     </table>
