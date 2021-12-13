@@ -46,7 +46,7 @@
 			}
 \<entry[ ]wx=\"[^\"]+/\"\/\>\<krid	{
 			strcpy(kqw_prati,yytext+11);
-			iic_count=0;
+			/*iic_count=0;*/
 			if(!strcmp(vargaH,"nA")) {strcpy(vargaH,"kqw_nA");}
 			if(debug) {printf(" found krid = %s vargaH = %s",kqw_prati, vargaH);}
 			}
@@ -136,24 +136,24 @@
 \<md\/>	{strcpy(prayogaH[count],"<prayogaH:karwari>"); strcpy(paxI[count],"<paxI:AwmanepaxI>");}
 \<ps\/>	{strcpy(prayogaH[count],"<prayogaH:karmaNi>");strcpy(paxI[count],"<paxI:AwmanepaxI>");}
 
-\<pr[ ]gana=[0-9]+\/\>	{get_gana(yytext[9],gana);strcpy(gaNa[count],gana); strcpy(lakAraH[count],"<lakAraH:lat>");}
-\<imp[ ]gana=[0-9]+\/\>	{get_gana(yytext[10],gana);strcpy(gaNa[count],gana);strcpy(lakAraH[count],"<lakAraH:lot>");}
-\<aor[ ]gana=[0-9]+\/\>	{get_gana(yytext[10],gana);strcpy(gaNa[count],gana);strcpy(lakAraH[count],"<lakAraH:luf>");}
-\<inj[ ]gana=[0-9]+\/\>	{get_gana(yytext[10],gana);strcpy(gaNa[count],gana);strcpy(lakAraH[count],"<luf>");}
+\<pr[ ]gana=[0-9]+\/\>	{get_gana(yytext+9,gana);strcpy(gaNa[count],gana); strcpy(lakAraH[count],"<lakAraH:lat>");}
+\<imp[ ]gana=[0-9]+\/\>	{get_gana(yytext+10,gana);strcpy(gaNa[count],gana);strcpy(lakAraH[count],"<lakAraH:lot>");}
+\<aor[ ]gana=[0-9]+\/\>	{get_gana(yytext+10,gana);strcpy(gaNa[count],gana);strcpy(lakAraH[count],"<lakAraH:luf>");}
+\<inj[ ]gana=[0-9]+\/\>	{get_gana(yytext+10,gana);strcpy(gaNa[count],gana);strcpy(lakAraH[count],"<luf>");}
 \<prps\/\>	{strcpy(gaNa[count],"X");strcpy(lakAraH[count],"<lakAraH:lat>"); strcpy(prayogaH[count],"<prayogaH:karmaNi>");strcpy(paxI[count],"<paxI:AwmanepaxI>");}
 \<impps\/\>	{strcpy(gaNa[count],"X");strcpy(lakAraH[count],"<prayogaH:karmaNi><lakAraH:lot>");strcpy(paxI[count],"<paxI:AwmanepaxI>");}
 \<optps\/\>	{strcpy(gaNa[count],"X");strcpy(lakAraH[count],"<prayogaH:karmaNi><lakAraH:viXilif>");strcpy(paxI[count],"<paxI:AwmanepaxI>");}
 \<impftps\/\>	{strcpy(gaNa[count],"X");strcpy(lakAraH[count],"<prayogaH:karmaNi><lakAraH:laf>");strcpy(paxI[count],"<paxI:AwmanepaxI>");}
-\<impft[ ]gana=[0-9]+\/\>	{get_gana(yytext[12],gana);strcpy(gaNa[count],gana);strcpy(lakAraH[count],"<lakAraH:laf>");strcpy(paxI[count],"<paxI:AwmanepaxI>");}
+\<impft[ ]gana=[0-9]+\/\>	{get_gana(yytext+12,gana);strcpy(gaNa[count],gana);strcpy(lakAraH[count],"<lakAraH:laf>");strcpy(paxI[count],"<paxI:AwmanepaxI>");}
 \<perfut\/\>	{strcpy(gaNa[count],"X");strcpy(lakAraH[count],"<lakAraH:lut>");strcpy(paxI[count],"<paxI:AwmanepaxI>");}
 \<fut\/\>	{strcpy(gaNa[count],"X");strcpy(lakAraH[count],"<lakAraH:lqt>");}
 \<pft\/\>	{strcpy(gaNa[count],"X");strcpy(lakAraH[count],"<lakAraH:lit>");}
 \<cond\/\>	{strcpy(gaNa[count],"X");strcpy(lakAraH[count],"<lakAraH:lqf>");}
 \<ben\/\>	{strcpy(gaNa[count],"X");strcpy(lakAraH[count],"<lakAraH:ASIrlif>");}
 
-\<ppr[ ]gana=[0-9]+\/\>\<ac\/\>	{get_gana(yytext[10],gana);strcpy(gaNa[count],gana);strcpy(kqw,"<kqw_prawyayaH:Sawq_lat>"); }
-\<ppr[ ]gana=[0-9]+\/\>\<md\/\>	{get_gana(yytext[10],gana);strcpy(gaNa[count],gana);strcpy(kqw,"<kqw_prawyayaH:SAnac_lat>"); }
-\<ppr[ ]gana=[0-9]+\/\>\<ps\/\>	{get_gana(yytext[10],gana);strcpy(gaNa[count],gana);strcpy(kqw,"<kqw_prawyayaH:SAnac_lat>"); }
+\<ppr[ ]gana=[0-9]+\/\>\<ac\/\>	{get_gana(yytext+10,gana);strcpy(gaNa[count],gana);strcpy(kqw,"<kqw_prawyayaH:Sawq_lat>"); }
+\<ppr[ ]gana=[0-9]+\/\>\<md\/\>	{get_gana(yytext+10,gana);strcpy(gaNa[count],gana);strcpy(kqw,"<kqw_prawyayaH:SAnac_lat>"); }
+\<ppr[ ]gana=[0-9]+\/\>\<ps\/\>	{get_gana(yytext+10,gana);strcpy(gaNa[count],gana);strcpy(kqw,"<kqw_prawyayaH:SAnac_lat>"); }
 
 \<abs\/\>	{strcpy(kqw,"<kqw_prawyayaH:kwvA>"); strcpy(vargaH,"avykqw");}
 \<inf\/\>	{strcpy(kqw,"<kqw_prawyayaH:wumun>"); strcpy(vargaH,"avykqw");}
@@ -309,19 +309,28 @@ for(i=0;i<10;i++) { gen[i][0] = '\0';num[i][0] = '\0'; per[i][0] = '\0'; vib[i][
 return yylex();
 }
 
-void get_gana(int gana_id, char gana_name[10])
+void get_gana(char gana_id[2], char gana_name[10])
 {
-gana_id = gana_id - 48; /* number versus ascii code */
-switch (gana_id) {
-  case 1 : strcpy(gana_name,"BvAxiH"); break;
-  case 2 : strcpy(gana_name,"axAxiH"); break;
-  case 3 : strcpy(gana_name,"juhowyAxiH"); break;
-  case 4 : strcpy(gana_name,"xivAxiH"); break;
-  case 5 : strcpy(gana_name,"svAxiH"); break;
-  case 6 : strcpy(gana_name,"wuxAxiH"); break;
-  case 7 : strcpy(gana_name,"ruXAxiH"); break;
-  case 8 : strcpy(gana_name,"wanAxiH"); break;
-  case 9 : strcpy(gana_name,"kryAxiH"); break;
-  case 10 : strcpy(gana_name,"curAxiH"); break;
+/* gana_id = gana_id - 48;  number versus ascii code */
+switch (gana_id[0]) {
+/*  Special gana values for present forms of secondary conjugations *)
+(*i Not clearly needed, since not printed in XML banks - replace by 0 ? i*)
+value cau_gana = 12
+and   des_gana = 13
+and   int_gana = 14  -- comment from Heritage */
+  case '1' :  if (gana_id[1] == '0') strcpy(gana_name,"curAxiH");
+            else if (gana_id[1] == '1') strcpy(gana_name,"X");
+            else if (gana_id[1] == '2') strcpy(gana_name,"X");
+            else if (gana_id[1] == '3') strcpy(gana_name,"X");
+            else if (gana_id[1] == '4') strcpy(gana_name,"X");
+            else strcpy(gana_name,"BvAxiH"); break;
+  case '2' : strcpy(gana_name,"axAxiH"); break;
+  case '3' : strcpy(gana_name,"juhowyAxiH"); break;
+  case '4' : strcpy(gana_name,"xivAxiH"); break;
+  case '5' : strcpy(gana_name,"svAxiH"); break;
+  case '6' : strcpy(gana_name,"wuxAxiH"); break;
+  case '7' : strcpy(gana_name,"ruXAxiH"); break;
+  case '8' : strcpy(gana_name,"wanAxiH"); break;
+  case '9' : strcpy(gana_name,"kryAxiH"); break;
 }
 }

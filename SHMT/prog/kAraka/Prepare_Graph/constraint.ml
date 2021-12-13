@@ -116,6 +116,7 @@ value print_relation r = match r with
     ; if (i3 >= 2000) then print_int (i3 - (i3 mod 100)) 
       else if (i3 = 1009) then print_int 9 
       else if (i3 = 1079) then print_int 79 
+      else if (i3 = 70) then print_int 34  (* hewuH -> hewu *)
       (* else if (i3 = 64) || (i3 = 65) (* samuccayaxyowaka,sup_samuccayaxyowaka *)
       then print_int 1
       else if (i3 = 66) || (i3 = 67) (* anyawaraxyowaka,sup_anyawaraxyowaka *)

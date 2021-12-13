@@ -141,6 +141,7 @@ while($tmpin = <STDIN>){
   #}
   #print "in = $in\n";
   $in =~ s/\/.*//;
+  $in =~ s/<rt:([^>]+)[^\-]+\-([a-zA-Z]+)</<rt:$1-$2;/g;
   $in =~ s/></;/g;
   $in =~ s/</{/g;
   $in =~ s/>/}/g;
@@ -706,9 +707,19 @@ sub split_samAsa {
 	my($p_mng);
 	my($pUrvapaxa, $uwwarapaxa);
 
-  if($in =~ /rt:([^;]+)\-([^;]+)/) { 
+	#print "in = $in\n";
+	if($in =~ /;-/) {
+		$in =~ /rt:([^;]+)/;
+		$pUrvapaxa = $1;
+		$in =~ s/.*;-//;
+		$uwwarapaxa = $in;
+		#print "1 pUrvapaxa = $pUrvapaxa\n";
+		#print "2 uwwarapaxa = $uwwarapaxa\n";
+	} elsif($in =~ /rt:([^;]+)\-([^;]+)/) { 
 	  $pUrvapaxa = $1;
 	  $uwwarapaxa = $2;
+	  #	  print "pUrvapaxa = $pUrvapaxa\n";
+	  #print "uwwarapaxa = $uwwarapaxa\n";
 	  @p = split(/-/,$pUrvapaxa);
 	  $p_mng = "";
 	  foreach $p (@p) {

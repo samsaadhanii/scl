@@ -108,6 +108,7 @@ $result;
 sub apte_result{
 	my($sword) = @_;
 my $result = "";
+my $ans = "";
         my $found = 0;
 	$/ = "</lexhead>";
 		while($in = <TMP>){
@@ -121,9 +122,11 @@ my $result = "";
 					$result =~ s/<\/citation>/)/g;
 					$result =~ s/<\/?[a-z]+>//g;
 					$result  =~ s/>$sword</><span style=\"background:yellow;\">$sword<\/span></g;
+					$ans .= "</br></br>". $result;
 				}
 		   }
-$result;
+#$result;
+$ans;
 }	
 1;
 
