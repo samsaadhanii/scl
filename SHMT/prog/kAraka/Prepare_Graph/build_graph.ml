@@ -2152,13 +2152,14 @@ kaH aByupAyaH aswi.
        (* (id2 > id1 ) *) (* Even in Shlokas, the upAXi should come before the name || text_type = "Sloka"  I think id2 > id1  needs to be modified, look at vayam sarve below *)
        (*&&*) no_boundary_crossing id1 id2 text_type
        && (noun_agreement_vibh vacanam1 vacanam2 lifgam1 lifgam2 viBakwiH1 viBakwiH2) 
+       && (id1 < id2 || text_type="Sloka")
        (*&& not (member_of (word2^" "^string_of_int viBakwiH2) kriyAviSeRaNas) (* why is this cond? *)*)
 (* pronoun3 -> pronominal123: mayA avyakwa-mUrwinA from SBG *)
        then if ((( member_of rt1 saMKyeya || member_of rt1 pUraNa || member_of rt1 kqxanwas || member_of rt1 taddhitaantas || member_of rt1 guNavacana ||
 (* To account for both words to be compounds *)
 (* (member_of rt1 uwwara_guNavAcI && not (compound_hd1=word1)) *)
 (compound word1 uwwarapaxa1 && not (rt1="arWa") && not (rt1="pUrvaka"))
-|| pronoun3 rt1 ) && id1 < id2) 
+|| pronoun3 rt1 ) && (id1 < id2 || text_type="Sloka")) 
        (* Even in Sloka, we can not have a pronoun after the viSeRya e.g. vArwA kA AsIw, here kA can not be viSeRaNa, it should be karwqsamAnAXikaraNam; manaH-sWiwiH kA aBavaw, kA is not a viSeRanam but karwqsamAnAXikaraNam *)
 (* && not (viBakwiH1 = 6) *) (* && (id2 = next id1) *)
 || ((rt1 = "sarva" || rt1 = "sarvA") &&  (id1 = next id2 || (id1 > id2 && text_type = "Sloka") ))) (* vayam sarve  ayaneRu ca sarveRu*)

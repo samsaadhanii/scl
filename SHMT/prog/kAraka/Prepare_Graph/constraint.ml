@@ -117,6 +117,7 @@ value print_relation r = match r with
       else if (i3 = 1009) then print_int 9 
       else if (i3 = 1079) then print_int 79 
       else if (i3 = 70) then print_int 34  (* hewuH -> hewu *)
+      else if (i3 = 33) then print_int 32  (* aBexaH -> viSeRaNam *)
       (* else if (i3 = 64) || (i3 = 65) (* samuccayaxyowaka,sup_samuccayaxyowaka *)
       then print_int 1
       else if (i3 = 66) || (i3 = 67) (* anyawaraxyowaka,sup_anyawaraxyowaka *)
@@ -494,7 +495,7 @@ value relation_mutual_expectancy text_type m1 m2 = match m1 with
          else if (from_id1 = to_id2) && (from_mid1 = to_mid2)
                 && (r1=47) && not (r2=13) && not(r2=3)
          then False
-         (* karwqsamAnAXikaraNa should be to the right of karwA *)
+         (* viXeya_viSeRaNam should be to the right of karwA *)
          (*else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
                 && (r2=9 && r1=7) && (text_type="Prose") && (to_id2 > to_id1)
          then False
@@ -513,14 +514,14 @@ value relation_mutual_expectancy text_type m1 m2 = match m1 with
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
                 && (r1=9 &&  r2 >= 4200 && r2 / 100 = 42) && ((to_id2 - to_id1 > 3) || (to_id2 < to_id1 ))
          then False *)
-         (* With karwqsamAnAXikaraNa/samAnAXikaraNa there can not be karma,karaNa,sampraxAna,apAxAna *)
+         (* With viXeya_viSeRaNam/samAnAXikaraNa there can not be karma,karaNa,sampraxAna,apAxAna *)
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
                 && ((r2=9 || r2=1009) && (r1 = 11 || r1 = 12 || r1 = 14 || r1=15 || r1=16 || r1=18 || r1=19 || r1=20))
          then False
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
                 && ((r1=9 || r1=1009)&& (r2 = 11 || r2 = 12 || r2 = 14 || r2 = 15 || r2=16|| r2=18||r2=19||r2=20))
          then False
-         (* With karwqrahiwakarwqsamAnAXikaraNa there can not be karwA *)
+         (* With karwqrahiwaviXeya_viSeRaNam there can not be karwA *)
          else if (from_id2 = from_id1) && (from_mid2 = from_mid1)
                 && r2=8 && r1 = 9
          then False
@@ -601,26 +602,26 @@ value relation_mutual_yogyataa m1 m2 = match m1 with
                 && r2=10 && (r1=7 || r1=11||r1=12||r1=14) (* karwA / karma of a karmasamAnAXikaraNam not allowed *)
          then False
          else if from_id2=to_id1 && from_mid2=to_mid1
-                && (r1=9 || r1 = 1009) && (r2=7||r2=11||r2=12||r2=14) (* karwA / karma of a karwqsamAnAXikaraNam  or samAnAXikaraNam not allowed *)
+                && (r1=9 || r1 = 1009) && (r2=7||r2=11||r2=12||r2=14) (* karwA / karma of a viXeya_viSeRaNam  or samAnAXikaraNam not allowed *)
          then False
          else if from_id1=to_id2 && from_mid1=to_mid2
-                && (r2=9 || r2 = 1009) && (r1=7 || r1=11||r1=12||r1=14) (* karwA / karma of a karwqsamAnAXikaraNam or samAnAXikaraNam not allowed *)
+                && (r2=9 || r2 = 1009) && (r1=7 || r1=11||r1=12||r1=14) (* karwA / karma of a viXeya_viSeRaNam or samAnAXikaraNam not allowed *)
          then False
          else if from_id2=to_id1 && from_mid2=to_mid1
-                && (r2=9 || r2 = 1009) && (r1=7||r1=11||r1=12||r1=14) (* karwqsamAnAXikaraNam  or samAnAXikaraNam of karwA / karma not allowed *)
+                && (r2=9 || r2 = 1009) && (r1=7||r1=11||r1=12||r1=14) (* viXeya_viSeRaNam  or samAnAXikaraNam of karwA / karma not allowed *)
          then False
          else if from_id1=to_id2 && from_mid1=to_mid2
-                && (r1=9 || r1 = 1009) && (r2=7 || r1=11||r1=12||r1=14) (* karwqsamAnAXikaraNam or samAnAXikaraNam of a karwA/karma not allowed *)
+                && (r1=9 || r1 = 1009) && (r2=7 || r1=11||r1=12||r1=14) (* viXeya_viSeRaNam or samAnAXikaraNam of a karwA/karma not allowed *)
          then False
          else if from_id2=to_id1 && from_mid2=to_mid1
-                && (r1=9 || r1 = 1009) && (r2=9 || r2 = 1009) (* karwqsamAnAXikaraNam/samAnAXikaraNam of a karwqsamAnAXikaraNam/samAnAXikaraNam not allowed *)
+                && (r1=9 || r1 = 1009) && (r2=9 || r2 = 1009) (* viXeya_viSeRaNam/samAnAXikaraNam of a viXeya_viSeRaNam/samAnAXikaraNam not allowed *)
          then False
          else if from_id1=to_id2 && from_mid1=to_mid2
-                && r2=60 && r1=7 (* samucciwa of karwqsamAnAXikaraNa is not allowed 
+                && r2=60 && r1=7 (* samucciwa of viXeya_viSeRaNam is not allowed 
                 BavanwaH jAnanwi yaw mama puwrAH SAswra-vimuKAH avivekinaH ca sanwi  *)
          then False
          else if from_id2=to_id1 && from_mid2=to_mid1
-                && (r2=9 || r2 = 1009) && r1=60 (* samucciwa of karwqsamAnAXikaraNa/samAnAXikaraNam is not allowed *)
+                && (r2=9 || r2 = 1009) && r1=60 (* samucciwa of viXeya_viSeRaNam/samAnAXikaraNam is not allowed *)
          then False
         (* else if from_id2=to_id1 && from_mid2=to_mid1
                 && (r2 < 53) && r1=53 && abs (from_id1 - to_id2) < abs (from_id2 -to_id2) (* In case of samucciwa verbs, the kaaraka should be of the closest verb *)
@@ -656,7 +657,7 @@ value rec add_cost text_type acc rels = fun
   |  [i :: r] ->  match List.nth rels (i-1) with
        [ Relationc (a1,b1,rel,a2,b2) -> let res = 
             if rel=2 then 0
-            else if rel=8 then 9 (* karwqsamAnAXikaraNam *)
+            else if rel=8 then 9 (* viXeya_viSeRaNam *)
             else if rel=51 then 0 (* wIvrawAxarSI *)
             else if rel=1079 then 79 (* upamAna *)
             else if rel=64 then 0 (* samuccayaxyowaka *)
@@ -671,7 +672,7 @@ value rec add_cost text_type acc rels = fun
             else if  rel= 78 then 100 (* lyapkarmAXikaraNam ; select this only if there is no other analysis possible *)
           (*  else if rel = 53 then 2 * (a2-a1) (*niwya_sambanXaH *)
             else if rel = 52 then 3 * (a2-a1) (*prawiyogI *) *)
-            else if rel = 1009 then 9 * (a2-a1) (* karwqsamAnAXikaraNam *)
+            else if rel = 1009 then 9 * (a2-a1) (* viXeya_viSeRaNam *)
             else if rel = 79 then 1 * (a2-a1) (*upamAna *)
             else if rel = 80 then 1 * (a2-a1) (* upamAnaxyowakaH *)
             else if rel = 76 then 1 * (a2-a1) (* sahArWa_xyowakaH *)
@@ -686,7 +687,7 @@ value rec add_cost text_type acc rels = fun
             (*else if rel >= 3100 && rel < 3200 then 92 * (a2-a1) (*sahArWaH *)*)
             else if rel >= 4000 && rel < 4100 then 20 * (a2-a1) (* apAxAnam *)
             else if rel >= 4100 && rel < 4200 then 21 * (a2-a1) (* xeSAXi *)
-            else if rel >= 4200 && rel < 4300 then 9 * (a2-a1) (* karwqsam *)
+            else if rel >= 4200 && rel < 4300 then 9 * (a2-a1) (* viXeya_viSeRaNam *)
             else if rel >= 4300 && rel < 4400 then 28 * (a2-a1) (* sambanXaH *)
             else if rel >= 4400 && rel < 4500 then 7 * (a2-a1) (* karwA *)
             else if rel >= 4500 && rel < 4600 then 25 * (a2-a1) (* aXikaraNa *)
@@ -1234,7 +1235,7 @@ let maprel = List.map (fun y -> List.nth relations (y-1) ) relsindag in
                                 else  loop1 rest1
                           ]
          else if r1=9 || (r1 >= 4400 && r1 < 4500)  then
-                               (* karwqsamAnAXikaraNam, karwA *)
+                               (* viXeya_viSeRaNam, karwA *)
                                (* karwA, karwA_upa *)
          loop1 maprel 
          where rec loop1 = fun
@@ -1246,16 +1247,16 @@ let maprel = List.map (fun y -> List.nth relations (y-1) ) relsindag in
                                 then False
                                 else if (z=c && t=d && (r / 100 = 44 && r1=7))
                                  || (x=c && y=d && (r1 / 100 = 44 && r=7))
-                                 || (z=c && t=d && r=7 && r1=9) (* && (a-x) > 0   removed, since karwqsamAnAXikaraNam can be to the left. For example samraWaH aswi janaH *)
+                                 || (z=c && t=d && r=7 && r1=9) (* && (a-x) > 0   removed, since viXeya_viSeRaNam can be to the left. For example samraWaH aswi janaH *)
 
-(*  Why should there be distinction between Prose and Sloka with regards to karwqsamAnAXikaraNa?
+(*  Why should there be distinction between Prose and Sloka with regards to viXeya_viSeRaNam?
  *     After all this is related to uxxeSya and viXeya, typically uxxeSya comes before viXeya.
  ---> Because of constructions such as 'aprayAwam balam waw BIRma-aBirakRiwam'
  We need to think over such constructions. So still the following is commented 
 
                            *     || (z=c && t=d && r=7 && r1=9 && text_type="Prose" && (a-x) > 0) 
                                  || (z=c && t=d && r=7 && r1=9 && text_type="Sloka")  *)
-                                 || (x=c && y=d && r=24 && r1=9)  (* karwqsamAnAXikaraNa and pUrvakAlaH *)
+                                 || (x=c && y=d && r=24 && r1=9)  (* viXeya_viSeRaNam and pUrvakAlaH *)
                                then  loop rest
                                else  loop1 rest1
                           ]
