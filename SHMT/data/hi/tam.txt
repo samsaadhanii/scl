@@ -31,6 +31,7 @@ karmaNi_laf,yA_gayA
 karmaNi_lot,subj
 karmaNi_lqt,gA
 karmaNi_lqf,yA_gayA
+karmaNi_luf,yA_gayA
 BAve_lat,yA_jAwA_hE
 BAve_lat_sma,yA_jAwA_WA
 BAve_lut,yA
