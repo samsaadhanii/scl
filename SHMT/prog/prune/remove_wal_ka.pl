@@ -28,10 +28,11 @@ while($in = <STDIN>){
  
 # Split the word and its analysis.
 # If it has more than one analysis, and one of the analysis has level 1,
-# then remove all wal analysis
+# then remove all wal and ka analysis
     $tmp = "";    
     foreach ($i=0; $i<=$#analysis;$i++){
-       if($analysis[$i] !~ /waxXiwa_prawyayaH:wal/){
+       if(($analysis[$i] !~ /waxXiwa_prawyayaH:wal/) &&
+          ($analysis[$i] !~ /waxXiwa_prawyayaH:ka/)) {
            $tmp .= "/".$analysis[$i];
        }
     }
