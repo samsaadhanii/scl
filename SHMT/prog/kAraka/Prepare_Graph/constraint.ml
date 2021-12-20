@@ -118,6 +118,8 @@ value print_relation r = match r with
       else if (i3 = 1079) then print_int 79 
       else if (i3 = 70) then print_int 34  (* hewuH -> hewu *)
       else if (i3 = 33) then print_int 32  (* aBexaH -> viSeRaNam *)
+      else if (i3 = 61) then print_int 60  (* sup_samucciwaH -> samucciwaH *)
+      else if (i3 = 65) then print_int 64  (* sup_samucciwa_xyowakaH -> samucciwa_xyowakaH *)
       (* else if (i3 = 64) || (i3 = 65) (* samuccayaxyowaka,sup_samuccayaxyowaka *)
       then print_int 1
       else if (i3 = 66) || (i3 = 67) (* anyawaraxyowaka,sup_anyawaraxyowaka *)
