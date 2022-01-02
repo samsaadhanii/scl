@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2010-2021 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2010-2022 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -380,13 +380,13 @@ sub writeNclose{
 
 sub cluster_relations{
   my($rel) = @_;
-  if(   ($k_rel_nm =~ /सुप्_समुच्चित/) 
+  if(   ($k_rel_nm =~ /समुच्चित/) 
      || ($k_rel_nm =~ /अन्यतरः/)
      || (   ($k_rel_nm =~ /विशेषणम्/) 
           && ($k_rel_nm !~ /क्रियाविशे/) )
  #   || ($k_rel_nm =~ /^वाक्यकर्म$/) 
  #   || ($k_rel_nm =~ /^vākyakarma$/)
-     || ($k_rel_nm =~ /sup_samuccitam/) 
+     || ($k_rel_nm =~ /samuccitaḥ/) 
      || ($k_rel_nm =~ /anyataraḥ/)
      || ($k_rel_nm =~ /anyatara\.h/) 
      || (   ($k_rel_nm =~ /viśeṣaṇam/) 

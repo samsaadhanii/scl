@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2009-2021 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2009-2022 Amba Kulkarni (ambapradeep@gmail.com)
 
 #
 #  This program is free software; you can redistribute it and/or

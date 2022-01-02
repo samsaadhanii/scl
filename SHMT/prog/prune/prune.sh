@@ -1,5 +1,5 @@
 #!/bin/sh
-#  Copyright (C) 2002-2021 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2002-2022 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -19,6 +19,7 @@
 
 
 SCLINSTALLDIR=$1
+
 export BIN_PATH=$SCLINSTALLDIR/SHMT/prog/prune
 
 #wvam mawwaH SqNu; here we need wasil analysis
@@ -26,7 +27,7 @@ export BIN_PATH=$SCLINSTALLDIR/SHMT/prog/prune
 $BIN_PATH/handle_special_words_repetitive.pl  |\
 $BIN_PATH/rm_duplicate_ans.pl  |\
 #$BIN_PATH/rm_non_apte.pl $SCLINSTALLDIR $BIN_PATH/default_gen.dbm $BIN_PATH/apte_pratipadik.dbm $SHMT_PATH/prog/morph/rUDa_kqw.gdbm |\
-$BIN_PATH/rm_non_apte.pl $SCLINSTALLDIR $BIN_PATH/default_gen.txt $SHMT_PATH/prog/morph/rUDa_kqw.txt |\
+$BIN_PATH/rm_non_apte.pl $SCLINSTALLDIR $BIN_PATH/default_gen.txt $BIN_PATH/../morph/rUDa_kqw.txt |\
 #$BIN_PATH/retain_only_inflectional_if_exists.pl  |\
 #Above line was commented. Uncommented by Amba on 28 Feb 2012
 #test sent: praBAwe ahaM rAjasaBAm gawvA kA vArwA (aswi) iwi paSyAmi
@@ -39,7 +40,7 @@ $BIN_PATH/rm_non_apte.pl $SCLINSTALLDIR $BIN_PATH/default_gen.txt $SHMT_PATH/pro
 $BIN_PATH/remove_derived_prAtipadikas.pl |\
 #Earlier we added the kqw analysis later. Now derivational analysis is produced simultaneously with the inflectional morph analysis. Hence this programme is removed.
 #$BIN_PATH/remove_derivational_analysis_of_rUDa_kqws.pl $SCLINSTALLDIR $SHMT_PATH/prog/morph/rUDa_kqw.gdbm |\
-$BIN_PATH/remove_derivational_analysis_of_rUDa_kqws.pl $SCLINSTALLDIR $SHMT_PATH/prog/morph/rUDa_kqw.txt  |\
+$BIN_PATH/remove_derivational_analysis_of_rUDa_kqws.pl $SCLINSTALLDIR $BIN_PATH/../morph/rUDa_kqw.txt  |\
 $BIN_PATH/rm_saMKyA.pl |\
 $BIN_PATH/handle_samboXana.pl D  2> /dev/null  |\
 #$BIN_PATH/keep_freq_mo.pl $SCLINSTALLDIR $BIN_PATH/default_morph.dbm |\

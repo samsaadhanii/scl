@@ -130,7 +130,7 @@ banXakawvam	banXakawva<vargaH:nA><lifgam:napuM><viBakwiH:1><vacanam:eka><level:1
 BaRamANaH	BaR1<kqw_prawyayaH:SAnac><XAwuH:BaRaz><gaNaH:BvAxiH><kqw_pratipadika:BaRamANa><vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 BaRamANAn	BaR1<kqw_prawyayaH:SAnac><XAwuH:BaRaz><gaNaH:BvAxiH><kqw_pratipadika:BaRamANa><vargaH:nA><lifgam:puM><viBakwiH:2><vacanam:bahu><level:1>
 BarawarRaBa	BarawarRaBa<vargaH:nA><lifgam:puM><viBakwiH:8><vacanam:eka><level:1>
-baxXaH	baXi1<kqw_prawyayaH:kwa><XAwuH:baXiz><gaNaH:kryAxiH><kqw_pratipadika:baxXa><vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
+baxXaH	banX1<kqw_prawyayaH:kwa><XAwuH:banXaz><gaNaH:kryAxiH><kqw_pratipadika:baxXa><vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 baxXam	banX1<kqw_prawyayaH:kwa><XAwuH:banXaz><gaNaH:kryAxiH><kqw_pratipadika:baxXa><lifgam:puM><viBakwiH:2><vacanam:eka><level:1>
 baxXvA	banX1<vargaH:avy><kqw_prawyayaH:kwvA><XAwuH:baXaz><gaNaH:krAxiH><level:1>
 bhojayiRyAmi	Buj1<sanAxi_prawyayaH:Nic><prayogaH:karwari><lakAraH:lrit><puruRaH:u><vacanam:eka><paxI:parasmEpaxI><XAwuH:Buj><gaNaH:ruXAxiH><level:1>

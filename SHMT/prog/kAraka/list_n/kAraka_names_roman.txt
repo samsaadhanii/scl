@@ -30,6 +30,7 @@ sambodhanasūcakam 31
 viśeṣaṇam 32
 abhedaḥ 33
 hetuḥ 34
+hetuḥ5 70
 ṣaṣṭhīsambandhaḥ 35
 sandarbha_binduḥ 36
 tulanā_binduḥ 37

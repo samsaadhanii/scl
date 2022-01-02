@@ -1,4 +1,4 @@
-(* Copyright: Amba Kulkarni (2014-2021)                             *)
+(* Copyright: Amba Kulkarni (2014-2022)                             *)
 (* Indian Institute of Advanced Study, Shimla (2015-17)             *)
 
 (* To add: gam1 can not have both karma and aXikaraNa *)

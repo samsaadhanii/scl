@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#  Copyright (C) 2008-2021 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2008-2022 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -146,10 +146,10 @@ cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
     cp $temp_files_path/$fbn.out $temp_files_path/$fbn.pre_final_out
     $ANU_MT_PATH/interface/add_colorcode.pl < $temp_files_path/$fbn.out |\
     $ANU_MT_PATH/chunker/lwg.pl  |\
-    $ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $SHMT_PATH/data hi  |\
-    $ANU_MT_PATH/map/lwg_avy_avy.pl $SCLINSTALLDIR $SHMT_PATH/data hi   |\
+    $ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $SHMT_PATH/data hi |\
+    $ANU_MT_PATH/map/lwg_avy_avy.pl $SCLINSTALLDIR $SHMT_PATH/data hi |\
     #$ANU_MT_PATH/hnd_sent_gen/agreement.pl $SCLINSTALLDIR $SHMT_PATH/data $ANU_MT_PATH/hnd_sent_gen D |\
-    $ANU_MT_PATH/hnd_sent_gen/agreement.pl $SCLINSTALLDIR $SHMT_PATH/data $ANU_MT_PATH/hnd_sent_gen |\
+    $ANU_MT_PATH/hnd_sent_gen/agreement.pl $SCLINSTALLDIR $SHMT_PATH/data $ANU_MT_PATH/hnd_sent_gen  |\
     $ANU_MT_PATH/hnd_sent_gen/call_gen.pl $SCLINSTALLDIR  |\
     $ANU_MT_PATH/interface/modify_mo_for_display.pl $SCLINSTALLDIR > $temp_files_path/ttt
     mv $temp_files_path/ttt $temp_files_path/$fbn.out

@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-#  Copyright (C) 2017-2021 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2017-2022 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -34,7 +34,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
  
 print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
-  my %param = &get_parameters();
+ my %param = &get_parameters();
 
  my $buffer = "";
  my $display = "";
@@ -46,7 +46,6 @@ read(STDIN, $b, $ENV{'CONTENT_LENGTH'});
 #foreach my $p (sort keys %param){
 #    if($p eq "DISPLAY") { $display = $param{$p};}
 #    else {$buffer .= $param{$p};}
-    $buffer = "";
     $display = $param{DISPLAY};
     my $hash_count = keys %param;
     for (my $i = 1; $i <= $hash_count; $i++) {
@@ -61,7 +60,11 @@ read(STDIN, $b, $ENV{'CONTENT_LENGTH'});
 
  # system("echo '$buffer' > /tmp/222; echo 'written' >> /tmp/222");
  system("echo '$buffer' | $GlblVar::SCLINSTALLDIR/SHMT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $GlblVar::SCLINSTALLDIR > $GlblVar::TFPATH/tmp_in$pid/in$pid.out");
- system("cp $GlblVar::TFPATH/tmp_in$pid/in$pid.out $GlblVar::TFPATH/tmp_in$pid/in$pid.out.orig");
+system("cp $GlblVar::TFPATH/tmp_in$pid/in$pid.out $GlblVar::TFPATH/tmp_in$pid/in$pid.out.orig");
+system("cut -f1-7 $GlblVar::TFPATH/tmp_in$pid/in$pid.out > $GlblVar::TFPATH/tmp_in$pid/in${pid}_tmp1_7");
+system("cut -f3,8 $GlblVar::TFPATH/tmp_in$pid/in$pid.out | tr '\t' '=' > $GlblVar::TFPATH/tmp_in$pid/in${pid}_tmp");
+system("$GlblVar::SCLINSTALLDIR/SHMT/prog/prune/prune.sh $GlblVar::SCLINSTALLDIR < $GlblVar::TFPATH/tmp_in$pid/in${pid}_tmp | sed '1,\$s/.*=//' > $GlblVar::TFPATH/tmp_in$pid/in${pid}_tmp8");
+system("paste $GlblVar::TFPATH/tmp_in$pid/in${pid}_tmp1_7 $GlblVar::TFPATH/tmp_in$pid/in${pid}_tmp8 > $GlblVar::TFPATH/tmp_in$pid/in${pid}.out");
 
 if($display eq "") { $display = "DEV";}
 
