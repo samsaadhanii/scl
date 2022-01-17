@@ -668,9 +668,9 @@ value disambiguate_avys m1 = match m1 with
       then [ Relation (id1,mid1,"rt",rt1,rt1^"1","7.2")]
       else if rt1="ca" && relation1="sambanXaH"
       then [ Relation (id1,mid1,"rt",rt1,rt1^"1","7.3")]
-      else if rt1="ca" && relation1="samuccayaxyowakaH"
+      else if rt1="ca" && relation1="samuccaya_xyowakaH"
       then [ Relation (id1,mid1,"rt",rt1,rt1^"2","7.4")]
-      else if rt1="ca" && relation1="sup_samuccayaxyowakaH"
+      else if rt1="ca" && relation1="sup_samuccaya_xyowakaH"
       then [ Relation (id1,mid1,"rt",rt1,rt1^"2","7.5")]
       else []
   | _ -> []

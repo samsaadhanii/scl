@@ -120,7 +120,7 @@ if($an=~/(.*[aAou])pa\+([eo].*)/){$ans = "$1p$2";$ans1="pararUpa";$ans2="efi par
 if (($an !~ /wava\+([eo].*)/) && ($an=~/(.*[aA])va\+([eo].*)/)) {$ans = "$1v$2";$ans1="pararUpa";$ans2="efi pararUpam(6.1.94)"; $cont = 0;}
 if($an=~/(.*)a\+(o[mzfFnN].*)/){$ans = "$1$2";$ans1="pararUpa";$ans2="omAfoSca(6.1.95)"; $cont = 0;}
 if($an=~/^go\+(a.*)/){$ans = "go $1";$ans1="prakqwiBAva";$ans2="sarvawra viBARA goH(6.1.122)"; $cont = 0;}
-if($an=~/^go\+a(.*)/){$ans =$ans.":"."gavA$2";$ans1=$ans1.":"."avafAxeSa";$ans2=$ans2.":"."avaf sPotAyanasya(6.1.123)-> akaH savarNe xIrGaH (6.1.101)"; $cont = 1;}
+if($an=~/^go\+a(.*)/){$ans =$ans.":"."gavA$1";$ans1=$ans1.":"."avafAxeSa";$ans2=$ans2.":"."avaf sPotAyanasya(6.1.123)-> akaH savarNe xIrGaH (6.1.101)"; $cont = 1;}
 #The following condition already exists in any_sandhi.pl Hence commented by Amba 13.10.2016
 #if($an=~/^go\+a(.*)/){$ans =$ans.":"."goZ$1";$ans1=$ans1.":"."pararUpa";$ans2=$ans2.":"."efaH paxAnwAxawi (6.1.109)";}
 if($an=~/^go\+([iI])(.*)/){$ans = "gave$2";$ans1="avafAxeSa";$ans2="avaf sPotAyanasya(6.1.123)-> Ax guNaH (6.1.87)"; $cont = 0;}
