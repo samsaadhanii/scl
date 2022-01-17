@@ -3,13 +3,13 @@
 <?xml-stylesheet href="apte.css" type="text/css" ?>
 <dict>
 <lexhead no="1">
-<root>टङ्क्</root>
+<dentry>टङ्क्</dentry>
 <prAwipaxikam>टङ्क्</prAwipaxikam>
 <grammar><gaNa>चुरा*</gaNa><paxI>उभ*</paxI><vform>टङ्कयति</vform>,<vform>टङ्कयते</vform>,<vform>टङ्कित</vform></grammar>
 <sense no="1">बाँधना, कसना, जकड़ना</sense>
 <sense n="2">ढकना</sense>
 <segmenthd>
-<root>उट्टङ्क्</root>
+<dentry>उट्टङ्क्</dentry>
 <prAwipaxikam>उट्टङ्क्</prAwipaxikam>
 <seg>उद्-टङ्क्</seg>
 <grammar><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
@@ -19,7 +19,7 @@
 </lexhead>
 
 <lexhead no="2">
-<root>टङ्कः</root>
+<dentry>टङ्कः</dentry>
 <prAwipaxikam>टङ्क</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[टङ्क+घञ्/टङ्क+अच्]</etymology>
@@ -38,14 +38,14 @@
 </lexhead>
 
 <lexhead no="3">
-<root>टङ्का</root>
+<dentry>टङ्का</dentry>
 <prAwipaxikam>टङ्का</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <sense no="1">पैर, लात</sense>
 </lexhead>
 
 <lexhead no="4">
-<root>टङ्कम्</root>
+<dentry>टङ्कम्</dentry>
 <prAwipaxikam>टङ्क</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[टङ्क+घञ्/टङ्क+अच्]</etymology>
@@ -64,20 +64,20 @@
 </lexhead>
 
 <lexhead no="5">
-<root>टङ्ककः</root>
+<dentry>टङ्ककः</dentry>
 <prAwipaxikam>टङ्कक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[टङ्क+कन्]</etymology>
 <sense no="1">चाँदी की सिक्का</sense>
 <segmenthd>
-<root>टङ्ककपतिः</root>
+<dentry>टङ्ककपतिः</dentry>
 <prAwipaxikam>टङ्ककपति</prAwipaxikam>
 <seg>टङ्ककः-पतिः</seg>
 <grammar>पुं*</grammar>
 <sense no="2">टकसाल का अध्यक्ष</sense>
 </segmenthd>
 <segmenthd>
-<root>टङ्ककशाला</root>
+<dentry>टङ्ककशाला</dentry>
 <prAwipaxikam>टङ्ककशाला</prAwipaxikam>
 <seg>टङ्ककः-शाला</seg>
 <grammar>स्त्री*</grammar>
@@ -86,7 +86,7 @@
 </lexhead>
 
 <lexhead no="6">
-<root>टङ्कणम्</root>
+<dentry>टङ्कणम्</dentry>
 <prAwipaxikam>टङ्कण</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[टङ्क्+ल्युट्]</etymology>
@@ -94,7 +94,7 @@
 </lexhead>
 
 <lexhead no="7">
-<root>टङ्कनम्</root>
+<dentry>टङ्कनम्</dentry>
 <prAwipaxikam>टङ्कन</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[टङ्क्+ल्युट्]</etymology>
@@ -102,7 +102,7 @@
 </lexhead>
 
 <lexhead no="8">
-<root>टङ्कणः</root>
+<dentry>टङ्कणः</dentry>
 <prAwipaxikam>टङ्कण</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">घोड़े की एक जाति</sense>
@@ -110,13 +110,13 @@
 </lexhead>
 
 <lexhead no="9">
-<root>टङ्कनः</root>
+<dentry>टङ्कनः</dentry>
 <prAwipaxikam>टङ्कन</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">घोड़े की एक जाति</sense>
 <sense n="2">एक देश विशेष के निवासी</sense>
 <segmenthd>
-<root>टङ्कणक्षारः</root>
+<dentry>टङ्कणक्षारः</dentry>
 <prAwipaxikam>टङ्कणक्षार</prAwipaxikam>
 <seg>टङ्कणम्-क्षारः</seg>
 <grammar>पुं*</grammar>
@@ -125,7 +125,7 @@
 </lexhead>
 
 <lexhead no="10">
-<root>टङ्कारः</root>
+<dentry>टङ्कारः</dentry>
 <prAwipaxikam>टङ्कार</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[टम्-कृ+अण्]</etymology>
@@ -134,7 +134,7 @@
 </lexhead>
 
 <lexhead no="11">
-<root>टङ्कारिन्</root>
+<dentry>टङ्कारिन्</dentry>
 <prAwipaxikam>टङ्कारिन्</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">टङ्कारिन्</prAwipaxikam>
@@ -143,7 +143,7 @@
 </lexhead>
 
 <lexhead no="12">
-<root>टङ्किका</root>
+<dentry>टङ्किका</dentry>
 <prAwipaxikam>टङ्किका</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[टङ्क्+कन्+टाप् ,(इत्वम्)]</etymology>
@@ -151,7 +151,7 @@
 </lexhead>
 
 <lexhead no="13">
-<root>टङ्गः</root>
+<dentry>टङ्गः</dentry>
 <prAwipaxikam>टङ्ग</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[टङ्कः पृषो*]</etymology>
@@ -159,7 +159,7 @@
 </lexhead>
 
 <lexhead no="14">
-<root>टङ्गम्</root>
+<dentry>टङ्गम्</dentry>
 <prAwipaxikam>टङ्ग</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[टङ्कः पृषो*]</etymology>
@@ -167,7 +167,7 @@
 </lexhead>
 
 <lexhead no="15">
-<root>टङ्गणः</root>
+<dentry>टङ्गणः</dentry>
 <prAwipaxikam>टङ्गण</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[टङ्कः पृषो*]</etymology>
@@ -175,7 +175,7 @@
 </lexhead>
 
 <lexhead no="16">
-<root>टङ्गणम्</root>
+<dentry>टङ्गणम्</dentry>
 <prAwipaxikam>टङ्गण</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[टङ्कः पृषो*]</etymology>
@@ -183,7 +183,7 @@
 </lexhead>
 
 <lexhead no="17">
-<root>टङ्गा</root>
+<dentry>टङ्गा</dentry>
 <prAwipaxikam>टङ्गा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[टङ्ग+टाप्]</etymology>
@@ -191,7 +191,7 @@
 </lexhead>
 
 <lexhead no="18">
-<root>टहरी</root>
+<dentry>टहरी</dentry>
 <prAwipaxikam>टहरी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 ?<etymology>[टहेति शब्दं राति रा+क+ङीष्]</etymology>
@@ -200,7 +200,7 @@
 </lexhead>
 
 <lexhead no="19">
-<root>टाङ्कारः</root>
+<dentry>टाङ्कारः</dentry>
 <prAwipaxikam>टाङ्कार</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[टङ्कार+अण्]</etymology>
@@ -208,14 +208,14 @@
 </lexhead>
 
 <lexhead no="20">
-<root>टिक्</root>
+<dentry>टिक्</dentry>
 <prAwipaxikam>टिक्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI><vform>टेकते</vform></grammar>
 <sense no="1">जाना, चलना-फिरना</sense>
 </lexhead>
 
 <lexhead no="21">
-<root>टिटिभः</root>
+<dentry>टिटिभः</dentry>
 <prAwipaxikam>टिटिभ</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology><vigraha_vAkya>टिटि इत्यव्यक्तशब्दं भणति</vigraha_vAkya>[ टिटि-भण्+ड]</etymology>
@@ -223,7 +223,7 @@
 </lexhead>
 
 <lexhead no="22">
-<root>टिट्टिभः</root>
+<dentry>टिट्टिभः</dentry>
 <prAwipaxikam>टिट्टिभ</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology><vigraha_vAkya>टिट्टि इत्यव्यक्तशब्दं भणति</vigraha_vAkya>[ टिट्टि+भण्+ड]</etymology>
@@ -231,7 +231,7 @@
 </lexhead>
 
 <lexhead no="23">
-<root>टिप्पणी</root>
+<dentry>टिप्पणी</dentry>
 <prAwipaxikam>टिप्पणी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 ?<etymology>[टिप्+क्विप्, टिपा पन्यते स्तूयते टिप्+पन्+अच्+ङीष्, पृषो* पात्वं वा]</etymology>
@@ -239,7 +239,7 @@
 </lexhead>
 
 <lexhead no="24">
-<root>टिप्पनी</root>
+<dentry>टिप्पनी</dentry>
 <prAwipaxikam>टिप्पनी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 ?<etymology>[टिप्+क्विप्, टिपा पन्यते स्तूयते टिप्+पन्+अच्+ङीष्, पृषो* पात्वं वा]</etymology>
@@ -247,12 +247,12 @@
 </lexhead>
 
 <lexhead no="25">
-<root>टीक्</root>
+<dentry>टीक्</dentry>
 <prAwipaxikam>टीक्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI><vform>टीकते</vform></grammar>
 <sense no="1">चलना- फिरना, जाना, सहारा, देना, कश्मर्याः कृतमालमुद्गतदलं कोयष्टिकष्टीकते<citation>मा*९/७</citation></sense>
 <segmenthd>
-<root>आटीक्</root>
+<dentry>आटीक्</dentry>
 <prAwipaxikam>आटीक्</prAwipaxikam>
 <seg>आ-टीक्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
@@ -261,7 +261,7 @@
 </lexhead>
 
 <lexhead no="26">
-<root>टीका</root>
+<dentry>टीका</dentry>
 <prAwipaxikam>टीका</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology><vigraha_vAkya>टीक्यते गम्यते, ग्रन्थार्थोऽनया</vigraha_vAkya>[टीक्+क+टाप्]</etymology>
@@ -269,7 +269,7 @@
 </lexhead>
 
 <lexhead no="27">
-<root>टुण्टुक</root>
+<dentry>टुण्टुक</dentry>
 <prAwipaxikam>टुण्टुक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">टुण्टुक</prAwipaxikam>

@@ -3,7 +3,7 @@
 <?xml-stylesheet href="apte.css" type="text/css" ?>
 <dict>
 <lexhead no="1">
-<root>ऐः</root>
+<dentry>ऐः</dentry>
 <prAwipaxikam>ऐ</prAwipaxikam>
 <grammar>पुं*</grammar>
 ?<etymology>[आ_इ+विच्]</etymology>
@@ -14,14 +14,14 @@
 </lexhead>
 
 <lexhead no="2">
-<root>ऐकद्यम्</root>
+<dentry>ऐकद्यम्</dentry>
 <prAwipaxikam>ऐकद्यम्</prAwipaxikam>
 <grammar>अव्य*</grammar>
 <sense no="1">तुरन्त</sense>
 </lexhead>
 
 <lexhead no="3">
-<root>ऐकध्यम्</root>
+<dentry>ऐकध्यम्</dentry>
 <prAwipaxikam>ऐकध्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[एकधा+ध्यमुञ्]</etymology>
@@ -29,7 +29,7 @@
 </lexhead>
 
 <lexhead no="4">
-<root>ऐकपत्यम्</root>
+<dentry>ऐकपत्यम्</dentry>
 <prAwipaxikam>ऐकपत्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[एकपति+ष्यञ्]</etymology>
@@ -37,7 +37,7 @@
 </lexhead>
 
 <lexhead no="5">
-<root>ऐकपदिक</root>
+<dentry>ऐकपदिक</dentry>
 <prAwipaxikam>ऐकपदिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐकपदिक</prAwipaxikam>
@@ -46,7 +46,7 @@
 </lexhead>
 
 <lexhead no="6">
-<root>ऐकपद्यम्</root>
+<dentry>ऐकपद्यम्</dentry>
 <prAwipaxikam>ऐकपद्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[एकपद+ष्यञ्]</etymology>
@@ -55,7 +55,7 @@
 </lexhead>
 
 <lexhead no="7">
-<root>ऐकमत्यम्</root>
+<dentry>ऐकमत्यम्</dentry>
 <prAwipaxikam>ऐकमत्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[एकमत+ष्यञ्]</etymology>
@@ -63,7 +63,7 @@
 </lexhead>
 
 <lexhead no="8">
-<root>ऐकागारिकः</root>
+<dentry>ऐकागारिकः</dentry>
 <prAwipaxikam>ऐकागारिक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[एकागार+ठक्]</etymology>
@@ -72,7 +72,7 @@
 </lexhead>
 
 <lexhead no="9">
-<root>ऐकाग्र्यम्</root>
+<dentry>ऐकाग्र्यम्</dentry>
 <prAwipaxikam>ऐकाग्र्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[एकाग्र+ष्यञ्]</etymology>
@@ -80,7 +80,7 @@
 </lexhead>
 
 <lexhead no="10">
-<root>ऐकाङ्गः</root>
+<dentry>ऐकाङ्गः</dentry>
 <prAwipaxikam>ऐकाङ्ग</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ऐकाङ्ग+अण]</etymology>
@@ -88,7 +88,7 @@
 </lexhead>
 
 <lexhead no="11">
-<root>ऐकात्म्यम्</root>
+<dentry>ऐकात्म्यम्</dentry>
 <prAwipaxikam>ऐकात्म्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[एकात्मन्+ष्यञ्]</etymology>
@@ -98,7 +98,7 @@
 </lexhead>
 
 <lexhead no="12">
-<root>ऐकाधिकरण्यम्</root>
+<dentry>ऐकाधिकरण्यम्</dentry>
 <prAwipaxikam>ऐकाधिकरण्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[एकाधिकरण+ष्यञ्]</etymology>
@@ -107,7 +107,7 @@
 </lexhead>
 
 <lexhead no="13">
-<root>ऐकान्तिक</root>
+<dentry>ऐकान्तिक</dentry>
 <prAwipaxikam>ऐकान्तिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐकान्तिक</prAwipaxikam>
@@ -117,7 +117,7 @@
 </lexhead>
 
 <lexhead no="14">
-<root>ऐकान्यिकः</root>
+<dentry>ऐकान्यिकः</dentry>
 <prAwipaxikam>ऐकान्यिक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[एकान्य+ठक्]</etymology>
@@ -125,7 +125,7 @@
 </lexhead>
 
 <lexhead no="15">
-<root>ऐकार्थ्यम्</root>
+<dentry>ऐकार्थ्यम्</dentry>
 <prAwipaxikam>ऐकार्थ्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[एकार्थ+ष्यञ्]</etymology>
@@ -134,7 +134,7 @@
 </lexhead>
 
 <lexhead no="16">
-<root>ऐकाहिक</root>
+<dentry>ऐकाहिक</dentry>
 <prAwipaxikam>ऐकाहिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐकाहिक</prAwipaxikam>
@@ -144,7 +144,7 @@
 </lexhead>
 
 <lexhead no="17">
-<root>ऐक्यम्</root>
+<dentry>ऐक्यम्</dentry>
 <prAwipaxikam>ऐक्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[एक+ष्यञ्]</etymology>
@@ -155,7 +155,7 @@
 </lexhead>
 
 <lexhead no="18">
-<root>ऐक्षव</root>
+<dentry>ऐक्षव</dentry>
 <prAwipaxikam>ऐक्षव</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐक्षव</prAwipaxikam>
@@ -164,7 +164,7 @@
 </lexhead>
 
 <lexhead no="19">
-<root>ऐक्षवम्</root>
+<dentry>ऐक्षवम्</dentry>
 <prAwipaxikam>ऐक्षव</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[इक्षु+अण्]</etymology>
@@ -173,7 +173,7 @@
 </lexhead>
 
 <lexhead no="20">
-<root>ऐक्षव्य</root>
+<dentry>ऐक्षव्य</dentry>
 <prAwipaxikam>ऐक्षव्य</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐक्षव्य</prAwipaxikam>
@@ -182,7 +182,7 @@
 </lexhead>
 
 <lexhead no="21">
-<root>ऐक्षुक</root>
+<dentry>ऐक्षुक</dentry>
 <prAwipaxikam>ऐक्षुक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐक्षुक</prAwipaxikam>
@@ -192,7 +192,7 @@
 </lexhead>
 
 <lexhead no="22">
-<root>ऐक्षुकः</root>
+<dentry>ऐक्षुकः</dentry>
 <prAwipaxikam>ऐक्षुक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[इक्षु+ठञ्]</etymology>
@@ -200,7 +200,7 @@
 </lexhead>
 
 <lexhead no="23">
-<root>ऐक्षुभारिकः</root>
+<dentry>ऐक्षुभारिकः</dentry>
 <prAwipaxikam>ऐक्षुभारिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐक्षुभारिक</prAwipaxikam>
@@ -209,7 +209,7 @@
 </lexhead>
 
 <lexhead no="24">
-<root>ऐक्ष्वाक</root>
+<dentry>ऐक्ष्वाक</dentry>
 <prAwipaxikam>ऐक्ष्वाक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐक्ष्वाक</prAwipaxikam>
@@ -218,7 +218,7 @@
 </lexhead>
 
 <lexhead no="25">
-<root>ऐक्ष्वाकः</root>
+<dentry>ऐक्ष्वाकः</dentry>
 <prAwipaxikam>ऐक्ष्वाक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[इक्ष्वाकु+अ]</etymology>
@@ -227,7 +227,7 @@
 </lexhead>
 
 <lexhead no="26">
-<root>ऐक्ष्वाकुः</root>
+<dentry>ऐक्ष्वाकुः</dentry>
 <prAwipaxikam>ऐक्ष्वाकु</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[इक्ष्वाकु+अ]</etymology>
@@ -236,7 +236,7 @@
 </lexhead>
 
 <lexhead no="27">
-<root>ऐङ्गुद</root>
+<dentry>ऐङ्गुद</dentry>
 <prAwipaxikam>ऐङ्गुद</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐङ्गुद</prAwipaxikam>
@@ -249,7 +249,7 @@
 </lexhead>
 
 <lexhead no="28">
-<root>ऐङ्गुदम्</root>
+<dentry>ऐङ्गुदम्</dentry>
 <prAwipaxikam>ऐङ्गुद</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[इङ्गुदी+अण्]</etymology>
@@ -261,7 +261,7 @@
 </lexhead>
 
 <lexhead no="29">
-<root>ऐच्छिक</root>
+<dentry>ऐच्छिक</dentry>
 <prAwipaxikam>ऐच्छिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐच्छिक</prAwipaxikam>
@@ -270,7 +270,7 @@
 </lexhead>
 
 <lexhead no="30">
-<root>ऐडक</root>
+<dentry>ऐडक</dentry>
 <prAwipaxikam>ऐडक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐडक</prAwipaxikam>
@@ -278,7 +278,7 @@
 </lexhead>
 
 <lexhead no="31">
-<root>ऐडविडः</root>
+<dentry>ऐडविडः</dentry>
 <prAwipaxikam>ऐडविड</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[इडविडा+अण्, पक्षे डलयोरभेदः]</etymology>
@@ -286,7 +286,7 @@
 </lexhead>
 
 <lexhead no="32">
-<root>ऐडलविडलः</root>
+<dentry>ऐडलविडलः</dentry>
 <prAwipaxikam>ऐडलविडल</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[इलविला+अण्]</etymology>
@@ -294,7 +294,7 @@
 </lexhead>
 
 <lexhead no="33">
-<root>ऐण</root>
+<dentry>ऐण</dentry>
 <prAwipaxikam>ऐण</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐण</prAwipaxikam>
@@ -304,7 +304,7 @@
 </lexhead>
 
 <lexhead no="34">
-<root>ऐणेय</root>
+<dentry>ऐणेय</dentry>
 <prAwipaxikam>ऐणेय</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐणेय</prAwipaxikam>
@@ -315,7 +315,7 @@
 </lexhead>
 
 <lexhead no="35">
-<root>ऐणेयः</root>
+<dentry>ऐणेयः</dentry>
 <prAwipaxikam>ऐणेय</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[एणी+ढक्]</etymology>
@@ -325,7 +325,7 @@
 </lexhead>
 
 <lexhead no="36">
-<root>ऐणेयम्</root>
+<dentry>ऐणेयम्</dentry>
 <prAwipaxikam>ऐणेय</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[एणी+ढक्]</etymology>
@@ -335,7 +335,7 @@
 </lexhead>
 
 <lexhead no="37">
-<root>ऐतदात्म्यम्</root>
+<dentry>ऐतदात्म्यम्</dentry>
 <prAwipaxikam>ऐतदात्म्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[एतदात्मन्+ष्यञ्]</etymology>
@@ -343,7 +343,7 @@
 </lexhead>
 
 <lexhead no="38">
-<root>ऐतरेयिन्</root>
+<dentry>ऐतरेयिन्</dentry>
 <prAwipaxikam>ऐतरेयिन्</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ऐतरेय+इनि]</etymology>
@@ -351,7 +351,7 @@
 </lexhead>
 
 <lexhead no="39">
-<root>ऐतिहासिक</root>
+<dentry>ऐतिहासिक</dentry>
 <prAwipaxikam>ऐतिहासिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐतिहासिक</prAwipaxikam>
@@ -361,7 +361,7 @@
 </lexhead>
 
 <lexhead no="40">
-<root>ऐतिहासिकः</root>
+<dentry>ऐतिहासिकः</dentry>
 <prAwipaxikam>ऐतिहासिक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[इतिहास+ठक्]</etymology>
@@ -370,7 +370,7 @@
 </lexhead>
 
 <lexhead no="41">
-<root>ऐतिह्यम्</root>
+<dentry>ऐतिह्यम्</dentry>
 <prAwipaxikam>ऐतिह्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[इतिह+ष्यञ्]</etymology>
@@ -379,7 +379,7 @@
 </lexhead>
 
 <lexhead no="42">
-<root>ऐदम्पर्यम्</root>
+<dentry>ऐदम्पर्यम्</dentry>
 <prAwipaxikam>ऐदम्पर्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[इदम्पर+ञ्य]</etymology>
@@ -387,7 +387,7 @@
 </lexhead>
 
 <lexhead no="43">
-<root>ऐनसम्</root>
+<dentry>ऐनसम्</dentry>
 <prAwipaxikam>ऐनस</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[एनस्+अण्]</etymology>
@@ -395,7 +395,7 @@
 </lexhead>
 
 <lexhead no="44">
-<root>ऐन्दव</root>
+<dentry>ऐन्दव</dentry>
 <prAwipaxikam>ऐन्दव</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐन्दव</prAwipaxikam>
@@ -404,7 +404,7 @@
 </lexhead>
 
 <lexhead no="45">
-<root>ऐन्दवः</root>
+<dentry>ऐन्दवः</dentry>
 <prAwipaxikam>ऐन्दव</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[इन्दु+अण्]</etymology>
@@ -412,7 +412,7 @@
 </lexhead>
 
 <lexhead no="46">
-<root>ऐन्द्र</root>
+<dentry>ऐन्द्र</dentry>
 <prAwipaxikam>ऐन्द्र</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐन्द्र</prAwipaxikam>
@@ -421,7 +421,7 @@
 </lexhead>
 
 <lexhead no="47">
-<root>ऐन्द्रः</root>
+<dentry>ऐन्द्रः</dentry>
 <prAwipaxikam>ऐन्द्र</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[इन्द्र+अण्]</etymology>
@@ -429,7 +429,7 @@
 </lexhead>
 
 <lexhead no="48">
-<root>ऐन्द्री</root>
+<dentry>ऐन्द्री</dentry>
 <prAwipaxikam>ऐन्द्री</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[इन्द्र+अण्+ङीप्]</etymology>
@@ -441,7 +441,7 @@
 </lexhead>
 
 <lexhead no="49">
-<root>ऐन्द्रजालिक</root>
+<dentry>ऐन्द्रजालिक</dentry>
 <prAwipaxikam>ऐन्द्रजालिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐन्द्रजालिक</prAwipaxikam>
@@ -453,7 +453,7 @@
 </lexhead>
 
 <lexhead no="50">
-<root>ऐन्द्रजालिकः</root>
+<dentry>ऐन्द्रजालिकः</dentry>
 <prAwipaxikam>ऐन्द्रजालिक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[इन्द्रजाल+ठक्]</etymology>
@@ -461,7 +461,7 @@
 </lexhead>
 
 <lexhead no="51">
-<root>ऐन्द्रलुप्तिक</root>
+<dentry>ऐन्द्रलुप्तिक</dentry>
 <prAwipaxikam>ऐन्द्रलुप्तिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐन्द्रलुप्तिक</prAwipaxikam>
@@ -470,7 +470,7 @@
 </lexhead>
 
 <lexhead no="52">
-<root>ऐन्द्रशिरः</root>
+<dentry>ऐन्द्रशिरः</dentry>
 <prAwipaxikam>ऐन्द्रशिर</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[इन्द्रशिर+अण्]</etymology>
@@ -478,7 +478,7 @@
 </lexhead>
 
 <lexhead no="53">
-<root>ऐन्द्रिः</root>
+<dentry>ऐन्द्रिः</dentry>
 <prAwipaxikam>ऐन्द्रि</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology><vigraha_vAkya>इन्द्रस्यापत्यम्</vigraha_vAkya>[इन्द्र+इञ्]</etymology>
@@ -487,7 +487,7 @@
 </lexhead>
 
 <lexhead no="54">
-<root>ऐन्द्रिय</root>
+<dentry>ऐन्द्रिय</dentry>
 <prAwipaxikam>ऐन्द्रिय</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐन्द्रिय</prAwipaxikam>
@@ -497,7 +497,7 @@
 </lexhead>
 
 <lexhead no="55">
-<root>ऐन्द्रियक</root>
+<dentry>ऐन्द्रियक</dentry>
 <prAwipaxikam>ऐन्द्रियक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐन्द्रियक</prAwipaxikam>
@@ -509,7 +509,7 @@
 </lexhead>
 
 <lexhead no="56">
-<root>ऐन्द्रियम्</root>
+<dentry>ऐन्द्रियम्</dentry>
 <prAwipaxikam>ऐन्द्रिय</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[इन्द्रिय+अण् ]</etymology>
@@ -517,7 +517,7 @@
 </lexhead>
 
 <lexhead no="57">
-<root>ऐंधन</root>
+<dentry>ऐंधन</dentry>
 <prAwipaxikam>ऐंधन</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐंधन</prAwipaxikam>
@@ -526,7 +526,7 @@
 </lexhead>
 
 <lexhead no="58">
-<root>ऐंधनः</root>
+<dentry>ऐंधनः</dentry>
 <prAwipaxikam>ऐंधन</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[इन्धन+अण्]</etymology>
@@ -534,7 +534,7 @@
 </lexhead>
 
 <lexhead no="59">
-<root>ऐयत्यम्</root>
+<dentry>ऐयत्यम्</dentry>
 <prAwipaxikam>ऐयत्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[इयत्+ष्यञ्]</etymology>
@@ -542,7 +542,7 @@
 </lexhead>
 
 <lexhead no="60">
-<root>ऐरावणः</root>
+<dentry>ऐरावणः</dentry>
 <prAwipaxikam>ऐरावण</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology><vigraha_vAkya>इरा आपः ताभिः वनति शब्दायते - इरा-वन-अच् इरावणः - ततः अन्</vigraha_vAkya>[इरा+वन+अच्+अन्]</etymology>
@@ -552,7 +552,7 @@
 </lexhead>
 
 <lexhead no="61">
-<root>ऐरावतः</root>
+<dentry>ऐरावतः</dentry>
 <prAwipaxikam>ऐरावत</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology><vigraha_vAkya>इरा आपः तद्वान् इरावान् समुद्रः, तस्मादुत्पन्नः अण्</vigraha_vAkya>[इरा+मतुप्+अण्]</etymology>
@@ -571,7 +571,7 @@
 </lexhead>
 
 <lexhead no="62">
-<root>ऐरावती</root>
+<dentry>ऐरावती</dentry>
 <prAwipaxikam>ऐरावती</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology><vigraha_vAkya>इरा आपः तद्वान् इरावान् समुद्रः, तस्मादुत्पन्नः अण्</vigraha_vAkya>[इरा+मतुप्+अण्]</etymology>
@@ -583,7 +583,7 @@
 </lexhead>
 
 <lexhead no="63">
-<root>ऐरेयम्</root>
+<dentry>ऐरेयम्</dentry>
 <prAwipaxikam>ऐरेय</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology><vigraha_vAkya>इरायाम् अन्ने भवम्</vigraha_vAkya>[इरा+ढक्]</etymology>
@@ -591,7 +591,7 @@
 </lexhead>
 
 <lexhead no="64">
-<root>ऐलः</root>
+<dentry>ऐलः</dentry>
 <prAwipaxikam>ऐल</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology><vigraha_vAkya>इलाया अपत्यम् </vigraha_vAkya>[इला+अण्]</etymology>
@@ -600,7 +600,7 @@
 </lexhead>
 
 <lexhead no="65">
-<root>ऐलबालुकः</root>
+<dentry>ऐलबालुकः</dentry>
 <prAwipaxikam>ऐलबालुक</prAwipaxikam>
 <grammar>पुं*</grammar>
 ?<etymology>[एलवालुक+अण्]</etymology>
@@ -608,7 +608,7 @@
 </lexhead>
 
 <lexhead no="66">
-<root>ऐलविलः</root>
+<dentry>ऐलविलः</dentry>
 <prAwipaxikam>ऐलविल</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[इलविला+अण्]</etymology>
@@ -619,7 +619,7 @@
 </lexhead>
 
 <lexhead no="67">
-<root>ऐलेयः</root>
+<dentry>ऐलेयः</dentry>
 <prAwipaxikam>ऐलेय</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[इला+ढक्]</etymology>
@@ -630,7 +630,7 @@
 </lexhead>
 
 <lexhead no="68">
-<root>ऐश</root>
+<dentry>ऐश</dentry>
 <prAwipaxikam>ऐश</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐश</prAwipaxikam>
@@ -640,7 +640,7 @@
 </lexhead>
 
 <lexhead no="69">
-<root>ऐशान</root>
+<dentry>ऐशान</dentry>
 <prAwipaxikam>ऐशान</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐशान</prAwipaxikam>
@@ -649,7 +649,7 @@
 </lexhead>
 
 <lexhead no="70">
-<root>ऐशानी</root>
+<dentry>ऐशानी</dentry>
 <prAwipaxikam>ऐशानी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ईशान+अण्+ङीप्]</etymology>
@@ -658,7 +658,7 @@
 </lexhead>
 
 <lexhead no="71">
-<root>ऐश्वर</root>
+<dentry>ऐश्वर</dentry>
 <prAwipaxikam>ऐश्वर</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐश्वर</prAwipaxikam>
@@ -671,7 +671,7 @@
 </lexhead>
 
 <lexhead no="72">
-<root>ऐश्वरी</root>
+<dentry>ऐश्वरी</dentry>
 <prAwipaxikam>ऐश्वरी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ईश्वर+अण्]</etymology>
@@ -679,7 +679,7 @@
 </lexhead>
 
 <lexhead no="73">
-<root>ऐश्वर्यम्</root>
+<dentry>ऐश्वर्यम्</dentry>
 <prAwipaxikam>ऐश्वर्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ईश्वर+ष्यञ्]</etymology>
@@ -693,7 +693,7 @@
 </lexhead>
 
 <lexhead no="74">
-<root>ऐषमस्</root>
+<dentry>ऐषमस्</dentry>
 <prAwipaxikam>ऐषमस्</prAwipaxikam>
 <grammar>अव्य*</grammar>
 ?<etymology>[अस्मिन् वत्सरे इति नि* साधुः]</etymology>
@@ -701,7 +701,7 @@
 </lexhead>
 
 <lexhead no="75">
-<root>ऐषमस्तन</root>
+<dentry>ऐषमस्तन</dentry>
 <prAwipaxikam>ऐषमस्तन</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐषमस्तन</prAwipaxikam>
@@ -710,7 +710,7 @@
 </lexhead>
 
 <lexhead no="76">
-<root>ऐषमस्त्य</root>
+<dentry>ऐषमस्त्य</dentry>
 <prAwipaxikam>ऐषमस्त्य</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐषमस्त्य</prAwipaxikam>
@@ -719,14 +719,14 @@
 </lexhead>
 
 <lexhead no="77">
-<root>ऐष्टिक</root>
+<dentry>ऐष्टिक</dentry>
 <prAwipaxikam>ऐष्टिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐष्टिक</prAwipaxikam>
 <etymology>[इष्टि+ठक्]</etymology>
 <sense no="1">यज्ञसम्बन्धी, संस्कार विषयक, स्त्री - ऐष्टकी</sense>
 <segmenthd>
-<root>ऐष्टिकपूर्तिक</root>
+<dentry>ऐष्टिकपूर्तिक</dentry>
 <prAwipaxikam>ऐष्टिकपूर्तिक</prAwipaxikam>
 <seg>ऐष्टिक-पूर्तिक</seg>
 <grammar>वि*</grammar>
@@ -736,7 +736,7 @@
 </lexhead>
 
 <lexhead no="78">
-<root>ऐहलौकिक</root>
+<dentry>ऐहलौकिक</dentry>
 <prAwipaxikam>ऐहलौकिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐहलौकिक</prAwipaxikam>
@@ -745,7 +745,7 @@
 </lexhead>
 
 <lexhead no="79">
-<root>ऐहिक</root>
+<dentry>ऐहिक</dentry>
 <prAwipaxikam>ऐहिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऐहिक</prAwipaxikam>
@@ -754,7 +754,7 @@
 </lexhead>
 
 <lexhead no="80">
-<root>ऐहिकम्</root>
+<dentry>ऐहिकम्</dentry>
 <prAwipaxikam>ऐहिक</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <sense no="0">व्यवसाय, इस संसार का</sense>

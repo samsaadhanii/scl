@@ -3,7 +3,7 @@
 <?xml-stylesheet href="apte.css" type="text/css" ?>
 <dict>
 <lexhead no="1">
-<root>घः</root>
+<dentry>घः</dentry>
 <prAwipaxikam>घ</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[हन्-टक्, टिलोपः, घत्वं च]</etymology>
@@ -12,7 +12,7 @@
 </lexhead>
 
 <lexhead no="2">
-<root>घट्</root>
+<dentry>घट्</dentry>
 <prAwipaxikam>घट्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI>-<vform>घटते</vform>,<vform>घटित</vform></grammar>
 <sense no="1">व्यस्त होना, प्रयत्न करना, प्रयास करना, जानबूझ कर किसी काम में लगना, दयितां त्रातुमलं घटस्व-<citation>भट्टि* १०/४०</citation>अंगदेन समं योद्धुमघटिष्ट १५/१७, १२/२६, १६/२३, २०/२४, २२/३१, तुमुन्नंत, अधि* या संप्र* के साथ</sense>
@@ -25,7 +25,7 @@
 <sense n="8">प्रणोदित करना, उकसानास्नेहौघो घटयति मां तथापि वक्तुम्-<citation>भट्टि* १०/७३</citation></sense>
 <sense n="9">मलना, स्पर्श करना</sense>
 <segmenthd>
-<root>प्रघट्</root>
+<dentry>प्रघट्</dentry>
 <prAwipaxikam>प्रघट्</prAwipaxikam>
 <seg>प्र-घट्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
@@ -33,7 +33,7 @@
 <sense no="2">आरम्भ करना, शुरू करना<citation>भट्टि* १४/७७</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>विघट्</root>
+<dentry>विघट्</dentry>
 <prAwipaxikam>विघट्</prAwipaxikam>
 <seg>वि-घट्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
@@ -42,7 +42,7 @@
 <sense no="3">अलग- अलग करना, तोड़ना</sense>
 </segmenthd>
 <segmenthd>
-<root>संघट्</root>
+<dentry>संघट्</dentry>
 <prAwipaxikam>संघट्</prAwipaxikam>
 <seg>सम्-घट्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
@@ -51,7 +51,7 @@
 <sense no="3">मिलाना, जोड़ना, इकट्ठा करना, संग्रह करना</sense>
 </segmenthd>
 <segmenthd>
-<root>उद्घट्</root>
+<dentry>उद्घट्</dentry>
 <prAwipaxikam>उद्घट्</prAwipaxikam>
 <seg>उद्-घट्</seg>
 <grammar><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
@@ -60,7 +60,7 @@
 </lexhead>
 
 <lexhead no="3">
-<root>घटः</root>
+<dentry>घटः</dentry>
 <prAwipaxikam>घट</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घट्+अच्]</etymology>
@@ -74,49 +74,49 @@
 <sense n="5">२० द्रोण के बराबर तोल</sense>
 <sense n="6">स्तम्भ का एक अंश</sense>
 <segmenthd>
-<root>घटाटोपः</root>
+<dentry>घटाटोपः</dentry>
 <prAwipaxikam>घटाटोप</prAwipaxikam>
 <seg>घटः-आटोपः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">रथ या कुर्सी आदि को पूरा ढकने का कपड़ा</sense>
 </segmenthd>
 <segmenthd>
-<root>घटोद्भवः</root>
+<dentry>घटोद्भवः</dentry>
 <prAwipaxikam>घटोद्भव</prAwipaxikam>
 <seg>घटः-उद्भवः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">अगस्त्य मुनि के विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>घटजः</root>
+<dentry>घटजः</dentry>
 <prAwipaxikam>घटज</prAwipaxikam>
 <seg>घटः-जः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">अगस्त्य मुनि के विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>घटयोनिः</root>
+<dentry>घटयोनिः</dentry>
 <prAwipaxikam>घटयोनि</prAwipaxikam>
 <seg>घटः-योनिः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">अगस्त्य मुनि के विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>घटसम्भवः</root>
+<dentry>घटसम्भवः</dentry>
 <prAwipaxikam>घटसम्भव</prAwipaxikam>
 <seg>घटः-सम्भवः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">अगस्त्य मुनि के विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>घटोधस्</root>
+<dentry>घटोधस्</dentry>
 <prAwipaxikam>घटोधस्</prAwipaxikam>
 <seg>घटः-ऊधस्</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">गाय जिसकी औड़ी दूध से भरी होगाः कोटिशः स्पर्शयताघटोघ्नीः-<citation>रघु* २/४९</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>घटकर्परः</root>
+<dentry>घटकर्परः</dentry>
 <prAwipaxikam>घटकर्पर</prAwipaxikam>
 <seg>घटः-कर्परः</seg>
 <grammar>पुं*</grammar>
@@ -124,56 +124,56 @@
 <sense no="2">ठीकरा, बर्तन का टुकड़ाजीयेय येन कविना यमकैः परेण तस्मै वहेयमुदकं घटकर्परेण।<citation>घट* २२</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>घटकारः</root>
+<dentry>घटकारः</dentry>
 <prAwipaxikam>घटकार</prAwipaxikam>
 <seg>घटः-कारः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">कुम्हार</sense>
 </segmenthd>
 <segmenthd>
-<root>घटकृत्</root>
+<dentry>घटकृत्</dentry>
 <prAwipaxikam>घटकृत्</prAwipaxikam>
 <seg>घटः-कृत्</seg>
 <grammar>पुं*</grammar>
 <sense no="1">कुम्हार</sense>
 </segmenthd>
 <segmenthd>
-<root>घटग्रहः</root>
+<dentry>घटग्रहः</dentry>
 <prAwipaxikam>घटग्रह</prAwipaxikam>
 <seg>घटः-ग्रहः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">पानी भरने वाला</sense>
 </segmenthd>
 <segmenthd>
-<root>घटदासी</root>
+<dentry>घटदासी</dentry>
 <prAwipaxikam>घटदासी</prAwipaxikam>
 <seg>घटः-दासी</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">कुटनी तु* कुम्भदासी</sense>
 </segmenthd>
 <segmenthd>
-<root>घटपर्यसनम्</root>
+<dentry>घटपर्यसनम्</dentry>
 <prAwipaxikam>घटपर्यसन</prAwipaxikam>
 <seg>घटः-पर्यसनम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">पतित व्यक्ति का अन्त्येष्टि संस्कार करना जो अपने इस जीवन में अपनी जाति में फिर सम्मिलित होना न चाहता हो</sense>
 </segmenthd>
 <segmenthd>
-<root>घटभेदनकम्</root>
+<dentry>घटभेदनकम्</dentry>
 <prAwipaxikam>घटभेदनक</prAwipaxikam>
 <seg>घटः-भेदनकम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">बर्तन बनाने का एक उपकरण</sense>
 </segmenthd>
 <segmenthd>
-<root>घटराजः</root>
+<dentry>घटराजः</dentry>
 <prAwipaxikam>घटराज</prAwipaxikam>
 <seg>घटः-राजः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">पक्की मिट्टी का जलपात्र</sense>
 </segmenthd>
 <segmenthd>
-<root>घटस्थापनम्</root>
+<dentry>घटस्थापनम्</dentry>
 <prAwipaxikam>घटस्थापन</prAwipaxikam>
 <seg>घटः-स्थापनम्</seg>
 <grammar>नपुं*</grammar>
@@ -182,7 +182,7 @@
 </lexhead>
 
 <lexhead no="4">
-<root>घटक</root>
+<dentry>घटक</dentry>
 <prAwipaxikam>घटक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">घटक</prAwipaxikam>
@@ -193,7 +193,7 @@
 </lexhead>
 
 <lexhead no="5">
-<root>घटकः</root>
+<dentry>घटकः</dentry>
 <prAwipaxikam>घटक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घट्+णिच्+ण्वुल्]</etymology>
@@ -203,7 +203,7 @@
 </lexhead>
 
 <lexhead no="6">
-<root>घटनम्</root>
+<dentry>घटनम्</dentry>
 <prAwipaxikam>घटन</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घट्+ल्युट्]</etymology>
@@ -215,7 +215,7 @@
 </lexhead>
 
 <lexhead no="7">
-<root>घटना</root>
+<dentry>घटना</dentry>
 <prAwipaxikam>घटना</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घट्+ल्युट्]</etymology>
@@ -231,7 +231,7 @@
 </lexhead>
 
 <lexhead no="8">
-<root>घटा</root>
+<dentry>घटा</dentry>
 <prAwipaxikam>घटा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घट्+अङ्+टाप्]</etymology>
@@ -249,7 +249,7 @@
 </lexhead>
 
 <lexhead no="9">
-<root>घटिकः</root>
+<dentry>घटिकः</dentry>
 <prAwipaxikam>घटिक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घट+ठन्]</etymology>
@@ -257,7 +257,7 @@
 </lexhead>
 
 <lexhead no="10">
-<root>घटिकम्</root>
+<dentry>घटिकम्</dentry>
 <prAwipaxikam>घटिक</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[घट+ठन्]</etymology>
@@ -265,7 +265,7 @@
 </lexhead>
 
 <lexhead no="11">
-<root>घटिका</root>
+<dentry>घटिका</dentry>
 <prAwipaxikam>घटिका</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घटी+कन्+टाप्, ह्र्स्वः]</etymology>
@@ -276,7 +276,7 @@
 </lexhead>
 
 <lexhead no="12">
-<root>घटिन्</root>
+<dentry>घटिन्</dentry>
 <prAwipaxikam>घटिन्</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घट+इनि]</etymology>
@@ -284,7 +284,7 @@
 </lexhead>
 
 <lexhead no="13">
-<root>घटिन्धम</root>
+<dentry>घटिन्धम</dentry>
 <prAwipaxikam>घटिन्धम</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">घटिन्धम</prAwipaxikam>
@@ -293,7 +293,7 @@
 </lexhead>
 
 <lexhead no="14">
-<root>घटिन्धमः</root>
+<dentry>घटिन्धमः</dentry>
 <prAwipaxikam>घटिन्धम</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घटी+ध्मा+खश्+मुम्, धमादेशः]</etymology>
@@ -301,7 +301,7 @@
 </lexhead>
 
 <lexhead no="15">
-<root>घटिन्धय</root>
+<dentry>घटिन्धय</dentry>
 <prAwipaxikam>घटिन्धय</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">घटिन्धय</prAwipaxikam>
@@ -310,7 +310,7 @@
 </lexhead>
 
 <lexhead no="16">
-<root>घटी</root>
+<dentry>घटी</dentry>
 <prAwipaxikam>घटी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घट+ङीष्]</etymology>
@@ -318,14 +318,14 @@
 <sense n="2">२४ मिनट के बराबर समय की नाप</sense>
 <sense n="3">छोटा जल-घड़ा जिससे दिन की घड़ियाँ गिनने का कार्य लिया जाय।</sense>
 <segmenthd>
-<root>घटी कारः</root>
+<dentry>घटी कारः</dentry>
 <prAwipaxikam>घटी कार</prAwipaxikam>
 <seg>घटी-कारः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">कुम्हार</sense>
 </segmenthd>
 <segmenthd>
-<root>घटीग्रह</root>
+<dentry>घटीग्रह</dentry>
 <prAwipaxikam>घटीग्रह</prAwipaxikam>
 <seg>घटी-ग्रह</seg>
 <grammar>वि*</grammar>
@@ -333,7 +333,7 @@
 <sense no="1">पानी भरने वाला दे* ’घटग्रह’</sense>
 </segmenthd>
 <segmenthd>
-<root>घटीग्राह</root>
+<dentry>घटीग्राह</dentry>
 <prAwipaxikam>घटीग्राह</prAwipaxikam>
 <seg>घटी-ग्राह</seg>
 <grammar>वि*</grammar>
@@ -341,7 +341,7 @@
 <sense no="1">पानी भरने वाला</sense>
 </segmenthd>
 <segmenthd>
-<root>घटीयन्त्रम्</root>
+<dentry>घटीयन्त्रम्</dentry>
 <prAwipaxikam>घटीयन्त्र</prAwipaxikam>
 <seg>घटी-यन्त्रम्</seg>
 <grammar>नपुं*</grammar>
@@ -352,14 +352,14 @@
 </lexhead>
 
 <lexhead no="17">
-<root>घटोत्कचः</root>
+<dentry>घटोत्कचः</dentry>
 <prAwipaxikam>घटोत्कच</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">हिडिंबा नाम की राक्षसी से उत्पन्न भीम का एक पुत्र, यह बहुत बलवान् पुरुष था, कौरव और पाण्डवों के युद्ध में यह बहुत वीरतापूर्वक पाण्डवों की ओर से लड़ा परन्तु इन्द्र से प्राप्त शक्ति द्वारा कर्ण के हाथों मारा गया-<citation>तु* मुद्रा* २/१५</citation></sense>
 </lexhead>
 
 <lexhead no="18">
-<root>घट्ट</root>
+<dentry>घट्ट</dentry>
 <prAwipaxikam>घट्ट</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI>-<vform>घट्टते</vform>, बहुधा<gaNa>चुरा*</gaNa><paxI>उभ*</paxI>-<vform>घट्टयति</vform>,<vform>घट्टयते</vform>,<vform>घट्टित</vform></grammar>
 <sense no="1">हिलाना, हरकत देना, जैसे ’वायुघट्टिता लताः’ में</sense>
@@ -368,21 +368,21 @@
 <sense n="4">ईर्ष्या-द्वेष की भावना से बोलना</sense>
 <sense n="5">बाधा पहुँचाना</sense>
 <segmenthd>
-<root>अवघट्ट</root>
+<dentry>अवघट्ट</dentry>
 <prAwipaxikam>अवघट्ट</prAwipaxikam>
 <seg>अव-घट्ट</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
 <sense no="2">खोलना</sense>
 </segmenthd>
 <segmenthd>
-<root>परिघट्ट</root>
+<dentry>परिघट्ट</dentry>
 <prAwipaxikam>परिघट्ट</prAwipaxikam>
 <seg>परि-घट्ट</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
 <sense no="1">प्रहार करना<citation>शि* ९/६४</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>विघट्ट</root>
+<dentry>विघट्ट</dentry>
 <prAwipaxikam>विघट्ट</prAwipaxikam>
 <seg>वि-घट्ट</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
@@ -390,7 +390,7 @@
 <sense no="2">मलना, घिसना, रगड़्नाकारण्डवाननविघट्टितवीचिमालाः<citation>ऋतु* ३/८</citation>४/९<citation>कु* १/९</citation><citation>कि*८/४५</citation><citation>शि* ८/२४</citation>१३/४१</sense>
 </segmenthd>
 <segmenthd>
-<root>संघट्ट</root>
+<dentry>संघट्ट</dentry>
 <prAwipaxikam>संघट्ट</prAwipaxikam>
 <seg>सम्-घट्ट</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
@@ -402,7 +402,7 @@
 </lexhead>
 
 <lexhead no="19">
-<root>घट्टः</root>
+<dentry>घट्टः</dentry>
 <prAwipaxikam>घट्ट</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घट्ट्+घञ्]</etymology>
@@ -410,21 +410,21 @@
 <sense n="2">हिलना-जुलना, आन्दोलन</sense>
 <sense n="3">चुंगी घर</sense>
 <segmenthd>
-<root>घट्टकुटी</root>
+<dentry>घट्टकुटी</dentry>
 <prAwipaxikam>घट्टकुटी</prAwipaxikam>
 <seg>घट्टः-कुटी</seg>
 <grammar>स्त्री*</grammar>
 <sense no="4">चुंगी घर</sense>
 </segmenthd>
 <segmenthd>
-<root>घट्टप्रभातन्याय</root>
+<dentry>घट्टप्रभातन्याय</dentry>
 <prAwipaxikam>घट्टप्रभातन्याय</prAwipaxikam>
 <seg>घट्टः-प्रभातन्याय</seg>
 <grammar>पुं*</grammar>
 <sense no="1">चुंगी घर के निकट पौफटी का न्याय, कहते हैं एक गाड़ीवान चुंगी देना नहीं चाहता था, अतः वह ऊबड़-खाबड़ रास्ते से रात को घूमता रहा, जब पौफटी तो देखता है कि वह ठीक चुंगीधर के पास ही खड़ा है, विवश हो उसे चुंगी देनी पड़ी इसलिये जब कोई किसी कार्य को जानबूझ कर टालना चाहता है, परन्तु में उसी को करने के लिए विवश होना पड़ता है तो उस समय इस न्याय का प्रयोग होता है घट्ट्कुटीप्रभातन्यायः, दे* श्रीधर -तदिदं घट्ट्कुटीप्रभातन्याय मनुवदति।</sense>
 </segmenthd>
 <segmenthd>
-<root>घट्टजीविन्</root>
+<dentry>घट्टजीविन्</dentry>
 <prAwipaxikam>घट्टजीविन्</prAwipaxikam>
 <seg>घट्टः-जीविन्</seg>
 <grammar>पुं*</grammar>
@@ -434,7 +434,7 @@
 </lexhead>
 
 <lexhead no="20">
-<root>घट्टना</root>
+<dentry>घट्टना</dentry>
 <prAwipaxikam>घट्टना</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घट्ट्+युच्+टाप्]</etymology>
@@ -444,7 +444,7 @@
 </lexhead>
 
 <lexhead no="21">
-<root>घण्टः</root>
+<dentry>घण्टः</dentry>
 <prAwipaxikam>घण्ट</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घण्ट्+अच्]</etymology>
@@ -452,49 +452,49 @@
 </lexhead>
 
 <lexhead no="22">
-<root>घण्टा</root>
+<dentry>घण्टा</dentry>
 <prAwipaxikam>घण्टा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घण्ट्+अट्+टाप्]</etymology>
 <sense no="1">घंटी</sense>
 <sense n="2">लोहे का या कांसे का गोल पट्ट जिसे समय की सूचना के लिए मूंगरी से पीट कर बजाते हैं।</sense>
 <segmenthd>
-<root>घण्टागारम्</root>
+<dentry>घण्टागारम्</dentry>
 <prAwipaxikam>घण्टागार</prAwipaxikam>
 <seg>घण्टा-अगारम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="2">घण्टा घर</sense>
 </segmenthd>
 <segmenthd>
-<root>घण्टाफलकः</root>
+<dentry>घण्टाफलकः</dentry>
 <prAwipaxikam>घण्टाफलक</prAwipaxikam>
 <seg>घण्टा-फलकः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">घण्टियों से युक्त प्लेट</sense>
 </segmenthd>
 <segmenthd>
-<root>घण्टाफलकम्</root>
+<dentry>घण्टाफलकम्</dentry>
 <prAwipaxikam>घण्टाफलक</prAwipaxikam>
 <seg>घण्टा-फलकम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">घण्टियों से युक्त प्लेट</sense>
 </segmenthd>
 <segmenthd>
-<root>घण्टाताडः</root>
+<dentry>घण्टाताडः</dentry>
 <prAwipaxikam>घण्टाताड</prAwipaxikam>
 <seg>घण्टा-ताडः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">घंटा बजाने वाला</sense>
 </segmenthd>
 <segmenthd>
-<root>घण्टानावः</root>
+<dentry>घण्टानावः</dentry>
 <prAwipaxikam>घण्टानाव</prAwipaxikam>
 <seg>घण्टा-नावः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">घण्टे की आवाज</sense>
 </segmenthd>
 <segmenthd>
-<root>घण्टापथः</root>
+<dentry>घण्टापथः</dentry>
 <prAwipaxikam>घण्टापथ</prAwipaxikam>
 <seg>घण्टा-पथः</seg>
 <grammar>पुं*</grammar>
@@ -503,7 +503,7 @@
 <sense no="1">गाँव की मुख्य सड़्क, राजमार्ग, मुख्य मार्ग</sense>
 </segmenthd>
 <segmenthd>
-<root>घण्टाशब्दः</root>
+<dentry>घण्टाशब्दः</dentry>
 <prAwipaxikam>घण्टाशब्द</prAwipaxikam>
 <seg>घण्टा-शब्दः</seg>
 <grammar>पुं*</grammar>
@@ -513,7 +513,7 @@
 </lexhead>
 
 <lexhead no="23">
-<root>घण्टिका</root>
+<dentry>घण्टिका</dentry>
 <prAwipaxikam>घण्टिका</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घण्टा - ङीप् - कन्, ह्रस्वः]</etymology>
@@ -521,7 +521,7 @@
 </lexhead>
 
 <lexhead no="24">
-<root>घण्टुः</root>
+<dentry>घण्टुः</dentry>
 <prAwipaxikam>घण्टु</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घण्ट्+उण्]</etymology>
@@ -530,7 +530,7 @@
 </lexhead>
 
 <lexhead no="25">
-<root>घण्डः</root>
+<dentry>घण्डः</dentry>
 <prAwipaxikam>घण्ड</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology><vigraha_vAkya>घण् इति शब्दं कुर्वन् डीयते</vigraha_vAkya>[घण्+डी+ड]</etymology>
@@ -538,7 +538,7 @@
 </lexhead>
 
 <lexhead no="26">
-<root>घन</root>
+<dentry>घन</dentry>
 <prAwipaxikam>घन</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">घन</prAwipaxikam>
@@ -566,7 +566,7 @@
 </lexhead>
 
 <lexhead no="27">
-<root>घनः</root>
+<dentry>घनः</dentry>
 <prAwipaxikam>घन</prAwipaxikam>
 <grammar>पुं*</grammar>
 ?<etymology>[हन् मूर्तौ अप् घनादेशश्च- तारा*]</etymology>
@@ -591,7 +591,7 @@
 </lexhead>
 
 <lexhead no="28">
-<root>घनम्</root>
+<dentry>घनम्</dentry>
 <prAwipaxikam>घन</prAwipaxikam>
 <grammar>नपुं*</grammar>
 ?<etymology>[हन् मूर्तौ अप् घनादेशश्च- तारा*]</etymology>
@@ -611,84 +611,84 @@
 <sense n="3">टीन</sense>
 <sense n="4">चमड़ी, त्वचा, वल्कल</sense>
 <segmenthd>
-<root>घनात्ययः</root>
+<dentry>घनात्ययः</dentry>
 <prAwipaxikam>घनात्यय</prAwipaxikam>
 <seg>घन-अत्ययः</seg>
 <grammar>पुं*</grammar>
 <sense no="2">बादलों का लोप, वर्षाऋतु के पश्चात् आने वाली ऋतु, शरद्</sense>
 </segmenthd>
 <segmenthd>
-<root>घनान्तः</root>
+<dentry>घनान्तः</dentry>
 <prAwipaxikam>घनान्त</prAwipaxikam>
 <seg>घन-अन्तः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">बादलों का लोप, वर्षाऋतु के पश्चात् आने वाली ऋतु, शरद्</sense>
 </segmenthd>
 <segmenthd>
-<root>घनाम्बु</root>
+<dentry>घनाम्बु</dentry>
 <prAwipaxikam>घनाम्बु</prAwipaxikam>
 <seg>घन-अम्बु</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">वर्षा</sense>
 </segmenthd>
 <segmenthd>
-<root>घनाकरः</root>
+<dentry>घनाकरः</dentry>
 <prAwipaxikam>घनाकर</prAwipaxikam>
 <seg>घन-आकरः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">वर्षा ऋतु</sense>
 </segmenthd>
 <segmenthd>
-<root>घनागमः</root>
+<dentry>घनागमः</dentry>
 <prAwipaxikam>घनागम</prAwipaxikam>
 <seg>घन-आगमः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">बादलों का आगमन, वर्षाऋतुघनागमः कामिजनप्रियः प्रिये-<citation>ऋतु* २/१</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>घनामयः</root>
+<dentry>घनामयः</dentry>
 <prAwipaxikam>घनामय</prAwipaxikam>
 <seg>घन-आमयः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">छुहारे का वृक्ष</sense>
 </segmenthd>
 <segmenthd>
-<root>घनाश्रयः</root>
+<dentry>घनाश्रयः</dentry>
 <prAwipaxikam>घनाश्रय</prAwipaxikam>
 <seg>घन-आश्रयः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">पर्यावरण, अन्तरिक्ष</sense>
 </segmenthd>
 <segmenthd>
-<root>घनोपलः</root>
+<dentry>घनोपलः</dentry>
 <prAwipaxikam>घनोपल</prAwipaxikam>
 <seg>घन-उपलः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">ओले</sense>
 </segmenthd>
 <segmenthd>
-<root>घनौघः</root>
+<dentry>घनौघः</dentry>
 <prAwipaxikam>घनौघ</prAwipaxikam>
 <seg>घन-ओघः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">बादलों का एकत्र होना</sense>
 </segmenthd>
 <segmenthd>
-<root>घनकफः</root>
+<dentry>घनकफः</dentry>
 <prAwipaxikam>घनकफ</prAwipaxikam>
 <seg>घन-कफः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">ओले</sense>
 </segmenthd>
 <segmenthd>
-<root>घनकालः</root>
+<dentry>घनकालः</dentry>
 <prAwipaxikam>घनकाल</prAwipaxikam>
 <seg>घन-कालः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">वर्षाऋतु</sense>
 </segmenthd>
 <segmenthd>
-<root>घनगर्जितम्</root>
+<dentry>घनगर्जितम्</dentry>
 <prAwipaxikam>घनगर्जित</prAwipaxikam>
 <seg>घन-गर्जितम्</seg>
 <grammar>नपुं*</grammar>
@@ -696,77 +696,77 @@
 <sense no="2">गंभीर और ऊँची दहाड़ या गरज</sense>
 </segmenthd>
 <segmenthd>
-<root>घनगोलकः</root>
+<dentry>घनगोलकः</dentry>
 <prAwipaxikam>घनगोलक</prAwipaxikam>
 <seg>घन-गोलकः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">चांदी सोने की मिलावट</sense>
 </segmenthd>
 <segmenthd>
-<root>घनजम्बालः</root>
+<dentry>घनजम्बालः</dentry>
 <prAwipaxikam>घनजम्बाल</prAwipaxikam>
 <seg>घन-जम्बालः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">गाढी दलदल</sense>
 </segmenthd>
 <segmenthd>
-<root>घनतालः</root>
+<dentry>घनतालः</dentry>
 <prAwipaxikam>घनताल</prAwipaxikam>
 <seg>घन-तालः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">एक प्रकार का पक्षी, चातक, सारंग</sense>
 </segmenthd>
 <segmenthd>
-<root>घनतोलः</root>
+<dentry>घनतोलः</dentry>
 <prAwipaxikam>घनतोल</prAwipaxikam>
 <seg>घन-तोलः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">चातक पक्षी</sense>
 </segmenthd>
 <segmenthd>
-<root>घननाभिः</root>
+<dentry>घननाभिः</dentry>
 <prAwipaxikam>घननाभि</prAwipaxikam>
 <seg>घन-नाभिः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">धुआँ यह बादलों का मुख्य अवयव समझा जाता है-<citation>मेघ* ५</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>घननीहारः</root>
+<dentry>घननीहारः</dentry>
 <prAwipaxikam>घननीहार</prAwipaxikam>
 <seg>घन-नीहारः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">गाढ़ा कोहरा, सघन तुषार</sense>
 </segmenthd>
 <segmenthd>
-<root>घनपदवी</root>
+<dentry>घनपदवी</dentry>
 <prAwipaxikam>घनपदवी</prAwipaxikam>
 <seg>घन-पदवी</seg>
 <grammar>पुं*</grammar>
 <sense no="1">’बादलों का मार्ग’ अन्तरिक्ष, आकाशक्रामद्भिर्घनपदवीमनेकसंख्यैः-<citation>कि* ५/३४</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>घनपाषण्डः</root>
+<dentry>घनपाषण्डः</dentry>
 <prAwipaxikam>घनपाषण्ड</prAwipaxikam>
 <seg>घन-पाषण्डः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">मोर</sense>
 </segmenthd>
 <segmenthd>
-<root>घनफलम्</root>
+<dentry>घनफलम्</dentry>
 <prAwipaxikam>घनफल</prAwipaxikam>
 <seg>घन-फलम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">किसी वस्तु की लंबाई- चौड़ाई और मोटाई का गुणनफल अथवा ठोसपन ज्या* में</sense>
 </segmenthd>
 <segmenthd>
-<root>घनमूलम्</root>
+<dentry>घनमूलम्</dentry>
 <prAwipaxikam>घनमूल</prAwipaxikam>
 <seg>घन-मूलम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">घन- राशि का मूल अंक गणित में</sense>
 </segmenthd>
 <segmenthd>
-<root>घनरसः</root>
+<dentry>घनरसः</dentry>
 <prAwipaxikam>घनरस</prAwipaxikam>
 <seg>घन-रसः</seg>
 <grammar>पुं*</grammar>
@@ -777,42 +777,42 @@
 <sense no="4">जल</sense>
 </segmenthd>
 <segmenthd>
-<root>घनवर्गः</root>
+<dentry>घनवर्गः</dentry>
 <prAwipaxikam>घनवर्ग</prAwipaxikam>
 <seg>घन-वर्गः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">घन का वर्ग, छठा घात गणित में</sense>
 </segmenthd>
 <segmenthd>
-<root>घनवर्त्मन्</root>
+<dentry>घनवर्त्मन्</dentry>
 <prAwipaxikam>घनवर्त्मन्</prAwipaxikam>
 <seg>घन-वर्त्मन्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">आकाशघनवर्त्म सहस्रधेव कुर्वन्-<citation>कि* ५/१७</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>घनवल्लिका</root>
+<dentry>घनवल्लिका</dentry>
 <prAwipaxikam>घनवल्लिका</prAwipaxikam>
 <seg>घन-वल्लिका</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">बिजली</sense>
 </segmenthd>
 <segmenthd>
-<root>घनवल्ली</root>
+<dentry>घनवल्ली</dentry>
 <prAwipaxikam>घनवल्ली</prAwipaxikam>
 <seg>घन-वल्ली</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">बिजली</sense>
 </segmenthd>
 <segmenthd>
-<root>घनवासः</root>
+<dentry>घनवासः</dentry>
 <prAwipaxikam>घनवास</prAwipaxikam>
 <seg>घन-वासः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">एक प्रकार का कद्दू, कुम्हड़ा</sense>
 </segmenthd>
 <segmenthd>
-<root>घनवाहनः</root>
+<dentry>घनवाहनः</dentry>
 <prAwipaxikam>घनवाहन</prAwipaxikam>
 <seg>घन-वाहनः</seg>
 <grammar>पुं*</grammar>
@@ -820,7 +820,7 @@
 <sense no="2">इन्द्र</sense>
 </segmenthd>
 <segmenthd>
-<root>घनश्याम</root>
+<dentry>घनश्याम</dentry>
 <prAwipaxikam>घनश्याम</prAwipaxikam>
 <seg>घन-श्याम</seg>
 <grammar>वि*</grammar>
@@ -828,21 +828,21 @@
 <sense no="1">’बादल की भाँति काला’, गहरा काला, पक्का रंग</sense>
 </segmenthd>
 <segmenthd>
-<root>घनश्यामः</root>
+<dentry>घनश्यामः</dentry>
 <prAwipaxikam>घनश्याम</prAwipaxikam>
 <seg>घन-श्यामः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">राम और कृष्ण का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>घनसमयः</root>
+<dentry>घनसमयः</dentry>
 <prAwipaxikam>घनसमय</prAwipaxikam>
 <seg>घन-समयः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">वर्षाऋतुघनसारनीहारहार-<citation>दश* १ श्वेत पदार्थों में उल्लेख</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>घनसारः</root>
+<dentry>घनसारः</dentry>
 <prAwipaxikam>घनसार</prAwipaxikam>
 <seg>घन-सारः</seg>
 <grammar>पुं*</grammar>
@@ -853,14 +853,14 @@
 <sense no="3">जल</sense>
 </segmenthd>
 <segmenthd>
-<root>घनस्वनः</root>
+<dentry>घनस्वनः</dentry>
 <prAwipaxikam>घनस्वन</prAwipaxikam>
 <seg>घन-स्वनः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">मेघगर्जन</sense>
 </segmenthd>
 <segmenthd>
-<root>घनहस्तसंख्या</root>
+<dentry>घनहस्तसंख्या</dentry>
 <prAwipaxikam>घनहस्तसंख्या</prAwipaxikam>
 <seg>घन-हस्तसंख्या</seg>
 <grammar>स्त्री*</grammar>
@@ -869,7 +869,7 @@
 </lexhead>
 
 <lexhead no="29">
-<root>घनाघनः</root>
+<dentry>घनाघनः</dentry>
 <prAwipaxikam>घनाघन</prAwipaxikam>
 <grammar>पुं*</grammar>
 ?<etymology>[हन्+अच्, हन्तेर्घत्वम् दित्वमभ्यासस्य आक् च]</etymology>
@@ -884,7 +884,7 @@
 </lexhead>
 
 <lexhead no="30">
-<root>घरट्टः</root>
+<dentry>घरट्टः</dentry>
 <prAwipaxikam>घरट्ट</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology><vigraha_vAkya>घरं सेकम् अट्टति अतिक्रामति</vigraha_vAkya>[घर-अट्ट्+अण्, शक* पररूपम्]</etymology>
@@ -892,7 +892,7 @@
 </lexhead>
 
 <lexhead no="31">
-<root>घर्घर</root>
+<dentry>घर्घर</dentry>
 <prAwipaxikam>घर्घर</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">घर्घर</prAwipaxikam>
@@ -902,7 +902,7 @@
 </lexhead>
 
 <lexhead no="32">
-<root>घर्घरः</root>
+<dentry>घर्घरः</dentry>
 <prAwipaxikam>घर्घर</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घर्घ-रा+क]</etymology>
@@ -915,7 +915,7 @@
 </lexhead>
 
 <lexhead no="33">
-<root>घर्घरा</root>
+<dentry>घर्घरा</dentry>
 <prAwipaxikam>घर्घरा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घर्घर+टाप्]</etymology>
@@ -926,7 +926,7 @@
 </lexhead>
 
 <lexhead no="34">
-<root>घर्घरी</root>
+<dentry>घर्घरी</dentry>
 <prAwipaxikam>घर्घरी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घर्घर+ङीष्]</etymology>
@@ -937,7 +937,7 @@
 </lexhead>
 
 <lexhead no="35">
-<root>घर्घरिका</root>
+<dentry>घर्घरिका</dentry>
 <prAwipaxikam>घर्घरिका</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घर्घर+ठन्+टाप्]</etymology>
@@ -946,7 +946,7 @@
 </lexhead>
 
 <lexhead no="36">
-<root>घर्घरितम्</root>
+<dentry>घर्घरितम्</dentry>
 <prAwipaxikam>घर्घरित</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[घर्घर+इतच्]</etymology>
@@ -954,7 +954,7 @@
 </lexhead>
 
 <lexhead no="37">
-<root>घर्मः</root>
+<dentry>घर्मः</dentry>
 <prAwipaxikam>घर्म</prAwipaxikam>
 <grammar>पुं*</grammar>
 ?<etymology>[घरति अङ्गात्- घृ - मक् नि* गुणः]</etymology>
@@ -964,56 +964,56 @@
 <sense n="3">स्वेद, पसीना<citation>शि* १/५८</citation></sense>
 <sense n="4">कड़ाह, उबालने का पात्र</sense>
 <segmenthd>
-<root>घर्मांशुः</root>
+<dentry>घर्मांशुः</dentry>
 <prAwipaxikam>घर्मांशु</prAwipaxikam>
 <seg>घर्मः-अंशुः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">सूर्य<citation>श* ५/१४</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>घर्मान्तः</root>
+<dentry>घर्मान्तः</dentry>
 <prAwipaxikam>घर्मान्त</prAwipaxikam>
 <seg>घर्मः-अन्तः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">वर्षाऋतु</sense>
 </segmenthd>
 <segmenthd>
-<root>घर्माम्बु</root>
+<dentry>घर्माम्बु</dentry>
 <prAwipaxikam>घर्माम्बु</prAwipaxikam>
 <seg>घर्मः-अम्बु</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">स्वेद, पसीना<citation>श* १/३०</citation><citation>मा* १/३७</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>घर्माम्भस्</root>
+<dentry>घर्माम्भस्</dentry>
 <prAwipaxikam>घर्माम्भस्</prAwipaxikam>
 <seg>घर्मः-अम्भस्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">स्वेद, पसीना दबे हुए पसीने और गर्मी से शरीर पर पैदा होने वाले छोटे-छोटे दाने</sense>
 </segmenthd>
 <segmenthd>
-<root>घर्मचर्चिका</root>
+<dentry>घर्मचर्चिका</dentry>
 <prAwipaxikam>घर्मचर्चिका</prAwipaxikam>
 <seg>घर्मः-चर्चिका</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">घाम, पित्त, घमौरी<citation>रघु* ११/६४</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>घर्मदीधितिः</root>
+<dentry>घर्मदीधितिः</dentry>
 <prAwipaxikam>घर्मदीधिति</prAwipaxikam>
 <seg>घर्मः-दीधितिः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">सूर्य<citation>कि* ५/४१</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>घर्मद्युतिः</root>
+<dentry>घर्मद्युतिः</dentry>
 <prAwipaxikam>घर्मद्युति</prAwipaxikam>
 <seg>घर्मः-द्युतिः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">सूर्य</sense>
 </segmenthd>
 <segmenthd>
-<root>घर्मपयस्</root>
+<dentry>घर्मपयस्</dentry>
 <prAwipaxikam>घर्मपयस्</prAwipaxikam>
 <seg>घर्मः-पयस्</seg>
 <grammar>नपुं*</grammar>
@@ -1022,7 +1022,7 @@
 </lexhead>
 
 <lexhead no="38">
-<root>घर्षः</root>
+<dentry>घर्षः</dentry>
 <prAwipaxikam>घर्ष</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घृष्+घञ्]</etymology>
@@ -1031,7 +1031,7 @@
 </lexhead>
 
 <lexhead no="39">
-<root>घर्षणम्</root>
+<dentry>घर्षणम्</dentry>
 <prAwipaxikam>घर्षण</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[घृष्+ल्युट् ]</etymology>
@@ -1040,14 +1040,14 @@
 </lexhead>
 
 <lexhead no="40">
-<root>घस्</root>
+<dentry>घस्</dentry>
 <prAwipaxikam>घस्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>अदा*</gaNa>-<paxI>पर*</paxI>-<vform>घसति</vform>,<vform>घस्ति</vform>,<vform>घस्त</vform></grammar>
 <sense no="1">खाना, निगलना, यह अधूरी धातु है- ’अद्’ धातु के कुछ लकारों में ही इसके रूप बनते हैं।</sense>
 </lexhead>
 
 <lexhead no="41">
-<root>घस्मर</root>
+<dentry>घस्मर</dentry>
 <prAwipaxikam>घस्मर</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">घस्मर</prAwipaxikam>
@@ -1059,7 +1059,7 @@
 </lexhead>
 
 <lexhead no="42">
-<root>घस्र</root>
+<dentry>घस्र</dentry>
 <prAwipaxikam>घस्र</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">घस्र</prAwipaxikam>
@@ -1071,7 +1071,7 @@
 </lexhead>
 
 <lexhead no="43">
-<root>घस्रः</root>
+<dentry>घस्रः</dentry>
 <prAwipaxikam>घस्र</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घस्+रक्]</etymology>
@@ -1083,7 +1083,7 @@
 </lexhead>
 
 <lexhead no="44">
-<root>घस्रम्</root>
+<dentry>घस्रम्</dentry>
 <prAwipaxikam>घस्र</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[घस्+रक्]</etymology>
@@ -1094,7 +1094,7 @@
 </lexhead>
 
 <lexhead no="45">
-<root>घाटः</root>
+<dentry>घाटः</dentry>
 <prAwipaxikam>घाट</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घट्+अच्]</etymology>
@@ -1102,7 +1102,7 @@
 </lexhead>
 
 <lexhead no="46">
-<root>घाटा</root>
+<dentry>घाटा</dentry>
 <prAwipaxikam>घाटा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घट्+अच्+टाप्]</etymology>
@@ -1110,7 +1110,7 @@
 </lexhead>
 
 <lexhead no="47">
-<root>घाण्टिकः</root>
+<dentry>घाण्टिकः</dentry>
 <prAwipaxikam>घाण्टिक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घंटा+ठक्]</etymology>
@@ -1122,7 +1122,7 @@
 </lexhead>
 
 <lexhead no="48">
-<root>घातः</root>
+<dentry>घातः</dentry>
 <prAwipaxikam>घात</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[हन्+णिच्+घञ्]</etymology>
@@ -1134,35 +1134,35 @@
 <sense n="3">बाण</sense>
 <sense n="4">गुणनफल</sense>
 <segmenthd>
-<root>घातचन्द्रः</root>
+<dentry>घातचन्द्रः</dentry>
 <prAwipaxikam>घातचन्द्र</prAwipaxikam>
 <seg>घातः-चन्द्रः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">अशुभ राशि पर स्थित चन्द्रमा</sense>
 </segmenthd>
 <segmenthd>
-<root>घाततिथिः</root>
+<dentry>घाततिथिः</dentry>
 <prAwipaxikam>घाततिथि</prAwipaxikam>
 <seg>घातः-तिथिः</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">अशुभ चान्द्र दिन</sense>
 </segmenthd>
 <segmenthd>
-<root>घातनक्षत्रम्</root>
+<dentry>घातनक्षत्रम्</dentry>
 <prAwipaxikam>घातनक्षत्र</prAwipaxikam>
 <seg>घातः-नक्षत्रम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">अशुभ नक्षत्र</sense>
 </segmenthd>
 <segmenthd>
-<root>घातवारः</root>
+<dentry>घातवारः</dentry>
 <prAwipaxikam>घातवार</prAwipaxikam>
 <seg>घातः-वारः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">अशुभ दिन</sense>
 </segmenthd>
 <segmenthd>
-<root>घातस्थानम्</root>
+<dentry>घातस्थानम्</dentry>
 <prAwipaxikam>घातस्थान</prAwipaxikam>
 <seg>घातः-स्थानम्</seg>
 <grammar>नपुं*</grammar>
@@ -1171,7 +1171,7 @@
 </lexhead>
 
 <lexhead no="49">
-<root>घातक</root>
+<dentry>घातक</dentry>
 <prAwipaxikam>घातक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">घातक</prAwipaxikam>
@@ -1180,7 +1180,7 @@
 </lexhead>
 
 <lexhead no="50">
-<root>घातन</root>
+<dentry>घातन</dentry>
 <prAwipaxikam>घातन</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">घातन</prAwipaxikam>
@@ -1189,7 +1189,7 @@
 </lexhead>
 
 <lexhead no="51">
-<root>घातनम्</root>
+<dentry>घातनम्</dentry>
 <prAwipaxikam>घातन</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[हन्+णिच्+ल्युट्]</etymology>
@@ -1198,7 +1198,7 @@
 </lexhead>
 
 <lexhead no="52">
-<root>घातिन्</root>
+<dentry>घातिन्</dentry>
 <prAwipaxikam>घातिन्</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">घातिन्</prAwipaxikam>
@@ -1207,14 +1207,14 @@
 <sense n="2">पकड़्ने वाला या मारने वाला पक्षियों को</sense>
 <sense n="3">विनाशकारी</sense>
 <segmenthd>
-<root>घातिपक्षिन्</root>
+<dentry>घातिपक्षिन्</dentry>
 <prAwipaxikam>घातिपक्षिन्</prAwipaxikam>
 <seg>घातिन्-पक्षिन्</seg>
 <grammar>पुं*</grammar>
 <sense no="1">बाज, श्येन</sense>
 </segmenthd>
 <segmenthd>
-<root>घातिविहगः</root>
+<dentry>घातिविहगः</dentry>
 <prAwipaxikam>घातिविहग</prAwipaxikam>
 <seg>घातिन्-विहगः</seg>
 <grammar>पुं*</grammar>
@@ -1223,7 +1223,7 @@
 </lexhead>
 
 <lexhead no="53">
-<root>घातुक</root>
+<dentry>घातुक</dentry>
 <prAwipaxikam>घातुक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">घातुक</prAwipaxikam>
@@ -1237,7 +1237,7 @@
 </lexhead>
 
 <lexhead no="54">
-<root>घात्य</root>
+<dentry>घात्य</dentry>
 <prAwipaxikam>घात्य</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">घात्य</prAwipaxikam>
@@ -1246,7 +1246,7 @@
 </lexhead>
 
 <lexhead no="55">
-<root>घारः</root>
+<dentry>घारः</dentry>
 <prAwipaxikam>घार</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घृ+घञ्]</etymology>
@@ -1254,7 +1254,7 @@
 </lexhead>
 
 <lexhead no="56">
-<root>घार्तिकः</root>
+<dentry>घार्तिकः</dentry>
 <prAwipaxikam>घार्तिक</prAwipaxikam>
 <grammar>पुं*</grammar>
 ?<etymology>[घृतेन - निर्वृतः+ठञ्]</etymology>
@@ -1262,7 +1262,7 @@
 </lexhead>
 
 <lexhead no="57">
-<root>घासः</root>
+<dentry>घासः</dentry>
 <prAwipaxikam>घास</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घस्+घञ्]</etymology>
@@ -1271,14 +1271,14 @@
 <sense no="1">आहार</sense>
 <sense n="2">गोचरभूमि या चरागाह का घासघासाभावात्-<citation>पंच* ५</citation>घासमुष्टिं परगवे दद्यात् संवत्सरं तु यः-<citation>महा*</citation></sense>
 <segmenthd>
-<root>घासकुन्दम्</root>
+<dentry>घासकुन्दम्</dentry>
 <prAwipaxikam>घासकुन्द</prAwipaxikam>
 <seg>घासः-कुन्दम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">चरागाह</sense>
 </segmenthd>
 <segmenthd>
-<root>घासस्थानम्</root>
+<dentry>घासस्थानम्</dentry>
 <prAwipaxikam>घासस्थान</prAwipaxikam>
 <seg>घासः-स्थानम्</seg>
 <grammar>नपुं*</grammar>
@@ -1287,14 +1287,14 @@
 </lexhead>
 
 <lexhead no="58">
-<root>घु</root>
+<dentry>घु</dentry>
 <prAwipaxikam>घु</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI>-<vform>घवते</vform>,<vform>घुत</vform></grammar>
 <sense no="1">शब्द करना, हल्ला मचाना</sense>
 </lexhead>
 
 <lexhead no="59">
-<root>घुट्</root>
+<dentry>घुट्</dentry>
 <prAwipaxikam>घुट्</prAwipaxikam>
 <grammar><gaNa>तुदा*</gaNa><paxI>पर*</paxI><vform>घुटति</vform>,<vform>घुटित</vform></grammar>
 <sense no="1">फिर प्रहार करना, बदला लेने के लिए प्रहार करना, मुक़ाबला करना</sense>
@@ -1304,7 +1304,7 @@
 </lexhead>
 
 <lexhead no="60">
-<root>घुटः</root>
+<dentry>घुटः</dentry>
 <prAwipaxikam>घुट</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घुट्+अच्]</etymology>
@@ -1312,7 +1312,7 @@
 </lexhead>
 
 <lexhead no="61">
-<root>घुटिः</root>
+<dentry>घुटिः</dentry>
 <prAwipaxikam>घुटि</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घुट्+इन् ]</etymology>
@@ -1320,7 +1320,7 @@
 </lexhead>
 
 <lexhead no="62">
-<root>घुटी</root>
+<dentry>घुटी</dentry>
 <prAwipaxikam>घुटी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घुटि+ङीष]</etymology>
@@ -1328,7 +1328,7 @@
 </lexhead>
 
 <lexhead no="63">
-<root>घुटिकः</root>
+<dentry>घुटिकः</dentry>
 <prAwipaxikam>घुटिक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घुटि+कन्]</etymology>
@@ -1336,7 +1336,7 @@
 </lexhead>
 
 <lexhead no="64">
-<root>घुटिका</root>
+<dentry>घुटिका</dentry>
 <prAwipaxikam>घुटिका</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घुटि+कन्+टाप् ]</etymology>
@@ -1347,7 +1347,7 @@
 </lexhead>
 
 <lexhead no="65">
-<root>घुण्</root>
+<dentry>घुण्</dentry>
 <prAwipaxikam>घुण्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI><gaNa>तुदा*</gaNa><paxI>पर*</paxI>-<vform>घोणते</vform>,<vform>घुणति</vform>,<vform>घुणित</vform></grammar>
 <sense no="1">लुढ़कना, चक्कर खाना, लड़खड़ाना, अटेरना</sense>
@@ -1355,27 +1355,27 @@
 </lexhead>
 
 <lexhead no="66">
-<root>घुणः</root>
+<dentry>घुणः</dentry>
 <prAwipaxikam>घुण</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घुण+क]</etymology>
 <sense no="1">लकड़ी में पाया जाने वाला विशेष प्रकार का कीड़ा</sense>
 <segmenthd>
-<root>घुणाक्षरम्</root>
+<dentry>घुणाक्षरम्</dentry>
 <prAwipaxikam>घुणाक्षर</prAwipaxikam>
 <seg>घुणः-अक्षरम्</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">लकड़ी या पुस्तक के पत्रों में कीड़ों के द्वारा बनाई हुइ रेखाएँ जो कुछ- कुछ अक्षरों जैसी प्रतीत होती हैं।</sense>
 </segmenthd>
 <segmenthd>
-<root>घुणलिपिः</root>
+<dentry>घुणलिपिः</dentry>
 <prAwipaxikam>घुणलिपि</prAwipaxikam>
 <seg>घुणः-लिपिः</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">लकड़ी या पुस्तक के पत्रों में कीड़ों के द्वारा बनाई हुइ रेखाएँ जो कुछ- कुछ अक्षरों जैसी प्रतीत होती हैं।</sense>
 </segmenthd>
 <segmenthd>
-<root>घुणन्याय</root>
+<dentry>घुणन्याय</dentry>
 <prAwipaxikam>घुणन्याय</prAwipaxikam>
 <seg>घुणः-न्याय</seg>
 <grammar>पुं*</grammar>
@@ -1384,7 +1384,7 @@
 </lexhead>
 
 <lexhead no="67">
-<root>घुण्टः</root>
+<dentry>घुण्टः</dentry>
 <prAwipaxikam>घुण्ट</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घुण्ट्+क]</etymology>
@@ -1392,7 +1392,7 @@
 </lexhead>
 
 <lexhead no="68">
-<root>घुण्टकः</root>
+<dentry>घुण्टकः</dentry>
 <prAwipaxikam>घुण्टक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घुण्ट+कन्]</etymology>
@@ -1400,7 +1400,7 @@
 </lexhead>
 
 <lexhead no="69">
-<root>घुण्टिका</root>
+<dentry>घुण्टिका</dentry>
 <prAwipaxikam>घुण्टिका</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घुण्टक+टाप्, इत्वम्]</etymology>
@@ -1408,7 +1408,7 @@
 </lexhead>
 
 <lexhead no="70">
-<root>घुण्डः</root>
+<dentry>घुण्डः</dentry>
 <prAwipaxikam>घुण्ड</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घुण्+ड, नि* ]</etymology>
@@ -1416,7 +1416,7 @@
 </lexhead>
 
 <lexhead no="71">
-<root>घुर्</root>
+<dentry>घुर्</dentry>
 <prAwipaxikam>घुर्</prAwipaxikam>
 <grammar><gaNa>तुदा*</gaNa><paxI>पर*</paxI>-<vform>घुरति</vform>,<vform>घुरित</vform></grammar>
 <sense no="1">शब्द करना, कोलाहल करना, खुर्राटे भरना, फुफकारना, घुरघुराना, कः कः कुत्र न घुर्घुरायितघुरीघोरो घुरेच्छूकरः।<citation>का* ७</citation>सूअर, कुत्ते आदि का</sense>
@@ -1425,7 +1425,7 @@
 </lexhead>
 
 <lexhead no="72">
-<root>घुरी</root>
+<dentry>घुरी</dentry>
 <prAwipaxikam>घुरी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घुर्+कि+ङीष्]</etymology>
@@ -1433,7 +1433,7 @@
 </lexhead>
 
 <lexhead no="73">
-<root>घुर्घुरीः</root>
+<dentry>घुर्घुरीः</dentry>
 <prAwipaxikam>घुर्घुरी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology><vigraha_vAkya>घुर् इत्यव्यक्तं घुरति</vigraha_vAkya>[घुर्+घुर्+क्]</etymology>
@@ -1442,7 +1442,7 @@
 </lexhead>
 
 <lexhead no="74">
-<root>घुर्घुर</root>
+<dentry>घुर्घुर</dentry>
 <prAwipaxikam>घुर्घुर</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">घुर्घुर</prAwipaxikam>
@@ -1451,7 +1451,7 @@
 </lexhead>
 
 <lexhead no="75">
-<root>घुलघुलारवः</root>
+<dentry>घुलघुलारवः</dentry>
 <prAwipaxikam>घुलघुलारव</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology><vigraha_vAkya>’घुलघुल’ इत्यव्यक्तमारौति</vigraha_vAkya>[घुलघुल-आ+रु+अच्]</etymology>
@@ -1459,20 +1459,20 @@
 </lexhead>
 
 <lexhead no="76">
-<root>घुष्</root>
+<dentry>घुष्</dentry>
 <prAwipaxikam>घुष्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><gaNa>चुरा*</gaNa><paxI>उभ*</paxI>-<vform>घोषति</vform>,<vform>घोषयति</vform>-<vform>घोषयते</vform>,<vform>घुषित</vform>,<vform>घुष्ट</vform>,<vform>घोषित</vform></grammar>
 <sense no="1">शब्द करना, कोलाहल करना</sense>
 <sense n="2">ऊँचे स्वर से चिल्लाना, सार्वजनिक रुप से घोषणा करनास स पापादृते तासां दुष्यन्त इति घुष्यताम्।<citation>श* ६/२२</citation>घोषयतु मन्मथनिदेशम्।<citation>गीत* १०</citation>इति घोषयतीव डिंडिमः करिणोहस्तिपकाहतः क्वणन्।<citation>हि* २/८६</citation><citation>रघु* ९/१०</citation></sense>
 <segmenthd>
-<root>आघुष्</root>
+<dentry>आघुष्</dentry>
 <prAwipaxikam>आघुष्</prAwipaxikam>
 <seg>आ-घुष्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">उच्च स्वर से रोना, सार्वजनिक रूप से घोषणा करना<citation>भट्टि* ३/२</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>उद्घुष्</root>
+<dentry>उद्घुष्</dentry>
 <prAwipaxikam>उद्घुष्</prAwipaxikam>
 <seg>उद्-घुष्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
@@ -1482,7 +1482,7 @@
 </lexhead>
 
 <lexhead no="77">
-<root>घुसृणम्</root>
+<dentry>घुसृणम्</dentry>
 <prAwipaxikam>घुसृण</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[घुष्+ऋणक्, पृषो*]</etymology>
@@ -1490,7 +1490,7 @@
 </lexhead>
 
 <lexhead no="78">
-<root>घूकः</root>
+<dentry>घूकः</dentry>
 <prAwipaxikam>घूक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology><vigraha_vAkya>घू इत्यव्यक्तं कायति</vigraha_vAkya>[घू-कै+क]</etymology>
@@ -1498,7 +1498,7 @@
 <jAwi>पक्षी</jAwi>
 <sense no="1">उल्लू</sense>
 <segmenthd>
-<root>घूकारिः</root>
+<dentry>घूकारिः</dentry>
 <prAwipaxikam>घूकारि</prAwipaxikam>
 <seg>घूकः-अरिः</seg>
 <grammar>पुं*</grammar>
@@ -1507,7 +1507,7 @@
 </lexhead>
 
 <lexhead no="79">
-<root>घूर्ण्</root>
+<dentry>घूर्ण्</dentry>
 <prAwipaxikam>घूर्ण्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI>-<gaNa>तुदा*</gaNa><paxI>पर*</paxI>-<vform>घूर्णते</vform>,<vform>घूर्णति</vform>,<vform>घूर्णित</vform></grammar>
 <sense no="1">इधर-उधर लुढ़कना, इधर-उधर घूमना, चक्कर काटना, मुड़ना, हिलाना, लिपटना, लड़खड़ाना, योषितामतिमदेन जुघूर्णर्विभ्रमातिशयपूंषि वपूंषि-<citation>शि* १०/३२</citation>भयात्केचिदघूर्णिषुः-<citation>भट्टि* १५/३२</citation>११८<citation>शि* ११/१८</citation>अद्यापि तां सुरतजागरूर्णमानां-<citation>चौर* ५</citation></sense>
@@ -1515,14 +1515,14 @@
 </lexhead>
 
 <lexhead no="80">
-<root>घूर्ण</root>
+<dentry>घूर्ण</dentry>
 <prAwipaxikam>घूर्ण</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">घूर्ण</prAwipaxikam>
 <etymology>[घूर्ण+अच्]</etymology>
 <sense no="1">हिलाने वाला, इधर- उधर चलने- फिरने वाला</sense>
 <segmenthd>
-<root>घूर्णवायुः</root>
+<dentry>घूर्णवायुः</dentry>
 <prAwipaxikam>घूर्णवायु</prAwipaxikam>
 <seg>घूर्णः-वायुः</seg>
 <grammar>पुं*</grammar>
@@ -1531,7 +1531,7 @@
 </lexhead>
 
 <lexhead no="81">
-<root>घूर्णनम्</root>
+<dentry>घूर्णनम्</dentry>
 <prAwipaxikam>घूर्णन</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[घूर्ण+ल्युट्]</etymology>
@@ -1539,7 +1539,7 @@
 </lexhead>
 
 <lexhead no="82">
-<root>घूर्णनना</root>
+<dentry>घूर्णनना</dentry>
 <prAwipaxikam>घूर्णनना</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घूर्ण+ल्युट्]</etymology>
@@ -1547,20 +1547,20 @@
 </lexhead>
 
 <lexhead no="83">
-<root>घृ</root>
+<dentry>घृ</dentry>
 <prAwipaxikam>घृ</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI>-<vform>घरति</vform>,<vform>घृत</vform></grammar>
 <sense no="1">छिड़्कना</sense>
 <sense n="2">छिड़्काव करना, गीला करना, तर करना</sense>
 <segmenthd>
-<root>अभिघृ</root>
+<dentry>अभिघृ</dentry>
 <prAwipaxikam>अभिघृ</prAwipaxikam>
 <seg>अभि-घृ</seg>
 <grammar><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="2">छिड़्कना</sense>
 </segmenthd>
 <segmenthd>
-<root>आघृ</root>
+<dentry>आघृ</dentry>
 <prAwipaxikam>आघृ</prAwipaxikam>
 <seg>आ-घृ</seg>
 <grammar><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
@@ -1569,14 +1569,14 @@
 </lexhead>
 
 <lexhead no="84">
-<root>घृण्</root>
+<dentry>घृण्</dentry>
 <prAwipaxikam>घृण्</prAwipaxikam>
 <grammar><gaNa>तना*</gaNa><paxI>पर*</paxI>-<vform>घृणोति</vform>,<vform>घृण्ण</vform></grammar>
 <sense no="1">चमकना, जलना</sense>
 </lexhead>
 
 <lexhead no="85">
-<root>घृणा</root>
+<dentry>घृणा</dentry>
 <prAwipaxikam>घृणा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घृ+नक्+टाप्]</etymology>
@@ -1592,7 +1592,7 @@
 </lexhead>
 
 <lexhead no="86">
-<root>घृणालु</root>
+<dentry>घृणालु</dentry>
 <prAwipaxikam>घृणालु</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">घृणालु</prAwipaxikam>
@@ -1601,7 +1601,7 @@
 </lexhead>
 
 <lexhead no="87">
-<root>घृणिः</root>
+<dentry>घृणिः</dentry>
 <prAwipaxikam>घृणि</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घृ+नि, नि*]</etymology>
@@ -1613,7 +1613,7 @@
 <sense n="3">सूर्य</sense>
 <sense n="4">लहर, जल नपुं*</sense>
 <segmenthd>
-<root>घृणिनिधिः</root>
+<dentry>घृणिनिधिः</dentry>
 <prAwipaxikam>घृणिनिधि</prAwipaxikam>
 <seg>घृणिः-निधिः</seg>
 <grammar>पुं*</grammar>
@@ -1622,7 +1622,7 @@
 </lexhead>
 
 <lexhead no="88">
-<root>घृतम्</root>
+<dentry>घृतम्</dentry>
 <prAwipaxikam>घृत</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[घृ+क्त]</etymology>
@@ -1633,84 +1633,84 @@
 <sense n="2">मक्खन</sense>
 <sense n="3">जल</sense>
 <segmenthd>
-<root>घृतान्नः</root>
+<dentry>घृतान्नः</dentry>
 <prAwipaxikam>घृतान्न</prAwipaxikam>
 <seg>घृतम्-अन्नः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">दहकती हुई आग</sense>
 </segmenthd>
 <segmenthd>
-<root>घृतार्चिः</root>
+<dentry>घृतार्चिः</dentry>
 <prAwipaxikam>घृतार्चि</prAwipaxikam>
 <seg>घृतम्-अर्चिः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">दहकती हुई आग</sense>
 </segmenthd>
 <segmenthd>
-<root>घृताहुतिः</root>
+<dentry>घृताहुतिः</dentry>
 <prAwipaxikam>घृताहुति</prAwipaxikam>
 <seg>घृतम्-आहुतिः</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">घी की आहुति</sense>
 </segmenthd>
 <segmenthd>
-<root>घृताह्वः</root>
+<dentry>घृताह्वः</dentry>
 <prAwipaxikam>घृताह्व</prAwipaxikam>
 <seg>घृतम्-आह्वः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">सरल नामक वृक्षविशेष</sense>
 </segmenthd>
 <segmenthd>
-<root>घृतोदः</root>
+<dentry>घृतोदः</dentry>
 <prAwipaxikam>घृतोद</prAwipaxikam>
 <seg>घृतम्-उदः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">’घी का समुद्र’ सात समुद्रों में से एक</sense>
 </segmenthd>
 <segmenthd>
-<root>घृतौदनः</root>
+<dentry>घृतौदनः</dentry>
 <prAwipaxikam>घृतौदन</prAwipaxikam>
 <seg>घृतम्-ओदनः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">घी से युक्त उबले हुए चावल</sense>
 </segmenthd>
 <segmenthd>
-<root>घृतकुल्या</root>
+<dentry>घृतकुल्या</dentry>
 <prAwipaxikam>घृतकुल्या</prAwipaxikam>
 <seg>घृतम्-कुल्या</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">घी की नदी</sense>
 </segmenthd>
 <segmenthd>
-<root>घृतदीधितिः</root>
+<dentry>घृतदीधितिः</dentry>
 <prAwipaxikam>घृतदीधिति</prAwipaxikam>
 <seg>घृतम्-दीधितिः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">अग्नि</sense>
 </segmenthd>
 <segmenthd>
-<root>घृतधारा</root>
+<dentry>घृतधारा</dentry>
 <prAwipaxikam>घृतधारा</prAwipaxikam>
 <seg>घृतम्-धारा</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">घी की अविच्छिन्न धार</sense>
 </segmenthd>
 <segmenthd>
-<root>घृतपूरः</root>
+<dentry>घृतपूरः</dentry>
 <prAwipaxikam>घृतपूर</prAwipaxikam>
 <seg>घृतम्-पूरः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">एक प्रकार की मिठाई</sense>
 </segmenthd>
 <segmenthd>
-<root>घृतवरः</root>
+<dentry>घृतवरः</dentry>
 <prAwipaxikam>घृतवर</prAwipaxikam>
 <seg>घृतम्-वरः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">एक प्रकार की मिठाई</sense>
 </segmenthd>
 <segmenthd>
-<root>घृतलेखनी</root>
+<dentry>घृतलेखनी</dentry>
 <prAwipaxikam>घृतलेखनी</prAwipaxikam>
 <seg>घृतम्-लेखनी</seg>
 <grammar>स्त्री*</grammar>
@@ -1719,7 +1719,7 @@
 </lexhead>
 
 <lexhead no="89">
-<root>घृताची</root>
+<dentry>घृताची</dentry>
 <prAwipaxikam>घृताची</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घृत-अञ्चु+क्विप्+ङीष्]</etymology>
@@ -1729,7 +1729,7 @@
 <sense n="2">सरस्वती</sense>
 <sense n="3">एक अप्सरा</sense>
 <segmenthd>
-<root>घृताचीगर्भसंभवा</root>
+<dentry>घृताचीगर्भसंभवा</dentry>
 <prAwipaxikam>घृताचीगर्भसंभवा</prAwipaxikam>
 <seg>घृताची-गर्भसंभवा</seg>
 <grammar>स्त्री*</grammar>
@@ -1738,7 +1738,7 @@
 </lexhead>
 
 <lexhead no="90">
-<root>घृष्</root>
+<dentry>घृष्</dentry>
 <prAwipaxikam>घृष्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI>-<vform>घर्षति</vform>,<vform>घृष्ट</vform></grammar>
 <sense no="1">रगड़्ना, घिसना, अद्यापि तत्कनककुण्डलघृष्टमास्यम्-<citation>चौर* ११</citation><citation>पंच* १/१४४</citation></sense>
@@ -1746,14 +1746,14 @@
 <sense n="3">कुचलना, पीसना, चूरा करनाद्रौपद्या ननु मत्स्यराजभवने घृष्टं न किं चन्दनम्।<citation>पंच* ३/१७५</citation></sense>
 <sense n="4">होड़ करना, प्रतिद्वन्द्वी होना जैसा कि ’संघृष्’ में</sense>
 <segmenthd>
-<root>उद्घृष्</root>
+<dentry>उद्घृष्</dentry>
 <prAwipaxikam>उद्घृष्</prAwipaxikam>
 <seg>उद्-घृष्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI></grammar>
 <sense no="1">खुरचनाचूड़ामणिभिरुद्घृष्टपादपीठम् महीक्षिताम्-<citation>रघु* १७/२८</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>संघृष्</root>
+<dentry>संघृष्</dentry>
 <prAwipaxikam>संघृष्</prAwipaxikam>
 <seg>सम्-घृष्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI></grammar>
@@ -1763,7 +1763,7 @@
 </lexhead>
 
 <lexhead no="91">
-<root>घृष्टिः</root>
+<dentry>घृष्टिः</dentry>
 <prAwipaxikam>घृष्टि</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घृष्+क्तिच्]</etymology>
@@ -1775,7 +1775,7 @@
 </lexhead>
 
 <lexhead no="92">
-<root>घोटः</root>
+<dentry>घोटः</dentry>
 <prAwipaxikam>घोट</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घुट्+अच्]</etymology>
@@ -1783,7 +1783,7 @@
 </lexhead>
 
 <lexhead no="93">
-<root>घोटकः</root>
+<dentry>घोटकः</dentry>
 <prAwipaxikam>घोटक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घुट्+ण्वुल् ]</etymology>
@@ -1794,7 +1794,7 @@
 </lexhead>
 
 <lexhead no="94">
-<root>घोटारिः</root>
+<dentry>घोटारिः</dentry>
 <prAwipaxikam>घोटारि</prAwipaxikam>
 <seg>घोटः-अरिः</seg>
 <grammar>पुं*</grammar>
@@ -1802,7 +1802,7 @@
 </lexhead>
 
 <lexhead no="95">
-<root>घोटी</root>
+<dentry>घोटी</dentry>
 <prAwipaxikam>घोटी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घोट+ङीष्]</etymology>
@@ -1810,7 +1810,7 @@
 </lexhead>
 
 <lexhead no="96">
-<root>घोटिका</root>
+<dentry>घोटिका</dentry>
 <prAwipaxikam>घोटिका</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घुट्+ण्वुल्+टाप्, इत्वम्]</etymology>
@@ -1818,21 +1818,21 @@
 </lexhead>
 
 <lexhead no="97">
-<root>घोणसः</root>
+<dentry>घोणसः</dentry>
 <prAwipaxikam>घोणस</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">एक प्रकार का रेंगने वाला जन्तु, गोनसः, पृषो*</sense>
 </lexhead>
 
 <lexhead no="98">
-<root>घोनसः</root>
+<dentry>घोनसः</dentry>
 <prAwipaxikam>घोनस</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">एक प्रकार का रेंगने वाला जन्तु, गोनसः, पृषो*</sense>
 </lexhead>
 
 <lexhead no="99">
-<root>घोणा</root>
+<dentry>घोणा</dentry>
 <prAwipaxikam>घोणा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घुण्+अच्+टाप्]</etymology>
@@ -1846,7 +1846,7 @@
 </lexhead>
 
 <lexhead no="100">
-<root>घोणिन्</root>
+<dentry>घोणिन्</dentry>
 <prAwipaxikam>घोणिन्</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घोणा+इनि]</etymology>
@@ -1856,7 +1856,7 @@
 </lexhead>
 
 <lexhead no="101">
-<root>घोण्टा</root>
+<dentry>घोण्टा</dentry>
 <prAwipaxikam>घोण्टा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घुण्+ट+टाप्]</etymology>
@@ -1870,7 +1870,7 @@
 </lexhead>
 
 <lexhead no="102">
-<root>घोर</root>
+<dentry>घोर</dentry>
 <prAwipaxikam>घोर</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">घोर</prAwipaxikam>
@@ -1882,7 +1882,7 @@
 </lexhead>
 
 <lexhead no="103">
-<root>घोरः</root>
+<dentry>घोरः</dentry>
 <prAwipaxikam>घोर</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घुर्+अच्]</etymology>
@@ -1892,7 +1892,7 @@
 </lexhead>
 
 <lexhead no="104">
-<root>घोरा</root>
+<dentry>घोरा</dentry>
 <prAwipaxikam>घोरा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घुर्+अच्+टाप्]</etymology>
@@ -1900,7 +1900,7 @@
 </lexhead>
 
 <lexhead no="105">
-<root>घोरम्</root>
+<dentry>घोरम्</dentry>
 <prAwipaxikam>घोर</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[घुर्+अच्]</etymology>
@@ -1909,7 +1909,7 @@
 <sense no="1">संत्रास, भीषणता</sense>
 <sense n="2">विष</sense>
 <segmenthd>
-<root>घोराकृति</root>
+<dentry>घोराकृति</dentry>
 <prAwipaxikam>घोराकृति</prAwipaxikam>
 <seg>घोर-आकृति</seg>
 <grammar>वि*</grammar>
@@ -1917,7 +1917,7 @@
 <sense no="2">देखने में डरावना, भयंकर विकराल</sense>
 </segmenthd>
 <segmenthd>
-<root>घोरदर्शन</root>
+<dentry>घोरदर्शन</dentry>
 <prAwipaxikam>घोरदर्शन</prAwipaxikam>
 <seg>घोर-दर्शन</seg>
 <grammar>वि*</grammar>
@@ -1925,42 +1925,42 @@
 <sense no="1">देखने में डरावना, भयंकर विकराल</sense>
 </segmenthd>
 <segmenthd>
-<root>घोरघुष्यम्</root>
+<dentry>घोरघुष्यम्</dentry>
 <prAwipaxikam>घोरघुष्य</prAwipaxikam>
 <seg>घोर-घुष्यम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">कांसा</sense>
 </segmenthd>
 <segmenthd>
-<root>घोररासनः</root>
+<dentry>घोररासनः</dentry>
 <prAwipaxikam>घोररासन</prAwipaxikam>
 <seg>घोर-रासनः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">गीदड़</sense>
 </segmenthd>
 <segmenthd>
-<root>घोररासिन्</root>
+<dentry>घोररासिन्</dentry>
 <prAwipaxikam>घोररासिन्</prAwipaxikam>
 <seg>घोर-रासिन्</seg>
 <grammar>पुं*</grammar>
 <sense no="1">गीदड़</sense>
 </segmenthd>
 <segmenthd>
-<root>घोरवाशनः</root>
+<dentry>घोरवाशनः</dentry>
 <prAwipaxikam>घोरवाशन</prAwipaxikam>
 <seg>घोर-वाशनः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">गीदड़</sense>
 </segmenthd>
 <segmenthd>
-<root>घोरवाशिन्</root>
+<dentry>घोरवाशिन्</dentry>
 <prAwipaxikam>घोरवाशिन्</prAwipaxikam>
 <seg>घोर-वाशिन्</seg>
 <grammar>पुं*</grammar>
 <sense no="1">गीदड़</sense>
 </segmenthd>
 <segmenthd>
-<root>घोररूपः</root>
+<dentry>घोररूपः</dentry>
 <prAwipaxikam>घोररूप</prAwipaxikam>
 <seg>घोर-रूपः</seg>
 <grammar>पुं*</grammar>
@@ -1969,7 +1969,7 @@
 </lexhead>
 
 <lexhead no="106">
-<root>घोलः</root>
+<dentry>घोलः</dentry>
 <prAwipaxikam>घोल</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घुर्+घञ्, रस्य लः]</etymology>
@@ -1977,7 +1977,7 @@
 </lexhead>
 
 <lexhead no="107">
-<root>घोलम्</root>
+<dentry>घोलम्</dentry>
 <prAwipaxikam>घोल</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[घुर्+घञ्, रस्य लः]</etymology>
@@ -1985,7 +1985,7 @@
 </lexhead>
 
 <lexhead no="108">
-<root>घोषः</root>
+<dentry>घोषः</dentry>
 <prAwipaxikam>घोष</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घुष्+घञ्]</etymology>
@@ -2005,7 +2005,7 @@
 </lexhead>
 
 <lexhead no="109">
-<root>घोषम्</root>
+<dentry>घोषम्</dentry>
 <prAwipaxikam>घोष</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[घुष्+घञ्]</etymology>
@@ -2018,7 +2018,7 @@
 </lexhead>
 
 <lexhead no="110">
-<root>घोषणम्</root>
+<dentry>घोषणम्</dentry>
 <prAwipaxikam>घोषण</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[घुष्+ल्युट्]</etymology>
@@ -2026,7 +2026,7 @@
 </lexhead>
 
 <lexhead no="111">
-<root>घोषणा</root>
+<dentry>घोषणा</dentry>
 <prAwipaxikam>घोषणा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घुष्+ल्युट्]</etymology>
@@ -2035,7 +2035,7 @@
 </lexhead>
 
 <lexhead no="112">
-<root>घोषयित्नुः</root>
+<dentry>घोषयित्नुः</dentry>
 <prAwipaxikam>घोषयित्नु</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घुष्+णिच्,इत्नुच्]</etymology>
@@ -2045,7 +2045,7 @@
 </lexhead>
 
 <lexhead no="113">
-<root>घ्न</root>
+<dentry>घ्न</dentry>
 <prAwipaxikam>घ्न</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">घ्न</prAwipaxikam>
@@ -2054,7 +2054,7 @@
 </lexhead>
 
 <lexhead no="114">
-<root>घ्रा</root>
+<dentry>घ्रा</dentry>
 <prAwipaxikam>घ्रा</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>जिघ्रति</vform>,<vform>घ्रात</vform>, -<vform>घ्राण</vform></grammar>
 <sense no="1">सूँघना, पता लगाना, सूंघ का प्रत्यक्ष ज्ञान करना, स्पृशन्नपि गजो हन्ति जिघ्रन्नपि भुजङ्गमः।<citation>हि* ३/१४</citation><citation>भामि* १/९९</citation></sense>
@@ -2063,7 +2063,7 @@
 </lexhead>
 
 <lexhead no="115">
-<root>घ्राण</root>
+<dentry>घ्राण</dentry>
 <prAwipaxikam>घ्राण</prAwipaxikam>
 <grammar>भू* क* कृ*</grammar>
 <etymology>[घ्रा+क्त]</etymology>
@@ -2075,7 +2075,7 @@
 </lexhead>
 
 <lexhead no="116">
-<root>घ्राणम्</root>
+<dentry>घ्राणम्</dentry>
 <prAwipaxikam>घ्राण</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[घ्रा+क्त]</etymology>
@@ -2087,14 +2087,14 @@
 <sense n="2">गंध, बू</sense>
 <sense n="3">नाकबुद्धीन्द्रियाणि चक्षुःश्रोत्रघ्राणरसनात्वगाख्यानि-<citation>सां* का* २६</citation><citation>ऋतु* ६/२७</citation><citation>मनु* ५/१३५</citation></sense>
 <segmenthd>
-<root>घ्राणेन्द्रियम्</root>
+<dentry>घ्राणेन्द्रियम्</dentry>
 <prAwipaxikam>घ्राणेन्द्रिय</prAwipaxikam>
 <seg>घ्राण-इन्द्रियम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">सूंघने की इन्द्रिय, नाकनासाग्रवर्ति घ्राणम्-<citation>तर्क सं*</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>घ्राणचक्षुष्</root>
+<dentry>घ्राणचक्षुष्</dentry>
 <prAwipaxikam>घ्राणचक्षुष्</prAwipaxikam>
 <seg>घ्राण-चक्षुष्</seg>
 <grammar>वि*</grammar>
@@ -2102,7 +2102,7 @@
 <sense no="1">’जो आँखों का काम नाक से लेता है’- अर्थात् अंधा जो सूंघ कर अपने मार्ग का ज्ञान प्राप्त करता है</sense>
 </segmenthd>
 <segmenthd>
-<root>घ्राणतर्पण</root>
+<dentry>घ्राणतर्पण</dentry>
 <prAwipaxikam>घ्राणतर्पण</prAwipaxikam>
 <seg>घ्राण-तर्पण</seg>
 <grammar>वि*</grammar>
@@ -2115,7 +2115,7 @@
 </lexhead>
 
 <lexhead no="117">
-<root>घ्रातिः</root>
+<dentry>घ्रातिः</dentry>
 <prAwipaxikam>घ्राति</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[घ्रा+क्तिन]</etymology>

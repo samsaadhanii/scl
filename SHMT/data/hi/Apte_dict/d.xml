@@ -3,7 +3,7 @@
 <?xml-stylesheet href="apte.css" type="text/css" ?>
 <dict>
 <lexhead no="1">
-<root>डमः</root>
+<dentry>डमः</dentry>
 <prAwipaxikam>डम</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ड+मा+क]</etymology>
@@ -11,7 +11,7 @@
 </lexhead>
 
 <lexhead no="2">
-<root>डमरः</root>
+<dentry>डमरः</dentry>
 <prAwipaxikam>डमर</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology><vigraha_vAkya>मृ+अच्=मरम्, डेन त्रासेन मरं पलायनम्</vigraha_vAkya><compound_type>तृ*त*</compound_type></etymology>
@@ -21,7 +21,7 @@
 </lexhead>
 
 <lexhead no="3">
-<root>डमरम्</root>
+<dentry>डमरम्</dentry>
 <prAwipaxikam>डमर</prAwipaxikam>
 <grammar>पुं*</grammar>
 <jAwi>क्रिया</jAwi>
@@ -29,7 +29,7 @@
 </lexhead>
 
 <lexhead no="4">
-<root>डमरुः</root>
+<dentry>डमरुः</dentry>
 <prAwipaxikam>डमरु</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology><vigraha_vAkya>डमित्यव्यक्तशब्दम् ऋच्छति</vigraha_vAkya>[ डम्-ऋ+कु]</etymology>
@@ -38,14 +38,14 @@
 </lexhead>
 
 <lexhead no="5">
-<root>डम्ब्</root>
+<dentry>डम्ब्</dentry>
 <prAwipaxikam>डम्ब्</prAwipaxikam>
 <grammar><gaNa>चुरा*</gaNa><paxI>उभ*</paxI><vform>डम्बयति</vform>,<vform>डम्बयते</vform></grammar>
 <sense no="1">फेंकना, भेजना</sense>
 <sense n="2">आदेश देना</sense>
 <sense n="3">देखना</sense>
 <segmenthd>
-<root>विडम्ब्</root>
+<dentry>विडम्ब्</dentry>
 <prAwipaxikam>विडम्ब्</prAwipaxikam>
 <seg>वि-डम्ब्</seg>
 <grammar><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
@@ -57,7 +57,7 @@
 </lexhead>
 
 <lexhead no="6">
-<root>डम्बर</root>
+<dentry>डम्बर</dentry>
 <prAwipaxikam>डम्बर</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">डम्बर</prAwipaxikam>
@@ -66,7 +66,7 @@
 </lexhead>
 
 <lexhead no="7">
-<root>डम्बरः</root>
+<dentry>डम्बरः</dentry>
 <prAwipaxikam>डम्बर</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">समवाय, संग्रह, ढेर<citation>मा**९/१६</citation></sense>
@@ -74,14 +74,14 @@
 </lexhead>
 
 <lexhead no="8">
-<root>डम्भ्</root>
+<dentry>डम्भ्</dentry>
 <prAwipaxikam>डम्भ्</prAwipaxikam>
 <grammar><gaNa>चुरा*</gaNa><paxI>उभ*</paxI><vform>डम्भयति</vform>,<vform>डम्भयते</vform></grammar>
 <sense no="1">इकट्ठा करना</sense>
 </lexhead>
 
 <lexhead no="9">
-<root>डयनम्</root>
+<dentry>डयनम्</dentry>
 <prAwipaxikam>डयन</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[डी+ल्युट्]</etymology>
@@ -93,14 +93,14 @@
 </lexhead>
 
 <lexhead no="10">
-<root>डवित्थः</root>
+<dentry>डवित्थः</dentry>
 <prAwipaxikam>डवित्थ</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">काठ का बारहसिंहा</sense>
 </lexhead>
 
 <lexhead no="11">
-<root>डाकिनी</root>
+<dentry>डाकिनी</dentry>
 <prAwipaxikam>डाकिनी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology><vigraha_vAkya>डाय भयदानाम अकति व्रजति</vigraha_vAkya>[ड+अक्+इनि+ङीप्]</etymology>
@@ -108,7 +108,7 @@
 </lexhead>
 
 <lexhead no="12">
-<root>डाङ्कृतिः</root>
+<dentry>डाङ्कृतिः</dentry>
 <prAwipaxikam>डाङ्कृति</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[डाम्-कृ+क्तिन्]</etymology>
@@ -116,7 +116,7 @@
 </lexhead>
 
 <lexhead no="13">
-<root>डामर</root>
+<dentry>डामर</dentry>
 <prAwipaxikam>डामर</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">डामर</prAwipaxikam>
@@ -127,7 +127,7 @@
 </lexhead>
 
 <lexhead no="14">
-<root>डामरः</root>
+<dentry>डामरः</dentry>
 <prAwipaxikam>डामर</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">हो हल्ला, हंगामा, दंगा, फ़साद</sense>
@@ -135,7 +135,7 @@
 </lexhead>
 
 <lexhead no="15">
-<root>डालिमः</root>
+<dentry>डालिमः</dentry>
 <prAwipaxikam>डालिम</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[=दाडिमः, पृषो*]</etymology>
@@ -143,14 +143,14 @@
 </lexhead>
 
 <lexhead no="16">
-<root>डाहलः</root>
+<dentry>डाहलः</dentry>
 <prAwipaxikam>डाहल</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">एक देश तथा उसके अधिवासी, कीर्तिः समाश्लिष्यति डाहलोर्वीम्<citation>विक्रमांक*१/१०३</citation></sense>
 </lexhead>
 
 <lexhead no="17">
-<root>डिङ्गरः</root>
+<dentry>डिङ्गरः</dentry>
 <prAwipaxikam>डिङ्गर</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">सेवक</sense>
@@ -159,7 +159,7 @@
 </lexhead>
 
 <lexhead no="18">
-<root>डिण्डिमः</root>
+<dentry>डिण्डिमः</dentry>
 <prAwipaxikam>डिण्डिम</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology><vigraha_vAkya>डिंडीति शब्दं माति</vigraha_vAkya>[डिण्डि+मा+क]</etymology>
@@ -168,7 +168,7 @@
 </lexhead>
 
 <lexhead no="19">
-<root>डिण्डीरः</root>
+<dentry>डिण्डीरः</dentry>
 <prAwipaxikam>डिण्डीर</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[डिण्डि+र, दीर्घः]</etymology>
@@ -177,7 +177,7 @@
 </lexhead>
 
 <lexhead no="20">
-<root>डिण्डिरः</root>
+<dentry>डिण्डिरः</dentry>
 <prAwipaxikam>डिण्डिर</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[डिण्डि+र ]</etymology>
@@ -186,7 +186,7 @@
 </lexhead>
 
 <lexhead no="21">
-<root>डिमः</root>
+<dentry>डिमः</dentry>
 <prAwipaxikam>डिम</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[डिम्+क]</etymology>
@@ -194,7 +194,7 @@
 </lexhead>
 
 <lexhead no="22">
-<root>डिम्बः</root>
+<dentry>डिम्बः</dentry>
 <prAwipaxikam>डिम्ब</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[डिम्ब्+घञ्]</etymology>
@@ -205,14 +205,14 @@
 <sense n="4">अण्डा</sense>
 <sense n="5">गोला, गेंद, पिण्ड</sense>
 <segmenthd>
-<root>डिम्बावहः</root>
+<dentry>डिम्बावहः</dentry>
 <prAwipaxikam>डिम्बावह</prAwipaxikam>
 <seg>डिम्बः-आहवः</seg>
 <grammar>पुं*</grammar>
 <sense no="4">मामूली लड़ाई, झड़प, खटपट, मुठभेड़, झूठमूठ की लड़ाई M<citation>मनु*५/९५ बिना शस्त्र प्रयोग के</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>डिम्बयुद्धम्</root>
+<dentry>डिम्बयुद्धम्</dentry>
 <prAwipaxikam>डिम्बयुद्ध</prAwipaxikam>
 <seg>डिम्बः-युद्धम्</seg>
 <grammar>नपुं*</grammar>
@@ -221,7 +221,7 @@
 </lexhead>
 
 <lexhead no="23">
-<root>डिम्बिका</root>
+<dentry>डिम्बिका</dentry>
 <prAwipaxikam>डिम्बिका</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[डिम्+ण्वुल्+टाप्, इत्वम्]</etymology>
@@ -230,7 +230,7 @@
 </lexhead>
 
 <lexhead no="24">
-<root>डिम्भः</root>
+<dentry>डिम्भः</dentry>
 <prAwipaxikam>डिम्भ</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[डिम्+अच्]</etymology>
@@ -243,7 +243,7 @@
 </lexhead>
 
 <lexhead no="25">
-<root>डिम्भकः</root>
+<dentry>डिम्भकः</dentry>
 <prAwipaxikam>डिम्भक</prAwipaxikam>
 <grammar>पुं*</grammar>
 ?<etymology>[डिम्भ्+ण्वुल्, स्त्रिया टाप् इत्वं च]</etymology>
@@ -252,27 +252,27 @@
 </lexhead>
 
 <lexhead no="26">
-<root>डी</root>
+<dentry>डी</dentry>
 <prAwipaxikam>डी</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>दिवा*</gaNa><paxI>आ*</paxI><vform>डयते</vform>,<vform>डीयते</vform>,<vform>डीन</vform></grammar>
 <sense no="1">उड़ना, हवा में से गुज़रना</sense>
 <sense n="2">जाना</sense>
 <segmenthd>
-<root>उड्डी</root>
+<dentry>उड्डी</dentry>
 <prAwipaxikam>उड्डी</prAwipaxikam>
 <seg>उद्-डी</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>दिवा*</gaNa><paxI>आ*</paxI></grammar>
 <sense no="1">हवा में उड़ना, ऊपर उड़नासर्वैरुड्डीयताम्<citation>हि*१</citation>(हंसैः) उदडीयत वैकृतात्करग्रहजासस्य विकस्वरस्वरैः<citation>नै*२/५</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>प्रडी</root>
+<dentry>प्रडी</dentry>
 <prAwipaxikam>प्रडी</prAwipaxikam>
 <seg>प्र-डी</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>दिवा*</gaNa><paxI>आ*</paxI></grammar>
 <sense no="1">ऊपर उड़नाहंसैः प्रडीनैरिव<citation>मृच्छ*५/५</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>प्रोड्डी</root>
+<dentry>प्रोड्डी</dentry>
 <prAwipaxikam>प्रोड्डी</prAwipaxikam>
 <seg>प्रोद्-डी</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>दिवा*</gaNa><paxI>आ*</paxI></grammar>
@@ -281,7 +281,7 @@
 </lexhead>
 
 <lexhead no="27">
-<root>डीन</root>
+<dentry>डीन</dentry>
 <prAwipaxikam>डीन</prAwipaxikam>
 <grammar>भू* क* कृ*</grammar>
 <etymology>[डी+क्त]</etymology>
@@ -289,14 +289,14 @@
 </lexhead>
 
 <lexhead no="28">
-<root>डीनम्</root>
+<dentry>डीनम्</dentry>
 <prAwipaxikam>डीन</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <sense no="1">पक्षी की उड़ान</sense>
 </lexhead>
 
 <lexhead no="29">
-<root>डुण्डुभः</root>
+<dentry>डुण्डुभः</dentry>
 <prAwipaxikam>डुण्डुभ</prAwipaxikam>
 <grammar>पुं*</grammar>
 ?<etymology>[डुण्डु+भा+क]</etymology>
@@ -306,7 +306,7 @@
 </lexhead>
 
 <lexhead no="30">
-<root>डुलिः</root>
+<dentry>डुलिः</dentry>
 <prAwipaxikam>डुलि</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ =ढुलिः पृषो*]</etymology>
@@ -316,7 +316,7 @@
 </lexhead>
 
 <lexhead no="31">
-<root>डोमः</root>
+<dentry>डोमः</dentry>
 <prAwipaxikam>डोम</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="0">अत्यन्त नीच जाति का पुरुष</sense>

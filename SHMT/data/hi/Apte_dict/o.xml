@@ -3,7 +3,7 @@
 <?xml-stylesheet href="apte.css" type="text/css" ?>
 <dict>
 <lexhead no="1">
-<root>ओ</root>
+<dentry>ओ</dentry>
 <prAwipaxikam>ओ</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[उ+विच्]</etymology>
@@ -13,7 +13,7 @@
 </lexhead>
 
 <lexhead no="2">
-<root>ओकः</root>
+<dentry>ओकः</dentry>
 <prAwipaxikam>ओक</prAwipaxikam>
 <grammar>पुं*</grammar>
 ?<etymology>[उच्-क नि* चस्य कः]</etymology>
@@ -24,7 +24,7 @@
 </lexhead>
 
 <lexhead no="3">
-<root>ओकणः</root>
+<dentry>ओकणः</dentry>
 <prAwipaxikam>ओकण</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ओ+कण्+अच्/ओ+कण्+इन्]</etymology>
@@ -32,7 +32,7 @@
 </lexhead>
 
 <lexhead no="4">
-<root>ओकस्</root>
+<dentry>ओकस्</dentry>
 <prAwipaxikam>ओकस्</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उच्+असुन्]</etymology>
@@ -42,7 +42,7 @@
 </lexhead>
 
 <lexhead no="5">
-<root>ओख्</root>
+<dentry>ओख्</dentry>
 <prAwipaxikam>ओख्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI>-<vform>ओखति</vform>,<vform>ओखित</vform></grammar>
 <sense no="1">सूख जाना</sense>
@@ -53,7 +53,7 @@
 </lexhead>
 
 <lexhead no="6">
-<root>ओघः</root>
+<dentry>ओघः</dentry>
 <prAwipaxikam>ओघ</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[उच्+घञ्, पृषो*]</etymology>
@@ -72,14 +72,14 @@
 </lexhead>
 
 <lexhead no="7">
-<root>ओज्</root>
+<dentry>ओज्</dentry>
 <prAwipaxikam>ओज्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI><vform>ओजति</vform>,<vform>ओजयति</vform>,<vform>ओजते</vform>,<vform>ओजित</vform></grammar>
 <sense no="1">सक्षम या योग्य होना</sense>
 </lexhead>
 
 <lexhead no="8">
-<root>ओज</root>
+<dentry>ओज</dentry>
 <prAwipaxikam>ओज</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ओज</prAwipaxikam>
@@ -88,7 +88,7 @@
 </lexhead>
 
 <lexhead no="9">
-<root>ओजम्</root>
+<dentry>ओजम्</dentry>
 <prAwipaxikam>ओज</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ओज्+अच्]</etymology>
@@ -96,7 +96,7 @@
 </lexhead>
 
 <lexhead no="10">
-<root>ओजस्</root>
+<dentry>ओजस्</dentry>
 <prAwipaxikam>ओजस्</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उब्ज्+असुन्, बलोपः, गुणश्च]</etymology>
@@ -111,7 +111,7 @@
 </lexhead>
 
 <lexhead no="11">
-<root>ओजसीन्</root>
+<dentry>ओजसीन्</dentry>
 <prAwipaxikam>ओजसीन्</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ओजसीन्</prAwipaxikam>
@@ -120,7 +120,7 @@
 </lexhead>
 
 <lexhead no="12">
-<root>ओजस्य</root>
+<dentry>ओजस्य</dentry>
 <prAwipaxikam>ओजस्य</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ओजस्य</prAwipaxikam>
@@ -129,7 +129,7 @@
 </lexhead>
 
 <lexhead no="13">
-<root>ओजस्वत्</root>
+<dentry>ओजस्वत्</dentry>
 <prAwipaxikam>ओजस्वत्</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ओजस्वत्</prAwipaxikam>
@@ -138,7 +138,7 @@
 </lexhead>
 
 <lexhead no="14">
-<root>ओजस्विन्</root>
+<dentry>ओजस्विन्</dentry>
 <prAwipaxikam>ओजस्विन्</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ओजस्विन्</prAwipaxikam>
@@ -147,28 +147,28 @@
 </lexhead>
 
 <lexhead no="15">
-<root>ओड्रः</root>
+<dentry>ओड्रः</dentry>
 <prAwipaxikam>ओड्र</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">एक देश का तथा उसके निवासियों का नाम<citation>मनु* १०/४४</citation>आधुनिक उड़ीसा</sense>
 </lexhead>
 
 <lexhead no="16">
-<root>ओड्रम्</root>
+<dentry>ओड्रम्</dentry>
 <prAwipaxikam>ओड्र</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <sense no="1">जवाकुसुम</sense>
 </lexhead>
 
 <lexhead no="17">
-<root>ओत</root>
+<dentry>ओत</dentry>
 <prAwipaxikam>ओत</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ओत</prAwipaxikam>
 <etymology>[आ_वे+क्त]</etymology>
 <sense no="1">बुना हुआ, धागे से एक सिरे से दूसरे तक सिला हुआ</sense>
 <segmenthd>
-<root>ओतप्रोत</root>
+<dentry>ओतप्रोत</dentry>
 <prAwipaxikam>ओतप्रोत</prAwipaxikam>
 <seg>ओत-प्रोत</seg>
 <grammar>वि*</grammar>
@@ -179,7 +179,7 @@
 </lexhead>
 
 <lexhead no="18">
-<root>ओतुः</root>
+<dentry>ओतुः</dentry>
 <prAwipaxikam>ओतु</prAwipaxikam>
 <grammar>पुं*</grammar>
 ?<etymology>[अव-तुन्, ऊठ्, गुणः]</etymology>
@@ -189,7 +189,7 @@
 </lexhead>
 
 <lexhead no="19">
-<root>ओदनः</root>
+<dentry>ओदनः</dentry>
 <prAwipaxikam>ओदन</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[उन्द्+युच्]</etymology>
@@ -200,7 +200,7 @@
 </lexhead>
 
 <lexhead no="20">
-<root>ओम्</root>
+<dentry>ओम्</dentry>
 <prAwipaxikam>ओम्</prAwipaxikam>
 <grammar>अव्य*</grammar>
 ?<etymology>[अव्-मन्, ऊठ्, गुण]</etymology>
@@ -213,7 +213,7 @@
 <sense n="6">दूर करना या रोक लगाना की भावना को प्रकट करने वाला अव्यय</sense>
 <sense n="7">ब्रह्म</sense>
 <segmenthd>
-<root>ओङ्कारः</root>
+<dentry>ओङ्कारः</dentry>
 <prAwipaxikam>ओङ्कार</prAwipaxikam>
 <seg>ओम्-कारः</seg>
 <grammar>पुं*</grammar>
@@ -224,14 +224,14 @@
 </lexhead>
 
 <lexhead no="21">
-<root>ओरम्फः</root>
+<dentry>ओरम्फः</dentry>
 <prAwipaxikam>ओरम्फ</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">गहरी खरोंच<citation>मा* ७</citation></sense>
 </lexhead>
 
 <lexhead no="22">
-<root>ओल</root>
+<dentry>ओल</dentry>
 <prAwipaxikam>ओल</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ओल</prAwipaxikam>
@@ -240,14 +240,14 @@
 </lexhead>
 
 <lexhead no="23">
-<root>ओलण्ड्</root>
+<dentry>ओलण्ड्</dentry>
 <prAwipaxikam>ओलण्ड्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><gaNa>चुरा*</gaNa><paxI>उभ*</paxI><vform>ओलंडति</vform>,<vform>ओलंडयति</vform>,<vform>ओलंडित</vform></grammar>
 <sense no="1">ऊपर की ओर फेंकना, ऊपर उछालना</sense>
 </lexhead>
 
 <lexhead no="24">
-<root>ओल्ल</root>
+<dentry>ओल्ल</dentry>
 <prAwipaxikam>ओल्ल</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ओल्ल</prAwipaxikam>
@@ -256,13 +256,13 @@
 </lexhead>
 
 <lexhead no="25">
-<root>ओल्लः</root>
+<dentry>ओल्लः</dentry>
 <prAwipaxikam>ओल्ल</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ओल - पृषो*]</etymology>
 <sense no="1">प्रतिभू</sense>
 <segmenthd>
-<root>ओल्लागतः</root>
+<dentry>ओल्लागतः</dentry>
 <prAwipaxikam>ओल्लागत</prAwipaxikam>
 <seg>ओल्ल-आगतः</seg>
 <grammar>पुं*</grammar>
@@ -271,7 +271,7 @@
 </lexhead>
 
 <lexhead no="26">
-<root>ओषः</root>
+<dentry>ओषः</dentry>
 <prAwipaxikam>ओष</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[उष्+घञ्]</etymology>
@@ -280,7 +280,7 @@
 </lexhead>
 
 <lexhead no="27">
-<root>ओषणः</root>
+<dentry>ओषणः</dentry>
 <prAwipaxikam>ओषण</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[उष्+ल्युट्]</etymology>
@@ -288,7 +288,7 @@
 </lexhead>
 
 <lexhead no="28">
-<root>ओषधिः</root>
+<dentry>ओषधिः</dentry>
 <prAwipaxikam>ओषधि</prAwipaxikam>
 <grammar>पुं*</grammar>
 ?<etymology>[ओष-धा-कि, स्त्रियां ड़ीष् ]</etymology>
@@ -299,7 +299,7 @@
 </lexhead>
 
 <lexhead no="29">
-<root>ओषधी</root>
+<dentry>ओषधी</dentry>
 <prAwipaxikam>ओषधी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 ?<etymology>[ओष-धा-कि+ड़ीष् ]</etymology>
@@ -308,7 +308,7 @@
 <sense n="2">औषधि का पौधा, ओषधि</sense>
 <sense n="3">फसली पौधा या जड़ीबूटी जो कि पक कर सूख जाती है</sense>
 <segmenthd>
-<root>ओषधीशः</root>
+<dentry>ओषधीशः</dentry>
 <prAwipaxikam>ओषधीश</prAwipaxikam>
 <seg>ओषधिः-ईशः</seg>
 <grammar>पुं*</grammar>
@@ -317,21 +317,21 @@
 <sense no="3">चन्द्रमावनस्पतियों का अधिदेवता तथा पोषक</sense>
 </segmenthd>
 <segmenthd>
-<root>ओषधिगर्भः</root>
+<dentry>ओषधिगर्भः</dentry>
 <prAwipaxikam>ओषधिगर्भ</prAwipaxikam>
 <seg>ओषधिः-गर्भः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">चन्द्रमा</sense>
 </segmenthd>
 <segmenthd>
-<root>ओषधिनाथः</root>
+<dentry>ओषधिनाथः</dentry>
 <prAwipaxikam>ओषधिनाथ</prAwipaxikam>
 <seg>ओषधिः-नाथः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">चन्द्रमा</sense>
 </segmenthd>
 <segmenthd>
-<root>ओषधिज</root>
+<dentry>ओषधिज</dentry>
 <prAwipaxikam>ओषधिज</prAwipaxikam>
 <seg>ओषधिः-ज</seg>
 <grammar>वि*</grammar>
@@ -339,7 +339,7 @@
 <sense no="1">वनस्पति से उत्पन्न</sense>
 </segmenthd>
 <segmenthd>
-<root>ओषधिधरः</root>
+<dentry>ओषधिधरः</dentry>
 <prAwipaxikam>ओषधिधर</prAwipaxikam>
 <seg>ओषधिः-धरः</seg>
 <grammar>पुं*</grammar>
@@ -348,7 +348,7 @@
 <sense no="3">चन्द्रमा</sense>
 </segmenthd>
 <segmenthd>
-<root>ओषधिपतिः</root>
+<dentry>ओषधिपतिः</dentry>
 <prAwipaxikam>ओषधिपति</prAwipaxikam>
 <seg>ओषधिः-पतिः</seg>
 <grammar>पुं*</grammar>
@@ -357,7 +357,7 @@
 <sense no="3">चन्द्रमा</sense>
 </segmenthd>
 <segmenthd>
-<root>ओषधिप्रस्थः</root>
+<dentry>ओषधिप्रस्थः</dentry>
 <prAwipaxikam>ओषधिप्रस्थ</prAwipaxikam>
 <seg>ओषधिः-प्रस्थः</seg>
 <grammar>पुं*</grammar>
@@ -366,7 +366,7 @@
 </lexhead>
 
 <lexhead no="30">
-<root>ओष्ठः</root>
+<dentry>ओष्ठः</dentry>
 <prAwipaxikam>ओष्ठ</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[उष्+थन्]</etymology>
@@ -375,14 +375,14 @@
 <upAXi>अवयवः</upAXi>
 <sense no="1">होठ, ऊपर का या नीचे का</sense>
 <segmenthd>
-<root>ओष्ठाधरौ</root>
+<dentry>ओष्ठाधरौ</dentry>
 <prAwipaxikam>ओष्ठाधरौ</prAwipaxikam>
 <seg>ओष्ठ-अधरौ</seg>
 <grammar>पुं*</grammar>
 <sense no="1">ऊपर और नीचे का होठ</sense>
 </segmenthd>
 <segmenthd>
-<root>ओष्ठाधरम्</root>
+<dentry>ओष्ठाधरम्</dentry>
 <prAwipaxikam>ओष्ठाधर</prAwipaxikam>
 <seg>ओष्ठ-अधरम्</seg>
 <grammar>वि*</grammar>
@@ -390,7 +390,7 @@
 <sense no="1">ऊपर और नीचे का होठ</sense>
 </segmenthd>
 <segmenthd>
-<root>ओष्ठज</root>
+<dentry>ओष्ठज</dentry>
 <prAwipaxikam>ओष्ठज</prAwipaxikam>
 <seg>ओष्ठ-ज</seg>
 <grammar>वि*</grammar>
@@ -398,28 +398,28 @@
 <sense no="1">ओष्ठस्थानीय</sense>
 </segmenthd>
 <segmenthd>
-<root>ओष्ठजाहः</root>
+<dentry>ओष्ठजाहः</dentry>
 <prAwipaxikam>ओष्ठजाह</prAwipaxikam>
 <seg>ओष्ठ-जाहः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">होठ की जड़</sense>
 </segmenthd>
 <segmenthd>
-<root>ओष्ठपल्लवः</root>
+<dentry>ओष्ठपल्लवः</dentry>
 <prAwipaxikam>ओष्ठपल्लव</prAwipaxikam>
 <seg>ओष्ठ-पल्लवः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">किसलय जैसा, कोमल ओष्ठ</sense>
 </segmenthd>
 <segmenthd>
-<root>ओष्ठपल्लवम्</root>
+<dentry>ओष्ठपल्लवम्</dentry>
 <prAwipaxikam>ओष्ठपल्लव</prAwipaxikam>
 <seg>ओष्ठ-पल्लवम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">किसलय जैसा, कोमल ओष्ठ</sense>
 </segmenthd>
 <segmenthd>
-<root>ओष्ठपुटम्</root>
+<dentry>ओष्ठपुटम्</dentry>
 <prAwipaxikam>ओष्ठपुट</prAwipaxikam>
 <seg>ओष्ठ-पुटम्</seg>
 <grammar>नपुं*</grammar>
@@ -428,7 +428,7 @@
 </lexhead>
 
 <lexhead no="31">
-<root>ओष्ठ्य</root>
+<dentry>ओष्ठ्य</dentry>
 <prAwipaxikam>ओष्ठ्य</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ओष्ठ्य</prAwipaxikam>
@@ -438,7 +438,7 @@
 </lexhead>
 
 <lexhead no="32">
-<root>ओष्ण</root>
+<dentry>ओष्ण</dentry>
 <prAwipaxikam>ओष्ण</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ओष्ण</prAwipaxikam>

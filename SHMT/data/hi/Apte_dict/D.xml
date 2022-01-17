@@ -3,7 +3,7 @@
 <?xml-stylesheet href="apte.css" type="text/css" ?>
 <dict>
 <lexhead no="1">
-<root>ढक्का</root>
+<dentry>ढक्का</dentry>
 <prAwipaxikam>ढक्का</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology><vigraha_vAkya>ढक् इति शब्देन कायति</vigraha_vAkya>[ढक्+कै+क+टाप्]</etymology>
@@ -13,21 +13,21 @@
 </lexhead>
 
 <lexhead no="2">
-<root>ढामरा</root>
+<dentry>ढामरा</dentry>
 <prAwipaxikam>ढामरा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <sense no="1">हंसनी</sense>
 </lexhead>
 
 <lexhead no="3">
-<root>ढालम्</root>
+<dentry>ढालम्</dentry>
 <prAwipaxikam>ढाल</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <sense no="1">म्यान्</sense>
 </lexhead>
 
 <lexhead no="4">
-<root>ढालिन्</root>
+<dentry>ढालिन्</dentry>
 <prAwipaxikam>ढालिन्</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ढाल+इनि]</etymology>
@@ -35,7 +35,7 @@
 </lexhead>
 
 <lexhead no="5">
-<root>ढुण्ढिः</root>
+<dentry>ढुण्ढिः</dentry>
 <prAwipaxikam>ढुण्ढि</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ढुण्ढ्+इन्]</etymology>
@@ -43,14 +43,14 @@
 </lexhead>
 
 <lexhead no="6">
-<root>ढौलः</root>
+<dentry>ढौलः</dentry>
 <prAwipaxikam>ढौल</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">बड़ा ढोल, मृदङ्ग, ढपली</sense>
 </lexhead>
 
 <lexhead no="7">
-<root>ढौक्</root>
+<dentry>ढौक्</dentry>
 <prAwipaxikam>ढौक्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI><vform>ढौकते</vform>,<vform>ढौकित</vform></grammar>
 <sense no="1">जाना, पहुँचाना, यान्तं वने रात्रिचरी डुढौके<citation>भट्टि*२/२३</citation>१४/७१, १५/७९</sense>
@@ -59,7 +59,7 @@
 </lexhead>
 
 <lexhead no="8">
-<root>ढौकनम्</root>
+<dentry>ढौकनम्</dentry>
 <prAwipaxikam>ढौकन</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ढौक्+ल्युट्]</etymology>

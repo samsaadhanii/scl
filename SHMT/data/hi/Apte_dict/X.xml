@@ -3,7 +3,7 @@
 <?xml-stylesheet href="apte.css" type="text/css" ?>
 <dict>
 <lexhead no="756">
-<root>ध</root>
+<dentry>ध</dentry>
 <prAwipaxikam>ध</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ध</prAwipaxikam>
@@ -12,7 +12,7 @@
 </lexhead>
 
 <lexhead no="757">
-<root>धः</root>
+<dentry>धः</dentry>
 <prAwipaxikam>ध</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">ब्रह्मा का विशेषण</sense>
@@ -21,28 +21,28 @@
 </lexhead>
 
 <lexhead no="758">
-<root>धम्</root>
+<dentry>धम्</dentry>
 <prAwipaxikam>ध</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <sense no="1">धन दौलत, संपत्ति</sense>
 </lexhead>
 
 <lexhead no="759">
-<root>धक्</root>
+<dentry>धक्</dentry>
 <prAwipaxikam>धक्</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <sense no="1">क्रोधोद्गार<citation>उत्तर* ४/२४</citation></sense>
 </lexhead>
 
 <lexhead no="760">
-<root>धक्क्</root>
+<dentry>धक्क्</dentry>
 <prAwipaxikam>धक्क्</prAwipaxikam>
 <grammar><gaNa>चुरा*</gaNa><paxI>उभ*</paxI>-<vform>धक्कयति</vform>,<vform>धक्कयते</vform></grammar>
 <sense no="1">ध्वस्त करना, नष्ट करना</sense>
 </lexhead>
 
 <lexhead no="761">
-<root>धटः</root>
+<dentry>धटः</dentry>
 <prAwipaxikam>धट</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ध+ अट्+ अच्, शक* पररुपम्]</etymology>
@@ -52,7 +52,7 @@
 </lexhead>
 
 <lexhead no="762">
-<root>धटकः</root>
+<dentry>धटकः</dentry>
 <prAwipaxikam>धटक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धट+ कै+ क]</etymology>
@@ -60,7 +60,7 @@
 </lexhead>
 
 <lexhead no="763">
-<root>धटिका</root>
+<dentry>धटिका</dentry>
 <prAwipaxikam>धटिका</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धटी+ कन्+ टाप्, ह्रस्वः]</etymology>
@@ -69,7 +69,7 @@
 </lexhead>
 
 <lexhead no="764">
-<root>धटी</root>
+<dentry>धटी</dentry>
 <prAwipaxikam>धटी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धन्+ अच्+ ङीष्, नि* नस्य टः]</etymology>
@@ -78,7 +78,7 @@
 </lexhead>
 
 <lexhead no="765">
-<root>धटिन्</root>
+<dentry>धटिन्</dentry>
 <prAwipaxikam>धटिन्</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धट+ इनि]</etymology>
@@ -87,21 +87,21 @@
 </lexhead>
 
 <lexhead no="766">
-<root>धटिनी</root>
+<dentry>धटिनी</dentry>
 <prAwipaxikam>धटिनी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <sense no="1">घटी</sense>
 </lexhead>
 
 <lexhead no="767">
-<root>धण्</root>
+<dentry>धण्</dentry>
 <prAwipaxikam>धण्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI>-<vform>धणति</vform></grammar>
 <sense no="1">शब्द करना</sense>
 </lexhead>
 
 <lexhead no="768">
-<root>धत्तूरः</root>
+<dentry>धत्तूरः</dentry>
 <prAwipaxikam>धत्तूर</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धयति धातून् धे+ उरच् पृषो*]</etymology>
@@ -111,7 +111,7 @@
 </lexhead>
 
 <lexhead no="769">
-<root>धत्तूरकः</root>
+<dentry>धत्तूरकः</dentry>
 <prAwipaxikam>धत्तूरक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धत्तूर+ कन्]</etymology>
@@ -119,7 +119,7 @@
 </lexhead>
 
 <lexhead no="770">
-<root>धत्तूरका</root>
+<dentry>धत्तूरका</dentry>
 <prAwipaxikam>धत्तूरका</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धत्तूर+ कन्, स्त्रियां टाप् च]</etymology>
@@ -127,14 +127,14 @@
 </lexhead>
 
 <lexhead no="771">
-<root>धन्</root>
+<dentry>धन्</dentry>
 <prAwipaxikam>धन्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI>-<vform>धनति</vform></grammar>
 <sense no="1">शब्द करना</sense>
 </lexhead>
 
 <lexhead no="772">
-<root>धनम्</root>
+<dentry>धनम्</dentry>
 <prAwipaxikam>धन</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धन्+ अच्]</etymology>
@@ -150,14 +150,14 @@
 <sense n="9">फालतू अवशिष्ट</sense>
 <sense n="10">जोड़ की राशि गणि* में  विप* ऋण</sense>
 <segmenthd>
-<root>धनाधिकारः</root>
+<dentry>धनाधिकारः</dentry>
 <prAwipaxikam>धनाधिकार</prAwipaxikam>
 <seg>धनम्-अधिकारः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">संपत्ति में अधिकार, उत्तराधिकार में संपत्ति पाने का हक़</sense>
 </segmenthd>
 <segmenthd>
-<root>धनाधिकारिन्</root>
+<dentry>धनाधिकारिन्</dentry>
 <prAwipaxikam>धनाधिकारिन्</prAwipaxikam>
 <seg>धनम्-अधिकारिन्</seg>
 <grammar>पुं*</grammar>
@@ -165,7 +165,7 @@
 <sense no="2">उत्तराधिकारी</sense>
 </segmenthd>
 <segmenthd>
-<root>धनाधिकृतः</root>
+<dentry>धनाधिकृतः</dentry>
 <prAwipaxikam>धनाधिकृत</prAwipaxikam>
 <seg>धनम्-अधिकृतः</seg>
 <grammar>पुं*</grammar>
@@ -173,7 +173,7 @@
 <sense no="2">उत्तराधिकारी</sense>
 </segmenthd>
 <segmenthd>
-<root>धनाधिगोप्तृ</root>
+<dentry>धनाधिगोप्तृ</dentry>
 <prAwipaxikam>धनाधिगोप्तृ</prAwipaxikam>
 <seg>धनम्-अधिगोप्तृ</seg>
 <grammar>पुं*</grammar>
@@ -181,7 +181,7 @@
 <sense no="2">कोषाध्यक्ष</sense>
 </segmenthd>
 <segmenthd>
-<root>धनाधिपः</root>
+<dentry>धनाधिपः</dentry>
 <prAwipaxikam>धनाधिप</prAwipaxikam>
 <seg>धनम्-अधिपः</seg>
 <grammar>पुं*</grammar>
@@ -191,7 +191,7 @@
 <sense no="2">कोषाध्यक्ष</sense>
 </segmenthd>
 <segmenthd>
-<root>धनाधिपतिः</root>
+<dentry>धनाधिपतिः</dentry>
 <prAwipaxikam>धनाधिपति</prAwipaxikam>
 <seg>धनम्-अधिपतिः</seg>
 <grammar>पुं*</grammar>
@@ -199,7 +199,7 @@
 <sense no="2">कोषाध्यक्ष</sense>
 </segmenthd>
 <segmenthd>
-<root>धनाध्यक्षः</root>
+<dentry>धनाध्यक्षः</dentry>
 <prAwipaxikam>धनाध्यक्ष</prAwipaxikam>
 <seg>धनम्-अध्यक्षः</seg>
 <grammar>पुं*</grammar>
@@ -207,7 +207,7 @@
 <sense no="2">कोषाध्यक्ष</sense>
 </segmenthd>
 <segmenthd>
-<root>धनापहारः</root>
+<dentry>धनापहारः</dentry>
 <prAwipaxikam>धनापहार</prAwipaxikam>
 <seg>धनम्-अपहारः</seg>
 <grammar>पुं*</grammar>
@@ -215,7 +215,7 @@
 <sense no="2">लूट खसोट का माल</sense>
 </segmenthd>
 <segmenthd>
-<root>धनार्चित</root>
+<dentry>धनार्चित</dentry>
 <prAwipaxikam>धनार्चित</prAwipaxikam>
 <seg>धनम्-अर्चित</seg>
 <grammar>वि*</grammar>
@@ -224,7 +224,7 @@
 <sense no="2">मालदार, धनाढ्य</sense>
 </segmenthd>
 <segmenthd>
-<root>धनार्थिन्</root>
+<dentry>धनार्थिन्</dentry>
 <prAwipaxikam>धनार्थिन्</prAwipaxikam>
 <seg>धनम्-अर्थिन्</seg>
 <grammar>वि*</grammar>
@@ -232,7 +232,7 @@
 <sense no="1">धनेच्छुक, लालची, कंजूस</sense>
 </segmenthd>
 <segmenthd>
-<root>धनाढ्य</root>
+<dentry>धनाढ्य</dentry>
 <prAwipaxikam>धनाढ्य</prAwipaxikam>
 <seg>धनम्-आढ्य</seg>
 <grammar>वि*</grammar>
@@ -240,14 +240,14 @@
 <sense no="1">मालदार, धनी, दौलतमंद</sense>
 </segmenthd>
 <segmenthd>
-<root>धनाधारः</root>
+<dentry>धनाधारः</dentry>
 <prAwipaxikam>धनाधार</prAwipaxikam>
 <seg>धनम्-आधारः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">खजाना</sense>
 </segmenthd>
 <segmenthd>
-<root>धनेशः</root>
+<dentry>धनेशः</dentry>
 <prAwipaxikam>धनेश</prAwipaxikam>
 <seg>धनम्-ईशः</seg>
 <grammar>पुं*</grammar>
@@ -255,7 +255,7 @@
 <sense no="2">कुबेर का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धनेश्वरः</root>
+<dentry>धनेश्वरः</dentry>
 <prAwipaxikam>धनेश्वर</prAwipaxikam>
 <seg>धनम्-ईश्वरः</seg>
 <grammar>पुं*</grammar>
@@ -263,35 +263,35 @@
 <sense no="2">कुबेर का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धनोष्मन्</root>
+<dentry>धनोष्मन्</dentry>
 <prAwipaxikam>धनोष्मन्</prAwipaxikam>
 <seg>धनम्-उष्मन्</seg>
 <grammar>पुं*</grammar>
 <sense no="1">धन की गर्मीतु* अर्थोष्मन्</sense>
 </segmenthd>
 <segmenthd>
-<root>धनैषिन्</root>
+<dentry>धनैषिन्</dentry>
 <prAwipaxikam>धनैषिन्</prAwipaxikam>
 <seg>धनम्-एषिन्</seg>
 <grammar>पुं*</grammar>
 <sense no="1">साहूकार जो अपना रुपया माँगे</sense>
 </segmenthd>
 <segmenthd>
-<root>धनकेलिः</root>
+<dentry>धनकेलिः</dentry>
 <prAwipaxikam>धनकेलि</prAwipaxikam>
 <seg>धनम्-केलिः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">कुबेर का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धनक्षयः</root>
+<dentry>धनक्षयः</dentry>
 <prAwipaxikam>धनक्षय</prAwipaxikam>
 <seg>धनम्-क्षयः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">धन की हानिधनक्षये वर्धति जाठराग्निः।<citation>पंच* २/१७८</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धनगर्व</root>
+<dentry>धनगर्व</dentry>
 <prAwipaxikam>धनगर्व</prAwipaxikam>
 <seg>धनम्-गर्व</seg>
 <grammar>वि*</grammar>
@@ -299,7 +299,7 @@
 <sense no="1">रुपये का घमंडी</sense>
 </segmenthd>
 <segmenthd>
-<root>धनगर्वित</root>
+<dentry>धनगर्वित</dentry>
 <prAwipaxikam>धनगर्वित</prAwipaxikam>
 <seg>धनम्-गर्वित</seg>
 <grammar>वि*</grammar>
@@ -307,14 +307,14 @@
 <sense no="1">रुपये का घमंडी</sense>
 </segmenthd>
 <segmenthd>
-<root>धनजातम्</root>
+<dentry>धनजातम्</dentry>
 <prAwipaxikam>धनजात</prAwipaxikam>
 <seg>धनम्-जातम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">सब प्रकार की मूल्यवान् संपत्ति, समस्त द्रव्य</sense>
 </segmenthd>
 <segmenthd>
-<root>धनदः</root>
+<dentry>धनदः</dentry>
 <prAwipaxikam>धनद</prAwipaxikam>
 <seg>धनम्-दः</seg>
 <grammar>पुं*</grammar>
@@ -325,35 +325,35 @@
 <sense no="3">अग्नि का नाम</sense>
 </segmenthd>
 <segmenthd>
-<root>धनानुजः</root>
+<dentry>धनानुजः</dentry>
 <prAwipaxikam>धनानुज</prAwipaxikam>
 <seg>धनम्-अनुजः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">रावण का विशेषण<citation>रघु* १२/५२</citation>८८</sense>
 </segmenthd>
 <segmenthd>
-<root>धनदण्डः</root>
+<dentry>धनदण्डः</dentry>
 <prAwipaxikam>धनदण्ड</prAwipaxikam>
 <seg>धनम्-दण्डः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">अर्थदंड, जुर्माना</sense>
 </segmenthd>
 <segmenthd>
-<root>धनदायिन्</root>
+<dentry>धनदायिन्</dentry>
 <prAwipaxikam>धनदायिन्</prAwipaxikam>
 <seg>धनम्-दायिन्</seg>
 <grammar>पुं*</grammar>
 <sense no="1">आग</sense>
 </segmenthd>
 <segmenthd>
-<root>धनपतिः</root>
+<dentry>धनपतिः</dentry>
 <prAwipaxikam>धनपति</prAwipaxikam>
 <seg>धनम्-पतिः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">कुबेर का विशेषणतत्रागारं धनपतिगृहानुत्तरेणास्मदीयम्-<citation>मेघ* ७५</citation>७</sense>
 </segmenthd>
 <segmenthd>
-<root>धनपालः</root>
+<dentry>धनपालः</dentry>
 <prAwipaxikam>धनपाल</prAwipaxikam>
 <seg>धनम्-पालः</seg>
 <grammar>पुं*</grammar>
@@ -361,28 +361,28 @@
 <sense no="2">कुबेर का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धनपिशाचिका</root>
+<dentry>धनपिशाचिका</dentry>
 <prAwipaxikam>धनपिशाचिका</prAwipaxikam>
 <seg>धनम्-पिशाचिका</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">धन का राक्षस, धन की तृष्णा, लालच, लोलुपता</sense>
 </segmenthd>
 <segmenthd>
-<root>धनपिशाची</root>
+<dentry>धनपिशाची</dentry>
 <prAwipaxikam>धनपिशाची</prAwipaxikam>
 <seg>धनम्-पिशाची</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">धन का राक्षस, धन की तृष्णा, लालच, लोलुपता</sense>
 </segmenthd>
 <segmenthd>
-<root>धनप्रयोगः</root>
+<dentry>धनप्रयोगः</dentry>
 <prAwipaxikam>धनप्रयोग</prAwipaxikam>
 <seg>धनम्-प्रयोगः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">सूदखोरी</sense>
 </segmenthd>
 <segmenthd>
-<root>धनमद</root>
+<dentry>धनमद</dentry>
 <prAwipaxikam>धनमद</prAwipaxikam>
 <seg>धनम्-मद</seg>
 <grammar>वि*</grammar>
@@ -390,21 +390,21 @@
 <sense no="1">धन का घमंडी</sense>
 </segmenthd>
 <segmenthd>
-<root>धनमूलम्</root>
+<dentry>धनमूलम्</dentry>
 <prAwipaxikam>धनमूल</prAwipaxikam>
 <seg>धनम्-मूलम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">मूलधन, पूँजी</sense>
 </segmenthd>
 <segmenthd>
-<root>धनलोभः</root>
+<dentry>धनलोभः</dentry>
 <prAwipaxikam>धनलोभ</prAwipaxikam>
 <seg>धनम्-लोभः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">तृष्णा, लिप्सा</sense>
 </segmenthd>
 <segmenthd>
-<root>धनव्ययः</root>
+<dentry>धनव्ययः</dentry>
 <prAwipaxikam>धनव्यय</prAwipaxikam>
 <seg>धनम्-व्ययः</seg>
 <grammar>पुं*</grammar>
@@ -412,14 +412,14 @@
 <sense no="2">अपव्यय</sense>
 </segmenthd>
 <segmenthd>
-<root>धनस्थानम्</root>
+<dentry>धनस्थानम्</dentry>
 <prAwipaxikam>धनस्थान</prAwipaxikam>
 <seg>धनम्-स्थानम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">खजाना</sense>
 </segmenthd>
 <segmenthd>
-<root>धनहरः</root>
+<dentry>धनहरः</dentry>
 <prAwipaxikam>धनहर</prAwipaxikam>
 <seg>धनम्-हरः</seg>
 <grammar>पुं*</grammar>
@@ -430,7 +430,7 @@
 </lexhead>
 
 <lexhead no="773">
-<root>धनकः</root>
+<dentry>धनकः</dentry>
 <prAwipaxikam>धनक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धनस्य कामः- धन+ कन्]</etymology>
@@ -438,14 +438,14 @@
 </lexhead>
 
 <lexhead no="774">
-<root>धनाया</root>
+<dentry>धनाया</dentry>
 <prAwipaxikam>धनाया</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <sense no="1">तृष्णा, लालच, लालसा</sense>
 </lexhead>
 
 <lexhead no="775">
-<root>धनञ्जयः</root>
+<dentry>धनञ्जयः</dentry>
 <prAwipaxikam>धनञ्जय</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धन+ जि+ खच्, मुम्]</etymology>
@@ -454,7 +454,7 @@
 </lexhead>
 
 <lexhead no="776">
-<root>धनवत्</root>
+<dentry>धनवत्</dentry>
 <prAwipaxikam>धनवत्</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धनवत्</prAwipaxikam>
@@ -463,7 +463,7 @@
 </lexhead>
 
 <lexhead no="777">
-<root>धनिकः</root>
+<dentry>धनिकः</dentry>
 <prAwipaxikam>धनिक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धनमादेयत्वेनास्ति अस्य- ठन्]</etymology>
@@ -475,7 +475,7 @@
 </lexhead>
 
 <lexhead no="778">
-<root>धनिन्</root>
+<dentry>धनिन्</dentry>
 <prAwipaxikam>धनिन्</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धनिन्</prAwipaxikam>
@@ -488,7 +488,7 @@
 </lexhead>
 
 <lexhead no="779">
-<root>धनिष्ठ</root>
+<dentry>धनिष्ठ</dentry>
 <prAwipaxikam>धनिष्ठ</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धनिष्ठ</prAwipaxikam>
@@ -497,7 +497,7 @@
 </lexhead>
 
 <lexhead no="780">
-<root>धनिष्ठा</root>
+<dentry>धनिष्ठा</dentry>
 <prAwipaxikam>धनिष्ठा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <kind_of>नक्षत्रम्</kind_of>
@@ -507,7 +507,7 @@
 </lexhead>
 
 <lexhead no="781">
-<root>धनी</root>
+<dentry>धनी</dentry>
 <prAwipaxikam>धनी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धनमस्ति अस्याः- धन्+ अच्+ङीष्]</etymology>
@@ -515,7 +515,7 @@
 </lexhead>
 
 <lexhead no="782">
-<root>धनीका</root>
+<dentry>धनीका</dentry>
 <prAwipaxikam>धनीका</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धनमस्ति अस्याः- धन्+ अच्+ङीष्]</etymology>
@@ -523,7 +523,7 @@
 </lexhead>
 
 <lexhead no="783">
-<root>धनुः</root>
+<dentry>धनुः</dentry>
 <prAwipaxikam>धनु</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धन्- उ]</etymology>
@@ -531,7 +531,7 @@
 </lexhead>
 
 <lexhead no="784">
-<root>धनुस्</root>
+<dentry>धनुस्</dentry>
 <prAwipaxikam>धनुस्</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धनुस्</prAwipaxikam>
@@ -544,63 +544,63 @@
 <sense n="4">धन राशि</sense>
 <sense n="5">मरुस्थल तु* धन्वन्</sense>
 <segmenthd>
-<root>धनुष्कर</root>
+<dentry>धनुष्कर</dentry>
 <prAwipaxikam>धनुष्कर</prAwipaxikam>
 <seg>धनुस्-कर</seg>
 <grammar>वि*<vform>घनुष्कर</vform></grammar>
 <sense no="3">धनुष से सुसज्जित</sense>
 </segmenthd>
 <segmenthd>
-<root>धनुष्करः</root>
+<dentry>धनुष्करः</dentry>
 <prAwipaxikam>धनुष्कर</prAwipaxikam>
 <seg>धनुस्-करः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">धनुष बनाने वाला</sense>
 </segmenthd>
 <segmenthd>
-<root>धनुष्काण्डम्</root>
+<dentry>धनुष्काण्डम्</dentry>
 <prAwipaxikam>धनुष्काण्ड</prAwipaxikam>
 <seg>धनुस्-काण्डम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">धनुष और बाण धनु, कांडम्</sense>
 </segmenthd>
 <segmenthd>
-<root>धनुष्खण्डम्</root>
+<dentry>धनुष्खण्डम्</dentry>
 <prAwipaxikam>धनुष्खण्ड</prAwipaxikam>
 <seg>धनुस्-खण्डम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">धनुष का भाग<citation>मेघ* १५ धनुः खंडम्</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धनुर्गुणः</root>
+<dentry>धनुर्गुणः</dentry>
 <prAwipaxikam>धनुर्गुण</prAwipaxikam>
 <seg>धनुस्-गुणः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">धनुष की डोरी धनुर्गुणः</sense>
 </segmenthd>
 <segmenthd>
-<root>धनुर्ग्रहः</root>
+<dentry>धनुर्ग्रहः</dentry>
 <prAwipaxikam>धनुर्ग्रह</prAwipaxikam>
 <seg>धनुस्-ग्रहः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">धनुर्धारी धनुर्ग्रह</sense>
 </segmenthd>
 <segmenthd>
-<root>धनुर्ज्या</root>
+<dentry>धनुर्ज्या</dentry>
 <prAwipaxikam>धनुर्ज्या</prAwipaxikam>
 <seg>धनुस्-ज्या</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">धनुष की डोरीअनवरतधनुर्ज्यास्फालनक्रूरपूर्वम्-<citation>श* २/४ धनुर्ज्या</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धनुर्द्रुमः</root>
+<dentry>धनुर्द्रुमः</dentry>
 <prAwipaxikam>धनुर्द्रुम</prAwipaxikam>
 <seg>धनुस्-द्रुमः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">बाँस धनुर्द्रुमः</sense>
 </segmenthd>
 <segmenthd>
-<root>धनुर्धरः</root>
+<dentry>धनुर्धरः</dentry>
 <prAwipaxikam>धनुर्धर</prAwipaxikam>
 <seg>धनुस्-धरः</seg>
 <grammar>पुं*</grammar>
@@ -610,14 +610,14 @@
 <sense no="1">धनुर्धारी<citation>रघु* २/११</citation>२९, ३/३१, ३८, ३९, ९/११, १२/९७, १६/७७</sense>
 </segmenthd>
 <segmenthd>
-<root>धनुर्भृत्</root>
+<dentry>धनुर्भृत्</dentry>
 <prAwipaxikam>धनुर्भृत्</prAwipaxikam>
 <seg>धनुस्-भृत्</seg>
 <grammar>पुं*</grammar>
 <sense no="1">धनुर्धारी<citation>रघु* २/११</citation>२९, ३/३१, ३८, ३९, ९/११, १२/९७, १६/७८</sense>
 </segmenthd>
 <segmenthd>
-<root>धनुष्पाणि</root>
+<dentry>धनुष्पाणि</dentry>
 <prAwipaxikam>धनुष्पाणि</prAwipaxikam>
 <seg>धनुस्-पाणि</seg>
 <grammar>वि*</grammar>
@@ -625,21 +625,21 @@
 <sense no="1">धनुष से सुसज्जित, हाथ में धनुष लिये हुए धनुष्पाणि</sense>
 </segmenthd>
 <segmenthd>
-<root>धनुर्मार्गः</root>
+<dentry>धनुर्मार्गः</dentry>
 <prAwipaxikam>धनुर्मार्ग</prAwipaxikam>
 <seg>धनुस्-मार्गः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">धनुष की भांति टेढ़ी रेखा, वक्र धनुर्मार्गः</sense>
 </segmenthd>
 <segmenthd>
-<root>धनुर्विद्या</root>
+<dentry>धनुर्विद्या</dentry>
 <prAwipaxikam>धनुर्विद्या</prAwipaxikam>
 <seg>धनुस्-विद्या</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">धनुर्विज्ञान धनुर्विद्या</sense>
 </segmenthd>
 <segmenthd>
-<root>धनुर्वृक्षः</root>
+<dentry>धनुर्वृक्षः</dentry>
 <prAwipaxikam>धनुर्वृक्ष</prAwipaxikam>
 <seg>धनुस्-वृक्षः</seg>
 <grammar>पुं*</grammar>
@@ -647,7 +647,7 @@
 <sense no="2">अश्वत्थ का वृक्ष धनुर्वृक्षः</sense>
 </segmenthd>
 <segmenthd>
-<root>धनुर्वेदः</root>
+<dentry>धनुर्वेदः</dentry>
 <prAwipaxikam>धनुर्वेद</prAwipaxikam>
 <seg>धनुस्-वेदः</seg>
 <grammar>पुं*</grammar>
@@ -656,7 +656,7 @@
 </lexhead>
 
 <lexhead no="785">
-<root>धनू</root>
+<dentry>धनू</dentry>
 <prAwipaxikam>धनू</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धन्+ ऊ]</etymology>
@@ -664,7 +664,7 @@
 </lexhead>
 
 <lexhead no="786">
-<root>धन्य</root>
+<dentry>धन्य</dentry>
 <prAwipaxikam>धन्य</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धन्य</prAwipaxikam>
@@ -677,7 +677,7 @@
 </lexhead>
 
 <lexhead no="787">
-<root>धन्यः</root>
+<dentry>धन्यः</dentry>
 <prAwipaxikam>धन्य</prAwipaxikam>
 <grammar>पुं*</grammar>
 <jAwi>मनुष्यः</jAwi>
@@ -687,7 +687,7 @@
 </lexhead>
 
 <lexhead no="788">
-<root>धन्या</root>
+<dentry>धन्या</dentry>
 <prAwipaxikam>धन्या</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <sense no="1">धात्री</sense>
@@ -695,13 +695,13 @@
 </lexhead>
 
 <lexhead no="789">
-<root>धन्यम्</root>
+<dentry>धन्यम्</dentry>
 <prAwipaxikam>धन्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <jAwi>मनुष्यः</jAwi>
 <sense no="1">दौलत, कोष</sense>
 <segmenthd>
-<root>धन्यवादः</root>
+<dentry>धन्यवादः</dentry>
 <prAwipaxikam>धन्यवाद</prAwipaxikam>
 <seg>धन्य-वादः</seg>
 <grammar>पुं*</grammar>
@@ -711,7 +711,7 @@
 </lexhead>
 
 <lexhead no="790">
-<root>धन्यम्मन्य</root>
+<dentry>धन्यम्मन्य</dentry>
 <prAwipaxikam>धन्यम्मन्य</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धन्यम्मन्य</prAwipaxikam>
@@ -720,7 +720,7 @@
 </lexhead>
 
 <lexhead no="791">
-<root>धन्याकम्</root>
+<dentry>धन्याकम्</dentry>
 <prAwipaxikam>धन्याक</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धन्य+ आकन्, नि*]</etymology>
@@ -729,13 +729,13 @@
 </lexhead>
 
 <lexhead no="792">
-<root>धन्वम्</root>
+<dentry>धन्वम्</dentry>
 <prAwipaxikam>धन्व</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धन्+वन्]</etymology>
 <sense no="1">धनुष, श्रेण्य साहित्य में विरल प्रयोग</sense>
 <segmenthd>
-<root>धन्वधिः</root>
+<dentry>धन्वधिः</dentry>
 <prAwipaxikam>धन्वधि</prAwipaxikam>
 <seg>धन्वम्-धिः</seg>
 <grammar>स्त्री*</grammar>
@@ -744,7 +744,7 @@
 </lexhead>
 
 <lexhead no="793">
-<root>धन्वन्</root>
+<dentry>धन्वन्</dentry>
 <prAwipaxikam>धन्वन्</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धन्व्+ कनिन्]</etymology>
@@ -755,7 +755,7 @@
 <sense no="1">सूखी जमीन, मरुभूमि, परत की भूमि, एवं धन्वनि चंपकस्य सकले संहारहेतावपि-<citation>भामि* १/३१</citation></sense>
 <sense n="2">समुद्रतट, कड़ी भूमि</sense>
 <segmenthd>
-<root>धन्वदुर्गम्</root>
+<dentry>धन्वदुर्गम्</dentry>
 <prAwipaxikam>धन्वदुर्ग</prAwipaxikam>
 <seg>धन्वन्-दुर्गम्</seg>
 <grammar>नपुं*</grammar>
@@ -764,14 +764,14 @@
 </lexhead>
 
 <lexhead no="794">
-<root>धन्वन्तरम्</root>
+<dentry>धन्वन्तरम्</dentry>
 <prAwipaxikam>धन्वन्तर</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <sense no="1">चार हाथ के बराबर दूरी की मप, तु* ’दंड’</sense>
 </lexhead>
 
 <lexhead no="795">
-<root>धन्वन्तरि</root>
+<dentry>धन्वन्तरि</dentry>
 <prAwipaxikam>धन्वन्तरि</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धनुः चिकित्साशास्त्रं तस्यान्तमृच्छति- धनु+ अन्त+ ऋ+ इ]</etymology>
@@ -779,7 +779,7 @@
 </lexhead>
 
 <lexhead no="796">
-<root>धन्विन्</root>
+<dentry>धन्विन्</dentry>
 <prAwipaxikam>धन्विन्</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धन्विन्</prAwipaxikam>
@@ -796,7 +796,7 @@
 </lexhead>
 
 <lexhead no="797">
-<root>धन्विनः</root>
+<dentry>धन्विनः</dentry>
 <prAwipaxikam>धन्विन</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धन्व्+ इनन्]</etymology>
@@ -804,7 +804,7 @@
 </lexhead>
 
 <lexhead no="798">
-<root>धम</root>
+<dentry>धम</dentry>
 <prAwipaxikam>धम</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धम</prAwipaxikam>
@@ -814,7 +814,7 @@
 </lexhead>
 
 <lexhead no="799">
-<root>धमः</root>
+<dentry>धमः</dentry>
 <prAwipaxikam>धम</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">चन्द्रमा</sense>
@@ -824,7 +824,7 @@
 </lexhead>
 
 <lexhead no="800">
-<root>धमकः</root>
+<dentry>धमकः</dentry>
 <prAwipaxikam>धमक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धम्+ ण्वुल्]</etymology>
@@ -832,14 +832,14 @@
 </lexhead>
 
 <lexhead no="801">
-<root>धयधमा</root>
+<dentry>धयधमा</dentry>
 <prAwipaxikam>धयधमा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <sense no="1">अनुकरणमूलक शब्द जो धौंकनी या बिगुल की ध्वनि को व्यक्त करता है।</sense>
 </lexhead>
 
 <lexhead no="802">
-<root>धमन</root>
+<dentry>धमन</dentry>
 <prAwipaxikam>धमन</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धमन</prAwipaxikam>
@@ -852,7 +852,7 @@
 </lexhead>
 
 <lexhead no="803">
-<root>धमनः</root>
+<dentry>धमनः</dentry>
 <prAwipaxikam>धमन</prAwipaxikam>
 <grammar>पुं*</grammar>
 <is_a_part>नडसमूहः</is_a_part>
@@ -862,7 +862,7 @@
 </lexhead>
 
 <lexhead no="804">
-<root>धमनिः</root>
+<dentry>धमनिः</dentry>
 <prAwipaxikam>धमनि</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धम्+अनि]</etymology>
@@ -874,7 +874,7 @@
 </lexhead>
 
 <lexhead no="805">
-<root>धमनी</root>
+<dentry>धमनी</dentry>
 <prAwipaxikam>धमनी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धमनि+ ङीष्]</etymology>
@@ -886,7 +886,7 @@
 </lexhead>
 
 <lexhead no="806">
-<root>धमिः</root>
+<dentry>धमिः</dentry>
 <prAwipaxikam>धमि</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धम्+ इ]</etymology>
@@ -894,7 +894,7 @@
 </lexhead>
 
 <lexhead no="807">
-<root>धम्मलः</root>
+<dentry>धम्मलः</dentry>
 <prAwipaxikam>धम्मल</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धम्+ विच्, मिल्+ क्, पृ*]</etymology>
@@ -902,7 +902,7 @@
 </lexhead>
 
 <lexhead no="808">
-<root>धम्मिलः</root>
+<dentry>धम्मिलः</dentry>
 <prAwipaxikam>धम्मिल</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धम्+ विच्, मिल्+ क्, पृ*]</etymology>
@@ -910,7 +910,7 @@
 </lexhead>
 
 <lexhead no="809">
-<root>धम्मिल्लः</root>
+<dentry>धम्मिल्लः</dentry>
 <prAwipaxikam>धम्मिल्ल</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धम्+ विच्, मिल्+ क्, पृ*]</etymology>
@@ -920,7 +920,7 @@
 </lexhead>
 
 <lexhead no="810">
-<root>धय</root>
+<dentry>धय</dentry>
 <prAwipaxikam>धय</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धय</prAwipaxikam>
@@ -929,7 +929,7 @@
 </lexhead>
 
 <lexhead no="811">
-<root>धर</root>
+<dentry>धर</dentry>
 <prAwipaxikam>धर</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धर</prAwipaxikam>
@@ -940,7 +940,7 @@
 </lexhead>
 
 <lexhead no="812">
-<root>धरः</root>
+<dentry>धरः</dentry>
 <prAwipaxikam>धर</prAwipaxikam>
 <grammar>पुं*</grammar>
 <kind_of>भूमिः</kind_of>
@@ -953,7 +953,7 @@
 </lexhead>
 
 <lexhead no="813">
-<root>धरण</root>
+<dentry>धरण</dentry>
 <prAwipaxikam>धरण</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धरण</prAwipaxikam>
@@ -962,7 +962,7 @@
 </lexhead>
 
 <lexhead no="814">
-<root>धरणः</root>
+<dentry>धरणः</dentry>
 <prAwipaxikam>धरण</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">टीला, पर्वतपार्श्व, जो पुल का काम दे रहा हो</sense>
@@ -973,7 +973,7 @@
 </lexhead>
 
 <lexhead no="815">
-<root>धरणम्</root>
+<dentry>धरणम्</dentry>
 <prAwipaxikam>धरण</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <sense no="1">सहारा देना, निर्वाह कराना, संभालना, सारंधरित्री धरणक्षमं च-<citation>कु* १/१७</citation>धरणिधरणकिणचक्रगरिष्ठे-<citation>गीत*१</citation></sense>
@@ -984,7 +984,7 @@
 </lexhead>
 
 <lexhead no="816">
-<root>धरणिः</root>
+<dentry>धरणिः</dentry>
 <prAwipaxikam>धरणि</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धृ+ अनि]</etymology>
@@ -996,7 +996,7 @@
 </lexhead>
 
 <lexhead no="817">
-<root>धरणी</root>
+<dentry>धरणी</dentry>
 <prAwipaxikam>धरणी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धरणि+ ङीष्]</etymology>
@@ -1005,7 +1005,7 @@
 <sense n="3">छत का शहतीर</sense>
 <sense n="4">नाड़ी, शिरा</sense>
 <segmenthd>
-<root>धरणीश्वरः</root>
+<dentry>धरणीश्वरः</dentry>
 <prAwipaxikam>धरणीश्वर</prAwipaxikam>
 <seg>धरणिः-ईश्वरः</seg>
 <grammar>पुं*</grammar>
@@ -1014,14 +1014,14 @@
 <sense no="4">शिव का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धरणिकीलकः</root>
+<dentry>धरणिकीलकः</dentry>
 <prAwipaxikam>धरणिकीलक</prAwipaxikam>
 <seg>धरणिः-कीलकः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">पहाड़</sense>
 </segmenthd>
 <segmenthd>
-<root>धरणिजः</root>
+<dentry>धरणिजः</dentry>
 <prAwipaxikam>धरणिज</prAwipaxikam>
 <seg>धरणिः-जः</seg>
 <grammar>पुं*</grammar>
@@ -1029,7 +1029,7 @@
 <sense no="2">’नरक’ राक्षस के विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धरणिपुत्रः</root>
+<dentry>धरणिपुत्रः</dentry>
 <prAwipaxikam>धरणिपुत्र</prAwipaxikam>
 <seg>धरणिः-पुत्रः</seg>
 <grammar>पुं*</grammar>
@@ -1037,7 +1037,7 @@
 <sense no="2">’नरक’ राक्षस के विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धरणिसुतः</root>
+<dentry>धरणिसुतः</dentry>
 <prAwipaxikam>धरणिसुत</prAwipaxikam>
 <seg>धरणिः-सुतः</seg>
 <grammar>पुं*</grammar>
@@ -1045,28 +1045,28 @@
 <sense no="2">’नरक’ राक्षस के विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धरणिजा</root>
+<dentry>धरणिजा</dentry>
 <prAwipaxikam>धरणिजा</prAwipaxikam>
 <seg>धरणिः-जा</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">जनक की पुत्री सीता का विशेषण पृथ्वी से उत्पन्न होने के कारण</sense>
 </segmenthd>
 <segmenthd>
-<root>धरणिपुत्री</root>
+<dentry>धरणिपुत्री</dentry>
 <prAwipaxikam>धरणिपुत्री</prAwipaxikam>
 <seg>धरणिः-पुत्री</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">जनक की पुत्री सीता का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धरणिसुता</root>
+<dentry>धरणिसुता</dentry>
 <prAwipaxikam>धरणिसुता</prAwipaxikam>
 <seg>धरणिः-सुता</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">जनक की पुत्री सीता का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धरणिधरः</root>
+<dentry>धरणिधरः</dentry>
 <prAwipaxikam>धरणिधर</prAwipaxikam>
 <seg>धरणिः-धरः</seg>
 <grammar>पुं*</grammar>
@@ -1078,7 +1078,7 @@
 <sense no="6">हाथी जो, कहते हैं, कि पृथ्वी को संभाले हुए हैं।</sense>
 </segmenthd>
 <segmenthd>
-<root>धरणिधृत्</root>
+<dentry>धरणिधृत्</dentry>
 <prAwipaxikam>धरणिधृत्</prAwipaxikam>
 <seg>धरणिः-धृत्</seg>
 <grammar>पुं*</grammar>
@@ -1089,7 +1089,7 @@
 </lexhead>
 
 <lexhead no="818">
-<root>धरा</root>
+<dentry>धरा</dentry>
 <prAwipaxikam>धरा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धृ+ अच्+ टाप्]</etymology>
@@ -1099,35 +1099,35 @@
 <sense n="3">गुदा</sense>
 <sense n="4">गर्भाशय या योनि</sense>
 <segmenthd>
-<root>धराधिपः</root>
+<dentry>धराधिपः</dentry>
 <prAwipaxikam>धराधिप</prAwipaxikam>
 <seg>धरा-अधिपः</seg>
 <grammar>पुं*</grammar>
 <sense no="3">राजा</sense>
 </segmenthd>
 <segmenthd>
-<root>धरामरः</root>
+<dentry>धरामरः</dentry>
 <prAwipaxikam>धरामर</prAwipaxikam>
 <seg>धरा-अमरः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">ब्राह्मण</sense>
 </segmenthd>
 <segmenthd>
-<root>धरादेवः</root>
+<dentry>धरादेवः</dentry>
 <prAwipaxikam>धरादेव</prAwipaxikam>
 <seg>धरा-देवः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">ब्राह्मण</sense>
 </segmenthd>
 <segmenthd>
-<root>धरासुरः</root>
+<dentry>धरासुरः</dentry>
 <prAwipaxikam>धरासुर</prAwipaxikam>
 <seg>धरा-सुरः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">ब्राह्मण</sense>
 </segmenthd>
 <segmenthd>
-<root>धरात्मजः</root>
+<dentry>धरात्मजः</dentry>
 <prAwipaxikam>धरात्मज</prAwipaxikam>
 <seg>धरा-आत्मजः</seg>
 <grammar>पुं*</grammar>
@@ -1135,7 +1135,7 @@
 <sense no="2">नरक राक्षस के विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धरापुत्रः</root>
+<dentry>धरापुत्रः</dentry>
 <prAwipaxikam>धरापुत्र</prAwipaxikam>
 <seg>धरा-पुत्रः</seg>
 <grammar>पुं*</grammar>
@@ -1143,7 +1143,7 @@
 <sense no="2">नरक राक्षस के विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धरासूनुः</root>
+<dentry>धरासूनुः</dentry>
 <prAwipaxikam>धरासूनु</prAwipaxikam>
 <seg>धरा-सूनुः</seg>
 <grammar>पुं*</grammar>
@@ -1151,21 +1151,21 @@
 <sense no="2">नरक राक्षस के विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धरात्मजा</root>
+<dentry>धरात्मजा</dentry>
 <prAwipaxikam>धरात्मजा</prAwipaxikam>
 <seg>धरा-आत्मजा</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">सीता का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धरोद्धारः</root>
+<dentry>धरोद्धारः</dentry>
 <prAwipaxikam>धरोद्धार</prAwipaxikam>
 <seg>धरा-उद्धारः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">पृथ्वी का छुटकारा</sense>
 </segmenthd>
 <segmenthd>
-<root>धराधरः</root>
+<dentry>धराधरः</dentry>
 <prAwipaxikam>धराधर</prAwipaxikam>
 <seg>धरा-धरः</seg>
 <grammar>पुं*</grammar>
@@ -1174,7 +1174,7 @@
 <sense no="3">शेष का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धरापति</root>
+<dentry>धरापति</dentry>
 <prAwipaxikam>धरापति</prAwipaxikam>
 <seg>धरा-पति</seg>
 <grammar>पुं*</grammar>
@@ -1182,14 +1182,14 @@
 <sense no="2">विष्णु का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धराभुज्</root>
+<dentry>धराभुज्</dentry>
 <prAwipaxikam>धराभुज्</prAwipaxikam>
 <seg>धरा-भुज्</seg>
 <grammar>पुं*</grammar>
 <sense no="1">राजा</sense>
 </segmenthd>
 <segmenthd>
-<root>धराभृत्</root>
+<dentry>धराभृत्</dentry>
 <prAwipaxikam>धराभृत्</prAwipaxikam>
 <seg>धरा-भृत्</seg>
 <grammar>पुं*</grammar>
@@ -1198,7 +1198,7 @@
 </lexhead>
 
 <lexhead no="819">
-<root>धरित्री</root>
+<dentry>धरित्री</dentry>
 <prAwipaxikam>धरित्री</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धृ+इत्र+ ङीष्]</etymology>
@@ -1208,7 +1208,7 @@
 </lexhead>
 
 <lexhead no="820">
-<root>धरिमण्</root>
+<dentry>धरिमण्</dentry>
 <prAwipaxikam>धरिमण्</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धृ+ इमनिच्]</etymology>
@@ -1216,7 +1216,7 @@
 </lexhead>
 
 <lexhead no="821">
-<root>धर्त्तूरः</root>
+<dentry>धर्त्तूरः</dentry>
 <prAwipaxikam>धर्त्तूर</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ = धुस्तुर पृषो* साधुः]</etymology>
@@ -1224,7 +1224,7 @@
 </lexhead>
 
 <lexhead no="822">
-<root>धर्त्रम्</root>
+<dentry>धर्त्रम्</dentry>
 <prAwipaxikam>धर्त्र</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धृ+ त्र]</etymology>
@@ -1235,7 +1235,7 @@
 </lexhead>
 
 <lexhead no="823">
-<root>धर्मः</root>
+<dentry>धर्मः</dentry>
 <prAwipaxikam>धर्म</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[घ्रियते लोकोऽनेन, धरति लोकं वा धृ+ मन्]</etymology>
@@ -1268,35 +1268,35 @@
 <sense n="16">ज्येष्ठ पांडव युधिष्ठिर</sense>
 <sense n="17">मृत्यु का देवता यम</sense>
 <segmenthd>
-<root>धर्माङ्गः</root>
+<dentry>धर्माङ्गः</dentry>
 <prAwipaxikam>धर्माङ्ग</prAwipaxikam>
 <seg>धर्मः-अङ्गः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">सारस</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्माङ्गा</root>
+<dentry>धर्माङ्गा</dentry>
 <prAwipaxikam>धर्माङ्गा</prAwipaxikam>
 <seg>धर्मः-अङ्गा</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">सारस</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्माधर्मौ</root>
+<dentry>धर्माधर्मौ</dentry>
 <prAwipaxikam>धर्माधर्मौ</prAwipaxikam>
 <seg>धर्मः-अधर्मौ</seg>
 <grammar>पुं*</grammar>
 <sense no="1">सत्य और असत्य, कर्तव्य और अकर्तव्य</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मविद्</root>
+<dentry>धर्मविद्</dentry>
 <prAwipaxikam>धर्मविद्</prAwipaxikam>
 <seg>धर्मः-विद्</seg>
 <grammar>पुं*</grammar>
 <sense no="1">मीमांसक जो कर्म के सही या गलत मार्ग को जानता है।</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्माधिकरणम्</root>
+<dentry>धर्माधिकरणम्</dentry>
 <prAwipaxikam>धर्माधिकरण</prAwipaxikam>
 <seg>धर्मः-अधिकरणम्</seg>
 <grammar>नपुं*</grammar>
@@ -1304,14 +1304,14 @@
 <sense no="2">न्यायालय</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्माधिकरणिन्</root>
+<dentry>धर्माधिकरणिन्</dentry>
 <prAwipaxikam>धर्माधिकरणिन्</prAwipaxikam>
 <seg>धर्मः-अधिकरणिन्</seg>
 <grammar>पुं*</grammar>
 <sense no="1">न्यायाधीश, दण्डनायक</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्माधिकारः</root>
+<dentry>धर्माधिकारः</dentry>
 <prAwipaxikam>धर्माधिकार</prAwipaxikam>
 <seg>धर्मः-अधिकारः</seg>
 <grammar>पुं*</grammar>
@@ -1320,14 +1320,14 @@
 <sense no="3">न्यायाधीश का पद</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्माधिष्ठानम्</root>
+<dentry>धर्माधिष्ठानम्</dentry>
 <prAwipaxikam>धर्माधिष्ठान</prAwipaxikam>
 <seg>धर्मः-अधिष्ठानम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">न्यायालय</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्माध्यक्षः</root>
+<dentry>धर्माध्यक्षः</dentry>
 <prAwipaxikam>धर्माध्यक्ष</prAwipaxikam>
 <seg>धर्मः-अध्यक्षः</seg>
 <grammar>पुं*</grammar>
@@ -1335,14 +1335,14 @@
 <sense no="2">विष्णु का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मानुष्ठानम्</root>
+<dentry>धर्मानुष्ठानम्</dentry>
 <prAwipaxikam>धर्मानुष्ठान</prAwipaxikam>
 <seg>धर्मः-अनुष्ठानम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">धर्म के अनुसार आचरण, अच्छा आचरण, नैतिक चालचलन</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मापेत</root>
+<dentry>धर्मापेत</dentry>
 <prAwipaxikam>धर्मापेत</prAwipaxikam>
 <seg>धर्मः-अपेत</seg>
 <grammar>वि*</grammar>
@@ -1350,21 +1350,21 @@
 <sense no="1">जो धर्म विरुद्ध हो, दुराचारी, अनीतिकर, अधार्मिक</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मापेतम्</root>
+<dentry>धर्मापेतम्</dentry>
 <prAwipaxikam>धर्मापेत</prAwipaxikam>
 <seg>धर्मः-अपेतम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">दुर्व्यसन, अनैतिकता, अन्याय</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मारण्यम्</root>
+<dentry>धर्मारण्यम्</dentry>
 <prAwipaxikam>धर्मारण्य</prAwipaxikam>
 <seg>धर्मः-अरण्यम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">तपोवन, वन जिसमें संन्यासी रहते हों। धर्मारण्यं प्रविशति गजः।<citation>श* १/३३</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मालीक</root>
+<dentry>धर्मालीक</dentry>
 <prAwipaxikam>धर्मालीक</prAwipaxikam>
 <seg>धर्मः-अलीक</seg>
 <grammar>वि*</grammar>
@@ -1372,14 +1372,14 @@
 <sense no="1">झूठे चरित्र वाला</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मागमः</root>
+<dentry>धर्मागमः</dentry>
 <prAwipaxikam>धर्मागम</prAwipaxikam>
 <seg>धर्मः-आगमः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">धर्मशास्त्र, विधि- ग्रन्थ</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्माचार्यः</root>
+<dentry>धर्माचार्यः</dentry>
 <prAwipaxikam>धर्माचार्य</prAwipaxikam>
 <seg>धर्मः-आचार्यः</seg>
 <grammar>पुं*</grammar>
@@ -1387,14 +1387,14 @@
 <sense no="2">धर्मशास्त्र या कानून का अध्यापक</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मात्मजः</root>
+<dentry>धर्मात्मजः</dentry>
 <prAwipaxikam>धर्मात्मज</prAwipaxikam>
 <seg>धर्मः-आत्मजः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">युधिष्ठिर का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मात्मन्</root>
+<dentry>धर्मात्मन्</dentry>
 <prAwipaxikam>धर्मात्मन्</prAwipaxikam>
 <seg>धर्मः-आत्मन्</seg>
 <grammar>वि*</grammar>
@@ -1402,28 +1402,28 @@
 <sense no="1">न्यायशील, भला, पुण्यात्मा, सद्गुणी</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मासनम्</root>
+<dentry>धर्मासनम्</dentry>
 <prAwipaxikam>धर्मासन</prAwipaxikam>
 <seg>धर्मः-आसनम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">न्याय का सिंहासन, न्याय की गद्दी, न्यायाधिकरणन संभावितमद्य धर्मासनमध्यासितुम्-<citation>श* ६</citation>धर्मासनाद्विशति वासगृहं नरेन्द्रः-<citation>उत्तर* १/७</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मेन्द्रः</root>
+<dentry>धर्मेन्द्रः</dentry>
 <prAwipaxikam>धर्मेन्द्र</prAwipaxikam>
 <seg>धर्मः-इन्द्रः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">युधिष्ठिर का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मेशः</root>
+<dentry>धर्मेशः</dentry>
 <prAwipaxikam>धर्मेश</prAwipaxikam>
 <seg>धर्मः-ईशः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">यम का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मोत्तर</root>
+<dentry>धर्मोत्तर</dentry>
 <prAwipaxikam>धर्मोत्तर</prAwipaxikam>
 <seg>धर्मः-उत्तर</seg>
 <grammar>वि*</grammar>
@@ -1431,7 +1431,7 @@
 <sense no="1">अतिधार्मिक, जो न्याय धर्म का प्रधान पक्षपाती हो, निष्पक्ष और न्यायपरायणधर्मोत्तरं मध्यममाश्रयंन्ते।<citation>रघु* १३/७</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मोपदेशः</root>
+<dentry>धर्मोपदेशः</dentry>
 <prAwipaxikam>धर्मोपदेश</prAwipaxikam>
 <seg>धर्मः-उपदेशः</seg>
 <grammar>पुं*</grammar>
@@ -1439,7 +1439,7 @@
 <sense no="2">धर्मशास्त्र</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मकर्मन्</root>
+<dentry>धर्मकर्मन्</dentry>
 <prAwipaxikam>धर्मकर्मन्</prAwipaxikam>
 <seg>धर्मः-कर्मन्</seg>
 <grammar>नपुं*</grammar>
@@ -1447,7 +1447,7 @@
 <sense no="2">सदाचरण</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मकार्यम्</root>
+<dentry>धर्मकार्यम्</dentry>
 <prAwipaxikam>धर्मकार्य</prAwipaxikam>
 <seg>धर्मः-कार्यम्</seg>
 <grammar>नपुं*</grammar>
@@ -1455,7 +1455,7 @@
 <sense no="2">सदाचरण</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मक्रिया</root>
+<dentry>धर्मक्रिया</dentry>
 <prAwipaxikam>धर्मक्रिया</prAwipaxikam>
 <seg>धर्मः-क्रिया</seg>
 <grammar>स्त्री*</grammar>
@@ -1463,49 +1463,49 @@
 <sense no="2">सदाचरण</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मकथादरिद्रः</root>
+<dentry>धर्मकथादरिद्रः</dentry>
 <prAwipaxikam>धर्मकथादरिद्र</prAwipaxikam>
 <seg>धर्मः-कथादरिद्रः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">कलियुग</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मकायः</root>
+<dentry>धर्मकायः</dentry>
 <prAwipaxikam>धर्मकाय</prAwipaxikam>
 <seg>धर्मः-कायः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">बुद्ध का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मकीलः</root>
+<dentry>धर्मकीलः</dentry>
 <prAwipaxikam>धर्मकील</prAwipaxikam>
 <seg>धर्मः-कीलः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">अनुदान, राजकीय लेख या शासन</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मकेतुः</root>
+<dentry>धर्मकेतुः</dentry>
 <prAwipaxikam>धर्मकेतु</prAwipaxikam>
 <seg>धर्मः-केतुः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">बुद्ध का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मकोशः</root>
+<dentry>धर्मकोशः</dentry>
 <prAwipaxikam>धर्मकोश</prAwipaxikam>
 <seg>धर्मः-कोशः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">घर्मसंहिता, धर्मशास्त्रधर्मकोषस्य गुप्तये-<citation>मनु* १/९९</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मकोषः</root>
+<dentry>धर्मकोषः</dentry>
 <prAwipaxikam>धर्मकोष</prAwipaxikam>
 <seg>धर्मः-कोषः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">घर्मसंहिता, धर्मशास्त्रधर्मकोषस्य गुप्तये-<citation>मनु* १/९९</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मक्षेत्रम्</root>
+<dentry>धर्मक्षेत्रम्</dentry>
 <prAwipaxikam>धर्मक्षेत्र</prAwipaxikam>
 <seg>धर्मः-क्षेत्रम्</seg>
 <grammar>नपुं*</grammar>
@@ -1513,35 +1513,35 @@
 <sense no="2">दिल्ली के निकट का मैदान, कुरुक्षेत्रधर्मक्षेत्रे कुरुक्षेत्रे समवेता युयुत्सवः-<citation>भग* १/१ यहां ही कौरव पांडवों का महायुद्ध हुआ था</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मघटः</root>
+<dentry>धर्मघटः</dentry>
 <prAwipaxikam>धर्मघट</prAwipaxikam>
 <seg>धर्मः-घटः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">वैशाख के महीने में ब्राह्मण को प्रतिदिन दिये जाने वाले सुगन्धित जल का घड़ा</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मचक्रभृत्</root>
+<dentry>धर्मचक्रभृत्</dentry>
 <prAwipaxikam>धर्मचक्रभृत्</prAwipaxikam>
 <seg>धर्मः-चक्रभृत्</seg>
 <grammar>पुं*</grammar>
 <sense no="1">बौद्ध या जैन</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मचरणम्</root>
+<dentry>धर्मचरणम्</dentry>
 <prAwipaxikam>धर्मचरण</prAwipaxikam>
 <seg>धर्मः-चरणम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">कानून का पालन, धार्मिक कर्त्तव्यों का सम्पादन<citation>कु* ७/८३</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मचर्या</root>
+<dentry>धर्मचर्या</dentry>
 <prAwipaxikam>धर्मचर्या</prAwipaxikam>
 <seg>धर्मः-चर्या</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">कानून का पालन, धार्मिक कर्त्तव्यों का सम्पादन</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मचारिन्</root>
+<dentry>धर्मचारिन्</dentry>
 <prAwipaxikam>धर्मचारिन्</prAwipaxikam>
 <seg>धर्मः-चारिन्</seg>
 <grammar>वि*</grammar>
@@ -1550,7 +1550,7 @@
 <sense no="2">संन्यासी</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मचारिणी</root>
+<dentry>धर्मचारिणी</dentry>
 <prAwipaxikam>धर्मचारिणी</prAwipaxikam>
 <seg>धर्मः-चारिणी</seg>
 <grammar>स्त्री*</grammar>
@@ -1558,21 +1558,21 @@
 <sense no="2">पतिव्रता सती साध्वी पत्नी</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मचिंतनम्</root>
+<dentry>धर्मचिंतनम्</dentry>
 <prAwipaxikam>धर्मचिंतन</prAwipaxikam>
 <seg>धर्मः-चिंतनम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">भलाई या सद्गुणों का अध्ययन, नैतिक कर्त्तव्यों का विचार, नीति- विमर्श</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मचिंता</root>
+<dentry>धर्मचिंता</dentry>
 <prAwipaxikam>धर्मचिंता</prAwipaxikam>
 <seg>धर्मः-चिंता</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">भलाई या सद्गुणों का अध्ययन, नैतिक कर्त्तव्यों का विचार, नीति- विमर्श</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मजः</root>
+<dentry>धर्मजः</dentry>
 <prAwipaxikam>धर्मज</prAwipaxikam>
 <seg>धर्मः-जः</seg>
 <grammar>पुं*</grammar>
@@ -1580,21 +1580,21 @@
 <sense no="2">युधिष्ठिर का नाम</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मजन्मन्</root>
+<dentry>धर्मजन्मन्</dentry>
 <prAwipaxikam>धर्मजन्मन्</prAwipaxikam>
 <seg>धर्मः-जन्मन्</seg>
 <grammar>पुं*</grammar>
 <sense no="1">युधिष्ठिर का नाम</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मजिज्ञासा</root>
+<dentry>धर्मजिज्ञासा</dentry>
 <prAwipaxikam>धर्मजिज्ञासा</prAwipaxikam>
 <seg>धर्मः-जिज्ञासा</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">धर्म सम्बन्धी पूछताछ, सदाचरण विषयक पृच्छाअथातोधर्मजिज्ञासा-<citation>जै*</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मजीवन</root>
+<dentry>धर्मजीवन</dentry>
 <prAwipaxikam>धर्मजीवन</prAwipaxikam>
 <seg>धर्मः-जीवन</seg>
 <grammar>वि*</grammar>
@@ -1602,14 +1602,14 @@
 <sense no="1">जो अपने वर्ण के नियमानुसार निर्दिष्ट कर्त्तव्यों का पालन करता है।</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मजीवनः</root>
+<dentry>धर्मजीवनः</dentry>
 <prAwipaxikam>धर्मजीवन</prAwipaxikam>
 <seg>धर्मः-जीवनः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">वह ब्राह्मण जो दूसरों के धर्मानुष्ठान में साहाय्य प्रदान कर अपनी जीविका चलाता है।</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मज्ञ</root>
+<dentry>धर्मज्ञ</dentry>
 <prAwipaxikam>धर्मज्ञ</prAwipaxikam>
 <seg>धर्मः-ज्ञ</seg>
 <grammar>वि*</grammar>
@@ -1618,42 +1618,42 @@
 <sense no="2">न्यायशील, नेक, पुण्यात्मा</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मत्यागः</root>
+<dentry>धर्मत्यागः</dentry>
 <prAwipaxikam>धर्मत्याग</prAwipaxikam>
 <seg>धर्मः-त्यागः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">अपने धर्म का त्याग करने वाला, धर्मच्युत</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मदाराः</root>
+<dentry>धर्मदाराः</dentry>
 <prAwipaxikam>धर्मदारा</prAwipaxikam>
 <seg>धर्मः-दाराः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">वैध पत्नीस्त्रीणां भर्ता धर्मदाराश्च पुंसां-<citation>मा* ६/१८</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मद्रोहिन्</root>
+<dentry>धर्मद्रोहिन्</dentry>
 <prAwipaxikam>धर्मद्रोहिन्</prAwipaxikam>
 <seg>धर्मः-द्रोहिन्</seg>
 <grammar>पुं*</grammar>
 <sense no="1">राक्षस</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मधातुः</root>
+<dentry>धर्मधातुः</dentry>
 <prAwipaxikam>धर्मधातु</prAwipaxikam>
 <seg>धर्मः-धातुः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">बुद्ध का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मध्वजः</root>
+<dentry>धर्मध्वजः</dentry>
 <prAwipaxikam>धर्मध्वज</prAwipaxikam>
 <seg>धर्मः-ध्वजः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">धर्म के नाम पर पाखंड रचने वाला, छद्मवेशी</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मध्वजिन्</root>
+<dentry>धर्मध्वजिन्</dentry>
 <prAwipaxikam>धर्मध्वजिन्</prAwipaxikam>
 <seg>धर्मः-ध्वजिन्</seg>
 <grammar>पुं*</grammar>
@@ -1662,56 +1662,56 @@
 <sense no="1">धर्म के नाम पर पाखंड रचने वाला, छद्मवेशी</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मनन्दनः</root>
+<dentry>धर्मनन्दनः</dentry>
 <prAwipaxikam>धर्मनन्दन</prAwipaxikam>
 <seg>धर्मः-नन्दनः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">युधिष्ठिर का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मनाथः</root>
+<dentry>धर्मनाथः</dentry>
 <prAwipaxikam>धर्मनाथ</prAwipaxikam>
 <seg>धर्मः-नाथः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">कानूनी अभिभावक, वैध स्वामी</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मनाभः</root>
+<dentry>धर्मनाभः</dentry>
 <prAwipaxikam>धर्मनाभ</prAwipaxikam>
 <seg>धर्मः-नाभः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">विष्णु का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मनिवेशः</root>
+<dentry>धर्मनिवेशः</dentry>
 <prAwipaxikam>धर्मनिवेश</prAwipaxikam>
 <seg>धर्मः-निवेशः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">धार्मिक भक्ति</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मनिष्पत्तिः</root>
+<dentry>धर्मनिष्पत्तिः</dentry>
 <prAwipaxikam>धर्मनिष्पत्ति</prAwipaxikam>
 <seg>धर्मः-निष्पत्तिः</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">कर्त्तव्य का पालन, नीति-पालना, धार्मिक अनुष्ठान</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मपत्नी</root>
+<dentry>धर्मपत्नी</dentry>
 <prAwipaxikam>धर्मपत्नी</prAwipaxikam>
 <seg>धर्मः-पत्नी</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">वैधपत्नी, धर्मपत्नी<citation>रघु* २/२</citation>२०, ७२, ८/७<citation>याज्ञ* २/१२८</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मपथः</root>
+<dentry>धर्मपथः</dentry>
 <prAwipaxikam>धर्मपथ</prAwipaxikam>
 <seg>धर्मः-पथः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">भलाई का मार्ग, चाल चलन का सन्मार्ग</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मपर</root>
+<dentry>धर्मपर</dentry>
 <prAwipaxikam>धर्मपर</prAwipaxikam>
 <seg>धर्मः-पर</seg>
 <grammar>वि*</grammar>
@@ -1719,28 +1719,28 @@
 <sense no="1">धर्मपरायण, पुण्यात्मा, नेक, भला</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मपाठकः</root>
+<dentry>धर्मपाठकः</dentry>
 <prAwipaxikam>धर्मपाठक</prAwipaxikam>
 <seg>धर्मः-पाठकः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">नागरिक या धार्मिक कानूनों का अध्यापक</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मपालः</root>
+<dentry>धर्मपालः</dentry>
 <prAwipaxikam>धर्मपाल</prAwipaxikam>
 <seg>धर्मः-पालः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">कानून का रक्षक, दण्ड, सजा, तलवार आलं* से इसे ’दंड’ कहते हैं ।</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मपीडा</root>
+<dentry>धर्मपीडा</dentry>
 <prAwipaxikam>धर्मपीडा</prAwipaxikam>
 <seg>धर्मः-पीडा</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">क़ानून का उल्लंघन करना, क़ानून के प्रति अपराध</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मपुत्रः</root>
+<dentry>धर्मपुत्रः</dentry>
 <prAwipaxikam>धर्मपुत्र</prAwipaxikam>
 <seg>धर्मः-पुत्रः</seg>
 <grammar>पुं*</grammar>
@@ -1748,7 +1748,7 @@
 <sense no="2">युधिष्ठिर का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मप्रवक्तृ</root>
+<dentry>धर्मप्रवक्तृ</dentry>
 <prAwipaxikam>धर्मप्रवक्तृ</prAwipaxikam>
 <seg>धर्मः-प्रवक्तृ</seg>
 <grammar>पुं*</grammar>
@@ -1756,7 +1756,7 @@
 <sense no="2">धार्मिक शिक्षक, धर्म-प्रचारक</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मप्रवचनम्</root>
+<dentry>धर्मप्रवचनम्</dentry>
 <prAwipaxikam>धर्मप्रवचन</prAwipaxikam>
 <seg>धर्मः-प्रवचनम्</seg>
 <grammar>नपुं*</grammar>
@@ -1764,14 +1764,14 @@
 <sense no="2">धर्म की व्याख्या करना</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मप्रवचनः</root>
+<dentry>धर्मप्रवचनः</dentry>
 <prAwipaxikam>धर्मप्रवचन</prAwipaxikam>
 <seg>धर्मः-प्रवचनः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">बुद्ध का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मबाणिजिकः</root>
+<dentry>धर्मबाणिजिकः</dentry>
 <prAwipaxikam>धर्मबाणिजिक</prAwipaxikam>
 <seg>धर्मः-बाणिजिकः</seg>
 <grammar>पुं*</grammar>
@@ -1779,7 +1779,7 @@
 <sense no="2">लाभदायक व्यवसाय को करने वाले व्यापारी की भांति जो पुरस्कार पाने की इच्छा से धार्मिक कृत्यों का सम्पादन करता है।</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मभगिनी</root>
+<dentry>धर्मभगिनी</dentry>
 <prAwipaxikam>धर्मभगिनी</prAwipaxikam>
 <seg>धर्मः-भगिनी</seg>
 <grammar>स्त्री*</grammar>
@@ -1788,21 +1788,21 @@
 <sense no="3">धर्मबहन, अनुरूप धार्मिक कर्त्तव्यों का पालन करते हुए जिसको बहन मान लिया जाता है।</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मभागिनी</root>
+<dentry>धर्मभागिनी</dentry>
 <prAwipaxikam>धर्मभागिनी</prAwipaxikam>
 <seg>धर्मः-भागिनी</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">साध्वी पत्नी</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मभाणकः</root>
+<dentry>धर्मभाणकः</dentry>
 <prAwipaxikam>धर्मभाणक</prAwipaxikam>
 <seg>धर्मः-भाणकः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">व्याख्यानदाता जो महाभारत तथा भागवत आदि ग्रन्थों की व्याख्या सार्वजनिक रूप से अपने श्रोताओं के सामने रखता है।</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मभ्रातृ</root>
+<dentry>धर्मभ्रातृ</dentry>
 <prAwipaxikam>धर्मभ्रातृ</prAwipaxikam>
 <seg>धर्मः-भ्रातृ</seg>
 <grammar>पुं*</grammar>
@@ -1810,35 +1810,35 @@
 <sense no="2">वह व्यक्ति जिसको अनुरूप धार्मिक कर्त्तव्यों का पालन करते हुए, भाई मान लिया जाता है।</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्ममहामात्रः</root>
+<dentry>धर्ममहामात्रः</dentry>
 <prAwipaxikam>धर्ममहामात्र</prAwipaxikam>
 <seg>धर्मः-महामात्रः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">धर्ममंत्री, धार्मिक मामलों का मंत्री</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्ममूलम्</root>
+<dentry>धर्ममूलम्</dentry>
 <prAwipaxikam>धर्ममूल</prAwipaxikam>
 <seg>धर्मः-मूलम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">नागरिक या धार्मिक क़ानूनों की नींव, वेद</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मयुगम्</root>
+<dentry>धर्मयुगम्</dentry>
 <prAwipaxikam>धर्मयुग</prAwipaxikam>
 <seg>धर्मः-युगम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">सतयुग, कृतयुग</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मयूपः</root>
+<dentry>धर्मयूपः</dentry>
 <prAwipaxikam>धर्मयूप</prAwipaxikam>
 <seg>धर्मः-यूपः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">विष्णु का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मरति</root>
+<dentry>धर्मरति</dentry>
 <prAwipaxikam>धर्मरति</prAwipaxikam>
 <seg>धर्मः-रति</seg>
 <grammar>वि*</grammar>
@@ -1846,14 +1846,14 @@
 <sense no="1">भलाई और न्याय में प्रसन्नता प्राप्त करने वाला, नेक, पुण्यात्मा, न्यायशील<citation>रघु* १/२३</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मराज्</root>
+<dentry>धर्मराज्</dentry>
 <prAwipaxikam>धर्मराज्</prAwipaxikam>
 <seg>धर्मः-राज्</seg>
 <grammar>पुं*</grammar>
 <sense no="1">यम का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मराजः</root>
+<dentry>धर्मराजः</dentry>
 <prAwipaxikam>धर्मराज</prAwipaxikam>
 <seg>धर्मः-राजः</seg>
 <grammar>पुं*</grammar>
@@ -1866,7 +1866,7 @@
 <sense no="4">राजा का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मरोधिन्</root>
+<dentry>धर्मरोधिन्</dentry>
 <prAwipaxikam>धर्मरोधिन्</prAwipaxikam>
 <seg>धर्मः-रोधिन्</seg>
 <grammar>वि*</grammar>
@@ -1875,7 +1875,7 @@
 <sense no="2">अनैतिक</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मलक्षणम्</root>
+<dentry>धर्मलक्षणम्</dentry>
 <prAwipaxikam>धर्मलक्षण</prAwipaxikam>
 <seg>धर्मः-लक्षणम्</seg>
 <grammar>नपुं*</grammar>
@@ -1883,14 +1883,14 @@
 <sense no="2">वेद</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मलक्षणा</root>
+<dentry>धर्मलक्षणा</dentry>
 <prAwipaxikam>धर्मलक्षणा</prAwipaxikam>
 <seg>धर्मः-लक्षणा</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">मीमांसा दर्शन</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मलोपः</root>
+<dentry>धर्मलोपः</dentry>
 <prAwipaxikam>धर्मलोप</prAwipaxikam>
 <seg>धर्मः-लोपः</seg>
 <grammar>पुं*</grammar>
@@ -1898,7 +1898,7 @@
 <sense no="2">कर्त्तव्य का उल्लंघन<citation>रघु* १/७६</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मवत्सल</root>
+<dentry>धर्मवत्सल</dentry>
 <prAwipaxikam>धर्मवत्सल</prAwipaxikam>
 <seg>धर्मः-वत्सल</seg>
 <grammar>वि*</grammar>
@@ -1906,7 +1906,7 @@
 <sense no="1">कर्त्तव्यशील, धर्मात्मा</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मवर्तिन्</root>
+<dentry>धर्मवर्तिन्</dentry>
 <prAwipaxikam>धर्मवर्तिन्</prAwipaxikam>
 <seg>धर्मः-वर्तिन्</seg>
 <grammar>वि*</grammar>
@@ -1914,14 +1914,14 @@
 <sense no="1">न्याय परायण, नेक</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मवासरः</root>
+<dentry>धर्मवासरः</dentry>
 <prAwipaxikam>धर्मवासर</prAwipaxikam>
 <seg>धर्मः-वासरः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">पूर्णिमा का दिन</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मवाहनः</root>
+<dentry>धर्मवाहनः</dentry>
 <prAwipaxikam>धर्मवाहन</prAwipaxikam>
 <seg>धर्मः-वाहनः</seg>
 <grammar>पुं*</grammar>
@@ -1929,7 +1929,7 @@
 <sense no="2">भैंसा यम की सवारी</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मविद्</root>
+<dentry>धर्मविद्</dentry>
 <prAwipaxikam>धर्मविद्</prAwipaxikam>
 <seg>धर्मः-विद्</seg>
 <grammar>वि*</grammar>
@@ -1937,21 +1937,21 @@
 <sense no="1">कर्त्तव्य का ज्ञाता नागरिक तथा धर्म विषयक</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मविधिः</root>
+<dentry>धर्मविधिः</dentry>
 <prAwipaxikam>धर्मविधि</prAwipaxikam>
 <seg>धर्मः-विधिः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">वैध उपदेश या व्यादेश</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मविप्लवः</root>
+<dentry>धर्मविप्लवः</dentry>
 <prAwipaxikam>धर्मविप्लव</prAwipaxikam>
 <seg>धर्मः-विप्लवः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">कर्त्तव्य का उल्लंघन, अनैतिकता</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मवीरः</root>
+<dentry>धर्मवीरः</dentry>
 <prAwipaxikam>धर्मवीर</prAwipaxikam>
 <seg>धर्मः-वीरः</seg>
 <grammar>पुं*</grammar>
@@ -1959,7 +1959,7 @@
 <sense no="2">भलाई या पवित्रता के कारण उत्पन्न वीर रस, शौर्यसहित पवित्रता का रससपदि विलयमेतु राजलक्ष्मीरुपरि पतन्त्वथवा कृपाणधाराः, अपहरतुतरां शिरः कृतान्तो मम तु मतिर्न मनागपैतु धर्मात्। रस* में निम्नांकित उदाहरण दिया गया है-</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मवृद्ध</root>
+<dentry>धर्मवृद्ध</dentry>
 <prAwipaxikam>धर्मवृद्ध</prAwipaxikam>
 <seg>धर्मः-वृद्ध</seg>
 <grammar>वि*</grammar>
@@ -1967,14 +1967,14 @@
 <sense no="1">सद्गुण व पवित्रता की दृष्टि से आगे बढ़ा हुआ<citation>कु* ५/१६ बूढ़ा</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मवैतंसिकः</root>
+<dentry>धर्मवैतंसिकः</dentry>
 <prAwipaxikam>धर्मवैतंसिक</prAwipaxikam>
 <seg>धर्मः-वैतंसिकः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">वह जो अपने आपको उदार प्रकट करने की आशा में, अवैधरूप से कमाये हुए धन को दान कर देता है।</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मशाला</root>
+<dentry>धर्मशाला</dentry>
 <prAwipaxikam>धर्मशाला</prAwipaxikam>
 <seg>धर्मः-शाला</seg>
 <grammar>स्त्री*</grammar>
@@ -1982,21 +1982,21 @@
 <sense no="2">धर्मार्थसंस्था</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मशासनम्</root>
+<dentry>धर्मशासनम्</dentry>
 <prAwipaxikam>धर्मशासन</prAwipaxikam>
 <seg>धर्मः-शासनम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">धर्मसंहिता न्यायशास्त्र<citation>हि* १/१७</citation><citation>याज्ञ* १/५</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मशास्त्रम्</root>
+<dentry>धर्मशास्त्रम्</dentry>
 <prAwipaxikam>धर्मशास्त्र</prAwipaxikam>
 <seg>धर्मः-शास्त्रम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">धर्मसंहिता न्यायशास्त्र</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मशील</root>
+<dentry>धर्मशील</dentry>
 <prAwipaxikam>धर्मशील</prAwipaxikam>
 <seg>धर्मः-शील</seg>
 <grammar>वि*</grammar>
@@ -2004,7 +2004,7 @@
 <sense no="1">न्यायशील, पुण्यात्मा, सदाचारी या सद्गुणी</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मसंहिता</root>
+<dentry>धर्मसंहिता</dentry>
 <prAwipaxikam>धर्मसंहिता</prAwipaxikam>
 <seg>धर्मः-संहिता</seg>
 <grammar>स्त्री*</grammar>
@@ -2013,7 +2013,7 @@
 <sense no="1">धर्मशास्त्र विशेष रूप से मनु, याज्ञवल्क्य आदि ऋषियों द्वारा प्रणीत स्मृतियाँ</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मसङ्गः</root>
+<dentry>धर्मसङ्गः</dentry>
 <prAwipaxikam>धर्मसङ्ग</prAwipaxikam>
 <seg>धर्मः-सङ्गः</seg>
 <grammar>पुं*</grammar>
@@ -2021,14 +2021,14 @@
 <sense no="2">पाखंड</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मसभा</root>
+<dentry>धर्मसभा</dentry>
 <prAwipaxikam>धर्मसभा</prAwipaxikam>
 <seg>धर्मः-सभा</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">न्यायालय</sense>
 </segmenthd>
 <segmenthd>
-<root>धर्मसहायः</root>
+<dentry>धर्मसहायः</dentry>
 <prAwipaxikam>धर्मसहाय</prAwipaxikam>
 <seg>धर्मः-सहायः</seg>
 <grammar>पुं*</grammar>
@@ -2037,7 +2037,7 @@
 </lexhead>
 
 <lexhead no="824">
-<root>धर्मतः</root>
+<dentry>धर्मतः</dentry>
 <prAwipaxikam>धर्मत</prAwipaxikam>
 <grammar>अव्य*</grammar>
 <etymology>[धर्म+ तसिल्]</etymology>
@@ -2047,7 +2047,7 @@
 </lexhead>
 
 <lexhead no="825">
-<root>धर्मयु</root>
+<dentry>धर्मयु</dentry>
 <prAwipaxikam>धर्मयु</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धर्मयु</prAwipaxikam>
@@ -2056,7 +2056,7 @@
 </lexhead>
 
 <lexhead no="826">
-<root>धर्मिन्</root>
+<dentry>धर्मिन्</dentry>
 <prAwipaxikam>धर्मिन्</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धर्मिन्</prAwipaxikam>
@@ -2069,14 +2069,14 @@
 </lexhead>
 
 <lexhead no="827">
-<root>धर्मीपुत्रः</root>
+<dentry>धर्मीपुत्रः</dentry>
 <prAwipaxikam>धर्मीपुत्र</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">अभिनेता, नाटक का पात्र, खिलाड़ी</sense>
 </lexhead>
 
 <lexhead no="828">
-<root>धर्म्य</root>
+<dentry>धर्म्य</dentry>
 <prAwipaxikam>धर्म्य</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धर्म्य</prAwipaxikam>
@@ -2089,7 +2089,7 @@
 </lexhead>
 
 <lexhead no="829">
-<root>धर्षः</root>
+<dentry>धर्षः</dentry>
 <prAwipaxikam>धर्ष</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धृष्+ घञ्]</etymology>
@@ -2101,7 +2101,7 @@
 <sense n="6">क्षति, बुराई, अवज्ञा</sense>
 <sense n="7">हीजड़ा</sense>
 <segmenthd>
-<root>धर्षकारिणी</root>
+<dentry>धर्षकारिणी</dentry>
 <prAwipaxikam>धर्षकारिणी</prAwipaxikam>
 <seg>धर्षः-कारिणी</seg>
 <grammar>स्त्री*</grammar>
@@ -2110,7 +2110,7 @@
 </lexhead>
 
 <lexhead no="830">
-<root>धर्षक</root>
+<dentry>धर्षक</dentry>
 <prAwipaxikam>धर्षक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धर्षक</prAwipaxikam>
@@ -2121,7 +2121,7 @@
 </lexhead>
 
 <lexhead no="831">
-<root>धर्षकः</root>
+<dentry>धर्षकः</dentry>
 <prAwipaxikam>धर्षक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">सतीत्वहर्ता, व्यभिचारी, बलात्कारी</sense>
@@ -2129,7 +2129,7 @@
 </lexhead>
 
 <lexhead no="832">
-<root>धर्षणम्</root>
+<dentry>धर्षणम्</dentry>
 <prAwipaxikam>धर्षण</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धृष्+ ल्युट्]</etymology>
@@ -2142,7 +2142,7 @@
 </lexhead>
 
 <lexhead no="833">
-<root>धर्षणा</root>
+<dentry>धर्षणा</dentry>
 <prAwipaxikam>धर्षणा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <sense no="1">धृष्टता, अविनय</sense>
@@ -2154,7 +2154,7 @@
 </lexhead>
 
 <lexhead no="834">
-<root>धर्षणिः</root>
+<dentry>धर्षणिः</dentry>
 <prAwipaxikam>धर्षणि</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धृष्+ अनि]</etymology>
@@ -2162,7 +2162,7 @@
 </lexhead>
 
 <lexhead no="835">
-<root>धर्षणी</root>
+<dentry>धर्षणी</dentry>
 <prAwipaxikam>धर्षणी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धर्षणि+ ङीष्]</etymology>
@@ -2170,7 +2170,7 @@
 </lexhead>
 
 <lexhead no="836">
-<root>धर्षित</root>
+<dentry>धर्षित</dentry>
 <prAwipaxikam>धर्षित</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धर्षित</prAwipaxikam>
@@ -2181,7 +2181,7 @@
 </lexhead>
 
 <lexhead no="837">
-<root>धर्षितम्</root>
+<dentry>धर्षितम्</dentry>
 <prAwipaxikam>धर्षित</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <sense no="1">औद्धत्य, घमंड</sense>
@@ -2189,14 +2189,14 @@
 </lexhead>
 
 <lexhead no="838">
-<root>धर्षिता</root>
+<dentry>धर्षिता</dentry>
 <prAwipaxikam>धर्षिता</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <sense no="1">कुलटा, असती स्त्री</sense>
 </lexhead>
 
 <lexhead no="839">
-<root>धर्षिन्</root>
+<dentry>धर्षिन्</dentry>
 <prAwipaxikam>धर्षिन्</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धर्षिन्</prAwipaxikam>
@@ -2209,7 +2209,7 @@
 </lexhead>
 
 <lexhead no="840">
-<root>धर्षिणी</root>
+<dentry>धर्षिणी</dentry>
 <prAwipaxikam>धर्षिणी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <kind_of>स्त्री</kind_of>
@@ -2218,7 +2218,7 @@
 </lexhead>
 
 <lexhead no="841">
-<root>धवः</root>
+<dentry>धवः</dentry>
 <prAwipaxikam>धव</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धु+ अप्]</etymology>
@@ -2236,7 +2236,7 @@
 </lexhead>
 
 <lexhead no="842">
-<root>धवलः</root>
+<dentry>धवलः</dentry>
 <prAwipaxikam>धवल</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धवं कम्पं लाति- ला+ क तारा*]</etymology>
@@ -2252,7 +2252,7 @@
 </lexhead>
 
 <lexhead no="843">
-<root>धवलम्</root>
+<dentry>धवलम्</dentry>
 <prAwipaxikam>धवल</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <kind_of>शुक्लादयः</kind_of>
@@ -2261,21 +2261,21 @@
 </lexhead>
 
 <lexhead no="844">
-<root>धवला</root>
+<dentry>धवला</dentry>
 <prAwipaxikam>धवला</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <kind_of>गौः</kind_of>
 <jAwi>स्तनपायी</jAwi>
 <sense no="1">सफ़ेद गाय, धौली गाय</sense>
 <segmenthd>
-<root>धवलोत्पलम्</root>
+<dentry>धवलोत्पलम्</dentry>
 <prAwipaxikam>धवलोत्पल</prAwipaxikam>
 <seg>धवलः-उत्पलम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">श्वेत कुमुद चन्द्रोदय होने पर इस का खिलना प्रसिद्ध है।</sense>
 </segmenthd>
 <segmenthd>
-<root>धवलगिरिः</root>
+<dentry>धवलगिरिः</dentry>
 <prAwipaxikam>धवलगिरि</prAwipaxikam>
 <seg>धवलः-गिरिः</seg>
 <grammar>पुं*</grammar>
@@ -2288,7 +2288,7 @@
 </lexhead>
 
 <lexhead no="845">
-<root>धवलित</root>
+<dentry>धवलित</dentry>
 <prAwipaxikam>धवलित</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धवलित</prAwipaxikam>
@@ -2297,7 +2297,7 @@
 </lexhead>
 
 <lexhead no="846">
-<root>धवलिमन्</root>
+<dentry>धवलिमन्</dentry>
 <prAwipaxikam>धवलिमन्</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धवल+इमनिच्]</etymology>
@@ -2306,7 +2306,7 @@
 </lexhead>
 
 <lexhead no="847">
-<root>धवित्रम्</root>
+<dentry>धवित्रम्</dentry>
 <prAwipaxikam>धवित्र</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धू+ इत्र]</etymology>
@@ -2317,7 +2317,7 @@
 </lexhead>
 
 <lexhead no="848">
-<root>धा</root>
+<dentry>धा</dentry>
 <prAwipaxikam>धा</prAwipaxikam>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI><vform>दधाति</vform>,<vform>धत्ते</vform>,<vform>हित</vform>, कर्मवा*<vform>धीयते</vform>, पुं*</grammar>
 <sense no="1">रखना, धरना, जड़ना, लिटा देना, भर्ती करना, तह जमाना, विज्ञातदोषेषु दधाति दण्डम्-<citation>महा*</citation>निःशंकं धीयते लोकैः पश्य भस्मचये पदम्-<citation>हि* २/१७३</citation>अने* पा* ’दीयते’ के स्थान पर</sense>
@@ -2333,14 +2333,14 @@
 <sense n="11">सहना, भोगना, ग्रस्त होना<citation>शि* ९/२</citation>३२, ६६</sense>
 <sense n="12">सम्पन्न करना ’दा’ की भांति इस धातु के अर्थ भी दूसरे शब्दों के साथ जुड़ने से विविध प्रकार के हो जाते हैं, उदा* मनःधाः, मर्तिधा, धियं धा- मन को लगाना, विचारों को लगाना, दृढ़ संकल्प करना; पदं धा- पग रखना, प्रविष्ट होना; कर्णे करं धा- कान पर हाथ रखना</sense>
 <segmenthd>
-<root>अतिसन्धा</root>
+<dentry>अतिसन्धा</dentry>
 <prAwipaxikam>अतिसन्धा</prAwipaxikam>
 <seg>अतिसम्-धा</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="5">ठगना, धोखा देनाभगवन् कुसुमायुध त्वया चन्द्रमसा च विश्वसनीयाभ्यामतिसंधीयते कामिजनसार्थः-<citation>श* ३</citation><citation>विक्रम* २</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>अन्तर्धा</root>
+<dentry>अन्तर्धा</dentry>
 <prAwipaxikam>अन्तर्धा</prAwipaxikam>
 <seg>अन्तर्-धा</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
@@ -2349,7 +2349,7 @@
 <sense no="3">ढकना, छिपाना, दृष्टि से ओझल करना, लपेटना, टांकनापितुरंन्तर्दधे कीर्टिं शीलवृत्तसमाधिभिः-<citation>महा*</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>अनुसन्धा</root>
+<dentry>अनुसन्धा</dentry>
 <prAwipaxikam>अनुसन्धा</prAwipaxikam>
 <seg>अनुसम्-धा</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
@@ -2359,7 +2359,7 @@
 <sense no="4">योजना बनाना, क्रमबद्ध करना, क्रम में रखना</sense>
 </segmenthd>
 <segmenthd>
-<root>अपिधा</root>
+<dentry>अपिधा</dentry>
 <prAwipaxikam>अपिधा</prAwipaxikam>
 <seg>अपि-धा</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
@@ -2368,7 +2368,7 @@
 <sense no="3">रोकना, बाधा डालना, प्रतिबंध लगानाभुजङ्गपिहितद्वारं पातालमधितिष्ठति।<citation>रघु* १/८०</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>अभिधा</root>
+<dentry>अभिधा</dentry>
 <prAwipaxikam>अभिधा</prAwipaxikam>
 <seg>अभि-धा</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
@@ -2377,7 +2377,7 @@
 <sense no="3">अभिधान होना, पुकारना</sense>
 </segmenthd>
 <segmenthd>
-<root>अभिसन्धा</root>
+<dentry>अभिसन्धा</dentry>
 <prAwipaxikam>अभिसन्धा</prAwipaxikam>
 <seg>अभिसम्-धा</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
@@ -2389,21 +2389,21 @@
 <sense no="6">जोड़ना</sense>
 </segmenthd>
 <segmenthd>
-<root>अभ्याधा</root>
+<dentry>अभ्याधा</dentry>
 <prAwipaxikam>अभ्याधा</prAwipaxikam>
 <seg>अभ्या-धा</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">नीचे रखना, नीचे फेंकना</sense>
 </segmenthd>
 <segmenthd>
-<root>अवधा</root>
+<dentry>अवधा</dentry>
 <prAwipaxikam>अवधा</prAwipaxikam>
 <seg>अव-धा</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">सावधान होना, ध्यान देना, कान देनाइतोऽवधत्तां देवराजः-<citation>महावी* ६</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>आधा</root>
+<dentry>आधा</dentry>
 <prAwipaxikam>आधा</prAwipaxikam>
 <seg>आ-धा</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
@@ -2418,14 +2418,14 @@
 <sense no="9">अनुष्ठान करना, पालन करना व्रत आदि का</sense>
 </segmenthd>
 <segmenthd>
-<root>धाविस्</root>
+<dentry>धाविस्</dentry>
 <prAwipaxikam>धाविस्</prAwipaxikam>
 <seg>धा-आविस्</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">भेद खोलना, प्रकट करना श्रेण्य-साहित्य में बहुत प्रयोग नहीं</sense>
 </segmenthd>
 <segmenthd>
-<root>उपधा</root>
+<dentry>उपधा</dentry>
 <prAwipaxikam>उपधा</prAwipaxikam>
 <seg>उप-धा</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
@@ -2439,7 +2439,7 @@
 <sense no="8">देना, जताना, समाचार देना</sense>
 </segmenthd>
 <segmenthd>
-<root>उपाधा</root>
+<dentry>उपाधा</dentry>
 <prAwipaxikam>उपाधा</prAwipaxikam>
 <seg>उपा-धा</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
@@ -2448,21 +2448,21 @@
 <sense no="3">पैदा करना, सर्जन करना, उत्पादन करना<citation>भर्तृ* ३/८५</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>तिरस्-धा</root>
+<dentry>तिरस्-धा</dentry>
 <prAwipaxikam>तिरस्-धा</prAwipaxikam>
 <seg>तिरस्-धा</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">छिपाना, गुप्त रखना</sense>
 </segmenthd>
 <segmenthd>
-<root>तिरोधा</root>
+<dentry>तिरोधा</dentry>
 <prAwipaxikam>तिरोधा</prAwipaxikam>
 <seg>तिरस्-धा</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">लुप्त होना, ओझल होनाअभिवृष्यमरुत्सस्यं कृष्णमेघस्तिरोदधे-<citation>रघु* १०/४८</citation>११/९१ आ*  तिरस् के नी* भी देखिये</sense>
 </segmenthd>
 <segmenthd>
-<root>निधा</root>
+<dentry>निधा</dentry>
 <prAwipaxikam>निधा</prAwipaxikam>
 <seg>नि*-धा</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
@@ -2473,7 +2473,7 @@
 <sense no="5">दफन करना, गाड़ देना, छिपाना<citation>मनु* ५/६८ भूमि के अन्दर</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>परिधा</root>
+<dentry>परिधा</dentry>
 <prAwipaxikam>परिधा</prAwipaxikam>
 <seg>परि-धा</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
@@ -2482,7 +2482,7 @@
 <sense no="3">किसी की ओर संकेत करना</sense>
 </segmenthd>
 <segmenthd>
-<root>पुरोधा</root>
+<dentry>पुरोधा</dentry>
 <prAwipaxikam>पुरोधा</prAwipaxikam>
 <seg>पुरस्-धा</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
@@ -2490,7 +2490,7 @@
 <sense no="2">कुलपुरोहित बनाना</sense>
 </segmenthd>
 <segmenthd>
-<root>प्रणिधा</root>
+<dentry>प्रणिधा</dentry>
 <prAwipaxikam>प्रणिधा</prAwipaxikam>
 <seg>प्रणि-धा</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
@@ -2501,7 +2501,7 @@
 <sense no="5">बाहर भेजना चर के रूप में</sense>
 </segmenthd>
 <segmenthd>
-<root>प्रतिविधा</root>
+<dentry>प्रतिविधा</dentry>
 <prAwipaxikam>प्रतिविधा</prAwipaxikam>
 <seg>प्रतिवि-धा</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
@@ -2510,7 +2510,7 @@
 <sense no="3">प्रेषित करना, भेजना</sense>
 </segmenthd>
 <segmenthd>
-<root>प्रविधा</root>
+<dentry>प्रविधा</dentry>
 <prAwipaxikam>प्रविधा</prAwipaxikam>
 <seg>प्रवि-धा</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
@@ -2518,7 +2518,7 @@
 <sense no="2">करना, बनाना</sense>
 </segmenthd>
 <segmenthd>
-<root>विधा</root>
+<dentry>विधा</dentry>
 <prAwipaxikam>विधा</prAwipaxikam>
 <seg>वि-धा</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
@@ -2533,7 +2533,7 @@
 <sense no="9">तैयार करना, तत्पर करना</sense>
 </segmenthd>
 <segmenthd>
-<root>व्यवधा</root>
+<dentry>व्यवधा</dentry>
 <prAwipaxikam>व्यवधा</prAwipaxikam>
 <seg>व्यव-धा</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
@@ -2541,14 +2541,14 @@
 <sense no="2">छिपाना, ढकना, पर्दा डालनाशापव्यवहितस्मृतः-<citation>श* ५</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>श्रद्धा</root>
+<dentry>श्रद्धा</dentry>
 <prAwipaxikam>श्रद्धा</prAwipaxikam>
 <seg>श्रद्-धा</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">भरोसा करना, विश्वास रखनाकः श्रद्धास्यति भूतार्थम्-<citation>मृच्छ* ३/२४</citation>श्रद्धे त्रिदशगोपमात्रके दाहशक्तिमति कृष्णवर्त्मनि-<citation>रघु* ११/४२ कर्म* के साथ</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>सन्धा</root>
+<dentry>सन्धा</dentry>
 <prAwipaxikam>सन्धा</prAwipaxikam>
 <seg>सम्-धा</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
@@ -2564,7 +2564,7 @@
 <sense no="10">अनुदान देना</sense>
 </segmenthd>
 <segmenthd>
-<root>सन्निधा</root>
+<dentry>सन्निधा</dentry>
 <prAwipaxikam>सन्निधा</prAwipaxikam>
 <seg>सन्नि-धा</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
@@ -2575,7 +2575,7 @@
 <sense no="5">निकट लाना, एकत्र संग्रह करना</sense>
 </segmenthd>
 <segmenthd>
-<root>समाधा</root>
+<dentry>समाधा</dentry>
 <prAwipaxikam>समाधा</prAwipaxikam>
 <seg>समा-धा</seg>
 <grammar><gaNa>जुहो*</gaNa><paxI>उभ*</paxI></grammar>
@@ -2593,7 +2593,7 @@
 </lexhead>
 
 <lexhead no="849">
-<root>धाकः</root>
+<dentry>धाकः</dentry>
 <prAwipaxikam>धाक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धा+ क- उणा*- तस्य नेत्त्वम्]</etymology>
@@ -2604,7 +2604,7 @@
 </lexhead>
 
 <lexhead no="850">
-<root>धाटी</root>
+<dentry>धाटी</dentry>
 <prAwipaxikam>धाटी</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धट्+ घञ्+ ङीप्]</etymology>
@@ -2612,7 +2612,7 @@
 </lexhead>
 
 <lexhead no="851">
-<root>धाणकः</root>
+<dentry>धाणकः</dentry>
 <prAwipaxikam>धाणक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धा+ आणक]</etymology>
@@ -2620,7 +2620,7 @@
 </lexhead>
 
 <lexhead no="852">
-<root>धातुः</root>
+<dentry>धातुः</dentry>
 <prAwipaxikam>धातु</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धा+ तुन्]</etymology>
@@ -2646,14 +2646,14 @@
 <sense n="10">पाँच महाभूतों का गुण अर्थात् रूप, रस, गंध, स्पर्श और शब्द</sense>
 <sense n="11">हड्डी</sense>
 <segmenthd>
-<root>धातूपलः</root>
+<dentry>धातूपलः</dentry>
 <prAwipaxikam>धातूपल</prAwipaxikam>
 <seg>धातुः-उपलः</seg>
 <grammar>पुं*</grammar>
 <sense no="10">खड़िया, चाक्</sense>
 </segmenthd>
 <segmenthd>
-<root>धातुकाशीश</root>
+<dentry>धातुकाशीश</dentry>
 <prAwipaxikam>धातुकाशीश</prAwipaxikam>
 <seg>धातुः-काशीश</seg>
 <grammar>वि*</grammar>
@@ -2661,21 +2661,21 @@
 <sense no="1">कसीस</sense>
 </segmenthd>
 <segmenthd>
-<root>धातुकाशीशम्</root>
+<dentry>धातुकाशीशम्</dentry>
 <prAwipaxikam>धातुकाशीश</prAwipaxikam>
 <seg>धातुः-काशीशम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">कसीस</sense>
 </segmenthd>
 <segmenthd>
-<root>धातुकासीसम्</root>
+<dentry>धातुकासीसम्</dentry>
 <prAwipaxikam>धातुकासीस</prAwipaxikam>
 <seg>धातुः-कासीसम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">कसीस</sense>
 </segmenthd>
 <segmenthd>
-<root>धातुकसीस</root>
+<dentry>धातुकसीस</dentry>
 <prAwipaxikam>धातुकसीस</prAwipaxikam>
 <seg>धातुः-कसीस</seg>
 <grammar>वि*</grammar>
@@ -2683,7 +2683,7 @@
 <sense no="1">कसीस</sense>
 </segmenthd>
 <segmenthd>
-<root>धातुकुशल</root>
+<dentry>धातुकुशल</dentry>
 <prAwipaxikam>धातुकुशल</prAwipaxikam>
 <seg>धातुः-कुशल</seg>
 <grammar>वि*</grammar>
@@ -2691,56 +2691,56 @@
 <sense no="1">धातु के कार्यों में दक्ष</sense>
 </segmenthd>
 <segmenthd>
-<root>धातुक्रिया</root>
+<dentry>धातुक्रिया</dentry>
 <prAwipaxikam>धातुक्रिया</prAwipaxikam>
 <seg>धातुः-क्रिया</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">धातुकार्मिकी, धातुकर्म, खानित्री, धातुविज्ञान</sense>
 </segmenthd>
 <segmenthd>
-<root>धातुक्षयः</root>
+<dentry>धातुक्षयः</dentry>
 <prAwipaxikam>धातुक्षय</prAwipaxikam>
 <seg>धातुः-क्षयः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">शरीर के तत्त्वों का नाश, क्षयरोग</sense>
 </segmenthd>
 <segmenthd>
-<root>धातुजम्</root>
+<dentry>धातुजम्</dentry>
 <prAwipaxikam>धातुज</prAwipaxikam>
 <seg>धातुः-जम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">शिलाजीत, शैलज तेल</sense>
 </segmenthd>
 <segmenthd>
-<root>धातुद्रावकः</root>
+<dentry>धातुद्रावकः</dentry>
 <prAwipaxikam>धातुद्रावक</prAwipaxikam>
 <seg>धातुः-द्रावकः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">सुहागा</sense>
 </segmenthd>
 <segmenthd>
-<root>धातुपः</root>
+<dentry>धातुपः</dentry>
 <prAwipaxikam>धातुप</prAwipaxikam>
 <seg>धातुः-पः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">खाद्य, पौषिटक रस, शरीर के सात मूल उपादानों में मुख्य उपादान</sense>
 </segmenthd>
 <segmenthd>
-<root>धातुपाठः</root>
+<dentry>धातुपाठः</dentry>
 <prAwipaxikam>धातुपाठ</prAwipaxikam>
 <seg>धातुः-पाठः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">पाणिनि की व्याकरण पद्धति के अनुसार बनी धातुओं की सूची पाणिनि के सूत्रों के परिशिष्ट के रूप में धातु पाठ, पाणिनि निर्मित एक आवश्यक सूची है।</sense>
 </segmenthd>
 <segmenthd>
-<root>धातुभृत्</root>
+<dentry>धातुभृत्</dentry>
 <prAwipaxikam>धातुभृत्</prAwipaxikam>
 <seg>धातुः-भृत्</seg>
 <grammar>पुं*</grammar>
 <sense no="1">पहाड़</sense>
 </segmenthd>
 <segmenthd>
-<root>धातुमलम्</root>
+<dentry>धातुमलम्</dentry>
 <prAwipaxikam>धातुमल</prAwipaxikam>
 <seg>धातुः-मलम्</seg>
 <grammar>नपुं*</grammar>
@@ -2748,7 +2748,7 @@
 <sense no="2">सीसा</sense>
 </segmenthd>
 <segmenthd>
-<root>धातुमाक्षिकम्</root>
+<dentry>धातुमाक्षिकम्</dentry>
 <prAwipaxikam>धातुमाक्षिक</prAwipaxikam>
 <seg>धातुः-माक्षिकम्</seg>
 <grammar>नपुं*</grammar>
@@ -2756,70 +2756,70 @@
 <sense no="2">खनिज पदार्थ</sense>
 </segmenthd>
 <segmenthd>
-<root>धातुमारिन्</root>
+<dentry>धातुमारिन्</dentry>
 <prAwipaxikam>धातुमारिन्</prAwipaxikam>
 <seg>धातुः-मारिन्</seg>
 <grammar>पुं*</grammar>
 <sense no="1">गंधक</sense>
 </segmenthd>
 <segmenthd>
-<root>धातुराजकः</root>
+<dentry>धातुराजकः</dentry>
 <prAwipaxikam>धातुराजक</prAwipaxikam>
 <seg>धातुः-राजकः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">वीर्य</sense>
 </segmenthd>
 <segmenthd>
-<root>धातुवल्लभम्</root>
+<dentry>धातुवल्लभम्</dentry>
 <prAwipaxikam>धातुवल्लभ</prAwipaxikam>
 <seg>धातुः-वल्लभम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">सुहागा</sense>
 </segmenthd>
 <segmenthd>
-<root>धातुवादः</root>
+<dentry>धातुवादः</dentry>
 <prAwipaxikam>धातुवाद</prAwipaxikam>
 <seg>धातुः-वादः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">खनिज विज्ञान, धातुविज्ञान</sense>
 </segmenthd>
 <segmenthd>
-<root>धातुवादिन्</root>
+<dentry>धातुवादिन्</dentry>
 <prAwipaxikam>धातुवादिन्</prAwipaxikam>
 <seg>धातुः-वादिन्</seg>
 <grammar>पुं*</grammar>
 <sense no="1">खनिज विज्ञाता</sense>
 </segmenthd>
 <segmenthd>
-<root>धातुवैरिन्</root>
+<dentry>धातुवैरिन्</dentry>
 <prAwipaxikam>धातुवैरिन्</prAwipaxikam>
 <seg>धातुः-वैरिन्</seg>
 <grammar>पुं*</grammar>
 <sense no="1">गंधक</sense>
 </segmenthd>
 <segmenthd>
-<root>धातुशेखरम्</root>
+<dentry>धातुशेखरम्</dentry>
 <prAwipaxikam>धातुशेखर</prAwipaxikam>
 <seg>धातुः-शेखरम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">कासीस, गंधक का तेजाब</sense>
 </segmenthd>
 <segmenthd>
-<root>धातुशोधनम्</root>
+<dentry>धातुशोधनम्</dentry>
 <prAwipaxikam>धातुशोधन</prAwipaxikam>
 <seg>धातुः-शोधनम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">सीसा</sense>
 </segmenthd>
 <segmenthd>
-<root>धातुसंभवम्</root>
+<dentry>धातुसंभवम्</dentry>
 <prAwipaxikam>धातुसंभव</prAwipaxikam>
 <seg>धातुः-संभवम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">सीसा</sense>
 </segmenthd>
 <segmenthd>
-<root>धातुसाम्यम्</root>
+<dentry>धातुसाम्यम्</dentry>
 <prAwipaxikam>धातुसाम्य</prAwipaxikam>
 <seg>धातुः-साम्यम्</seg>
 <grammar>नपुं*</grammar>
@@ -2828,14 +2828,14 @@
 </lexhead>
 
 <lexhead no="853">
-<root>धातुमत्</root>
+<dentry>धातुमत्</dentry>
 <prAwipaxikam>धातुमत्</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धातुमत्</prAwipaxikam>
 <etymology>[धातु+ मतुप्]</etymology>
 <sense no="1">धातुओं से भरा हुआ, धातु संपन्न</sense>
 <segmenthd>
-<root>धातुमत्ता</root>
+<dentry>धातुमत्ता</dentry>
 <prAwipaxikam>धातुमत्ता</prAwipaxikam>
 <seg>धातुमत्-ता</seg>
 <grammar>स्त्री*</grammar>
@@ -2844,7 +2844,7 @@
 </lexhead>
 
 <lexhead no="854">
-<root>धातु</root>
+<dentry>धातु</dentry>
 <prAwipaxikam>धातु</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धा+ तृच्]</etymology>
@@ -2868,7 +2868,7 @@
 </lexhead>
 
 <lexhead no="855">
-<root>धात्रम्</root>
+<dentry>धात्रम्</dentry>
 <prAwipaxikam>धात्र</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धा+ ष्ट्रल्]</etymology>
@@ -2876,7 +2876,7 @@
 </lexhead>
 
 <lexhead no="856">
-<root>धात्री</root>
+<dentry>धात्री</dentry>
 <prAwipaxikam>धात्री</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धात्र+ ङीप्]</etymology>
@@ -2890,7 +2890,7 @@
 <sense n="3">पृथ्वी</sense>
 <sense n="4">आँवले का वृक्ष</sense>
 <segmenthd>
-<root>धात्रीपुत्रः</root>
+<dentry>धात्रीपुत्रः</dentry>
 <prAwipaxikam>धात्रीपुत्र</prAwipaxikam>
 <seg>धात्री-पुत्रः</seg>
 <grammar>पुं*</grammar>
@@ -2898,7 +2898,7 @@
 <sense no="2">अभिनेता</sense>
 </segmenthd>
 <segmenthd>
-<root>धात्रीफलम्</root>
+<dentry>धात्रीफलम्</dentry>
 <prAwipaxikam>धात्रीफल</prAwipaxikam>
 <seg>धात्री-फलम्</seg>
 <grammar>नपुं*</grammar>
@@ -2907,7 +2907,7 @@
 </lexhead>
 
 <lexhead no="857">
-<root>धात्रेयिका</root>
+<dentry>धात्रेयिका</dentry>
 <prAwipaxikam>धात्रेयिका</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धात्रेयी+ कन्+ टाप्, ह्रस्वः]</etymology>
@@ -2916,7 +2916,7 @@
 </lexhead>
 
 <lexhead no="858">
-<root>धात्रेयी</root>
+<dentry>धात्रेयी</dentry>
 <prAwipaxikam>धात्रेयी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धात्री ढक्- ङीप्]</etymology>
@@ -2925,7 +2925,7 @@
 </lexhead>
 
 <lexhead no="859">
-<root>धानम्</root>
+<dentry>धानम्</dentry>
 <prAwipaxikam>धान</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धा+ ल्युट्]</etymology>
@@ -2933,7 +2933,7 @@
 </lexhead>
 
 <lexhead no="860">
-<root>धानी</root>
+<dentry>धानी</dentry>
 <prAwipaxikam>धानी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धान+ ङीप्]</etymology>
@@ -2941,7 +2941,7 @@
 </lexhead>
 
 <lexhead no="861">
-<root>धानाः</root>
+<dentry>धानाः</dentry>
 <prAwipaxikam>धाना</prAwipaxikam>
 <grammar>स्त्री*</grammar><num>[ब* व*]</num>
 <etymology>[धान+ टाप्]</etymology>
@@ -2954,7 +2954,7 @@
 </lexhead>
 
 <lexhead no="862">
-<root>धानुर्दण्डिकः</root>
+<dentry>धानुर्दण्डिकः</dentry>
 <prAwipaxikam>धानुर्दण्डिक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धनुर्दण्ड+ ठक्]</etymology>
@@ -2962,7 +2962,7 @@
 </lexhead>
 
 <lexhead no="863">
-<root>धानुष्कः</root>
+<dentry>धानुष्कः</dentry>
 <prAwipaxikam>धानुष्क</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धनुष्+ टक्+ क]</etymology>
@@ -2973,7 +2973,7 @@
 </lexhead>
 
 <lexhead no="864">
-<root>धानुष्यः</root>
+<dentry>धानुष्यः</dentry>
 <prAwipaxikam>धानुष्य</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धनुष्+ ष्यञ्]</etymology>
@@ -2981,14 +2981,14 @@
 </lexhead>
 
 <lexhead no="865">
-<root>धांधा</root>
+<dentry>धांधा</dentry>
 <prAwipaxikam>धांधा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <sense no="1">इलायची</sense>
 </lexhead>
 
 <lexhead no="866">
-<root>धान्यम्</root>
+<dentry>धान्यम्</dentry>
 <prAwipaxikam>धान्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धान+ यत्]</etymology>
@@ -2996,7 +2996,7 @@
 <sense no="1">अनाज, अन्न, चावल, सस्य और धान्य, तथा तंडुल और अन्न की भिन्नता के लिए दे* तण्डुल</sense>
 <sense n="2">धनिया</sense>
 <segmenthd>
-<root>धान्याम्लम्</root>
+<dentry>धान्याम्लम्</dentry>
 <prAwipaxikam>धान्याम्ल</prAwipaxikam>
 <seg>धान्यम्-अम्लम्</seg>
 <grammar>नपुं*</grammar>
@@ -3005,28 +3005,28 @@
 <sense no="1">मांड़ से तैयार की हुई कांजी</sense>
 </segmenthd>
 <segmenthd>
-<root>धान्यार्थः</root>
+<dentry>धान्यार्थः</dentry>
 <prAwipaxikam>धान्यार्थ</prAwipaxikam>
 <seg>धान्यम्-अर्थः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">चावल या अनाज के रूप में धन</sense>
 </segmenthd>
 <segmenthd>
-<root>धान्यास्थि</root>
+<dentry>धान्यास्थि</dentry>
 <prAwipaxikam>धान्यास्थि</prAwipaxikam>
 <seg>धान्यम्-अस्थि</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">तूस या भूसी, चोकर</sense>
 </segmenthd>
 <segmenthd>
-<root>धान्योत्तमः</root>
+<dentry>धान्योत्तमः</dentry>
 <prAwipaxikam>धान्योत्तम</prAwipaxikam>
 <seg>धान्यम्-उत्तमः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">बढ़िया अन्न अर्थात् चावल</sense>
 </segmenthd>
 <segmenthd>
-<root>धान्यकल्कम्</root>
+<dentry>धान्यकल्कम्</dentry>
 <prAwipaxikam>धान्यकल्क</prAwipaxikam>
 <seg>धान्यम्-कल्कम्</seg>
 <grammar>नपुं*</grammar>
@@ -3034,35 +3034,35 @@
 <sense no="2">भूसी, चोकर, पुआल</sense>
 </segmenthd>
 <segmenthd>
-<root>धान्यकोशः</root>
+<dentry>धान्यकोशः</dentry>
 <prAwipaxikam>धान्यकोश</prAwipaxikam>
 <seg>धान्यम्-कोशः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">अनाज की खत्ती</sense>
 </segmenthd>
 <segmenthd>
-<root>धान्यकोष्ठकम्</root>
+<dentry>धान्यकोष्ठकम्</dentry>
 <prAwipaxikam>धान्यकोष्ठक</prAwipaxikam>
 <seg>धान्यम्-कोष्ठकम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">अनाज की खत्ती</sense>
 </segmenthd>
 <segmenthd>
-<root>धान्यक्षेत्रम्</root>
+<dentry>धान्यक्षेत्रम्</dentry>
 <prAwipaxikam>धान्यक्षेत्र</prAwipaxikam>
 <seg>धान्यम्-क्षेत्रम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">अनाज का खेत</sense>
 </segmenthd>
 <segmenthd>
-<root>धान्यचमसः</root>
+<dentry>धान्यचमसः</dentry>
 <prAwipaxikam>धान्यचमस</prAwipaxikam>
 <seg>धान्यम्-चमसः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">चौला, चिड़वा</sense>
 </segmenthd>
 <segmenthd>
-<root>धान्यत्वच्</root>
+<dentry>धान्यत्वच्</dentry>
 <prAwipaxikam>धान्यत्वच्</prAwipaxikam>
 <seg>धान्यम्-त्वच्</seg>
 <grammar>स्त्री*</grammar>
@@ -3071,56 +3071,56 @@
 <sense no="1">अनाज का छिल्का</sense>
 </segmenthd>
 <segmenthd>
-<root>धान्यमायः</root>
+<dentry>धान्यमायः</dentry>
 <prAwipaxikam>धान्यमाय</prAwipaxikam>
 <seg>धान्यम्-मायः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">अनाज का व्यापारी</sense>
 </segmenthd>
 <segmenthd>
-<root>धान्यराजः</root>
+<dentry>धान्यराजः</dentry>
 <prAwipaxikam>धान्यराज</prAwipaxikam>
 <seg>धान्यम्-राजः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">जौ</sense>
 </segmenthd>
 <segmenthd>
-<root>धान्यवर्धनम्</root>
+<dentry>धान्यवर्धनम्</dentry>
 <prAwipaxikam>धान्यवर्धन</prAwipaxikam>
 <seg>धान्यम्-वर्धनम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">व्याज के लिए अनाज उधार देना, अनाज की सूदखोरी</sense>
 </segmenthd>
 <segmenthd>
-<root>धान्यवीजम्</root>
+<dentry>धान्यवीजम्</dentry>
 <prAwipaxikam>धान्यवीज</prAwipaxikam>
 <seg>धान्यम्-वीजम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">धनिया बीजम्</sense>
 </segmenthd>
 <segmenthd>
-<root>धान्यवीरः</root>
+<dentry>धान्यवीरः</dentry>
 <prAwipaxikam>धान्यवीर</prAwipaxikam>
 <seg>धान्यम्-वीरः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">उड़द की दाल माष</sense>
 </segmenthd>
 <segmenthd>
-<root>धान्यशीर्षकम्</root>
+<dentry>धान्यशीर्षकम्</dentry>
 <prAwipaxikam>धान्यशीर्षक</prAwipaxikam>
 <seg>धान्यम्-शीर्षकम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">अनाज की बाल</sense>
 </segmenthd>
 <segmenthd>
-<root>धान्यशूकम्</root>
+<dentry>धान्यशूकम्</dentry>
 <prAwipaxikam>धान्यशूक</prAwipaxikam>
 <seg>धान्यम्-शूकम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">अनाज का सिर्टा, टूंड</sense>
 </segmenthd>
 <segmenthd>
-<root>धान्यसारः</root>
+<dentry>धान्यसारः</dentry>
 <prAwipaxikam>धान्यसार</prAwipaxikam>
 <seg>धान्यम्-सारः</seg>
 <grammar>पुं*</grammar>
@@ -3129,7 +3129,7 @@
 </lexhead>
 
 <lexhead no="867">
-<root>धान्या</root>
+<dentry>धान्या</dentry>
 <prAwipaxikam>धान्या</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धान्य+ टाप्]</etymology>
@@ -3137,7 +3137,7 @@
 </lexhead>
 
 <lexhead no="868">
-<root>धान्याकम्</root>
+<dentry>धान्याकम्</dentry>
 <prAwipaxikam>धान्याक</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धान्य+ टाप्, स्वार्थे कन् च]</etymology>
@@ -3147,7 +3147,7 @@
 </lexhead>
 
 <lexhead no="869">
-<root>धान्वन्</root>
+<dentry>धान्वन्</dentry>
 <prAwipaxikam>धान्वन्</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धान्वन्</prAwipaxikam>
@@ -3156,7 +3156,7 @@
 </lexhead>
 
 <lexhead no="870">
-<root>धामकः</root>
+<dentry>धामकः</dentry>
 <prAwipaxikam>धामक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ = धानक पृषो*]</etymology>
@@ -3164,7 +3164,7 @@
 </lexhead>
 
 <lexhead no="871">
-<root>धामन्</root>
+<dentry>धामन्</dentry>
 <prAwipaxikam>धामन्</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धा+ मनिन्]</etymology>
@@ -3186,14 +3186,14 @@
 <sense n="10">टोली, दल</sense>
 <sense n="11">अवस्था, दशा</sense>
 <segmenthd>
-<root>धामकेशिन्</root>
+<dentry>धामकेशिन्</dentry>
 <prAwipaxikam>धामकेशिन्</prAwipaxikam>
 <seg>धामन्-केशिन्</seg>
 <grammar>पुं*</grammar>
 <sense no="1">सूर्य</sense>
 </segmenthd>
 <segmenthd>
-<root>धामनिधिः</root>
+<dentry>धामनिधिः</dentry>
 <prAwipaxikam>धामनिधि</prAwipaxikam>
 <seg>धामन्-निधिः</seg>
 <grammar>पुं*</grammar>
@@ -3205,7 +3205,7 @@
 </lexhead>
 
 <lexhead no="872">
-<root>धामनिका</root>
+<dentry>धामनिका</dentry>
 <prAwipaxikam>धामनिका</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धामनी+ कन्+ टाप् ह्रस्वः]</etymology>
@@ -3215,7 +3215,7 @@
 </lexhead>
 
 <lexhead no="873">
-<root>धामनी</root>
+<dentry>धामनी</dentry>
 <prAwipaxikam>धामनी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धमनी+ अण्+ ङीप्]</etymology>
@@ -3225,7 +3225,7 @@
 </lexhead>
 
 <lexhead no="874">
-<root>धार</root>
+<dentry>धार</dentry>
 <prAwipaxikam>धार</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धार</prAwipaxikam>
@@ -3235,7 +3235,7 @@
 </lexhead>
 
 <lexhead no="875">
-<root>धारः</root>
+<dentry>धारः</dentry>
 <prAwipaxikam>धार</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">विष्णु का विशेषण</sense>
@@ -3247,7 +3247,7 @@
 </lexhead>
 
 <lexhead no="876">
-<root>धारकः</root>
+<dentry>धारकः</dentry>
 <prAwipaxikam>धारक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धृ = ण्वुल्]</etymology>
@@ -3256,7 +3256,7 @@
 </lexhead>
 
 <lexhead no="877">
-<root>धारण</root>
+<dentry>धारण</dentry>
 <prAwipaxikam>धारण</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धारण</prAwipaxikam>
@@ -3265,7 +3265,7 @@
 </lexhead>
 
 <lexhead no="878">
-<root>धारणम्</root>
+<dentry>धारणम्</dentry>
 <prAwipaxikam>धारण</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <sense no="1">संभालने, थामने, सहारा देने, संधारण करने या सुरक्षित रखने की क्रिया</sense>
@@ -3276,7 +3276,7 @@
 </lexhead>
 
 <lexhead no="879">
-<root>धारणी</root>
+<dentry>धारणी</dentry>
 <prAwipaxikam>धारणी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <sense no="1">पंक्ति या रेखा</sense>
@@ -3284,7 +3284,7 @@
 </lexhead>
 
 <lexhead no="880">
-<root>धारणकः</root>
+<dentry>धारणकः</dentry>
 <prAwipaxikam>धारणक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धारण+ कन्]</etymology>
@@ -3292,7 +3292,7 @@
 </lexhead>
 
 <lexhead no="881">
-<root>धारणा</root>
+<dentry>धारणा</dentry>
 <prAwipaxikam>धारणा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धारण+ टाप्]</etymology>
@@ -3307,14 +3307,14 @@
 <sense n="8">न्याय्यता, औचित्य, शालीनता</sense>
 <sense n="9">आस्था, विश्वास</sense>
 <segmenthd>
-<root>धारणायोगः</root>
+<dentry>धारणायोगः</dentry>
 <prAwipaxikam>धारणायोग</prAwipaxikam>
 <seg>धारणा-योगः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">गहरी भक्ति, मनोयोग</sense>
 </segmenthd>
 <segmenthd>
-<root>धारणाशक्तिः</root>
+<dentry>धारणाशक्तिः</dentry>
 <prAwipaxikam>धारणाशक्ति</prAwipaxikam>
 <seg>धारणा-शक्तिः</seg>
 <grammar>स्त्री*</grammar>
@@ -3323,7 +3323,7 @@
 </lexhead>
 
 <lexhead no="882">
-<root>धारयित्री</root>
+<dentry>धारयित्री</dentry>
 <prAwipaxikam>धारयित्री</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धृ+ णिच्+ तृच्+ ङीप्]</etymology>
@@ -3331,7 +3331,7 @@
 </lexhead>
 
 <lexhead no="883">
-<root>धारा</root>
+<dentry>धारा</dentry>
 <prAwipaxikam>धारा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धार+ टाप्]</etymology>
@@ -3355,14 +3355,14 @@
 <sense n="17">समानता</sense>
 <sense n="18">कान का अग्रभाग</sense>
 <segmenthd>
-<root>धाराग्रम्</root>
+<dentry>धाराग्रम्</dentry>
 <prAwipaxikam>धाराग्र</prAwipaxikam>
 <seg>धारा-अग्रम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">बाण का चौड़ा फलका</sense>
 </segmenthd>
 <segmenthd>
-<root>धाराङ्कुरः</root>
+<dentry>धाराङ्कुरः</dentry>
 <prAwipaxikam>धाराङ्कुर</prAwipaxikam>
 <seg>धारा-अङ्कुरः</seg>
 <grammar>पुं*</grammar>
@@ -3371,14 +3371,14 @@
 <sense no="3">सेना के आगे-आगे बढ़ते जाना शत्रु का मुकाबला करने के लिए</sense>
 </segmenthd>
 <segmenthd>
-<root>धाराङ्गः</root>
+<dentry>धाराङ्गः</dentry>
 <prAwipaxikam>धाराङ्ग</prAwipaxikam>
 <seg>धारा-अङ्गः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">तलवार</sense>
 </segmenthd>
 <segmenthd>
-<root>धाराटः</root>
+<dentry>धाराटः</dentry>
 <prAwipaxikam>धाराट</prAwipaxikam>
 <seg>धारा-अटः</seg>
 <grammar>पुं*</grammar>
@@ -3388,7 +3388,7 @@
 <sense no="4">मदमाता हाथी</sense>
 </segmenthd>
 <segmenthd>
-<root>धाराधिरूढ</root>
+<dentry>धाराधिरूढ</dentry>
 <prAwipaxikam>धाराधिरूढ</prAwipaxikam>
 <seg>धारा-अधिरूढ</seg>
 <grammar>वि*</grammar>
@@ -3396,28 +3396,28 @@
 <sense no="1">उच्चतम स्वर तक उठाया हुआ</sense>
 </segmenthd>
 <segmenthd>
-<root>धारावनिः</root>
+<dentry>धारावनिः</dentry>
 <prAwipaxikam>धारावनि</prAwipaxikam>
 <seg>धारा-अवनिः</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">हवा</sense>
 </segmenthd>
 <segmenthd>
-<root>धाराश्रु</root>
+<dentry>धाराश्रु</dentry>
 <prAwipaxikam>धाराश्रु</prAwipaxikam>
 <seg>धारा-अश्रु</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">अश्रु प्रवाह<citation>अमरु* १०</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धारासारः</root>
+<dentry>धारासारः</dentry>
 <prAwipaxikam>धारासार</prAwipaxikam>
 <seg>धारा-आसारः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">भारी वर्षा, मूसलाधार वर्षाधारासारैर्महती वृष्टिर्वभूव-<citation>हि* ३</citation><citation>विक्रम* ४/१</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धारोष्ण</root>
+<dentry>धारोष्ण</dentry>
 <prAwipaxikam>धारोष्ण</prAwipaxikam>
 <seg>धारा-उष्ण</seg>
 <grammar>वि*</grammar>
@@ -3425,14 +3425,14 @@
 <sense no="1">गरम गौ के स्तन से निकला हुआ  दूध</sense>
 </segmenthd>
 <segmenthd>
-<root>धारागृहम्</root>
+<dentry>धारागृहम्</dentry>
 <prAwipaxikam>धारागृह</prAwipaxikam>
 <seg>धारा-गृहम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">स्नानागार जिसमें फौवारा लगा हो, घर जिसमें फौवारे से सुसज्जित स्नानागार हो<citation>रघु* १६/४९</citation><citation>रत्त* १/१३</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धाराधरः</root>
+<dentry>धाराधरः</dentry>
 <prAwipaxikam>धाराधर</prAwipaxikam>
 <seg>धारा-धरः</seg>
 <grammar>पुं*</grammar>
@@ -3442,7 +3442,7 @@
 <sense no="2">तलवार</sense>
 </segmenthd>
 <segmenthd>
-<root>धारानिपातः</root>
+<dentry>धारानिपातः</dentry>
 <prAwipaxikam>धारानिपात</prAwipaxikam>
 <seg>धारा-निपातः</seg>
 <grammar>पुं*</grammar>
@@ -3450,7 +3450,7 @@
 <sense no="2">जल की धारा सरिता</sense>
 </segmenthd>
 <segmenthd>
-<root>धारापातः</root>
+<dentry>धारापातः</dentry>
 <prAwipaxikam>धारापात</prAwipaxikam>
 <seg>धारा-पातः</seg>
 <grammar>पुं*</grammar>
@@ -3458,35 +3458,35 @@
 <sense no="2">जल की धारा सरिता</sense>
 </segmenthd>
 <segmenthd>
-<root>धारायन्त्रम्</root>
+<dentry>धारायन्त्रम्</dentry>
 <prAwipaxikam>धारायन्त्र</prAwipaxikam>
 <seg>धारा-यन्त्रम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">फौवारा, झरना<citation>अमरु* ५९</citation><citation>रत्न* १/१२</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धारावर्षः</root>
+<dentry>धारावर्षः</dentry>
 <prAwipaxikam>धारावर्ष</prAwipaxikam>
 <seg>धारा-वर्षः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">लगातार घोर मूसलाधार वृष्टि<citation>रघु* ४/८२</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धारावर्षम्</root>
+<dentry>धारावर्षम्</dentry>
 <prAwipaxikam>धारावर्ष</prAwipaxikam>
 <seg>धारा-वर्षम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">लगातार घोर मूसलाधार वृष्टि</sense>
 </segmenthd>
 <segmenthd>
-<root>धारासंपातः</root>
+<dentry>धारासंपातः</dentry>
 <prAwipaxikam>धारासंपात</prAwipaxikam>
 <seg>धारा-संपातः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">लगातार घोर मूसलाधार वृष्टि</sense>
 </segmenthd>
 <segmenthd>
-<root>धारावाहिन्</root>
+<dentry>धारावाहिन्</dentry>
 <prAwipaxikam>धारावाहिन्</prAwipaxikam>
 <seg>धारा-वाहिन्</seg>
 <grammar>वि*</grammar>
@@ -3494,7 +3494,7 @@
 <sense no="1">अनवरत, लगातार<citation>उत्तर* ४/२</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धाराविषः</root>
+<dentry>धाराविषः</dentry>
 <prAwipaxikam>धाराविष</prAwipaxikam>
 <seg>धारा-विषः</seg>
 <grammar>पुं*</grammar>
@@ -3503,7 +3503,7 @@
 </lexhead>
 
 <lexhead no="884">
-<root>धारिणी</root>
+<dentry>धारिणी</dentry>
 <prAwipaxikam>धारिणी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धृ+ णिनि+ ङीप्]</etymology>
@@ -3511,7 +3511,7 @@
 </lexhead>
 
 <lexhead no="885">
-<root>धारिन्</root>
+<dentry>धारिन्</dentry>
 <prAwipaxikam>धारिन्</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धारिन्</prAwipaxikam>
@@ -3521,7 +3521,7 @@
 </lexhead>
 
 <lexhead no="886">
-<root>धार्तराष्ट्रः</root>
+<dentry>धार्तराष्ट्रः</dentry>
 <prAwipaxikam>धार्तराष्ट्र</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धृतराष्ट्र+ अण्]</etymology>
@@ -3532,7 +3532,7 @@
 </lexhead>
 
 <lexhead no="887">
-<root>धार्मिक</root>
+<dentry>धार्मिक</dentry>
 <prAwipaxikam>धार्मिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धार्मिक</prAwipaxikam>
@@ -3543,7 +3543,7 @@
 </lexhead>
 
 <lexhead no="888">
-<root>धार्मिणम्</root>
+<dentry>धार्मिणम्</dentry>
 <prAwipaxikam>धार्मिण</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धर्मिन्+ अण्]</etymology>
@@ -3551,7 +3551,7 @@
 </lexhead>
 
 <lexhead no="889">
-<root>धार्ष्टयम्</root>
+<dentry>धार्ष्टयम्</dentry>
 <prAwipaxikam>धार्ष्टय</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धृष्ट+ ष्यञ्]</etymology>
@@ -3559,7 +3559,7 @@
 </lexhead>
 
 <lexhead no="890">
-<root>धाव्</root>
+<dentry>धाव्</dentry>
 <prAwipaxikam>धाव्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI>-<vform>धावति</vform>,<vform>धावित</vform></grammar>
 <sense no="1">दौड़ना, आगे बढ़ना, अद्यापि धावति मनः-<citation>चौर* ३६</citation>धावन्त्यमी मृगजवाक्षमयेव रथ्याः-<citation>श* १/८</citation>गच्छति पुरः शरीरं धावति पश्चादसंस्तुतं चेतः- १/३४</sense>
@@ -3570,7 +3570,7 @@
 <sense n="6">उज्ज्वल करना, चमकाना</sense>
 <sense n="7">किसी व्यक्ति से टकराना</sense>
 <segmenthd>
-<root>निर्धाव्</root>
+<dentry>निर्धाव्</dentry>
 <prAwipaxikam>निर्धाव्</prAwipaxikam>
 <seg>निस्-धाव्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
@@ -3579,7 +3579,7 @@
 </lexhead>
 
 <lexhead no="891">
-<root>धावकः</root>
+<dentry>धावकः</dentry>
 <prAwipaxikam>धावक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धाव्+ ण्वुल्]</etymology>
@@ -3588,7 +3588,7 @@
 </lexhead>
 
 <lexhead no="892">
-<root>धावनम्</root>
+<dentry>धावनम्</dentry>
 <prAwipaxikam>धावन</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धाव्+ ल्युट्]</etymology>
@@ -3600,7 +3600,7 @@
 </lexhead>
 
 <lexhead no="893">
-<root>धावल्यम्</root>
+<dentry>धावल्यम्</dentry>
 <prAwipaxikam>धावल्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धवल+ ष्यञ्]</etymology>
@@ -3609,12 +3609,12 @@
 </lexhead>
 
 <lexhead no="894">
-<root>धि</root>
+<dentry>धि</dentry>
 <prAwipaxikam>धि</prAwipaxikam>
 <grammar><gaNa>तुदा*</gaNa><paxI>पर*</paxI><vform>धियति</vform></grammar>
 <sense no="1">संभालना, रखना, अधिकार में करना</sense>
 <segmenthd>
-<root>सन्धि</root>
+<dentry>सन्धि</dentry>
 <prAwipaxikam>सन्धि</prAwipaxikam>
 <seg>सम्-धि</seg>
 <grammar><gaNa>तुदा*</gaNa><paxI>पर*</paxI></grammar>
@@ -3624,14 +3624,14 @@
 </lexhead>
 
 <lexhead no="895">
-<root>धिः</root>
+<dentry>धिः</dentry>
 <prAwipaxikam>धि</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">आधार, भंडार, आशय आदि, समास के अन्त में प्रयुक्त, उदधि, इषुधि, वारिधि, जलधि आदि</sense>
 </lexhead>
 
 <lexhead no="896">
-<root>धिक्</root>
+<dentry>धिक्</dentry>
 <prAwipaxikam>धिक्</prAwipaxikam>
 <grammar>अव्य*</grammar>
 <etymology>[धा+ डिकन्]</etymology>
@@ -3639,33 +3639,33 @@
 <jAwi>क्रिया</jAwi>
 <sense no="1">निन्दा, बुराई, विषाद की भावना को प्रकट करने वाला विस्मयांदिद्योतक अव्यय, धिक् तां च तं च मदनं च इमां च मां-<citation>भर्तृ* २/२</citation>धिगिमां देहभृतामसारताम्- रघु* ८/५०, धिक्तान्क्तान्गेतान् कयति सततं कीर्तनस्थो मृदङ्गः, धिक् सानुजं कुरुपतिं धिगजात- शत्रुं-<citation>वेणी*३/११ धिक्कार</citation>फटे मुँह, शर्म, दुःख, तरस- कर्म* के साथ, कभी-कभी कर्तृ* संबो* और संबं* के साथ- धिगर्थाः कष्टसंश्रयाः<citation>पंच* १</citation>धिङ्मूर्ख, धिगस्तु हृदयस्यास्य</sense>
 <compound>
-<root>धिक्कृ</root>
+<dentry>धिक्कृ</dentry>
 <prAwipaxikam>धिक्कृ</prAwipaxikam>
 <grammar></grammar>
 <sense no="1">तिरस्कार करना, अवज्ञा करना, रद्द करना, बुरा भला कहना</sense></compound>
 <segmenthd>
-<root>धिक्कारः</root>
+<dentry>धिक्कारः</dentry>
 <prAwipaxikam>धिक्कार</prAwipaxikam>
 <seg>धिक्-कारः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">झिड़कना, फटकारना, तिरस्कार करना, अवज्ञा करना</sense>
 </segmenthd>
 <segmenthd>
-<root>धिक्क्रिया</root>
+<dentry>धिक्क्रिया</dentry>
 <prAwipaxikam>धिक्क्रिया</prAwipaxikam>
 <seg>धिक्-क्रिया</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">झिड़कना, फटकारना, तिरस्कार करना, अवज्ञा करना</sense>
 </segmenthd>
 <segmenthd>
-<root>धिग्दण्डः</root>
+<dentry>धिग्दण्डः</dentry>
 <prAwipaxikam>धिग्दण्ड</prAwipaxikam>
 <seg>धिक्-दण्डः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">डांटफटकार बताना, निंदा<citation>मनु* ८/१२९</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धिक्पारुष्यम्</root>
+<dentry>धिक्पारुष्यम्</dentry>
 <prAwipaxikam>धिक्पारुष्य</prAwipaxikam>
 <seg>धिक्-पारुष्यम्</seg>
 <grammar>नपुं*</grammar>
@@ -3674,7 +3674,7 @@
 </lexhead>
 
 <lexhead no="897">
-<root>धिप्सु</root>
+<dentry>धिप्सु</dentry>
 <prAwipaxikam>धिप्सु</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धिप्सु</prAwipaxikam>
@@ -3683,14 +3683,14 @@
 </lexhead>
 
 <lexhead no="898">
-<root>धिन्व्</root>
+<dentry>धिन्व्</dentry>
 <prAwipaxikam>धिन्व्</prAwipaxikam>
 <grammar><gaNa>स्वा*</gaNa><paxI>पर*</paxI><vform>धिनोति</vform></grammar>
 <sense no="1">प्रसन्न करना, खुश करना, संतुष्ट करना, पश्यन्ती चात्मरूपं तदपि विलुलितस्रग्धरेयं धिनोति-<citation>गीत* १२</citation>धिनोति नास्माञ्जलजेन पूजा त्वयान्वहं तन्वि वितन्यमाना-<citation>नै* ८/९७</citation><citation>उत्तर* ५/२७</citation><citation>कि* १\२२</citation></sense>
 </lexhead>
 
 <lexhead no="899">
-<root>धिषणः</root>
+<dentry>धिषणः</dentry>
 <prAwipaxikam>धिषण</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धृष्+ क्यु, धिष् आदेशः]</etymology>
@@ -3701,7 +3701,7 @@
 </lexhead>
 
 <lexhead no="900">
-<root>धिषणम्</root>
+<dentry>धिषणम्</dentry>
 <prAwipaxikam>धिषण</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <kind_of>अर्कादयः</kind_of>
@@ -3711,7 +3711,7 @@
 </lexhead>
 
 <lexhead no="901">
-<root>धिषणा</root>
+<dentry>धिषणा</dentry>
 <prAwipaxikam>धिषणा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <jAwi>बुद्धिः</jAwi>
@@ -3723,7 +3723,7 @@
 </lexhead>
 
 <lexhead no="902">
-<root>धिष्ण्यः</root>
+<dentry>धिष्ण्यः</dentry>
 <prAwipaxikam>धिष्ण्य</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धृष्+ ण्य नि* ऋकारस्य इकारः]</etymology>
@@ -3738,7 +3738,7 @@
 <sense n="3">शुक्र ग्रह</sense>
 <sense n="4">शक्ति, सामर्थ्य</sense>
 <segmenthd>
-<root>धिष्ण्यष्ण्वम्</root>
+<dentry>धिष्ण्यष्ण्वम्</dentry>
 <prAwipaxikam>धिष्ण्यष्ण्व</prAwipaxikam>
 <seg>धिष्ण्यः-ष्ण्वम्</seg>
 <grammar>नपुं*</grammar>
@@ -3750,7 +3750,7 @@
 </lexhead>
 
 <lexhead no="903">
-<root>धीः</root>
+<dentry>धीः</dentry>
 <prAwipaxikam>धी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ध्यै+ क्विप्, संप्रसारण]</etymology>
@@ -3762,7 +3762,7 @@
 <sense n="5">भक्ति, प्रार्थना</sense>
 <sense n="6">यज्ञ</sense>
 <segmenthd>
-<root>धीन्द्रियम्</root>
+<dentry>धीन्द्रियम्</dentry>
 <prAwipaxikam>धीन्द्रिय</prAwipaxikam>
 <seg>धीः-इन्द्रियम्</seg>
 <grammar>नपुं*</grammar>
@@ -3771,21 +3771,21 @@
 <sense no="4">प्रत्यक्षज्ञान का अंगमनः कर्णस्तथा नेत्रं रसना च त्वचा सह, नासिका चेति षट्तानि धीन्द्रियाणि प्रचक्षते।ज्ञानेन्द्रिय</sense>
 </segmenthd>
 <segmenthd>
-<root>धीगुणाः</root>
+<dentry>धीगुणाः</dentry>
 <prAwipaxikam>धीगुणा</prAwipaxikam>
 <seg>धीः-गुणाः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">बौद्धिक गुणशुश्रूषा श्रवणं चैव ग्रहणं धारणं तथा, ऊहापोहार्थविज्ञान तत्त्वज्ञानं च धीगुणाः- कामन्दक</sense>
 </segmenthd>
 <segmenthd>
-<root>धीपतिः</root>
+<dentry>धीपतिः</dentry>
 <prAwipaxikam>धीपति</prAwipaxikam>
 <seg>धीः-पतिः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">देवों के गुरू बृहस्पति धियां पतिः</sense>
 </segmenthd>
 <segmenthd>
-<root>धीमन्त्रिन्</root>
+<dentry>धीमन्त्रिन्</dentry>
 <prAwipaxikam>धीमन्त्रिन्</prAwipaxikam>
 <seg>धीः-मन्त्रिन्</seg>
 <grammar>पुं*</grammar>
@@ -3793,7 +3793,7 @@
 <sense no="2">बुद्धिमान् और दूरदर्शी सलाहकार</sense>
 </segmenthd>
 <segmenthd>
-<root>धीसचिवः</root>
+<dentry>धीसचिवः</dentry>
 <prAwipaxikam>धीसचिव</prAwipaxikam>
 <seg>धीः-सचिवः</seg>
 <grammar>पुं*</grammar>
@@ -3803,7 +3803,7 @@
 <sense no="2">बुद्धिमान् और दूरदर्शी सलाहकार</sense>
 </segmenthd>
 <segmenthd>
-<root>धीशक्तिः</root>
+<dentry>धीशक्तिः</dentry>
 <prAwipaxikam>धीशक्ति</prAwipaxikam>
 <seg>धीः-शक्तिः</seg>
 <grammar>स्त्री*</grammar>
@@ -3811,7 +3811,7 @@
 <sense no="1">बौद्धिक शक्ति</sense>
 </segmenthd>
 <segmenthd>
-<root>धीसखः</root>
+<dentry>धीसखः</dentry>
 <prAwipaxikam>धीसख</prAwipaxikam>
 <seg>धीः-सखः</seg>
 <grammar>पुं*</grammar>
@@ -3820,7 +3820,7 @@
 </lexhead>
 
 <lexhead no="904">
-<root>धीत</root>
+<dentry>धीत</dentry>
 <prAwipaxikam>धीत</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धीत</prAwipaxikam>
@@ -3829,7 +3829,7 @@
 </lexhead>
 
 <lexhead no="905">
-<root>धीतिः</root>
+<dentry>धीतिः</dentry>
 <prAwipaxikam>धीति</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धे+ क्तिन्]</etymology>
@@ -3838,7 +3838,7 @@
 </lexhead>
 
 <lexhead no="906">
-<root>धीमत्</root>
+<dentry>धीमत्</dentry>
 <prAwipaxikam>धीमत्</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धीमत्</prAwipaxikam>
@@ -3850,7 +3850,7 @@
 </lexhead>
 
 <lexhead no="907">
-<root>धीर</root>
+<dentry>धीर</dentry>
 <prAwipaxikam>धीर</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धीर</prAwipaxikam>
@@ -3873,7 +3873,7 @@
 </lexhead>
 
 <lexhead no="908">
-<root>धीरः</root>
+<dentry>धीरः</dentry>
 <prAwipaxikam>धीर</prAwipaxikam>
 <grammar>पुं*</grammar>
 <kind_of>मनुष्यः</kind_of>
@@ -3883,7 +3883,7 @@
 </lexhead>
 
 <lexhead no="909">
-<root>धीरम्</root>
+<dentry>धीरम्</dentry>
 <prAwipaxikam>धीर</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <kind_of>मनुष्यः</kind_of>
@@ -3891,21 +3891,21 @@
 <sense no="1">केसर, जाफ़रान</sense>
 <sense n="2">साहसपूर्वक, दृढ़ता के साथ, अडिग होकर धीरज के साथ<citation>भर्तृ* २/३१</citation><citation>अमरु ११</citation></sense>
 <segmenthd>
-<root>धीरोदात्तः</root>
+<dentry>धीरोदात्तः</dentry>
 <prAwipaxikam>धीरोदात्त</prAwipaxikam>
 <seg>धीर-उदात्तः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">अच्छे विचारों का शूरवीर व्यक्ति, नायकअविकत्थनः क्षमावानतिगम्भीरो महासत्त्वः, स्थेयान्निगूढमानो धीरोदात्तो दृढ़व्रतः कथितः-<citation>सा* द* ६६ काव्य नाटक में</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धीरोद्धतः</root>
+<dentry>धीरोद्धतः</dentry>
 <prAwipaxikam>धीरोद्धत</prAwipaxikam>
 <seg>धीर-उद्धतः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">शूरवीर परन्तु अभिमानी नायकमायापरः प्रचण्डश्चपलोऽहंकारदर्पभूयिष्ठः, आत्मश्लाघानिरतो धीरैर्धीरोद्धतः कथितः-<citation>सा* द* ६७ काव्य नाटक में</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धीरचेतस्</root>
+<dentry>धीरचेतस्</dentry>
 <prAwipaxikam>धीरचेतस्</prAwipaxikam>
 <seg>धीर-चेतस्</seg>
 <grammar>वि*</grammar>
@@ -3913,21 +3913,21 @@
 <sense no="1">दृढ़, अडिग, दृढ़ मन वाला, साहसी</sense>
 </segmenthd>
 <segmenthd>
-<root>धीरप्रशान्तः</root>
+<dentry>धीरप्रशान्तः</dentry>
 <prAwipaxikam>धीरप्रशान्त</prAwipaxikam>
 <seg>धीर-प्रशान्तः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">नायक जो शूरवीर और शान्त व्यक्ति होसामान्यगुणैर्भूयान् द्विजातिको धीरप्रशान्तः स्यात्-<citation>सा* द* ६९ काव्य नाटक में</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धीरललितः</root>
+<dentry>धीरललितः</dentry>
 <prAwipaxikam>धीरललित</prAwipaxikam>
 <seg>धीर-ललितः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">नायक जो दृढ़ और शूरवीर होने के साथ- साथ क्रीडाप्रिय और असावधान हो। निश्चितो मृदुरनिशं कलापरो धीरललितः स्यात्-<citation>सा* द* ६८ काव्य नाटक में</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धीरस्कन्धः</root>
+<dentry>धीरस्कन्धः</dentry>
 <prAwipaxikam>धीरस्कन्ध</prAwipaxikam>
 <seg>धीर-स्कन्धः</seg>
 <grammar>पुं*</grammar>
@@ -3936,7 +3936,7 @@
 </lexhead>
 
 <lexhead no="910">
-<root>धीरता</root>
+<dentry>धीरता</dentry>
 <prAwipaxikam>धीरता</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धीर+ तल्+ टाप्]</etymology>
@@ -3946,13 +3946,13 @@
 </lexhead>
 
 <lexhead no="911">
-<root>धीरा</root>
+<dentry>धीरा</dentry>
 <prAwipaxikam>धीरा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धीर+ टाप्]</etymology>
 <sense no="1">काव्य नाटक में वर्णित नायिका जो अपने पति या प्रेमी से ईर्ष्या रखती हुई भी, उसकी उपस्थिति में अपनी बाह्य भावमुद्रा से अपना रोष प्रकट नहीं होने देती। व्यङ्ग्यकोप प्रकाशिका धीरा-<citation>दे* सा* द* १०२-५</citation>रसमंजरी की उक्तिः</sense>
 <segmenthd>
-<root>धीराधीरा</root>
+<dentry>धीराधीरा</dentry>
 <prAwipaxikam>धीराधीरा</prAwipaxikam>
 <seg>धीरा-अधीरा</seg>
 <grammar>स्त्री*</grammar>
@@ -3961,7 +3961,7 @@
 </lexhead>
 
 <lexhead no="912">
-<root>धीलटिः</root>
+<dentry>धीलटिः</dentry>
 <prAwipaxikam>धीलटि</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धी+ लट्+ इन्, धीलटि+ ङीष्]</etymology>
@@ -3969,7 +3969,7 @@
 </lexhead>
 
 <lexhead no="913">
-<root>धीलटी</root>
+<dentry>धीलटी</dentry>
 <prAwipaxikam>धीलटी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धी+ लट्+ इन्, धीलटि+ ङीष्]</etymology>
@@ -3977,7 +3977,7 @@
 </lexhead>
 
 <lexhead no="914">
-<root>धीवरः</root>
+<dentry>धीवरः</dentry>
 <prAwipaxikam>धीवर</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[दधाति मत्स्यान् - धा+ ष्वरच्]</etymology>
@@ -3988,7 +3988,7 @@
 </lexhead>
 
 <lexhead no="915">
-<root>धीवरम्</root>
+<dentry>धीवरम्</dentry>
 <prAwipaxikam>धीवर</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <kind_of>मनुष्यः</kind_of>
@@ -3998,7 +3998,7 @@
 </lexhead>
 
 <lexhead no="916">
-<root>धीवरी</root>
+<dentry>धीवरी</dentry>
 <prAwipaxikam>धीवरी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <sense no="1">मछुवे की स्त्री</sense>
@@ -4006,7 +4006,7 @@
 </lexhead>
 
 <lexhead no="917">
-<root>धु</root>
+<dentry>धु</dentry>
 <prAwipaxikam>धु</prAwipaxikam>
 <grammar><gaNa>स्वा*</gaNa><paxI>उभ*</paxI>-<vform>धुनोति</vform>,<vform>धुनुते</vform>,<vform>धुत</vform></grammar>
 <sense no="1">हिलाना, क्षुब्ध करना, कंपाना, धुन्वन्ति पक्षपवनै र्न नभो बलाकाः-<citation>ऋतु* ३/१२</citation>धुन्वन् कल्पद्रुमकिसलयानि-<citation>मेघ* ६२</citation><citation>कु* ७/४९</citation><citation>रघु* ४/६७</citation><citation>भट्टि* ५/१०१</citation>९/७, १०/२२</sense>
@@ -4018,7 +4018,7 @@
 </lexhead>
 
 <lexhead no="918">
-<root>धुक्ष्</root>
+<dentry>धुक्ष्</dentry>
 <prAwipaxikam>धुक्ष्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI><vform>धुक्षते</vform>,<vform>धुक्षित</vform></grammar>
 <sense no="1">सुलगना</sense>
@@ -4026,7 +4026,7 @@
 <sense n="3">कष्ट भोगना</sense>
 <sense n="4">सुलगाना, प्रज्वलित करना</sense>
 <segmenthd>
-<root>सन्धुक्ष्</root>
+<dentry>सन्धुक्ष्</dentry>
 <prAwipaxikam>सन्धुक्ष्</prAwipaxikam>
 <seg>सम्-धुक्ष्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
@@ -4036,7 +4036,7 @@
 </lexhead>
 
 <lexhead no="919">
-<root>धुत</root>
+<dentry>धुत</dentry>
 <prAwipaxikam>धुत</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धुत</prAwipaxikam>
@@ -4047,7 +4047,7 @@
 </lexhead>
 
 <lexhead no="920">
-<root>धुनिः</root>
+<dentry>धुनिः</dentry>
 <prAwipaxikam>धुनि</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धु+ नि]</etymology>
@@ -4055,7 +4055,7 @@
 </lexhead>
 
 <lexhead no="921">
-<root>धुनी</root>
+<dentry>धुनी</dentry>
 <prAwipaxikam>धुनी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धुनि+ ङीष्]</etymology>
@@ -4063,7 +4063,7 @@
 <jAwi>प्राकृतिकस्थानम्</jAwi>
 <sense no="1">नदी, दरिया, पुराणां संहर्तुःसुरधुनि कपर्दोऽधिरुरुहे-<citation>गंगा* २२</citation></sense>
 <segmenthd>
-<root>धुनिनाथः</root>
+<dentry>धुनिनाथः</dentry>
 <prAwipaxikam>धुनिनाथ</prAwipaxikam>
 <seg>धुनिः-नाथः</seg>
 <grammar>पुं*</grammar>
@@ -4072,7 +4072,7 @@
 </lexhead>
 
 <lexhead no="922">
-<root>धुर्</root>
+<dentry>धुर्</dentry>
 <prAwipaxikam>धुर्</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धुर्व्+ क्विप्]</etymology>
@@ -4083,7 +4083,7 @@
 <sense n="5">बोझा, भार, उत्तरदायित्व, कर्तव्य, कार्यतेन धूर्जगतो गुर्वी सचिवेषु निचिक्षिपे-<citation>रघु* १/३४</citation>२/७४, ३/३५, ६६<citation>कु* ६/३०</citation>आप्तैरत्यनवाप्तपौरुषफलैः कार्यस्यधूरुज्झिता-<citation>मुद्रा* ६/५</citation>४/६<citation>कि* ३/५०</citation>१४/६ आलं* भी</sense>
 <sense n="6">प्रमुखतम या उच्चतम स्थान, हरावल, अग्रभाग, शिखर, सिरअपांसुलानां धुरि कीर्तनीया-<citation>रघु* २/२</citation>धुरि स्थिता त्वं पतिदेवतानाम्- १४/७४, अविघ्नमस्तु ते स्थेयाः पितेवुरि पुत्रिणाम्- १/९१, धुरि प्रतिष्ठापयितव्य एव-<citation>मालवि* १/१६</citation>५/१६ धुरि कृ- सिरे पर रखना या आगे रखना-<citation>श* ७/४</citation></sense>
 <segmenthd>
-<root>धुर्गत</root>
+<dentry>धुर्गत</dentry>
 <prAwipaxikam>धुर्गत</prAwipaxikam>
 <seg>धुर्-गत</seg>
 <grammar>वि*</grammar>
@@ -4092,14 +4092,14 @@
 <sense no="3">सिर पर खड़ा हुआ मुख्य, प्रधान, प्रमुख</sense>
 </segmenthd>
 <segmenthd>
-<root>धुर्जटिः</root>
+<dentry>धुर्जटिः</dentry>
 <prAwipaxikam>धुर्जटि</prAwipaxikam>
 <seg>धुर्-जटिः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">शिव का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धुर्धर</root>
+<dentry>धुर्धर</dentry>
 <prAwipaxikam>धुर्धर</prAwipaxikam>
 <seg>धुर्-धर</seg>
 <grammar>वि*</grammar>
@@ -4110,7 +4110,7 @@
 <sense no="4">मुख्य, प्रधान, अग्रगण्य प्रमुखकुलधुरंधरो भव-<citation>विक्रम* ५</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>धुर्धरः</root>
+<dentry>धुर्धरः</dentry>
 <prAwipaxikam>धुर्धर</prAwipaxikam>
 <seg>धुर्-धरः</seg>
 <grammar>पुं*</grammar>
@@ -4119,7 +4119,7 @@
 <sense no="3">मुख्य, प्रधान, अग्रणी</sense>
 </segmenthd>
 <segmenthd>
-<root>धुर्वह</root>
+<dentry>धुर्वह</dentry>
 <prAwipaxikam>धुर्वह</prAwipaxikam>
 <seg>धुर्-वह</seg>
 <grammar>वि*</grammar>
@@ -4130,7 +4130,7 @@
 <sense no="2">काम का प्रबंधक</sense>
 </segmenthd>
 <segmenthd>
-<root>धुर्वहः</root>
+<dentry>धुर्वहः</dentry>
 <prAwipaxikam>धुर्वह</prAwipaxikam>
 <seg>धुर्-वहः</seg>
 <grammar>पुं*</grammar>
@@ -4141,14 +4141,14 @@
 </lexhead>
 
 <lexhead no="923">
-<root>धुरा</root>
+<dentry>धुरा</dentry>
 <prAwipaxikam>धुरा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <sense no="1">बोझा, भार, रणधुरा-<citation>वेणी* ३/५</citation></sense>
 </lexhead>
 
 <lexhead no="924">
-<root>धुरीण</root>
+<dentry>धुरीण</dentry>
 <prAwipaxikam>धुरीण</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धुरीण</prAwipaxikam>
@@ -4161,7 +4161,7 @@
 </lexhead>
 
 <lexhead no="925">
-<root>धुरीय</root>
+<dentry>धुरीय</dentry>
 <prAwipaxikam>धुरीय</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धुरीय</prAwipaxikam>
@@ -4172,7 +4172,7 @@
 </lexhead>
 
 <lexhead no="926">
-<root>धुरीणः</root>
+<dentry>धुरीणः</dentry>
 <prAwipaxikam>धुरीण</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धुर+ ख]</etymology>
@@ -4184,7 +4184,7 @@
 </lexhead>
 
 <lexhead no="927">
-<root>धुरीयः</root>
+<dentry>धुरीयः</dentry>
 <prAwipaxikam>धुरीय</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धुर+छ ]</etymology>
@@ -4194,7 +4194,7 @@
 </lexhead>
 
 <lexhead no="928">
-<root>धुर्य</root>
+<dentry>धुर्य</dentry>
 <prAwipaxikam>धुर्य</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धुर्य</prAwipaxikam>
@@ -4207,7 +4207,7 @@
 </lexhead>
 
 <lexhead no="929">
-<root>धुर्यः</root>
+<dentry>धुर्यः</dentry>
 <prAwipaxikam>धुर्य</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धुर्+ यत्]</etymology>
@@ -4221,7 +4221,7 @@
 </lexhead>
 
 <lexhead no="930">
-<root>धुस्तुरः</root>
+<dentry>धुस्तुरः</dentry>
 <prAwipaxikam>धुस्तुर</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धु+ उर्, स्तुट्]</etymology>
@@ -4229,7 +4229,7 @@
 </lexhead>
 
 <lexhead no="931">
-<root>धू</root>
+<dentry>धू</dentry>
 <prAwipaxikam>धू</prAwipaxikam>
 <grammar><gaNa>तुदा*</gaNa><paxI>पर*</paxI><gaNa>स्वा*</gaNa>, क्रया*<gaNa>चुरा*</gaNa>+<paxI>उभ*</paxI>धुवति;<vform>धवति</vform>,<vform>धवते</vform>;<vform>धूनोति</vform>,<vform>धूनुते</vform>;<vform>धुनाति</vform>,<vform>धुनीते</vform>;<vform>धूनयति</vform>,<vform>धूनयते</vform></grammar>
 <is_a_part>रथः</is_a_part>
@@ -4242,7 +4242,7 @@
 <sense n="5">अशिष्ट व्यवहार करना, चोट पहुँचाना, क्षति पहुँचानामा नधावीररिं रणे-<citation>भट्टि* ९/५०</citation>१५/६१</sense>
 <sense n="6">अपने ऊपर से उतार फ़ेकना, अपने आपको युक्त करनाआरोहन्ति शनैः पश्चाद्धुन्वन्तमपि पार्थिवम्-<citation>पंच* १/३६ सेवकाः  कवि रहस्य के निम्नलिखित श्लोक में इस धातु के विभिन्न गणों के रूप में दिए गये हैं- धूनोति चम्पकवनानि धुनोत्यशोकं चूतं धुनाति धुवति स्फुटितातिमुक्तम्</citation>वायुर्विधूनयति चम्पकपुष्परेणून् यत्कानने धवति चन्दनमंजरीश्च ।</sense>
 <segmenthd>
-<root>अवधू</root>
+<dentry>अवधू</dentry>
 <prAwipaxikam>अवधू</prAwipaxikam>
 <seg>अव-धू</seg>
 <grammar><gaNa>तुदा*</gaNa><paxI>पर*</paxI><gaNa>स्वा*</gaNa>, क्रया*<gaNa>चुरा*</gaNa>+<paxI>उभ*</paxI></grammar>
@@ -4251,7 +4251,7 @@
 <sense no="3">अवहेलना करना, अस्वीकृति करना, उपेक्षा करना, तिरस्कारयुक्त व्यवहार करनाचण्डी मामवधूय पादपतितं-<citation>विक्रम* ४/३८</citation>पादानतः कोपनयाऽवधूतः-<citation>कु* ३/८</citation><citation>विक्रम* ३/५</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>उद्धू</root>
+<dentry>उद्धू</dentry>
 <prAwipaxikam>उद्धू</prAwipaxikam>
 <seg>उद्-धू</seg>
 <grammar><gaNa>तुदा*</gaNa><paxI>पर*</paxI><gaNa>स्वा*</gaNa>, क्रया*<gaNa>चुरा*</gaNa>+<paxI>उभ*</paxI></grammar>
@@ -4260,7 +4260,7 @@
 <sense no="3">बाधा पहुँचाना, उत्तेजित करना, भड़काना</sense>
 </segmenthd>
 <segmenthd>
-<root>निर्धू</root>
+<dentry>निर्धू</dentry>
 <prAwipaxikam>निर्धू</prAwipaxikam>
 <seg>निस्-धू</seg>
 <grammar><gaNa>तुदा*</gaNa><paxI>पर*</paxI><gaNa>स्वा*</gaNa>, क्रया*<gaNa>चुरा*</gaNa>+<paxI>उभ*</paxI></grammar>
@@ -4269,7 +4269,7 @@
 <sense no="3">त्याग देना, छोड़ देना, फेंक देना</sense>
 </segmenthd>
 <segmenthd>
-<root>विधू</root>
+<dentry>विधू</dentry>
 <prAwipaxikam>विधू</prAwipaxikam>
 <seg>वि-धू</seg>
 <grammar><gaNa>तुदा*</gaNa><paxI>पर*</paxI><gaNa>स्वा*</gaNa>, क्रया*<gaNa>चुरा*</gaNa>+<paxI>उभ*</paxI></grammar>
@@ -4281,7 +4281,7 @@
 </lexhead>
 
 <lexhead no="932">
-<root>धूः</root>
+<dentry>धूः</dentry>
 <prAwipaxikam>धू</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धू+ क्विप्]</etymology>
@@ -4292,7 +4292,7 @@
 </lexhead>
 
 <lexhead no="933">
-<root>धूत</root>
+<dentry>धूत</dentry>
 <prAwipaxikam>धूत</prAwipaxikam>
 <grammar>भू* क* कृ*</grammar>
 <etymology>[धू+ क्त]</etymology>
@@ -4306,7 +4306,7 @@
 <sense n="7">अवज्ञात, तिरस्कारपूर्वक व्यवहार किया गया</sense>
 <sense n="8">अनुमानित</sense>
 <segmenthd>
-<root>धूतकल्मष</root>
+<dentry>धूतकल्मष</dentry>
 <prAwipaxikam>धूतकल्मष</prAwipaxikam>
 <seg>धूत-कल्मष</seg>
 <grammar>वि*</grammar>
@@ -4314,7 +4314,7 @@
 <sense no="4">जिसने अपने पाप उतार फेंके हैं, पापमुक्त</sense>
 </segmenthd>
 <segmenthd>
-<root>धूतपाप</root>
+<dentry>धूतपाप</dentry>
 <prAwipaxikam>धूतपाप</prAwipaxikam>
 <seg>धूत-पाप</seg>
 <grammar>वि*</grammar>
@@ -4324,7 +4324,7 @@
 </lexhead>
 
 <lexhead no="934">
-<root>धूतिः</root>
+<dentry>धूतिः</dentry>
 <prAwipaxikam>धूति</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धू+ क्तिन्]</etymology>
@@ -4333,7 +4333,7 @@
 </lexhead>
 
 <lexhead no="935">
-<root>धून</root>
+<dentry>धून</dentry>
 <prAwipaxikam>धून</prAwipaxikam>
 <grammar>भू* क* कृ*</grammar>
 <etymology>[धू+ क्त, तस्य नः]</etymology>
@@ -4341,14 +4341,14 @@
 </lexhead>
 
 <lexhead no="936">
-<root>धूनिः</root>
+<dentry>धूनिः</dentry>
 <prAwipaxikam>धूनि</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <sense no="1">हिलाना, क्षुब्ध करना</sense>
 </lexhead>
 
 <lexhead no="937">
-<root>धूप्</root>
+<dentry>धूप्</dentry>
 <prAwipaxikam>धूप्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>धूपायति</vform>,<vform>धूपायित</vform></grammar>
 <sense no="1">गरम करना, गरम होना</sense>
@@ -4358,7 +4358,7 @@
 </lexhead>
 
 <lexhead no="938">
-<root>धूपः</root>
+<dentry>धूपः</dentry>
 <prAwipaxikam>धूप</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धूप्+ अच्]</etymology>
@@ -4366,14 +4366,14 @@
 <sense n="2">वाष्प, सुगंधित वाष्प या धुआँधूपोष्मणा त्याजितमार्द्रभावम्-<citation>कु* ७/१४</citation><citation>मेघ* ३३</citation><citation>विक्रम* ३/२</citation><citation>रघु* १६/५० गोंद</citation>बिरोजा आदि सुगंधित पदार्थों से उठने वाली</sense>
 <sense n="3">सुगंधित चूर्ण</sense>
 <segmenthd>
-<root>धूपागरु</root>
+<dentry>धूपागरु</dentry>
 <prAwipaxikam>धूपागरु</prAwipaxikam>
 <seg>धूपः-अगरु</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">एक प्रकार की गुग्गुल जो धुपाने के काम आती है।</sense>
 </segmenthd>
 <segmenthd>
-<root>धूपाङ्गः</root>
+<dentry>धूपाङ्गः</dentry>
 <prAwipaxikam>धूपाङ्ग</prAwipaxikam>
 <seg>धूपः-अङ्गः</seg>
 <grammar>पुं*</grammar>
@@ -4381,28 +4381,28 @@
 <sense no="2">सरल वृक्ष</sense>
 </segmenthd>
 <segmenthd>
-<root>धूपार्हम्</root>
+<dentry>धूपार्हम्</dentry>
 <prAwipaxikam>धूपार्ह</prAwipaxikam>
 <seg>धूपः-अर्हम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">गुग्गुल</sense>
 </segmenthd>
 <segmenthd>
-<root>धूपपात्रम्</root>
+<dentry>धूपपात्रम्</dentry>
 <prAwipaxikam>धूपपात्र</prAwipaxikam>
 <seg>धूपः-पात्रम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">धूपदान, अगरदान, धूप जलाने का पात्र</sense>
 </segmenthd>
 <segmenthd>
-<root>धूपवासः</root>
+<dentry>धूपवासः</dentry>
 <prAwipaxikam>धूपवास</prAwipaxikam>
 <seg>धूपः-वासः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">गंधद्रव्य के धुएँ से वासना, धूपाना</sense>
 </segmenthd>
 <segmenthd>
-<root>धूपवृक्षः</root>
+<dentry>धूपवृक्षः</dentry>
 <prAwipaxikam>धूपवृक्ष</prAwipaxikam>
 <seg>धूपः-वृक्षः</seg>
 <grammar>पुं*</grammar>
@@ -4411,7 +4411,7 @@
 </lexhead>
 
 <lexhead no="939">
-<root>धूमः</root>
+<dentry>धूमः</dentry>
 <prAwipaxikam>धूम</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धू+ मक्]</etymology>
@@ -4422,7 +4422,7 @@
 <sense n="5">धूआँ नस्य, छींकलाने वाला</sense>
 <sense n="6">डकार, उद्गार</sense>
 <segmenthd>
-<root>धूमाभ</root>
+<dentry>धूमाभ</dentry>
 <prAwipaxikam>धूमाभ</prAwipaxikam>
 <seg>धूमः-आभ</seg>
 <grammar>वि*</grammar>
@@ -4430,42 +4430,42 @@
 <sense no="1">धुएँ जैसा प्रतीत होने वाला, धुमैले रंग का</sense>
 </segmenthd>
 <segmenthd>
-<root>धूमावलिः</root>
+<dentry>धूमावलिः</dentry>
 <prAwipaxikam>धूमावलि</prAwipaxikam>
 <seg>धूमः-आवलिः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">धुएँ का बादल या धूममाला</sense>
 </segmenthd>
 <segmenthd>
-<root>धूमोत्थम्</root>
+<dentry>धूमोत्थम्</dentry>
 <prAwipaxikam>धूमोत्थ</prAwipaxikam>
 <seg>धूमः-उत्थम्</seg>
 <grammar>पुं*</grammar>
 <sense no="1">नौसादर</sense>
 </segmenthd>
 <segmenthd>
-<root>धूमोद्गारः</root>
+<dentry>धूमोद्गारः</dentry>
 <prAwipaxikam>धूमोद्गार</prAwipaxikam>
 <seg>धूमः-उद्गारः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">धुआँ या वाष्प उठना</sense>
 </segmenthd>
 <segmenthd>
-<root>धूमोर्णा</root>
+<dentry>धूमोर्णा</dentry>
 <prAwipaxikam>धूमोर्णा</prAwipaxikam>
 <seg>धूमः-उर्णा</seg>
 <grammar>पुं*</grammar>
 <sense no="1">यम की पत्नी का नाम</sense>
 </segmenthd>
 <segmenthd>
-<root>धूमपतिः</root>
+<dentry>धूमपतिः</dentry>
 <prAwipaxikam>धूमपति</prAwipaxikam>
 <seg>धूमः-पतिः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">यम का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>धूमकेतनः</root>
+<dentry>धूमकेतनः</dentry>
 <prAwipaxikam>धूमकेतन</prAwipaxikam>
 <seg>धूमः-केतनः</seg>
 <grammar>पुं*</grammar>
@@ -4474,7 +4474,7 @@
 <sense no="3">केतु</sense>
 </segmenthd>
 <segmenthd>
-<root>धूमकेतुः</root>
+<dentry>धूमकेतुः</dentry>
 <prAwipaxikam>धूमकेतु</prAwipaxikam>
 <seg>धूमः-केतुः</seg>
 <grammar>पुं*</grammar>
@@ -4486,35 +4486,35 @@
 <sense no="3">केतु</sense>
 </segmenthd>
 <segmenthd>
-<root>धूमजः</root>
+<dentry>धूमजः</dentry>
 <prAwipaxikam>धूमज</prAwipaxikam>
 <seg>धूमः-जः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">बादल</sense>
 </segmenthd>
 <segmenthd>
-<root>धूमध्वजः</root>
+<dentry>धूमध्वजः</dentry>
 <prAwipaxikam>धूमध्वज</prAwipaxikam>
 <seg>धूमः-ध्वजः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">अग्नि</sense>
 </segmenthd>
 <segmenthd>
-<root>धूमपानम्</root>
+<dentry>धूमपानम्</dentry>
 <prAwipaxikam>धूमपान</prAwipaxikam>
 <seg>धूमः-पानम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">धुआँ या वाष्प पीना</sense>
 </segmenthd>
 <segmenthd>
-<root>धूममहिषी</root>
+<dentry>धूममहिषी</dentry>
 <prAwipaxikam>धूममहिषी</prAwipaxikam>
 <seg>धूमः-महिषी</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">कोहरा, ध्रुव</sense>
 </segmenthd>
 <segmenthd>
-<root>धूमयोनिः</root>
+<dentry>धूमयोनिः</dentry>
 <prAwipaxikam>धूमयोनि</prAwipaxikam>
 <seg>धूमः-योनिः</seg>
 <grammar>पुं*</grammar>
@@ -4525,7 +4525,7 @@
 </lexhead>
 
 <lexhead no="940">
-<root>धूमल</root>
+<dentry>धूमल</dentry>
 <prAwipaxikam>धूमल</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धूमल</prAwipaxikam>
@@ -4536,21 +4536,21 @@
 </lexhead>
 
 <lexhead no="941">
-<root>धूमायति</root>
+<dentry>धूमायति</dentry>
 <prAwipaxikam>धूमायति</prAwipaxikam>
 <grammar>ना* धा*<paxI>पर*</paxI></grammar>
 <sense no="1">धूएँ से भर देना, वाष्प से ढक देना, अँधेरा करना, धूमायिता दश दिशो दलितारन्विदाः-<citation>भामि* १/१०४</citation><citation>मृच्छ* ५/५७</citation></sense>
 </lexhead>
 
 <lexhead no="942">
-<root>धूमायते</root>
+<dentry>धूमायते</dentry>
 <prAwipaxikam>धूमायते</prAwipaxikam>
 <grammar>ना* धा*<paxI>पर*</paxI></grammar>
 <sense no="1">धूएँ से भर देना, वाष्प से ढक देना, अँधेरा करना, धूमायिता दश दिशो दलितारन्विदाः-<citation>भामि* १/१०४</citation><citation>मृच्छ* ५/५७</citation></sense>
 </lexhead>
 
 <lexhead no="943">
-<root>धूमिका</root>
+<dentry>धूमिका</dentry>
 <prAwipaxikam>धूमिका</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धूम+ ठन्+ टा]</etymology>
@@ -4558,7 +4558,7 @@
 </lexhead>
 
 <lexhead no="944">
-<root>धूमित</root>
+<dentry>धूमित</dentry>
 <prAwipaxikam>धूमित</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धूमित</prAwipaxikam>
@@ -4567,7 +4567,7 @@
 </lexhead>
 
 <lexhead no="945">
-<root>धूम्या</root>
+<dentry>धूम्या</dentry>
 <prAwipaxikam>धूम्या</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धूम+ यत्+ टाप्]</etymology>
@@ -4577,7 +4577,7 @@
 </lexhead>
 
 <lexhead no="946">
-<root>धूम्र</root>
+<dentry>धूम्र</dentry>
 <prAwipaxikam>धूम्र</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धूम्र</prAwipaxikam>
@@ -4591,7 +4591,7 @@
 </lexhead>
 
 <lexhead no="947">
-<root>धूम्रः</root>
+<dentry>धूम्रः</dentry>
 <prAwipaxikam>धूम्र</prAwipaxikam>
 <grammar>पुं*</grammar>
 <kind_of>शुक्लादयः</kind_of>
@@ -4601,21 +4601,21 @@
 </lexhead>
 
 <lexhead no="948">
-<root>धूम्रम्</root>
+<dentry>धूम्रम्</dentry>
 <prAwipaxikam>धूम्र</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <kind_of>शुक्लादयः</kind_of>
 <jAwi>रूपम्</jAwi>
 <sense no="1">पाप, दुर्व्यसन, दुष्टता</sense>
 <segmenthd>
-<root>धूम्राटः</root>
+<dentry>धूम्राटः</dentry>
 <prAwipaxikam>धूम्राट</prAwipaxikam>
 <seg>धूम्र-अटः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">एक प्रकार की शिकारी चिड़ियाँ</sense>
 </segmenthd>
 <segmenthd>
-<root>धूम्ररुच्</root>
+<dentry>धूम्ररुच्</dentry>
 <prAwipaxikam>धूम्ररुच्</prAwipaxikam>
 <seg>धूम्र-रुच्</seg>
 <grammar>वि*</grammar>
@@ -4623,14 +4623,14 @@
 <sense no="1">मटमैले रंग का</sense>
 </segmenthd>
 <segmenthd>
-<root>ध्रूमलोचनः</root>
+<dentry>ध्रूमलोचनः</dentry>
 <prAwipaxikam>ध्रूमलोचन</prAwipaxikam>
 <seg>ध्रूम-लोचनः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">कबूतर</sense>
 </segmenthd>
 <segmenthd>
-<root>ध्रूमलोहित</root>
+<dentry>ध्रूमलोहित</dentry>
 <prAwipaxikam>ध्रूमलोहित</prAwipaxikam>
 <seg>ध्रूम-लोहित</seg>
 <grammar>वि*</grammar>
@@ -4638,14 +4638,14 @@
 <sense no="1">गहरा लाल, गाढा मटमैला</sense>
 </segmenthd>
 <segmenthd>
-<root>ध्रूमलोहितः</root>
+<dentry>ध्रूमलोहितः</dentry>
 <prAwipaxikam>ध्रूमलोहित</prAwipaxikam>
 <seg>ध्रूम-लोहितः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">शिव का विशेषण</sense>
 </segmenthd>
 <segmenthd>
-<root>ध्रूमशूकः</root>
+<dentry>ध्रूमशूकः</dentry>
 <prAwipaxikam>ध्रूमशूक</prAwipaxikam>
 <seg>ध्रूम-शूकः</seg>
 <grammar>पुं*</grammar>
@@ -4654,7 +4654,7 @@
 </lexhead>
 
 <lexhead no="949">
-<root>धूम्रकः</root>
+<dentry>धूम्रकः</dentry>
 <prAwipaxikam>धूम्रक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धूम्र+ कै+ क]</etymology>
@@ -4662,7 +4662,7 @@
 </lexhead>
 
 <lexhead no="950">
-<root>धूर्त</root>
+<dentry>धूर्त</dentry>
 <prAwipaxikam>धूर्त</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धूर्त</prAwipaxikam>
@@ -4678,7 +4678,7 @@
 </lexhead>
 
 <lexhead no="951">
-<root>धूर्तः</root>
+<dentry>धूर्तः</dentry>
 <prAwipaxikam>धूर्त</prAwipaxikam>
 <grammar>पुं*</grammar>
 <kind_of>मनुष्यः</kind_of>
@@ -4692,7 +4692,7 @@
 <sense n="3">प्रेमी, रसिया, विनोदप्रिय धूर्ततत्ते धूर् हृदि स्थिता प्रियतमा काचिन्ममेवापरा-<citation>पंच* ४/६</citation>धूर्तोऽपरां चुंबति-<citation>अमरु* १६ इसी प्रकार- धूर्तानामभिसारसत्वरहृदाम्-</citation><citation>गीत* ११</citation></sense>
 <sense n="4">धतूरा</sense>
 <segmenthd>
-<root>धूर्तकृत्</root>
+<dentry>धूर्तकृत्</dentry>
 <prAwipaxikam>धूर्तकृत्</prAwipaxikam>
 <seg>धूर्त-कृत्</seg>
 <grammar>वि*</grammar>
@@ -4701,14 +4701,14 @@
 <sense no="2">धतूरे का पौधा</sense>
 </segmenthd>
 <segmenthd>
-<root>धूर्तजन्तुः</root>
+<dentry>धूर्तजन्तुः</dentry>
 <prAwipaxikam>धूर्तजन्तु</prAwipaxikam>
 <seg>धूर्त-जन्तुः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">मनुष्य</sense>
 </segmenthd>
 <segmenthd>
-<root>धूर्तरचना</root>
+<dentry>धूर्तरचना</dentry>
 <prAwipaxikam>धूर्तरचना</prAwipaxikam>
 <seg>धूर्त-रचना</seg>
 <grammar>स्त्री*</grammar>
@@ -4717,7 +4717,7 @@
 </lexhead>
 
 <lexhead no="952">
-<root>धूर्तकः</root>
+<dentry>धूर्तकः</dentry>
 <prAwipaxikam>धूर्तक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धूर्त+ कन्]</etymology>
@@ -4726,7 +4726,7 @@
 </lexhead>
 
 <lexhead no="953">
-<root>पूर्वी</root>
+<dentry>पूर्वी</dentry>
 <prAwipaxikam>पूर्वी</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धुर+ अज्+ क्विप्, अज् इत्यस्य वी आदेशः]</etymology>
@@ -4734,7 +4734,7 @@
 </lexhead>
 
 <lexhead no="954">
-<root>धूलकम्</root>
+<dentry>धूलकम्</dentry>
 <prAwipaxikam>धूलक</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धू+ लक+ वा*]</etymology>
@@ -4742,7 +4742,7 @@
 </lexhead>
 
 <lexhead no="955">
-<root>धूलिः</root>
+<dentry>धूलिः</dentry>
 <prAwipaxikam>धूलि</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धू+ लि बा*]</etymology>
@@ -4752,14 +4752,14 @@
 </lexhead>
 
 <lexhead no="956">
-<root>धूली</root>
+<dentry>धूली</dentry>
 <prAwipaxikam>धूली</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धूलि+ ङीष्]</etymology>
 <sense no="1">धूल, अनीत्वापङ्कतां धूलिमुदकं नावतिष्ठते-<citation>शि* २/३४</citation></sense>
 <sense n="2">चूर्ण</sense>
 <segmenthd>
-<root>धूलिकुट्टिमम्</root>
+<dentry>धूलिकुट्टिमम्</dentry>
 <prAwipaxikam>धूलिकुट्टिम</prAwipaxikam>
 <seg>धूलिः-कुट्टिमम्</seg>
 <grammar>नपुं*</grammar>
@@ -4767,7 +4767,7 @@
 <sense no="2">जोता हुआ खेत</sense>
 </segmenthd>
 <segmenthd>
-<root>धूलिकेदारः</root>
+<dentry>धूलिकेदारः</dentry>
 <prAwipaxikam>धूलिकेदार</prAwipaxikam>
 <seg>धूलिः-केदारः</seg>
 <grammar>पुं*</grammar>
@@ -4775,28 +4775,28 @@
 <sense no="2">जोता हुआ खेत</sense>
 </segmenthd>
 <segmenthd>
-<root>धूलिध्वजः</root>
+<dentry>धूलिध्वजः</dentry>
 <prAwipaxikam>धूलिध्वज</prAwipaxikam>
 <seg>धूलिः-ध्वजः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">वायु</sense>
 </segmenthd>
 <segmenthd>
-<root>धूलिपटलः</root>
+<dentry>धूलिपटलः</dentry>
 <prAwipaxikam>धूलिपटल</prAwipaxikam>
 <seg>धूलिः-पटलः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">धूल का ढेर</sense>
 </segmenthd>
 <segmenthd>
-<root>धूलिपुष्पिका</root>
+<dentry>धूलिपुष्पिका</dentry>
 <prAwipaxikam>धूलिपुष्पिका</prAwipaxikam>
 <seg>धूलिः-पुष्पिका</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">केतकी का पौधा</sense>
 </segmenthd>
 <segmenthd>
-<root>धूलिपुष्पी</root>
+<dentry>धूलिपुष्पी</dentry>
 <prAwipaxikam>धूलिपुष्पी</prAwipaxikam>
 <seg>धूलिः-पुष्पी</seg>
 <grammar>स्त्री*</grammar>
@@ -4805,7 +4805,7 @@
 </lexhead>
 
 <lexhead no="957">
-<root>धूलिका</root>
+<dentry>धूलिका</dentry>
 <prAwipaxikam>धूलिका</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धूलि+ कन्+ टाप्]</etymology>
@@ -4813,7 +4813,7 @@
 </lexhead>
 
 <lexhead no="958">
-<root>धूसर</root>
+<dentry>धूसर</dentry>
 <prAwipaxikam>धूसर</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धूसर</prAwipaxikam>
@@ -4824,7 +4824,7 @@
 </lexhead>
 
 <lexhead no="959">
-<root>धूसरः</root>
+<dentry>धूसरः</dentry>
 <prAwipaxikam>धूसर</prAwipaxikam>
 <grammar>पुं*</grammar>
 <kind_of>शुक्लवर्णः</kind_of>
@@ -4837,7 +4837,7 @@
 </lexhead>
 
 <lexhead no="960">
-<root>धृ</root>
+<dentry>धृ</dentry>
 <prAwipaxikam>धृ</prAwipaxikam>
 <grammar><gaNa>तुदा*</gaNa><paxI>आ*</paxI>- धृ का कर्मवा* रूप-<vform>ध्रियते</vform>,<vform>धृत</vform></grammar>
 <sense no="1">होना, विद्यमान होना, रहना, रहते रहना, जीवित रहना, आर्यपुत्र ध्रिये एषा ध्रिये-<citation>उत्तर* ३</citation>ध्रियते यावदेकोऽपि रिपुस्तावत्कुतः सुखम्-<citation>शि* २/३५</citation>१५/८९, कइयों के मतानुसार</sense>
@@ -4857,126 +4857,126 @@
 <sense n="15">पालन करना, अभ्यास करना</sense>
 <sense n="16">हवाला देना, उद्धृत करना</sense>
 <segmenthd>
-<root>मनसाधृ</root>
+<dentry>मनसाधृ</dentry>
 <prAwipaxikam>मनसाधृ</prAwipaxikam>
 <seg>मनसाधृ</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">मन में धारण करना, याद रखनाइस धातु के अर्थ उन संज्ञा शब्दों के अनुसार, जिनसे यह जुड़े, विविध प्रकार के हो जाते हैं- उदा*</sense>
 </segmenthd>
 <segmenthd>
-<root>शिरसाधृ</root>
+<dentry>शिरसाधृ</dentry>
 <prAwipaxikam>शिरसाधृ</prAwipaxikam>
 <seg>शिरसाधृ</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">सिर पर रखना, अत्यंत आदर करना</sense>
 </segmenthd>
 <segmenthd>
-<root>मूर्ध्निधृ</root>
+<dentry>मूर्ध्निधृ</dentry>
 <prAwipaxikam>मूर्ध्निधृ</prAwipaxikam>
 <seg>मूर्ध्निधृ</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">सिर पर रखना, अत्यंत आदर करना</sense>
 </segmenthd>
 <segmenthd>
-<root>अंतरेधृ</root>
+<dentry>अंतरेधृ</dentry>
 <prAwipaxikam>अंतरेधृ</prAwipaxikam>
 <seg>अंतरेधृ</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">धरोहर रखना, जमानत के रूप में जमा करना</sense>
 </segmenthd>
 <segmenthd>
-<root>समयेधृ</root>
+<dentry>समयेधृ</dentry>
 <prAwipaxikam>समयेधृ</prAwipaxikam>
 <seg>समयेधृ</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">सहमत करना</sense>
 </segmenthd>
 <segmenthd>
-<root>दण्डन्धृ</root>
+<dentry>दण्डन्धृ</dentry>
 <prAwipaxikam>दण्डन्धृ</prAwipaxikam>
 <seg>दण्डंधृ</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">दण्ड देना, सजा देना, बल का उपयोग करना</sense>
 </segmenthd>
 <segmenthd>
-<root>जीवितन्धृ</root>
+<dentry>जीवितन्धृ</dentry>
 <prAwipaxikam>जीवितन्धृ</prAwipaxikam>
 <seg>जीवितंधृ</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">जीवित रहना, आत्मा को स्थापित रखना, प्राणों का सुरक्षित रखना</sense>
 </segmenthd>
 <segmenthd>
-<root>प्राणाशरीरन्धृ</root>
+<dentry>प्राणाशरीरन्धृ</dentry>
 <prAwipaxikam>प्राणाशरीरन्धृ</prAwipaxikam>
 <seg>प्राणान्शरीरंधृ</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">जीवित रहना, आत्मा को स्थापित रखना, प्राणों का सुरक्षित रखना</sense>
 </segmenthd>
 <segmenthd>
-<root>गात्रन्देहन्धृ</root>
+<dentry>गात्रन्देहन्धृ</dentry>
 <prAwipaxikam>गात्रन्देहन्धृ</prAwipaxikam>
 <seg>गात्रंदेहम्धृ</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">जीवित रहना, आत्मा को स्थापित रखना, प्राणों का सुरक्षित रखना</sense>
 </segmenthd>
 <segmenthd>
-<root>व्रतन्धृ</root>
+<dentry>व्रतन्धृ</dentry>
 <prAwipaxikam>व्रतन्धृ</prAwipaxikam>
 <seg>व्रतंधृ</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">व्रत का पालन करना</sense>
 </segmenthd>
 <segmenthd>
-<root>तुलयाधृ</root>
+<dentry>तुलयाधृ</dentry>
 <prAwipaxikam>तुलयाधृ</prAwipaxikam>
 <seg>तुलयाधृ</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">तराजू में रखना, तोलना</sense>
 </segmenthd>
 <segmenthd>
-<root>मनःधृ</root>
+<dentry>मनःधृ</dentry>
 <prAwipaxikam>मनःधृ</prAwipaxikam>
 <seg>मनःधृ</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">किसी वस्तु में मन लगाना, मन जमाना, सोचना, दृढ़ संकल्प करना</sense>
 </segmenthd>
 <segmenthd>
-<root>मतिधृ</root>
+<dentry>मतिधृ</dentry>
 <prAwipaxikam>मतिधृ</prAwipaxikam>
 <seg>मतिम्धृ</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">किसी वस्तु में मन लगाना, मन जमाना, सोचना, दृढ़ संकल्प करना</sense>
 </segmenthd>
 <segmenthd>
-<root>चित्तधृ</root>
+<dentry>चित्तधृ</dentry>
 <prAwipaxikam>चित्तधृ</prAwipaxikam>
 <seg>चित्तम्धृ</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">किसी वस्तु में मन लगाना, मन जमाना, सोचना, दृढ़ संकल्प करना</sense>
 </segmenthd>
 <segmenthd>
-<root>बुद्धिधृ</root>
+<dentry>बुद्धिधृ</dentry>
 <prAwipaxikam>बुद्धिधृ</prAwipaxikam>
 <seg>बुद्धिम्धृ</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">किसी वस्तु में मन लगाना, मन जमाना, सोचना, दृढ़ संकल्प करना</sense>
 </segmenthd>
 <segmenthd>
-<root>गर्भधृ</root>
+<dentry>गर्भधृ</dentry>
 <prAwipaxikam>गर्भधृ</prAwipaxikam>
 <seg>गर्भधृ</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">गर्भवती होना</sense>
 </segmenthd>
 <segmenthd>
-<root>धारणान्धृ</root>
+<dentry>धारणान्धृ</dentry>
 <prAwipaxikam>धारणान्धृ</prAwipaxikam>
 <seg>धारणांधृ</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">पालन करनाएकाग्रता संयम का</sense>
 </segmenthd>
 <segmenthd>
-<root>अवधृ</root>
+<dentry>अवधृ</dentry>
 <prAwipaxikam>अवधृ</prAwipaxikam>
 <seg>अव-धृ</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
@@ -4984,7 +4984,7 @@
 <sense no="2">जानना, निश्चय करना, समझना, सही- सही जाननान विश्वमूर्तेरवधार्यते वपुः-<citation>कु* ५/७८</citation><citation>रघु* १३/५</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>उद्धृ</root>
+<dentry>उद्धृ</dentry>
 <prAwipaxikam>उद्धृ</prAwipaxikam>
 <seg>उद्-धृ</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
@@ -4994,14 +4994,14 @@
 <sense no="4">उन्मूलन करना, उखाड़ना</sense>
 </segmenthd>
 <segmenthd>
-<root>निर्धृ</root>
+<dentry>निर्धृ</dentry>
 <prAwipaxikam>निर्धृ</prAwipaxikam>
 <seg>निस्-धृ</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">निर्धारण करना, निश्चित करना, नियत करनानिर्धारितेऽर्थे लेखेन खलूक्ता खलु वाचिकम्-<citation>शि* २/७०</citation>९/२०</sense>
 </segmenthd>
 <segmenthd>
-<root>विधृ</root>
+<dentry>विधृ</dentry>
 <prAwipaxikam>विधृ</prAwipaxikam>
 <seg>वि-धृ</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
@@ -5011,7 +5011,7 @@
 <sense no="4">टकटकी लगाना, निदेश देना</sense>
 </segmenthd>
 <segmenthd>
-<root>सन्धृ</root>
+<dentry>सन्धृ</dentry>
 <prAwipaxikam>सन्धृ</prAwipaxikam>
 <seg>सम्-धृ</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
@@ -5021,7 +5021,7 @@
 <sense no="4">मन में रखना, याद रखना</sense>
 </segmenthd>
 <segmenthd>
-<root>समूद्धृ</root>
+<dentry>समूद्धृ</dentry>
 <prAwipaxikam>समूद्धृ</prAwipaxikam>
 <seg>समूद्-धृ</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
@@ -5029,7 +5029,7 @@
 <sense no="2">बचाना, परित्राण करना</sense>
 </segmenthd>
 <segmenthd>
-<root>सम्प्रधृ</root>
+<dentry>सम्प्रधृ</dentry>
 <prAwipaxikam>सम्प्रधृ</prAwipaxikam>
 <seg>सम्प्र-धृ</seg>
 <grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
@@ -5039,7 +5039,7 @@
 </lexhead>
 
 <lexhead no="961">
-<root>धृत</root>
+<dentry>धृत</dentry>
 <prAwipaxikam>धृत</prAwipaxikam>
 <grammar>भू* क* कृ*</grammar>
 <etymology>[धृ+ क्त]</etymology>
@@ -5054,7 +5054,7 @@
 <sense n="9">धारण किया हुआ, संभाला हुआकतृवा*</sense>
 <sense n="10">तुला हुआदे* ऊपर ’धृ’</sense>
 <segmenthd>
-<root>धृतात्मन्</root>
+<dentry>धृतात्मन्</dentry>
 <prAwipaxikam>धृतात्मन्</prAwipaxikam>
 <seg>धृत-आत्मन्</seg>
 <grammar>वि*</grammar>
@@ -5062,7 +5062,7 @@
 <sense no="2">पक्के मन वाला, स्थिर, शान्त, स्वस्थचित्त</sense>
 </segmenthd>
 <segmenthd>
-<root>धृतदण्ड</root>
+<dentry>धृतदण्ड</dentry>
 <prAwipaxikam>धृतदण्ड</prAwipaxikam>
 <seg>धृत-दण्ड</seg>
 <grammar>वि*</grammar>
@@ -5071,7 +5071,7 @@
 <sense no="2">वह जिसको दण्ड दिया जाता है।</sense>
 </segmenthd>
 <segmenthd>
-<root>धृटपट</root>
+<dentry>धृटपट</dentry>
 <prAwipaxikam>धृटपट</prAwipaxikam>
 <seg>धृट-पट</seg>
 <grammar>वि*</grammar>
@@ -5079,7 +5079,7 @@
 <sense no="1">कपड़े से ढका हुआ</sense>
 </segmenthd>
 <segmenthd>
-<root>धृतराजन्</root>
+<dentry>धृतराजन्</dentry>
 <prAwipaxikam>धृतराजन्</prAwipaxikam>
 <seg>धृत-राजन्</seg>
 <grammar>वि*</grammar>
@@ -5087,14 +5087,14 @@
 <sense no="1">अच्छे राजा द्वारा शासितदेश आदि</sense>
 </segmenthd>
 <segmenthd>
-<root>धृतराष्ट्रः</root>
+<dentry>धृतराष्ट्रः</dentry>
 <prAwipaxikam>धृतराष्ट्र</prAwipaxikam>
 <seg>धृत-राष्ट्रः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">विचित्र वीर्य की विधवा पत्नी से उत्पन्न व्यास का ज्येष्ठ पुत्र ज्येष्ठ पुत्र होने के कारण धृतराष्ट्र राज्य का अधिकारी था, परन्तु जन्मांध होने के कारण उसने प्रभुसत्ता पांडु को सौंप दी। जिस समय पाण्डु वानप्रस्थ लेकर जंगल की ओर गया, तो राज्य की वागडोर फिर धृतराष्ट्र ने स्वयं संभाल ली, और अपने ज्येष्ठ पुत्र दुर्योधन को युवराज बनाया। जब युद्ध में भीम ने दुर्योधन का काम तमाम कर दिया तो धृतराष्ट्र को बदला लेने की इच्छा हुई, फलतः उसने युधिष्ठिर और भीम को आलिंगन करना चाहा। श्रीकृष्ण उसकी इस बात को तुरन्त ताड़ गये, उन्हें विश्वास हो गया कि धृतराष्ट्र ने भीम को अपना शिकार समझ लिया है। इसलिए श्रीकृष्ण ने लोहे की एक भीम की मूर्ति बनवाई। जिस समय धृतराष्ट्र भीम का आलिंगन करने के लिए आगे बढ़ा तो श्रीकृष्ण ने भीम की लौहमूर्ति आगे करवा दी जिसको कि बदला लेने के प्रबल इच्छुक धृतराष्ट्र ने इस प्रकार इतना बल लगा कर दबाया कि वह लौह मूर्ति टुकड़े-टुकड़े हो गई। इस प्रकार असफल प्रयत्न हो धृतराष्ट्र अपनी पत्नी गांधारी समेत हिमालय पर्वत की ओर चला गया जहाँ कुछ वर्षों के पश्चात् वह स्वर्ग सिधार गया।</sense>
 </segmenthd>
 <segmenthd>
-<root>धृतवर्मन्</root>
+<dentry>धृतवर्मन्</dentry>
 <prAwipaxikam>धृतवर्मन्</prAwipaxikam>
 <seg>धृत-वर्मन्</seg>
 <grammar>वि*</grammar>
@@ -5104,7 +5104,7 @@
 </lexhead>
 
 <lexhead no="962">
-<root>धृतिः</root>
+<dentry>धृतिः</dentry>
 <prAwipaxikam>धृति</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धृ+ क्तिन्]</etymology>
@@ -5120,7 +5120,7 @@
 </lexhead>
 
 <lexhead no="963">
-<root>धृतिमत्</root>
+<dentry>धृतिमत्</dentry>
 <prAwipaxikam>धृतिमत्</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धृतिमत्</prAwipaxikam>
@@ -5130,7 +5130,7 @@
 </lexhead>
 
 <lexhead no="964">
-<root>धृत्वन्</root>
+<dentry>धृत्वन्</dentry>
 <prAwipaxikam>धृत्वन्</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धृ+ क्वनिप्]</etymology>
@@ -5143,7 +5143,7 @@
 </lexhead>
 
 <lexhead no="965">
-<root>धृष्</root>
+<dentry>धृष्</dentry>
 <prAwipaxikam>धृष्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>धर्षति</vform>,<vform>धर्षित</vform></grammar>
 <sense no="1">एकत्र होना, संहत होना, चोट पहुंचाना, क्षति पहुंचाना</sense>
@@ -5162,7 +5162,7 @@
 </lexhead>
 
 <lexhead no="966">
-<root>धृष्ट</root>
+<dentry>धृष्ट</dentry>
 <prAwipaxikam>धृष्ट</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धृष्ट</prAwipaxikam>
@@ -5176,7 +5176,7 @@
 </lexhead>
 
 <lexhead no="967">
-<root>धृष्टः</root>
+<dentry>धृष्टः</dentry>
 <prAwipaxikam>धृष्ट</prAwipaxikam>
 <grammar>पुं*</grammar>
 <kind_of>मनुष्यः</kind_of>
@@ -5185,7 +5185,7 @@
 </lexhead>
 
 <lexhead no="968">
-<root>धृष्टद्युम्नः</root>
+<dentry>धृष्टद्युम्नः</dentry>
 <prAwipaxikam>धृष्टद्युम्न</prAwipaxikam>
 <seg>धृष्ट-द्युम्न</seg>
 <grammar>पुं*</grammar>
@@ -5193,7 +5193,7 @@
 </lexhead>
 
 <lexhead no="969">
-<root>धृष्णज्</root>
+<dentry>धृष्णज्</dentry>
 <prAwipaxikam>धृष्णज्</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धृष्णज्</prAwipaxikam>
@@ -5205,7 +5205,7 @@
 </lexhead>
 
 <lexhead no="970">
-<root>धृष्णिः</root>
+<dentry>धृष्णिः</dentry>
 <prAwipaxikam>धृष्णि</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धृष्+ नि]</etymology>
@@ -5213,7 +5213,7 @@
 </lexhead>
 
 <lexhead no="971">
-<root>धृष्णु</root>
+<dentry>धृष्णु</dentry>
 <prAwipaxikam>धृष्णु</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धृष्णु</prAwipaxikam>
@@ -5223,7 +5223,7 @@
 </lexhead>
 
 <lexhead no="972">
-<root>धे</root>
+<dentry>धे</dentry>
 <prAwipaxikam>धे</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>धयति</vform>,<vform>धीत</vform>- पुं*</grammar>
 <sense no="1">चूसना, पीना, घूट भरना, निगल जाना, अघाद्वसामघासोच्च रुधिरं वनवासिनाम्-<citation>भट्टि* १५/२९</citation>६/१८<citation>मनु* ४/५९</citation><citation>याज्ञ* १/१४०</citation>आलं* भी</sense>
@@ -5232,7 +5232,7 @@
 </lexhead>
 
 <lexhead no="973">
-<root>धेनः</root>
+<dentry>धेनः</dentry>
 <prAwipaxikam>धेन</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धे+ नन्]</etymology>
@@ -5241,7 +5241,7 @@
 </lexhead>
 
 <lexhead no="974">
-<root>धेनुः</root>
+<dentry>धेनुः</dentry>
 <prAwipaxikam>धेनु</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धयति सुतान्, धीयते वत्सैर्वा- धे+ नु इच्च तारा*]</etymology>
@@ -5253,14 +5253,14 @@
 </lexhead>
 
 <lexhead no="975">
-<root>धेनुक</root>
+<dentry>धेनुक</dentry>
 <prAwipaxikam>धेनुक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धेनुक</prAwipaxikam>
 <etymology>[धेनु+ कन्]</etymology>
 <sense no="1">एक राक्षस का नाम जिसको बलराम ने मार गिराया था।</sense>
 <segmenthd>
-<root>धेनुकसूदनः</root>
+<dentry>धेनुकसूदनः</dentry>
 <prAwipaxikam>धेनुकसूदन</prAwipaxikam>
 <seg>धेनुक-सूदनः</seg>
 <grammar>पुं*</grammar>
@@ -5269,7 +5269,7 @@
 </lexhead>
 
 <lexhead no="976">
-<root>धेनुका</root>
+<dentry>धेनुका</dentry>
 <prAwipaxikam>धेनुका</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धेनुक+ टाप्]</etymology>
@@ -5280,7 +5280,7 @@
 </lexhead>
 
 <lexhead no="977">
-<root>धेनुष्या</root>
+<dentry>धेनुष्या</dentry>
 <prAwipaxikam>धेनुष्या</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धेनु+ यत्, सुक्]</etymology>
@@ -5290,7 +5290,7 @@
 </lexhead>
 
 <lexhead no="978">
-<root>धैनुकम्</root>
+<dentry>धैनुकम्</dentry>
 <prAwipaxikam>धैनुक</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धेनु+ ठक्]</etymology>
@@ -5302,7 +5302,7 @@
 </lexhead>
 
 <lexhead no="979">
-<root>धैर्यम्</root>
+<dentry>धैर्यम्</dentry>
 <prAwipaxikam>धैर्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धीर+ ष्यञ्]</etymology>
@@ -5314,7 +5314,7 @@
 </lexhead>
 
 <lexhead no="980">
-<root>धैवतः</root>
+<dentry>धैवतः</dentry>
 <prAwipaxikam>धैवत</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धीमत्+ अण् पृषो* मस्य वत्वम्]</etymology>
@@ -5323,7 +5323,7 @@
 </lexhead>
 
 <lexhead no="981">
-<root>धैवत्यम्</root>
+<dentry>धैवत्यम्</dentry>
 <prAwipaxikam>धैवत्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धीवत्+ ष्यञ्]</etymology>
@@ -5331,14 +5331,14 @@
 </lexhead>
 
 <lexhead no="982">
-<root>धोडः</root>
+<dentry>धोडः</dentry>
 <prAwipaxikam>धोड</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">साँपों का एक प्रकार जिनमें ज़हर नहीं होता</sense>
 </lexhead>
 
 <lexhead no="983">
-<root>धोर्</root>
+<dentry>धोर्</dentry>
 <prAwipaxikam>धोर्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>धोरति</vform></grammar>
 <sense no="1">जल्दी जाना, अच्छे क़दम रखना, दौड़ना, दुल्की चलना</sense>
@@ -5346,7 +5346,7 @@
 </lexhead>
 
 <lexhead no="984">
-<root>धोरणम्</root>
+<dentry>धोरणम्</dentry>
 <prAwipaxikam>धोरण</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धोर्+ ल्युट्]</etymology>
@@ -5359,7 +5359,7 @@
 </lexhead>
 
 <lexhead no="985">
-<root>धोरणिः</root>
+<dentry>धोरणिः</dentry>
 <prAwipaxikam>धोरणि</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धोर्+ अनि, धोरणि+ ङीप्]</etymology>
@@ -5367,7 +5367,7 @@
 </lexhead>
 
 <lexhead no="986">
-<root>धोरणी</root>
+<dentry>धोरणी</dentry>
 <prAwipaxikam>धोरणी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[धोर्+ अनि, धोरणि+ ङीप्]</etymology>
@@ -5375,7 +5375,7 @@
 </lexhead>
 
 <lexhead no="987">
-<root>धोरितम्</root>
+<dentry>धोरितम्</dentry>
 <prAwipaxikam>धोरित</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धोर्+ क्त]</etymology>
@@ -5385,7 +5385,7 @@
 </lexhead>
 
 <lexhead no="988">
-<root>धौत</root>
+<dentry>धौत</dentry>
 <prAwipaxikam>धौत</prAwipaxikam>
 <grammar>भू* क* कृ*</grammar>
 <etymology>[धाव्+ क्त]</etymology>
@@ -5395,33 +5395,33 @@
 </lexhead>
 
 <lexhead no="989">
-<root>धौतम्</root>
+<dentry>धौतम्</dentry>
 <prAwipaxikam>धौत</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <sense no="1">चाँदी</sense>
 <segmenthd>
-<root>धौतकटः</root>
+<dentry>धौतकटः</dentry>
 <prAwipaxikam>धौतकट</prAwipaxikam>
 <seg>धौत-कटः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">मोटे कपड़े का थैला</sense>
 </segmenthd>
 <segmenthd>
-<root>धौतकोषजम्</root>
+<dentry>धौतकोषजम्</dentry>
 <prAwipaxikam>धौतकोषज</prAwipaxikam>
 <seg>धौत-कोषजम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">धुली हुई रेशम</sense>
 </segmenthd>
 <segmenthd>
-<root>धौतकौषेयम्</root>
+<dentry>धौतकौषेयम्</dentry>
 <prAwipaxikam>धौतकौषेय</prAwipaxikam>
 <seg>धौत-कौषेयम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">धुली हुई रेशम</sense>
 </segmenthd>
 <segmenthd>
-<root>धौतशिलम्</root>
+<dentry>धौतशिलम्</dentry>
 <prAwipaxikam>धौतशिल</prAwipaxikam>
 <seg>धौत-शिलम्</seg>
 <grammar>नपुं*</grammar>
@@ -5430,7 +5430,7 @@
 </lexhead>
 
 <lexhead no="990">
-<root>धौम्रः</root>
+<dentry>धौम्रः</dentry>
 <prAwipaxikam>धौम्र</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[धूम्र+ अण्]</etymology>
@@ -5439,7 +5439,7 @@
 </lexhead>
 
 <lexhead no="991">
-<root>धौरितकम्</root>
+<dentry>धौरितकम्</dentry>
 <prAwipaxikam>धौरितक</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धोरित+ अण्+ कन्]</etymology>
@@ -5450,7 +5450,7 @@
 </lexhead>
 
 <lexhead no="992">
-<root>धौरेय</root>
+<dentry>धौरेय</dentry>
 <prAwipaxikam>धौरेय</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">धौरेय</prAwipaxikam>
@@ -5461,7 +5461,7 @@
 </lexhead>
 
 <lexhead no="993">
-<root>धौरेयः</root>
+<dentry>धौरेयः</dentry>
 <prAwipaxikam>धौरेय</prAwipaxikam>
 <grammar>पुं*</grammar>
 <kind_of>वृषभः</kind_of>
@@ -5471,7 +5471,7 @@
 </lexhead>
 
 <lexhead no="994">
-<root>धौर्तकम्</root>
+<dentry>धौर्तकम्</dentry>
 <prAwipaxikam>धौर्तक</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धूर्तस्य भावः कर्म वा- धूर्त+वुञ्]</etymology>
@@ -5479,7 +5479,7 @@
 </lexhead>
 
 <lexhead no="995">
-<root>धौर्तिकम्</root>
+<dentry>धौर्तिकम्</dentry>
 <prAwipaxikam>धौर्तिक</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धूर्तस्य भावः कर्म वा- धूर्त+ठञ्]</etymology>
@@ -5487,7 +5487,7 @@
 </lexhead>
 
 <lexhead no="996">
-<root>धौर्त्यम्</root>
+<dentry>धौर्त्यम्</dentry>
 <prAwipaxikam>धौर्त्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[धूर्तस्य भावः कर्म वा- धूर्त +ष्यञ् ]</etymology>
@@ -5495,7 +5495,7 @@
 </lexhead>
 
 <lexhead no="997">
-<root>ध्मा</root>
+<dentry>ध्मा</dentry>
 <prAwipaxikam>ध्मा</prAwipaxikam>
 <grammar>भवा*<paxI>पर*</paxI><vform>धमति</vform>,<vform>ध्मात</vform>, पुं*</grammar>
 <sense no="1">फूंक मारना, श्वास बाहर निकालना, निःश्वसन</sense>
@@ -5504,7 +5504,7 @@
 <sense n="4">फूंक द्वारा निर्माण करना</sense>
 <sense n="5">फेंकना, फूँक से उड़ाना, फेंक देना</sense>
 <segmenthd>
-<root>आध्मा</root>
+<dentry>आध्मा</dentry>
 <prAwipaxikam>आध्मा</prAwipaxikam>
 <seg>आ-ध्मा</seg>
 <grammar>भवा*<paxI>पर*</paxI></grammar>
@@ -5512,28 +5512,28 @@
 <sense no="2">फूंक मारना या हवा से भरना शंख आदि को</sense>
 </segmenthd>
 <segmenthd>
-<root>उपध्मा</root>
+<dentry>उपध्मा</dentry>
 <prAwipaxikam>उपध्मा</prAwipaxikam>
 <seg>उप-ध्मा</seg>
 <grammar>भवा*<paxI>पर*</paxI></grammar>
 <sense no="1">फूंक मारकर तेज करना, पंखा करनानाग्निं मुखेनोपधमेत्-<citation>मनु* ४/५३</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>निस्ध्मा</root>
+<dentry>निस्ध्मा</dentry>
 <prAwipaxikam>निस्ध्मा</prAwipaxikam>
 <seg>निस्-ध्मा</seg>
 <grammar>भवा*<paxI>पर*</paxI></grammar>
 <sense no="1">फूंक मारकर बाहर निकालना</sense>
 </segmenthd>
 <segmenthd>
-<root>प्रध्मा</root>
+<dentry>प्रध्मा</dentry>
 <prAwipaxikam>प्रध्मा</prAwipaxikam>
 <seg>प्र-ध्मा</seg>
 <grammar>भवा*<paxI>पर*</paxI></grammar>
 <sense no="1">बजानाशङ्खौ प्रदध्मतुः-<citation>भग* १/१४ शंख आदि</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>विध्मा</root>
+<dentry>विध्मा</dentry>
 <prAwipaxikam>विध्मा</prAwipaxikam>
 <seg>वि-ध्मा</seg>
 <grammar>भवा*<paxI>पर*</paxI></grammar>
@@ -5542,7 +5542,7 @@
 </lexhead>
 
 <lexhead no="998">
-<root>ध्माकारः</root>
+<dentry>ध्माकारः</dentry>
 <prAwipaxikam>ध्माकार</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ध्मा+ कृ+ अण्]</etymology>
@@ -5550,7 +5550,7 @@
 </lexhead>
 
 <lexhead no="999">
-<root>ध्मांक्षः</root>
+<dentry>ध्मांक्षः</dentry>
 <prAwipaxikam>ध्मांक्ष</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">कौआ, अने* पा*, कभी-कभी ’तिरस्कार’ प्रकट करने के लिए समास के अन्त में प्रयुक्त किया जाता है- उदा* तीर्थध्वांक्षः</sense>
@@ -5560,7 +5560,7 @@
 </lexhead>
 
 <lexhead no="1000">
-<root>ध्मात</root>
+<dentry>ध्मात</dentry>
 <prAwipaxikam>ध्मात</prAwipaxikam>
 <grammar>भू* क* कृ*</grammar>
 <etymology>[ध्मा+ क्त]</etymology>
@@ -5569,7 +5569,7 @@
 </lexhead>
 
 <lexhead no="1001">
-<root>ध्यात</root>
+<dentry>ध्यात</dentry>
 <prAwipaxikam>ध्यात</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ध्यात</prAwipaxikam>
@@ -5578,7 +5578,7 @@
 </lexhead>
 
 <lexhead no="1002">
-<root>ध्यानम्</root>
+<dentry>ध्यानम्</dentry>
 <prAwipaxikam>ध्यान</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ध्यै+ ल्युट्]</etymology>
@@ -5587,7 +5587,7 @@
 <sense n="3">दिव्य अन्तर्ज्ञान या अन्तर्विवेक</sense>
 <sense n="4">किसी देवता की व्यक्तिगत उपाधियों का मानसिक चिन्तनइति ध्यानम्</sense>
 <segmenthd>
-<root>ध्यानगम्य</root>
+<dentry>ध्यानगम्य</dentry>
 <prAwipaxikam>ध्यानगम्य</prAwipaxikam>
 <seg>ध्यानम्-गम्य</seg>
 <grammar>वि*</grammar>
@@ -5595,7 +5595,7 @@
 <sense no="1">केवल मनन द्वारा प्राप्य</sense>
 </segmenthd>
 <segmenthd>
-<root>ध्यानतत्पर</root>
+<dentry>ध्यानतत्पर</dentry>
 <prAwipaxikam>ध्यानतत्पर</prAwipaxikam>
 <seg>ध्यानम्-तत्पर</seg>
 <grammar>वि*</grammar>
@@ -5603,7 +5603,7 @@
 <sense no="1">विचारों में खोया हुआ, मनन में लीन, चिन्तनशील</sense>
 </segmenthd>
 <segmenthd>
-<root>ध्याननिष्ठ</root>
+<dentry>ध्याननिष्ठ</dentry>
 <prAwipaxikam>ध्याननिष्ठ</prAwipaxikam>
 <seg>ध्यानम्-निष्ठ</seg>
 <grammar>वि*</grammar>
@@ -5611,7 +5611,7 @@
 <sense no="1">विचारों में खोया हुआ, मनन में लीन, चिन्तनशील</sense>
 </segmenthd>
 <segmenthd>
-<root>ध्यानपर</root>
+<dentry>ध्यानपर</dentry>
 <prAwipaxikam>ध्यानपर</prAwipaxikam>
 <seg>ध्यानम्-पर</seg>
 <grammar>वि*</grammar>
@@ -5619,7 +5619,7 @@
 <sense no="1">विचारों में खोया हुआ, मनन में लीन, चिन्तनशील</sense>
 </segmenthd>
 <segmenthd>
-<root>ध्यानस्थ</root>
+<dentry>ध्यानस्थ</dentry>
 <prAwipaxikam>ध्यानस्थ</prAwipaxikam>
 <seg>ध्यानम्-स्थ</seg>
 <grammar>वि*</grammar>
@@ -5629,7 +5629,7 @@
 </lexhead>
 
 <lexhead no="1003">
-<root>ध्यानिक</root>
+<dentry>ध्यानिक</dentry>
 <prAwipaxikam>ध्यानिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ध्यानिक</prAwipaxikam>
@@ -5638,7 +5638,7 @@
 </lexhead>
 
 <lexhead no="1004">
-<root>ध्याम</root>
+<dentry>ध्याम</dentry>
 <prAwipaxikam>ध्याम</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ध्याम</prAwipaxikam>
@@ -5649,7 +5649,7 @@
 </lexhead>
 
 <lexhead no="1005">
-<root>ध्यामम्</root>
+<dentry>ध्यामम्</dentry>
 <prAwipaxikam>ध्याम</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <kind_of>तृणम्</kind_of>
@@ -5658,7 +5658,7 @@
 </lexhead>
 
 <lexhead no="1006">
-<root>ध्यामन्</root>
+<dentry>ध्यामन्</dentry>
 <prAwipaxikam>ध्यामन्</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ध्यै+ मनिन्]</etymology>
@@ -5667,12 +5667,12 @@
 </lexhead>
 
 <lexhead no="1007">
-<root>ध्यै</root>
+<dentry>ध्यै</dentry>
 <prAwipaxikam>ध्यै</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>ध्यायति</vform>,<vform>ध्यात</vform>, इच्छा*<vform>दिध्यासति</vform>, कर्मवा*<vform>ध्यायते</vform></grammar>
 <sense no="1">सोचना, मनन करना, विचार करना, चिंतन करना, विचार-विमर्श करना, कल्पना करना, याद करना, ध्यायतो विषयान् पुंसः संगस्तेषुपजायते-<citation>भग* २/६३</citation>न ध्यातं पदमीश्वरस्य-<citation>भर्तृ* ३/११</citation>पितृन् ध्यायन्-<citation>मनु* ३/२२४</citation>ध्यायन्ति चान्यं धिया-<citation>पंच*१/१३६</citation><citation>मेघ* ३</citation><citation>मनु* ५/४७</citation>९/२१</sense>
 <segmenthd>
-<root>अनुध्यै</root>
+<dentry>अनुध्यै</dentry>
 <prAwipaxikam>अनुध्यै</prAwipaxikam>
 <seg>अनु-ध्यै</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI></grammar>
@@ -5681,14 +5681,14 @@
 <sense no="3">मंगलकामना करना, आशीर्वाद देना, अनुग्रह करना<citation>रघु* १४/६०</citation>१७/३६</sense>
 </segmenthd>
 <segmenthd>
-<root>अपध्यै</root>
+<dentry>अपध्यै</dentry>
 <prAwipaxikam>अपध्यै</prAwipaxikam>
 <seg>अप-ध्यै</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI></grammar>
 <sense no="1">बुरा सोचना, मन से शाप देना</sense>
 </segmenthd>
 <segmenthd>
-<root>अभिध्यै</root>
+<dentry>अभिध्यै</dentry>
 <prAwipaxikam>अभिध्यै</prAwipaxikam>
 <seg>अभि-ध्यै</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI></grammar>
@@ -5696,21 +5696,21 @@
 <sense no="2">सोचना</sense>
 </segmenthd>
 <segmenthd>
-<root>अवध्यै</root>
+<dentry>अवध्यै</dentry>
 <prAwipaxikam>अवध्यै</prAwipaxikam>
 <seg>अव-ध्यै</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI></grammar>
 <sense no="1">अवहेलना करना</sense>
 </segmenthd>
 <segmenthd>
-<root>निस्ध्यै</root>
+<dentry>निस्ध्यै</dentry>
 <prAwipaxikam>निस्ध्यै</prAwipaxikam>
 <seg>निस्-ध्यै</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI></grammar>
 <sense no="1">सोचना, मनन करना</sense>
 </segmenthd>
 <segmenthd>
-<root>विध्यै</root>
+<dentry>विध्यै</dentry>
 <prAwipaxikam>विध्यै</prAwipaxikam>
 <seg>वि-ध्यै</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI></grammar>
@@ -5720,7 +5720,7 @@
 </lexhead>
 
 <lexhead no="1008">
-<root>ध्राडिः</root>
+<dentry>ध्राडिः</dentry>
 <prAwipaxikam>ध्राडि</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ध्राड्+ इन्]</etymology>
@@ -5728,7 +5728,7 @@
 </lexhead>
 
 <lexhead no="1009">
-<root>ध्रुव</root>
+<dentry>ध्रुव</dentry>
 <prAwipaxikam>ध्रुव</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ध्रुव</prAwipaxikam>
@@ -5751,7 +5751,7 @@
 </lexhead>
 
 <lexhead no="1010">
-<root>ध्रुवः</root>
+<dentry>ध्रुवः</dentry>
 <prAwipaxikam>ध्रुव</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ध्रु+ क]</etymology>
@@ -5779,7 +5779,7 @@
 </lexhead>
 
 <lexhead no="1011">
-<root>ध्रुवम्</root>
+<dentry>ध्रुवम्</dentry>
 <prAwipaxikam>ध्रुव</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ध्रु+ क]</etymology>
@@ -5797,7 +5797,7 @@
 </lexhead>
 
 <lexhead no="1012">
-<root>ध्रुवा</root>
+<dentry>ध्रुवा</dentry>
 <prAwipaxikam>ध्रुवा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ध्रु+ क+टाप्]</etymology>
@@ -5811,7 +5811,7 @@
 </lexhead>
 
 <lexhead no="1013">
-<root>ध्रुवम्</root>
+<dentry>ध्रुवम्</dentry>
 <prAwipaxikam>ध्रुव</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ध्रु+ क]</etymology>
@@ -5826,28 +5826,28 @@
 <jAwi>नक्षत्रम्</jAwi>
 <sense no="1">अवश्य, निश्चित रूप से, यकीनन<citation>रघु* ८/४९</citation><citation>श* १/१८</citation>अव्य*</sense>
 <segmenthd>
-<root>ध्रुवाक्षरः</root>
+<dentry>ध्रुवाक्षरः</dentry>
 <prAwipaxikam>ध्रुवाक्षर</prAwipaxikam>
 <seg>ध्रुव-अक्षरः</seg>
 <grammar>पुं*</grammar>
 <sense no="2">विष्णु की उपाधि</sense>
 </segmenthd>
 <segmenthd>
-<root>ध्रुवावर्त्तः</root>
+<dentry>ध्रुवावर्त्तः</dentry>
 <prAwipaxikam>ध्रुवावर्त्त</prAwipaxikam>
 <seg>ध्रुव-आवर्त्तः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">सिर पर रक्खे मुकुट का वह स्थान जहां से बाल चमकते हैं।</sense>
 </segmenthd>
 <segmenthd>
-<root>ध्रुवतारकम्</root>
+<dentry>ध्रुवतारकम्</dentry>
 <prAwipaxikam>ध्रुवतारक</prAwipaxikam>
 <seg>ध्रुव-तारकम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">ध्रुव तारा</sense>
 </segmenthd>
 <segmenthd>
-<root>ध्रुवतारा</root>
+<dentry>ध्रुवतारा</dentry>
 <prAwipaxikam>ध्रुवतारा</prAwipaxikam>
 <seg>ध्रुव-तारा</seg>
 <grammar>स्त्री*</grammar>
@@ -5856,7 +5856,7 @@
 </lexhead>
 
 <lexhead no="1014">
-<root>ध्रुवकः</root>
+<dentry>ध्रुवकः</dentry>
 <prAwipaxikam>ध्रुवक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ध्रुव+ कन्]</etymology>
@@ -5866,7 +5866,7 @@
 </lexhead>
 
 <lexhead no="1015">
-<root>ध्रौव्यम्</root>
+<dentry>ध्रौव्यम्</dentry>
 <prAwipaxikam>ध्रौव्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ध्रुव+ ष्यञ्]</etymology>
@@ -5876,7 +5876,7 @@
 </lexhead>
 
 <lexhead no="1016">
-<root>ध्वस्</root>
+<dentry>ध्वस्</dentry>
 <prAwipaxikam>ध्वस्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI><vform>ध्वंसते</vform>,<vform>ध्वस्त</vform></grammar>
 <sense no="1">नीचे गिरना, गिर कर टुकड़े-टुकड़े होना, चूर-चूर हो जाना<citation>भट्टि* १५/९३</citation>१४/५५</sense>
@@ -5885,14 +5885,14 @@
 <sense n="4">ग्रस्त होना<citation>मुद्रा* ३/८</citation></sense>
 <sense n="5">नष्ट करना</sense>
 <segmenthd>
-<root>प्रध्वस्</root>
+<dentry>प्रध्वस्</dentry>
 <prAwipaxikam>प्रध्वस्</prAwipaxikam>
 <seg>प्र-ध्वस्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
 <sense no="1">नष्ट होना, मिट जाना</sense>
 </segmenthd>
 <segmenthd>
-<root>विध्वस्</root>
+<dentry>विध्वस्</dentry>
 <prAwipaxikam>विध्वस्</prAwipaxikam>
 <seg>वि-ध्वस्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
@@ -5903,7 +5903,7 @@
 </lexhead>
 
 <lexhead no="1017">
-<root>ध्वंसः</root>
+<dentry>ध्वंसः</dentry>
 <prAwipaxikam>ध्वंस</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ध्वंस्+ घञ्]</etymology>
@@ -5912,7 +5912,7 @@
 </lexhead>
 
 <lexhead no="1018">
-<root>ध्वंसनम्</root>
+<dentry>ध्वंसनम्</dentry>
 <prAwipaxikam>ध्वंसन</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ध्वंस् +ल्युट् ]</etymology>
@@ -5921,7 +5921,7 @@
 </lexhead>
 
 <lexhead no="1019">
-<root>ध्वंसी</root>
+<dentry>ध्वंसी</dentry>
 <prAwipaxikam>ध्वंसी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ध्वंस्+घञ्+ ङीप्]</etymology>
@@ -5929,7 +5929,7 @@
 </lexhead>
 
 <lexhead no="1020">
-<root>ध्वंसिः</root>
+<dentry>ध्वंसिः</dentry>
 <prAwipaxikam>ध्वंसि</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ध्वंस्+ इन्]</etymology>
@@ -5937,7 +5937,7 @@
 </lexhead>
 
 <lexhead no="1021">
-<root>ध्वजः</root>
+<dentry>ध्वजः</dentry>
 <prAwipaxikam>ध्वज</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ध्वज्+ अच्]</etymology>
@@ -5955,28 +5955,28 @@
 <sense n="11">घमंड</sense>
 <sense n="12">पाखंड ध्वजीकृ- झंडा लहराना, आलं* बहाने के रूप में प्रयुक्त करना</sense>
 <segmenthd>
-<root>ध्वजांशुकम्</root>
+<dentry>ध्वजांशुकम्</dentry>
 <prAwipaxikam>ध्वजांशुक</prAwipaxikam>
 <seg>ध्वजः-अंशुकम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="3">झंडा<citation>रघु* १२/८५</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>ध्वजपटः</root>
+<dentry>ध्वजपटः</dentry>
 <prAwipaxikam>ध्वजपट</prAwipaxikam>
 <seg>ध्वजः-पटः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">झंडा</sense>
 </segmenthd>
 <segmenthd>
-<root>ध्वजपटम्</root>
+<dentry>ध्वजपटम्</dentry>
 <prAwipaxikam>ध्वजपट</prAwipaxikam>
 <seg>ध्वजः-पटम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">झंडा</sense>
 </segmenthd>
 <segmenthd>
-<root>ध्वजाहत</root>
+<dentry>ध्वजाहत</dentry>
 <prAwipaxikam>ध्वजाहत</prAwipaxikam>
 <seg>ध्वजः-आहत</seg>
 <grammar>वि*</grammar>
@@ -5984,35 +5984,35 @@
 <sense no="1">युद्धभूमि में पकड़े हुए</sense>
 </segmenthd>
 <segmenthd>
-<root>ध्वजगृहम्</root>
+<dentry>ध्वजगृहम्</dentry>
 <prAwipaxikam>ध्वजगृह</prAwipaxikam>
 <seg>ध्वजः-गृहम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">वह कमरा जहाँ झंडे रक्खे जाते हैं।</sense>
 </segmenthd>
 <segmenthd>
-<root>ध्वजद्रुमः</root>
+<dentry>ध्वजद्रुमः</dentry>
 <prAwipaxikam>ध्वजद्रुम</prAwipaxikam>
 <seg>ध्वजः-द्रुमः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">ताड़ का वृक्ष</sense>
 </segmenthd>
 <segmenthd>
-<root>ध्वजप्रहरणः</root>
+<dentry>ध्वजप्रहरणः</dentry>
 <prAwipaxikam>ध्वजप्रहरण</prAwipaxikam>
 <seg>ध्वजः-प्रहरणः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">वायु, हवा</sense>
 </segmenthd>
 <segmenthd>
-<root>ध्वजयन्त्रम्</root>
+<dentry>ध्वजयन्त्रम्</dentry>
 <prAwipaxikam>ध्वजयन्त्र</prAwipaxikam>
 <seg>ध्वजः-यन्त्रम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">झंडा खड़ा करने की कूटयुक्ति</sense>
 </segmenthd>
 <segmenthd>
-<root>ध्वजयष्टिः</root>
+<dentry>ध्वजयष्टिः</dentry>
 <prAwipaxikam>ध्वजयष्टि</prAwipaxikam>
 <seg>ध्वजः-यष्टिः</seg>
 <grammar>स्त्री*</grammar>
@@ -6021,7 +6021,7 @@
 </lexhead>
 
 <lexhead no="1022">
-<root>ध्वजवत्</root>
+<dentry>ध्वजवत्</dentry>
 <prAwipaxikam>ध्वजवत्</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ध्वजवत्</prAwipaxikam>
@@ -6034,7 +6034,7 @@
 </lexhead>
 
 <lexhead no="1023">
-<root>ध्वजिन्</root>
+<dentry>ध्वजिन्</dentry>
 <prAwipaxikam>ध्वजिन्</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ध्वजिन्</prAwipaxikam>
@@ -6053,7 +6053,7 @@
 </lexhead>
 
 <lexhead no="1024">
-<root>ध्वजिनी</root>
+<dentry>ध्वजिनी</dentry>
 <prAwipaxikam>ध्वजिनी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <is_a_part>सैन्यव्यूहः</is_a_part>
@@ -6063,7 +6063,7 @@
 </lexhead>
 
 <lexhead no="1025">
-<root>ध्वजीकरणम्</root>
+<dentry>ध्वजीकरणम्</dentry>
 <prAwipaxikam>ध्वजीकरण</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ध्वज+ च्वि+ कृ+ ल्युट्]</etymology>
@@ -6072,7 +6072,7 @@
 </lexhead>
 
 <lexhead no="1026">
-<root>ध्वन्</root>
+<dentry>ध्वन्</dentry>
 <prAwipaxikam>ध्वन्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>ध्वनति</vform>,<vform>ध्वनित</vform></grammar>
 <sense no="1">शब्द करना, ध्वनि पैदा करना, गुनगुनाना, भिनभिनाना, गूंजना, प्रतिध्वनि करना, गरजना, दहाड़ना, विभिद्यमाना इव दध्वनुर्दिशः-<citation>कि* १४/४६</citation>अयं धीरं धीरं ध्वनति नवनीलो जलधरः-<citation>भामि* १/६०</citation>कपिर्दध्वान मेघवत्-<citation>भट्टि* ९/५</citation>१४/३, ध्वनति मधुपसमूहे श्रवणमयिदधाति-<citation>गीत* ५</citation></sense>
@@ -6080,7 +6080,7 @@
 </lexhead>
 
 <lexhead no="1027">
-<root>ध्वनः</root>
+<dentry>ध्वनः</dentry>
 <prAwipaxikam>ध्वन</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ध्वन्+ अप्]</etymology>
@@ -6089,7 +6089,7 @@
 </lexhead>
 
 <lexhead no="1028">
-<root>ध्वननम्</root>
+<dentry>ध्वननम्</dentry>
 <prAwipaxikam>ध्वनन</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ध्वन्+ ल्युट्]</etymology>
@@ -6099,7 +6099,7 @@
 </lexhead>
 
 <lexhead no="1029">
-<root>ध्वनिः</root>
+<dentry>ध्वनिः</dentry>
 <prAwipaxikam>ध्वनि</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ध्वन्+ इ]</etymology>
@@ -6112,7 +6112,7 @@
 <sense n="6">शब्द</sense>
 <sense n="7">काव्य के तीन मुख्य भेदों में से सर्वोत्तम काव्य जिसमें कि संदर्भ का ध्वन्यर्थ, अभिहित अर्थ की अपेक्षा अधिक चमत्कारक हो, या जहाँ मुख्यार्थ, ध्वन्यर्थ के अधीन हो। इदमुत्तममतिशयिनि व्यंग्ये वाच्याद्ध्वनिर्बुधैः कथितः-<citation>काव्य* १ सा* शा* में  रसगंगाधर में ध्वनि के पाँच भेद बताये गये हैं</citation>दे* ’ध्वनि’ के नीचे</sense>
 <segmenthd>
-<root>ध्वनिग्रहः</root>
+<dentry>ध्वनिग्रहः</dentry>
 <prAwipaxikam>ध्वनिग्रह</prAwipaxikam>
 <seg>ध्वनिः-ग्रहः</seg>
 <grammar>पुं*</grammar>
@@ -6121,7 +6121,7 @@
 <sense no="3">श्रवणेन्द्रिय</sense>
 </segmenthd>
 <segmenthd>
-<root>ध्वनिनाला</root>
+<dentry>ध्वनिनाला</dentry>
 <prAwipaxikam>ध्वनिनाला</prAwipaxikam>
 <seg>ध्वनिः-नाला</seg>
 <grammar>स्त्री*</grammar>
@@ -6130,7 +6130,7 @@
 <sense no="3">मुरली, वंशी</sense>
 </segmenthd>
 <segmenthd>
-<root>ध्वनिविकारः</root>
+<dentry>ध्वनिविकारः</dentry>
 <prAwipaxikam>ध्वनिविकार</prAwipaxikam>
 <seg>ध्वनिः-विकारः</seg>
 <grammar>पुं*</grammar>
@@ -6139,7 +6139,7 @@
 </lexhead>
 
 <lexhead no="1030">
-<root>ध्वनित</root>
+<dentry>ध्वनित</dentry>
 <prAwipaxikam>ध्वनित</prAwipaxikam>
 <grammar>भू* क* कृ*</grammar>
 <etymology>[ध्वन्+क्त]</etymology>
@@ -6150,7 +6150,7 @@
 </lexhead>
 
 <lexhead no="1031">
-<root>ध्वनितम्</root>
+<dentry>ध्वनितम्</dentry>
 <prAwipaxikam>ध्वनित</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <kind_of>शब्दः</kind_of>
@@ -6160,7 +6160,7 @@
 </lexhead>
 
 <lexhead no="1032">
-<root>ध्वस्तिः</root>
+<dentry>ध्वस्तिः</dentry>
 <prAwipaxikam>ध्वस्ति</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ध्वंस्+ क्तिन्]</etymology>
@@ -6168,7 +6168,7 @@
 </lexhead>
 
 <lexhead no="1033">
-<root>ध्वांक्षः</root>
+<dentry>ध्वांक्षः</dentry>
 <prAwipaxikam>ध्वांक्ष</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ध्वंक्ष्+ अच्]</etymology>
@@ -6177,14 +6177,14 @@
 <sense n="3">ढीठ व्यक्ति</sense>
 <sense n="4">मुर्गाबी, सारस</sense>
 <segmenthd>
-<root>ध्वांक्षारातिः</root>
+<dentry>ध्वांक्षारातिः</dentry>
 <prAwipaxikam>ध्वांक्षाराति</prAwipaxikam>
 <seg>ध्वांक्षः-अरातिः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">उल्लू</sense>
 </segmenthd>
 <segmenthd>
-<root>ध्वांक्षपुष्टः</root>
+<dentry>ध्वांक्षपुष्टः</dentry>
 <prAwipaxikam>ध्वांक्षपुष्ट</prAwipaxikam>
 <seg>ध्वांक्षः-पुष्टः</seg>
 <grammar>पुं*</grammar>
@@ -6193,7 +6193,7 @@
 </lexhead>
 
 <lexhead no="1034">
-<root>ध्वानः</root>
+<dentry>ध्वानः</dentry>
 <prAwipaxikam>ध्वान</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ध्वन्+ घञ्]</etymology>
@@ -6203,28 +6203,28 @@
 </lexhead>
 
 <lexhead no="1035">
-<root>ध्वान्तम्</root>
+<dentry>ध्वान्तम्</dentry>
 <prAwipaxikam>ध्वान्त</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ध्वन्+ क्त]</etymology>
 <jAwi>तेजोभावः</jAwi>
 <sense no="1">अंधकार, ध्वान्तं नीलनिचोलचारु सुदृशां प्रत्यङ्गमालिङ्गति-<citation>गीत* ११</citation><citation>नै* १९/४२</citation><citation>शि* ४/६२</citation></sense>
 <segmenthd>
-<root>ध्वान्तोन्मेषः</root>
+<dentry>ध्वान्तोन्मेषः</dentry>
 <prAwipaxikam>ध्वान्तोन्मेष</prAwipaxikam>
 <seg>ध्वान्तम्-उन्मेषः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">जुगनू</sense>
 </segmenthd>
 <segmenthd>
-<root>ध्वान्तवित्तः</root>
+<dentry>ध्वान्तवित्तः</dentry>
 <prAwipaxikam>ध्वान्तवित्त</prAwipaxikam>
 <seg>ध्वान्तम्-वित्तः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">जुगनू</sense>
 </segmenthd>
 <segmenthd>
-<root>ध्वान्तशात्रवः</root>
+<dentry>ध्वान्तशात्रवः</dentry>
 <prAwipaxikam>ध्वान्तशात्रव</prAwipaxikam>
 <seg>ध्वान्तम्-शात्रवः</seg>
 <grammar>पुं*</grammar>
@@ -6236,7 +6236,7 @@
 </lexhead>
 
 <lexhead no="1036">
-<root>ध्वृ</root>
+<dentry>ध्वृ</dentry>
 <prAwipaxikam>ध्वृ</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI>-<vform>ध्वरति</vform></grammar>
 <sense no="1">झुकाना</sense>

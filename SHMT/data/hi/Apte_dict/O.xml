@@ -3,7 +3,7 @@
 <?xml-stylesheet href="apte.css" type="text/css" ?>
 <dict>
 <lexhead no="1">
-<root>औ</root>
+<dentry>औ</dentry>
 <prAwipaxikam>औ</prAwipaxikam>
 <grammar>अव्य*</grammar>
 <etymology>[आ_अव्+क्विप्, ऊठ]</etymology>
@@ -14,7 +14,7 @@
 </lexhead>
 
 <lexhead no="2">
-<root>औक्थिक्यम्</root>
+<dentry>औक्थिक्यम्</dentry>
 <prAwipaxikam>औक्थिक्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उक्थ+ठक्+ष्यञ्]</etymology>
@@ -22,7 +22,7 @@
 </lexhead>
 
 <lexhead no="3">
-<root>औक्थम्</root>
+<dentry>औक्थम्</dentry>
 <prAwipaxikam>औक्थ</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उक्थ+अण्]</etymology>
@@ -30,7 +30,7 @@
 </lexhead>
 
 <lexhead no="4">
-<root>औक्षकम्</root>
+<dentry>औक्षकम्</dentry>
 <prAwipaxikam>औक्षक</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology><vigraha_vAkya>उक्ष्णां समूह इत्यर्थे उक्षन्</vigraha_vAkya>उक्षन्+अण्/उक्षन्+वुञ्]</etymology>
@@ -41,7 +41,7 @@
 </lexhead>
 
 <lexhead no="5">
-<root>औक्षम्</root>
+<dentry>औक्षम्</dentry>
 <prAwipaxikam>औक्ष</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology><vigraha_vAkya>उक्ष्णां समूह इत्यर्थे उक्षन्</vigraha_vAkya>उक्षन्-अण्/उक्षन्+वुञ्]</etymology>
@@ -49,7 +49,7 @@
 </lexhead>
 
 <lexhead no="6">
-<root>औग्र्यम्</root>
+<dentry>औग्र्यम्</dentry>
 <prAwipaxikam>औग्र्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उग्र+ष्यञ्]</etymology>
@@ -57,7 +57,7 @@
 </lexhead>
 
 <lexhead no="7">
-<root>औघः</root>
+<dentry>औघः</dentry>
 <prAwipaxikam>औघ</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ओघ+अण्]</etymology>
@@ -65,7 +65,7 @@
 </lexhead>
 
 <lexhead no="8">
-<root>औचित्यम्</root>
+<dentry>औचित्यम्</dentry>
 <prAwipaxikam>औचित्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उचित+ष्यञ्]</etymology>
@@ -74,7 +74,7 @@
 </lexhead>
 
 <lexhead no="9">
-<root>औचिती</root>
+<dentry>औचिती</dentry>
 <prAwipaxikam>औचिती</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 ?<etymology>[उचित+ष्यञ्+ड़ीष्, यलोपश्च]</etymology>
@@ -83,7 +83,7 @@
 </lexhead>
 
 <lexhead no="10">
-<root>औच्चैःश्रवसः</root>
+<dentry>औच्चैःश्रवसः</dentry>
 <prAwipaxikam>औच्चैःश्रवस्</prAwipaxikam>
 <grammar>पुं*</grammar>
 ?<etymology>[उच्चैः-श्रवस्+अण्]</etymology>
@@ -91,7 +91,7 @@
 </lexhead>
 
 <lexhead no="11">
-<root>औजसिक</root>
+<dentry>औजसिक</dentry>
 <prAwipaxikam>औजसिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औजसिक</prAwipaxikam>
@@ -100,7 +100,7 @@
 </lexhead>
 
 <lexhead no="12">
-<root>औजसिकः</root>
+<dentry>औजसिकः</dentry>
 <prAwipaxikam>औजसिक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ओजस्+ठक्]</etymology>
@@ -108,7 +108,7 @@
 </lexhead>
 
 <lexhead no="13">
-<root>औजस्य</root>
+<dentry>औजस्य</dentry>
 <prAwipaxikam>औजस्य</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औजस्य</prAwipaxikam>
@@ -117,7 +117,7 @@
 </lexhead>
 
 <lexhead no="14">
-<root>औजस्यम्</root>
+<dentry>औजस्यम्</dentry>
 <prAwipaxikam>औजस्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ओजस्+ष्यञ्]</etymology>
@@ -125,7 +125,7 @@
 </lexhead>
 
 <lexhead no="15">
-<root>औज्ज्वल्यम्</root>
+<dentry>औज्ज्वल्यम्</dentry>
 <prAwipaxikam>औज्ज्वल्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उज्ज्वल+ष्यञ्]</etymology>
@@ -133,7 +133,7 @@
 </lexhead>
 
 <lexhead no="16">
-<root>औडुपिक</root>
+<dentry>औडुपिक</dentry>
 <prAwipaxikam>औडुपिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औडुपिक</prAwipaxikam>
@@ -142,7 +142,7 @@
 </lexhead>
 
 <lexhead no="17">
-<root>औडुपिकः</root>
+<dentry>औडुपिकः</dentry>
 <prAwipaxikam>औडुपिक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[उडुप+ठक्]</etymology>
@@ -150,7 +150,7 @@
 </lexhead>
 
 <lexhead no="18">
-<root>औडुम्बर</root>
+<dentry>औडुम्बर</dentry>
 <prAwipaxikam>औडुम्बर</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औडुम्बर</prAwipaxikam>
@@ -159,7 +159,7 @@
 </lexhead>
 
 <lexhead no="19">
-<root>औडुम्बरः</root>
+<dentry>औडुम्बरः</dentry>
 <prAwipaxikam>औडुम्बर</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[उदुम्बर+अञ्]</etymology>
@@ -167,7 +167,7 @@
 </lexhead>
 
 <lexhead no="20">
-<root>औडुम्बरी</root>
+<dentry>औडुम्बरी</dentry>
 <prAwipaxikam>औडुम्बरी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[उदुम्बर+अञ्]</etymology>
@@ -175,7 +175,7 @@
 </lexhead>
 
 <lexhead no="21">
-<root>औडुम्बरम्</root>
+<dentry>औडुम्बरम्</dentry>
 <prAwipaxikam>औडुम्बर</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उदुम्बर+अञ्]</etymology>
@@ -185,7 +185,7 @@
 </lexhead>
 
 <lexhead no="22">
-<root>औड्रः</root>
+<dentry>औड्रः</dentry>
 <prAwipaxikam>औड्र</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ओड्र+अण्]</etymology>
@@ -193,7 +193,7 @@
 </lexhead>
 
 <lexhead no="23">
-<root>औत्कण्ठ्यम्</root>
+<dentry>औत्कण्ठ्यम्</dentry>
 <prAwipaxikam>औत्कण्ठ्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उत्कण्ठा+ष्यञ्]</etymology>
@@ -202,7 +202,7 @@
 </lexhead>
 
 <lexhead no="24">
-<root>औत्कर्ष्यम्</root>
+<dentry>औत्कर्ष्यम्</dentry>
 <prAwipaxikam>औत्कर्ष्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उत्कर्ष+ष्यञ्]</etymology>
@@ -210,7 +210,7 @@
 </lexhead>
 
 <lexhead no="25">
-<root>औत्तमिः</root>
+<dentry>औत्तमिः</dentry>
 <prAwipaxikam>औत्तमि</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[उत्तम+इञ्]</etymology>
@@ -218,7 +218,7 @@
 </lexhead>
 
 <lexhead no="26">
-<root>औत्तरः</root>
+<dentry>औत्तरः</dentry>
 <prAwipaxikam>औत्तर</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औत्तर</prAwipaxikam>
@@ -226,7 +226,7 @@
 </lexhead>
 
 <lexhead no="27">
-<root>औत्तरेयः</root>
+<dentry>औत्तरेयः</dentry>
 <prAwipaxikam>औत्तरेय</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[उत्तरा+ढक्]</etymology>
@@ -234,7 +234,7 @@
 </lexhead>
 
 <lexhead no="28">
-<root>औत्तानपादः</root>
+<dentry>औत्तानपादः</dentry>
 <prAwipaxikam>औत्तानपाद</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[उत्तानपाद+अण्/उत्तानपाद+इञ्]</etymology>
@@ -243,7 +243,7 @@
 </lexhead>
 
 <lexhead no="29">
-<root>औत्पत्तिक</root>
+<dentry>औत्पत्तिक</dentry>
 <prAwipaxikam>औत्पत्तिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औत्पत्तिक</prAwipaxikam>
@@ -253,7 +253,7 @@
 </lexhead>
 
 <lexhead no="30">
-<root>औत्पात</root>
+<dentry>औत्पात</dentry>
 <prAwipaxikam>औत्पात</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औत्पात</prAwipaxikam>
@@ -262,7 +262,7 @@
 </lexhead>
 
 <lexhead no="31">
-<root>औत्पातिक</root>
+<dentry>औत्पातिक</dentry>
 <prAwipaxikam>औत्पातिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औत्पातिक</prAwipaxikam>
@@ -271,7 +271,7 @@
 </lexhead>
 
 <lexhead no="32">
-<root>औत्पातिकम्</root>
+<dentry>औत्पातिकम्</dentry>
 <prAwipaxikam>औत्पातिक</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उत्पात+ठक्]</etymology>
@@ -279,7 +279,7 @@
 </lexhead>
 
 <lexhead no="33">
-<root>औत्सङ्गिक</root>
+<dentry>औत्सङ्गिक</dentry>
 <prAwipaxikam>औत्सङ्गिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औत्सङ्गिक</prAwipaxikam>
@@ -288,7 +288,7 @@
 </lexhead>
 
 <lexhead no="34">
-<root>औत्सर्गिक</root>
+<dentry>औत्सर्गिक</dentry>
 <prAwipaxikam>औत्सर्गिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औत्सर्गिक</prAwipaxikam>
@@ -299,7 +299,7 @@
 </lexhead>
 
 <lexhead no="35">
-<root>औत्सुक्यम्</root>
+<dentry>औत्सुक्यम्</dentry>
 <prAwipaxikam>औत्सुक्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उत्सुक+ष्यञ्]</etymology>
@@ -308,7 +308,7 @@
 </lexhead>
 
 <lexhead no="36">
-<root>औदक</root>
+<dentry>औदक</dentry>
 <prAwipaxikam>औदक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औदक</prAwipaxikam>
@@ -317,7 +317,7 @@
 </lexhead>
 
 <lexhead no="37">
-<root>औदञ्चन</root>
+<dentry>औदञ्चन</dentry>
 <prAwipaxikam>औदञ्चन</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औदञ्चन</prAwipaxikam>
@@ -326,7 +326,7 @@
 </lexhead>
 
 <lexhead no="38">
-<root>औदनिकः</root>
+<dentry>औदनिकः</dentry>
 <prAwipaxikam>औदनिक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ओदन+ठञ्]</etymology>
@@ -336,7 +336,7 @@
 </lexhead>
 
 <lexhead no="39">
-<root>औदरिक</root>
+<dentry>औदरिक</dentry>
 <prAwipaxikam>औदरिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औदरिक</prAwipaxikam>
@@ -347,7 +347,7 @@
 </lexhead>
 
 <lexhead no="40">
-<root>औदर्य</root>
+<dentry>औदर्य</dentry>
 <prAwipaxikam>औदर्य</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औदर्य</prAwipaxikam>
@@ -357,7 +357,7 @@
 </lexhead>
 
 <lexhead no="41">
-<root>औदश्वितम्</root>
+<dentry>औदश्वितम्</dentry>
 <prAwipaxikam>औदश्वित</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उदश्वित्+अण्]</etymology>
@@ -365,7 +365,7 @@
 </lexhead>
 
 <lexhead no="42">
-<root>औदार्यम्</root>
+<dentry>औदार्यम्</dentry>
 <prAwipaxikam>औदार्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उदार+ष्यञ्]</etymology>
@@ -375,7 +375,7 @@
 </lexhead>
 
 <lexhead no="43">
-<root>औदासीन्यम्</root>
+<dentry>औदासीन्यम्</dentry>
 <prAwipaxikam>औदासीन्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उदासीन+ष्यञ्]</etymology>
@@ -385,7 +385,7 @@
 </lexhead>
 
 <lexhead no="44">
-<root>औदास्यम्</root>
+<dentry>औदास्यम्</dentry>
 <prAwipaxikam>औदास्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उदास+ष्यञ्]</etymology>
@@ -395,7 +395,7 @@
 </lexhead>
 
 <lexhead no="45">
-<root>औदुम्बर</root>
+<dentry>औदुम्बर</dentry>
 <prAwipaxikam>औदुम्बर</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औदुम्बर</prAwipaxikam>
@@ -404,7 +404,7 @@
 </lexhead>
 
 <lexhead no="46">
-<root>औदुम्बरः</root>
+<dentry>औदुम्बरः</dentry>
 <prAwipaxikam>औदुम्बर</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[उदुम्बर+अञ्]</etymology>
@@ -412,7 +412,7 @@
 </lexhead>
 
 <lexhead no="47">
-<root>औदुम्बरी</root>
+<dentry>औदुम्बरी</dentry>
 <prAwipaxikam>औदुम्बरी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[उदुम्बर+अञ्]</etymology>
@@ -420,7 +420,7 @@
 </lexhead>
 
 <lexhead no="48">
-<root>औदुम्बरम्</root>
+<dentry>औदुम्बरम्</dentry>
 <prAwipaxikam>औदुम्बर</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उदुम्बर+अञ्]</etymology>
@@ -430,7 +430,7 @@
 </lexhead>
 
 <lexhead no="49">
-<root>औद्गात्रम्</root>
+<dentry>औद्गात्रम्</dentry>
 <prAwipaxikam>औद्गात्र</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उद्गातृ+अञ्]</etymology>
@@ -438,7 +438,7 @@
 </lexhead>
 
 <lexhead no="50">
-<root>औद्दालकम्</root>
+<dentry>औद्दालकम्</dentry>
 <prAwipaxikam>औद्दालक</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उद्दाल+अण्+कन्]</etymology>
@@ -446,7 +446,7 @@
 </lexhead>
 
 <lexhead no="51">
-<root>औद्देशिक</root>
+<dentry>औद्देशिक</dentry>
 <prAwipaxikam>औद्देशिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औद्देशिक</prAwipaxikam>
@@ -455,7 +455,7 @@
 </lexhead>
 
 <lexhead no="52">
-<root>औद्धत्यम्</root>
+<dentry>औद्धत्यम्</dentry>
 <prAwipaxikam>औद्धत्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उद्धत+ष्यञ्]</etymology>
@@ -464,7 +464,7 @@
 </lexhead>
 
 <lexhead no="53">
-<root>औद्धारिक</root>
+<dentry>औद्धारिक</dentry>
 <prAwipaxikam>औद्धारिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औद्धारिक</prAwipaxikam>
@@ -473,7 +473,7 @@
 </lexhead>
 
 <lexhead no="54">
-<root>औद्धारिकम्</root>
+<dentry>औद्धारिकम्</dentry>
 <prAwipaxikam>औद्धारिक</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उद्धार+ठञ्]</etymology>
@@ -481,7 +481,7 @@
 </lexhead>
 
 <lexhead no="55">
-<root>औद्भिदम्</root>
+<dentry>औद्भिदम्</dentry>
 <prAwipaxikam>औद्भिद</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उद्भिद्+अण्]</etymology>
@@ -490,7 +490,7 @@
 </lexhead>
 
 <lexhead no="56">
-<root>औद्वाहिक</root>
+<dentry>औद्वाहिक</dentry>
 <prAwipaxikam>औद्वाहिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औद्वाहिक</prAwipaxikam>
@@ -500,7 +500,7 @@
 </lexhead>
 
 <lexhead no="57">
-<root>औद्वाहिकम्</root>
+<dentry>औद्वाहिकम्</dentry>
 <prAwipaxikam>औद्वाहिक</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उद्वाह+ठञ्]</etymology>
@@ -508,7 +508,7 @@
 </lexhead>
 
 <lexhead no="58">
-<root>औधस्यम्</root>
+<dentry>औधस्यम्</dentry>
 <prAwipaxikam>औधस्</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ऊधस्+ष्यञ्]</etymology>
@@ -516,7 +516,7 @@
 </lexhead>
 
 <lexhead no="59">
-<root>औन्नत्यम्</root>
+<dentry>औन्नत्यम्</dentry>
 <prAwipaxikam>औन्नत्य</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औन्नत्य</prAwipaxikam>
@@ -525,7 +525,7 @@
 </lexhead>
 
 <lexhead no="60">
-<root>औपकर्णिक</root>
+<dentry>औपकर्णिक</dentry>
 <prAwipaxikam>औपकर्णिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपकर्णिक</prAwipaxikam>
@@ -534,7 +534,7 @@
 </lexhead>
 
 <lexhead no="61">
-<root>औपकार्यम्</root>
+<dentry>औपकार्यम्</dentry>
 <prAwipaxikam>औपकार्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उपकार्य+अण्]</etymology>
@@ -542,7 +542,7 @@
 </lexhead>
 
 <lexhead no="62">
-<root>औपकार्या</root>
+<dentry>औपकार्या</dentry>
 <prAwipaxikam>औपकार्या</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[उपकार्य+अण्+टाप्]</etymology>
@@ -550,7 +550,7 @@
 </lexhead>
 
 <lexhead no="63">
-<root>औपग्रस्तिकः</root>
+<dentry>औपग्रस्तिकः</dentry>
 <prAwipaxikam>औपग्रस्तिक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[उपग्रस्त+ठञ्]</etymology>
@@ -559,7 +559,7 @@
 </lexhead>
 
 <lexhead no="64">
-<root>औपग्रहिकः</root>
+<dentry>औपग्रहिकः</dentry>
 <prAwipaxikam>औपग्रहिक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[उपग्रह+ठञ्]</etymology>
@@ -568,7 +568,7 @@
 </lexhead>
 
 <lexhead no="65">
-<root>औपचारिक</root>
+<dentry>औपचारिक</dentry>
 <prAwipaxikam>औपचारिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपचारिक</prAwipaxikam>
@@ -577,7 +577,7 @@
 </lexhead>
 
 <lexhead no="66">
-<root>औपचारिकम्</root>
+<dentry>औपचारिकम्</dentry>
 <prAwipaxikam>औपचारिक</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उपचार+ठक्]</etymology>
@@ -585,7 +585,7 @@
 </lexhead>
 
 <lexhead no="67">
-<root>औपजानुक</root>
+<dentry>औपजानुक</dentry>
 <prAwipaxikam>औपजानुक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपजानुक</prAwipaxikam>
@@ -594,7 +594,7 @@
 </lexhead>
 
 <lexhead no="68">
-<root>औपदेशिक</root>
+<dentry>औपदेशिक</dentry>
 <prAwipaxikam>औपदेशिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपदेशिक</prAwipaxikam>
@@ -604,7 +604,7 @@
 </lexhead>
 
 <lexhead no="69">
-<root>औपधर्म्यम्</root>
+<dentry>औपधर्म्यम्</dentry>
 <prAwipaxikam>औपधर्म्य</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपधर्म्य</prAwipaxikam>
@@ -614,7 +614,7 @@
 </lexhead>
 
 <lexhead no="70">
-<root>औपधिक</root>
+<dentry>औपधिक</dentry>
 <prAwipaxikam>औपधिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपधिक</prAwipaxikam>
@@ -623,7 +623,7 @@
 </lexhead>
 
 <lexhead no="71">
-<root>औपधेयम्</root>
+<dentry>औपधेयम्</dentry>
 <prAwipaxikam>औपधेय</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उपाधि+ढञ्]</etymology>
@@ -631,7 +631,7 @@
 </lexhead>
 
 <lexhead no="72">
-<root>औपनायनिक</root>
+<dentry>औपनायनिक</dentry>
 <prAwipaxikam>औपनायनिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपनायनिक</prAwipaxikam>
@@ -640,7 +640,7 @@
 </lexhead>
 
 <lexhead no="73">
-<root>औपनिधिक</root>
+<dentry>औपनिधिक</dentry>
 <prAwipaxikam>औपनिधिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपनिधिक</prAwipaxikam>
@@ -649,7 +649,7 @@
 </lexhead>
 
 <lexhead no="74">
-<root>औपनिधिकम्</root>
+<dentry>औपनिधिकम्</dentry>
 <prAwipaxikam>औपनिधिक</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उपनिधि+ठक्]</etymology>
@@ -657,7 +657,7 @@
 </lexhead>
 
 <lexhead no="75">
-<root>औपनिषद</root>
+<dentry>औपनिषद</dentry>
 <prAwipaxikam>औपनिषद</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपनिषद</prAwipaxikam>
@@ -667,7 +667,7 @@
 </lexhead>
 
 <lexhead no="76">
-<root>औपनिषदः</root>
+<dentry>औपनिषदः</dentry>
 <prAwipaxikam>औपनिषद</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[उपनिषद्+अण्]</etymology>
@@ -676,7 +676,7 @@
 </lexhead>
 
 <lexhead no="77">
-<root>औपनीविक</root>
+<dentry>औपनीविक</dentry>
 <prAwipaxikam>औपनीविक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपनीविक</prAwipaxikam>
@@ -685,7 +685,7 @@
 </lexhead>
 
 <lexhead no="78">
-<root>औपपत्तिक</root>
+<dentry>औपपत्तिक</dentry>
 <prAwipaxikam>औपपत्तिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपपत्तिक</prAwipaxikam>
@@ -696,7 +696,7 @@
 </lexhead>
 
 <lexhead no="79">
-<root>औपमिक</root>
+<dentry>औपमिक</dentry>
 <prAwipaxikam>औपमिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपमिक</prAwipaxikam>
@@ -706,7 +706,7 @@
 </lexhead>
 
 <lexhead no="80">
-<root>औपम्यम्</root>
+<dentry>औपम्यम्</dentry>
 <prAwipaxikam>औपम्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उपमा+ष्यञ्]</etymology>
@@ -714,7 +714,7 @@
 </lexhead>
 
 <lexhead no="81">
-<root>औपयिक</root>
+<dentry>औपयिक</dentry>
 <prAwipaxikam>औपयिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपयिक</prAwipaxikam>
@@ -725,7 +725,7 @@
 </lexhead>
 
 <lexhead no="82">
-<root>औपयिकः</root>
+<dentry>औपयिकः</dentry>
 <prAwipaxikam>औपयिक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[उपाय+ठक्]</etymology>
@@ -734,7 +734,7 @@
 </lexhead>
 
 <lexhead no="83">
-<root>औपयिकम्</root>
+<dentry>औपयिकम्</dentry>
 <prAwipaxikam>औपयिक</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उपाय+ठक्]</etymology>
@@ -743,7 +743,7 @@
 </lexhead>
 
 <lexhead no="84">
-<root>औपरिष्ट</root>
+<dentry>औपरिष्ट</dentry>
 <prAwipaxikam>औपरिष्ट</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपरिष्ट</prAwipaxikam>
@@ -752,7 +752,7 @@
 </lexhead>
 
 <lexhead no="85">
-<root>औपरोधिक</root>
+<dentry>औपरोधिक</dentry>
 <prAwipaxikam>औपरोधिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपरोधिक</prAwipaxikam>
@@ -762,7 +762,7 @@
 </lexhead>
 
 <lexhead no="86">
-<root>औपरौधिक</root>
+<dentry>औपरौधिक</dentry>
 <prAwipaxikam>औपरौधिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपरौधिक</prAwipaxikam>
@@ -772,7 +772,7 @@
 </lexhead>
 
 <lexhead no="87">
-<root>औपरोधिकः</root>
+<dentry>औपरोधिकः</dentry>
 <prAwipaxikam>औपरोधिक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[उपरोध+ठक्]</etymology>
@@ -780,7 +780,7 @@
 </lexhead>
 
 <lexhead no="88">
-<root>औपल</root>
+<dentry>औपल</dentry>
 <prAwipaxikam>औपल</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपल</prAwipaxikam>
@@ -789,7 +789,7 @@
 </lexhead>
 
 <lexhead no="89">
-<root>औपवस्तम्</root>
+<dentry>औपवस्तम्</dentry>
 <prAwipaxikam>औपवस्त</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उपवस्त+अण्]</etymology>
@@ -799,7 +799,7 @@
 </lexhead>
 
 <lexhead no="90">
-<root>औपवस्त्रम्</root>
+<dentry>औपवस्त्रम्</dentry>
 <prAwipaxikam>औपवस्त्र</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उपवस्त्र+अण्]</etymology>
@@ -808,7 +808,7 @@
 </lexhead>
 
 <lexhead no="91">
-<root>औपवास्यम्</root>
+<dentry>औपवास्यम्</dentry>
 <prAwipaxikam>औपवास्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उपवास+ष्यञ्]</etymology>
@@ -816,7 +816,7 @@
 </lexhead>
 
 <lexhead no="92">
-<root>औपवाह्य</root>
+<dentry>औपवाह्य</dentry>
 <prAwipaxikam>औपवाह्य</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपवाह्य</prAwipaxikam>
@@ -825,7 +825,7 @@
 </lexhead>
 
 <lexhead no="93">
-<root>औपवाह्यः</root>
+<dentry>औपवाह्यः</dentry>
 <prAwipaxikam>औपवाह्य</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[उपवाह्य+अण्]</etymology>
@@ -834,7 +834,7 @@
 </lexhead>
 
 <lexhead no="94">
-<root>औपवेशिक</root>
+<dentry>औपवेशिक</dentry>
 <prAwipaxikam>औपवेशिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपवेशिक</prAwipaxikam>
@@ -843,7 +843,7 @@
 </lexhead>
 
 <lexhead no="95">
-<root>औपसंख्यानिक</root>
+<dentry>औपसंख्यानिक</dentry>
 <prAwipaxikam>औपसंख्यानिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपसंख्यानिक</prAwipaxikam>
@@ -853,7 +853,7 @@
 </lexhead>
 
 <lexhead no="96">
-<root>औपसर्गिक</root>
+<dentry>औपसर्गिक</dentry>
 <prAwipaxikam>औपसर्गिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपसर्गिक</prAwipaxikam>
@@ -863,7 +863,7 @@
 </lexhead>
 
 <lexhead no="97">
-<root>औपस्थिक</root>
+<dentry>औपस्थिक</dentry>
 <prAwipaxikam>औपस्थिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपस्थिक</prAwipaxikam>
@@ -872,7 +872,7 @@
 </lexhead>
 
 <lexhead no="98">
-<root>औपस्थ्यम्</root>
+<dentry>औपस्थ्यम्</dentry>
 <prAwipaxikam>औपस्थ्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उपस्थ+ष्यञ्]</etymology>
@@ -880,7 +880,7 @@
 </lexhead>
 
 <lexhead no="99">
-<root>औपहारिक</root>
+<dentry>औपहारिक</dentry>
 <prAwipaxikam>औपहारिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपहारिक</prAwipaxikam>
@@ -889,7 +889,7 @@
 </lexhead>
 
 <lexhead no="100">
-<root>औपहारिकम्</root>
+<dentry>औपहारिकम्</dentry>
 <prAwipaxikam>औपहारिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपहारिक</prAwipaxikam>
@@ -898,7 +898,7 @@
 </lexhead>
 
 <lexhead no="101">
-<root>औपाधिक</root>
+<dentry>औपाधिक</dentry>
 <prAwipaxikam>औपाधिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपाधिक</prAwipaxikam>
@@ -908,7 +908,7 @@
 </lexhead>
 
 <lexhead no="102">
-<root>औपाध्यायक</root>
+<dentry>औपाध्यायक</dentry>
 <prAwipaxikam>औपाध्यायक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपाध्यायक</prAwipaxikam>
@@ -917,7 +917,7 @@
 </lexhead>
 
 <lexhead no="103">
-<root>औपासन</root>
+<dentry>औपासन</dentry>
 <prAwipaxikam>औपासन</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औपासन</prAwipaxikam>
@@ -926,7 +926,7 @@
 </lexhead>
 
 <lexhead no="104">
-<root>औपासनः</root>
+<dentry>औपासनः</dentry>
 <prAwipaxikam>औपासन</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[उपासन+अण्]</etymology>
@@ -934,14 +934,14 @@
 </lexhead>
 
 <lexhead no="105">
-<root>औम्</root>
+<dentry>औम्</dentry>
 <prAwipaxikam>औम्</prAwipaxikam>
 <grammar>अव्य*</grammar>
 <sense no="1">शूद्रों के लिये पावन ध्वनि, क्योंकि ’ओम्’ का उच्चारण शूद्रों के लिये वर्जित है</sense>
 </lexhead>
 
 <lexhead no="106">
-<root>औरभ्र</root>
+<dentry>औरभ्र</dentry>
 <prAwipaxikam>औरभ्र</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औरभ्र</prAwipaxikam>
@@ -950,7 +950,7 @@
 </lexhead>
 
 <lexhead no="107">
-<root>औरभ्रम्</root>
+<dentry>औरभ्रम्</dentry>
 <prAwipaxikam>औरभ्र</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उरभ्र+अण्]</etymology>
@@ -959,7 +959,7 @@
 </lexhead>
 
 <lexhead no="108">
-<root>औरभ्रकम्</root>
+<dentry>औरभ्रकम्</dentry>
 <prAwipaxikam>औरभ्रक</prAwipaxikam>
 <grammar>नपुं*</grammar>
 ?<etymology>[उरभ्राणां समूहः - वुञ्]</etymology>
@@ -970,7 +970,7 @@
 </lexhead>
 
 <lexhead no="109">
-<root>ओरभ्रिकः</root>
+<dentry>ओरभ्रिकः</dentry>
 <prAwipaxikam>ओरभ्रिक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[उरभ्र+ठञ्]</etymology>
@@ -978,7 +978,7 @@
 </lexhead>
 
 <lexhead no="110">
-<root>औरस</root>
+<dentry>औरस</dentry>
 <prAwipaxikam>औरस</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औरस</prAwipaxikam>
@@ -989,7 +989,7 @@
 </lexhead>
 
 <lexhead no="111">
-<root>औरसः</root>
+<dentry>औरसः</dentry>
 <prAwipaxikam>औरस</prAwipaxikam>
 <grammar>पुं*</grammar>
 ?<etymology>[उरसा निर्मितः - अण्]</etymology>
@@ -999,7 +999,7 @@
 </lexhead>
 
 <lexhead no="112">
-<root>औरसी</root>
+<dentry>औरसी</dentry>
 <prAwipaxikam>औरसी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 ?<etymology>[उरसा निर्मितः - अण्]</etymology>
@@ -1007,7 +1007,7 @@
 </lexhead>
 
 <lexhead no="113">
-<root>औरस्य</root>
+<dentry>औरस्य</dentry>
 <prAwipaxikam>औरस्य</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औरस्य</prAwipaxikam>
@@ -1016,7 +1016,7 @@
 </lexhead>
 
 <lexhead no="114">
-<root>और्ण</root>
+<dentry>और्ण</dentry>
 <prAwipaxikam>और्ण</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">और्ण</prAwipaxikam>
@@ -1025,7 +1025,7 @@
 </lexhead>
 
 <lexhead no="115">
-<root>और्णक</root>
+<dentry>और्णक</dentry>
 <prAwipaxikam>और्णक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">और्णक</prAwipaxikam>
@@ -1034,7 +1034,7 @@
 </lexhead>
 
 <lexhead no="116">
-<root>और्णिक</root>
+<dentry>और्णिक</dentry>
 <prAwipaxikam>और्णिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">और्णिक</prAwipaxikam>
@@ -1043,7 +1043,7 @@
 </lexhead>
 
 <lexhead no="117">
-<root>और्ध्वकालिक</root>
+<dentry>और्ध्वकालिक</dentry>
 <prAwipaxikam>और्ध्वकालिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">और्ध्वकालिक</prAwipaxikam>
@@ -1052,7 +1052,7 @@
 </lexhead>
 
 <lexhead no="118">
-<root>और्ध्वदेहम्</root>
+<dentry>और्ध्वदेहम्</dentry>
 <prAwipaxikam>और्ध्वदेह</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ऊर्ध्वदेह+अण्]</etymology>
@@ -1060,7 +1060,7 @@
 </lexhead>
 
 <lexhead no="119">
-<root>और्ध्वदेहिक</root>
+<dentry>और्ध्वदेहिक</dentry>
 <prAwipaxikam>और्ध्वदेहिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">और्ध्वदेहिक</prAwipaxikam>
@@ -1071,14 +1071,14 @@
 </lexhead>
 
 <lexhead no="120">
-<root>और्ध्वदैहिक</root>
+<dentry>और्ध्वदैहिक</dentry>
 <prAwipaxikam>और्ध्वदैहिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">और्ध्वदैहिक</prAwipaxikam>
 ?<etymology>[ऊर्ध्वदेहाय साधु - ठञ्]</etymology>
 <sense no="1">मृत व्यक्ति से संबद्ध, अन्त्येष्टि, स्त्री* - और्ध्वदैहिक</sense>
 <segmenthd>
-<root>और्ध्वदैहिकक्रिया</root>
+<dentry>और्ध्वदैहिकक्रिया</dentry>
 <prAwipaxikam>और्ध्वदैहिकक्रिया</prAwipaxikam>
 <seg>और्ध्वदेहिक-क्रिया</seg>
 <grammar>स्त्री*</grammar>
@@ -1088,7 +1088,7 @@
 </lexhead>
 
 <lexhead no="121">
-<root>और्ध्वदेहिकम्</root>
+<dentry>और्ध्वदेहिकम्</dentry>
 <prAwipaxikam>और्ध्वदेहिक</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <kind_of>दानम्</kind_of>
@@ -1097,14 +1097,14 @@
 </lexhead>
 
 <lexhead no="122">
-<root>और्ध्वदैहिकम्</root>
+<dentry>और्ध्वदैहिकम्</dentry>
 <prAwipaxikam>और्ध्वदैहिक</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <sense no="1">अन्त्येष्टि संस्कार, प्रेतकर्म।</sense>
 </lexhead>
 
 <lexhead no="123">
-<root>और्व</root>
+<dentry>और्व</dentry>
 <prAwipaxikam>और्व</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">और्व</prAwipaxikam>
@@ -1116,7 +1116,7 @@
 </lexhead>
 
 <lexhead no="124">
-<root>और्वः</root>
+<dentry>और्वः</dentry>
 <prAwipaxikam>और्व</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ऊरु+अण्]</etymology>
@@ -1127,7 +1127,7 @@
 </lexhead>
 
 <lexhead no="125">
-<root>औलूकम्</root>
+<dentry>औलूकम्</dentry>
 <prAwipaxikam>औलूक</prAwipaxikam>
 <grammar>नपुं*</grammar>
 ?<etymology>[उलूकानां समूहः-अञ्]</etymology>
@@ -1135,7 +1135,7 @@
 </lexhead>
 
 <lexhead no="126">
-<root>औलूक्यः</root>
+<dentry>औलूक्यः</dentry>
 <prAwipaxikam>औलूक्य</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology><vigraha_vAkya>उलूकस्यापत्य</vigraha_vAkya>[उलूक-यञ्]</etymology>
@@ -1146,7 +1146,7 @@
 </lexhead>
 
 <lexhead no="127">
-<root>औल्वण्यम्</root>
+<dentry>औल्वण्यम्</dentry>
 <prAwipaxikam>औल्वण्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उल्वण+ष्यञ]</etymology>
@@ -1154,7 +1154,7 @@
 </lexhead>
 
 <lexhead no="128">
-<root>औशन</root>
+<dentry>औशन</dentry>
 <prAwipaxikam>औशन</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औशन</prAwipaxikam>
@@ -1162,7 +1162,7 @@
 </lexhead>
 
 <lexhead no="129">
-<root>औशनस</root>
+<dentry>औशनस</dentry>
 <prAwipaxikam>औशनस</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औशनस</prAwipaxikam>
@@ -1170,14 +1170,14 @@
 </lexhead>
 
 <lexhead no="130">
-<root>औशनसम्</root>
+<dentry>औशनसम्</dentry>
 <prAwipaxikam>औशनस</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <sense no="1">उशना का धर्मशास्त्र, नागरिकशास्त्र व्यवस्था पर लिखा गया ग्रन्थ</sense>
 </lexhead>
 
 <lexhead no="131">
-<root>औशीनरः</root>
+<dentry>औशीनरः</dentry>
 <prAwipaxikam>औशीनर</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology><vigraha_vAkya>उशीनरस्यापत्यम्</vigraha_vAkya>[ऊशीनर+अड़्]</etymology>
@@ -1185,14 +1185,14 @@
 </lexhead>
 
 <lexhead no="132">
-<root>औशीनरी</root>
+<dentry>औशीनरी</dentry>
 <prAwipaxikam>औशीनरी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <sense no="1">राजा पुरुरवा की पत्नी</sense>
 </lexhead>
 
 <lexhead no="133">
-<root>औशीरम्</root>
+<dentry>औशीरम्</dentry>
 <prAwipaxikam>औशीर</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उशीर+अण्]</etymology>
@@ -1213,7 +1213,7 @@
 </lexhead>
 
 <lexhead no="134">
-<root>औषणम्</root>
+<dentry>औषणम्</dentry>
 <prAwipaxikam>औषण</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उषण+अण्]</etymology>
@@ -1224,7 +1224,7 @@
 </lexhead>
 
 <lexhead no="135">
-<root>औषधम्</root>
+<dentry>औषधम्</dentry>
 <prAwipaxikam>औषध</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[औषधि+अण्]</etymology>
@@ -1236,7 +1236,7 @@
 </lexhead>
 
 <lexhead no="136">
-<root>औषधिः</root>
+<dentry>औषधिः</dentry>
 <prAwipaxikam>औषधि</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <sense no="1">जड़ी-बूटी, बनस्पति, दे* ओषधि</sense>
@@ -1246,7 +1246,7 @@
 </lexhead>
 
 <lexhead no="137">
-<root>औषधी</root>
+<dentry>औषधी</dentry>
 <prAwipaxikam>औषधी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <sense no="1">जड़ी-बूटी, बनस्पति, दे* ओषधि</sense>
@@ -1254,7 +1254,7 @@
 <sense n="3">आग उगलने वाली जड़ी विरमन्ति न ज्वलितुमौषधयः<citation>कि* ५/२४</citation><citation>तु* कु* १/१०</citation></sense>
 <sense n="4">वर्ष भर रहने वाला या सालाना पतझड़ वाला पौधा</sense>
 <segmenthd>
-<root>औषधिपतिः</root>
+<dentry>औषधिपतिः</dentry>
 <prAwipaxikam>औषधिपति</prAwipaxikam>
 <seg>औषधिः-पतिः</seg>
 <grammar>पुं*</grammar>
@@ -1264,7 +1264,7 @@
 </lexhead>
 
 <lexhead no="138">
-<root>औषधीय</root>
+<dentry>औषधीय</dentry>
 <prAwipaxikam>औषधीय</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औषधीय</prAwipaxikam>
@@ -1273,7 +1273,7 @@
 </lexhead>
 
 <lexhead no="139">
-<root>औषरम्</root>
+<dentry>औषरम्</dentry>
 <prAwipaxikam>औषर</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology><vigraha_vAkya>उषरे भवम्</vigraha_vAkya>[उषरे+अण्+कन्]</etymology>
@@ -1281,7 +1281,7 @@
 </lexhead>
 
 <lexhead no="140">
-<root>औषरकम्</root>
+<dentry>औषरकम्</dentry>
 <prAwipaxikam>औषरक</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology><vigraha_vAkya>उषरे भवम्</vigraha_vAkya>[उषरे+अण्+कन्]</etymology>
@@ -1289,7 +1289,7 @@
 </lexhead>
 
 <lexhead no="141">
-<root>औषस</root>
+<dentry>औषस</dentry>
 <prAwipaxikam>औषस</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औषस</prAwipaxikam>
@@ -1298,7 +1298,7 @@
 </lexhead>
 
 <lexhead no="142">
-<root>औषसी</root>
+<dentry>औषसी</dentry>
 <prAwipaxikam>औषसी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[उषस्+अण्]</etymology>
@@ -1306,7 +1306,7 @@
 </lexhead>
 
 <lexhead no="143">
-<root>औषसिक</root>
+<dentry>औषसिक</dentry>
 <prAwipaxikam>औषसिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औषसिक</prAwipaxikam>
@@ -1315,7 +1315,7 @@
 </lexhead>
 
 <lexhead no="144">
-<root>औषिक</root>
+<dentry>औषिक</dentry>
 <prAwipaxikam>औषिक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औषिक</prAwipaxikam>
@@ -1324,7 +1324,7 @@
 </lexhead>
 
 <lexhead no="145">
-<root>औष्ट्र</root>
+<dentry>औष्ट्र</dentry>
 <prAwipaxikam>औष्ट्र</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औष्ट्र</prAwipaxikam>
@@ -1334,7 +1334,7 @@
 </lexhead>
 
 <lexhead no="146">
-<root>औष्ट्रम्</root>
+<dentry>औष्ट्रम्</dentry>
 <prAwipaxikam>औष्ट्र</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उष्ट्र+अण्]</etymology>
@@ -1342,7 +1342,7 @@
 </lexhead>
 
 <lexhead no="147">
-<root>औष्ट्रकम्</root>
+<dentry>औष्ट्रकम्</dentry>
 <prAwipaxikam>औष्ट्रक</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उष्ट्र+वुञ्]</etymology>
@@ -1353,21 +1353,21 @@
 </lexhead>
 
 <lexhead no="148">
-<root>औष्ठ्य</root>
+<dentry>औष्ठ्य</dentry>
 <prAwipaxikam>औष्ठ्य</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">औष्ठ्य</prAwipaxikam>
 <etymology>[ओष्ठ+यत्]</etymology>
 <sense no="1">होठ से सम्बद्ध, ओष्ठ स्थानीय</sense>
 <segmenthd>
-<root>औष्ठ्यवर्णः</root>
+<dentry>औष्ठ्यवर्णः</dentry>
 <prAwipaxikam>औष्ठ्यवर्ण</prAwipaxikam>
 <seg>औष्ठ्य-वर्णः</seg>
 <grammar>पुं*</grammar>
 <sense no="3">ओष्ठस्थानीय अक्षर-अर्थात् उ, ऊ, प्, फ्, ब्, भ्, म्, और व्</sense>
 </segmenthd>
 <segmenthd>
-<root>औष्ठ्यस्थान</root>
+<dentry>औष्ठ्यस्थान</dentry>
 <prAwipaxikam>औष्ठ्यस्थान</prAwipaxikam>
 <seg>औष्ठ्य-स्थान</seg>
 <grammar>वि*</grammar>
@@ -1375,7 +1375,7 @@
 <sense no="1">होठों द्वारा उच्चरित</sense>
 </segmenthd>
 <segmenthd>
-<root>औष्ठ्यस्वरः</root>
+<dentry>औष्ठ्यस्वरः</dentry>
 <prAwipaxikam>औष्ठ्यस्वर</prAwipaxikam>
 <seg>औष्ठ्य-स्वरः</seg>
 <grammar>पुं*</grammar>
@@ -1384,7 +1384,7 @@
 </lexhead>
 
 <lexhead no="149">
-<root>औष्णम्</root>
+<dentry>औष्णम्</dentry>
 <prAwipaxikam>औष्ण</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उष्ण+अण्]</etymology>
@@ -1392,7 +1392,7 @@
 </lexhead>
 
 <lexhead no="150">
-<root>औष्ण्यम्</root>
+<dentry>औष्ण्यम्</dentry>
 <prAwipaxikam>औष्ण्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उष्ण+ष्यञ्]</etymology>
@@ -1400,7 +1400,7 @@
 </lexhead>
 
 <lexhead no="151">
-<root>औष्म्यम्</root>
+<dentry>औष्म्यम्</dentry>
 <prAwipaxikam>औष्म्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उष्म+ष्यञ्]</etymology>

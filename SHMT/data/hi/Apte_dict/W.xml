@@ -3,7 +3,7 @@
 <?xml-stylesheet href="apte.css" type="text/css" ?>
 <dict>
 <lexhead no="1">
-<root>थः</root>
+<dentry>थः</dentry>
 <prAwipaxikam>थ</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[थुड्+ड]</etymology>
@@ -11,7 +11,7 @@
 </lexhead>
 
 <lexhead no="2">
-<root>थम्</root>
+<dentry>थम्</dentry>
 <prAwipaxikam>थ</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <sense no="1">रक्षा, प्ररक्षा</sense>
@@ -20,7 +20,7 @@
 </lexhead>
 
 <lexhead no="3">
-<root>थुड्</root>
+<dentry>थुड्</dentry>
 <prAwipaxikam>थुड्</prAwipaxikam>
 <grammar><gaNa>तुदा*</gaNa><paxI>पर*</paxI><vform>थुडति</vform></grammar>
 <sense no="1">ढकना, पर्दा डालना</sense>
@@ -28,7 +28,7 @@
 </lexhead>
 
 <lexhead no="4">
-<root>थुडनम्</root>
+<dentry>थुडनम्</dentry>
 <prAwipaxikam>थुडन</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[थुड्+ल्युट्]</etymology>
@@ -36,7 +36,7 @@
 </lexhead>
 
 <lexhead no="5">
-<root>थुत्कारः</root>
+<dentry>थुत्कारः</dentry>
 <prAwipaxikam>थुत्कार</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[थुत्-कृ+अण्]</etymology>
@@ -44,14 +44,14 @@
 </lexhead>
 
 <lexhead no="6">
-<root>थुर्व्</root>
+<dentry>थुर्व्</dentry>
 <prAwipaxikam>थुर्व्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>थूर्वति</vform></grammar>
 <sense no="1">चोट पहुँचाना, क्षति पहुँचाना</sense>
 </lexhead>
 
 <lexhead no="7">
-<root>थूत्कारः</root>
+<dentry>थूत्कारः</dentry>
 <prAwipaxikam>थूत्कार</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[थुत्-कृ+अण्]</etymology>
@@ -59,7 +59,7 @@
 </lexhead>
 
 <lexhead no="8">
-<root>थूत्कृतम्</root>
+<dentry>थूत्कृतम्</dentry>
 <prAwipaxikam>थूत्कृत</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[थुत्-कृ+अण्/थुत्-कृ+क्त]</etymology>
@@ -67,7 +67,7 @@
 </lexhead>
 
 <lexhead no="9">
-<root>थैथै</root>
+<dentry>थैथै</dentry>
 <prAwipaxikam>थैथै</prAwipaxikam>
 <grammar>अव्य*</grammar>
 <sense no="1">किसी संगीत-वाद्य-यंत्र की अनुकरणात्मक ध्वनि</sense>

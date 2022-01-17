@@ -3,7 +3,7 @@
 <?xml-stylesheet href="apte.css" type="text/css"?>
 <dict>
 <lexhead no="2">
-<root>ऊः</root>
+<dentry>ऊः</dentry>
 <prAwipaxikam>ऊ</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology><vigraha_vAkya>अवतीति</vigraha_vAkya>[अव्+क्विप्]</etymology>
@@ -16,7 +16,7 @@
 </lexhead>
 
 <lexhead no="3">
-<root>ऊढ</root>
+<dentry>ऊढ</dentry>
 <prAwipaxikam>ऊढ</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऊढ</prAwipaxikam>
@@ -27,7 +27,7 @@
 </lexhead>
 
 <lexhead no="4">
-<root>ऊढः</root>
+<dentry>ऊढः</dentry>
 <prAwipaxikam>ऊढ</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[वह्+क्त]</etymology>
@@ -35,13 +35,13 @@
 </lexhead>
 
 <lexhead no="5">
-<root>ऊढा</root>
+<dentry>ऊढा</dentry>
 <prAwipaxikam>ऊढा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[वह्+क्त+टाप्]</etymology>
 <sense no="1">विवाहिता लड़की</sense>
 <segmenthd>
-<root>ऊढकङ्कट</root>
+<dentry>ऊढकङ्कट</dentry>
 <prAwipaxikam>ऊढकङ्कट</prAwipaxikam>
 <seg>ऊढ-कङ्कट</seg>
 <grammar>वि*</grammar>
@@ -49,7 +49,7 @@
 <sense no="1">कवचधारी</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊढभार्य</root>
+<dentry>ऊढभार्य</dentry>
 <prAwipaxikam>ऊढभार्य</prAwipaxikam>
 <seg>ऊढ-भार्य</seg>
 <grammar>वि*</grammar>
@@ -57,7 +57,7 @@
 <sense no="1">जिसने विवाह कर लिया है</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊढवयसः</root>
+<dentry>ऊढवयसः</dentry>
 <prAwipaxikam>ऊढवयस</prAwipaxikam>
 <seg>ऊढ-वयसः</seg>
 <grammar>पुं*</grammar>
@@ -66,7 +66,7 @@
 </lexhead>
 
 <lexhead no="6">
-<root>ऊढिः</root>
+<dentry>ऊढिः</dentry>
 <prAwipaxikam>ऊढि</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[वह्+क्तिन्]</etymology>
@@ -74,7 +74,7 @@
 </lexhead>
 
 <lexhead no="7">
-<root>ऊतिः</root>
+<dentry>ऊतिः</dentry>
 <prAwipaxikam>ऊति</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[अव्+क्तिन्]</etymology>
@@ -85,7 +85,7 @@
 </lexhead>
 
 <lexhead no="8">
-<root>ऊधस्</root>
+<dentry>ऊधस्</dentry>
 <prAwipaxikam>ऊधस्</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उन्द्+असुन्, ऊध आदेशः]</etymology>
@@ -95,7 +95,7 @@
 </lexhead>
 
 <lexhead no="9">
-<root>ऊधन्यम्</root>
+<dentry>ऊधन्यम्</dentry>
 <prAwipaxikam>ऊधन्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ऊधन्+यत्]</etymology>
@@ -103,7 +103,7 @@
 </lexhead>
 
 <lexhead no="10">
-<root>ऊधस्यम्</root>
+<dentry>ऊधस्यम्</dentry>
 <prAwipaxikam>ऊधस्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ऊधस्+यत्]</etymology>
@@ -111,7 +111,7 @@
 </lexhead>
 
 <lexhead no="11">
-<root>ऊन</root>
+<dentry>ऊन</dentry>
 <prAwipaxikam>ऊन</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऊन</prAwipaxikam>
@@ -121,7 +121,7 @@
 <sense n="3">अपेक्षाकृत दुर्बल, घटियाऊनं न सत्त्वेष्वधिको बबाधे<citation>रघु* २/१४</citation></sense>
 <sense n="4">घटा करसंख्याओं के साथ इसी अर्थ में</sense>
 <segmenthd>
-<root>एकोन</root>
+<dentry>एकोन</dentry>
 <prAwipaxikam>एकोन</prAwipaxikam>
 <seg>एक-ऊन</seg>
 <grammar>वि*</grammar>
@@ -131,7 +131,7 @@
 </lexhead>
 
 <lexhead no="12">
-<root>ऊम्</root>
+<dentry>ऊम्</dentry>
 <prAwipaxikam>ऊम्</prAwipaxikam>
 <grammar>अव्य*</grammar>
 <etymology>[ऊय्+मुक्]</etymology>
@@ -144,14 +144,14 @@
 </lexhead>
 
 <lexhead no="13">
-<root>ऊय्</root>
+<dentry>ऊय्</dentry>
 <prAwipaxikam>ऊय्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
 <sense no="1">बुनना, सीना, ऊयते, ऊत</sense>
 </lexhead>
 
 <lexhead no="14">
-<root>ऊररी</root>
+<dentry>ऊररी</dentry>
 <prAwipaxikam>ऊररी</prAwipaxikam>
 <grammar>अव्य*</grammar>
 <jAwi>परिमाणः</jAwi>
@@ -161,7 +161,7 @@
 </lexhead>
 
 <lexhead no="15">
-<root>ऊरव्यः</root>
+<dentry>ऊरव्यः</dentry>
 <prAwipaxikam>ऊरव्य</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ऊरु+यत्]</etymology>
@@ -172,7 +172,7 @@
 </lexhead>
 
 <lexhead no="16">
-<root>ऊरुः</root>
+<dentry>ऊरुः</dentry>
 <prAwipaxikam>ऊरु</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ऊर्णु+कु, नुलोपः]</etymology>
@@ -181,14 +181,14 @@
 <upAXi>अवयवः</upAXi>
 <sense no="1">जंघा, उरु तदस्य यद्वैश्यः<citation>ऋक् १०/९०/१२</citation></sense>
 <segmenthd>
-<root>ऊर्वष्ठीवम्</root>
+<dentry>ऊर्वष्ठीवम्</dentry>
 <prAwipaxikam>ऊर्वष्ठीव</prAwipaxikam>
 <seg>ऊरुः-अष्ठीवम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">जंघा और घुटना</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊरूद्भव</root>
+<dentry>ऊरूद्भव</dentry>
 <prAwipaxikam>ऊरूद्भव</prAwipaxikam>
 <seg>ऊरुः-उद्भव</seg>
 <grammar>वि*</grammar>
@@ -196,7 +196,7 @@
 <sense no="1">जंघा से उत्पन्न<citation>विक्रम* १/३</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>ऊरुज</root>
+<dentry>ऊरुज</dentry>
 <prAwipaxikam>ऊरुज</prAwipaxikam>
 <seg>ऊरुः-ज</seg>
 <grammar>वि*</grammar>
@@ -208,7 +208,7 @@
 <sense no="2">वैश्य</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊरुजन्मन्</root>
+<dentry>ऊरुजन्मन्</dentry>
 <prAwipaxikam>ऊरुजन्मन्</prAwipaxikam>
 <seg>ऊरुः-जन्मन्</seg>
 <grammar>वि*</grammar>
@@ -217,7 +217,7 @@
 <sense no="2">वैश्य</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊरुसम्भव</root>
+<dentry>ऊरुसम्भव</dentry>
 <prAwipaxikam>ऊरुसम्भव</prAwipaxikam>
 <seg>ऊरुः-सम्भव</seg>
 <grammar>वि*</grammar>
@@ -226,7 +226,7 @@
 <sense no="2">वैश्य</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊरुदध्न</root>
+<dentry>ऊरुदध्न</dentry>
 <prAwipaxikam>ऊरुदध्न</prAwipaxikam>
 <seg>ऊरुः-दध्न</seg>
 <grammar>वि*</grammar>
@@ -234,7 +234,7 @@
 <sense no="1">जंघाओं तक पहुंचने वाला, घुटनों तक</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊरुद्वयस्</root>
+<dentry>ऊरुद्वयस्</dentry>
 <prAwipaxikam>ऊरुद्वयस्</prAwipaxikam>
 <seg>ऊरुः-द्वयस्</seg>
 <grammar>वि*</grammar>
@@ -242,7 +242,7 @@
 <sense no="1">जंघाओं तक पहुंचने वाला, घुटनों तक</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊरुमात्र</root>
+<dentry>ऊरुमात्र</dentry>
 <prAwipaxikam>ऊरुमात्र</prAwipaxikam>
 <seg>ऊरुः-मात्र</seg>
 <grammar>वि*</grammar>
@@ -250,7 +250,7 @@
 <sense no="1">जंघाओं तक पहुंचने वाला, घुटनों तक</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊरुपर्वन्</root>
+<dentry>ऊरुपर्वन्</dentry>
 <prAwipaxikam>ऊरुपर्वन्</prAwipaxikam>
 <seg>ऊरुः-पर्वन्</seg>
 <grammar>पुं*</grammar>
@@ -260,7 +260,7 @@
 <sense no="1">घुटना</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊरुफलकम्</root>
+<dentry>ऊरुफलकम्</dentry>
 <prAwipaxikam>ऊरुफलक</prAwipaxikam>
 <seg>ऊरुः-फलकम्</seg>
 <grammar>नपुं*</grammar>
@@ -269,7 +269,7 @@
 </lexhead>
 
 <lexhead no="17">
-<root>ऊरुरी</root>
+<dentry>ऊरुरी</dentry>
 <prAwipaxikam>ऊरुरी</prAwipaxikam>
 <grammar>अव्य*</grammar>
 <etymology>[उर्+अरीक्, बा*]</etymology>
@@ -278,7 +278,7 @@
 </lexhead>
 
 <lexhead no="18">
-<root>ऊर्ज्</root>
+<dentry>ऊर्ज्</dentry>
 <prAwipaxikam>ऊर्ज्</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ऊर्ज्+क्विप्]</etymology>
@@ -287,7 +287,7 @@
 </lexhead>
 
 <lexhead no="19">
-<root>ऊर्जः</root>
+<dentry>ऊर्जः</dentry>
 <prAwipaxikam>ऊर्ज</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ऊर्ज्+णिच्+अच्]</etymology>
@@ -301,7 +301,7 @@
 </lexhead>
 
 <lexhead no="20">
-<root>ऊर्जा</root>
+<dentry>ऊर्जा</dentry>
 <prAwipaxikam>ऊर्जा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ऊर्ज्+णिच्+अच्+टाप्]</etymology>
@@ -312,7 +312,7 @@
 </lexhead>
 
 <lexhead no="21">
-<root>ऊर्जस्</root>
+<dentry>ऊर्जस्</dentry>
 <prAwipaxikam>ऊर्जस्</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ऊर्ज्+असुन्]</etymology>
@@ -321,7 +321,7 @@
 </lexhead>
 
 <lexhead no="22">
-<root>ऊर्जस्वत्</root>
+<dentry>ऊर्जस्वत्</dentry>
 <prAwipaxikam>ऊर्जस्वत्</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऊर्जस्वत्</prAwipaxikam>
@@ -331,7 +331,7 @@
 </lexhead>
 
 <lexhead no="23">
-<root>ऊर्जस्वल</root>
+<dentry>ऊर्जस्वल</dentry>
 <prAwipaxikam>ऊर्जस्वल</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऊर्जस्वल</prAwipaxikam>
@@ -342,7 +342,7 @@
 </lexhead>
 
 <lexhead no="24">
-<root>ऊर्जस्विन्</root>
+<dentry>ऊर्जस्विन्</dentry>
 <prAwipaxikam>ऊर्जस्विन्</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऊर्जस्विन्</prAwipaxikam>
@@ -353,7 +353,7 @@
 </lexhead>
 
 <lexhead no="25">
-<root>ऊर्जित</root>
+<dentry>ऊर्जित</dentry>
 <prAwipaxikam>ऊर्जित</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऊर्जित</prAwipaxikam>
@@ -364,7 +364,7 @@
 </lexhead>
 
 <lexhead no="26">
-<root>ऊर्जितम्</root>
+<dentry>ऊर्जितम्</dentry>
 <prAwipaxikam>ऊर्जित</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ऊर्ज्+क्त]</etymology>
@@ -373,14 +373,14 @@
 </lexhead>
 
 <lexhead no="27">
-<root>ऊर्णम्</root>
+<dentry>ऊर्णम्</dentry>
 <prAwipaxikam>ऊर्ण</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ऊर्णु+ड]</etymology>
 <sense no="1">ऊन</sense>
 <sense n="2">ऊनी वस्त्र</sense>
 <segmenthd>
-<root>ऊर्णनाभः</root>
+<dentry>ऊर्णनाभः</dentry>
 <prAwipaxikam>ऊर्णनाभ</prAwipaxikam>
 <seg>ऊर्णम्-नाभः</seg>
 <grammar>पुं*</grammar>
@@ -389,21 +389,21 @@
 <sense no="1">मकड़ी</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्णनाभिः</root>
+<dentry>ऊर्णनाभिः</dentry>
 <prAwipaxikam>ऊर्णनाभि</prAwipaxikam>
 <seg>ऊर्णम्-नाभिः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">मकड़ी</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्णपटः</root>
+<dentry>ऊर्णपटः</dentry>
 <prAwipaxikam>ऊर्णपट</prAwipaxikam>
 <seg>ऊर्णम्-पटः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">मकड़ी</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्णम्रद</root>
+<dentry>ऊर्णम्रद</dentry>
 <prAwipaxikam>ऊर्णम्रद</prAwipaxikam>
 <seg>ऊर्णम्-म्रद</seg>
 <grammar>वि*</grammar>
@@ -411,7 +411,7 @@
 <sense no="1">ऊन की भांति नरम</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्णदस्</root>
+<dentry>ऊर्णदस्</dentry>
 <prAwipaxikam>ऊर्णदस्</prAwipaxikam>
 <seg>ऊर्णम्-दस्</seg>
 <grammar>वि*</grammar>
@@ -421,7 +421,7 @@
 </lexhead>
 
 <lexhead no="28">
-<root>ऊर्णा</root>
+<dentry>ऊर्णा</dentry>
 <prAwipaxikam>ऊर्णा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ऊर्ण+टाप्]</etymology>
@@ -430,7 +430,7 @@
 <sense no="1">ऊन<citation>रघु* १६/८७</citation></sense>
 <sense n="2">भौंहों का मध्यवर्ती केशपुंज</sense>
 <segmenthd>
-<root>ऊर्णापिण्डः</root>
+<dentry>ऊर्णापिण्डः</dentry>
 <prAwipaxikam>ऊर्णापिण्ड</prAwipaxikam>
 <seg>ऊर्णा-पिण्डः</seg>
 <grammar>पुं*</grammar>
@@ -439,7 +439,7 @@
 </lexhead>
 
 <lexhead no="29">
-<root>ऊर्णायु</root>
+<dentry>ऊर्णायु</dentry>
 <prAwipaxikam>ऊर्णायु</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऊर्णायु</prAwipaxikam>
@@ -453,7 +453,7 @@
 </lexhead>
 
 <lexhead no="30">
-<root>ऊर्णायुः</root>
+<dentry>ऊर्णायुः</dentry>
 <prAwipaxikam>ऊर्णायु</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ऊर्णा+यु]</etymology>
@@ -468,14 +468,14 @@
 </lexhead>
 
 <lexhead no="31">
-<root>ऊर्णु</root>
+<dentry>ऊर्णु</dentry>
 <prAwipaxikam>ऊर्णु</prAwipaxikam>
 <grammar><gaNa>अदा*</gaNa><paxI>उभ*</paxI>,<vform>ऊर्णोति</vform>,<vform>ऊर्णौति</vform>,<vform>उर्णुते</vform>,<vform>ऊर्णित</vform></grammar>
 <sense no="1">ढकना, घेरना, छिपाना<citation>भट्टि* १४/१०३</citation><citation>शि* २०/१४</citation></sense>
 <sense n="2">ढकना, घेरना, छिपाना</sense>
 <sense n="3">ढकना, घेरना, छिपाना</sense>
 <segmenthd>
-<root>प्रौर्णु</root>
+<dentry>प्रौर्णु</dentry>
 <prAwipaxikam>प्रौर्णु</prAwipaxikam>
 <seg>प्र+ऊर्णु</seg>
 <grammar></grammar>
@@ -484,7 +484,7 @@
 </lexhead>
 
 <lexhead no="32">
-<root>ऊर्ध्व</root>
+<dentry>ऊर्ध्व</dentry>
 <prAwipaxikam>ऊर्ध्व</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऊर्ध्व</prAwipaxikam>
@@ -497,7 +497,7 @@
 </lexhead>
 
 <lexhead no="33">
-<root>ऊर्ध्वम्</root>
+<dentry>ऊर्ध्वम्</dentry>
 <prAwipaxikam>ऊर्ध्व</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[उद्+हा+ड, पृषो* ऊर् आदेशः]</etymology>
@@ -507,7 +507,7 @@
 <sense n="4">ऊँचे स्वर से, जोर से</sense>
 <sense n="5">बाद में, पश्चात्ते त्र्यहादूर्ध्वमाख्याय<citation>कु* ६/९३</citation><citation>रघु* १४/६६अपा* के साथ</citation></sense>
 <segmenthd>
-<root>ऊर्ध्वकच</root>
+<dentry>ऊर्ध्वकच</dentry>
 <prAwipaxikam>ऊर्ध्वकच</prAwipaxikam>
 <seg>ऊर्ध्व-कच</seg>
 <grammar>वि*</grammar>
@@ -516,7 +516,7 @@
 <sense no="2">जिसके बाल टूट गये हों</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वकेश</root>
+<dentry>ऊर्ध्वकेश</dentry>
 <prAwipaxikam>ऊर्ध्वकेश</prAwipaxikam>
 <seg>ऊर्ध्व-केश</seg>
 <grammar>वि*</grammar>
@@ -525,14 +525,14 @@
 <sense no="2">जिसके बाल टूट गये हों</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वचः</root>
+<dentry>ऊर्ध्वचः</dentry>
 <prAwipaxikam>ऊर्ध्वच</prAwipaxikam>
 <seg>ऊर्ध्व-चः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">केतु</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वकर्मन्</root>
+<dentry>ऊर्ध्वकर्मन्</dentry>
 <prAwipaxikam>ऊर्ध्वकर्मन्</prAwipaxikam>
 <seg>ऊर्ध्व-कर्मन्</seg>
 <grammar>नपुं*</grammar>
@@ -541,7 +541,7 @@
 <sense no="3">विष्णु</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वक्रिया</root>
+<dentry>ऊर्ध्वक्रिया</dentry>
 <prAwipaxikam>ऊर्ध्वक्रिया</prAwipaxikam>
 <seg>ऊर्ध्व-क्रिया</seg>
 <grammar>नपुं*</grammar>
@@ -550,21 +550,21 @@
 <sense no="3">विष्णु</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वकायः</root>
+<dentry>ऊर्ध्वकायः</dentry>
 <prAwipaxikam>ऊर्ध्वकाय</prAwipaxikam>
 <seg>ऊर्ध्व-कायः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">शरीर का ऊपरी भाग</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वकायम्</root>
+<dentry>ऊर्ध्वकायम्</dentry>
 <prAwipaxikam>ऊर्ध्वकाय</prAwipaxikam>
 <seg>ऊर्ध्व-कायम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">शरीर का ऊपरी भाग</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वगः</root>
+<dentry>ऊर्ध्वगः</dentry>
 <prAwipaxikam>ऊर्ध्वग</prAwipaxikam>
 <seg>ऊर्ध्व-गः</seg>
 <grammar>वि*</grammar>
@@ -572,7 +572,7 @@
 <sense no="1">ऊपर जाने वाला</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वगामिन्</root>
+<dentry>ऊर्ध्वगामिन्</dentry>
 <prAwipaxikam>ऊर्ध्वगामिन्</prAwipaxikam>
 <seg>ऊर्ध्व-गामिन्</seg>
 <grammar>वि*</grammar>
@@ -580,7 +580,7 @@
 <sense no="1">ऊपर जाने वाला</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वगति</root>
+<dentry>ऊर्ध्वगति</dentry>
 <prAwipaxikam>ऊर्ध्वगति</prAwipaxikam>
 <seg>ऊर्ध्व-गति</seg>
 <grammar>वि*</grammar>
@@ -588,7 +588,7 @@
 <sense no="1">ऊपर की ओर जाने वालास्त्री* - ऊर्ध्वगतिः</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वगमः</root>
+<dentry>ऊर्ध्वगमः</dentry>
 <prAwipaxikam>ऊर्ध्वगम</prAwipaxikam>
 <seg>ऊर्ध्व-गमः</seg>
 <grammar>पुं*</grammar>
@@ -596,7 +596,7 @@
 <sense no="2">स्वर्ग में जाना</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वगमनम्</root>
+<dentry>ऊर्ध्वगमनम्</dentry>
 <prAwipaxikam>ऊर्ध्वगमन</prAwipaxikam>
 <seg>ऊर्ध्व-गमनम्</seg>
 <grammar>नपुं*</grammar>
@@ -604,7 +604,7 @@
 <sense no="2">स्वर्ग में जाना</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वचरण</root>
+<dentry>ऊर्ध्वचरण</dentry>
 <prAwipaxikam>ऊर्ध्वचरण</prAwipaxikam>
 <seg>ऊर्ध्व-चरण</seg>
 <grammar>वि*</grammar>
@@ -612,7 +612,7 @@
 <sense no="1">ऊपर की ओर पैर किये हुए</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वपाद</root>
+<dentry>ऊर्ध्वपाद</dentry>
 <prAwipaxikam>ऊर्ध्वपाद</prAwipaxikam>
 <seg>ऊर्ध्व-पाद</seg>
 <grammar>वि*</grammar>
@@ -620,14 +620,14 @@
 <sense no="1">ऊपर की ओर पैर किये हुए</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वणः</root>
+<dentry>ऊर्ध्वणः</dentry>
 <prAwipaxikam>ऊर्ध्वण</prAwipaxikam>
 <seg>ऊर्ध्व-णः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">शरभ नाम का एक काल्पनिक जन्तु</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वजानु</root>
+<dentry>ऊर्ध्वजानु</dentry>
 <prAwipaxikam>ऊर्ध्वजानु</prAwipaxikam>
 <seg>ऊर्ध्व-जानु</seg>
 <grammar>वि*</grammar>
@@ -638,7 +638,7 @@
 <sense no="2">उकडूं बैठा हुआ</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वज्ञ</root>
+<dentry>ऊर्ध्वज्ञ</dentry>
 <prAwipaxikam>ऊर्ध्वज्ञ</prAwipaxikam>
 <seg>ऊर्ध्व-ज्ञ</seg>
 <grammar>वि*</grammar>
@@ -647,7 +647,7 @@
 <sense no="2">उकडूं बैठा हुआ</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वज्ञु</root>
+<dentry>ऊर्ध्वज्ञु</dentry>
 <prAwipaxikam>ऊर्ध्वज्ञु</prAwipaxikam>
 <seg>ऊर्ध्व-ज्ञु</seg>
 <grammar>वि*</grammar>
@@ -658,7 +658,7 @@
 <sense no="2">उकडूं बैठा हुआ</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वदृष्टि</root>
+<dentry>ऊर्ध्वदृष्टि</dentry>
 <prAwipaxikam>ऊर्ध्वदृष्टि</prAwipaxikam>
 <seg>ऊर्ध्व-दृष्टि</seg>
 <grammar>वि*</grammar>
@@ -666,14 +666,14 @@
 <sense no="1">ऊपर को देखता हुआ</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वदृष्टिः</root>
+<dentry>ऊर्ध्वदृष्टिः</dentry>
 <prAwipaxikam>ऊर्ध्वदृष्टि</prAwipaxikam>
 <seg>ऊर्ध्व-दृष्टिः</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">उच्चाकांक्षी, महत्त्वाकांक्षी, भौंहों के बीच में अपनी दृष्टि संकेन्द्रित करनाआल*, स्त्री* - दृष्टिः, यो* द*</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वनेत्र</root>
+<dentry>ऊर्ध्वनेत्र</dentry>
 <prAwipaxikam>ऊर्ध्वनेत्र</prAwipaxikam>
 <seg>ऊर्ध्व-नेत्र</seg>
 <grammar>वि*</grammar>
@@ -682,28 +682,28 @@
 <sense no="2">उच्चाकांक्षी, महत्त्वाकांक्षी, भौंहों के बीच में अपनी दृष्टि संकेन्द्रित करना</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वदेहः</root>
+<dentry>ऊर्ध्वदेहः</dentry>
 <prAwipaxikam>ऊर्ध्वदेह</prAwipaxikam>
 <seg>ऊर्ध्व-देहः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">अन्त्येष्टि संस्कार</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वपातनम्</root>
+<dentry>ऊर्ध्वपातनम्</dentry>
 <prAwipaxikam>ऊर्ध्वपातन</prAwipaxikam>
 <seg>ऊर्ध्व-पातनम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">ऊपर चढ़ाना, परिष्करणजैसे पारे का</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वपात्रम्</root>
+<dentry>ऊर्ध्वपात्रम्</dentry>
 <prAwipaxikam>ऊर्ध्वपात्र</prAwipaxikam>
 <seg>ऊर्ध्व-पात्रम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">यज्ञीय पात्र<citation>यज्ञ* १/१८२</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वमुख</root>
+<dentry>ऊर्ध्वमुख</dentry>
 <prAwipaxikam>ऊर्ध्वमुख</prAwipaxikam>
 <seg>ऊर्ध्व-मुख</seg>
 <grammar>वि*</grammar>
@@ -711,7 +711,7 @@
 <sense no="1">ऊपर को मुंह किये हुए, उन्मुख<citation>कु* १/१६</citation><citation>रघु* ३/५७</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वमौहूर्तिक</root>
+<dentry>ऊर्ध्वमौहूर्तिक</dentry>
 <prAwipaxikam>ऊर्ध्वमौहूर्तिक</prAwipaxikam>
 <seg>ऊर्ध्व-मौहूर्तिक</seg>
 <grammar>वि*</grammar>
@@ -719,7 +719,7 @@
 <sense no="1">थोड़ी देर के पश्चात् होने वाला</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वरेतस्</root>
+<dentry>ऊर्ध्वरेतस्</dentry>
 <prAwipaxikam>ऊर्ध्वरेतस्</prAwipaxikam>
 <seg>ऊर्ध्व-रेतस्</seg>
 <grammar>वि*</grammar>
@@ -729,35 +729,35 @@
 <sense no="3">भीष्म</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वलोकः</root>
+<dentry>ऊर्ध्वलोकः</dentry>
 <prAwipaxikam>ऊर्ध्वलोक</prAwipaxikam>
 <seg>ऊर्ध्व-लोकः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">ऊपर की दुनिया, स्वर्ग</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्ववर्त्मन्</root>
+<dentry>ऊर्ध्ववर्त्मन्</dentry>
 <prAwipaxikam>ऊर्ध्ववर्त्मन्</prAwipaxikam>
 <seg>ऊर्ध्व-वर्त्मन्</seg>
 <grammar>पुं*</grammar>
 <sense no="1">पर्यावरण</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्ववातः</root>
+<dentry>ऊर्ध्ववातः</dentry>
 <prAwipaxikam>ऊर्ध्ववात</prAwipaxikam>
 <seg>ऊर्ध्व-वातः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">शरीर के ऊपरी भाग में रहने वाली वायु</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्ववायुः</root>
+<dentry>ऊर्ध्ववायुः</dentry>
 <prAwipaxikam>ऊर्ध्ववायु</prAwipaxikam>
 <seg>ऊर्ध्व-वायुः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">शरीर के ऊपरी भाग में रहने वाली वायु</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वशायिन्</root>
+<dentry>ऊर्ध्वशायिन्</dentry>
 <prAwipaxikam>ऊर्ध्वशायिन्</prAwipaxikam>
 <seg>ऊर्ध्व-शायिन्</seg>
 <grammar>वि*</grammar>
@@ -766,21 +766,21 @@
 <sense no="2">शिव</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वशोधनम्</root>
+<dentry>ऊर्ध्वशोधनम्</dentry>
 <prAwipaxikam>ऊर्ध्वशोधन</prAwipaxikam>
 <seg>ऊर्ध्व-शोधनम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">वमन करना</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वश्वासः</root>
+<dentry>ऊर्ध्वश्वासः</dentry>
 <prAwipaxikam>ऊर्ध्वश्वास</prAwipaxikam>
 <seg>ऊर्ध्व-श्वासः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">साँस छोड़ना, प्राण त्यागना</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊर्ध्वस्थितिः</root>
+<dentry>ऊर्ध्वस्थितिः</dentry>
 <prAwipaxikam>ऊर्ध्वस्थिति</prAwipaxikam>
 <seg>ऊर्ध्व-स्थितिः</seg>
 <grammar>स्त्री*</grammar>
@@ -791,7 +791,7 @@
 </lexhead>
 
 <lexhead no="34">
-<root>ऊर्मिः</root>
+<dentry>ऊर्मिः</dentry>
 <prAwipaxikam>ऊर्मि</prAwipaxikam>
 <grammar>पुं*, स्त्री*</grammar>
 <etymology>[ऋ+मि, अर्तेरुच्च]</etymology>
@@ -803,7 +803,7 @@
 <sense n="4">गति, वेग</sense>
 <sense n="5">कष्ट, बेचैनी, चिन्ता</sense>
 <segmenthd>
-<root>ऊर्मिमालिन्</root>
+<dentry>ऊर्मिमालिन्</dentry>
 <prAwipaxikam>ऊर्मिमालिन्</prAwipaxikam>
 <seg>ऊर्मिः-मालिन्</seg>
 <grammar>वि*</grammar>
@@ -814,7 +814,7 @@
 </lexhead>
 
 <lexhead no="35">
-<root>ऊर्मिका</root>
+<dentry>ऊर्मिका</dentry>
 <prAwipaxikam>ऊर्मिका</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ऊर्मि+कन्+टाप्]</etymology>
@@ -828,7 +828,7 @@
 </lexhead>
 
 <lexhead no="36">
-<root>ऊर्व</root>
+<dentry>ऊर्व</dentry>
 <prAwipaxikam>ऊर्व</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऊर्व</prAwipaxikam>
@@ -837,7 +837,7 @@
 </lexhead>
 
 <lexhead no="37">
-<root>ऊर्वः</root>
+<dentry>ऊर्वः</dentry>
 <prAwipaxikam>ऊर्व</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[उरु+अ]</etymology>
@@ -845,7 +845,7 @@
 </lexhead>
 
 <lexhead no="38">
-<root>ऊर्वरा</root>
+<dentry>ऊर्वरा</dentry>
 <prAwipaxikam>ऊर्वरा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology><vigraha_vAkya>उरु शस्यादिकमृच्छति</vigraha_vAkya>[उरु-ऋ+अच्+टाप्]</etymology>
@@ -853,14 +853,14 @@
 </lexhead>
 
 <lexhead no="39">
-<root>ऊलुपिन्</root>
+<dentry>ऊलुपिन्</dentry>
 <prAwipaxikam>ऊलुपिन्</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">शिंशुक, सूँस, दे* उलुपिन्</sense>
 </lexhead>
 
 <lexhead no="40">
-<root>ऊलूकः</root>
+<dentry>ऊलूकः</dentry>
 <prAwipaxikam>ऊलूक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">उल्लू, नोलूकोप्यवलोक्यते यदि दिवा सूर्यस्य किं दूष्णम्<citation>भर्तृ* २/९३</citation>त्यजति मुदमुलूकः प्रीतिमांश्चक्रवाकः<citation>शि* ११/६४</citation></sense>
@@ -868,14 +868,14 @@
 </lexhead>
 
 <lexhead no="41">
-<root>ऊष्</root>
+<dentry>ऊष्</dentry>
 <prAwipaxikam>ऊष्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI></grammar>
 <sense no="1">रुग्ण होना, अस्वस्थ होना, बीमार होना, ऊषति</sense>
 </lexhead>
 
 <lexhead no="42">
-<root>ऊषः</root>
+<dentry>ऊषः</dentry>
 <prAwipaxikam>ऊष</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ऊष्+क]</etymology>
@@ -890,7 +890,7 @@
 </lexhead>
 
 <lexhead no="43">
-<root>ऊषकम्</root>
+<dentry>ऊषकम्</dentry>
 <prAwipaxikam>ऊषक</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ऊष+कन्]</etymology>
@@ -898,7 +898,7 @@
 </lexhead>
 
 <lexhead no="44">
-<root>ऊषणम्</root>
+<dentry>ऊषणम्</dentry>
 <prAwipaxikam>ऊषण</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ऊष्+ल्युट्]</etymology>
@@ -907,7 +907,7 @@
 </lexhead>
 
 <lexhead no="45">
-<root>ऊषणा</root>
+<dentry>ऊषणा</dentry>
 <prAwipaxikam>ऊषणा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ऊष्+ल्युट्, स्त्रियां टाप् च]</etymology>
@@ -916,7 +916,7 @@
 </lexhead>
 
 <lexhead no="46">
-<root>ऊषर</root>
+<dentry>ऊषर</dentry>
 <prAwipaxikam>ऊषर</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऊषर</prAwipaxikam>
@@ -927,7 +927,7 @@
 </lexhead>
 
 <lexhead no="47">
-<root>ऊषरः</root>
+<dentry>ऊषरः</dentry>
 <prAwipaxikam>ऊषर</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ऊष्+रा+क]</etymology>
@@ -937,7 +937,7 @@
 </lexhead>
 
 <lexhead no="48">
-<root>ऊषरम्</root>
+<dentry>ऊषरम्</dentry>
 <prAwipaxikam>ऊषर</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ऊष्+रा+क]</etymology>
@@ -947,7 +947,7 @@
 </lexhead>
 
 <lexhead no="49">
-<root>ऊषवत्</root>
+<dentry>ऊषवत्</dentry>
 <prAwipaxikam>ऊषवत्</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऊषवत्</prAwipaxikam>
@@ -957,7 +957,7 @@
 </lexhead>
 
 <lexhead no="50">
-<root>ऊष्मः</root>
+<dentry>ऊष्मः</dentry>
 <prAwipaxikam>ऊष्म</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ऊष्+मक्]</etymology>
@@ -966,7 +966,7 @@
 </lexhead>
 
 <lexhead no="51">
-<root>ऊष्मन्</root>
+<dentry>ऊष्मन्</dentry>
 <prAwipaxikam>ऊष्मन्</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ऊष्+मनिन्]</etymology>
@@ -976,14 +976,14 @@
 <sense n="4">सरगरमी, जोश, प्रचण्डता</sense>
 <sense n="5">श्, ष्, स् और ह् की ध्वनियाँव्या* में</sense>
 <segmenthd>
-<root>ऊष्मोपगमः</root>
+<dentry>ऊष्मोपगमः</dentry>
 <prAwipaxikam>ऊष्मोपगम</prAwipaxikam>
 <seg>ऊष्मन्-उपगमः</seg>
 <grammar>पुं*</grammar>
 <sense no="4">ग्रीष्म ऋतु का आगमन</sense>
 </segmenthd>
 <segmenthd>
-<root>ऊष्मपः</root>
+<dentry>ऊष्मपः</dentry>
 <prAwipaxikam>ऊष्मप</prAwipaxikam>
 <seg>ऊष्मन्-पः</seg>
 <grammar>पुं*</grammar>
@@ -993,7 +993,7 @@
 </lexhead>
 
 <lexhead no="52">
-<root>ऊह्</root>
+<dentry>ऊह्</dentry>
 <prAwipaxikam>ऊह्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>उभ*</paxI>,<vform>ऊहति</vform>,<vform>ऊहते</vform>,<vform>ऊहित</vform></grammar>
 <sense no="1">टाँकना, अंकित करना, अवक्षेण करना</sense>
@@ -1002,7 +1002,7 @@
 <sense n="4">तर्क करना, विचार करना</sense>
 <sense n="5">तर्क या चिन्तन करवाना, अनुमान या अटकल लगवाना<citation>कि* १६/१९</citation></sense>
 <segmenthd>
-<root>अपोह्</root>
+<dentry>अपोह्</dentry>
 <prAwipaxikam>अपोह्</prAwipaxikam>
 <seg>अप-ऊह्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>उभ*</paxI></grammar>
@@ -1010,14 +1010,14 @@
 <sense no="3">तुरन्त अनुकरण करना</sense>
 </segmenthd>
 <segmenthd>
-<root>अपव्यूह्</root>
+<dentry>अपव्यूह्</dentry>
 <prAwipaxikam>अपव्यूह्</prAwipaxikam>
 <seg>अपवि-ऊह्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">रोकना, हटाना</sense>
 </segmenthd>
 <segmenthd>
-<root>अभ्यूह्</root>
+<dentry>अभ्यूह्</dentry>
 <prAwipaxikam>अभ्यूह्</prAwipaxikam>
 <seg>अभि-ऊह्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>उभ*</paxI></grammar>
@@ -1025,28 +1025,28 @@
 <sense no="2">ढकना</sense>
 </segmenthd>
 <segmenthd>
-<root>उपोह्</root>
+<dentry>उपोह्</dentry>
 <prAwipaxikam>उपोह्</prAwipaxikam>
 <seg>उप-ऊह्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">निकट लाना</sense>
 </segmenthd>
 <segmenthd>
-<root>निर्व्यूह्</root>
+<dentry>निर्व्यूह्</dentry>
 <prAwipaxikam>निर्व्यूह्</prAwipaxikam>
 <seg>निर्वि-ऊह्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">सम्पन्न करना, प्रकाशित करनादे* निर्व्यूढ</sense>
 </segmenthd>
 <segmenthd>
-<root>परिसमूह्</root>
+<dentry>परिसमूह्</dentry>
 <prAwipaxikam>परिसमूह्</prAwipaxikam>
 <seg>परिसम्-ऊह्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">इधर-उधर छिड़कना</sense>
 </segmenthd>
 <segmenthd>
-<root>प्रत्यूह्</root>
+<dentry>प्रत्यूह्</dentry>
 <prAwipaxikam>प्रत्यूह्</prAwipaxikam>
 <seg>प्रति-ऊह्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>उभ*</paxI></grammar>
@@ -1054,21 +1054,21 @@
 <sense no="2">मुकरनादे* प्रत्यूह</sense>
 </segmenthd>
 <segmenthd>
-<root>प्रतिव्यूह्</root>
+<dentry>प्रतिव्यूह्</dentry>
 <prAwipaxikam>प्रतिव्यूह्</prAwipaxikam>
 <seg>प्रतिवि-ऊह्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">शत्रु के विरुद्ध सैनिक मोर्चा लगाना</sense>
 </segmenthd>
 <segmenthd>
-<root>व्यूह्</root>
+<dentry>व्यूह्</dentry>
 <prAwipaxikam>व्यूह्</prAwipaxikam>
 <seg>वि-ऊह्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">युद्ध के अवसर पर सेना की व्यवस्था करनासूच्या वज्रेण चैवेतान् व्यूहेन् व्यूह्य योधयेत्<citation>मनु* ७/१९१</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>समूह्</root>
+<dentry>समूह्</dentry>
 <prAwipaxikam>समूह्</prAwipaxikam>
 <seg>सम्-ऊह्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>उभ*</paxI></grammar>
@@ -1077,7 +1077,7 @@
 </lexhead>
 
 <lexhead no="53">
-<root>ऊहः</root>
+<dentry>ऊहः</dentry>
 <prAwipaxikam>ऊह</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ऊह्+घञ्]</etymology>
@@ -1089,7 +1089,7 @@
 <sense n="4">तर्कना, युक्ति देना</sense>
 <sense n="5">अध्याहार करनान्युनपद की पूर्ति करना</sense>
 <segmenthd>
-<root>ऊहापोहः</root>
+<dentry>ऊहापोहः</dentry>
 <prAwipaxikam>ऊहापोह</prAwipaxikam>
 <seg>ऊहः-अपोहः</seg>
 <grammar>पुं*</grammar>
@@ -1098,7 +1098,7 @@
 </lexhead>
 
 <lexhead no="54">
-<root>ऊहनम्</root>
+<dentry>ऊहनम्</dentry>
 <prAwipaxikam>ऊहन</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ऊह्+ल्युट्]</etymology>
@@ -1106,7 +1106,7 @@
 </lexhead>
 
 <lexhead no="55">
-<root>ऊहनी</root>
+<dentry>ऊहनी</dentry>
 <prAwipaxikam>ऊहनी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ऊहन+ङीप्]</etymology>
@@ -1114,7 +1114,7 @@
 </lexhead>
 
 <lexhead no="56">
-<root>ऊहिन्</root>
+<dentry>ऊहिन्</dentry>
 <prAwipaxikam>ऊहिन्</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऊहिन्</prAwipaxikam>
@@ -1123,7 +1123,7 @@
 </lexhead>
 
 <lexhead no="57">
-<root>ऊहिनी</root>
+<dentry>ऊहिनी</dentry>
 <prAwipaxikam>ऊहिनी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ऊह्+इनि+ङीप्]</etymology>

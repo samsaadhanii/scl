@@ -3,7 +3,7 @@
 <?xml-stylesheet href="apte.css" type="text/css"?>
 <dict>
 <lexhead no="1">
-<root>ऋ</root>
+<dentry>ऋ</dentry>
 <prAwipaxikam>ऋ</prAwipaxikam>
 <grammar>अव्य*</grammar>
 <sense no="1">बुलाना, परिहास और निन्दा या अपशब्दव्यंजक विस्मयादिबोधक अव्यय</sense>
@@ -22,7 +22,7 @@
 </lexhead>
 
 <lexhead no="2">
-<root>ऋक्ण</root>
+<dentry>ऋक्ण</dentry>
 <prAwipaxikam>ऋक्ण</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऋक्ण</prAwipaxikam>
@@ -31,7 +31,7 @@
 </lexhead>
 
 <lexhead no="3">
-<root>ऋक्थम्</root>
+<dentry>ऋक्थम्</dentry>
 <prAwipaxikam>ऋक्थ</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ऋच्+थक्]</etymology>
@@ -40,21 +40,21 @@
 <sense n="2">विशेषकर सम्पत्ति, हस्तगत सामग्री या सामानमृत्यु हो जाने पर छोड़ा हुआ, दे* ’रिक्थ’</sense>
 <sense n="3">सोना</sense>
 <segmenthd>
-<root>ऋक्थग्रहणम्</root>
+<dentry>ऋक्थग्रहणम्</dentry>
 <prAwipaxikam>ऋक्थग्रहण</prAwipaxikam>
 <seg>ऋक्थम्-ग्रहणम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">प्राप्त करना या उत्तराधिकार में पानासंपत्ति</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋक्थग्राहः</root>
+<dentry>ऋक्थग्राहः</dentry>
 <prAwipaxikam>ऋक्थग्राह</prAwipaxikam>
 <seg>ऋक्थम्-ग्राहः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">उत्तराधिकारी या संपत्ति का प्राप्तकर्ता</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋक्थभाग:</root>
+<dentry>ऋक्थभाग:</dentry>
 <prAwipaxikam>ऋक्थभाग</prAwipaxikam>
 <seg>ऋक्थम्-भाग:</seg>
 <grammar>पुं*</grammar>
@@ -62,7 +62,7 @@
 <sense no="2">अंश, दाय</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋक्थभागिन्</root>
+<dentry>ऋक्थभागिन्</dentry>
 <prAwipaxikam>ऋक्थभागिन्</prAwipaxikam>
 <seg>ऋक्थम्-भागिन्</seg>
 <grammar>पुं*</grammar>
@@ -70,7 +70,7 @@
 <sense no="2">सह उत्तराधिकारी</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋक्थहर</root>
+<dentry>ऋक्थहर</dentry>
 <prAwipaxikam>ऋक्थहर</prAwipaxikam>
 <seg>ऋक्थम्-हर</seg>
 <grammar>पुं*</grammar>
@@ -78,7 +78,7 @@
 <sense no="2">सह उत्तराधिकारी</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋक्थहारिन्</root>
+<dentry>ऋक्थहारिन्</dentry>
 <prAwipaxikam>ऋक्थहारिन्</prAwipaxikam>
 <seg>ऋक्थम्-हारिन्</seg>
 <grammar>पुं*</grammar>
@@ -88,7 +88,7 @@
 </lexhead>
 
 <lexhead no="4">
-<root>ऋक्षः</root>
+<dentry>ऋक्षः</dentry>
 <prAwipaxikam>ऋक्ष</prAwipaxikam>
 <grammar>पुं*</grammar>
 ?<etymology>[ऋष्+स किच्च]</etymology>
@@ -102,7 +102,7 @@
 </lexhead>
 
 <lexhead no="5">
-<root>ऋक्षम्</root>
+<dentry>ऋक्षम्</dentry>
 <prAwipaxikam>ऋक्ष</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <kind_of>वृक्षः</kind_of>
@@ -113,54 +113,54 @@
 </lexhead>
 
 <lexhead no="6">
-<root>ऋक्षाः</root>
+<dentry>ऋक्षाः</dentry>
 <prAwipaxikam>ऋक्षा</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">कृत्तिका-मण्डल के सात तारे, जो बाद मे सप्तर्षि कहलाए<citation>रघु* १२/२५</citation></sense>
 </lexhead>
 
 <lexhead no="7">
-<root>ऋक्षा</root>
+<dentry>ऋक्षा</dentry>
 <prAwipaxikam>ऋक्षा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <sense no="1">उत्तर दिशा</sense>
 </lexhead>
 
 <lexhead no="8">
-<root>ऋक्षी</root>
+<dentry>ऋक्षी</dentry>
 <prAwipaxikam>ऋक्षी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <sense no="1">रीछनी, मादा भालू</sense>
 <segmenthd>
-<root>ऋक्षचक्रम्</root>
+<dentry>ऋक्षचक्रम्</dentry>
 <prAwipaxikam>ऋक्षचक्र</prAwipaxikam>
 <seg>ऋक्षः-चक्रम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="2">तारामंडल</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋक्षनाथः</root>
+<dentry>ऋक्षनाथः</dentry>
 <prAwipaxikam>ऋक्षनाथ</prAwipaxikam>
 <seg>ऋक्षः-नाथः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">‘तारों का स्वामी’, चन्द्रमा</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋक्षेशः</root>
+<dentry>ऋक्षेशः</dentry>
 <prAwipaxikam>ऋक्षेश</prAwipaxikam>
 <seg>ऋक्षः-ईशः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">‘तारों का स्वामी’, चन्द्रमा</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋक्षनेमिः</root>
+<dentry>ऋक्षनेमिः</dentry>
 <prAwipaxikam>ऋक्षनेमि</prAwipaxikam>
 <seg>ऋक्षः-नेमिः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">विष्णु</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋक्षराज्</root>
+<dentry>ऋक्षराज्</dentry>
 <prAwipaxikam>ऋक्षराज्</prAwipaxikam>
 <seg>ऋक्षः-राज्</seg>
 <grammar>पुं*</grammar>
@@ -168,7 +168,7 @@
 <sense no="2">रीछों का स्वामी, जांबवान्</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋक्षराजः</root>
+<dentry>ऋक्षराजः</dentry>
 <prAwipaxikam>ऋक्षराज</prAwipaxikam>
 <seg>ऋक्षः-राजः</seg>
 <grammar>पुं*</grammar>
@@ -176,7 +176,7 @@
 <sense no="2">रीछों का स्वामी, जांबवान्</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋक्षहरीश्वरः</root>
+<dentry>ऋक्षहरीश्वरः</dentry>
 <prAwipaxikam>ऋक्षहरीश्वर</prAwipaxikam>
 <seg>ऋक्षः-हरीश्वरः</seg>
 <grammar>पुं*</grammar>
@@ -185,7 +185,7 @@
 </lexhead>
 
 <lexhead no="9">
-<root>ऋक्षरः</root>
+<dentry>ऋक्षरः</dentry>
 <prAwipaxikam>ऋक्षर</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ऋष्+क्सरन्]</etymology>
@@ -194,7 +194,7 @@
 </lexhead>
 
 <lexhead no="10">
-<root>ऋक्षवत्</root>
+<dentry>ऋक्षवत्</dentry>
 <prAwipaxikam>ऋक्षवत्</prAwipaxikam>
 <grammar>पुं*</grammar>
 ?<etymology>[ऋक्ष+मतुप्-मस्य वः]</etymology>
@@ -202,7 +202,7 @@
 </lexhead>
 
 <lexhead no="11">
-<root>ऋच्</root>
+<dentry>ऋच्</dentry>
 <prAwipaxikam>ऋच्</prAwipaxikam>
 <grammar><gaNa>तुदा*</gaNa><paxI>पर*</paxI><vform>ऋचति</vform></grammar>
 <kind_of>वेदः</kind_of>
@@ -217,21 +217,21 @@
 <sense n="8">प्रशंसा</sense>
 <sense n="9">पूजा</sense>
 <segmenthd>
-<root>ऋग्विधानम्</root>
+<dentry>ऋग्विधानम्</dentry>
 <prAwipaxikam>ऋग्विधान</prAwipaxikam>
 <seg>ऋच्-विधानम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">ऋग्वेद के मंत्रों का पाठ करके कुछ संस्कारों का अनुष्ठान</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋग्वेदः</root>
+<dentry>ऋग्वेदः</dentry>
 <prAwipaxikam>ऋग्वेद</prAwipaxikam>
 <seg>ऋच्-वेदः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">चारों वेदों में सबसे पुराना वेद, हिन्दुओं का अत्यंत पवित्र और प्राचीन ग्रन्थ</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋक्संहिता</root>
+<dentry>ऋक्संहिता</dentry>
 <prAwipaxikam>ऋक्संहिता</prAwipaxikam>
 <seg>ऋच्-संहिता</seg>
 <grammar>स्त्री*</grammar>
@@ -240,7 +240,7 @@
 </lexhead>
 
 <lexhead no="12">
-<root>ऋचीषः</root>
+<dentry>ऋचीषः</dentry>
 <prAwipaxikam>ऋचीष</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ऋच्+ईषन्]</etymology>
@@ -248,7 +248,7 @@
 </lexhead>
 
 <lexhead no="13">
-<root>ऋचीषम्</root>
+<dentry>ऋचीषम्</dentry>
 <prAwipaxikam>ऋचीष</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ऋच्+ईषन्]</etymology>
@@ -256,7 +256,7 @@
 </lexhead>
 
 <lexhead no="14">
-<root>ऋछ्</root>
+<dentry>ऋछ्</dentry>
 <prAwipaxikam>ऋछ्</prAwipaxikam>
 <grammar><gaNa>तुदा*</gaNa><paxI>पर*</paxI><vform>ऋच्छति</vform></grammar>
 <sense no="1">कड़ा, या सख्त होना</sense>
@@ -265,7 +265,7 @@
 </lexhead>
 
 <lexhead no="15">
-<root>ऋच्छका</root>
+<dentry>ऋच्छका</dentry>
 <prAwipaxikam>ऋच्छका</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ऋच्छ्+कन्+टाप्]</etymology>
@@ -273,7 +273,7 @@
 </lexhead>
 
 <lexhead no="16">
-<root>ऋज्</root>
+<dentry>ऋज्</dentry>
 <prAwipaxikam>ऋज्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI><vform>अर्जते, ऋजित</vform></grammar>
 <sense no="1">जाना</sense>
@@ -284,7 +284,7 @@
 </lexhead>
 
 <lexhead no="17">
-<root>ऋजीष</root>
+<dentry>ऋजीष</dentry>
 <prAwipaxikam>ऋजीष</prAwipaxikam>
 <grammar>पुं*</grammar>
 <is_a_part>पाकस्थानम्</is_a_part>
@@ -294,7 +294,7 @@
 </lexhead>
 
 <lexhead no="18">
-<root>ऋजु</root>
+<dentry>ऋजु</dentry>
 <prAwipaxikam>ऋजु</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऋजु</prAwipaxikam>
@@ -306,7 +306,7 @@
 </lexhead>
 
 <lexhead no="19">
-<root>ऋजुक्</root>
+<dentry>ऋजुक्</dentry>
 <prAwipaxikam>ऋजुक्</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऋजुक्</prAwipaxikam>
@@ -314,7 +314,7 @@
 <sense n="2">खरा, ईमानदार, स्पष्टवादी</sense>
 <sense n="3">अनुकूल, अच्छा</sense>
 <segmenthd>
-<root>ऋजुगः</root>
+<dentry>ऋजुगः</dentry>
 <prAwipaxikam>ऋजुग</prAwipaxikam>
 <seg>ऋजु-गः</seg>
 <grammar>पुं*</grammar>
@@ -322,7 +322,7 @@
 <sense no="2">तीर</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋजुरोहितम्</root>
+<dentry>ऋजुरोहितम्</dentry>
 <prAwipaxikam>ऋजुरोहित</prAwipaxikam>
 <seg>ऋजु-रोहितम्</seg>
 <grammar>नपुं*</grammar>
@@ -331,7 +331,7 @@
 </lexhead>
 
 <lexhead no="20">
-<root>ऋज्वी</root>
+<dentry>ऋज्वी</dentry>
 <prAwipaxikam>ऋज्वी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 ?<etymology>[ऋजु+ड़ीष्]</etymology>
@@ -340,7 +340,7 @@
 </lexhead>
 
 <lexhead no="21">
-<root>ऋणम्</root>
+<dentry>ऋणम्</dentry>
 <prAwipaxikam>ऋण</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ऋ+क्त]</etymology>
@@ -352,84 +352,84 @@
 <sense n="5">पानी</sense>
 <sense n="6">भूमि</sense>
 <segmenthd>
-<root>ऋणान्तकः</root>
+<dentry>ऋणान्तकः</dentry>
 <prAwipaxikam>ऋणान्तक</prAwipaxikam>
 <seg>ऋणम्-अन्तकः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">मंगल ग्रह</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋणापनयनम्</root>
+<dentry>ऋणापनयनम्</dentry>
 <prAwipaxikam>ऋणापनयन</prAwipaxikam>
 <seg>ऋणम्-अपनयनम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">ऋणपरिशोध करना, ऋण चुकाना</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋणापनोदनम्</root>
+<dentry>ऋणापनोदनम्</dentry>
 <prAwipaxikam>ऋणापनोदन</prAwipaxikam>
 <seg>ऋणम्-अपनोदनम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">ऋणपरिशोध करना, ऋण चुकाना</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋणापाकरणम्</root>
+<dentry>ऋणापाकरणम्</dentry>
 <prAwipaxikam>ऋणापाकरण</prAwipaxikam>
 <seg>ऋणम्-अपाकरणम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">ऋणपरिशोध करना, ऋण चुकाना</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋणदानम्</root>
+<dentry>ऋणदानम्</dentry>
 <prAwipaxikam>ऋणदान</prAwipaxikam>
 <seg>ऋणम्-दानम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">ऋणपरिशोध करना, ऋण चुकाना</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋणमुक्तिः</root>
+<dentry>ऋणमुक्तिः</dentry>
 <prAwipaxikam>ऋणमुक्ति</prAwipaxikam>
 <seg>ऋणम्-मुक्तिः</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">ऋणपरिशोध करना, ऋण चुकाना</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋणमोक्षः</root>
+<dentry>ऋणमोक्षः</dentry>
 <prAwipaxikam>ऋणमोक्ष</prAwipaxikam>
 <seg>ऋणम्-मोक्षः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">ऋणपरिशोध करना, ऋण चुकाना</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋणशोधनम्</root>
+<dentry>ऋणशोधनम्</dentry>
 <prAwipaxikam>ऋणशोधन</prAwipaxikam>
 <seg>ऋणम्-शोधनम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">ऋणपरिशोध करना, ऋण चुकाना</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋणादानम्</root>
+<dentry>ऋणादानम्</dentry>
 <prAwipaxikam>ऋणादान</prAwipaxikam>
 <seg>ऋणम्-आदानम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">कर्जा वसूल करना, उधार दिया हुआ द्रव्य वापिस लेना</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋणार्णम्</root>
+<dentry>ऋणार्णम्</dentry>
 <prAwipaxikam>ऋणार्ण</prAwipaxikam>
 <seg>ऋणम्-ऋणम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">एक कर्ज के लिए दूसरा कर्ज, एक ऋण चुकाने के लिए दूसरा ऋण ले लेनाऋणार्णम्</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋणग्रहः</root>
+<dentry>ऋणग्रहः</dentry>
 <prAwipaxikam>ऋणग्रह</prAwipaxikam>
 <seg>ऋणम्-ग्रहः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">रुपया उधार लेना, उधार लेने वाला</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋणदातृ</root>
+<dentry>ऋणदातृ</dentry>
 <prAwipaxikam>ऋणदातृ</prAwipaxikam>
 <seg>ऋणम्-दातृ</seg>
 <grammar>वि*</grammar>
@@ -437,7 +437,7 @@
 <sense no="1">जो ऋण दे देता है</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋणदायिन्</root>
+<dentry>ऋणदायिन्</dentry>
 <prAwipaxikam>ऋणदायिन्</prAwipaxikam>
 <seg>ऋणम्-दायिन्</seg>
 <grammar>वि*</grammar>
@@ -445,28 +445,28 @@
 <sense no="1">जो ऋण दे देता है</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋणदासः</root>
+<dentry>ऋणदासः</dentry>
 <prAwipaxikam>ऋणदास</prAwipaxikam>
 <seg>ऋणम्-दासः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">वह क्रीत दास जिसका ऋण परिशोध करके उसे लिया गया हैऋणमोचनेन दास्यत्वमभ्युपगतः ऋणदासः<citation>मिता*</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>ऋणमत्कुणः</root>
+<dentry>ऋणमत्कुणः</dentry>
 <prAwipaxikam>ऋणमत्कुण</prAwipaxikam>
 <seg>ऋणम्-मत्कुणः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">प्रतिभूति, जमानत</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋणमार्गणः</root>
+<dentry>ऋणमार्गणः</dentry>
 <prAwipaxikam>ऋणमार्गण</prAwipaxikam>
 <seg>ऋणम्-मार्गणः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">प्रतिभूति, जमानत</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋणमुक्त</root>
+<dentry>ऋणमुक्त</dentry>
 <prAwipaxikam>ऋणमुक्त</prAwipaxikam>
 <seg>ऋणम्-मुक्त</seg>
 <grammar>वि*</grammar>
@@ -474,14 +474,14 @@
 <sense no="1">ऋण से मुक्त</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋणापनयनम्</root>
+<dentry>ऋणापनयनम्</dentry>
 <prAwipaxikam>ऋणापनयन</prAwipaxikam>
 <seg>ऋणम्-अपनयनम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">ऋणपरिशोध करना, ऋण चुकाना, आदि</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋणलेख्यम्</root>
+<dentry>ऋणलेख्यम्</dentry>
 <prAwipaxikam>ऋणलेख्य</prAwipaxikam>
 <seg>ऋणम्-लेख्यम्</seg>
 <grammar>नपुं*</grammar>
@@ -490,7 +490,7 @@
 </lexhead>
 
 <lexhead no="22">
-<root>ऋणिकः</root>
+<dentry>ऋणिकः</dentry>
 <prAwipaxikam>ऋणिक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ऋण+ष्ठन्]</etymology>
@@ -498,7 +498,7 @@
 </lexhead>
 
 <lexhead no="23">
-<root>ऋणिन्</root>
+<dentry>ऋणिन्</dentry>
 <prAwipaxikam>ऋणिन्</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऋणिन्</prAwipaxikam>
@@ -507,7 +507,7 @@
 </lexhead>
 
 <lexhead no="24">
-<root>ऋत</root>
+<dentry>ऋत</dentry>
 <prAwipaxikam>ऋत</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ऋत</prAwipaxikam>
@@ -521,7 +521,7 @@
 </lexhead>
 
 <lexhead no="25">
-<root>ऋतम्</root>
+<dentry>ऋतम्</dentry>
 <prAwipaxikam>ऋतम्</prAwipaxikam>
 <grammar>अव्य*</grammar>
 <etymology>[ऋ+क्त]</etymology>
@@ -533,7 +533,7 @@
 <sense n="6">सचाई, अधिकार</sense>
 <sense n="7">खेतों में उञ्छवृत्ति द्वारा जीविकाऋतमुञ्छशिलं वॄत्तम्<citation>मनु* ४/४विप* कृषि</citation></sense>
 <segmenthd>
-<root>ऋतधामन्</root>
+<dentry>ऋतधामन्</dentry>
 <prAwipaxikam>ऋतधामन्</prAwipaxikam>
 <seg>ऋत-धामन्</seg>
 <grammar>वि*</grammar>
@@ -544,7 +544,7 @@
 </lexhead>
 
 <lexhead no="26">
-<root>ऋतीया</root>
+<dentry>ऋतीया</dentry>
 <prAwipaxikam>ऋतीया</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ऋत+ईयङ्+टाप्]</etymology>
@@ -554,7 +554,7 @@
 </lexhead>
 
 <lexhead no="27">
-<root>ऋतु</root>
+<dentry>ऋतु</dentry>
 <prAwipaxikam>ऋतु</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ऋ+तु, कित्]</etymology>
@@ -572,7 +572,7 @@
 <sense n="6">प्रकाश, आभा</sense>
 <sense n="7">छः की संज्ञा के लिए प्रतीकात्मक अभिव्यक्ति</sense>
 <segmenthd>
-<root>ऋतुकालः</root>
+<dentry>ऋतुकालः</dentry>
 <prAwipaxikam>ऋतुकाल</prAwipaxikam>
 <seg>ऋतु-कालः</seg>
 <grammar>पुं*</grammar>
@@ -581,7 +581,7 @@
 <sense no="4">मौसम की अवधि</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋतुसमयः</root>
+<dentry>ऋतुसमयः</dentry>
 <prAwipaxikam>ऋतुसमय</prAwipaxikam>
 <seg>ऋतु-समयः</seg>
 <grammar>पुं*</grammar>
@@ -590,7 +590,7 @@
 <sense no="3">मौसम की अवधि</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋतुवेला</root>
+<dentry>ऋतुवेला</dentry>
 <prAwipaxikam>ऋतुवेला</prAwipaxikam>
 <seg>ऋतु-वेला</seg>
 <grammar>स्त्री*</grammar>
@@ -599,56 +599,56 @@
 <sense no="3">मौसम की अवधि</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋतुकणः</root>
+<dentry>ऋतुकणः</dentry>
 <prAwipaxikam>ऋतुकण</prAwipaxikam>
 <seg>ऋतु-कणः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">ऋतुओं का समुदाय</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋतुगामिन्</root>
+<dentry>ऋतुगामिन्</dentry>
 <prAwipaxikam>ऋतुगामिन्</prAwipaxikam>
 <seg>ऋतु-गामिन्</seg>
 <grammar>पुं*</grammar>
 <sense no="1">स्त्री से संभोग करने वाला गर्भाधान के लिए उपयुक्त समय पर अर्थात् मासिकधर्म के पश्चात्</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋतुपर्णः</root>
+<dentry>ऋतुपर्णः</dentry>
 <prAwipaxikam>ऋतुपर्ण</prAwipaxikam>
 <seg>ऋतु-पर्णः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">अयोध्या के राजा का नाम, आयुतायु का पुत्र, इक्ष्वाकु की सन्तान अपना राज्य छिन जाने पर निषेध देश का राजा नल जब आपदग्रस्त हुआ तो वह राजा ऋतुपर्ण की सेवा में आया। द्यूतक्रीड़ा में बड़ा कुशल था। अतः उस राजा ने नल से द्यूतक्रीड़ा सीखी तथा बदले में उसे अश्वसंचालन का काम सिखाया। फलतः इसी की बदौलत राजा ऋतुपर्ण, इसके पूर्व कि दमयन्ती अपना दूसरा पति चुनने के विचार को कार्य में परिणत करे, नल को कुण्डिनपुर पहुँचाने में सफल हुआ</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋतुपर्यायः</root>
+<dentry>ऋतुपर्यायः</dentry>
 <prAwipaxikam>ऋतुपर्याय</prAwipaxikam>
 <seg>ऋतु-पर्यायः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">ऋतुओं का आना-जाना</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋतुवृत्तिः</root>
+<dentry>ऋतुवृत्तिः</dentry>
 <prAwipaxikam>ऋतुवृत्ति</prAwipaxikam>
 <seg>ऋतु-वृत्तिः</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">ऋतुओं का आना-जाना</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋतुमुखम्</root>
+<dentry>ऋतुमुखम्</dentry>
 <prAwipaxikam>ऋतुमुख</prAwipaxikam>
 <seg>ऋतु-मुखम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">ऋतु का आरम्भ या पहला दिन</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋतुराजः</root>
+<dentry>ऋतुराजः</dentry>
 <prAwipaxikam>ऋतुराज</prAwipaxikam>
 <seg>ऋतु-राजः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">वसन्त ऋतु</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋतुलिङ्गम्</root>
+<dentry>ऋतुलिङ्गम्</dentry>
 <prAwipaxikam>ऋतुलिङ्ग</prAwipaxikam>
 <seg>ऋतु-लिङ्गम्</seg>
 <grammar>नपुं*</grammar>
@@ -656,21 +656,21 @@
 <sense no="2">मासिक स्राव का चिह्न</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋतुसन्धिः</root>
+<dentry>ऋतुसन्धिः</dentry>
 <prAwipaxikam>ऋतुसन्धि</prAwipaxikam>
 <seg>ऋतु-सन्धिः</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">दो ऋतुओं का मिलन</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋतुस्नाता</root>
+<dentry>ऋतुस्नाता</dentry>
 <prAwipaxikam>ऋतुस्नाता</prAwipaxikam>
 <seg>ऋतु-स्नाता</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">रजोदर्शन के पश्चात् स्नान करके निवृत हुई, और इसीलिए संभोग के लिए उपयुक्त स्त्रीधर्मलोपभयाद्राज्ञीमृतुस्नातामिमां स्मरन्<citation>रघु* १/७६</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>ऋतुस्नानम्</root>
+<dentry>ऋतुस्नानम्</dentry>
 <prAwipaxikam>ऋतुस्नान</prAwipaxikam>
 <seg>ऋतु-स्नानम्</seg>
 <grammar>नपुं*</grammar>
@@ -679,7 +679,7 @@
 </lexhead>
 
 <lexhead no="28">
-<root>ऋतुमती</root>
+<dentry>ऋतुमती</dentry>
 <prAwipaxikam>ऋतुमती</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 ?<etymology>[ऋतु+मतुप्+ड़ीप्]</etymology>
@@ -689,7 +689,7 @@
 </lexhead>
 
 <lexhead no="29">
-<root>ऋते</root>
+<dentry>ऋते</dentry>
 <prAwipaxikam>ऋते</prAwipaxikam>
 <grammar>अव्य*</grammar>
 <jAwi>क्रिया</jAwi>
@@ -697,7 +697,7 @@
 </lexhead>
 
 <lexhead no="30">
-<root>ऋत्विज्</root>
+<dentry>ऋत्विज्</dentry>
 <prAwipaxikam>ऋत्विज्</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ऋतु+यज्+क्विन्]</etymology>
@@ -707,7 +707,7 @@
 </lexhead>
 
 <lexhead no="31">
-<root>ऋद्ध</root>
+<dentry>ऋद्ध</dentry>
 <prAwipaxikam>ऋद्ध</prAwipaxikam>
 <grammar>भू* क* कृ*</grammar>
 <etymology>[ऋध्+क्त]</etymology>
@@ -719,7 +719,7 @@
 </lexhead>
 
 <lexhead no="32">
-<root>ऋद्धः</root>
+<dentry>ऋद्धः</dentry>
 <prAwipaxikam>ऋद्ध</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ऋध्+क्त]</etymology>
@@ -729,7 +729,7 @@
 </lexhead>
 
 <lexhead no="33">
-<root>ऋद्धम्</root>
+<dentry>ऋद्धम्</dentry>
 <prAwipaxikam>ऋद्ध</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ऋध्+क्त]</etymology>
@@ -740,7 +740,7 @@
 </lexhead>
 
 <lexhead no="34">
-<root>ऋद्धिः</root>
+<dentry>ऋद्धिः</dentry>
 <prAwipaxikam>ऋद्धि</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ऋध्+क्तिन्]</etymology>
@@ -754,14 +754,14 @@
 </lexhead>
 
 <lexhead no="35">
-<root>ऋध्</root>
+<dentry>ऋध्</dentry>
 <prAwipaxikam>ऋध्</prAwipaxikam>
 <grammar><gaNa>दिवा*</gaNa><gaNa>स्वा*</gaNa><paxI>पर*</paxI><vform>ऋध्यति, ऋध्नोति, ऋद्ध</vform></grammar>
 <sense no="1">सम्पन्न होना, समृद्ध होना, सफल होना</sense>
 <sense n="2">विकसित होना, बढना, आलंकारिक भी</sense>
 <sense n="3">संतुष्ट करना, तृप्त करना, प्रसन्न करना, मनाना<citation>मा* ५/२९</citation></sense>
 <segmenthd>
-<root>समृध्</root>
+<dentry>समृध्</dentry>
 <prAwipaxikam>समृध्</prAwipaxikam>
 <seg>सम्-ऋध्</seg>
 <grammar>वि*</grammar>
@@ -771,7 +771,7 @@
 </lexhead>
 
 <lexhead no="36">
-<root>ऋभुः</root>
+<dentry>ऋभुः</dentry>
 <prAwipaxikam>ऋभु</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology><vigraha_vAkya>अरि स्वर्गे अदितौ वा भवति इति</vigraha_vAkya>[ऋ+भू+डु]</etymology>
@@ -779,7 +779,7 @@
 </lexhead>
 
 <lexhead no="37">
-<root>ऋभुक्षः</root>
+<dentry>ऋभुक्षः</dentry>
 <prAwipaxikam>ऋभुक्ष</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology><vigraha_vAkya>ऋभवो देवा क्षियन्ति वसन्ति अत्रेति</vigraha_vAkya>[ऋभु+क्षि+ड]</etymology>
@@ -788,7 +788,7 @@
 </lexhead>
 
 <lexhead no="38">
-<root>ऋभुक्षिन्</root>
+<dentry>ऋभुक्षिन्</dentry>
 <prAwipaxikam>ऋभुक्षिन्</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology><vigraha_vAkya>ऋभुक्षः वज्रं स्वर्गो वास्यास्ति</vigraha_vAkya>[ऋभुक्षः-इनि]</etymology>
@@ -798,14 +798,14 @@
 </lexhead>
 
 <lexhead no="39">
-<root>ऋल्लकः</root>
+<dentry>ऋल्लकः</dentry>
 <prAwipaxikam>ऋल्लक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">एक प्रकार के वाद्ययंत्र को बजाने वाला</sense>
 </lexhead>
 
 <lexhead no="40">
-<root>ऋश्यः</root>
+<dentry>ऋश्यः</dentry>
 <prAwipaxikam>ऋश्य</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ऋश्+क्यप्]</etymology>
@@ -815,7 +815,7 @@
 </lexhead>
 
 <lexhead no="41">
-<root>ऋश्यम्</root>
+<dentry>ऋश्यम्</dentry>
 <prAwipaxikam>ऋश्य</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ऋश्+क्यप्]</etymology>
@@ -823,7 +823,7 @@
 <jAwi>स्तनपायी</jAwi>
 <sense no="1">हत्या</sense>
 <segmenthd>
-<root>ऋश्यकेतुः</root>
+<dentry>ऋश्यकेतुः</dentry>
 <prAwipaxikam>ऋश्यकेतु</prAwipaxikam>
 <seg>ऋश्य-केतुः</seg>
 <grammar>पुं*</grammar>
@@ -831,7 +831,7 @@
 <sense no="2">कामदेव</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋश्यकेतनः</root>
+<dentry>ऋश्यकेतनः</dentry>
 <prAwipaxikam>ऋश्यकेतन</prAwipaxikam>
 <seg>ऋश्य-केतनः</seg>
 <grammar>पुं*</grammar>
@@ -841,7 +841,7 @@
 </lexhead>
 
 <lexhead no="42">
-<root>ऋष्</root>
+<dentry>ऋष्</dentry>
 <prAwipaxikam>ऋष्</prAwipaxikam>
 <grammar><gaNa>तुदा*</gaNa><paxI>पर*</paxI><vform>ऋषति</vform>,<vform>ऋष्ट</vform></grammar>
 <sense no="1">जाना, पहुँचना</sense>
@@ -851,7 +851,7 @@
 </lexhead>
 
 <lexhead no="43">
-<root>ऋषभः</root>
+<dentry>ऋषभः</dentry>
 <prAwipaxikam>ऋषभ</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ऋशष्+अभक्]</etymology>
@@ -869,7 +869,7 @@
 </lexhead>
 
 <lexhead no="44">
-<root>ऋषभी</root>
+<dentry>ऋषभी</dentry>
 <prAwipaxikam>ऋषभी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ऋशष्+अभक्+ङीप्]</etymology>
@@ -877,14 +877,14 @@
 <sense n="2">गाय</sense>
 <sense n="3">विधवा</sense>
 <segmenthd>
-<root>ऋषभकूटः</root>
+<dentry>ऋषभकूटः</dentry>
 <prAwipaxikam>ऋषभकूट</prAwipaxikam>
 <seg>ऋषभः-कूटः</seg>
 <grammar>पुं*</grammar>
 <sense no="2">एक पहाड़ का नाम</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋषभध्वजः</root>
+<dentry>ऋषभध्वजः</dentry>
 <prAwipaxikam>ऋषभध्वज</prAwipaxikam>
 <seg>ऋषभः-ध्वजः</seg>
 <grammar>पुं*</grammar>
@@ -893,7 +893,7 @@
 </lexhead>
 
 <lexhead no="45">
-<root>ऋषिः</root>
+<dentry>ऋषिः</dentry>
 <prAwipaxikam>ऋषि</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ऋष्+इन्, कित्]</etymology>
@@ -903,35 +903,35 @@
 <sense n="2">पुण्यात्मा मुनि, सन्यासी, विरक्त योगी</sense>
 <sense n="3">प्रकाश की किरण</sense>
 <segmenthd>
-<root>ऋषिकुल्या</root>
+<dentry>ऋषिकुल्या</dentry>
 <prAwipaxikam>ऋषिकुल्या</prAwipaxikam>
 <seg>ऋषिः-कुल्या</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">पवित्र नदी</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋषितर्पणम्</root>
+<dentry>ऋषितर्पणम्</dentry>
 <prAwipaxikam>ऋषितर्पण</prAwipaxikam>
 <seg>ऋषिः-तर्पणम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">ऋषियों की सेवा में प्रस्तुत किया गया तर्पणअर्घ्यादिक</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋषिपंचमी</root>
+<dentry>ऋषिपंचमी</dentry>
 <prAwipaxikam>ऋषिपंचमी</prAwipaxikam>
 <seg>ऋषिः-पंचमी</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">भाद्रपदकृष्णा पंचमी को होनेवाला एक पर्वस्त्रियों का</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋषिलोकः</root>
+<dentry>ऋषिलोकः</dentry>
 <prAwipaxikam>ऋषिलोक</prAwipaxikam>
 <seg>ऋषिः-लोकः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">ऋषियों क संसार</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋषिस्तोमः</root>
+<dentry>ऋषिस्तोमः</dentry>
 <prAwipaxikam>ऋषिस्तोम</prAwipaxikam>
 <seg>ऋषिः-स्तोमः</seg>
 <grammar>पुं*</grammar>
@@ -941,7 +941,7 @@
 </lexhead>
 
 <lexhead no="46">
-<root>ऋष्टिः</root>
+<dentry>ऋष्टिः</dentry>
 <prAwipaxikam>ऋष्टि</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ऋष्+क्तिन्]</etymology>
@@ -951,41 +951,41 @@
 </lexhead>
 
 <lexhead no="47">
-<root>ऋष्यः</root>
+<dentry>ऋष्यः</dentry>
 <prAwipaxikam>ऋष्य</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ऋष्+क्यप्]</etymology>
 <sense no="1">सफेद पैरों वाला बारहसिंघा हरिण</sense>
 <segmenthd>
-<root>ऋष्याङ्कः</root>
+<dentry>ऋष्याङ्कः</dentry>
 <prAwipaxikam>ऋष्याङ्क</prAwipaxikam>
 <seg>ऋष्यः-अङ्कः</seg>
 <grammar>पुं*</grammar>
 <sense no="2">अनिरुद्ध</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋष्यकेतनः</root>
+<dentry>ऋष्यकेतनः</dentry>
 <prAwipaxikam>ऋष्यकेतन</prAwipaxikam>
 <seg>ऋष्यः-केतनः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">अनिरुद्ध</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋष्यकेतुः</root>
+<dentry>ऋष्यकेतुः</dentry>
 <prAwipaxikam>ऋष्यकेतु</prAwipaxikam>
 <seg>ऋष्यः-केतुः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">अनिरुद्ध</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋष्यमूकः</root>
+<dentry>ऋष्यमूकः</dentry>
 <prAwipaxikam>ऋष्यमूक</prAwipaxikam>
 <seg>ऋष्यः-मूकः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">पंपा सरोवर के निकट स्थित एक पर्वत जहां कुछ दिनों तक राम वानरराज सुग्रीव के साथ रहे थे ऋष्यमूकस्तु पम्पायाः पुरस्तात्पुष्पितद्रुमः</sense>
 </segmenthd>
 <segmenthd>
-<root>ऋष्यशृङ्गः</root>
+<dentry>ऋष्यशृङ्गः</dentry>
 <prAwipaxikam>ऋष्यशृङ्ग</prAwipaxikam>
 <seg>ऋष्यः-शृङ्गः</seg>
 <grammar>पुं*</grammar>
@@ -994,7 +994,7 @@
 </lexhead>
 
 <lexhead no="48">
-<root>ऋष्यकः</root>
+<dentry>ऋष्यकः</dentry>
 <prAwipaxikam>ऋष्यक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ऋष्+कन्]</etymology>
@@ -1002,7 +1002,7 @@
 </lexhead>
 
 <lexhead no="49">
-<root>ॠ</root>
+<dentry>ॠ</dentry>
 <prAwipaxikam>ॠ</prAwipaxikam>
 <grammar>अव्य*</grammar>
 <sense no="1">त्रास</sense>
@@ -1013,7 +1013,7 @@
 </lexhead>
 
 <lexhead no="50">
-<root>ॠः</root>
+<dentry>ॠः</dentry>
 <prAwipaxikam>ॠ</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">भैरव</sense>
@@ -1021,7 +1021,7 @@
 </lexhead>
 
 <lexhead no="51">
-<root>ॠ</root>
+<dentry>ॠ</dentry>
 <prAwipaxikam>ॠ</prAwipaxikam>
 <grammar><gaNa>क्र्या*</gaNa><paxI>पर*</paxI><vform>ॠणाति</vform>,<vform>ईर्ण</vform></grammar>g
 <sense no="0">जाना, हिलना-डुलना</sense>

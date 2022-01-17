@@ -3,7 +3,7 @@
 <?xml-stylesheet href="apte.css" type="text/css" ?>
 <dict>
 <lexhead no="1">
-<root>ई</root>
+<dentry>ई</dentry>
 <prAwipaxikam>ई</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ई+क्विप्]</etymology>
@@ -27,7 +27,7 @@
 </lexhead>
 
 <lexhead no="2">
-<root>ईक्ष्</root>
+<dentry>ईक्ष्</dentry>
 <prAwipaxikam>ईक्ष्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI><vform>ईक्षते</vform>,<vform>ईक्षित</vform></grammar>
 <sense no="1">देखना, ताकना, आलोचना करना, अवलोकन करना, टकटकी लगा कर देखना या घूरना</sense>
@@ -36,21 +36,21 @@
 <sense n="4">सोचना, विचार करनातत्तेज ऐक्षत बहुस्यां प्रजायेय<citation>छा*</citation></sense>
 <sense n="5">सावधान रहना या किसी के भले बुरे का ध्यान करनाकृष्णाय ईक्षते गर्गः<citation>सिद्धा*सम्प्र० के साथ</citation>शुभाशुभं पर्यालोचयति इत्यर्थः</sense>
 <segmenthd>
-<root>अधीक्ष्</root>
+<dentry>अधीक्ष्</dentry>
 <prAwipaxikam>अधीक्ष्</prAwipaxikam>
 <seg>अधि-ईक्ष्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
 <sense no="1">आशंका करनाकुहकचकितो लोकः सत्येप्यपायमधीक्षते<citation>हि*४।१०२अने० पा०</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>अन्वीक्ष्</root>
+<dentry>अन्वीक्ष्</dentry>
 <prAwipaxikam>अन्वीक्ष्</prAwipaxikam>
 <seg>अनु-ईक्ष्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
 <sense no="1">ध्यान में रखना, खोज करना, ढूँढना, पूछ-ताछ करना</sense>
 </segmenthd>
 <segmenthd>
-<root>अपेक्ष्</root>
+<dentry>अपेक्ष्</dentry>
 <prAwipaxikam>अपेक्ष्</prAwipaxikam>
 <seg>अप-ईक्ष्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
@@ -60,14 +60,14 @@
 <sense no="4">हिसाब में लगाना, सोचना, विचार करना, आदर करनातदानपेक्ष्य स्वशरीरमार्दवम्<citation>कु*५।१८प्रायः ’न’ के साथ</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>अभिवीक्ष्</root>
+<dentry>अभिवीक्ष्</dentry>
 <prAwipaxikam>अभिवीक्ष्</prAwipaxikam>
 <seg>अभिवि-ईक्ष्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
 <sense no="1">की ओर देखना</sense>
 </segmenthd>
 <segmenthd>
-<root>अवेक्ष्</root>
+<dentry>अवेक्ष्</dentry>
 <prAwipaxikam>अवेक्ष्</prAwipaxikam>
 <seg>अव-ईक्ष्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
@@ -79,7 +79,7 @@
 <sense no="6">सोचना, विचारनायदवोचदवेक्ष्य मानिनी<citation>कि*२।३</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>उदीक्ष्</root>
+<dentry>उदीक्ष्</dentry>
 <prAwipaxikam>उदीक्ष्</prAwipaxikam>
 <seg>उद्-ईक्ष्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
@@ -87,7 +87,7 @@
 <sense no="2">प्रतीक्षा करनात्रीणि वर्षाण्युदीक्षेत कुमार्यृतुमती सती<citation>मनु*९।९०</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>उत्प्रेक्ष्</root>
+<dentry>उत्प्रेक्ष्</dentry>
 <prAwipaxikam>उत्प्रेक्ष्</prAwipaxikam>
 <seg>उत्प्र-ईक्ष्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
@@ -96,14 +96,14 @@
 <sense no="3">विश्वास करना, सोचनाउत्प्रेक्षामो वयं तावन्मतिमन्तं विभीषणम्<citation>रामा*</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>उद्वीक्ष्</root>
+<dentry>उद्वीक्ष्</dentry>
 <prAwipaxikam>उद्वीक्ष्</prAwipaxikam>
 <seg>उद्वि-ईक्ष्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
 <sense no="1">मुँह ताकना</sense>
 </segmenthd>
 <segmenthd>
-<root>उपेक्ष्</root>
+<dentry>उपेक्ष्</dentry>
 <prAwipaxikam>उपेक्ष्</prAwipaxikam>
 <seg>उप-ईक्ष्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
@@ -112,7 +112,7 @@
 <sense no="3">ध्यान से देखना, विचारना</sense>
 </segmenthd>
 <segmenthd>
-<root>निरीक्ष्</root>
+<dentry>निरीक्ष्</dentry>
 <prAwipaxikam>निरीक्ष्</prAwipaxikam>
 <seg>निर्-ईक्ष्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
@@ -120,7 +120,7 @@
 <sense no="2">ढूँढना, खोजनानिरीक्षते केलिवनं प्रविश्य क्रमेलकः कण्टकजालमेव<citation>विक्रमाङ्क*</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>परीक्ष्</root>
+<dentry>परीक्ष्</dentry>
 <prAwipaxikam>परीक्ष्</prAwipaxikam>
 <seg>परि-ईक्ष्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
@@ -128,42 +128,42 @@
 <sense no="2">परीक्षण करना, जाँच करना, परीक्षा लेनामायां मयोद्भाव्यपरीक्षितोऽसि<citation>रघु*२।६२</citation>यत्नात्परीक्षितः पुंस्त्वे<citation>याज्ञ*१।५५पौरुष के विषय में ध्यानपूर्वक जाँचा गया</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>प्रेक्ष्</root>
+<dentry>प्रेक्ष्</dentry>
 <prAwipaxikam>प्रेक्ष्</prAwipaxikam>
 <seg>प्र-ईक्ष्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
 <sense no="1">देखना, ताकना, प्रत्यक्ष करनातमायान्तं प्रेक्ष्य<citation>पञ्च*१</citation><citation>रघु*१२।४४</citation><citation>कु*६।४७</citation><citation>मनु*८।१४७</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>प्रतीक्ष्</root>
+<dentry>प्रतीक्ष्</dentry>
 <prAwipaxikam>प्रतीक्ष्</prAwipaxikam>
 <seg>प्रति-ईक्ष्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
 <sense no="1">इन्तजार करनासम्पत्स्यते वः कामोऽयं कालः कश्चित्प्रतीक्ष्यताम्<citation>कु*२।५४</citation><citation>मनु*९।७७</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>प्रतिवीक्ष्</root>
+<dentry>प्रतिवीक्ष्</dentry>
 <prAwipaxikam>प्रतिवीक्ष्</prAwipaxikam>
 <seg>प्रतिवि-ईक्ष्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
 <sense no="1">प्रत्यवलोकन करना</sense>
 </segmenthd>
 <segmenthd>
-<root>वीक्ष्</root>
+<dentry>वीक्ष्</dentry>
 <prAwipaxikam>वीक्ष्</prAwipaxikam>
 <seg>वि-ईक्ष्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
 <sense no="1">देखना, ताकनातं वीक्ष्य वेपथुमती<citation>कु*५।८५</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>व्यपेक्ष्</root>
+<dentry>व्यपेक्ष्</dentry>
 <prAwipaxikam>व्यपेक्ष्</prAwipaxikam>
 <seg>व्यप-ईक्ष्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
 <sense no="1">ध्यान करना, खयाल रखना, सम्मान करनान व्यपैक्षत समुत्सुकाः प्रजाः<citation>रघु*१९।६प्रायः ’न’ के साथ</citation></sense>
 </segmenthd>
 <segmenthd>
-<root>समीक्ष्</root>
+<dentry>समीक्ष्</dentry>
 <prAwipaxikam>समीक्ष्</prAwipaxikam>
 <seg>सम्-ईक्ष्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
@@ -172,7 +172,7 @@
 <sense no="3">ध्यानपूर्वक जांचनाअसमीक्ष्यकारिन्</sense>
 </segmenthd>
 <segmenthd>
-<root>समवेक्ष्</root>
+<dentry>समवेक्ष्</dentry>
 <prAwipaxikam>समवेक्ष्</prAwipaxikam>
 <seg>समव-ईक्ष्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
@@ -180,7 +180,7 @@
 <sense no="2">सोचना</sense>
 </segmenthd>
 <segmenthd>
-<root>समुपेक्ष्</root>
+<dentry>समुपेक्ष्</dentry>
 <prAwipaxikam>समुपेक्ष्</prAwipaxikam>
 <seg>समुप-ईक्ष्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
@@ -189,7 +189,7 @@
 </lexhead>
 
 <lexhead no="3">
-<root>ईक्षकः</root>
+<dentry>ईक्षकः</dentry>
 <prAwipaxikam>ईक्षक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ईक्ष्+ण्वुल्]</etymology>
@@ -197,7 +197,7 @@
 </lexhead>
 
 <lexhead no="4">
-<root>ईक्षणम्</root>
+<dentry>ईक्षणम्</dentry>
 <prAwipaxikam>ईक्षण</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ईक्ष्+ल्युट्]</etymology>
@@ -211,7 +211,7 @@
 </lexhead>
 
 <lexhead no="5">
-<root>ईक्षणिकः</root>
+<dentry>ईक्षणिकः</dentry>
 <prAwipaxikam>ईक्षणिक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ईक्षण+ठन्]</etymology>
@@ -219,7 +219,7 @@
 </lexhead>
 
 <lexhead no="6">
-<root>ईक्षतिः</root>
+<dentry>ईक्षतिः</dentry>
 <prAwipaxikam>ईक्षति</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ईक्ष्+शतिप्]</etymology>
@@ -227,7 +227,7 @@
 </lexhead>
 
 <lexhead no="7">
-<root>ईक्षा</root>
+<dentry>ईक्षा</dentry>
 <prAwipaxikam>ईक्षा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ईक्ष्+अ+टाप्]</etymology>
@@ -236,7 +236,7 @@
 </lexhead>
 
 <lexhead no="8">
-<root>ईक्षिका</root>
+<dentry>ईक्षिका</dentry>
 <prAwipaxikam>ईक्षिका</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ईक्ष्+ण्वुल्/ईक्षा+कन्/ईक्षा+टाप्,इत्वम्]</etymology>
@@ -245,7 +245,7 @@
 </lexhead>
 
 <lexhead no="9">
-<root>ईक्षित</root>
+<dentry>ईक्षित</dentry>
 <prAwipaxikam>ईक्षित</prAwipaxikam>
 <grammar>भू* क* कृ*</grammar>
 <etymology>[ईक्ष् - क्त]</etymology>
@@ -253,7 +253,7 @@
 </lexhead>
 
 <lexhead no="10">
-<root>ईक्षितम्</root>
+<dentry>ईक्षितम्</dentry>
 <prAwipaxikam>ईक्षित</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ईक्ष्+क्त]</etymology>
@@ -262,7 +262,7 @@
 </lexhead>
 
 <lexhead no="11">
-<root>ईख्</root>
+<dentry>ईख्</dentry>
 <prAwipaxikam>ईख्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>ईखति, ईंखति</vform>,<vform>ईखित, ईंखित</vform></grammar>
 <sense no="1">जाना, हिलना-डुलना, डाँवाडोल होना</sense>
@@ -270,21 +270,21 @@
 </lexhead>
 
 <lexhead no="12">
-<root>ईख्</root>
+<dentry>ईख्</dentry>
 <prAwipaxikam>ईख्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI>प्रेर*</grammar>
 <sense no="1">झुलना, घूमना</sense>
 </lexhead>
 
 <lexhead no="13">
-<root>ईङ्ख्</root>
+<dentry>ईङ्ख्</dentry>
 <prAwipaxikam>ईङ्ख्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>ईखति, ईंखति</vform>,<vform>ईखित, ईंखित</vform></grammar>
 <sense no="1">जाना, हिलना-डुलना, डाँवाडोल होना</sense>
 <sense n="2">हिलना</sense>
 <sense n="3">झुलना, घूमना</sense>
 <segmenthd>
-<root>प्रेख्</root>
+<dentry>प्रेख्</dentry>
 <prAwipaxikam>प्रेख्</prAwipaxikam>
 <seg>प्र-ईख्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI></grammar>
@@ -293,7 +293,7 @@
 </lexhead>
 
 <lexhead no="14">
-<root>ईज्</root>
+<dentry>ईज्</dentry>
 <prAwipaxikam>ईज्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
 <sense no="1">जाना</sense>
@@ -301,7 +301,7 @@
 </lexhead>
 
 <lexhead no="15">
-<root>इञ्ज</root>
+<dentry>इञ्ज</dentry>
 <prAwipaxikam>इञ्ज</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
 <sense no="1">जाना</sense>
@@ -309,14 +309,14 @@
 </lexhead>
 
 <lexhead no="16">
-<root>ईड्</root>
+<dentry>ईड्</dentry>
 <prAwipaxikam>ईड्</prAwipaxikam>
 <grammar><gaNa>अदा*</gaNa><paxI>आ*</paxI><vform>ईडे</vform>,<vform>ईडित</vform></grammar>
 <sense no="1">स्तुति करना, अग्निमीडे पुरोहितम्<citation>ऋक्*१।१।१</citation>शालीनतामव्रजदीड्यमानः<citation>रघु*१८।१७</citation><citation>भट्टि*९।५७</citation>१८।१५</sense>
 </lexhead>
 
 <lexhead no="17">
-<root>ईडा</root>
+<dentry>ईडा</dentry>
 <prAwipaxikam>ईडा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ईड्+अ+टाप्]</etymology>
@@ -324,7 +324,7 @@
 </lexhead>
 
 <lexhead no="18">
-<root>ईड्य</root>
+<dentry>ईड्य</dentry>
 <prAwipaxikam>ईड्य</prAwipaxikam>
 <grammar>सं* कृ*</grammar>
 <etymology>[ईड्+ण्यत्]</etymology>
@@ -332,7 +332,7 @@
 </lexhead>
 
 <lexhead no="19">
-<root>ईतिः</root>
+<dentry>ईतिः</dentry>
 <prAwipaxikam>ईति</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ई+क्तिच्]</etymology>
@@ -345,7 +345,7 @@
 </lexhead>
 
 <lexhead no="20">
-<root>ईदृक्ता</root>
+<dentry>ईदृक्ता</dentry>
 <prAwipaxikam>ईदृक्ता</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ईदृश्+तल्+टाप्]</etymology>
@@ -353,7 +353,7 @@
 </lexhead>
 
 <lexhead no="21">
-<root>ईदृक्ष</root>
+<dentry>ईदृक्ष</dentry>
 <prAwipaxikam>ईदृक्ष</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ईदृक्ष</prAwipaxikam>
@@ -361,7 +361,7 @@
 </lexhead>
 
 <lexhead no="22">
-<root>ईदृश</root>
+<dentry>ईदृश</dentry>
 <prAwipaxikam>ईदृश</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ईदृश</prAwipaxikam>
@@ -369,7 +369,7 @@
 </lexhead>
 
 <lexhead no="23">
-<root>ईप्सा</root>
+<dentry>ईप्सा</dentry>
 <prAwipaxikam>ईप्सा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology><vigraha_vAkya>आप्तुमिच्छा</vigraha_vAkya>[आप्+सन्+अ]</etymology>
@@ -378,7 +378,7 @@
 </lexhead>
 
 <lexhead no="24">
-<root>ईप्सित</root>
+<dentry>ईप्सित</dentry>
 <prAwipaxikam>ईप्सित</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ईप्सित</prAwipaxikam>
@@ -387,7 +387,7 @@
 </lexhead>
 
 <lexhead no="25">
-<root>ईप्सितम्</root>
+<dentry>ईप्सितम्</dentry>
 <prAwipaxikam>ईप्सित</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[आप्+सन्+क्त]</etymology>
@@ -395,7 +395,7 @@
 </lexhead>
 
 <lexhead no="26">
-<root>ईप्सु</root>
+<dentry>ईप्सु</dentry>
 <prAwipaxikam>ईप्सु</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ईप्सु</prAwipaxikam>
@@ -404,7 +404,7 @@
 </lexhead>
 
 <lexhead no="27">
-<root>ईर्</root>
+<dentry>ईर्</dentry>
 <prAwipaxikam>ईर्</prAwipaxikam>
 <grammar><gaNa>अदा*</gaNa><paxI>आ*</paxI><vform>ईर्ते</vform>,<vform>ईर्ण</vform></grammar>
 <sense no="1">जाना, हिलना-डुलना, हिलाना</sense>
@@ -416,7 +416,7 @@
 <sense n="7">चलाना, हिलना-डुलना, हिलानावातेरितपल्लवाङ्गुलिभिः<citation>श*१</citation></sense>
 <sense n="8">नियुक्त करना, काम लेना</sense>
 <segmenthd>
-<root>उदीर्</root>
+<dentry>उदीर्</dentry>
 <prAwipaxikam>उदीर्</prAwipaxikam>
 <seg>उद्-ईर्</seg>
 <grammar><gaNa>अदा*</gaNa><paxI>आ*</paxI></grammar>
@@ -428,7 +428,7 @@
 <sense no="6">प्रदर्शन करना, प्रकाशित करना</sense>
 </segmenthd>
 <segmenthd>
-<root>प्रेर्</root>
+<dentry>प्रेर्</dentry>
 <prAwipaxikam>प्रेर्</prAwipaxikam>
 <seg>प्र-ईर्</seg>
 <grammar><gaNa>अदा*</gaNa><paxI>आ*</paxI></grammar>
@@ -437,7 +437,7 @@
 <sense no="3">उकसाना, भड़काना, चलाना</sense>
 </segmenthd>
 <segmenthd>
-<root>समीर्</root>
+<dentry>समीर्</dentry>
 <prAwipaxikam>समीर्</prAwipaxikam>
 <seg>सम्-ईर्</seg>
 <grammar><gaNa>अदा*</gaNa><paxI>आ*</paxI></grammar>
@@ -445,7 +445,7 @@
 <sense no="2">हिलाना, हिलना-डुलना</sense>
 </segmenthd>
 <segmenthd>
-<root>समुदीर्</root>
+<dentry>समुदीर्</dentry>
 <prAwipaxikam>समुदीर्</prAwipaxikam>
 <seg>समुद्-ईर्</seg>
 <grammar><gaNa>अदा*</gaNa><paxI>आ*</paxI></grammar>
@@ -454,7 +454,7 @@
 </lexhead>
 
 <lexhead no="28">
-<root>ईरणः</root>
+<dentry>ईरणः</dentry>
 <prAwipaxikam>ईरण</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ईर्+ल्युट्]</etymology>
@@ -462,7 +462,7 @@
 </lexhead>
 
 <lexhead no="29">
-<root>ईरणम्</root>
+<dentry>ईरणम्</dentry>
 <prAwipaxikam>ईरण</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ईर्+ल्युट्]</etymology>
@@ -473,7 +473,7 @@
 </lexhead>
 
 <lexhead no="30">
-<root>ईरिण</root>
+<dentry>ईरिण</dentry>
 <prAwipaxikam>ईरिण</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ईरिण</prAwipaxikam>
@@ -485,7 +485,7 @@
 </lexhead>
 
 <lexhead no="31">
-<root>ईरिणम्</root>
+<dentry>ईरिणम्</dentry>
 <prAwipaxikam>ईरिण</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ईर्+इनन्]</etymology>
@@ -496,14 +496,14 @@
 </lexhead>
 
 <lexhead no="32">
-<root>ईर्क्ष्य्</root>
+<dentry>ईर्क्ष्य्</dentry>
 <prAwipaxikam>ईर्क्ष्य्</prAwipaxikam>
 <grammar></grammar>
 <sense no="1">डाह करना, ईर्ष्यालू होना, दूसरों की सफलता को देखकर असहिष्णु होना<citation>शि*८।३७</citation></sense>
 </lexhead>
 
 <lexhead no="33">
-<root>ईर्मम्</root>
+<dentry>ईर्मम्</dentry>
 <prAwipaxikam>ईर्म</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ईर्+मक्]</etymology>
@@ -513,7 +513,7 @@
 </lexhead>
 
 <lexhead no="34">
-<root>ईर्या</root>
+<dentry>ईर्या</dentry>
 <prAwipaxikam>ईर्या</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ईर्+ण्यत्+टाप्]</etymology>
@@ -521,7 +521,7 @@
 </lexhead>
 
 <lexhead no="35">
-<root>ईर्वारुः</root>
+<dentry>ईर्वारुः</dentry>
 <prAwipaxikam>ईर्वारु</prAwipaxikam>
 <grammar>पुं*</grammar>
 ?<etymology>[ईरु ऋ-उण् बा०]</etymology>
@@ -531,7 +531,7 @@
 </lexhead>
 
 <lexhead no="36">
-<root>ईर्षा</root>
+<dentry>ईर्षा</dentry>
 <prAwipaxikam>ईर्षा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ईर्ष्य्+घञ्, यलोपः]</etymology>
@@ -539,14 +539,14 @@
 </lexhead>
 
 <lexhead no="37">
-<root>ईर्ष्य्</root>
+<dentry>ईर्ष्य्</dentry>
 <prAwipaxikam>ईर्ष्य्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>ईर्ष्यति</vform>,<vform>ईर्ष्यित</vform></grammar>
 <sense no="1">डाह करना, ईर्ष्यालू होना, दूसरों की सफलता को देखकर असहिष्णु होना<citation>शि*८।३६</citation>संप्र* के साथ<vform>हरये</vform>,<vform>ईर्ष्यति</vform>सिद्धा*</sense>
 </lexhead>
 
 <lexhead no="38">
-<root>ईर्ष्य</root>
+<dentry>ईर्ष्य</dentry>
 <prAwipaxikam>ईर्ष्य</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ईर्ष्य</prAwipaxikam>
@@ -555,7 +555,7 @@
 </lexhead>
 
 <lexhead no="39">
-<root>ईर्ष्यु</root>
+<dentry>ईर्ष्यु</dentry>
 <prAwipaxikam>ईर्ष्यु</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ईर्ष्यु</prAwipaxikam>
@@ -564,7 +564,7 @@
 </lexhead>
 
 <lexhead no="40">
-<root>ईर्ष्यक</root>
+<dentry>ईर्ष्यक</dentry>
 <prAwipaxikam>ईर्ष्यक</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ईर्ष्यक</prAwipaxikam>
@@ -573,7 +573,7 @@
 </lexhead>
 
 <lexhead no="41">
-<root>ईर्ष्या</root>
+<dentry>ईर्ष्या</dentry>
 <prAwipaxikam>ईर्ष्या</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ईर्ष्य्+अप्]</etymology>
@@ -583,7 +583,7 @@
 </lexhead>
 
 <lexhead no="42">
-<root>ईर्ष्यालु</root>
+<dentry>ईर्ष्यालु</dentry>
 <prAwipaxikam>ईर्ष्यालु</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ईर्ष्यालु</prAwipaxikam>
@@ -593,7 +593,7 @@
 </lexhead>
 
 <lexhead no="43">
-<root>ईर्ष्यु</root>
+<dentry>ईर्ष्यु</dentry>
 <prAwipaxikam>ईर्ष्यु</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ईर्ष्यु</prAwipaxikam>
@@ -602,7 +602,7 @@
 </lexhead>
 
 <lexhead no="44">
-<root>ईर्षु</root>
+<dentry>ईर्षु</dentry>
 <prAwipaxikam>ईर्षु</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ईर्षु</prAwipaxikam>
@@ -611,7 +611,7 @@
 </lexhead>
 
 <lexhead no="45">
-<root>ईलिः</root>
+<dentry>ईलिः</dentry>
 <prAwipaxikam>ईलि</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ईड्+कि डस्य लः]</etymology>
@@ -619,7 +619,7 @@
 </lexhead>
 
 <lexhead no="46">
-<root>ईली</root>
+<dentry>ईली</dentry>
 <prAwipaxikam>ईली</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <kind_of>खड्गः</kind_of>
@@ -628,7 +628,7 @@
 </lexhead>
 
 <lexhead no="47">
-<root>ईश्</root>
+<dentry>ईश्</dentry>
 <prAwipaxikam>ईश्</prAwipaxikam>
 <grammar><gaNa>अदा*</gaNa><paxI>आ*</paxI><vform>ईष्टे</vform>,<vform>ईशित</vform></grammar>
 <sense no="1">राज्य करना, स्वामी होना, शासन करना, आदेश देना, अर्थानामीशिषे त्वं वयमपि च गिरामीश्महे यावदर्थम्<citation>भर्तृ*३।३०</citation>संबं* के साथ</sense>
@@ -637,7 +637,7 @@
 </lexhead>
 
 <lexhead no="48">
-<root>ईश</root>
+<dentry>ईश</dentry>
 <prAwipaxikam>ईश</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ईश</prAwipaxikam>
@@ -652,7 +652,7 @@
 </lexhead>
 
 <lexhead no="49">
-<root>ईशः</root>
+<dentry>ईशः</dentry>
 <prAwipaxikam>ईश</prAwipaxikam>
 <grammar>पुं*</grammar>
 <kind_of>देवः</kind_of>
@@ -666,7 +666,7 @@
 </lexhead>
 
 <lexhead no="50">
-<root>ईशा</root>
+<dentry>ईशा</dentry>
 <prAwipaxikam>ईशा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <is_a_part>हलम्</is_a_part>
@@ -675,28 +675,28 @@
 <sense no="1">दुर्गा</sense>
 <sense n="2">ऐश्वर्यशालिनी स्त्री, धनाढ्य महिला</sense>
 <segmenthd>
-<root>ईशकोणः</root>
+<dentry>ईशकोणः</dentry>
 <prAwipaxikam>ईशकोण</prAwipaxikam>
 <seg>ईश-कोणः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">उत्तर पूर्व दिशा</sense>
 </segmenthd>
 <segmenthd>
-<root>ईशपुरी</root>
+<dentry>ईशपुरी</dentry>
 <prAwipaxikam>ईशपुरी</prAwipaxikam>
 <seg>ईश-पुरी</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">बनारस, वाराणसी</sense>
 </segmenthd>
 <segmenthd>
-<root>ईशनगरी</root>
+<dentry>ईशनगरी</dentry>
 <prAwipaxikam>ईशनगरी</prAwipaxikam>
 <seg>ईश-नगरी</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">बनारस, वाराणसी</sense>
 </segmenthd>
 <segmenthd>
-<root>ईशसखः</root>
+<dentry>ईशसखः</dentry>
 <prAwipaxikam>ईशसख</prAwipaxikam>
 <seg>ईश-सखः</seg>
 <grammar>पुं*</grammar>
@@ -705,7 +705,7 @@
 </lexhead>
 
 <lexhead no="51">
-<root>ईशानः</root>
+<dentry>ईशानः</dentry>
 <prAwipaxikam>ईशान</prAwipaxikam>
 <grammar>पुं*</grammar>
 ?<etymology>[ईश् - ताच्छील्ये चानच्]</etymology>
@@ -718,14 +718,14 @@
 </lexhead>
 
 <lexhead no="52">
-<root>ईशानी</root>
+<dentry>ईशानी</dentry>
 <prAwipaxikam>ईशानी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <sense no="1">दुर्गा</sense>
 </lexhead>
 
 <lexhead no="53">
-<root>ईशिता</root>
+<dentry>ईशिता</dentry>
 <prAwipaxikam>ईशिता</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology><vigraha_vAkya>ईशिनो भावः</vigraha_vAkya>[ईशिन्+तल्+टाप्]</etymology>
@@ -733,7 +733,7 @@
 </lexhead>
 
 <lexhead no="54">
-<root>ईशित्वम्</root>
+<dentry>ईशित्वम्</dentry>
 <prAwipaxikam>ईशित्व</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology><vigraha_vAkya>ईशिनो भावः[</vigraha_vAkya>ईशिन्+त्वल्]</etymology>
@@ -742,7 +742,7 @@
 </lexhead>
 
 <lexhead no="55">
-<root>ईश्वर</root>
+<dentry>ईश्वर</dentry>
 <prAwipaxikam>ईश्वर</prAwipaxikam>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">ईश्वर</prAwipaxikam>
@@ -755,7 +755,7 @@
 </lexhead>
 
 <lexhead no="56">
-<root>ईश्वरः</root>
+<dentry>ईश्वरः</dentry>
 <prAwipaxikam>ईश्वर</prAwipaxikam>
 <grammar>पुं*</grammar>
 <kind_of>मनुष्यः</kind_of>
@@ -772,27 +772,27 @@
 </lexhead>
 
 <lexhead no="57">
-<root>ईश्वरा</root>
+<dentry>ईश्वरा</dentry>
 <prAwipaxikam>ईश्वरा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <sense no="1">दुर्गा</sense>
 </lexhead>
 
 <lexhead no="58">
-<root>ईश्वरी</root>
+<dentry>ईश्वरी</dentry>
 <prAwipaxikam>ईश्वरी</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <jAwi>देवता</jAwi>
 <sense no="1">दुर्गा</sense>
 <segmenthd>
-<root>ईश्वरनिषेधः</root>
+<dentry>ईश्वरनिषेधः</dentry>
 <prAwipaxikam>ईश्वरनिषेध</prAwipaxikam>
 <seg>ईश्वरः-निषेधः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">परमात्मा के अस्तित्व को न मानना, नास्तिकता</sense>
 </segmenthd>
 <segmenthd>
-<root>ईश्वरपूजक</root>
+<dentry>ईश्वरपूजक</dentry>
 <prAwipaxikam>ईश्वरपूजक</prAwipaxikam>
 <seg>ईश्वरः-पूजक</seg>
 <grammar>वि*</grammar>
@@ -800,14 +800,14 @@
 <sense no="1">पुण्यात्मा, भक्त</sense>
 </segmenthd>
 <segmenthd>
-<root>ईश्वरसद्मन्</root>
+<dentry>ईश्वरसद्मन्</dentry>
 <prAwipaxikam>ईश्वरसद्मन्</prAwipaxikam>
 <seg>ईश्वरः-सद्मन्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">मन्दिर</sense>
 </segmenthd>
 <segmenthd>
-<root>ईश्वरसभम्</root>
+<dentry>ईश्वरसभम्</dentry>
 <prAwipaxikam>ईश्वरसभ</prAwipaxikam>
 <seg>ईश्वरः-सभम्</seg>
 <grammar>नपुं*</grammar>
@@ -816,7 +816,7 @@
 </lexhead>
 
 <lexhead no="59">
-<root>ईष्</root>
+<dentry>ईष्</dentry>
 <prAwipaxikam>ईष्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>उभ*</paxI><vform>ईषति</vform>,<vform>ईषते</vform>,<vform>ईषित</vform></grammar>
 <sense no="1">उड़ जाना</sense>
@@ -826,7 +826,7 @@
 </lexhead>
 
 <lexhead no="60">
-<root>ईषः</root>
+<dentry>ईषः</dentry>
 <prAwipaxikam>ईष</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ईष्+क]</etymology>
@@ -834,14 +834,14 @@
 </lexhead>
 
 <lexhead no="61">
-<root>ईषत्</root>
+<dentry>ईषत्</dentry>
 <prAwipaxikam>ईषत्</prAwipaxikam>
 <grammar>अव्य*</grammar>
 <etymology>[ईष्+अति]</etymology>
 <jAwi>परिमाणः</jAwi>
 <sense no="1">जरा, कुछ सीमा तक, थोंड़ा सा ईषत् चुम्बितानि<citation>श*१।३</citation></sense>
 <segmenthd>
-<root>ईषदुष्ण</root>
+<dentry>ईषदुष्ण</dentry>
 <prAwipaxikam>ईषदुष्ण</prAwipaxikam>
 <seg>ईषत्-उष्ण</seg>
 <grammar>वि*</grammar>
@@ -849,7 +849,7 @@
 <sense no="1">गुनगुना</sense>
 </segmenthd>
 <segmenthd>
-<root>ईषत्कर</root>
+<dentry>ईषत्कर</dentry>
 <prAwipaxikam>ईषत्कर</prAwipaxikam>
 <seg>ईषत्-कर</seg>
 <grammar>वि*</grammar>
@@ -857,14 +857,14 @@
 <sense no="1">थोड़ा करने वाला, अनायास पूरा हो जाने वाला</sense>
 </segmenthd>
 <segmenthd>
-<root>ईषज्जलम्</root>
+<dentry>ईषज्जलम्</dentry>
 <prAwipaxikam>ईषज्जल</prAwipaxikam>
 <seg>ईषत्-जलम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">उथला पानी</sense>
 </segmenthd>
 <segmenthd>
-<root>ईषत्पाण्डु</root>
+<dentry>ईषत्पाण्डु</dentry>
 <prAwipaxikam>ईषत्पाण्डु</prAwipaxikam>
 <seg>ईषत्-पाण्डु</seg>
 <grammar>वि*</grammar>
@@ -874,14 +874,14 @@
 <sense no="1">हल्का पीला, कुछ सफेद</sense>
 </segmenthd>
 <segmenthd>
-<root>ईषत्पुरुषः</root>
+<dentry>ईषत्पुरुषः</dentry>
 <prAwipaxikam>ईषत्पुरुष</prAwipaxikam>
 <seg>ईषत्-पुरुषः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">अधम और घृणित व्यक्ति</sense>
 </segmenthd>
 <segmenthd>
-<root>ईषद्रक्त</root>
+<dentry>ईषद्रक्त</dentry>
 <prAwipaxikam>ईषद्रक्त</prAwipaxikam>
 <seg>ईषत्-रक्त</seg>
 <grammar>वि*</grammar>
@@ -889,7 +889,7 @@
 <sense no="1">पीला लाल, हल्का लाल</sense>
 </segmenthd>
 <segmenthd>
-<root>ईषल्लभ</root>
+<dentry>ईषल्लभ</dentry>
 <prAwipaxikam>ईषल्लभ</prAwipaxikam>
 <seg>ईषत्-लभ</seg>
 <grammar>वि*</grammar>
@@ -897,7 +897,7 @@
 <sense no="1">थोड़े से में सुलभ</sense>
 </segmenthd>
 <segmenthd>
-<root>ईषत्प्रलम्भ</root>
+<dentry>ईषत्प्रलम्भ</dentry>
 <prAwipaxikam>ईषत्प्रलम्भ</prAwipaxikam>
 <seg>ईषत्-प्रलम्भ</seg>
 <grammar>वि*</grammar>
@@ -905,7 +905,7 @@
 <sense no="1">थोड़े से में सुलभ</sense>
 </segmenthd>
 <segmenthd>
-<root>ईषद्हासः</root>
+<dentry>ईषद्हासः</dentry>
 <prAwipaxikam>ईषद्हास</prAwipaxikam>
 <seg>ईषत्-हासः</seg>
 <grammar>पुं*</grammar>
@@ -914,7 +914,7 @@
 </lexhead>
 
 <lexhead no="62">
-<root>ईषा</root>
+<dentry>ईषा</dentry>
 <prAwipaxikam>ईषा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ईष्+क+टाप्]</etymology>
@@ -923,7 +923,7 @@
 </lexhead>
 
 <lexhead no="63">
-<root>ईषिका</root>
+<dentry>ईषिका</dentry>
 <prAwipaxikam>ईषिका</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ईषा+कन्, इत्वम्]</etymology>
@@ -935,7 +935,7 @@
 </lexhead>
 
 <lexhead no="64">
-<root>ईषिरः</root>
+<dentry>ईषिरः</dentry>
 <prAwipaxikam>ईषिर</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ईष्+किरच्]</etymology>
@@ -943,7 +943,7 @@
 </lexhead>
 
 <lexhead no="65">
-<root>ईषीका</root>
+<dentry>ईषीका</dentry>
 <prAwipaxikam>ईषीका</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ईष्+क्वुन्, इत्वम्, दीर्घश्च]</etymology>
@@ -953,7 +953,7 @@
 </lexhead>
 
 <lexhead no="66">
-<root>ईष्मः</root>
+<dentry>ईष्मः</dentry>
 <prAwipaxikam>ईष्म</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[इष्-मक्]</etymology>
@@ -962,14 +962,14 @@
 </lexhead>
 
 <lexhead no="67">
-<root>ईह्</root>
+<dentry>ईह्</dentry>
 <prAwipaxikam>ईह्</prAwipaxikam>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI><vform>ईहते</vform>,<vform>ईहित</vform></grammar>
 <sense no="1">कामना करना, चाहना, सोचना<citation>भग*१६।१२</citation><citation>भट्टि*१।११</citation>कर्म* या ’तुमुन्’ के साथ</sense>
 <sense n="2">प्राप्त करने का प्रयत्न करना</sense>
 <sense n="3">लक्ष्य बनाना, प्रयत्न करना, प्रयास करना, कोशिश करनामाधुर्य मधुविन्दुना रचयितुं क्षाराम्बुधेरीहते<citation>भर्तृ* २।६.</citation><citation>याज्ञ*२।११६</citation></sense>
 <segmenthd>
-<root>समीह्</root>
+<dentry>समीह्</dentry>
 <prAwipaxikam>समीह्</prAwipaxikam>
 <seg>सम्-ईह्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
@@ -979,7 +979,7 @@
 </lexhead>
 
 <lexhead no="68">
-<root>ईहा</root>
+<dentry>ईहा</dentry>
 <prAwipaxikam>ईहा</prAwipaxikam>
 <grammar>स्त्री*</grammar>
 <etymology>[ईह्+अ]</etymology>
@@ -988,7 +988,7 @@
 <sense no="1">कामना, इच्छा</sense>
 <sense n="2">प्रयत्न, प्रयास, चेष्टा<citation>मनु*९।२०५</citation></sense>
 <segmenthd>
-<root>ईहामृगः</root>
+<dentry>ईहामृगः</dentry>
 <prAwipaxikam>ईहामृग</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ईहा+मृगः]</etymology>
@@ -997,7 +997,7 @@
 <sense no="2">भेड़िया</sense>
 <sense no="3">नाटक का एक खंड जिसमें ४ अंक होते हैं<citation>सा*द*५१८परिभाषा के लिए दे*</citation></sense></segmenthd>
 <segmenthd>
-<root>ईहावृकः</root>
+<dentry>ईहावृकः</dentry>
 <prAwipaxikam>ईहावृक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[ईहा+वृकः]</etymology>
@@ -1005,7 +1005,7 @@
 </lexhead>
 
 <lexhead no="69">
-<root>ईहित</root>
+<dentry>ईहित</dentry>
 <prAwipaxikam>ईहित</prAwipaxikam>
 <grammar>भू* क* कृ*</grammar>
 <etymology>[ईह्+क्त]</etymology>
@@ -1013,7 +1013,7 @@
 </lexhead>
 
 <lexhead no="70">
-<root>ईहितम्</root>
+<dentry>ईहितम्</dentry>
 <prAwipaxikam>ईहित</prAwipaxikam>
 <grammar>नपुं*</grammar>
 <etymology>[ईह्+क्त]</etymology>
