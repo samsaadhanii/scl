@@ -1,8 +1,9 @@
 niwya_sambanXaH 2
-prawiyogI 3
-BAvalakRaNasapwamI_samAnakAlaH 4
-BAvalakRaNasapwamI_pUrvakAlaH 5
-BAvalakRaNasapwamI_ananwarakAlaH 6
+prawiyogI 300
+BAvalakRaNasapwamI_samAnakAlaH 3
+BAvalakRaNasapwamI_pUrvakAlaH 4
+BAvalakRaNasapwamI_ananwarakAlaH 5
+karwA_be_verbs 6
 karwA 7
 karwqrahiwakarwqsamAnAXikaraNam 8
 viXeya_viSeRaNam 9
@@ -95,5 +96,9 @@ iRkarma 214
 wIvrawAxarSI 51
 saFjFA_xyowakaH 52
 saFjFA 53
+kAraNa_xyowakaH 56
+kArya_xyowakaH 57
+vyaBicAraH 58
+kArya_kAraNa_BAvaH 59
 samAnAXikaraNam 1009
 upamAnam_rahiwa_upamAna_xyowakaH 1079

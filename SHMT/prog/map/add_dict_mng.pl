@@ -145,7 +145,7 @@ while($tmpin = <STDIN>){
   $in =~ s/></;/g;
   $in =~ s/</{/g;
   $in =~ s/>/}/g;
-  $in =~ s/({vargaH:sa\-pU\-pa;[^}]+}(\/[^{]+)?)+\-/-/g;
+  $in =~ s/(\{vargaH:sa\-pU\-pa;[^\}]+\}(\/[^\{]+)?)+\-/-/g;
   #print "in = $in\n";
 
 

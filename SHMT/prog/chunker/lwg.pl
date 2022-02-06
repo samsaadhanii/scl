@@ -80,7 +80,7 @@ while($in = <STDIN>){
               $last[$i+1] = "-";
            }
        }
-# All the relatas that were pointing towards `sma', now poit them towards the previous verbal form.
+# All the relatas that were pointing towards `sma', now point them towards the previous verbal form.
        if($last[$i+1] eq "-") {
          $j=0;
          $pos1 = $i+1; #Pos is counted from 1

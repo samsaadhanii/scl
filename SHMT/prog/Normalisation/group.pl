@@ -7,6 +7,8 @@ $in =~ s/ aWa ki[mM] / aWakim /;
 $in =~ s/ aWa vA / aWavA /;
 $in =~ s/ Aho sviw / Ahosviw /;
 $in =~ s/ iwaH para[mM] / iwaHparam /;
+$in =~ s/ ce[wx] api / cexapi /;
+$in =~ s/ san api / sannapi /;
 $in =~ s/ eva[mM] ca / evaFca /;
 $in =~ s/ eva[mM] eva / evameva /;
 $in =~ s/ uwa aho / uwAho /;
@@ -30,6 +32,8 @@ $in =~ s/ yaw sawyam / yawsawyam /;
 $in =~ s/ yaWA yaWam / yaWAyaWam /;
 $in =~ s/ yax vA / yaxvA /;
 $in =~ s/ yaxi api / yaxyapi /;
+$in =~ s/ warhi api / warhyapi /;
+$in =~ s/ warhi eva / warhyeva /;
 
 print $in;
 }

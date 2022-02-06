@@ -1,8 +1,9 @@
 nitya_sambandhaḥ 2
-pratiyogī 3
-bhāvalakṣaṇasaptamī_samānakālaḥ 4
-bhāvalakṣaṇasaptamī_pūrvakālaḥ 5
-bhāvalakṣaṇasaptamī_anantarakālaḥ 6
+pratiyogī 300
+bhāvalakṣaṇasaptamī_samānakālaḥ 3
+bhāvalakṣaṇasaptamī_pūrvakālaḥ 4
+bhāvalakṣaṇasaptamī_anantarakālaḥ 5
+kartā_be_verbs 6
 kartā 7
 kartṛrahitakartṛsamānādhikaraṇam 8
 vidheya_viśeṣaṇam 9
@@ -95,5 +96,9 @@ iṣkarma 214
 tīvratādarśī 51
 sañjñā_dyotakaḥ 52
 sañjñā 53
+kāraṇa_dyotakaḥ 56
+kārya_dyotakaḥ 57
+vyabhicāraḥ 58
+kārya_kāraṇa_bhāvaḥ 59
 samānādhikaraṇam 1009
 upamānam_rahita_upamāna_dyotakaḥ 1079

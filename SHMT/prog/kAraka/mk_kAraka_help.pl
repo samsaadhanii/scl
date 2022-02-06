@@ -102,7 +102,7 @@ while(($in = <STDIN>) && !$solnfound){
          $indx = $sentence; 
 	 %word_used = ();
         $total_parses = $2;
-      } elsif($in =~ /Cost = (.*)/){
+      } elsif($in =~ /Cost=(.*)/){
         $distance = $1;
         print TMP1 $hdr;
         print TMP1 "A [shape=rectangle label=\"Parse: $curr_parse of $total_parses; Cost = $distance\"]\n";
