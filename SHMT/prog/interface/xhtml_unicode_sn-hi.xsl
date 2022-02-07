@@ -36,7 +36,7 @@ Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
       <input type="hidden" name="no_of_rows" value="{$no_of_rows}" />
       <input type="button" value="Show/Hide Rows..." onclick="window.open('/scl/SHMT/rows.html','ShowHideRowsWindow','top=200,left=200,height=500,width=300,location=no,menubar=no,toolbar=no,directories=no,statusbar=no');" />
       <input type="checkbox" name="border_value" onchange="toggle_borders()" />Borders
-      <xsl:text disable-output-escaping="yes"> &lt;a href="/scl/SHMT/DEMO/tmp_anu_dir/table.tsv"&gt;Save Annotation&lt;/a&gt;</xsl:text>
+      <xsl:text disable-output-escaping="yes"> &lt;a href="/scl/SHMT/DEMO/tmp_anu_dir/table.xlsx"&gt;Save Annotation&lt;/a&gt;</xsl:text>
       <xsl:text disable-output-escaping="yes"> &lt;a href="/cgi-bin/scl/skt_gen/Sentence/gen.cgi?filename=tmp_dir_gen/table.tsv"&gt;Generate&lt;/a&gt;</xsl:text>
       </center>
     </p>
