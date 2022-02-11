@@ -2257,7 +2257,7 @@ ruXAxiH	vixaz	vicAraNe	A.pa	vix#2	vix4	vix
 ruXAxiH	SiRLz	viSeRaNe	pa.pa	SiR	SiR2	SiR
 ruXAxiH	piRLz	saFcUrNane	pa.pa	piR	piR1	piR
 ruXAxiH	Banjoz	Amarxane	pa.pa	BaFj	Banj1	BaFj
-ruXAxiH	Bujaz	aByavahAre	pa.pa	-	Buj2	Buj
+ruXAxiH	Bujaz	aByavahAre	pa.pa	Buj#2	Buj2	Buj
 ruXAxiH	Bujaz	pAlane	pa.pa	-	Buj2	Buj
 ruXAxiH	wqhaz	hiMsAyAm	pa.pa	wqh	wqh4	wqh
 ruXAxiH	hisiz	hiMsAyAm	pa.pa	hiMs	his1	hiMs
