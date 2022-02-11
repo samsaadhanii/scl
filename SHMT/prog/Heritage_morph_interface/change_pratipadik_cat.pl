@@ -219,6 +219,7 @@ while($in = <STDIN>){
    $ana =~ s/#[1-9]</</;
    $ans .= $ana."/";
   }
+  $ans =~ s/^\///;
   $ans =~ s/\/$//;
   print $ans,"\t",$ans,"\t",$ans,"\n";
  } else { printf "\n";}
