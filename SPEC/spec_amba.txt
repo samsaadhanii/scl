@@ -31,4 +31,5 @@ TIMEOUT="timeout -s15 3m"
 
 #Version SERVER/STANDALONE
 VERSION=SERVER
+LOG=true
 

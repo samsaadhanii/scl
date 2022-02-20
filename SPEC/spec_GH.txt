@@ -28,6 +28,7 @@ TFPATH=/private/tmp/SKT_TEMP
 
 #Version SERVER/STANDALONE
 VERSION=STANDALONE
+LOG=false
 
 #TIMEOUT with SIGTERM signal
 #TIMEOUT="timeout -15 3m"
