@@ -27,7 +27,7 @@ package main;
 #use URL::Escape;
 
 
-  if($GlblVar::VERSION eq "SERVER") {
+  if($GlblVar::LOG eq "true") {
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
     }
@@ -50,7 +50,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
       my $text_type=$param{text_type};
 
 
-  if($GlblVar::VERSION eq "SERVER") {
+  if($GlblVar::LOG eq "true") {
       print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."encoding:$encoding\t"."sentences:$sentences\t"."splitter:$splitter\t"."out_encoding:$out_encoding\t"."parse:$parse\n#####################\n\n";
   }
 
@@ -86,7 +86,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 	      my $q_id = &get_queue_id;
 	      $cpid = &get_curr_id;
 	      if ($cpid != $q_id) { 
-		      sleep(50);
+		      sleep(1);
 		      $cpid = &get_curr_id;
 	      }
 
@@ -112,7 +112,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
            system("$GlblVar::SCLINSTALLDIR/SHMT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $script $pid");
       }
       #  }
-  if($GlblVar::VERSION eq "SERVER") {
+  if($GlblVar::LOG eq "true") {
     close(TMP1);
   }
 

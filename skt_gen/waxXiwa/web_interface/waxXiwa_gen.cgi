@@ -25,7 +25,7 @@ require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 package main;
 #use CGI qw/:standard/;
 
-  if($GlblVar::VERSION eq "SERVER"){
+  if($GlblVar::LOG eq "true"){
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
     }
@@ -53,12 +53,12 @@ print "Content-type:text/html;charset:UTF-8\n\n";
 
       my $result = `$GlblVar::SCLINSTALLDIR/skt_gen/waxXiwa/gen_waxXiwa.pl $word $encoding`;
       print $result;
-      if($GlblVar::VERSION eq "SERVER"){
+      if($GlblVar::LOG eq "true"){
         print TMP1 "running:","calling gen_waxXiwa.pl from waxXiwa generator";
         print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."word:$word\t"."encoding:$encoding\n#######################\n\n";
       }
       #     }
 
- if($GlblVar::VERSION eq "SERVER"){
+ if($GlblVar::LOG eq "true"){
       close(TMP1);
  }

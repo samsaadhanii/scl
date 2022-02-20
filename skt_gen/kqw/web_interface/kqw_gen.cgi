@@ -23,7 +23,7 @@ package main;
 require "../../paths.pl";
 require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 
-    if($GlblVar::VERSION eq "SERVER"){
+    if($GlblVar::LOG eq "true"){
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
     }
@@ -50,11 +50,11 @@ require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 
       my $result = &getResult("$GlblVar::SCLINSTALLDIR/skt_gen/kqw/gen_kqw.pl $encoding $word $upasarga");
       print $result;
-      if($GlblVar::VERSION eq "SERVER"){
+      if($GlblVar::LOG eq "true"){
          print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."word:$word $upasarga\n#################\n";
       }
       #     }
-      if($GlblVar::VERSION eq "SERVER"){
+      if($GlblVar::LOG eq "true"){
          close(TMP1);
       }
 

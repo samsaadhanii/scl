@@ -32,7 +32,7 @@ use warnings;
 
   my %param = &get_parameters();
 
-if($GlblVar::VERSION eq "SERVER") {
+if($GlblVar::LOG eq "true") {
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
     }
@@ -51,7 +51,7 @@ my $sandhi_splitter_out;
   $encoding=$param{encoding};
   $sandhi_type=$param{sandhi_type};
 
-  if($GlblVar::VERSION eq "SERVER"){
+  if($GlblVar::LOG eq "true"){
      print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."encoding:$encoding\t"."word:$word\t"."sandhi_type:$sandhi_type\n";
   }
   #}
@@ -70,6 +70,6 @@ print `/bin/cat $GlblVar::TFPATH/seg_$$/all_possible_outputs.txt`;
 print "</div><br />";
 }
 
-if($GlblVar::VERSION eq "SERVER"){
+if($GlblVar::LOG eq "true"){
    close(TMP1);
 }

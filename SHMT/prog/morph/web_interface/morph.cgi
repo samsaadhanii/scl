@@ -66,7 +66,7 @@ my $paxI;
     $outencoding=$param{outencoding};
     #}
 
-if($GlblVar::VERSION eq "SERVER"){
+if($GlblVar::LOG eq "true"){
   open(TMP1,">>$GlblVar::TFPATH/morph.log") || die "Can't open $GlblVar::TFPATH/morph.log for writing";
   print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."encoding:$encoding\t"."morfword:$word\n"."tempnew_data:$ans\n############################\n\n";
   close(TMP1);
@@ -76,7 +76,7 @@ if($GlblVar::VERSION eq "SERVER"){
 
 $word_wx = &convert($encoding,$word,$GlblVar::SCLINSTALLDIR);
 
-if($GlblVar::VERSION eq "SERVER"){
+if($GlblVar::LOG eq "true"){
   open(TMP1,">>$GlblVar::TFPATH/morph.log") || die "Can't open $GlblVar::TFPATH/morph.log for writing";
   print TMP1 $word_wx;
 }
@@ -84,7 +84,7 @@ if($GlblVar::VERSION eq "SERVER"){
 chomp($word_wx);
 
 $ans = `$GlblVar::SCLINSTALLDIR/SHMT/prog/morph/webrun_morph.sh $word_wx`;
-if($GlblVar::VERSION eq "SERVER"){
+if($GlblVar::LOG eq "true"){
    print TMP1 $ans;
    close(TMP1);
 }

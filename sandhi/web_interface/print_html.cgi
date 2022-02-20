@@ -42,7 +42,6 @@ if($GlblVar::LOG eq "true"){
   my %param = &get_parameters();
 #  if (param) {
      $encoding=$param{encoding};
-     $outencoding=$param{outencoding};
      $word1=$param{text};
      $word2=$param{text1};
      $word1 =~ s/\r//g;
@@ -50,7 +49,6 @@ if($GlblVar::LOG eq "true"){
      chomp($word1);
      chomp($word2);
      $sandhi_type = "any";
-
 
       $word1_wx=&convert($encoding,$word1,$GlblVar::SCLINSTALLDIR);
       chomp($word1_wx);
@@ -63,12 +61,7 @@ if($GlblVar::LOG eq "true"){
 
        $string = $word1_wx.",".$word2_wx.",".$ans[0].",".$ans[1].",".$ans[2].",".$ans[3].",".$ans[4].",".$ans[5].",".$ans[6].",".$ans[7].",";
 
-      if($outencoding eq "IAST") {
-         $cmd = "echo \"$string\" | $GlblVar::SCLINSTALLDIR/converters/wx2utf8roman.out";
-      } else {
-         $cmd = "echo \"$string\" | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
-      }
-
+      $cmd = "echo \"$string\" | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
       $san = `$cmd`;
       $san=~s/,:/,/g;
 
@@ -85,8 +78,13 @@ if($GlblVar::LOG eq "true"){
       @san3=split(/:/,$san[3]);
       @san4=split(/:/,$san[4]);
 
+##using table and giving ouput to the html file
+
+      #      $cgi = new CGI;
+      #print $cgi->header (-charset => 'UTF-8');
       print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
+	
       print "<br>\n<center>";
       print "<table border='1' cellpadding='2' style='border-collapse:collapse' bordercolor='brown' width='92%' id='AoutoNumber1'>";
       
@@ -107,7 +105,7 @@ if($GlblVar::LOG eq "true"){
  print  "<br><br>";
 
 print "<br></BODY></HTML>";
-
+#}
 if($GlblVar::VERSION eq "SERVER"){
   close (TMP1);
 }

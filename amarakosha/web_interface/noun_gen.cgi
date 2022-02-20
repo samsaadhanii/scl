@@ -27,7 +27,7 @@ require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 
 my $myPATH = "$GlblVar::SCLINSTALLDIR/amarakosha";
 
- if($GlblVar::VERSION eq "SERVER"){
+ if($GlblVar::LOG eq "true"){
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
     }
@@ -61,7 +61,7 @@ my $myPATH = "$GlblVar::SCLINSTALLDIR/amarakosha";
 
        print `$myPATH/gen_noun.pl $rt $gen $jAwi $encoding $level`;
 
-       if($GlblVar::VERSION eq "SERVER"){
+       if($GlblVar::LOG eq "true"){
           print TMP1 "running:","calling gen_noun.pl from noun generator";
           print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."rt:$rt\t"."gen:$gen\t"."encoding:$encoding\t"."jAwi:$jAwi\n##########################\n\n";
           close(TMP1);

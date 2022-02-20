@@ -24,7 +24,7 @@ require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 package main;
 #use CGI qw/:standard/;
 
-    if($GlblVar::VERSION eq "SERVER"){
+    if($GlblVar::LOG eq "true"){
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
     }
@@ -58,11 +58,11 @@ package main;
 
       my $result = `$GlblVar::SCLINSTALLDIR/skt_gen/verb/gen_verb.pl $encoding $outencoding $prayoga $upasarga $word $paxI`;
       print $result;
-      if($GlblVar::VERSION eq "SERVER"){
+      if($GlblVar::LOG eq "true"){
          print TMP1 "running:","calling gen_verb.pl from noun generator";
          print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."upasarga:$upasarga\t"."word:$word\t"."prayoga:$prayoga\n#######################\n\n";
       }
       #      }
-      if($GlblVar::VERSION eq "SERVER"){
+      if($GlblVar::LOG eq "true"){
         close(TMP1);
       }

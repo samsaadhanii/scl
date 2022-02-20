@@ -22,7 +22,7 @@ use utf8;
 require "../paths.pl";
 require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 
- if($GlblVar::VERSION eq "SERVER"){
+ if($GlblVar::LOG eq "true"){
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
     open(TMP1,">>$GlblVar::TFPATH/transliterate.log") || die "Can't open $GlblVar::TFPATH/transliterate.log for writing";
@@ -48,13 +48,12 @@ $trgt = $param{tarlang};
 chomp($src);
 chomp($trgt);
 
- if($GlblVar::VERSION eq "SERVER"){
+ if($GlblVar::LOG eq "true"){
    print TMP1 $ENV{'REMOTE_ADDR'},"\t",$ENV{'HTTP_USER_AGENT'},"\n";
    print TMP1 "$input\tFrom:$src\tTo:$trgt\n###################\n";
    close(TMP1);
  }
 
- #print $query->header;
 
 $cnvrt_prgm = &get_prgm_nm($src,$trgt);
 &my_convert($input,$cnvrt_prgm);

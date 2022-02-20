@@ -27,7 +27,7 @@ package main;
 
 
 #use CGI::Carp qw(fatalsToBrowser);
- if($GlblVar::VERSION eq "SERVER"){
+ if($GlblVar::LOG eq "true"){
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
     }
@@ -57,11 +57,11 @@ print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
       print "<body onload=\"register_keys()\"> <script src=\"/scl/SHMT/wz_tooltip.js\" type=\"text/javascript\"></script>\n";
       my $result = `$GlblVar::SCLINSTALLDIR/skt_gen/waxXiwa/gen_noun.pl $rt $gen $encoding $prawyaya`;
       print $result;
-      if($GlblVar::VERSION eq "SERVER"){
+      if($GlblVar::LOG eq "true"){
          print TMP1 "running:","calling gen_noun.pl from waxXiwa generator";
          print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."rt:$rt\t"."gen:$gen\t"."encoding:$encoding\tprawyaya:$prawyaya#######################\n\n";
       }
       #  }
- if($GlblVar::VERSION eq "SERVER"){
+ if($GlblVar::LOG eq "true"){
    close(TMP1);
  }

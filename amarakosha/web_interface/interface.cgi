@@ -27,7 +27,7 @@ require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 
 #use CGI qw( :standard );
 
-  if($GlblVar::VERSION eq "SERVER"){
+  if($GlblVar::LOG eq "true"){
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
     }
@@ -50,7 +50,7 @@ print "  window.open('/cgi-bin/scl/amarakosha/noun_gen.cgi?encoding='+encod+'&rt
 print "}\n";
 print "</script>\n";
 
-  if($GlblVar::VERSION eq "SERVER"){
+  if($GlblVar::LOG eq "true"){
     print TMP1 $ENV{'REMOTE_ADDR'},"\t",$ENV{'HTTP_USER_AGENT'},"\n";
     print TMP1 "word:$word\tencoding:$encoding\trelation:$relation\tout_encoding:$out_encoding\n###################\n";
     close(TMP1);
