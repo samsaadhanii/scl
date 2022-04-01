@@ -5881,6 +5881,7 @@ BqSA_swrI
 bqsI_swrI
 bqSI_swrI
 BqtikA_swrI
+Bqw_puM
 Bqwa_napuM
 Bqwa_puM
 BqwA_swrI
@@ -35881,6 +35882,7 @@ varRAMga_puM
 varRAMSaka_puM
 varRAMSa_puM
 varRaNa_napuM
+varRa_napuM
 vArRa_napuM
 varRaNiH_swrI
 varRaNi_swrI

@@ -53,6 +53,7 @@ my $rt_XAwu_gaNa;
 my $XAwu;
 my $gaNa;
 my $lifga;
+my $lifga_wx;
 my $link;
 my $upasarga;
 my $prayogaH;
@@ -134,16 +135,19 @@ if($ans ne "") {
     } elsif(($ans =~ /कृदन्त/) && ($ans !~ /अव्य/)) {
              $ans =~ s/{वर्गः ना}//;
              if ($ans =~ /(पुं|नपुं|स्त्री)/){ $lifga = $1;}
-             $link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga','nA','$outencoding','1')\">$rt</a>";
+	     $lifga_wx = &get_lifga_wx($lifga);
+             $link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga_wx','nA','$outencoding','1')\">$rt</a>";
              $color = "skyblue";
     } elsif ($ans =~ /{वर्गः ना}/ ) {
                 $ans =~ s/{वर्गः ना}//;
                if ($ans =~ /(पुं|नपुं|स्त्री)/){ $lifga = $1;}
-                $link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga','nA','$outencoding','1')\">$rt</a>";
+	       $lifga_wx = &get_lifga_wx($lifga);
+               $link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga_wx','nA','$outencoding','1')\">$rt</a>";
                 $color = "skyblue";
       } elsif ($ans =~ /संख्या/)  {
          if ($ans =~ /(पुं|नपुं|स्त्री)/){ $lifga = $1;} else  {$lifga = "अ";}
-         $link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$outencoding','$rt','$lifga','saMKyA','$outencoding','1')\">$rt</a>";
+	 $lifga_wx = &get_lifga_wx($lifga);
+         $link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$outencoding','$rt','$lifga_wx','saMKyA','$outencoding','1')\">$rt</a>";
          $color = "skyblue";
       } elsif ($ans =~ /संख्येय/) {
          if ($ans =~ /(पुं|नपुं|स्त्री)/){ $lifga = $1;} else  {$lifga = "अ";}
@@ -151,7 +155,8 @@ if($ans ne "") {
          $color = "skyblue";
       } elsif ($ans =~ /सर्वनाम/){
          if ($ans =~ /(पुं|नपुं|स्त्री)/){ $lifga = $1;} else  {$lifga = "अ";}
-         $link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga','sarva','$outencoding','1')\">$rt</a>";
+	 $lifga_wx = &get_lifga_wx($lifga);
+         $link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga_wx','sarva','$outencoding','1')\">$rt</a>";
          $color = "skyblue";
      } elsif (($ans =~ /(लट्|लिट्|लुट्|लोट्|लृट्|लङ्|लृङ|लुङ्|लिङ्)/) 
       || ($ans =~ /अव्य.*कृदन्त/)) {
@@ -182,3 +187,16 @@ if($ans ne "") {
 } # endof foreach
 } else { print "No answer found\n";}
 print "</table>\n";
+
+ sub get_lifga_wx{
+	 my($lifga) = @_;
+	 my($lifga_wx) = "";
+
+	 if($lifga eq "नपुं") { $lifga_wx = "napuM";}
+	 elsif($lifga eq "पुं") { $lifga_wx = "puM";}
+	 elsif($lifga eq "स्त्री") { $lifga_wx = "swrI";}
+	 else { $lifga_wx = "a";}
+
+	 $lifga_wx;
+}
+1;
