@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dict SYSTEM "apte.dtd">
+<?xml-stylesheet href="apte.css" type="text/css" ?>
+<dict>
+<lexhead no="1">
+<dentry>ऐः</dentry>
+<prAwipaxikam>ऐ</prAwipaxikam>
+<grammar>पुं*</grammar>
+?<etymology>[आ_इ+विच्]</etymology>
+<sense no="1">शिव</sense>
+<sense n="2">बुलाने</sense>
+<sense n="3">स्मरण करने</sense>
+<sense n="4">आमंत्रण को प्रकट करने वाला विस्मयादि द्योतक चिह्न</sense>
+</lexhead>
+
+<lexhead no="2">
+<dentry>ऐकद्यम्</dentry>
+<prAwipaxikam>ऐकद्यम्</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<sense no="1">तुरन्त</sense>
+</lexhead>
+
+<lexhead no="3">
+<dentry>ऐकध्यम्</dentry>
+<prAwipaxikam>ऐकध्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[एकधा+ध्यमुञ्]</etymology>
+<sense no="1">समय या घटना की ऐकान्तितता, धास्थाने</sense>
+</lexhead>
+
+<lexhead no="4">
+<dentry>ऐकपत्यम्</dentry>
+<prAwipaxikam>ऐकपत्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[एकपति+ष्यञ्]</etymology>
+<sense no="1">परम प्रभुता, सर्वोपरि शक्ति</sense>
+</lexhead>
+
+<lexhead no="5">
+<dentry>ऐकपदिक</dentry>
+<prAwipaxikam>ऐकपदिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐकपदिक</prAwipaxikam>
+<etymology>[एकपद+ठञ्]</etymology>
+<sense no="1">एक पद से संबंध रखने वाला, स्त्री*- की</sense>
+</lexhead>
+
+<lexhead no="6">
+<dentry>ऐकपद्यम्</dentry>
+<prAwipaxikam>ऐकपद्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[एकपद+ष्यञ्]</etymology>
+<sense no="1">शब्दों की एकता</sense>
+<sense n="2">एक शब्द बनना</sense>
+</lexhead>
+
+<lexhead no="7">
+<dentry>ऐकमत्यम्</dentry>
+<prAwipaxikam>ऐकमत्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[एकमत+ष्यञ्]</etymology>
+<sense no="1">एकमतता, सहमति<citation>रघु* १८/३६</citation></sense>
+</lexhead>
+
+<lexhead no="8">
+<dentry>ऐकागारिकः</dentry>
+<prAwipaxikam>ऐकागारिक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[एकागार+ठक्]</etymology>
+<sense no="1">चोर, केनचित्तु हस्तवतैकागारिकेण<citation>दश* ६७</citation><citation>शि* १९/१११</citation></sense>
+<sense n="2">एक घर का मालिक</sense>
+</lexhead>
+
+<lexhead no="9">
+<dentry>ऐकाग्र्यम्</dentry>
+<prAwipaxikam>ऐकाग्र्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[एकाग्र+ष्यञ्]</etymology>
+<sense no="1">एक ही पदार्थ पर जुट जाना, एकाग्रता</sense>
+</lexhead>
+
+<lexhead no="10">
+<dentry>ऐकाङ्गः</dentry>
+<prAwipaxikam>ऐकाङ्ग</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[ऐकाङ्ग+अण]</etymology>
+<sense no="1">शरीर रक्षक दल का एक सिपाही<citation>राजत* ५/२४९</citation></sense>
+</lexhead>
+
+<lexhead no="11">
+<dentry>ऐकात्म्यम्</dentry>
+<prAwipaxikam>ऐकात्म्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[एकात्मन्+ष्यञ्]</etymology>
+<sense no="1">एकता, आत्मा की एकता</sense>
+<sense n="2">समरूपता, समता</sense>
+<sense n="3">परमात्मा के साथ एकता या तादात्म्य</sense>
+</lexhead>
+
+<lexhead no="12">
+<dentry>ऐकाधिकरण्यम्</dentry>
+<prAwipaxikam>ऐकाधिकरण्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[एकाधिकरण+ष्यञ्]</etymology>
+<sense no="1">संबंध की एकता</sense>
+<sense n="2">एक ही विषय में व्याप्तिसह विस्तृति, साध्येन हेतोरैकाधिकरण्यं व्याप्तिरुच्यते<citation>भाषा* ६९तर्क* में</citation></sense>
+</lexhead>
+
+<lexhead no="13">
+<dentry>ऐकान्तिक</dentry>
+<prAwipaxikam>ऐकान्तिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐकान्तिक</prAwipaxikam>
+<sense no="1">पूर्ण, समग्र, पूरा, स्त्री* - ऐकान्तिकी</sense>
+<sense n="2">विश्वस्त, निश्चित</sense>
+<sense n="3">अनन्य</sense>
+</lexhead>
+
+<lexhead no="14">
+<dentry>ऐकान्यिकः</dentry>
+<prAwipaxikam>ऐकान्यिक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[एकान्य+ठक्]</etymology>
+<sense no="1">वह शिष्य जो वेद का सस्वर पाठ करने में एक अशुद्धि करे</sense>
+</lexhead>
+
+<lexhead no="15">
+<dentry>ऐकार्थ्यम्</dentry>
+<prAwipaxikam>ऐकार्थ्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[एकार्थ+ष्यञ्]</etymology>
+<sense no="1">उद्देश्य या प्रयोजन की समानता</sense>
+<sense n="2">अर्थों की संगति</sense>
+</lexhead>
+
+<lexhead no="16">
+<dentry>ऐकाहिक</dentry>
+<prAwipaxikam>ऐकाहिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐकाहिक</prAwipaxikam>
+<etymology>[एकाह+ठक्]</etymology>
+<sense no="1">आह्निक, स्त्री*-ऐकाहिकी</sense>
+<sense n="2">एक दिन का, उसी दिन का, दैनिक</sense>
+</lexhead>
+
+<lexhead no="17">
+<dentry>ऐक्यम्</dentry>
+<prAwipaxikam>ऐक्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[एक+ष्यञ्]</etymology>
+<sense no="1">एकपना, एकता</sense>
+<sense n="2">एकमतता</sense>
+<sense n="3">समरूपता, समता</sense>
+<sense n="4">विशेषकर मानव आत्मा की समरूपता, या विश्व की परमात्मा से एकरूपता</sense>
+</lexhead>
+
+<lexhead no="18">
+<dentry>ऐक्षव</dentry>
+<prAwipaxikam>ऐक्षव</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐक्षव</prAwipaxikam>
+<etymology>[इक्षु+अण्]</etymology>
+<sense no="1">गन्ने से बना या उत्पन्न, स्त्री* - ऐक्षवी</sense>
+</lexhead>
+
+<lexhead no="19">
+<dentry>ऐक्षवम्</dentry>
+<prAwipaxikam>ऐक्षव</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[इक्षु+अण्]</etymology>
+<sense no="1">चीनी</sense>
+<sense n="2">मादक शराब</sense>
+</lexhead>
+
+<lexhead no="20">
+<dentry>ऐक्षव्य</dentry>
+<prAwipaxikam>ऐक्षव्य</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐक्षव्य</prAwipaxikam>
+<etymology>[इक्षु+ण्यत्]</etymology>
+<sense no="1">गन्ने से बना पदार्थ</sense>
+</lexhead>
+
+<lexhead no="21">
+<dentry>ऐक्षुक</dentry>
+<prAwipaxikam>ऐक्षुक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐक्षुक</prAwipaxikam>
+<etymology>[इक्षु+ठञ्]</etymology>
+<sense no="1">गन्ने के लिए उपयुक्त</sense>
+<sense n="2">गन्ने वाला</sense>
+</lexhead>
+
+<lexhead no="22">
+<dentry>ऐक्षुकः</dentry>
+<prAwipaxikam>ऐक्षुक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इक्षु+ठञ्]</etymology>
+<sense no="1">गन्ने ले जाने वाला</sense>
+</lexhead>
+
+<lexhead no="23">
+<dentry>ऐक्षुभारिकः</dentry>
+<prAwipaxikam>ऐक्षुभारिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐक्षुभारिक</prAwipaxikam>
+<etymology>[इक्षुभार+ठक्]</etymology>
+<sense no="1">गन्ने का बोझा ढोने वाला</sense>
+</lexhead>
+
+<lexhead no="24">
+<dentry>ऐक्ष्वाक</dentry>
+<prAwipaxikam>ऐक्ष्वाक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐक्ष्वाक</prAwipaxikam>
+<etymology>[इक्ष्वाकु+अ]</etymology>
+<sense no="1">इक्ष्वाकु से संबंध रखने वाला</sense>
+</lexhead>
+
+<lexhead no="25">
+<dentry>ऐक्ष्वाकः</dentry>
+<prAwipaxikam>ऐक्ष्वाक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इक्ष्वाकु+अ]</etymology>
+<sense no="1">इक्ष्वाकु की सन्तान, सत्यमैक्ष्वाकः खल्वसि<citation>उत्तर* ५</citation></sense>
+<sense n="2">इक्ष्वाकु वंश के लोगों द्वारा शासित देश</sense>
+</lexhead>
+
+<lexhead no="26">
+<dentry>ऐक्ष्वाकुः</dentry>
+<prAwipaxikam>ऐक्ष्वाकु</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इक्ष्वाकु+अ]</etymology>
+<sense no="1">इक्ष्वाकु की सन्तान</sense>
+<sense n="2">इक्ष्वाकु वंश के लोगों द्वारा शासित देश</sense>
+</lexhead>
+
+<lexhead no="27">
+<dentry>ऐङ्गुद</dentry>
+<prAwipaxikam>ऐङ्गुद</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐङ्गुद</prAwipaxikam>
+<etymology>[इङ्गुदी+अण्]</etymology>
+<is_a_part>इङ्गुदी</is_a_part>
+<kind_of>वृक्षफलम्</kind_of>
+<jAwi>अचलनिर्जीववस्तु</jAwi>
+<upAXi>प्राकृतिकखाद्यम्</upAXi>
+<sense no="1">इङ्गुदी वृक्ष से उत्पन्न, स्त्री* - ऐड़्गुदी</sense>
+</lexhead>
+
+<lexhead no="28">
+<dentry>ऐङ्गुदम्</dentry>
+<prAwipaxikam>ऐङ्गुद</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[इङ्गुदी+अण्]</etymology>
+<is_a_part>इङ्गुदी</is_a_part>
+<kind_of>वृक्षफलम्</kind_of>
+<jAwi>अचलनिर्जीववस्तु</jAwi>
+<upAXi>प्राकृतिकखाद्यम्</upAXi>
+<sense no="1">इङ्गुदी वृक्ष का फल</sense>
+</lexhead>
+
+<lexhead no="29">
+<dentry>ऐच्छिक</dentry>
+<prAwipaxikam>ऐच्छिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐच्छिक</prAwipaxikam>
+<sense no="1">इच्छा पर निर्भर, इच्छापरक, स्त्री* - ऐच्छिकी</sense>
+<sense n="2">मनमाना</sense>
+</lexhead>
+
+<lexhead no="30">
+<dentry>ऐडक</dentry>
+<prAwipaxikam>ऐडक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐडक</prAwipaxikam>
+<sense no="1">भेड़ का, स्त्री* -ऐडकी</sense>
+</lexhead>
+
+<lexhead no="31">
+<dentry>ऐडविडः</dentry>
+<prAwipaxikam>ऐडविड</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इडविडा+अण्, पक्षे डलयोरभेदः]</etymology>
+<sense no="1">कुबेर</sense>
+</lexhead>
+
+<lexhead no="32">
+<dentry>ऐडलविडलः</dentry>
+<prAwipaxikam>ऐडलविडल</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इलविला+अण्]</etymology>
+<sense no="1">कुबेर</sense>
+</lexhead>
+
+<lexhead no="33">
+<dentry>ऐण</dentry>
+<prAwipaxikam>ऐण</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐण</prAwipaxikam>
+<is_a_part>हरिणः</is_a_part>
+<upAXi>अवयवः</upAXi>
+<sense no="1">बारहसिंघा हरिण की<citation>याज्ञ* १/२५९</citation>स्त्री* - ऐणी, त्वचा, ऊन आदि</sense>
+</lexhead>
+
+<lexhead no="34">
+<dentry>ऐणेय</dentry>
+<prAwipaxikam>ऐणेय</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐणेय</prAwipaxikam>
+<etymology>[एणी+ढक्]</etymology>
+<is_a_part>हरिणः</is_a_part>
+<upAXi>अवयवः</upAXi>
+<sense no="1">काली हरिणी या तत्संबंधी किसी पदार्थ से उत्पन्न, स्त्री* - ऐणेयी</sense>
+</lexhead>
+
+<lexhead no="35">
+<dentry>ऐणेयः</dentry>
+<prAwipaxikam>ऐणेय</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[एणी+ढक्]</etymology>
+<is_a_part>हरिणः</is_a_part>
+<upAXi>अवयवः</upAXi>
+<sense no="1">काला हरिण</sense>
+</lexhead>
+
+<lexhead no="36">
+<dentry>ऐणेयम्</dentry>
+<prAwipaxikam>ऐणेय</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[एणी+ढक्]</etymology>
+<is_a_part>हरिणः</is_a_part>
+<upAXi>अवयवः</upAXi>
+<sense no="1">रतिबंध, रति क्रिया का एक प्रकार</sense>
+</lexhead>
+
+<lexhead no="37">
+<dentry>ऐतदात्म्यम्</dentry>
+<prAwipaxikam>ऐतदात्म्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[एतदात्मन्+ष्यञ्]</etymology>
+<sense no="1">इस प्र्अकार के गुण या विशिष्टता को रखने की अवस्था</sense>
+</lexhead>
+
+<lexhead no="38">
+<dentry>ऐतरेयिन्</dentry>
+<prAwipaxikam>ऐतरेयिन्</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[ऐतरेय+इनि]</etymology>
+<sense no="1">ऐतरेय ब्राह्मण का अध्येता</sense>
+</lexhead>
+
+<lexhead no="39">
+<dentry>ऐतिहासिक</dentry>
+<prAwipaxikam>ऐतिहासिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐतिहासिक</prAwipaxikam>
+<etymology>[इतिहास+ठक्]</etymology>
+<sense no="1">परम्परा प्राप्त, स्त्री* - ऐतिहासिकी</sense>
+<sense n="2">इतिहास संबंधी</sense>
+</lexhead>
+
+<lexhead no="40">
+<dentry>ऐतिहासिकः</dentry>
+<prAwipaxikam>ऐतिहासिक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इतिहास+ठक्]</etymology>
+<sense no="1">इतिहासकार</sense>
+<sense n="2">वह व्यक्ति जो पौराणिक उपाख्यानों को जानता है या उनका अध्ययन करता है</sense>
+</lexhead>
+
+<lexhead no="41">
+<dentry>ऐतिह्यम्</dentry>
+<prAwipaxikam>ऐतिह्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[इतिह+ष्यञ्]</etymology>
+<jAwi>पौरुषेयम्</jAwi>
+<sense no="1">परम्परा प्राप्त शिक्षा, उपाख्यानात्मक वर्णन, ऐतिह्यमनुमानं च प्रत्यक्षमपि चागमम्<citation>रामा*</citation>किलेत्यैतिह्ये, पौराणिक ’ऐतिह्य’ को प्रत्यक्ष, अनुमान आदि के साथ प्रमाण का एक भेद मानते हैं, दे* ’अनुभव’</sense>
+</lexhead>
+
+<lexhead no="42">
+<dentry>ऐदम्पर्यम्</dentry>
+<prAwipaxikam>ऐदम्पर्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[इदम्पर+ञ्य]</etymology>
+<sense no="1">आशय, क्षेत्र, संबंध, इदं त्वैदम्पर्यम्<citation>मा* २/७</citation>शा* इदंपर होने की अवस्था अर्थात् अर्थ, आशय या क्षेत्र रखना</sense>
+</lexhead>
+
+<lexhead no="43">
+<dentry>ऐनसम्</dentry>
+<prAwipaxikam>ऐनस</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[एनस्+अण्]</etymology>
+<sense no="1">पाप</sense>
+</lexhead>
+
+<lexhead no="44">
+<dentry>ऐन्दव</dentry>
+<prAwipaxikam>ऐन्दव</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐन्दव</prAwipaxikam>
+<etymology>[इन्दु+अण्]</etymology>
+<sense no="1">चन्द्रमा संबंधी, स्त्री* - ऐन्दवी</sense>
+</lexhead>
+
+<lexhead no="45">
+<dentry>ऐन्दवः</dentry>
+<prAwipaxikam>ऐन्दव</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इन्दु+अण्]</etymology>
+<sense no="1">चांद्रमास</sense>
+</lexhead>
+
+<lexhead no="46">
+<dentry>ऐन्द्र</dentry>
+<prAwipaxikam>ऐन्द्र</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐन्द्र</prAwipaxikam>
+<etymology>[इन्द्र+अण्]</etymology>
+<sense no="1">इन्द्र संबंधी या इन्द्र के लिए पवित्र<citation>रघु* २/५०</citation>स्त्री* - ऐन्द्री</sense>
+</lexhead>
+
+<lexhead no="47">
+<dentry>ऐन्द्रः</dentry>
+<prAwipaxikam>ऐन्द्र</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इन्द्र+अण्]</etymology>
+<sense no="1">अर्जुन और बाली</sense>
+</lexhead>
+
+<lexhead no="48">
+<dentry>ऐन्द्री</dentry>
+<prAwipaxikam>ऐन्द्री</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[इन्द्र+अण्+ङीप्]</etymology>
+<sense no="1">ऋग्वेद का मन्त्र जिसमें इन्द्र को संबोधित किया गया है, इत्यादिका काचिदैन्द्री समाम्नाता<citation>जै* न्या*</citation></sense>
+<sense n="2">पूर्व दिशा<citation>कि* ९/१८इस दिशा का अधिष्ठातृदेवता इन्द्र है</citation></sense>
+<sense n="3">मुसीबत, संकट</sense>
+<sense n="4">दुर्गा की उपाधि</sense>
+<sense n="5">छोटी इलायची</sense>
+</lexhead>
+
+<lexhead no="49">
+<dentry>ऐन्द्रजालिक</dentry>
+<prAwipaxikam>ऐन्द्रजालिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐन्द्रजालिक</prAwipaxikam>
+<etymology>[इन्द्रजाल+ठक्]</etymology>
+<sense no="1">धोखे में डालने वाला, स्त्री* - ऐन्द्रजालिकी</sense>
+<sense n="2">जादु-टोना विषयक</sense>
+<sense n="3">मायावी, भ्रान्ति जनक</sense>
+<sense n="4">जादु-टोने का जानकार</sense>
+</lexhead>
+
+<lexhead no="50">
+<dentry>ऐन्द्रजालिकः</dentry>
+<prAwipaxikam>ऐन्द्रजालिक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इन्द्रजाल+ठक्]</etymology>
+<sense no="1">बाजीगर<citation>शि* १५/२५</citation></sense>
+</lexhead>
+
+<lexhead no="51">
+<dentry>ऐन्द्रलुप्तिक</dentry>
+<prAwipaxikam>ऐन्द्रलुप्तिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐन्द्रलुप्तिक</prAwipaxikam>
+<etymology>[इन्द्रलुप्त+ठक्]</etymology>
+<sense no="1">गंजरोग से पीड़ित, गंजा, स्त्री* - ऐन्द्रलुप्तिकी</sense>
+</lexhead>
+
+<lexhead no="52">
+<dentry>ऐन्द्रशिरः</dentry>
+<prAwipaxikam>ऐन्द्रशिर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इन्द्रशिर+अण्]</etymology>
+<sense no="1">हाथियों की एक जाति</sense>
+</lexhead>
+
+<lexhead no="53">
+<dentry>ऐन्द्रिः</dentry>
+<prAwipaxikam>ऐन्द्रि</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>इन्द्रस्यापत्यम्</vigraha_vAkya>[इन्द्र+इञ्]</etymology>
+<sense no="1">जयन्त, अर्जुन, बानरराज वालि</sense>
+<sense n="2">कौवाऐन्द्रिः किल नखैस्तस्या विददार स्तनौ द्विजः<citation>रघु* १२/२२</citation></sense>
+</lexhead>
+
+<lexhead no="54">
+<dentry>ऐन्द्रिय</dentry>
+<prAwipaxikam>ऐन्द्रिय</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐन्द्रिय</prAwipaxikam>
+<etymology>[इन्द्रिय+अण् ]</etymology>
+<sense no="1">इन्द्रियों से संबंध रखने वाला, विषयी</sense>
+<sense n="2">विद्यमान, ज्ञानेन्द्रियों के लिए प्रत्यक्ष इन्द्रियगोचर</sense>
+</lexhead>
+
+<lexhead no="55">
+<dentry>ऐन्द्रियक</dentry>
+<prAwipaxikam>ऐन्द्रियक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐन्द्रियक</prAwipaxikam>
+<etymology>[इन्द्रिय+वुञ् ]</etymology>
+<kind_of>ज्ञानम्</kind_of>
+<jAwi>द्रव्यम्</jAwi>
+<sense no="1">इन्द्रियों से संबंध रखने वाला, विषयी</sense>
+<sense n="2">विद्यमान, ज्ञानेन्द्रियों के लिए प्रत्यक्ष इन्द्रियगोचर</sense>
+</lexhead>
+
+<lexhead no="56">
+<dentry>ऐन्द्रियम्</dentry>
+<prAwipaxikam>ऐन्द्रिय</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[इन्द्रिय+अण् ]</etymology>
+<sense no="1">ज्ञानेन्द्रियों का विषय</sense>
+</lexhead>
+
+<lexhead no="57">
+<dentry>ऐंधन</dentry>
+<prAwipaxikam>ऐंधन</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐंधन</prAwipaxikam>
+<etymology>[इन्धन+अण्]</etymology>
+<sense no="1">जिसमें इन्धन विद्यमान हो, स्त्री* - ऐंधनी</sense>
+</lexhead>
+
+<lexhead no="58">
+<dentry>ऐंधनः</dentry>
+<prAwipaxikam>ऐंधन</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इन्धन+अण्]</etymology>
+<sense no="1">सूर्य</sense>
+</lexhead>
+
+<lexhead no="59">
+<dentry>ऐयत्यम्</dentry>
+<prAwipaxikam>ऐयत्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[इयत्+ष्यञ्]</etymology>
+<sense no="1">परिमाण, संख्या</sense>
+</lexhead>
+
+<lexhead no="60">
+<dentry>ऐरावणः</dentry>
+<prAwipaxikam>ऐरावण</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>इरा आपः ताभिः वनति शब्दायते - इरा-वन-अच् इरावणः - ततः अन्</vigraha_vAkya>[इरा+वन+अच्+अन्]</etymology>
+<kind_of>हस्तिः</kind_of>
+<jAwi>अलौकिकप्राणी</jAwi>
+<sense no="1">इन्द्र का हाथी</sense>
+</lexhead>
+
+<lexhead no="61">
+<dentry>ऐरावतः</dentry>
+<prAwipaxikam>ऐरावत</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>इरा आपः तद्वान् इरावान् समुद्रः, तस्मादुत्पन्नः अण्</vigraha_vAkya>[इरा+मतुप्+अण्]</etymology>
+<kind_of>वृक्षः</kind_of>
+<jAwi>वृक्षः</jAwi>
+<is_a_part>पूर्वदिक्</is_a_part>
+<kind_of>हस्तिः</kind_of>
+<jAwi>अलौकिकप्राणी</jAwi>
+<kind_of>हस्तिः</kind_of>
+<jAwi>अलौकिकप्राणी</jAwi>
+<sense no="1">इन्द्र का हाथी</sense>
+<sense n="2">श्रेष्ठ हाथी</sense>
+<sense n="3">पाताल निवासी नागजाति का एक मुखिया</sense>
+<sense n="4">पूर्व दिशा का दिग्गज</sense>
+<sense n="5">एक प्रकार का इन्द्रधनुष</sense>
+</lexhead>
+
+<lexhead no="62">
+<dentry>ऐरावती</dentry>
+<prAwipaxikam>ऐरावती</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology><vigraha_vAkya>इरा आपः तद्वान् इरावान् समुद्रः, तस्मादुत्पन्नः अण्</vigraha_vAkya>[इरा+मतुप्+अण्]</etymology>
+<kind_of>प्रभा</kind_of>
+<jAwi>तेजः</jAwi>
+<sense no="1">इन्द्र की हथिनी</sense>
+<sense n="2">बिजली</sense>
+<sense n="3">पंजाब में बहने वाली नदी, राप्तीइरावती</sense>
+</lexhead>
+
+<lexhead no="63">
+<dentry>ऐरेयम्</dentry>
+<prAwipaxikam>ऐरेय</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology><vigraha_vAkya>इरायाम् अन्ने भवम्</vigraha_vAkya>[इरा+ढक्]</etymology>
+<sense no="1">मदिरा, जो भोज्य पदार्थों से तैयार की जाय</sense>
+</lexhead>
+
+<lexhead no="64">
+<dentry>ऐलः</dentry>
+<prAwipaxikam>ऐल</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>इलाया अपत्यम् </vigraha_vAkya>[इला+अण्]</etymology>
+<sense no="1">पूरूरवा, इला और बुध का पुत्र</sense>
+<sense n="2">मंगल ग्रह</sense>
+</lexhead>
+
+<lexhead no="65">
+<dentry>ऐलबालुकः</dentry>
+<prAwipaxikam>ऐलबालुक</prAwipaxikam>
+<grammar>पुं*</grammar>
+?<etymology>[एलवालुक+अण्]</etymology>
+<sense no="1">एक सुगंध-द्रव्य</sense>
+</lexhead>
+
+<lexhead no="66">
+<dentry>ऐलविलः</dentry>
+<prAwipaxikam>ऐलविल</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इलविला+अण्]</etymology>
+<kind_of>देवः</kind_of>
+<jAwi>देवयोनिः</jAwi>
+<sense no="1">कुबेर<citation>शि* १३/१८</citation></sense>
+<sense n="2">मंगल ग्रह</sense>
+</lexhead>
+
+<lexhead no="67">
+<dentry>ऐलेयः</dentry>
+<prAwipaxikam>ऐलेय</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इला+ढक्]</etymology>
+<kind_of>सूक्ष्मशाखामूलयुक्तवृक्षः</kind_of>
+<jAwi>वृक्षः</jAwi>
+<sense no="1">एक प्रकार का गंध-द्रव्य</sense>
+<sense n="2">मंगल ग्रह</sense>
+</lexhead>
+
+<lexhead no="68">
+<dentry>ऐश</dentry>
+<prAwipaxikam>ऐश</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐश</prAwipaxikam>
+<etymology>[ईश+अण्]</etymology>
+<sense no="1">शिव से संबंध रखने वाला<citation>रघु* २/७५</citation>स्त्री* - ऐशी</sense>
+<sense n="2">सर्वोपरि, राजकीय</sense>
+</lexhead>
+
+<lexhead no="69">
+<dentry>ऐशान</dentry>
+<prAwipaxikam>ऐशान</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐशान</prAwipaxikam>
+<etymology>[ईशान+अण्]</etymology>
+<sense no="1">शिव से संबंध रखने वाला</sense>
+</lexhead>
+
+<lexhead no="70">
+<dentry>ऐशानी</dentry>
+<prAwipaxikam>ऐशानी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[ईशान+अण्+ङीप्]</etymology>
+<sense no="1">उत्तरपूर्वी दिशा</sense>
+<sense n="2">दुर्गादेवी</sense>
+</lexhead>
+
+<lexhead no="71">
+<dentry>ऐश्वर</dentry>
+<prAwipaxikam>ऐश्वर</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐश्वर</prAwipaxikam>
+<etymology>[ईश्वर+अण्]</etymology>
+<sense no="1">शानदार, स्त्री - ऐश्वरी०</sense>
+<sense n="2">शक्तिशाली, ताकतवर</sense>
+<sense n="3">शिव से संबंध रखने वाला<citation>र्अघु* ११/७६</citation></sense>
+<sense n="4">सर्वोपरि, राजकीय</sense>
+<sense n="5">दिव्य</sense>
+</lexhead>
+
+<lexhead no="72">
+<dentry>ऐश्वरी</dentry>
+<prAwipaxikam>ऐश्वरी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[ईश्वर+अण्]</etymology>
+<sense no="1">दुर्गादेवी</sense>
+</lexhead>
+
+<lexhead no="73">
+<dentry>ऐश्वर्यम्</dentry>
+<prAwipaxikam>ऐश्वर्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[ईश्वर+ष्यञ्]</etymology>
+<kind_of>सिद्धिः</kind_of>
+<jAwi>तेजः</jAwi>
+<sense no="1">सर्वोपरिता, प्रभुता, एकैश्वर्यंस्थितोऽपि<citation>मालवि* १/१</citation></sense>
+<sense n="2">ताकत, शक्ति, आधिपत्य</sense>
+<sense n="3">उपनिवेश</sense>
+<sense n="4">विभव, धन, बड़प्पन</sense>
+<sense n="5">सर्वशक्तिमत्ता तथा सर्वव्यापकता की दिव्य शक्तियाँ</sense>
+</lexhead>
+
+<lexhead no="74">
+<dentry>ऐषमस्</dentry>
+<prAwipaxikam>ऐषमस्</prAwipaxikam>
+<grammar>अव्य*</grammar>
+?<etymology>[अस्मिन् वत्सरे इति नि* साधुः]</etymology>
+<sense no="1">इस वर्ष में, चालू वर्ष में</sense>
+</lexhead>
+
+<lexhead no="75">
+<dentry>ऐषमस्तन</dentry>
+<prAwipaxikam>ऐषमस्तन</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐषमस्तन</prAwipaxikam>
+<etymology>[ऐषमस्+तनप्/ऐषमस्+त्यप्]</etymology>
+<sense no="1">चालू वर्ष से संबंध रखने वाला</sense>
+</lexhead>
+
+<lexhead no="76">
+<dentry>ऐषमस्त्य</dentry>
+<prAwipaxikam>ऐषमस्त्य</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐषमस्त्य</prAwipaxikam>
+<etymology>[ऐषमस्+तनप्/ऐषमस्+त्यप्]</etymology>
+<sense no="1">चालू वर्ष से संबंध रखने वाला</sense>
+</lexhead>
+
+<lexhead no="77">
+<dentry>ऐष्टिक</dentry>
+<prAwipaxikam>ऐष्टिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐष्टिक</prAwipaxikam>
+<etymology>[इष्टि+ठक्]</etymology>
+<sense no="1">यज्ञसम्बन्धी, संस्कार विषयक, स्त्री - ऐष्टकी</sense>
+<segmenthd>
+<dentry>ऐष्टिकपूर्तिक</dentry>
+<prAwipaxikam>ऐष्टिकपूर्तिक</prAwipaxikam>
+<seg>ऐष्टिक-पूर्तिक</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐष्टिकपूर्तिक</prAwipaxikam>
+<sense no="1">इष्टापूर्त से संबंध रखने वालायज्ञ अथवा अन्य धार्मिक कृत्य</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="78">
+<dentry>ऐहलौकिक</dentry>
+<prAwipaxikam>ऐहलौकिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐहलौकिक</prAwipaxikam>
+<etymology>[इहलोक+ठञ्]</etymology>
+<sense no="1">इस संसार से संबंध रखने वाला, या इस लोक में घटित होने वाला, ऐहिक, दुनियावी, स्त्री - ऐहलौकिकी, विप* पारलौकिक</sense>
+</lexhead>
+
+<lexhead no="79">
+<dentry>ऐहिक</dentry>
+<prAwipaxikam>ऐहिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ऐहिक</prAwipaxikam>
+<sense no="1">इस लोक या स्थान से संबंध रखने वाला, सांसांरिक, दुनियावी, लौकिक, स्त्री - ऐहिकी</sense>
+<sense n="2">स्थानीय</sense>
+</lexhead>
+
+<lexhead no="80">
+<dentry>ऐहिकम्</dentry>
+<prAwipaxikam>ऐहिक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<sense no="0">व्यवसाय, इस संसार का</sense>
+</lexhead>
+
+</dict>

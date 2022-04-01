@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dict SYSTEM "apte.dtd">
+<?xml-stylesheet href="apte.css" type="text/css" ?>
+<dict>
+<lexhead no="1">
+<dentry>ठः</dentry>
+<prAwipaxikam>ठ</prAwipaxikam>
+<grammar>पुं*</grammar>
+<sense no="1">अनुकरणात्मक ध्वनिः, रामाभिषेके मदविह्वलायाः कक्षाच्च्युतो हेमघटस्तरुण्याः, सोपानमार्गे प्रकरोति शब्दं ठठं ठठंठं ठठठं ठठंठः<citation>सुभा*</citation>धातु के बने बर्तन के सीढ़ियों में से गिरते हुए ध्वनि जैसी</sense>
+</lexhead>
+
+<lexhead no="2">
+<dentry>ठक्कुरः</dentry>
+<prAwipaxikam>ठक्कुर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<sense no="1">मूर्ति, देवमूर्ति</sense>
+<sense n="2">पूज्य व्यक्ति के नाम के साथ लगने वाली सम्मानसूचक उपाधि Fउदा* गोविन्द ठक्कुर काव्यप्रदीप के रचयिता</sense>
+</lexhead>
+
+<lexhead no="3">
+<dentry>ठालिनी</dentry>
+<prAwipaxikam>ठालिनी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<sense no="0">तगड़ी, करधनी</sense>
+</lexhead>
+
+</dict>

@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dict SYSTEM "apte.dtd">
+<?xml-stylesheet href="apte.css" type="text/css" ?>
+<dict>
+<lexhead no="1">
+<dentry>ष</dentry>
+<prAwipaxikam>ष</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ष</prAwipaxikam>
+<sense no="1">धातु के आदि में स के स्थान पे लिखा जाने वाला ष जैसे- षिध् गत्याम्, बहुत सी धातुएँ जो ‘स्’ से आरम्भ होती हैं, धातु पाठ में ‘ष्’ पूर्वक लिखी जाती है जिससे कि यह प्रकट हो सके कि कुछ उपसर्गों के पश्वात् ‘स्’ बदल कर ‘ष्’ हो जाता है। इस प्रकार की धातुएँ ‘स्’ के अन्तर्गत ही अपने उचित स्थानपर मिलेंगी</sense>
+<sense n="2">सर्वोत्तम, सर्वोत्कृष्ट</sense>
+</lexhead>
+
+<lexhead no="2">
+<dentry>षः</dentry>
+<prAwipaxikam>ष</prAwipaxikam>
+<grammar>पुं*</grammar>
+<sense no="1">हानि, विनाश</sense>
+<sense n="2">अन्त</sense>
+<sense n="3">शेष, अवशिष्ट</sense>
+<sense n="4">मोक्ष</sense>
+</lexhead>
+
+<lexhead no="3">
+<dentry>षट्क</dentry>
+<prAwipaxikam>षट्क</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">षट्क</prAwipaxikam>
+<etymology><vigraha_vAkya>षडभिः क्रीतम्</vigraha_vAkya>[षष्+कन्]</etymology>
+<sense no="1">छः गुना</sense>
+</lexhead>
+
+<lexhead no="4">
+<dentry>षट्कम्</dentry>
+<prAwipaxikam>षट्क</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<sense no="1">छः की समष्टि, मासषट्क, उत्तर षट्क आदि</sense>
+</lexhead>
+
+<lexhead no="5">
+<dentry>षड्धा</dentry>
+<prAwipaxikam>षड्धा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<sense no="1">छः प्रकार से</sense>
+</lexhead>
+
+<lexhead no="6">
+<dentry>षण्डः</dentry>
+<prAwipaxikam>षण्ड</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[सन्+ड, पृषो* षत्वम्]</etymology>
+<kind_of>वृषभः</kind_of>
+<jAwi>स्तनपायी</jAwi>
+<kind_of>मनुष्यः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<kind_of>समूहः</kind_of>
+<jAwi>जलीयसस्यः</jAwi>
+<upAXi>समूहः</upAXi>
+<sense no="1">साँड़</sense>
+<sense n="2">नपुंसक भिन्न-भिन्न लेखकों ने नपुंसकों के १४ से २० तक अनेक भेद लिखे हैं</sense>
+<sense n="3">समूह, समुच्चय, संग्रह, ढेर, राशि</sense>
+<sense n="4">समूह, समुच्चय, संग्रह, ढेर, राशिकलरवमुपगीते षट्पदौधेन धत्तः कुमुदकमलषण्डे तुल्यरूपामवस्थ्राम्<citation>शि* ११/१५तु* ‘खंड’ भी</citation></sense>
+</lexhead>
+
+<lexhead no="7">
+<dentry>षण्डकः</dentry>
+<prAwipaxikam>षण्डक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[षण्ड+कन्]</etymology>
+<sense no="1">नपुंसक, हिजड़ा</sense>
+</lexhead>
+
+<lexhead no="8">
+<dentry>षण्डाली</dentry>
+<prAwipaxikam>षण्डाली</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[षण्ड+अल्+अच्+ङीष्]</etymology>
+<sense no="1">तालाब, जोहड़</sense>
+<sense n="2">व्यभिचारिणी या असती स्त्री</sense>
+</lexhead>
+
+<lexhead no="9">
+<dentry>षण्ढः</dentry>
+<prAwipaxikam>षण्ढ</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[सन्+ढ, पृषो* षत्वम्]</etymology>
+<sense no="1">नपुंसक, हिजड़ा<citation>याज्ञ* १/२१५</citation></sense>
+<sense n="2">नपुंसकलिंगनिवेशः शिविरं षण्ढे<citation>अमर*</citation></sense>
+<segmenthd>
+<dentry>षण्ढतिलः</dentry>
+<prAwipaxikam>षण्ढतिल</prAwipaxikam>
+<seg>षण्ढः-तिलः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">बंध्य तिल, वह तिल जो उग न सके</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="10">
+<dentry>षष्</dentry>
+<prAwipaxikam>षष्</prAwipaxikam>
+<grammar>संख्या* वि*</grammar>
+<etymology>[सो+क्विप्, पृषो*]</etymology>
+<sense no="1">छः<citation>मनु* १/१६</citation>८/४०३ केवल ब* व* में प्रयुक्त कर्तृ* षट्, संबं* षण्णाम्</sense>
+<segmenthd>
+<dentry>षडक्षीणः</dentry>
+<prAwipaxikam>षडक्षीण</prAwipaxikam>
+<seg>षष्-अक्षीणः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">मछली</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षडङ्गम्</dentry>
+<prAwipaxikam>षडङ्ग</prAwipaxikam>
+<seg>षष्-अङ्गम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">समष्टि रूप से ग्रहण किये गये शरीर के छः भागजंघे बाहू शिरोमध्यं षडङ्गमिदमुच्यते</sense>
+<sense no="2">वेद के छः अंग सहायक भागशिक्षा कल्पो व्याकरणं निरुक्तं छन्दसां चितिः। ज्योतिषामयनं चैव षडङ्गो वेद उच्यतेदे* वेदांग भी</sense>
+<sense no="3">छः शुभ वस्तुएँ अर्थात् गोमाता से प्राप्त छः पदार्थगोमूत्रं गोमयं क्षीरं सर्पिदर्घि च रोचना। षडंअगमेतन्मांगल्यं पठितं सर्वदा गवाम्</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षडङ्घ्रिः</dentry>
+<prAwipaxikam>षडङ्घ्रि</prAwipaxikam>
+<seg>षष्-अङ्घ्रिः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">भौंरा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षडाधिक</dentry>
+<prAwipaxikam>षडाधिक</prAwipaxikam>
+<seg>षष्-अधिक</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">षडाधिक</prAwipaxikam>
+<sense no="1">वह जिसमें छः अधिक हों<citation>मा* ५/१</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>षडभिज्ञः</dentry>
+<prAwipaxikam>षडभिज्ञ</prAwipaxikam>
+<seg>षष्-अभिज्ञः</seg>
+<grammar>पुं*</grammar>
+<jAwi>ऋषिः</jAwi>
+<sense no="1">देवरूप बौद्ध महात्मा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षडशीत</dentry>
+<prAwipaxikam>षडशीत</prAwipaxikam>
+<seg>षष्-अशीत</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">षडशीत</prAwipaxikam>
+<sense no="1">छ्यासीवाँ</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षडशीतिः</dentry>
+<prAwipaxikam>षडशीति</prAwipaxikam>
+<seg>षष्-अशीतिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">छ्यासी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षडहः</dentry>
+<prAwipaxikam>षडह</prAwipaxikam>
+<seg>षष्-अहः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">छः दिन का समय या अवधि</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षडाननः</dentry>
+<prAwipaxikam>षडानन</prAwipaxikam>
+<seg>षष्-आननः</seg>
+<grammar>पुं*</grammar>
+<kind_of>देवः</kind_of>
+<jAwi>देवता</jAwi>
+<sense no="1">कार्तिकेय के विशेषणषडाननापीतपयोधरासु नेता चमूनामिव कृत्तिकासु<citation>रघु* १४/२२</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>षड्वक्त्रः</dentry>
+<prAwipaxikam>षड्वक्त्र</prAwipaxikam>
+<seg>षष्-वक्त्रः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">कार्तिकेय के विशेषणषडाननापीतपयोधरासु नेता चमूनामिव कृत्तिकासु<citation>रघु* १४/२२</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>षड्वदनः</dentry>
+<prAwipaxikam>षड्वदन</prAwipaxikam>
+<seg>षष्-वदनः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">कार्तिकेय के विशेषणषडाननापीतपयोधरासु नेता चमूनामिव कृत्तिकासु<citation>रघु* १४/२२</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>षडाम्नायः</dentry>
+<prAwipaxikam>षडाम्नाय</prAwipaxikam>
+<seg>षष्-आम्नायः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">छः तन्त्र</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षडूषणम्</dentry>
+<prAwipaxikam>षडूषण</prAwipaxikam>
+<seg>षष्-ऊषणम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">समष्टि रूप से ग्रहण किये हुए छः मसालेपंचकोलं स मरिचं षडूषणमुदाहृतम्</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षट्कर्ण</dentry>
+<prAwipaxikam>षट्कर्ण</prAwipaxikam>
+<seg>षष्-कर्ण</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">षट्कर्ण</prAwipaxikam>
+<sense no="1">छः कानों से सुना गयाषट्कर्नो भिद्यते मन्त्रः<citation>पंच* १/९९अर्थात् वक्ता और श्रोता के अतिरिक्त किसी तीसरे व्यक्ति द्वारा भी सुना गया</citation>एक से अधिक श्रोताओं को सुनाया गया परामर्श, भेद आदि</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षट्कर्णः</dentry>
+<prAwipaxikam>षट्कर्ण</prAwipaxikam>
+<seg>षष्-कर्णः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">एक प्रकार की वीणा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षट्कर्मन्</dentry>
+<prAwipaxikam>षट्कर्मन्</prAwipaxikam>
+<seg>षष्-कर्मन्</seg>
+<grammar>नपुं*</grammar>
+<kind_of>ब्राह्मणः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">ब्राहणों के लिए विहित छः कर्तव्यअध्यापनमध्ययनं यजनं याजनं तथा। दानं प्रतिग्रहश्चैव षट्कर्माण्यग्रजन्मनः<citation>मनु* १०/७५</citation></sense>
+<sense no="2">छः कर्म जो ब्राह्मण की जीविका के लिए विहित हैं उञ्छं प्रतिग्रहो भिक्षा वाणिज्यं पशुपालनम्। कृषिकर्म तथा चेति षट्कर्माण्यग्रजन्मनः</sense>
+<sense no="3">जादू के छः करतब शान्ति, वशीकरण, स्तम्भन, विद्वेष, उच्चाटन तथा मारण</sense>
+<sense no="4">योगाभ्याससंबंधी छः क्रियाएँधौतिर्वस्ती तथा नेती (नौलिकी) त्राटकस्तथा। कपालभाती चैतानि षट्कर्मानि समाचरेत्॥</sense>
+<sense no="5">ब्राह्मण</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षट्कोण</dentry>
+<prAwipaxikam>षट्कोण</prAwipaxikam>
+<seg>षष्-कोण</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">षट्कोण</prAwipaxikam>
+<sense no="1">छः कोणों से युक्त</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षट्कोणम्</dentry>
+<prAwipaxikam>षट्कोण</prAwipaxikam>
+<seg>षष्-कोणम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">षड्भुज, छः कोनिया</sense>
+<sense no="2">इन्द्र का वज्र</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षड्गवम्</dentry>
+<prAwipaxikam>षड्गव</prAwipaxikam>
+<seg>षष्-गवम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">छः बैलों की जोड़ी</sense>
+<sense no="2">वह जुवा जिसमें छः बैल जोते जायं कभी कभी अन्य जानवरों के नाम पर</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षड्ढस्ति</dentry>
+<prAwipaxikam>षड्ढस्ति</prAwipaxikam>
+<seg>षष्-हस्ति</seg>
+<grammar>पुं*</grammar>
+<sense no="1">छः हाथी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षडश्व</dentry>
+<prAwipaxikam>षडश्व</prAwipaxikam>
+<seg>षष्-अश्व</seg>
+<grammar>पुं*</grammar>
+<sense no="1">छः घोड़े</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षड्गुण</dentry>
+<prAwipaxikam>षड्गुण</prAwipaxikam>
+<seg>षष्-गुण</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">षड्गुण</prAwipaxikam>
+<sense no="1">छः गुना</sense>
+<sense no="2">छः विशेषणों से युक्त</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षड्गुणम्</dentry>
+<prAwipaxikam>षड्गुण</prAwipaxikam>
+<seg>षष्-गुणम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">छः गुणों का समुदाय</sense>
+<sense no="2">किसी राजा की विदेशनीति में प्रयोक्तव्य छः उपायदे* ‘गुण’ के अन्तर्गत २१, तु* ‘षाङ्गुण्य’ के साथ भी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षड्ग्रन्थि</dentry>
+<prAwipaxikam>षड्ग्रन्थि</prAwipaxikam>
+<seg>षष्-ग्रन्थि</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">पिप्परामूल</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षड्ग्रन्थिका</dentry>
+<prAwipaxikam>षड्ग्रन्थिका</prAwipaxikam>
+<seg>षष्-ग्रन्थिका</seg>
+<grammar>स्त्री*</grammar>
+<kind_of>सूक्ष्मशाखामूलयुक्तवृक्षः</kind_of>
+<jAwi>ओषधिः</jAwi>
+<sense no="1">शटी, आमाहल्दी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षट्चक्रम्</dentry>
+<prAwipaxikam>षट्चक्र</prAwipaxikam>
+<seg>षष्-चक्रम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">शरीर के छः रहस्यमय चक्र (मूलाधार, अधिष्ठान, मणिपूर, अनाहत, विशुद्ध और आज्ञा)</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षट्चत्वारिंशत्</dentry>
+<prAwipaxikam>षट्चत्वारिंशत्</prAwipaxikam>
+<seg>षष्-चत्वारिंशत्</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">षट्चत्वारिंशत्</prAwipaxikam>
+<sense no="1">छ्यालीस</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षट्चरणः</dentry>
+<prAwipaxikam>षट्चरण</prAwipaxikam>
+<seg>षष्-चरणः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">मधुमक्खी</sense>
+<sense no="2">टिड्डी</sense>
+<sense no="3">जूँ</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षड्जः</dentry>
+<prAwipaxikam>षड्ज</prAwipaxikam>
+<seg>षष्-जः</seg>
+<grammar>पुं*</grammar>
+<jAwi>शब्दः</jAwi>
+<sense no="1">भारतीय स्वरग्राम के सात प्राथमिक स्वरों में से चौथा स्वर (कुछ के अनुसार पहला) क्योंकि यह स्वर छः अंगों से व्युत्पन्न हैनासांकंठमुरस्तालु जिह्वां दन्तांच संस्पृशन्। षड्जःसंजायते (षड्भ्यः संजायते) यस्मात् तस्मात् षड्ज इति स्मृतः,<vform>H</vform>कहते हैं कि मोर के स्वर से यह स्वर मिलता-जुलता है<vform>/H</vform>, षड्जं रौति मयूरस्तु<citation>नार* षड्जसम्वादिनीः केकाः द्विधा भिन्नाः शिखण्डिभिः</citation><citation>रघु* १/३९</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>षट्त्रिंशत्</dentry>
+<prAwipaxikam>षट्त्रिंशत्</prAwipaxikam>
+<seg>षष्-त्रिंशत्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">छत्तीस</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षट्त्रिंश</dentry>
+<prAwipaxikam>षट्त्रिंश</prAwipaxikam>
+<seg>षष्-त्रिंश</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">षट्त्रिंश</prAwipaxikam>
+<sense no="1">छत्तीसवाँ</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षड्दर्शनम्</dentry>
+<prAwipaxikam>षड्दर्शन</prAwipaxikam>
+<seg>षष्-दर्शनम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">हिन्दू दर्शन के छः मुख्य शास्त्र-सांख्य, योग, न्याय, वैशैषिक, मीमांसा और वेदान्त</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षड्दुर्गम्</dentry>
+<prAwipaxikam>षड्दुर्ग</prAwipaxikam>
+<seg>षष्-दुर्गम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">छः प्रकार के गढ़ों की समष्टिधन्वदुर्गं महीदुर्गं गिरिदुर्गं तथैव च</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षण्णवतिः</dentry>
+<prAwipaxikam>षण्णवति</prAwipaxikam>
+<seg>षष्-नवतिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">छ्यानवे</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षट्पञ्चाशत्</dentry>
+<prAwipaxikam>षट्पञ्चाशत्</prAwipaxikam>
+<seg>षष्-पञ्चाशत्</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">छप्पन</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षट्पदः</dentry>
+<prAwipaxikam>षट्पद</prAwipaxikam>
+<seg>षष्-पदः</seg>
+<grammar>पुं*</grammar>
+<kind_of>मक्षिका</kind_of>
+<jAwi>कीटः</jAwi>
+<sense no="1">भौंरान पङ्कजं तद्यदलीनषट्पदं न षट्पदोऽसौ न जुगुञ्ज यः कलम्<citation>भट्टि* २/१९</citation><citation>कु* ५/९</citation><citation>रघु* ६/६९</citation></sense>
+<sense no="2">जूँ</sense>
+<subsegmenthd>
+<dentry>षट्पदातिथिः</dentry>
+<prAwipaxikam>षट्पदातिथि</prAwipaxikam>
+<seg>षष्-पदः-अतिथिः</seg>
+<grammar>पुं*</grammar>
+<sense no="3">आम का वृक्ष</sense>
+</subsegmenthd>
+<subsegmenthd>
+<dentry>षट्पदानन्दवर्धनः</dentry>
+<prAwipaxikam>षट्पदानन्दवर्धन</prAwipaxikam>
+<seg>षष्-पदः-आनन्दवर्धनः</seg>
+<grammar>पुं*</grammar>
+<sense no="3">अशोक या किंकिरात वृक्ष</sense>
+</subsegmenthd>
+<subsegmenthd>
+<dentry>षट्पदाज्य</dentry>
+<prAwipaxikam>षट्पदाज्य</prAwipaxikam>
+<seg>षष्-पदः-ज्य</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">षट्पदाज्य</prAwipaxikam>
+<sense no="3">जिस की डोरी भौंरों से बनी है प्रायश्चापं न वहति भयान्मन्मथः षट्पदज्यम्<citation>मेघ* ७३जैसे कि कामदेव का धनुष</citation></sense>
+</subsegmenthd>
+<subsegmenthd>
+<dentry>षट्पदप्रियः</dentry>
+<prAwipaxikam>षट्पदप्रिय</prAwipaxikam>
+<seg>षष्-पदः-प्रियः</seg>
+<grammar>पुं*</grammar>
+<sense no="3">नागकेशर नाम का वृक्ष</sense>
+</subsegmenthd>
+</segmenthd>
+<segmenthd>
+<dentry>षट्पदी</dentry>
+<prAwipaxikam>षट्पदी</prAwipaxikam>
+<seg>षष्-पदी</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">छः पंक्तियों का श्लोक</sense>
+<sense no="2">भ्रमरी</sense>
+<sense no="3">जूँ</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षट्प्रज्ञः</dentry>
+<prAwipaxikam>षट्प्रज्ञ</prAwipaxikam>
+<seg>षष्-प्रज्ञः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">जो छः विषयों से सुपरिचित है अर्थात् चार पुरुषार्थ (धर्म, अर्थ, काम, मोक्ष) या मानवजीवन के उद्देश्य और लोकप्रकृति, ब्रह्मप्रकृतिधर्मार्थकाममोक्षेषु लोकतत्त्वार्थयोरपि। षट्सु प्रज्ञा तु यस्यासौ षट्प्रज्ञः परिकीर्तितः॥</sense>
+<sense no="2">विलासी, कामासक्त पुरुष</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षड्बिन्दुः</dentry>
+<prAwipaxikam>षड्बिन्दु</prAwipaxikam>
+<seg>षष्-बिन्दुः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">विष्णु का विशेषण</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षड्भागः</dentry>
+<prAwipaxikam>षड्भाग</prAwipaxikam>
+<seg>षष्-भागः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">छठा भाग, १/६ भाग<citation>श* २/१३</citation><citation>मनु* ७/१३१</citation>८/३३</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षड्भुज</dentry>
+<prAwipaxikam>षड्भुज</prAwipaxikam>
+<seg>षष्-भुज</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">षड्भुज</prAwipaxikam>
+<sense no="1">छः हैं सहायक जिसके, छः कोनों वाला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षड्भुजः</dentry>
+<prAwipaxikam>षड्भुज</prAwipaxikam>
+<seg>षष्-भुजः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">षट्कोण</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षड्भुजा</dentry>
+<prAwipaxikam>षड्भुजा</prAwipaxikam>
+<seg>षष्-भुजा</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">दुर्गा का विशेषण</sense>
+<sense no="2">तरबूज़</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षण्मासः</dentry>
+<prAwipaxikam>षण्मास</prAwipaxikam>
+<seg>षष्-मासः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">छः महीने का समय</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षाण्मासिक</dentry>
+<prAwipaxikam>षाण्मासिक</prAwipaxikam>
+<seg>षष्-मासिक</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">षाण्मासिक</prAwipaxikam>
+<sense no="1">छमाही, अर्धवार्षिक</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षण्मुखः</dentry>
+<prAwipaxikam>षण्मुख</prAwipaxikam>
+<seg>षष्-मुखः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">कार्तिकेय के विशेषण<citation>रघु* १७/६७</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>षण्मुखा</dentry>
+<prAwipaxikam>षण्मुखा</prAwipaxikam>
+<seg>षष्-मुखा</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">तरबूज़</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षड्रसम्</dentry>
+<prAwipaxikam>षड्रस</prAwipaxikam>
+<seg>षष्-रसम्</seg>
+<grammar>पुं*</grammar><num>[ब* व*]</num>
+<sense no="1">छः रसों की समष्टिदे* ‘रस’ के अन्तर्गत</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षड्रसाः</dentry>
+<prAwipaxikam>षड्रस</prAwipaxikam>
+<seg>षष्-रसाः</seg>
+<grammar>पुं*</grammar><num>[ब* व*]</num>
+<sense no="1">छः रसों की समष्टिदे* ‘रस’ के अन्तर्गत</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षड्रात्रम्</dentry>
+<prAwipaxikam>षड्रात्र</prAwipaxikam>
+<seg>षष्-रात्रम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">छः रातों का समय या अवधि</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षड्वर्गः</dentry>
+<prAwipaxikam>षड्वर्ग</prAwipaxikam>
+<seg>षष्-वर्गः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">छः वस्तुओं की समष्टि</sense>
+<sense no="2">विशेष रूप से मनुष्य के छः शत्रुकामःक्रोधस्तथा लोभो मदमोहौ च मत्सरः। कृतारिषड्वर्गजयेन<citation>कि* १/९</citation>व्यजेष्ट षड्वर्गम्<citation>भट्टि* १/२</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>षड्विंशतिः</dentry>
+<prAwipaxikam>षड्विंशति</prAwipaxikam>
+<seg>षष्-विंशतिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">छब्बीस</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षड्विंश</dentry>
+<prAwipaxikam>षड्विंश</prAwipaxikam>
+<seg>षष्-विंश</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">षड्विंश</prAwipaxikam>
+<sense no="1">छब्बीसवाँ</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षड्विध</dentry>
+<prAwipaxikam>षड्विध</prAwipaxikam>
+<seg>षष्-विध</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">षड्विध</prAwipaxikam>
+<sense no="1">छः प्रकार का  छः गुना<citation>रघु* ४/२६</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>षट्षष्टिः</dentry>
+<prAwipaxikam>षट्षष्टि</prAwipaxikam>
+<seg>षष्-षष्टिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">छासठ</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षट्सप्ततिः</dentry>
+<prAwipaxikam>षट्सप्तति</prAwipaxikam>
+<seg>षष्-सप्ततिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">छिहत्तर</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="11">
+<dentry>षष्टिः</dentry>
+<prAwipaxikam>षष्टि</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+?<etymology>[षड्गुणिता दशतिः नि*]</etymology>
+<sense no="1">साठ<citation>मनु* ३/७७</citation><citation>याज्ञ* ३/८४</citation></sense>
+</lexhead>
+
+<lexhead no="12">
+<dentry>षष्टितम्</dentry>
+<prAwipaxikam>षष्टित</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<sense no="1">साठवाँ</sense>
+<segmenthd>
+<dentry>षष्टिमत्तः</dentry>
+<prAwipaxikam>षष्टिमत्त</prAwipaxikam>
+<seg>षष्टिः-मत्तः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">साठ वर्ष की आयु का हाथी जिसके मस्तक से मद चूता है</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षष्टियोजनी</dentry>
+<prAwipaxikam>षष्टियोजनी</prAwipaxikam>
+<seg>षष्टिः-योजनी</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">साठ योजन का विस्तार या यात्रा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षष्टिसंवत्सरः</dentry>
+<prAwipaxikam>षष्टिसंवत्सर</prAwipaxikam>
+<seg>षष्टिः-संवत्सरः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">साठ वर्ष की अवधि या समय</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षष्टिहायनः</dentry>
+<prAwipaxikam>षष्टिहायन</prAwipaxikam>
+<seg>षष्टिः-हायनः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">(साठवर्ष की आयु का) हाथी</sense>
+<sense no="2">एक प्रकार का चावल</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="13">
+<dentry>षष्ठ</dentry>
+<prAwipaxikam>षष्ठ</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">षष्ठ</prAwipaxikam>
+?<etymology>[षण्णां पूरणः-षष्+डट्, वुक्]</etymology>
+<sense no="1">छठा, छठा भाग, षष्ठं तु क्षेत्रजस्यांशं प्रदद्यात्पैतृकाद्धनात्<citation>मनु* ९/१६४</citation>७/३०, षष्ठे भागे<citation>विक्रम* २/१</citation><citation>रघु* १७/७८</citation>स्त्री*-षष्ठी</sense>
+<segmenthd>
+<dentry>षष्ठांशः</dentry>
+<prAwipaxikam>षष्ठांश</prAwipaxikam>
+<seg>षष्ठ-अंशः</seg>
+<grammar>पुं*</grammar>
+<sense no="2">सामान्य छठा भाग<citation>याज्ञ* ३/३५</citation></sense>
+<sense no="3">विशेष कर उपज का छठा भाग जिसको कि राजा अपनी प्रजा से भूमिकर के रूप में ग्रहण करता हैऊधस्यमिच्छामि तवोपभोक्तुं षष्ठांशमुर्व्या इव रक्षितायाः<citation>रघु* २/६६ उपज के भिन्न भेद जिनके छठे भाग का अधिकारी राजा है-</citation><citation>मनु* ७/१३१-२ में बताये गये हैं</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>षष्ठवृत्तिः</dentry>
+<prAwipaxikam>षष्ठवृत्ति</prAwipaxikam>
+<seg>षष्ठ-वृत्तिः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">उपज के छठे भाग का अधिकारी राजाषष्ठांशवत्तेरपि धर्म एषः<citation>श* ५/४</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>षष्ठान्नम्</dentry>
+<prAwipaxikam>षष्ठान्न</prAwipaxikam>
+<seg>षष्ठ-अन्नम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">छठा भोजन</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षष्ठकालः</dentry>
+<prAwipaxikam>षष्ठकाल</prAwipaxikam>
+<seg>षष्ठ-कालः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">तीन दिन में केवल एक बार भोजन करने वालाजैसा कि प्रायश्चित्तस्वरूप किया जाता है</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="14">
+<dentry>षष्ठी</dentry>
+<prAwipaxikam>षष्ठी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[षष्ठ+ङीप्]</etymology>
+<sense no="1">चान्द्रमास के किसी पक्ष की छठ</sense>
+<sense n="2">(व्या* में ) छठी विभक्ति या सम्बन्ध कारक</sense>
+<sense n="3">कात्यायनी के रूप में दुर्गा का विशेषण, जो सोलह दिव्य मातृकाओं में से एक है</sense>
+<segmenthd>
+<dentry>षष्ठीतत्पुरुषः</dentry>
+<prAwipaxikam>षष्ठीतत्पुरुष</prAwipaxikam>
+<seg>षष्ठी-तत्पुरुषः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">छठी विभक्ति के लोप वाला तत्पुरुष सदैव छठी विभक्ति का होता है</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षष्ठीपूजनम्</dentry>
+<prAwipaxikam>षष्ठीपूजन</prAwipaxikam>
+<seg>षष्ठी-पूजनम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">बालक उत्पन्न होने के छठे दिन छठी देवी की पूजा करना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षष्ठीपूजा</dentry>
+<prAwipaxikam>षष्ठीपूजा</prAwipaxikam>
+<seg>षष्ठी-पूजा</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">बालक उत्पन्न होने के छठे दिन छठी देवी की पूजा करना</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="15">
+<dentry>षहसानुः</dentry>
+<prAwipaxikam>षहसानु</prAwipaxikam>
+<grammar>पुं*</grammar>
+?<etymology>[सह+आनु, असुक्, पृषो षत्वम्]</etymology>
+<sense no="1">मोर</sense>
+<sense n="2">यज्ञ</sense>
+</lexhead>
+
+<lexhead no="16">
+<dentry>षाट्</dentry>
+<prAwipaxikam>षाट्</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<etymology>[सह+ण्वि, पृषो* षत्वं टत्वम् ]</etymology>
+<sense no="1">सम्बोधक अव्यय</sense>
+</lexhead>
+
+<lexhead no="17">
+<dentry>षाट्कौशिक</dentry>
+<prAwipaxikam>षाट्कौशिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">षाट्कौशिक</prAwipaxikam>
+<etymology>[षट्कोश+ठक्]</etymology>
+<sense no="1">छः तहों में लिपटा हुआ, स्त्री*-षाट्कौशिकी</sense>
+</lexhead>
+
+<lexhead no="18">
+<dentry>षाडवः</dentry>
+<prAwipaxikam>षाडव</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[षड्+अव्+अच्+अण्,स्वार्थे अण्]</etymology>
+<sense no="1">राग, मनोवेग</sense>
+<sense n="2">गाना, संगीत</sense>
+<sense n="3">(संगीत में) एक राग जिस में संगीत के सात स्वरों में से छः स्वर प्रयुक्त होते हैंपंचमः पञ्चभिः प्रोक्तः स्वरैः षड्भिस्तु षाडवः</sense>
+</lexhead>
+
+<lexhead no="19">
+<dentry>षाड्गुण्यम्</dentry>
+<prAwipaxikam>षाड्गुण्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[षड्गुण+ष्यञ्]</etymology>
+<sense no="1">छः गुणों की समष्टि</sense>
+<sense n="2">राजा के द्वारा प्रयुक्त छः युक्तियाँ, राजनीति के छः उपाय<citation>शि* २/९३दे* ‘गुण’ के अन्तर्गत</citation></sense>
+<sense n="3">छः से किसी संख्या का गुणन</sense>
+<segmenthd>
+<dentry>षाड्गुण्यप्रयोगः</dentry>
+<prAwipaxikam>षाड्गुण्यप्रयोग</prAwipaxikam>
+<seg>षाड्गुण्यम्-प्रयोगः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">राजनीति के छः उपाय, या छः युक्तियों का प्रयोग</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="20">
+<dentry>षाण्मातुरः</dentry>
+<prAwipaxikam>षाण्मातुर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>षण्णां मातृणाम् अपत्यम्</vigraha_vAkya>[षण्मातृ+अण्, उत्व, रपर]</etymology>
+<kind_of>देवः</kind_of>
+<jAwi>देवता</jAwi>
+<sense no="1">छः माताओं वाला, कार्तिकेय का विशेषण</sense>
+</lexhead>
+
+<lexhead no="21">
+<dentry>षाण्मासिक</dentry>
+<prAwipaxikam>षाण्मासिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">षाण्मासिक</prAwipaxikam>
+<etymology>[षण्मास+ठक्]</etymology>
+<sense no="1">छमाही, अर्धवार्षिक, स्त्री*-षाण्मासिका</sense>
+<sense n="2">छः महीने का मौक्तिका नां षाण्मासिकानाम्<citation>विद्ध* १/१७</citation></sense>
+</lexhead>
+
+<lexhead no="22">
+<dentry>षाष्ठ</dentry>
+<prAwipaxikam>षाष्ठ</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">षाष्ठ</prAwipaxikam>
+<etymology>[षष्ठ+अण्, स्वार्थे ]</etymology>
+<sense no="1">छठा, स्त्री*-षाष्ठी</sense>
+</lexhead>
+
+<lexhead no="23">
+<dentry>षिड्गः</dentry>
+<prAwipaxikam>षिड्ग</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[सिट्+गन्, पृषो* षत्वम्]</etymology>
+<sense no="1">विलासी, ऐयाश, कामुक, कामासक्त</sense>
+<sense n="2">प्रेमनिपुण, असंगत प्रेमी, विटषिड्गैरगद्यत ससंभ्रममेव काचित्<citation>शि* ५/३४</citation></sense>
+</lexhead>
+
+<lexhead no="24">
+<dentry>षुः</dentry>
+<prAwipaxikam>षु</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[सु+डु, पृषो* षत्वम्]</etymology>
+<sense no="1">प्रसूति, प्रजनन</sense>
+</lexhead>
+
+<lexhead no="25">
+<dentry>षोडश</dentry>
+<prAwipaxikam>षोडश</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">षोडश</prAwipaxikam>
+<etymology>[षोडशम्+डट्]</etymology>
+<sense no="1">सोलहवाँ<citation>मनु* २/६५</citation>८६</sense>
+</lexhead>
+
+<lexhead no="26">
+<dentry>षोडशम्</dentry>
+<prAwipaxikam>षोडश</prAwipaxikam>
+<grammar>संख्या* वि*</grammar><num>[ब* व*]</num>
+<sense no="1">सोलह</sense>
+<segmenthd>
+<dentry>षोडशांशुः</dentry>
+<prAwipaxikam>षोडशांशु</prAwipaxikam>
+<seg>षोडशम्-अंशुः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">शुक्रग्रह</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षोडशाङ्गः</dentry>
+<prAwipaxikam>षोडशाङ्ग</prAwipaxikam>
+<seg>षोडशम्-अङ्गः</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">षोडशाङ्ग</prAwipaxikam>
+<sense no="1">एक प्रकार का गन्धद्रव</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षोडशाङ्गुलक</dentry>
+<prAwipaxikam>षोडशाङ्गुलक</prAwipaxikam>
+<seg>षोडशम्-अङ्गुलक</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">षोडशाङ्गुलक</prAwipaxikam>
+<sense no="1">छः अंगुल की चौड़ाई का</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षोडशाङ्घ्रिः</dentry>
+<prAwipaxikam>षोडशाङ्घ्रि</prAwipaxikam>
+<seg>षोडशम्-अङ्घ्रिः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">केकड़ा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षोडशार्चिस्</dentry>
+<prAwipaxikam>षोडशार्चिस्</prAwipaxikam>
+<seg>षोडशम्-अर्चिस्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">शुक्रग्रह</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षोडशावर्तः</dentry>
+<prAwipaxikam>षोडशावर्त</prAwipaxikam>
+<seg>षोडशम्-आवर्तः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">शंख</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षोडशोपचारः</dentry>
+<prAwipaxikam>षोडशोपचार</prAwipaxikam>
+<seg>षोडशम्-उपचारः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">श्रद्धांजलि अर्पित करने की सोलह रीतियाँजिनकी गिनती यह है आसनं स्वागतं पाद्यमर्ध्यमाचमनीयकम्। मधुपकाचिमस्नानं वसनाभरणानि च। गंधपुष्पे धूपदीपौ नैवेद्यं वन्दन तथा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षोडशकलः</dentry>
+<prAwipaxikam>षोडशकल</prAwipaxikam>
+<seg>षोडशम्-कलः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">चन्द्रमा की सोलह कलाएँजिनके नाम यह है-अमृता मानदा पूषा तुष्टिः पुष्टिः रतिर्धृतिः। शशिनी चन्द्रिका कान्तिर्ज्योत्स्ना श्रीः प्रीतिरेव च। अङ्गदा च तथा पूर्णांमृता षोडश वै कलाः</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षोडशभुजा</dentry>
+<prAwipaxikam>षोडशभुजा</prAwipaxikam>
+<seg>षोडशम्-भुजा</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">दुर्गा की एक मूर्ति</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षोडशमातृका</dentry>
+<prAwipaxikam>षोडशमातृका</prAwipaxikam>
+<seg>षोडशम्-मातृका</seg>
+<grammar>स्त्री*</grammar><num>[ब* व*]</num>
+<sense no="1">सोलह दिव्य माताएँजिनके नाम निम्नांकित हैं-गौरी पद्मा शची मेधा सावित्री विजया जया। देवसेना स्वधा स्वाहा मातरो लोकमातरः। शान्तिः पुष्टिर्धृतिस्तुष्टिः कुलदेकात्मदेवताः॥</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="27">
+<dentry>षोडशधा</dentry>
+<prAwipaxikam>षोडशधा</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<etymology>[षोडशन्+धाच्]</etymology>
+<sense no="1">सोलह प्रकार से</sense>
+</lexhead>
+
+<lexhead no="28">
+<dentry>षोडशिक</dentry>
+<prAwipaxikam>षोडशिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">षोडशिक</prAwipaxikam>
+<etymology>[षोडशन्+ठक्]</etymology>
+<sense no="1">सोलह भागों से युक्त सोलह गुना षोडशिको देवतोपचारः, स्त्री*-षोडशिकी</sense>
+</lexhead>
+
+<lexhead no="29">
+<dentry>षोडशिन्</dentry>
+<prAwipaxikam>षोडशिन्</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[षोडशन्+इनि]</etymology>
+<sense no="1">अग्निष्टोम यज्ञ का रूपान्तर</sense>
+</lexhead>
+
+<lexhead no="30">
+<dentry>षोढा</dentry>
+<prAwipaxikam>षोढा</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<etymology>[षष्+धाच्, षष् उत्वम्, धस्य ष्टुत्वम्]</etymology>
+<sense no="1">छः प्रकार से</sense>
+<segmenthd>
+<dentry>षोढान्यासः</dentry>
+<prAwipaxikam>षोढान्यास</prAwipaxikam>
+<seg>षोढा-न्यासः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">मंत्र पढ़ते हुए शरीर स्पर्श के छः प्रकार</sense>
+</segmenthd>
+<segmenthd>
+<dentry>षोढामुखः</dentry>
+<prAwipaxikam>षोढामुख</prAwipaxikam>
+<seg>षोढा-मुखः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">छः मुंह वाला, कार्तिकेयद्रोढा जनोर्जनितषोढामुखः समिति वोढा सा हाटकगिरेः<citation>अश्व* ७</citation></sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="31">
+<dentry>ष्ठिव्</dentry>
+<prAwipaxikam>ष्ठिव्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><vform>ष्ठीवति</vform><gaNa>दिवा*</gaNa><paxI>पर*</paxI><vform>ष्ठीव्यति</vform>,<vform>ष्ठ्यूत</vform></grammar>
+<sense no="1">थूकना, मुँह से खखार निकालना</sense>
+<sense n="2">राल टपकना<citation>भट्टि* १२/१८</citation></sense>
+<segmenthd>
+<dentry>निष्ठिव्</dentry>
+<prAwipaxikam>निष्ठिव्</prAwipaxikam>
+<seg>नि-ष्ठिव्</seg>
+<grammar><gaNa>भ्वा*</gaNa></grammar>
+<sense no="1">प्रक्षेपण करना, निकालना, धकेलना<citation>श* ४/४</citation><citation>रघु* २/७५</citation><citation>भट्टि*१४/१००</citation>१७/१०, १८/१४<citation>काव्या* १/९५</citation></sense>
+<sense no="2">मुँह से खखार निकालना<citation>मनु* ४/१३२</citation><citation>याज्ञ* ३/२१३</citation></sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="32">
+<dentry>ष्ठीवनम्</dentry>
+<prAwipaxikam>ष्ठीवन</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[ष्ठीव्+ल्युट्]</etymology>
+<sense no="1">थूकना</sense>
+<sense n="2">लार, थूक, खखार</sense>
+</lexhead>
+
+<lexhead no="33">
+<dentry>ष्ठेवनम्</dentry>
+<prAwipaxikam>ष्ठेवन</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[ष्ठिव्+ल्युट्]</etymology>
+<sense no="1">थूकना</sense>
+<sense n="2">लार, थूक, खखार</sense>
+</lexhead>
+
+<lexhead no="34">
+<dentry>ष्ठ्यूत</dentry>
+<prAwipaxikam>ष्ठ्यूत</prAwipaxikam>
+<grammar>भू* क* कृ*</grammar>
+<etymology>[ष्ठिव्+क्त, ऊ]</etymology>
+<sense no="1">थूका हुआ, खखारा हुआ</sense>
+</lexhead>
+
+<lexhead no="35">
+<dentry>ष्वक्क्</dentry>
+<prAwipaxikam>ष्वक्क्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI><vform>ष्वक्कते</vform></grammar>
+<sense no="1">जाना, हिलना-जुलना</sense>
+</lexhead>
+
+<lexhead no="36">
+<dentry>ष्वस्क्</dentry>
+<prAwipaxikam>ष्वस्क्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI><vform>ष्वस्कते</vform></grammar>
+<sense no="0">जाना, हिलना-जुलना</sense>
+</lexhead>
+
+</dict>
