@@ -100,5 +100,8 @@ kAraNa_xyowakaH 56
 kArya_xyowakaH 57
 vyaBicAraH 58
 kArya_kAraNa_BAvaH 59
+AvaSyakawA_xyowakaH 206
+pariNAma_xyowakaH 207
+AvaSyakawA_pariNAma_sambanXaH 209
 samAnAXikaraNam 1009
 upamAnam_rahiwa_upamAna_xyowakaH 1079

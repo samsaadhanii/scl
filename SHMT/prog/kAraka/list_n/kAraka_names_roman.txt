@@ -100,5 +100,8 @@ kāraṇa_dyotakaḥ 56
 kārya_dyotakaḥ 57
 vyabhicāraḥ 58
 kārya_kāraṇa_bhāvaḥ 59
+āvaśyakatā_dyotakaḥ 206
+pariṇāma_dyotakaḥ 207
+āvaśyakatā_pariṇāma_sambandhaḥ 209
 samānādhikaraṇam 1009
 upamānam_rahita_upamāna_dyotakaḥ 1079
