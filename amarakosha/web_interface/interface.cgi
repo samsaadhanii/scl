@@ -37,7 +37,8 @@ require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 #print CGI::header('-type'=>'text/html', '-expires'=>60*60*24, '-charset' => 'UTF-8');
   print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
-  my %param = &get_parameters("decode");
+  #my %param = &get_parameters("decode");
+  my %param = &get_parameters();
 
 my $word=$param{word};
 my $relation=$param{relation};
@@ -45,8 +46,8 @@ my $encoding=$param{encoding};
 my $out_encoding=$param{out_encoding};
 
 print "<script>\n";
-print "function generate_noun_forms(encod,prAwi,lifga){\n";
-print "  window.open('/cgi-bin/scl/amarakosha/noun_gen.cgi?encoding='+encod+'&rt='+prAwi+'&gen='+lifga+'&jAwi=nA'+'&level=1'+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
+print "function generate_noun_forms(prAwi,lifga){\n";
+print "  window.open('/cgi-bin/scl/skt_gen/noun/noun_gen_web.cgi?encoding=WX&rt='+prAwi+'&gen='+lifga+'&jAwi=nA&level=1&outencoding=Unicode'+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
 print "}\n";
 print "</script>\n";
 
@@ -56,6 +57,7 @@ print "</script>\n";
     close(TMP1);
   }
 
+#print "  window.open('/cgi-bin/scl/amarakosha/noun_gen.cgi?encoding='+encod+'&rt='+prAwi+'&gen='+lifga+'&jAwi=nA'+'&level=1'+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
   #my $pid = $$;
 
 #my $result = `$GlblVar::SCLINSTALLDIR/amarakosha/callrel.pl $word $relation $encoding $out_encoding $pid`;

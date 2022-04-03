@@ -245,7 +245,7 @@ sub synset_info{
            if($wrd eq $word) {
               $style = "<\@span \@style=\"\@background:\@yellow;\">";
            } else { $style = "<\@span \@style=\"\">";}
-           $synset_info .= ", $style <\@a \@title=\"kANda,varga,Sloka,pAxa :: $kANda\,lifga :: $lifgam\" \@href=\"\@javascript:\@generate_\@noun_\@forms('\@Unicode','$wrd','$lifgam')\">".$wrd."</\@a><\/\@span>";
+           $synset_info .= ", $style <\@a \@title=\"kANda,varga,Sloka,pAxa :: $kANda\,lifga :: $lifgam\" \@href=\"\@javascript:\@generate_\@noun_\@forms('\@$wrd','\@$lifgam')\">".$wrd."</\@a><\/\@span>";
         }
         $synset_info .= "</\@font></\@div>";
 $synset_info;
