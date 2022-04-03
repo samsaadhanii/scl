@@ -35,7 +35,7 @@ package main;
  my $paxI = $ARGV[5];
 
  #$generator = "/usr/bin/lt-proc -ct $myPATH/morph_bin/skt_gen.bin";
- $generator = "$GlblVar::LTPROCBIN -ct $GlblVar::SCLINSTALLDIR/morph_bin/wif_gen.bin";
+ $generator = "$GlblVar::LTPROCBIN -cg $GlblVar::SCLINSTALLDIR/morph_bin/wif_gen.bin";
 
  if ($outencoding eq "IAST") {
          $conv_program = "$GlblVar::SCLINSTALLDIR/converters/wx2utf8roman.out";
@@ -138,7 +138,7 @@ sub get_generator_string {
                 $person = $person[$per];
                 for($num=0;$num<3;$num++){
                      $vacanam = $vacanam[$num];
-                     $str = "${rt}${upasarga}${sanAxi}<prayogaH:$prayogaH><lakAraH:$lakAra><puruRaH:$person><vacanam:$vacanam><paxI:$paxI><XAwuH:$XAwu><gaNaH:$gaNa><level:1>";
+                     $str = "^"."${rt}${upasarga}${sanAxi}<prayogaH:$prayogaH><lakAraH:$lakAra><puruRaH:$person><vacanam:$vacanam><paxI:$paxI><XAwuH:$XAwu><gaNaH:$gaNa><level:1>"."$";
                    $STR .=  $str."\n";
                 } # number
             } #person

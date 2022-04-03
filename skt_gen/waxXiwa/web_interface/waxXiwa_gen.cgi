@@ -32,7 +32,7 @@ package main;
     open(TMP1,">>$GlblVar::TFPATH/waxXiwa.log") || die "Can't open $GlblVar::TFPATH/waxXiwa.log for writing";
   }
 
-  my %param = &get_parameters("decode");
+  my %param = &get_parameters();
 
   #      if (param) {
       my $encoding=$param{encoding};

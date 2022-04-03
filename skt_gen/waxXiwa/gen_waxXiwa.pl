@@ -38,10 +38,6 @@ print "function generate_waxXiwa_noun_forms(encod,prAwi,lifga,suff){\n";
 print "  window.open('/cgi-bin/scl/skt_gen/waxXiwa/noun_gen.cgi?encoding='+encod+'&rt='+prAwi+'&gen='+lifga+'&suffix='+suff+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
 print "}\n";
 
-print "function generate_kqw_forms(encod,vb){\n";
-print "  window.open('/cgi-bin/scl/skt_gen/kqw/kqw_gen.cgi?encoding='+encod+'&vb='+vb+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
-print "}\n";
-
 print "function generate_waxXiwa_forms(encod,rt,gen){\n";
 print "  window.open('/cgi-bin/scl/skt_gen/waxXiwa/waxXiwa_gen.cgi?encoding='+encod+'&rt='+rt+'&gen='+gen+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
 print "}\n";

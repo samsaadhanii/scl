@@ -38,7 +38,7 @@ $myPath = $GlblVar::SCLINSTALLDIR;
  my $gaNa = $ARGV[7];
  $upasarga =~ s/^u=//;
 
- my $generator = "$GlblVar::LTPROCBIN -ct $myPath/morph_bin/all_gen.bin";
+ my $generator = "$GlblVar::LTPROCBIN -cg $myPath/morph_bin/all_gen.bin";
 
  $prAwi_wx=&convert($encoding,$prAwi,$myPath);
  $kqw_prawyaya_wx=&convert($encoding,$kqw_prawyaya,$myPath);
@@ -58,7 +58,7 @@ $myPath = $GlblVar::SCLINSTALLDIR;
  for($vib=1;$vib<9;$vib++){
     for($num=0;$num<3;$num++){
         $vacanam = $vacanam[$num];
-        $str = "<kqw_XAwu:$rt>${upasargastr}<kqw_prawyayaH:$kqw_prawyaya_wx><XAwuH:$XAwu><gaNaH:$gaNa>$prAwi_wx<vargaH:nA><lifgam:$lifga><viBakwiH:$vib><vacanam:$vacanam><level:2>"; 
+        $str = "^"."<kqw_XAwu:$rt>${upasargastr}<kqw_prawyayaH:$kqw_prawyaya_wx><XAwuH:$XAwu><gaNaH:$gaNa>$prAwi_wx<vargaH:nA><lifgam:$lifga><viBakwiH:$vib><vacanam:$vacanam><level:2>"."$"; 
         $LTPROC_IN .=  $str."\n";
     } # number
  } #vib
