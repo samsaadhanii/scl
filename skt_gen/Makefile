@@ -3,7 +3,7 @@ SHELL = /bin/bash
 include ../paths.sh
 
 install:
-	mkdir -p $(HTDOCSDIR)/scl/skt_gen/noun;mkdir -p $(CGIDIR)/scl/skt_gen/noun;cp noun/web_interface/*.html $(HTDOCSDIR)/scl/skt_gen/noun; cp noun/web_interface/*.cgi $(CGIDIR)/scl/skt_gen/noun
+	mkdir -p $(HTDOCSDIR)/scl/skt_gen/noun;mkdir -p $(CGIDIR)/scl/skt_gen/noun;cp noun/web_interface/*.html $(HTDOCSDIR)/scl/skt_gen/noun; cp noun/web_interface/*.cgi $(CGIDIR)/scl/skt_gen/noun; cp noun/web_interface/noun_gen_subroutines.pl $(CGIDIR)/scl/skt_gen/noun; cp noun/web_interface/json_format.pl $(CGIDIR)/scl/skt_gen/noun; cp noun/web_interface/html_format.pl $(CGIDIR)/scl/skt_gen/noun
 	mkdir -p $(HTDOCSDIR)/scl/skt_gen/verb; mkdir -p $(CGIDIR)/scl/skt_gen/verb; cp verb/web_interface/*.html $(HTDOCSDIR)/scl/skt_gen/verb; cp verb/web_interface/*.cgi $(CGIDIR)/scl/skt_gen/verb
 	mkdir -p $(HTDOCSDIR)/scl/skt_gen/kqw; mkdir -p $(CGIDIR)/scl/skt_gen/kqw; cp kqw/web_interface/*.html $(HTDOCSDIR)/scl/skt_gen/kqw; cp kqw/web_interface/*.cgi $(CGIDIR)/scl/skt_gen/kqw
 	mkdir -p $(HTDOCSDIR)/scl/skt_gen/waxXiwa; mkdir -p $(CGIDIR)/scl/skt_gen/waxXiwa; cp waxXiwa/web_interface/*.html $(HTDOCSDIR)/scl/skt_gen/waxXiwa; cp waxXiwa/web_interface/*.cgi $(CGIDIR)/scl/skt_gen/waxXiwa

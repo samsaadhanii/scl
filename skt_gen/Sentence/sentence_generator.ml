@@ -16,7 +16,7 @@ exception Report of string
 value scl_morph_path = sclinstalldir^"/morph_bin/"
 ;
 
-value ltproc = ltprocbin ^ " -ct "
+value ltproc = ltprocbin ^ " -cg "
 ;
 
 value parses = Gram.Entry.mk "parses"
@@ -169,12 +169,12 @@ value analyse strm = let parses =
        ]  in parses
 ;
 
-(*value print_parse_id  = fun
+value print_parse_id  = fun
 [ Sup (id,rt,cat,gen,num,rel,toid) -> print_string "Sup"
 | _ -> ()
 ]
 ;
-*)
+
 
 value strip_last_char str =
  if str = "" then "" else
@@ -537,7 +537,7 @@ value verb_type upasarga rt =
 ;
 
 value call_core_sup_gen rt cat gen vib num  = 
-      let str = rt^"<vargaH:"^cat^"><lifgam:"^gen^"><viBakwiH:"^string_of_int vib^"><vacanam:"^num^"><level:1>" in
+      let str = "^"^rt^"<vargaH:"^cat^"><lifgam:"^gen^"><viBakwiH:"^string_of_int vib^"><vacanam:"^num^"><level:1>"^"$" in
       let str_sup_gen = "echo '"^str^"'|"^ltproc^ scl_morph_path^"sup_gen.bin" in 
       let (strout, strerr) = syscall str_sup_gen in
       if String.contains strout '?'
@@ -572,7 +572,7 @@ value call_sup_gen rt cat gen vib num =
 		      
 value call_kqwrt_gen upasarga rt san_suff gen kqw_suff prayoga feature_list =
       let pr = if not (prayoga = "") then "<prayogaH:"^prayoga^">" else prayoga in
-      let str = "<kqw_XAwu:"^rt^">"^upasarga^san_suff^"<lifgam:"^gen^"><kqw_prawyayaH:"^kqw_suff^">"^pr^"<XAwuH:"^feature_list.(1)^"><gaNaH:"^feature_list.(2)^"><level:0>" in
+      let str = "^<kqw_XAwu:"^rt^">"^upasarga^san_suff^"<lifgam:"^gen^"><kqw_prawyayaH:"^kqw_suff^">"^pr^"<XAwuH:"^feature_list.(1)^"><gaNaH:"^feature_list.(2)^"><level:0>$" in
       let str_kqwrt_gen = "echo '"^str^"'|"^ltproc^scl_morph_path^"kqw_gen.bin" in
       let (strout, strerr) = syscall str_kqwrt_gen in 
       strip_last_char strout
@@ -580,7 +580,7 @@ value call_kqwrt_gen upasarga rt san_suff gen kqw_suff prayoga feature_list =
 
 value call_kqwform_gen upasarga rt san_suff gen kqw_suff prayoga feature_list kqwrt vib num =
       let pr = if not (prayoga = "") then "<prayogaH:"^prayoga^">" else prayoga in
-      let str = "<kqw_XAwu:"^rt^">"^upasarga^san_suff^"<kqw_prawyayaH:"^kqw_suff^">"^pr^"<XAwuH:"^feature_list.(1)^"><gaNaH:"^feature_list.(2)^">"^kqwrt^"<vargaH:nA><lifgam:"^gen^"><viBakwiH:"^ string_of_int vib^"><vacanam:"^num^"><level:2>" in
+      let str = "^<kqw_XAwu:"^rt^">"^upasarga^san_suff^"<kqw_prawyayaH:"^kqw_suff^">"^pr^"<XAwuH:"^feature_list.(1)^"><gaNaH:"^feature_list.(2)^">"^kqwrt^"<vargaH:nA><lifgam:"^gen^"><viBakwiH:"^ string_of_int vib^"><vacanam:"^num^"><level:2>$" in
       let str_kqw_gen = "echo '"^str^"'|"^ltproc^scl_morph_path^"kqw_gen.bin" in
       let (strout, strerr) = syscall str_kqw_gen in 
       strip_last_char strout
@@ -614,14 +614,14 @@ value call_kqw_gen upasarga rt san_suff gen kqw_suff prayoga feature_list vib nu
 ;
 		      
 value call_avykqw_gen upasarga rt san_suff kqw_suff feature_list =
-      let str = "<kqw_XAwu:"^rt^">"^upasarga^san_suff^"<vargaH:avy><kqw_prawyayaH:"^kqw_suff^"><XAwuH:"^feature_list.(1)^"><gaNaH:"^feature_list.(2)^"><level:2>" in
+      let str = "^<kqw_XAwu:"^rt^">"^upasarga^san_suff^"<vargaH:avy><kqw_prawyayaH:"^kqw_suff^"><XAwuH:"^feature_list.(1)^"><gaNaH:"^feature_list.(2)^"><level:2>$" in
       let str_avykqw_gen = "echo '"^str^"'|"^ltproc^scl_morph_path^"kqw_gen.bin" in
       let (strout, strerr) = syscall str_avykqw_gen in 
       strip_last_char strout
 ;
 
 value call_wif_gen upasarga rt san_suff prayoga lakAra paxI per_num feature_list =
-      let str = rt^upasarga^san_suff^"<prayogaH:"^prayoga^"><lakAraH:"^lakAra^"><puruRaH:"^per_num.(0)^"><vacanam:"^per_num.(1)^"><paxI:"^paxI^"><XAwuH:"^feature_list.(1)^"><gaNaH:"^feature_list.(2)^"><level:1>" in
+      let str = "^"^rt^upasarga^san_suff^"<prayogaH:"^prayoga^"><lakAraH:"^lakAra^"><puruRaH:"^per_num.(0)^"><vacanam:"^per_num.(1)^"><paxI:"^paxI^"><XAwuH:"^feature_list.(1)^"><gaNaH:"^feature_list.(2)^"><level:1>$" in
       let str_wif_gen = "echo '"^str^"'|"^ltproc^scl_morph_path^"wif_gen.bin" in
       let (strout, strerr) = syscall str_wif_gen in 
       strip_last_char strout
@@ -1478,10 +1478,11 @@ value list_of_alternate_words acc str =
 value process parses = do {
   (*let offline_file = "word_gen.txt"  in
   let cho = open_out offline_file in *)
-  (*List.iter print_parse_id parses*)  (* we print the input for verification *)
+  (*List.iter print_parse_id parses; *) (* we print the input for verification *)
   let root_info_list = load_root_info (datapath ^ "dhatu_info_chart_uBaya_wx.rem") in
    let str = get_generated_words parses root_info_list in (*do
-  { List.iter print_string str ; *)
+  { List.iter print_string str ; 
+    print_string "done"; *)
   let comb = list_of_alternate_words [] str in 
   let gen_sents = n_cartesian_product comb in 
   List.iter print_words gen_sents

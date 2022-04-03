@@ -1,4 +1,4 @@
-value datapath = "/home/amba/scl/skt_gen/Sentence/data/";
+value datapath = "/Users/ambakulkarni/amba/scl/skt_gen/Sentence/data/";
 
 value split2 str fmt =  Scanf.sscanf str fmt (fun x y -> (x,y))
 ;
