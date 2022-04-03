@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-IV/SV-28/28.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-28/28.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">28.A</a>#!html/SV-IV/SV-28/28.jpg#!row1#!NA#!इह
+row2#!number#!28.B</a>#!row2#!NA#!इह 
+row3#!number#!28.C</a>#!row3#!NA#!इह{अव्य} 
+row4#!number#!28.D</a>#!row4#!NA#!<a (click)=showDic('इह')>इह</a>{अव्य} 
+row5#!number#!28.E</a>#!row5#!NA#!अधिकरणम्,9
+row6#!number#!28.F</a>#!row6#!NA#!इस (रैवतक पर्वत_पर)
+row7#!number#!28.G</a>#!row7#!NA#!Here
+row8#!number#!28.H#!row8#!NA#!
+row9#!number#!28.I</a>#!row9#!NA#!
+row10#!number#!28.J</a>#!row10#!NA#!
+row11#!number#!28.K</a>#!row11#!NA#!
+row12#!number#!28.L</a>#!row12#!NA#!
+
+row1#!n1#!सान्द्र-सुधा-सवर्णा
+row2#!n1#!सान्द्र-सुधा-सवर्णा 
+row3#!n1#!सान्द्र-सुधा-सवर्णा{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('सान्द्र')>सान्द्र</a>-<a (click)=showDic('सुधा')>सुधा</a>-<a (click)=showDic('सवर्णा')>सवर्णा</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!सघन चूने_के_समान
+row7#!n1#!as white as thick white-wash
+row8#!n1#!<a href="html/SV-IV/SV-28/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-28/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<सान्द्र-सुधा>K3-सवर्णा>Bs6</a>#!html/SV-IV/SV-28/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!'ज्योतिर्जनपद-' (6।3।85) इत्यादिना समानस्य सादेशः ।
+
+row1#!n1#!महारजत-राजि-विराजिता
+row2#!n1#!महारजत-राजि-विराजिता 
+row3#!n1#!महारजत-राजिन्-विराजिता{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('महारजत')>महारजत</a>-<a (click)=showDic('राजि')>राजि</a>-<a (click)=showDic('विराजिता')>विराजिता</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!सोने_की_रेखा_से_सुशोभित
+row7#!n1#!adorned with a line of gold
+row8#!n1#!<a href="html/SV-IV/SV-28/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-28/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<महा-रजत>K1-राजि>T6-विराजिता>T3</a>#!html/SV-IV/SV-28/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!असौ
+row2#!n1#!असौ 
+row3#!n1#!अदस्{पुं}{1;एक}/अदस्{स्त्री}{1;एक}/असि{पुं}{7;एक}/असि{स्त्री}{7;एक}/असु{पुं}{7;एक} 
+row4#!n1#!<a (click)=showDic('अदस्')>अदस्</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!यह
+row7#!n1#!this
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!उच्चैः
+row2#!NA#!उच्चैः 
+row3#!NA#!उच्चैः{अव्य}/उच्च{पुं}{3;बहु}/उच्च{नपुं}{3;बहु} 
+row4#!NA#!<a (click)=showDic('उच्चैः')>उच्चैः</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!NA#!ऊँची
+row7#!NA#!lofty
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!दुर्वर्ण-भित्तिः
+row2#!n1#!दुर्वर्ण-भित्तिः 
+row3#!n1#!दुर्वर्ण-भित्ति{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('दुर्वर्ण')>दुर्वर्ण</a>-<a (click)=showDic('भित्ति')>भित्ति</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,9</a>
+row6#!n1#!चाँदी_की_दीवार
+row7#!n1#!wall of silver
+row8#!n1#!<a href="html/SV-IV/SV-28/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-28/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<दुर्-वर्ण>Bs6-भित्तिः>T6</a>#!html/SV-IV/SV-28/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!भस्म-परिपाण्डुरित-स्मरारेः
+row2#!n6#!भस्म-परिपाण्डुरित-स्मरारेः
+row3#!n6#!भस्म-परिपाण्डुरित-स्मरारि{पुं}{5;एक}/स्मरारि{पुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('भस्म')>भस्म</a>-<a (click)=showDic('परिपाण्डुरित')>परिपाण्डुरित</a>-<a (click)=showDic('स्मरारि')>स्मरारि</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,8</a>
+row6#!n6#!भस्म_से_श्वेतवर्ण शंकर_जी_के
+row7#!n6#!whitened with ashes of lord Śiva
+row8#!n6#!<a href="html/SV-IV/SV-28/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-28/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<भस्म-परिपाण्डुरित>T3-स्मरारिः>K2</a>#!html/SV-IV/SV-28/samaasa4.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!उद्वह्नि-लोचन-ललाम-ललाट-लीलाम्
+row2#!n2#!उद्वह्नि-लोचन-ललाम-ललाट-लीलाम् 
+row3#!n2#!उद्वह्नि-लोचन-ललामन्-ललाट-लीला{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('उद्वह्नि')>उद्वह्नि</a>-<a (click)=showDic('लोचन')>लोचन</a>-<a (click)=showDic('ललाम')>ललाम</a>-<a (click)=showDic('ललाट')>ललाट</a>-<a (click)=showDic('लीला')>लीला</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,9</a>
+row6#!n2#!आग निकलते_हुए_नेत्र_से_सुन्दर ललाट_की_शोभा_को
+row7#!n2#!forehead with his flaming eye
+row8#!n2#!<a href="html/SV-IV/SV-28/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-28/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<उद्-वह्नि>Bs5-लोचन>K1-ललाम>Bs6-ललाट>K1-लीला>T6</a>#!html/SV-IV/SV-28/samaasa5.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!अभ्येति.
+row2#!v#!अभ्येति 
+row3#!v#!अभि_इ1{कर्तरि;लट्;प्र;एक;परस्मैपदी;इण्;अदादिः}.
+row4#!v#!<a (click)=showDic('अभि_इ1')>अभि_इ1</a>{कर्तरि;लट्;प्र;एक;परस्मैपदी;इण्;अदादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!धारण_कर_रही_हैं.
+row7#!v#!adorns.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!वसन्ततिलका ।
+row11#!v#!निदर्शना ।
+row12#!v#!
+
+

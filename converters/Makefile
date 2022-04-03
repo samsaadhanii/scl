@@ -1,5 +1,7 @@
 SHELL = /bin/sh
 
+include ../paths.sh
+
 .PHONY: all clean
 
 TARGETS = ir ri ri_skt ir_skt itrans_ra.out logical_itrans.out rm__between_vowels.out kyoto_ra.out wx2utf8roman.out add_vowel_sep.out ra_itrans.out ra_kyoto.out wx2slp.out slp2wx.out velthuis-wx.out wx-velthuis.out utf8roman2wx.out
@@ -18,6 +20,15 @@ $(FLEX) $^
 $(CC) $(CFLAGS) $@ lex.yy.c -ll
 rm lex.yy.c
 endef
+
+install:
+	mkdir -p $(CGIDIR)/scl/converters
+	cp *.out $(CGIDIR)/scl/converters
+	cp *.pl $(CGIDIR)/scl/converters
+	cp *.sh $(CGIDIR)/scl/converters
+	cp *.py $(CGIDIR)/scl/converters
+	cp ir ir_skt ri ri_skt $(CGIDIR)/scl/converters
+
 
 add_vowel_sep.out: add_vowel_sep.lex
 	$(run_lex)

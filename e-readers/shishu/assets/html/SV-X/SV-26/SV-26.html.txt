@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-X/SV-26/26.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-26/26.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">26.A</a>#!html/SV-X/SV-26/26.jpg#!row1#!NA#!उपालि
+row2#!number#!26.B</a>#!row2#!NA#!उपालि
+row3#!number#!26.C</a>#!row3#!NA#!उपालि}
+row4#!number#!26.D</a>#!row4#!NA#!<a (click)=showDic('उपालि')>उपालि</a>{अव्य}
+row5#!number#!26.E</a>#!row5#!NA#!अधिकरणम्,9
+row6#!number#!26.F</a>#!row6#!NA#!सखियों के समीप
+row7#!number#!26.G</a>#!row7#!NA#!in front of (their) friends
+row8#!number#!26.H#!row8#!NA#!<a href="html/SV-X/SV-26/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-26/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><उप-आलि>A1</a>#!html/SV-X/SV-26/samaasa1.jpg
+row9#!number#!26.I</a>#!row9#!NA#!
+row10#!number#!26.J</a>#!row10#!NA#!
+row11#!number#!26.K</a>#!row11#!NA#!
+row12#!number#!26.L</a>#!row12#!NA#!समीपार्थेऽव्ययीभावः ।
+
+row1#!n1#!निभृतचुम्बन-दक्षाः
+row2#!n1#!निभृतचुम्बन-दक्षाः
+row3#!n1#!निभृतचुम्बन-दक्ष{;पुं;8;बहु}/दक्ष{;पुं;1;बहु}/दक्षा{;स्त्री;8;बहु}/दक्षा{;स्त्री;1;बहु}/दक्षा{;स्त्री;2;बहु}
+row4#!n1#!<a (click)=showDic('निभृतचुम्बन')>निभृतचुम्बन</a>-<a (click)=showDic('दक्षा')>दक्षा</a>{;स्त्री;1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n1#!गूढ़ चुम्बन करने में चतुर
+row7#!n1#!who were experts in kissing
+row8#!n1#!<a href="html/SV-X/SV-26/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-26/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<निभृत-चुम्बन>K3-दक्षा>T7</a>#!html/SV-X/SV-26/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!सुभ्रुवः
+row2#!n1#!सुभ्रुवः
+row3#!n1#!सुभ्रू{;स्त्री;6;एक}/भ्रू{;स्त्री;5;एक}/भ्रू{;स्त्री;1;बहु}/भ्रू{;स्त्री;2;बहु}/भ्रू{;स्त्री;8;बहु}/भ्रू{;पुं;8;बहु}/भ्रू{;पुं;5;एक}/भ्रू{;पुं;6;एक}/भ्रू{;पुं;1;बहु}/भ्रू{;पुं;2;बहु}
+row4#!n1#!<a (click)=showDic('सुभ्रू')>सुभ्रू</a>{;स्त्री;1;बहु}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,9</a>
+row6#!n1#!सुन्दर भौहोंवाली रमणियों ने
+row7#!n1#!the beautiful women
+row8#!n1#!<a href="html/SV-X/SV-26/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-26/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सु-भ्रुवः>Bs6</a>#!html/SV-X/SV-26/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!पानधौतनवयावक-रागं
+row2#!n2#!पानधौतनवयावक-रागं
+row3#!n2#!पानधौतनवयावक-राग{;पुं;2;एक}/राग{;नपुं;1;एक}/राग{;नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('पानधौतनवयावक')>पानधौतनवयावक</a>-<a (click)=showDic('राग')>राग</a>{;पुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n2#!मधुपान करने से प्रक्षालित (विलुप्त हुए) लाक्षारसवाले
+row7#!n2#!when the lipstick (a color that is dyed with lac) was erased by consuming liquor
+row8#!n2#!<a href="html/SV-X/SV-26/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-26/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<पान-धौत>T3-<नव-<यावक-रागः>T6>K3>K3</a>#!html/SV-X/SV-26/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!स्वम्
+row2#!n2#!स्वम्
+row3#!n2#!स्व{;पुं;2;एक}/स्व{;नपुं;1;एक}/स्व{;नपुं;2;एक}/स्व{सर्वनाम;पुं;2;एक}
+row4#!n2#!<a (click)=showDic('स्व')>स्व</a>{;पुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n2#!अपने
+row7#!n2#!their
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!अधरं
+row2#!n2#!अधरं
+row3#!n2#!अधर{;पुं;2;एक}/अधर{;नपुं;1;एक}/अधर{;नपुं;2;एक}/अधर{सर्वनाम;पुं;2;एक}/अधर{सर्वनाम;नपुं;1;एक}/अधर{सर्वनाम;नपुं;2;एक}/धृ1{कर्तरि;लङ्;उ;एक;परस्मैपदी;धृञ्;भ्वादिः}
+row4#!n2#!<a (click)=showDic('अधर')>अधर</a>{;पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,9</a>
+row6#!n2#!होंठ_को
+row7#!n2#!lips
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n6#!प्रेयसाम्
+row2#!n6#!प्रेयसाम्
+row3#!n6#!प्रेयस्{;पुं;6;बहु}/प्रेयस्{;नपुं;6;बहु}
+row4#!n6#!<a (click)=showDic('प्रेयस्')>प्रेयस्</a>{;पुं;6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,8</a>
+row6#!n6#!प्रियतमों के
+row7#!n6#!of (their) beloved
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n3#!अधरराग-रसेन
+row2#!n3#!अधरराग-रसेन
+row3#!n3#!अधरराग-रस{;पुं;3;एक}/रस{;नपुं;3;एक}
+row4#!n3#!<a (click)=showDic('अधरराग')>अधरराग</a>-<a (click)=showDic('रस')>रस</a>{;पुं;3;एक}
+row5#!n3#!<a href="javascript:show('हेतुः,')">हेतुः,9</a>
+row6#!n3#!अधर के राग के रस (लालिमा) से
+row7#!n3#!with the liquid on the lips
+row8#!n3#!<a href="html/SV-X/SV-26/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-26/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<अधर-राग>T6-रसः>T6</a>#!html/SV-X/SV-26/samaasa5.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!v#!ररञ्जुः
+row2#!v#!ररञ्जुः
+row3#!v#!रन्ज्1{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;रन्जँ;भ्वादिः}
+row4#!v#!<a (click)=showDic('रन्ज्1')>रन्ज्1</a>{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;रन्जँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!रंग_लिया
+row7#!v#!had painted
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!स्वागता ।
+row11#!v#!मीलनम् ।
+row12#!v#!
+
+row1#!NA#!किल
+row2#!NA#!किल
+row3#!NA#!किल{अव्य}/किल्1{कर्तरि;लोट्;म;एक;परस्मैपदी;किलँ;तुदादिः}
+row4#!NA#!<a (click)=showDic('किल')>किल</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,9</a>
+row6#!NA#!हि.
+row7#!NA#!indeed.
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+

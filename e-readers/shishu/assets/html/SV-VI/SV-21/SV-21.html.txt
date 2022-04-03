@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-VI/SV-21/21.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-21/21.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">21.A</a>#!html/SV-VI/SV-21/21.jpg#!row1#!n1#!अरुणित-अखिल-शैलवना
+row2#!number#!21.B</a>#!row2#!n1#!अरुणित-अखिल-शैलवना
+row3#!number#!21.C</a>#!row3#!n1#!अरुणित-अखिल-शैलवन{नपुं;1;एक}/वन{नपुं;2;एक}/वन{नपुं;2;एक}
+row4#!number#!21.D</a>#!row4#!n1#!<a (click)=showDic('अरुणित')>अरुणित</a>-<a (click)=showDic('अखिल')>अखिल</a>-<a (click)=showDic('शैल')>शैल</a>-<a (click)=showDic('वना')>वना</a>{स्त्री;1;एक}
+row5#!number#!21.E</a>#!row5#!n1#!कर्ता,5
+row6#!number#!21.F</a>#!row6#!n1#!समस्त पर्वत के वन को लाल बनाये हुये
+row7#!number#!21.G</a>#!row7#!n1#!while reddening the entire forest range of the mountain
+row8#!number#!21.H#!row8#!n1#!<a href="html/SV-VI/SV-21/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-21/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<अरुणित-अखिल>K1-<शैल-वना>T6>Bs3</a>#!html/SV-VI/SV-21/samaasa1.jpg
+row9#!number#!21.I</a>#!row9#!n1#!
+row10#!number#!21.J</a>#!row10#!n1#!
+row11#!number#!21.K</a>#!row11#!n1#!
+row12#!number#!21.L</a>#!row12#!n1#!
+
+row1#!NA#!मुहुः
+row2#!NA#!मुहुः
+row3#!NA#!मुहुः{अव्य}/मुहुः{अव्य}
+row4#!NA#!<a (click)=showDic('मुहुः')>मुहुः</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,5</a>
+row6#!NA#!बार-बार
+row7#!NA#!frequently
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!पथिकान्
+row2#!n2#!पथिकान्
+row3#!n2#!पथिक{पुं;2;बहु}
+row4#!n2#!<a (click)=showDic('पथिक')>पथिक</a>{पुं;2;बहु}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,5</a>
+row6#!n2#!पथिकों_को
+row7#!n2#!travelers
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!परि-तापिनः
+row2#!n2#!परि-तापिनः
+row3#!n2#!परि-{अव्य-तापिनः}
+row4#!n2#!<a (click)=showDic('परि')>परि</a>-<a (click)=showDic('तापिनः')>तापिनः</a>{पुं;2;बहु}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n2#!विरही
+row7#!n2#!who were separated by their beloved
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!विदधती
+row2#!n1#!विदधती
+row3#!n1#!विदधती{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('वि_धा1')>वि_धा1</a>{शतृ_लट्;डुधाञ्;जुहोत्यादिः;स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,9</a>
+row6#!n1#!सन्तप्त_करते_हुए
+row7#!n1#!making distressed
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!उच्चकैः
+row2#!NA#!उच्चकैः
+row3#!NA#!उच्चकैः{अव्य}/उच्चक{पुं;3;बहु}/उच्चक{नपुं;3;बहु}
+row4#!NA#!<a (click)=showDic('उच्चकैः')>उच्चकैः</a>{अव्य}
+row5#!NA#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!NA#!ऊँचे
+row7#!NA#!high
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!'अव्ययसर्वनाम्नामकच्प्राक्टेः' (5।3।71) इत्यकच् प्रत्ययः ।
+
+row1#!n1#!विकच-किंशुक-संहतिः
+row2#!n1#!विकच-किंशुक-संहतिः
+row3#!n1#!विकच-किंशुक-संहति{स्त्री;1;एक}/संहति{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('विकच')>विकच</a>-<a (click)=showDic('किंशुक')>किंशुक</a>-<a (click)=showDic('संहति')>संहति</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,9</a>
+row6#!n1#!खिले हुए ढाक के फूलों के समूह ने
+row7#!n1#!the shrubs of 'Butea' flowers
+row8#!n1#!<a href="html/SV-VI/SV-21/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-21/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><विकच-<किंशुक-संहतिः>T6>K3</a>#!html/SV-VI/SV-21/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!दवहव्यवह-श्रियम्
+row2#!n2#!दवहव्यवह-श्रियम्
+row3#!n2#!दवहव्यवह-श्री{स्त्री;2;एक}/श्री{स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('दवहव्यवह')>दवहव्यवह</a>-<a (click)=showDic('श्री')>श्री</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,9</a>
+row6#!n2#!वन अग्नि की शोभा को
+row7#!n2#!the beauty of fire in the forest
+row8#!n2#!<a href="html/SV-VI/SV-21/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-21/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<दव-<हव्य-वह>U>T6-श्रीः>T6</a>#!html/SV-VI/SV-21/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!अवहत्
+row2#!v#!अवहत्
+row3#!v#!उत्_वह्1{कर्तरि;लङ्;प्र;एक;परस्मैपदी;वहँ;भ्वादिः}
+row4#!v#!<a (click)=showDic('उत्_वह्1')>उत्_वह्1</a>{कर्तरि;लङ्;प्र;एक;परस्मैपदी;वहँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!धारण_किया.
+row7#!v#!held.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!निदर्शना + यमकम् = सङ्करः ।
+row12#!v#!
+
+

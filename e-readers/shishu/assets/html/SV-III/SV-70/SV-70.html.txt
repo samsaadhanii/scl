@@ -1,0 +1,92 @@
+row1#!number#!<a href="html/SV-III/SV-70/70.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-70/70.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">70.A</a>#!html/SV-III/SV-70/70.jpg#!row1#!n1#!मुरारिः
+row2#!number#!70.B</a>#!row2#!n1#!मुरारिः 
+row3#!number#!70.C</a>#!row3#!n1#!मुरारि{पुं}{1;एक} 
+row4#!number#!70.D</a>#!row4#!n1#!<a (click)=showDic('मुरारि')>मुरारि</a>{पुं}{1;एक} 
+row5#!number#!70.E</a>#!row5#!n1#!कर्ता,7
+row6#!number#!70.F</a>#!row6#!n1#!श्रीकृष्ण भगवान_ने
+row7#!number#!70.G</a>#!row7#!n1#!Murāri
+row8#!number#!70.H#!row8#!n1#!<a href="html/SV-III/SV-70/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-70/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><मुर-अरिः>T6</a>#!html/SV-III/SV-70/samaasa1.jpg
+row9#!number#!70.I</a>#!row9#!n1#!
+row10#!number#!70.J</a>#!row10#!n1#!
+row11#!number#!70.K</a>#!row11#!n1#!
+row12#!number#!70.L</a>#!row12#!n1#!
+
+row1#!n6#!नीरनिधेः
+row2#!n6#!नीरनिधेः 
+row3#!n6#!नीरनिधि{पुं}{5;एक}/नीरनिधि{पुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('नीरनिधि')>नीरनिधि</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,3</a>
+row6#!n6#!समुद्र_के
+row7#!n6#!of ocean
+row8#!n6#!<a href="html/SV-III/SV-70/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-70/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><नीर-निधिः>T6</a>#!html/SV-III/SV-70/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!NA#!पारे-जलम्
+row2#!NA#!पारे-जलम् 
+row3#!NA#!पारे-जल{नपुं}{1;एक}/जल{नपुं}{2;एक} 
+row4#!NA#!<a (click)=showDic('पारे')>पारे</a>-<a (click)=showDic('जल')>जल</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अधिकरण,')">अधिकरण,7</a>
+row6#!NA#!जल_के_पार_से
+row7#!NA#!beyond the waters of
+row8#!NA#!<a href="html/SV-III/SV-70/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-70/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><पार-जलम्>A7</a>#!html/SV-III/SV-70/samaasa3.jpg
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!‘पारे मध्ये षष्ठ्या वा’ (2।1।18) इत्यव्ययीभावः ।
+
+row1#!n2#!आनील-पलाश-राशीः
+row2#!n2#!आनील-पलाश-राशीः 
+row3#!n2#!आनील-पलाश-राशीः 
+row4#!n2#!<a (click)=showDic('आनील')>आनील</a>-<a (click)=showDic('पलाश')>पलाश</a>-<a (click)=showDic('राशीः')>राशीः</a>{स्त्री}{2;बहु}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n2#!अत्यन्त श्यामवर्ण पत्तों_के_समूहवाले
+row7#!n2#!with their masses of bluish leaves
+row8#!n2#!<a href="html/SV-III/SV-70/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-70/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><आनीलपलाश-राशिः>Bs6</a>#!html/SV-III/SV-70/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!उत्कलिका-सहस्र-प्रतिक्षण-उत्कूलित-शैवल-आभाः
+row2#!n2#!उत्कलिका-सहस्र-प्रतिक्षण-उत्कूलित-शैवल-आभाः 
+row3#!n2#!उत्कलिका-सहस्र-प्रतिक्षण-उत्कूलित-शैव-लाभ{पुं}{1;बहु} 
+row4#!n2#!<a (click)=showDic('उत्कलिका')>उत्कलिका</a>-<a (click)=showDic('सहस्र')>सहस्र</a>-<a (click)=showDic('प्रतिक्षण')>प्रतिक्षण</a>-<a (click)=showDic('उत्कूलित')>उत्कूलित</a>-<a (click)=showDic('शैवल')>शैवल</a>-<a (click)=showDic('आभ')>आभ</a>{स्त्री}{2;बहु}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n2#!सहस्रों तरंगों_से_प्रतिक्षण_किनारे_ढेर_किये_गये_शैवाल_के_समान_शोभमान
+row7#!n2#!of moss thrown up every moment by a thousand waves
+row8#!n2#!<a href="html/SV-III/SV-70/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-70/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<उत्कलिका-सहस्र>T6-प्रतिक्षणोत्कूलित>T3-शैवल>K2-आभा>Bs6</a>#!html/SV-III/SV-70/samaasa5.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!वन-आवलीः
+row2#!n2#!वन-आवलीः 
+row3#!n2#!वन-आवलि{स्त्री}{2;बहु} 
+row4#!n2#!<a (click)=showDic('वन')>वन</a>-<a (click)=showDic('आवलि')>आवलि</a>{स्त्री}{2;बहु} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,7</a>
+row6#!n2#!वनपंक्तियों_को
+row7#!n2#!long stretches of forests
+row8#!n2#!<a href="html/SV-III/SV-70/samaasa6.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-70/samaasa6.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><वन-आवलिः>T6</a>#!html/SV-III/SV-70/samaasa6.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!अपश्यत्.
+row2#!v#!अपश्यत् 
+row3#!v#!दृश्1{कर्तरि;लङ्;प्र;एक;परस्मैपदी;दृशिँर्;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('दृश्1')>दृश्1</a>{कर्तरि;लङ्;प्र;एक;परस्मैपदी;दृशिँर्;भ्वादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!देखा. 
+row7#!v#!saw.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!उपजाति ।
+row11#!v#!उपमा + उत्प्रेक्षा = सङ्करः ।
+row12#!v#!
+
+

@@ -1,0 +1,183 @@
+row1#!number#!<a href="html/SV-X/SV-65/65.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-65/65.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">65.A</a>#!html/SV-X/SV-65/65.jpg#!row1#!n1#!आयत-अङ्गुलिः
+row2#!number#!65.B</a>#!row2#!n1#!आयत-अङ्गुलिः
+row3#!number#!65.C</a>#!row3#!n1#!आयत{पुं-अङ्गुलि;;स्त्री;1;एक(;घञ्;यतीँ;भ्वादिः)}/अङ्गुलि{;पुं;1;एक}
+row4#!number#!65.D</a>#!row4#!n1#!<a (click)=showDic('आयत')>आयत</a>-<a (click)=showDic('अङ्गुलि')>अङ्गुलि</a>{पुं;1;एक}
+row5#!number#!65.E</a>#!row5#!n1#!विशेषणम्,2
+row6#!number#!65.F</a>#!row6#!n1#!दीर्घाङ्गुलियों वाला
+row7#!number#!65.G</a>#!row7#!n1#!Possessed with long fingers
+row8#!number#!65.H#!row8#!n1#!<a href="html/SV-X/SV-65/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-65/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><आयत-अङ्गुलिः>Bs6</a>#!html/SV-X/SV-65/samaasa1.jpg
+row9#!number#!65.I</a>#!row9#!n1#!
+row10#!number#!65.J</a>#!row10#!n1#!
+row11#!number#!65.K</a>#!row11#!n1#!
+row12#!number#!65.L</a>#!row12#!n1#!
+
+row1#!n1#!प्रिय-करः
+row2#!n1#!प्रिय-करः
+row3#!n1#!प्रिय-कर{;पुं;1;एक}
+row4#!n1#!<a (click)=showDic('प्रिय')>प्रिय</a>-<a (click)=showDic('कर')>कर</a>{;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,7</a>
+row6#!n1#!प्रियतम का हाथ
+row7#!n1#!the hand of the beloved
+row8#!n1#!<a href="html/SV-X/SV-65/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-65/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><प्रिय-करः>T6</a>#!html/SV-X/SV-65/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n7#!क्रशिम-शालिनि
+row2#!n7#!क्रशिम-शालिनि
+row3#!n7#!क्रशिम-शालिनी{;स्त्री;8;एक}/शालिन्{;पुं;7;एक}/शालिन्{;नपुं;7;एक}/शालि{;नपुं;7;एक}
+row4#!n7#!<a (click)=showDic('क्रशिम')>क्रशिम</a>-<a (click)=showDic('शालिन्')>शालिन्</a>{;पुं;7;एक}
+row5#!n7#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n7#!पतली
+row7#!n7#!lean
+row8#!n7#!<a href="html/SV-X/SV-65/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-65/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><क्रशिम-शाली>U</a>#!html/SV-X/SV-65/samaasa3.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!‘पृथ्वादिभ्य इमनिज्वा’ (5।1।122) ‘र ऋतो हलादेर्लघोः’ (6।4।161) इति रेफादेशः ।
+
+row1#!n6#!सुभ्रुवां
+row2#!n6#!सुभ्रुवां
+row3#!n6#!सुभ्रुवाम्}
+row4#!n6#!<a (click)=showDic('सुभ्रू')>सुभ्रू</a>{स्त्री;6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,5</a>
+row6#!n6#!सुन्दर-बारीक-भौंहों वाली (रमणियों) के
+row7#!n6#!of the young women possessed with thick eye-brows
+row8#!n6#!<a href="html/SV-X/SV-65/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-65/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सु-भ्रुवः>Bs6</a>#!html/SV-X/SV-65/samaasa4.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!मध्ये
+row2#!n1#!मध्ये
+row3#!n1#!मध्य{;नपुं;1;द्वि}/मध्य{;नपुं;2;द्वि}/मध्या{;स्त्री;1;द्वि}/मध्या{;स्त्री;2;द्वि}/मध्य{;नपुं;8;द्वि}/मध्या{;स्त्री;8;एक}/मध्या{;स्त्री;8;द्वि}/मध्य{;पुं;7;एक}/मध्य{;नपुं;7;एक}
+row4#!n1#!<a (click)=showDic('मध्य')>मध्य</a>{;पुं;1;7;एक}
+row5#!n1#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,7</a>
+row6#!n1#!कटिभाग में
+row7#!n1#!on the waist
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!अति-रिक्तः
+row2#!n1#!अति-रिक्तः
+row3#!n1#!रिक्त{;पुं;1;एक(अति-;क्त;रिचिँर्;रुधादिः)}
+row4#!n1#!<a (click)=showDic('अतिरिक्त')>अतिरिक्त</a>{;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्तृसमानाधिकरणम्,')">कर्तृसमानाधिकरणम्,7</a>
+row6#!n1#!अधिक बड़ा
+row7#!n1#!very big
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!अभूत्
+row2#!v#!अभूत्
+row3#!v#!भू1{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;भू;भ्वादिः}
+row4#!v#!<a (click)=showDic('भू1')>भू1</a>{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;भू;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!हो_गया.
+row7#!v#!became.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!n7#!पृथुलासु
+row2#!n7#!पृथुलासु
+row3#!n7#!पृथुला{;स्त्री;7;बहु}
+row4#!n7#!<a (click)=showDic('पृथुला')>पृथुला</a>{;स्त्री;7;बहु}
+row5#!n7#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,2</a>
+row6#!n7#!विशाल
+row7#!n7#!Large
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!श्रोणिषु
+row2#!n7#!श्रोणिषु
+row3#!n7#!श्रोणि{;स्त्री;7;बहु}
+row4#!n7#!<a (click)=showDic('श्रोणि')>श्रोणि</a>{;स्त्री;7;बहु}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,6</a>
+row6#!n7#!नितम्बों को
+row7#!n7#!hips
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n3#!सकलेन
+row2#!n3#!सकलेन
+row3#!n3#!सकल{;पुं;3;एक}/सकल{;नपुं;3;एक}
+row4#!n3#!<a (click)=showDic('सकल')>सकल</a>{;पुं;3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n3#!सम्पूर्ण_से
+row7#!n3#!thoroughly
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!तलेन
+row2#!n3#!तलेन
+row3#!n3#!तल{;पुं;3;एक}/तल{;नपुं;3;एक}
+row4#!n3#!<a (click)=showDic('तल')>तल</a>{;पुं;3;एक}
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,6</a>
+row6#!n3#!हथेली_से
+row7#!n3#!(his) palms
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n2#!स्पर्शम्
+row2#!n2#!स्पर्शम्
+row3#!n2#!स्पर्श{;पुं;2;एक}
+row4#!n2#!<a (click)=showDic('स्पर्श')>स्पर्श</a>{;पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,6</a>
+row6#!n2#!स्पर्श
+row7#!n2#!touch
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!आप
+row2#!v#!आप
+row3#!v#!आप}
+row4#!v#!<a (click)=showDic('आप्1')>आप्1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;आपॢँ;स्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!किया.
+row7#!v#!obtained.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!स्वागता ।
+row11#!v#!अतिशयोक्तिः ।
+row12#!v#!
+
+

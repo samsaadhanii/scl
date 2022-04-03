@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-VII/SV-18/18.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-18/18.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">18.A</a>#!html/SV-VII/SV-18/18.jpg#!row1#!NA#!अथ
+row2#!number#!18.B</a>#!row2#!NA#!अथ
+row3#!number#!18.C</a>#!row3#!NA#!अथ{अव्य}/अथ{अव्य}
+row4#!number#!18.D</a>#!row4#!NA#!<a (click)=showDic('अथ')>अथ</a>{अव्य}
+row5#!number#!18.E</a>#!row5#!NA#!सम्बन्धः,10
+row6#!number#!18.F</a>#!row6#!NA#!उसके_बाद
+row7#!number#!18.G</a>#!row7#!NA#!After that
+row8#!number#!18.H#!row8#!NA#!
+row9#!number#!18.I</a>#!row9#!NA#!
+row10#!number#!18.J</a>#!row10#!NA#!
+row11#!number#!18.K</a>#!row11#!NA#!
+row12#!number#!18.L</a>#!row12#!NA#!
+
+row1#!n1#!गुरुतरकलनूपुरानु-नादं
+row2#!n1#!गुरुतरकलनूपुरानु-नादं
+row3#!n1#!गुरुतरकलनूपुरानु-नाद{पुं;2;एक}
+row4#!n1#!<a (click)=showDic('गुरुतरकलनूपुरानु')>गुरुतरकलनूपुरानु</a>-<a (click)=showDic('नाद')>नाद</a>{नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,10</a>
+row6#!n1#!अत्यधिक मधुर नूपुर-ध्वनि को बजाती हुई
+row7#!n1#!while knelling the sound of anklets
+row8#!n1#!<a href="html/SV-VII/SV-18/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-18/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<गुरुतर-कल>K1-<नूपुर-अनुनादः>T6>Bs7</a>#!html/SV-VII/SV-18/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!सललितनर्तितवामपाद-पद्मा
+row2#!n1#!सललितनर्तितवामपाद-पद्मा
+row3#!n1#!सललितनर्तितवामपाद-पद्मा{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('सललितनर्तितवामपाद')>सललितनर्तितवामपाद</a>-<a (click)=showDic('पद्मा')>पद्मा</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n1#!विलासपूर्वक दक्षिणेतर (वाम) पैर को नचाती हुई
+row7#!n1#!while making dance her left leg
+row8#!n1#!<a href="html/SV-VII/SV-18/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-18/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<सललित-नर्तित>K1-<वाम-<पाद-पद्मा>K5>K1>Bs3</a>#!html/SV-VII/SV-18/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इतरद्
+row2#!NA#!इतरद्
+row3#!NA#!इतरद्}
+row4#!NA#!<a (click)=showDic('इतरद्')>इतरद्</a>{अव्य}
+row5#!NA#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!NA#!अन्य (दक्षिण)
+row7#!NA#!(her) another
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!पदम्
+row2#!n2#!पदम्
+row3#!n2#!पद्{पुं;2;एक}/पद{नपुं;1;एक}/पद{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('पद')>पद</a>{नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,7</a>
+row6#!n2#!पैर_को
+row7#!n2#!leg (right)
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!अनति-लोलम्
+row2#!n2#!अनति-लोलम्
+row3#!n2#!अनति-लोल{पुं;2;एक}/लोल{नपुं;1;एक}/लोल{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('अनति')>अनति</a>-<a (click)=showDic('लोल')>लोल</a>{नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n2#!स्थिर
+row7#!n2#!stable
+row8#!n2#!<a href="html/SV-VII/SV-18/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-18/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-अतिलोलम्>Tn</a>#!html/SV-VII/SV-18/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!आ-दधाना
+row2#!n1#!आ-दधाना
+row3#!n1#!आ-{अव्य-दधाना;स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('आ_धा1')>आ_धा1</a>{कृत्_प्रत्ययः:शानच्;डुधाञ्;जुहोत्यादिः;स्त्री}{1;एक}
+row5#!n1#!<a href="javascript:show('कर्तृसमानाधिकरणम्,')">कर्तृसमानाधिकरणम्,8</a>
+row6#!n1#!रखती
+row7#!n1#!putting
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!(सति)
+row2#!n1#!सति
+row3#!n1#!सति{स्त्री;1;द्वि}/सति{स्त्री;2;द्वि}/सति{स्त्री;8;द्वि}/सती{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('अस्2')>अस्2</a>{शतृ_लट्;असँ;अदादिः;स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,10</a>
+row6#!n1#!हुई
+row7#!n1#!while
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!मन्मथ-मन्थरं
+row2#!n2#!मन्मथ-मन्थरं
+row3#!n2#!मन्मथ-मन्थर{पुं;2;एक}/मन्थर{नपुं;1;एक}/मन्थर{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('मन्मथ')>मन्मथ</a>-<a (click)=showDic('मन्थर')>मन्थर</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n2#!कामवश धीरे-धीरे
+row7#!n2#!due to laziness slowly
+row8#!n2#!<a href="html/SV-VII/SV-18/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-18/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><मन्मथ-मन्थरः>T3</a>#!html/SV-VII/SV-18/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!जगाम
+row2#!v#!जगाम
+row3#!v#!गम्1{कर्तरि;लिट्;उ;एक;परस्मैपदी;गमॢँ;भ्वादिः}/गम्1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;गमॢँ;भ्वादिः}
+row4#!v#!<a (click)=showDic('गम्1')>गम्1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;गमॢँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!गयी.
+row7#!v#!walked.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!पुष्पिताग्रा ।
+row11#!v#!-
+row12#!v#!
+
+

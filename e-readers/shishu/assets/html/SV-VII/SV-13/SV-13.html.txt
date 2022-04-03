@@ -1,0 +1,209 @@
+row1#!number#!<a href="html/SV-VII/SV-13/13.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-13/13.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">13.A</a>#!html/SV-VII/SV-13/13.jpg#!row1#!n7#!सखी-जने
+row2#!number#!13.B</a>#!row2#!n7#!सखी-जने
+row3#!number#!13.C</a>#!row3#!n7#!सखी-जनि{स्त्री;8;एक}/जन{पुं;7;एक}
+row4#!number#!13.D</a>#!row4#!n7#!<a (click)=showDic('सखी')>सखी</a>-<a (click)=showDic('जन')>जन</a>{पुं;7;एक}
+row5#!number#!13.E</a>#!row5#!n7#!कर्ता,3
+row6#!number#!13.F</a>#!row6#!n7#!सखी
+row7#!number#!13.G</a>#!row7#!n7#!Friend
+row8#!number#!13.H#!row8#!n7#!
+row9#!number#!13.I</a>#!row9#!n7#!
+row10#!number#!13.J</a>#!row10#!n7#!
+row11#!number#!13.K</a>#!row11#!n7#!
+row12#!number#!13.L</a>#!row12#!n7#!
+
+row1#!NA#!इति
+row2#!NA#!इति
+row3#!NA#!इति{अव्य}
+row4#!NA#!<a (click)=showDic('इति')>इति</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,3</a>
+row6#!NA#!ऐसा
+row7#!NA#!thus
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n7#!वदति
+row2#!n7#!वदति
+row3#!n7#!वद्1{कर्तरि;लट्;प्र;एक;परस्मैपदी;वदँ;भ्वादिः}/वदत्{पुं;7;एक}/वदत्{नपुं;7;एक}
+row4#!n7#!<a (click)=showDic('वद्1')>वद्1</a>{शतृ_लट्;वदँ;भ्वादिः;पुं;7;एक}
+row5#!n7#!<a href="javascript:show('भावलक्षणसप्तमी,')">भावलक्षणसप्तमी,16</a>
+row6#!n7#!कहते
+row7#!n7#!saying
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!(सति)
+row2#!n7#!सति
+row3#!n7#!सती{स्त्री;8;एक}/सत्{पुं;7;एक}/सत्{स्त्री;7;एक}/सत्{नपुं;7;एक}
+row4#!n7#!<a (click)=showDic('अस्2')>अस्2</a>{शतृ_लट्;असँ;अदादिः;पुं;7;एक}
+row5#!n7#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,3</a>
+row6#!n7#!हुए
+row7#!n7#!while
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n1#!अपरः
+row2#!n1#!अपरः
+row3#!n1#!अपर{पुं;1;एक}/अपर{पुं;1;एक}/पॄ3{कर्तरि;लङ्;म;एक;परस्मैपदी;पॄ;चुरादिः}
+row4#!n1#!<a (click)=showDic('अपर')>अपर</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,16</a>
+row6#!n1#!दूसरा
+row7#!n1#!another
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!दयित-तमाम्
+row2#!n2#!दयित-तमाम्
+row3#!n2#!दयित-तमा{स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('दयित')>दयित</a>-<a (click)=showDic('तमा')>तमा</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,9</a>
+row6#!n2#!प्रियतमा_को
+row7#!n2#!beloved
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n5#!अनुरागात्
+row2#!n5#!अनुरागात्
+row3#!n5#!अनुराग{पुं;5;एक}
+row4#!n5#!<a (click)=showDic('अनुराग')>अनुराग</a>{पुं;5;एक}
+row5#!n5#!<a href="javascript:show('हेतुः,')">हेतुः,9</a>
+row6#!n5#!अनुराग_से
+row7#!n5#!out of affection
+row8#!n5#!-
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!
+
+row1#!NA#!चिरं
+row2#!NA#!चिरं
+row3#!NA#!चिरम्{अव्य}/चिर{नपुं;1;एक}/चिर{नपुं;2;एक}
+row4#!NA#!<a (click)=showDic('चिरम्')>चिरम्</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,9</a>
+row6#!NA#!देर_तक
+row7#!NA#!for a longer time
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!प्रतीक्ष्य
+row2#!NA#!प्रतीक्ष्य
+row3#!NA#!प्रति_ईक्ष्1{अव्य;ल्यप्;ईक्षँ;भ्वादिः}
+row4#!NA#!<a (click)=showDic('प्रति_ईक्ष्1')>प्रति_ईक्ष्1</a>{अव्य;ल्यप्;ईक्षँ;भ्वादिः}
+row5#!NA#!<a href="javascript:show('पूर्वकालः,')">पूर्वकालः,16</a>
+row6#!NA#!प्रतीक्षा_करके
+row7#!NA#!having waited
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n5#!तदनु-गम-वशात्
+row2#!n5#!तदनु-गम-वशात्
+row3#!n5#!तदनु-गम-वश{पुं;5;एक}/वश{नपुं;5;एक}
+row4#!n5#!<a (click)=showDic('तदनु')>तदनु</a>-<a (click)=showDic('गम')>गम</a>-<a (click)=showDic('वश')>वश</a>{पुं;5;एक}
+row5#!n5#!<a href="javascript:show('हेतुः,')">हेतुः,12</a>
+row6#!n5#!उसके पीछे से आने के कारण
+row7#!n5#!since following him
+row8#!n5#!-
+row9#!n5#!<<तद्-अनुगम>T6-वशः>T6
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!
+
+row1#!n2#!अवनिम्
+row2#!n2#!अवनिम्
+row3#!n2#!अवनि{स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('अवनि')>अवनि</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,12</a>
+row6#!n2#!भूमि_को
+row7#!n2#!land
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!मिमानः
+row2#!n1#!मिमानः
+row3#!n1#!मिमान{पुं;1;एक}
+row4#!n1#!<a (click)=showDic('मा2')>मा2</a>{शानच्_लट्;माङ्;जुहोत्यादिः;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,13</a>
+row6#!n1#!नापते_हुए
+row7#!n1#!measuring
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!माङो लटः कर्तरि शनजादेशः । 'श्लौ' (6।1।10) इति द्विर्भावः ।
+
+row1#!NA#!इव
+row2#!NA#!इव
+row3#!NA#!इव{अव्य}
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,5</a>
+row6#!NA#!जैसे
+row7#!NA#!as if
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!अनायतानि
+row2#!n1#!अनायतानि
+row3#!n1#!अनायतानि}
+row4#!n1#!<a (click)=showDic('नञ्')>नञ्</a>-<a (click)=showDic('आ_या1')>आ_या1</a>{क्त;या;अदादिः;नपुं;1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,15</a>
+row6#!n1#!बिना_फैलाये_हुए
+row7#!n1#!without stretching much
+row8#!n1#!<a href="html/SV-VII/SV-13/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-13/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-आयतम्>Tn</a>#!html/SV-VII/SV-13/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!पदानि
+row2#!n2#!पदानि
+row3#!n2#!पद{नपुं;1;बहु}/पद{नपुं;2;बहु}/पद{नपुं;8;बहु}
+row4#!n2#!<a (click)=showDic('पद')>पद</a>{नपुं;2;बहु}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,16</a>
+row6#!n2#!पैर_को
+row7#!n2#!feet
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!न्यधित
+row2#!v#!न्यधित
+row3#!v#!नि_धा1{कर्तरि;लुङ्;प्र;एक;उभयपदी;डुधाञ्;जुहोत्यादिः}
+row4#!v#!<a (click)=showDic('नि_धा1')>नि_धा1</a>{कर्तरि;लुङ्;प्र;एक;उभयपदी;डुधाञ्;जुहोत्यादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!रखा.
+row7#!v#!placed.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!पुष्पिताग्रा ।
+row11#!v#!उत्प्रेक्षा ।
+row12#!v#!धाञो लुङि तङ् 'स्थाध्वोरिच्च' (1।2।17) इतीकारः सिचः कित्वान्न गुणः ह्रस्वादङ्गात्' (8।2।27) इति सकारलोपः ।
+
+

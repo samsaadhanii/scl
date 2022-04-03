@@ -1,0 +1,32 @@
+site_name: Samsaadhanii Docs
+site_description:
+site_author: Amba Kulkarni
+copyright: "&copy; 2020, Amba Kulkarni"
+remote_url: 
+
+repo_name: Gitea Source
+repo_url: http://scl.samsaadhanii.in:3000/amba/scl
+
+theme:
+  name: material
+  palette:
+    primary: blue grey
+
+nav:
+  - 'Introduction':
+    - Overview: index.md
+    - Installation: installation.md
+  - 'About':
+    - History: story.md
+    # - Contributors: credits.md
+    - License: gpl.md
+
+extra_css:
+  - css/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/groups/samsaadhanii/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCD4RiBYkZFG_MxPKQx_ud0Q

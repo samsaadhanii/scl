@@ -16,12 +16,13 @@ all:
 install:
 	rm -rf $(HTDOCSDIR)/scl
 	rm -rf $(CGIDIR)/scl
+	cd converters; make install
 	cd sandhi; make install
 	cd SHMT; make install
 	cd htdocs; make install
 	cd skt_gen; make install
 	cd transliteration; make install
-	cp paths.pl paths.sh $(CGIDIR)/scl
+	cp paths.pl paths.sh cgi_interface.pl $(CGIDIR)/scl
 	cd ashtadhyayi_simulator/june12; make install
 	cd amarakosha; make install
 	cd NN; make install

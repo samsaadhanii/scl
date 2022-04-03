@@ -1,0 +1,209 @@
+row1#!number#!<a href="html/SV-III/SV-62/62.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-62/62.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">62.A</a>#!html/SV-III/SV-62/62.jpg#!row1#!n3#!शिवैः
+row2#!number#!62.B</a>#!row2#!n3#!शिवैः 
+row3#!number#!62.C</a>#!row3#!n3#!शिव{पुं}{3;बहु} 
+row4#!number#!62.D</a>#!row4#!n3#!<a (click)=showDic('शिव')>शिव</a>{पुं}{3;बहु} 
+row5#!number#!62.E</a>#!row5#!n3#!विशेषणम्,2
+row6#!number#!62.F</a>#!row6#!n3#!शीतल-मन्द-सुगन्धों_से (रुद्रों_से)
+row7#!number#!62.G</a>#!row7#!n3#!By Śiva
+row8#!number#!62.H#!row8#!n3#!
+row9#!number#!62.I</a>#!row9#!n3#!
+row10#!number#!62.J</a>#!row10#!n3#!
+row11#!number#!62.K</a>#!row11#!n3#!
+row12#!number#!62.L</a>#!row12#!n3#!
+
+row1#!n3#!मरुद्भिः
+row2#!n3#!मरुद्भिः 
+row3#!n3#!मरुत्{पुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('मरुत्')>मरुत्</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,4</a>
+row6#!n3#!हवाओं_से (देवों_से)
+row7#!n3#!by breezes
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!(चिराय)
+row2#!NA#!चिराय
+row3#!NA#!चिराय{अव्य}/चिर{नपुं}{4;एक} 
+row4#!NA#!<a (click)=showDic('चिराय')>चिराय</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया_विशेषणम्,')">क्रिया_विशेषणम्,4</a>
+row6#!NA#!चिरकाल तक
+row7#!NA#!for a long time
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!निषेव्य-माणेन
+row2#!n3#!निषेव्यमाणेन
+row3#!n3#!निषेव्य-माण{पुं}{3;एक}/माण{नपुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('नि_सेव्1')>नि_सेव्1</a>{कृत्_प्रत्ययः:शानच्;षेवृँ;भ्वादिः;पुं}{3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n3#!सेवा_करते_हुए
+row7#!n3#!attended
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!हरिणा
+row2#!n3#!हरिणा 
+row3#!n3#!हरि{पुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('हरि')>हरि</a>{पुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,7</a>
+row6#!n3#!हरि_से 
+row7#!n3#!by Hari
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!चिराय
+row2#!NA#!चिराय 
+row3#!NA#!चिराय{अव्य}/चिर{नपुं}{4;एक} 
+row4#!NA#!<a (click)=showDic('चिराय')>चिराय</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया_विशेषणम्,')">क्रिया_विशेषणम्,7</a>
+row6#!NA#!चिरकाल तक
+row7#!NA#!for a long time
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!अध्यास्यमाना
+row2#!n1#!अध्यास्यमाना 
+row3#!n1#!अध्यास्यमान{नपुं} 
+row4#!n1#!<a (click)=showDic('अधि_आस्1')>अधि_आस्1</a>{कृत्_प्रत्ययः:शानच्;आसँ;अदादिः;स्त्री}{1;एक}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,16</a>
+row6#!n1#!अधिष्ठित
+row7#!n1#!occupied
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n7#!उद्रश्मि-रत्नाङ्कुर-धाम्नि
+row2#!n7#!उद्रश्मि-रत्नाङ्कुर-धाम्नि 
+row3#!n7#!उद्रश्मि-रत्नाङ्कुर-धामन्{नपुं}{7;एक} 
+row4#!n7#!<a (click)=showDic('उद्रश्मि')>उद्रश्मि</a>-<a (click)=showDic('रत्नाङ्कुर')>रत्नाङ्कुर</a>-<a (click)=showDic('धामन्')>धामन्</a>{नपुं}{7;एक}
+row5#!n7#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n7#!जिनकी_करणें_ऊपर_को_उठने_वाली_किरणों_वाले_रत्नाङ्कुरों_के_स्थान
+row7#!n7#!the abode of radiant jewels
+row8#!n7#!<a href="html/SV-III/SV-62/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-62/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<उद्रश्मि-<रत्न-अङ्कुर>T6>K3-धाम>T6</a>#!html/SV-III/SV-62/samaasa1.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!सिन्धौ
+row2#!n7#!सिन्धौ 
+row3#!n7#!सिन्धु{पुं}{7;एक} 
+row4#!n7#!<a (click)=showDic('सिन्धु')>सिन्धु</a>{पुं}{7;एक} 
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,10</a>
+row6#!n7#!समुद्र_में
+row7#!n7#!in the ocean
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n1#!(स्थिता)
+row2#!n1#!स्थिता
+row3#!n1#!स्थिता{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('स्था1')>स्था1</a>{कृत्_प्रत्ययः:क्त;ष्ठा;भ्वादिः;स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,11</a>
+row6#!n1#!स्थित 
+row7#!n1#!situated
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!या
+row2#!n1#!या 
+row3#!n1#!यद्{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('यद्')>यद्</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,15</a>
+row6#!n1#!जो_द्वारकापुरी
+row7#!n1#!which city
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n7#!(उद्रश्मि-रत्नाङ्कुर-धाम्नि)
+row2#!n7#!उद्रश्मि-रत्नाङ्कुर-धाम्नि
+row3#!n7#!उद्रश्मि-रत्नाङ्कुर-धामन्{नपुं}{7;एक}
+row4#!n7#!<a (click)=showDic('उद्रश्मि')>उद्रश्मि</a>-<a (click)=showDic('रत्नाङ्कुर')>रत्नाङ्कुर</a>-<a (click)=showDic('धामन्')>धामन्</a>{नपुं}{7;एक}
+row5#!n7#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,13</a>
+row6#!n7#!जिनकी_करणें_ऊपर_को_उठने_वाली_किरणों_वाले_रत्नाङ्कुरों_के_स्थान
+row7#!n7#!the abode of radiant jewels
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!मेरौ
+row2#!n7#!मेरौ 
+row3#!n7#!मेरु{पुं}{7;एक} 
+row4#!n7#!<a (click)=showDic('मेरु')>मेरु</a>{पुं}{7;एक} 
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,14</a>
+row6#!n7#!सुमेरु_पर
+row7#!n7#!on mount Meru
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n2#!(स्थिताम्)
+row2#!n2#!स्थिताम्
+row3#!n2#!स्थिता{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('स्था1')>स्था1</a>{कृत्_प्रत्ययः:क्त;ष्ठा;भ्वादिः;स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,15</a>
+row6#!n2#!स्थित 
+row7#!n2#!situated
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!अमरावतीम्
+row2#!n2#!अमरावतीम् 
+row3#!n2#!अमरावती{स्त्री}{2;एक}/अमरावती{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('अमरावती')>अमरावती</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,16</a>
+row6#!n2#!इन्द्रपुरी_को
+row7#!n2#!Amarāvatī
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!'मतौ बह्वचोऽनजिरा- (6।3।119) इति दीर्घः संज्ञायाम्’ ‘मादुपधायाश्च-’ (8।2।9) इति वत्वम् ।
+
+row1#!v#!आह्वास्त.
+row2#!v#!आह्वास्त 
+row3#!v#!आङ्_ह्वे1{कर्तरि;लुङ्;प्र;एक;उभयपदी;ह्वेञ्;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('आङ्_ह्वे1')>आङ्_ह्वे1</a>{कर्तरि;लुङ्;प्र;एक;उभयपदी;ह्वेञ्;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!ललकार_रही_थी.
+row7#!v#!challenged.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!उपजाति ।
+row11#!v#!श्लेष + उपमा + सङ्करः ।
+row12#!v#!ह्वयतेर्लङ् ‘स्पर्धायामाङः’ (1।3।31) इत्यात्मनेपदम् । ‘लिपि सिचि ह्वश्च’ (3।1।53) इति । ‘आत्मनेपदेष्वन्यतरस्याम् (3।1।54) इति च्लेरङभावपक्षे सिजादेशः ।
+
+

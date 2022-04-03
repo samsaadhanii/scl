@@ -1,0 +1,109 @@
+/*
+Copyright (C) 2005 Sunil Mohan Adapa <sunil atc atc tcs co in>
+
+This program is free software; you can redistribute it and/or 
+modify it under the terms of the GNU General Public License 
+as published by the Free Software Foundation; either 
+version 2 of the License, or (at your option) any later 
+version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+*/
+
+td.v	{ background-color: #FE6265}
+td.A	{ background-color: #ccffff} 
+td.B		{ background-color: #00FF7F}
+td.C		{ background-color: #eb613d}
+td.D		{ background-color: #e6ff00}
+td.E		{ background-color: #1E90FF}
+td.F		{ background-color: #FF69B4}
+td.G		{ background-color: #BC8F8F}
+td.H		{ background-color: #CDAA7D}
+//td.v	{ background-color: rgb(192,255,193); /*darkseagreen*/	}
+/*td.INTJ		{ background-color: rgb(255,240,245); lavender	} */
+/*td.UCP		{ background-color: rgb(173,216,230); lightblue	} */
+/*td.LST		{ background-color: rgb(240,255,240); honeydew	} */
+/*td.REP		{ background-color: rgb(192,192,192); Light gray	} */
+/* REP: previous phrase is repeated; to distinguish the two phrases, second one is marked with Light gray*/
+
+td.number
+{
+  padding-left: 3px;
+  padding-right: 3px;
+  border-left: solid 4px black;
+}
+
+td
+{
+  border-left: 0px;
+  border-top: 0px;
+  line-height: 1.4em; /* TODO: Ugly way of doing this */
+  white-space: nowrap;
+
+  /* dynamic */
+  border-right: solid 1px black;
+  border-bottom: solid 1px black;
+}
+
+body
+{
+  font-family: "sans";
+  font-size: smaller;
+}
+
+table
+{
+  float: left;
+  margin-bottom: 10px;
+/*  text-align: center;*/
+}
+
+input.suggestion
+{
+  border: solid 1px black;
+  width: 100%;
+}
+
+input.submit_button,
+div.submit_button_block
+{
+  width: 0px;
+  height: 0px;
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+form.suggestion
+{
+  margin: 0px;
+  display: inline;
+}
+
+#help {
+  float: right;
+  margin-right: 2em;
+}
+
+#navigation {
+  position: fixed;
+  background: white;
+  border-top: ridge;
+  bottom: 0;
+  width: 100%;
+}
+div.bottom {
+  clear: both;
+  height: 3em;
+}
+div.float_clear {
+  clear: both;
+}

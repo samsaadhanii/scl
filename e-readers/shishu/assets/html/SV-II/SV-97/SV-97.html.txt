@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-II/SV-97/97.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-97/97.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">97.A</a>#!html/SV-II/SV-97/97.jpg#!row1#!n1#!सम्पादित-फलः
+row2#!number#!97.B</a>#!row2#!n1#!सम्पादितफलः 
+row3#!number#!97.C</a>#!row3#!n1#!सम्पादित-फल{पुं}{1;एक} 
+row4#!number#!97.D</a>#!row4#!n1#!<a (click)=showDic('सम्पादित')>सम्पादित</a>-<a (click)=showDic('फल')>फल</a>{पुं}{1;एक} 
+row5#!number#!97.E</a>#!row5#!n1#!विशेषणम्,4
+row6#!number#!97.F</a>#!row6#!n1#!पहले_उपकृत
+row7#!number#!97.G</a>#!row7#!n1#!Who has received benefits
+row8#!number#!97.H#!row8#!n1#!<a href="html/SV-II/SV-97/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-97/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सम्पादित-फलः>Bs6</a>#!html/SV-II/SV-97/samaasa1.jpg
+row9#!number#!97.I</a>#!row9#!n1#!
+row10#!number#!97.J</a>#!row10#!n1#!
+row11#!number#!97.K</a>#!row11#!n1#!
+row12#!number#!97.L</a>#!row12#!n1#!
+
+row1#!n1#!सपक्षः
+row2#!n1#!सपक्षः 
+row3#!n1#!सपक्ष{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('सपक्ष')>सपक्ष</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n1#!समान-पक्ष_वाला
+row7#!n1#!who has many partizans
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!परभेदनः
+row2#!n1#!परभेदनः 
+row3#!n1#!परभेदन{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('परभेदन')>परभेदन</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n1#!शत्रुओं_का_भेदन_करने_वाला
+row7#!n1#!who is capable of rending his enemies
+row8#!n1#!<a href="html/SV-II/SV-97/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-97/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><पर-भेदनः>T6</a>#!html/SV-II/SV-97/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!बाणः
+row2#!n1#!बाणः 
+row3#!n1#!बाण{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('बाण')>बाण</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n1#!बाण अथवा बाणासुर
+row7#!n1#!Bāņa (an arrow)
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!गुणिना
+row2#!n3#!गुणिना 
+row3#!n3#!गुणिन्{पुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('गुणिन्')>गुणिन्</a>{पुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('करण,')">करण,10</a>
+row6#!n3#!गुणवान
+row7#!n3#!possessed of excellences
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!तेन
+row2#!n3#!तेन 
+row3#!n3#!तद्{पुं}{3;एक}/तद्{नपुं}{3;एक}/तन्1{कर्तरि;लिट्;म;बहु;परस्मैपदी;तनुँ;तनादिः} 
+row4#!n3#!<a (click)=showDic('तद्')>तद्</a>{पुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n3#!उस शिशुपाल_से
+row7#!n3#!with him (Śiśupāla)
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!कार्मुकेण
+row2#!n3#!कार्मुकेण 
+row3#!n3#!कार्मुक{पुं}{3;एक}/कार्मुक{नपुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('कार्मुक')>कार्मुक</a>{पुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,8</a>
+row6#!n3#!धनुष_के
+row7#!n3#!an arrow
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!गुणिना शौर्यादिगुणवता अधिज्येन च तेन चैद्येन कर्मणे प्रभवतीति कार्मुकम् ‘कर्मण उकञ्’ (5।1।103) ।
+
+row1#!NA#!इव
+row2#!NA#!इव 
+row3#!NA#!इव{अव्य} 
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,5</a>
+row6#!NA#!समान
+row7#!NA#!like
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!सन्धानम्
+row2#!n2#!सन्धानम् 
+row3#!n2#!सन्धान{पुं}{2;एक}/सन्धान{नपुं}{1;एक}/सन्धान{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('सन्धान')>सन्धान</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n2#!सन्धि_को
+row7#!n2#!an alliance
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!एष्यति.
+row2#!v#!एष्यति 
+row3#!v#!इ1{कर्तरि;लृट्;प्र;एक;परस्मैपदी;इण्;अदादिः}. 
+row4#!v#!<a (click)=showDic('इ1')>इ1</a>{कर्तरि;लृट्;प्र;एक;परस्मैपदी;इण्;अदादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!प्राप्त_करेगा.
+row7#!v#!will enter into.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!उपमा/श्लेषः ।
+row12#!v#!
+
+

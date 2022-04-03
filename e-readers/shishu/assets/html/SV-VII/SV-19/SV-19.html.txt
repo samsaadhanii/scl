@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-VII/SV-19/19.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-19/19.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">19.A</a>#!html/SV-VII/SV-19/19.jpg#!row1#!n1#!अन्या
+row2#!number#!19.B</a>#!row2#!n1#!अन्या
+row3#!number#!19.C</a>#!row3#!n1#!अन्या{स्त्री;1;एक}/अन्या{स्त्री;1;एक}
+row4#!number#!19.D</a>#!row4#!n1#!<a (click)=showDic('अन्या')>अन्या</a>{स्त्री;1;एक}
+row5#!number#!19.E</a>#!row5#!n1#!विशेषणम्,2
+row6#!number#!19.F</a>#!row6#!n1#!अन्या
+row7#!number#!19.G</a>#!row7#!n1#!Another
+row8#!number#!19.H#!row8#!n1#!
+row9#!number#!19.I</a>#!row9#!n1#!
+row10#!number#!19.J</a>#!row10#!n1#!
+row11#!number#!19.K</a>#!row11#!n1#!
+row12#!number#!19.L</a>#!row12#!n1#!
+
+row1#!n1#!अबला
+row2#!n1#!अबला
+row3#!n1#!अबला{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('अबला')>अबला</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,9</a>
+row6#!n1#!अबला_ने (रमणी)
+row7#!n1#!feeble (woman)
+row8#!n1#!<a href="html/SV-VII/SV-19/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-19/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अ-बला>Bs6</a>#!html/SV-VII/SV-19/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!तदंसपीठद्वयनिहितोभय-पाणि-पल्लवा
+row2#!n1#!तदंसपीठद्वयनिहितोभय-पाणि-पल्लवा
+row3#!n1#!तदंसपीठद्वयनिहितोभय-पाणि-पल्लवा}
+row4#!n1#!<a (click)=showDic('तदंसपीठद्वयनिहितोभय')>तदंसपीठद्वयनिहितोभय</a>-<a (click)=showDic('पाणि')>पाणि</a>-<a (click)=showDic('पल्लवा')>पल्लवा</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('कर्तृसमानाधिकरणम्,')">कर्तृसमानाधिकरणम्,4</a>
+row6#!n1#!प्रिय के पुष्ट-पीठ के सदृश दोनों कन्धों पर अपने दोनों कोमल हाथों को रखी
+row7#!n1#!having placed her tender hands on shoulders of her beloved which were as if a seat
+row8#!n1#!<a href="html/SV-VII/SV-19/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-19/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<तद्-अंस>T6-<पीठ-द्वय>K4>T6-निहित>T7-<उभय-<पाणि-पल्लवा>K5>Di>Bs3</a>#!html/SV-VII/SV-19/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!'उभादुदात्तो नित्यम्' (5।2।44) इति पृथक्सूत्रकरणादेव सिद्धे पुनर्नित्यग्रहणसामर्थ्याद् वृत्तिविषये उभशब्दस्थानेऽप्युभयशब्दप्रयोगः । यथाह कैयटः - तत्र 'उभादुदात्तो नित्यम्' (5।2।44) इति नित्यग्रहणस्येदं प्रयोजनं वृत्तिविषये उभशब्दस्य प्रयोगो मा भूत् उभयशब्दस्यैव यथा स्यादित्युभयत्रेत्यादि भवतीति ।
+
+row1#!n1#!(सती)
+row2#!n1#!सती
+row3#!n1#!सती{स्त्री;1;द्वि}/सती{स्त्री;2;द्वि}/सती{स्त्री;8;द्वि}/सती{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('अस्2')>अस्2</a>{शतृ_लट्;असँ;अदादिः;स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,9</a>
+row6#!n1#!हुई
+row7#!n1#!while
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!लघुललित-पदं
+row2#!n2#!लघुललित-पदं
+row3#!n2#!लघुललित-पद्{पुं;2;एक}/पद{नपुं;1;एक}/पद{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('लघुललित')>लघुललित</a>-<a (click)=showDic('पद')>पद</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n2#!धीरे-धीरे पग रखती हुई
+row7#!n2#!putting her feet slowly
+row8#!n2#!<a href="html/SV-VII/SV-19/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-19/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><लघु-<ललित-पदः>K1>Bs7</a>#!html/SV-VII/SV-19/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!सकठिनकुचचूचुक-प्रणोदं
+row2#!n2#!सकठिनकुचचूचुक-प्रणोदं
+row3#!n2#!सकठिनकुचचूचुक-प्रणोद{पुं;2;एक}
+row4#!n2#!<a (click)=showDic('सकठिनकुचचूचुक')>सकठिनकुचचूचुक</a>-<a (click)=showDic('प्रणोद')>प्रणोद</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n2#!कठोर कुचाग्रों से (पति के पीठ में गड़ाकर) उसे प्रेरित हुई
+row7#!n2#!while pressing her breasts while affectating him
+row8#!n2#!<a href="html/SV-VII/SV-19/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-19/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<सकठिन-कुचचूचुक>K3-प्रणोदः>Bs3</a>#!html/SV-VII/SV-19/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!'तेन सह-' (2।2।28) इत्यादिना समासे 'वोपसर्जनस्य' (6।3।83) इति सहशब्दस्य सभाव; णोपदेशत्वात्प्रणोद इति णत्वम् ।
+
+row1#!n2#!सविलासं
+row2#!n2#!सविलासं
+row3#!n2#!स-{अव्य-विलास;पुं;2;एक}
+row4#!n2#!<a (click)=showDic('सविलास')>सविलास</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n2#!विलासपूर्वक
+row7#!n2#!sportively
+row8#!n2#!<a href="html/SV-VII/SV-19/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-19/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><स-विलासः>BvS</a>#!html/SV-VII/SV-19/samaasa5.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!प्रियम्
+row2#!n2#!प्रियम्
+row3#!n2#!प्रिय{पुं;2;एक}/प्रिय{नपुं;1;एक}/प्रिय{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('प्रिय')>प्रिय</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,9</a>
+row6#!n2#!प्रिय_के
+row7#!n2#!beloved
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!अन्वियाय
+row2#!v#!अन्वियाय
+row3#!v#!अनु_इ1{कर्तरि;लिट्;उ;एक;परस्मैपदी;इण्;अदादिः}/अनु_इ1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;इण्;अदादिः}
+row4#!v#!<a (click)=showDic('अनु_इ1')>अनु_इ1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;इण्;अदादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!पीछे_जा_रही_थी.
+row7#!v#!followed.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!पुष्पिताग्रा ।
+row11#!v#!-
+row12#!v#!
+
+

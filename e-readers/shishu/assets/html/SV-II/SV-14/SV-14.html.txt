@@ -1,0 +1,92 @@
+row1#!number#!<a href="html/SV-II/SV-14/14.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-14/14.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">14.A</a>#!html/SV-II/SV-14/14.jpg#!row1#!NA#!ततः
+row2#!number#!14.B</a>#!row2#!NA#!ततः
+row3#!number#!14.C</a>#!row3#!NA#!ततः{अव्य}
+row4#!number#!14.D</a>#!row4#!NA#!<a (click)=showDic('ततः')>ततः</a>{अव्य}
+row5#!number#!14.E</a>#!row5#!NA#!सम्बन्धः,7
+row6#!number#!14.F</a>#!row6#!NA#!इस (श्रीकृष्ण के वचन के समाप्त हो जाने) के बाद
+row7#!number#!14.G</a>#!row7#!NA#!Thereafter
+row8#!number#!14.H#!row8#!NA#!
+row9#!number#!14.I</a>#!row9#!NA#!
+row10#!number#!14.J</a>#!row10#!NA#!
+row11#!number#!14.K</a>#!row11#!NA#!
+row12#!number#!14.L</a>#!row12#!NA#!
+
+row1#!n3#!सपत्नापनयस्मरणानुशय-स्फुरा
+row2#!n3#!सपत्नापनयस्मरणानुशय-स्फुरा
+row3#!n3#!सपत्नापनयस्मरणानुशय-स्फुरा{;स्त्री;1;एक}
+row4#!n3#!<a (click)=showDic('सपत्नापनयस्मरणानुशय')>सपत्नापनयस्मरणानुशय</a>-<a (click)=showDic('स्फुर्')>स्फुर्</a>{;पुं;3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n3#!शत्रु के द्वारा किये हुए अपराध के स्मरण से
+row7#!n3#!in indignation at the memory of the enemy's wrongs
+row8#!n3#!<a href="html/SV-II/SV-14/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-14/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<सपत्न-अपनय>T6-स्मरण>T6-अनुशय>T3-स्फुर्>U</a>#!html/SV-II/SV-14/samaasa1.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!रामोष्ठबिम्बचुम्बन-चुञ्चुना
+row2#!n3#!रामोष्ठबिम्बचुम्बन-चुञ्चुना
+row3#!n3#!रामोष्ठबिम्बचुम्बन-चुञ्चु{;पुं;3;एक}
+row4#!n3#!<a (click)=showDic('रामोष्ठबिम्बचुम्बन')>रामोष्ठबिम्बचुम्बन</a>-<a (click)=showDic('चुञ्चु')>चुञ्चु</a>{;पुं;3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n3#!उत्पन्न हुए क्रोध से फड़कने वाले (तथा) रेवती के ओष्ठबिम्ब के चुम्बन में प्रसिद्ध
+row7#!n3#!that were clever at kissing the bimba like lip of his wife Revathī
+row8#!n3#!<a href="html/SV-II/SV-14/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-14/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<राम-<ओष्ठ-बिम्ब>K5>T6-चुम्बन>T6-चञ्चुः>T3</a>#!html/SV-II/SV-14/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!‘तेन विद्मश्चुञ्चुप्चणपौ’ (5।2।26) इति चुञ्चुप्प्रत्ययः ।‘ओत्वोष्ठयोः समासे वा पररूपं वक्तव्यम्’ (वा०) ।
+
+row1#!n3#!ओष्ठेन
+row2#!n3#!ओष्ठेन
+row3#!n3#!ओष्ठ{;पुं;3;एक}
+row4#!n3#!<a (click)=showDic('ओष्ठ')>ओष्ठ</a>{;पुं;3;एक}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,5</a>
+row6#!n3#!ओष्ठ-युगल_से
+row7#!n3#!with the lips
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!(उप-लक्षितः)
+row2#!n1#!उप-लक्षितः
+row3#!n1#!लक्षित{;पुं;1;एक(उप-;क्त;लक्षँ;चुरादिः)}/लक्षित{;पुं;1;एक(;क्त;लक्षँ;चुरादिः)}
+row4#!n1#!<a (click)=showDic('उप')>उप</a>-<a (click)=showDic('लक्षित')>लक्षित</a>{;पुं;1;एक(उप-लक्ष्1;क्त;लक्षँ;चुरादिः)}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!शोभित
+row7#!n1#!beautified
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!रामः
+row2#!n1#!रामः
+row3#!n1#!राम{;पुं;1;एक}/रा1{कर्तरि;लट्;उ;बहु;परस्मैपदी;रा;अदादिः}
+row4#!n1#!<a (click)=showDic('राम')>राम</a>{;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,6</a>
+row6#!n1#!बलरामजी
+row7#!n1#!Balarāma
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!(जगाद)
+row2#!v#!जगाद
+row3#!v#!गद्1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;गदँ;भ्वादिः}/गद्1{कर्तरि;लिट्;उ;एक;परस्मैपदी;गदँ;भ्वादिः}
+row4#!v#!<a (click)=showDic('गद्1')>गद्1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;गदँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!बोले.
+row7#!v#!spoke
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!उपमा + अनु्प्रासः = संसृष्टिः ।
+row12#!v#!
+
+

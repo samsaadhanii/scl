@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-X/SV-75/75.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-75/75.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">75.A</a>#!html/SV-X/SV-75/75.jpg#!row1#!n6#!रमण्याः
+row2#!number#!75.B</a>#!row2#!n6#!रमण्याः
+row3#!number#!75.C</a>#!row3#!n6#!रमणी{;स्त्री;5;एक}/रमणी{;स्त्री;6;एक}
+row4#!number#!75.D</a>#!row4#!n6#!<a (click)=showDic('रमणी')>रमणी</a>{;स्त्री;6;एक}
+row5#!number#!75.E</a>#!row5#!n6#!षष्ठीसम्बन्धः,2
+row6#!number#!75.F</a>#!row6#!n6#!युवती के
+row7#!number#!75.G</a>#!row7#!n6#!Of a young woman
+row8#!number#!75.H#!row8#!n6#!
+row9#!number#!75.I</a>#!row9#!n6#!
+row10#!number#!75.J</a>#!row10#!n6#!
+row11#!number#!75.K</a>#!row11#!n6#!
+row12#!number#!75.L</a>#!row12#!n6#!
+
+row1#!n1#!सीत्-कृतानि
+row2#!n1#!सीत्-कृतानि
+row3#!n1#!कृत{;नपुं;1;बहु(सीत्-;क्त;कृञ्;स्वादिः)}/कृत{;नपुं;2;बहु(;क्त;कृञ्;स्वादिः)}/कृत{;नपुं;1;बहु(;क्त;डुकृञ्;तनादिः)}/कृत{;नपुं;2;बहु(;क्त;डुकृञ्;तनादिः)}/कृत{;नपुं;1;बहु(;क्त;कृञ्;भ्वादिः)}/कृत{;नपुं;2;बहु(;क्त;कृञ्;भ्वादिः)}
+row4#!n1#!<a (click)=showDic('सीत्')>सीत्</a>-<a (click)=showDic('कृत')>कृत</a>{;नपुं;1;बहु(कृ3;क्त;डुकृञ्;तनादिः)}
+row5#!n1#!<a href="javascript:show('समुच्चितम्,')">समुच्चितम्,8</a>
+row6#!n1#!सीत्कार
+row7#!n1#!'zit’ sound
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!मणितं
+row2#!n1#!मणितं
+row3#!n1#!मणित{;पुं;2;एक(;क्त;मणँ;भ्वादिः)}/मणित{;नपुं;1;एक(;क्त;मणँ;भ्वादिः)}/मणित{;नपुं;2;एक(;क्त;मणँ;भ्वादिः)}
+row4#!n1#!<a (click)=showDic('मणित')>मणित</a>{;नपुं;1;एक(मण्1;क्त;मणँ;भ्वादिः)}
+row5#!n1#!<a href="javascript:show('समुच्चितम्,')">समुच्चितम्,8</a>
+row6#!n1#!(रतिकाल में) स्त्री द्वारा किया गया कण्ठ का कूजित
+row7#!n1#!ecstatic moaning
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!करुण-उक्तिः
+row2#!n1#!करुण-उक्तिः
+row3#!n1#!करुण-उक्ति{;स्त्री;1;एक}/उक्ति{;पुं;1;एक}
+row4#!n1#!<a (click)=showDic('करुण')>करुण</a>-<a (click)=showDic('उक्ति')>उक्ति</a>{;स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('समुच्चितम्,')">समुच्चितम्,8</a>
+row6#!n1#!करुण वचन
+row7#!n1#!pitiable words
+row8#!n1#!<a href="html/SV-X/SV-75/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-75/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><करुण-उक्तिः>T3</a>#!html/SV-X/SV-75/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!स्निग्धम्
+row2#!n1#!स्निग्धम्
+row3#!n1#!स्निग्ध{;पुं;2;एक(;क्त;ष्निहँ;दिवादिः)}/स्निग्ध{;नपुं;1;एक(;क्त;ष्निहँ;दिवादिः)}/स्निग्ध{;नपुं;2;एक(;क्त;ष्निहँ;दिवादिः)}
+row4#!n1#!<a (click)=showDic('स्निग्ध')>स्निग्ध</a>{;नपुं;1;एक(ष्निह्1;क्त;ष्निहँ;दिवादिः)}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!प्रेम_युक्त
+row7#!n1#!lovable
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!उक्तम्
+row2#!n1#!उक्तम्
+row3#!n1#!उक्त{;पुं;2;एक(;क्त;वचँ;अदादिः)}/उक्त{;नपुं;1;एक(;क्त;वचँ;अदादिः)}/उक्त{;नपुं;2;एक(;क्त;वचँ;अदादिः)}
+row4#!n1#!<a (click)=showDic('उक्त')>उक्त</a>{;नपुं;1;एक(वच्1;क्त;वचँ;अदादिः)}
+row5#!n1#!<a href="javascript:show('समुच्चितम्,')">समुच्चितम्,8</a>
+row6#!n1#!कथन
+row7#!n1#!words
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!अलमर्थ-वचांसि
+row2#!n1#!अलमर्थ-वचांसि
+row3#!n1#!अलमर्थ-वचस्{;नपुं;1;बहु}/वचस्{;नपुं;2;बहु}/वचस्{;नपुं;8;बहु}
+row4#!n1#!<a (click)=showDic('अलमर्थ')>अलमर्थ</a>-<a (click)=showDic('वचस्')>वचस्</a>{;नपुं;1;बहु}
+row5#!n1#!<a href="javascript:show('समुच्चितम्,')">समुच्चितम्,8</a>
+row6#!n1#!निषेधार्थक वचन
+row7#!n1#!words of prevention
+row8#!n1#!<a href="html/SV-X/SV-75/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-75/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अलमर्थ-वचः>K3</a>#!html/SV-X/SV-75/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!हासभूषण-रवाः
+row2#!n1#!हासभूषण-रवाः
+row3#!n1#!हासभूषण-रव{;पुं;1;बहु}/रव{;पुं;8;बहु}/रवा{;स्त्री;8;बहु}/रवा{;स्त्री;1;बहु}/रवा{;स्त्री;2;बहु}
+row4#!n1#!<a (click)=showDic('हासभूषण')>हासभूषण</a>-<a (click)=showDic('रव')>रव</a>{;पुं;1;बहु}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,11</a>
+row6#!n1#!हँसने तथा अलंकारों की ध्वनि
+row7#!n1#!the sounds of their laughs and ornaments
+row8#!n1#!<a href="html/SV-X/SV-75/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-75/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<हास-भूषण>Di-रवः>T6</a>#!html/SV-X/SV-75/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!च
+row2#!NA#!च
+row3#!NA#!च{अव्य}
+row4#!NA#!<a (click)=showDic('च')>च</a>{अव्य}
+row5#!NA#!<a href="javascript:show('समुच्चितद्योतक,')">समुच्चितद्योतक,2</a>
+row6#!NA#!और
+row7#!NA#!and
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!कामसूत्र-पदताम्
+row2#!n2#!कामसूत्र-पदताम्
+row3#!n2#!कामसूत्र-पदता{;स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('कामसूत्र')>कामसूत्र</a>-<a (click)=showDic('पदता')>पदता</a>{;स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,11</a>
+row6#!n2#!(वात्स्यायन रचित) कामसूत्र के वचन
+row7#!n2#!the state of (Vātsyāyana’s) Kāmasūtras
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!उप-जग्मुः
+row2#!v#!उप-जग्मुः
+row3#!v#!उप-गम्1{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;गमॢँ;भ्वादिः}
+row4#!v#!<a (click)=showDic('उप')>उप</a>-<a (click)=showDic('गम्1')>गम्1</a>{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;गमॢँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!हो_गये.
+row7#!v#!obtained.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!स्वागता ।
+row11#!v#!उत्प्रेक्षा ।
+row12#!v#!
+
+

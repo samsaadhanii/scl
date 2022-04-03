@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-II/SV-2/2.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-2/2.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">2.A</a>#!html/SV-II/SV-2/2.jpg#!row1#!NA#!अथ
+row2#!number#!2.B</a>#!row2#!NA#!अथ 
+row3#!number#!2.C</a>#!row3#!NA#!अथ{अव्य}/अथ{अव्य} 
+row4#!number#!2.D</a>#!row4#!NA#!<a (click)=showDic('अथ')>अथ</a>{अव्य} 
+row5#!number#!2.E</a>#!row5#!NA#!सम्बन्धः,8
+row6#!number#!2.F</a>#!row6#!NA#!उसके बाद
+row7#!number#!2.G</a>#!row7#!NA#!Thereafter
+row8#!number#!2.H#!row8#!NA#!
+row9#!number#!2.I</a>#!row9#!NA#!
+row10#!number#!2.J</a>#!row10#!NA#!
+row11#!number#!2.K</a>#!row11#!NA#!
+row12#!number#!2.L</a>#!row12#!NA#!
+
+row1#!n1#!असौ
+row2#!n1#!असौ 
+row3#!n1#!अदस्{पुं}{1;एक}/अदस्{स्त्री}{1;एक}/असि{पुं}{7;एक}/असि{स्त्री}{7;एक}/असु{पुं}{7;एक} 
+row4#!n1#!<a (click)=showDic('अदस्')>अदस्</a>{पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n1#!यह
+row7#!n1#!he
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!(श्रीकृष्णः)
+row2#!n1#!श्रीकृष्णः
+row3#!n1#!श्रीकृष्ण{पुं}{1;एक}
+row4#!n1#!<a (click)=showDic('श्रीकृष्ण')>श्रीकृष्ण</a>{पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,12</a>
+row6#!n1#!श्रीकृष्ण
+row7#!n1#!Śrī Kṛṣṇa
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!अभि-नभः
+row2#!NA#!अभिनभः 
+row3#!NA#!अभि-{अव्य}-नभ{पुं}{1;एक}/नभस्{नपुं}{1;एक}/नभस्{नपुं}{2;एक}
+row4#!NA#!<a (click)=showDic('अभि')>अभि</a>-<a (click)=showDic('नभस्')>नभस्</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,8</a>
+row6#!NA#!आकाश_में
+row7#!NA#!in the sky
+row8#!NA#!<a href="html/SV-II/SV-2/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-2/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अभि-नभः>A1</a>#!html/SV-II/SV-2/samaasa1.jpg
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!‘लक्षणेनाभिप्रती आभिमुख्ये’ (2।1।14) इत्यव्ययीभावः । कर्मप्रवचनीयत्वे वा द्वितीया ।
+
+row1#!n2#!गुरु-काव्य-अनुगाम्
+row2#!n2#!गुरुकाव्यानुगां 
+row3#!n2#!गुरु-काव्य-अनुगा{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('गुरु')>गुरु</a>-<a (click)=showDic('काव्य')>काव्य</a>-<a (click)=showDic('अनुगा')>अनुगा</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!बृहस्पति और शुक्र जिसके पीछे चल रहे हों
+row7#!n2#!accompanied by Guru and Śukra
+row8#!n2#!<a href="html/SV-II/SV-2/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-2/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<गुरु-काव्य>Di-अनुगा>Bs6</a>#!html/SV-II/SV-2/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!चान्द्रीं
+row2#!n2#!चान्द्रीं 
+row3#!n2#!चान्द्री{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('चान्द्री')>चान्द्री</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!चन्द्र सम्बन्धिनी
+row7#!n2#!of the moon
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!श्रियं
+row2#!n2#!श्रियं 
+row3#!n2#!श्री{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('श्री')>श्री</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n2#!शोभा_को
+row7#!n2#!beauty
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!बिभ्रत्
+row2#!n1#!बिभ्रत् 
+row3#!n1#!बिभ्रत्{नपुं}{1;एक}/बिभ्रत्{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('भृ2')>भृ2</a>{कृत्_प्रत्ययः;शतृ;डुँभृञ्;जुहोत्यादिः;नपुं}{1;एक}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,12</a>
+row6#!n1#!ग्रहण_करते_हुए
+row7#!n1#!possessing
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!उद्धव-सीरिभ्यां
+row2#!n3#!उद्धव-सीरिभ्यां 
+row3#!n3#!उद्धव-सीरिन्{पुं}{3;द्वि}/सीरिन्{पुं}{4;द्वि}/सीरिन्{पुं}{5;द्वि} 
+row4#!n3#!<a (click)=showDic('उद्धव')>उद्धव</a>-<a (click)=showDic('सीरिन्')>सीरिन्</a>{पुं}{3;द्वि} 
+row5#!n3#!<a href="javascript:show('उपपदविभक्तिः,')">उपपदविभक्तिः,10</a>
+row6#!n3#!उद्धव-बलरामजी
+row7#!n3#!Uddhava and Balarāma
+row8#!n3#!<a href="html/SV-II/SV-2/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-2/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><उद्धव-सीरी>Di</a>#!html/SV-II/SV-2/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!सार्द्धं
+row2#!NA#!सार्द्धं 
+row3#!NA#!सार्द्धम्{अव्य} 
+row4#!NA#!<a (click)=showDic('सार्द्धम्')>सार्द्धम्</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('उपपदसम्बन्धः,')">उपपदसम्बन्धः,12</a>
+row6#!NA#!के साथ
+row7#!NA#!along with
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!सदः
+row2#!n2#!सदः 
+row3#!n2#!सद{पुं}{1;एक}/सदस्{नपुं}{1;एक}/सदस्{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('सदस्')>सदस्</a>{नपुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,12</a>
+row6#!n2#!सभा स्थान_को
+row7#!n2#!the assembly
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!आसदत्.
+row2#!v#!आसदत्.
+row3#!v#!आस-दत्{पुं}{1;एक}. 
+row4#!v#!<a (click)=showDic('सद्1')>सद्1</a>{कर्तरि;लङ्;प्र;एक;परस्मैपदी;षदलृ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!गये.
+row7#!v#!went.
+row8#!v#!-
+row9#!v#!सकर्मककर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!-
+row12#!v#!सदेर्लुङि ‘पुषादित्वात्’- (3।1।55) इति च्लेरङादेशः ।
+
+

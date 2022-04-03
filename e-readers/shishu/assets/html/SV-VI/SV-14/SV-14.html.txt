@@ -1,0 +1,79 @@
+row1#!number#!<a href="html/SV-VI/SV-14/14.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-14/14.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">14.A</a>#!html/SV-VI/SV-14/14.jpg#!row1#!n3#!वदनसौरभलोभपरिभ्रमद्भ्रमरसम्भ्रमसम्भृत-शोभया
+row2#!number#!14.B</a>#!row2#!n3#!वदनसौरभलोभपरिभ्रमद्भ्रमरसम्भ्रमसम्भृत-शोभया
+row3#!number#!14.C</a>#!row3#!n3#!वदनसौरभलोभपरिभ्रमद्भ्रमरसम्भ्रमसम्भृत-शोभा{स्त्री;3;एक}/शोभा{स्त्री;3;एक}
+row4#!number#!14.D</a>#!row4#!n3#!<a (click)=showDic('वदनसौरभलोभपरिभ्रमद्भ्रमरसम्भ्रमसम्भृत')>वदनसौरभलोभपरिभ्रमद्भ्रमरसम्भ्रमसम्भृत</a>-<a (click)=showDic('शोभा')>शोभा</a>{स्त्री;3;एक}
+row5#!number#!14.E</a>#!row5#!n3#!विशेषणम्,4
+row6#!number#!14.F</a>#!row6#!n3#!(अङ्गना के) मुख के सुगन्ध के लोभ से घूमते हुए (चारों ओर चक्कर लगाकर पास में (अत एव) आते हुए) भौंरे के भय से बढ़ी हुई शोभा वाली
+row7#!number#!14.G</a>#!row7#!n3#!possessed with the beauty of fear caused by bumble-bees that were swirling around for the fragrance of her mouth
+row8#!number#!14.H#!row8#!n3#!<a href="html/SV-VI/SV-14/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-14/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<<वदन-सौरभ>T6-लोभ>T7-परिभ्रम>T3-भ्रमर>K3-सम्भ्रम>T3-<सम्भृत-शोभा>K1>Bs3</a>#!html/SV-VI/SV-14/samaasa1.jpg
+row9#!number#!14.I</a>#!row9#!n3#!
+row10#!number#!14.J</a>#!row10#!n3#!
+row11#!number#!14.K</a>#!row11#!n3#!
+row12#!number#!14.L</a>#!row12#!n3#!
+
+row1#!n3#!चलितया
+row2#!n3#!चलितया
+row3#!n3#!चलिता{स्त्री;3;एक}
+row4#!n3#!<a (click)=showDic('चल्2')>चल्2</a>{क्त;चलँ;तुदादिः;स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n3#!चलीं_हुईं
+row7#!n3#!moved
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!अलकलोल-दृशा
+row2#!n3#!अलकलोल-दृशा
+row3#!n3#!अलकलोल-दृश्{स्त्री;3;एक}/दृशा{स्त्री;1;एक}/दृशा{स्त्री;1;एक}
+row4#!n3#!<a (click)=showDic('अलकलोल')>अलकलोल</a>-<a (click)=showDic('दृश्')>दृश्</a>{स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n3#!केशों (के आँखों के ऊपर गिरने) से व्याकुल नेत्रवाली
+row7#!n3#!possessed with quivering eyes
+row8#!n3#!<a href="html/SV-VI/SV-14/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-14/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अलक-<लोला-दृक्>K1>Bs6</a>#!html/SV-VI/SV-14/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!अन्यया
+row2#!n3#!अन्यया
+row3#!n3#!अन्या{स्त्री;3;एक}/अन्या{स्त्री;3;एक}
+row4#!n3#!<a (click)=showDic('अन्या')>अन्या</a>{स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,6</a>
+row6#!n3#!किसी दूसरी स्त्री ने
+row7#!n3#!by another woman
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!कलमेखलाकल-कलः
+row2#!n1#!कलमेखलाकल-कलः
+row3#!n1#!कलमेखलाकल-कल{पुं;1;एक}/कल{पुं;1;एक}
+row4#!n1#!<a (click)=showDic('<a (click)=showDic('कल')>कल</a>मेखलाकल')>कलमेखलाकल</a>-कल{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,6</a>
+row6#!n1#!करधनी का मधुर शब्द_को
+row7#!n1#!musical sound of a girdle
+row8#!n1#!<a href="html/SV-VI/SV-14/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-14/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<कल-मेखला>K3-कलकलः>T6</a>#!html/SV-VI/SV-14/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!विदधे
+row2#!v#!विदधे
+row3#!v#!विदधि{नपुं;8;एक}/धा1{कर्तरि;लिट्;उ;एक;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}/धा1{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}/धा1{कर्तरि;लट्;उ;एक;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}/धा1{कर्मणि;लिट्;उ;एक;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}/धा1{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}/धे1{कर्मणि;लिट्;उ;एक;आत्मनेपदी;धेट्;भ्वादिः}/धे1{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;धेट्;भ्वादिः}
+row4#!v#!<a (click)=showDic('वि')>वि</a>-<a (click)=showDic('धा1')>धा1</a>{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!धारण_किया.
+row7#!v#!bore.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!अनुप्रासः + यमकम् = संसृष्टिः ।
+row12#!v#!
+
+

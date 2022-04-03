@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-IX/SV-82/82.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-82/82.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">82.A</a>#!html/SV-IX/SV-82/82.jpg#!row1#!NA#!इति
+row2#!number#!82.B</a>#!row2#!NA#!इति
+row3#!number#!82.C</a>#!row3#!NA#!इति{अव्य}
+row4#!number#!82.D</a>#!row4#!NA#!<a (click)=showDic('इति')>इति</a>{अव्य}
+row5#!number#!82.E</a>#!row5#!NA#!सम्बन्धः,2
+row6#!number#!82.F</a>#!row6#!NA#!इस प्रकार
+row7#!number#!82.G</a>#!row7#!NA#!Thus
+row8#!number#!82.H#!row8#!NA#!
+row9#!number#!82.I</a>#!row9#!NA#!
+row10#!number#!82.J</a>#!row10#!NA#!
+row11#!number#!82.K</a>#!row11#!NA#!
+row12#!number#!82.L</a>#!row12#!NA#!
+
+row1#!NA#!अभिधाय
+row2#!NA#!अभिधाय
+row3#!NA#!अभिधाय{;पुं;8;एक}
+row4#!NA#!<a (click)=showDic('अभि_धा1')>अभि_धा1</a>{अव्य;ल्यप्;डुधाञ्;जुहोत्यादिः}
+row5#!NA#!<a href="javascript:show('पूर्वकालः,')">पूर्वकालः,10</a>
+row6#!NA#!कहने_के_बाद
+row7#!NA#!having said
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!पुरः
+row2#!NA#!पुरः
+row3#!NA#!पुरः{अव्य}/पुर्{;स्त्री;1;बहु}/पुर्{;स्त्री;2;बहु}/पुर्{;स्त्री;5;एक}/पुर्{;स्त्री;6;एक}/पुर्{;स्त्री;8;बहु}
+row4#!NA#!<a (click)=showDic('पुरः')>पुरः</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,4</a>
+row6#!NA#!सामने
+row7#!NA#!in the front
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!गन्तुम्
+row2#!NA#!गन्तुम्
+row3#!NA#!गम्1{अव्य;तुमुन्;गमॢँ;भ्वादिः}
+row4#!NA#!<a (click)=showDic('गम्1')>गम्1</a>{अव्य;तुमुन्;गमॢँ;भ्वादिः}
+row5#!NA#!<a href="javascript:show('प्रयोजनम्,')">प्रयोजनम्,5</a>
+row6#!NA#!जाना
+row7#!NA#!to go
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!इच्छुम्
+row2#!n2#!इच्छुम्
+row3#!n2#!इच्छुम्}
+row4#!n2#!<a (click)=showDic('इच्छु')>इच्छु</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!चाहती_हुई
+row7#!n2#!willing
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!काञ्चित्
+row2#!n2#!काञ्चित्
+row3#!n2#!किञ्चित्{सर्वनाम;पुं;2;बहु}/किञ्चित्{सर्वनाम;स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('किञ्चित्')>किञ्चित्</a>{सर्वनाम;स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!किसी_को
+row7#!n2#!some (young lady)
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!क्षण-दृष्टिपात-विकसद्-वदनां
+row2#!n2#!क्षण-दृष्टिपात-विकसद्-वदनां
+row3#!n2#!क्षण-दृष्टिपात-विकसद्-वदना{;स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('क्षण')>क्षण</a>-<a (click)=showDic('दृष्टिपात')>दृष्टिपात</a>-<a (click)=showDic('विकसद्')>विकसद्</a>-<a (click)=showDic('वदना')>वदना</a>{;स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n2#!क्षणमात्र दृष्टिपात करने से प्रसन्न मुखवाली
+row7#!n2#!when just saw into her eyes her anger disappeared and she appeared with a blossomed face
+row8#!n2#!<a href="html/SV-IX/SV-82/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-82/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<क्षण-<दृष्टि-पात>T6>T7-विकसद्वदना>Bs6</a>#!html/SV-IX/SV-82/samaasa1.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!तरुणः
+row2#!n1#!तरुणः
+row3#!n1#!तरुण{;पुं;1;एक}
+row4#!n1#!<a (click)=showDic('तरुण')>तरुण</a>{;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n1#!युवक
+row7#!n1#!a young man
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!स्वकर-अवलम्बन-विमुक्त-गलत्-कल-काञ्चि
+row2#!n2#!स्वकर-अवलम्बन-विमुक्त-गलत्-कल-काञ्चि
+row3#!n2#!स्वकर-अवलम्बन-विमुक्त-गलत्-कल-काञ्चि{;स्त्री;1;द्वि}/काञ्चि{;स्त्री;2;द्वि}/काञ्ची{;स्त्री;1;एक}/काञ्चि{;स्त्री;8;द्वि}/काञ्चि{;पुं;8;द्वि}
+row4#!n2#!<a (click)=showDic('स्वकर')>स्वकर</a>-<a (click)=showDic('अवलम्बन')>अवलम्बन</a>-<a (click)=showDic('विमुक्त')>विमुक्त</a>-<a (click)=showDic('गलत्')>गलत्</a>-<a (click)=showDic('कल')>कल</a>-<a (click)=showDic('काञ्चि')>काञ्चि</a>{नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,10</a>
+row6#!n2#!(उस समय प्रियतम के) हाथ से पकड़े जाने से नायिका की मधुर ध्वनि करती हुई करधनी बन्धन शिथिल हो जाने से नीचे की ओर सरक गयी
+row7#!n2#!then (at that time) when he held her (her) girdle which makes a melodious sound got loosened and moved down
+row8#!n2#!<a href="html/SV-IX/SV-82/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-82/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<स्व-कर>T6-अवलम्बन>T6-विमुक्तगलत्कलकाञ्चि>Bs7</a>#!html/SV-IX/SV-82/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!अरुणत्
+row2#!v#!अरुणत्
+row3#!v#!रुध्1{कर्तरि;लङ्;म;एक;परस्मैपदी;रुधिँर्;रुधादिः}/रुध्1{कर्तरि;लङ्;प्र;एक;परस्मैपदी;रुधिँर्;रुधादिः}
+row4#!v#!<a (click)=showDic('रुध्1')>रुध्1</a>{कर्तरि;लङ्;प्र;एक;परस्मैपदी;रुधिँर्;रुधादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!रोका.
+row7#!v#!stopped.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!प्रमिताक्षरा ।
+row11#!v#!-
+row12#!v#!'रुधेर्लङि 'रुधादिभ्यः श्नम्' (3।1।78) ।'
+
+

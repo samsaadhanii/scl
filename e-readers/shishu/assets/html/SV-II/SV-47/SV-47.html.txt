@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-II/SV-47/47.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-47/47.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">47.A</a>#!html/SV-II/SV-47/47.jpg#!row1#!n3#!जाति-क्रिया-गुणैः
+row2#!number#!47.B</a>#!row2#!n3#!जातिक्रियागुणैः 
+row3#!number#!47.C</a>#!row3#!n3#!जाति-क्रिया-गुण{पुं}{3;बहु} 
+row4#!number#!47.D</a>#!row4#!n3#!<a (click)=showDic('जाति')>जाति</a>-<a (click)=showDic('क्रिया')>क्रिया</a>-<a (click)=showDic('गुण')>गुण</a>{पुं}{3;बहु} 
+row5#!number#!47.E</a>#!row5#!n3#!करण,4
+row6#!number#!47.F</a>#!row6#!n3#!जाति-क्रिया-गुणों_के_द्वारा 
+row7#!number#!47.G</a>#!row7#!n3#!By means of class action or quality
+row8#!number#!47.H#!row8#!n3#!<a href="html/SV-II/SV-47/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-47/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><जाति-गुण-क्रियाः>Ds</a>#!html/SV-II/SV-47/samaasa1.jpg
+row9#!number#!47.I</a>#!row9#!n3#!
+row10#!number#!47.J</a>#!row10#!n3#!
+row11#!number#!47.K</a>#!row11#!n3#!
+row12#!number#!47.L</a>#!row12#!n3#!
+
+row1#!n1#!कश्चित्
+row2#!n1#!कश्चित् 
+row3#!n1#!किञ्चित्{पुं}{1;एक}/कश्चित्{अव्य} 
+row4#!n1#!<a (click)=showDic('किञ्चित्')>किञ्चित्</a>{सर्वनाम;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,4</a>
+row6#!n1#!किसी
+row7#!n1#!any
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!अर्थम्
+row2#!n2#!अर्थम् 
+row3#!n2#!अर्थ{पुं}{2;एक}/अर्थ{नपुं}{1;एक}/अर्थ{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('अर्थ')>अर्थ</a>{पुं}{2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,4</a>
+row6#!n2#!अर्थविशेष_को 
+row7#!n2#!meaning or purpose
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n6#!असम्पादयतः
+row2#!n6#!असम्पादयतः 
+row3#!n6#!असम्पात-अयत्{पुं}{1;बहु}/अयत्{पुं}{2;बहु}/अयत्{पुं}{5;एक}/अयत्{पुं}{6;एक}/अयत्{नपुं}{5;एक}/अयत्{नपुं}{6;एक}/अयत{पुं}{1;एक} 
+row4#!n6#!<a (click)=showDic('अ_सम्_पद्2')>अ_सम्_पद्2</a>{कृत्_प्रत्ययः:शतृ;पद;चुरादिः;पुं}{6;एक}
+row5#!n6#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n6#!संपादन_नहीं_करते_हुए
+row7#!n6#!of not achieving
+row8#!n6#!<a href="html/SV-II/SV-47/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-47/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-सम्पादयन्>Tn</a>#!html/SV-II/SV-47/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!पुंसः
+row2#!n6#!पुंसः 
+row3#!n6#!पुम्स्{पुं}{2;बहु}/पुम्स्{पुं}{5;एक}/पुम्स्{पुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('पुम्स्')>पुम्स्</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,6</a>
+row6#!n6#!पुरुष_का
+row7#!n6#!of a person
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!जन्म
+row2#!n1#!जन्म 
+row3#!n1#!जन्मन्{नपुं}{1;एक}/जन्मन्{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('जन्मन्')>जन्मन्</a>{नपुं}{1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n1#!जन्म 
+row7#!n1#!birth
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!यदृच्छाशब्दवत्
+row2#!NA#!यदृच्छाशब्दवत्
+row3#!NA#!यदृच्छाशब्दवत्{अव्य}
+row4#!NA#!<a (click)=showDic('यदृच्छाशब्दवत्')>यदृच्छाशब्दवत्</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रियाविशेषणम्,')">क्रियाविशेषणम्,10</a>
+row6#!NA#!यदृच्छा शब्द_के_समान 
+row7#!NA#!is like a proper name
+row8#!NA#!<a href="html/SV-II/SV-47/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-47/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><यदृच्छा-शब्दः>T3</a>#!html/SV-II/SV-47/samaasa3.jpg
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!‘तत्र तस्येव (5।1।116) इति वतिप्रत्ययः’ ।
+
+row1#!NA#!केवलं
+row2#!NA#!केवलं 
+row3#!NA#!केवल{पुं}{2;एक}/केवल{नपुं}{1;एक}/केवल{नपुं}{2;एक}/केवल{अव्यय}
+row4#!NA#!<a (click)=showDic('केवल')>केवल</a>{अव्यय}
+row5#!NA#!<a href="javascript:show('क्रियाविशेषणम्,')">क्रियाविशेषणम्,10</a>
+row6#!NA#!केवल
+row7#!NA#!only
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n4#!संज्ञायै
+row2#!n4#!संज्ञायै 
+row3#!n4#!सञ्ज्ञा{स्त्री}{4;एक}/सम्_ज्ञा2{कर्मणि;लोट्;उ;एक;आत्मनेपदी;ज्ञा;क्र्यादिः} 
+row4#!n4#!<a (click)=showDic('सञ्ज्ञा')>सञ्ज्ञा</a>{स्त्री}{4;एक}
+row5#!n4#!<a href="javascript:show('प्रयोजनम्,')">प्रयोजनम्,10</a>
+row6#!n4#!नाम_के_लिए
+row7#!n4#!for name
+row8#!n4#!-
+row9#!n4#!
+row10#!n4#!
+row11#!n4#!
+row12#!n4#!
+
+row1#!v#!(भवति).
+row2#!v#!भवति
+row3#!v#!भवत्{पुं}{7;एक}/भू1{कर्तरि;लट्;प्र;एक;परस्मैपदी;भू;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('भू1')>भू1</a>{कर्तरि;लट्;प्र;एक;परस्मैपदी;भू;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!होता_है. 
+row7#!v#!is.
+row8#!v#!-
+row9#!v#!अकर्मककर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!-
+row12#!v#!
+
+

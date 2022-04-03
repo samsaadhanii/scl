@@ -28,6 +28,7 @@
   $parse = $ARGV[9];
   $text_type = $ARGV[10];
   $LTPROCBIN = $ARGV[11];
+  $MYPYTHONPATH = $ARGV[12];
 
   require "$SCLINSTALLDIR/converters/convert.pl";
   require "$SCLINSTALLDIR/paths.pl";
@@ -48,7 +49,7 @@
   }
   close(TMP1);
      `date > $tmp_file_path/tmp_in$pid/err$pid`;
-     $cmd = "$GlblVar::TIMEOUT $SCLINSTALLDIR/SHMT/prog/shell/anu_skt_hnd.sh $SCLINSTALLDIR $GraphvizDot in$pid $tmp_file_path hi $script $sandhi $morph $parse $text_type NOECHO $LTPROCBIN D 2>> $tmp_file_path/tmp_in$pid/err$pid;";
+     $cmd = "$GlblVar::TIMEOUT $SCLINSTALLDIR/SHMT/prog/shell/anu_skt_hnd.sh $SCLINSTALLDIR $GraphvizDot in$pid $tmp_file_path hi $script $sandhi $morph $parse $text_type NOECHO $LTPROCBIN $MYPYTHONPATH 2>> $tmp_file_path/tmp_in$pid/err$pid;";
      $exec_status = system($cmd);
      `date >> $tmp_file_path/tmp_in$pid/err$pid`;
      #system("rm $tmp_file_path/tmp_in$pid/err$pid");

@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-I/SV-64/64.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-64/64.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">64.A</a>#!html/SV-I/SV-64/64.jpg#!row1#!n3#!तदीय-मातङ्ग-घटा-विघट्टितैः
+row2#!number#!64.B</a>#!row2#!n3#!तदीयमातङ्गघटाविघट्टितैः 
+row3#!number#!64.C</a>#!row3#!n3#!तदीय-मातङ्ग-घटा-विघट्टित{पुं}{3;बहु}/विघट्टित{नपुं}{3;बहु} 
+row4#!number#!64.D</a>#!row4#!n3#!<a (click)=showDic('तदीय')>तदीय</a>-<a (click)=showDic('मातङ्ग')>मातङ्ग</a>-<a (click)=showDic('घटा')>घटा</a>-<a (click)=showDic('विघट्टित')>विघट्टित</a>{पुं}{3;बहु}
+row5#!number#!64.E</a>#!row5#!n3#!विशेषणम्,5
+row6#!number#!64.F</a>#!row6#!n3#!उस रावण_के_गज समूह_से_आहत
+row7#!number#!64.G</a>#!row7#!n3#!Attacked by Rāvaņa's elephants
+row8#!number#!64.H#!row8#!n3#!<a href="html/SV-I/SV-64/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-64/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<तदीय-मातङ्ग>K2-घट>T6-विघट्टितः>T3</a>#!html/SV-I/SV-64/samaasa1.jpg
+row9#!number#!64.I</a>#!row9#!n3#!
+row10#!number#!64.J</a>#!row10#!n3#!
+row11#!number#!64.K</a>#!row11#!n3#!
+row12#!number#!64.L</a>#!row12#!n3#!
+
+row1#!n3#!कटस्थल-प्रोषित-दानवारिभिः
+row2#!n3#!कटस्थलप्रोषितदानवारिभिः 
+row3#!n3#!कटस्थल-प्रोषित-दानवारि{पुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('कटस्थल')>कटस्थल</a>-<a (click)=showDic('प्रोषित')>प्रोषित</a>-<a (click)=showDic('दानवारि')>दानवारि</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n3#!गण्डस्थल_में_मदजल_से_शून्य
+row7#!n3#!had their rut removed from their temples
+row8#!n3#!<a href="html/SV-I/SV-64/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-64/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कटस्थल-<प्रेषित-दानवारी>K3>Bs6</a>#!html/SV-I/SV-64/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!गृहीतदिक्कैः
+row2#!n3#!गृहीतदिक्कैः 
+row3#!n3#!गृहीतदिक्क{पुं}{3;बहु}/गृहीतदिक्क{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('गृहीतदिक्क')>गृहीतदिक्क</a>{पुं}{3;बहु}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n3#!दिशाओं_में_पलायन_करते_हुए
+row7#!n3#!who had resorted to the extremities
+row8#!n3#!<a href="html/SV-I/SV-64/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-64/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><गृहीत-दिक्कः>Bs3</a>#!html/SV-I/SV-64/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!‘शेषाद्विभाषा’ (5।4।154) इति कप् ।
+
+row1#!n3#!अपुनर्निवर्तिभिः
+row2#!n3#!अपुनर्निवर्तिभिः
+row3#!n3#!अपुनर्निवर्तिन्{पुं}{3;बहु}/निवर्तिन्{नपुं}{3;बहु}
+row4#!n3#!<a (click)=showDic('अपुनर्निवर्तिन्')>अपुनर्निवर्तिन्</a>{पुं}{3;बहु}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n3#!पुनः नहीं लौटनेवाले
+row7#!n3#!and never returned from there
+row8#!n3#!<a href="html/SV-I/SV-64/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-64/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-<पुनः-निवर्तनि्>U>Tn</a>#!html/SV-I/SV-64/samaasa4.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!दिग्गजैः
+row2#!n3#!दिग्गजैः 
+row3#!n3#!दिग्गज{पुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('दिग्गज')>दिग्गज</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n3#!दिग्गजों_ने
+row7#!n3#!by the elephants guarding the extremities
+row8#!n3#!<a href="html/SV-I/SV-64/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-64/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><दिक्-गजः>T7</a>#!html/SV-I/SV-64/samaasa5.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!चिराय
+row2#!NA#!चिराय 
+row3#!NA#!चिराय{अव्य}/चिर{नपुं}{4;एक} 
+row4#!NA#!<a (click)=showDic('चिराय')>चिराय</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,8</a>
+row6#!NA#!दीर्घकाल_के_लिये 
+row7#!NA#!for a long time
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!याथार्थ्यम्
+row2#!n1#!याथार्थ्यम् 
+row3#!n1#!याथार्थ्य{नपुं}{1;एक}/याथार्थ्य{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('याथार्थ्य')>याथार्थ्य</a>{नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n1#!यथार्थता_को
+row7#!n1#!the correct sense of their name
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!अलम्भि.
+row2#!v#!अलम्भि 
+row3#!v#!लभ्1{कर्मणि;लुङ्;आत्मनेपदी;प्र;एक;डुलभँष्;भ्वादिः}
+row4#!v#!<a (click)=showDic('लभ्1')>लभ्1</a>{कर्मणि;लुङ्;आत्मनेपदी;प्र;एक;डुलभँष्;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!पा_लिया.
+row7#!v#!obtained.
+row8#!v#!-
+row9#!v#!कर्मणि.
+row10#!v#!वंशस्थम् ।
+row11#!v#!समासोक्तिः ।
+row12#!v#!लभेर्ण्यन्तात् कर्मणि लुङ् । ‘विभाषा चिण्णमुलोः (7।1।69) इति विकल्पान्नुमागमः ।
+
+

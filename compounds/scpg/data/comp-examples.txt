@@ -1,0 +1,40 @@
+A1	upakqRNam	kqRNasya samIpam	<upa-kqRNam>A1
+A2	akRapari	akReNa viparIwaM vqwwam	<akRa-pari>A2
+A4	sapwagafgam	sapwAnAM gafgAnAM samAhAraH	<sapwa-gafgam>A4
+A5	unmawwagafgam	unmawwA gafgA yasmin xeSe	<unmawwa-gafgam>A5
+A6	wrimuni	wrayANAm munInAM samAhAraH	<wri-muni>A6
+A7	pAregafgam	gafgAyAH pAre	<pAre-gafgam>A7
+T1	arXapippalI	arXaM pippalyAH	<arXa-pippalI>T1
+T2	kqRNaSriwaH	kqRNaM SriwaH	<kqRNa-SriwaH>T2
+T3	SafkulAKaNdaH	SafkulayA KaNdaH	<SafkulA-KaNdaH>T3
+T4	yUpaxAruH	yUpAya xAruH	<yUpa-xAruH>T4
+T5	coraBayam	corAw Bayam	<cora-Bayam>T5
+T6	xaSaraWapuwraH	xaSaraWasya puwraH	<xaSaraWa-puwraH>T6
+Tn	abrAhmaNaH	na brAhmaNaH	<a-brAhmaNaH>Tn
+Tds	paFcagavam	paFcAnAM gavAM samAhAraH	<paFca-gavam>Tds
+K1	nIlowpalam	nIlaM waw uwpalaM ca	<nIla-uwpalam>K1
+K2	brAhmaNabAlaH	brAhmaNaH ca bAlaH ca	<brAhmaNa-bAlaH>K2
+K3	manxaSIwalaH	manxaH ca asO SIwalaH ca	<manxa-SIwalaH>K3
+K4	meGaSyAmaH	meGaH iva SyAmaH	<meGa-SyAmaH>K4
+K5	puruRavyAGraH	puruRaH vyAGra iva	<puruRa-vyAGraH>K5
+K6	guruxevaH	guruH eva xevaH	<guru-xevaH>K6
+K7	ayoXyAnagarI	ayoXyA iwi nagarI	<ayoXyA-nagarI>K7
+Bs2	prApwoxakaH	prApwam uxakaM yam	<prApwa-uxakaH>Bs2
+Bs3	UDaraWaH	UDaH raWaH yena	<UDa-raWaH>Bs3
+Bs4	xawwavaswrA	xawwaM vaswram yasyE	<xawwa-vaswrA>Bs4
+Bs5	apagawajIvaH	apagawaH jIvaH yasmAw	<apagawa-jIvaH>Bs5
+Bs6	pIwAmbaraH	pIwam ambaraM yasya saH	<pIwa-ambaraH>Bs6
+Bs7	nikRipwaviSvAsaH	nikRipwaH viSvAsaH yasmin	<nikRipwa-viSvAsaH>Bs7
+Bsd	pUrvowwarA	pUrvasyAH ca uwwarasyAH ca yaxanwarAlam	<pUrva-uwwarA>Bsd
+Bsp	xaNdAxaNdi	xaNdEH ca xaNdEH ca prahqwya ixaM yuxXaM pravqwwam	<xaNdA-xaNdi>Bsp
+Bsg	keSAkeSi	keSeRu keSeRu gqhIwvA ixaM yuxXaM pravqwwam	<keSA-keSi>Bsg
+Bss	wricawuraH	wrayaH vA cawvAraH vA yasya	<wri-cawuraH>Bss
+Bsu	canxramuKI	canxraH iva muKaM yasyAH	<canxra-muKI>Bsu
+Bv	kaNTekAlaH	kaNTe kAlaH yasya	<kaNTe-kAlaH>Bv
+Bvs	upaxaSAH	xaSAnAM samIpe ye sanwi we	<upa-xaSAH>Bvs
+BvS	sapuwraH	puwreNa saha	<sa-puwraH>BvS
+BvU	uRtramuKaH	uRtrasya iva muKaM yasya	<uRtra-muKaH>BvU
+Di	rAmakqRNO	rAmaH ca kqRNaH ca	<rAma-kqRNO>Di
+Ds	saMjFApariBARam	saMjFA ca pariBARA ca	<saMjFA-pariBARam>Ds
+d	uparyupari	upari upari	<upari-upari>d
+S	BUwapUrvaH	pUrvaM BUwaH	<BUwa-pUrvaH>S

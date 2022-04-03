@@ -1,0 +1,48 @@
+A1,1,6,word2 word1,1,1
+A2,3,1,word1 viparIwam vqwwam,1,1
+A4,6,6,word1 word2 samAhAraH,3,3
+A5,1,1,word1 word2 yasmin xeSe,1,1
+A6,6,6,word1 word2 samAhAraH,3,3
+A7,7,6,word2 pAre,1,1
+T1,1,6,word1 word2,1,1
+T2,2,1,word1 word2,1,1
+T3,3,1,word1 word2,1,1
+T4,4,1,word1 word2,1,1
+T5,5,1,word1 word2,1,1
+T6,6,1,word1 word2,1,1
+T7,7,1,word1 word2,1,1
+Tn,1,1,na word2,1,1
+Tds,6,6,word1 word2 samAhAraH,3,3
+Bs2,1,1,word1 word2 yaw,1,1
+Bs3,1,1,word1 word2 yaw,1,1
+Bs4,1,1,word1 word2 yaw,1,1
+Bs5,1,1,word1 word2 yaw,1,1
+Bs6,1,1,word1 word2 yaw,1,1
+Bs7,1,1,word1 word2 yaw,1,1
+Bsd,6,6,word1 ca word2 ca xiSoH yaxanwarAlam,1,1
+Bsp,3,3,word1 ca word2 ca prahqwya ixam yuxXam pravqwwam,3,3
+Bsg,7,7,word1 word2 gqhIwvA ixam yuxXam pravqwwam,3,3
+Bsmn,1,1,na vixyawe word2 yasya,1,1
+Bsmg,1,1,word1 word2 yasmAw,1,1
+Bss,1,1,word1 vA word2 vA yasyAH,1,1
+Bsu,1,1,word1 iva word2,1,1
+Bv,7,1,word1 word2 yasya saH,1,1
+Bvs,0,6,word2 samIpe ye sanwi we,1,1
+BvS,0,3,word2 saha,1,1
+BvU,6,1,word1 iva word2 yasya,1,1
+Bvp,1,1,word1 word2 yasmAw,1,1
+K1,1,1,word1 waw word2 ca,1,1
+K2,1,1,word1 ca word2 ca,1,1
+K3,1,1,word1 ca asO word2 ca,1,1
+K4,1,1,word1 iva word2,1,1
+K5,1,1,word1 word2 iva,1,1
+K6,1,1,word1 eva word2,1,1
+K7,1,1,word1 iwi word2,1,1
+Km,1,1,word1 priyaH word2,1,1
+Kma,1,1,word1 eva word2,1,1
+Kms,1,1,word1 iwi word2,1,1
+Tg,1,1,word2 word1,1,1
+S,1,1,word2 word1,1,1
+d,1,1,word1 word2,1,1
+Ds,1,1,word1 ca word2 ca ewayoH samAhAraH,1,1
+Di,1,1,word1 ca word2 ca,1,1

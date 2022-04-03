@@ -1,0 +1,196 @@
+row1#!number#!<a href="html/SV-I/SV-36/36.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-36/36.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">36.A</a>#!html/SV-I/SV-36/36.jpg#!row1#!n1#!त्वम्
+row2#!number#!36.B</a>#!row2#!n1#!त्वम् 
+row3#!number#!36.C</a>#!row3#!n1#!युष्मद्{1;एक} 
+row4#!number#!36.D</a>#!row4#!n1#!<a (click)=showDic('युष्मद्')>युष्मद्</a>{1;एक} 
+row5#!number#!36.E</a>#!row5#!n1#!कर्ता,7
+row6#!number#!36.F</a>#!row6#!n1#!तुम 
+row7#!number#!36.G</a>#!row7#!n1#!You
+row8#!number#!36.H#!row8#!n1#!
+row9#!number#!36.I</a>#!row9#!n1#!
+row10#!number#!36.J</a>#!row10#!n1#!
+row11#!number#!36.K</a>#!row11#!n1#!
+row12#!number#!36.L</a>#!row12#!n1#!
+
+row1#!n2#!अतिभार-भङ्गुराम्
+row2#!n2#!अतिभारभङ्गुराम् 
+row3#!n2#!अतिभार-भङ्गुरा{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('अतिभार')>अतिभार</a>-<a (click)=showDic('भङ्गुरा')>भङ्गुरा</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n2#!अत्यधिक भार_से_भंगुर
+row7#!n2#!breaking under excessive weight
+row8#!n2#!<a href="html/SV-I/SV-36/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-36/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<अति-भार>T3-भङ्गुरा>T3</a>#!html/SV-I/SV-36/samaasa1.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!‘भञ्जभासमिदो घुरच्’ (3।2।161) ।
+
+row1#!n2#!अमूं
+row2#!n2#!अमूं 
+row3#!n2#!अदस्{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('अदस्')>अदस्</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n2#!इस
+row7#!n2#!this
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!(धरित्रीं)
+row2#!n2#!धरित्रीं
+row3#!n2#!धरित्री{स्त्री}{2;एक}
+row4#!n2#!<a (click)=showDic('धरित्री')>धरित्री</a>{स्त्री}{2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n2#!धरित्री_को
+row7#!n2#!the earth
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!लघूकरिष्यन्
+row2#!n1#!लघूकरिष्यन्
+row3#!n1#!लघू-करिष्यन्3{कृत्_प्रत्ययः:शतृ;डुकृञ्;तनादिः;पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('लघु_च्वि')>लघु_च्वि</a>-<a (click)=showDic('कृ3')>कृ3</a>{कृत्_प्रत्ययः:शतृ_लृट्;डुकृञ्;तनादिः;पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,8</a>
+row6#!n1#!हल्की_करते_हुए
+row7#!n1#!to lighten
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘कृभ्वस्ति०’ (5।4।50) इत्यादिनाऽभूततद्भावे च्विः । ‘च्वौ च’ (7।4।26) इति दीर्घः ।
+
+row1#!NA#!किल
+row2#!NA#!किल 
+row3#!NA#!किल{अव्य}/किल्1{कर्तरि;लोट्;म;एक;परस्मैपदी;किलँ;तुदादिः} 
+row4#!NA#!<a (click)=showDic('किल')>किल</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,8</a>
+row6#!NA#!हि
+row7#!NA#!indeed
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n5#!त्रिदिवात्
+row2#!n5#!त्रिदिवात् 
+row3#!n5#!त्रिदिव{नपुं}{5;एक} 
+row4#!n5#!<a (click)=showDic('त्रिदिव')>त्रिदिव</a>{नपुं}{5;एक} 
+row5#!n5#!<a href="javascript:show('अपादानम्,')">अपादानम्,8</a>
+row6#!n5#!स्वर्ग_से 
+row7#!n5#!from heaven
+row8#!n5#!-
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!‘घञर्थे कविधानम्’ (वा०) ।
+
+row1#!v#!अवातरः
+row2#!v#!अवातरः 
+row3#!v#!अव_तॄ1{कर्तरि;लङ्;म;एक;परस्मैपदी;तॄ;भ्वादिः} 
+row4#!v#!<a (click)=showDic('अव_तॄ1')>अव_तॄ1</a>{कर्तरि;लङ्;म;एक;परस्मैपदी;तॄ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!अवतीर्ण_हुए_हैं
+row7#!v#!descended
+row8#!v#!-
+row9#!v#!अकर्मककर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NA#!साम्प्रतम्
+row2#!NA#!साम्प्रतम् 
+row3#!NA#!साम्प्रतम्{अव्य} 
+row4#!NA#!<a (click)=showDic('साम्प्रतम्')>साम्प्रतम्</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,6</a>
+row6#!NA#!अब 
+row7#!NA#!now
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!उदूढ-लोक-त्रितयेन
+row2#!n3#!उदूढलोकत्रितयेन 
+row3#!n3#!उदूढ-लोक-त्रितय{नपुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('उदूढ')>उदूढ</a>-<a (click)=showDic('लोक')>लोक</a>-<a (click)=showDic('त्रितय')>त्रितय</a>{नपुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('करण,')">करण,6</a>
+row6#!n3#!तीन लोकों_को_ धारण_किये_हुए
+row7#!n3#!who bear the three worlds
+row8#!n3#!<a href="html/SV-I/SV-36/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-36/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><उदूढ-<लोक-त्रितयम्>T6>Bs3</a>#!html/SV-I/SV-36/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!त्वया
+row2#!n3#!त्वया 
+row3#!n3#!युष्मद्{3;एक} 
+row4#!n3#!<a (click)=showDic('युष्मद्')>युष्मद्</a>{3;एक} 
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,6</a>
+row6#!n3#!तुमसे 
+row7#!n3#!by you
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!धरित्री
+row2#!n1#!धरित्री
+row3#!n1#!धरित्री{स्त्री}{1;एक}
+row4#!n1#!<a (click)=showDic('धरित्री')>धरित्री</a>{स्त्री}{1;एक}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,6</a>
+row6#!n1#!पृथिवी
+row7#!n1#!the earth
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!गुरुः
+row2#!n1#!गुरुः 
+row3#!n1#!गुरु{पुं}{1;एक}/{स्त्री}{1;एक}
+row4#!n1#!<a (click)=showDic('गुरु')>गुरु</a>{पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('कर्मसमानाधिकरण,')">कर्मसमानाधिकरण,6</a>
+row6#!n1#!भारी
+row7#!n1#!heavier
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!क्रियतेतराम्
+row2#!v#!क्रियतेतराम् 
+row3#!v#!क्रियतेतरा{स्त्री}{2;एक}
+row4#!v#!<a (click)=showDic('कृ3')>कृ3</a>{कर्मणि;लट्;तद्धितप्रत्यय=तरप्_आम्;प्र;एक;आत्मनेपदी;डुकृञ्;तनादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!बना_रहे_हैं.
+row7#!v#!is made.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!वंशस्थम् ।
+row11#!v#!विरोधाभासः ।
+row12#!v#!‘तिङ्श्च’ (5।3।56) इति तरप् । ‘किमेत्तिङव्ययात्0’ (5।4।11) इत्यादिना आमुप्रत्ययः ।
+
+

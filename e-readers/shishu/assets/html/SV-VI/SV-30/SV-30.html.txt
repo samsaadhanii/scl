@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-VI/SV-30/30.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-30/30.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">30.A</a>#!html/SV-VI/SV-30/30.jpg#!row1#!n1#!विदलकन्दलकम्पन-लालितः
+row2#!number#!30.B</a>#!row2#!n1#!विदलकन्दलकम्पन-लालितः
+row3#!number#!30.C</a>#!row3#!n1#!विदलकन्दलकम्पन-लालित{पुं;1;एक}/लालित{पुं;1;एक}
+row4#!number#!30.D</a>#!row4#!n1#!<a (click)=showDic('विदलकन्दलकम्पन')>विदलकन्दलकम्पन</a>-<a (click)=showDic('लालित')>लालित</a>{पुं;1;एक}
+row5#!number#!30.E</a>#!row5#!n1#!विशेषणम्,3
+row6#!number#!30.F</a>#!row6#!n1#!खिले हुए कन्दली के फूलों को काँपने से (लालित) उपस्कृत
+row7#!number#!30.G</a>#!row7#!n1#!The one which had spread fragrance by shuddering blossomed flowers of a tree called ‘Kandalī'
+row8#!number#!30.H#!row8#!n1#!<a href="html/SV-VI/SV-30/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-30/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<विदल-कन्दल>K3-कम्पन>T6-लालितः>T3</a>#!html/SV-VI/SV-30/samaasa1.jpg
+row9#!number#!30.I</a>#!row9#!n1#!
+row10#!number#!30.J</a>#!row10#!n1#!
+row11#!number#!30.K</a>#!row11#!n1#!
+row12#!number#!30.L</a>#!row12#!n1#!तस्याः पुष्पाणि कन्दलानि 'फले लुक्' (4।3।163) इत्यणो लुक् ।
+
+row1#!n1#!मनस्विनीजनमनोनमनः
+row2#!n1#!मनस्विनीजनमनोनमनः
+row3#!n1#!मनस्विनीजनमनोन-मनस्{नपुं;1;एक}/मनस्{नपुं;2;एक}/मनस्{नपुं;8;एक}/मनस्{पुं;8;एक}
+row4#!n1#!<a (click)=showDic('मनस्विनीजन')>मनस्विनीजन</a>-<a (click)=showDic('मनो')>मनो</a>-<a (click)=showDic('नमनस्')>नमनस्</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n1#!मानिनी स्त्रियों के मन को झुकाने (उनका मान मर्दन करने) वाले
+row7#!n1#!which is capable of bending down the minds of pride women
+row8#!n1#!<a href="html/SV-VI/SV-30/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-30/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<मनस्विनी-जन>K3-मन>T6-नमनस्>T6</a>#!html/SV-VI/SV-30/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!घन-मारुतः
+row2#!n1#!घन-मारुतः
+row3#!n1#!घन-मारुत{पुं;1;एक}/मारुत{पुं;1;एक}
+row4#!n1#!<a (click)=showDic('घन')>घन</a>-<a (click)=showDic('मारुत')>मारुत</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,5</a>
+row6#!n1#!बादलों_की_वायु_ने
+row7#!n1#!wind of clouds
+row8#!n1#!<a href="html/SV-VI/SV-30/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-30/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><घन-मारुतः>T6</a>#!html/SV-VI/SV-30/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!वनानि
+row2#!n2#!वनानि
+row3#!n2#!वन{नपुं;1;बहु}/वन{नपुं;2;बहु}/वन{नपुं;8;बहु}/वन्1{कर्तरि;लोट्;उ;एक;परस्मैपदी;वनँ;भ्वादिः}/वन्2{कर्तरि;लोट्;उ;एक;परस्मैपदी;वनुँ;भ्वादिः}
+row4#!n2#!<a (click)=showDic('वन')>वन</a>{नपुं;2;बहु}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,5</a>
+row6#!n2#!वन_को
+row7#!n2#!forest
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!नमयति
+row2#!v#!नमयति
+row3#!v#!नम्1_णिच्{कर्तरि;लट्;प्र;एक;परस्मैपदी;णमँ;भ्वादिः}
+row4#!v#!<a (click)=showDic('नम्1_णिच्')>नम्1_णिच्</a>{कर्तरि;लट्;प्र;एक;परस्मैपदी;णमँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!झुका_दिया
+row7#!v#!bent down
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!NA#!स्म
+row2#!NA#!स्म
+row3#!NA#!स्म{अव्य}
+row4#!NA#!<a (click)=showDic('स्म')>स्म</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,5</a>
+row6#!NA#!था
+row7#!NA#!had
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!प्रवसतः
+row2#!n2#!प्रवसतः
+row3#!n2#!प्र_वस्1{कर्तरि;लट्;प्र;द्वि;परस्मैपदी;वसँ;भ्वादिः}/प्रवसत्{पुं;2;बहु}/प्रवसत्{पुं;5;एक}/प्रवसत्{पुं;6;एक}/प्रवसत्{नपुं;5;एक}/प्रवसत्{नपुं;6;एक}
+row4#!n2#!<a (click)=showDic('प्र_वस्1')>प्र_वस्1</a>{शतृ_लट्;वसँ;भ्वादिः;पुं;2;बहु}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,9</a>
+row6#!n2#!परदेश वासी विरहियों को
+row7#!n2#!one who were staying away from their homes
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!सुतरां
+row2#!NA#!सुतरां
+row3#!NA#!सुतराम्}
+row4#!NA#!<a (click)=showDic('सुतराम्')>सुतराम्</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,9</a>
+row6#!NA#!अत्यन्त
+row7#!NA#!very much
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!उदकम्पयत्
+row2#!v#!उदकम्पयत्
+row3#!v#!उत्-कम्प्1_णिच्{कर्तरि;लङ्;प्र;एक;परस्मैपदी;कपिँ;भ्वादिः}
+row4#!v#!<a (click)=showDic('उत्_कम्प्1_णिच्')>उत्_कम्प्1_णिच्</a>{कर्तरि;लङ्;प्र;एक;परस्मैपदी;कपिँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!कम्पित_कर_दिया.
+row7#!v#!made distressed.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!यमकम् ।
+row12#!v#!
+
+

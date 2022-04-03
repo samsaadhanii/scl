@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-VII/SV-37/37.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-37/37.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">37.A</a>#!html/SV-VII/SV-37/37.jpg#!row1#!n1#!कृतभयपरितोष-सन्निपातं
+row2#!number#!37.B</a>#!row2#!n1#!कृतभयपरितोष-सन्निपातं
+row3#!number#!37.C</a>#!row3#!n1#!कृतभयपरितोषसन्निपात{पुं;2;एक}/पात{नपुं;1;एक}/पात{नपुं;2;एक}/पा2{कर्तरि;लोट्;म;द्वि;परस्मैपदी;पा;अदादिः}
+row4#!number#!37.D</a>#!row4#!n1#!<a (click)=showDic('कृतभयपरितोष')>कृतभयपरितोष</a>-<a (click)=showDic('सन्निपात')>सन्निपात</a>{नपुं;1;एक}
+row5#!number#!37.E</a>#!row5#!n1#!विशेषणम्,4
+row6#!number#!37.F</a>#!row6#!n1#!भय तथा सन्तोष (हर्ष) के मिश्रण से युक्त
+row7#!number#!37.G</a>#!row7#!n1#!(The said woman) with the blend of fear and happiness
+row8#!number#!37.H#!row8#!n1#!<a href="html/SV-VII/SV-37/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-37/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कृत-<<भय-परितोष>Di-सन्निपातः>T6>Bs3</a>#!html/SV-VII/SV-37/samaasa1.jpg
+row9#!number#!37.I</a>#!row9#!n1#!
+row10#!number#!37.J</a>#!row10#!n1#!
+row11#!number#!37.K</a>#!row11#!n1#!
+row12#!number#!37.L</a>#!row12#!n1#!
+
+row1#!n1#!मनसिजगुरुतत्क्षण-उपदिष्टं
+row2#!n1#!मनसिजगुरुतत्क्षण-उपदिष्टं
+row3#!n1#!मनसिजगुरुतत्क्षण-उपदिष्ट{पुं;2;एक}/उपदिष्ट{नपुं;1;एक}/उपदिष्ट{नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('मनसिजगुरुतत्क्षण')>मनसिजगुरुतत्क्षण</a>-<a (click)=showDic('उप_दिश्1')>उप_दिश्1</a>{क्त;दिशँ;तुदादिः;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n1#!कामदेवरूप गुरु द्वारा तत्क्षण निर्दिष्ट
+row7#!n1#!at that moment was taught by Cupid in the form of a teacher
+row8#!n1#!<a href="html/SV-VII/SV-37/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-37/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<मनसि-ज>T7-गुरु>K6-<तत्क्षण-उपदिष्टम्>T7>T3</a>#!html/SV-VII/SV-37/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!'सप्तम्यां जनेर्डः' (3।2।97) । 'हलदन्तात्सप्तम्याः सञ्ज्ञायाम्' (6।3।9) इत्यलुक् ।
+
+row1#!NA#!किमपि
+row2#!NA#!किमपि
+row3#!NA#!किमपि{अव्य}
+row4#!NA#!<a (click)=showDic('किमपि')>किमपि</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,4</a>
+row6#!NA#!कुछ अनिर्वचनीय
+row7#!NA#!some inexplicable
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!रसान्तरं
+row2#!n1#!रसान्तरं
+row3#!n1#!रसान्तर{पुं;2;एक}/रसान्तर{नपुं;1;एक}/रसान्तर{नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('रसान्तर')>रसान्तर</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,6</a>
+row6#!n1#!रसान्तर
+row7#!n1#!sentiment (rasa)
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!रसेन
+row2#!n3#!रसेन
+row3#!n3#!रस{पुं;3;एक}
+row4#!n3#!<a (click)=showDic('रस')>रस</a>{पुं;3;एक}
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,6</a>
+row6#!n3#!आनन्द_को
+row7#!n3#!bliss
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NS#!भजन्ती
+row2#!NS#!भजन्ती
+row3#!NS#!भज्1{स्त्री;शतृ_लट्;भजँ;भ्वादिः}
+row4#!NS#!<a (click)=showDic('भज्1')>भज्1</a>{स्त्री;शतृ_लट्;भजँ;भ्वादिः}
+row5#!NS#!<a href="javascript:show('समानकालः,')">समानकालः,8</a>
+row6#!NS#!प्राप्त_की_हुई
+row7#!NS#!while attaining
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!n1#!सचकितसस्मितवक्त्रवारिज-श्रीः
+row2#!n1#!सचकितसस्मितवक्त्रवारिज-श्रीः
+row3#!n1#!सचकितसस्मितवक्त्रवारिज-श्री{स्त्री;1;एक}/श्री{स्त्री;8;एक}
+row4#!n1#!<a (click)=showDic('सचकितसस्मितवक्त्रवारिज')>सचकितसस्मितवक्त्रवारिज</a>-<a (click)=showDic('श्री')>श्री</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n1#!भय आश्चर्यान्विता मुखकमल की शोभावाली
+row7#!n1#!with the brilliance of lotus like face that possessed both fear and happiness
+row8#!n1#!<a href="html/SV-VII/SV-37/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-37/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<सचकित-सस्मित>K3-<वक्त्र-<वारिज-श्रीः>T6>K5>Bs6</a>#!html/SV-VII/SV-37/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!(अस्थित)
+row2#!v#!अस्थित
+row3#!v#!अस्थित}
+row4#!v#!<a (click)=showDic('स्था1')>स्था1</a>{कर्तरि;लुङ्;प्र;एक;आत्मनेपदी;ष्ठा;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!खड़ी_रही.
+row7#!v#!stood.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!पुष्पिताग्रा ।
+row11#!v#!-
+row12#!v#!
+
+

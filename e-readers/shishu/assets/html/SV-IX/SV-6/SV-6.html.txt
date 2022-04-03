@@ -1,0 +1,209 @@
+row1#!number#!<a href="html/SV-IX/SV-6/6.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-6/6.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">6.A</a>#!html/SV-IX/SV-6/6.jpg#!row1#!n7#!विधौ
+row2#!number#!6.B</a>#!row2#!n7#!विधौ
+row3#!number#!6.C</a>#!row3#!n7#!विध{;पुं;1;द्वि}/विध{;पुं;2;द्वि}/विध{;पुं;8;द्वि}/विधु{;पुं;7;एक}/विधि{;पुं;7;एक}
+row4#!number#!6.D</a>#!row4#!n7#!<a (click)=showDic('विध')>विध</a>{;पुं;7;एक}
+row5#!number#!6.E</a>#!row5#!n7#!कर्ता,3
+row6#!number#!6.F</a>#!row6#!n7#!भाग्य_के
+row7#!number#!6.G</a>#!row7#!n7#!Destiny
+row8#!number#!6.H#!row8#!n7#!
+row9#!number#!6.I</a>#!row9#!n7#!
+row10#!number#!6.J</a>#!row10#!n7#!
+row11#!number#!6.K</a>#!row11#!n7#!
+row12#!number#!6.L</a>#!row12#!n7#!
+
+row1#!n2#!प्रतिकूलताम्
+row2#!n2#!प्रतिकूलताम्
+row3#!n2#!प्रतिकूलता{;स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('प्रतिकूलता')>प्रतिकूलता</a>{;स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,3</a>
+row6#!n2#!विपरीत
+row7#!n2#!contradicts
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n7#!उपगते
+row2#!n7#!उपगते
+row3#!n7#!उपगत{;नपुं;1;द्वि}/उपगत{;नपुं;2;द्वि}/उपगत{;नपुं;8;द्वि}/उपगति{;स्त्री;8;एक}/उपगता{;स्त्री;1;द्वि}/उपगता{;स्त्री;2;द्वि}/उपगत{;पुं;7;एक}/उपगत{;नपुं;7;एक}/उपगता{;स्त्री;8;एक}/उपगता{;स्त्री;8;द्वि}
+row4#!n7#!<a (click)=showDic('उप_गम्1')>उप_गम्1</a>{क्त;गमॢँ;भ्वादिः;7;एक}
+row5#!n7#!<a href="javascript:show('भावलक्षणसप्तमी,')">भावलक्षणसप्तमी,7</a>
+row6#!n7#!होने
+row7#!n7#!obtains
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!(सति)
+row2#!n7#!सति
+row3#!n7#!सती{;स्त्री;8;एक}/सत्{;पुं;7;एक}/सत्{;स्त्री;7;एक}/सत्{;नपुं;7;एक}
+row4#!n7#!<a (click)=showDic('अस्2')>अस्2</a>{शतृ_लट्;असँ;अदादिः;;पुं;7;एक}
+row5#!n7#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,3</a>
+row6#!n7#!पर
+row7#!n7#!when
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n1#!बहु-साधनता
+row2#!n1#!बहु-साधनता
+row3#!n1#!बहु-साधनता{;स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('बहु')>बहु</a>-<a (click)=showDic('साधनता')>साधनता</a>{;स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,7</a>
+row6#!n1#!बहुसंख्यक साधन
+row7#!n1#!possessing many resources
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!विफलत्वम्
+row2#!n2#!विफलत्वम्
+row3#!n2#!विफलत्व{;नपुं;1;एक}/विफलत्व{;नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('विफलत्व')>विफलत्व</a>{;नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,7</a>
+row6#!n2#!निष्फल
+row7#!n2#!failure
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!एति
+row2#!v#!एति
+row3#!v#!इ1{कर्तरि;लट्;प्र;एक;परस्मैपदी;इण्;अदादिः}
+row4#!v#!<a (click)=showDic('इ1')>इ1</a>{कर्तरि;लट्;प्र;एक;परस्मैपदी;इण्;अदादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!हो_जाते_हैं
+row7#!v#!leads to.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NA#!हि
+row2#!NA#!हि
+row3#!NA#!हि{अव्य}
+row4#!NA#!<a (click)=showDic('हि')>हि</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,2</a>
+row6#!NA#!इसीलिये
+row7#!NA#!Therefore
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!पतिष्यतः
+row2#!v#!पतिष्यतः
+row3#!v#!पत्1{कर्तरि;लृट्;प्र;द्वि;परस्मैपदी;पतॢँ;भ्वादिः}
+row4#!v#!<a (click)=showDic('पत्1')>पत्1</a>{कर्तरि;लृट्;6;एक;परस्मैपदी;पतॢँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!v#!गिरते_हुए
+row7#!v#!while falling
+row8#!v#!-
+row9#!v#!
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!n6#!दिन-भर्तुः
+row2#!n6#!दिन-भर्तुः
+row3#!n6#!दिन-भर्तृ{;पुं;5;एक}/भर्तृ{;पुं;6;एक}/भर्तृ{;स्त्री;5;एक}/भर्तृ{;स्त्री;6;एक}/भर्तृ{;नपुं;5;एक}/भर्तृ{;नपुं;6;एक}
+row4#!n6#!<a (click)=showDic('दिन')>दिन</a>-<a (click)=showDic('भर्तृ')>भर्तृ</a>{;पुं;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,4</a>
+row6#!n6#!सूर्य_की
+row7#!n6#!of the Sun
+row8#!n6#!<a href="html/SV-IX/SV-6/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-6/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><दिन-भर्ता>T6</a>#!html/SV-IX/SV-6/samaasa1.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!कर-सहस्रम्
+row2#!n1#!कर-सहस्रम्
+row3#!n1#!कर-सहस्र{संख्येयम्;1;एक}/सहस्र{संख्येयम्;2;एक}/सहस्र{;नपुं;1;एक}/सहस्र{;नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('कर')>कर</a>-<a (click)=showDic('सहस्र')>सहस्र</a>{नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n1#!सहस्र-किरण
+row7#!n1#!thousands of rays
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!अपि
+row2#!NA#!अपि
+row3#!NA#!अपि{अव्य}
+row4#!NA#!<a (click)=showDic('अपि')>अपि</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,4</a>
+row6#!NA#!भी
+row7#!NA#!even
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n4#!अवलम्बनाय
+row2#!n4#!अवलम्बनाय
+row3#!n4#!अवलम्बन{;नपुं;4;एक}
+row4#!n4#!<a (click)=showDic('अव_लम्ब्1')>अव_लम्ब्1</a>{ल्युट्;लबिँ;भ्वादिः;;नपुं;4;एक}
+row5#!n4#!<a href="javascript:show('प्रयोजनम्,')">प्रयोजनम्,8</a>
+row6#!n4#!अवलम्बन_के_लिए
+row7#!n4#!recourse to
+row8#!n4#!-
+row9#!n4#!
+row10#!n4#!
+row11#!n4#!
+row12#!n4#!
+
+row1#!NA#!न
+row2#!NA#!न
+row3#!NA#!न{अव्य}
+row4#!NA#!<a (click)=showDic('न')>न</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,8</a>
+row6#!NA#!नहीं
+row7#!NA#!not
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!अभूत्
+row2#!v#!अभूत्
+row3#!v#!अस्2{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;असँ;अदादिः}/भू1{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;भू;भ्वादिः}
+row4#!v#!<a (click)=showDic('भू1')>भू1</a>{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;भू;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!हुए
+row7#!v#!is.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!प्रमिताक्षरा ।
+row11#!v#!अर्थान्तरन्यासः ।
+row12#!v#!
+
+

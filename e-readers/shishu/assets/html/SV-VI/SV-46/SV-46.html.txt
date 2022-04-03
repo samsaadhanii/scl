@@ -1,0 +1,92 @@
+row1#!number#!<a href="html/SV-VI/SV-46/46.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-46/46.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">46.A</a>#!html/SV-VI/SV-46/46.jpg#!row1#!NA#!अनु-वनं
+row2#!number#!46.B</a>#!row2#!NA#!अनु-वनं
+row3#!number#!46.C</a>#!row3#!NA#!अनु-वन{नपुं;1;एक}/वन{नपुं;2;एक}/वन{नपुं;2;एक}
+row4#!number#!46.D</a>#!row4#!NA#!<a (click)=showDic('अनु')>अनु</a>-<a (click)=showDic('वन')>वन</a>{अव्य}
+row5#!number#!46.E</a>#!row5#!NA#!विशेषणम्,3
+row6#!number#!46.F</a>#!row6#!NA#!प्रत्येक वन में
+row7#!number#!46.G</a>#!row7#!NA#!In each and every forest
+row8#!number#!46.H#!row8#!NA#!<a href="html/SV-VI/SV-46/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-46/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अनु-वनम्>A1</a>#!html/SV-VI/SV-46/samaasa1.jpg
+row9#!number#!46.I</a>#!row9#!NA#!
+row10#!number#!46.J</a>#!row10#!NA#!
+row11#!number#!46.K</a>#!row11#!NA#!
+row12#!number#!46.L</a>#!row12#!NA#!
+
+row1#!n7#!बहलरागजवा-अधर-चारुणि
+row2#!n7#!बहलरागजवा-अधर-चारुणि
+row3#!n7#!बहलरागजवा-अधर-चारुणि}
+row4#!n7#!<a (click)=showDic('बहलरागजवा')>बहलरागजवा</a>-<a (click)=showDic('अधर')>अधर</a>-<a (click)=showDic('चारु')>चारु</a>{नपुं;7;एक}
+row5#!n7#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n7#!अत्यन्त लाल गुड़हल के पुष्प रूपी अधरोष्ठ से मनोहर
+row7#!n7#!flowers of China rose resembling like lips of a woman
+row8#!n7#!<a href="html/SV-VI/SV-46/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-46/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<बहल-राग>Bs6-जवा>K3-अधर>K6-चारु>T3</a>#!html/SV-VI/SV-46/samaasa2.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!वनराजिवधू-मुखे
+row2#!n7#!वनराजिवधू-मुखे
+row3#!n7#!वनराजिवधू-मुख{नपुं;1;द्वि}/मुख{नपुं;2;द्वि}/मुख{नपुं;8;द्वि}/मुख{पुं;7;एक}/मुख{नपुं;7;एक}/मुख{नपुं;8;द्वि}
+row4#!n7#!<a (click)=showDic('वनराजिवधू')>वनराजिवधू</a>-<a (click)=showDic('मुख')>मुख</a>{नपुं;7;एक}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,7</a>
+row6#!n7#!वनपङ्क्ति रूपी स्त्री के मुख (पक्षा0-अग्रभाग) में
+row7#!n7#!beautifying forest that resemble forepart (face) of a woman
+row8#!n7#!<a href="html/SV-VI/SV-46/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-46/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<वन-राजि>T6-वधू>K6-मुखम्>T6</a>#!html/SV-VI/SV-46/samaasa3.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n1#!रुचिरेक्षण-विभ्रमाः
+row2#!n1#!रुचिरेक्षण-विभ्रमाः
+row3#!n1#!रुचिरेक्षण-विभ्रम{पुं;1;बहु}/विभ्रमा{स्त्री;1;बहु}/विभ्रमा{स्त्री;2;बहु}/विभ्रमा{स्त्री;8;बहु}/विभ्रम{पुं;8;बहु}/विभ्रमा{स्त्री;8;बहु}
+row4#!n1#!<a (click)=showDic('रुचिरेक्षण')>रुचिरेक्षण</a>-<a (click)=showDic('विभ्रमा')>विभ्रमा</a>{स्त्री;1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!सुन्दर नेत्रों के विलास या शोभा वाले
+row7#!n1#!which has got beauty of beautiful eyes
+row8#!n1#!<a href="html/SV-VI/SV-46/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-46/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<रुचर-ईक्षण>K3-विभ्रमा>Bs6</a>#!html/SV-VI/SV-46/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!विकचबाणदल-आवलयः
+row2#!n1#!विकचबाणदल-आवलयः
+row3#!n1#!विकचबाणदल-आवलि{स्त्री;1;बहु}/आवलि{स्त्री;8;बहु}
+row4#!n1#!<a (click)=showDic('विकचबाणदल')>विकचबाणदल</a>-<a (click)=showDic('आवलि')>आवलि</a>{स्त्री;1;बहु}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,7</a>
+row6#!n1#!खिले हुए नीली झिण्टी (पियाबासे) के पत्तों (पङ्खुड़ियों) की पंक्तियाँ
+row7#!n1#!that resemble like row of leaves of Crested Philippine Violet trees 
+row8#!n1#!<a href="html/SV-VI/SV-46/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-46/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<विकच-बाण>K3-दल>T6-आवलिः>T6</a>#!html/SV-VI/SV-46/samaasa5.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!अधिकं
+row2#!NA#!अधिकं
+row3#!NA#!अधिक{पुं;2;एक}/अधिक{नपुं;1;एक}/अधिक{नपुं;2;एक}
+row4#!NA#!<a (click)=showDic('अधिक')>अधिक</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रियाविशेषणम्,')">क्रियाविशेषणम्,7</a>
+row6#!NA#!अधिक
+row7#!NA#!very much
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!रुरुचिरे
+row2#!v#!रुरुचिरे
+row3#!v#!रुच्1{कर्तरि;लिट्;प्र;बहु;आत्मनेपदी;रुचँ;भ्वादिः}/रुच्1{भावे;लिट्;प्र;बहु;आत्मनेपदी;रुचँ;भ्वादिः}
+row4#!v#!<a (click)=showDic('रुच्1')>रुच्1</a>{कर्तरि;लिट्;प्र;बहु;आत्मनेपदी;रुचँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!शोभने_लगी.
+row7#!v#!were splendorous.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!उपमा + रूपकम् + यमकम् = सङ्करः ।
+row12#!v#!
+
+

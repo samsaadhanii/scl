@@ -1,0 +1,170 @@
+row1#!number#!<a href="html/SV-III/SV-63/63.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-63/63.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">63.A</a>#!html/SV-III/SV-63/63.jpg#!row1#!n1#!स्निग्धाञ्जन-श्यामरुचिः
+row2#!number#!63.B</a>#!row2#!n1#!स्निग्धाञ्जनश्यामरुचिः 
+row3#!number#!63.C</a>#!row3#!n1#!स्निग्धाञ्जन-श्यामरुचि{पुं}{1;एक} 
+row4#!number#!63.D</a>#!row4#!n1#!<a (click)=showDic('स्निग्धाञ्जन')>स्निग्धाञ्जन</a>-<a (click)=showDic('श्यामरुचि')>श्यामरुचि</a>{पुं}{1;एक} 
+row5#!number#!63.E</a>#!row5#!n1#!विशेषणम्,6
+row6#!number#!63.F</a>#!row6#!n1#!चिकने काजल_से_श्याम वर्ण वाला
+row7#!number#!63.G</a>#!row7#!n1#!of a dark lustre like that of the unctious collyrium
+row8#!number#!63.H#!row8#!n1#!<a href="html/SV-III/SV-63/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-63/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<स्निग्ध-अञ्जन>K3-श्यामरुचिः>Bs6</a>#!html/SV-III/SV-63/samaasa1.jpg
+row9#!number#!63.I</a>#!row9#!n1#!
+row10#!number#!63.J</a>#!row10#!n1#!
+row11#!number#!63.K</a>#!row11#!n1#!
+row12#!number#!63.L</a>#!row12#!n1#!
+
+row1#!n1#!सुवृत्तः
+row2#!n1#!सुवृत्तः 
+row3#!n1#!सुवृत्त{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('सुवृत्त')>सुवृत्त</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!सम्यक् प्रकार_से
+row7#!n1#!and who was virtuous
+row8#!n1#!<a href="html/SV-III/SV-63/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-63/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सु-वृत्तः>Bs6</a>#!html/SV-III/SV-63/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!त्रिलोकी-तिलकः
+row2#!n1#!त्रिलोकी-तिलकः 
+row3#!n1#!त्रिलोकी-तिलक{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('त्रिलोकी')>त्रिलोकी</a>-<a (click)=showDic('तिलक')>तिलक</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!गोलाकार तिलक जिस_प्रकार
+row7#!n1#!mark of the three worlds
+row8#!n1#!<a href="html/SV-III/SV-63/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-63/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<त्रि-लोक>Tds-तिलकः>T6</a>#!html/SV-III/SV-63/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘तद्धितार्थ-’ (2।1।51) इत्यादिना समासः । ‘सङ्ख्यापूर्वो द्विगुः’ (2।1।52) इति द्विगुसञ्ज्ञा । ‘आकारान्तोत्तरपदे द्विगुः स्त्रियामिष्यते’ इति स्त्रीत्वे ‘द्विगोः’ (4।1।21) इति ङीप् ।
+
+row1#!n1#!सः
+row2#!n1#!सः 
+row3#!n1#!तद्{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('तद्')>तद्</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!वह 
+row7#!n1#!he
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!एव
+row2#!NA#!एव 
+row3#!NA#!एव{अव्य} 
+row4#!NA#!<a (click)=showDic('एव')>एव</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,4</a>
+row6#!NA#!ही 
+row7#!NA#!indeed
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!विशेषकः
+row2#!n1#!विशेषकः 
+row3#!n1#!विशेषक{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('विशेषक')>विशेषक</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,13</a>
+row6#!n1#!तिलक 
+row7#!n1#!mark
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!वा
+row2#!NA#!वा 
+row3#!NA#!वा{अव्य} 
+row4#!NA#!<a (click)=showDic('वा')>वा</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,13</a>
+row6#!NA#!वा 
+row7#!NA#!or
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n6#!अध्वंसित-वर्ण-कान्तेः
+row2#!n6#!अध्वंसित-वर्ण-कान्तेः
+row3#!n6#!अध्वंसित-वर्ण-कान्ति{स्त्री}{5;एक}/कान्ति{स्त्री}{6;एक} 
+row4#!n6#!<a (click)=showDic('अध्वंसित')>अध्वंसित</a>-<a (click)=showDic('वर्ण')>वर्ण</a>-<a (click)=showDic('कान्ति')>कान्ति</a>{स्त्री}{6;एक} 
+row5#!n6#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,11</a>
+row6#!n6#!(ब्राह्मणादि) वर्णों_की_मर्यादा_को_नष्ट_नहीं_करने_वाली_जिस_द्वारका_पुरी_शोभा_को
+row7#!n6#!the purity of the castes in which was not destroyed
+row8#!n6#!<a href="html/SV-III/SV-63/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-63/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अध्वंसित-<वर्ण-कान्तिः>T6>Bsmn</a>#!html/SV-III/SV-63/samaasa4.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!वध्वाः
+row2#!n6#!वध्वाः
+row3#!n6#!वधू{स्त्री}{5;एक}/वधु{स्त्री}{6;एक}
+row4#!n6#!<a (click)=showDic('वधू')>वधू</a>{स्त्री}{6;एक} 
+row5#!n6#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,10</a>
+row6#!n6#!सुन्दरी_की
+row7#!n6#!of a young woman
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!NA#!इव
+row2#!NA#!इव 
+row3#!NA#!इव{अव्य} 
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,11</a>
+row6#!NA#!जैसे 
+row7#!NA#!like
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n6#!यस्याः
+row2#!n6#!यस्याः 
+row3#!n6#!यद्{स्त्री}{5;एक}/यद्{स्त्री}{6;एक}/यस्1{कर्तरि;आशीर्लिङ्;म;एक;परस्मैपदी;यसुँ;दिवादिः} 
+row4#!n6#!<a (click)=showDic('यद्')>यद्</a>{स्त्री}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,12</a>
+row6#!n6#!जिस
+row7#!n6#!which
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!श्रियं
+row2#!n2#!श्रियं 
+row3#!n2#!श्री{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('श्री')>श्री</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,13</a>
+row6#!n2#!शोभा_को
+row7#!n2#!beauty
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!विशिशेष.
+row2#!v#!विशिशेष 
+row3#!v#!वि_शिष्2{कर्तरि;लिट्;उ;एक;परस्मैपदी;शिषॢँ;रुधादिः}/वि_शिष्2{कर्तरि;लिट्;प्र;एक;परस्मैपदी;शिषॢँ;रुधादिः}. 
+row4#!v#!<a (click)=showDic('वि_शिष्2')>वि_शिष्2</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;शिषॢँ;रुधादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!बढ़ाया.
+row7#!v#!distinguished its feature.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!उपजाति ।
+row11#!v#!श्लेषः + उपमा = सङ्करः ।
+row12#!v#!
+
+

@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-VI/SV-4/4.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-4/4.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">4.A</a>#!html/SV-VI/SV-4/4.jpg#!row1#!n7#!कुरबकस्तबकव्यतिषङ्गिणि
+row2#!number#!4.B</a>#!row2#!n7#!कुरबक-स्तबक-व्यतिषङ्गिणि
+row3#!number#!4.C</a>#!row3#!n7#!कुरबकस्तबकव्यतिषङ्गिन्{पुं;1;एक}
+row4#!number#!4.D</a>#!row4#!n7#!<a (click)=showDic('कुरबकस्तबकव्यतिषङ्गिन्')>कुरबकस्तबकव्यतिषङ्गिन्</a>{पुं;7;एक}
+row5#!number#!4.E</a>#!row5#!n7#!विशेषणम्,3
+row6#!number#!4.F</a>#!row6#!n7#!कुरबक के गुच्छे पर बैठे हुए
+row7#!number#!4.G</a>#!row7#!n7#!Having sat on the bunches of red Amarānth
+row8#!number#!4.H#!row8#!n7#!<a href="html/SV-VI/SV-4/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-4/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<कुरबक-स्तबक>T6-व्यतिषङ्गी>Bs7</a>#!html/SV-VI/SV-4/samaasa1.jpg
+row9#!number#!4.I</a>#!row9#!n7#!
+row10#!number#!4.J</a>#!row10#!n7#!
+row11#!number#!4.K</a>#!row11#!n7#!
+row12#!number#!4.L</a>#!row12#!n7#!
+
+row1#!n7#!गुणवदाश्रयलब्धगुणोदये
+row2#!n7#!गुणवत्-आश्रय-लब्ध-गुणोदये
+row3#!n7#!गुणवदाश्रयलब्धगुणोदय{पुं;7;एक}/उदय{पुं;7;एक}
+row4#!n7#!<a (click)=showDic('गुणवदाश्रयलब्धगुणोदय')>गुणवदाश्रयलब्धगुणोदय</a>{पुं;7;एक}
+row5#!n7#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n7#!गुणयुक्त (कुरबक स्तबक का) आश्रय (लेने) से प्राप्त कर लिया है गुण (कालिमा) के उत्कर्ष को जिसने
+row7#!n7#!have obtained eminence of attribute
+row8#!n7#!<a href="html/SV-VI/SV-4/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-4/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<गुणवत्-आश्रय>T6-<लब्ध-<गुण-उदयः>T6>K1>Bs3</a>#!html/SV-VI/SV-4/samaasa2.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!अलिनि
+row2#!n7#!अलिनि
+row3#!n7#!अलिन्{पुं;7;एक}
+row4#!n7#!<a (click)=showDic('अलिन्')>अलिन्</a>{पुं;7;एक}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,7</a>
+row6#!n7#!उस भौंरे में (स्थित)
+row7#!n7#!(that exist) on bumble-bee
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n1#!मलिनिमा
+row2#!n1#!मलिनिमा
+row3#!n1#!मलिनिमन्{पुं;1;एक}
+row4#!n1#!<a (click)=showDic('मलिनिमा')>मलिनिमा</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,7</a>
+row6#!n1#!कालिमा_ने
+row7#!n1#!blackness
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!माधव-योषितां
+row2#!n6#!माधव-योषितां
+row3#!n6#!माधव-योषित्{स्त्री;6;बहु}
+row4#!n6#!<a (click)=showDic('माधव')>माधव</a>-<a (click)=showDic('योषित्')>योषित्</a>{स्त्री;6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,6</a>
+row6#!n6#!यादव-स्त्रियों_के
+row7#!n6#!of women of Lord Śrī Kṛṣṇa
+row8#!n6#!<a href="html/SV-VI/SV-4/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-4/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><माधव-योषत्>T6</a>#!html/SV-VI/SV-4/samaasa3.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!विलोचन-तारकाः
+row2#!n2#!विलोचन-तारकाः
+row3#!n2#!विलोचन-तारका{स्त्री;1;बहु}/तारका{स्त्री;2;बहु}/तारका{स्त्री;8;बहु}/तारका{स्त्री;8;बहु}
+row4#!n2#!<a (click)=showDic('विलोचन')>विलोचन</a>-<a (click)=showDic('तारका')>तारका</a>{स्त्री;2;बहु}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,7</a>
+row6#!n2#!नेत्रों की (काली) पुतलियों की
+row7#!n2#!eye-ball
+row8#!n2#!<a href="html/SV-VI/SV-4/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-4/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><विलोचन-तारका>T6</a>#!html/SV-VI/SV-4/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!तुलयति
+row2#!v#!तुलयति
+row3#!v#!तुलयति}
+row4#!v#!<a (click)=showDic('तुला_णिच्')>तुला_णिच्</a>{कर्तरि;लट्;प्र;एक;तुला;परस्मैपदी;}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!समता_किया
+row7#!v#!equaled
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!उपमा + यमकम् = सङ्करः ।
+row12#!v#!'तत्करोति-' (ग०) इति ण्यन्तात् 'लट् स्मे' (3।2।118) इति भूते लट् ।
+
+row1#!NA#!स्म
+row2#!NA#!स्म
+row3#!NA#!स्म{अव्य}
+row4#!NA#!<a (click)=showDic('स्म')>स्म</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,7</a>
+row6#!NA#!था.
+row7#!NA#!had.
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+

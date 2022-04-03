@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-VI/SV-41/41.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-41/41.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">41.A</a>#!html/SV-VI/SV-41/41.jpg#!row1#!n1#!रथावयव-आयुधः
+row2#!number#!41.B</a>#!row2#!n1#!रथावयव-आयुधः
+row3#!number#!41.C</a>#!row3#!n1#!रथावयव-आयुध{पुं;1;एक}
+row4#!number#!41.D</a>#!row4#!n1#!<a (click)=showDic('रथावयव')>रथावयव</a>-<a (click)=showDic('आयुध')>आयुध</a>{पुं;1;एक}
+row5#!number#!41.E</a>#!row5#!n1#!कर्ता,11
+row6#!number#!41.F</a>#!row6#!n1#!सुदर्शन चक्रधारी भगवान् श्रीकृष्ण ने
+row7#!number#!41.G</a>#!row7#!n1#!Lord Śrī Kṛṣṇa bearing a disc
+row8#!number#!41.H#!row8#!n1#!<a href="html/SV-VI/SV-41/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-41/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<रथ-अवयव>T6-आयुधः>Bs6</a>#!html/SV-VI/SV-41/samaasa1.jpg
+row9#!number#!41.I</a>#!row9#!n1#!
+row10#!number#!41.J</a>#!row10#!n1#!
+row11#!number#!41.K</a>#!row11#!n1#!
+row12#!number#!41.L</a>#!row12#!n1#!
+
+row1#!n2#!अन्तरिताहिम-दीधितिं
+row2#!n2#!अन्तरिताहिम-दीधितिं
+row3#!n2#!अन्तरिताहिम-दीधिति{स्त्री;2;एक}/दीधिति{स्त्री;2;एक}/दीधिति{पुं;2;एक}
+row4#!n2#!<a (click)=showDic('अन्तरिताहिम')>अन्तरिताहिम</a>-<a (click)=showDic('दीधिति')>दीधिति</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n2#!सूर्य को (बादलों) से छिपाने वाले
+row7#!n2#!hid the sun
+row8#!n2#!<a href="html/SV-VI/SV-41/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-41/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अन्तरित-<<न-हिम>Tn-दीधितिः>Bs6>Bs7</a>#!html/SV-VI/SV-41/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!(तथा)
+row2#!NA#!तथा
+row3#!NA#!तथा{अव्य}
+row4#!NA#!<a (click)=showDic('तथा')>तथा</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,11</a>
+row6#!NA#!और
+row7#!NA#!and
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n4#!खग-कुलाय
+row2#!n4#!खग-कुलाय
+row3#!n4#!खग-कुल{नपुं;4;एक}/कुलाय{नपुं;8;एक}/कुलाय{पुं;8;एक}
+row4#!n4#!<a (click)=showDic('खग')>खग</a>-<a (click)=showDic('कुल')>कुल</a>{नपुं;4;एक}
+row5#!n4#!<a href="javascript:show('प्रयोजनम्,')">प्रयोजनम्,6</a>
+row6#!n4#!पक्षियों_को
+row7#!n4#!birds
+row8#!n4#!<a href="html/SV-VI/SV-41/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-41/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><खग-कुलः>T6</a>#!html/SV-VI/SV-41/samaasa3.jpg
+row9#!n4#!
+row10#!n4#!
+row11#!n4#!
+row12#!n4#!
+
+row1#!n2#!कुलाय-निलायितां
+row2#!n2#!कुलाय-निलायितां
+row3#!n2#!कुलाय-निलायिताम्}
+row4#!n2#!<a (click)=showDic('कुलाय')>कुलाय</a>-<a (click)=showDic('निलायिता')>निलायिता</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,6</a>
+row6#!n2#!घोसलों में निवास करने वाला (रहने के लिए विवश)
+row7#!n2#!stay in their nests (due to heavy rain)
+row8#!n2#!<a href="html/SV-VI/SV-41/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-41/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कुलाय-निलायिता>U</a>#!html/SV-VI/SV-41/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!ददतं
+row2#!n2#!ददतं
+row3#!n2#!ददतम्}
+row4#!n2#!<a (click)=showDic('दा3')>दा3</a>{कृत्_प्रत्ययः:शतृ;डुदाञ्;जुहोत्यादिः;पुं}{2;एक}
+row5#!n2#!<a href="javascript:show('समानकालः,')">समानकालः,11</a>
+row6#!n2#!करते_हुए
+row7#!n2#!made
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!'नाध्यस्ताच्छतुः' (7।1।78) इति नुम्प्रतिषेधः ।
+
+row1#!n6#!दिशाम्
+row2#!n6#!दिशाम्
+row3#!n6#!दिश्{स्त्री;6;बहु}/दिशा{स्त्री;2;एक}
+row4#!n6#!<a (click)=showDic('दिश्')>दिश्</a>{स्त्री;6;बहु}
+row5#!n6#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n6#!दिशाओं_के
+row7#!n6#!of directions
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!कर्मणि षष्ठी ।
+
+row1#!n2#!अबोध-कृतं
+row2#!n2#!अबोध-कृतं
+row3#!n2#!अबोध-कृत्{पुं;2;एक}/कृत{नपुं;1;एक}/कृत{नपुं;2;एक}/कृत{पुं;2;एक}/कृत{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('अबोध')>अबोध</a>-<a (click)=showDic('कृत्')>कृत्</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n2#!ज्ञान को नष्ट करने वाले
+row7#!n2#!destroys the knowledge
+row8#!n2#!<a href="html/SV-VI/SV-41/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-41/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<न-बोध>Tn-कृत्>U</a>#!html/SV-VI/SV-41/samaasa5.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!जलद-कालम्
+row2#!n2#!जलद-कालम्
+row3#!n2#!जलद-काल{पुं;2;एक}/काल{नपुं;1;एक}/काल{नपुं;2;एक}/काल{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('जलद')>जलद</a>-<a (click)=showDic('काल')>काल</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,11</a>
+row6#!n2#!बादलों_के_समय_को
+row7#!n2#!cloud-time (rainy season)
+row8#!n2#!<a href="html/SV-VI/SV-41/samaasa6.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-41/samaasa6.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><जलद-कालः>T6</a>#!html/SV-VI/SV-41/samaasa6.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!अप-रथा
+row2#!NA#!अप-रथा
+row3#!NA#!अप-रथ{पुं}
+row4#!NA#!<a (click)=showDic('अप')>अप</a>-<a (click)=showDic('रथा')>रथा</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,11</a>
+row6#!NA#!दूसरे_रूप_में
+row7#!NA#!other form
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!आप
+row2#!v#!आप
+row3#!v#!आप्1{कर्तरि;लिट्;म;बहु;परस्मैपदी;आपॢँ;स्वादिः}/आप्1{कर्तरि;लिट्;उ;एक;परस्मैपदी;आपॢँ;स्वादिः}/आप्1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;आपॢँ;स्वादिः}
+row4#!v#!<a (click)=showDic('आप्1')>आप्1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;आपॢँ;स्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!प्राप्त_हुए (देखा).
+row7#!v#!obtained (saw).
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!यमकम् ।
+row12#!v#!
+
+

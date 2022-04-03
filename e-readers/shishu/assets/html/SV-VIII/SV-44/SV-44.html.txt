@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-VIII/SV-44/44.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-44/44.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">44.A</a>#!html/SV-VIII/SV-44/44.jpg#!row1#!n2#!कनक-विभूषणानि
+row2#!number#!44.B</a>#!row2#!n2#!कनक-विभूषणानि
+row3#!number#!44.C</a>#!row3#!n2#!कनक-विभूषण{नपुं;1;बहु}/विभूषण{नपुं;2;बहु}/विभूषण{नपुं;8;बहु}
+row4#!number#!44.D</a>#!row4#!n2#!<a (click)=showDic('कनक')>कनक</a>-<a (click)=showDic('विभूषण')>विभूषण</a>{नपुं;2;बहु}
+row5#!number#!44.E</a>#!row5#!n2#!कर्म,2
+row6#!number#!44.F</a>#!row6#!n2#!सुवर्ण के अलङ्कारों को
+row7#!number#!44.G</a>#!row7#!n2#!Golden ornaments
+row8#!number#!44.H#!row8#!n2#!<a href="html/SV-VIII/SV-44/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-44/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कनक-विभूषणम्>T6</a>#!html/SV-VIII/SV-44/samaasa1.jpg
+row9#!number#!44.I</a>#!row9#!n2#!
+row10#!number#!44.J</a>#!row10#!n2#!
+row11#!number#!44.K</a>#!row11#!n2#!
+row12#!number#!44.L</a>#!row12#!n2#!
+
+row1#!NA#!उद्वोढुम्
+row2#!NA#!उद्वोढुम्
+row3#!NA#!उत्_वह्1{अव्य;तुमुन्;वहँ;भ्वादिः}/उत्_वह्1{अव्य;तुमुन्;वहँ;भ्वादिः}/उत्_वह्1{अव्य;तुमुन्;वह्;भ्वादिः}
+row4#!NA#!<a (click)=showDic('उत्_वह्1')>उत्_वह्1</a>{अव्य;तुमुन्;वहँ;भ्वादिः}
+row5#!NA#!<a href="javascript:show('प्रयोजनम्,')">प्रयोजनम्,3</a>
+row6#!NA#!वहन (धारण) करने में
+row7#!NA#!to wear
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!अशक्तः
+row2#!n1#!अशक्तः
+row3#!n1#!अशक्तः}
+row4#!n1#!<a (click)=showDic('नञ्')>नञ्</a>-<a (click)=showDic('अ_शक्1')>अ_शक्1</a>{क्त;शक्लृँ;स्वादिः;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n1#!अशक्त
+row7#!n1#!unable
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!सध्रीचा
+row2#!n3#!सध्रीचा
+row3#!n3#!सध्रीचा}
+row4#!n3#!<a (click)=showDic('सध्रयङ्')>सध्रयङ्</a>{पुं;3;एक}
+row5#!n3#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,5</a>
+row6#!n3#!सहचर_के_द्वारा
+row7#!n3#!by (her) beloved
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!'सहस्य सध्रिः’ (6।3।95) इति सहशब्दस्य सध्र्यादेशः । ‘अनिदिताम्-’ (6।4।24) इति नकारलोपः ‘अचः' (6|4|138) इत्यकारलोेपे 'चौ' (6|1|138) इति दीर्घः ।
+
+row1#!n1#!वलयितपद्म-नाल-सूत्रः
+row2#!n1#!वलयितपद्म-नाल-सूत्रः
+row3#!n1#!वलयितपद्म-नाल-सूत्रः}
+row4#!n1#!<a (click)=showDic('वलयितपद्म')>वलयितपद्म</a>-<a (click)=showDic('नाल')>नाल</a>-<a (click)=showDic('सूत्र')>सूत्र</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n1#!धारण कराये गये मृणालसूत्र (कङ्कण) से युक्त
+row7#!n1#!a bracelet of lotus stalk that was borne
+row8#!n1#!<a href="html/SV-VIII/SV-44/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-44/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><वलयित-<पद्म-नालसूत्रः>T6>Bs6</a>#!html/SV-VIII/SV-44/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!आरूढप्रतिवनिताकटाक्ष-भारः
+row2#!n1#!आरूढप्रतिवनिताकटाक्ष-भारः
+row3#!n1#!आरूढप्रतिवनिताकटाक्ष-भार{पुं;1;एक}
+row4#!n1#!<a (click)=showDic('आरूढप्रतिवनिताकटाक्ष')>आरूढप्रतिवनिताकटाक्ष</a>-<a (click)=showDic('भार')>भार</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n1#!सपत्नी के ईर्ष्या-कटाक्ष-भार से भारी
+row7#!n1#!with a glance of jealousy of (her) female rival
+row8#!n1#!<a href="html/SV-VIII/SV-44/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-44/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><आरूढ-<प्रितिवनिता-<कटाक्ष-भारः>K6>T6>Bs6</a>#!html/SV-VIII/SV-44/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!तरुण्याः
+row2#!n6#!तरुण्याः
+row3#!n6#!तरुणी{स्त्री;5;एक}/तरुणी{स्त्री;6;एक}
+row4#!n6#!<a (click)=showDic('तरुणी')>तरुणी</a>{स्त्री;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,8</a>
+row6#!n6#!युवती_के
+row7#!n6#!of a young woman
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!भुजः
+row2#!n1#!भुजः
+row3#!n1#!भुज{पुं;1;एक}
+row4#!n1#!<a (click)=showDic('भुज')>भुज</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,11</a>
+row6#!n1#!बाहु
+row7#!n1#!shoulder
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!साधीयः
+row2#!NA#!साधीयः
+row3#!NA#!साधीयस्{नपुं;1;एक}/साधीयस्{नपुं;2;एक}/साधीयस्{नपुं;8;एक}
+row4#!NA#!<a (click)=showDic('साधीयस्')>साधीयस्</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,11</a>
+row6#!NA#!अधिक
+row7#!NA#!more
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!‘अन्तिकबाढयोर्नेदसाधौ’ (5।3।63) इति बाढाशब्दस्य साधादेशः ।
+
+row1#!n1#!गुरुः
+row2#!n1#!गुरुः
+row3#!n1#!गुरु{पुं;1;एक}
+row4#!n1#!<a (click)=showDic('गुरु')>गुरु</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्तृसमानाधिकरणम्,')">कर्तृसमानाधिकरणम्,11</a>
+row6#!n1#!भारी (गौरवान्वित)
+row7#!n1#!weight
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!अभवत्
+row2#!v#!अभवत्
+row3#!v#!भू1{कर्तरि;लङ्;प्र;एक;परस्मैपदी;भू;भ्वादिः}
+row4#!v#!<a (click)=showDic('भू1')>भू1</a>{कर्तरि;लङ्;प्र;एक;परस्मैपदी;भू;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!हुआ.
+row7#!v#!became.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!प्रहर्षिणी ।
+row11#!v#!श्लेषः + अतिशयोक्तिः = सङ्करः ।
+row12#!v#!
+
+

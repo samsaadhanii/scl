@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-V/SV-63/63.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-63/63.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">63.A</a>#!html/SV-V/SV-63/63.jpg#!row1#!n3#!मृत्पिण्ड-शेखरित-कोटिभिः
+row2#!number#!63.B</a>#!row2#!n3#!मृत्पिण्ड-शेखरित-कोटिभिः 
+row3#!number#!63.C</a>#!row3#!n3#!मृत्पिण्ड-शेखरित-कोटि{स्त्री}{3;बहु}/कोटि{3;बहु} 
+row4#!number#!63.D</a>#!row4#!n3#!<a (click)=showDic('मृत्पिण्ड')>मृत्पिण्ड</a>-<a (click)=showDic('शेखरित')>शेखरित</a>-<a (click)=showDic('कोटि')>कोटि</a>{पुं}{3;बहु} 
+row5#!number#!63.E</a>#!row5#!n3#!हेतुः,4
+row6#!number#!63.F</a>#!row6#!n3#!मिट्टी के टुकडों से शिरोभूषणयुक्त अग्रभागों वाले
+row7#!number#!63.G</a>#!row7#!n3#!that have adorned mud particles as their head-ornaments
+row8#!number#!63.H#!row8#!n3#!<a href="html/SV-V/SV-63/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-63/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<मृतपिण्ड-शेखरित>T3-कोटिः>Bs6</a>#!html/SV-V/SV-63/samaasa1.jpg
+row9#!number#!63.I</a>#!row9#!n3#!
+row10#!number#!63.J</a>#!row10#!n3#!
+row11#!number#!63.K</a>#!row11#!n3#!
+row12#!number#!63.L</a>#!row12#!n3#!
+
+row1#!n2#!शिखाग्र-गत-लक्ष्म-मलम्
+row2#!n2#!शिखाग्र-गत-लक्ष्म-मलम् 
+row3#!n2#!शिखाग्र-गत-लक्ष्मन्-मल{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('शिखाग्र')>शिखाग्र</a>-<a (click)=showDic('गत')>गत</a>-<a (click)=showDic('लक्ष्मन्')>लक्ष्मन्</a>-<a (click)=showDic('मल')>मल</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n2#!सिरों पर लगे हुए कलङ्क रूपी मल वाले
+row7#!n2#!due to playlful butting  against a bank
+row8#!n2#!<a href="html/SV-V/SV-63/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-63/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<शिख-अग्र>T6-गत>T2-<लक्ष्म-मलम्>K6>Bs6</a>#!html/SV-V/SV-63/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!अर्ध-चन्द्रं
+row2#!n2#!अर्ध-चन्द्रं 
+row3#!n2#!अर्ध-चन्द्र{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('अर्ध')>अर्ध</a>-<a (click)=showDic('चन्द्र')>चन्द्र</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,4</a>
+row6#!n2#!आधे चन्द्रमा_की
+row7#!n2#!crescent moon
+row8#!n2#!<a href="html/SV-V/SV-63/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-63/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अर्ध-चन्द्रम्>T6</a>#!html/SV-V/SV-63/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n3#!हसद्भिः
+row2#!n3#!हसद्भिः 
+row3#!n3#!हसत्{पुं}{3;बहु}/हसत्{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('हस्1')>हस्1</a>{कृत्_प्रत्ययः:शतृ;हसेँ;भ्वादिः;पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('समानकालः,')">समानकालः,8</a>
+row6#!n3#!हँसी उड़ाते हुए
+row7#!n3#!humiliating
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!श्रृङ्गैः
+row2#!n3#!श्रृङ्गैः
+row3#!n3#!श्रृङ्ग-इ{पुं}{5;एक}/इ{पुं}{6;एक}
+row4#!n3#!<a (click)=showDic('श्रृङ्ग')>श्रृङ्ग</a>{पुं}{3;बहु}
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,8</a>
+row6#!n3#!सींगों_से
+row7#!n3#!by horns
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!उच्छृङ्गित-अन्य-वृषभाः
+row2#!n1#!उच्छृङ्गित-अन्य-वृषभाः 
+row3#!n1#!उच्छृङ्गित-अन्य-वृषभ{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('उच्छृङ्गित')>उच्छृङ्गित</a>-<a (click)=showDic('अन्य')>अन्य</a>-<a (click)=showDic('वृषभ')>वृषभ</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n1#!दूसरे बैलों के सींगों को जिन्होंने उखाड़डाला है
+row7#!n1#!while  exterminating the horns of other bulls
+row8#!n1#!<a href="html/SV-V/SV-63/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-63/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><उच्छृङ्कित-<अन्य-वृषभः>K1>Bs3</a>#!html/SV-V/SV-63/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!धीरं
+row2#!NA#!धीरं 
+row3#!NA#!धीर{पुं}{2;एक}/धीर{नपुं}{1;एक}/धीर{नपुं}{2;एक} 
+row4#!NA#!<a (click)=showDic('धीर')>धीर</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,8</a>
+row6#!NA#!गम्भीर
+row7#!NA#!profoundly
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!नदन्तः
+row2#!n1#!नदन्तः 
+row3#!n1#!नदत्{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('नद्2')>नद्2</a>{कृत्_प्रत्ययः:शतृ;णदँ;चुरादिः;पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n1#!गर्जना_करते_हुए
+row7#!n1#!roaring
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!महोक्षाः
+row2#!n1#!महोक्षाः
+row3#!n1#!महोक्ष{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('महोक्ष')>महोक्ष</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,12</a>
+row6#!n1#!बड़े_बैलों_ने
+row7#!n1#!big bulls
+row8#!n1#!<a href="html/SV-V/SV-63/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-63/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><महा-उक्षः>K1</a>#!html/SV-V/SV-63/samaasa5.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!अचतुर- (5।4।77) इत्यादिना निपातात्साधुः ।
+
+row1#!n6#!सरितां
+row2#!n6#!सरितां 
+row3#!n6#!सरित्{स्त्री}{6;बहु}/सरिता{स्त्री}{2;एक} 
+row4#!n6#!<a (click)=showDic('सरित्')>सरित्</a>{स्त्री}{6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,12</a>
+row6#!n6#!नदियों_के
+row7#!n6#!of rivers
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!रोधांसि
+row2#!n2#!रोधांसि 
+row3#!n2#!रोधस्{नपुं}{1;बहु}/रोधस्{नपुं}{2;बहु} 
+row4#!n2#!<a (click)=showDic('रोधस्')>रोधस्</a>{नपुं}{2;बहु} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,12</a>
+row6#!n2#!तटों_को
+row7#!n2#!banks
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!अव-चस्करिरे.
+row2#!v#!अव-चस्करिरे 
+row3#!v#!अव-चस्करिरे. 
+row4#!v#!<a (click)=showDic('अव_कृ1')>अव_कृ1</a>{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;कृ;तुदादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!उखाड़_डाला.
+row7#!v#!exterminated.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!वसन्ततिलका ।
+row11#!v#!-
+row12#!v#!अवपूर्वात्किरतेः कर्तरि लिट् । ‘किरतेर्हर्षजीविकाकुलायकरणेष्विति वक्तव्यम्’ (वा) इत्यात्मनेपदम् ।‘ऋच्छत्यृताम्’ (7।4।11) इति गुणः ।‘अपाच्चतुष्पाच्छकुनिष्वालेखने’ (6।1।142) इति सुडागमः ।
+
+

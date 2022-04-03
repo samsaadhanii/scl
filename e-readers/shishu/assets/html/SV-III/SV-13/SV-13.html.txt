@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-III/SV-13/13.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-13/13.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">13.A</a>#!html/SV-III/SV-13/13.jpg#!row1#!n6#!कपाट-विस्तीर्ण-मनोरम-उरःस्थल-स्थित-श्रीललनस्य
+row2#!number#!13.B</a>#!row2#!n6#!कपाट-विस्तीर्ण-मनोरम-उरःस्थल-स्थित-श्रीललनस्य 
+row3#!number#!13.C</a>#!row3#!n6#!कपाट-विस्तीर्ण-मनोरम-उरःस्थल-स्थित-श्रीललनस्य 
+row4#!number#!13.D</a>#!row4#!n6#!<a (click)=showDic('कपाट')>कपाट</a>-<a (click)=showDic('विस्तीर्ण')>विस्तीर्ण</a>-<a (click)=showDic('मनोरम')>मनोरम</a>-<a (click)=showDic('उरःस्थल')>उरःस्थल</a>-<a (click)=showDic('स्थित')>स्थित</a>-<a (click)=showDic('श्रीललनस्य')>श्रीललनस्य</a>{पुं}{6;एक}
+row5#!number#!13.E</a>#!row5#!n6#!विशेषणम्,2
+row6#!number#!13.F</a>#!row6#!n6#!किवाड़_के_समान चौड़े और मनोरम वक्षःस्थल_में_स्थित_लक्ष्मीरूपिणी प्रियवाले
+row7#!number#!13.G</a>#!row7#!n6#!He who had his wife, resting on his lovely bosom as broad as a door-leaf
+row8#!number#!13.H#!row8#!n6#!<a href="html/SV-III/SV-13/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-13/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<कपाट-विस्तीर्ण>K3-मनोरम>K1-उरःस्थल>K1-स्थित>T6-ललनः>Bs6</a>#!html/SV-III/SV-13/samaasa1.jpg
+row9#!number#!13.I</a>#!row9#!n6#!
+row10#!number#!13.J</a>#!row10#!n6#!
+row11#!number#!13.K</a>#!row11#!n6#!
+row12#!number#!13.L</a>#!row12#!n6#!
+
+row1#!n6#!तस्य
+row2#!n6#!तस्य 
+row3#!n6#!तद्{पुं}{6;एक}/तद्{नपुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('तद्')>तद्</a>{पुं}{6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,5</a>
+row6#!n6#!इनके
+row7#!n6#!his
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!आनन्दित-अशेषजना
+row2#!n1#!आनन्दित-अशेषजना 
+row3#!n1#!आनन्दित-अशेषजना 
+row4#!n1#!<a (click)=showDic('आनन्दित')>आनन्दित</a>-<a (click)=showDic('अशेषजना')>अशेषजना</a>{स्त्री}{1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!सब लोगों_को_आनन्दित_करने_वाली
+row7#!n1#!delighting all people
+row8#!n1#!<a href="html/SV-III/SV-13/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-13/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><आनन्दिता-अशेषजना>Bs3</a>#!html/SV-III/SV-13/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!सर्वाङ्ग-सङ्गिनी
+row2#!n1#!सर्वाङ्ग-सङ्गिनी 
+row3#!n1#!सर्वाङ्ग-सङ्गिन्{नपुं}{1;द्वि}/सङ्गिन्{नपुं}{2;द्वि}/सङ्गिनी{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('सर्वाङ्ग')>सर्वाङ्ग</a>-<a (click)=showDic('सङ्गिनी')>सङ्गिनी</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!सम्पूर्ण शरीर_में_वर्तमान
+row7#!n1#!pervading his whole body
+row8#!n1#!<a href="html/SV-III/SV-13/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-13/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सर्वाङ्ग-सङ्गिनी>T7</a>#!html/SV-III/SV-13/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!लक्ष्मीः
+row2#!n1#!लक्ष्मीः 
+row3#!n1#!लक्ष्मी{स्त्री}{1;एक}/लक्ष्मी{स्त्री}{2;बहु} 
+row4#!n1#!<a (click)=showDic('लक्ष्मी')>लक्ष्मी</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n1#!लक्ष्मी 
+row7#!n1#!Lakṣmī
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!अपरा
+row2#!n1#!अपरा 
+row3#!n1#!अपरा{स्त्री}{1;एक}/अपरा{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('अपरा')>अपरा</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्तृसमानाधिकरण,')">कर्तृसमानाधिकरण,8</a>
+row6#!n1#!दूसरी
+row7#!n1#!another
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!एव
+row2#!NA#!एव 
+row3#!NA#!एव{अव्य} 
+row4#!NA#!<a (click)=showDic('एव')>एव</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,6</a>
+row6#!NA#!ही 
+row7#!NA#!indeed
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!बभूव.
+row2#!v#!बभूव 
+row3#!v#!भू1{कर्तरि;लिट्;उ;एक;परस्मैपदी;भू;भ्वादिः}/भू1{कर्तरि;लिट्;म;बहु;परस्मैपदी;भू;भ्वादिः}/भू1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;भू;भ्वादिः}/अस्2{कर्तरि;लिट्;उ;एक;परस्मैपदी;असँ;अदादिः}/अस्2{कर्तरि;लिट्;म;बहु;परस्मैपदी;असँ;अदादिः}/अस्2{कर्तरि;लिट्;प्र;एक;परस्मैपदी;असँ;अदादिः}. 
+row4#!v#!<a (click)=showDic('भू1')>भू1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;भू;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!हुई. 
+row7#!v#!became.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!उपजाति ।
+row11#!v#!अतिशयोक्तिः ।
+row12#!v#!
+
+

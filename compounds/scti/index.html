@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>संस्कृत-समास-भेदनिर्धारकः </title>
+<meta http-equiv="CONTENT-TYPE" content="text/html; charset=utf-8" />
+
+<style type="text/css">
+
+.styled-button-3 {
+	-webkit-box-shadow:rgba(0,0,0,0.0.1) 0 1px 0 0;
+	-moz-box-shadow:rgba(0,0,0,0.0.1) 0 1px 0 0;
+	box-shadow:rgba(0,0,0,0.0.1) 0 1px 0 0;
+	background-color:#5B74A8;
+	border:1px solid #29447E;
+	font-family:'Lucida Grande',Tahoma,Verdana,Arial,sans-serif;
+	font-size:12px;
+	font-weight:700;
+	padding:2px 6px;
+	height:28px;
+	color:#fff;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px
+	cursor:pointer;
+}
+
+.styled-button-3:hover {
+height:35px;
+cursor: pointer;
+}
+
+body{
+background-color:#FFFFFF;
+margin: 0;
+padding: 0;
+font: normal 90% "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+}
+div#form-contents{
+-webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  background-color:white;
+  -moz-border-radius-topleft: 7px;
+  -moz-box-shadow:0px 0px 0px 0px #c0c0c0;
+  -moz-border-radius-bottomright: 7px
+}
+div#maindiv{
+-webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  background-color:white;
+  -moz-border-radius-topleft: 7px;
+  -moz-border-radius-bottomright: 7px
+}
+div{
+background-color:#FFFFFF;
+}
+a{
+text-decoration:none;
+}
+
+textarea:hover {
+border-color:red;
+}
+#word:hover {
+background-color:#EBDDE2;
+cursor: pointer;
+}
+
+div#input-area ul{
+display:inline;
+font-size:15px;
+}
+div#input-area li{
+float:left;
+display:inline;
+margin-right:5px;
+font-size:12px;
+}
+</style>
+
+<meta name ="keywords" content="india,indology,sanskrit,lexicography,linguistics,computational linguistics,tools,compounds" />
+<meta name ="date" content="2013-04-13" />
+<meta name="classification" content="computational linguistics, sanskrit, morphology, lexicography, indology, compounds" />
+<script type="text/javascript">
+function check(){
+if(document.getElementById("word").value==""){
+                       alert("Please enter a split compound in textbox. For instance कृष्ण-श्रितः etc.");
+                       return false;
+               }
+}
+</script>
+</head>
+
+
+<body>
+
+<div id="firstdiv" style="margin-top:10px;text-align:left;height:80px;width:1200px;margin-left:auto;margin-right:auto;border-style:none; border-width:1px;border-color:#717D7D;">
+<!--<p style="font-size:12px;text-align:center;color:brown;"> Department of Sanskrit Studies, University of Hyderabad, Hyderabad. </p><hr />-->
+<table border=0 width=100%><tr><td>
+<img src="img/logo2.jpg" style="height:60px;width:600px;margin-left:2px;border-style:none;">
+</td><td style="align:right"><a href="http://sanskrit.uohyd.ac.in" style="text-decoration:none;color:red;">- Department of Sanskrit Studies</a><br /><a href="http://sanskrit.uohyd.ac.in/scl" style="text-decoration:none;">- संसाधनी (Sanskrit Computational Tools)</a></td></tr>
+</table>
+</div> <!--end of first div -->
+
+<div id="line" style="margin-top:10px;text-align:left;height:20px;width:1200px;margin-left:auto;margin-right:auto;border-style:none; border-width:1px;border-color:#717D7D;background-color:#52D017">
+&nbsp;
+</div> <!--end of first div -->
+
+
+
+<div id="input-area2" style="margin-left:auto;margin-right:auto;border-style:none;width:1200px">
+
+<table border=0>
+<tr><td>
+<div id="form-contents" style="text-align:left;height:300px;width:300px;border-style:none; border-width:1px;border-color:#717D7D;background-color:#FFFFFF;">
+<form name="scti" method="get" action="/cgi-bin/scl/compounds/scti/scti.cgi" onsubmit="return check();" target="sccp-out"><br />
+<p>
+<font size="4">Select Encoding:</font><br />
+              <select name="encoding" size="1" cols="10" style="border-style:solid;border-width:1px;border-color:#C0C0C0;font-size:14px;width:300px;height:30px;">
+              <option value="Unicode">Unicode Devanagari</option>
+              <option value="WX">WX-alphabetic</option>
+              <option value="Itrans">Itrans-5.3 </option>
+              <option value="Velthuis">Velthuis </option>
+	      <option value="KH">KH</option>
+	      <option value="SLP">SLP</option>
+              </select>
+</p>	
+<p>              <font size="4">Enter the split compound word:</font><br />
+	      <input name="word" id="word" size="30" type="text" style="border-style:solid;border-width:1px;border-color:#C0C0C0;font-size:14px;width:300px;height:30px;">
+</p>
+<p>	      <input name="submit" class="styled-button-3" size="30" type="submit" value="Show parsing" style="width:300px;"></p>
+<br />
+	      For instance: सुमित्रा-आनन्दः
+
+	</td><td>
+<div id="shwoutputs" style="border-style:none;text-align:center;width:800px;margin-left:50px;">
+	<p style="text-align:center;"><b>Introduction</b></p>
+<p style="margin-left:10px;margin-right:10px;text-align:justify;">&nbsp;&nbsp;&nbsp;This module determines the type on the basis of the components involved. For instance,</p>
+<p style="margin-left:10px;margin-right:10px;text-align:center;color:brown;"> <i>&lt;Sumitrā-ānandaḥ&gt;</i></p>
+<p style="margin-left:10px;margin-right:10px;text-align:center;"> is tagged as </p>
+<p style="margin-left:10px;margin-right:10px;text-align:center;color:brown;"> <i>&lt;Sumitrā-ānandaḥ&gt;T6 </i></p>
+<p style="margin-left:10px;margin-right:10px;text-align:justify;">where T6 stands for compound of type Ṣaṣṭhītatpuruṣa. This module needs an access to the semantic content of its constituents, and possibly even to the wider context. <a href="http://sanskrit.uohyd.ac.in/faculty/amba/PUBICATIONS/papers/scti-final-corrected.pdf" style="color:blue;">Read more... </a></p>
+</p>
+
+</div>
+	</td>
+
+</form>
+</tr>
+</table>
+
+<div id="line" style="margin-top:10px;text-align:left;height:20px;width:1200px;margin-left:auto;margin-right:auto;border-style:none; border-width:1px;border-color:#717D7D;background-color:#52D017">
+&nbsp;
+</div> <!--end of first div -->
+<table border=0 width=100%>
+<tr> <td width="28%">
+<div id="last" style="text-align:left;height:220px;width:300px;border-style:solid; border-width:1px;border-color:#717D7D;border-left-width:0px;border-top-width:0px;border-bottom-width:0px;border-right-width:1px;">
+<p> <font color="brown">Developed by: </font> <br /> Anil Kumar</p>
+<p> <font color="brown"> Guidance: </font> <br /> Dr. Amba P. Kulkarni</p>
+<p> <font color="brown"> Consultancy:</font> <br /> Prof. Ramakrishnamacharyulu <br /> Prof. K. Narayana Murthy </p>
+<p> <font color="brown"> Contributors:</font> <br /> Arjun S.R. <br /> Pavan Kumar </p>
+</div>
+</td>
+<td>
+<div id="last1" style="text-align:left;height:20px;border-style:solid; border-width:1px;border-color:#717D7D;border-left-width:0px;border-top-width:1px;border-bottom-width:0px;border-right-width:0px;">
+<p> <font color="brown"> Browser compatibility:</font> Firefox 3+ (Recommended), Chrome, Opera </p>
+<br />
+<br />
+</div> 
+</td>
+</tr>
+</table>
+</div>
+</div><!--input-area2 ends here-->
+</body>
+</html>

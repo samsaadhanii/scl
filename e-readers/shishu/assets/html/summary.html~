@@ -1,0 +1,82 @@
+<div class="container-fluid summary " ng-controller="summaryCtrl">
+	<div class="row panel-default">
+		<h3 class="page-header">Summary:</h3>
+
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="col-md-3 col-xs-4 col-sm-12">
+				<ul class="sidebar-nav">
+					<li ng-class="{active:current=='sloka1'}" ng-click="current ='sloka1'">Canto-I</li>
+					<li ng-class="{active:current=='sloka2'}" ng-click="current ='sloka2'">Canto-II</li>
+					<li ng-class="{active:current=='sloka3'}" ng-click="current ='sloka3'">Canto-III</li>
+					<li ng-class="{active:current=='sloka4'}" ng-click="current ='sloka4'">Canto-IV</li>
+                    <li ng-class="{active:current=='sloka5'}" ng-click="current ='sloka5'">Canto-V</li>
+                    <li ng-class="{active:current=='sloka6'}" ng-click="current ='sloka6'">Canto-VI</li>
+				</ul>
+			</div>
+			
+			<div class="col-md-9 col-xs-8 col-sm-12 summarytext">
+			
+				<div ng-show="current == 'sloka1'" >
+				<br/>
+					 <tabset> 
+					<tab ng-repeat="tab in cantos[0].canto1" heading="{{tab.title}}"
+						active="tab.active" disable="tab.disabled"> {{tab.desc}}
+					</tab>
+					</tabset>
+				
+				</div>
+
+				<div ng-show="current == 'sloka2'">
+						<br/>
+					 <tabset> 
+					<tab ng-repeat="tab in cantos[0].canto2" heading="{{tab.title}}"
+						active="tab.active" disable="tab.disabled"> {{tab.desc}}
+					</tab>
+					</tabset>
+				
+				</div>
+				<div ng-show="current == 'sloka3'">
+					<br/>
+					 <tabset> 
+					<tab ng-repeat="tab in cantos[0].canto3" heading="{{tab.title}}"
+						active="tab.active" disable="tab.disabled"> 
+							<div ng-bind-html="tab.desc | trusted"> </div>
+					</tab> 
+					</tabset>
+				
+				</div>
+				<div ng-show="current == 'sloka4'">
+					<br/>
+					 <tabset> 
+					<tab ng-repeat="tab in cantos[0].canto4" heading="{{tab.title}}"
+						active="tab.active" disable="tab.disabled"> {{tab.desc}}
+					</tab> 
+					</tabset>
+				
+				</div>
+                <div ng-show="current == 'sloka5'">
+					<br/>
+					 <tabset> 
+					<tab ng-repeat="tab in cantos[0].canto5" heading="{{tab.title}}"
+						active="tab.active" disable="tab.disabled" >  <div ng-bind-html="tab.desc | trusted"></div>
+					</tab> 
+					</tabset>
+				
+				</div>
+                <div ng-show="current == 'sloka6'">
+					<br/>
+					 <tabset> 
+					<tab ng-repeat="tab in cantos[0].canto6" heading="{{tab.title}}"
+						active="tab.active" disable="tab.disabled">
+                        <div ng-bind-html="tab.desc | trusted"></div>
+					</tab> 
+					</tabset>
+				
+				</div>
+			</div>
+		
+		</div>
+		
+	</div>
+</div>
+</div> 

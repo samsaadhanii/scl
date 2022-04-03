@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-II/SV-113/113.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-113/113.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">113.A</a>#!html/SV-II/SV-113/113.jpg#!row1#!n3#!अज्ञात-दोषैः
+row2#!number#!113.B</a>#!row2#!n3#!अज्ञातदोषैः 
+row3#!number#!113.C</a>#!row3#!n3#!अज्ञात-दोष{पुं}{3;बहु}/दोष{नपुं}{3;बहु} 
+row4#!number#!113.D</a>#!row4#!n3#!<a (click)=showDic('अज्ञात')>अज्ञात</a>-<a (click)=showDic('दोष')>दोष</a>{पुं}{3;बहु} 
+row5#!number#!113.E</a>#!row5#!n3#!विशेषणम्,4
+row6#!number#!113.F</a>#!row6#!n3#!जिनके_दोषों_को_दूसरा_नहीं_जानता
+row7#!number#!113.G</a>#!row7#!n3#!The spies concealing their own insidious character
+row8#!number#!113.H#!row8#!n3#!<a href="html/SV-II/SV-113/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-113/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<न-ज्ञात>Tn-दोषः>Bs6</a>#!html/SV-II/SV-113/samaasa1.jpg
+row9#!number#!113.I</a>#!row9#!n3#!
+row10#!number#!113.J</a>#!row10#!n3#!
+row11#!number#!113.K</a>#!row11#!n3#!
+row12#!number#!113.L</a>#!row12#!n3#!
+
+row1#!n3#!दोषज्ञैः
+row2#!n3#!दोषज्ञैः 
+row3#!n3#!दोषज्ञ{पुं}{3;बहु}/दोषज्ञ{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('दोषज्ञ')>दोषज्ञ</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n3#!जो_दूसरों_के_दोषों_को_स्वयं_जानते_हैं
+row7#!n3#!(yet) discovering the weak points of others
+row8#!n3#!<a href="html/SV-II/SV-113/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-113/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><दोष-ज्ञः>U</a>#!html/SV-II/SV-113/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!अभिव्यक्त-शासनैः
+row2#!n3#!अभिव्यक्तशासनैः 
+row3#!n3#!अभिव्यक्त-शासन{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('अभिव्यक्त')>अभिव्यक्त</a>-<a (click)=showDic('शासन')>शासन</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n3#!झूठे लेखादि_को_दिखलाकर
+row7#!n3#!by producing forged letters
+row8#!n3#!<a href="html/SV-II/SV-113/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-113/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अभिव्यक्त-शासनः>Bs3</a>#!html/SV-II/SV-113/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!उभयवेतनैः
+row2#!n3#!उभयवेतनैः 
+row3#!n3#!उभयवेतन{पुं}{3;बहु}/उभयवेतन{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('उभयवेतन')>उभयवेतन</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n3#!दोनों_ओर_से_वेतन_लेनेवाले
+row7#!n3#!receiving pay from both
+row8#!n3#!<a href="html/SV-II/SV-113/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-113/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><उभय-वेतनः>Bs6</a>#!html/SV-II/SV-113/samaasa4.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n6#!शत्रोः
+row2#!n6#!शत्रोः 
+row3#!n6#!शत्रु{पुं}{5;एक}/शत्रु{पुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('शत्रु')>शत्रु</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,6</a>
+row6#!n6#!शत्रु_की 
+row7#!n6#!of enemies
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!सामवायिकाः
+row2#!n2#!सामवायिकाः 
+row3#!n2#!सामवायिक{पुं}{1;बहु}/सामवायिका{स्त्री}{1;बहु}/सामवायिका{स्त्री}{2;बहु} 
+row4#!n2#!<a (click)=showDic('सामवायिका')>सामवायिका</a>{स्त्री}{2;बहु} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,7</a>
+row6#!n2#!मन्त्री-नौकर-आदि-समूहों_को
+row7#!n2#!counsellors
+row8#!n2#!<a href="html/SV-II/SV-113/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-113/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><समूह-समवायिका>U</a>#!html/SV-II/SV-113/samaasa5.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!समवायान्समवैति’ (4।4।43) इति ठक् ।
+
+row1#!NA#!उद्दूष्य
+row2#!NA#!उद्दूष्य
+row3#!NA#!उद्दूष्य
+row4#!NA#!<a (click)=showDic('उद्_दुष्1')>उद्_दुष्1</a>{कृत्_प्रत्ययः:ल्यप्;दुषँ;दिवादिः}
+row5#!NA#!<a href="javascript:show('पूर्वकाल,')">पूर्वकाल,8</a>
+row6#!NA#!दूषण_करके
+row7#!NA#!having proved them guilty
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!भेद्याः
+row2#!n2#!भेद्याः
+row3#!n2#!भिद्1_णिच्{कर्तरि;आशीर्लिङ्;म;एक;परस्मैपदी;भिदिँर्;रुधादिः}
+row4#!n2#!<a (click)=showDic('भिद्1')>भिद्1</a>{कृत्_प्रत्ययः:ण्यत्;भिदिँर्;रुधादिः;पुं}{2;एक}}
+row5#!n2#!<a href="javascript:show('')">0</a>
+row6#!n2#!भेदन_करना_चाहिए
+row7#!n2#!should be alienated
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!अनुष्टुप् ।
+row11#!n2#!-
+row12#!n2#!
+
+

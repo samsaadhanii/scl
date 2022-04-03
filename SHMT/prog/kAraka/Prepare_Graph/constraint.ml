@@ -187,7 +187,7 @@ value collapse_upapada_relations relations part_dag a b c d e=
                     let acc1 =
                     if c >= 2000 && c < 4000 && w >= 4000
                     then join_relations a b c d e u v w x y
-                    else if c >= 4000 && w >=2000 && w < 4000
+                    else if c >= 4000 && w >= 2000 && w < 4000
                     then join_relations u v w x y a b c d e 
                     else if c >= 2000 &&  c < 2100 && w=21
                     then join_relations a b c d e u v w x y
@@ -353,10 +353,10 @@ value no_crossing text_type rel m1 m2=match m1 with
           * We need at least one example to retain it *)
              && not (r1=2 || r1=90 || r1=22 || r1=47 || r1=29 || r1=30)
              && not (r2=2 || r2=90 || r2=22 || r2=47 || r2=29 || r2=30)
-             && (((not ((r1=32) || (r1=33) || (r1=35) || (r1=80) ||
-                     (r2=32) || (r2=33) || (r2=35) || (r2=80) ))
+             && (((not ((r1=32) || (r1=33) || (r1=35) || (r1=80) || (r1=9) ||
+                     (r2=32) || (r2=33) || (r2=35) || (r2=80) || (r2=9)))
                     && text_type="Sloka")
-                 || text_type="Prose")
+                 || (text_type="Prose" && not (r1=9 || r2=9)))
              (* removed RaRTI, viSeRaNa, aBexa, temporarily *)
          then False else True
              (* let length=List.length rel -1 in
@@ -437,12 +437,12 @@ value relation_mutual_expectancy text_type m1 m2=match m1 with
            (* For every prawiyogi, the other end should be either a sambandha
             or anuyogi  or niwya_sambanXa or niwya_sambanXa1 *)
          else if (from_id1=to_id2) && (from_mid1=to_mid2)
-                 &&  (  ((r1=3) && not (r2=44) && not (r2=28) && not(r2=2) && not(r2=90))
-                     || ((r2=44) && not (r1=3) && not (r1=28) && not(r1=2) && not(r2=90)))
+                 &&  (  ((r1=300) && not (r2=44) && not (r2=28) && not(r2=2) && not(r2=90))
+                     || ((r2=44) && not (r1=300) && not (r1=28) && not(r1=2) && not(r2=90)))
          then False  (* do { print_string "C14"; False} *)
          else if (from_id2=to_id1) && (from_mid2=to_mid1)
-                 && (  ((r2=3) && not (r1=44) && not (r1=28) && not(r1=2) && not(r2=90))
-                    || ((r1=44) && not (r2=3) && not (r2=28) && not(r2=2) && not(r2=90)))
+                 && (  ((r2=300) && not (r1=44) && not (r1=28) && not(r1=2) && not(r2=90))
+                    || ((r1=44) && not (r2=300) && not (r2=28) && not(r2=2) && not(r2=90)))
          then False (* do { print_string "C15"; False} *)
          (* For every nAma1 -- counterpart of prawiyogi, there should be nAma2  -- counterpart of anuyogi,
           * nAma1=52; nAma2 -- 53*)
@@ -655,7 +655,7 @@ value relation_mutual_yogyataa m1 m2=match m1 with
          then False 
         aBexa of other relations also exist. E.g. aham rAjAnam xaSaraWam paSyAmi *)
          else if from_id1=to_id2 && from_mid1=to_mid2
-                && r1=24 && not (r2=3) && not (r2=44) (* pUrvakAla is allowed only if either it is directly connected to the main verb, in case there exists another relation then the other relation is either a pratoyogi / anuyogi *)
+                && r1=24 && not (r2=300) && not (r2=44) (* pUrvakAla is allowed only if either it is directly connected to the main verb, in case there exists another relation then the other relation is either a pratoyogi / anuyogi *)
          then False
          else True
       ]
@@ -688,7 +688,7 @@ value rec add_cost text_type acc rels=fun
          (*   else if  rel=42 then 42 (* viSeRaNam *) *)
             (*else if  rel=33 then 0 *) (* aBexa *)
             else if  rel> 80 && rel < 90 then 0 (* upapada-LWG relations *)
-            else if  rel= 78 then 100 (* lyapkarmAXikaraNam ; select this only if there is no other analysis possible *)
+            else if  rel=78 then 100 (* lyapkarmAXikaraNam ; select this only if there is no other analysis possible *)
           (*  else if rel=53 then 2 * (a2-a1) (*niwya_sambanXaH *)
             else if rel=52 then 3 * (a2-a1) (*prawiyogI *) *)
             else if rel=1009 then 9 * (a2-a1) (* viXeya_viSeRaNam *)
@@ -710,6 +710,7 @@ value rec add_cost text_type acc rels=fun
             else if rel >= 4300 && rel < 4400 then 28 * (a2-a1) (* sambanXaH *)
             else if rel >= 4400 && rel < 4500 then 7 * (a2-a1) (* karwA *)
             else if rel >= 4500 && rel < 4600 then 25 * (a2-a1) (* aXikaraNa *)
+            else if rel >= 205  then (rel-200) * (a2-a1) (* AvaSyakawA/pariNAma *)
             (*else if  rel=64 ||rel=65 || rel=91
                  ||  rel=66 ||rel=67 
                  (* special case of LWG ;
@@ -938,7 +939,7 @@ value rec populate_inout_rels length rel =match rel with
     ]
 ;
 
-value rec construct_dags init final wrdb dags= 
+value rec construct_dags init final wrdb dags=
    if ( final - init > 0 ) 
    then 
         let mid=(init + final) /2 in
@@ -1095,7 +1096,7 @@ let maprel=List.map (fun y -> List.nth relations (y-1) ) relsindag in
          For every PrawiyogI, chk there is optionally a (niwya)sambanXa followed by an anuyogI
          For every anuyogI, chk there is optionally a (niwya)sambanXa and a prawiyogI
          *)
-    | [ Relationc (a,b,3,c,d) :: rest] ->  (* prawiyogI*)
+    | [ Relationc (a,b,300,c,d) :: rest] ->  (* prawiyogI*)
          loop1 maprel 
          where rec loop1=fun
          [ [] -> False (* do {print_string "failed case 1"; False}*) (* if there is no sambanXa / anuyogI from the head *)
@@ -1137,7 +1138,7 @@ let maprel=List.map (fun y -> List.nth relations (y-1) ) relsindag in
                                    then loop2 maprel 
                                         where rec loop2=fun
                                    [ [] -> False (* do { print_string "failed case 4"; False}*) (* prawiyoggi-sambanXa-anuyogi seq not found *)
-                                   | [Relationc (m,n,3,o,p)::rest2] ->  (* anuyogI *)
+                                   | [Relationc (m,n,300,o,p)::rest2] ->  (* anuyogI *)
                                          if  (*(z=m && t=n) || *)
                                              (x=o && y=p) 
                                          then loop rest 
@@ -1146,7 +1147,7 @@ let maprel=List.map (fun y -> List.nth relations (y-1) ) relsindag in
                                          loop2 rest2
                                    ]
                                    else loop1 rest1
-                          | [Relationc (x,y,3,z,t)::rest1] ->  (* anuyogI *)
+                          | [Relationc (x,y,300,z,t)::rest1] ->  (* anuyogI *)
                                    if    (z=a && t=b) 
                                      (* || (x=c && y=d)) *)
                                    then loop rest 
@@ -1216,7 +1217,7 @@ let maprel=List.map (fun y -> List.nth relations (y-1) ) relsindag in
                                                 ]
                                          else loop2 rest2
                                    ]
-                         else if  z=a && t=b && r1=3 then (* prawiyogI *)
+                         else if  z=a && t=b && r1=300 then (* prawiyogI *)
                                    loop2 maprel
                                    where rec loop2=fun
                                    [ [] ->  False (* do { print_string "failed case 16"; False}*)
@@ -1253,7 +1254,7 @@ let maprel=List.map (fun y -> List.nth relations (y-1) ) relsindag in
                                 then False
                                 else  loop1 rest1
                           ]
-         else if r1=9 || (r1 >= 4400 && r1 < 4500) || r1=6  then
+         else if r1=9 || (r1 >= 4400 && r1 < 4500) then
                                (* viXeya_viSeRaNam, karwA *)
                                (* karwA, karwA_upa *)
          loop1 maprel 
@@ -1268,10 +1269,9 @@ let maprel=List.map (fun y -> List.nth relations (y-1) ) relsindag in
                                 then False
                                 else if (x=c && y=d && (r1 / 100=44 && r=9))
                                 then False 
-                                else *)if (z=a && t=b && (r / 100=44 && r1=6))
-                                 || (x=c && y=d && (r1 / 100=44 && r=6))
+                                else *)if (x=c && y=d && (r1 / 100=44 && r=6))
                                  || (x=c && y=d && r=6 && r1=9) (* && (a-x) > 0   removed, since viXeya_viSeRaNam can be to the left. For example samraWaH aswi janaH *)
-                                 || (z=a && t=b && r1=6 && r=9) (* && (a-x) > 0   removed, since viXeya_viSeRaNam can be to the left. For example samraWaH aswi janaH *)
+                                 (* && (a-x) > 0   removed, since viXeya_viSeRaNam can be to the left. For example samraWaH aswi janaH *)
 
 (*  Why should there be distinction between Prose and Sloka with regards to viXeya_viSeRaNam?
  *     After all this is related to uxxeSya and viXeya, typically uxxeSya comes before viXeya.
@@ -1316,12 +1316,12 @@ let maprel=List.map (fun y -> List.nth relations (y-1) ) relsindag in
                                then  loop rest
                                else  loop1 rest1
                           ]
-         else if r1=3 || r1=4 || r1=5 then (* BAvalakRaNasapwamI / karwA or karma *)
+          else if r1=3 || r1=4 || r1=5 then (* BAvalakRaNasapwamI / karwA or karma *)
          loop1 maprel 
          where rec loop1=fun
                   [ [] -> False (* do { print_string "failed case 5\n"; False} *)
                   | [Relationc (x,y,r,z,t)::rest1] -> 
-                          if z=a && t=b && (r=14 || r=7)  (* karwq or karma and BAvalakRaNasapwamI *)
+                          if z=a && t=b && r=7  (* karwq and BAvalakRaNasapwamI *)
                           then  loop rest
                           else  loop1 rest1
                   ]
@@ -1452,7 +1452,7 @@ let maprel=List.map (fun y -> List.nth rels (y-1) ) dag in
 value rec chk_cycles key_list v acc =
     (*do { List.iter print_sint key_list;
         print_string "v=";print_int v; print_string "\n";*)
-     let acc1= List.filter (fun (k1,v1) -> if k1=v then True else False) acc in
+     let acc1=List.filter (fun (k1,v1) -> if k1=v then True else False) acc in
      if acc1=[] then False else loop acc1
      where rec loop=fun
      [[] -> False
@@ -1569,7 +1569,7 @@ value solver rel_lst text_type =
             else y) [] dags in 
      (*do  print_acc dags 
     ; let soln= List.sort_uniq comparecostlength (get_dag_list text_type rel_lst [] dagsj) in do
-    ; *)let soln= List.sort comparecostlength (get_dag_list text_type rel_lst [] dagsj) in (*do
+    ; *)let soln=List.sort comparecostlength (get_dag_list text_type rel_lst [] dagsj) in (*do
        { *)(*print_string "1.minion\n"
        ; *)let l=List.filter 
               (fun (x,y,z) -> if x=total_wrds-1 then True else False ) 

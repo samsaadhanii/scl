@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-IX/SV-34/34.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-34/34.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">34.A</a>#!html/SV-IX/SV-34/34.jpg#!row1#!n1#!मृग-धरः
+row2#!number#!34.B</a>#!row2#!n1#!मृग-धरः
+row3#!number#!34.C</a>#!row3#!n1#!मृग-धर{;पुं;1;एक}
+row4#!number#!34.D</a>#!row4#!n1#!<a (click)=showDic('मृग')>मृग</a>-<a (click)=showDic('धर')>धर</a>{;पुं;1;एक}
+row5#!number#!34.E</a>#!row5#!n1#!कर्ता,11
+row6#!number#!34.F</a>#!row6#!n1#!चन्द्रमा_ने
+row7#!number#!34.G</a>#!row7#!n1#!The moon
+row8#!number#!34.H#!row8#!n1#!<a href="html/SV-IX/SV-34/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-34/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><मृग-धरः>U</a>#!html/SV-IX/SV-34/samaasa1.jpg
+row9#!number#!34.I</a>#!row9#!n1#!
+row10#!number#!34.J</a>#!row10#!n1#!
+row11#!number#!34.K</a>#!row11#!n1#!
+row12#!number#!34.L</a>#!row12#!n1#!
+
+row1#!n2#!दिवसं
+row2#!n2#!दिवसं
+row3#!n2#!दिवस{;पुं;2;एक}
+row4#!n2#!<a (click)=showDic('दिवस')>दिवस</a>{;पुं;2;एक}
+row5#!n2#!<a href="javascript:show('अत्यन्तसंयोग,')">अत्यन्तसंयोग,3</a>
+row6#!n2#!दिन_को
+row7#!n2#!during the day time
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!भृशोष्णरुचिपाद-हताम्
+row2#!n2#!भृशोष्णरुचिपाद-हताम्
+row3#!n2#!भृशोष्णरुचिपाद-हता{;स्त्री;2;एक}/हन्1{कर्तरि;लोट्;प्र;द्वि;परस्मैपदी;हनँ;अदादिः}
+row4#!n2#!<a (click)=showDic('भृशोष्णरुचिपाद')>भृशोष्णरुचिपाद</a>-<a (click)=showDic('हन्1')>हन्1</a>{क्त;हनँ;अदादिः;स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!अत्यधिक उष्ण किरणोंवाले अर्थात् सूर्य की रश्मियों से (पक्षा0 – चरणों से) ताडित
+row7#!n2#!was beaten up by very much heat rays of the Sun
+row8#!n2#!<a href="html/SV-IX/SV-34/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-34/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<भृश-उष्ण>K3-रुचि>K3-पाद>T6-हता>T3</a>#!html/SV-IX/SV-34/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n3#!अनवरतालि-रुतैः
+row2#!n3#!अनवरतालि-रुतैः
+row3#!n3#!अनवरतालि-रुत{;नपुं;3;बहु}
+row4#!n3#!<a (click)=showDic('अनवरतालि')>अनवरतालि</a>-<a (click)=showDic('रुत')>रुत</a>{;नपुं;3;बहु}
+row5#!n3#!<a href="javascript:show('हेतुः,')">हेतुः,5</a>
+row6#!n3#!अनवरत भ्रमरों की गुंजारव से
+row7#!n3#!ringing the sound of the cluster of bees
+row8#!n3#!<a href="html/SV-IX/SV-34/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-34/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<न-अवरत>Tn-<अलि-रुतम्>T6>T3</a>#!html/SV-IX/SV-34/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n2#!रुदतीम्
+row2#!n2#!रुदतीम्
+row3#!n2#!रुदती{;स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('रुद्1')>रुद्1</a>{शतृ_लट्;रुदिँर्;अदादिः;;स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('प्रतियोगी ')">प्रतियोगी 6</a>
+row6#!n2#!रुदन करती हुई
+row7#!n2#!while crying
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!इव
+row2#!NA#!इव
+row3#!NA#!इव{अव्य}
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अनुयोगि ')">अनुयोगि 7</a>
+row6#!NA#!जैसे
+row7#!NA#!as if
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!कुमुदिनी-वनिताम्
+row2#!n2#!कुमुदिनी-वनिताम्
+row3#!n2#!कुमुदिनी-वनिता{;स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('कुमुदिनी')>कुमुदिनी</a>-<a (click)=showDic('वनिता')>वनिता</a>{;स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,11</a>
+row6#!n2#!कुमुदिनीरूपी अपनी स्त्री को
+row7#!n2#!night-lotus in the form of a woman
+row8#!n2#!<a href="html/SV-IX/SV-34/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-34/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कुमुदिनी-वनिता>K6</a>#!html/SV-IX/SV-34/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n3#!अग्र-करैः
+row2#!n3#!अग्र-करैः
+row3#!n3#!अग्र-कर{;पुं;3;बहु}
+row4#!n3#!<a (click)=showDic('अग्र')>अग्र</a>-<a (click)=showDic('कर')>कर</a>{;पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,10</a>
+row6#!n3#!किरणों (पक्षा0 – हाथ के अग्रभाग हथेली) से
+row7#!n3#!by (it’s) rays
+row8#!n3#!<a href="html/SV-IX/SV-34/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-34/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अग्र-करः>T3</a>#!html/SV-IX/SV-34/samaasa5.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!मुहुः
+row2#!NA#!मुहुः
+row3#!NA#!मुहुः{अव्य}
+row4#!NA#!<a (click)=showDic('मुहुः')>मुहुः</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,10</a>
+row6#!NA#!बार-बार
+row7#!NA#!frequently
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!आमृशन्
+row2#!n1#!आमृशन्
+row3#!n1#!आङ्_मृश्1{कर्तरि;लङ्;प्र;बहु;परस्मैपदी;मृशँ;तुदादिः}
+row4#!n1#!<a (click)=showDic('आङ्_मृश्1')>आङ्_मृश्1</a>{शतृ;लट्;मृशँ;तुदादिः;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,11</a>
+row6#!n1#!स्पर्श करते हुए
+row7#!n1#!while touching
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!उदशि-श्वसत्
+row2#!v#!उदशि-श्वसत्
+row3#!v#!उदशि-श्वसत्{;नपुं;1;एक}/श्वसत्{;नपुं;2;एक}/श्वसत्{;नपुं;8;एक}
+row4#!v#!<a (click)=showDic('उत्_श्वस्1')>उत्_श्वस्1</a>{कर्तरि;लङ्;प्र;एक;परस्मैपदी;श्वसँ;अदादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!आश्वस्त_किया.
+row7#!v#!pacified.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!प्रमिताक्षरा ।
+row11#!v#!रूपकम् + उत्प्रेक्षा = सङ्करः ।
+row12#!v#!श्वसधातोः 'णौ चङ्युपधाया ह्रस्वः' । (7।4।1)
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+

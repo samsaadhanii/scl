@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-VI/SV-47/47.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-47/47.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">47.A</a>#!html/SV-VI/SV-47/47.jpg#!row1#!n3#!कनकभङ्गपिशङ्ग-दलैः
+row2#!number#!47.B</a>#!row2#!n3#!कनकभङ्गपिशङ्ग-दलैः
+row3#!number#!47.C</a>#!row3#!n3#!कनकभङ्गपिशङ्ग-दल{पुं;3;बहु}/दल{नपुं;3;बहु}/दल{नपुं;3;बहु}
+row4#!number#!47.D</a>#!row4#!n3#!<a (click)=showDic('कनकभङ्गपिशङ्ग')>कनकभङ्गपिशङ्ग</a>-<a (click)=showDic('दल')>दल</a>{पुं;3;बहु}
+row5#!number#!47.E</a>#!row5#!n3#!विशेषणम्,6
+row6#!number#!47.F</a>#!row6#!n3#!स्वर्ण के टुकड़े के समान पीले फूलों की पङ्खुड़ियों वालों_से
+row7#!number#!47.G</a>#!row7#!n3#!Petals of yellow flowers that were appearing like pieces of gold
+row8#!number#!47.H#!row8#!n3#!<a href="html/SV-VI/SV-47/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-47/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<कनक-भङ्ग>T6-पिशङ्ग>K4-दलः>Bs6</a>#!html/SV-VI/SV-47/samaasa1.jpg
+row9#!number#!47.I</a>#!row9#!n3#!
+row10#!number#!47.J</a>#!row10#!n3#!
+row11#!number#!47.K</a>#!row11#!n3#!
+row12#!number#!47.L</a>#!row12#!n3#!
+
+row1#!n3#!सरजसारुणकेसर-चारुभिः
+row2#!n3#!सरजसारुणकेसर-चारुभिः
+row3#!n3#!सरजसारुणकेसर-चारु{पुं;3;बहु}
+row4#!n3#!<a (click)=showDic('सरजसारुणकेसर')>सरजसारुणकेसर</a>-<a (click)=showDic('चारु')>चारु</a>{पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n3#!पराग सहित केसरों से मनोहर_से
+row7#!n3#!alng with their pollen dust
+row8#!n3#!<a href="html/SV-VI/SV-47/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-47/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<स-रज>BvS-<अरुण-केसर>K3>T3-चारुः>T3</a>#!html/SV-VI/SV-47/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!'अचतुर-' (5।4।77) इत्यादिना साकल्यार्थेऽव्ययीभावे समासान्तो निपातः ।
+
+row1#!NA#!(तथा)
+row2#!NA#!तथा
+row3#!NA#!तथा{अव्य}
+row4#!NA#!<a (click)=showDic('तथा')>तथा</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,8</a>
+row6#!NA#!और
+row7#!NA#!and
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n6#!प्रियविमानितमानवती-रुषां
+row2#!n6#!प्रियविमानितमानवती-रुषां
+row3#!n6#!प्रियविमानितमानवती-रुष्{स्त्री;6;बहु}/रुषा{स्त्री;2;एक}/रुषा{स्त्री;2;एक}
+row4#!n6#!<a (click)=showDic('प्रियविमानितमानवती')>प्रियविमानितमानवती</a>-<a (click)=showDic('रुष्')>रुष्</a>{स्त्री;6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,5</a>
+row6#!n6#!पतियों के द्वारा अपमानित मानिनी स्त्रियों के क्रोध को
+row7#!n6#!pride of the women who were humiliated by their husbands
+row8#!n6#!<a href="html/SV-VI/SV-47/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-47/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<प्रिय-विमानित>T3-मानवती>K3-रुष्>T6</a>#!html/SV-VI/SV-47/samaasa3.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n3#!निरसनैः
+row2#!n3#!निरसनैः
+row3#!n3#!निरसन{नपुं;3;बहु}
+row4#!n3#!<a (click)=showDic('निरसन')>निरसन</a>{पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n3#!दूर कने वाले_से
+row7#!n3#!in removing
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!असनैः
+row2#!n3#!असनैः
+row3#!n3#!असन{पुं;3;बहु}
+row4#!n3#!<a (click)=showDic('असन')>असन</a>{पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n3#!विजयसार के फूलों_से
+row7#!n3#!by flowers of noon plant
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!अवृथा-अर्थता
+row2#!n1#!अवृथा-अर्थता
+row3#!n1#!अवृथा-अर्थता{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('अवृथा')>अवृथा</a>-<a (click)=showDic('अर्थता')>अर्थता</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n1#!सार्थकता
+row7#!n1#!befits (it's name)
+row8#!n1#!<a href="html/SV-VI/SV-47/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-47/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-<वृथा-अर्थता>Bs6>Tn</a>#!html/SV-VI/SV-47/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!दधे
+row2#!v#!दधे
+row3#!v#!दधि{नपुं;8;एक}/धा1{कर्तरि;लिट्;उ;एक;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}/धा1{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}/धा1{कर्तरि;लट्;उ;एक;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}/धा1{कर्मणि;लिट्;उ;एक;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}/धा1{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}/धे1{कर्मणि;लिट्;उ;एक;आत्मनेपदी;धेट्;भ्वादिः}/धे1{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;धेट्;भ्वादिः}
+row4#!v#!<a (click)=showDic('धा1')>धा1</a>{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!धारण_किया_गया.
+row7#!v#!bore.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!यमकम् ।
+row12#!v#!
+
+

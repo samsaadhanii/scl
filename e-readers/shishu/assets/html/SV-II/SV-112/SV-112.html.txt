@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-II/SV-112/112.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-112/112.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">112.A</a>#!html/SV-II/SV-112/112.jpg#!row1#!n1#!अनुत्सूत्र-पदन्यासा
+row2#!number#!112.B</a>#!row2#!n1#!अनुत्सूत्रपदन्यासा 
+row3#!number#!112.C</a>#!row3#!n1#!अनुत्सूत्र-पदन्यासा{स्त्री}{1;एक}
+row4#!number#!112.D</a>#!row4#!n1#!<a (click)=showDic('अनुत्सूत्र')>अनुत्सूत्र</a>-<a (click)=showDic('पदन्यासा')>पदन्यासा</a>{स्त्री}{1;एक}
+row5#!number#!112.E</a>#!row5#!n1#!विशेषणम्,4
+row6#!number#!112.F</a>#!row6#!n1#!जहाँ नीतिशास्त्र_के_प्रतिकूल एक पैर_भी_रखने_का_विधान_नहीं_है_ऐसी
+row7#!number#!112.G</a>#!row7#!n1#!Where no step is taken against the science of polity
+row8#!number#!112.H#!row8#!n1#!<a href="html/SV-II/SV-112/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-112/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<न-उत्सूत्र>Tn-<पद-न्यासा>T6>Bs6</a>#!html/SV-II/SV-112/samaasa1.jpg
+row9#!number#!112.I</a>#!row9#!n1#!
+row10#!number#!112.J</a>#!row10#!n1#!
+row11#!number#!112.K</a>#!row11#!n1#!
+row12#!number#!112.L</a>#!row12#!n1#!
+
+row1#!n1#!सद्वृत्तिः
+row2#!n1#!सद्वृत्तिः 
+row3#!n1#!सद्वृत्ति{स्त्री}{1;एक}
+row4#!n1#!<a (click)=showDic('सद्वृत्ति')>सद्वृत्ति</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n1#!सुन्दर जीविका_वाली
+row7#!n1#!where the employees are well paid
+row8#!n1#!<a href="html/SV-II/SV-112/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-112/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सद्-वृत्तिः>Bs7</a>#!html/SV-II/SV-112/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!सन्निबन्धना
+row2#!n1#!सन्निबन्धना 
+row3#!n1#!सन्निबन्धना{स्त्री}{1;एक}
+row4#!n1#!<a (click)=showDic('सन्निबन्धना')>सन्निबन्धना</a>{स्त्री}{1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n1#!उचित पारितोषिक_वाली
+row7#!n1#!where there is a systematic way of donating the gifts maintaining the documents
+row8#!n1#!<a href="html/SV-II/SV-112/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-112/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सद्-निबन्धना>Bs7</a>#!html/SV-II/SV-112/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!राजनीतिः
+row2#!n1#!राजनीतिः 
+row3#!n1#!राजनीति{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('राजनीति')>राजनीति</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,9</a>
+row6#!n1#!राजनीति 
+row7#!n1#!the science of polity
+row8#!n1#!<a href="html/SV-II/SV-112/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-112/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><राज-नीतिः>T6</a>#!html/SV-II/SV-112/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!अप-स्पशा
+row2#!n1#!अपस्पशा 
+row3#!n1#!अपस्पश्{स्त्री}{3;एक}/पशा{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('अप')>अप</a>-<a (click)=showDic('स्पशा')>स्पशा</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!गुप्तचर_के_बिना
+row7#!n1#!where there are no spies
+row8#!n1#!<a href="html/SV-II/SV-112/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-112/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अप-स्पशा>Bs7</a>#!html/SV-II/SV-112/samaasa5.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!शब्दविद्या
+row2#!n1#!शब्दविद्या 
+row3#!n1#!शब्दविद्या{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('शब्दविद्या')>शब्दविद्या</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,7</a>
+row6#!n1#!व्याकरणशास्त्र
+row7#!n1#!science of Vyākaraņa
+row8#!n1#!<a href="html/SV-II/SV-112/samaasa6.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-112/samaasa6.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><शब्द-विद्या>T6</a>#!html/SV-II/SV-112/samaasa6.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इव
+row2#!NA#!इव 
+row3#!NA#!इव{अव्य} 
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,4</a>
+row6#!NA#!जैसे 
+row7#!NA#!just as
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!न
+row2#!NA#!न 
+row3#!NA#!न{अव्य} 
+row4#!NA#!<a (click)=showDic('न')>न</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,9</a>
+row6#!NA#!नहीं 
+row7#!NA#!does not
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!भाति.
+row2#!v#!भाति 
+row3#!v#!भा1{कर्तरि;लट्;प्र;एक;परस्मैपदी;भा;अदादिः}. 
+row4#!v#!<a (click)=showDic('भा1')>भा1</a>{कर्तरि;लट्;प्र;एक;परस्मैपदी;भा;अदादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!शोभती_है.
+row7#!v#!charm.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!श्लेषः + उपमा = सङ्करः ।
+row12#!v#!
+
+

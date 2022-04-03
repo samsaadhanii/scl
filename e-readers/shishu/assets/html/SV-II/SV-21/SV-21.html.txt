@@ -1,0 +1,92 @@
+row1#!number#!<a href="html/SV-II/SV-21/21.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-21/21.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">21.A</a>#!html/SV-II/SV-21/21.jpg#!row1#!n2#!वदन-च्छद्म-पद्म-पर्यन्तपातिनः
+row2#!number#!21.B</a>#!row2#!n2#!वदन-च्छद्म-पद्म-पर्यन्तपातिनः 
+row3#!number#!21.C</a>#!row3#!n2#!वदन-च्छद्म-पद्म-पर्यन्तपातिनः{पुं}{2;बहु}
+row4#!number#!21.D</a>#!row4#!n2#!<a (click)=showDic('वदन')>वदन</a>-<a (click)=showDic('च्छद्म')>च्छद्म</a>-<a (click)=showDic('पद्म')>पद्म</a>-<a (click)=showDic('पर्यन्तपातिन्')>पर्यन्तपातिन्</a>{पुं}{2;बहु}
+row5#!number#!21.E</a>#!row5#!n2#!विशेषणम्,2
+row6#!number#!21.F</a>#!row6#!n2#!मुखरूपी कमल_के_पास घूमते_हुए
+row7#!number#!21.G</a>#!row7#!n2#!hovering round the lotus in the guise of his face
+row8#!number#!21.H#!row8#!n2#!<a href="html/SV-II/SV-21/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-21/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<वदन-छद्म>Bs6-पद्म>K2-पातिन्>U</a>#!html/SV-II/SV-21/samaasa1.jpg
+row9#!number#!21.I</a>#!row9#!n2#!
+row10#!number#!21.J</a>#!row10#!n2#!
+row11#!number#!21.K</a>#!row11#!n2#!
+row12#!number#!21.L</a>#!row12#!n2#!
+
+row1#!n2#!मधुलिहः
+row2#!n2#!मधुलिहः 
+row3#!n2#!मधुलिह्{पुं}{1;बहु}/मधुलिह्{पुं}{2;बहु}/मधुलिह्{पुं}{5;एक}/मधुलिह्{पुं}{6;एक} 
+row4#!n2#!<a (click)=showDic('मधुलिह्')>मधुलिह्</a>{पुं}{2;बहु} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,5</a>
+row6#!n2#!भौंरों_को
+row7#!n2#!to the black bees
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n3#!उदग्र-दशनांशुभिः
+row2#!n3#!उदग्रदशनांशुभिः 
+row3#!n3#!उदग्र-दशनांशु{पुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('उदग्र')>उदग्र</a>-<a (click)=showDic('दशनांशु')>दशनांशु</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,5</a>
+row6#!n3#!दन्तकिरणों_से
+row7#!n3#!with the exceedingly bright rays from his teeth
+row8#!n3#!<a href="html/SV-II/SV-21/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-21/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><उदग्र-<दशन-अंशः>T6>K3</a>#!html/SV-II/SV-21/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n2#!श्वैत्यं
+row2#!n2#!श्वैत्यं 
+row3#!n2#!श्वैत्य{नपुं}{1;एक}/श्वैत्य{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('श्वैत्य')>श्वैत्य</a>{नपुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्मसमानाधिकरणम्,')">कर्मसमानाधिकरणम्,5</a>
+row6#!n2#!श्वेत
+row7#!n2#!whiteness
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!नयन्
+row2#!n1#!नयन् 
+row3#!n1#!नयत्{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('नी1')>नी1</a>{कृत्_प्रत्ययः:शतृ;णीञ्;भ्वादिः;पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,7</a>
+row6#!n1#!करते_हुए
+row7#!n1#!imparting
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!(रामः)
+row2#!n1#!रामः
+row3#!n1#!राम{पुं}{1;एक}/रा1{कर्तरि;लट्;उ;बहु;परस्मैपदी;रा;अदादिः} 
+row4#!n1#!<a (click)=showDic('राम')>राम</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,7</a>
+row6#!n1#!बलरामजी_ने
+row7#!n1#!Balarāma
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!जगाद.
+row2#!v#!जगाद 
+row3#!v#!गद्1{कर्तरि;लिट्;उ;एक;परस्मैपदी;गदँ;भ्वादिः}/गद्1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;गदँ;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('गद्1')>गद्1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;गदँ;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!स्पष्ट_बोला. 
+row7#!v#!spoke.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!अपह्नुति + गुणालङ्कारः = सङ्करः ।
+row12#!v#!
+
+

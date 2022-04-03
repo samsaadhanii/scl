@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-III/SV-27/27.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-27/27.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">27.A</a>#!html/SV-III/SV-27/27.jpg#!row1#!n3#!श्यामारुणैः
+row2#!number#!27.B</a>#!row2#!n3#!श्यामारुणैः 
+row3#!number#!27.C</a>#!row3#!n3#!श्यामारुण{पुं}{3;बहु}/श्यामारुण{नपुं}{3;बहु} 
+row4#!number#!27.D</a>#!row4#!n3#!<a (click)=showDic('श्यामारुण')>श्यामारुण</a>{पुं}{3;बहु} 
+row5#!number#!27.E</a>#!row5#!n3#!विशेषणम्,2
+row6#!number#!27.F</a>#!row6#!n3#!कालिमा युक्त अरुणवर्ण_से
+row7#!number#!27.G</a>#!row7#!n3#!The dark
+row8#!number#!27.H#!row8#!n3#!<a href="html/SV-III/SV-27/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-27/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><श्याम-अरुणः>K3</a>#!html/SV-III/SV-27/samaasa1.jpg
+row9#!number#!27.I</a>#!row9#!n3#!
+row10#!number#!27.J</a>#!row10#!n3#!
+row11#!number#!27.K</a>#!row11#!n3#!
+row12#!number#!27.L</a>#!row12#!n3#!‘वर्णो वर्णेन' (2।1।61) इति समासः ।
+
+row1#!n3#!वारण-दान-तोयैः
+row2#!n3#!वारणदानतोयैः 
+row3#!n3#!वारण-दान-तोय{नपुं}{3;बहु}/तोय{पुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('वारण')>वारण</a>-<a (click)=showDic('दान')>दान</a>-<a (click)=showDic('तोय')>तोय</a>{नपुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('करण,')">करण,3</a>
+row6#!n3#!हाथियों_के_मदजल_से
+row7#!n3#!streams of ichor of the elephants
+row8#!n3#!<a href="html/SV-III/SV-27/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-27/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><वारण-दानतोयम्>T6</a>#!html/SV-III/SV-27/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!आलोडिताः
+row2#!n1#!आलोडिताः 
+row3#!n1#!आलोडित{पुं}{1;बहु}/आलोडिता{स्त्री}{1;बहु}/आलोडिता{स्त्री}{2;बहु} 
+row4#!n1#!<a (click)=showDic('आङ्_लोड्1')>आङ्_लोड्1</a>{कृत्_प्रत्ययः:क्त;लोडृँ;भ्वादिः;पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!सम्मिलित
+row7#!n1#!mingled with
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!शितिकण्ठ-पिच्छ-क्षोद-द्युतः
+row2#!n1#!शितिकण्ठपिच्छक्षोदद्युतः 
+row3#!n1#!शितिकण्ठ-पिच्छ-क्षोद-द्युत्{पुं}{1;बहु}/द्युत्{पुं}{2;बहु}/द्युत्{पुं}{5;एक}/द्युत्{पुं}{6;एक}/द्युत्{स्त्री}{1;बहु}/द्युत्{स्त्री}{2;बहु}/द्युत्{स्त्री}{5;एक}/द्युत्{स्त्री}{6;एक}/द्युत्{नपुं}{5;एक}/द्युत्{नपुं}{6;एक}/द्युत{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('शितिकण्ठ')>शितिकण्ठ</a>-<a (click)=showDic('पिच्छ')>पिच्छ</a>-<a (click)=showDic('क्षोद')>क्षोद</a>-<a (click)=showDic('द्युत्')>द्युत्</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!मोर_के_पंख_के_समान_चमकने_वाले
+row7#!n1#!shining like the powder of peacock-feathers
+row8#!n1#!<a href="html/SV-III/SV-27/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-27/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<शिति-कण्ठ>Bs6-पिच्छ>T6-क्षोद>T6-द्युतः>U</a>#!html/SV-III/SV-27/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!काञ्चनभू-परागाः
+row2#!n1#!काञ्चनभूपरागाः 
+row3#!n1#!काञ्चनभू-पराग{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('काञ्चनभू')>काञ्चनभू</a>-<a (click)=showDic('पराग')>पराग</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n1#!सुवर्णमयी भूमि_के_परागों_को
+row7#!n1#!the dust of the ground of gold
+row8#!n1#!<a href="html/SV-III/SV-27/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-27/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<काञ्चन-भू>T6-परागः>T6</a>#!html/SV-III/SV-27/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!आनेमिमग्नैः
+row2#!n3#!आनेमिमग्नैः 
+row3#!n3#!आनेमिमग्न{पुं}{3;बहु}/आनेमिमग्न{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('आनेमिमग्न')>आनेमिमग्न</a>{पुं}{3;बहु}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n3#!नेमितक धँसने_वाले
+row7#!n3#!which had sunk into it upto the felly
+row8#!n3#!<a href="html/SV-III/SV-27/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-27/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<आ-नेमि>A1-अग्रः>T6</a>#!html/SV-III/SV-27/samaasa5.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!‘आङ्मर्यादाभिविध्योः’ (2।1।11) इत्यभिविधावव्ययीभावः ।
+
+row1#!n3#!रथोघैः
+row2#!n3#!रथोघैः
+row3#!n3#!रथोघ{पुं}{1;एक}/रथ{पुं}{1;एक}
+row4#!n3#!<a (click)=showDic('रथोघ')>रथोघ</a>{पुं}{3;बहु}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n3#!रथों_के_समूहों_ने
+row7#!n3#!by the multitudes of chariots
+row8#!n3#!<a href="html/SV-III/SV-27/samaasa6.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-27/samaasa6.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><रथ-ओघः>T6</a>#!html/SV-III/SV-27/samaasa6.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!v#!चुक्षुदिरे
+row2#!v#!चुक्षुदिरे
+row3#!v#!क्षुद्1{कर्मणि;लिट्;प्र;बहु;आत्मनेपदी;क्षुदिँर;रुधादिः}
+row4#!v#!<a (click)=showDic('क्षुद्1')>क्षुद्1</a>{कर्मणि;लिट्;प्र;बहु;आत्मनेपदी;क्षुदिँर;रुधादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!पीस_दिया.
+row7#!v#!was pilverised.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!उपजाति ।
+row11#!v#!अतिशयोक्तिः ।
+row12#!v#!
+
+

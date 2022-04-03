@@ -1,0 +1,170 @@
+row1#!number#!<a href="html/SV-VI/SV-74/74.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-74/74.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">74.A</a>#!html/SV-VI/SV-74/74.jpg#!row1#!n1#!कमनी
+row2#!number#!74.B</a>#!row2#!n1#!कमनी
+row3#!number#!74.C</a>#!row3#!n1#!कमनी}
+row4#!number#!74.D</a>#!row4#!n1#!<a (click)=showDic('कमनी')>कमनी</a>{स्त्री;1;एक}
+row5#!number#!74.E</a>#!row5#!n1#!विशेषणम्,2
+row6#!number#!74.F</a>#!row6#!n1#!मदयुक्त
+row7#!number#!74.G</a>#!row7#!n1#!An intoxicated
+row8#!number#!74.H#!row8#!n1#!
+row9#!number#!74.I</a>#!row9#!n1#!
+row10#!number#!74.J</a>#!row10#!n1#!
+row11#!number#!74.K</a>#!row11#!n1#!
+row12#!number#!74.L</a>#!row12#!n1#!
+
+row1#!n1#!योषित्
+row2#!n1#!योषित्
+row3#!n1#!योषित्{स्त्री;1;एक}/योषित्{स्त्री;8;एक}
+row4#!n1#!<a (click)=showDic('योषित्')>योषित्</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,13</a>
+row6#!n1#!स्त्री
+row7#!n1#!woman
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n7#!अनीच-काशे
+row2#!n7#!अनीच-काशे
+row3#!n7#!अनीच-काश{नपुं;1;द्वि}/काश{नपुं;2;द्वि}/काश{नपुं;8;द्वि}/काशि{पुं;8;एक}/काशि{स्त्री;8;एक}/काश्1{कर्तरि;लट्;उ;एक;आत्मनेपदी;काशृँ;भ्वादिः}/काश{पुं;7;एक}/काश{नपुं;7;एक}
+row4#!n7#!<a (click)=showDic('अनीच')>अनीच</a>-<a (click)=showDic('काश')>काश</a>{पुं;7;एक}
+row5#!n7#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n7#!समृद्ध काश वाले समय अर्थात् शरद् में
+row7#!n7#!in autumn season where there is abundant growth of reed
+row8#!n7#!<a href="html/SV-VI/SV-74/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-74/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<न-नीच>Tn-काशः>Bs7</a>#!html/SV-VI/SV-74/samaasa1.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!काले
+row2#!n7#!काले
+row3#!n7#!काल{नपुं;1;द्वि}/काल{नपुं;2;द्वि}/काल{नपुं;8;द्वि}/काला{स्त्री;1;द्वि}/काला{स्त्री;2;द्वि}/काला{स्त्री;8;एक}/काला{स्त्री;8;द्वि}/काल{पुं;7;एक}/काल{नपुं;7;एक}
+row4#!n7#!<a (click)=showDic('काल')>काल</a>{पुं;7;एक}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,13</a>
+row6#!n7#!समय_में
+row7#!n7#!during
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!मनोजन्मसुख-उदयेषु
+row2#!n7#!मनोजन्मसुख-उदयेषु
+row3#!n7#!मनोजन्मसुख-उदय{पुं;7;बहु}
+row4#!n7#!<a (click)=showDic('मनोजन्मसुख')>मनोजन्मसुख</a>-<a (click)=showDic('उदय')>उदय</a>{पुं;7;बहु}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,13</a>
+row6#!n7#!कामजन्य सुखों के विषय में
+row7#!n7#!in lustful pleasures
+row8#!n7#!<a href="html/SV-VI/SV-74/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-74/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<मनो-जन्म>Bs6-सुख>K1-उदयः>T6</a>#!html/SV-VI/SV-74/samaasa2.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n2#!धृत-आशम्
+row2#!n2#!धृत-आशम्
+row3#!n2#!धृत-आश{पुं;2;एक}
+row4#!n2#!<a (click)=showDic('धृत')>धृत</a>-<a (click)=showDic('आश')>आश</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n2#!आशा बाँधे हुए
+row7#!n2#!who was fascinated
+row8#!n2#!<a href="html/SV-VI/SV-74/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-74/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><धृत-आशम्>Bs6</a>#!html/SV-VI/SV-74/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!अभीष्टं
+row2#!n2#!अभीष्टं
+row3#!n2#!अभीष्ट{पुं;2;एक}/अभीष्ट{नपुं;1;एक}/अभीष्ट{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('अभि_इष्1')>अभि_इष्1</a>{क्त;यजँ;दिवादिः;पुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n2#!प्रिय पति_को
+row7#!n2#!beloved
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!चिराय
+row2#!NA#!चिराय
+row3#!NA#!चिराय{अव्य}/चिर{नपुं;4;एक}
+row4#!NA#!<a (click)=showDic('चिराय')>चिराय</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,10</a>
+row6#!NA#!बहुत समय_के_बाद
+row7#!NA#!after a long time
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!समुद्धृत-आशङ्कम्
+row2#!n2#!समुद्धृत-आशङ्कम्
+row3#!n2#!समुद्धृत-आशङ्क{पुं;2;एक}
+row4#!n2#!<a (click)=showDic('समुद्धृत')>समुद्धृत</a>-<a (click)=showDic('आशङ्क')>आशङ्क</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n2#!निःसंकोच
+row7#!n2#!without hesitation
+row8#!n2#!<a href="html/SV-VI/SV-74/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-74/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सम्यक्-<उद्धृत-आशङ्कः>K1>Bs3</a>#!html/SV-VI/SV-74/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!आसाद्य
+row2#!NA#!आसाद्य
+row3#!NA#!आसाद्य}
+row4#!NA#!<a (click)=showDic('आङ्_सद्1')>आङ्_सद्1</a>{कृत्_प्रत्ययः:ल्यप्;षद्लृँ;भ्वादिः}
+row5#!NA#!<a href="javascript:show('पूर्वकाल,')">पूर्वकाल,13</a>
+row6#!NA#!प्राप्त_करके
+row7#!NA#!having obtained
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!समुद्
+row2#!n1#!समुद्
+row3#!n1#!समुद्}
+row4#!n1#!<a (click)=showDic('समुद्')>समुद्</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('कर्तृसमानाधिकरणम्,')">कर्तृसमानाधिकरणम्,12</a>
+row6#!n1#!सानन्द
+row7#!n1#!with happiness
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!(सती)
+row2#!n1#!सती
+row3#!n1#!सति{स्त्री;1;द्वि}/सति{स्त्री;2;द्वि}/सति{स्त्री;8;द्वि}/सती{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('अस्2')>अस्2</a>{कृत्_प्रत्ययः:शतृ;असँ;अदादिः;स्त्री}{1;एक}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,13</a>
+row6#!n1#!रहने_पर
+row7#!n1#!while
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!चकाशे
+row2#!v#!चकाशे
+row3#!v#!काश्1{भावे;लिट्;उ;एक;आत्मनेपदी;काशृँ;भ्वादिः}/काश्1{भावे;लिट्;प्र;एक;आत्मनेपदी;काशृँ;भ्वादिः}/काश्2{कर्तरि;लिट्;उ;एक;आत्मनेपदी;काशृँ;दिवादिः}/काश्2{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;काशृँ;दिवादिः}/काश्2{भावे;लिट्;उ;एक;आत्मनेपदी;काशृँ;दिवादिः}/काश्2{भावे;लिट्;प्र;एक;आत्मनेपदी;काशृँ;दिवादिः}
+row4#!v#!<a (click)=showDic('काश्1')>काश्1</a>{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;काशृँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!सुशोभित_हुई.
+row7#!v#!shone.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!उपजातिः ।
+row11#!v#!प्रेयः + यमकम् = सङ्करः ।
+row12#!v#!
+
+

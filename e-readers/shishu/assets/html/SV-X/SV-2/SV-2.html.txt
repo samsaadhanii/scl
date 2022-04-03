@@ -1,0 +1,183 @@
+row1#!number#!<a href="html/SV-X/SV-2/2.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-2/2.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">2.A</a>#!html/SV-X/SV-2/2.jpg#!row1#!NA#!अथ
+row2#!number#!2.B</a>#!row2#!NA#!अथ
+row3#!number#!2.C</a>#!row3#!NA#!अथ{अव्य}
+row4#!number#!2.D</a>#!row4#!NA#!<a (click)=showDic('अथ')>अथ</a>{अव्य}
+row5#!number#!2.E</a>#!row5#!NA#!क्रियाविशेषणम्,14
+row6#!number#!2.F</a>#!row6#!NA#!तत्पश्चात्
+row7#!number#!2.G</a>#!row7#!NA#!Thereafter
+row8#!number#!2.H#!row8#!NA#!
+row9#!number#!2.I</a>#!row9#!NA#!
+row10#!number#!2.J</a>#!row10#!NA#!
+row11#!number#!2.K</a>#!row11#!NA#!
+row12#!number#!2.L</a>#!row12#!NA#!
+
+row1#!n1#!ते
+row2#!n1#!ते
+row3#!n1#!तद्{सर्वनाम;पुं;1;बहु}/तद्{सर्वनाम;नपुं;1;द्वि}/तद्{सर्वनाम;नपुं;2;द्वि}/तद्{सर्वनाम;स्त्री;1;द्वि}/तद्{सर्वनाम;स्त्री;2;द्वि}/युष्मद्{सर्वनाम;4;एक}/युष्मद्{सर्वनाम;6;एक}
+row4#!n1#!<a (click)=showDic('तद्')>तद्</a>{सर्वनाम;पुं;1;बहु}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,14</a>
+row6#!n1#!वे (प्रेमी युवकों ने)
+row7#!n1#!those (young men)
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!सोपचारम्
+row2#!n1#!सोपचारम्
+row3#!n1#!स-उपचार{;पुं;2;एक}/उपचार{;नपुं;1;एक}/उपचार{;नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('सोपचार')>सोपचार</a>{;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n1#!प्रार्थनापूर्वक
+row7#!n1#!submissively
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!उपशान्त-विचारं
+row2#!n1#!उपशान्त-विचारं
+row3#!n1#!उपशान्त-विचार{;पुं;2;एक}
+row4#!n1#!<a (click)=showDic('उपशान्त')>उपशान्त</a>-<a (click)=showDic('विचार')>विचार</a>{;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n1#!शङ्कारहित
+row7#!n1#!having averted any doubt
+row8#!n1#!<a href="html/SV-X/SV-2/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-2/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><उपशान्त-विचारम्>Bs6</a>#!html/SV-X/SV-2/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!सानुतर्षम्
+row2#!n2#!सानुतर्षम्
+row3#!n2#!स-अनु-तर्ष{;पुं;2;एक}/तर्ष{;नपुं;1;एक}/तर्ष{;नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('सानुतर्ष')>सानुतर्ष</a>{;नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,14</a>
+row6#!n2#!सतृष्ण
+row7#!n2#!ardently
+row8#!n2#!<a href="html/SV-X/SV-2/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-2/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><स-अनुतर्षम्>BvS</a>#!html/SV-X/SV-2/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n3#!अनुतर्ष-पदेन
+row2#!n3#!अनुतर्ष-पदेन
+row3#!n3#!अनुतर्ष{पुं-पद;;नपुं;3;एक}/पद{;पुं;3;एक}
+row4#!n3#!<a (click)=showDic('अनुतर्ष')>अनुतर्ष</a>{पद;;नपुं;3;एक}
+row5#!n3#!<a href="javascript:show('हेतुः,')">हेतुः,14</a>
+row6#!n3#!मदिरा के व्याज से
+row7#!n3#!with an excuse of liquor
+row8#!n3#!<a href="html/SV-X/SV-2/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-2/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अनुतर्ष-पदम्>T6</a>#!html/SV-X/SV-2/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!मूर्तम्
+row2#!n1#!मूर्तम्
+row3#!n1#!मूर्त{;पुं;2;एक(;क्त;मुर्छाँ;भ्वादिः)}/मूर्त{;नपुं;1;एक(;क्त;मुर्छाँ;भ्वादिः)}/मूर्त{;नपुं;2;एक(;क्त;मुर्छाँ;भ्वादिः)}
+row4#!n1#!<a (click)=showDic('मूर्त')>मूर्त</a>{;नपुं;1;एक(मुर्छ्1;क्त;मुर्छाँ;भ्वादिः)}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n1#!मूर्तिमान
+row7#!n1#!embodiment
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!प्रेम
+row2#!n1#!प्रेम
+row3#!n1#!प्रेम}
+row4#!n1#!<a (click)=showDic('प्रेमन्')>प्रेमन्</a>{नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,14</a>
+row6#!n1#!प्रेम
+row7#!n1#!love
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!स्वाः
+row2#!n2#!स्वाः
+row3#!n2#!स्व{;पुं;1;बहु}/स्वा{;स्त्री;1;बहु}/स्वा{;स्त्री;2;बहु}/स्वा{सर्वनाम;स्त्री;1;बहु}/स्वा{सर्वनाम;स्त्री;2;बहु}/स्व{;पुं;8;बहु}
+row4#!n2#!<a (click)=showDic('स्वा')>स्वा</a>{;स्त्री;2;बहु}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,10</a>
+row6#!n2#!अपनी
+row7#!n2#!one’s
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!वधूः
+row2#!n2#!वधूः
+row3#!n2#!वधू{;स्त्री;1;एक}/वधू{;स्त्री;2;बहु}/वधु{;स्त्री;2;बहु}
+row4#!n2#!<a (click)=showDic('वधू')>वधू</a>{;स्त्री;2;बहु}
+row5#!n2#!<a href="javascript:show('कर्मसमानाधिकरणम्,')">कर्मसमानाधिकरणम्,14</a>
+row6#!n2#!स्त्री_को
+row7#!n2#!woman
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!मुहूर्तं
+row2#!n2#!मुहूर्तं
+row3#!n2#!मुहूर्त{;पुं;2;एक}
+row4#!n2#!<a (click)=showDic('मुहूर्त')>मुहूर्त</a>{;नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,12</a>
+row6#!n2#!क्षणभर_में
+row7#!n2#!in a moment
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!मानम्
+row2#!n1#!मानम्
+row3#!n1#!मान{;नपुं;1;एक}/मान{;नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('मान')>मान</a>{;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,13</a>
+row6#!n1#!कोप_को
+row7#!n1#!angry
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!अवधूय
+row2#!NA#!अवधूय
+row3#!NA#!{अव्य;ल्यप्;धूञ्;स्वादिः}/;अव्य;ल्यप्;धू;तुदादिः}
+row4#!NA#!<a (click)=showDic('अव_धू1')>अव_धू1</a>{अव्य;ल्यप्;धूञ्;स्वादिः}
+row5#!NA#!<a href="javascript:show('पूर्वकालः,')">पूर्वकालः,14</a>
+row6#!NA#!हटाकर
+row7#!NA#!having removed
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!अपीप्यन्
+row2#!v#!अपीप्यन्
+row3#!v#!पा1{णिजन्त;कर्तरि;लुङ्;प्र;बहु;परस्मैपदी;पा;भ्वादिः}/पी1{णिजन्त;कर्तरि;लुङ्;प्र;बहु;परस्मैपदी;पीङ्;दिवादिः}
+row4#!v#!<a (click)=showDic('पा1')>पा1</a>{णिजन्त;कर्तरि;लुङ्;प्र;बहु;परस्मैपदी;पा;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!पिलवाया.
+row7#!v#!made (them) drink.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!स्वागता ।
+row11#!v#!उत्प्रेक्षा ।
+row12#!v#!पिबतेर्णो चङि ‘लोपः पिबतेरीच्चाभ्यासस्य’ (7।4।4) इति धात्वाकारलोपः ईकारोऽभ्यासस्य । ‘न पादमि-’ (1।3।89) इत्यादिना निगरणार्थत्वात्परस्मैपदनिषेधेऽपि ‘णिचश्च’ (1।3।74) इत्यात्मनेपदविकल्पात्पाक्षिकं परस्मैपदम् । ‘गतिबुद्धि-’ (1।4।52) इत्यादिना बधूरित्यणिकर्तुः कर्मत्वम् ।
+
+

@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-VIII/SV-30/30.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-30/30.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">30.A</a>#!html/SV-VIII/SV-30/30.jpg#!row1#!n1#!द्रुतकनक-उज्ज्वलानि
+row2#!number#!30.B</a>#!row2#!n1#!द्रुतकनक-उज्ज्वलानि
+row3#!number#!30.C</a>#!row3#!n1#!द्रुतकनक-उज्ज्वल{नपुं;1;बहु}/उज्ज्वल{नपुं;2;बहु}/उज्ज्वल{नपुं;8;बहु}/उत्_ज्वल्1{कर्तरि;लोट्;उ;एक;परस्मैपदी;ज्वलँ;भ्वादिः}
+row4#!number#!30.D</a>#!row4#!n1#!<a (click)=showDic('द्रुतकनक')>द्रुतकनक</a>-<a (click)=showDic('उज्ज्वल')>उज्ज्वल</a>{नपुं;1;बहु}
+row5#!number#!30.E</a>#!row5#!n1#!विशेषणम्,2
+row6#!number#!30.F</a>#!row6#!n1#!सुवर्ण_की_कलई_किये_हुए
+row7#!number#!30.G</a>#!row7#!n1#!made up of molten gold
+row8#!number#!30.H#!row8#!n1#!<a href="html/SV-VIII/SV-30/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-30/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<द्रुत-कनक>T3-उज्जवलम्>T3</a>#!html/SV-VIII/SV-30/samaasa1.jpg
+row9#!number#!30.I</a>#!row9#!n1#!
+row10#!number#!30.J</a>#!row10#!n1#!
+row11#!number#!30.K</a>#!row11#!n1#!
+row12#!number#!30.L</a>#!row12#!n1#!
+
+row1#!n1#!श्रृङ्गाणि
+row2#!n1#!श्रृङ्गाणि
+row3#!n1#!श्रृङ्गाणि}
+row4#!n1#!<a (click)=showDic('श्रृङ्ग')>श्रृङ्ग</a>{नपुं;1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,11</a>
+row6#!n1#!श्रृङ्ग
+row7#!n1#!water guns
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!गन्धाः
+row2#!n1#!गन्धाः
+row3#!n1#!गन्ध{पुं;1;बहु}/गन्ध{पुं;8;बहु}
+row4#!n1#!<a (click)=showDic('गन्ध')>गन्ध</a>{पुं;1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,11</a>
+row6#!n1#!सुगन्ध
+row7#!n1#!fragrant objects
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!पृथुकुच-कुम्भ-सङ्गि
+row2#!n1#!पृथुकुच-कुम्भ-सङ्गि
+row3#!n1#!पृथुकुच-कुम्भ-सङ्गिन्{नपुं;1;एक}/सङ्गिन्{नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('पृथुकुच')>पृथुकुच</a>-<a (click)=showDic('कुम्भ')>कुम्भ</a>-<a (click)=showDic('सङ्गिन्')>सङ्गिन्</a>{नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!पीनस्तनकलश का
+row7#!n1#!covering huge breasts that were like jar
+row8#!n1#!<a href="html/SV-VIII/SV-30/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-30/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<पृथु-कुच-कुम्भ>K5>K3-सङ्गि>T6</a>#!html/SV-VIII/SV-30/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!कौसुम्भं
+row2#!n1#!कौसुम्भं
+row3#!n1#!कौसुम्भम्}
+row4#!n1#!<a (click)=showDic('कौसुम्भ')>कौसुम्भ</a>{नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!कौसुम्भ
+row7#!n1#!coloured with saffron
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘तेन रक्तं रागात्’ (4।2।1) इत्यण् प्रत्ययः ।
+
+row1#!n1#!वासः
+row2#!n1#!वासः
+row3#!n1#!वास{पुं;1;एक}/वासस्{नपुं;1;एक}/वासस्{नपुं;2;एक}/वासस्{नपुं;8;एक}
+row4#!n1#!<a (click)=showDic('वासस्')>वासस्</a>{नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,11</a>
+row6#!n1#!वस्त्र
+row7#!n1#!a cloth
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!मार्द्वीकं
+row2#!n2#!मार्द्वीकं
+row3#!n2#!मार्द्वीक{पुं;2;एक}/मार्द्वीक{नपुं;1;एक}/मार्द्वीक{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('मार्द्वीक')>मार्द्वीक</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,11</a>
+row6#!n2#!द्राक्षा-मद्य
+row7#!n2#!wine made of grapes
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!प्रियतमसन्निधानं
+row2#!n1#!प्रियतमसन्निधानं
+row3#!n1#!प्रियतमसन्निधानम्}
+row4#!n1#!<a (click)=showDic('प्रियतमसन्निधान')>प्रियतमसन्निधान</a>{नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,11</a>
+row6#!n1#!प्रियतम_का_सान्निध्य
+row7#!n1#!close association of beloved
+row8#!n1#!<a href="html/SV-VIII/SV-30/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-30/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><प्रियतम-सन्निधानम्>T6</a>#!html/SV-VIII/SV-30/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इति
+row2#!NA#!इति
+row3#!NA#!इति{अव्य}
+row4#!NA#!<a (click)=showDic('इति')>इति</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,12</a>
+row6#!NA#!इस प्रकार (ये सब)
+row7#!NA#!thus
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n6#!नारीणां
+row2#!n6#!नारीणां
+row3#!n6#!नारी{स्त्री;6;बहु}
+row4#!n6#!<a (click)=showDic('नारी')>नारी</a>{स्त्री;6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,11</a>
+row6#!n6#!नारियों_के
+row7#!n6#!of women
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!जलकेलि-साधनानि
+row2#!n1#!जलकेलि-साधनानि
+row3#!n1#!जलकेलि-साधन{नपुं;1;बहु}/साधन{नपुं;2;बहु}/साधन{नपुं;8;बहु}
+row4#!n1#!<a (click)=showDic('जलकेलि')>जलकेलि</a>-<a (click)=showDic('साधन')>साधन</a>{नपुं;1;बहु}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,12</a>
+row6#!n1#!जलक्रीडा के साधन
+row7#!n1#!means of frolicking in water
+row8#!n1#!<a href="html/SV-VIII/SV-30/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-30/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<जल-केलि>T7-साधनम्>T6</a>#!html/SV-VIII/SV-30/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!आसन्
+row2#!v#!आसन्
+row3#!v#!आसन्{नपुं;8;एक}/अस्1{कर्तरि;लङ्;प्र;बहु;परस्मैपदी;असँ;भ्वादिः}/अस्2{कर्तरि;लङ्;प्र;बहु;परस्मैपदी;असँ;अदादिः}
+row4#!v#!<a (click)=showDic('अस्1')>अस्1</a>{कर्तरि;लङ्;प्र;बहु;परस्मैपदी;असँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!थे.
+row7#!v#!were.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!प्रहर्षिणी ।
+row11#!v#!तुल्ययोगिता ।
+row12#!v#!
+
+

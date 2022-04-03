@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-V/SV-62/62.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-62/62.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">62.A</a>#!html/SV-V/SV-62/62.jpg#!row1#!n3#!उत्तीर्ण-भार-लघुना
+row2#!number#!62.B</a>#!row2#!n3#!उत्तीर्ण-भार-लघुना 
+row3#!number#!62.C</a>#!row3#!n3#!उत्तीर्ण-भार-लघु{पुं}{3;एक}/लघु{नपुं}{3;एक} 
+row4#!number#!62.D</a>#!row4#!n3#!<a (click)=showDic('उत्तीर्ण')>उत्तीर्ण</a>-<a (click)=showDic('भार')>भार</a>-<a (click)=showDic('लघु')>लघु</a>{पुं}{3;एक} 
+row5#!number#!62.E</a>#!row5#!n3#!विशेषणम्,4
+row6#!number#!62.F</a>#!row6#!n3#!बोझ उतारने से हलके होने पर
+row7#!number#!62.G</a>#!row7#!n3#!Disburdened by the load
+row8#!number#!62.H#!row8#!n3#!<a href="html/SV-V/SV-62/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-62/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<उत्तीर्ण-भार>K3-लघुः>T3</a>#!html/SV-V/SV-62/samaasa1.jpg
+row9#!number#!62.I</a>#!row9#!n3#!
+row10#!number#!62.J</a>#!row10#!n3#!
+row11#!number#!62.K</a>#!row11#!n3#!
+row12#!number#!62.L</a>#!row12#!n3#!
+
+row1#!NA#!अपि
+row2#!NA#!अपि 
+row3#!NA#!अपि{अव्य} 
+row4#!NA#!<a (click)=showDic('अपि')>अपि</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,1</a>
+row6#!NA#!भी 
+row7#!NA#!though
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!अलघु-उलपौघ-सौहित्य-निःसह-तरेण
+row2#!n3#!अलघु-उलपौघ-सौहित्य-निःसह-तरेण 
+row3#!n3#!अलघु-उलपौघ-सौहित्य-निःसह-तर{पुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('अलघु')>अलघु</a>-<a (click)=showDic('उलपौघ')>उलपौघ</a>-<a (click)=showDic('सौहित्य')>सौहित्य</a>-<a (click)=showDic('निःसह')>निःसह</a>-<a (click)=showDic('तर')>तर</a>{पुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n3#!बढ़े हुए ‘उलप’ नामक घास को भरपेट (तृप्ति पर्यन्त) खाने से आलस्यपूर्ण
+row7#!n3#!it was lazy as it loaded its belly with grass called 'Ulap'
+row8#!n3#!<a href="html/SV-V/SV-62/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-62/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<न-लघु>Tn-<उल्प-ओघ>T6>K3-सौहित्य>T3-निःसहतरः>T3</a>#!html/SV-V/SV-62/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!औक्षकेण
+row2#!n3#!औक्षकेण 
+row3#!n3#!औक्षक{नपुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('औक्षक')>औक्षक</a>{नपुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,9</a>
+row6#!n3#!बैलों_के_झुण्ड
+row7#!n3#!multitude of bulls
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!‘गोत्रोक्ष-’ (4।2।39) इत्यादिना वुञ् प्रत्ययः ।
+
+row1#!n6#!तरोः
+row2#!n6#!तरोः 
+row3#!n6#!तरु{पुं}{5;एक}/तरु{पुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('तरु')>तरु</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,6</a>
+row6#!n6#!वृक्ष_के
+row7#!n6#!of a tree
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!NA#!अधस्तात्
+row2#!NA#!अधस्तात् 
+row3#!NA#!अधस्तात्{अव्य} 
+row4#!NA#!<a (click)=showDic('अधस्तात्')>अधस्तात्</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,9</a>
+row6#!NA#!नीचे_से 
+row7#!NA#!under
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!रोमन्थ-मन्थर-चलद्-गुरु-सास्नं
+row2#!n2#!रोमन्थ-मन्थर-चलद्-गुरु-सास्नं
+row3#!n2#!रोमन्थ-मन्थर-चलद्-गुरु-सास्न{पुं}{2;एक}/सास्न{नपुं}{1;एक}/सास्न{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('रोमन्थ')>रोमन्थ</a>-<a (click)=showDic('मन्थर')>मन्थर</a>-<a (click)=showDic('चलद्')>चलद्</a>-<a (click)=showDic('गुरु')>गुरु</a>-<a (click)=showDic('सास्न')>सास्न</a>{नपुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,9</a>
+row6#!n2#!जुगाली करने से उनकी गलकम्बल (गर्दन के नीचे लटकती हुई खाल) धीरे-धीरे हिल रही थी
+row7#!n2#!while ruminating because of which it's dewlap was slowly wriggling
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!निमीलद्-अलस-ईक्षणम्
+row2#!n2#!निमीलद्-अलस-ईक्षणम्
+row3#!n2#!निमीलद्-अलस-ईक्षण{नपुं}{1;एक}/ईक्षण{नपुं}{2;एक}/ईक्षण{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('निमीलद्')>निमीलद्</a>-<a (click)=showDic('अलस')>अलस</a>-<a (click)=showDic('ईक्षण')>ईक्षण</a>{नपुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!सुख से उत्पन्न अलसता के कारण आँख बन्द किये हुए
+row7#!n2#!while closing its eyes because of laziness obtained by pleasure
+row8#!n2#!<a href="html/SV-V/SV-62/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-62/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><निमीलद्-<अलस-ईक्षणम्>K1>Bs7</a>#!html/SV-V/SV-62/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!आसाञ्चक्रे.
+row2#!v#!आसाञ्चक्रे 
+row3#!v#!आस्1{कर्तरि;लिट्;उ;एक;आत्मनेपदी;आसँ;अदादिः}/आस्1{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;आसँ;अदादिः}/आस्1{भावे;लिट्;उ;एक;आत्मनेपदी;आसँ;अदादिः}/आस्1{भावे;लिट्;प्र;एक;आत्मनेपदी;आसँ;अदादिः}. 
+row4#!v#!<a (click)=showDic('आस्1_णिच्')>आस्1_णिच्</a>{भावे;लिट्;प्र;एक;आत्मनेपदी;आसँ;अदादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!बैठे_गये.
+row7#!v#!made to sit.
+row8#!v#!-
+row9#!v#!भावे
+row10#!v#!वसन्ततिलका ।
+row11#!v#!स्वभावोक्तिः ।
+row12#!v#!‘आस उपवेशने’ भावे लिट् । ‘दयायाश्च’ (3।1।37) इत्याम्प्रत्ययः । ‘कृञ्चानुप्रयुज्यते लिटि’ (3।1।40) इति कृञोऽनुप्रयोग ।
+
+

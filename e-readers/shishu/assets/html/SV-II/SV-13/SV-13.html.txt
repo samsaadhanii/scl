@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-II/SV-13/13.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-13/13.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">13.A</a>#!html/SV-II/SV-13/13.jpg#!row1#!n1#!माधवः
+row2#!number#!13.B</a>#!row2#!n1#!माधवः 
+row3#!number#!13.C</a>#!row3#!n1#!माधव{पुं}{1;एक} 
+row4#!number#!13.D</a>#!row4#!n1#!<a (click)=showDic('माधव')>माधव</a>{पुं}{1;एक} 
+row5#!number#!13.E</a>#!row5#!n1#!कर्ता,6
+row6#!number#!13.F</a>#!row6#!n1#!माधव 
+row7#!number#!13.G</a>#!row7#!n1#!Mādhava
+row8#!number#!13.H#!row8#!n1#!
+row9#!number#!13.I</a>#!row9#!n1#!
+row10#!number#!13.J</a>#!row10#!n1#!
+row11#!number#!13.K</a>#!row11#!n1#!
+row12#!number#!13.L</a>#!row12#!n1#!
+
+row1#!n2#!यावदर्थ-पदाम्
+row2#!n2#!यावदर्थपदां 
+row3#!n2#!यावदर्थ-पद्{पुं}{6;बहु}/पाद{पुं}{6;बहु}/{स्त्री}{2;एक}
+row4#!n2#!<a (click)=showDic('यावदर्थ')>यावदर्थ</a>-<a (click)=showDic('पदा')>पदा</a>{स्त्री}{2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n2#!इस प्रकार परिमित अर्थ-पदवाला
+row7#!n2#!succint
+row8#!n2#!<a href="html/SV-II/SV-13/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-13/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><यावदर्थ-पदा>Bs6</a>#!html/SV-II/SV-13/samaasa1.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!‘यावदवधारणे’ (2।1।8) इत्यव्ययीभावः ।
+
+row1#!n2#!वाचम्
+row2#!n2#!वाचम् 
+row3#!n2#!वाच्{स्त्री}{2;एक}/वाच{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('वाच्')>वाच्</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,5</a>
+row6#!n2#!वचन_को 
+row7#!n2#!speech
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!एवम्
+row2#!NA#!एवम् 
+row3#!NA#!एवम्{अव्य} 
+row4#!NA#!<a (click)=showDic('एवम्')>एवम्</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,3</a>
+row6#!NA#!ऐसा 
+row7#!NA#!thus
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!आदाय
+row2#!NA#!आदाय 
+row3#!NA#!आङ्_दा1{कृत्_प्रत्ययः:ल्यप्;दाण्;भ्वादिः}/आङ्_दा2{कृत्_प्रत्ययः:ल्यप्;दाप्;अदादिः} 
+row4#!NA#!<a (click)=showDic('आङ्_दा1')>आङ्_दा1</a>{कृत्_प्रत्ययः:ल्यप्;दाण्;भ्वादिः}
+row5#!NA#!<a href="javascript:show('पूर्वकालः,')">पूर्वकालः,6</a>
+row6#!NA#!कह_कर 
+row7#!NA#!having said
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!विरराम
+row2#!v#!विरराम
+row3#!v#!वि_रमुँ1{कर्तरि; लिट्;प्र;बहु;परस्मैपदी;रमु;भ्वादिः}
+row4#!v#!<a (click)=showDic('वि_रमुँ1')>वि_रमुँ1</a>{कर्तरि; लिट्;प्र;बहु;परस्मैपदी;रमु;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!चुप हो गये
+row7#!v#!stopped
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!‘व्याङ्परिभ्यो रमः (1।3।83) इति परस्मैपदम्’ ।
+
+row1#!n1#!महीयांसः
+row2#!n1#!महीयांसः 
+row3#!n1#!महीयस्{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('महीयस्')>महीयस्</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n1#!बड़े लोग
+row7#!n1#!the great
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!प्रकृत्या
+row2#!n3#!प्रकृत्या 
+row3#!n3#!प्रकृति{स्त्री}{3;एक} 
+row4#!n3#!<a (click)=showDic('प्रकृति')>प्रकृति</a>{स्त्री}{3;एक} 
+row5#!n3#!<a href="javascript:show('हेतुः,')">हेतुः,10</a>
+row6#!n3#!स्वभाव_से 
+row7#!n3#!by nature
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!मितभाषिणः
+row2#!n1#!मितभाषिणः 
+row3#!n1#!मितभाषिन्{पुं}{1;बहु}/मितभाषिन्{पुं}{2;बहु}/मितभाषिन्{पुं}{5;एक}/मितभाषिन्{पुं}{6;एक}/मितभाषिन्{नपुं}{5;एक}/मितभाषिन्{नपुं}{6;एक} 
+row4#!n1#!<a (click)=showDic('मितभाषिन्')>मितभाषिन्</a>{पुं}{1;बहु}
+row5#!n1#!<a href="javascript:show('कर्तृसमानाधिकरण,')">कर्तृसमानाधिकरण,10</a>
+row6#!n1#!कम बोलने वाले
+row7#!n1#!less speakers
+row8#!n1#!<a href="html/SV-II/SV-13/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-13/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><मित-भाषी>Bs6</a>#!html/SV-II/SV-13/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!(भवन्ति).
+row2#!v#!भवन्ति
+row3#!v#!भू1{कर्तरि;लट्;प्र;बहु;परस्मैपदी;भू;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('भू1')>भू1</a>{कर्तरि;लट्;प्र;बहु;परस्मैपदी;भू;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!होते_हैं.
+row7#!v#!are.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!अर्थान्तरन्यासः ।
+row12#!v#!
+
+

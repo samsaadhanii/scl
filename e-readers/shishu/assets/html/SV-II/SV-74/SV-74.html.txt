@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-II/SV-74/74.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-74/74.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">74.A</a>#!html/SV-II/SV-74/74.jpg#!row1#!n1#!कुशलाः
+row2#!number#!74.B</a>#!row2#!n1#!कुशलाः 
+row3#!number#!74.C</a>#!row3#!n1#!कुशल{पुं}{1;बहु}/कुशल{पुं}{8;बहु}/कुशला{स्त्री}{1;बहु}/कुशला{स्त्री}{2;बहु}/कुशला{स्त्री}{8;बहु} 
+row4#!number#!74.D</a>#!row4#!n1#!<a (click)=showDic('कुशल')>कुशल</a>{पुं}{1;बहु}
+row5#!number#!74.E</a>#!row5#!n1#!कर्ता,10
+row6#!number#!74.F</a>#!row6#!n1#!कुशल 
+row7#!number#!74.G</a>#!row7#!n1#!Skilled
+row8#!number#!74.H#!row8#!n1#!
+row9#!number#!74.I</a>#!row9#!n1#!
+row10#!number#!74.J</a>#!row10#!n1#!
+row11#!number#!74.K</a>#!row11#!n1#!
+row12#!number#!74.L</a>#!row12#!n1#!
+
+row1#!n2#!म्रदीयसीम्
+row2#!n2#!म्रदीयसीम् 
+row3#!n2#!म्रदीयसी{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('म्रदीयसी')>म्रदीयसी</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!अत्यन्त मृदु_को 
+row7#!n2#!very much soft
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!अपि
+row2#!NA#!अपि 
+row3#!NA#!अपि{अव्य} 
+row4#!NA#!<a (click)=showDic('अपि')>अपि</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,2</a>
+row6#!NA#!भी
+row7#!NA#!even
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!घनाम्
+row2#!n2#!घनाम् 
+row3#!n2#!घना{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('घना')>घना</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!सघन
+row7#!n2#!great
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!अनल्प-गुण-कल्पिताम्
+row2#!n2#!अनल्पगुणकल्पितां 
+row3#!n2#!अनल्प-गुण-कल्पिता{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('अनल्प')>अनल्प</a>-<a (click)=showDic('गुण')>गुण</a>-<a (click)=showDic('कल्पिता')>कल्पिता</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!बहुत_से_गुणों_से_बनायी_गयी
+row7#!n2#!possessed of no few merits
+row8#!n2#!<a href="html/SV-II/SV-74/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-74/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<न-अल्प>Tn-गुण>K1-कल्पिता>T3</a>#!html/SV-II/SV-74/samaasa1.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!चित्रां
+row2#!n2#!चित्रां 
+row3#!n2#!चित्रा{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('चित्रा')>चित्रा</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n2#!चित्र_को 
+row7#!n2#!colourful
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!वाचं
+row2#!n2#!वाचं 
+row3#!n2#!वाच्{स्त्री}{2;एक}/वाच{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('वाच्')>वाच्</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n2#!वाणी_को 
+row7#!n2#!speech
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!पटीम्
+row2#!n2#!पटीम् 
+row3#!n2#!पटी{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('पटी')>पटी</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,9</a>
+row6#!n2#!साडी_को
+row7#!n2#!cloth
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!इव
+row2#!NA#!इव 
+row3#!NA#!इव{अव्य} 
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,7</a>
+row6#!NA#!समान
+row7#!NA#!like
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!प्रसारयन्ति.
+row2#!v#!प्रसारयन्ति 
+row3#!v#!प्रसारयन्ति. 
+row4#!v#!<a (click)=showDic('प्र')>प्र</a>-<a (click)=showDic('सृ1_णिच्')>सृ1_णिच्</a>{कर्तरि;लट्;प्र;एक;परस्मैपदी;सृ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!फैलाते_हैं.
+row7#!v#!expand.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!श्लेषः + उपमा ।
+row12#!v#!
+
+

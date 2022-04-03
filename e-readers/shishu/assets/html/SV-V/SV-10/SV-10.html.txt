@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-V/SV-10/10.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-10/10.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">10.A</a>#!html/SV-V/SV-10/10.jpg#!row1#!n3#!तेजो-निरोध-समता-अवहितेन
+row2#!number#!10.B</a>#!row2#!n3#!तेजो-निरोध-समता-अवहितेन 
+row3#!number#!10.C</a>#!row3#!n3#!तेजो-निरोध-समता-अवहित{पुं}{3;एक} 
+row4#!number#!10.D</a>#!row4#!n3#!<a (click)=showDic('तेजो')>तेजो</a>-<a (click)=showDic('निरोध')>निरोध</a>-<a (click)=showDic('समता')>समता</a>-<a (click)=showDic('अवहित')>अवहित</a>{पुं}{3;एक} 
+row5#!number#!10.E</a>#!row5#!n3#!विशेषणम्,3
+row6#!number#!10.F</a>#!row6#!n3#!घोड़े_की_तीव्र_गति_को_रोकने_तथा_समता_में_कुशल_से
+row7#!number#!10.G</a>#!row7#!n3#!Who knows the three ways of holding a horse-whip
+row8#!number#!10.H#!row8#!n3#!<a href="html/SV-V/SV-10/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-10/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<तेज-निरोध>T6-समता>Di-अवहितः>T7</a>#!html/SV-V/SV-10/samaasa1.jpg
+row9#!number#!10.I</a>#!row9#!n3#!
+row10#!number#!10.J</a>#!row10#!n3#!
+row11#!number#!10.K</a>#!row11#!n3#!
+row12#!number#!10.L</a>#!row12#!n3#!
+
+row1#!n3#!सम्यक्-कशा-त्रय-विचारवता
+row2#!n3#!सम्यक्-कशा-त्रय-विचारवता 
+row3#!n3#!सम्यक्-कशा-त्रय-विचारवता 
+row4#!n3#!<a (click)=showDic('सम्यक्')>सम्यक्</a>-<a (click)=showDic('कशा')>कशा</a>-<a (click)=showDic('त्रय')>त्रय</a>-<a (click)=showDic('वि_चर्1')>वि_चर्1</a>{कृत्_प्रत्ययः:शतृ;चरँ;भ्वादिः;पुं}{3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n3#!अच्छी तरह कोड़े_के_तीन_प्रकार_के_प्रयोग_को_जानने_वाले_से
+row7#!n3#!who is capable of holding a running horse
+row8#!n3#!<a href="html/SV-V/SV-10/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-10/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सम्यक्-<<कशा-त्रय>T6-विचारः>T6>K1</a>#!html/SV-V/SV-10/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!यन्त्रा
+row2#!n3#!यन्त्रा 
+row3#!n3#!यन्तृ{पुं}{3;एक}
+row4#!n3#!<a (click)=showDic('यन्तृ')>यन्तृ</a>{पुं}{3;एक}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,4</a>
+row6#!n3#!घुड़सवार_से
+row7#!n3#!by an able horse-trainer
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!नियुक्तः
+row2#!n1#!नियुक्तः 
+row3#!n1#!नियुक्त{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('नि_युज्2')>नि_युज्2</a>{कृत्_प्रत्ययः:क्त;युजीँर्;रुधादिः;पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!नियुक्त 
+row7#!n1#!trained
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!उच्चैः
+row2#!NA#!उच्चैः 
+row3#!NA#!उच्चैः{अव्य}/उच्च{पुं}{3;बहु}/उच्च{नपुं}{3;बहु} 
+row4#!NA#!<a (click)=showDic('उच्चैः')>उच्चैः</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!NA#!ऊँचा 
+row7#!NA#!highly
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!आरट्टजः
+row2#!n1#!आरट्ट-जः 
+row3#!n1#!आरट्ट-ज{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('आरट्ट')>आरट्ट</a>-<a (click)=showDic('ज')>ज</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,11</a>
+row6#!n1#!अरबी-घोड़ा
+row7#!n1#!horse that belonged to a country called Sindhu
+row8#!n1#!<a href="html/SV-V/SV-10/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-10/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><आरट्ट-जः>U</a>#!html/SV-V/SV-10/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!चटुल-निष्ठुर-पातम्
+row2#!n2#!चटुल-निष्ठुर-पातम् 
+row3#!n2#!चटुल-निष्ठुर-पात्{पुं}{2;एक}/पात{पुं}{2;एक}/पात{नपुं}{1;एक}/पात{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('चटुल')>चटुल</a>-<a (click)=showDic('निष्ठुर')>निष्ठुर</a>-<a (click)=showDic('पात')>पात</a>{नपुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,10</a>
+row6#!n2#!चञ्चल_एवं_निष्ठुर_पैर_रखते_हुए
+row7#!n2#!by putting fickle and strong steps
+row8#!n2#!<a href="html/SV-V/SV-10/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-10/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><चटुल-निष्ठुरपातम्>Bs7</a>#!html/SV-V/SV-10/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n3#!अर्ध-पुलायितेन
+row2#!n3#!अर्ध-पुलायितेन 
+row3#!n3#!अर्ध-पुलायित{नपुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('अर्ध')>अर्ध</a>-<a (click)=showDic('पुलायित')>पुलायित</a>{नपुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('करण,')">करण,11</a>
+row6#!n3#!अर्धमण्डलाकार_गति_से
+row7#!n3#!in a semi-circular form
+row8#!n3#!<a href="html/SV-V/SV-10/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-10/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अर्ध-पुलायितम्>T1</a>#!html/SV-V/SV-10/samaasa5.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n2#!चित्रं
+row2#!n2#!चित्रं 
+row3#!n2#!चित्र{नपुं}{1;एक}/चित्र{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('चित्र')>चित्र</a>{नपुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,10</a>
+row6#!n2#!विचित्र
+row7#!n2#!wonderful
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!पदं
+row2#!n2#!पदं 
+row3#!n2#!पद्{पुं}{2;एक}/पद{नपुं}{1;एक}/पद{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('पद')>पद</a>{नपुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,11</a>
+row6#!n2#!पद_को
+row7#!n2#!footsteps
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!चकार.
+row2#!v#!चकार 
+row3#!v#!कृ2{कर्तरि;लिट्;उ;एक;परस्मैपदी;कृञ्;स्वादिः}/कृ2{कर्तरि;लिट्;प्र;एक;परस्मैपदी;कृञ्;स्वादिः}/कृ3{कर्तरि;लिट्;उ;एक;परस्मैपदी;डुकृञ्;तनादिः}/कृ3{कर्तरि;लिट्;प्र;एक;परस्मैपदी;डुकृञ्;तनादिः}/कॄ1{कर्तरि;लिट्;उ;एक;परस्मैपदी;कॄ;तुदादिः}/कॄ1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;कॄ;तुदादिः}/कॄ2{कर्तरि;लिट्;उ;एक;परस्मैपदी;कॄञ्;क्र्यादिः}/कॄ2{कर्तरि;लिट्;प्र;एक;परस्मैपदी;कॄञ्;क्र्यादिः}. 
+row4#!v#!<a (click)=showDic('कृ3')>कृ3</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;डुकृञ्;तनादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!किया (चलाने_लगा).
+row7#!v#!done (galloping)
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!वसन्ततिलका ।
+row11#!v#!-
+row12#!v#!
+
+

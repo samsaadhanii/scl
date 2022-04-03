@@ -1,0 +1,92 @@
+row1#!number#!<a href="html/SV-V/SV-68/68.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-68/68.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">68.A</a>#!html/SV-V/SV-68/68.jpg#!row1#!n1#!उन्नम्र-ताम्र-पट-मण्डप-मण्डितम्
+row2#!number#!68.B</a>#!row2#!n1#!उन्नम्र-ताम्र-पट-मण्डप-मण्डितम् 
+row3#!number#!68.C</a>#!row3#!n1#!उन्नम्र-ताम्र-पट-मण्डप-मण्डित{पुं}{2;एक}/मण्डित{नपुं}{1;एक}/मण्डित{नपुं}{2;एक} 
+row4#!number#!68.D</a>#!row4#!n1#!<a (click)=showDic('उन्नम्र')>उन्नम्र</a>-<a (click)=showDic('ताम्र')>ताम्र</a>-<a (click)=showDic('पट')>पट</a>-<a (click)=showDic('मण्डप')>मण्डप</a>-<a (click)=showDic('मण्ड्1')>मण्ड्1</a>{कृत्_प्रत्ययः:क्त;मडिँ;भ्वादिः;नपुं}{1;एक}
+row5#!number#!68.E</a>#!row5#!n1#!विशेषणम्,6
+row6#!number#!68.F</a>#!row6#!n1#!ऊँचे तथा लाल तम्बुओं से सुशोभित
+row7#!number#!68.G</a>#!row7#!n1#!The red and long canopy
+row8#!number#!68.H#!row8#!n1#!<a href="html/SV-V/SV-68/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-68/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<उन्नम्र-ताम्र-पटमण्डप>K1-मण्डितम्>T3</a>#!html/SV-V/SV-68/samaasa1.jpg
+row9#!number#!68.I</a>#!row9#!n1#!
+row10#!number#!68.J</a>#!row10#!n1#!
+row11#!number#!68.K</a>#!row11#!n1#!
+row12#!number#!68.L</a>#!row12#!n1#!
+
+row1#!n1#!आनील-नाग-कुल-सङ्कुलम्
+row2#!n1#!आनील-नाग-कुल-सङ्कुलम् 
+row3#!n1#!आनील-नाग-कुल-सङ्कुल{पुं}{2;एक}/सङ्कुल{नपुं}{1;एक}/सङ्कुल{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('आनील')>आनील</a>-<a (click)=showDic('नाग')>नाग</a>-<a (click)=showDic('कुल')>कुल</a>-<a (click)=showDic('सङ्कुल')>सङ्कुल</a>{नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!अत्यन्त काले हाथियों के झुण्डों से व्याप्त
+row7#!n1#!outspread with the multitude of dark black elephants
+row8#!n1#!<a href="html/SV-V/SV-68/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-68/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<आनील-<नाग-कुल>T6>K1-सङ्कुलम्>T3</a>#!html/SV-V/SV-68/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!सन्ध्यांशु-भिन्न-घन-कर्बुरित-अन्तरीक्ष-लक्ष्मी-विडम्बि
+row2#!n1#!सन्ध्यांशु-भिन्न-घन-कर्बुरित-अन्तरीक्ष-लक्ष्मी-विडम्बि 
+row3#!n1#!सन्ध्यांशु-भिन्न-घन-कर्बुरित-अन्तरीक्ष-लक्ष्मी-विडम्बिन्{नपुं}{1;एक}/विडम्बिन्{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('सन्ध्यांशु')>सन्ध्यांशु</a>-<a (click)=showDic('भिन्न')>भिन्न</a>-<a (click)=showDic('घन')>घन</a>-<a (click)=showDic('कर्बुरित')>कर्बुरित</a>-<a (click)=showDic('अन्तरीक्ष')>अन्तरीक्ष</a>-<a (click)=showDic('लक्ष्मी')>लक्ष्मी</a>-<a (click)=showDic('विडम्बिन्')>विडम्बिन्</a>{नपुं}{1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!सायंकालीन किरणों से मिश्रित (कृष्ण वर्ण वाले) बादलों से चितकबरे आकाश की शोभा का अनुकरण करने वाला आकाश के समान सुशोभित
+row7#!n1#!splendrous like the sky with dappled clouds
+row8#!n1#!<a href="html/SV-V/SV-68/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-68/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<<सन्ध्या-अंशु>T7-भिन्न>T3-घन>K1-कुर्बरित>T3-अन्तरीक्षलक्ष्मी>K3-विडम्बि>U</a>#!html/SV-V/SV-68/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!शिव-कीर्तनस्य
+row2#!n6#!शिव-कीर्तनस्य 
+row3#!n6#!शिव-कीर्तन{नपुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('शिव')>शिव</a>-<a (click)=showDic('कीर्तन')>कीर्तन</a>{नपुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,5</a>
+row6#!n6#!मङ्गल कारक नामोच्चारण वाले भगवान् श्रीकृष्ण का
+row7#!n6#!of Śrī Kṛṣṇa whose name itself causes welfare
+row8#!n6#!<a href="html/SV-V/SV-68/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-68/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><शिव-कीर्तनम्>Bs6</a>#!html/SV-V/SV-68/samaasa4.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!तत्
+row2#!n1#!तत् 
+row3#!n1#!तद्{नपुं}{1;एक}/तद्{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('तद्')>तद्</a>{नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!वह 
+row7#!n1#!that
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!शिबिरम्
+row2#!n1#!शिबिरम् 
+row3#!n1#!शिबिर{नपुं}{1;एक}/शिबिर{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('शिबिर')>शिबिर</a>{नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,7</a>
+row6#!n1#!शिबिर
+row7#!n1#!canopy
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!आबभासे.
+row2#!v#!आबभासे
+row3#!v#!भास्1{कर्तरि;लिट्;उ;एक;आत्मनेपदी;भासृँ;भ्वादिः}/भास्1{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;भासृँ;भ्वादिः}/भास्1{भावे;लिट्;उ;एक;आत्मनेपदी;भासृँ;भ्वादिः}/भास्1{भावे;लिट्;प्र;एक;आत्मनेपदी;भासृँ;भ्वादिः}.
+row4#!v#!<a (click)=showDic('आ_भास्1')>आ_भास्1</a>{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;भासृँ;भ्वादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!सुशोभित_हो_गया.
+row7#!v#!became graceful.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!वसन्ततिलका ।
+row11#!v#!उपमा ।
+row12#!v#!
+
+

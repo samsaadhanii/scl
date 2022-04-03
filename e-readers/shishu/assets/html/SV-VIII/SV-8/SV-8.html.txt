@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-VIII/SV-8/8.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-8/8.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">8.A</a>#!html/SV-VIII/SV-8/8.jpg#!row1#!n3#!श्रीमद्भिः
+row2#!number#!8.B</a>#!row2#!n3#!श्रीमद्भिः
+row3#!number#!8.C</a>#!row3#!n3#!श्रीमत्{पुं;3;बहु}/श्रीमत्{नपुं;3;बहु}
+row4#!number#!8.D</a>#!row4#!n3#!<a (click)=showDic('श्रीमत्')>श्रीमत्</a>{पुं;3;बहु}
+row5#!number#!8.E</a>#!row5#!n3#!विशेषणम्,4
+row6#!number#!8.F</a>#!row6#!n3#!शोभायुक्त_से
+row7#!number#!8.G</a>#!row7#!n3#!with beautiful
+row8#!number#!8.H#!row8#!n3#!
+row9#!number#!8.I</a>#!row9#!n3#!
+row10#!number#!8.J</a>#!row10#!n3#!
+row11#!number#!8.K</a>#!row11#!n3#!
+row12#!number#!8.L</a>#!row12#!n3#!
+
+row1#!n3#!निबिडबृहन्नितम्ब-बिम्बैः
+row2#!n3#!निबिडबृहन्नितम्ब-बिम्बैः
+row3#!n3#!निबिडबृहन्नितम्ब-बिम्ब{पुं;3;बहु}/बिम्ब{नपुं;3;बहु}
+row4#!n3#!<a (click)=showDic('निबिडबृहन्नितम्ब')>निबिडबृहन्नितम्ब</a>-<a (click)=showDic('बिम्ब')>बिम्ब</a>{पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n3#!पुष्ट तथा स्थूल नितम्ब मण्डलोंवाली
+row7#!n3#!with large and huge buttocks
+row8#!n3#!<a href="html/SV-VIII/SV-8/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-8/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<निबिड-बृहत्>K3-<नितम्ब-बिम्बः>T6>Bs6</a>#!html/SV-VIII/SV-8/samaasa1.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n6#!माधवीनाम्
+row2#!n6#!माधवीनाम्
+row3#!n6#!माधवी{स्त्री;6;बहु}
+row4#!n6#!<a (click)=showDic('माधवी')>माधवी</a>{स्त्री;6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,4</a>
+row6#!n6#!श्रीकृष्ण की अङ्गनाओं के
+row7#!n6#!women of Śrī Kṛṣṇa
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n3#!आरोहैः
+row2#!n3#!आरोहैः
+row3#!n3#!आरोह{पुं;3;बहु}
+row4#!n3#!<a (click)=showDic('आरोह')>आरोह</a>{पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,12</a>
+row6#!n3#!जघनों_से
+row7#!n3#!with hips
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!जित-पुलिनानि
+row2#!n1#!जित-पुलिनानि
+row3#!n1#!जित-पुलिन{नपुं;1;बहु}/पुलिन{नपुं;2;बहु}/पुलिन{नपुं;8;बहु}
+row4#!n1#!<a (click)=showDic('जित')>जित</a>-<a (click)=showDic('पुलिन')>पुलिन</a>{नपुं;1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!पराजित तट प्रदेशोंवालीं
+row7#!n1#!river banks that were won over
+row8#!n1#!<a href="html/SV-VIII/SV-8/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-8/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><जित-पुलिनम्>K3</a>#!html/SV-VIII/SV-8/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!सिन्धोः
+row2#!n6#!सिन्धोः
+row3#!n6#!सिन्धु{पुं;5;एक}/सिन्धु{पुं;6;एक}
+row4#!n6#!<a (click)=showDic('सिन्धु')>सिन्धु</a>{पुं;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,7</a>
+row6#!n6#!सागर_की
+row7#!n6#!of ocean
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!अवरोधनानि
+row2#!n1#!अवरोधनानि
+row3#!n1#!अवरोधन{नपुं;1;बहु}/अवरोधन{नपुं;2;बहु}/अवरोधन{नपुं;8;बहु}
+row4#!n1#!<a (click)=showDic('अव_रुध्1')>अव_रुध्1</a>{ल्युट्;रुधिँर्;रुधादिः;नपुं;1;बहु}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,11</a>
+row6#!n1#!नदियाँ
+row7#!n1#!rivers
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n5#!वैलक्ष्यात्
+row2#!n5#!वैलक्ष्यात्
+row3#!n5#!वैलक्ष्य{नपुं;5;एक}
+row4#!n5#!<a (click)=showDic('वैलक्ष्य')>वैलक्ष्य</a>{नपुं;5;एक}
+row5#!n5#!<a href="javascript:show('हेतुः,')">हेतुः,11</a>
+row6#!n5#!पराजयजन्य लज्जा-भाव के कारण
+row7#!n5#!felt defeated and out of shy
+row8#!n5#!-
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!
+
+row1#!n2#!पाषाणस्खलन-विलोलम्
+row2#!n2#!पाषाणस्खलन-विलोलम्
+row3#!n2#!पाषाणस्खलन-विलोल{पुं;2;एक}/विलोल{नपुं;1;एक}/विलोल{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('पाषाणस्खलन')>पाषाणस्खलन</a>-<a (click)=showDic('विलोल')>विलोल</a>{नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,11</a>
+row6#!n2#!पाषाणों पर स्खलित होती हुई
+row7#!n2#!as if impeded by rocks
+row8#!n2#!<a href="html/SV-VIII/SV-8/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VIII/SV-8/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<पाषाण-स्खलन>T7-विलोलम्>Bs3</a>#!html/SV-VIII/SV-8/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!आशु
+row2#!NA#!आशु
+row3#!NA#!आशु{नपुं;1;एक}/आशु{नपुं;2;एक}/आशु{नपुं;8;एक}
+row4#!NA#!<a (click)=showDic('आशु')>आशु</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,11</a>
+row6#!NA#!शीघ्र
+row7#!NA#!fast
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!ययुः
+row2#!v#!ययुः
+row3#!v#!या1{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;या;अदादिः}
+row4#!v#!<a (click)=showDic('या1')>या1</a>{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;या;अदादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!गयीं
+row7#!v#!moved
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!NA#!नूनम्
+row2#!NA#!नूनम्
+row3#!NA#!नूनम्{अव्य}
+row4#!NA#!<a (click)=showDic('नूनम्')>नूनम्</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,11</a>
+row6#!NA#!निश्चित ही
+row7#!NA#!indeed.
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!प्रहर्षिणी ।
+row11#!NA#!उत्प्रेक्षा ।
+row12#!NA#!
+
+

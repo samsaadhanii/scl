@@ -1,0 +1,196 @@
+row1#!number#!<a href="html/SV-V/SV-65/65.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-65/65.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">65.A</a>#!html/SV-V/SV-65/65.jpg#!row1#!n2#!आयतिमतीम्
+row2#!number#!65.B</a>#!row2#!n2#!आयतिमतीम् 
+row3#!number#!65.C</a>#!row3#!n2#!आयतिमती{स्त्री}{2;एक} 
+row4#!number#!65.D</a>#!row4#!n2#!<a (click)=showDic('आयतिमती')>आयतिमती</a>{स्त्री}{2;एक} 
+row5#!number#!65.E</a>#!row5#!n2#!विशेषणम्,3
+row6#!number#!65.F</a>#!row6#!n2#!दीर्घ
+row7#!number#!65.G</a>#!row7#!n2#!long
+row8#!number#!65.H#!row8#!n2#!
+row9#!number#!65.I</a>#!row9#!n2#!
+row10#!number#!65.J</a>#!row10#!n2#!
+row11#!number#!65.K</a>#!row11#!n2#!
+row12#!number#!65.L</a>#!row12#!n2#!
+
+row1#!NA#!अवृथा
+row2#!NA#!अवृथा 
+row3#!NA#!अ-{अव्य}-वृथा{अव्य} 
+row4#!NA#!<a (click)=showDic('अवृथा')>अवृथा</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('क्रियाविशेषणम्,')">क्रियाविशेषणम्,4</a>
+row6#!NA#!सार्थक
+row7#!NA#!useful
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!शिरोधिं
+row2#!n2#!शिरोधिं 
+row3#!n2#!शिरोधि{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('शिरोधि')>शिरोधि</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,4</a>
+row6#!n2#!गर्दन_को
+row7#!n2#!throat
+row8#!n2#!<a href="html/SV-V/SV-65/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-65/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><शिरो-धिः>U</a>#!html/SV-V/SV-65/samaasa1.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!‘कर्मण्यधिकरणे च’ (3।3।93) इति किप्रत्ययः ।
+
+row1#!n2#!बिभ्राणम्
+row2#!n2#!बिभ्राणम् 
+row3#!n2#!बिभ्राण{पुं}{2;एक}/बिभ्राण{नपुं}{1;एक}/बिभ्राण{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('भृ2')>भृ2</a>{कृत्_प्रत्ययः:शानच्;डुँभृञ्;जुहोत्यादिः;पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('समानकालः,')">समानकालः,15</a>
+row6#!n2#!धारण_करते_हुए 
+row7#!n2#!bearing
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!उदग्र-मुखम्
+row2#!n2#!उदग्र-मुखम् 
+row3#!n2#!उदग्र-मुख{पुं}{2;एक}/मुख{नपुं}{1;एक}/मुख{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('उदग्र')>उदग्र</a>-<a (click)=showDic('मुख')>मुख</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n2#!ऊपर को मुख उठाये हुए
+row7#!n2#!having put (its) neck upwards
+row8#!n2#!<a href="html/SV-V/SV-65/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-65/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><उदग्र-मुखः>Bs6</a>#!html/SV-V/SV-65/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!औष्ट्रकम्
+row2#!n2#!औष्ट्रकम् 
+row3#!n2#!औष्ट्रक{नपुं}{1;एक}/औष्ट्रक{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('औष्ट्रक')>औष्ट्रक</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्ता,')">कर्ता,15</a>
+row6#!n2#!ऊँटों_का_समूह
+row7#!n2#!the multitude of camel
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!‘गोत्रोक्ष-’ (4।2।49) इत्यादिना वृण् ।
+
+row1#!n2#!अति-रसाम्
+row2#!n2#!अति-रसाम् 
+row3#!n2#!अति-रसा{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('अति')>अति</a>-<a (click)=showDic('रसा')>रसा</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n2#!अत्यन्त रस से युक्त
+row7#!n2#!very much juicy
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!प्रत्यग्रताम्
+row2#!n2#!प्रत्यग्रताम् 
+row3#!n2#!प्रत्यग्रता{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('प्रत्यग्रता')>प्रत्यग्रता</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n2#!नवीनता से युक्त
+row7#!n2#!new
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!अधिकं
+row2#!n2#!अधिकं 
+row3#!n2#!अधिक{पुं}{2;एक}/अधिक{नपुं}{1;एक}/अधिक{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('अधिक')>अधिक</a>{नपुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('क्रियाविशेषणम्,')">क्रियाविशेषणम्,10</a>
+row6#!n2#!अत्यन्त
+row7#!n2#!very much
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!दधन्ति
+row2#!n2#!दधन्ति 
+row3#!n2#!धन्1{कर्तरि;लट्;प्र;एक;परस्मैपदी;धनँ;जुहोत्यादिः}/दधत्{नपुं}{1;बहु}/दधत्{नपुं}{2;बहु} 
+row4#!n2#!<a (click)=showDic('धा1')>धा1</a>{कृत्_प्रत्ययः:शतृ;डुधाञ्;जुहोत्यादिः;नपुं}{2;बहु} 
+row5#!n2#!<a href="javascript:show('समानकालः,')">समानकालः,15</a>
+row6#!n2#!धारण_करते_हुए 
+row7#!n2#!bearing
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!‘वा नपुंसकस्य-’ (7।1।79) इति वैकल्पिको नुमागमः ।
+
+row1#!n2#!अभ्रं-लिहानि
+row2#!n2#!अभ्रं-लिहानि 
+row3#!n2#!अभ्रं-लिह{नपुं}{1;बहु}/लिह{नपुं}{2;बहु} 
+row4#!n2#!<a (click)=showDic('अभ्रं')>अभ्रं</a>-<a (click)=showDic('लिह')>लिह</a>{नपुं}{2;बहु} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,13</a>
+row6#!n2#!आकाश को चूमने वाले
+row7#!n2#!kissing the sky
+row8#!n2#!<a href="html/SV-V/SV-65/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-65/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अभ्र-लिहम्>U </a>#!html/SV-V/SV-65/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!‘वहाभ्रे लिहः' (3|2|32) इति खश्प्रत्ययः ।‘अरुर्द्विषत्-’ (6।3।67) इत्यादिना मुमागमः ।
+
+row1#!n6#!तरूणां
+row2#!n6#!तरूणां 
+row3#!n6#!तरु{पुं}{6;बहु} 
+row4#!n6#!<a (click)=showDic('तरु')>तरु</a>{पुं}{6;बहु} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,13</a>
+row6#!n6#!वृक्षों_के
+row7#!n6#!of trees
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!नव-पल्लवानि
+row2#!n2#!नव-पल्लवानि 
+row3#!n2#!नव-पल्लव{नपुं}{1;बहु}/पल्लव{नपुं}{2;बहु} 
+row4#!n2#!<a (click)=showDic('नव')>नव</a>-<a (click)=showDic('पल्लव')>पल्लव</a>{नपुं}{2;बहु} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,15</a>
+row6#!n2#!नवीन पत्तों_को
+row7#!n2#!tender leaves
+row8#!n2#!<a href="html/SV-V/SV-65/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-65/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><नव-पल्लवम्>K1</a>#!html/SV-V/SV-65/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!लोलोष्ठं
+row2#!n2#!लोलोष्ठं 
+row3#!n2#!लोलोष्ठ{पुं}{2;एक}/लोलोष्ठ{नपुं}{1;एक}/लोलोष्ठ{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('लोलोष्ठ')>लोलोष्ठ</a>{नपुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('क्रियाविशेषणम्,')">क्रियाविशेषणम्,15</a>
+row6#!n2#!चपलोष्ट_से
+row7#!n2#!with fickled lips
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!‘ओत्वोष्ठयोः समासे वा’ (वा) इति पररूपं वक्तव्यम् ।
+
+row1#!v#!लिलिहे.
+row2#!v#!लिलिहे 
+row3#!v#!लिह्1{कर्तरि;लिट्;उ;एक;आत्मनेपदी;लिहँ;अदादिः}/लिह्1{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;लिहँ;अदादिः}/लिह्1{कर्मणि;लिट्;उ;एक;आत्मनेपदी;लिहँ;अदादिः}/लिह्1{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;लिहँ;अदादिः}. 
+row4#!v#!<a (click)=showDic('लिह्1')>लिह्1</a>{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;लिहँ;अदादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!चाटने_लगा.
+row7#!v#!licked.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!वसन्ततिलका ।
+row11#!v#!-
+row12#!v#!
+
+

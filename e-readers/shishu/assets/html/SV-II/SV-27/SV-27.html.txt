@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-II/SV-27/27.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-27/27.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">27.A</a>#!html/SV-II/SV-27/27.jpg#!row1#!n6#!अनिर्लोडित-कार्यस्य
+row2#!number#!27.B</a>#!row2#!n6#!अनिर्लोडितकार्यस्य 
+row3#!number#!27.C</a>#!row3#!n6#!अनिर्लोडित-कार्य{नपुं}{6;एक}/अनिर्लोडित-कार्य{पुं}{6;एक}
+row4#!number#!27.D</a>#!row4#!n6#!<a (click)=showDic('अनिर्लोडित')>अनिर्लोडित</a>-<a (click)=showDic('कार्य')>कार्य</a>{पुं}{6;एक} 
+row5#!number#!27.E</a>#!row5#!n6#!षष्ठीसम्बन्धः,2
+row6#!number#!27.F</a>#!row6#!n6#!कार्य_का_आलोडन_नहीं_करने_वाले
+row7#!number#!27.G</a>#!row7#!n6#!One who has not deliberated over the propriety
+row8#!number#!27.H#!row8#!n6#!<a href="html/SV-II/SV-27/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-27/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<न-निर्लोडित>Tn-कार्यः>Bs3</a>#!html/SV-II/SV-27/samaasa1.jpg
+row9#!number#!27.I</a>#!row9#!n6#!
+row10#!number#!27.J</a>#!row10#!n6#!
+row11#!number#!27.K</a>#!row11#!n6#!
+row12#!number#!27.L</a>#!row12#!n6#!
+
+row1#!n6#!वाग्मिनः
+row2#!n6#!वाग्मिनः 
+row3#!n6#!वाग्मिन्{पुं}{1;बहु}/वाग्मिन्{पुं}{2;बहु}/वाग्मिन्{पुं}{5;एक}/वाग्मिन्{पुं}{6;एक}/वाग्मिन्{नपुं}{5;एक}/वाग्मिन्{नपुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('वाग्मिन्')>वाग्मिन्</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,3</a>
+row6#!n6#!वाग्मी_का
+row7#!n6#!of a speaker
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!वाग्जालं
+row2#!n1#!वाग्जालं 
+row3#!n1#!वाग्जाल{नपुं}{1;एक}/वाग्जाल{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('वाग्जाल')>वाग्जाल</a>{नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,7</a>
+row6#!n1#!वचन समूह
+row7#!n1#!verbose talk
+row8#!n1#!<a href="html/SV-II/SV-27/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-27/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><वाग्-जालम्>T6</a>#!html/SV-II/SV-27/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n5#!निमित्ताद्
+row2#!n5#!निमित्ताद् 
+row3#!n5#!निमित्त{नपुं}{5;एक} 
+row4#!n5#!<a (click)=showDic('निमित्त')>निमित्त</a>{नपुं}{5;एक} 
+row5#!n5#!<a href="javascript:show('हेतुः,')">हेतुः,7</a>
+row6#!n5#!लक्ष्य_से
+row7#!n5#!from the target
+row8#!n5#!-
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!
+
+row1#!n6#!अपराद्धेषोः
+row2#!n6#!अपराद्धेषोः 
+row3#!n6#!अपराद्धेषु{पुं}{5;एक}/अपराद्धेषु{पुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('अपराद्धेषु')>अपराद्धेषु</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n6#!भ्रष्ट बाण_वाले
+row7#!n6#!missed the arrow
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!धानुष्कस्य
+row2#!n6#!धानुष्कस्य 
+row3#!n6#!धानुष्क{पुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('धानुष्क')>धानुष्क</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,7</a>
+row6#!n6#!धनुर्धारी_के
+row7#!n6#!of an archer
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!‘प्रहरणम्’ (4।4।57) इति ठक्। ‘इसुसुक्तान्तात्कः’ (7।3।51) ।
+
+row1#!n1#!वल्गितम्
+row2#!n1#!वल्गितम् 
+row3#!n1#!वल्गित{नपुं}{1;एक}/वल्गित{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('वल्ग्1')>वल्ग्1</a>{कृत्_प्रत्ययः:क्त;वल्गुँ;भ्वादिः;नपुं}{1;एक}
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,8</a>
+row6#!n1#!उछलने_कूदने
+row7#!n1#!bragging
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इव
+row2#!NA#!इव 
+row3#!NA#!इव{अव्य} 
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,3</a>
+row6#!NA#!के_समान
+row7#!NA#!like
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!वृथा.
+row2#!NA#!वृथा 
+row3#!NA#!वृथा{अव्य}. 
+row4#!NA#!<a (click)=showDic('वृथा')>वृथा</a>{अव्य}. 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,7</a>
+row6#!NA#!व्यर्थ (होता है).
+row7#!NA#!in vain.
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!अनुष्टुप् ।
+row11#!NA#!-
+row12#!NA#!
+
+

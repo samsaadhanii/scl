@@ -1,0 +1,222 @@
+row1#!number#!<a href="html/SV-I/SV-69/69.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-69/69.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">69.A</a>#!html/SV-I/SV-69/69.jpg#!row1#!NA#!अथ
+row2#!number#!69.B</a>#!row2#!NA#!अथ 
+row3#!number#!69.C</a>#!row3#!NA#!अथ{अव्य}/अथ{अव्य} 
+row4#!number#!69.D</a>#!row4#!NA#!<a (click)=showDic('अथ')>अथ</a>{अव्य} 
+row5#!number#!69.E</a>#!row5#!NA#!सम्बन्धः,17
+row6#!number#!69.F</a>#!row6#!NA#!इसके_बाद
+row7#!number#!69.G</a>#!row7#!NA#!After that
+row8#!number#!69.H#!row8#!NA#!
+row9#!number#!69.I</a>#!row9#!NA#!
+row10#!number#!69.J</a>#!row10#!NA#!
+row11#!number#!69.K</a>#!row11#!NA#!
+row12#!number#!69.L</a>#!row12#!NA#!
+
+row1#!NA#!सम्प्रति
+row2#!NA#!सम्प्रति 
+row3#!NA#!सम्प्रति{अव्य} 
+row4#!NA#!<a (click)=showDic('सम्प्रति')>सम्प्रति</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,17</a>
+row6#!NA#!अभी 
+row7#!NA#!now
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!छलनापरः
+row2#!n1#!छलनापरः 
+row3#!n1#!छलनापर{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('छलनापर')>छलनापर</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!वंचित_करने_में_तत्पर
+row7#!n1#!deceitful
+row8#!n1#!<a href="html/SV-I/SV-69/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-69/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><छलना-परः>Bs6</a>#!html/SV-I/SV-69/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!एषः
+row2#!n1#!एषः 
+row3#!n1#!एतद्{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('एतद्')>एतद्</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!यह 
+row7#!n1#!this
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!शैलूषः
+row2#!n1#!शैलूषः 
+row3#!n1#!शैलूष{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('शैलूष')>शैलूष</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n1#!अभिनेता 
+row7#!n1#!actor
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!भूमिकाम्
+row2#!n2#!भूमिकाम् 
+row3#!n2#!भूमिका{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('भूमिका')>भूमिका</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,7</a>
+row6#!n2#!भूमिका_को 
+row7#!n2#!(assuming) a different role
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!इव
+row2#!NA#!इव 
+row3#!NA#!इव{अव्य} 
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,9</a>
+row6#!NA#!जैसे 
+row7#!NA#!like
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!अपराम्
+row2#!n2#!अपराम् 
+row3#!n2#!अपरा{स्त्री}{2;एक}/अपरा{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('अपरा')>अपरा</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n2#!दूसरे
+row7#!n2#!another
+row8#!n2#!<a href="html/SV-I/SV-69/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-69/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-परा>Tn</a>#!html/SV-I/SV-69/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!उपपत्तिम्
+row2#!n2#!उपपत्तिम् 
+row3#!n2#!उपपत्ति{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('उपपत्ति')>उपपत्ति</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n2#!जन्म_को
+row7#!n2#!birth
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!अवाप्य
+row2#!NA#!अवाप्य 
+row3#!NA#!अव_आप्1{कृत्_प्रत्ययः:ल्यप्;आपॢँ;स्वादिः}/अव_आप्2{कृत्_प्रत्ययः:ल्यप्;आपॢँ;चुरादिः} 
+row4#!NA#!<a (click)=showDic('अव_आप्1')>अव_आप्1</a>{कृत्_प्रत्ययः:ल्यप्;आपॢँ;स्वादिः} 
+row5#!NA#!<a href="javascript:show('पूर्वकालः,')">पूर्वकालः,17</a>
+row6#!NA#!पा_कर 
+row7#!NA#!having taken
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!शिशुपाल-सञ्ज्ञया
+row2#!n3#!शिशुपालसंज्ञया 
+row3#!n3#!शिशुपाल-सञ्ज्ञा{स्त्री}{3;एक} 
+row4#!n3#!<a (click)=showDic('शिशुपाल')>शिशुपाल</a>-<a (click)=showDic('सञ्ज्ञा')>सञ्ज्ञा</a>{स्त्री}{3;एक} 
+row5#!n3#!<a href="javascript:show('हेतुः,')">हेतुः,17</a>
+row6#!n3#!शिशुपाल-नाम_से
+row7#!n3#!under the name Śiśupāla
+row8#!n3#!<a href="html/SV-I/SV-69/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-69/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><शिशुपाल-संज्ञा>K7</a>#!html/SV-I/SV-69/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!तिरोहित-आत्मा
+row2#!n1#!तिरोहितात्मा 
+row3#!n1#!तिरोहित-आत्मन्{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('तिरोहित')>तिरोहित</a>-<a (click)=showDic('आत्मन्')>आत्मन्</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,13</a>
+row6#!n1#!छिपे_हुए_स्वरूप_वाले
+row7#!n1#!as a different person
+row8#!n1#!<a href="html/SV-I/SV-69/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-69/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><तिरोहित-आत्मा>Bs6</a>#!html/SV-I/SV-69/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!सः
+row2#!n1#!सः 
+row3#!n1#!तद्{पुं}{1;एक}
+row4#!n1#!<a (click)=showDic('तद्')>तद्</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,17</a>
+row6#!n1#!वह 
+row7#!n1#!that
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!अपि
+row2#!NA#!अपि 
+row3#!NA#!अपि{अव्य} 
+row4#!NA#!<a (click)=showDic('अपि')>अपि</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,13</a>
+row6#!NA#!ही (होता हुआ) भी
+row7#!NA#!also
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!परैः
+row2#!n3#!परैः 
+row3#!n3#!पर{पुं}{3;बहु}/पर{नपुं}{3;बहु}/पर{पुं}{3;बहु}/पर{नपुं}{3;बहु}/परा_इ1{कर्तरि;लङ्;म;एक;परस्मैपदी;इण्;अदादिः} 
+row4#!n3#!<a (click)=showDic('पर')>पर</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,17</a>
+row6#!n3#!दूसरों_से
+row7#!n3#!by others
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!असः
+row2#!n1#!असः 
+row3#!n1#!सस्1{कर्तरि;लङ्;म;एक;परस्मैपदी;षसँ;अदादिः}/अ_तद्{पुं}{1;एक}
+row4#!n1#!<a (click)=showDic('अ_तद्')>अ_तद्</a>{पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('कर्मसमानाधिकरणम्,')">कर्मसमानाधिकरणम्,17</a>
+row6#!n1#!वह 
+row7#!n1#!that
+row8#!n1#!<a href="html/SV-I/SV-69/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-69/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-सः>Tn</a>#!html/SV-I/SV-69/samaasa5.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘नञ्’ (2।2।6) इति नञ् समासः । अत एव ‘एतत्तदोः सुलोप-’ (6।1।132) इत्यादिना न सुलोपः ।
+
+row1#!v#!प्रतीयते.
+row2#!v#!प्रतीयते 
+row3#!v#!प्रति_ई1{कर्मणि;लट्;प्र;एक;आत्मनेपदी;ईङ्;दिवादिः}. 
+row4#!v#!<a (click)=showDic('प्रति_ई1')>प्रति_ई1</a>{कर्मणि;लट्;प्र;एक;आत्मनेपदी;ईङ्;दिवादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!ज्ञात_होता_है.
+row7#!v#!is understood.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!वंशस्थम् ।
+row11#!v#!-
+row12#!v#!
+
+

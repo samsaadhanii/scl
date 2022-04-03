@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-VI/SV-55/55.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-55/55.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">55.A</a>#!html/SV-VI/SV-55/55.jpg#!row1#!n2#!गजपति-द्वयसीः
+row2#!number#!55.B</a>#!row2#!n2#!गजपति-द्वयसीः
+row3#!number#!55.C</a>#!row3#!n2#!गजपति-द्वयसी{स्त्री;2;बहु}
+row4#!number#!55.D</a>#!row4#!n2#!<a (click)=showDic('गजपति')>गजपति</a>-<a (click)=showDic('द्वयसी')>द्वयसी</a>{स्त्री;2;बहु}
+row5#!number#!55.E</a>#!row5#!n2#!विशेषणम्,3
+row6#!number#!55.F</a>#!row6#!n2#!हाथी के प्रमाण वाली
+row7#!number#!55.G</a>#!row7#!n2#!as huge as the size of elephant
+row8#!number#!55.H#!row8#!n2#!<a href="html/SV-VI/SV-55/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-55/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<गज-पति>T6-द्वयसी>Bs6</a>#!html/SV-VI/SV-55/samaasa1.jpg
+row9#!number#!55.I</a>#!row9#!n2#!
+row10#!number#!55.J</a>#!row10#!n2#!
+row11#!number#!55.K</a>#!row11#!n2#!
+row12#!number#!55.L</a>#!row12#!n2#!'प्रमाणे द्वयसज्दध्नञ्मात्रचः' (5।2।37) इति प्रमाणार्थे द्वयसच् प्रत्ययः । 'टिड्डाणञ्-' (4।1।15) इत्यादिना ङीप् ।
+
+row1#!NA#!अपि
+row2#!NA#!अपि
+row3#!NA#!अपि{अव्य}
+row4#!NA#!<a (click)=showDic('अपि')>अपि</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,1</a>
+row6#!NA#!भी
+row7#!NA#!though
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!सरितः
+row2#!n2#!सरितः
+row3#!n2#!सरित्{स्त्री;1;बहु}/सरित्{स्त्री;2;बहु}/सरित्{स्त्री;5;एक}/सरित्{स्त्री;6;एक}/सरित्{स्त्री;8;बहु}
+row4#!n2#!<a (click)=showDic('सरित्')>सरित्</a>{स्त्री;2;बहु}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,4</a>
+row6#!n2#!नदियों_को
+row7#!n2#!of rivers
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NS#!तुहिनयन्
+row2#!NS#!तुहिनयन्
+row3#!NS#!तुहिनयन्}
+row4#!NS#!<a (click)=showDic('तुहि_नी1')>तुहि_नी1</a>{कृत्_प्रत्ययः:शतृ;णीञ्;भ्वादिः;पुं}{1:एक}
+row5#!NS#!<a href="javascript:show('समानकालः,')">समानकालः,12</a>
+row6#!NS#!हिममय (बर्फीली) करती हुई
+row7#!NS#!made icy
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!'तत्करोति- (ग०) इति ष्यन्ताल्लटः शत्रादेशः ।
+
+row1#!n1#!हैमनः
+row2#!n1#!हैमनः
+row3#!n1#!हैमन{पुं;1;एक}
+row4#!n1#!<a (click)=showDic('हैमन')>हैमन</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!हेमन्त_की
+row7#!n1#!of winter
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!'सर्वत्राण् च तलोपश्च' (4।3।22) इति हेमन्तशब्दाच्छैषिकोऽण् प्रत्ययः तकारलोपश्च ।
+
+row1#!n6#!पृषतां
+row2#!n6#!पृषतां
+row3#!n6#!पृषत्{नपुं;6;बहु}
+row4#!n6#!<a (click)=showDic('पृषत्')>पृषत्</a>{पुं;6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,7</a>
+row6#!n6#!बिन्दुओं_के
+row7#!n6#!of droplets
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!पतिः
+row2#!n1#!पतिः
+row3#!n1#!पति{पुं;1;एक}
+row4#!n1#!<a (click)=showDic('पति')>पति</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,12</a>
+row6#!n1#!पति (वायु_ने)
+row7#!n1#!lord (wind)
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!अध्वग-योषितां
+row2#!n6#!अध्वग-योषितां
+row3#!n6#!अध्वग-योषित्{स्त्री;6;बहु}
+row4#!n6#!<a (click)=showDic('अध्वग')>अध्वग</a>-<a (click)=showDic('योषित्')>योषित्</a>{स्त्री;6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,9</a>
+row6#!n6#!पथिकों की स्त्रियों (प्रोषित पतिकाओं) के
+row7#!n6#!of the women of travelers
+row8#!n6#!<a href="html/SV-VI/SV-55/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-55/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<अध्व-ग>U-योषित्>T6</a>#!html/SV-VI/SV-55/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!'अन्तात्यन्ताध्वदूरपारसर्वानन्तेषु ङः' (3।2।48) ।
+
+row1#!n6#!दृशाम्
+row2#!n6#!दृशाम्
+row3#!n6#!दृश्{स्त्री;6;बहु}/दृशा{स्त्री;2;एक}
+row4#!n6#!<a (click)=showDic('दृश्')>दृश्</a>{स्त्री;6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,10</a>
+row6#!n6#!नेत्रों_के
+row7#!n6#!eyes of
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!अतनुताप-कृतं
+row2#!n2#!अतनुताप-कृतं
+row3#!n2#!अतनुताप-कृत्{पुं;2;एक}/कृत{नपुं;1;एक}/कृत{नपुं;2;एक}/कृत{पुं;2;एक}
+row4#!n2#!<a (click)=showDic('अतनुताप')>अतनुताप</a>-<a (click)=showDic('कृत्')>कृत्</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,11</a>
+row6#!n2#!अतिशय सन्ताप को करने वाले
+row7#!n2#!excess anguish of
+row8#!n2#!<a href="html/SV-VI/SV-55/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-55/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<न-तनु>Tn-ताप>K3-कृत्>U</a>#!html/SV-VI/SV-55/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!सलिल-सन्ततिम्
+row2#!n2#!सलिल-सन्ततिम्
+row3#!n2#!सलिल-सन्तति{स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('सलिल')>सलिल</a>-<a (click)=showDic('सन्तति')>सन्तति</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,12</a>
+row6#!n2#!जल-प्रवाह_को
+row7#!n2#!flow of water
+row8#!n2#!<a href="html/SV-VI/SV-55/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-55/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सलिल-सन्ततिः>T6</a>#!html/SV-VI/SV-55/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!अतनुत
+row2#!v#!अतनुत
+row3#!v#!तन्1{कर्तरि;लङ्;म;बहु;परस्मैपदी;तनुँ;तनादिः}/तन्1{कर्तरि;लङ्;प्र;एक;आत्मनेपदी;तनुँ;तनादिः}
+row4#!v#!<a (click)=showDic('तन्1')>तन्1</a>{कर्तरि;लङ्;प्र;एक;आत्मनेपदी;तनुँ;तनादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!बढ़ा_दिया.
+row7#!v#!increased.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!यमकम् ।
+row12#!v#!
+
+

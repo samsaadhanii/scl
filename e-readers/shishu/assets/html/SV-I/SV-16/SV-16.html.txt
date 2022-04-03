@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-I/SV-16/16.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-16/16.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">16.A</a>#!html/SV-I/SV-16/16.jpg#!row1#!n6#!महा-महा-नीलशिला-रुचः
+row2#!number#!16.B</a>#!row2#!n6#!महा-महा-नीलशिला-रुचः 
+row3#!number#!16.C</a>#!row3#!n6#!महा-महत्-नीलशिला-रुच्{स्त्री}{1;बहु}/रुच्{स्त्री}{2;बहु}/रुच्{स्त्री}{5;एक}/रुच्{स्त्री}{6;एक} 
+row4#!number#!16.D</a>#!row4#!n6#!<a (click)=showDic('<a (click)=showDic('महा')>महा</a>')>महा</a>-महा-<a (click)=showDic('नीलशिला')>नीलशिला</a>-<a (click)=showDic('रुच्')>रुच्</a>{पुं}{6;एक} 
+row5#!number#!16.E</a>#!row5#!n6#!विशेषणम्,2
+row6#!number#!16.F</a>#!row6#!n6#!विशाल इन्द्रनील मणि की कान्ति के समान कान्ति वाले
+row7#!number#!16.G</a>#!row7#!n6#!who possessed the brilliance of sapphire
+row8#!number#!16.H#!row8#!n6#!<a href="html/SV-I/SV-16/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-16/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<महती-<महान्-नील>K3-<शिला>T6>K3-रुक्>Bs6</a>#!html/SV-I/SV-16/samaasa1.jpg
+row9#!number#!16.I</a>#!row9#!n6#!
+row10#!number#!16.J</a>#!row10#!n6#!
+row11#!number#!16.K</a>#!row11#!n6#!
+row12#!number#!16.L</a>#!row12#!n6#!
+
+row1#!n6#!कंस-कृषः
+row2#!n6#!कंस-कृषः 
+row3#!n6#!कंस-कृष{पुं}{1;एक}/कंस-कृष{पुं}{6;एक}
+row4#!n6#!<a (click)=showDic('कंस')>कंस</a>-<a (click)=showDic('कृष')>कृष</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('उपपदविभक्तिः,')">उपपदविभक्तिः,3</a>
+row6#!n6#!कंसहन्ता
+row7#!n6#!slayer of Kaṃsa
+row8#!n6#!<a href="html/SV-I/SV-16/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-16/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कंस-कृट्>T6</a>#!html/SV-I/SV-16/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!NA#!पुरः
+row2#!NA#!पुरः 
+row3#!NA#!पुरः{अव्य}/पुर्{स्त्री}{1;बहु}/पुर्{स्त्री}{2;बहु}/पुर्{स्त्री}{5;एक}/पुर्{स्त्री}{6;एक} 
+row4#!NA#!<a (click)=showDic('पुरः')>पुरः</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('उपपदसम्बन्धः,')">उपपदसम्बन्धः,6</a>
+row6#!NA#!के _सामने
+row7#!NA#!in front of
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!उच्चकैः
+row2#!NA#!उच्चकैः 
+row3#!NA#!उच्चकैः{अव्य}
+row4#!NA#!<a (click)=showDic('उच्चकैः')>उच्चकैः</a>{अव्य}
+row5#!NA#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!NA#!ऊँचे
+row7#!NA#!high
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n7#!विष्टरे
+row2#!n7#!विष्टरे 
+row3#!n7#!विष्टर{पुं}{7;एक} 
+row4#!n7#!<a (click)=showDic('विष्टर')>विष्टर</a>{पुं}{7;एक} 
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,6</a>
+row6#!n7#!आसन_में 
+row7#!n7#!seat
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!'‘वृक्षासनयोर्विष्टरः'' (8।3।93) इति षत्वम् ।'
+
+row1#!n1#!निषेदिवान्
+row2#!n1#!निषेदिवान्
+row3#!n1#!नि_षदलृ{क्तवतु}{पुं}{1;एक}
+row4#!n1#!<a (click)=showDic('नि_षदलृ')>नि_षदलृ</a>{क्तवतु}{पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!बैठे हुए
+row7#!n1#!being seated
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘भाषायां सदवसश्रुवः’ (3।2।108) इति क्वसुः ।
+
+row1#!n1#!सः
+row2#!n1#!सः 
+row3#!n1#!तद्{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('तद्')>तद्</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,12</a>
+row6#!n1#!वह 
+row7#!n1#!he
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!अभि-सायम्
+row2#!NA#!अभिसायं 
+row3#!NA#!अभि-{अव्य}-सायम्{अव्य}
+row4#!NA#!<a (click)=showDic('अभि')>अभि</a>-<a (click)=showDic('सायम्')>सायम्</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,12</a>
+row6#!NA#!सायंकाल में
+row7#!NA#!in the evening
+row8#!NA#!<a href="html/SV-I/SV-16/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-16/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अभि-सायम्>A1</a>#!html/SV-I/SV-16/samaasa3.jpg
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n6#!श्रित-उदयाद्रेः
+row2#!n6#!श्रितोदयाद्रेः 
+row3#!n6#!श्रित-उदयाद्रि{पुं}{5;एक}/उदयाद्रि{पुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('श्रित')>श्रित</a>-<a (click)=showDic('उदयाद्रि')>उदयाद्रि</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,10</a>
+row6#!n6#!उदयाचल आरूढ
+row7#!n6#!which had ascended the Udayāńchal mountain
+row8#!n6#!<a href="html/SV-I/SV-16/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-16/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><श्रित-<उदय-आद्रिः>K6>Bs3</a>#!html/SV-I/SV-16/samaasa4.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!चन्द्रमसः
+row2#!n6#!चन्द्रमसः 
+row3#!n6#!चन्द्रमस्{पुं}{1;बहु}/चन्द्रमस्{पुं}{2;बहु}/चन्द्रमस्{पुं}{5;एक}/चन्द्रमस्{पुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('चन्द्रमस्')>चन्द्रमस्</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,11</a>
+row6#!n6#!चन्द्रमा_की 
+row7#!n6#!of the moon
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!अभिरामताम्
+row2#!n2#!अभिरामताम् 
+row3#!n2#!अभिरामता{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('अभिरामता')>अभिरामता</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,12</a>
+row6#!n2#!शोभा_को
+row7#!n2#!splendor
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!अचूचुरत्.
+row2#!v#!अचूचुरत् 
+row3#!v#!चुर्1{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;चुरँ;चुरादिः}/चुर्1_णिच्{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;चुरँ;चुरादिः}/चूर्1_णिच्{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;चूरीँ;दिवादिः}. 
+row4#!v#!<a (click)=showDic('चुर्1_णिच्')>चुर्1_णिच्</a>{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;चुरँ;चुरादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!चुरा लिये.
+row7#!v#!had stolen.
+row8#!v#!-
+row9#!v#!सकर्मककर्तरि
+row10#!v#!वंशस्थम् ।
+row11#!v#!निदर्शना + उपमा ।
+row12#!v#!‘चुर-स्तेये’ ‘णिश्रि’ (3।1।38) इति चङ् ।
+
+

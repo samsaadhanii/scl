@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-II/SV-3/3.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-3/3.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">3.A</a>#!html/SV-II/SV-3/3.jpg#!row1#!n6#!जगतः
+row2#!number#!3.B</a>#!row2#!n6#!जगतः 
+row3#!number#!3.C</a>#!row3#!n6#!जगत्{पुं}{1;बहु}/जगत्{पुं}{2;बहु}/जगत्{पुं}{5;एक}/जगत्{पुं}{6;एक}/जगत्{पुं}{8;बहु}/जगत्{नपुं}{5;एक}/जगत्{नपुं}{6;एक} 
+row4#!number#!3.D</a>#!row4#!n6#!<a (click)=showDic('जगत्')>जगत्</a>{नपुं}{6;एक} 
+row5#!number#!3.E</a>#!row5#!n6#!षष्ठीसम्बन्धः,2
+row6#!number#!3.F</a>#!row6#!n6#!विश्व_की 
+row7#!number#!3.G</a>#!row7#!n6#!of the world
+row8#!number#!3.H#!row8#!n6#!
+row9#!number#!3.I</a>#!row9#!n6#!
+row10#!number#!3.J</a>#!row10#!n6#!
+row11#!number#!3.K</a>#!row11#!n6#!
+row12#!number#!3.L</a>#!row12#!n6#!
+
+row1#!n4#!शान्तये
+row2#!n4#!शान्तये 
+row3#!n4#!शान्ति{स्त्री}{4;एक} 
+row4#!n4#!<a (click)=showDic('शान्ति')>शान्ति</a>{स्त्री}{4;एक}
+row5#!n4#!<a href="javascript:show('प्रयोजन,')">प्रयोजन,8</a>
+row6#!n4#!शान्ति_के_लिये 
+row7#!n4#!for peace
+row8#!n4#!-
+row9#!n4#!
+row10#!n4#!
+row11#!n4#!
+row12#!n4#!
+
+row1#!n1#!सम्-उपेयुषी
+row2#!n1#!सम्-उपेयुषी
+row3#!n1#!सम्-उपेयुषी{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('सम्')>सम्</a>-<a (click)=showDic('उपेयुषी')>उपेयुषी</a>{स्त्री}{1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!एकत्रित
+row7#!n1#!assembled
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!जाज्वल्यमाना
+row2#!n1#!जाज्वल्यमाना
+row3#!n1#!ज्वल्यमाना{स्त्री}{1;एक}
+row4#!n1#!<a (click)=showDic('ज्वल्1')>ज्वल्1</a>{कृत्_प्रत्ययः:यक्;शानच्;ज्वलँ;भ्वादिः;स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!अतिशय दीप्यमान
+row7#!n1#!splendorous
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘धातोरेकाचो हलादेः क्रियासमभिहारे यङ्' (3।1।22) । ततो लटः शानजादेशे टाप् ।
+
+row1#!n1#!असौ
+row2#!n1#!असौ 
+row3#!n1#!अदस्{पुं}{1;एक}/अदस्{स्त्री}{1;एक}/असि{पुं}{7;एक}/असि{स्त्री}{7;एक}/असु{पुं}{7;एक} 
+row4#!n1#!<a (click)=showDic('अदस्')>अदस्</a>{स्त्री}{1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!यह
+row7#!n1#!this
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!नर-शिखि-त्रयी
+row2#!n1#!नरशिखित्रयी 
+row3#!n1#!नर-शिखिन्-त्रयी{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('नर')>नर</a>-<a (click)=showDic('शिखि')>शिखि</a>-<a (click)=showDic('त्रयी')>त्रयी</a>{स्त्री}{1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n1#!मानवरूपी अग्नित्रय
+row7#!n1#!trio of fires like persons
+row8#!n1#!<a href="html/SV-II/SV-3/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-3/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<नर-शिखिन्>K6-त्रयी>T6</a>#!html/SV-II/SV-3/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘द्वित्रिभ्याम्’ (5।2।43) इत्यादिना तस्यायजादेशे कृते ‘टिड्ढाणञ्’ (4।1।15) इत्यादिना ङीप् ।
+
+row1#!v#!सभावेद्याम्
+row2#!v#!सभावेद्यां 
+row3#!v#!सभावेदि{स्त्री}{7;एक}/अवेद्या{स्त्री}{2;एक}/अवेदी{स्त्री}{7;एक} 
+row4#!v#!<a (click)=showDic('सभावेदि')>सभावेदि</a>{स्त्री}{7;एक} 
+row5#!v#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,8</a>
+row6#!v#!सभामण्डपरूप वेदी पर
+row7#!v#!on the dias
+row8#!v#!<a href="html/SV-II/SV-3/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-3/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सभा-वेदिः>K6</a>#!html/SV-II/SV-3/samaasa2.jpg
+row9#!v#!
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!v#!व्यद्योतिष्ट.
+row2#!v#!व्यद्योतिष्ट 
+row3#!v#!वि_द्युत्1{कर्तरि;लुङ्;प्र;एक;आत्मनेपदी;द्युतँ;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('वि_द्युत्1')>वि_द्युत्1</a>{कर्तरि;लुङ्;प्र;एक;आत्मनेपदी;द्युतँ;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!शोभित हुआ.
+row7#!v#!shone.
+row8#!v#!-
+row9#!v#!सकर्मककर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!रूपकम् ।
+row12#!v#!
+
+

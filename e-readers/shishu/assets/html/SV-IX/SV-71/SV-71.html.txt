@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-IX/SV-71/71.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-71/71.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">71.A</a>#!html/SV-IX/SV-71/71.jpg#!row1#!n6#!सम्भ्रम-भृतः
+row2#!number#!71.B</a>#!row2#!n6#!सम्भ्रम-भृतः
+row3#!number#!71.C</a>#!row3#!n6#!सम्भ्रम-भृत{;पुं;1;एक}
+row4#!number#!71.D</a>#!row4#!n6#!<a (click)=showDic('सम्भ्रम')>सम्भ्रम</a>-<a (click)=showDic('भृ2')>भृ2</a>{क्त;डुँभृञ्;जुहोत्यादिः;;स्त्री;6;एक}
+row5#!number#!71.E</a>#!row5#!n6#!विशेषणम्,2
+row6#!number#!71.F</a>#!row6#!n6#!त्वरायुक्त
+row7#!number#!71.G</a>#!row7#!n6#!out of excitement
+row8#!number#!71.H#!row8#!n6#!<a href="html/SV-IX/SV-71/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-71/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सम्भ्रम-भृत्>U</a>#!html/SV-IX/SV-71/samaasa1.jpg
+row9#!number#!71.I</a>#!row9#!n6#!
+row10#!number#!71.J</a>#!row10#!n6#!
+row11#!number#!71.K</a>#!row11#!n6#!
+row12#!number#!71.L</a>#!row12#!n6#!
+
+row1#!n6#!असित-भ्रुवः
+row2#!n6#!असित-भ्रुवः
+row3#!n6#!असित-भ्रू{;स्त्री;1;बहु}/भ्रू{;स्त्री;5;एक}/भ्रू{;स्त्री;6;एक}/भ्रू{;स्त्री;2;बहु}/भ्रू{;स्त्री;8;बहु}/भ्रू{;पुं;1;बहु}/भ्रू{;पुं;5;एक}/भ्रू{;पुं;6;एक}/भ्रू{;पुं;2;बहु}/भ्रू{;पुं;8;बहु}
+row4#!n6#!<a (click)=showDic('असित')>असित</a>-<a (click)=showDic('भ्रू')>भ्रू</a>{;स्त्री;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,3</a>
+row6#!n6#!नील भ्रूवाली प्रियतमा के
+row7#!n6#!of woman possessed with thick eye-brows
+row8#!n6#!<a href="html/SV-IX/SV-71/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-71/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><असित-भ्रूः>Bs6</a>#!html/SV-IX/SV-71/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n5#!श्रवणात्
+row2#!n5#!श्रवणात्
+row3#!n5#!श्रवण{;पुं;5;एक}/श्रवण{;नपुं;5;एक}
+row4#!n5#!<a (click)=showDic('श्रु1')>श्रु1</a>{ल्युट्;श्रु;भ्वादिः;;नपुं;5;एक}
+row5#!n5#!<a href="javascript:show('अपादानम्,')">अपादानम्,8</a>
+row6#!n5#!कान_से
+row7#!n5#!from the ear
+row8#!n5#!-
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!
+
+row1#!n1#!प्रणदित-अलिकुलं
+row2#!n1#!प्रणदित-अलिकुलं
+row3#!n1#!प्रणदित-अलिकुल{;पुं;2;एक}
+row4#!n1#!<a (click)=showDic('प्रणदित')>प्रणदित</a>-<a (click)=showDic('अलिकुल')>अलिकुल</a>{;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!गूँजते हुए अलिगणों से युक्त
+row7#!n1#!surrounded by a cluster of humming bees
+row8#!n1#!<a href="html/SV-IX/SV-71/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-71/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><प्रणदित-<अलि-कुलम्>T6>K3</a>#!html/SV-IX/SV-71/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!'उपसर्गादसमासेऽपि णोपदेशस्य' (8।4।13) इति णत्वम् ।
+
+row1#!n1#!वारि-रुहं
+row2#!n1#!वारि-रुहं
+row3#!n1#!वारि-रुह्{;स्त्री;2;एक}/रुह{;पुं;2;एक}/रुह{;नपुं;1;एक}/रुह{;नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('वारि')>वारि</a>-<a (click)=showDic('रुह')>रुह</a>{;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n1#!कमल
+row7#!n1#!lotus
+row8#!n1#!<a href="html/SV-IX/SV-71/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-71/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><वारि-रुहम्>U</a>#!html/SV-IX/SV-71/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!दयित-अवलोक-विकसन्-नयन-प्रसर-प्रणुन्नम्
+row2#!n1#!दयित-अवलोक-विकसन्-नयन-प्रसर-प्रणुन्नम्
+row3#!n1#!दयित-अवलोक-विकसन्-नयन-प्रसर-प्रणुन्न{;पुं;2;एक}/प्रणुन्न{;नपुं;1;एक}/प्रणुन्न{;नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('दयित')>दयित</a>-<a (click)=showDic('अवलोक')>अवलोक</a>-<a (click)=showDic('विकसन्')>विकसन्</a>-<a (click)=showDic('नयन')>नयन</a>-<a (click)=showDic('प्रसर')>प्रसर</a>-<a (click)=showDic('प्र_नुद्1')>प्र_नुद्1</a>{क्त;णुदँ;तुदादिः;;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,7</a>
+row6#!n1#!प्रियतम के दर्शन से विकास को प्राप्त हुए नेत्रों के विस्तार से
+row7#!n1#!out of excitement (her) eyes got blossomed (expanded) at the sight of (her) beloved
+row8#!n1#!<a href="html/SV-IX/SV-71/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-71/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<दयित-अवलोक>T6-<विकसत्-नयन>T6>T3-प्रसरण>T6-प्रणुन्नम्>T3</a>#!html/SV-IX/SV-71/samaasa5.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इव
+row2#!NA#!इव
+row3#!NA#!इव{अव्य}
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,5</a>
+row6#!NA#!मानो
+row7#!NA#!appeared as if
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!नि-पपात
+row2#!v#!नि-पपात
+row3#!v#!नि-पत्1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;पतॢँ;भ्वादिः}
+row4#!v#!<a (click)=showDic('नि')>नि</a>-<a (click)=showDic('पत्1')>पत्1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;पतॢँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!गिर पडा.
+row7#!v#!fell.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!प्रमिताक्षरा ।
+row11#!v#!उत्प्रेक्षा ।
+row12#!v#!
+
+

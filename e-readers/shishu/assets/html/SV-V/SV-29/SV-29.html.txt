@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-V/SV-29/29.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-29/29.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">29.A</a>#!html/SV-V/SV-29/29.jpg#!row1#!n6#!स्त्रीणां
+row2#!number#!29.B</a>#!row2#!n6#!स्त्रीणां 
+row3#!number#!29.C</a>#!row3#!n6#!स्त्री{स्त्री}{6;बहु} 
+row4#!number#!29.D</a>#!row4#!n6#!<a (click)=showDic('स्त्री')>स्त्री</a>{स्त्री}{6;बहु} 
+row5#!number#!29.E</a>#!row5#!n6#!षष्ठीसम्बन्धः,2
+row6#!number#!29.F</a>#!row6#!n6#!स्त्रियों_की
+row7#!number#!29.G</a>#!row7#!n6#!Women’s'
+row8#!number#!29.H#!row8#!n6#!
+row9#!number#!29.I</a>#!row9#!n6#!
+row10#!number#!29.J</a>#!row10#!n6#!
+row11#!number#!29.K</a>#!row11#!n6#!
+row12#!number#!29.L</a>#!row12#!n6#!
+
+row1#!n3#!निम्नैः
+row2#!n3#!निम्नैः 
+row3#!n3#!निम्न{पुं}{3;बहु}/निम्न{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('निम्न')>निम्न</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n3#!गहरी
+row7#!n3#!deep
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!नाभि-ह्रदैः
+row2#!n3#!नाभि-ह्रदैः 
+row3#!n3#!नाभि-ह्रद{पुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('नाभि')>नाभि</a>-<a (click)=showDic('ह्रद')>ह्रद</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,9</a>
+row6#!n3#!नाभिरूपी ह्रदों (में प्रविष्ट होने) से
+row7#!n3#!from navel part that is in the form of lakes
+row8#!n3#!<a href="html/SV-V/SV-29/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-29/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><नाभि-ह्रदः>K6</a>#!html/SV-V/SV-29/samaasa1.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!परि-गृहीत-रयाणि
+row2#!n1#!परि-गृहीत-रयाणि 
+row3#!n1#!परि-{अव्य}-गृहीत-रय{नपुं}{1;बहु}/रय{नपुं}{2;बहु} 
+row4#!n1#!<a (click)=showDic('परि')>परि</a>-<a (click)=showDic('गृहीत')>गृहीत</a>-<a (click)=showDic('रय')>रय</a>{नपुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!रुके हुए वेग वाले
+row7#!n1#!whose force was stopped
+row8#!n1#!<a href="html/SV-V/SV-29/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-29/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><परिगृहीत-रयम्>Bs6</a>#!html/SV-V/SV-29/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!बृहत्-जघन-सेतु-निवारितानि
+row2#!n1#!बृहत्-जघन-सेतु-निवारितानि 
+row3#!n1#!बृहत्-जघन-सेतु-निवारित{नपुं}{1;बहु}/निवारित{नपुं}{2;बहु} 
+row4#!n1#!<a (click)=showDic('बृहत्')>बृहत्</a>-<a (click)=showDic('जघन')>जघन</a>-<a (click)=showDic('सेतु')>सेतु</a>-<a (click)=showDic('निवारित')>निवारित</a>{नपुं}{1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!विशाल जङ्घा रूपी पुलों से रोके गये
+row7#!n1#!stopped by vast thighs in the form of bridges
+row8#!n1#!<a href="html/SV-V/SV-29/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-29/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<बृहत्-जघन>K1-सेतु>K6-निवारितम्>T3</a>#!html/SV-V/SV-29/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!जल-मण्डुक-वाद्य-वल्गु-वल्गद्-घन-स्तन-तटस्-खलितानि
+row2#!n1#!जल-मण्डुक-वाद्य-वल्गु-वल्गद्-घन-स्तन-तटस्-खलितानि 
+row3#!n1#!जल-मण्डुक-वाद्य-वल्गु-वल्गद्-घन-स्तन-तटस्-खलितानि 
+row4#!n1#!<a (click)=showDic('जल')>जल</a>-<a (click)=showDic('मण्डुक')>मण्डुक</a>-<a (click)=showDic('वाद्य')>वाद्य</a>-<a (click)=showDic('वल्गु')>वल्गु</a>-<a (click)=showDic('वल्गद्')>वल्गद्</a>-<a (click)=showDic('घन')>घन</a>-<a (click)=showDic('स्तन')>स्तन</a>-<a (click)=showDic('तट')>तट</a>-<a (click)=showDic('खलित')>खलित</a>{नपुं}{1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!जलरूपी मण्डुक बाजा से मनोहर तथा चंचल एवं स्तनतटों से स्खलित
+row7#!n1#!(and) with the sounds made by orchestra that was in the form of frogs and was collided by the breasts in the form of river banks
+row8#!n1#!<a href="html/SV-V/SV-29/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-29/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<जल-मण्डुकवाद्य>K6-वल्गु>T3-घनस्तनतट>K6-स्खलितम्>T3</a>#!html/SV-V/SV-29/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!जलानि
+row2#!n1#!जलानि 
+row3#!n1#!जल{नपुं}{1;बहु}/जल{नपुं}{2;बहु}/जल्1{कर्तरि;लोट्;उ;एक;परस्मैपदी;जलँ;भ्वादिः} 
+row4#!n1#!<a (click)=showDic('जल')>जल</a>{नपुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,9</a>
+row6#!n1#!पानी
+row7#!n1#!water
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!मन्दं
+row2#!NA#!मन्दं 
+row3#!NA#!मन्द{पुं}{2;एक}/मन्द{नपुं}{1;एक}/मन्द{नपुं}{2;एक} 
+row4#!NA#!<a (click)=showDic('मन्द')>मन्द</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रियाविशेषणम्,')">क्रियाविशेषणम्,9</a>
+row6#!NA#!धीरे-धौरे
+row7#!NA#!slowly
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!जग्मुः.
+row2#!v#!जग्मुः 
+row3#!v#!गम्1{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;गमॢँ;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('गम्1')>गम्1</a>{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;गमॢँ;भ्वादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!बहने_लगे.
+row7#!v#!flowed.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!वसन्ततिलका ।
+row11#!v#!काव्यलिङ्गम् ।
+row12#!v#!
+
+

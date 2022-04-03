@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-VII/SV-30/30.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-30/30.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">30.A</a>#!html/SV-VII/SV-30/30.jpg#!row1#!n1#!मुदितमधु-भुजः
+row2#!number#!30.B</a>#!row2#!n1#!मुदितमधु-भुजः
+row3#!number#!30.C</a>#!row3#!n1#!मुदितमधु-भुज{पुं;1;एक}
+row4#!number#!30.D</a>#!row4#!n1#!<a (click)=showDic('मुदितमधु')>मुदितमधु</a>-<a (click)=showDic('भुज')>भुज</a>{स्त्री;1;बहु}
+row5#!number#!30.E</a>#!row5#!n1#!विशेषणम्,2
+row6#!number#!30.F</a>#!row6#!n1#!प्रसन्न भ्रमरगणों के द्वारा अधिष्ठित
+row7#!number#!30.G</a>#!row7#!n1#!where honey-bees that were happy by sipping fragrant nectar sat on it
+row8#!number#!30.H#!row8#!n1#!<a href="html/SV-VII/SV-30/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-30/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><मुदित-<मधु-भुज्>U>Bs7</a>#!html/SV-VII/SV-30/samaasa1.jpg
+row9#!number#!30.I</a>#!row9#!n1#!
+row10#!number#!30.J</a>#!row10#!n1#!
+row11#!number#!30.K</a>#!row11#!n1#!
+row12#!number#!30.L</a>#!row12#!n1#!
+
+row1#!n1#!शाखाः
+row2#!n1#!शाखाः
+row3#!n1#!शाखा{स्त्री;1;बहु}/शाखा{स्त्री;2;बहु}/शाखा{स्त्री;8;बहु}
+row4#!n1#!<a (click)=showDic('शाखा')>शाखा</a>{स्त्री;1;बहु}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,5</a>
+row6#!n1#!वृक्ष_की_शाखा
+row7#!n1#!branch of a tree
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!भुजेन
+row2#!n3#!भुजेन
+row3#!n3#!भुज{पुं;3;एक}
+row4#!n3#!<a (click)=showDic('भुज')>भुज</a>{पुं;3;एक}
+row5#!n3#!<a href="javascript:show('करण,')">करण,5</a>
+row6#!n3#!हाथ_से
+row7#!n3#!with a hand
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n2#!चलितविशृङ्खल-शङ्खकं
+row2#!n2#!चलितविशृङ्खल-शङ्खकं
+row3#!n2#!चलितविशृङ्खल-शङ्खक{नपुं;1;एक}/शङ्खक{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('चलितविशृङ्खल')>चलितविशृङ्खल</a>-<a (click)=showDic('शङ्खक')>शङ्खक</a>{नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,5</a>
+row6#!n2#!चञ्चल शंख के कङ्कण को ध्वनित करते हुए
+row7#!n2#!possessing a bangle made up of conch
+row8#!n2#!<a href="html/SV-VII/SV-30/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-30/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><चलित-<विशृङ्खल-शङ्खकम्>K3>Bs7</a>#!html/SV-VII/SV-30/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!धुवत्याः
+row2#!n1#!धुवत्याः
+row3#!n1#!धुवती{स्त्री;5;एक}/धुवती{स्त्री;6;एक}
+row4#!n1#!<a (click)=showDic('धु1')>धु1</a>{कृत्_प्रत्ययः:शतृ;धुञ्;स्वादिः;स्त्री}{1;एक}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,12</a>
+row6#!n1#!कम्पित_करती_हुई
+row7#!n1#!which is tinkling excessively
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘धू विधूनने’ इति धातोस्तौदादिकाच्छतरि ङीप् ।'क्ङिति च' (1।1।15) इति गुणवृद्धिप्रतिषेधादुवङादेशः ।
+
+row1#!n6#!अतिशयिताऽपरा-अङ्गनायाः
+row2#!n6#!अतिशयिताऽपरा-अङ्गनायाः
+row3#!n6#!अतिशयिताऽपरा-अङ्गना{स्त्री;5;एक}/अङ्गना{स्त्री;6;एक}
+row4#!n6#!<a (click)=showDic('अतिशयिताऽपर')>अतिशयिताऽपर</a>-<a (click)=showDic('अङ्गना')>अङ्गना</a>{स्त्री;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,7</a>
+row6#!n6#!अन्य अङ्गनाओं को पराजित करती हुई
+row7#!n6#!while defeating other women
+row8#!n6#!<a href="html/SV-VII/SV-30/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-30/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अतिशयित-अपराऽङ्गना>Bs3</a>#!html/SV-VII/SV-30/samaasa3.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n7#!शिरसि
+row2#!n7#!शिरसि
+row3#!n7#!शिरस्{नपुं;7;एक}
+row4#!n7#!<a (click)=showDic('शिरस्')>शिरस्</a>{नपुं;7;एक}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,12</a>
+row6#!n7#!मस्तक_पर
+row7#!n7#!on (her) head
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n1#!तरुः
+row2#!n1#!तरुः
+row3#!n1#!तरु{पुं;1;एक}
+row4#!n1#!<a (click)=showDic('तरु')>तरु</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,12</a>
+row6#!n1#!वृक्ष
+row7#!n1#!tree
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!मुदा
+row2#!n1#!मुदा
+row3#!n1#!मुद्{स्त्री;3;एक}/मुदा{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('मुद्')>मुद्</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,10</a>
+row6#!n1#!हर्ष_से
+row7#!n1#!out of happiness
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इव
+row2#!NA#!इव
+row3#!NA#!इव{अव्य}
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,8</a>
+row6#!NA#!जैसे
+row7#!NA#!as if
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!पुष्प-वर्षं
+row2#!n2#!पुष्प-वर्षं
+row3#!n2#!पुष्प-वर्ष{पुं;2;एक}
+row4#!n2#!<a (click)=showDic('पुष्प')>पुष्प</a>-<a (click)=showDic('वर्ष')>वर्ष</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,12</a>
+row6#!n2#!पुष्प-वर्ष_को
+row7#!n2#!rain of flowers
+row8#!n2#!<a href="html/SV-VII/SV-30/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-30/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><पुष्प-वर्षः>T6</a>#!html/SV-VII/SV-30/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!मुमोच
+row2#!v#!मुमोच
+row3#!v#!मुच्1{कर्तरि;लिट्;उ;एक;परस्मैपदी;मुचॢँ;तुदादिः}/मुच्1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;मुचॢँ;तुदादिः}
+row4#!v#!<a (click)=showDic('मुच्1')>मुच्1</a>{कर्तरि;लिट्;उ;एक;परस्मैपदी;मुचॢँ;तुदादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!मुक्त_किया.
+row7#!v#!showered.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!पुष्पिताग्रा ।
+row11#!v#!उत्प्रेक्षा ।
+row12#!v#!
+
+

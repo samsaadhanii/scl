@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-IX/SV-15/15.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-15/15.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">15.A</a>#!html/SV-IX/SV-15/15.jpg#!row1#!NA#!अथ
+row2#!number#!15.B</a>#!row2#!NA#!अथ
+row3#!number#!15.C</a>#!row3#!NA#!अथ{अव्य}
+row4#!number#!15.D</a>#!row4#!NA#!<a (click)=showDic('अथ')>अथ</a>{अव्य}
+row5#!number#!15.E</a>#!row5#!NA#!सम्बन्धः,9
+row6#!number#!15.F</a>#!row6#!NA#!उसके_बाद
+row7#!number#!15.G</a>#!row7#!NA#!After that
+row8#!number#!15.H#!row8#!NA#!
+row9#!number#!15.I</a>#!row9#!NA#!
+row10#!number#!15.J</a>#!row10#!NA#!
+row11#!number#!15.K</a>#!row11#!NA#!
+row12#!number#!15.L</a>#!row12#!NA#!
+
+row1#!n1#!सान्द्रसान्ध्यकिरणारुणितं
+row2#!n1#!सान्द्रसान्ध्यकिरण-अरुणितं
+row3#!n1#!सान्द्रसान्ध्यकिरणारुणितं
+row4#!n1#!<a (click)=showDic('सान्द्रसान्ध्यकिरणारुणित')>सान्द्रसान्ध्यकिरणारुणित</a>{;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!सायंकालीन सान्द्रसूर्यकिरणों से आरक्त हुए
+row7#!n1#!reddened with the dark rays of twilight
+row8#!n1#!<a href="html/SV-IX/SV-15/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-15/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<सान्द्र-सन्ध्या>K3-किरण>T6-अरुणितम्>T3</a>#!html/SV-IX/SV-15/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!'सन्धिवेलाद्यृतुनक्षत्रेभ्योऽण्' (4।3।16) इत्यण्प्रत्ययः ।
+
+row1#!n1#!विरहार्तिदलद्घृदयस्रुताऽसृगनुलिप्तम्
+row2#!n1#!विरहार्तिदलद्घृदयस्रुताऽसृगनुलिप्तम्
+row3#!n1#!विरहार्तिदलद्घृदयस्रुताऽसृगनुलिप्त{;पुं;2;एक}/लिप्त{;नपुं;1;एक}/लिप्त{;नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('विरहार्तिदलद्घृदयस्रुताऽसृगनुलिप्1')>विरहार्तिदलद्घृदयस्रुताऽसृगनुलिप्1</a>{क्त;लिपँ;तुदादिः;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,4</a>
+row6#!n1#!वियोग पीडाजन्य फटे हुए हृदय से स्रवित रक्त से (सर्वाङ्ग में) अनुलिप्त हुए
+row7#!n1#!anointed with tears of separation
+row8#!n1#!<a href="html/SV-IX/SV-15/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-15/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<विरह-आर्ति>T6-दलत्>T3-<हृदय-स्रुत>T5>K3-<असृग्-अनुलिप्तम्>T3>K3</a>#!html/SV-IX/SV-15/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इव
+row2#!NA#!इव
+row3#!NA#!इव{अव्य}
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,7</a>
+row6#!NA#!जैसे
+row7#!NA#!as if
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!हरिहेति-हूति
+row2#!n1#!हरिहेति-हूति
+row3#!n1#!हरिहेति-हूति{;नपुं;1;एक}/हूति{;नपुं;2;एक}/हूति{;नपुं;8;एक}
+row4#!n1#!<a (click)=showDic('हरिहेति')>हरिहेति</a>-<a (click)=showDic('हूति')>हूति</a>{;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!विष्णु भगवान् के अस्त्र (चक्र) के नामवाला
+row7#!n1#!whose name is after Lord Viṣṇu's weapon i.e. Cakravāka birds
+row8#!n1#!<a href="html/SV-IX/SV-15/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-15/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<हरि-हेति>T6-हूति>Bs6</a>#!html/SV-IX/SV-15/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!पततोः
+row2#!n6#!पततोः
+row3#!n6#!पतत्{;नपुं;6;द्वि}/पतत्{;पुं;6;द्वि}/पतत्{;नपुं;7;द्वि}
+row4#!n6#!<a (click)=showDic('पत्1')>पत्1</a>{शतृ_लट्;पतॢँ;भ्वादिः;;नपुं;6;द्वि}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,6</a>
+row6#!n6#!गिर_रहा_है
+row7#!n6#!of falling down
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!मिथुनं
+row2#!n1#!मिथुनं
+row3#!n1#!मिथुन{;नपुं;1;एक}/मिथुन{;नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('मिथुन')>मिथुन</a>{;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,9</a>
+row6#!n1#!पक्षिद्वय का जोडा
+row7#!n1#!pair of birds
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!पृथक्
+row2#!NA#!पृथक्
+row3#!NA#!पृथक्{अव्य}
+row4#!NA#!<a (click)=showDic('पृथक्')>पृथक्</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रियाविशेषणम्,')">क्रियाविशेषणम्,9</a>
+row6#!NA#!अलग-अलग होकर
+row7#!NA#!separately
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!उत्-पपात
+row2#!v#!उत्-पपात
+row3#!v#!उत्-पत्1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;पतॢँ;भ्वादिः}
+row4#!v#!<a (click)=showDic('उत्')>उत्</a>-<a (click)=showDic('पत्1')>पत्1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;पतॢँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!गिर_पडा.
+row7#!v#!flew away.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!प्रमिताक्षरा ।
+row11#!v#!उत्प्रेक्षा ।
+row12#!v#!
+
+

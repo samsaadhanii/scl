@@ -1,0 +1,92 @@
+row1#!number#!<a href="html/SV-III/SV-37/37.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-37/37.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">37.A</a>#!html/SV-III/SV-37/37.jpg#!row1#!n3#!चलद्-वारिधि-वारि-वीचिच्छटोच्छलच्छङ्खकुलाकुलेन
+row2#!number#!37.B</a>#!row2#!n3#!चलद्-वारिधि-वारि-वीचिच्छटोच्छलच्छङ्खकुलाकुलेन 
+row3#!number#!37.C</a>#!row3#!n3#!चलद्-वारिधि-वारि-वीचिच्छटोच्छलच्छङ्खकुलाकुलेन 
+row4#!number#!37.D</a>#!row4#!n3#!<a (click)=showDic('चलद्')>चलद्</a>-<a (click)=showDic('<a (click)=showDic('वारि')>वारि</a>धि')>वारिधि</a>-वारि-<a (click)=showDic('वीचिच्छटोच्छलच्छङ्खकुलाकुलेन')>वीचिच्छटोच्छलच्छङ्खकुलाकुलेन</a>{नपुं}{3;एक}
+row5#!number#!37.E</a>#!row5#!n3#!विशेषणम्,3
+row6#!number#!37.F</a>#!row6#!n3#!चंचल समुद्र_के_जल प्रवाहों_से_उछलते_हुए_शंख_समूहों_से_व्याप्त
+row7#!number#!37.G</a>#!row7#!n3#!filled with multitudes of conches tossed by the series of rolling waves of the sea
+row8#!number#!37.H#!row8#!n3#!<a href="html/SV-III/SV-37/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-37/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<चलत्-<<वारिधि-वारि>T6-वीचि>T6>K3-छट>T6-उच्छलशङ्ककुल>K3-आकुलम्>T3</a>#!html/SV-III/SV-37/samaasa1.jpg
+row9#!number#!37.I</a>#!row9#!n3#!
+row10#!number#!37.J</a>#!row10#!n3#!
+row11#!number#!37.K</a>#!row11#!n3#!
+row12#!number#!37.L</a>#!row12#!n3#!
+
+row1#!n6#!यस्याः
+row2#!n6#!यस्याः 
+row3#!n6#!यद्{स्त्री}{5;एक}/यद्{स्त्री}{6;एक}/यस्1{कर्तरि;आशीर्लिङ्;म;एक;परस्मैपदी;यसुँ;दिवादिः} 
+row4#!n6#!<a (click)=showDic('यद्')>यद्</a>{स्त्री}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,3</a>
+row6#!n6#!जिस_द्वारका_पुरी_के
+row7#!n6#!whose
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n3#!वप्रेण
+row2#!n3#!वप्रेण 
+row3#!n3#!वप्र{पुं}{3;एक}/वप्र{नपुं}{3;एक}
+row4#!n3#!<a (click)=showDic('वप्र')>वप्र</a>{पुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,7</a>
+row6#!n3#!परकोटे_ने
+row7#!n3#!by rampart
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!परि-अन्तचर-उडु-चक्रः
+row2#!n1#!पर्यन्तचरोडुचक्रः 
+row3#!n1#!परि-{अव्य}-अन्तचर-उडु-चक्र{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('परि')>परि</a>--<a (click)=showDic('अन्तचर')>अन्तचर</a>-<a (click)=showDic('उडु')>उडु</a>-<a (click)=showDic('चक्र')>चक्र</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!जिसके_चारो_तरफ_नक्षत्र_समूह_घूमते_हैं
+row7#!n1#!with the constellations of stars moving round it
+row8#!n1#!<a href="html/SV-III/SV-37/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-37/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<पर्यन्त-चर>U-उडुचक्रः>Bs6</a>#!html/SV-III/SV-37/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!सुमेरु-वप्रः
+row2#!n1#!सुमेरुवप्रः 
+row3#!n1#!सुमेरु-वप्र{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('सुमेरु')>सुमेरु</a>-<a (click)=showDic('वप्र')>वप्र</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,7</a>
+row6#!n1#!सुमेरु_के_शिखर_का
+row7#!n1#!the summit of Sumeru
+row8#!n1#!<a href="html/SV-III/SV-37/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-37/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सुमेरु-वप्रः>T6</a>#!html/SV-III/SV-37/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!अन्वहम्
+row2#!NA#!अन्वहम्
+row3#!NA#!अन्वहम्{अव्य}
+row4#!NA#!<a (click)=showDic('अन्वहम्')>अन्वहम्</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अधिकरण,')">अधिकरण,7</a>
+row6#!NA#!हर दिन
+row7#!NA#!daily
+row8#!NA#!<a href="html/SV-III/SV-37/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-37/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अनु-अहम्>A1</a>#!html/SV-III/SV-37/samaasa4.jpg
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!'अव्ययं विभक्ति-’ (2|1|6) इत्यादिना यथार्थेऽव्ययीभावः । ‘अनश्च’ (5।4।108) ‘नपुंसकादन्यतरस्याम्’ (5।4।109) इति समासान्तोऽच् ।
+
+row1#!v#!अन्वकारि.
+row2#!v#!अन्वकारि 
+row3#!v#!अनु_कृ2{कर्मणि;लुङ्;प्र;एक;आत्मनेपदी;कृञ्;स्वादिः}/अनु_कृ3{कर्मणि;लुङ्;प्र;एक;आत्मनेपदी;डुकृञ्;तनादिः}. 
+row4#!v#!<a (click)=showDic('अनु_कृ2')>अनु_कृ2</a>{कर्मणि;लुङ्;प्र;एक;आत्मनेपदी;कृञ्;स्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!अनुकरण_किया.
+row7#!v#!imitated.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!उपजाति ।
+row11#!v#!-
+row12#!v#!
+
+

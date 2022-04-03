@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-V/SV-36/36.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-36/36.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">36.A</a>#!html/SV-V/SV-36/36.jpg#!row1#!n3#!लब्ध-परवारण-मारुतेन
+row2#!number#!36.B</a>#!row2#!n3#!लब्ध-परवारण-मारुतेन 
+row3#!number#!36.C</a>#!row3#!n3#!लब्ध-परवारण-मारुत{पुं}{3;एक}/मारुत{नपुं}{3;एक} 
+row4#!number#!36.D</a>#!row4#!n3#!<a (click)=showDic('लब्ध')>लब्ध</a>-<a (click)=showDic('परवारण')>परवारण</a>-<a (click)=showDic('मारुत')>मारुत</a>{पुं}{3;एक} 
+row5#!number#!36.E</a>#!row5#!n3#!करणम्,5
+row6#!number#!36.F</a>#!row6#!n3#!दूसरे हाथी के (मदजल की) हवा (की गन्ध) को पाया हुआ
+row7#!number#!36.G</a>#!row7#!n3#!Having obtained the smell of rut of another elephant through air
+row8#!number#!36.H#!row8#!n3#!<a href="html/SV-V/SV-36/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-36/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<लब्ध-<पर-वारण>K3-मारुतः>T6>Bs3</a>#!html/SV-V/SV-36/samaasa1.jpg
+row9#!number#!36.I</a>#!row9#!n3#!
+row10#!number#!36.J</a>#!row10#!n3#!
+row11#!number#!36.K</a>#!row11#!n3#!
+row12#!number#!36.L</a>#!row12#!n3#!
+
+row1#!n2#!सरोषं
+row2#!n2#!सरोषं 
+row3#!n2#!सरोष{पुं}{2;एक}/सरोष{नपुं}{1;एक}/सरोष{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('सरोष')>सरोष</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n2#!रोषपूर्वक
+row7#!n2#!furiously
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n6#!पयसः
+row2#!n6#!पयसः 
+row3#!n6#!पयस्{नपुं}{5;एक}/पयस्{नपुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('पयस्')>पयस्</a>{नपुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,4</a>
+row6#!n6#!जल_को
+row7#!n6#!water
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!गण्डूषम्
+row2#!n2#!गण्डूषम् 
+row3#!n2#!गण्डूष{पुं}{2;एक}/गण्डूष{नपुं}{1;एक}/गण्डूष{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('गण्डूष')>गण्डूष</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,5</a>
+row6#!n2#!सूँड़_में_लिये_हुए
+row7#!n2#!having taken in its trunk
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n3#!उज्झितवता
+row2#!n3#!उज्झितवता 
+row3#!n3#!उज्झितवत्{पुं}{3;एक}/उज्झितवत्{नपुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('उज्झ्1')>उज्झ्1</a>{कृत्_प्रत्ययः:क्तवतु;उज्झँ;तुदादिः;पुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('समानकालः,')">समानकालः,9</a>
+row6#!n3#!छोडने वाली
+row7#!n3#!while throwing it out
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!नागेन
+row2#!n3#!नागेन 
+row3#!n3#!नाग{पुं}{3;एक}/नाग{नपुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('नाग')>नाग</a>{पुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,9</a>
+row6#!n3#!हाथी_से
+row7#!n3#!by an elephant
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n7#!अम्भोधि-रोधसि
+row2#!n7#!अम्भोधि-रोधसि 
+row3#!n7#!अम्भोधि-रोधस्{नपुं}{7;एक} 
+row4#!n7#!<a (click)=showDic('अम्भोधि')>अम्भोधि</a>-<a (click)=showDic('रोधस्')>रोधस्</a>{नपुं}{7;एक} 
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,9</a>
+row6#!n7#!जलाशय_के_किनारे_पर
+row7#!n7#!at the bank of a lake
+row8#!n7#!<a href="html/SV-V/SV-36/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-36/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अम्बोधि-रोधस्>T6</a>#!html/SV-V/SV-36/samaasa2.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n1#!पृथु-प्रतिमान-भाग-रुद्ध-उरु-दन्त-मुसल-प्रसरं
+row2#!n1#!पृथु-प्रतिमान-भाग-रुद्ध-उरु-दन्त-मुसल-प्रसरं 
+row3#!n1#!पृथु-प्रतिमान-भाग-रुद्ध-उरु-दन्त-मुसल-प्रसर{पुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('पृथु')>पृथु</a>-<a (click)=showDic('प्रतिमान')>प्रतिमान</a>-<a (click)=showDic('भाग')>भाग</a>-<a (click)=showDic('रुद्ध')>रुद्ध</a>-<a (click)=showDic('उरु')>उरु</a>-<a (click)=showDic('दन्त')>दन्त</a>-<a (click)=showDic('मुसल')>मुसल</a>-<a (click)=showDic('प्रसर')>प्रसर</a>{नपुं}{1;एक}
+row5#!n1#!<a href="javascript:show('क्रिया_विशेषणम्,')">क्रिया_विशेषणम्,9</a>
+row6#!n1#!स्थूल दोनों दाँतों के मध्य भाग से रोके हुए विशाल मुसलाकार दाँतों के प्रहारवाला होकर स्वयं
+row7#!n1#!being stopped with the middle of two big teeth it was as if attacked by those teeth
+row8#!n1#!<a href="html/SV-V/SV-36/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-36/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<पृथु-प्रितमानभाग>K3-रुद्ध>T3-<<<उरु-दन्त>K1-मुसल>K5-प्रसरम्>T6>Bs7</a>#!html/SV-V/SV-36/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!नि-पेते.
+row2#!v#!निपेते 
+row3#!v#!नि-पेते 
+row4#!v#!<a (click)=showDic('नि_पत्1')>नि_पत्1</a>{भावे;लिट्;प्र;एक;परस्मैपदी;पत्लृँ;भ्वादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!गिर_पड़ा.
+row7#!v#!fell down (by itself).
+row8#!v#!-
+row9#!v#!भावे
+row10#!v#!वसन्ततिलका ।
+row11#!v#!-
+row12#!v#!
+
+

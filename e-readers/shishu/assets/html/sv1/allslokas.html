@@ -1,0 +1,138 @@
+<div class="col-md-12 col-sm-12 col-xs-12 indent" ng-show="sloka">
+	<p><code>Note: Click on sloka to view Anusāraka </code> </p>
+	<div class="col-md-12 searchbox">
+		<input type="text" ng-model="searchText" class="form-control" ng-show="searchBar"
+			autofocus placeholder="Search text from all slokas" />
+	</div>
+
+	<div class="col-md-12 panel panel-success"
+		ng-repeat="sloka in slokas  | filter:searchText ">
+		<div>
+			<code>
+				{{sloka.slokaNo}} <span
+					ng-bind-html="sloka.sloka | highlight:searchText" tooltip-html-unsafe="Click here for Anusāraka" ng-click="showPopUp(sloka.slokaNo,sloka.sloka)" ></span>
+			</code>
+		</div>
+
+		<div class="panel-body">
+			<div>
+				<span class="panel-title pada">पदविभागः -</span>
+			</div>
+			<div ng-bind-html="sloka.padaInfo | highlight:searchText"></div>
+			<div>
+				<span class="panel-title anvaya">अन्वयक्रमः -</span>
+			</div>
+			<div ng-bind-html="sloka.anvayaInfo | highlight:searchText"></div>
+		</div>
+		<div class="panel-body">
+			<div>
+				<span class="panel-title hindi">हिन्दीभावार्थ -</span>
+			</div>
+			<div ng-bind-html="sloka.hindiInfo | highlight:searchText"></div>
+		</div>
+		<div class="panel-body">
+			<div>
+				<span class="panel-title english">English Translation- </span>
+			</div>
+			<div ng-bind-html="sloka.englishInfo | highlight:searchText"></div>
+		</div>
+	</div>
+
+	<div class="col-md-12 col-lg-12 col-xs-12 col-sm-12" ng-show="showInterface">
+		
+		<div class="col-md-12 helpBar " ng-show="showSearchBar">
+		<div class="col-md-4">
+			<div class="col-md-4" uib-popover="I appeared on mouse enter!" popover-trigger="mouseenter">
+				<div class="n1 help"></div>
+				<div style="width: auto; font-size: 14px;">प्रथमा विभक्तिः</div>
+			</div>
+			<div class="col-md-4">
+				<div class="n2 help"></div>
+				<div style="width: auto; font-size: 14px;">द्वितीया विभक्तिः </div>
+			</div>
+
+			<div class="col-md-4">
+				<div class="n3 help"></div>
+				<div style="width: auto; font-size: 14px;">तृतीया विभक्तिः</div>
+			</div>
+			<div class="col-md-4">
+				<div class="n4 help"></div>
+				<div style="width: auto; font-size: 14px;">चतुर्थी विभक्तिः </div>
+			</div>
+			<div class="col-md-4">
+				<div class="n5 help"></div>
+				<div style="width: auto; font-size: 14px;">पञ्चमी विभक्तिः </div>
+			</div>
+			<div class="col-md-4">
+				<div class="n6 help"></div>
+				<div style="width: auto; font-size: 14px;"> षष्ठी विभक्तिः</div>
+			</div>
+		</div>
+		<div class="col-md-2">
+			
+			<div class="col-md-7">
+				<div class="n7 help"></div>
+				<div style="width: auto; font-size: 14px;">सप्तमी विभक्तिः</div>
+			</div>
+			<div class="col-md-5">
+				<div class="v help"></div>
+				<div style="width: auto; font-size: 14px;">verb</div>
+			</div>
+			<!-- <div class="col-md-4">
+				<div class="i help"></div>
+				<div style="width: auto; font-size: 14px;">i</div>
+			</div> -->
+			
+			<div class="col-md-7">
+				<div class="n8 help"></div>
+				<div style="width: auto; font-size: 14px;">सम्बोधना प्रथमा विभक्तिः</div>
+			</div>
+			<div class="col-md-5">
+				<div class="NA help"></div>
+				<div style="width: auto; font-size: 14px;">NA</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="col-md-3"><input type="checkbox" ng-model="row1"  ng-init="row1=true" class="checkbox-primary" > पदपाठः (A)</div><div class="col-md-3"><input type="checkbox" ng-model="row2" class="checkbox-primary"> संस्कृतम्  (B)</div><div class="col-md-3"> <input type="checkbox" ng-model="row3" class="checkbox-primary"> विभक्तिः  (C)</div>
+			<div class="col-md-3"> <input type="checkbox" ng-model="row4" class="checkbox-primary"> शब्दविश्लेषणम्  (D)</div><div class="col-md-3"> <input type="checkbox" ng-model="row5" class="">हिन्दी-विभक्तिः  (E)</div><div class="col-md-3"> <input type="checkbox" ng-model="row6"  ng-init="row6=true" class="checkbox-primary">हिन्दी अर्थ(F)</div>
+			<div class="col-md-3"> <input type="checkbox" ng-model="row7"  ng-init="row7=true" class="checkbox-primary"> English Meaning(G)</div>
+			<div class="col-md-3"> <input type="checkbox" ng-model="row8"  ng-init="row8=true" class="checkbox-primary"> Samasa(H)</div>
+		</div>
+
+	</div>
+	<div class="col-md-12" ng-include src="htmlname">
+		
+	
+	</div>
+	
+		
+		
+	</div>
+
+
+</div>
+
+<div class="col-md-12 col-sm-12 col-lg-12 col-xs-12" ng-show="summary"> 
+	
+	<div class="col-md-12 col-xs-12 col-sm-12 col-lg-12" ng-include src="summaryFileName">
+
+</div>
+
+
+<!-- <!--  modal dialog box code here -->
+
+<modal title="Login form" visible="showModal">
+    <form role="form">
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" />
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" placeholder="Password" />
+      </div>
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </modal> -->
+
+

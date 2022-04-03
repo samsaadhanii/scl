@@ -1,0 +1,79 @@
+row1#!number#!<a href="html/SV-V/SV-22/22.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-22/22.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">22.A</a>#!html/SV-V/SV-22/22.jpg#!row1#!n3#!उत्क्षिप्त-काण्ड-पटकान्तर-लीयमान-मन्द-अनिल-प्रशमित-श्रमघर्म-तोयैः
+row2#!number#!22.B</a>#!row2#!n3#!उत्क्षिप्त-काण्ड-पटकान्तर-लीयमान-मन्द-अनिल-प्रशमित-श्रमघर्म-तोयैः 
+row3#!number#!22.C</a>#!row3#!n3#!उत्क्षिप्त-काण्ड-पटकान्तर-लीयमान-मन्द-अनिल-प्रशमित-श्रमघर्म-तोय{नपुं}{3;बहु}/तोय{पुं}{3;बहु} 
+row4#!number#!22.D</a>#!row4#!n3#!<a (click)=showDic('उत्क्षिप्त')>उत्क्षिप्त</a>-<a (click)=showDic('काण्ड')>काण्ड</a>-<a (click)=showDic('पटकान्तर')>पटकान्तर</a>-<a (click)=showDic('लीयमान')>लीयमान</a>-<a (click)=showDic('मन्द')>मन्द</a>-<a (click)=showDic('अनिल')>अनिल</a>-<a (click)=showDic('प्रशमित')>प्रशमित</a>-<a (click)=showDic('श्रमघर्म')>श्रमघर्म</a>-<a (click)=showDic('तोय')>तोय</a>{पुं}{3;बहु} 
+row5#!number#!22.E</a>#!row5#!n3#!विशेषणम्,2
+row6#!number#!22.F</a>#!row6#!n3#!ऊपर उठाये गये तम्बुओं के (हवा लगने के लिये नीचे लटकते हुए) पर्दों के भीतर प्रविष्ट होती हुई मन्द वायु से जिनकी थकावट के पसीने सूख गये हैं
+row7#!number#!22.G</a>#!row7#!n3#!whose sweat that came out of tiredness was removed by the wind, that entered slowly from the porticos of tent
+row8#!number#!22.H#!row8#!n3#!<a href="html/SV-V/SV-22/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-22/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<<उत्क्षिप्त-काण्डपटक>K3-अन्तर>T6-लीयमान>T7-मन्दानिल>K3-प्रशमित>T3-<श्रम-<घर्म-तोयः>T6>T3>Bs6</a>#!html/SV-V/SV-22/samaasa1.jpg
+row9#!number#!22.I</a>#!row9#!n3#!
+row10#!number#!22.J</a>#!row10#!n3#!
+row11#!number#!22.K</a>#!row11#!n3#!
+row12#!number#!22.L</a>#!row12#!n3#!
+
+row1#!n3#!राज-दारैः
+row2#!n3#!राज-दारैः 
+row3#!n3#!राज-दार{पुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('राज')>राज</a>-<a (click)=showDic('दार')>दार</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,6</a>
+row6#!n3#!राज-पत्नियों_ने
+row7#!n3#!the queens
+row8#!n3#!<a href="html/SV-V/SV-22/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-22/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><राज-दारः>T6</a>#!html/SV-V/SV-22/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n7#!दूर्वा-प्रतान-सहज-आ-तरणेषु
+row2#!n7#!दूर्वा-प्रतान-सहज-आ-तरणेषु 
+row3#!n7#!दूर्वा-प्रतान-सहज-आ-{अव्य}-तरण{पुं}{7;बहु}/तरण{नपुं}{7;बहु} 
+row4#!n7#!<a (click)=showDic('दूर्वा')>दूर्वा</a>-<a (click)=showDic('प्रतान')>प्रतान</a>-<a (click)=showDic('सहज')>सहज</a>-<a (click)=showDic('आ')>आ</a>-<a (click)=showDic('तॄ1')>तॄ1</a>{कृत्_प्रत्ययः:ल्युट्;तॄ;भ्वादिः;नपुं}{7;बहु} 
+row5#!n7#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n7#!दूब के समूह रूपी स्वभाविक शय्यावाले तम्बुओं में
+row7#!n7#!on the beds made up of quitch
+row8#!n7#!<a href="html/SV-V/SV-22/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-22/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<दूर्व-प्रतान>T6-सहजास्तरणम्>Bs7</a>#!html/SV-V/SV-22/samaasa3.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!वसन-सद्मसु
+row2#!n7#!वसन-सद्मसु 
+row3#!n7#!वसन-सद्मन्{पुं}{7;बहु}/सद्मन्{नपुं}{7;बहु} 
+row4#!n7#!<a (click)=showDic('वसन')>वसन</a>-<a (click)=showDic('सद्मन्')>सद्मन्</a>{नपुं}{7;बहु} 
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,6</a>
+row6#!n7#!निवास-घरों_में 
+row7#!n7#!in their canopies
+row8#!n7#!<a href="html/SV-V/SV-22/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-22/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><वसन-सद्म>T6</a>#!html/SV-V/SV-22/samaasa4.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n1#!निद्रा-सुखं
+row2#!n1#!निद्रा-सुखं 
+row3#!n1#!निद्रा-सुखम्{अव्य}/सुख{पुं}{2;एक}/सुख{नपुं}{1;एक}/सुख{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('निद्रा')>निद्रा</a>-<a (click)=showDic('सुख')>सुख</a>{नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,6</a>
+row6#!n1#!निद्राजनित सुख को
+row7#!n1#!comfort out of sleep
+row8#!n1#!<a href="html/SV-V/SV-22/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-22/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><निद्रा-सुखम्>T3</a>#!html/SV-V/SV-22/samaasa5.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!भेजे.
+row2#!v#!भेजे 
+row3#!v#!भज्1{कर्तरि;लिट्;उ;एक;आत्मनेपदी;भजँ;भ्वादिः}/भज्1{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;भजँ;भ्वादिः}/भज्1{कर्मणि;लिट्;उ;एक;आत्मनेपदी;भजँ;भ्वादिः}/भज्1{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;भजँ;भ्वादिः}.
+row4#!v#!<a (click)=showDic('भज्1')>भज्1</a>{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;भजँ;भ्वादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!प्राप्त_किया.
+row7#!v#!obtained.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!वसन्ततिलका ।
+row11#!v#!-
+row12#!v#!
+
+

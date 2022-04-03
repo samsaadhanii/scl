@@ -1,0 +1,79 @@
+row1#!number#!<a href="html/SV-VII/SV-23/23.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-23/23.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">23.A</a>#!html/SV-VII/SV-23/23.jpg#!row1#!n1#!मदनरसमहौघपूर्णनाभीह्रदपरिवाहितरोम-राजयः
+row2#!number#!23.B</a>#!row2#!n1#!मदनरसमहौघपूर्णनाभीह्रदपरिवाहितरोम-राजयः
+row3#!number#!23.C</a>#!row3#!n1#!मदनरसमहौघपूर्णनाभीह्रदपरिवाहितरोम-राजि{स्त्री;1;बहु}/राजि{स्त्री;8;बहु}
+row4#!number#!23.D</a>#!row4#!n1#!<a (click)=showDic('मदनरसमहौघपूर्णनाभीह्रदपरिवाहितरोम')>मदनरसमहौघपूर्णनाभीह्रदपरिवाहितरोम</a>-<a (click)=showDic('राजि')>राजि</a>{स्त्री;1;बहु}
+row5#!number#!23.E</a>#!row5#!n1#!विशेषणम्,3
+row6#!number#!23.F</a>#!row6#!n1#!श्रृङ्गार (काम) रस के महाप्रवाह से आप्लावित नाभिरूप गहरे सरोवर के जलोछ्वास के सदृश रोमावली को धारण करनेवाली
+row7#!number#!23.G</a>#!row7#!n1#!navel endowed with a high flow of erotic sentiment and whose line of pores are like that of a  water-course
+row8#!number#!23.H#!row8#!n1#!<a href="html/SV-VII/SV-23/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-23/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<<<मदन-रस>T6-<महा-ओघ>K1>T6-पूर्ण>T3-नाभि>K1-ह्रद>K6-परिवाहित>T6-<रोम-राजिः>T6>Bs6</a>#!html/SV-VII/SV-23/samaasa1.jpg
+row9#!number#!23.I</a>#!row9#!n1#!
+row10#!number#!23.J</a>#!row10#!n1#!
+row11#!number#!23.K</a>#!row11#!n1#!
+row12#!number#!23.L</a>#!row12#!n1#!
+
+row1#!n1#!ताः
+row2#!n1#!ताः
+row3#!n1#!तद्{स्त्री;1;बहु}/तद्{स्त्री;2;बहु}
+row4#!n1#!<a (click)=showDic('तद्')>तद्</a>{स्त्री;1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n1#!वे_यादवाङ्गनाएँ
+row7#!n1#!women of Yādava race
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!सविभ्रमप्रयातप्रणदितहंसक-भूषणाः
+row2#!n1#!सविभ्रमप्रयातप्रणदितहंसक-भूषणाः
+row3#!n1#!सविभ्रमप्रयातप्रणदितहंसक-भूषण{पुं;1;बहु}/भूषण{पुं;8;बहु}
+row4#!n1#!<a (click)=showDic('सविभ्रमप्रयातप्रणदितहंसक')>सविभ्रमप्रयातप्रणदितहंसक</a>-<a (click)=showDic('भूषणा')>भूषणा</a>{स्त्री;1;बहु}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,6</a>
+row6#!n1#!विलासपूर्ण पगों की गति से विनोदित नूपुररूप भूषणों से अलंकृत
+row7#!n1#!who with their lovely walk ring their anklets
+row8#!n1#!<a href="html/SV-VII/SV-23/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-23/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<सविभ्रम-प्रयात>T3-प्रणदित>T3-हंसक>K3-भूषणा>Bs6</a>#!html/SV-VII/SV-23/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!सरितः
+row2#!n1#!सरितः
+row3#!n1#!सरित्{स्त्री;1;बहु}/सरित्{स्त्री;2;बहु}/सरित्{स्त्री;5;एक}/सरित्{स्त्री;6;एक}/सरित्{स्त्री;8;बहु}
+row4#!n1#!<a (click)=showDic('सरित्')>सरित्</a>{स्त्री;1;बहु}
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,5</a>
+row6#!n1#!नदियाँ
+row7#!n1#!rivers
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इव
+row2#!NA#!इव
+row3#!NA#!इव{अव्य}
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,3</a>
+row6#!NA#!जैसे
+row7#!NA#!like
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!विरेजुः
+row2#!v#!विरेजुः
+row3#!v#!वि_राज्1{कर्तरि;लिट्;प्र;बहु;उभयपदी;राजृँ;भ्वादिः}
+row4#!v#!<a (click)=showDic('वि_राज्1')>वि_राज्1</a>{कर्तरि;लिट्;प्र;बहु;उभयपदी;राजृँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!परिलक्षित_हो_रही_थीं.
+row7#!v#!shone.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!पुष्पिताग्रा ।
+row11#!v#!उपमा ।
+row12#!v#!
+
+

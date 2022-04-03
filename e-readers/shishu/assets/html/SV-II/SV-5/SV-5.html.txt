@@ -1,0 +1,92 @@
+row1#!number#!<a href="html/SV-II/SV-5/5.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-5/5.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">5.A</a>#!html/SV-II/SV-5/5.jpg#!row1#!n1#!अमी
+row2#!number#!5.B</a>#!row2#!n1#!अमी 
+row3#!number#!5.C</a>#!row3#!n1#!अदस्{पुं}{1;बहु} 
+row4#!number#!5.D</a>#!row4#!n1#!<a (click)=showDic('अदस्')>अदस्</a>{पुं}{1;बहु} 
+row5#!number#!5.E</a>#!row5#!n1#!कर्ता,4
+row6#!number#!5.F</a>#!row6#!n1#!ये तीन
+row7#!number#!5.G</a>#!row7#!n1#!These three
+row8#!number#!5.H#!row8#!n1#!
+row9#!number#!5.I</a>#!row9#!n1#!
+row10#!number#!5.J</a>#!row10#!n1#!
+row11#!number#!5.K</a>#!row11#!n1#!
+row12#!number#!5.L</a>#!row12#!n1#!
+
+row1#!n2#!यानि
+row2#!n2#!यानि 
+row3#!n2#!यद्{नपुं}{1;बहु}/यद्{नपुं}{2;बहु}/या1{कर्तरि;लोट्;उ;एक;परस्मैपदी;या;अदादिः} 
+row4#!n2#!<a (click)=showDic('यद्')>यद्</a>{नपुं}{2;बहु}
+row5#!n2#!<a href="javascript:show('नित्यसम्बन्धः,')">नित्यसम्बन्धः,5</a>
+row6#!n2#!ये तीन
+row7#!n2#!which
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!उत्तुङ्ग-हेम-पीठानि
+row2#!n2#!उत्तुङ्ग-हेम-पीठानि
+row3#!n2#!उत्तुङ्ग-हेमन्-पीठ{नपुं}{1;बहु}/पीठ{नपुं}{2;बहु} 
+row4#!n2#!<a (click)=showDic('उत्तुङ्ग')>उत्तुङ्ग</a>-<a (click)=showDic('हेम')>हेम</a>-<a (click)=showDic('पीठ')>पीठ</a>{नपुं}{2;बहु}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,4</a>
+row6#!n2#!ये तीन
+row7#!n2#!the lofty golden seats
+row8#!n2#!<a href="html/SV-II/SV-5/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-5/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><उत्तुङ्ग-<हेम-पीठम्>T6>K3</a>#!html/SV-II/SV-5/samaasa1.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!अध्यासामासुः
+row2#!v#!अध्यासामासुः 
+row3#!v#!अधि_आस्1{कर्तरि;लिट्;प्र;बहु;आत्मनेपदी;आसँ;अदादिः} 
+row4#!v#!<a (click)=showDic('अधि_आस्1')>अधि_आस्1</a>{कर्तरि;लिट्;प्र;बहु;आत्मनेपदी;आसँ;अदादिः} 
+row5#!v#!<a href="javascript:show('प्रतियोगी ')">प्रतियोगी 5</a>
+row6#!v#!ये तीन
+row7#!v#!occupied
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!‘अधिशीङ्स्थासां कर्म’ (1।4।46) इति कर्मत्वम् । ‘आस उपवेशने’ लिट् । ‘दयायासश्र’ (3।1।37) इत्याम्प्रत्ययः । ‘कृञ्चानुप्रयुज्यते लिटि’ (3।1।40) इत्यस्तेरनुप्रयोगः । ‘आमप्रत्ययवत्कृञोऽनुप्रयोगस्य’ (1।3।63) इति कृञ एवेति नियमादस्तेर्नात्मनेपदम् ।
+
+row1#!n3#!तैः
+row2#!n3#!तैः 
+row3#!n3#!तद्{पुं}{3;बहु}/तद्{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('तद्')>तद्</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,7</a>
+row6#!n3#!ये तीन
+row7#!n3#!by those seats
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!केसरिक्रान्त-त्रिकूट-शिखरोपमा
+row2#!n1#!केसरिक्रान्त-त्रिकूट-शिखरोपमा 
+row3#!n1#!केसरिक्रान्त-त्रिकूट-शिखरोपमा{स्त्री}{1;एक}
+row4#!n1#!<a (click)=showDic('केसरिक्रान्त')>केसरिक्रान्त</a>-<a (click)=showDic('त्रिकूट')>त्रिकूट</a>-<a (click)=showDic('शिखरोपमा')>शिखरोपमा</a>{स्त्री}{1;एक}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,7</a>
+row6#!n1#!ये तीन
+row7#!n1#!the resemblance of the peaks of Trikūṭa mountain
+row8#!n1#!<a href="html/SV-II/SV-5/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-5/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<केसरि-क्रान्त>T3-<त्रिकूट-शिखर>T6>K1-उपमा>T6</a>#!html/SV-II/SV-5/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!ऊहे.
+row2#!v#!ऊहे 
+row3#!v#!ऊह्1{कर्तरि;लट्;उ;एक;आत्मनेपदी;ऊहँ;भ्वादिः}/ऊह{पुं}{7;एक}. 
+row4#!v#!<a (click)=showDic('वह्1')>वह्1</a>{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;वहँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!ये तीन
+row7#!v#!was borne.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!उपमा ।
+row12#!v#!
+
+

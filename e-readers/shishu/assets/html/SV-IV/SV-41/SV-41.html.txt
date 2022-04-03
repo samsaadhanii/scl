@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-IV/SV-41/41.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-41/41.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">41.A</a>#!html/SV-IV/SV-41/41.jpg#!row1#!NA#!इह
+row2#!number#!41.B</a>#!row2#!NA#!इह 
+row3#!number#!41.C</a>#!row3#!NA#!इह{अव्य} 
+row4#!number#!41.D</a>#!row4#!NA#!<a (click)=showDic('इह')>इह</a>{अव्य} 
+row5#!number#!41.E</a>#!row5#!NA#!अधिकरणम्,10
+row6#!number#!41.F</a>#!row6#!NA#!यहाँ (इस रैवतक पर्वत_पर)
+row7#!number#!41.G</a>#!row7#!NA#!Here on this Raivataka mountain
+row8#!number#!41.H#!row8#!NA#!
+row9#!number#!41.I</a>#!row9#!NA#!
+row10#!number#!41.J</a>#!row10#!NA#!
+row11#!number#!41.K</a>#!row11#!NA#!
+row12#!number#!41.L</a>#!row12#!NA#!
+
+row1#!n1#!विरल-विकीर्ण-वज्रशकला
+row2#!n1#!विरल-विकीर्ण-वज्रशकला 
+row3#!n1#!विरल-विकीर्ण-वज्रशकला 
+row4#!n1#!<a (click)=showDic('विरल')>विरल</a>-<a (click)=showDic('विकीर्ण')>विकीर्ण</a>-<a (click)=showDic('वज्रशकला')>वज्रशकला</a>{स्त्री}{1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n1#!पृथक-पृथक बिखरे हुए हीरों_के_टुकड़ोंवाली
+row7#!n1#!with fragments of diamonds loosely scattered on it
+row8#!n1#!<a href="html/SV-IV/SV-41/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-41/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<विरल-विकीर्ण>K3-<वज्र-शकला>T6>Bs7</a>#!html/SV-IV/SV-41/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!धौत-कलधौत-मही
+row2#!n1#!धौत-कलधौत-मही 
+row3#!n1#!धौत-कलधौत-मही{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('धौत')>धौत</a>-<a (click)=showDic('कलधौत')>कलधौत</a>-<a (click)=showDic('मही')>मही</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n1#!शुभ्र चाँदी_की_भूमि
+row7#!n1#!the white ground of silver
+row8#!n1#!<a href="html/SV-IV/SV-41/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-41/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><धौत-<कलधौत-मही>T6>K3</a>#!html/SV-IV/SV-41/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!जलदेन
+row2#!n3#!जलदेन 
+row3#!n3#!जलद{पुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('जलद')>जलद</a>{पुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,10</a>
+row6#!n3#!मेघ_से
+row7#!n3#!by the cloud
+row8#!n3#!<a href="html/SV-IV/SV-41/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-41/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><जल-दः>U</a>#!html/SV-IV/SV-41/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n6#!अनतिचिर-उज्झितस्य
+row2#!n6#!अनतिचिर-उज्झितस्य 
+row3#!n6#!अनतिचिरोज्झित{पुं}{6;एक}/चिरोज्झित{नपुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('अनतिचिरोज्झित')>अनतिचिरोज्झित</a>{नपुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n6#!अभी गिराये गये (तथा)
+row7#!n6#!just poured down
+row8#!n6#!<a href="html/SV-IV/SV-41/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-41/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<न-अतिचिर>Tn-उज्झितम्>Bs6</a>#!html/SV-IV/SV-41/samaasa4.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!चिर-स्थित-बुद्बुदस्य
+row2#!n6#!चिर-स्थित-बुद्बुदस्य 
+row3#!n6#!चिर-स्थित-बुद्बुद{पुं}{6;एक}/बुद्बुद{नपुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('चिर')>चिर</a>-<a (click)=showDic('स्थित')>स्थित</a>-<a (click)=showDic('बुद्बुद')>बुद्बुद</a>{नपुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n6#!चिरकाल स्थिर रहनेवाले बुद्बुदवाले
+row7#!n6#!(and) having numerous bubbles that remain on it for a long time
+row8#!n6#!<a href="html/SV-IV/SV-41/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-41/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<चिर-स्थित>K1-बुद्बुदम्>Bs7</a>#!html/SV-IV/SV-41/samaasa5.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!पयसः
+row2#!n6#!पयसः 
+row3#!n6#!पयस्{नपुं}{5;एक}/पयस्{नपुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('पयस्')>पयस्</a>{नपुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,8</a>
+row6#!n6#!पानी_की
+row7#!n6#!to water
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!सकलाम्
+row2#!n2#!सकलाम् 
+row3#!n2#!सकला{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('सकला')>सकला</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n2#!पूर्ण_रूप_से
+row7#!n2#!complete
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!अनुकृतिं
+row2#!n2#!अनुकृतिं 
+row3#!n2#!अनुकृति{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('अनुकृति')>अनुकृति</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n2#!समानता_को
+row7#!n2#!resemblance
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!विदधाति.
+row2#!v#!विदधाति 
+row3#!v#!वि_धा1{कर्तरि;लट्;प्र;एक;उभयपदी;डुधाञ्;जुहोत्यादिः}.
+row4#!v#!<a (click)=showDic('वि_धा1')>वि_धा1</a>{कर्तरि;लट्;प्र;एक;उभयपदी;डुधाञ्;जुहोत्यादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!धारण_कर_रहा_है.
+row7#!v#!bears.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!कुररीरुता ।
+row11#!v#!अतिशयोक्तिः ।
+row12#!v#!
+
+

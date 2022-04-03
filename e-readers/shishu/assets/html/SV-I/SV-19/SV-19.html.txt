@@ -1,0 +1,313 @@
+row1#!number#!<a href="html/SV-I/SV-19/19.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-19/19.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">19.A</a>#!html/SV-I/SV-19/19.jpg#!row1#!n1#!नव-अम्बुदश्याम-तनुः
+row2#!number#!19.B</a>#!row2#!n1#!नव-अम्बुदश्याम-तनुः 
+row3#!number#!19.C</a>#!row3#!n1#!नव-अम्बुदश्याम-तनु{पुं}{1;एक}/तनु{स्त्री}{1;एक}/तनुस्{नपुं}{1;एक}/तनुस्{नपुं}{2;एक} 
+row4#!number#!19.D</a>#!row4#!n1#!<a (click)=showDic('नव')>नव</a>-<a (click)=showDic('अम्बुदश्याम')>अम्बुदश्याम</a>-<a (click)=showDic('तनु')>तनु</a>{पुं}{1;एक} 
+row5#!number#!19.E</a>#!row5#!n1#!विशेषणम्,2
+row6#!number#!19.F</a>#!row6#!n1#!नये मेघ के समान श्याम शरीर
+row7#!number#!19.G</a>#!row7#!n1#!was resembling the new cloud (with his dark complexion)
+row8#!number#!19.H#!row8#!n1#!<a href="html/SV-I/SV-19/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-19/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<नव-अम्बुद>K3-<श्याम-तनुः>K3>Bs6</a>#!html/SV-I/SV-19/samaasa1.jpg
+row9#!number#!19.I</a>#!row9#!n1#!
+row10#!number#!19.J</a>#!row10#!n1#!
+row11#!number#!19.K</a>#!row11#!n1#!
+row12#!number#!19.L</a>#!row12#!n1#!
+
+row1#!n1#!सः
+row2#!n1#!सः 
+row3#!n1#!तद्{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('तद्')>तद्</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,7</a>
+row6#!n1#!वह (श्रीकृष्ण)
+row7#!n1#!he (Śrī Kṛṣṇa)
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!मुनेः
+row2#!n6#!मुनेः 
+row3#!n6#!मुनि{पुं}{5;एक}/मुनि{पुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('मुनि')>मुनि</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,4</a>
+row6#!n6#!मुनि_की 
+row7#!n6#!of the sage
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n3#!अनुज्ञया
+row2#!n3#!अनुज्ञया 
+row3#!n3#!अनुज्ञा{स्त्री}{3;एक} 
+row4#!n3#!<a (click)=showDic('अनुज्ञा')>अनुज्ञा</a>{स्त्री}{3;एक} 
+row5#!n3#!<a href="javascript:show('हेतुः,')">हेतुः,5</a>
+row6#!n3#!अनुज्ञा_से 
+row7#!n3#!permission
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n7#!काञ्चने
+row2#!n7#!काञ्चने 
+row3#!n7#!काञ्चन{नपुं}{1;द्वि}/काञ्चन{नपुं}{2;द्वि}/काञ्चन{नपुं}{7;एक} 
+row4#!n7#!<a (click)=showDic('काञ्चन')>काञ्चन</a>{नपुं}{7;एक} 
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,7</a>
+row6#!n7#!सोने_का_बना_हुओं_का 
+row7#!n7#!golden seat
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!NA#!यत्र
+row2#!NA#!यत्र 
+row3#!NA#!यत्र{अव्य} 
+row4#!NA#!<a (click)=showDic('यत्र')>यत्र</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('नित्यसम्बन्धः,')">नित्यसम्बन्धः,8</a>
+row6#!NA#!जहां 
+row7#!NA#!where
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!न्यविक्षत
+row2#!v#!न्यविक्षत 
+row3#!v#!नि_विश्1{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;विशँ;तुदादिः} 
+row4#!v#!<a (click)=showDic('नि_विश्1')>नि_विश्1</a>{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;विशँ;तुदादिः} 
+row5#!v#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,8</a>
+row6#!v#!बैठा_है
+row7#!v#!sat
+row8#!v#!-
+row9#!v#!अकर्मककर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!निपूर्वकविशो लुङि ‘नेविंशः’ (1।3।17) । इत्यात्मनेपदे ‘शल इगुपधादनिटः क्सः’ (3।1।45) ।
+
+row1#!n1#!तत्
+row2#!n1#!तत् 
+row3#!n1#!तद्{नपुं}{1;एक}/तद्{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('तद्')>तद्</a>{नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,14</a>
+row6#!n1#!उस 
+row7#!n1#!there
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!आसनं
+row2#!n1#!आसनं 
+row3#!n1#!आसन{नपुं}{1;एक}/आसन{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('आसन')>आसन</a>{नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,14</a>
+row6#!n1#!आसन
+row7#!n1#!seat
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!तदा
+row2#!NA#!तदा 
+row3#!NA#!तदा{अव्य} 
+row4#!NA#!<a (click)=showDic('तदा')>तदा</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('कालाधिकरणम्,')">कालाधिकरणम्,14</a>
+row6#!NA#!तब 
+row7#!NA#!then
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n6#!जम्बू-जनित-श्रियः
+row2#!n6#!जम्बू-जनित-श्रियः 
+row3#!n6#!जम्बू-जनित-श्री{स्त्री}{1;बहु}/श्री{स्त्री}{5;एक}/श्री{स्त्री}{6;एक}/श्री{स्त्री}{2;बहु} 
+row4#!n6#!<a (click)=showDic('जम्बू')>जम्बू</a>-<a (click)=showDic('जनित')>जनित</a>-<a (click)=showDic('श्री')>श्री</a>{नपुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,12</a>
+row6#!n6#!जामुन से शोभायमान
+row7#!n6#!adorned with Jāmūn tree
+row8#!n6#!<a href="html/SV-I/SV-19/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-19/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<जम्बू-जनित>T3-श्री>Bs6</a>#!html/SV-I/SV-19/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!सुमेरु-श्रृङ्गस्य
+row2#!n6#!सुमेरु-श्रृङ्गस्य 
+row3#!n6#!सुमेरु-श्रृङ्ग{नपुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('सुमेरु')>सुमेरु</a>-<a (click)=showDic('श्रृङ्ग')>श्रृङ्ग</a>{नपुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,13</a>
+row6#!n6#!सुमेरु_पर्वत-की_चोटी_की
+row7#!n6#!of the peaks of Sumeru mountain
+row8#!n6#!<a href="html/SV-I/SV-19/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-19/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सुमेरु-शृङ्गम्>T6</a>#!html/SV-I/SV-19/samaasa3.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!श्रियं
+row2#!n2#!श्रियं 
+row3#!n2#!श्री{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('श्री')>श्री</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,14</a>
+row6#!n2#!शोभा_को
+row7#!n2#!beauty
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!जिगाय.
+row2#!v#!जिगाय 
+row3#!v#!जि1{कर्तरि;लिट्;उ;एक;परस्मैपदी;जि;भ्वादिः}/जि1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;जि;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('जि1')>जि1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;जि;भ्वादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!जीता. 
+row7#!v#!won over
+row8#!v#!-
+row9#!v#!सकर्मककर्तरि
+row10#!v#!वंशस्थम् ।
+row11#!v#!उपमा + अनुप्रासः ।
+row12#!v#!‘सन्लिटेर्जः (7।3।57) इति कुत्वम्’ ।
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show(' ,')"> ,</a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+

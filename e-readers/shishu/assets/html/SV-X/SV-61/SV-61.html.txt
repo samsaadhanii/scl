@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-X/SV-61/61.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-61/61.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">61.A</a>#!html/SV-X/SV-61/61.jpg#!row1#!n1#!आकुलवधूकर-सङ्गि
+row2#!number#!61.B</a>#!row2#!n1#!आकुलवधूकर-सङ्गि
+row3#!number#!61.C</a>#!row3#!n1#!आकुलवधूकर-सङ्गिन्{;नपुं;1;एक}/सङ्गिन्{;नपुं;2;एक}/सङ्गी{;स्त्री;8;एक}
+row4#!number#!61.D</a>#!row4#!n1#!<a (click)=showDic('आकुलवधूकर')>आकुलवधूकर</a>-<a (click)=showDic('सङ्गिन्')>सङ्गिन्</a>{;नपुं;1;एक}
+row5#!number#!61.E</a>#!row5#!n1#!विशेषणम्,5
+row6#!number#!61.F</a>#!row6#!n1#!(प्रियतम के अपनी नीवि को खोलने के लिए तत्पर) हाथ को रोकने में आकुल
+row7#!number#!61.G</a>#!row7#!n1#!who was engrossed in stopping the hand of her beloved (while trying to untie the knot of her lower garment)
+row8#!number#!61.H#!row8#!n1#!<a href="html/SV-X/SV-61/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-61/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<आकुल-<वधू-कर>T6>K3-सङ्गि>T7</a>#!html/SV-X/SV-61/samaasa1.jpg
+row9#!number#!61.I</a>#!row9#!n1#!
+row10#!number#!61.J</a>#!row10#!n1#!
+row11#!number#!61.K</a>#!row11#!n1#!
+row12#!number#!61.L</a>#!row12#!n1#!
+
+row1#!n1#!मेखलागुण-विलग्नं
+row2#!n1#!मेखलागुण-विलग्नं
+row3#!n1#!मेखलागुण-विलग्न{;पुं;2;एक}/विलग्न{;नपुं;1;एक}/विलग्न{;नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('मेखलागुण')>मेखलागुण</a>-<a (click)=showDic('विलग्न')>विलग्न</a>{;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!करधनी की लड़ी के (बड़ी होने से उसमें) अनेक बार लपेटकर बाँधा गया
+row7#!n1#!which was entangled with the chains of her girdle
+row8#!n1#!<a href="html/SV-X/SV-61/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-61/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<मेखला-गुण>K6-विलग्नम्>T7</a>#!html/SV-X/SV-61/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!दीर्घ-सूत्रं
+row2#!n1#!दीर्घ-सूत्रं
+row3#!n1#!दीर्घ-सूत्र{;पुं;2;एक}/सूत्र{;नपुं;1;एक}/सूत्र{;नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('दीर्घ')>दीर्घ</a>-<a (click)=showDic('सूत्र')>सूत्र</a>{;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!लम्बी_रस्सी
+row7#!n1#!the long chain
+row8#!n1#!<a href="html/SV-X/SV-61/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-61/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><दीर्घ-सूत्रम्>K3</a>#!html/SV-X/SV-61/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!कृतरतोत्सवकाल-क्षेपं
+row2#!n1#!कृतरतोत्सवकाल-क्षेपं
+row3#!n1#!कृतरतोत्सवकाल-क्षेप{;पुं;2;एक}/क्षेप{;नपुं;1;एक}/क्षेप{;नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('कृतरतोत्सवकाल')>कृतरतोत्सवकाल</a>-<a (click)=showDic('क्षेप')>क्षेप</a>{;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!रतोत्सवकाल में विलम्ब किया हुआ
+row7#!n1#!the cause of delay for the feast of sexual enjoyment
+row8#!n1#!<a href="html/SV-X/SV-61/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-61/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<कृत-<रत-उत्सव>T6-कालक्षेपम्>T6>Bs3</a>#!html/SV-X/SV-61/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!परिधानं
+row2#!n1#!परिधानं
+row3#!n1#!परिधान{;नपुं;1;एक(;ल्युट्;डुधाञ्;जुहोत्यादिः)}/परिधान{;नपुं;2;एक(;ल्युट्;डुधाञ्;जुहोत्यादिः)}
+row4#!n1#!<a (click)=showDic('परिधान')>परिधान</a>{;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n1#!वह (रमणी का) वस्त्र
+row7#!n1#!lower skirt
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!कामिनः
+row2#!n6#!कामिनः
+row3#!n6#!कामिन्{;पुं;1;बहु}/कामिन्{;पुं;2;बहु}/कामिन्{;पुं;5;एक}/कामिन्{;पुं;6;एक}/कामिन्{;पुं;8;बहु}
+row4#!n6#!<a (click)=showDic('कामिन्')>कामिन्</a>{;पुं;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,7</a>
+row6#!n6#!कामासक्त_की
+row7#!n6#!of a passionate person
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!असूयाम्
+row2#!n2#!असूयाम्
+row3#!n2#!असूया{;स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('असूया')>असूया</a>{;स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n2#!ईर्ष्यापात्र
+row7#!n2#!object of jealousy
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!अकरोत्
+row2#!v#!अकरोत्
+row3#!v#!कृ3{कर्तरि;लङ्;प्र;एक;परस्मैपदी;डुकृञ्;तनादिः}
+row4#!v#!<a (click)=showDic('कृ3')>कृ3</a>{कर्तरि;लङ्;प्र;एक;परस्मैपदी;डुकृञ्;तनादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!हो_गया.
+row7#!v#!became.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!स्वागता ।
+row11#!v#!काव्यलिङ्गम् ।
+row12#!v#!
+
+

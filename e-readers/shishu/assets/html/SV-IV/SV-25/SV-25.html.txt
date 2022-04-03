@@ -1,0 +1,170 @@
+row1#!number#!<a href="html/SV-IV/SV-25/25.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-25/25.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">25.A</a>#!html/SV-IV/SV-25/25.jpg#!row1#!n3#!उच्छित-सितांशु-कर-अवलम्बैः
+row2#!number#!25.B</a>#!row2#!n3#!उच्छित-सितांशु-कर-अवलम्बैः 
+row3#!number#!25.C</a>#!row3#!n3#!उच्छित-सितांशु-कर-अवलम्ब{पुं}{3;बहु} 
+row4#!number#!25.D</a>#!row4#!n3#!<a (click)=showDic('उच्छित')>उच्छित</a>-<a (click)=showDic('सितांशु')>सितांशु</a>-<a (click)=showDic('कर')>कर</a>-<a (click)=showDic('अवलम्ब')>अवलम्ब</a>{नपुं}{3;बहु} 
+row5#!number#!25.E</a>#!row5#!n3#!विशेषणम्,3
+row6#!number#!25.F</a>#!row6#!n3#!ऊपर_की_ओर_उठी_हुई_चन्द्र_किरण_रूपी-हाथों_के_अवलम्बन_वाले
+row7#!number#!25.G</a>#!row7#!n3#!The raised hands of the moon and
+row8#!number#!25.H#!row8#!n3#!<a href="html/SV-IV/SV-25/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-25/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<उत्क्षिप्त-<सितांशु-कर>T6>K3-अवलम्बम्>Bs6</a>#!html/SV-IV/SV-25/samaasa1.jpg
+row9#!number#!25.I</a>#!row9#!n3#!
+row10#!number#!25.J</a>#!row10#!n3#!
+row11#!number#!25.K</a>#!row11#!n3#!
+row12#!number#!25.L</a>#!row12#!n3#!
+
+row1#!n3#!उत्तम्भित-उडुभिः
+row2#!n3#!उत्तम्भित-उडुभिः 
+row3#!n3#!उत्तम्भित-उडु{स्त्री}{3;बहु} 
+row4#!n3#!<a (click)=showDic('उत्तम्भित')>उत्तम्भित</a>-<a (click)=showDic('उडु')>उडु</a>{नपुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n3#!ताराओं_को_ऊपर_अवलम्बन_किये_हुए
+row7#!n3#!which have propped themselves on the stars
+row8#!n3#!<a href="html/SV-IV/SV-25/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-25/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><उत्तम्भित-उडु>Bs3</a>#!html/SV-IV/SV-25/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!शिरोभिः
+row2#!n3#!शिरोभिः 
+row3#!n3#!शिरस्{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('शिरस्')>शिरस्</a>{नपुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,5</a>
+row6#!n3#!शिखरों_से (मस्तकों_से)
+row7#!n3#!of the mountain-torents
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!अतीव-तराम्
+row2#!NA#!अतीव-तराम् 
+row3#!NA#!अतीव-तरा{स्त्री}{2;एक} 
+row4#!NA#!<a (click)=showDic('अतीव_तरप्_आम्')>अतीव_तरप्_आम्</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया_विशेषणम्,')">क्रिया_विशेषणम्,5</a>
+row6#!NA#!अत्यन्त
+row7#!NA#!mostly
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!उत्क्षिप्तम्
+row2#!n1#!उत्क्षिप्तम् 
+row3#!n1#!उत्क्षिप्त{पुं}{2;एक}/उत्क्षिप्त{नपुं}{1;एक}/उत्क्षिप्त{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('उत्_क्षिप्1')>उत्_क्षिप्1</a>{कृत्_प्रत्ययः:क्त;क्षिपँ;दिवादिः;नपुं}{1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!ऊपर_उठाया_गया
+row7#!n1#!held up by the heads
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!अन्तरिक्षं
+row2#!n1#!अन्तरिक्षं 
+row3#!n1#!अन्तरिक्ष{नपुं}{1;एक}/अन्तरिक्ष{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('अन्तरिक्ष')>अन्तरिक्ष</a>{नपुं}{1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!आकाश-मण्डल
+row7#!n1#!the sky
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!श्रद्धेय-निर्झर-जल-व्यपदेशम्
+row2#!n1#!श्रद्धेय-निर्झर-जल-व्यपदेशम् 
+row3#!n1#!श्रद्धेय-निर्झर-जल-व्यपदेश{पुं}{2;एक}/व्यपदेश{नपुं}{1;एक}/व्यपदेश{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('श्रद्धेय')>श्रद्धेय</a>-<a (click)=showDic('निर्झर')>निर्झर</a>-<a (click)=showDic('जल')>जल</a>-<a (click)=showDic('व्यपदेश')>व्यपदेश</a>{नपुं}{1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,11</a>
+row6#!n1#!निर्झरजल_के_समान
+row7#!n1#!under the credible title of the water
+row8#!n1#!<a href="html/SV-IV/SV-25/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-25/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><श्रद्धेयनिर्झर-जलव्यपदेशम्>Bs6</a>#!html/SV-IV/SV-25/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!अस्य
+row2#!n6#!अस्य 
+row3#!n6#!इदम्{पुं}{6;एक}/इदम्{नपुं}{6;एक}/अस्3{कर्तरि;लोट्;म;एक;परस्मैपदी;असुँ;दिवादिः} 
+row4#!n6#!<a (click)=showDic('इदम्')>इदम्</a>{पुं}{6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,9</a>
+row6#!n6#!इस_के
+row7#!n6#!of this (mountain)
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n7#!तटेषु
+row2#!n7#!तटेषु 
+row3#!n7#!तट{पुं}{7;बहु} 
+row4#!n7#!<a (click)=showDic('तट')>तट</a>{पुं}{7;बहु} 
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,11</a>
+row6#!n7#!तटों_पर
+row7#!n7#!on the slopes
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!NA#!विष्वक्
+row2#!NA#!विष्वक् 
+row3#!NA#!विष्वक्{अव्य} 
+row4#!NA#!<a (click)=showDic('विष्वक्')>विष्वक्</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('क्रिया_विशेषणम्,')">क्रिया_विशेषणम्,11</a>
+row6#!NA#!चारो-ओर
+row7#!NA#!all around
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!पतति
+row2#!v#!पतति 
+row3#!v#!पत्1{कर्तरि;लट्;प्र;एक;परस्मैपदी;पतॢँ;भ्वादिः}/पतत्{पुं}{7;एक}/पतत्{नपुं}{7;एक} 
+row4#!v#!<a (click)=showDic('पत्1')>पत्1</a>{कर्तरि;लट्;प्र;एक;परस्मैपदी;पतॢँ;भ्वादिः} 
+row5#!v#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,12</a>
+row6#!v#!गिरता_है 
+row7#!v#!falling
+row8#!v#!-
+row9#!v#!
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!NA#!(इति)
+row2#!NA#!इति
+row3#!NA#!इति{अव्य} 
+row4#!NA#!<a (click)=showDic('इति')>इति</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,13</a>
+row6#!NA#!ऐसा 
+row7#!NA#!thus
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!स्फुटम्.
+row2#!NA#!स्फुटम् 
+row3#!NA#!स्फुट{पुं}{2;एक}. 
+row4#!NA#!<a (click)=showDic('स्फुट')>स्फुट</a>{अव्य}.
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,11</a>
+row6#!NA#!सत्य_है.
+row7#!NA#!is evident.
+row8#!NA#!-
+row9#!NA#!कर्तरि
+row10#!NA#!वसन्ततिलका ।
+row11#!NA#!उत्प्रेक्षा ।
+row12#!NA#!
+
+

@@ -1,0 +1,430 @@
+row1#!number#!<a href="html/SV-VI/SV-61/61.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-61/61.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">61.A</a>#!html/SV-VI/SV-61/61.jpg#!row1#!n2#!समर-मयम्
+row2#!number#!61.B</a>#!row2#!n2#!समर-मयम्
+row3#!number#!61.C</a>#!row3#!n2#!समर-मय{पुं;2;एक}
+row4#!number#!61.D</a>#!row4#!n2#!<a (click)=showDic('समर')>समर</a>-<a (click)=showDic('मय')>मय</a>{पुं;2;एक}
+row5#!number#!61.E</a>#!row5#!n2#!विशेषणम्,3
+row6#!number#!61.F</a>#!row6#!n2#!कामजन्य
+row7#!number#!61.G</a>#!row7#!n2#!Born out of cupid
+row8#!number#!61.H#!row8#!n2#!
+row9#!number#!61.I</a>#!row9#!n2#!
+row10#!number#!61.J</a>#!row10#!n2#!
+row11#!number#!61.K</a>#!row11#!n2#!
+row12#!number#!61.L</a>#!row12#!n2#!'तत आगतः' (4।3।74) इति मयट् ।
+
+row1#!n2#!अकृत्रिमम्
+row2#!n2#!अकृत्रिमम्
+row3#!n2#!अ-{अव्य-कृत्रिम;नपुं;1;एक}/कृत्रिम{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('अकृत्रिम')>अकृत्रिम</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n2#!स्वाभाविक
+row7#!n2#!natural
+row8#!n2#!<a href="html/SV-VI/SV-61/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-61/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-कृत्रिमः>Tn</a>#!html/SV-VI/SV-61/samaasa1.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!अनु-रागं
+row2#!n2#!अनु-रागं
+row3#!n2#!अनु-राग{पुं;2;एक}
+row4#!n2#!<a (click)=showDic('अनु')>अनु</a>-<a (click)=showDic('राग')>राग</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,4</a>
+row6#!n2#!अनु-राग_को
+row7#!n2#!love
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n7#!प्रकटयति
+row2#!n7#!प्रकटयति
+row3#!n7#!प्र_कट्1_णिच्{कर्तरि;लट्;प्र;एक;परस्मैपदी;कटे;भ्वाडिः}
+row4#!n7#!<a (click)=showDic('प्र_कट्2_णिच्')>प्र_कट्2_णिच्</a>{कृत्_प्रत्ययः:शतृ;कटीँ;भ्वादिः;पुं}{7;एक}
+row5#!n7#!<a href="javascript:show('समानकालः,')">समानकालः,13</a>
+row6#!n7#!उत्पन्न_करने_वाली
+row7#!n7#!that which invokes
+row8#!n7#!-
+row9#!n7#!कर्तरि
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!NA#!सुतराम्
+row2#!NA#!सुतराम्
+row3#!NA#!सुतराम्}
+row4#!NA#!<a (click)=showDic('सुतराम्')>सुतराम्</a>{अव्य}
+row5#!NA#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!NA#!अत्यन्त
+row7#!NA#!utmost
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n7#!उप-कारिणि
+row2#!n7#!उप-कारिणि
+row3#!n7#!उप-{अव्य-कारि;नपुं;7;एक}
+row4#!n7#!<a (click)=showDic('उप')>उप</a>-<a (click)=showDic('कारि')>कारि</a>{नपुं;7;एक}
+row5#!n7#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n7#!उपकारक
+row7#!n7#!subservient
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!हिम-ऋतौ
+row2#!n7#!हिम-ऋतौ
+row3#!n7#!हिम-ऋतु{पुं;7;एक}
+row4#!n7#!<a (click)=showDic('हिम')>हिम</a>-<a (click)=showDic('ऋतु')>ऋतु</a>{पुं;7;एक}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,13</a>
+row6#!n7#!हेमन्त_ऋतु_में
+row7#!n7#!in winter season
+row8#!n7#!<a href="html/SV-VI/SV-61/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-61/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><हिम-ऋतुः>K3</a>#!html/SV-VI/SV-61/samaasa2.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!सांहितः 'ऋत्यकः' (6।1।128) इति प्रकृतिभावः ।
+
+row1#!NA#!अपि
+row2#!NA#!अपि
+row3#!NA#!अपि{अव्य}
+row4#!NA#!<a (click)=showDic('अपि')>अपि</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,7</a>
+row6#!NA#!भी
+row7#!NA#!though
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!भृश-स्विदः
+row2#!n1#!भृश-स्विदः
+row3#!n1#!भृश-स्विदः}
+row4#!n1#!<a (click)=showDic('भृश')>भृश</a>-<a (click)=showDic('स्विदः')>स्विदः</a>{स्त्री;1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,11</a>
+row6#!n1#!अत्यन्त स्वेद-युक्त
+row7#!n1#!while producing sweat
+row8#!n1#!<a href="html/SV-VI/SV-61/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-61/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><भृश-स्विदः>K3</a>#!html/SV-VI/SV-61/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!ताः
+row2#!n1#!ताः
+row3#!n1#!तद्{स्त्री;1;बहु}/तद्{स्त्री;2;बहु}
+row4#!n1#!<a (click)=showDic('तद्')>तद्</a>{स्त्री;1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,11</a>
+row6#!n1#!वे
+row7#!n1#!those
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!युवतयः
+row2#!n1#!युवतयः
+row3#!n1#!युवति{स्त्री;1;बहु}/युवति{स्त्री;8;बहु}
+row4#!n1#!<a (click)=showDic('युवति')>युवति</a>{स्त्री;1;बहु}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,13</a>
+row6#!n1#!युवतियों_ने
+row7#!n1#!women
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!विलासिनः
+row2#!n2#!विलासिनः
+row3#!n2#!विलासिन्{पुं;1;बहु}/विलासिन्{पुं;2;बहु}/विलासिन्{पुं;5;एक}/विलासिन्{पुं;6;एक}/विलासिन्{पुं;8;बहु}/विलासिन्{नपुं;5;एक}/विलासिन्{नपुं;6;एक}
+row4#!n2#!<a (click)=showDic('विलासिन्')>विलासिन्</a>{पुं;2;बहु}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,13</a>
+row6#!n2#!विलासियों_को
+row7#!n2#!sportive lovers
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!रमयन्ति
+row2#!v#!रमयन्ति
+row3#!v#!रम्1_णिच्{कर्तरि;लट्;प्र;बहु;परस्मैपदी;रमुँ;भ्वादिः}
+row4#!v#!<a (click)=showDic('रम्1_णिच्')>रम्1_णिच्</a>{कर्तरि;लट्;प्र;बहु;परस्मैपदी;रमुँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!आनन्दित
+row7#!v#!pleasure
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!NA#!स्म
+row2#!NA#!स्म
+row3#!NA#!स्म{अव्य}
+row4#!NA#!<a (click)=showDic('स्म')>स्म</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,13</a>
+row6#!NA#!किया.
+row7#!NA#!gave.
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!द्रुतविलम्बितम् ।
+row11#!NA#!यमकम् ।
+row12#!NA#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('                                      ,')">                                      ,</a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+

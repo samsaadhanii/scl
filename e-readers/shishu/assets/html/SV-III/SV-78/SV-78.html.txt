@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-III/SV-78/78.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-78/78.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">78.A</a>#!html/SV-III/SV-78/78.jpg#!row1#!n1#!अम्बु-राशिः
+row2#!number#!78.B</a>#!row2#!n1#!अम्बु-राशिः 
+row3#!number#!78.C</a>#!row3#!n1#!अम्बु-राशि{पुं}{1;एक} 
+row4#!number#!78.D</a>#!row4#!n1#!<a (click)=showDic('अम्बु')>अम्बु</a>-<a (click)=showDic('राशि')>राशि</a>{पुं}{1;एक} 
+row5#!number#!78.E</a>#!row5#!n1#!विशेषणम्,7
+row6#!number#!78.F</a>#!row6#!n1#!समुद्र
+row7#!number#!78.G</a>#!row7#!n1#!The ocean
+row8#!number#!78.H#!row8#!n1#!<a href="html/SV-III/SV-78/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-78/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अम्बु-राशिः>T6</a>#!html/SV-III/SV-78/samaasa1.jpg
+row9#!number#!78.I</a>#!row9#!n1#!
+row10#!number#!78.J</a>#!row10#!n1#!
+row11#!number#!78.K</a>#!row11#!n1#!
+row12#!number#!78.L</a>#!row12#!n1#!
+
+row1#!n2#!युगान्त-बन्धुम्
+row2#!n2#!युगान्त-बन्धुम् 
+row3#!n2#!युगान्त-बन्धु{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('युगान्त')>युगान्त</a>-<a (click)=showDic('बन्धु')>बन्धु</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n2#!प्रलयकाल_के_बान्धव
+row7#!n2#!a friend in adversity
+row8#!n2#!<a href="html/SV-III/SV-78/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-78/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<युग-अन्त>T6-बन्धुः>T7</a>#!html/SV-III/SV-78/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!उत्सङ्ग-शय्या-शयम्
+row2#!n2#!उत्सङ्ग-शय्या-शयम् 
+row3#!n2#!उत्सङ्ग-शय्या-शय{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('उत्सङ्ग')>उत्सङ्ग</a>-<a (click)=showDic('<a (click)=showDic('शय')>शय</a>्या')>शय्या</a>-शय{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n2#!उत्सङ्ग_रूपी_शय्या_पर_सोने_वाले
+row7#!n2#!who used to lie on the bed of his lap
+row8#!n2#!<a href="html/SV-III/SV-78/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-78/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<उत्सङ्ग-शय्या>K6-शयः>Bs7</a>#!html/SV-III/SV-78/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!‘अधिकरणे शेतेः’ (3।2।15) इत्यच्प्रत्ययः ।
+
+row1#!n2#!आगतं
+row2#!n2#!आगतं 
+row3#!n2#!आगत{पुं}{2;एक}/आगत{नपुं}{1;एक}/आगत{नपुं}{2;एक}/अग्1{कर्तरि;लङ्;म;द्वि;परस्मैपदी;अगँ;भ्वादिः} 
+row4#!n2#!<a (click)=showDic('आङ्_गम्1')>आङ्_गम्1</a>{कृत्_प्रत्ययः:क्त;गमॢ;भ्वादिः;पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n2#!आये_हुए
+row7#!n2#!come
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!तं
+row2#!n2#!तं 
+row3#!n2#!तद्{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('तद्')>तद्</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,6</a>
+row6#!n2#!उसको 
+row7#!n2#!him
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!वीक्ष्य
+row2#!NA#!वीक्ष्य 
+row3#!NA#!वीक्ष्य 
+row4#!NA#!<a (click)=showDic('वि_ईक्ष्1')>वि_ईक्ष्1</a>{कृत्_प्रत्ययः:ल्यप्;ईक्षँ;भ्वादिः}
+row5#!NA#!<a href="javascript:show('पूर्वकाल,')">पूर्वकाल,8</a>
+row6#!NA#!देख_कर
+row7#!NA#!seeing
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!गुरु-प्रमोद-प्रसारित-उत्तुङ्ग-तरङ्ग-बाहुः
+row2#!n1#!गुरु-प्रमोद-प्रसारित-उत्तुङ्ग-तरङ्ग-बाहुः 
+row3#!n1#!गुरु-प्रमोद-प्रसारित-उत्तुङ्ग-तरङ्ग-बाहु{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('गुरु')>गुरु</a>-<a (click)=showDic('प्रमोद')>प्रमोद</a>-<a (click)=showDic('प्रसारित')>प्रसारित</a>-<a (click)=showDic('उत्तुङ्ग')>उत्तुङ्ग</a>-<a (click)=showDic('तरङ्ग')>तरङ्ग</a>-<a (click)=showDic('बाहु')>बाहु</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n1#!अतिशय हर्ष_से_तरङ्गरूपी_बाहुओं_को_फैलाकर
+row7#!n1#!with his arms in the form of high waves
+row8#!n1#!<a href="html/SV-III/SV-78/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-78/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<गुरु-प्रमोद>K3-प्रसारित>T3-<उत्तुङ्ग-तरङ्ग>K1-बाहुः>Bs6</a>#!html/SV-III/SV-78/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!प्रत्युज्जगाम
+row2#!v#!प्रत्युज्जगाम 
+row3#!v#!प्रति_उत्_गम्1{कर्तरि;लिट्;उ;एक;परस्मैपदी;गमॢँ;भ्वादिः}/प्रति_उत्_गम्1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;गमॢँ;भ्वादिः}/प्रति_उद्_गम्1{कर्तरि;लिट्;उ;एक;परस्मैपदी;गमॢँ;भ्वादिः}/प्रति_उद्_गम्1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;गमॢँ;भ्वादिः} 
+row4#!v#!<a (click)=showDic('प्रति_उत्_गम्1')>प्रति_उत्_गम्1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;गमॢँ;भ्वादिः} 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!प्रत्युद्गमन_किया
+row7#!v#!spread out in great joy
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!उपजाति ।
+row11#!v#!उत्प्रेक्षा ।
+row12#!v#!
+
+row1#!NA#!इव.
+row2#!NA#!इव 
+row3#!NA#!इव{अव्य}. 
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}. 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,8</a>
+row6#!NA#!जैसे. 
+row7#!NA#!as it were.
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+

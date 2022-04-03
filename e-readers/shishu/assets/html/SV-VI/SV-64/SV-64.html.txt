@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-VI/SV-64/64.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-64/64.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">64.A</a>#!html/SV-VI/SV-64/64.jpg#!row1#!n1#!क्षुभितसैन्यपरागविपाण्डुर-द्युतिः
+row2#!number#!64.B</a>#!row2#!n1#!क्षुभितसैन्यपरागविपाण्डुर-द्युतिः
+row3#!number#!64.C</a>#!row3#!n1#!क्षुभितसैन्यपरागविपाण्डुर-द्युति{स्त्री;1;एक}
+row4#!number#!64.D</a>#!row4#!n1#!<a (click)=showDic('क्षुभितसैन्यपरागविपाण्डुर')>क्षुभितसैन्यपरागविपाण्डुर</a>-<a (click)=showDic('द्युति')>द्युति</a>{पुं;1;एक}
+row5#!number#!64.E</a>#!row5#!n1#!विशेषणम्,3
+row6#!number#!64.F</a>#!row6#!n1#!उठती हुई सेना की धूलि के समान श्वेत वर्ण वाले
+row7#!number#!64.G</a>#!row7#!n1#!resembling like the dust that is risen by a moving army
+row8#!number#!64.H#!row8#!n1#!<a href="html/SV-VI/SV-64/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-64/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<क्षुभित-<सैन्य-पराग>T6>K3-<विपाण्डुर-द्युतिः>Bs6>K4</a>#!html/SV-VI/SV-64/samaasa1.jpg
+row9#!number#!64.I</a>#!row9#!n1#!
+row10#!number#!64.J</a>#!row10#!n1#!
+row11#!number#!64.K</a>#!row11#!n1#!
+row12#!number#!64.L</a>#!row12#!n1#!
+
+row1#!n1#!यः
+row2#!n1#!यः
+row3#!n1#!यद्{पुं;1;एक}
+row4#!n1#!<a (click)=showDic('यद्')>यद्</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('नित्यसम्बन्धः,')">नित्यसम्बन्धः,9</a>
+row6#!n1#!जिस
+row7#!n1#!which
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!लोध्ररजश्-चयः
+row2#!n1#!लोध्ररजश्-चयः
+row3#!n1#!लोध्ररजश्-चय{पुं;1;एक}
+row4#!n1#!<a (click)=showDic('लोध्ररजश्')>लोध्ररजश्</a>-<a (click)=showDic('चय')>चय</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,7</a>
+row6#!n1#!लोध्र पुष्प के समूह ने
+row7#!n1#!bunch of white flowers of species of lotus bark tree called 'Lodhra'
+row8#!n1#!<a href="html/SV-VI/SV-64/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-64/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<लोध्र-रजस्>T6-चयः>T6</a>#!html/SV-VI/SV-64/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!भुवनानि
+row2#!n2#!भुवनानि
+row3#!n2#!भुवन{नपुं;1;बहु}/भुवन{नपुं;2;बहु}/भुवन{नपुं;8;बहु}
+row4#!n2#!<a (click)=showDic('भुवन')>भुवन</a>{नपुं;2;बहु}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,5</a>
+row6#!n2#!तीनों_लोकों_पर
+row7#!n2#!in all the three worlds
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!अभिषिषेणयिषुं
+row2#!n2#!अभिषिषेणयिषुं
+row3#!n2#!अभिषिषेणयिषुम्}
+row4#!n2#!<a (click)=showDic('अभिषिषेणयिषुम्')>अभिषिषेणयिषुम्</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n2#!सेना से चढ़ाई करने के इच्छुक
+row7#!n2#!who was willing to attack
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!'सत्यापपाश-' (3।1।25) इत्यादिना सेनाशब्दाण्णिचि सनि 'सनाशंसभिक्ष उः' (3।2।168) इत्युप्रत्ययः । 'वादिष्वभ्यासेन-' (8।3।64) इति धात्वाभ्याससकारयोः षत्वम् ।
+
+row1#!n2#!स्मरम्
+row2#!n2#!स्मरम्
+row3#!n2#!स्मर{पुं;2;एक}
+row4#!n2#!<a (click)=showDic('स्मर')>स्मर</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,7</a>
+row6#!n2#!कामदेव_को
+row7#!n2#!cupid
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!आख्यत
+row2#!v#!आख्यत
+row3#!v#!आङ्_ख्या1{कर्तरि;लुङ्;म;बहु;परस्मैपदी;ख्या;अदादिः}/आङ्_चक्ष्1{कर्तरि;लुङ्;म;बहु;आत्मनेपदी;चक्षिँङ्;अदादिः}/आङ्_चक्ष्1{कर्तरि;लुङ्;प्र;एक;आत्मनेपदी;चक्षिँङ्;अदादिः}
+row4#!v#!<a (click)=showDic('आङ्_चक्ष्1')>आङ्_चक्ष्1</a>{कर्तरि;लुङ्;प्र;एक;आत्मनेपदी;चक्षिँङ्;अदादिः}
+row5#!v#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,9</a>
+row6#!v#!सूचित_किया
+row7#!v#!indicating
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!चक्षिङः ख्याञ् । 'अस्यतिवक्तिख्यातिभ्योऽङ्' (3।1।52) इति च्लेरङादेशः ।
+
+row1#!NA#!इव
+row2#!NA#!इव
+row3#!NA#!इव{अव्य}
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,7</a>
+row6#!NA#!जैसे
+row7#!NA#!as if
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!अयं
+row2#!n1#!अयं
+row3#!n1#!इदम्{पुं;1;एक}/अय{पुं;2;एक}
+row4#!n1#!<a (click)=showDic('इदम्')>इदम्</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,12</a>
+row6#!n1#!इसने
+row7#!n1#!this
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!दिशः
+row2#!n2#!दिशः
+row3#!n2#!दिश्{स्त्री;1;बहु}/दिश्{स्त्री;2;बहु}/दिश्{स्त्री;5;एक}/दिश्{स्त्री;6;एक}/दिश्{स्त्री;8;बहु}
+row4#!n2#!<a (click)=showDic('दिश्')>दिश्</a>{स्त्री;2;बहु}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,11</a>
+row6#!n2#!दिशाओं_को
+row7#!n2#!directions
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!तिरयन्
+row2#!n1#!तिरयन्
+row3#!n1#!तिरयन्}
+row4#!n1#!<a (click)=showDic('तिर_ण्यन्त')>तिर_ण्यन्त</a>{कृत्_प्रत्ययः:शतृ;तिर;पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,12</a>
+row6#!n1#!आच्छादित_करता_हुआ
+row7#!n1#!while covering
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!तिरःशब्दात् 'तत्करोति-' (ग०) इति ण्यन्ताल्लटः शत्रादेशः ।
+
+row1#!v#!उदभूत्
+row2#!v#!उदभूत्
+row3#!v#!उत्_भू1{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;भू;भ्वादिः}
+row4#!v#!<a (click)=showDic('उत्_भू1')>उत्_भू1</a>{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;भू;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!प्रकट_हुआ.
+row7#!v#!sprang up.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!उत्प्रेक्षा + यमकम् = सङ्करः ।
+row12#!v#!
+
+

@@ -1,0 +1,92 @@
+row1#!number#!<a href="html/SV-II/SV-66/66.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-66/66.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">66.A</a>#!html/SV-II/SV-66/66.jpg#!row1#!n3#!द्विषत्-शिर-च्छेद-प्रोच्छल-शोणितोक्षितैः
+row2#!number#!66.B</a>#!row2#!n3#!द्विषत्-शिर-च्छेद-प्रोच्छल-शोणितोक्षितैः 
+row3#!number#!66.C</a>#!row3#!n3#!द्विषत्-शिर-च्छेद-प्रोच्छल-शोणितोक्षित{पुं}{3;बहु}/शोणितोक्षित{नपुं}{3;बहु} 
+row4#!number#!66.D</a>#!row4#!n3#!<a (click)=showDic('द्विषत्')>द्विषत्</a>-<a (click)=showDic('शिर')>शिर</a>-<a (click)=showDic('च्छेद')>च्छेद</a>-<a (click)=showDic('प्रोच्छल')>प्रोच्छल</a>-<a (click)=showDic('शोणितोक्षित')>शोणितोक्षित</a>{नपुं}{3;बहु} 
+row5#!number#!66.E</a>#!row5#!n3#!विशेषणम्,2
+row6#!number#!66.F</a>#!row6#!n3#!शत्रुओं_के_शिर काटने_से_निकलते_हुए_रक्त_से_भीगे_हुए
+row7#!number#!66.G</a>#!row7#!n3#!bathed in the blood gushing out at the severence of enemies' heads
+row8#!number#!66.H#!row8#!n3#!<a href="html/SV-II/SV-66/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-66/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<द्विषत्-शिरस्>T6-छेद>T6-प्रोच्छल>T3-शोणित>K1-उक्षितम्>T3</a>#!html/SV-II/SV-66/samaasa1.jpg
+row9#!number#!66.I</a>#!row9#!n3#!
+row10#!number#!66.J</a>#!row10#!n3#!
+row11#!number#!66.K</a>#!row11#!n3#!
+row12#!number#!66.L</a>#!row12#!n3#!
+
+row1#!n3#!शस्त्रैः
+row2#!n3#!शस्त्रैः 
+row3#!n3#!शस्त्र{पुं}{3;बहु}/शस्त्र{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('शस्त्र')>शस्त्र</a>{नपुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,7</a>
+row6#!n3#!(हमारे) शस्त्रों_के_द्वारा 
+row7#!n3#!let our weapons
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n6#!अर्क-रोचिषाम्
+row2#!n6#!अर्करोचिषां
+row3#!n6#!अर्क-रोचिस्{नपुं}{6;बहु} 
+row4#!n6#!<a (click)=showDic('अर्क')>अर्क</a>-<a (click)=showDic('रोचिस्')>रोचिस्</a>{नपुं}{6;बहु} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,4</a>
+row6#!n6#!सूर्य किरणों_के
+row7#!n6#!of the rays of the Sun
+row8#!n6#!<a href="html/SV-II/SV-66/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-66/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अर्क-रोचिष्>T6</a>#!html/SV-II/SV-66/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n5#!सम्पर्कात्
+row2#!n5#!सम्पर्कात् 
+row3#!n5#!सम्पर्क{पुं}{5;एक} 
+row4#!n5#!<a (click)=showDic('सम्पर्क')>सम्पर्क</a>{पुं}{5;एक} 
+row5#!n5#!<a href="javascript:show('हेतुः,')">हेतुः,7</a>
+row6#!n5#!सम्पर्क_से 
+row7#!n5#!with the contact
+row8#!n5#!-
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!
+
+row1#!n6#!विद्युतां
+row2#!n6#!विद्युतां 
+row3#!n6#!विद्युत्{स्त्री}{6;बहु} 
+row4#!n6#!<a (click)=showDic('विद्युत्')>विद्युत्</a>{स्त्री}{6;बहु} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,6</a>
+row6#!n6#!बिजली_के
+row7#!n6#!of lightnings
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!सम्पत्
+row2#!n1#!सम्पत्
+row3#!n1#!सम्पत्{स्त्री}{2;एक}
+row4#!n1#!<a (click)=showDic('सम्पत्')>सम्पत्</a>{स्त्री}{1;एक}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,7</a>
+row6#!n1#!(समान) शोभा_को
+row7#!n1#!glory
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!प्राप्यताम्.
+row2#!v#!प्राप्यताम् 
+row3#!v#!प्र_आप्1{कर्मणि;लोट्;प्र;एक;आत्मनेपदी;आपॢँ;स्वादिः}. 
+row4#!v#!<a (click)=showDic('प्र_आप्1')>प्र_आप्1</a>{कर्मणि;लोट्;प्र;एक;आत्मनेपदी;आपॢँ;स्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!प्राप्त_करे. 
+row7#!v#!attain.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!निदर्शना ।
+row12#!v#!
+
+

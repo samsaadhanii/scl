@@ -1,0 +1,209 @@
+row1#!number#!<a href="html/SV-I/SV-35/35.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-35/35.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">35.A</a>#!html/SV-I/SV-35/35.jpg#!row1#!n6#!अनन्य-गुर्वाः
+row2#!number#!35.B</a>#!row2#!n6#!अनन्यगुर्वाः 
+row3#!number#!35.C</a>#!row3#!n6#!अनन्य-गुर्व{स्त्री}{6;एक} 
+row4#!number#!35.D</a>#!row4#!n6#!<a (click)=showDic('अनन्य')>अनन्य</a>-<a (click)=showDic('गुर्व')>गुर्व</a>{स्त्री}{6;एक}
+row5#!number#!35.E</a>#!row5#!n6#!विशेषणम्,3
+row6#!number#!35.F</a>#!row6#!n6#!सबसे बडी
+row7#!number#!35.G</a>#!row7#!n6#!Of the best
+row8#!number#!35.H#!row8#!n6#!<a href="html/SV-I/SV-35/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-35/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<न-अन्य>Tn-गुर्वी>Bs6</a>#!html/SV-I/SV-35/samaasa1.jpg
+row9#!number#!35.I</a>#!row9#!n6#!
+row10#!number#!35.J</a>#!row10#!n6#!
+row11#!number#!35.K</a>#!row11#!n6#!
+row12#!number#!35.L</a>#!row12#!n6#!'इत्यनीकारान्तः पाठः । समासात्प्राङ्ङीषि ''नद्यृतश्च'' (5|4|153) इति कप्प्रसङ्गः स्यात् ।पश्चात्त्वनुपसर्जनाधिकारात् ''वोतो गुणवचनात्'' (4।1।44) इति न प्राप्नोति । ‘ङिति ह्रस्वश्च’ (1।4।6) । नदीसंज्ञत्वात् ‘आण्नद्याः’ (7।3।112) इत्याडागमः ।'
+
+row1#!n6#!तव
+row2#!n6#!तव 
+row3#!n6#!युष्मद्{6;एक} 
+row4#!n6#!<a (click)=showDic('युष्मद्')>युष्मद्</a>{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,3</a>
+row6#!n6#!तुम्हारी 
+row7#!n6#!of your
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!पुराण-मूर्तेः
+row2#!n6#!पुराणमूर्तेः 
+row3#!n6#!पुराण-मूर्ति{पुं}{5;एक}/मूर्ति{पुं}{6;एक}/मूर्ति{स्त्री}{5;एक}/मूर्ति{स्त्री}{6;एक} 
+row4#!n6#!<a (click)=showDic('पुराण')>पुराण</a>-<a (click)=showDic('मूर्ति')>मूर्ति</a>{स्त्री}{6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,5</a>
+row6#!n6#!प्राचीन मूर्ति वाले
+row7#!n6#!of ancient form
+row8#!n6#!<a href="html/SV-I/SV-35/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-35/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><पुराण-मूर्तिः>K3</a>#!html/SV-I/SV-35/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!केवलः
+row2#!n1#!केवलः 
+row3#!n1#!केवल{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('केवल')>केवल</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!संपूर्ण
+row7#!n1#!fully
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!महिमा
+row2#!n1#!महिमा 
+row3#!n1#!महिमन्{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('महिमन्')>महिमन्</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,7</a>
+row6#!n1#!महिमा_को
+row7#!n1#!greatness
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!केन
+row2#!n3#!केन 
+row3#!n3#!किम्{पुं}{3;एक}/किम्{नपुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('किम्')>किम्</a>{पुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,7</a>
+row6#!n3#!किसके_द्वारा 
+row7#!n3#!by whom
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!v#!अवगम्यते
+row2#!v#!अवगम्यते 
+row3#!v#!अव_गम्1{कर्मणि;लट्;प्र;एक;आत्मनेपदी;गमॢँ;भ्वादिः} 
+row4#!v#!<a (click)=showDic('अव_गम्1')>अव_गम्1</a>{कर्मणि;लट्;प्र;एक;आत्मनेपदी;गमॢँ;भ्वादिः} 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!जाना_जाता_है.
+row7#!v#!understand.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!NS#!
+row2#!NS#!
+row3#!NS#!
+row4#!NS#!
+row5#!NS#!<a href="javascript:show('')"></a>
+row6#!NS#!
+row7#!NS#!
+row8#!NS#!-
+row9#!NS#!
+row10#!NS#!
+row11#!NS#!
+row12#!NS#!
+
+row1#!n1#!मनुष्यजन्मा
+row2#!n1#!मनुष्यजन्मा 
+row3#!n1#!मनुष्यजन्मन्{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('मनुष्यजन्मन्')>मनुष्यजन्मन्</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n1#!मनुष्यजन्म_को_धारण_किये_हुए 
+row7#!n1#!as a human being
+row8#!n1#!<a href="html/SV-I/SV-35/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-35/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><मनुष्य-जन्मा>Bs6</a>#!html/SV-I/SV-35/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!अपि
+row2#!NA#!अपि 
+row3#!NA#!अपि{अव्य} 
+row4#!NA#!<a (click)=showDic('अपि')>अपि</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,1</a>
+row6#!NA#!भी 
+row7#!NA#!also
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!भवान्
+row2#!n1#!भवान् 
+row3#!n1#!भवत्{पुं}{1;एक}/भव{पुं}{2;बहु} 
+row4#!n1#!<a (click)=showDic('भवत्')>भवत्</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n1#!आप 
+row7#!n1#!you
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!भवच्छेदकरैः
+row2#!n3#!भवच्छेदकरैः 
+row3#!n3#!भवच्छेदकर{पुं}{3;बहु}/छेदकर{नपुं}{3;बहु}
+row4#!n3#!<a (click)=showDic('भवच्छेदकर')>भवच्छेदकर</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n3#!संसारनिवर्तक
+row7#!n3#!that cut off worldly bondage
+row8#!n3#!<a href="html/SV-I/SV-35/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-35/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<भव-छेद>T6-करः>U</a>#!html/SV-I/SV-35/samaasa4.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!गुणैः
+row2#!n3#!गुणैः 
+row3#!n3#!गुण{पुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('गुण')>गुण</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,8</a>
+row6#!n3#!गुणों_से 
+row7#!n3#!by good virtues
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n2#!सुरासुरान्
+row2#!n2#!सुरासुरान् 
+row3#!n2#!सुरासुर{पुं}{2;बहु} 
+row4#!n2#!<a (click)=showDic('सुरासुर')>सुरासुर</a>{पुं}{2;बहु} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n2#!सुरासुरों_को 
+row7#!n2#!to the Gods and the demons
+row8#!n2#!<a href="html/SV-I/SV-35/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-35/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सुर-<न-सुरः>Tn>Di</a>#!html/SV-I/SV-35/samaasa5.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!‘येषां च विरोधः शाश्वतिकः’ (2।4।9) इति न द्वन्द्वैकवद्भाव इत्याहुः ।
+
+row1#!NA#!अधः
+row2#!NA#!अधः 
+row3#!NA#!अधः{अव्य} 
+row4#!NA#!<a (click)=showDic('अधः')>अधः</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,8</a>
+row6#!NA#!नीचा
+row7#!NA#!push down
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!करोति.
+row2#!v#!करोति 
+row3#!v#!कृ3{कर्तरि;लट्;प्र;एक;परस्मैपदी;डुकृञ्;तनादिः}. 
+row4#!v#!<a (click)=showDic('कृ3')>कृ3</a>{कर्तरि;लट्;प्र;एक;परस्मैपदी;डुकृञ्;तनादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!करते_हैं. 
+row7#!v#!do.
+row8#!v#!-
+row9#!v#!सकर्मककर्तरि
+row10#!v#!वंशस्थम् ।
+row11#!v#!छेकानुप्रासः ।
+row12#!v#!‘शेषे प्रथमः’ (1।4।108) इति प्रथमपुरुषः ।
+
+

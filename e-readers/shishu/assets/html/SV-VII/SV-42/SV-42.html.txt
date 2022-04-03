@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-VII/SV-42/42.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-42/42.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">42.A</a>#!html/SV-VII/SV-42/42.jpg#!row1#!n6#!भू-रुहां
+row2#!number#!42.B</a>#!row2#!n6#!भू-रुहां
+row3#!number#!42.C</a>#!row3#!n6#!भू-रुहा{स्त्री;2;एक}
+row4#!number#!42.D</a>#!row4#!n6#!<a (click)=showDic('भू')>भू</a>-<a (click)=showDic('रुह्')>रुह्</a>{पुं;6;बहु}
+row5#!number#!42.E</a>#!row5#!n6#!षष्ठीसम्बन्धः,2
+row6#!number#!42.F</a>#!row6#!n6#!वृक्षो_तथा_लताओं_की
+row7#!number#!42.G</a>#!row7#!n6#!of trees and creepers
+row8#!number#!42.H#!row8#!n6#!<a href="html/SV-VII/SV-42/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-42/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><भू-रुह्>U</a>#!html/SV-VII/SV-42/samaasa1.jpg
+row9#!number#!42.I</a>#!row9#!n6#!
+row10#!number#!42.J</a>#!row10#!n6#!
+row11#!number#!42.K</a>#!row11#!n6#!
+row12#!number#!42.L</a>#!row12#!n6#!
+
+row1#!n7#!सरजसमकरन्द-निर्भरासु
+row2#!n7#!सरजसमकरन्द-निर्भरासु
+row3#!n7#!सरजसमकरन्द-निर्भरा{स्त्री;7;बहु}
+row4#!n7#!<a (click)=showDic('सरजसमकरन्द')>सरजसमकरन्द</a>-<a (click)=showDic('निर्भरा')>निर्भरा</a>{स्त्री;7;बहु}
+row5#!n7#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n7#!मधु तथा मकरन्द से पूर्ण
+row7#!n7#!that possessed full of nectar
+row8#!n7#!<a href="html/SV-VII/SV-42/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-42/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<सरजस-मकरन्द>K3-निर्भरा>T3</a>#!html/SV-VII/SV-42/samaasa2.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!'अव्ययम्' (2।1।6) इत्यादिना साकल्यार्थेऽव्ययीभावः । ‘अचतुर-’ (5।4।76) इति समासान्तनिपातः ।
+
+row1#!n7#!प्रसव-विभूतिषु
+row2#!n7#!प्रसव-विभूतिषु
+row3#!n7#!प्रसव-विभूति{स्त्री;7;बहु}
+row4#!n7#!<a (click)=showDic('प्रसव')>प्रसव</a>-<a (click)=showDic('विभूति')>विभूति</a>{स्त्री;7;बहु}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,4</a>
+row6#!n7#!पुष्प-समृद्धि_में
+row7#!n7#!in floral prosperity
+row8#!n7#!<a href="html/SV-VII/SV-42/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-42/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><प्रसव-विभूतिः>T6</a>#!html/SV-VII/SV-42/samaasa3.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n1#!विरक्तः
+row2#!n1#!विरक्तः
+row3#!n1#!विरक्त{पुं;1;एक}
+row4#!n1#!<a (click)=showDic('वि_रञ्ज्2')>वि_रञ्ज्2</a>{क्त;रञ्जँ;भ्वादिः;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!अनासक्त
+row7#!n1#!unintended
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!अमृतपनाम-वाञ्छया
+row2#!n3#!अमृतपनाम-वाञ्छया
+row3#!n3#!अमृतपनाम-वाञ्छया}
+row4#!n3#!<a (click)=showDic('अमृतपनाम')>अमृतपनाम</a>-<a (click)=showDic('वाञ्छा')>वाञ्छा</a>{स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('हेतुः,')">हेतुः,11</a>
+row6#!n3#!मधुप (भ्रमर) ‘अमृतप’ देव होने की अभिलाषा से
+row7#!n3#!with an intention to be called as 'मधुप' i.e. Gods
+row8#!n3#!<a href="html/SV-VII/SV-42/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-42/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<अमृत-प>U-नामवाञ्छा>T6</a>#!html/SV-VII/SV-42/samaasa4.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!असौ
+row2#!n1#!असौ
+row3#!n1#!अदस्{पुं;1;एक}/अदस्{स्त्री;1;एक}/असि{पुं;7;एक}/असि{स्त्री;7;एक}/असु{पुं;7;एक}
+row4#!n1#!<a (click)=showDic('अदस्')>अदस्</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!यह
+row7#!n1#!this
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!मधुपः
+row2#!n1#!मधुपः
+row3#!n1#!मधु-पा{पुं;2;बहु}/पा{पुं;5;एक}/पा{पुं;6;एक}
+row4#!n1#!<a (click)=showDic('मधु')>मधु</a>-<a (click)=showDic('प')>प</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,11</a>
+row6#!n1#!भ्रमर
+row7#!n1#!bees
+row8#!n1#!<a href="html/SV-VII/SV-42/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-42/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><मधु-पः>U</a>#!html/SV-VII/SV-42/samaasa5.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!'आतोऽनुपसर्गे कः' (3।2।3) ।
+
+row1#!n2#!अमुं
+row2#!n2#!अमुं
+row3#!n2#!अदस्{पुं;2;एक}
+row4#!n2#!<a (click)=showDic('अदस्')>अदस्</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,10</a>
+row6#!n2#!इस
+row7#!n2#!this
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n6#!तव
+row2#!n6#!तव
+row3#!n6#!युष्मद्{6;एक}
+row4#!n6#!<a (click)=showDic('युष्मद्')>युष्मद्</a>{6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,10</a>
+row6#!n6#!तुम्हारा
+row7#!n6#!your
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!अधरम्
+row2#!n2#!अधरम्
+row3#!n2#!अधर{पुं;2;एक}/अधर{नपुं;1;एक}/अधर{नपुं;2;एक}/अधर{पुं;2;एक}/अधर{नपुं;1;एक}/अधर{नपुं;2;एक}/धृ1{कर्तरि;लङ्;उ;एक;परस्मैपदी;धृञ्;भ्वादिः}/धृ2{कर्तरि;लङ्;उ;एक;परस्मैपदी;धृङ्;भ्वादिः}
+row4#!n2#!<a (click)=showDic('अधर')>अधर</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,11</a>
+row6#!n2#!अधर_की
+row7#!n2#!lips
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!आ-जिहीते
+row2#!v#!आ-जिहीते
+row3#!v#!आ-{अव्य-हा1;कर्तरि;लट्;प्र;एक;आत्मनेपदी;ओँहाङ्;जुहोत्यादिः}
+row4#!v#!<a (click)=showDic('आ_हा1')>आ_हा1</a>{कर्तरि;लट्;प्र;एक;आत्मनेपदी;ओँहाङ्;जुहोत्यादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!तरफ_आ_रहा_है
+row7#!v#!coming towards
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!‘ओहाङ् गतौ’ इति धातोर्लटि ‘श्लौ’ (6।1।10) इति द्विर्भावः । ‘ई हल्यघोः’ (6।4।113) इतीकारः ।
+
+row1#!NA#!ध्रुवम्
+row2#!NA#!ध्रुवम्
+row3#!NA#!ध्रुव{पुं;2;एक}/ध्रुव{नपुं;1;एक}/ध्रुव{नपुं;2;एक}
+row4#!NA#!<a (click)=showDic('ध्रुव')>ध्रुव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,11</a>
+row6#!NA#!निश्चय_ही.
+row7#!NA#!uncertainly.
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!पुष्पिताग्रा ।
+row11#!NA#!उत्प्रेक्षा + अतिशयोक्तिः = सङ्करः ।
+row12#!NA#!
+
+

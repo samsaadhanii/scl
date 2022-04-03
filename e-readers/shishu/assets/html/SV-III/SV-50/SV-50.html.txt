@@ -1,0 +1,209 @@
+row1#!number#!<a href="html/SV-III/SV-50/50.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-50/50.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">50.A</a>#!html/SV-III/SV-50/50.jpg#!row1#!n1#!या
+row2#!number#!50.B</a>#!row2#!n1#!या 
+row3#!number#!50.C</a>#!row3#!n1#!यद्{स्त्री}{1;एक} 
+row4#!number#!50.D</a>#!row4#!n1#!<a (click)=showDic('यद्')>यद्</a>{स्त्री}{1;एक} 
+row5#!number#!50.E</a>#!row5#!n1#!कर्ता,16
+row6#!number#!50.F</a>#!row6#!n1#!जो
+row7#!number#!50.G</a>#!row7#!n1#!The city
+row8#!number#!50.H#!row8#!n1#!
+row9#!number#!50.I</a>#!row9#!n1#!
+row10#!number#!50.J</a>#!row10#!n1#!
+row11#!number#!50.K</a>#!row11#!n1#!
+row12#!number#!50.L</a>#!row12#!n1#!
+
+row1#!n3#!बृहत्तुलैः
+row2#!n3#!बृहत्-तुलैः
+row3#!n3#!बृहत्तुल{पुं}{3;बहु}
+row4#!n3#!<a (click)=showDic('बृहत्तुल')>बृहत्तुल</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,15</a>
+row6#!n3#!बड़ी_तुलाओं_से
+row7#!n3#!having large beams
+row8#!n3#!<a href="html/SV-III/SV-50/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-50/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><बृहत्-तुलः>K1</a>#!html/SV-III/SV-50/samaasa1.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!अपि
+row2#!NA#!अपि 
+row3#!NA#!अपि{अव्य} 
+row4#!NA#!<a (click)=showDic('अपि')>अपि</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,2</a>
+row6#!NA#!भी 
+row7#!NA#!though
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!अतुलैः
+row2#!n3#!अतुलैः 
+row3#!n3#!अतुल{पुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('अतुल')>अतुल</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,15</a>
+row6#!n3#!तुलनाओं_से_रहित_से
+row7#!n3#!were without तुलाs i.e., incomparable
+row8#!n3#!<a href="html/SV-III/SV-50/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-50/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-तुलः>Bsmn</a>#!html/SV-III/SV-50/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!च
+row2#!NA#!च 
+row3#!NA#!च{अव्य} 
+row4#!NA#!<a (click)=showDic('च')>च</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,16</a>
+row6#!NA#!और 
+row7#!NA#!and
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!वितान-माला-पिनद्धैः
+row2#!n3#!वितानमालापिनद्धैः 
+row3#!n3#!वितान-माला-पिनद्ध{पुं}{3;बहु}/अपिनद्ध{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('वितान')>वितान</a>-<a (click)=showDic('माला')>माला</a>-<a (click)=showDic('पिनद्ध')>पिनद्ध</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,15</a>
+row6#!n3#!वितानों_के_समूहों_से_युक्त_होते_हुए
+row7#!n3#!covered with series of वितानs i.e.,  canopies
+row8#!n3#!<a href="html/SV-III/SV-50/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-50/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<वितान-माला>T6-पिनद्धः>T3</a>#!html/SV-III/SV-50/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!अपि
+row2#!NA#!अपि 
+row3#!NA#!अपि{अव्य} 
+row4#!NA#!<a (click)=showDic('अपि')>अपि</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,6</a>
+row6#!NA#!भी 
+row7#!NA#!though
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!अवितानैः
+row2#!n3#!अवितानैः 
+row3#!n3#!अवितान{पुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('अवितान')>अवितान</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,15</a>
+row6#!n3#!वितानों_से_रहित
+row7#!n3#!were without वितानs i.e., not empty
+row8#!n3#!<a href="html/SV-III/SV-50/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-50/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-वितानः>Bsmn</a>#!html/SV-III/SV-50/samaasa4.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!विचित्रैः
+row2#!n3#!विचित्रैः 
+row3#!n3#!विचित्र{पुं}{3;बहु}/विचित्र{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('विचित्र')>विचित्र</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,15</a>
+row6#!n3#!विचित्रों_से
+row7#!n3#!without pictures
+row8#!n3#!<a href="html/SV-III/SV-50/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-50/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><वि-चित्रः>Bs5</a>#!html/SV-III/SV-50/samaasa5.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!अपि
+row2#!NA#!अपि 
+row3#!NA#!अपि{अव्य} 
+row4#!NA#!<a (click)=showDic('अपि')>अपि</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,6</a>
+row6#!NA#!भी 
+row7#!NA#!though
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!सचित्रैः
+row2#!n3#!सचित्रैः 
+row3#!n3#!सचित्र{पुं}{3;बहु}/सचित्र{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('सचित्र')>सचित्र</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,15</a>
+row6#!n3#!चित्रों_से_युक्त_से
+row7#!n3#!were furnished with pictures (सचित्रैः)
+row8#!n3#!<a href="html/SV-III/SV-50/samaasa6.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-50/samaasa6.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><स-चित्रः>BvS</a>#!html/SV-III/SV-50/samaasa6.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!विशालैः
+row2#!n3#!विशालैः 
+row3#!n3#!विशाल{पुं}{3;बहु}/विशाल{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('विशाल')>विशाल</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,15</a>
+row6#!n3#!शालाओं_से_रहित_होते_हुए
+row7#!n3#!without apartments
+row8#!n3#!<a href="html/SV-III/SV-50/samaasa7.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-50/samaasa7.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><वि-शालः>Bs5</a>#!html/SV-III/SV-50/samaasa7.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!‘वेः शालच्छकटचौ (5।2।28) इति शालच्प्रत्ययः’ ।
+
+row1#!NA#!अपि
+row2#!NA#!अपि 
+row3#!NA#!अपि{अव्य} 
+row4#!NA#!<a (click)=showDic('अपि')>अपि</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,12</a>
+row6#!NA#!भी 
+row7#!NA#!though
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!भूरि-शालैः
+row2#!n3#!भूरिशालैः
+row3#!n3#!भूरि-शाल{पुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('भूरि')>भूरि</a>-<a (click)=showDic('शाल')>शाल</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,15</a>
+row6#!n3#!बहुत-शालाओं_वाले_से 
+row7#!n3#!were having many apartments
+row8#!n3#!<a href="html/SV-III/SV-50/samaasa8.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-50/samaasa8.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><भूरि-शालः>Bs7</a>#!html/SV-III/SV-50/samaasa8.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!गृहैः
+row2#!n3#!गृहैः 
+row3#!n3#!गृह{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('गृह')>गृह</a>{नपुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,16</a>
+row6#!n3#!घरों_से 
+row7#!n3#!with houses
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!v#!रेजे.
+row2#!v#!रेजे 
+row3#!v#!राज्1{कर्तरि;लिट्;उ;एक;आत्मनेपदी;राजृँ;भ्वादिः}/राज्1{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;राजृँ;भ्वादिः}.
+row4#!v#!<a (click)=showDic('राज्1')>राज्1</a>{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;राजृँ;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!शोभित_थी.
+row7#!v#!shone.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!उपजाति ।
+row11#!v#!विरोधः ।
+row12#!v#!
+
+

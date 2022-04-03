@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-IX/SV-75/75.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-75/75.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">75.A</a>#!html/SV-IX/SV-75/75.jpg#!row1#!n7#!दयित-उप-गतौ
+row2#!number#!75.B</a>#!row2#!n7#!दयित-उप-गतौ
+row3#!number#!75.C</a>#!row3#!n7#!दयित-उप-गत{;स्त्री;7;एक}
+row4#!number#!75.D</a>#!row4#!n7#!<a (click)=showDic('दयित')>दयित</a>-<a (click)=showDic('उप')>उप</a>-<a (click)=showDic('गति')>गति</a>{;स्त्री;7;एक}
+row5#!number#!75.E</a>#!row5#!n7#!कर्ता,2
+row6#!number#!75.F</a>#!row6#!n7#!प्रियतम के (सहसा) आने
+row7#!number#!75.G</a>#!row7#!n7#!A beloved came (suddenly)
+row8#!number#!75.H#!row8#!n7#!<a href="html/SV-IX/SV-75/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-75/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><दयित-उपगतिः>T6</a>#!html/SV-IX/SV-75/samaasa1.jpg
+row9#!number#!75.I</a>#!row9#!n7#!
+row10#!number#!75.J</a>#!row10#!n7#!
+row11#!number#!75.K</a>#!row11#!n7#!
+row12#!number#!75.L</a>#!row12#!n7#!
+
+row1#!n7#!(सति)
+row2#!n7#!सति
+row3#!n7#!सती{;स्त्री;8;एक}/सत्{;पुं;7;एक}/सत्{;स्त्री;7;एक}/सत्{;नपुं;7;एक}
+row4#!n7#!<a (click)=showDic('अस्2')>अस्2</a>{शतृ_लट्;असँ;अदादिः;;स्त्री;7;एक}
+row5#!n7#!<a href="javascript:show('भावलक्षणसप्तमी,')">भावलक्षणसप्तमी,10</a>
+row6#!n7#!पर
+row7#!n7#!when
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n3#!त्वरा-विरहित-आसनया
+row2#!n3#!त्वरा-विरहित-आसनया
+row3#!n3#!त्वरा-विरहित-आसना{;स्त्री;3;एक}
+row4#!n3#!<a (click)=showDic('त्वरा')>त्वरा</a>-<a (click)=showDic('विरहित')>विरहित</a>-<a (click)=showDic('आसना')>आसना</a>{;स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n3#!त्वरा में उठी हुई
+row7#!n3#!got up hastily
+row8#!n3#!<a href="html/SV-IX/SV-75/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-75/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><त्वरा-<विरहित-आसना>K3>Bs3</a>#!html/SV-IX/SV-75/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!(कयाचित्)
+row2#!n3#!कयाचित्
+row3#!n3#!किञ्चित्{सर्वनाम;स्त्री;3;एक}
+row4#!n3#!<a (click)=showDic('किञ्चित्')>किञ्चित्</a>{सर्वनाम;स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n3#!किसी
+row7#!n3#!another
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!अङ्गनया
+row2#!n3#!अङ्गनया
+row3#!n3#!अङ्गना{;स्त्री;3;एक}
+row4#!n3#!<a (click)=showDic('अङ्गना')>अङ्गना</a>{;स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n3#!अङ्गना_ने
+row7#!n3#!woman
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!(गलितं)
+row2#!n1#!गलितं
+row3#!n1#!गलित{;पुं;2;एक}/गलित{;नपुं;1;एक}/गलित{;नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('गल्1')>गल्1</a>{क्त;गलँ;भ्वादिः;;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n1#!नीचे की ओर खिसके (गिरते) हुए
+row7#!n1#!fastened
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!कर-रुद्ध-नीवि
+row2#!n1#!कर-रुद्ध-नीवि
+row3#!n1#!कर-रुद्ध-नीवि{;नपुं;1;एक}/नीवि{;नपुं;2;एक}/नीवि{;नपुं;8;एक}
+row4#!n1#!<a (click)=showDic('कर')>कर</a>-<a (click)=showDic('रुद्ध')>रुद्ध</a>-<a (click)=showDic('नीवि')>नीवि</a>{;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n1#!हाथ से पकड़ी हुई
+row7#!n1#!held with her hands the band (cord)
+row8#!n1#!<a href="html/SV-IX/SV-75/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-75/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कर-<रुद्ध-नीवि>K3-Bs6></a>#!html/SV-IX/SV-75/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कर-<रुद्ध-नीवि>K3-Bs6
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!वसनं
+row2#!n1#!वसनं
+row3#!n1#!वसन{;नपुं;1;एक}/वसन{;नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('वस्1')>वस्1</a>{ल्युट्;वसँ;भ्वादिः;;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n1#!वस्त्र_को
+row7#!n1#!(her) skirt (that was falling)
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!क्षण-दृष्ट-हाटक-शिला-सदृश-स्फुरद्-उरु-भित्ति
+row2#!n2#!क्षण-दृष्ट-हाटक-शिला-सदृश-स्फुरद्-उरु-भित्ति
+row3#!n2#!क्षण-दृष्ट-हाटक-शिला-सदृश-स्फुरद्-उरु-भित्ति{;नपुं;1;एक}/भित्ति{;नपुं;2;एक}/भित्ति{;नपुं;8;एक}
+row4#!n2#!<a (click)=showDic('क्षण')>क्षण</a>-<a (click)=showDic('दृष्ट')>दृष्ट</a>-<a (click)=showDic('हाटक')>हाटक</a>-<a (click)=showDic('शिला')>शिला</a>-<a (click)=showDic('सदृश')>सदृश</a>-<a (click)=showDic('स्फुरद्')>स्फुरद्</a>-<a (click)=showDic('उरु')>उरु</a>-<a (click)=showDic('भित्ति')>भित्ति</a>{;नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,10</a>
+row6#!n2#!उस (वस्त्र पहनने) के पूर्व सुवर्ण के स्तम्भ के सदृश भासित होता हुआ जघनस्थल रूप भित्तिप्रदेश क्षणमात्र के लिए दृष्टिगोचर हो गया
+row7#!n2#!(but) in the meantime her wall of thighs that were splendorous as gold is seen
+row8#!n2#!<a href="html/SV-IX/SV-75/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-75/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><क्षण-<दृष्ट-<<हाटक-शिला>K5-सदृ्श>T3-<स्फुरत्-<उरु-भित्ति>K5>K3>K3>Bs7</a>#!html/SV-IX/SV-75/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!ववसे
+row2#!v#!ववसे
+row3#!v#!वस्2{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;वसँ;अदादिः}/वस्2{कर्तरि;लिट्;उ;एक;आत्मनेपदी;वसँ;अदादिः}/वस्2{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;वसँ;अदादिः}/वस्2{कर्मणि;लिट्;उ;एक;आत्मनेपदी;वसँ;अदादिः}/वस्3{भावे;लिट्;प्र;एक;आत्मनेपदी;वसुँ;दिवादिः}/वस्3{भावे;लिट्;उ;एक;आत्मनेपदी;वसुँ;दिवादिः}
+row4#!v#!<a (click)=showDic('वस्2')>वस्2</a>{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;वसँ;अदादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!आच्छादित_कर_लिया.
+row7#!v#!had covered.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!प्रमिताक्षरा ।
+row11#!v#!उपमा ।
+row12#!v#!
+
+

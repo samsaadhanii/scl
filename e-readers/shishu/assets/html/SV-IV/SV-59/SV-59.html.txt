@@ -1,0 +1,170 @@
+row1#!number#!<a href="html/SV-IV/SV-59/59.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-59/59.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">59.A</a>#!html/SV-IV/SV-59/59.jpg#!row1#!n7#!एतस्मिन्
+row2#!number#!59.B</a>#!row2#!n7#!एतस्मिन् 
+row3#!number#!59.C</a>#!row3#!n7#!एतद्{पुं}{7;एक}/एतद्{नपुं}{7;एक} 
+row4#!number#!59.D</a>#!row4#!n7#!<a (click)=showDic('एतद्')>एतद्</a>{पुं}{7;एक} 
+row5#!number#!59.E</a>#!row5#!n7#!अधिकरणम्,13
+row6#!number#!59.F</a>#!row6#!n7#!इस (रैवतक-पर्वत_पर)
+row7#!number#!59.G</a>#!row7#!n7#!On this (Raivataka mountain)
+row8#!number#!59.H#!row8#!n7#!
+row9#!number#!59.I</a>#!row9#!n7#!
+row10#!number#!59.J</a>#!row10#!n7#!
+row11#!number#!59.K</a>#!row11#!n7#!
+row12#!number#!59.L</a>#!row12#!n7#!
+
+row1#!n2#!अधिक-पयः-श्रियं
+row2#!n2#!अधिक-पयः-श्रियं 
+row3#!n2#!अधिक-पयस्-श्री{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('अधिक')>अधिक</a>-<a (click)=showDic('पयस्')>पयस्</a>-<a (click)=showDic('श्री')>श्री</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,3</a>
+row6#!n2#!(i)अधिक जल-सम्पत्ति_को_पायी_हुई (ii) बहुत बन्दरोंवाली तथा लक्ष्मीरूपिणी सीताजी_से_युक्त
+row7#!n2#!(i) a great abundance of water (ii) in which many monkeys are described
+row8#!n2#!<a href="html/SV-IV/SV-59/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-59/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अधिक-<पयस्-श्रीः>T6>K3</a>#!html/SV-IV/SV-59/samaasa1.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!वहन्त्यः
+row2#!n1#!वहन्त्यः 
+row3#!n1#!वहन्ती{स्त्री}{1;बहु} 
+row4#!n1#!<a (click)=showDic('वह्1')>वह्1</a>{कृत्_प्रत्ययः:शतृ;वहँ;भ्वादिः;स्त्री}{1;बहु} 
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,13</a>
+row6#!n1#!बहतीं_हुईं
+row7#!n1#!while having
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!पवन-भुवा
+row2#!n3#!पवन-भुवा 
+row3#!n3#!पवन-भू{स्त्री}{3;एक} 
+row4#!n3#!<a (click)=showDic('पवन')>पवन</a>-<a (click)=showDic('भू')>भू</a>{पुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,7</a>
+row6#!n3#!(i) वायुजन्य (ii) हनुमानजी_से
+row7#!n3#!(i) of wind (ii) son of wind Hanumān
+row8#!n3#!<a href="html/SV-IV/SV-59/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-59/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><पवन-भूः>U</a>#!html/SV-IV/SV-59/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!जवेन
+row2#!n3#!जवेन 
+row3#!n3#!जव{पुं}{3;एक}/जव{नपुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('जव')>जव</a>{नपुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,6</a>
+row6#!n3#!(i)वेग_से (ii) वेगवान
+row7#!n3#!(i) by swift movement (ii) which are made bold by the swift
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n2#!संक्षोभं
+row2#!n2#!संक्षोभं 
+row3#!n2#!सङ्क्षोभ{पुं}{2;एक}
+row4#!n2#!<a (click)=showDic('सङ्क्षोभ')>सङ्क्षोभ</a>{पुं}{2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,7</a>
+row6#!n2#!संक्षुब्ध
+row7#!n2#!agitated
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!नीताः
+row2#!v#!नीताः 
+row3#!v#!नीत{पुं}{1;बहु}/नीता{स्त्री}{1;बहु}/नीता{स्त्री}{2;बहु}/नीता{स्त्री}{1;बहु}/नीता{स्त्री}{2;बहु} 
+row4#!v#!<a (click)=showDic('नी1')>नी1</a>{कृत्_प्रत्ययः:क्त;णीञ्;कर्तरि;स्त्री}{1;बहु} 
+row5#!v#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!v#!ले_गयी
+row7#!v#!carried by
+row8#!v#!-
+row9#!v#!
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!n1#!महा-सरस्यः
+row2#!n1#!महा-सरस्यः 
+row3#!n1#!महा-सरसी{स्त्री}{1;बहु} 
+row4#!n1#!<a (click)=showDic('महा')>महा</a>-<a (click)=showDic('सरसी')>सरसी</a>{स्त्री}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,13</a>
+row6#!n1#!बड़े-बड़े जलाशय
+row7#!n1#!the great lakes
+row8#!n1#!<a href="html/SV-IV/SV-59/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-59/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><महा-सरसी>K1</a>#!html/SV-IV/SV-59/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!अरहित-राम-लक्ष्मणानां
+row2#!n6#!अरहित-राम-लक्ष्मणानां 
+row3#!n6#!अरहित-राम-लक्ष्मण{पुं}{6;बहु} 
+row4#!n6#!<a (click)=showDic('अरहित')>अरहित</a>-<a (click)=showDic('राम')>राम</a>-<a (click)=showDic('लक्ष्मण')>लक्ष्मण</a>{स्त्री}{6;बहु} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,10</a>
+row6#!n6#!(i) राम-लक्ष्मण_से_युक्त (ii) पति_से_संयुक्त सारसपत्नियोंवाली
+row7#!n6#!(i) which have not left out Rāma and Lakșmaņa (ii) in which female cranes are not separated from their mates
+row8#!n6#!<a href="html/SV-IV/SV-59/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-59/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अरहितराम-लक्ष्मणा>K1</a>#!html/SV-IV/SV-59/samaasa4.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!वाल्मीकेः
+row2#!n6#!वाल्मीकेः 
+row3#!n6#!वाल्मीकि{पुं}{5;एक}/वाल्मीकि{पुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('वाल्मीकि')>वाल्मीकि</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,11</a>
+row6#!n6#!वाल्मीकि_के
+row7#!n6#!of sage Vālmīki
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!गिरां
+row2#!n6#!गिरां 
+row3#!n6#!गिर्{स्त्री}{6;बहु}/गिरा{स्त्री}{2;एक} 
+row4#!n6#!<a (click)=showDic('गिर्')>गिर्</a>{स्त्री}{6;बहु} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,12</a>
+row6#!n6#!वाणी_की
+row7#!n6#!to the words
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!साधर्म्यं
+row2#!n2#!साधर्म्यं 
+row3#!n2#!साधर्म्य{नपुं}{1;एक}/साधर्म्य{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('साधर्म्य')>साधर्म्य</a>{नपुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,13</a>
+row6#!n2#!समानता_को
+row7#!n2#!resemblance
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!दधति.
+row2#!v#!दधति 
+row3#!v#!धा1{कर्तरि;लट्;प्र;बहु;परस्मैपदी;डुधाञ्;जुहोत्यादिः}/दधत्{पुं}{7;एक}/दधत्{नपुं}{7;एक}. 
+row4#!v#!<a (click)=showDic('धा1')>धा1</a>{कर्तरि;लट्;प्र;बहु;परस्मैपदी;डुधाञ्;जुहोत्यादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!धारण_करती_हैं.
+row7#!v#!bear.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!प्रहर्षिणी ।
+row11#!v#!श्लेषः + उपमा = सङ्करः  ।
+row12#!v#!
+
+

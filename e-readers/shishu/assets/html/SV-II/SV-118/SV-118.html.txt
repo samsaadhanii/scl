@@ -1,0 +1,196 @@
+row1#!number#!<a href="html/SV-II/SV-118/118.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-118/118.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">118.A</a>#!html/SV-II/SV-118/118.jpg#!row1#!n1#!सः
+row2#!number#!118.B</a>#!row2#!n1#!सः 
+row3#!number#!118.C</a>#!row3#!n1#!तद्{पुं}{1;एक} 
+row4#!number#!118.D</a>#!row4#!n1#!<a (click)=showDic('तद्')>तद्</a>{पुं}{1;एक} 
+row5#!number#!118.E</a>#!row5#!n1#!प्रतियोगी,2
+row6#!number#!118.F</a>#!row6#!n1#!वह 
+row7#!number#!118.G</a>#!row7#!n1#!He
+row8#!number#!118.H#!row8#!n1#!
+row9#!number#!118.I</a>#!row9#!n1#!
+row10#!number#!118.J</a>#!row10#!n1#!
+row11#!number#!118.K</a>#!row11#!n1#!
+row12#!number#!118.L</a>#!row12#!n1#!
+
+row1#!NA#!इति
+row2#!NA#!इति 
+row3#!NA#!इति{अव्य} 
+row4#!NA#!<a (click)=showDic('इति')>इति</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,3</a>
+row6#!NA#!इस प्रकार
+row7#!NA#!thus
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!विशकलित-अर्थाम्
+row2#!n2#!विशकलितार्थाम् 
+row3#!n2#!विशकलित-अर्था{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('विशकलित')>विशकलित</a>-<a (click)=showDic('अर्था')>अर्था</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,12</a>
+row6#!n2#!पर्यालोचन_किया_हुआ_अर्थ
+row7#!n2#!consisting of distinguished idea
+row8#!n2#!<a href="html/SV-II/SV-118/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-118/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><विशकलित-अर्था>Bs6</a>#!html/SV-II/SV-118/samaasa1.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!अनु-गत-नय-मार्गां
+row2#!n2#!अनु-गत-नय-मार्गां 
+row3#!n2#!अनु-गत-नय-मार्गा{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('अनु')>अनु</a>-<a (click)=showDic('गत')>गत</a>-<a (click)=showDic('नय')>नय</a>-<a (click)=showDic('मार्गा')>मार्गा</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,12</a>
+row6#!n2#!नीतिशास्त्र_का_अनुसरण_किया_गया_मार्ग
+row7#!n2#!having followed the science of polity
+row8#!n2#!<a href="html/SV-II/SV-118/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-118/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अनुगत-<नय-मार्गा>T6>Bs3</a>#!html/SV-II/SV-118/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n6#!दुर्नयस्य
+row2#!n6#!दुर्नयस्य 
+row3#!n6#!दुर्नय{पुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('दुर्नय')>दुर्नय</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,6</a>
+row6#!n6#!दुराचरण_की 
+row7#!n6#!of misconduct
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!अर्गलां
+row2#!n2#!अर्गलां 
+row3#!n2#!अर्गला{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('अर्गला')>अर्गला</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,12</a>
+row6#!n2#!निवारण_करने_वाली
+row7#!n2#!bolt
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!(अत एव)
+row2#!NA#!अत एव
+row3#!NA#!अत एव{अव्य} 
+row4#!NA#!<a (click)=showDic('अत एव')>अत एव</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,15</a>
+row6#!NA#!अत एव
+row7#!NA#!hence
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!जनित-मुदम्
+row2#!n2#!जनितमुदम् 
+row3#!n2#!जनित-मुद्{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('जनित')>जनित</a>-<a (click)=showDic('मुद्')>मुद्</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,12</a>
+row6#!n2#!जिससे_प्रफुल्लित_हुए
+row7#!n2#!which has given pleasure
+row8#!n2#!<a href="html/SV-II/SV-118/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-118/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><जनिता-मुद्>Bs3</a>#!html/SV-II/SV-118/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!उच्छ्रित-उरस्थल-नियत-निषण्ण-श्री-श्रुताम्
+row2#!n2#!उच्छ्रित-उरस्थल-नियत-निषण्ण-श्री-श्रुताम् 
+row3#!n2#!उच्छ्रित-उरस्थल-नियत-निषण्ण-श्री-श्रुता{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('उच्छ्रित')>उच्छ्रित</a>-<a (click)=showDic('उरस्थल')>उरस्थल</a>-<a (click)=showDic('नियत')>नियत</a>-<a (click)=showDic('निषण्ण')>निषण्ण</a>-<a (click)=showDic('श्री')>श्री</a>-<a (click)=showDic('श्रुता')>श्रुता</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,12</a>
+row6#!n2#!श्रीकृष्ण_के_वक्षस्थल_पर_नित्य_विराजमान लक्ष्मी_ही_सुन_सकती_थी
+row7#!n2#!heard by goddess Lakshmī who, invariably stays on the lofty chest of Śrī Kŗșņa
+row8#!n2#!<a href="html/SV-II/SV-118/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-118/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<उच्छ्रित-उरस्थल>K1-नियतनिषण्णा>T7-श्री>K3-श्रुता>T3</a>#!html/SV-II/SV-118/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!औद्धवीम्
+row2#!n2#!औद्धवीम् 
+row3#!n2#!औद्धवी{पुं}{2;एक}/ई{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('औद्धवी')>औद्धवी</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,12</a>
+row6#!n2#!उद्धव_द्वारा_निवेदित
+row7#!n2#!of Uddhava
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!एनां
+row2#!n2#!एनां 
+row3#!n2#!इदम्{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('इदम्')>इदम्</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,12</a>
+row6#!n2#!इस 
+row7#!n2#!this
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!वाचं
+row2#!n2#!वाचं 
+row3#!n2#!वाच्{स्त्री}{2;एक}/वाच{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('वाच्')>वाच्</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,13</a>
+row6#!n2#!वाणी_को 
+row7#!n2#!speech
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!शुश्रुवान्
+row2#!n1#!शुश्रुवान् 
+row3#!n1#!शुश्रुवस्{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('श्रु1')>श्रु1</a>{कृत्_प्रत्ययः:क्वसु;श्रु;भ्वादिः;पुं.}{1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,15</a>
+row6#!n1#!सुनते_हुए
+row7#!n1#!while listening
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘भाषायां सदवसश्रुवः (3।2।108) इति क्वसुः ।
+
+row1#!NA#!उच्चकैः
+row2#!NA#!उच्चकैः 
+row3#!NA#!उच्च-किम्{पुं}{3;बहु}
+row4#!NA#!<a (click)=showDic('उच्चकैः')>उच्चकैः</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषण,')">क्रिया-विशेषण,15</a>
+row6#!NA#!ऊँचे सिंहासन_से
+row7#!NA#!from the lofty seat
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!‘अव्ययसर्वनाम्नामकच् प्रक्टेः (5।3।71)’ इत्यकच्प्रत्ययः ।
+
+row1#!v#!उदस्थात्.
+row2#!v#!उदस्थात् 
+row3#!v#!उद्_स्था1{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;ष्ठा;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('उद्_स्था1')>उद्_स्था1</a>{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;ष्ठा;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!उठ खड़े_हुए.
+row7#!v#!stood up.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!मालिनी ।
+row11#!v#!रूपकम् + अनुप्रासः ।
+row12#!v#!उदोऽनूर्ध्वकर्मणि (1।3।24) इत्यस्य प्रत्युदाहरणमेतत् ।
+
+

@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-VI/SV-2/2.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-2/2.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">2.A</a>#!html/SV-VI/SV-2/2.jpg#!row1#!n1#!सः
+row2#!number#!2.B</a>#!row2#!n1#!सः
+row3#!number#!2.C</a>#!row3#!n1#!तद्{पुं;1;एक}
+row4#!number#!2.D</a>#!row4#!n1#!<a (click)=showDic('तद्')>तद्</a>{पुं;1;एक}
+row5#!number#!2.E</a>#!row5#!n1#!कर्ता,9
+row6#!number#!2.F</a>#!row6#!n1#!वह (श्रीकृष्ण)
+row7#!number#!2.G</a>#!row7#!n1#!He (Śrī Kṛṣṇa)
+row8#!number#!2.H#!row8#!n1#!
+row9#!number#!2.I</a>#!row9#!n1#!
+row10#!number#!2.J</a>#!row10#!n1#!
+row11#!number#!2.K</a>#!row11#!n1#!
+row12#!number#!2.L</a>#!row12#!n1#!
+
+row1#!NA#!पुरः
+row2#!NA#!पुरः
+row3#!NA#!पुरः{अव्य}/पुर्{स्त्री;1;बहु}/पुर्{स्त्री;2;बहु}/पुर्{स्त्री;5;एक}/पुर्{स्त्री;6;एक}/पुर्{स्त्री;8;बहु}
+row4#!NA#!<a (click)=showDic('पुरः')>पुरः</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,9</a>
+row6#!NA#!पहले
+row7#!NA#!first
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!नवपलाशपलाश-वनं
+row2#!n2#!नवपलाशपलाश-वनं
+row3#!n2#!नवपलाशपलाश-वन{नपुं;1;एक}/वन{नपुं;2;एक}/वन{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('नवपलाशपलाश')>नवपलाशपलाश</a>-<a (click)=showDic('वन')>वन</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n2#!नवीन पत्तों से युक्त ढाक के वनों वाले
+row7#!n2#!with tender leaves of red lac called 'Palāśa'
+row8#!n2#!<a href="html/SV-VI/SV-2/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-2/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<नव-पलाश>Bs7-<पलाश-वनः>T6>Bs7</a>#!html/SV-VI/SV-2/samaasa1.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!स्फुटपरागपरागत-पङ्कजं
+row2#!n2#!स्फुटपरागपरागत-पङ्कजं
+row3#!n2#!स्फुटपरागपरागत-पङ्कज{पुं;2;एक}/पङ्कज{नपुं;1;एक}/पङ्कज{नपुं;2;एक}/पङ्कज{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('स्फुटपरागपरागत')>स्फुटपरागपरागत</a>-<a (click)=showDic('पङ्कज')>पङ्कज</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n2#!विकसित तथा पुष्पराजों से व्याप्त कमलों वाले
+row7#!n2#!that which is spread with blossomed lotuses which are king of flowers
+row8#!n2#!<a href="html/SV-VI/SV-2/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-2/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<स्फुट-<पराग-<परा-गत>U>T3>K1-पङ्कजः>Bs7</a>#!html/SV-VI/SV-2/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!मृदुलतान्तलता-अन्तं
+row2#!n2#!मृदुलतान्तलता-अन्तं
+row3#!n2#!मृदुलतान्तलता-अन्त{पुं;2;एक}/अन्त{नपुं;1;एक}/अन्त{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('मृदुलतान्तलता')>मृदुलतान्तलता</a>-<a (click)=showDic('अन्त')>अन्त</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n2#!कोमल अत एव गर्मी से कुछ म्लान पल्लवों से युक्त
+row7#!n2#!tender buds that are faded due to heat
+row8#!n2#!<a href="html/SV-VI/SV-2/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-2/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<मृदुल-तान्त>K1-<लता-अन्तः>T6>Bs7</a>#!html/SV-VI/SV-2/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n3#!सुमनो-भरैः
+row2#!n3#!सुमनो-भरैः
+row3#!n3#!सुमनो-भर{पुं;3;बहु}
+row4#!n3#!<a (click)=showDic('सुमनो')>सुमनो</a>-<a (click)=showDic('भर')>भर</a>{पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,9</a>
+row6#!n3#!पुष्पसमूहों से
+row7#!n3#!with bunch of flowers
+row8#!n3#!<a href="html/SV-VI/SV-2/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-2/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सु-<मनो-भरः>U>K1</a>#!html/SV-VI/SV-2/samaasa4.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n2#!सुरभिं
+row2#!n2#!सुरभिं
+row3#!n2#!सुरभि{पुं;2;एक}
+row4#!n2#!<a (click)=showDic('सुरभि')>सुरभि</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n2#!सुगन्धित
+row7#!n2#!fragrant
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!सुरभिम्
+row2#!n2#!सुरभिम्
+row3#!n2#!सुरभि{पुं;2;एक}
+row4#!n2#!<a (click)=showDic('सुरभि')>सुरभि</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,9</a>
+row6#!n2#!वसन्त-ऋतु_को
+row7#!n2#!spring season
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!अलोकयत्
+row2#!v#!अलोकयत्
+row3#!v#!लोक्2{कर्तरि;लङ्;प्र;एक;आत्मनेपदी;लोकृँ;चुरादिः}/लोक्1_णिच्{कर्तरि;लङ्;प्र;एक;परस्मैपदी;लोकृँ;भ्वादिः}/लोक्2_णिच्{कर्तरि;लङ्;प्र;एक;परस्मैपदी;लोकृँ;चुरादिः}
+row4#!v#!<a (click)=showDic('लोक्1_णिच्')>लोक्1_णिच्</a>{कर्तरि;लङ्;प्र;एक;परस्मैपदी;लोकृँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!देखा.
+row7#!v#!saw.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!यमकम् ।
+row12#!v#!
+
+

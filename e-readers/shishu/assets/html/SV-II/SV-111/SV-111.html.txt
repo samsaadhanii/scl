@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-II/SV-111/111.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-111/111.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">111.A</a>#!html/SV-II/SV-111/111.jpg#!row1#!n1#!कृत्यविदः
+row2#!number#!111.B</a>#!row2#!n1#!कृत्यविदः 
+row3#!number#!111.C</a>#!row3#!n1#!कृत्यविद्{पुं}{1;बहु}/कृत्यविद्{पुं}{2;बहु}/कृत्यविद्{पुं}{5;एक}/कृत्यविद्{पुं}{6;एक}/कृत्यविद्{पुं}{8;बहु} 
+row4#!number#!111.D</a>#!row4#!n1#!<a (click)=showDic('कृत्यविद्')>कृत्यविद्</a>{पुं}{1;बहु} 
+row5#!number#!111.E</a>#!row5#!n1#!विशेषणम्,2
+row6#!number#!111.F</a>#!row6#!n1#!कार्यज्ञ
+row7#!number#!111.G</a>#!row7#!n1#!Skilled in one's own work
+row8#!number#!111.H#!row8#!n1#!<a href="html/SV-II/SV-111/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-111/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कृत्य-विद्>U</a>#!html/SV-II/SV-111/samaasa1.jpg
+row9#!number#!111.I</a>#!row9#!n1#!
+row10#!number#!111.J</a>#!row10#!n1#!
+row11#!number#!111.K</a>#!row11#!n1#!
+row12#!number#!111.L</a>#!row12#!n1#!
+
+row1#!n1#!प्रणिधियः
+row2#!n1#!प्रणिधियः 
+row3#!n1#!प्रणिधिय{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('प्रणिधिय')>प्रणिधिय</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n1#!गुप्तचर
+row7#!n1#!let the spies
+row8#!n1#!<a href="html/SV-II/SV-111/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-111/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><प्रणि-धियः>U</a>#!html/SV-II/SV-111/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n7#!तीर्थेषु
+row2#!n7#!तीर्थेषु 
+row3#!n7#!तीर्थ{नपुं}{7;बहु} 
+row4#!n7#!<a (click)=showDic('तीर्थ')>तीर्थ</a>{नपुं}{7;बहु} 
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,10</a>
+row6#!n7#!तीर्थों_के
+row7#!n7#!principal officers of the enemy
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!NA#!अन्तः
+row2#!NA#!अन्तः 
+row3#!NA#!अन्तः{अव्य}/अन्त{पुं}{1;एक} 
+row4#!NA#!<a (click)=showDic('अन्तः')>अन्तः</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,6</a>
+row6#!NA#!अन्दर 
+row7#!NA#!in
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!पदं
+row2#!n2#!पदं 
+row3#!n2#!पद्{पुं}{2;एक}/पद{नपुं}{1;एक}/पद{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('पद्')>पद्</a>{पुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,6</a>
+row6#!n2#!पैर_को 
+row7#!n2#!footing
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!कृत्वा
+row2#!NA#!कृत्वा 
+row3#!NA#!कृ1{कृत्_प्रत्ययः:क्त्वा;कृञ्;भ्वादिः}/कृ2{कृत्_प्रत्ययः:क्त्वा;कृञ्;स्वादिः}/कृ3{कृत्_प्रत्ययः:क्त्वा;डुकृञ्;तनादिः} 
+row4#!NA#!<a (click)=showDic('कृ1')>कृ1</a>{कृत्_प्रत्ययः:क्त्वा;कृञ्;भ्वादिः} 
+row5#!NA#!<a href="javascript:show('पूर्वकालः,')">पूर्वकालः,10</a>
+row6#!NA#!रखकर
+row7#!NA#!having made
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n6#!महतः
+row2#!n6#!महतः 
+row3#!n6#!महत्{पुं}{2;बहु}/महत्{पुं}{5;एक}/महत्{पुं}{6;एक}/महत्{नपुं}{5;एक}/महत्{नपुं}{6;एक}/मह्1{कर्तरि;लट्;प्र;द्वि;परस्मैपदी;महँ;भ्वादिः} 
+row4#!n6#!<a (click)=showDic('महत्')>महत्</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n6#!बड़े
+row7#!n6#!of big
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!विद्विषदम्भसः
+row2#!n6#!विद्विषदम्भसः
+row3#!n6#!विद्विषदम्भस्{नपुं}{5;एक}/विद्विषदम्भस्{नपुं}{6;एक}
+row4#!n6#!<a (click)=showDic('विद्विषदम्भस्')>विद्विषदम्भस्</a>{नपुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,9</a>
+row6#!n6#!शत्रुरूपी पानी_के
+row7#!n6#!water in the form of enemy
+row8#!n6#!<a href="html/SV-II/SV-111/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-111/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><विद्विषद्-अम्भस्>K3</a>#!html/SV-II/SV-111/samaasa3.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!तलं
+row2#!n2#!तलं 
+row3#!n2#!तल{पुं}{2;एक}/तल{नपुं}{1;एक}/तल{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('तल')>तल</a>{नपुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n2#!तल_को
+row7#!n2#!depth
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!विदाङ्कुर्वन्तु.
+row2#!v#!विदाङ्कुर्वन्तु 
+row3#!v#!विद्1{कर्तरि;लोट्;प्र;बहु;परस्मैपदी;विदँ;अदादिः}. 
+row4#!v#!<a (click)=showDic('विद्_आम्_कृ')>विद्_आम्_कृ</a>{कर्तरि;लोट्;प्र;बहु;परस्मैपदी;कृञ्;तनादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!मालूम_करें.
+row7#!v#!know.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!रूपकम् ।
+row12#!v#!विदाङ्कुर्वन्तु । ‘विद ज्ञाने' लोट् । ‘विदाङ्कुर्वन्त्वित्यन्यन्तरस्याम्’ (3।1।41) इति विकल्पादाम्प्रत्ययनिपातः ।
+
+

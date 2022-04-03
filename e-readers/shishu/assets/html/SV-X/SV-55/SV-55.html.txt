@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-X/SV-55/55.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-55/55.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">55.A</a>#!html/SV-X/SV-55/55.jpg#!row1#!n3#!परिजनेन
+row2#!number#!55.B</a>#!row2#!n3#!परिजनेन
+row3#!number#!55.C</a>#!row3#!n3#!परिजन{;पुं;3;एक(जन्2;घञ्;जनीँ;दिवादिः)}
+row4#!number#!55.D</a>#!row4#!n3#!<a (click)=showDic('परिजन')>परिजन</a>{;पुं;3;एक(;घञ्;जनीँ;दिवादिः)}
+row5#!number#!55.E</a>#!row5#!n3#!कर्ता,2
+row6#!number#!55.F</a>#!row6#!n3#!परिजनों_से
+row7#!number#!55.G</a>#!row7#!n3#!by the servants
+row8#!number#!55.H#!row8#!n3#!
+row9#!number#!55.I</a>#!row9#!n3#!
+row10#!number#!55.J</a>#!row10#!n3#!
+row11#!number#!55.K</a>#!row11#!n3#!
+row12#!number#!55.L</a>#!row12#!n3#!
+
+row1#!n1#!रेचितं
+row2#!n1#!रेचितं
+row3#!n1#!रेचित{;पुं;2;एक(रिच्2;क्त;रिचँ;चुरादिः)}/रेचित;नपुं;1;एक(रिच्2;क्त;रिचँ;चुरादिः)}/रेचित;नपुं;2;एक(रिच्2;क्त;रिचँ;चुरादिः)}
+row4#!n1#!<a (click)=showDic('रेचित')>रेचित</a>{;नपुं;1;एक(;क्त;रिचँ;चुरादिः)}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!रिक्त किया गया
+row7#!n1#!having vacated
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!केवलाभिरत-दम्पति
+row2#!n1#!केवलाभिरत-दम्पति
+row3#!n1#!केवलाभिरत-दम्पति}
+row4#!n1#!<a (click)=showDic('केवलाभिरत')>केवलाभिरत</a>-<a (click)=showDic('दम्पति')>दम्पति</a>{नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!केवल दम्पति से युक्त
+row7#!n1#!left alone with the couple
+row8#!n1#!<a href="html/SV-X/SV-55/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-55/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><केवलाभिरत-दम्पति>Bs7</a>#!html/SV-X/SV-55/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!महीयः
+row2#!n1#!महीयः
+row3#!n1#!महीयस्{;नपुं;1;एक}/महीयस्;नपुं;2;एक}/महीयस्;नपुं;8;एक}
+row4#!n1#!<a (click)=showDic('महीयस्')>महीयस्</a>{;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!विशाल
+row7#!n1#!large
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!धाम
+row2#!n1#!धाम
+row3#!n1#!धामन्{;नपुं;1;एक}/धामन्;नपुं;2;एक}/धामन्;नपुं;8;एक}
+row4#!n1#!<a (click)=showDic('धामन्')>धामन्</a>{;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n1#!केलिगृह
+row7#!n1#!pleasure-mansion
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n6#!कमलासखविष्वक्सेनसेवित-युगान्त-पयोधेः
+row2#!n6#!कमलासखविष्वक्सेनसेवित-युगान्त-पयोधेः
+row3#!n6#!कमलासखविष्वक्सेनसेवित-युगान्त-पयोधि{;पुं;5;एक}/पयोधि;पुं;6;एक}
+row4#!n6#!<a (click)=showDic('कमलासखविष्वक्सेनसेवित')>कमलासखविष्वक्सेनसेवित</a>-<a (click)=showDic('युगान्त')>युगान्त</a>-<a (click)=showDic('पयोधि')>पयोधि</a>{;पुं;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,7</a>
+row6#!n6#!लक्ष्मी से युक्त विष्णु से सेवित प्रलयकालीन समुद्र की
+row7#!n6#!an ocean at the end of yuga served by Śrīviṣṇu accompanied by his consort Lakṣmī
+row8#!n6#!<a href="html/SV-X/SV-55/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-55/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<कमल-सखा>T6-विष्वक्सेना>K3-सेवित>T3-<युगान्त-पयोधिः>T6>K3</a>#!html/SV-X/SV-55/samaasa2.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!साम्यम्
+row2#!n2#!साम्यम्
+row3#!n2#!साम्य{;पुं;2;एक(साम1;यत्;साम;चुरादिः)}/साम्य;नपुं;1;एक(साम1;यत्;साम;चुरादिः)}/साम्य;नपुं;2;एक(साम1;यत्;साम;चुरादिः)}/साम्य;पुं;2;एक(साम1;ण्यत्;साम;चुरादिः)}/साम्य;नपुं;1;एक(साम1;ण्यत्;साम;चुरादिः)}/साम्य;नपुं;2;एक(साम1;ण्यत्;साम;चुरादिः)}
+row4#!n2#!<a (click)=showDic('साम्य')>साम्य</a>{;नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n2#!सादृश्यता_को
+row7#!n2#!similarity
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!आप
+row2#!v#!आप
+row3#!v#!आप्1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;आपॢँ;स्वादिः}
+row4#!v#!<a (click)=showDic('आप्1')>आप्1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;आपॢँ;स्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!प्राप्त कर रहा था.
+row7#!v#!obtained.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!स्वागता ।
+row11#!v#!उपमा ।
+row12#!v#!
+
+

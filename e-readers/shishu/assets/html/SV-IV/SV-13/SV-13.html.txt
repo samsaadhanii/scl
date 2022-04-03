@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-IV/SV-13/13.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-13/13.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">13.A</a>#!html/SV-IV/SV-13/13.jpg#!row1#!NA#!यत्र
+row2#!number#!13.B</a>#!row2#!NA#!यत्र 
+row3#!number#!13.C</a>#!row3#!NA#!यत्र{अव्य} 
+row4#!number#!13.D</a>#!row4#!NA#!<a (click)=showDic('यत्र')>यत्र</a>{अव्य} 
+row5#!number#!13.E</a>#!row5#!NA#!देशाधिकरणम्,8
+row6#!number#!13.F</a>#!row6#!NA#!जहाँ_पर
+row7#!number#!13.G</a>#!row7#!NA#!On which
+row8#!number#!13.H#!row8#!NA#!
+row9#!number#!13.I</a>#!row9#!NA#!
+row10#!number#!13.J</a>#!row10#!NA#!
+row11#!number#!13.K</a>#!row11#!NA#!
+row12#!number#!13.L</a>#!row12#!NA#!
+
+row1#!n1#!राजत-गण्ड-शैलः
+row2#!n1#!राजत-गण्ड-शैलः 
+row3#!n1#!राजत-गण्ड-शैल{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('राजत')>राजत</a>-<a (click)=showDic('गण्ड')>गण्ड</a>-<a (click)=showDic('शैल')>शैल</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n1#!पर्वत_से_घिरा_हुआ_चट्टान
+row7#!n1#!the huge dislodged rock of silver
+row8#!n1#!<a href="html/SV-IV/SV-13/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-13/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><राजत-गण्डशैलः>K3</a>#!html/SV-IV/SV-13/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!'प्राणिरजतादिभ्योऽञ्' (4।3।154) इत्यञ्प्रत्ययः ।
+
+row1#!n3#!उन्निद्रपुष्पाक्षिसहस्रभाजा
+row2#!n3#!उन्निद्रपुष्पाक्षिसहस्रभाजा 
+row3#!n3#!उन्निद्रपुष्पाक्षिसहस्रभाजा{स्त्री}{1;एक} 
+row4#!n3#!<a (click)=showDic('उन्निद्रपुष्पाक्षिसहस्रभाक्')>उन्निद्रपुष्पाक्षिसहस्रभाक्</a>{पुं}{3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n3#!खिले_हुए_पुष्परूप_सहस्र_नेत्रोंवाले
+row7#!n3#!which had its thousand fully-opened flowers looking like so many eyes
+row8#!n3#!<a href="html/SV-IV/SV-13/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-13/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<उन्निद्र-पुष्प>K1-अक्षि>K5-सहस्रभाक्>U</a>#!html/SV-IV/SV-13/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!अधिरूढेन
+row2#!n3#!अधिरूढेन 
+row3#!n3#!अधिरूढ{पुं}{3;एक}/अधिरूढ{नपुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('अधिरूढ')>अधिरूढ</a>{पुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n3#!ऊपर_में_स्थित
+row7#!n3#!seated on it
+row8#!n3#!<a href="html/SV-IV/SV-13/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-13/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अधि-रूढः>Bvp</a>#!html/SV-IV/SV-13/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!उच्चैः
+row2#!NA#!उच्चैः 
+row3#!NA#!उच्चैः{अव्य}/उच्च{पुं}{3;बहु}/उच्च{नपुं}{3;बहु} 
+row4#!NA#!<a (click)=showDic('उच्चैः')>उच्चैः</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!NA#!ऊँचे
+row7#!NA#!with a high
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!मही-रुहा
+row2#!n3#!मही-रुहा 
+row3#!n3#!मही-रुहा{स्त्री}{1;एक} 
+row4#!n3#!<a (click)=showDic('मही')>मही</a>-<a (click)=showDic('रुहा')>रुहा</a>{पुं}{3;एक}
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,8</a>
+row6#!n3#!वृक्ष_से
+row7#!n3#!tree
+row8#!n3#!<a href="html/SV-IV/SV-13/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-13/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><मही-रुहः>U</a>#!html/SV-IV/SV-13/samaasa4.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n2#!सुराधिप-अधिष्ठित-हस्ति-मल्ल-लीलां
+row2#!n2#!सुराधिप-अधिष्ठित-हस्ति-मल्ल-लीलां 
+row3#!n2#!सुराधिप-अधिष्ठित-हस्तिन्-मल्ल-लीला{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('सुराधिप')>सुराधिप</a>-<a (click)=showDic('अधिष्ठित')>अधिष्ठित</a>-<a (click)=showDic('हस्तिन्')>हस्तिन्</a>-<a (click)=showDic('मल्ल')>मल्ल</a>-<a (click)=showDic('लीला')>लीला</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n2#!इन्द्र_जिस_पर_आरूढ़_हैं_ऐसे_ऐरावत_की_शोभा_को
+row7#!n2#!the beauty of Airāvata with the thousand-eyed one (Indra)
+row8#!n2#!<a href="html/SV-IV/SV-13/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-13/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<सुराधिप-अधिष्ठित>T3-हस्तिमल्ल>K3-लीला>T6</a>#!html/SV-IV/SV-13/samaasa5.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!दधौ.
+row2#!v#!दधौ 
+row3#!v#!धा1{कर्तरि;लिट्;उ;एक;परस्मैपदी;डुधाञ्;जुहोत्यादिः}/धा1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;डुधाञ्;जुहोत्यादिः}/धे1{कर्तरि;लिट्;उ;एक;परस्मैपदी;धेट्;भ्वादिः}/धे1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;धेट्;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('धा1')>धा1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;डुधाञ्;जुहोत्यादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!धारण_किया. 
+row7#!v#!displayed.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!उपजाति ।
+row11#!v#!निदर्शना ।
+row12#!v#!
+
+

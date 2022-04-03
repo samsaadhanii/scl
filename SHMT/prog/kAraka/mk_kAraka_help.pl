@@ -143,7 +143,7 @@ while(($in = <STDIN>) && !$solnfound){
                $style = "dashed color=\"red\"";
                $rank = "{rank = same; Node$s_w_no; Node$d_w_no;}"; 
                $dir = "both";
-            } elsif(($rel_nm > 100) && ($rel_nm < 1000)) {
+            } elsif(($rel_nm > 100) && ($rel_nm < 200)) {
               $rel_nm = $rel_nm - 100; 
               $style = "dotted";
             } else {

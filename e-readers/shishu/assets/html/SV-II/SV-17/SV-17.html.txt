@@ -1,0 +1,92 @@
+row1#!number#!<a href="html/SV-II/SV-17/17.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-17/17.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">17.A</a>#!html/SV-II/SV-17/17.jpg#!row1#!n2#!आश्लेष-लोलुप-वधूस्तन-कार्कश्य-साक्षिणीं
+row2#!number#!17.B</a>#!row2#!n2#!आश्लेष-लोलुप-वधूस्तन-कार्कश्य-साक्षिणीं
+row3#!number#!17.C</a>#!row3#!n2#!आश्लेष-लोलुप-वधूस्तन-कार्कश्य-साक्षिणीम्{स्त्री}{2;एक}
+row4#!number#!17.D</a>#!row4#!n2#!<a (click)=showDic('आश्लेष')>आश्लेष</a>-<a (click)=showDic('लोलुप')>लोलुप</a>-<a (click)=showDic('वधूस्तन')>वधूस्तन</a>-<a (click)=showDic('कार्कश्य')>कार्कश्य</a>-<a (click)=showDic('साक्षिणी')>साक्षिणी</a>{स्त्री}{2;एक}
+row5#!number#!17.E</a>#!row5#!n2#!विशेषणम्,2
+row6#!number#!17.F</a>#!row6#!n2#!आलिंगन_करने_की_विशेष अभिलाषा करनेवाली रेवती_के_स्तनों_की_कठोरता_को_जानने_वाली
+row7#!number#!17.G</a>#!row7#!n2#!that bore testimony to the hardness of the breasts of his wife Revathī, who is always eager for his embrace 
+row8#!number#!17.H#!row8#!n2#!<a href="html/SV-II/SV-17/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-17/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<आश्लेष-लोलुप>T7-वधू>K3-स्तन>T6-कार्कश्य>T6-साक्षिणी>T6</a>#!html/SV-II/SV-17/samaasa1.jpg
+row9#!number#!17.I</a>#!row9#!n2#!
+row10#!number#!17.J</a>#!row10#!n2#!
+row11#!number#!17.K</a>#!row11#!n2#!
+row12#!number#!17.L</a>#!row12#!n2#!‘साक्षाद्द्रष्टरि संज्ञायाम् (5।2।91) । इति साक्षाच्छब्दादिनिप्रत्ययः’।
+
+row1#!n2#!वनमालाम्
+row2#!n2#!वनमालाम् 
+row3#!n2#!वनमाला{स्त्री}{2;एक}
+row4#!n2#!<a (click)=showDic('वनमाला')>वनमाला</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,5</a>
+row6#!n2#!वनमाला_को 
+row7#!n2#!the garland of Sylvan flowers and leaves
+row8#!n2#!<a href="html/SV-II/SV-17/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-17/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><वन-माला>T6</a>#!html/SV-II/SV-17/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n3#!अभिमान-उष्णैः
+row2#!n3#!अभिमानोष्णैः
+row3#!n3#!अभिमान-उष्ण{पुं}{3;बहु}/उष्ण{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('अभिमान')>अभिमान</a>-<a (click)=showDic('उष्ण')>उष्ण</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n3#!अभियान_से_उष्ण
+row7#!n3#!hot through excitement
+row8#!n3#!<a href="html/SV-II/SV-17/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-17/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अभिमान-उष्णः>T3</a>#!html/SV-II/SV-17/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!मुखानिलैः
+row2#!n3#!मुखानिलैः
+row3#!n3#!मुखानिल{पुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('मुखानिल')>मुखानिल</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,5</a>
+row6#!n3#!श्वास वायु_से
+row7#!n3#!by the exhalations from his mouth
+row8#!n3#!<a href="html/SV-II/SV-17/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-17/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><मुख-अनिलः>T6</a>#!html/SV-II/SV-17/samaasa4.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!म्लापयन्
+row2#!n1#!म्लापयन्
+row3#!n1#!म्लापयन्
+row4#!n1#!<a (click)=showDic('म्लै1')>म्लै1</a>{कृत्_प्रत्ययः:शतृ;ण्यन्त:;म्लै;भ्वादिः;पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,7</a>
+row6#!n1#!मलिन_करते_हुए
+row7#!n1#!while withering
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘आदेश-’ (6।1।45) इत्यात्त्वे पुगागमः ।
+
+row1#!n1#!(रामः)
+row2#!n1#!रामः
+row3#!n1#!राम{पुं}{1;एक}/रा1{कर्तरि;लट्;उ;बहु;परस्मैपदी;रा;अदादिः} 
+row4#!n1#!<a (click)=showDic('राम')>राम</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,7</a>
+row6#!n1#!बलरामजी_ने
+row7#!n1#!Balarāma
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!(जगाद).
+row2#!v#!जगाद
+row3#!v#!गद्1{कर्तरि;लिट्;उ;एक;परस्मैपदी;गदँ;भ्वादिः}/गद्1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;गदँ;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('गद्1')>गद्1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;गदँ;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!स्पष्ट_बोला. 
+row7#!v#!spoke
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!अतिशयोक्तिः ।
+row12#!v#!
+
+

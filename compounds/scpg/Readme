@@ -1,0 +1,10 @@
+This is Sanskrit Compound Vigraha Vakya Generator.
+
+To install this package:
+cd data
+./create_dbm.sh
+
+To run:
+cd bin
+Set the correct path for SCP_PATH (path of the current bin directory) in run.sh 
+./run.sh

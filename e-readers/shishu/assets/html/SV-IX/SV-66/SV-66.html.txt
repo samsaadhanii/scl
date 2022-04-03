@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-IX/SV-66/66.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-66/66.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">66.A</a>#!html/SV-IX/SV-66/66.jpg#!row1#!n6#!रति-पतेः
+row2#!number#!66.B</a>#!row2#!n6#!रति-पतेः
+row3#!number#!66.C</a>#!row3#!n6#!रति-पत्1{कर्तरि;विधिलिङ्;म;एक;परस्मैपदी;पतॢँ;भ्वादिः}/पति{;पुं;5;एक}/पति{;पुं;6;एक}
+row4#!number#!66.D</a>#!row4#!n6#!<a (click)=showDic('रति')>रति</a>-<a (click)=showDic('पति')>पति</a>{;पुं;6;एक}
+row5#!number#!66.E</a>#!row5#!n6#!षष्ठिसम्बन्धः,2
+row6#!number#!66.F</a>#!row6#!n6#!कामदेव_के
+row7#!number#!66.G</a>#!row7#!n6#!of the cupid
+row8#!number#!66.H#!row8#!n6#!<a href="html/SV-IX/SV-66/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-66/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><रति-पतिः>T6</a>#!html/SV-IX/SV-66/samaasa1.jpg
+row9#!number#!66.I</a>#!row9#!n6#!
+row10#!number#!66.J</a>#!row10#!n6#!
+row11#!number#!66.K</a>#!row11#!n6#!
+row12#!number#!66.L</a>#!row12#!n6#!
+
+row1#!n1#!इषवः
+row2#!n1#!इषवः
+row3#!n1#!इषु{;पुं;1;बहु}
+row4#!n1#!<a (click)=showDic('इषु')>इषु</a>{;पुं;1;बहु}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,11</a>
+row6#!n1#!बाण
+row7#!n1#!arrows
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!स्फुटं
+row2#!NA#!स्फुटं
+row3#!NA#!स्फुट{;पुं;2;एक}
+row4#!NA#!<a (click)=showDic('स्फुटम्')>स्फुटम्</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,5</a>
+row6#!NA#!निश्चित_ही
+row7#!NA#!indeed
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!शिततां
+row2#!n2#!शिततां
+row3#!n2#!शितताम्}
+row4#!n2#!<a (click)=showDic('शितता')>शितता</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,5</a>
+row6#!n2#!तीक्ष्णता_को
+row7#!n2#!sharpness
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!दधति
+row2#!v#!दधति
+row3#!v#!धा1{कर्तरि;लट्;प्र;बहु;परस्मैपदी;डुधाञ्;जुहोत्यादिः}
+row4#!v#!<a (click)=showDic('धा1')>धा1</a>{कर्तरि;लट्;प्र;बहु;परस्मैपदी;डुधाञ्;जुहोत्यादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!धारण_करते_हैं
+row7#!v#!bear
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!NA#!यत्
+row2#!NA#!यत्
+row3#!NA#!यत्{अव्य}/यद्{सर्वनाम;नपुं;1;एक}/यद्{सर्वनाम;नपुं;2;एक}
+row4#!NA#!<a (click)=showDic('यत्')>यत्</a>{अव्य}
+row5#!NA#!<a href="javascript:show('हेतुः,')">हेतुः,11</a>
+row6#!NA#!क्यों_कि
+row7#!NA#!as
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!निरन्तर-बृहत्-कठिन-स्तन-मण्डल-आवरणम्
+row2#!n1#!निरन्तर-बृहत्-कठिन-स्तन-मण्डल-आवरणम्
+row3#!n1#!निरन्तर-बृहत्-कठिन-स्तन-मण्डल-आवरण{;नपुं;1;एक}/आवरण{;नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('निरन्तर')>निरन्तर</a>-<a (click)=showDic('बृहत्')>बृहत्</a>-<a (click)=showDic('कठिन')>कठिन</a>-<a (click)=showDic('स्तन')>स्तन</a>-<a (click)=showDic('मण्डल')>मण्डल</a>-<a (click)=showDic('आङ्_वृ2')>आङ्_वृ2</a>{ल्युट्;वृञ्;स्वादिः;;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,11</a>
+row6#!n1#!निरन्ध्र अर्थात् एक दूसरे से अविरल रूप से मिले हुए एवं विशाल तथा कठोर स्तनमण्डल से आवृत
+row7#!n1#!which is always enveloped by her huge and strong breasts that are positioned uninterruptedly to each other
+row8#!n1#!<a href="html/SV-IX/SV-66/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-66/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<निरन्तर-<बृहत्-कठिन>K3>K3-स्तनमण्डल>K3-आवरणम्>Bs6</a>#!html/SV-IX/SV-66/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!अपि
+row2#!NA#!अपि
+row3#!NA#!अपि{अव्य}
+row4#!NA#!<a (click)=showDic('अपि')>अपि</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,7</a>
+row6#!NA#!भी
+row7#!NA#!even
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n6#!उत्पल-पलाश-दृशः
+row2#!n6#!उत्पल-पलाश-दृशः
+row3#!n6#!उत्पल-पलाश-दृश्{;स्त्री;1;बहु}/दृश्{;स्त्री;2;बहु}/दृश्{;स्त्री;5;एक}/दृश्{;स्त्री;6;एक}/दृश्{;स्त्री;8;बहु}/दृश{;पुं;1;एक}
+row4#!n6#!<a (click)=showDic('उत्पल')>उत्पल</a>-<a (click)=showDic('पलाश')>पलाश</a>-<a (click)=showDic('दृश्')>दृश्</a>{;स्त्री;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठिसम्बन्धः,')">षष्ठिसम्बन्धः,10</a>
+row6#!n6#!कमलाक्षी के
+row7#!n6#!of the lotus-eyed
+row8#!n6#!<a href="html/SV-IX/SV-66/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-66/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<उत्पल-पलाश>T6-दृक्>Bsu</a>#!html/SV-IX/SV-66/samaasa3.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!हृदयम्
+row2#!n1#!हृदयम्
+row3#!n1#!हृदय{;नपुं;1;एक}/हृदय{;नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('हृदय')>हृदय</a>{;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,11</a>
+row6#!n1#!हृदय_को
+row7#!n1#!heart
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!अभिदन्
+row2#!v#!अभिदन्
+row3#!v#!भिद्1{कर्तरि;लुङ्;प्र;बहु;परस्मैपदी;भिदिँर्;रुधादिः}
+row4#!v#!<a (click)=showDic('भिद्1')>भिद्1</a>{कर्तरि;लुङ्;प्र;बहु;परस्मैपदी;भिदिँर्;रुधादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!विदीर्ण कर दिया है.
+row7#!v#!torn.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!प्रमिताक्षरा ।
+row11#!v#!उत्प्रेक्षा ।
+row12#!v#!भिदेर्लुङि 'इरितो वा' (3।1।57) इति च्लेरङादेशः ।
+
+

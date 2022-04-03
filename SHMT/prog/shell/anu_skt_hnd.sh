@@ -29,6 +29,7 @@ PARSE=$9
 TEXT_TYPE=${10}
 ECHO=${11}
 LTPROCBIN=${12}
+MYPYTHONPATH=${13}
 
 export SHMT_PATH=$SCLINSTALLDIR/SHMT
 ANU_MT_PATH=$SHMT_PATH/prog
@@ -175,20 +176,24 @@ cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
 # 15:  map o/p
 # 16: lwg o/p
 # 17: gen o/p
-  cut -f1-7,9-10,11,13,16,17 $temp_files_path/$fbn.out |\
-  perl -p -e 's/<([sa])>/<\@$1>/g' |\
-  perl -p -e 's/<\/([sa])>/<\/\@$1>/g' |\
-  $my_converter |\
-  $ANU_MT_PATH/interface/gen_xml.pl 10 |\
-  xsltproc $ANU_MT_PATH/interface/xhtml_unicode_sn-hi.xsl - |\
-  $ANU_MT_PATH/interface/add_dict_ref.pl $OUTSCRIPT $HTDOCSDIR/scl |\
-  perl -p -e $cmd |\
-  perl -p -e $cmd1 |\
-  perl -p -e $cmd2 > $temp_files_path/../$3.html
+###  cut -f1-7,9-10,11,13,16,17 $temp_files_path/$fbn.out |\
+###  perl -p -e 's/<([sa])>/<\@$1>/g' |\
+###  perl -p -e 's/<\/([sa])>/<\/\@$1>/g' |\
+###  $my_converter |\
+###  $ANU_MT_PATH/interface/gen_xml.pl 10 |\
+###  xsltproc $ANU_MT_PATH/interface/xhtml_unicode_sn-hi.xsl - |\
+###  $ANU_MT_PATH/interface/add_dict_ref.pl $OUTSCRIPT $HTDOCSDIR/scl |\
+###  perl -p -e $cmd |\
+###  perl -p -e $cmd1 |\
+###  perl -p -e $cmd2 > $temp_files_path/../$3.html
+
+#cut -f1,3,4,6,7,9,10,11,13,16,17 $temp_files_path/$fbn.out | $my_converter | $ANU_MT_PATH/interface/get_orig_order.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin > $temp_files_path/../$3.html
 
 $ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out | $my_converter > $temp_files_path/table.tsv
+$MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv -S $SCLINSTALLDIR
+$ANU_MT_PATH/interface/get_orig_order.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin anvaya< $temp_files_path/anvaya.tsv > $temp_files_path/../$3.html
 #unoconv -f xlsx -i FilterOptions=9,34,76 table.csv
-$ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table.tsv $temp_files_path/table.xlsx
+$MYPYTHONPATH $ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table.tsv $temp_files_path/table.xlsx
 #if [ $DEBUG = "OFF" ]; then 
 #rm -rf $temp_files_path/tmp* 
 #$temp_files_path/wsd_files

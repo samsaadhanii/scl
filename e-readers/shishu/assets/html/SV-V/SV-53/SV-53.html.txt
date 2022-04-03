@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-V/SV-53/53.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-53/53.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">53.A</a>#!html/SV-V/SV-53/53.jpg#!row1#!n1#!गत्यून-मार्ग-गतयः
+row2#!number#!53.B</a>#!row2#!n1#!गत्यून-मार्ग-गतयः 
+row3#!number#!53.C</a>#!row3#!n1#!गत्यून-मार्ग-गति{स्त्री}{1;बहु} 
+row4#!number#!53.D</a>#!row4#!n1#!<a (click)=showDic('गत्यून')>गत्यून</a>-<a (click)=showDic('मार्ग')>मार्ग</a>-<a (click)=showDic('गति')>गति</a>{पुं}{1;बहु} 
+row5#!number#!53.E</a>#!row5#!n1#!विशेषणम्,5
+row6#!number#!53.F</a>#!row6#!n1#!अपनी तीव्र गति से मृगों की गति को तुच्छकरने वाले
+row7#!number#!53.G</a>#!row7#!n1#!that have very high speed movement
+row8#!number#!53.H#!row8#!n1#!<a href="html/SV-V/SV-53/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-53/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><गत्यून-मार्गगतिः>Bs6</a>#!html/SV-V/SV-53/samaasa1.jpg
+row9#!number#!53.I</a>#!row9#!n1#!
+row10#!number#!53.J</a>#!row10#!n1#!
+row11#!number#!53.K</a>#!row11#!n1#!
+row12#!number#!53.L</a>#!row12#!n1#!
+
+row1#!NA#!अपि
+row2#!NA#!अपि 
+row3#!NA#!अपि{अव्य}
+row4#!NA#!<a (click)=showDic('अपि')>अपि</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,1</a>
+row6#!NA#!भी 
+row7#!NA#!even
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!गतोरु-मार्गाः
+row2#!n1#!गतोरु-मार्गाः 
+row3#!n1#!गतोरु-मार्ग{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('गतोरु')>गतोरु</a>-<a (click)=showDic('मार्ग')>मार्ग</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!बहुत लम्बे मार्ग को तय किये हुए
+row7#!n1#!which have decided of very long path (and)
+row8#!n1#!<a href="html/SV-V/SV-53/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-53/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><गतोरु-मार्गः>Bs3</a>#!html/SV-V/SV-53/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!दर्पोदय-उल्लसित-फेनजल-अनुसार-संलक्ष्य-पल्ययन-वर्ध्र-प्रदाः
+row2#!n1#!दर्पोदय-उल्लसित-फेनजल-अनुसार-संलक्ष्य-पल्ययन-वर्ध्र-प्रदाः
+row3#!n1#!दर्पोदय-उल्लसित-फेनजल-अनुसार-संलक्ष्य-पल्ययन-वर्ध्र-प्रद{पुं}{1;बहु}/प्रदा{स्त्री}{1;बहु}/प्रदा{स्त्री}{2;बहु} 
+row4#!n1#!<a (click)=showDic('दर्पोदय')>दर्पोदय</a>-<a (click)=showDic('उल्लसित')>उल्लसित</a>-<a (click)=showDic('फेनजल')>फेनजल</a>-<a (click)=showDic('अनुसार')>अनुसार</a>-<a (click)=showDic('संलक्ष्य')>संलक्ष्य</a>-<a (click)=showDic('पल्ययन')>पल्ययन</a>-<a (click)=showDic('वर्ध्र')>वर्ध्र</a>-<a (click)=showDic('प्रद')>प्रद</a>{पुं}{1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!तेज के आविर्भाव होने से अर्थात् तेज चलने से निकले हुए फेन जल के फैलने से स्पष्ट दिखाई पड़ रहे हैं जिनकी रस्सी बाँधने के चिह्न जिनके, ऐसे
+row7#!n1#!whose sweat on their body is very much clearly evident that they came out with a very high speed and on whom marks of lead (head collar rope) can be seen
+row8#!n1#!<a href="html/SV-V/SV-53/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-V/SV-53/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<दर्प-उदय>T6-उल्लसित>T3-फेनजल>K1-अनुसार>T6-संलक्ष्यपल्ययनवर्ध्रप्रदः>Bs6</a>#!html/SV-V/SV-53/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘वृद्धिवपिभ्यां रन्’ (उ० 185) । इत्यौणादिके रन्प्रत्यये लघूपधगुणो रपरः । तदा ‘ष्ट्रन्’ इत्यौणादिके ष्ट्रन्प्रत्यये पूर्ववद्गुणो रपरः प्रत्ययतकारस्य ‘झषस्तथोर्धोऽधः’ (8।2।40) इति जत्वे षित्त्वात्स्त्रीलिङ्गे ङीष् ।
+
+row1#!n1#!तुरङ्गाः
+row2#!n1#!तुरङ्गाः 
+row3#!n1#!तुरङ्ग{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('तुरङ्ग')>तुरङ्ग</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,9</a>
+row6#!n1#!घोडे
+row7#!n1#!horses
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n7#!भुवि
+row2#!n7#!भुवि 
+row3#!n7#!भू{स्त्री}{7;एक} 
+row4#!n7#!<a (click)=showDic('भू')>भू</a>{स्त्री}{7;एक} 
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,9</a>
+row6#!n7#!भूमि_पर
+row7#!n7#!on the earth
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n4#!वेल्लनाय
+row2#!n4#!वेल्लनाय 
+row3#!n4#!वेल्लन{नपुं}{4;एक}
+row4#!n4#!<a (click)=showDic('वेल्लन')>वेल्लन</a>{नपुं}{4;एक}
+row5#!n4#!<a href="javascript:show('प्रयोजनम्,')">प्रयोजनम्,9</a>
+row6#!n4#!लिटाने_के_लिये
+row7#!n4#!to lay
+row8#!n4#!-
+row9#!n4#!
+row10#!n4#!
+row11#!n4#!
+row12#!n4#!
+
+row1#!NA#!स्वैरं
+row2#!NA#!स्वैरं
+row3#!NA#!स्वैर{पुं}{2;एक}/स्वैर{नपुं}{1;एक}/स्वैर{नपुं}{2;एक} 
+row4#!NA#!<a (click)=showDic('स्वैर')>स्वैर</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,9</a>
+row6#!NA#!धीरे_धीरे
+row7#!NA#!slowly
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!सम्-आ-चकृषिरे.
+row2#!v#!सम्-आ-चकृषिरे 
+row3#!v#!सम्-आ-{अव्य}-चकृषिरे. 
+row4#!v#!<a (click)=showDic('सम्_आङ्_कृष्1')>सम्_आङ्_कृष्1</a>{कर्मणि;लिट्;प्र.बहु;आत्मनेपदी;कृषँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!खींचते_हुए_लाये.
+row7#!v#!were brought.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!वसन्ततिलका ।
+row11#!v#!विरोधाभासः ।
+row12#!v#!
+
+

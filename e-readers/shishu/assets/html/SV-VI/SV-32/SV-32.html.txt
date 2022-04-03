@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-VI/SV-32/32.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-32/32.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">32.A</a>#!html/SV-VI/SV-32/32.jpg#!row1#!n3#!नवकदम्बरजोऽरुणिताम्बरैः
+row2#!number#!32.B</a>#!row2#!n3#!नव-कदम्ब-रजो-अरुणित-अम्बरैः
+row3#!number#!32.C</a>#!row3#!n3#!नवकदम्बरजोऽरुणिताम्बर{नपुं;3;बहु}
+row4#!number#!32.D</a>#!row4#!n3#!<a (click)=showDic('नवकदम्बरजोऽरुणिताम्बर')>नवकदम्बरजोऽरुणिताम्बर</a>{पुं;3;बहु}
+row5#!number#!32.E</a>#!row5#!n3#!विशेषणम्,3
+row6#!number#!32.F</a>#!row6#!n3#!नवीन कदम्बों के परागों से आकाश को लाल किये हुए
+row7#!number#!32.G</a>#!row7#!n3#!New pollen-dust of trees called 'Kadamba'
+row8#!number#!32.H#!row8#!n3#!<a href="html/SV-VI/SV-32/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-32/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<नव-कदम्ब>K3-रज>T6-<अरुणित-अम्बरः>K1>Bs3</a>#!html/SV-VI/SV-32/samaasa1.jpg
+row9#!number#!32.I</a>#!row9#!n3#!
+row10#!number#!32.J</a>#!row10#!n3#!
+row11#!number#!32.K</a>#!row11#!n3#!
+row12#!number#!32.L</a>#!row12#!n3#!
+
+row1#!n3#!शिलीन्ध्रसुगन्धिभिः
+row2#!n3#!शिलीन्ध्र-सुगन्धिभिः
+row3#!n3#!शिलीन्ध्रसुगन्धि{नपुं;3;बहु}
+row4#!n3#!<a (click)=showDic('शिलीन्ध्रसुगन्धि')>शिलीन्ध्रसुगन्धि</a>{पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n3#!कन्दली के पुष्पों की सुगन्ध से
+row7#!n3#!with the fragrance of flowers of plantain trees
+row8#!n3#!<a href="html/SV-VI/SV-32/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-32/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><शिलीन्ध्र-सुगन्धिः>Bs6</a>#!html/SV-VI/SV-32/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!वन-वायुभिः
+row2#!n3#!वन-वायुभिः
+row3#!n3#!वन-वायु{पुं;3;बहु}
+row4#!n3#!<a (click)=showDic('वन')>वन</a>-<a (click)=showDic('वायु')>वायु</a>{पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,9</a>
+row6#!n3#!वन_के_वायुओं_से
+row7#!n3#!with the forest winds
+row8#!n3#!<a href="html/SV-VI/SV-32/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-32/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><वन-वायुः>T6</a>#!html/SV-VI/SV-32/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!अधिपुरन्ध्रि
+row2#!NA#!पुरन्ध्रि
+row3#!NA#!अधिपुरन्ध्रि
+row4#!NA#!<a (click)=showDic('अधिपुरन्ध्रि')>अधिपुरन्ध्रि</a>{अव्य}
+row5#!NA#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!NA#!स्त्रियों_के_विषय_में
+row7#!NA#!in women
+row8#!NA#!<a href="html/SV-VI/SV-32/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-32/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अधि-पुरन्ध्रि>A1</a>#!html/SV-VI/SV-32/samaasa4.jpg
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n6#!रागवतां
+row2#!n6#!रागवतां
+row3#!n6#!रागवत्{पुं;6;बहु}/रागवत्{नपुं;6;बहु}
+row4#!n6#!<a (click)=showDic('रागवत्')>रागवत्</a>{पुं;6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,6</a>
+row6#!n6#!कामियों_के
+row7#!n6#!of beloved
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n7#!मनसि
+row2#!n7#!मनसि
+row3#!n7#!म्ना1{कर्तरि;लट्;म;एक;परस्मैपदी;म्ना;भ्वादिः}/मनस्{नपुं;7;एक}
+row4#!n7#!<a (click)=showDic('मनस्')>मनस्</a>{नपुं;7;एक}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,9</a>
+row6#!n7#!मन_में
+row7#!n7#!in the hearts
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n1#!नव-नवा
+row2#!n1#!नव-नवा
+row3#!n1#!नव-नवा{स्त्री;1;एक}/नवा{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('नव')>नव</a>-<a (click)=showDic('नवा')>नवा</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n1#!नवीन
+row7#!n1#!new
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!'प्रकारे गुणवचनस्य' (6।1।12) इति द्विर्भावः ।
+
+row1#!n1#!अनु-रागिता
+row2#!n1#!अनु-रागिता
+row3#!n1#!अनु-रग्2{कर्मणि;लुट्;प्र;एक;आत्मनेपदी;रगँ;चुरादिः}/रागिता{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('अनुरागिता')>अनुरागिता</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,9</a>
+row6#!n1#!प्रम_को
+row7#!n1#!love
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!आ-दधे
+row2#!v#!आ-दधे
+row3#!v#!आ-{अव्य-दधि;नपुं;8;एक}/धा1{कर्तरि;लिट्;उ;एक;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}/धा1{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}/धा1{कर्तरि;लट्;उ;एक;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}/धा1{कर्मणि;लिट्;उ;एक;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}/धा1{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}/धे1{कर्मणि;लिट्;उ;एक;आत्मनेपदी;धेट्;भ्वादिः}/धे1{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;धेट्;भ्वादिः}
+row4#!v#!<a (click)=showDic('आङ्_धा1')>आङ्_धा1</a>{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;डुधाञ्;जुहोत्यादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!उत्पन्न_किया.
+row7#!v#!sprung up.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!यमकम् ।
+row12#!v#!
+
+

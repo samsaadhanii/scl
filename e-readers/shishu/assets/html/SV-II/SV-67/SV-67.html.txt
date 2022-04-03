@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-II/SV-67/67.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-67/67.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">67.A</a>#!html/SV-II/SV-67/67.jpg#!row1#!NA#!इति
+row2#!number#!67.B</a>#!row2#!NA#!इति 
+row3#!number#!67.C</a>#!row3#!NA#!इति{अव्य} 
+row4#!number#!67.D</a>#!row4#!NA#!<a (click)=showDic('इति')>इति</a>{अव्य} 
+row5#!number#!67.E</a>#!row5#!NA#!सम्बन्धः,8
+row6#!number#!67.F</a>#!row6#!NA#!इस_प्रकार
+row7#!number#!67.G</a>#!row7#!NA#!Thus
+row8#!number#!67.H#!row8#!NA#!
+row9#!number#!67.I</a>#!row9#!NA#!
+row10#!number#!67.J</a>#!row10#!NA#!
+row11#!number#!67.K</a>#!row11#!NA#!
+row12#!number#!67.L</a>#!row12#!NA#!
+
+row1#!n6#!संरम्भिणः
+row2#!n6#!संरम्भिणः 
+row3#!n6#!संरम्भिन्{पुं}{1;बहु}/संरम्भिन्{पुं}{2;बहु}/संरम्भिन्{पुं}{5;एक}/संरम्भिन्{पुं}{6;एक}/संरम्भिन्{नपुं}{5;एक}/संरम्भिन्{नपुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('संरम्भिन्')>संरम्भिन्</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n6#!क्षुभित
+row7#!n6#!angry
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!बलस्य
+row2#!n6#!बलस्य 
+row3#!n6#!बल{नपुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('बल')>बल</a>{पुं}{6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,4</a>
+row6#!n6#!बलरामजी_के
+row7#!n6#!of Balarāma
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!वाणीः
+row2#!n2#!वाणीः 
+row3#!n2#!वाणि{स्त्री}{2;बहु}/वाणी{स्त्री}{2;बहु} 
+row4#!n2#!<a (click)=showDic('वाणी')>वाणी</a>{स्त्री}{2;बहु} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n2#!वचनों_का
+row7#!n2#!speech
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!आलेख्यदेवताः
+row2#!n2#!आलेख्यदेवताः 
+row3#!n2#!आलेख्यदेवता{स्त्री}{1;बहु}/आलेख्यदेवता{स्त्री}{2;बहु} 
+row4#!n2#!<a (click)=showDic('आलेख्यदेवता')>आलेख्यदेवता</a>{स्त्री}{2;बहु} 
+row5#!n2#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n2#!चित्रित-देवों_ने
+row7#!n2#!deities in the paintings
+row8#!n2#!<a href="html/SV-II/SV-67/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-67/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><आलेख्य-देवता>T6</a>#!html/SV-II/SV-67/samaasa1.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n3#!सभा-भित्ति-प्रतिध्वानैः
+row2#!n3#!सभाभित्तिप्रतिध्वानैः 
+row3#!n3#!सभा-भित्ति-प्रतिध्वान{पुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('सभा')>सभा</a>-<a (click)=showDic('भित्ति')>भित्ति</a>-<a (click)=showDic('प्रतिध्वान')>प्रतिध्वान</a>{नपुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('हेतुः,')">हेतुः,8</a>
+row6#!n3#!सभा_की_दीवारों_की_प्रतिध्वानि_से 
+row7#!n3#!by means of echoes from the walls of the council-hall
+row8#!n3#!<a href="html/SV-II/SV-67/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-67/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<सभा-भित्ति>T6-प्रतिध्वानम्>T6</a>#!html/SV-II/SV-67/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n5#!भयात्
+row2#!n5#!भयात् 
+row3#!n5#!भय{नपुं}{5;एक} 
+row4#!n5#!<a (click)=showDic('भय')>भय</a>{नपुं}{5;एक} 
+row5#!n5#!<a href="javascript:show('हेतुः,')">हेतुः,8</a>
+row6#!n5#!भय_से 
+row7#!n5#!through fear
+row8#!n5#!-
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!
+
+row1#!v#!अन्ववदन्
+row2#!v#!अन्ववदन् 
+row3#!v#!अनु_वद्1{कर्तरि;लङ्;प्र;बहु;परस्मैपदी;वदँ;भ्वादिः} 
+row4#!v#!<a (click)=showDic('अनु_वद्1')>अनु_वद्1</a>{कर्तरि;लङ्;प्र;बहु;परस्मैपदी;वदँ;भ्वादिः} 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!अनुमोदन
+row7#!v#!approval
+row8#!v#!-
+row9#!v#!
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!NA#!इव.
+row2#!NA#!इव 
+row3#!NA#!इव{अव्य}. 
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}. 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,8</a>
+row6#!NA#!सा_किया.
+row7#!NA#!like.
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!अनुष्टुप् ।
+row11#!NA#!उत्प्रेक्षा ।
+row12#!NA#!
+
+

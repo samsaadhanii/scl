@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-VII/SV-64/64.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-64/64.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">64.A</a>#!html/SV-VII/SV-64/64.jpg#!row1#!n3#!अवसितललित-क्रियेण
+row2#!number#!64.B</a>#!row2#!n3#!अवसितललित-क्रियेण
+row3#!number#!64.C</a>#!row3#!n3#!अवसितललित-क्रियेण}
+row4#!number#!64.D</a>#!row4#!n3#!<a (click)=showDic('अवसितललित')>अवसितललित</a>-<a (click)=showDic('क्रिय')>क्रिय</a>{पुं;3;एक}
+row5#!number#!64.E</a>#!row5#!n3#!विशेषणम्,5
+row6#!number#!64.F</a>#!row6#!n3#!ललित (आलिङ्गनादि) क्रियाओं को पूर्ण की हुई
+row7#!number#!64.G</a>#!row7#!n3#!(Woman) who accomplished delicate acts of embraces etc.
+row8#!number#!64.H#!row8#!n3#!<a href="html/SV-VII/SV-64/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-64/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अवसित-<ललित-क्रियः>K1>Bs6</a>#!html/SV-VII/SV-64/samaasa1.jpg
+row9#!number#!64.I</a>#!row9#!n3#!
+row10#!number#!64.J</a>#!row10#!n3#!
+row11#!number#!64.K</a>#!row11#!n3#!
+row12#!number#!64.L</a>#!row12#!n3#!
+
+row1#!n3#!ललित-तरेण
+row2#!n3#!ललित-तरेण
+row3#!n3#!ललित-तर{पुं;3;एक}
+row4#!n3#!<a (click)=showDic('ललित')>ललित</a>-<a (click)=showDic('तर')>तर</a>{पुं;3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n3#!अत्यधिक मृदु
+row7#!n3#!very much tender
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!तनीयसा
+row2#!n3#!तनीयसा
+row3#!n3#!तनीयसा}
+row4#!n3#!<a (click)=showDic('तनीयस्')>तनीयस्</a>{पुं;3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n3#!दुर्बल
+row7#!n3#!weak
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n6#!बाह्वोः
+row2#!n6#!बाह्वोः
+row3#!n6#!बाहु{पुं;6;द्वि}/बाहु{पुं;7;द्वि}
+row4#!n6#!<a (click)=showDic('बाहु')>बाहु</a>{पुं;6;द्वि}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,5</a>
+row6#!n6#!भुजाओं_का
+row7#!n6#!of shoulders
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n3#!युगेन
+row2#!n3#!युगेन
+row3#!n3#!युग{नपुं;3;एक}
+row4#!n3#!<a (click)=showDic('युग')>युग</a>{पुं;3;एक}
+row5#!n3#!<a href="javascript:show('हेतु,')">हेतु,11</a>
+row6#!n3#!युगल
+row7#!n3#!pair
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!सरसकिसलय-अनुरञ्जितैः
+row2#!n3#!सरसकिसलय-अनुरञ्जितैः
+row3#!n3#!सरसकिसलय-अनुरञ्जितैः}
+row4#!n3#!<a (click)=showDic('सरसकिसलय')>सरसकिसलय</a>-<a (click)=showDic('अनुरञ्जित')>अनुरञ्जित</a>{पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n3#!आर्द्र नवपल्लवों से अनुरञ्जित
+row7#!n3#!the one who attained the act of conciliating affection by the wet tender sprouts
+row8#!n3#!<a href="html/SV-VII/SV-64/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-64/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<सरस-किसलय>K3-अनुरञ्जितः>T3</a>#!html/SV-VII/SV-64/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!वा
+row2#!NA#!वा
+row3#!NA#!वा{अव्य}
+row4#!NA#!<a (click)=showDic('वा')>वा</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,6</a>
+row6#!NA#!वा
+row7#!NA#!or
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!पुनरुक्तरक्त-भाभिः
+row2#!n3#!पुनरुक्तरक्त-भाभिः
+row3#!n3#!पुनरुक्तरक्त-भा{स्त्री;3;बहु}/भास्{स्त्री;3;बहु}
+row4#!n3#!<a (click)=showDic('पुनरुक्तरक्त')>पुनरुक्तरक्त</a>-<a (click)=showDic('भा')>भा</a>{पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n3#!द्विगुणित रक्ताभ
+row7#!n3#!with doubled splendor
+row8#!n3#!<a href="html/SV-VII/SV-64/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-64/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<पुनरुक्त-रक्ता>K3-भा>Bs6</a>#!html/SV-VII/SV-64/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!‘हलि सर्वेषाम्’ (8।3।22) इति यकारलोपः ।
+
+row1#!n3#!कर-कमलैः
+row2#!n3#!कर-कमलैः
+row3#!n3#!कर-कमल{नपुं;3;बहु}
+row4#!n3#!<a (click)=showDic('कर')>कर</a>-<a (click)=showDic('कमल')>कमल</a>{पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('करण,')">करण,11</a>
+row6#!n3#!करकमलोंवाली
+row7#!n3#!possessing lotus like hands
+row8#!n3#!<a href="html/SV-VII/SV-64/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-64/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कर-कमलः>Bs6</a>#!html/SV-VII/SV-64/samaasa4.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!(नितम्बिनीभिः)
+row2#!n3#!नितम्बिनीभिः
+row3#!n3#!नितम्बिनी{स्त्री;3;बहु}
+row4#!n3#!<a (click)=showDic('नितम्बिनी')>नितम्बिनी</a>{स्त्री;3;बहु}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,11</a>
+row6#!n3#!सुंदर_कटियों_वालियों_से
+row7#!n3#!by women with beautiful hips
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!v#!(अतमि)
+row2#!v#!अतमि
+row3#!v#!तम्1{भावे;लुङ्;प्र;एक;आत्मनेपदी;तमुँ;दिवादिः}
+row4#!v#!<a (click)=showDic('तम्1')>तम्1</a>{भावे;लुङ्;प्र;एक;परस्मैपदी;तमुँ;दिवादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!श्रान्त_हो_गयी.
+row7#!v#!were made to be tired.
+row8#!v#!-
+row9#!v#!भावे
+row10#!v#!पुष्पिताग्रा ।
+row11#!v#!उत्प्रेक्षा ।
+row12#!v#!
+
+

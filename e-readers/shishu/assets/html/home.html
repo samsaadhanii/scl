@@ -1,0 +1,147 @@
+    <div id="wrapper"> 
+
+        <!-- Sidebar -->
+        <!--  <button popover="I appeared on mouse enter!" popover-trigger="mouseenter" class="btn btn-default">Mouseenter</button> -->
+        <div id="sidebar-wrapper" class=".navbar-ex1-collapse">
+            <ul class="sidebar-nav" id="accordion">
+            	
+            	<li>
+            		<a href="javascript:;" data-parent="#accordion" data-toggle="collapse" data-target="#canto1"  ng-click="showAllSlokas(1)" popover="I appeared on mouse enter!" popover-trigger="mouseenter">Canto 1 <i class="fa fa-fw fa-caret-down"></i></a>
+            		
+  					<ul id="canto1" class="collapse in" aria-expanded="true" >
+  						<li><b>Sloka Index</b></li>
+  						<li><input type="text" ng-model="cantoText" class="form-control" placeholder="search text from slokas"/></li>
+  						<li ng-repeat="menu in cantoIndex.canto1 | filter: cantoText" ><a ng-click="load(1,menu)" ng-class="{active:active == menu.slokaNo}">{{menu.slokaNo}}-{{menu.sloka }}</a></li>
+  					</ul>
+            	</li>
+            	<li>
+            		<a href="javascript:;" data-parent="#accordion"  data-toggle="collapse" data-target="#canto2" ng-click="showAllSlokas(2)">Canto 2 <i class="fa fa-fw fa-caret-down"></i></a>
+            		
+  					<ul id="canto2" class="collapse" aria-expanded="false" >
+  						<li><b>Sloka Index</b></li>
+  						<li><input type="text" ng-model="cantoText2" class="form-control" placeholder="search text from slokas"/></li>
+  						<li ng-repeat="menu in cantoIndex.canto2 | filter: cantoText2" ><a ng-click="load(2,menu)" ng-class="{active:active == menu.slokaNo}">{{menu.slokaNo}}-{{menu.sloka }}</a></li>
+  					</ul>
+  
+            	</li>
+            	<li>
+            		<a href="javascript:;" data-parent="#accordion"  data-toggle="collapse" data-target="#canto3" ng-click="showAllSlokas(3)" >Canto 3 <i class="fa fa-fw fa-caret-down"></i></a>
+            		
+  					<ul id="canto3" class="collapse" aria-expanded="false" >
+  						<li><b>Sloka Index</b></li>
+  						<li><input type="text" ng-model="cantoText3" class="form-control" placeholder="search text from slokas"/></li>
+  						<li ng-repeat="menu in cantoIndex.canto3 | filter: cantoText3" ><a ng-click="load(3,menu)" ng-class="{active:active == menu.slokaNo}">{{menu.slokaNo}}-{{menu.sloka }}</a></li>
+  					</ul>
+  
+            	</li>
+                <li>
+                    <a href="javascript:;" data-parent="#accordion"  data-toggle="collapse" data-target="#canto4" ng-click="showAllSlokas(4)" >Canto 4 <i class="fa fa-fw fa-caret-down"></i></a>
+                    
+                    <ul id="canto4" class="collapse" aria-expanded="false" >
+                        <li><b>Sloka Index</b></li>
+                        <li><input type="text" ng-model="cantoText4" class="form-control" placeholder="search text from slokas"/></li>
+                        <li ng-repeat="menu in cantoIndex.canto4 | filter: cantoText4" ><a ng-click="load(4,menu)" ng-class="{active:active == menu.slokaNo}">{{menu.slokaNo}}-{{menu.sloka }}</a></li>
+                    </ul>
+  
+                </li>
+                <li>
+                    <a href="javascript:;" data-parent="#accordion"  data-toggle="collapse" data-target="#canto5" ng-click="showAllSlokas(5)" >Canto 5 <i class="fa fa-fw fa-caret-down"></i></a>
+                    
+                    <ul id="canto5" class="collapse" aria-expanded="false" >
+                        <li><b>Sloka Index</b></li>
+                        <li><input type="text" ng-model="cantoText5" class="form-control" placeholder="search text from slokas"/></li>
+                        <li ng-repeat="menu in cantoIndex.canto5 | filter: cantoText5" ><a ng-click="load(5,menu)" ng-class="{active:active == menu.slokaNo}">{{menu.slokaNo}}-{{menu.sloka }}</a></li>
+                    </ul>
+  
+                </li>
+                <li>
+                    <a href="javascript:;" data-parent="#accordion"  data-toggle="collapse" data-target="#canto6" ng-click="showAllSlokas(6)" >Canto 6 <i class="fa fa-fw fa-caret-down"></i></a>
+                    
+                    <ul id="canto6" class="collapse" aria-expanded="false" >
+                        <li><b>Sloka Index</b></li>
+                        <li><input type="text" ng-model="cantoText6" class="form-control" placeholder="search text from slokas"/></li>
+                        <li ng-repeat="menu in cantoIndex.canto6 | filter: cantoText6" ><a ng-click="load(6,menu)" ng-class="{active:active == menu.slokaNo}">{{menu.slokaNo}}-{{menu.sloka }}</a></li>
+                    </ul>
+  
+                </li>
+                 <li>
+                    <a  data-parent="#accordion"  data-toggle="collapse" >Canto 7 <i class="fa fa-fw fa-caret-down"></i></a>
+                </li>
+                 <li>
+                    <a  data-parent="#accordion"  data-toggle="collapse" >Canto 8 <i class="fa fa-fw fa-caret-down"></i></a>
+                </li>
+            
+              <!--   <li>
+                        <a href="javascript:;" data-toggle="collapse" data-target="#demo">Chapter 1<i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="demo" class="collapse">
+                            <li>
+                                <a href="#/home/summary">Summary</a>
+                            </li>
+                            <li>
+                                <a href="#">Chapter 1.1</a>
+                            </li>
+                            <li>
+                                <a href="#">Chapter 1.2</a>
+                            </li>
+                        </ul>
+                    </li>
+                <li>
+                    <a href="javascript:;" data-toggle="collapse" data-target="#demo1" >Chapter 2<i class="fa fa-fw fa-caret-down"></i></a>
+                    <ul id="demo1" class="collapse">
+                            <li>
+                                <a href="#">Summary</a>
+                            </li>
+                            <li>
+                                <a href="#">Chapter 1.1</a>
+                            </li>
+                            <li>
+                                <a href="#">Chapter 1.2</a>
+                            </li>
+                        </ul>
+                </li>
+                <li>
+                    <a href="#">Chapter 3</a>
+                </li>
+                <li>
+                    <a href="#">chapter 4</a>
+                </li>
+                <li>
+                    <a href="#">Chapter 5</a>
+                </li>
+                <li>
+                    <a href="#">Chapter 6</a>
+                </li>
+                <li>
+                    <a href="#">Chapter 7</a>
+                </li>
+                <li>
+                    <a href="#">Chapter 8</a>
+                </li> -->
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- <h1>Main Home page of the Book </h1>
+                        <p>This template for Ramayana complete Book. This will provide complete translation of
+                            all the sloka's into Hindi and Telugu and English.
+                        </p>
+                        <p>Please suggest to every one go through this blog  <code>Ramayana Blog</code>.</p> -->
+                        <ui-view></ui-view>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+    
+    <script>
+    $(".sidebar-nav li ul").niceScroll({styler:"fb",cursorcolor:"#000",cursoropacitymax:"1",autohidemode:false});
+    </script>

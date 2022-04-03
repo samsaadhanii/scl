@@ -61,6 +61,14 @@ if($dic_name eq "apte"){
         $sword =~ s/_//;
         if($word_wx =~ /_/) { $word_wx =~ /_(.)/; $l = $1;}
         else {$word_wx =~ /^(.)/; $l = $1;}
+	if ($l eq "A") { $l = "aa";}
+	elsif ($l eq "I") { $l = "ii";}
+	elsif ($l eq "U") { $l = "uu";}
+	elsif ($l eq "E") { $l = "ai";}
+	elsif ($l eq "O") { $l = "au";}
+	elsif ($l eq "R") { $l = "ss";}
+	elsif ($l eq "N") { $l = "nn";}
+	elsif (uc($l) eq $l) {$l = lc($l)."h"};
 	$filename = "$Files_Path/hi/Apte_dict/$l.xml";
 }
 elsif($dic_name eq "heritage"){
@@ -120,10 +128,10 @@ my $ans = "";
 	$/ = "</lexhead>";
 		while($in = <TMP>){
 			$lexcount = 0;
-				if($in =~ /<prAwipaxikam>$sword<\/prAwipaxikam>/ or $in =~ /<dentry>$sword<\/dentry>/  or $in =~ />$sword<\/prAwipaxikam>/){
+				if($in =~ /<prAwipaxikam>$sword<\/prAwipaxikam>/ or $in =~ /<root>$sword<\/root>/  or $in =~ />$sword<\/prAwipaxikam>/){
 					$result = &get_exact_data($in);
-					#$result =~ s/<segmenthd>/<div style=\"background:green;\">segmenthd<\/div>/g;
-					#$result =~ s/<subsegmenthd>/<div style=\"background:green;\">subsegmenthd<\/div>/g;
+					$result =~ s/<segmenthd>/<div style=\"background:cyan;\"><\/div>/g;
+					$result =~ s/<subsegmenthd>/<div style=\"background:cyan;\"><\/div>/g;
 					$result =~ s/<sense no?=\"([0-9]+)\">/<br\/>$1. /g;
 					$result =~ s/<citation>/(/g;
 					$result =~ s/<\/citation>/)/g;
@@ -143,7 +151,7 @@ my $result = "";
 	@lines = split(/<segmenthd>/,$line);
 	foreach $lines (@lines){
 		#if($lines =~ /<prAwipaxikam>$sword<\/prAwipaxikam>/ or $lines =~ /<dentry>$sword<\/dentry>/  or $in =~ />$sword<\/prAwipaxikam>/){
-		if($lines =~ /<prAwipaxikam>$sword<\/prAwipaxikam>/ or $lines =~ /<dentry>$sword<\/dentry>/  or $lines =~ />$sword<\/prAwipaxikam>/){
+		if($lines =~ /<prAwipaxikam>$sword<\/prAwipaxikam>/ or $lines =~ /<root>$sword<\/root>/  or $lines =~ />$sword<\/prAwipaxikam>/){
                         $lines =~ s/<jAwi>[^<]+<\/jAwi>//g;
                         $lines =~ s/<upAXi>[^<]+<\/upAXi>//g;
                         $lines =~ s/<kind_of>[^<]+<\/kind_of>//g;
@@ -160,6 +168,7 @@ sub mw_result{
 	my($sword) = @_;
 	my $result = "";
 	my ($count) = 0;
+	my($epno) = 0;
 	$sword1 = $sword;
 	$sword1 =~ s/ा//;
      
@@ -291,7 +300,7 @@ sub get_Heritage_Index {
 # Following code corresponds to the Ocaml code ML/Chapters.ml
 sub get_MW_Index {
 	my ($w) = @_;
-	my $index = "";
+	my $index = 0;
 	$c[1] = "अ";
 	$c[2] = "अग्नि";
 	$c[3] = "अचिर";
@@ -609,9 +618,12 @@ sub get_MW_Index {
 	$c[315] = "हिंस";
 	$c[316] = "हू";
 	$c[317] = "होढ";
-	for ($i=1;$i<318;$i++){
+	$index = $mw_exception{$w}; 
+	if($index == 0) {
+	  for ($i=1;$i<318;$i++){
 		if($w ge $c[$i]) { $index = $i;}
-	}
+	  }
+        }
 	$index;
 }
 1;

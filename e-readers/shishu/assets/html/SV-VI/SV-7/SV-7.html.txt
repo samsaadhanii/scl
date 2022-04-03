@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-VI/SV-7/7.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-7/7.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">7.A</a>#!html/SV-VI/SV-7/7.jpg#!row1#!n7#!प्रियतमेषु
+row2#!number#!7.B</a>#!row2#!n7#!प्रियतमेषु
+row3#!number#!7.C</a>#!row3#!n7#!प्रियतम{पुं;7;बहु}/तम{नपुं;7;बहु}/तम{नपुं;7;बहु}
+row4#!number#!7.D</a>#!row4#!n7#!<a (click)=showDic('प्रियतम')>प्रियतम</a>{पुं;7;बहु}
+row5#!number#!7.E</a>#!row5#!n7#!अधिकरणम्,2
+row6#!number#!7.F</a>#!row6#!n7#!प्रियतमों_पर
+row7#!number#!7.G</a>#!row7#!n7#!on beloved
+row8#!number#!7.H#!row8#!n7#!
+row9#!number#!7.I</a>#!row9#!n7#!
+row10#!number#!7.J</a>#!row10#!n7#!
+row11#!number#!7.K</a>#!row11#!n7#!
+row12#!number#!7.L</a>#!row12#!n7#!
+
+row1#!n2#!कृत-क्रुधः
+row2#!n2#!कृत-क्रुधः
+row3#!n2#!कृत-क्रुध्{स्त्री;1;बहु}/क्रुध्{स्त्री;2;बहु}/क्रुध्{स्त्री;5;एक}/क्रुध्{स्त्री;6;एक}/क्रुध्{स्त्री;8;बहु}
+row4#!n2#!<a (click)=showDic('कृत')>कृत</a>-<a (click)=showDic('क्रुध्')>क्रुध्</a>{स्त्री;2;बहु}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n2#!कुपित
+row7#!n2#!angry
+row8#!n2#!<a href="html/SV-VI/SV-7/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-7/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कृत-क्रुध्>Bs3</a>#!html/SV-VI/SV-7/samaasa1.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!वधूः
+row2#!n2#!वधूः
+row3#!n2#!वधू{स्त्री;1;एक}/वधू{स्त्री;2;बहु}/वधु{स्त्री;2;बहु}
+row4#!n2#!<a (click)=showDic('वधु')>वधु</a>{स्त्री;2;बहु}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,5</a>
+row6#!n2#!अङ्गनाओं_को
+row7#!n2#!women
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!'अकेनोर्भविष्यदाधमर्ण्ययोः' (2।3।7) इति षष्ठीप्रतिषेधाद्वधूरिति द्वितीया ।
+
+row1#!n1#!अनु-नायिका
+row2#!n1#!अनु-नायिका
+row3#!n1#!अनु-नायिका{स्त्री;1;एक}/नायिका{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('अनु')>अनु</a>-<a (click)=showDic('नायिका')>नायिका</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,5</a>
+row6#!n1#!मनानेवाली
+row7#!n1#!who convinces
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!'तमुन्ण्वुलौ क्रियायां क्रियार्थायाम्' (3।3।10) इति भविष्यदर्थे ण्वुल् प्रत्ययः ।
+
+row1#!n1#!रतिपति-प्रहिता
+row2#!n1#!रतिपति-प्रहिता
+row3#!n1#!रतिपति-प्रहिता{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('रतिपति')>रतिपति</a>-<a (click)=showDic('प्रहिता')>प्रहिता</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,6</a>
+row6#!n1#!कामदेव के द्वारा भेजी गई
+row7#!n1#!sent by cupid
+row8#!n1#!<a href="html/SV-VI/SV-7/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-7/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<रति-पति>T6-प्रहिता>T3</a>#!html/SV-VI/SV-7/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इव
+row2#!NA#!इव
+row3#!NA#!इव{अव्य}
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,4</a>
+row6#!NA#!जैसे
+row7#!NA#!as if
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!बकुल-पुष्प-रसासव-पेशल-ध्वनिः
+row2#!n1#!बकुल-पुष्प-रसासव-पेशल-ध्वनिः
+row3#!n1#!बकुल-पुष्प-रसासव-पेशल-ध्वनि{पुं;1;एक}/ध्वनि{पुं;1;एक}
+row4#!n1#!<a (click)=showDic('बकुल')>बकुल</a>-<a (click)=showDic('पुष्प')>पुष्प</a>-<a (click)=showDic('रसासव')>रसासव</a>-<a (click)=showDic('पेशल')>पेशल</a>-<a (click)=showDic('ध्वनि')>ध्वनि</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n1#!बकुल (मौलसिरी) के फूलों के मकरन्द (रस) रूपी मद्य (के पान करने) से मधुरध्वनि वाली
+row7#!n1#!with a melodious sound having (consumed) intoxicated honey, came forth of Bakula tree
+row8#!n1#!<a href="html/SV-VI/SV-7/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-7/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<बकुल-पुष्प>K7-रस>T6-आसव>K6-<पेशल-ध्वनिः>K1>Bs6</a>#!html/SV-VI/SV-7/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!मधुप-आवलिः
+row2#!n1#!मधुप-आवलिः
+row3#!n1#!मधुप-आवलि{स्त्री;1;एक}/आवलि{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('मधुप')>मधुप</a>-<a (click)=showDic('आवलि')>आवलि</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n1#!भ्रमरपङ्क्ति
+row7#!n1#!cluster of bees
+row8#!n1#!<a href="html/SV-VI/SV-7/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-7/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><मधुप-आवलिः>T6</a>#!html/SV-VI/SV-7/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n5#!अगात्
+row2#!n5#!अगात्
+row3#!n5#!इ1{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;इण्;अदादिः}
+row4#!n5#!<a (click)=showDic('अग')>अग</a>{पुं;5;एक}
+row5#!n5#!<a href="javascript:show('अपादानम,')">अपादानम,10</a>
+row6#!n5#!वृक्ष_से
+row7#!n5#!from a tree
+row8#!n5#!-
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!
+
+row1#!v#!निरगात्
+row2#!v#!निरगात्
+row3#!v#!निर्_इ1{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;इण्;अदादिः}
+row4#!v#!<a (click)=showDic('निर्_इ1')>निर्_इ1</a>{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;इण्;अदादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!निकल_गया.
+row7#!v#!came forth.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!उत्प्रेक्षा + यमकम् = सङ्करः ।
+row12#!v#!'इ णो गा लुङि' (2।4।45) इति गादेशः ।
+
+

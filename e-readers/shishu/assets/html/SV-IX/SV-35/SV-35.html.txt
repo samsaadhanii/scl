@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-IX/SV-35/35.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-35/35.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">35.A</a>#!html/SV-IX/SV-35/35.jpg#!row1#!n1#!सुदृशः
+row2#!number#!35.B</a>#!row2#!n1#!सुदृशः
+row3#!number#!35.C</a>#!row3#!n1#!सुदृश्{;पुं;1;बहु}/सुदृश्{;पुं;2;बहु}/सुदृश्{;पुं;5;एक}/सुदृश्{;पुं;6;एक}
+row4#!number#!35.D</a>#!row4#!n1#!<a (click)=showDic('सुदृश्')>सुदृश्</a>{;स्त्री;1;बहु}
+row5#!number#!35.E</a>#!row5#!n1#!कर्ता,9
+row6#!number#!35.F</a>#!row6#!n1#!सुलोचनाओं ने
+row7#!number#!35.G</a>#!row7#!n1#!Women possessed with beautiful eyes
+row8#!number#!35.H#!row8#!n1#!
+row9#!number#!35.I</a>#!row9#!n1#!
+row10#!number#!35.J</a>#!row10#!n1#!
+row11#!number#!35.K</a>#!row11#!n1#!
+row12#!number#!35.L</a>#!row12#!n1#!
+
+row1#!NA#!अभि-भर्तृ
+row2#!NA#!अभि-भर्तृ
+row3#!NA#!अभि-भर्तृ{;नपुं;1;एक}/भर्तृ{;नपुं;2;एक}/भर्तृ{;नपुं;8;एक}
+row4#!NA#!<a (click)=showDic('अभि')>अभि</a>-<a (click)=showDic('भर्तृ')>भर्तृ</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,9</a>
+row6#!NA#!अपने पतियों के सम्मुख
+row7#!NA#!in the presence of (their) husbands
+row8#!NA#!<a href="html/SV-IX/SV-35/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-35/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अभि-भर्तृ>A1</a>#!html/SV-IX/SV-35/samaasa1.jpg
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!'लक्षणेनाभिप्रती आभिमुख्ये' (2।1।14) इत्यव्ययीभावः ।
+
+row1#!n2#!शशिरश्मिगलज्जल-बिन्दुम्
+row2#!n2#!शशिरश्मिगलज्जल-बिन्दुम्
+row3#!n2#!शशिरश्मिगलज्जल-बिन्दु{;पुं;2;एक}
+row4#!n2#!<a (click)=showDic('शशिरश्मिगलज्जल')>शशिरश्मिगलज्जल</a>-<a (click)=showDic('बिन्दु')>बिन्दु</a>{;स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n2#!चन्द्रकिरणों (के स्पर्श) से स्रवित हुए जलबिन्दुओं वाली
+row7#!n2#!a moon-stone that was invariably pervaded with droplets of water
+row8#!n2#!<a href="html/SV-IX/SV-35/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-35/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<शशि-रश्मि>T6-<गलत्-<जल-बिन्दुः>T6>K3>Bs6</a>#!html/SV-IX/SV-35/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!इन्दुमणिदारु-वधूम्
+row2#!n2#!इन्दुमणिदारु-वधूम्
+row3#!n2#!इन्दुमणिदारु-वधू{;स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('इन्दुमणिदारु')>इन्दुमणिदारु</a>-<a (click)=showDic('वधू')>वधू</a>{;स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n2#!चन्द्रकान्तमणि निर्मित काष्ठ की अङ्गना (प्रतिमा) को
+row7#!n2#!that were shed by the touch of the moon-rays
+row8#!n2#!<a href="html/SV-IX/SV-35/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-35/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<इन्दु-मणि>T6-दारु>K6-वधूः>T6</a>#!html/SV-IX/SV-35/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!स्मरजन्मघर्मपयस-उपचिताम्
+row2#!n2#!स्मरजन्मघर्मपयस-उपचिताम्
+row3#!n2#!स्मरजन्मघर्मपयस-उपचिता{;स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('स्मरजन्मघर्मपयस')>स्मरजन्मघर्मपयस</a>-<a (click)=showDic('उप_चि1')>उप_चि1</a>{क्त;चिञ्;स्वादिः;;स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n2#!कामजन्य स्वेदजल से व्याप्त
+row7#!n2#!shed with the sweat of lust
+row8#!n2#!<a href="html/SV-IX/SV-35/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-35/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<स्मर-जन्म>Bs6-<घर्म-पयः>K3>K3-उपचिता>T3</a>#!html/SV-IX/SV-35/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!प्रति-कामिनी
+row2#!n1#!प्रति-कामिनी
+row3#!n1#!प्रति-कामिनी{;स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('प्रति')>प्रति</a>-<a (click)=showDic('कामिनी')>कामिनी</a>{;स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,7</a>
+row6#!n1#!सपत्नी
+row7#!n1#!concubine
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इति
+row2#!NA#!इति
+row3#!NA#!इति{अव्य}
+row4#!NA#!<a (click)=showDic('इति')>इति</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,8</a>
+row6#!NA#!ऐसा
+row7#!NA#!thus
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!चकिताः
+row2#!n1#!चकिताः
+row3#!n1#!चकिता{;स्त्री;1;बहु}/चकिता{;स्त्री;2;बहु}/चकिता{;स्त्री;8;बहु}
+row4#!n1#!<a (click)=showDic('चक्1')>चक्1</a>{क्त;चकँ;भ्वादिः;;स्त्री;1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,1</a>
+row6#!n1#!आश्चर्यभूत_हुए
+row7#!n1#!surprisingly
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!ददृशुः
+row2#!v#!ददृशुः
+row3#!v#!दृश्1{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;दृशिँर्;भ्वादिः}
+row4#!v#!<a (click)=showDic('दृश्1')>दृश्1</a>{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;दृशिँर्;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!देखा
+row7#!v#!saw.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!प्रमिताक्षरा ।
+row11#!v#!भ्रान्तिमत् ।
+row12#!v#!
+
+

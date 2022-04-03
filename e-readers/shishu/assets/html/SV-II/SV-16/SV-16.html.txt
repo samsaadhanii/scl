@@ -1,0 +1,79 @@
+row1#!number#!<a href="html/SV-II/SV-16/16.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-16/16.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">16.A</a>#!html/SV-II/SV-16/16.jpg#!row1#!n2#!मदिर-आस्वाद-मद-पाटलित-द्युती
+row2#!number#!16.B</a>#!row2#!n2#!मदिरास्वादमदपाटलितद्युती 
+row3#!number#!16.C</a>#!row3#!n2#!मदिर-आस्वाद-मद-पाटलित-द्युति{स्त्री}{1;द्वि}/द्युति{स्त्री}{2;द्वि} 
+row4#!number#!16.D</a>#!row4#!n2#!<a (click)=showDic('<a (click)=showDic('मद')>मद</a>िर')>मदिर</a>-<a (click)=showDic('आस्वाद')>आस्वाद</a>-मद-<a (click)=showDic('पाटलित')>पाटलित</a>-<a (click)=showDic('द्युति')>द्युति</a>{स्त्री}{2;द्वि} 
+row5#!number#!16.E</a>#!row5#!n2#!विशेषणम्,3
+row6#!number#!16.F</a>#!row6#!n2#!मद्यपान करने से उत्पन्न नशे_से_रक्तवर्ण
+row7#!number#!16.G</a>#!row7#!n2#!reddened by inebriation and purified
+row8#!number#!16.H#!row8#!n2#!<a href="html/SV-II/SV-16/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-16/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<मदिर-आस्वाद>T6-मद>T3-पाटलिताद्युतिः>Bs6</a>#!html/SV-II/SV-16/samaasa1.jpg
+row9#!number#!16.I</a>#!row9#!n2#!
+row10#!number#!16.J</a>#!row10#!n2#!
+row11#!number#!16.K</a>#!row11#!n2#!
+row12#!number#!16.L</a>#!row12#!n2#!
+
+row1#!n7#!रेवती-वदन-उच्छिष्ट-परिपूत-पुटे
+row2#!n7#!रेवतीवदनोच्छिष्टपरिपूतपुटे 
+row3#!n7#!रेवती-वदन-उच्छिष्ट-परिपूत-पुट{पुं}{7;एक} 
+row4#!n7#!<a (click)=showDic('रेवती')>रेवती</a>-<a (click)=showDic('वदन')>वदन</a>-<a (click)=showDic('उच्छिष्ट')>उच्छिष्ट</a>-<a (click)=showDic('परिपूत')>परिपूत</a>-<a (click)=showDic('पुट')>पुट</a>{पुं}{7;एक} 
+row5#!n7#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n7#!रेवती_के_मुख_के_जूठे_से_शुद्ध_प्रान्तों_वाले
+row7#!n7#!by the leavings from the mouth of Revathī
+row8#!n7#!<a href="html/SV-II/SV-16/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-16/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<रेवती-वदन>T6-उच्छिष्ट>T7-पूरितपुटः>Bs6</a>#!html/SV-II/SV-16/samaasa2.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!दृशौ
+row2#!n7#!दृशौ 
+row3#!n7#!दृश्{स्त्री}{1;द्वि}/दृश्{स्त्री}{2;द्वि}/दृशि{स्त्री}{7;एक} 
+row4#!n7#!<a (click)=showDic('दृशि')>दृशि</a>{स्त्री}{7;एक} 
+row5#!n7#!<a href="javascript:show('कर्म,')">कर्म,4</a>
+row6#!n7#!दोनों_नेत्रों_को
+row7#!n7#!two eyes
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n1#!घूर्णयन्
+row2#!n1#!घूर्णयन् 
+row3#!n1#!घूर्ण2{कृत्_प्रत्ययः:शतृ;घूर्णँ;तुदादिः;पुं}{1;एक}/घूर्ण-अयस्{पुं}{8;एक} 
+row4#!n1#!<a (click)=showDic('घूर्ण2')>घूर्ण2</a>{कृत्_प्रत्ययः:शतृ;घूर्णँ;तुदादिः;पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,6</a>
+row6#!n1#!घुमाते_हुए
+row7#!n1#!while rolling
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!(रामः)
+row2#!n1#!रामः
+row3#!n1#!राम{पुं}{1;एक}/रा1{कर्तरि;लट्;उ;बहु;परस्मैपदी;रा;अदादिः} 
+row4#!n1#!<a (click)=showDic('राम')>राम</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,6</a>
+row6#!n1#!बलराम_जी_ने
+row7#!n1#!Balarāma
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!(जगाद).
+row2#!v#!जगाद
+row3#!v#!गद्1{कर्तरि;लिट्;उ;एक;परस्मैपदी;गदँ;भ्वादिः}/गद्1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;गदँ;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('गद्1')>गद्1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;गदँ;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!स्पष्ट_बोला. 
+row7#!v#!spoke.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!विरोधाभासः ।
+row12#!v#!
+
+

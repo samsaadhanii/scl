@@ -59,9 +59,9 @@ while ($in = <TMP>) {
             $ana1 = $5;
             $key = $parse."_".$sent."_".$wrd;
             $key1 = $parse."_".$sent."_".$wrd1;
-            if($ANA{$key} eq "") { $ANA{$key} = $ana;}
-            if($ANA{$key1} eq "") { $ANA{$key1} = $ana1;}
-            if($REL{$key} eq "") { $REL{$key} = $kAraka_name{$rel}.",".$wrd1_order;}
+            if($ANA{$key} eq "") { $ANA{$key} = $ana;} else { $ANA{$key} .= ";".$ana;}
+            if($ANA{$key1} eq "") { $ANA{$key1} = $ana1;} else { $ANA{$key1} .= ";".$ana1;}
+            if($REL{$key} eq "") { $REL{$key} = $kAraka_name{$rel}.",".$wrd1_order;} else { $REL{$key} .= ";".$kAraka_name{$rel}.",".$wrd1_order;}
 #            $ANA{$key} = $ana;
             #print  "key val = ",$key," ",$ana,"\n";
            #print  "key1 val1 = ",$key1," ",$ana1,"\n";

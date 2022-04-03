@@ -1,0 +1,14 @@
+[
+    {
+        "title": "Welcome to the e-version of Bhagavad Geeta",
+        "intro":
+        [
+            {
+                "para": "This is an updated version of the work done by Dr. Preeti Shukla as a part of her Ph.D. research. The original version captures salient features of understanding Sanskrit poetry viz., पद-विभागः (word-separation), अन्वयः (sentence order), पद-परिचयः (word analysis), कारकसम्बन्धः (kāraka relations), सन्धि-विच्छेदः (sandhi-split) etc."
+            },
+            {
+                "para": "The current version follows Samsaadhanii's new tagging guidelines. Various कारकसम्बन्धः (Kāraka relations) are updated with some new relations for better understanding. Anvaya order is also the updated accordingly."
+            }
+        ]
+    }
+]

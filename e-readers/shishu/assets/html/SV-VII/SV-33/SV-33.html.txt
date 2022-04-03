@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-VII/SV-33/33.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-33/33.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">33.A</a>#!html/SV-VII/SV-33/33.jpg#!row1#!n1#!विततवलिविभाव्यपाण्डुलेखाकृतपरभागविलीनरोम-राजिः
+row2#!number#!33.B</a>#!row2#!n1#!विततवलिविभाव्यपाण्डुलेखाकृतपरभागविलीनरोम-राजिः
+row3#!number#!33.C</a>#!row3#!n1#!विततवलिविभाव्यपाण्डुलेखाकृतपरभागविलीनरोम-राजि{स्त्री;1;एक}
+row4#!number#!33.D</a>#!row4#!n1#!<a (click)=showDic('विततवलिविभाव्यपाण्डुलेखाकृतपरभागविलीनरोम')>विततवलिविभाव्यपाण्डुलेखाकृतपरभागविलीनरोम</a>-<a (click)=showDic('राजि')>राजि</a>{स्त्री;1;एक}
+row5#!number#!33.E</a>#!row5#!n1#!विशेषणम्,9
+row6#!number#!33.F</a>#!row6#!n1#!पुष्प तोड़ने के लिए हाथ को ऊपर उठाने पर उदरस्थ त्रिवलियों के अन्तराल भाग से स्पष्ट परिलक्षित होती हुई गौरवर्णवाली रेखाओं से अत्यधिक मनोहर (अत एव) न दिखाई देती हुई रोमापंक्तिवाली
+row7#!number#!33.G</a>#!row7#!n1#!When women lifted up her hand to pluck flowers, ripples on her waist were clearly seen
+row8#!number#!33.H#!row8#!n1#!<a href="html/SV-VII/SV-33/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-33/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<वितत-वलय>T3-<विभाव्य-पाण्डुलेखा>K3>T3-कृतपरभाग>T3-विलीन>K3-रोमराजिः>Bs6</a>#!html/SV-VII/SV-33/samaasa1.jpg
+row9#!number#!33.I</a>#!row9#!n1#!
+row10#!number#!33.J</a>#!row10#!n1#!
+row11#!number#!33.K</a>#!row11#!n1#!
+row12#!number#!33.L</a>#!row12#!n1#!
+
+row1#!n2#!कृशम्
+row2#!n2#!कृशम्
+row3#!n2#!कृश{नपुं;1;एक}
+row4#!n2#!<a (click)=showDic('कृश')>कृश</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n2#!दुर्बल
+row7#!n2#!lean
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!अपि
+row2#!NA#!अपि
+row3#!NA#!अपि{अव्य}
+row4#!NA#!<a (click)=showDic('अपि')>अपि</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,3</a>
+row6#!NA#!भी
+row7#!NA#!though
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!अवलग्नं
+row2#!n2#!अवलग्नं
+row3#!n2#!अवलग्न{पुं;2;एक}
+row4#!n2#!<a (click)=showDic('अव_लज्2')>अव_लज्2</a>{क्त;ओँलजीँ;तुदादिः;नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('क्रियाविशेषणम्,')">क्रियाविशेषणम्,7</a>
+row6#!n2#!कटीभाग
+row7#!n2#!waist
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!पुनः
+row2#!NA#!पुनः
+row3#!NA#!पुनः{अव्य}
+row4#!NA#!<a (click)=showDic('पुनः')>पुनः</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रियाविशेषणम्,')">क्रियाविशेषणम्,7</a>
+row6#!NA#!और_भी
+row7#!NA#!much more
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!कृशतां
+row2#!n2#!कृशतां
+row3#!n2#!कृशता{स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('कृशता')>कृशता</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,7</a>
+row6#!n2#!क्षीण
+row7#!n2#!lean
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!नयन्ती
+row2#!n1#!नयन्ती
+row3#!n1#!नयत्{नपुं;1;द्वि}/नयत्{नपुं;2;द्वि}/नयत्{नपुं;8;द्वि}/नयन्ती{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('नी1')>नी1</a>{शतृ_लट्;णीञ्;भ्वादिः;स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,10</a>
+row6#!n1#!करती_हुई
+row7#!n1#!while making
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!विपुल-तरा
+row2#!n1#!विपुल-तरा
+row3#!n1#!विपुल-तरा{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('विपुल')>विपुल</a>-<a (click)=showDic('तरा')>तरा</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n1#!विशाल
+row7#!n1#!large
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!उन्मुख-लोचना
+row2#!n1#!उन्मुख-लोचना
+row3#!n1#!उन्मुख-लोचना{स्त्री;1;एक}
+row4#!n1#!<a (click)=showDic('उन्मुख')>उन्मुख</a>-<a (click)=showDic('लोचना')>लोचना</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n1#!उन्मुख-नेत्रोंवाली
+row7#!n1#!possessed with upraised-eyes
+row8#!n1#!<a href="html/SV-VII/SV-33/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-33/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><उन्मुख-लोचना>Bs6</a>#!html/SV-VII/SV-33/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!(अस्थित)
+row2#!v#!अस्थित
+row3#!v#!अस्थित}
+row4#!v#!<a (click)=showDic('स्था1')>स्था1</a>{कर्तरि;लुङ्;प्र;एक;आत्मनेपदी;ष्ठा;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!खड़ी_रही.
+row7#!v#!stood,
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!पुष्पिताग्रा ।
+row11#!v#!-
+row12#!v#!
+
+

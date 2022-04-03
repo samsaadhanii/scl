@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-II/SV-4/4.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-4/4.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">4.A</a>#!html/SV-II/SV-4/4.jpg#!row1#!n7#!रत्न-स्तम्भेषु
+row2#!number#!4.B</a>#!row2#!n7#!रत्नस्तम्भेषु 
+row3#!number#!4.C</a>#!row3#!n7#!रत्न-स्तम्भ{पुं}{7;बहु} 
+row4#!number#!4.D</a>#!row4#!n7#!<a (click)=showDic('रत्न')>रत्न</a>-<a (click)=showDic('स्तम्भ')>स्तम्भ</a>{पुं}{7;बहु} 
+row5#!number#!4.E</a>#!row5#!n7#!अधिकरणम्,9
+row6#!number#!4.F</a>#!row6#!n7#!रत्न_से_जडे_हुए_खम्बों_में
+row7#!number#!4.G</a>#!row7#!n7#!in the gem-studded pillars
+row8#!number#!4.H#!row8#!n7#!<a href="html/SV-II/SV-4/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-4/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><रत्न-स्तम्भः>T6</a>#!html/SV-II/SV-4/samaasa1.jpg
+row9#!number#!4.I</a>#!row9#!n7#!
+row10#!number#!4.J</a>#!row10#!n7#!
+row11#!number#!4.K</a>#!row11#!n7#!
+row12#!number#!4.L</a>#!row12#!n7#!
+
+row1#!n1#!सङ्क्रान्त-प्रतिमाः
+row2#!n1#!सङ्क्रान्तप्रतिमाः 
+row3#!n1#!सङ्क्रान्त-प्रतिमा{स्त्री}{1;बहु}/प्रतिमा{स्त्री}{2;बहु} 
+row4#!n1#!<a (click)=showDic('सङ्क्रान्त')>सङ्क्रान्त</a>-<a (click)=showDic('प्रतिम')>प्रतिम</a>{पुं}{1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n1#!प्रतिबिम्बित मूर्ति वाले
+row7#!n1#!with their images reflected
+row8#!n1#!<a href="html/SV-II/SV-4/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-4/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><सङ्क्रान्त-प्रतिमः>Bs6</a>#!html/SV-II/SV-4/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!ते
+row2#!n1#!ते 
+row3#!n1#!तद्{पुं}{1;बहु}/तद्{स्त्री}{1;द्वि}/तद्{स्त्री}{2;द्वि}/तद्{नपुं}{1;द्वि}/तद्{नपुं}{2;द्वि}/युष्मद्{4;एक}/युष्मद्{6;एक} 
+row4#!n1#!<a (click)=showDic('तद्')>तद्</a>{पुं}{1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n1#!वे (तीनों)
+row7#!n1#!these (three)
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!एकाकिनः
+row2#!n1#!एकाकिनः 
+row3#!n1#!एकाकिन्{पुं}{1;बहु}/एकाकिन्{पुं}{2;बहु}/एकाकिन्{पुं}{5;एक}/एकाकिन्{पुं}{6;एक} 
+row4#!n1#!<a (click)=showDic('एकाकिन्')>एकाकिन्</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,9</a>
+row6#!n1#!अकेले रहते_हुए
+row7#!n1#!alone
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘एकदाकिनिच्चासहाये’ (5।3।52) इत्याकिनिच्प्रत्ययः ।
+
+row1#!NA#!अपि
+row2#!NA#!अपि 
+row3#!NA#!अपि{अव्य} 
+row4#!NA#!<a (click)=showDic('अपि')>अपि</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,4</a>
+row6#!NA#!भी 
+row7#!NA#!though
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!परितः
+row2#!NA#!परितः 
+row3#!NA#!परितः{अव्य} 
+row4#!NA#!<a (click)=showDic('परितः')>परितः</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,7</a>
+row6#!NA#!चारों_ओर 
+row7#!NA#!all sides
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!परितोऽभितः सर्वतः । ‘पर्यभिभ्यां च’ (5।3।39) इति तसिल्प्रत्ययः । स च सर्वोभयार्थाभ्यामिष्यते ।
+
+row1#!n1#!पौरुषेय-वृताः
+row2#!n1#!पौरुषेयवृताः
+row3#!n1#!पौरुषेय-वृता{स्त्री}{1;बहु}/वृता{स्त्री}{2;बहु} 
+row4#!n1#!<a (click)=showDic('पौरुषेय')>पौरुषेय</a>-<a (click)=showDic('वृत')>वृत</a>{पुं}{1;बहु}
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,8</a>
+row6#!n1#!पुरुष समुदाय_से_घिरे_हुए
+row7#!n1#!sorrounded by many people
+row8#!n1#!<a href="html/SV-II/SV-4/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-4/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<पौरुषेय-वृतः>Bs3</a>#!html/SV-II/SV-4/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘सर्वपुरुषाभ्यां णढञौ’ (5।1।10) पुरुषाद्वधविकारसमूहतेनकृतेष्विति वक्तव्यम्’ (वा०) इति समूहे ढञ्प्रत्ययः ।
+
+row1#!NA#!इव
+row2#!NA#!इव 
+row3#!NA#!इव{अव्य} 
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,4</a>
+row6#!NA#!जैसे 
+row7#!NA#!like
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!चकाशिरे.
+row2#!v#!चकाशिरे 
+row3#!v#!काश्1{भावे;लिट्;प्र;बहु;आत्मनेपदी;काशृँ;भ्वादिः}/काश्2{कर्तरि;लिट्;प्र;बहु;आत्मनेपदी;काशृँ;दिवादिः}/काश्2{भावे;लिट्;प्र;बहु;आत्मनेपदी;काशृँ;दिवादिः}. 
+row4#!v#!<a (click)=showDic('काश्2')>काश्2</a>{कर्तरि;लिट्;प्र;बहु;आत्मनेपदी;काशृँ;दिवादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!शोभते थे.
+row7#!v#!looked beautiful
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!उत्प्रेक्षा ।
+row12#!v#!
+
+

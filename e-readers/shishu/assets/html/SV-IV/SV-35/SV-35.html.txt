@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-IV/SV-35/35.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-35/35.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">35.A</a>#!html/SV-IV/SV-35/35.jpg#!row1#!NA#!अत्र
+row2#!number#!35.B</a>#!row2#!NA#!अत्र 
+row3#!number#!35.C</a>#!row3#!NA#!अत्र{अव्य} 
+row4#!number#!35.D</a>#!row4#!NA#!<a (click)=showDic('अत्र')>अत्र</a>{अव्य} 
+row5#!number#!35.E</a>#!row5#!NA#!देशाधिकरणम्,7
+row6#!number#!35.F</a>#!row6#!NA#!यहाँ (इस रैवतक-पर्वत_पर)
+row7#!number#!35.G</a>#!row7#!NA#!Here
+row8#!number#!35.H#!row8#!NA#!
+row9#!number#!35.I</a>#!row9#!NA#!
+row10#!number#!35.J</a>#!row10#!NA#!
+row11#!number#!35.K</a>#!row11#!NA#!
+row12#!number#!35.L</a>#!row12#!NA#!
+
+row1#!n1#!वनस्पति-स्कन्ध-निषष्ण-बाल-प्रवाल-हस्ताः
+row2#!n1#!वनस्पति-स्कन्ध-निषष्ण-बाल-प्रवाल-हस्ताः 
+row3#!n1#!वनस्पति-स्कन्ध-निषष्ण-बाल-प्रवाल-हस्त{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('वनस्पति')>वनस्पति</a>-<a (click)=showDic('स्कन्ध')>स्कन्ध</a>-<a (click)=showDic('निषष्ण')>निषष्ण</a>-<a (click)=showDic('बाल')>बाल</a>-<a (click)=showDic('प्रवाल')>प्रवाल</a>-<a (click)=showDic('हस्त')>हस्त</a>{स्त्री}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,7</a>
+row6#!n1#!वनस्पति_के_स्कन्ध_पर_स्थित_नव-पल्लव रूप हाथ वाली
+row7#!n1#!with their sprout-like hands resting on the branches of trees
+row8#!n1#!<a href="html/SV-IV/SV-35/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-35/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<वनस्पति-स्कन्ध>T6-निषण्ण>T7-<बाल-प्रवाल>K1>K1-हस्ता>Bs6</a>#!html/SV-IV/SV-35/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!मधुव्रत-व्रात-वृत्तैः
+row2#!n3#!मधुव्रत-व्रात-वृत्तैः 
+row3#!n3#!मधुव्रत-व्रात-वृत्त{पुं}{3;बहु}/वृत्त{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('मधुव्रत')>मधुव्रत</a>-<a (click)=showDic('व्रात')>व्रात</a>-<a (click)=showDic('वृत्')>वृत्</a>{पुं}{3;बहु}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n3#!भ्रमर समूहों_से
+row7#!n3#!swarms of bees
+row8#!n3#!<a href="html/SV-IV/SV-35/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-35/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<मधु-व्रत>U-व्रात>T6-वृत्तः>T3</a>#!html/SV-IV/SV-35/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!लम्भितलोचकैः
+row2#!n3#!लम्भितलोचकैः 
+row3#!n3#!लम्भितलोच-किम्{पुं}{3;बहु}/किम्{पुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('लम्भितलोचक')>लम्भितलोचक</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n3#!आच्छादित तारका/कज्जल_युक्त
+row7#!n3#!like eyes as it were having pupils or collyrium
+row8#!n3#!<a href="html/SV-IV/SV-35/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-35/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><लम्भित-लोचकः>Bs3</a>#!html/SV-IV/SV-35/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!वा
+row2#!NA#!वा
+row3#!NA#!वा{अव्य}
+row4#!NA#!<a (click)=showDic('वा')>वा</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,7</a>
+row6#!NA#!अथवा
+row7#!NA#!or
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!पुष्प-ईक्षणैः
+row2#!n3#!पुष्प-ईक्षणैः
+row3#!n3#!पुष्प-ईक्षण{नपुं}{3;बहु}/ईक्षण{पुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('पुष्प')>पुष्प</a>-<a (click)=showDic('ईक्षण')>ईक्षण</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('हेतुः,')">हेतुः,11</a>
+row6#!n3#!पुष्प रूप नेत्रों_से_युक्त
+row7#!n3#!with their flowers covered with
+row8#!n3#!<a href="html/SV-IV/SV-35/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-35/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><पुष्प-ईक्षणः>K5</a>#!html/SV-IV/SV-35/samaasa4.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!(उपलक्षिताः)
+row2#!n1#!उपलक्षिताः
+row3#!n1#!उपलक्षित{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('उप_लक्ष्2')>उप_लक्ष्2</a>{कृत्_प्रत्ययः:क्त;लक्षँ;चुरादिः;पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n1#!देखने योग्य
+row7#!n1#!can be seen
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!व्रतत्यः
+row2#!n1#!व्रतत्यः 
+row3#!n1#!व्रत-त्यद्{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('व्रतति')>व्रतति</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,11</a>
+row6#!n1#!लताएँ
+row7#!n1#!creepers
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!प्रमदाः
+row2#!n1#!प्रमदाः 
+row3#!n1#!प्रमद{पुं}{1;बहु}/प्रमदा{स्त्री}{1;बहु}/प्रमदा{स्त्री}{2;बहु} 
+row4#!n1#!<a (click)=showDic('प्रमद')>प्रमद</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,10</a>
+row6#!n1#!अंगनाओं
+row7#!n1#!women
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इव
+row2#!NA#!इव 
+row3#!NA#!इव{अव्य}
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,8</a>
+row6#!NA#!के_समान
+row7#!NA#!like
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!(लक्ष्यन्ते).
+row2#!v#!लक्ष्यन्ते
+row3#!v#!लक्ष्1{कर्मणि;लट्;प्र;बहु;आत्मनेपदी;लक्षँ;चुरादिः}/लक्ष्2{कर्मणि;लट्;प्र;बहु;आत्मनेपदी;लक्षँ;चुरादिः}. 
+row4#!v#!<a (click)=showDic('लक्ष्1')>लक्ष्1</a>{कर्मणि;लट्;प्र;बहु;आत्मनेपदी;लक्षँ;चुरादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!दृष्टिगोचर_होती_हैं.
+row7#!v#!appear
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!उपेन्द्रवज्रा ।
+row11#!v#!उत्प्रेक्षा ।
+row12#!v#!
+
+

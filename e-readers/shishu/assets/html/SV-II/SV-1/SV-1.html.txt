@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-II/SV-1/1.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-1/1.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">1.A</a>#!html/SV-II/SV-1/1.jpg#!row1#!NA#!अथ
+row2#!number#!1.B</a>#!row2#!NA#!अथ 
+row3#!number#!1.C</a>#!row3#!NA#!अथ{अव्य}/अथ{अव्य} 
+row4#!number#!1.D</a>#!row4#!NA#!<a (click)=showDic('अथ')>अथ</a>{अव्य} 
+row5#!number#!1.E</a>#!row5#!NA#!सम्बन्धः,10
+row6#!number#!1.F</a>#!row6#!NA#!उसके बाद
+row7#!number#!1.G</a>#!row7#!NA#!Thereafter
+row8#!number#!1.H#!row8#!NA#!
+row9#!number#!1.I</a>#!row9#!NA#!
+row10#!number#!1.J</a>#!row10#!NA#!
+row11#!number#!1.K</a>#!row11#!NA#!
+row12#!number#!1.L</a>#!row12#!NA#!
+
+row1#!n3#!यियक्षमाणेन
+row2#!n3#!यियक्षमाणेन 
+row3#!n3#!यियक्षमाण{पुं}{3;एक}/यियक्षमाण{नपुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('यज्1')>यज्1</a>{कृत्_प्रत्ययः:शानच्;यजँ;भ्वादिः;पुं.}{3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n3#!यज्ञ_करने_के_इच्छुक
+row7#!n3#!desirous of performing sacrifice
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!यजतेसन्नन्ताल्लटः शानच् । 
+
+row1#!n3#!पार्थेन
+row2#!n3#!पार्थेन 
+row3#!n3#!पार्थ{पुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('पार्थ')>पार्थ</a>{पुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,4</a>
+row6#!n3#!युधिष्ठिर_के_द्वारा
+row7#!n3#!by Yudhiṣṭhira
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!'पार्थेन पृथापुत्रेण युधिष्ठिरेण । ‘तस्येदम्'' (4।3।120) इत्यण् । अन्यथा 'स्त्रीभ्यो ढक्' (4|1|120) स्यात् ।'
+
+row1#!n1#!आहूतः
+row2#!n1#!आहूतः 
+row3#!n1#!आहूत{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('आङ्_हु1')>आङ्_हु1</a>{कृत्_प्रत्ययः:क्त;हु;जुहोत्यादिः;पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('')">0</a>
+row6#!n1#!निमन्त्रित
+row7#!n1#!was invited
+row8#!n1#!-
+row9#!n1#!कर्मणि
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!अभि-चैद्यम्
+row2#!NA#!अभिचैद्यं 
+row3#!NA#!अभि-{अव्य}-चैद्य{पुं}{2;एक} 
+row4#!NA#!<a (click)=showDic('अभि')>अभि</a>-<a (click)=showDic('चैद्यम्')>चैद्यम्</a>{अव्य}
+row5#!NA#!<a href="javascript:show('कर्म,')">कर्म,6</a>
+row6#!NA#!शिशुपाल_के_यहाँ
+row7#!NA#!against Śiśupāla the king of cedī country
+row8#!NA#!<a href="html/SV-II/SV-1/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-1/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अभि-चैद्यम्>A1</a>#!html/SV-II/SV-1/samaasa1.jpg
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!‘लक्षणेनाभिप्रती आभिमुख्ये’ (2।1।14) इत्यव्ययीभावः । ‘अभिरभागे’ (1।4।91) इति कर्मप्रवचनीयत्वे तद्योगे द्वितीया वा ।
+
+row1#!n1#!प्रतिष्ठासुः
+row2#!n1#!प्रतिष्ठासुः 
+row3#!n1#!प्रतिष्ठासु{पुं}{1;एक}
+row4#!n1#!<a (click)=showDic('प्रतिष्ठासु')>प्रतिष्ठासु</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n1#!यात्रा_करने_के_इच्छुक
+row7#!n1#!wanted to proceed
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!मुरंद्विषन्
+row2#!n1#!मुरंद्विषन्
+row3#!n1#!मुरद्विट्{पुं}{1;एक}
+row4#!n1#!<a (click)=showDic('मुरद्विट्')>मुरद्विट्</a>{पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n1#!मुर_के_शत्रु
+row7#!n1#!the enemy of Mura
+row8#!n1#!<a href="html/SV-II/SV-1/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-1/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><मुर-द्विट्>U</a>#!html/SV-II/SV-1/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!(श्रीकृष्णः)
+row2#!n1#!श्रीकृष्णः
+row3#!n1#!श्रीकृष्ण{पुं}{1;एक}
+row4#!n1#!<a (click)=showDic('श्रीकृष्ण')>श्रीकृष्ण</a>{पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n1#!श्रीकृष्ण
+row7#!n1#!Śrīkṛṣṇa
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!कार्यद्वय-आकुलः
+row2#!n1#!कार्यद्वयाकुलः 
+row3#!n1#!कार्य-द्वय-आकुल{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('कार्य')>कार्य</a>-<a (click)=showDic('द्वय')>द्वय</a>-<a (click)=showDic('आकुल')>आकुल</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्तृसमानाधिकरण,')">कर्तृसमानाधिकरण,10</a>
+row6#!n1#!दो_कार्यों_से_व्याकुल
+row7#!n1#!perplexed by both the duties
+row8#!n1#!<a href="html/SV-II/SV-1/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-1/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<कार्य-द्वय>T6-आकुलः>T3</a>#!html/SV-II/SV-1/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!आसीत्.
+row2#!v#!आसीत् 
+row3#!v#!अस्2{कर्तरि;लङ्;प्र;एक;परस्मैपदी;असँ;अदादिः}. 
+row4#!v#!<a (click)=showDic('अस्2')>अस्2</a>{कर्तरि;लङ्;प्र;एक;परस्मैपदी;असँ;अदादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!था. 
+row7#!v#!was.
+row8#!v#!-
+row9#!v#!अकर्मककर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!-
+row12#!v#!
+
+

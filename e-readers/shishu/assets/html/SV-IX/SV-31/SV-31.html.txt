@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-IX/SV-31/31.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-31/31.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">31.A</a>#!html/SV-IX/SV-31/31.jpg#!row1#!NA#!अथ
+row2#!number#!31.B</a>#!row2#!NA#!अथ
+row3#!number#!31.C</a>#!row3#!NA#!अथ{अव्य}
+row4#!number#!31.D</a>#!row4#!NA#!<a (click)=showDic('अथ')>अथ</a>{अव्य}
+row5#!number#!31.E</a>#!row5#!NA#!सम्बन्धः,10
+row6#!number#!31.F</a>#!row6#!NA#!उसके_बाद
+row7#!number#!31.G</a>#!row7#!NA#!Thereafter
+row8#!number#!31.H#!row8#!NA#!
+row9#!number#!31.I</a>#!row9#!NA#!
+row10#!number#!31.J</a>#!row10#!NA#!
+row11#!number#!31.K</a>#!row11#!NA#!
+row12#!number#!31.L</a>#!row12#!NA#!
+
+row1#!n1#!लक्ष्मणानुगतकान्त-वपुः
+row2#!n1#!लक्ष्मणानुगतकान्त-वपुः
+row3#!n1#!लक्ष्मणानुगतकान्त-वपुस्{;नपुं;1;एक}/वपुस्{;नपुं;2;एक}/वपुस्{;नपुं;8;एक}
+row4#!n1#!<a (click)=showDic('लक्ष्मणानुगतकान्त')>लक्ष्मणानुगतकान्त</a>-<a (click)=showDic('वपुस्')>वपुस्</a>{;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!शशकरूपचिह्न (पक्षा0 – सुमित्रानन्दन लक्ष्मण) से अनुगत सुन्दर शरीरवाले
+row7#!n1#!possessed with a handsome physique and also being followed by Lakṣmaṇa
+row8#!n1#!<a href="html/SV-IX/SV-31/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-31/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<लक्ष्मण-अनुगत>T3-<कान्त-वपुः>K3>Bs6</a>#!html/SV-IX/SV-31/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!परितः
+row2#!NA#!परितः
+row3#!NA#!परितः{अव्य}/परितृ{;पुं;8;एक}/परितृ{;नपुं;8;एक}
+row4#!NA#!<a (click)=showDic('परितः')>परितः</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,5</a>
+row6#!NA#!चारों_ओर_से
+row7#!NA#!from all the directions
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!ऋक्ष-गणैः
+row2#!n3#!ऋक्ष-गणैः
+row3#!n3#!ऋक्ष-गण{;पुं;3;बहु}/गण{;नपुं;3;बहु}
+row4#!n3#!<a (click)=showDic('ऋक्ष')>ऋक्ष</a>-<a (click)=showDic('गण')>गण</a>{;पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,5</a>
+row6#!n3#!नक्षत्रगण (पक्षा0 – जाम्बवान् आदि भालुओं का समूह) से
+row7#!n3#!the team of monkeys in the form of star-cluster
+row8#!n3#!<a href="html/SV-IX/SV-31/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-31/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><ऋक्ष-गणः>T3</a>#!html/SV-IX/SV-31/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!परिवारितः
+row2#!n1#!परिवारितः
+row3#!n1#!परिवारित{;पुं;1;एक}
+row4#!n1#!<a (click)=showDic('परि')>परि</a>-<a (click)=showDic('वृ1_णिच्')>वृ1_णिच्</a>{कृत्_प्रत्ययः;क्त;वृञ्;स्वादिः;पुं}{1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!घिरे हुए
+row7#!n1#!surrounded by
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!शशि-दाशरथिः
+row2#!n1#!शशि-दाशरथिः
+row3#!n1#!शशि-दाशरथि{;पुं;1;एक}
+row4#!n1#!<a (click)=showDic('शशि')>शशि</a>-<a (click)=showDic('दाशरथि')>दाशरथि</a>{;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n1#!चन्द्रमारूपी रामचन्द्र ने
+row7#!n1#!Moon in the form of Daśaratha's son Śrīrāma
+row8#!n1#!<a href="html/SV-IX/SV-31/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-31/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><शशि-दाशरथिः>K6</a>#!html/SV-IX/SV-31/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!जलधिं
+row2#!n2#!जलधिं
+row3#!n2#!जलधि{;पुं;2;एक}
+row4#!n2#!<a (click)=showDic('जलधि')>जलधि</a>{;पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n2#!समुद्र_को
+row7#!n2#!the ocean
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!विलङ्घ्य
+row2#!NA#!विलङ्घ्य
+row3#!NA#!वि_लङ्घ्1{अव्य;ल्यप्;लघिँ;भ्वादिः}/वि_लङ्घ्2{अव्य;ल्यप्;लघिँ;भ्वादिः}/वि_लङ्घ्3{अव्य;ल्यप्;लघिँ;चुरादिः}
+row4#!NA#!<a (click)=showDic('वि_लङ्घ्1')>वि_लङ्घ्1</a>{अव्य;ल्यप्;लघिँ;भ्वादिः}
+row5#!NA#!<a href="javascript:show('पूर्वकालः,')">पूर्वकालः,10</a>
+row6#!NA#!पार_कर
+row7#!NA#!having crossed
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!तिमिरौघराक्षस-कुलं
+row2#!n2#!तिमिरौघराक्षस-कुलं
+row3#!n2#!तिमिरौघराक्षस-कुल{;नपुं;1;एक}/कुल{;नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('तिमिरौघराक्षस')>तिमिरौघराक्षस</a>-<a (click)=showDic('कुल')>कुल</a>{;नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n2#!अन्धकार समूहरूपी राक्षसकुल का
+row7#!n2#!flock of darkness of demons
+row8#!n2#!<a href="html/SV-IX/SV-31/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-31/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<तिमिर-औघ>T6-<राक्षस-कुलम्>T6>K6</a>#!html/SV-IX/SV-31/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!बिभिदे
+row2#!v#!बिभिदे
+row3#!v#!भिद्1{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;भिदिँर्;रुधादिः}/भिद्1{कर्तरि;लिट्;उ;एक;आत्मनेपदी;भिदिँर्;रुधादिः}
+row4#!v#!<a (click)=showDic('भिद्1')>भिद्1</a>{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;भिदिँर्;रुधादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!नाश_कर_दिया.
+row7#!v#!destroyed
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!प्रमिताक्षरा ।
+row11#!v#!शब्दश्लेषः + रूपकम् = सङ्कीर्णम् ।
+row12#!v#!
+
+

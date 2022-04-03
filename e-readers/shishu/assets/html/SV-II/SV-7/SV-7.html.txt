@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-II/SV-7/7.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-7/7.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">7.A</a>#!html/SV-II/SV-7/7.jpg#!row1#!n6#!कुन्द-कुड्मलाग्रदतः
+row2#!number#!7.B</a>#!row2#!n6#!कुन्दकुड्मलाग्रदतः 
+row3#!number#!7.C</a>#!row3#!n6#!कुन्द-कुड्मलाग्रदत्{पुं}{1;बहु}/कुड्मलाग्रदत्{पुं}{2;बहु}/कुड्मलाग्रदत्{पुं}{5;एक}/कुड्मलाग्रदत्{पुं}{6;एक}/कुड्मलाग्रदत्{नपुं}{5;एक}/कुड्मलाग्रदत्{नपुं}{6;एक}/कुड्मलाग्रदत{पुं}{1;एक} 
+row4#!number#!7.D</a>#!row4#!n6#!<a (click)=showDic('कुन्द')>कुन्द</a>-<a (click)=showDic('कुड्मलाग्रदत्')>कुड्मलाग्रदत्</a>{पुं}{6;एक} 
+row5#!number#!7.E</a>#!row5#!n6#!विशेषणम्,2
+row6#!number#!7.F</a>#!row6#!n6#!कुन्दकलिकाग्र_के_समान_दाँत_वाले
+row7#!number#!7.G</a>#!row7#!n6#!who had beautiful teeth like Kunda buds
+row8#!number#!7.H#!row8#!n6#!<a href="html/SV-II/SV-7/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-7/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<कुन्द-कुड्मल>T6-अग्र>T6-दन्तः>Bs6</a>#!html/SV-II/SV-7/samaasa1.jpg
+row9#!number#!7.I</a>#!row9#!n6#!
+row10#!number#!7.J</a>#!row10#!n6#!
+row11#!number#!7.K</a>#!row11#!n6#!
+row12#!number#!7.L</a>#!row12#!n6#!‘अग्रान्तशुद्धशु्भ्रवृषवराहेभ्यश्च’ (5।4।145) इत्यग्रान्तपूर्वपदबहुव्रीहेः समासान्तो वैभाषिको दतादेशः ।
+
+row1#!n6#!तस्य
+row2#!n6#!तस्य 
+row3#!n6#!तद्{पुं}{6;एक}/तद्{नपुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('तद्')>तद्</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,3</a>
+row6#!n6#!उसकी 
+row7#!n6#!his (of Śrī Kṛṣṇa)
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!सरस्वती
+row2#!n1#!सरस्वती 
+row3#!n1#!सरस्वती{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('सरस्वती')>सरस्वती</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,9</a>
+row6#!n1#!वाणी
+row7#!n1#!speech
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!द्योतित-अन्तः-सभैः
+row2#!n3#!द्योतितान्तः-सभैः 
+row3#!n3#!द्योतित-अन्-{अव्य}-तस्-सभ{पुं}{3;बहु}/सभ{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('द्योतित')>द्योतित</a>-<a (click)=showDic('अन्तस्')>अन्तस्</a>-<a (click)=showDic('सभ')>सभ</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n3#!सभा मध्य_को_प्रकाशित_करने_वाले
+row7#!n3#!which illumined the hall
+row8#!n3#!<a href="html/SV-II/SV-7/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-7/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><द्योतित-अन्तःसभः>Bs3</a>#!html/SV-II/SV-7/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!स्मितैः
+row2#!n3#!स्मितैः 
+row3#!n3#!स्मित{पुं}{3;बहु}/स्मित{नपुं}{3;बहु}
+row4#!n3#!<a (click)=showDic('स्मि1')>स्मि1</a>{कृत्_प्रत्ययः:क्त;ष्मिङ्;भ्वादिः;पुं}{3;बहु}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,6</a>
+row6#!n3#!मुस्कानयुक्तों_से 
+row7#!n3#!by the smiles
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!स्नपिता
+row2#!n1#!स्नपिता 
+row3#!n1#!स्नपिता{स्त्री}{1;एक}
+row4#!n1#!<a (click)=showDic('स्नै1')>स्नै1</a>{कृत्_प्रत्ययः:क्त;ष्णै;भ्वादिः;स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,7</a>
+row6#!n1#!नहलायी_गयी
+row7#!n1#!bathed
+row8#!n1#!-
+row9#!n1#!कर्मणि
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!स्नातेर्ण्यन्तात् क्तः । ‘अर्तिह्री-’ (7।3।36) इत्यादिना पुगागमः ।
+
+row1#!NA#!इव
+row2#!NA#!इव 
+row3#!NA#!इव{अव्य} 
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,3</a>
+row6#!NA#!जैसे 
+row7#!NA#!like
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!शुद्धवर्णा
+row2#!n1#!शुद्धवर्णा 
+row3#!n1#!शुद्धवर्णा{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('शुद्धवर्णा')>शुद्धवर्णा</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्तृसमानाधिकरणम्,')">कर्तृसमानाधिकरणम्,9</a>
+row6#!n1#!शुद्धवर्णा 
+row7#!n1#!white in colour
+row8#!n1#!<a href="html/SV-II/SV-7/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-7/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><शुद्ध-वर्णा>Bs7</a>#!html/SV-II/SV-7/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!अभवत्.
+row2#!v#!अभवत् 
+row3#!v#!भू1{कर्तरि;लङ्;प्र;एक;परस्मैपदी;भू;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('भू1')>भू1</a>{कर्तरि;लङ्;प्र;एक;परस्मैपदी;भू;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!हुई. 
+row7#!v#!became.
+row8#!v#!-
+row9#!v#!अकर्मककर्तरि.
+row10#!v#!अनुष्टुप् ।
+row11#!v#!उत्प्रेक्षा ।
+row12#!v#!
+
+

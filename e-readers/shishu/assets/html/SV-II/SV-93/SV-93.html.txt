@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-II/SV-93/93-a.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-93/93-a.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">93-a.A</a>#!html/SV-II/SV-93/93-a.jpg#!row1#!n1#!शक्त्यपेक्षः
+row2#!number#!93-a.B</a>#!row2#!n1#!शक्त्यपेक्षः 
+row3#!number#!93-a.C</a>#!row3#!n1#!शक्त्यपेक्ष{पुं}{1;एक} 
+row4#!number#!93-a.D</a>#!row4#!n1#!<a (click)=showDic('शक्त्यपेक्ष')>शक्त्यपेक्ष</a>{पुं}{1;एक} 
+row5#!number#!93-a.E</a>#!row5#!n1#!कर्तृसमानाधिकरणम्,2
+row6#!number#!93-a.F</a>#!row6#!n1#!शक्ति (प्रभु,उत्साह मन्त्र आदि)_को_चाहते
+row7#!number#!93-a.G</a>#!row7#!n1#!A king ambitious of extending his power
+row8#!number#!93-a.H#!row8#!n1#!<a href="html/SV-II/SV-93/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-93/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><शक्ति-अपेक्ष्यः>U</a>#!html/SV-II/SV-93/samaasa1.jpg
+row9#!number#!93-a.I</a>#!row9#!n1#!
+row10#!number#!93-a.J</a>#!row10#!n1#!
+row11#!number#!93-a.K</a>#!row11#!n1#!
+row12#!number#!93-a.L</a>#!row12#!n1#!
+
+row1#!n1#!(सन्)
+row2#!n1#!सन्
+row3#!n1#!सत्{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('अस्2')>अस्2</a>{कृत्_प्रत्ययः:शतृ;असँ;अदादिः;पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,5</a>
+row6#!n1#!हुए
+row7#!n1#!while
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!षाड्गुण्यं
+row2#!n2#!षाड्गुण्यं 
+row3#!n2#!षाड्गुण्य{नपुं}{1;एक}/षाड्गुण्य{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('षाड्गुण्य')>षाड्गुण्य</a>{नपुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n2#!(सन्धि विग्रहादि) छः गुण
+row7#!n2#!the six expedients
+row8#!n2#!<a href="html/SV-II/SV-93/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-93/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><षट्-गुणः>K1</a>#!html/SV-II/SV-93/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!रसायनम्
+row2#!n2#!रसायनम् 
+row3#!n2#!रसायन{पुं}{2;एक}/रसायन{नपुं}{1;एक}/रसायन{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('रसायन')>रसायन</a>{नपुं}{2;एक} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,5</a>
+row6#!n2#!रसायन_का 
+row7#!n2#!as a powerful medicine in the form of the constituents of government
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!उप_युञ्जीत.
+row2#!v#!उप_युञ्जीत
+row3#!v#!उप_युज्2{कर्तरि;विधिलिङ्;प्र;एक;परस्मैपदी;युजिँर्;रुधादिः}. 
+row4#!v#!<a (click)=showDic('उप_युज्2')>उप_युज्2</a>{कर्तरि;विधिलिङ्;प्र;एक;परस्मैपदी;युजिँर्;रुधादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!सेवन_करना_चाहिये.
+row7#!v#!should use.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!रूपकम् ।
+row12#!v#!
+
+row1#!number#!<a href="html/SV-II/SV-93/93-b.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-93/93-b.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">93-b.A</a>#!html/SV-II/SV-93/93-b.jpg#!row1#!NA#!एवम्
+row2#!number#!93-b.B</a>#!row2#!NA#!एवम् 
+row3#!number#!93-b.C</a>#!row3#!NA#!एवम्{अव्य} 
+row4#!number#!93-b.D</a>#!row4#!NA#!<a (click)=showDic('एवम्')>एवम्</a>{अव्य} 
+row5#!number#!93-b.E</a>#!row5#!NA#!सम्बन्धः,7
+row6#!number#!93-b.F</a>#!row6#!NA#!ऐसा (करने_से)
+row7#!number#!93-b.G</a>#!row7#!NA#!Thus
+row8#!number#!93-b.H#!row8#!NA#!
+row9#!number#!93-b.I</a>#!row9#!NA#!
+row10#!number#!93-b.J</a>#!row10#!NA#!
+row11#!number#!93-b.K</a>#!row11#!NA#!
+row12#!number#!93-b.L</a>#!row12#!NA#!
+
+row1#!n6#!अस्य
+row2#!n6#!अस्य 
+row3#!n6#!इदम्{पुं}{6;एक}/इदम्{नपुं}{6;एक}/अस्3{कर्तरि;लोट्;म;एक;परस्मैपदी;असुँ;दिवादिः} 
+row4#!n6#!<a (click)=showDic('इदम्')>इदम्</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,3</a>
+row6#!n6#!इसके 
+row7#!n6#!his
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!अङ्गानि
+row2#!n1#!अङ्गानि 
+row3#!n1#!अङ्ग{नपुं}{1;बहु}/अङ्ग{नपुं}{2;बहु}/अङ्ग्1{कर्तरि;लोट्;उ;एक;परस्मैपदी;अगिँ;भ्वादिः} 
+row4#!n1#!<a (click)=showDic('अङ्ग')>अङ्ग</a>{नपुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('समुच्चितम्,')">समुच्चितम्,6</a>
+row6#!n1#!अङ्ग 
+row7#!n1#!limbs
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!स्थास्नूनि
+row2#!n1#!स्थास्नूनि 
+row3#!n1#!स्थास्नु{नपुं}{1;बहु}/स्थास्नु{नपुं}{2;बहु} 
+row4#!n1#!<a (click)=showDic('स्थास्नु')>स्थास्नु</a>{नपुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('समुच्चितम्,')">समुच्चितम्,6</a>
+row6#!n1#!स्थिर
+row7#!n1#!firm
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘ग्लाजिस्थश्च-’ (3।2।139) इति ग्स्नुः ।
+
+row1#!n1#!बलवन्ति
+row2#!n1#!बलवन्ति 
+row3#!n1#!बलवत्{नपुं}{1;बहु}/बलवत्{नपुं}{2;बहु} 
+row4#!n1#!<a (click)=showDic('बलवत्')>बलवत्</a>{नपुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('समुच्चितम्,')">समुच्चितम्,6</a>
+row6#!n1#!बलवान
+row7#!n1#!strong
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!च
+row2#!NA#!च 
+row3#!NA#!च{अव्य} 
+row4#!NA#!<a (click)=showDic('च')>च</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('कर्ता,')">कर्ता,7</a>
+row6#!NA#!और 
+row7#!NA#!and
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!भवन्ति.
+row2#!v#!भवन्ति 
+row3#!v#!भू1{कर्तरि;लट्;प्र;बहु;परस्मैपदी;भू;भ्वादिः}/भवन्ती{स्त्री}{8;एक}. 
+row4#!v#!<a (click)=showDic('भू1')>भू1</a>{कर्तरि;लट्;प्र;बहु;परस्मैपदी;भू;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!होते_हैं. 
+row7#!v#!are.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+

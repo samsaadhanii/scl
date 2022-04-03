@@ -1,0 +1,92 @@
+row1#!number#!<a href="html/SV-VI/SV-20/20.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-20/20.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">20.A</a>#!html/SV-VI/SV-20/20.jpg#!row1#!n3#!मधुबोधितमाधवीमधुसमृद्धिसमेधित-मेधया
+row2#!number#!20.B</a>#!row2#!n3#!मधुबोधितमाधवीमधुसमृद्धिसमेधित-मेधया
+row3#!number#!20.C</a>#!row3#!n3#!मधुबोधितमाधवीमधुसमृद्धिसमेधित-मेधा{स्त्री;3;एक}/मेधास्त्री;3;एक}
+row4#!number#!20.D</a>#!row4#!n3#!<a (click)=showDic('मधुबोधितमाधवीमधुसमृद्धिसमेधित')>मधुबोधितमाधवीमधुसमृद्धिसमेधित</a>-<a (click)=showDic('मेधा')>मेधा</a>{स्त्री;3;एक}
+row5#!number#!20.E</a>#!row5#!n3#!विशेषणम्,4
+row6#!number#!20.F</a>#!row6#!n3#!वसन्त ऋतु से खिलाई हुई वासन्ती लता की पुष्परस की वृद्धि से अर्थात् माधवी लता के पुष्प रस का पान करने से बढ़ गयी है बुद्धि जिसकी_उससे
+row7#!number#!20.G</a>#!row7#!n3#!whose talent (of humming) was roused due to a creeper called 'Mādhavī' of Spring season
+row8#!number#!20.H#!row8#!n3#!<a href="html/SV-VI/SV-20/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-20/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<मधु-बोधिता>T3-माधवी>K1-मधु>T6-समृद्धि>T6-<समेधित-मेधा>K1>Bs6</a>#!html/SV-VI/SV-20/samaasa1.jpg
+row9#!number#!20.I</a>#!row9#!n3#!
+row10#!number#!20.J</a>#!row10#!n3#!
+row11#!number#!20.K</a>#!row11#!n3#!
+row12#!number#!20.L</a>#!row12#!n3#!
+
+row1#!n3#!उन्मदध्वनि-भृता
+row2#!n3#!उन्मदध्वनि-भृता
+row3#!n3#!उन्मदध्वनिभृता{स्त्री;1;एक}
+row4#!n3#!<a (click)=showDic('उन्मद')>उन्मद</a>-<a (click)=showDic('ध्वनिभृता')>ध्वनिभृता</a>{स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n3#!उस मस्त ध्वनिवाली
+row7#!n3#!by the one which possessed intoxicated voice
+row8#!n3#!<a href="html/SV-VI/SV-20/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-20/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<उन्मद-ध्वनि>K3-भृत्>U</a>#!html/SV-VI/SV-20/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!मधुरया
+row2#!n3#!मधुरया
+row3#!n3#!मधुरा{स्त्री;3;एक}
+row4#!n3#!<a (click)=showDic('मधुरा')>मधुरा</a>{स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n3#!मधुर-स्वर-वाली_से
+row7#!n3#!by the one which possessed melodious voice
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!मधुकर-अङ्गनया
+row2#!n3#!मधुकर-अङ्गनया
+row3#!n3#!मधुकर-अङ्गना{स्त्री;3;एक}/अङ्गनास्त्री;3;एक}
+row4#!n3#!<a (click)=showDic('मधुकर')>मधुकर</a>-<a (click)=showDic('अङ्गना')>अङ्गना</a>{स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,7</a>
+row6#!n3#!भ्रमरी_से
+row7#!n3#!by a female bumble-bee
+row8#!n3#!<a href="html/SV-VI/SV-20/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-20/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><मधुकर-अङ्गना>T6</a>#!html/SV-VI/SV-20/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!मुहुः
+row2#!NA#!मुहुः
+row3#!NA#!मुहुः{अव्य}/मुहुः{अव्य}
+row4#!NA#!<a (click)=showDic('मुहुः')>मुहुः</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,7</a>
+row6#!NA#!बार-बार
+row7#!NA#!frequently
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!निभृत-अक्षरम्
+row2#!n1#!निभृत-अक्षरम्
+row3#!n1#!निभृत-अक्षर{नपुं;1;एक}/अक्षर{नपुं;2;एक}/क्षर्1{कर्तरि;लङ्;उ;एक;परस्मैपदी;क्षरँ;भ्वादिः}
+row4#!n1#!<a (click)=showDic('निभृत')>निभृत</a>-<a (click)=showDic('अक्षर')>अक्षर</a>{नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,7</a>
+row6#!n1#!दबे हुए अक्षरों में
+row7#!n1#!with the words held upon (just humming)
+row8#!n1#!<a href="html/SV-VI/SV-20/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-20/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><निभृत-अक्षरम्>Bs7</a>#!html/SV-VI/SV-20/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!उज्जगे
+row2#!v#!उज्जगे
+row3#!v#!उत्_गै1{कर्मणि;लिट्;उ;एक;आत्मनेपदी;गै;भ्वादिः}/उत्_गै1{कर्मणि;लिट्;प्र;एक;आत्मनेपदी;गै;भ्वादिः}
+row4#!v#!<a (click)=showDic('उत्_गै1कर्मणि;लिट्;प्र;एक;आत्मनेपदी;गै;भ्वादिः}')>उत्_गै1कर्मणि;लिट्;प्र;एक;आत्मनेपदी;गै;भ्वादिः}</a>
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!जोर_से_गाया.
+row7#!v#!sang loudly.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!यमकम् ।
+row12#!v#!
+
+

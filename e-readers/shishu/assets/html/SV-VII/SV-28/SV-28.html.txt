@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-VII/SV-28/28.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-28/28.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">28.A</a>#!html/SV-VII/SV-28/28.jpg#!row1#!n1#!रथचरणधराङ्गनाकराब्जव्यतिकरसम्पदुपात्त-सौमनस्याः
+row2#!number#!28.B</a>#!row2#!n1#!रथचरणधराङ्गनाकराब्जव्यतिकरसम्पदुपात्त-सौमनस्याः
+row3#!number#!28.C</a>#!row3#!n1#!रथचरणधराङ्गनाकराब्जव्यतिकरसम्पदुपात्त-सौमनस्य{पुं;1;बहु}/सौमनस्य{पुं;8;बहु}
+row4#!number#!28.D</a>#!row4#!n1#!<a (click)=showDic('रथचरणधराङ्गनाकराब्जव्यतिकरसम्पदुपात्त')>रथचरणधराङ्गनाकराब्जव्यतिकरसम्पदुपात्त</a>-<a (click)=showDic('सौमनस्य')>सौमनस्य</a>{स्त्री;1;बहु}
+row5#!number#!28.E</a>#!row5#!n1#!विशेषणम्,2
+row6#!number#!28.F</a>#!row6#!n1#!चक्र को धारण करनेवाले श्रीकृष्ण की अङ्गनाओं के करकमल के स्पर्शजन्य शोभा से सौमनस्य को प्राप्त किये हुए
+row7#!number#!28.G</a>#!row7#!n1#!When women of Cakradhārī Śrī Kṛṣṇa touched flowers, they obtained grace
+row8#!number#!28.H#!row8#!n1#!<a href="html/SV-VII/SV-28/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-28/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<<<रथ-चरण>T6-धर>T6-अङ्गना>T6-कराब्ज>T6-व्यतिकर>T3-सम्पत्>K6-<उपात्त-सौमनस्या>K3>Bs3</a>#!html/SV-VII/SV-28/samaasa1.jpg
+row9#!number#!28.I</a>#!row9#!n1#!
+row10#!number#!28.J</a>#!row10#!n1#!
+row11#!number#!28.K</a>#!row11#!n1#!
+row12#!number#!28.L</a>#!row12#!n1#!
+
+row1#!n1#!सुमनसः
+row2#!n1#!सुमनसः
+row3#!n1#!सुमनस्{पुं;1;बहु}/सुमनस्{पुं;2;बहु}/सुमनस्{पुं;5;एक}/सुमनस्{पुं;6;एक}/सुमनस्{स्त्री;5;एक}/सुमनस्{स्त्री;6;एक}/सुमनस्{नपुं;5;एक}/सुमनस्{नपुं;6;एक}
+row4#!n1#!<a (click)=showDic('सुमनस्')>सुमनस्</a>{स्त्री;1;बहु}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n1#!पुष्पों_ने
+row7#!n1#!flowers
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!तदादि
+row2#!NA#!तदादि
+row3#!NA#!तदादि}
+row4#!NA#!<a (click)=showDic('तदादि')>तदादि</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,8</a>
+row6#!NA#!उस_समय_से
+row7#!NA#!thenceforth
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n7#!जगति
+row2#!n7#!जगति
+row3#!n7#!जगती{स्त्री;8;एक}/जगत्{पुं;7;एक}/जगत्{नपुं;7;एक}
+row4#!n7#!<a (click)=showDic('जगत्')>जगत्</a>{नपुं;7;एक}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,8</a>
+row6#!n7#!विश्व_में
+row7#!n7#!in this world
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!NA#!अर्थतः
+row2#!NA#!अर्थतः
+row3#!NA#!अर्थ{अव्य;तसिल्}
+row4#!NA#!<a (click)=showDic('अर्थ')>अर्थ</a>{अव्य;तसिल्}
+row5#!NA#!<a href="javascript:show('अपादानम्,')">अपादानम्,8</a>
+row6#!NA#!सार्थकता
+row7#!NA#!significance
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!परि-स्फुटम्
+row2#!NA#!परि-स्फुटम्
+row3#!NA#!परि-{अव्य-स्फुट;पुं;2;एक}
+row4#!NA#!<a (click)=showDic('परि_स्फुट')>परि_स्फुट</a>{अव्य}
+row5#!NA#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!NA#!स्पष्ट_रूप_से
+row7#!NA#!clearly
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!अभि-धानं
+row2#!n2#!अभि-धानं
+row3#!n2#!अभि-{अव्य-धान;नपुं;1;एक}/धान{नपुं;2;एक}
+row4#!n2#!<a (click)=showDic('अभि_धान')>अभि_धान</a>{नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n2#!नाम_को
+row7#!n2#!name
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!दधति
+row2#!v#!दधति
+row3#!v#!धा1{कर्तरि;लट्;प्र;बहु;परस्मैपदी;डुधाञ्;जुहोत्यादिः}/दधत्{पुं;7;एक}/दधत्{नपुं;7;एक}
+row4#!v#!<a (click)=showDic('धा1')>धा1</a>{कर्तरि;लट्;प्र;बहु;परस्मैपदी;डुधाञ्;जुहोत्यादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!धारण_करते_हैं
+row7#!v#!bear
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!NA#!नूनम्
+row2#!NA#!नूनम्
+row3#!NA#!नूनम्{अव्य}
+row4#!NA#!<a (click)=showDic('नूनम्')>नूनम्</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,8</a>
+row6#!NA#!अवश्य.
+row7#!NA#!undoubtedly.
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!पुष्पिताग्रा ।
+row11#!NA#!काव्यलिङ्गम् +  उत्प्रेक्षा = सङ्करः ।
+row12#!NA#!
+
+

@@ -1,0 +1,92 @@
+row1#!number#!<a href="html/SV-IX/SV-30/30.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-30/30.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">30.A</a>#!html/SV-IX/SV-30/30.jpg#!row1#!n3#!अपनिद्रपाणडुरसरोज-रुचा
+row2#!number#!30.B</a>#!row2#!n3#!अपनिद्रपाणडुरसरोज-रुचा
+row3#!number#!30.C</a>#!row3#!n3#!अपनिद्रपाणडुरसरोज-रुच्{;स्त्री;3;एक}/रुचा{;स्त्री;1;एक}
+row4#!number#!30.D</a>#!row4#!n3#!<a (click)=showDic('अपनिद्रपाणडुरसरोज')>अपनिद्रपाणडुरसरोज</a>-<a (click)=showDic('रुच्')>रुच्</a>{;पुं;3;एक}
+row5#!number#!30.E</a>#!row5#!n3#!विशेषणम्,2
+row6#!number#!30.F</a>#!row6#!n3#!प्रफुल्ल श्वेतकमल के सदृश शुभ्रकान्तिवाला
+row7#!number#!30.G</a>#!row7#!n3#!Splendorous and that which resembled the blossomed white lotus
+row8#!number#!30.H#!row8#!n3#!<a href="html/SV-IX/SV-30/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-30/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अपनिद्र-<पाण्डुर-<सरोज-रुक्>T6>K3>Bs6</a>#!html/SV-IX/SV-30/samaasa1.jpg
+row9#!number#!30.I</a>#!row9#!n3#!
+row10#!number#!30.J</a>#!row10#!n3#!
+row11#!number#!30.K</a>#!row11#!n3#!
+row12#!number#!30.L</a>#!row12#!n3#!
+
+row1#!n3#!तुहिन-द्युतिना
+row2#!n3#!तुहिन-द्युतिना
+row3#!n3#!तुहिन-द्युति{;नपुं;3;एक}
+row4#!n3#!<a (click)=showDic('तुहिन')>तुहिन</a>-<a (click)=showDic('द्युति')>द्युति</a>{;पुं;3;एक}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,7</a>
+row6#!n3#!चन्द्रमा
+row7#!n3#!the moon
+row8#!n3#!<a href="html/SV-IX/SV-30/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-30/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><तुहिन-द्युतिः>Bs6</a>#!html/SV-IX/SV-30/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!प्रथमप्रबुद्धनदराजसुतावदन-इन्दुना
+row2#!n3#!प्रथमप्रबुद्धनदराजसुतावदन-इन्दुना
+row3#!n3#!प्रथमप्रबुद्धनदराजसुतावदन-इन्दु{;पुं;3;एक}
+row4#!n3#!<a (click)=showDic('प्रथमप्रबुद्धनदराजसुतावदन')>प्रथमप्रबुद्धनदराजसुतावदन</a>-<a (click)=showDic('इन्दु')>इन्दु</a>{;पुं;3;एक}
+row5#!n3#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,4</a>
+row6#!n3#!(विष्णु भगवान् के जाग्रत होने के) पूर्व ही प्रबुद्ध हुई नदी के स्वामी (सिन्धु) की कन्या अर्थात् लक्ष्मी के मुखचन्द्र
+row7#!n3#!of moon-like face of goddess Lakṣmī daughter of the ocean
+row8#!n3#!<a href="html/SV-IX/SV-30/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-30/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<प्रथम-प्रबुद्ध>S-<नदराज-सुता>T6>K3-वदनेन्दुः>Bs6</a>#!html/SV-IX/SV-30/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!इव
+row2#!NA#!इव
+row3#!NA#!इव{अव्य}
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,2</a>
+row6#!NA#!के_जैसे
+row7#!NA#!like
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n6#!कैटभ-जितः
+row2#!n6#!कैटभ-जितः
+row3#!n6#!कैटभ-जित्{;पुं;1;बहु}/जित्{;पुं;2;बहु}/जित्{;पुं;5;एक}/जित्{;पुं;6;एक}/जित{;पुं;1;एक}/जित्{;पुं;8;बहु}
+row4#!n6#!<a (click)=showDic('कैटभ')>कैटभ</a>-<a (click)=showDic('जित्')>जित्</a>{;पुं;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,6</a>
+row6#!n6#!कैटभासुरविजेता (विष्णु) की
+row7#!n6#!of lord Viṣṇu
+row8#!n6#!<a href="html/SV-IX/SV-30/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-30/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कैटभ-जित्>Bs6</a>#!html/SV-IX/SV-30/samaasa4.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n5#!शयनात्
+row2#!n5#!शयनात्
+row3#!n5#!शयन{;नपुं;5;एक}
+row4#!n5#!<a (click)=showDic('शयन')>शयन</a>{;नपुं;5;एक}
+row5#!n5#!<a href="javascript:show('अपादानम्,')">अपादानम्,7</a>
+row6#!n5#!शय्या_से
+row7#!n5#!from the couch
+row8#!n5#!-
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!
+
+row1#!v#!उदमज्जि
+row2#!v#!उदमज्जि
+row3#!v#!उदमज्जि}
+row4#!v#!<a (click)=showDic('उत्_मस्ज्1')>उत्_मस्ज्1</a>{भावे;लिट्;प्र;एक;परस्मैपदी;टुमस्जोँ;तुदादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!ऊपर_उठा.
+row7#!v#!got up.
+row8#!v#!-
+row9#!v#!भावे
+row10#!v#!प्रमिताक्षरा ।
+row11#!v#!उत्प्रेक्षा ।
+row12#!v#!
+
+

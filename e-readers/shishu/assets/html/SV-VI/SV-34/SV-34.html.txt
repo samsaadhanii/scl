@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-VI/SV-34/34.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-34/34.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">34.A</a>#!html/SV-VI/SV-34/34.jpg#!row1#!n1#!द्विरददन्त-वलक्षं
+row2#!number#!34.B</a>#!row2#!n1#!द्विरददन्त-वलक्षं
+row3#!number#!34.C</a>#!row3#!n1#!द्विरददन्त-वलक्षम्}
+row4#!number#!34.D</a>#!row4#!n1#!<a (click)=showDic('द्विरददन्त')>द्विरददन्त</a>-<a (click)=showDic('वलक्ष')>वलक्ष</a>{नपुं;1;एक}
+row5#!number#!34.E</a>#!row5#!n1#!विशेषणम्,3
+row6#!number#!34.F</a>#!row6#!n1#!हाथी दांत के समान स्वच्छ
+row7#!number#!34.G</a>#!row7#!n1#!which is as dazzling white as the tusk of an elephant
+row8#!number#!34.H#!row8#!n1#!<a href="html/SV-VI/SV-34/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-34/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><द्विरददन्त-वलक्षम्>T6</a>#!html/SV-VI/SV-34/samaasa1.jpg
+row9#!number#!34.I</a>#!row9#!n1#!
+row10#!number#!34.J</a>#!row10#!n1#!
+row11#!number#!34.K</a>#!row11#!n1#!
+row12#!number#!34.L</a>#!row12#!n1#!
+
+row1#!n1#!स्फुरितभृङ्गमृग-च्छवि
+row2#!n1#!स्फुरित-भृङ्ग-मृग-च्छवि
+row3#!n1#!स्फुरितभृङ्गमृगच्-छवि{स्त्री}/छवि{स्त्री}/छवि{नपुं;1;एक}/छवि{नपुं;2;एक}/छवि{नपुं;8;एक}
+row4#!n1#!<a (click)=showDic('स्फुरित')>स्फुरित</a>-<a (click)=showDic('भृङ्ग')>भृङ्ग</a>-<a (click)=showDic('मृग')>मृग</a>-<a (click)=showDic('च्छवि')>च्छवि</a>{नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,3</a>
+row6#!n1#!घूमते हुए भ्रमर रूपी मृग की कान्ति (मृगलाञ्छन) वाला
+row7#!n1#!appearing like a roaming bee and possessing a characteristic mark of a deer
+row8#!n1#!<a href="html/SV-VI/SV-34/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-34/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><स्फुरित-<<भृङ्ग-मृग>K5-छवि>T6>Bs7</a>#!html/SV-VI/SV-34/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!केतकम्
+row2#!n1#!केतकम्
+row3#!n1#!केतक{पुं;2;एक}/केतक{नपुं;1;एक}/केतक{नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('केतक')>केतक</a>{नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n1#!केतकी_का_फूल
+row7#!n1#!flower of 'Ketaka'
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!'पुष्पमूलेषु बहुलम्' (वा०) इत्यणो लुकि नादिवृद्धिः । 'लुक् तद्धितलुकि' (1।2।49) इति स्त्रीप्रत्ययस्यापि लुक् ।
+
+row1#!n3#!घन-घनौघ-विघट्टनया
+row2#!n3#!घन-घनौघ-विघट्टनया
+row3#!n3#!घन-घनौघ-विघट्टना{स्त्री;3;एक}/विघट्टना{स्त्री;3;एक}
+row4#!n3#!<a (click)=showDic('घन')>घन</a>-<a (click)=showDic('घनौघ')>घनौघ</a>-<a (click)=showDic('विघट्टना')>विघट्टना</a>{स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,10</a>
+row6#!n3#!सघन मेघ के गर्जन से
+row7#!n3#!due to the roar of a thickset cloud
+row8#!n3#!<a href="html/SV-VI/SV-34/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-34/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<घन-<घन-औघ>T6>K3-विघट्टना>T3</a>#!html/SV-VI/SV-34/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n5#!दिवः
+row2#!n5#!दिवः
+row3#!n5#!दिव्{स्त्री;1;बहु}/दिव्{स्त्री;2;बहु}/दिव्{स्त्री;5;एक}/दिव्{स्त्री;6;एक}/दिव्{स्त्री;8;बहु}
+row4#!n5#!<a (click)=showDic('दिव्')>दिव्</a>{स्त्री;5;एक}
+row5#!n5#!<a href="javascript:show('अपादान,')">अपादान,10</a>
+row6#!n5#!आकाश_से
+row7#!n5#!from the sky
+row8#!n5#!-
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!
+
+row1#!n1#!च्युतं
+row2#!n1#!च्युतं
+row3#!n1#!च्युत्{पुं;2;एक}/च्युत{पुं;2;एक}/च्युत{नपुं;1;एक}/च्युत{नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('च्यु1')>च्यु1</a>{क्त;च्युङ्;भ्वादिः;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n1#!गिरे_हुए
+row7#!n1#!fell
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!कृश-शिखं
+row2#!n1#!कृश-शिखं
+row3#!n1#!कृश-शिख{पुं;2;एक}/शिख{नपुं;1;एक}/शिख{नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('कृश')>कृश</a>-<a (click)=showDic('शिख')>शिख</a>{नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n1#!सूक्ष्माग्र_भाग_वाले
+row7#!n1#!with a minute forepart
+row8#!n1#!<a href="html/SV-VI/SV-34/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-34/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कृश-शिखम्>Bs6</a>#!html/SV-VI/SV-34/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!शशि-खण्डम्
+row2#!n1#!शशि-खण्डम्
+row3#!n1#!शशि-खण्ड{पुं;2;एक}
+row4#!n1#!<a (click)=showDic('शशि')>शशि</a>-<a (click)=showDic('खण्ड')>खण्ड</a>{नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,9</a>
+row6#!n1#!चन्द्रमा_के_टुकड़े_के
+row7#!n1#!a fragment of moon
+row8#!n1#!<a href="html/SV-VI/SV-34/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VI/SV-34/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><शशि-खण्डम्>T6</a>#!html/SV-VI/SV-34/samaasa5.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इव
+row2#!NA#!इव
+row3#!NA#!इव{अव्य}
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,3</a>
+row6#!NA#!जैसे
+row7#!NA#!like
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!अलक्ष्यत
+row2#!v#!अलक्ष्यत
+row3#!v#!लक्ष्1{कर्मणि;लङ्;प्र;एक;आत्मनेपदी;लक्षँ;चुरादिः}/लक्ष्2{कर्मणि;लङ्;प्र;एक;आत्मनेपदी;लक्षँ;चुरादिः}
+row4#!v#!<a (click)=showDic('लक्ष्1')>लक्ष्1</a>{कर्मणि;लङ्;प्र;एक;आत्मनेपदी;लक्षँ;चुरादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!दिखायी_पड़े.
+row7#!v#!was resembling.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!द्रुतविलम्बितम् ।
+row11#!v#!उत्प्रेक्षा + यमकम् = सङ्करः  ।
+row12#!v#!
+
+

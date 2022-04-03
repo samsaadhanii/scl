@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-X/SV-32/32.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-32/32.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">32.A</a>#!html/SV-X/SV-32/32.jpg#!row1#!n3#!उद्धतैः
+row2#!number#!32.B</a>#!row2#!n3#!उद्धतैः
+row3#!number#!32.C</a>#!row3#!n3#!उद्धत{;पुं;3;बहु}
+row4#!number#!32.D</a>#!row4#!n3#!<a (click)=showDic('उद्धत')>उद्धत</a>{;पुं;3;बहु}
+row5#!number#!32.E</a>#!row5#!n3#!प्रतियोगी,2
+row6#!number#!32.F</a>#!row6#!n3#!उन्मत्त की तरह (अत्यधिक उन्नत)
+row7#!number#!32.G</a>#!row7#!n3#!The haughty
+row8#!number#!32.H#!row8#!n3#!
+row9#!number#!32.I</a>#!row9#!n3#!
+row10#!number#!32.J</a>#!row10#!n3#!
+row11#!number#!32.K</a>#!row11#!n3#!
+row12#!number#!32.L</a>#!row12#!n3#!
+
+row1#!NA#!इव
+row2#!NA#!इव
+row3#!NA#!इव{अव्य}
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,3</a>
+row6#!NA#!जैसे
+row7#!NA#!as if
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!कुच-कुम्भैः
+row2#!n3#!कुच-कुम्भैः
+row3#!n3#!कुच-कुम्भ{;पुं;3;बहु}/कुम्भ{;नपुं;3;बहु}
+row4#!n3#!<a (click)=showDic('कुच')>कुच</a>-<a (click)=showDic('कुम्भ')>कुम्भ</a>{;पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,6</a>
+row6#!n3#!पीनस्तनों से
+row7#!n3#!huge pot like breasts
+row8#!n3#!<a href="html/SV-X/SV-32/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-32/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><कुच-कुम्भः>K5</a>#!html/SV-X/SV-32/samaasa1.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n5#!परस्पर-सङ्गात्
+row2#!n5#!परस्पर-सङ्गात्
+row3#!n5#!परस्पर-सङ्ग{;पुं;5;एक}/सङ्ग{;नपुं;5;एक}
+row4#!n5#!<a (click)=showDic('परस्पर')>परस्पर</a>-<a (click)=showDic('सङ्ग')>सङ्ग</a>{;पुं;5;एक}
+row5#!n5#!<a href="javascript:show('हेतुः,')">हेतुः,6</a>
+row6#!n5#!एक दूसरे में मिले हुए होने से
+row7#!n5#!due to mutual attrition
+row8#!n5#!<a href="html/SV-X/SV-32/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-32/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><परस्पर-सङ्गः>S</a>#!html/SV-X/SV-32/samaasa2.jpg
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!
+
+row1#!NA#!उभयतः
+row2#!NA#!उभयतः
+row3#!NA#!उभय{अव्य;तसिल्}/उभयतः{अव्य}
+row4#!NA#!<a (click)=showDic('उभय')>उभय</a>{अव्य;तसिल्}
+row5#!NA#!<a href="javascript:show('अपादान,')">अपादान,6</a>
+row6#!NA#!दोनों_की_ओर_से
+row7#!NA#!each other
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!ईरितानि
+row2#!n1#!ईरितानि
+row3#!n1#!ईरित{;नपुं;1;बहु(;क्त;ईरँ;चुरादिः)}/ईरित{;नपुं;2;बहु(;क्त;ईरँ;चुरादिः)}/ईरित{;नपुं;1;बहु(;क्त;ईरँ;अदादिः)}/ईरित{;नपुं;2;बहु(;क्त;ईरँ;अदादिः)}
+row4#!n1#!<a (click)=showDic('ईरित')>ईरित</a>{;नपुं;1;बहु(ईर्2;क्त;ईरँ;चुरादिः)}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n1#!आकृष्ट_हुए
+row7#!n1#!got attracted
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!विभ्रम-अतिशय-पुंसि
+row2#!n1#!विभ्रम-अतिशय-पुंसि
+row3#!n1#!विभ्रम{पुं-अतिशय-पुंसि}
+row4#!n1#!<a (click)=showDic('विभ्रम')>विभ्रम</a>-<a (click)=showDic('अतिशय')>अतिशय</a>-<a (click)=showDic('पुंस्')>पुंस्</a>{नपुं;1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n1#!हाव-भावों को विशेष बढ़ाने वाले
+row7#!n1#!making enticement in pastime
+row8#!n1#!<a href="html/SV-X/SV-32/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-32/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<विभ्रम-अतिशय>K3-पुंस्>U</a>#!html/SV-X/SV-32/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘नपुंसकस्य झलचः’ (7।1।72) इति मुमागमः ।
+
+row1#!n6#!योषिताम्
+row2#!n6#!योषिताम्
+row3#!n6#!योषित्{;स्त्री;6;बहु}
+row4#!n6#!<a (click)=showDic('योषित्')>योषित्</a>{;स्त्री;6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,8</a>
+row6#!n6#!अङ्गनाओं_के
+row7#!n6#!of the young women
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!वपूंषि
+row2#!n1#!वपूंषि
+row3#!n1#!वपुस्{;नपुं;1;बहु}/वपुस्{;नपुं;2;बहु}/वपुस्{;नपुं;8;बहु}
+row4#!n1#!<a (click)=showDic('वपुस्')>वपुस्</a>{;नपुं;1;बहु}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,11</a>
+row6#!n1#!अंग
+row7#!n1#!organs
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘नपुंसकस्य झलचः’ (7।1।72) इति मुमागमः । ‘सान्तमहतः संयोगस्य’ (6।4।10) इति दीर्घ इति विशेषः ।
+
+row1#!n3#!अति-मदेन
+row2#!n3#!अति-मदेन
+row3#!n3#!अति-मद{;पुं;3;एक}/मद{;नपुं;3;एक}
+row4#!n3#!<a (click)=showDic('अति')>अति</a>-<a (click)=showDic('मद')>मद</a>{;नपुं;3;एक}
+row5#!n3#!<a href="javascript:show('हेतुः,')">हेतुः,11</a>
+row6#!n3#!मदातिशय के प्रभाव से
+row7#!n3#!due to the intoxication
+row8#!n3#!<a href="html/SV-X/SV-32/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-32/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अति-मदम्>Tp</a>#!html/SV-X/SV-32/samaasa4.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!v#!जुघूर्णुः
+row2#!v#!जुघूर्णुः
+row3#!v#!घूर्ण्2{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;घूर्णँ;तुदादिः}
+row4#!v#!<a (click)=showDic('घूर्ण्2')>घूर्ण्2</a>{कर्तरि;लिट्;प्र;बहु;परस्मैपदी;घूर्णँ;तुदादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!घूमने लगे.
+row7#!v#!reeling.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!स्वागता ।
+row11#!v#!-
+row12#!v#!
+
+

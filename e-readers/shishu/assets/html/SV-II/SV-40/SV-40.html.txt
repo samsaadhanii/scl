@@ -1,0 +1,222 @@
+row1#!number#!<a href="html/SV-II/SV-40/40.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-40/40.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">40.A</a>#!html/SV-II/SV-40/40.jpg#!row1#!n1#!सः
+row2#!number#!40.B</a>#!row2#!n1#!सः 
+row3#!number#!40.C</a>#!row3#!n1#!तद्{पुं}{1;एक} 
+row4#!number#!40.D</a>#!row4#!n1#!<a (click)=showDic('तद्')>तद्</a>{पुं}{1;एक} 
+row5#!number#!40.E</a>#!row5#!n1#!कर्ता,4
+row6#!number#!40.F</a>#!row6#!n1#!उसने 
+row7#!number#!40.G</a>#!row7#!n1#!He
+row8#!number#!40.H#!row8#!n1#!
+row9#!number#!40.I</a>#!row9#!n1#!
+row10#!number#!40.J</a>#!row10#!n1#!
+row11#!number#!40.K</a>#!row11#!n1#!
+row12#!number#!40.L</a>#!row12#!n1#!
+
+row1#!n6#!बभ्रोः
+row2#!n6#!बभ्रोः 
+row3#!n6#!बभ्रु{पुं}{5;एक}/बभ्रु{पुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('बभ्रु')>बभ्रु</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,3</a>
+row6#!n6#!यादवों_की
+row7#!n6#!of Babhru
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!दारान्
+row2#!n2#!दारान् 
+row3#!n2#!दार{पुं}{2;बहु}/दारा{पुं}{2;बहु} 
+row4#!n2#!<a (click)=showDic('दार')>दार</a>{पुं}{2;बहु} 
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,4</a>
+row6#!n2#!स्त्रियों_को
+row7#!n2#!wives
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!अपाहरत्
+row2#!v#!अपाहरत् 
+row3#!v#!अप_हृ1{कर्तरि;लङ्;प्र;एक;उभयपदी;हृञ्;भ्वादिः} 
+row4#!v#!<a (click)=showDic('अप_हृ1')>अप_हृ1</a>{कर्तरि;लङ्;प्र;एक;उभयपदी;हृञ्;भ्वादिः} 
+row5#!v#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,5</a>
+row6#!v#!अपहरण_की 
+row7#!v#!abducted
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!NA#!(इति)
+row2#!NA#!इति
+row3#!NA#!इति{अव्य} 
+row4#!NA#!<a (click)=showDic('इति')>इति</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,6</a>
+row6#!NA#!ऐसा 
+row7#!NA#!thus
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!यत्
+row2#!n1#!यत् 
+row3#!n1#!यद्{नपुं}{1;एक}/यद्{नपुं}{2;एक}/यत्{अव्य}/यत्{अव्य} 
+row4#!n1#!<a (click)=showDic('यद्')>यद्</a>{नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!जो 
+row7#!n1#!which
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!इदम्
+row2#!n1#!इदम् 
+row3#!n1#!इदम्{नपुं}{1;एक}/इदम्{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('इदम्')>इदम्</a>{नपुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n1#!यह 
+row7#!n1#!this
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!आलप्य
+row2#!NA#!आलप्य 
+row3#!NA#!आङ्_लप्1{कृत्_प्रत्ययः:ल्यप्;लपँ;भ्वादिः} 
+row4#!NA#!<a (click)=showDic('आङ्_लप्1')>आङ्_लप्1</a>{कृत्_प्रत्ययः:ल्यप्;लपँ;भ्वादिः} 
+row5#!NA#!<a href="javascript:show('पूर्वकालः,')">पूर्वकालः,17</a>
+row6#!NA#!कहना
+row7#!NA#!having mentioned
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!‘अलङ्ख्यल्वोः प्रतिषेधयोः प्राचां क्त्वा’ (3।4।18) इति क्त्वाप्रत्यये समासे ल्यबादेशः ।
+
+row1#!NA#!अलम्
+row2#!NA#!अलम् 
+row3#!NA#!अलम्{अव्य} 
+row4#!NA#!<a (click)=showDic('अलम्')>अलम्</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,17</a>
+row6#!NA#!बस 
+row7#!NA#!enough
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!यतः
+row2#!NA#!यतः 
+row3#!NA#!यतः{अव्य}/यत{पुं}{1;एक}/यतः{अव्य} 
+row4#!NA#!<a (click)=showDic('यतः')>यतः</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अपादानं,')">अपादानं,17</a>
+row6#!NA#!क्यों_कि
+row7#!NA#!because
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n6#!पापानां
+row2#!n6#!पापानां 
+row3#!n6#!पाप{पुं}{6;बहु}/पाप{नपुं}{6;बहु}/पापा{स्त्री}{6;बहु} 
+row4#!n6#!<a (click)=showDic('पाप')>पाप</a>{पुं}{6;बहु} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,12</a>
+row6#!n6#!पापियों_की 
+row7#!n6#!of sinners
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!कथा
+row2#!n1#!कथा 
+row3#!n1#!कथा{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('कथा')>कथा</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,17</a>
+row6#!n1#!कथा 
+row7#!n1#!narration
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘चिन्तिपूजिकथिकुम्बि’ (3।3।105) इत्यप्रत्ययः ।
+
+row1#!NA#!अपि
+row2#!NA#!अपि 
+row3#!NA#!अपि{अव्य} 
+row4#!NA#!<a (click)=showDic('अपि')>अपि</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,12</a>
+row6#!NA#!भी 
+row7#!NA#!even
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n4#!अश्रेयसे
+row2#!n4#!अश्रेयसे 
+row3#!n4#!अश्रेयस्{पुं}{4;एक}/अश्रेयस्{नपुं}{4;एक} 
+row4#!n4#!<a (click)=showDic('अश्रेयस्')>अश्रेयस्</a>{नपुं}{4;एक}
+row5#!n4#!<a href="javascript:show('उपपदविभक्तिः,')">उपपदविभक्तिः,15</a>
+row6#!n4#!अमंगल_के_लिये
+row7#!n4#!lead to evil
+row8#!n4#!<a href="html/SV-II/SV-40/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-40/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-श्रेयस्>Tn</a>#!html/SV-II/SV-40/samaasa1.jpg
+row9#!n4#!
+row10#!n4#!
+row11#!n4#!
+row12#!n4#!‘नमः स्वस्ति-’ (2।3।16) इत्यादिना चतुर्थी ।
+
+row1#!NA#!अलं
+row2#!NA#!अलं 
+row3#!NA#!अलम्{अव्य} 
+row4#!NA#!<a (click)=showDic('अलम्')>अलम्</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('उपपदसम्बन्धः,')">उपपदसम्बन्धः,17</a>
+row6#!NA#!बस 
+row7#!NA#!enough
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!खलु
+row2#!NA#!खलु 
+row3#!NA#!खलु{अव्य} 
+row4#!NA#!<a (click)=showDic('खलु')>खलु</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,17</a>
+row6#!NA#!ही
+row7#!NA#!indeed
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!(भवति).
+row2#!v#!भवति
+row3#!v#!भवत्{पुं}{7;एक}/भू1{कर्तरि;लट्;प्र;एक;परस्मैपदी;भू;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('भू1')>भू1</a>{कर्तरि;लट्;प्र;एक;परस्मैपदी;भू;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!होती_है. 
+row7#!v#!is.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!अर्थान्तरन्यासः ।
+row12#!v#!
+
+

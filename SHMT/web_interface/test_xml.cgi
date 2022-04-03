@@ -40,7 +40,6 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
   my %param = &get_parameters();
 
 
-#      if (param) {
       my $encoding=$param{encoding};
       my $sentences=$param{text};
       my $splitter=$param{splitter};
@@ -50,6 +49,12 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
       my $text_type=$param{text_type};
 
 
+      print TMP1 $encoding, "\n";
+      print TMP1 $sentences, "\n";
+      print TMP1 $splitter, "\n";
+      print TMP1 $out_encoding, "\n";
+      print TMP1 $parse, "\n";
+      print TMP1 $text_type, "\n";
   if($GlblVar::LOG eq "true") {
       print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."encoding:$encoding\t"."sentences:$sentences\t"."splitter:$splitter\t"."out_encoding:$out_encoding\t"."parse:$parse\n#####################\n\n";
   }
@@ -60,7 +65,10 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
       if ($splitter eq "Heritage Splitter") { $sandhi = "YES"; $morph = "GH";}
 #      if ($splitter eq "Anusaaraka Splitter") { $sandhi = "YES"; $morph = "UoHyd";}
 
-      $pid = $$;
+      my $pid = $$;
+
+      my $cpid;
+      my $q_id;
 
       $sentences =~ s/\r\n/ /g;
       $sentences =~ s/[\r\n]/ /g;
@@ -76,14 +84,13 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
       $sentences=&convert($encoding,$sentences,$GlblVar::SCLINSTALLDIR);
       chomp($sentences);
 
-      # my $cgi = new CGI;
       if($morph eq "GH") {
          $sentences =~ s/\.//;
 	 $cmd = "$GlblVar::HERITAGE_CGIURL?lex=MW\&cache=t\&st=t\&us=f\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=g";
 	 #print CGI-> redirect($cmd);
 	 print "location:$cmd\n\n";
       } else {
-	      my $q_id = &get_queue_id;
+	      $q_id = &get_queue_id;
 	      $cpid = &get_curr_id;
 	      if ($cpid != $q_id) { 
 		      sleep(1);
@@ -101,9 +108,8 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
          close(TMP);
 
          print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
-	 #  print $cgi->header (-charset => 'UTF-8');
            $sentences = '"'. $sentences  . '"';
-           my $exit_status = system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/callmtshell.pl $GlblVar::TFPATH $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot $sentences $encoding $pid $script $sandhi $morph $parse $text_type $GlblVar::LTPROCBIN");
+           my $exit_status = system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/callmtshell.pl $GlblVar::TFPATH $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot $sentences $encoding $pid $script $sandhi $morph $parse $text_type $GlblVar::LTPROCBIN $GlblVar::MYPYTHONPATH");
 
 	    if($exit_status > -1) {
 	         &increment_curr_id;
@@ -111,7 +117,6 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 
            system("$GlblVar::SCLINSTALLDIR/SHMT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $script $pid");
       }
-      #  }
   if($GlblVar::LOG eq "true") {
     close(TMP1);
   }

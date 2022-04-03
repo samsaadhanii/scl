@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-III/SV-17/17.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-17/17.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">17.A</a>#!html/SV-III/SV-17/17.jpg#!row1#!n6#!अतसी-सून-समान-भासः
+row2#!number#!17.B</a>#!row2#!n6#!अतसीसूनसमानभासः 
+row3#!number#!17.C</a>#!row3#!n6#!अतसी-सून-समान-भास्{स्त्री}{1;बहु}/भास्{स्त्री}{2;बहु}/भास्{स्त्री}{5;एक}/भास्{स्त्री}{6;एक}/भास{पुं}{1;एक} 
+row4#!number#!17.D</a>#!row4#!n6#!<a (click)=showDic('अतसी')>अतसी</a>-<a (click)=showDic('सून')>सून</a>-<a (click)=showDic('समान')>समान</a>-<a (click)=showDic('भास्')>भास्</a>{पुं}{6;एक} 
+row5#!number#!17.E</a>#!row5#!n6#!विशेषणम्,2
+row6#!number#!17.F</a>#!row6#!n6#!तीसी_के_फूल_के_समान_कान्तिवाले
+row7#!number#!17.G</a>#!row7#!n6#!whose lustre was like that of the blossom of the indigo flax
+row8#!number#!17.H#!row8#!n6#!<a href="html/SV-III/SV-17/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-17/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<अतसी-सून>T6-समानभास्>Bs6</a>#!html/SV-III/SV-17/samaasa1.jpg
+row9#!number#!17.I</a>#!row9#!n6#!
+row10#!number#!17.J</a>#!row10#!n6#!
+row11#!number#!17.K</a>#!row11#!n6#!
+row12#!number#!17.L</a>#!row12#!n6#!
+
+row1#!n6#!तस्य
+row2#!n6#!तस्य 
+row3#!n6#!तद्{पुं}{6;एक}/तद्{नपुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('तद्')>तद्</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,3</a>
+row6#!n6#!उसका
+row7#!n6#!his
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!एक-बाहुः
+row2#!n1#!एकबाहुः 
+row3#!n1#!एक-बाहु{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('एक')>एक</a>-<a (click)=showDic('बाहु')>बाहु</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,9</a>
+row6#!n1#!एक-हाथ
+row7#!n1#!one hand
+row8#!n1#!<a href="html/SV-III/SV-17/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-17/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><एक-बाहुः>TDs</a>#!html/SV-III/SV-17/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n3#!भ्रामि-अन्-मयूखावलि-मण्डलेन
+row2#!n3#!भ्राम्यन्मयूखावलिमण्डलेन 
+row3#!n3#!भ्रामि-अन्-{अव्य}-मयूखावलि-मण्डल{पुं}{3;एक}/मण्डल{नपुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('भ्रामि')>भ्रामि</a>-<a (click)=showDic('अन्')>अन्</a>--<a (click)=showDic('मयूखावलि')>मयूखावलि</a>-<a (click)=showDic('मण्डल')>मण्डल</a>{नपुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n3#!घूमते_हुए_किरण-समूह_से_युक्त_घेरे_वाले
+row7#!n3#!with its throbbing assemblage of the line of rays
+row8#!n3#!<a href="html/SV-III/SV-17/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-17/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<भ्राम्य-<मयूख-आवलि>T6-मण्डलम्>T6>K3</a>#!html/SV-III/SV-17/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!चक्रेण
+row2#!n3#!चक्रेण 
+row3#!n3#!चक्र{पुं}{3;एक}/चक्र{नपुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('चक्र')>चक्र</a>{नपुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('करण,')">करण,9</a>
+row6#!n3#!सुदर्शनचक्र_से
+row7#!n3#!disc
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!स्फुरत्-महा-आवर्तः
+row2#!n1#!स्फुरन्महावर्तः 
+row3#!n1#!स्फुरत्-महत्-आवर्त{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('स्फुरत्')>स्फुरत्</a>-<a (click)=showDic('महा')>महा</a>-<a (click)=showDic('आवर्त')>आवर्त</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n1#!स्फुरित_होते_हुए_बड़े_भौंर_वाले
+row7#!n1#!with its great eddying whirlpool
+row8#!n1#!<a href="html/SV-III/SV-17/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-17/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><स्फुरत्-<महान्-आवर्तः>K3>Bs6</a>#!html/SV-III/SV-17/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!यमुना-जलौघः
+row2#!n1#!यमुनाजलौघः 
+row3#!n1#!यमुना-जलौघ{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('यमुना')>यमुना</a>-<a (click)=showDic('जलौघ')>जलौघ</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,8</a>
+row6#!n1#!यमुना_के_जलसमूह
+row7#!n1#!the stream of the Yamunā
+row8#!n1#!<a href="html/SV-III/SV-17/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-17/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<यमुना-जल>T6-ओघः>T6</a>#!html/SV-III/SV-17/samaasa5.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इव
+row2#!NA#!इव 
+row3#!NA#!इव{अव्य} 
+row4#!NA#!<a (click)=showDic('इव')>इव</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,3</a>
+row6#!NA#!के_समान
+row7#!NA#!like
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!रेजे.
+row2#!v#!रेजे 
+row3#!v#!राज्1{कर्तरि;लिट्;उ;एक;आत्मनेपदी;राजृँ;भ्वादिः}/राज्1{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;राजृँ;भ्वादिः}. 
+row4#!v#!<a (click)=showDic('राज्1')>राज्1</a>{कर्तरि;लिट्;प्र;एक;आत्मनेपदी;राजृँ;भ्वादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!शोभता_था.
+row7#!v#!shone.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!उपजाति ।
+row11#!v#!-
+row12#!v#!
+
+

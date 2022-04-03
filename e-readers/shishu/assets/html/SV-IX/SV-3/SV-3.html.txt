@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-IX/SV-3/3.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-3/3.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">3.A</a>#!html/SV-IX/SV-3/3.jpg#!row1#!n2#!परिणतिं
+row2#!number#!3.B</a>#!row2#!n2#!परिणतिं
+row3#!number#!3.C</a>#!row3#!n2#!परिणति{;स्त्री;2;एक}
+row4#!number#!3.D</a>#!row4#!n2#!<a (click)=showDic('परिणति')>परिणति</a>{;स्त्री;2;एक}
+row5#!number#!3.E</a>#!row5#!n2#!कर्म,2
+row6#!number#!3.F</a>#!row6#!n2#!समाप्ति_को
+row7#!number#!3.G</a>#!row7#!n2#!End
+row8#!number#!3.H#!row8#!n2#!
+row9#!number#!3.I</a>#!row9#!n2#!
+row10#!number#!3.J</a>#!row10#!n2#!
+row11#!number#!3.K</a>#!row11#!n2#!
+row12#!number#!3.L</a>#!row12#!n2#!
+
+row1#!n1#!गतः
+row2#!n1#!गतः
+row3#!n1#!गत{;पुं;1;एक}
+row4#!n1#!<a (click)=showDic('गम्1')>गम्1</a>{क्त;गमॢँ;भ्वादिः;;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!प्राप्त
+row7#!n1#!obtained
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!विरलातपच्-छविः
+row2#!n1#!विरलातपच्-छविः
+row3#!n1#!विरलातपच्-छवि{;स्त्री;1;एक}/छवि{;पुं;1;एक}
+row4#!n1#!<a (click)=showDic('विरलातपच्')>विरलातपच्</a>-<a (click)=showDic('छवि')>छवि</a>{;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!अल्प सूर्य कान्ति रश्मि
+row7#!n1#!with scarcely found heat in its rays
+row8#!n1#!<a href="html/SV-IX/SV-3/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-3/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><विरल-<आतप-छविः>T6>Bs6</a>#!html/SV-IX/SV-3/samaasa1.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!अनुष्ण-वपुः
+row2#!n1#!अनुष्ण-वपुः
+row3#!n1#!अनुष्ण-वपुस्{;नपुं;1;एक}/वपुस्{;नपुं;2;एक}/वपुस्{;नपुं;8;एक}
+row4#!n1#!<a (click)=showDic('अनुष्ण')>अनुष्ण</a>-<a (click)=showDic('वपुस्')>वपुस्</a>{;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!क्षीण उष्णतावाला
+row7#!n1#!with a sparse warmth
+row8#!n1#!<a href="html/SV-IX/SV-3/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-3/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अ-<उष्ण-वपुः>K3>Bsmn</a>#!html/SV-IX/SV-3/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!'अलवणा यवागूः' इतिवदल्पार्थे नञ्प्रयोगः ।
+
+row1#!NA#!परितः
+row2#!NA#!परितः
+row3#!NA#!परितः{अव्य}/परितृ{;पुं;8;एक}/परितृ{;नपुं;8;एक}
+row4#!NA#!<a (click)=showDic('परितः')>परितः</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,6</a>
+row6#!NA#!चारों_ओर
+row7#!NA#!around
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!विपाण्डुः
+row2#!n1#!विपाण्डुः
+row3#!n1#!विपाण्डु{;पुं;1;एक}
+row4#!n1#!<a (click)=showDic('विपाण्डु')>विपाण्डु</a>{;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n1#!श्वेत बादलों से आच्छादित होने से
+row7#!n1#!pale clouds
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!अभ्र-शिरः
+row2#!n2#!अभ्र-शिरः
+row3#!n2#!अभ्र-शिर{;पुं;1;एक}/शिरस्{;नपुं;1;एक}/शिरस्{;नपुं;2;एक}/शिरस्{;नपुं;8;एक}/शिरस्{;पुं;8;एक}
+row4#!n2#!<a (click)=showDic('अभ्र')>अभ्र</a>-<a (click)=showDic('शिर')>शिर</a>{;नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,8</a>
+row6#!n2#!शुभ्र आकाशरूप मस्तक को
+row7#!n2#!the forehead of white sky
+row8#!n2#!<a href="html/SV-IX/SV-3/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-3/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अभ्र-शिरः>K6</a>#!html/SV-IX/SV-3/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!दधत्
+row2#!n1#!दधत्
+row3#!n1#!दधत्{;नपुं;1;एक}/दधत्{;नपुं;2;एक}/दधत्{;नपुं;8;एक}
+row4#!n1#!<a (click)=showDic('धा1')>धा1</a>{शतृ_लट्;डुधाञ्;जुहोत्यादिः;;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('समानकालः,')">समानकालः,2</a>
+row6#!n1#!धारण_करता_हुआ
+row7#!n1#!while bearing
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!परिमन्दसूर्य-नयनः
+row2#!n1#!परिमन्दसूर्य-नयनः
+row3#!n1#!परिमन्दसूर्य-नयन{;पुं;1;एक}
+row4#!n1#!<a (click)=showDic('परिमन्दसूर्य')>परिमन्दसूर्य</a>-<a (click)=showDic('नयन')>नयन</a>{;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,12</a>
+row6#!n1#!मन्द सूर्यरूपी नेत्रवाला
+row7#!n1#!possessed with weak eye sight in the form of the Sun
+row8#!n1#!<a href="html/SV-IX/SV-3/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-3/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><परिमन्द-<सूर्य-नयनः>K6>K3</a>#!html/SV-IX/SV-3/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!दिवसः
+row2#!n1#!दिवसः
+row3#!n1#!दिवस{;पुं;1;एक}
+row4#!n1#!<a (click)=showDic('दिवस')>दिवस</a>{;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,12</a>
+row6#!n1#!दिन
+row7#!n1#!the day
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!शिथिलः
+row2#!n1#!शिथिलः
+row3#!n1#!शिथिल{;पुं;1;एक}
+row4#!n1#!<a (click)=showDic('शिथिल')>शिथिल</a>{;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्तृसमानाधिकरणम्,')">कर्तृसमानाधिकरणम्,12</a>
+row6#!n1#!शिथिल
+row7#!n1#!indistinct
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!अभवत्
+row2#!v#!अभवत्
+row3#!v#!भू1{कर्तरि;लङ्;प्र;एक;परस्मैपदी;भू;भ्वादिः}
+row4#!v#!<a (click)=showDic('भू1')>भू1</a>{कर्तरि;लङ्;प्र;एक;परस्मैपदी;भू;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!हुआ
+row7#!v#!became.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!प्रमिताक्षरा ।
+row11#!v#!रूपकम् + श्लेषः = सङ्करः ।
+row12#!v#!
+
+

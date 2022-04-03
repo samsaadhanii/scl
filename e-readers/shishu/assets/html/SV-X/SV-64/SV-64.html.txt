@@ -1,0 +1,118 @@
+row1#!number#!<a href="html/SV-X/SV-64/64.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-64/64.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">64.A</a>#!html/SV-X/SV-64/64.jpg#!row1#!n7#!इष्टकर-अग्रे
+row2#!number#!64.B</a>#!row2#!n7#!इष्टकर-अग्रे
+row3#!number#!64.C</a>#!row3#!n7#!इष्टकर-अग्र{;पुं;7;एक}/अग्र{;नपुं;8;द्वि}/अग्र{;नपुं;1;द्वि}/अग्र{;नपुं;2;द्वि}/अग्र{;नपुं;7;एक}/अग्रा{;स्त्री;8;एक}/अग्रा{;स्त्री;8;द्वि}/अग्रा{;स्त्री;1;द्वि}/अग्रा{;स्त्री;2;द्वि}
+row4#!number#!64.D</a>#!row4#!n7#!<a (click)=showDic('इष्टकर')>इष्टकर</a>-<a (click)=showDic('अग्र')>अग्र</a>{;पुं;7;एक}
+row5#!number#!64.E</a>#!row5#!n7#!कर्ता,4
+row6#!number#!64.F</a>#!row6#!n7#!प्राणेश्वर के हाथ की अङ्गुलियों के द्वारा
+row7#!number#!64.G</a>#!row7#!n7#!With the fingers of a beloved
+row8#!number#!64.H#!row8#!n7#!<a href="html/SV-X/SV-64/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-64/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<इष्ट-कर>T6-अग्रः>T6</a>#!html/SV-X/SV-64/samaasa1.jpg
+row9#!number#!64.I</a>#!row9#!n7#!
+row10#!number#!64.J</a>#!row10#!n7#!
+row11#!number#!64.K</a>#!row11#!n7#!
+row12#!number#!64.L</a>#!row12#!n7#!
+
+row1#!n2#!नीविम्
+row2#!n2#!नीविम्
+row3#!n2#!नीवि{;स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('नीवि')>नीवि</a>{;स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,4</a>
+row6#!n2#!नीविका_को
+row7#!n2#!of the lower garment
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!आशु
+row2#!NA#!आशु
+row3#!NA#!आशु{;नपुं;1;एक}/आशु{;नपुं;2;एक}/आशु{;नपुं;8;एक}
+row4#!NA#!<a (click)=showDic('आशु')>आशु</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,4</a>
+row6#!NA#!तुरन्त
+row7#!NA#!immediately
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n7#!लङ्घितवति
+row2#!n7#!लङ्घितवति
+row3#!n7#!लङ्घितवत्{;पुं;7;एक(;क्तवतु;लघिँ;चुरादिः)}/लङ्घितवत्{;नपुं;7;एक(;क्तवतु;लघिँ;चुरादिः)}/लङ्घितवत्{;पुं;7;एक(;क्तवतु;लघिँ;भ्वादिः)}/लङ्घितवत्{;नपुं;7;एक(;क्तवतु;लघिँ;भ्वादिः)}/लङ्घितवत्{;पुं;7;एक(;क्तवतु;लघिँ;भ्वादिः)}/लङ्घितवत्{;नपुं;7;एक(;क्तवतु;लघिँ;भ्वादिः)}
+row4#!n7#!<a (click)=showDic('लङ्घितवत्')>लङ्घितवत्</a>{;पुं;7;एक(लघ्3;क्तवतु;लघिँ;चुरादिः)}
+row5#!n7#!<a href="javascript:show('भावलक्षणसप्तमी,')">भावलक्षणसप्तमी,9</a>
+row6#!n7#!स्पर्श किये जाने
+row7#!n7#!touched
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n7#!(सति)
+row2#!n7#!सति
+row3#!n7#!सती{;स्त्री;8;एक}/सत्{;पुं;7;एक(;शतृ_लट्;असँ;अदादिः)}/सत्{;नपुं;7;एक(;शतृ_लट्;असँ;अदादिः)}
+row4#!n7#!<a (click)=showDic('सत्')>सत्</a>{;पुं;7;एक(अस्2;शतृ_लट्;असँ;अदादिः)}
+row5#!n7#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,4</a>
+row6#!n7#!पर
+row7#!n7#!while
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n3#!अर्धमुकुलित-दृष्ट्या
+row2#!n3#!अर्धमुकुलित-दृष्ट्या
+row3#!n3#!अर्धमुकुलित-दृष्टि{;स्त्री;3;एक}
+row4#!n3#!<a (click)=showDic('अर्धमुकुलित')>अर्धमुकुलित</a>-<a (click)=showDic('दृष्टि')>दृष्टि</a>{;स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n3#!नेत्रों को अर्ध निमीलित की हुई
+row7#!n3#!half-closed eyes
+row8#!n3#!<a href="html/SV-X/SV-64/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-64/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<अर्ध-मुकुलित>K3-दृष्टिः>K3</a>#!html/SV-X/SV-64/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!(स्त्रिया)
+row2#!n3#!स्त्रिया
+row3#!n3#!स्त्री{;स्त्री;3;एक}
+row4#!n3#!<a (click)=showDic('स्त्री')>स्त्री</a>{;स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,9</a>
+row6#!n3#!स्त्री_से
+row7#!n3#!a young woman (his lady love)
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n2#!रक्तवैणिकहताधरतन्त्रीमण्डलक्वणित-चारु
+row2#!n2#!रक्तवैणिकहताधरतन्त्रीमण्डलक्वणित-चारु
+row3#!n2#!रक्तवैणिकहताधरतन्त्रीमण्डलक्वणित-चारु{;नपुं;1;एक}/चारु{;नपुं;2;एक}/चारु{;नपुं;8;एक}
+row4#!n2#!<a (click)=showDic('रक्तवैणिकहताधरतन्त्रीमण्डलक्वणित')>रक्तवैणिकहताधरतन्त्रीमण्डलक्वणित</a>-<a (click)=showDic('चारु')>चारु</a>{;नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,9</a>
+row6#!n2#!गाने तथा वीणा बजाने में निपुण व्यक्ति के द्वारा बजाये गये अधर तन्त्री के स्वरमण्डल की झंकार के सदृश मधुर
+row7#!n2#!like a lute that produces a melodious sound when an expert tinkles it
+row8#!n2#!<a href="html/SV-X/SV-64/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-X/SV-64/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<रक्त-वैणिक>K3-हत>T3-<<अधर-<तन्त्री-मण्डल>T6>K3>K3-क्वणित>T6-चारु>K4</a>#!html/SV-X/SV-64/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!‘शिल्पम्’ (4।4।55) इति ठक् ।
+
+row1#!v#!चुकूजे
+row2#!v#!चुकूजे
+row3#!v#!कूज्1{भावे;लिट्;प्र;एक;आत्मनेपदी;कूजँ;भ्वादिः}/कूज्1{भावे;लिट्;उ;एक;आत्मनेपदी;कूजँ;भ्वादिः}
+row4#!v#!<a (click)=showDic('कूज्1')>कूज्1</a>{भावे;लिट्;प्र;एक;आत्मनेपदी;कूजँ;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!कूजने_लगी.
+row7#!v#!started singing sweetly.
+row8#!v#!-
+row9#!v#!भावे
+row10#!v#!स्वागता ।
+row11#!v#!उपमा ।
+row12#!v#!
+
+

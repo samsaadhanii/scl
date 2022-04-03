@@ -1,0 +1,144 @@
+row1#!number#!<a href="html/SV-III/SV-4/4.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-4/4.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">4.A</a>#!html/SV-III/SV-4/4.jpg#!row1#!n6#!अस्य
+row2#!number#!4.B</a>#!row2#!n6#!अस्य 
+row3#!number#!4.C</a>#!row3#!n6#!इदम्{पुं}{6;एक}/इदम्{नपुं}{6;एक}/अस्3{कर्तरि;लोट्;म;एक;परस्मैपदी;असुँ;दिवादिः} 
+row4#!number#!4.D</a>#!row4#!n6#!<a (click)=showDic('इदम्')>इदम्</a>{पुं}{6;एक} 
+row5#!number#!4.E</a>#!row5#!n6#!उपपदविभक्तिः,2
+row6#!number#!4.F</a>#!row6#!n6#!इसके 
+row7#!number#!4.G</a>#!row7#!n6#!his
+row8#!number#!4.H#!row8#!n6#!
+row9#!number#!4.I</a>#!row9#!n6#!
+row10#!number#!4.J</a>#!row10#!n6#!
+row11#!number#!4.K</a>#!row11#!n6#!
+row12#!number#!4.L</a>#!row12#!n6#!
+
+row1#!NA#!उपरि
+row2#!NA#!उपरि 
+row3#!NA#!उपरि{अव्य} 
+row4#!NA#!<a (click)=showDic('उपरि')>उपरि</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('उपपदसम्बन्धः,')">उपपदसम्बन्धः,11</a>
+row6#!NA#!ऊपर 
+row7#!NA#!on
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n6#!मौलि-भाजाम्
+row2#!n6#!मौलिभाजां 
+row3#!n6#!मौलि-भाज्{पुं}{6;बहु}/भाज्{नपुं}{6;बहु}/भाजा{स्त्री}{2;एक} 
+row4#!n6#!<a (click)=showDic('मौलि')>मौलि</a>-<a (click)=showDic('भाज्')>भाज्</a>{पुं}{6;बहु} 
+row5#!n6#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n6#!मुकुट_में_जड़े_हुए
+row7#!n6#!set on diadem
+row8#!n6#!<a href="html/SV-III/SV-4/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-4/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><मौलि-भाजः>U</a>#!html/SV-III/SV-4/samaasa1.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!मणीनाम्
+row2#!n6#!मणीनाम् 
+row3#!n6#!मणि{पुं}{6;बहु} 
+row4#!n6#!<a (click)=showDic('मणि')>मणि</a>{पुं}{6;बहु} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,7</a>
+row6#!n6#!रत्नों_की
+row7#!n6#!jewels
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n3#!अनणीयसीभिः
+row2#!n3#!अनणीयसीभिः 
+row3#!n3#!अनणीयसी{स्त्री}{3;बहु} 
+row4#!n3#!<a (click)=showDic('अनणीयसी')>अनणीयसी</a>{स्त्री}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n3#!महान्
+row7#!n3#!big
+row8#!n3#!<a href="html/SV-III/SV-4/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-4/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-अणीयसी>Tn</a>#!html/SV-III/SV-4/samaasa2.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!चित्राभिः
+row2#!n3#!चित्राभिः 
+row3#!n3#!चित्रा{स्त्री}{3;बहु} 
+row4#!n3#!<a (click)=showDic('चित्रा')>चित्रा</a>{स्त्री}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,7</a>
+row6#!n3#!चित्र-विचित्र
+row7#!n3#!of diverse colours
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!भाभिः
+row2#!n3#!भाभिः 
+row3#!n3#!भा{स्त्री}{3;बहु}/भास्{स्त्री}{3;बहु} 
+row4#!n3#!<a (click)=showDic('भा')>भा</a>{स्त्री}{3;बहु} 
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,11</a>
+row6#!n3#!कान्तियों_से
+row7#!n3#!the effulgence
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!‘भोभगो-’ (8।3।17) इत्यादिना रोर्यकारे तस्य ‘हलि सर्वेषाम् (8।3।22) इति लोपः।’
+
+row1#!n6#!अनेक-धातु-छुरित-अश्म-राशेः
+row2#!n6#!अनेकधातुच्छुरिताश्मराशेः 
+row3#!n6#!अनेक-धातु-छुरित-अश्मन्-राशि{पुं}{5;एक}/राशि{पुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('अनेक')>अनेक</a>-<a (click)=showDic('धातु')>धातु</a>-<a (click)=showDic('छुरित')>छुरित</a>-<a (click)=showDic('अश्मन्')>अश्मन्</a>-<a (click)=showDic('राशि')>राशि</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n6#!अनेक-धातुओं_से_मिश्रित-पत्थर-समूहों_से_युक्त 
+row7#!n6#!with its heaps of precious stones tinted with various minerals
+row8#!n6#!<a href="html/SV-III/SV-4/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-III/SV-4/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<अनेक-धातु>K2-छुरित<अश्म-राशिः>T6>Bs6</a>#!html/SV-III/SV-4/samaasa3.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n6#!गोवर्धनस्य
+row2#!n6#!गोवर्धनस्य 
+row3#!n6#!गोवर्धन{पुं}{6;एक} 
+row4#!n6#!<a (click)=showDic('गोवर्धन')>गोवर्धन</a>{पुं}{6;एक} 
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,10</a>
+row6#!n6#!गोवर्धन_पर्वत_के
+row7#!n6#!of mount Govardhana
+row8#!n6#!-
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n1#!आकृतिः
+row2#!n1#!आकृतिः 
+row3#!n1#!आकृति{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('आकृति')>आकृति</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,11</a>
+row6#!n1#!जैसा
+row7#!n1#!form
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!अन्वकारि.
+row2#!v#!अन्वकारि 
+row3#!v#!अनु_कृ2{कर्मणि;लुङ्;प्र;एक;आत्मनेपदी;कृञ्;स्वादिः}/अनु_कृ3{कर्मणि;लुङ्;प्र;एक;आत्मनेपदी;डुकृञ्;तनादिः}. 
+row4#!v#!<a (click)=showDic('अनु_कृ3')>अनु_कृ3</a>{कर्मणि;लुङ्;प्र;एक;आत्मनेपदी;डुकृञ्;तनादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!अनुकरण_कर_रहा_था.
+row7#!v#!imitated.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!उपजाति ।
+row11#!v#!उपमा ।
+row12#!v#!
+
+

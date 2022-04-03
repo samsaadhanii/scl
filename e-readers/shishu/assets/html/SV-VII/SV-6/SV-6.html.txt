@@ -1,0 +1,92 @@
+row1#!number#!<a href="html/SV-VII/SV-6/6.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-6/6.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">6.A</a>#!html/SV-VII/SV-6/6.jpg#!row1#!n6#!गुरुनिबिडनितम्बबिम्बभाराक्रमणनिपीडितमङ्गना-जनस्य
+row2#!number#!6.B</a>#!row2#!n6#!गुरुनिबिडनितम्बबिम्बभाराक्रमणनिपीडितमङ्गना-जनस्य
+row3#!number#!6.C</a>#!row3#!n6#!गुरुनिबिडनितम्बबिम्बभाराक्रमणनिपीडितमङ्गना-जन{पुं;6;एक}
+row4#!number#!6.D</a>#!row4#!n6#!<a (click)=showDic('गुरुनिबिडनितम्बबिम्बभाराक्रमणनिपीडितमङ्गना')>गुरुनिबिडनितम्बबिम्बभाराक्रमणनिपीडितमङ्गना</a>-<a (click)=showDic('जन')>जन</a>{पुं;6;एक}
+row5#!number#!6.E</a>#!row5#!n6#!षष्ठीसम्बन्धः,2
+row6#!number#!6.F</a>#!row6#!n6#!भारी एवं दृढ़ नितम्बों के बोझ से अत्यन्त दबे हुए युवतियों के
+row7#!number#!6.G</a>#!row7#!n6#!Having pressed together because of the heaviness of their buttocks
+row8#!number#!6.H#!row8#!n6#!<a href="html/SV-VII/SV-6/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-6/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<<गुरु-निबिड>K1-नितम्बबिम्ब>K1-भार>K6-आक्रमण>T6-<निपीडित-अङ्गनाजनः>K1>T3</a>#!html/SV-VII/SV-6/samaasa1.jpg
+row9#!number#!6.I</a>#!row9#!n6#!
+row10#!number#!6.J</a>#!row10#!n6#!
+row11#!number#!6.K</a>#!row11#!n6#!
+row12#!number#!6.L</a>#!row12#!n6#!
+
+row1#!n1#!चरण-युगं
+row2#!n1#!चरण-युगं
+row3#!n1#!चरण-युग{नपुं;1;एक}
+row4#!n1#!<a (click)=showDic('चरण')>चरण</a>-<a (click)=showDic('युग')>युग</a>{नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,7</a>
+row6#!n1#!दोनों_चरण
+row7#!n1#!two feet of women
+row8#!n1#!<a href="html/SV-VII/SV-6/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-6/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><चरण-युगम्>T6</a>#!html/SV-VII/SV-6/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n7#!पदेषु
+row2#!n7#!पदेषु
+row3#!n7#!पद{नपुं;7;बहु}
+row4#!n7#!<a (click)=showDic('पद')>पद</a>{नपुं;7;बहु}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,7</a>
+row6#!n7#!पैर रखने के स्थल में
+row7#!n7#!at the place of placing their feet
+row8#!n7#!-
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n3#!अलक्तकच्छलेन
+row2#!n3#!अलक्तकच्छलेन
+row3#!n3#!अलक्तकच्छलेन}
+row4#!n3#!<a (click)=showDic('अलक्तकच्छल')>अलक्तकच्छल</a>{पुं;3;एक}
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,7</a>
+row6#!n3#!लाक्षा-रस के व्याज से
+row7#!n3#!in the pretext of lac
+row8#!n3#!<a href="html/SV-VII/SV-6/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-6/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अलक्तक-छलः>T6</a>#!html/SV-VII/SV-6/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n2#!स्व-रसम्
+row2#!n2#!स्व-रसम्
+row3#!n2#!स्व-रस{पुं;2;एक}
+row4#!n2#!<a (click)=showDic('स्व')>स्व</a>-<a (click)=showDic('रस')>रस</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,7</a>
+row6#!n2#!अपना_रस_को
+row7#!n2#!their juices
+row8#!n2#!<a href="html/SV-VII/SV-6/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-6/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><स्व-रसः>T6</a>#!html/SV-VII/SV-6/samaasa4.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!असक्तम्
+row2#!n2#!असक्तम्
+row3#!n2#!असक्त{पुं;2;एक}
+row4#!n2#!<a (click)=showDic('असक्त')>असक्त</a>{नपुं;2;एक}
+row5#!n2#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,7</a>
+row6#!n2#!अविच्छिन्न
+row7#!n2#!unendingly
+row8#!n2#!<a href="html/SV-VII/SV-6/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-6/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-सक्तः>Tn</a>#!html/SV-VII/SV-6/samaasa5.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!असुस्रुवत्
+row2#!v#!असुस्रुवत्
+row3#!v#!स्रु1{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;स्रु;भ्वादिः}
+row4#!v#!<a (click)=showDic('स्रु1')>स्रु1</a>{कर्तरि;लुङ्;प्र;एक;परस्मैपदी;स्रु;भ्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!स्रवित_कर_रहे_थे.
+row7#!v#!were (as if) producing.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!पुष्पिताग्रा ।
+row11#!v#!अपह्नवः ।
+row12#!v#!स्रवतेः क्षरणार्थाल्लुङि 'णिश्रि-' (3।1।48) इत्यादिना चङि धातोरुवङादेशः ।
+
+

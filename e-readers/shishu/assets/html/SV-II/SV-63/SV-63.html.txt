@@ -1,0 +1,105 @@
+row1#!number#!<a href="html/SV-II/SV-63/63.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-63/63.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">63.A</a>#!html/SV-II/SV-63/63.jpg#!row1#!n1#!इन्द्रप्रस्थ-गमः
+row2#!number#!63.B</a>#!row2#!n1#!इन्द्रप्रस्थगमः 
+row3#!number#!63.C</a>#!row3#!n1#!इन्द्रप्रस्थ-गम{पुं}{1;एक} 
+row4#!number#!63.D</a>#!row4#!n1#!<a (click)=showDic('इन्द्रप्रस्थ')>इन्द्रप्रस्थ</a>-<a (click)=showDic('गम')>गम</a>{पुं}{1;एक} 
+row5#!number#!63.E</a>#!row5#!n1#!कर्म,4
+row6#!number#!63.F</a>#!row6#!n1#!हस्तिनापुर_को_जाना
+row7#!number#!63.G</a>#!row7#!n1#!Journey to Indraprastha
+row8#!number#!63.H#!row8#!n1#!<a href="html/SV-II/SV-63/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-63/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><इन्द्रप्रस्थ-गमः>T6</a>#!html/SV-II/SV-63/samaasa1.jpg
+row9#!number#!63.I</a>#!row9#!n1#!
+row10#!number#!63.J</a>#!row10#!n1#!
+row11#!number#!63.K</a>#!row11#!n1#!
+row12#!number#!63.L</a>#!row12#!n1#!‘ग्रहवृदृनिश्चिगमश्च’ (3।3।58) इत्यप्रत्ययः ।
+
+row1#!NA#!तावत्
+row2#!NA#!तावत् 
+row3#!NA#!तावत्{अव्य}/तावत्{नपुं}{1;एक}/तावत्{नपुं}{2;एक} 
+row4#!NA#!<a (click)=showDic('तावत्')>तावत्</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('क्रियाविशेषणम्,')">क्रियाविशेषणम्,4</a>
+row6#!NA#!अभी
+row7#!NA#!now
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!मा
+row2#!NA#!मा 
+row3#!NA#!अस्मद्{2;एक}/मा{अव्य}/मा{स्त्री}{1;एक} 
+row4#!NA#!<a (click)=showDic('मा')>मा</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,4</a>
+row6#!NA#!नहीं
+row7#!NA#!do not
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!कारि
+row2#!v#!कारि 
+row3#!v#!कारि{नपुं}{1;एक}/कारि{नपुं}{2;एक} 
+row4#!v#!<a (click)=showDic('कृ3')>कृ3</a>{कर्मणि;लुङ्;प्र.एक;आत्मनेपदी;डकृञ्;तनादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!करना_चाहिये
+row7#!v#!be undertaken
+row8#!v#!-
+row9#!v#!
+row10#!v#!
+row11#!v#!
+row12#!v#!कृञः कर्मणि लुङ् । ‘माङि लुङ्’ (3।3।175) इत्याशीरर्थे । ‘न माङ्योगे’ (6।4।74) इत्यट्-प्रतिषेधः ।
+
+row1#!n1#!चेदयः
+row2#!n1#!चेदयः 
+row3#!n1#!चेदि{पुं}{1;बहु} 
+row4#!n1#!<a (click)=showDic('चेदि')>चेदि</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,8</a>
+row6#!n1#!चेदि देश
+row7#!n1#!land of the Cedis
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n5#!आस्माक-दन्ति-सान्निध्यात्
+row2#!n5#!आस्माकदन्तिसान्निध्यात् 
+row3#!n5#!आस्माक-दन्तिन्-सान्निध्य{नपुं}{5;एक} 
+row4#!n5#!<a (click)=showDic('आस्माक')>आस्माक</a>-<a (click)=showDic('दन्तिन्')>दन्तिन्</a>-<a (click)=showDic('सान्निध्य')>सान्निध्य</a>{नपुं}{5;एक} 
+row5#!n5#!<a href="javascript:show('हेतुः,')">हेतुः,8</a>
+row6#!n5#!हम_लोगों_के_हाथियों_के_सान्निध्य_से
+row7#!n5#!in the presence of our elephants
+row8#!n5#!<a href="html/SV-II/SV-63/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-63/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<आस्माक-दन्तिन्>K1-सान्निध्यम्>T6</a>#!html/SV-II/SV-63/samaasa2.jpg
+row9#!n5#!
+row10#!n5#!
+row11#!n5#!
+row12#!n5#!‘युष्मदस्मदोरन्यतरस्यां खञ्च’ (4।3।1) इति विकल्पादण्प्रत्ययः ।‘तस्मिन्नणि च युष्माकास्माकौ (4।3।2) इत्यस्माकादेशः । सन्निधिरेव सान्निध्यम् । स्वार्थे ष्यञ्प्रत्ययः ।
+
+row1#!n1#!वामिनी-भूत-भूरुहः
+row2#!n1#!वामिनीभूतभूरुहः 
+row3#!n1#!वामिनी-भूत-भूरुह{पुं}{1;एक}/वामिनी-भूत-भूरुह{पुं}{1;बहु}
+row4#!n1#!<a (click)=showDic('वामिनी')>वामिनी</a>-<a (click)=showDic('भूत')>भूत</a>-<a (click)=showDic('भूरुह')>भूरुह</a>{पुं}{1;बहु} 
+row5#!n1#!<a href="javascript:show('कर्तृसमानाधिकरणम्,')">कर्तृसमानाधिकरणम्,8</a>
+row6#!n1#!छोटे पेड़ों_वाले
+row7#!n1#!trees dwarfed
+row8#!n1#!<a href="html/SV-II/SV-63/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-63/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<न-वामन>Tn-<भू-रुह्>U>Bs6</a>#!html/SV-II/SV-63/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!सन्तु.
+row2#!v#!सन्तु 
+row3#!v#!अस्2{कर्तरि;लोट्;प्र;बहु;परस्मैपदी;असँ;अदादिः}. 
+row4#!v#!<a (click)=showDic('अस्2')>अस्2</a>{कर्तरि;लोट्;प्र;बहु;परस्मैपदी;असँ;अदादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!हो_जायें.
+row7#!v#!have.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!पर्यायोक्तिः ।
+row12#!v#!
+
+

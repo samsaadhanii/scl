@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-I/SV-47/47.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-47/47.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">47.A</a>#!html/SV-I/SV-47/47.jpg#!row1#!n8#!नृसिंह
+row2#!number#!47.B</a>#!row2#!n8#!नृसिंह 
+row3#!number#!47.C</a>#!row3#!n8#!नृसिंह{पुं}{8;एक} 
+row4#!number#!47.D</a>#!row4#!n8#!<a (click)=showDic('नृसिंह')>नृसिंह</a>{पुं}{8;एक} 
+row5#!number#!47.E</a>#!row5#!n8#!सम्बोध्य,12
+row6#!number#!47.F</a>#!row6#!n8#!हे नृसिंह!
+row7#!number#!47.G</a>#!row7#!n8#!O Lord!
+row8#!number#!47.H#!row8#!n8#!<a href="html/SV-I/SV-47/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-47/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><नृ-सिंहः>K4</a>#!html/SV-I/SV-47/samaasa1.jpg
+row9#!number#!47.I</a>#!row9#!n8#!
+row10#!number#!47.J</a>#!row10#!n8#!
+row11#!number#!47.K</a>#!row11#!n8#!
+row12#!number#!47.L</a>#!row12#!n8#!
+
+row1#!n2#!अतनुं
+row2#!n2#!अतनुं 
+row3#!n2#!अतनु{पुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('अतनु')>अतनु</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n2#!विस्तीर्ण
+row7#!n2#!the huge
+row8#!n2#!<a href="html/SV-I/SV-47/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-47/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-तनु>Tn</a>#!html/SV-I/SV-47/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!सैंहीं
+row2#!n2#!सैंहीं 
+row3#!n2#!सैंही{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('सैंही')>सैंही</a>{स्त्री}{2;एक} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,4</a>
+row6#!n2#!सिंह_की
+row7#!n2#!a lion
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!तनुं
+row2#!n2#!तनुं 
+row3#!n2#!तनु{पुं}{2;एक}/तनु{स्त्री}{2;एक} 
+row4#!n2#!<a (click)=showDic('तनु')>तनु</a>{स्त्री}{2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,5</a>
+row6#!n2#!शरीर_को 
+row7#!n2#!body of
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n3#!बिभ्रता
+row2#!n3#!बिभ्रता 
+row3#!n3#!बिभ्रत्{नपुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('भृ2')>भृ2</a>{कृत्_प्रत्ययः:शतृ;डुँभृञ्;जुहोत्यादिः;नपुं}{3;एक} 
+row5#!n3#!<a href="javascript:show('समानकालः,')">समानकालः,12</a>
+row6#!n3#!धारण करते_हुए
+row7#!n3#!bearing
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!सटा-छटा-भिन्नघनेन
+row2#!n3#!सटाच्छटाभिन्नघनेन 
+row3#!n3#!सटा-छटा-भिन्नघन{पुं}{3;एक}/भिन्नघन{नपुं}{3;एक} 
+row4#!n3#!<a (click)=showDic('सटा')>सटा</a>-<a (click)=showDic('छटा')>छटा</a>-<a (click)=showDic('भिन्न')>भिन्न</a>-<a (click)=showDic('घन')>घन</a>{पुं}{3;एक}
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n3#!केसरों_के_समूहों_से_मेघ_को_विदीर्ण_करने_वाले
+row7#!n3#!who pierced the clouds with his massive manes
+row8#!n3#!<a href="html/SV-I/SV-47/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-47/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<सटा-<छट-भिन्न>T3>T6-घनः>Bs3</a>#!html/SV-I/SV-47/samaasa3.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!मुग्धकान्तास्तन-सङ्ग-भङ्गुरैः
+row2#!n3#!मुग्धकान्तास्तनसङ्गभङ्गुरैः 
+row3#!n3#!मुग्धकान्तास्तन-सङ्ग-भङ्गुर{पुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('मुग्धकान्तास्तन')>मुग्धकान्तास्तन</a>-<a (click)=showDic('सङ्ग')>सङ्ग</a>-<a (click)=showDic('भङ्गुर')>भङ्गुर</a>{पुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,8</a>
+row6#!n3#!मनोहर कान्ता स्तनद्वय_के_संग_से_टेढ़े
+row7#!n3#!which would bend even by the contact of the sprouting breasts of lovely girls
+row8#!n3#!<a href="html/SV-I/SV-47/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-47/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<मुग्धा-कान्त>K1-स्तन>T6-सङ्ग>T6-भङ्गुरः>T3</a>#!html/SV-I/SV-47/samaasa4.jpg
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!नखैः
+row2#!n3#!नखैः 
+row3#!n3#!नख{पुं}{3;बहु}/नख{नपुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('नख')>नख</a>{पुं}{3;बहु}/नख{नपुं}{3;बहु} 
+row5#!n3#!<a href="javascript:show('करण,')">करण,12</a>
+row6#!n3#!नाखूनों_से 
+row7#!n3#!by the nails
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n3#!त्वया
+row2#!n3#!त्वया 
+row3#!n3#!युष्मद्{3;एक} 
+row4#!n3#!<a (click)=showDic('युष्मद्')>युष्मद्</a>{3;एक} 
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,12</a>
+row6#!n3#!तुमसे 
+row7#!n3#!by you
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!उरोविदारम्
+row2#!NA#!उरोविदारं 
+row3#!NA#!उरस्-विदार{पुं}{2;एक}/{अव्यय}{णमुल्}
+row4#!NA#!<a (click)=showDic('उरोविदारम्')>उरोविदारम्</a>{अव्यय}{णमुल्}
+row5#!NA#!<a href="javascript:show('क्रिया_विशेषणम्,')">क्रिया_विशेषणम्,12</a>
+row6#!NA#!पेट फाड_कर
+row7#!NA#!by tearing the chest
+row8#!NA#!<a href="html/SV-I/SV-47/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-I/SV-47/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><उरस्-विदारम्>U</a>#!html/SV-I/SV-47/samaasa5.jpg
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!‘परिक्लिश्यमाने च’ (3।4।55) इति णमुल्प्रत्ययः ।
+
+row1#!n1#!सः
+row2#!n1#!सः 
+row3#!n1#!तद्{पुं}{1;एक} 
+row4#!n1#!<a (click)=showDic('तद्')>तद्</a>{पुं}{1;एक} 
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,12</a>
+row6#!n1#!उस (हिरण्यकशिपु_का)
+row7#!n1#!he
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!प्रतिचस्करे.
+row2#!v#!प्रतिचस्करे 
+row3#!v#!प्रति-कृ2{कर्मणि;लिट्;प्र;बहु;कृञ्;स्वादिः}
+row4#!v#!<a (click)=showDic('प्रति')>प्रति</a>-<a (click)=showDic('कृ2')>कृ2</a>{कर्मणि;लिट्;प्र;बहु;कृञ्;स्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!वध_किया.
+row7#!v#!was killed.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!वंशस्थम् ।
+row11#!v#!-
+row12#!v#!किरतेः कर्मणि लिट् । ‘ऋच्छत्यृताम्’ (7।4।11) इति गुणः । ‘हिंसायां प्रतेश्च’ (6।1।141) इति सुडागमः ।
+
+

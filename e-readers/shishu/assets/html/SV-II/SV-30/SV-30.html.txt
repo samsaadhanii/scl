@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-II/SV-30/30.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-30/30.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">30.A</a>#!html/SV-II/SV-30/30.jpg#!row1#!n1#!आत्मोदयः
+row2#!number#!30.B</a>#!row2#!n1#!आत्मोदयः 
+row3#!number#!30.C</a>#!row3#!n1#!आत्मोदय{पुं}{1;एक} 
+row4#!number#!30.D</a>#!row4#!n1#!<a (click)=showDic('आत्मोदय')>आत्मोदय</a>{पुं}{1;एक} 
+row5#!number#!30.E</a>#!row5#!n1#!सम्बन्धः,3
+row6#!number#!30.F</a>#!row6#!n1#!अपनी उन्नति
+row7#!number#!30.G</a>#!row7#!n1#!Aggrandisement of self
+row8#!number#!30.H#!row8#!n1#!<a href="html/SV-II/SV-30/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-30/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><आत्मा-उदयः>T6</a>#!html/SV-II/SV-30/samaasa1.jpg
+row9#!number#!30.I</a>#!row9#!n1#!
+row10#!number#!30.J</a>#!row10#!n1#!
+row11#!number#!30.K</a>#!row11#!n1#!
+row12#!number#!30.L</a>#!row12#!n1#!
+
+row1#!n1#!पर-ज्यानिः
+row2#!n1#!परज्यानिः
+row3#!n1#!पर-ज्यानि{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('पर')>पर</a>-<a (click)=showDic('ज्यानि')>ज्यानि</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,3</a>
+row6#!n1#!शत्रु_की_हानि
+row7#!n1#!downfall of the foe
+row8#!n1#!<a href="html/SV-II/SV-30/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-II/SV-30/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><पर-ज्यानिः>T6</a>#!html/SV-II/SV-30/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘वीज्याज्वरियो निः’ (उ० 488) इत्यौणादिको निः प्रत्ययः ।
+
+row1#!NA#!इति
+row2#!NA#!इति 
+row3#!NA#!इति{अव्य} 
+row4#!NA#!<a (click)=showDic('इति')>इति</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,4</a>
+row6#!NA#!ऐसा 
+row7#!NA#!thus
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!द्वयम्
+row2#!n1#!द्वयम् 
+row3#!n1#!द्वय{नपुं}{1;एक}/द्वय{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('द्वय')>द्वय</a>{नपुं}{1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,7</a>
+row6#!n1#!दो
+row7#!n1#!these two
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!इयती
+row2#!n1#!इयती 
+row3#!n1#!इयती{स्त्री}{1;एक} 
+row4#!n1#!<a (click)=showDic('इयती')>इयती</a>{स्त्री}{1;एक} 
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,6</a>
+row6#!n1#!इतनी_ही
+row7#!n1#!is what
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘किमिदम्भ्यां वो धः’ (5।2।40) इति वतुपो वस्य धश्च । ‘उगितश्च’ (4।1।6) इति ङिप् ।
+
+row1#!n1#!नीतिः
+row2#!n1#!नीतिः
+row3#!n1#!नीति{स्त्री}{1;एक}. 
+row4#!n1#!<a (click)=showDic('नीति')>नीति</a>{स्त्री}{1;एक}. 
+row5#!n1#!<a href="javascript:show('कर्तृसमानाधिकरण,')">कर्तृसमानाधिकरण,7</a>
+row6#!n1#!राजनीति
+row7#!n1#!polity
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!v#!(अस्ति)
+row2#!v#!अस्ति
+row3#!v#!अस्2{कर्तरि;लट्;प्र;एक;परस्मैपदी;असँ;अदादिः}
+row4#!v#!<a (click)=showDic('अस्2')>अस्2</a>{कर्तरि;लट्;प्र;एक;परस्मैपदी;असँ;अदादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!है
+row7#!v#!there
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!
+row11#!v#!
+row12#!v#!
+
+row1#!n2#!तत्
+row2#!n2#!तत् 
+row3#!n2#!तद्{नपुं}{1;एक}/तद्{नपुं}{2;एक} 
+row4#!n2#!<a (click)=showDic('तद्')>तद्</a>{नपुं}{2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,9</a>
+row6#!n2#!वह 
+row7#!n2#!that
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!ऊरीकृत्य
+row2#!NA#!ऊरीकृत्य 
+row3#!NA#!ऊरी_कृ2{कृत्_प्रत्ययः:ल्यप्;कृञ्;स्वादिः}/ऊरी_कृ3{कृत्_प्रत्ययः:ल्यप्;डुकृञ्;तनादिः} 
+row4#!NA#!<a (click)=showDic('ऊरी_कृ2')>ऊरी_कृ2</a>{कृत्_प्रत्ययः:ल्यप्;कृञ्;स्वादिः}
+row5#!NA#!<a href="javascript:show('पूर्वकालः,')">पूर्वकालः,11</a>
+row6#!NA#!स्वीकार_कर
+row7#!NA#!holding
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!‘ऊर्यादिच्विडाचश्च’ (1।4।61) इति गतिसंज्ञायां ‘कुगतिप्रदयः’ (2।2।18) इति समासे क्त्वो ल्यप् ।
+
+row1#!n3#!कृतिभिः
+row2#!n3#!कृतिभिः 
+row3#!n3#!कृति{स्त्री}{3;बहु}/कृतिन्{पुं}{3;बहु} 
+row4#!n3#!<a (click)=showDic('कृति')>कृति</a>{स्त्री}{3;बहु}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,11</a>
+row6#!n3#!कुशल पुरुष
+row7#!n3#!learned
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!वाचस्पत्यं
+row2#!n1#!वाचस्पत्यं 
+row3#!n1#!वाचस्पत्य{नपुं}{1;एक}/वाचस्पत्य{नपुं}{2;एक} 
+row4#!n1#!<a (click)=showDic('वाचस्पत्य')>वाचस्पत्य</a>{नपुं}{1;एक}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,11</a>
+row6#!n1#!वाग्मिता_का
+row7#!n1#!disquisitions
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘षष्ठ्याः पतिपुत्र-’ (8।3।53) इत्यादिना सत्वमिति स्वामी तन्न । तस्य छन्दोविषयत्वात् ।
+
+row1#!v#!प्रतायते.
+row2#!v#!प्रतायते 
+row3#!v#!प्र_तन्1{कर्मणि;लट्;प्र;एक;आत्मनेपदी;तनुँ;तनादिः}. 
+row4#!v#!<a (click)=showDic('प्र_तन्1')>प्र_तन्1</a>{कर्मणि;लट्;प्र;एक;आत्मनेपदी;तनुँ;तनादिः}.
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!विस्तार_करते_हैं.
+row7#!v#!are diffused.
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!अनुष्टुप् ।
+row11#!v#!-
+row12#!v#!‘तनोतेर्यकि’ (6।4।44) इत्यात्त्वम् ।
+
+

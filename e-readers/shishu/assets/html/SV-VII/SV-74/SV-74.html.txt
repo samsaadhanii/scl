@@ -1,0 +1,209 @@
+row1#!number#!<a href="html/SV-VII/SV-74/74.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-74/74.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">74.A</a>#!html/SV-VII/SV-74/74.jpg#!row1#!n6#!युवति-सरितां
+row2#!number#!74.B</a>#!row2#!n6#!युवति-सरितां
+row3#!number#!74.C</a>#!row3#!n6#!युवति-सरित्{स्त्री;6;बहु}
+row4#!number#!74.D</a>#!row4#!n6#!<a (click)=showDic('युवति')>युवति</a>-<a (click)=showDic('सरित्')>सरित्</a>{स्त्री;6;बहु}
+row5#!number#!74.E</a>#!row5#!n6#!षष्ठीसम्बन्धः,2
+row6#!number#!74.F</a>#!row6#!n6#!युवतिरूपिणी नदियों का
+row7#!number#!74.G</a>#!row7#!n6#!of women who were in the form of rivers
+row8#!number#!74.H#!row8#!n6#!<a href="html/SV-VII/SV-74/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-74/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><युवति-सरित्>K6</a>#!html/SV-VII/SV-74/samaasa1.jpg
+row9#!number#!74.I</a>#!row9#!n6#!
+row10#!number#!74.J</a>#!row10#!n6#!
+row11#!number#!74.K</a>#!row11#!n6#!
+row12#!number#!74.L</a>#!row12#!n6#!
+
+row1#!n1#!स्वेद-आपूरः
+row2#!n1#!स्वेद-आपूरः
+row3#!n1#!स्वेद-आपूर{पुं;1;एक}
+row4#!n1#!<a (click)=showDic('स्वेद')>स्वेद</a>-<a (click)=showDic('आपूर')>आपूर</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,16</a>
+row6#!n1#!स्वेद-प्रवाह
+row7#!n1#!flow of sweat
+row8#!n1#!<a href="html/SV-VII/SV-74/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-74/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><स्वेद-आपूरः>K6</a>#!html/SV-VII/SV-74/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n7#!जघन-पुलिने
+row2#!n7#!जघन-पुलिने
+row3#!n7#!जघन-पुलिन{नपुं;1;द्वि}/पुलिन{नपुं;2;द्वि}/पुलिन{नपुं;8;द्वि}/पुलिन{नपुं;7;एक}
+row4#!n7#!<a (click)=showDic('जघन')>जघन</a>-<a (click)=showDic('पुलिन')>पुलिन</a>{नपुं;7;एक}
+row5#!n7#!<a href="javascript:show('अधिकरणम्,')">अधिकरणम्,5</a>
+row6#!n7#!जघनस्थलरूपीतटप्रदेश में
+row7#!n7#!at hips of river banks
+row8#!n7#!<a href="html/SV-VII/SV-74/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-74/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><जघन-पुलिनम्>K6</a>#!html/SV-VII/SV-74/samaasa3.jpg
+row9#!n7#!
+row10#!n7#!
+row11#!n7#!
+row12#!n7#!
+
+row1#!n2#!उद्रेकं
+row2#!n2#!उद्रेकं
+row3#!n2#!उद्रेक{पुं;2;एक}
+row4#!n2#!<a (click)=showDic('उद्रेक')>उद्रेक</a>{पुं;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,5</a>
+row6#!n2#!उद्रेक_को
+row7#!n2#!force
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!गत्त्वा
+row2#!NA#!गत्त्वा
+row3#!NA#!गम्1{अव्य;क्त्वा;गमॢँ;भ्वादिः}
+row4#!NA#!<a (click)=showDic('गम्1')>गम्1</a>{अव्य;क्त्वा;गमॢँ;भ्वादिः}
+row5#!NA#!<a href="javascript:show('पूर्वकाल,')">पूर्वकाल,16</a>
+row6#!NA#!प्राप्त_कर
+row7#!NA#!having obtained
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!रुद्धमध्य-प्रदेशः
+row2#!n1#!रुद्धमध्य-प्रदेशः
+row3#!n1#!रुद्धमध्य-प्रदेश{पुं;1;एक}
+row4#!n1#!<a (click)=showDic('रुद्धमध्य')>रुद्धमध्य</a>-<a (click)=showDic('प्रदेश')>प्रदेश</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,7</a>
+row6#!n1#!मध्यप्रदेश-कटिभाग पर
+row7#!n1#!while spreading around waist
+row8#!n1#!<a href="html/SV-VII/SV-74/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-74/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><रुद्ध-मध्यप्रदेशः>Bs3</a>#!html/SV-VII/SV-74/samaasa4.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!क्रामन्
+row2#!n1#!क्रामन्
+row3#!n1#!क्रामत्{पुं;1;एक}/क्रामत्{पुं;8;एक}
+row4#!n1#!<a (click)=showDic('क्रम्1')>क्रम्1</a>{शतृ_लट्;क्रमुँ;भ्वादिः;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('समानकाल,')">समानकाल,16</a>
+row6#!n1#!पार_करते_हुए
+row7#!n1#!while crossing
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!ऊरुद्रुमभुज-लताः
+row2#!n1#!ऊरुद्रुमभुज-लताः
+row3#!n1#!ऊरुद्रुमभुज-लता{स्त्री;1;बहु}/लता{स्त्री;2;बहु}/लता{स्त्री;8;बहु}
+row4#!n1#!<a (click)=showDic('ऊरुद्रुमभुज')>ऊरुद्रुमभुज</a>-<a (click)=showDic('लता')>लता</a>{स्त्री;1;बहु}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n1#!ऊरुरूपी द्रुम और लताओं को
+row7#!n1#!thighs of trees and creepers
+row8#!n1#!<a href="html/SV-VII/SV-74/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-74/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><ऊरु-<द्रुम-भुजलता>Di>K6</a>#!html/SV-VII/SV-74/samaasa5.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!पूर्णनाभी-हृद-अन्तः
+row2#!n1#!पूर्णनाभी-हृद-अन्तः
+row3#!n1#!पूर्णनाभी-हृद-अन्तः{अव्य}/अन्त{पुं;1;एक}
+row4#!n1#!<a (click)=showDic('पूर्णनाभी')>पूर्णनाभी</a>-<a (click)=showDic('हृद')>हृद</a>-<a (click)=showDic('अन्त')>अन्त</a>{पुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्ता,')">कर्ता,12</a>
+row6#!n1#!नाभिरूपी तड़ाग के मध्य भाग को
+row7#!n1#!having immersed the centre part i.e. navel part
+row8#!n1#!<a href="html/SV-VII/SV-74/samaasa6.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-74/samaasa6.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><पूर्ण-<नाभी-हृदान्तः>K6>K3</a>#!html/SV-VII/SV-74/samaasa6.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!‘वा दान्त०’ (7।2।27) इत्यादिना णिलुगिट् प्रतिषेधनिपातः ।
+
+row1#!NA#!उच्चैः
+row2#!NA#!उच्चैः
+row3#!NA#!उच्चैः{अव्य}/उच्च{पुं;3;बहु}/उच्च{नपुं;3;बहु}
+row4#!NA#!<a (click)=showDic('उच्चैः')>उच्चैः</a>{अव्य}
+row5#!NA#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,11</a>
+row6#!NA#!ऊँचे
+row7#!NA#!high
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!कुचतट-भुवम्
+row2#!n2#!कुचतट-भुवम्
+row3#!n2#!कुचतट-भू{स्त्री;2;एक}
+row4#!n2#!<a (click)=showDic('कुचतट')>कुचतट</a>-<a (click)=showDic('भू')>भू</a>{स्त्री;2;एक}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,12</a>
+row6#!n2#!स्तनरूपी दोनों तटप्रदेश को
+row7#!n2#!two huge breasts of river banks
+row8#!n2#!<a href="html/SV-VII/SV-74/samaasa7.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-74/samaasa7.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<कुच-तट>K6-भूः>T6</a>#!html/SV-VII/SV-74/samaasa7.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!उल्लङ्घ्य
+row2#!NA#!उल्लङ्घ्य
+row3#!NA#!उद्_लङ्घ्1{अव्य;ल्यप्;लघिँ;भ्वादिः}/उद्_लङ्घ्2{अव्य;ल्यप्;लघिँ;भ्वादिः}/उद्_लङ्घ्3{अव्य;ल्यप्;लघिँ;चुरादिः}
+row4#!NA#!<a (click)=showDic('उद्_लङ्घ्1')>उद्_लङ्घ्1</a>{अव्य;ल्यप्;लघिँ;भ्वादिः}
+row5#!NA#!<a href="javascript:show('पूर्वकाल,')">पूर्वकाल,16</a>
+row6#!NA#!लाँघ_कर
+row7#!NA#!after trespassing
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n2#!रोम-कूपान्
+row2#!n2#!रोम-कूपान्
+row3#!n2#!रोम-कूप{पुं;2;बहु}
+row4#!n2#!<a (click)=showDic('रोम')>रोम</a>-<a (click)=showDic('कूप')>कूप</a>{पुं;2;बहु}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,14</a>
+row6#!n2#!रोमछिद्रों_को
+row7#!n2#!the pores of hair in the form of wells
+row8#!n2#!<a href="html/SV-VII/SV-74/samaasa8.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-VII/SV-74/samaasa8.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><रोम-कूपः>K6</a>#!html/SV-VII/SV-74/samaasa8.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n1#!प्लावयन्
+row2#!n1#!प्लावयन्
+row3#!n1#!प्लावयन्}
+row4#!n1#!<a (click)=showDic('प्लु1_णिच्')>प्लु1_णिच्</a>{शतृ_लट्;प्लुङ्;भ्वादिः;पुं;1;एक}
+row5#!n1#!<a href="javascript:show('समानकाल,')">समानकाल,16</a>
+row6#!n1#!आपूर्ण_करता_हुआ
+row7#!n1#!while filling
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n2#!गण्ड-स्थलानि
+row2#!n2#!गण्ड-स्थलानि
+row3#!n2#!गण्ड-स्थल{नपुं;1;बहु}/स्थल{नपुं;2;बहु}/स्थल{नपुं;8;बहु}
+row4#!n2#!<a (click)=showDic('गण्ड')>गण्ड</a>-<a (click)=showDic('स्थल')>स्थल</a>{नपुं;2;बहु}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,16</a>
+row6#!n2#!कपोलभागों_पर
+row7#!n2#!at temples
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!व्याप
+row2#!v#!व्याप
+row3#!v#!वि_आप्1{कर्तरि;लिट्;म;बहु;परस्मैपदी;आपॢँ;स्वादिः}/वि_आप्1{कर्तरि;लिट्;उ;एक;परस्मैपदी;आपॢँ;स्वादिः}/वि_आप्1{कर्तरि;लिट्;प्र;एक;परस्मैपदी;आपॢँ;स्वादिः}/व्याप{पुं;8;एक}
+row4#!v#!<a (click)=showDic('वि_आप्1')>वि_आप्1</a>{कर्तरि;लिट्;प्र;एक;परस्मैपदी;आपॢँ;स्वादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!विस्तार_से_फैल_गया.
+row7#!v#!had spread extensively.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!मन्दाक्रान्ता ।
+row11#!v#!रूपकम् + श्लेषः = सङ्करः ।
+row12#!v#!
+
+

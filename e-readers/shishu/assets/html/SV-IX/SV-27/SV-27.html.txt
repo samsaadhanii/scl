@@ -1,0 +1,157 @@
+row1#!number#!<a href="html/SV-IX/SV-27/27.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-27/27.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">27.A</a>#!html/SV-IX/SV-27/27.jpg#!row1#!NA#!पुरः
+row2#!number#!27.B</a>#!row2#!NA#!पुरः
+row3#!number#!27.C</a>#!row3#!NA#!पुरः{अव्य}/पुर्{;स्त्री;1;बहु}/पुर्{;स्त्री;2;बहु}/पुर्{;स्त्री;5;एक}/पुर्{;स्त्री;6;एक}/पुर्{;स्त्री;8;बहु}
+row4#!number#!27.D</a>#!row4#!NA#!<a (click)=showDic('पुरः')>पुरः</a>{अव्य}
+row5#!number#!27.E</a>#!row5#!NA#!अधिकरणम्,12
+row6#!number#!27.F</a>#!row6#!NA#!पूर्व दिशा में (सामने)
+row7#!number#!27.G</a>#!row7#!NA#!In the forefront of the eastern direction
+row8#!number#!27.H#!row8#!NA#!
+row9#!number#!27.I</a>#!row9#!NA#!
+row10#!number#!27.J</a>#!row10#!NA#!
+row11#!number#!27.K</a>#!row11#!NA#!
+row12#!number#!27.L</a>#!row12#!NA#!
+
+row1#!n6#!तुषार-किरणस्य
+row2#!n6#!तुषार-किरणस्य
+row3#!n6#!तुषार-किरण{;पुं;6;एक}/किरण{;नपुं;6;एक}
+row4#!n6#!<a (click)=showDic('तुषार')>तुषार</a>-<a (click)=showDic('किरण')>किरण</a>{;पुं;6;एक}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,3</a>
+row6#!n6#!चन्द्रमा की
+row7#!n6#!of the moon
+row8#!n6#!<a href="html/SV-IX/SV-27/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-27/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><तुषार-किरणः>T6</a>#!html/SV-IX/SV-27/samaasa1.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n3#!कलया
+row2#!n3#!कलया
+row3#!n3#!कला{;स्त्री;3;एक}
+row4#!n3#!<a (click)=showDic('कला')>कला</a>{;स्त्री;3;एक}
+row5#!n3#!<a href="javascript:show('करणम्,')">करणम्,12</a>
+row6#!n3#!किरण से
+row7#!n3#!by the ray
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!n1#!परिमन्दभिन्नतिमिरौघ-जटं
+row2#!n1#!परिमन्दभिन्नतिमिरौघ-जटं
+row3#!n1#!परिमन्दभिन्नतिमिरौघ-जट{;पुं;2;एक}
+row4#!n1#!<a (click)=showDic('परिमन्दभिन्नतिमिरौघ')>परिमन्दभिन्नतिमिरौघ</a>-<a (click)=showDic('जट')>जट</a>{;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,5</a>
+row6#!n1#!अल्प मात्रा में विदीर्ण गये अन्धकाररूपी जटावाले
+row7#!n1#!which was appearing as if it was dreadlocked with hairs of darkness
+row8#!n1#!<a href="html/SV-IX/SV-27/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-27/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<परिमन्द-भिन्न>U-<तिमिर-औघ>T6>K3-जटम्>Bs6</a>#!html/SV-IX/SV-27/samaasa2.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!n1#!गगनं
+row2#!n1#!गगनं
+row3#!n1#!गगन{;नपुं;1;एक}/गगन{;नपुं;2;एक}
+row4#!n1#!<a (click)=showDic('गगन')>गगन</a>{;नपुं;1;एक}
+row5#!n1#!<a href="javascript:show('कर्म,')">कर्म,12</a>
+row6#!n1#!आकाश_को
+row7#!n1#!the sky
+row8#!n1#!-
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!न
+row2#!NA#!न
+row3#!NA#!न{अव्य}
+row4#!NA#!<a (click)=showDic('न')>न</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,7</a>
+row6#!NA#!नहीं
+row7#!NA#!not
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!NA#!मृषा
+row2#!NA#!मृषा
+row3#!NA#!मृषा{अव्य}
+row4#!NA#!<a (click)=showDic('मृषा')>मृषा</a>{अव्य}
+row5#!NA#!<a href="javascript:show('सम्बन्धः,')">सम्बन्धः,12</a>
+row6#!NA#!झूठ
+row7#!NA#!untruth
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n1#!गणाधिपतिमूर्तिः
+row2#!n1#!गणाधिपति-मूर्तिः
+row3#!n1#!गणाधिपति-मूर्तिः}
+row4#!n1#!<a (click)=showDic('गणाधिपति')>गणाधिपति</a>-<a (click)=showDic('मूर्ति')>मूर्ति</a>{स्त्री;1;एक}
+row5#!n1#!<a href="javascript:show('प्रतियोगी,')">प्रतियोगी,9</a>
+row6#!n1#!गणों के नायक (शिवजी) की मूर्ति है
+row7#!n1#!Which was appearing as Lord of Pramathas i.e., Lord Śiva
+row8#!n1#!<a href="html/SV-IX/SV-27/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IX/SV-27/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<गण-अधिपति>T6-मूर्तिः>T6</a>#!html/SV-IX/SV-27/samaasa3.jpg
+row9#!n1#!
+row10#!n1#!
+row11#!n1#!
+row12#!n1#!
+
+row1#!NA#!इति
+row2#!NA#!इति
+row3#!NA#!इति{अव्य}
+row4#!NA#!<a (click)=showDic('इति')>इति</a>{अव्य}
+row5#!NA#!<a href="javascript:show('अनुयोगी,')">अनुयोगी,10</a>
+row6#!NA#!ऐसा
+row7#!NA#!thus
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n3#!जनैः
+row2#!n3#!जनैः
+row3#!n3#!जन{;पुं;3;बहु}
+row4#!n3#!<a (click)=showDic('जन')>जन</a>{;पुं;3;बहु}
+row5#!n3#!<a href="javascript:show('कर्ता,')">कर्ता,12</a>
+row6#!n3#!जनता_ने
+row7#!n3#!people
+row8#!n3#!-
+row9#!n3#!
+row10#!n3#!
+row11#!n3#!
+row12#!n3#!
+
+row1#!NA#!क्षणम्
+row2#!NA#!क्षणम्
+row3#!NA#!क्षण{;पुं;2;एक}/क्षण{;नपुं;1;एक}/क्षण{;नपुं;2;एक}
+row4#!NA#!<a (click)=showDic('क्षण')>क्षण</a>{अव्य}
+row5#!NA#!<a href="javascript:show('क्रिया-विशेषणम्,')">क्रिया-विशेषणम्,12</a>
+row6#!NA#!क्षणभर
+row7#!NA#!for a moment
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!v#!अभि-अपद्यत
+row2#!v#!अभि-अपद्यत
+row3#!v#!अभि-पद्1{कर्तरि;लङ्;प्र;एक;आत्मनेपदी;पदँ;दिवादिः}/पद्1{कर्मणि;लङ्;प्र;एक;आत्मनेपदी;पदँ;दिवादिः}/पद्2{कर्मणि;लङ्;प्र;एक;आत्मनेपदी;पद;चुरादिः}
+row4#!v#!<a (click)=showDic('अभि')>अभि</a>-<a (click)=showDic('पद्1')>पद्1</a>{कर्मणि;लङ्;प्र;एक;आत्मनेपदी;पदँ;दिवादिः}
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!समझा
+row7#!v#!understood
+row8#!v#!-
+row9#!v#!कर्मणि
+row10#!v#!प्रमिताक्षरा ।
+row11#!v#!रूपकम् ।
+row12#!v#!
+
+

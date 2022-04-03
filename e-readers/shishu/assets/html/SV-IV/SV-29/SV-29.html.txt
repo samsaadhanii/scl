@@ -1,0 +1,131 @@
+row1#!number#!<a href="html/SV-IV/SV-29/29.jpg"  target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-29/29.jpg></center>',FONTSIZE,'18pt',HEIGHT,400,STICKY,true,CLOSEBTN,true) ">29.A</a>#!html/SV-IV/SV-29/29.jpg#!row1#!n1#!अयम्
+row2#!number#!29.B</a>#!row2#!n1#!अयम् 
+row3#!number#!29.C</a>#!row3#!n1#!इदम्{पुं}{1;एक}/अय{पुं}{2;एक} 
+row4#!number#!29.D</a>#!row4#!n1#!<a (click)=showDic('इदम्')>इदम्</a>{पुं}{1;एक} 
+row5#!number#!29.E</a>#!row5#!n1#!कर्ता,10
+row6#!number#!29.F</a>#!row6#!n1#!यह (रैवतक पर्वत)
+row7#!number#!29.G</a>#!row7#!n1#!This (Raivataka mountain)
+row8#!number#!29.H#!row8#!n1#!
+row9#!number#!29.I</a>#!row9#!n1#!
+row10#!number#!29.J</a>#!row10#!n1#!
+row11#!number#!29.K</a>#!row11#!n1#!
+row12#!number#!29.L</a>#!row12#!n1#!
+
+row1#!n2#!अति-जरठाः
+row2#!n2#!अति-जरठाः 
+row3#!n2#!अति-जरठ{पुं}{1;बहु}/जरठा{स्त्री}{1;बहु}/जरठा{स्त्री}{2;बहु} 
+row4#!n2#!<a (click)=showDic('अति')>अति</a>-<a (click)=showDic('जरठा')>जरठा</a>{स्त्री}{2;बहु} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n2#!(i) अत्यन्त कठोर (ii) अत्यन्त बूढ़ी
+row7#!n2#!(i) that are very hard (ii) old
+row8#!n2#!<a href="html/SV-IV/SV-29/samaasa1.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-29/samaasa1.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><अति-जरठा>Bvp</a>#!html/SV-IV/SV-29/samaasa1.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!प्रकाम-गुर्वीः
+row2#!n2#!प्रकाम-गुर्वीः 
+row3#!n2#!प्रकाम-गुर्वी{स्त्री}{2;बहु} 
+row4#!n2#!<a (click)=showDic('प्रकाम')>प्रकाम</a>-<a (click)=showDic('गुर्वी')>गुर्वी</a>{स्त्री}{2;बहु} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n2#!(i) अत्यन्त उन्नत (ii) अत्यन्त मोटी
+row7#!n2#!(i) exceedingly large (ii) exceedingly heavy on account of fatness
+row8#!n2#!<a href="html/SV-IV/SV-29/samaasa2.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-29/samaasa2.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><प्रकाम-गुर्वी>Tm</a>#!html/SV-IV/SV-29/samaasa2.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!विस्पष्टपटुवत् 'मयूरव्यंसकादयश्च' (2।1।72) इति समासः ।
+
+row1#!n2#!अलघु-विलम्बि-पयोधर-उपरुद्धाः
+row2#!n2#!अलघु-विलम्बि-पयोधर-उपरुद्धाः 
+row3#!n2#!अलघु-विलम्बिन्-पयोधर-उपरुद्ध{पुं}{1;बहु}/उपरुद्धा{स्त्री}{1;बहु}/उपरुद्धा{स्त्री}{2;बहु} 
+row4#!n2#!<a (click)=showDic('अलघु')>अलघु</a>-<a (click)=showDic('विलम्बिन्')>विलम्बिन्</a>-<a (click)=showDic('पयोधर')>पयोधर</a>-<a (click)=showDic('उपरुद्ध')>उपरुद्ध</a>{स्त्री}{2;बहु} 
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n2#!(i) अत्यन्त नीचे लटकते हुए मेघों_से_घिरी_हुई (ii) वृद्धावस्था_के_कारण बहुत नीचे लटकते_हुए_स्तनोंवाली
+row7#!n2#!(i) that are covered with large and hanging clouds (ii) who are impeded by large and hanging breasts
+row8#!n2#!<a href="html/SV-IV/SV-29/samaasa3.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-29/samaasa3.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<<<न-लघु>Tn-विलम्बि>K1-पयोधर>K1-उपरुद्धा>T3</a>#!html/SV-IV/SV-29/samaasa3.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!NA#!सततम्
+row2#!NA#!सततम् 
+row3#!NA#!सततम्{अव्य}/सतत{पुं}{2;एक}/सतत{नपुं}{1;एक}/सतत{नपुं}{2;एक} 
+row4#!NA#!<a (click)=showDic('सततम्')>सततम्</a>{अव्य} 
+row5#!NA#!<a href="javascript:show('क्रियाविशेषणम्,')">क्रियाविशेषणम्,10</a>
+row6#!NA#!सर्वदा
+row7#!NA#!that are always
+row8#!NA#!-
+row9#!NA#!
+row10#!NA#!
+row11#!NA#!
+row12#!NA#!
+
+row1#!n6#!असुमताम्
+row2#!n6#!असुमताम् 
+row3#!n6#!असुमत्{पुं}{6;बहु}/असुमत्{नपुं}{6;बहु} 
+row4#!n6#!<a (click)=showDic('असुमत्')>असुमत्</a>{पुं}{6;बहु}
+row5#!n6#!<a href="javascript:show('षष्ठीसम्बन्धः,')">षष्ठीसम्बन्धः,9</a>
+row6#!n6#!(i) जीवधारियों_से (ii) अत्यन्त वृद्धा होने_से_दीर्घजीवनेच्छुक पुरुषों_के_द्वारा_सम्भोग_करने_के
+row7#!n6#!to living beings (whose) bodies are always unfit to be approached
+row8#!n6#!<a href="html/SV-IV/SV-29/samaasa4.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-29/samaasa4.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><न-सुमत्>Tn</a>#!html/SV-IV/SV-29/samaasa4.jpg
+row9#!n6#!
+row10#!n6#!
+row11#!n6#!
+row12#!n6#!
+
+row1#!n2#!अगम्य-रूपाः
+row2#!n2#!अगम्य-रूपाः 
+row3#!n2#!अगम्य-रूप{पुं}{1;बहु} 
+row4#!n2#!<a (click)=showDic('अगम्य')>अगम्य</a>-<a (click)=showDic('रूप')>रूप</a>{स्त्री}{2;बहु}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n2#!(i) अगम्य (ii) अयोग्य
+row7#!n2#!inaccessible
+row8#!n2#!<a href="html/SV-IV/SV-29/samaasa5.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-29/samaasa5.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><<न-गम्य>Tn-रूपा>Bs6</a>#!html/SV-IV/SV-29/samaasa5.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!n2#!परिणत-दिक्करिकाः
+row2#!n2#!परिणत-दिक्करिकाः
+row3#!n2#!परिणत-दिक्करिक{पुं}{1;बहु}/दिक्करिका{स्त्री}{1;बहु}/दिक्करिका{स्त्री}{2;बहु} 
+row4#!n2#!<a (click)=showDic('परिणत')>परिणत</a>-<a (click)=showDic('दिक्करिका')>दिक्करिका</a>{स्त्री}{2;बहु}
+row5#!n2#!<a href="javascript:show('विशेषणम्,')">विशेषणम्,9</a>
+row6#!n2#!(i) हाथियों_ने_जिनमें_दाँतों_से_प्रहार तटियों_को (ii) पुरुषकृत नख-दन्त-क्षतादि-जिसके-पक-गये-हैं_ऐसी
+row7#!n2#!(and) (i) that have on them the elephants of the quarters who give side-blown with their tusks (ii) who have the marks of bites and wounds by finger-nails turned into scars
+row8#!n2#!<a href="html/SV-IV/SV-29/samaasa6.jpg"   target="_blank" onmouseout="UnTip()" onmouseover="Tip('<center><img src=html/SV-IV/SV-29/samaasa6.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) "><परिणत-दिक्करिका>Bs7</a>#!html/SV-IV/SV-29/samaasa6.jpg
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!'इनः स्त्रियाम्' (5।1।152) इति समासान्तः कप्प्रत्ययः ।
+
+row1#!n2#!तटीः
+row2#!n2#!तटीः 
+row3#!n2#!तटी{स्त्री}{2;बहु} 
+row4#!n2#!<a (click)=showDic('तटी')>तटी</a>{स्त्री}{2;बहु}
+row5#!n2#!<a href="javascript:show('कर्म,')">कर्म,10</a>
+row6#!n2#!किनारों_को (वृद्धस्त्रियों_के_समान)
+row7#!n2#!
+row8#!n2#!-
+row9#!n2#!
+row10#!n2#!
+row11#!n2#!
+row12#!n2#!
+
+row1#!v#!बिभर्ति.
+row2#!v#!बिभर्ति 
+row3#!v#!भृ2{कर्तरि;लट्;प्र;एक;परस्मैपदी;डुभृञ्;जुहोत्यादिः}. 
+row4#!v#!<a (click)=showDic('भृ2')>भृ2</a>{कर्तरि;लट्;प्र;एक;परस्मैपदी;डुभृञ्;जुहोत्यादिः}. 
+row5#!v#!<a href="javascript:show('')">0</a>
+row6#!v#!धारण_कर_रहा_है. 
+row7#!v#!bears.
+row8#!v#!-
+row9#!v#!कर्तरि
+row10#!v#!पुष्पिताग्रा ।
+row11#!v#!समासोक्तिः ।
+row12#!v#!
+
+
