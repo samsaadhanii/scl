@@ -20,8 +20,12 @@ LTPROCBIN=/usr/bin/lt-proc
 #Paths for webdot.pl
 GraphvizDot=/usr/bin/dot
 
+#Path for PYTHON
+MYPYTHONPATH=/usr/bin/python3
+
 #Heritage installation path (for interface)
 HERITAGE_CGIURL=/cgi-bin/SKT/sktgraph
+#SCL_CGIURL=/cgi-bin/scl
 
 #Path for temporary files
 TFPATH=/tmp/SKT_TEMP

@@ -1,8 +1,8 @@
 #Path for ZEN Library
-ZENDIR=/Users/huet/ML/ZEN/Zen/ML/
+ZENDIR=/Users/ambakulkarni/amba/SKT/zen/ML/
 
 #Path for installation of all package. 
-SCLINSTALLDIR=/Users/huet/Sanskrit/SCL
+SCLINSTALLDIR=/Users/ambakulkarni/amba/scl
 
 #Paths for enabling web services
 HTDOCSDIR=/Library/WebServer/Documents
@@ -17,8 +17,8 @@ JAVAPATH=/usr/bin/javac
 #Path of lt-proc
 LTPROCBIN=/usr/local/bin/lt-proc
 
-#Paths for webdot.pl
-GraphvizDot=/usr/local/bin/dot
+#Paths for DOT
+GraphvizDot=/opt/local/bin/dot
 
 #Path for PYTHON
 MYPYTHONPATH=/opt/homebrew/bin/python3
@@ -32,7 +32,7 @@ TFPATH=/private/tmp/SKT_TEMP
 
 #Version SERVER/STANDALONE
 VERSION=STANDALONE
-LOG=false
+LOG=true
 
 #TIMEOUT with SIGTERM signal
 #TIMEOUT="timeout -15 3m"
