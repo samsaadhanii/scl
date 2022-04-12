@@ -3717,14 +3717,14 @@ value rlBAvalakRaNa_sapwamI2 m1 m2 text_type = match m2 with
      if  prose_order id1 id2 text_type 
            && no_boundary_crossing id1 id2 text_type
      then if viBakwiH1=viBakwiH2 
-        && (viBakwiH1=7 || viBakwiH1=6)
-        && (kqw2="Sawq_lat" || kqw2="SAnac_lat" || kqw2="kwa" || kqw2="kwavawu")
-     then [ Relation (id1,mid1,"karwA",id2,mid2,"44.1") 
-          ]
-     else if viBakwiH1=2
-        && (kqw2="kwa" || kqw2="kwavawu")
-     then [ Relation (id1,mid1,"karma",id2,mid2,"44.2") ]
-     else []
+           && (viBakwiH1=7 || viBakwiH1=6)
+               && (kqw2="Sawq_lat" || kqw2="SAnac_lat" || kqw2="kwa" || kqw2="kwavawu")
+          then [ Relation (id1,mid1,"karwA",id2,mid2,"44.1") 
+              ]
+          else if viBakwiH1=2 && viBakwiH2=7
+                   && (kqw2="kwa" || kqw2="kwavawu")
+               then [ Relation (id1,mid1,"karma",id2,mid2,"44.2") ]
+               else []
      else []
        | _ -> []
        ]
