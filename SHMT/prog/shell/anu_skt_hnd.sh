@@ -44,22 +44,14 @@ if [ $OUTSCRIPT = "IAST" ]; then
 fi
 
 if [ $OUTSCRIPT = "DEV" ]; then
-#  my_converter="$SCLINSTALLDIR/converters/ri_skt | $SCLINSTALLDIR/converters/iscii2utf8.py 1"
-#  my_converter_wxHindi="$SCLINSTALLDIR/converters/ri | $SCLINSTALLDIR/converters/iscii2utf8.py 1"
   my_converter="$SCLINSTALLDIR/converters/wx2utf8.sh $SCLINSTALLDIR"
   my_converter_wxHindi="$SCLINSTALLDIR/converters/wxHindi-utf8.sh $SCLINSTALLDIR"
-fi
-
-if [ $OUTSCRIPT = "VH" ]; then
-  my_converter="$SCLINSTALLDIR/converters/wx-velthuis.out"
-  my_converter_wxHindi="$SCLINSTALLDIR/converters/wx-velthuis.out"
 fi
 
 if [ $# -lt 1 ] ; then
   echo "Usage: anu_skt_hnd.sh <file> tmp_dir_path hi [DEV|IAST|VH] [NO|YES] [UoHyd|GH] [NO|Partial|Full] [ECHO|NOECHO] [D]."
 fi
 
-#cd $TMP_DIR_PATH
 fbn=`basename $3` #fbn = file base name
 dnm=`dirname $3` #dnm = directory name
 
@@ -71,10 +63,6 @@ if [ -f "tmp_$fbn"  ] ; then
   echo "File tmp_$fbn exists. Remove or rename it, and give the command again."
 else
   mkdir -p $temp_files_path
-
-  cmd=s#tmp_dir_scrpt#$temp_files_path\&amp\;outscript=$OUTSCRIPT#g
-  cmd1=s#tmp_anu_dir#${dnm}\/tmp_$fbn#g
-  cmd2=s#tmp_dir_gen#$temp_files_path#g
 
 ###########
    if [ $PARSE != "AVAILABLE" ] ; then
@@ -103,14 +91,6 @@ $ANU_MT_PATH/morph/morph.sh $SCLINSTALLDIR $temp_files_path/$fbn.out $temp_files
     # $2.mo_kqw: After adding derivational morph analysis
   fi
 
-# When Heritage splitter is called, scl parser and other modules are invoked by sktreader. So this piece of code iss now redundant.
-#  if [ $MORPH = "GH" ] ; then
-#     Heritage_Input="YES"
-#     $HERITAGE_PATH/ML/reader_plugin < $TMP_DIR_PATH/$3 > $temp_files_path/$3.gh
-#     $ANU_MT_PATH/Heritage_morph_interface/Heritage2anusaaraka_morph.sh < $TMP_DIR_PATH/tmp_$fbn/$fbn.gh > $TMP_DIR_PATH/tmp_$fbn/$fbn.out
-#  fi
-#cp $temp_files_path/$fbn.out $temp_files_path/$fbn.pre_parse_out
-
 ###########
 #     # First argument: Name of the file
 #     # Second argument: no of parses
@@ -128,7 +108,6 @@ cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
 #echo "calling Anaphora" >> /tmp/aaa
      $ANU_MT_PATH/anaphora/anaphora.pl $SCLINSTALLDIR $ANU_MT_PATH/anaphora < $temp_files_path/$fbn.out > $temp_files_path/tmp
      mv $temp_files_path/tmp $temp_files_path/$fbn.out
-
 
 ############
 # wsd in the 12th field
@@ -149,13 +128,11 @@ cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
     $ANU_MT_PATH/chunker/lwg.pl  |\
     $ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $SHMT_PATH/data hi |\
     $ANU_MT_PATH/map/lwg_avy_avy.pl $SCLINSTALLDIR $SHMT_PATH/data hi |\
-    #$ANU_MT_PATH/hnd_sent_gen/agreement.pl $SCLINSTALLDIR $SHMT_PATH/data $ANU_MT_PATH/hnd_sent_gen D |\
     $ANU_MT_PATH/hnd_sent_gen/agreement.pl $SCLINSTALLDIR $SHMT_PATH/data $ANU_MT_PATH/hnd_sent_gen  |\
     $ANU_MT_PATH/hnd_sent_gen/call_gen.pl $SCLINSTALLDIR  |\
     $ANU_MT_PATH/interface/modify_mo_for_display.pl $SCLINSTALLDIR > $temp_files_path/ttt
     mv $temp_files_path/ttt $temp_files_path/$fbn.out
-    #cp $temp_files_path/ttt $temp_files_path/$fbn.out
-#
+
 ##########
     $ANU_MT_PATH/translation/translate.sh $SCLINSTALLDIR $my_converter_wxHindi < $temp_files_path/$fbn.out > $temp_files_path/../$3_trnsltn
 ###########
@@ -176,27 +153,14 @@ cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
 # 15:  map o/p
 # 16: lwg o/p
 # 17: gen o/p
-###  cut -f1-7,9-10,11,13,16,17 $temp_files_path/$fbn.out |\
-###  perl -p -e 's/<([sa])>/<\@$1>/g' |\
-###  perl -p -e 's/<\/([sa])>/<\/\@$1>/g' |\
-###  $my_converter |\
-###  $ANU_MT_PATH/interface/gen_xml.pl 10 |\
-###  xsltproc $ANU_MT_PATH/interface/xhtml_unicode_sn-hi.xsl - |\
-###  $ANU_MT_PATH/interface/add_dict_ref.pl $OUTSCRIPT $HTDOCSDIR/scl |\
-###  perl -p -e $cmd |\
-###  perl -p -e $cmd1 |\
-###  perl -p -e $cmd2 > $temp_files_path/../$3.html
-
-#cut -f1,3,4,6,7,9,10,11,13,16,17 $temp_files_path/$fbn.out | $my_converter | $ANU_MT_PATH/interface/get_orig_order.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin > $temp_files_path/../$3.html
 
 $ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out | $my_converter > $temp_files_path/table.tsv
 $MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv -S $SCLINSTALLDIR
-$ANU_MT_PATH/interface/get_orig_order.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin anvaya< $temp_files_path/anvaya.tsv > $temp_files_path/../$3.html
-#unoconv -f xlsx -i FilterOptions=9,34,76 table.csv
+$ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin A < $temp_files_path/anvaya.tsv > $temp_files_path/../anvaya_$3.html
+perl $ANU_MT_PATH/interface/get_anvaya_shloka_translation.pl $temp_files_path/anvaya_$3  $temp_files_path/anvaya_$3_trnsltn < $temp_files_path/anvaya.tsv
+#$ANU_MT_PATH/interface/get_orig_order.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin NA < $temp_files_path/anvaya.tsv > $temp_files_path/../$3.html
 $MYPYTHONPATH $ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table.tsv $temp_files_path/table.xlsx
 #if [ $DEBUG = "OFF" ]; then 
-#rm -rf $temp_files_path/tmp* 
-#$temp_files_path/wsd_files
-#rm -rf $temp_files_path/tmp* $temp_files_path/in* $temp_files_path/wsd_files
+rm -rf $temp_files_path/tmp* $temp_files_path/in* $temp_files_path/wsd_files
 #fi
 fi

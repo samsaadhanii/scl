@@ -4,14 +4,10 @@ $fbn = $ARGV[0];
 $TFPATH = $ARGV[1];
 $outscript = $ARGV[2];
 $CGIURL = $ARGV[3];
-if($ARGV[4] == "anvaya") {$anvaya = 1;} else {$anvaya = 0;}
+if($ARGV[4] eq "A") {$anvaya = 1;} else {$anvaya = 0;}
 
 print <<header
 <?xml version="1.0"?>
-header
-;
-
-print <<NAVIGATION
 <div id="navigation">
 <form action="" onsubmit="goto_section(); return false;">
 <p><center>
@@ -26,13 +22,12 @@ print <<NAVIGATION
 </form>
 </div>
 <div class="float_clear"/>
-NAVIGATION
+header
 ;
 
 $word = 1;
 @in = <STDIN>;
 if ($anvaya == 1) {@new_in = &get_anvaya_order(@in);} else {@new_in = @in;}
-#@new_in = @in;
 for ($k = 1; $k <=$#in; $k++) {
 $in = $new_in[$k];
 chomp($in);
@@ -46,13 +41,10 @@ foreach ($i=1;$i<=$#flds;$i++){
     if($i == 1) {
       print "<a href=\"/",$CGIURL,"/scl/SHMT/prog/interface/call_parser_summary.cgi?filename=",$TFPATH,"\&amp;outscript=",$outscript,"&rel=''&sentnum=1&save=no&translate=no\"  onmouseover=\"Tip('<img src=/scl/SHMT/DEMO/tmp_",$fbn,"/1.1.svg >' ,FONTSIZE,'18pt',HEIGHT,400,WIDTH,1200,STICKY,true,CLOSEBTN,true)\" onmouseout=\"UnTip()\">\n";
     }
-    if ($i == 3) { 
-      print "<a href=\"/",$CGIURL,"/scl/SHMT/prog/interface/show_graph.cgi?filename=./tmp_",$fbn,"/&sentnum=1\"  onmouseover=\"Tip('<img src=/scl/SHMT/DEMO/tmp_",$fbn,"/1.svg >' ,FONTSIZE,'18pt',HEIGHT,400,WIDTH,1200,STICKY,true,CLOSEBTN,true)\" onmouseout=\"UnTip()\">\n";
-    }
     print "<span Onclick=\"toggle();\">\n";
     print $flds[0],".",chr(64+$i),"\n";
     print "<\/span>\n";
-    if (($i == 1) || ($i == 4)) { print "<\/a>";}
+    if ($i == 1){ print "<\/a>";}
     print "<\/td>\n";
   }
   $color_code = &color_code($flds[5]);
@@ -81,6 +73,7 @@ sub color_code{
    #print "in = $in\n";
    if($in =~ /पुं;([1-8])/) { $colorcode = "N$1";}
    elsif($in =~ /स्त्री;([1-8])/) { $colorcode = "N$1";}
+   elsif($in =~ /सर्वनाम;([1-8])/) { $colorcode = "N$1";}
    elsif($in =~ /कर्तरि/) { $colorcode = "KP";}
    elsif($in =~ /कर्मणि/) { $colorcode = "KP";}
    elsif($in =~ /भावे/) { $colorcode = "KP";}
@@ -98,4 +91,4 @@ sub get_anvaya_order {
  }
 @new_in;
 }
-#1;
+1;

@@ -25,7 +25,7 @@ require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 package main;
 #use CGI qw/:standard/;
 #use URL::Escape;
-
+ 	 print "Access-Control-Allow-Origin: *\n";
 
   if($GlblVar::LOG eq "true") {
     if (! (-e "$GlblVar::TFPATH")){
