@@ -158,7 +158,6 @@ $ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out | $my_conve
 $MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv -S $SCLINSTALLDIR
 $ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin A < $temp_files_path/anvaya.tsv > $temp_files_path/../anvaya_$3.html
 perl $ANU_MT_PATH/interface/get_anvaya_shloka_translation.pl $temp_files_path/anvaya_$3  $temp_files_path/anvaya_$3_trnsltn < $temp_files_path/anvaya.tsv
-#$ANU_MT_PATH/interface/get_orig_order.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin NA < $temp_files_path/anvaya.tsv > $temp_files_path/../$3.html
 $MYPYTHONPATH $ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table.tsv $temp_files_path/table.xlsx
 #if [ $DEBUG = "OFF" ]; then 
 rm -rf $temp_files_path/tmp* $temp_files_path/in* $temp_files_path/wsd_files
