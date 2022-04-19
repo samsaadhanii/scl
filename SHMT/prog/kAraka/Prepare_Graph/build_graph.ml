@@ -18,38 +18,38 @@ value morphs = Gram.Entry.mk "morphs"
 ;
 
 (* Global Variables *)
-value finite_verb_in_sentence = ref 100; 
-value iwi_pos = ref 100;  (* Assumption: A sentence has less than 100 words *)
-(*value evam_pos = ref 100;*)  (* Assumption: A sentence has less than 100 words *)
-value yaxA_pos = ref 100; 
-value yaWA_pos = ref 100; 
-value waWA_pos = ref 100; 
-value waxA_pos = ref 100; 
-value yawra_pos = ref 100; 
-value wawra_pos = ref 100; 
-value yaxi_pos = ref 100; 
-value warhi_pos = ref 100; 
-value waw_pos = ref 100; 
-value cew_pos = ref 100;
-value yawaH_pos = ref 100; 
-value awaH_pos = ref 100; 
-value wawaH_pos = ref 100; 
-value yaxyapi_pos = ref 100;
-value waWApi_pos = ref 100; 
-value aWApi_pos = ref 100; 
-value yAvaw_pos = ref 100;
-value wAvaw_pos = ref 100; 
-value kinwu_pos = ref 100; 
-value apiwu_pos = ref 100; 
-value paranwu_pos = ref 100; 
-value aWa_pos = ref 100; 
-value yaw_pos = ref 100; 
-value yasmAw_pos = ref 100; 
-value wasmAw_pos = ref 100; 
-value hi_pos = ref 100; 
-value yax_pos = ref 100; 
-value wvam_pos = ref 100; 
-value karwqsamverbs = ref 100; 
+value finite_verb_in_sentence = ref 50; 
+value iwi_pos = ref 50;  (* Assumption: A sentence has less than 50 words *)
+(*value evam_pos = ref 50;*)  (* Assumption: A sentence has less than 50 words *)
+value yaxA_pos = ref 50; 
+value yaWA_pos = ref 50; 
+value waWA_pos = ref 50; 
+value waxA_pos = ref 50; 
+value yawra_pos = ref 50; 
+value wawra_pos = ref 50; 
+value yaxi_pos = ref 50; 
+value warhi_pos = ref 50; 
+value waw_pos = ref 50; 
+value cew_pos = ref 50;
+value yawaH_pos = ref 50; 
+value awaH_pos = ref 50; 
+value wawaH_pos = ref 50; 
+value yaxyapi_pos = ref 50;
+value waWApi_pos = ref 50; 
+value aWApi_pos = ref 50; 
+value yAvaw_pos = ref 50;
+value wAvaw_pos = ref 50; 
+value kinwu_pos = ref 50; 
+value apiwu_pos = ref 50; 
+value paranwu_pos = ref 50; 
+value aWa_pos = ref 50; 
+value yaw_pos = ref 50; 
+value yasmAw_pos = ref 50; 
+value wasmAw_pos = ref 50; 
+value hi_pos = ref 50; 
+value yax_pos = ref 50; 
+value wvam_pos = ref 50; 
+value karwqsamverbs = ref 50; 
 value total_wrds = ref 0; 
 
 value datapath = sclinstalldir ^ "/SHMT/prog/kAraka/Prepare_Graph/DATA/";
@@ -330,20 +330,20 @@ yaH buxXiwvAw wawra kevalam AwmAnam paSyawi ...*)
       else if id2 < warhi_pos.val && id1 > warhi_pos.val then False
       else if ((id1 < waw_pos.val && id2 > waw_pos.val)
               || (id2 < waw_pos.val && id1 > waw_pos.val))
-           && (yaw_pos.val < 100 || cew_pos.val < 100 || yaxi_pos.val < 100) then False
+           && (yaw_pos.val < 50 || cew_pos.val < 50 || yaxi_pos.val < 50) then False
       else if ((id1 < yaw_pos.val && id2 > yaw_pos.val)
               || (id2 < yaw_pos.val && id1 > yaw_pos.val))
-           && (waw_pos.val < 100) then False
+           && (waw_pos.val < 50) then False
 (* If there is waw, then there should be either yaw or cew or yaxi, else it is not a boundary marker *)
 (* For yaxi ... waw refer to BhG 1.46 *)
       else if ((id1 < waxA_pos.val && id2 > waxA_pos.val ) ||
                (id2 < waxA_pos.val && id1 > waxA_pos.val))
-           && yaxA_pos.val < 100 then False 
+           && yaxA_pos.val < 50 then False 
  (* This condition is added to account for the boundary crossing with only waxA as in
     xqRtvA wu pANdavAnIkam vyUDam xuryoXanaswaxA AcAryam upasafgamya vacanam abravIw BhG1.2 *)
       else if (( id1 < waWA_pos.val && id2 > waWA_pos.val )
               || (id1 < waWA_pos.val && id2 > waWA_pos.val ))
-      && yaWA_pos.val < 100 then False
+      && yaWA_pos.val < 50 then False
       else True
 ;
 
@@ -1044,7 +1044,7 @@ But in grAmam gawaH xevaxawwaH puswakaM paTawi, here xevaxawwa should not be mar
                     then match viBakwiH1 with
                 [ 1 -> let rel = handle_sp_compounds id1 mid1 id2 mid2 rt1 word1 pUrvapaxa1 uwwarapaxa1 lifgam1 in
 	               if (not (rel=[])) then rel 
-                      (*&&  (finite_verb_in_sentence.val=100 ||
+                      (*&&  (finite_verb_in_sentence.val=50 ||
                            finite_verb_in_sentence.val=id2  ||
                            finite_verb_in_sentence.val=id1) 
                       This condition creates a problem when a word has both sup and wif analysis and wif analysis is not the desired output. Ex: wena mama ayam mohaH vigawaH , here mohaH is not marked*)
@@ -2010,7 +2010,7 @@ kaH aByupAyaH aswi.
 *)
    match m1 with
       [ Sup (id1,mid1,word1,rt1,pUrvapaxa1,uwwarapaxa1,lifgam1,viBakwiH1,vacanam1,_) ->
-       if (*not (finite_verb_in_sentence.val = 100 && karwqsamverbs.val = 100)
+       if (*not (finite_verb_in_sentence.val = 50 && karwqsamverbs.val = 50)
        &&  there can be just kqxanwa such as kwa/kwavawu as well *) 
        (* (id2 > id1 ) *) (* Even in Shlokas, the upAXi should come before the name || text_type = "Sloka"  I think id2 > id1  needs to be modified, look at vayam sarve below *)
        (*&&*) no_boundary_crossing id1 id2 text_type
@@ -2028,7 +2028,7 @@ kaH aByupAyaH aswi.
 || ((rt1 = "sarva" || rt1 = "sarvA") &&  (id1 = next id2 || (id1 > id2 && text_type = "Sloka") ))) (* vayam sarve  ayaneRu ca sarveRu*)
        (* Example for viSeRaNa after the viSeRya ? 
         * Hence removed this -- || id2 > id1 *)
-       (* && not (finite_verb_in_sentence.val = 100 && karwqsamverbs.val = 100)  -- removed since with kqxanwas, this does not work; e.g. bahUni kAvyAni paTiwAni hariNA ; bahUni is not marked as a viSeRaNam *)
+       (* && not (finite_verb_in_sentence.val = 50 && karwqsamverbs.val = 50)  -- removed since with kqxanwas, this does not work; e.g. bahUni kAvyAni paTiwAni hariNA ; bahUni is not marked as a viSeRaNam *)
        (*pronominal123 -> pronoun3; need good examples in support of asmax and yuRmax to be adjectives. mayA purA (BhG 3.2), was wrongly parsed as mayA as an adj of purA. To stop this, pronominal123 is changed to pronoun3; Malay  16th Aug 2019*)
        (* pronouns are immediately after the viSeRya e.g. vAkyam ixam *)
        (* && not (rt2="yax") && not (rt2="wax") *) 
@@ -2047,7 +2047,7 @@ We can have vyAkulaH saH, and also ye janAH ...*)
         Now why is it added ? *)
        then [ Relation (id1,mid1,"viSeRaNam",id2,mid2,"17.1")]
        else if rt2 = get_assoc rt1 parAjAwi_list 
-       && not (finite_verb_in_sentence.val = 100 && karwqsamverbs.val = 100)
+       && not (finite_verb_in_sentence.val = 50 && karwqsamverbs.val = 50)
        then [ Relation (id1,mid1,"viSeRaNam",id2,mid2,"17.2")]
        else if (((member_of rt1 sambanXavAcI) || (member_of rt1 upAXi)) && not (member_of rt2 saMKyeya || member_of rt2 pUraNa))
        (* && not (member_of rt2 guNavacana) ; this condition is not needed. If it is a viSeRaNa, then automatically, the constraint solver will reject this solution. 
@@ -2069,7 +2069,7 @@ We can have vyAkulaH saH, and also ye janAH ...*)
       *)
      | WaxXiwa (id1,mid1,_,rt1,_,_,_,lifgam1,viBakwiH1,vacanam1,_) ->
        if prose_order id1 id2 text_type
-       && not (finite_verb_in_sentence.val = 100 && karwqsamverbs.val = 100)
+       && not (finite_verb_in_sentence.val = 50 && karwqsamverbs.val = 50)
             && no_boundary_crossing id1 id2 text_type
         && noun_agreement_vibh vacanam1 vacanam2 lifgam1 lifgam2 viBakwiH1 viBakwiH2
         && not (member_of (word2^" "^string_of_int viBakwiH2) kriyAviSeRaNas) (* Why is this cond? *)
@@ -2077,7 +2077,7 @@ We can have vyAkulaH saH, and also ye janAH ...*)
        then [ Relation (id1,mid1,"viSeRaNam",id2,mid2,"17.5")]
        else []
      | Kqw (id1,mid1,_,_,_,_,kqw_prawyayaH1,_,_,_,rt1,_,_,lifgam1,viBakwiH1,vacanam1,_) ->
-       if not (finite_verb_in_sentence.val = 100 && karwqsamverbs.val = 100)
+       if not (finite_verb_in_sentence.val = 50 && karwqsamverbs.val = 50)
        && no_boundary_crossing id1 id2 text_type
        && ((viBakwiH1=viBakwiH2 && vacanam1=vacanam2 && niyawalifgam kqw_prawyayaH1)
           || noun_agreement_vibh vacanam1 vacanam2 lifgam1 lifgam2 viBakwiH1 viBakwiH2 )
@@ -2791,7 +2791,7 @@ value rlkarwqrahiwakarwqsamAnAXikaraNam m1 m2 text_type = match m1 with
         [ Wif (id2,mid2,_,rt2,_,_,upasarga2,_,_,lakAraH2,puruRaH2,_,_,_,_,_) ->
               if members_of rt2 upasarga2 karwqsamAnAXikaraNa_verbs
               && viBakwiH1=1 && puruRaH2="ma" && (lakAraH2="lot" || lakAraH2 = "ASIrlif"|| lakAraH2 = "viXilif" || lakAraH2 = "lat")
-              && wvam_pos.val = 100
+              && wvam_pos.val = 50
               then [ Relation (id1,mid1,"karwqrahiwakarwqsamAnAXikaraNam",id2,mid2,"33.1") ] 
               else []
         (*| Kqw (id2,mid2,_,rt2,upasarga2,_,_,_,_,_,_,_,_,_,_,_,_) *)
@@ -2809,7 +2809,7 @@ value rlkarwqrahiwakarwqsamAnAXikaraNam m1 m2 text_type = match m1 with
         [ Wif (id2,mid2,_,rt2,_,_,upasarga2,_,_,lakAraH2,puruRaH2,_,_,_,_,_) ->
               if members_of rt2 upasarga2 karwqsamAnAXikaraNa_verbs
               && viBakwiH1=1 && puruRaH2="ma" && (lakAraH2="lot" || lakAraH2 = "ASIrlif"|| lakAraH2 = "viXilif")
-              && wvam_pos.val = 100
+              && wvam_pos.val = 50
               then [ Relation (id1,mid1,"karwqrahiwakarwqsamAnAXikaraNam",id2,mid2,"33.3") ] 
               else []
         (*| Kqw (id2,mid2,_,rt2,upasarga2,_,_,_,_,_,_,_,_,_,_,_,_) *)
@@ -3047,7 +3047,7 @@ Consider a sent with X Y v1 v2, where X and Y are karwA and karwAsamAnAXikaraNa 
  * अ-पर्याप्तम् तत् अस्माकम् बलम् भीष्म-अभिरक्षितम्*)
 
 value rlkarwqsamAnAXikarana_noverb m1 m2 text_type = 
-        if karwqsamverbs.val = 100
+        if karwqsamverbs.val = 50
         then
         match m2 with
     [ Sup (id2,mid2,word2,rt2,_,uwwarapaxa2,_,viBakwiH2,vacanam2,_) ->
@@ -3058,7 +3058,7 @@ value rlkarwqsamAnAXikarana_noverb m1 m2 text_type =
       [ Sup (id1,mid1,word1,rt1,pUrvapaxa1,uwwarapaxa1,lifgam1,viBakwiH1,vacanam1,_)
       | Kqw (id1,mid1,word1,_,_,_,_,_,_,_,rt1,pUrvapaxa1,uwwarapaxa1,lifgam1,viBakwiH1,vacanam1,_)
       | WaxXiwa (id1,mid1,word1,rt1,pUrvapaxa1,uwwarapaxa1,_,lifgam1,viBakwiH1,vacanam1,_) ->
-          if (   finite_verb_in_sentence.val = 100 
+          if (   finite_verb_in_sentence.val = 50 
               || finite_verb_in_sentence.val = id1 ) 
           (* The second condition is to handle rAmaH vExyaH *)
           then
@@ -3092,7 +3092,7 @@ Consider a sent with X Y v1 v2, where X and Y are karwA and karwAsamAnAXikaraNa 
 E.g. grAmasya aXareNa vanam aswi.*)
       | Avy (id1,mid1,word1,_,_,_,_)
       | AvywaxXiwa (id1,mid1,word1,_,_,_,_,_)  ->
-          if (   finite_verb_in_sentence.val = 100 
+          if (   finite_verb_in_sentence.val = 50 
               || finite_verb_in_sentence.val = id1 ) 
           then if viBakwiH2=1
            && prose_order id1 id2 text_type
@@ -3118,7 +3118,7 @@ E.g. grAmasya aXareNa vanam aswi.*)
       [ Sup (id1,mid1,_,rt1,_,_,lifgam1,viBakwiH1,vacanam1,_)
       | Kqw (id1,mid1,_,_,_,_,_,_,_,_,rt1,_,_,lifgam1,viBakwiH1,vacanam1,_)
       | WaxXiwa (id1,mid1,_,rt1,_,_,_,lifgam1,viBakwiH1,vacanam1,_) ->
-          if (   finite_verb_in_sentence.val = 100 
+          if (   finite_verb_in_sentence.val = 50 
               || finite_verb_in_sentence.val = id1 ) 
           then  if viBakwiH1=viBakwiH2 
            (*&& ((noun_agreement_vibh rt1 vacanam1 vacanam2 lifgam1 lifgam2 viBakwiH1 viBakwiH2) || pronominal12 rt1)  to account for jyowiH agniH Bavawi *)
@@ -3137,7 +3137,7 @@ Consider a sent with X Y v1 v2, where X and Y are karwA and karwAsamAnAXikaraNa 
         else []
       | Avy (id1,mid1,word1,_,_,_,_) 
       | AvywaxXiwa (id1,mid1,word1,_,_,_,_,_) -> 
-          if (   finite_verb_in_sentence.val = 100 
+          if (   finite_verb_in_sentence.val = 50 
               || finite_verb_in_sentence.val = id1 ) 
           then if viBakwiH2=1
            && prose_order id1 id2 text_type
@@ -3169,7 +3169,7 @@ Consider a sent with X Y v1 v2, where X and Y are karwA and karwAsamAnAXikaraNa 
          [ Sup (id1,mid1,_,rt1,_,_,_,viBakwiH1,_,_)
          | Kqw (id1,mid1,_,_,_,_,_,_,_,_,rt1,_,_,_,viBakwiH1,_,_)
          | WaxXiwa (id1,mid1,_,rt1,_,_,_,_,viBakwiH1,_,_) ->
-          if (   finite_verb_in_sentence.val = 100 
+          if (   finite_verb_in_sentence.val = 50 
               || finite_verb_in_sentence.val = id1 ) 
           then  if not (member_of rt1 saMKyeya) (* yogyawA *)
               && prose_order id1 id2 text_type
@@ -4329,7 +4329,7 @@ value rlca_samucciwa m1 m2 m3 text_type = match m2 with
              (* id2 is the second word in the second sentence
                && (id2 = id1+2)) *)
              (* id2 > id3 for handling 'sma' as in yAnwi sma ca , and more than two samucciwas as in rAmaH moxawi KAxawi pibawi hasawi roxawi ca *)
-                     || (word2="waWA" && id2 < id3 && yaWA_pos.val = 100))
+                     || (word2="waWA" && id2 < id3 && yaWA_pos.val = 50))
                  then
                          (* if (id2=id3 || id2 = id3+1) then *)
                          (*if (id2 = id3+1) then 
@@ -4354,7 +4354,7 @@ value rlca_samucciwa m1 m2 m3 text_type = match m2 with
              [ Avykqw (id1,mid1,_,_,_,_,_,_,kqw_prawyaya1,_,_,_) ->
                  if id1 < id2 && kqw_prawyaya1=kqw_prawyaya3
                  then if (( (word2="ca" || word2="cEva")  && (id2 = next id3))
-                     || (word2="waWA" && id2 < id3 && id2 > 1 && yaWA_pos.val = 100))
+                     || (word2="waWA" && id2 < id3 && id2 > 1 && yaWA_pos.val = 50))
                  then
                  [ Relation (id1,mid1,"sup_samucciwaH",id3,mid3,"58.5")
                  ; Relation (id2,mid2,"sup_samuccaya_xyowakaH",id3,mid3,"58.6")
@@ -4380,7 +4380,7 @@ value rlca_samucciwa m1 m2 m3 text_type = match m2 with
                  (* && vacanam1 = vacanam3 ; hqxayAni naBaH ca vyanunAxaya BhG 1.19 *)
                     && not (viBakwiH1 = 8 )
                  then if (  ((word2="ca" || word2="cEva") (*|| word2="api"*) && (id2 = next id3) || (id2 = id3 + 2)) (* we can have X Y Z api ca *)
-                     || (word2="waWA" && id2 < id3 && id2 > 1 && yaWA_pos.val = 100)
+                     || (word2="waWA" && id2 < id3 && id2 > 1 && yaWA_pos.val = 50)
                      || (word2="aWa" && id2 < id3 && id2 > id1 ))
                  (* need an example of api as samuccaya *)
                     (* && not (( pronoun3 rt1 || member_of rt1 saMKyeya || member_of rt1 pUraNa || (member_of rt1 guNavAcI && uwwarapaxa1=word1) || (member_of rt1 uwwara_guNavAcI && not (uwwarapaxa1=word1))|| member_of rt1 sambanXavAcI) )  Removed uwwarapaxa guNavAcI *)
@@ -4406,7 +4406,7 @@ value rlca_samucciwa m1 m2 m3 text_type = match m2 with
                     && viBakwiH1=viBakwiH3 && vacanam1=vacanam3
                     && kqw3=kqw1
                  then if (  ((word2="ca" || word2="cEva") && (id2 = next id3)) 
-                     || (word2="waWA" && id2 < id3 && id2 > 1 && yaWA_pos.val = 100))
+                     || (word2="waWA" && id2 < id3 && id2 > 1 && yaWA_pos.val = 50))
                  then
                  [ Relation (id1,mid1,"sup_samucciwaH",id3,mid3,"58.13")
                  ; Relation (id2,mid2,"sup_samuccaya_xyowakaH",id3,mid3,"58.14")
@@ -4422,7 +4422,7 @@ value rlca_samucciwa m1 m2 m3 text_type = match m2 with
               | WaxXiwa (id1,mid1,word1,rt1,_,_,_,_,viBakwiH1,vacanam1,_) ->
                  if id1 < id3  && viBakwiH1=viBakwiH3 && vacanam1=vacanam3
                  then if (  ((word2="ca" || word2="cEva") && (id2 = next id3)) 
-                     || (word2="waWA" && id2 < id3 && id2 > 1 && yaWA_pos.val = 100))
+                     || (word2="waWA" && id2 < id3 && id2 > 1 && yaWA_pos.val = 50))
                  then
                  [ Relation (id1,mid1,"sup_samucciwaH",id3,mid3,"58.17")
                  ; Relation (id2,mid2,"sup_samuccaya_xyowakaH",id3,mid3,"58.18")
@@ -4562,7 +4562,8 @@ value process morphs text_type tfpath =
   { (* List.iter print_morph_id morphs *) (* we print the input for verification *)
    let rel_lst = List.sort_uniq compare (kAraka_engine3 morphs text_type) in
     let sorted_lst = List.rev (List.sort_uniq compare rel_lst) in  do
-    { List.iter (print_relation cho) sorted_lst
+    { 
+    List.iter (print_relation cho) sorted_lst
     ; flush cho
     ; close_out cho
     ; let tpl_lst = mk_tuple_lst [] sorted_lst in  (* do {
@@ -4583,7 +4584,9 @@ value main () = if (Array.length Sys.argv < 3 ) then do
            ; failwith "Parsing aborted\n"
            } 
         else do
-           { init_relation_encoding_array()
+           { 
+            Sys.command("date")
+           ; init_relation_encoding_array()
            ; let _ = relations_encodings
            ; let _ = afgavikaara_list
            ; let _ = nirXAraNa_list
@@ -4593,6 +4596,7 @@ value main () = if (Array.length Sys.argv < 3 ) then do
              do
              { init_sentence_feature_variables morphs
              ; process morphs text_type tfpath
+             ; Sys.command("date")
              }
            }
 ;
