@@ -3,8 +3,8 @@
 import anytree
 import itertools
 
-
 hold_relations_sa = [28, 64, 65, 66, 67, 76, 77, 80, 97, 1002]
+hold_relations_hi = [28, 76, 77, 80, 97, 1002]
 
 
 def create_tree(data):
@@ -143,6 +143,30 @@ def linear_order_sa(tree):
             held_seq = []
             for hold_check in node.iter_path_reverse():
                 if hold_check.r_id in hold_relations_sa:
+                    held_seq.insert(0, [hold_check.p_id, hold_check.name])
+                else:
+                    break
+            held_back[held_seq[0][0]] = [x[1] for x in held_seq]
+        elif node.name in [x for v in held_back.values() for x in v]:
+            continue
+        else:
+            word_order.append(node.name)
+            if node.name in held_back:
+                word_order.extend(held_back[node.name])
+                del held_back[node.name]
+    return word_order
+
+
+def linear_order_hi(tree):
+    '''Linearizes the tree into Sanskrit word order'''
+
+    held_back = {}
+    word_order = []
+    for node in anytree.PostOrderIter(tree):
+        if node.is_leaf and node.r_id in hold_relations_hi:
+            held_seq = []
+            for hold_check in node.iter_path_reverse():
+                if hold_check.r_id in hold_relations_hi:
                     held_seq.insert(0, [hold_check.p_id, hold_check.name])
                 else:
                     break

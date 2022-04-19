@@ -1,45 +1,56 @@
 #!/usr/bin/env python3
 
-import daj_io
-import daj_rules
+import os
 import argparse
 
+import daj_io
+import daj_rules
 
 parser = argparse.ArgumentParser(
-    formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     description='''This tool linearizes Samsaadhanii's dependency parsed
     tree into target language word order.''')
 
 parser.add_argument(
-    'i', metavar='input_file',
-    help='specifies input file')
+    '-s', metavar='scl_path',
+    help='specifies root directory of SCL installation', required=True)
+
+parser.add_argument(
+    '-i', metavar='input_file',
+    help='specifies input file', required=True)
 
 parser.add_argument(
     '-o', metavar='output_file',
     help='specifies output file')
 
 parser.add_argument(
-    '-l', metavar='target_language', default='sa',
+    '-t', metavar='target_language', default='sa',
     choices=['sa', 'ml', 'te', 'hi', 'mr', 'en', 'fr', 'de'],
     help='specifies the target language')
 
-parser.add_argument(
-    '-S', metavar='input_file',
-    help='specifies input file')
-
 arguments = parser.parse_args()
 
-prob_file = arguments.S+'/SHMT/prog/anvaya/data/rel_probs.csv'
-rela_file = arguments.S+'/SHMT/prog/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt'
+rela_file = os.path.join(
+    arguments.s, 'SHMT/prog/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt')
+prob_file = os.path.join(arguments.s, 'SHMT/prog/anvaya/rel_probs.csv')
 
 rela_data = daj_io.load_relations(rela_file)
 prob_data = daj_io.load_probabilities(prob_file)
 
-data = daj_io.parse_data(arguments.i, rela_data)
+data, is_deptree = daj_io.parse_data(arguments.i, rela_data)
 
-tree = daj_rules.create_tree(data)[0]
-sorted_tree = daj_rules.sort_tree(tree, prob_data)
-word_order = daj_rules.linear_order_sa(sorted_tree)
+if is_deptree:
+    trees = daj_rules.create_tree(data)
+    word_order = []
+    for tree in trees:
+        sorted_tree = daj_rules.sort_tree(tree, prob_data)
+        if arguments.t == 'hi':
+            this_order = daj_rules.linear_order_hi(sorted_tree)
+        else:
+            this_order = daj_rules.linear_order_sa(sorted_tree)
+        word_order.extend(this_order)
+else:
+    word_order = list(data.index)
+
 data = daj_io.add_order(data, word_order)
 
 daj_io.write_out(data, arguments.o)

@@ -6,15 +6,17 @@ Dandanvayajanaka (hereafter DAJ) is a part of [Samsaadhanii](https://sanskrit.uo
 
 > Install dependent libraries mentioned below before running the tool.
 
-`python3 reorder.py input_file -o output_file -l target_language`
+    python3 reorder.py -i input_file -s scl_path [-o output_file] [-t target_language]
 
-Input and output files can be CSV, TSV or XLSX formats. If the output file is not mentioned, the processed dependency tree will be printed to `STDOUT`.
+Input and output files can be CSV, TSV or XLSX formats. If the output file is not mentioned, words in the dependency tree will be printed to `STDOUT` in a reordered sequence.
+
+`scl_path` is the root directory of the [SCL](https://github.com/samsaadhanii/scl) installation. It is required for loading `relations.txt` file which contains the list of relations and their numeric IDs.
 
 Target language can be given in two-letter alphabetic code as specified in [ISO 639-1:2002](https://www.iso.org/standard/22109.html). Default is `sa` (Sanskrit).
 
-For more details, check
+For more details, check command help.
 
-`python3 reorder.py --help`
+    python3 reorder.py --help
 
 ### Dependent Libraries
 

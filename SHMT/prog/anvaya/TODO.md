@@ -9,18 +9,7 @@
   - ~~XLSX~~
   - SKT_TEMP's parseop1.txt
 
-* Deal with input files with multiple trees in it. Simple loops should work.
-
-* Relation list file
-  - Hard link in code
-    + ~~Include a local copy~~
-    + Symlink to original location
-  - Provide as a command line argument
-  - _If a local copy of relations.txt is hard linked, should I also mark the relations to hold back while linearizing traversal in it?_
-
-* Couplet probability file
-  - ~~Hard link in code~~
-  - Provide as a command line argument
+* ~~Deal with input files with multiple trees in it. Simple loops should work.~~
 
 ## Sorting
 
