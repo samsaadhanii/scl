@@ -18,13 +18,15 @@ python
 xsltproc
 default-jdk
 timeout
-python3-pandas and python3-openpyxl
+python3-pandas, python3-openpyxl,  anytree, devtrans
 -- commands for installation are
    sudo apt install python3-pandas
    sudo apt install python3-openpyxl
+   sudo apt install anytree devtrans
   or alternatively, you may install these with pip3, once python3-pip is installed.
-   pip3 install pandas 
-   pip3 install openpyxl
+   sudo pip3 install pandas 
+   sudo pip3 install openpyxl
+   sudo pip3 install anytree devtrans
 
 AND
 

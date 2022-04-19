@@ -11,6 +11,7 @@ chomp($in);
 
 $shloka_anvaya .= " ". $flds[1];
 $trans_anvaya .= " ". $flds[7];
+$trans_anvaya =~ s/_/ /g;
 }
 
 open (TMP,">$ARGV[0]") || die "Can't open $ARGV[0] for writing";
