@@ -19,8 +19,8 @@
 
 use utf8;
 require "../../paths.pl";
-require "$GlblVar::CGIDIR/cgi_interface.pl";
-require "$GlblVar::CGIDIR/skt_gen/noun/noun_gen_subroutines.pl";
+require "$GlblVar::CGIDIR/scl/cgi_interface.pl";
+require "$GlblVar::CGIDIR/scl/skt_gen/noun/noun_gen_subroutines.pl";
 
 #
 ###################  Main function #################
@@ -30,6 +30,10 @@ require "$GlblVar::CGIDIR/skt_gen/noun/noun_gen_subroutines.pl";
 # gen: napuM, puM, swrI, a
 # jawi: nA, sarva, saMKyeyam, saMkyA, pUraNam
 # level: 1,2,3,4
+
+print "Access-Control-Allow-Origin: *\n";
+ print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
+        my %param = &get_parameters();
 
 package main;
 
