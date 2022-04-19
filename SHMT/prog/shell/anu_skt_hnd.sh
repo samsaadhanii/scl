@@ -17,7 +17,6 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
-
 SCLINSTALLDIR=$1
 GraphvizDot=$2
 TMP_DIR_PATH=$4
@@ -53,9 +52,10 @@ if [ $# -lt 1 ] ; then
 fi
 
 fbn=`basename $3` #fbn = file base name
-dnm=`dirname $3` #dnm = directory name
+#dnm=`dirname $3` #dnm = directory name
 
 temp_files_path=$TMP_DIR_PATH/${dnm}/tmp_$fbn
+#temp_files_path=$TMP_DIR_PATH/tmp_$fbn
 
 export TMP_FILES_PATH=$temp_files_path
 
@@ -79,8 +79,10 @@ else
         $ANU_MT_PATH/sandhi_splitter/copy_field.pl < $temp_files_path/$fbn.out.orig > $temp_files_path/$fbn.out
       fi
 ###########
-#      /usr/bin/time -f "%Uuser %Ssystem %Eelapsed %PCPU (%Xtext+%Ddata %Mmax)k\n%Iinputs+%Ooutputs (%Fmajor+%Rminor)pagefaults %Wswaps %C\n" 
-$ANU_MT_PATH/morph/morph.sh $SCLINSTALLDIR $temp_files_path/$fbn.out $temp_files_path/$fbn.mo_all $temp_files_path/$fbn.mo_prune $temp_files_path/$fbn.mo_kqw $LTPROCBIN
+#      /usr/bin/time "%Uuser %Ssystem %Eelapsed %PCPU (%Xtext+%Ddata %Mmax)k\n%Iinputs+%Ooutputs (%Fmajor+%Rminor)pagefaults %Wswaps %C\n" 
+#date
+$ANU_MT_PATH/morph/morph.sh $SCLINSTALLDIR $temp_files_path/$fbn.out $temp_files_path/$fbn.mo_all $temp_files_path/$fbn.mo_prune $temp_files_path/$fbn.mo_kqw $LTPROCBIN $temp_files_path
+#date
 #       if [ $DEBUG = "OFF" ]; then 
 #         rm $temp_files_path/$fbn.mo_all $temp_files_path/$fbn.mo_prune $temp_files_path/$fbn.mo_kqw
 #       fi
@@ -97,11 +99,12 @@ $ANU_MT_PATH/morph/morph.sh $SCLINSTALLDIR $temp_files_path/$fbn.out $temp_files
 #     # Third argument: Name of the file with kaaraka analysis for annotation
 # Field 9: morph analysis corresponding to the kaaraka role
 # Field 10: kaaraka role
-#     /usr/bin/time -f "%Uuser %Ssystem %Eelapsed %PCPU (%Xtext+%Ddata %Mmax)k\n%Iinputs+%Ooutputs (%Fmajor+%Rminor)pagefaults %Wswaps %C\n" 
+#     /usr/bin/time "%Uuser %Ssystem %Eelapsed %PCPU (%Xtext+%Ddata %Mmax)k\n%Iinputs+%Ooutputs (%Fmajor+%Rminor)pagefaults %Wswaps %C\n" 
 $ANU_MT_PATH/kAraka/shabdabodha.sh $SCLINSTALLDIR $GraphvizDot $Heritage_Input $temp_files_path $fbn.out $fbn.kAraka $OUTSCRIPT $PARSE $TEXT_TYPE $ECHO 
-cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
+#cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
 #echo "within Parse" > /tmp/aaa
  fi  # PARSE != AVAILABLE ends here
+#     /usr/bin/time "%Uuser %Ssystem %Eelapsed %PCPU (%Xtext+%Ddata %Mmax)k\n%Iinputs+%Ooutputs (%Fmajor+%Rminor)pagefaults %Wswaps %C\n" 
 #
 ###########
 # anaphora in the 11th field
@@ -115,7 +118,7 @@ cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
     $ANU_MT_PATH/wsd/wsd_rules.sh $SCLINSTALLDIR $temp_files_path $fbn.out $fbn.wsd $fbn.wsd_upapaxa
     cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_wsd
 #    if [ $DEBUG = "OFF" ]; then 
-#      rm $temp_files_path/$fbn.wsd $temp_files_path/$fbn.wsd_upapaxa
+      rm $temp_files_path/$fbn.wsd $temp_files_path/$fbn.wsd_upapaxa
 #    fi
 ###########
 ### Map to hindi
@@ -123,7 +126,7 @@ cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
 # Chunk/LWG in the 14th field
 # map o/p in the 15th field and lwg o/p in 16th field
 # gen o/p in the 17th field
-    cp $temp_files_path/$fbn.out $temp_files_path/$fbn.pre_final_out
+    #cp $temp_files_path/$fbn.out $temp_files_path/$fbn.pre_final_out
     $ANU_MT_PATH/interface/add_colorcode.pl < $temp_files_path/$fbn.out |\
     $ANU_MT_PATH/chunker/lwg.pl  |\
     $ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $SHMT_PATH/data hi |\
@@ -134,7 +137,7 @@ cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
     mv $temp_files_path/ttt $temp_files_path/$fbn.out
 
 ##########
-    $ANU_MT_PATH/translation/translate.sh $SCLINSTALLDIR $my_converter_wxHindi < $temp_files_path/$fbn.out > $temp_files_path/../$3_trnsltn
+    $ANU_MT_PATH/translation/translate.sh $SCLINSTALLDIR $my_converter_wxHindi < $temp_files_path/$fbn.out > $temp_files_path/../${fbn}_trnsltn
 ###########
 
 ###########
@@ -155,9 +158,9 @@ cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
 # 17: gen o/p
 
 $ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out | $my_converter > $temp_files_path/table.tsv
-$MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv -S $SCLINSTALLDIR
-$ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin A < $temp_files_path/anvaya.tsv > $temp_files_path/../anvaya_$3.html
-perl $ANU_MT_PATH/interface/get_anvaya_shloka_translation.pl $temp_files_path/anvaya_$3  $temp_files_path/anvaya_$3_trnsltn < $temp_files_path/anvaya.tsv
+$MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py -i $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv -s $SCLINSTALLDIR -t hi
+$ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin A < $temp_files_path/anvaya.tsv > $temp_files_path/../anvaya_$fbn.html
+perl $ANU_MT_PATH/interface/get_anvaya_shloka_translation.pl ${temp_files_path}/anvaya_$fbn  ${temp_files_path}/anvaya_${fbn}_trnsltn < $temp_files_path/anvaya.tsv
 $MYPYTHONPATH $ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table.tsv $temp_files_path/table.xlsx
 #if [ $DEBUG = "OFF" ]; then 
 rm -rf $temp_files_path/tmp* $temp_files_path/in* $temp_files_path/wsd_files

@@ -30,13 +30,13 @@
   $LTPROCBIN = $ARGV[11];
   $MYPYTHONPATH = $ARGV[12];
 
-  require "$SCLINSTALLDIR/converters/convert.pl";
+  #require "$SCLINSTALLDIR/converters/convert.pl";
   require "$SCLINSTALLDIR/paths.pl";
 
   system("mkdir -p $tmp_file_path");
   open(TMP1,">$tmp_file_path/in$pid");
-  $sentences1=&convert($encoding,$sentences,$SCLINSTALLDIR);
-  chomp($sentences1);
+  #$sentences1=&convert($encoding,$sentences,$SCLINSTALLDIR);
+  #chomp($sentences1);
   @sentences=split(/\./,$sentences);
   foreach $sent (@sentences) {
      $sent =~ s/^\n/ /;
