@@ -23,13 +23,14 @@ OUTFILE=$3
 PRUNEOUT=$4
 KQWOUT=$5
 LTPROCBIN=$6
+TMP_FILES_PATH=$7
 
 DEBUG="OFF"
 
 export MY_PATH=$SCLINSTALLDIR/SHMT/prog
 
 #$MY_PATH/morph/word_morph.sh $INFILE $TMP_FILES_PATH/tmp_mo_all $TMP_FILES_PATH/tmp_kqw_analy_mo
-$MY_PATH/morph/word_morph.sh $SCLINSTALLDIR $LTPROCBIN < $INFILE > $TMP_FILES_PATH/tmp_mo_all #$TMP_FILES_PATH/tmp_kqw_analy_mo
+$MY_PATH/morph/word_morph.sh $SCLINSTALLDIR $LTPROCBIN  $TMP_FILES_PATH < $INFILE > $TMP_FILES_PATH/tmp_mo_all #$TMP_FILES_PATH/tmp_kqw_analy_mo
 $MY_PATH/morph/local_analysis/add_mo_local.pl $SCLINSTALLDIR $MY_PATH/morph/local_analysis/mo_ana.txt < $TMP_FILES_PATH/tmp_mo_all |\
 $MY_PATH/prune/prune.sh $SCLINSTALLDIR > $TMP_FILES_PATH/tmp_mo
 
@@ -43,5 +44,5 @@ paste $INFILE $OUTFILE $PRUNEOUT $KQWOUT| perl -pe 's/^\t//;s/^\t//;s/^\t//' > $
 mv $TMP_FILES_PATH/tmp_111 $INFILE
 
 #if [ $DEBUG = "OFF" ]; then
-#rm $TMP_FILES_PATH/tmp_mo_all $TMP_FILES_PATH/tmp_mo
+rm $TMP_FILES_PATH/tmp_mo_all $TMP_FILES_PATH/tmp_mo
 #fi

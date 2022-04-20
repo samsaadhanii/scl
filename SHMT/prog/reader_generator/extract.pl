@@ -23,16 +23,19 @@ chomp($in);
 if($in) {
   @flds = split(/\t/,$in);
   $flds[0] =~ s/^[^\.]+\.//;
+
   $flds[6] =~ s/ /{/;
   $flds[6] =~ s/ /;/g;
   $flds[6] =~ s/\//}\//g;
   $flds[6] =~ s/(\/[^;]+);/\1\{/g;
   $flds[6] =~ s/$/}/;
+
   $flds[8] =~ s/ /{/;
   $flds[8] =~ s/ /;/g;
   $flds[8] =~ s/\//}\//g;
-  $flds[8] =~ s/(\/[^;]+);/\1/g;
+  $flds[8] =~ s/(\/[^;]+);/\1\{/g;
   $flds[8] =~ s/$/}/;
+
   if($grpwith == $flds[0]) {
 # When the current word is to be grouped with the previous word
     $relation = $flds[3]."_".$flds[9];

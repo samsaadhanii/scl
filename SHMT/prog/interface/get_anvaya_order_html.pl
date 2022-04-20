@@ -13,7 +13,7 @@ print <<header
 <p><center>
 <a id="about" href="/scl/SHMT/about.html" target="_new">About</a>
 <a id="help" href="/scl/SHMT/anu_help.html" target="_new">Help</a>
-<input type="hidden" name="no_of_rows" value="10"/>
+<input type="hidden" name="no_of_rows" value="8"/>
 <input type="button" value="Show/Hide Rows..." onclick="window.open('/scl/SHMT/rows.html','ShowHideRowsWindow','top=200,left=200,height=500,width=300,location=no,menubar=no,toolbar=no,directories=no,statusbar=no');"/>
 <input type="checkbox" name="border_value" onchange="toggle_borders()"/>Borders
 <a href="/scl/SHMT/DEMO/./tmp_$fbn/table.xlsx">Save Annotation</a> 
@@ -25,46 +25,53 @@ print <<header
 header
 ;
 
-$word = 1;
 @in = <STDIN>;
 if ($anvaya == 1) {@new_in = &get_anvaya_order(@in);} else {@new_in = @in;}
-for ($k = 1; $k <=$#in; $k++) {
-$in = $new_in[$k];
+for ($word = 1; $word <=$#in; $word++) {
+$in = $new_in[$word];
 chomp($in);
+
 @flds = split(/\t/,$in);
 
 print "<table cellspacing=\"0\" border=\"0\">\n";
-foreach ($i=1;$i<=$#flds;$i++){
-  print "<tr class=\"row",$i,"\">\n";
-  if($word == 1) {
-    print "<td class=\"number\">\n";
-    if($i == 1) {
-      print "<a href=\"/",$CGIURL,"/scl/SHMT/prog/interface/call_parser_summary.cgi?filename=",$TFPATH,"\&amp;outscript=",$outscript,"&rel=''&sentnum=1&save=no&translate=no\"  onmouseover=\"Tip('<img src=/scl/SHMT/DEMO/tmp_",$fbn,"/1.1.svg >' ,FONTSIZE,'18pt',HEIGHT,400,WIDTH,1200,STICKY,true,CLOSEBTN,true)\" onmouseout=\"UnTip()\">\n";
-    }
-    print "<span Onclick=\"toggle();\">\n";
-    print $flds[0],".",chr(64+$i),"\n";
-    print "<\/span>\n";
-    if ($i == 1){ print "<\/a>";}
-    print "<\/td>\n";
-  }
-  $color_code = &color_code($flds[5]);
-  print "<td class=\"",$color_code,"\">\n";
+foreach ($fld=1;$fld<=$#flds;$fld++){
+   if ($fld == 1 || $fld > 3) {
+      print "<tr class=\"row",$fld,"\">";
+      if($word == 1) {
+        print "<td class=\"number\">";
+        if($fld == 1) { # index
+          print "<a href=\"/",$CGIURL,"/scl/SHMT/prog/interface/call_parser_summary.cgi?filename=",$TFPATH,"\&amp;outscript=",$outscript,"&rel=''&sentnum=1&save=no&translate=no\"  onmouseover=\"Tip('<img src=/scl/SHMT/DEMO/tmp_",$fbn,"/1.1.svg >' ,FONTSIZE,'18pt',HEIGHT,400,WIDTH,1200,STICKY,true,CLOSEBTN,true)\" onmouseout=\"UnTip()\"><\/a>\n";
+        }
+        print "<span Onclick=\"toggle();\">";
+        print "1.",chr(64+$fld);
+        print "<\/span>";
+        print "<\/td>";
+      }
+      $color_code = &color_code($flds[5]);
+      print "<td class=\"",$color_code,"\">";
   
-  if (($i==3) || ($i ==5)) {
-   @ana = split(/\//,$flds[$i]);
-   for ($j=0;$j<=$#ana;$j++) {
-   $ana[$j] =~ s/\(([^ ]*[_\-])?([^0-9\- ]+)([0-9]*)[ ]/\($1<a href="javascript:show('$2','$outscript')">$2$3<AAA>/g;
-   $ana[$j] =~ s/^([^ ]*[_\-])?([^0-9\- ]+)([0-9]*)[ ]/$1<a href="javascript:show('$2','$outscript')">$2$3<AAA>/;
-   $ana[$j] =~ s/\/([^ ]*[_\-])?([^0-9\- ]+)([0-9]*)[ ]/\/$1<a href="javascript:show('$2','$outscript')">$2$3<AAA>/g;
-   $ana[$j] =~ s/<AAA>/<\/a> /g;
-   print $ana[$j];
-   if($j < $#ana) { print "\/";}
-   }
-  } else { print $flds[$i];}
-  print "<\/td>\n";
+      if (($fld==4) || ($fld==5)) {
+       @ana = split(/\//,$flds[$fld]);
+       for ($j=0;$j<=$#ana;$j++) {
+          $ana[$j] =~ s/^([^{0-9]+)([0-9]?){/<a href="javascript:show('$1','$outscript')">$1$2<\/a>{/;
+          print $ana[$j];
+          if($j < $#ana) { print "\/";}
+       }
+       print "<\/td><\/tr>\n";
+      } else { print $flds[$fld]; print "<\/td><\/tr>\n";}
+  }
 }
-  print "<\/table>\n";
-  $word++;
+        print "<tr class=\"row",$#flds+1,"\">";
+        if($word == 1) { 
+           print "<td class=\"number\">";
+           print "<span Onclick=\"toggle();\">";
+           print "1.",chr(64+$#flds+1);
+           print "<\/span>";
+           print "<\/td>";
+        }
+        print "<td class=\"$color_code\">";
+        print "$flds[0]<\/td><\/tr>\n";
+ 	print "<\/table>\n";
 }
 
 sub color_code{

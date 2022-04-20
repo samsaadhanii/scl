@@ -106,14 +106,37 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
          open(TMP,">$GlblVar::TFPATH/tmp_in$pid/wor.$pid") || die "Can't open $GlblVar::TFPATH/tmp_in$pid/wor.$pid for writing";
          print TMP $sentences,"\n";
          close(TMP);
+         open(TMP1,">$GlblVar::TFPATH/tmp_in$pid/in$pid");
+         @sentences=split(/\./,$sentences);
+         foreach $sent (@sentences) {
+            $sent =~ s/^\n/ /;
+            $sent =~ s/^ [ \t]*//;
+            if($morph eq "GH"){
+              print TMP1 $sent,"\n";
+            } else {
+              print TMP1 "<s>",$sent,".</s>\n";
+            }
+         }
+         close(TMP1);
 
          print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
-           $sentences = '"'. $sentences  . '"';
-           my $exit_status = system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/callmtshell.pl $GlblVar::TFPATH $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot $sentences $encoding $pid $script $sandhi $morph $parse $text_type $GlblVar::LTPROCBIN $GlblVar::MYPYTHONPATH");
+           #$sentences = '"'. $sentences  . '"';
+          # my $exit_status = system("$GlblVar::SCLINSTALLDIR/SHMT/prog/shell/callmtshell.pl $GlblVar::TFPATH $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot $sentences $encoding $pid $script $sandhi $morph $parse $text_type $GlblVar::LTPROCBIN $GlblVar::MYPYTHONPATH");
 
-	    if($exit_status > -1) {
-	         &increment_curr_id;
-            }
+	  #  if($exit_status > -1) {
+	  #       &increment_curr_id;
+          #  }
+          `date > $GlblVar::TFPATH/tmp_in$pid/err$pid`;
+          $cmd = "$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/SHMT/prog/shell/anu_skt_hnd.sh $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot tmp_in${pid}/in$pid $GlblVar::TFPATH hi $script $sandhi $morph $parse $text_type NOECHO $GlblVar::LTPROCBIN $GlblVar::MYPYTHONPATH 2>> $GlblVar::TFPATH/tmp_in$pid/err$pid;";
+     $exec_status = system($cmd);
+     `date >> $GlblVar::TFPATH/tmp_in$pid/err$pid`;
+	$cmd = "/usr/local/bin/lt-proc -c /Users/ambakulkarni/amba/scl/morph_bin/all_but_samboXana_morf.bin < /tmp/SKT_TEMP/tmp_in1991/words > /tmp/111";
+        system($cmd);
+        `date >> $GlblVar::TFPATH/tmp_in$pid/err$pid`;
+
+     if($exec_status > -1 ) { 
+         &increment_curr_id;
+     }
 
            system("$GlblVar::SCLINSTALLDIR/SHMT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $script $pid");
       }
