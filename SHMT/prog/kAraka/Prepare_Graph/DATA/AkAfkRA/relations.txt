@@ -50,7 +50,7 @@ samuccaya_xyowakaH 64
 sup_samuccaya_xyowakaH 65
 anyawara_xyowakaH 66
 sup_anyawara_xyowakaH 67
-varwamAnasamAnakAlaH 70
+varwamAnasamAnakAlaH 75
 sahArWa_xyowakaH 76
 vinArWa_xyowakaH 77
 lyapkarmAXikaraNam 78
