@@ -50,7 +50,7 @@ samuccaya_dyotakaḥ 64
 sup_samuccaya_dyotakaḥ 65
 anyatara_dyotakaḥ 66
 sup_anyatara_dyotakaḥ 67
-vartamānasamānakālaḥ 70
+vartamānasamānakālaḥ 75
 sahārtha_dyotakaḥ 76
 vinārtha_dyotakaḥ 77
 lyapkarmādhikaraṇam 78

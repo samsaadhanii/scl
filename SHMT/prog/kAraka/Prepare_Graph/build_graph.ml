@@ -2042,9 +2042,8 @@ We can have vyAkulaH saH, and also ye janAH ...*)
        && not (rt2="yukwa")
        && not (rt2="yukwA")
        (* && not (pUrvapaxa1="sa") if the word agrees in g,n,v then mark it as a possible viseRaNam *)
-       (* && not (rt1 = "yax" && rt2 = "wax")
-        This was removed, see the comment a few lines up ;
-        Now why is it added ? *)
+       && not (rt1 = "yax" && rt2 = "wax" && not (viBakwiH1 == 1))
+       (* yasmAw wasmAw -- not possible, but yaH saH is possible *)
        then [ Relation (id1,mid1,"viSeRaNam",id2,mid2,"17.1")]
        else if rt2 = get_assoc rt1 parAjAwi_list 
        && not (finite_verb_in_sentence.val = 50 && karwqsamverbs.val = 50)
