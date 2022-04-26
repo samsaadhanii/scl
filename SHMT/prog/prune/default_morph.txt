@@ -75,3 +75,4 @@ xIyanwe=xA1<prayogaH:karmaNi><lakAraH:lat><puruRaH:pra><vacanam:bahu><paxI:Awman
 XqwvA=Xq1<vargaH:avy><kqw_prawyayaH:kwvA><XAwuH:XqF><gaNaH:BvAxiH><level:0>
 xUraxarSane=xUraxarSana<vargaH:nA><lifgam:napuM><viBakwiH:7><vacanam:eka><level:1>
 yaw=yaw<vargaH:avy><level:1>/yax<vargaH:sarva><lifgam:napuM><viBakwiH:1><vacanam:eka><level:1>/yax<vargaH:sarva><lifgam:napuM><viBakwiH:2><vacanam:eka><level:1>
+yawaH=yawaH<vargaH:avy><level:1>
