@@ -40,7 +40,7 @@ foreach ($fld=1;$fld<=$#flds;$fld++){
       if($word == 1) {
         print "<td class=\"number\">";
         if($fld == 1) { # index
-          print "<a href=\"/",$CGIURL,"/scl/SHMT/prog/interface/call_parser_summary.cgi?filename=",$TFPATH,"\&amp;outscript=",$outscript,"&rel=''&sentnum=1&save=no&translate=no\"  onmouseover=\"Tip('<img src=/scl/SHMT/DEMO/tmp_",$fbn,"/1.1.svg >' ,FONTSIZE,'18pt',HEIGHT,400,WIDTH,1200,STICKY,true,CLOSEBTN,true)\" onmouseout=\"UnTip()\">\n";
+          print "<a href=\"/",$CGIURL,"/scl/SHMT/prog/interface/call_parser_summary.cgi?filename=",$TFPATH,"\&amp;outscript=",$outscript,"&rel=''&sentnum=1&save=no&translate=no\"  onmouseover=\"Tip('<img src=/scl/SHMT/DEMO/tmp_",$fbn,"/1.1.svg >' ,FONTSIZE,'18pt',HEIGHT,400,WIDTH,700,STICKY,true,CLOSEBTN,true)\">\n";
         }
         print "<span Onclick=\"toggle();\">";
         print "1.",chr(64+$fld);
@@ -84,7 +84,16 @@ sub color_code{
    elsif($in =~ /कर्तरि/) { $colorcode = "KP";}
    elsif($in =~ /कर्मणि/) { $colorcode = "KP";}
    elsif($in =~ /भावे/) { $colorcode = "KP";}
-   elsif($in =~ /वर्गः:अव्य्/) { $colorcode = "NA";}
+   elsif($in =~ /अव्य;/) { $colorcode = "NA";}
+   elsif($in =~ /अव्य}/) { $colorcode = "NA";}
+   elsif($in =~ /puṃ;([1-8])/) { $colorcode = "N$1";}
+   elsif($in =~ /strī;([1-8])/) { $colorcode = "N$1";}
+   elsif($in =~ /sarvanāma;([1-8])/) { $colorcode = "N$1";}
+   elsif($in =~ /kartari/) { $colorcode = "KP";}
+   elsif($in =~ /karmaṇi/) { $colorcode = "KP";}
+   elsif($in =~ /bhāve/) { $colorcode = "KP";}
+   elsif($in =~ /avya;/) { $colorcode = "NA";}
+   elsif($in =~ /avya}/) { $colorcode = "NA";}
   $colorcode;
 }
 1;

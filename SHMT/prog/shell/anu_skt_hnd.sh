@@ -157,11 +157,13 @@ $ANU_MT_PATH/kAraka/shabdabodha.sh $SCLINSTALLDIR $GraphvizDot $Heritage_Input $
 # 16: lwg o/p
 # 17: gen o/p
 
-$ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out | $my_converter > $temp_files_path/table.tsv
+$ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out > $temp_files_path/table.tsv
 $MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py -i $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv -s $SCLINSTALLDIR -t hi
-$ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin A < $temp_files_path/anvaya.tsv > $temp_files_path/../anvaya_$fbn.html
+$my_converter < $temp_files_path/table.tsv > $temp_files_path/table_outscript.tsv
+$my_converter < $temp_files_path/anvaya.tsv > $temp_files_path/anvaya_outscript.tsv
+$ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin A < $temp_files_path/anvaya_outscript.tsv > $temp_files_path/../anvaya_$fbn.html
 perl $ANU_MT_PATH/interface/get_anvaya_shloka_translation.pl ${temp_files_path}/anvaya_$fbn  ${temp_files_path}/anvaya_${fbn}_trnsltn < $temp_files_path/anvaya.tsv
-$MYPYTHONPATH $ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table.tsv $temp_files_path/table.xlsx
+$MYPYTHONPATH $ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table_outscript.tsv $temp_files_path/table.xlsx
 #if [ $DEBUG = "OFF" ]; then 
 rm -rf $temp_files_path/tmp* $temp_files_path/in* $temp_files_path/wsd_files
 #fi

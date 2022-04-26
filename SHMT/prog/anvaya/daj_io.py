@@ -70,7 +70,7 @@ def parse_relation_field(text, rela_data):
     '''Splits the text in kaaraka_sambandha field into Relation Name
     and Parent ID. Relation Name is further mapped to the Relation ID'''
 
-    text = devtrans.dev2wx(text)
+    #text = devtrans.dev2wx(text)
 
     if text.startswith('aBihiwa') or not text.strip('-'):
         return 0, 0, 0
