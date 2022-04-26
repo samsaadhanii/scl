@@ -80,7 +80,9 @@ def parse_relation_field(text, rela_data):
     rels = text.split(';')
     for rel in rels:
         rel_name, p_id = rel.split(',')
-        if rel_name.startswith('niwya'):
+        if not rel_name:
+            continue
+        elif rel_name.startswith('niwya'):
             niwya_parent_id = int(p_id)
         else:
             relation_id = int(rela_data[rel_name])

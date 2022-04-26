@@ -40,11 +40,11 @@ foreach ($fld=1;$fld<=$#flds;$fld++){
       if($word == 1) {
         print "<td class=\"number\">";
         if($fld == 1) { # index
-          print "<a href=\"/",$CGIURL,"/scl/SHMT/prog/interface/call_parser_summary.cgi?filename=",$TFPATH,"\&amp;outscript=",$outscript,"&rel=''&sentnum=1&save=no&translate=no\"  onmouseover=\"Tip('<img src=/scl/SHMT/DEMO/tmp_",$fbn,"/1.1.svg >' ,FONTSIZE,'18pt',HEIGHT,400,WIDTH,1200,STICKY,true,CLOSEBTN,true)\" onmouseout=\"UnTip()\"><\/a>\n";
+          print "<a href=\"/",$CGIURL,"/scl/SHMT/prog/interface/call_parser_summary.cgi?filename=",$TFPATH,"\&amp;outscript=",$outscript,"&rel=''&sentnum=1&save=no&translate=no\"  onmouseover=\"Tip('<img src=/scl/SHMT/DEMO/tmp_",$fbn,"/1.1.svg >' ,FONTSIZE,'18pt',HEIGHT,400,WIDTH,1200,STICKY,true,CLOSEBTN,true)\" onmouseout=\"UnTip()\">\n";
         }
         print "<span Onclick=\"toggle();\">";
         print "1.",chr(64+$fld);
-        print "<\/span>";
+        print "<\/span><\/a>";
         print "<\/td>";
       }
       $color_code = &color_code($flds[5]);
