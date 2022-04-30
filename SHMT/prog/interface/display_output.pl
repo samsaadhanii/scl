@@ -109,8 +109,8 @@ $conv;
       if ($out_encoding eq "IAST") { print "hindī translation";} else { print "हिन्दी-अनुवाद";}
       print "</center></div> \n";
 
-      #system("cat $TFPATH/$hnd");
-      system("cat $TFPATH/$hnd | $my_converter");
+      system("cat $TFPATH/$hnd");
+      #system("cat $TFPATH/$hnd | $my_converter");
 
       print "</div></td></tr>\n
       <!--division for hindi texts ends here-->\n</table>\n<br><br><br><br><br>\n ";
