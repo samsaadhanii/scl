@@ -757,6 +757,19 @@ value disambiguate_final_kqw m1 = match m1 with
   | _ -> []
   ]
 ;
+
+(* To Disambiguate the Sawq - varwamAnasamAnakAlaH / viSeRaNam
+ *  Sawq = wA_huA in Hindi if viSeRaNam, if adv it is we_hue
+ *)
+value disambiguate_final_kqw m1 = match m1 with
+  [ Kqw (id1,mid1,word1,_,_,_,_,kqw_prawyayaH,_,rt1,_,_,_,_,rel,_) ->
+      if rel="varwamAnasamAnakAlaH"  && kqw_prawyayaH = "Sawq_lat" then
+        [ Relation (id1,mid1,"kqw_prawyayaH",kqw_prawyayaH,"Sawq_lat_adv","1.1") ]
+      else []
+  | _ -> []
+  ]
+;
+
 value all_rules3 =
 [ disambiguate_nAma ]
 ;

@@ -259,6 +259,7 @@ struct tam_gnp_str tam_gnp_str_ar[TOTAL_FVG_TAMS] = {
 {"wA_rahawA_hE","wA_raha_wA_hE_hE","wA[g_v,n_v,-]raha_wA[g_v,n_v,-]hE_hE[-,n_v,p_v]","-2","-1","-1"},
 {"wA_rahawA_ho","wA_raha_wA_ho_0","wA[g_v,n_v,-]raha_wA[g_v,n_v,-]ho_0[-,n_v,p_v]","-2","-1","-1"},
 {"wA_rahawA_hogA","wA_raha_wA_ho_gA","wA[g_v,n_v,-]raha_wA[g_v,n_v,-]ho_gA[g_v,n_v,p_v]","-1","-1","-1"},
+{"we_hue","wA_ho_yA1","wA[m,p,-]ho_yA[m,p,-]","m","p","0"},
 {"yA","yA","yA[g_v,n_v,-]","-1","-1","0"},
 {"yA_A_gA","yA1_A_gA","yA1[g_v,n_v,-]A_gA[g_v,n_v,p_v]","-1","-1","-1"},
 {"yA_A_rahA_WA","yA1_A_0_raha_yA_WA_WA","yA1[g_v,n_v,-]A_0[-,-,-]raha_yA[g_v,n_v,-]WA_WA[g_v,n_v,-]","-1","-1","0"},
