@@ -40,6 +40,7 @@ data, is_deptree = daj_io.parse_data(arguments.i, rela_data)
 
 if is_deptree:
     trees = daj_rules.create_tree(data)
+    trees = daj_rules.sort_subtrees(trees)
     word_order = []
     for tree in trees:
         sorted_tree = daj_rules.sort_tree(tree, prob_data)

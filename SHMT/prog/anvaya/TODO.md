@@ -20,6 +20,8 @@
 
 * Foreign languages
   - Still to decide whether a separate sorting algorithm is needed. A custom linearization traversal should handle it
+  - Learn natural word order from available tree bank [Discuss with supervisor]
+  - May need to code modules to map UD/PDT/SD relations to Samsaadhanii's relations
 
 * Multiple prose orders
   - Discard orders having very low or zero probability
@@ -38,7 +40,7 @@
   - Sanskrit
     - ~~Deal with _dhyotaka relations~~
     - Deal with samuccita joining two sentences
-    - Ordering between subtrees of nityasambandhas
+    - ~~Ordering between subtrees of nityasambandhas~~
   - Hindi
   - Malayalam
   - Telugu

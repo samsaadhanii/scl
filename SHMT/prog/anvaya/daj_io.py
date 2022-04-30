@@ -4,7 +4,6 @@ import os
 import csv
 import numpy
 import pandas
-import devtrans
 
 
 def load_relations(rela_file):
@@ -26,7 +25,7 @@ def load_probabilities(prob_file):
 
     prob_data_dict = {}
 
-    prob_data = pandas.read_csv(prob_file, usecols=(0, 1, 4, 6))
+    prob_data = pandas.read_csv(prob_file, sep='\t', usecols=(0, 1, 5, 6))
     for _, fields in prob_data.iterrows():
         prob_data_dict[(int(fields.x), int(fields.y))] = fields.pxy
         prob_data_dict[(int(fields.y), int(fields.x))] = fields.pyx
@@ -45,21 +44,21 @@ def parse_data(fname, rela_data):
     elif fexte in ('xls', 'xlsx', 'ods'):
         data = pandas.read_excel(fname)
 
-    data['kaaraka_sambandha'].replace(numpy.nan, '', inplace=True)
+    data['@kaaraka_@sambandha'].replace(numpy.nan, '', inplace=True)
 
     # Splits Relation field to Relation ID and Parent ID
     for ind, fields in data.iterrows():
-        burst = parse_relation_field(fields['kaaraka_sambandha'], rela_data)
+        burst = parse_relation_field(fields['@kaaraka_@sambandha'], rela_data)
         data.at[ind, 'r_id'] = burst[0]
         data.at[ind, 'p_id'] = burst[1]
         data.at[ind, 'niwya_p_id'] = burst[2]
 
     # Word ID, Relation ID and Parent ID are indeed integers
     data = data.astype({
-        'index': int, 'r_id': int, 'p_id': int, 'niwya_p_id': int})
+        '@index': int, 'r_id': int, 'p_id': int, 'niwya_p_id': int})
 
     # I don't need Pandas' indices, I have an index -- Word ID
-    data.set_index('index', inplace=True)
+    data.set_index('@index', inplace=True)
 
     is_deptree = True if any(data.r_id) else False
 
@@ -69,8 +68,6 @@ def parse_data(fname, rela_data):
 def parse_relation_field(text, rela_data):
     '''Splits the text in kaaraka_sambandha field into Relation Name
     and Parent ID. Relation Name is further mapped to the Relation ID'''
-
-    #text = devtrans.dev2wx(text)
 
     if text.startswith('aBihiwa') or not text.strip('-'):
         return 0, 0, 0
@@ -97,10 +94,10 @@ def add_order(data, word_order):
 
     for index in data.index:
         poem = word_order.index(index) + 1
-        data.at[index, 'poem'] = poem
+        data.at[index, '@poem'] = poem
 
     data.drop(['r_id', 'p_id', 'niwya_p_id'], axis=1, inplace=True)
-    data = data.astype({'poem': int})
+    data = data.astype({'@poem': int})
     data.replace(numpy.nan, '', inplace=True)
 
     return data
@@ -117,5 +114,4 @@ def write_out(data, out_file):
         else:
             data.to_csv(out_file, sep='\t')
     else:
-        print(data.sort_values('poem')['word']
-              .apply(lambda x: devtrans.dev2wx(x)))
+        print(data.sort_values('@poem')['@word'])

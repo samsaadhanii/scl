@@ -6,6 +6,10 @@ import itertools
 hold_relations_sa = [28, 64, 65, 66, 67, 76, 77, 80, 97, 1002]
 hold_relations_hi = [28, 76, 77, 80, 97, 1002]
 
+# List of couplets for manual override due to mistakes in machine learning
+# due to sparse or wrong data.
+PROB_OVERRIDE = []
+
 
 def create_tree(data):
     '''Creates an 'anytree' object representation of the dependency tree'''
@@ -16,7 +20,8 @@ def create_tree(data):
         node = anytree.Node(
             ind,
             r_id=fields.r_id,
-            p_id=fields.p_id)
+            p_id=fields.p_id,
+            niwya_p_id=fields.niwya_p_id)
         if fields.p_id == 0:
             roots.append(node)
         else:
@@ -39,6 +44,37 @@ def add_children(root, nodes):
     for child in children:
         add_children(child, nodes)
     return root
+
+
+def sort_subtrees(trees):
+    '''Sort subtrees connected by nitya_sambandha their natural order.'''
+
+    sorted_trees = []
+    niwya_p_id = 0
+
+    for tree in trees:
+        niwya_node = anytree.search.find(
+            tree, lambda node: node.niwya_p_id != 0)
+
+        if niwya_node:
+            niwya_p_id = niwya_node.niwya_p_id
+            niwya_p_tree_index = -1
+
+            for i, sort_tree in enumerate(sorted_trees):
+                if anytree.search.find(sort_tree, lambda node:
+                                       node.name == niwya_p_id):
+                    niwya_p_tree_index = i
+                    break
+
+            if niwya_p_tree_index != -1:
+                sorted_trees.insert(niwya_p_tree_index, tree)
+            else:
+                sorted_trees.append(tree)
+
+        else:
+            sorted_trees.append(tree)
+
+    return sorted_trees
 
 
 def sort_tree(tree, prob_data):
@@ -104,10 +140,16 @@ def calculate_scores(seq, prob_data):
         one = couple[0]
         two = couple[1]
 
+        # If the couplet order is in manual override list, probability stays.
+        # if the reverse couplet order is the list, probability becomes zero.
         # If relations are the same or if the couplet is not found
         # in the learned probabilities list, the probability score is 0.5
         # Otherwise, gets probability score from the learned probabilities
-        if one.r_id == two.r_id or (one.r_id, two.r_id) not in prob_data:
+        if (one.r_id, two.r_id) in PROB_OVERRIDE:
+            pass
+        elif (two.r_id, one.r_id) in PROB_OVERRIDE:
+            prob_score = 0
+        elif one.r_id == two.r_id or (one.r_id, two.r_id) not in prob_data:
             prob_score *= 0.5
         else:
             prob_score *= prob_data[(one.r_id, two.r_id)]
