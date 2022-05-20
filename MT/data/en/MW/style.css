@@ -1,0 +1,136 @@
+/* This is for comments */
+
+body { font-family: 'IndUni-T','Times IndUni','Arial Unicode MS',sanserif;font-size: 12pt
+ color: rgb(0%,0%,0%);
+ background-color: rgb(100%,100%,94%);
+ }
+
+td.c2{font-family: 'IndUni-T','Times IndUni','Arial Unicode MS',sanserif;font-size: 14pt
+}
+
+p, em { font-family: sanserif;
+ font-family: 'IndUni-T','Times IndUni','Arial Unicode MS',sanserif;font-size: 12pt
+ }
+ 
+div.her {
+background-color: rgb(100%,100%,70%);	
+}
+a.Green {font-family: 'IndUni-T','Times IndUni','Arial Unicode MS',sanserif; color: #008000;font-size: 12pt;}
+
+a:link, a:active { color: rgb(29%,23%,61%);
+/*  background-color: rgb(80%,80%,65%); */
+/*  text-decoration: none; */
+ }
+
+a.Green:visited { color: rgb(56%,13%,18%);
+/*  background-color: rgb(80%,80%,65%); */
+/*  text-decoration: none; */
+ }
+
+a.Green:hover { color: rgb(13%,43%,18%);
+/*  background-color: rgb(80%,80%,65%); */
+/*  text-decoration: none; */
+ }
+
+a.title:link {color: rgb(29%,23%,61%);
+ background-color: rgb(100%,100%,94%);
+ text-decoration: none;
+ }
+
+a.title:active { color: rgb(29%,23%,61%);
+ background-color: rgb(100%,100%,94%);
+ text-decoration: none;
+ }
+
+a.title:visited { color: rgb(56%,13%,18%);
+ background-color: rgb(100%,100%,94%);
+ text-decoration: none;
+ }
+
+a.title:hover { color: rgb(13%,43%,18%);
+ background-color: rgb(100%,100%,94%);
+ text-decoration: none;
+ }
+
+div.title { color: rgb(0%,0%,0%);
+ background-color: rgb(80%,80%,65%);
+ text-align: left;
+ font-size: 16pt;
+ padding: 0.5%;
+ border-top: solid 0.16em rgb(29%,23%,61%);
+ }
+
+div.version { text-align: right;
+ padding: 0.5%;
+ font-size: 13pt;
+ color: rgb(0%,0%,0%);
+font-family: 'IndUni-T','Times IndUni','Arial Unicode MS',sanserif;font-size: 12pt
+ background-color: rgb(100%,100%,94%);
+ }
+
+div.letter { color: rgb(0%,0%,0%);
+ background-color: rgb(80%,80%,70%);
+ text-align: left;
+ font-size: 14pt;
+ padding: 0.5%;
+ border-top: solid 0.16em rgb(29%,23%,61%);
+ }
+
+div.minayeff { padding: 2%;
+ color: rgb(0%,0%,0%);
+ background-color: rgb(100%,100%,94%);
+/*  background-image: url("parchment_5.gif"); */
+ background-repeat: repeat;
+ background-attachment: fixed;
+ }
+
+table.title { font-family: arial, helvetica, sanserif;
+ font-size: 16pt;
+}
+
+table.version { font-family: arial, helvetica, sanserif;
+ font-size: 13pt;
+}
+
+table.letter { font-family: arial, helvetica, sanserif;
+ font-size: 14pt;
+}
+span.Deva {font-family: 'Devanagari MT','Arial Unicode MS',sanserif; color: #800000; font-size: 12pt}
+span.text {font-family: 'IndUni-T','Times IndUni','Arial Unicode MS',sanserif; font-size: 12pt}
+span.Trans12 {font-family: 'IndUni-T','Times IndUni','Arial Unicode MS',sanserif; font-size: 12pt}
+a.Navy {font-family: 'IndUni-T','Times IndUni','Arial Unicode MS',sanserif; color: #000080}
+a:link {color: #0000FF;}
+a:visited {color: #800080;}
+a.defb {color: Blue}
+a.defg {color: Green}
+a.Red {font-family: 'IndUni-T','Times IndUni','Arial Unicode MS',sanserif; color: #FF0000}
+h1.title {font-family: 'Times', sanserif; color: Red; font-size: 24pt; text-align: center}
+h2.blue {font-family: 'Times', sanserif; color: Blue; font-size: 18pt}
+body.rose {margin-left: 0pt; margin-right: 0pt; margin-top: 15pt; background-color: #FFDDDD}
+table.cyan {background-color: #00FFFF}
+span.red {font-family: 'Times', sanserif; color: Red}
+span.blue {font-family: 'Times', sanserif; color: Blue; font-size: 13pt}
+span.green {font-family: 'Times', sanserif; color: Green}
+div.center {text-align: center}
+table.Mauve_cent {background-color: #FF99FF; margin: auto}
+table.Yellow_cent {background-color: #FFFF66; margin: auto}
+table.Lavand_cent {background-color: #E6E6FA; margin: auto}
+div.enpied {position: fixed; height: 55pt; bottom: 0pt; width: 100%}
+h1.title {font-family: 'IndUni-T','Times IndUni','Arial Unicode MS', sanserif; color: Red; font-size: 24pt; text-align: center}
+h2.title {font-family: 'IndUni-T','Times IndUni','Arial Unicode MS', sanserif; color: Red; font-size: 18pt; text-align: center}
+a.Blue {font-family: 'IndUni-T','Times IndUni','Arial Unicode MS', sanserif; color: #0000FF;font-size: 12pt;}
+persName,author {font-family: 'IndUni-T','Times IndUni','Arial Unicode MS', sanserif; color: #0000FF;font-size: 12pt;}
+table.hor-minimalist-a{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12pt;
+	background: #fff;
+	margin: 45px;
+	width: 480px;
+	border-collapse: collapse;
+	text-align: left;
+}
+td.name, td.Cont
+{
+	color: #009;
+	padding: 9px 8px 0px 8px;
+}

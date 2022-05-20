@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT dict (lexhead*)>
+<!ELEMENT lexhead (#PCDATA|dentry|prAwipaxikam|cat|gen|etymology|sense|sublexhd|segmenthd|compoundverb|subsegmenthd|jAwi|upAXi|is_a_part|kind_of|grammar|compound|seg|num)*>
+<!ELEMENT segmenthd (#PCDATA|dentry|prAwipaxikam|seg|cat|gen|etymology|sense|subsegmenthd|is_a_part|kind_of|jAwi|upAXi|grammar)*>
+<!ATTLIST lexhead no CDATA #REQUIRED>
+<!ELEMENT dentry (#PCDATA|h|seg)*>
+<!ELEMENT prAwipaxikam (#PCDATA|seg)*>
+<!ATTLIST prAwipaxikam gen CDATA #IMPLIED>
+<!ELEMENT cat (#PCDATA)>
+<!ELEMENT gen (#PCDATA)>
+<!ELEMENT num (#PCDATA)>
+<!ELEMENT grammar (#PCDATA|paxI|gaNa|vform)*>
+<!ELEMENT compound (#PCDATA|sense|dentry|prAwipaxikam|grammar|seg|etymology)*>
+<!ELEMENT etymology (#PCDATA|citation|vform)*>
+<!ELEMENT vform (#PCDATA)>
+<!ELEMENT is_a_part (#PCDATA)>
+<!ELEMENT kind_of (#PCDATA)> 
+<!ELEMENT jAwi (#PCDATA)>
+<!ELEMENT upAXi (#PCDATA)>
+<!ELEMENT paxI (#PCDATA)>
+<!ELEMENT gaNa (#PCDATA)>
+<!ELEMENT sense (#PCDATA|ref|citation|vform)*>
+<!ATTLIST sense no CDATA #IMPLIED>
+<!ATTLIST sense n CDATA #IMPLIED>
+<!ELEMENT seg (#PCDATA)>
+<!ELEMENT citation (#PCDATA|citation)*>
+<!ELEMENT subsegmenthd (#PCDATA|root|seg|cat|gen|etymology|sense|prAwipaxikam|grammar|dentry)*>
+<!ELEMENT compoundverb (#PCDATA|root|seg|cat|gen|etymology|sense)*>
+<!ELEMENT sublexhd (#PCDATA|root|seg|cat|gen|etymology|sense)*>

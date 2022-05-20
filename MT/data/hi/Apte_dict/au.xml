@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dict SYSTEM "apte.dtd">
+<?xml-stylesheet href="apte.css" type="text/css" ?>
+<dict>
+<lexhead no="1">
+<dentry>औ</dentry>
+<prAwipaxikam>औ</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<etymology>[आ_अव्+क्विप्, ऊठ]</etymology>
+<sense no="1">आमंत्रण</sense>
+<sense n="2">संबोधन</sense>
+<sense n="3">विरोध</sense>
+<sense n="4">शपथोक्ति अथवा संकल्पद्योतक अव्यय</sense>
+</lexhead>
+
+<lexhead no="2">
+<dentry>औक्थिक्यम्</dentry>
+<prAwipaxikam>औक्थिक्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उक्थ+ठक्+ष्यञ्]</etymology>
+<sense no="1">उक्थ का पाठ</sense>
+</lexhead>
+
+<lexhead no="3">
+<dentry>औक्थम्</dentry>
+<prAwipaxikam>औक्थ</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उक्थ+अण्]</etymology>
+<sense no="1">पाठ करने की विशेष रीति, उक्थ अंग से संबंध रखने वाली</sense>
+</lexhead>
+
+<lexhead no="4">
+<dentry>औक्षकम्</dentry>
+<prAwipaxikam>औक्षक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology><vigraha_vAkya>उक्ष्णां समूह इत्यर्थे उक्षन्</vigraha_vAkya>उक्षन्+अण्/उक्षन्+वुञ्]</etymology>
+<kind_of>समूहः</kind_of>
+<jAwi>स्तनपायी</jAwi>
+<upAXi>समूहः</upAXi>
+<sense no="1">बैलों का झुण्ड<citation>शि* ५/६२</citation></sense>
+</lexhead>
+
+<lexhead no="5">
+<dentry>औक्षम्</dentry>
+<prAwipaxikam>औक्ष</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology><vigraha_vAkya>उक्ष्णां समूह इत्यर्थे उक्षन्</vigraha_vAkya>उक्षन्-अण्/उक्षन्+वुञ्]</etymology>
+<sense no="1">बैलों का झुण्ड</sense>
+</lexhead>
+
+<lexhead no="6">
+<dentry>औग्र्यम्</dentry>
+<prAwipaxikam>औग्र्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उग्र+ष्यञ्]</etymology>
+<sense no="1">दृढ़ता, भीषणता, भयंकरता, क्रूरता आदि</sense>
+</lexhead>
+
+<lexhead no="7">
+<dentry>औघः</dentry>
+<prAwipaxikam>औघ</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[ओघ+अण्]</etymology>
+<sense no="1">बाढ़, जलप्लावन</sense>
+</lexhead>
+
+<lexhead no="8">
+<dentry>औचित्यम्</dentry>
+<prAwipaxikam>औचित्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उचित+ष्यञ्]</etymology>
+<sense no="1">उपयुक्तता, योग्यता, उचितपना</sense>
+<sense n="2">संगति या योग्यता, वाक्य में शब्द के यथार्थ अर्थ का निर्धारण करने के लिए कल्पित परिस्थितियों में से एकसामर्थ्यौचिती देशः कालो व्यक्तिः स्वरादयः<citation>सा* द* २</citation></sense>
+</lexhead>
+
+<lexhead no="9">
+<dentry>औचिती</dentry>
+<prAwipaxikam>औचिती</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+?<etymology>[उचित+ष्यञ्+ड़ीष्, यलोपश्च]</etymology>
+<sense no="1">उपयुक्तता, योग्यता, उचितपना</sense>
+<sense n="2">संगति या योग्यता, वाक्य में शब्द के यथार्थ अर्थ का निर्धारण करने के लिए कल्पित परिस्थितियों में से एक</sense>
+</lexhead>
+
+<lexhead no="10">
+<dentry>औच्चैःश्रवसः</dentry>
+<prAwipaxikam>औच्चैःश्रवस्</prAwipaxikam>
+<grammar>पुं*</grammar>
+?<etymology>[उच्चैः-श्रवस्+अण्]</etymology>
+<sense no="1">इन्द्र का घोड़ा</sense>
+</lexhead>
+
+<lexhead no="11">
+<dentry>औजसिक</dentry>
+<prAwipaxikam>औजसिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औजसिक</prAwipaxikam>
+<etymology>[ओजस्+ठक्]</etymology>
+<sense no="1">ऊर्जस्वी, बलवान, स्त्री* - औजसिकी</sense>
+</lexhead>
+
+<lexhead no="12">
+<dentry>औजसिकः</dentry>
+<prAwipaxikam>औजसिक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[ओजस्+ठक्]</etymology>
+<sense no="1">नायक शूरवीर</sense>
+</lexhead>
+
+<lexhead no="13">
+<dentry>औजस्य</dentry>
+<prAwipaxikam>औजस्य</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औजस्य</prAwipaxikam>
+<etymology>[ओजस्+ष्यञ्]</etymology>
+<sense no="1">बल और स्फूर्ति का संचारक</sense>
+</lexhead>
+
+<lexhead no="14">
+<dentry>औजस्यम्</dentry>
+<prAwipaxikam>औजस्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[ओजस्+ष्यञ्]</etymology>
+<sense no="1">सामर्थ्य, जीवनशक्ति, ऊर्जा, स्फूर्ति</sense>
+</lexhead>
+
+<lexhead no="15">
+<dentry>औज्ज्वल्यम्</dentry>
+<prAwipaxikam>औज्ज्वल्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उज्ज्वल+ष्यञ्]</etymology>
+<sense no="1">उज्ज्वलता, कान्ति</sense>
+</lexhead>
+
+<lexhead no="16">
+<dentry>औडुपिक</dentry>
+<prAwipaxikam>औडुपिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औडुपिक</prAwipaxikam>
+<etymology>[उडुप+ठक्]</etymology>
+<sense no="1">किश्ती में बैठकर पार करने वाला, स्त्री* - औडुपिकी</sense>
+</lexhead>
+
+<lexhead no="17">
+<dentry>औडुपिकः</dentry>
+<prAwipaxikam>औडुपिक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[उडुप+ठक्]</etymology>
+<sense no="1">किश्ती या लठ्ठे का यात्री</sense>
+</lexhead>
+
+<lexhead no="18">
+<dentry>औडुम्बर</dentry>
+<prAwipaxikam>औडुम्बर</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औडुम्बर</prAwipaxikam>
+<etymology>[उदुम्बर+अञ्]</etymology>
+<sense no="1">गूलर के वृक्ष से या उससे प्राप्त, स्त्री०--औडुम्बरी</sense>
+</lexhead>
+
+<lexhead no="19">
+<dentry>औडुम्बरः</dentry>
+<prAwipaxikam>औडुम्बर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[उदुम्बर+अञ्]</etymology>
+<sense no="1">ऐसा प्रदेश जहां गूलर के वृक्ष बहुतायत से हों</sense>
+</lexhead>
+
+<lexhead no="20">
+<dentry>औडुम्बरी</dentry>
+<prAwipaxikam>औडुम्बरी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[उदुम्बर+अञ्]</etymology>
+<sense no="1">गूलर की शाखा</sense>
+</lexhead>
+
+<lexhead no="21">
+<dentry>औडुम्बरम्</dentry>
+<prAwipaxikam>औडुम्बर</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उदुम्बर+अञ्]</etymology>
+<sense no="1">गूलर की लकड़ी</sense>
+<sense n="2">गूलर का फल</sense>
+<sense n="3">तांबा</sense>
+</lexhead>
+
+<lexhead no="22">
+<dentry>औड्रः</dentry>
+<prAwipaxikam>औड्र</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[ओड्र+अण्]</etymology>
+<sense no="1">ओड्र देश का निवासी या राजा, वर्तमान उड़ीसा</sense>
+</lexhead>
+
+<lexhead no="23">
+<dentry>औत्कण्ठ्यम्</dentry>
+<prAwipaxikam>औत्कण्ठ्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उत्कण्ठा+ष्यञ्]</etymology>
+<sense no="1">इच्छा, लालसा</sense>
+<sense n="2">चिन्ता</sense>
+</lexhead>
+
+<lexhead no="24">
+<dentry>औत्कर्ष्यम्</dentry>
+<prAwipaxikam>औत्कर्ष्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उत्कर्ष+ष्यञ्]</etymology>
+<sense no="1">श्रेष्ठता, उत्कृष्टता</sense>
+</lexhead>
+
+<lexhead no="25">
+<dentry>औत्तमिः</dentry>
+<prAwipaxikam>औत्तमि</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[उत्तम+इञ्]</etymology>
+<sense no="1">१४ मनुओं में से तीसरा</sense>
+</lexhead>
+
+<lexhead no="26">
+<dentry>औत्तरः</dentry>
+<prAwipaxikam>औत्तर</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औत्तर</prAwipaxikam>
+<sense no="1">उत्तरी, स्त्री* - औत्तरी, औत्तरा</sense>
+</lexhead>
+
+<lexhead no="27">
+<dentry>औत्तरेयः</dentry>
+<prAwipaxikam>औत्तरेय</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[उत्तरा+ढक्]</etymology>
+<sense no="1">अभिमन्यु और उत्तरा का पुत्र परीक्षित</sense>
+</lexhead>
+
+<lexhead no="28">
+<dentry>औत्तानपादः</dentry>
+<prAwipaxikam>औत्तानपाद</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[उत्तानपाद+अण्/उत्तानपाद+इञ्]</etymology>
+<sense no="1">ध्रुव</sense>
+<sense n="2">उत्तर दिशा में वर्त्तमान तारा</sense>
+</lexhead>
+
+<lexhead no="29">
+<dentry>औत्पत्तिक</dentry>
+<prAwipaxikam>औत्पत्तिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औत्पत्तिक</prAwipaxikam>
+<etymology>[उत्पत्ति+ठक्]</etymology>
+<sense no="1">अन्तर्जात, सहज, स्त्री* - औत्पत्तिकी</sense>
+<sense n="2">एक ही समय पर उत्पन्न</sense>
+</lexhead>
+
+<lexhead no="30">
+<dentry>औत्पात</dentry>
+<prAwipaxikam>औत्पात</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औत्पात</prAwipaxikam>
+<etymology>[उत्पात+अण्]</etymology>
+<sense no="1">अपशकुनों का विश्लेषक</sense>
+</lexhead>
+
+<lexhead no="31">
+<dentry>औत्पातिक</dentry>
+<prAwipaxikam>औत्पातिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औत्पातिक</prAwipaxikam>
+<etymology>[उत्पात+ठक्]</etymology>
+<sense no="1">अमंगलकारी, अलौकिक, संकटमय<citation>रघु* ४४</citation>५३, स्त्री* - औत्पतिकी</sense>
+</lexhead>
+
+<lexhead no="32">
+<dentry>औत्पातिकम्</dentry>
+<prAwipaxikam>औत्पातिक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उत्पात+ठक्]</etymology>
+<sense no="1">अपशकुन या अमंगल</sense>
+</lexhead>
+
+<lexhead no="33">
+<dentry>औत्सङ्गिक</dentry>
+<prAwipaxikam>औत्सङ्गिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औत्सङ्गिक</prAwipaxikam>
+<etymology>[उत्संग+ठक्]</etymology>
+<sense no="1">कूल्हे पर रखा हुआ, या कूल्हे पर धारण किया हुआ, स्त्री* - औत्संगिकी</sense>
+</lexhead>
+
+<lexhead no="34">
+<dentry>औत्सर्गिक</dentry>
+<prAwipaxikam>औत्सर्गिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औत्सर्गिक</prAwipaxikam>
+<etymology>[उत्सर्ग+ठञ्]</etymology>
+<sense no="1">सामान्य विधि जो अपवाद रूप में ही त्यागने योग्य हो, स्त्री* - औत्सर्गिकी, जैसे कि व्याकरण का नियम</sense>
+<sense n="2">सामान्य, प्रतिबन्धरहित, सहजविप* विशेष</sense>
+<sense n="3">व्युत्पन्न, यौगिक</sense>
+</lexhead>
+
+<lexhead no="35">
+<dentry>औत्सुक्यम्</dentry>
+<prAwipaxikam>औत्सुक्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उत्सुक+ष्यञ्]</etymology>
+<sense no="1">चिन्ता, बेचैनी</sense>
+<sense n="2">प्रबल इच्छा, उत्सुकता, उत्साहऔत्सुक्यमात्रमवसाययति प्रतिष्ठा ५/६, औत्सुक्येन कृतत्वरा सहभुवा व्यावर्तमाना ह्रिया<citation>रत्न* १/२</citation></sense>
+</lexhead>
+
+<lexhead no="36">
+<dentry>औदक</dentry>
+<prAwipaxikam>औदक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औदक</prAwipaxikam>
+<etymology>[उदक+अण्]</etymology>
+<sense no="1">जलीय, पनीला, जल से संबंध रखने वाला, (स्त्री* - औदकी)</sense>
+</lexhead>
+
+<lexhead no="37">
+<dentry>औदञ्चन</dentry>
+<prAwipaxikam>औदञ्चन</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औदञ्चन</prAwipaxikam>
+<etymology>[उदञ्चन+अण्]</etymology>
+<sense no="1">डोल या घड़े में रखा हुआ, (स्त्री* - औदञ्चनी)</sense>
+</lexhead>
+
+<lexhead no="38">
+<dentry>औदनिकः</dentry>
+<prAwipaxikam>औदनिक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[ओदन+ठञ्]</etymology>
+<jAwi>मनुष्यः</jAwi>
+<upAXi>वृत्तिः</upAXi>
+<sense no="1">रसोइया, दञ्च</sense>
+</lexhead>
+
+<lexhead no="39">
+<dentry>औदरिक</dentry>
+<prAwipaxikam>औदरिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औदरिक</prAwipaxikam>
+<etymology>[उदर+ठक्]</etymology>
+<kind_of>मनुष्यः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">बहुभोजी, पेटू, खाऊ, सर्वत्रौदिकस्याभ्यवहार्यमेव विषयः<citation>विक्रम* ३</citation>मालवि* ४, स्त्री* - औदरिकी</sense>
+</lexhead>
+
+<lexhead no="40">
+<dentry>औदर्य</dentry>
+<prAwipaxikam>औदर्य</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औदर्य</prAwipaxikam>
+<etymology><vigraha_vAkya>उदरे भवः</vigraha_vAkya>[उदर+यत्]</etymology>
+<sense no="1">गर्भस्थित</sense>
+<sense n="2">गर्भान्तः-प्रविष्ट</sense>
+</lexhead>
+
+<lexhead no="41">
+<dentry>औदश्वितम्</dentry>
+<prAwipaxikam>औदश्वित</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उदश्वित्+अण्]</etymology>
+<sense no="1">आधा पानी मिलाकर तैयार किया हुआ मट्ठा।</sense>
+</lexhead>
+
+<lexhead no="42">
+<dentry>औदार्यम्</dentry>
+<prAwipaxikam>औदार्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उदार+ष्यञ्]</etymology>
+<sense no="1">उदारता, कुलीनता, महत्ता</sense>
+<sense n="2">बड़प्पन, श्रेष्ठता</sense>
+<sense n="3">अर्थगांभीर्यस सौष्ठवौदार्यविशेषशालिनीं विनिश्चितार्थामिति वाचमाददे<citation>कि० १/३अर्थसंपत्ति</citation>दे* कि०११/४० पर मल्लि* और उदार’ के नी* उदारता</sense>
+</lexhead>
+
+<lexhead no="43">
+<dentry>औदासीन्यम्</dentry>
+<prAwipaxikam>औदासीन्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उदासीन+ष्यञ्]</etymology>
+<sense no="1">उपेक्षा, निःस्पृहता, पर्याप्तोसि प्रजाः पातुमौदासीन्येन वर्तितुम्<citation>रघु* १०/२५</citation>इदानीमौदास्यं यदि भजसि भागीरथि<citation>गंगा० ४</citation></sense>
+<sense n="2">एकान्तिकता, अकेलापन</sense>
+<sense n="3">पूर्ण विराग, वैराग्य</sense>
+</lexhead>
+
+<lexhead no="44">
+<dentry>औदास्यम्</dentry>
+<prAwipaxikam>औदास्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उदास+ष्यञ्]</etymology>
+<sense no="1">उपेक्षा, निःस्पृहता, सांसारिक विषयों से</sense>
+<sense n="2">एकान्तिकता, अकेलापन</sense>
+<sense n="3">पूर्ण विराग, वैराग्य</sense>
+</lexhead>
+
+<lexhead no="45">
+<dentry>औदुम्बर</dentry>
+<prAwipaxikam>औदुम्बर</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औदुम्बर</prAwipaxikam>
+<etymology>[उदुम्बर+अञ्]</etymology>
+<sense no="1">गूलर के वृक्ष से या उससे प्राप्त, स्त्री०--औदुम्बरी</sense>
+</lexhead>
+
+<lexhead no="46">
+<dentry>औदुम्बरः</dentry>
+<prAwipaxikam>औदुम्बर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[उदुम्बर+अञ्]</etymology>
+<sense no="1">ऐसा प्रदेश जहां गूलर के वृक्ष बहुतायत से हों</sense>
+</lexhead>
+
+<lexhead no="47">
+<dentry>औदुम्बरी</dentry>
+<prAwipaxikam>औदुम्बरी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[उदुम्बर+अञ्]</etymology>
+<sense no="1">गूलर की शाखा</sense>
+</lexhead>
+
+<lexhead no="48">
+<dentry>औदुम्बरम्</dentry>
+<prAwipaxikam>औदुम्बर</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उदुम्बर+अञ्]</etymology>
+<sense no="1">गूलर की लकड़ी</sense>
+<sense n="2">गूलर का फल</sense>
+<sense n="3">तांबा</sense>
+</lexhead>
+
+<lexhead no="49">
+<dentry>औद्गात्रम्</dentry>
+<prAwipaxikam>औद्गात्र</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उद्गातृ+अञ्]</etymology>
+<sense no="1">उद्गाता ऋत्विज का पद या कार्य ।</sense>
+</lexhead>
+
+<lexhead no="50">
+<dentry>औद्दालकम्</dentry>
+<prAwipaxikam>औद्दालक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उद्दाल+अण्+कन्]</etymology>
+<sense no="1">मधु जैसा एक पदार्थ जो तीखा और कड़वा होता है।</sense>
+</lexhead>
+
+<lexhead no="51">
+<dentry>औद्देशिक</dentry>
+<prAwipaxikam>औद्देशिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औद्देशिक</prAwipaxikam>
+<etymology>[उद्देश+ठक्]</etymology>
+<sense no="1">प्रकट करने वाला  निर्देशक, संकेतक। स्त्री* - औद्देशिकी</sense>
+</lexhead>
+
+<lexhead no="52">
+<dentry>औद्धत्यम्</dentry>
+<prAwipaxikam>औद्धत्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उद्धत+ष्यञ्]</etymology>
+<sense no="1">हेकड़ी, ढीठपना</sense>
+<sense n="2">साहसिकता, जीवटवाले कार्यों मे हिम्मतऔद्धत्यमायोजितकमसूत्रम्<citation>मा* १/४।</citation></sense>
+</lexhead>
+
+<lexhead no="53">
+<dentry>औद्धारिक</dentry>
+<prAwipaxikam>औद्धारिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औद्धारिक</prAwipaxikam>
+<etymology>[उद्धार+ठञ्]</etymology>
+<sense no="1">पैतृक सम्पत्ति में से घटाया हुआ, विभक्त करने योग्य, दाययोग्य, स्त्री* - औद्धारिकी</sense>
+</lexhead>
+
+<lexhead no="54">
+<dentry>औद्धारिकम्</dentry>
+<prAwipaxikam>औद्धारिक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उद्धार+ठञ्]</etymology>
+<sense no="1">एक अंश या दायभाग। पैतृक संपत्ति में से घटाया गया</sense>
+</lexhead>
+
+<lexhead no="55">
+<dentry>औद्भिदम्</dentry>
+<prAwipaxikam>औद्भिद</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उद्भिद्+अण्]</etymology>
+<sense no="1">झरने का पानी</sense>
+<sense n="2">सेंधा नमक</sense>
+</lexhead>
+
+<lexhead no="56">
+<dentry>औद्वाहिक</dentry>
+<prAwipaxikam>औद्वाहिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औद्वाहिक</prAwipaxikam>
+<etymology>[उद्वाह+ठञ्]</etymology>
+<sense no="1">विवाह से संबंध रखने वाला, स्त्री* - औद्वाहिकी</sense>
+<sense n="2">विवाह में प्राप्त<citation>याज्ञ*२/११८</citation>मनु* ९/२०६</sense>
+</lexhead>
+
+<lexhead no="57">
+<dentry>औद्वाहिकम्</dentry>
+<prAwipaxikam>औद्वाहिक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उद्वाह+ठञ्]</etymology>
+<sense no="1">विवाह के अवसर पर वधू को दिये गये उपहार, स्त्रीधन।</sense>
+</lexhead>
+
+<lexhead no="58">
+<dentry>औधस्यम्</dentry>
+<prAwipaxikam>औधस्</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[ऊधस्+ष्यञ्]</etymology>
+<sense no="1">दूध<citation>रघु* २/६६ अने* पा*।</citation>औड़ी से प्राप्त</sense>
+</lexhead>
+
+<lexhead no="59">
+<dentry>औन्नत्यम्</dentry>
+<prAwipaxikam>औन्नत्य</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औन्नत्य</prAwipaxikam>
+<etymology>[उन्नत+ष्यञ्]</etymology>
+<sense no="1">ऊँचाई, ऊँचा उठना, नैतिक रूप से भी</sense>
+</lexhead>
+
+<lexhead no="60">
+<dentry>औपकर्णिक</dentry>
+<prAwipaxikam>औपकर्णिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपकर्णिक</prAwipaxikam>
+<etymology>[उपकर्ण+ठक्]</etymology>
+<sense no="1">कान के निकट रहने वाला । स्त्री--औपकर्णिकी</sense>
+</lexhead>
+
+<lexhead no="61">
+<dentry>औपकार्यम्</dentry>
+<prAwipaxikam>औपकार्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उपकार्य+अण्]</etymology>
+<sense no="1">आवास, तम्बू।</sense>
+</lexhead>
+
+<lexhead no="62">
+<dentry>औपकार्या</dentry>
+<prAwipaxikam>औपकार्या</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[उपकार्य+अण्+टाप्]</etymology>
+<sense no="1">आवास, तम्बू।</sense>
+</lexhead>
+
+<lexhead no="63">
+<dentry>औपग्रस्तिकः</dentry>
+<prAwipaxikam>औपग्रस्तिक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[उपग्रस्त+ठञ्]</etymology>
+<sense no="1">ग्रहण</sense>
+<sense n="2">ग्रहण-ग्रस्त सूर्य या चन्द्रमा।</sense>
+</lexhead>
+
+<lexhead no="64">
+<dentry>औपग्रहिकः</dentry>
+<prAwipaxikam>औपग्रहिक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[उपग्रह+ठञ्]</etymology>
+<sense no="1">ग्रहण</sense>
+<sense n="2">ग्रहण-ग्रस्त सूर्य या चन्द्रमा।</sense>
+</lexhead>
+
+<lexhead no="65">
+<dentry>औपचारिक</dentry>
+<prAwipaxikam>औपचारिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपचारिक</prAwipaxikam>
+<etymology>[उपचार+ठक्]</etymology>
+<sense no="1">लाक्षणिक, आलंकारिक, गौण, स्त्री*- औपचारिकी, विप० मुख्य</sense>
+</lexhead>
+
+<lexhead no="66">
+<dentry>औपचारिकम्</dentry>
+<prAwipaxikam>औपचारिक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उपचार+ठक्]</etymology>
+<sense no="1">आलंकारिक प्रयोग।</sense>
+</lexhead>
+
+<lexhead no="67">
+<dentry>औपजानुक</dentry>
+<prAwipaxikam>औपजानुक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपजानुक</prAwipaxikam>
+<etymology>[उपजानु+ठक्]</etymology>
+<sense no="1">घुटनों के पास होने वाला। स्त्री* - औपजानुकी</sense>
+</lexhead>
+
+<lexhead no="68">
+<dentry>औपदेशिक</dentry>
+<prAwipaxikam>औपदेशिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपदेशिक</prAwipaxikam>
+<etymology>[उपदेश+ठक्]</etymology>
+<sense no="1">अध्यापन या उपदेश द्वारा जीविका कमाने वाला</sense>
+<sense n="2">शिक्षण द्वारा प्राप्तस्त्री* - औपदेशिकी, जैसे कि धन</sense>
+</lexhead>
+
+<lexhead no="69">
+<dentry>औपधर्म्यम्</dentry>
+<prAwipaxikam>औपधर्म्य</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपधर्म्य</prAwipaxikam>
+<etymology>[उपधर्म+ष्यञ्]</etymology>
+<sense no="1">मिथ्या सिद्धान्त, धर्मद्रोह</sense>
+<sense n="2">घटिया गुण या गुण का अपकृष्ट नियम ।</sense>
+</lexhead>
+
+<lexhead no="70">
+<dentry>औपधिक</dentry>
+<prAwipaxikam>औपधिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपधिक</prAwipaxikam>
+<etymology>[उपाधि+ठञ्]</etymology>
+<sense no="1">धूर्त, धोखेबाज। स्त्री* - औपधिकी</sense>
+</lexhead>
+
+<lexhead no="71">
+<dentry>औपधेयम्</dentry>
+<prAwipaxikam>औपधेय</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उपाधि+ढञ्]</etymology>
+<sense no="1">रथ क पहिया, रथांग।</sense>
+</lexhead>
+
+<lexhead no="72">
+<dentry>औपनायनिक</dentry>
+<prAwipaxikam>औपनायनिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपनायनिक</prAwipaxikam>
+<etymology>[उपनयन+ठक्]</etymology>
+<sense no="1">उपनयन संबंधी, या उपनयन के काम का<citation>मनु २/६८।</citation>स्त्री* - औपनायनिकी, जनेऊ के साथ दीक्षा देने का संस्कार</sense>
+</lexhead>
+
+<lexhead no="73">
+<dentry>औपनिधिक</dentry>
+<prAwipaxikam>औपनिधिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपनिधिक</prAwipaxikam>
+<etymology>[उपनिधि+ठक्]</etymology>
+<sense no="1">धरोहर से संबंध रखने वाला, स्त्री* - औपनिधिकी</sense>
+</lexhead>
+
+<lexhead no="74">
+<dentry>औपनिधिकम्</dentry>
+<prAwipaxikam>औपनिधिक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उपनिधि+ठक्]</etymology>
+<sense no="1">धरोहर या अमानत जो वस्तु धरोहर या अमानत के रूप में रखी जाय</sense>
+</lexhead>
+
+<lexhead no="75">
+<dentry>औपनिषद</dentry>
+<prAwipaxikam>औपनिषद</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपनिषद</prAwipaxikam>
+<etymology>[उपनिषद्+अण्]</etymology>
+<sense no="1">उपनिषदों में बताया हुआ या सिखाया हुआ, वेद विहित, आध्यात्मिक</sense>
+<sense n="2">उपनिषदों पर आधारित, स्थापित या उपनिषदों से गृहीतस्त्री* - औपनिषदी, औपनिषदं दर्शनम्, वेदा* द* का दूसरा नाम</sense>
+</lexhead>
+
+<lexhead no="76">
+<dentry>औपनिषदः</dentry>
+<prAwipaxikam>औपनिषद</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[उपनिषद्+अण्]</etymology>
+<sense no="1">परमात्मा, ब्रह्म</sense>
+<sense n="2">उपनिषदों के सिद्धान्तों का अनुयायी</sense>
+</lexhead>
+
+<lexhead no="77">
+<dentry>औपनीविक</dentry>
+<prAwipaxikam>औपनीविक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपनीविक</prAwipaxikam>
+<etymology>[उपनीवि+ठक्]</etymology>
+<sense no="1">स्त्री या पुरुषों की धोती की गाँठ या नाड़े के निकट रखा हुआ औपनीविकमरुन्द्ध किल स्त्री<citation>शि* १०/६०</citation>भट्टि* ४/२६। स्त्री* - औपनीविकी, करम्</sense>
+</lexhead>
+
+<lexhead no="78">
+<dentry>औपपत्तिक</dentry>
+<prAwipaxikam>औपपत्तिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपपत्तिक</prAwipaxikam>
+<etymology>[उपपत्ति+ठक्]</etymology>
+<sense no="1">तैयार, निकट स्त्री* - औपत्तिकी</sense>
+<sense n="2">योग्य, समुचित</sense>
+<sense n="3">प्राक्काल्पनिक</sense>
+</lexhead>
+
+<lexhead no="79">
+<dentry>औपमिक</dentry>
+<prAwipaxikam>औपमिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपमिक</prAwipaxikam>
+<etymology>[उपमा+ठक्]</etymology>
+<sense no="1">तुलना या उपमान का काम देने वाला, स्त्री* - औपमिकी</sense>
+<sense n="2">उपमा द्वारा प्रदर्शित</sense>
+</lexhead>
+
+<lexhead no="80">
+<dentry>औपम्यम्</dentry>
+<prAwipaxikam>औपम्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उपमा+ष्यञ्]</etymology>
+<sense no="1">तुलना, समरूपता, सादृश्य आत्मौपम्येन भूतेषु दयां कुर्वन्ति साधवः<citation>हि* १/१२।</citation></sense>
+</lexhead>
+
+<lexhead no="81">
+<dentry>औपयिक</dentry>
+<prAwipaxikam>औपयिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपयिक</prAwipaxikam>
+<etymology>[उपाय+ठक्]</etymology>
+<jAwi>द्रव्यम्</jAwi>
+<sense no="1">समुचित, योग्य, यथार्थ</sense>
+<sense n="2">प्रयत्नों द्वारा प्राप्तस्त्री* - औपयिकी</sense>
+</lexhead>
+
+<lexhead no="82">
+<dentry>औपयिकः</dentry>
+<prAwipaxikam>औपयिक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[उपाय+ठक्]</etymology>
+<jAwi>द्रव्यम्</jAwi>
+<sense no="1">उपाय, तरकीब, युक्ति, शिवमौपयिकं गरीयसीम्<citation>कि* २/३५।</citation></sense>
+</lexhead>
+
+<lexhead no="83">
+<dentry>औपयिकम्</dentry>
+<prAwipaxikam>औपयिक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उपाय+ठक्]</etymology>
+<jAwi>द्रव्यम्</jAwi>
+<sense no="1">उपाय, तरकीब, युक्ति</sense>
+</lexhead>
+
+<lexhead no="84">
+<dentry>औपरिष्ट</dentry>
+<prAwipaxikam>औपरिष्ट</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपरिष्ट</prAwipaxikam>
+<etymology>[उपरिष्ट+अण्]</etymology>
+<sense no="1">ऊपर होने वाला, ऊपर का स्त्री* - औपरिष्टी</sense>
+</lexhead>
+
+<lexhead no="85">
+<dentry>औपरोधिक</dentry>
+<prAwipaxikam>औपरोधिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपरोधिक</prAwipaxikam>
+<etymology>[उपरोध+ठक्]</etymology>
+<sense no="1">अनुग्रह संबंधी, कृपा संबंधी, अनुग्रह या कृपा के फलस्वरूप, स्त्री* - औपरोधिकी</sense>
+<sense n="2">विरोध करने वाला, बाधा डालने वाला</sense>
+</lexhead>
+
+<lexhead no="86">
+<dentry>औपरौधिक</dentry>
+<prAwipaxikam>औपरौधिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपरौधिक</prAwipaxikam>
+<etymology>[उपरोध+ठक्]</etymology>
+<sense no="1">अनुग्रह संबंधी, कृपा संबंधी, अनुग्रह या कृपा के फलस्वरूप, स्त्री* - औपरौधिकी</sense>
+<sense n="2">विरोध करने वाला, बाधा डालने वाला</sense>
+</lexhead>
+
+<lexhead no="87">
+<dentry>औपरोधिकः</dentry>
+<prAwipaxikam>औपरोधिक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[उपरोध+ठक्]</etymology>
+<sense no="1">पीलू वृक्ष की लकड़ी का डंडा</sense>
+</lexhead>
+
+<lexhead no="88">
+<dentry>औपल</dentry>
+<prAwipaxikam>औपल</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपल</prAwipaxikam>
+<etymology>[उपल+अण्]</etymology>
+<sense no="1">प्रस्तरमय, पत्थर का स्त्री* - औपली</sense>
+</lexhead>
+
+<lexhead no="89">
+<dentry>औपवस्तम्</dentry>
+<prAwipaxikam>औपवस्त</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उपवस्त+अण्]</etymology>
+<kind_of>व्रतम्</kind_of>
+<jAwi>क्रिया</jAwi>
+<sense no="1">उपवास रखना, उपवास</sense>
+</lexhead>
+
+<lexhead no="90">
+<dentry>औपवस्त्रम्</dentry>
+<prAwipaxikam>औपवस्त्र</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उपवस्त्र+अण्]</etymology>
+<sense no="1">उपवास के उपयुक्तभोजन, फलाहार</sense>
+<sense n="2">उपवास करना</sense>
+</lexhead>
+
+<lexhead no="91">
+<dentry>औपवास्यम्</dentry>
+<prAwipaxikam>औपवास्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उपवास+ष्यञ्]</etymology>
+<sense no="1">उपवास रखना</sense>
+</lexhead>
+
+<lexhead no="92">
+<dentry>औपवाह्य</dentry>
+<prAwipaxikam>औपवाह्य</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपवाह्य</prAwipaxikam>
+<etymology>[उपवाह्य+अण्]</etymology>
+<sense no="1">सवारी के काम आने वाला</sense>
+</lexhead>
+
+<lexhead no="93">
+<dentry>औपवाह्यः</dentry>
+<prAwipaxikam>औपवाह्य</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[उपवाह्य+अण्]</etymology>
+<sense no="1">राजा का हाथी</sense>
+<sense n="2">कोई राजकीय सवारी</sense>
+</lexhead>
+
+<lexhead no="94">
+<dentry>औपवेशिक</dentry>
+<prAwipaxikam>औपवेशिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपवेशिक</prAwipaxikam>
+<etymology>[उपवेश+ठञ्]</etymology>
+<sense no="1">पूरी लगन के साथ काम करके अपनी आजीविका कमाने वाला स्त्री* - औपवेशिकी</sense>
+</lexhead>
+
+<lexhead no="95">
+<dentry>औपसंख्यानिक</dentry>
+<prAwipaxikam>औपसंख्यानिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपसंख्यानिक</prAwipaxikam>
+<etymology>[उपसड़्ख्यान+ठक्]</etymology>
+<sense no="1">जिसका परिशिष्ट में वर्णन किया गया हो, स्त्री* - औपसड़्ख्यानिकी</sense>
+<sense n="2">परिशिष्ट</sense>
+</lexhead>
+
+<lexhead no="96">
+<dentry>औपसर्गिक</dentry>
+<prAwipaxikam>औपसर्गिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपसर्गिक</prAwipaxikam>
+<etymology>[उपसर्ग+ठञ्]</etymology>
+<sense no="1">विपत्ति का सामना करने योग्य</sense>
+<sense n="2">अमंगलसूचकस्त्री* - औपसर्गिकी</sense>
+</lexhead>
+
+<lexhead no="97">
+<dentry>औपस्थिक</dentry>
+<prAwipaxikam>औपस्थिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपस्थिक</prAwipaxikam>
+<etymology>[उपस्थ+ठक्]</etymology>
+<sense no="1">व्यभिचार द्वारा अपनी जीविका चलाने वाला</sense>
+</lexhead>
+
+<lexhead no="98">
+<dentry>औपस्थ्यम्</dentry>
+<prAwipaxikam>औपस्थ्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उपस्थ+ष्यञ्]</etymology>
+<sense no="1">सहवास, स्त्रीसंभोग</sense>
+</lexhead>
+
+<lexhead no="99">
+<dentry>औपहारिक</dentry>
+<prAwipaxikam>औपहारिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपहारिक</prAwipaxikam>
+<etymology>[उपहार+ठक्]</etymology>
+<sense no="1">उपहार या आहुति के काम आने वाला स्त्री* - औपहारिकी</sense>
+</lexhead>
+
+<lexhead no="100">
+<dentry>औपहारिकम्</dentry>
+<prAwipaxikam>औपहारिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपहारिक</prAwipaxikam>
+<etymology>[उपहार+ठक्]</etymology>
+<sense no="1">उपहार या आहुति</sense>
+</lexhead>
+
+<lexhead no="101">
+<dentry>औपाधिक</dentry>
+<prAwipaxikam>औपाधिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपाधिक</prAwipaxikam>
+<etymology>[उपाधि+ठञ्]</etymology>
+<sense no="1">विशेष परिस्थितियों में होने वाला</sense>
+<sense n="2">उपाधि या विशेष गुणों से संबंध रखने वाला  फलित कार्य स्त्री* - औपाधिकी</sense>
+</lexhead>
+
+<lexhead no="102">
+<dentry>औपाध्यायक</dentry>
+<prAwipaxikam>औपाध्यायक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपाध्यायक</prAwipaxikam>
+<etymology>[उपाध्याय+वुञ्]</etymology>
+<sense no="1">अध्यापक से प्राप्त से प्राप्त या आने वाला, स्त्री* - औपाध्यायकी</sense>
+</lexhead>
+
+<lexhead no="103">
+<dentry>औपासन</dentry>
+<prAwipaxikam>औपासन</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औपासन</prAwipaxikam>
+<etymology>[उपासन+अण्]</etymology>
+<sense no="1">गृह्याग्नि से संबंध रखने वाला, स्त्री* - औपासनी</sense>
+</lexhead>
+
+<lexhead no="104">
+<dentry>औपासनः</dentry>
+<prAwipaxikam>औपासन</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[उपासन+अण्]</etymology>
+<sense no="1">गार्ह्यस्थ्य पूजा के लिये प्रयुक्त अग्नि, गृह्याग्नि</sense>
+</lexhead>
+
+<lexhead no="105">
+<dentry>औम्</dentry>
+<prAwipaxikam>औम्</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<sense no="1">शूद्रों के लिये पावन ध्वनि, क्योंकि ’ओम्’ का उच्चारण शूद्रों के लिये वर्जित है</sense>
+</lexhead>
+
+<lexhead no="106">
+<dentry>औरभ्र</dentry>
+<prAwipaxikam>औरभ्र</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औरभ्र</prAwipaxikam>
+<etymology>[उरभ्र+अण्]</etymology>
+<sense no="1">भेंड़ से संबंध रखने वाला, या भेड़ से उत्पन्न, स्त्री* - औरभ्री</sense>
+</lexhead>
+
+<lexhead no="107">
+<dentry>औरभ्रम्</dentry>
+<prAwipaxikam>औरभ्र</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उरभ्र+अण्]</etymology>
+<sense no="1">भेंड़ या बकरे का माँस</sense>
+<sense n="2">ऊनी वस्त्र, मोटा ऊनी कम्बलऔरभ्रः भी</sense>
+</lexhead>
+
+<lexhead no="108">
+<dentry>औरभ्रकम्</dentry>
+<prAwipaxikam>औरभ्रक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+?<etymology>[उरभ्राणां समूहः - वुञ्]</etymology>
+<kind_of>समूहः</kind_of>
+<jAwi>स्तनपायी</jAwi>
+<upAXi>समूहः</upAXi>
+<sense no="1">भेड़ों का झुण्ड</sense>
+</lexhead>
+
+<lexhead no="109">
+<dentry>ओरभ्रिकः</dentry>
+<prAwipaxikam>ओरभ्रिक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[उरभ्र+ठञ्]</etymology>
+<sense no="1">गड़रिया</sense>
+</lexhead>
+
+<lexhead no="110">
+<dentry>औरस</dentry>
+<prAwipaxikam>औरस</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औरस</prAwipaxikam>
+?<etymology>[उरसा निर्मितः - अण्]</etymology>
+<kind_of>तनयदुहित्रोः_नाम</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">कोख से उत्पन्न, विवाहिता पत्नी से उत्पन्न, वैध<citation>रघु* १६/८८</citation>स्त्री* - औरसी</sense>
+</lexhead>
+
+<lexhead no="111">
+<dentry>औरसः</dentry>
+<prAwipaxikam>औरस</prAwipaxikam>
+<grammar>पुं*</grammar>
+?<etymology>[उरसा निर्मितः - अण्]</etymology>
+<kind_of>तनयदुहित्रोः_नाम</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">वैध पुत्र या पुत्री<citation>याज्ञ* २/१२८</citation></sense>
+</lexhead>
+
+<lexhead no="112">
+<dentry>औरसी</dentry>
+<prAwipaxikam>औरसी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+?<etymology>[उरसा निर्मितः - अण्]</etymology>
+<sense no="1">वैध पुत्र या पुत्री</sense>
+</lexhead>
+
+<lexhead no="113">
+<dentry>औरस्य</dentry>
+<prAwipaxikam>औरस्य</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औरस्य</prAwipaxikam>
+?<etymology>[उरसा निर्मितः - अण्]</etymology>
+<sense no="1">औरस</sense>
+</lexhead>
+
+<lexhead no="114">
+<dentry>और्ण</dentry>
+<prAwipaxikam>और्ण</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">और्ण</prAwipaxikam>
+<etymology>[ऊर्णा+अञ्]</etymology>
+<sense no="1">ऊनी, ऊन से बना हुआ, स्त्री* - और्णी</sense>
+</lexhead>
+
+<lexhead no="115">
+<dentry>और्णक</dentry>
+<prAwipaxikam>और्णक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">और्णक</prAwipaxikam>
+<etymology>[ऊर्णा+वुञ्]</etymology>
+<sense no="1">ऊनी, ऊन से बना हुआ, स्त्री* - और्णकी</sense>
+</lexhead>
+
+<lexhead no="116">
+<dentry>और्णिक</dentry>
+<prAwipaxikam>और्णिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">और्णिक</prAwipaxikam>
+<etymology>[ऊर्णा+वुञ्]</etymology>
+<sense no="1">ऊनी, ऊन से बना हुआ, स्त्री* - और्णिकी</sense>
+</lexhead>
+
+<lexhead no="117">
+<dentry>और्ध्वकालिक</dentry>
+<prAwipaxikam>और्ध्वकालिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">और्ध्वकालिक</prAwipaxikam>
+<etymology>[ऊर्ध्वकाल+ष्ठञ्]</etymology>
+<sense no="1">पिछले समय से संबद्ध या बाद का, स्त्री* - और्ध्वकालिकी</sense>
+</lexhead>
+
+<lexhead no="118">
+<dentry>और्ध्वदेहम्</dentry>
+<prAwipaxikam>और्ध्वदेह</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[ऊर्ध्वदेह+अण्]</etymology>
+<sense no="1">अन्त्येष्टि संस्कार, प्रेतकर्म</sense>
+</lexhead>
+
+<lexhead no="119">
+<dentry>और्ध्वदेहिक</dentry>
+<prAwipaxikam>और्ध्वदेहिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">और्ध्वदेहिक</prAwipaxikam>
+?<etymology>[ऊर्ध्वदेहाय साधु - ठञ्]</etymology>
+<kind_of>दानम्</kind_of>
+<jAwi>क्रिया</jAwi>
+<sense no="1">मृत व्यक्ति से संबद्ध, अन्त्येष्टि, स्त्री* - और्ध्वदेहिक</sense>
+</lexhead>
+
+<lexhead no="120">
+<dentry>और्ध्वदैहिक</dentry>
+<prAwipaxikam>और्ध्वदैहिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">और्ध्वदैहिक</prAwipaxikam>
+?<etymology>[ऊर्ध्वदेहाय साधु - ठञ्]</etymology>
+<sense no="1">मृत व्यक्ति से संबद्ध, अन्त्येष्टि, स्त्री* - और्ध्वदैहिक</sense>
+<segmenthd>
+<dentry>और्ध्वदैहिकक्रिया</dentry>
+<prAwipaxikam>और्ध्वदैहिकक्रिया</prAwipaxikam>
+<seg>और्ध्वदेहिक-क्रिया</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">प्रेतकर्म, अन्त्येष्टि संस्कार, प्रेतकर्म।</sense>
+<sense no="2">प्रेतकर्म, अन्त्येष्टि संस्कार, प्रेतकर्म।</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="121">
+<dentry>और्ध्वदेहिकम्</dentry>
+<prAwipaxikam>और्ध्वदेहिक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<kind_of>दानम्</kind_of>
+<jAwi>क्रिया</jAwi>
+<sense no="1">अन्त्येष्टि संस्कार, प्रेतकर्म।</sense>
+</lexhead>
+
+<lexhead no="122">
+<dentry>और्ध्वदैहिकम्</dentry>
+<prAwipaxikam>और्ध्वदैहिक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<sense no="1">अन्त्येष्टि संस्कार, प्रेतकर्म।</sense>
+</lexhead>
+
+<lexhead no="123">
+<dentry>और्व</dentry>
+<prAwipaxikam>और्व</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">और्व</prAwipaxikam>
+<etymology>[ऊरु+अण्]</etymology>
+<kind_of>अग्निः</kind_of>
+<jAwi>तेजः</jAwi>
+<sense no="1">धरती से सम्बन्ध रखने वाला, स्त्री* - और्वी</sense>
+<sense n="2">जंघा से उत्पन्न</sense>
+</lexhead>
+
+<lexhead no="124">
+<dentry>और्वः</dentry>
+<prAwipaxikam>और्व</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[ऊरु+अण्]</etymology>
+<kind_of>अग्निः</kind_of>
+<jAwi>तेजः</jAwi>
+<sense no="1">एक प्रसिद्ध ऋषि का नाम, यह भृगु वंश में उत्पन्न हुआ था । महाभारत में वर्णन मिलता है कि भृगु के वंशजों का नाश करने की इच्छा से कार्तवीर्य के पुत्रों ने गर्भस्थित बालकों को भी मौत के घाट उतार दिया । उस वंश की एक स्त्री ने अपने गर्भ की रक्षा के लिये उसे अपनी जंघा में छिपा लिया --इसी लिये जंघा से जन्म होने के कारण वह और्व कहलाया । उसको देखकर कार्तवीर्य के पुत्र अंधे हो गये, उसके क्रोध से उठी ज्वाला ने समस्त संसार को भस्म कर देना चाहा । परन्तु अपने पितरों - भार्गवों - की इच्छा से उसने अपनी क्रोधाग्नि को समुद्र में फेंक दिया जहाँ वह घोड़े के रूप में गुप्त पड़ा रहा - तु* वडवाग्नि । बाद में और्व अयोध्या के राजा सगर का गुरु हुआ</sense>
+<sense n="2">वडवाग्नित्वयि ज्वलत्यौर्व इवाम्बुराशौ<citation>श* ३/३और्वानलः</citation></sense>
+</lexhead>
+
+<lexhead no="125">
+<dentry>औलूकम्</dentry>
+<prAwipaxikam>औलूक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+?<etymology>[उलूकानां समूहः-अञ्]</etymology>
+<sense no="1">उल्लुओं का झुण्ड</sense>
+</lexhead>
+
+<lexhead no="126">
+<dentry>औलूक्यः</dentry>
+<prAwipaxikam>औलूक्य</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>उलूकस्यापत्य</vigraha_vAkya>[उलूक-यञ्]</etymology>
+<kind_of>पण्डितः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<upAXi>वृत्तिः</upAXi>
+<sense no="1">वैशेषिक दर्शन के निर्माता कणाद मुनि, दे* सर्व* में औलूक्यदर्शन</sense>
+</lexhead>
+
+<lexhead no="127">
+<dentry>औल्वण्यम्</dentry>
+<prAwipaxikam>औल्वण्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उल्वण+ष्यञ]</etymology>
+<sense no="1">आधिक्य, बहुतायत, प्राबल्य</sense>
+</lexhead>
+
+<lexhead no="128">
+<dentry>औशन</dentry>
+<prAwipaxikam>औशन</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औशन</prAwipaxikam>
+<sense no="1">उशना अर्थात शुक्राचार्य से सम्बन्ध रखने वाला, उशना से उत्पन्न या उशना से पढ़ा हुआ, स्त्री* - औशनी</sense>
+</lexhead>
+
+<lexhead no="129">
+<dentry>औशनस</dentry>
+<prAwipaxikam>औशनस</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औशनस</prAwipaxikam>
+<sense no="1">उशना अर्थात शुक्राचार्य से सम्बन्ध रखने वाला, उशना से उत्पन्न या उशना से पढ़ा हुआ, स्त्री* - औशनसी</sense>
+</lexhead>
+
+<lexhead no="130">
+<dentry>औशनसम्</dentry>
+<prAwipaxikam>औशनस</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<sense no="1">उशना का धर्मशास्त्र, नागरिकशास्त्र व्यवस्था पर लिखा गया ग्रन्थ</sense>
+</lexhead>
+
+<lexhead no="131">
+<dentry>औशीनरः</dentry>
+<prAwipaxikam>औशीनर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>उशीनरस्यापत्यम्</vigraha_vAkya>[ऊशीनर+अड़्]</etymology>
+<sense no="1">ऊशीनर का पुत्र</sense>
+</lexhead>
+
+<lexhead no="132">
+<dentry>औशीनरी</dentry>
+<prAwipaxikam>औशीनरी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<sense no="1">राजा पुरुरवा की पत्नी</sense>
+</lexhead>
+
+<lexhead no="133">
+<dentry>औशीरम्</dentry>
+<prAwipaxikam>औशीर</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उशीर+अण्]</etymology>
+<upAXi>उपकरणम्</upAXi>
+<upAXi>उपकरणम्</upAXi>
+<is_a_part>गृहम्</is_a_part>
+<kind_of>उपकरणम्</kind_of>
+<upAXi>गर्हिकोपकरनम्</upAXi>
+<is_a_part>गृहम्</is_a_part>
+<kind_of>उपकरणम्</kind_of>
+<upAXi>गर्हिकोपकरनम्</upAXi>
+<sense no="1">पंखे या चँवर की डंडी</sense>
+<sense n="2">बिस्तराऔशीरे कामचारः कृतोऽभूत<citation>दश* ७२</citation></sense>
+<sense n="3">आसनकुर्सी, स्टूल आदि</sense>
+<sense n="4">खस का लेप</sense>
+<sense n="5">खस की जड़</sense>
+<sense n="6">पंखा</sense>
+</lexhead>
+
+<lexhead no="134">
+<dentry>औषणम्</dentry>
+<prAwipaxikam>औषण</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उषण+अण्]</etymology>
+<is_a_part>हरिद्रासर्षपमरीचादिचूर्णम्</is_a_part>
+<upAXi>प्राकृतिकखाद्यम्</upAXi>
+<sense no="1">तीक्ष्णता, तीखापन</sense>
+<sense n="2">काली मिर्च</sense>
+</lexhead>
+
+<lexhead no="135">
+<dentry>औषधम्</dentry>
+<prAwipaxikam>औषध</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[औषधि+अण्]</etymology>
+<is_a_part>रोगनिवारणः</is_a_part>
+<upAXi>विकृतिकखाद्यम्</upAXi>
+<sense no="1">जड़ी-बूटी, जड़ी-बू्टियों का समूह</sense>
+<sense n="2">दवादारू, सामान्य औषधि</sense>
+<sense n="3">खनिज</sense>
+</lexhead>
+
+<lexhead no="136">
+<dentry>औषधिः</dentry>
+<prAwipaxikam>औषधि</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<sense no="1">जड़ी-बूटी, बनस्पति, दे* ओषधि</sense>
+<sense n="2">रोगनाशक जड़ी-बूटीअचिन्त्यो हि मणिमन्त्रौषधीनां प्रभावः<citation>रत्न* २</citation></sense>
+<sense n="3">आग उगलने वाली जड़ी विरमन्ति न ज्वलितुमौषधयः<citation>कि* ५/२४</citation><citation>तु* कु* १/१०तृणज्योतीषिं</citation><citation>मल्लि*</citation></sense>
+<sense n="4">वर्ष भर रहने वाला या सालाना पतझड़ वाला पौधा</sense>
+</lexhead>
+
+<lexhead no="137">
+<dentry>औषधी</dentry>
+<prAwipaxikam>औषधी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<sense no="1">जड़ी-बूटी, बनस्पति, दे* ओषधि</sense>
+<sense n="2">रोगनाशक जड़ी-बूटीअचिन्त्यो हि मणिमन्त्रौषधीनां प्रभावः<citation>रत्न* २</citation></sense>
+<sense n="3">आग उगलने वाली जड़ी विरमन्ति न ज्वलितुमौषधयः<citation>कि* ५/२४</citation><citation>तु* कु* १/१०</citation></sense>
+<sense n="4">वर्ष भर रहने वाला या सालाना पतझड़ वाला पौधा</sense>
+<segmenthd>
+<dentry>औषधिपतिः</dentry>
+<prAwipaxikam>औषधिपति</prAwipaxikam>
+<seg>औषधिः-पतिः</seg>
+<grammar>पुं*</grammar>
+<sense no="2">सोम, औषधियों का स्वामी</sense>
+<sense no="3">सोम, औषधियों का स्वामी</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="138">
+<dentry>औषधीय</dentry>
+<prAwipaxikam>औषधीय</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औषधीय</prAwipaxikam>
+<etymology>[औषध+छ]</etymology>
+<sense no="1">औषधि संबन्धी रोगनाशक, जड़ी-बूटियों से युक्त</sense>
+</lexhead>
+
+<lexhead no="139">
+<dentry>औषरम्</dentry>
+<prAwipaxikam>औषर</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology><vigraha_vAkya>उषरे भवम्</vigraha_vAkya>[उषरे+अण्+कन्]</etymology>
+<sense no="1">सेंधा नमक, पहाड़ी नमक</sense>
+</lexhead>
+
+<lexhead no="140">
+<dentry>औषरकम्</dentry>
+<prAwipaxikam>औषरक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology><vigraha_vAkya>उषरे भवम्</vigraha_vAkya>[उषरे+अण्+कन्]</etymology>
+<sense no="1">सेंधा नमक, पहाड़ी नमक</sense>
+</lexhead>
+
+<lexhead no="141">
+<dentry>औषस</dentry>
+<prAwipaxikam>औषस</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औषस</prAwipaxikam>
+<etymology>[उषस्+अण्]</etymology>
+<sense no="1">उषा या प्रभात से सम्बन्ध ररखने वाला, स्त्री* - औषसी</sense>
+</lexhead>
+
+<lexhead no="142">
+<dentry>औषसी</dentry>
+<prAwipaxikam>औषसी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[उषस्+अण्]</etymology>
+<sense no="1">पौ फटना, प्रभात काल</sense>
+</lexhead>
+
+<lexhead no="143">
+<dentry>औषसिक</dentry>
+<prAwipaxikam>औषसिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औषसिक</prAwipaxikam>
+<etymology>[उषस्+ठञ्/उषा+ठञ्]</etymology>
+<sense no="1">जिसने प्रभात काल में जन्म लिया है, उषःकाल में उत्पन्न। स्त्री* - औषसिकी</sense>
+</lexhead>
+
+<lexhead no="144">
+<dentry>औषिक</dentry>
+<prAwipaxikam>औषिक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औषिक</prAwipaxikam>
+<etymology>[उषस्+ठञ्/उषा+ठञ्]</etymology>
+<sense no="1">जिसने प्रभात काल में जन्म लिया है, उषःकाल में उत्पन्न। स्त्री* - औषिकी</sense>
+</lexhead>
+
+<lexhead no="145">
+<dentry>औष्ट्र</dentry>
+<prAwipaxikam>औष्ट्र</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औष्ट्र</prAwipaxikam>
+<etymology>[उष्ट्र+अण्]</etymology>
+<sense no="1">ऊँट से उत्पन्न या ऊँट से सम्बन्ध रखने वाला, स्त्री*-औष्ट्री</sense>
+<sense n="2">जहाँ ऊँटों की बहुतायत हो</sense>
+</lexhead>
+
+<lexhead no="146">
+<dentry>औष्ट्रम्</dentry>
+<prAwipaxikam>औष्ट्र</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उष्ट्र+अण्]</etymology>
+<sense no="1">ऊँटनी का दूध</sense>
+</lexhead>
+
+<lexhead no="147">
+<dentry>औष्ट्रकम्</dentry>
+<prAwipaxikam>औष्ट्रक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उष्ट्र+वुञ्]</etymology>
+<kind_of>समूहः</kind_of>
+<jAwi>स्तनपायी</jAwi>
+<upAXi>समूहः</upAXi>
+<sense no="1">ऊँटों का झुण्ड<citation>शि* ५/६५</citation></sense>
+</lexhead>
+
+<lexhead no="148">
+<dentry>औष्ठ्य</dentry>
+<prAwipaxikam>औष्ठ्य</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औष्ठ्य</prAwipaxikam>
+<etymology>[ओष्ठ+यत्]</etymology>
+<sense no="1">होठ से सम्बद्ध, ओष्ठ स्थानीय</sense>
+<segmenthd>
+<dentry>औष्ठ्यवर्णः</dentry>
+<prAwipaxikam>औष्ठ्यवर्ण</prAwipaxikam>
+<seg>औष्ठ्य-वर्णः</seg>
+<grammar>पुं*</grammar>
+<sense no="3">ओष्ठस्थानीय अक्षर-अर्थात् उ, ऊ, प्, फ्, ब्, भ्, म्, और व्</sense>
+</segmenthd>
+<segmenthd>
+<dentry>औष्ठ्यस्थान</dentry>
+<prAwipaxikam>औष्ठ्यस्थान</prAwipaxikam>
+<seg>औष्ठ्य-स्थान</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">औष्ठ्यस्थान</prAwipaxikam>
+<sense no="1">होठों द्वारा उच्चरित</sense>
+</segmenthd>
+<segmenthd>
+<dentry>औष्ठ्यस्वरः</dentry>
+<prAwipaxikam>औष्ठ्यस्वर</prAwipaxikam>
+<seg>औष्ठ्य-स्वरः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">ओष्ठस्थानीय अस्वर</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="149">
+<dentry>औष्णम्</dentry>
+<prAwipaxikam>औष्ण</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उष्ण+अण्]</etymology>
+<sense no="1">गर्मी, ताप</sense>
+</lexhead>
+
+<lexhead no="150">
+<dentry>औष्ण्यम्</dentry>
+<prAwipaxikam>औष्ण्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उष्ण+ष्यञ्]</etymology>
+<sense no="1">गर्मी<citation>रघु* १७/३३</citation></sense>
+</lexhead>
+
+<lexhead no="151">
+<dentry>औष्म्यम्</dentry>
+<prAwipaxikam>औष्म्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उष्म+ष्यञ्]</etymology>
+<sense no="0">गर्मी<citation>रघु* १७/३४</citation></sense>
+</lexhead>
+
+</dict>

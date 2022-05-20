@@ -1,0 +1,14 @@
+/*
+ * These elements are langauge specific settings for default rows to be shown.
+ * These style rules are modified from the javascript. So care should be taken when modifying these.
+ * The name of each rule for a row should be seperate for each row and should be named as "tr.row*".
+ * This selector text is literally mached in the javascript.
+ */
+tr.row1  { white-space: normal; display: ; }
+tr.row2  { white-space: normal; display:none; }
+tr.row3  { white-space: normal; display:none; }
+tr.row4  { white-space: normal; display:; }
+tr.row5  { white-space: normal; display:none; }
+tr.row6  { white-space: normal; display:none; }
+tr.row7  { white-space: normal; display:none; }
+tr.row8  { white-space: normal; display:none; }

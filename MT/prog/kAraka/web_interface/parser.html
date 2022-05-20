@@ -1,0 +1,238 @@
+<!--
+#  Copyright (C) 2009-2022 Amba Kulkarni (ambapradeep@gmail.com)
+#
+#  This program is free software; you can redistribute it and/or
+#  modify it under the terms of the GNU General Public License
+#  as published by the Free Software Foundation; either
+#  version 2 of the License, or (at your option) any later
+#  version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Sanskrit Parser </title>
+<style type="text/css">
+
+body{
+background-color:white;
+margin: 0;
+padding: 0;
+font: normal 90% "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+}
+div{
+background-color:#FFFFFF;
+}
+a{
+text-decoration:none;
+}
+div#input-area ul{
+display:inline;
+font-size:15px;
+}
+div#input-area li{
+float:left;
+display:inline;
+margin-right:5px;
+font-size:12px;
+}
+input[type="submit"]{
+      border:1px solid #489CDF;padding:5px;background:#489CDF;color:#fff;
+      width:140px;height:35px;font-size:20px;
+}
+input[type="text"]{
+        border:3px solid #E5E5E5;
+        width:200px;
+        height:30px;font-size:16px;
+}
+select {border:1px solid #489CDF;padding:5px;background:#fff;}
+</style>
+
+<script language="Javascript" type="text/javascript">
+
+   function check(){
+     if(document.test.text.value == "") {
+	alert("Please enter some sentence(s)");
+        return false;
+     }
+     else {
+     	var inputlang=document.getElementById("encoding").value;
+	//var data=document.getElementById("word").value;
+	var data=document.test.text.value;
+	
+	var reg=/[aAiIuUqQlLeEoOMHzkKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRsh \.\?\-\_\!\^\,Z]/;
+	/*var reguni=/[अआइईउऊएऐओऔंःकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसहृ ऽ।॥?.]/;*/
+	
+	var reguni=/[अआइईउऊऋॠऌएऐओऔअंअःकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह ्ािीुूृॄॢेैोौंः  -_?.,!+/|।॥ऽ]/;
+        var regitrans=/[AaiuRiLIeoMH.Nkgh~NcChjnThDtdpbmyrlvsS \?\-\_\.\,\!\^]/;
+	var regslp=/[aAiIuUfFlxeEoOMHkKgGNcCqQjJwWQRtTdDnpPbBmyrlvSzsh \.\?]/;
+        var regvel=/[aiurleomhkgncjtdpbvysz \~\"\?\-\_\.\,\!]/;
+	var regrom=/[aÄiÄ«uÅ«á¹›?leoá¹ƒá¸¥khgá¹…cjÃ±á¹­á¸á¹‡tdnpbmyrlvÅ›á¹£s \.\?]/;
+	var regkh=/[aAiIuUlReaoMHkghGcjJTDNtdnpbmyrlvzSs \.\?]/;
+		
+		if(inputlang=="Unicode"){//<![CDATA[
+			for(var i=0;i<data.length;i++){
+			   if(reguni.test(data[i])){
+			   } else {
+				alert("please check encoding notation and input text notation");
+				return false;
+			}
+
+		    }	
+		}
+		else if(inputlang=="Itrans"){
+			for(var i=0;i<data.length;i++){
+				if(regitrans.test(data[i])){
+				}
+				else {
+					alert("please check encoding notation and input text notation");
+					return false;
+				}
+			}
+			
+		}
+		else if(inputlang=="SLP"){
+			for(var i=0;i<data.length;i++){
+                                if(regslp.test(data[i])){
+                                }
+                                else {
+                                	alert("please check encoding notation and input text notation");
+                                        return false;
+                                }
+                        }
+      		}
+
+		else if(inputlang=="roman"){
+                        for(var i=0;i<data.length;i++){
+                                if(regrom.test(data[i])){
+                                }
+                                else {	
+                                	alert("please check encoding notation and input text notation");
+                                        return false;
+                                }
+                        }
+      
+                }		
+
+		else if(inputlang=="KH"){
+                        for(var i=0;i<data.length;i++){
+                                if(regkh.test(data[i])){
+                                }
+                                else {
+                                	alert("please check encoding notation and input text notation");
+                                        return false;
+                                }
+                        }
+      
+                }
+
+		else if(inputlang=="VH"){
+                        for(var i=0;i<data.length;i++){
+                                if(regvel.test(data[i])){
+                                }
+                                else {
+                                	alert("please check encoding notation and input text notation");
+                                        return false;
+                                }
+                        }
+      
+                }
+
+		else if(inputlang=="WX"){
+                        for(var i=0;i<data.length;i++){
+                                if(reg.test(data[i])){
+                                }
+                                else {
+                                	alert("please check encoding notation and input text notation");
+                                        return false;
+                                }
+                        }
+                       
+                }//]]>
+     
+     
+     
+     }
+  }
+</script>
+</head>
+<body>
+<div id="maindiv">
+<div id="shwOut" >
+<table width="100%"><tr><td width="34%" valign="top">
+<div style="width:;"><p style="text-align:justify;margin-left:20px; margin-right:20px;">कारकविश्लेषिका (Parser is computational tool which takes a Sanskrit sentence as input and produces different semantic (kāraka) relations between the words such as kartā, karma, karaṇa, adhikaraṇa etc.)
+</p>
+<!--Input forms starts here-->
+<form name="test" method="post" action="/cgi-bin/scl/parser/kAraka.cgi"  onsubmit="return check();">
+
+<table border="0" width="100%" align="center">
+<tr>
+<td>
+<font size="2"><a href='#' style="color:blue;" onclick="window.open('table.html','Details','width=800, height=500,scrollbars=yes');">Input</a></font>
+            <select name="encoding" size="1"  style="border-style:solid;border-width:1px;" id="encoding">
+	    <option value="Unicode">Unicode-Devanagari</option>
+            <option value="WX">WX-alphabetic </option>
+            <option value="Itrans">Itrans-5.3 </option>
+            <option value="VH">Velthuis</option>
+            <option value="SLP">SLP1</option>
+            <option value="KH">KH</option>
+            <option value="IAST">IAST(Roman-Diacritic)</option>
+            </select> 
+<font size="2">Output:</font>
+            <select name="out_encoding" size="1" style="border-style:solid;border-width:1px;">
+            <option value="Devanagari">Devanagari</option>
+            <option value="IAST">IAST(Roman-Diacritic)</option>
+            <option value="Velthuis">Velthuis</option>
+            </select>
+<font size="2">Segmenter</font>
+            <select name="sandhi" size="1" style="border-style:solid;border-width:1px;">
+            <option>None</option>
+            <option>Anusaaraka Splitter</option>
+            <option>Heritage Splitter</option>
+            </select>
+<font size="2">Parse</font>
+            <select name="parse" size="1" style="border-style:solid;border-width:1px;">
+            <option>Full</option>
+            <option>Partial</option>
+            <!--<option>NO</option> -->
+            </select>
+<font size="2">Text Type</font>
+            <select name="text_type" size="1" style="border-style:solid;border-width:1px;">
+            <option>Prose</option>
+            <option>Sloka</option>
+            </select>
+</td>
+</tr>
+<tr>
+<td>
+<p style="text-align:left;color:#800000;"><font color="blue">Try </font> दशरथस्य पुत्रः रामः नगरे कोशात् हस्तेन ब्राह्मणाय धनं ददाति. (Without Segmenter) </p>
+<p style="text-align:left;color:#800000;"><font color="blue">Try </font> दशरथपुत्रः रामः अयोध्यानगर्यां कोशात् हस्तेन ब्राह्मणाय धनं ददाति. (With Segmenter) </p>
+</td>
+</tr>
+<tr>
+<td>
+<textarea name="text" cols="100" rows="2" style="border:1px solid #489CDF;font-size:15px;height:60px;width:600px;"></textarea>
+</td></tr><tr><td>
+&nbsp;<input type="submit" value="Submit"/>
+
+</td>
+</tr>
+</table>
+</form>
+</div>
+</table>
+</div>
+</div>
+
+</body>
+</html>

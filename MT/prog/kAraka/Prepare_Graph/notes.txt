@@ -1,0 +1,23 @@
+wAxarWya is removed.
+Reasons:
+pAriBARika paxArWa safgraha does not use wAxarWya.
+There wAxarWya is renamed as niRpawwiprayojana.
+
+Various usages:
+BUweByo bali -- wqpwi-prayojana
+gave suKam -- samavewawva
+yUpAya xArU -- niRpawwi-prayojana
+kuNdalAya suvarNam -- vikAriwva
+vqkRAya uxakaM siFcawi -- vqxXi-prayojana
+
+api: for samuccaya as KarmapravacanIya
+P 1.4.96: apiH paxArWasamBAvanAnvasargagarhAsamuccayeRu
+ex. api siFca api swuhi
+
+
+KarwqsamAnAXikaraNam versus viXeya viSeRaNam
+We have decided to use karwqsamAnAXikaraNam because there are cases where with the kqxanwa, karwqrahiwakarwqsamAnAXikaraNam is used. 
+If we decide to change the name for karwqsamAnAXikaraNam to viXeya viSeRaNam, then we will have to link it with the karwA, and in the case of karwqrahiwakarwqsamAnAXikaraNam, since the karwA would not be availbale, we will face a problem.
+20 Jan 2022
+We decided to change kqrwqsamAnAXikaraNam to viXeya viSeRaNam, marking the relation with the karwA.
+In the case of BUwvA, etc we mark the relation with the verb. This is something unintuitive, but such cases are very rare.

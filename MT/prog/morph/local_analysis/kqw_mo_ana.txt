@@ -1,0 +1,73 @@
+kAriwavawI	kq3<kqw_prawyayaH:kwavawu><sanAxi_prawyayaH:Nic><lifgam:swrI><XAwuH:dukqF><gaNaH:curAxiH>
+SrAviwavaw	Sru1<lifgam:puM><sanAxi_prawyayaH:Nic><kqw_prawyayaH:kwavawu><XAwuH:Sru><gaNaH:BvAxiH>
+BrAmayan	Bram2<kqw_prawyayaH:Sawq_lat><sanAxi_prawyayaH:Nic><lifgam:puM><XAwuH:Bramuz><gaNaH:xivAxiH>
+snapiwA	RnA1<kqw_prawyayaH:kwa><sanAxi_prawyayaH:Nic><lifgam:swrI><XAwuH:RnA><gaNaH:axAxiH>
+kArayan	kq3<kqw_prawyayaH:Sawq_lat><sanAxi_prawyayaH:Nic><lifgam:puM><XAwuH:dukqF><gaNaH:wanAxiH>
+XArayan	Xq1<kqw_prawyayaH:Sawq_lat><sanAxi_prawyayaH:Nic><lifgam:puM><XAwuH:XqF><gaNaH:BvAxiH>
+xarSayaw	xqS1<kqw_prawyayaH:Sawq_lat><sanAxi_prawyayaH:Nic><lifgam:puM><XAwuH:XqSizr><gaNaH:BvAxiH>
+yiyakRamANa	yaj1<kqw_prawyayaH:SAnac><sanAxi_prawyayaH:san><lifgam:puM><XAwuH:yajaz><gaNaH:BvAxiH>
+SayAna	SI1<sanAxi_prawyayaH:san><kqw_prawyayaH:SAnac><lifgam:puM><XAwuH:SIf><gaNaH:axAxiH>
+jAjvalyamAnA	jval1<kqw_prawyayaH:SAnac><sanAxi_prawyayaH:san><lifgam:puM><XAwuH:jvalaz><gaNaH:BvAxiH>
+
+arha	arh1<kqw_prawyayaH:ac><lifgam:puM><XAwuH:arhaz><gaNaH:BvAxiH>
+
+prawIkRA	IkR1<kqw_prawyayaH:A><lifgam:swrI><XAwuH:IkRaz><gaNaH:BvAxiH>
+
+AsIna	As1<kqw_prawyayaH:kwa><lifgam:puM><XAwuH:Asaz><gaNaH:axAxiH>
+sakwa	sac2<kqw_prawyayaH:kwa><lifgam:puM><XAwuH:Racaz><gaNaH:BvAxiH>
+soDa	sah1<lifgam:puM><kqw_prawyayaH:kwa><XAwuH:Rahaz><gaNaH:BvAxiH>
+
+mArgamANaH	mArga1<kqw_prawyayaH:SAnac_lat><lifgam:puM><XAwuH:mArg><gaNaH:curAxiH><level:0>
+
+Bajaw	Baj1<kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:Bajaz><gaNaH:BvAxiH>
+BuFjAnam	Buj2<kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:Bujaz><gaNaH:ruXAxiH>
+kaWayawaH	kaWa1<kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:kaWa><gaNaH:curAxiH>
+kaWayaw	kaWa1<kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:kaWa><gaNaH:curAxiH>
+KAxaw	KAx1<lifgam:puM><kqw_prawyayaH:Sawq_lat><XAwuH:KAxqz><gaNaH:BvAxiH>/KAx1<lifgam:napuM><kqw_prawyayaH:Sawq_lat><XAwuH:KAxqz><gaNaH:BvAxiH><level:0>
+namasyaw	nam1<kqw_prawyayaH:Sawq_lqt><lifgam:puM><XAwuH:namaz><gaNaH:BvAxiH>
+yawaw	yaw1<kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:yawIz><gaNaH:BvAxiH>
+SqNvaw	Sru1<kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:Sru><gaNaH:BvAxiH>
+varwsyan	vqX1<kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:vqXuz><gaNaH:BvAxiH>
+######################
+
+ArabXavaw	raB1<upasarga:Af><lifgam:puM><kqw_prawyayaH:kwavawu><XAwuH:gamL><gaNaH:BvAxiH>
+nivexiwavaw	vix1<upasarga:ni><lifgam:puM><kqw_prawyayaH:kwavawu><XAwuH:vixaz><gaNaH:axAxiH>
+
+######################
+AkRipan	kRip1<upasarga:Af><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:kRipaz><gaNaH:BvAxiH><level:0>
+anupAlayaw	pAl<upasarga:anu><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:pAl><gaNaH:curAxiH>
+anuxarSayan	xqS1<upasarga:anu><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:xqSizr><gaNaH:BvAxiH><level:0>
+avalokayan	lok2<upasarga:ava><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:lokqz><gaNaH:curAxiH>
+vilapan	lap1<upasarga:vi><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:lapaz><gaNaH:BvAxiH><level:0>
+vinaSyanwam	naS1<upasarga:vi><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:NaSaz><gaNaH:xivAxiH>
+vinaSyaw	naS1<upasarga:vi><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:kRipaz><gaNaH:BvAxiH><level:0>
+vinaSyawsu	naS1<upasarga:vi><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:NaSaz><gaNaH:xivAxiH>
+paripAlayan	pAla1<upasarga:pari><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:pAla><gaNaH:curAxiH><level:0>
+vyanunAxayaw	Nax2<upasarga:vi_anu><kqw_prawyayaH:Sawq_lat><XAwuH:Naxaz><gaNaH:curAxiH>
+saFjanayaw	jan2<upasarga:sam><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:janI><gaNaH:xivAxiH>
+samprekRya	IkR1<upasarga:sam_pra><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:IkRaz><gaNaH:BvAxiH>
+unmiRan	miR1<upasarga:uw><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:miRuz><gaNaH:BvAxiH>
+upaspqSan	spqS1<upasarga:upa><kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:spqSaz><gaNaH:wuxAxiH><level:0>
+
+prApayan	Ap1<upasarga:pra><kqw_prawyayaH:Sawq_lat><sanAxi_prawyayaH:Nic><lifgam:puM><XAwuH:ApL><gaNaH:BvAxiH><level:0>
+saMyamawAm	yam3<upasarga:sam><kqw_prawyayaH:Sawq_lat><sanAxi_prawyayaH:Nic><lifgam:puM><XAwuH:yamaz><gaNaH:curAxiH>
+######################
+
+pravyaWiw	vyaW1<upasarga:pra><kqw_prawyayaH:kwa><lifgam:puM><XAwuH:vyaWaz><gaNaH:BvAxiH>
+
+vimukwa	muc1<upasarga:vi><kqw_prawyayaH:kwa><lifgam:puM><XAwuH:mucLz><gaNaH:wuxAxiH>
+viyukwa	yuj2<upasarga:vi><kqw_prawyayaH:kwa><lifgam:puM><XAwuH:yujIzr><gaNaH:ruXAxiH>
+anuXAviwa	XAv1<upasarga:anu><kqw_prawyayaH:kwa><lifgam:puM><XAwuH:XAvuz><gaNaH:BvAxiH>
+anviwa	i1<upasarga:anu><kqw_prawyayaH:kwa><lifgam:puM><XAwuH:iN><gaNaH:axAxiH>
+niveSiwA	viS1<upasarga:ni><lifgam:swrI><kqw_prawyayaH:kwa><XAwuH:viS1><gaNaH:wuxAxiH>
+samAgawa	gam1<upasarga:sam_Af><kqw_prawyayaH:kwa><lifgam:puM><XAwuH:gamL><gaNaH:BvAxiH>
+saFjAwa	jan3<upasarga:sam><lifgam:puM><kqw_prawyayaH:kwa><XAwuH:janIz><gaNaH:xivAxiH>
+samavewa	I1<upasarga:sam_ava><kqw_prawyayaH:kwa><lifgam:puM><XAwuH:If><gaNaH:xivAxiH>
+samavewA	I1<upasarga:sam_ava><kqw_prawyayaH:kwa><lifgam:swrI><XAwuH:If><gaNaH:xivAxiH>
+
+praxURiwA	xuR1<upasarga:pra><lifgam:puM><sanAxi_prawyayaH:Nic><kqw_prawyayaH:kwa><XAwuH:xuRaz><gaNaH:xivAxiH>
+nipAwiwa	paw1<upasarga:ni><lifgam:puM><sanAxi_prawyayaH:Nic><kqw_prawyayaH:kwa><XAwuH:pawL><gaNaH:xivAxiH>
+######################
+prawiRTAsu	RTA1<upasarga:pra><kqw_prawyayaH:u><sanAxi_prawyayaH:san><lifgam:puM><XAwuH:RTA><gaNaH:BvAxiH>
+######################
+SraxxaXAna	XA1<upasarga:Sraw><kqw_prawyayaH:SAnac><lifgam:puM><XAwuH:duXAF><gaNaH:juhowyAxiH>

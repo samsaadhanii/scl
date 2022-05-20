@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dict SYSTEM "apte.dtd">
+<?xml-stylesheet href="apte.css" type="text/css" ?>
+<dict>
+<lexhead no="1">
+<dentry>ढक्का</dentry>
+<prAwipaxikam>ढक्का</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology><vigraha_vAkya>ढक् इति शब्देन कायति</vigraha_vAkya>[ढक्+कै+क+टाप्]</etymology>
+<kind_of>मुरजादिवाद्यम्</kind_of>
+<upAXi>वाद्योपकरणम्</upAXi>
+<sense no="1">बड़ा ढोल, न ते हुडुक्केन न सोपि ढक्कया न मर्दलैः सापि न तेऽपि ढक्कया<citation>नै* १५/१७</citation></sense>
+</lexhead>
+
+<lexhead no="2">
+<dentry>ढामरा</dentry>
+<prAwipaxikam>ढामरा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<sense no="1">हंसनी</sense>
+</lexhead>
+
+<lexhead no="3">
+<dentry>ढालम्</dentry>
+<prAwipaxikam>ढाल</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<sense no="1">म्यान्</sense>
+</lexhead>
+
+<lexhead no="4">
+<dentry>ढालिन्</dentry>
+<prAwipaxikam>ढालिन्</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[ढाल+इनि]</etymology>
+<sense no="1">ढालधारी योद्धा</sense>
+</lexhead>
+
+<lexhead no="5">
+<dentry>ढुण्ढिः</dentry>
+<prAwipaxikam>ढुण्ढि</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[ढुण्ढ्+इन्]</etymology>
+<sense no="1">गणेश का विशेषण</sense>
+</lexhead>
+
+<lexhead no="6">
+<dentry>ढौलः</dentry>
+<prAwipaxikam>ढौल</prAwipaxikam>
+<grammar>पुं*</grammar>
+<sense no="1">बड़ा ढोल, मृदङ्ग, ढपली</sense>
+</lexhead>
+
+<lexhead no="7">
+<dentry>ढौक्</dentry>
+<prAwipaxikam>ढौक्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI><vform>ढौकते</vform>,<vform>ढौकित</vform></grammar>
+<sense no="1">जाना, पहुँचाना, यान्तं वने रात्रिचरी डुढौके<citation>भट्टि*२/२३</citation>१४/७१, १५/७९</sense>
+<sense n="2">निकट लाना, पहुँचानातन्मान्सं चैव गोमायिस्तैः क्षणादाशु ढौकितम्<citation>महा*</citation><citation>भट्टि*१७/१०३</citation></sense>
+<sense n="3">उपस्थित करना, प्रस्तुत करना</sense>
+</lexhead>
+
+<lexhead no="8">
+<dentry>ढौकनम्</dentry>
+<prAwipaxikam>ढौकन</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[ढौक्+ल्युट्]</etymology>
+<sense no="1">भेंट</sense>
+<sense no="2">F</sense>
+</lexhead>
+
+</dict>

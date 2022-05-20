@@ -1,0 +1,1239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dict SYSTEM "apte.dtd">
+<?xml-stylesheet href="apte.css" type="text/css" ?>
+<dict>
+<lexhead no="1">
+<dentry>फक्क्</dentry>
+<prAwipaxikam>फक्क्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>फक्कति</vform>,<vform>फक्कित</vform></grammar>
+<sense no="1">शनैः-शनैः चलना-फिरना, फुर्ती से जाना, सरकना, धीरे-धीरे चलना</sense>
+<sense n="2">गलती करना, दुर्व्यवहार करना</sense>
+<sense n="3">फूल उठना</sense>
+</lexhead>
+
+<lexhead no="2">
+<dentry>फक्किका</dentry>
+<prAwipaxikam>फक्किका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[फक्क्+ण्वुल्+टाप्, इत्वम्]</etymology>
+<sense no="1">एक अवस्था, सिद्ध करने के लिए पूर्वपक्ष, उक्ति या प्रतिज्ञा जिसको बनाये रखना है, फणिभाषितभाष्यफक्किका विषमा कूण्डलनामवापिता<citation>नै* २/९५.</citation></sense>
+<sense n="2">पक्षपात, पूर्वचिन्तित सम्मति</sense>
+</lexhead>
+
+<lexhead no="3">
+<dentry>फट्</dentry>
+<prAwipaxikam>फट्</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<sense no="1">एक अनुकरणमूलक शब्द जिसे जादू मंत्रादिक के उच्चारण करने में रहस्यमय रीति से प्रयुक्त किया जाता है-अस्त्राय फट्, ‘फटां’ भी इसी अर्थ में  पाठान्तर-फणा</sense>
+</lexhead>
+
+<lexhead no="4">
+<dentry>फटः</dentry>
+<prAwipaxikam>फट</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[स्फुट्+अच्, पृषो*]</etymology>
+<sense no="1">साँप का प्रसारित किया हुआ फणा, निर्विषेणापि सर्पेण कर्तव्या महती फटा विषं भवतु मा भूद्वा फटाटोपो भयङ्करः<citation>पंच* १/२०४</citation></sense>
+<sense n="2">दाँत</sense>
+<sense n="3">धूर्त, ठग, कितव</sense>
+</lexhead>
+
+<lexhead no="5">
+<dentry>फडिगा</dentry>
+<prAwipaxikam>फडिगा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology><vigraha_vAkya>फड् इति शब्दमिङ्गति</vigraha_vAkya>[फड्+इड्ग+अच्+टाप्]</etymology>
+<sense no="1">झींगुर, टिड्डी, टिड्डा, फतिंगा</sense>
+</lexhead>
+
+<lexhead no="6">
+<dentry>फण्</dentry>
+<prAwipaxikam>फण्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>फणति</vform>,<vform>फणित</vform></grammar>
+<sense no="1">चलना-फिरना, इधर-उधर घूमना, रुरुजुर्भेजिरे फेणुर्बहुधाहरिराक्षसाः<citation>भट्टि* १४/७८</citation>यह अर्थ कुछ के मतानुसार प्रेरणार्थक क्रिया का है</sense>
+<sense n="2">अनायास उत्पन्न करना, बिना किसी परिश्रम के पैदा करना</sense>
+</lexhead>
+
+<lexhead no="7">
+<dentry>फणः</dentry>
+<prAwipaxikam>फण</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[फण्+अच्]</etymology>
+<sense no="1">किसी भी साँप का फैलाया हुआ फण, विप्रकृतः पन्नग फणं(फणां) कुरुते<citation>श* ६/३०</citation>मणिभिः फणस्थैः<citation>रघु* १३/१२</citation>कु* ६/६८, वहति भुवनश्रेणि शेषः फणाफलकस्थिताम्<citation>भर्तृ* २/३५</citation></sense>
+</lexhead>
+
+<lexhead no="8">
+<dentry>फणा</dentry>
+<prAwipaxikam>फणा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[फण्+अच्, स्त्रियां टाप्]</etymology>
+<is_a_part>सर्पशरीरम्</is_a_part>
+<upAXi>अवयवः</upAXi>
+<sense no="1">किसी भी साँप का फैलाया हुआ फण, विप्रकृतः पन्नग फणं(फणां) कुरुते<citation>श* ६/३०</citation>मणिभिः फणस्थैः<citation>रघु* १३/१२</citation>कु* ६/६८, वहति भुवनश्रेणि शेषः फणाफलकस्थिताम्<citation>भर्तृ* २/३५</citation></sense>
+<segmenthd>
+<dentry>फणकरः</dentry>
+<prAwipaxikam>फणकर</prAwipaxikam>
+<seg>फणः-करः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">साँप</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फणधरः</dentry>
+<prAwipaxikam>फणधर</prAwipaxikam>
+<seg>फणः-धरः</seg>
+<grammar>पुं*</grammar>
+<jAwi>सरीसृपः</jAwi>
+<sense no="1">साँप</sense>
+<sense no="2">शिव का नाम</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फणभृत्</dentry>
+<prAwipaxikam>फणभृत्</prAwipaxikam>
+<seg>फणः-भृत्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">साँप</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फणमणिः</dentry>
+<prAwipaxikam>फणमणि</prAwipaxikam>
+<seg>फणः-मणिः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">साँप के फण में पाई जाने वाली मणि</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फणमण्डलम्</dentry>
+<prAwipaxikam>फणमण्डल</prAwipaxikam>
+<seg>फणः-मण्डलम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">साँप का कुंडलीकृत शरीरकरालफलमण्डल<citation>रघु*१२/१८</citation>तत्फणामण्डलोदर्चिर्मणिद्योतितविग्रहम्<citation>१०/७</citation></sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="9">
+<dentry>फणिन्</dentry>
+<prAwipaxikam>फणिन्</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[फणा+इनि]</etymology>
+<jAwi>सरीसृपः</jAwi>
+<sense no="1">फणधारी साँप, सामान्य साँप, सर्प, उद्गिरतो यद्गरलं फणिनः पुष्णासि परिमलोद्गारैः<citation>भागि* १/१२</citation>५८, फणी मयूरस्य तले निषीदति<citation>ऋतु* १/१३</citation>रघु* १६/१७, कु* ३/२१</sense>
+<sense n="2">राहु का विशेषण</sense>
+<sense n="3">पतंजलि का विशेषणफणि<citation>भाषितभाष्यफक्किका</citation><citation>नै* २/९५ पाणिनी के सूत्रों पर महाभाष्य के प्रणेता</citation></sense>
+<segmenthd>
+<dentry>फणीन्द्रः</dentry>
+<prAwipaxikam>फणीन्द्र</prAwipaxikam>
+<seg>फणिन्-इन्द्रः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">शेषनाग का विशेषण</sense>
+<sense no="2">साँपों के अधिपति अनन्त का विशेषण</sense>
+<sense no="3">पतंजलि का विशेषण</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फणीश्वरः</dentry>
+<prAwipaxikam>फणीश्वर</prAwipaxikam>
+<seg>फणिन्-ईश्वर:</seg>
+<grammar>पुं*</grammar>
+<sense no="1">शेषनाग का विशेषण</sense>
+<sense no="2">साँपों के अधिपति अनन्त का विशेषण</sense>
+<sense no="3">पतंजलि का विशेषण</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फणिखेलः</dentry>
+<prAwipaxikam>फणिखेल</prAwipaxikam>
+<seg>फणिन्-खेलः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">लवा, बटेर</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फणितल्पगः</dentry>
+<prAwipaxikam>फणितल्पग</prAwipaxikam>
+<seg>फणिन्-तल्पगः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">विष्णु का विशेषण शेषनाग जिनकी शय्या है</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फणिपतिः</dentry>
+<prAwipaxikam>फणिपति</prAwipaxikam>
+<seg>फणिन्-पतिः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">वासुकि या शेषनाग का विशेषण</sense>
+<sense no="2">पतंजलि का विशेषण</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फणिप्रियः</dentry>
+<prAwipaxikam>फणिप्रिय</prAwipaxikam>
+<seg>फणिन्-प्रियः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">वायु</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फणिफेनः</dentry>
+<prAwipaxikam>फणिफेन</prAwipaxikam>
+<seg>फणिन्-फेनः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">अफीम</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फणिभाष्यम्</dentry>
+<prAwipaxikam>फणिभाष्य</prAwipaxikam>
+<seg>फणिन्-भाष्यम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">महाभाष्य पाणिनि के सूत्रों पर किया गया भाष्य</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फणिभुज्</dentry>
+<prAwipaxikam>फणिभुज्</prAwipaxikam>
+<seg>फणिन्-भुज्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">मोर</sense>
+<sense no="2">गरुण का विशेषण</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="10">
+<dentry>फत्कारिन्</dentry>
+<prAwipaxikam>फत्कारिन्</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[फत्कार+इनि]</etymology>
+<sense no="1">पक्षी</sense>
+</lexhead>
+
+<lexhead no="11">
+<dentry>फरम्</dentry>
+<prAwipaxikam>फर</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[फल्+अच्, रलयोभेदः]</etymology>
+<sense no="1">फलक, ढाल<citation>तु*</citation></sense>
+</lexhead>
+
+<lexhead no="12">
+<dentry>फरुबकम्</dentry>
+<prAwipaxikam>फरुबक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<sense no="1">पानदान पान रखने का डब्बा</sense>
+</lexhead>
+
+<lexhead no="13">
+<dentry>फर्फरीकः</dentry>
+<prAwipaxikam>फर्फरीक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[स्फुर्+ईकन्, धातोः फर्फरादेशः]</etymology>
+<sense no="1">खुले हुए हाथ की हथेली</sense>
+</lexhead>
+
+<lexhead no="14">
+<dentry>फर्फरीकम्</dentry>
+<prAwipaxikam>फर्फरीक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<sense no="1">ताजा अंकुर या टहनी का अंखुवा</sense>
+<sense n="2">मृदुता</sense>
+</lexhead>
+
+<lexhead no="15">
+<dentry>फर्फरीका</dentry>
+<prAwipaxikam>फर्फरीका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<sense no="1">जूता</sense>
+</lexhead>
+
+<lexhead no="16">
+<dentry>फल्</dentry>
+<prAwipaxikam>फल्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>फलति</vform>,<vform>फलित</vform></grammar>
+<sense no="1">फल आना, फल पैदा करना ‘निष्पन्न या घटित करना’, नानाफलैः फलति कल्पलतेव विद्या<citation>भर्तृ* २/४०</citation>परोपकाराय द्रुमाः फलन्ति<citation>सुभा* विधातुर्व्यापारः फलतुः च मनोज्ञश्च भवतु</citation><citation>मा* १/१६</citation>मौर्यस्यैव फलन्ति विविधश्रेयांसि मन्नीतयः<citation>मुद्रा* २/१६</citation>इस अर्थ में प्रायः सकर्मक के रुप मे धातु का प्रयोग होता है</sense>
+<sense n="2">परिणामयुक्त होना, सफल होना, पूरा होना, निष्पन्न होना, कामयाब होनाकैकेयि कामाः फलितास्तवेति<citation>रघु* १३/५९</citation>१५/७८, यदा न फेलुः क्षणदाचराणां<citation>भट्टि* १४/११३</citation>१२/६६, नैवाकृतिः फलति नैव कुलं न शीलम्<citation>भर्तृ* २/९६/११६ मनोरथाः</citation></sense>
+<sense n="3">फल निकलना, परिणाम या नतीजा पैदा करना, ‘दुष्ट व्यक्ति बुरे कार्य करते हैं और भले पुरुषों को उनका परिणाम भुगतना पड़ता हैफलितमस्माकं कपटप्रबन्धेन<citation>हि* १</citation>फलितं नस्तर्हि भगवती पादप्रसादेन<citation>मा* ६</citation>कि* १८/२५, खलः करोति दुर्वृत्तं नूनं फलति साधुषु<citation>हि* ३/२१</citation></sense>
+<sense n="4">पक्का होना, पक जाना</sense>
+<sense n="5">बलपूर्वक तोड़ना, खंड-खंड करना, फट जाना, दरार पड़नातस्य मूर्धानमासाद्य पफालासिवरो हि सः<citation>महा*</citation></sense>
+<sense n="6">प्रतिफलित होना, अक्स पड़नाकि* ५/३८</sense>
+<sense n="7">जाना</sense>
+</lexhead>
+
+<lexhead no="17">
+<dentry>फलम्</dentry>
+<prAwipaxikam>फल</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[फल्+अच्]</etymology>
+<kind_of>वृक्षफलम्</kind_of>
+<jAwi>अचलनिर्जीववस्तु</jAwi>
+<kind_of>द्रव्यम्</kind_of>
+<upAXi>धनम्</upAXi>
+<is_a_part>हलम्</is_a_part>
+<kind_of>काष्ठम्</kind_of>
+<upAXi>आयुधम्</upAXi>
+<kind_of>आयुधम्</kind_of>
+<upAXi>आयुधम्</upAXi>
+<is_a_part>वस्त्रम्</is_a_part>
+<upAXi>अवयवः</upAXi>
+<is_a_part>वृक्षः</is_a_part>
+<kind_of>सस्यहेतुकृतम्</kind_of>
+<jAwi>अचलनिर्जीववस्तु</jAwi>
+<upAXi>प्राकृतिकखाद्यम्</upAXi>
+<sense no="1">फल जैसे वृक्ष का, उदेति पूर्वं कुसुम ततः फलम्<citation>श* ७/३०</citation>रघु* ४/३३, १/४९, आलं०से भी</sense>
+<sense n="2">फसल, पैदवारकृषिफलं<citation>मेघ* १६</citation></sense>
+<sense n="3">परिणाम, फल, नतीजा, प्रभावअत्युत्कटेः पापपुण्यैरिहैव फलमश्नुते<citation>हि* १/८३</citation>फलेन ज्ञास्यसि<citation>पंच* १</citation>न नवः प्रभुराफलोदयात् स्थिरकर्मा विरराम कर्मणः<citation>रघु* ८/२२</citation>१/३३</sense>
+<sense n="4">पुरस्कार, क्षतिपूर्ति, पारितोषक प्रतिफलफलमस्योपहासस्य सद्यः प्राप्स्यसि पश्य माम्<citation>रघु* १२/३७ अतः  शुभ या अशुभ</citation></sense>
+<sense n="5">कृत्य, कर्म‘ भले पुरुष अपनी उपयोगिता कर्मों से सिद्ध करते है न कि वचनों से’ब्रुवते हि फलेन साधवो न तु कंठेन निजोपयोगिताम्<citation>नै* २/४८ विप० वचन्</citation></sense>
+<sense n="6">उद्देश्य, आशय, प्रयोजन‘ किस आशय को विचार में रखकर’परेङ्गितज्ञानफला हि बुद्धयः<citation>पंच* १/४३</citation>किमपेक्ष्य फलम्<citation>कि* २/२१</citation>मेघ* ५४</sense>
+<sense n="7">उपयोग, भलाई, लाभ, हितजगता वा विफलेन किं फलम्<citation>भामि* २/६१</citation></sense>
+<sense n="8">लाभ या मूलराशि का ब्याज</sense>
+<sense n="9">प्रजा, सन्तान<citation>रघु* १४/३९</citation></sense>
+<sense n="10">गिरी फल की</sense>
+<sense n="11">पट्टिका या फलक</sense>
+<sense n="12">फल तलवार का</sense>
+<sense n="13">तीर की नोक या सिरा, बाण, गीतकार<citation>मुद्रा* ७/१०</citation></sense>
+<sense n="14">ढाल</sense>
+<sense n="15">अंडकोष</sense>
+<sense n="16">उपहार</sense>
+<sense n="17">गणना फल गणित में</sense>
+<sense n="18">गुणनफल</sense>
+<sense n="19">रजःस्त्रावः</sense>
+<sense n="20">जायफल</sense>
+<sense n="21">हल का फल, फाली</sense>
+<segmenthd>
+<dentry>फलादनः</dentry>
+<prAwipaxikam>फलादन</prAwipaxikam>
+<seg>फलम्+अदनः</seg>
+<grammar>पुं*</grammar>
+<sense no="2">फलाशन</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलानुबन्धः</dentry>
+<prAwipaxikam>फलानुबन्ध</prAwipaxikam>
+<seg>फलम्+अनुबन्धः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">परिणामक्रम, फलपरम्परा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलानुमेय</dentry>
+<prAwipaxikam>फलानुमेय</prAwipaxikam>
+<seg>फलम्+अनुमेय</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">फलानुमेय</prAwipaxikam>
+<sense no="1">जिसका अनुमान फल या परिणाम पर निर्भर होफलानुमेयाः प्रारम्भाः संस्काराः प्राक्ताना इव<citation>रघु* १/२०</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलान्तः</dentry>
+<prAwipaxikam>फलान्त</prAwipaxikam>
+<seg>फलम्+अन्तः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">बांस</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलान्वेषिन्</dentry>
+<prAwipaxikam>फलान्वेषिन्</prAwipaxikam>
+<seg>फलम्+अन्वेषिन्</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">फलान्वेषिन्</prAwipaxikam>
+<sense no="1">पुरस्कार या क्षतिपूर्ति की खोज करने वाला कर्मो के</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलापेक्षा</dentry>
+<prAwipaxikam>फलापेक्षा</prAwipaxikam>
+<seg>फलम्+अपेक्षा</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">फल या परिणामों की आशा, नतीजे का ध्यान कर्मो के</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलाशनः</dentry>
+<prAwipaxikam>फलाशन</prAwipaxikam>
+<seg>फलम्+अशनः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">तोता</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलाम्लम्</dentry>
+<prAwipaxikam>फलाम्ल</prAwipaxikam>
+<seg>फलम्+अम्लम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">इमली</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलास्थि</dentry>
+<prAwipaxikam>फलास्थि</prAwipaxikam>
+<seg>फलम्+अस्थि</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">नारियल</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलाकाङ्क्षा</dentry>
+<prAwipaxikam>फलाकाङ्क्षा</prAwipaxikam>
+<seg>फलम्+आकाङ्क्षा</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">आशादे* फलापेक्षा अच्छे परिणामों की</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलागमः</dentry>
+<prAwipaxikam>फलागम</prAwipaxikam>
+<seg>फलम्+आगमः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">फलों की पैदवार, फलों का भारभवन्ति नम्रास्तरवः फलागमैः<citation>श* ५/१२</citation></sense>
+<sense no="2">फलों का मौसम, पतझड़</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलाढ्य</dentry>
+<prAwipaxikam>फलाढ्य</prAwipaxikam>
+<seg>फलम्+आढ्य</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">फलाढ्य</prAwipaxikam>
+<sense no="1">फलों से भरा हुया</sense>
+<sense no="2">एक प्रकार के अंगुर जिसमें गुठलियाँ या बीज नहीं होते</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलोत्पत्तिः</dentry>
+<prAwipaxikam>फलोत्पत्ति</prAwipaxikam>
+<seg>फलम्+उत्पत्तिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">फलों की पैदवार</sense>
+<sense no="2">फायदा, लाभ, आम का वृक्ष कभी-कभी इसी अर्थ को प्रकट करने के लिए ‘फलोत्पति’ भी लिखा जाता है</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलोदयः</dentry>
+<prAwipaxikam>फलोदय</prAwipaxikam>
+<seg>फलम्+उदयः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">फलों का दिखाई देना, फल या परिणाम का निकलना, अभीष्ट पदार्थ या सफलता की प्राप्तिआफलोदयकर्मणाम्<citation>रघु* १/५ आना</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलोद्देशः</dentry>
+<prAwipaxikam>फलोद्देश</prAwipaxikam>
+<seg>फलम्+उद्देशः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">फलों का ध्यान दे० फलापेक्षा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलकामना</dentry>
+<prAwipaxikam>फलकामना</prAwipaxikam>
+<seg>फलम्+कामना</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">परिणाम या फल की इच्छा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलकालः</dentry>
+<prAwipaxikam>फलकाल</prAwipaxikam>
+<seg>फलम्+कालः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">फलों का समय</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलकेशरः</dentry>
+<prAwipaxikam>फलकेशर</prAwipaxikam>
+<seg>फलम्+केशरः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">नारियल का पेड़</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलग्रहः+ग्रहिन्</dentry>
+<prAwipaxikam>फलग्रहः+ग्रहिन्</prAwipaxikam>
+<seg>फलम्+ग्रहः+ग्रहिन्</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">फलग्रहः+ग्रहिन्</prAwipaxikam>
+<sense no="1">फलों से भरा हुआ, मौसम मे फल देनेश्लाघ्यतां कुलमुपैति पैतृकं स्यान्मनोरथतरुः फलेग्रहिः<citation>कीर्ति* ३/६०</citation>मा* ९/३९फलेग्रहि या फलेग्राहिन्</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलद</dentry>
+<prAwipaxikam>फलद</prAwipaxikam>
+<seg>फलम्+द</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">फलद</prAwipaxikam>
+<sense no="1">उपजाऊ, फलदार, फल देने वाला<citation>मनु* ११/१४२</citation></sense>
+<sense no="2">लाभकर या फायदा पहुंचाने वाला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलदः</dentry>
+<prAwipaxikam>फलद</prAwipaxikam>
+<seg>फलम्+दः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">वृक्ष</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलनिवृत्तिः</dentry>
+<prAwipaxikam>फलनिवृत्ति</prAwipaxikam>
+<seg>फलम्+निवृत्तिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">परिणामों की समाप्ति</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलनिष्पत्तिः</dentry>
+<prAwipaxikam>फलनिष्पत्ति</prAwipaxikam>
+<seg>फलम्+निष्पत्तिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">फलों का उत्पादन</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलपाकः</dentry>
+<prAwipaxikam>फलपाक</prAwipaxikam>
+<seg>फलम्+पाकः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">फलों का पकना फलेपाकः’ भी</sense>
+<sense no="2">परिणामों की पूर्णता</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलपादपः</dentry>
+<prAwipaxikam>फलपादप</prAwipaxikam>
+<seg>फलम्+पादपः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">फलवृक्ष</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलपूरः</dentry>
+<prAwipaxikam>फलपूर</prAwipaxikam>
+<seg>फलम्+पूरः</seg>
+<grammar>पुं*</grammar>
+<kind_of>सूक्ष्मशाखामूलयुक्तवृक्षः</kind_of>
+<jAwi>ओषधिः</jAwi>
+<sense no="1">सामान्य नीबू का पेड़्</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलपूरकः</dentry>
+<prAwipaxikam>फलपूरक</prAwipaxikam>
+<seg>फलम्+पूरकः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">सामान्य नीबू का पेड़्</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलप्रदानम्</dentry>
+<prAwipaxikam>फलप्रदान</prAwipaxikam>
+<seg>फलम्+प्रदानम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">फलों का देना</sense>
+<sense no="2">विवाह के अवसर पर एक संस्कार विशेष</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलबन्धिन्</dentry>
+<prAwipaxikam>फलबन्धिन्</prAwipaxikam>
+<seg>फलम्+बन्धिन्</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">फलबन्धिन्</prAwipaxikam>
+<sense no="1">फल को विकसित करने वाला या रुप देने वाला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलभूमिः</dentry>
+<prAwipaxikam>फलभूमि</prAwipaxikam>
+<seg>फलम्+भूमिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">वह स्थान जहाँ मनुष्य अपने कर्मों का शुभाशुभ फल भोगता है अर्थात् स्वर्ग या नरक</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलभृत्</dentry>
+<prAwipaxikam>फलभृत्</prAwipaxikam>
+<seg>फलम्+भृत्</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">फलभृत्</prAwipaxikam>
+<sense no="1">फलदायी, फलों से पूर्ण</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलभोगः</dentry>
+<prAwipaxikam>फलभोग</prAwipaxikam>
+<seg>फलम्+भोगः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">फलों का आनन्द लेना</sense>
+<sense no="2">भोगाधिकार</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलयोगः</dentry>
+<prAwipaxikam>फलयोग</prAwipaxikam>
+<seg>फलम्+योगः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">अभीष्टपदार्थ या फल की प्राप्ति<citation>मुद्रा* ७/१०</citation></sense>
+<sense no="2">मजदूरी, पारिश्रमिक</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलराजन्</dentry>
+<prAwipaxikam>फलराजन्</prAwipaxikam>
+<seg>फलम्+राजन्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">तरबूजा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलवतुलम्</dentry>
+<prAwipaxikam>फलवतुल</prAwipaxikam>
+<seg>फलम्+वतुलम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">तरबूज</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलवृक्षः</dentry>
+<prAwipaxikam>फलवृक्ष</prAwipaxikam>
+<seg>फलम्+वृक्षः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">फलदारवृक्ष</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलवृक्षक</dentry>
+<prAwipaxikam>फलवृक्षक</prAwipaxikam>
+<seg>फलम्+वृक्षक</seg>
+<grammar>पुं*</grammar>
+<sense no="1">कटहल का वृक्ष</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलशाडवः</dentry>
+<prAwipaxikam>फलशाडव</prAwipaxikam>
+<seg>फलम्+शाडवः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">अनार का पेड़</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलश्रेष्ठः</dentry>
+<prAwipaxikam>फलश्रेष्ठ</prAwipaxikam>
+<seg>फलम्+श्रेष्ठः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">आम का पेड़</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलसम्पद्</dentry>
+<prAwipaxikam>फलसम्पद्</prAwipaxikam>
+<seg>फलम्+सम्पद्</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">फलों की बहुतायत</sense>
+<sense no="2">सफलता</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलसाधनम्</dentry>
+<prAwipaxikam>फलसाधन</prAwipaxikam>
+<seg>फलम्+साधनम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">अभीष्ट पदार्थ की उपलब्धि का उपाय, उद्देश्य की पूर्ति</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलस्नेहः</dentry>
+<prAwipaxikam>फलस्नेह</prAwipaxikam>
+<seg>फलम्+स्नेहः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">अखरोट का पेड़</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलहारी</dentry>
+<prAwipaxikam>फलहारी</prAwipaxikam>
+<seg>फलम्+हारी</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">काली या दुर्गा का विशेषण</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="18">
+<dentry>फलकम्</dentry>
+<prAwipaxikam>फलक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[फल+कन्]</etymology>
+<kind_of>आयुधम्</kind_of>
+<upAXi>आयुधम्</upAXi>
+<sense no="1">पट्ट, तख्ता, शिला, पटल या पट्टी, कालः काल्या भुवनफलके क्रीडति प्राणिशारैः<citation>भर्तृ* ३/३९</citation>द्यूत*चित्र* आदि</sense>
+<sense n="2">चपटी सतहचुंब्यमानकपोल फलकाम्<citation>का* २१८</citation>धृतमुग्धगंण्डफलकैर्विबभुः<citation>शि* ९/४७</citation>३७, तु* ‘तट’</sense>
+<sense n="3">ढाल</sense>
+<sense n="4">पत्र पृष्ठ</sense>
+<sense n="5">नितंब, कूल्हा</sense>
+<sense n="6">हाथ की हथेली</sense>
+<segmenthd>
+<dentry>फलकपाणि</dentry>
+<prAwipaxikam>फलकपाणि</prAwipaxikam>
+<seg>फलकम्+पाणि</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">फलकपाणि</prAwipaxikam>
+<is_a_part>सेना</is_a_part>
+<kind_of>योद्धा</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">ढाल से सुसज्जित योद्धा की भांति</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फलकयन्त्रम्</dentry>
+<prAwipaxikam>फलकयन्त्र</prAwipaxikam>
+<seg>फलकम्+यन्त्रम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">भास्कराचार्य द्वारा आविष्कृत एक ज्योतिर्विषयक उपकरण</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="19">
+<dentry>फलतः</dentry>
+<prAwipaxikam>फलतः</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<etymology>[फल+तसिल्]</etymology>
+<sense no="1">फलस्वरुप, परिणामरुप, यथार्थतः</sense>
+</lexhead>
+
+<lexhead no="20">
+<dentry>फलनम्</dentry>
+<prAwipaxikam>फलन</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[फल्+ल्युट्]</etymology>
+<sense no="1">फल आना, फलवान् होना</sense>
+<sense n="2">फल या परिणाम उत्पन्न करना</sense>
+</lexhead>
+
+<lexhead no="21">
+<dentry>फलवत्</dentry>
+<prAwipaxikam>फलवत्</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">फलवत्</prAwipaxikam>
+<etymology>[फल+मतुप्]</etymology>
+<kind_of>वृक्षः</kind_of>
+<jAwi>वृक्षः</jAwi>
+<sense no="1">फलवान, फलदार</sense>
+<sense n="2">फलदायी, परिणामदर्शी सफल, लाभकारी</sense>
+</lexhead>
+
+<lexhead no="22">
+<dentry>फलवती</dentry>
+<prAwipaxikam>फलवती</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<sense no="1">‘प्रियंगु’ नामक लता</sense>
+</lexhead>
+
+<lexhead no="23">
+<dentry>फलिता</dentry>
+<prAwipaxikam>फलिता</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[फल+इतच्+टाप्]</etymology>
+<sense no="1">रजस्वला स्त्री</sense>
+</lexhead>
+
+<lexhead no="24">
+<dentry>फलिन्</dentry>
+<prAwipaxikam>फलिन्</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">फलिन्</prAwipaxikam>
+<etymology>[फल+इनि]</etymology>
+<kind_of>वृक्षः</kind_of>
+<jAwi>वृक्षः</jAwi>
+<sense no="1">फलों से पूर्ण, फलदायी, पुष्पिणः फलिनश्चैव वृक्षास्तूभयतः स्मृताः<citation>मनु* १/४७</citation>मृच्छ* ४/१०</sense>
+<sense n="2">वृक्षपुष्पिणः फलिनश्चैव वृक्षास्तूभयतः स्मृताः<citation>मनु* १/४७</citation>मृच्छ* ४/१०</sense>
+</lexhead>
+
+<lexhead no="25">
+<dentry>फलिन</dentry>
+<prAwipaxikam>फलिन</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">फलिन</prAwipaxikam>
+<etymology>[फल+इनच्]</etymology>
+<sense no="1">फलों से पूर्ण, फलदायी</sense>
+</lexhead>
+
+<lexhead no="26">
+<dentry>फलिनः</dentry>
+<prAwipaxikam>फलिन</prAwipaxikam>
+<grammar>पुं*</grammar>
+<sense no="1">कटहल का पेड़</sense>
+</lexhead>
+
+<lexhead no="27">
+<dentry>फलिनी</dentry>
+<prAwipaxikam>फलिनी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[फलिन्+ङीप्/फल्+अच्+ङीप्]</etymology>
+<kind_of>वृक्षः</kind_of>
+<jAwi>वृक्षः</jAwi>
+<kind_of>लता</kind_of>
+<jAwi>लता</jAwi>
+<sense no="1">प्रियंगु लता<citation>तु* रघू* ८/६१</citation>कवियों के द्वारा इसे‘आम की पत्नी’ कहा गया है</sense>
+</lexhead>
+
+<lexhead no="28">
+<dentry>फलीनी</dentry>
+<prAwipaxikam>फलीनी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[फलिन्+ङीप्/फल्+अच्+ङीप्]</etymology>
+<sense no="1">प्रियंगु लता<citation>तु* रघू* ८/६१</citation>कवियों के द्वारा इसे‘आम की पत्नी’ कहा गया है</sense>
+</lexhead>
+
+<lexhead no="29">
+<dentry>फल्गु</dentry>
+<prAwipaxikam>फल्गु</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">फल्गु</prAwipaxikam>
+<etymology>[फल्+उ, गुक् च]</etymology>
+<jAwi>द्रव्यम्</jAwi>
+<kind_of>वृक्षः</kind_of>
+<jAwi>वृक्षः</jAwi>
+<sense no="1">बिना गूदे का, रसहीन, तत्वरहित, सारविहीन, सारं ततो ग्राह्यमपास्य फल्गु<citation>पंच* १/२</citation></sense>
+<sense n="2">अयोग्य, निरर्थक, महत्वहीन<citation>शि* ३/७६</citation></sense>
+<sense n="3">अल्प, सुक्ष्म्</sense>
+<sense n="4">निर्मूल, व्यर्थ</sense>
+<sense n="5">दुर्बल, बलहीन, निस्सार</sense>
+</lexhead>
+
+<lexhead no="30">
+<dentry>फल्गुः</dentry>
+<prAwipaxikam>फल्गु</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<jAwi>द्रव्यम्</jAwi>
+<kind_of>वृक्षः</kind_of>
+<jAwi>वृक्षः</jAwi>
+<sense no="1">वसन्तऋतु</sense>
+<sense n="2">गूलर का वृक्ष</sense>
+<sense n="3">गया के पास एक नदी</sense>
+<segmenthd>
+<dentry>फल्गूत्सवः</dentry>
+<prAwipaxikam>फल्गूत्सव</prAwipaxikam>
+<seg>फल्गु+उत्सवः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">वसन्तोत्सव, होली का त्योहार</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="31">
+<dentry>फल्गुनः</dentry>
+<prAwipaxikam>फल्गुन</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[फल्+उनन्, गुक् च्]</etymology>
+<sense no="1">फाल्गुन का महीना</sense>
+<sense n="2">इन्द्र का नामान्तर</sense>
+</lexhead>
+
+<lexhead no="32">
+<dentry>फाल्गुनी</dentry>
+<prAwipaxikam>फाल्गुनी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<sense no="1">एक नक्षत्र का नाम<citation>कु* ७/६</citation></sense>
+</lexhead>
+
+<lexhead no="33">
+<dentry>फल्यम्</dentry>
+<prAwipaxikam>फल्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[फल्+यत्]</etymology>
+<sense no="1">फूल</sense>
+</lexhead>
+
+<lexhead no="34">
+<dentry>फाणिः</dentry>
+<prAwipaxikam>फाणि</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[फण्+णिच्+इञ्/फण्+णिच्+क्त]</etymology>
+<sense no="1">सीरा, राब</sense>
+</lexhead>
+
+<lexhead no="35">
+<dentry>फाणितम्</dentry>
+<prAwipaxikam>फाणित</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[फण्+णिच्+इञ्/फण्+णिच्+क्त]</etymology>
+<kind_of>शर्करा</kind_of>
+<upAXi>विकृतिकखाद्यम्</upAXi>
+<sense no="1">सीरा, राब</sense>
+</lexhead>
+
+<lexhead no="36">
+<dentry>फाण्ट</dentry>
+<prAwipaxikam>फाण्ट</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">फाण्ट</prAwipaxikam>
+<etymology>[फण्+क्त, नि० साधुः]</etymology>
+<upAXi>पानीयम्</upAXi>
+<sense no="1">सुगम प्रक्रिया द्वारा निर्मित, आसानी से बनाया हुआ, जैसे काढ़ा</sense>
+</lexhead>
+
+<lexhead no="37">
+<dentry>फाण्टः</dentry>
+<prAwipaxikam>फाण्ट</prAwipaxikam>
+<grammar>पुं*</grammar>
+<upAXi>पानीयम्</upAXi>
+<sense no="1">अर्क, काढ़ा, फाण्टमनायाससाध्यः कषायविशेषः<citation>सिद्धा* फाण्टचित्रास्त्रपाणयः</citation><citation>भट्टि* ९/१७</citation>दे० भाष्य</sense>
+</lexhead>
+
+<lexhead no="38">
+<dentry>फाण्टम्</dentry>
+<prAwipaxikam>फाण्ट</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<upAXi>पानीयम्</upAXi>
+<sense no="1">अर्क, काढ़ा, फाण्टमनायाससाध्यः कषायविशेषः<citation>सिद्धा* फाण्टचित्रास्त्रपाणयः</citation><citation>भट्टि* ९/१७</citation>दे० भाष्य</sense>
+</lexhead>
+
+<lexhead no="39">
+<dentry>फालः</dentry>
+<prAwipaxikam>फाल</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[फल+अण/फल्+घञ्]</etymology>
+<is_a_part>हलम्</is_a_part>
+<kind_of>काष्ठम्</kind_of>
+<upAXi>आयुधम्</upAXi>
+<kind_of>वस्त्रम्</kind_of>
+<upAXi>वस्त्रम्</upAXi>
+<sense no="1">हल का फल, फाली<citation>मनु* ६/१६</citation></sense>
+<sense n="2">बालों की मांग निकालना, सीमंतभाग<citation>नै* १/१६</citation></sense>
+</lexhead>
+
+<lexhead no="40">
+<dentry>फालम्</dentry>
+<prAwipaxikam>फाल</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[फल+अण/फल्+घञ्]</etymology>
+<is_a_part>हलम्</is_a_part>
+<kind_of>काष्ठम्</kind_of>
+<upAXi>आयुधम्</upAXi>
+<kind_of>वस्त्रम्</kind_of>
+<upAXi>वस्त्रम्</upAXi>
+<sense no="1">हल का फल, फाली<citation>मनु* ६/१६</citation></sense>
+<sense n="2">बालों की मांग निकालना, सीमंतभाग<citation>नै* १/१६</citation></sense>
+<segmenthd>
+<dentry>फालः</dentry>
+<prAwipaxikam>फाल</prAwipaxikam>
+<grammar>पुं*</grammar>
+<is_a_part>हलम्</is_a_part>
+<kind_of>काष्ठम्</kind_of>
+<upAXi>आयुधम्</upAXi>
+<kind_of>वस्त्रम्</kind_of>
+<upAXi>वस्त्रम्</upAXi>
+<sense no="1">बलराम का विशेषण</sense>
+<sense no="2">शिव का विशेषण</sense>
+<sense no="3">नीबू का पेड़</sense></segmenthd>
+<segmenthd>
+<dentry>फालम्</dentry>
+<prAwipaxikam>फालम्</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<sense no="1">सूती कपड़ा</sense>
+<sense no="2">जोता हुआ खेत</sense></segmenthd>
+</lexhead>
+
+<lexhead no="41">
+<dentry>फाल्गुनः</dentry>
+<prAwipaxikam>फाल्गुन</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[फाल्गुन+अण्]</etymology>
+<kind_of>पक्षद्वयौ</kind_of>
+<jAwi>कालः</jAwi>
+<sense no="1">महीने का नाम, जो फरवरी-मार्च में आता है</sense>
+<sense n="2">अर्जुन का विशेषण महा०में नाम की व्याख्या इस प्रकार हैउत्तराभ्यां फल्गुनीभ्यां नक्षत्राभ्यामहं दिवा, जातो हिमवतःपृष्ठे तेन मां फाल्गुनं विदुः</sense>
+<sense n="3">वृक्ष का नाम, जिसे ‘अर्जुन’ कहते हैं</sense>
+<segmenthd>
+<dentry>फाल्गुनानुजः</dentry>
+<prAwipaxikam>फाल्गुनानुज</prAwipaxikam>
+<seg>फाल्गुनः+अनुजः</seg>
+<grammar>पुं*</grammar>
+<sense no="2">चैत्र का महीना</sense>
+<sense no="3">वसंतकाल</sense>
+<sense no="4">नकुल और सहदेव का विशेषण</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="42">
+<dentry>फाल्गुनी</dentry>
+<prAwipaxikam>फाल्गुनी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[फाल्गुनी+अण्+ङीप्]</etymology>
+<sense no="1">फाल्गुन मास की पूर्णिमा</sense>
+<segmenthd>
+<dentry>फाल्गुनीभवः</dentry>
+<prAwipaxikam>फाल्गुनीभव</prAwipaxikam>
+<seg>फाल्गुनी+भवः</seg>
+<grammar>पुं*</grammar>
+<sense no="4">वृहस्पति ग्रह का विशेषण</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="43">
+<dentry>फिरङ्गः</dentry>
+<prAwipaxikam>फिरङ्ग</prAwipaxikam>
+<grammar>पुं*</grammar>
+<sense no="1">फिरंगियों अर्थात् यूरोपियनों का देश</sense>
+</lexhead>
+
+<lexhead no="44">
+<dentry>फिरङ्गिन्</dentry>
+<prAwipaxikam>फिरङ्गिन्</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[फिरंग+इनि]</etymology>
+<sense no="1">फिरंगी, अंग्रेज, युरोपियन</sense>
+</lexhead>
+
+<lexhead no="45">
+<dentry>फुकः</dentry>
+<prAwipaxikam>फुक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[फु+कै+क]</etymology>
+<sense no="1">पक्षी</sense>
+</lexhead>
+
+<lexhead no="46">
+<dentry>फुत्</dentry>
+<prAwipaxikam>फुत्</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<sense no="1">अनुकरणमूलक शब्द जो प्रायः ‘कृ’ के साथ प्रयुक्त होता है, तरल पदार्थों में फूंक मारने से पैदा होने वाली ध्वनि, कभी-कभी इससे घृणा सूचित होती है</sense>
+</lexhead>
+
+<lexhead no="47">
+<dentry>फूत्</dentry>
+<prAwipaxikam>फूत्</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<sense no="1">अनुकरणमूलक शब्द जो प्रायः ‘कृ’ के साथ प्रयुक्त होता है, तरल पदार्थों में फूंक मारने से पैदा होने वाली ध्वनि, कभी-कभी इससे घृणा सूचित होती है</sense>
+<compound>
+<dentry>फुत्कृ</dentry>
+<prAwipaxikam>फुत्कृ</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">फुत्कृ</prAwipaxikam>
+<sense no="4">फूँक मारनाबालः पायसदग्धो दध्यपि फूत्कृत्य भक्षयति<citation>हि* ४/१०३</citation></sense></compound>
+<compound>
+<dentry>फूत्कृ</dentry>
+<prAwipaxikam>फूत्कृ</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">फूत्कृ</prAwipaxikam>
+<sense no="4">फूँक मारनाबालः पायसदग्धो दध्यपि फूत्कृत्य भक्षयति<citation>हि* ४/१०३</citation></sense></compound>
+<segmenthd>
+<dentry>फुत्कारः</dentry>
+<prAwipaxikam>फुत्कार</prAwipaxikam>
+<seg>फुत्+कारः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">फूँक मारना</sense>
+</segmenthd>
+<sense no="5">साँप की फुफकार</sense>
+<sense no="6">सी सी करना, सायं सायं की ध्वनि</sense>
+<sense no="7">सुबकना</sense>
+<sense no="8">चीख मारना, जोर की चीख, चीत्कार</sense>
+<segmenthd>
+<dentry>फूत्कारः</dentry>
+<prAwipaxikam>फूत्कार</prAwipaxikam>
+<seg>फूत्+कारः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">फूँक मारना</sense>
+<sense no="2">साँप की फुफकार</sense>
+<sense no="3">सी सी करना, सायं सायं की ध्वनि</sense>
+<sense no="4">सुबकना</sense>
+<sense no="5">चीख मारना, जोर की चीख, चीत्कार</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फुत्कृतम्</dentry>
+<prAwipaxikam>फुत्कृत</prAwipaxikam>
+<seg>फुत्+कृतम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">फूँक मारना</sense>
+<sense no="2">साँप की फुफकार</sense>
+<sense no="3">सी सी करना, सायं सायं की ध्वनि</sense>
+<sense no="4">सुबकना</sense>
+<sense no="5">चीख मारना, जोर की चीख, चीत्कार</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फूत्कृतम्</dentry>
+<prAwipaxikam>फूत्कृत</prAwipaxikam>
+<seg>फूत्+कृतम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">फूँक मारना</sense>
+<sense no="2">साँप की फुफकार</sense>
+<sense no="3">सी सी करना, सायं सायं की ध्वनि</sense>
+<sense no="4">सुबकना</sense>
+<sense no="5">चीख मारना, जोर की चीख, चीत्कार</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फुत्कृति</dentry>
+<prAwipaxikam>फुत्कृति</prAwipaxikam>
+<seg>फुत्+कृति</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">फूँक मारना</sense>
+<sense no="2">साँप की फुफकार</sense>
+<sense no="3">सी सी करना, सायं सायं की ध्वनि</sense>
+<sense no="4">सुबकना</sense>
+<sense no="5">चीख मारना, जोर की चीख, चीत्कार</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फूत्कृति</dentry>
+<prAwipaxikam>फूत्कृति</prAwipaxikam>
+<seg>फूत्+कृति</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">फूँक मारना</sense>
+<sense no="2">साँप की फुफकार</sense>
+<sense no="3">सी सी करना, सायं सायं की ध्वनि</sense>
+<sense no="4">सुबकना</sense>
+<sense no="5">चीख मारना, जोर की चीख, चीत्कार</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="48">
+<dentry>फुप्फुसः</dentry>
+<prAwipaxikam>फुप्फुस</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<sense no="1">फेफड़े</sense>
+</lexhead>
+
+<lexhead no="49">
+<dentry>फुप्फुसम्</dentry>
+<prAwipaxikam>फुप्फुस</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<sense no="1">फेफड़े</sense>
+</lexhead>
+
+<lexhead no="50">
+<dentry>फुल्ल्</dentry>
+<prAwipaxikam>फुल्ल्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>फुल्लति</vform><vform>फुल्लित</vform></grammar>
+<sense no="1">कली आना, फूलना, फुलाना, खिलना, पुष्प का</sense>
+</lexhead>
+
+<lexhead no="51">
+<dentry>फुल्ल</dentry>
+<prAwipaxikam>फुल्ल</prAwipaxikam>
+<grammar>भू* क* कृ*</grammar>
+<etymology>[फल्+क्त, उत्वं लत्वम्]</etymology>
+<kind_of>वृक्षः</kind_of>
+<jAwi>वृक्षः</jAwi>
+<sense no="1">फैलाया हुआ, खिला हुआ, फूला हुआ, पुष्पं च फुल्लं नवमल्लिकायाः प्रयाति कान्ति प्रमदाजनानाम्<citation>ऋतु* ६/६</citation>फुल्लारविंदववदनाम्<citation>चौर* १</citation></sense>
+<sense n="2">फूल आना, खिला हुआ<citation>रघु* ९/६३</citation></sense>
+<sense n="3">विस्तारित, फैलाया हुआ, खूबखुला हुआ<citation>पंच* १/१३६ आँखों की भाँति</citation></sense>
+<segmenthd>
+<dentry>फुल्ललोचन</dentry>
+<prAwipaxikam>फुल्ललोचन</prAwipaxikam>
+<seg>फुल्ल+लोचन</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">फुल्ललोचन</prAwipaxikam>
+<sense no="5">खिली हुई आँखों वाला हर्ष से</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फुल्ललोचनः</dentry>
+<prAwipaxikam>फुल्ललोचन</prAwipaxikam>
+<seg>फुल्ल+लोचनः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">एक प्रकार का मृग</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="52">
+<dentry>फेट्कारः</dentry>
+<prAwipaxikam>फेट्कार</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[फेट्+कृ+घञ्]</etymology>
+<sense no="1">चीख, हूक, कुत्ते भेड़िये की ध्वनि</sense>
+</lexhead>
+
+<lexhead no="53">
+<dentry>फेणः</dentry>
+<prAwipaxikam>फेण</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[स्फाय्+न, फे शब्दादेशः, पक्षे णत्वम्]</etymology>
+<sense no="1">झाग, फेन, गौरीवक्त्प्रभ्रुकुटिरचना या विहस्येव फेनैः<citation>मेघ* ५०</citation>रघु* १३/११, मनु* २/६१</sense>
+<sense n="2">मुँह का झाग या बुलबुला</sense>
+<sense n="3">थूक</sense>
+</lexhead>
+
+<lexhead no="54">
+<dentry>फेनः</dentry>
+<prAwipaxikam>फेन</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[स्फाय्+न, फे शब्दादेशः]</etymology>
+<kind_of>धातुविशेषः</kind_of>
+<jAwi>मूलकम्</jAwi>
+<sense no="1">झाग, फेन, गौरीवक्त्प्रभ्रुकुटिरचना या विहस्येव फेनैः<citation>मेघ* ५०</citation>रघु* १३/११, मनु* २/६१</sense>
+<sense n="2">मुँह का झाग या बुलबुला</sense>
+<sense n="3">थूक</sense>
+<segmenthd>
+<dentry>फेणनपिण्डः</dentry>
+<prAwipaxikam>फेणनपिण्ड</prAwipaxikam>
+<seg>फेणनः+पिण्डः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">बुलबुला</sense>
+<sense no="2">खोखला विचार, अनस्तित्व</sense>
+</segmenthd>
+<segmenthd>
+<dentry>फेणनवाहिन्</dentry>
+<prAwipaxikam>फेणनवाहिन्</prAwipaxikam>
+<seg>फेणनः+वाहिन्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">छानने के काम का कपड़ा</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="55">
+<dentry>फेणक</dentry>
+<prAwipaxikam>फेणक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">फेणक</prAwipaxikam>
+<etymology>[फेण+कन्]</etymology>
+<sense no="1">झाग, फेन, गौरीवक्त्प्रभ्रुकुटिरचना या विहस्येव फेनैः<citation>मेघ* ५०</citation>रघु* १३/११, मनु* २/६१</sense>
+<sense n="2">मुँह का झाग या बुलबुला</sense>
+<sense n="3">थूक</sense>
+</lexhead>
+
+<lexhead no="56">
+<dentry>फेनक</dentry>
+<prAwipaxikam>फेनक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">फेनक</prAwipaxikam>
+<etymology>[फेन+कन्]</etymology>
+<sense no="1">झाग, फेन, गौरीवक्त्प्रभ्रुकुटिरचना या विहस्येव फेनैः<citation>मेघ* ५०</citation>रघु* १३/११, मनु* २/६१</sense>
+<sense n="2">मुँह का झाग या बुलबुला</sense>
+<sense n="3">थूक</sense>
+</lexhead>
+
+<lexhead no="57">
+<dentry>फेनिल</dentry>
+<prAwipaxikam>फेनिल</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">फेनिल</prAwipaxikam>
+<etymology>[फेन+इलच्]</etymology>
+<is_a_part>बदरीवृक्षः</is_a_part>
+<kind_of>वृक्षफलम्</kind_of>
+<jAwi>अचलनिर्जीववस्तु</jAwi>
+<upAXi>प्राकृतिकखाद्यम्</upAXi>
+<kind_of>वृक्षः</kind_of>
+<jAwi>वृक्षः</jAwi>
+<sense no="1">झागदार, बुलबुले वाला, फेनिलमम्बूराशि<citation>रघु* १३/२</citation></sense>
+</lexhead>
+
+<lexhead no="58">
+<dentry>फेरः</dentry>
+<prAwipaxikam>फेर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[फे+रा+क/फ+रण्ड्+अच्]</etymology>
+<sense no="1">गीदड़</sense>
+</lexhead>
+
+<lexhead no="59">
+<dentry>फेरण्डः</dentry>
+<prAwipaxikam>फेरण्ड</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[फे+रा+क/फ+रण्ड्+अच्]</etymology>
+<sense no="1">गीदड़</sense>
+</lexhead>
+
+<lexhead no="60">
+<dentry>फेरवः</dentry>
+<prAwipaxikam>फेरव</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>फे इति रवो यस्य ब* स*</vigraha_vAkya></etymology>
+<kind_of>पशुः</kind_of>
+<jAwi>स्तनपायी</jAwi>
+<sense no="1">गीदड़, क्रन्दत्फेरवचण्डडात्कृति<citation>मा* ५/१९</citation></sense>
+<sense n="2">धूर्त, बदमाश, ठग</sense>
+<sense n="3">राक्षस, पिशाच</sense>
+</lexhead>
+
+<lexhead no="61">
+<dentry>फेरुः</dentry>
+<prAwipaxikam>फेरु</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[फे+रु+डु]</etymology>
+<kind_of>पशुः</kind_of>
+<jAwi>स्तनपायी</jAwi>
+<sense no="1">गीदड़</sense>
+</lexhead>
+
+<lexhead no="62">
+<dentry>फेलम्</dentry>
+<prAwipaxikam>फेल</prAwipaxikam>
+<grammar>नपुं*</grammar>
+?<etymology>[फेल्यते दूरे निक्षिप्यते, फेल्+अङ्, स्त्रियां टाप्, फेल्+इन्+कन्+टाप्, फेलि+ङीप्]</etymology>
+<sense no="1">उच्छिष्ट भोजन, भोजन का वचा खुचा भाग, जूठन</sense>
+</lexhead>
+
+<lexhead no="63">
+<dentry>फेला</dentry>
+<prAwipaxikam>फेला</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+?<etymology>[फेल्यते दूरे निक्षिप्यते, फेल्+अङ्, स्त्रियां टाप्, फेल्+इन्+कन्+टाप्, फेलि+ङीप्]</etymology>
+<is_a_part>भोजनम्</is_a_part>
+<upAXi>खाद्यम्</upAXi>
+<sense no="1">उच्छिष्ट भोजन, भोजन का वचा खुचा भाग, जूठन</sense>
+</lexhead>
+
+<lexhead no="64">
+<dentry>फेलिका</dentry>
+<prAwipaxikam>फेलिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+?<etymology>[फेल्यते दूरे निक्षिप्यते, फेल्+अङ्, स्त्रियां टाप्, फेल्+इन्+कन्+टाप्, फेलि+ङीप्]</etymology>
+<sense no="1">उच्छिष्ट भोजन, भोजन का वचा खुचा भाग, जूठन</sense>
+</lexhead>
+
+<lexhead no="65">
+<dentry>फेली</dentry>
+<prAwipaxikam>फेली</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+?<etymology>[फेल्यते दूरे निक्षिप्यते, फेल्+अङ्, स्त्रियां टाप्, फेल्+इन्+कन्+टाप्, फेलि+ङीप्]</etymology>
+<sense no="0">उच्छिष्ट भोजन, भोजन का वचा खुचा भाग, जूठन</sense>
+</lexhead>
+
+</dict>

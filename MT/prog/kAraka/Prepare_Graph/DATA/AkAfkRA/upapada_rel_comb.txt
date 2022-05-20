@@ -1,0 +1,63 @@
+apAxAnam_upa/upa_apekRA:
+  xakRiNAhi, xakRiNA, aXaH, avaH, puraH, puraswAw, paraswAw, avaswAw, parawaH, avarawaH, purawaH, xakRiNawaH, xakRiNAw, upariRtAw, paScAw, uwwarAw, aXarAw, upari, uwwarawaH, uwwarAw, xakRiNAw, aXarAw
+
+karwA_upa/upa_apekRA:
+  uwwareNa, xakRiNAhi, xakRiNA, aXaH, avaH, puraH, puraswAw, paraswAw, avaswAw, parawaH, avarawaH, purawaH, xakRiNawaH, xakRiNAw, xakRiNena, xakRiNena, upariRtAw, paScAw, uwwarAw, aXarAw, upari, uwwarawaH, uwwarAw, xakRiNAw, aXarAw, uwwareNa, aXareNa, aXareNa
+
+sambanXa_upa/upa_apekRA:
+  anwarA, nAnA, pqWak, nAnA, pqWak, samAnA, saxqkRA, saxqSA, wulya, wulyA, yukwa, prAk, pqWak, wulya, wulyA
+viSeRaNam_upa/upa_apekRA
+
+xeSAXikaraNam_upa/upa_apekRA:
+  aBiwaH, aXoZXaH, aXoXaH, aXyaXi, nikaRA, pariwaH, samayA, sarvawaH, uBayawaH, uparyupari, uwwareNa, pUrvA, aByASam, aByASAw, aByASena, aByASe, anwikena, anwikAw, anwike, ArAw, bahiH, nikatam, nikatAw, nikatena, nikate, prAFca, prawyaFca, prawyak, samIpam, samIpAw, samIpena, samIpe, uwwarAhi, uwwaram, viprakqRtam, viprakqRtAw, viprakqRtena, viprakqRte, xakRiNAhi, xakRiNam, xakRiNA, xUram, xUrAw, xUreNa, xUre, aByASam, aByASAw, aByASena, aByASe, agrawaH, anwaH, anwikam, anwikAw, anwikena, anwike, aXaH, avaH, aXaswAw, nikatam, nikatAw, nikatena, nikate, puraH, puraswAw, paraswAw, avaswAw, parawaH, avarawaH, purawaH, xakRiNawaH, xakRiNAw, xakRiNena, xakRiNena, xUram, xUrAw, xUreNa, xUre, upariRtAw, paScAw, uwwarAw, aXarAw, upari, viprakqRtAw, viprakqRtena, viprakqRte, uwwarawaH, uwwarAw, xakRiNAw, aXarAw, uwwareNa, aXareNa, aXareNa, viprakqRtam, samIpam, samIpAw, samIpena, samIpe
+
+viSeRaNam_upa/upa_apekRA:
+ samAna, samAnA, saxqkRa, saxqkRA, saxqkRI, saxqSa, saxqSA, saxqSa, saxqS, aByASA, aByASa, avAcI, avAc, Binna, BinnA, iwara, iwarA, paScimA, paScima, prAcI, pUrva, vilakRaNa, vilakRaNA, viprakqRta, viprakqRtA, xUrA, xUra, prawIcI, uxac, uxIcI, aByASa, samAna, samAnA, saxqkRa, saxqkRI, saxqS, viprakqRta, viprakqRtA, xUra
+
+karwqsamAnxeSAXikaraNam_upa/upa_prayojanam:
+ alam
+
+sambanXa_upa/upa_prayojanam:
+ AyuRyam, Baxram, ciraFjIviwam, maxram, nirAmayam, suKam, svAhA, svaswi, svaXA, vaRat, arWe, AyuRyam, ciraFjIviwam, kqwe, maxram, nirAmayam, suKam
+
+viSeRaNam_upa/upa_prayojanam:
+ hiwam, kuSalam, Sam, hiwam, kuSala, Sam, Ayukwa, AyukwA
+
+sambanXa_upa/upa_karma:
+  namaH,
+
+sambanXa_upa/upa_karmapravacanIya:
+  A, aBi, anu, api, prawi, apa, pari, prawi, aXi, upa
+
+sambanXa_upa/upa_lakRya:
+ prawi
+
+sambanXa_upa/upa_prawisixXa:
+ alam
+
+sambanXa_upa/upa_srowa: 
+ AraBya, praBqwi
+
+sambanXa_upa/upa_saha
+  sArXam, saha, sAkam, samam
+
+sambanXa_upa/upa_vinA
+  vinA, anwareNa, vinA, vinA, qwe
+
+viSeRaNam_upa/upa_sambanXa:
+ samA, anya, anyA, sama, samA
+
+viSeRaNam_upa/upa_nirXAraNam:
+ prasUwa, prasUwA, prasUwA
+
+sambanXa_upa/upa_uxgAravAcaka:
+ hA, Xik
+
+viSeRaNam_upa/upa_svAmI:
+   aXipawi, ISvara, prawiBU, sAkRin, xAyAxa, svAminI, svAmin, aXipawi, ISvara, prawiBU, sAkRiNI, sAkRin, svAminI, svAmin, xAyAxa
+
+viSeRaNam_upa/upa_viRayAXikaraNam: 
+   uwsuka, prasiwa, anurakwa, anurakwA, Asakwa, AsakwA, kuSala, kuSalA, lagna, lagnA, nipuNa, nipuNA, prasiwa, uwsuka, uwsukA, asAXu, sAXu
+
+xeSAXikaraNam_upa/upa_aXikaraNam:
+ xakRiNe, uwware

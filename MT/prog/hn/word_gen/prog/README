@@ -1,0 +1,4 @@
+There are 3 files having main
+1. new.c : This is used to run generator on the o/p of ss module
+2. amba_test.c : sngle line input at a time
+3. test.c : interactive input

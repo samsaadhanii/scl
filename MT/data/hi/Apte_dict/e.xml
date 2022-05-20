@@ -1,0 +1,1861 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dict SYSTEM "apte.dtd">
+<?xml-stylesheet href="apte.css" type="text/css" ?>
+<dict>
+<lexhead no="1">
+<dentry>एः</dentry>
+<prAwipaxikam>ए</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इ+विच्]</etymology>
+<sense no="1">विष्णु</sense>
+<sense n="2">स्मरण</sense>
+<sense n="3">ईर्ष्या</sense>
+<sense n="4">करुणा</sense>
+<sense n="5">आमन्त्रण</sense>
+<sense n="6">घृणा तथा निन्दा व्यंजक अव्ययविस्मयादि द्योतक</sense>
+</lexhead>
+
+<lexhead no="2">
+<dentry>एक</dentry>
+<prAwipaxikam>एक</prAwipaxikam>
+<grammar>सर्व* वि*</grammar>
+<etymology>[इ+कन्]</etymology>
+<jAwi>मनुष्यः</jAwi>
+<jAwi>मनुष्यः</jAwi>
+<kind_of>मनुष्यः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<jAwi>परिमाणः</jAwi>
+<jAwi>द्रव्यम्</jAwi>
+<sense no="1">एक  अकेला, एकाकी, केवल मात्र</sense>
+<sense n="2">जिसके साथ् कोई और न हो</sense>
+<sense n="3">वही बिल्कुल वही, समरूपमनस्येकं वचस्येकं कर्मण्येकं महात्मनाम्<citation>हि* १/१०४</citation></sense>
+<sense n="4">स्थिर, अपरिवर्तित</sense>
+<sense n="5">अपनी प्रकार का अकेला, अद्वितीय, एक वचन</sense>
+<sense n="6">मुख्य, सर्वोपरि, प्रमुख, अनन्यएको रागिषु राजते<citation>भर्तृ* ३/१२१</citation></sense>
+<sense n="7">अनुपम, बेजोड़</sense>
+<sense n="8">दो या बहुत में से एक<citation>मेघ ३०/७८</citation></sense>
+<sense n="9">बहुधा अंग्रेजी के अनिश्चयवाचक निपात की भांति प्रयुक्त, एक, दूसरा; ’कुछ’ अर्थ को प्रकट करने के लिए बहुवचनान्त प्रयोग; अन्ये, अपरे इसके सहसम्बन्धी शब्द हैंज्योतिरेकं<citation>श* ५/३०a या an</citation></sense>
+<segmenthd>
+<dentry>एकाक्ष</dentry>
+<prAwipaxikam>एकाक्ष</prAwipaxikam>
+<seg>एक-अक्ष</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकाक्ष</prAwipaxikam>
+<sense no="1">एक धुरी वाला</sense>
+<sense no="2">एक आँख वाला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकाक्षः</dentry>
+<prAwipaxikam>एकाक्ष</prAwipaxikam>
+<seg>एक-अक्षः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">कौआ</sense>
+<sense no="2">शिव</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकाक्षर</dentry>
+<prAwipaxikam>एकाक्षर</prAwipaxikam>
+<seg>एक-अक्षर</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकाक्षर</prAwipaxikam>
+<sense no="1">एक अक्षर वाला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकाक्षरम्</dentry>
+<prAwipaxikam>एकाक्षर</prAwipaxikam>
+<seg>एक-अक्षरम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">एक अक्षर वाला, पावन अक्षर ’ओम्’</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकाग्र</dentry>
+<prAwipaxikam>एकाग्र</prAwipaxikam>
+<seg>एक-अग्र</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकाग्र</prAwipaxikam>
+<jAwi>मनुष्यः</jAwi>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">केवल एक पदार्थ या बिन्दु पर स्थिर</sense>
+<sense no="2">एक ही ओर ध्यान में मग्न, एकाग्रचित्त, तुला हुआ<citation>रघु* २५/६६</citation><citation>म्नुमेकाग्रमासीनम्</citation><citation>मनु* २९१/१</citation></sense>
+<sense no="3">अव्यग्र, अचंचल</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकाग्र्य</dentry>
+<prAwipaxikam>एकाग्र्य</prAwipaxikam>
+<seg>एक-अग्र्य</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकाग्र्य</prAwipaxikam>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">एकाग्र</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकाग्र्यम्</dentry>
+<prAwipaxikam>एकाग्र्य</prAwipaxikam>
+<seg>एक-अग्र्यम्</seg>
+<grammar>नपुं*</grammar>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">एकाग्रता</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकाङ्गः</dentry>
+<prAwipaxikam>एकाङ्ग</prAwipaxikam>
+<seg>एक-अङ्गः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">शरीर रक्षक</sense>
+<sense no="2">मंगल ग्रह या बुद्ध ग्रह</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकानुदिष्टम्</dentry>
+<prAwipaxikam>एकानुदिष्ट</prAwipaxikam>
+<seg>एक-अनुदिष्टम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">अन्त्येष्टि संस्कार जो केवल एक ही पूर्वज को उद्देश्य करके किया गया हो</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकान्त</dentry>
+<prAwipaxikam>एकान्त</prAwipaxikam>
+<seg>एक-अन्त</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकान्त</prAwipaxikam>
+<jAwi>परिमाणः</jAwi>
+<sense no="1">अकेला</sense>
+<sense no="2">एक ओर, पार्श्व में</sense>
+<sense no="3">जो केवल एक ही पदार्थ या बिन्दु की ओर निर्दिष्ट हो</sense>
+<sense no="4">अत्यधिक, बहुत<citation>कु* १/३६</citation></sense>
+<sense no="5">निरपेक्ष, अचल, सततस्वायत्त</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकान्तः</dentry>
+<prAwipaxikam>एकान्त</prAwipaxikam>
+<seg>एक-अन्तः</seg>
+<grammar>पुं*</grammar>
+<jAwi>परिमाणः</jAwi>
+<sense no="1">एकमात्र आश्रय, निश्चित नियमतेजः क्षमा वा नैकान्तं कालज्ञस्य महीपतेः<citation>शि* २/८३</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकान्तम्</dentry>
+<prAwipaxikam>एकान्तम्</prAwipaxikam>
+<seg>एक-अन्तम्</seg>
+<grammar>अव्य*</grammar>
+<sense no="1">केवल मात्र, अवश्य, सदैव, नितांत</sense>
+<sense no="2">अत्यन्त, बिल्कुल, सर्वथावयमप्येकान्ततो निःस्पृहाः<citation>भतृ* ३/२४</citation>दुखमेकान्ततो वा<citation>मेघ* १०९</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकान्तेन</dentry>
+<prAwipaxikam>एकान्तेन</prAwipaxikam>
+<seg>एक-अन्तेन</seg>
+<grammar>अव्य*</grammar>
+<sense no="1">केवल मात्र, अवश्य, सदैव, नितांत</sense>
+<sense no="2">अत्यन्त, बिल्कुल, सर्वथा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकान्ततः</dentry>
+<prAwipaxikam>एकान्ततः</prAwipaxikam>
+<seg>एक-अन्ततः</seg>
+<grammar>अव्य*</grammar>
+<sense no="1">केवल मात्र, अवश्य, सदैव, नितांत</sense>
+<sense no="2">अत्यन्त, बिल्कुल, सर्वथा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकान्ते</dentry>
+<prAwipaxikam>एकान्ते</prAwipaxikam>
+<seg>एक-अन्ते</seg>
+<grammar>अव्य*</grammar>
+<sense no="1">केवल मात्र, अवश्य, सदैव, नितांत</sense>
+<sense no="2">अत्यन्त, बिल्कुल, सर्वथा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकान्तर</dentry>
+<prAwipaxikam>एकान्तर</prAwipaxikam>
+<seg>एक-अन्तर</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकान्तर</prAwipaxikam>
+<sense no="1">अगला, जिसमें केवल एक का ही अन्तर रहे, एक के बाद एक को छोड़ कर<citation>श* ७/२७</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकान्तिक</dentry>
+<prAwipaxikam>एकान्तिक</prAwipaxikam>
+<seg>एक-अन्तिक</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकान्तिक</prAwipaxikam>
+<sense no="1">अन्तिम निर्णायक</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकायन</dentry>
+<prAwipaxikam>एकायन</prAwipaxikam>
+<seg>एक-अयन</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकायन</prAwipaxikam>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">जहाँ से केवल एक ही जा सकेजैसै कि पगडंडी य बटिया</sense>
+<sense no="2">नितान्त ध्यानमग्न, तुला हुआदे* एकाग्र</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकायनम्</dentry>
+<prAwipaxikam>एकायन</prAwipaxikam>
+<seg>एक-अयनम्</seg>
+<grammar>नपुं*</grammar>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">एकान्त स्थल या विश्राम स्थली</sense>
+<sense no="2">मिलने का स्थान, संकेत-स्थल</sense>
+<sense no="3">अद्वैतवाद्</sense>
+<sense no="4">केवलमात्र उद्देश्यसा स्नेहस्य एकायनीभूता<citation>मालवि* २/१५</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकार्थः</dentry>
+<prAwipaxikam>एकार्थ</prAwipaxikam>
+<seg>एक-अर्थः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">वही वस्तु, वही पदार्थ या वही आशय</sense>
+<sense no="2">वही भाव</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकाहः</dentry>
+<prAwipaxikam>एकाह</prAwipaxikam>
+<seg>एक-अहन्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">एक दिन का समय</sense>
+<sense no="2">एक दिन तक चलने वाला यज्ञ</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकातपत्र</dentry>
+<prAwipaxikam>एकातपत्र</prAwipaxikam>
+<seg>एक-आतपत्र</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकातपत्र</prAwipaxikam>
+<sense no="1">एकच्छत्र से विशिष्टीकृतएकातपत्रं जगतः प्रभुत्वम्<citation>रघु* २/४७</citation><citation>शि*१२/३३</citation><citation>विक्रम* ३/१९विश्वभर की प्रभुता को दर्शाने वाला</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकादेशः</dentry>
+<prAwipaxikam>एकादेश</prAwipaxikam>
+<seg>एक-आदेशः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">दो या दो से अधिक अक्षरों का एक स्थानापन्नया तो एक स्वर का लोप करके या दोनों को मिला कर प्राप्त किया गया  जैसे कि ’एकायन ’ में आ</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकावलिः</dentry>
+<prAwipaxikam>एकावलि</prAwipaxikam>
+<seg>एक-आवलिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">मोतियों की या अन्य मनकों की एक लड़, ऐसी उक्तियों की पंक्ति कर्त्ता का विधेय और विधेय का कर्त्ता के रूप में नियमित संक्रमण पाया जायएकावली कण्ठविभूषणं वः<citation>विक्रमांक* १/३०</citation>लताविटपे एकावली लग्ना<citation>विक्रम* १/२</citation>स्थाप्यतेऽपोह्यते वापि यथापूर्वं परस्परम्, विशेषणतया यत्र वस्तु सैकावली द्विधा<citation>काव्य* १०अलं* शा* में</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकावली</dentry>
+<prAwipaxikam>एकावली</prAwipaxikam>
+<seg>एक-आवली</seg>
+<grammar>स्त्री*</grammar>
+<kind_of>भूषणम्</kind_of>
+<upAXi>आभरणम्</upAXi>
+<sense no="1">मोतियों की या अन्य मनकों की एक लड़, ऐसी उक्तियों की पंक्ति कर्त्ता का विधेय और विधेय का कर्त्ता के रूप में नियमित संक्रमण पाया जाय</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकोदकः</dentry>
+<prAwipaxikam>एकोदक</prAwipaxikam>
+<seg>एक-उदकः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">जो एक ही मृत पूर्वज से जल के तर्पण द्वारा संबंद्ध होसंबंधी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकोदरः</dentry>
+<prAwipaxikam>एकोदर</prAwipaxikam>
+<seg>एक-उदरः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">सगा भाई</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकोदरा</dentry>
+<prAwipaxikam>एकोदरा</prAwipaxikam>
+<seg>एक-उदरा</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">सगी बहन</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकोद्दिष्टम्</dentry>
+<prAwipaxikam>एकोद्दिष्ट</prAwipaxikam>
+<seg>एक-उद्दिष्टम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">श्राद्धकृत्य जो केवल एक ही मृत व्यक्ति को उद्देश्य करके किया गया होदूसरे पूर्वजों को सम्मिलित न करके</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकोन</dentry>
+<prAwipaxikam>एकोन</prAwipaxikam>
+<seg>एक-उन</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकोन</prAwipaxikam>
+<sense no="1">एक कम, एक घटाकर</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकैक</dentry>
+<prAwipaxikam>एकैक</prAwipaxikam>
+<seg>एक-एक</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकैक</prAwipaxikam>
+<sense no="1">एक एक करके, व्यष्टिरूप से, एक अकेला<citation>रघु* १७/४३</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकैकम्</dentry>
+<prAwipaxikam>एकैकम्</prAwipaxikam>
+<seg>एक-एकम्</seg>
+<grammar>अव्य*</grammar>
+<sense no="1">एक-एक करके, व्यक्तिशः, पृथक्-पृथक्एकैकशः</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकौघः</dentry>
+<prAwipaxikam>एकौघ</prAwipaxikam>
+<seg>एक-ओघः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">एक सतत धारा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एककर</dentry>
+<prAwipaxikam>एककर</prAwipaxikam>
+<seg>एक-कर</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एककर</prAwipaxikam>
+<sense no="1">एक ही कार्य करने वालास्त्री* - एककरी</sense>
+<sense no="2">एक ही हाथ वालीस्त्री* - एककरा</sense>
+<sense no="3">एक किरण वाली</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एककार्य</dentry>
+<prAwipaxikam>एककार्य</prAwipaxikam>
+<seg>एक-कार्य</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एककार्य</prAwipaxikam>
+<sense no="1">मिलकर काम करने वाला, सहयोगी, सहकारी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एककार्यम्</dentry>
+<prAwipaxikam>एककार्य</prAwipaxikam>
+<seg>एक-कार्यम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">एक मात्र कार्य, वही कार्य</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एककालः</dentry>
+<prAwipaxikam>एककाल</prAwipaxikam>
+<seg>एक-कालः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">एक समय</sense>
+<sense no="2">उसी समय</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एककालिक</dentry>
+<prAwipaxikam>एककालिक</prAwipaxikam>
+<seg>एक-कालिक</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एककालिक</prAwipaxikam>
+<sense no="1">केवल एक बार होनेवाला</sense>
+<sense no="2">समवयस्क, समसामयिक</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एककालीन</dentry>
+<prAwipaxikam>एककालीन</prAwipaxikam>
+<seg>एक-कालीन</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एककालीन</prAwipaxikam>
+<sense no="1">केवल एक बार होनेवाला</sense>
+<sense no="2">समवयस्क, समसामयिक</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एककुण्डलः</dentry>
+<prAwipaxikam>एककुण्डल</prAwipaxikam>
+<seg>एक-कुण्डलः</seg>
+<grammar>पुं*</grammar>
+<kind_of>देवः</kind_of>
+<jAwi>देवयोनिः</jAwi>
+<sense no="1">कुबेर, बलभद्र, शेषनाग</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकगुरु</dentry>
+<prAwipaxikam>एकगुरु</prAwipaxikam>
+<seg>एक-गुरु</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकगुरु</prAwipaxikam>
+<kind_of>शिष्यः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<upAXi>वृत्तिः</upAXi>
+<sense no="1">एक ही गुरु वाला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकगुरुक</dentry>
+<prAwipaxikam>एकगुरुक</prAwipaxikam>
+<seg>एक-गुरुक</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकगुरुक</prAwipaxikam>
+<sense no="1">एक ही गुरु वाला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकगुरुः</dentry>
+<prAwipaxikam>एकगुरु</prAwipaxikam>
+<seg>एक-गुरुः</seg>
+<grammar>पुं*</grammar>
+<kind_of>शिष्यः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<upAXi>वृत्तिः</upAXi>
+<sense no="1">गुरुभाई</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकगुरुकः</dentry>
+<prAwipaxikam>एकगुरुक</prAwipaxikam>
+<seg>एक-गुरुकः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">गुरुभाई</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकचक्रः</dentry>
+<prAwipaxikam>एकचक्र</prAwipaxikam>
+<seg>एक-चक्रः</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकचक्र</prAwipaxikam>
+<sense no="1">एक ही पहिये वाला</sense>
+<sense no="2">एक ही राजा द्वारा शासित</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकक्रः</dentry>
+<prAwipaxikam>एकक्र</prAwipaxikam>
+<seg>एक-क्रः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">सूर्य का रथ</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकचत्वारिंशत्</dentry>
+<prAwipaxikam>एकचत्वारिंशत्</prAwipaxikam>
+<seg>एक-चत्वारिंशत्</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">इकतालिस</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकचर</dentry>
+<prAwipaxikam>एकचर</prAwipaxikam>
+<seg>एक-चर</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकचर</prAwipaxikam>
+<sense no="1">अकेला घूमने या रहने वाला<citation>कि* १३/३</citation></sense>
+<sense no="2">एक ही अनुचर रखने वाला</sense>
+<sense no="3">असहाय रहने वाला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकचारिन्</dentry>
+<prAwipaxikam>एकचारिन्</prAwipaxikam>
+<seg>एक-चारिन्</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकचारिन्</prAwipaxikam>
+<sense no="1">अकेला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकचारिणी</dentry>
+<prAwipaxikam>एकचारिणी</prAwipaxikam>
+<seg>एक-चारिणी</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">पतिव्रता स्त्री</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकचित्त</dentry>
+<prAwipaxikam>एकचित्त</prAwipaxikam>
+<seg>एक-चित्त</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकचित्त</prAwipaxikam>
+<sense no="1">केवल एक ही बात को सोचने वाला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकचित्तम्</dentry>
+<prAwipaxikam>एकचित्त</prAwipaxikam>
+<seg>एक-चित्तम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">एक ही वस्तु पर चित्त की स्थिरता</sense>
+<sense no="2">ऐकमत्य, एक मत सेएकचित्तीभूय<citation>हि* १</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकचेतस्</dentry>
+<prAwipaxikam>एकचेतस्</prAwipaxikam>
+<seg>एक-चेतस्</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकचेतस्</prAwipaxikam>
+<sense no="1">एक मतदे* एकचित्त</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकमनस्</dentry>
+<prAwipaxikam>एकमनस्</prAwipaxikam>
+<seg>एक-मनस्</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकमनस्</prAwipaxikam>
+<sense no="1">एक मत</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकजन्मन्</dentry>
+<prAwipaxikam>एकजन्मन्</prAwipaxikam>
+<seg>एक-जन्मन्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">राजा</sense>
+<sense no="2">शूद्रदे* नी*, एकजाति</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकजात</dentry>
+<prAwipaxikam>एकजात</prAwipaxikam>
+<seg>एक-जात</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकजात</prAwipaxikam>
+<sense no="1">एक ही माता-पिता से उत्पन्न</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकजातिः</dentry>
+<prAwipaxikam>एकजाति</prAwipaxikam>
+<seg>एक-जातिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">शूद्रब्राह्म्णः क्षत्रियो वैश्यस्त्रयो वर्णा द्विजातयः चतुर्थ एकजातिस्तु शूद्रो नास्त् तु पंचमः<citation>मबु* १०/४</citation>८/२७०विप* द्विजन्मनः</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकजातीय</dentry>
+<prAwipaxikam>एकजातीय</prAwipaxikam>
+<seg>एक-जातीय</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकजातीय</prAwipaxikam>
+<sense no="1">एक ही प्रकार का या एक ही परिवार का</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकज्योतिस्</dentry>
+<prAwipaxikam>एकज्योतिस्</prAwipaxikam>
+<seg>एक-ज्योतिस्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">शिव</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकतान</dentry>
+<prAwipaxikam>एकतान</prAwipaxikam>
+<seg>एक-तान</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकतान</prAwipaxikam>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">केवल एक पदार्थ पर स्थिर या केन्द्रित, नितान्त ध्यानमग्नब्रह्मैकतानमनसो हि वशिष्ठमिश्राः<citation>महावी* ३/११</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकतालः</dentry>
+<prAwipaxikam>एकताल</prAwipaxikam>
+<seg>एक-तालः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">संगति, गीतों का यथार्थ समंजन, नृत्य, वाद्य यंत्रतु* तौर्यत्रिकम्</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकतीर्थिन्</dentry>
+<prAwipaxikam>एकतीर्थिन्</prAwipaxikam>
+<seg>एक-तीर्थिन्</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकतीर्थिन्</prAwipaxikam>
+<sense no="1">उसी पावन जल में स्नान करनेवाला</sense>
+<sense no="2">एक ही धर्मसंघ से संबंध रखने वाला<citation>याज्ञ* २/१३७</citation></sense>
+<sense no="3">सहपाठी, गुरुभाई</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकत्रिंशत्</dentry>
+<prAwipaxikam>एकत्रिंशत्</prAwipaxikam>
+<seg>एक-त्रिंशत्</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">इकतीस</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकदंष्ट्रः</dentry>
+<prAwipaxikam>एकदंष्ट्र</prAwipaxikam>
+<seg>एक-दंष्ट्रः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">एक दांत वाला, गणेश का विशेषण</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकदन्तः</dentry>
+<prAwipaxikam>एकदन्त</prAwipaxikam>
+<seg>एक-दन्तः</seg>
+<grammar>पुं*</grammar>
+<kind_of>देवः</kind_of>
+<jAwi>देवता</jAwi>
+<sense no="1">एक दांत वाला, गणेश का विशेषण</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकदण्डिन्</dentry>
+<prAwipaxikam>एकदण्डिन्</prAwipaxikam>
+<seg>एक-दण्डिन्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">सन्यासियों या भिक्षुकों का एक समुदायजो ’ह्ंस’ कहलाते हैं, इनके चार संघ हैं -कुटीचको बहूदको हंसश्चैव तृतीयकः, चतुर्थः परहंसश्च यो यः पश्चात्स उत्तमः</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकदृश</dentry>
+<prAwipaxikam>एकदृश</prAwipaxikam>
+<seg>एक-दृश</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकदृश</prAwipaxikam>
+<sense no="1">एक आँख वाला</sense>
+<sense no="2">कौवा</sense>
+<sense no="3">शिव</sense>
+<sense no="4">दार्शनिक</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकदृष्टि</dentry>
+<prAwipaxikam>एकदृष्टि</prAwipaxikam>
+<seg>एक-दृष्टि</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकदृष्टि</prAwipaxikam>
+<kind_of>पक्षिः</kind_of>
+<jAwi>पक्षी</jAwi>
+<sense no="1">एक आँख वाला</sense>
+<sense no="2">कौवा</sense>
+<sense no="3">शिव</sense>
+<sense no="4">दार्शनिक</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकदेवः</dentry>
+<prAwipaxikam>एकदेव</prAwipaxikam>
+<seg>एक-देवः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">परब्रह्म</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकदेशः</dentry>
+<prAwipaxikam>एकदेश</prAwipaxikam>
+<seg>एक-देशः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">एक स्थान या स्थल</sense>
+<sense no="2">एक भाग या अंशएक पार्श्वं-त्स्यैकदेशः<citation>उत्तर* ४</citation>विभावितैकदेशेन देयं यद्भियुज्यते<citation>विक्रम* ४/१७समग्र का</citation>जिस अंश का दावा किया जाता है, वह उसी व्यक्ति के द्वारा दिया जाना चाहिए जो उसके एक अंश का प्राप्तकर्ता प्रमाणितहो जाय, इसी बात को कभी-कभी ’एकदेशविभावितन्याय’ कहते हैं</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकधर्मन्</dentry>
+<prAwipaxikam>एकधर्मन्</prAwipaxikam>
+<seg>एक-धर्मन्</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकधर्मन्</prAwipaxikam>
+<sense no="1">एक ही प्रकार के गुणों को रखने वाला, या एक ही प्रकार की संपत्ति को रखने वाला</sense>
+<sense no="2">एक ही धर्म को मानने वाला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकधर्मिन्</dentry>
+<prAwipaxikam>एकधर्मिन्</prAwipaxikam>
+<seg>एक-धर्मिन्</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकधर्मिन्</prAwipaxikam>
+<sense no="1">एक ही प्रकार के गुणों को रखने वाला, या एक ही प्रकार की संपत्ति को रखने वाला</sense>
+<sense no="2">एक ही धर्म को मानने वाला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकधुर</dentry>
+<prAwipaxikam>एकधुर</prAwipaxikam>
+<seg>एक-धुर</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकधुर</prAwipaxikam>
+<kind_of>वृषभः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">जो एक ही प्रकार कर सके</sense>
+<sense no="2">जो एक ही प्रकार से जुत सके<citation>पा* ४/४/७९जैसै कि विशेष बोझ के लिए कोई पशु</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकधुरावह</dentry>
+<prAwipaxikam>एकधुरावह</prAwipaxikam>
+<seg>एक-धुरावह</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकधुरावह</prAwipaxikam>
+<kind_of>वृषभः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">जो एक ही प्रकार कर सके</sense>
+<sense no="2">जो एक ही प्रकार से जुत सके</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकधुरीण</dentry>
+<prAwipaxikam>एकधुरीण</prAwipaxikam>
+<seg>एक-धुरीण</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकधुरीण</prAwipaxikam>
+<kind_of>वृषभः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">जो एक ही प्रकार कर सके</sense>
+<sense no="2">जो एक ही प्रकार से जुत सके</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकनटः</dentry>
+<prAwipaxikam>एकनट</prAwipaxikam>
+<seg>एकः-नटः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">नाटक में प्रधान पात्र, सूत्रधार जो नान्दीपाठ करता है</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकनवतिः</dentry>
+<prAwipaxikam>एकनवति</prAwipaxikam>
+<seg>एक-नवतिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">इक्यानवे</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकपक्षः</dentry>
+<prAwipaxikam>एकपक्ष</prAwipaxikam>
+<seg>एक-पक्षः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">एक पक्ष या दलएकाश्रय विक्लवत्वात्<citation>रघु १४/३४</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकपत्नी</dentry>
+<prAwipaxikam>एकपत्नी</prAwipaxikam>
+<seg>एक-पत्नी</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">पतिव्रता स्त्री पूर्णतः सती साध्वी</sense>
+<sense no="2">सपत्नी, सोतसर्वासामेक्पत्नीनामेका चेत्पुत्रिणी भवेत्<citation>मनु* ९/१८३</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकपदी</dentry>
+<prAwipaxikam>एकपदी</prAwipaxikam>
+<seg>एक-पदी</seg>
+<grammar>स्त्री*</grammar>
+<kind_of>स्थानम्</kind_of>
+<jAwi>मानवनिर्मितिः</jAwi>
+<sense no="1">पगडंडी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकपदे</dentry>
+<prAwipaxikam>एकपदे</prAwipaxikam>
+<seg>एक-पदे</seg>
+<grammar>अव्य*</grammar>
+<sense no="1">अकस्मात्, एकदम, अचानकनिहन्त्यरीनेकपदे य उदात्तः स्वरानिव<citation>शि* २/९५</citation><citation>रघु* ८/४८</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकपादः</dentry>
+<prAwipaxikam>एकपाद</prAwipaxikam>
+<seg>एक-पादः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">एक या अकेला पैर</sense>
+<sense no="2">एक या वही चरण</sense>
+<sense no="3">विष्णु, शिव</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकपिङ्गः</dentry>
+<prAwipaxikam>एकपिङ्ग</prAwipaxikam>
+<seg>एक-पिङ्गः</seg>
+<grammar>पुं*</grammar>
+<kind_of>देवः</kind_of>
+<jAwi>देवयोनिः</jAwi>
+<sense no="1">कुबेर</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकपिङ्गलः</dentry>
+<prAwipaxikam>एकपिङ्गल</prAwipaxikam>
+<seg>एक-पिङ्गलः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">कुबेर</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकपिण्ड</dentry>
+<prAwipaxikam>एकपिण्ड</prAwipaxikam>
+<seg>एक-पिण्ड</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकपिण्ड</prAwipaxikam>
+<sense no="1">अन्त्येष्ठि पिंड- दान के द्वारा संयुक्त</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकभार्या</dentry>
+<prAwipaxikam>एकभार्या</prAwipaxikam>
+<seg>एक-भार्या</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">एक पतिव्रता और सती स्त्री</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकभार्यः</dentry>
+<prAwipaxikam>एकभार्य</prAwipaxikam>
+<seg>एक-भार्यः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">केवल एक पत्नी रखने वाला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकभाव</dentry>
+<prAwipaxikam>एकभाव</prAwipaxikam>
+<seg>एक-भाव</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकभाव</prAwipaxikam>
+<sense no="1">सच्चा भक्त, ईमानदार</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकयष्टिः</dentry>
+<prAwipaxikam>एकयष्टि</prAwipaxikam>
+<seg>एक-यष्टिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">मोतियों की एक लड़ी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकयष्टिका</dentry>
+<prAwipaxikam>एकयष्टिका</prAwipaxikam>
+<seg>एक-यष्टिका</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">मोतियों की एक लड़ी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकयोनि</dentry>
+<prAwipaxikam>एकयोनि</prAwipaxikam>
+<seg>एक-योनि</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकयोनि</prAwipaxikam>
+<sense no="1">सहोदर</sense>
+<sense no="2">एक ही कुल या जाति के<citation>मनु* ९/१४८</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकरसः</dentry>
+<prAwipaxikam>एकरस</prAwipaxikam>
+<seg>एक-रसः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">उद्देश्य या भावना की एकता</sense>
+<sense no="2">केवल मात्र रस या आनन्द</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकराज्</dentry>
+<prAwipaxikam>एकराज्</prAwipaxikam>
+<seg>एक-राज्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">निरंकुश या स्वेच्छाचारी राजा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकराजः</dentry>
+<prAwipaxikam>एकराज</prAwipaxikam>
+<seg>एक-राजः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">निरंकुश या स्वेच्छाचारी राजा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकरात्रः</dentry>
+<prAwipaxikam>एकरात्र</prAwipaxikam>
+<seg>एक-रात्रः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">एक पूरी रात तक रहने वाला पर्व</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकरिक्थिन्</dentry>
+<prAwipaxikam>एकरिक्थिन्</prAwipaxikam>
+<seg>एक-रिक्थिन्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">सह-उत्तराधिकारी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकरूप</dentry>
+<prAwipaxikam>एकरूप</prAwipaxikam>
+<seg>एक-रूप</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकरूप</prAwipaxikam>
+<sense no="1">एक सा, समान</sense>
+<sense no="2">समरूप</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकलिङ्गः</dentry>
+<prAwipaxikam>एकलिङ्ग</prAwipaxikam>
+<seg>एक-लिङ्गः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">एक ही लिंग रखने वाला शब्द</sense>
+<sense no="2">कुबेर</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकवचनम्</dentry>
+<prAwipaxikam>एकवचन</prAwipaxikam>
+<seg>एक-वचनम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">एक संख्या को प्रकट करने वाला शब्द</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकवर्णः</dentry>
+<prAwipaxikam>एकवर्ण</prAwipaxikam>
+<seg>एक-वर्णः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">एक जाति</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकवर्षिका</dentry>
+<prAwipaxikam>एकवर्षिका</prAwipaxikam>
+<seg>एक-वर्षिका</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">एक वर्ष की बछिया</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकवाक्यता</dentry>
+<prAwipaxikam>एकवाक्यता</prAwipaxikam>
+<seg>एक-वाक्यता</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">अर्थ की संगति, ऐकमत्य, विभिन्न उक्तियों का सामंजस्य</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकवारम्</dentry>
+<prAwipaxikam>एकवारम्</prAwipaxikam>
+<seg>एक-वारम्</seg>
+<grammar>अव्य*</grammar>
+<sense no="1">केवल एक बार</sense>
+<sense no="2">तुरन्त, अकस्मात्</sense>
+<sense no="3">एक ही समय</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकवारे</dentry>
+<prAwipaxikam>एकवारे</prAwipaxikam>
+<seg>एक-वारे</seg>
+<grammar>अव्य*</grammar>
+<sense no="1">केवल एक बार</sense>
+<sense no="2">तुरन्त, अकस्मात्</sense>
+<sense no="3">एक ही समय</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकविंशतिः</dentry>
+<prAwipaxikam>एकविंशति</prAwipaxikam>
+<seg>एक-विंशतिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">इक्कीस</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकविलोचन</dentry>
+<prAwipaxikam>एकविलोचन</prAwipaxikam>
+<seg>एक-विलोचन</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकविलोचन</prAwipaxikam>
+<sense no="1">एक आँख वालादे* ’एकदृष्टि’</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकविषयिन्</dentry>
+<prAwipaxikam>एकविषयिन्</prAwipaxikam>
+<seg>एक-विषयिन्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">प्रतिद्वन्द्वी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकवीरः</dentry>
+<prAwipaxikam>एकवीर</prAwipaxikam>
+<seg>एक-वीरः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">प्रमुख योद्धा या शूरवीर<citation>महावी* ५/४८</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकवेणिः</dentry>
+<prAwipaxikam>एकवेणि</prAwipaxikam>
+<seg>एक-वेणिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">बालों की एक मात्र चोटीगण्डाभोगात्कठिन्विषमामेकवेणीं करेण<citation>मेघ* ९२</citation><citation>श* ७/२१जिसे स्त्री पति-वियोग के चिह्न्न स्वरूप धारण करती है</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकवेणी</dentry>
+<prAwipaxikam>एकवेणी</prAwipaxikam>
+<seg>एक-वेणी</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">बालों की एक मात्र चोटी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकशफ</dentry>
+<prAwipaxikam>एकशफ</prAwipaxikam>
+<seg>एक-शफ</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकशफ</prAwipaxikam>
+<sense no="1">अखंड खुर वाला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकशफः</dentry>
+<prAwipaxikam>एकशफ</prAwipaxikam>
+<seg>एक-शफः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">ऐसा पशु जिसके खुर या सुम फटे हुए न होंजैसै घोड़ा गधा आदि</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकशरीर</dentry>
+<prAwipaxikam>एकशरीर</prAwipaxikam>
+<seg>एक-शरीर</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकशरीर</prAwipaxikam>
+<sense no="1">रक्तसंबद्ध एक खून का</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकावयवः</dentry>
+<prAwipaxikam>एकावयव</prAwipaxikam>
+<seg>एक-अवयवः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">एक रक्त के बन्धु - बांधव</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकशाखः</dentry>
+<prAwipaxikam>एकशाख</prAwipaxikam>
+<seg>एक-शाखः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">एक ही शाखा या विचार का ब्राह्मण</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकशृड़्ग</dentry>
+<prAwipaxikam>एकशृड़्ग</prAwipaxikam>
+<seg>एक-शृड़्ग</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकशृड़्ग</prAwipaxikam>
+<sense no="1">केवल एक सींग धारी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकशृङ्गः</dentry>
+<prAwipaxikam>एकशृङ्ग</prAwipaxikam>
+<seg>एक-शृङ्गः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">अरण्याश्व, गेंडा</sense>
+<sense no="2">विष्णु</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकशेषः</dentry>
+<prAwipaxikam>एकशेष</prAwipaxikam>
+<seg>एक-शेषः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">एकशेष’ द्वन्द्व समास का एक भेद जिसमें केवल एक ही पद अवशिष्ट रहता हैपितरौ’ माता और पिता ’=मातापितरौ’ इसी प्रकार ’श्वसुरौ’, भ्रातरः आदि</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकश्रुत</dentry>
+<prAwipaxikam>एकश्रुत</prAwipaxikam>
+<seg>एक-श्रुत</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकश्रुत</prAwipaxikam>
+<sense no="1">एक ही बार सुना हुआ</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकधर</dentry>
+<prAwipaxikam>एकधर</prAwipaxikam>
+<seg>एक-धर</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकधर</prAwipaxikam>
+<sense no="1">एक बार सुनी हुई बात को ध्यान में रखने वाला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकश्रुतिः</dentry>
+<prAwipaxikam>एकश्रुति</prAwipaxikam>
+<seg>एक-श्रुतिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">एकस्वरता</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकसप्ततिः</dentry>
+<prAwipaxikam>एकसप्तति</prAwipaxikam>
+<seg>एक-सप्ततिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">इकह्त्तर</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकसर्ग</dentry>
+<prAwipaxikam>एकसर्ग</prAwipaxikam>
+<seg>एक-सर्ग</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकसर्ग</prAwipaxikam>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">नितान्त ध्यानमग्न</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकसाक्षिक</dentry>
+<prAwipaxikam>एकसाक्षिक</prAwipaxikam>
+<seg>एक-साक्षिक</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकसाक्षिक</prAwipaxikam>
+<sense no="1">एक व्यक्ति द्वारा देखा हुआ</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकहायन</dentry>
+<prAwipaxikam>एकहायन</prAwipaxikam>
+<seg>एक-हायन</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकहायन</prAwipaxikam>
+<sense no="1">एक वर्ष की आयु का<citation>मा* ४/८</citation>उत्त्र्* ३/२८</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकहायनी</dentry>
+<prAwipaxikam>एकहायनी</prAwipaxikam>
+<seg>एक-हायनी</seg>
+<grammar>स्त्री*</grammar>
+<kind_of>गौः</kind_of>
+<jAwi>स्तनपायी</jAwi>
+<sense no="1">एक वर्ष की बछिया</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="3">
+<dentry>एकक</dentry>
+<prAwipaxikam>एकक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकक</prAwipaxikam>
+<etymology>[एक+कन्]</etymology>
+<jAwi>द्रव्यम्</jAwi>
+<sense no="1">इकहरा, अकेला, एकाकी, बिना किसी सहयक के<citation>उत्तर* ५/५</citation></sense>
+<sense n="2">वही, समरूप</sense>
+</lexhead>
+
+<lexhead no="4">
+<dentry>एकतम</dentry>
+<prAwipaxikam>एकतम</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकतम</prAwipaxikam>
+<etymology>[एक-+डतमच्]</etymology>
+<sense no="1">बहुतों में से एक, नपुं* - एकतमत्, स्त्री - एकतमा</sense>
+<sense n="2">एकअनिश्चितवाचक रूप में प्रयुक्त</sense>
+</lexhead>
+
+<lexhead no="5">
+<dentry>एकतर</dentry>
+<prAwipaxikam>एकतर</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[एक+डतरच्]</etymology>
+<sense no="1">दो में से कोई एक, कोई सा</sense>
+<sense n="2">दूसरा, भिन्न</sense>
+<sense n="3">बहुतों में से एक</sense>
+</lexhead>
+
+<lexhead no="6">
+<dentry>एकतः</dentry>
+<prAwipaxikam>एकतः</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<etymology>[एक+तसिल्]</etymology>
+<sense no="1">एक ओर से, एक ओर</sense>
+<sense n="2">एक एक करके, एक एक</sense>
+<segmenthd>
+<dentry>एकतोऽन्यतः</dentry>
+<prAwipaxikam>एकतोऽन्यतः</prAwipaxikam>
+<seg>एकतः-अन्यतः</seg>
+<grammar>अव्य*</grammar>
+<sense no="1">एक ओर, दूसरी ओर<citation>रघु* ६/८५</citation>कि* ५/२</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="7">
+<dentry>एकत्र</dentry>
+<prAwipaxikam>एकत्र</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<etymology>[एक+त्रल्]</etymology>
+<sense no="1">एक स्थान पर</sense>
+<sense n="2">इकठ्ठे, सब इकठ्ठे मिलकर</sense>
+</lexhead>
+
+<lexhead no="8">
+<dentry>एकदा</dentry>
+<prAwipaxikam>एकदा</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<etymology>[एक+दा]</etymology>
+<kind_of>समयः</kind_of>
+<jAwi>कालः</jAwi>
+<sense no="1">एक बार, एक दफा, एक समय</sense>
+<sense n="2">उसी समय, सर्वथा एक बार, साथ ही साथ<citation>हि* ४/९३</citation></sense>
+</lexhead>
+
+<lexhead no="9">
+<dentry>एकधा</dentry>
+<prAwipaxikam>एकधा</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<etymology>[एक+धा]</etymology>
+<sense no="1">एक प्रकार से</sense>
+<sense n="2">अकेले</sense>
+<sense n="3">तुरन्त, उसी समय</sense>
+<sense n="4">मिलकर, साथ साथ</sense>
+</lexhead>
+
+<lexhead no="10">
+<dentry>एकल</dentry>
+<prAwipaxikam>एकल</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकल</prAwipaxikam>
+<etymology>[एक+ला+क]</etymology>
+<sense no="1">अकेला, एकाकी<citation>उत्तर* ४</citation></sense>
+</lexhead>
+
+<lexhead no="11">
+<dentry>एकशः</dentry>
+<prAwipaxikam>एकशः</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<etymology>[एक+शस्]</etymology>
+<sense no="1">एक एक करके, अकेले</sense>
+</lexhead>
+
+<lexhead no="12">
+<dentry>एकाकिन्</dentry>
+<prAwipaxikam>एकाकिन्</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकाकिन्</prAwipaxikam>
+<etymology>[एक+आकिनच्]</etymology>
+<jAwi>द्रव्यम्</jAwi>
+<sense no="1">अकेला, केवल एक</sense>
+</lexhead>
+
+<lexhead no="13">
+<dentry>एकादशन्</dentry>
+<prAwipaxikam>एकादशन्</prAwipaxikam>
+<grammar>सं* वि*</grammar>
+?<etymology>[एकेन अधिका दश इति]</etymology>
+<sense no="1">ग्यारह</sense>
+</lexhead>
+
+<lexhead no="14">
+<dentry>एकादश</dentry>
+<prAwipaxikam>एकादश</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकादश</prAwipaxikam>
+<sense no="1">ग्यारहवाँ, स्त्री - एकादशी</sense>
+</lexhead>
+
+<lexhead no="15">
+<dentry>एकादशी</dentry>
+<prAwipaxikam>एकादशी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<sense no="1">चान्द्र मास के प्रत्येक पक्ष का ग्यरहवाँ दिन, विष्णु संबंधी पुनीत दिवस</sense>
+<segmenthd>
+<dentry>एकादशद्वारम्</dentry>
+<prAwipaxikam>एकादशद्वार</prAwipaxikam>
+<seg>एकादश-द्वारम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">शरीर के ग्यारह छिद्रदे* ’ख’</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एकादशरुद्राः</dentry>
+<prAwipaxikam>एकादशरुद्र</prAwipaxikam>
+<seg>एकादश-रुद्राः</seg>
+<grammar>पुं*</grammar><num>[ब* व*]</num>
+<sense no="1">११ रुद्रदे* रुद्र</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="16">
+<dentry>एकीभावः</dentry>
+<prAwipaxikam>एकीभाव</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[एक+च्वि+भू+घञ्]</etymology>
+<sense no="1">संहति, साहचर्य</sense>
+<sense n="2">सामान्य स्वभाव या गुण</sense>
+</lexhead>
+
+<lexhead no="17">
+<dentry>एकीय</dentry>
+<prAwipaxikam>एकीय</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एकीय</prAwipaxikam>
+<etymology>[एक+छ]</etymology>
+<sense no="1">एक का या एक से</sense>
+</lexhead>
+
+<lexhead no="18">
+<dentry>एकीयः</dentry>
+<prAwipaxikam>एकीय</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[एक+छ]</etymology>
+<sense no="1">तरफदार, सहकारी</sense>
+</lexhead>
+
+<lexhead no="19">
+<dentry>एज्</dentry>
+<prAwipaxikam>एज्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI><vform>एजते</vform>,<vform>एजित</vform></grammar>
+<sense no="1">काँपना, म* का* में पर*</sense>
+<sense n="2">हिलना-डुलना</sense>
+<sense n="3">चमकनापर*</sense>
+<segmenthd>
+<dentry>अपेज्</dentry>
+<prAwipaxikam>अपेज्</prAwipaxikam>
+<seg>अप-एज्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">दूर हाँक देना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>उदेज्</dentry>
+<prAwipaxikam>उदेज्</prAwipaxikam>
+<seg>उद्-एज्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">उठना, ऊपर को होना</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="20">
+<dentry>एठ्</dentry>
+<prAwipaxikam>एठ्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI><vform>एठते</vform>,<vform>एठितज़्</vform></grammar>
+<sense no="1">छेदना, रोकना, विरोध करना</sense>
+</lexhead>
+
+<lexhead no="21">
+<dentry>एड</dentry>
+<prAwipaxikam>एड</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एड</prAwipaxikam>
+<etymology>[इल्+अच्, डलयोरभेदः]</etymology>
+<kind_of>पुरुषः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">बहरा</sense>
+</lexhead>
+
+<lexhead no="22">
+<dentry>एडः</dentry>
+<prAwipaxikam>एड</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इड्+अच्, डलयोरभेदः]</etymology>
+<kind_of>पुरुषः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">एक प्रकार की भेंड़</sense>
+<segmenthd>
+<dentry>एडमूक</dentry>
+<prAwipaxikam>एडमूक</prAwipaxikam>
+<seg>एड-मूक</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एडमूक</prAwipaxikam>
+<kind_of>रोगी</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<kind_of>मनुष्यः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">बहरा और गूगातु* अनेडमूक</sense>
+<sense no="2">दुष्ट, कुटिल</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="23">
+<dentry>एडकः</dentry>
+<prAwipaxikam>एडक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[एड+कन्]</etymology>
+<is_a_part>मेषसमूहः</is_a_part>
+<kind_of>पशुः</kind_of>
+<jAwi>स्तनपायी</jAwi>
+<sense no="1">भेड़ा, जंगली बकरा</sense>
+</lexhead>
+
+<lexhead no="24">
+<dentry>एडका</dentry>
+<prAwipaxikam>एडका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[एड+कन्+ टाप्]</etymology>
+<sense no="1">भेड़ी</sense>
+</lexhead>
+
+<lexhead no="25">
+<dentry>एणः</dentry>
+<prAwipaxikam>एण</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>एति द्रुतं गच्छति इति</vigraha_vAkya>[इ+ण+कन्]</etymology>
+<kind_of>हरिणः</kind_of>
+<jAwi>स्तनपायी</jAwi>
+<sense no="1">एक प्रकार का काला बारासिंघा हरिण, निम्नांकित श्लोक में अनेक प्रकार के हरिणों का उल्लेख है - अनृचो माणवू ज्ञेय एणः कृष्णमृगः स्मृतः, रुरुगारमुखः प्रोक्तः शंबरः शोण उच्यते</sense>
+</lexhead>
+
+<lexhead no="26">
+<dentry>एणकः</dentry>
+<prAwipaxikam>एणक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>एति द्रुतं गच्छति इति</vigraha_vAkya>[इ+ण+कन्]</etymology>
+<sense no="1">एक प्रकार का काला बारासिंघा हरिण</sense>
+<segmenthd>
+<dentry>एणाजिनम्</dentry>
+<prAwipaxikam>एणाजिन</prAwipaxikam>
+<seg>एणः-अजिनम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="2">मृगचर्म</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एणतिलकः</dentry>
+<prAwipaxikam>एणतिलक</prAwipaxikam>
+<seg>एणः-तिलकः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">चन्द्रमा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एणभृत्</dentry>
+<prAwipaxikam>एणभृत्</prAwipaxikam>
+<seg>एणः-भृत्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">चन्द्रमा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एणाङ्कः</dentry>
+<prAwipaxikam>एणाङ्क</prAwipaxikam>
+<seg>एणः-अङ्कः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">चन्द्रमा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एणलाञ्छनः</dentry>
+<prAwipaxikam>एणलाञ्छन</prAwipaxikam>
+<seg>एणः-लाञ्छनः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">चन्द्रमा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एणदृश्</dentry>
+<prAwipaxikam>एणदृश्</prAwipaxikam>
+<seg>एणः-दृश्</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एणदृश्</prAwipaxikam>
+<sense no="1">हरिण जैसी आँखों वाला</sense>
+<sense no="2">हरिण जैसी आँखों वाला</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="27">
+<dentry>एणी</dentry>
+<prAwipaxikam>एणी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[एण+ङीष्]</etymology>
+<sense no="1">काली हरिणी</sense>
+</lexhead>
+
+<lexhead no="28">
+<dentry>एत</dentry>
+<prAwipaxikam>एत</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एत</prAwipaxikam>
+<sense no="1">रंगबिरंगा, चमकीला, स्त्री* - एता, एनी</sense>
+</lexhead>
+
+<lexhead no="29">
+<dentry>एत:</dentry>
+<prAwipaxikam>एत</prAwipaxikam>
+<grammar>पुं*</grammar>
+<sense no="1">हरिण या बारहसिंघा</sense>
+</lexhead>
+
+<lexhead no="30">
+<dentry>एतद्</dentry>
+<prAwipaxikam>एतद्</prAwipaxikam>
+<grammar>सर्व* वि*</grammar>
+<etymology>[इ+अदि, तुक्]</etymology>
+<sense no="1">यह, यहाँ, सामने, एषोऽहं कार्यवशादायोध्यिकस्तदानीन्तनश्च संवृत्तः<citation>उत्तर* १</citation>पुं* -एषः, स्त्री* - एषा, नपुं* - एतद्, वक्ता के निकटतम वस्तु का उल्लेख करना - समीपतरवर्ति चैतदो रूपम् इस अर्थ में ’एतद्’ शब्द कई बार पुरुषवाचक सर्वनाम पर बल देने के लिये प्रयुक्त होता है</sense>
+<sense n="2">यह प्रायः अपने पूर्ववर्ती शब्द की ओर संकेत करता है, विशेषकर जबकि यह ’इदम्’ या किसी और सर्वनाम के साथ संयुक्त किया जायएष वै प्रथमःकल्पः<citation>मनु* ३/१४७</citation>इति यदुक्तं तदेतच्चिन्त्यम्</sense>
+<sense n="3">यह संबंधबोधक वाक्यखंड में भी प्रायः प्रयुक्त होता है और उस अवस्था में - संबंधबोधक बाद में आता है<citation>मनु* ९/२५७</citation></sense>
+<sense n="4">इस रीति से, इस प्रकार, अतः, ध्यान दोएतद् शब्द उन समासों में प्रथम पद के रूप में प्रयुक्त होता है - जो प्रायः निगदव्यख्यात या स्वतः स्पष्ट हों</sense>
+<segmenthd>
+<dentry>एतदनन्तरम्</dentry>
+<prAwipaxikam>एतदनन्तर</prAwipaxikam>
+<seg>एतद्-अनन्तरम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="2">इसके तुरन्त बाद</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एतदंत</dentry>
+<prAwipaxikam>एतदंत</prAwipaxikam>
+<seg>एतद्-अंत</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एतदंत</prAwipaxikam>
+<sense no="1">इस प्रकार समाप्त करते हुए</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एतद्द्वितीय</dentry>
+<prAwipaxikam>एतद्द्वितीय</prAwipaxikam>
+<seg>एतद्-द्वितीय</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एतद्द्वितीय</prAwipaxikam>
+<sense no="1">जो किसी कार्य को दोबारा करे</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एतत्प्रथम</dentry>
+<prAwipaxikam>एतत्प्रथम</prAwipaxikam>
+<seg>एतद्-प्रथम</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एतत्प्रथम</prAwipaxikam>
+<sense no="1">जो किसी को पहली बार करे</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="31">
+<dentry>एतदीय</dentry>
+<prAwipaxikam>एतदीय</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एतदीय</prAwipaxikam>
+<etymology>[एतद्+छ]</etymology>
+<sense no="1">इसका, के, की</sense>
+</lexhead>
+
+<lexhead no="32">
+<dentry>एतनः</dentry>
+<prAwipaxikam>एतन</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[आ+इ+तन]</etymology>
+<sense no="1">श्वास, साँस छोड़ना</sense>
+</lexhead>
+
+<lexhead no="33">
+<dentry>एतर्हि</dentry>
+<prAwipaxikam>एतर्हि</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<etymology>[इदम्+र्हिल्, एत आदेशः]</etymology>
+<kind_of>समयः</kind_of>
+<jAwi>कालः</jAwi>
+<sense no="1">अब, इस समय, वर्तमान समय में</sense>
+</lexhead>
+
+<lexhead no="34">
+<dentry>एतादृश्</dentry>
+<prAwipaxikam>एतादृश्</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एतादृश्</prAwipaxikam>
+<sense no="1">ऐसा, इस प्रकार का, सर्वेपि नैतादृशाः<citation>भर्तृ* २/५१</citation>स्त्री* - एतादृशी, एतादृक्षी</sense>
+<sense n="2">इस प्रकार का</sense>
+</lexhead>
+
+<lexhead no="35">
+<dentry>एतादृश</dentry>
+<prAwipaxikam>एतादृश</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एतादृश</prAwipaxikam>
+<sense no="1">ऐसा, इस प्रकार का</sense>
+<sense n="2">इस प्रकार का</sense>
+</lexhead>
+
+<lexhead no="36">
+<dentry>एतादृक्ष</dentry>
+<prAwipaxikam>एतादृक्ष</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एतादृक्ष</prAwipaxikam>
+<sense no="1">ऐसा, इस प्रकार का</sense>
+<sense n="2">इस प्रकार का</sense>
+</lexhead>
+
+<lexhead no="37">
+<dentry>एतावत्</dentry>
+<prAwipaxikam>एतावत्</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एतावत्</prAwipaxikam>
+<etymology>[एतद्+वतुप्]</etymology>
+<sense no="1">इतना अधिक, इतना बड़ा, इतने अधिक, इतना विस्तृत, इतनी दूर, इस गुण का या ऐसे प्रकार का, एतावदुक्त्वा विरते मृगेन्द्रे<citation>रघु* २/५१</citation><citation>कु* ६/८९</citation>एतावान्मे विभवो भवन्तं सिवितुम्<citation>मालवि* २</citation></sense>
+<sense n="2">इतनी दूर, इतना अधिक, इतने अंश में, इस प्रकार</sense>
+</lexhead>
+
+<lexhead no="38">
+<dentry>एध्</dentry>
+<prAwipaxikam>एध्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI><vform>एधते</vform>,<vform>एधित</vform></grammar>
+<sense no="1">उगना, बढ़ना<citation>पंच* २/१६४</citation></sense>
+<sense n="2">फलना-फूलना, सुख में जीवन बितानाद्वावैतो सुखमेधते<citation>१/३१८</citation></sense>
+<sense n="3">उगवाना, बढ़वाना, अभिवादन करना, सम्मान करना<citation>कु* ६/९०</citation></sense>
+</lexhead>
+
+<lexhead no="39">
+<dentry>एधः</dentry>
+<prAwipaxikam>एध</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इन्ध्+घञ्, नि*]</etymology>
+<is_a_part>यज्ञः</is_a_part>
+<kind_of>काष्ठम्</kind_of>
+<jAwi>अचलनिर्जीववस्तु</jAwi>
+<kind_of>काष्ठम्</kind_of>
+<jAwi>अचलनिर्जीववस्तु</jAwi>
+<sense no="1">इंधन, स्फुलिड़गावस्थया वह्न्निरेधापेक्ष इव स्थितः<citation>शि* २/९९</citation></sense>
+</lexhead>
+
+<lexhead no="40">
+<dentry>एधतुः</dentry>
+<prAwipaxikam>एधतु</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[एध्+चतु]</etymology>
+<sense no="1">मनुष्य</sense>
+<sense n="2">अग्नि</sense>
+</lexhead>
+
+<lexhead no="41">
+<dentry>एधस्</dentry>
+<prAwipaxikam>एधस्</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[इन्ध्+असि]</etymology>
+<sense no="1">इंधन, यथैधांसि स्मिद्धोऽग्निर्भस्मात्कुरुतेऽर्जुनः<citation>भग* ४/३७</citation>अनलायागुरुचन्दनैधसे<citation>रघु* ८/७१</citation></sense>
+</lexhead>
+
+<lexhead no="42">
+<dentry>एधा</dentry>
+<prAwipaxikam>एधा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[एध्+अ+टाप्]</etymology>
+<sense no="1">फलना-फूलना, हर्ष</sense>
+</lexhead>
+
+<lexhead no="43">
+<dentry>एधित</dentry>
+<prAwipaxikam>एधित</prAwipaxikam>
+<grammar>भू* क* कृ*</grammar>
+<etymology>[एध्+क्त]</etymology>
+<jAwi>अवस्था</jAwi>
+<sense no="1">विकसित, बढ़ा हुआ</sense>
+<sense n="2">पाला पोसामृगशावैः सममेधितो जनः<citation>श* २/१८</citation></sense>
+</lexhead>
+
+<lexhead no="44">
+<dentry>एनस्</dentry>
+<prAwipaxikam>एनस्</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[इ+असुन्, नुडागमः]</etymology>
+<is_a_part>प्राक्तनशुभाशुभकर्मः</is_a_part>
+<kind_of>पुण्यपापकर्मम्</kind_of>
+<jAwi>अदृष्टम्</jAwi>
+<sense no="1">पाप, अपराध, दोष<citation>शि* १४/३५</citation></sense>
+<sense n="2">कुचेष्टा, जुर्म</sense>
+<sense n="3">खिन्नता</sense>
+<sense n="4">निन्दा, कलंक</sense>
+</lexhead>
+
+<lexhead no="45">
+<dentry>एनस्वत्</dentry>
+<prAwipaxikam>एनस्वत्</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एनस्वत्</prAwipaxikam>
+<etymology>[एनस्+मतुप्, व आदेशः, विनि वा]</etymology>
+<sense no="1">दुष्ट, पापी</sense>
+</lexhead>
+
+<lexhead no="46">
+<dentry>एनस्विन्</dentry>
+<prAwipaxikam>एनस्विन्</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एनस्विन्</prAwipaxikam>
+<etymology>[एनस्+विनि]</etymology>
+<sense no="1">दुष्ट, पापी</sense>
+</lexhead>
+
+<lexhead no="47">
+<dentry>एरण्डः</dentry>
+<prAwipaxikam>एरण्ड</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[आ_ईर्+अण्डच्]</etymology>
+<kind_of>वृक्षः</kind_of>
+<jAwi>वृक्षः</jAwi>
+<sense no="1">अरंडी का पौधा, बहुत थोड़े पत्तों वाला एक छोटा वृक्ष, अत् एव लो* - निरस्त पादपे देशे एरण्डोपि द्रुमायते</sense>
+</lexhead>
+
+<lexhead no="48">
+<dentry>एलकः</dentry>
+<prAwipaxikam>एलक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इल्+अच्+कन्]</etymology>
+<sense no="1">मेढ़ा, दे* ’एडक’</sense>
+</lexhead>
+
+<lexhead no="49">
+<dentry>एलवालु</dentry>
+<prAwipaxikam>एलवालु</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<sense no="1">कैथ वृक्ष की सुगन्धयुक्त छाल</sense>
+<sense n="2">एक रवेदार या दानेदार द्रव्यजो औषधि सुगंध के रूप में प्रयुक्त होता है</sense>
+</lexhead>
+
+<lexhead no="50">
+<dentry>एलवालुकम्</dentry>
+<prAwipaxikam>एलवालुक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+?<etymology>[एला-वल्+उण्, ह्रस्वः कन् च]</etymology>
+<sense no="1">कैथ वृक्ष की सुगन्धयुक्त छाल</sense>
+<sense n="2">एक रवेदार या दानेदार द्रव्य</sense>
+</lexhead>
+
+<lexhead no="51">
+<dentry>एलविलः</dentry>
+<prAwipaxikam>एलविल</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इल्विला+अण्]</etymology>
+<sense no="1">कुबेर, दे* ’एलविल’</sense>
+</lexhead>
+
+<lexhead no="52">
+<dentry>एला</dentry>
+<prAwipaxikam>एला</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[इल्+अच्+टाप्]</etymology>
+<kind_of>सूक्ष्मशाखामूलयुक्तवृक्षः</kind_of>
+<jAwi>तृणम्</jAwi>
+<sense no="1">इलायची का पौधा, एलानां फलरेणव:<citation>रघु* ४/४७</citation>६/६४</sense>
+<sense n="2">इलायची इलायची के बीज</sense>
+<segmenthd>
+<dentry>एलापर्णी</dentry>
+<prAwipaxikam>एलापर्णी</prAwipaxikam>
+<seg>एला-पर्णी</seg>
+<grammar>स्त्री*</grammar>
+<kind_of>सूक्ष्मशाखामूलयुक्तवृक्षः</kind_of>
+<jAwi>ओषधिः</jAwi>
+<sense no="1">लाजवन्ती जाति का एक पौधा</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="53">
+<dentry>एलीका</dentry>
+<prAwipaxikam>एलीका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[आ_ईल्+ईकन्+टाप्]</etymology>
+<sense no="1">छोटी इलायची</sense>
+</lexhead>
+
+<lexhead no="54">
+<dentry>एव</dentry>
+<prAwipaxikam>एव</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<etymology>[इ+वन्]</etymology>
+<jAwi>मानसिकभावः</jAwi>
+<sense no="1">ठीक, बिल्कुल, सही तौर पर, किसी शब्द द्वारा कहे गये विचार पर बल देने के लिए बहुधा इस अव्यय का प्रयोग होता है</sense>
+<compound>
+<dentry>एवमेव</dentry>
+<prAwipaxikam>एवमेव</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<sense no="1">बिल्कुल ऐसा ही, ठीक इसी प्रकार का</sense></compound>
+<sense n="2">वही, सही, समरूपअर्थोष्मणा विरहितः पुरुषः स एव<citation>भतृ* २/४०</citation></sense>
+<sense n="3">केवल, अकेला, मात्र, केवल मात्र सचाई, सचाई के अतिरिक्त और कुछ नहींसा तथ्यमेवाभिहिता भवेन<citation>कु* ३/६३बहिष्करण की भावना रखते हुए</citation></sense>
+<sense n="4">पहले ही</sense>
+<sense n="5">कठिनाई से, उसी क्षण, ज्यूँहीउपस्थितेयं कल्याणी नाम्नि कीर्तित एव यत्<citation>रघु* १/८७मुख्यतया कृदन्तों के साथ</citation></sense>
+<sense n="6">की भाँति, जैसे किश्रीस्त एव मेऽस्तु<citation>गण*समानता प्रकट करते हुए</citation>=तव इव</sense>
+<sense n="7">सामान्यतः किसी उक्ति पर बल देने के लिए, यह बात निश्चित रूप से होगीभवितव्यमेव तेन<citation>उत्तर* ४</citation></sense>
+<sense n="8">अपयश</sense>
+<sense n="9">न्यूनता</sense>
+<sense n="10">आज्ञा</sense>
+<sense n="11">नियंत्रण</sense>
+<sense n="12">केवल पूर्ति के लिए</sense>
+</lexhead>
+
+<lexhead no="55">
+<dentry>एवम्</dentry>
+<prAwipaxikam>एवम्</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<etymology>[इ+वमु]</etymology>
+<jAwi>मानसिकभावः</jAwi>
+<jAwi>मानसिकभावः</jAwi>
+<jAwi>मानसिकभावः</jAwi>
+<jAwi>शेषः</jAwi>
+<jAwi>शेषः</jAwi>
+<sense no="1">अतः, इसलिए, इस रीति से, यह इस प्रकार से है, अस्त्येवम्<citation>पंच* १</citation>एवंवादिनी देवर्षौ<citation>कु* ६/८४</citation>ब्रूया एवम्<citation>मेघ* १०१</citation>बा*, जो कुछ बाद में आता है</sense>
+<compound>
+<dentry>एवमस्तु</dentry>
+<prAwipaxikam>एवमस्तु</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<sense no="1">ऐसा ही होस्वस्ति</sense></compound>
+<compound>
+<dentry>यद्येवम्</dentry>
+<prAwipaxikam>यद्येवम्</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<sense no="1">यदि ऐसा है</sense></compound>
+<compound>
+<dentry>यद्येवम्</dentry>
+<prAwipaxikam>यद्येवम्</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<sense no="1">बिल्कुल ऐसा हीएवं यदात्थ भगवान्<citation>कु* २/३१स्वीकृति रखते हुए</citation></sense></compound>
+<segmenthd>
+<dentry>एवमवस्थ</dentry>
+<prAwipaxikam>एवमवस्थ</prAwipaxikam>
+<seg>एवम्-अवस्थ</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एवमवस्थ</prAwipaxikam>
+<sense no="1">इस प्रकार स्थित, या ऐसी परिस्थितियों में फँसा हुआ</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एवमादि</dentry>
+<prAwipaxikam>एवमादि</prAwipaxikam>
+<seg>एवम्-आदि</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एवमादि</prAwipaxikam>
+<sense no="1">ऐसा और इस प्रकार का</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एवमाद्य</dentry>
+<prAwipaxikam>एवमाद्य</prAwipaxikam>
+<seg>एवम्-आद्य</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एवमाद्य</prAwipaxikam>
+<sense no="1">ऐसा और इस प्रकार का</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एवङ्कारम्</dentry>
+<prAwipaxikam>एवङ्कारम्</prAwipaxikam>
+<seg>एवम्-कारम्</seg>
+<grammar>अव्य*</grammar>
+<sense no="1">इस रीति से</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एवङ्गुण</dentry>
+<prAwipaxikam>एवङ्गुण</prAwipaxikam>
+<seg>एवम्-गुण</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एवङ्गुण</prAwipaxikam>
+<sense no="1">ऐसे गुणों वाला<citation>श* १/१२</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>एवम्प्रकार</dentry>
+<prAwipaxikam>एवम्प्रकार</prAwipaxikam>
+<seg>एवम्-प्रकार</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एवम्प्रकार</prAwipaxikam>
+<sense no="1">इस प्रकार का<citation>उत्तर*५/२१</citation><citation>श* ७/२४</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>एवम्प्राय</dentry>
+<prAwipaxikam>एवम्प्राय</prAwipaxikam>
+<seg>एवम्-प्राय</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एवम्प्राय</prAwipaxikam>
+<sense no="1">इस प्रकार का</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एवम्भूत</dentry>
+<prAwipaxikam>एवम्भूत</prAwipaxikam>
+<seg>एवम्-भूत</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एवम्भूत</prAwipaxikam>
+<sense no="1">इस प्रकार के गुणों वाला, ऐसा, इस ढंग का</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एवंरूप</dentry>
+<prAwipaxikam>एवंरूप</prAwipaxikam>
+<seg>एवम्-रूप</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एवंरूप</prAwipaxikam>
+<sense no="1">इस प्रकार का, ऐसे रूप का</sense>
+</segmenthd>
+<segmenthd>
+<dentry>एवंविध</dentry>
+<prAwipaxikam>एवंविध</prAwipaxikam>
+<seg>एवम्-विध</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एवंविध</prAwipaxikam>
+<sense no="1">इस प्रकार का, ऐसा</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="56">
+<dentry>एष्</dentry>
+<prAwipaxikam>एष्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>उभ*</paxI><vform>एषति</vform>,<vform>एषते</vform>,<vform>एषित</vform></grammar>
+<sense no="1">जाना, पहुँचना</sense>
+<sense n="2">शीघ्रता से जाना, दौड़ कर् जाना</sense>
+<segmenthd>
+<dentry>पर्येषः</dentry>
+<prAwipaxikam>पर्येष</prAwipaxikam>
+<seg>परि-एषः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">ढूढ़ना</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="57">
+<dentry>एषणः</dentry>
+<prAwipaxikam>एषण</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[एष्+ल्युट्]</etymology>
+<sense no="1">लोहे का तीर</sense>
+</lexhead>
+
+<lexhead no="58">
+<dentry>एषणम्</dentry>
+<prAwipaxikam>एषण</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[एष्+ल्युट्]</etymology>
+<sense no="1">ढूढ़ना</sense>
+<sense n="2">कामना करना</sense>
+</lexhead>
+
+<lexhead no="59">
+<dentry>एषणा</dentry>
+<prAwipaxikam>एषणा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[एष्+ल्युट्+टाप्]</etymology>
+<sense no="1">कामना, इच्छा</sense>
+</lexhead>
+
+<lexhead no="60">
+<dentry>एषणिका</dentry>
+<prAwipaxikam>एषणिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[इष्+ल्युट्+कन्+टाप्, इत्वम्]</etymology>
+<kind_of>उपकरणम्</kind_of>
+<jAwi>अचलनिर्जीववस्तु</jAwi>
+<sense no="1">सुनार का काँटा तोलने की तराजू</sense>
+</lexhead>
+
+<lexhead no="61">
+<dentry>एषा</dentry>
+<prAwipaxikam>एषा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[इष्+अ+टाप्]</etymology>
+<sense no="1">इच्छा, कामना</sense>
+</lexhead>
+
+<lexhead no="62">
+<dentry>एषिन्</dentry>
+<prAwipaxikam>एषिन्</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">एषिन्</prAwipaxikam>
+<etymology>[इष्+णिनि]</etymology>
+<sense no="0">इच्छा करते हुए, यौवन विषयैषिनाम्<citation>रघु*</citation>समास के अन्त में</sense>
+</lexhead>
+
+</dict>

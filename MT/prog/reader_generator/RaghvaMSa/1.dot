@@ -1,0 +1,22 @@
+digraph G{
+Node1 [style=filled, color="#87CEEB" , label="दशरथस्य", fontname="Lohit Hindi"]
+Node2 [style=filled, color="#00BFFF" , label="पुत्रः", fontname="Lohit Hindi"]
+Node3 [style=filled, color="#00BFFF" , label="रामः", fontname="Lohit Hindi"]
+Node4 [style=filled, color="#C6E2EB" , label="नगरे", fontname="Lohit Hindi"]
+Node5 [style=filled, color="#B4FFB4" , label="कोशात्", fontname="Lohit Hindi"]
+Node6 [style=filled, color="#40E0D0" , label="हस्तेन", fontname="Lohit Hindi"]
+Node7 [style=filled, color="#B0E2FF" , label="ब्राह्मणाय", fontname="Lohit Hindi"]
+Node8 [style=filled, color="#93DB70" , label="धनं", fontname="Lohit Hindi"]
+Node9 [style=filled, color="#FF1975" , label="ददाति", fontname="Lohit Hindi"]
+Node1 -> Node2 [label="षष्ठीसम्बन्धः",dir=back ,fontcolor=red, fontname="Lohit Hindi"]
+Node2 -> Node3 [label="अभेदः",dir=back ,fontcolor=red, fontname="Lohit Hindi"]
+Node3 -> Node9 [label="कर्ता",dir=back ,fontcolor=red, fontname="Lohit Hindi"]
+Node4 -> Node9 [label="अधिकरणम्",dir=back ,fontcolor=red, fontname="Lohit Hindi"]
+Node5 -> Node9 [label="अपादानम्",dir=back ,fontcolor=red, fontname="Lohit Hindi"]
+Node6 -> Node9 [label="करणम्",dir=back ,fontcolor=red, fontname="Lohit Hindi"]
+Node7 -> Node9 [label="सम्प्रदानम्",dir=back ,fontcolor=red, fontname="Lohit Hindi"]
+Node8 -> Node9 [label="कर्म",dir=back ,fontcolor=red, fontname="Lohit Hindi"]
+
+rankdir=BT
+bgcolor="lemonchiffon1";
+}

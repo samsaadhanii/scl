@@ -1,0 +1,26 @@
+apAxAnam_upa(4000)/upa_apekRA(2000)		apAxAnam(20)
+
+karwA_upa(4400)/upa_apekRA(2000)		karwA(7)
+
+sambanXa_upa(4300)/upa_apekRA(2000)		sambanXaH(28)
+xeSAXikaraNam_upa(4100)/upa_apekRA(2000)	xeSAXikaraNam(21)
+
+xeSAXikaraNam_upa(4100)/upa_aXikaraNam(2100)	xeSAXikaraNam(21)
+
+sambanXa_upa(4300)/upa_karma(2200)			karma(13)
+sambanXa_upa(4300)/upa_karmapravacanIya(2300)
+sambanXa_upa(4300)/upa_ABimuKya(2400)			ABimuKya(95)
+sambanXa_upa(4300)/upa_prawisixXa(2600)			prawiReXaH(94)
+karwqsamAnAXikaraNam_upa(4200)/upa_prayojanam(2700)	karwqsamAnAXikaraNam(8)
+sambanXa_upa(4300)/upa_sambanXa(2800)			sahavinArWakawvam(93)
+sambanXa_upa(4300)/upa_srowa(2900)			avaXi(92)
+
+
+upa_apekRA(2000)		upa_apekRA(2000)
+upa_prayojanam(2700)		upa_prayojanam(2700)
+upa_uxgAravAcaka(3100)	upa_uxgAravAcaka(3100)
+upa_sambanXa		??
+
+nirXAraNam		nirXAraNam(65)
+svAmI		svAmI(91)
+viRayAXikaraNam	viRayAXikaraNam(23)

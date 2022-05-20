@@ -1,0 +1,2727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dict SYSTEM "apte.dtd">
+<?xml-stylesheet href="apte.css" type="text/css"?>
+<dict>
+<lexhead no="1">
+<dentry>इ</dentry>
+<prAwipaxikam>इ</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[अ+इञ्]</etymology>
+<sense no="1">कामदेव</sense>
+<sense n="2">क्रोध</sense>
+<sense n="3">पुकार</sense>
+<sense n="4">करुणा</sense>
+<sense n="5">झिडकी</sense>
+<sense n="6">आश्चर्य की भावना को प्रकट करने वाला विस्मयादिद्योतक अव्यय</sense>
+<sense n="7">जाना, की ओर जाना, निकट आनाशशिनं पुनरेति शर्वरी<citation>रघु* ८।५६</citation></sense>
+<sense n="8">पहुँचना, पाना, प्राप्त करना, चले जानानिर्बुद्धिः क्षयमेति<citation>मृच्छ*१।१४</citation></sense>
+<sense n="9">नष्ट हो जाता है, बर्बाद होता हैइसी प्रकार वशं, शत्रुत्वं, शूद्रताम् आदि</sense>
+<sense n="10">जाना, की ओर जानादे* अय्</sense>
+<sense n="11">आना, आ धमकना</sense>
+<sense n="12">भागना, घूमना</sense>
+<sense n="13">शीघ्र जाना, बार बार जाना</sense>
+<segmenthd>
+<dentry>अती</dentry>
+<prAwipaxikam>अती</prAwipaxikam>
+<seg>अति-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">परे चले जाना, पार करना, ऊपर से चले जानाजवादतीये हिमवानधोमुखैः<citation>कि* १४।५४</citation>स्थातव्यं ते नयनविषयं यावदत्येति भानुः<citation>मेघ*३४दृष्टि से ओझल हो जाता है</citation></sense>
+<sense no="2">आगे बढ़ जाना, पीछे छोड़ देना, पछाड़ देना सत्यमतीत्य हरितो हरींश्च वर्तन्ते वाजिनः<citation>श*१</citation>त्रिस्रोतसः कान्तिमतीत्यतस्थौ<citation>कु*७।१५</citation><citation>शि*२।२३</citation></sense>
+<sense no="3">पास से निकल जाना, पीछे छोड़ देना, भूल जाना, उपेक्षा करना<citation>श* ६।१६</citation><citation>रघु*१५।३७</citation></sense>
+<sense no="4">बिताना, बीतना (समय का) अत्येति रजनी या तु<citation>रामा*</citation>अतीते दशरात्रेदे* अतीत</sense>
+</segmenthd>
+<segmenthd>
+<dentry>अधी</dentry>
+<prAwipaxikam>अधी</prAwipaxikam>
+<seg>अधि-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">याद रखना, चिन्तन करना खेद पूर्वक याद करनारामस्य दयमानोसावध्येति तव लक्ष्मणः<citation>भट्टि*८।११</citation>१८।३८<citation>कि*११।७४संब० के साथ</citation></sense>
+<sense no="2">शिक्षा प्राप्त करना, अध्ययन करना, पढ़ानाउपाध्यायादधीते<citation>सिद्धा*</citation>सोऽध्यैष्ट वदान्<citation>१।२<vform>अधीते</vform>इस अर्थ में सदैव ’आत्मनेपद’</citation>प्रेर*<vform>अध्यापयति</vform>इच्छा*<vform>अधिजिगांसते</vform></sense>
+</segmenthd>
+<segmenthd>
+<dentry>अन्वि</dentry>
+<prAwipaxikam>अन्वि</prAwipaxikam>
+<seg>अनु-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">अनुसरण करना, पीछे चलनाप्रयतां प्रातरन्वेतु<citation>रघु*१।९०</citation></sense>
+<sense no="2">सफल होना</sense>
+<sense no="3">अनुगमनव्या* या रचना में</sense>
+<sense no="4">आज्ञा मानना, अनुरूप होना, अनुकरण करना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>अन्वे</dentry>
+<prAwipaxikam>अन्वे</prAwipaxikam>
+<seg>अन्वा-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">पीछे जाना, अनुसरण करना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>अन्तरि</dentry>
+<prAwipaxikam>अन्तरि</prAwipaxikam>
+<seg>अन्तर्-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">बीच में जाना, हस्तक्षेप करना</sense>
+<sense no="2">रोकना, बाधा डालना</sense>
+<sense no="3">छिपाना, गुप्त रखना, परदा डालनादे* अन्तरित</sense>
+</segmenthd>
+<segmenthd>
+<dentry>अपे</dentry>
+<prAwipaxikam>अपे</prAwipaxikam>
+<seg>अप-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">चले जाना, विदा होना, पीछे हटना, लौट पड़ना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>अपेही</dentry>
+<prAwipaxikam>अपेही</prAwipaxikam>
+<seg>अपेहि-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">दूर हो जाओ, दूर हटो</sense>
+<sense no="2">वंचित होना, मुक्त होनादे* अपेत</sense>
+<sense no="3">मरना, नष्ट होना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>अभी</dentry>
+<prAwipaxikam>अभी</prAwipaxikam>
+<seg>अभि-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">जाना, पहुँचना, निकट जानाअस्मानत्तुमितोऽभ्येति<citation>भट्टि*७।८४</citation></sense>
+<sense no="2">अनुसरण करना, सेवा करना</sense>
+<sense no="3">प्राप्त करना, मिलना, भुगतना, (अच्छी बुरी बातें) भोगना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>अभिप्रे</dentry>
+<prAwipaxikam>अभिप्रे</prAwipaxikam>
+<seg>अभिप्र-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">की ओर जाना, इरादा करना, अर्थ रखना, उद्देश्य बनाकरकर्मणा यमभिप्रैति स संप्रदानम्<citation>पा*१।४।३२</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>अभ्ये</dentry>
+<prAwipaxikam>अभ्ये</prAwipaxikam>
+<seg>अभ्या-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">पहुँचना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>अभ्युदि</dentry>
+<prAwipaxikam>अभ्युदि</prAwipaxikam>
+<seg>अभ्युद्-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">उठना, ऊपर जाना</sense>
+<sense no="2">फलना-फूलना, समृद्ध होनाआलं*</sense>
+</segmenthd>
+<segmenthd>
+<dentry>अभ्युपे</dentry>
+<prAwipaxikam>अभ्युपे</prAwipaxikam>
+<seg>अभ्युप-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">निकट जाना, पहुंचना आपहुंचनाव्यतीतकालस्त्वहमभ्युपेतः<citation>रघु*५।१४</citation>१६।२२</sense>
+<sense no="2">विशिष्ट दशा को पहुँच जाना, प्राप्त करनासत्यं न तद्यच्छलमभ्युपैति<citation>हि*३।६१</citation></sense>
+<sense no="3">जिम्मेवारी लेना, सहमत होना, स्वीकार करना, प्रतिज्ञा करनामन्दायते न खलु सुहृदामभ्युपेतार्थकृत्याः<citation>मेघ*३८कोई काम करने की</citation></sense>
+<sense no="4">मानलेना, अपना लेना, स्वीकार करना</sense>
+<sense no="5">आज्ञा मानना, अधीनता स्वीकार करना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>अवे</dentry>
+<prAwipaxikam>अवे</prAwipaxikam>
+<seg>अव-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">जानना, ज्ञान प्राप्त करना, जानकार होनाअवेहि मां किङ्करमष्टमूर्तेः<citation>रघु*२।३५</citation><citation>कु*३।१३</citation>४।९</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ए</dentry>
+<prAwipaxikam>ए</prAwipaxikam>
+<seg>आ-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">आना, निकट खिसकना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>उदि</dentry>
+<prAwipaxikam>उदि</prAwipaxikam>
+<seg>उद्-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">(तारे आदि का) उदय होना, आना, ऊपर उठनाउदेति पूर्वं कुसुमं ततः फलम्<citation>श*७।३०</citation>सविता ताम्रः - आदिआलं* भी</sense>
+<sense no="2">उठना, उछलना, पैदा किया जाना</sense>
+<sense no="3">फलना-फूलना, समृद्ध होना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>उपे</dentry>
+<prAwipaxikam>उपे</prAwipaxikam>
+<seg>उप-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">पहुँचना, निकट खिसकना, पास जानायोगी परं स्थानमुपैति चाद्यम्<citation>भग*८।२८</citation></sense>
+<sense no="2">निकट जाना, में से निकलना, प्राप्त करना, (किसी दशा को) पहुंच जानाउपैति सस्यं परिणामरम्यताम्<citation>कि*४।२२</citation></sense>
+<sense no="3">आ पड़ना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>निरि</dentry>
+<prAwipaxikam>निरि</prAwipaxikam>
+<seg>निर्-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">विदा होना, प्रस्थान करना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>परे</dentry>
+<prAwipaxikam>परे</prAwipaxikam>
+<seg>परा-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">चले जाना, दौड़ जाना, भाग जाना, वापिस मुड़नायः परैति स जीवति<citation>पञ्च*५।८८भागने वाला अपनी जान बचा लेता है’</citation>तु* ’जान बचाने केलिए भागना</sense>
+<sense no="2">पहुँचना, प्राप्त करना<citation>कि*१।३९</citation></sense>
+<sense no="3">इस संसार से कूच करना, मरनादे* परेत</sense>
+</segmenthd>
+<segmenthd>
+<dentry>परी</dentry>
+<prAwipaxikam>परी</prAwipaxikam>
+<seg>परि-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">परिक्रमा करना, प्रदक्षिणा करनाचरणन्यासं भक्तिनम्रः परीयाः<citation>मेघ*५५</citation><citation>मनु*२।४८</citation></sense>
+<sense no="2">घेरना, चारों ओर चक्कर लगानाहुतवहपरीतं गृहमिव<citation>श*५।१०</citation>विषवल्लिभिः परीताभिर्महौषधिः<citation>रघु*१२।६१इसी प्रकार ’कोपपरीत’</citation></sense>
+<sense no="3">पास जाना, (चीजों का) चिन्तन करना</sense>
+<sense no="4">बदलना, रूपान्तरित होना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>प्रे</dentry>
+<prAwipaxikam>प्रे</prAwipaxikam>
+<seg>प्र-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">निकल जाना, बिदा होनाधीराः प्रेत्यास्माल्लोकादमृता भवन्ति<citation>केन*</citation></sense>
+<sense no="2">(अतः) जीवन से बिदा लेना, मरनान च तत्प्रेत्य नो इह<citation>भग*१७।२८</citation><citation>मनु२।९</citation>२६प्रेत्य-मर कर</sense>
+</segmenthd>
+<segmenthd>
+<dentry>प्रती</dentry>
+<prAwipaxikam>प्रती</prAwipaxikam>
+<seg>प्रति-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">वापिस जाना, लौट जाना, प्रतीयाय गुरोः सकाशम्<citation>रघु*५।३५</citation><citation>भट्टि*३।१९</citation></sense>
+<sense no="2">विश्वास करना, भरोसा करनाकः प्रत्येति सैवेयमिति<citation>उत्तर*४</citation></sense>
+<sense no="3">ज्ञान प्राप्त करना, समझना, जाननाप्रतीयते धातुरिवेहितं फलैः<citation>कि*१।२०</citation><citation>शि*१।६९</citation></sense>
+<sense no="4">विख्यात होना, प्रसिद्ध होनासोऽयं वटः श्याम इति प्रतीतः<citation>रघु*१३।५३</citation></sense>
+<sense no="5">प्रसन्न होना, संतुष्ट होना<citation>रघु*३।१२</citation>१६।२१</sense>
+<sense no="6">विश्वास दिलाना, भरोसा पैदा करनाबलवत्तु दूयमानं प्रत्याययतीव मे हृदयम्<citation>श*५।२१</citation>ताः स्वचारित्र्यमुद्दिश्य प्रत्याययतु मैथिली<citation>रघु*१५।७३</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>प्रत्युदि</dentry>
+<prAwipaxikam>प्रत्युदि</prAwipaxikam>
+<seg>प्रत्युद्-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">स्वागत या सत्कार करने केलिए उठकर अगवानी करनासपर्यया प्रत्युदियाय पार्वती<citation>कु*५।३१</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>वी</dentry>
+<prAwipaxikam>वी</prAwipaxikam>
+<seg>वि-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">चले जाना, विदा होनातस्यामहं त्वयि च सम्प्रति वीतचिन्तः<citation>श*५।१२इसीप्रकार वीतभय</citation>वीतक्रोध</sense>
+<sense no="2">परिवर्तित होनासदृशं त्रिषु लिङ्गेषु यन्न व्येति तदव्ययम्<citation>सिद्धा*</citation></sense>
+<sense no="3">खर्च करनादे*व्यय</sense>
+</segmenthd>
+<segmenthd>
+<dentry>विपरी</dentry>
+<prAwipaxikam>विपरी</prAwipaxikam>
+<seg>विपरि-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">बदलनाबुराई केलिए दे*विपरीत</sense>
+</segmenthd>
+<segmenthd>
+<dentry>व्यती</dentry>
+<prAwipaxikam>व्यती</prAwipaxikam>
+<seg>व्यति-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">बाहर जाना, पथविचलित होना, अतिक्रमण करनारेखामात्रमपि क्षुण्णादा मनोर्वर्त्मनः परम्, न व्यतीयुः प्रजास्तस्य नियन्तुर्नेमिवृत्तयः<citation>रघु*१।१७</citation></sense>
+<sense no="2">समय का गुजरना, व्यतीत होनासप्तव्यतीयुस्त्रिगुणानि तस्य दिनानि<citation>रघु*२।२५</citation>व्यतीते काले आदि</sense>
+<sense no="3">परे चले जाना, पीछे छोड़ना<citation>रघु*६।६७</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>व्यपे</dentry>
+<prAwipaxikam>व्यपे</prAwipaxikam>
+<seg>व्यप-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">विदा होना, विचलित होना, मुक्त होनाव्यपेतमदमत्सरः<citation>याज्ञ*१।२६७</citation>स्मॄत्याचारव्यपेतेन मार्गेण<citation>२।५</citation></sense>
+<sense no="2">चले जाना, जुदा होना, अलग अलग होनासमेत्य च व्यपेयाताम्<citation>हि*४।६</citation><citation>मनु*९।१४२</citation>११।९७</sense>
+</segmenthd>
+<segmenthd>
+<dentry>समि</dentry>
+<prAwipaxikam>समि</prAwipaxikam>
+<seg>सम्-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">इकट्ठे आना, इकट्ठे मिलना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>समन्वि</dentry>
+<prAwipaxikam>समन्वि</prAwipaxikam>
+<seg>समनु-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">साथ चलना, अनुसरण करना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>समवे</dentry>
+<prAwipaxikam>समवे</prAwipaxikam>
+<seg>समव-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">एकत्र होना, इकट्ठे आनासमवेता युयुत्सवः<citation>भग*१।१</citation></sense>
+<sense no="2">संबद्ध होना, संयुक्त होनादे* समवाय</sense>
+</segmenthd>
+<segmenthd>
+<dentry>समे</dentry>
+<prAwipaxikam>समे</prAwipaxikam>
+<seg>समा-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">इकट्ठे आना या मिलनासमेत्य च व्यपेयाताम्<citation>हि*४।६९</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>समुदि</dentry>
+<prAwipaxikam>समुदि</prAwipaxikam>
+<seg>समुद्-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">एकत्र होना, संचित होनाअयं समुदितः सर्वो गुणानां गणः<citation>रत्न*१।६</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>समुपे</dentry>
+<prAwipaxikam>समुपे</prAwipaxikam>
+<seg>समुप-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">उपलब्ध करना, प्राप्त करना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>संप्रती</dentry>
+<prAwipaxikam>संप्रती</prAwipaxikam>
+<seg>संप्रति-इ</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">निर्णय करना, निश्चत करना, निर्धारित करना, अनुमान लगानाकिं तत्कथं वेत्युपलब्धसंज्ञा विकल्पयन्तोऽपि न सम्प्रतीयुः<citation>भट्टि*११।१०</citation></sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="2">
+<dentry>इक्षवः</dentry>
+<prAwipaxikam>इक्षव</prAwipaxikam>
+<grammar>पुं*</grammar>
+<sense no="1">गन्ना, ईख, ऊख</sense>
+</lexhead>
+
+<lexhead no="3">
+<dentry>इक्षुः</dentry>
+<prAwipaxikam>इक्षु</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>इष्यतेऽसौ माधुर्यात्</vigraha_vAkya>[इष्+क्सु]</etymology>
+<kind_of>तृणम्</kind_of>
+<jAwi>तृणम्</jAwi>
+<sense no="1">गन्ना, ईख</sense>
+<segmenthd>
+<dentry>इक्षुकाण्डः</dentry>
+<prAwipaxikam>इक्षुकाण्ड</prAwipaxikam>
+<seg>इक्षुः-काण्डः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">गन्ने की दो जातियाँ- काश और मुञ्जतृण</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इक्षुकाण्डम्</dentry>
+<prAwipaxikam>इक्षुकाण्ड</prAwipaxikam>
+<seg>इक्षुः-काण्डम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">गन्ने की दो जातियाँ- काश और मुञ्जतृण</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इक्षुकुट्टकः</dentry>
+<prAwipaxikam>इक्षुकुट्टक</prAwipaxikam>
+<seg>इक्षुः-कुट्टकः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">गन्ने इकट्ठे करने वाला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इक्षुदा</dentry>
+<prAwipaxikam>इक्षुदा</prAwipaxikam>
+<seg>इक्षुः-दा</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">एक नदी का नाम</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इक्षुपाकः</dentry>
+<prAwipaxikam>इक्षुपाक</prAwipaxikam>
+<seg>इक्षुः-पाकः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">गुड़, शीरा, राब</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इक्षुभक्षिका</dentry>
+<prAwipaxikam>इक्षुभक्षिका</prAwipaxikam>
+<seg>इक्षुः-भक्षिका</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">गुड़ और शक्कर से बना भोज्य पदार्थ</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इक्षुमती</dentry>
+<prAwipaxikam>इक्षुमती</prAwipaxikam>
+<seg>इक्षुः-मती</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">एक नदी का नाम</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इक्षुमालिनी</dentry>
+<prAwipaxikam>इक्षुमालिनी</prAwipaxikam>
+<seg>इक्षुः-मालिनी</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">एक नदी का नाम</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इक्षुमालवी</dentry>
+<prAwipaxikam>इक्षुमालवी</prAwipaxikam>
+<seg>इक्षुः-मालवी</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">एक नदी का नाम</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इक्षुमेहः</dentry>
+<prAwipaxikam>इक्षुमेह</prAwipaxikam>
+<seg>इक्षुः-मेहः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">मधुमेह</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इक्षुयन्त्रम्</dentry>
+<prAwipaxikam>इक्षुयन्त्र</prAwipaxikam>
+<seg>इक्षुः-यन्त्रम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">गन्ना पेलने का कोल्हू</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इक्षुरसः</dentry>
+<prAwipaxikam>इक्षुरस</prAwipaxikam>
+<seg>इक्षुः-रसः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">गन्ने का रस</sense>
+<sense no="2">गुड़, राब या शक्कर</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इक्षुवणम्</dentry>
+<prAwipaxikam>इक्षुवण</prAwipaxikam>
+<seg>इक्षुः-वणम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">गन्ने का खेत, गन्ने का जंगल</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इक्षुवाटिका</dentry>
+<prAwipaxikam>इक्षुवाटिका</prAwipaxikam>
+<seg>इक्षुः-वाटिका</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">गन्नों का उद्यान</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इक्षुवाटी</dentry>
+<prAwipaxikam>इक्षुवाटी</prAwipaxikam>
+<seg>इक्षुः-वाटी</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">गन्नों का उद्यान</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इक्षुविकारः</dentry>
+<prAwipaxikam>इक्षुविकार</prAwipaxikam>
+<seg>इक्षुः-विकारः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">शक्कर, गुड़ या राब</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इक्षुसारः</dentry>
+<prAwipaxikam>इक्षुसार</prAwipaxikam>
+<seg>इक्षुः-सारः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">गुड़ या राब</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="4">
+<dentry>इक्षुकः</dentry>
+<prAwipaxikam>इक्षुक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>स्वार्थे कन्</vigraha_vAkya>[इक्षु+कन्]</etymology>
+<sense no="1">गन्ना, ईख, दे*इक्षु</sense>
+</lexhead>
+
+<lexhead no="5">
+<dentry>इक्षुकीया</dentry>
+<prAwipaxikam>इक्षुकीया</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[इक्षुक+छ+टाप्]</etymology>
+<sense no="1">गन्नों की क्यारी</sense>
+</lexhead>
+
+<lexhead no="6">
+<dentry>इक्षुरः</dentry>
+<prAwipaxikam>इक्षुर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>इक्षुं राति इति</vigraha_vAkya>[इक्षु-रा+क]</etymology>
+<kind_of>सूक्ष्मशाखामूलयुक्तवृक्षः</kind_of>
+<jAwi>ओषधिः</jAwi>
+<sense no="1">गन्ना, ईख</sense>
+</lexhead>
+
+<lexhead no="7">
+<dentry>इक्ष्वाकुः</dentry>
+<prAwipaxikam>इक्ष्वाकु</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>इक्षुम् इच्छाम् आकरोति इति</vigraha_vAkya>[इक्षु-आ_कृ+डु]</etymology>
+<kind_of>लता</kind_of>
+<jAwi>लता</jAwi>
+<sense no="1">अयोध्या में राज्य करने वाले सूर्यवंशी राजाओं का पूर्व पुरुष, यह वैवस्वत मनु का पुत्र था और सूर्यवंशी राजाओं में सब से प्रथम पुरुष था, इक्ष्वाकुवंशोभिमतः प्रजानाम्<citation>उत्तर*१।४४</citation></sense>
+<sense n="2">इक्ष्वाकु की सन्तानगलितवयसामिक्ष्वाकूणामिदं हि कुलव्रतम्<citation>रघु*३।७०</citation></sense>
+</lexhead>
+
+<lexhead no="8">
+<dentry>इख्</dentry>
+<prAwipaxikam>इख्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>एखति</vform></grammar>
+<sense no="1">जाना, हिलना-डुलना, प्रायः ’प्र’ के साथ हिलना-डुलना, काँपना<citation>मा*६</citation></sense>
+</lexhead>
+
+<lexhead no="9">
+<dentry>इङ्ख्</dentry>
+<prAwipaxikam>इङ्ख्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>इङ्खति</vform></grammar>
+<sense no="1">जाना, हिलना-डुलना, प्रायः ’प्र’ के साथ हिलना-डुलना, काँपना<citation>मा*७</citation></sense>
+</lexhead>
+
+<lexhead no="10">
+<dentry>इङ्ग्</dentry>
+<prAwipaxikam>इङ्ग्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>उभ*</paxI><vform>इङ्गति</vform>,<vform>इङ्गते</vform>,<vform>इङ्गित</vform></grammar>
+<sense no="1">हिलना, काँपना, क्षुब्ध होना, यथा दीपो निवातस्थो नेङ्गते<citation>भग*६।१९</citation>१४।२३</sense>
+<sense n="2">जाना, हिलना-डुलना</sense>
+</lexhead>
+
+<lexhead no="11">
+<dentry>इङ्ग</dentry>
+<prAwipaxikam>इङ्ग</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">इङ्ग</prAwipaxikam>
+<etymology>[इङ्ग्+क]</etymology>
+<kind_of>चेष्टा</kind_of>
+<jAwi>क्रिया</jAwi>
+<jAwi>पृथ्वी</jAwi>
+<sense no="1">हिलने डुलने योग्य</sense>
+<sense n="2">आश्चर्य जनक, विस्मयकारी</sense>
+</lexhead>
+
+<lexhead no="12">
+<dentry>इङ्गः</dentry>
+<prAwipaxikam>इङ्ग</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इङ्ग्+क]</etymology>
+<kind_of>चेष्टा</kind_of>
+<jAwi>क्रिया</jAwi>
+<jAwi>पृथ्वी</jAwi>
+<sense no="1">इशारा या संकेत</sense>
+<sense n="2">इंगित द्वारा मनोभाव का संकेत देना</sense>
+</lexhead>
+
+<lexhead no="13">
+<dentry>इङ्गनम्</dentry>
+<prAwipaxikam>इङ्गन</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[इङ्ग्+ल्युट]</etymology>
+<sense no="1">हिलना-डुलना, काँपना</sense>
+<sense n="2">ज्ञानदे* इङ्ग</sense>
+</lexhead>
+
+<lexhead no="14">
+<dentry>इङ्गितम्</dentry>
+<prAwipaxikam>इङ्गित</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[इङ्ग्+क्त]</etymology>
+<kind_of>चेष्टा</kind_of>
+<jAwi>क्रिया</jAwi>
+<sense no="1">धड़कना, हिलना</sense>
+<sense n="2">आन्तरिक विचार, इरादा, प्रयोजन<citation>का*७</citation>पंच*१।४३, अगूढसद्भावमितीङ्गितज्ञया<citation>कु*५।६२</citation><citation>रघु*१।२०</citation><citation>शि*९।६९इङ्गिताकारवेदिभिः</citation></sense>
+<sense n="3">इशारा, संकेत, अंगविक्षेप<citation>पंच*१।४४</citation></sense>
+<sense n="4">विशेषतःशरीर के विभिन्न अंगों की चेष्टा जो आन्तरिक इरादों का आभास दे देती है, अंगविशेष आन्तरिक भावनाओं को प्रकट करने में समर्थ हैआकारैरिङ्गितैर्गत्या…………..गृह्यतेऽन्तर्गतं मनः<citation>मनु*८।२६</citation></sense>
+<segmenthd>
+<dentry>इङ्गितकोविद</dentry>
+<prAwipaxikam>इङ्गितकोविद</prAwipaxikam>
+<seg>इङ्गितम्-कोविद</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">इङ्गितकोविद</prAwipaxikam>
+<sense no="1">बाहरी अंगचेष्टाओं के द्वारा आन्तरिक मनोभावों की व्याख्या करने में कुशल, संकेतों को जानने वाला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इङ्गितज्ञ</dentry>
+<prAwipaxikam>इङ्गितज्ञ</prAwipaxikam>
+<seg>इङ्गितम्-ज्ञ</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">इङ्गितज्ञ</prAwipaxikam>
+<sense no="1">बाहरी अंगचेष्टाओं के द्वारा आन्तरिक मनोभावों की व्याख्या करने में कुशल, संकेतों को जानने वाला</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="15">
+<dentry>इङ्गुदः</dentry>
+<prAwipaxikam>इङ्गुद</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>इङ्ग्-उ=इङ्गुः तं द्यति खण्डयति इति</vigraha_vAkya>[इङ्ग्+उ-दो+क]</etymology>
+<sense no="1">एक औषधि का वृक्ष, हिंगोट का वृक्ष, मालकंगनी, इङ्गुदीपादपः सोऽयम्<citation>उत्तर*१।१४</citation></sense>
+</lexhead>
+
+<lexhead no="16">
+<dentry>इङ्गुदी</dentry>
+<prAwipaxikam>इङ्गुदी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+?<etymology><vigraha_vAkya>इङ्ग्-उ=इङ्गुः तं द्यति खण्डयति इति</vigraha_vAkya>[इङ्ग्+उ-दो+क]</etymology>
+<kind_of>वृक्षः</kind_of>
+<jAwi>वृक्षः</jAwi>
+<sense no="1">एक औषधि का वृक्ष, हिंगोट का वृक्ष, मालकंगनी, इङ्गुदीपादपः सोऽयम्<citation>उत्तर*१।१५</citation></sense>
+</lexhead>
+
+<lexhead no="17">
+<dentry>इङ्गुदम्</dentry>
+<prAwipaxikam>इङ्गुद</prAwipaxikam>
+<grammar>नपुं*</grammar>
+?<etymology><vigraha_vAkya>इङ्ग्-उ=इङ्गुः तं द्यति खण्डयति इति</vigraha_vAkya>[इङ्ग्+उ-दो+क]</etymology>
+<sense no="1">इंगुदी का फल</sense>
+</lexhead>
+
+<lexhead no="18">
+<dentry>इच्छा</dentry>
+<prAwipaxikam>इच्छा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[इष्+श+टाप्]</etymology>
+<kind_of>मनोविकारः</kind_of>
+<jAwi>मानसिकभावः</jAwi>
+<sense no="1">कामना, अभिलाष, रुचि</sense>Hp	इच्छया		NP	स्त्री*		रुचि के अनुसार				--- at else part
+<sense n="2">प्रश्न या समस्यागणित में</sense>
+<sense n="3">सन्नन्त का रूपव्या० में</sense>
+<segmenthd>
+<dentry>इच्छादानम्</dentry>
+<prAwipaxikam>इच्छादान</prAwipaxikam>
+<seg>इच्छा-दानम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">अभिलाषा का पूर्ण होना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इच्छानिवृत्तिः</dentry>
+<prAwipaxikam>इच्छानिवृत्ति</prAwipaxikam>
+<seg>इच्छा-निवृत्तिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">कामनाओं की शान्ति, सांसारिक इच्छाओं के प्रति उदासीनता</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इच्छाफलम्</dentry>
+<prAwipaxikam>इच्छाफल</prAwipaxikam>
+<seg>इच्छा-फलम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">किसी प्रश्न या समस्या का समाधान</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इच्छारतम्</dentry>
+<prAwipaxikam>इच्छारत</prAwipaxikam>
+<seg>इच्छा-रतम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">अभिलषित खेल<citation>मेघ*८९</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>इच्छावसुः</dentry>
+<prAwipaxikam>इच्छावसु</prAwipaxikam>
+<seg>इच्छा-वसुः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">कुबेर</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इच्छासम्पद्</dentry>
+<prAwipaxikam>इच्छासम्पद्</prAwipaxikam>
+<seg>इच्छा-सम्पद्</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">किसी की कामनाओं का पूर्ण होना</sense>
+</segmenthd></lexhead>
+
+<lexhead no="19">
+<dentry>इज्यः</dentry>
+<prAwipaxikam>इज्य</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[यज्+क्यप्]</etymology>
+<sense no="1">अध्यापक</sense>
+<sense n="2">देवों के अध्यापक बृहस्पति की उपाधि</sense>
+</lexhead>
+
+<lexhead no="20">
+<dentry>इज्या</dentry>
+<prAwipaxikam>इज्या</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[इज्य+टाप्]</etymology>
+<sense no="1">यज्ञ, जगत्प्रकाशं तदशेषमिज्यया<citation>रघु*३।४८</citation>१।६८, १५।२</sense>
+<sense n="2">उपहार, दान</sense>
+<sense n="3">प्रतमा</sense>
+<sense n="4">कुट्टिनी, दूतिका, गाय</sense>
+<segmenthd>
+<dentry>इज्याशीलः</dentry>
+<prAwipaxikam>इज्याशील</prAwipaxikam>
+<seg>इज्या-शीलः</seg>
+<grammar>पुं*</grammar>
+<kind_of>यागे_यजमानः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">सदा यज्ञ करने वाला</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="21">
+<dentry>इट्चरः</dentry>
+<prAwipaxikam>इट्चर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>इषा कामेन चरति</vigraha_vAkya>[इष्+क्विप्+चर्+अच्]</etymology>
+<kind_of>वृषभः</kind_of>
+<jAwi>स्तनपायी</jAwi>
+<sense no="1">बैल या बछड़ा जो स्वच्छन्दता पूर्वक घूमने के लिए छोड़ दिया जाय</sense>
+</lexhead>
+
+<lexhead no="22">
+<dentry>इडा</dentry>
+<prAwipaxikam>इडा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[इल्+अच्+टाप्, लस्य डत्वम्]</etymology>
+<jAwi>शब्दः</jAwi>
+<is_a_part>गोसमूहः</is_a_part>
+<kind_of>गोमहिष्यादिः</kind_of>
+<jAwi>स्तनपायी</jAwi>
+<jAwi>पृथ्वी</jAwi>
+<sense no="1">पृथ्वी</sense>
+<sense n="2">भाषण</sense>
+<sense n="3">आहार</sense>
+<sense n="4">गाय</sense>
+<sense n="5">एक देवी का नाम, मनु की पुत्री</sense>
+<sense n="6">बुध की पत्नी तथा पुरूरवा की माता</sense>
+</lexhead>
+
+<lexhead no="23">
+<dentry>इला</dentry>
+<prAwipaxikam>इला</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[इल्+अच्+टाप् ]</etymology>
+<jAwi>शब्दः</jAwi>
+<is_a_part>गोसमूहः</is_a_part>
+<kind_of>गोमहिष्यादिः</kind_of>
+<jAwi>स्तनपायी</jAwi>
+<jAwi>पृथ्वी</jAwi>
+<sense no="1">पृथ्वी</sense>
+<sense n="2">भाषण</sense>
+<sense n="3">आहार</sense>
+<sense n="4">गाय</sense>
+<sense n="5">एक देवी का नाम, मनु की पुत्री</sense>
+<sense n="6">बुध की पत्नी तथा पुरूरवा की माता</sense>
+</lexhead>
+
+<lexhead no="24">
+<dentry>इडिका</dentry>
+<prAwipaxikam>इडिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[इडा+क, इत्वम्]</etymology>
+<sense no="1">पृथ्वी</sense>
+</lexhead>
+
+<lexhead no="25">
+<dentry>इतर</dentry>
+<prAwipaxikam>इतर</prAwipaxikam>
+<grammar>सा* वि*</grammar>
+?<etymology><vigraha_vAkya>इना कामेन तरः इति</vigraha_vAkya>[इना+तृ-अप्]</etymology>
+<kind_of>शूद्रः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<kind_of>मनुष्यः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<jAwi>परिमाणः</jAwi>
+<sense no="1">अन्य दूसरा, दो में से अवशिष्ट, इतरो दहने स्वकर्मणाम्<citation>रघु*८।२०</citation>अने०पा०, स्त्री*- इतरा, नपुं* इतरम्</sense>
+<sense n="2">शेष या दूसरेब०ब०</sense>
+<sense n="3">दूसरा, से भिन्नइतरतापशतानि यथेच्छया वितर तानि सहे चतुरानन<citation>उद्भट*</citation>इतरो रावणादेव राघवानुचरो यदि<citation>भट्टि*८।१०६अपा० के साथ</citation></sense>
+<sense n="4">विरोधी, या तो अकेला स्वतन्त्र रूप से प्रयुक्त होता है अथवा विशेषण के साथ, या समास के अन्त मेंजङ्गमानीतराणि च रामा*, विजयायेतराय वा महा* इसी प्रकार</sense>Hp	दक्षिणेतर	दक्षिण-इतर	SNV	सा*वि*		वायां				--- at else partHp	वामेतर	वाम-इतर	SNV	सा*वि*		दायां				--- at else part
+<sense n="5">नीच, अधम, गंवार, सामान्यइतर इव परिभूय ज्ञानं मन्मथेन जडीकृतः<citation>का०१५४</citation></sense>
+<segmenthd>
+<dentry>इतरेतर</dentry>
+<prAwipaxikam>इतरेतर</prAwipaxikam>
+<seg>इतर-इतर</seg>
+<grammar>सा* वि*</grammar>
+<sense no="1">पारस्परिक, स्व-स्व, अन्योन्य</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इतराश्रयः</dentry>
+<prAwipaxikam>इतराश्रय</prAwipaxikam>
+<seg>इतर-आश्रयः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">पारस्परिक निर्भरता, अन्योन्य संबन्ध</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इतरयोगः</dentry>
+<prAwipaxikam>इतरयोग</prAwipaxikam>
+<seg>इतर-योगः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">पारस्परिक संबन्ध या मेल<citation>शि*१०।२४</citation></sense>
+<sense no="2">द्वन्द्व समास का एक प्रकार, जहाँ कि प्रत्येक अंग पृथक् रूप से देखा जाता हैविप० समाहार द्वन्द्व</sense>
+</segmenthd></lexhead>
+
+<lexhead no="26">
+<dentry>इतरतः</dentry>
+<prAwipaxikam>इतरतः</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<etymology>[इतर+तसिल्]</etymology>
+<sense no="1">अन्यथा, उससे भिन्न, अन्यत्र, दे*अन्यतः, अन्यत्र</sense>
+</lexhead>
+
+<lexhead no="27">
+<dentry>इतरत्र</dentry>
+<prAwipaxikam>इतरत्र</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<etymology>[इतर+त्रल्]</etymology>
+<sense no="1">अन्यथा, उससे भिन्न, अन्यत्र, दे*अन्यतः, अन्यत्र</sense>
+</lexhead>
+
+<lexhead no="28">
+<dentry>इतरतथा</dentry>
+<prAwipaxikam>इतरतथा</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<etymology>[इतर+थाल्]</etymology>
+<sense no="1">अन्य रीति से, और ढंग से</sense>
+<sense n="2">प्रतिकूल रीति से</sense>
+<sense n="3">दूसरी ओर</sense>
+</lexhead>
+
+<lexhead no="29">
+<dentry>इतरेद्युः</dentry>
+<prAwipaxikam>इतरेद्युः</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<etymology>[इतर+एद्युस्]</etymology>
+<sense no="1">अन्य दिन, दूसरे दिन</sense>
+</lexhead>
+
+<lexhead no="30">
+<dentry>इतस्</dentry>
+<prAwipaxikam>इतस्</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<etymology>[इदम्+तसिल्]</etymology>
+<sense no="1">अतः, यहाँ से, इधर से</sense>
+<sense n="2">इस व्यक्ति से, मुझ सेइतः स दैत्यः प्राप्तश्रीर्नेत एवार्हति क्षयम्<citation>कु*२।२५</citation></sense>
+<sense n="3">इस दिशा में, मेरी ओर, यहाँइतो निषीदेति विसृष्टभूमिः<citation>कु*३।२</citation>प्रयुक्तमप्यस्त्रमितो वृथा स्यात्<citation>रघु*२।३४</citation>इत इतो देवः- इधर इस ओर महाराज!नाटकों में</sense>
+<sense n="4">इस लोक से</sense>
+<sense n="5">इस समय से</sense>Hp	इतःइतः		AV	अव्य*	इदम्-तसिल्	एक ओर, दूसरी ओर या एक स्थान में, दूसरे स्थान पर, यहाँ-वहाँ				--- at else part</lexhead>
+<lexhead no="31">
+<dentry>इति</dentry>
+<prAwipaxikam>इति</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<etymology>[इ+क्तिन्]</etymology>
+<jAwi>क्रिया</jAwi>
+<jAwi>मानसिकभावः</jAwi>
+<jAwi>क्रिया</jAwi>
+<upAXi>कारणम्</upAXi>
+<sense no="1">यह अव्यय प्रायः किसी के द्वारा बोले गये, या बोले समझे गये शब्दों को वैसा का वैसा ही रख देने के लिए प्रयुक्त किया जाता है जिसको कि हम अंग्रेजी में अवतरणांश चिन्हों द्वारा प्रकट करते है, इस प्रकार कही गई बात हो सकती है</sense>
+<sense n="2">एक अकेला शब्द के स्वरूप में दर्शाने के लिए प्रयुक्त किया गया हो (शब्दस्वरूपद्योतक)राम रामेति रामेति कूजन्तं मधुराक्षरं<citation>रामा*</citation>अतएवगवित्याह<citation>भर्तृ*</citation></sense>
+<sense n="3">कोई प्रातिपदिक जो कि अपने अर्थों को संकेतित करने केलिए कर्तृकारक में प्रयुक्त होता है (प्रातिपादिकार्थद्योतक)चयस्त्विषामित्यवधारितं पुरा……क्रमादमुं नारद इत्यबोधि सः<citation>शि*१।३</citation>अवैमि चैनामनघेति<citation>रघु*१४।४०</citation>दिलीप इति राजेन्दुः<citation>रघु*१।१२</citation></sense>
+<sense n="4">पूरा वाक्य जब कि ’इति’ शब्द वाक्य के केवल अन्त में ही प्रयुक्त किया जाता है(वाक्यार्थद्योतक)ज्ञास्यसि कियद्भुजो मे रक्षति मौर्वीकिणाङ्क इति<citation>शि* १।१३</citation></sense>
+<sense n="5">क्योंकि’, ’यतः’ कारण यह कि आदि शब्दों से व्यक्तीकरणवैदेशिकोऽस्मीति पृच्छामि<citation>उत्तर*१</citation>पुराणमित्येवन साधु सर्वम्<citation>मालवि*१।२ प्रायः ’किम्’ के साथइस सामान्य अर्थ के अतिरिक्त ’इति’ के निम्नांकित अर्थ है</citation></sense>
+<sense n="6">अभिप्राय या प्रयोजन<citation>रघु*१।३७</citation></sense>
+<sense n="7">उपसंहार द्योतकविप० ’अथ’, इति प्रथमोऽङ्कः-यहाँ प्रथम अंक का उपसंहार होता है</sense>
+<sense n="8">अतः, इस प्रकार, इस रीति से इत्युक्तवन्तं परिरभ्य दोर्भ्याम्<citation>कि* ११।८०</citation></sense>
+<sense n="9">इस स्वभाव या विवरण वालागौरश्वः पुरुषो हस्तीतिजातिः</sense>
+<sense n="10">जैसा कि नीचे है, नीचे लिखे परिणामानुसाररामाभिधानो हरिरित्युवाच<citation>रघु*१३।१</citation></sense>
+<sense n="11">जहाँ तक…., की हैसियत से, के विषय में पितेति स पुज्यः, अध्यापक इति निन्द्यः, शीघ्रमिति सुकरम्, निभृतमिति चिन्तनीयं भवेत्<citation>श*३धारिता और संबंध प्रकट करते हुए</citation></sense>
+<sense n="12">निदर्शनइन्दुरिन्दुरिव श्रीमानित्यादौ तदनन्वयः<citation>चन्द्रा*</citation>गौः शुक्लश्चलो डित्थ इत्यादौ<citation>काव्य*२प्रायः ’आदि’ के साथ</citation></sense>
+<sense n="13">मानी हुई सम्मति या उद्धरणइति पाणिनीः, इत्यापिशलिः, इत्यमरः, विश्वः आदि</sense>
+<sense n="14">स्पष्टीकरण</sense>
+<segmenthd>
+<dentry>इत्यर्थः</dentry>
+<prAwipaxikam>इत्यर्थ</prAwipaxikam>
+<seg>इति-अर्थः</seg>
+<grammar>पुं*</grammar>
+<sense no="2">भावार्थ, सार</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इत्यर्थम्</dentry>
+<prAwipaxikam>इत्यर्थम्</prAwipaxikam>
+<seg>इति-अर्थम्</seg>
+<grammar>अव्य*</grammar>
+<sense no="1">इस प्रयोजन के लिए, अतः</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इतिकथा</dentry>
+<prAwipaxikam>इतिकथा</prAwipaxikam>
+<seg>इति-कथा</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">अर्थहीन या निरर्थक बात</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इतिकर्तव्य</dentry>
+<prAwipaxikam>इतिकर्तव्य</prAwipaxikam>
+<seg>इति-कर्तव्य</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">इतिकर्तव्य</prAwipaxikam>
+<sense no="1">नियमतः उचित या आवश्यक</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इतिकरणीय</dentry>
+<prAwipaxikam>इतिकरणीय</prAwipaxikam>
+<seg>इति-करणीय</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">इतिकरणीय</prAwipaxikam>
+<sense no="1">नियमतः उचित या आवश्यक</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इतिकर्तव्यम्</dentry>
+<prAwipaxikam>इतिकर्तव्य</prAwipaxikam>
+<seg>इति-कर्तव्यम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">कर्तव्य, दायित्व</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इतिकरणीयम्</dentry>
+<prAwipaxikam>इतिकरणीय</prAwipaxikam>
+<seg>इति-करणीयम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">कर्तव्य, दायित्व</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इतिकर्तव्यता</dentry>
+<prAwipaxikam>इतिकर्तव्यता</prAwipaxikam>
+<seg>इति-कर्तव्यता</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">कोई भी उचित या आवश्यक कार्य</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इतिकार्यता</dentry>
+<prAwipaxikam>इतिकार्यता</prAwipaxikam>
+<seg>इति-कार्यता</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">कोई भी उचित या आवश्यक कार्य</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इतिकृत्यता</dentry>
+<prAwipaxikam>इतिकृत्यता</prAwipaxikam>
+<seg>इति-कृत्यता</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">कोई भी उचित या आवश्यक कार्य</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इतिकर्तव्यतामूढः</dentry>
+<prAwipaxikam>इतिकर्तव्यतामूढ</prAwipaxikam>
+<seg>इति-कर्तव्यतामूढः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">किं कर्तव्य विमूढ, असमंजस में पड़ा हुआ, व्याकुल, हतबुद्धि</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इतिमात्र</dentry>
+<prAwipaxikam>इतिमात्र</prAwipaxikam>
+<seg>इति-मात्र</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">इतिमात्र</prAwipaxikam>
+<sense no="1">इतने विस्तार वाला, या ऐसे गुण का</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इतिवृत्तम्</dentry>
+<prAwipaxikam>इतिवृत्त</prAwipaxikam>
+<seg>इति-वृत्तम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">घटना, बात</sense>
+<sense no="2">कथा, कहानी</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="32">
+<dentry>इतिह</dentry>
+<prAwipaxikam>इतिह</prAwipaxikam>
+<grammar>अव्य*</grammar>
+?<etymology><vigraha_vAkya>इति एवं ह किल, द्व०स०</vigraha_vAkya></etymology>
+<jAwi>पौरुषेयम्</jAwi>
+<sense no="1">ठीक इस प्रकार, बिल्कुल परंपरा के अनुरूप</sense>
+</lexhead>
+
+<lexhead no="33">
+<dentry>इतिहासः</dentry>
+<prAwipaxikam>इतिहास</prAwipaxikam>
+<grammar>पुं*</grammar>
+?<etymology>[इति- ह-आस]</etymology>
+<kind_of>ग्रन्थम्</kind_of>
+<jAwi>पौरुषेयम्</jAwi>
+<sense no="1">इतिहास, धर्मार्थकाममोक्षाणामुपदेशसमन्वितम्, पूर्ववृत्तं कथायुक्तमितिहासं प्रचक्षते, परम्परा से प्राप्त उपाख्यान समूह</sense>
+<sense n="2">वीर गाथाजैसा कि महाभारत</sense>
+<sense n="3">ऐतिहासिक साक्ष्य, परंपराजिसको पौराणिक एक प्रमाण मानते हैं</sense>
+<segmenthd>
+<dentry>इतिहासनिबन्धनम्</dentry>
+<prAwipaxikam>इतिहासनिबन्धन</prAwipaxikam>
+<seg>इतिहासः-निबन्धनम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="2">उपाख्यानयुक्त या वर्णनात्मक रचना</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="34">
+<dentry>इत्थम्</dentry>
+<prAwipaxikam>इत्थम्</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<etymology>[इदम्+थमु]</etymology>
+<sense no="1">इस लिए, अतः, इस रीति से इत्थं रतेः किमपि भूतमदृश्यरूपम्<citation>कु* ४।४५</citation>इत्थं गते इन परिस्थितियों के कारण</sense>
+<segmenthd>
+<dentry>इत्थङ्कारम्</dentry>
+<prAwipaxikam>इत्थङ्कारम्</prAwipaxikam>
+<seg>इत्थम्-कारम्</seg>
+<grammar>अव्य*</grammar>
+<sense no="2">इस प्रकार</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इत्थम्भूत</dentry>
+<prAwipaxikam>इत्थम्भूत</prAwipaxikam>
+<seg>इत्थम्-भूत</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">इत्थम्भूत</prAwipaxikam>
+<sense no="1">इस प्रकार परिस्थितियों में फंसा हुआ, ऐसी दशा में ग्रस्त<citation>कु*६।२६</citation>कथमित्थंभूता<citation>मालवि*५</citation>का*१४६</sense>
+<sense no="2">सच्चा, यथातथ्य, सही जैसे कि कहानी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इत्थंविध</dentry>
+<prAwipaxikam>इत्थंविध</prAwipaxikam>
+<seg>इत्थम्-विध</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">इत्थंविध</prAwipaxikam>
+<sense no="1">इस प्रकार का</sense>
+<sense no="2">इस प्रकार के गुणों से युक्त</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="35">
+<dentry>इत्य</dentry>
+<prAwipaxikam>इत्य</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">इत्य</prAwipaxikam>
+<etymology>[इण्+क्यप्, तुक्]</etymology>
+<sense no="1">जिसके पास जाया जाय, जहाँ पहुँचना उपयुक्त हो, इत्यः शिष्येण गुरुवत्</sense>
+</lexhead>
+
+<lexhead no="36">
+<dentry>इत्या</dentry>
+<prAwipaxikam>इत्या</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">इत्या</prAwipaxikam>
+?<etymology>[इण्+क्यप्, तुक्]</etymology>
+<sense no="1">जाना, मार्ग</sense>
+<sense n="2">डोली, पालकी</sense>
+</lexhead>
+
+<lexhead no="37">
+<dentry>इत्वर</dentry>
+<prAwipaxikam>इत्वर</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">इत्वर</prAwipaxikam>
+<etymology>[इण्+क्वरप्, तुक्]</etymology>
+<sense no="1">जाने वाला, यात्रा करने वाला, यात्री, स्त्री* इत्वरी</sense>
+<sense n="2">क्रूर, कठोर</sense>
+<sense n="3">नीच, अधम</sense>
+<sense n="4">घृणित, निन्द्य</sense>
+<sense n="5">निर्धन</sense>
+</lexhead>
+
+<lexhead no="38">
+<dentry>इत्वरः</dentry>
+<prAwipaxikam>इत्वर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इण्+क्वरप्, तुक्]</etymology>
+<sense no="1">हिजड़ा</sense>
+</lexhead>
+
+<lexhead no="39">
+<dentry>इत्वरी</dentry>
+<prAwipaxikam>इत्वरी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[इण्+क्वरप्, तुक्]</etymology>
+<kind_of>स्त्री</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">व्यभिचारिणी, कुलटा</sense>
+<sense n="2">अभिसारिका</sense>
+</lexhead>
+
+<lexhead no="40">
+<dentry>इदम्</dentry>
+<prAwipaxikam>इदम्</prAwipaxikam>
+<grammar>सर्व* वि*</grammar>
+<etymology>[इन्द्+कमिन्]</etymology>
+<sense no="1">यह, जो यहाँ है, इदमस्तु सन्निकृष्टं रूपम्, इदं तत्……….इति यदुच्यते<citation>श*५</citation>पु* अयम्, स्त्री* इयम्, नपुं* इदम्, वक्ता के निकट की वस्तु की ओर संकेत करते हुए, यह है कथन की सत्यता</sense>
+<sense n="2">उपस्थित, वर्तमानयहाँ’ की भावना को प्रकट करने के लिए कर्तृकारक के रूप प्रयुक्त किये जाते हैं - इयमस्मि- यह रही मैं, इसी प्रकार, इमे स्मः, अयमागच्छामि- यह मैं आता हूँ</sense>
+<sense n="3">यह शब्द तुरन्त ही बाद में आने वाली वस्तु की ओर संकेत करता है जब कि ’एतद्’ शब्द पूर्ववर्ती वस्तु की ओरअनुकल्पस्त्वयं ज्ञेयः सदा सद्भिरनुष्ठितः<citation>मनु*३।१४७</citation>अयम्= वक्ष्यमाण<citation>कुल्लू* श्रुत्वैतदिदमूचुः</citation></sense>
+<sense n="4">किसी वस्तु को अधिक स्पष्टतया या बलपूर्वक बतलाने या कई बार शब्दाधिक्य प्रकट करने के लिए यह शब्द यत्, तत्, एतद्, अदस्, किम्, अथवा किसी पुरुष वाचक सर्वनाम के साथ जुड़कर प्रयुक्त होता हैकोऽयमाचरत्यविनयम्<citation>श*१।२५</citation>सेयम्, सोऽयम्, अयमहं भो<citation>श*४ यह यहाँ</citation>अरे यहाँ तो मैं हूँ</sense>
+</lexhead>
+
+<lexhead no="41">
+<dentry>इदानीम्</dentry>
+<prAwipaxikam>इदानीम्</prAwipaxikam>
+<grammar>अव्य*</grammar>
+?<etymology>[इदम्+दानीम्, इश् च]</etymology>
+<kind_of>समयः</kind_of>
+<jAwi>कालः</jAwi>
+<sense no="1">अब, इस समय, इस विषय में, अभी, अब भी, वत्से प्रतिष्ठस्वेदानीम्<citation>श*४</citation>आर्यपुत्र इदानीमसि<citation>उत्तर*३</citation></sense>
+<segmenthd>
+<dentry>इदानीमेव</dentry>
+<prAwipaxikam>इदानीमेव</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<sense no="2">अभी</sense></segmenthd>
+<segmenthd>
+<dentry>इदानीमपि</dentry>
+<prAwipaxikam>इदानीमपि</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<sense no="1">अब भी, इस विषय में भी</sense></segmenthd>
+</lexhead>
+
+<lexhead no="42">
+<dentry>इदानीन्तन</dentry>
+<prAwipaxikam>इदानीन्तन</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">इदानीन्तन</prAwipaxikam>
+<sense no="1">वर्तमान, क्षणिक, वर्तमान कालिक, स्त्री* नी</sense>
+</lexhead>
+
+<lexhead no="43">
+<dentry>इद्ध</dentry>
+<prAwipaxikam>इद्ध</prAwipaxikam>
+<grammar>भू* क* कृ*</grammar>
+<etymology>[इन्ध+क्त]</etymology>
+<sense no="1">जला हुआ, प्रकाशित</sense>
+</lexhead>
+
+<lexhead no="44">
+<dentry>इद्धम्</dentry>
+<prAwipaxikam>इद्धम्</prAwipaxikam>
+<grammar>भू* क* कृ*</grammar>
+<etymology>[इन्ध+क्त]</etymology>
+<sense no="1">धूप, गर्मी</sense>
+<sense n="2">दीप्ति चमक</sense>
+<sense n="3">आश्चर्य</sense>
+</lexhead>
+
+<lexhead no="45">
+<dentry>इध्मः</dentry>
+<prAwipaxikam>इध्म</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>इध्यतेऽग्निरनेन</vigraha_vAkya>[इन्ध+मक्]</etymology>
+<kind_of>काष्ठम्</kind_of>
+<jAwi>अचलनिर्जीववस्तु</jAwi>
+<sense no="1">इंधन, विशेषकर वह् जो यज्ञाग्नि में काम आता है<citation>रघु*१४।७०</citation></sense>
+</lexhead>
+
+<lexhead no="46">
+<dentry>इध्मम्</dentry>
+<prAwipaxikam>इध्म</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology><vigraha_vAkya>इध्यतेऽग्निरनेन</vigraha_vAkya>[इन्ध+मक्]</etymology>
+<kind_of>काष्ठम्</kind_of>
+<jAwi>अचलनिर्जीववस्तु</jAwi>
+<sense no="1">इंधन, विशेषकर वह् जो यज्ञाग्नि में काम आता है<citation>रघु*१४।७०</citation></sense>
+<segmenthd>
+<dentry>इध्मजिह्वः</dentry>
+<prAwipaxikam>इध्मजिह्व</prAwipaxikam>
+<seg>इध्मः-जिह्वः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">अग्नि</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इध्मप्रवश्चनः</dentry>
+<prAwipaxikam>इध्मप्रवश्चन</prAwipaxikam>
+<seg>इध्मः-प्रवश्चनः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">कुल्हाड़ी, कुठार (परशु)</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="47">
+<dentry>इध्या</dentry>
+<prAwipaxikam>इध्या</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[इन्ध्+क्यप्+टाप्]</etymology>
+<sense no="1">प्रज्वलन, प्रकाशन</sense>
+</lexhead>
+
+<lexhead no="48">
+<dentry>इन</dentry>
+<prAwipaxikam>इन</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">इन</prAwipaxikam>
+<etymology>[इण्+नक्]</etymology>
+<kind_of>मनुष्यः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<kind_of>अर्कादयः</kind_of>
+<jAwi>ग्रहः</jAwi>
+<upAXi>नाम</upAXi>
+<sense no="1">योग्य, शक्ति शाली, बलवान्</sense>
+<sense n="2">साहसी</sense>
+</lexhead>
+
+<lexhead no="49">
+<dentry>इनः</dentry>
+<prAwipaxikam>इन</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इण्+नक्]</etymology>
+<kind_of>मनुष्यः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<kind_of>अर्कादयः</kind_of>
+<jAwi>ग्रहः</jAwi>
+<upAXi>नाम</upAXi>
+<sense no="1">स्वामी</sense>
+<sense n="2">सूर्य<citation>शि*२।६५</citation></sense>
+<sense n="3">राजान न महीनमहीनपराक्रमम्<citation>रघु*९।५</citation></sense>
+</lexhead>
+
+<lexhead no="50">
+<dentry>इन्दिन्दिरः</dentry>
+<prAwipaxikam>इन्दिन्दिर</prAwipaxikam>
+<grammar>पुं*</grammar>
+?<etymology>[इन्द्+किरच् नि०]</etymology>
+<kind_of>मक्षिका</kind_of>
+<jAwi>कीटः</jAwi>
+<sense no="1">बड़ी मधु-मक्खी, लोभादिन्दिन्दिरेषु निपतत्सु<citation>भामि*२।१८३</citation></sense>
+</lexhead>
+
+<lexhead no="51">
+<dentry>इन्दिरा</dentry>
+<prAwipaxikam>इन्दिरा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[इन्द्+किरच् ]</etymology>
+<jAwi>देवता</jAwi>
+<sense no="1">लक्ष्मी, विष्णु की पत्नी</sense>
+<segmenthd>
+<dentry>इन्दिरालयम्</dentry>
+<prAwipaxikam>इन्दिरालय</prAwipaxikam>
+<seg>इन्दिरा-आलयम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">इन्दिरा का आवास, नील कमल</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्दिरामन्दिरः</dentry>
+<prAwipaxikam>इन्दिरामन्दिर</prAwipaxikam>
+<seg>इन्दिरा-मन्दिरः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">विष्णु का विशेषण</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्दिरामन्दिरम्</dentry>
+<prAwipaxikam>इन्दिरामन्दिर</prAwipaxikam>
+<seg>इन्दिरा-मन्दिरम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">नील कमल</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="52">
+<dentry>इन्दीवरिणी</dentry>
+<prAwipaxikam>इन्दीवरिणी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[इन्दीवर+इनि+ङीप्]</etymology>
+<sense no="1">नील कमलों का समूह</sense>
+</lexhead>
+
+<lexhead no="53">
+<dentry>इन्दीवारः</dentry>
+<prAwipaxikam>इन्दीवार</prAwipaxikam>
+<grammar>पुं*</grammar>
+?<etymology><vigraha_vAkya>इन्द्याः वारो वरणम् अत्र, ब०स०</vigraha_vAkya></etymology>
+<sense no="1">नील कमल</sense>
+</lexhead>
+
+<lexhead no="54">
+<dentry>इन्दुः</dentry>
+<prAwipaxikam>इन्दु</prAwipaxikam>
+<grammar>पुं*</grammar>
+?<etymology>[उनत्ति क्लेदयति चन्द्रिकया भुवनम्, उन्द्-उ आदेरिच्च]</etymology>
+<kind_of>अर्कादयः</kind_of>
+<jAwi>ग्रहः</jAwi>
+<sense no="1">चन्द्रमा, दिलीप इति राजेन्दुरिन्दुः क्षीरनिधाविव<citation>रघु*१।१२</citation></sense>
+<sense n="2">(गणित में) ’एक’ की संख्या</sense>
+<sense n="3">कपूर</sense>
+<segmenthd>
+<dentry>इन्दुकमलम्</dentry>
+<prAwipaxikam>इन्दुकमल</prAwipaxikam>
+<seg>इन्दुः-कमलम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">सफेद कमल</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्दुकला</dentry>
+<prAwipaxikam>इन्दुकला</prAwipaxikam>
+<seg>इन्दुः-कला</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">चन्द्रमा की कला या अंशयह कलाएं गिनती में १६ हैं, पौराणिक कथाओं के आधार पर इनमें से प्रत्येक कला क्रमशः१६ देवताओं के द्वारा निगली जाती है</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्दुकलिका</dentry>
+<prAwipaxikam>इन्दुकलिका</prAwipaxikam>
+<seg>इन्दुः-कलिका</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">केतकी का पौधा</sense>
+<sense no="2">चन्द्रमा की एक कला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्दुकान्तः</dentry>
+<prAwipaxikam>इन्दुकान्त</prAwipaxikam>
+<seg>इन्दुः-कान्तः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">चन्द्रकान्तमणि</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्दुकान्ता</dentry>
+<prAwipaxikam>इन्दुकान्ता</prAwipaxikam>
+<seg>इन्दुः-कान्ता</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">रात</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्दुक्षयः</dentry>
+<prAwipaxikam>इन्दुक्षय</prAwipaxikam>
+<seg>इन्दुः-क्षयः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">चन्द्रमा का प्रतिदिन घटना</sense>
+<sense no="2">नूतन चन्द्र दिवस, प्रतिपदा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्दुजः</dentry>
+<prAwipaxikam>इन्दुज</prAwipaxikam>
+<seg>इन्दुः-जः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">बुधग्रह</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्दुपुत्रः</dentry>
+<prAwipaxikam>इन्दुपुत्र</prAwipaxikam>
+<seg>इन्दुः-पुत्रः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">बुधग्रह</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्दुजा</dentry>
+<prAwipaxikam>इन्दुजा</prAwipaxikam>
+<seg>इन्दुः-जा</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">रेवा या नर्मदा नदी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्दुजनकः</dentry>
+<prAwipaxikam>इन्दुजनक</prAwipaxikam>
+<seg>इन्दुः-जनकः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">समुद्र</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्दुदलः</dentry>
+<prAwipaxikam>इन्दुदल</prAwipaxikam>
+<seg>इन्दुः-दलः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">चन्द्रमा की कला, अर्धचन्द्र</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्दुभा</dentry>
+<prAwipaxikam>इन्दुभा</prAwipaxikam>
+<seg>इन्दुः-भा</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">कुमुदिनी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्दुभृत्</dentry>
+<prAwipaxikam>इन्दुभृत्</prAwipaxikam>
+<seg>इन्दुः-भृत्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">मस्तक पर चन्द्र को धारण करने वाला देवता, शिव</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्दुशेखरः</dentry>
+<prAwipaxikam>इन्दुशेखर</prAwipaxikam>
+<seg>इन्दुः-शेखरः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">मस्तक पर चन्द्र को धारण करने वाला देवता, शिव</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्दुमौलिः</dentry>
+<prAwipaxikam>इन्दुमौलि</prAwipaxikam>
+<seg>इन्दुः-मौलिः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">मस्तक पर चन्द्र को धारण करने वाला देवता, शिव</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्दुमणिः</dentry>
+<prAwipaxikam>इन्दुमणि</prAwipaxikam>
+<seg>इन्दुः-मणिः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">चन्द्रकान्तमणि</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्दुमण्डलम्</dentry>
+<prAwipaxikam>इन्दुमण्डल</prAwipaxikam>
+<seg>इन्दुः-मण्डलम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">चन्द्रमा का परिवेश, चन्द्र मण्डल</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्दुरत्नम्</dentry>
+<prAwipaxikam>इन्दुरत्न</prAwipaxikam>
+<seg>इन्दुः-रत्नम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">मोती</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्दुलेखा</dentry>
+<prAwipaxikam>इन्दुलेखा</prAwipaxikam>
+<seg>इन्दुः-लेखा</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">चन्द्रमा की कला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्दुरेखा</dentry>
+<prAwipaxikam>इन्दुरेखा</prAwipaxikam>
+<seg>इन्दुः-रेखा</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">चन्द्रमा की कला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्दुलोहकम्</dentry>
+<prAwipaxikam>इन्दुलोहक</prAwipaxikam>
+<seg>इन्दुः-लोहकम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">चाँदी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्दुलौहम्</dentry>
+<prAwipaxikam>इन्दुलौह</prAwipaxikam>
+<seg>इन्दुः-लौहम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">चाँदी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्दुवदना</dentry>
+<prAwipaxikam>इन्दुवदना</prAwipaxikam>
+<seg>इन्दुः-वदना</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">छन्द का नामदे* परिशिष्ट</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्दुवासरः</dentry>
+<prAwipaxikam>इन्दुवासर</prAwipaxikam>
+<seg>इन्दुः-वासरः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">सोमवार</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="55">
+<dentry>इन्दुमती</dentry>
+<prAwipaxikam>इन्दुमती</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[इन्दु+मतुप्+ङीप्]</etymology>
+<sense no="1">पूर्णिमा</sense>
+<sense n="2">अज’ की पत्नी, ’भोज’ की बहन</sense>
+</lexhead>
+
+<lexhead no="56">
+<dentry>इन्दूरः</dentry>
+<prAwipaxikam>इन्दूर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इन्दु+र,पृषो* ऊत्वम्]</etymology>
+<sense no="1">चूहा, मूसा</sense>
+</lexhead>
+
+<lexhead no="57">
+<dentry>इन्द्रः</dentry>
+<prAwipaxikam>इन्द्र</prAwipaxikam>
+<grammar>पुं*</grammar>
+?<etymology>[इन्द्-रन्, इन्दतीति इन्द्रः, इति ऐश्वर्ये<citation>मल्लि*]</citation></etymology>
+<kind_of>देवः</kind_of>
+<jAwi>देवता</jAwi>
+<kind_of>देवः</kind_of>
+<jAwi>देवता</jAwi>
+<sense no="1">देवों का स्वामी, अन्तरिक्ष का देवता इन्द्र भारतीय आर्यों का वृष्टि-देवता है, वेदों में प्रथम श्रेणी के देवताओं में इनका वर्णन मिलता है, परन्तु पुराणों की दृष्टि से यह द्वितीय श्रेणी के देवता मानें जाते हैं।यह कश्यप और अदिति के एक पुत्र हैं। ब्रह्मा, विष्णु और महेश के त्रिक से यह निम्नतर है, परन्तु यह और दूसरे देवताओं में प्रमुख हैं और सामान्यतः इन्हें सुरेश या देवेन्द्र आदि नामों से पुकारा जाता है। जैसा कि वेदों में वर्णित है उसी प्रकार पुराणों में भी यह अन्तरिक्ष तथा पूर्व दिशा के अधिष्ठातृ देवता माने जाते हैं, इनका लोक स्वर्ग लोक कहलाता है। यह वज्र धारण करते हैं, बिजली को भेजते हैं और वर्षा करते हैं, यह असुरों के साथ प्रायः युद्ध में लगे रहते हैं और उनको भयभीत करते रहते हैं, परन्तु कई बार उनसे परास्त भी हो जाते हैं। पुराणों में वर्णित इन्द्र कामुकता और व्यभिचार के लिए प्रख्यात हैं, इसका सबसे बड़ा उदाहरण उनके द्वारा गौतम की पत्नी अहल्या का सतीत्वहरण है जिसके कारण इन्द्र अहल्या-जार कहलाता है। गौतम ऋषि के शाप से इन्द्र के शरीर पर स्त्री-योनि जैसे हजार चिह्न बन जाते हैं इसीलिए उसे सयोनि कहते हैं, परन्तु बाद में यह चिह्न ’आँख’ के रूप में बदल जाते हैं इसलिए यह सहस्रनेत्र, सहस्रयोनि या सहस्राक्ष कहलाने लगते हैं। रामायण में वर्णन आता है कि रावण के पुत्र मेघनाद ने इन्द्र को परास्त कर दिया तथा वह उसे उठा कर लंका में ले गया, इसी साहसिक कार्य करने के उपलक्ष में मेघनाद को ’इन्द्रजित्’ की उपाधि मिली। ब्रह्मा तथा दूसरे देवताओं के बीच में पड़ने पर कहीं इन्द्र का छुटकारा हुआ।इन्द्र के विषय में बहुधा वर्णन मिलता है कि वह सदैव राजाओं को १०० यज्ञ पूरा करने से रोकता रहता है, क्योंकि यह विश्वास किया जाता है कि जो कोई १०० यज्ञ पूरा कर लेगा, वही इन्द्र का पद प्राप्त कर लेगा, यही कारण है कि वह सगर और रघु के यज्ञीय घोड़ों को उठा कर ले गया, दे* रघु* तृतीय सर्ग। यह सदैव घोर तपश्चर्या करने वाले ऋषि-मुनियों से भयभीत रहता है और अप्सराएं भेज कर उनके मार्ग में विघ्न डालने का प्रयत्न करता है दे* अप्सरस्। कहा जाता है कि उसने पर्वत के पंख काट डाले जब कि वह कष्ट देने लगे थे।उसी समय उसने बल तथा वृत्र की हत्या कर दी। इनकी पत्नी पुलोमा राक्षस की पुत्री है, इनके पुत्र का नाम जयन्त है। यह अर्जुन के पिता भी कहे जाते हैं</sense>
+<sense n="2">वर्षा का देवता, वृष्टि</sense>
+<sense n="3">स्वामी या शासक (मनुष्यादिक का), प्रथम, श्रेष्ठ (पदार्थों के किसी वर्ग में)सदैव समास के अन्तिम पद के रूपमें नरेन्द्रः= मनुष्यों का स्वामी अर्थात् राजा इसी प्रकार मृगेन्द्रः= शेर, गजेन्द्रः, योगीन्द्रः, कपीन्द्रः;</sense>
+</lexhead>
+
+<lexhead no="58">
+<dentry>इन्द्रा</dentry>
+<prAwipaxikam>इन्द्रा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<sense no="1">इन्द्र की पत्नी, इन्द्राणी</sense>
+<segmenthd>
+<dentry>इन्द्रानुजः</dentry>
+<prAwipaxikam>इन्द्रानुज</prAwipaxikam>
+<seg>इन्द्रः-अनुजः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">विष्णु और नारायण की उपाधि</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रावरजः</dentry>
+<prAwipaxikam>इन्द्रावरज</prAwipaxikam>
+<seg>इन्द्रः-अवरजः</seg>
+<grammar>पुं*</grammar>
+<kind_of>देवः</kind_of>
+<jAwi>ईश्वरः</jAwi>
+<sense no="1">विष्णु और नारायण की उपाधि</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रारिः</dentry>
+<prAwipaxikam>इन्द्रारि</prAwipaxikam>
+<seg>इन्द्रः-अरिः</seg>
+<grammar>पुं*</grammar>
+<jAwi>देवयोनिः</jAwi>
+<sense no="1">एक राक्षस</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रायुधम्</dentry>
+<prAwipaxikam>इन्द्रायुध</prAwipaxikam>
+<seg>इन्द्रः-आयुधम्</seg>
+<grammar>नपुं*</grammar>
+<jAwi>तेजः</jAwi>
+<sense no="1">इन्द्र का शस्त्र, इन्द्रधनुष<citation>रघु*७।४</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रकीलः</dentry>
+<prAwipaxikam>इन्द्रकील</prAwipaxikam>
+<seg>इन्द्रः-कीलः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">मंदर’ पर्वत का नाम</sense>
+<sense no="2">चट्टान</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रकीलम्</dentry>
+<prAwipaxikam>इन्द्रकील</prAwipaxikam>
+<seg>इन्द्रः-कीलम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">इन्द्र की ध्वजा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रकुञ्जरः</dentry>
+<prAwipaxikam>इन्द्रकुञ्जर</prAwipaxikam>
+<seg>इन्द्रः-कुञ्जरः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">इन्द्र का हाथी ऐरावत</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रकूटः</dentry>
+<prAwipaxikam>इन्द्रकूट</prAwipaxikam>
+<seg>इन्द्रः-कूटः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">एक पर्वत का नाम</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रकोशः</dentry>
+<prAwipaxikam>इन्द्रकोश</prAwipaxikam>
+<seg>इन्द्रः-कोशः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">कोच, सोफा</sense>
+<sense no="2">प्लैटफार्म या समतल बना चबूतरा</sense>
+<sense no="3">खूँटी या ब्रैकेट जो दीवार के साथ लगा हो</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रकोषः</dentry>
+<prAwipaxikam>इन्द्रकोष</prAwipaxikam>
+<seg>इन्द्रः-कोषः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">कोच, सोफा</sense>
+<sense no="2">प्लैटफार्म या समतल बना चबूतरा</sense>
+<sense no="3">खूँटी या ब्रैकेट जो दीवार के साथ लगा हो</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रकोषकः</dentry>
+<prAwipaxikam>इन्द्रकोषक</prAwipaxikam>
+<seg>इन्द्रः-कोषकः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">कोच, सोफा</sense>
+<sense no="2">प्लैटफार्म या समतल बना चबूतरा</sense>
+<sense no="3">खूँटी या ब्रैकेट जो दीवार के साथ लगा हो</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रगिरिः</dentry>
+<prAwipaxikam>इन्द्रगिरि</prAwipaxikam>
+<seg>इन्द्रः-गिरिः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">महेन्द्र पर्वत</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रगुरुः</dentry>
+<prAwipaxikam>इन्द्रगुरु</prAwipaxikam>
+<seg>इन्द्रः-गुरुः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">इन्द्र का अध्यापक, अर्थात् बृहस्पति</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्राचार्यः</dentry>
+<prAwipaxikam>इन्द्राचार्य</prAwipaxikam>
+<seg>इन्द्रः-आचार्यः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">इन्द्र का अध्यापक, अर्थात् बृहस्पति</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रगोपः</dentry>
+<prAwipaxikam>इन्द्रगोप</prAwipaxikam>
+<seg>इन्द्रः-गोपः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">एक प्रकार का कीड़ा जो सफेद या लाल रंग का होता है</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रगोपकः</dentry>
+<prAwipaxikam>इन्द्रगोपक</prAwipaxikam>
+<seg>इन्द्रः-गोपकः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">एक प्रकार का कीड़ा जो सफेद या लाल रंग का होता है</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रचापम्</dentry>
+<prAwipaxikam>इन्द्रचाप</prAwipaxikam>
+<seg>इन्द्रः-चापम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">इन्द्रधनुष</sense>
+<sense no="2">इन्द्र की कमान</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रधनुस्</dentry>
+<prAwipaxikam>इन्द्रधनुस्</prAwipaxikam>
+<seg>इन्द्रः-धनुस्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">इन्द्रधनुष</sense>
+<sense no="2">इन्द्र की कमान</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रजालम्</dentry>
+<prAwipaxikam>इन्द्रजाल</prAwipaxikam>
+<seg>इन्द्रः-जालम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">एक शस्त्र जिसे अर्जुन ने प्रयुक्त किया था, युद्ध का दाँव-पेंच</sense>
+<sense no="2">जादूगरी, बाजीगरीस्वप्नेन्द्रजालसदृशः खलु जीवलोकः<citation>शा*२।२</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रजालिक</dentry>
+<prAwipaxikam>इन्द्रजालिक</prAwipaxikam>
+<seg>इन्द्रः-जालिक</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">इन्द्रजालिक</prAwipaxikam>
+<sense no="1">छद्मपूर्ण, अवास्तविक, भ्रमात्मक</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रजालिकः</dentry>
+<prAwipaxikam>इन्द्रजालिक</prAwipaxikam>
+<seg>इन्द्रः-जालिकः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">जादूगर, बाजीगर</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रजित्</dentry>
+<prAwipaxikam>इन्द्रजित्</prAwipaxikam>
+<seg>इन्द्रः-जित्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">इन्द्र को जीतने वाला</sense>
+<sense no="2">रावण का पुत्र जो लक्ष्मण के द्वारा मारा गयारावण के पुत्र मेघनाद का दूसरा नाम ’इन्द्रजित्’ है। जब रावण ने स्वर्ग में जाकर इन्द्र से युद्ध किया तो मेघनाद उसके साथ था - वह बड़ी बहादुरी के साथ लड़ा। ’शिव’ से अदृश्य होने की शक्ति प्राप्त कर लेने के कारण मेघनाद ने अपनी इस जादू की शक्ति का उपयोग किया, फलतः इन्द्र को बांध कर वह उसे लंका में उठा लाया। ब्रह्मा तथा अन्य देवता उसे मुक्त कराने केलिए आये और उन्होंने मेघनाद को ’इन्द्रजित्’ की उपाधि दी, परन्तु मेघनाद इन्द्र को मुक्त करने के लिए राजी न हुआ जब तक कि उसे अमरता का वरदान न दिया जाय। ब्रह्मा ने उसकी इस अनुचित माँग को मानने से इंकार कर दिया, परन्तु मेघनाद अपनी मांग का निरन्तर आग्रह करता रहा और अन्त में अपना अभीष्ट प्राप्त कर लिया। रामायण में लक्ष्मण द्वारा मेघनाद का सिर काटे जाने का वर्णन है जब कि वह यज्ञ कर रहा था</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रजिद्धन्तृ</dentry>
+<prAwipaxikam>इन्द्रजिद्धन्तृ</prAwipaxikam>
+<seg>इन्द्रः-जित्-हन्तृ</seg>
+<grammar>पुं*</grammar>
+<sense no="1">लक्ष्मण</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रजिद्विजयिन्</dentry>
+<prAwipaxikam>इन्द्रजिद्विजयिन्</prAwipaxikam>
+<seg>इन्द्रः-जित्-विजयिन्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">लक्ष्मण</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रतूलम्</dentry>
+<prAwipaxikam>इन्द्रतूल</prAwipaxikam>
+<seg>इन्द्रः-तूलम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">रूई का गद्दा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रतूलकम्</dentry>
+<prAwipaxikam>इन्द्रतूलक</prAwipaxikam>
+<seg>इन्द्रः-तूलकम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">रूई का गद्दा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रदारुः</dentry>
+<prAwipaxikam>इन्द्रदारु</prAwipaxikam>
+<seg>इन्द्रः-दारुः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">देवदारु का वृक्ष</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रनीलः</dentry>
+<prAwipaxikam>इन्द्रनील</prAwipaxikam>
+<seg>इन्द्रः-नीलः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">नीलकान्तमणि</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रनीलकः</dentry>
+<prAwipaxikam>इन्द्रनीलक</prAwipaxikam>
+<seg>इन्द्रः-नीलकः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">पन्ना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रपत्नी</dentry>
+<prAwipaxikam>इन्द्रपत्नी</prAwipaxikam>
+<seg>इन्द्रः-पत्नी</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">इन्द्र की पत्नी शची</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रपुरोहितः</dentry>
+<prAwipaxikam>इन्द्रपुरोहित</prAwipaxikam>
+<seg>इन्द्रः-पुरोहितः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">बृहस्पति</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रप्रस्थम्</dentry>
+<prAwipaxikam>इन्द्रप्रस्थ</prAwipaxikam>
+<seg>इन्द्रः-प्रस्थम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">यमुना के किनारे स्थित एक नगर जहाँ पांडव रहते थेइन्द्रप्रस्थगमस्तावत्कारि मा सन्तु चेदयः<citation>शि*२।६३यही नगर आक कल वर्तमान दिल्ली है</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रप्रहरणम्</dentry>
+<prAwipaxikam>इन्द्रप्रहरण</prAwipaxikam>
+<seg>इन्द्रः-प्रहरणम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">इन्द्र का शस्त्र, वज्र</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रभेषजम्</dentry>
+<prAwipaxikam>इन्द्रभेषज</prAwipaxikam>
+<seg>इन्द्रः-भेषजम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">सोंठ</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रमहः</dentry>
+<prAwipaxikam>इन्द्रमह</prAwipaxikam>
+<seg>इन्द्रः-महः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">इन्द्र के सम्मान में किया जाने वाला उत्सव</sense>
+<sense no="2">बरसात</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रलोकः</dentry>
+<prAwipaxikam>इन्द्रलोक</prAwipaxikam>
+<seg>इन्द्रः-लोकः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">इन्द्र का संसार, स्वर्गलोक</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रवंशा</dentry>
+<prAwipaxikam>इन्द्रवंशा</prAwipaxikam>
+<seg>इन्द्रः-वंशा</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">छन्द का नाम</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रवज्रा</dentry>
+<prAwipaxikam>इन्द्रवज्रा</prAwipaxikam>
+<seg>इन्द्रः-वज्रा</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">छन्द का नाम</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रशत्रुः</dentry>
+<prAwipaxikam>इन्द्रशत्रु</prAwipaxikam>
+<seg>इन्द्रः-शत्रुः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">इन्द्र का शत्रु या इन्द्र को मारने वाला, प्रह्लाद की उपाधि<citation>रघु*७।३५जब कि स्वराघात अन्तिम स्वर पर है</citation></sense>
+<sense no="2">इन्द्र जिसका शत्रु है, वृत्र का विशेषणजब कि स्वराघात प्रथम स्वर पर है, यह घटना शतपथ ब्राह्मण के एक उपाख्यान की ओर संकेत करती है, यहाँ बतलाया गया है कि वृत्र के पिता ने अपने पुत्र को इन्द्र के मारने वाला बनाने का विचार किया और उसे इन्द्रशत्रुर्वधस्व बोलने को कहा, परन्तु भूल से उसने प्रथम स्वर पर बलाघात किया और इन्द्र के द्वारा मारा गया-तु०<citation>शिक्षा*५२ मन्त्रो हीनः स्वरतो वर्णतो वा मिथ्याप्रयुक्तो न तमर्थमाह</citation>स वाग्वज्रो यजमानं हिनस्ति यथेन्द्रशत्रुः स्वरतोपराधात्।</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रशलभः</dentry>
+<prAwipaxikam>इन्द्रशलभ</prAwipaxikam>
+<seg>इन्द्रः-शलभः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">एक प्रकार का कीड़ा, वीरवहूटी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रसुतः</dentry>
+<prAwipaxikam>इन्द्रसुत</prAwipaxikam>
+<seg>इन्द्रः-सुतः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">जयन्त का नाम</sense>
+<sense no="2">अर्जुन का नाम</sense>
+<sense no="3">वानरराज वालि का नाम</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रसूनुः</dentry>
+<prAwipaxikam>इन्द्रसूनु</prAwipaxikam>
+<seg>इन्द्रः-सूनुः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">जयन्त का नाम</sense>
+<sense no="2">अर्जुन का नाम</sense>
+<sense no="3">वानरराज वालि का नाम</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रसेनानीः</dentry>
+<prAwipaxikam>इन्द्रसेनानी</prAwipaxikam>
+<seg>इन्द्रः-सेनानीः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">इन्द्र की सेनाओं का नेता, कार्तिकेय की उपाधि</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="59">
+<dentry>इन्द्रकम्</dentry>
+<prAwipaxikam>इन्द्रक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+?<etymology>[इन्द्रस्य राज्ञः कं सुखं यत्र - तारा०]</etymology>
+<sense no="1">सभा भवन, बड़ा कमरा</sense>
+</lexhead>
+
+<lexhead no="60">
+<dentry>इन्द्राणी</dentry>
+<prAwipaxikam>इन्द्राणी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology><vigraha_vAkya>इन्द्रस्य पत्नी</vigraha_vAkya>[इन्द्र+आनुक्+ङीष्]</etymology>
+<jAwi>अलौकिकचेतनः</jAwi>
+<jAwi>देवता</jAwi>
+<sense no="1">इन्द्र की पत्नी, शची</sense>
+</lexhead>
+
+<lexhead no="61">
+<dentry>इन्द्रियम्</dentry>
+<prAwipaxikam>इन्द्रिय</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[इन्द्र+घ+इय]</etymology>
+<is_a_part>देहः</is_a_part>
+<jAwi>अचलसजीववस्तु</jAwi>
+<is_a_part>देहः</is_a_part>
+<kind_of>इन्द्रियम्</kind_of>
+<upAXi>इन्द्रियम्</upAXi>
+<sense no="1">बल, शक्ति, वह गण जो इन्द्र में विद्यमान था</sense>
+<sense n="2">शरीर के वह अवयव जिनके द्वारा ज्ञान प्राप्त किया जाता हैएसे अवयव इन्द्रियां दो प्रकार के हैं - क ज्ञानेन्द्रियाँ या बुद्धीन्द्रियाँ - श्रोत्रं त्वक्चक्षुषी जिह्वा नासिका चैव पञ्चमी कुछ के अनुसार ’मन’ भी ख कर्मेन्द्रियाँ - पायूपस्थं हस्तपादं वाक् चैव दशमी स्मृता<citation>मनु*२।९९</citation></sense>
+<sense n="3">शारीरिक या पुरुषोचित शक्ति, ज्ञानशक्ति</sense>
+<sense n="4">वीर्य</sense>
+<sense n="5">पांच की संख्या के लिए प्रतीकात्मक अभिव्यक्ति</sense>
+<segmenthd>
+<dentry>इन्द्रियागोचर</dentry>
+<prAwipaxikam>इन्द्रियागोचर</prAwipaxikam>
+<seg>इन्द्रियम्-अगोचर</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">इन्द्रियागोचर</prAwipaxikam>
+<sense no="1">जो दिखलाई न दे सके</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रियार्थः</dentry>
+<prAwipaxikam>इन्द्रियार्थ</prAwipaxikam>
+<seg>इन्द्रियम्-अर्थः</seg>
+<grammar>पुं*</grammar>
+<jAwi>पदार्थः</jAwi>
+<sense no="1">इन्द्रियों के विषय<citation>भग*३।३४</citation><citation>रघु*१४।२५वह विषय ये हैं - रूपं शब्दो गन्धरसस्पर्शाश्च विषया अमी</citation><citation>अमर*</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रियायतनम्</dentry>
+<prAwipaxikam>इन्द्रियायतन</prAwipaxikam>
+<seg>इन्द्रियम्-आयतनम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">इन्द्रियों का आवास अर्थात् शरीर</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रियगोचर</dentry>
+<prAwipaxikam>इन्द्रियगोचर</prAwipaxikam>
+<seg>इन्द्रियम्-गोचर</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">इन्द्रियगोचर</prAwipaxikam>
+<sense no="1">जो इन्द्रियों द्वारा देखा या जाना जा सके</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रियगोचरः</dentry>
+<prAwipaxikam>इन्द्रियगोचर</prAwipaxikam>
+<seg>इन्द्रियम्-गोचरः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">ज्ञान का विषय</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रियग्रामः</dentry>
+<prAwipaxikam>इन्द्रियग्राम</prAwipaxikam>
+<seg>इन्द्रियम्-ग्रामः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">इन्द्रियों का समूह, समष्टि रूप से ग्रहण की गई पाँच ज्ञानेन्द्रियाँबलवानिन्द्रियग्रामो विद्वांसमपि कर्षति<citation>मनु*२।२१५</citation>निर्ववार मधुनीन्द्रियवर्गः<citation>शि* १०।३</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रियवर्गः</dentry>
+<prAwipaxikam>इन्द्रियवर्ग</prAwipaxikam>
+<seg>इन्द्रियम्-वर्गः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">इन्द्रियों का समूह, समष्टि रूप से ग्रहण की गई पाँच ज्ञानेन्द्रियाँबलवानिन्द्रियग्रामो विद्वांसमपि कर्षति<citation>मनु*२।२१५</citation>निर्ववार मधुनीन्द्रियवर्गः<citation>शि* १०।४</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रियज्ञानम्</dentry>
+<prAwipaxikam>इन्द्रियज्ञान</prAwipaxikam>
+<seg>इन्द्रियम्-ज्ञानम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">चेतना, प्रत्यक्ष करने की शक्ति</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रियनिग्रहः</dentry>
+<prAwipaxikam>इन्द्रियनिग्रह</prAwipaxikam>
+<seg>इन्द्रियम्-निग्रहः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">ज्ञानेन्द्रियों का नियन्त्रण</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रियवधः</dentry>
+<prAwipaxikam>इन्द्रियवध</prAwipaxikam>
+<seg>इन्द्रियम्-वधः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">अज्ञेयता</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रियविप्रतिपत्तिः</dentry>
+<prAwipaxikam>इन्द्रियविप्रतिपत्ति</prAwipaxikam>
+<seg>इन्द्रियम्-विप्रतिपत्तिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">इन्द्रियों का उन्मार्गगमन</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रियसन्निकर्षः</dentry>
+<prAwipaxikam>इन्द्रियसन्निकर्ष</prAwipaxikam>
+<seg>इन्द्रियम्-सन्निकर्षः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">ज्ञानेन्द्रिय का संपर्कचाहे वह बाह्य विषयों से हो या मन से</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इन्द्रियस्वापः</dentry>
+<prAwipaxikam>इन्द्रियस्वाप</prAwipaxikam>
+<seg>इन्द्रियम्-स्वापः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">अज्ञेयता, अचेतना, जड़िमा</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="62">
+<dentry>इन्ध्</dentry>
+<prAwipaxikam>इन्ध्</prAwipaxikam>
+<grammar>रु*<paxI>आ*</paxI><vform>इन्द्धे</vform>,<vform>इन्धे</vform>,<vform>इद्ध</vform></grammar>
+<sense no="1">प्रज्वलित करना, जलाना, आग लगाना</sense>
+<sense n="2">जलाया जाना, प्रदीप्त होना, लपटें उठना</sense>
+<segmenthd>
+<dentry>समिन्ध्</dentry>
+<prAwipaxikam>समिन्ध्</prAwipaxikam>
+<seg>सम्-इन्ध्</seg>
+<grammar>रु*<paxI>आ*</paxI></grammar>
+<sense no="1">प्रज्वलित करना</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="63">
+<dentry>इन्धः</dentry>
+<prAwipaxikam>इन्ध</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इन्ध्+घञ्]</etymology>
+<sense no="1">इंधन, लकड़ी कोयला आदि</sense>
+</lexhead>
+
+<lexhead no="64">
+<dentry>इन्धनम्</dentry>
+<prAwipaxikam>इन्धन</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[इन्ध्+ल्युट्]</etymology>
+<kind_of>काष्ठम्</kind_of>
+<jAwi>अचलनिर्जीववस्तु</jAwi>
+<sense no="1">प्रज्वलित करना, जलाना</sense>
+<sense n="2">इंधनलकड़ी आदि</sense>
+</lexhead>
+
+<lexhead no="65">
+<dentry>इभः</dentry>
+<prAwipaxikam>इभ</prAwipaxikam>
+<grammar>पुं*</grammar>
+?<etymology>[इ+भन्, किच्च]</etymology>
+<is_a_part>सेना</is_a_part>
+<kind_of>पशुः</kind_of>
+<jAwi>स्तनपायी</jAwi>
+<sense no="1">हाथी</sense>
+</lexhead>
+
+<lexhead no="66">
+<dentry>इभी</dentry>
+<prAwipaxikam>इभी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<sense no="1">हथिनी</sense>
+<segmenthd>
+<dentry>इभारिः</dentry>
+<prAwipaxikam>इभारि</prAwipaxikam>
+<seg>इभः-अरिः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">सिंह</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इभाननः</dentry>
+<prAwipaxikam>इभानन</prAwipaxikam>
+<seg>इभः-आननः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">गणेशतु* गजानन</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इभनिमीलिका</dentry>
+<prAwipaxikam>इभनिमीलिका</prAwipaxikam>
+<seg>इभः-निमीलिका</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">चतुराई, बुद्धिमत्ता, सतर्कता</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इभपालकः</dentry>
+<prAwipaxikam>इभपालक</prAwipaxikam>
+<seg>इभः-पालकः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">महावत</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इभपोटा</dentry>
+<prAwipaxikam>इभपोटा</prAwipaxikam>
+<seg>इभः-पोटा</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">अल्पवयस्का हथिनी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इभपोतः</dentry>
+<prAwipaxikam>इभपोत</prAwipaxikam>
+<seg>इभः-पोतः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">अल्पवयस्क हाथी, हाथी का बच्चा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इभयुवतिः</dentry>
+<prAwipaxikam>इभयुवति</prAwipaxikam>
+<seg>इभः-युवतिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">हथिनी</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="67">
+<dentry>इभ्य</dentry>
+<prAwipaxikam>इभ्य</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">इभ्य</prAwipaxikam>
+?<etymology>[इभं गजमर्हति- यत्]</etymology>
+<kind_of>मनुष्यः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">धनाढ्य, धनवान्</sense>
+</lexhead>
+
+<lexhead no="68">
+<dentry>इभ्यः</dentry>
+<prAwipaxikam>इभ्य</prAwipaxikam>
+<grammar>पुं*</grammar>
+<kind_of>मनुष्यः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">राजा</sense>
+<sense n="2">महावत</sense>
+</lexhead>
+
+<lexhead no="69">
+<dentry>इभ्या</dentry>
+<prAwipaxikam>इभ्या</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<sense no="1">हथिनी</sense>
+</lexhead>
+
+<lexhead no="70">
+<dentry>इभ्यक</dentry>
+<prAwipaxikam>इभ्यक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">इभ्यक</prAwipaxikam>
+?<etymology>[स्वार्थे कन्]</etymology>
+<sense no="1">धनाढ्य, धनी</sense>
+</lexhead>
+
+<lexhead no="71">
+<dentry>इयत्</dentry>
+<prAwipaxikam>इयत्</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">इयत्</prAwipaxikam>
+<etymology>[इदम्+वतुप्]</etymology>
+<sense no="1">इतना अधिक, इतना बड़ा, इतने विस्तार का, इयत्तवायुः<citation>दश*९३</citation>इयन्ति वर्षाणि तया सहोग्रम्<citation>रघु* १३।६७</citation>’---द्वयं नीतिरितीयती<citation>शि*२।३० इतने वर्ष</citation>इतनी</sense>
+</lexhead>
+
+<lexhead no="72">
+<dentry>इयत्ता</dentry>
+<prAwipaxikam>इयत्ता</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[इयत्+तल्+टाप्]</etymology>
+<sense no="1">इतना, निश्चित माप या परिमाण, ईदृक्तया रूपमियत्तया वा<citation>रघु* १३।५</citation>न………यशः परिच्छेत्तुमियत्तयालम्<citation>६।७७</citation></sense>
+<sense n="2">सीमित संख्या, सीमान गुणानामियत्तया<citation>रघु* १०।३२</citation></sense>
+<sense n="3">सीमा, मानक</sense>
+</lexhead>
+
+<lexhead no="73">
+<dentry>इयत्वम्</dentry>
+<prAwipaxikam>इयत्व</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[इयत्+त्वल्]</etymology>
+<sense no="1">इतना, निश्चित माप या परिमाण, ईदृक्तया रूपमियत्तया वा<citation>रघु* १३।५</citation>न………यशः परिच्छेत्तुमियत्तयालम्<citation>६।७७</citation></sense>
+<sense n="2">सीमित संख्या, सीमान गुणानामियत्तया<citation>रघु* १०।३२</citation></sense>
+<sense n="3">सीमा, मानक</sense>
+</lexhead>
+
+<lexhead no="74">
+<dentry>इरणम्</dentry>
+<prAwipaxikam>इरण</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[ऋ+अण्,पृषो*]</etymology>
+<sense no="1">मरुस्थल</sense>
+<sense n="2">रिहाली या लुनई भूमि, बंजर भूमितु० इरिण</sense>
+</lexhead>
+
+<lexhead no="75">
+<dentry>इरम्मदः</dentry>
+<prAwipaxikam>इरम्मद</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>इरया जलेन माद्यति वर्धते इति</vigraha_vAkya>[इरा+मद्+खश्, ह्रस्वः मुम्]</etymology>
+<kind_of>अग्निः</kind_of>
+<jAwi>तेजः</jAwi>
+<sense no="1">बिजली की कौंध, बिजली के गिरने से पैदा हुई आग</sense>
+<sense n="2">वाडवानल</sense>
+</lexhead>
+
+<lexhead no="76">
+<dentry>इरा</dentry>
+<prAwipaxikam>इरा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology><vigraha_vAkya>इ-रन्, इं कामं राति, रा-क वा तारा०</vigraha_vAkya>[इ-रन्+रा+क वा तारा]</etymology>
+<jAwi>शब्दः</jAwi>
+<jAwi>जलम्</jAwi>
+<jAwi>पृथ्वी</jAwi>
+<is_a_part>मद्यगृहम्</is_a_part>
+<upAXi>पानीयम्</upAXi>
+<sense no="1">पृथ्वी</sense>
+<sense n="2">वक्तृता</sense>
+<sense n="3">वाणी के देवता सरस्वती</sense>
+<sense n="4">जल</sense>
+<sense n="5">आहार</sense>
+<sense n="6">मदिरा</sense>
+<segmenthd>
+<dentry>इरेशः</dentry>
+<prAwipaxikam>इरेश</prAwipaxikam>
+<seg>इरा-ईशः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">वरुण, विष्णु, गणेश</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इराचरम्</dentry>
+<prAwipaxikam>इराचर</prAwipaxikam>
+<seg>इरा-चरम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">ओलाइसी प्रकार ’इराम्बरम्</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="77">
+<dentry>इरावत्</dentry>
+<prAwipaxikam>इरावत्</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इरा+मतुप्]</etymology>
+<sense no="1">समुद्र</sense>
+</lexhead>
+
+<lexhead no="78">
+<dentry>इरिणम्</dentry>
+<prAwipaxikam>इरिण</prAwipaxikam>
+<grammar>नपुं*</grammar>
+?<etymology>[ऋ+इनच्, किदिच्च]</etymology>
+<sense no="1">लुनई, भूमि, रिहाली जमीन</sense>
+</lexhead>
+
+<lexhead no="79">
+<dentry>इर्वारु</dentry>
+<prAwipaxikam>इर्वारु</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">इर्वारु</prAwipaxikam>
+<etymology>[उर्व+आरु, पृषो०]</etymology>
+<sense no="1">नाशक, हिंसक</sense>
+</lexhead>
+
+<lexhead no="80">
+<dentry>इर्वालु</dentry>
+<prAwipaxikam>इर्वालु</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">इर्वालु</prAwipaxikam>
+<sense no="1">नाशक, हिंसक</sense>
+</lexhead>
+
+<lexhead no="81">
+<dentry>इर्वारुः</dentry>
+<prAwipaxikam>इर्वारु</prAwipaxikam>
+<grammar>पुं*</grammar>
+<sense no="1">ककड़ी</sense>
+</lexhead>
+
+<lexhead no="82">
+<dentry>इल्</dentry>
+<prAwipaxikam>इल्</prAwipaxikam>
+<grammar>तु*<paxI>पर*</paxI><vform>इलति</vform>,<vform>इलित</vform></grammar>
+<sense no="1">जाना, चलना-फिरना</sense>
+<sense n="2">सोना</sense>
+<sense n="3">फेंकना, भेजना, डालना</sense>
+<sense n="4">जाना, चलना-फिरना</sense>
+<sense n="5">सोना</sense>
+<sense n="6">फेंकना, भेजना, डालना</sense>
+</lexhead>
+
+<lexhead no="83">
+<dentry>इला</dentry>
+<prAwipaxikam>इला</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[इल्+क+टाप्]</etymology>
+<jAwi>शब्दः</jAwi>
+<is_a_part>गोसमूहः</is_a_part>
+<kind_of>गोमहिष्यादिः</kind_of>
+<jAwi>स्तनपायी</jAwi>
+<jAwi>पृथ्वी</jAwi>
+<sense no="1">पृथ्वी</sense>
+<sense n="2">गाय</sense>
+<sense n="3">वक्तृतादे*’इडा’</sense>
+<segmenthd>
+<dentry>इलागोलः</dentry>
+<prAwipaxikam>इलागोल</prAwipaxikam>
+<seg>इला-गोलः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">पृथ्वी, धरती, भूमंडल</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इलागोलम्</dentry>
+<prAwipaxikam>इलागोल</prAwipaxikam>
+<seg>इला-गोलम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">पृथ्वी, धरती, भूमंडल</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इलाधरः</dentry>
+<prAwipaxikam>इलाधर</prAwipaxikam>
+<seg>इला-धरः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">पहाड़</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="84">
+<dentry>इलिका</dentry>
+<prAwipaxikam>इलिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[इल्+कन्+इत्वम्]</etymology>
+<sense no="1">पृथ्वी, धरती</sense>
+</lexhead>
+
+<lexhead no="85">
+<dentry>इल्वकाः</dentry>
+<prAwipaxikam>इल्वका</prAwipaxikam>
+<grammar>पुं*</grammar>
+?<etymology>[इल्-वल्, इल्-क्विप्-वलच् वा]</etymology>
+<sense no="1">मृगशिरा नक्षत्र के ऊपर स्थित पाँच तारे</sense>
+</lexhead>
+
+<lexhead no="86">
+<dentry>इल्वलाः</dentry>
+<prAwipaxikam>इल्वला</prAwipaxikam>
+<grammar>पुं*</grammar>
+<kind_of>नक्षत्रम्</kind_of>
+<jAwi>नक्षत्रम्</jAwi>
+<upAXi>नाम</upAXi>
+<sense no="1">मृगशिरा नक्षत्र के ऊपर स्थित पाँच तारे</sense>
+</lexhead>
+
+<lexhead no="87">
+<dentry>इव</dentry>
+<prAwipaxikam>इव</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<etymology>[इ+क्वन्, वा०]</etymology>
+<jAwi>मानसिकभावः</jAwi>
+<sense no="1">की तरह, जैसा कि वागर्थाविव संपृक्तौ<citation>रघु* १।१</citation>उपमा दर्शाते हुए</sense>
+<sense n="2">मानोंपश्यामीव पिनाकिनम्<citation>श*१।६</citation>लिम्पतीव तमोङ्गानि वर्षतीवाञ्जनं नभः<citation>मृच्छ*१।३४उत्प्रेक्षा को दर्शाते हुए</citation></sense>
+<sense n="3">कुछ, थोड़ा साकदाचित् - कडार इवायम्<citation>गण*</citation></sense>
+<sense n="4">संभवतः’ ’बतलाइये तो’ निस्सन्देह’विना सीता देव्या किमिव हि न दुःखं रघुपतेः<citation>उत्तर*६।३०प्रश्नवाचक शब्दों से जुड़े हुए</citation></sense>
+<compound>
+<dentry>क इव</dentry>
+<prAwipaxikam>क इव</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<sense no="1">किसी प्रकार का, किस भांति का</sense></compound>
+<compound>
+<dentry>मुहुर्तमिव</dentry>
+<prAwipaxikam>मुहुर्तमिव</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<sense no="1">केवल क्षण भर के लिए</sense></compound>
+<compound>
+<dentry>किञ्चिदिव</dentry>
+<prAwipaxikam>किञ्चिदिव</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<sense no="1">जरा सा, थोड़ा सा इसी प्रकार ईषदिव, नाचिरादिव आदि</sense></compound>
+</lexhead>
+
+<lexhead no="88">
+<dentry>इशीका</dentry>
+<prAwipaxikam>इशीका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<sense no="1">सरकंडा, नरकुल</sense>
+<sense n="2">बाण</sense>
+</lexhead>
+
+<lexhead no="89">
+<dentry>इष्</dentry>
+<prAwipaxikam>इष्</prAwipaxikam>
+<grammar>तु*<paxI>पर*</paxI><vform>इच्छति</vform>,<vform>इष्ट</vform></grammar>
+<sense no="1">कामना करना चाहना, प्रबल इच्छा होना, इच्छामि संवर्धितमाज्ञया ते<citation>कु*३।३</citation></sense>
+<sense n="2">छाँटना</sense>
+<sense n="3">प्राप्त करने का प्रयत्न करना, तलाश करना, ढ़ूंढ़ना</sense>
+<sense n="4">अनुकूल होना</sense>
+<sense n="5">हाँ करना, स्वीकृति देना</sense>
+<sense n="6">चाहा जाना</sense>
+<sense n="7">नियत किया जानाहस्तच्छेदनमिष्यते<citation>मनु*८।३२२</citation></sense>
+<segmenthd>
+<dentry>अन्विष्</dentry>
+<prAwipaxikam>अन्विष्</prAwipaxikam>
+<seg>अनु-इष्</seg>
+<grammar>तु*<paxI>पर*</paxI></grammar>
+<sense no="1">ढूंढना, कोशिश करना, प्रयत्न करना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>अभीष्</dentry>
+<prAwipaxikam>अभीष्</prAwipaxikam>
+<seg>अभि-इष्</seg>
+<grammar>तु*<paxI>पर*</paxI></grammar>
+<sense no="1">जी करना, चाहना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>परीष्</dentry>
+<prAwipaxikam>परीष्</prAwipaxikam>
+<seg>परि-इष्</seg>
+<grammar>तु*<paxI>पर*</paxI></grammar>
+<sense no="1">ढूंढना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>प्रतीष्</dentry>
+<prAwipaxikam>प्रतीष्</prAwipaxikam>
+<seg>प्रति-इष्</seg>
+<grammar>तु*<paxI>पर*</paxI></grammar>
+<sense no="1">प्राप्त करना, स्वीकार करनादेवस्य शासनं प्रतीष्य<citation>श*६</citation></sense>
+</segmenthd>
+<sense n="8">जाना, चलना-फिरना</sense>
+<sense n="9">फैलाना</sense>
+<sense n="10">डालना, फेंकना</sense>
+<segmenthd>
+<dentry>अन्विष्</dentry>
+<prAwipaxikam>अन्विष्</prAwipaxikam>
+<seg>अनु-इष्</seg>
+<grammar>दि*<paxI>पर*</paxI></grammar>
+<sense no="1">ढूँढना, ढूँढने के लिए जानान रत्नमन्विष्यति मृग्यते हि तत्<citation>कु*५।४५</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>प्रेष्</dentry>
+<prAwipaxikam>प्रेष्</prAwipaxikam>
+<seg>प्र-इष्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">भेज देना, डाल देना, फेंक देना<citation>भट्टि*१५।७७ प्रायः</citation></sense>
+<sense no="2">भेजना, प्रेषण करनाकिमर्थमृषयः प्रेषिताः स्युः<citation>श*५</citation></sense>
+</segmenthd>
+<sense n="11">जाना, चलना-फिरना</sense>
+<segmenthd>
+<dentry>अन्विष्</dentry>
+<prAwipaxikam>अन्विष्</prAwipaxikam>
+<seg>अनु-इष्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>उभ*</paxI></grammar>
+<sense no="2">अनुसरण करना</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="90">
+<dentry>इषः</dentry>
+<prAwipaxikam>इष</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इष्+अच्]</etymology>
+<kind_of>पक्षद्वयौ</kind_of>
+<jAwi>कालः</jAwi>
+<sense no="1">बलशाली, शक्ति सम्पन्न</sense>
+<sense n="2">आश्विन मासध्वनिमिषेऽनिमिषेक्षणमग्रतः<citation>शिव*६।४९</citation></sense>
+</lexhead>
+
+<lexhead no="91">
+<dentry>इषिका</dentry>
+<prAwipaxikam>इषिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+?<etymology>[इष् गत्यादौ क्वुन् अत इत्वम्]</etymology>
+<sense no="1">सरकंडा, नरकुल<citation>रघु*१२।२३</citation>इषिकास्त्रम्</sense>
+<sense n="2">बाण</sense>
+</lexhead>
+
+<lexhead no="92">
+<dentry>इषीका</dentry>
+<prAwipaxikam>इषीका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+?<etymology>[इष् गत्यादौ क्वुन् अत इत्वम्]</etymology>
+<sense no="1">सरकंडा, नरकुल</sense>
+<sense n="2">बाण</sense>
+</lexhead>
+
+<lexhead no="93">
+<dentry>इषिरः</dentry>
+<prAwipaxikam>इषिर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इष्-किरच्]</etymology>
+<sense no="1">अग्नि</sense>
+</lexhead>
+
+<lexhead no="94">
+<dentry>इषुः</dentry>
+<prAwipaxikam>इषु</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इष्+उ]</etymology>
+<kind_of>आयुधम्</kind_of>
+<upAXi>आयुधम्</upAXi>
+<sense no="1">बाण</sense>
+<sense n="2">पाँच की संख्या</sense>
+<segmenthd>
+<dentry>इष्वग्रम्</dentry>
+<prAwipaxikam>इष्वग्र</prAwipaxikam>
+<seg>इषुः-अग्रम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="2">बाण की नोक</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इष्वनीकम्</dentry>
+<prAwipaxikam>इष्वनीक</prAwipaxikam>
+<seg>इषुः-अनीकम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">बाण की नोक</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इष्वसनम्</dentry>
+<prAwipaxikam>इष्वसन</prAwipaxikam>
+<seg>इषुः-असनम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">धनुष<citation>रघु*११।३७</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>इष्वस्त्रम्</dentry>
+<prAwipaxikam>इष्वस्त्र</prAwipaxikam>
+<seg>इषुः-अस्त्रम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">धनुष<citation>रघु*११।३८</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>इष्वासः</dentry>
+<prAwipaxikam>इष्वास</prAwipaxikam>
+<seg>इषुः-आसः</seg>
+<grammar>पुं*</grammar>
+<kind_of>आयुधम्</kind_of>
+<upAXi>आयुधम्</upAXi>
+<sense no="1">धनुष</sense>
+<sense no="2">धनुर्धर, योद्धा<citation>भग*१।४</citation>१७</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इषुकारः</dentry>
+<prAwipaxikam>इषुकार</prAwipaxikam>
+<seg>इषुः-कारः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">बाण बनाने वाला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इषुकृत्</dentry>
+<prAwipaxikam>इषुकृत्</prAwipaxikam>
+<seg>इषुः-कृत्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">बाण बनाने वाला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इषुधरः</dentry>
+<prAwipaxikam>इषुधर</prAwipaxikam>
+<seg>इषुः-धरः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">धनुर्धर</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इषुभृत्</dentry>
+<prAwipaxikam>इषुभृत्</prAwipaxikam>
+<seg>इषुः-भृत्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">धनुर्धर</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इषुपथः</dentry>
+<prAwipaxikam>इषुपथ</prAwipaxikam>
+<seg>इषुः-पथः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">तीर जाने का स्थान, बाण का परास</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इषुविक्षेपः</dentry>
+<prAwipaxikam>इषुविक्षेप</prAwipaxikam>
+<seg>इषुः-विक्षेपः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">तीर जाने का स्थान, बाण का परास</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इषुप्रयोगः</dentry>
+<prAwipaxikam>इषुप्रयोग</prAwipaxikam>
+<seg>इषुः-प्रयोगः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">बाण छोड़ना, तीर चलाना</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="95">
+<dentry>इषुधिः</dentry>
+<prAwipaxikam>इषुधि</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इषु-धा+कि]</etymology>
+<is_a_part>बाणः</is_a_part>
+<kind_of>उपकरणम्</kind_of>
+<upAXi>उपकरणम्</upAXi>
+<sense no="1">तरकस</sense>
+</lexhead>
+
+<lexhead no="96">
+<dentry>इष्ट</dentry>
+<prAwipaxikam>इष्ट</prAwipaxikam>
+<grammar>भू* क* कृ*</grammar>
+<etymology>[इष्+क्त]</etymology>
+<jAwi>मानसिकभावः</jAwi>
+<is_a_part>यज्ञः</is_a_part>
+<kind_of>क्रिया</kind_of>
+<jAwi>क्रिया</jAwi>
+<sense no="1">कामना किया गया, चाहा गया, जी से चाहा हुआ, अभिलषित</sense>
+<sense n="2">प्रिय, पसंद किया गया, अनुकूल, प्यारा</sense>
+<sense n="3">पूज्य, आदरणीय</sense>
+<sense n="4">प्रतिष्ठित, सम्मानित</sense>
+<sense n="5">उत्सृष्ट, यज्ञों से पूजा गया</sense>
+</lexhead>
+
+<lexhead no="97">
+<dentry>इष्टः</dentry>
+<prAwipaxikam>इष्ट</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इष्+क्त]</etymology>
+<jAwi>मानसिकभावः</jAwi>
+<is_a_part>यज्ञः</is_a_part>
+<kind_of>क्रिया</kind_of>
+<jAwi>क्रिया</jAwi>
+<sense no="1">प्रेमी, पति</sense>
+</lexhead>
+
+<lexhead no="98">
+<dentry>इष्टम्</dentry>
+<prAwipaxikam>इष्ट</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[इष्+क्त]</etymology>
+<jAwi>मानसिकभावः</jAwi>
+<is_a_part>यज्ञः</is_a_part>
+<kind_of>क्रिया</kind_of>
+<jAwi>क्रिया</jAwi>
+<sense no="1">चाह, इच्छा</sense>
+<sense n="2">संस्कार</sense>
+<sense n="3">यज्ञ</sense>
+<sense n="4">स्वेच्छापूर्वक</sense>
+<segmenthd>
+<dentry>इष्टार्थः</dentry>
+<prAwipaxikam>इष्टार्थ</prAwipaxikam>
+<seg>इष्ट-अर्थः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">अभीष्ट पदार्थ</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इष्टापत्तिः</dentry>
+<prAwipaxikam>इष्टापत्ति</prAwipaxikam>
+<seg>इष्ट-आपत्तिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">चाही हुई बात का होना, वादी का वक्तव्य जो प्रतिवादी के भी अनुकूल होइष्टापत्तौ दोषान्तरमाह<citation>जग*</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>इष्टगन्ध</dentry>
+<prAwipaxikam>इष्टगन्ध</prAwipaxikam>
+<seg>इष्ट-गन्ध</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">इष्टगन्ध</prAwipaxikam>
+<kind_of>घ्राणेन्द्रियविषयः</kind_of>
+<jAwi>गन्धः</jAwi>
+<sense no="1">सुगन्ध युक्त</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इष्टगन्धः</dentry>
+<prAwipaxikam>इष्टगन्ध</prAwipaxikam>
+<seg>इष्ट-गन्धः</seg>
+<grammar>पुं*</grammar>
+<kind_of>घ्राणेन्द्रियविषयः</kind_of>
+<jAwi>गन्धः</jAwi>
+<sense no="1">सुगन्धित पदार्थ</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इष्टगन्धम्</dentry>
+<prAwipaxikam>इष्टगन्ध</prAwipaxikam>
+<seg>इष्ट-गन्धम्</seg>
+<grammar>नपुं*</grammar>
+<kind_of>घ्राणेन्द्रियविषयः</kind_of>
+<jAwi>गन्धः</jAwi>
+<sense no="1">रेत</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इष्टदेवः</dentry>
+<prAwipaxikam>इष्टदेव</prAwipaxikam>
+<seg>इष्ट-देवः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">अनुकूल देव, अभिभावक देव</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इष्टदेवता</dentry>
+<prAwipaxikam>इष्टदेवता</prAwipaxikam>
+<seg>इष्ट-देवता</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">अनुकूल देव, अभिभावक देव</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="99">
+<dentry>इष्टका</dentry>
+<prAwipaxikam>इष्टका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[इष्+तकन्]</etymology>
+<sense no="1">ईंट<citation>मृच्छ*३</citation></sense>
+<segmenthd>
+<dentry>इष्टकागृहम्</dentry>
+<prAwipaxikam>इष्टकागृह</prAwipaxikam>
+<seg>इष्टका-गृहम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">ईंटों का घर</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इष्टकाचित</dentry>
+<prAwipaxikam>इष्टकाचित</prAwipaxikam>
+<seg>इष्टका-चित</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">इष्टकाचित</prAwipaxikam>
+<sense no="1">ईंटों से बनाइष्टकचित’ भी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इष्टकान्यासः</dentry>
+<prAwipaxikam>इष्टकान्यास</prAwipaxikam>
+<seg>इष्टका-न्यासः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">घर की नींव रखना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इष्टकापथः</dentry>
+<prAwipaxikam>इष्टकापथ</prAwipaxikam>
+<seg>इष्टका-पथः</seg>
+<grammar>पुं*</grammar>
+<is_a_part>वीरणम्</is_a_part>
+<kind_of>मूलमात्रम्</kind_of>
+<upAXi>अवयवः</upAXi>
+<sense no="1">ईंटों से बना मार्ग</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="100">
+<dentry>इष्टापूर्तम्</dentry>
+<prAwipaxikam>इष्टापूर्त</prAwipaxikam>
+<grammar>समाहार द्व* स* पूर्वपददीर्घः</grammar>
+<sense no="1">याज्ञिक पुण्य कार्यों का अनुष्ठान, कूएँ खोदना तथा दूसरे धर्मकार्यों का सम्पादन, इष्टापूर्तविधेः सपत्नशमनात्<citation>महावी*३।१</citation></sense>
+</lexhead>
+
+<lexhead no="101">
+<dentry>इष्टिः</dentry>
+<prAwipaxikam>इष्टि</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[इष्+क्तिन्]</etymology>
+<kind_of>क्रिया</kind_of>
+<jAwi>क्रिया</jAwi>
+<kind_of>मनोविकारः</kind_of>
+<jAwi>मानसिकभावः</jAwi>
+<sense no="1">कामना, प्रार्थना, इच्छा</sense>
+<sense n="2">इच्छुक होना या कोशिश करना</sense>
+<sense n="3">अभीष्ट पदार्थ</sense>
+<sense n="4">अभीष्ट नियम या आवश्यकता की पूर्तिभाष्यकार द्वारा कात्यायन के वार्तिकों अथवा पतंजलि के भाष्य में कुछ अतिरिक्त जोड़ना -इष्टयो भाष्यकारस्य, तु० ’उपसंख्यानम्’</sense>
+<sense n="5">आवेग, शीघ्रता</sense>
+<sense n="6">आमंत्रण, आदेश</sense>
+<sense n="7">यज्ञ</sense>
+<segmenthd>
+<dentry>इष्टिपचः</dentry>
+<prAwipaxikam>इष्टिपच</prAwipaxikam>
+<seg>इष्टिः-पचः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">कंजूसइसी प्रकार इष्टिमुष्</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इष्टिपशुः</dentry>
+<prAwipaxikam>इष्टिपशु</prAwipaxikam>
+<seg>इष्टिः-पशुः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">यज्ञ में बलि दिया जाने वाला जानवर</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="102">
+<dentry>इष्टिका</dentry>
+<prAwipaxikam>इष्टिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[इष्ट+तिकन्+टाप्]</etymology>
+<sense no="1">ईंट आदि, दे* ’इष्टका’</sense>
+</lexhead>
+
+<lexhead no="103">
+<dentry>इष्मः</dentry>
+<prAwipaxikam>इष्म</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इष्+मक्]</etymology>
+<sense no="1">कामदेव</sense>
+<sense n="2">वसन्त ऋतु</sense>
+</lexhead>
+
+<lexhead no="104">
+<dentry>इष्यः</dentry>
+<prAwipaxikam>इष्य</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इष्+क्यप्]</etymology>
+<sense no="1">वसन्त ऋतु</sense>
+</lexhead>
+
+<lexhead no="105">
+<dentry>इष्यम्</dentry>
+<prAwipaxikam>इष्य</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[इष्+क्यप्]</etymology>
+<sense no="1">वसन्त ऋतु</sense>
+</lexhead>
+
+<lexhead no="106">
+<dentry>इस्</dentry>
+<prAwipaxikam>इस्</prAwipaxikam>
+<grammar>अव्य*</grammar>
+?<etymology>[इ कामं स्यति, सो-क्विप् नि० ओलोपः]</etymology>
+<sense no="1">क्रोध, पीड़ा और शोक की भावना को अभिव्यक्त करने वाला विस्मयादि द्योतक अव्यय</sense>
+</lexhead>
+
+<lexhead no="107">
+<dentry>इह</dentry>
+<prAwipaxikam>इह</prAwipaxikam>
+<grammar>अव्य*</grammar>
+?<etymology>[इदम्-ह इशादेशः]</etymology>
+<sense no="1">यहाँ(काल, स्थान या दिशा की ओर संकेत करते हुए), इस स्थान पर, इस दशा में</sense>
+<sense n="2">इस लोक मेंविप० परत्र या अमुत्र</sense>
+<segmenthd>
+<dentry>इहामुत्र</dentry>
+<prAwipaxikam>इहामुत्र</prAwipaxikam>
+<seg>इह-अमुत्र</seg>
+<grammar>अव्य*</grammar>
+<sense no="1">इस लोक में और परलोक में, यहाँ और वहाँ</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इहलोकः</dentry>
+<prAwipaxikam>इहलोक</prAwipaxikam>
+<seg>इह-लोकः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">यह संसार या जीवन</sense>
+</segmenthd>
+<segmenthd>
+<dentry>इहस्थ</dentry>
+<prAwipaxikam>इहस्थ</prAwipaxikam>
+<seg>इह-स्थ</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">इहस्थ</prAwipaxikam>
+<sense no="1">यहाँ विद्यमान</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="108">
+<dentry>इहत्य</dentry>
+<prAwipaxikam>इहत्य</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">इहत्य</prAwipaxikam>
+<etymology>[इह+त्यप्]</etymology>
+<sense no="0">यहाँ रहने वाला, इस स्थान का, इस लोक का</sense>
+</lexhead>
+
+</dict>

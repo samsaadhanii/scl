@@ -1,0 +1,8 @@
+How to call morph.cgi from the shell command?
+
+Here is an example:
+firefox http://sanskrit.uohyd.ac.in/cgi-bin/scl/morph.cgi?encoding=Unicode\&morfword=रामाय
+
+The options for the parameter encoding are:
+Options: Unicode / WX / Itrans / VH / KH / SLP
+(For the notation see the encoding chart: http://sanskrit.uohyd.ac.in/scl/table.html)

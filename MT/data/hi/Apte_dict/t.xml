@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dict SYSTEM "apte.dtd">
+<?xml-stylesheet href="apte.css" type="text/css" ?>
+<dict>
+<lexhead no="1">
+<dentry>टङ्क्</dentry>
+<prAwipaxikam>टङ्क्</prAwipaxikam>
+<grammar><gaNa>चुरा*</gaNa><paxI>उभ*</paxI><vform>टङ्कयति</vform>,<vform>टङ्कयते</vform>,<vform>टङ्कित</vform></grammar>
+<sense no="1">बाँधना, कसना, जकड़ना</sense>
+<sense n="2">ढकना</sense>
+<segmenthd>
+<dentry>उट्टङ्क्</dentry>
+<prAwipaxikam>उट्टङ्क्</prAwipaxikam>
+<seg>उद्-टङ्क्</seg>
+<grammar><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
+<sense no="1">छीलना, खुरचना</sense>
+<sense no="2">छिद्र करना, सूराख करना</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="2">
+<dentry>टङ्कः</dentry>
+<prAwipaxikam>टङ्क</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[टङ्क+घञ्/टङ्क+अच्]</etymology>
+<kind_of>मनोविकारः</kind_of>
+<jAwi>मानसिकभावः</jAwi>
+<jAwi>क्रिया</jAwi>
+<kind_of>आयुधम्</kind_of>
+<upAXi>आयुधम्</upAXi>
+<sense no="1">कुल्हाड़ी, कुठार, टाँकी, टङ्कैर्मनःशिलगुहेव विदार्यमाणा<citation>मृच्छ*१/२०</citation><citation>रघु*१२/८०</citation>पत्थर काटने या गढ़ने के छेनी</sense>
+<sense n="2">तलवार</sense>
+<sense n="3">म्यान</sense>
+<sense n="4">कुल्हाड़ी की धार के आकार की चोटी, पहाड़ी की ढाल या झुकावF<citation>भट्टि*१/८</citation></sense>
+<sense n="5">क्रोध</sense>
+<sense n="6">घमण्ड</sense>
+<sense n="7">पैर</sense>
+</lexhead>
+
+<lexhead no="3">
+<dentry>टङ्का</dentry>
+<prAwipaxikam>टङ्का</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<sense no="1">पैर, लात</sense>
+</lexhead>
+
+<lexhead no="4">
+<dentry>टङ्कम्</dentry>
+<prAwipaxikam>टङ्क</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[टङ्क+घञ्/टङ्क+अच्]</etymology>
+<kind_of>मनोविकारः</kind_of>
+<jAwi>मानसिकभावः</jAwi>
+<jAwi>क्रिया</jAwi>
+<kind_of>आयुधम्</kind_of>
+<upAXi>आयुधम्</upAXi>
+<sense no="1">कुल्हाड़ी, कुठार, टाँकी, टङ्कैर्मनःशिलगुहेव विदार्यमाणा<citation>मृच्छ*१/२०</citation><citation>रघु*१२/८०</citation>पत्थर काटने या गढ़ने के छेनी</sense>
+<sense n="2">तलवार</sense>
+<sense n="3">म्यान</sense>
+<sense n="4">कुल्हाड़ी की धार के आकार की चोटी, पहाड़ी की ढाल या झुकावF<citation>भट्टि*१/८</citation></sense>
+<sense n="5">क्रोध</sense>
+<sense n="6">घमण्ड</sense>
+<sense n="7">पैर</sense>
+</lexhead>
+
+<lexhead no="5">
+<dentry>टङ्ककः</dentry>
+<prAwipaxikam>टङ्कक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[टङ्क+कन्]</etymology>
+<sense no="1">चाँदी की सिक्का</sense>
+<segmenthd>
+<dentry>टङ्ककपतिः</dentry>
+<prAwipaxikam>टङ्ककपति</prAwipaxikam>
+<seg>टङ्ककः-पतिः</seg>
+<grammar>पुं*</grammar>
+<sense no="2">टकसाल का अध्यक्ष</sense>
+</segmenthd>
+<segmenthd>
+<dentry>टङ्ककशाला</dentry>
+<prAwipaxikam>टङ्ककशाला</prAwipaxikam>
+<seg>टङ्ककः-शाला</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">टकसाल</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="6">
+<dentry>टङ्कणम्</dentry>
+<prAwipaxikam>टङ्कण</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[टङ्क्+ल्युट्]</etymology>
+<sense no="1">सोहागा</sense>
+</lexhead>
+
+<lexhead no="7">
+<dentry>टङ्कनम्</dentry>
+<prAwipaxikam>टङ्कन</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[टङ्क्+ल्युट्]</etymology>
+<sense no="1">सोहागा</sense>
+</lexhead>
+
+<lexhead no="8">
+<dentry>टङ्कणः</dentry>
+<prAwipaxikam>टङ्कण</prAwipaxikam>
+<grammar>पुं*</grammar>
+<sense no="1">घोड़े की एक जाति</sense>
+<sense n="2">एक देश विशेष के निवासी</sense>
+</lexhead>
+
+<lexhead no="9">
+<dentry>टङ्कनः</dentry>
+<prAwipaxikam>टङ्कन</prAwipaxikam>
+<grammar>पुं*</grammar>
+<sense no="1">घोड़े की एक जाति</sense>
+<sense n="2">एक देश विशेष के निवासी</sense>
+<segmenthd>
+<dentry>टङ्कणक्षारः</dentry>
+<prAwipaxikam>टङ्कणक्षार</prAwipaxikam>
+<seg>टङ्कणम्-क्षारः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">सोहागा</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="10">
+<dentry>टङ्कारः</dentry>
+<prAwipaxikam>टङ्कार</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[टम्-कृ+अण्]</etymology>
+<sense no="1">धनुष की डोर खींचने से होने वाली ध्वनि</sense>
+<sense n="2">गुर्राना, चिल्लाना, चीत्कार, चीख</sense>
+</lexhead>
+
+<lexhead no="11">
+<dentry>टङ्कारिन्</dentry>
+<prAwipaxikam>टङ्कारिन्</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">टङ्कारिन्</prAwipaxikam>
+<etymology>[टङकार+इनि]</etymology>
+<sense no="1">टंकार करने वाला, फुत्कार या सीत्कार करने वाला; झङ्कार करने वाला, टङ्कारिचापमनु लङ्काशरक्षतजपङ्कावरूषितशरम्<citation>अस्व*१</citation></sense>
+</lexhead>
+
+<lexhead no="12">
+<dentry>टङ्किका</dentry>
+<prAwipaxikam>टङ्किका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[टङ्क्+कन्+टाप् ,(इत्वम्)]</etymology>
+<sense no="1">टाँकी, कुल्हाड़ी<citation>विक्रमांक*१/१५</citation></sense>
+</lexhead>
+
+<lexhead no="13">
+<dentry>टङ्गः</dentry>
+<prAwipaxikam>टङ्ग</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[टङ्कः पृषो*]</etymology>
+<sense no="1">कुदाल, खुर्पा, कुल्हाड़ी</sense>
+</lexhead>
+
+<lexhead no="14">
+<dentry>टङ्गम्</dentry>
+<prAwipaxikam>टङ्ग</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[टङ्कः पृषो*]</etymology>
+<sense no="1">कुदाल, खुर्पा, कुल्हाड़ी</sense>
+</lexhead>
+
+<lexhead no="15">
+<dentry>टङ्गणः</dentry>
+<prAwipaxikam>टङ्गण</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[टङ्कः पृषो*]</etymology>
+<sense no="1">सोहागा</sense>
+</lexhead>
+
+<lexhead no="16">
+<dentry>टङ्गणम्</dentry>
+<prAwipaxikam>टङ्गण</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[टङ्कः पृषो*]</etymology>
+<sense no="1">सोहागा</sense>
+</lexhead>
+
+<lexhead no="17">
+<dentry>टङ्गा</dentry>
+<prAwipaxikam>टङ्गा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[टङ्ग+टाप्]</etymology>
+<sense no="1">टाँग, लात, पैर</sense>
+</lexhead>
+
+<lexhead no="18">
+<dentry>टहरी</dentry>
+<prAwipaxikam>टहरी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+?<etymology>[टहेति शब्दं राति रा+क+ङीष्]</etymology>
+<sense no="1">एक प्रकार का वाद्ययन्त्र</sense>
+<sense n="2">परिहास, ठठ्ठा</sense>
+</lexhead>
+
+<lexhead no="19">
+<dentry>टाङ्कारः</dentry>
+<prAwipaxikam>टाङ्कार</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[टङ्कार+अण्]</etymology>
+<sense no="1">झंकार, टङ्कार</sense>
+</lexhead>
+
+<lexhead no="20">
+<dentry>टिक्</dentry>
+<prAwipaxikam>टिक्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI><vform>टेकते</vform></grammar>
+<sense no="1">जाना, चलना-फिरना</sense>
+</lexhead>
+
+<lexhead no="21">
+<dentry>टिटिभः</dentry>
+<prAwipaxikam>टिटिभ</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>टिटि इत्यव्यक्तशब्दं भणति</vigraha_vAkya>[ टिटि-भण्+ड]</etymology>
+<sense no="1">टिटिहिरी पक्षी, उत्क्षिप्य टिट्टिभः पादावास्ते भङ्गभयाद्दिवः<citation>पंच*१/३१४</citation><citation>मनु*५/११</citation><citation>याज्ञ*१/७२</citation>स्त्री* टिटि ट्टि भी ’टिट्टिभक’भी</sense>
+</lexhead>
+
+<lexhead no="22">
+<dentry>टिट्टिभः</dentry>
+<prAwipaxikam>टिट्टिभ</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>टिट्टि इत्यव्यक्तशब्दं भणति</vigraha_vAkya>[ टिट्टि+भण्+ड]</etymology>
+<sense no="1">टिटिहिरी पक्षी, उत्क्षिप्य टिट्टिभः पादावास्ते भङ्गभयाद्दिवः<citation>पंच*१/३१४</citation><citation>मनु*५/११</citation><citation>याज्ञ*१/७२</citation>स्त्री* टिटि ट्टि भी ’टिट्टिभक’भी</sense>
+</lexhead>
+
+<lexhead no="23">
+<dentry>टिप्पणी</dentry>
+<prAwipaxikam>टिप्पणी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+?<etymology>[टिप्+क्विप्, टिपा पन्यते स्तूयते टिप्+पन्+अच्+ङीष्, पृषो* पात्वं वा]</etymology>
+<sense no="1">भाष्य, टीका, कभी-कभी ’भाष्य’ पर लिखी गई ’व्याख्या’ के लिए भी- उदा* महाभाष्य पर कैयट की व्याख्या या टीका या कैयट के भाष्य पर नागोजी भट्ट की टीका या भाष्य</sense>
+</lexhead>
+
+<lexhead no="24">
+<dentry>टिप्पनी</dentry>
+<prAwipaxikam>टिप्पनी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+?<etymology>[टिप्+क्विप्, टिपा पन्यते स्तूयते टिप्+पन्+अच्+ङीष्, पृषो* पात्वं वा]</etymology>
+<sense no="1">भाष्य, टीका, कभी-कभी ’भाष्य’ पर लिखी गई ’व्याख्या’ के लिए भी- उदा* महाभाष्य पर कैयट की व्याख्या या टीका या कैयट के भाष्य पर नागोजी भट्ट की टीका या भाष्य</sense>
+</lexhead>
+
+<lexhead no="25">
+<dentry>टीक्</dentry>
+<prAwipaxikam>टीक्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI><vform>टीकते</vform></grammar>
+<sense no="1">चलना- फिरना, जाना, सहारा, देना, कश्मर्याः कृतमालमुद्गतदलं कोयष्टिकष्टीकते<citation>मा*९/७</citation></sense>
+<segmenthd>
+<dentry>आटीक्</dentry>
+<prAwipaxikam>आटीक्</prAwipaxikam>
+<seg>आ-टीक्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">जाना, चलना-फिरना, इधर-उधर घूमनाआटीकसेऽङ्ग करिघोटीपदातिजुषि वाटीउवि क्षितिभुजाम्<citation>अश्व*५</citation></sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="26">
+<dentry>टीका</dentry>
+<prAwipaxikam>टीका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology><vigraha_vAkya>टीक्यते गम्यते, ग्रन्थार्थोऽनया</vigraha_vAkya>[टीक्+क+टाप्]</etymology>
+<sense no="1">व्याख्या, भाष्य, काव्यप्रकाशस्य कृता गृहे गृहे टीका तथाप्येष तथैव दुर्गमः</sense>
+</lexhead>
+
+<lexhead no="27">
+<dentry>टुण्टुक</dentry>
+<prAwipaxikam>टुण्टुक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">टुण्टुक</prAwipaxikam>
+<etymology><vigraha_vAkya>टुण्टु इति अव्यक्तशब्दं कायति</vigraha_vAkya>[टुटु-कै+क]</etymology>
+<kind_of>वृक्षः</kind_of>
+<jAwi>वृक्षः</jAwi>
+<sense no="1">छोटा, थोड़ा</sense>
+<sense n="2">दुष्ट, क्रूर, नृशंस</sense>
+<sense no="3"></sense>
+</lexhead>
+
+</dict>

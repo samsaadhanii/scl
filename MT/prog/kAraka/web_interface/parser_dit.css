@@ -1,0 +1,97 @@
+/*
+#  Copyright (C) 2009-2016 Amba Kulkarni (ambapradeep@gmail.com)
+#
+#  This program is free software; you can redistribute it and/or
+#  modify it under the terms of the GNU General Public License
+#  as published by the Free Software Foundation; either
+#  version 2 of the License, or (at your option) any later
+#  version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software
+#  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+
+*/
+body,html{
+background-color:#616D7E;
+margin:0px;
+font-size:15px;
+}
+#maindiv {
+width:960px;
+margin:0px auto;
+position:relative;
+}
+div{
+background-color:#FFFFFF;
+}
+a{
+text-decoration:none;
+}
+
+textarea:hover {
+border-color:red;
+}
+div#input-area ul{
+display:inline;
+font-size:15px;
+}
+div#input-area li{
+float:left;
+display:inline;
+margin-right:5px;
+font-size:12px;
+}
+#dept-menu {
+        width:100%;
+        height:170px;
+        margin-top:20px;
+        font-size:14px;
+}
+#project-title{
+ color:blue;
+ background-color:#FFFFFF;
+ width:100%;
+ height:110px;
+ margin-top:1px;
+ border-width:5px;
+ text-align:center;
+}
+#shwOut{
+width:100%;
+margin-top:5px;
+overflow:auto;
+}
+#menu {
+        margin-top:50px;
+        width:935px;
+}
+#menu li {
+ display:inline;
+ padding:6px;
+ text-align:center;
+ height:30px;
+ background:#e7e7e7;
+ border:1px solid #f6f6f6;
+ }
+#menu li a {
+        color:#253B66;
+text-decoration:none;
+font-weight:bold;
+ }
+#menu li  a:hover
+{
+color:#E54B01;
+}
+#menu ul {
+        list-style-type:none;
+        margin:auto;
+        padding-top:15px;
+
+ }

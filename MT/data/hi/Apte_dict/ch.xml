@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dict SYSTEM "apte.dtd">
+<?xml-stylesheet href="apte.css" type="text/css" ?>
+<dict>
+<lexhead no="1">
+<dentry>छः</dentry>
+<prAwipaxikam>छ</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[छो+ड/छो+क]</etymology>
+<sense no="1">अंश, खंड</sense>
+</lexhead>
+
+<lexhead no="2">
+<dentry>छगः</dentry>
+<prAwipaxikam>छग</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>छ यज्ञादौ छेदनं गच्छति</vigraha_vAkya>[छ-गम्+ड]</etymology>
+<sense no="1">बकरा, स्त्री* - छगी</sense>
+</lexhead>
+
+<lexhead no="3">
+<dentry>छगलः</dentry>
+<prAwipaxikam>छगल</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[छो+कल, गुक, ह्र्स्वः]</etymology>
+<sense no="1">बकरा, स्त्री* - छगली</sense>
+</lexhead>
+
+<lexhead no="4">
+<dentry>छगलम्</dentry>
+<prAwipaxikam>छगल</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[छो+कल, गुक, ह्र्स्वः]</etymology>
+<sense no="1">नीला कपड़ा</sense>
+</lexhead>
+
+<lexhead no="5">
+<dentry>छगलकः</dentry>
+<prAwipaxikam>छगलक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[छगल+कन्]</etymology>
+<is_a_part>अजसमूहः</is_a_part>
+<kind_of>पशुः</kind_of>
+<jAwi>स्तनपायी</jAwi>
+<sense no="1">बकरा</sense>
+</lexhead>
+
+<lexhead no="6">
+<dentry>छटा</dentry>
+<prAwipaxikam>छटा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[छो+अटन्+टाप्]</etymology>
+<sense no="1">ढेर, पुंज, राशि, संघात, सटाच्छटा भिन्नघनेन<citation>शि* १/४७</citation></sense>
+<sense n="2">प्रकाश, किरण-समूह, कान्ति, दिप्तिप्रकाश<citation>शि* ८/३८</citation></sense>
+<sense n="3">अविच्छिन्न रेखा, लकीर</sense>
+<segmenthd>
+<dentry>छटाभा</dentry>
+<prAwipaxikam>छटाभा</prAwipaxikam>
+<seg>छटा+आभा</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">बिजली</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छटाफलः</dentry>
+<prAwipaxikam>छटाफल</prAwipaxikam>
+<seg>छटा+फलः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">सुपारी का वृक्ष</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="7">
+<dentry>छत्रः</dentry>
+<prAwipaxikam>छत्र</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>छादयति अनेन इति</vigraha_vAkya>[छद+णिच्+त्रन्, ह्रस्वः]</etymology>
+<is_a_part>राज्ञां_छत्रचामरादिव्यापारः</is_a_part>
+<upAXi>गार्हिकोपकरणम्</upAXi>
+<sense no="1">कुकुरमुत्ता, खुम्भी</sense>
+</lexhead>
+
+<lexhead no="8">
+<dentry>छत्रम्</dentry>
+<prAwipaxikam>छत्र</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology><vigraha_vAkya>छादयति अनेन इति</vigraha_vAkya>[छद+णिच्+त्रन्, ह्रस्वः]</etymology>
+<is_a_part>राज्ञां_छत्रचामरादिव्यापारः</is_a_part>
+<upAXi>गार्हिकोपकरणम्</upAXi>
+<sense no="1">छाता, छतरी, अदेयमासीत् त्रयमेव भूपतेः शशिप्रभं छत्रमुभे च चामरे<citation>रघु* ३/१६</citation><citation>मनु* ७/९३</citation></sense>
+<segmenthd>
+<dentry>छत्रधरः</dentry>
+<prAwipaxikam>छत्रधर</prAwipaxikam>
+<seg>छत्रः-धरः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">छत्र पकड़ कर चलने वाला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छत्रधारः</dentry>
+<prAwipaxikam>छत्रधार</prAwipaxikam>
+<seg>छत्रः-धारः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">छत्र पकड़ कर चलने वाला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छत्रधारणम्</dentry>
+<prAwipaxikam>छत्रधारण</prAwipaxikam>
+<seg>छत्रः-धारणम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">छाता लेकर चलना, छाता रखना<citation>मनु* २/१७९</citation></sense>
+<sense no="2">राजकीय अधिकार् के रुप में छत्र धारण करना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छत्रपतिः</dentry>
+<prAwipaxikam>छत्रपति</prAwipaxikam>
+<seg>छत्रः-पतिः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">राजा जिसके ऊपर राज्य की मर्यादा के चिह्न्न्स्वरुप छत्र किया जाय, प्रभुसत्ताप्राप्त सम्राट</sense>
+<sense no="2">जंबुद्वीप के प्राचीन राजा क नाम</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छत्रभङ्गः</dentry>
+<prAwipaxikam>छत्रभङ्ग</prAwipaxikam>
+<seg>छत्रः-भङ्गः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">राजकीय छ्त्र का विनाश, राज्य का नाश, राजगद्दी से उतारा जाना, सिंहासनच्युति</sense>
+<sense no="2">परास्रयता</sense>
+<sense no="3">रजामन्दी</sense>
+<sense no="4">परित्यक्त अवस्था, वैधव्य</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="9">
+<dentry>छत्रकः</dentry>
+<prAwipaxikam>छत्रक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[छत्र+कै+क]</etymology>
+<sense no="1">शिव कि पुजा के लिए मन्दिर</sense>
+</lexhead>
+
+<lexhead no="10">
+<dentry>छत्रकम्</dentry>
+<prAwipaxikam>छत्रक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[छत्र+कै+क]</etymology>
+<sense no="1">कुकुरमुत्ता, खुम्भी</sense>
+</lexhead>
+
+<lexhead no="11">
+<dentry>छत्रा</dentry>
+<prAwipaxikam>छत्रा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[छद्+ष्ट्र्न्+टाप्]</etymology>
+<is_a_part>हरिद्रासर्षपमरीचादिचूर्णम्</is_a_part>
+<upAXi>प्राकृतिकखाद्यम्</upAXi>
+<kind_of>तृणम्</kind_of>
+<jAwi>तृणम्</jAwi>
+<kind_of>सूक्ष्मशाखामूलयुक्तवृक्षः</kind_of>
+<jAwi>ओषधिः</jAwi>
+<sense no="1">कुकुरमुत्ता, खुम्भी<citation>मनु* ५/१९</citation><citation>याज्ञ* १/१७६</citation></sense>
+</lexhead>
+
+<lexhead no="12">
+<dentry>छत्राकः</dentry>
+<prAwipaxikam>छत्राक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[छत्रा+कन्]</etymology>
+<sense no="1">कुकुरमुत्ता, खुम्भी<citation>मनु* ५/१९</citation><citation>याज्ञ* १/१७६</citation></sense>
+</lexhead>
+
+<lexhead no="13">
+<dentry>छत्रिकः</dentry>
+<prAwipaxikam>छत्रिक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[छत्र+ठन्]</etymology>
+<sense no="1">छाता लेकर चलने वाला</sense>
+</lexhead>
+
+<lexhead no="14">
+<dentry>छत्रिन्</dentry>
+<prAwipaxikam>छत्रिन्</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छत्रिन्</prAwipaxikam>
+<etymology>[छत्र+इनि]</etymology>
+<sense no="1">छाता रखने वाला या लेकर चलने वाला, स्त्री*-छत्रिणि</sense>
+<sense n="2">नाई</sense>
+</lexhead>
+
+<lexhead no="15">
+<dentry>छत्वरः</dentry>
+<prAwipaxikam>छत्वर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[छद्+ष्वरच्]</etymology>
+<sense no="1">घर</sense>
+<sense n="2">कु</sense>
+</lexhead>
+
+<lexhead no="16">
+<dentry>छद्</dentry>
+<prAwipaxikam>छद्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa>-<gaNa>चुरा*</gaNa><paxI>उभ*</paxI>-<vform>छदति</vform><vform>छदते</vform><vform>छादयति</vform><vform>छादयते</vform><vform>छन्न</vform><vform>छादित</vform></grammar>
+<sense no="1">ढकना, ऊपर से ढाँप देना, पर्दा करना, हैमैश्छन्ना<citation>मेघ* ७६</citation>चक्षुः खेदात्सलिलगुरुभिः पक्ष्मभिश्छादयन्तीम्<citation>मेघ* ९०</citation>छन्नोपान्तः.......काननाम्रैः<citation>मेघ* १८</citation></sense>
+</lexhead>
+
+<lexhead no="17">
+<dentry>छ्द्</dentry>
+<prAwipaxikam>छ्द्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa>-<gaNa>चुरा*</gaNa><paxI>उभ*</paxI>-<vform>छदति</vform><vform>छदते</vform><vform>छादयति</vform><vform>छादयते</vform><vform>छन्न</vform><vform>छादित</vform></grammar>
+<sense no="1">बिछाना, ढापना, चादर की भांति</sense>
+<sense n="2">छिपाना, ढक लेना, ग्रहण लगना, गुप्त रखनाज्ञानपुर्वं कृतं कर्म छादयंन्ते ह्य्साधवः<citation>महा*</citation>छन्नं दोषमुदाहरन्ती<citation>मृच्छ* ९/४आलं*</citation></sense>
+<segmenthd>
+<dentry>अवच्छद्</dentry>
+<prAwipaxikam>अवच्छद्</prAwipaxikam>
+<seg>अव-छद्</seg>
+<grammar><gaNa>भ्वा*</gaNa>-<gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
+<sense no="4">छिपाना, ढकना, ढापना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>आच्छद्</dentry>
+<prAwipaxikam>आच्छद्</prAwipaxikam>
+<seg>आ-छद्</seg>
+<grammar><gaNa>भ्वा*</gaNa>-<gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
+<sense no="1">ढापनानाच्छादयति कौपिनम्<citation>पंच* ३/९७</citation></sense>
+<sense no="2">छिपाना, ढकनाभानोराच्छादयत्प्रभाम्<citation>महा*</citation></sense>
+<sense no="3">वस्त्र धारण करना, कपड़े पहननावस्त्रमाच्छादयति<citation>मनु* ३/२७</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>उच्छद्</dentry>
+<prAwipaxikam>उच्छद्</prAwipaxikam>
+<seg>उद्-छद्</seg>
+<grammar><gaNa>भ्वा*</gaNa>-<gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
+<sense no="1">उघाड़ना, कपड़े उतारना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>उपच्छ्द्</dentry>
+<prAwipaxikam>उपच्छ्द्</prAwipaxikam>
+<seg>उप-छ्द्</seg>
+<grammar><gaNa>भ्वा*</gaNa>-<gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
+<sense no="1">आच्छादित करना</sense>
+<sense no="2">छिपाना, ढकना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>परिच्छद्</dentry>
+<prAwipaxikam>परिच्छद्</prAwipaxikam>
+<seg>परि-छद्</seg>
+<grammar><gaNa>भ्वा*</gaNa>-<gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
+<sense no="1">ढांपना, पहननादर्भैस्तं परिच्छाद्य<citation>पंच* २</citation>द्वीपिचर्मपरिच्छिन्नः<citation>हि* ३/९गर्दभः</citation></sense>
+<sense no="2">छिपाना, ढांपना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>प्रच्छद्</dentry>
+<prAwipaxikam>प्रच्छद्</prAwipaxikam>
+<seg>प्र-छद्</seg>
+<grammar><gaNa>भ्वा*</gaNa>-<gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
+<sense no="1">ढांपना, लपेटना, पर्दा डालना, अवगुंठित करनाप्राच्छादयमेयात्मा नीहारेणेव चन्द्रमाः<citation>महा*वनं</citation></sense>
+<sense no="2">छिपाना, ढ्कना, भेस बदलनाप्रच्छादय स्वान् गुणान्<citation>भतृ* २/७७</citation>प्रदानं प्रच्छन्नम् २/६४<citation>मनु* ४/१९८</citation>१०/४०<citation>चौर* ४</citation></sense>
+<sense no="3">कपड़े पहनना, वस्त्र धारण करना</sense>
+<sense no="4">रुकावट डालना, रोड़ा अटकाना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>प्रतिच्छद्</dentry>
+<prAwipaxikam>प्रतिच्छद्</prAwipaxikam>
+<seg>प्रति-छद्</seg>
+<grammar><gaNa>भ्वा*</gaNa>-<gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
+<sense no="1">छिपाना, ढकना</sense>
+<sense no="2">ढांपना, लपेटना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>सञ्छद्</dentry>
+<prAwipaxikam>सञ्छद्</prAwipaxikam>
+<seg>सम्-छद्</seg>
+<grammar><gaNa>भ्वा*</gaNa>-<gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
+<sense no="1">छिपाना</sense>
+<sense no="2">अवगुंठित करना, लपेटना</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="18">
+<dentry>छदः</dentry>
+<prAwipaxikam>छद</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[छद्+अच्]</etymology>
+<is_a_part>पक्षिः</is_a_part>
+<upAXi>अवयवः</upAXi>
+<is_a_part>वृक्षः</is_a_part>
+<upAXi>अवयवः</upAXi>
+<sense no="1">आवरण, चादर, अल्पच्छद, उत्तरच्छद आदि</sense>
+<sense n="2">स्कन्ध, पक्षछदहेम कषन्निवालसत्<citation>नै* २/६९</citation></sense>
+<sense n="3">पत्र, पर्ण</sense>
+<sense n="4">म्यान, खोल, गिलाफ, पेटी, बक्स</sense>
+</lexhead>
+
+<lexhead no="19">
+<dentry>छदनम्</dentry>
+<prAwipaxikam>छदन</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[छद्+ल्युट् ]</etymology>
+<is_a_part>वृक्षः</is_a_part>
+<upAXi>अवयवः</upAXi>
+<sense no="1">आवरण, चादर, अल्पच्छद, उत्तरच्छद आदि</sense>
+<sense n="2">स्कन्ध, पक्ष</sense>
+<sense n="3">पत्र, पर्ण</sense>
+<sense n="4">म्यान, खोल, गिलाफ, पेटी, बक्स</sense>
+</lexhead>
+
+<lexhead no="20">
+<dentry>छदिः</dentry>
+<prAwipaxikam>छदि</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[छद्+कि]</etymology>
+<sense no="1">गाड़ी की छत</sense>
+<sense n="2">घर की छत या छप्पर</sense>
+</lexhead>
+
+<lexhead no="21">
+<dentry>छदिस्</dentry>
+<prAwipaxikam>छदिस्</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[छद्+इस् ]</etymology>
+<is_a_part>गृहम्</is_a_part>
+<jAwi>मानवनिर्मितिः</jAwi>
+<sense no="1">गाड़ी की छत</sense>
+<sense n="2">घर की छत या छप्पर</sense>
+</lexhead>
+
+<lexhead no="22">
+<dentry>छ्द्मन्</dentry>
+<prAwipaxikam>छ्द्मन्</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[छद्+मनिन्]</etymology>
+<sense no="1">धोखा देने वाले वस्त्र, कपटवेश</sense>
+<sense n="2">दलीला, बहाना, ब्याजब्रह्मछद्या सामर्थ्यसारः<citation>महावी* २/२५</citation>पलितछद्यना जरा<citation>रघु* १२/२</citation><citation>शि* २/२१</citation></sense>
+<sense n="3">जालसाजी, बेईमानी, चालाकीछद्मना परिददामि मृत्यवे<citation>उत्तर* १/१५</citation><citation>मनु* ४/१९९</citation><citation>९/७२</citation></sense>
+<segmenthd>
+<dentry>छद्मतापसः</dentry>
+<prAwipaxikam>छद्मतापस</prAwipaxikam>
+<seg>छद्मन्-तापसः</seg>
+<grammar>पुं*</grammar>
+<sense no="2">बना हुआ तपस्वी, पाखंडी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छद्मरूपेण</dentry>
+<prAwipaxikam>छद्मरूपेण</prAwipaxikam>
+<seg>छद्मन्-रूपेण</seg>
+<grammar>अव्य*</grammar>
+<sense no="1">अज्ञात रूप से, भेस बदल कर</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छद्मवेशिन्</dentry>
+<prAwipaxikam>छद्मवेशिन्</prAwipaxikam>
+<seg>छद्मन्-वेशिन्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">खिलाड़ी, ठग, भेस बदले हुए</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="23">
+<dentry>छद्मिन्</dentry>
+<prAwipaxikam>छद्मिन्</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छद्मिन्</prAwipaxikam>
+<etymology>[छद्मन्+इनि]</etymology>
+<sense no="1">जालसाज, धोखेबाज, स्त्री* - छद्मिनि</sense>
+<sense n="2">भेस बदलते हुएसमास के अन्त में, उदा* - ब्राह्मण का रूप धारण किये हुए</sense>
+</lexhead>
+
+<lexhead no="24">
+<dentry>छन्द्</dentry>
+<prAwipaxikam>छन्द्</prAwipaxikam>
+<grammar><gaNa>चुरा*</gaNa><paxI>उभ*</paxI>-<vform>छंदयति</vform><vform>छंदयते</vform><vform>छंदित</vform></grammar>
+<sense no="1">प्रसन्न करना, तुष्ट करना</sense>
+<sense n="2">फुसलाना, बहकाना</sense>
+<sense n="3">ढाँपना</sense>
+<sense n="4">प्रसन्न होना</sense>
+<segmenthd>
+<dentry>उपच्छन्द्</dentry>
+<prAwipaxikam>उपच्छन्द्</prAwipaxikam>
+<seg>उप-छन्द्</seg>
+<grammar><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
+<sense no="1">चापलूसी करना, फुसलाना, आमन्त्रित करनात्वयोपछन्दित उदकेन<citation>श* ५</citation>पानी पीने के लिये फुसलाया गया</sense>
+<sense no="2">प्रार्थना करना, निवेदन करना</sense>
+<sense no="3">अनुनय करना</sense>
+<sense no="4">कुछ देना</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="25">
+<dentry>छन्दः</dentry>
+<prAwipaxikam>छन्द</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[छन्द्+घञ्]</etymology>
+<jAwi>दिक्</jAwi>
+<jAwi>मानसिकभावः</jAwi>
+<jAwi>मानसिकभावः</jAwi>
+<sense no="1">कामना, इच्छा, कल्पना, चाह, अभिलाषा, विज्ञायतां देवि यस्ते छन्द इति<citation>विक्रम* ३</citation>(जैसा आप चाहें)</sense>
+<sense n="2">स्वतन्त्र इच्छा, अपनी छाँट, मन कि मौज, कामचार, स्वतन्त्र या इच्छानुकूल आचरणषष्ठे काले त्वमपि दिवसस्यात्मनश्छन्दवर्ती<citation>विक्रम* २/१</citation><citation>गीत* १</citation><citation>याज्ञ* २/१९४</citation>स्वछन्दम्, (अपनी स्वतन्त्र इच्छा के अनुसार, निरपेक्ष रूप से)</sense>
+<sense n="3">वश्यता, नियन्त्रण</sense>
+<sense n="4">मतलब, इरादा, आशय</sense>
+<sense n="5">जहर</sense>
+</lexhead>
+
+<lexhead no="26">
+<dentry>छन्दस्</dentry>
+<prAwipaxikam>छन्दस्</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[छन्द्+असुन्]</etymology>
+<kind_of>मनोविकारः</kind_of>
+<jAwi>मानसिकभावः</jAwi>
+<jAwi>पौरुषेयम्</jAwi>
+<sense no="1">कामना, चाह, कल्पना, इच्छा, मरजी, मूर्खं छन्दोऽनुवृत्तेन या थातथ्येन पन्डितम्<citation>चाण* ३३</citation>गृह्</sense>
+<sense n="2">स्वतन्त्र इच्छा, स्वेच्छाचरण</sense>
+<sense n="3">मतलब, इरादा</sense>
+<sense n="4">जालसाज, चालाकी, धोखा</sense>
+<sense n="5">वेद, वैदिक सूक्तों का पावन पाठस च कुलपतिराद्यश्छन्दसां यः प्रयोक्ता<citation>उत्तर* ३/४८</citation>बहुलं छन्दसि, (पाणिनि के द्वारा बहुधा प्रयुक्त), प्रणवश्छन्दसामिव<citation>रघु* १/११</citation><citation>याज्ञ* १/१४३</citation><citation>मनु* ४/९५</citation></sense>
+<sense n="6">वृत, छन्दऋक् छन्दसा आशास्ते<citation>श* ४</citation>गायत्री छन्दसामहम्<citation>भग* १०/३४</citation><citation>१३/१४</citation></sense>
+<sense n="7">छन्दों का ज्ञान, छन्दः शास्त्रछः वेदाड़्गो में से छन्दः शास्त्र भी एक वेदाड़्ग माना जाता है- अन्य वेदाड़् हैं - शिक्षा, व्याकरण, कल्प, निरुक्त और् ज्योतिष्</sense>
+<segmenthd>
+<dentry>छन्दस्कृतम्</dentry>
+<prAwipaxikam>छन्दस्कृत</prAwipaxikam>
+<seg>छन्दस्-कृतम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="4">वेद का पद्यात्मक भाग या कोई दुसरी पावन रचनायथोदितेन विधिना नित्यं छन्दस्कृतं पठेत्<citation>मनु* ४/१००</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>छन्दोगः</dentry>
+<prAwipaxikam>छन्दोग</prAwipaxikam>
+<seg>छन्दस्-गः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">श्लोकों का सस्वर पाठ करने वालाछन्दोगः</sense>
+<sense no="2">सामगायक या सामगान का विद्यार्थीछन्दोगः सामवेदाध्यायी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छन्दोभङ्गः</dentry>
+<prAwipaxikam>छन्दोभङ्ग</prAwipaxikam>
+<seg>छन्दस्-भङ्गः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">छन्दः शास्त्र के नियमों का उल्लंघन</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छन्दोविचितिः</dentry>
+<prAwipaxikam>छन्दोविचिति</prAwipaxikam>
+<seg>छन्दस्-विचितिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">’छन्दः परीक्षा’ छन्दः शास्त्र क एक ग्रन्थ छन्दोविचित्यां सकलस्तत्प्रपञ्चो निदर्शितः<citation>काव्या* १/१२(कभी कभी इसे दण्डिरचित माना जाता है)</citation></sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="27">
+<dentry>छन्न</dentry>
+<prAwipaxikam>छन्न</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छन्न</prAwipaxikam>
+<etymology>[छद्+क्त]</etymology>
+<jAwi>द्रव्यम्</jAwi>
+<kind_of>भूमिः</kind_of>
+<jAwi>स्थानम्</jAwi>
+<sense no="1">ढका हुआ</sense>
+<sense n="2">छिपा हुआ, गुप्त, रहस्य आदिदे* छद्</sense>
+</lexhead>
+
+<lexhead no="28">
+<dentry>छमण्डः</dentry>
+<prAwipaxikam>छमण्ड</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[छम्+अण्डन्]</etymology>
+<sense no="1">अनाथ, मातृपितृहीन, जिसका कोई सम्बन्धी न हो</sense>
+</lexhead>
+
+<lexhead no="29">
+<dentry>छर्द्</dentry>
+<prAwipaxikam>छर्द्</prAwipaxikam>
+<grammar><gaNa>चुरा*</gaNa><paxI>उभ*</paxI>-<vform>छर्दयति</vform><vform>छर्दित</vform></grammar>
+<sense no="1">वमन करना, कै करना</sense>
+</lexhead>
+
+<lexhead no="30">
+<dentry>छर्दः</dentry>
+<prAwipaxikam>छर्द</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[छर्द्+घञ्]</etymology>
+<sense no="1">वमन, कै करन, अस्वस्थता</sense>
+</lexhead>
+
+<lexhead no="31">
+<dentry>छर्दनम्</dentry>
+<prAwipaxikam>छर्दन</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[छर्द्+ल्युट्]</etymology>
+<sense no="1">वमन, कै करन, अस्वस्थता</sense>
+</lexhead>
+
+<lexhead no="32">
+<dentry>छर्दिः</dentry>
+<prAwipaxikam>छर्दि</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[छर्द्+इन् ]</etymology>
+<sense no="1">वमन, कै करन, अस्वस्थता</sense>
+</lexhead>
+
+<lexhead no="33">
+<dentry>छर्दिका</dentry>
+<prAwipaxikam>छर्दिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[छर्दि+कन्+टाप्]</etymology>
+<sense no="1">वमन, कै करन, अस्वस्थता</sense>
+</lexhead>
+
+<lexhead no="34">
+<dentry>छर्दिस्</dentry>
+<prAwipaxikam>छर्दिस्</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+?<etymology>[छर्द् इति ]</etymology>
+<sense no="1">वमन, कै करन, अस्वस्थता</sense>
+</lexhead>
+
+<lexhead no="35">
+<dentry>छलः</dentry>
+<prAwipaxikam>छल</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[छल्+अच्]</etymology>
+<is_a_part>रणव्याकुलता</is_a_part>
+<jAwi>क्रिया</jAwi>
+<sense no="1">जालसाजी, चालाकी, धोखा, दगाबाजी, विद्यहे शठपलायनच्छलानि<citation>रघु* १९/३१</citation>छलमत्र न गृह्यते<citation>मृच्छ*९/१८</citation><citation>याज्ञ* १/६१<citation>मनु* ८/४९</citation></citation>@ अमरु १६<citation>शि* १३/११</citation></sense>
+<sense n="2">बदमाशी, धूर्तता</sense>
+<sense n="3">दलील, बहाना, ब्याज, बाह्यरूप(इस अर्थ में बहुधा ’उत्प्रेक्षा’ बतलाने के लिए इसका प्रयोग किया जाता है), परिखावलयच्छलेन या न परेषां ग्रहणस्य गोचरा<citation>नै* २/९५</citation>प्रत्यर्प्य पूजामुपदाच्छलेन<citation>रघु*७/३०</citation>५४, १६/२८<citation>भट्टि* १/१</citation><citation>अमरु* १५</citation><citation>मा* ९/१</citation></sense>
+<sense n="4">इरादा</sense>
+<sense n="5">दुष्टता</sense>
+<sense n="6">हेत्वाभास</sense>
+<sense n="7">योजना, उपाय, तरकीब</sense>
+</lexhead>
+
+<lexhead no="36">
+<dentry>छलम्</dentry>
+<prAwipaxikam>छल</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[छल्+अच्]</etymology>
+<is_a_part>रणव्याकुलता</is_a_part>
+<jAwi>क्रिया</jAwi>
+<sense no="1">जालसाजी, चालाकी, धोखा, दगाबाजी</sense>
+<sense n="2">बदमाशी, धूर्तता</sense>
+<sense n="3">दलील, बहाना, ब्याज, बाह्यरूप(इस अर्थ में बहुधा ’उत्प्रेक्षा’ बतलाने के लिए इसका प्रयोग किया जाता है), परिखावलयच्छलेन या न परेषां ग्रहणस्य गोचरा<citation>नै* २/९५</citation>प्रत्यर्प्य पूजामुपदाच्छलेन<citation>रघु*७/३०</citation>५४, १६/२८<citation>भट्टि* १/१</citation><citation>अमरु* १५</citation><citation>मा* ९/१</citation></sense>
+<sense n="4">इरादा</sense>
+<sense n="5">दुष्टता</sense>
+<sense n="6">हेत्वाभास</sense>
+<sense n="7">योजना, उपाय, तरकीब</sense>
+</lexhead>
+
+<lexhead no="37">
+<dentry>छलनम्</dentry>
+<prAwipaxikam>छलन</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[छल्+ल्युट्]</etymology>
+<sense no="1">धोखा देना, ठगना, बुद्धि में दूसरे को पराजित करना</sense>
+</lexhead>
+
+<lexhead no="38">
+<dentry>छलना</dentry>
+<prAwipaxikam>छलना</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[छल्-ल्युट्+टाप्]</etymology>
+<sense no="1">धोखा देना, ठगना, बुद्धि में दूसरे को पराजित करना</sense>
+</lexhead>
+
+<lexhead no="39">
+<dentry>छलयति</dentry>
+<prAwipaxikam>छलयति</prAwipaxikam>
+<grammar>ना* धा*<paxI>पर*</paxI></grammar>
+<sense no="1">अपनी चतुराई से बुद्धि मे दूसरे को पराजित करना, धोखा देना, ठगना, बलिं छलयते<citation>गीत* १</citation>शैवाल्लोलांश्छलयन्ति मीनान्<citation>रघु* १६/६१</citation><citation>भग* १०/३६</citation><citation>अमरु* ४१</citation></sense>
+</lexhead>
+
+<lexhead no="40">
+<dentry>छलिकम्</dentry>
+<prAwipaxikam>छलिक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[छल+ठन्]</etymology>
+<sense no="1">एक प्रकार का नाटक या नृत्य, छलिकं दुष्प्रयोज्यमुदाहरन्ति<citation>मालवि* २</citation></sense>
+</lexhead>
+
+<lexhead no="41">
+<dentry>छलिन्</dentry>
+<prAwipaxikam>छलिन्</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[छल+इनि]</etymology>
+<sense no="1">ठग, उचक्का, शठ</sense>
+</lexhead>
+
+<lexhead no="42">
+<dentry>छल्लि</dentry>
+<prAwipaxikam>छल्लि</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[छद्+क्विप्-ला]</etymology>
+<sense no="1">वल्कल छाल</sense>
+<sense n="2">फैलने वाली लता</sense>
+<sense n="3">सन्तान, प्रजा, सन्तति, औलाद</sense>
+</lexhead>
+
+<lexhead no="43">
+<dentry>छल्ली</dentry>
+<prAwipaxikam>छल्ली</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[छद्+क्विप्- ला+क, गौरा* ङीष्]</etymology>
+<sense no="1">वल्कल छाल</sense>
+<sense n="2">फैलने वाली लता</sense>
+<sense n="3">सन्तान, प्रजा, सन्तति, औलाद</sense>
+</lexhead>
+
+<lexhead no="44">
+<dentry>छविः</dentry>
+<prAwipaxikam>छवि</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+?<etymology><vigraha_vAkya>छ्यति असारं छिनत्ति तमो वा</vigraha_vAkya>[छो-वि+किच्च/छो-वि+ड़ीप्]</etymology>
+<jAwi>तेजः</jAwi>
+<jAwi>तेजः</jAwi>
+<sense no="1">आभा, चेहरे की सुर्खी, चेहरे क रंगरूप, हिमकरोदयपाण्डुमुखच्छविः<citation>रघु* ९/३८</citation>छविः पाण्डुरा<citation>श* ३/१०</citation><citation>३३</citation></sense>
+<sense n="2">सामान्य रंगरूप</sense>
+<sense n="3">सौन्दर्य, आभा, कान्तिछविकरं मुखचूर्णमृतुस्रियः<citation>रघु* ९/४५स्त्री* - गी</citation></sense>
+<sense n="4">प्रकाश, दीप्तिवंचितः</sense>
+<sense n="5">त्वचा, खालस्त्री* - गी</sense>
+</lexhead>
+
+<lexhead no="45">
+<dentry>छाग</dentry>
+<prAwipaxikam>छाग</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छाग</prAwipaxikam>
+<etymology>[छो+गन्]</etymology>
+<is_a_part>अजसमूहः</is_a_part>
+<kind_of>पशुः</kind_of>
+<jAwi>स्तनपायी</jAwi>
+<sense no="1">बकरे या बकरी से सम्बन्ध रखने वाला<citation>याज्ञ* १/२५८</citation></sense>
+</lexhead>
+
+<lexhead no="46">
+<dentry>छागः</dentry>
+<prAwipaxikam>छाग</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[छो+गन्]</etymology>
+<is_a_part>अजसमूहः</is_a_part>
+<kind_of>पशुः</kind_of>
+<jAwi>स्तनपायी</jAwi>
+<sense no="1">बकरा बकरी, ब्राह्मणश्छागतो यथा<citation>हि* ४/५३</citation><citation>मनु* ३/२६९</citation></sense>
+<sense n="2">मेष राशि</sense>
+</lexhead>
+
+<lexhead no="47">
+<dentry>छागम्</dentry>
+<prAwipaxikam>छाग</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[छो+गन्]</etymology>
+<is_a_part>अजसमूहः</is_a_part>
+<kind_of>पशुः</kind_of>
+<jAwi>स्तनपायी</jAwi>
+<sense no="1">बकरी का दूध</sense>
+<segmenthd>
+<dentry>छागभोजन</dentry>
+<prAwipaxikam>छागभोजन</prAwipaxikam>
+<seg>छाग-भोजन</seg>
+<grammar>पुं*</grammar>
+<sense no="1">भेड़िया</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छागमुखः</dentry>
+<prAwipaxikam>छागमुख</prAwipaxikam>
+<seg>छाग-मुखः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">कार्तिकेय का विशेषण</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छागरथः</dentry>
+<prAwipaxikam>छागरथ</prAwipaxikam>
+<seg>छाग-रथः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">आग की देवता, अग्नि कि उपाधिस्त्री* -ली</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छागवाहनः</dentry>
+<prAwipaxikam>छागवाहन</prAwipaxikam>
+<seg>छाग-वाहनः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">आग की देवता, अग्नि कि उपाधि</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="48">
+<dentry>छागणः</dentry>
+<prAwipaxikam>छागण</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[छगण+अण्]</etymology>
+<sense no="1">सूखे कण्डों की आग</sense>
+</lexhead>
+
+<lexhead no="49">
+<dentry>छागल</dentry>
+<prAwipaxikam>छागल</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छागल</prAwipaxikam>
+<etymology>[छगल+अण्]</etymology>
+<sense no="1">बकरी से प्राप्त होनेवाला</sense>
+</lexhead>
+
+<lexhead no="50">
+<dentry>छागलः</dentry>
+<prAwipaxikam>छागल</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[छगल+अण्]</etymology>
+<sense no="1">बकरा</sense>
+</lexhead>
+
+<lexhead no="51">
+<dentry>छात</dentry>
+<prAwipaxikam>छात</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छात</prAwipaxikam>
+<etymology>[छो+क्त]</etymology>
+<jAwi>द्रव्यम्</jAwi>
+<kind_of>पुरुषः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<sense no="1">काटा गया, विभक्त</sense>
+<sense n="2">निर्बल, दुबलापतला, कृश</sense>
+</lexhead>
+
+<lexhead no="52">
+<dentry>छात्रः</dentry>
+<prAwipaxikam>छात्र</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>छत्रं गुरोर्वैगुण्यावरणं शीलमस्य</vigraha_vAkya>[छत्र+ण]</etymology>
+<jAwi>मनुष्यः</jAwi>
+<upAXi>वृत्तिः</upAXi>
+<sense no="1">विद्यार्थी, शिष्य</sense>
+</lexhead>
+
+<lexhead no="53">
+<dentry>छात्रम्</dentry>
+<prAwipaxikam>छात्र</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology><vigraha_vAkya>छत्रं गुरोर्वैगुण्यावरणं शीलमस्य</vigraha_vAkya>[छत्र+ण]</etymology>
+<jAwi>मनुष्यः</jAwi>
+<upAXi>वृत्तिः</upAXi>
+<sense no="1">एक प्रकार का मधु</sense>
+<segmenthd>
+<dentry>छात्रगण्डः</dentry>
+<prAwipaxikam>छात्रगण्ड</prAwipaxikam>
+<seg>छात्र-गण्डः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">काव्य का अन्यमनस्क विद्यार्थी जिसे श्लोकों का केवल आरम्भिक पद याद हो</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छात्रदर्शनम्</dentry>
+<prAwipaxikam>छात्रदर्शन</prAwipaxikam>
+<seg>छात्र-दर्शनम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">एक दिन रक्खे हुए दूध् से निकाला हुआ मक्खनआलं* भी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छात्रव्यंसकः</dentry>
+<prAwipaxikam>छात्रव्यंसक</prAwipaxikam>
+<seg>छात्र-व्यंसकः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">मन्दबुद्धि या धूर्त विद्यार्थी</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="54">
+<dentry>छादम्</dentry>
+<prAwipaxikam>छाद</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[छ्द्+णिच्+घञ्]</etymology>
+<sense no="1">छप्पर, छत</sense>
+</lexhead>
+
+<lexhead no="55">
+<dentry>छादनम्</dentry>
+<prAwipaxikam>छादन</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[खद+णिच्+ल्युट्]</etymology>
+<sense no="1">आवरण, पर्दा, विनिर्मितं छादनमज्ञतायाः<citation>भर्तृ* २/७</citation></sense>
+<sense n="2">छिपानादे* छन्न</sense>
+<sense n="3">पत्र</sense>
+<sense n="4">परिधानजैसा कि छान्दसः प्रयोगः स्त्री* - सी</sense>
+</lexhead>
+
+<lexhead no="56">
+<dentry>छादित</dentry>
+<prAwipaxikam>छादित</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छादित</prAwipaxikam>
+<jAwi>द्रव्यम्</jAwi>
+<sense no="1">, दे* छन्न</sense>
+</lexhead>
+
+<lexhead no="57">
+<dentry>छाद्मिकः</dentry>
+<prAwipaxikam>छाद्मिक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[छद्यन्+ठक्]</etymology>
+<sense no="1">धूर्त, कपटी<citation>मनु* ४/१९५</citation></sense>
+</lexhead>
+
+<lexhead no="58">
+<dentry>छान्दस्</dentry>
+<prAwipaxikam>छान्दस्</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छान्दस्</prAwipaxikam>
+<etymology>[छन्दस्+अण्]</etymology>
+<sense no="1">वैदिक वेदों के लिए विशेष शब्द स्त्री* छान्दसी, जैसा कि छान्दसः प्रयोगः</sense>
+<sense n="2">वेदाध्यायी, वेदज्ञत* समास के अन्त मे ’छाय’ हो जाता है जब कि छाँह की सघनता का बोध अपेक्षित हो</sense>
+<sense n="3">पद्यमय, छन्दोबद्ध</sense>
+</lexhead>
+
+<lexhead no="59">
+<dentry>छान्दसः</dentry>
+<prAwipaxikam>छान्दस</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[छन्दस्+अण्]</etymology>
+<kind_of>पण्डितः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<upAXi>वृत्तिः</upAXi>
+<sense no="1">वेद ज्ञाता ब्राह्मण</sense>
+</lexhead>
+
+<lexhead no="60">
+<dentry>छाया</dentry>
+<prAwipaxikam>छाया</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[छो+य+टाप्]</etymology>
+<jAwi>अलौकिकचेतनः</jAwi>
+<jAwi>तेजः</jAwi>
+<jAwi>अचलनिर्जीववस्तु</jAwi>
+<jAwi>आतपाभावः</jAwi>
+<sense no="1">छाँह, छाँव, इक्षुच्छायनिषादिन्यः<citation>रघु* ४/२०</citation>इसी प्रकार ७/४ ५०<citation>मुद्रा* ४/२१</citation>छायामधः सानुगतां निषेव्य<citation>कु* १/५</citation>६/४६, अनुभवति हि मूध्ना पादपस्तीव्रमुष्णं शमयति परितापं छायया संस्रितानां<citation>श* ५/६</citation><citation>रघु* १/७५<citation>मेघ*२/६</citation></citation><citation>३/७०</citation></sense>
+<sense n="2">प्रतिबिम्बित मूर्ति, अक्सछाया न मूर्छति मलोपहतप्रसादे शुद्धे तु दर्पणतले सुलभावकाशा<citation>श* ७/३२</citation></sense>
+<sense n="3">समरूपता, समानता</sense>
+<sense n="4">असत्य, कल्पना, दृष्टिभ्रम</sense>
+<sense n="5">रंगों का समामिस्रण</sense>
+<sense n="6">दीप्ति, प्रकाशछायमण्डललक्ष्येण<citation>रघु* ४/५</citation>रत्नच्छायाव्यतिकरः<citation>मेघ* १५/३६</citation></sense>
+<sense n="7">रंग<citation>मा* ६/५</citation></sense>
+<sense n="8">चेहरे की रंगत, स्वाभाविक रंगरूपकेवलं लावण्यमयी छाया त्वां न मुञ्चति<citation>श* ३</citation>मेघैरन्तरितः प्रिये तव मुखच्छायानुकारी शशी<citation>सा* द*</citation></sense>
+<sense n="9">सौन्दर्यक्षामच्छायं भवनम्<citation>मेघ* ८०/१०४</citation></sense>
+<sense n="10">रक्षा</sense>
+<sense n="11">पंक्ति, रेखा</sense>
+<sense n="12">अन्धकारयह सूर्य की पत्नी संज्ञा की प्रकृति - या छाया ही थी, फलतः जिस समय संज्ञा अपने पति को बिना बताये अपने पिता के घर चली गई तो छाया से सूर्य के तीन सन्तान हुई - दो पुत्र- सावर्णि और शनि, एक कन्या - तपनी</sense>
+<sense n="13">रिश्वत</sense>
+<sense n="14">दुर्गा</sense>
+<sense n="15">सूर्य की पत्नी</sense>
+<segmenthd>
+<dentry>छायाङ्कः</dentry>
+<prAwipaxikam>छायाङ्क</prAwipaxikam>
+<seg>छाया-अङ्कः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">चन्द्रमा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छायाकरः</dentry>
+<prAwipaxikam>छायाकर</prAwipaxikam>
+<seg>छाया-करः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">छाता लेकर चलने वाला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छायाग्रहः</dentry>
+<prAwipaxikam>छायाग्रह</prAwipaxikam>
+<seg>छाया-ग्रहः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">शीशा, दर्पण</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छायातनयः</dentry>
+<prAwipaxikam>छायातनय</prAwipaxikam>
+<seg>छाया-तनयः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">सूर्यपुत्र शनि</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छायासुतः</dentry>
+<prAwipaxikam>छायासुत</prAwipaxikam>
+<seg>छाया-सुतः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">सूर्यपुत्र शनि</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छायातरुः</dentry>
+<prAwipaxikam>छायातरु</prAwipaxikam>
+<seg>छाया-तरुः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">वह वृक्ष जिसकी छाया घनी हो, छायादार पेड़<citation>मेघ* १</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>छायाद्वितीय</dentry>
+<prAwipaxikam>छायाद्वितीय</prAwipaxikam>
+<seg>छाया-द्वितीय</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छायाद्वितीय</prAwipaxikam>
+<sense no="1">वह जिसका साथ एक मात्र छाया हो, अकेला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छायापथः</dentry>
+<prAwipaxikam>छायापथ</prAwipaxikam>
+<seg>छाया-पथः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">पर्यावरण<citation>रघु* १३/२</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>छायाभृत्</dentry>
+<prAwipaxikam>छायाभृत्</prAwipaxikam>
+<seg>छाया-भृत्</seg>
+<grammar>पुं*</grammar>
+<sense no="1">चन्द्रमा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छायामानः</dentry>
+<prAwipaxikam>छायामान</prAwipaxikam>
+<seg>छाया-मानः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">चन्द्रमा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छायानम्</dentry>
+<prAwipaxikam>छायान</prAwipaxikam>
+<seg>छाया-नम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">छाया का मापना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छायामित्रम्</dentry>
+<prAwipaxikam>छायामित्र</prAwipaxikam>
+<seg>छाया-मित्रम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">छतरी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छायामृगधरः</dentry>
+<prAwipaxikam>छायामृगधर</prAwipaxikam>
+<seg>छाया-मृगधरः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">चन्द्रमा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छायायन्त्रम्</dentry>
+<prAwipaxikam>छायायन्त्र</prAwipaxikam>
+<seg>छाया-यन्त्रम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">छाया द्वारा काल का ज्ञान कराने वाला यन्त्र, धूपघड़ी</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="61">
+<dentry>छायामय</dentry>
+<prAwipaxikam>छायामय</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छायामय</prAwipaxikam>
+<etymology>[छाया+मयट्]</etymology>
+<sense no="1">प्रतिबिम्बि, छायादार</sense>
+</lexhead>
+
+<lexhead no="62">
+<dentry>छिः</dentry>
+<prAwipaxikam>छि</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+?<etymology>[छो+कि बा*]</etymology>
+<sense no="1">गाली, अपशब्द</sense>
+</lexhead>
+
+<lexhead no="63">
+<dentry>छिक्का</dentry>
+<prAwipaxikam>छिक्का</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[छिक्-कै+क+टाप्]</etymology>
+<sense no="1">छींकना, छींक</sense>
+</lexhead>
+
+<lexhead no="64">
+<dentry>छित</dentry>
+<prAwipaxikam>छित</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छित</prAwipaxikam>
+<jAwi>द्रव्यम्</jAwi>
+<sense no="1">, #REF!</sense>
+</lexhead>
+
+<lexhead no="65">
+<dentry>छित्तिः</dentry>
+<prAwipaxikam>छित्ति</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[छिद्+क्तिन्]</etymology>
+<sense no="1">काटना, टुकड़े-टुकड़े करना</sense>
+</lexhead>
+
+<lexhead no="66">
+<dentry>छित्वर</dentry>
+<prAwipaxikam>छित्वर</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छित्वर</prAwipaxikam>
+<etymology>[छिद्+ष्वरप्, पृषो०दस्य तः]</etymology>
+<sense no="1">काटना, काट देना, चीरना, कटाई करना, फाड़ना, छेदना, टुकड़े-टुकड़े करना, विदीर्ण करना, खण्ड-खण्ड करना, विभक्त करना, नैनं छिन्दन्ति शस्त्राणि<citation>भग * २/२३</citation>रघु* १२/८०, मनु* ४/६१, ७० याज्ञ* २/३०२, स्त्री०-री</sense>
+<sense n="2">बाधा डालना, विघ्न डालना</sense>
+<sense n="3">हटाना, दूर करना, नष्ट कारना, शान्त करना, मारनातृष्णां छिन्धि<citation>भर्तृ* २/७७</citation>एतन्मे संशयं छिन्धि मतिर्मे संप्रमुह्यति<citation>महा*</citation>राघवो रथमप्राप्तां तामाशां च सुरद्विषाम्, अर्धचन्द्रमुखैर्बाणैश्चिच्छेद कदलीमुखम्<citation>रघु* १२/९६</citation>कु* ७/१६</sense>
+<segmenthd>
+<dentry>अवछित्वर</dentry>
+<prAwipaxikam>अवछित्वर</prAwipaxikam>
+<seg>अव+छित्वर</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">अवछित्वर</prAwipaxikam>
+<sense no="1">काट डालना, टुकड़े-टुकड़े कर देना, अलग-अलग करना, विभक्त करना</sense>
+<sense no="2">भेद बताना, विवेचन करना</sense>
+<sense no="3">सुधारना, परिभाषा देना, सीमित करना इस अर्थ में इस शब्द का प्रयोग न्याय में बहुमत से होता है दे० अवच्छिन्न</sense>
+</segmenthd>
+<segmenthd>
+<dentry>आछित्वर</dentry>
+<prAwipaxikam>आछित्वर</prAwipaxikam>
+<seg>आ+छित्वर</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">आछित्वर</prAwipaxikam>
+<sense no="1">काट डालना, फाड़ना, टुकड़े-टुकड़े करना</sense>
+<sense no="2">छीनना, खसोटना, ले आना<citation>कु* २/४६</citation>मा* ५/२८</sense>
+<sense no="3">काट डालना, अलग कर देना<citation>मनु* ४/२१९</citation></sense>
+<sense no="4">हटाना, खींचकर दूर करना</sense>
+<sense no="5">खींचना, खींचकर दूर करना, उद्धृत करना, निकालना</sense>
+<sense no="6">अवहेलना करना, ध्यान न देना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>उत्छित्वर</dentry>
+<prAwipaxikam>उत्छित्वर</prAwipaxikam>
+<seg>उद्+छित्वर</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">उत्छित्वर</prAwipaxikam>
+<sense no="1">काट डालना, नष्ट करना, उन्मूलन करना, उखाड़ देनानोच्छिद्यादात्मनो मूलं परेषां चातितृष्णया<citation>महा* किं वा रिपूंस्तव गुरुःस्वयमुच्छिन्नत्</citation><citation>रघु* ५/७१</citation>२/२३, पंच* १/४७</sense>
+<sense no="2">हस्तक्षेप करना, विघ्न डालना, रोकनाअर्थेन तु विहीनस्य पुरुषस्याल्पमेधसः, उच्छिद्यन्ते क्रियाःसर्वाः ग्रीष्मे कुसरितो यथा<citation>पंच* २/८४</citation>मनु* ३/१०१</sense>
+</segmenthd>
+<segmenthd>
+<dentry>परिछित्वर</dentry>
+<prAwipaxikam>परिछित्वर</prAwipaxikam>
+<seg>परि+छित्वर</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">परिछित्वर</prAwipaxikam>
+<sense no="1">फाड़ना, काट डालना, टुकड़े-टुकड़े करना</sense>
+<sense no="2">घायल करना, अंग-भंग करना</sense>
+<sense no="3">अलग करना, विभक्त करना, जुदा करनाशतेन परिच्छिद्य<citation>सिद्धा*</citation></sense>
+<sense no="4">सही-सही निश्चित करना, सीमा बनाना, परिभाषा करना, निश्चय करना, भेद बताना, विवेचन करनामध्यथा भगवती नौ गुणदोषतः परिच्छेत्तुमर्हति<citation>मालवि* १</citation>यशः परिच्छेत्तुमियत्तयालम्<citation>रघु* ६/७७</citation>१७/५९, कु* २/५८ न</sense>
+</segmenthd>
+<segmenthd>
+<dentry>प्रछित्वर</dentry>
+<prAwipaxikam>प्रछित्वर</prAwipaxikam>
+<seg>प्र+छित्वर</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">प्रछित्वर</prAwipaxikam>
+<sense no="1">काट डालना, टुकड़े-टुकड़े करना</sense>
+<sense no="2">ले जाना, वापिस लेना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>विछित्वर</dentry>
+<prAwipaxikam>विछित्वर</prAwipaxikam>
+<seg>वि+छित्वर</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">विछित्वर</prAwipaxikam>
+<sense no="1">काट डालना, तोड़ना, फोड़ना, विभक्त करनायदर्धे विच्छिन्नं भवति कृतसन्धानमिव तत्<citation>श* १/९</citation>रघु* १६/२०, भर्तृ* १/९६</sense>
+<sense no="2">बाधा डालना, तोड़ देना, समाप्त करना, खतम करना, नष्ट करना, बुझा देनाविच्छिद्यमाने॓&amp;पि कुले परस्य<citation>भट्टि* ३/५२</citation>अमरु ७४ कुल का दीपक</sense>
+</segmenthd>
+<segmenthd>
+<dentry>संछित्वर</dentry>
+<prAwipaxikam>संछित्वर</prAwipaxikam>
+<seg>सम्+छित्वर</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">संछित्वर</prAwipaxikam>
+<sense no="1">काटना, काट डालना, विभक्त् करना</sense>
+<sense no="2">दूर करना, साफ कर देना, निवारण करना, हटाना संदेह आदि</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="67">
+<dentry>छिद्</dentry>
+<prAwipaxikam>छिद्</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छिद्</prAwipaxikam>
+<etymology>[छिद्+क्विप्]</etymology>
+<sense no="1">काटने वाला, विभख्त होने वाला, नष्ट करने वाला, हटाने वाला, खण्ड-खण्ड करने वाला, श्रमच्छिदामाश्रमपादपानाम्<citation>रघु* ५/६ पङ्कच्छिदः फलस्य</citation><citation>मालवि* २/८</citation></sense>
+</lexhead>
+
+<lexhead no="68">
+<dentry>छिदकम्</dentry>
+<prAwipaxikam>छिदक</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[छिद्+क्वुन्]</etymology>
+<sense no="1">इन्द्र का वज्र</sense>
+<sense n="2">हीरा</sense>
+</lexhead>
+
+<lexhead no="69">
+<dentry>छिदा</dentry>
+<prAwipaxikam>छिदा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[छिद्+अङ्+टाप्]</etymology>
+<sense no="1">काटना, विभाजन</sense>
+</lexhead>
+
+<lexhead no="70">
+<dentry>छिदिः</dentry>
+<prAwipaxikam>छिदि</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[छिद्+इन्]</etymology>
+<sense no="1">कुल्हाड़ा</sense>
+<sense n="2">इन्द्र का वज्र</sense>
+</lexhead>
+
+<lexhead no="71">
+<dentry>छिदिरः</dentry>
+<prAwipaxikam>छिदिर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[छिद्+किरच्]</etymology>
+<sense no="1">कुल्हाड़ा</sense>
+<sense n="2">शब्द</sense>
+<sense n="3">अग्नि</sense>
+<sense n="4">रस्सा, डोरी</sense>
+</lexhead>
+
+<lexhead no="72">
+<dentry>छिदुर</dentry>
+<prAwipaxikam>छिदुर</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छिदुर</prAwipaxikam>
+<etymology>[छिद्+कुरच्]</etymology>
+<sense no="1">काटने वाला, विभक्त करने वाला</sense>
+<sense n="2">आसानी से टूटने वाला</sense>
+<sense n="3">टूटा हुआअव्यवस्थित, अस्तव्यस्त-संलक्ष्यते न च्छिदुरो&amp;पि हारः<citation>रघु* १६/६२</citation></sense>
+<sense n="4">शत्रु</sense>
+<sense n="5">धूर्त, बदमाश, शठ</sense>
+</lexhead>
+
+<lexhead no="73">
+<dentry>छिद्र</dentry>
+<prAwipaxikam>छिद्र</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छिद्र</prAwipaxikam>
+<etymology>[छिद्+रक्/छिद्र+अच्]</etymology>
+<kind_of>स्थानम्</kind_of>
+<jAwi>प्राकृतिकस्थानम्</jAwi>
+<sense no="1">छिदा हुआ, छिद्रों से युक्त्</sense>
+</lexhead>
+
+<lexhead no="74">
+<dentry>छिद्रम्</dentry>
+<prAwipaxikam>छिद्र</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[छिद्+रक्/छिद्र+अच्]</etymology>
+<kind_of>स्थानम्</kind_of>
+<jAwi>प्राकृतिकस्थानम्</jAwi>
+<sense no="1">छिद्र, दरार, फाँट, कटाव, रन्ध्र, गर्त, विवर, दरज, नवच्छिद्राणि तान्येव प्राणस्यायतनानि तु<citation>याज्ञ* ३/९९</citation>मनु* ८/२३९ अयं पटंश्छिद्रशतैरलङ्कृतः<citation>मृच्छ* २/९</citation>इसी प्रकार काष० धूमि०</sense>
+<sense n="2">दोष, त्रुटि, दूषणत्वं हि सर्षपमात्राणि परच्छिद्राणि पश्यसि, आत्मनो बिल्वमात्राणि पश्यन्नपि न पश्यसि<citation>महा*</citation></sense>
+<sense n="3">भेद्य या क्षीण अंश, दुर्बल पक्ष, दोष, न्यूनतानास्य छिद्रं परो विद्याद्विद्याच्छिद्रं परस्य तु, गूहेत् कूर्म् इवाङ्गानि रक्षेद्विवरमात्मनः<citation>मनु* ७/१०५</citation>१०२, छिद्रं निरुप्यं सहसा प्रविशत्यशङ्कः<citation>हि* १/८२</citation>पञ्च* ३/३९ यहाँ ‘छिद्र’ का अर्थ ‘सूराख’ भी है</sense>
+<segmenthd>
+<dentry>छिद्रानुजीविन्</dentry>
+<prAwipaxikam>छिद्रानुजीविन्</prAwipaxikam>
+<seg>छिद्र+अनुजीविन्</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छिद्रानुजीविन्</prAwipaxikam>
+<sense no="2">दोष या त्रुटियाँ ढूंढ़ने वाला</sense>
+<sense no="3">दूसरों की दूषित बातों को खोजने वाला, दूसरों में दोष निकालने वाला, छिद्रान्वेषीसर्पाणां दुर्जनानां च परच्छिद्रानुजीविनां<citation>पञ्च* १</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>छिद्रानुसन्धानिन्</dentry>
+<prAwipaxikam>छिद्रानुसन्धानिन्</prAwipaxikam>
+<seg>छिद्र+अनुसन्धानिन्</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छिद्रानुसन्धानिन्</prAwipaxikam>
+<sense no="1">दोष या त्रुटियाँ ढूंढ़ने वाला</sense>
+<sense no="2">दूसरों की दूषित बातों को खोजने वाला, दूसरों में दोष निकालने वाला, छिद्रान्वेषी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छिद्रानुसारिन्</dentry>
+<prAwipaxikam>छिद्रानुसारिन्</prAwipaxikam>
+<seg>छिद्र+अनुसारिन्</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छिद्रानुसारिन्</prAwipaxikam>
+<sense no="1">दोष या त्रुटियाँ ढूंढ़ने वाला</sense>
+<sense no="2">दूसरों की दूषित बातों को खोजने वाला, दूसरों में दोष निकालने वाला, छिद्रान्वेषी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छिद्रान्वेषिन्</dentry>
+<prAwipaxikam>छिद्रान्वेषिन्</prAwipaxikam>
+<seg>छिद्र+अन्वेषिन्</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छिद्रान्वेषिन्</prAwipaxikam>
+<sense no="1">दोष या त्रुटियाँ ढूंढ़ने वाला</sense>
+<sense no="2">दूसरों की दूषित बातों को खोजने वाला, दूसरों में दोष निकालने वाला, छिद्रान्वेषी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छिद्रान्तरः</dentry>
+<prAwipaxikam>छिद्रान्तर</prAwipaxikam>
+<seg>छिद्र+अन्तरः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">बेत, नरकुल, सरकण्डा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छिद्रात्मन्</dentry>
+<prAwipaxikam>छिद्रात्मन्</prAwipaxikam>
+<seg>छिद्र+आत्मन्</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छिद्रात्मन्</prAwipaxikam>
+<sense no="1">जो अपनी त्रुटियाँ दूसरों पर प्रकट कर देता है</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छिद्रकर्ण</dentry>
+<prAwipaxikam>छिद्रकर्ण</prAwipaxikam>
+<seg>छिद्र+कर्ण</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छिद्रकर्ण</prAwipaxikam>
+<sense no="1">जिसने कान बिंधवा लिये हैं</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छिद्रदर्शन</dentry>
+<prAwipaxikam>छिद्रदर्शन</prAwipaxikam>
+<seg>छिद्र+दर्शन</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छिद्रदर्शन</prAwipaxikam>
+<sense no="1">दोषों का प्रदर्शन करने वाला</sense>
+<sense no="2">दोषदर्शी</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="75">
+<dentry>छिद्रित</dentry>
+<prAwipaxikam>छिद्रित</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छिद्रित</prAwipaxikam>
+<etymology>[छिद्र+इतच्]</etymology>
+<jAwi>द्रव्यम्</jAwi>
+<sense no="1">छिद्रों से युक्त</sense>
+<sense n="2">बिंधा हुआ, छिदा हुआ</sense>
+</lexhead>
+
+<lexhead no="76">
+<dentry>छिन्न</dentry>
+<prAwipaxikam>छिन्न</prAwipaxikam>
+<grammar>भू* क* कृ*</grammar>
+<etymology>[छिद्+क्त]</etymology>
+<jAwi>द्रव्यम्</jAwi>
+<sense no="1">कटा हुआ, विभक्त किया हुआ, विदीर्ण, कटा हुआ, खण्डित, फाड़ा हुआ, टूटा हुआ</sense>
+<sense n="2">नष्ट हुआ, दूर किया हुआदे० छिद्र, न्ना वाराङ्गना, वेश्या</sense>
+<segmenthd>
+<dentry>छिन्नकेश</dentry>
+<prAwipaxikam>छिन्नकेश</prAwipaxikam>
+<seg>छिन्न+केश</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छिन्नकेश</prAwipaxikam>
+<sense no="2">जिसके बाल काट लिये गये है, जिसका क्षौर या मुण्डन हो चुका है</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छिन्नद्रुमः</dentry>
+<prAwipaxikam>छिन्नद्रुम</prAwipaxikam>
+<seg>छिन्न+द्रुमः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">खण्डित वृक्ष</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छिन्नद्वैध</dentry>
+<prAwipaxikam>छिन्नद्वैध</prAwipaxikam>
+<seg>छिन्न+द्वैध</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छिन्नद्वैध</prAwipaxikam>
+<sense no="1">जिसका सन्देह मिट गया है</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छिन्ननासिक</dentry>
+<prAwipaxikam>छिन्ननासिक</prAwipaxikam>
+<seg>छिन्न+नासिक</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छिन्ननासिक</prAwipaxikam>
+<sense no="1">जिसकी नाक गई है</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छिन्नभिन्न</dentry>
+<prAwipaxikam>छिन्नभिन्न</prAwipaxikam>
+<seg>छिन्न+भिन्न</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छिन्नभिन्न</prAwipaxikam>
+<sense no="1">जो पूरी तरह काट दिया गया है, जिसका अंग भंग हो गया है, क्षतविक्षत, काटा हुआ</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छिन्नमस्त</dentry>
+<prAwipaxikam>छिन्नमस्त</prAwipaxikam>
+<seg>छिन्न+मस्त</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छिन्नमस्त</prAwipaxikam>
+<sense no="1">कटे हुए सिर वाला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छिन्नमस्तक</dentry>
+<prAwipaxikam>छिन्नमस्तक</prAwipaxikam>
+<seg>छिन्न+मस्तक</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छिन्नमस्तक</prAwipaxikam>
+<sense no="1">कटे हुए सिर वाला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छिन्नमूल</dentry>
+<prAwipaxikam>छिन्नमूल</prAwipaxikam>
+<seg>छिन्न+मूल</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छिन्नमूल</prAwipaxikam>
+<sense no="1">जिसे जड़ से काट दिया गया है<citation>रघु* ७/४३</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>छिन्नश्वासः</dentry>
+<prAwipaxikam>छिन्नश्वास</prAwipaxikam>
+<seg>छिन्न+श्वासः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">एक प्रकार का दमा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>छिन्नसंशय</dentry>
+<prAwipaxikam>छिन्नसंशय</prAwipaxikam>
+<seg>छिन्न+संशय</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छिन्नसंशय</prAwipaxikam>
+<sense no="1">जिसके संन्देह दूर हो गये हैं, सन्देहमुक्त्, पुष्ट</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="77">
+<dentry>छुछुन्दरः</dentry>
+<prAwipaxikam>छुछुन्दर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology><vigraha_vAkya>छुछुम् इत्यव्यक्तशब्दो दीर्यते निर्गच्छति अस्मात्</vigraha_vAkya>[छुछुम्+दृ+अप्]</etymology>
+<sense no="1">छुछुन्दर नाम का जन्तु, गन्धाखु<citation>याज्ञ* ३/२१३</citation>मनु* १२/६५, स्त्री०-री</sense>
+</lexhead>
+
+<lexhead no="78">
+<dentry>छुप्</dentry>
+<prAwipaxikam>छुप्</prAwipaxikam>
+<grammar><gaNa>तुदा*</gaNa><paxI>पर*</paxI><vform>छुपति</vform></grammar>
+<sense no="1">स्पर्श करना, छूना</sense>
+</lexhead>
+
+<lexhead no="79">
+<dentry>छुपः</dentry>
+<prAwipaxikam>छुप</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[छिप्+क]</etymology>
+<sense no="1">स्पर्श</sense>
+<sense n="2">झाड़ी, झंखाड़</sense>
+<sense n="3">संघर्ष, युद्ध</sense>
+</lexhead>
+
+<lexhead no="80">
+<dentry>छुर्</dentry>
+<prAwipaxikam>छुर्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>छोरति</vform><vform>छुरित</vform></grammar>
+<sense no="1">काटना, विभक्त करना</sense>
+<sense n="2">उत्कीर्ण करना</sense>
+<sense n="3">ढांपना, सानना, लीपना, जड़ना, पोतना, अवगुठित करना</sense>
+<sense n="4">मिलना</sense>
+<segmenthd>
+<dentry>विछुर्</dentry>
+<prAwipaxikam>विछुर्</prAwipaxikam>
+<seg>वि+छुर्</seg>
+<grammar><gaNa>तुदा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">सानना, लीपना, ढकना, पोतनामनःशिलाविच्छुरिता निषेदुः कु* १/५५, चौर* ११, विक्रम* ४/४५</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="81">
+<dentry>छुरणम्</dentry>
+<prAwipaxikam>छुरण</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[छुर्+ल्युट्]</etymology>
+<sense no="1">सीनना, लीपना, ज्योत्स्नाभस्मच्छुरणधवला रात्रिकापालिकीयम्<citation>काव्य *१०</citation></sense>
+</lexhead>
+
+<lexhead no="82">
+<dentry>छुरा</dentry>
+<prAwipaxikam>छुरा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[छुर्+क+टाप्]</etymology>
+<sense no="1">चूना</sense>
+</lexhead>
+
+<lexhead no="83">
+<dentry>छुरिका</dentry>
+<prAwipaxikam>छुरिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[छुर्+क्वुन्+टाप्, इत्वम्]</etymology>
+<kind_of>आयुधम्</kind_of>
+<upAXi>आयुधम्</upAXi>
+<sense no="1">चाकू, छूरी</sense>
+</lexhead>
+
+<lexhead no="84">
+<dentry>छुरित</dentry>
+<prAwipaxikam>छुरित</prAwipaxikam>
+<grammar>भू* क* कृ*</grammar>
+<etymology>[छुर्+क्त]</etymology>
+<sense no="1">खचित, जडित</sense>
+<sense n="2">ऊपर फलाया हुआ, पोता हुआ, आच्छादित किया हुआअनेकधातुच्छुरिताश्मराशेः<citation>शि*३/४</citation>७, इन्दूकिरणच्छुरितमुखीम्<citation>काव्य* १०</citation></sense>
+<sense n="3">समाश्रित, अन्तर्मिश्रितपरस्परेण छुरितामलच्छवी<citation>शि* १/२२</citation></sense>
+</lexhead>
+
+<lexhead no="85">
+<dentry>छुरी</dentry>
+<prAwipaxikam>छुरी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[छुर्+ङीप्]</etymology>
+<sense no="1">चाकू, छूरी</sense>
+</lexhead>
+
+<lexhead no="86">
+<dentry>छूरिका</dentry>
+<prAwipaxikam>छूरिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[छूरी+कन्+टाप्, ह्रस्वः]</etymology>
+<sense no="1">चाकू, छूरी</sense>
+</lexhead>
+
+<lexhead no="87">
+<dentry>छूरी</dentry>
+<prAwipaxikam>छूरी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[छुर्+ङीप्, छुरी पृषो०दीर्घः]</etymology>
+<sense no="1">चाकू, छूरी</sense>
+</lexhead>
+
+<lexhead no="88">
+<dentry>छृद्</dentry>
+<prAwipaxikam>छृद्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><gaNa>चुरा*</gaNa><paxI>उभ*</paxI><vform>छर्दति</vform><vform>छर्दयति</vform>ते</grammar>
+<sense no="1">जलाना</sense>
+<sense n="2">खेलना</sense>
+<sense n="3">चमकना</sense>
+<sense n="4">वमन करना</sense>
+</lexhead>
+
+<lexhead no="89">
+<dentry>छेक</dentry>
+<prAwipaxikam>छेक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छेक</prAwipaxikam>
+?<etymology>[छो+डेकन् बा* तारा*]</etymology>
+<jAwi>जन्तुः</jAwi>
+<sense no="1">पालतू, घरेलू, (जैसे कि हिंस्रजन्तु)</sense>
+<sense n="2">नागरिक, शहरी</sense>
+<sense n="3">बुद्धिमान, नागर</sense>
+<segmenthd>
+<dentry>छेकानुप्रासः</dentry>
+<prAwipaxikam>छेकानुप्रास</prAwipaxikam>
+<seg>छेक+अनुप्रासः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">अनुप्रास के भेदों में से एक‘एक बार वर्णावृत्ति’ जो कि व्यंजन समूहों में अनेक प्रकार से तथा एक ही बार घटने वाली समानत हैआदाय बकुलगन्धनन्धीकुर्वन्पदे भ्रमरान, अयमेति मन्दमन्दं कावेरीवारिपावनः<citation>सा* द* ६३४</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>छेकापह्नुतिः</dentry>
+<prAwipaxikam>छेकापह्नुति</prAwipaxikam>
+<seg>छेक+अपह्नुतिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">अपह्नुति अलंकार का एक भेद चन्द्रालोक सोदाहरण निरुपण करता हैछेकापह्नुतिरन्यस्य शङ्कातस्तस्य निह्नवे, प्रजल्पन्मत्पदे लग्नःकान्तः किं न हि नूपुरः<citation>५/२७</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>छेकोक्तिः</dentry>
+<prAwipaxikam>छेकोक्ति</prAwipaxikam>
+<seg>छेक+उक्तिः</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">वक्रोक्ति, व्यंग्यात्मक वक्रोक्ति, द्वयर्थक मुहाविरा</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="90">
+<dentry>छेदः</dentry>
+<prAwipaxikam>छेद</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[छिद्+घञ्]</etymology>
+<sense no="1">काटना, गिराना, तोड़ डालना, खण्ड-खण्ड करना, अभिज्ञाश्छेदपातानां क्रियन्ते नन्दनद्रुमाः<citation>कु* २/४१</citation>छेदो दंशस्य दाहो वा<citation>मालवि* ४/४</citation>रघु* १२/१, मनु* ८/२७०, ३७०, याज्ञ* २/२२३, २४०</sense>
+<sense n="2">निराकरण करना, हटाना, छिन्न-भिन्न करना, साफ करना, जैसा कि ‘संशयच्छेद’ में</sense>
+<sense n="3">नाश, बाधानिद्राच्छेदाभिताम्रा<citation>मुद्रा* ३/२१</citation></sense>
+<sense n="4">विराम, अवसान, समाप्ति, लोप होना जैसा कि ‘धर्मच्छेद’ में</sense>
+<sense n="5">टुकड़ा, ग्रास, कटौती, खण्ड, अनुभागबिसकिसलयच्छेदपाथेयवन्तः<citation>मेघ* ११</citation>५९, अभिनवकरिदन्तच्छेदपाण्डुः कपोलः<citation>मा* १/२२</citation>कु* १/४, श* ३/७, रघु* १२/१००</sense>
+<sense n="6">भाजक, हर गणित में भिन्नराशि का</sense>
+</lexhead>
+
+<lexhead no="91">
+<dentry>छेदनम्</dentry>
+<prAwipaxikam>छेदन</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[छिद्+ल्युट्]</etymology>
+<kind_of>क्रिया</kind_of>
+<jAwi>क्रिया</jAwi>
+<sense no="1">काटना, फाड़ना, काट डालना, टुकड़े-टुकडे करना, खण्ड-खण्ड विभक्त करना<citation>मनु* ८/२८०</citation>२९२, ३२२</sense>
+<sense n="2">अनुभाग, अंश, टुकड़ा, भाग</sense>
+<sense n="3">नाश, हटाना</sense>
+</lexhead>
+
+<lexhead no="92">
+<dentry>छेदि</dentry>
+<prAwipaxikam>छेदि</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[छिद्+इन्]</etymology>
+<sense no="1">बढई</sense>
+</lexhead>
+
+<lexhead no="93">
+<dentry>छेमण्ड</dentry>
+<prAwipaxikam>छेमण्ड</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">छेमण्ड</prAwipaxikam>
+<etymology>[छम्+अण्डन्, एत्वम्]</etymology>
+<sense no="1">मातृपितृहीन, अनाथ</sense>
+</lexhead>
+
+<lexhead no="94">
+<dentry>छेलकः</dentry>
+<prAwipaxikam>छेलक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[छो+डेलक]</etymology>
+<sense no="1">बकरा</sense>
+</lexhead>
+
+<lexhead no="95">
+<dentry>छैदिकः</dentry>
+<prAwipaxikam>छैदिक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[छेद्+टक्]</etymology>
+<sense no="1">बेत</sense>
+</lexhead>
+
+<lexhead no="96">
+<dentry>छो</dentry>
+<prAwipaxikam>छो</prAwipaxikam>
+<grammar><gaNa>दिवा*</gaNa><paxI>पर*</paxI><vform>छ्यति</vform><vform>छात</vform>या<vform>छित</vform>पुं*</grammar>
+<sense no="1">काटना, काट कर टुकड़े-टुकड़े करना, कटाई करना, लवनी करना<citation>भट्टि* १४/१०१</citation>१५/४०</sense>
+</lexhead>
+
+<lexhead no="97">
+<dentry>छोटिका</dentry>
+<prAwipaxikam>छोटिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[छुट्+ण्वुल+टाप्, इत्वम्]</etymology>
+<sense no="1">चुटकी</sense>
+</lexhead>
+
+<lexhead no="98">
+<dentry>छोरणम्</dentry>
+<prAwipaxikam>छोरण</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[छुर्+ल्युट्]</etymology>
+<sense no="0">त्याग करना, छोड़ देना</sense>
+</lexhead>
+
+</dict>

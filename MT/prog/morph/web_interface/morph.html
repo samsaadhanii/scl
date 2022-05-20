@@ -1,0 +1,134 @@
+<script>
+$(document).ready(function(){
+  $("#description").hide();
+     
+  $("#desc-morph").click(function(){
+     $("#description").fadeIn(1500);
+  });
+  
+  $("#desc-hide").click(function(){
+    $("#description").fadeOut(1500);
+  });
+  
+  
+  
+});
+
+function blinker() {
+    $('#focus').fadeOut(500);
+    $('#focus').fadeIn(500);
+    $('#focus2').fadeOut(500);
+    $('#focus2').fadeIn(500);
+}
+
+
+function livetrans () {
+  var codec = document.getElementById("encoding").value;
+  var itext = document.getElementById("morphword").value;
+  var otext = "";
+  if (codec == "WX") {
+    otext = slp2dev(wx2slp(itext));
+  }
+  else if (codec == "Itrans") {
+    otext = slp2dev(itrans2slp(itext));
+  }
+  else if (codec == "VH") {
+    otext = slp2dev(vel2slp(itext));
+  }
+  else if (codec == "SLP") {
+    otext = slp2dev(itext);
+  }
+  else if (codec == "KH") {
+    otext = slp2dev(hk2slp(itext));
+  }
+  else if (codec == "IAST") {
+    otext = slp2dev(iast2slp(itext));
+  }
+  document.getElementById("devtext").innerHTML = otext;
+}
+
+setInterval(blinker, 1000);
+
+setInterval(blinker, 1000);
+
+</script>
+
+
+
+<div id="description"> 
+<div class="dept-name">
+ <table>
+      <tr>
+      <td><span class="title"><span id="desc-hide" style="cursor:pointer;"><font size="3">&nbsp;&nbsp;&nbsp;&nbsp; Hide me.</span> </span></td>
+      </tr>
+ </table>
+</div>
+
+<p style="text-align:justify;"><font color="brown">पद-विश्लेषिका(Morphological Analyser) </font>analyses a Sanskrit word giving its nominal stem (प्रातिपदिकम्) / verbal root (धातुः)  along with its various linguistic features such as <font color="blue">Lexical-category (जाति), Gender (लिङ्गम्), Number (वचनम्), Case (विभक्तिः), लकारः, Person (पुरुषः),</font> etc. For instance, for the word रामः, it gives the following analysis  <center><table><tr><td bgcolor="skyblue">राम पुं 1 एक </td><td bgcolor="pink">रा1 कर्तरि लट् उ 3 परस्मैपदी अदादिः </td></tr></table></center>
+<br />
+<br />
+
+</div><!--description ends here -->
+
+
+<div class="input-dashboard">
+<table border=0>
+<tr>
+<td class="input-dashboard-div1">
+
+<div class="dept-name">
+ <!--<div  class="project-pix-div"><img class="morph-pix-img" src="morph-analysis.jpg" /></div>-->
+  <span class="title" id="desc-morph">&nbsp;&nbsp;&nbsp;&nbsp;पद-विश्लेषिका (Morphological Analyser)</span>
+</div>
+
+<form name="f1" method="post" onsubmit="return callmorphanalyser();">
+
+<!-- <div class="input"> -->
+<center>
+<table id="morph-input-tb">
+<tr>
+<td></td>
+<td></td>
+<td id="devtext"></td>
+<td></td>
+</tr>
+<tr>
+<td> Input Encoding:
+      <select name="encoding"  id="encoding" onchange="livetrans()">
+	<option value="Unicode">Unicode-Devanagari</option>
+	<option value="WX">WX-Alphabetic</option>
+	<option value="Itrans">Itrans-5.3</option>
+	<option value="VH">Velthuis</option>
+	<option value="SLP">SLP1</option>
+	<option value="KH">Kyoto-Harvard(KH)</option>
+	<option value="IAST">IAST(Roman-Diacritic)</option>
+      </select>
+</td>
+<td> Output Encoding:
+      <select name="outencoding"  id="outencoding">
+	<option value="Unicode">Unicode-Devanagari</option>
+	<option value="IAST">IAST(Roman-Diacritic)</option>
+      </select>
+</td>
+<td>
+    <input name="morfword" type="text" id="morphword" oninput="livetrans()" placeholder="Enter the word"/>
+</td>
+<td>
+ <input value="submit" type="submit" id="submit-bttn" class="styled-button-3" /> 
+</td>
+</tr>
+<tr>
+<td><a href='#' style="color:blue;" onclick="window.open('table.html','Details','width=800, height=500,scrollbars=yes');">Encoding</a></td>
+<td> For instances: रामः, रमा, गच्छति etc.</td> 
+</tr>
+</table>
+</form>
+</center>
+</table> <!-- Input dashboard table ends here -->
+</div> <!-- Input dashboard ends here -->
+<div id="output"></div>
+
+</div> <!-- Input dashboard ends here -->
+<div id="output"></div>
+
+

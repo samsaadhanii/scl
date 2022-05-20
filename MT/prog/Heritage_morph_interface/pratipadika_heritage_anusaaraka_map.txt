@@ -1,0 +1,20 @@
+#This file contains mapping of Heritage Pratipadikas with Anusaaraka_pratipadikas. Format of the file is
+#Heritage_pratipadika TAB Anusaaraka_pratipadika
+#aham	asmax
+#asO	axas
+#ayam	ixam
+#ena	ixam
+#eRa	ewax
+#ewaw	ewax
+hqxaya	hqx
+iwas	iwaH
+IxqS	IxqSa
+ka#1	kim
+samApwin	samApwi
+sampAwin	sampAwi
+samyac	samyak
+#wvax	yuRmax
+#xevara	xevq
+xva	xvi
+#ya#1	yax
+#yaw	yax

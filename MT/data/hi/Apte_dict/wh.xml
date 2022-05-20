@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dict SYSTEM "apte.dtd">
+<?xml-stylesheet href="apte.css" type="text/css" ?>
+<dict>
+<lexhead no="1">
+<dentry>थः</dentry>
+<prAwipaxikam>थ</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[थुड्+ड]</etymology>
+<sense no="1">पहाड़</sense>
+</lexhead>
+
+<lexhead no="2">
+<dentry>थम्</dentry>
+<prAwipaxikam>थ</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<sense no="1">रक्षा, प्ररक्षा</sense>
+<sense n="2">त्रास, भय</sense>
+<sense n="3">मांगलिकता</sense>
+</lexhead>
+
+<lexhead no="3">
+<dentry>थुड्</dentry>
+<prAwipaxikam>थुड्</prAwipaxikam>
+<grammar><gaNa>तुदा*</gaNa><paxI>पर*</paxI><vform>थुडति</vform></grammar>
+<sense no="1">ढकना, पर्दा डालना</sense>
+<sense n="2">छिपाना, गुप्त रखना</sense>
+</lexhead>
+
+<lexhead no="4">
+<dentry>थुडनम्</dentry>
+<prAwipaxikam>थुडन</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[थुड्+ल्युट्]</etymology>
+<sense no="1">ढकना, लपेटना</sense>
+</lexhead>
+
+<lexhead no="5">
+<dentry>थुत्कारः</dentry>
+<prAwipaxikam>थुत्कार</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[थुत्-कृ+अण्]</etymology>
+<sense no="1">‘थुत्’ ध्वनि जो थूकने की क्रिया करते समय होती है</sense>
+</lexhead>
+
+<lexhead no="6">
+<dentry>थुर्व्</dentry>
+<prAwipaxikam>थुर्व्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>थूर्वति</vform></grammar>
+<sense no="1">चोट पहुँचाना, क्षति पहुँचाना</sense>
+</lexhead>
+
+<lexhead no="7">
+<dentry>थूत्कारः</dentry>
+<prAwipaxikam>थूत्कार</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[थुत्-कृ+अण्]</etymology>
+<sense no="1">‘थुत्’ की ध्वनि जो थूकने की क्रिया करते समय होती है</sense>
+</lexhead>
+
+<lexhead no="8">
+<dentry>थूत्कृतम्</dentry>
+<prAwipaxikam>थूत्कृत</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[थुत्-कृ+अण्/थुत्-कृ+क्त]</etymology>
+<sense no="1">‘थुत्’ की ध्वनि जो थूकने की क्रिया करते समय होती है</sense>
+</lexhead>
+
+<lexhead no="9">
+<dentry>थैथै</dentry>
+<prAwipaxikam>थैथै</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<sense no="1">किसी संगीत-वाद्य-यंत्र की अनुकरणात्मक ध्वनि</sense>
+</lexhead>
+
+</dict>

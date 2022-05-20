@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dict SYSTEM "apte.dtd">
+<?xml-stylesheet href="apte.css" type="text/css" ?>
+<dict>
+<lexhead no="1">
+<dentry>ई</dentry>
+<prAwipaxikam>ई</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[ई+क्विप्]</etymology>
+<sense no="1">कामदेव</sense>
+<sense n="2">खिन्नता</sense>
+<sense n="3">पीडा</sense>
+<sense n="4">शोक</sense>
+<sense n="5">क्रोध</sense>
+<sense n="6">अनुकम्पा</sense>
+<sense n="7">प्रत्यक्षज्ञान या चेतना</sense>
+<sense n="8">तथा संबोधन की भावना को अभिव्यक्त करने वाला विस्मयादिद्योतक अव्यय</sense>
+<sense n="9">जाना</sense>
+<sense n="10">जाना</sense>
+<sense n="11">चमकना</sense>
+<sense n="12">व्याप्त होना</sense>
+<sense n="13">चाहना, कामना करना</sense>
+<sense n="14">फेंकना</sense>
+<sense n="15">खाना</sense>
+<sense n="16">प्रार्थना करना</sense>
+<sense n="17">गर्भवती होना</sense>
+</lexhead>
+
+<lexhead no="2">
+<dentry>ईक्ष्</dentry>
+<prAwipaxikam>ईक्ष्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI><vform>ईक्षते</vform>,<vform>ईक्षित</vform></grammar>
+<sense no="1">देखना, ताकना, आलोचना करना, अवलोकन करना, टकटकी लगा कर देखना या घूरना</sense>
+<sense n="2">खयाल रखना, विचारना, समझनासर्वभूतस्थमात्मानं……..ईक्षते योगयुक्तात्मा<citation>भग*६।२९</citation></sense>
+<sense n="3">हिसाब में लगाना, परवाह करनानाभिजनमीक्षते<citation>का*१०४</citation>न कामवृत्तिर्वचनीयमीक्षते<citation>कु*५।८२</citation></sense>
+<sense n="4">सोचना, विचार करनातत्तेज ऐक्षत बहुस्यां प्रजायेय<citation>छा*</citation></sense>
+<sense n="5">सावधान रहना या किसी के भले बुरे का ध्यान करनाकृष्णाय ईक्षते गर्गः<citation>सिद्धा*सम्प्र० के साथ</citation>शुभाशुभं पर्यालोचयति इत्यर्थः</sense>
+<segmenthd>
+<dentry>अधीक्ष्</dentry>
+<prAwipaxikam>अधीक्ष्</prAwipaxikam>
+<seg>अधि-ईक्ष्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">आशंका करनाकुहकचकितो लोकः सत्येप्यपायमधीक्षते<citation>हि*४।१०२अने० पा०</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>अन्वीक्ष्</dentry>
+<prAwipaxikam>अन्वीक्ष्</prAwipaxikam>
+<seg>अनु-ईक्ष्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">ध्यान में रखना, खोज करना, ढूँढना, पूछ-ताछ करना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>अपेक्ष्</dentry>
+<prAwipaxikam>अपेक्ष्</prAwipaxikam>
+<seg>अप-ईक्ष्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">प्रतीक्षा करना, इंतजार करनान कालमपेक्षते स्नेहः<citation>मृच्छ*७</citation><citation>कु*३।२६</citation></sense>
+<sense no="2">आवश्यकता होना, जरूरत होना, कमी होनाशब्दार्थौ सत्कविरिव द्वयं विद्वानपेक्षते<citation>शि*२।८६</citation><citation>विक्रम*४।१२</citation><citation>३।१८</citation></sense>
+<sense no="3">सावधान रहना, खयाल रखना, ध्यान रखनाकिमपेक्ष्य फलम्<citation>कि*२।२१</citation>यतः शब्दोऽयंव्यञ्जकत्वेऽर्थान्तरमपेक्षते<citation>सा* द*४</citation></sense>
+<sense no="4">हिसाब में लगाना, सोचना, विचार करना, आदर करनातदानपेक्ष्य स्वशरीरमार्दवम्<citation>कु*५।१८प्रायः ’न’ के साथ</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>अभिवीक्ष्</dentry>
+<prAwipaxikam>अभिवीक्ष्</prAwipaxikam>
+<seg>अभिवि-ईक्ष्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">की ओर देखना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>अवेक्ष्</dentry>
+<prAwipaxikam>अवेक्ष्</prAwipaxikam>
+<seg>अव-ईक्ष्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">दृष्टि डालना, प्रेक्षण करना, अवलोकन करना</sense>
+<sense no="2">निशाना लगाना, ध्यान में रखनायोत्स्यमानानवेक्षेऽहम्<citation>भग*१।२८</citation></sense>
+<sense no="3">सम्मान करना<citation>रघु*३।२१</citation>त्रिदिवोत्सुकयाप्यवेक्ष्य माम्-८।६०</sense>
+<sense no="4">मेरे सम्मान की खातिर</sense>
+<sense no="5">रखवाली करना, रक्षा करनाश्लाघ्यां दुहितरमवेक्षस्व<citation>उत्तर*१</citation></sense>
+<sense no="6">सोचना, विचारनायदवोचदवेक्ष्य मानिनी<citation>कि*२।३</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>उदीक्ष्</dentry>
+<prAwipaxikam>उदीक्ष्</prAwipaxikam>
+<seg>उद्-ईक्ष्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">ढूँढना, खोजना, देखनासप्रणाममुदीक्षिताः<citation>कु*६।७</citation>७।६७</sense>
+<sense no="2">प्रतीक्षा करनात्रीणि वर्षाण्युदीक्षेत कुमार्यृतुमती सती<citation>मनु*९।९०</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>उत्प्रेक्ष्</dentry>
+<prAwipaxikam>उत्प्रेक्ष्</prAwipaxikam>
+<seg>उत्प्र-ईक्ष्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">आशा करना, भविष्य में देखनाउत्प्रेक्षमाणा जघनाभिघातम्<citation>मुद्रा*२</citation></sense>
+<sense no="2">अनुमान लगाना, अंदाज करनाकिमुत्प्रेक्षसे कुतस्त्योऽयमिति<citation>उत्तर*४</citation></sense>
+<sense no="3">विश्वास करना, सोचनाउत्प्रेक्षामो वयं तावन्मतिमन्तं विभीषणम्<citation>रामा*</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>उद्वीक्ष्</dentry>
+<prAwipaxikam>उद्वीक्ष्</prAwipaxikam>
+<seg>उद्वि-ईक्ष्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">मुँह ताकना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>उपेक्ष्</dentry>
+<prAwipaxikam>उपेक्ष्</prAwipaxikam>
+<seg>उप-ईक्ष्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">अवहेलना करना, नजर अंदाज करना परवाह न करनाउत्प्रेक्षते यः श्लथलम्बिनीर्जटा<citation>कु*५।४७</citation><citation>रघु*१४।३४</citation></sense>
+<sense no="2">भाग जाने देना, जाने देना, टालमटोल करनानोपेक्षेत क्षणमपि राजा साहसिकं नरम्<citation>मनु*८।३४४</citation></sense>
+<sense no="3">ध्यान से देखना, विचारना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>निरीक्ष्</dentry>
+<prAwipaxikam>निरीक्ष्</prAwipaxikam>
+<seg>निर्-ईक्ष्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">टकटकी लगाकर देखना, पूरी तरह से देखनाधेन्वा………निरीक्षमाणः सुतरां दयालुः<citation>रघु*२।५२</citation><citation>भग* १।२२</citation><citation>मनु*४।३८</citation></sense>
+<sense no="2">ढूँढना, खोजनानिरीक्षते केलिवनं प्रविश्य क्रमेलकः कण्टकजालमेव<citation>विक्रमाङ्क*</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>परीक्ष्</dentry>
+<prAwipaxikam>परीक्ष्</prAwipaxikam>
+<seg>परि-ईक्ष्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">जांच करना, ध्यानपूर्वक जांच पड़ताल करनाअतः परीक्ष्य कर्तव्यं विशेषात्सङ्गतं रहः<citation>श*५।२४</citation><citation>मालवि*१।२</citation><citation>मनु*९।१४</citation></sense>
+<sense no="2">परीक्षण करना, जाँच करना, परीक्षा लेनामायां मयोद्भाव्यपरीक्षितोऽसि<citation>रघु*२।६२</citation>यत्नात्परीक्षितः पुंस्त्वे<citation>याज्ञ*१।५५पौरुष के विषय में ध्यानपूर्वक जाँचा गया</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>प्रेक्ष्</dentry>
+<prAwipaxikam>प्रेक्ष्</prAwipaxikam>
+<seg>प्र-ईक्ष्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">देखना, ताकना, प्रत्यक्ष करनातमायान्तं प्रेक्ष्य<citation>पञ्च*१</citation><citation>रघु*१२।४४</citation><citation>कु*६।४७</citation><citation>मनु*८।१४७</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>प्रतीक्ष्</dentry>
+<prAwipaxikam>प्रतीक्ष्</prAwipaxikam>
+<seg>प्रति-ईक्ष्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">इन्तजार करनासम्पत्स्यते वः कामोऽयं कालः कश्चित्प्रतीक्ष्यताम्<citation>कु*२।५४</citation><citation>मनु*९।७७</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>प्रतिवीक्ष्</dentry>
+<prAwipaxikam>प्रतिवीक्ष्</prAwipaxikam>
+<seg>प्रतिवि-ईक्ष्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">प्रत्यवलोकन करना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>वीक्ष्</dentry>
+<prAwipaxikam>वीक्ष्</prAwipaxikam>
+<seg>वि-ईक्ष्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">देखना, ताकनातं वीक्ष्य वेपथुमती<citation>कु*५।८५</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>व्यपेक्ष्</dentry>
+<prAwipaxikam>व्यपेक्ष्</prAwipaxikam>
+<seg>व्यप-ईक्ष्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">ध्यान करना, खयाल रखना, सम्मान करनान व्यपैक्षत समुत्सुकाः प्रजाः<citation>रघु*१९।६प्रायः ’न’ के साथ</citation></sense>
+</segmenthd>
+<segmenthd>
+<dentry>समीक्ष्</dentry>
+<prAwipaxikam>समीक्ष्</prAwipaxikam>
+<seg>सम्-ईक्ष्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">देखना, ताकना</sense>
+<sense no="2">चिन्तन करना, विचार करना, हिसाब में लगानातेजसां हि न वयः समीक्ष्यते<citation>रघु*११।१</citation><citation>कु*५।१६</citation></sense>
+<sense no="3">ध्यानपूर्वक जांचनाअसमीक्ष्यकारिन्</sense>
+</segmenthd>
+<segmenthd>
+<dentry>समवेक्ष्</dentry>
+<prAwipaxikam>समवेक्ष्</prAwipaxikam>
+<seg>समव-ईक्ष्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">देखना, निरीक्षण करना</sense>
+<sense no="2">सोचना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>समुपेक्ष्</dentry>
+<prAwipaxikam>समुपेक्ष्</prAwipaxikam>
+<seg>समुप-ईक्ष्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">अवहेलना करना, निरादर करनादे* ’उप’ ऊपर</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="3">
+<dentry>ईक्षकः</dentry>
+<prAwipaxikam>ईक्षक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[ईक्ष्+ण्वुल्]</etymology>
+<sense no="1">दर्शक</sense>
+</lexhead>
+
+<lexhead no="4">
+<dentry>ईक्षणम्</dentry>
+<prAwipaxikam>ईक्षण</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[ईक्ष्+ल्युट्]</etymology>
+<jAwi>क्रिया</jAwi>
+<is_a_part>वदनम्</is_a_part>
+<kind_of>चक्षुरादीन्द्रियम्</kind_of>
+<upAXi>अवयवः</upAXi>
+<sense no="1">देखना, ताकना</sense>
+<sense n="2">दृष्टि, दृश्य</sense>
+<sense n="3">आँखइत्यद्रिशोभाप्रहितेक्षणेन<citation>रघु*२।२७इसी प्रकार ’अलसेक्षणा’</citation></sense>
+</lexhead>
+
+<lexhead no="5">
+<dentry>ईक्षणिकः</dentry>
+<prAwipaxikam>ईक्षणिक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[ईक्षण+ठन्]</etymology>
+<sense no="1">ज्योतिषी, भविष्यवक्ता</sense>
+</lexhead>
+
+<lexhead no="6">
+<dentry>ईक्षतिः</dentry>
+<prAwipaxikam>ईक्षति</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[ईक्ष्+शतिप्]</etymology>
+<sense no="1">देखना, दृष्टि, ईक्षतेर्नाशब्दम्<citation>ब्रह्म*</citation></sense>
+</lexhead>
+
+<lexhead no="7">
+<dentry>ईक्षा</dentry>
+<prAwipaxikam>ईक्षा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[ईक्ष्+अ+टाप्]</etymology>
+<sense no="1">दृश्य</sense>
+<sense n="2">नजर डालना, विचार करना</sense>
+</lexhead>
+
+<lexhead no="8">
+<dentry>ईक्षिका</dentry>
+<prAwipaxikam>ईक्षिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[ईक्ष्+ण्वुल्/ईक्षा+कन्/ईक्षा+टाप्,इत्वम्]</etymology>
+<sense no="1">आँख</sense>
+<sense n="2">झाँकना, झलक</sense>
+</lexhead>
+
+<lexhead no="9">
+<dentry>ईक्षित</dentry>
+<prAwipaxikam>ईक्षित</prAwipaxikam>
+<grammar>भू* क* कृ*</grammar>
+<etymology>[ईक्ष् - क्त]</etymology>
+<sense no="1">देखा हुआ, ताका हुआ, खयाल किया हुआ</sense>
+</lexhead>
+
+<lexhead no="10">
+<dentry>ईक्षितम्</dentry>
+<prAwipaxikam>ईक्षित</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[ईक्ष्+क्त]</etymology>
+<sense no="1">दृष्टि, दृश्य</sense>
+<sense n="2">आँखअभिमुखे मयि संहृतमीक्षितम्<citation>श*२।११</citation></sense>
+</lexhead>
+
+<lexhead no="11">
+<dentry>ईख्</dentry>
+<prAwipaxikam>ईख्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>ईखति, ईंखति</vform>,<vform>ईखित, ईंखित</vform></grammar>
+<sense no="1">जाना, हिलना-डुलना, डाँवाडोल होना</sense>
+<sense n="2">हिलना</sense>
+</lexhead>
+
+<lexhead no="12">
+<dentry>ईख्</dentry>
+<prAwipaxikam>ईख्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI>प्रेर*</grammar>
+<sense no="1">झुलना, घूमना</sense>
+</lexhead>
+
+<lexhead no="13">
+<dentry>ईङ्ख्</dentry>
+<prAwipaxikam>ईङ्ख्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>ईखति, ईंखति</vform>,<vform>ईखित, ईंखित</vform></grammar>
+<sense no="1">जाना, हिलना-डुलना, डाँवाडोल होना</sense>
+<sense n="2">हिलना</sense>
+<sense n="3">झुलना, घूमना</sense>
+<segmenthd>
+<dentry>प्रेख्</dentry>
+<prAwipaxikam>प्रेख्</prAwipaxikam>
+<seg>प्र-ईख्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI></grammar>
+<sense no="1">हिलाना, डगमगानाप्रैङ्खच्चक्षुभिताक्षितिः<citation>भट्टि*१७।१०८</citation>प्रेङ्खद्भूरिमयूख<citation>मा*६।५</citation><citation>अमरु*१</citation></sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="14">
+<dentry>ईज्</dentry>
+<prAwipaxikam>ईज्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">जाना</sense>
+<sense n="2">निन्दा करना, कलंक लगाना</sense>
+</lexhead>
+
+<lexhead no="15">
+<dentry>इञ्ज</dentry>
+<prAwipaxikam>इञ्ज</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">जाना</sense>
+<sense n="2">निन्दा करना, कलंक लगाना</sense>
+</lexhead>
+
+<lexhead no="16">
+<dentry>ईड्</dentry>
+<prAwipaxikam>ईड्</prAwipaxikam>
+<grammar><gaNa>अदा*</gaNa><paxI>आ*</paxI><vform>ईडे</vform>,<vform>ईडित</vform></grammar>
+<sense no="1">स्तुति करना, अग्निमीडे पुरोहितम्<citation>ऋक्*१।१।१</citation>शालीनतामव्रजदीड्यमानः<citation>रघु*१८।१७</citation><citation>भट्टि*९।५७</citation>१८।१५</sense>
+</lexhead>
+
+<lexhead no="17">
+<dentry>ईडा</dentry>
+<prAwipaxikam>ईडा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[ईड्+अ+टाप्]</etymology>
+<sense no="1">स्तुति, प्रशंसा</sense>
+</lexhead>
+
+<lexhead no="18">
+<dentry>ईड्य</dentry>
+<prAwipaxikam>ईड्य</prAwipaxikam>
+<grammar>सं* कृ*</grammar>
+<etymology>[ईड्+ण्यत्]</etymology>
+<sense no="1">प्रशंसनीय, श्लाघ्य-भवन्तमीड्यं भवतः पितेव<citation>रघु*५।३४</citation></sense>
+</lexhead>
+
+<lexhead no="19">
+<dentry>ईतिः</dentry>
+<prAwipaxikam>ईति</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[ई+क्तिच्]</etymology>
+<jAwi>क्रिया</jAwi>
+<jAwi>क्रिया</jAwi>
+<sense no="1">महामारी, दुःख, मौसम, संकट, अतिवृष्टिरनावृष्टिः शलभाः मूषकाः शुकाः, प्रत्यासन्नाश्च राजानः षडेता ईतयः स्मृताः।, निरातङ्का निरीतयः<citation>रघु*१।६३</citation>ईति बहुधा ६ कही जाती है- १. अतिवृष्टि २. अनावृष्टि ३टिड्डीदल ४.चूहे ५.तोते और ६.बाहर से आक्रमण</sense>
+<sense n="2">संक्रामक रोग</sense>
+<sense n="3">विदेश में घूमना, विदेश यात्रा</sense>
+<sense n="4">दंगा</sense>
+</lexhead>
+
+<lexhead no="20">
+<dentry>ईदृक्ता</dentry>
+<prAwipaxikam>ईदृक्ता</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[ईदृश्+तल्+टाप्]</etymology>
+<sense no="1">गुण, विष्णोरिवास्यानवधारणीयम् ईदृक्तया रूपमियत्तया वा<citation>रघु*१३।५</citation>विप* ’इयत्ता’</sense>
+</lexhead>
+
+<lexhead no="21">
+<dentry>ईदृक्ष</dentry>
+<prAwipaxikam>ईदृक्ष</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ईदृक्ष</prAwipaxikam>
+<sense no="1">ऐसा, इस प्रकार का, इस पहलू का, ऐसे गुणों से युक्त, स्त्री* ईदृक्षी, ईदृश् भी</sense>
+</lexhead>
+
+<lexhead no="22">
+<dentry>ईदृश</dentry>
+<prAwipaxikam>ईदृश</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ईदृश</prAwipaxikam>
+<sense no="1">ऐसा, इस प्रकार का, इस पहलू का, ऐसे गुणों से युक्त, स्त्री* ईदृशी, ईदृश् भी</sense>
+</lexhead>
+
+<lexhead no="23">
+<dentry>ईप्सा</dentry>
+<prAwipaxikam>ईप्सा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology><vigraha_vAkya>आप्तुमिच्छा</vigraha_vAkya>[आप्+सन्+अ]</etymology>
+<sense no="1">प्राप्त करने की इच्छा</sense>
+<sense n="2">कामना, इच्छा</sense>
+</lexhead>
+
+<lexhead no="24">
+<dentry>ईप्सित</dentry>
+<prAwipaxikam>ईप्सित</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ईप्सित</prAwipaxikam>
+<etymology>[आप्+सन्+क्त]</etymology>
+<sense no="1">इच्छित, अभिलषित, प्रिय</sense>
+</lexhead>
+
+<lexhead no="25">
+<dentry>ईप्सितम्</dentry>
+<prAwipaxikam>ईप्सित</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[आप्+सन्+क्त]</etymology>
+<sense no="1">इच्छा, कामना</sense>
+</lexhead>
+
+<lexhead no="26">
+<dentry>ईप्सु</dentry>
+<prAwipaxikam>ईप्सु</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ईप्सु</prAwipaxikam>
+<etymology>[आप्+सन्+उ]</etymology>
+<sense no="1">प्राप्त करने का प्रयत्न करने वाला, ग्रहण करने की कामना या इच्छा करने वाला, सौरभ्यमीप्सुरिव ते मुखमारुतस्य<citation>रघु*५।६३</citation>कर्म० और तुमु० के साथ परन्तु प्रायः समास में</sense>
+</lexhead>
+
+<lexhead no="27">
+<dentry>ईर्</dentry>
+<prAwipaxikam>ईर्</prAwipaxikam>
+<grammar><gaNa>अदा*</gaNa><paxI>आ*</paxI><vform>ईर्ते</vform>,<vform>ईर्ण</vform></grammar>
+<sense no="1">जाना, हिलना-डुलना, हिलाना</sense>
+<sense n="2">उठना, निकलना, उगनासक* भी</sense>
+<sense n="3">जाना, हिलना-डुलना, हिलाना</sense>
+<sense n="4">उठना, निकलना, उगना</sense>
+<sense n="5">फेंकना, छोड़ना, तीर चलाना, डालनाऐरिरच्च महाद्रुमम्<citation>भट्टि*१५।५२या प्रेर*</citation></sense>
+<sense n="6">कहना, उच्चारण करना, दोहरानाइतीरयन्तीव तया निरैक्षि<citation>नै*१४।२१</citation><citation>शि* ९।६९</citation><citation>कि*१।२६</citation><citation>रघु*९।८</citation><citation>मा*१।२५</citation></sense>
+<sense n="7">चलाना, हिलना-डुलना, हिलानावातेरितपल्लवाङ्गुलिभिः<citation>श*१</citation></sense>
+<sense n="8">नियुक्त करना, काम लेना</sense>
+<segmenthd>
+<dentry>उदीर्</dentry>
+<prAwipaxikam>उदीर्</prAwipaxikam>
+<seg>उद्-ईर्</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">उठना</sense>
+<sense no="2">कहना, उच्चारण करना, कथन करना, बोलनाउदीरितोऽर्थः पशुनापि गृह्यते<citation>पञ्च*१।४३</citation><citation>रघु*२।९</citation></sense>
+<sense no="3">आगे प्रस्तुत करनायदशोको यमुदीरयिष्यति<citation>रघु* ८।६२</citation></sense>
+<sense no="4">फेंकना, लुढकाना<citation>रघु* ६।१८पासा आदि</citation></sense>
+<sense no="5">उठनाधूलि आदि</sense>
+<sense no="6">प्रदर्शन करना, प्रकाशित करना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>प्रेर्</dentry>
+<prAwipaxikam>प्रेर्</prAwipaxikam>
+<seg>प्र-ईर्</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">डालना, फेंकना<citation>श*२।२</citation></sense>
+<sense no="2">प्रेरित करना, धकेलना<citation>रघु*४।२४</citation></sense>
+<sense no="3">उकसाना, भड़काना, चलाना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>समीर्</dentry>
+<prAwipaxikam>समीर्</prAwipaxikam>
+<seg>सम्-ईर्</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">कहना</sense>
+<sense no="2">हिलाना, हिलना-डुलना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>समुदीर्</dentry>
+<prAwipaxikam>समुदीर्</prAwipaxikam>
+<seg>समुद्-ईर्</seg>
+<grammar><gaNa>अदा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">कहना, बोलना</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="28">
+<dentry>ईरणः</dentry>
+<prAwipaxikam>ईरण</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[ईर्+ल्युट्]</etymology>
+<sense no="1">वायु</sense>
+</lexhead>
+
+<lexhead no="29">
+<dentry>ईरणम्</dentry>
+<prAwipaxikam>ईरण</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[ईर्+ल्युट्]</etymology>
+<sense no="1">क्षुब्ध करने वाला, हिलाने वाला, चलाने वाला</sense>
+<sense n="2">जाने वाला</sense>
+<sense n="3">मरुस्थल</sense>
+<sense n="4">रिहाली या लुनई भूमि, बंजर भूमितु० इरिण</sense>
+</lexhead>
+
+<lexhead no="30">
+<dentry>ईरिण</dentry>
+<prAwipaxikam>ईरिण</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ईरिण</prAwipaxikam>
+<etymology>[ईर्+इनन्]</etymology>
+<kind_of>भूमिः</kind_of>
+<jAwi>प्राकृतिकस्थानम्</jAwi>
+<jAwi>परिमाणः</jAwi>
+<sense no="1">मरुस्थल, बंजर</sense>
+</lexhead>
+
+<lexhead no="31">
+<dentry>ईरिणम्</dentry>
+<prAwipaxikam>ईरिण</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[ईर्+इनन्]</etymology>
+<kind_of>भूमिः</kind_of>
+<jAwi>प्राकृतिकस्थानम्</jAwi>
+<jAwi>परिमाणः</jAwi>
+<sense no="1">ऊसर, बंजर भूमि, मुहूर्तमिव निःशब्दमासीदीरिणसंनिभम्<citation>रामा*</citation></sense>
+</lexhead>
+
+<lexhead no="32">
+<dentry>ईर्क्ष्य्</dentry>
+<prAwipaxikam>ईर्क्ष्य्</prAwipaxikam>
+<grammar></grammar>
+<sense no="1">डाह करना, ईर्ष्यालू होना, दूसरों की सफलता को देखकर असहिष्णु होना<citation>शि*८।३७</citation></sense>
+</lexhead>
+
+<lexhead no="33">
+<dentry>ईर्मम्</dentry>
+<prAwipaxikam>ईर्म</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[ईर्+मक्]</etymology>
+<kind_of>रोगः</kind_of>
+<jAwi>अवस्था</jAwi>
+<sense no="1">घाव</sense>
+</lexhead>
+
+<lexhead no="34">
+<dentry>ईर्या</dentry>
+<prAwipaxikam>ईर्या</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[ईर्+ण्यत्+टाप्]</etymology>
+<sense no="1">इधर उधर घूमना, धार्मिक भिक्षुक के रूप में</sense>
+</lexhead>
+
+<lexhead no="35">
+<dentry>ईर्वारुः</dentry>
+<prAwipaxikam>ईर्वारु</prAwipaxikam>
+<grammar>पुं*</grammar>
+?<etymology>[ईरु ऋ-उण् बा०]</etymology>
+<kind_of>लता</kind_of>
+<jAwi>लता</jAwi>
+<sense no="1">ककड़ी</sense>
+</lexhead>
+
+<lexhead no="36">
+<dentry>ईर्षा</dentry>
+<prAwipaxikam>ईर्षा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[ईर्ष्य्+घञ्, यलोपः]</etymology>
+<sense no="1">डाह, जलन, दूसरों की सफलता को देखकर जलन पैदा होना</sense>
+</lexhead>
+
+<lexhead no="37">
+<dentry>ईर्ष्य्</dentry>
+<prAwipaxikam>ईर्ष्य्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><vform>ईर्ष्यति</vform>,<vform>ईर्ष्यित</vform></grammar>
+<sense no="1">डाह करना, ईर्ष्यालू होना, दूसरों की सफलता को देखकर असहिष्णु होना<citation>शि*८।३६</citation>संप्र* के साथ<vform>हरये</vform>,<vform>ईर्ष्यति</vform>सिद्धा*</sense>
+</lexhead>
+
+<lexhead no="38">
+<dentry>ईर्ष्य</dentry>
+<prAwipaxikam>ईर्ष्य</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ईर्ष्य</prAwipaxikam>
+<etymology>[ईर्ष्य्+अच्]</etymology>
+<sense no="1">डाह करने वाला, ईर्ष्यालु</sense>
+</lexhead>
+
+<lexhead no="39">
+<dentry>ईर्ष्यु</dentry>
+<prAwipaxikam>ईर्ष्यु</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ईर्ष्यु</prAwipaxikam>
+<etymology>[ईर्ष्य्+उण्]</etymology>
+<sense no="1">डाह करने वाला, ईर्ष्यालु</sense>
+</lexhead>
+
+<lexhead no="40">
+<dentry>ईर्ष्यक</dentry>
+<prAwipaxikam>ईर्ष्यक</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ईर्ष्यक</prAwipaxikam>
+<etymology>[ईर्ष्य्+ण्वुल्]</etymology>
+<sense no="1">डाह करने वाला, ईर्ष्यालु</sense>
+</lexhead>
+
+<lexhead no="41">
+<dentry>ईर्ष्या</dentry>
+<prAwipaxikam>ईर्ष्या</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[ईर्ष्य्+अप्]</etymology>
+<kind_of>मनोविकारः</kind_of>
+<jAwi>जातिः</jAwi>
+<sense no="1">डाह, जलन, दूसरों की सफलता को देखकर जलन पैदा होना</sense>
+</lexhead>
+
+<lexhead no="42">
+<dentry>ईर्ष्यालु</dentry>
+<prAwipaxikam>ईर्ष्यालु</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ईर्ष्यालु</prAwipaxikam>
+<etymology>[ईर्ष्य्+आलुच्]</etymology>
+<sense no="1">डाह करने वाला, असहिष्णु</sense>
+<sense n="2">डाह करने वाला, असहिष्णु</sense>
+</lexhead>
+
+<lexhead no="43">
+<dentry>ईर्ष्यु</dentry>
+<prAwipaxikam>ईर्ष्यु</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ईर्ष्यु</prAwipaxikam>
+<etymology>[ईर्ष्य्+उ]</etymology>
+<sense no="1">डाह करने वाला, असहिष्णु</sense>
+</lexhead>
+
+<lexhead no="44">
+<dentry>ईर्षु</dentry>
+<prAwipaxikam>ईर्षु</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ईर्षु</prAwipaxikam>
+<etymology>[ईर्ष्य्+उ, यलोपः]</etymology>
+<sense no="1">डाह करने वाला, असहिष्णु</sense>
+</lexhead>
+
+<lexhead no="45">
+<dentry>ईलिः</dentry>
+<prAwipaxikam>ईलि</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[ईड्+कि डस्य लः]</etymology>
+<sense no="1">एक हथियार, डंडा, छोटी तलवार</sense>
+</lexhead>
+
+<lexhead no="46">
+<dentry>ईली</dentry>
+<prAwipaxikam>ईली</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<kind_of>खड्गः</kind_of>
+<upAXi>आयुधम्</upAXi>
+<sense no="1">एक हथियार, डंडा, छोटी तलवार</sense>
+</lexhead>
+
+<lexhead no="47">
+<dentry>ईश्</dentry>
+<prAwipaxikam>ईश्</prAwipaxikam>
+<grammar><gaNa>अदा*</gaNa><paxI>आ*</paxI><vform>ईष्टे</vform>,<vform>ईशित</vform></grammar>
+<sense no="1">राज्य करना, स्वामी होना, शासन करना, आदेश देना, अर्थानामीशिषे त्वं वयमपि च गिरामीश्महे यावदर्थम्<citation>भर्तृ*३।३०</citation>संबं* के साथ</sense>
+<sense n="2">योग्य होना, शक्ति रखनामाधुर्यमीष्टे हरिणान् ग्रहीतुम्<citation>रघु*१८।१३ तुम’ के साथ</citation></sense>
+<sense n="3">स्वामी होना, अधिकार में करना</sense>
+</lexhead>
+
+<lexhead no="48">
+<dentry>ईश</dentry>
+<prAwipaxikam>ईश</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ईश</prAwipaxikam>
+<etymology>[ईश्+क]</etymology>
+<kind_of>देवः</kind_of>
+<jAwi>देवता</jAwi>
+<kind_of>देवः</kind_of>
+<jAwi>ईश्वरः</jAwi>
+<sense no="1">अपनाने वाला, स्वामी, मालिक, दे* नीचे</sense>
+<sense n="2">शक्तिशाली</sense>
+<sense n="3">सर्वोपरि</sense>
+</lexhead>
+
+<lexhead no="49">
+<dentry>ईशः</dentry>
+<prAwipaxikam>ईश</prAwipaxikam>
+<grammar>पुं*</grammar>
+<kind_of>देवः</kind_of>
+<jAwi>देवता</jAwi>
+<kind_of>देवः</kind_of>
+<jAwi>ईश्वरः</jAwi>
+<sense no="1">मालिक, स्वामी, कथञ्चिदीशा मनसां बभूवुः<citation>कु*३।३४ संबं* के साथ या समास में</citation>इसी प्रकार वागीश और सुरेश आदि</sense>
+<sense n="2">पति</sense>
+<sense n="3">ग्यारह</sense>
+<sense n="4">शिव</sense>
+</lexhead>
+
+<lexhead no="50">
+<dentry>ईशा</dentry>
+<prAwipaxikam>ईशा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<is_a_part>हलम्</is_a_part>
+<kind_of>काष्ठम्</kind_of>
+<jAwi>अचलनिर्जीववस्तु</jAwi>
+<sense no="1">दुर्गा</sense>
+<sense n="2">ऐश्वर्यशालिनी स्त्री, धनाढ्य महिला</sense>
+<segmenthd>
+<dentry>ईशकोणः</dentry>
+<prAwipaxikam>ईशकोण</prAwipaxikam>
+<seg>ईश-कोणः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">उत्तर पूर्व दिशा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ईशपुरी</dentry>
+<prAwipaxikam>ईशपुरी</prAwipaxikam>
+<seg>ईश-पुरी</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">बनारस, वाराणसी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ईशनगरी</dentry>
+<prAwipaxikam>ईशनगरी</prAwipaxikam>
+<seg>ईश-नगरी</seg>
+<grammar>स्त्री*</grammar>
+<sense no="1">बनारस, वाराणसी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ईशसखः</dentry>
+<prAwipaxikam>ईशसख</prAwipaxikam>
+<seg>ईश-सखः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">कुबेर का विशेषण</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="51">
+<dentry>ईशानः</dentry>
+<prAwipaxikam>ईशान</prAwipaxikam>
+<grammar>पुं*</grammar>
+?<etymology>[ईश् - ताच्छील्ये चानच्]</etymology>
+<kind_of>देवः</kind_of>
+<jAwi>ईश्वरः</jAwi>
+<sense no="1">शासक, स्वामी, मालिक</sense>
+<sense n="2">शिव<citation>कु*७।५६</citation></sense>
+<sense n="3">सूर्यशिव के रूप में</sense>
+<sense n="4">विष्णु</sense>
+</lexhead>
+
+<lexhead no="52">
+<dentry>ईशानी</dentry>
+<prAwipaxikam>ईशानी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<sense no="1">दुर्गा</sense>
+</lexhead>
+
+<lexhead no="53">
+<dentry>ईशिता</dentry>
+<prAwipaxikam>ईशिता</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology><vigraha_vAkya>ईशिनो भावः</vigraha_vAkya>[ईशिन्+तल्+टाप्]</etymology>
+<sense no="1">सर्वोपरिता, महत्त्व, शिव की आठ सिद्धियों में एक, दे* ’अणिमन्’ या ’सिद्धिः’</sense>
+</lexhead>
+
+<lexhead no="54">
+<dentry>ईशित्वम्</dentry>
+<prAwipaxikam>ईशित्व</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology><vigraha_vAkya>ईशिनो भावः[</vigraha_vAkya>ईशिन्+त्वल्]</etymology>
+<upAXi>शक्तिः</upAXi>
+<sense no="1">सर्वोपरिता, महत्त्व, शिव की आठ सिद्धियों में एक, दे* ’अणिमन्’ या ’सिद्धिः’</sense>
+</lexhead>
+
+<lexhead no="55">
+<dentry>ईश्वर</dentry>
+<prAwipaxikam>ईश्वर</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ईश्वर</prAwipaxikam>
+<kind_of>मनुष्यः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<kind_of>देवः</kind_of>
+<jAwi>ईश्वरः</jAwi>
+<sense no="1">शक्तिसम्पन्न, योग्य, समर्थ<citation>कु*४।११</citation>स्त्री*<vform>ईश्वरा</vform>,<vform>ईश्वरी</vform>, ’तुमुन्’ के साथ</sense>
+<sense n="2">धनाढ्य, दौलतमंद</sense>
+</lexhead>
+
+<lexhead no="56">
+<dentry>ईश्वरः</dentry>
+<prAwipaxikam>ईश्वर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<kind_of>मनुष्यः</kind_of>
+<jAwi>मनुष्यः</jAwi>
+<kind_of>देवः</kind_of>
+<jAwi>ईश्वरः</jAwi>
+<sense no="1">मालिक, स्वामी, ईश्वरं लोकोऽर्थतः सेवते<citation>मुद्रा*१।१४</citation></sense>
+<sense n="2">राजा, राजकुमार, शासक</sense>
+<sense n="3">धनाढ्य या बड़ा आदमीमा प्रयच्छेश्वरेधनम्<citation>हि*१।१५तु० ’उलटे बांस बरेली को’</citation></sense>
+<sense n="4">पति<citation>कि*९।३९</citation></sense>
+<sense n="5">परमेश्वर</sense>
+<sense n="6">शिव<citation>विक्रम*१।१</citation></sense>
+<sense n="7">कामदेव</sense>
+</lexhead>
+
+<lexhead no="57">
+<dentry>ईश्वरा</dentry>
+<prAwipaxikam>ईश्वरा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<sense no="1">दुर्गा</sense>
+</lexhead>
+
+<lexhead no="58">
+<dentry>ईश्वरी</dentry>
+<prAwipaxikam>ईश्वरी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<jAwi>देवता</jAwi>
+<sense no="1">दुर्गा</sense>
+<segmenthd>
+<dentry>ईश्वरनिषेधः</dentry>
+<prAwipaxikam>ईश्वरनिषेध</prAwipaxikam>
+<seg>ईश्वरः-निषेधः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">परमात्मा के अस्तित्व को न मानना, नास्तिकता</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ईश्वरपूजक</dentry>
+<prAwipaxikam>ईश्वरपूजक</prAwipaxikam>
+<seg>ईश्वरः-पूजक</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ईश्वरपूजक</prAwipaxikam>
+<sense no="1">पुण्यात्मा, भक्त</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ईश्वरसद्मन्</dentry>
+<prAwipaxikam>ईश्वरसद्मन्</prAwipaxikam>
+<seg>ईश्वरः-सद्मन्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">मन्दिर</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ईश्वरसभम्</dentry>
+<prAwipaxikam>ईश्वरसभ</prAwipaxikam>
+<seg>ईश्वरः-सभम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">राजकीय दरबार या सभा</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="59">
+<dentry>ईष्</dentry>
+<prAwipaxikam>ईष्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>उभ*</paxI><vform>ईषति</vform>,<vform>ईषते</vform>,<vform>ईषित</vform></grammar>
+<sense no="1">उड़ जाना</sense>
+<sense n="2">देखना, नजर डालना</sense>
+<sense n="3">देना</sense>
+<sense n="4">मार डालना</sense>
+</lexhead>
+
+<lexhead no="60">
+<dentry>ईषः</dentry>
+<prAwipaxikam>ईष</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[ईष्+क]</etymology>
+<sense no="1">आश्विन मास, तु* ’ईष्’</sense>
+</lexhead>
+
+<lexhead no="61">
+<dentry>ईषत्</dentry>
+<prAwipaxikam>ईषत्</prAwipaxikam>
+<grammar>अव्य*</grammar>
+<etymology>[ईष्+अति]</etymology>
+<jAwi>परिमाणः</jAwi>
+<sense no="1">जरा, कुछ सीमा तक, थोंड़ा सा ईषत् चुम्बितानि<citation>श*१।३</citation></sense>
+<segmenthd>
+<dentry>ईषदुष्ण</dentry>
+<prAwipaxikam>ईषदुष्ण</prAwipaxikam>
+<seg>ईषत्-उष्ण</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ईषदुष्ण</prAwipaxikam>
+<sense no="1">गुनगुना</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ईषत्कर</dentry>
+<prAwipaxikam>ईषत्कर</prAwipaxikam>
+<seg>ईषत्-कर</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ईषत्कर</prAwipaxikam>
+<sense no="1">थोड़ा करने वाला, अनायास पूरा हो जाने वाला</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ईषज्जलम्</dentry>
+<prAwipaxikam>ईषज्जल</prAwipaxikam>
+<seg>ईषत्-जलम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">उथला पानी</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ईषत्पाण्डु</dentry>
+<prAwipaxikam>ईषत्पाण्डु</prAwipaxikam>
+<seg>ईषत्-पाण्डु</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ईषत्पाण्डु</prAwipaxikam>
+<kind_of>शुक्लवर्णः</kind_of>
+<jAwi>रूपम्</jAwi>
+<sense no="1">हल्का पीला, कुछ सफेद</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ईषत्पुरुषः</dentry>
+<prAwipaxikam>ईषत्पुरुष</prAwipaxikam>
+<seg>ईषत्-पुरुषः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">अधम और घृणित व्यक्ति</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ईषद्रक्त</dentry>
+<prAwipaxikam>ईषद्रक्त</prAwipaxikam>
+<seg>ईषत्-रक्त</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ईषद्रक्त</prAwipaxikam>
+<sense no="1">पीला लाल, हल्का लाल</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ईषल्लभ</dentry>
+<prAwipaxikam>ईषल्लभ</prAwipaxikam>
+<seg>ईषत्-लभ</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ईषल्लभ</prAwipaxikam>
+<sense no="1">थोड़े से में सुलभ</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ईषत्प्रलम्भ</dentry>
+<prAwipaxikam>ईषत्प्रलम्भ</prAwipaxikam>
+<seg>ईषत्-प्रलम्भ</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ईषत्प्रलम्भ</prAwipaxikam>
+<sense no="1">थोड़े से में सुलभ</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ईषद्हासः</dentry>
+<prAwipaxikam>ईषद्हास</prAwipaxikam>
+<seg>ईषत्-हासः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">थोड़ी हंसी, मुस्कराहट</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="62">
+<dentry>ईषा</dentry>
+<prAwipaxikam>ईषा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[ईष्+क+टाप्]</etymology>
+<sense no="1">गाड़ी की फड़</sense>
+<sense n="2">हलस</sense>
+</lexhead>
+
+<lexhead no="63">
+<dentry>ईषिका</dentry>
+<prAwipaxikam>ईषिका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[ईषा+कन्, इत्वम्]</etymology>
+<is_a_part>हस्तिः</is_a_part>
+<upAXi>अवयवः</upAXi>
+<sense no="1">हाथी की आँख की पुतली</sense>
+<sense n="2">रंगसाज की कूँची</sense>
+<sense n="3">हथियार, तीर, बाण</sense>
+</lexhead>
+
+<lexhead no="64">
+<dentry>ईषिरः</dentry>
+<prAwipaxikam>ईषिर</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[ईष्+किरच्]</etymology>
+<sense no="1">अग्नि, आग</sense>
+</lexhead>
+
+<lexhead no="65">
+<dentry>ईषीका</dentry>
+<prAwipaxikam>ईषीका</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[ईष्+क्वुन्, इत्वम्, दीर्घश्च]</etymology>
+<sense no="1">रंगसाज की कूँची</sense>
+<sense n="2">ईंट</sense>
+<sense n="3">इषीका</sense>
+</lexhead>
+
+<lexhead no="66">
+<dentry>ईष्मः</dentry>
+<prAwipaxikam>ईष्म</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[इष्-मक्]</etymology>
+<sense no="1">कामदेव, ईष्वः</sense>
+<sense n="2">वसन्त ऋतुईष्वः</sense>
+</lexhead>
+
+<lexhead no="67">
+<dentry>ईह्</dentry>
+<prAwipaxikam>ईह्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI><vform>ईहते</vform>,<vform>ईहित</vform></grammar>
+<sense no="1">कामना करना, चाहना, सोचना<citation>भग*१६।१२</citation><citation>भट्टि*१।११</citation>कर्म* या ’तुमुन्’ के साथ</sense>
+<sense n="2">प्राप्त करने का प्रयत्न करना</sense>
+<sense n="3">लक्ष्य बनाना, प्रयत्न करना, प्रयास करना, कोशिश करनामाधुर्य मधुविन्दुना रचयितुं क्षाराम्बुधेरीहते<citation>भर्तृ* २।६.</citation><citation>याज्ञ*२।११६</citation></sense>
+<segmenthd>
+<dentry>समीह्</dentry>
+<prAwipaxikam>समीह्</prAwipaxikam>
+<seg>सम्-ईह्</seg>
+<grammar><gaNa>भ्वा*</gaNa><paxI>आ*</paxI></grammar>
+<sense no="1">कामना करना, इच्छा करना</sense>
+<sense no="2">करने का प्रयत्न करना, कोशिश करनाप्रियाणि वाञ्छत्यसुभिः समीहितुम्<citation>कि*१।१९</citation></sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="68">
+<dentry>ईहा</dentry>
+<prAwipaxikam>ईहा</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+<etymology>[ईह्+अ]</etymology>
+<kind_of>मनोविकारः</kind_of>
+<jAwi>मानसिकभावः</jAwi>
+<sense no="1">कामना, इच्छा</sense>
+<sense n="2">प्रयत्न, प्रयास, चेष्टा<citation>मनु*९।२०५</citation></sense>
+<segmenthd>
+<dentry>ईहामृगः</dentry>
+<prAwipaxikam>ईहामृग</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[ईहा+मृगः]</etymology>
+<kind_of>पशुः</kind_of>
+<jAwi>स्तनपायी</jAwi>
+<sense no="2">भेड़िया</sense>
+<sense no="3">नाटक का एक खंड जिसमें ४ अंक होते हैं<citation>सा*द*५१८परिभाषा के लिए दे*</citation></sense></segmenthd>
+<segmenthd>
+<dentry>ईहावृकः</dentry>
+<prAwipaxikam>ईहावृक</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[ईहा+वृकः]</etymology>
+<sense no="1">भेड़िया</sense></segmenthd>
+</lexhead>
+
+<lexhead no="69">
+<dentry>ईहित</dentry>
+<prAwipaxikam>ईहित</prAwipaxikam>
+<grammar>भू* क* कृ*</grammar>
+<etymology>[ईह्+क्त]</etymology>
+<sense no="1">चाहा हुआ, खोजा हुआ, प्रयत्न किया हुआ</sense>
+</lexhead>
+
+<lexhead no="70">
+<dentry>ईहितम्</dentry>
+<prAwipaxikam>ईहित</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[ईह्+क्त]</etymology>
+<sense no="1">कामना, इच्छा</sense>
+<sense n="2">प्रयत्न प्रयास</sense>
+<sense no="3">
+</sense>
+</lexhead>
+
+</dict>

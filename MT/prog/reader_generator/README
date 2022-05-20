@@ -1,0 +1,25 @@
+This directory contains interface programs to generate html pages from the CSV files Cantowise. Sample files for Canto-1 are included.
+
+A) To generate html interface for the shlokas in a given Canto
+
+Usage: SCLINSTALLDIR/MT/prog/reader_generator/interface_gen.sh $1 $2 $3
+where
+$1 ->  src_dir_path
+$2 ->  total shlokas
+$3 ->  target
+
+For example, to generate an interface for the 10 shlokas in the Canto-I in the target directory SV-I
+run it as
+	SCLINSTALLDIR/MT/prog/reader_generator/interface_gen.sh Canto-I 10 SV-1
+
+B) To change the names of rows in Hide/Show
+   make changes in SCLINSTALLDIR/MT/prog/reader_generator/style_script/text.js
+
+C) To change the color scheme:
+   make changes in SCLINSTALLDIR/MT/prog/reader_generator/style_script/style.css
+D) To control the initial display of rows
+   make changes in SCLINSTALLDIR/MT/prog/reader_generator/style_script/text.js and SCLINSTALLDIR/MT/prog/reader_generator/style_script/text.css
+  1 in text.js stands for disply the row, and 0 not to display the row
+  none in text.css stands for not to display the row.
+  The entries in text.js and text.css should match.
+

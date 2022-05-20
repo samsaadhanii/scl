@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dict SYSTEM "apte.dtd">
+<?xml-stylesheet href="apte.css" type="text/css" ?>
+<dict>
+<lexhead no="1">
+<dentry>ओ</dentry>
+<prAwipaxikam>ओ</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[उ+विच्]</etymology>
+<sense no="1">ब्रह्मा, पुं* - औः</sense>
+<sense n="2">सम्बोधनात्मक अव्ययओः</sense>
+<sense n="3">बुलावा, स्मरण करना और करुणा बोधक विस्मयादि द्योतक चिह्न्न</sense>
+</lexhead>
+
+<lexhead no="2">
+<dentry>ओकः</dentry>
+<prAwipaxikam>ओक</prAwipaxikam>
+<grammar>पुं*</grammar>
+?<etymology>[उच्-क नि* चस्य कः]</etymology>
+<sense no="1">घर</sense>
+<sense n="2">शरण, आश्रय</sense>
+<sense n="3">पक्षी</sense>
+<sense n="4">शूद्र</sense>
+</lexhead>
+
+<lexhead no="3">
+<dentry>ओकणः</dentry>
+<prAwipaxikam>ओकण</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[ओ+कण्+अच्/ओ+कण्+इन्]</etymology>
+<sense no="1">खटमल, णिः, इसी प्रकार ’ओकोदनी’</sense>
+</lexhead>
+
+<lexhead no="4">
+<dentry>ओकस्</dentry>
+<prAwipaxikam>ओकस्</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उच्+असुन्]</etymology>
+<jAwi>मानवनिर्मितिः</jAwi>
+<sense no="1">घर, आवास, जैसा कि दिवौकस् या स्वर्गीकस् देवता में</sense>
+<sense n="2">आश्रय, शरण</sense>
+</lexhead>
+
+<lexhead no="5">
+<dentry>ओख्</dentry>
+<prAwipaxikam>ओख्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI>-<vform>ओखति</vform>,<vform>ओखित</vform></grammar>
+<sense no="1">सूख जाना</sense>
+<sense n="2">योग्य होना, प्रर्याप्त होना</sense>
+<sense n="3">सजाना, सुशोभित करना</sense>
+<sense n="4">अस्वीकृत करना</sense>
+<sense n="5">रोक लगाना</sense>
+</lexhead>
+
+<lexhead no="6">
+<dentry>ओघः</dentry>
+<prAwipaxikam>ओघ</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[उच्+घञ्, पृषो*]</etymology>
+<kind_of>क्रिया</kind_of>
+<jAwi>क्रिया</jAwi>
+<jAwi>जन्तुः</jAwi>
+<upAXi>समूहः</upAXi>
+<upAXi>वाद्योपकरणम्</upAXi>
+<sense no="1">जलप्लावन, नदी, धारा, पुनरोघेन हि युज्यते नदी<citation>कु* ४/४४</citation></sense>
+<sense n="2">जल की बाढ़</sense>
+<sense n="3">राशि, परिमाण, समुदाय</sense>
+<sense n="4">समग्र</sense>
+<sense n="5">सातत्य</sense>
+<sense n="6">परम्परा, परम्पराप्राप्त उपदेश</sense>
+<sense n="7">एक प्रमुख नृत्य</sense>
+</lexhead>
+
+<lexhead no="7">
+<dentry>ओज्</dentry>
+<prAwipaxikam>ओज्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><gaNa>चुरा*</gaNa><paxI>उभ*</paxI><vform>ओजति</vform>,<vform>ओजयति</vform>,<vform>ओजते</vform>,<vform>ओजित</vform></grammar>
+<sense no="1">सक्षम या योग्य होना</sense>
+</lexhead>
+
+<lexhead no="8">
+<dentry>ओज</dentry>
+<prAwipaxikam>ओज</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ओज</prAwipaxikam>
+<etymology>[ओज्+अच्]</etymology>
+<sense no="1">विषम, असम</sense>
+</lexhead>
+
+<lexhead no="9">
+<dentry>ओजम्</dentry>
+<prAwipaxikam>ओज</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[ओज्+अच्]</etymology>
+<sense no="1">ओजस्</sense>
+</lexhead>
+
+<lexhead no="10">
+<dentry>ओजस्</dentry>
+<prAwipaxikam>ओजस्</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<etymology>[उब्ज्+असुन्, बलोपः, गुणश्च]</etymology>
+<jAwi>तेजः</jAwi>
+<jAwi>गुणः</jAwi>
+<sense no="1">शारीरिक सामर्थ्य, बल, शक्ति</sense>
+<sense n="2">वीर्य, जननात्मक शक्ति</sense>
+<sense n="3">आभा, प्रकाशआलं* शा* में</sense>
+<sense n="4">शैली का विस्तृत रूप, समास की बहुलताओजः समासभूयस्त्वमेतद् गद्यस्य जीवितम्<citation>काव्या* १/८०दण्डी के अनुसार यही गद्य की आत्मा है</citation>रसगंगाधर में इसके पाँच भेद बतलाये गये है</sense>
+<sense n="5">पानी</sense>
+<sense n="6">धातु की चमक</sense>
+</lexhead>
+
+<lexhead no="11">
+<dentry>ओजसीन्</dentry>
+<prAwipaxikam>ओजसीन्</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ओजसीन्</prAwipaxikam>
+<etymology>[ओजस्+ख]</etymology>
+<sense no="1">मजबूत, शक्तिशाली</sense>
+</lexhead>
+
+<lexhead no="12">
+<dentry>ओजस्य</dentry>
+<prAwipaxikam>ओजस्य</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ओजस्य</prAwipaxikam>
+<etymology>[ओजस्+यत् ]</etymology>
+<sense no="1">मजबूत, शक्तिशाली</sense>
+</lexhead>
+
+<lexhead no="13">
+<dentry>ओजस्वत्</dentry>
+<prAwipaxikam>ओजस्वत्</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ओजस्वत्</prAwipaxikam>
+<etymology>[ओजस्+मतुप्]</etymology>
+<sense no="1">मजबूत, वीर्यवान्, तेजस्वी, शक्तिशाली</sense>
+</lexhead>
+
+<lexhead no="14">
+<dentry>ओजस्विन्</dentry>
+<prAwipaxikam>ओजस्विन्</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ओजस्विन्</prAwipaxikam>
+<etymology>[ओजस्+विनि ]</etymology>
+<sense no="1">मजबूत, वीर्यवान्, तेजस्वी, शक्तिशाली</sense>
+</lexhead>
+
+<lexhead no="15">
+<dentry>ओड्रः</dentry>
+<prAwipaxikam>ओड्र</prAwipaxikam>
+<grammar>पुं*</grammar>
+<sense no="1">एक देश का तथा उसके निवासियों का नाम<citation>मनु* १०/४४</citation>आधुनिक उड़ीसा</sense>
+</lexhead>
+
+<lexhead no="16">
+<dentry>ओड्रम्</dentry>
+<prAwipaxikam>ओड्र</prAwipaxikam>
+<grammar>नपुं*</grammar>
+<sense no="1">जवाकुसुम</sense>
+</lexhead>
+
+<lexhead no="17">
+<dentry>ओत</dentry>
+<prAwipaxikam>ओत</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ओत</prAwipaxikam>
+<etymology>[आ_वे+क्त]</etymology>
+<sense no="1">बुना हुआ, धागे से एक सिरे से दूसरे तक सिला हुआ</sense>
+<segmenthd>
+<dentry>ओतप्रोत</dentry>
+<prAwipaxikam>ओतप्रोत</prAwipaxikam>
+<seg>ओत-प्रोत</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ओतप्रोत</prAwipaxikam>
+<sense no="1">लम्बाई और चौड़ाई के बल आर-पार सिला हुआ</sense>
+<sense no="2">सब दिशाओं में फैला हुआ</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="18">
+<dentry>ओतुः</dentry>
+<prAwipaxikam>ओतु</prAwipaxikam>
+<grammar>पुं*</grammar>
+?<etymology>[अव-तुन्, ऊठ्, गुणः]</etymology>
+<kind_of>पशुः</kind_of>
+<jAwi>स्तनपायी</jAwi>
+<sense no="1">बिलाव, बिल्ली, स्त्री* ओतुभी, जैसा कि ’स्थूलो लौ तुः’ में</sense>
+</lexhead>
+
+<lexhead no="19">
+<dentry>ओदनः</dentry>
+<prAwipaxikam>ओदन</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[उन्द्+युच्]</etymology>
+<kind_of>भोजनम्</kind_of>
+<upAXi>विकृतिकखाद्यम्</upAXi>
+<sense no="1">भोजन, भात, उदा* दध्योदन और घृतोदन</sense>
+<sense n="2">दलिया बनाकर दूध में पकाया हुआ अन्न</sense>
+</lexhead>
+
+<lexhead no="20">
+<dentry>ओम्</dentry>
+<prAwipaxikam>ओम्</prAwipaxikam>
+<grammar>अव्य*</grammar>
+?<etymology>[अव्-मन्, ऊठ्, गुण]</etymology>
+<jAwi>मानसिकभावः</jAwi>
+<sense no="1">पावन अक्षर ’ओम्’ वेद-पाठ के आरम्भ और समाप्ति पर किया गया पावन उच्चारण, या मंत्र के आरम्भ में बोला जाने वाला</sense>
+<sense n="2">औपचारिक पुष्टिकरण तथा सम्माननीय स्वीकृतिएवमस्तु, तथास्तु</sense>
+<sense n="3">स्वीकृति, अंगीकरणओम्इत्युच्यताममात्यः<citation>मा* ६</citation>ओमित्युक्तवतोथशार्ड़्गिण इति<citation>शि* १/७५</citation>द्वितीयश्चेदोमितिब्रूमः<citation>सा* द* १हाँ बहुत अच्छा</citation></sense>
+<sense n="4">आदेश</sense>
+<sense n="5">मांगलिकता</sense>
+<sense n="6">दूर करना या रोक लगाना की भावना को प्रकट करने वाला अव्यय</sense>
+<sense n="7">ब्रह्म</sense>
+<segmenthd>
+<dentry>ओङ्कारः</dentry>
+<prAwipaxikam>ओङ्कार</prAwipaxikam>
+<seg>ओम्-कारः</seg>
+<grammar>पुं*</grammar>
+<jAwi>पौरुषेयम्</jAwi>
+<sense no="2">पवित्र ध्वनि ॐ</sense>
+<sense no="3">पवित्र उद्गार ॐ</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="21">
+<dentry>ओरम्फः</dentry>
+<prAwipaxikam>ओरम्फ</prAwipaxikam>
+<grammar>पुं*</grammar>
+<sense no="1">गहरी खरोंच<citation>मा* ७</citation></sense>
+</lexhead>
+
+<lexhead no="22">
+<dentry>ओल</dentry>
+<prAwipaxikam>ओल</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ओल</prAwipaxikam>
+?<etymology>[आ-उन्द्-क पृषो*]</etymology>
+<sense no="1">आर्द्र, गीला</sense>
+</lexhead>
+
+<lexhead no="23">
+<dentry>ओलण्ड्</dentry>
+<prAwipaxikam>ओलण्ड्</prAwipaxikam>
+<grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI><gaNa>चुरा*</gaNa><paxI>उभ*</paxI><vform>ओलंडति</vform>,<vform>ओलंडयति</vform>,<vform>ओलंडित</vform></grammar>
+<sense no="1">ऊपर की ओर फेंकना, ऊपर उछालना</sense>
+</lexhead>
+
+<lexhead no="24">
+<dentry>ओल्ल</dentry>
+<prAwipaxikam>ओल्ल</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ओल्ल</prAwipaxikam>
+<etymology>[ओल - पृषो*]</etymology>
+<sense no="1">आर्द्र, गीला</sense>
+</lexhead>
+
+<lexhead no="25">
+<dentry>ओल्लः</dentry>
+<prAwipaxikam>ओल्ल</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[ओल - पृषो*]</etymology>
+<sense no="1">प्रतिभू</sense>
+<segmenthd>
+<dentry>ओल्लागतः</dentry>
+<prAwipaxikam>ओल्लागत</prAwipaxikam>
+<seg>ओल्ल-आगतः</seg>
+<grammar>पुं*</grammar>
+<sense no="3">प्रतिभू या जामिन के रूप में आया हुआयह शब्द एक दो बार विद्धशालभञ्जिका में आया है</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="26">
+<dentry>ओषः</dentry>
+<prAwipaxikam>ओष</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[उष्+घञ्]</etymology>
+<jAwi>मानसिकभावः</jAwi>
+<sense no="1">जलन, संवाह</sense>
+</lexhead>
+
+<lexhead no="27">
+<dentry>ओषणः</dentry>
+<prAwipaxikam>ओषण</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[उष्+ल्युट्]</etymology>
+<sense no="1">तिक्तता, तीक्ष्णता, तीखा रस</sense>
+</lexhead>
+
+<lexhead no="28">
+<dentry>ओषधिः</dentry>
+<prAwipaxikam>ओषधि</prAwipaxikam>
+<grammar>पुं*</grammar>
+?<etymology>[ओष-धा-कि, स्त्रियां ड़ीष् ]</etymology>
+<jAwi>ओषधिः</jAwi>
+<sense no="1">जड़ीबूटी, वनस्पति</sense>
+<sense n="2">औषधि का पौधा, ओषधि</sense>
+<sense n="3">फसली पौधा या जड़ीबूटी जो कि पक कर सूख जाती है</sense>
+</lexhead>
+
+<lexhead no="29">
+<dentry>ओषधी</dentry>
+<prAwipaxikam>ओषधी</prAwipaxikam>
+<grammar>स्त्री*</grammar>
+?<etymology>[ओष-धा-कि+ड़ीष् ]</etymology>
+<jAwi>ओषधिः</jAwi>
+<sense no="1">जड़ीबूटी, वनस्पति</sense>
+<sense n="2">औषधि का पौधा, ओषधि</sense>
+<sense n="3">फसली पौधा या जड़ीबूटी जो कि पक कर सूख जाती है</sense>
+<segmenthd>
+<dentry>ओषधीशः</dentry>
+<prAwipaxikam>ओषधीश</prAwipaxikam>
+<seg>ओषधिः-ईशः</seg>
+<grammar>पुं*</grammar>
+<kind_of>अर्कादयः</kind_of>
+<jAwi>ग्रहः</jAwi>
+<sense no="3">चन्द्रमावनस्पतियों का अधिदेवता तथा पोषक</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ओषधिगर्भः</dentry>
+<prAwipaxikam>ओषधिगर्भ</prAwipaxikam>
+<seg>ओषधिः-गर्भः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">चन्द्रमा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ओषधिनाथः</dentry>
+<prAwipaxikam>ओषधिनाथ</prAwipaxikam>
+<seg>ओषधिः-नाथः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">चन्द्रमा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ओषधिज</dentry>
+<prAwipaxikam>ओषधिज</prAwipaxikam>
+<seg>ओषधिः-ज</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ओषधिज</prAwipaxikam>
+<sense no="1">वनस्पति से उत्पन्न</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ओषधिधरः</dentry>
+<prAwipaxikam>ओषधिधर</prAwipaxikam>
+<seg>ओषधिः-धरः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">ओषधि-विक्रेता</sense>
+<sense no="2">वैद्य</sense>
+<sense no="3">चन्द्रमा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ओषधिपतिः</dentry>
+<prAwipaxikam>ओषधिपति</prAwipaxikam>
+<seg>ओषधिः-पतिः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">ओषधि-विक्रेता</sense>
+<sense no="2">वैद्य</sense>
+<sense no="3">चन्द्रमा</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ओषधिप्रस्थः</dentry>
+<prAwipaxikam>ओषधिप्रस्थ</prAwipaxikam>
+<seg>ओषधिः-प्रस्थः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">हिमालय की राजधानीतत्प्रयातौषधिप्रस्थं स्थितये हिमवत्पुरम्<citation>कु* ६/३३</citation>३६</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="30">
+<dentry>ओष्ठः</dentry>
+<prAwipaxikam>ओष्ठ</prAwipaxikam>
+<grammar>पुं*</grammar>
+<etymology>[उष्+थन्]</etymology>
+<is_a_part>वदनम्</is_a_part>
+<kind_of>पाय्वादीन्द्रियम्</kind_of>
+<upAXi>अवयवः</upAXi>
+<sense no="1">होठ, ऊपर का या नीचे का</sense>
+<segmenthd>
+<dentry>ओष्ठाधरौ</dentry>
+<prAwipaxikam>ओष्ठाधरौ</prAwipaxikam>
+<seg>ओष्ठ-अधरौ</seg>
+<grammar>पुं*</grammar>
+<sense no="1">ऊपर और नीचे का होठ</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ओष्ठाधरम्</dentry>
+<prAwipaxikam>ओष्ठाधर</prAwipaxikam>
+<seg>ओष्ठ-अधरम्</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ओष्ठाधर</prAwipaxikam>
+<sense no="1">ऊपर और नीचे का होठ</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ओष्ठज</dentry>
+<prAwipaxikam>ओष्ठज</prAwipaxikam>
+<seg>ओष्ठ-ज</seg>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ओष्ठज</prAwipaxikam>
+<sense no="1">ओष्ठस्थानीय</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ओष्ठजाहः</dentry>
+<prAwipaxikam>ओष्ठजाह</prAwipaxikam>
+<seg>ओष्ठ-जाहः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">होठ की जड़</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ओष्ठपल्लवः</dentry>
+<prAwipaxikam>ओष्ठपल्लव</prAwipaxikam>
+<seg>ओष्ठ-पल्लवः</seg>
+<grammar>पुं*</grammar>
+<sense no="1">किसलय जैसा, कोमल ओष्ठ</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ओष्ठपल्लवम्</dentry>
+<prAwipaxikam>ओष्ठपल्लव</prAwipaxikam>
+<seg>ओष्ठ-पल्लवम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">किसलय जैसा, कोमल ओष्ठ</sense>
+</segmenthd>
+<segmenthd>
+<dentry>ओष्ठपुटम्</dentry>
+<prAwipaxikam>ओष्ठपुट</prAwipaxikam>
+<seg>ओष्ठ-पुटम्</seg>
+<grammar>नपुं*</grammar>
+<sense no="1">होठों को खोलने पर बना हुआ गड्ढा</sense>
+</segmenthd>
+</lexhead>
+
+<lexhead no="31">
+<dentry>ओष्ठ्य</dentry>
+<prAwipaxikam>ओष्ठ्य</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ओष्ठ्य</prAwipaxikam>
+<etymology>[ओष्ठ+यत्]</etymology>
+<sense no="1">होठों पर रहने वाला</sense>
+<sense n="2">ओष्ठ- स्थानीय ध्वनि आदि</sense>
+</lexhead>
+
+<lexhead no="32">
+<dentry>ओष्ण</dentry>
+<prAwipaxikam>ओष्ण</prAwipaxikam>
+<grammar>वि*</grammar>
+<prAwipaxikam gen="स्त्री">ओष्ण</prAwipaxikam>
+?<etymology>[ईषद् उष्णः - ग* स*]</etymology>
+<sense no="0">थोड़ा गरम, गुनगुना</sense>
+</lexhead>
+
+</dict>
