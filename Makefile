@@ -6,7 +6,7 @@ include ./paths.sh
 
 all: 
 	cd converters; make
-	cd SHMT; make
+	cd MT; make
 	cd skt_gen/compounds; make
 	cd skt_gen/Sentence; make
 	cp htdocs/index_server.html htdocs/index.html
@@ -18,7 +18,7 @@ install:
 	rm -rf $(CGIDIR)/scl
 	cd converters; make install
 	cd sandhi; make install
-	cd SHMT; make install
+	cd MT; make install
 	cd htdocs; make install
 	cd skt_gen; make install
 	cd transliteration; make install
@@ -39,7 +39,7 @@ install_server:
 	rm -rf $(CGIDIR)/scl
 	cp htdocs/statcounter.js htdocs/statcounter_dummy.js
 	cd sandhi; make install
-	cd SHMT; make install
+	cd MT; make install
 	cd htdocs; make install
 	cd skt_gen; make install
 	cd transliteration; make install
@@ -60,7 +60,7 @@ uninstall:
 
 clean:	
 	cd converters; make clean
-	cd SHMT; make clean
+	cd MT; make clean
 	cd skt_gen/compounds; make clean
 	cd skt_gen/Sentence; make clean
 	cd ashtadhyayi_simulator/june12; make clean
