@@ -5,7 +5,7 @@ include ../../paths.sh
 FILES = dump.ml
 SYNTAX = .ocamlinit
 ZEN=$(ZENDIR)
-HPATH=../../SHMT/prog/kAraka/Prepare_Graph/Heritage_ML
+HPATH=../../MT/prog/kAraka/Prepare_Graph/Heritage_ML
 
 all: dump
 

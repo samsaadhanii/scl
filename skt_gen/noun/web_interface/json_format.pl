@@ -4,20 +4,21 @@
 @vacanam=("eka","xvi","bahu");
 my($str);
 $str = "";
-$str= "[\n";
+$str= "[";
 @list = <STDIN>;
 $k=0;
 for ($vib=0;$vib<9;$vib++) {
   for ($vac=0;$vac<3;$vac++) {
-	  $str .= "{\n";
+          chomp($list[$k]);
+	  $str .= "{";
 	  $str .= "\"form\":\"$list[$k]\",";
 	  $str .= "\"vib\":\"$vib_WX[$vib]\",";
 	  $str .= "\"vac\":\"$vacanam[$vac]\"";
-	  $str .= "},\n";
+	  $str .= "},";
           $k++;
   }
 }
 chomp($str);
 $str =~ s/,$//;
-$str .= "]\n";
+$str .= "]";
 print $str;

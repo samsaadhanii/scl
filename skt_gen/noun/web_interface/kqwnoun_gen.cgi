@@ -53,11 +53,11 @@ my $myPATH = "$GlblVar::SCLINSTALLDIR/skt_gen/noun";
 	print "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n";
         print "<script type=\"text/javascript\">\n";
         print "function show(word,encod){\n";
-        print "window.open('/cgi-bin/scl/SHMT/options1.cgi?word='+word+'&outencoding='+encod+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=yes').focus();\n }\n </script>";
+        print "window.open('/cgi-bin/scl/MT/options1.cgi?word='+word+'&outencoding='+encod+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=yes').focus();\n }\n </script>";
 
         print "</head>\n";
 
-        print "<body onload=\"register_keys()\"> <script src=\"/scl/SHMT/wz_tooltip.js\" type=\"text/javascript\"></script>\n";
+        print "<body onload=\"register_keys()\"> <script src=\"/scl/MT/wz_tooltip.js\" type=\"text/javascript\"></script>\n";
 
        print `$myPATH/gen_kqwnoun.pl $encoding $prAwi $gen $rt u=$upasarga $kqw_prawyaya $XAwu $gaNa`;
 

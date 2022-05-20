@@ -43,10 +43,10 @@ require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
       print "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />";
       print "<script type=\"text/javascript\">\n";
       print "function show(word,encod){\n";
-      print "window.open('/cgi-bin/scl/SHMT/options1.cgi?word='+word+'&outencoding='+encod+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=yes').focus();\n }\n </script>";
+      print "window.open('/cgi-bin/scl/HMT/options1.cgi?word='+word+'&outencoding='+encod+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=yes').focus();\n }\n </script>";
 
       print "</head>\n";
-      print "<body onload=\"register_keys()\"> <script src=\"/scl/SHMT/wz_tooltip.js\" type=\"text/javascript\"></script>\n";
+      print "<body onload=\"register_keys()\"> <script src=\"/scl/MT/wz_tooltip.js\" type=\"text/javascript\"></script>\n";
 
       my $result = &getResult("$GlblVar::SCLINSTALLDIR/skt_gen/kqw/gen_kqw.pl $encoding $word $upasarga");
       print $result;

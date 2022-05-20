@@ -6,7 +6,7 @@ FILES = sentence_generator.ml paths.ml
 INTERFACES = pada_structure.mli
 SYNTAX = .ocamlinit
 ZEN=$(ZENDIR)
-HPATH=../../SHMT/prog/kAraka/Prepare_Graph/Heritage_ML
+HPATH=../../MT/prog/kAraka/Prepare_Graph/Heritage_ML
 
 all: sentence_generator scan_input.out
 #all: scan_input.out

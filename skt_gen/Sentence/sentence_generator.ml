@@ -24,7 +24,7 @@ value parses = Gram.Entry.mk "parses"
 
 value datapath = sclinstalldir^"/skt_gen/Sentence/data/";
 
-value commondatapath = sclinstalldir^"/SHMT/prog/kAraka/Prepare_Graph/DATA/";
+value commondatapath = sclinstalldir^"/MT/prog/kAraka/Prepare_Graph/DATA/";
 
 (* Grammar of parsed_analyses coming from sentence *)
 
