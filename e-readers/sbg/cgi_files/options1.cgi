@@ -39,7 +39,7 @@ $encod = $param{outencoding};
 print "<html><head>
 <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"/>
 <script type=\"text/javascript\" src=\"/scl/js_files/jquery.tools.min.js\"></script>
-<script type=\"text/javascript\" src =\"/scl/SHMT/option.js\"></script>
+<script type=\"text/javascript\" src =\"/scl/MT/option.js\"></script>
 <style type=\"text/css\"> #apte{font:22px bold sans-serif;width:100%;background:#333;color:#fff;}</style>
 <style type=\"text/css\"> #mw{font:22px bold sans-serif;width:100%;background:#333;color:#fff;}</style>
 <style type=\"text/css\"> #amara{font:22px bold sans-serif;width:100%;background:#333;color:#fff;}</style>

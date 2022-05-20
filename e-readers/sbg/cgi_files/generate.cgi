@@ -44,7 +44,7 @@ my $word = $param{word};
 my $outencoding = $param{outencoding};
 my $word_wx = "";
 
-$Files_Path = "$GlblVar::SCLINSTALLDIR/SHMT/data";
+$Files_Path = "$GlblVar::SCLINSTALLDIR/MT/data";
 
 chomp $word;
 # converting word utf8 to wx to get filename
