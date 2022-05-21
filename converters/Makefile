@@ -4,7 +4,7 @@ include ../paths.sh
 
 .PHONY: all clean
 
-TARGETS = ir ri ri_skt ir_skt itrans_ra.out logical_itrans.out rm__between_vowels.out kyoto_ra.out wx2utf8roman.out add_vowel_sep.out ra_itrans.out ra_kyoto.out wx2slp.out slp2wx.out velthuis-wx.out wx-velthuis.out utf8roman2wx.out
+TARGETS = ir ri ri_skt ir_skt itrans_ra.out logical_itrans.out rm__between_vowels.out kyoto_ra.out wx2utf8roman.out add_vowel_sep.out ra_itrans.out ra_kyoto.out wx2slp.out slp2wx.out velthuis-wx.out wx-velthuis.out utf8roman2wx.out wx-filename.out
 
 SRC = ir.lex ir_skt.lex iscii2utf8.py itrans-iscii.sh itrans_ra.lex kyoto_ra.lex logical_itrans.lex Makefile ri.lex ri_skt.lex rm__between_vowels.lex slp2wx.lex utf82iscii.pl utf82wx.sh velthuis-wx.lex wx2utf8.sh convert.pl wx-velthuis.lex utf8roman2wx.lex wx2utf8roman.lex iso2utf.sh itrans-iscii.sh utf82wx.sh utf8d2r.sh wx2utf8.sh wxHindi-utf8.sh utf8roman2wx.lex add_vowel_sep.lex ra_itrans.lex w2slp.lex slp2wx.lex velthuis-wx.lex wx-velthuis.lex
 
@@ -76,6 +76,9 @@ velthuis-wx.out: velthuis-wx.lex
 	$(run_lex)
 
 wx-velthuis.out: wx-velthuis.lex
+	$(run_lex)
+
+wx-filename.out: wx-filename.lex
 	$(run_lex)
 
 utf8roman2wx.out: utf8roman2wx.lex
