@@ -11,14 +11,17 @@ ahorAwra,avy,xina_rAwa
 ajasram,avy,lagAwAra
 akasmAw,avy,acAnaka
 alam,avy,basa
+anekaXA,avy,viviXa_rIwi_se^nAnA_prakAra_se
 Am,avy,hAz
 amAwya,avy,manwrI
+amuwra,avy,vahAz
 anArya,avy,nIca
 ananwaram,avy,bAxa_meM
 anavarawa,avy,lagAwAra
 anavarawa,avy,lagAwAra
 anurUpa,avy,anurUpa
 anu,avy,bAxa
+aRtaXA,avy,ATa_bAra^ATa_BAgoM_yA_anuBAgoM_meM_BinnA
 anwaH,avy,anxara
 anwara,avy,bIca
 anwarA,avy,bIca_meM
@@ -37,6 +40,7 @@ api,avy,BI
 apiwu,avy,kinwu
 A-raB@1,avy,SurU_karanA
 ArAw,avy,samIpa
+AScaryavaw,avy,AScrya_kI_BAzwi
 arWam,avy,arWa
 asahAya,avy,akelA
 asakwa,avy,asamarWa
@@ -92,6 +96,7 @@ buk,avy,anukaraNamUlaka_Sabxa
 buxXipuraHsaram,avy,irAxawana^jAnabUJa_kara_svecCA_se
 buxXipUrvakam,avy,irAxawana^jAnabUJa_kara_svecCA_se
 buxXipUrvam,avy,irAxawana^jAnabUJa_kara_svecCA_se
+BUyaH,avy,Pira
 ca,avy,Ora
 ca1,avy,BI
 ca2,avy,Ora
@@ -232,6 +237,7 @@ kqwam,avy,paryApwa_Ora_aXika_nahIM^basa_karo_aWavA_mawa_karo
 kqwe,avy,ke_lie^ke_nimiwwa^ke_kAraNa
 kqwena,avy,ke_lie^ke_nimiwwa^ke_kAraNa
 kramaSaH,avy,kramaSaH
+kRipram,avy,jalxI^SIGra^PurwI_se
 kRuxrA,avy,kRuxraswrI
 ku,avy,burA
 kulawaH,avy,janma_se
@@ -272,6 +278,7 @@ maXyepqRTam,avy,pITa_para
 maXyeraNam,avy,yuxXa_meM
 maXyesaBA,avy,saBA_meM_yA_saBA_ke_sAmane
 maXyesamuxram,avy,samuxra_ke_bIca_meM
+miWyA,avy,JUTamUTa^XoKe_se^galawa_warIke_se^aSuxXawA_ke_sAWa
 na,avy,nahIM
 nahi,avy,nahIM
 nAma,avy,nAmaka
@@ -293,6 +300,7 @@ niyawa,avy,niyawa
 niyojya,avy,aXikArI
 no,avy,nahIM
 nUnam,avy,avaSya
+om,avy,om^pAvana_akRara^vexapATa_ke_AramBa_Ora_samApwi_para_kiyA_gayA_pAvana_uccAraNa
 Owsukya,avy,cinwA
 paFcaXA,avy,pAzca_prakAra
 param1,avy,paranwu
@@ -301,6 +309,7 @@ paranwu,avy,paranwu
 paraspara,avy,paraspara
 parasparam,avy,paraspara
 paraSvaH,avy,parasoM
+paraswAw,avy,para^ke_xUsare_ora^Ora_Age^isake_paScAw^bAxa_meM
 parawaH,avy,para
 parawra,avy,BaviRya_meM
 pariSalAkam,avy,jUe_meM_manahUsa_pAsA_padZanA
@@ -308,7 +317,8 @@ pariwaH,avy,cAroM_ora
 pASawaH,avy,pASa_se
 paScAw,avy,bAxa_meM
 pqWak,avy,pqWak
-praBqwi,avy,Axi
+pqRTawaH,avy,pICe_se^pICe^pITa_pICe
+praBqwi,avy,se^se_lekara^Suru_karake
 prahi,avy,Beja_xenA^DakelanA^PeMkanA
 prakAma,avy,awyanwa
 prakASa,avy,prakASa
@@ -320,9 +330,11 @@ prawi,avy,ora
 prawixinam,avy,prawixina
 prawyuwa,avy,balki
 praxoRa,avy,praxoRa
+prAXAnyawaH,avy,muKya_rUpa_se^praXAna_rUpa_se^viSeRa_rUpa_se
 prAyaH,avy,prAya
 prAyeNa,avy,prAyaH
 punaH,avy,Pira
+puraswAw,avy,Age_se^sAmane^sira_para^pahale_sWAna_para^pahale^pUrva_kI_ora^bAxa_meM
 purA,avy,pahale
 purawaH,avy,sAmane
 pUrvam,avy,pahale
@@ -364,6 +376,7 @@ samAlambin,avy,latakane_vAlA^sahArA_lene_vAlA
 samAlokya,avy,xeKakara
 samam,avy,_se^ke_sAWa^milakara^sahiwa
 samAnam,avy,samAna_rupa_se^saxqSa
+samanwawaH,avy,saBI_ora_se
 samanwAw,avy,cAro_ora
 Sam,avy,kalyANa^Ananxa^samqxXi^svAsWya_ko_xyowana_karane_vAlA_avyaya^ASIrvAxa_yA_maMgala_kAmanA_prakata_karane_ke_lie_prayukwa
 samaXikam,avy,awyaMwa^aXikawA_ke_sAWa
@@ -435,6 +448,7 @@ sAw,avy,waxXiwa_kA_eka_prawyaya_jo_kisI_Sabxa_ke_sAWa_isalie_jodZA_jAwA_hEM^yA_v
 sawawam,avy,lagAwAra^avicCinna_rupa_se^niwya^saxA^hameSA
 SawaXA,avy,sOgunA
 SawaXA,avy,sO_waraha_se
+Sawruvaw,avy,Sawru_ke_saxqSa
 sawvara,avy,SIGra
 sawvaram,avy,SIGra^jalxI_se
 sawwrA,avy,ke_sAWa^milakara^sahiwa
@@ -486,6 +500,7 @@ Uha,avy,aMxAja
 upagamya,avy,jA_kara
 upahAsya,avy,majAkiyA
 upari,avy,Upara
+upAyawaH,avy,sAXana_se
 UrXvam,avy,UzcI
 uwa,avy,aWavA
 uw,avy,sanxeha
@@ -495,6 +510,7 @@ uwwaram,avy,uwwara
 uwwareNa,avy,uwwara_kI_ora
 uxaka,avy,jala
 uxxiSya,avy,uxxeSa_kara
+uxAsInavaw,avy,uxAsIna_ke_saxqSa
 vA,avy,vA
 vAraM,avy,bAra
 vara,avy,vara
@@ -515,6 +531,7 @@ viprakqRtAw,avy,xUra_se
 viprakqRtam,avy,xUra_ko
 viSrabXa,avy,viSvAsa_kiyA_gayA
 viswareNa,avy,viswAra_se
+viswaraSaH,avy,viswArapUrvaka
 vqWA,avy,vqWA
 walawaH,avy,peMxI_se
 warhi,avy,wo
@@ -547,6 +564,7 @@ wriXA,avy,wIna_prakAra_kA
 wu,avy,wo
 wURNIm,avy,cupacApa
 wyAjya,avy,Codane_yogya
+wvawwaH,avy,Apase
 xaBram,avy,WodZA^jarA^kisI_aMSa_waka
 xakRiNA,avy,xAIM_ora^xakRiNa_kI_ora
 xakRiNAhi,avy,xUra_xAIM_ora
@@ -695,3 +713,5 @@ yaxA,avy,jaba^usa_samaya_jaba_ki
 yaxarWam,avy,cUMki^kyoMki
 yaxarWe,avy,cUMki^kyoMki
 yaxasawyam,avy,niScaya_hI^sacA
+yaxvaw,avy,jEse
+yaxvA,avy,aWavA
