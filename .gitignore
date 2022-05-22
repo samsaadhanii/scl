@@ -66,6 +66,7 @@ paths.pl
 paths.sh
 skt_gen/Sentence/.depend
 skt_gen/Sentence/dump
+skt_gen/Sentence/dump.ml
 skt_gen/Sentence/paths.ml
 skt_gen/Sentence/sentence_generator
 skt_gen/compounds/paths.h
