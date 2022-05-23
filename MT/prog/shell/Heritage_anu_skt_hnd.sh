@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 #  Copyright (C) 2017-2022 Amba Kulkarni (ambapradeep@gmail.com)
 #
@@ -41,11 +41,6 @@ fi
 if [ $OUTSCRIPT = "DEV" ]; then
   my_converter="$SCLINSTALLDIR/converters/wx2utf8.sh $SCLINSTALLDIR"
   my_converter_wxHindi="$SCLINSTALLDIR/converters/wxHindi-utf8.sh $SCLINSTALLDIR"
-fi
-
-if [ $OUTSCRIPT = "VH" ]; then
-  my_converter="$SCLINSTALLDIR/converters/wx-velthuis.out"
-  my_converter_wxHindi="$SCLINSTALLDIR/converters/wx-velthuis.out"
 fi
 
 if [ $# -lt 1 ] ; then
@@ -127,20 +122,30 @@ cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
 # 15:  map o/p
 # 16: lwg o/p
 # 17: gen o/p
-  cut -f1-7,9-10,11,13,16,17 $temp_files_path/$fbn.out |\
-  perl -p -e 's/<([sa])>/<\@$1>/g' |\
-  perl -p -e 's/<\/([sa])>/<\/\@$1>/g' |\
-  $my_converter |\
-  $ANU_MT_PATH/interface/gen_xml.pl 10 |\
-  xsltproc $ANU_MT_PATH/interface/xhtml_unicode_sn-hi.xsl - |\
-  $ANU_MT_PATH/interface/add_dict_ref.pl $OUTSCRIPT $HTDOCSDIR/scl |\
-  perl -p -e $cmd  |\
-  perl -p -e $cmd1  |\
-  perl -p -e $cmd2  > $temp_files_path/../$1.html
 
-$ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out | $my_converter > $temp_files_path/table.tsv
-#unoconv -f xlsx -i FilterOptions=9,34,76 table.csv
-$ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table.tsv $temp_files_path/table.xlsx
-#if [ $DEBUG = "OFF" ]; then 
-#   rm -rf $temp_files_path/tmp* $temp_files_path/in* $temp_files_path/wor.* $temp_files/wsd_files
-#fi
+#  cut -f1-7,9-10,11,13,16,17 $temp_files_path/$fbn.out |\
+#  perl -p -e 's/<([sa])>/<\@$1>/g' |\
+#  perl -p -e 's/<\/([sa])>/<\/\@$1>/g' |\
+#  $my_converter |\
+#  $ANU_MT_PATH/interface/gen_xml.pl 10 |\
+#  xsltproc $ANU_MT_PATH/interface/xhtml_unicode_sn-hi.xsl - |\
+#  $ANU_MT_PATH/interface/add_dict_ref.pl $OUTSCRIPT $HTDOCSDIR/scl |\
+#  perl -p -e $cmd  |\
+#  perl -p -e $cmd1  |\
+#  perl -p -e $cmd2  > $temp_files_path/../$1.html
+
+$ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out > $temp_files_path/table.tsv
+$MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py -i $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv -s $SCLINSTALLDIR -t hi
+$my_converter < $temp_files_path/table.tsv > $temp_files_path/table_outscript.tsv
+$my_converter < $temp_files_path/anvaya.tsv > $temp_files_path/anvaya_outscript.tsv
+$ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin A < $temp_files_path/anvaya_outscript.tsv > $temp_files_path/../anvaya_$fbn.html
+perl $ANU_MT_PATH/interface/get_anvaya_shloka_translation.pl ${temp_files_path}/anvaya_$fbn  ${temp_files_path}/anvaya_${fbn}_wx_trnsltn < $temp_files_path/anvaya.tsv
+$my_converter < $temp_files_path/anvaya_${fbn}_wx_trnsltn > $temp_files_path/anvaya_${fbn}_trnsltn
+$MYPYTHONPATH $ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table_outscript.tsv $temp_files_path/table.xlsx
+
+#$ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out | $my_converter > $temp_files_path/table.tsv
+##unoconv -f xlsx -i FilterOptions=9,34,76 table.csv
+#$ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table.tsv $temp_files_path/table.xlsx
+##if [ $DEBUG = "OFF" ]; then 
+   rm -rf $temp_files_path/tmp* $temp_files_path/in* $temp_files_path/wor.* $temp_files/wsd_files
+##fi

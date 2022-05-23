@@ -11,6 +11,7 @@ print <<header
 <div id="navigation">
 <form action="" onsubmit="goto_section(); return false;">
 <p><center>
+<a id="logo" href=\"/scl/index.html\"><font color=\"DarkBlue\"> संसाधनी-Saṃdha </font></a>
 <a id="about" href="/scl/MT/about.html" target="_new">About</a>
 <a id="help" href="/scl/MT/anu_help.html" target="_new">Help</a>
 <input type="hidden" name="no_of_rows" value="8"/>
