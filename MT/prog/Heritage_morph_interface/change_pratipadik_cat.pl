@@ -105,6 +105,8 @@ while($in = <STDIN>){
           $ana =~ s/^$rt<vargaH:nA>/$rt<vargaH:pUraNam>/;
        }
     }
+    $ana =~ s/<upasarga:([a-zA-Z_]*)A([^>]*)>/<upasarga:$1Af$2>/;
+
     if($ana =~ /^([^<]+)<upasarga:[^>]+>.*<prayogaH:([^>]+)><lakAraH:[^>]+><puruRaH:[^>]+><vacanam:[^>]+><paxI:([^>]+)><gaNaH:([^>]+)>/){
 	   $rt = $1;
            $px = $2;
@@ -158,7 +160,7 @@ while($in = <STDIN>){
               $o_key = $2;
            } else { $pUrva = "";$o_key = $rt;}
 	   #$ana =~ s/<upasarga:A>/<upasarga:Af>/;
-           $ana =~ s/<upasarga:([a-zA-Z_]*)A([^>]*)>/<upasarga:$1Af$2>/;
+           #$ana =~ s/<upasarga:([a-zA-Z_]*)A([^>]*)>/<upasarga:$1Af$2>/;
            if ($ana =~ /<upasarga:X>/) { $upa = "";}
            elsif ($ana =~ /<upasarga:([^>]+)>/) { $upa = $1;}
            if($upa ne "") {
