@@ -147,5 +147,5 @@ $MYPYTHONPATH $ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table_o
 ##unoconv -f xlsx -i FilterOptions=9,34,76 table.csv
 #$ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table.tsv $temp_files_path/table.xlsx
 ##if [ $DEBUG = "OFF" ]; then 
-   rm -rf $temp_files_path/tmp* $temp_files_path/in* $temp_files_path/wor.* $temp_files/wsd_files
+rm -rf $temp_files_path/tmp* $temp_files_path/in*  $temp_files/wsd_files
 ##fi
