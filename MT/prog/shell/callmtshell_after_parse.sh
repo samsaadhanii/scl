@@ -1,5 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 
+#### Do not change bash to sh. source command does not work in sh -> dash
 #  Copyright (C) 2002-2022 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or

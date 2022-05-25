@@ -1,4 +1,5 @@
 #!/bin/bash
+#### Do not change bash to sh. source command does not work in sh -> dash
 
 #  Copyright (C) 2008-2022 Amba Kulkarni (ambapradeep@gmail.com)
 #
