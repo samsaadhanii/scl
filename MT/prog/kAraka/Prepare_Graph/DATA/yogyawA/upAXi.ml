@@ -1,0 +1,26 @@
+value upAXi_list = [
+"aXipa";
+"AcArya";
+"aXyApaka";
+"AKu";
+"CAwra";
+"mahArAja";
+"maharRi";
+"manwrI";
+"muni";
+"nqpa";
+"paNdiwa";
+"qRi";
+"Bagavaw";
+"rAjan";
+"sAraWi";
+"svAmin";
+"vAyasa";
+"vExya";
+"vikrewq";
+"vikrewrI";
+"vAyasaH";
+"xUwa";
+"xeva"
+]
+;

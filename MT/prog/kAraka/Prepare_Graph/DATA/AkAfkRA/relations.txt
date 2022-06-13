@@ -32,7 +32,6 @@ aBexaH 33
 hewuH 34
 hewuH5 70
 RaRTIsambanXaH 35
-Gataka 39 
 prayojanam 40
 prayojanam_xyowakaH 41
 sanxarBa_binxuH 42
@@ -41,7 +40,15 @@ anuyogI 44
 samboXyaH 47
 ananwarakAlaH 48
 prawiReXaH 49
+wIvrawAxarSI 51
+saFjFA_xyowakaH 52
+saFjFA 53
+Gataka 54 
 Gataka_xyowakaH 55
+kAraNa_xyowakaH 56
+kArya_xyowakaH 57
+vyaBicAraH 58
+kArya_kAraNa_BAvaH 59
 samucciwaH 60
 sup_samucciwaH 61
 anyawaraH 62
@@ -50,6 +57,8 @@ samuccaya_xyowakaH 64
 sup_samuccaya_xyowakaH 65
 anyawara_xyowakaH 66
 sup_anyawara_xyowakaH 67
+viroXakaH 68
+viroXa_xyowakaH 69
 varwamAnasamAnakAlaH 75
 sahArWa_xyowakaH 76
 vinArWa_xyowakaH 77
@@ -93,13 +102,6 @@ aXikaraNam_upa 4500
 gawikarwA 200
 gawikarma 201
 iRkarma 214
-wIvrawAxarSI 51
-saFjFA_xyowakaH 52
-saFjFA 53
-kAraNa_xyowakaH 56
-kArya_xyowakaH 57
-vyaBicAraH 58
-kArya_kAraNa_BAvaH 59
 AvaSyakawA_xyowakaH 206
 pariNAma_xyowakaH 207
 AvaSyakawA_pariNAma_sambanXaH 209

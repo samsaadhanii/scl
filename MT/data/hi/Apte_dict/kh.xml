@@ -28,8 +28,8 @@
 <sense n="5">खेत</sense>
 <sense n="6">शून्य</sense>
 <sense n="7">एक बिन्दु, अनुस्वार</sense>
-<sense n="8">गह्वर, द्वारक, विवर, रन्ध्र M<citation>मनु* ९।४३</citation></sense>
-<sense n="9">शरीर के द्वारकMखानि चैव स्पृशेदद्भिः<citation>मनु* २।६०</citation>५३, ४।१४४<citation>याज्ञ* १।२०</citation><citation>कु* ३।५० जो गिनती में ९ हैं अर्थात मुंह</citation>दो कान, दो आँखें, दो नाथुनें, गुदा तथा जननेन्द्रिय</sense>
+<sense n="8">गह्वर, द्वारक, विवर, रन्ध्र <citation>मनु* ९।४३</citation></sense>
+<sense n="9">शरीर के द्वारकखानि चैव स्पृशेदद्भिः<citation>मनु* २।६०</citation>५३, ४।१४४<citation>याज्ञ* १।२०</citation><citation>कु* ३।५० जो गिनती में ९ हैं अर्थात मुंह</citation>दो कान, दो आँखें, दो नाथुनें, गुदा तथा जननेन्द्रिय</sense>
 <sense n="10">घाव</sense>
 <sense n="11">प्रसन्नता, आनन्द</sense>
 <sense n="12">अभ्रक</sense>
@@ -259,7 +259,7 @@
 <kind_of>अर्कादयः</kind_of>
 <jAwi>ग्रहः</jAwi>
 <upAXi>नाम</upAXi>
-<sense no="1">जुगनूMखद्योताली विलसितनिभां विद्युदुन्मेषदृष्टिम्<citation>मेघ* ८१</citation></sense>
+<sense no="1">जुगनूखद्योताली विलसितनिभां विद्युदुन्मेषदृष्टिम्<citation>मेघ* ८१</citation></sense>
 <sense no="2">सूर्य</sense>
 </segmenthd>
 <segmenthd>
@@ -274,7 +274,7 @@
 <prAwipaxikam>खधूप</prAwipaxikam>
 <seg>खम्-धूपः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">अग्निबाणMमुमुचुः खधूपान्<citation>भट्टि* ३।५</citation></sense>
+<sense no="1">अग्निबाणमुमुचुः खधूपान्<citation>भट्टि* ३।५</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>खपरागः</dentry>
@@ -345,7 +345,7 @@
 <seg>खम्-शय</seg>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">खशय</prAwipaxikam>
-<sense no="1">आकाश में विश्राम करने वाला या रहने वाला FMN खेशय भी</sense>
+<sense no="1">आकाश में विश्राम करने वाला या रहने वाला FN खेशय भी</sense>
 </segmenthd>
 <segmenthd>
 <dentry>खशरीरम्</dentry>
@@ -403,7 +403,7 @@
 <seg>खम्-हर</seg>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">खहर</prAwipaxikam>
-<sense no="1">जिसका हर शून्य होM राशि</sense>
+<sense no="1">जिसका हर शून्य हो राशि</sense>
 </segmenthd>
 </lexhead>
 
@@ -447,7 +447,7 @@
 <prAwipaxikam>उत्खच्</prAwipaxikam>
 <seg>उद्-खच्</seg>
 <grammar><gaNa>चुरा*</gaNa><paxI>उभ*</paxI></grammar>
-<sense no="1">मिलाना, गडमड करना, जड़ना M<citation>रघु* ८।५३</citation>१३।५४<citation>मुद्रा* ४।१२</citation></sense>
+<sense no="1">मिलाना, गडमड करना, जड़ना <citation>रघु* ८।५३</citation>१३।५४<citation>मुद्रा* ४।१२</citation></sense>
 </segmenthd>
 </lexhead>
 
@@ -762,7 +762,7 @@
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">खट्वाङ्ग</prAwipaxikam>
 <sense no="4">सोटा या लकड़ी जिसके सिरे पर खोपड़ी जड़ी हो F<citation>मा* ५।४</citation>२३ यह शिव जी का हथियार समझा जाता है तथा सन्यासी और योगी इसे धारण करत्ते हैं</sense>
-<sense no="5">दिलीपM धर, भृत्</sense>
+<sense no="5">दिलीप धर, भृत्</sense>
 <sense no="6">शिव की उपाधियाँ</sense>
 </segmenthd>
 <segmenthd>
@@ -851,7 +851,7 @@
 <etymology>[खड् - गन्]</etymology>
 <sense no="1">तलवार, न हि खङ्गो विजानाति कर्मकारं स्वकारणम् - उद्भट, खङ्गं परामृश्य आदि</sense>
 <sense n="2">गैंडे के सींग</sense>
-<sense n="3">गैंडाM<citation>रघु* ९।६२</citation><citation>मनु* ३।७२</citation>५।१८</sense>
+<sense n="3">गैंडा<citation>रघु* ९।६२</citation><citation>मनु* ३।७२</citation>५।१८</sense>
 </lexhead>
 
 <lexhead no="45">
@@ -973,7 +973,7 @@
 <prAwipaxikam>खङ्गफल</prAwipaxikam>
 <seg>खङ्ग-फलम्</seg>
 <grammar>नपुं*</grammar>
-<sense no="1">तलवार का फलकM मूठ को छोड़ कर शेष तलवार</sense>
+<sense no="1">तलवार का फलक मूठ को छोड़ कर शेष तलवार</sense>
 </segmenthd>
 </lexhead>
 
@@ -1033,9 +1033,9 @@
 <is_a_part>चन्द्रः</is_a_part>
 <jAwi>परिमाणः</jAwi>
 <sense no="1">दरार, खाई, विच्छेद, कटाव, अस्थिभंग</sense>
-<sense n="2">टुकड़ा, भाग, खण्ड, अंश Mदिवः कान्तिमत्खंडमेकं<citation>मेघ* ३०काष्ठखण्डः</citation>मांसखण्डः</sense>
+<sense n="2">टुकड़ा, भाग, खण्ड, अंश दिवः कान्तिमत्खंडमेकं<citation>मेघ* ३०काष्ठखण्डः</citation>मांसखण्डः</sense>
 <sense n="3">ग्रन्थ का अनुभाग - अध्याय</sense>
-<sense n="4">समुच्चय, संघात, समूह Mतरुखण्डस्य<citation>का* २३</citation></sense>
+<sense n="4">समुच्चय, संघात, समूह तरुखण्डस्य<citation>का* २३</citation></sense>
 </lexhead>
 
 <lexhead no="52">
@@ -1046,9 +1046,9 @@
 <is_a_part>चन्द्रः</is_a_part>
 <jAwi>परिमाणः</jAwi>
 <sense no="1">दरार, खाई, विच्छेद, कटाव, अस्थिभंग</sense>
-<sense n="2">टुकड़ा, भाग, खण्ड, अंश Mदिवः कान्तिमत्खंडमेकं<citation>मेघ* ३०काष्ठखण्डम्</citation>मांसखण्डम्</sense>
+<sense n="2">टुकड़ा, भाग, खण्ड, अंश दिवः कान्तिमत्खंडमेकं<citation>मेघ* ३०काष्ठखण्डम्</citation>मांसखण्डम्</sense>
 <sense n="3">ग्रन्थ का अनुभाग - अध्याय</sense>
-<sense n="4">समुच्चय, संघात, समूह Mतरुखण्डस्य<citation>का* २३</citation></sense>
+<sense n="4">समुच्चय, संघात, समूह तरुखण्डस्य<citation>का* २३</citation></sense>
 </lexhead>
 
 <lexhead no="53">
@@ -1100,7 +1100,7 @@
 <prAwipaxikam>खण्डकाव्य</prAwipaxikam>
 <seg>खण्ड-काव्यम्</seg>
 <grammar>नपुं*</grammar>
-<sense no="1">मेघदूत जैसा छोटा काव्यMपरिभाषाः खण्डकाव्यं भवेत्काव्यस्यैकदेशानुसारि च<citation>सा* द* ५।६४</citation></sense>
+<sense no="1">मेघदूत जैसा छोटा काव्यपरिभाषाः खण्डकाव्यं भवेत्काव्यस्यैकदेशानुसारि च<citation>सा* द* ५।६४</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>खण्डजः</dentry>
@@ -1123,7 +1123,7 @@
 <grammar>पुं*</grammar>
 <kind_of>देवः</kind_of>
 <jAwi>ईश्वरः</jAwi>
-<sense no="1">शिव का विशेषणMमहैश्वर्यं लीलाजनितजगतः खण्डपरशोः<citation>गंगा १</citation>येनानेन जगत्सु खण्डपरशुर्देवो हरः ख्याप्यते<citation>महावी* २।३३</citation></sense>
+<sense no="1">शिव का विशेषणमहैश्वर्यं लीलाजनितजगतः खण्डपरशोः<citation>गंगा १</citation>येनानेन जगत्सु खण्डपरशुर्देवो हरः ख्याप्यते<citation>महावी* २।३३</citation></sense>
 <sense no="2">जमदग्नि का पुत्र, परशुराम का विशेषण</sense>
 </segmenthd>
 <segmenthd>
@@ -1236,11 +1236,11 @@
 <grammar>नपुं*</grammar>
 <etymology>[खण्ड - ल्युट्]</etymology>
 <sense no="1">तोड़ना, काटना</sense>
-<sense n="2">काट लेना, क्षति पहुँचाना, चोट पहुँचाना Mअधरोष्ठखण्डनम्<citation>पंच* १</citation>घटय भुजबन्धनं जनय रदखण्डनं<citation>गीत* १०</citation><citation>चौर* १३</citation></sense>
-<sense n="3">हताश करना, निराश करनाM M प्रणय में</sense>
-<sense n="4">विघ्न डालनाMरसखण्डनवर्जितम्<citation>रघु* ९।३६</citation></sense>
+<sense n="2">काट लेना, क्षति पहुँचाना, चोट पहुँचाना अधरोष्ठखण्डनम्<citation>पंच* १</citation>घटय भुजबन्धनं जनय रदखण्डनं<citation>गीत* १०</citation><citation>चौर* १३</citation></sense>
+<sense n="3">हताश करना, निराश करना  प्रणय में</sense>
+<sense n="4">विघ्न डालनारसखण्डनवर्जितम्<citation>रघु* ९।३६</citation></sense>
 <sense n="5">ठगना, धोखा देना</sense>
-<sense n="6">निराकरण करनाMनै* ६।१३० तर्क का</sense>
+<sense n="6">निराकरण करनानै* ६।१३० तर्क का</sense>
 <sense n="7">विद्रोह, विरोध</sense>
 <sense n="8">बर्खास्तगी</sense>
 </lexhead>
@@ -1361,7 +1361,7 @@
 <prAwipaxikam>उदखन्</prAwipaxikam>
 <seg>उद-खन्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>उभ*</paxI></grammar>
-<sense no="1">खुदाई करना, जड़ निकालना, उन्मूलन करना, उखाड़ना Mवङ्गानुत्खाय तरसा<citation>रघु* ४।३६</citation>३३, १४।७३<citation>मेघ* ५२</citation><citation>भट्टि* १२।५</citation>१५।५५<citation>मा* ९।३४ आलं भी</citation></sense>
+<sense no="1">खुदाई करना, जड़ निकालना, उन्मूलन करना, उखाड़ना वङ्गानुत्खाय तरसा<citation>रघु* ४।३६</citation>३३, १४।७३<citation>मेघ* ५२</citation><citation>भट्टि* १२।५</citation>१५।५५<citation>मा* ९।३४ आलं भी</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>निखन्</dentry>
@@ -1369,16 +1369,16 @@
 <seg>नि-खन्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>उभ*</paxI></grammar>
 <sense no="1">खनना, खोदना</sense>
-<sense no="2">दफनाना, गाड़ना Mऊनद्विवर्षं निखनेत्<citation>याज्ञ* ३।१</citation>वसुधायां निचख्नतुः<citation>रघु* १२।३०</citation><citation>भट्टि* ४।३</citation>१६।२२</sense>
-<sense no="3">उठानाMनिचखान जयस्तम्भान्<citation>रघु* ४।३६ स्तंभ के रुप में</citation></sense>
-<sense no="4">जमाना, स्थिर करना, घुसेड़ना Mनिचखान शरं भुजे<citation>रघु* ३।५५</citation>१२।९०<citation>भट्टि* ३।८</citation><citation>हि* ४।७२</citation></sense>
+<sense no="2">दफनाना, गाड़ना ऊनद्विवर्षं निखनेत्<citation>याज्ञ* ३।१</citation>वसुधायां निचख्नतुः<citation>रघु* १२।३०</citation><citation>भट्टि* ४।३</citation>१६।२२</sense>
+<sense no="3">उठानानिचखान जयस्तम्भान्<citation>रघु* ४।३६ स्तंभ के रुप में</citation></sense>
+<sense no="4">जमाना, स्थिर करना, घुसेड़ना निचखान शरं भुजे<citation>रघु* ३।५५</citation>१२।९०<citation>भट्टि* ३।८</citation><citation>हि* ४।७२</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>परिखन्</dentry>
 <prAwipaxikam>परिखन्</prAwipaxikam>
 <seg>परि-खन्</seg>
 <grammar><gaNa>भ्वा*</gaNa><paxI>उभ*</paxI></grammar>
-<sense no="1">खोदनाM खाई आदि</sense>
+<sense no="1">खोदना खाई आदि</sense>
 </segmenthd>
 </lexhead>
 
@@ -1457,7 +1457,7 @@
 <sense n="3">तीखा, चरपरा</sense>
 <sense n="4">घना, सघन</sense>
 <sense n="5">पीडाकर, हानिकर, कर्कश</sense>
-<sense n="6">तेज धार वालाFMNदेहि खरनयनशरघातम्<citation>गीत*</citation></sense>
+<sense n="6">तेज धार वालाFNदेहि खरनयनशरघातम्<citation>गीत*</citation></sense>
 <sense n="7">गरमAVखरांशु आदि</sense>
 <sense n="8">क्रूर, निष्ठुर</sense>
 </lexhead>
@@ -1474,7 +1474,7 @@
 <sense n="2">खच्चर</sense>
 <sense n="3">बगुला</sense>
 <sense n="4">कौवा</sense>
-<sense n="5">एक राक्षस का नामM<citation>रघु* १२।४२ जो रावण का सौतेला भाई था और जो राम के द्वारा मारा गया था</citation></sense>
+<sense n="5">एक राक्षस का नाम<citation>रघु* १२।४२ जो रावण का सौतेला भाई था और जो राम के द्वारा मारा गया था</citation></sense>
 <segmenthd>
 <dentry>खरांशुः</dentry>
 <prAwipaxikam>खरांशु</prAwipaxikam>
@@ -1980,7 +1980,7 @@
 <dentry>खलीकृ</dentry>
 <prAwipaxikam>खलीकृ</prAwipaxikam>
 <grammar></grammar>
-<sense no="1">दुर्व्यवहार करना, घृणा करना Mपरोक्षे खलीकृतोऽयं द्यूतकारः<citation>मृच्छ* २</citation></sense></compound>
+<sense no="1">दुर्व्यवहार करना, घृणा करना परोक्षे खलीकृतोऽयं द्यूतकारः<citation>मृच्छ* २</citation></sense></compound>
 </lexhead>
 
 <lexhead no="109">
@@ -2074,7 +2074,7 @@
 <grammar>स्त्री*</grammar>
 <etymology>[खल् - च्वि - कृ - घन्]</etymology>
 <sense no="1">चोट पहुँचाना, क्षति पहुँचाना</sense>
-<sense n="2">दुर्व्यवहारM<citation>शा* १।२५</citation></sense>
+<sense n="2">दुर्व्यवहार<citation>शा* १।२५</citation></sense>
 <sense n="3">अनिष्ट, उत्पात</sense>
 </lexhead>
 
@@ -2084,7 +2084,7 @@
 <grammar>स्त्री*</grammar>
 <etymology>[खल् - च्वि - कृ - क्तिन् ]</etymology>
 <sense no="1">चोट पहुँचाना, क्षति पहुँचाना</sense>
-<sense n="2">दुर्व्यवहारM<citation>शा* १।२५</citation></sense>
+<sense n="2">दुर्व्यवहार<citation>शा* १।२५</citation></sense>
 <sense n="3">अनिष्ट, उत्पात</sense>
 </lexhead>
 
@@ -2208,7 +2208,7 @@
 <grammar>पुं*</grammar>
 <etymology>[खानि इन्द्रियाणी स्यति निश्चलीकरोति - ख - सो - क]</etymology>
 <sense no="1">खाज, खुजली</sense>
-<sense n="2">एक देश का नामM दे* ‘खश’</sense>
+<sense n="2">एक देश का नाम दे* ‘खश’</sense>
 </lexhead>
 
 <lexhead no="134">
@@ -2616,7 +2616,7 @@
 <kind_of>भूमिः</kind_of>
 <jAwi>पृथ्वी</jAwi>
 <sense no="1">ऊसर भूमि या परती जमीन का टुकड़ा, मरुभूमि, वृक्षहीन भूमि</sense>
-<sense n="2">अतिरिक्त सूक्त जो किसी मूलसंग्रह में जोड़ा गया होM<citation>मनु* ३।२३२</citation></sense>
+<sense n="2">अतिरिक्त सूक्त जो किसी मूलसंग्रह में जोड़ा गया हो<citation>मनु* ३।२३२</citation></sense>
 <sense n="3">सम्पूरक</sense>
 <sense n="4">संग्रहग्रन्थ या संकलित ग्रन्थ</sense>
 <sense n="5">खोखलापन, शून्यता F खिल का प्रयोग भू या कृ के साथ भी होता है</sense>
@@ -2624,17 +2624,17 @@
 <dentry>खिलीभू</dentry>
 <prAwipaxikam>खिलीभू</prAwipaxikam>
 <grammar></grammar>
-<sense no="1">अगम्य होना, बन्द होना, अनभ्यस्त रहना Mखिलीभूते विमानानां तदापातभयात्पथि<citation>कु* २।४५</citation></sense></compound>
+<sense no="1">अगम्य होना, बन्द होना, अनभ्यस्त रहना खिलीभूते विमानानां तदापातभयात्पथि<citation>कु* २।४५</citation></sense></compound>
 <compound>
 <dentry>खिलीकृ</dentry>
 <prAwipaxikam>खिलीकृ</prAwipaxikam>
 <grammar></grammar>
-<sense no="1">रोकना, बाधा डालना, अगम्य बनाना, रोकना M<citation>रघु* ११।१४</citation>८७</sense></compound>
+<sense no="1">रोकना, बाधा डालना, अगम्य बनाना, रोकना <citation>रघु* ११।१४</citation>८७</sense></compound>
 <compound>
 <dentry>खिलीकृ</dentry>
 <prAwipaxikam>खिलीकृ</prAwipaxikam>
 <grammar></grammar>
-<sense no="1">परती छोड़ना, उजाड़ना, पूर्णतः नष्ट कर देना Mविपक्षमखिलीकृत्य प्रतिष्ठा खलु दुर्लभा<citation>शि* २।३४</citation></sense></compound>
+<sense no="1">परती छोड़ना, उजाड़ना, पूर्णतः नष्ट कर देना विपक्षमखिलीकृत्य प्रतिष्ठा खलु दुर्लभा<citation>शि* २।३४</citation></sense></compound>
 </lexhead>
 
 <lexhead no="177">
@@ -2704,7 +2704,7 @@
 <prAwipaxikam>खुरप्र</prAwipaxikam>
 <seg>खुर-प्रः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">अर्द्धगोलाकार नोंक का बाणM दे* क्षुरप्र</sense>
+<sense no="1">अर्द्धगोलाकार नोंक का बाण दे* क्षुरप्र</sense>
 </segmenthd>
 </lexhead>
 
@@ -2768,7 +2768,7 @@
 <sense no="1">गाँव, छोटा नगर, पुरखा</sense>
 <sense n="2">कफ</sense>
 <sense n="3">बलराम की गदा</sense>
-<sense n="4">घोड़ाM वि* समासान्त ‘खेट’ सदोषता तथा ह्रास को प्रकट करता है जो ‘अभागा’ या ‘कंबख्त’ आदि शब्दों से पुकारा जा सकता है, नगरखेटम् अभागा नगर ‘खेऽट’ के लिए देखें ख के नीचे</sense>
+<sense n="4">घोड़ा वि* समासान्त ‘खेट’ सदोषता तथा ह्रास को प्रकट करता है जो ‘अभागा’ या ‘कंबख्त’ आदि शब्दों से पुकारा जा सकता है, नगरखेटम् अभागा नगर ‘खेऽट’ के लिए देखें ख के नीचे</sense>
 </lexhead>
 
 <lexhead no="185">
@@ -2795,7 +2795,7 @@
 <sense no="1">अवसाद, आलस्य, उदासी</sense>
 <sense n="2">थकान, श्रान्ति Fअलसलुलितमुग्धान्यध्वसंजातखेदात्<citation>उत्तर* १।२४</citation>अध्वखेदं नयेथाः<citation>मेघ* ३२</citation><citation>रघु* १८।४५</citation></sense>
 <sense n="3">पीडा, यन्त्रणा F<citation>अमरु* ३</citation></sense>
-<sense n="4">दुःख, शोक Mगुरुः खेदं खिन्ने मयि भजति नाद्यापि कुरुषु<citation>वेणी* १।११</citation><citation>अमरु* ५३</citation></sense>
+<sense n="4">दुःख, शोक गुरुः खेदं खिन्ने मयि भजति नाद्यापि कुरुषु<citation>वेणी* १।११</citation><citation>अमरु* ५३</citation></sense>
 </lexhead>
 
 <lexhead no="188">
@@ -3043,7 +3043,7 @@
 <grammar>नपुं*</grammar>
 <etymology>[ख्या - णिच् - ल्युट्]</etymology>
 <sense no="1">घोषणा करना, उदघाटन करना,  रहस्य का</sense>
-<sense n="2">अपराध स्वीकार करना, मान लेना, सार्वजनिक घोषणा करना M<citation>मनु* ११।२२७</citation></sense>
+<sense n="2">अपराध स्वीकार करना, मान लेना, सार्वजनिक घोषणा करना <citation>मनु* ११।२२७</citation></sense>
 <sense n="3">विख्यात करना, प्रसिद्ध करना</sense>
 </lexhead>
 

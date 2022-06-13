@@ -68,7 +68,7 @@
 <sense no="1">बढ़ई, लकड़ी का काम करने वाला, जाति से अथवा लकड़ी का धंधा करने के कारण</sense>
 <sense n="2">सूत्रधार</sense>
 <sense n="3">देवताओं का वास्तुकार, विश्वकर्मा</sense>
-<sense n="4">पाताल के मुख्य नागों अर्थात् सर्पों में से एक Mकश्यप और कद्रु का पुत्र आस्तीक ऋषि के बीच में पड़ने से जनमेजय के सर्पयज्ञ में जलजाने से बचा हुआ, इसी सर्पयज्ञ में अनेक सर्प जल कर भस्म हो गये थे</sense>
+<sense n="4">पाताल के मुख्य नागों अर्थात् सर्पों में से एक कश्यप और कद्रु का पुत्र आस्तीक ऋषि के बीच में पड़ने से जनमेजय के सर्पयज्ञ में जलजाने से बचा हुआ, इसी सर्पयज्ञ में अनेक सर्प जल कर भस्म हो गये थे</sense>
 </lexhead>
 
 <lexhead no="5">
@@ -153,7 +153,7 @@
 <jAwi>प्राकृतिकस्थानम्</jAwi>
 <sense no="1">ढाला, उतार, कगार</sense>
 <sense n="2">आकाश या क्षितिज</sense>
-<sense n="3">किनारा, कूल, उतार, ढाल Mशीलं शैलतटात्पततु<citation>भर्तृ* २/३९</citation>प्रोत्तुंगचिन्तातटी<citation>३/४५</citation>सिन्धोस्तटादोघ इव प्रवृद्धः<citation>कु* ३/६</citation>उच्चारणात्पक्षिगणास्तटीस्तम्<citation>शि* ४/१८</citation></sense>
+<sense n="3">किनारा, कूल, उतार, ढाल शीलं शैलतटात्पततु<citation>भर्तृ* २/३९</citation>प्रोत्तुंगचिन्तातटी<citation>३/४५</citation>सिन्धोस्तटादोघ इव प्रवृद्धः<citation>कु* ३/६</citation>उच्चारणात्पक्षिगणास्तटीस्तम्<citation>शि* ४/१८</citation></sense>
 <sense n="4">शरीर का अवयव Fपद्मपयोधरतटीपरिरम्भलग्न<citation>गीत*१</citation>नो लुप्तं सखि चन्दनं स्तनतटं<citation>श्रृंगार*७</citation>इसी प्रकार जघनघट, कटितट, श्रोणीतट, कुचतट, कण्ठतट, ललाटतट आदि जिनमें स्वभावतः कुछ ढ़ाल है</sense>
 </lexhead>
 
@@ -188,14 +188,14 @@
 <prAwipaxikam>तटाघात</prAwipaxikam>
 <seg>तटः-आघातः</seg>
 <grammar>पुं*</grammar>
-<sense no="2">सीगों की टक्कर से मारनाMअभ्यस्यन्ति तटाघातं निर्जितैराहता गजाः<citation>कु*२/५०</citation></sense></segmenthd>
+<sense no="2">सीगों की टक्कर से मारनाअभ्यस्यन्ति तटाघातं निर्जितैराहता गजाः<citation>कु*२/५०</citation></sense></segmenthd>
 <segmenthd>
 <dentry>तटस्थ</dentry>
 <prAwipaxikam>तटस्थ</prAwipaxikam>
 <seg>तट-स्थ</seg>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">तटस्थ</prAwipaxikam>
-<sense no="1">किनारे पर विद्यमान, कूलस्थितM शा*</sense>
+<sense no="1">किनारे पर विद्यमान, कूलस्थित शा*</sense>
 <sense no="2">अलग खड़ा हुआ, अलग-अलग, उदासीन, पराया, निष्क्रिय AVतटस्थः स्वानर्थान् घटयति मौनं च भजते<citation>मा* १/१४</citation>तटस्थं नैराश्यात्<citation>उत्तर*३/१३</citation>मया तटस्थस्त्वमुपद्रुतोसि<citation>नै*३/५५ आल* यहाँ तटस्थ का अर्थ ’कूलस्थित’ भी है</citation></sense></segmenthd>
 </lexhead>
 
@@ -224,7 +224,7 @@
 <sense no="1">पीटना, मारना, टकराना, गाहन्तां महिषाः निपानसलिलं शृङ्गैर्मुहुस्ताडितम्<citation>श*२/५</citation>(नौः)ताडिता मारुतैर्यथा<citation>रामा*</citation><citation>रघु*३/६१</citation><citation>कु*५/२४</citation><citation>भर्तृ*१/५०</citation></sense>
 <sense n="2">पीटना, मारना, दण्डस्वरूप पीटना, आघात पहुँचानालालयेत्पञ्चवर्षाणि दशवर्षाणि ताडयेत्<citation>चाण*११/१२</citation>न ताडयेत्तृणेनापि<citation>मनु*४/१६९</citation>पादेन यस्ताड्यते<citation>अमरु ५२</citation></sense>
 <sense n="3">प्रहार करना, पीटनाताड्यमानासु भेरीषु<citation>महा*</citation>अताडयन् मृदंङ्गांश्च<citation>भट्टि* १७/७</citation><citation>वेणी*१/२२ ढोल आदि का</citation></sense>
-<sense n="4">बजाना, आहनन करना Mश्रोतुर्वितन्त्रीरिव ताड्यमाना<citation>कु* १/४५</citation></sense>
+<sense n="4">बजाना, आहनन करना श्रोतुर्वितन्त्रीरिव ताड्यमाना<citation>कु* १/४५</citation></sense>
 <sense n="5">चमकना</sense>
 <sense n="6">बोलना</sense>
 </lexhead>
@@ -432,7 +432,7 @@
 <upAXi>वाद्योपकरणम्</upAXi>
 <sense no="1">वास्तविक स्थिति या दशा</sense>
 <sense n="2">तथ्य Fवयं तत्त्वान्वेषान्मधुकर हतास्त्वं खलु कृती<citation>श*१/२४</citation></sense>
-<sense n="3">यथार्थ या मूलप्रकृतिMसंन्यासस्य महाबाहो तत्त्वमिच्छामि वेदितुम्<citation>भग*१८/१</citation>३/२८<citation>मनु*१/३</citation>३/९६, ५/४२</sense>
+<sense n="3">यथार्थ या मूलप्रकृतिसंन्यासस्य महाबाहो तत्त्वमिच्छामि वेदितुम्<citation>भग*१८/१</citation>३/२८<citation>मनु*१/३</citation>३/९६, ५/४२</sense>
 <sense n="4">मानव आत्मा की वास्तविक प्रकृति या विश्वव्यापी परमात्मा के समनुरूप विराट् सृष्टि या भौतिक संसार</sense>
 <sense n="5">प्रथम या यथार्थ सिद्धान्त</sense>
 <sense n="6">मूलतत्त्व या प्रकृति</sense>
@@ -471,7 +471,7 @@
 <prAwipaxikam>तत्त्वन्यास</prAwipaxikam>
 <seg>तत्त्वम्-न्यासः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">विष्णु की तन्त्रोक्त पूजा में विहित एक अंगन्यास M इसमें शरीर के विभिन्न अंगों पर गुह्य अक्षर या अन्य चिन्ह बनाने के साथ कुछ प्रार्थनाएँ बोली जाती हैं</sense></segmenthd>
+<sense no="1">विष्णु की तन्त्रोक्त पूजा में विहित एक अंगन्यास  इसमें शरीर के विभिन्न अंगों पर गुह्य अक्षर या अन्य चिन्ह बनाने के साथ कुछ प्रार्थनाएँ बोली जाती हैं</sense></segmenthd>
 </lexhead>
 
 <lexhead no="36">
@@ -582,7 +582,7 @@
 <seg>तथा-गतः</seg>
 <grammar>पुं*</grammar>
 <jAwi>ऋषिः</jAwi>
-<sense no="1">बुद्धMकाले मितं वाक्यमुदर्कपश्यं तथागतस्येव जनः सुचेताः<citation>शि*२०/८१</citation></sense>
+<sense no="1">बुद्धकाले मितं वाक्यमुदर्कपश्यं तथागतस्येव जनः सुचेताः<citation>शि*२०/८१</citation></sense>
 <sense no="2">जिन</sense></segmenthd>
 <segmenthd>
 <dentry>तथागुण</dentry>
@@ -842,14 +842,14 @@
 <seg>तद्-पुरुषः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">मूलपुरुष, परमात्मा</sense>
-<sense no="2">एक समास का नाम Mतत्पुरुषकर्मधारय येनाहं स्यां बहुव्रीहिः -उद्भटजिसमें प्रथम पद प्रधान होता है, या जिसका उत्तरपद पूर्वपद द्वारा परिभाषित या विशिष्ट कर दिया जाता है, शब्द की मूलभावना भी स्थिर रहती है- यथा, तत्पुरुषः</sense></segmenthd>
+<sense no="2">एक समास का नाम तत्पुरुषकर्मधारय येनाहं स्यां बहुव्रीहिः -उद्भटजिसमें प्रथम पद प्रधान होता है, या जिसका उत्तरपद पूर्वपद द्वारा परिभाषित या विशिष्ट कर दिया जाता है, शब्द की मूलभावना भी स्थिर रहती है- यथा, तत्पुरुषः</sense></segmenthd>
 <segmenthd>
 <dentry>तत्पूर्व</dentry>
 <prAwipaxikam>तत्पूर्व</prAwipaxikam>
 <seg>तद्-पूर्व</seg>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">तत्पूर्व</prAwipaxikam>
-<sense no="1">पहली बार घटने वाला, या होने वालाMअकारि तत्पूर्वनिबद्धया तया<citation>कु* ५/१०</citation>७/३०<citation>रघु*२/४२</citation>१४/३८</sense>
+<sense no="1">पहली बार घटने वाला, या होने वालाअकारि तत्पूर्वनिबद्धया तया<citation>कु* ५/१०</citation>७/३०<citation>रघु*२/४२</citation>१४/३८</sense>
 <sense no="2">पूर्व का, पहला</sense></segmenthd>
 <segmenthd>
 <dentry>तत्प्रथम्</dentry>
@@ -1103,7 +1103,7 @@
 <sense n="5">तुच्छ, महत्त्वहीन, छोटा AV<citation>अमरु*२७</citation></sense>
 <sense n="6">उथला हुआ FMN नदी की भाँति</sense>
 <sense n="7">शरीर, व्यक्ति</sense>
-<sense n="8">रूप, प्रकटीकरण Mप्रत्यक्षाभिःप्रपन्नस्तनुभिरवतु वस्ताभिरष्टाभिरीशः<citation>श*१/१</citation><citation>मालवि*१/१</citation><citation>मेघ*१९</citation></sense>
+<sense n="8">रूप, प्रकटीकरण प्रत्यक्षाभिःप्रपन्नस्तनुभिरवतु वस्ताभिरष्टाभिरीशः<citation>श*१/१</citation><citation>मालवि*१/१</citation><citation>मेघ*१९</citation></sense>
 <sense n="9">प्रकृति, किसी वस्तु का रूप और चरित्र</sense>
 <sense n="10">खाल</sense>
 <segmenthd>
@@ -1124,7 +1124,7 @@
 <prAwipaxikam>तनुच्छद</prAwipaxikam>
 <seg>तनु-छदः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">कवचM<citation>रघु*९/५१</citation>१२/८६</sense></segmenthd>
+<sense no="1">कवच<citation>रघु*९/५१</citation>१२/८६</sense></segmenthd>
 <segmenthd>
 <dentry>तनुजः</dentry>
 <prAwipaxikam>तनुज</prAwipaxikam>
@@ -1169,7 +1169,7 @@
 <seg>तनु-भवः</seg>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">तनुभव</prAwipaxikam>
-<sense no="1">पुत्र, पुत्रीM वा</sense></segmenthd>
+<sense no="1">पुत्र, पुत्री वा</sense></segmenthd>
 <segmenthd>
 <dentry>तनुभस्त्रा</dentry>
 <prAwipaxikam>तनुभस्त्रा</prAwipaxikam>
@@ -1301,7 +1301,7 @@
 <grammar>पुं*</grammar>
 <kind_of>देवः</kind_of>
 <jAwi>देवता</jAwi>
-<sense no="1">आगMतनूनपाद्धूमवितानमाधिजैः<citation>शि* १/६२</citation>अधःकृतस्यापि तनूनपातो नाधः शिखा याति कदाचिदेव<citation>हि*२/६७</citation></sense></segmenthd>
+<sense no="1">आगतनूनपाद्धूमवितानमाधिजैः<citation>शि* १/६२</citation>अधःकृतस्यापि तनूनपातो नाधः शिखा याति कदाचिदेव<citation>हि*२/६७</citation></sense></segmenthd>
 <segmenthd>
 <dentry>तनूसहम्</dentry>
 <prAwipaxikam>तनूसहम्</prAwipaxikam>
@@ -1341,8 +1341,8 @@
 <is_a_part>वस्त्रम्</is_a_part>
 <jAwi>अचलनिर्जीववस्तु</jAwi>
 <sense no="1">धागा, रस्सी, तार, डोर, सूत्र, चिन्ता सन्ततितन्तु<citation>मा*५/१०</citation><citation>मेघ*७०</citation></sense>
-<sense n="2">मकड़ी का जाला M<citation>रघु*१६/२०</citation></sense>
-<sense n="3">रेशाMबिसतन्तुगुणस्यकारितम्<citation>कु*४/२९</citation></sense>
+<sense n="2">मकड़ी का जाला <citation>रघु*१६/२०</citation></sense>
+<sense n="3">रेशाबिसतन्तुगुणस्यकारितम्<citation>कु*४/२९</citation></sense>
 <sense n="4">सन्तान, बच्चा, सन्तति</sense>
 <sense n="5">मगरमच्छ</sense>
 <sense n="6">परमात्मा</sense>
@@ -1484,10 +1484,10 @@
 <sense n="5">अविच्छिन्न वंश परम्परा</sense>
 <sense n="6">कर्मकाण्ड पद्धति, रूपरेखा, संस्कारFकर्मणां युगपद्भावस्तन्त्रम्<citation>कात्या*</citation></sense>
 <sense n="7">मुख्य विषय</sense>
-<sense n="8">मुख्य सिद्धान्त, नियम, वाद, शास्त्रपराश्रयताMजैसा कि ‘स्वतन्त्र’ ‘परतन्त्र’; दैवतन्त्रं दुःखम्- दश*५</sense>
+<sense n="8">मुख्य सिद्धान्त, नियम, वाद, शास्त्रपराश्रयताजैसा कि ‘स्वतन्त्र’ ‘परतन्त्र’; दैवतन्त्रं दुःखम्- दश*५</sense>
 <sense n="9">वैज्ञानिक कृति</sense>
 <sense n="10">अध्याय, अनुभागFतन्त्रैः पञ्चभिरेतच्चकार शास्त्रम्<citation>पञ्च*१ किसी ग्रन्थादिक के</citation></sense>
-<sense n="11">तन्त्र-संहिता M जिसमें देवताओं की पूजा के लिए अथवा अतिमानव शक्ति प्राप्त करने के लिए जादू-टोना या मन्त्रतन्त्र का वर्णन है</sense>
+<sense n="11">तन्त्र-संहिता  जिसमें देवताओं की पूजा के लिए अथवा अतिमानव शक्ति प्राप्त करने के लिए जादू-टोना या मन्त्रतन्त्र का वर्णन है</sense>
 <sense n="12">एक से अधिक कार्यों का कारण</sense>
 <sense n="13">जादू-टोना</sense>
 <sense n="14">मुख्योपचार, गण्डा, ताबीज़</sense>
@@ -1781,7 +1781,7 @@
 <jAwi>कालः</jAwi>
 <sense no="1">गर्मी, आग, आँच</sense>
 <sense n="2">सूर्य</sense>
-<sense n="3">ग्रीष्म ऋतुM<citation>शि*१/६६</citation></sense>
+<sense n="3">ग्रीष्म ऋतु<citation>शि*१/६६</citation></sense>
 <sense n="4">तपस्या, धार्मिक कड़ी साधना</sense>
 <segmenthd>
 <dentry>तपात्ययः</dentry>
@@ -1794,7 +1794,7 @@
 <prAwipaxikam>तपान्त</prAwipaxikam>
 <seg>तप-अन्तः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">ग्रीष्म ऋतु का अन्त और वर्षा ऋतु का आरम्भ Mरविपीतजलातपात्यये पुनरोघेन हि युज्यते नदी<citation>कु*४/४४</citation>५/२३</sense></segmenthd>
+<sense no="1">ग्रीष्म ऋतु का अन्त और वर्षा ऋतु का आरम्भ रविपीतजलातपात्यये पुनरोघेन हि युज्यते नदी<citation>कु*४/४४</citation>५/२३</sense></segmenthd>
 </lexhead>
 
 <lexhead no="86">
@@ -1900,12 +1900,12 @@
 <jAwi>कालः</jAwi>
 <sense no="1">ताप, गर्मी, आग</sense>
 <sense n="2">पीड़ा, कष्ट</sense>
-<sense n="3">तपश्चर्या, धार्मिक, कड़ी साधना, आत्मनियन्त्रण Mतपः किलेदं तदवाप्तिसाधनम्<citation>कु*५/६४</citation></sense>
+<sense n="3">तपश्चर्या, धार्मिक, कड़ी साधना, आत्मनियन्त्रण तपः किलेदं तदवाप्तिसाधनम्<citation>कु*५/६४</citation></sense>
 <sense n="4">आनन्दमन, और आत्मोत्सर्ग के अभ्यास से सम्बद्ध ध्यान</sense>
 <sense n="5">नैतिक गुण, खूबी</sense>
 <sense n="6">किसी विशेष वर्ण का विशेष कर्तव्यपालन</sense>
 <sense n="7">सात लोकों में से एक लोक अर्थात् ‘जन-लोक’ के ऊपर का लोक</sense>
-<sense n="8">माघ का महीनाMतपसि मन्दगभस्तिरभीषुमान्<citation>शि*६/६३</citation></sense>
+<sense n="8">माघ का महीनातपसि मन्दगभस्तिरभीषुमान्<citation>शि*६/६३</citation></sense>
 <sense n="9">शिशिर ऋतु</sense>
 <sense n="10">हेमन्त</sense>
 <sense n="11">ग्रीष्म ऋतु</sense>
@@ -1950,13 +1950,13 @@
 <prAwipaxikam>तपोधन</prAwipaxikam>
 <seg>तपस्-धनः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">‘साधना का धनी’ तपस्वी, भक्तMरम्यास्तपोधनानां क्रियाः<citation>श*१/१३</citation>शमप्रधानेषु तपोधनेषु २/६, ४/१<citation>शि*१/२३</citation><citation>रघु*१४/१९</citation><citation>मनु*११/२४२</citation></sense></segmenthd>
+<sense no="1">‘साधना का धनी’ तपस्वी, भक्तरम्यास्तपोधनानां क्रियाः<citation>श*१/१३</citation>शमप्रधानेषु तपोधनेषु २/६, ४/१<citation>शि*१/२३</citation><citation>रघु*१४/१९</citation><citation>मनु*११/२४२</citation></sense></segmenthd>
 <segmenthd>
 <dentry>तपोनिधिः</dentry>
 <prAwipaxikam>तपोनिधि</prAwipaxikam>
 <seg>तपस्-निधिः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">धर्मप्राण व्यक्ति, संन्यासी M<citation>रघु*१/५६</citation></sense></segmenthd>
+<sense no="1">धर्मप्राण व्यक्ति, संन्यासी <citation>रघु*१/५६</citation></sense></segmenthd>
 <segmenthd>
 <dentry>तपःप्रभावः</dentry>
 <prAwipaxikam>तपःप्रभाव</prAwipaxikam>
@@ -1980,7 +1980,7 @@
 <prAwipaxikam>तपोवनम्</prAwipaxikam>
 <seg>तपस्-वनम्</seg>
 <grammar>नपुं*</grammar>
-<sense no="1">तपोभूमि, पवित्र वन जहाँ संन्यासी कठोर साधना में लिप्त होMकृतं त्वयोपवनं तपोपवनमिति प्रेक्षे<citation>श*१</citation><citation>रघु*१/९०</citation>२/१८, ३/८</sense></segmenthd>
+<sense no="1">तपोभूमि, पवित्र वन जहाँ संन्यासी कठोर साधना में लिप्त होकृतं त्वयोपवनं तपोपवनमिति प्रेक्षे<citation>श*१</citation><citation>रघु*१/९०</citation>२/१८, ३/८</sense></segmenthd>
 <segmenthd>
 <dentry>तपोवृद्ध</dentry>
 <prAwipaxikam>तपोवृद्ध</prAwipaxikam>
@@ -2048,8 +2048,8 @@
 <kind_of>संन्यासी</kind_of>
 <jAwi>ऋषिः</jAwi>
 <sense no="1">तपस्वी, भक्तिनिष्ठ</sense>
-<sense n="2">ग़रीब, दयनीय, असहाय, दीन Mसा तपस्विनी निर्वृता भवतु<citation>श*४</citation><citation>मा*३</citation><citation>नै*१/१३५</citation></sense>
-<sense n="3">संन्यासी Mतपस्विसामान्यमवेक्षणीया<citation>रघु*१४/६७</citation></sense>
+<sense n="2">ग़रीब, दयनीय, असहाय, दीन सा तपस्विनी निर्वृता भवतु<citation>श*४</citation><citation>मा*३</citation><citation>नै*१/१३५</citation></sense>
+<sense n="3">संन्यासी तपस्विसामान्यमवेक्षणीया<citation>रघु*१४/६७</citation></sense>
 <segmenthd>
 <dentry>तपस्विपत्रम्</dentry>
 <prAwipaxikam>तपस्विपत्रम्</prAwipaxikam>
@@ -2136,8 +2136,8 @@
 <jAwi>तेजोभावः</jAwi>
 <jAwi>गुणः</jAwi>
 <sense no="1">अन्धकार, किं वाऽभविष्यदरुणस्तमसां विभेत्ता तं चेत्सहस्रकिरणो धुरि नाकरिष्यत्<citation>श*७/४</citation><citation>विक्रम*१/७</citation><citation>मेघ*३७</citation></sense>
-<sense n="2">नरक का अन्धकार M<citation>मनु*४/२४२</citation></sense>
-<sense n="3">मानसिक अन्धेरा, भ्रम, भ्रांतिMमुनिसुताप्रणयस्मृतिरोधिना मम च मुक्तमिदं तमसा मनः<citation>श*६/६</citation></sense>
+<sense n="2">नरक का अन्धकार <citation>मनु*४/२४२</citation></sense>
+<sense n="3">मानसिक अन्धेरा, भ्रम, भ्रांतिमुनिसुताप्रणयस्मृतिरोधिना मम च मुक्तमिदं तमसा मनः<citation>श*६/६</citation></sense>
 <sense n="4">अन्धकार या अज्ञान, प्रकृति के संघटक, ३ गुणों में से एक F कु*६/६१<citation>मनु*१२/२४ दूसरे दो हैं- सत्त्व</citation>रजस्</sense>
 <sense n="5">रञ्ज, शोक</sense>
 <sense n="6">पाप</sense>
@@ -2148,7 +2148,7 @@
 <seg>तमस्-अपह</seg>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">तपोऽपह</prAwipaxikam>
-<sense no="1">अज्ञान या अन्धकार को दूर करने वाला, ज्ञान देने वाला, प्रकाशित करने वालाM<citation>कि*५/२२</citation></sense></segmenthd>
+<sense no="1">अज्ञान या अन्धकार को दूर करने वाला, ज्ञान देने वाला, प्रकाशित करने वाला<citation>कि*५/२२</citation></sense></segmenthd>
 <segmenthd>
 <dentry>तमोऽपहः</dentry>
 <prAwipaxikam>तमोऽपह</prAwipaxikam>
@@ -2306,7 +2306,7 @@
 <kind_of>वृक्षः</kind_of>
 <jAwi>वृक्षः</jAwi>
 <sense no="1">एक वृक्ष का नाम, तरुणतमालनीलबहलोन्नमदम्बुधराः<citation>मा*९/१९</citation><citation>रघु*१३/१५</citation>४९<citation>गीत* ११</citation>इसकी छाल काली होती है</sense>
-<sense n="2">मस्तक पर चन्दन का साम्प्रदायिक तिलकM चिन्ह</sense>
+<sense n="2">मस्तक पर चन्दन का साम्प्रदायिक तिलक चिन्ह</sense>
 <sense n="3">तलवार, खड्ग</sense>
 <segmenthd>
 <dentry>तमालपत्रम्</dentry>
@@ -2356,14 +2356,14 @@
 <grammar>नपुं*</grammar>
 <jAwi>तेजोभावः</jAwi>
 <sense no="1">अन्धकार, एतत्तमालदलनीलतमं तमिस्रम्<citation>गीत*११</citation>करचरणोरसि चणिगणभूषणकिरणविभिन्नतमिस्रम् २<citation>कि*५/२</citation></sense>
-<sense n="2">मानसिक अन्धकार भ्रमM अज्ञान</sense>
+<sense n="2">मानसिक अन्धकार भ्रम अज्ञान</sense>
 <sense n="3">क्रोध, कोप</sense>
 <segmenthd>
 <dentry>तमिस्रपक्षः</dentry>
 <prAwipaxikam>तमिस्रपक्ष</prAwipaxikam>
 <seg>तमिस्रम्-पक्षः</seg>
 <grammar>पुं*</grammar>
-<sense no="3">कृष्णपक्ष M<citation>रघु*६/३४ चान्द्रमास का</citation></sense></segmenthd>
+<sense no="3">कृष्णपक्ष <citation>रघु*६/३४ चान्द्रमास का</citation></sense></segmenthd>
 </lexhead>
 
 <lexhead no="109">
@@ -2415,7 +2415,7 @@
 <grammar>पुं*</grammar>
 <etymology>तृ+अप्</etymology>
 <sense no="1">पार जाना, पार करना, मार्ग<citation>भट्टि*७/५५</citation></sense>
-<sense n="2">भाड़ा Mदीर्घाध्वनि यथादेशं यथाकालं तरो भवेत्<citation>मनु*८/४०६</citation></sense>
+<sense n="2">भाड़ा दीर्घाध्वनि यथादेशं यथाकालं तरो भवेत्<citation>मनु*८/४०६</citation></sense>
 <sense n="3">सड़क</sense>
 <sense n="4">घाटवाली नाव</sense>
 <segmenthd>
@@ -2429,7 +2429,7 @@
 <prAwipaxikam>तरःस्थानम्</prAwipaxikam>
 <seg>तरः-स्थानम्</seg>
 <grammar>नपुं*</grammar>
-<sense no="1">घाट Mवह स्थान जहाँ नाव आकर ठहरती हैं</sense></segmenthd>
+<sense no="1">घाट वह स्थान जहाँ नाव आकर ठहरती हैं</sense></segmenthd>
 </lexhead>
 
 <lexhead no="115">
@@ -2459,7 +2459,7 @@
 <jAwi>जलम्</jAwi>
 <sense no="1">लहर<citation>उत्तर*३/४७</citation><citation>भर्तृ*१/८१</citation><citation>रघु*१३/६३</citation><citation>श*३/७</citation></sense>
 <sense n="2">किसी ग्रन्थ का अध्याय या अनुभागFजैसा ‘कथासरित्सागर’ का</sense>
-<sense n="3">कूद, छलाँग, सरपट चौकड़ी, छलाँग लगाने की क्रिया M घोड़े आदि की</sense>
+<sense n="3">कूद, छलाँग, सरपट चौकड़ी, छलाँग लगाने की क्रिया  घोड़े आदि की</sense>
 <sense n="4">कपड़ा, वस्त्र</sense>
 </lexhead>
 
@@ -2681,7 +2681,7 @@
 <jAwi>मानसिकभावः</jAwi>
 <jAwi>परिमाणः</jAwi>
 <sense no="1">चाल, वेग</sense>
-<sense n="2">वीर्य, शक्ति, ऊर्जा Mकैलाशनाथं तरसा जिगीषुः<citation>रघु*५/२८</citation>११/७७<citation>शि*९/७२</citation></sense>
+<sense n="2">वीर्य, शक्ति, ऊर्जा कैलाशनाथं तरसा जिगीषुः<citation>रघु*५/२८</citation>११/७७<citation>शि*९/७२</citation></sense>
 <sense n="3">तट, पार करने का स्थान</sense>
 <sense n="4">घड़नई, बेड़ा</sense>
 </lexhead>
@@ -2746,7 +2746,7 @@
 <upAXi>वाहनम्</upAXi>
 <sense no="1">नाव, जीर्णा तरिः सरिदतीवगभीरनीरा<citation>उद्भट</citation><citation>शि*३/७६</citation></sense>
 <sense n="2">कपड़े रखने का सन्दूक</sense>
-<sense n="3">कपड़े का छोर या मगज़ीM किनारा</sense>
+<sense n="3">कपड़े का छोर या मगज़ी किनारा</sense>
 </lexhead>
 
 <lexhead no="145">
@@ -2756,7 +2756,7 @@
 <etymology><vigrahavAkya>तरति अनया</vigrahavAkya> तरि+ङीष्</etymology>
 <sense no="1">नाव, जीर्णा तरिः सरिदतीवगभीरनीरा<citation>उद्भट</citation><citation>शि*३/७६</citation></sense>
 <sense n="2">कपड़े रखने का सन्दूक</sense>
-<sense n="3">कपड़े का छोर या मगज़ीM किनारा</sense>
+<sense n="3">कपड़े का छोर या मगज़ी किनारा</sense>
 <segmenthd>
 <dentry>तरिरथः</dentry>
 <prAwipaxikam>तरिरथ</prAwipaxikam>
@@ -2929,7 +2929,7 @@
 <kind_of>पुरुर्षः</kind_of>
 <jAwi>मनुष्यः</jAwi>
 <sense no="1">चढ़ती जवानी वाला, जवान पुरुष युवक</sense>
-<sense n="2">बच्चा, नवजात, सुकुमार, कोमल M<citation>भर्तृ*३/४९</citation></sense>
+<sense n="2">बच्चा, नवजात, सुकुमार, कोमल <citation>भर्तृ*३/४९</citation></sense>
 <sense n="3">नवोदित, जो आकाश में ऊँचा न हो AV<citation>कु* ३/५४ सूर्य की भाँति</citation></sense>
 <sense n="4">नूतन, ताज़ाAVतरुणं दधि<citation>चाण*६४</citation>तरुणं सर्षपशाकं नवौदनं पिच्छिलानि च दधीनि, अल्पव्ययेन सुन्दरि ग्राम्यजनो मिष्टमश्नाति<citation>छं*१</citation></sense>
 <sense n="5">ज़िन्दादिल, विशद</sense>
@@ -3020,7 +3020,7 @@
 <sense no="1">कल्पना, अन्दाज, अटकल, प्रसन्नस्ते तर्कः<citation>विक्रम*२</citation></sense>
 <sense n="2">तर्कना, अटकलबाज़ी, चर्चा, दुरूह तर्कणा Fकुतः पुनरस्मिन्नवधारिते आगमार्थे तर्क निमित्तस्याक्षेपस्यावकाशः, इदानीं तर्कनिमित्त आक्षेपः परिह्रियते<citation>शारी*</citation>तर्कोऽप्रतिष्ठः स्मृतयो विभिन्नाः<citation>महा*</citation><citation>मनु*१२/१०६</citation></sense>
 <sense n="3">सन्देह</sense>
-<sense n="4">न्याय, तर्कशास्त्र, तर्कशास्त्रम्, तर्कदीपिकाMयत्काव्यं मधुवर्षि धर्पितपरास्तर्केषु यस्योक्तयः<citation>नै*२२/१५५</citation></sense>
+<sense n="4">न्याय, तर्कशास्त्र, तर्कशास्त्रम्, तर्कदीपिकायत्काव्यं मधुवर्षि धर्पितपरास्तर्केषु यस्योक्तयः<citation>नै*२२/१५५</citation></sense>
 <sense n="5">उपहासास्पद होना, वह परिणाम जो पूर्व कथित तथ्यों (पक्षों) के विपरीत हो F न्याय* में</sense>
 <sense n="6">कामना, इच्छा</sense>
 <sense n="7">कारण, प्रयोजन</sense>
@@ -3165,7 +3165,7 @@
 <sense no="1">प्रसन्न करना, तृप्त करना</sense>
 <sense n="2">तृप्ति प्रसन्नता</sense>
 <sense n="3">पाँच यज्ञों में से एक- पितृयज्ञ F प्रत्येक व्यक्ति द्वारा किये जाने वाले  दिवंगत पूर्वजों के पितरों के निमित्त जल-तर्पण</sense>
-<sense n="4">समिधा M यज्ञीय अग्नि के लिए इंधन</sense>
+<sense n="4">समिधा  यज्ञीय अग्नि के लिए इंधन</sense>
 <segmenthd>
 <dentry>तर्पणेच्छुः</dentry>
 <prAwipaxikam>तर्पणेच्छु</prAwipaxikam>
@@ -3292,7 +3292,7 @@
 <sense n="3">बाहू</sense>
 <sense n="4">थप्पड़</sense>
 <sense n="5">नीचपन, पद का घटियापन</sense>
-<sense n="6">निम्न भाग, नीचे का भाग, आधार, पैर, पेंदी Mरेवारोधसि वेतसीतरुतले चेतःसमुत्कण्ठते<citation>काव्य*१</citation></sense>
+<sense n="6">निम्न भाग, नीचे का भाग, आधार, पैर, पेंदी रेवारोधसि वेतसीतरुतले चेतःसमुत्कण्ठते<citation>काव्य*१</citation></sense>
 <sense n="7">वृक्ष या किसी दूसरी वस्तु की नीचे की भूमि, किसी भी वस्तु से प्राप्त शरण Fफणी मयूरस्य तले निषीदति<citation>ऋतु*१/१३ अतः</citation></sense>
 <sense n="8">छिद्र, गड्ढा</sense>
 </lexhead>
@@ -3312,7 +3312,7 @@
 <sense n="4">बाहू</sense>
 <sense n="5">थप्पड़</sense>
 <sense n="6">नीचपन, पद का घटियापन</sense>
-<sense n="7">निम्न भाग, नीचे का भाग, आधार, पैर, पेंदी Mरेवारोधसि वेतसीतरुतले चेतःसमुत्कण्ठते<citation>काव्य*१</citation></sense>
+<sense n="7">निम्न भाग, नीचे का भाग, आधार, पैर, पेंदी रेवारोधसि वेतसीतरुतले चेतःसमुत्कण्ठते<citation>काव्य*१</citation></sense>
 <sense n="8">वृक्ष या किसी दूसरी वस्तु की नीचे की भूमि, किसी भी वस्तु से प्राप्त शरण Fफणी मयूरस्य तले निषीदति<citation>ऋतु*१/१३</citation></sense>
 <sense n="9">छिद्र, गढ़ा</sense>
 </lexhead>
@@ -3340,7 +3340,7 @@
 <sense no="1">तालाब</sense>
 <sense n="2">जङ्गल, वन</sense>
 <sense n="3">कारण, मूल, प्रयोजन</sense>
-<sense n="4">बायीं बाहु पर पहना जाने वाला चमड़े का फीता M इसी अर्थ में ‘तला’ भी</sense>
+<sense n="4">बायीं बाहु पर पहना जाने वाला चमड़े का फीता  इसी अर्थ में ‘तला’ भी</sense>
 <segmenthd>
 <dentry>तलाङ्गुलिः</dentry>
 <prAwipaxikam>तलाङ्गुलिः</prAwipaxikam>
@@ -3514,7 +3514,7 @@
 <kind_of>गृहम्</kind_of>
 <jAwi>मानवनिर्मितिः</jAwi>
 <sense no="1">गद्देदार लम्बी चौकी, बिस्तरा, सोफ़ा, सपदि विगतनिद्रस्तल्पमुज्झांचकार<citation>रघु*५/७५ ’बिस्तरा छोड़ा’ उठा</citation></sense>
-<sense n="2">पत्नी M आलं*  जैसा कि ’गुरुतल्पगः’ में</sense>
+<sense n="2">पत्नी  आलं*  जैसा कि ’गुरुतल्पगः’ में</sense>
 <sense n="3">गाड़ी में बैठने का स्थान</sense>
 <sense n="4">ऊपर की मञ्जिल, बुर्ज, कँगूरा, अटारी</sense>
 </lexhead>
@@ -3533,7 +3533,7 @@
 <kind_of>गृहम्</kind_of>
 <jAwi>मानवनिर्मितिः</jAwi>
 <sense no="1">गद्देदार लम्बी चौकी, बिस्तरा, सोफ़ा, सपदि विगतनिद्रस्तल्पमुज्झांचकार<citation>रघु*५/७५ ’बिस्तरा छोड़ा’ उठा</citation></sense>
-<sense n="2">पत्नी M आलं*  जैसा कि ’गुरुतल्पगः’ में</sense>
+<sense n="2">पत्नी  आलं*  जैसा कि ’गुरुतल्पगः’ में</sense>
 <sense n="3">गाड़ी में बैठने का स्थान</sense>
 <sense n="4">ऊपर की मञ्जिल, बुर्ज, कँगूरा, अटारी</sense>
 </lexhead>
@@ -3604,7 +3604,7 @@
 <jAwi>मनुष्यः</jAwi>
 <upAXi>वृत्तिः</upAXi>
 <sense no="1">चोर, लुटेरा, मा सञ्चर मनःपान्थ तत्रास्ते स्मरतस्करः<citation>भर्तृ*१/८६</citation><citation>मनु*४/१३५</citation>८/६७</sense>
-<sense n="2">जघन्य, घृणित M समास के अन्त में</sense>
+<sense n="2">जघन्य, घृणित  समास के अन्त में</sense>
 </lexhead>
 
 <lexhead no="203">

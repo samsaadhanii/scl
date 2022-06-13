@@ -1,0 +1,25 @@
+value xvikarmaka_XAwu_list1 = [
+"BikR1";
+"SAs1";
+"anu_SAs1";
+"ava_ruX1";
+"brU1";
+"ci1";
+"ji1";
+"kaWa1";
+"manW2";
+"muR2";
+"pac1";
+"praC1";
+"pra_kaWa1";
+"pra_pax1";
+"ruX1";
+"sam_Af_XA1";
+"sam_praC1";
+"vac1";
+"vax1";
+"xaNda1";
+"xuh2";
+"yAc1";
+]
+;

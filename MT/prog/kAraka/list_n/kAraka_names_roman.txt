@@ -32,7 +32,6 @@ abhedaḥ 33
 hetuḥ 34
 hetuḥ5 70
 ṣaṣṭhīsambandhaḥ 35
-ghaṭaka 39 
 prayojanam 40
 prayojanam_dyotakaḥ 41
 sandarbha_binduḥ 42
@@ -41,7 +40,15 @@ anuyogī 44
 sambodhyaḥ 47
 anantarakālaḥ 48
 pratiṣedhaḥ 49
+tīvratādarśī 51
+sañjñā_dyotakaḥ 52
+sañjñā 53
+ghaṭaka 54 
 ghaṭaka_dyotakaḥ 55
+kāraṇa_dyotakaḥ 56
+kārya_dyotakaḥ 57
+vyabhicāraḥ 58
+kārya_kāraṇa_bhāvaḥ 59
 samuccitaḥ 60
 sup_samuccitaḥ 61
 anyataraḥ 62
@@ -50,6 +57,8 @@ samuccaya_dyotakaḥ 64
 sup_samuccaya_dyotakaḥ 65
 anyatara_dyotakaḥ 66
 sup_anyatara_dyotakaḥ 67
+virodhakaḥ 68
+virodha_dyotakaḥ 69
 vartamānasamānakālaḥ 75
 sahārtha_dyotakaḥ 76
 vinārtha_dyotakaḥ 77
@@ -93,13 +102,6 @@ adhikaraṇam_upa 4500
 gatikartā 200
 gatikarma 201
 iṣkarma 214
-tīvratādarśī 51
-sañjñā_dyotakaḥ 52
-sañjñā 53
-kāraṇa_dyotakaḥ 56
-kārya_dyotakaḥ 57
-vyabhicāraḥ 58
-kārya_kāraṇa_bhāvaḥ 59
 āvaśyakatā_dyotakaḥ 206
 pariṇāma_dyotakaḥ 207
 āvaśyakatā_pariṇāma_sambandhaḥ 209

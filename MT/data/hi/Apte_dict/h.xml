@@ -314,7 +314,7 @@
 <prAwipaxikam>हठयोग</prAwipaxikam>
 <seg>हठः-योगः</seg>
 <grammar>पुं*</grammar>
-<sense no="2">योग की एक विशेष रीति या भावचिन्तन व मनन का अभ्यास M‘राजयोग’ से भिन्नता दिखाने के लिए इसका नाम ‘हठयोग’ पड़ा; इसका अभ्यास भी कुछ कठिन है, इसके अनुपालन की अनेक रीतियाँ हैं, उदा* एक पैर के बल खड़ा होना, हाथों का ऊपर किये रहना, सिर ऊपर करके धूम्रपान करना आदि</sense>
+<sense no="2">योग की एक विशेष रीति या भावचिन्तन व मनन का अभ्यास ‘राजयोग’ से भिन्नता दिखाने के लिए इसका नाम ‘हठयोग’ पड़ा; इसका अभ्यास भी कुछ कठिन है, इसके अनुपालन की अनेक रीतियाँ हैं, उदा* एक पैर के बल खड़ा होना, हाथों का ऊपर किये रहना, सिर ऊपर करके धूम्रपान करना आदि</sense>
 </segmenthd>
 <segmenthd>
 <dentry>हठविद्या</dentry>
@@ -870,7 +870,7 @@
 <jAwi>मानसिकभावः</jAwi>
 <sense no="1">प्रसन्नता, हर्ष, और आकस्मिक हलचल को प्रकट करने वाला अव्यय, हन्त भो लब्धं मया स्वास्थ्यम्<citation>श* ४</citation>हन्त प्रवृत्तं संगीतकम्<citation>मालवि* १</citation></sense>
 <sense n="2">करुणा, दया Fपुत्रक हन्त ते धानाकाः<citation>गण*</citation></sense>
-<sense n="3">शोक, अफसोसMहन्त धिङ् मामधन्यम्<citation>उत्तर* १/४३</citation>स्मरामि हन्त स्मरामि<citation>उत्तर* १</citation>काचमूल्येन विक्रीतो हन्त चिन्तामणिर्मया<citation>शा* १/१२</citation>मेघ* १०४</sense>
+<sense n="3">शोक, अफसोसहन्त धिङ् मामधन्यम्<citation>उत्तर* १/४३</citation>स्मरामि हन्त स्मरामि<citation>उत्तर* १</citation>काचमूल्येन विक्रीतो हन्त चिन्तामणिर्मया<citation>शा* १/१२</citation>मेघ* १०४</sense>
 <sense n="4">सौभाग्य, आशीर्वाद</sense>
 <sense n="5">यह बहुधा आरम्भसूचक अव्यय के रूप में भी प्रयुक्त हैहन्ते ते कथयिष्यामि<citation>राम*।</citation></sense>
 <segmenthd>
@@ -1056,7 +1056,7 @@
 <prAwipaxikam>हयमेध</prAwipaxikam>
 <seg>हयः-मेधः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">अश्वमेधः यज्ञM<citation>याज्ञ* १/१८१</citation></sense>
+<sense no="1">अश्वमेधः यज्ञ<citation>याज्ञ* १/१८१</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>हयवाहनः</dentry>
@@ -1202,8 +1202,8 @@
 <kind_of>द्रव्यम्</kind_of>
 <jAwi>द्रव्यम्</jAwi>
 <sense no="1">पकड़ना, ग्रहण करना</sense>
-<sense n="2">ले जाने वाला, दूर करना, हटाना, चुरानाMकन्याहरणम्<citation>मनु* ३/३३</citation>रघु* ११/७४</sense>
-<sense n="3">वञ्चित करना, नष्ट करनाMप्राणहरणम्</sense>
+<sense n="2">ले जाने वाला, दूर करना, हटाना, चुरानाकन्याहरणम्<citation>मनु* ३/३३</citation>रघु* ११/७४</sense>
+<sense n="3">वञ्चित करना, नष्ट करनाप्राणहरणम्</sense>
 <sense n="4">भाग देना</sense>
 <sense n="5">विद्यार्थी को उपहार</sense>
 <sense n="6">भुजा</sense>
@@ -1285,7 +1285,7 @@
 <jAwi>स्तनपायी</jAwi>
 <jAwi>सरीसृपः</jAwi>
 <sense no="1">विष्णु का नाम हरिर्यथैकः पुरूषोत्तमः स्मृतः<citation>रघु* ३/४९</citation></sense>
-<sense n="2">इन्द्र का नामM<citation>रघु* ३/५५</citation>६८, ८/७९</sense>
+<sense n="2">इन्द्र का नाम<citation>रघु* ३/५५</citation>६८, ८/७९</sense>
 <sense n="3">शिव का नाम</sense>
 <sense n="4">ब्रह्मा का नाम</sense>
 <sense n="5">यम का नाम</sense>
@@ -1295,10 +1295,10 @@
 <sense n="9">प्रकाश की किरण</sense>
 <sense n="10">अग्नि</sense>
 <sense n="11">पवन</sense>
-<sense n="12">सिंहM<citation>भामि* १/५०</citation>५१</sense>
+<sense n="12">सिंह<citation>भामि* १/५०</citation>५१</sense>
 <sense n="13">घोड़ा</sense>
-<sense n="14">इन्द्र का घोड़ा Mसत्यमतीत्य हरितो हरींश्च वर्तन्ते वाजिनः<citation>श* १</citation>७/७</sense>
-<sense n="15">लंगूर, बन्दरM<citation>उत्तर* ३/४८</citation>रघु* १२/५७</sense>
+<sense n="14">इन्द्र का घोड़ा सत्यमतीत्य हरितो हरींश्च वर्तन्ते वाजिनः<citation>श* १</citation>७/७</sense>
+<sense n="15">लंगूर, बन्दर<citation>उत्तर* ३/४८</citation>रघु* १२/५७</sense>
 <sense n="16">कोयल</sense>
 <sense n="17">मेंढक</sense>
 <sense n="18">तोता</sense>
@@ -1357,8 +1357,8 @@
 <jAwi>वृक्षः</jAwi>
 <kind_of>वृक्षः</kind_of>
 <jAwi>अलौकिकसस्यः</jAwi>
-<sense no="1">एक प्रकार का पीला चन्दन(लकड़ी या वृक्ष)M<citation>रघु* ३/५९</citation>६/६०, श* ७/२, कु* ५/६९</sense>
-<sense no="2">सर्ग के पाँच वृक्षों में से एक वृक्षMपञ्चैते देवतरवो मन्दारः पारिजातकः। सन्तानः कल्पवृक्षश्च पुंसि वा हरिचन्दनम्<citation>अमर*</citation></sense>
+<sense no="1">एक प्रकार का पीला चन्दन(लकड़ी या वृक्ष)<citation>रघु* ३/५९</citation>६/६०, श* ७/२, कु* ५/६९</sense>
+<sense no="2">सर्ग के पाँच वृक्षों में से एक वृक्षपञ्चैते देवतरवो मन्दारः पारिजातकः। सन्तानः कल्पवृक्षश्च पुंसि वा हरिचन्दनम्<citation>अमर*</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>हरिचन्दनम्</dentry>
@@ -1594,7 +1594,7 @@
 <grammar>पुं*</grammar>
 <kind_of>देवः</kind_of>
 <jAwi>देवता</jAwi>
-<sense no="1">इन्द्रM<citation>रघु* ९/१८</citation></sense>
+<sense no="1">इन्द्र<citation>रघु* ९/१८</citation></sense>
 <sense no="2">सूर्य</sense>
 </segmenthd>
 <segmenthd>
@@ -1609,7 +1609,7 @@
 <prAwipaxikam>हरिहेति</prAwipaxikam>
 <seg>हरि-हेतिः</seg>
 <grammar>स्त्री*</grammar>
-<sense no="1">इन्द्रधनुषMकथमवलोकयेयमधुना हरिहेतिमतीः (ककुभः)<citation>मा* ९/१८</citation></sense>
+<sense no="1">इन्द्रधनुषकथमवलोकयेयमधुना हरिहेतिमतीः (ककुभः)<citation>मा* ९/१८</citation></sense>
 <sense no="2">विष्णु का चक्र</sense>
 </segmenthd>
 <segmenthd>
@@ -1617,7 +1617,7 @@
 <prAwipaxikam>हरिहूति</prAwipaxikam>
 <seg>हरि-हूतिः</seg>
 <grammar>स्त्री*</grammar>
-<sense no="1">चक्रवाक M<citation>शि* ९/१५</citation></sense>
+<sense no="1">चक्रवाक <citation>शि* ९/१५</citation></sense>
 </segmenthd>
 </lexhead>
 
@@ -1781,7 +1781,7 @@
 <sense n="2">पीला, पीला सा</sense>
 <sense n="3">हरियाली लिये पीला</sense>
 <sense n="4">हरा या पीला रंग</sense>
-<sense n="5">सूर्य का घोड़ा, लाख के रंग का घोड़ाMसत्यमतीत्य हरितो हरींश्च वर्तन्ते वाजिनः<citation>श* १</citation>दिशो हरिद्भिर्हरितामिवेश्वरः<citation>रघु* ३/३०</citation>कु* २/४३</sense>
+<sense n="5">सूर्य का घोड़ा, लाख के रंग का घोड़ासत्यमतीत्य हरितो हरींश्च वर्तन्ते वाजिनः<citation>श* १</citation>दिशो हरिद्भिर्हरितामिवेश्वरः<citation>रघु* ३/३०</citation>कु* २/४३</sense>
 <sense n="6">तेज घोड़ा</sense>
 <sense n="7">सिंह</sense>
 <sense n="8">सूर्य</sense>
@@ -1793,7 +1793,7 @@
 <prAwipaxikam>हरिदन्त</prAwipaxikam>
 <seg>हरित्-अन्तः</seg>
 <grammar>पुं*</grammar>
-<sense no="2">दिशाओं का अन्त, दिगन्त M<citation>भामि* १/६०</citation></sense>
+<sense no="2">दिशाओं का अन्त, दिगन्त <citation>भामि* १/६०</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>हरिदन्तरम्</dentry>
@@ -1810,7 +1810,7 @@
 <kind_of>अर्कादयः</kind_of>
 <jAwi>ग्रहः</jAwi>
 <upAXi>नाम</upAXi>
-<sense no="1">सूर्यM<citation>कि* २/४६</citation>रघु* ३/२२, १८/२३, शि* ११/५६</sense>
+<sense no="1">सूर्य<citation>कि* २/४६</citation>रघु* ३/२२, १८/२३, शि* ११/५६</sense>
 <sense no="2">मदार का पौधा, अर्क</sense>
 </segmenthd>
 <segmenthd>
@@ -1828,7 +1828,7 @@
 <grammar>पुं*</grammar>
 <kind_of>रत्नम्</kind_of>
 <jAwi>अचलनिर्जीववस्तु</jAwi>
-<sense no="1">मरकत मणि, पन्नाM<citation>शि* ३/४९</citation></sense>
+<sense no="1">मरकत मणि, पन्ना<citation>शि* ३/४९</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>हरिद्वर्ण</dentry>
@@ -1888,7 +1888,7 @@
 <is_a_part>पचनम्</is_a_part>
 <upAXi>प्राकृतिकखाद्यम्</upAXi>
 <sense no="1">साग-भाजी</sense>
-<sense n="2">हरा घासM<citation>शि* ५/५८</citation></sense>
+<sense n="2">हरा घास<citation>शि* ५/५८</citation></sense>
 </lexhead>
 
 <lexhead no="65">
@@ -1992,7 +1992,7 @@
 <prAwipaxikam gen="स्त्री">हर्तृ</prAwipaxikam>
 <etymology>[हृ+तृच्]</etymology>
 <sense no="1">उठा कर ले जाने वाला, छीनने वाला, लूटने वाला, ग्रहन करने वाला आदि, N N</sense>
-<sense n="2">चोर, लुटेराM<citation>भर्तृ* २/१६स्त्री*-र्त्री</citation></sense>
+<sense n="2">चोर, लुटेरा<citation>भर्तृ* २/१६स्त्री*-र्त्री</citation></sense>
 <sense n="3">सूर्य</sense>
 </lexhead>
 
@@ -2204,8 +2204,8 @@
 <seg>हलम्-धर</seg>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">हलधर</prAwipaxikam>
-<sense no="1">हाली, हलचलाने वालाM</sense>
-<sense no="2">बलराम का नामMकेशवधृतहलधर रूप जय जगदीश हरे<citation>गीत*</citation></sense>
+<sense no="1">हाली, हलचलाने वाला</sense>
+<sense no="2">बलराम का नामकेशवधृतहलधर रूप जय जगदीश हरे<citation>गीत*</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>हलभृत्</dentry>
@@ -2213,7 +2213,7 @@
 <seg>हलम्-भृत्</seg>
 <grammar>पुं*</grammar>
 <sense no="1">हाली, हलचलाने वाला</sense>
-<sense no="2">बलराम का नामMअंसन्यस्ते सति हलोभृतो मेचके वाससीव<citation>मेघ* ५९</citation></sense>
+<sense no="2">बलराम का नामअंसन्यस्ते सति हलोभृतो मेचके वाससीव<citation>मेघ* ५९</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>हलभूतिः</dentry>
@@ -2267,7 +2267,7 @@
 <kind_of>विषम्</kind_of>
 <jAwi>द्रव्यम्</jAwi>
 <sense no="1">एक प्रकार का घातक विष जो समुद्रमंथन के परिणाम स्वरूप मिला था, अहमेव गुरुः सुदारुणानामिति हालाहलमास्म तात दृप्यः। ननु सन्ति भवादृशानि भूयो भुवनेऽस्मिन् वचनानि दुर्जनानाम्<citation>सु्भा* अत्यन्त विषाक्त होने के कारण यह प्रत्येक वस्तु को भस्म करने लगा</citation>इसलिए इसे शिव जी ने पी लिया</sense>
-<sense n="2">घातक विष, या जहर Mदे*<citation>भामि* १/९५</citation>२/७३, पंच* १/१८३, (हलाहल और ‘हालहाल’ भी लिखा जाता है)</sense>
+<sense n="2">घातक विष, या जहर दे*<citation>भामि* १/९५</citation>२/७३, पंच* १/१८३, (हलाहल और ‘हालहाल’ भी लिखा जाता है)</sense>
 </lexhead>
 
 <lexhead no="86">
@@ -2278,7 +2278,7 @@
 <kind_of>विषम्</kind_of>
 <jAwi>द्रव्यम्</jAwi>
 <sense no="1">एक प्रकार का घातक विष जो समुद्रमंथन के परिणाम स्वरूप मिला था, अहमेव गुरुः सुदारुणानामिति हालाहलमास्म तात दृप्यः। ननु सन्ति भवादृशानि भूयो भुवनेऽस्मिन् वचनानि दुर्जनानाम्<citation>सु्भा* अत्यन्त विषाक्त होने के कारण यह प्रत्येक वस्तु को भस्म करने लगा</citation>इसलिए इसे शिव जी ने पी लिया</sense>
-<sense n="2">घातक विष, या जहर Mदे*<citation>भामि* १/९५</citation>२/७३, पंच* १/१८३, (हलाहल और ‘हालहाल’ भी लिखा जाता है)</sense>
+<sense n="2">घातक विष, या जहर दे*<citation>भामि* १/९५</citation>२/७३, पंच* १/१८३, (हलाहल और ‘हालहाल’ भी लिखा जाता है)</sense>
 </lexhead>
 
 <lexhead no="87">
@@ -2763,12 +2763,12 @@
 <dentry>हस्तं गतः</dentry>
 <prAwipaxikam>हस्तं गतः</prAwipaxikam>
 <grammar>स्त्री*</grammar>
-<sense no="2">हाथ में पड़ा हुआ या अधिकार में आया हुआMगौतमीहस्ते विसर्जयिष्यामि<citation>श* ३</citation>हस्ते सनिहितां कुरु, शंभुना दत्तहस्ता<citation>मेघ* ६०मैं गौतमी के हाथ द्वारा इसे भेज दूँगा</citation>हस्ते पतिता, शंभु का सहारा लिए हुए</sense></compound>
+<sense no="2">हाथ में पड़ा हुआ या अधिकार में आया हुआगौतमीहस्ते विसर्जयिष्यामि<citation>श* ३</citation>हस्ते सनिहितां कुरु, शंभुना दत्तहस्ता<citation>मेघ* ६०मैं गौतमी के हाथ द्वारा इसे भेज दूँगा</citation>हस्ते पतिता, शंभु का सहारा लिए हुए</sense></compound>
 <compound>
 <dentry>हस्ते कृ</dentry>
 <prAwipaxikam>हस्ते कृ</prAwipaxikam>
 <grammar></grammar>
-<sense no="2">हाथ से पकड़ना, ले लेना, हाथ से ले लेना, हाथ में पकड़ लेना, अधिकार कर लेनाMहस्तकङ्कणं किं दर्पणे प्रेक्ष्यतेहाथ कंगण को आरसी क्या अर्थात हाथ पर रक्खी वस्तु को देखने के लिए शीशे की आवश्यकता नहीं होती, हस्ते कृत्य, हस्ते कृत्वा</sense></compound>
+<sense no="2">हाथ से पकड़ना, ले लेना, हाथ से ले लेना, हाथ में पकड़ लेना, अधिकार कर लेनाहस्तकङ्कणं किं दर्पणे प्रेक्ष्यतेहाथ कंगण को आरसी क्या अर्थात हाथ पर रक्खी वस्तु को देखने के लिए शीशे की आवश्यकता नहीं होती, हस्ते कृत्य, हस्ते कृत्वा</sense></compound>
 <compound>
 <dentry>हस्तः</dentry>
 <prAwipaxikam>हस्तः</prAwipaxikam>
@@ -2786,31 +2786,31 @@
 <prAwipaxikam>हस्तः</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[हस्+तन्, न इट्]</etymology>
-<sense no="2">हाथ भर, एक हस्तपरिमाणM२४ अंगुल या लगभग १८ इंच की लंबाई, जो कोहनी से मध्य अंगुली की नोक तक होती हैं</sense></compound>
+<sense no="2">हाथ भर, एक हस्तपरिमाण२४ अंगुल या लगभग १८ इंच की लंबाई, जो कोहनी से मध्य अंगुली की नोक तक होती हैं</sense></compound>
 <compound>
 <dentry>हस्तः</dentry>
 <prAwipaxikam>हस्तः</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[हस्+तन्, न इट्]</etymology>
-<sense no="2">हाथ की लिखाई, हस्ताक्षर Mधनीवोपगतं दद्यात् स्वहस्तपरिचिह्नतम्<citation>याज्ञ* ३/९३</citation>स्वहस्तकालसंपन्नं शासनम् - १/३२० (तारीख और हस्ताक्षर सहित), धार्यतामयं प्रियायाः स्वहस्तः<citation>विक्रम* २</citation>(मेरी प्रिया का आत्मलेख), २/२०</sense></compound>
+<sense no="2">हाथ की लिखाई, हस्ताक्षर धनीवोपगतं दद्यात् स्वहस्तपरिचिह्नतम्<citation>याज्ञ* ३/९३</citation>स्वहस्तकालसंपन्नं शासनम् - १/३२० (तारीख और हस्ताक्षर सहित), धार्यतामयं प्रियायाः स्वहस्तः<citation>विक्रम* २</citation>(मेरी प्रिया का आत्मलेख), २/२०</sense></compound>
 <compound>
 <dentry>हस्तः</dentry>
 <prAwipaxikam>हस्तः</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[हस्+तन्, न इट्]</etymology>
-<sense no="2">प्रमाण, संकेत Mअतः आलं<citation>मुद्रा* ३</citation></sense></compound>
+<sense no="2">प्रमाण, संकेत अतः आलं<citation>मुद्रा* ३</citation></sense></compound>
 <compound>
 <dentry>हस्तः</dentry>
 <prAwipaxikam>हस्तः</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[हस्+तन्, न इट्]</etymology>
-<sense no="2">सहायता, मदद, सहाराMवात्याखेदं कृशाङ्गयाः सुचिरमवयवैर्दत्तहस्ता करोति<citation>वेणी* २/२१</citation></sense></compound>
+<sense no="2">सहायता, मदद, सहारावात्याखेदं कृशाङ्गयाः सुचिरमवयवैर्दत्तहस्ता करोति<citation>वेणी* २/२१</citation></sense></compound>
 <compound>
 <dentry>हस्तः</dentry>
 <prAwipaxikam>हस्तः</prAwipaxikam>
 <grammar>पुं*</grammar>
 <etymology>[हस्+तन्, न इट्]</etymology>
-<sense no="2">राशि, परिमाण (बालों का) गुच्छा, रचना में ‘केश’ ‘कच’ के साथ Mपाशः पक्षश्च हस्तश्च कलापार्थाः कचात्परे<citation>अमर*</citation>सति बिगलितबन्धे केशहस्ते सुकेश्याः सति कुसुमसनाथे किं करीत्येष बर्ही<citation>विक्रम्* ४/१०</citation></sense></compound>
+<sense no="2">राशि, परिमाण (बालों का) गुच्छा, रचना में ‘केश’ ‘कच’ के साथ पाशः पक्षश्च हस्तश्च कलापार्थाः कचात्परे<citation>अमर*</citation>सति बिगलितबन्धे केशहस्ते सुकेश्याः सति कुसुमसनाथे किं करीत्येष बर्ही<citation>विक्रम्* ४/१०</citation></sense></compound>
 </lexhead>
 
 <lexhead no="116">
@@ -2861,14 +2861,14 @@
 <prAwipaxikam>हस्तावलम्ब</prAwipaxikam>
 <seg>हस्तः-अवलम्बः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">हाथ का सहारा Mदत्तहस्तावलम्बे प्रारम्भे<citation>रत्न* (सहारा दिये जाने पर)</citation></sense>
+<sense no="1">हाथ का सहारा दत्तहस्तावलम्बे प्रारम्भे<citation>रत्न* (सहारा दिये जाने पर)</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>हस्तावलम्बनम्</dentry>
 <prAwipaxikam>हस्तावलम्बन</prAwipaxikam>
 <seg>हस्तः-अवलम्बनम्</seg>
 <grammar>नपुं*</grammar>
-<sense no="1">हाथ का सहारा Mदत्तहस्तावलम्बे प्रारम्भे<citation>रत्न* (सहारा दिये जाने पर)</citation></sense>
+<sense no="1">हाथ का सहारा दत्तहस्तावलम्बे प्रारम्भे<citation>रत्न* (सहारा दिये जाने पर)</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>हस्तामलकम्</dentry>
@@ -2882,7 +2882,7 @@
 <prAwipaxikam>हस्तावाप</prAwipaxikam>
 <seg>हस्तः-आवापः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">दस्ताना, हस्तत्राण (ज्याघातवारण)M<citation>विक्र* ५</citation>श* ६</sense>
+<sense no="1">दस्ताना, हस्तत्राण (ज्याघातवारण)<citation>विक्र* ५</citation>श* ६</sense>
 </segmenthd>
 <segmenthd>
 <dentry>हस्तकमलम्</dentry>
@@ -2978,7 +2978,7 @@
 <prAwipaxikam>हस्तपाद</prAwipaxikam>
 <seg>हस्तः-पादम्</seg>
 <grammar>नपुं*</grammar>
-<sense no="1">हाथ और पैर Mन मे हस्तपादं प्रसरति<citation>श* ४</citation></sense>
+<sense no="1">हाथ और पैर न मे हस्तपादं प्रसरति<citation>श* ४</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>हस्तपुच्छम्</dentry>
@@ -3053,7 +3053,7 @@
 <prAwipaxikam>हस्तसूत्र</prAwipaxikam>
 <seg>हस्तः-सूत्रम्</seg>
 <grammar>नपुं*</grammar>
-<sense no="1">कलाई में धारण किया हुआ मंगलसूत्र या वलय, कड़ाM<citation>कु* ७/२५</citation></sense>
+<sense no="1">कलाई में धारण किया हुआ मंगलसूत्र या वलय, कड़ा<citation>कु* ७/२५</citation></sense>
 </segmenthd>
 </lexhead>
 
@@ -3101,7 +3101,7 @@
 <jAwi>स्तनपायी</jAwi>
 <sense no="1">करयुक्त, स्त्री* - नी</sense>
 <sense n="2">सूँडवाला</sense>
-<sense n="3">हाथीM<citation>मनु ७/९६</citation>१२/४३हाथी चार प्रकार के बताये जाते है - भद्र, मंद्र, मृग और मिश्र</sense>
+<sense n="3">हाथी<citation>मनु ७/९६</citation>१२/४३हाथी चार प्रकार के बताये जाते है - भद्र, मंद्र, मृग और मिश्र</sense>
 <segmenthd>
 <dentry>हस्त्यध्यक्षः</dentry>
 <prAwipaxikam>हस्त्यध्यक्ष</prAwipaxikam>
@@ -3192,7 +3192,7 @@
 <prAwipaxikam>हस्तिप</prAwipaxikam>
 <seg>हस्तिन्-पः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">पीलवान, हाथी की सवारी करने वाला Mइति बोधयतीव डिंडिमः करिणो हस्तिपकाहतः क्वणन्<citation>हि* २/८६</citation></sense>
+<sense no="1">पीलवान, हाथी की सवारी करने वाला इति बोधयतीव डिंडिमः करिणो हस्तिपकाहतः क्वणन्<citation>हि* २/८६</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>हस्तिपकः</dentry>
@@ -3203,7 +3203,7 @@
 <kind_of>मनुष्यः</kind_of>
 <jAwi>मनुष्यः</jAwi>
 <upAXi>वृत्तिः</upAXi>
-<sense no="1">पीलवान, हाथी की सवारी करने वाला Mइति बोधयतीव डिंडिमः करिणो हस्तिपकाहतः क्वणन्<citation>हि* २/८६</citation></sense>
+<sense no="1">पीलवान, हाथी की सवारी करने वाला इति बोधयतीव डिंडिमः करिणो हस्तिपकाहतः क्वणन्<citation>हि* २/८६</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>हस्तिमदः</dentry>
@@ -3265,7 +3265,7 @@
 <prAwipaxikam>हस्तिस्नान</prAwipaxikam>
 <seg>हस्तिन्-स्नानम्</seg>
 <grammar>नपुं*</grammar>
-<sense no="1">गजस्नान, हाथी का स्नान Mअवशेन्द्रियचित्तानां हस्तिस्नानमिव क्रिया<citation>हि* १/१८</citation></sense>
+<sense no="1">गजस्नान, हाथी का स्नान अवशेन्द्रियचित्तानां हस्तिस्नानमिव क्रिया<citation>हि* १/१८</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>हस्तिहस्तः</dentry>
@@ -3299,7 +3299,7 @@
 <etymology>[हस्तिन्+ङीप्]</etymology>
 <sense no="1">हथिनी</sense>
 <sense n="2">एक प्रकार की औषध और गन्धद्रव्य</sense>
-<sense n="3">कामशास्त्र में वर्णित चार प्रकार की स्त्रियों में से एकMइस स्त्री के होठ, अंगुलियाँ और कूल्हे मोटे, तथा स्तन भारी होते हैं, इसका रंग काला और कामलिप्सा अधिक होती हैं, रतिमंजरी में इसका वर्णन इस प्रकार हैं - स्थूलाधरा स्थूलनितम्बबिम्बा स्थूलाङगुलिः स्थूलकुचा सुशीला। कामोत्सुका गाढरतिप्रिया च नितान्तभोक्त्री- नितंबखर्वा- खलु हस्तिनी स्यात् - करिणी मता सा</sense>
+<sense n="3">कामशास्त्र में वर्णित चार प्रकार की स्त्रियों में से एकइस स्त्री के होठ, अंगुलियाँ और कूल्हे मोटे, तथा स्तन भारी होते हैं, इसका रंग काला और कामलिप्सा अधिक होती हैं, रतिमंजरी में इसका वर्णन इस प्रकार हैं - स्थूलाधरा स्थूलनितम्बबिम्बा स्थूलाङगुलिः स्थूलकुचा सुशीला। कामोत्सुका गाढरतिप्रिया च नितान्तभोक्त्री- नितंबखर्वा- खलु हस्तिनी स्यात् - करिणी मता सा</sense>
 </lexhead>
 
 <lexhead no="125">
@@ -3338,7 +3338,7 @@
 <jAwi>शेषः</jAwi>
 <jAwi>क्रिया</jAwi>
 <sense no="1">शोक, उदासी, खिन्नता को प्रकट करने वाला अव्यय, आह, हाय, अरे हा प्रिये जानकि<citation>उत्तर* ३</citation>हा हा देवि स्फुटति हृदयं<citation>उत्तर* ३/३८</citation>हा पितः क्वासि, हे सुभ्रु<citation>भट्टि* ६/११</citation>हा वत्से मालति क्वासि<citation>मा* १० आदि</citation>इस अर्थ में ‘हा’ प्रायः कर्म* के साथ प्रयुक्त होता है - हा कृष्णाभक्तम् - सिद्धा*</sense>
-<sense n="2">आश्चर्य Mहा कथं महाराजदशरथस्य धर्मदाराः प्रियसखी मे कौसल्या<citation>उत्तर* ४</citation></sense>
+<sense n="2">आश्चर्य हा कथं महाराजदशरथस्य धर्मदाराः प्रियसखी मे कौसल्या<citation>उत्तर* ४</citation></sense>
 <sense n="3">क्रोध या झिड़की</sense>
 <sense n="4">जाना, हिलना-जुलनाजिहीथा विख्यातां स्फुटमिह भवद्बान्धवरथम्<citation>हंस* २८</citation>कि* १३/२३, नलो* १/३८</sense>
 <sense n="5">प्राप्त करना, हासिल करना</sense>
@@ -3559,7 +3559,7 @@
 <sense n="2">पहुँचाना</sense>
 <sense n="3">अपकर्षण, अलगाव</sense>
 <sense n="4">वाहक, हरकारा</sense>
-<sense n="5">मोतियों की माला, हारMहारोऽयं हरिणाक्षीणां लुठति स्तनमण्डले<citation>अमरु* १००</citation>पाण्डयोऽयमंसार्पितलम्बहारः<citation>रघु* ६/६०</citation>५/५२, ६/१६, मेघ*<citation>६७</citation>ऋतु* १/४, २/१८</sense>
+<sense n="5">मोतियों की माला, हारहारोऽयं हरिणाक्षीणां लुठति स्तनमण्डले<citation>अमरु* १००</citation>पाण्डयोऽयमंसार्पितलम्बहारः<citation>रघु* ६/६०</citation>५/५२, ६/१६, मेघ*<citation>६७</citation>ऋतु* १/४, २/१८</sense>
 <sense n="6">संग्राम, युद्ध</sense>
 <sense n="7">(गणि* में) किसी भिन्न का नीचे का अंश</sense>
 <sense n="8">भाजक</sense>
@@ -3582,14 +3582,14 @@
 <prAwipaxikam>हारगुटिका</prAwipaxikam>
 <seg>हारः-गुटिका</seg>
 <grammar>स्त्री*</grammar>
-<sense no="1">माला का दाना या हार का मोती M<citation>रघु* ५/७०</citation></sense>
+<sense no="1">माला का दाना या हार का मोती <citation>रघु* ५/७०</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>हारगुटिलि</dentry>
 <prAwipaxikam>हारगुटिलि</prAwipaxikam>
 <seg>हारः-गुटिलि</seg>
 <grammar>स्त्री*</grammar>
-<sense no="1">माला का दाना या हार का मोती M<citation>रघु* ५/७०</citation></sense>
+<sense no="1">माला का दाना या हार का मोती <citation>रघु* ५/७०</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>हारयष्टिः</dentry>
@@ -3705,7 +3705,7 @@
 <jAwi>पक्षी</jAwi>
 <sense no="1">एक प्रकार का कबुतर</sense>
 <sense n="2">धूर्त, ठग</sense>
-<sense n="3">एक स्मृतिकार का नामM<citation>याज्ञ* १/४</citation></sense>
+<sense n="3">एक स्मृतिकार का नाम<citation>याज्ञ* १/४</citation></sense>
 </lexhead>
 
 <lexhead no="152">
@@ -3782,7 +3782,7 @@
 <grammar>नपुं*</grammar>
 <etymology>[हलाहल, पृषो*]</etymology>
 <sense no="1">एक प्रकार का घातक विष जो समुद्रमंथन के परिणाम स्वरूप मिला था, अहमेव गुरुः सुदारुणानामिति हालाहलमास्म तात दृप्यः। ननु सन्ति भवादृशानि भूयो भुवनेऽस्मिन् वचनानि दुर्जनानाम्<citation>सु्भा* अत्यन्त विषाक्त होने के कारण यह प्रत्येक वस्तु को भस्म करने लगा</citation>इसलिए इसे शिव जी ने पी लिया</sense>
-<sense n="2">घातक विष, या जहर Mदे*<citation>भामि* १/९५</citation>२/७३, पंच* १/१८३, (हलाहल और ‘हालहाल’ भी लिखा जाता है)</sense>
+<sense n="2">घातक विष, या जहर दे*<citation>भामि* १/९५</citation>२/७३, पंच* १/१८३, (हलाहल और ‘हालहाल’ भी लिखा जाता है)</sense>
 </lexhead>
 
 <lexhead no="158">
@@ -3791,7 +3791,7 @@
 <grammar>नपुं*</grammar>
 <etymology>[हलाहल, पृषो*]</etymology>
 <sense no="1">एक प्रकार का घातक विष जो समुद्रमंथन के परिणाम स्वरूप मिला था, अहमेव गुरुः सुदारुणानामिति हालाहलमास्म तात दृप्यः। ननु सन्ति भवादृशानि भूयो भुवनेऽस्मिन् वचनानि दुर्जनानाम्<citation>सु्भा* अत्यन्त विषाक्त होने के कारण यह प्रत्येक वस्तु को भस्म करने लगा</citation>इसलिए इसे शिव जी ने पी लिया</sense>
-<sense n="2">घातक विष, या जहर Mदे*<citation>भामि* १/९५</citation>२/७३, पंच* १/१८३, (हलाहल और ‘हालहाल’ भी लिखा जाता है)</sense>
+<sense n="2">घातक विष, या जहर दे*<citation>भामि* १/९५</citation>२/७३, पंच* १/१८३, (हलाहल और ‘हालहाल’ भी लिखा जाता है)</sense>
 </lexhead>
 
 <lexhead no="159">
@@ -3867,7 +3867,7 @@
 <jAwi>मानसिकभावः</jAwi>
 <sense no="1">ठहाका, हंसी, मुस्कराहट, भासो हासः<citation>प्रसन्न* १/२२</citation></sense>
 <sense n="2">हर्ष, खुशी, आमोद</sense>
-<sense n="3">हास्यध्वनि, हास्यरस Mदे* सा* द* २०७</sense>
+<sense n="3">हास्यध्वनि, हास्यरस दे* सा* द* २०७</sense>
 <sense n="4">व्यंग्यपूर्ण हंसी F<citation>रघु* १२/३६</citation></sense>
 <sense n="5">खुलना, विकसित होना, फूलना (कमल आदि का) कूलानि सामर्षतयेव तेनुः सरोजलक्ष्मीं स्थलपद्महासैः<citation>भट्टि* २/३</citation></sense>
 </lexhead>
@@ -4659,7 +4659,7 @@
 <kind_of>शीतलद्रव्यम्</kind_of>
 <jAwi>जलम्</jAwi>
 <sense no="1">कुहरा, पाला<citation>रघु* १/४६</citation>९/२५, कु* २/१९</sense>
-<sense n="2">बर्फ़, पालाM<citation>कु* १/३</citation>११, रघु* ९/२८, १५/६६, १६/४४, कि* ५/१२</sense>
+<sense n="2">बर्फ़, पाला<citation>कु* १/३</citation>११, रघु* ९/२८, १५/६६, १६/४४, कि* ५/१२</sense>
 <sense n="3">सर्दी, ठंडक</sense>
 <sense n="4">कमल</sense>
 <sense n="5">ताजा मक्खन</sense>
@@ -4673,7 +4673,7 @@
 <grammar>पुं*</grammar>
 <kind_of>अर्कादयः</kind_of>
 <jAwi>ग्रहः</jAwi>
-<sense no="1">चन्द्रमाM<citation>मेघ* ८९</citation>रघु* ५/१६, ६/४७, १४/८०, शि* २/४९</sense>
+<sense no="1">चन्द्रमा<citation>मेघ* ८९</citation>रघु* ५/१६, ६/४७, १४/८०, शि* २/४९</sense>
 <sense no="2">कपूर</sense>
 </segmenthd>
 <segmenthd>
@@ -4688,7 +4688,7 @@
 <prAwipaxikam>हिमाचल</prAwipaxikam>
 <seg>हिम-अचलः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">हिमालय पहाड़M<citation>कु* १/३</citation>रघु* ४/७९, १४/१३</sense>
+<sense no="1">हिमालय पहाड़<citation>कु* १/३</citation>रघु* ४/७९, १४/१३</sense>
 </segmenthd>
 <segmenthd>
 <dentry>हिमाद्रिः</dentry>
@@ -4771,7 +4771,7 @@
 <prAwipaxikam>हिमालय</prAwipaxikam>
 <seg>हिम-आलयः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">हिमालय पहाड़M<citation>कु* १/१</citation></sense>
+<sense no="1">हिमालय पहाड़<citation>कु* १/१</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>हिमसुता</dentry>
@@ -4806,7 +4806,7 @@
 <prAwipaxikam>हिमकर</prAwipaxikam>
 <seg>हिम-करः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">चाँदMलुठति न सा हिमकरकिरणेन<citation>गीत* ७</citation></sense>
+<sense no="1">चाँदलुठति न सा हिमकरकिरणेन<citation>गीत* ७</citation></sense>
 <sense no="2">कर्पूर</sense>
 </segmenthd>
 <segmenthd>
@@ -4858,7 +4858,7 @@
 <prAwipaxikam>हिमदीधिति</prAwipaxikam>
 <seg>हिम-दीधितिः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">चन्द्रमाM<citation>शि* ९/२९</citation></sense>
+<sense no="1">चन्द्रमा<citation>शि* ९/२९</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>हिमदुर्दिनम्</dentry>
@@ -4941,7 +4941,7 @@
 <seg>हिम-सरस्</seg>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">हिमसरस्</prAwipaxikam>
-<sense no="1">बर्फ़ की झील, ठंडा पानी M<citation>मा* १/३१</citation></sense>
+<sense no="1">बर्फ़ की झील, ठंडा पानी <citation>मा* १/३१</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>हिमहासकः</dentry>
@@ -4961,7 +4961,7 @@
 <kind_of>पर्वतः</kind_of>
 <jAwi>पृथ्वी</jAwi>
 <sense no="1">हिममय, वर्फीला, कुहरा से युक्त</sense>
-<sense n="2">हिमालय पहाड़M<citation>रघु* ४/७९</citation>विक्रम* ५/२२</sense>
+<sense n="2">हिमालय पहाड़<citation>रघु* ४/७९</citation>विक्रम* ५/२२</sense>
 <segmenthd>
 <dentry>हिमवत्कुक्षीः</dentry>
 <prAwipaxikam>हिमवत्कुक्षी</prAwipaxikam>
@@ -5042,7 +5042,7 @@
 <upAXi>धनम्</upAXi>
 <upAXi>धनम्</upAXi>
 <sense no="1">सोना<citation>मनु* २/२४६</citation>८/१८२</sense>
-<sense n="2">सोने का पात्रM<citation>मनु* २/२९</citation></sense>
+<sense n="2">सोने का पात्र<citation>मनु* २/२९</citation></sense>
 <sense n="3">चाँदी</sense>
 <sense n="4">कोई भी मूल्यवान् धातु</sense>
 <sense n="5">दौलत, संपत्ति</sense>
@@ -5064,7 +5064,7 @@
 <prAwipaxikam>हिरण्यकशिपु</prAwipaxikam>
 <seg>हिरण्यम्-कशिपुः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">राक्षसों के एक प्रसिद्ध राजा का नामMयह कश्यप और दिति का पुत्र था। यह इतना शक्ति शाली हो गया था कि इसने इन्द्र का राज्य छीन लिया और तीनों लोकों को पीडित करने लगा। इसने बड़े-बड़े देवताओं की निन्दा की, और अपने पुत्र प्रह्लाद को, विष्णु को ही परमात्मा मानने के कारण नाना प्रकार के कष्ट दिये, परन्तु बाद में उसे विष्णु ने नरसिंह का अवतार धारण कर यमपुर भेज दिया - दे* प्रह्लाद</sense>
+<sense no="1">राक्षसों के एक प्रसिद्ध राजा का नामयह कश्यप और दिति का पुत्र था। यह इतना शक्ति शाली हो गया था कि इसने इन्द्र का राज्य छीन लिया और तीनों लोकों को पीडित करने लगा। इसने बड़े-बड़े देवताओं की निन्दा की, और अपने पुत्र प्रह्लाद को, विष्णु को ही परमात्मा मानने के कारण नाना प्रकार के कष्ट दिये, परन्तु बाद में उसे विष्णु ने नरसिंह का अवतार धारण कर यमपुर भेज दिया - दे* प्रह्लाद</sense>
 </segmenthd>
 <segmenthd>
 <dentry>हिरण्यकोशः</dentry>
@@ -5509,7 +5509,7 @@
 <prAwipaxikam>हुताशन</prAwipaxikam>
 <seg>हुत-अशनः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">अग्निMसमीरणो नोदयिता भवेति व्यादिश्यते केन हुता शनस्य<citation>कु* ३/२१</citation>रघु* ४/१</sense>
+<sense no="1">अग्निसमीरणो नोदयिता भवेति व्यादिश्यते केन हुता शनस्य<citation>कु* ३/२१</citation>रघु* ४/१</sense>
 <sense no="2">शिव का नाम</sense>
 </segmenthd>
 <segmenthd>
@@ -5531,7 +5531,7 @@
 <prAwipaxikam>हुताश</prAwipaxikam>
 <seg>हुत-आशः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">आगMप्रदक्षिणीकृत्य हुतं हुताशम्<citation>रघु* २/७१</citation></sense>
+<sense no="1">आगप्रदक्षिणीकृत्य हुतं हुताशम्<citation>रघु* २/७१</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>हुतजातवेदस्</dentry>
@@ -5548,7 +5548,7 @@
 <grammar>पुं*</grammar>
 <kind_of>देवः</kind_of>
 <jAwi>देवता</jAwi>
-<sense no="1">आगMनैशस्यार्चिर्हुतभुज इव च्छिन्नभूयिष्ठधूमा<citation>विक्रम* १/९</citation>उत्तर* ५/९</sense>
+<sense no="1">आगनैशस्यार्चिर्हुतभुज इव च्छिन्नभूयिष्ठधूमा<citation>विक्रम* १/९</citation>उत्तर* ५/९</sense>
 </segmenthd>
 <segmenthd>
 <dentry>हुतप्रिया</dentry>
@@ -5562,7 +5562,7 @@
 <prAwipaxikam>हुतवह</prAwipaxikam>
 <seg>हुत-वहः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">आगMजनाकीर्णंमन्ये हुतवहपरीतं गृहमिव<citation>श* ५/१०</citation>शीतंशुस्तपनो हिमं हुतवहः<citation>गीत* ९</citation>मेघ* ४३, ऋतु* १/२७</sense>
+<sense no="1">आगजनाकीर्णंमन्ये हुतवहपरीतं गृहमिव<citation>श* ५/१०</citation>शीतंशुस्तपनो हिमं हुतवहः<citation>गीत* ९</citation>मेघ* ४३, ऋतु* १/२७</sense>
 </segmenthd>
 <segmenthd>
 <dentry>हुतहोमः</dentry>
@@ -5618,7 +5618,7 @@
 <seg>हुम्-कारः</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">‘हुम्’ की ध्वनि करनापृष्टा पुनः पुनः कान्ता हुंकारैरेव भाषते</sense>
-<sense no="2">गर्जना, ललकारMक्षतहुंकारशंसिनः<citation>कु* २/२६</citation>हुंकारेणेव धनुषः स हि विध्नानपोहति<citation>श* ३/१</citation>रघु* ७/५८, कु* ५/५४</sense>
+<sense no="2">गर्जना, ललकारक्षतहुंकारशंसिनः<citation>कु* २/२६</citation>हुंकारेणेव धनुषः स हि विध्नानपोहति<citation>श* ३/१</citation>रघु* ७/५८, कु* ५/५४</sense>
 <sense no="3">दहाड़ना, रांभना</sense>
 <sense no="4">सूअर का घुर्घुराना</sense>
 <sense no="5">धनुष की टंकार</sense>
@@ -5629,7 +5629,7 @@
 <seg>हुम्-कृतिः</seg>
 <grammar>स्त्री*</grammar>
 <sense no="1">‘हुम्’ की ध्वनि करनापृष्टा पुनः पुनः कान्ता हुंकारैरेव भाषते</sense>
-<sense no="2">गर्जना, ललकारMक्षतहुंकारशंसिनः<citation>कु* २/२६</citation>हुंकारेणेव धनुषः स हि विध्नानपोहति<citation>श* ३/१</citation>रघु* ७/५८, कु* ५/५४</sense>
+<sense no="2">गर्जना, ललकारक्षतहुंकारशंसिनः<citation>कु* २/२६</citation>हुंकारेणेव धनुषः स हि विध्नानपोहति<citation>श* ३/१</citation>रघु* ७/५८, कु* ५/५४</sense>
 <sense no="3">दहाड़ना, रांभना</sense>
 <sense no="4">सूअर का घुर्घुराना</sense>
 <sense no="5">धनुष की टंकार</sense>
@@ -5688,7 +5688,7 @@
 <grammar>पुं*</grammar>
 <etymology>[ह्वे+नक्, सम्प्र*, पृषो* णत्वम्]</etymology>
 <sense no="1">असभ्य, जंगली, विदेशी, सद्योमुण्डितमत्तहूणचिबुकप्रस्पर्धि नारंगकम्</sense>
-<sense n="2">एक सोने का सिक्काMसंभवतः यह हूणों के देश में प्रचलित था</sense>
+<sense n="2">एक सोने का सिक्कासंभवतः यह हूणों के देश में प्रचलित था</sense>
 </lexhead>
 
 <lexhead no="261">
@@ -5697,7 +5697,7 @@
 <grammar>पुं*</grammar>
 <etymology>[ह्वे+नक्, सम्प्र*]</etymology>
 <sense no="1">असभ्य, जंगली, विदेशी, सद्योमुण्डितमत्तहूणचिबुकप्रस्पर्धि नारंगकम्</sense>
-<sense n="2">एक सोने का सिक्काMसंभवतः यह हूणों के देश में प्रचलित था</sense>
+<sense n="2">एक सोने का सिक्कासंभवतः यह हूणों के देश में प्रचलित था</sense>
 </lexhead>
 
 <lexhead no="262">
@@ -6075,7 +6075,7 @@
 <upAXi>अवयवः</upAXi>
 <jAwi>मनस्</jAwi>
 <sense no="1">मन, दिल इस शब्द के सर्वनामस्थान के कोई रूप नहीं होते  कर्म* द्वि* व* के पश्चात् ‘हृदय के स्थान में यह रूप आदेश हो जाता है</sense>
-<sense n="2">छाती दिल, सीनाMइमां हृदि व्यायतपातमक्षिणोत्<citation>कु* ५/५४</citation></sense>
+<sense n="2">छाती दिल, सीनाइमां हृदि व्यायतपातमक्षिणोत्<citation>कु* ५/५४</citation></sense>
 <segmenthd>
 <dentry>हृदावर्तः</dentry>
 <prAwipaxikam>हृदावर्त</prAwipaxikam>
@@ -6627,7 +6627,7 @@
 <is_a_part>मुख्यकारणम्</is_a_part>
 <upAXi>कारणम्</upAXi>
 <sense no="1">निमित्त, कारण, उद्देश्य, प्रयोजन, इति हेतुस्तदुद्भवे<citation>काव्य* १</citation>मा* १/२३, रघु* १/१०, मेघ* २५, श* ३/११</sense>
-<sense n="2">स्रोत, मूल Mस पिता पितरस्तासां केवलं जन्महेतवः<citation>रघु* १/१४</citation>अपने प्राणियों को पैदा करने वाले</sense>
+<sense n="2">स्रोत, मूल स पिता पितरस्तासां केवलं जन्महेतवः<citation>रघु* १/१४</citation>अपने प्राणियों को पैदा करने वाले</sense>
 <sense n="3">साधन, उपकरण</sense>
 <sense n="4">तर्कयुक्त कारण, अनुमान का कारण, तर्क (पांच अंगों से युक्त अनुमानप्रक्रिया में द्वितीय अंग)</sense>
 <sense n="5">तर्क, तर्कशास्त्र</sense>
@@ -6809,14 +6809,14 @@
 <prAwipaxikam>हेमाम्भोज</prAwipaxikam>
 <seg>हेमन्-अम्भोजम्</seg>
 <grammar>नपुं*</grammar>
-<sense no="1">सुनहरी कमलMहेमाम्भोजप्रसवि सलिलं मानसस्याददानः<citation>मेघ* ६२</citation></sense>
+<sense no="1">सुनहरी कमलहेमाम्भोजप्रसवि सलिलं मानसस्याददानः<citation>मेघ* ६२</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>हेमाम्भोरुहम्</dentry>
 <prAwipaxikam>हेमाम्भोरुह</prAwipaxikam>
 <seg>हेमन्-अम्भोरुहम्</seg>
 <grammar>नपुं*</grammar>
-<sense no="1">सुनहरी कमलM<citation>कु* २/४४</citation></sense>
+<sense no="1">सुनहरी कमल<citation>कु* २/४४</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>हेमाह्वः</dentry>
@@ -6838,28 +6838,28 @@
 <prAwipaxikam>हेमकर</prAwipaxikam>
 <seg>हेमन्-करः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">सुनारM<citation>मनु* १२/६१</citation>याज्ञ* ३/१४७</sense>
+<sense no="1">सुनार<citation>मनु* १२/६१</citation>याज्ञ* ३/१४७</sense>
 </segmenthd>
 <segmenthd>
 <dentry>हेमकर्तृ</dentry>
 <prAwipaxikam>हेमकर्तृ</prAwipaxikam>
 <seg>हेमन्-कर्तृ</seg>
 <grammar>पुं*</grammar>
-<sense no="1">सुनारM<citation>मनु* १२/६१</citation>याज्ञ* ३/१४७</sense>
+<sense no="1">सुनार<citation>मनु* १२/६१</citation>याज्ञ* ३/१४७</sense>
 </segmenthd>
 <segmenthd>
 <dentry>हेमकारः</dentry>
 <prAwipaxikam>हेमकार</prAwipaxikam>
 <seg>हेमन्-कारः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">सुनारM<citation>मनु* १२/६१</citation>याज्ञ* ३/१४७</sense>
+<sense no="1">सुनार<citation>मनु* १२/६१</citation>याज्ञ* ३/१४७</sense>
 </segmenthd>
 <segmenthd>
 <dentry>हेमकारकः</dentry>
 <prAwipaxikam>हेमकारक</prAwipaxikam>
 <seg>हेमन्-कारकः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">सुनारM<citation>मनु* १२/६१</citation>याज्ञ* ३/१४७</sense>
+<sense no="1">सुनार<citation>मनु* १२/६१</citation>याज्ञ* ३/१४७</sense>
 </segmenthd>
 <segmenthd>
 <dentry>हेमकिञ्जल्कम्</dentry>
@@ -6882,7 +6882,7 @@
 <grammar>पुं*</grammar>
 <kind_of>पर्वतः</kind_of>
 <jAwi>पृथ्वी</jAwi>
-<sense no="1">एक पहाड़ का नाम M<citation>श* ७</citation></sense>
+<sense no="1">एक पहाड़ का नाम <citation>श* ७</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>हेमकेतकी</dentry>
@@ -7474,7 +7474,7 @@
 <upAXi>वृत्तिः</upAXi>
 <sense no="1">यजमान, हवन करने वाला, वहति विधिहुतं या हविर्या च होत्री<citation>श* १/१</citation>स्त्री* त्री</sense>
 <sense n="2">ऋत्विज्, विशेषकर वह जो यज्ञ में ऋग्वेद के मन्त्रों का पाठ करता हैं</sense>
-<sense n="3">यज्ञकर्ताM<citation>रघु* १/६२</citation>८२, मनु* ११/३६</sense>
+<sense n="3">यज्ञकर्ता<citation>रघु* १/६२</citation>८२, मनु* ११/३६</sense>
 </lexhead>
 
 <lexhead no="354">
@@ -7540,7 +7540,7 @@
 <prAwipaxikam>होमतुरङ्ग</prAwipaxikam>
 <seg>होमः-तुरङ्गः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">यज्ञ का घोड़ा M<citation>रघु* ३/३८</citation></sense>
+<sense no="1">यज्ञ का घोड़ा <citation>रघु* ३/३८</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>होमधान्यम्</dentry>
@@ -7592,7 +7592,7 @@
 <prAwipaxikam>होमक</prAwipaxikam>
 <grammar>पुं*</grammar>
 <sense no="1">ऋत्विज्, विशेषकर वह जो यज्ञ में ऋग्वेद के मन्त्रों का पाठ करता हैं</sense>
-<sense n="2">यज्ञकर्ताM<citation>रघु* १/६२</citation>८२, मनु* ११/३६</sense>
+<sense n="2">यज्ञकर्ता<citation>रघु* १/६२</citation>८२, मनु* ११/३६</sense>
 </lexhead>
 
 <lexhead no="361">
@@ -7783,7 +7783,7 @@
 <kind_of>तटाकादयः</kind_of>
 <jAwi>प्राकृतिकस्थानम्</jAwi>
 <sense no="1">गहरासरोवर, जल का विस्तृत और गहरा तालाब<citation>नै* ३/५३</citation></sense>
-<sense n="2">गहरा छिद्र या विवरM<citation>शि* ५/२९</citation></sense>
+<sense n="2">गहरा छिद्र या विवर<citation>शि* ५/२९</citation></sense>
 <sense n="3">प्रकाश की किरण</sense>
 <segmenthd>
 <dentry>ह्रदग्रहः</dentry>
@@ -7940,7 +7940,7 @@
 <grammar>पुं*</grammar>
 <etymology>[ह्रस्+घञ्]</etymology>
 <sense no="1">शब्द, कोलाहल</sense>
-<sense n="2">घटी, कमी, क्षय, अवनति, पतन M<citation>मनु* १/८५</citation>याज्ञ* २/२४९</sense>
+<sense n="2">घटी, कमी, क्षय, अवनति, पतन <citation>मनु* १/८५</citation>याज्ञ* २/२४९</sense>
 <sense n="3">छोटी संख्या</sense>
 </lexhead>
 
@@ -7993,7 +7993,7 @@
 <prAwipaxikam>ह्रीयन्त्रणा</prAwipaxikam>
 <seg>ह्री-यन्त्रणा</seg>
 <grammar>स्त्री*</grammar>
-<sense no="1">लज्जा का बंधनM<citation>रघु* ७/६३</citation></sense>
+<sense no="1">लज्जा का बंधन<citation>रघु* ७/६३</citation></sense>
 </segmenthd>
 </lexhead>
 

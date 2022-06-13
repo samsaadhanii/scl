@@ -13,6 +13,54 @@ module Gram = Camlp4.PreCast.MakeGram Bank_lexer
 open Bank_lexer.Token;
 
 open Constraint;
+open Relations;
+open Aaxikarma_dhaatu;
+open Afgavikaara;
+open Akarmaka_dhaatu;
+open Amarakosha_jaati;
+open Animate;
+open ApAxAna_dhaatu;
+open Avy_viSeRaNam;
+open BuxXyarWa_dhaatu;
+open BuxXivAci;
+open Bhaava_kqw; 
+open GawyarWa_dhaatu;
+open GuNavacana;
+open GuNa_not_guNavacana;
+open Intensifiers;
+open KAlAXikaraNa;
+open KAlAXva;
+open KaraNa_dhaatu;
+open KarmasamAnAXikaraNa_dhaatu;
+open KarwqsamAnAXikaraNa_dhaatu;
+open KriyAviSeRaNa;
+open Kqxanwa;
+open ManuRyaparyAya;
+open ManuRyasaFjFAvAcI;
+open Named_entity;
+open NirXAraNa;
+open Non_RaRTI;
+open ParAjAwi;
+open PUraNa;
+open PrawyavasAnArWa_dhaatu;
+open Sakarmaka_dhaatu;
+open Sambandhavaaci;
+open SamboXana_sUcaka;
+open SaMKyeya;
+open SampraxAna_dhaatu;
+open Sabxakarma_dhaatu; 
+open Shakaadi; 
+open SabxavAci; 
+open Shlish_aadi; 
+open UpAXi;
+open Upapada6;
+open VAkyakarma_dhaatu;
+open ViRayAXikaraNa;
+open ViRayi;
+open WaxXiwAnwa;
+open XeSAXikaraNa;
+open Xvikarmaka1_dhaatu;
+open Xvikarmaka2_dhaatu;
 
 value morphs = Gram.Entry.mk "morphs"
 ;
@@ -215,10 +263,6 @@ let chin = open_in file in
  read_file chin [] fmt
 ;
 
-value relations_encodings = 
-        read_list (datapath ^"AkAfkRA/relations.txt") "%s %d"
-;
-
 value encode rel = try List.assoc rel relations_encodings
            with [ Not_found -> 0 ]
 ;
@@ -228,25 +272,6 @@ value get_assoc key assoc_array =
 	List.assoc key assoc_array
      with [ Not_found -> ""]
 ;
-     
-value afgavikaara_list = 
-        read_list (datapath ^"AkAfkRA/afgavikAra.txt") "%s %s"
-;
-
-value parAjAwi_list = 
-        read_list (datapath ^"yogyawA/parAjAwi.txt") "%s %s"
-;
-
-value nirXAraNa_list = 
-        read_list (datapath ^"AkAfkRA/nirXAraNa.txt") "%s %s"
-;
-
-value amarakosha_jAwi = 
-        read_list (datapath ^"AkAfkRA/amarakosha_jAwi.txt") "%s %s"
-;
-
-(* value wAxarWya_list = [ ("yUpa","xAru"); ]
-; *)
 
 value analyse strm = let morphs = 
   try Gram.parse morphs Loc.ghost strm with
@@ -432,7 +457,7 @@ value niyawalifgam kqw = kqw="lyut" || kqw="GaF"
 ;
 
 (* TODO: Modify the Grammar for ignoring comments in the files *)
-value populate_from file trie =
+(* value populate_from file trie =
   let ic = open_in file in
   try while True do 
             { let word = Transduction.code_raw_WX (input_line ic) 
@@ -449,6 +474,25 @@ value build_trie file =
      ; (trie.val)
      }
 ;
+*)
+
+value rec populate_from trie = fun
+   [ [] -> trie.val
+   | [w::rest] ->  do { let word = Transduction.code_raw_WX w
+		        in try trie.val := Trie.enter trie.val word
+                           with [ Trie.Redundancy -> output_string stderr ("Fatal error: duplicated entry:" ^ w ^"\n") ]
+		       ; populate_from trie rest 
+                     }
+  ]
+;
+
+value build_trie list = 
+  let trie = ref Trie.empty in
+      (*do { populate_from trie list
+     ; (trie.val) *)
+      populate_from trie list
+     (*}*)
+;
 
 value member_of word trie =
        Trie.mem (Transduction.code_raw_WX word) trie
@@ -459,157 +503,146 @@ value members_of rt upasarga trie =
        then member_of rt trie
        else member_of (upasarga^"_"^rt) trie
 ;
-    
-value kriyAviSeRaNas = build_trie (datapath ^ "yogyawA/kriyAviSeRaNa_list")
+
+value amarakosha_jAwi = build_trie amarakosha_jaati_list
 ;
 
-value karaNa_verbs = build_trie (datapath ^ "AkAfkRA/karaNa_XAwu_list")
+value kAlAXikaraNas = build_trie kAlAXikaraNa_list
 ;
 
-value sampraxAna_verbs = build_trie (datapath ^ "AkAfkRA/sampraxAna_XAwu_list")
+value kriyAviSeRaNas = build_trie kriyAviSeRaNa_list
 ;
 
-value animate_nouns = build_trie (datapath ^ "yogyawA/animate_list")
+value karaNa_verbs = build_trie karaNa_XAwu_list
 ;
 
-value apAxAna_verbs = build_trie (datapath ^ "AkAfkRA/apAxAna_XAwu_list")
+value sampraxAna_verbs = build_trie sampraxAna_XAwu_list
 ;
 
-value kAlAXikaraNas = build_trie (datapath ^ "yogyawA/kAlAXikaraNa_list")
+value animate_nouns = build_trie animate_list
 ;
 
-value xeSAXikaraNas = build_trie (datapath ^ "yogyawA/xeSAXikaraNa_list")
+value apAxAna_verbs = build_trie apAxAna_XAwu_list
 ;
 
-value kAlAXvas = build_trie (datapath ^ "yogyawA/kAlAXva_list")
+value kAlAXikaraNas = build_trie kAlAXikaraNa_list
 ;
 
-(* value shashthii_kqw_verbs = build_trie (datapath ^ "RaRTI_kqw_list")
-;
-*)
-value sakarmaka_verbs =  build_trie (datapath ^ "AkAfkRA/sakarmaka_XAwu_list")
+value xeSAXikaraNas = build_trie xeSAXikaraNa_list
 ;
 
-value xvikarmaka1 = build_trie (datapath ^ "AkAfkRA/xvikarmaka_XAwu_list1")
+value kAlAXvas = build_trie kAlAXva_list
 ;
 
-value xvikarmaka2 = build_trie (datapath ^ "AkAfkRA/xvikarmaka_XAwu_list2")
+value sakarmaka_verbs =  build_trie sakarmaka_XAwu_list
 ;
 
-value aaxikarma_verbs =  build_trie (datapath ^ "AkAfkRA/Axikarma_XAwu_list")
+value xvikarmaka1 = build_trie xvikarmaka_XAwu_list1
+;
+
+value xvikarmaka2 = build_trie xvikarmaka_XAwu_list2
+;
+
+value aaxikarma_verbs =  build_trie aaxikarma_XAwu_list
 ;
 
  (* In gawyarWaka, buxXi, prawyavasAnArWa and shabxakarma, only sakarmaka dhaatus are considered: see extract.sh programme for details *)
-value gawyarWa_verbs = build_trie (datapath ^ "AkAfkRA/gawyarWa_XAwu_list")
+value gawyarWa_verbs = build_trie gawyarWa_XAwu_list
 ;
 
-value buxXyarWa_verbs = build_trie (datapath ^ "AkAfkRA/buxXyarWa_XAwu_list")
+value buxXyarWa_verbs = build_trie buxXyarWa_XAwu_list
 ;
 
-value shabxakarma_verbs = build_trie (datapath ^ "AkAfkRA/Sabxakarma_XAwu_list")
+value shabxakarma_verbs = build_trie shabdakarma_dhaatu_list
 ;
 
-value prawyavasAnArWa_verbs = build_trie (datapath ^ "AkAfkRA/prawyavasAnArWa_XAwu_list")
+value prawyavasAnArWa_verbs = build_trie prawyavasAnArWa_XAwu_list
 ;
 
-value shliR_Axi_verbs = build_trie (datapath ^ "AkAfkRA/SliR_Axi_list")
+value shliR_Axi_verbs = build_trie shlish_aadi_list
 ;
 
-value akarmaka_verbs = build_trie (datapath ^ "AkAfkRA/akarmaka_XAwu_list")
+value akarmaka_verbs = build_trie akarmaka_XAwu_list
 ;
 
-value vAkyakarma_verbs = build_trie (datapath ^ "AkAfkRA/vAkyakarma_XAwu_list")
+value vAkyakarma_verbs = build_trie vAkyakarma_XAwu_list
 ;
 
-value shakAxi = build_trie (datapath ^ "AkAfkRA/SakAxi_list")
+value shakAxi = build_trie shakaadi_list
 
 (* Ocaml does not allow variables starting with Caps. Hence SakAxi -> shakAxi *)
 ;
 
-value karwqsamAnAXikaraNa_verbs = build_trie (datapath ^ "AkAfkRA/karwqsamAnAXikaraNa_XAwu_list")
+value karwqsamAnAXikaraNa_verbs = build_trie karwqsamAnAXikaraNa_XAwu_list
 ;
 
-value karmasamAnAXikaraNa_verbs = build_trie (datapath ^ "AkAfkRA/karmasamAnAXikaraNa_XAwu_list")
+value karmasamAnAXikaraNa_verbs = build_trie karmasamAnAXikaraNa_XAwu_list
 ;
 
-value buxXivAci_nouns = build_trie (datapath ^ "yogyawA/buxXivAci_list")
+value buxXivAci_nouns = build_trie buxXivAci_list
 ;
 
-value shabxavAci_nouns = build_trie (datapath ^ "yogyawA/SabxavAci_list")
+value shabxavAci_nouns = build_trie shabdavaaci_list
 ;
 
-(* value karmakqw_verbs = build_trie (datapath ^ "karma_kqw_list")
-;
-*)
-value bhaavavaaci_kqw = build_trie (datapath ^ "AkAfkRA/BAva_kqw_list")
+value bhaavavaaci_kqw = build_trie bhaava_kqw_list
 ;
 
-(* value avy_verb_list = build_trie (datapath ^ "avy_verb_list")
-;
-*)
-value samboXana_sUcaka = build_trie (datapath ^ "AkAfkRA/samboXana_sUcaka_list")
+value samboXana_sUcaka = build_trie samboXana_sUcaka_list
 ;
 
-value avy_viSeRaNam_list = build_trie (datapath ^ "yogyawA/avy_viSeRaNam_list")
+value avy_viSeRaNam_list = build_trie avy_viSeRaNam_list
 ;
 
-value intensifiers_list = build_trie (datapath ^ "yogyawA/intensifiers_list")
+value intensifiers_list = build_trie intensifiers_list
 ;
 
-value viRayAXikaraNa_nouns = build_trie (datapath ^ "AkAfkRA/viRayAXikaraNa_list")
+value viRayAXikaraNa_nouns = build_trie viRayAXikaraNa_list
 ;
 
-value saMKyeya = build_trie (datapath ^ "yogyawA/saMKyeya_list")
+value saMKyeya = build_trie saMKyeya_list
 ;
 
-value pUraNa = build_trie (datapath ^ "yogyawA/pUraNa_list")
+value pUraNa = build_trie pUraNa_list
 ;
 
-(* value guNa = build_trie (datapath ^ "yogyawA/guNa_list")
-; *)
-
-value guNavacana = build_trie (datapath ^ "yogyawA/guNavacana_list")
+value guNavacana = build_trie guNavacana_list
 ;
 
-value guNa_not_guNavacana = build_trie (datapath ^ "yogyawA/guNa_not_guNavacana_list")
+value guNa_not_guNavacana = build_trie guNa_not_guNavacana_list
 ;
-
-(*value xravyavAci_nouns = build_trie (datapath ^ "yogyawA/xravyavAcI_list")
-; *)
 
  (* kqxanwa list is introduced, since we still do not have an exhastive kqxanwa analyser ; we need it for viSeRaNas and RaRTI sambanXa*)
 
-value kqxanwas = build_trie (datapath ^ "AkAfkRA/kqxanwa_list")
+value kqxanwas = build_trie kqxanwa_list
 ;
 
  (* waxXiwAnwa_list is introduced, since we still do not have an exhastive waxXXiwa analyser ; we need it for viSeRaNas *)
-value taddhitaantas = build_trie (datapath ^ "yogyawA/waxXiwAnwa_list")
+value taddhitaantas = build_trie waxXiwAnwa_list
 ;
 
-(* value uwwara_guNavAcI = build_trie (datapath ^ "yogyawA/uwwarapaxa_guNavAcI_list")
-; *)
-
-value sambanXavAcI = build_trie (datapath ^ "yogyawA/sambanXavAcI_list")
-;
-value manuRyaparyAya = build_trie (datapath ^ "yogyawA/manuRyaparyAya")
+value sambanXavAcI = build_trie sambanXavAci_list
 ;
 
-value manuRyasaMjFAvAcI = build_trie (datapath ^ "yogyawA/manuRyasaMjFAvAcI")
+value manuRyaparyAya = build_trie manuRyaparyAya
 ;
 
-value upAXi = build_trie (datapath ^ "yogyawA/upAXi_list")
+value manuRyasaMjFAvAcI = build_trie manuRyasaFjFAvAci
 ;
 
-value viRayi_list = build_trie (datapath ^ "AkAfkRA/viRayi_list")
+value upAXi = build_trie upAXi_list
 ;
 
-value non_RaRTI_list = build_trie (datapath ^ "yogyawA/non_RaRTI_list")
+value viRayi_list = build_trie viRayi_list
 ;
 
-value named_entity = build_trie (datapath ^ "yogyawA/named_entity_list")
+value non_RaRTI_list = build_trie non_RaRTI_list
 ;
 
-value upapada6_list = build_trie (datapath ^ "yogyawA/upapada6_list")
+value named_entity = build_trie named_entity_list
+;
+
+value upapada6_list = build_trie upapada6_list
 ;
 
 value aXikaraNa_type word rt = 
@@ -1806,36 +1839,6 @@ value rlafgavikAra m1 m2 text_type = match m2 with
 ;vAsaH a-niyawam Bavawi
 ;neharO asya prawikriyA kA AsIw. *)
 
-(* value rlwAxarWya m1 m2 m3 text_type = match m3 with
-   [ Wif (id3,mid3,_,rt3,_,_,upasarga3,_,_,_,_,_,_,_,_,_) ->
-      match m2 with
-       [ Sup (id2,mid2,_,rt2,_,_,_,_,_,_)
-       | Kqw (id2,mid2,_,_,_,_,_,_,_,_,_,rt2,_,_,_,_,_)
-       | Avy (id2,mid2,_,rt2,_,_,_)
-       | Avykqw (id2,mid2,_,rt2,_,_,_,_,_,_,_,_)
-       | AvywaxXiwa (id2,mid2,_,rt2,_,_,_,_)
-       | WaxXiwa (id2,mid2,_,rt2,_,_,_,_,_,_,_) -> 
-      match m1 with
-      [ Sup (id1,mid1,_,rt1,_,_,_,viBakwiH1,_,_)
-      | Kqw (id1,mid1,_,_,_,_,_,_,_,_,rt1,_,_,_,viBakwiH1,_,_)
-      | WaxXiwa (id1,mid1,_,rt1,_,_,_,_,viBakwiH1,_,_) ->
-         if (id1=previous id2) (*|| id1=next id2 *)
-         then match viBakwiH1 with
-          [ 4  -> if   members_of rt3 upasarga3 karwqsamAnAXikaraNa_verbs 
-                    && rt2 = get_assoc rt1 wAxarWya_list
-                  then [ Relation (id1,mid1,"wAxarWyam",id2,mid2,"8.1") ] 
-                  else []
-          | _ -> []
-          ]
-          else [] 
-      | _ -> []
-      ]
-    | _ -> []
-    ]
-      | _ -> []
-      ]
-; *)
-
 (* Verb-verb relations *)
 (* rAmaH xugXam pIwvA vanam gacCawi *)
 (* assign_assign_prayojana_avykqw *)
@@ -2190,7 +2193,7 @@ value rlnirXAraNam m1 m2 text_type = match m2 with
            && (vacanam1="xvi" || vacanam1="bahu")
            && vacanam2="eka" (* && not(viBakwiH2=8) -- xehaBUwAm vara *)
            && ((rt2 = (get_assoc rt1 nirXAraNa_list)) || rt2 = "kiFciw" || rt2="vara" || rt2="SreRTa" || rt2="maXya"
-              || (rt1 = (get_assoc rt2 amarakosha_jAwi)))
+              || member_of (rt1^" "^rt2) amarakosha_jAwi)
        (* && (member_of rt2 guNavAcI || member_of rt2 sambanXavAcI) *)  (* yogyawA *)
        (* It is necessary to check  ((is_jAwi rt1) || (is_guNa rt1) || (is_kriyA rt1)); 
           jAwi-guNa-kriyABiH samuxAyAw ekasya pqWak-karaNam nirXAraNam  Under A 2.2.10 in kASikA *)
@@ -2651,7 +2654,8 @@ Removed Sawq_l?t, SAnac_l?t, kwa and kwavawu *)
                    else  if no_boundary_crossing id1 id2 text_type
                            && not (viBakwiH2 = 8) 
                            && not (member_of rt2 non_RaRTI_list) (* These are the words which can not be related to a word in RaRTI. e.g. paryApwa  We can not have X{6} paryApwa *)
-                           && not (member_of rt2 named_entity) (* These are the names, and hence we can not have X{6} rt2 *)
+                           && not (member_of rt2 manuRyasaMjFAvAcI) (* These are the names of human beings, and hence we can not have X{6} rt2 *)
+                           && not (member_of rt2 named_entity) (* These are the names of entities, and hence we can not have X{6} rt2 *)
                            && not (member_of rt2 upapada6_list) (* This is needed, since in these cases the relation is sanxarBa_binxuH *)
                            && not (pronominal123 rt2) (* sEnyasya mama; mama should be related to sEnya and not the other way *)
                            && not (rt2 = "maXya")
@@ -3428,6 +3432,10 @@ value rlavy_sent_connector m1 m2 text_type = match m2 with
           then [ Relation (id1,mid1,"kAraNa_xyowakaH",id2,mid2,"37.1")]
           else []
        | "waWApi"
+       | "aWApi"
+       | "waryhapi"
+       | "cexapi"
+       | "sannapi"
        | "wawaH"
        | "awaH" -> if (id1 < id2)
           then [ Relation (id1,mid1,"kArya_xyowakaH",id2,mid2,"37.2")]
@@ -3675,9 +3683,9 @@ value rl_last_iwi m1 m2 text_type = match m1 with
 
 (* rAme vanam gawe sawi sIwA api gacCawi *)
 value rlBAvalakRaNa_sapwamI1 m1 m2 text_type = match m1 with
-  [ Kqw (id1,mid1,_,_,_,_,kqw1,_,_,_,_,_,_,_,viBakwiH1,_,_) -> 
+  [ Kqw (id1,mid1,_,_,_,_,kqw1,_,_,_,_,_,_,lifgam1,viBakwiH1,_,_) -> 
       if  (kqw1="Sawq_lat" || kqw1="SAnac_lat" || kqw1="kwa" || kqw1="kwavawu" || kqw1="Sawq_lqt" || kqw1="SAnac_lqt")
-       && (viBakwiH1=7 ) 
+       && viBakwiH1=7  && lifgam1="puM"
          (* 2.3.36; yasya_ca_BAvena_BAvalakRaNam; *)
        (* || viBakwiH1 = 6  --> This results in over generation. Hence commented
              2.3.37 RaRTI cAnAxare  - ruxawaH prAvrAjIw  *)
@@ -3869,37 +3877,7 @@ sentences with connectives joiniing a wif with kqw fail, if we have rlsent_kqw_c
 For example:  श्यामः विरोधं कर्तुं अचेष्टत किन्तु तस्य वचः कः अपि न श्रुतवान्
 failed to parse.
 *)
-(*
-value rlsent_kqw_connectives m1 m2 m3 text_type = match m3 with
-       [Kqw (id3,mid3,_,rt3,_,_,_,_,_,_,_,_,_,_) -> (* only kwa kwavawu *)
-         match m1 with
-         [ Kqw (id1,mid1,_,rt1,_,_,_,_,_,_,_,_,_,_) -> (* add condition for only kwa kwavawu *)
-             match m2 with
-             [ Avy (id2,mid2,word2,_,_,_) ->
-              if    id1 < id2 && id2 < id3
-              then match word2 with
-              [ "yaw" -> if not (member_of rt1 vAkyakarma_verbs)
-                     then [ Relation (id1,mid1,"prawiyogI",id2,mid2,"39.1")
-                      ; Relation (id2,mid2,"anuyogI",id3,mid3,"39.2")
-                      ]
-                     else []
-              |"aWa" 
-              |"kinwu" 
-              |"paranwu" -> [ Relation (id1,mid1,"prawiyogI",id2,mid2,"39.1")
-                            ; Relation (id2,mid2,"anuyogI",id3,mid3,"39.2")
-                            ]
-               | _ -> []
-              ]
-              else []
-             | _ -> []
-             ]
-          | _ -> []
-          ]
-    | _ -> []
-    ]
-;
 
-*)
 value sent_beginning_connectives id1 mid1 id2 mid2 rt2 upasarga2 word1 text_type =
               if no_boundary_crossing id1 id2 text_type || id1=1
               then
@@ -3989,7 +3967,7 @@ value rlsent_connectives m1 m2 m3 text_type = match m2 with
               |"aWa"
               |"apiwu"
               |"kinwu"
-              |"paranwu" -> [ Relation (id1,mid1,"viroXakaH",id3,mid3,"49.3")
+              |"paranwu" -> [ Relation (id3,mid3,"viroXakaH",id1,mid1,"49.3")
                             ; Relation (id2,mid2,"viroXa_xyowakaH",id3,mid3,"49.4")
                             ]
               | _ -> []
@@ -4008,7 +3986,7 @@ value rlsent_connectives m1 m2 m3 text_type = match m2 with
               |"aWa"
               |"apiwu"
               |"kinwu"
-              |"paranwu" -> [ Relation (id1,mid1,"viroXakaH",id3,mid3,"49.7")
+              |"paranwu" -> [ Relation (id3,mid3,"viroXakaH",id1,mid1,"49.7")
                             ; Relation (id2,mid2,"viroXa_xyowakaH",id3,mid3,"49.7")]
               | _ -> []
               ]
@@ -4027,7 +4005,7 @@ value rlsent_connectives m1 m2 m3 text_type = match m2 with
               |"aWa"
               |"apiwu"
               |"kinwu"
-              |"paranwu" -> [ Relation (id1,mid1,"viroXakaH",id3,mid3,"49.11")
+              |"paranwu" -> [ Relation (id3,mid3,"viroXakaH",id1,mid1,"49.11")
                             ; Relation (id2,mid2,"viroXa_xyowakaH",id3,mid3,"49.12")
                             ]
               | _ -> []
@@ -4044,7 +4022,7 @@ value rlsent_connectives m1 m2 m3 text_type = match m2 with
               |"aWa"
               |"apiwu"
               |"kinwu"
-              |"paranwu" -> [ Relation (id1,mid1,"viroXakaH",id3,mid3,"49.15")
+              |"paranwu" -> [ Relation (id3,mid3,"viroXakaH",id1,mid1,"49.15")
                             ; Relation (id2,mid2,"viroXa_xyowakaH",id3,mid3,"49.16")
                             ]
               | _ -> []
@@ -4245,7 +4223,7 @@ value rl_wulanA m1 m2 m3 text_type = match m1 with
                    | "cawura" | "cawurA" | "parA" | "para" | "uwwama" | "jyAyasI" | "jyAyas" 
                    | "jyeRTa" | "jyeRTA"| "preyas" | "preyasI" | "preRTa" | "preRTA" | "patIyas" 
                    | "patIyasI" | "patiRTa"| "patiRTA" | "laGiyas" | "laGiyasI" | "laGiRTa" 
-                   | "laGiRTA" | "garIyas" | "garIyasI" | "gariRTa" | "gariRTA" | "nexiRTa" 
+                   | "laGiRTA" | "garIyas" | "garIyasI" | "gariRTa" | "gariRTA" 
                    | "nexiRTa" | "nexiyas" | "nexiyasI" | "sAXiRTa" | "sAXiRTA" | "sAxIyas" 
                    | "sAXiyasI"| "kaniRTa" | "kaniRTA" | "kanIyas" | "kaniyasI" | "yaviRTa" 
                    | "yaviRTA" | "yavIyas" | "yavIyAn" | "alpiRTa" | "alpiRTA" | "alpIyas" 
@@ -4287,7 +4265,8 @@ value rl_wulanA m1 m2 m3 text_type = match m1 with
 (* Following function marks all the relations between two finite verbs due to discourse markers or co-referentials *)
 value rl_wif_kriyA_kriyA m1 m2 m3 text_type = match m2 with
      [ Avy (id2,mid2,_,word2,_,_,_) -> 
-        if    word2 = "yaxyapi" || word2 = "waWApi" 
+        if    word2 = "yaxyapi" || word2 = "waWApi" || word2 = "aWApi" 
+           || word2 = "cexapi" || word2 = "sannapi" || word2 = "waryahpi"
            || word2 = "yaxi" || word2 = "warhi" || word2="cew"
            || word2 = "yawaH" || word2 = "wawaH" 
         then match m3 with
@@ -4296,12 +4275,16 @@ value rl_wif_kriyA_kriyA m1 m2 m3 text_type = match m2 with
               [ Wif (id1,mid1,_,_,_,_,_,_,prayogaH1,lakAra1,puruRaH1,_,_,_,_,_) ->
                       if id1 < id2
                       then match word2 with
-                      ["yaxyapi"
-                      | "waWApi"  -> [ Relation (id1,mid1,"vyaBicAraH",id3,mid3,"57.1")]
+                      [ "yaxyapi"
+                      | "aWApi"
+                      | "waryhapi"
+                      | "cexapi"
+                      | "sannapi"
+                      | "waWApi"  -> [ Relation (id3,mid3,"vyaBicAraH",id1,mid1,"57.1")]
                       | "yaxi"
-                      | "warhi" ->  [ Relation (id1,mid1,"AvaSyakawA_pariNAma_sambanXaH",id3,mid3,"57.2")]
+                      | "warhi" ->  [ Relation (id3,mid3,"AvaSyakawA_pariNAma_sambanXaH",id1,mid1,"57.2")]
                       | "yawaH"
-                      | "wawaH" -> [ Relation (id1,mid1,"kArya_kAraNa_BAvaH",id3,mid3,"57.3")]
+                      | "wawaH" -> [ Relation (id3,mid3,"kArya_kAraNa_BAvaH",id1,mid1,"57.3")]
                       | _ -> []
                       ]
                       else []
@@ -4522,7 +4505,7 @@ rlniwya_sambanXa_avy; rlniwya_sambanXa_sup; (* rl_initial_avy;*)  rl_ca; rlsent_
 rlkriyAviSeRaNam_wqwIyA; rlaXikaraNam
   ]
 ;
-value all_rules3 = [rlkarwqsamAnAXikaraNam; rlkarmasamAnAXikaraNam; (*rlwAxarWya;*) rlvAkyakarma; rlvAkyakarma1; rlsent_connectives; rlupamAna_upameya_sup; rlca_samucciwa; rl_exclamatory2; rl_ca_wif_aBihiwa_karwA_karma; rl_wulanA; rl_nAma; rl_saha_vinA_kqwe; rl_wif_kriyA_kriyA]
+value all_rules3 = [rlkarwqsamAnAXikaraNam; rlkarmasamAnAXikaraNam; rlvAkyakarma; rlvAkyakarma1; rlsent_connectives; rlupamAna_upameya_sup; rlca_samucciwa; rl_exclamatory2; rl_ca_wif_aBihiwa_karwA_karma; rl_wulanA; rl_nAma; rl_saha_vinA_kqwe; rl_wif_kriyA_kriyA]
 ;
 
 value kAraka_engine3 morphs text_type =
@@ -4567,10 +4550,12 @@ value process morphs text_type tfpath =
     List.iter (print_relation cho) sorted_lst
     ; flush cho
     ; close_out cho
-    ; let tpl_lst = mk_tuple_lst [] sorted_lst in  (* do {
-        List.iter Constraint.print_relation tpl_lst 
-        ; *) Constraint.solver tpl_lst text_type
-    (* } *)
+    ; let tpl_lst = mk_tuple_lst [] sorted_lst in do {
+        (*List.iter Constraint.print_relation tpl_lst 
+       ; *) 
+      Sys.command("date")
+      ;Constraint.solver tpl_lst text_type
+    }
     }
   }
 ;

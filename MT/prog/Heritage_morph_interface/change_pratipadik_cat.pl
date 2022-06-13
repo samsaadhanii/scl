@@ -105,7 +105,7 @@ while($in = <STDIN>){
           $ana =~ s/^$rt<vargaH:nA>/$rt<vargaH:pUraNam>/;
        }
     }
-    $ana =~ s/<upasarga:([a-zA-Z_]*)A([^>]*)>/<upasarga:$1Af$2>/;
+    $ana =~ s/<upasarga:([a-zA-Z_]*)A([^f>]*)>/<upasarga:$1Af$2>/;
 
     if($ana =~ /^([^<]+)<upasarga:[^>]+>.*<prayogaH:([^>]+)><lakAraH:[^>]+><puruRaH:[^>]+><vacanam:[^>]+><paxI:([^>]+)><gaNaH:([^>]+)>/){
 	   $rt = $1;

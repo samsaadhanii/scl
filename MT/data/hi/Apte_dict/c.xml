@@ -110,12 +110,12 @@
 <sense n="2">कुम्हार का चाक</sense>
 <sense n="3">एक तीक्ष्ण गोल अस्त्र, चक्र (विष्णु का)</sense>
 <sense n="4">तेल पेरने का कोल्हू</sense>
-<sense n="5">वृत्त, मण्डलMकलापचक्रेषु निवेक्षिताननम् -<citation>ऋतु* २\१४</citation></sense>
-<sense n="6">दल, समुच्चय, संग्रह M<citation>शि* २०\१६</citation></sense>
+<sense n="5">वृत्त, मण्डलकलापचक्रेषु निवेक्षिताननम् -<citation>ऋतु* २\१४</citation></sense>
+<sense n="6">दल, समुच्चय, संग्रह <citation>शि* २०\१६</citation></sense>
 <sense n="7">राज्य, एकाधिपत्य</sense>
 <sense n="8">प्रान्त, जिला, ग्रामसमूह</sense>
 <sense n="9">वर्तुलाकार सैनिक व्यूह</sense>
-<sense n="10">देह के भीतर के षट्चक्र M<vform>मूलाधार आदि</vform></sense>
+<sense n="10">देह के भीतर के षट्चक्र <vform>मूलाधार आदि</vform></sense>
 <sense n="11">कालचक्र, वर्ष समूह</sense>
 <sense n="12">क्षितिज</sense>
 <sense n="13">सेना, समूह</sense>
@@ -313,7 +313,7 @@
 <prAwipaxikam>चक्रधर</prAwipaxikam>
 <seg>चक्रम्-धरः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">विष्णु का विशेषणMचक्रधरप्रभावः -<citation>रघु* १६\५५</citation></sense>
+<sense no="1">विष्णु का विशेषणचक्रधरप्रभावः -<citation>रघु* १६\५५</citation></sense>
 <sense no="2">प्रभु, प्रान्त का राज्यपाल या शासक</sense>
 <sense no="3">गाँव का कलाबाज या बाजीगर</sense>
 </segmenthd>
@@ -352,7 +352,7 @@
 <prAwipaxikam>चक्रनेमि</prAwipaxikam>
 <seg>चक्रम्-नेमिः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">पहिए कि परिधि या घेराMनीचैर्गच्छत्युपरि च दशा चक्रनेमिक्रमेण-<citation>मेघ* १०९</citation></sense>
+<sense no="1">पहिए कि परिधि या घेरानीचैर्गच्छत्युपरि च दशा चक्रनेमिक्रमेण-<citation>मेघ* १०९</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>चक्रपाणि</dentry>
@@ -408,7 +408,7 @@
 <seg>चक्रम्-बालः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">वृत्त, मण्डल</sense>
-<sense no="2">संग्रह, वर्ग, समुच्चय, राशि Mकैरवचक्रवालम्<citation>भर्तृ* २\७४</citation></sense>
+<sense no="2">संग्रह, वर्ग, समुच्चय, राशि कैरवचक्रवालम्<citation>भर्तृ* २\७४</citation></sense>
 <sense no="3">क्षितिज</sense>
 </segmenthd>
 <segmenthd>
@@ -417,7 +417,7 @@
 <seg>चक्रम्-बालडः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">वृत्त, मण्डल</sense>
-<sense no="2">संग्रह, वर्ग, समुच्चय, राशि Mकैरवचक्रवालम्<citation>भर्तृ* २\७४</citation></sense>
+<sense no="2">संग्रह, वर्ग, समुच्चय, राशि कैरवचक्रवालम्<citation>भर्तृ* २\७४</citation></sense>
 <sense no="3">क्षितिज</sense>
 </segmenthd>
 <segmenthd>
@@ -430,7 +430,7 @@
 <kind_of>दिक्</kind_of>
 <jAwi>दिक्</jAwi>
 <sense no="1">वृत्त, मण्डल</sense>
-<sense no="2">संग्रह, वर्ग, समुच्चय, राशि Mकैरवचक्रवालम्<citation>भर्तृ* २\७४</citation></sense>
+<sense no="2">संग्रह, वर्ग, समुच्चय, राशि कैरवचक्रवालम्<citation>भर्तृ* २\७४</citation></sense>
 <sense no="3">क्षितिज</sense>
 </segmenthd>
 <segmenthd>
@@ -551,7 +551,7 @@
 <grammar>पुं*</grammar>
 <kind_of>पक्षिः</kind_of>
 <jAwi>पक्षी</jAwi>
-<sense no="1">चकवा Mदूरीभूते मयि सहचरे चक्रवाकीमिवैकाम्-<citation>मेघ* ८३स्त्री*चक्रवाकी</citation></sense>
+<sense no="1">चकवा दूरीभूते मयि सहचरे चक्रवाकीमिवैकाम्-<citation>मेघ* ८३स्त्री*चक्रवाकी</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>चक्रवाटः</dentry>
@@ -853,7 +853,7 @@
 <seg>चक्षुस्-श्रवस्</seg>
 <grammar>पुं*</grammar>
 <jAwi>सरीसृपः</jAwi>
-<sense no="1">साँपM<citation>कि* १६\४२</citation><citation>नै* १\२८</citation></sense>
+<sense no="1">साँप<citation>कि* १६\४२</citation><citation>नै* १\२८</citation></sense>
 </segmenthd>
 </lexhead>
 
@@ -1269,7 +1269,7 @@
 <prAwipaxikam>चण्डमुंडा</prAwipaxikam>
 <seg>चण्ड-मुंडा</seg>
 <grammar>स्त्री*</grammar>
-<sense no="1">दुर्गा का ही एक रूपMचामुंडा</sense>
+<sense no="1">दुर्गा का ही एक रूपचामुंडा</sense>
 </segmenthd>
 <segmenthd>
 <dentry>चण्डमृगः</dentry>
@@ -1522,7 +1522,7 @@
 <grammar>नपुं*</grammar>
 <kind_of>देवः</kind_of>
 <jAwi>ईश्वरः</jAwi>
-<sense no="1">ब्रह्मा का विशेषणMइतरतातापशतानि यथेच्छया वितर तानि सहे चतुरानन -<citation>उद्भट</citation></sense>
+<sense no="1">ब्रह्मा का विशेषणइतरतातापशतानि यथेच्छया वितर तानि सहे चतुरानन -<citation>उद्भट</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>चतुराश्रमम्</dentry>
@@ -1642,7 +1642,7 @@
 <prAwipaxikam>चतुर्विद्या</prAwipaxikam>
 <seg>चतुर्-विद्याः</seg>
 <grammar></grammar><num>[ब*व*]</num>
-<sense no="1">चौदह विद्याएँMवे यह हैं; -षडंगमिश्रिता वेदा धर्मशास्त्रं पुराणकम्, मीमांसा तर्कमपि च एता विद्याश्चतुर्दश</sense>
+<sense no="1">चौदह विद्याएँवे यह हैं; -षडंगमिश्रिता वेदा धर्मशास्त्रं पुराणकम्, मीमांसा तर्कमपि च एता विद्याश्चतुर्दश</sense>
 </segmenthd>
 <segmenthd>
 <dentry>चतुर्दशी</dentry>
@@ -1725,7 +1725,7 @@
 <grammar>नपुं*</grammar>
 <kind_of>मार्गः</kind_of>
 <jAwi>मानवनिर्मितिः</jAwi>
-<sense no="1">वह स्थान जहाँ चार सड़कें मिलें, चौराहाMचतुः पंथः, चतुष्पथः</sense>
+<sense no="1">वह स्थान जहाँ चार सड़कें मिलें, चौराहाचतुः पंथः, चतुष्पथः</sense>
 </segmenthd>
 <segmenthd>
 <dentry>चतुष्पथः</dentry>
@@ -1742,7 +1742,7 @@
 <seg>चतुर्-पद</seg>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">चतुष्पद</prAwipaxikam>
-<sense no="1">चार पैरों वालाMचतुष्पदः</sense>
+<sense no="1">चार पैरों वालाचतुष्पदः</sense>
 <sense no="2">चार अंगों वाला</sense>
 <sense no="3">चौपाया</sense>
 </segmenthd>
@@ -1751,7 +1751,7 @@
 <prAwipaxikam>चतुष्पदी</prAwipaxikam>
 <seg>चतुर्-पदी</seg>
 <grammar>स्त्री*</grammar>
-<sense no="1">चार चरण का श्लोकMपद्यं चतुष्पदी तच्च वृत्तं जातिरिति द्विधा -<citation>छं* १</citation></sense>
+<sense no="1">चार चरण का श्लोकपद्यं चतुष्पदी तच्च वृत्तं जातिरिति द्विधा -<citation>छं* १</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>चतुष्पाठी</dentry>
@@ -1765,7 +1765,7 @@
 <prAwipaxikam>चतुष्पाणि</prAwipaxikam>
 <seg>चतुर्-पाणिः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">विष्णु का विशेषणMचतुष्पाणिः</sense>
+<sense no="1">विष्णु का विशेषणचतुष्पाणिः</sense>
 </segmenthd>
 <segmenthd>
 <dentry>चतुष्पाद्</dentry>
@@ -1773,7 +1773,7 @@
 <seg>चतुर्-पाद्</seg>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">चतुष्पाद्</prAwipaxikam>
-<sense no="1">चौपायाMचतुष्पाद्-द</sense>
+<sense no="1">चौपायाचतुष्पाद्-द</sense>
 <sense no="2">पाँच सदस्यीय या पाँच भागों वाला</sense>
 </segmenthd>
 <segmenthd>
@@ -1791,7 +1791,7 @@
 <seg>चतुर्-पादः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">चौपाया</sense>
-<sense no="2">न्यायांग की एक कार्यविधि FMNजिसमें चार प्रकार की प्रकियाएँ हों अर्थात् तर्क, पक्षसमर्थन, प्रत्युक्ति, निर्णय विधि में अभियोगों की जांच पङताल</sense>
+<sense no="2">न्यायांग की एक कार्यविधि FNजिसमें चार प्रकार की प्रकियाएँ हों अर्थात् तर्क, पक्षसमर्थन, प्रत्युक्ति, निर्णय विधि में अभियोगों की जांच पङताल</sense>
 </segmenthd>
 <segmenthd>
 <dentry>चतुर्बाहुः</dentry>
@@ -1807,7 +1807,7 @@
 <seg>चतुर्-भद्रम्</seg>
 <grammar>नपुं*</grammar>
 <jAwi>शेषः</jAwi>
-<sense no="1">चारों पुरुषार्थों की समष्टिMधर्म, अर्थ, काम तथा मोक्ष</sense>
+<sense no="1">चारों पुरुषार्थों की समष्टिधर्म, अर्थ, काम तथा मोक्ष</sense>
 </segmenthd>
 <segmenthd>
 <dentry>चतुर्भागः</dentry>
@@ -1832,7 +1832,7 @@
 <prAwipaxikam>चतुर्मास</prAwipaxikam>
 <seg>चतुर्-मासम्</seg>
 <grammar>नपुं*</grammar>
-<sense no="1">चातुर्मास्य, चौमासाMआषाढ सुदी एकादशी से कार्तिक सुदी दशमी तक</sense>
+<sense no="1">चातुर्मास्य, चौमासाआषाढ सुदी एकादशी से कार्तिक सुदी दशमी तक</sense>
 </segmenthd>
 <segmenthd>
 <dentry>चतुर्मुख</dentry>
@@ -1854,7 +1854,7 @@
 <prAwipaxikam>चतुर्मुख</prAwipaxikam>
 <seg>चतुर्-मुखम्</seg>
 <grammar>नपुं*</grammar>
-<sense no="1">चार मुँहM कु* २\१७</sense>
+<sense no="1">चार मुँह कु* २\१७</sense>
 <sense no="2">चार द्वार वाला मकान</sense>
 </segmenthd>
 <segmenthd>
@@ -1884,14 +1884,14 @@
 <seg>चतुर्-वर्गः</seg>
 <grammar>पुं*</grammar>
 <jAwi>शेषः</jAwi>
-<sense no="1">मानव जीवन के चार पुरुषार्थों का समूहM रघु* १०\२२धर्म, अर्थ काम और मोक्ष</sense>
+<sense no="1">मानव जीवन के चार पुरुषार्थों का समूह रघु* १०\२२धर्म, अर्थ काम और मोक्ष</sense>
 </segmenthd>
 <segmenthd>
 <dentry>चतुर्वर्णः</dentry>
 <prAwipaxikam>चतुर्वर्ण</prAwipaxikam>
 <seg>चतुर्-वर्णः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">हिन्दुओं की चार श्रेणियाँ या जातियाँ अर्थात् ब्राह्मण, क्षत्रिय, वैश्य और शूद्रMचतुर्वर्णमयो लोकः।<citation>रघु* १०\२२</citation></sense>
+<sense no="1">हिन्दुओं की चार श्रेणियाँ या जातियाँ अर्थात् ब्राह्मण, क्षत्रिय, वैश्य और शूद्रचतुर्वर्णमयो लोकः।<citation>रघु* १०\२२</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>चतुर्वर्षिका</dentry>
@@ -1977,7 +1977,7 @@
 <kind_of>गृहम्</kind_of>
 <jAwi>मानवनिर्मितिः</jAwi>
 <upAXi>समूहः</upAXi>
-<sense no="1">चार मकानों का वर्ग, चारों ओर चार भवनों से घिरा हुआ चतुष्कोणMचतुः शालम्, चतुश्शालम्, चतुः शाली, चतुश्शाली</sense>
+<sense no="1">चार मकानों का वर्ग, चारों ओर चार भवनों से घिरा हुआ चतुष्कोणचतुः शालम्, चतुश्शालम्, चतुः शाली, चतुश्शाली</sense>
 </segmenthd>
 <segmenthd>
 <dentry>चतुःषष्ठि</dentry>
@@ -2069,7 +2069,7 @@
 <seg>चतुर्थ-भाज्</seg>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">चतुर्थभाज्</prAwipaxikam>
-<sense no="1">अपनी प्रजा से आय का चतुर्थांश ग्रहण करने वाला, राजा Mअर्थ संकट के अवसर पर ही चतुर्थांश लेना विहित है अन्यथा प्रचलित केवल छठा भाग है</sense>
+<sense no="1">अपनी प्रजा से आय का चतुर्थांश ग्रहण करने वाला, राजा अर्थ संकट के अवसर पर ही चतुर्थांश लेना विहित है अन्यथा प्रचलित केवल छठा भाग है</sense>
 </segmenthd>
 </lexhead>
 
@@ -2096,7 +2096,7 @@
 <grammar>स्त्री*</grammar>
 <etymology>[चतुर्थ - ङीप्]</etymology>
 <sense no="1">चान्द्र पक्ष का चौथा दिन</sense>
-<sense n="2">सम्प्रदान कारकMव्या* में</sense>
+<sense n="2">सम्प्रदान कारकव्या* में</sense>
 <segmenthd>
 <dentry>चतुर्थीकर्मन्</dentry>
 <prAwipaxikam>चतुर्थीकर्मन्</prAwipaxikam>
@@ -2132,7 +2132,7 @@
 <sense no="1">चार का समूह</sense>
 <sense n="2">चौराहा</sense>
 <sense n="3">चौकोर आंगन</sense>
-<sense n="4">चार स्तम्भों पर अवस्थित भवन, कमरा या सुकक्षM<citation>कु* ५\६९</citation>७\९</sense>
+<sense n="4">चार स्तम्भों पर अवस्थित भवन, कमरा या सुकक्ष<citation>कु* ५\६९</citation>७\९</sense>
 </lexhead>
 
 <lexhead no="79">
@@ -2312,7 +2312,7 @@
 <grammar>पुं*</grammar>
 <etymology>[चन्द् - किरच्]</etymology>
 <sense no="1">हाथी</sense>
-<sense n="2">चन्द्रमाMअपि च मानसमम्बुनिधिर्यशो विमलशारदचन्दिरचंन्द्रिका|<citation>भामि* १\११३</citation>मुकुन्दमुखचन्दिरे चिरमिदं चकोरायताम्। *४\१जब ’चन्द्र’ शब्द समास के अन्त में प्रयुक्त होता है तो इसका अर्थ होता है-श्रेष्ठ, प्रमुख, श्रीमान् तथापुरुषचन्द्रः, ”मनुष्यों में चन्द्रमा” अर्थात् एक श्रेष्ठ या महानुभाव व्यक्ति</sense>
+<sense n="2">चन्द्रमाअपि च मानसमम्बुनिधिर्यशो विमलशारदचन्दिरचंन्द्रिका|<citation>भामि* १\११३</citation>मुकुन्दमुखचन्दिरे चिरमिदं चकोरायताम्। *४\१जब ’चन्द्र’ शब्द समास के अन्त में प्रयुक्त होता है तो इसका अर्थ होता है-श्रेष्ठ, प्रमुख, श्रीमान् तथापुरुषचन्द्रः, ”मनुष्यों में चन्द्रमा” अर्थात् एक श्रेष्ठ या महानुभाव व्यक्ति</sense>
 </lexhead>
 
 <lexhead no="94">
@@ -2328,7 +2328,7 @@
 <jAwi>ग्रहः</jAwi>
 <sense no="1">चन्द्रमा, प्रह्लादनाच्चन्द्रः।<citation>रघु* ४\१२</citation>हृतचन्द्रा तमसेव कौमुदी। *८\३७, न हि संहरते ज्योत्स्नां चन्द्रश्चांण्डालवेश्मनि।<citation>हि* १\६१</citation>पर्याप्तचन्द्रेव शरत्त्रियामा।<citation>कु* ७\२६</citation><vform>यथा</vform>,<vform>आदि</vform>,<vform>पौरानिकवृत्त के लिए दे* सोम</vform>, मुखचन्द्रः, वदनचन्द्रः</sense>
 <sense n="2">चन्द्र ग्रह</sense>
-<sense n="3">कपूरMविलेपनस्याधिकचन्द्रभागताविभावनाच्चापललाप पाण्डुताम्।<citation>नै* १\५१दु</citation></sense>
+<sense n="3">कपूरविलेपनस्याधिकचन्द्रभागताविभावनाच्चापललाप पाण्डुताम्।<citation>नै* १\५१दु</citation></sense>
 <sense n="4">मयूर पंखों में ‘आँख’ का चिह्न</sense>
 <sense n="5">जल</sense>
 <sense n="6">सोना</sense>
@@ -2385,7 +2385,7 @@
 <grammar>पुं*</grammar>
 <sense no="1">चाँदनी</sense>
 <sense no="2">चँदोआ</sense>
-<sense no="3">प्रशस्त कक्षMजिसकि केवल छत ही हो</sense>
+<sense no="3">प्रशस्त कक्षजिसकि केवल छत ही हो</sense>
 </segmenthd>
 <segmenthd>
 <dentry>चन्द्रात्मजः</dentry>
@@ -2586,14 +2586,14 @@
 <prAwipaxikam>चन्द्रचूडामणि</prAwipaxikam>
 <seg>चन्द्रः-चूडामणिः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">शिव के विशेषणMरहस्युपालभ्यत चन्द्रशेखरः।<citation>कु* ५\५८</citation>८६<citation>रघु* ६\३४</citation></sense>
+<sense no="1">शिव के विशेषणरहस्युपालभ्यत चन्द्रशेखरः।<citation>कु* ५\५८</citation>८६<citation>रघु* ६\३४</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>चन्द्रमौलिः</dentry>
 <prAwipaxikam>चन्द्रमौलि</prAwipaxikam>
 <seg>चन्द्रः-मौलिः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">शिव के विशेषणMरहस्युपालभ्यत चन्द्रशेखरः।<citation>कु* ५\५८</citation>८६<citation>रघु* ६\३४</citation></sense>
+<sense no="1">शिव के विशेषणरहस्युपालभ्यत चन्द्रशेखरः।<citation>कु* ५\५८</citation>८६<citation>रघु* ६\३४</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>चन्द्रशेखरः</dentry>
@@ -2602,14 +2602,14 @@
 <grammar>पुं*</grammar>
 <kind_of>देवः</kind_of>
 <jAwi>ईश्वरः</jAwi>
-<sense no="1">शिव के विशेषणMरहस्युपालभ्यत चन्द्रशेखरः।<citation>कु* ५\५८</citation>८६<citation>रघु* ६\३४</citation></sense>
+<sense no="1">शिव के विशेषणरहस्युपालभ्यत चन्द्रशेखरः।<citation>कु* ५\५८</citation>८६<citation>रघु* ६\३४</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>चन्द्रदाराः</dentry>
 <prAwipaxikam>चन्द्रदारा</prAwipaxikam>
 <seg>चन्द्रः-दाराः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">’चन्द्रमा की पत्नियाँ’ २७ नक्षत्रMपुराणों की दृष्टि से यह दक्ष की पुत्रियाँ थी और चन्द्रमा को ब्याही गई थीं</sense>
+<sense no="1">’चन्द्रमा की पत्नियाँ’ २७ नक्षत्रपुराणों की दृष्टि से यह दक्ष की पुत्रियाँ थी और चन्द्रमा को ब्याही गई थीं</sense>
 </segmenthd>
 <segmenthd>
 <dentry>चन्द्रद्युतिः</dentry>
@@ -2631,7 +2631,7 @@
 <prAwipaxikam>चन्द्रपाद</prAwipaxikam>
 <seg>चन्द्रः-पादः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">चन्द्रकिरणM मेघ* ७०<citation>मा* ३\१२</citation></sense>
+<sense no="1">चन्द्रकिरण मेघ* ७०<citation>मा* ३\१२</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>चन्द्रप्रभा</dentry>
@@ -2849,7 +2849,7 @@
 <sense no="1">चाँद</sense>
 <sense n="2">मोर के पंखों में आँख का चिह्न</sense>
 <sense n="3">नाखून</sense>
-<sense n="4">चन्द्रमा के आकार का वृत्तMपानी में तेल की बूँद गिरने से बन जाता है।</sense>
+<sense n="4">चन्द्रमा के आकार का वृत्तपानी में तेल की बूँद गिरने से बन जाता है।</sense>
 </lexhead>
 
 <lexhead no="97">
@@ -3041,7 +3041,7 @@
 <grammar>नपुं*</grammar>
 <sense no="1">विस्मय, आश्चर्य, चेतश्चमत्कृतिपदं कवितेव रम्या।<citation>भामि* ३\१</citation>तदपेक्षया वाच्यस्यैव चमत्कारित्वात्।<citation>काव्य* १</citation></sense>
 <sense n="2">खेल, तमाशा</sense>
-<sense n="3">काव्यसौन्दर्य Mजिससे काव्यरस की अनुभूति होती है।</sense>
+<sense n="3">काव्यसौन्दर्य जिससे काव्यरस की अनुभूति होती है।</sense>
 </lexhead>
 
 <lexhead no="111">
@@ -3070,7 +3070,7 @@
 <kind_of>हरिणः</kind_of>
 <jAwi>स्तनपायी</jAwi>
 <sense no="1">एक प्रकार का हरिण</sense>
-<sense n="2">चौरीMप्रायः चमर मृग की पूँछ से बनी</sense>
+<sense n="2">चौरीप्रायः चमर मृग की पूँछ से बनी</sense>
 </lexhead>
 
 <lexhead no="114">
@@ -3155,21 +3155,21 @@
 <prAwipaxikam>चमूनाथ</prAwipaxikam>
 <seg>चमूः-नाथः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">सेनापति, कमांडर, सेना नायक Mरघु* १३\७४</sense>
+<sense no="1">सेनापति, कमांडर, सेना नायक रघु* १३\७४</sense>
 </segmenthd>
 <segmenthd>
 <dentry>चमूपः</dentry>
 <prAwipaxikam>चमूप</prAwipaxikam>
 <seg>चमूः-पः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">सेनापति, कमांडर, सेना नायक Mरघु* १३\७४</sense>
+<sense no="1">सेनापति, कमांडर, सेना नायक रघु* १३\७४</sense>
 </segmenthd>
 <segmenthd>
 <dentry>चमूपतिः</dentry>
 <prAwipaxikam>चमूपति</prAwipaxikam>
 <seg>चमूः-पतिः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">सेनापति, कमांडर, सेना नायक Mरघु* १३\७४</sense>
+<sense no="1">सेनापति, कमांडर, सेना नायक रघु* १३\७४</sense>
 </segmenthd>
 <segmenthd>
 <dentry>चमूहरः</dentry>
@@ -3513,7 +3513,7 @@
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">चराचर</prAwipaxikam>
 <jAwi>पृथ्वी</jAwi>
-<sense no="7">जंगम और स्थावरMचराचराणां भूतानां कुक्षिराधारतां गतः।<citation>कु* ६\६७</citation>२\५<citation>भग* ११\४३</citation></sense>
+<sense no="7">जंगम और स्थावरचराचराणां भूतानां कुक्षिराधारतां गतः।<citation>कु* ६\६७</citation>२\५<citation>भग* ११\४३</citation></sense>
 </segmenthd>
 </lexhead>
 
@@ -3586,8 +3586,8 @@
 <kind_of>पाय्वादीन्द्रियम्</kind_of>
 <upAXi>अवयवः</upAXi>
 <sense no="1">हिलना-जुलना, भ्रमण करना, घूमना</sense>
-<sense n="2">अनुष्ठान, अभ्यास M<citation>मनु* ६\७५</citation></sense>
-<sense n="3">जीवनचर्या, चालचलन, व्यवहार Mनैतिक</sense>
+<sense n="2">अनुष्ठान, अभ्यास <citation>मनु* ६\७५</citation></sense>
+<sense n="3">जीवनचर्या, चालचलन, व्यवहार नैतिक</sense>
 <sense n="4">निष्पन्नता</sense>
 <sense n="5">खाना, उपभोग करना</sense>
 <segmenthd>
@@ -3672,7 +3672,7 @@
 <prAwipaxikam>चरणपतन</prAwipaxikam>
 <seg>चरणः-पतनम्</seg>
 <grammar>नपुं*</grammar>
-<sense no="1">गिरना, साष्टाङ्ग प्रणाम करनाM<citation>अमरु* १७दूसरे के चरणों में</citation></sense>
+<sense no="1">गिरना, साष्टाङ्ग प्रणाम करना<citation>अमरु* १७दूसरे के चरणों में</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>चरणपतित</dentry>
@@ -3680,7 +3680,7 @@
 <seg>चरणः-पतित</seg>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">चरणपतित</prAwipaxikam>
-<sense no="1">चरणों में दण्डवत् प्रणाम करना M<citation>मेघ* १०५</citation></sense>
+<sense no="1">चरणों में दण्डवत् प्रणाम करना <citation>मेघ* १०५</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>चरणशुश्रूषा</dentry>
@@ -3748,7 +3748,7 @@
 <prAwipaxikam>चरमावस्था</prAwipaxikam>
 <seg>चरम-अवस्था</seg>
 <grammar>स्त्री*</grammar>
-<sense no="1">अन्तिम दशाMबुढापा</sense>
+<sense no="1">अन्तिम दशाबुढापा</sense>
 </segmenthd>
 <segmenthd>
 <dentry>चरमकालः</dentry>
@@ -3807,7 +3807,7 @@
 <sense n="2">अनुष्ठान, पर्यवेक्षण</sense>
 <sense n="3">इतिहास, जीवनचरित, आत्मकथा, वृत्तान्त, साहसकथा</sense>
 <sense n="4">प्रकृति, स्वभाव</sense>
-<sense n="5">कर्त्तव्य, अनुमोदित नियमों का पालन Mमनु*<citation>२\२०</citation>९\७</sense>
+<sense n="5">कर्त्तव्य, अनुमोदित नियमों का पालन मनु*<citation>२\२०</citation>९\७</sense>
 </lexhead>
 
 <lexhead no="148">
@@ -3860,7 +3860,7 @@
 <grammar>स्त्री*</grammar>
 <etymology>[चर्चरी - कन् - टाप्, ह्र्स्वः]</etymology>
 <sense no="1">एक प्रकार का गान</sense>
-<sense n="2">तालियाँ बजानाMसंगी* में</sense>
+<sense n="2">तालियाँ बजानासंगी* में</sense>
 <sense n="3">विद्वानों का सस्वर पाठ</sense>
 <sense n="4">आमोद प्रमोद, हर्षध्वनि</sense>
 <sense n="5">उत्सव</sense>
@@ -3874,7 +3874,7 @@
 <grammar>स्त्री*</grammar>
 <etymology>[चर्च् - अरन् - ङीष्]</etymology>
 <sense no="1">एक प्रकार का गान</sense>
-<sense n="2">तालियाँ बजानाMसंगी* में</sense>
+<sense n="2">तालियाँ बजानासंगी* में</sense>
 <sense n="3">विद्वानों का सस्वर पाठ</sense>
 <sense n="4">आमोद प्रमोद, हर्षध्वनि</sense>
 <sense n="5">उत्सव</sense>
@@ -3893,7 +3893,7 @@
 <sense no="1">अध्ययन, आवृत्ति, बार-२ पढ़ना</sense>
 <sense n="2">बहस, पूछ-ताछ, अनुसन्धान</sense>
 <sense n="3">विचार विमर्श</sense>
-<sense n="4">शरीर में उबटन का लेप करनाMअङ्गचर्चामरचयम्-<citation>का* १५७</citation>श्रीखण्डचर्चाविषम्-<citation>गीति* ९</citation></sense>
+<sense n="4">शरीर में उबटन का लेप करनाअङ्गचर्चामरचयम्-<citation>का* १५७</citation>श्रीखण्डचर्चाविषम्-<citation>गीति* ९</citation></sense>
 </lexhead>
 
 <lexhead no="155">
@@ -3906,7 +3906,7 @@
 <sense no="1">अध्ययन, आवृत्ति, बार-२ पढ़ना</sense>
 <sense n="2">बहस, पूछ-ताछ, अनुसन्धान</sense>
 <sense n="3">विचार विमर्श</sense>
-<sense n="4">शरीर में उबटन का लेप करनाMअङ्गचर्चामरचयम्-<citation>का* १५७</citation>श्रीखण्डचर्चाविषम्-<citation>गीति* ९</citation></sense>
+<sense n="4">शरीर में उबटन का लेप करनाअङ्गचर्चामरचयम्-<citation>का* १५७</citation>श्रीखण्डचर्चाविषम्-<citation>गीति* ९</citation></sense>
 </lexhead>
 
 <lexhead no="156">
@@ -4280,7 +4280,7 @@
 <sense n="4">अभ्यास, अनुष्ठान, पालन F<citation>मनु* १\१११</citation></sense>
 <sense n="5">सब प्रकार के रीति- रिवाज व संस्कारों का नियमित अनुष्ठान</sense>
 <sense n="6">खाना</sense>
-<sense n="7">प्रथा, रिवाजM<citation>मनु* ६\३२</citation></sense>
+<sense n="7">प्रथा, रिवाज<citation>मनु* ६\३२</citation></sense>
 </lexhead>
 
 <lexhead no="173">
@@ -4299,7 +4299,7 @@
 <etymology>[चर्व् - ल्युट्]</etymology>
 <sense no="1">चबाना, खाना</sense>
 <sense n="2">आचमन करना</sense>
-<sense n="3">चखना, स्वाद लेना, आनन्द लेनाM प्रमाणं चर्वणै वात्र स्वाभिन्ने विदुषां मतम्।<citation>सा* द* ५७ आलं*  टी* चर्वणा आस्वादनं तच्च स्वादः काव्यार्थसंभेदादात्मानन्दसमुद्भव इत्युक्तप्रकारम्</citation>इसी प्रकार ’ निष्पत्त्या चर्वणस्यास्य न्</sense>
+<sense n="3">चखना, स्वाद लेना, आनन्द लेना प्रमाणं चर्वणै वात्र स्वाभिन्ने विदुषां मतम्।<citation>सा* द* ५७ आलं*  टी* चर्वणा आस्वादनं तच्च स्वादः काव्यार्थसंभेदादात्मानन्दसमुद्भव इत्युक्तप्रकारम्</citation>इसी प्रकार ’ निष्पत्त्या चर्वणस्यास्य न्</sense>
 </lexhead>
 
 <lexhead no="175">
@@ -4334,7 +4334,7 @@
 <seg>चर्वित-चवर्णम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">चबाये हुए को चबाना, शा*</sense>
-<sense no="2">पुनरुक्ति, निरर्थक आवृत्तिMआलं*</sense>
+<sense no="2">पुनरुक्ति, निरर्थक आवृत्तिआलं*</sense>
 </segmenthd>
 <segmenthd>
 <dentry>चर्वितपात्रम्</dentry>
@@ -4430,7 +4430,7 @@
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">चलाचल</prAwipaxikam>
 <jAwi>क्रिया</jAwi>
-<sense no="5">अति चलायमान, अतिचलMचलाचले च संसारे धर्म एको हि निश्चलः।<citation>भर्तृ* ३\१२८</citation>लक्ष्मीमिव चलाचलाम्।<citation>कि* ११\३०</citation><citation>नै* १\६०चलाचला=चंचला-मल्लि*</citation></sense>
+<sense no="5">अति चलायमान, अतिचलचलाचले च संसारे धर्म एको हि निश्चलः।<citation>भर्तृ* ३\१२८</citation>लक्ष्मीमिव चलाचलाम्।<citation>कि* ११\३०</citation><citation>नै* १\६०चलाचला=चंचला-मल्लि*</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>चलाचलः</dentry>
@@ -4530,7 +4530,7 @@
 <etymology>[चल् - ल्युट्]</etymology>
 <jAwi>क्रिया</jAwi>
 <sense no="1">काँपना हिलना, डाँवाडोल होना, चलनात्मकं कर्म-<citation>तर्क सं*</citation></sense>
-<sense n="2">घूमना, भरमना Mतरल दृगञ्चलचलनमनोहरवदनजनितरतिरागम्।<citation>गीत* ११हस्तचलनम्</citation>जानुचलनम्</sense>
+<sense n="2">घूमना, भरमना तरल दृगञ्चलचलनमनोहरवदनजनितरतिरागम्।<citation>गीत* ११हस्तचलनम्</citation>जानुचलनम्</sense>
 </lexhead>
 
 <lexhead no="185">
@@ -4601,7 +4601,7 @@
 <grammar>पुं*</grammar>
 <etymology>[चलु - कन्]</etymology>
 <sense no="1">चुल्लूभर, पानी</sense>
-<sense n="2">अञ्जलिभर या एक घूँटMपानीतु* ’चुलुक’</sense>
+<sense n="2">अञ्जलिभर या एक घूँटपानीतु* ’चुलुक’</sense>
 </lexhead>
 
 <lexhead no="192">
@@ -4723,7 +4723,7 @@
 <kind_of>सेवकः</kind_of>
 <jAwi>मनुष्यः</jAwi>
 <sense no="1">कुम्हार</sense>
-<sense n="2">तेलीM<citation>याज्ञ* १\१६५तैलिक- मिता*</citation>दूसरों के मत में शाकटिक = गाड़ीवान</sense>
+<sense n="2">तेली<citation>याज्ञ* १\१६५तैलिक- मिता*</citation>दूसरों के मत में शाकटिक = गाड़ीवान</sense>
 <sense n="3">कोचवान, चालक</sense>
 </lexhead>
 
@@ -4831,7 +4831,7 @@
 <seg>चाटुः-उल्लोल</seg>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">चाटूल्लोल</prAwipaxikam>
-<sense no="1">प्रिय तथा मधुर बोलने वाला, चापलूसMशिप्रावातः प्रियतम इव प्रार्थनाचाटुकारः।<citation>मेघ* ३१</citation></sense>
+<sense no="1">प्रिय तथा मधुर बोलने वाला, चापलूसशिप्रावातः प्रियतम इव प्रार्थनाचाटुकारः।<citation>मेघ* ३१</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>चाटुकार</dentry>
@@ -5388,7 +5388,7 @@
 <sense no="1">द्रुतगति, स्फूर्ति</sense>
 <sense n="2">चञ्चलता, अस्थिरता, संक्रमणशीलता F<citation>कि* २\४१</citation></sense>
 <sense n="3">विचारशून्य या आवेशपूर्ण आचरण, उतावलापन, उद्दण्ड कृत्य Fधिक् चापलम्।<citation>उत्तर ४</citation>तद्गुणैः कर्णमागत्य चापलाय प्रचोदितः<citation>रघु* १\९</citation>स्वचित्तवृत्तिरिव चापलेभ्यो निवारणीया।<citation>का* १०१</citation></sense>
-<sense n="4">अड़ियलपन Mपुनः पुनः सूतनिषिद्धचापलम्।<citation>रघु* ३\४२घोड़े आदि का</citation></sense>
+<sense n="4">अड़ियलपन पुनः पुनः सूतनिषिद्धचापलम्।<citation>रघु* ३\४२घोड़े आदि का</citation></sense>
 </lexhead>
 
 <lexhead no="270">
@@ -5399,7 +5399,7 @@
 <sense no="1">द्रुतगति, स्फूर्ति</sense>
 <sense n="2">चञ्चलता, अस्थिरता, संक्रमणशीलता F<citation>कि* २\४१</citation></sense>
 <sense n="3">विचारशून्य या आवेशपूर्ण आचरण, उतावलापन, उद्दण्ड कृत्य Fधिक् चापलम्।<citation>उत्तर ४</citation>तद्गुणैः कर्णमागत्य चापलाय प्रचोदितः<citation>रघु* १\९</citation>स्वचित्तवृत्तिरिव चापलेभ्यो निवारणीया।<citation>का* १०१</citation></sense>
-<sense n="4">अड़ियलपन Mपुनः पुनः सूतनिषिद्धचापलम्।<citation>रघु* ३\४२घोड़े आदि का</citation></sense>
+<sense n="4">अड़ियलपन पुनः पुनः सूतनिषिद्धचापलम्।<citation>रघु* ३\४२घोड़े आदि का</citation></sense>
 </lexhead>
 
 <lexhead no="271">
@@ -5531,7 +5531,7 @@
 <jAwi>वृक्षः</jAwi>
 <sense no="1">तन्तु, विशेषकर कमल फूल का</sense>
 <sense n="2">सोना</sense>
-<sense n="3">धतूरे का पौधाMअंतिम दो अर्थों में पुं* भी</sense>
+<sense n="3">धतूरे का पौधाअंतिम दो अर्थों में पुं* भी</sense>
 </lexhead>
 
 <lexhead no="279">
@@ -5579,7 +5579,7 @@
 <prAwipaxikam>चारेक्षण</prAwipaxikam>
 <seg>चारः-ईक्षणः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">गुप्तचरों को आँख के स्थान में प्रयुक्त करने वाला राजा जो गुप्तचर या भेदिया रखता है और उन्हीं के माध्यम से देखता है Mचारचक्षुर्महीपतिः-<citation>मनु* ९\२५६</citation>तु* कामन्दकः- गावः पश्यन्ति गन्धेन, वेदैः पश्यन्ति च द्विजाः, चारैः पश्यन्ति राजानः चक्षुर्भ्यामितरे जनाः।<citation>रामा* भी - यस्मात्पश्यन्ति दूरस्थाः सर्वानर्थान्नराधिपाः</citation>चारेण तस्मादुच्यन्ते राजानश्चारचक्षुषः।या राजनीतिज्ञ</sense>
+<sense no="1">गुप्तचरों को आँख के स्थान में प्रयुक्त करने वाला राजा जो गुप्तचर या भेदिया रखता है और उन्हीं के माध्यम से देखता है चारचक्षुर्महीपतिः-<citation>मनु* ९\२५६</citation>तु* कामन्दकः- गावः पश्यन्ति गन्धेन, वेदैः पश्यन्ति च द्विजाः, चारैः पश्यन्ति राजानः चक्षुर्भ्यामितरे जनाः।<citation>रामा* भी - यस्मात्पश्यन्ति दूरस्थाः सर्वानर्थान्नराधिपाः</citation>चारेण तस्मादुच्यन्ते राजानश्चारचक्षुषः।या राजनीतिज्ञ</sense>
 </segmenthd>
 <segmenthd>
 <dentry>चारचक्षुस्</dentry>
@@ -5637,7 +5637,7 @@
 <sense n="3">नेता चालक</sense>
 <sense n="4">साथी</sense>
 <sense n="5">अश्वारोही, सवार</sense>
-<sense n="6">कारागार Mनिगडितचरणा चारके निरोद्धव्या।<citation>दश* ३२</citation></sense>
+<sense n="6">कारागार निगडितचरणा चारके निरोद्धव्या।<citation>दश* ३२</citation></sense>
 </lexhead>
 
 <lexhead no="283">
@@ -5649,8 +5649,8 @@
 <jAwi>मनुष्यः</jAwi>
 <upAXi>वृत्तिः</upAXi>
 <sense no="1">भ्रमणशील, तीर्थयात्री</sense>
-<sense n="2">घूमने- फिरने वाला नट या गवैया, नर्तक, भाँड, भाट M<citation>मनु* १२\१४</citation></sense>
-<sense n="3">स्वर्गीय गवैया, गंधर्व M<citation>श* २\१४</citation></sense>
+<sense n="2">घूमने- फिरने वाला नट या गवैया, नर्तक, भाँड, भाट <citation>मनु* १२\१४</citation></sense>
+<sense n="3">स्वर्गीय गवैया, गंधर्व <citation>श* २\१४</citation></sense>
 <sense n="4">वेद या अन्य धार्मिक ग्रन्थ का पाठ करने वाला</sense>
 <sense n="5">भेदिया</sense>
 </lexhead>
@@ -5678,7 +5678,7 @@
 <etymology>[चरित्र - अण्]</etymology>
 <sense no="1">शील, व्यवहार, काम करने की रीति</sense>
 <sense n="2">नेकनामी, सच्चरित्रता, ख्याति, सच्चाई, ईमानदारी, अच्छा चालचलन, चारित्र्यविहीन Fअनृतं नाभिधास्यामि चरित्रभ्रंशकारणम्।<citation>मृच्छ* ३\२५</citation>२६, चारित्र्यविहीन- आढ्योऽपि च दुर्गतो भवति - १\४३</sense>
-<sense n="3">सतीत्त्व, सदाचरण Mस्त्रियों का</sense>
+<sense n="3">सतीत्त्व, सदाचरण स्त्रियों का</sense>
 <sense n="4">स्वभाव, तबीयत</sense>
 <sense n="5">विशिष्ट आचार या अभ्यास</sense>
 <sense n="6">कुलक्रमागत आचार</sense>
@@ -6246,7 +6246,7 @@
 <prAwipaxikam>चिकुरनिकर</prAwipaxikam>
 <seg>चिकुर-निकरः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">बालों का गुच्छा या ढेर Mयस्याश्चोरश्चिकुरनिकरः कर्णपूरो मयूरः।<citation>प्रस* १\२२</citation></sense>
+<sense no="1">बालों का गुच्छा या ढेर यस्याश्चोरश्चिकुरनिकरः कर्णपूरो मयूरः।<citation>प्रस* १\२२</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>चिकुरपक्षः</dentry>
@@ -6431,7 +6431,7 @@
 <sense n="3">चैतन्य प्राप्त करना</sense>
 <sense n="4">प्रकट होना, चमकना</sense>
 <sense n="5">विचार, प्रत्यक्ष ज्ञान</sense>
-<sense n="6">प्रज्ञा, बुद्धि, समझ M<citation>भर्तृ* २\१</citation>३\१</sense>
+<sense n="6">प्रज्ञा, बुद्धि, समझ <citation>भर्तृ* २\१</citation>३\१</sense>
 <sense n="7">हृदय, मन</sense>
 <sense n="8">आत्मा, जीव, जीवन में सजीवता- सिद्धांत</sense>
 <sense n="9">ब्रह्म</sense>
@@ -6455,7 +6455,7 @@
 <prAwipaxikam>चिदाभास</prAwipaxikam>
 <seg>चित्-आभासः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">जीवMजो सांसारिक वासनाओं में लिप्त है।</sense>
+<sense no="1">जीवजो सांसारिक वासनाओं में लिप्त है।</sense>
 </segmenthd>
 <segmenthd>
 <dentry>चिदोल्लासः</dentry>
@@ -6583,9 +6583,9 @@
 <etymology>[चित् - क्त]</etymology>
 <jAwi>मनस्</jAwi>
 <sense no="1">देखना, ध्यान देना</sense>
-<sense n="2">विचार, चिन्तन, अवधान, इच्छा, अभिप्राय, उद्देश्य Mमच्चित्तः सततं भव।<citation>भग* १८\५७</citation>अनेकचित्तविभ्रान्त १६\१६</sense>
-<sense n="3">मन Mयदासौ दुर्वारः प्रसरति मदश्चित्तकरिणः।<citation>शा* १\२२इसी प्रकार ’चलचित्त’ आदि समस्त शब्द</citation></sense>
-<sense n="4">हृदयMबुद्धि का स्थान माना जाता है।</sense>
+<sense n="2">विचार, चिन्तन, अवधान, इच्छा, अभिप्राय, उद्देश्य मच्चित्तः सततं भव।<citation>भग* १८\५७</citation>अनेकचित्तविभ्रान्त १६\१६</sense>
+<sense n="3">मन यदासौ दुर्वारः प्रसरति मदश्चित्तकरिणः।<citation>शा* १\२२इसी प्रकार ’चलचित्त’ आदि समस्त शब्द</citation></sense>
+<sense n="4">हृदयबुद्धि का स्थान माना जाता है।</sense>
 <sense n="5">तर्क, बुद्धि, तर्कनाशक्ति</sense>
 <segmenthd>
 <dentry>चित्तानुवर्तिन्</dentry>
@@ -6698,7 +6698,7 @@
 <seg>चित्त-योनिः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">प्रेम, आवेश</sense>
-<sense no="2">प्रेम का देवता काम देव Mचित्तयोनिरभवत्पुनर्न यः।<citation>रघु* १९\४६</citation>सोऽयं प्रसिद्धविभवः खलु चित्तजन्मा।<citation>मा* १\२०</citation></sense>
+<sense no="2">प्रेम का देवता काम देव चित्तयोनिरभवत्पुनर्न यः।<citation>रघु* १९\४६</citation>सोऽयं प्रसिद्धविभवः खलु चित्तजन्मा।<citation>मा* १\२०</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>चित्तज्ञ</dentry>
@@ -6794,9 +6794,9 @@
 <prAwipaxikam>चित्तवृत्ति</prAwipaxikam>
 <seg>चित्त-वृत्तिः</seg>
 <grammar>स्त्री*</grammar>
-<sense no="1">मन की अवस्था या स्वभाव, रुचि, भावनाMएवमात्माभिप्रायसंभावितेष्टजनचित्तवृत्तिः प्रार्थयिता विडम्ब्यते।<citation>श* २</citation></sense>
+<sense no="1">मन की अवस्था या स्वभाव, रुचि, भावनाएवमात्माभिप्रायसंभावितेष्टजनचित्तवृत्तिः प्रार्थयिता विडम्ब्यते।<citation>श* २</citation></sense>
 <sense no="2">आन्तरिक अभिप्राय, संवेग Fयोग- द* में</sense>
-<sense no="3">मन की आन्तरिक क्रिया, मानसिक दृष्टि Mयोगश्चित्तवृत्तिनिरोधः-<citation>योग*</citation></sense>
+<sense no="3">मन की आन्तरिक क्रिया, मानसिक दृष्टि योगश्चित्तवृत्तिनिरोधः-<citation>योग*</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>चित्तवेदना</dentry>
@@ -6900,7 +6900,7 @@
 <sense n="6">धब्बा</sense>
 <sense n="7">सफेद कोढ़, फुलबहरी</sense>
 <sense n="8">काव्य के तीन भेदों में अन्तिम काव्यभेद Fमित्रात्रिपुत्रनेत्राय त्रयीशात्रवशत्रवे, गोत्रारिगोत्रजेत्राय गोत्रात्रे ते नमो नमः।सा* शा* में यह ’शब्दचित्र’ और ’अर्थवाच्यचित्र’ दो प्रकार का है, काव्यसौन्दर्य मुख्यरूप से अलंकारों के प्रयोग पर निर्भर करता है, जो शब्दों की ध्वनि और अर्थ पर आश्रित है, मम्मट परिभाषा देता है- <citation>शब्दचित्रं वाच्यचित्रमव्यङ्ग्यं त्ववरं स्मृतम्-काव्य*१</citation></sense>
-<sense n="9">अहा! कैसा विस्मय है! क्या अद्भुत बात है!Mचित्रं वधिरो नाम व्याकरणमध्येध्यते-<citation>सिद्धा*</citation></sense>
+<sense n="9">अहा! कैसा विस्मय है! क्या अद्भुत बात है!चित्रं वधिरो नाम व्याकरणमध्येध्यते-<citation>सिद्धा*</citation></sense>
 <segmenthd>
 <dentry>चित्राक्षी</dentry>
 <prAwipaxikam>चित्राक्षी</prAwipaxikam>
@@ -6942,7 +6942,7 @@
 <prAwipaxikam>चित्रान्न</prAwipaxikam>
 <seg>चित्र-अन्नम्</seg>
 <grammar>नपुं*</grammar>
-<sense no="1">रंगदार मसालों से प्रसाधित चावलM<citation>याज्ञ* १\३०४</citation></sense>
+<sense no="1">रंगदार मसालों से प्रसाधित चावल<citation>याज्ञ* १\३०४</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>चित्रापूपः</dentry>
@@ -6986,7 +6986,7 @@
 <prAwipaxikam>चित्रारम्भ</prAwipaxikam>
 <seg>चित्र-आरम्भः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">चित्रित दृश्य, चित्र की रूपरेखाM<citation>विक्रम* १\४</citation></sense>
+<sense no="1">चित्रित दृश्य, चित्र की रूपरेखा<citation>विक्रम* १\४</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>चित्रोक्तिः</dentry>
@@ -7126,7 +7126,7 @@
 <prAwipaxikam>चित्रगुप्त</prAwipaxikam>
 <seg>चित्र-गुप्तः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">यमराज के कार्यालय में मनुष्यों के गुण तथा अवगुणों को लिखने वालाMमुद्रा* १\२०</sense>
+<sense no="1">यमराज के कार्यालय में मनुष्यों के गुण तथा अवगुणों को लिखने वालामुद्रा* १\२०</sense>
 </segmenthd>
 <segmenthd>
 <dentry>चित्रगृहम्</dentry>
@@ -7162,7 +7162,7 @@
 <seg>चित्र-न्यस्त</seg>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">चित्रन्यस्त</prAwipaxikam>
-<sense no="1">चित्रित, तस्वीर में उतारा हुआM<citation>कु* २\२४</citation></sense>
+<sense no="1">चित्रित, तस्वीर में उतारा हुआ<citation>कु* २\२४</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>चित्रपक्षः</dentry>
@@ -7287,7 +7287,7 @@
 <seg>चित्र-रथः</seg>
 <grammar>पुं*</grammar>
 <sense no="1">सूर्य</sense>
-<sense no="2">गन्धर्वों के एक राजा का नामMअत्र मुनेस्तनयश्चित्रसेनादीनां पञ्चदशानां भ्रातृणामधिको गुणैः षोडशश्चित्ररथो नाम समुत्पन्नः।<citation>काव्य* १३६</citation><citation>विक्रम* १मुनि नामक पत्नी से कश्यप के १६ पुत्र हुए चित्ररथ उनमें से एक है।</citation></sense>
+<sense no="2">गन्धर्वों के एक राजा का नामअत्र मुनेस्तनयश्चित्रसेनादीनां पञ्चदशानां भ्रातृणामधिको गुणैः षोडशश्चित्ररथो नाम समुत्पन्नः।<citation>काव्य* १३६</citation><citation>विक्रम* १मुनि नामक पत्नी से कश्यप के १६ पुत्र हुए चित्ररथ उनमें से एक है।</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>चित्रलेख</dentry>
@@ -7295,7 +7295,7 @@
 <seg>चित्र-लेख</seg>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">चित्रलेख</prAwipaxikam>
-<sense no="1">सुन्दर रूपरेखा वाला, अत्यन्त मण्डलाकारMरुचिस्तव कलावती रुचिरचित्रलेखे भ्रुवौ।<citation>गीत*</citation></sense>
+<sense no="1">सुन्दर रूपरेखा वाला, अत्यन्त मण्डलाकाररुचिस्तव कलावती रुचिरचित्रलेखे भ्रुवौ।<citation>गीत*</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>चित्रलेखा</dentry>
@@ -7347,7 +7347,7 @@
 <seg>चित्र-शिखण्डिन्</seg>
 <grammar>पुं*</grammar>
 <etymology>[]</etymology>
-<sense no="1">सात ऋषियों का विशेषणMमरीचि, अंगिरस्, अत्रि, पुलस्त्य, पुलह, ऋतु और वसिष्ठ</sense>
+<sense no="1">सात ऋषियों का विशेषणमरीचि, अंगिरस्, अत्रि, पुलस्त्य, पुलह, ऋतु और वसिष्ठ</sense>
 <subsegmenthd>
 <dentry>चित्रशिखण्डिजः</dentry>
 <prAwipaxikam>चित्रशिखण्डिज</prAwipaxikam>
@@ -7570,9 +7570,9 @@
 <kind_of>मनोविकारः</kind_of>
 <jAwi>मानसिकभावः</jAwi>
 <sense no="1">चिन्तन, विचार</sense>
-<sense n="2">दुखःद या शोकपूर्ण विचार, परवाह, फ़िकर Mचिन्ताजडं दर्शनम्।<citation>श* ४\५इसी प्रकार ’वीतचिन्तः’ १२</citation></sense>
+<sense n="2">दुखःद या शोकपूर्ण विचार, परवाह, फ़िकर चिन्ताजडं दर्शनम्।<citation>श* ४\५इसी प्रकार ’वीतचिन्तः’ १२</citation></sense>
 <sense n="3">विचारविमर्श, विचारण</sense>
-<sense n="4">चिन्ता Mध्यानं चिन्ता हितानाप्तेः शून्यता श्वासतापकृत्।<citation>सा* द* २०१<vform>अलं* शा* में</vform><vform>३३ संचारी भावों में से एक</vform></citation></sense>
+<sense n="4">चिन्ता ध्यानं चिन्ता हितानाप्तेः शून्यता श्वासतापकृत्।<citation>सा* द* २०१<vform>अलं* शा* में</vform><vform>३३ संचारी भावों में से एक</vform></citation></sense>
 <segmenthd>
 <dentry>चिन्ताकुल</dentry>
 <prAwipaxikam>चिन्ताकुल</prAwipaxikam>
@@ -7845,7 +7845,7 @@
 <seg>चिर-कालिक</seg>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">चिरकालिक</prAwipaxikam>
-<sense no="1">दीर्घकाल से चला आता हुआ, पुराना, दीर्घकाल से चालू, जीर्ण या दीर्घकालानुबन्धीMरोग के विषय में</sense>
+<sense no="1">दीर्घकाल से चला आता हुआ, पुराना, दीर्घकाल से चालू, जीर्ण या दीर्घकालानुबन्धीरोग के विषय में</sense>
 </segmenthd>
 <segmenthd>
 <dentry>चिरकालीन</dentry>
@@ -8170,7 +8170,7 @@
 <is_a_part>चन्द्रः</is_a_part>
 <upAXi>चिह्नम्</upAXi>
 <sense no="1">निशान, धब्बा, छाप, प्रतीक, कुलचिह्ना, बिल्ला, लक्षण, ग्रामेषु यूपचिह्नेषु-<citation>रघु* १\४४</citation>३\५५, संनिपातस्यचिह्नानि-<citation>पंच* १\१७७</citation></sense>
-<sense n="2">संकेत, इंगित Mप्रसादचिह्नानि पुरःफलानि।<citation>रघु* २\२२</citation><citation>- प्रहर्षचिह्न-२\६८</citation></sense>
+<sense n="2">संकेत, इंगित प्रसादचिह्नानि पुरःफलानि।<citation>रघु* २\२२</citation><citation>- प्रहर्षचिह्न-२\६८</citation></sense>
 <sense n="3">राशिचिह्न</sense>
 <sense n="4">लक्ष्य दिशा</sense>
 <segmenthd>
@@ -8238,7 +8238,7 @@
 <prAwipaxikam>चीनांशुक</prAwipaxikam>
 <seg>चीनः-अंशुकम्</seg>
 <grammar>नपुं*</grammar>
-<sense no="3">चीन का कपड़ा, रेशम, रेशमी कपड़ाMचीनांशुकमिव केतोः प्रतिवातं नीयमानस्य।<citation>श* १\३४</citation>कु* ७\३, अमरु ७५</sense>
+<sense no="3">चीन का कपड़ा, रेशम, रेशमी कपड़ाचीनांशुकमिव केतोः प्रतिवातं नीयमानस्य।<citation>श* १\३४</citation>कु* ७\३, अमरु ७५</sense>
 </segmenthd>
 <segmenthd>
 <dentry>चीनवासस्</dentry>
@@ -8304,7 +8304,7 @@
 <seg>चीरम्-परिग्रह</seg>
 <grammar>वि*</grammar>
 <prAwipaxikam gen="स्त्री">चीरपरिग्रह</prAwipaxikam>
-<sense no="1">वल्कलधारीM<citation>कु* ६\९२</citation><citation>मनु* ११\१०१</citation></sense>
+<sense no="1">वल्कलधारी<citation>कु* ६\९२</citation><citation>मनु* ११\१०१</citation></sense>
 <sense no="2">चिथड़े या फटे पुराने कपड़े पहने हुए</sense>
 </segmenthd>
 <segmenthd>
@@ -8384,7 +8384,7 @@
 <grammar>नपुं*</grammar>
 <etymology>[चि - ष्वरच् नि* दीर्घः, चीव् - अरच् वा]</etymology>
 <sense no="1">पोशाक, फटा-पुराना, चिंथड़ा प्रेतचीवरवसा स्वनोग्रया।<citation>रघु* ११\१६</citation></sense>
-<sense n="2">भिक्षुक का परिधान, विशेषकर बौद्ध भिक्षु के वस्त्र Mचीवराणि परिधत्ते-<citation>सिद्धा*</citation>चीरचीवरपरिच्छदां-<citation>मा* १</citation>प्रक्षालित मेतन्मया चीवरखण्डम्-<citation>मृच्छ* ८</citation></sense>
+<sense n="2">भिक्षुक का परिधान, विशेषकर बौद्ध भिक्षु के वस्त्र चीवराणि परिधत्ते-<citation>सिद्धा*</citation>चीरचीवरपरिच्छदां-<citation>मा* १</citation>प्रक्षालित मेतन्मया चीवरखण्डम्-<citation>मृच्छ* ८</citation></sense>
 </lexhead>
 
 <lexhead no="416">
@@ -8647,7 +8647,7 @@
 <grammar>पुं*</grammar>
 <etymology>[चुल् - उकञ्]</etymology>
 <sense no="1">गहरा कीचड़</sense>
-<sense n="2">एक घूँट या हथेली भर पानी, चुल्लूMममौ स भद्रं चुलुके समुद्रः।<citation>नै* ८\४५</citation>ज्ञात्वा विधातुश्चलुकात् प्रसूतिम्।<citation>विक्रमाङ्क* १\३७</citation></sense>
+<sense n="2">एक घूँट या हथेली भर पानी, चुल्लूममौ स भद्रं चुलुके समुद्रः।<citation>नै* ८\४५</citation>ज्ञात्वा विधातुश्चलुकात् प्रसूतिम्।<citation>विक्रमाङ्क* १\३७</citation></sense>
 <sense n="3">छोटा बर्तन</sense>
 </lexhead>
 
@@ -8743,13 +8743,13 @@
 <sense n="6">शिखर, चोटी</sense>
 <sense n="7">चौबारा, अटारी</sense>
 <sense n="8">कुआँ</sense>
-<sense n="9">आभूषणMकलाई में पहना जाने वाला</sense>
+<sense n="9">आभूषणकलाई में पहना जाने वाला</sense>
 <segmenthd>
 <dentry>चूडाकरणम्</dentry>
 <prAwipaxikam>चूडाकरण</prAwipaxikam>
 <seg>चूडा-करणम्</seg>
 <grammar>नपुं*</grammar>
-<sense no="3">मुण्डन संस्कारM<citation>मनु* २\३५</citation></sense>
+<sense no="3">मुण्डन संस्कार<citation>मनु* २\३५</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>चूडाकर्मन्</dentry>
@@ -8763,7 +8763,7 @@
 <prAwipaxikam>चूडापाश</prAwipaxikam>
 <seg>चूडा-पाशः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">बालों का गुच्छा, केश समूहMचूडापाशे नवकुरबकम्-<citation>मेघ* ६५</citation></sense>
+<sense no="1">बालों का गुच्छा, केश समूहचूडापाशे नवकुरबकम्-<citation>मेघ* ६५</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>चूडामणिः</dentry>
@@ -8772,8 +8772,8 @@
 <grammar>पुं*</grammar>
 <kind_of>भूषणम्</kind_of>
 <upAXi>आभरणम्</upAXi>
-<sense no="1">सिर पर धारण किया जाने वाला आभूषण, चूडामणि, शीर्षफूल Mआलं से भी</sense>
-<sense no="2">बढ़िया श्रेष्ठ Mप्रायः समास के अन्त में</sense>
+<sense no="1">सिर पर धारण किया जाने वाला आभूषण, चूडामणि, शीर्षफूल आलं से भी</sense>
+<sense no="2">बढ़िया श्रेष्ठ प्रायः समास के अन्त में</sense>
 </segmenthd>
 <segmenthd>
 <dentry>चूडारत्नम्</dentry>
@@ -8781,7 +8781,7 @@
 <seg>चूडा-रत्नम्</seg>
 <grammar>नपुं*</grammar>
 <sense no="1">सिर पर धारण किया जाने वाला आभूषण, चूडामणि, शीर्षफूलAVआलं से भी</sense>
-<sense no="2">बढ़िया श्रेष्ठ Mप्रायः समास के अन्त में</sense>
+<sense no="2">बढ़िया श्रेष्ठ प्रायः समास के अन्त में</sense>
 </segmenthd>
 </lexhead>
 
@@ -8857,7 +8857,7 @@
 <sense no="1">चूरा</sense>
 <sense n="2">आटा</sense>
 <sense n="3">धूल</sense>
-<sense n="4">सुगन्धित चूरा, पिसा हुआ चन्दन, कपूर आदिMभवति विफलप्रेरणा चूर्णमुष्टिः।<citation>मेघ* ६८</citation></sense>
+<sense n="4">सुगन्धित चूरा, पिसा हुआ चन्दन, कपूर आदिभवति विफलप्रेरणा चूर्णमुष्टिः।<citation>मेघ* ६८</citation></sense>
 </lexhead>
 
 <lexhead no="456">
@@ -8940,7 +8940,7 @@
 <grammar>नपुं*</grammar>
 <etymology>[चूर्ण - कन्]</etymology>
 <sense no="1">सुगन्धित चूरा</sense>
-<sense n="2">गद्य रचना की एक शैली जो कर्णकटु शब्दों से रहित तथा अल्प समास वाली होMअकठोराक्षरं स्वल्पसमासं चूर्णक विदुः।<citation>छं* ६</citation></sense>
+<sense n="2">गद्य रचना की एक शैली जो कर्णकटु शब्दों से रहित तथा अल्प समास वाली होअकठोराक्षरं स्वल्पसमासं चूर्णक विदुः।<citation>छं* ६</citation></sense>
 </lexhead>
 
 <lexhead no="460">
@@ -9157,7 +9157,7 @@
 <etymology>[चित् - ल्युट् - टाप्]</etymology>
 <jAwi>बुद्धिः</jAwi>
 <sense no="1">ज्ञान, संज्ञा, प्रतिबोध, चुलुकयति मदीयां चेतनां चञ्चरीकः।<citation>रस*</citation>रघु* १२\१४, चेतनां प्रतिपद्यते।, संज्ञा फिर प्राप्त कर लेता है।</sense>
-<sense n="2">समझ, प्रज्ञा Mपश्चिमाद्यामिनियामात्प्र्रसादमिव चेतना।<citation>रघु* १७\१</citation></sense>
+<sense n="2">समझ, प्रज्ञा पश्चिमाद्यामिनियामात्प्र्रसादमिव चेतना।<citation>रघु* १७\१</citation></sense>
 <sense n="3">जीवन, प्राण, सजीवता F<citation>भग* १३\६</citation></sense>
 <sense n="4">बुद्धिमत्ता, विचरविमर्श</sense>
 </lexhead>
@@ -9231,22 +9231,22 @@
 <prAwipaxikam>चेदिपति</prAwipaxikam>
 <seg>चेदिः-पतिः</seg>
 <grammar>पुं*</grammar>
-<sense no="1">शिशुपाल, दमघोष का पुत्र, चेदि देश का राजाM<citation>शि* २\९६दे* ’ शिशुपाल’</citation></sense>
+<sense no="1">शिशुपाल, दमघोष का पुत्र, चेदि देश का राजा<citation>शि* २\९६दे* ’ शिशुपाल’</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>चेदिभूभृत्</dentry>
 <prAwipaxikam>चेदिभूभृत्</prAwipaxikam>
 <seg>चेदिः-भूभृत्</seg>
 <grammar>पुं*</grammar>
-<sense no="1">शिशुपाल, दमघोष का पुत्र, चेदि देश का राजा M<citation>शि* २\९७दे* ’ शिशुपाल’</citation></sense>
+<sense no="1">शिशुपाल, दमघोष का पुत्र, चेदि देश का राजा <citation>शि* २\९७दे* ’ शिशुपाल’</citation></sense>
 </segmenthd>
 <segmenthd>
 <dentry>चेदिराज्</dentry>
 <prAwipaxikam>चेदिराज्</prAwipaxikam>
 <seg>चेदिः-राज्</seg>
 <grammar>पुं*</grammar>
-<sense no="1">शिशुपाल, दमघोष का पुत्र, चेदि देश का राजा M<citation>शि* २\९८दे* ’ शिशुपाल’</citation></sense>
-<sense no="2">शिशुपाल, दमघोष का पुत्र, चेदि देश का राजा M<citation>शि* २\९९दे* ’ शिशुपाल’</citation></sense>
+<sense no="1">शिशुपाल, दमघोष का पुत्र, चेदि देश का राजा <citation>शि* २\९८दे* ’ शिशुपाल’</citation></sense>
+<sense no="2">शिशुपाल, दमघोष का पुत्र, चेदि देश का राजा <citation>शि* २\९९दे* ’ शिशुपाल’</citation></sense>
 </segmenthd>
 </lexhead>
 
@@ -9411,7 +9411,7 @@
 <sense n="4">धार्मिक पूजा का स्थान, वेदी, वह स्थान जहाँ देवमूर्ति प्रस्थापित रहती है</sense>
 <sense n="5">देवालय</sense>
 <sense n="6">बौद्ध और जैन मन्दिर</sense>
-<sense n="7">गूलर का वृक्ष, या सड़क के किनारे उगने वाला गूलर का पेड़ M<citation>मेघ* २३रथ्यावृक्ष- मल्लि*</citation></sense>
+<sense n="7">गूलर का वृक्ष, या सड़क के किनारे उगने वाला गूलर का पेड़ <citation>मेघ* २३रथ्यावृक्ष- मल्लि*</citation></sense>
 </lexhead>
 
 <lexhead no="501">
@@ -9943,7 +9943,7 @@
 <sense no="1">अधः पतन, अवपतन</sense>
 <sense n="2">विचलन</sense>
 <sense n="3">बूँद-बूँद गिरना, रिसना</sense>
-<sense n="4">खोना, वञ्चित होना Mधैर्यच्युति कुर्याम्- ३\१०</sense>
+<sense n="4">खोना, वञ्चित होना धैर्यच्युति कुर्याम्- ३\१०</sense>
 <sense n="5">अदृश्य होना, नष्ट होना</sense>
 <sense n="6">योनिच्छद</sense>
 <sense n="7">गुदा</sense>
