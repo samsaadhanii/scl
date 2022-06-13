@@ -15,7 +15,6 @@ lttoolbox
 make
 perl
 python
-xsltproc
 default-jdk
 timeout
 python3-pandas, python3-openpyxl,  anytree, devtrans
