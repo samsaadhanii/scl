@@ -103,13 +103,13 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
          print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 	 #  print $cgi->header (-charset => 'UTF-8');
            $sentences = '"'. $sentences  . '"';
-           my $exit_status = system("$GlblVar::SCLINSTALLDIR/MT/prog/shell/callmtshell.pl $GlblVar::TFPATH $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot $sentences $encoding $pid $script $sandhi $morph $parse $text_type $GlblVar::LTPROCBIN");
+           my $exit_status = system("$GlblVar::SCLINSTALLDIR/MT/prog/shell/callmtshell.pl $GlblVar::TFPATH $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot $sentences $encoding $pid $script $sandhi $morph $parse $text_type $GlblVar::LTPROCBIN $GlblVar::MYPYTHONPATH");
 
 	    if($exit_status > -1) {
 	         &increment_curr_id;
             }
 
-           system("perl $GlblVar::SCLINSTALLDIR/MT/prog/reader_generator/csv2json.pl < $GlblVar::TFPATH/tmp_in$pid/table.tsv");
+           system("perl $GlblVar::SCLINSTALLDIR/MT/prog/reader_generator/csv2json.pl < $GlblVar::TFPATH/tmp_in$pid/table_outscript.tsv");
       }
       #  }
   if($GlblVar::LOG eq "true") {

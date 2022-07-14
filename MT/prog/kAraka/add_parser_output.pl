@@ -142,7 +142,7 @@ while($in = <STDIN>){
           }
           $ana_count++;
         }
-        if(!$found) { print $w_ana[7],"\t";}
+        if(!$found) { print &pick_one_morph($w_ana[7]),"\t";}
         $word_count++;
         print "\n";
       }
@@ -152,3 +152,11 @@ while($in = <STDIN>){
 }
 
 untie(%kAraka_name);
+
+
+sub pick_one_morph {
+  my($mo) = @_;
+  $mo =~ s/\/.*//;
+ $mo;
+}
+1;

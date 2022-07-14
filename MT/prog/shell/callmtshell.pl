@@ -49,7 +49,7 @@
   }
   close(TMP1);
      `date > $tmp_file_path/tmp_in$pid/err$pid`;
-     $cmd = "$GlblVar::TIMEOUT $SCLINSTALLDIR/T/prog/shell/anu_skt_hnd.sh $SCLINSTALLDIR $GraphvizDot in$pid $tmp_file_path hi $script $sandhi $morph $parse $text_type NOECHO $LTPROCBIN $MYPYTHONPATH 2>> $tmp_file_path/tmp_in$pid/err$pid;";
+     $cmd = "$GlblVar::TIMEOUT $SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $SCLINSTALLDIR $GraphvizDot in$pid $tmp_file_path hi $script $sandhi $morph $parse $text_type NOECHO $LTPROCBIN $MYPYTHONPATH 2>> $tmp_file_path/tmp_in$pid/err$pid;";
      $exec_status = system($cmd);
      `date >> $tmp_file_path/tmp_in$pid/err$pid`;
      #system("rm $tmp_file_path/tmp_in$pid/err$pid");

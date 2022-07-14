@@ -49,6 +49,6 @@ $ANU_MT_PATH/kAraka/prepare_dot_files.sh $SCLINSTALLDIR $GraphvizDot $OUTSCRIPT 
 cat $TMP_FILES_PATH/parser_files/morph1_1.out > $TMP_FILES_PATH/$outfilename.1
 mv $TMP_FILES_PATH/$outfilename.1 $TMP_FILES_PATH/$outfilename
 
-$ANU_MT_PATH/shell/anu_skt_hnd.sh $SCLINSTALLDIR $GraphvizDot "in"$pid $TFPATH hi DEV NO UoHyd AVAILABLE Prose NOECHO $LTPROCBIN $MYPYTHONPATH 2>> $TMP_FILES_PATH/err$pid;
+$ANU_MT_PATH/shell/anu_skt_hnd.sh $SCLINSTALLDIR $GraphvizDot tmp_in${pid}/in$pid $TFPATH hi DEV UoHyd AVAILABLE Prose $HERITAGE_CGIURL $LTPROCBIN $MYPYTHONPATH 2>> $TMP_FILES_PATH/err1$pid
 
-$ANU_MT_PATH/interface/display_output.pl $SCLINSTALLDIR $TFPATH $OUTSCRIPT $pid
+$ANU_MT_PATH/interface/display_output.pl $SCLINSTALLDIR $TFPATH $OUTSCRIPT $pid A

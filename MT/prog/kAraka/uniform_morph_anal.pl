@@ -38,7 +38,7 @@ while($in = <STDIN>){
 
      foreach $ana (@ana) {
         @wrd_ana= split(/\t/,$ana);
-        $wrd = &get_std_spelling_fn($wrd_ana[3]);
+        $wrd = &get_std_spelling_fn($wrd_ana[2]);
         $w_ana = $wrd_ana[7];
         if($wrd =~ /.*\-([^\-]+)$/) { $uwwarapaxa = $1;} else {$uwwarapaxa = $wrd;}
         if($wrd =~ /^([^\-]+)\-.*/) { $pUrvapaxa = $1;} else {$pUrvapaxa = $wrd;}

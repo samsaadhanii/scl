@@ -20,9 +20,9 @@
 while($in = <STDIN>){
 chomp($in);
 @flds = split(/=/,$in,2);
- $flds[0] =~ s/^-//;
- if($flds[1] eq "") { $flds[1] = $flds[0]; $flds[1] =~ s/-$//;}
- if($flds[0] =~ /-$/) { 
+ $flds[0] =~ s/^-(.+)/$1/;
+ if($flds[1] eq "") { $flds[1] = $flds[0]; $flds[1] =~ s/(.+)-$/$1/;}
+ if($flds[0] =~ /(.+)-$/) { 
     $wrd .= $flds[0]; 
     $ana .= $flds[1]."-";  
  } else { 

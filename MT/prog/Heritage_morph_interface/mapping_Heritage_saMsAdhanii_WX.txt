@@ -2257,8 +2257,8 @@ ruXAxiH	vixaz	vicAraNe	A.pa	vix#2	vix4	vix
 ruXAxiH	SiRLz	viSeRaNe	pa.pa	SiR	SiR2	SiR
 ruXAxiH	piRLz	saFcUrNane	pa.pa	piR	piR1	piR
 ruXAxiH	Banjoz	Amarxane	pa.pa	BaFj	Banj1	BaFj
-ruXAxiH	Bujaz	aByavahAre	pa.pa	Buj#2	Buj2	Buj
-ruXAxiH	Bujaz	pAlane	pa.pa	-	Buj2	Buj
+ruXAxiH	Bujaz	aByavahAre	A.pa	Buj#2	Buj2	Buj
+ruXAxiH	Bujaz	pAlane	A.pa	-	Buj2	Buj
 ruXAxiH	wqhaz	hiMsAyAm	pa.pa	wqh	wqh4	wqh
 ruXAxiH	hisiz	hiMsAyAm	pa.pa	hiMs	his1	hiMs
 ruXAxiH	unxIz	klexane	pa.pa	unx	unx1	unx
@@ -2901,8 +2901,8 @@ curAxiH	Cixra	Bexane	pa.pa	-	Cixra1	Cixra
 curAxiH	Cixra	karNaBexe	pa.pa	-	Cixra1	Cixra
 curAxiH	anXa	xqRtyupaGAwe	pa.pa	-	anXa1	anXa
 curAxiH	xaNda	xaNdanipAwane	pa.pa	-	xaNda1	xaNda
-curAxiH	afka	lakRaNe	pa.pa	-	afka1	afka
-curAxiH	afka	paxe	pa.pa	-	afka1	afka
+curAxiH	afka	lakRaNe	pa.pa	afka	afka1	afka
+curAxiH	afka	paxe	pa.pa	afka	afka1	afka
 curAxiH	afga	lakRaNe	pa.pa	-	afga1	afga
 curAxiH	afga	paxe	pa.pa	-	afga1	afga
 curAxiH	suKa	wawkriyAyAm	pa.pa	-	suKa1	suKa

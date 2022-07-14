@@ -23,13 +23,14 @@ GraphvizDot=$2
 TMP_DIR_PATH=$4
 LANG=$5
 OUTSCRIPT=$6
-SANDHI=$7
-MORPH=$8
-PARSE=$9
-TEXT_TYPE=${10}
-ECHO=${11}
-LTPROCBIN=${12}
-MYPYTHONPATH=${13}
+MORPH=$7
+PARSE=$8
+TEXT_TYPE=$9
+HERITAGE_CGIURL=${10}
+LTPROCBIN=${11}
+MYPYTHONPATH=${12}
+
+echo $MYPYTHONPATH > /tmp/aa
 
 export MT_PATH=$SCLINSTALLDIR/MT
 ANU_MT_PATH=$MT_PATH/prog
@@ -71,19 +72,15 @@ else
 
       $ANU_MT_PATH/format/format.sh $SCLINSTALLDIR < $TMP_DIR_PATH/$3 > $temp_files_path/$fbn.out
 ###########
-      if [ $SANDHI = "YES" ] ; then
-        cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.orig
-        $ANU_MT_PATH/sandhi_splitter/split.sh $SCLINSTALLDIR $temp_files_path $LTPROCBIN $temp_files_path/$fbn.out
-      fi
-      if [ $SANDHI = "NO" ] ; then
-        cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.orig
-        $ANU_MT_PATH/sandhi_splitter/copy_field.pl < $temp_files_path/$fbn.out.orig > $temp_files_path/$fbn.out
-      fi
+      cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.orig
+      $ANU_MT_PATH/sandhi_splitter/copy_field.pl  $temp_files_path/sandhied_$fbn < $temp_files_path/$fbn.out.orig > $temp_files_path/$fbn.out
 ###########
 #      /usr/bin/time "%Uuser %Ssystem %Eelapsed %PCPU (%Xtext+%Ddata %Mmax)k\n%Iinputs+%Ooutputs (%Fmajor+%Rminor)pagefaults %Wswaps %C\n" 
+      #cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.pre_morph
 #date
 $ANU_MT_PATH/morph/morph.sh $SCLINSTALLDIR $temp_files_path/$fbn.out $temp_files_path/$fbn.mo_all $temp_files_path/$fbn.mo_prune $temp_files_path/$fbn.mo_kqw $LTPROCBIN $temp_files_path
 #date
+      #cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.post_morph
 #       if [ $DEBUG = "OFF" ]; then 
 #         rm $temp_files_path/$fbn.mo_all $temp_files_path/$fbn.mo_prune $temp_files_path/$fbn.mo_kqw
 #       fi
@@ -101,7 +98,9 @@ $ANU_MT_PATH/morph/morph.sh $SCLINSTALLDIR $temp_files_path/$fbn.out $temp_files
 # Field 9: morph analysis corresponding to the kaaraka role
 # Field 10: kaaraka role
 #     /usr/bin/time "%Uuser %Ssystem %Eelapsed %PCPU (%Xtext+%Ddata %Mmax)k\n%Iinputs+%Ooutputs (%Fmajor+%Rminor)pagefaults %Wswaps %C\n" 
-$ANU_MT_PATH/kAraka/shabdabodha.sh $SCLINSTALLDIR $GraphvizDot $Heritage_Input $temp_files_path $fbn.out $fbn.kAraka $OUTSCRIPT $PARSE $TEXT_TYPE $ECHO 
+#date
+$ANU_MT_PATH/kAraka/shabdabodha.sh $SCLINSTALLDIR $GraphvizDot $Heritage_Input $temp_files_path $fbn.out $fbn.kAraka $OUTSCRIPT $PARSE $TEXT_TYPE $HERITAGE_CGIURL
+#date
 #cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
 #echo "within Parse" > /tmp/aaa
  fi  # PARSE != AVAILABLE ends here
@@ -115,11 +114,11 @@ $ANU_MT_PATH/kAraka/shabdabodha.sh $SCLINSTALLDIR $GraphvizDot $Heritage_Input $
 
 ############
 # wsd in the 12th field
-    cp $temp_files_path/$fbn.out $temp_files_path/$fbn.pre_wsd
+    #cp $temp_files_path/$fbn.out $temp_files_path/$fbn.pre_wsd
     $ANU_MT_PATH/wsd/wsd_rules.sh $SCLINSTALLDIR $temp_files_path $fbn.out $fbn.wsd $fbn.wsd_upapaxa
-    cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_wsd
+    #cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_wsd
 #    if [ $DEBUG = "OFF" ]; then 
-      rm $temp_files_path/$fbn.wsd $temp_files_path/$fbn.wsd_upapaxa
+     #rm $temp_files_path/$fbn.wsd $temp_files_path/$fbn.wsd_upapaxa
 #    fi
 ###########
 ### Map to hindi
@@ -134,7 +133,7 @@ $ANU_MT_PATH/kAraka/shabdabodha.sh $SCLINSTALLDIR $GraphvizDot $Heritage_Input $
     $ANU_MT_PATH/map/lwg_avy_avy.pl $SCLINSTALLDIR $MT_PATH/data hi |\
     $ANU_MT_PATH/hn/sent_gen/agreement.pl $SCLINSTALLDIR $MT_PATH/data $ANU_MT_PATH/hn/sent_gen  |\
     $ANU_MT_PATH/hn/sent_gen/call_gen.pl $SCLINSTALLDIR  |\
-    $ANU_MT_PATH/interface/modify_mo_for_display.pl $SCLINSTALLDIR > $temp_files_path/ttt
+    $ANU_MT_PATH/interface/modify_mo_for_display.pl $SCLINSTALLDIR  > $temp_files_path/ttt
     mv $temp_files_path/ttt $temp_files_path/$fbn.out
 
 ##########
@@ -162,11 +161,17 @@ $ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out > $temp_fil
 $MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py -i $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv -s $SCLINSTALLDIR -t hi
 $my_converter < $temp_files_path/table.tsv > $temp_files_path/table_outscript.tsv
 $my_converter < $temp_files_path/anvaya.tsv > $temp_files_path/anvaya_outscript.tsv
-$ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin A < $temp_files_path/anvaya_outscript.tsv > $temp_files_path/../anvaya_$fbn.html
-perl $ANU_MT_PATH/interface/get_anvaya_shloka_translation.pl ${temp_files_path}/anvaya_$fbn  ${temp_files_path}/anvaya_${fbn}_wx_trnsltn < $temp_files_path/anvaya.tsv
+
+#Generate Anvaya order html file
+$ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin $HERITAGE_CGIURL A < $temp_files_path/anvaya_outscript.tsv > $temp_files_path/../anvaya_$fbn.html
+$ANU_MT_PATH/interface/get_anvaya_shloka_translation.pl ${temp_files_path}/anvaya_$fbn  ${temp_files_path}/anvaya_${fbn}_wx_trnsltn < $temp_files_path/anvaya.tsv
+
+#Generate Shloka order html file
+$ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin $HERITAGE_CGIURL S < $temp_files_path/anvaya_outscript.tsv > $temp_files_path/../shloka_$fbn.html
+
 $my_converter < $temp_files_path/anvaya_${fbn}_wx_trnsltn > $temp_files_path/anvaya_${fbn}_trnsltn
 $MYPYTHONPATH $ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table_outscript.tsv $temp_files_path/table.xlsx
 #if [ $DEBUG = "OFF" ]; then 
-rm -rf $temp_files_path/tmp* $temp_files_path/in* $temp_files_path/wsd_files
+#rm -rf $temp_files_path/tmp* $temp_files_path/in* $temp_files_path/wsd_files
 #fi
 fi

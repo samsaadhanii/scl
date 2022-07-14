@@ -24,7 +24,7 @@ MT_PATH=$SCLINSTALLDIR/MT
 ANU_MT_PATH=$MT_PATH/prog
 
 if [ $# -lt 10 ] ; then
-  echo "Usage: shabdabodha.sh SCLINSTALLDIR GraphvizDot GH_INPUT TMP_FILES_PATH <file> REL_OUTPUT_FILE [DEV|IAST] [NO|Partial|Full] [prose|Sloka] [ECHO|NOECHO]"
+  echo "Usage: shabdabodha.sh SCLINSTALLDIR GraphvizDot GH_INPUT TMP_FILES_PATH <file> REL_OUTPUT_FILE [DEV|IAST] [NO|Partial|Full] [prose|Sloka]"
   exit
 else
    GH_INPUT=$3
@@ -32,16 +32,12 @@ else
    OUTSCRIPT=$7
    PARSE=$8
    TEXT_TYPE=$9
-   ECHO=$10
 fi
 
 mkdir -p $TMP_FILES_PATH/parser_files
 
 if [ $PARSE != "NO" ] ; then
  
- if [ $ECHO = "ECHO" ] ; then
-      echo "creating arcs"
- fi
  
 $ANU_MT_PATH/kAraka/uniform_morph_anal.pl $SCLINSTALLDIR $TMP_FILES_PATH <  $TMP_FILES_PATH/$5
  
@@ -54,9 +50,6 @@ j=`basename $i .clp`
 $ANU_MT_PATH/kAraka/Prepare_Graph/build_graph $TMP_FILES_PATH/parser_files/ $TEXT_TYPE < $i  |\
 $ANU_MT_PATH/kAraka/kaaraka_sharing.pl $SCLINSTALLDIR $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt > $TMP_FILES_PATH/parser_files/parseop$j.txt
 
- if [ $ECHO = "ECHO" ] ; then
-      echo "calling constraint solver to solve the equations"
- fi
  
  $ANU_MT_PATH/kAraka/add_parser_output.pl $SCLINSTALLDIR $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt $TMP_FILES_PATH/parser_files/parseop$j.txt 1 $GH_INPUT < $TMP_FILES_PATH/parser_files/morph$j.out |\
   $ANU_MT_PATH/kAraka/add_abhihita_info.pl > $TMP_FILES_PATH/parser_files/morph${j}_1.out

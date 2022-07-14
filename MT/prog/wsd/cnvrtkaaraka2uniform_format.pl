@@ -35,6 +35,7 @@ while($in = <STDIN>){
         $ana =~ s/.*\$-//;
         @wrd_ana = split(/\//,$ana);
         $ana_count = 1;
+        $rt_part1 = "";
         
         $cat = "ajFAwa";
         foreach $wrd_ana (@wrd_ana) {
@@ -76,8 +77,20 @@ while($in = <STDIN>){
               $wrd_ana =~ s/<vargaH:[^>]+>//;
           }
 
-          $wrd_ana =~ /<rt:([^>]+)>/;
-          $t = $1;
+          if($wrd_ana !~ /\-/) {
+             if($wrd_ana =~ /<rt:([^>]+)>/){
+                $t = $rt_part1.$1;
+             } elsif($wrd_ana !~ /<word:/) {
+                     $wrd_ana =~ s/^([^<]+)/<word:$word><rt:$1>/;
+             }
+          } else {
+             if ($wrd_ana =~ /<word:([^>]+)-/){
+                 $rt_part1 = $1;
+             }
+             if($wrd_ana =~ s/<rt:.*-([^><]+)>?</<rt:$rt_part1$1></){
+               $t = $1;
+             }
+          }
           if($t =~ /.*\-([^\-]+)$/) { $compound_hd = $1;} 
           else {$compound_hd = $t;}
           $wrd_ana =~ s/<rt:([^>]+)>/<rt:$t><compound_hd:$compound_hd>/;

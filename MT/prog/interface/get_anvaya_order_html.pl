@@ -4,7 +4,8 @@ $fbn = $ARGV[0];
 $TFPATH = $ARGV[1];
 $outscript = $ARGV[2];
 $CGIURL = $ARGV[3];
-if($ARGV[4] eq "A") {$anvaya = 1;} else {$anvaya = 0;}
+$HERITAGE_CGIURL = $ARGV[4];
+if($ARGV[5] eq "A") {$anvaya = 1;} else {$anvaya = 0;}
 
 print <<header
 <?xml version="1.0"?>
@@ -13,17 +14,33 @@ print <<header
 <p><center>
 <a id="logo" href=\"/scl/index.html\"><font color=\"DarkBlue\"> संसाधनी-Saṃdha </font></a>
 <a id="about" href="/scl/MT/about.html" target="_new">About</a>
+&nbsp; &nbsp; &nbsp; &nbsp;
 <a id="help" href="/scl/MT/anu_help.html" target="_new">Help</a>
 <input type="hidden" name="no_of_rows" value="8"/>
 <input type="button" value="Show/Hide Rows..." onclick="window.open('/scl/MT/rows.html','ShowHideRowsWindow','top=200,left=200,height=500,width=300,location=no,menubar=no,toolbar=no,directories=no,statusbar=no');"/>
 <input type="checkbox" name="border_value" onchange="toggle_borders()"/>Borders
 <a href="/scl/MT/DEMO/./tmp_$fbn/table.xlsx">Save Annotation</a> 
-<a href="/cgi-bin/scl/skt_gen/Sentence/gen.cgi?filename=$TFPATH/table.tsv">Generate</a>
+&nbsp; &nbsp; &nbsp; &nbsp;
+<a href="/cgi-bin/scl/skt_gen/Sentence/gen.cgi?filename=$TFPATH/table.tsv">Generate</a> 
+&nbsp; &nbsp; &nbsp; &nbsp;
+header
+;
+
+$pid = $fbn;
+$pid =~ s/^in//;
+
+if($anvaya == 1) {
+print "<a href=\"/cgi-bin/scl/MT/toggle_order.cgi?out_encoding=$outscript&pid=$pid&order=S\">Shloka Order</a> \n";
+} else {
+print "<a href=\"/cgi-bin/scl/MT/toggle_order.cgi?out_encoding=$outscript&pid=$pid&order=A\">Anvaya Order</a> \n";
+}
+
+print <<header1
 </center></p>
 </form>
 </div>
 <div class="float_clear"/>
-header
+header1
 ;
 
 @in = <STDIN>;
@@ -36,16 +53,25 @@ chomp($in);
 
 print "<table cellspacing=\"0\" border=\"0\">\n";
 foreach ($fld=1;$fld<=$#flds;$fld++){
-   if ($fld == 1 || $fld > 3) {
+   if ($fld == 1 || $fld > 2) {
       print "<tr class=\"row",$fld,"\">";
       if($word == 1) {
         print "<td class=\"number\">";
-        if($fld == 1) { # index
+        if($fld == 1) { # words
           print "<a href=\"/",$CGIURL,"/scl/MT/prog/interface/call_parser_summary.cgi?filename=",$TFPATH,"\&amp;outscript=",$outscript,"&rel=''&sentnum=1&save=no&translate=no\"  onmouseover=\"Tip('<img src=/scl/MT/DEMO/tmp_",$fbn,"/1.1.svg >' ,FONTSIZE,'18pt',HEIGHT,400,WIDTH,900,STICKY,true,CLOSEBTN,true)\">\n";
+        }
+        if($fld == 3) { # sandhied words
+          open(TMP,"<$TFPATH/sandhied_in$pid");
+          $sentences = <TMP>;
+          close(TMP);
+          chomp($sentences);
+          $sentences =~ s/ /\+/g;
+          print "<a href=\"$HERITAGE_CGIURL?lex=MW\&cache=t\&st=t\&us=f\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=g\">\n";
         }
         print "<span Onclick=\"toggle();\">";
         print "1.",chr(64+$fld);
-        print "<\/span><\/a>";
+        print "<\/span>";
+        if (($fld == 1) || ($fld == 3)) { print "<\/a>";}
         print "<\/td>";
       }
       $color_code = &color_code($flds[5]);

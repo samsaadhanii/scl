@@ -28,7 +28,6 @@ require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 
 # use CGI qw( :standard );
- 
 # my $cgi = new CGI;
 # print $cgi->header (-charset => 'UTF-8');
  
@@ -42,23 +41,19 @@ print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
 read(STDIN, $b, $ENV{'CONTENT_LENGTH'});
 
-# if (param()){
-#foreach my $p (sort keys %param){
-#    if($p eq "DISPLAY") { $display = $param{$p};}
-#    else {$buffer .= $param{$p};}
-    $display = $param{DISPLAY};
-    my $hash_count = keys %param;
-    for (my $i = 1; $i <= $hash_count; $i++) {
-	    $field_nm = "field".$i;
-            $buffer .= $param{$field_nm};
-    }
+ $display = $param{DISPLAY};
+ my $hash_count = keys %param;
+ for (my $i = 1; $i <= $hash_count; $i++) {
+       $field_nm = "field".$i;
+       $buffer .= $param{$field_nm};
+ }
  my $pid = $$;
  if (-d "$GlblVar::TFPATH/tmp_in$pid") {
 	system ("rm -rf $GlblVar::TFPATH/tmp_in$pid");
  }
+ chomp($buffer);
+ $buffer =~ s/[ ]+$//;
  system("mkdir -p $GlblVar::TFPATH/tmp_in$pid");
-
- #system("echo '$buffer' > /tmp/222; echo 'written' >> /tmp/222");
  system("echo '$buffer' | $GlblVar::SCLINSTALLDIR/MT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $GlblVar::SCLINSTALLDIR > $GlblVar::TFPATH/tmp_in$pid/in$pid.out");
 system("cp $GlblVar::TFPATH/tmp_in$pid/in$pid.out $GlblVar::TFPATH/tmp_in$pid/in$pid.out.orig");
 system("cut -f1-7 $GlblVar::TFPATH/tmp_in$pid/in$pid.out > $GlblVar::TFPATH/tmp_in$pid/in${pid}_tmp1_7");
@@ -70,10 +65,6 @@ system("echo -n \"<s> \"> $GlblVar::TFPATH/in$pid; cat $GlblVar::TFPATH/tmp_in$p
 
 if($display eq "") { $display = "DEV";}
 
-#system("$GlblVar::SCLINSTALLDIR/MT/prog/shell/Heritage_anu_skt_hnd.sh in$pid $GlblVar::TFPATH $display Full Prose NOECHO ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
-system("$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/Heritage_anu_skt_hnd.sh in$pid $GlblVar::TFPATH $display Full Sloka NOECHO ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
- #system("$GlblVar::SCLINSTALLDIR/MT/prog/shell/Heritage_anu_skt_hnd.sh in$pid $GlblVar::TFPATH $display Full Sloka NOECHO ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
-#system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_anu_out.pl $pid $GlblVar::TFPATH");
-system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $display $pid");
+system("$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/Heritage_anu_skt_hnd.sh in$pid $GlblVar::TFPATH $display Full Sloka $GlblVar::HERITAGE_CGIURL ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
+system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $display $pid A");
 
- #}

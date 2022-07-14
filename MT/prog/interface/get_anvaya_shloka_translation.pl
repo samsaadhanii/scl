@@ -13,6 +13,8 @@ $shloka_anvaya .= " ". $flds[1];
 $trans_anvaya .= " ". $flds[7];
 $trans_anvaya =~ s/_/ /g;
 }
+$shloka_anvaya .= " ";
+$trans_anvaya .= " ";
 
 open (TMP,">$ARGV[0]") || die "Can't open $ARGV[0] for writing";
 #print "shloka = $shloka_anvaya\n";

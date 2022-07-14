@@ -7,6 +7,7 @@ $SCLINSTALLDIR = $ARGV[0];
 $TFPATH = $ARGV[1];
 $out_encoding = $ARGV[2];
 $pid = $ARGV[3];
+$order = $ARGV[4]; # S or A - for Shloka or Anvaya
 
 require "$SCLINSTALLDIR/converters/convert.pl";
 
@@ -31,9 +32,14 @@ $hnd = "tmp_in".$pid."/anvaya_in".$pid."_trnsltn";
 
 #Print Analysis Table
 
-$ana = "anvaya_in".$pid.".html";
-&print_ana ($ana);
+if($order eq "A") {
+ $ana = "anvaya_in".$pid.".html";
+}
 
+if($order eq "S") {
+ $ana = "shloka_in".$pid.".html";
+}
+ &print_ana ($ana);
 
 ####  Sub Routine ###
 sub get_conv {
@@ -93,9 +99,6 @@ $conv;
       print "</center></div> \n";
       }
 
-      #if($orig eq "orig") { system("cat $TFPATH/$skt | $my_converter");}
-      #else {system("cat $TFPATH/$skt");}
-
       system("cat $TFPATH/$skt | $my_converter");
 
       print "</div>\n<!--division for sanskrit texts ends here-->\n<!--division for hindi texts starts here-->\n</td><td width=\"50%\">";
@@ -110,7 +113,6 @@ $conv;
       print "</center></div> \n";
 
       system("cat $TFPATH/$hnd");
-      #system("cat $TFPATH/$hnd | $my_converter");
 
       print "</div></td></tr>\n
       <!--division for hindi texts ends here-->\n</table>\n<br><br><br><br><br>\n ";

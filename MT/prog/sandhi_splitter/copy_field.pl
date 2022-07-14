@@ -17,12 +17,27 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
+open(TMP,"<$ARGV[0]");
+$sandhied_words = <TMP>;
+chomp($sandhied_words);
+close(TMP);
+@sandhied_words = split(/ /,$sandhied_words);
+
+$i=0; $ls = 0; $lw = 0;
 while($in = <STDIN>){
    if($in =~ /^$/) { 
       print $in;
    } else {
       ($index,$ltag,$word,$rtag) = split(/\t/,$in);
-       $index =~ /^([0-9]+)\.([0-9]+)\.([0-9]+)/;
-       print $index,"\t",$ltag,"\t",$word,"\t",$word,"\t",$rtag;
-   }
+#      if (abs($lw-$ls) < 2){
+          $word =~ /^(..)/;
+          $fs = $1;
+          if ($sandhied_words[$i] =~ /^$fs/) { $word_s = $sandhied_words[$i]; $ls = length($word_s); $lw = length($word);$i++;} 
+          else {$word_s = "-"; $lw += length($word);}
+          print $index,"\t",$ltag,"\t",$word,"\t",$word_s,"\t",$rtag;
+#      } else {
+#         $word_s = ""; $lw += length($word);
+#         print $index,"\t",$ltag,"\t",$word,"\t-\t",$rtag;
+#      }
+  }
 }

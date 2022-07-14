@@ -61,9 +61,8 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 
       if ($out_encoding eq "Devanagari") { $script = "DEV";}
       if ($out_encoding eq "IAST") { $script = "IAST";}
-      if ($splitter eq "None") { $sandhi = "NO"; $morph = "UoHyd";}
-      if ($splitter eq "Heritage Splitter") { $sandhi = "YES"; $morph = "GH";}
-#      if ($splitter eq "Anusaaraka Splitter") { $sandhi = "YES"; $morph = "UoHyd";}
+      if ($splitter eq "None") { $morph = "UoHyd";}
+      if ($splitter eq "Heritage Splitter") { $morph = "GH";}
 
       my $pid = $$;
 
@@ -80,22 +79,8 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
       $sentences =~ s/\.[ ]+$/./g;
       $sentences =~ s/[ ]+$//g;
 
-
       $sentences=&convert($encoding,$sentences,$GlblVar::SCLINSTALLDIR);
       chomp($sentences);
-
-      if($morph eq "GH") {
-         $sentences =~ s/\.//;
-	 $cmd = "$GlblVar::HERITAGE_CGIURL?lex=MW\&cache=t\&st=t\&us=f\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=g";
-	 #print CGI-> redirect($cmd);
-	 print "location:$cmd\n\n";
-      } else {
-	      $q_id = &get_queue_id;
-	      $cpid = &get_curr_id;
-	      if ($cpid != $q_id) { 
-		      #sleep(1);
-		      $cpid = &get_curr_id;
-	      }
 
          if(-d "$GlblVar::TFPATH/tmp_in$pid") {
             system("rm -rf $GlblVar::TFPATH/tmp_in$pid");
@@ -103,10 +88,11 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
             system("rm -f $GlblVar::TFPATH/in$pid_trnsltn");
          }
          system("mkdir -p $GlblVar::TFPATH/tmp_in$pid");
-         open(TMP,">$GlblVar::TFPATH/tmp_in$pid/wor.$pid") || die "Can't open $GlblVar::TFPATH/tmp_in$pid/wor.$pid for writing";
+         open(TMP,">$GlblVar::TFPATH/tmp_in${pid}/wor.$pid") || die "Can't open $GlblVar::TFPATH/tmp_in$pid/wor.$pid for writing";
          print TMP $sentences,"\n";
          close(TMP);
-         open(TMP1,">$GlblVar::TFPATH/tmp_in$pid/in$pid");
+
+         open(TMP1,">$GlblVar::TFPATH/tmp_in${pid}/in$pid");
          @sentences=split(/\./,$sentences);
          foreach $sent (@sentences) {
             $sent =~ s/^\n/ /;
@@ -119,27 +105,43 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
          }
          close(TMP1);
 
-         print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
-           #$sentences = '"'. $sentences  . '"';
-          # my $exit_status = system("$GlblVar::SCLINSTALLDIR/MT/prog/shell/callmtshell.pl $GlblVar::TFPATH $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot $sentences $encoding $pid $script $sandhi $morph $parse $text_type $GlblVar::LTPROCBIN $GlblVar::MYPYTHONPATH");
+      system("cp $GlblVar::TFPATH/tmp_in${pid}/wor.$pid $GlblVar::TFPATH/tmp_in${pid}/sandhied_in$pid");
+      print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
+      if($morph eq "GH") {
+         $sentences =~ s/\.//;
+         $sentences =~ s/ /\+/g;
+	 $cmd = "echo > /Users/ambakulkarni/amba/SKT/heritage_platform/ML/best_sol.txt;QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=g\";/Library/Webserver/CGI-Executables/SKT/sktgraph2.cgi > /tmp/1.txt; echo \$QUERY_STRING > /tmp/2.txt";
+         system($cmd);
+         open (TMP,"</Users/ambakulkarni/amba/SKT/heritage_platform/ML/best_sol.txt");
+         $split = <TMP>;
+         close (TMP);
+         open (TMP,">$GlblVar::TFPATH/tmp_in${pid}/in$pid");
+         print TMP "<s>$split<\/s>\n"; 
+         close (TMP);
+         open (TMP,">$GlblVar::TFPATH/tmp_in${pid}/wor.$pid");
+         print TMP "$split\n"; 
+         close (TMP);
+         #system("cp /Users/ambakulkarni/amba/SKT/heritage_platform/ML/best_sol.txt $GlblVar::TFPATH/tmp_in${pid}/wor.$pid;");
+         $morph="UoHyd";
+      } 
+	      $q_id = &get_queue_id;
+	      $cpid = &get_curr_id;
+	      if ($cpid != $q_id) { 
+		      #sleep(1);
+		      $cpid = &get_curr_id;
+	      }
 
-	  #  if($exit_status > -1) {
-	  #       &increment_curr_id;
-          #  }
           `date > $GlblVar::TFPATH/tmp_in$pid/err$pid`;
-          $cmd = "$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot tmp_in${pid}/in$pid $GlblVar::TFPATH hi $script $sandhi $morph $parse $text_type NOECHO $GlblVar::LTPROCBIN $GlblVar::MYPYTHONPATH 2>> $GlblVar::TFPATH/tmp_in$pid/err$pid;";
+          $cmd = "$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot tmp_in${pid}/in$pid $GlblVar::TFPATH hi $script $morph $parse $text_type $GlblVar::HERITAGE_CGIURL $GlblVar::LTPROCBIN $GlblVar::MYPYTHONPATH 2>> $GlblVar::TFPATH/tmp_in$pid/err$pid;";
      $exec_status = system($cmd);
      `date >> $GlblVar::TFPATH/tmp_in$pid/err$pid`;
-	#$cmd = "/usr/local/bin/lt-proc -c /Users/ambakulkarni/amba/scl/morph_bin/all_but_samboXana_morf.bin < /tmp/SKT_TEMP/tmp_in1991/words > /tmp/111";
-        #system($cmd);
-        #`date >> $GlblVar::TFPATH/tmp_in$pid/err$pid`;
 
      if($exec_status > -1 ) { 
          &increment_curr_id;
      }
 
-           system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $script $pid");
-      }
+     system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $script $pid A");
+
   if($GlblVar::LOG eq "true") {
     close(TMP1);
   }

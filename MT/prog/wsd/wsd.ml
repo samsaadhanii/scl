@@ -14,7 +14,7 @@ EXTEND Gram
   GLOBAL: morphs;
   morphs:
     [ [ l = morph_rec; `EOI -> l
-      | l = morph_rec -> failwith "Wrong morph data"
+      | l = morph_rec -> failwith "Wrong morph data: WSD"
     ] ] ;
   morph_rec:
     [ [ -> []
