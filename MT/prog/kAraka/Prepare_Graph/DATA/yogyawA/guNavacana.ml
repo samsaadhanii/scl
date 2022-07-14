@@ -16,6 +16,7 @@ value guNavacana_list = [
 "ananyA";
 "anikewa";
 "aniwya";
+"aniwyA";
 "anukUla";
 "anurakwa";
 "anurakwA";
@@ -177,6 +178,8 @@ value guNavacana_list = [
 "nirmala";
 "nirmama";
 "niruxXa";
+"niwya";
+"niwyA";
 "nqSaMsa";
 "pAlASa";
 "pANdara";
