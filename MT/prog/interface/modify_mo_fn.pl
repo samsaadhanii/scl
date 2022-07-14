@@ -38,23 +38,18 @@ sub modify_mo{
     $pUrvapaxa = "";
   }
 
-  #if($in =~ /^([^>]+\-).*</) {
-  #  $pUrvapaxa = $1;
-  #  $in =~ s/^$pUrvapaxa//;
-  #} else {
-  #  $pUrvapaxa = "";
-  #}
-
   $in =~ s/^([^\/]+>)(<kqw_pratipadika:[a-zA-Z]+>)(<[^\/]+>)/$pUrvapaxa$2$3($1)/;
   $in =~ s/\/([^\/]+>)(<kqw_pratipadika:[a-zA-Z]+>)(<[^\/]+>)/\/$pUrvapaxa$2$3($1)/g;
 
+  $in =~ s/>-/>}-/g;
   $in =~ s/<vargaH:avy>/ avya/g;
   $in =~ s/<kqw_pratipadika:([^>]+)>/$1/g;
   #$in =~ s/<kqw_vrb_rt:[^>]+>//g;
   $in =~ s/<vargaH:saMKyeyam>/ saMKyeyam/g;
   $in =~ s/<vargaH:saMKyA>/ saMKyA/g;
   $in =~ s/<vargaH:sarva>/ sarvanAma/g;
-  $in =~ s/<vargaH:nA_[^>]+>/<vargaH:nA>/g;
+  #$in =~ s/<vargaH:nA_[^>]+>/<vargaH:nA>/g;
+  $in =~ s/<vargaH:[^>]+>//g;
   $in =~ s/<lifgam:a>/ /g;
   $in =~ s/<lifgam:([^>]+)>/ $1/g;
   $in =~ s/<viBakwiH:([^>]+)>/ $1/g;
@@ -66,25 +61,32 @@ sub modify_mo{
   $in =~ s/<sanAxi_prawyayaH:([^>]+)>/ $1anwa/g;
   $in =~ s/<prayogaH:([^>]+)>/ $1/g;
   $in =~ s/<puruRaH:([^>]+)>/ $1/g;
-  $in =~ s/<gaNaH([^>]+)>/ $1/g;
-  $in =~ s/<gaNaH([^>]*)>/ /g;
+  $in =~ s/<gaNaH:([^>\-]+)>/ $1/g;
+  $in =~ s/<gaNaH:([^>\-]*)>/ /g;
   $in =~ s/<lakAraH:([^>]+)>/ $1/g;
   $in =~ s/<vacanam:([^>]+)>/ $1/g;
   $in =~ s/<rel_nm:([^>]*)>//g;
   $in =~ s/<relata_pos:[0-9]*>//g;
   #print "\nINPUT = $in\n";
   if ($in !~ /<upasarga:X>/ ) {
-    $in =~ s/\/([^<]+-)?([^\-<]+)<upasarga:([a-zA-Z_]+)>/\/$1$3_$2/g;
-    $in =~ s/^([^<]+-)?([^\-<]+)<upasarga:([a-zA-Z_]+)>/$1$3_$2/g;
-  } else { $in =~ s/<upasarga:X>//;}
-  # print "OUTPUT = $in\n";
+    $in =~ s/\/([^<]+-)?([^\-<]+)<upasarga:([a-zA-Z_]+)>/\/$1$3_$2\{/g;
+    $in =~ s/^([^<]+-)?([^\-<]+)<upasarga:([a-zA-Z_]+)>/$1$3_$2\{/g;
+  } else { $in =~ s/<upasarga:X>/{/;}
+  $in =~ s/<kqw_XAwu:([^>]+)><upasarga:([^>]+)>/$2_$1/g;
+  $in =~ s/<kqw_XAwu:([^>]+)>/$1/g;
+  #$in =~ s/<rt:([^>]+)><upasarga:([^>]+)>/$2_$1/g;
+  #print "OUTPUT = $in\n";
   $in =~ s/<upapaxa_cp:([^>]+)>/-$1/g;
   $in =~ s/\/([^<]+)<upapaxa_cp:([^>]+)>/\/$1-$2/g;
   $in =~ s/^([^<]+)<upapaxa_cp:([^>]+)>/$1-$2/g;
+  $in =~ s/<upapaxa_cp:([^>]+)>/$1/g;
   $in =~ s/ [ ]+/ /g;
   $in =~ s/\$//g;
+  $in =~ s/<level:[0-4]>//g;
+  $in =~ s/<XAwuH:([^>]+)>/ $1/g;
 #  $in =~ s/Y/</g;
 #  $in =~ s/Z/>/g;
+  $in =~ s/<rt:([^>]+)>/$1/g;
   $in =~ s/{TITLE}/<TITLE>/g;
   $in =~ s/{\/TITLE}/<\/TITLE>/g;
   $in =~ s/\/\t/\t/g;

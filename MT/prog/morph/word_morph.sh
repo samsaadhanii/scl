@@ -25,7 +25,7 @@ export BIN_PATH=$SCLINSTALLDIR/morph_bin
 
 DEBUG="OFF"
 
-cut -f4 | perl -pe 's/\-/\-\n-/g' | $SCLINSTALLDIR/MT/prog/Normalisation/get_std_spelling.out |\
+cut -f3 | perl -pe 's/\-/\-\n-/g' | $SCLINSTALLDIR/MT/prog/Normalisation/get_std_spelling.out |\
 $SCLINSTALLDIR/MT/prog/Normalisation/group.pl |\
 $SCLINSTALLDIR/MT/prog/morph/bin/split-samAsa-wrds.pl $TMP_FILES_PATH/tmpall $TMP_FILES_PATH/tmpany $TMP_FILES_PATH/tmpsamb $TMP_FILES_PATH/tmpupaxa
 

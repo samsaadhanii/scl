@@ -38,32 +38,12 @@ if($in =~ /./) {
 
  for($i=0;$i<$#in;$i++){
    $in = &modify_mo($in[$i]);
-   $in = &clean_other_info($in);
+ #  $in = &clean_other_info($in);
    print $in,"\t";
  }
    $in = &modify_mo($in[$#in]);
-   $in = &clean_other_info($in);
+ #  $in = &clean_other_info($in);
    print $in,"\n";
  } else { print "\n";}
-}
-
-sub clean_other_info {
- my($a) = @_;
- $a =~ s/<upasarga:X>//g;
- $a =~ s/<level:[0-4]>//g;
- $a =~ s/<XAwuH:([^>]+)>/ $1/g;
- $a =~ s/<gaNaH:([^>]+)>/ $1/g;
- $a =~ s/<vargaH:nA>//g;
- $a =~ s/<vargaH:[^>]+>//g;
- #The following lines are commented, since they were adding one extra upasarga in the beginning.
- #$a =~ s/\(([^>]+)<upasarga:([^>]+)>/($2_$1/g;
- # $a =~ s/([^>]+)<upasarga:([^>]+)>/$2_$1/g;
- $a =~ s/<upasarga:([^>]+)>//g;
- $a =~ s/<kqw_XAwu:([^>]+)><upasarga:([^>]+)>/$2_$1/g;
- $a =~ s/<rt:([^>]+)><upasarga:([^>]+)>/$2_$1/g;
- $a =~ s/<kqw_XAwu:([^>]+)>/$1/g;
- $a =~ s/<rt:([^>]+)>/$1/g;
- $a =~ s/<upapaxa_cp:([^>]+)>/$1/g;
- $a;
 }
 1;
