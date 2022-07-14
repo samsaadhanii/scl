@@ -2619,12 +2619,13 @@ value rlRaRTIsambanXaH m1 m2 text_type = match m1 with
       [ Sup (id1,mid1,_,rt1,_,_,_,viBakwiH1,vacana1,_)
       | Kqw (id1,mid1,_,rt1,_,_,_,_,_,_,_,_,_,_,viBakwiH1,vacana1,_)
       | WaxXiwa (id1,mid1,_,rt1,_,_,_,_,viBakwiH1,vacana1,_) ->
-           if (viBakwiH1=6) 
+           if viBakwiH1=6 && not (member_of rt1 guNavacana)
            then match m2 with 
                  [ Kqw (id2,mid2,_,rt2,_,_,kqw2,_,_,_,_,pUrvapaxa2,uwwarapaxa2,_,viBakwiH2,_,_) -> 
 		   if   prose_order id1 id2 text_type
                    then if no_boundary_crossing id1 id2 text_type
-                       && (kqw2="GaF" || kqw2="wavyaw" || kqw2="wqc" || kqw2 = "kwin" || kqw2 = "ac" || kqw2="Nvul"|| kqw2= "kwa")
+                       && ((kqw2="GaF" || kqw2="wavyaw" || kqw2="wqc" || kqw2 = "kwin" || kqw2 = "ac" || kqw2="Nvul")
+                         || (kqw2="kwa" && not (viBakwiH2 = 1)))
                        (* Rules for kAraka RaRTI are given below.
                         * Here we are dealing with only SeRe RaRTI *)
 (* pawriNAm viruwena 
@@ -2659,7 +2660,6 @@ Removed Sawq_l?t, SAnac_l?t, kwa and kwavawu *)
                            && not (member_of rt2 upapada6_list) (* This is needed, since in these cases the relation is sanxarBa_binxuH *)
                            && not (pronominal123 rt2) (* sEnyasya mama; mama should be related to sEnya and not the other way *)
                            && not (rt2 = "maXya")
-                           && (not ((member_of rt1 guNavacana) && viBakwiH2=6))
                            && (not (member_of rt2 guNavacana))
                            && (not ((rt1="uBa" || rt1="uBA") && viBakwiH1=6))
                    then  [ Relation (id1,mid1,"RaRTIsambanXaH",id2,mid2,"28.7")]
@@ -3207,17 +3207,13 @@ value rlkarmasamAnAXikaraNam m1 m2 m3 text_type =
            if no_boundary_crossing id1 id2 text_type && id1 < id2
            && not (rt1="kim" ||  rt1="kiFciw" || rt1="kiFcana" || rt1="IxqS" || rt1="kIxqS" || rt1="kIxqSa" || rt1="IxqSa") 
            then match m3 with 
-            [ Kqw (id3,mid3,_,rt3,upasarga3,_,_,_,_,_,_,_,_,_,_,_,_)
-            | Avykqw (id3,mid3,_,rt3,_,_,upasarga3,_,_,_,_,_) ->
+            [ Kqw (id3,mid3,_,rt3,upasarga3,_,prawyayaH3,_,_,_,_,_,_,_,_,_,_)
+            | Avykqw (id3,mid3,_,rt3,_,_,upasarga3,_,prawyayaH3,_,_,_) ->
             let rel = handle_sp_compounds id2 mid2 id3 mid3 rt2 word2 pUrvapaxa2 uwwarapaxa2 gen2 in
 	    if (not (rel=[])) then rel 
             else if   noun_agreement_vibh vac1 vac2 gen1 gen2 viB1 viB2 
                    && members_of rt3 upasarga3 karmasamAnAXikaraNa_verbs 
-   	     (* then if (  members_of rt3 upasarga3 shliR_Axi_verbs
-                    || members_of rt3 upasarga3 gawyarWa_verbs
-                    || members_of rt3 upasarga3 aaxikarma_verbs
-                    || rt3 = "kq3" || rt3="man1" (*wvAm wqNam manye *)
-                   ) *) && viB1=2
+                   && (viB1=2 || ((prawyayaH3="kwa" || prawyayaH3="kwavawu") && viB1=1))
                    (* to avoid kIxqSam vyavahAram as karma, karmasamAnAXikaraNam*)
             then [ Relation (id2,mid2,"karmasamAnAXikaraNam",id3,mid3,"35.1") ]
              (* waxA AyojakAH neharUM sanwuRtaM kqwavanwaH *)
@@ -3275,17 +3271,13 @@ value rlkarmasamAnAXikaraNam m1 m2 m3 text_type =
            if no_boundary_crossing id1 id2 text_type && id1 < id2
            && not (rt1="kim" ||  rt1="kiFciw" || rt1="kiFcana" || rt1="IxqS" || rt1="kIxqS" || rt1="kIxqSa" || rt1="IxqSa") 
            then match m3 with 
-            [ Kqw (id3,mid3,_,rt3,upasarga3,_,_,_,_,_,_,_,_,_,_,_,_)
-            | Avykqw (id3,mid3,_,rt3,_,_,upasarga3,_,_,_,_,_) ->
+            [ Kqw (id3,mid3,_,rt3,upasarga3,_,prawyayaH3,_,_,_,_,_,_,_,_,_,_)
+            | Avykqw (id3,mid3,_,rt3,_,_,upasarga3,_,prawyayaH3,_,_,_) ->
             let rel = handle_sp_compounds id2 mid2 id3 mid3 rt2 word2 pUrvapaxa2 uwwarapaxa2 gen2 in
 	    if (not (rel=[])) then rel 
             else if   noun_agreement_vibh vac1 vac2 gen1 gen2 viB1 viB2 
                    && members_of rt3 upasarga3 karmasamAnAXikaraNa_verbs 
-   	     (* then if (  members_of rt3 upasarga3 shliR_Axi_verbs
-                    || members_of rt3 upasarga3 gawyarWa_verbs
-                    || members_of rt3 upasarga3 aaxikarma_verbs
-                    || rt3 = "kq3" || rt3="man1" (*wvAm wqNam manye *)
-                   ) *) && viB1=2
+                   && (viB1=2 || ((prawyayaH3="kwa" || prawyayaH3="kwavawu") && viB1=1))
                    (* to avoid kIxqSam vyavahAram as karma, karmasamAnAXikaraNam*)
             then [ Relation (id2,mid2,"karmasamAnAXikaraNam",id3,mid3,"35.6") ]
              (* waxA AyojakAH neharUM sanwuRtaM kqwavanwaH *)

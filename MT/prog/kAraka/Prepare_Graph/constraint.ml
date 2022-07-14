@@ -397,7 +397,7 @@ value not_allowed_sequence_rels rpair = match rpair with
   |(32,49)
   |(35,26)
   |(49,26)
-  |(35,32)
+  |(*(35,32) -- removed, since viSeRaNa of RaRTI is possible as in vIrasya rAmasya puwraH *)
   |(49,32)
    (* a viSeRaNa of a viSeRaNa is not allowed *)
   |(32,9)
@@ -942,7 +942,7 @@ value rec seq_expectancy relations relsindag =
     let maprel=List.map (fun y -> List.nth relations (y-1) ) relsindag in
         loop maprel
         where rec loop=fun
-            [ [] -> do { print_string "True\n"; True}
+            [ [] -> True
             | [ Relationc (a,b,r1,c,d) :: rest] -> 
                  (* do { print_string "r1=";print_int r1; print_string "\n"; *)
                   loop1 maprel
@@ -1193,7 +1193,7 @@ value solver rel_lst text_type =
      ;print_acc dags 
      ;*)let dagsj=List.fold_left ( fun y (a,b) -> 
            (* if (List.length a=total_wrds-1) *)
-            if (List.length a >= total_wrds-2) 
+            if (List.length a >= total_wrds-3) 
             then [a::y]
             else y) [] dags in 
             let soln=List.sort comparecostlength (get_dag_list text_type rel_lst [] dagsj) in
