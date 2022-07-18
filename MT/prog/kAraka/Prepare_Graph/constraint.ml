@@ -397,7 +397,7 @@ value not_allowed_sequence_rels rpair = match rpair with
   |(32,49)
   |(35,26)
   |(49,26)
-  |(*(35,32) -- removed, since viSeRaNa of RaRTI is possible as in vIrasya rAmasya puwraH *)
+  (*|(35,32) -- removed, since viSeRaNa of RaRTI is possible as in vIrasya rAmasya puwraH *)
   |(49,32)
    (* a viSeRaNa of a viSeRaNa is not allowed *)
   |(32,9)

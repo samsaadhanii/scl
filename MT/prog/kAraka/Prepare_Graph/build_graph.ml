@@ -97,6 +97,7 @@ value wasmAw_pos = ref 50;
 value hi_pos = ref 50; 
 value yax_pos = ref 50; 
 value wvam_pos = ref 50; 
+value aham_pos = ref 50; 
 value karwqsamverbs = ref 50; 
 value total_wrds = ref 0; 
 
@@ -362,8 +363,9 @@ yaH buxXiwvAw wawra kevalam AwmAnam paSyawi ...*)
 (* If there is waw, then there should be either yaw or cew or yaxi, else it is not a boundary marker *)
 (* For yaxi ... waw refer to BhG 1.46 *)
       else if ((id1 < waxA_pos.val && id2 > waxA_pos.val ) ||
-               (id2 < waxA_pos.val && id1 > waxA_pos.val))
-           && yaxA_pos.val < 50 then False 
+               (id2 < waxA_pos.val && id1 > waxA_pos.val)) 
+         (*  && yaxA_pos.val < 50   -- yaxA is optional *)
+      then False
  (* This condition is added to account for the boundary crossing with only waxA as in
     xqRtvA wu pANdavAnIkam vyUDam xuryoXanaswaxA AcAryam upasafgamya vacanam abravIw BhG1.2 *)
       else if (( id1 < waWA_pos.val && id2 > waWA_pos.val )
@@ -2795,7 +2797,8 @@ value rlkarwqrahiwakarwqsamAnAXikaraNam m1 m2 text_type = match m1 with
         match m2 with
         [ Wif (id2,mid2,_,rt2,_,_,upasarga2,_,_,lakAraH2,puruRaH2,_,_,_,_,_) ->
               if members_of rt2 upasarga2 karwqsamAnAXikaraNa_verbs
-              && viBakwiH1=1 && puruRaH2="ma" && (lakAraH2="lot" || lakAraH2 = "ASIrlif"|| lakAraH2 = "viXilif" || lakAraH2 = "lat")
+              && viBakwiH1=1 && ((puruRaH2="ma"  && wvam_pos.val = 50) || (puruRaH2="u" && aham_pos.val=50))
+              && (lakAraH2="lot" || lakAraH2 = "ASIrlif"|| lakAraH2 = "viXilif" || lakAraH2 = "lat")
               && wvam_pos.val = 50
               then [ Relation (id1,mid1,"karwqrahiwakarwqsamAnAXikaraNam",id2,mid2,"33.1") ] 
               else []
@@ -2808,13 +2811,13 @@ value rlkarwqrahiwakarwqsamAnAXikaraNam m1 m2 text_type = match m1 with
         | _ -> []
         ]
     | Sup (id1,mid1,word1,rt1,_,uwwarapaxa1,_,viBakwiH1,_,_) ->
-        if compound word1 uwwarapaxa1 || member_of rt1 guNavacana || member_of rt1 upAXi
+        if compound word1 uwwarapaxa1 || member_of rt1 guNavacana || member_of rt1 upAXi || member_of rt1 pUraNa
         then
         match m2 with
         [ Wif (id2,mid2,_,rt2,_,_,upasarga2,_,_,lakAraH2,puruRaH2,_,_,_,_,_) ->
               if members_of rt2 upasarga2 karwqsamAnAXikaraNa_verbs
-              && viBakwiH1=1 && puruRaH2="ma" && (lakAraH2="lot" || lakAraH2 = "ASIrlif"|| lakAraH2 = "viXilif")
-              && wvam_pos.val = 50
+              && viBakwiH1=1 && ((puruRaH2="ma"  && wvam_pos.val = 50) || (puruRaH2="u" && aham_pos.val=50))
+              && (lakAraH2="lot" || lakAraH2 = "ASIrlif"|| lakAraH2 = "viXilif" || lakAraH2 = "lat")
               then [ Relation (id1,mid1,"karwqrahiwakarwqsamAnAXikaraNam",id2,mid2,"33.3") ] 
               else []
         (*| Kqw (id2,mid2,_,rt2,upasarga2,_,_,_,_,_,_,_,_,_,_,_,_) *)
@@ -4445,6 +4448,7 @@ value init_sentence_feature_variables morphs  =
                  ;if rt="yAvaw" then yAvaw_pos.val := id else ()
                  ;if rt="wAvaw" then wAvaw_pos.val := id else ()
                  ;if word="wvam" then wvam_pos.val := id else ()
+                 ;if word="aham" then aham_pos.val := id else ()
                  }
      | Avy (id,_,word,_,_,_,_) -> do {
                  if (total_wrds.val < id) then total_wrds.val := id else ()
