@@ -57,10 +57,6 @@ print "</script>\n";
     close(TMP1);
   }
 
-#print "  window.open('/cgi-bin/scl/amarakosha/noun_gen.cgi?encoding='+encod+'&rt='+prAwi+'&gen='+lifga+'&jAwi=nA'+'&level=1'+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
-  #my $pid = $$;
-
-#my $result = `$GlblVar::SCLINSTALLDIR/amarakosha/callrel.pl $word $relation $encoding $out_encoding $pid`;
 my $result = `$GlblVar::SCLINSTALLDIR/amarakosha/callrel.pl $word $relation $encoding $out_encoding`;
 print $result;
 

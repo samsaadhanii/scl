@@ -46,7 +46,7 @@ print "<html><head>
 <style type=\"text/css\"> #heritage{font:22px bold sans-serif;width:100%;background:#333;color:#fff;}</style>
 <script>
 function generate_noun_forms(encod,prAwi,lifga){
-window.open('/cgi-bin/scl/amarakosha/noun_gen.cgi?encoding='+encod+'&rt='+prAwi+'&gen='+lifga+'&jAwi=nA'+'&level=1'+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();
+window.open('/cgi-bin/scl/skt_gen/noun/noun_gen_web.cgi?encoding='+encod+'&rt='+prAwi+'&gen='+lifga+'&jAwi=nA'+'&level=1'+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();
 }
 </script>
 </head><body><div id=\"check\">";
