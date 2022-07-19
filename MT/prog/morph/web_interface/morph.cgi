@@ -98,7 +98,7 @@ print "<table style=\"border-collapse: collapse;\" bordercolor='brown' valign='m
 my @ans=split(/\//,$ans);
 my $i = 0;
 if($ans ne "") {
-	#	print "ans = $ans\n";
+		#print "ans = $ans\n";
  foreach $ans (@ans) {
 
    if($ans =~ /^[^{]+{लेवेल् 4}/) { $ans =~ s/^[^{]+{लेवेल् 4}//;}

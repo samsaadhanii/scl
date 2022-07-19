@@ -46,8 +46,8 @@ my $encoding=$param{encoding};
 my $out_encoding=$param{out_encoding};
 
 print "<script>\n";
-print "function generate_noun_forms(prAwi,lifga){\n";
-print "  window.open('/cgi-bin/scl/skt_gen/noun/noun_gen_web.cgi?encoding=WX&rt='+prAwi+'&gen='+lifga+'&jAwi=nA&level=1&outencoding=Unicode'+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
+print "function generate_noun_forms(prAwi,lifga,$encoding,$out_encoding){\n";
+print "  window.open('/cgi-bin/scl/skt_gen/noun/noun_gen_web.cgi?encoding=$encoding&rt='+prAwi+'&gen='+lifga+'&jAwi='nA'&level=1&outencoding=out_encoding'+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
 print "}\n";
 print "</script>\n";
 

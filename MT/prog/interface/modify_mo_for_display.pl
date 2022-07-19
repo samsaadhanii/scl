@@ -38,12 +38,21 @@ if($in =~ /./) {
 
  for($i=0;$i<$#in;$i++){
    $in = &modify_mo($in[$i]);
- #  $in = &clean_other_info($in);
+   $in = &clean_other_info($in);
    print $in,"\t";
  }
    $in = &modify_mo($in[$#in]);
- #  $in = &clean_other_info($in);
+   $in = &clean_other_info($in);
    print $in,"\n";
  } else { print "\n";}
+}
+1;
+
+sub clean_other_info {
+my ($in) = @_;
+
+$in =~ s/<vargaH:nA>//;
+
+$in;
 }
 1;

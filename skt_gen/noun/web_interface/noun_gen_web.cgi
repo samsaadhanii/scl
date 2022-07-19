@@ -22,8 +22,6 @@ require "../../paths.pl";
 require "$GlblVar::CGIDIR/scl/cgi_interface.pl";
 require "$GlblVar::CGIDIR/scl/skt_gen/noun/noun_gen_subroutines.pl";
 
-my $DataPATH = $GlblVar::SCLINSTALLDIR;
-
 my @vacanam = ("eka","xvi","bahu");
 
 #

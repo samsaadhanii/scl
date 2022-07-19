@@ -965,6 +965,7 @@ sub gen_noun_forms{
 	my($rt_wx,$lcat,$lifga_wx,$level,$format,$conversion_program,$outencoding) = @_;
 	my($vib,$num,$vacanam,$str,$LTPROC_IN);
 
+        #print "$rt_wx, $lcat $lifga_wx";
 
  if(!&check_cat($rt_wx,$lcat)) {
       print "<center> <b>Please check your input. </b></center>";
