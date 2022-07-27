@@ -25,6 +25,7 @@ MYPYTHONPATH=/opt/homebrew/bin/python3
 
 #Heritage installation path (for interface)
 HERITAGE_CGIURL=/cgi-bin/SKT/sktgraph.cgi
+HERITAGE_TMP=/Users/huet/SKT/heritage_platform/ML
 #SCL_CGIURL=/cgi-bin/scl
 
 #Path for temporary files

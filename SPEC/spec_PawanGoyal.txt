@@ -22,6 +22,7 @@ GraphvizDot=/opt/local/bin/dot
 
 #Heritage installation path (for interface)
 HERITAGE_CGIURL=/cgi-bin/SKT/sktgraph
+HERITAGE_TMP=/Users/ambakulkarni/SKT/heritage_platform/ML
 SCL_CGIURL=/cgi-bin/scl
 
 #Path for temporary files

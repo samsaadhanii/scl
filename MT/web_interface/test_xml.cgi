@@ -110,9 +110,9 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
       if($morph eq "GH") {
          $sentences =~ s/\.//;
          $sentences =~ s/ /\+/g;
-	 $cmd = "echo > /Users/ambakulkarni/amba/SKT/heritage_platform/ML/best_sol.txt;QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=g\";/Library/Webserver/CGI-Executables/SKT/sktgraph2.cgi";
+	 $cmd = "echo > $GlblVar::HERITAGE_TMP/best_sol.txt;QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=g\";$GlblVar::HERITAGE_CGIURL";
          system($cmd);
-         open (TMP,"</Users/ambakulkarni/amba/SKT/heritage_platform/ML/best_sol.txt");
+         open (TMP,"< $GlblVar::HERITAGE_TMP/best_sol.txt");
          $split = <TMP>;
          close (TMP);
          open (TMP,">$GlblVar::TFPATH/tmp_in${pid}/in$pid");
@@ -121,7 +121,6 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
          open (TMP,">$GlblVar::TFPATH/tmp_in${pid}/wor.$pid");
          print TMP "$split\n"; 
          close (TMP);
-         #system("cp /Users/ambakulkarni/amba/SKT/heritage_platform/ML/best_sol.txt $GlblVar::TFPATH/tmp_in${pid}/wor.$pid;");
          $morph="UoHyd";
       } 
 	      $q_id = &get_queue_id;
