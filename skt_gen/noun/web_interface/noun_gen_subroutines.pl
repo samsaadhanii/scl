@@ -991,6 +991,9 @@ sub gen_noun_forms{
  }
  else {# $format = web
 	 $str = "echo '".$LTPROC_IN."' | $generator | grep . | sed '1,\$s/^#.*/-/' | pr -3 -a -t -w 150 | tr ' ' '\t' | $conversion_program | $GlblVar::CGIDIR/scl/skt_gen/noun/html_format.pl $pUrvapaxa $rt_wx $lifga_wx $outencoding";
+open (TMP,">/tmp/aaa1");
+print TMP $str;
+close TMP;
 	 #$LTPROC_IN =~ s/</;/g;
 	 #$LTPROC_IN =~ s/>/;/g;
 	 #print $LTPROC_IN;
