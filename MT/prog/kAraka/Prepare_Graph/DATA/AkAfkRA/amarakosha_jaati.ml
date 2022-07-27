@@ -6334,7 +6334,7 @@ value amarakosha_jaati_list = [
 "oRaXi rAkRasI";
 "xevayoni rAkRasa";
 "acalanirjIvavaswu rAla";
-"manuRya rAmA";
+"manuRya rAma";
 "acalanirjIvavaswu rAmBa";
 "acalanirjIvavaswu rAma";
 "rUpa rAma";

@@ -70,6 +70,8 @@ value kAlAXikaraNa_list = [
 "waxAnIm";
 "xine";
 "xivA";
-"yaWA-samayam"
+"yaWA-samayam";
+"ZyaxA"; (* yaxA and waxA overgenerate with kwvA, lyap etc. and hence removed. A seperate function spl_aXikaraNam is written to handle them *)
+"ZwaxA";
 ]
 ;

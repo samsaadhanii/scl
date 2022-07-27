@@ -62,7 +62,7 @@ value guNavacana_list = [
 "bahuviXa";
 "Bakwa";
 "bAla";
-"bAlaka";
+"ZbAlaka";
 "Barawa";
 "BArawIya";
 "BAsvaw";
