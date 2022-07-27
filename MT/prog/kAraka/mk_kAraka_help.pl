@@ -139,12 +139,11 @@ while(($in = <STDIN>) && !$solnfound){
               $word{$tmp} .= "_".$word{$tmp1};
               $word_used{$s_w_no} = 1;
            } else {
-            if (($rel_nm == 2) || ($rel_nm == 90)){
+            if (($rel_nm == 101) || ($rel_nm == 102) || ($rel_nm == 74)){ # niwya sambanXaH or samAnakAlaH due to yaxA/waxA
                $style = "dashed color=\"red\"";
-               $rank = "{rank = same; Node$s_w_no; Node$d_w_no;}"; 
+               $rank .= "{rank = same; Node$s_w_no; Node$d_w_no;}\n"; 
                $dir = "both";
             } elsif(($rel_nm > 100) && ($rel_nm < 200)) {
-              $rel_nm = $rel_nm - 100; 
               $style = "dotted";
             } else {
               $style = ""; 

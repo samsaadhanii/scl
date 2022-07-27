@@ -292,7 +292,7 @@ sub print_relations_for_each_word{
       #    } else {
       #      $rel = $kAraka_name{$rel_num}.",".$wpos1.",".$mpos1;
       #    }
-          if(($rel_num < 100) || ($rel_num >=2000)) {
+          if($rel_num < 100 || $rel_num >=2000 || $rel_num == 101 || $rel_num == 102 || ($rel_num > 200 && $rel_num < 300)) {
              $rel = $kAraka_name{$rel_num}.",".$wpos1.",".$mpos1;
              $new_rel = $from.",".$rel_num.",".$wpos.",".$mpos;
           if($relations !~ /:$new_rel/) { 

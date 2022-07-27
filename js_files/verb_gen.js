@@ -67,7 +67,7 @@ function mycallverbgen() {
   }
 
   $.post(
-    "/cgi-bin/scl/skt_gen/verb/verb_gen.cgi",
+    "/cgi-bin/scl/skt_gen/verb/verb_gen_web.cgi",
     {
       "vb": $("#XAwu").val(),
       "prayoga_paxI": prayogaH_paxI,
@@ -85,12 +85,19 @@ function mycallverbgen() {
 function mycallkrwgen () {
   $("#output").html(waiting_label[enc]);
 
+  if (enc == "dev") {
+    outenc = "Unicode";
+  }
+  else {
+    outenc = "IAST";
+  }
+
   $.post(
-    "/cgi-bin/scl/skt_gen/kqw/kqw_gen.cgi",
+    "/cgi-bin/scl/skt_gen/kqw/kqw_gen_web.cgi",
     {
       "vb": $("#XAwu").val(),
       "upasarga": $("#upasargaH").val(),
-      "encoding": "WX"
+      "encoding":  outenc,
     },
     function (data) {
       $("#output").html(data);

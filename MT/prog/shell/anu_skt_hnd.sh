@@ -46,6 +46,7 @@ fi
 
 if [ $OUTSCRIPT = "DEV" ]; then
   my_converter="$SCLINSTALLDIR/converters/wx2utf8.sh $SCLINSTALLDIR"
+  dev_converter="$SCLINSTALLDIR/converters/wx2utf8.sh $SCLINSTALLDIR"
   my_converter_wxHindi="$SCLINSTALLDIR/converters/wxHindi-utf8.sh $SCLINSTALLDIR"
 fi
 
@@ -160,6 +161,7 @@ $ANU_MT_PATH/kAraka/shabdabodha.sh $SCLINSTALLDIR $GraphvizDot $Heritage_Input $
 $ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out > $temp_files_path/table.tsv
 $MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py -i $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv -s $SCLINSTALLDIR -t hi
 $my_converter < $temp_files_path/table.tsv > $temp_files_path/table_outscript.tsv
+$dev_converter < $temp_files_path/table.tsv > $temp_files_path/table_dev.tsv
 $my_converter < $temp_files_path/anvaya.tsv > $temp_files_path/anvaya_outscript.tsv
 
 #Generate Anvaya order html file
