@@ -26,10 +26,7 @@ package main;
 
 my %param = &get_parameters();
 
-#   if (param) {
       $texts_input=$param{texts};
-      #     my $cgi = new CGI;
-      #print $cgi->header (-charset => 'UTF-8');
       print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
       $analysis = `echo "$texts_input" |$GlblVar::SCLINSTALLDIR/converters/utf82iscii.pl | $GlblVar::SCLINSTALLDIR/converters/ir_skt | $GlblVar::SCLINSTALLDIR/skt_gen/Sentence/scan_input.out | $GlblVar::SCLINSTALLDIR/skt_gen/Sentence/sentence_generator | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;

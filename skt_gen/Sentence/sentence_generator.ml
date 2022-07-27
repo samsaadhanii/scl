@@ -2,6 +2,24 @@
 
 open Paths;
 open Scanf;
+open Noun_puM;
+open Noun_napuM;
+open Noun_swrI;
+open Aaxikarma_dhaatu;
+open Akarmaka_dhaatu;
+open ApAxAna_dhaatu;
+open BuxXyarWa_dhaatu;
+open GawyarWa_dhaatu;
+open KaraNa_dhaatu;
+open PrawyavasAnArWa_dhaatu;
+open Sakarmaka_dhaatu;
+open SampraxAna_dhaatu;
+open Sabxakarma_dhaatu;
+open Shakaadi;
+open Shlish_aadi;
+open VAkyakarma_dhaatu;
+open Xvikarmaka1_dhaatu;
+open Xvikarmaka2_dhaatu;
 
 open Pada_structure; (* corresponds to clips_head.txt *)
 
@@ -23,8 +41,6 @@ value parses = Gram.Entry.mk "parses"
 ;
 
 value datapath = sclinstalldir^"/skt_gen/Sentence/data/";
-
-value commondatapath = sclinstalldir^"/MT/prog/kAraka/Prepare_Graph/DATA/";
 
 (* Grammar of parsed_analyses coming from sentence *)
 
@@ -205,7 +221,7 @@ value syscall ?(env=[| |]) cmd =
    ; (Buffer.contents buf1, Buffer.contents buf2)
    }
 ;
-
+(*
 value populate_from file trie =
   let ic = open_in file in
   try while True do 
@@ -223,7 +239,25 @@ value build_trie file =
      ; (trie.val)
      }
 ;
+*)
 
+value rec populate_from trie = fun
+   [ [] -> trie.val
+   | [w::rest] ->  do { let word = Transduction.code_raw_WX w
+                        in try trie.val := Trie.enter trie.val word
+                           with [ Trie.Redundancy -> output_string stderr ("Fatal error: duplicated entry:" ^ w ^"\n") ]
+                       ; populate_from trie rest
+                     }
+  ]
+;
+
+value build_trie list =
+  let trie = ref Trie.empty in
+      (*do { populate_from trie list
+     ; (trie.val) *)
+      populate_from trie list
+     (*}*)
+;
 value member_of word trie =
        Trie.mem (Transduction.code_raw_WX word) trie
 ;
@@ -234,56 +268,56 @@ value members_of upasarga rt trie =
        else member_of (upasarga^"_"^rt) trie
 ;
 
-value noun_masc = build_trie (datapath ^ "noun_puM.txt")
+value noun_masc = build_trie noun_puM_list
 ;
-value noun_neut = build_trie (datapath ^ "noun_napuM.txt")
+value noun_neut = build_trie noun_napuM_list
 ;
-value noun_fem = build_trie (datapath ^ "noun_swrI.txt")
-;
-
-value karaNa_verbs = build_trie (commondatapath ^ "AkAfkRA/karaNa_XAwu_list")
+value noun_fem = build_trie noun_swrI_list
 ;
 
-value sampraxAna_verbs = build_trie (commondatapath ^ "AkAfkRA/sampraxAna_XAwu_list")
+value karaNa_verbs = build_trie karaNa_XAwu_list
 ;
 
-value apAxAna_verbs = build_trie (commondatapath ^ "AkAfkRA/apAxAna_XAwu_list")
+value sampraxAna_verbs = build_trie sampraxAna_XAwu_list
 ;
 
-value sakarmaka_verbs =  build_trie (commondatapath ^ "AkAfkRA/sakarmaka_XAwu_list")
+value apAxAna_verbs = build_trie apAxAna_XAwu_list
 ;
 
-value xvikarmaka1 = build_trie (commondatapath ^ "AkAfkRA/xvikarmaka_XAwu_list1")
+value sakarmaka_verbs =  build_trie sakarmaka_XAwu_list
 ;
 
-value xvikarmaka2 = build_trie (commondatapath ^ "AkAfkRA/xvikarmaka_XAwu_list2")
+value xvikarmaka1 = build_trie xvikarmaka_XAwu_list1
 ;
 
-value aaxikarma_verbs =  build_trie (commondatapath ^ "AkAfkRA/Axikarma_XAwu_list")
+value xvikarmaka2 = build_trie xvikarmaka_XAwu_list2
 ;
 
-value gawyarWa_verbs = build_trie (commondatapath ^ "AkAfkRA/gawyarWa_XAwu_list")
+value aaxikarma_verbs =  build_trie aaxikarma_XAwu_list
 ;
 
-value buxXyarWa_verbs = build_trie (commondatapath ^ "AkAfkRA/buxXyarWa_XAwu_list")
+value gawyarWa_verbs = build_trie gawyarWa_XAwu_list
 ;
 
-value shabxakarma_verbs = build_trie (commondatapath ^ "AkAfkRA/Sabxakarma_XAwu_list")
+value buxXyarWa_verbs = build_trie buxXyarWa_XAwu_list
 ;
 
-value prawyavasAnArWa_verbs = build_trie (commondatapath ^ "AkAfkRA/prawyavasAnArWa_XAwu_list")
+value shabxakarma_verbs = build_trie shabdakarma_dhaatu_list
 ;
 
-value shliR_Axi_verbs = build_trie (commondatapath ^ "AkAfkRA/SliR_Axi_list")
+value prawyavasAnArWa_verbs = build_trie prawyavasAnArWa_XAwu_list
 ;
 
-value akarmaka_verbs = build_trie (commondatapath ^ "AkAfkRA/akarmaka_XAwu_list")
+value shliR_Axi_verbs = build_trie shlish_aadi_list
+;
+
+value akarmaka_verbs = build_trie akarmaka_XAwu_list
 ;
 	
-value vAkyakarma_verbs = build_trie (commondatapath ^ "AkAfkRA/vAkyakarma_XAwu_list")
+value vAkyakarma_verbs = build_trie vAkyakarma_XAwu_list
 ;
 
-value shakAxi = build_trie (commondatapath ^ "AkAfkRA/SakAxi_list")
+value shakAxi = build_trie shakaadi_list
 ;
 
 value split2 str fmt =  Scanf.sscanf str fmt (fun x y -> (x,y))
@@ -1478,7 +1512,7 @@ value list_of_alternate_words acc str =
 value process parses = do {
   (*let offline_file = "word_gen.txt"  in
   let cho = open_out offline_file in *)
-  (*List.iter print_parse_id parses; *) (* we print the input for verification *)
+  (*List.iter print_parse_id parses;  we print the input for verification *)
   let root_info_list = load_root_info (datapath ^ "dhatu_info_chart_uBaya_wx.rem") in
    let str = get_generated_words parses root_info_list in (*do
   { List.iter print_string str ; 
