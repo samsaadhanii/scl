@@ -1,5 +1,6 @@
 value relations_encodings = [
-	("niwya_sambanXaH",2);
+	("niwya_sambanXaH",101);
+	("niwya_sambanXaH1",102);
 	("prawiyogI",300);
 	("BAvalakRaNasapwamI_samAnakAlaH",3);
 	("BAvalakRaNasapwamI_pUrvakAlaH",4);
@@ -49,7 +50,7 @@ value relations_encodings = [
 	("kAraNa_xyowakaH",56);
 	("kArya_xyowakaH",57);
 	("vyaBicAraH",58);
-	("kArya_kAraNa_BAvaH",59);
+	("kAraNa_kArya_BAvaH",59);
 	("samucciwaH",60);
 	("sup_samucciwaH",61);
 	("anyawaraH",62);
@@ -60,6 +61,7 @@ value relations_encodings = [
 	("sup_anyawara_xyowakaH",67);
 	("viroXakaH",68);
 	("viroXa_xyowakaH",69);
+	("samAnakAlaH",74);
 	("varwamAnasamAnakAlaH",75);
 	("sahArWa_xyowakaH",76);
 	("vinArWa_xyowakaH",77);
@@ -74,7 +76,6 @@ value relations_encodings = [
 	("svAmI",86);
 	("aXyAhqwakriyAkarma",87);
 	("afgavikAraH",88);
-	("niwya_sambanXaH1",90);
 	("ZavaXiH",91);
 	("sahArWaH",92);
 	("vinArWaH",93);
