@@ -574,10 +574,16 @@ value call_core_sup_gen rt cat gen vib num  =
       let str = "^"^rt^"<vargaH:"^cat^"><lifgam:"^gen^"><viBakwiH:"^string_of_int vib^"><vacanam:"^num^"><level:1>"^"$" in
       let str_sup_gen = "echo '"^str^"'|"^ltproc^ scl_morph_path^"sup_gen.bin" in 
       let (strout, strerr) = syscall str_sup_gen in
-      if String.contains strout '?'
-      then let str_supunkn_gen = "echo '"^str^"'|"^ltproc^scl_morph_path^"../skt_gen/Sentence/UNKN_PDGM/unkn_gen.bin" in
+      if String.contains strout '#'
+      then let pos = (Str.search_backward (Str.regexp_string "-" ) rt (String.length rt)) in
+      let str_after = Str.string_after rt (pos+1)
+      and str_before = Str.string_before rt (pos+1)  in
+      let str = "^"^str_after^"<vargaH:"^cat^"><lifgam:"^gen^"><viBakwiH:"^string_of_int vib^"><vacanam:"^num^"><level:1>"^"$" in 
+      let str_supunkn_gen = "echo '"^str^"'|"^ltproc^" /Users/ambakulkarni/amba/scl/skt_gen/Sentence/UNKN_PDGM/unkn_gen.bin" in
       let (strout1, strerr1) = syscall str_supunkn_gen in
-      strip_last_char strout1
+      if String.contains strout1 '#'
+      then rt
+      else let s = strip_last_char strout1 in str_before^s
       else strip_last_char strout
 ;
 
@@ -1099,8 +1105,8 @@ value get_vibhakti m parse = match m with
                 ]
              | "vinArWaH" 
              | "sahArWaH" -> 3
-             | "vinArWaH" -> if (rt1="vinA" || rt1 = "qwe") then 3 (* also 5 *) 
-                             else if (rt1 = "anwareNa") then 2 else 1
+             (*| "vinArWaH" -> if (rt1="vinA" || rt1 = "qwe") then 3 (* also 5 *) 
+                             else if (rt1 = "anwareNa") then 2 else 1  ?? seems redundant? *)
              | "nirXAraNam" -> if (rt1 = "prasUwA") then 6 (* also 7 *) else 1
              | _ -> let str = "I do not know how to handle "^rel^"relation"
                      in report_rel str
