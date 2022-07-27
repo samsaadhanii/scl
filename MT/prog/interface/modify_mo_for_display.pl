@@ -52,6 +52,10 @@ sub clean_other_info {
 my ($in) = @_;
 
 $in =~ s/<vargaH:nA>//;
+$in =~ s/<vargaH:pUraNam>//;
+$in =~ s/<vargaH:safKyA>//;
+$in =~ s/<vargaH:safKeya>//;
+$in =~ s/\(([^<]+)<upasarga:([^>]+)>/\($2_$1/;
 
 $in;
 }
