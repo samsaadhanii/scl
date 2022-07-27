@@ -53,8 +53,8 @@ $ANU_MT_PATH/kAraka/Prepare_Graph/build_graph $TMP_FILES_PATH/parser_files/ pros
  
 cut -d' ' -f1-5 graph.txt | sort -u | sort -n | $ANU_MT_PATH/kAraka/Prepare_Graph/constraint_solver |\
  $ANU_MT_PATH/kAraka/kaaraka_sharing_Sawq_kwa.pl $SCLINSTALLDIR $TMP_FILES_PATH/$3 $ANU_MT_PATH/kAraka/gdbm_n |\
- $ANU_MT_PATH/kAraka/kaaraka_sharing.pl $SCLINSTALLDIR $ANU_MT_PATH/kAraka/gdbm_n/kAraka_name.gdbm  $ANU_MT_PATH/kAraka/gdbm_n/kAraka_num.gdbm  |\
- $ANU_MT_PATH/kAraka/handle_niwya_sambanXa.pl $SCLINSTALLDIR $ANU_MT_PATH/kAraka/gdbm_n/kAraka_name.gdbm  $ANU_MT_PATH/kAraka/gdbm_n/kAraka_num.gdbm > parseop1.txt
+ $ANU_MT_PATH/kAraka/kaaraka_sharing.pl $SCLINSTALLDIR $ANU_MT_PATH/kAraka/gdbm_n/kAraka_name.gdbm  $ANU_MT_PATH/kAraka/gdbm_n/kAraka_num.gdbm  > parseop1.txt
+ #$ANU_MT_PATH/kAraka/handle_niwya_sambanXa.pl $SCLINSTALLDIR $ANU_MT_PATH/kAraka/gdbm_n/kAraka_name.gdbm  $ANU_MT_PATH/kAraka/gdbm_n/kAraka_num.gdbm > parseop1.txt
  
 #$ANU_MT_PATH/kAraka/prepare_dot_files.sh $OUTSCRIPT 1 mk_kAraka_help.pl $TMP_FILES_PATH/$3 parseop1.txt ..
 $MT_PATH/../converters/wx2utf8roman.out < $TMP_FILES_PATH/$3 > $TMP_FILES_PATH/$3.out
