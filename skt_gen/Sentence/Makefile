@@ -2,7 +2,11 @@ SHELL=/bin/sh
 
 include ../../paths.sh
 
-FILES = sentence_generator.ml paths.ml
+
+APATH=../../MT/prog/kAraka/Prepare_Graph/DATA/AkAfkRA
+DPATH=data
+
+FILES = sentence_generator.ml paths.ml $(APATH)/karaNa_dhaatu.ml $(APATH)/sampraxAna_dhaatu.ml $(APATH)/apAxAna_dhaatu.ml $(APATH)/sakarmaka_dhaatu.ml $(APATH)/xvikarmaka1_dhaatu.ml $(APATH)/xvikarmaka2_dhaatu.ml $(APATH)/aaxikarma_dhaatu.ml $(APATH)/gawyarWa_dhaatu.ml $(APATH)/Sabxakarma_dhaatu.ml $(APATH)/buxXyarWa_dhaatu.ml $(APATH)/prawyavasAnArWa_dhaatu.ml $(APATH)/shakaadi.ml $(APATH)/shlish_aadi.ml $(APATH)/akarmaka_dhaatu.ml $(APATH)/vAkyakarma_dhaatu.ml $(DPATH)/noun_puM.ml $(DPATH)/noun_napuM.ml $(DPATH)/noun_swrI.ml
 INTERFACES = pada_structure.mli
 SYNTAX = .ocamlinit
 ZEN=$(ZENDIR)
@@ -16,9 +20,9 @@ FLEX = lex
 CC = gcc
 CFLAGS = -L$(LIBPATH) -g -Wall -o
 
-COMPILE=ocamlopt -pp "camlp4r pa_extend.cmo" -I $(ZEN)  -I $(HPATH) -I +camlp4 -c
+COMPILE=ocamlopt -pp "camlp4r pa_extend.cmo" -I $(ZEN)  -I $(HPATH) -I $(APATH) -I $(DPATH) -I +camlp4 -c
 
-COMPILEI=ocamlc -pp "camlp4r pa_extend.cmo" -I $(ZEN)  -I $(HPATH) -I +camlp4 -c
+COMPILEI=ocamlc -pp "camlp4r pa_extend.cmo" -I $(ZEN)  -I $(HPATH) -I $(APATH) -I $(DPATH) -I +camlp4 -c
 
 LINK=ocamlopt -I $(ZEN) -I +camlp4 dynlink.cmxa camlp4lib.cmxa
 
@@ -33,8 +37,8 @@ EXECS=$(HPATH)/min_lexer.cmx $(HPATH)/transduction.cmx
 
 VPATH=$(ZEN) $(HPATH)
 
-sentence_generator: pada_structure.cmi bank_lexer.cmx min_lexer.cmx transduction.cmx sentence_generator.cmx paths.cmx
-	$(LINK) bank_lexer.cmx unix.cmxa $(CORE) $(EXECS) str.cmxa paths.cmx sentence_generator.cmx -o sentence_generator
+sentence_generator: pada_structure.cmi bank_lexer.cmx min_lexer.cmx paths.cmx  $(APATH)/karaNa_dhaatu.cmx $(APATH)/sampraxAna_dhaatu.cmx $(APATH)/apAxAna_dhaatu.cmx $(APATH)/sakarmaka_dhaatu.cmx $(APATH)/xvikarmaka1_dhaatu.cmx $(APATH)/xvikarmaka2_dhaatu.cmx $(APATH)/aaxikarma_dhaatu.cmx $(APATH)/gawyarWa_dhaatu.cmx $(APATH)/Sabxakarma_dhaatu.cmx $(APATH)/buxXyarWa_dhaatu.cmx $(APATH)/prawyavasAnArWa_dhaatu.cmx $(APATH)/shakaadi.cmx $(APATH)/shlish_aadi.cmx $(APATH)/akarmaka_dhaatu.cmx $(APATH)/vAkyakarma_dhaatu.cmx $(DPATH)/noun_puM.cmx $(DPATH)/noun_napuM.cmx $(DPATH)/noun_swrI.cmx sentence_generator.cmx
+	$(LINK) bank_lexer.cmx unix.cmxa $(CORE) $(EXECS) str.cmxa paths.cmx $(APATH)/karaNa_dhaatu.cmx $(APATH)/sampraxAna_dhaatu.cmx $(APATH)/apAxAna_dhaatu.cmx $(APATH)/sakarmaka_dhaatu.cmx $(APATH)/xvikarmaka1_dhaatu.cmx $(APATH)/xvikarmaka2_dhaatu.cmx $(APATH)/aaxikarma_dhaatu.cmx $(APATH)/gawyarWa_dhaatu.cmx $(APATH)/Sabxakarma_dhaatu.cmx $(APATH)/buxXyarWa_dhaatu.cmx $(APATH)/prawyavasAnArWa_dhaatu.cmx $(APATH)/shakaadi.cmx $(APATH)/shlish_aadi.cmx $(APATH)/akarmaka_dhaatu.cmx $(APATH)/vAkyakarma_dhaatu.cmx $(DPATH)/noun_puM.cmx $(DPATH)/noun_napuM.cmx $(DPATH)/noun_swrI.cmx sentence_generator.cmx -o sentence_generator
 
 scan_input.out: scan_input.lex
 	lex -B --warn scan_input.lex
