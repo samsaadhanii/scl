@@ -21,7 +21,7 @@ print <<header
 <input type="checkbox" name="border_value" onchange="toggle_borders()"/>Borders
 <a href="/scl/MT/DEMO/./tmp_$fbn/table.xlsx">Save Annotation</a> 
 &nbsp; &nbsp; &nbsp; &nbsp;
-<a href="/cgi-bin/scl/skt_gen/Sentence/gen.cgi?filename=$TFPATH/table.tsv">Generate</a> 
+<a href="/cgi-bin/scl/skt_gen/Sentence/gen.cgi?filename=$TFPATH/table_dev.tsv">Generate</a> 
 &nbsp; &nbsp; &nbsp; &nbsp;
 header
 ;
