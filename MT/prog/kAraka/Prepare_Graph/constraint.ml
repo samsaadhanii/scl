@@ -282,22 +282,22 @@ value single_morph_per_word m1 m2=match m1 with
 value single_relation_label m1 m2= match m1 with
     [ Relationc (to_id1,to_mid1,r1,from_id1,from_mid1) -> match m2 with
       [Relationc (to_id2,to_mid2,r2,from_id2,from_mid2) -> 
-            (* Two incoming arrows (*with diff labels*) except niwya_sambanXaH (=2) *)
+            (* Two incoming arrows (*with diff labels*) except niwya_sambanXaH (=101, & 102) *)
          if (to_id1=to_id2) && (to_mid1=to_mid2) (*&& not (r1=r2) *)
-         && not (r1=2) && not(r2=2) 
-         && not (r1=90) && not(r2=90) 
+         && not (r1=101) && not(r2=102) 
+         && not (r1=102) && not(r2=101) 
          then False  (*do { print_string "C5"; False}*)
             (* Two outgoing arrows with same label *)
          else if (from_id1=from_id2) && (from_mid1=from_mid2) && (r1=r2)
-              && ( (r1 < multiple_relations_begin  && not (r1=2))
-                  || (r1 > multiple_relations_end && not (r1=90) && not (r1=60) && not (r1=61) && not (r1=62) && not (r1=63))
-                  ) (* niwya sambanXaH *)
+              && ( (r1 < multiple_relations_begin  && not (r1=101))
+                  || (r1 > multiple_relations_end && not (r1=102) && not (r1=60) && not (r1=61) && not (r1=62) && not (r1=63))
+                  ) (* niwya sambanXaH (=101,102)*)
          then False (*do { print_string "C9"; False}*)
             (* there can not be another outgoing rel with an upapaxa sambanXa*)
          else if (from_id1=from_id2) && (from_mid1=from_mid2) && ((r1 >= 2000  && r1 < 4000) || (r2 >= 2000 && r2 < 4000)) 
          then False  (*do { print_string "C9"; print_int r1; print_int r2;False} *)
          else if  (from_id1=to_id2) && (from_mid1=to_mid2) 
-               && r1=82 (*vIpsA*) && (r2=2 || r2=90)
+               && r1=82 (*vIpsA*) && (r2=101 || r2=102)
               then False  (*do { print_string "C10"; False} *)
          else True  (*do {print_string "C11"; True}*)
       ]
@@ -307,7 +307,7 @@ value single_relation_label m1 m2= match m1 with
 value no_crossing text_type rel m1 m2=match m1 with
     [ Relationc (to_id1,to_mid1,r1,from_id1,from_mid1) -> match m2 with
       [Relationc (to_id2,to_mid2,r2,from_id2,from_mid2) -> 
-           (* Crossing edges not allowed except niwya_sambanXaH (=2) and samucciwa (=53) , upamAnaxyowakaH (=80) in some cases*)
+           (* Crossing edges not allowed except niwya_sambanXaH (=101,102) and samucciwa (=53) , upamAnaxyowakaH (=80) in some cases*)
            (* Crossing edges allowed even with RaRTI(=35), ViSeRaNa(=32) and aBexaH (=33) *)
          if  (   (    between to_id1 to_id2 from_id2
                    || between from_id1 to_id2 from_id2
@@ -318,8 +318,8 @@ value no_crossing text_type rel m1 m2=match m1 with
              )
          (* sup_samucciwaH=61 removed from the following list. It overgenerates.
           * We need at least one example to retain it *)
-             && not (r1=2 || r1=90 || r1=22 || r1=47 || r1=29 || r1=30)
-             && not (r2=2 || r2=90 || r2=22 || r2=47 || r2=29 || r2=30)
+             && not (r1=101 || r1=102 || r1=22 || r1=47 || r1=29 || r1=30)
+             && not (r2=101 || r2=102 || r2=22 || r2=47 || r2=29 || r2=30)
              && (((not ((r1=32) || (r1=33) || (r1=35) || (r1=80) || (r1=9) ||
                      (r2=32) || (r2=33) || (r2=35) || (r2=80) || (r2=9)))
                     && text_type="Sloka")
@@ -354,12 +354,12 @@ value same_root from_id1 from_id2 from_mid1 from_mid2 =
 value outgoing_incompatible_rels rpair = match rpair with
    [(200,201) (* There can not be both gawi karma and gawi karwA simultaneously *)
    |(201,200) 
-   |(13,11) (* If there is a vAkyakarma, then there can not be a karma  but there can be gONa / muKya karma*)
-   |(13,12)
-   |(13,14)
-   |(11,13)
-   |(12,13)
+   |(13,14) (* If there is a vAkyakarma, then there can not be a karma  but there can be gONa / muKya karma*)
    |(14,13)
+  (* |(13,12)
+   |(13,11) *)
+  (* |(11,13)
+   |(12,13) *)
    |(14,11)  (* If there is a karma, then there can not be a gONa or muKyakarma *)
    |(14,12)
    |(11,14)
@@ -467,14 +467,14 @@ value relation_mutual_ayogyataa text_type m1 m2=match m1 with
                  || ((r1 > 9 && r1 < 22) && ((r2=32) || (r2=8) || (r1=9))))
          then False (* do { print_string "C13"; False} *)
            (* For every prawiyogi, the other end should be either a sambandha
-            or anuyogi  or niwya_sambanXa or niwya_sambanXa1 *)
+            or anuyogi  or niwya_sambanXa or niwya_sambanXa1(101,102) *)
          else if (from_id1=to_id2) && (from_mid1=to_mid2)
-                 &&  (  ((r1=300) && not (r2=44) && not (r2=28) && not(r2=2) && not(r2=90))
-                     || ((r2=44) && not (r1=300) && not (r1=28) && not(r1=2) && not(r2=90)))
+                 &&  (  ((r1=300) && not (r2=44) && not (r2=28) && not(r2=101) && not(r2=102))
+                     || ((r2=44) && not (r1=300) && not (r1=28) && not(r1=101) && not(r2=102)))
          then False  (* do { print_string "C14"; False} *)
          else if (from_id2=to_id1) && (from_mid2=to_mid1)
-                 && (  ((r2=300) && not (r1=44) && not (r1=28) && not(r1=2) && not(r2=90))
-                    || ((r1=44) && not (r2=300) && not (r2=28) && not(r2=2) && not(r2=90)))
+                 && (  ((r2=300) && not (r1=44) && not (r1=28) && not(r1=101) && not(r2=102))
+                    || ((r1=44) && not (r2=300) && not (r2=28) && not(r2=101) && not(r2=102)))
          then False (* do { print_string "C15"; False} *)
 
       (* There can not be a samboXya of a verb, which is viSeRaNa/pUrvakAla etc. Only 'iwi' relation with such verbs are allowed. 
@@ -535,7 +535,8 @@ value rec add_cost text_type acc rels=fun
   [ [] -> acc
   |  [i :: r] ->  match List.nth rels (i-1) with
        [ Relationc (a1,b1,rel,a2,b2) -> let res=
-            if rel=2 then 0
+            if rel=101 then 0
+            else if rel=102 then 0
             else if rel=8 then 9 (* viXeya_viSeRaNam *)
             else if rel=51 then 0 (* wIvrawAxarSI *)
             else if rel=1079 then 79 (* upamAna *)
@@ -544,7 +545,7 @@ value rec add_cost text_type acc rels=fun
             else if rel=66 then 0 (* anyawara_xyowakaH *)
             else if rel=67 then 0 (* sup_anyawara_xyowakaH *)
             else if rel=55 then 0 (* Gataka_xyowakaH *)
-            else if rel=91 then 0 (*  avaXiH *)
+           (* avaXiH not yet defined in build_graph.ml  else if rel=91 then 0 (*  avaXiH *) *)
              (*else if  rel=35 then 35*) (* RaRTI *)
          (*   else if  rel=42 then 42 (* viSeRaNam *) *)
             (*else if  rel=33 then 0 *) (* aBexa *)
@@ -595,7 +596,7 @@ value lwg_and_collapse_all_solns text_type rel solns =
         where rec loop acc rel=fun
         [ [] -> acc
         | [ (len,cost,l)  :: r ] -> let l1=lwg_and_collapse rel l in
-                         let len1 =List.length l1 in
+                         let len1 = List.length l1 in 
                          let triplet=(len1, cost, l1) in
                          let new_acc=List.append [triplet] acc in
                          loop new_acc rel r
@@ -664,7 +665,7 @@ value populate_compatible_lists text_type rel total_wrds=
     
    ; for i=0 to length do {
       compatible_relations.(i+1) := List.sort_uniq compare compatible_relations.(i+1)
-      ;compatible_all_words.(i+1) := List.length (List.sort_uniq compare compatible_words.(i+1))=total_wrds
+      ;compatible_all_words.(i+1) := List.length (List.sort_uniq compare compatible_words.(i+1)) = total_wrds
 
  (* compatible_all_words.(i+1) is a boolean, it is true if the i+1th word is potentially related to all other words in the sentence.
 This condition is added to ensure that the necessary condition that all the words are related is satisfied.
@@ -1005,19 +1006,32 @@ let maprel=List.map (fun y -> List.nth relations (y-1) ) relsindag in
    loop maprel
    where rec loop=fun
    [ [] -> True
-   | [ Relationc (a,b,90,c,d) :: rest]     (* niwya_sambanXaH1 *)
-   | [ Relationc (a,b,2,c,d) :: rest] ->   (* niwya_sambanXaH *)
-                  loop1 maprel 
+   | [ Relationc (a,b,101,c,d) :: rest]     (* niwya_sambanXaH *)
+   | [ Relationc (a,b,102,c,d) :: rest] ->   (* niwya_sambanXaH1 *)
+                  loop1 maprel
                   where rec loop1=fun
-                     [ [] -> loop2 maprel 
-                             where rec loop2=fun
-                             [ [] -> False (* do { print_string "failed case 13"; False} *)
-                             | [Relationc (x,y,r1,z,t)::rest2] -> 
-                                (* yaw case  2 incoming arrows *)
-                               if    x=a && y=b && not (r1=2) && not (r1=90)
-                               then loop rest
-                               else loop2 rest2
-                             ]
+                     [ [] -> False (* do { print_string "failed case 13"; False} *)
+                     | [Relationc (x,y,r1,z,t)::rest1] -> 
+                       (* yaw case  2 incoming arrows *)
+                       if    x=a && y=b && not (r1=101) && not (r1=102)
+                       then loop2 maprel
+                       where rec loop2=fun
+                       [ [] -> False
+                       | [Relationc (m,n,r2,o,p)::rest2] -> 
+                          if    m=c && n=d && not (r2=101) && not (r2=102)
+                          then loop rest
+                          else loop2 rest2
+                       ] 
+                       else if  x=c && y=d && not (r1=101) && not (r1=102)
+                       then loop2 maprel
+                       where rec loop2=fun
+                       [ [] -> False
+                       | [Relationc (m,n,r2,o,p)::rest2] -> 
+                          if    o=a && p=b && not (r2=101) && not (r2=102)
+                          then loop rest
+                          else loop2 rest2
+                       ]
+                       else loop1 rest1
                      ]
    | [ Relationc (a,b,r1,c,d) :: rest] ->
          if r1=9 || (r1 >= 4400 && r1 < 4500) then
@@ -1083,7 +1097,7 @@ value rec chk_cycles key_list v acc =
      let acc1=List.filter (fun (k1,v1) -> if k1=v then True else False) acc in
      if acc1=[] then False else loop acc1
      where rec loop=fun
-     [[] -> False
+     [[] -> (*do { print_string "chk cycle = False";*) False (*}*)
      | [(k1,v1)::r] -> let key_list1=[k1 :: key_list] in
                        if List.mem v1 key_list then True
                        else if chk_cycles key_list1 v1 acc then True
@@ -1096,7 +1110,7 @@ value no_cycles relations relsindag=(*do
     { List.iter print_sint relsindag; print_string "\n"; *)
       let acc=build_list relations relsindag in loop acc
       where rec loop=fun
-      [ [] -> True
+      [ [] -> (*do { print_string "no cylcle "; *) True (*}*)
       |[(k,v)::r] -> let key_list=[k] in 
                          if not (chk_cycles key_list v acc) then loop r else False
       ]
@@ -1111,24 +1125,33 @@ value rec print_dag=fun
         ]
 ;
 
+value rec get_list_length acc rels = fun
+  [ [] -> acc
+  |  [i :: r] ->  match List.nth rels (i-1) with
+       [ Relationc (a1,b1,rel,a2,b2) -> if rel > 100 && rel < 200 then get_list_length acc rels r else get_list_length (acc+1) rels r
+       ]
+  ]
+;
+
+
 (* Get dag list of size n from the array of lists relations, where each list corresponds to a relation and associated dags with it. *)
 
 value rec get_dag_list text_type rel acc=fun
         [ [] -> acc
-        | [hd :: tl ] ->  (* do {
-                List.iter print_sint hd; print_string "\n";*)
+        | [hd :: tl ] ->   (* do {
+                List.iter print_sint hd; print_string " BEFORE\n"; *)
                     if samucciwa_anyawara_constraint rel hd
                     && global_compatible text_type rel hd
                     && seq_expectancy rel hd
-                   && no_cycles rel hd
-                      then (* do {
-                             List.iter print_sint hd; print_string "\n";*)
+                    && no_cycles rel hd
+                      then  (*do {
+                             List.iter print_sint hd; print_string " AFTER\n"; *)
                          let cost=add_cost text_type 0 rel hd in
-                         let len =List.length hd in
+                         let len = get_list_length 0 rel hd in
                          let triplet=(len, cost, hd) in
                          let res1=List.append [triplet] acc in
                          get_dag_list text_type rel res1 tl (*}*)
-                    else get_dag_list text_type rel acc tl  (*}*)
+                    else get_dag_list text_type rel acc tl (* }*)
        ]
 ;
 
@@ -1188,24 +1211,24 @@ value solver rel_lst text_type =
          else (total_wrds-1) in (* do {*)
          (*print_string "final="
        ; print_int final
-    ; *) let dags=construct_dags 0 final wrdb [] in (* do { *)
-     (*print_string "DAGS=" 
+    ; *) let dags=construct_dags 0 final wrdb [] in (* do {
+     print_string "DAGS=" 
      ;print_acc dags 
-     ;*)let dagsj=List.fold_left ( fun y (a,b) -> 
+     ; *)let dagsj=List.fold_left ( fun y (a,b) -> 
            (* if (List.length a=total_wrds-1) *)
             if (List.length a >= total_wrds-3) 
             then [a::y]
             else y) [] dags in 
             let soln=List.sort comparecostlength (get_dag_list text_type rel_lst [] dagsj) in
              let l=List.filter 
-              (fun (x,y,z) -> if x=total_wrds-1 then True else False ) 
+              (fun (x,y,z) -> if x >= total_wrds-1 then True else False ) (* To account for niwya sambanXa = is changed to >= *)
               soln in
               if (List.length l > 0)
               then do
               { (* print_string "Total dags="
               ; print_int total_dags_so_far.val
-              ; print_newline () ; *)
-              (*;  print_int total_wrds
+              ; print_newline () ; 
+              ;   print_int total_wrds
               ; print_int (List.length l) 
               ; *) let collapsed_soln=lwg_and_collapse_all_solns text_type rel_lst l in
                 let uniq_collapsed_soln=List.sort comparecostlength collapsed_soln in do {
@@ -1220,7 +1243,7 @@ value solver rel_lst text_type =
               }
               else do { 
               let l=List.filter 
-              (fun (x,y,z) -> if x=total_wrds-1 then False else True ) 
+              (fun (x,y,z) -> if x > total_wrds-3 then True else False ) 
               soln in
               if (List.length l > 0)
               then
@@ -1235,7 +1258,7 @@ value solver rel_lst text_type =
               (*; print_cost_soln_list 1 0 rel_lst soln
                * TO MODIFY according to new parameter types *)
               } else ()
-     } (*} *)
+     } (*}*)
  (*}*)
  (*}*)
  }
