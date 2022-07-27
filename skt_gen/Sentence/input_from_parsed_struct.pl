@@ -721,7 +721,7 @@ while($in = <STDIN>){
   $wrd_no =~ s/^[ ]+//;
   $mo =~ s/,/ /g;
   $rel =~ s/,/ /g;
-  $rel =~ s/;.*//;
+  $rel =~ s/;.*//;	# Remove multiple relations
   if ($rel ne "") {
     $res = $wrd_no." ".$mo." ".$rel."\n";
   } else { $res = $wrd_no." ".$mo."\n";}
