@@ -110,7 +110,8 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
       if($morph eq "GH") {
          $sentences =~ s/\.//;
          $sentences =~ s/ /\+/g;
-	 $cmd = "echo > $GlblVar::HERITAGE_TMP/best_sol.txt;QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=g\";$GlblVar::HERITAGE_CGIURL";
+	 #$cmd = "echo > $GlblVar::HERITAGE_TMP/best_sol.txt;QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=f\";$GlblVar::HERITAGE_CGIURL";
+	 $cmd = "echo > $GlblVar::HERITAGE_TMP/best_sol.txt; QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=deva\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=f\" $GlblVar::HERITAGE_CGIURL 1> /dev/null";
          system($cmd);
          open (TMP,"< $GlblVar::HERITAGE_TMP/best_sol.txt");
          $split = <TMP>;
