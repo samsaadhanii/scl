@@ -448,7 +448,7 @@ value rec mk_tuple_lst acc = fun
    ]
 ;
 
-value pronoun3 rt = (rt="yax" || rt="wax" || rt="ewax" || rt="ixam" || rt="sarva" || rt="sarvA" || rt="svIya" || rt="svIyA" || rt="kim" || rt="Bavaw" || rt="uBa"|| rt="uBA" || rt="yAvaw" || rt = "wAvaw" || rt = "axas" || rt="kiFciw" || rt="kiFcana" || rt="Awman" || rt="sva" || rt="svA" || rt="anya" || rt="IxqS" || rt="kIxqS" || rt="kIxqSa" || rt = "IxqSa") 
+value pronoun3 rt = (rt="yax" || rt="wax" || rt="ewax" || rt="ixam" || rt="sarva" || rt="sarvA" || rt="svIya" || rt="svIyA" || rt="kim" || rt="Bavaw" || rt="uBa"|| rt="uBA" || rt="yAvaw" || rt = "wAvaw" || rt = "axas" || rt="kiFciw" || rt="kiFcana" || rt="Awman" || rt="sva" || rt="svA" || rt="anya" || rt = "anyA" || rt="IxqS" || rt="kIxqS" || rt="kIxqSa" || rt = "IxqSa") 
 ;
 value pronominal12 rt = (rt="yuRmax" || rt="asmax")
 ;
@@ -2643,7 +2643,7 @@ Removed Sawq_l?t, SAnac_l?t, kwa and kwavawu *)
                            && not (member_of rt2 manuRyasaMjFAvAcI) (* These are the names of human beings, and hence we can not have X{6} rt2 *)
                            && not (member_of rt2 named_entity) (* These are the names of entities, and hence we can not have X{6} rt2 *)
                            && not (member_of rt2 upapada6_list) (* This is needed, since in these cases the relation is sanxarBa_binxuH *)
-                           && not (pronominal123 rt2) (* sEnyasya mama; mama should be related to sEnya and not the other way *)
+                           && (rt2="Awman" || not (pronominal123 rt2)) (* sEnyasya mama; mama should be related to sEnya and not the other way ; rAmasya AwmA should be parsed *)
                            && not (rt2 = "maXya")
                            && (not (member_of rt2 guNavacana))
                            && (not ((rt1="uBa" || rt1="uBA") && viBakwiH1=6))

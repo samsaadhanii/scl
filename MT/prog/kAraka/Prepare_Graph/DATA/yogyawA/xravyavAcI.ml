@@ -167,7 +167,7 @@ value xravyavAcI = [
 "awinu";
 "awIwanOka";
 "AwmaBU";
-"Awman";
+"Awman"; 
 "aWo";
 "awri";
 "aXara";
