@@ -1,8 +1,8 @@
 #Path for ZEN Library
-ZENDIR=/home/anusaaraka/SKT/Heritage_Platform/Zen/ML
+ZENDIR=/home/anusaaraka/SKT/Zen/ML
 
 #Path for installation of all packages.
-SCLINSTALLDIR=/home/anusaaraka/scl
+SCLINSTALLDIR=/home/amba/scl
 
 #Paths for enabling web services
 HTDOCSDIR=/var/www/html
@@ -24,8 +24,8 @@ GraphvizDot=/usr/bin/dot
 MYPYTHONPATH=/usr/bin/python3
 
 #Heritage installation path (for interface)
-HERITAGE_CGIURL=/cgi-bin/Heritage/sktgraph.cgi
-HERITAGE_TMP=/home/amba//SKT/Heritage_Platform/ML
+HERITAGE_CGIURL=/usr/lib/cgi-bin/SKT/sktgraph
+HERITAGE_TMP=/home/amba/SKT/Heritage_Platform/ML
 #SCL_CGIURL=/cgi-bin/scl
 
 #Path for temporary files

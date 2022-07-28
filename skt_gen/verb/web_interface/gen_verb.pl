@@ -113,7 +113,7 @@ package main;
   print "</center></td></tr>\n";
 
   print "<tr>\n"; 
-  $LTPROC_IN1 = &get_generator_string($rt,$upasargastr,$sanAxi,$prayogaH,$XAwu,$gaNa,"AwmanepaxI");
+  $LTPROC_IN = &get_generator_string($rt,$upasargastr,$sanAxi,$prayogaH,$XAwu,$gaNa,"AwmanepaxI");
 
 #$str = $LTPROC_IN1;
 #$str =~ s/</&lt;/g;
