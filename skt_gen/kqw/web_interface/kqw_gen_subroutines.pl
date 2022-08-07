@@ -59,7 +59,7 @@ sub print_header {
 	print "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n";
         print "<script type=\"text/javascript\">\n";
         print "function show(word,encod){\n";
-        print "window.open('/cgi-bin/scl/MT/options1.cgi?word='+word+'&outencoding='+encod+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=yes').focus();\n }\n </script>";
+        print "window.open('/cgi-bin/scl/MT/dict_options.cgi?word='+word+'&outencoding='+encod+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=yes').focus();\n }\n </script>";
 
         print "</head>\n";
 

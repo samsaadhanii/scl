@@ -953,7 +953,7 @@ sub print_header {
 	print "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n";
         print "<script type=\"text/javascript\">\n";
         print "function show(word,encod){\n";
-        print "window.open('/cgi-bin/scl/MT/options1.cgi?word='+word+'&outencoding='+encod+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=yes').focus();\n }\n </script>";
+        print "window.open('/cgi-bin/scl/MT/dict_options.cgi?word='+word+'&outencoding='+encod+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=yes').focus();\n }\n </script>";
 
         print "</head>\n";
 
@@ -991,9 +991,9 @@ sub gen_noun_forms{
  }
  else {# $format = web
 	 $str = "echo '".$LTPROC_IN."' | $generator | grep . | sed '1,\$s/^#.*/-/' | pr -3 -a -t -w 150 | tr ' ' '\t' | $conversion_program | $GlblVar::CGIDIR/scl/skt_gen/noun/html_format.pl $pUrvapaxa $rt_wx $lifga_wx $outencoding";
-open (TMP,">/tmp/aaa1");
-print TMP $str;
-close TMP;
+#open (TMP,">/tmp/aaa1");
+#print TMP $str;
+#close TMP;
 	 #$LTPROC_IN =~ s/</;/g;
 	 #$LTPROC_IN =~ s/>/;/g;
 	 #print $LTPROC_IN;
