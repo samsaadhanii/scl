@@ -17,7 +17,7 @@ value nirXAraNa_list = [
 ("mAsa","mArgaSIrRa");
 ("mahaw-qRi","Bqgu");
 ("makRawra","SaSin");
-("#manuRya","#kRawriya");
+("#manuRya","#kRawriya"); (* covered in amarakosha, hence added # *)
 ("maruw","marIci");
 ("muni","vyAsa");
 ("nAga","ananwa");
