@@ -27,6 +27,7 @@
 %option nounput
 %option noinput
 %%
+morph: 	{}
 \<form[ ]wx=\"[^\"]+/\"	{ if(strcmp(pv,"")){ strcpy(word,pv); strcat(word,"-");} 
 			  else if( iic_count > 0) { strcat(word,"-");}
                           else {word[0] = '\0';}
