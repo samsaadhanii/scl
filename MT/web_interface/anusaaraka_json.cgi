@@ -23,8 +23,7 @@ require "../paths.pl";
 require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 
 package main;
-#use CGI qw/:standard/;
-#use URL::Escape;
+
  	 print "Access-Control-Allow-Origin: *\n";
 
   if($GlblVar::LOG eq "true") {
@@ -79,7 +78,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
       # my $cgi = new CGI;
       if($morph eq "GH") {
          $sentences =~ s/\.//;
-	 $cmd = "$GlblVar::HERITAGE_CGIURL?lex=MW\&cache=t\&st=t\&us=f\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=g";
+	 $cmd = "/cgi-bin/$GlblVar::HERITAGE_CGI?lex=MW\&cache=t\&st=t\&us=f\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=g";
 	 #print CGI-> redirect($cmd);
 	 print "location:$cmd\n\n";
       } else {
@@ -103,7 +102,9 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
          print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 	 #  print $cgi->header (-charset => 'UTF-8');
            $sentences = '"'. $sentences  . '"';
-           my $exit_status = system("$GlblVar::SCLINSTALLDIR/MT/prog/shell/callmtshell.pl $GlblVar::TFPATH $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot $sentences $encoding $pid $script $sandhi $morph $parse $text_type $GlblVar::LTPROCBIN $GlblVar::MYPYTHONPATH");
+           $cmd = "$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot tmp_in${pid}/in$pid $GlblVar::TFPATH hi $script $morph $parse $text_type $GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI $GlblVar::LTPROCBIN $GlblVar::MYPYTHONPATH 2>> $GlblVar::TFPATH/tmp_in$pid/err$pid;";
+          $exec_status = system($cmd);
+           #my $exit_status = system("$GlblVar::SCLINSTALLDIR/MT/prog/shell/callmtshell.pl $GlblVar::TFPATH $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot $sentences $encoding $pid $script $sandhi $morph $parse $text_type $GlblVar::LTPROCBIN $GlblVar::MYPYTHONPATH");
 
 	    if($exit_status > -1) {
 	         &increment_curr_id;

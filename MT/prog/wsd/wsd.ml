@@ -136,7 +136,7 @@ EXTEND Gram
         "(word"; w = IDENT; ")"; 
         "(rt"; r = IDENT; ")"; 
         "(compound_hd"; c = IDENT; ")"; 
-        "(waxXiwa_rt"; taddhitart = IDENT; ")"; 
+        (*"(waxXiwa_rt"; taddhitart = IDENT; ")"; *)
         "(waxXiwa_prawyayaH"; taddhita = IDENT; ")"; 
         "(lifgam"; ling = IDENT; ")"; 
         "(viBakwiH"; vib = INT; ")"; 
@@ -144,7 +144,8 @@ EXTEND Gram
         "(rel_nm"; rel = IDENT; ")";
         "(relata_pos"; rel_pos = INT; ")";
     ")" -> 
-    (int_of_string i,int_of_string m,w,r,c,taddhita,taddhitart,ling,int_of_string vib,vac, rel, int_of_string rel_pos)
+    (*(int_of_string i,int_of_string m,w,r,c,taddhita,taddhitart,ling,int_of_string vib,vac, rel, int_of_string rel_pos) *)
+    (int_of_string i,int_of_string m,w,r,c,taddhita,ling,int_of_string vib,vac, rel, int_of_string rel_pos)
     ] ] ;
 END
 ;
@@ -416,14 +417,14 @@ value distinct_2 m1 m2 = match m1 with
   | AvywaxXiwa (id1,_,_,_,_,_,_,_)
   | Sup (id1,_,_,_,_,_,_,_,_,_)
   | Avy (id1,_,_,_,_,_,_)
-  | WaxXiwa (id1,_,_,_,_,_,_,_,_,_,_,_) -> match m2 with
+  | WaxXiwa (id1,_,_,_,_,_,_,_,_,_,_) -> match m2 with
   	[ Wif (id2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
   	| Kqw (id2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
  	| Avykqw (id2,_,_,_,_,_,_,_,_,_,_,_)
  	| AvywaxXiwa (id2,_,_,_,_,_,_,_)
  	| Sup (id2,_,_,_,_,_,_,_,_,_)
  	| Avy (id2,_,_,_,_,_,_)
- 	| WaxXiwa (id2,_,_,_,_,_,_,_,_,_,_,_) -> 
+ 	| WaxXiwa (id2,_,_,_,_,_,_,_,_,_,_) -> 
                 if not (id1=id2) 
                 then True
                 else False
@@ -471,7 +472,7 @@ value next id = id+1
 
 value remove_viSeRaNa_viBakwiH m1 = match m1 with
   [ Sup (id1,mid1,word1,rt1,_,_,viBakwiH1,_,rel,_)
-  | WaxXiwa (id1,mid1,word1,rt1,_,_,_,_,viBakwiH1,_,rel,_)
+  | WaxXiwa (id1,mid1,word1,rt1,_,_,_,viBakwiH1,_,rel,_)
   | Kqw (id1,mid1,word1,_,_,_,_,_,_,rt1,_,_,viBakwiH1,_,rel,_) ->
       if rel="viSeRaNam" then
            [ Relation (id1,mid1,"viBakwiH",string_of_int viBakwiH1,"0","1.1")]
@@ -482,7 +483,7 @@ value remove_viSeRaNa_viBakwiH m1 = match m1 with
 
 value change_nirXAraNa_viBakwiH m1 = match m1 with
   [ Sup (id1,mid1,word1,rt1,_,_,viBakwiH1,_,rel,_)
-  | WaxXiwa (id1,mid1,word1,rt1,_,_,_,_,viBakwiH1,_,rel,_)
+  | WaxXiwa (id1,mid1,word1,rt1,_,_,_,viBakwiH1,_,rel,_)
   | Kqw (id1,mid1,word1,_,_,_,_,_,_,rt1,_,_,viBakwiH1,_,rel,_) ->
       if rel="nirXAraNam"  && viBakwiH1 = 6 then
            [ Relation (id1,mid1,"viBakwiH",string_of_int viBakwiH1,"7","2.1")]

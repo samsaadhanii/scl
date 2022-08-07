@@ -79,13 +79,13 @@ and avykqw = ( int * int * string * string * string * string * string * string *
   ; rel_nm : string
   ; relata_pos : int
   }*)
-and waxXiwa = ( int * int * string * string * string * string * string * string * int * string * string * int)
+and waxXiwa = ( int * int * string * string * string * string * string * int * string * string * int)
 (*{ id : int   
   ; mid : int   
   ; word : string   
   ; rt : string   
   ; compound_hd : string
-  ; waxXiwa_rt : string   
+  (*; waxXiwa_rt : string   *)
   ; waxXiwa_prawyayaH : string   
   ; lifgam : string   
   ; viBakwiH : int   
