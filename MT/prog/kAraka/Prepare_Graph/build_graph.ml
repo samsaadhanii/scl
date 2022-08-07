@@ -2172,7 +2172,7 @@ value rlsamboXana_xyowakaH m1 m2 text_type = match m2 with
 
 value nirXAraNam id1 id2 mid1 mid2 vacanam2 viBakwiH2 text_type rl1 =
            if  ((id1=previous id2 && text_type = "Prose") || text_type = "Sloka")
-             &&  vacanam2="eka" (* && not(viBakwiH2=8) -- xehaBUwAm vara *)
+               (* && vacanam2="eka" -- asmAkam viSiRtAH ye wAn niboXa xvija-uwwama *) (* && not(viBakwiH2=8) -- xehaBUwAm vara *)
            then [ Relation (id1,mid1,"nirXAraNam",id2,mid2,rl1)]
            else []
 ;
@@ -2193,6 +2193,8 @@ value rlnirXAraNam m1 m2 text_type = match m1 with
            if  ((rt2 = (get_assoc rt1 nirXAraNa_list)) 
                || rt2 = "kiFciw" || rt2="vara" || rt2="SreRTa" || rt2="maXya"
                || member_of (rt1^" "^rt2) amarakosha_jAwi)
+               || member_of rt2 guNavacana
+               || member_of rt2 sambanXavAcI  (* yogyawA *)
            then  nirXAraNam id1 id2 mid1 mid2 vacanam2 viBakwiH2 text_type "20.1" (* 2.3.41;*)
            else []
         | WaxXiwa (id2,mid2,_,rt2,_,_,waxXiwa_prawyayaH2,_,viBakwiH2,vacanam2,_) -> 
