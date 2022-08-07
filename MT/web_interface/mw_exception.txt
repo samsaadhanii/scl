@@ -1,3 +1,4 @@
+#Still this is not being used. We need to add this to get_dict_entry.pl
 %mw_exception = {
 "Axya"=>27,
 "ApIwa"=>28,
