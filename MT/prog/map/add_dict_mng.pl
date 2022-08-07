@@ -213,24 +213,23 @@ while($tmpin = <STDIN>){
          $hn_vacana = &get_hn_vacana($vacana);
          $ans .=  "/$samAsa_pUrvapaxa$map_rt $cat $hn_lifga $hn_vacana $default_puruRa $map_kqw";
       }
-      #} elsif($cat eq "waxXiwa_noun") {
-      #
-      # ($rt, $waxXiwa_prawyaya, $lifgam, $viBakwi, $vacana, $rel) = 
-      #  split(/:/, &get_waxXiwa_noun_features($in[$i]));
-      #
-      #	#	print "rt = $rt\n";
-      # $key = $rt."_".$lifga;
-      # $map_rt = &get_dict_mng($key, $rNOUN);
-      # #if($samAsa_pUrvapaxa) { $map_rt = $samAsa_pUrvapaxa.$map_rt;}
-      # $map_waxXiwa = &get_dict_mng($waxXiwa_prawyaya, $rTAM);
-      # $rt .= $map_waxXiwa;
-      # $hn_lifga = &get_skt_hn_lifga($lifgam);
-      # $hn_vacana = &get_hn_vacana($vacana);
-      # # $hn_viBakwi = &get_hn_viBakwi($viBakwi);
-      # # get_hn_viBakwi to be written
-      # $ans .=  "/$samAsa_pUrvapaxa$map_rt $cat $hn_lifga $hn_vacana $default_puruRa $map_waxXiwa";
+      } elsif($cat eq "waxXiwa_noun") {
+      
+       ($rt, $waxXiwa_prawyaya, $lifgam, $viBakwi, $vacana, $rel) = 
+        split(/:/, &get_waxXiwa_noun_features($in[$i]));
+      
+       $key = $rt."_".$lifga;
+       $map_rt = &get_dict_mng($key, $rNOUN);
+       #if($samAsa_pUrvapaxa) { $map_rt = $samAsa_pUrvapaxa.$map_rt;}
+       $map_waxXiwa = &get_dict_mng($waxXiwa_prawyaya, $rTAM);
+       $rt .= $map_waxXiwa;
+       $hn_lifga = &get_skt_hn_lifga($lifgam);
+       $hn_vacana = &get_hn_vacana($vacana);
+       $map_viBakwi = &get_dict_mng($viBakwi, $rTAM);
+       $infl_map_waxXiwa = &get_inflected_waxXiwa($map_waxXiwa, $hn_lifga, $map_viBakwi);
+       $ans .=  "/$samAsa_pUrvapaxa$map_rt n $hn_lifga $hn_vacana $default_puruRa $infl_map_waxXiwa";
       # #print "ans = $ans\n";
-      }elsif($cat eq "n") {
+      } elsif($cat eq "n") {
 
         ($rt,$lifga,$viBakwi,$vacana,$rel) = split(/:/, &get_noun_features($in[$i]));
 	#print "rt = $rt\n";
@@ -289,8 +288,8 @@ while($tmpin = <STDIN>){
        $map_waxXiwa = &get_dict_mng($waxXiwa, $rTAM);
       
        if($map_rt =~ /(.*):(.*)/) { $map_rt = $1; $hn_lifga = &get_skt_hn_lifga($2);}
-       else { $hn_lifga = "m";}
-       #$hn_lifga = &get_hn_lifga($map_rt,$lifga);
+
+       #$hn_lifga = &et_hn_lifga($map_rt,$lifga);
        $hn_cat = "n"; # The category of the rt word is n, while the resultant is an avy
        $ans .= "/$map_rt $hn_cat $hn_lifga $default_vacana $default_puruRa $map_waxXiwa";
        #$ans .= "/$map_rt $hn_cat NW NW NW $map_waxXiwa";
@@ -375,7 +374,7 @@ while($tmpin = <STDIN>){
 
        $ans .= "/$map_rt $cat $default_lifga $hn_vacana $hn_purURa $map_lakAra";
 
-   } else { 
+   } else {
        # This is to handle the words unrecognised by morph
        $cat = "n";
        $map_rt = $in[$i];
@@ -519,7 +518,7 @@ my $cat  = "";
    elsif($in =~ /vargaH:avy;.*kqw_prawyayaH:/){ $cat = "kqw_avy";}
    elsif($in =~ /kqw_prawyayaH/){ $cat = "kqw_noun";}
 
-   #elsif($in =~ /vargaH:nA;waxXiwa_prawyayaH:([^;]+;lifga)/){ $cat = "waxXiwa_noun";}
+   elsif($in =~ /vargaH:nA;waxXiwa_prawyayaH:([^;]+;lifga)/){ $cat = "waxXiwa_noun";}
    elsif($in =~ /vargaH:nA;waxXiwa_prawyayaH:([^;]+)/){ $cat = "n";}
    elsif($in =~ /vargaH:avy;waxXiwa_prawyayaH:([^;]+)/){ $cat = "waxXiwa_avy";}
 
@@ -622,24 +621,24 @@ $ans;
 }
 1;
 
-#sub get_waxXiwa_noun_features{
-#my($in) = @_;
-#
-#my $ans = "";
-#
-#  if($in =~ /^.*rt:([^;]+).*waxXiwa_prawyayaH:([^;]+);.*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;}]+).*rel_nm:([^;]*)/){
-#
-#     $rt = $1;
-#     $waxXiwa_prawyayaH = $2;
-#     $lifgam = $3;
-#     $viB = $4;
-#     $vacana = $5;
-#     $rel = $6;
-#  $ans = join(":",$rt,$waxXiwa_prawyayaH,$lifgam,$viB,$vacana,$rel);
-#  }
-#$ans;
-#}
-#1;
+sub get_waxXiwa_noun_features{
+my($in) = @_;
+
+my $ans = "";
+
+  if($in =~ /^.*rt:([^;]+).*waxXiwa_prawyayaH:([^;]+);.*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;}]+).*rel_nm:([^;]*)/){
+
+     $rt = $1;
+     $waxXiwa_prawyayaH = $2;
+     $lifgam = $3;
+     $viB = $4;
+     $vacana = $5;
+     $rel = $6;
+  $ans = join(":",$rt,$waxXiwa_prawyayaH,$lifgam,$viB,$vacana,$rel);
+  }
+$ans;
+}
+1;
 
 sub get_waxXiwa_avy_features{
 my($in) = @_;
@@ -693,9 +692,12 @@ my $ans = "";
 		  #$rt =~ s/X_//; # In case of upasargas
 #This has been added to take care of Names that are not to be translated.
           $ans = $rt;
-	  $ans =~ s/_puM/:puM/; 
-	  $ans =~ s/_napuM/:napuM/; 
-	  $ans =~ s/_swrI/:swrI/; 
+#	  $ans =~ s/_puM/:puM/; 
+#	  $ans =~ s/_napuM/:napuM/; 
+#	  $ans =~ s/_swrI/:swrI/; 
+	  $ans =~ s/_puM//; 
+	  $ans =~ s/_napuM//; 
+	  $ans =~ s/_swrI//; 
        }
        #print"ans = $ans\n";
 $ans;
@@ -727,4 +729,17 @@ sub split_samAsa {
 	  }
   } else { $p_mng = ""; }
  $p_mng."#".$uwwarapaxa;
-  };
+}
+1;
+
+sub get_inflected_waxXiwa{
+  my ($map_waxXiwa, $hn_lifga, $map_viBakwi) = @_;
+
+  my $ans = $map_waxXiwa;
+  if ($map_waxXiwa eq "vAlA") {
+     if($hn_lifga eq "f") { $ans = "vAlI";}
+        elsif (($hn_lifga eq "m") && ($map_viBakwi ne "0")) { $ans = "vAle";}
+  }
+$ans;
+}
+1;

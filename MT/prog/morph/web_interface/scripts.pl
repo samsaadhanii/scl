@@ -25,7 +25,7 @@ function generate_verb_forms(encod,outencoding,rt,prayoga,upasarga,paxI){
 }\n
 
 function show(word,encod){
-  window.open('/cgi-bin/scl/MT/options1.cgi?word='+word+'&outencoding='+encod+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=yes').focus(); } 
+  window.open('/cgi-bin/scl/MT/dict_options.cgi?word='+word+'&outencoding='+encod+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=yes').focus(); } 
 
 
 </script>\n";

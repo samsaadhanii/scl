@@ -26,7 +26,7 @@ OUTSCRIPT=$6
 MORPH=$7
 PARSE=$8
 TEXT_TYPE=$9
-HERITAGE_CGIURL=${10}
+HERITAGE_CGI=${10}
 LTPROCBIN=${11}
 MYPYTHONPATH=${12}
 
@@ -100,7 +100,7 @@ $ANU_MT_PATH/morph/morph.sh $SCLINSTALLDIR $temp_files_path/$fbn.out $temp_files
 # Field 10: kaaraka role
 #     /usr/bin/time "%Uuser %Ssystem %Eelapsed %PCPU (%Xtext+%Ddata %Mmax)k\n%Iinputs+%Ooutputs (%Fmajor+%Rminor)pagefaults %Wswaps %C\n" 
 #date
-$ANU_MT_PATH/kAraka/shabdabodha.sh $SCLINSTALLDIR $GraphvizDot $Heritage_Input $temp_files_path $fbn.out $fbn.kAraka $OUTSCRIPT $PARSE $TEXT_TYPE $HERITAGE_CGIURL
+$ANU_MT_PATH/kAraka/shabdabodha.sh $SCLINSTALLDIR $GraphvizDot $Heritage_Input $temp_files_path $fbn.out $fbn.kAraka $OUTSCRIPT $PARSE $TEXT_TYPE /cgi-bin/$HERITAGE_CGI
 #date
 #cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
 #echo "within Parse" > /tmp/aaa
@@ -129,13 +129,13 @@ $ANU_MT_PATH/kAraka/shabdabodha.sh $SCLINSTALLDIR $GraphvizDot $Heritage_Input $
 # gen o/p in the 17th field
     #cp $temp_files_path/$fbn.out $temp_files_path/$fbn.pre_final_out
     $ANU_MT_PATH/interface/add_colorcode.pl < $temp_files_path/$fbn.out |\
-    $ANU_MT_PATH/chunker/lwg.pl  |\
+    $ANU_MT_PATH/chunker/lwg.pl |\
     $ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $MT_PATH/data hi |\
-    $ANU_MT_PATH/map/lwg_avy_avy.pl $SCLINSTALLDIR $MT_PATH/data hi |\
+    $ANU_MT_PATH/map/lwg_avy_avy.pl $SCLINSTALLDIR $MT_PATH/data hi  |\
     $ANU_MT_PATH/hn/sent_gen/agreement.pl $SCLINSTALLDIR $MT_PATH/data $ANU_MT_PATH/hn/sent_gen  |\
     $ANU_MT_PATH/hn/sent_gen/call_gen.pl $SCLINSTALLDIR  |\
     $ANU_MT_PATH/interface/modify_mo_for_display.pl $SCLINSTALLDIR  > $temp_files_path/ttt
-    mv $temp_files_path/ttt $temp_files_path/$fbn.out
+    cp $temp_files_path/ttt $temp_files_path/$fbn.out
 
 ##########
     $ANU_MT_PATH/translation/translate.sh $SCLINSTALLDIR $my_converter_wxHindi < $temp_files_path/$fbn.out > $temp_files_path/../${fbn}_trnsltn
@@ -165,11 +165,11 @@ $dev_converter < $temp_files_path/table.tsv > $temp_files_path/table_dev.tsv
 $my_converter < $temp_files_path/anvaya.tsv > $temp_files_path/anvaya_outscript.tsv
 
 #Generate Anvaya order html file
-$ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin $HERITAGE_CGIURL A < $temp_files_path/anvaya_outscript.tsv > $temp_files_path/../anvaya_$fbn.html
+$ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin /cgi-bin/$HERITAGE_CGI A < $temp_files_path/anvaya_outscript.tsv > $temp_files_path/../anvaya_$fbn.html
 $ANU_MT_PATH/interface/get_anvaya_shloka_translation.pl ${temp_files_path}/anvaya_$fbn  ${temp_files_path}/anvaya_${fbn}_wx_trnsltn < $temp_files_path/anvaya.tsv
 
 #Generate Shloka order html file
-$ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin $HERITAGE_CGIURL S < $temp_files_path/anvaya_outscript.tsv > $temp_files_path/../shloka_$fbn.html
+$ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin /cgi-bin/$HERITAGE_CGI S < $temp_files_path/anvaya_outscript.tsv > $temp_files_path/../shloka_$fbn.html
 
 $my_converter < $temp_files_path/anvaya_${fbn}_wx_trnsltn > $temp_files_path/anvaya_${fbn}_trnsltn
 $MYPYTHONPATH $ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table_outscript.tsv $temp_files_path/table.xlsx

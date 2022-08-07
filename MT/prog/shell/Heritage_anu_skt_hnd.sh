@@ -28,7 +28,7 @@ TMP_DIR_PATH=$2
 OUTSCRIPT=$3
 PARSE=$4
 TEXT_TYPE=$5
-HERITAGE_CGIURL=$6
+HERITAGE_CGI=$6
 
 DEBUG="OFF"
 Heritage_Input="YES"
@@ -69,7 +69,7 @@ else
 # Fields 9 and 10: morph analysis corresponding to the kaaraka role and kaaraka role in the 10th field
      #/usr/bin/time -f "%Uuser %Ssystem %Eelapsed %PCPU (%Xtext+%Ddata %Mmax)k\n%Iinputs+%Ooutputs (%Fmajor+%Rminor)pagefaults %Wswaps %C\n" 
 #cp $temp_files_path/$fbn.out $temp_files_path/$fbn.pre_parse_out
-$ANU_MT_PATH/kAraka/shabdabodha.sh $SCLINSTALLDIR $GraphvizDot $Heritage_Input $temp_files_path $fbn.out $fbn.kAraka $OUTSCRIPT $PARSE $TEXT_TYPE $HERITAGE_CGIURL 
+$ANU_MT_PATH/kAraka/shabdabodha.sh $SCLINSTALLDIR $GraphvizDot $Heritage_Input $temp_files_path $fbn.out $fbn.kAraka $OUTSCRIPT $PARSE $TEXT_TYPE /cgi-bin/$HERITAGE_CGI 
 cp $temp_files_path/$fbn.out $temp_files_path/$fbn.post_parse_out
  fi  # PARSE != AVAILABLE ends here
 #
@@ -140,11 +140,11 @@ $my_converter < $temp_files_path/table.tsv > $temp_files_path/table_outscript.ts
 $my_converter < $temp_files_path/anvaya.tsv > $temp_files_path/anvaya_outscript.tsv
 
 #Generate Shloka order html file
-$ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin  $HERITAGE_CGIURL A < $temp_files_path/anvaya_outscript.tsv > $temp_files_path/../anvaya_$fbn.html
+$ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin  /cgi-bin/$HERITAGE_CGI A < $temp_files_path/anvaya_outscript.tsv > $temp_files_path/../anvaya_$fbn.html
 $ANU_MT_PATH/interface/get_anvaya_shloka_translation.pl ${temp_files_path}/anvaya_$fbn  ${temp_files_path}/anvaya_${fbn}_wx_trnsltn < $temp_files_path/anvaya.tsv
 
 #Generate Shloka order html file
-$ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin $HERITAGE_CGIURL S < $temp_files_path/anvaya_outscript.tsv > $temp_files_path/../shloka_$fbn.html
+$ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin /cgi-bin/$HERITAGE_CGI S < $temp_files_path/anvaya_outscript.tsv > $temp_files_path/../shloka_$fbn.html
 
 $my_converter < $temp_files_path/anvaya_${fbn}_wx_trnsltn > $temp_files_path/anvaya_${fbn}_trnsltn
 $MYPYTHONPATH $ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table_outscript.tsv $temp_files_path/table.xlsx

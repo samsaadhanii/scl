@@ -12,7 +12,7 @@ $word =~ s/{(.*)}//g;
 #$dic_name = param('dic');
 print "<html><head>
 <script type=\"text/javascript\" src=\"jquery.js\"></script>
-<script type=\"text/javascript\" src =\"option.js\"></script>
+<script type=\"text/javascript\" src =\"dict_options.js\"></script>
 <style type=\"text/css\"> #hd{height:30px;font:22px bold sans-serif;width:100%;background:#333;color:#fff;}</style>
 </head><body><div id=\"check\">";
 print $word;
