@@ -15,10 +15,10 @@ $TFPATH = $ARGV[1];
       <link href=\"$CSSPATH/Sanskrit_hindi.css\" type=\"text/css\" rel=\"stylesheet\" />\n
       <script src=\"$CSSPATH/script.js\" type=\"text/javascript\"></script>\n
       <script src=\"$CSSPATH/Sanskrit_hindi.js\" type=\"text/javascript\"></script>\n
-      <script src=\"$CSSPATH/toggle.js\" type=\"text/javascript\"></script>\n 
+<!--       <script src=\"$CSSPATH/toggle.js\" type=\"text/javascript\"></script>\n  -->
       <script type=\"text/javascript\">\n
       function show(word,encod){\n
-      window.open('$CGIPATH/options1.cgi?word='+word+'&outencoding='+encod+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=yes');\n }\n </script>
+      window.open('$CGIPATH/dict_options.cgi?word='+word+'&outencoding='+encod+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=yes');\n }\n </script>
       <style>
        body { background-color: FFFED1;}
       </style>

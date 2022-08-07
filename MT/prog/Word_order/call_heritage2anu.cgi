@@ -65,6 +65,6 @@ system("echo -n \"<s> \"> $GlblVar::TFPATH/in$pid; cat $GlblVar::TFPATH/tmp_in$p
 
 if($display eq "") { $display = "DEV";}
 
-system("$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/Heritage_anu_skt_hnd.sh in$pid $GlblVar::TFPATH $display Full Sloka $GlblVar::HERITAGE_CGIURL ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
+system("$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/Heritage_anu_skt_hnd.sh in$pid $GlblVar::TFPATH $display Full Sloka /cgi-bin/$GlblVar::HERITAGE_CGI ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
 system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $display $pid A");
 
