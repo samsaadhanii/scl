@@ -21,9 +21,7 @@ LTPROCBIN=/opt/local/bin/lt-proc
 GraphvizDot=/opt/local/bin/dot
 
 #Heritage installation path (for interface)
-HERITAGE_CGIURL=/cgi-bin/SKT/sktgraph
-HERITAGE_TMP=/Users/ambakulkarni/SKT/heritage_platform/ML
-SCL_CGIURL=/cgi-bin/scl
+HERITAGE_CGI=SKT/sktgraph
 
 #Path for temporary files
 TFPATH=/private/tmp/SKT_TEMP

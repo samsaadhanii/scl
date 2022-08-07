@@ -24,9 +24,7 @@ GraphvizDot=/opt/local/bin/dot
 MYPYTHONPATH=/opt/homebrew/bin/python3
 
 #Heritage installation path (for interface)
-HERITAGE_CGIURL=/Library/WebServer/CGI-Executables/SKT/sktgraph2.cgi
-HERITAGE_TMP=/Users/ambakulkarni/amba/SKT/heritage_platform/ML
-#SCL_CGIURL=/cgi-bin/scl
+HERITAGE_CGI=SKT/sktgraph2.cgi
 
 #Path for temporary files
 TFPATH=/private/tmp/SKT_TEMP
