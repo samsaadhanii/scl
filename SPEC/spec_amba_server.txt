@@ -1,11 +1,11 @@
 #Path for ZEN Library
-ZENDIR=/home/ambaji/SKT/Heritage_Platform/Zen/ML
+ZENDIR=/home/amba/SKT/Zen/ML
 
 #Path for installation of all packages.
-SCLINSTALLDIR=/home/ambaji/scl
+SCLINSTALLDIR=/home/amba/scl
 
 #Paths for enabling web services
-HTDOCSDIR=/var/www/htdocs
+HTDOCSDIR=/var/www/html
 
 CGIDIR=/usr/lib/cgi-bin
 
@@ -24,7 +24,7 @@ GraphvizDot=/usr/bin/dot
 MYPYTHONPATH=/usr/bin/python3
 
 #Heritage installation path (for interface)
-HERITAGE_CGI=Heritage/sktgraph.cgi
+HERITAGE_CGI=SKT/sktgraph2
 
 #Path for temporary files
 TFPATH=/tmp/SKT_TEMP
