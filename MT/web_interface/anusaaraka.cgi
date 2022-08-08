@@ -47,6 +47,8 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
       my $mode=$param{mode};
 
 
+      if ($mode eq "json" ) {   print "Access-Control-Allow-Origin: *\n";}
+
   if($GlblVar::LOG eq "true") {
       print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."encoding:$encoding\t"."sentences:$sentences\t"."splitter:$splitter\t"."out_encoding:$out_encoding\t"."parse:$parse\n#####################\n\n";
   }
