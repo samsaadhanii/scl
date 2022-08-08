@@ -44,6 +44,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
       #$morph=param("morph");
       my $parse=$param{parse};
       my $text_type=$param{text_type};
+      my $mode=$param{mode};
 
 
   if($GlblVar::LOG eq "true") {
@@ -133,7 +134,11 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
          &increment_curr_id;
      }
 
+     if ($mode eq "web") {
      system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $script $pid A");
+     } elsif ($mode eq "json") {
+       system("$GlblVar::SCLINSTALLDIR/MT/prog/reader_generator/csv2json.pl < $GlblVar::TFPATH/tmp_in$pid/table_outscript.tsv"); 
+     }
 
   if($GlblVar::LOG eq "true") {
     close(TMP1);
