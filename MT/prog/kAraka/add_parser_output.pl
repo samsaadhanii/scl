@@ -37,7 +37,6 @@ close(TMP);
 
 open(TMP,$ARGV[2]) || die "Can't open $ARGV[2] for reading";
 $Max_Parses = $ARGV[3];
-$GH_input = $ARGV[4];
 
 $sent = 0;
 $parse = 0;
@@ -93,22 +92,12 @@ while($in = <STDIN>){
      foreach $ana (@ana) {
         chomp($ana);
         @w_ana = split(/\t/,$ana);
-        if($GH_input eq "YES") {
-           if($i == 1) { $w_ana[1] =~ s/<p><a>/<p><s><a>/;} #Added for GH interface
-           if($i != 1) { $w_ana[1] =~ s/<s>/<s><a>/;} #Added for GH interface
-        } else {
         if($i == 1) { $w_ana[1] =~ s/<s>/<s><a>/;}
         if($i != 1) { $w_ana[1] =~ s/<s>/<a>/;}
         if($i != 1) { $w_ana[1] =~ s/<p>//;}
-        }
-        if($GH_input eq "YES") {
-        if($i == $max_limit-1) { $w_ana[4] =~ s/<\/a><\/p>/<\/a><\/s><\/p>/;} #Added for GH interface
-        if($i != $max_limit-1) { $w_ana[4] =~ s/<\/s>/<\/s><\/a>/;} #Added for GH interface
-        } else {
         if($i == $max_limit-1) { $w_ana[4] =~ s/<\/s>/<\/a><\/s>/;}
         if($i != $max_limit-1) { $w_ana[4] =~ s/<\/s>/<\/a>/;}
         if($i != $max_limit-1) { $w_ana[4] =~ s/<\/p>//;}
-        }
         #print $sent, "\t",$PARSE{$sent}, "\t",$i,"\n";
         #print "w_ana 3 =",$w_ana[3], "\n";
         print $w_ana[0],"\t",$w_ana[1],"\t",$w_ana[2],"\t",$w_ana[3],"\t",$w_ana[4],"\t",$w_ana[5],"\t",$w_ana[6],"\t",$w_ana[7],"\t";

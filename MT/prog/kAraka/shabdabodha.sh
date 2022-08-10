@@ -18,53 +18,35 @@
 ##  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 #
 
-SCLINSTALLDIR=$1
-GraphvizDot=$2
-MT_PATH=$SCLINSTALLDIR/MT
-ANU_MT_PATH=$MT_PATH/prog
 
-if [ $# -lt 10 ] ; then
-  echo "Usage: shabdabodha.sh SCLINSTALLDIR GraphvizDot GH_INPUT TMP_FILES_PATH <file> REL_OUTPUT_FILE [DEV|IAST] [NO|Partial|Full] [prose|Sloka]"
-  exit
-else
-   GH_INPUT=$3
-   TMP_FILES_PATH=$4
-   OUTSCRIPT=$7
-   PARSE=$8
-   TEXT_TYPE=$9
-fi
+   SCLINSTALLDIR=$1
+   GraphvizDot=$2
+   TMP_FILES_PATH=$3
+   OUTSCRIPT=$6
+   PARSE=$7
+   TEXT_TYPE=$8
 
-mkdir -p $TMP_FILES_PATH/parser_files
+   ANU_MT_PATH=$SCLINSTALLDIR/MT/prog
+   mkdir -p $TMP_FILES_PATH/parser_files
 
-if [ $PARSE != "NO" ] ; then
+   if [ $PARSE != "NO" ] ; then
  
+      $ANU_MT_PATH/kAraka/uniform_morph_anal.pl $SCLINSTALLDIR $TMP_FILES_PATH <  $TMP_FILES_PATH/$4
+      $ANU_MT_PATH/kAraka/split_multisentence_input.pl $TMP_FILES_PATH/parser_files/morph < $TMP_FILES_PATH/$4
  
-$ANU_MT_PATH/kAraka/uniform_morph_anal.pl $SCLINSTALLDIR $TMP_FILES_PATH <  $TMP_FILES_PATH/$5
- 
-$ANU_MT_PATH/kAraka/split_multisentence_input.pl $TMP_FILES_PATH/parser_files/morph < $TMP_FILES_PATH/$5
- 
-#date
-for i in `ls -1 $TMP_FILES_PATH/parser_files/*.clp| sort -n`
-do
-j=`basename $i .clp`
-$ANU_MT_PATH/kAraka/Prepare_Graph/build_graph $TMP_FILES_PATH/parser_files/ $TEXT_TYPE < $i  |\
-$ANU_MT_PATH/kAraka/kaaraka_sharing.pl $SCLINSTALLDIR $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt > $TMP_FILES_PATH/parser_files/parseop$j.txt
+      $ANU_MT_PATH/kAraka/Prepare_Graph/build_graph $TMP_FILES_PATH/parser_files/ $TEXT_TYPE < $TMP_FILES_PATH/parser_files/1.clp  |\
+      $ANU_MT_PATH/kAraka/kaaraka_sharing.pl $SCLINSTALLDIR $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt > $TMP_FILES_PATH/parser_files/parseop1.txt
 
+      $ANU_MT_PATH/kAraka/add_parser_output.pl $SCLINSTALLDIR $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt $TMP_FILES_PATH/parser_files/parseop1.txt 1 < $TMP_FILES_PATH/parser_files/morph1.out |\
+      $ANU_MT_PATH/kAraka/add_abhihita_info.pl > $TMP_FILES_PATH/parser_files/morph1_1.out
+      $ANU_MT_PATH/kAraka/prepare_dot_files.sh $SCLINSTALLDIR $GraphvizDot $OUTSCRIPT 1 mk_kAraka_help.pl $TMP_FILES_PATH/parser_files/morph1.out $TMP_FILES_PATH/parser_files/parseop1.txt $TMP_FILES_PATH 1
+      cat $TMP_FILES_PATH/parser_files/morph1_1.out >> $TMP_FILES_PATH/$4.1
+      mv $TMP_FILES_PATH/$4.1 $TMP_FILES_PATH/$4
  
- $ANU_MT_PATH/kAraka/add_parser_output.pl $SCLINSTALLDIR $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt $TMP_FILES_PATH/parser_files/parseop$j.txt 1 $GH_INPUT < $TMP_FILES_PATH/parser_files/morph$j.out |\
-  $ANU_MT_PATH/kAraka/add_abhihita_info.pl > $TMP_FILES_PATH/parser_files/morph${j}_1.out
-#  $ANU_MT_PATH/kAraka/disambiguate_hewu_karaNa.pl $SCLINSTALLDIR $MT_PATH/data/hi > $TMP_FILES_PATH/parser_files/morph${j}_1.out 
- 
-$ANU_MT_PATH/kAraka/prepare_dot_files.sh $SCLINSTALLDIR $GraphvizDot $OUTSCRIPT $j mk_kAraka_help.pl $TMP_FILES_PATH/parser_files/morph$j.out $TMP_FILES_PATH/parser_files/parseop$j.txt $TMP_FILES_PATH 1
-cat $TMP_FILES_PATH/parser_files/morph${j}_1.out >> $TMP_FILES_PATH/$5.1
-#rm $TMP_FILES_PATH/parser_files/morph${j}_1.out
-#rm $TMP_FILES_PATH/parser_files/morph$j.out
-done
-#date
- 
- mv $TMP_FILES_PATH/$5.1 $TMP_FILES_PATH/$5
-else
- touch $TMP_FILES_PATH/parser_files/parseop.txt
- $ANU_MT_PATH/kAraka/handle_no_parse.pl < $TMP_FILES_PATH/$5 |\
- $ANU_MT_PATH/kAraka/add_parser_output.pl $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt $TMP_FILES_PATH/parser_files/parseop.txt 1 $GH_INPUT > $TMP_FILES_PATH/$5
-fi
+  else
+
+     touch $TMP_FILES_PATH/parser_files/parseop.txt
+     $ANU_MT_PATH/kAraka/handle_no_parse.pl < $TMP_FILES_PATH/$4 |\
+     $ANU_MT_PATH/kAraka/add_parser_output.pl $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt $TMP_FILES_PATH/parser_files/parseop.txt 1 $GH_INPUT > $TMP_FILES_PATH/$4
+
+  fi

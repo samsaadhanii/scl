@@ -108,7 +108,8 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 
          if($display eq "") { $display = "DEV";}
 
-         system("cd $GlblVar::SCLINSTALLDIR/MT/prog/shell; $GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/Heritage_anu_skt_hnd.sh in$pid $GlblVar::TFPATH $display Full $text_type /cgi-bin/$GlblVar::HERITAGE_CGI ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
+         #system("cd $GlblVar::SCLINSTALLDIR/MT/prog/shell; $GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/Heritage_anu_skt_hnd.sh $GlblVar::CGIDIR/scl in$pid $GlblVar::TFPATH $display Full $text_type /cgi-bin/$GlblVar::HERITAGE_CGI ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
+         system("$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::CGIDIR/scl tmp_in${pid}/in$pid $GlblVar::TFPATH hi $display $morph Full $text_type 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
 	 $q_id = &get_queue_id;
 	 $cpid = &get_curr_id;
 	   if ($cpid != $q_id) { 
@@ -127,7 +128,8 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
          print TMP "<s>$sentences<\/s>\n"; 
          close (TMP);
           `date > $GlblVar::TFPATH/tmp_in$pid/err$pid`;
-          $cmd = "$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot tmp_in${pid}/in$pid $GlblVar::TFPATH hi $script $morph $parse $text_type /cgi-bin/$GlblVar::HERITAGE_CGI $GlblVar::LTPROCBIN $GlblVar::MYPYTHONPATH 2>> $GlblVar::TFPATH/tmp_in$pid/err$pid;";
+          #$cmd = "$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot tmp_in${pid}/in$pid $GlblVar::TFPATH hi $script $morph $parse $text_type /cgi-bin/$GlblVar::HERITAGE_CGI $GlblVar::LTPROCBIN $GlblVar::MYPYTHONPATH 2>> $GlblVar::TFPATH/tmp_in$pid/err$pid;";
+          $cmd = "$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::CGIDIR/scl tmp_in${pid}/in$pid $GlblVar::TFPATH hi $script $morph $parse $text_type 2>> $GlblVar::TFPATH/tmp_in$pid/err$pid;";
           $exec_status = system($cmd);
      }
      `date >> $GlblVar::TFPATH/tmp_in$pid/err$pid`;
@@ -137,7 +139,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
      }
 
      if ($mode eq "web") {
-     system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $script $pid A");
+       system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $script $pid A");
      } elsif ($mode eq "json") {
        system("$GlblVar::SCLINSTALLDIR/MT/prog/reader_generator/csv2json.pl < $GlblVar::TFPATH/tmp_in$pid/table_outscript.tsv"); 
      }
