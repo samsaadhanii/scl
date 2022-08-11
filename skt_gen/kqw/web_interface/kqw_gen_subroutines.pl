@@ -94,20 +94,20 @@ $LTPROC_IN = "";
     for($l=0;$l<13;$l++) {
        for($g=0;$g<3;$g++) {
            $lifga = $lifga[$g];
-	   $str = "^<kqw_XAwu:${rt}>${upasargastr}<lifgam:$lifga><kqw_prawyayaH:$kqw_prawyayaH[$l]><XAwuH:$XAwu><gaNaH:$gaNa><level:0>\$"; 
+	   $str = "^${rt}${upasargastr}<lifgam:$lifga><kqw_prawyayaH:$kqw_prawyayaH[$l]><XAwuH:$XAwu><gaNaH:$gaNa><level:0>\$"; 
            $LTPROC_IN .=  $str."\n"; 
        }         
     }
 
    for($l=0;$l<3;$l++){
     if($upa_wx eq "-") {
-      $str = "^<kqw_XAwu:${rt}>${upasargastr}<vargaH:avy><kqw_prawyayaH:$kqw_avy_prawyayaH[$l]><XAwuH:$XAwu><gaNaH:$gaNa><level:2>\$";
+      $str = "^${rt}${upasargastr}<vargaH:avy><kqw_prawyayaH:$kqw_avy_prawyayaH[$l]><XAwuH:$XAwu><gaNaH:$gaNa><level:2>\$";
     } else {
-      $str = "^<kqw_XAwu:${rt}>${upasargastr}<vargaH:avy><kqw_prawyayaH:$kqw_avy_upa_prawyayaH[$l]><XAwuH:$XAwu><gaNaH:$gaNa><level:2>\$";
+      $str = "^${rt}${upasargastr}<vargaH:avy><kqw_prawyayaH:$kqw_avy_upa_prawyayaH[$l]><XAwuH:$XAwu><gaNaH:$gaNa><level:2>\$";
    }
       $LTPROC_IN .=  $str."\n";
   }
-  chomp($LTPROC_IN1); # To chomp the last \n, else it produces an extra blank line in the o/p of lt-proc
+  chomp($LTPROC_IN); # To chomp the last \n, else it produces an extra blank line in the o/p of lt-proc
 
  if($format eq "JSON") {
     $str = "echo '".$LTPROC_IN."' | $generator | grep . | sed '1,\$s/^.*\///' | $GlblVar::CGIDIR/scl/skt_gen/kqw/json_format.pl";
@@ -159,7 +159,7 @@ my @vacanam = ("eka","xvi","bahu");
  for($vib=1;$vib<9;$vib++){
     for($num=0;$num<3;$num++){
         $vacanam = $vacanam[$num];
-        $str = "^"."<kqw_XAwu:$rt>${upasargastr}<kqw_prawyayaH:$kqw_prawyaya_wx><XAwuH:$XAwu><gaNaH:$gaNa>$prAwi_wx<vargaH:nA><lifgam:$lifga><viBakwiH:$vib><vacanam:$vacanam><level:2>"."\$"; 
+        $str = "^"."$rt${upasargastr}<kqw_prawyayaH:$kqw_prawyaya_wx><XAwuH:$XAwu><gaNaH:$gaNa>$prAwi_wx<vargaH:nA><lifgam:$lifga><viBakwiH:$vib><vacanam:$vacanam><level:2>"."\$"; 
         $LTPROC_IN .=  $str."\n";
     } # number
  } #vib

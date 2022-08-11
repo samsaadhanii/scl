@@ -49,7 +49,7 @@ if ($encoding eq "IAST") {
          $conversion_program = "$GlblVar::CGIDIR/scl/converters/wx2utf8roman.out";
  } else {
          $conversion_program = "$GlblVar::CGIDIR/scl/converters/ri_skt | $GlblVar::CGIDIR/scl/converters/iscii2utf8.py 1";
-	 $encoding = "Unicode";
+	 $encoding = "DEV";
  }
 
 

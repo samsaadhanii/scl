@@ -59,7 +59,7 @@ package main;
       my $result = `$GlblVar::CGIDIR/scl/skt_gen/verb/gen_verb.pl $encoding $outencoding $prayoga $upasarga $word $paxI web`;
       print $result;
       if($GlblVar::LOG eq "true"){
-         print TMP1 "running:","calling gen_verb.pl from noun generator";
+         print TMP1 "running:","calling gen_verb.pl from verb generator";
          print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."upasarga:$upasarga\t"."word:$word\t"."prayoga:$prayoga\n#######################\n\n";
       }
       #      }

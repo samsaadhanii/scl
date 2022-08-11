@@ -44,7 +44,7 @@ package main;
 	 	 $outencoding = "DEV";
  }
 
- my $ltproc_cmd = "$generator | grep . | pr -3 -a -t -w 300| tr ' ' '\t'" ;
+ my $ltproc_cmd = "$generator | sed '1,\$s/#.*/-/g' | grep . | pr -3 -a -t -w 300| tr ' ' '\t'" ;
 
  if($encoding ne "WX"){
    $rt_XAwu_gaNa_mng = &convert($encoding,$rt,$GlblVar::SCLINSTALLDIR);
@@ -56,9 +56,7 @@ package main;
  } else { $rt_XAwu_gaNa_mng = $rt; $prayogaH = $prygH; }
 
    $LTPROC_IN = "";
-   $LTPROC_IN1 = "";
    $str = "";
-   $str1 = "";
 
    #print "rt = $rt upasarga = $upasarga prayoga = $prayogaH\n";
 #Since we are using only first 3 fields, $mean is removed.
@@ -90,11 +88,16 @@ package main;
   print "</center></td></tr>\n";
   print "<tr>\n"; 
   $LTPROC_IN = &get_generator_string($rt,$upasargastr,$sanAxi,$prayogaH,$XAwu,$gaNa,"parasmEpaxI");
+#$str = $LTPROC_IN;
+#$str =~ s/</&lt;/g;
+#$str =~ s/>/&gt;/g;
+#print "str = $str\n";
   if ($format eq "web") {
      $str = "echo '".$LTPROC_IN."' | $ltproc_cmd | $conv_program |$GlblVar::CGIDIR/scl/skt_gen/verb/verb_format_html.pl $outencoding";
      system($str);
   } else { # if $format = "json"
      $str = "echo '".$LTPROC_IN."' | $ltproc_cmd ";
+     system($str);
   }
   print "</tr>\n";
   print "</table>\n";
@@ -115,7 +118,7 @@ package main;
   print "<tr>\n"; 
   $LTPROC_IN = &get_generator_string($rt,$upasargastr,$sanAxi,$prayogaH,$XAwu,$gaNa,"AwmanepaxI");
 
-#$str = $LTPROC_IN1;
+#$str = $LTPROC_IN;
 #$str =~ s/</&lt;/g;
 #$str =~ s/>/&gt;/g;
 #print "str = $str\n";
@@ -124,8 +127,8 @@ package main;
      system($str);
   } else { # if $format = "json"
      $str = "echo '".$LTPROC_IN."' | $ltproc_cmd ";
+     system($str);
   }
-  system($str1);
   print "</tr>\n";
   print "</table>\n";
  }
