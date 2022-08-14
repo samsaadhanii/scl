@@ -35,11 +35,11 @@ package main;
         &open_log($GlblVar::LOG, $GlblVar::TFPATH);
 	&print_header();
 
-        print "<script>\n";
-        print "function generate_noun_forms(prAwi,lifga,$encoding,$out_encoding){\n";
-        print "  window.open('/cgi-bin/scl/skt_gen/noun/noun_gen_web.cgi?encoding=$encoding&rt='+prAwi+'&gen='+lifga+'&jAwi='nA'&level=1&outencoding=out_encoding'+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
-        print "}\n";
-        print "</script>\n";
+        #print "<script>\n";
+        #print "function generate_noun_forms(prAwi,lifga,$encoding,$out_encoding){\n";
+        #print "  window.open('/cgi-bin/scl/skt_gen/noun/noun_gen_web.cgi?encoding=$encoding&rt='+prAwi+'&gen='+lifga+'&jAwi='nA'&level=1&outencoding=out_encoding'+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
+        #print "}\n";
+        #print "</script>\n";
 
 	if ($encoding eq "IAST") {
 	 $conversion_program = "$GlblVar::CGIDIR/scl/converters/wx2utf8roman.out";

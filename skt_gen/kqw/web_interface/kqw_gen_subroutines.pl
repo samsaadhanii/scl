@@ -66,7 +66,7 @@ sub print_header {
         print "<body onload=\"register_keys()\"> <script src=\"/scl/MT/wz_tooltip.js\" type=\"text/javascript\"></script>\n";
         print "<script>\n"; 
         print "function generate_kqwnoun_forms(prAwi,rt,upasarga,kqw_prawyaya,XAwu,gaNa,lifga,encod){\n";
-        print "  window.open('http://localhost/cgi-bin/scl/skt_gen/kqw/kqwnoun_gen.cgi?encoding='+encod+'&prAwi='+prAwi+'&gen='+lifga+'&rt='+rt+'&upasarga='+upasarga+'&kqw_prawyaya='+kqw_prawyaya+'&XAwu='+XAwu+'&gaNa='+gaNa+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
+        print "  window.open('/cgi-bin/scl/skt_gen/kqw/kqwnoun_gen.cgi?encoding='+encod+'&prAwi='+prAwi+'&gen='+lifga+'&rt='+rt+'&upasarga='+upasarga+'&kqw_prawyaya='+kqw_prawyaya+'&XAwu='+XAwu+'&gaNa='+gaNa+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
         print "}\n";
         print "</script>\n";
         }
@@ -74,7 +74,7 @@ sub print_header {
 
 sub gen_kqw_forms{
 	my($rt_wx,$upa_wx,$format,$conversion_program,$outencoding) = @_;
-	my($str,$str1,$LTPROC_IN,$LTPROC_IN1);
+	my($str,$str1,$LTPROC_IN);
 
 my @kqw_prawyayaH = ("wqc","wavyaw","Sawq_lat","SAnac_lat><prayogaH:karwari","SAnac_lat><prayogaH:karmaNi","GaF","Nvul","Nyaw","lyut","yaw","kwa","kwavawu","anIyar");
 my @kqw_avy_prawyayaH = ("wumun","Namul","kwvA");
@@ -135,6 +135,7 @@ my $generator = "$GlblVar::LTPROCBIN -cg $DataPATH/morph_bin/all_gen.bin";
 
 my @vacanam = ("eka","xvi","bahu");
 
+ if ($encoding eq "DEV") { $encoding = "Unicode";}
  $prAwi_wx=&convert($encoding,$prAwi,$DataPATH);
  $kqw_prawyaya_wx=&convert($encoding,$kqw_prawyaya,$DataPATH);
  chomp($prAwi_wx);
