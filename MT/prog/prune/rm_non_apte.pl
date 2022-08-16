@@ -17,51 +17,37 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
-#BEGIN{require "$ARGV[0]/paths.pl";}
-
-#use lib $GlblVar::LIB_PERL_PATH;
-
-#use GDBM_File;
-#tie(%APTE,GDBM_File,$ARGV[1],GDBM_READER,0444) || die "Can't open $ARGV[1] for reading";
-#tie(%APTENOGEN,GDBM_File,$ARGV[2],GDBM_READER,0444) || die "Can't open $ARGV[2] for reading";
-#tie(%rUDa,GDBM_File,$ARGV[3],GDBM_READER,0444) || die "Can't open $ARGV[3] for reading";
-
 open(TMP,$ARGV[1]) || die "Can't open $ARGV[1] for reading";
 while(<TMP>) {
-chomp;
-$_ =~ /^(.*)$/;
-$key = $1;
-$APTE{$key}=1;
-$key =~ s/_.*//;
-$APTENOGEN{$key} = 1;
+  chomp;
+  $_ =~ /^(.*)$/;
+  $key = $1;
+  $APTE{$key}=1;
+  $key =~ s/_.*//;
+  $APTENOGEN{$key} = 1;
 }
 close(TMP);
 
 open(TMP,$ARGV[2]) || die "Can't open $ARGV[2] for reading";
 while(<TMP>) {
-chomp;
-$rUDa{$_}=1;
+  chomp;
+  $rUDa{$_}=1;
 }
 close(TMP);
 
 while($in = <STDIN>){
     chomp($in);
-   if($in){
-    ($word,$ana) = split(/=/, $in);
-    @analysis = split(/\//, $ana);
-   # if($analysis[0] ne "") {
-   #    print "=";
-   # }
+    if($in){
+      ($word,$ana) = split(/=/, $in);
+      if($ana =~ /^(.*)\-/) {  $pUrvapaxa = $1; $ana =~ s/^.*\-//;}
+      @analysis = split(/\//, $ana);
 
-       print $word,"=";
-    $ans = "";
-    foreach ($i=0; $i<=$#analysis;$i++){
+      print $word,"=",$pUrvapaxa,"-";
+      $ans = "";
+      foreach ($i=0; $i<=$#analysis;$i++){
 
-#       if($analysis[$i] =~ /^.*\-([a-zA-Z]+)<[^\-]+/)
        if($analysis[$i] =~ /^\-?([a-zA-Z]+)<[^\-]+/){
           $head_wrd = $1;
-#       } elsif($analysis[$i] =~ /^([a-zA-Z]+)</){
-#          $head_wrd = $1;
        }
        $analysis[$i] =~ /<lifgam:([^>]+)>/;
        $lifga = $1;
@@ -76,7 +62,6 @@ while($in = <STDIN>){
           if((($analysis[$i] =~ /<vargaH:nA/) || ($analysis[$i] =~ /<vargaH:sarva/) || ($analysis[$i] =~ /<vargaH:sa\-u\-pa/)) && ($analysis[$i] !~ /kqw_prawyayaH/)){ 
 		  #condition of kqw prawyayaH is added, since some of the analysis of kqxanwas are still needed even if the kqxanwa is not found in the Apte's dictionary. For example saFjAwAH
               $key = $head_wrd."_".$lifga;
-              #print "key = $key\n";
               if($APTE{$key}) { 
                  $ans .= "/".$analysis[$i];
 		 #print "key found\n";
