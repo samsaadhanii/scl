@@ -1495,6 +1495,7 @@ e.g. saH prAwaH BramaNAya gacCawi -- Amruta   14 July 2020
            [ Wif (id2,mid2,_,rt2,_,_,upasarga2,sanAxiH2,_,lakAraH2,puruRaH2,_,_,_,_,_) -> 
            if (compound word1 uwwarapaxa1  || rt1="brahma" || rt1 = "miwra" || not (lifgam1 = "napuM")) 
             && ((id1 <= 2 && text_type = "Prose") || text_type = "Sloka")
+            && kqw1=0 (* the word should not be a kqxanwa to be in samboXana ; this was over-generating in the case of upasafgamya abravIw; upasafgamya being marked as a samboXya *)
              (* if ((lakAraH2="lot") && (puruRaH2="ma"))
               then [ Relation (id1,mid1,"samboXyaH",id2,mid2,"3.14")]
               else [] *)
