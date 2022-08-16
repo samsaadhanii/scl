@@ -7,6 +7,11 @@ $CGIURL = $ARGV[3];
 $HERITAGE_CGI = $ARGV[4];
 if($ARGV[5] eq "A") {$anvaya = 1;} else {$anvaya = 0;}
 
+open (TMP,">/tmp/mmm");
+print TMP $ARGV[3];
+print TMP $ARGV[4];
+close(TMP);
+
 print <<header
 <?xml version="1.0"?>
 <div id="navigation">
@@ -66,7 +71,7 @@ foreach ($fld=1;$fld<=$#flds;$fld++){
           close(TMP);
           chomp($sentences);
           $sentences =~ s/ /\+/g;
-          print "<a href=\"$CGIURL/$HERITAGE_CGI?lex=MW\&cache=t\&st=t\&us=f\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=g\">\n";
+          print "<a href=\"/$CGIURL/$HERITAGE_CGI?lex=MW\&cache=t\&st=t\&us=f\&font=deva\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=b\&pipeline=f\">\n";
         }
         print "<span Onclick=\"toggle();\">";
         print "1.",chr(64+$fld);
