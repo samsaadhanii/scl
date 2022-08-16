@@ -269,18 +269,6 @@ function SandhiClear(){
        $("#text").val("");$("#text1").val("");
 }
 
-//function generate_noun_forms(encod,prAwi,lifga){
-//  window.open('http://localhost/cgi-bin/scl/skt_gen/noun/noun_gen.cgi?encoding='+encod+'&rt='+prAwi+'&gen='+lifga+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();
-//}
-
-//function generate_kqw_forms(encod,vb){
-//  window.open('http://localhost/cgi-bin/scl/skt_gen/kqw/kqw_gen.cgi?encoding='+encod+'&vb='+vb+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();
-//}
-
-//function generate_waxXiwa_forms(encod,rt,gen){
-//  window.open('http://localhost/cgi-bin/scl/skt_gen/waxXiwa/waxXiwa_gen.cgi?encoding='+encod+'&rt='+rt+'&gen='+gen+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();
-//}
-
 function show_prakriyA(encod,prAwi,viBakwi,lifga,vacana){
 window.open('/cgi-bin/scl/ashtadhyayi_simulator/simulation.cgi?encoding='+encod+'&praatipadika='+prAwi+'&vibhakti='+viBakwi+'&linga='+lifga+'&vacana='+vacana+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes',"dhellw").focus();
 }
