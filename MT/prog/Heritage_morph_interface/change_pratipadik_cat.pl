@@ -191,7 +191,11 @@ while($in = <STDIN>){
                 if($pUrva ne "") { $A_rt = $pUrva."-".$A_rt;}
             if($RK{$kp}) {
                $tana =~ s/^[^<]+(<upasarga:[^>]+>.*<kqw_prawyayaH:[^>]+>)//;
-               $tana =~ s/<kqw_pratipadika:([^>]+)>/$1/g;
+               if ($tana =~ /<kqw_pratipadika:([^>]+)>/) {
+                   $rt = $1;
+                   $rt_m = &sandhi($rt);
+                   $tana =~ s/<kqw_pratipadika:([^>]+)>/$rt_m/;
+               }
             } else {
                $tana =~ s/^[^<]+(<upasarga:[^>]+>.*<kqw_prawyayaH:[^>]+>)/${A_rt}$1<XAwuH:$XAwuH><gaNaH:$gaNaH>/;
             }
@@ -227,3 +231,13 @@ while($in = <STDIN>){
  } else { printf "\n";}
 }
 #close(TMP);
+
+sub sandhi{
+my($rt) = @_;
+
+$rt =~ s/Af_([^aeiouAEIOU])/A$1/;
+$rt =~ s/Af_([aA])/A/;
+
+$rt;
+}
+1;
