@@ -1,6 +1,6 @@
 value karmasamAnAXikaraNa_XAwu_list = [
 "aXi_i2";
-"brU1";
+"zbrU1"; (* How can brU have a karmasamAnAXikaraNa? *)
 "buX1";
 "buX2";
 "buX3";
