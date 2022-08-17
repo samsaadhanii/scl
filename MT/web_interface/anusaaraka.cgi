@@ -41,7 +41,6 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
       my $sentences=$param{text};
       my $splitter=$param{splitter};
       my $out_encoding=$param{out_encoding};
-      #$morph=param("morph");
       my $parse=$param{parse};
       my $text_type=$param{text_type};
       my $mode=$param{mode};
@@ -57,7 +56,8 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
       if ($out_encoding eq "Devanagari") { $script = "DEV";}
       if ($out_encoding eq "IAST") { $script = "IAST";}
       if ($splitter eq "None") { $morph = "UoHyd";}
-      if ($splitter eq "Heritage Splitter") { $morph = "GH";}
+      if ($splitter eq "best") { $morph = "GH_auto";}
+      if ($splitter eq "manual") { $morph = "GH_manual";}
 
       my $pid = $$;
 
@@ -82,6 +82,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
             system("rm -f $GlblVar::TFPATH/in$pid.html");
             system("rm -f $GlblVar::TFPATH/in$pid_trnsltn");
          }
+
          system("mkdir -p $GlblVar::TFPATH/tmp_in$pid");
          open(TMP,">$GlblVar::TFPATH/tmp_in${pid}/wor.$pid") || die "Can't open $GlblVar::TFPATH/tmp_in$pid/wor.$pid for writing";
          print TMP $sentences,"\n";
@@ -90,45 +91,35 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 
       system("cp $GlblVar::TFPATH/tmp_in${pid}/wor.$pid $GlblVar::TFPATH/tmp_in${pid}/sandhied_in$pid");
       print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
-      if($morph eq "GH") {
+      $q_id = &get_queue_id;
+      $cpid = &get_curr_id;
+      if ($cpid != $q_id) { 
+	      #sleep(1);
+	      $cpid = &get_curr_id;
+      }
+
+      if($morph eq "GH_manual") {
          $sentences =~ s/\.//;
          $sentences =~ s/ /\+/g;
-	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=deva\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=f&pipeline=t\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI | tail -1 > /tmp/yyy; cat /tmp/yyy | $GlblVar::SCLINSTALLDIR/MT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $GlblVar::SCLINSTALLDIR > $GlblVar::TFPATH/tmp_in$pid/in$pid.out";
+	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=deva\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=b&pipeline=f\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI";
          system($cmd);
-         system("cp $GlblVar::TFPATH/tmp_in$pid/in$pid.out $GlblVar::TFPATH/tmp_in$pid/in$pid.out.orig");
-         system("cut -f1-7 $GlblVar::TFPATH/tmp_in$pid/in$pid.out > $GlblVar::TFPATH/tmp_in$pid/in${pid}_tmp1_7");
-         system("cut -f3,8 $GlblVar::TFPATH/tmp_in$pid/in$pid.out | tr '\t' '=' > $GlblVar::TFPATH/tmp_in$pid/in${pid}_tmp");
-         system("$GlblVar::SCLINSTALLDIR/MT/prog/prune/prune.sh $GlblVar::SCLINSTALLDIR < $GlblVar::TFPATH/tmp_in$pid/in${pid}_tmp | sed '1,\$s/.*=//' > $GlblVar::TFPATH/tmp_in$pid/in${pid}_tmp8");
-         system("paste $GlblVar::TFPATH/tmp_in$pid/in${pid}_tmp1_7 $GlblVar::TFPATH/tmp_in$pid/in${pid}_tmp8 > $GlblVar::TFPATH/tmp_in$pid/in${pid}.out");
-	 system("cut -f4 $GlblVar::TFPATH/tmp_in$pid/in${pid}.out | tr '\n' ' ' > $GlblVar::TFPATH/tmp_in$pid/wor.$pid");
-         open TMP, ">$GlblVar::TFPATH/tmp_in$pid/in$pid";
-         print TMP "<s>";
-         close TMP;
-         system("cat $GlblVar::TFPATH/tmp_in$pid/wor.$pid >> $GlblVar::TFPATH/tmp_in$pid/in$pid; echo \"<\/s>\" >> $GlblVar::TFPATH/tmp_in$pid/in$pid");
+      } else {
+         if($morph eq "GH_auto") {
+         $sentences =~ s/\.//;
+         $sentences =~ s/ /\+/g;
+	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=deva\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=f&pipeline=t\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI | tail -1 | $GlblVar::SCLINSTALLDIR/MT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $pid";
+         system($cmd);
 
          if($display eq "") { $display = "DEV";}
 
-         #system("cd $GlblVar::SCLINSTALLDIR/MT/prog/shell; $GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/Heritage_anu_skt_hnd.sh $GlblVar::CGIDIR/scl in$pid $GlblVar::TFPATH $display Full $text_type /cgi-bin/$GlblVar::HERITAGE_CGI ND 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
          system("$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::CGIDIR/scl tmp_in${pid}/in$pid $GlblVar::TFPATH hi $display $morph Full $text_type 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
-	 $q_id = &get_queue_id;
-	 $cpid = &get_curr_id;
-	   if ($cpid != $q_id) { 
-	     #sleep(1);
-	     $cpid = &get_curr_id;
-	   }
          }  else {
-	      $q_id = &get_queue_id;
-	      $cpid = &get_curr_id;
-	      if ($cpid != $q_id) { 
-		      #sleep(1);
-		      $cpid = &get_curr_id;
-	      }
 
          open (TMP,">$GlblVar::TFPATH/tmp_in${pid}/in$pid");
          print TMP "<s>$sentences<\/s>\n"; 
          close (TMP);
+
           `date > $GlblVar::TFPATH/tmp_in$pid/err$pid`;
-          #$cmd = "$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot tmp_in${pid}/in$pid $GlblVar::TFPATH hi $script $morph $parse $text_type /cgi-bin/$GlblVar::HERITAGE_CGI $GlblVar::LTPROCBIN $GlblVar::MYPYTHONPATH 2>> $GlblVar::TFPATH/tmp_in$pid/err$pid;";
           $cmd = "$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::CGIDIR/scl tmp_in${pid}/in$pid $GlblVar::TFPATH hi $script $morph $parse $text_type 2>> $GlblVar::TFPATH/tmp_in$pid/err$pid;";
           $exec_status = system($cmd);
      }
@@ -143,7 +134,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
      } elsif ($mode eq "json") {
        system("$GlblVar::SCLINSTALLDIR/MT/prog/reader_generator/csv2json.pl < $GlblVar::TFPATH/tmp_in$pid/table_outscript.tsv"); 
      }
-
+  }
   if($GlblVar::LOG eq "true") {
     close(TMP1);
   }
