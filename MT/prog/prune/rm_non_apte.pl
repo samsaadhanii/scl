@@ -39,10 +39,11 @@ while($in = <STDIN>){
     chomp($in);
     if($in){
       ($word,$ana) = split(/=/, $in);
-      if($ana =~ /^(.*)\-/) {  $pUrvapaxa = $1; $ana =~ s/^.*\-//;}
+      if($ana =~ /^(.*)\-/) {  $pUrvapaxa = $1."-"; $ana =~ s/^.*\-//;}
+      else {$pUrvapaxa = "";}
       @analysis = split(/\//, $ana);
 
-      print $word,"=",$pUrvapaxa,"-";
+      print $word,"=",$pUrvapaxa;
       $ans = "";
       foreach ($i=0; $i<=$#analysis;$i++){
 
