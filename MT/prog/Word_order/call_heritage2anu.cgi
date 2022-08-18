@@ -18,19 +18,14 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 use utf8;
-use strict;
-use warnings;
+#use strict;
+#use warnings;
 
 require "../../../paths.pl";
 require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 
-
 require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 
-# use CGI qw( :standard );
-# my $cgi = new CGI;
-# print $cgi->header (-charset => 'UTF-8');
- 
 print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
  my %param = &get_parameters();
@@ -54,7 +49,6 @@ read(STDIN, $b, $ENV{'CONTENT_LENGTH'});
  chomp($buffer);
  $buffer =~ s/[ ]+$//;
  system("mkdir -p $GlblVar::TFPATH/tmp_in$pid");
-#system("echo '$buffer' | $GlblVar::SCLINSTALLDIR/MT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $GlblVar::SCLINSTALLDIR > $GlblVar::TFPATH/tmp_in$pid/in$pid.out");
 system("echo '$buffer' | $GlblVar::SCLINSTALLDIR/MT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $pid");
 #system("cp $GlblVar::TFPATH/tmp_in$pid/in$pid.out $GlblVar::TFPATH/tmp_in$pid/in$pid.out.orig");
 #system("cut -f1-7 $GlblVar::TFPATH/tmp_in$pid/in$pid.out > $GlblVar::TFPATH/tmp_in$pid/in${pid}_tmp1_7");

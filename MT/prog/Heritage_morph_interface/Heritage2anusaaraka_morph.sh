@@ -32,4 +32,6 @@ cut -f3,8 $temp_path/tmp_in$pid/in$pid.out | tr '\t' '=' > $temp_path/tmp_in$pid
 $SCLINSTALLDIR/MT/prog/prune/prune.sh $SCLINSTALLDIR < $temp_path/tmp_in$pid/in${pid}_tmp | sed '1,$s/.*=//' > $temp_path/tmp_in$pid/in${pid}_tmp8
 paste $temp_path/tmp_in$pid/in${pid}_tmp1_7 $temp_path/tmp_in$pid/in${pid}_tmp8 > $temp_path/tmp_in$pid/in${pid}.out
 cut -f4 $temp_path/tmp_in$pid/in${pid}.out | tr '\n' ' ' > $temp_path/tmp_in$pid/wor.$pid
-echo -n \"<s> \"> $temp_path/in$pid; cat $temp_path/tmp_in$pid/wor.$pid >> $temp_path/in$pid; echo \"<\/s>\" >> $temp_path/in$pid
+echo -n '"<s>"' > $temp_path/in$pid 
+cat $temp_path/tmp_in$pid/wor.$pid >> $temp_path/in$pid
+echo '"<\/s>"' >> $temp_path/in$pid
