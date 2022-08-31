@@ -11,23 +11,28 @@ $order = $ARGV[4]; # S or A - for Shloka or Anvaya
 
 require "$SCLINSTALLDIR/converters/convert.pl";
 
-$my_converter = &get_conv($out_encoding);
-
+$scl_conv = $SCLINSTALLDIR."/converters";
+$my_converter = &get_conv($scl_conv, $out_encoding);
 
 ## Print Head
 
 &print_head;
  
+print "<script>";
+&graphviz_functions;
+&include_dot_code($TFPATH,$pid);
+print "</script>";
+
 #print First table with Shlokas
 $skt = "tmp_in".$pid."/wor.".$pid;
 $hnd = "in".$pid."_trnsltn";
-&print_skt_hnd_tables ($skt,$hnd,"orig");
+&print_skt_hnd_tables ($TFPATH, $skt,$hnd,"orig");
 
 #print Second table with Anvaya
 
 $skt = "tmp_in".$pid."/anvaya_in".$pid;
 $hnd = "tmp_in".$pid."/anvaya_in".$pid."_trnsltn";
-&print_skt_hnd_tables ($skt,$hnd,"anvaya");
+&print_skt_hnd_tables ($TFPATH, $skt,$hnd,"anvaya");
 
 
 #Print Analysis Table
@@ -43,14 +48,14 @@ if($order eq "S") {
 
 ####  Sub Routine ###
 sub get_conv {
-  my($enc) = @_;
+  my($sclconvpath, $enc) = @_;
  
   my($conv) = "";
 
  if ( $enc eq "IAST" ){
-   $conv="$SCLINSTALLDIR/converters/wx2utf8roman.out";
+   $conv="$sclconvpath/wx2utf8roman.out";
 } elsif ( $enc eq "DEV" ){
-   $conv="$SCLINSTALLDIR/converters/ri_skt | $SCLINSTALLDIR/converters/iscii2utf8.py 1";
+   $conv="$sclconvpath/ri_skt | $sclconvpath/iscii2utf8.py 1";
 }
 
 $conv;
@@ -75,6 +80,8 @@ $conv;
       </style>
       </head>\n
       <body onload=\"register_keys()\"> <script src=\"$CSSPATH/wz_tooltip.js\" type=\"text/javascript\"></script>\n
+<!-- Script for rendering the embeded dot code -->
+      <script src=\"https://unpkg.com/d3-graphviz@3.0.5/build/d3-graphviz.js\"></script>
       <!-- Main division starts here -->\n
       <div id=\"main-division\" style=\"width:100%;margin-top:5px; border-style:none;border-width:1px;position:relative;height:490px;\">\n";
 }
@@ -83,7 +90,7 @@ $conv;
 ## print Skt-Hnd tables
     
   sub print_skt_hnd_tables {
-     my ($skt,$hnd,$orig) = @_;
+     my ($TFPATH, $skt,$hnd,$orig) = @_;
 
       print "<table width=\"99%\" style=\"border-style:none;border-width:1px;border-color:#C0C0C0;position:absolute;margin-left:5px;margin-right:5px;\"><tr>\n
       <!--division for sanskrit texts stars here-->\n";
@@ -132,5 +139,35 @@ $conv;
       #system("cat $TFPATH/in${pid}.html");
       system("cat $TFPATH/$ana");
       print "</body></html>";
+}
+1;
+
+sub include_dot_code{
+   my($TFPATH,$pid) = @_;
+
+   system("echo 'var dots = [\n[\n'");
+   system("cat $TFPATH/tmp_in$pid/1.1.dot");
+   system("echo '],\n]\n' ");
+}
+1;
+
+sub graphviz_functions{
+
+print "
+var graphviz = d3.select(\"#graph\").graphviz()
+    .transition(function () {
+        return d3.transition(\"main\")
+            .ease(d3.easeLinear)
+    })
+    .logEvents(true)
+
+function render() {
+    var dotLines = dots[dotIndex];
+    var dot = dotLines.join('');
+    graphviz
+        .renderDot(dot)
+        });
+}"
+
 }
 1;

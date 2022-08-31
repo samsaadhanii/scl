@@ -20,13 +20,11 @@
 use utf8;
 require "../../paths.pl";
 require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 
 package main;
-#use CGI qw/:standard/;
 
 
-
-#use CGI::Carp qw(fatalsToBrowser);
  if($GlblVar::LOG eq "true"){
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
@@ -55,7 +53,7 @@ print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
       print "</head>\n";
       print "<body onload=\"register_keys()\"> <script src=\"/scl/MT/wz_tooltip.js\" type=\"text/javascript\"></script>\n";
-      my $result = `$GlblVar::CGIDIR/skt_gen/waxXiwa/gen_noun.pl $rt $gen $encoding $prawyaya`;
+      my $result = &gen_waxXiwa_noun($rt,$gen,$encoding,$prawyaya);
       print $result;
       if($GlblVar::LOG eq "true"){
          print TMP1 "running:","calling gen_noun.pl from waxXiwa generator";
@@ -65,3 +63,36 @@ print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
  if($GlblVar::LOG eq "true"){
    close(TMP1);
  }
+
+sub gen_waxXiwa_noun {
+ my($rt_wx, $gen,$encoding, $suffix) = @_;
+
+@vacanam = ("eka","xvi","bahu");
+
+ $lifga_wx=&convert($encoding,$gen,$GlblVar::SCLINSTALLDIR);
+ $suffix_wx=&convert($encoding,$suffix,$GlblVar::SCLINSTALLDIR);
+
+ chomp($rt_wx);
+ chomp($lifga_wx);
+ chomp($suffix_wx);
+
+ $rtutf8 = `echo $rt_wx | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;
+ 
+ $generator = "$GlblVar::LTPROCBIN -cg $GlblVar::SCLINSTALLDIR/morph_bin/skt_taddhita_gen.bin";
+
+ $LTPROC_IN = "";
+ for($vib=1;$vib<9;$vib++){
+    for($num=0;$num<3;$num++){
+         $vacanam = $vacanam[$num];
+         $str = "^"."$rt_wx<vargaH:nA><waxXiwa_prawyayaH:$suffix_wx><lifgam:$lifga_wx><viBakwiH:$vib><vacanam:$vacanam><level:3>"."\$"; 
+         $LTPROC_IN .=  $str."\n";
+    } # number
+ } #vib
+  #open (TMP,">/tmp/111");
+ #print TMP $LTPROC_IN;
+ #close (TMP);
+
+ $str = "echo '".$LTPROC_IN."' | $generator | grep . | pr -3 -a -t | tr ' ' '\t' | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1| $GlblVar::CGIDIR/scl/skt_gen/waxXiwa/html_format.pl $rt_wx $lifga_wx $encoding";
+ system($str);
+}
+1;

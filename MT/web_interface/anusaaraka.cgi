@@ -107,7 +107,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
          if($morph eq "GH_auto") {
          $sentences =~ s/\.//;
          $sentences =~ s/ /\+/g;
-	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=deva\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=f&pipeline=t\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI | tail -1 | $GlblVar::SCLINSTALLDIR/MT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $pid";
+	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=deva\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=f&pipeline=t\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI > /tmp/yyy ; tail -1 /tmp/yyy | $GlblVar::SCLINSTALLDIR/MT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $pid";
          system($cmd);
 
          if($display eq "") { $display = "DEV";}

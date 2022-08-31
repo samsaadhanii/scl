@@ -35,7 +35,7 @@ package main;
 
 print "<script>\n";
 print "function generate_waxXiwa_noun_forms(encod,prAwi,lifga,suff){\n";
-print "  window.open('/cgi-bin/scl/skt_gen/waxXiwa/noun_gen.cgi?encoding='+encod+'&rt='+prAwi+'&gen='+lifga+'&suffix='+suff+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
+print "  window.open('/cgi-bin/scl/skt_gen/waxXiwa/waxXiwa_noun_gen.cgi?encoding='+encod+'&rt='+prAwi+'&gen='+lifga+'&suffix='+suff+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
 print "}\n";
 
 print "function generate_waxXiwa_forms(encod,rt,gen){\n";

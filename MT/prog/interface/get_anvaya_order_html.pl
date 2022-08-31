@@ -7,10 +7,10 @@ $CGIURL = $ARGV[3];
 $HERITAGE_CGI = $ARGV[4];
 if($ARGV[5] eq "A") {$anvaya = 1;} else {$anvaya = 0;}
 
-open (TMP,">/tmp/mmm");
-print TMP $ARGV[3];
-print TMP $ARGV[4];
-close(TMP);
+#open (TMP,">/tmp/mmm");
+#print TMP $ARGV[3];
+#print TMP $ARGV[4];
+#close(TMP);
 
 print <<header
 <?xml version="1.0"?>
