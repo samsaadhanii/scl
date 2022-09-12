@@ -406,6 +406,8 @@ value not_allowed_sequence_rels rpair = match rpair with
   |(9,9)
  (* an aBexa of an aBexa is not allowed *)
   |(33,33)
+ (* an viSeRaNa of wIvrawAxarSI is not allowed *)
+  |(51,32)
  (* a viSeRaNa of an aBexa is not allowed *)
   |(33,32)
   |(32,33)
@@ -945,15 +947,15 @@ value rec seq_expectancy relations relsindag =
         where rec loop=fun
             [ [] -> True
             | [ Relationc (a,b,r1,c,d) :: rest] -> 
-                 (* do { print_string "r1=";print_int r1; print_string "\n"; *)
+                 do { print_string "r1=";print_int r1; print_string "\n";
                   loop1 maprel
                        where rec loop1=fun
                        [ [] -> match r1 with
-                              [ 3 | 4 | 5 | 52 | 53 | 76 | 92 | 77 | 93 | 79 | 80 | 40 | 41 | 68 | 69 | 13 | 97 -> False
+                              [ 3 | 4 | 5 | 52 | 53 | 56 | 59 | 76 | 92 | 77 | 93 | 79 | 80 | 40 | 41 | 68 | 69 | 13 | 97 -> do { print_string "False";False}
                               | _ -> loop rest
                               ]
                        | [Relationc (x,y,r2,z,t)::rest1] -> if not(r1=r2) then
-    			       (*do { 
+    			       (* do { 
                                    print_string "r2=";print_int r2; print_string " ";
                                    print_int a; print_string " ";
                                    print_int b; print_string " ";
@@ -962,10 +964,11 @@ value rec seq_expectancy relations relsindag =
                                    print_int x; print_string " ";
                                    print_int y; print_string " ";
                                    print_int z; print_string " ";
-                                   print_int t; print_string "\n" ;*)
+                                   print_int t; print_string "\n" ; *)
                                if (z=a && t=b) then 
                                      if (r1 = 3 || r1 = 4 || r1 = 5) then if r2 = 7 then True else loop1 rest1 (* rAme vanam gacCawi sIwA anusarawi *)
                                      else if r1=53 then if r2=52 then True else loop1 rest1
+                                     else if r1=59 then if r2=56 then True else loop1 rest1
                                      else if r1=92 then if r2=76 then True else loop1 rest1
                                      else if r1=93 then if r2=77 then True else loop1 rest1  (* aham gqham gacCAmi iwi saH avaxaw *)
                                      else if r1=79 then if r2=80 then True else loop1 rest1
@@ -973,7 +976,7 @@ value rec seq_expectancy relations relsindag =
                                      else if r1=68 then if r2=69 then True else loop1 rest1
                                      else if r1=13 then if r2=97 then True else loop1 rest1
                                      else loop rest 
-                               else if (c=x && d=y) then
+                               (* else if (c=x && d=y) then
                                      if (r2 = 3 || r2 = 4 || r2 = 5) then if r1 = 7 then True else loop1 rest1 (* rAme vanam gacCawi sIwA anusarawi *)
                                      else if r2=53 then if r1=52 then True else loop1 rest1
                                      else if r2=92 then if r1=76 then True else loop1 rest1
@@ -982,7 +985,7 @@ value rec seq_expectancy relations relsindag =
                                      else if r2=40 then if r1=41 then True else loop1 rest1
                                      else if r2=68 then if r1=69 then True else loop1 rest1
                                      else if r2=13 then if r1=97 then True else loop1 rest1
-                                     else loop rest 
+                                     else loop rest *)
                                else if (c=z && d=t) then
                                      if r2=54 then if r1=55 then True else loop1 rest1
                                      else if r1=54 then if r2=55 then True else loop1 rest1
@@ -994,10 +997,10 @@ value rec seq_expectancy relations relsindag =
                                      else if r1=62 then if r2=66 then True else loop1 rest1
                                      else if r2=63 then if r1=67 then True else loop1 rest1
                                      else if r1=63 then if r2=67 then True else loop1 rest1
-                                     else loop rest 
-                                else loop1 rest1 (*} *)
+                                     else loop1 rest1 
+                                else loop1 rest1 (* } *) 
                                 else loop1 rest1
-                       ] (*}*)
+                       ] }
             ]
 ;
 

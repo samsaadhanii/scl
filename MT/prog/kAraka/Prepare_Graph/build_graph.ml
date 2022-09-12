@@ -1477,7 +1477,8 @@ e.g. saH prAwaH BramaNAya gacCawi -- Amruta   14 July 2020
                else if (rt2="gam1" || rt2="SAs1" || rt2="syanx1")
                then if member_of word1 kAlAXikaraNas (* praBAwe vEkuNTam wiRTawi *)
                then [ Relation (id1, mid1, "kAlAXikaraNam", id2, mid2,"4.29") ]
-               else [ Relation (id1, mid1, "aXikaraNam", id2, mid2,"4.30") ]
+               else if (kqw1 = 0) then [ Relation (id1, mid1, "aXikaraNam", id2, mid2,"4.30") ]
+               else []
                else match m1 with
                [  Kqw (id1,mid1,word1,_,_,_,kqw_prawyayaH1,_,_,_,rt1,_,_,_,viBakwiH1,_,_) ->
                    if not (kqw_prawyayaH1="Sawq_lat" 
@@ -2136,7 +2137,7 @@ E.g. saH awIva vegena XAvawI / saH awIva sunxaram bAlakam paSyawi *)
      | Sup (id1,mid1,_,rt1,_,_,lifgam1,viBakwiH1,vacanam1,_) ->
         if id1=previous id2 && member_of rt1 intensifiers_list && not (pronominal123 rt2)
        && (noun_agreement_vibh vacanam1 vacanam2 lifgam1 lifgam2 viBakwiH1 viBakwiH2) 
-       (* && member_of rt2 guNavacana  Once it is intensifier, we need not check if it is a guNavacana or not *)
+       && member_of rt2 guNavacana  (* Once it is intensifier, we need not check if it is a guNavacana or not  - not necessarily*)
        then [ Relation (id1,mid1,"wIvrawAxarSI",id2,mid2,"18.4")]
        else []
 (* kevala is not an avy *)
@@ -2273,7 +2274,7 @@ value rlupapaxa m1 m2 text_type = match m2 with
          | 3  -> match rt2 with
                  [ "samAna" | "samAnA" | "saxqkRa" | 
                    "saxqkRA" | "saxqkRI" | "saxqSA" | "saxqSa" | "saxqS" | 
-                   "wulya" | "wulyA" | "yukwa" | "samA" ->
+                   "wulya" | "wulyA" | (* "yukwa" | *)  "samA" ->  (* yukwa cannot have wulanA binxu *)
                     [Relation (id1,mid1,"wulanA_binxuH",id2,mid2,"25.7")]
                  | "uwsuka" | "prasiwa" | "uwsukA" | "prasiwA" ->
                     [Relation (id1,mid1,"viRayAXikaraNam",id2,mid2,"25.8")]
@@ -2346,7 +2347,7 @@ value rlupapaxa m1 m2 text_type = match m2 with
                  | _ -> match rt2 with
                    [ "samAna" | "samAnA" | "saxqkRa" | "saxqkRI" |
                      "saxqS" |  "saxqkRA" |  "saxqSA" | "saxqSa" |
-                     "wulya" | "wulyA" | "yukwa" | "samA"| "sama"  ->
+                     "wulya" | "wulyA" | (*"yukwa" |*) "samA"| "sama"  -> (*yukwa has an expectancy of 3/karaNa *)
                        [Relation (id1,mid1,"wulanA_binxuH",id2,mid2,"25.21")]
                    | "prasUwA" | "prasUwa" ->
                        [Relation (id1,mid1,"nirXAraNam",id2,mid2,"25.22")]
@@ -3444,8 +3445,8 @@ value discourse_rel1 m1 id2 mid2 text_type = match m1 with
 value rlavy_sent_connector m1 m2 text_type = match m2 with
   [ Wif (id2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_) ->
        discourse_rel1 m1 id2 mid2 text_type
-  | Kqw (id2,mid2,_,_,_,_,kqw2,_,_,_,_,_,_,_,_,_,_) ->
-       if(kqw2 = "kwa" || kqw2 = "kwavawu")
+  | Kqw (id2,mid2,_,_,_,_,kqw2,_,_,_,_,_,_,_,viB1,_,_) ->
+       if(kqw2 = "kwa" || kqw2 = "kwavawu") && viB1=1 && finite_verb_in_sentence.val == 50
        then discourse_rel1 m1 id2 mid2 text_type
        else []
   | _ -> []
@@ -3906,10 +3907,12 @@ value rlsent_beginning_connectives m1 m2 text_type = match m1 with
      | Sup (id1,mid1,word1,_,_,_,_,_,_,_) -> match m2 with
          [ Wif (id2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_,_,_,_,_)  ->
            sent_beginning_connectives id1 mid1 id2 mid2 rt2 upasarga2 word1 text_type
-          | Kqw (id2,mid2,_,rt2,upasarga2,_,kqw2,_,_,_,_,_,_,_,_,_,_) -> 
+          | Kqw (id2,mid2,_,rt2,upasarga2,_,kqw2,_,_,_,_,_,_,_,viB1,_,_) -> 
              (*if member_of kqw2 bhaavavaaci_kqw --  why BAvavAci ? *)
                           (* yaWA eweRAM boXaH Bavawi waWA kaScana upAyaH karaNIyaH *)
-             if kqw2="kwa" || kqw2 = "kwavawu" || kqw2 = "wavyaw" || kqw2 = "anIyar"
+             if    (kqw2="kwa" || kqw2 = "kwavawu" || kqw2 = "wavyaw" || kqw2 = "anIyar") 
+                && viB1=1 
+                && finite_verb_in_sentence.val == 50
              then sent_beginning_connectives id1 mid1 id2 mid2 rt2 upasarga2 word1 text_type
              else []
           | _ -> []
@@ -4208,8 +4211,7 @@ value dis_rel_pair id1 mid1 id3 mid3 id2 word2 =
      | "waryhapi"
      | "cexapi"
      | "sannapi"
-     | "waWApi"  -> 
-[ Relation (id3,mid3,"vyaBicAraH",id1,mid1,"57.1")]
+     | "waWApi"  -> [ Relation (id3,mid3,"vyaBicAraH",id1,mid1,"57.1")]
      | "yaxi"
      | "warhi" ->  [ Relation (id3,mid3,"AvaSyakawA_pariNAma_sambanXaH",id1,mid1,"57.2")]
      | "yawaH"
@@ -4223,8 +4225,8 @@ value dis_rel_pair id1 mid1 id3 mid3 id2 word2 =
 value dis_rel_pair2 m1 id2 id3 mid3 word2 = match m1 with
     [ Wif (id1,mid1,_,_,_,_,_,_,_,_,_,_,_,_,_,_) ->
 	dis_rel_pair id1 mid1 id3 mid3 id2 word2
-    | Kqw (id1,mid1,_,_,_,_,kqw1,_,_,_,_,_,_,_,_,_,_) ->
-        if  (kqw1 = "kwa" || kqw1 = "kwavawu") && not (word2="waxA")
+    | Kqw (id1,mid1,_,_,_,_,kqw1,_,_,_,_,_,_,_,viB1,_,_) ->
+        if  (kqw1 = "kwa" || kqw1 = "kwavawu") && not (word2="waxA") && viB1=1
         then dis_rel_pair id1 mid1 id3 mid3 id2 word2
         else []
     | _ -> []
