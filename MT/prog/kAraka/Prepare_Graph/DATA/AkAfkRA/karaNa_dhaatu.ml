@@ -104,7 +104,7 @@ value karaNa_XAwu_list = [
 "puR2";
 "rakR1";
 "rux1";
-"RWA1";
+"zRWA1"; (*How can RWA1 have a karaNa? Need an example *)
 "sam_BU1";
 "sam_ni_as3";
 "sam_RwaB1";

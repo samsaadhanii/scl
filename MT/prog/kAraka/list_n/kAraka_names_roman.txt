@@ -49,7 +49,7 @@ ghaṭaka_dyotakaḥ 55
 kāraṇa_dyotakaḥ 56
 kārya_dyotakaḥ 57
 vyabhicāraḥ 58
-kāraṇa_kārya_bhāvaḥ 59
+kārya_kāraṇa_bhāvaḥ 59
 samuccitaḥ 60
 sup_samuccitaḥ 61
 anyataraḥ 62

@@ -50,7 +50,7 @@ value relations_encodings = [
 	("kAraNa_xyowakaH",56);
 	("kArya_xyowakaH",57);
 	("vyaBicAraH",58);
-	("kAraNa_kArya_BAvaH",59);
+	("kArya_kAraNa_BAvaH",59);
 	("samucciwaH",60);
 	("sup_samucciwaH",61);
 	("anyawaraH",62);
