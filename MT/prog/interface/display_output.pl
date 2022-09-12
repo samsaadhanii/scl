@@ -23,6 +23,9 @@ print "<script>";
 &include_dot_code($TFPATH,$pid);
 print "</script>";
 
+print "<!-- Main division starts here -->\n
+      <div id=\"main-division\" style=\"width:100%;margin-top:5px; border-style:none;border-width:1px;position:relative;height:490px;\">\n";
+
 #print First table with Shlokas
 $skt = "tmp_in".$pid."/wor.".$pid;
 $hnd = "in".$pid."_trnsltn";
@@ -71,19 +74,45 @@ $conv;
       <link href=\"$CSSPATH/Sanskrit_hindi.css\" type=\"text/css\" rel=\"stylesheet\" />\n
       <script src=\"$CSSPATH/script.js\" type=\"text/javascript\"></script>\n
       <script src=\"$CSSPATH/Sanskrit_hindi.js\" type=\"text/javascript\"></script>\n
-  <!--     <script src=\"$CSSPATH/toggle.js\" type=\"text/javascript\"></script>\n  -->
+      <script src=\"$CSSPATH/toggle.js\" type=\"text/javascript\"></script>\n 
       <script type=\"text/javascript\">\n
+
       function show(word,encod){\n
       window.open('$CGIPATH/dict_options.cgi?word='+word+'&outencoding='+encod+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=yes');\n }\n </script>
       <style>
        body { background-color: FFFED1;}
+       #graph {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            background-color: #e8eae6;
+            box-sizing: border-box;
+            padding: 10px;
+            z-index: 100;
+            display: none;
+            /*to hide popup initially*/
+        }
+          
+        .close-btn {
+            position: absolute;
+            right: 20px;
+            top: 15px;
+            background-color: black;
+            color: white;
+            border-radius: 50%;
+            padding: 4px;
+        }
       </style>
       </head>\n
       <body onload=\"register_keys()\"> <script src=\"$CSSPATH/wz_tooltip.js\" type=\"text/javascript\"></script>\n
+
 <!-- Script for rendering the embeded dot code -->
-      <script src=\"https://unpkg.com/d3-graphviz@3.0.5/build/d3-graphviz.js\"></script>
-      <!-- Main division starts here -->\n
-      <div id=\"main-division\" style=\"width:100%;margin-top:5px; border-style:none;border-width:1px;position:relative;height:490px;\">\n";
+      <script src=\"//d3js.org/d3.v5.min.js\"></script>
+      <script src=\"https://unpkg.com/\@hpcc-js/wasm\@0.3.11/dist/index.min.js\"></script>
+      <script src=\"https://unpkg.com/d3-graphviz\@3.0.5/build/d3-graphviz.js\"></script>
+      <script src=\"https://code.jquery.com/jquery-3.5.1.min.js\"></script>";
 }
 1;
 
@@ -138,6 +167,7 @@ $conv;
 
       #system("cat $TFPATH/in${pid}.html");
       system("cat $TFPATH/$ana");
+      print "</div></div></div><div id=\"graph\"> <div onclick=\"my_render()\" class=\"close-btn\"> × </div> </div>\n";
       print "</body></html>";
 }
 1;
@@ -145,29 +175,33 @@ $conv;
 sub include_dot_code{
    my($TFPATH,$pid) = @_;
 
-   system("echo 'var dots = [\n[\n'");
-   system("cat $TFPATH/tmp_in$pid/1.1.dot");
-   system("echo '],\n]\n' ");
+   print "dot = '";
+   open(TMP,"<$TFPATH/tmp_in$pid/1.1.dot");
+   while($in = <TMP>){
+    chomp ($in);
+    print $in, " ";
+   }
+   print "'\n";
 }
 1;
 
 sub graphviz_functions{
 
 print "
-var graphviz = d3.select(\"#graph\").graphviz()
-    .transition(function () {
-        return d3.transition(\"main\")
-            .ease(d3.easeLinear)
-    })
-    .logEvents(true)
+   function call_graphviz () {
+   d3.select(\"#graph\").graphviz()
+          .renderDot(dot);
+   }
 
-function render() {
-    var dotLines = dots[dotIndex];
-    var dot = dotLines.join('');
-    graphviz
-        .renderDot(dot)
-        });
-}"
+   function my_render () {
+     call_graphviz();
+     \$(\"#graph\").toggle();
+   }
 
+   function my_render_null () {
+   d3.select(\"#graph\").graphviz()
+       .renderDot('digraph  {}') ;
+   }
+"
 }
 1;
