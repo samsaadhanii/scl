@@ -35,7 +35,9 @@ char vibhakti[SMALL];
 {
  strcpy(new_word,word);
  if(strcmp(vibhakti,"0")  && strcmp(vibhakti,"1")){
-	 strcat(new_word,"_");
+         if (strcmp(vibhakti,"wA") || strcmp(vibhakti,"wva")) {
+	   strcat(new_word,"_");
+         }
 	 strcat(new_word,vibhakti);
   }
 }

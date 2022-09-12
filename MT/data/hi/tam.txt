@@ -22,6 +22,8 @@ Sas,kara~ke
 5u,kA
 6,kA
 7,meM
+7meM,meM
+7para,para
 7u,kA
 8,0
 karmaNi_lat,yA_jAwA_hE
