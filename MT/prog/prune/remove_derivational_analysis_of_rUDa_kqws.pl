@@ -60,10 +60,10 @@ while($in = <STDIN>){
            $analysis[$i] =~ s/^([^\-]+)\-([^\/]+)>$rt</$1-$rt</;
 #For new kqw analysis:
       if ($analysis[$i] =~ /<kqw_pratipadika/) {
-           $analysis[$i] =~ s/<kqw_XAwu:[^>]+>.*<XAwuH:[^>]+><gaNaH:[^>]+><kqw_pratipadika:([a-zA-Z]+)><vargaH:/$1<vargaH:/;
+           $analysis[$i] =~ s/^.*<XAwuH:[^>]+><gaNaH:[^>]+><kqw_pratipadika:([a-zA-Z]+)><vargaH:/$1<vargaH:/;
       } else {
            $analysis[$i] =~ s/<kqw_XAwu:[^>]+>.*<XAwuH:[^>]+><gaNaH:[^>]+>([a-zA-Z]+)<vargaH:/$1<vargaH:/;
-        }
+      }
        }
        if (   ($tmp !~ /^$analysis[$i]$/) 
            && ($tmp !~ /^$analysis[$i]\//) 

@@ -24,11 +24,11 @@ EXTEND Gram
   morph:
     [ [ s = sup -> Sup s 
       | w = wif -> Wif w 
-      | k = kqw -> Kqw k
       | a = avy -> Avy a
-      | aw = avywaxXiwa -> AvywaxXiwa aw
+      | k = kqw -> Kqw k
       | ak = avykqw -> Avykqw ak
       | w = waxXiwa -> WaxXiwa w
+      | aw = avywaxXiwa -> AvywaxXiwa aw
     ] ] ;
 
   sup:
@@ -486,7 +486,7 @@ value change_nirXAraNa_viBakwiH m1 = match m1 with
   | WaxXiwa (id1,mid1,word1,rt1,_,_,_,viBakwiH1,_,rel,_)
   | Kqw (id1,mid1,word1,_,_,_,_,_,_,rt1,_,_,viBakwiH1,_,rel,_) ->
       if rel="nirXAraNam"  && viBakwiH1 = 6 then
-           [ Relation (id1,mid1,"viBakwiH",string_of_int viBakwiH1,"7","2.1")]
+           [ Relation (id1,mid1,"viBakwiH",string_of_int viBakwiH1,"7meM","2.1")]
       else []
   | _ -> []
   ]

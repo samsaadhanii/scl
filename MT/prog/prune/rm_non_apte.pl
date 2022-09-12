@@ -71,6 +71,7 @@ while($in = <STDIN>){
           } else { $ans .= "/".$analysis[$i];}
       } elsif($analysis[$i] =~ /<level:[23]>/) {
           if(($analysis[$i] =~ /<vargaH:nA/) || ($analysis[$i] =~ /<vargaH:sarva/) || ($analysis[$i] =~ /<vargaH:sa\-u\-pa/)){ 
+              #if ($analysis[$i] =~ /<rt:([^>]+)>/) { $head_wrd = $1;}
               $key = $head_wrd."_".$lifga;
               if(!$rUDa{$head_wrd}) { $ans .= "/".$analysis[$i];}
               elsif($APTE{$key} && $rUDa{$head_wrd}) { $ans .= "/".$analysis[$i]; }
