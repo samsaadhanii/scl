@@ -18,21 +18,10 @@
 
 BEGIN{require "$ARGV[0]/paths.pl";}
 
-#use lib $GlblVar::LIB_PERL_PATH;
-
 $Data_Path=$ARGV[1];
 $Lang=$ARGV[2];
 
 if($ARGV[3] eq "D") { $DEBUG = 1; } else {$DEBUG = 0;}
-
-#use GDBM_File;
-#tie(%NOUN,GDBM_File,"$Data_Path/hi/noun.dbm",GDBM_READER,0644) || die "Can't open $Data_Path/hi/noun.dbm for reading";
-#tie(%PRONOUN,GDBM_File,"$Data_Path/hi/pronoun.dbm",GDBM_READER,0644) || die "Can't open pronoun.dbm for reading";
-#tie(%TAM,GDBM_File,"$Data_Path/hi/tam.dbm",GDBM_READER,0644) || die "Can't open tam.dbm for reading";
-#tie(%VERB,GDBM_File,"$Data_Path/hi/verb.dbm",GDBM_READER,0644) || die "Can't open verb.tam for reading";
-#tie(%AVY,GDBM_File,"$Data_Path/hi/avy.dbm",GDBM_READER,0644) || die "Can't open avy.dbm for reading";
-#tie(%PRATIPADIKAM,GDBM_File,"$Data_Path/hi/noun_pronoun_pratipadika.dbm",GDBM_READER,0644) || die "Can't open noun_pronoun_pratipadika.dbm for reading";
-#tie(%FEM,GDBM_File,"$Data_Path/hi/fem_hnd_noun.dbm",GDBM_READER,0644) || die "Can't open avy.dbm for reading";
 
 open(TMP,"$Data_Path/hi/noun.txt") || die "Can't open $Data_Path/hi/noun.txt for reading";
 while(<TMP>) {
@@ -69,7 +58,6 @@ open(TMP,"$Data_Path/hi/verb.txt") || die "Can't open verb.tam for reading";
 while(<TMP>) {
 chomp;
 $_ =~ /^([^,]+),([^,]+),([^,]+),v,([^,]+)(,.*)?$/;
-#$_ =~ /^([^,]+),v,([^,]+)(,.*)?$/;
 $rt = $1;
 $paxI = $2;
 $transitivity = $3;
@@ -89,6 +77,7 @@ $val = $2;
 $AVY{$key}=$val;
 }
 close(TMP);
+
 open(TMP,"$Data_Path/hi/fem_hnd_noun.lst") || die "Can't open fem_hnd_noun.lst for reading";
 while(<TMP>) {
 chomp;
@@ -105,13 +94,6 @@ $rVERB_RT = \%VERB_RT;
 $rAVY = \%AVY;
 $rPRATIPADIKAM = \%PRATIPADIKAM;
 
-# To store the missing entries fom the dictionary
-#open(TMP_N,">dict_noun_add.txt") || die "Can't open dict_noun_add.txt";
-#open(TMP_V,">dict_verb_add.txt") || die "Can't open dict_verb_add.txt";
-#open(TMP_A,">dict_avy_add.txt") || die "Can't open dict_avy_add.txt";
-#open(TMP_P,">dict_pron_add.txt") || die "Can't open dict_pron_add.txt";
-#open(TMP_T,">dict_tam_add.txt") || die "Can't open dict_tam_add.txt";
-
    $default_lifga = "m";
    $default_vacana = "s";
    $default_puruRa = "a";
@@ -126,27 +108,12 @@ while($tmpin = <STDIN>){
   $in = $f[13];
   $ans = "";
 
-  #if($in =~ /\-/) {
-  #   $in =~ /<rt([^>]+)-([^>]+)>/;
-  #   $pUrvapaxa = $1;
-  #   $uwwarapaxa = $2;
-  #   $pUrvapaxa =~ s/<[^>]+>//g;
-  #   $pUrvapaxa =~ s/><//g;
-  #   $pUrvapaxa =~ s/>//g;
-  #   $pUrvapaxa =~ s/\/[^\-]+\-//g;
-  #   $pUrvapaxa =~ s/\/[^\-]+$//g;
-  #   #print "pUrvapaxa = $pUrvapaxa\n";
-  #   #print "uwwarapaxa = $uwwarapaxa\n";
-  #   #$in = $pUrvapaxa."-".$uwwarapaxa;
-  #}
-  #print "in = $in\n";
   $in =~ s/\/.*//;
   $in =~ s/<rt:([^>]+)[^\-]+\-([a-zA-Z]+)</<rt:$1-$2;/g;
   $in =~ s/></;/g;
   $in =~ s/</{/g;
   $in =~ s/>/}/g;
   $in =~ s/(\{vargaH:sa\-pU\-pa;[^\}]+\}(\/[^\{]+)?)+\-/-/g;
-  #print "in = $in\n";
 
 
   #print "samAsa-pUrvapada mng = 
@@ -211,6 +178,7 @@ while($tmpin = <STDIN>){
 
          $hn_lifga = &get_skt_hn_lifga($lifgam);
          $hn_vacana = &get_hn_vacana($vacana);
+
          $ans .=  "/$samAsa_pUrvapaxa$map_rt $cat $hn_lifga $hn_vacana $default_puruRa $map_kqw";
       }
       } elsif($cat eq "waxXiwa_noun") {
@@ -233,6 +201,7 @@ while($tmpin = <STDIN>){
 
         ($rt,$lifga,$viBakwi,$vacana,$rel) = split(/:/, &get_noun_features($in[$i]));
 	#print "rt = $rt\n";
+	#print "rel = $rel\n";
 	if (($rel eq "karwqsamAnAXikaraNam") || ($rel eq "viSeRaNam") || ($rel eq "aBexaH")) {
            $key = $rt."_vi";
            $map_rt = &get_dict_mng($key, $rNOUN);
@@ -331,6 +300,7 @@ while($tmpin = <STDIN>){
  	                  $key = $rt."_".$paxI."_sk";
 	                  $map_rt = &get_dict_mng($key, $rVERB);
 		      }
+                      if ($map_rt eq $key) { $map_rt = $rt;}
 	      }
 	  } else { # karmaNi / BAve
 	  #In the case of karmaNi / BAve prayoga, we do not have any information of paxI of the verb from the output.
@@ -342,10 +312,8 @@ while($tmpin = <STDIN>){
 	      $rt_ap = &get_dict_mng($key2, $rVERB);
 	      if($rt_pp ne $key1) { 
 		      $map_rt = $rt_pp;
-		      if (($rt_ap ne $key2)  && ($rt_ap ne $rt_pp))
-		         {$map_rt .= $rt_pp."/".$rt_ap;}
-	      }
-	      else {$map_rt = $rt_ap;}
+		      if (($rt_ap ne $key2)  && ($rt_ap ne $rt_pp)) {$map_rt .= $rt_pp."/".$rt_ap;}
+	      } elsif ($rt_ap ne $key2) {$map_rt = $rt_ap;} else {$map_rt = $rt;}
 	      # If the transitivity is ak, it is possible that the sentence does not have a karma.
 	      # So we check if the dict has a corresponding entry with sk.
 	      if (($map_rt eq $key2)  && ($transitivity eq "ak")) {
@@ -364,7 +332,6 @@ while($tmpin = <STDIN>){
 	         } else {$map_rt = $rt_ap;}
 	      }
 	  }
-
 
        $pra_lakAra = $prayoga."_".$lakAra;
        $map_lakAra = &get_dict_mng($pra_lakAra, $rTAM);
