@@ -67,7 +67,7 @@ my($out);
       ($rt,$tam) = split(/:/,&handle_hE($rt,$tam));
       ($rt,$cat) = split(/:/,&handle_Bavaw($rt,$cat));
       ($rt,$tam) = split(/:/,&handle_apanA($rt,$tam));
-      if($rt =~ /\-/) {$rt =~ s/\-/__/g;}
+      if($rt =~ /.\-./) {$rt =~ s/\-/__/g;}
       $out = `$SCLINSTALLDIR/MT/prog/hn/word_gen/test/new_gen.out $show $not $rt $cat $gen $num $per $tam`;
       $out =~ s/__/-/g;
       $out = $pUrva.$out;
