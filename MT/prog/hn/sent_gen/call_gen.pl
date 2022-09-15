@@ -67,7 +67,8 @@ my($out);
       ($rt,$tam) = split(/:/,&handle_hE($rt,$tam));
       ($rt,$cat) = split(/:/,&handle_Bavaw($rt,$cat));
       ($rt,$tam) = split(/:/,&handle_apanA($rt,$tam));
-      if($rt =~ /.\-./) {$rt =~ s/\-/__/g;}
+      if($rt =~ /.\-./) {$rt =~ s/\-/__/g;} 
+# - is used in a compound word; and also for null word; in a compound word it is has a char before and after -, and in a standalone word, it is just a single character -
       $out = `$SCLINSTALLDIR/MT/prog/hn/word_gen/test/new_gen.out $show $not $rt $cat $gen $num $per $tam`;
       $out =~ s/__/-/g;
       $out = $pUrva.$out;

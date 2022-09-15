@@ -410,7 +410,10 @@ value upapaxa_vib = [ ("2_aBi","2u6");
 ]
 ;
 
-(* karma+dhaatu,hnd_mng *)
+(* karma+dhaatu,hnd_mng 
+In this module, the skt mng is replaced by the hnd mng.
+contribution by -- Amruta Malvade
+*)
 
 value lvc_list = [
 ("ASrama+pra_Ap1","ASrama_pahuzCa");
