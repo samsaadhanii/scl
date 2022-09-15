@@ -145,7 +145,8 @@ char *argv[];
           printf(" ");
 	 printf("<%d>",GEN_WORD_CNT++);
 	}
-     else {
+     else  if (root[0] == '-') printf("-"); /* Added by Amba; to handle words grouped with the following words; and hence the equivalent of the current word is blank */
+            else {
 	      if (NEXT_SENSE) printf(" ");
 	      /* check for root seprated by '_' */
 	      if(index(root,'_'))
