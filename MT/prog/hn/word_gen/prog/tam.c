@@ -1,6 +1,6 @@
 #include "../headers/defn.h"
 #include "../prog/struct.h"
-#define TOTAL_FVG_TAMS 353
+#define TOTAL_FVG_TAMS 354
 struct tam_gnp_str tam_gnp_str_ar[TOTAL_FVG_TAMS] = {
 {"0","0","0[-,s,m]","0","s","m"},
 {"0_0_kara","0_0_kara","02[-,-,-]kara_0[-,-,-]","0","0","0"},
