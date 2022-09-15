@@ -410,6 +410,74 @@ value upapaxa_vib = [ ("2_aBi","2u6");
 ]
 ;
 
+(* karma+dhaatu,hnd_mng *)
+
+value lvc_list = [
+("ASrama+pra_Ap1","ASrama_pahuzCa");
+("manas+banX1","mana_lagA");
+("cakRus+banX1","AkqRta_kara");
+("cakRus+ni_banX1","AkqRta_ho");
+("payas+upa_Buj2","pAni_pI");
+("Buva+Buj2","pqWvI_kA_upaBoga_kara");
+("paxa+Buj2","anuBava_kara");
+("upahAsyawA+gam1","hazsI_ko_prApwa_ho");
+("karNa+Af_gam1","suna");
+("mqxuwA+gam1","SAnwa_ho");
+("viRaya-anwara+gam1","viRayoM_ko_jAna");
+("Awma-prawi-rUpa+gam1","svAnurUpa_ko_prApwa_ho");
+("vaSa+gam1","vaSIBUwa_ho");
+("rajanI+gam1","rAwa_biwA");
+("roRavaSa+gam1","kroXiwa_ho");
+("rAkRasawA+gam1","rAkRasawA_ko_prApwa_ho");
+("Bakwi+gaNa1","Bakwi_ko_samaJa/jAna");
+("sixXi+vi_gaNa1","sixXi_ko_jAna/samaJa");
+("pAxa+grah1","ABivAxana_kara^pEra_CU");
+("AxeSa+prawi_grah1","AjFA_kA_svIkAra_kara");
+("raGu+kq3","raGu_raKa");
+("avajFA+SiWilIkq3","apamAna_kA_wyAga_kara");
+("BUwala+kq3","BUwala_banA");
+("vyoma+kq3","AkASa_banA");
+("uxamBaMs+kq3","jalamaya_banA");
+("suprawarA+kq3","naxI_banA");
+("prakASa+kq3","vana,banA");
+("buxXi+kq3","niScaya_kara");
+("buxXi+kq3","niScaya_kara");
+("Gata+kq3","GadA_banA");
+("buxXi+kq3","niScaya_kara");
+("manas+kq3","vicAra_kara^soca");
+("afguli+ava_lab1","aZgulI_pakada");
+("anya-rasa+vi_laG2","anyarasoM_ko_Coda");
+("kAla+NI1","samaya_biwA");
+("niSA+NI1","rAwa_biwA");
+("saMramBa+NI1","vikRubXa_kara");
+("axarSana+NI1","CupA");
+("sUrya+NI1","sUrya_ko_bulA");
+("sva-xeha+upa_Af_NI1","arpiwa_kara");
+("saMSaya+Nux1","saMSaya_xUra_kara");
+("piwq+paw1","axogawi_ko_prApwa_ho");
+("cakRus+paw1","xeKa^najara_dAla");
+("rAGava+pA1","rAGava_ko_xeKawe_hue");
+("vqxXi+puR3","vqxXi_ko_prApwa_kara");
+("afka+Af_rup1","goxa_me_le");
+("Xura+Ranj1","BAra_ko_XAraNa_kara");
+("Ipsiwa+Sans1","icCA_ko_prakata_kara/bawA");
+("vivAha-xIkRA+nir_vqw1","vivAha_saMskAra_kara");
+("xohaxa-vyaWA+nis_wQ1","garBa_ke_prArmBika_kaRtoM_ko_biwA");
+("vAc+Af_xA3","bAwa_kara");
+("manas+xA3","mana_lagA");
+("manas+Af_xA3","mana_ko_AkqRta_kara");
+("cakRus+xA3","najara_dAla");
+("karNa+xA3","suna");
+("karNa+xA3","suna");
+("syanxana+xA3","raWa_ko_xeKa");
+("Sara+prawi_Af_xiS1","bANoM_ko_vyarWa_kara_xe");
+("xiva+xuh2","AkASa_kA_pAlana_kara");
+("SafKa+XmA1","SafKa_bajA");
+("wqpwi+Af_yA1","wqpwa_ho");
+("sparSa-rasa-jFawA+yA1","puwrasparaSa_ke_suKa_ko_prApwa_kara");
+]
+;
+
 value distinct_2 m1 m2 = match m1 with
   [ Wif (id1,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
   | Kqw (id1,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
@@ -438,6 +506,10 @@ value distinct_3 m1 m2 m3 =   distinct_2 m1 m2
 ;
 
 value get_hn_vib upapaxa vib = try List.assoc (vib^"_"^upapaxa) upapaxa_vib
+      with [Not_found -> ""]
+;
+
+value get_hn_lvc karma verb = try List.assoc (karma^"+"^verb) lvc_list
       with [Not_found -> ""]
 ;
 
@@ -744,6 +816,25 @@ value disambiguate_wumun m1 m2 = match m1 with
   ]
 ;
 
+value handle_lvc m1 m2 = match m1 with
+     [ Sup (id1,mid1,_,rt1,_,_,viBakwiH1,_,rel,relata_pos) ->
+          if rel="karma" || rel = "gONakarma" || rel="muKyakarma" || rel="karmasamAnAXikaraNam" 
+          then match m2 with
+          [ Wif (id2,mid2,_,rt2,_,upasarga2,sanAxiH2,_,_,_,_,_,_,_,_,_)->
+                if (id2=relata_pos) then 
+                  let hn_lvc = get_hn_lvc rt1 rt2 in
+                  if not (hn_lvc="") then
+                     [ Relation (id1,mid1,"rt",rt1,"-","11.1")
+                     ; Relation (id2,mid2,"rt",rt2,hn_lvc,"11.2")
+                     ]
+                  else []
+                else []
+          | _ -> []
+          ]
+          else []
+     | _ -> []
+     ]
+;
 
 (* To Disambiguate the final kwa and kwavawu
  * kwa/kwavawu = yA_huA in Hindi, but kwa final is yA
@@ -777,7 +868,7 @@ value all_rules3 =
 
 value all_rules2 = 
 [
-        disambiguate_viBakwiH; disambiguate_wawra; disambiguate_iwi; upapaxa; mark_name; disambiguate_wumun; 
+        disambiguate_viBakwiH; disambiguate_wawra; disambiguate_iwi; upapaxa; mark_name; disambiguate_wumun; handle_lvc
 ]
 ;
 
