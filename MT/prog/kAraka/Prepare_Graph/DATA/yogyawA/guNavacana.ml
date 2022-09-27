@@ -177,6 +177,7 @@ value guNavacana_list = [
 "nirmakRika";
 "nirmala";
 "nirmama";
+"nirXana";
 "niruxXa";
 "niwya";
 "niwyA";
