@@ -42,7 +42,7 @@ package main;
 
       if($prayoga_paxI =~ /\-/) {
         ($prayoga,$paxI) = split(/-/,$prayoga_paxI,2);
-      } else {$prayoga = $prayoga_paxI;}
+      } else {$prayoga = $prayoga_paxI; $paxI="-";}
 
       $upasarga =~ s/Y/_/g;
 

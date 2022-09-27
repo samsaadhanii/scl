@@ -62,8 +62,8 @@ package main;
 #Since we are using only first 3 fields, $mean is removed.
     ($rt,$XAwu,$gaNa,$mng) = split(/_/,$rt_XAwu_gaNa_mng);
 
-    if($prayogaH eq "Nickarwari") { $prayogaH = "karwari"; $sanAxi = "<sanAxi_prawyayaH:Nic>";} else {$sanAxi = "";}
-    if($prayogaH eq "karmaNi") { $paxI = "AwmanepaxI"}
+    if ($prayogaH eq "Nickarwari") { $prayogaH = "karwari"; $sanAxi = "<sanAxi_prawyayaH:Nic>";} else {$sanAxi = "";}
+    if ($prayogaH eq "karmaNi") { $paxI = "AwmanepaxI"}
     if ($upasarga ne "-") { $upasargastr = "<upasarga:$upasarga>";} else { $upasargastr = "";}
   print "<body>\n";
   $rtutf8 = `echo $rt | sed 's/[1-5]//' | $conv_program`;
