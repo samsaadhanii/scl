@@ -45,6 +45,7 @@ $BIN_PATH/keep_freq_mo.pl $BIN_PATH/default_morph.txt |\
 $BIN_PATH/rm_duplicate_ans.pl  |\
 $BIN_PATH/handle_sawi_sapwami.pl |\
 $BIN_PATH/remove_wal_ka.pl |\
+$BIN_PATH/rm_xvi.pl |\
 ## commented the below line, since it did not parse wena kqwam properly, as kqxanwa analysis of kqw were removed
 #$BIN_PATH/remove_derivational_kqw_ana.pl < /tmp/1 |\
 $BIN_PATH/prioritize.pl |\
