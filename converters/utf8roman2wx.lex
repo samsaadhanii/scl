@@ -92,8 +92,11 @@ Ph	printf("P");
 P	printf("p");
 Bh	printf("B");
 B	printf("b");
-
 M	printf("m");
+
+ph	printf("P");
+bh	printf("B");
+
 R	printf("r");
 
 ś	printf("S");
