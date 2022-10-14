@@ -40,7 +40,6 @@ value relations_encodings = [
 	("wulanA_binxuH",43);
 	("anuyogI",44);
 	("samboXyaH",47);
-	("ananwarakAlaH",48);
 	("prawiReXaH",49);
 	("wIvrawAxarSI",51);
 	("saFjFA_xyowakaH",52);
