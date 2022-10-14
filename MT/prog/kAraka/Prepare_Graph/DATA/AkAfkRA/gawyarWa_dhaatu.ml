@@ -4,6 +4,7 @@ value gawyarWa_XAwu_list = [
 "Af_gam1";
 "Af_pax1";
 "Af_viS1";
+"ZZpra_vqw1";
 "anu_man1";
 "anu_pAl1";
 "anu_xAv1";
@@ -17,7 +18,6 @@ value gawyarWa_XAwu_list = [
 "pra_cal1";
 "pra_mux1";
 "pra_viS1";
-"pra_vqw1";
 "prawi_Af_gam1";
 "ram1";
 "sam_Af_gam1";
