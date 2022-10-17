@@ -77,9 +77,12 @@ value sambanXavAci_list = [
 "upAXyAyA";
 "upAXyAyI";
 "vimAwqja";
+"vaXU";
 "wanaya";
 "wanayA";
 "wAwa";
+"xAwq";
+"xayiwq";
 "xevara";
 "xevq"
 ]
