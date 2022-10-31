@@ -36,9 +36,9 @@ $BIN_PATH/rm_non_apte.pl $SCLINSTALLDIR $BIN_PATH/default_gen.txt $BIN_PATH/../m
 #When this is uuncommented, sawi sapwami does not work well
 #rAme vanam gacCawi sawi sIwA anusarawi
 # This is again uncommented, since now we have kqw analysis for all words. So all those analysis which are rare need to bbe deleted. For example, in praBawe, we need to delete pra_BA1 analysis.
-$BIN_PATH/remove_derived_prAtipadikas.pl |\
+$BIN_PATH/remove_derived_prAtipadikas.pl  |\
 #Earlier we added the kqw analysis later. Now derivational analysis is produced simultaneously with the inflectional morph analysis. Hence this programme is removed.
-$BIN_PATH/remove_derivational_analysis_of_rUDa_kqws.pl $SCLINSTALLDIR $BIN_PATH/../morph/rUDa_kqw.txt  |\
+$BIN_PATH/remove_derivational_analysis_of_rUDa_kqws.pl $BIN_PATH/../morph/rUDa_kqw.txt  |\
 $BIN_PATH/rm_saMKyA.pl |\
 $BIN_PATH/handle_samboXana.pl D  2> /dev/null  |\
 $BIN_PATH/keep_freq_mo.pl $BIN_PATH/default_morph.txt |\
