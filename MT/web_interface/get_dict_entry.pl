@@ -59,6 +59,7 @@ $word_wx =~ /^(.)/; $l = $1;
 chomp $dic_name;
 if($dic_name eq "apte"){
         $sword =~ s/_//;
+        $sword =~ s/_/\-/;
         if($word_wx =~ /_/) { $word_wx =~ /_(.)/; $l = $1;}
         else {$word_wx =~ /^(.)/; $l = $1;}
 	if ($l eq "A") { $l = "aa";}
@@ -128,7 +129,7 @@ my $ans = "";
 	$/ = "</lexhead>";
 		while($in = <TMP>){
 			$lexcount = 0;
-				if($in =~ /<prAwipaxikam>$sword<\/prAwipaxikam>/ or $in =~ /<root>$sword<\/root>/  or $in =~ />$sword<\/prAwipaxikam>/){
+				if($in =~ /<prAwipaxikam>$sword<\/prAwipaxikam>/ or $in =~ /<root>$sword<\/root>/){
 					$result = &get_exact_data($in);
 					$result =~ s/<segmenthd>/<div style=\"background:cyan;\"><\/div>/g;
 					$result =~ s/<subsegmenthd>/<div style=\"background:cyan;\"><\/div>/g;
@@ -151,7 +152,7 @@ my $result = "";
 	@lines = split(/<segmenthd>/,$line);
 	foreach $lines (@lines){
 		#if($lines =~ /<prAwipaxikam>$sword<\/prAwipaxikam>/ or $lines =~ /<dentry>$sword<\/dentry>/  or $in =~ />$sword<\/prAwipaxikam>/){
-		if($lines =~ /<prAwipaxikam>$sword<\/prAwipaxikam>/ or $lines =~ /<root>$sword<\/root>/  or $lines =~ />$sword<\/prAwipaxikam>/){
+		if($lines =~ /<prAwipaxikam>$sword<\/prAwipaxikam>/ or $lines =~ /<root>$sword<\/root>/  or $lines =~ /<prAwipaxikam gen="स्त्री">$sword<\/prAwipaxikam>/){
                         $lines =~ s/<jAwi>[^<]+<\/jAwi>//g;
                         $lines =~ s/<upAXi>[^<]+<\/upAXi>//g;
                         $lines =~ s/<kind_of>[^<]+<\/kind_of>//g;
