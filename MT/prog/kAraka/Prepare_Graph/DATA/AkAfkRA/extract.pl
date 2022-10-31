@@ -37,7 +37,9 @@ while($in = <STDIN>){
     if ($in =~ /\tkarwqsamAnAXikaraNa/) {
         $karwq = $karwq.":".$v;
     }
-    if (($in =~ /karmasamAnAXikaraNa/) || ($in =~ /buxXi/)) {
+    if ($in =~ /\tkarmasamAnAXikaraNa/) {
+   # if (($in =~ /karmasamAnAXikaraNa/) || ($in =~ /buxXi/)) {
+# Why buxXi is under karmasamAnAXikaraNa?
         $karmasamA = $karmasamA.":".$v;
     }
     if ($in =~ /\tSliR/) {

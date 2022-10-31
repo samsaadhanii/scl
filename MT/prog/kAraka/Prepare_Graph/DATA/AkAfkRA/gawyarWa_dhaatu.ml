@@ -24,6 +24,7 @@ value gawyarWa_XAwu_list = [
 "sam_upa_RWA1";
 "upa_Af_Sri1";
 "uw_yam1";
+"vraj1";
 "yA1";
 ]
 ;

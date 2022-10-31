@@ -497,7 +497,6 @@ value akarmaka_XAwu_list = [
 "urx1";
 "uw_Rax1";
 "uw_pax1";
-"uw_yam1";
 "vAS1";
 "vAh1";
 "vE1";

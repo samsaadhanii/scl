@@ -1500,6 +1500,7 @@ value sakarmaka_XAwu_list = [
 "uw_wQ1";
 "uw_xiS1";
 "uw_xqS1";
+"uw_yam1";
 "uw_yam2";
 "uw_yam3";
 "uxJ1";
