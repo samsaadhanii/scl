@@ -61,7 +61,7 @@ while($in = <STDIN>){
        @s = split(/\t/,$in[$i+1]);
        $last[$i+1] = $s[11];
 #Join two words where first word has lat lakaara, and the second word is `sma'
-#or the first word is a kqw with the next word as any form oof `as'.
+#or the first word is a kqw with the next word as any form of `as'.
        if(($f[11] =~ /<lakAraH:lat>/) &&
           ($s[11] =~ /<word:sma><rt:sma><vargaH:avy><level:1>/)) {
            if ($s[11] =~ /<rel_nm:([^>]+)><relata_pos:([^>]+)>/){
