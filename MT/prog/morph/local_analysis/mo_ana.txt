@@ -54,7 +54,7 @@ anuvarwayanwi	vqw3<upasarga:anu><prayogaH:karwari><lakAraH:lat><puruRaH:pra><vac
 anuvarwayawi	vqw1<upasarga:anu><sanAxi_prawyayaH:Nic><prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:vqwuz><gaNaH:BvAxiH><level:1>/vqw3<upasarga:anu><prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:vqwuz><gaNaH:curAxiH><level:1>
 anuvarwiwavanwO	vqw1<upasarga:anu><kqw_prawyayaH:kwavawu><XAwuH:vqwuz><gaNaH:BvAxiH><kqw_pratipadika:anuvarwiwavaw><vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:xvi><level:2>
 anuviXIyawe	XA1<upasarga:anu_vi><prayogaH:karmaNi><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:duXAF><gaNaH:juhowyAxiH><level:1>/XI1<upasarga:anu_vi><prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:XIf><gaNaH:xivAxiH><level:1>/XI1<upasarga:anu><prayogaH:karmaNi><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:XIf><gaNaH:xivAxiH><level:1>/XI1<upasarga:anu><prayogaH:karmaNi><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:Xi><gaNaH:wuxAxiH><level:1>
-anuxarSayan	anuxarSayaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
+anuxarSayan	xqS1<upasarga:anu><kqw_prawyayaH:Sawq_lat><XAwuH:xqSizr><gaNaH:BvAxiH>anuxarSayaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 anuXAviwaH	XAv1<upasarga:anu><kqw_prawyayaH:kwa><XAwuH:XAvuz><gaNaH:BvAxiH><kqw_pratipadika:anuXAviwa><vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 anvaSocaH	Suc1<upasarga:anu><prayogaH:karwari><lakAraH:laf><puruRaH:ma><vacanam:eka><paxI:parasmEpaxI><XAwuH:Sucaz><gaNaH:BvAxiH><level:1>
 anvayufkwa	yuj1<upasarga:anu><prayogaH:karwari><lakAraH:laf><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:yuja><gaNaH:ruXAxiH><level:1>
@@ -669,7 +669,7 @@ XArayan	XArayaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka>
 XArayiwvA	Xq1<vargaH:avy><kqw_prawyayaH:kwvA><XAwuH:XqF><gaNaH:BvAxiH><level:1>
 xarSanaH	xarSana<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 xarSayAmAsa	xqS1<prayogaH:karwari><sanAxi_prawyayaH:Nic><lakAraH:lit><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:xqS><gaNaH:BvaxiH><level:1>
-xarSayan	xarSayaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
+xarSayan	xqS1<kqw_prawyayaH:Sawq_lat><XAwuH:xqSizr><gaNaH:BvAxiH>xarSayaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 xarSayiwum	xqS1<vargaH:avy><kqw_prawyayaH:wumun><XAwuH:xqSir><gaNaH:BvAxiH><level:1>
 xarSayiwvA	xqS1<vargaH:avy><kqw_prawyayaH:kwvA><XAwuH:xqSr><gaNaH:BvAxiH><level:1>
 xarSinaH	xarSin<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:bahu><level:1>/xarSin<vargaH:nA><lifgam:puM><viBakwiH:2><vacanam:bahu><level:1>/xarSin<vargaH:nA><lifgam:puM><viBakwiH:5><vacanam:eka><level:1>/xarSin<vargaH:nA><lifgam:puM><viBakwiH:6><vacanam:eka><level:1>

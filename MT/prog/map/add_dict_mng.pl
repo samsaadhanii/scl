@@ -316,7 +316,7 @@ while($tmpin = <STDIN>){
 	      } elsif ($rt_ap ne $key2) {$map_rt = $rt_ap;} else {$map_rt = $rt;}
 	      # If the transitivity is ak, it is possible that the sentence does not have a karma.
 	      # So we check if the dict has a corresponding entry with sk.
-	      if (($map_rt eq $key2)  && ($transitivity eq "ak")) {
+	      if (($map_rt eq $rt)  && ($transitivity eq "ak")) {
      	         $key1 = $rt."_pp_sk";
 	         $rt_pp = &get_dict_mng($key1, $rVERB);
      	         $key2 = $rt."_ap_sk";
@@ -501,7 +501,7 @@ my $cat  = "";
 sub get_noun_features{
 my($in) = @_;
 my $ans = "";
-  if($in =~ /^.*rt:([^;]+).*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;]+).*rel_nm:([^;]+)/){
+  if($in =~ /^.*rt:([^;]+).*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;]+).*rel_nm:([^;]*;)/){
      $ans = join(":",$1,$2,$3,$4,$5);
   } elsif($in =~ /^.*rt:([^;]+).*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;]+)/){
      $ans = join(":",$1,$2,$3,$4,"");
@@ -515,9 +515,7 @@ sub get_kqw_avy_features{
 my($in) = @_;
 
 my $ans = "";
-
-if($in =~ /^.*rt:([^;]+).*vargaH:avy;.*kqw_prawyayaH:([^;]+);XAwuH:([^;]+);gaNaH:([^;]+).*rel_nm:([^;]+)/){
-
+if($in =~ /^.*rt:([^;]+).*vargaH:avy;.*kqw_prawyayaH:([^;]+);XAwuH:([^;]+);gaNaH:([^;]+).*rel_nm:([^;]*;)/){
      $rt = $1;
      $kqw_prawyayaH = $2;
      $XAwu = $3;
@@ -561,7 +559,7 @@ my($in) = @_;
 
 my $ans = "";
 
-  if($in =~ /^.*rt:([^;]+).*kqw_prawyayaH:([^;]+);.*XAwuH:([^;]+);gaNaH:([^;]+).*kqw_pratipadika:([^;]+).*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;}]+).*rel_nm:([^;]*)/){
+  if($in =~ /^.*rt:([^;]+).*kqw_prawyayaH:([^;]+);.*XAwuH:([^;]+);gaNaH:([^;]+).*kqw_pratipadika:([^;]+).*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;}]+).*rel_nm:([^;]*;)/){
 
      $rt = $1;
      $kqw_prawyayaH = $2;
@@ -593,7 +591,7 @@ my($in) = @_;
 
 my $ans = "";
 
-  if($in =~ /^.*rt:([^;]+).*waxXiwa_prawyayaH:([^;]+);.*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;}]+).*rel_nm:([^;]*)/){
+  if($in =~ /^.*rt:([^;]+).*waxXiwa_prawyayaH:([^;]+);.*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;}]+).*rel_nm:([^;]*;)/){
 
      $rt = $1;
      $waxXiwa_prawyayaH = $2;
@@ -612,10 +610,10 @@ my($in) = @_;
 
 my $ans = "";
 
-  if($in =~ /^.*rt:([^;]+).*vargaH:avy;waxXiwa_prawyayaH:([^;]+);lifgam:([^;]+).*rel_nm:([^;]+)/){
+  if($in =~ /^.*rt:([^;]+).*vargaH:avy;waxXiwa_prawyayaH:([^;]+);lifgam:([^;]+).*rel_nm:([^;]*;)/){
      $ans = join(":",$1,$2,$3);
   }
-  elsif($in =~ /^.*rt:([^;]+).*vargaH:avy;waxXiwa_prawyayaH:([^;]+).*rel_nm:([^;]+)/){
+  elsif($in =~ /^.*rt:([^;]+).*vargaH:avy;waxXiwa_prawyayaH:([^;]+).*rel_nm:([^;]*;)/){
      $ans = join(":",$1,$2,"avy",$3);
   }
 $ans;
@@ -628,7 +626,7 @@ my($rt);
 my $ans = "";
 
 #print "in = $in\n";
-  if($in =~ /^.*rt:([^;]+).*vargaH:avy.*rel_nm:([^;]*)/){
+  if($in =~ /^.*rt:([^;]+).*vargaH:avy.*rel_nm:([^;]*;)/){
      $ans = join(":",$1,$2);
   }
 $ans;
