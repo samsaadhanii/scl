@@ -39,7 +39,7 @@ while($in = <STDIN>){
         
         $cat = "ajFAwa";
         foreach $wrd_ana (@wrd_ana) {
-          $wrd_ana =~ s/<level:[1-4]>//g;
+          $wrd_ana =~ s/<level:[0-4]>//g;
 
           if($wrd_ana =~ /<waxXiwa_prawyayaH.*waxXiwa_rt/) {
               $cat="waxXiwa";

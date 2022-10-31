@@ -22,15 +22,18 @@ while($in = <STDIN>){
  chomp($in);
  if($in) {
     ($word,$ana,$kaaraka) = split(/\t/,$in);
+
     if($ana =~ /-/) {
        $ana =~ s/.*-([^<]*)/$1/;
        if ($word =~ /^(.*-)/){ $rt_part1 = $1;}
        $ana =~ s/^/$rt_part1/;
     }
+
     if($ana =~ /</) {
        $ana =~ s/</></;
        $ana =~ s/^/<rt:/;
     } else {$ana =~ s/^/<rt:/; $ana =~ s/$/><vargaH:avy><level:1>/;}
+
     print "<word:$word>",$ana;
     if($kaaraka) {
        $kaaraka =~ s/^/<rel_nm:/;
