@@ -366,6 +366,7 @@ Af_lU1,pp,sk,v,XIre_se_uKAda,NW
 Af_luB2,pp,sk,v,BrAMwa_ho^mawiBraMSa_ho,NW
 Af_mIl1,pp,sk,v,baMxa_kara,NW
 Af_mqS1,pp,sk,v,sparSa_kara^KA_jA^AkramaNa_kara,NW
+Af_mawr1,ap,sk,v,Amanwriwa_kara,NW,#Added by Amba - ap/pp to be confirmed
 Af_mux1,ap,ak,v,prasanna_ho^harRa_manA^sugaMXiwa_ho,NW
 Af_narx1,pp,ak,v,garaja^xahAda^Sabxa_kara^jA^gawiSIla_ho,NW
 Af_nax1,pp,ak,v,KuSa_ho^harRa_prakata_kara^prasanna_ho^saMwuRta_ho,NW
