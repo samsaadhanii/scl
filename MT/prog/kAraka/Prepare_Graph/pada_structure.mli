@@ -93,20 +93,22 @@ and waxXiwa = ( int * int * string * string * string * string * string * string 
   ; vacanam : string
   ; level : int
   }*)
-and rel = ( int * int * string * int * int * string)
+and rel = ( int * int * string * int * int * string * int)
 (* { to_id : int
    ; to_mid : int
    ; reltn : string
    ; from_id : int
    ; from_mid : int
    ; rule : string
+   ; dist : int
    }*)
-and relc = ( int * int * int * int * int )
+and relc = ( int * int * int * int * int  * int)
 (* { to_id : int
    ; to_mid : int
    ; reltn : int
    ; from_id : int
    ; from_mid : int
+   ; dist : int
    }*)
 ;
 
