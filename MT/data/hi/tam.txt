@@ -49,12 +49,12 @@ karwari_lat_sma,wA_WA
 #Sawq_lat,0_rahA_hE
 Sawq_lat,wA_huA
 Sawq_lat_adv,we_hue
-Sawq_laf,0_rahA_WA
-Sawq_luf,0_rahA_WA
-Sawq_lit,0_rahA_WA
-Sawq_lut,0_rahA_hogA
+#Sawq_laf,0_rahA_WA
+#Sawq_luf,0_rahA_WA
+#Sawq_lit,0_rahA_WA
+#Sawq_lut,0_rahA_hogA
 Sawq_lqt,0_rahA_hogA
-Sawq_ASIrlif,0_rahA_hogA
+#Sawq_ASIrlif,0_rahA_hogA
 karwari_lat,wA_hE
 karwari_lit,yA
 karwari_lot,subj
