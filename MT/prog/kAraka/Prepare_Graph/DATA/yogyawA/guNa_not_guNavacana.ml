@@ -11,6 +11,7 @@ value guNa_not_guNavacana_list = [
 "jFAna";
 "vinaya";
 "Bexa";
-"vyAja"
+"vyAja";
+"sneha"
 ]
 ;

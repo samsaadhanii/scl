@@ -32,7 +32,7 @@ value kAlAXikaraNa_list = [
 "navambaramAse";
 "nimeRe";
 "parahyaH";
-"param";
+"zparam";
 "paraSvaH";
 "ParavarImAse";
 "paScAw";

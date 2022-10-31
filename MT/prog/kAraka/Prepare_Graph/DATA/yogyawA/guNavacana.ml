@@ -333,6 +333,7 @@ value guNavacana_list = [
 "samIpa";
 "sama";
 "samarWa";
+"samarWA";
 "samaswa";
 "sampUrNa";
 "sampqkwa";
@@ -423,6 +424,7 @@ value guNavacana_list = [
 "wulya";
 "wumula";
 "wuvara";
+"xayiwa";
 "xASaraWi";
 "xAkRiNAwya";
 "xAruNa";
