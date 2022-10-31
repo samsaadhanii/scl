@@ -802,18 +802,27 @@ value upapaxa m1 m2= match m1 with
 
 value disambiguate_wumun m1 m2 = match m1 with
   [ Avykqw (id1,mid1,word1,_,_,_,_,kqw_prawyayaH1,_,_,rel,relata_pos) ->
-          if rel="sahAyakakriyA" && kqw_prawyayaH1 ="wumun"
-          then match m2 with
-          [ Wif (id2,mid2,_,rt2,_,upasarga2,sanAxiH2,_,_,_,_,_,_,_,_,_)->
-                  if rt2= "Sak3" || rt2 = "arh1" || rt2 = "Gat1"
-                  then
-                  [ Relation (id1,mid1,"kqw_prawyayaH",kqw_prawyayaH1,"wumun0","10.2")]
-                  else if (rt2 = "raB1" && upasarga2 = "Af") || rt2 = "jFA1" || (rt2 ="kram1" && upasarga2 = "pra")  
-                  then
-                  [ Relation (id1,mid1,"kqw_prawyayaH",kqw_prawyayaH1,"wumun_nA","10.2")]
-                  else []
-          | _ -> []
-          ]
+          if kqw_prawyayaH1 ="wumun"
+          then if rel="sahAyakakriyA" 
+               then match m2 with
+               [ Wif (id2,mid2,_,rt2,_,upasarga2,sanAxiH2,_,_,_,_,_,_,_,_,_)->
+                  match rt2 with
+                  [ "Sak3" 
+                  | "arh1"
+                  | "Gat1" -> 
+                        [ Relation (id1,mid1,"kqw_prawyayaH",kqw_prawyayaH1,"wumun0","10.2")]
+                  | "raB1" -> if upasarga2 = "Af" 
+                       then [ Relation (id1,mid1,"kqw_prawyayaH",kqw_prawyayaH1,"wumun_nA","10.3")]
+		       else []
+                  | "jFA1" -> [ Relation (id1,mid1,"kqw_prawyayaH",kqw_prawyayaH1,"wumun_nA","10.4")]
+                  | "kram1" -> if upasarga2 = "pra"
+                       then [ Relation (id1,mid1,"kqw_prawyayaH",kqw_prawyayaH1,"wumun_nA","10.5")]
+		       else []
+                  | _ ->  []
+                  ]
+               | _ -> []
+               ]
+               else []
           else []
   | _ -> []
   ]
