@@ -27,7 +27,7 @@ $RD_KQW{$_}=1;
 close(TMP);
 
 while($in = <STDIN>){
-  if($in !~ /<level:1/){
+  #if($in !~ /<level:1/){ # Why this condition?
      chomp($in);
      $in =~ s/=/\//;
     ($word,@analysis) = split(/\//, $in);
@@ -35,7 +35,7 @@ while($in = <STDIN>){
     print $word,"=";
     if ($word =~ /^-/) { $word =~ s/^-//;}
     if ($word =~ /-\$/) { $word =~ s/-\$//;}
-    #print "analysis = @analysis\n";
+#    print "analysis = @analysis\n";
  
 # Split the word and its analysis.
 #Remove the derivational analysis if the root is a rUDa kqw.
@@ -62,7 +62,7 @@ while($in = <STDIN>){
     if($tmp ne "") { $tmp =~ s/^\///; print $tmp;} 
     elsif ($in !~ /^-/) { print join("/",@analysis);}
     print "\n";
-  } else { print $in;}
+ # } else { print $in;}
 }
 
 sub get_rt {
@@ -78,10 +78,10 @@ sub get_rt {
        $ana =~ />([^>]+)</;
        $rt = $1;
       } else {$rt = "";}
+#      print "rt = $rt\n";
+#      print "$RD_KQW{$rt}\n";
+#      print "word = $word\n";
+#      print "$RD_KQW{$word}\n";
  $rt;
-      #print "rt = $rt\n";
-      #print "$RD_KQW{$rt}\n";
-      #print "word = $word\n";
-      #print "$RD_KQW{$word}\n";
 }
 1;
