@@ -1482,6 +1482,7 @@ value sakarmaka_XAwu_list = [
 "upa_ram1";
 "upa_sam_gam1";
 "upa_sev1";
+"upa_spqS1";
 "upa_vas1";
 "upa_xiS1";
 "upa_yA1";
