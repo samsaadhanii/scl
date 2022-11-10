@@ -24,6 +24,7 @@ value kAlAXva_list = [
 "rajanI";
 "rAwra";
 "rAwrI";
+"samA";
 "samvaw";
 "samvawsara";
 "SarvarI";

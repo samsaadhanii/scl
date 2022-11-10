@@ -20,7 +20,7 @@ value guNavacana_list = [
 "BUBqw";
 "BUyas";
 "Bakwa";
-"Barawa";
+"zBarawa";
 "BavaxIyA";
 "BavaxIya";
 "BaxrA";
@@ -403,7 +403,7 @@ value guNavacana_list = [
 "viniyawa";
 "vipulA";
 "vipula";
-"vivAsana";
+"zvivAsana";
 "vqxXA";
 "vqxXa";
 "vrajanwa";
