@@ -103,9 +103,9 @@ wsd () {
 
 hnd_gen () {
     $ANU_MT_PATH/interface/add_colorcode.pl < $temp_files_path/$fbn.out |\
-    $ANU_MT_PATH/chunker/lwg.pl |\
-    $ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $ANU_MT_PATH/../data hi |\
-    $ANU_MT_PATH/map/lwg_avy_avy.pl $SCLINSTALLDIR $ANU_MT_PATH/../data hi  |\
+    $ANU_MT_PATH/chunker/lwg.pl > /tmp/111
+    $ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $ANU_MT_PATH/../data hi < /tmp/111 > /tmp/222
+    $ANU_MT_PATH/map/lwg_avy_avy.pl $SCLINSTALLDIR $ANU_MT_PATH/../data hi  < /tmp/222 |\
     $ANU_MT_PATH/hn/sent_gen/agreement.pl $SCLINSTALLDIR $ANU_MT_PATH/../data $ANU_MT_PATH/hn/sent_gen  |\
     $ANU_MT_PATH/hn/sent_gen/call_gen.pl $SCLINSTALLDIR  |\
     $ANU_MT_PATH/interface/modify_mo_for_display.pl $SCLINSTALLDIR  > $temp_files_path/ttt
@@ -120,7 +120,14 @@ hnd_gen () {
 
  generate_anvaya () {
    $ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out > $temp_files_path/table.tsv
-   $MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py -i $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv -s $SCLINSTALLDIR -t hi
+   #
+   ## Temporary commented. Sanal has to fix the programme.
+   #$MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py -i $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv -s $SCLINSTALLDIR -t hi
+   #
+   cut -f1 $temp_files_path/table.tsv > /tmp/1
+   cut -f2 $temp_files_path/table.tsv > /tmp/2
+   cut -f4- $temp_files_path/table.tsv > /tmp/3
+   paste /tmp/1 /tmp/2 /tmp/1 /tmp/3 > $temp_files_path/anvaya.tsv
    $my_converter < $temp_files_path/table.tsv > $temp_files_path/table_outscript.tsv
    $dev_converter < $temp_files_path/table.tsv > $temp_files_path/table_dev.tsv
    $my_converter < $temp_files_path/anvaya.tsv > $temp_files_path/anvaya_outscript.tsv
@@ -163,10 +170,14 @@ else
       format
       #cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.orig
       sandhi_splitter
+    `date >> $temp_files_path/err`;
       morph
+    `date >> $temp_files_path/err`;
 
     fi # If Morph = UoHyd ends here
+    `date >> $temp_files_path/err`;
     shaabdabodha
+    `date >> $temp_files_path/err`;
 
   fi  # PARSE != AVAILABLE ends here
   anaphora
