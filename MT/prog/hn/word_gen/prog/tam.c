@@ -3,7 +3,7 @@
 #define TOTAL_FVG_TAMS 354
 struct tam_gnp_str tam_gnp_str_ar[TOTAL_FVG_TAMS] = {
 {"0","0","0[-,s,m]","0","s","m"},
-{"0_0_kara","0_0_kara","02[-,-,-]kara_0[-,-,-]","0","0","0"},
+{"0_0_kara","0_0_kara","0[-,-,-]kara_0[-,-,-]","0","0","0"},
 {"0_bETA","0_bETa_yA","0[-,-,-]bETa_yA[g_v,n_v,-]","-1","-1","0"},
 {"0_bETA_WA","0_bETa_yA_WA_WA","0[-,-,-]bETa_yA[g_v,n_v,-]WA_WA[g_v,n_v,-]","-1","-1","0"},
 {"0_bETA_hE","0_bETa_yA_hE_hE","0[-,-,-]bETa_yA[g_v,n_v,-]hE_hE[-,n_v,p_v]","-2","-1","-1"},
