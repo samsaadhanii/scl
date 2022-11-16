@@ -365,6 +365,8 @@ value animate_list = [
 "bala";
 "balA";
 "bAla";
+"bAlaka";
+"bAlikA";
 "balaBaxrikA";
 "bAlagarBiNI";
 "balAhaka";
