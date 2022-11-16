@@ -7,9 +7,11 @@ value upAXi_list = [
 "aXyApaka";
 "mahArAja";
 "maharRi";
+"mahIpawi";
 "manwrI";
 "muni";
 "nara";
+"niRAxa";
 "nqpa";
 "paNdiwa";
 "qRi";
@@ -27,6 +29,6 @@ value upAXi_list = [
 "vikrewrI";
 "xUwa";
 "xevI";
-"xeva";
+"xeva"
 ]
 ;
