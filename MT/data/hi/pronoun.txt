@@ -31,6 +31,3 @@ yax,napuM,jo
 yax,puM,jo
 yax,swrI,jo
 yuRmax,a,wuma
-kimciw,puM,koI
-kimciw,napuM,koI
-kimciw,swrI,koI
