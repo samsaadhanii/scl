@@ -24,21 +24,20 @@ while($in = <STDIN>){
     ($word,@analysis) = split(/\//, $in);
  
     print $word,"=";
-    if ($word =~ /^-/) { $word =~ s/^-//;}
-    if ($word =~ /-\$/) { $word =~ s/-\$//;}
  
 # Split the word and its analysis.
     $tmp = "";    
     foreach ($i=0; $i<=$#analysis;$i++){
-        $found = 0;    
-         foreach ($j=0; $j<=$i;$j++){
-	   $t = $analysis[$i];
-	   $t =~ s/<level:[0-9]>//;
-           if ($analysis[$j] =~ /$t/) { $found = 1; }
+          $found = 0;    
+	  $t = $analysis[$i];
+	  $t =~ s/<level:[0-9]>//;
+	  $t =~ s/</></;
+         foreach ($j=0; $j<$i && !$found;$j++){
+           if ($analysis[$j] =~ /$t/) { $found = 1;}
          }
-      if ($found = 0) { $tmp .= $tmp."/".$analysis[$i]; }
+      if (!$found) { $tmp .= "/".$analysis[$i]; }
     }
     if($tmp ne "") { $tmp =~ s/^\///; print $tmp;} 
-    elsif ($in !~ /^-/) { print join("/",@analysis);}
+    else  { print join("/",@analysis);}
     print "\n";
 }
