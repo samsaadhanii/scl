@@ -42,6 +42,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
       my $splitter=$param{splitter};
       my $out_encoding=$param{out_encoding};
       my $parse=$param{parse};
+      my $tlang=$param{tlang};
       my $text_type=$param{text_type};
       my $mode=$param{mode};
 
@@ -55,6 +56,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 
       if ($out_encoding eq "Devanagari") { $script = "DEV";}
       if ($out_encoding eq "IAST") { $script = "IAST";}
+      if ($out_encoding eq "Telugu") { $script = "Telugu";}
       if ($splitter eq "None") { $morph = "UoHyd";}
       if ($splitter eq "best") { $morph = "GH_auto";}
       if ($splitter eq "manual") { $morph = "GH_manual";}
@@ -98,6 +100,10 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 	      $cpid = &get_curr_id;
       }
 
+      if ($tlang eq "Hindi") { $prog = "anu_skt_hnd.sh"; $lang = "hi";}
+      elsif ($tlang eq "Telugu") { $prog = "anu_skt_tlg.sh"; $lang = "te";}
+      elsif ($tlang eq "Marathi") { $prog = "anu_skt_mrt.sh"; $lang = "mr";}
+
       if($morph eq "GH_manual") {
          $sentences =~ s/\.//;
          $sentences =~ s/ /\+/g;
@@ -112,7 +118,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 
          if($display eq "") { $display = "DEV";}
 
-         system("$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::CGIDIR/scl tmp_in${pid}/in$pid $GlblVar::TFPATH hi $display $morph Full $text_type 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
+         system("$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/$prog.sh $GlblVar::CGIDIR/scl tmp_in${pid}/in$pid $GlblVar::TFPATH $lang $display $morph Full $text_type 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
          }  else {
 
          open (TMP,">$GlblVar::TFPATH/tmp_in${pid}/in$pid");
@@ -120,7 +126,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
          close (TMP);
 
           `date > $GlblVar::TFPATH/tmp_in$pid/err$pid`;
-          $cmd = "$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::CGIDIR/scl tmp_in${pid}/in$pid $GlblVar::TFPATH hi $script $morph $parse $text_type 2>> $GlblVar::TFPATH/tmp_in$pid/err$pid;";
+          $cmd = "$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/$prog $GlblVar::CGIDIR/scl tmp_in${pid}/in$pid $GlblVar::TFPATH $lang $script $morph $parse $text_type 2>> $GlblVar::TFPATH/tmp_in$pid/err$pid;";
           $exec_status = system($cmd);
      }
      `date >> $GlblVar::TFPATH/tmp_in$pid/err$pid`;

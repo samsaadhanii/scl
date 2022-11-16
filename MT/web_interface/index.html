@@ -141,6 +141,7 @@ setInterval(blinker, 1000);
                   <option value="SLP">SLP1</option>
                   <option value="KH">Kyoto-Harvard(KH)</option>
                   <option value="IAST">IAST(Roman-Diacritic)</option>
+                  <option value="tlgUnicode">Unicode-Telugu</option>
                 </select>
               </td>
               <td>
@@ -150,6 +151,7 @@ setInterval(blinker, 1000);
                   <!--          <option>Select encoding for Output</option> -->
                   <option value="Devanagari">Devanagari</option>
                   <option value="IAST">IAST(Roman-Diacritic)</option>
+                  <option value="Telugu">Telugu</option>
                 </select>
               </td>
               <td> Segmenter
@@ -160,10 +162,13 @@ setInterval(blinker, 1000);
                   <option value="best">Heritage Splitter Automatic</option>
                 </select>
               </td>
-              <td>Parse
+              <td><input type="hidden" name="parse" id="parse" value="Full" class="btn btn-default" /></td> 
+              <td>Target Language
                 <br/>
-                <select name="parse">
-                  <option>Full</option>
+                <select name="tlang">
+                  <option>Hindi</option>
+                  <option>Telugu</option>
+                  <option>Marathi</option>
                 </select>
               </td>
               <td> Text type
