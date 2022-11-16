@@ -15,6 +15,7 @@ karmasamānādhikaraṇam 13
 karma 14
 prayojakakartā 15
 prayojyakartā 16
+madhyasthakartā 17
 karaṇam 18
 sampradānam 19
 apādānam 20

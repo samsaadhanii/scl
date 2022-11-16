@@ -556,7 +556,7 @@ upArjiwaH	upArjiwa<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 upArjiwam	upArjiwa<vargaH:nA><lifgam:napuM><viBakwiH:1><vacanam:eka><level:1>/upArjiwa<vargaH:nA><lifgam:napuM><viBakwiH:2><vacanam:eka><level:1>/upArjiwa<vargaH:nA><lifgam:puM><viBakwiH:2><vacanam:eka><level:1>
 upArjiwavAn	upArjiwavaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 upasarpAvaH	sqp1<upasarga:upa><prayogaH:karwari><lakAraH:lat><puruRaH:u><vacanam:xvi><paxI:parasmEpaxI><XAwuH:sqpa><gaNaH:BvAxiH><level:1>
-upaspqSan	upaspqSaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
+upaspqSan	spqS1<upasarga:upa><kqw_prawyayaH:Sawq_lat><XAwuH:spqSaz><gaNaH:wuxAxiH>upaspqSaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 upAsva	Asa1<upasarga:upa><prayogaH:karwari><lakAraH:lot><puruRaH:ma><vacanam:eka><paxI:AtmanepaxI><XAwuH:Asa><gaNaH:axAxiH><level:1>
 upasWApayanwi	RWA1<upasarga:upa><sanAxi_prawyayaH:Nic><prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:bahu><paxI:parasmEpaxI><XAwuH:RWA><gaNaH:BvAxiH><level:1>
 upasWApiwavAn	upasWApiwavaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>

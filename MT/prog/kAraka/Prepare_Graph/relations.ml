@@ -16,6 +16,7 @@ value relations_encodings = [
 	("karma",14);
 	("prayojakakarwA",15);
 	("prayojyakarwA",16);
+	("maXyasWakarwA",17);
 	("karaNam",18);
 	("sampraxAnam",19);
 	("apAxAnam",20);
