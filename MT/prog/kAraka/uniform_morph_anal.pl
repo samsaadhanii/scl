@@ -119,7 +119,9 @@ sub get_cat{
            $cat="kqw";
    } elsif($in =~ /<kqw_prawyayaH:.*<kqw_pratipadika:/) {
            $cat="kqw";
-   } elsif($wrd_ana =~ /<vargaH:sa-/) {
+   } elsif($wrd_ana =~ /<vargaH:SaUPa/) {
+           $cat="samAsa";
+   } elsif($wrd_ana =~ /<vargaH:sapUp/) {
            $cat="samAsa";
    } elsif($wrd_ana =~ /<vargaH:(nA|sarva|pUraNam|saMKyeyam|saMKyA)/) {
            $cat="sup";

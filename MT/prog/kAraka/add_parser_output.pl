@@ -113,8 +113,8 @@ while($in = <STDIN>){
         } else {$samAsa_pUrvapaxa = "";}
 	#print "s pU = $samAsa_pUrvapaxa\n";
         #print "w ana = $w_ana[6]\n";
-        $w_ana[7] =~ s/\/[a-zA-Z]+<vargaH:sa\-u\-pa\-[^>]+>[^\/]+<level:0>//g;
-        $w_ana[7] =~ s/^[a-zA-Z]+<vargaH:sa\-u\-pa\-[^>]+>[^\/]+<level:0>//g;
+        $w_ana[7] =~ s/\/[a-zA-Z]+<vargaH:SaUPa[^>]+>[^\/]+<level:0>//g;
+        $w_ana[7] =~ s/^[a-zA-Z]+<vargaH:SaUPa[^>]+>[^\/]+<level:0>//g;
         $w_ana[7] =~ s/^\///;
         if($samAsa_pUrvapaxa ne "") { print $samAsa_pUrvapaxa."-";}
         @mo_ana = split(/\//,$w_ana[7]);

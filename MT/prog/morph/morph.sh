@@ -31,8 +31,8 @@ export MY_PATH=$SCLINSTALLDIR/MT/prog
 
 #$MY_PATH/morph/word_morph.sh $INFILE $TMP_FILES_PATH/tmp_mo_all $TMP_FILES_PATH/tmp_kqw_analy_mo
 $MY_PATH/morph/word_morph.sh $SCLINSTALLDIR $LTPROCBIN  $TMP_FILES_PATH < $INFILE > $TMP_FILES_PATH/tmp_mo_all #$TMP_FILES_PATH/tmp_kqw_analy_mo
-$MY_PATH/morph/local_analysis/add_mo_local.pl $SCLINSTALLDIR $MY_PATH/morph/local_analysis/mo_ana.txt < $TMP_FILES_PATH/tmp_mo_all |\
-$MY_PATH/prune/prune.sh $SCLINSTALLDIR > $TMP_FILES_PATH/tmp_mo
+$MY_PATH/morph/local_analysis/add_mo_local.pl $SCLINSTALLDIR $MY_PATH/morph/local_analysis/mo_ana.txt < $TMP_FILES_PATH/tmp_mo_all  > /tmp/abc
+$MY_PATH/prune/prune.sh $SCLINSTALLDIR  < /tmp/abc > $TMP_FILES_PATH/tmp_mo
 
 $MY_PATH/morph/bin/join_split_wrds.pl < $TMP_FILES_PATH/tmp_mo_all | cut -f2 > $OUTFILE
 

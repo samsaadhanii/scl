@@ -89,6 +89,7 @@ aSanam	aSana<vargaH:nA><lifgam:napuM><viBakwiH:1><vacanam:eka><level:1>/aSana<va
 AsasAxa	sax1<upasarga:Af><prayogaH:karwari><lakAraH:lit><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:Saxlri><gaNaH:wuxAxiH><level:1>
 Asaxaw	sax1<prayogaH:karwari><lakAraH:lqf><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:SaxL><gaNaH:BvAxiH><level:1>
 AsAxya	Rax1<upasarga:Af><vargaH:avy><sanAxi_prawyayaH:Nic><kqw_prawyayaH:lyap><XAwuH:RaxL><gaNaH:BvAxiH><level:1>
+anumAnya	man2<upasarga:anu><vargaH:avy><sanAxi_prawyayaH:Nic><kqw_prawyayaH:lyap><XAwuH:RaxL><gaNaH:wanAxiH><level:1>
 asUyAmi	asUya<prayogaH:karwari><lakAraH:lat><puruRaH:u><vacanam:eka><paxI:parasmEpaxI><XAwuH:asUya><gaNaH:nAmaXAwu><level:1>
 asUyan	asU<kqw_prawyayaH:Sawq_lat><lifgam:puM><XAwuH:asU><gaNaH:kaNdvAxi><level:0>
 asUyanwi	asUya<prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:asUya><gaNaH:nAmaXAwu><level:1>
@@ -668,7 +669,6 @@ xApayiwvA	xAp1<vargaH:avy><kqw_prawyayaH:kwvA><XAwuH:xApa><gaNaH:curAxiH><level:
 XArayan	XArayaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka>
 XArayiwvA	Xq1<vargaH:avy><kqw_prawyayaH:kwvA><XAwuH:XqF><gaNaH:BvAxiH><level:1>
 xarSanaH	xarSana<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
-xarSayAmAsa	xqS1<prayogaH:karwari><sanAxi_prawyayaH:Nic><lakAraH:lit><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:xqS><gaNaH:BvaxiH><level:1>
 xarSayan	xqS1<kqw_prawyayaH:Sawq_lat><XAwuH:xqSizr><gaNaH:BvAxiH>xarSayaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 xarSayiwum	xqS1<vargaH:avy><kqw_prawyayaH:wumun><XAwuH:xqSir><gaNaH:BvAxiH><level:1>
 xarSayiwvA	xqS1<vargaH:avy><kqw_prawyayaH:kwvA><XAwuH:xqSr><gaNaH:BvAxiH><level:1>
