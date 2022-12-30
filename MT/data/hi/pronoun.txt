@@ -1,9 +1,8 @@
 anya,puM,anya^xUsarA^Binna
 anyA,swrI,anya
 asmax,a,mEM
-Bavaw,napuM,Apa
 Bavaw,puM,Apa
-Bavaw,swrI,Apa
+BavawI,swrI,Apa
 ewax,napuM,yaha
 ewax,puM,yaha
 ewax,swrI,yaha
