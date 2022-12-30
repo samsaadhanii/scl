@@ -59,6 +59,8 @@ value karaNa_XAwu_list = [
 "kq3";
 "kqw1";
 "kRal1";
+"kRuB2";
+"kRuB3";
 "krI1";
 "krId1";
 "kuT1";
@@ -75,6 +77,7 @@ value karaNa_XAwu_list = [
 "ni_banX1";
 "ni_vq1";
 "nis_vA1";
+"ni_han1";
 "ni_yam1";
 "nqw1";
 "pA1";

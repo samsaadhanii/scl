@@ -387,6 +387,7 @@ value sakarmaka_XAwu_list = [
 "aBi_as3";
 "aBi_asUya";
 "aBi_ava_hq1";
+"aBi_gam1";
 "aBi_han1";
 "aBi_jFA1";
 "aBi_kruX1";
@@ -457,6 +458,7 @@ value sakarmaka_XAwu_list = [
 "anu_mA1";
 "anu_mAn1";
 "anu_man1";
+"anu_man2";
 "anu_pAl1";
 "anu_pra_Ap1";
 "anu_smq1";

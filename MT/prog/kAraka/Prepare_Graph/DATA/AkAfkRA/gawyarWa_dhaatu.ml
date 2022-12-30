@@ -6,6 +6,7 @@ value gawyarWa_XAwu_list = [
 "Af_viS1";
 "ZZpra_vqw1";
 "anu_man1";
+"anu_man2";
 "anu_pAl1";
 "anu_xAv1";
 "awi_i1";
