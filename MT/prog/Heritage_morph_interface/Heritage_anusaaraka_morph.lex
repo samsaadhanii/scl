@@ -139,8 +139,9 @@ morph: 	{}
 
 \<pr[ ]gana=[0-9]+\/\>	{get_gana(yytext+9,gana);strcpy(gaNa[count],gana); strcpy(lakAraH[count],"<lakAraH:lat>");}
 \<imp[ ]gana=[0-9]+\/\>	{get_gana(yytext+10,gana);strcpy(gaNa[count],gana);strcpy(lakAraH[count],"<lakAraH:lot>");}
-\<aor[ ]gana=[0-9]+\/\>	{get_gana(yytext+10,gana);strcpy(gaNa[count],gana);strcpy(lakAraH[count],"<lakAraH:luf>");}
-\<inj[ ]gana=[0-9]+\/\>	{get_gana(yytext+10,gana);strcpy(gaNa[count],gana);strcpy(lakAraH[count],"<luf>");}
+\<opt[ ]gana=[0-9]+\/\>	{get_gana(yytext+10,gana);strcpy(gaNa[count],gana);strcpy(lakAraH[count],"<lakAraH:viXilif>");}
+\<aor[ ]gana=[0-9]+\/\>	{strcpy(gaNa[count],"X");strcpy(lakAraH[count],"<lakAraH:luf>");}
+\<inj[ ]gana=[0-9]+\/\>	{strcpy(gaNa[count],"X");strcpy(lakAraH[count],"<lakAraH:luf>");}
 \<prps\/\>	{strcpy(gaNa[count],"X");strcpy(lakAraH[count],"<lakAraH:lat>"); strcpy(prayogaH[count],"<prayogaH:karmaNi>");strcpy(paxI[count],"<paxI:AwmanepaxI>");}
 \<impps\/\>	{strcpy(gaNa[count],"X");strcpy(lakAraH[count],"<prayogaH:karmaNi><lakAraH:lot>");strcpy(paxI[count],"<paxI:AwmanepaxI>");}
 \<optps\/\>	{strcpy(gaNa[count],"X");strcpy(lakAraH[count],"<prayogaH:karmaNi><lakAraH:viXilif>");strcpy(paxI[count],"<paxI:AwmanepaxI>");}
