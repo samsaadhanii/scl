@@ -94,11 +94,11 @@ uraHpraBqwi	(uras|sarpis|upAnah|pumAn|anadvAn|payaH|nOH|lakRmIH|xaXimaXu|SAlI|SA
 ^Svan{sup}[ ]go{sup}[ ].*			|
 ^Svan{sup}[ ]upa[ ].*			|
 ^upa[ ]Svan{sup}[ ].*	{samAsAnwa_cgi_interface("NULL","ac","अचतुरविचतुरसुचतुरस्त्रीपुंसधेन्वनडुहर्क्सामवाङ्मनसाक्षिभ्रुवदारगवोर्वष्ठीवपदष्ठीवनक्तन्दिवरात्रिन्दिवाहर्दिवसरजसनिःश्रेयसपुरुषायुषद्व्यायुषत्र्यायुषर्ग्यजुषजातोक्षमहोक्षवृद्धोक्षोपशुनगोष्ठष्वाः 5.4.77"); }
-^{word}[ ]akRi{sup}[ ].*		{
+^{word}[ ]akRi\+{sup}[ ].*		{
 		 	          sprintf(ques,"किम् अक्षिशब्दः अदर्शनार्थे वर्तते(Y/N)?");
 		    	          samAsAnwa_cgi_interface(ques,"ac","अक्ष्णोऽदर्शनात् 5.4.76");
 		                } 
-^akRi{sup}[ ]{word}[ ].*		{
+^akRi\+{sup}[ ]{word}[ ].*		{
 		 	          sprintf(ques,"किम् अक्षिशब्दः अदर्शनार्थे वर्तते(Y/N)?");
 		    	          samAsAnwa_cgi_interface(ques,"ac","अक्ष्णोऽदर्शनात् 5.4.76");
 		                } 
