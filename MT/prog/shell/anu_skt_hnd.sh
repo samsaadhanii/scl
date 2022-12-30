@@ -103,9 +103,9 @@ wsd () {
 
 hnd_gen () {
     $ANU_MT_PATH/interface/add_colorcode.pl < $temp_files_path/$fbn.out |\
-    $ANU_MT_PATH/chunker/lwg.pl > /tmp/111
-    $ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $ANU_MT_PATH/../data hi < /tmp/111 > /tmp/222
-    $ANU_MT_PATH/map/lwg_avy_avy.pl $SCLINSTALLDIR $ANU_MT_PATH/../data hi  < /tmp/222 |\
+    $ANU_MT_PATH/chunker/lwg.pl |\
+    $ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $ANU_MT_PATH/../data hi |\
+    $ANU_MT_PATH/map/lwg_avy_avy.pl $SCLINSTALLDIR $ANU_MT_PATH/../data hi  |\
     $ANU_MT_PATH/hn/sent_gen/agreement.pl $SCLINSTALLDIR $ANU_MT_PATH/../data $ANU_MT_PATH/hn/sent_gen  |\
     $ANU_MT_PATH/hn/sent_gen/call_gen.pl $SCLINSTALLDIR  |\
     $ANU_MT_PATH/interface/modify_mo_for_display.pl $SCLINSTALLDIR  > $temp_files_path/ttt
@@ -176,7 +176,9 @@ else
 
     fi # If Morph = UoHyd ends here
     `date >> $temp_files_path/err`;
+    cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.before_parse
     shaabdabodha
+    cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.after_parse
     `date >> $temp_files_path/err`;
 
   fi  # PARSE != AVAILABLE ends here

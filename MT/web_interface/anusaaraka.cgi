@@ -100,25 +100,26 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 	      $cpid = &get_curr_id;
       }
 
-      if ($tlang eq "Hindi") { $prog = "anu_skt_hnd.sh"; $lang = "hi";}
-      elsif ($tlang eq "Telugu") { $prog = "anu_skt_tlg.sh"; $lang = "te";}
+      # Default values
+      $prog = "anu_skt_hnd.sh"; $lang = "hi";
+      if ($tlang eq "Telugu") { $prog = "anu_skt_tlg.sh"; $lang = "te";}
       elsif ($tlang eq "Marathi") { $prog = "anu_skt_mrt.sh"; $lang = "mr";}
 
       if($morph eq "GH_manual") {
          $sentences =~ s/\.//;
          $sentences =~ s/ /\+/g;
-	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=deva\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=b&pipeline=f\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI";
+	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=deva\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=b&pipeline=f&fmode=n\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI";
          system($cmd);
       } else {
          if($morph eq "GH_auto") {
          $sentences =~ s/\.//;
          $sentences =~ s/ /\+/g;
-	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=deva\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=f&pipeline=t\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI > /tmp/yyy ; tail -1 /tmp/yyy | $GlblVar::SCLINSTALLDIR/MT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $pid";
+	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=deva\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=f&pipeline=t&fmode=w\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI > /tmp/yyy ; tail -1 /tmp/yyy | $GlblVar::SCLINSTALLDIR/MT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $pid";
          system($cmd);
 
          if($display eq "") { $display = "DEV";}
 
-         system("$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/$prog.sh $GlblVar::CGIDIR/scl tmp_in${pid}/in$pid $GlblVar::TFPATH $lang $display $morph Full $text_type 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
+         system("$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/$prog $GlblVar::CGIDIR/scl tmp_in${pid}/in$pid $GlblVar::TFPATH $lang $display $morph Full $text_type 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
          }  else {
 
          open (TMP,">$GlblVar::TFPATH/tmp_in${pid}/in$pid");
