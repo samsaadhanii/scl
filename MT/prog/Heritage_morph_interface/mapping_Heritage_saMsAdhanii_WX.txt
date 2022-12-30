@@ -963,7 +963,7 @@ BvAxiH	JarJaz	sanwarjane	pa.pa	-	JarJ1	JarJ
 BvAxiH	JarJaz	warjane	pa.pa	-	JarJ1	JarJ
 BvAxiH	pisqz	gawO	pa.pa	-	pis1	pis
 BvAxiH	pesqz	gawO	pa.pa	-	pes1	pes
-BvAxiH	hasez	hasane	pa.pa	has	has2	has
+BvAxiH	hasez	hasane	pa.pa	has	has1	has
 BvAxiH	NiSaz	samAXO	pa.pa	-	NiS1	niS
 BvAxiH	miSaz	roRe	pa.pa	-	miS1	miS
 BvAxiH	miSaz	Sabxe	pa.pa	-	miS1	miS
@@ -1449,7 +1449,6 @@ BvAxiH	Garbaz	gawO	pa.pa	-	Garb1	Garb
 BvAxiH	Gasiz	karaNe	A.pa	-	Gas2	GaMs
 BvAxiH	glUhUz	grahaNe	A.pa	-	glUh1	glUh
 BvAxiH	hagez	saMvaraNe	pa.pa	-	hag1	hag
-BvAxiH	hasaz	Sabxe	pa.pa	-	has1	has
 BvAxiH	i	gawO	pa.pa	-	i3	i
 BvAxiH	jaBaz	gAwravinAme	A.pa	-	jaB3	jaB
 BvAxiH	JarCaz	pariBARaNe	pa.pa	-	JarC1	JarC
@@ -2588,7 +2587,7 @@ curAxiH	xasiz	xarSane	A.pa	-	xas3	xaMs
 curAxiH	dapaz	safGAwe	A.pa	-	dap1	dap
 curAxiH	dipaz	safGAwe	A.pa	-	dip4	dip
 curAxiH	wawriz	kutumbaXAraNe	A.pa	-	wawr1	wanwr
-curAxiH	mawriz	gupwaBARaNe	A.pa	-	mawr1	manwr
+curAxiH	mawriz	gupwaBARaNe	A.pa	manwr	mawr1	manwr
 curAxiH	spaSaz	grahaNe	A.pa	spaS#1	spaS2	spaS
 curAxiH	spaSaz	saMSleRaNe	A.pa	spaS#1	spaS2	spaS
 curAxiH	spaSaz	SleRaNe	A.pa	spaS#1	spaS2	spaS
