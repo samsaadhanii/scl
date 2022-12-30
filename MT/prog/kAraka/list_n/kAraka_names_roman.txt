@@ -35,9 +35,9 @@ anyataraḥ 34
 sup_anyataraḥ 35
 viśeṣaṇam 36
 abhedaḥ 37
-hetuḥ 38
+ṣaṣṭhīsambandhaḥ 38
 hetuḥ5 70
-ṣaṣṭhīsambandhaḥ 39
+hetuḥ 39
 prayojanam1 40
 prayojanam 41
 prayojanam_dyotakaḥ 42
@@ -75,6 +75,7 @@ udgāravācakaḥ 85
 svāmī 86
 adhyāhṛtakriyākarma 87
 aṅgavikāraḥ 88
+utprekṣā_dyotakaḥ 89
 'avadhiḥ 91
 sahārthaḥ 92
 vinārthaḥ 93
