@@ -21,26 +21,33 @@
 
 
 sub modify_mo{
- my($in) = @_;
- 
- if($in) {
+ my($xin) = @_;
+ my($in,@in);
+ #print "\nB IN = $xin"; 
+ if($xin) {
   #$in =~ s/^([^\/]+)(>[a-zA-Z]+)(<[^\/]+>)/<\@a \@mouseover="\@Tip($1)">$2<\/\@a>$3/;
   #$in =~ s/\/([^\/]+)(>[a-zA-Z]+)(<[^\/]+>)/\/<\@a \@mouseover="\@Tip($1)">$2<\/\@a>$3/;
+  @in = split(/-/,$xin);
+  $ans = "";
+  foreach $in (@in) {
+   #print "\nB III = $in"; 
   $in =~ s/^([^\/]+>)([a-zA-Z]+)(<[^\/]+>)/$2$3($1)/;
   $in =~ s/\/([^\/]+>)([a-zA-Z]+)(<[^\/]+>)/\/$2$3($1)/g;
+  #print "\nYYYY = $in\n";
 
-  if($in =~ /^<word:([^>]+\-)/) {
-    $pUrvapaxa = $1;
-    $in =~ s/^<word:[^>]+>//g;
-  } elsif($in =~ /^([^><]+\-)/) {
-    $pUrvapaxa = $1;
-  } else {
-    $pUrvapaxa = "";
-  }
+ # if($in =~ /^<word:([^>]+\-)/) {
+ #   $pUrvapaxa = $1;
+ #   $in =~ s/^<word:[^>]+>//g;
+ # } elsif($in =~ /^([^><]+\-)/) {
+ #   $pUrvapaxa = $1;
+ # } else {
+ #   $pUrvapaxa = "";
+ # }
 
-  $in =~ s/^([^\/]+>)(<kqw_pratipadika:[a-zA-Z]+>)(<[^\/]+>)/$pUrvapaxa$2$3($1)/;
-  $in =~ s/\/([^\/]+>)(<kqw_pratipadika:[a-zA-Z]+>)(<[^\/]+>)/\/$pUrvapaxa$2$3($1)/g;
+  $in =~ s/^([^\/]+>)(<kqw_pratipadika:[a-zA-Z]+>)(<[^\-\/]+>)/$2$3($1)/;
+  $in =~ s/([\-\/])([^\/]+>)(<kqw_pratipadika:[a-zA-Z]+>)(<[^\-\/]+>)/$1$3$4($2)/g;
 
+  #print "\nXXXX = $in\n";
   $in =~ s/>-/>}-/g;
   $in =~ s/<vargaH:avy>/ avya/g;
   $in =~ s/<kqw_pratipadika:([^>]+)>/$1/g;
@@ -48,6 +55,7 @@ sub modify_mo{
   $in =~ s/<vargaH:saMKyeyam>/ saMKyeyam/g;
   $in =~ s/<vargaH:saMKyA>/ saMKyA/g;
   $in =~ s/<vargaH:sarva>/ sarvanAma/g;
+  $in =~ s/<vargaH:sapUpa><lifgam:[^>]+>//g;
   $in =~ s/<vargaH:nA_[^>]+>/<vargaH:nA>/g;
   #$in =~ s/<vargaH:[^>]+>//g; # nA is needed for morph display
   $in =~ s/<lifgam:a>/ /g;
@@ -67,6 +75,7 @@ sub modify_mo{
   $in =~ s/<vacanam:([^>]+)>/ $1/g;
   $in =~ s/<rel_nm:([^>]*)>//g;
   $in =~ s/<relata_pos:[0-9]*>//g;
+  $in =~ s/<XAwuH:([^>]+)>/ $1/g;
   #print "\nINPUT = $in\n";
   if ($in !~ /<upasarga:X>/ ) {
     $in =~ s/\/([^<]+-)?([^\-<]+)<upasarga:([a-zA-Z_]+)>/\/$1$3_$2\{/g;
@@ -83,14 +92,16 @@ sub modify_mo{
   $in =~ s/ [ ]+/ /g;
   $in =~ s/\$//g;
   $in =~ s/<level:[0-4]>//g;
-  $in =~ s/<XAwuH:([^>]+)>/ $1/g;
 #  $in =~ s/Y/</g;
 #  $in =~ s/Z/>/g;
   $in =~ s/<rt:([^>]+)>/$1/g;
   $in =~ s/{TITLE}/<TITLE>/g;
   $in =~ s/{\/TITLE}/<\/TITLE>/g;
   $in =~ s/\/\t/\t/g;
-  $in;
+  $ans .= "-". $in;
+  }
+  $ans =~ s/^-//;
+  $ans;
  }
 }
 1;
