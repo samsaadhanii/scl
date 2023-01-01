@@ -37,4 +37,4 @@ $prev_ana = $ana;
 }
 if($prev_wrd) { 
    print $prev_wrd,"=",$prev_ana,"\n";
-} else { print "\n";}
+}# else { print "\n";}

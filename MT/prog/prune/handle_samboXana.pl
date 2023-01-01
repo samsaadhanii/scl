@@ -115,5 +115,5 @@ print STDERR "store = ",$store,"\n";
 for($i=0;$i<=$#mo_ana;$i++){
     print $mo_ana[$i],"\n";
 }
-print "\n";
+#print "\n";
 }

@@ -24,9 +24,11 @@ export BIN_PATH=$SCLINSTALLDIR/MT/prog/prune
 
 #wvam mawwaH SqNu; here we need wasil analysis
 #$BIN_PATH/rm_wasil.pl  |\
+
 $BIN_PATH/handle_special_words_repetitive.pl  |\
 $BIN_PATH/rm_duplicate_ans.pl  |\
-$BIN_PATH/rm_non_apte.pl $SCLINSTALLDIR $BIN_PATH/default_gen.txt $BIN_PATH/../morph/rUDa_kqw.txt  |\
+$BIN_PATH/rm_non_apte.pl $SCLINSTALLDIR $BIN_PATH/default_gen.txt $BIN_PATH/../morph/rUDa_kqw.txt |\
+
 #$BIN_PATH/retain_only_inflectional_if_exists.pl  |\
 #Above line was commented. Uncommented by Amba on 28 Feb 2012
 #test sent: praBAwe ahaM rAjasaBAm gawvA kA vArwA (aswi) iwi paSyAmi
@@ -36,8 +38,11 @@ $BIN_PATH/rm_non_apte.pl $SCLINSTALLDIR $BIN_PATH/default_gen.txt $BIN_PATH/../m
 #When this is uuncommented, sawi sapwami does not work well
 #rAme vanam gacCawi sawi sIwA anusarawi
 # This is again uncommented, since now we have kqw analysis for all words. So all those analysis which are rare need to bbe deleted. For example, in praBawe, we need to delete pra_BA1 analysis.
-$BIN_PATH/remove_derived_prAtipadikas.pl  |\
+
+$BIN_PATH/remove_derived_prAtipadikas.pl |\
+
 #Earlier we added the kqw analysis later. Now derivational analysis is produced simultaneously with the inflectional morph analysis. Hence this programme is removed.
+
 $BIN_PATH/remove_derivational_analysis_of_rUDa_kqws.pl $BIN_PATH/../morph/rUDa_kqw.txt  |\
 $BIN_PATH/remove_inflectional_analysis_of_derived_words.pl  |\
 $BIN_PATH/rm_saMKyA.pl |\
@@ -48,8 +53,10 @@ $BIN_PATH/handle_sawi_sapwami.pl |\
 $BIN_PATH/handle_yaw_waw.pl |\
 $BIN_PATH/remove_wal_ka.pl |\
 $BIN_PATH/rm_xvi.pl |\
+
 ## commented the below line, since it did not parse wena kqwam properly, as kqxanwa analysis of kqw were removed
 #$BIN_PATH/remove_derivational_kqw_ana.pl < /tmp/1 |\
+
 $BIN_PATH/prioritize.pl |\
 perl -pe 's/=\//=/; s/^\///; s/\/\//\//g;' 2> /dev/null
 
