@@ -39,6 +39,7 @@ if($in =~ /./) {
  for($i=0;$i<$#in;$i++){
    $in = &modify_mo($in[$i]);
    $in = &clean_other_info($in);
+   $in =~ s/ZZ/--/g;
    print $in,"\t";
  }
    $in = &modify_mo($in[$#in]);
