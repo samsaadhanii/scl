@@ -1520,14 +1520,15 @@ e.g. saH prAwaH BramaNAya gacCawi -- Amruta   14 July 2020
             else []
        | 7  -> if (upasarga2="aXi" && (rt2="SIf1" || rt2="sWA1"))
                then if member_of word1 kAlAXikaraNas (* praBAwe vEkuNTam wiRTawi *)
-               then [ Relation (id1, mid1, "kAlAXikaraNam", id2, mid2,"4.28",d12) ]
-               else [] 
+                    then [ Relation (id1, mid1, "kAlAXikaraNam", id2, mid2,"4.28",d12) ]
+                    else [] 
                else if (rt2="gam1" || rt2="SAs1" || rt2="syanx1")
-               then if member_of word1 kAlAXikaraNas (* praBAwe vEkuNTam wiRTawi *)
-               then [ Relation (id1, mid1, "kAlAXikaraNam", id2, mid2,"4.29",d12) ]
-               else if (kqw1 = 0) then [ Relation (id1, mid1, "aXikaraNam", id2, mid2,"4.30",d12) ]
-               else []
-               else match m1 with
+                    then if member_of word1 kAlAXikaraNas (* praBAwe vEkuNTam wiRTawi *)
+                         then [ Relation (id1, mid1, "kAlAXikaraNam", id2, mid2,"4.29",d12) ]
+                         else if (kqw1 = 0) then [ Relation (id1, mid1, "aXikaraNam", id2, mid2,"4.30",d12) ]
+                              else []
+                    else if word1="maXye" then []
+                         else match m1 with
                [  Kqw (id1,mid1,word1,_,_,_,kqw_prawyayaH1,_,_,_,rt1,_,_,_,viBakwiH1,_,_) ->
                    if not (kqw_prawyayaH1="Sawq_lat" 
                         || kqw_prawyayaH1="SAnac" 
@@ -2223,11 +2224,11 @@ value rlavy_viSeRaNam m1 m2 text_type = match m2 with
   | Kqw (id2,mid2,_,_,_,_,_,_,_,_,rt2,_,_,lifgam2,viBakwiH2,vacanam2,_)
   | WaxXiwa (id2,mid2,_,rt2,_,_,_,lifgam2,viBakwiH2,vacanam2,_) -> 
      match m1 with
-     [ Avy (id1,mid1,word1,_,_,uwwarapaxa1,_) ->
+     [ Avy (id1,mid1,word1,_,pUrvapaxa1,uwwarapaxa1,_) ->
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
        (*if id1=previous id2 && member_of word1 avy_viSeRaNam_list*)
              (*  changed to id1 < id2 for handling kimapi safkRipwam SAswram *)
-       if uwwarapaxa1="iva" && id1 = id2-1
+       if uwwarapaxa1="iva" &&  not (pUrvapaxa1 = uwwarapaxa1) && id1 = id2-1
        then [ Relation (id1,mid1,"upamAnam_rahiwa_upamAna_xyowakaH",id2,mid2,"18.1",d12)]
        else
        if id1 < id2 && member_of word1 avy_viSeRaNam_list
@@ -2302,7 +2303,7 @@ value rlnirXAraNam m1 m2 text_type = match m1 with
         [ Sup (id2,mid2,_,rt2,_,_,lifgam2,viBakwiH2,vacanam2,_)
         | Kqw (id2,mid2,_,_,_,_,_,_,_,_,rt2,_,_,lifgam2,viBakwiH2,vacanam2,_) ->
            if  ((rt2 = (get_assoc rt1 nirXAraNa_list)) 
-                 || ((rt2 = "kiFciw" || rt2="vara" || rt2="SreRTa" || rt2="maXya"
+                 || ((rt2 = "kiFciw" || rt2="vara" || rt2="SreRTa" (* || rt2="maXya" -- How can maXye be nirXAraNa? *)
                      || member_of (rt1^" "^rt2) amarakosha_jAwi
                      || member_of rt2 sambanXavAcI)  (* yogyawA *)
                     && lifgam1=lifgam2))
@@ -2446,6 +2447,7 @@ value rlupapaxa m1 m2 text_type = match m2 with
                    "upari" | "upariRtAw" | "paScAw" | "uwwarAw" | "aXarAw" | 
                    "xakRiNAw" | "uwwareNa" | "aXareNa" | "xakRiNena" | 
                    "puraH" | "aXaH" | "avaH" | "avaswAw" | "samakRam" |
+                    "maXye" (* added by amba *) | 
                     "xakRiNAhi" -> (* added by amba *)
                        [Relation (id1,mid1,"upa_apekRA",id2,mid2,"25.18",d12)]
  
@@ -2527,7 +2529,7 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
          "anwikam" | "anwikAw" | "anwike" | "anwikena" | "anwikAn" | "prAcI" | "prAk" | "pUrvA" | "pUrvaH" | 
          "prAFca" | "prawyaFca" | "prawyak" | "avAcI" | "avAc" |"prawIcI" | "uxac" | "uxak" | "uxIcI"|
          "samIpam" | "samIpAw" | "samIpe" | "samIpena" | "uwwaram" | "paScimA" | "paScimam" | "paScimAn" | 
-	 "uwware" | "viprakqRtam" | "viprakqRtAw" | "viprakqRtA" | 
+	 "uwware" | "viprakqRtam" | "viprakqRtAw" | "viprakqRtA" |  "maXye" | 
          "viprakqRte" | "viprakqRtena" | "xakRiNam" |"xakRiNAn" | "uwwarAn" | "xakRiNe" | "samakRam" | 
          "xUram" | "xUrAw" | "xUre" | "xUrA" | "xUreNa" | "nikatam" | "nikatAw" | "nikatena" | "nikate" | "sahiwaH" ->
         match m2 with 
@@ -2617,7 +2619,7 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
 	   | "aXaswAw" | "puraswAw" | "paraswAw" | "avaraswAw" | "aXaH" |
              "uwwarawaH" | "xakRiNawaH" | "avaH" | "parawaH" | 
              "avarawaH" | "puraH" | "purawaH" | "pqRTawaH" | "upari" | "upariRtAw" | "paScAw" | 
-             "uwwarAw" | "aXarAw" | "xakRiNAw"   ->
+             "uwwarAw" | "aXarAw" | "xakRiNAw" | "maXye"  ->
              match m2 with 
              [ Wif (id2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_,_,_,_,_)
              | Kqw (id2,mid2,_,rt2,upasarga2,_,_,_,_,_,_,_,_,_,_,_,_)
