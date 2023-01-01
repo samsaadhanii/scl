@@ -22,18 +22,19 @@ $sandhied_words = <TMP>;
 chomp($sandhied_words);
 close(TMP);
 @sandhied_words = split(/ /,$sandhied_words);
+for ($i=$#sandhied_words+1; $i < 30; $i++) { $sandhied_words[$i] = "ZZ";}
 
 $i=0; $ls = 0; $lw = 0;
 while($in = <STDIN>){
    if($in =~ /^$/) { 
       print $in;
    } else {
-      ($index,$ltag,$word,$rtag) = split(/\t/,$in);
+      ($index,$ltag,$word,$rtag) = split(/\t/,$in,4);
 #      if (abs($lw-$ls) < 2){
           $word =~ /^(..)/;
           $fs = $1;
           if ($sandhied_words[$i] =~ /^$fs/) { $word_s = $sandhied_words[$i]; $ls = length($word_s); $lw = length($word);$i++;} 
-          else {$word_s = "-"; $lw += length($word);}
+          else {$word_s = "ZZ"; $lw += length($word);}
           print $index,"\t",$ltag,"\t",$word,"\t",$word_s,"\t",$rtag;
 #      } else {
 #         $word_s = ""; $lw += length($word);

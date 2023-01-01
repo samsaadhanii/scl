@@ -61,10 +61,10 @@ set_tmp_path () {
 
 format () {
       $ANU_MT_PATH/format/format.sh $SCLINSTALLDIR < $TMP_DIR_PATH/$FILE_NM > $temp_files_path/$fbn.out
-	cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.orig
 }
 
 sandhi_splitter () {
+      cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.orig
       $ANU_MT_PATH/sandhi_splitter/copy_field.pl  $temp_files_path/sandhied_$fbn < $temp_files_path/$fbn.out.orig > $temp_files_path/$fbn.out
 }
 
@@ -124,10 +124,10 @@ hnd_gen () {
    ## Temporary commented. Sanal has to fix the programme.
    #$MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py -i $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv -s $SCLINSTALLDIR -t hi
    #
-   cut -f1 $temp_files_path/table.tsv > /tmp/1
-   cut -f2 $temp_files_path/table.tsv > /tmp/2
-   cut -f4- $temp_files_path/table.tsv > /tmp/3
-   paste /tmp/1 /tmp/2 /tmp/1 /tmp/3 > $temp_files_path/anvaya.tsv
+   cut -f1 $temp_files_path/table.tsv > $temp_files_path/1
+   cut -f2 $temp_files_path/table.tsv > $temp_files_path/2
+   cut -f4- $temp_files_path/table.tsv > $temp_files_path/3
+   paste $temp_files_path/1 $temp_files_path/2 $temp_files_path/1 $temp_files_path/3 > $temp_files_path/anvaya.tsv
    $my_converter < $temp_files_path/table.tsv > $temp_files_path/table_outscript.tsv
    $dev_converter < $temp_files_path/table.tsv > $temp_files_path/table_dev.tsv
    $my_converter < $temp_files_path/anvaya.tsv > $temp_files_path/anvaya_outscript.tsv
@@ -168,18 +168,22 @@ else
     if [ $MORPH = "UoHyd" ] ; then
 
       format
-      #cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.orig
       sandhi_splitter
-    `date >> $temp_files_path/err`;
+    #`date >> $temp_files_path/err`;
       morph
-    `date >> $temp_files_path/err`;
+    #`date >> $temp_files_path/err`;
 
     fi # If Morph = UoHyd ends here
-    `date >> $temp_files_path/err`;
+
+    if [ $MORPH = "GH_auto" ] ; then
+      sandhi_splitter
+    fi
+
+    #`date >> $temp_files_path/err`;
     cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.before_parse
     shaabdabodha
     cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.after_parse
-    `date >> $temp_files_path/err`;
+    #`date >> $temp_files_path/err`;
 
   fi  # PARSE != AVAILABLE ends here
   anaphora
