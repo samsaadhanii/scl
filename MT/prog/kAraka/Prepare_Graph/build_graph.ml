@@ -849,7 +849,7 @@ IVf	D.1      	3           3          		1 2       (prayojya karwA is anaBihiwa; h
 IVg	D.2      	3           3          		2 1       (prayojya karwA is anaBihiwa; hence wqwIyA)
 
 *) 
-value rlwifkarwA_karma m1 m2 text_type = match m2 with
+value wifkarwA_karma m1 m2 text_type = match m2 with
   [ Wif (id2,mid2,_,rt2,_,_,upasarga2,sanAxiH2,prayogaH2,_,puruRaH2,vacanam2,_,_,_,_) ->
      match m1 with
      [ WaxXiwa (id1,mid1,word1,rt1,pUrvapaxa1,uwwarapaxa1,_,lifgam1,viBakwiH1,vacanam1,_)
@@ -1028,6 +1028,22 @@ value rlwifkarwA_karma m1 m2 text_type = match m2 with
   | _ -> []
   ]
   ;
+
+value rlwifkarwA_karma m1 m2 text_type = match m2 with
+  [ Wif (id2,mid2,_,rt2,_,_,upasarga2,sanAxiH2,prayogaH2,_,puruRaH2,vacanam2,_,_,_,_) ->
+     match m1 with
+     [ WaxXiwa (id1,mid1,word1,rt1,pUrvapaxa1,uwwarapaxa1,_,lifgam1,viBakwiH1,vacanam1,_)
+     | Sup (id1,mid1,word1,rt1,pUrvapaxa1,uwwarapaxa1,lifgam1,viBakwiH1,vacanam1,_) -> 
+		wifkarwA_karma m1 m2 text_type
+     | Kqw (id1,mid1,word1,_,_,_,kqw_prawyayaH1,_,_,_,rt1,pUrvapaxa1,uwwarapaxa1,lifgam1,viBakwiH1,vacanam1,_) ->
+		if not (kqw_prawyayaH1 = "wavyaw" || kqw_prawyayaH1 = "anIyar")
+		then wifkarwA_karma m1 m2 text_type
+		else []
+     | _ -> []
+     ]
+  | _ -> []
+  ]
+;
 
 (* To add
 
@@ -1395,9 +1411,20 @@ Counter example: sarva-BUwa-hiwe rawAH *)
           | "Sawq_lat" 
           | "Sawq_lqt" ->  let rel = handle_sp_compounds id1 mid1 id2 mid2 rt1 word1 pUrvapaxa1 uwwarapaxa1 lifgam1 in
 	    if (not (rel=[])) then rel 
-            else if viBakwiH1=2 && (members_of rt2 upasarga2 sakarmaka_verbs) 
-            then [ Relation (id1,mid1,"karma",id2,mid2,"3.54",d12)]
-            else []
+            else if viBakwiH1=2 
+                 &&  (members_of rt2 upasarga2 xvikarmaka1
+                      || members_of rt2 upasarga2 xvikarmaka1
+                      || members_of rt2 upasarga2 shabxakarma_verbs
+                      || members_of rt2 upasarga2 gawyarWa_verbs
+                      || members_of rt2 upasarga2 prawyavasAnArWa_verbs
+                      || members_of rt2 upasarga2 buxXyarWa_verbs)
+            then [ Relation (id1,mid1,"karma",id2,mid2,"3.54",d12)
+                 ; Relation (id1,mid1,"prayojyakarwA",id2,mid2,"3.55",d12)]
+            else if viBakwiH1=2 && (members_of rt2 upasarga2 sakarmaka_verbs || members_of rt2 upasarga2 akarmaka_verbs)
+                 then [ Relation (id1,mid1,"karma",id2,mid2,"3.56",d12)]
+                 else if viBakwiH1=3 && (members_of rt2 upasarga2 sakarmaka_verbs) 
+                      then [ Relation (id1,mid1,"prayojya_karwA",id2,mid2,"3.57",d12)]
+                      else []
           | _ ->  []
           ]
      else []
@@ -1970,7 +1997,7 @@ value wumun id1 id2 mid1 mid2 kqw1 rt2 upasarga2 viBakwiH2 text_type rl1 rl2 rl3
       then if (rt2="iR2" || rt2="icCuka") 
            then [ Relation (id1,mid1,"iRkarma",id2,mid2,rl1,d12)] 
            else if (members_of rt2 upasarga2 shakAxi)
-            then [ Relation (id1,mid1,"sahAyakakriyA",id2,mid2,rl2,d12)]
+            then [ Relation (id2,mid2,"sahAyakakriyA",id1,mid1,rl2,d12)]
             else if not (rt2="as2") then [ Relation (id1,mid1,"prayojanam1",id2,mid2,rl3,d12)]
                  else []
       else []
@@ -2187,6 +2214,8 @@ gacCan bAlakaH wqNam spqSawi / bAlakaH gacCan wqNam spqSawi *)
        else if prose_order id1 id2 text_type
          && not (kqw_prawyayaH1="Sawq_lat")
          && not (kqw_prawyayaH1="lyut")
+         && not (kqw_prawyayaH1="wavyaw")
+         && not (kqw_prawyayaH1="anIyar")
        then [ Relation (id1,mid1,"viSeRaNam",id2,mid2,"17.7",d12)]
        else []
        else []
