@@ -31,6 +31,7 @@ value karaNa_XAwu_list = [
 "Barws1";
 "baxXa";
 "Bram2";
+"Bix1";
 "BU1";
 "BUR1";
 "BUR2";
