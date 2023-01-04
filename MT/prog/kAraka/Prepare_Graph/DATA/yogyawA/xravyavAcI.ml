@@ -524,6 +524,7 @@ value xravyavAci_list = [
 "huwaBuj";
 "hyas";
 "iRa";
+"iRu";
 "idA";
 "ifga";
 "ilA";
