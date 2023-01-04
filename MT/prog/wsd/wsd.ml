@@ -5,6 +5,11 @@ module Gram = Camlp4.PreCast.MakeGram Bank_lexer
 ;
 open Bank_lexer.Token
 ;
+
+open Amuurwa;
+open Muurwa;
+open Kaalavaaci;
+
 value morphs = Gram.Entry.mk "morphs"
 ;
 
@@ -481,6 +486,37 @@ value lvc_list = [
 ]
 ;
 
+value rec populate_from trie = fun
+   [ [] -> trie.val
+   | [w::rest] ->  do { let word = Transduction.code_raw_WX w
+                        in try trie.val := Trie.enter trie.val word 
+                           with [ Trie.Redundancy -> output_string stderr ("Fatal error: duplicated entry:" ^ w ^"\n") ]
+                       ; populate_from trie rest 
+                     }    
+  ]
+;
+
+value build_trie list = 
+  let trie = ref Trie.empty in
+      (*do { populate_from trie list 
+     ; (trie.val) *)
+      populate_from trie list 
+     (*}*)
+;
+
+value member_of word trie =
+       Trie.mem (Transduction.code_raw_WX word) trie 
+;
+
+value amuurwa = build_trie amuurwa_list
+;
+
+value muurwa = build_trie muurwa_list
+;
+
+value kaalavaaci = build_trie kaalavaaci_list
+;
+
 value distinct_2 m1 m2 = match m1 with
   [ Wif (id1,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
   | Kqw (id1,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
@@ -834,12 +870,20 @@ value handle_lvc m1 m2 = match m1 with
           then match m2 with
           [ Wif (id2,mid2,_,rt2,_,upasarga2,sanAxiH2,_,_,_,_,_,_,_,_,_)->
                 if (id2=relata_pos) then 
-                  let hn_lvc = get_hn_lvc rt1 rt2 in
-                  if not (hn_lvc="") then
+                  if rt2 = "kq3" && member_of rt1 amuurwa
+                  then [ Relation (id2,mid2,"rt",rt2,"kara","11.2")]
+                  else if rt2 = "kq3" && member_of rt1 muurwa
+                  then [ Relation (id2,mid2,"rt",rt2,"banA","11.2")]
+                  else if rt2 = "NI1" && member_of rt1 kaalavaaci
+                  then [ Relation (id2,mid2,"rt",rt2,"bIwA","11.2")]
+                  else if rt2 = "gam1" && sanAxiH2 = "Nic" && member_of rt1 kaalavaaci
+                  then [ Relation (id2,mid2,"rt",rt2,"bIwA","11.2")]
+		  else let hn_lvc = get_hn_lvc rt1 rt2 in
+                  if (hn_lvc="") then []
+                  else
                      [ Relation (id1,mid1,"rt",rt1,"-","11.1")
                      ; Relation (id2,mid2,"rt",rt2,hn_lvc,"11.2")
                      ]
-                  else []
                 else []
           | _ -> []
           ]

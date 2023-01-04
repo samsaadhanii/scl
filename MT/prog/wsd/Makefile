@@ -6,7 +6,7 @@ include ../../../paths.sh
 # Makefile of graph preparatoy program in Ocaml #
 #################################################
 
-FILES = wsd.ml
+FILES = amuurwa.ml muurwa.ml kaalavaaci.ml wsd.ml
 INTERFACES = ./pada_structure.mli
 SYNTAX = .ocamlinit
 ZEN=$(ZENDIR)
@@ -31,8 +31,8 @@ EXECS=$(HPATH)/min_lexer.cmx $(HPATH)/transduction.cmx
 
 VPATH=$(ZEN) $(HPATH)
 
-wsd: pada_structure.cmi bank_lexer.cmx ascii.cmx trie.cmx min_lexer.cmx transduction.cmx wsd.cmx 
-	$(LINK) bank_lexer.cmx $(CORE) $(EXECS) wsd.cmx -o wsd
+wsd: pada_structure.cmi bank_lexer.cmx ascii.cmx trie.cmx min_lexer.cmx transduction.cmx amuurwa.cmx muurwa.cmx kaalavaaci.cmx wsd.cmx 
+	$(LINK) bank_lexer.cmx $(CORE) $(EXECS) amuurwa.cmx muurwa.cmx kaalavaaci.cmx wsd.cmx -o wsd
 
 .depend depend:: $(SOURCES)
 	> .depend.new
