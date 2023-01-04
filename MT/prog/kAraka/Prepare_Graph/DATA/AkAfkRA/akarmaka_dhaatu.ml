@@ -583,5 +583,6 @@ value akarmaka_XAwu_list = [
 "yuX1";
 "yuj2";
 "yuw1";
+"zAf_viS1";
 ]
 ;
