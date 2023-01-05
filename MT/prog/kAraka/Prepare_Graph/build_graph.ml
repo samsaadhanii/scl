@@ -1479,27 +1479,29 @@ value anaBihiwe m1 m2 id1 mid1 rt1 word1 uwwarapaxa1 lifgam1 viBakwiH1 id2 mid2 
                              then if member_of rt1 shabxavAci_nouns || member_of rt1 buxXivAci_nouns
                                   then [ Relation (id1,mid1,"karaNam",id2,mid2,"4.3",d12) ]  (*karwq karaNayoswqwIyA - yAnena gacCawi*) 
                                   else if not (member_of rt1 guNa_not_guNavacana) && not (is_human rt1)
-                                       then [ Relation (id1,mid1,"karaNam",id2,mid2,"4.5",d12)   (*karwq karaNayoswqwIyA - yAnena gacCawi*) 
-                                            ; Relation (id1,mid1,"hewuH",id2,mid2,"4.6",d12) ]
-                                       else [ Relation (id1,mid1,"hewuH",id2,mid2,"4.7",d12) ]
+				       then if member_of rt1 saMKyeya
+                                       then [ Relation (id1,mid1,"karaNam",id2,mid2,"4.5",d12)]   (*karwq karaNayoswqwIyA - yAnena gacCawi*) 
+                                       else [ Relation (id1,mid1,"karaNam",id2,mid2,"4.6",d12)   (*karwq karaNayoswqwIyA - yAnena gacCawi*) 
+                                            ; Relation (id1,mid1,"hewuH",id2,mid2,"4.7",d12) ]
+                                       else [ Relation (id1,mid1,"hewuH",id2,mid2,"4.8",d12) ]
                               else if (rt2="jFA2" && upasarga2 = "sam")
                      (* samjFonyawarasyAm karmaNi A. 2.3.22 -mAwrA saFjAnIwe *) 
                     || (rt2="hu1" && text_type="Vedic")
                      (* wqwIyA ca hoSCanxasi A 2.3.3 - yavAgvA juhowi *)
                                    then if not (member_of rt1 guNa_not_guNavacana) (*|| pronominal123 rt1*)
-                                            then [ Relation (id1,mid1,"karma",id2,mid2,"4.8",d12) ]
-                                            else [ Relation (id1,mid1,"hewuH",id2,mid2,"4.9",d12) ]
+                                            then [ Relation (id1,mid1,"karma",id2,mid2,"4.9",d12) ]
+                                            else [ Relation (id1,mid1,"hewuH",id2,mid2,"4.10",d12) ]
                                    else (* if not (member_of rt1 guNa_not_guNavacana) *)
-                                           [ Relation (id1,mid1,"hewuH",id2,mid2,"4.10",d12) ] (* annena vasawi *) 
+                                           [ Relation (id1,mid1,"hewuH",id2,mid2,"4.11",d12) ] (* annena vasawi *) 
            (* anaBihiwa karwA -> rlanaBihiwakarwA *)
        | 4 ->  if members_of rt2 upasarga2 sampraxAna_verbs
                (*then if member_of rt1 animate_nouns
                 * This has problems. saH pATaSAlAyE Xanam xaxAwi will fail to assign sampraxAna to pATaSAlA *)
                then if not (member_of rt1 guNa_not_guNavacana) && not (lifgam1="napuM") 
                (* && kqw1=0 The first word can be a kqw as in xuRteByaH kruXyawu ; Hence this condition is commented. *)
-                    then [ Relation (id1,mid1,"sampraxAnam",id2,mid2,"4.11",d12)  (* rajakAya xaxAwi *)
-                         ; Relation (id1,mid1,"prayojanam1",id2,mid2,"4.12",d12)]  (* rajakAya xaxAwi *)
-                    else [ Relation (id1,mid1,"prayojanam1",id2,mid2,"4.13",d12)] (* prakRAlanAya xaxAwi *)
+                    then [ Relation (id1,mid1,"sampraxAnam",id2,mid2,"4.12",d12)  (* rajakAya xaxAwi *)
+                         ; Relation (id1,mid1,"prayojanam1",id2,mid2,"4.13",d12)]  (* rajakAya xaxAwi *)
+                    else [ Relation (id1,mid1,"prayojanam1",id2,mid2,"4.14",d12)] (* prakRAlanAya xaxAwi *)
                          (*cawurWI sampraxAne 2-3-13  viprAya xaxAwi *) 
             (*    else if  members_of rt2 upasarga2 gawyarWa_verbs 
                     then [ Relation (id1,mid1,"karma",id2,mid2,"3.8b",d12) ] दास्योः वचनेषु महिष्याः निर्-अतिशया श्रद्धा भवति
@@ -1509,50 +1511,50 @@ value anaBihiwe m1 m2 id1 mid1 rt1 word1 uwwarapaxa1 lifgam1 viBakwiH1 id2 mid2 
 e.g. saH prAwaH BramaNAya gacCawi -- Amruta   14 July 2020
              *)
                     else if rt2="man1" 
-                         then [ Relation (id1,mid1,"karmasamAnAXikaraNam",id2,mid2,"4.14",d12) ]
+                         then [ Relation (id1,mid1,"karmasamAnAXikaraNam",id2,mid2,"4.15",d12) ]
                 (* manyakarmaNyanAxare viBARAZprANiRu 2-3-17 ahaM wvAM wqNAya manye / aham wvA wqNAya manye *)
                          else if kqw1 = 0
-                              then [ Relation (id1,mid1,"prayojanam1",id2,mid2,"4.15",d12)] (* puwrAya puswakaM krINAwi *) 
+                              then [ Relation (id1,mid1,"prayojanam1",id2,mid2,"4.16",d12)] (* puwrAya puswakaM krINAwi *) 
                               else []
        | 5 -> if members_of rt2 upasarga2 apAxAna_verbs
                     then if pronominal123 rt1
-                        then [ Relation (id1,mid1,"apAxAnam",id2,mid2,"4.16",d12)
-                             ; Relation (id1,mid1,"hewuH5",id2,mid2,"4.17",d12) ]
+                        then [ Relation (id1,mid1,"apAxAnam",id2,mid2,"4.17",d12)
+                             ; Relation (id1,mid1,"hewuH5",id2,mid2,"4.18",d12) ]
                     else if not(member_of rt1 guNa_not_guNavacana) || (kqw1=1)  (* allow kqxanwas also  -- xAwqByaH Xanam laBanwe *)
-                         then [ Relation (id1,mid1,"apAxAnam",id2,mid2,"4.18",d12)  (* apAxAne paFcamI  - rAmaH grAmAw AgacCawi / raveH lokaH prakASam aXigacCawi *) 
-                              ;  Relation (id1,mid1,"hewuH5",id2,mid2,"4.19",d12)] (* raveH lokaH suKam aXigacCawi *) 
-                             else [ Relation (id1,mid1,"hewuH5",id2,mid2,"4.20",d12) ]   (* BayAw nirgacCawi *)
+                         then [ Relation (id1,mid1,"apAxAnam",id2,mid2,"4.19",d12)  (* apAxAne paFcamI  - rAmaH grAmAw AgacCawi / raveH lokaH prakASam aXigacCawi *) 
+                              ;  Relation (id1,mid1,"hewuH5",id2,mid2,"4.20",d12)] (* raveH lokaH suKam aXigacCawi *) 
+                             else [ Relation (id1,mid1,"hewuH5",id2,mid2,"4.21",d12) ]   (* BayAw nirgacCawi *)
                    else if   rt1="swoka" 
                            || rt1="alpa" 
                            || rt1="kqcCra"
                            || rt1="kawipaya"
-                        then [ Relation (id1,mid1,"karaNam",id2,mid2,"4.21",d12)] 
+                        then [ Relation (id1,mid1,"karaNam",id2,mid2,"4.22",d12)] 
              (* karaNe ca swokAlpakqcCrakawipayasyAsawwvavacanasya 2-3-33 - swokAw mukwaH *)
                         else if (member_of rt1 guNavacana) (* yogyawA *)
-                             then [ Relation (id1,mid1,"hewuH5",id2,mid2,"4.22",d12)] (* viBARA guNe aswriyAm 2-3-25 - jAdyAw baxXaH*)  
+                             then [ Relation (id1,mid1,"hewuH5",id2,mid2,"4.23",d12)] (* viBARA guNe aswriyAm 2-3-25 - jAdyAw baxXaH*)  
                              else if (member_of word1 kAlAXvas)
-                                  then [ Relation (id1,mid1,"aXikaraNam",id2,mid2,"4.23",d12) ] (* sapwamIpaFcamyO kArakamaXye A 2.3.7 
+                                  then [ Relation (id1,mid1,"aXikaraNam",id2,mid2,"4.24",d12) ] (* sapwamIpaFcamyO kArakamaXye A 2.3.7 
                                                                                                 -- kroSAw lakRyam viXyawi *)
                                   else if (rt2="xqS1" || (rt2="IkR1" && upasarga2="pra")) (* prAsAxAw prekRyawe and AsanAw prekRyawe *)
-                                       then [ Relation (id1,mid1,"lyapkarmAXikaraNam",id2,mid2,"4.24",d12) 
-                                            ; Relation (id1,mid1,"hewuH5",id2,mid2,"4.25",d12) ]
-                                       else [ Relation (id1,mid1,"hewuH5",id2,mid2,"4.26",d12) ] (* हेतौ पञ्चमी वा स्यादिस्यर्थः।A bAlamanorama tIkA *)
+                                       then [ Relation (id1,mid1,"lyapkarmAXikaraNam",id2,mid2,"4.25",d12) 
+                                            ; Relation (id1,mid1,"hewuH5",id2,mid2,"4.26",d12) ]
+                                       else [ Relation (id1,mid1,"hewuH5",id2,mid2,"4.27",d12) ] (* हेतौ पञ्चमी वा स्यादिस्यर्थः।A bAlamanorama tIkA *)
             (* else if word1="wasmAw" || word1="yasmAw"
                  then [ Relation (id1,mid1,"hewuH",id2,mid2,"3.19",d12)]  
 	         else [] *)
        | 6 -> if (  rt2="vi_ava_hq1" || rt2="paNa1" || rt2="xiv1")
-          then [ Relation (id1,mid1,"karma",id2,mid2,"4.27",d12) ]  
+          then [ Relation (id1,mid1,"karma",id2,mid2,"4.28",d12) ]  
            (* vyavahqpaNoH samarWayoH 2-3-57 -- Sawasya vyavaharawi,
               xivaswaxarWasya 2-3-58 xiv1 if it is in vyavahAra arWa-- Sawasya xIvyawi*)
             else []
        | 7  -> if (upasarga2="aXi" && (rt2="SIf1" || rt2="sWA1"))
                then if member_of word1 kAlAXikaraNas (* praBAwe vEkuNTam wiRTawi *)
-                    then [ Relation (id1, mid1, "kAlAXikaraNam", id2, mid2,"4.28",d12) ]
+                    then [ Relation (id1, mid1, "kAlAXikaraNam", id2, mid2,"4.29",d12) ]
                     else [] 
                else if (rt2="gam1" || rt2="SAs1" || rt2="syanx1")
                     then if member_of word1 kAlAXikaraNas (* praBAwe vEkuNTam wiRTawi *)
-                         then [ Relation (id1, mid1, "kAlAXikaraNam", id2, mid2,"4.29",d12) ]
-                         else if (kqw1 = 0) then [ Relation (id1, mid1, "aXikaraNam", id2, mid2,"4.30",d12) ]
+                         then [ Relation (id1, mid1, "kAlAXikaraNam", id2, mid2,"4.30",d12) ]
+                         else if (kqw1 = 0) then [ Relation (id1, mid1, "aXikaraNam", id2, mid2,"4.31",d12) ]
                               else []
                     else if word1="maXye" then []
                          else match m1 with
@@ -1564,9 +1566,9 @@ e.g. saH prAwaH BramaNAya gacCawi -- Amruta   14 July 2020
                       (* covered in BAvalakRaNa sapwamI 
                          praBAwe -- Sawq_lat; is aXikaraNa  Hence above condition is commented 14 April 2017 
  ... gacCawi ... paTawi; here gacCawi is marked as aXikaraNa. To stop this, again this is uncommented. 26th May 2018 *)
-                  then  [ Relation (id1, mid1, (aXikaraNa_type word1 rt1), id2, mid2,"4.31",d12)] 
+                  then  [ Relation (id1, mid1, (aXikaraNa_type word1 rt1), id2, mid2,"4.32",d12)] 
                   else [] 
-               | _ -> [ Relation (id1, mid1, (aXikaraNa_type word1 rt1), id2, mid2,"4.32",d12) ]
+               | _ -> [ Relation (id1, mid1, (aXikaraNa_type word1 rt1), id2, mid2,"4.33",d12) ]
                ]
        | 8 ->  match m2 with
            [ Wif (id2,mid2,_,rt2,_,_,upasarga2,sanAxiH2,_,lakAraH2,puruRaH2,_,_,_,_,_) -> 
@@ -1577,7 +1579,7 @@ e.g. saH prAwaH BramaNAya gacCawi -- Amruta   14 July 2020
               then [ Relation (id1,mid1,"samboXyaH",id2,mid2,"3.14",d12)]
               else [] *)
               && (member_of rt1 manuRyasaFjFAvAcI || member_of rt1 upAXi || compound word1 uwwarapaxa1)
-              then [ Relation (id1,mid1,"samboXyaH",id2,mid2,"4.33",d12)]
+              then [ Relation (id1,mid1,"samboXyaH",id2,mid2,"4.34",d12)]
               else [ ]
            | Kqw (id2,mid2,_,_,_,_,kqw_prawyayaH2,_,_,_,_,_,_,_,viBakwiH2,_,_) -> 
                if (kqw_prawyayaH2="kwa" || kqw_prawyayaH2="kwavawu" || kqw_prawyayaH2="ac" || kqw_prawyayaH2="yaw") 
@@ -1590,15 +1592,15 @@ e.g. saH prAwaH BramaNAya gacCawi -- Amruta   14 July 2020
     (*           
 Counter ex for napum: anawa-rUpa wvayA viSvam wawam
 if (not (lifgam1="napuM") && kqw_prawyayaH2="kwa" || kqw_prawyayaH2="kwavawu" || kqw_prawyayaH2="ac" || kqw_prawyayaH2="yaw") && (viBakwiH2=1) && id2 = total_wrds.val  *)
-               then [ Relation (id1,mid1,"samboXyaH",id2,mid2,"4.34",d12)]
+               then [ Relation (id1,mid1,"samboXyaH",id2,mid2,"4.35",d12)]
               else []
            |  _ -> []
            ]
        | 2  -> (* covered in rlwifkarwA_karma and rlkqwkarwA_karma *)
            if (member_of rt1 kAlAXvas)
-           then [ Relation (id1,mid1,"awyanwasaMyoga_sambanXaH",id2,mid2,"4.35",d12)] (* xevaxawwaH mAsam pATam aXIwe kAlAXvanorawyanwasaMyoge A 2.3.5 *)  (* yogyawA *)
+           then [ Relation (id1,mid1,"awyanwasaMyoga_sambanXaH",id2,mid2,"4.36",d12)] (* xevaxawwaH mAsam pATam aXIwe kAlAXvanorawyanwasaMyoge A 2.3.5 *)  (* yogyawA *)
            else if member_of (uwwarapaxa1^" "^string_of_int viBakwiH1) kriyAviSeRaNas (* yogyawA *) && lifgam1="napuM"
-           then [ Relation (id1,mid1,"kriyAviSeRaNam",id2,mid2,"4.36",d12)] 
+           then [ Relation (id1,mid1,"kriyAviSeRaNam",id2,mid2,"4.37",d12)] 
            else [] (* rlwifanaBihiwakarma rlkqwanaBihiwakarma *)
        | _ -> [] (* raise an exception *)
        ]
@@ -2145,6 +2147,7 @@ value rlviSeRaNam m1 m2 text_type = match m2 with
                                            (* yasmAw wasmAw -- not possible, but yaH saH is possible *)
                    && not (rt1 = "wax" && lifgam1 = "napuM")
                    && not ((rt1 = "ewax" || rt1="wax") && lifgam1 = "napuM" && (rt2="asmax" || rt2 = "yuRmax"))
+		   && not (member_of rt2 saMKyeya)
            then [ Relation (id1,mid1,"viSeRaNam",id2,mid2,"17.1",d12)]
 
            else if rt2 = get_assoc rt1 parAjAwi_list && not (finite_verb_in_sentence.val = 50 && karwqsamverbs.val = 50)
