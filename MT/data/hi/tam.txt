@@ -44,8 +44,15 @@ BAve_lqf,yA_gayA
 karwari_laf,yA
 karwari_luf,yA
 karwari_lqf,wA_hE~wo
-#To decide the exact mng of lqf
+karwari_lat,wA_hE
+karwari_lit,yA
+karwari_lot,subj
+karwari_lut,gA
+karwari_lqt,gA
+karwari_viXilif,subj
+karwari_ASIrlif,subj
 karwari_lat_sma,wA_WA
+#To decide the exact mng of lqf
 #Sawq_lat,0_rahA_hE
 Sawq_lat,wA_huA
 Sawq_lat_adv,we_hue
@@ -55,13 +62,6 @@ Sawq_lat_adv,we_hue
 #Sawq_lut,0_rahA_hogA
 Sawq_lqt,0_rahA_hogA
 #Sawq_ASIrlif,0_rahA_hogA
-karwari_lat,wA_hE
-karwari_lit,yA
-karwari_lot,subj
-karwari_lut,gA
-karwari_lqt,gA
-karwari_viXilif,subj
-karwari_ASIrlif,subj
 kwvA,0_kara
 lyap,0_kara
 kwa,yA_huA
@@ -88,4 +88,3 @@ lyut_6,nA~kA
 lyut_7,nA~meM
 anIyar,nA
 wavyaw,nA_cAhiye
-BAve_lat,yA_jAwA_hE
