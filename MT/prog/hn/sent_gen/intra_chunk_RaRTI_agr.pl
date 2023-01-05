@@ -86,23 +86,31 @@ my($gen,$num,$per,$vibh,$continue);
                $vibh = $6;
                if(($ke_parsarg_list{$n_word}) || ($n_word =~ /_meM|_se|_ko|_para|_kI|_ke|_ora/)) {
                   ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 ke/;
+                  ${$var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 ke/;
 		    if($sup_nm ne "") {
                        ${$sup_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 ke/;
+                       ${$sup_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 ke/;
 	            }
                }elsif($kI_parsarg_list{$n_word}) {
                  ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 kI/;
+                 ${$var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 kI/;
 		 if($sup_nm ne "") {
                     ${$sup_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 kI/;
+                    ${$sup_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 kI/;
 		 }
                }elsif($gen eq "f") {
                   ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 kI/;
+                  ${$var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 kI/;
 		 if($sup_nm ne "") {
                   ${$sup_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 kI/;
+                  ${$sup_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 kI/;
 	         }
                }elsif(($gen eq "m") && (($vibh ne "0")|| ($num eq "p"))) {
                   ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 ke/;
+                  ${$var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 ke/;
 		  if($sup_nm ne "") {
                     ${$sup_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 ke/;
+                    ${$sup_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 ke/;
 	          }
                }
            }
@@ -125,6 +133,7 @@ my($gen,$num,$per,$vibh,$continue);
               for($k=$j+2;$k<=$#wrd_ana+1 && $continue;$k++){
                   $viSeRya_var_nm = "wrd_ana_flds_".$k;
                   ${$viSeRya_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^([^ ]+) n ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/;
+                  ${$viSeRya_var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ /^([^ ]+) n ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/;
                   $new_gen = $3;
                   $new_num = $4;
                   $new_per = $5;
@@ -138,8 +147,10 @@ my($gen,$num,$per,$vibh,$continue);
             }
               if($gen eq "f") {
                  ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 kI/;
+                 ${$var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 kI/;
               } elsif(($gen eq "m") && ($vib ne "0")) {
                 ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 ke/;
+                ${$var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 ke/;
               }
          } 
      } 

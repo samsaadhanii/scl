@@ -14,7 +14,9 @@
 # 14: Chunk/LWG
 # 15:  map o/p
 # 16: lwg o/p
-# 17: gen o/p
+# 17: lwg o/p with karwari
+# 18: gen o/p
+# 19: gen o/p with karwari
 
 print "\@index\t\@word\t\@poem\t\@sandhied_\@word\t\@morph_\@analysis\t\@morph_\@in_\@context\t\@kaaraka_\@sambandha\t\@hindi_\@meaning\t\@English_\@meaning\t\@samAsa\t\@prayoga\t\@sarvanAma\t\@Name-\@classification\n";
 #print "index\tword\tpoem\tsandhied_word\tmorph_analysis\tmorph_in_context\tkaaraka_sambandha\thindi_meaning\tEnglish_meaning\tsamAsa\tprayoga\tsarvanAma\tName-classification\n";
@@ -50,21 +52,25 @@ if($in) {
   if($grpwith == $flds[0]) {
 # When the current word is to be grouped with the previous word
     $relation = $flds[2]."_".$flds[9];
-    $mng = $tmpmng."_".$flds[16];
-    print $tmpgrp,$relation,"\t",$mng,"\n";
+    $mng = $tmpmng."_".$flds[17];
+    $mng1 = $tmpmng1."_".$flds[18];
+    print $tmpgrp,$relation,"\t",$mng,"\t",$mng1,"\n";
     $tmpgrp = "";
     $tmpmng = "";
+    $tmpmng1 = "";
     $mng = "";
+    $mng1 = "";
     $relation = "";
   } elsif ($flds[9] !~ /^,/) {  
 ## When the relation is not blank
-    print $flds[0],"\t",$flds[2],"\t\t",$flds[3],"\t",$flds[6],"\t",$flds[8],"\t",$flds[9],"\t",$flds[16],"\n";
+    print $flds[0],"\t",$flds[2],"\t\t",$flds[3],"\t",$flds[6],"\t",$flds[8],"\t",$flds[9],"\t",$flds[17],"\t",$flds[18],"\n";
   } else {
 ## When the relation is blank -- that is the current word is to be grouped with the following word
     $tmpgrp = $flds[0]."\t".$flds[2]."\t\t".$flds[3]."\t".$flds[6]."\t".$flds[8]."\t";
     $grpwith = $flds[9];
     $grpwith =~ s/,//;
-    $tmpmng = $flds[16];
+    $tmpmng = $flds[17];
+    $tmpmng1 = $flds[18];
   }
 # In case of upapada grouping the name of the relation is blank
 } else { print "\n";}

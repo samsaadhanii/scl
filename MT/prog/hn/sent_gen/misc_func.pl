@@ -39,13 +39,14 @@ License: GPL
 
 =cut
 sub print_array{
-   my($out_device,$title,$fld1,$fld2,$fld3) = @_;
+   my($out_device,$title,$fld1,$fld2,$fld3,$fld4) = @_;
    my($j,$k);
+   print "fld4 = ",$fld4,"\n";
    if($title ne "") { print $out_device "---------\n",$title,"\n---------\n";}
    for($j=1;$j<=$#wrd_ana+1;$j++){
        $var_nm = "wrd_ana_flds_".$j;
       for($k=0;$k<=$flds;$k++){
-          if(($title ne "") && ($k == $fld1 || $k == $fld2 || $k == $fld3)){
+          if(($title ne "") && ($k == $fld1 || $k == $fld2 || $k == $fld3 || $k == $fld4)){
               print $out_device ${$var_nm}[$k],"\t";
           } elsif($title eq "") { print $out_device ${$var_nm}[$k],"\t";}
       }

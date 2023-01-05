@@ -52,6 +52,7 @@ my($j,$viSeRya_gen);
          if(${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] !~ /^[^ ]+ [nP] ([^ ]+) [^ ]+ [^ ]+ 0/){
 		 #      && (${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] !~ /^[^ ]+ [nP] ([^ ]+) [^ ]+ [^ ]+ kA/)){
 	    ${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^[^ ]+ [nP] ([^ ]+) /;
+	    ${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ /^[^ ]+ [nP] ([^ ]+) /;
 	    $viSeRya_gen = $1;
             if(${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/) {
                $rt = $1;
@@ -61,15 +62,19 @@ my($j,$viSeRya_gen);
                if($rt =~ /^anwika|nikata|samIpa|xUra/) {
                  if($viSeRya_gen eq "f") {
                    ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $viSeRya_gen $4 $5 vAlI/;
+                   ${$var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $viSeRya_gen $4 $5 vAlI/;
 		 } else {
                    ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $viSeRya_gen $4 $5 vAle/;
+                   ${$var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $viSeRya_gen $4 $5 vAle/;
                  } 
                } else { 
 		   ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $mod_cat $viSeRya_gen $4 $5 1/;
+		   ${$var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $mod_cat $viSeRya_gen $4 $5 1/;
 	       }
 #In case the viSeRaNa is a kqxanwa, then its form should have the same gender and number as the viSeRya.
 # nalaH huwaBujA xagXaM araNyaM apaSyaw.
                ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) v ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 v $viSeRya_gen p $4 $5/;
+               ${$var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) v ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 v $viSeRya_gen p $4 $5/;
          } elsif(${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) 0/) {
             $cat = $2;
             $viSeRya_gen = $3;
@@ -93,16 +98,20 @@ my($j,$viSeRya_gen);
            if($rt =~ /^anwika|nikata|samIpa|xUra/) { 
               if($viSeRya_gen eq "f") {
                 ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $viSeRya_gen $4 $5 vAlI/;
+                ${$var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $viSeRya_gen $4 $5 vAlI/;
               } elsif($viSeRya_num eq "p") {
                 ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $viSeRya_gen $4 $5 vAle/;
+                ${$var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $viSeRya_gen $4 $5 vAle/;
                 } else { ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $viSeRya_gen $4 $5 vAlA/;
               }
             } else {
               ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $mod_cat $viSeRya_gen $4 $5 0/;
+              ${$var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $mod_cat $viSeRya_gen $4 $5 0/;
 	    }
 #In case the viSeRaNa is a kqxanwa, then its form should have the same gender and number as the viSeRya.
 # nalaH huwaBujA xagXaM araNyaM apaSyaw.
             ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) v ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 v $viSeRya_gen $viSeRya_num $4 $5/;
+            ${$var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) v ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 v $viSeRya_gen $viSeRya_num $4 $5/;
          } elsif(${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) kA/) { 
 # This case arises if because of kriyAmUla noun gets 6th case and its adj has some other vibh.
 #Ex: kqRNaH preyasaH janAn smarawi.
@@ -114,8 +123,9 @@ my($j,$viSeRya_gen);
            $cat = $2;
            if($cat eq "n") { $mod_cat = "adj";} else { $mod_cat = $cat;}
            ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $mod_cat $viSeRya_gen $4 $5 0/;
+           ${$var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) ([nP]) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $mod_cat $viSeRya_gen $4 $5 0/;
            }
-  }
+        }
       }
   }
 }

@@ -21,6 +21,7 @@
 =head1  agreement.pl
 
 This is the main agreement module for Hindi that takes care of the following:
+a0) Handling karmaNi and BAve prayogas in Sanskrit
 a) Add ergative 'ne' in Hindi
 b) Handle aBihiwa agreement
 c) Handle idiosyncratic 'ko' in Hindi as a karma vibhakti.
@@ -65,6 +66,7 @@ require "$prog_Path/kriyAmUla_verb_agr.pl";
 require "$prog_Path/kriyAmUla_na_verb.pl";
 require "$prog_Path/misc_func.pl";
 require "$prog_Path/predicative_adj_agr.pl";
+require "$prog_Path/karmaNi_BAve_to_karwari.pl";
 
 #BEGIN{require "$ARGV[0]/paths.pl";}
 
@@ -129,7 +131,8 @@ $wrd_fld = 3; #starting from 0;
 #$parse_ana_fld = 8; #starting from 0;
 $morph_kaaraka_anal = 13; #starting from 0;
 $ana_fld_for_calling_gen_after_lwg = 15; #starting from 0;
-$flds = 15; # Starting from 0;
+$ana_fld_for_calling_gen_after_lwg_karwari = 16; #starting from 0;
+$flds = 16; # Starting from 0;
 
 #Read whole sentence
 $/ = "\n\n";
@@ -147,35 +150,38 @@ for ($i=1; $i <= $#wrd_ana+1; $i++){
     @{$var_nm} = split(/\t/,$wrd_ana[$i-1]); 
 }
 
+  &karmaNi_BAve();
+  if($DEBUG) {&print_array("STDERR","karmaNi_BAve",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg,$ana_fld_for_calling_gen_after_lwg_karwari);}
+
   &add_ne();
-  if($DEBUG) {&print_array("STDERR","Add ne",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg);}
+  if($DEBUG) {&print_array("STDERR","Add ne",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg,$ana_fld_for_calling_gen_after_lwg_karwari);}
 
   &kriyAmUla_karma_viBakwi();
-  if($DEBUG) {&print_array("STDERR","kriyAmUla_karma_vibh",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg);}
+  if($DEBUG) {&print_array("STDERR","kriyAmUla_karma_vibh",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg,$ana_fld_for_calling_gen_after_lwg_karwari);}
 
   &handle_hindi_idio_karma_ko();
-  if($DEBUG) {&print_array("STDERR","handle_hindi_idio_karma_ko",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg);}
+  if($DEBUG) {&print_array("STDERR","handle_hindi_idio_karma_ko",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg,$ana_fld_for_calling_gen_after_lwg_karwari);}
 
   &copy_abhihita_gen_num_to_verb();
-  if($DEBUG) {&print_array("STDERR","noun_verb_agr",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg);}
+  if($DEBUG) {&print_array("STDERR","noun_verb_agr",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg,$ana_fld_for_calling_gen_after_lwg_karwari);}
 
   &handle_kriyAmUla_verb_agr();
-  if($DEBUG) {&print_array("STDERR","kriyAmUla_verb_agr",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg);}
+  if($DEBUG) {&print_array("STDERR","kriyAmUla_verb_agr",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg,$ana_fld_for_calling_gen_after_lwg_karwari);}
 
   &handle_kriyAmUla_na_verb();
-  if($DEBUG) {&print_array("STDERR","kriyAmUla_na_verb",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg);}
+  if($DEBUG) {&print_array("STDERR","kriyAmUla_na_verb",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg,$ana_fld_for_calling_gen_after_lwg_karwari);}
 
   &karwA_and_karwA_samAnAXikaraNa_agr();
-  if($DEBUG) {&print_array("STDERR","pred_adj_agr",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg);}
+  if($DEBUG) {&print_array("STDERR","pred_adj_agr",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg,$ana_fld_for_calling_gen_after_lwg_karwari);}
 
   &chunk_viSeRaNa();
-  if($DEBUG) {&print_array("STDERR","viSeRaNa_agr",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg);}
+  if($DEBUG) {&print_array("STDERR","viSeRaNa_agr",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg,$ana_fld_for_calling_gen_after_lwg_karwari);}
 
   &handle_RaRTI_lifgam();
-  if($DEBUG) {&print_array("STDERR","RaRTI_agr",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg);}
+  if($DEBUG) {&print_array("STDERR","RaRTI_agr",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg,$ana_fld_for_calling_gen_after_lwg_karwari);}
 
   &handle_second_person_honorificity();
-  if($DEBUG) {&print_array("STDERR","Honorificity",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg);}
+  if($DEBUG) {&print_array("STDERR","Honorificity",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg,$ana_fld_for_calling_gen_after_lwg_karwari);}
 
   &print_array("STDOUT");
 

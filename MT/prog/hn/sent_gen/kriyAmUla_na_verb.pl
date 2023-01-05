@@ -49,7 +49,9 @@ sub handle_kriyAmUla_na_verb{
        $prev_var_nm = "wrd_ana_flds_".($j-1);
        if((${$prev_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^nahIM /) && ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^([^_]+_(kara|ho|xe|laga)) /){
           ${$prev_var_nm}[$ana_fld_for_calling_gen_after_lwg] =  "--";
+          ${$prev_var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =  "--";
           ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/ ([^ ]+)$/ nahIM+$1/;
+          ${$var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/ ([^ ]+)$/ nahIM+$1/;
        }
      }
 }

@@ -74,6 +74,7 @@ for($j=1;$j<=$#wrd_ana+1;$j++){
 # Number in such cases is always assumed to be singluar.
 #In case there are any exceptions, they are to be listed.
             ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) yA/$1 $2 $agreeing_gen s $5 yA/;
+            ${$var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) yA/$1 $2 $agreeing_gen s $5 yA/;
          }
        }
      }

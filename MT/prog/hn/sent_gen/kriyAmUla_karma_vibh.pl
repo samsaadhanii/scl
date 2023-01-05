@@ -60,11 +60,14 @@ my($j,$verb_pos,$kriyAmUla,$karma_marker);
 	      if ((${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ / v /) &&
 	          ($kriyAmUla eq "icCA_kara")) {
                    ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 nA\~$karma_marker/;
+                   ${$var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 nA\~$karma_marker/;
               } else {
 	       if(${$var_nm}[$morph_kaaraka_anal] =~ /<rt:kim_1>/) {
                   ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 avy NW NW NW NW/;
+                  ${$var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 avy NW NW NW NW/;
 	      } else {
                ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 $karma_marker/;
+               ${$var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 $4 $5 $karma_marker/;
               }
              }
 	   }

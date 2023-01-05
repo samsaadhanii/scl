@@ -52,6 +52,8 @@ while($in = <STDIN>){
 
  if($in) {
    my $out = &call_gen($f[15],"ON","NOT");
+   print $out,"\t";
+   my $out = &call_gen($f[16],"ON","NOT");
    print $out;
  } 
  print "\n";

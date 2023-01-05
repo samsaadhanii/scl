@@ -56,11 +56,13 @@ sub karwA_and_karwA_samAnAXikaraNa_agr{
                if(${$new_var_nm}[$morph_kaaraka_anal] =~ /<lifgam:([^>]+)>/){
                     $lifgam = $1;
                     ${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^([^ ]+) /;
+                    ${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ /^([^ ]+) /;
                     $rt = $1;
                     $abhihita_lifgam = &get_hn_lifga($rt,$lifgam);
                } else { $abhihita_lifgam = "m";} # Default
              }
              ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^([^ ]+) ([^ ]+) ([^ ]+)/;
+             ${$var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ /^([^ ]+) ([^ ]+) ([^ ]+)/;
                $rt = $1; $lifgam = $3;
                if($abhihita_lifgam ne $lifgam) {
                   if(($abhihita_lifgam eq "f") && ($rt =~ /A$/)){
@@ -69,6 +71,7 @@ sub karwA_and_karwA_samAnAXikaraNa_agr{
                   }
                }
                ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+)/$rt $2 $abhihita_lifgam/;
+               ${$var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) ([^ ]+) ([^ ]+)/$rt $2 $abhihita_lifgam/;
          }
       }
    }

@@ -72,6 +72,7 @@ my($j,$k,$verb_pos,$dvikarmaka,$karma_lifgam,$karma_rt,$karwA_rt,$karwA_lifgam);
 
         if($karma_vibh eq "0") {
            ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ko/$1 $2 $3 $4 $5 $karma_vibh/;
+           ${$var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ko/$1 $2 $3 $4 $5 $karma_vibh/;
         }
      }
    }

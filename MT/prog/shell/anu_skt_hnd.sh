@@ -105,8 +105,8 @@ hnd_gen () {
     $ANU_MT_PATH/interface/add_colorcode.pl < $temp_files_path/$fbn.out |\
     $ANU_MT_PATH/chunker/lwg.pl |\
     $ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $ANU_MT_PATH/../data hi |\
-    $ANU_MT_PATH/map/lwg_avy_avy.pl $SCLINSTALLDIR $ANU_MT_PATH/../data hi  |\
-    $ANU_MT_PATH/hn/sent_gen/agreement.pl $SCLINSTALLDIR $ANU_MT_PATH/../data $ANU_MT_PATH/hn/sent_gen  |\
+    $ANU_MT_PATH/map/lwg_avy_avy.pl $SCLINSTALLDIR $ANU_MT_PATH/../data hi  > /tmp/xxx
+    $ANU_MT_PATH/hn/sent_gen/agreement.pl $SCLINSTALLDIR $ANU_MT_PATH/../data $ANU_MT_PATH/hn/sent_gen  < /tmp/xxx |\
     $ANU_MT_PATH/hn/sent_gen/call_gen.pl $SCLINSTALLDIR  |\
     $ANU_MT_PATH/interface/modify_mo_for_display.pl $SCLINSTALLDIR  > $temp_files_path/ttt
     mv $temp_files_path/ttt $temp_files_path/$fbn.out
@@ -213,4 +213,6 @@ fi
 # 14: Chunk/LWG
 # 15:  map o/p
 # 16: lwg o/p
-# 17: gen o/p
+# 17: lwg o/p with karwari
+# 18: gen o/p
+# 19: gen o/p with karwari

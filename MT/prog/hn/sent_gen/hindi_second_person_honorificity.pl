@@ -55,6 +55,7 @@ my($j,$verb_pos);
   # In Sanskrit, 2nd person pronoun yuRmax can be dropped as in 'gacCasi'. Hence we just check the final verb form, as below, and change number from 's' to 'p' if it is in maXyama puruRa in Sanskrit.
        if(${$var_nm}[$morph_kaaraka_anal] =~ /<prayogaH:karwari>/){
            ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) v ([^ ]+) s m ([^ ]+)/$1 v $2 p m $3/;
+           ${$var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) v ([^ ]+) s m ([^ ]+)/$1 v $2 p m $3/;
        }
        if((${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karwA><relata_pos:([0-9]+)>/) && (${$var_nm}[$morph_kaaraka_anal] =~ /<rt:Bavaw>/)) {
            ${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karwA><relata_pos:([0-9]+)>/;
@@ -63,6 +64,7 @@ my($j,$verb_pos);
            $new_var_nm = "wrd_ana_flds_".$verb_pos;
 	   if (${$new_var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:aBihiwa_karwA><relata_pos:[0-9]+>/) {
               ${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 p m $6/;
+              ${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 p m $6/;
            }
        }
    }
