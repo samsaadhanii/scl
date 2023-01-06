@@ -839,9 +839,9 @@ value upapaxa m1 m2= match m1 with
 value disambiguate_wumun m1 m2 = match m1 with
   [ Avykqw (id1,mid1,word1,_,_,_,_,kqw_prawyayaH1,_,_,rel,relata_pos) ->
           if kqw_prawyayaH1 ="wumun"
-          then if rel="sahAyakakriyA" 
                then match m2 with
-               [ Wif (id2,mid2,_,rt2,_,upasarga2,sanAxiH2,_,_,_,_,_,_,_,_,_)->
+               [ Wif (id2,mid2,_,rt2,_,upasarga2,sanAxiH2,_,_,_,_,_,_,_,rel,_)->
+                        if rel="sahAyakakriyA" then
                   match rt2 with
                   [ "Sak3" 
                   | "arh1"
@@ -856,10 +856,10 @@ value disambiguate_wumun m1 m2 = match m1 with
 		       else []
                   | _ ->  []
                   ]
+                  else []
                | _ -> []
                ]
                else []
-          else []
   | _ -> []
   ]
 ;
