@@ -98,15 +98,15 @@ wsd () {
 ### Map to hindi
 # Color Code in the 13th field
 # Chunk/LWG in the 14th field
-# map o/p in the 15th field and lwg o/p in 16th field
-# gen o/p in the 17th field
+# map o/p in the 15th field and lwg o/p in 16th field and lwg o/p with karwari in 17th field
+# gen o/p in the 18th field and with karwari in 19th field
 
 hnd_gen () {
     $ANU_MT_PATH/interface/add_colorcode.pl < $temp_files_path/$fbn.out |\
     $ANU_MT_PATH/chunker/lwg.pl |\
     $ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $ANU_MT_PATH/../data hi |\
-    $ANU_MT_PATH/map/lwg_avy_avy.pl $SCLINSTALLDIR $ANU_MT_PATH/../data hi  > /tmp/xxx
-    $ANU_MT_PATH/hn/sent_gen/agreement.pl $SCLINSTALLDIR $ANU_MT_PATH/../data $ANU_MT_PATH/hn/sent_gen  < /tmp/xxx |\
+    $ANU_MT_PATH/map/lwg_avy_avy.pl $SCLINSTALLDIR $ANU_MT_PATH/../data hi  |\
+    $ANU_MT_PATH/hn/sent_gen/agreement.pl $SCLINSTALLDIR $ANU_MT_PATH/../data $ANU_MT_PATH/hn/sent_gen  |\
     $ANU_MT_PATH/hn/sent_gen/call_gen.pl $SCLINSTALLDIR  |\
     $ANU_MT_PATH/interface/modify_mo_for_display.pl $SCLINSTALLDIR  > $temp_files_path/ttt
     mv $temp_files_path/ttt $temp_files_path/$fbn.out
@@ -131,6 +131,7 @@ hnd_gen () {
    $my_converter < $temp_files_path/table.tsv > $temp_files_path/table_outscript.tsv
    $dev_converter < $temp_files_path/table.tsv > $temp_files_path/table_dev.tsv
    $my_converter < $temp_files_path/anvaya.tsv > $temp_files_path/anvaya_outscript.tsv
+   rm $temp_files_path/1 $temp_files_path/2 $temp_files_path/3
  }
 ##########
  #Generate Anvaya order anusaaraka output

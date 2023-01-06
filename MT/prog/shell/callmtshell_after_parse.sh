@@ -33,6 +33,7 @@ outfilename="in"$pid".out"
 
 $ANU_MT_PATH/kAraka/prepare_dot_files.sh $SCLINSTALLDIR $GraphvizDot $OUTSCRIPT 1 mk_kAraka_help.pl $TMP_FILES_PATH/parser_files/morph1.out $TMP_FILES_PATH/parser_files/parseop_new.txt $TMP_FILES_PATH 1
 
+cp $TMP_FILES_PATH/parser_files/parseop_new.txt $TMP_FILES_PATH/parser_files/parseop1.txt
 $GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::CGIDIR/scl tmp_in${pid}/in$pid $GlblVar::TFPATH hi DEV UoHyD AVAILABLE Prose 2> $GlblVar::TFPATH/tmp_in$pid/err1$pid
 
 $ANU_MT_PATH/interface/display_output.pl $SCLINSTALLDIR $TFPATH $OUTSCRIPT $pid A
