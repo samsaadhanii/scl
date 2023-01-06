@@ -58,13 +58,13 @@ print $word,"=";
          $tmp1 = $analysis[$j];
          $tmp1 =~ s/<level:[1234]>//;
          if ($tmp eq $tmp1) {
-           if($analysis[$i] eq $analysis[$j]) { $analysis[$j] = ""; }
+           if($analysis[$i] eq $analysis[$j]) { $analysis[$j] = ""; $diff = 0;}
            elsif ((($analysis[$i] =~ /<level:1>/) && ($analysis[$j] =~ /<level:4>/))
           || (($analysis[$i] =~ /<level:[23]>/) && ($analysis[$j] =~ /<level:[14]>/)))
            { $diff = 0;}
            elsif ((($analysis[$i] =~ /<level:4>/) && ($analysis[$j] =~ /<level:[123]>/))
             || (($analysis[$i] =~ /<level:1>/) && ($analysis[$j] =~ /<level:[23]>/)))
-            {$analysis[$j] = "";}
+            {$analysis[$j] = "";$diff = 0;}
 #	      $tmp =~ s/nA_[^>]+>/nA>/;  # This is to remove the taddhita analysis, if present
 #	      $tmp1 =~ s/nA_[^>]+>/nA>/;  # This is to remove the taddhita analysis, if present
            #print "ans = $ans\n";
@@ -72,7 +72,7 @@ print $word,"=";
         }
        }
       }
-     if ($diff) { $ans .= "/". $analysis[$i];}
+     if ($diff == 1 && $analysis[$i] ne "") { $ans .= "/". $analysis[$i];}
    }
   }
      $ans =~ s/^\///;
