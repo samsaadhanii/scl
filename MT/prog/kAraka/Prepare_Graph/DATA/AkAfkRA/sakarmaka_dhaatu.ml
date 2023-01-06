@@ -77,7 +77,6 @@ value sakarmaka_XAwu_list = [
 "BrakR1";
 "Bram1";
 "Brasj1";
-"Buj1";
 "Buj2";
 "Buv1";
 "CaFj1";

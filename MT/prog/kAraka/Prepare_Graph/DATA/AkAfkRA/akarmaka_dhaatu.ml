@@ -29,6 +29,7 @@ value akarmaka_XAwu_list = [
 "BranS2";
 "BreR1";
 "Brej1";
+"Buj1";
 "Byas1";
 "Carx1";
 "Cax1";
