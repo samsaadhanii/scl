@@ -29,7 +29,8 @@ while($in = <STDIN>){
     $tail = "";
     foreach $tmp (@analysis) {
      if($tmp =~ /\$$/) { $tmp =~ s/\$$//;}
-     if($tmp =~ /viBakwiH:7/) { $tail .= "/". $tmp;}
+     if ($tmp =~ /^[a-zA-Z]+\-[a-zA-Z]+</) { $head .= "/".$tmp;}
+     elsif($tmp =~ /viBakwiH:7/) { $tail .= "/". $tmp;}
      elsif($tmp =~ /level:[234]/) { $tail .= "/". $tmp;}
      elsif($tmp =~ /vargaH:sarva/) { $head .= "/". $tmp;}
      elsif($tmp =~ /lakAraH:lat/) { $head .= "/". $tmp;}
