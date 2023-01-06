@@ -2212,7 +2212,7 @@ value rlviSeRaNam m1 m2 text_type = match m2 with
 gacCan bAlakaH wqNam spqSawi / bAlakaH gacCan wqNam spqSawi *)
        && not (member_of (word2^" "^string_of_int viBakwiH2) kriyAviSeRaNas) (* Why is this cond? *)
        && not(rt1=rt2) && not(rt2="kim")
-       then if (kqw_prawyayaH1="Sawq_lat") && viBakwiH1 > 1
+       then if (kqw_prawyayaH1="Sawq_lat") && (viBakwiH1 > 1 && viBakwiH1 < 7) (* vasawi papmAwIre rAmaH; with viBakwiH1=7, vasawi would become an adj of pampAwIre *)
        then [ Relation (id1,mid1,"viSeRaNam",id2,mid2,"17.6",d12)]
        else if prose_order id1 id2 text_type
          && not (kqw_prawyayaH1="Sawq_lat")
@@ -2812,6 +2812,7 @@ value rlRaRTIsambanXaH m1 m2 text_type = match m1 with
                                         && not (member_of rt2 upapada6_list) (* This is needed, since in these cases the relation is sanxarBa_binxuH *)
                                         && (rt2="Awman" || not (pronominal123 rt2)) (* sEnyasya mama; mama should be related to sEnya and not the other way ; rAmasya AwmA should be parsed *)
                                         && not (rt2 = "maXya")
+                                        && not (member_of rt2 taddhitaantas)
                                         (* && (not (member_of rt2 guNavacana)) *)
                                         && (not ((rt1="uBa" || rt1="uBA") && viBakwiH1=6))
                                         then  [ Relation (id1,mid1,"RaRTIsambanXaH",id2,mid2,"28.8",d12)]
