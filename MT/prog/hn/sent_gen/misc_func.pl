@@ -41,7 +41,6 @@ License: GPL
 sub print_array{
    my($out_device,$title,$fld1,$fld2,$fld3,$fld4) = @_;
    my($j,$k);
-   print "fld4 = ",$fld4,"\n";
    if($title ne "") { print $out_device "---------\n",$title,"\n---------\n";}
    for($j=1;$j<=$#wrd_ana+1;$j++){
        $var_nm = "wrd_ana_flds_".$j;
