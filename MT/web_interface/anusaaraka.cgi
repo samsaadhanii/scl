@@ -54,12 +54,12 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
   }
          close(TMP1);
 
-      if ($out_encoding eq "Devanagari") { $script = "DEV";}
-      if ($out_encoding eq "IAST") { $script = "IAST";}
+      if ($out_encoding eq "Devanagari") { $script = "DEV"; $Hscript = "deva";}
+      if ($out_encoding eq "IAST") { $script = "IAST"; $Hscript = "roma";}
       if ($out_encoding eq "Telugu") { $script = "Telugu";}
       if ($splitter eq "None") { $morph = "UoHyd";}
-      if ($splitter eq "best") { $morph = "GH_auto";}
-      if ($splitter eq "manual") { $morph = "GH_manual";}
+      if ($splitter eq "best") { $morph = "Heritage_auto";}
+      if ($splitter eq "manual") { $morph = "Heritage_manual";}
 
       my $pid = $$;
 
@@ -105,21 +105,19 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
       if ($tlang eq "Telugu") { $prog = "anu_skt_tlg.sh"; $lang = "te";}
       elsif ($tlang eq "Marathi") { $prog = "anu_skt_mrt.sh"; $lang = "mr";}
 
-      if($morph eq "GH_manual") {
+      if($morph eq "Heritage_manual") {
          $sentences =~ s/\.//;
          $sentences =~ s/ /\+/g;
-	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=deva\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=b&pipeline=f&fmode=n\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI";
+	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=$Hscript\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=b&pipeline=f&fmode=n\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI";
          system($cmd);
       } else {
-         if($morph eq "GH_auto") {
+         if($morph eq "Heritage_auto") {
          $sentences =~ s/\.//;
          $sentences =~ s/ /\+/g;
-	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=deva\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=f&pipeline=t&fmode=w\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI > /tmp/yyy ; tail -1 /tmp/yyy | $GlblVar::SCLINSTALLDIR/MT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $pid";
+	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=$Hscript\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=f&pipeline=t&fmode=w\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI > /tmp/yyy; tail -1 /tmp/yyy | $GlblVar::SCLINSTALLDIR/MT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $pid";
          system($cmd);
 
-         if($display eq "") { $display = "DEV";}
-
-         system("$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/$prog $GlblVar::CGIDIR/scl tmp_in${pid}/in$pid $GlblVar::TFPATH $lang $display $morph Full $text_type 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
+         system("$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/$prog $GlblVar::CGIDIR/scl tmp_in${pid}/in$pid $GlblVar::TFPATH $lang $script $morph Full $text_type 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
          }  else {
 
          open (TMP,">$GlblVar::TFPATH/tmp_in${pid}/in$pid");
