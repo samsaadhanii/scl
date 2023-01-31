@@ -612,7 +612,8 @@ value call_sup_gen rt cat gen vib num =
 		      
 value call_kqwrt_gen upasarga rt san_suff gen kqw_suff prayoga feature_list =
       let pr = if not (prayoga = "") then "<prayogaH:"^prayoga^">" else prayoga in
-      let str = "^<kqw_XAwu:"^rt^">"^upasarga^san_suff^"<lifgam:"^gen^"><kqw_prawyayaH:"^kqw_suff^">"^pr^"<XAwuH:"^feature_list.(1)^"><gaNaH:"^feature_list.(2)^"><level:0>$" in
+      (* let str = "^<kqw_XAwu:"^rt^">"^upasarga^san_suff^"<lifgam:"^gen^"><kqw_prawyayaH:"^kqw_suff^">"^pr^"<XAwuH:"^feature_list.(1)^"><gaNaH:"^feature_list.(2)^"><level:0>$" in *)
+      let str = "^"^rt^upasarga^san_suff^"<lifgam:"^gen^"><kqw_prawyayaH:"^kqw_suff^">"^pr^"<XAwuH:"^feature_list.(1)^"><gaNaH:"^feature_list.(2)^"><level:0>$" in
       let str_kqwrt_gen = "echo '"^str^"'|"^ltproc^scl_morph_path^"kqw_gen.bin" in
       let (strout, strerr) = syscall str_kqwrt_gen in 
       strip_last_char strout
@@ -620,7 +621,8 @@ value call_kqwrt_gen upasarga rt san_suff gen kqw_suff prayoga feature_list =
 
 value call_kqwform_gen upasarga rt san_suff gen kqw_suff prayoga feature_list kqwrt vib num =
       let pr = if not (prayoga = "") then "<prayogaH:"^prayoga^">" else prayoga in
-      let str = "^<kqw_XAwu:"^rt^">"^upasarga^san_suff^"<kqw_prawyayaH:"^kqw_suff^">"^pr^"<XAwuH:"^feature_list.(1)^"><gaNaH:"^feature_list.(2)^">"^kqwrt^"<vargaH:nA><lifgam:"^gen^"><viBakwiH:"^ string_of_int vib^"><vacanam:"^num^"><level:2>$" in
+      (*let str = "^<kqw_XAwu:"^rt^">"^upasarga^san_suff^"<kqw_prawyayaH:"^kqw_suff^">"^pr^"<XAwuH:"^feature_list.(1)^"><gaNaH:"^feature_list.(2)^">"^kqwrt^"<vargaH:nA><lifgam:"^gen^"><viBakwiH:"^ string_of_int vib^"><vacanam:"^num^"><level:2>$" in *)
+      let str = "^"^rt^upasarga^san_suff^"<kqw_prawyayaH:"^kqw_suff^">"^pr^"<XAwuH:"^feature_list.(1)^"><gaNaH:"^feature_list.(2)^">"^kqwrt^"<vargaH:nA><lifgam:"^gen^"><viBakwiH:"^ string_of_int vib^"><vacanam:"^num^"><level:2>$" in
       let str_kqw_gen = "echo '"^str^"'|"^ltproc^scl_morph_path^"kqw_gen.bin" in
       let (strout, strerr) = syscall str_kqw_gen in 
       strip_last_char strout
@@ -654,7 +656,8 @@ value call_kqw_gen upasarga rt san_suff gen kqw_suff prayoga feature_list vib nu
 ;
 		      
 value call_avykqw_gen upasarga rt san_suff kqw_suff feature_list =
-      let str = "^<kqw_XAwu:"^rt^">"^upasarga^san_suff^"<vargaH:avy><kqw_prawyayaH:"^kqw_suff^"><XAwuH:"^feature_list.(1)^"><gaNaH:"^feature_list.(2)^"><level:2>$" in
+      (*let str = "^<kqw_XAwu:"^rt^">"^upasarga^san_suff^"<vargaH:avy><kqw_prawyayaH:"^kqw_suff^"><XAwuH:"^feature_list.(1)^"><gaNaH:"^feature_list.(2)^"><level:2>$" in *)
+      let str = "^"^rt^upasarga^san_suff^"<vargaH:avy><kqw_prawyayaH:"^kqw_suff^"><XAwuH:"^feature_list.(1)^"><gaNaH:"^feature_list.(2)^"><level:2>$" in
       let str_avykqw_gen = "echo '"^str^"'|"^ltproc^scl_morph_path^"kqw_gen.bin" in
       let (strout, strerr) = syscall str_avykqw_gen in 
       strip_last_char strout
