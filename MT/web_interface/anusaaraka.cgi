@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2002-2022 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2002-2023 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -71,7 +71,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
       $sentences =~ s/ ।/./g;
       $sentences =~ s/[ ]+\|/./g;
       $sentences =~ s/[ ]+([\.!\?])/$1/g;
-      $sentences =~ s/:/ः/g;
+      #$sentences =~ s/:/ः/g;   ## This case will not arise since the input is checked with js at the time of submission itself
       $sentences =~ s/\|[ ]+$/./g;
       $sentences =~ s/\.[ ]+$/./g;
       $sentences =~ s/[ ]+$//g;

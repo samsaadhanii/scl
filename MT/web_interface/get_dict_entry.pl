@@ -2,7 +2,7 @@
 #
 #
 #  Copyright (C) 2010-2013 Karunakar
-#  2014-2022 Amba Kulkarni (ambapradeep@gmail.com)
+#  2014-2023 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -131,12 +131,17 @@ my $ans = "";
 			$lexcount = 0;
 				if($in =~ /<prAwipaxikam>$sword<\/prAwipaxikam>/ or $in =~ /<root>$sword<\/root>/){
 					$result = &get_exact_data($in);
-					$result =~ s/<segmenthd>/<div style=\"background:cyan;\"><\/div>/g;
-					$result =~ s/<subsegmenthd>/<div style=\"background:cyan;\"><\/div>/g;
-					$result =~ s/<sense no?=\"([0-9]+)\">/<br\/>$1. /g;
 					$result =~ s/<citation>/(/g;
 					$result =~ s/<\/citation>/)/g;
+					$result =~ s/<segmenthd>//g;
+					$result =~ s/<subsegmenthd>/<div style=\"background:green;\">/g;
+					$result =~ s/<\/subsegmenthd>/<\/DIV><\/BR>/g;
+					$result =~ s/<sense no?=\"([0-9]+)\">/<\/BR>$1. /g;
+					$result =~ s/<compound>/<div style=\"background:pink;\">/g;
+					$result =~ s/<\/compound>/<\/DIV><\/BR>/g;
 					$result =~ s/<\/?[a-z]+>//g;
+					$result =~ s/<\/DIV>/<\/div>/g;
+					$result =~ s/<\/BR>/<\/br>/g;
 					$result  =~ s/>$sword</><span style=\"background:yellow;\">$sword<\/span></g;
 					$ans .= "</br></br>". $result;
 				}
@@ -147,18 +152,19 @@ $ans;
 1;
 
 sub get_exact_data{
+	my($line) = @_;
 my $result = "";
-	my $line = $_[0];
 	@lines = split(/<segmenthd>/,$line);
 	foreach $lines (@lines){
 		#if($lines =~ /<prAwipaxikam>$sword<\/prAwipaxikam>/ or $lines =~ /<dentry>$sword<\/dentry>/  or $in =~ />$sword<\/prAwipaxikam>/){
-		if($lines =~ /<prAwipaxikam>$sword<\/prAwipaxikam>/ or $lines =~ /<root>$sword<\/root>/  or $lines =~ /<prAwipaxikam gen="स्त्री">$sword<\/prAwipaxikam>/){
+#		if($lines =~ /<prAwipaxikam>$sword<\/prAwipaxikam>/ or $lines =~ /<dentry>$sword<\/dentry>/  or $lines =~ /<prAwipaxikam gen="स्त्री">$sword<\/prAwipaxikam>/){
                         $lines =~ s/<jAwi>[^<]+<\/jAwi>//g;
                         $lines =~ s/<upAXi>[^<]+<\/upAXi>//g;
                         $lines =~ s/<kind_of>[^<]+<\/kind_of>//g;
                         $lines =~ s/<is_a_part>[^<]+<\/is_a_part>//g;
-			$result .= $lines;
-		}
+                        $lines =~ s/<dentry>[^<]+<\/dentry>//g;
+			$result .= "<div style=\"background:cyan;\">".  $lines. "<\/DIV> <\/BR>";
+#		}
 	}
 $result;
 }

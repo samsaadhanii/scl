@@ -2,6 +2,7 @@ value waxXiwAnwa_list = [
 "sArvajanika";
 "SArIrika";
 "xEva";
-"XImaw"
+"XImaw";
+"pEwAmaha"
 ]
 ;

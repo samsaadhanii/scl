@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2006-2011 Shivaja Nair and (2006-2022) Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2006-2011 Shivaja Nair and (2006-2023) Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -31,6 +31,11 @@ my $out_encoding = $ARGV[3];
 my(%LEX,%LEX1,%LEX2,%LEX3,$head,$vargaH,$synset,$heading_info,$relata_info,$synset_info);
 
 #tie(%LEX,GDBM_File,"$GlblVar::SCLINSTALLDIR/amarakosha/DBM/stem2head.gdbm",GDBM_READER,0666) || die "can't open DBM/stem2head.gdbm";
+
+require "$GlblVar::SCLINSTALLDIR/MT/prog/morph/web_interface/scripts.pl";
+require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
+
+
 open(TMP,"$GlblVar::SCLINSTALLDIR/amarakosha/DBM/all_kANdas") || die "can't open DBM/all_kANdas";
 $key = 0;
 $value = 4;
@@ -245,7 +250,9 @@ sub synset_info{
            if($wrd eq $word) {
               $style = "<\@span \@style=\"\@background:\@yellow;\">";
            } else { $style = "<\@span \@style=\"\">";}
-           $synset_info .= ", $style <\@a \@title=\"kANda,varga,Sloka,pAxa :: $kANda\,lifga :: $lifgam\" \@href=\"\@javascript:\@generate_\@noun_\@forms('WX','\@$wrd','\@$lifgam')\">".$wrd."</\@a><\/\@span>";
+           #$synset_info .= ", $style <\@a \@title=\"kANda,varga,Sloka,pAxa :: $kANda\,lifga :: $lifgam\" \@href=\"\@javascript:\@generate_\@noun_\@forms('WX','\@$wrd','\@$lifgam')\">".$wrd."</\@a><\/\@span>";
+	   if($out_encoding eq "DEV") { $out_encoding = "Unicode"};
+           $synset_info .= ", $style <\@a \@title=\"kANda,varga,Sloka,pAxa :: $kANda\,lifga :: $lifgam\" \@href=\"\@javascript:\@generate_\@any_\@noun_\@forms('\@WX','\@$wrd','\@$lifgam','\@nA','\@$out_encoding','1')\">".$wrd."</\@a><\/\@span>";
         }
         $synset_info .= "</\@font></\@div>";
 $synset_info;

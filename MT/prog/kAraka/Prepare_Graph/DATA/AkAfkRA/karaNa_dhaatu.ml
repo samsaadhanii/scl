@@ -60,6 +60,7 @@ value karaNa_XAwu_list = [
 "kq3";
 "kqw1";
 "kRal1";
+"kRip2";
 "kRuB2";
 "kRuB3";
 "krI1";
@@ -93,6 +94,7 @@ value karaNa_XAwu_list = [
 "pra_hq1";
 "pra_hqR1";
 "pra_jFA2";
+"pra_RWA1";
 "pra_muc1";
 "pra_nam1";
 "pra_vac1";
@@ -111,6 +113,7 @@ value karaNa_XAwu_list = [
 "zRWA1"; (*How can RWA1 have a karaNa? Need an example *)
 "sam_BU1";
 "sam_ni_as3";
+"sam_upa_Af_gam1";
 "sam_RwaB1";
 "sam_swu1";
 "sam_wap1";

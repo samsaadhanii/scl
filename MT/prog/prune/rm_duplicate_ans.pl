@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2017-2022 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2017-2023 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -22,13 +22,11 @@
 while($in = <STDIN>){
  chomp($in);
  if($in) {
- $in =~ s/\$//;
- $in =~ s/=/\//;
- ($word,@analysis) = split(/\//, $in);
+    $in =~ s/\$//;
+    $in =~ s/=/\//;
+    ($word,@analysis) = split(/\//, $in);
  #print "analysis = ",@analysis,"\n";
 
-# print $word,"=";
- 
 print $word,"=";
 #print "\n";
  
@@ -46,33 +44,36 @@ print $word,"=";
 #  3        2         print				
 #  4        1,2,3     print, remove analysis with 1,2,3	
 
-  $ans = "";
-  foreach ($i=0; $i<=$#analysis;$i++){
+  $ans = $analysis[0];
+  #$ans = "";
+  foreach ($i=1; $i<=$#analysis;$i++){
+    #print "i = $i $analysis[$i]\n";
      $tmp = $analysis[$i];
      $tmp =~ s/<level:[1234]>//;
      if($#analysis == 0) { $ans = $analysis[$i];}
      else {
       $diff = 1;
-      foreach ($j=$i+1; $j <= $#analysis; $j++){
+      foreach ($j=0; $j <= $i-1; $j++){
        if($analysis[$j] ne "") {
          $tmp1 = $analysis[$j];
          $tmp1 =~ s/<level:[1234]>//;
          if ($tmp eq $tmp1) {
            if($analysis[$i] eq $analysis[$j]) { $analysis[$j] = ""; $diff = 0;}
            elsif ((($analysis[$i] =~ /<level:1>/) && ($analysis[$j] =~ /<level:4>/))
-          || (($analysis[$i] =~ /<level:[23]>/) && ($analysis[$j] =~ /<level:[14]>/)))
-           { $diff = 0;}
+                  || (($analysis[$i] =~ /<level:[23]>/) && ($analysis[$j] =~ /<level:[14]>/)))
+                      { $diff = 0;}
            elsif ((($analysis[$i] =~ /<level:4>/) && ($analysis[$j] =~ /<level:[123]>/))
-            || (($analysis[$i] =~ /<level:1>/) && ($analysis[$j] =~ /<level:[23]>/)))
+                  || (($analysis[$i] =~ /<level:1>/) && ($analysis[$j] =~ /<level:[23]>/)))
             {$analysis[$j] = "";$diff = 0;}
 #	      $tmp =~ s/nA_[^>]+>/nA>/;  # This is to remove the taddhita analysis, if present
 #	      $tmp1 =~ s/nA_[^>]+>/nA>/;  # This is to remove the taddhita analysis, if present
            #print "ans = $ans\n";
-     #    print "j=$j", $analysis[$j],"\n";
+    #     print "j=$j", $analysis[$j],"\n";
         }
        }
       }
      if ($diff == 1 && $analysis[$i] ne "") { $ans .= "/". $analysis[$i];}
+    # print "$i ans = $ans\n";
    }
   }
      $ans =~ s/^\///;

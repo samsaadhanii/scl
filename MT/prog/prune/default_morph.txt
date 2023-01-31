@@ -65,6 +65,7 @@ sahasA=sahasA<vargaH:avy><level:1>
 samAcara=sam_Af_car1<prayogaH:karwari><lakAraH:lot><puruRaH:ma><vacanam:eka><paxI:parasmEpaxI><XAwuH:sam_Af_cara1><gaNaH:BvAxiH><level:0>
 samIpam=samIpa<vargaH:nA><lifgam:napuM><viBakwiH:2><vacanam:eka><level:1>
 sarvawaH=sarvawaH<vargaH:avy><level:1>
+sewum=sewu<vargaH:nA><lifgam:puM><viBakwiH:2><vacanam:eka><level:1>
 sunIwe=sunIwA<vargaH:nA><lifgam:swrI><viBakwiH:8><vacanam:eka><level:1>/sunIwA<vargaH:nA><lifgam:swrI><viBakwiH:8><vacanam:xvi><level:1>/sunIwA<vargaH:nA><lifgam:swrI><viBakwiH:1><vacanam:xvi><level:1>/sunIwA<vargaH:nA><lifgam:swrI><viBakwiH:2><vacanam:xvi><level:1>
 ucyawe=brU1<prayogaH:karmaNi><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:brUF><gaNaH:axAxiH><level:1>
 vaNijaH=vaNija<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>

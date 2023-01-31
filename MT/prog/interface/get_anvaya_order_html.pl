@@ -86,7 +86,8 @@ foreach ($fld=1;$fld<=$#flds;$fld++){
       if (($fld==4) || ($fld==5)) {
        @ana = split(/\//,$flds[$fld]);
        for ($j=0;$j<=$#ana;$j++) {
-          $ana[$j] =~ s/^([^[0-9\-{]+)([0-9\-{])/<a href="javascript:show('$1','$outscript')">$1$2<\/a>/g;
+          $ana[$j] =~ s/^([^0-9\-{]+)([0-9\-{])/<a href="javascript:show('$1','$outscript')">$1<\/a>$2/g;
+          $ana[$j] =~ s/\-([^0-9\-{]+)([0-9\-{])/-<a href="javascript:show('$1','$outscript')">$1<\/a>$2/g;
           print $ana[$j];
           if($j < $#ana) { print "\/";}
        }

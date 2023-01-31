@@ -1006,6 +1006,7 @@ value xravyavAci_list = [
 "puNyaBUmi";
 "puNyajana";
 "puRkara";
+"puRpaka";
 "puRpaXanvan";
 "puRpasamaya";
 "puRpavaw";

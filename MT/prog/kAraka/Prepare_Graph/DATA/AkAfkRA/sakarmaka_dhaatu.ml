@@ -379,6 +379,7 @@ value sakarmaka_XAwu_list = [
 "XyE1";
 "aBi_BU1";
 "aBi_BU2";
+"aBi_Ric1";
 "aBi_Sap1";
 "aBi_XA1";
 "aBi_XI1";
@@ -1055,6 +1056,7 @@ value sakarmaka_XAwu_list = [
 "nir_RWA1";
 "nir_mA1";
 "nis_ci1";
+"nis_piR1";
 "nis_vah1";
 "nis_vap1";
 "nivAsa1";
@@ -1346,9 +1348,11 @@ value sakarmaka_XAwu_list = [
 "sal1";
 "sam2";
 "sam_Af_Rax1";
+"sam_Af_Svas1";
 "sam_Af_car1";
 "sam_Af_gam1";
 "sam_Af_hq1";
+"sam_Af_ruh1";
 "sam_Ap1";
 "sam_Ap2";
 "sam_IkR1";
@@ -1376,8 +1380,10 @@ value sakarmaka_XAwu_list = [
 "sam_q1";
 "sam_smq1";
 "sam_upa_Af_Sri1";
+"sam_upa_Af_gam1";
 "sam_upa_RWA1";
 "sam_uw_Ir2";
+"sam_uw_RWA1";
 "sam_vix1";
 "sam_wQ1";
 "sam_wap1";
@@ -1496,6 +1502,7 @@ value sakarmaka_XAwu_list = [
 "uw_gQ1";
 "uw_hq1";
 "uw_kram1";
+"uw_muc1";
 "uw_sarj1";
 "uw_sqj2";
 "uw_vah1";
@@ -1612,9 +1619,11 @@ value sakarmaka_XAwu_list = [
 "vi_mqS1";
 "vi_muc3";
 "vi_muh1";
+"vi_ni_vix1";
 "vi_ni_yam2";
 "vi_smq1";
 "vi_smq2";
+"vi_sq2";
 "vi_sqj1";
 "vi_sqj2";
 "vi_swQ1";

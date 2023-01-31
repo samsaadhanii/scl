@@ -1,5 +1,5 @@
 <!--
-#  Copyright (C) 2010-2022 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2010-2023 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -45,13 +45,13 @@
           var noreg_itr=/[^AaiuRiLIeoMH.Nkgh~NcChjnThDtdpbmyrlvsS \?\-\_\.\,\!\^\r\n]/;
           var noreg_slp=/[^aAiIuUfFlxeEoOMHkKgGNcCqQjJwWQRtTdDnpPbBmyrlvSzsh \.\?\r\n\-]/;
           var noreg_vel=/[^aiurleomhkgncjtdpbvysz \~\"\?\-\_\.\,\!\r\n]/;
-          var noreg_rom=/[^aÄiÄ«uÅ«á¹›?leoá¹ƒá¸¥khgá¹…cjÃ±á¹­á¸á¹‡tdnpbmyrlvÅ›á¹£s \.\?\r\n]/;
+          var noreg_rom=/[^ aāiīuūeṛṝoṃḥkhgṅcjñṭḍṇtdnpbmyrlvśṣs\-\.\?\r\n]/;
           var noreg_kyo=/[^aAiIuUlReaoMHkghGcjJTDNtdnpbmyrlvzSs \.\?\r\n]/;
           switch (inputlang) {
             case "Unicode": if (!noreg_uni.test(data)) break;
             case "Itrans" : if (!noreg_itr.test(data)) break;
             case "SLP"    : if (!noreg_slp.test(data)) break;
-            case "roman"  : if (!noreg_rom.test(data)) break;
+            case "IAST"  : if (!noreg_rom.test(data)) break;
             case "KH"     : if (!noreg_kyo.test(data)) break;
             case "VH"     : if (!noreg_vel.test(data)) break;
             case "WX"     : if (!noreg_wxe.test(data)) break;
@@ -116,7 +116,7 @@ setInterval(blinker, 1000);
           </h3>
         </td>
         <td text-align="center" width="20%">
-          <font color="magenta" size="3">Updated on 31st Dec 2022</font>
+          <font color="magenta" size="3">Updated on 27th Jan 2023</font>
         </td>
         <td text-align="right">
         </td>
@@ -231,7 +231,7 @@ setInterval(blinker, 1000);
           </td>
           <td id="copy-info">
             <p>
-              <span class="cons">© 2002-22 <a href="http://sanskrit.uohyd.ac.in/faculty/amba">Amba Kulkarni</a></span>
+              <span class="cons">© 2002-23 <a href="http://sanskrit.uohyd.ac.in/faculty/amba">Amba Kulkarni</a></span>
             </p>
           </td>
           <td>

@@ -23,8 +23,9 @@ value relations_encodings = [
 	("xeSAXikaraNam",21);
 	("kAlAXikaraNam",22);
 	("viRayAXikaraNam",23);
-	("pUrvakAlaH",24);
-	("aXikaraNam",25);
+	("aXikaraNam",24);
+	("pUrvakAlaH",25);
+(* earlier it was pUrvakAla = 24, and aXikaraNa = 25. But now we want to impose a condition that there can be only one adhikarana, hence the order changed *)
 	("kriyAviSeRaNam",26);
 	("nirXAraNam",27);
 	("sambanXaH",28);

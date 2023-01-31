@@ -22,8 +22,8 @@ apādānam 20
 deśādhikaraṇam 21
 kālādhikaraṇam 22
 viṣayādhikaraṇam 23
-pūrvakālaḥ 24
-adhikaraṇam 25
+adhikaraṇam 24
+pūrvakālaḥ 25
 kriyāviśeṣaṇam 26
 nirdhāraṇam 27
 sambandhaḥ 28
@@ -103,9 +103,11 @@ kartā_upa 4400
 adhikaraṇam_upa 4500
 gatikartā 200
 gatikarma 201
-iṣkarma 214
+bhkartā 202
+bhkarma 203
 āvaśyakatā_dyotakaḥ 206
 pariṇāma_dyotakaḥ 207
+iṣkarma 214
 āvaśyakatā_pariṇāma_sambandhaḥ 209
 samānādhikaraṇam 1009
-upamānam_rahita_upamāna_dyotakaḥ 1079
+upamānam_rahita_upamāna_dyotakaḥ 1080

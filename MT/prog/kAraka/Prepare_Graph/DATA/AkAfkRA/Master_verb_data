@@ -15,6 +15,7 @@ aBi_ni_viS1	sakarmaka
 aBi_pra_i1	sakarmaka
 aBi_rakR1	sakarmaka
 aBi_Sap1	sakarmaka
+aBi_Ric1	sakarmaka
 aBi_upa_pax1	sakarmaka
 aBi_vac1	sakarmaka
 aBi_vqR1	sakarmaka
@@ -1175,6 +1176,7 @@ ni_ruX1	sakarmaka
 NiS1	akarmaka
 Nis1	sakarmaka
 nis_ci1	sakarmaka				karmasamAnAXikaraNa
+nis_piR1	sakarmaka
 nis_vah1	sakarmaka
 nis_vap1	sakarmaka
 NIv1	akarmaka
@@ -1617,7 +1619,9 @@ sAma1	sakarmaka
 sam_Af_car1	sakarmaka
 sam_Af_gam1	sakarmaka	gawi
 sam_Af_hq1	sakarmaka
+sam_Af_ruh1	sakarmaka
 sam_Af_Rax1	sakarmaka
+sam_Af_Svas1	sakarmaka
 sam_Af_XA1	xvi1		vAkyakarma
 sam_Ap1	sakarmaka
 sam_Ap2	sakarmaka
@@ -1651,7 +1655,9 @@ sam_smq1	sakarmaka
 sam_Sri1	sakarmaka
 saMsw1	akarmaka
 sam_upa_Af_Sri1	sakarmaka
+sam_upa_Af_gam1	sakarmaka
 sam_upa_RWA1	sakarmaka	gawi
+sam_uw_RWA1	sakarmaka
 sam_uw_Ir2	sakarmaka
 sam_vix1	sakarmaka
 sam_wap1	sakarmaka
@@ -1955,6 +1961,7 @@ uw_Gat2	sakarmaka
 uw_gQ1	sakarmaka
 uw_hq1	sakarmaka
 uw_kram1	sakarmaka
+uw_muc1	sakarmaka
 uw_pax1	akarmaka
 uw_Rax1	akarmaka
 uw_sarj1	sakarmaka
@@ -2086,6 +2093,7 @@ vi_muh1	sakarmaka
 vi_Nax1	sakarmaka
 vi_Nax2	sakarmaka
 vi_ni_yam2	sakarmaka
+vi_ni_vix1	sakarmaka
 viR1	sakarmaka
 viR2	sakarmaka
 viR3	sakarmaka
@@ -2103,6 +2111,7 @@ vi_smq1	sakarmaka
 vi_smq2	sakarmaka
 vi_sqj1	sakarmaka
 vi_sqj2	sakarmaka
+vi_sq2	sakarmaka
 vi_Svas1	sakarmaka
 vi_swq1	sakarmaka
 vi_swQ1	sakarmaka

@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2010-2022 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2010-2023 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -70,7 +70,7 @@ while($in = <STDIN>){
             $in[$k] =~ /([0-9]+),([0-9]+),([0-9]+),$verb_pos/;
             $rel = $3;
             if(($in[$k] =~ /([0-9]+),([0-9]+),$rel,$verb_pos/) &&
-               (($k_rel_nm[$k] eq "karwA") || ($rel == $kAraka_num{"karwA"}+100))) {
+               (($k_rel_nm[$k] eq "karwA") || ($rel == $kAraka_num{"karwA"}+100) || ($k_rel_nm[$k] eq "prayojakakarwA"))) {
 #Get the karwA of main verb
                $in[$i] = $in[$k];
                if($rel < 100) { $rel += 100;}
@@ -131,7 +131,7 @@ for($j=0;$j<=$relations;$j++){
   $current_pos = $4.",".$5;
   #print "k = $k current_pos = $current_pos\n";
   #print "$k_rel_nm[$j]\n";
-  if((($k_rel_nm[$j] eq "karwA") || ( $k == $k_rel_num{"karwA"}+100)) && ($pos eq $current_pos)){
+  if((($k_rel_nm[$j] eq "karwA") || ( $k == $k_rel_num{"karwA"}+100) || ($k_rel_nm[$j] eq "prayojakakarwA")) && ($pos eq $current_pos)){
      #print "found\n";
     return 1;
   }

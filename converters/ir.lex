@@ -1,6 +1,6 @@
 /*
 ##############################################################################
-#  Copyright (C) Vineet Chaitanya 1987-2002 and  Amba Kulkarni 1995-2022
+#  Copyright (C) Vineet Chaitanya 1987-2002 and  Amba Kulkarni 1995-2023
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
 #  as published by the Free Software Foundation; either

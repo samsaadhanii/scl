@@ -4446,6 +4446,7 @@ sam_pUj1,pp,sk,v,sawkAra_kara^pUjA_kara,
 sam_puR3,pp,sk,v,uwkqRta_ho^pAlana_kara,
 sam_qC1,pp,sk,v,jA^kadA_ho^saKwa_ho^kRamawA_kA_na_raha,NW
 sam_qj2,ap,sk,v,prApwa_kara^hAsila_kara^jA^hqRta_puRta_ho^svasWa_ho,NW
+sam_q1,ap,sk,v,samarpaNa_kara,NW
 sam_ram1,ap,ak,v,prasanna_ho^harRa_manA,NW
 sam_RaN2,ap,sk,v,xe^praxAna_kara^viwaraNa_kara,NW
 sam_RaN2,pp,sk,v,xe^praxAna_kara^viwaraNa_kara,NW
@@ -4495,7 +4496,7 @@ sam_swQ1,ap,sk,v,PElA^baKera^biCA,NW
 sam_swq1,pp,sk,v,PElA^biCA^Daka^CiwarA^prasAra_kara^vikIrNa_kara^baKera^kapade_pahanA^DAMpa^lapeta,NW
 sam_swQ1,pp,sk,v,PElA^baKera^biCA,NW
 sam_Uh1,ap,sk,v,ekawra_ho^ikatTe_kara,NW
-sam_upa_Af_gam1,pp,sk,v,pAsa_pahuz^A_pada,NW
+sam_upa_Af_gam1,pp,sk,v,pAsa_pahuzca^A_pada,NW
 sam_upa_Af_Sri1,pp,sk,v,ASraya_le,NW
 sam_upa_Af_Sri1,ap,sk,v,ASraya_le,NW
 sam_upa_As1,ap,sk,v,sevA_kara^pUjA_kara^sevA_ke_lie_praswuawa_raha^anuRTAna_kara,NW

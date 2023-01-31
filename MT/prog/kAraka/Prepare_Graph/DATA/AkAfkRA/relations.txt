@@ -22,8 +22,8 @@ apAxAnam 20
 xeSAXikaraNam 21
 kAlAXikaraNam 22
 viRayAXikaraNam 23
-pUrvakAlaH 24
-aXikaraNam 25
+aXikaraNam 24
+pUrvakAlaH 25
 kriyAviSeRaNam 26
 nirXAraNam 27
 sambanXaH 28

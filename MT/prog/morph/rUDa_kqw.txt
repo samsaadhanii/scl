@@ -180,6 +180,7 @@ manwrI
 maraNa
 meWikA
 mexaka
+muxiwa
 moRaka
 mocaka
 motakaH
@@ -226,6 +227,7 @@ paryApwa
 petikA
 piwA
 plavana
+puRta
 potaka
 prApaka
 prArWaka
@@ -252,8 +254,8 @@ pravAhaka
 pravAhikA
 pravarwaka
 pravarwana
-pravqwwa
 praveSaka
+pravqwwa
 prawIkRA
 prawibAXaka
 prawihAraka
@@ -278,7 +280,6 @@ ramaNIya
 ramya
 rotikA
 sWAna
-suwam
 saFcAraka
 saFcArikA
 saFjaya
@@ -306,6 +307,7 @@ sevikA
 sewu
 snAna
 sqRti
+suwam
 syanxana
 ucyaw
 upAsaka
@@ -317,9 +319,9 @@ uwsava
 vASaka
 vASakam
 vAcaka
-vAkya
 vAhaka
 vAhana
+vAkya
 vAraka
 vAsaka
 vAtikA
@@ -372,7 +374,7 @@ xaMSaka
 xarSaka
 xarSana
 xarpaka
-zxayiwa
+xayiwa
 xeSaka
 xrAvaka
 xravya
@@ -384,6 +386,7 @@ yAjaka
 yAna
 yanwraka
 yaw
+yojana
 yuxXA
 yuxXa
 zupAya

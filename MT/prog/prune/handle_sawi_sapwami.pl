@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2010-2022 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2010-2023 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -40,7 +40,7 @@ while($in = <STDIN>){
              $found = 0;
              foreach ($j=0; $j<=$#in; $j++){
                if($j != $k) {
-                  if ($in[$j] =~ /viBakwiH:7/) { 
+                  if (($in[$j] =~ /viBakwiH:7/) && ($in[$j] !~ /kqw_prawyayaH:(kwa|kwavawu|Sawq|SAnac)/)) { 
                       $found = 1;
                   }
                } 

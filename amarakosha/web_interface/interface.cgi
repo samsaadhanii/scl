@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2010-2022 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2010-2023 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -24,6 +24,8 @@ use utf8;
 
 require "../paths.pl";
 require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+require "$GlblVar::SCLINSTALLDIR/MT/prog/morph/web_interface/scripts.pl";
+require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 
 #use CGI qw( :standard );
 
@@ -45,11 +47,13 @@ my $relation=$param{relation};
 my $encoding=$param{encoding};
 my $out_encoding=$param{out_encoding};
 
-print "<script>\n";
-print "function generate_noun_forms(prAwi,lifga,$encoding,$out_encoding){\n";
-print "  window.open('/cgi-bin/scl/skt_gen/noun/noun_gen_web.cgi?encoding=$encoding&rt='+prAwi+'&gen='+lifga+'&jAwi='nA'&level=1&outencoding=out_encoding'+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
-print "}\n";
-print "</script>\n";
+#print "<script>\n";
+#print "function generate_noun_forms(prAwi,lifga,$encoding,$out_encoding){\n";
+#print "  window.open('/cgi-bin/scl/skt_gen/noun/noun_gen_web.cgi?encoding=$encoding&rt='+prAwi+'&gen='+lifga+'&jAwi='nA'&level=1&outencoding=out_encoding'+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
+#print "}\n";
+#print "</script>\n";
+
+&printscripts();
 
   if($GlblVar::LOG eq "true"){
     print TMP1 $ENV{'REMOTE_ADDR'},"\t",$ENV{'HTTP_USER_AGENT'},"\n";
