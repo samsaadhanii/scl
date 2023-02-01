@@ -191,7 +191,7 @@ if($an=~/(.*)H\+([SRs])([KPCTWctwkpSRs])(.*)/){ $ans="$1 $2$3$4: $1H $2$3$4: $1$
 if($an=~/^sam\+rAt/){ $ans="samrAt";$ans1="mawva";$ans2="mo rAji samaH kvO (8.2.35)";$cont=0;}
 
 if($an=~/(.*)m\+hm(.*)/){ 
-   $ans ="$1n hm$2: $1M hm$";
+   $ans ="$1n hm$2: $1M hm$2";
    $ans1="mawva: anusvAraH";
    $ans2="he mapare vA (8.3.26): moZnusvAraH (8.3.23)";
    $cont=0;
@@ -205,7 +205,7 @@ if($an=~/(.*)m\+h([yvl])(.*)/){
 }
 
 if($an=~/(.*)m\+hn(.*)/){ 
-   $ans ="$1n hn$2: $1M hn$";
+   $ans ="$1n hn$2: $1M hn$2";
    $ans1="nawva: anusvAraH";
    $ans2="na pare naH (8.3.27): moZnusvAraH (8.3.23)";
    $cont=0;
