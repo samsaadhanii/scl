@@ -134,10 +134,10 @@ my $ans = "";
 					$result =~ s/<citation>/(/g;
 					$result =~ s/<\/citation>/)/g;
 					$result =~ s/<segmenthd>//g;
-					$result =~ s/<subsegmenthd>/<div style=\"background:green;\">/g;
+					$result =~ s/<subsegmenthd>/<div style=\"background:LightCyan;\">/g;
 					$result =~ s/<\/subsegmenthd>/<\/DIV><\/BR>/g;
 					$result =~ s/<sense no?=\"([0-9]+)\">/<\/BR>$1. /g;
-					$result =~ s/<compound>/<div style=\"background:pink;\">/g;
+					$result =~ s/<compound>/<div style=\"background:Snow;\">/g;
 					$result =~ s/<\/compound>/<\/DIV><\/BR>/g;
 					$result =~ s/<\/?[a-z]+>//g;
 					$result =~ s/<\/DIV>/<\/div>/g;
@@ -163,7 +163,8 @@ my $result = "";
                         $lines =~ s/<kind_of>[^<]+<\/kind_of>//g;
                         $lines =~ s/<is_a_part>[^<]+<\/is_a_part>//g;
                         $lines =~ s/<dentry>[^<]+<\/dentry>//g;
-			$result .= "<div style=\"background:cyan;\">".  $lines. "<\/DIV> <\/BR>";
+			#$result .= "<div style=\"background:cyan;\">".  $lines. "<\/DIV> <\/BR>";
+			$result .= "<div>".  $lines. "<\/DIV> <\/BR>";
 #		}
 	}
 $result;
