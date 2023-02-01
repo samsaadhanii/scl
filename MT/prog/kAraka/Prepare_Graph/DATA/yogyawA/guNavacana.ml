@@ -198,6 +198,8 @@ value guNavacana_list = [
 "kqwakqwya";
 "kqwsna";
 "kulIna";
+"kuSala";
+"kuSalA";
 "laGu";
 "lafkA";
 "lavaNa";

@@ -18,6 +18,7 @@ value apAxAna_XAwu_list = [
 "BI1 ";
 "Bram1";
 "BrI1";
+"BraMs1";
 "BU1";
 "Buj1";
 "Byas1";
@@ -89,6 +90,7 @@ value apAxAna_XAwu_list = [
 "upa_As1";
 "upa_ram1";
 "uw_BU1";
+"uw_gQ1";
 "uw_kram1";
 "uw_pax1";
 "uw_RWA1";
