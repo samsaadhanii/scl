@@ -878,7 +878,7 @@ value wifkarwA_karma m1 m2 text_type = match m2 with
                              && not (member_of (word1^" "^string_of_int(viBakwiH1)) kriyAviSeRaNas)
                              then if members_of rt2 upasarga2 karwqsamAnAXikaraNa_verbs
                              then [ Relation (id1,mid1,"karwA_be_verbs",id2,mid2,"2.2", d)]  
-                             else if member_of rt2 non_neuter_kartaa_dhaatu_list 
+                             else if members_of rt2 upasarga2 non_neuter_kartaa_dhaatu_list 
                                   then if not (lifgam1="napuM") then
 				    [ Relation (id1,mid1,"karwA",id2,mid2,"2.2a", d)]  
 				  else []
@@ -1061,6 +1061,25 @@ value rlwifkarwA_karma m1 m2 text_type = match m2 with
   ]
 ;
 
+value rlafgavikAra m1 m2 text_type = match m2 with
+   [ Sup (id2,mid2,_,rt2,_,_,_,_,_,_)
+   | Kqw (id2,mid2,_,_,_,_,_,_,_,_,rt2,_,_,_,_,_,_)
+   | WaxXiwa (id2,mid2,_,rt2,_,_,_,_,_,_,_) -> 
+      match m1 with
+      [ Sup (id1,mid1,_,rt1,_,_,_,viBakwiH1,_,_)
+      | Kqw (id1,mid1,_,_,_,_,_,_,_,_,rt1,_,_,_,viBakwiH1,_,_)
+      | WaxXiwa (id1,mid1,_,rt1,_,_,_,_,viBakwiH1,_,_) ->
+       let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
+       if   rt2 = get_assoc rt1 afgavikaara_list 
+         && (id1 = previous id2 || id1 = next id2)
+         && viBakwiH1 = 3
+       then [ Relation (id1,mid1,"afgavikAraH",id2,mid2,"11.1",d12)] 
+       else []
+      | _ -> []
+      ]
+   | _ -> []
+   ]
+;
 (* To add
 
 number: 1,2,3 => if 1+1 then 2 else 3
@@ -1238,7 +1257,9 @@ Counter example: sarva-BUwa-hiwe rawAH *)
                        (* && not (member_of rt1 guNavacana)
                         * why this condition? counter example: bAlena XavalI-kqwam *)
                     then
-                      [ Relation (id1,mid1,"karwA",id2,mid2,"3.9",d12)] (* karwq_karaNayoH_wqwIyA rAmeNa granWaH paTiwaH*) 
+			let rel = rlafgavikAra m1 m2 text_type in
+			if rel = [] then [ Relation (id1,mid1,"karwA",id2,mid2,"3.9",d12)] (* karwq_karaNayoH_wqwIyA rAmeNa granWaH paTiwaH*) 
+                        else []
                     else []
                | _ -> []
                ]
@@ -1509,7 +1530,9 @@ value anaBihiwe m1 m2 id1 mid1 rt1 word1 uwwarapaxa1 lifgam1 viBakwiH1 id2 mid2 
                                             then [ Relation (id1,mid1,"karma",id2,mid2,"4.9",d12) ]
                                             else [ Relation (id1,mid1,"hewuH",id2,mid2,"4.10",d12) ]
                                    else (* if not (member_of rt1 guNa_not_guNavacana) *)
-                                           [ Relation (id1,mid1,"hewuH",id2,mid2,"4.11",d12) ] (* annena vasawi *) 
+					let rel = rlafgavikAra m1 m2 text_type in
+                                        if rel = [] then [ Relation (id1,mid1,"hewuH",id2,mid2,"4.11",d12) ] (* annena vasawi *) 
+					else []
            (* anaBihiwa karwA -> rlanaBihiwakarwA *)
        | 4 ->  if members_of rt2 upasarga2 sampraxAna_verbs
                (*then if member_of rt1 animate_nouns
@@ -1607,6 +1630,7 @@ e.g. saH prAwaH BramaNAya gacCawi -- Amruta   14 July 2020
           (* Need an example where the kwAnwa is not at the end, and has a relation with kamboXya, in Sloka form. This was overgenerating solutions. Only when an example is provided, we can uncomment this condition 
            * || text_type="Sloka")  *)
                  && ((id1 < 2 && text_type = "Prose") || text_type = "Sloka")
+                 && (member_of rt1 manuRyasaFjFAvAcI || member_of rt1 upAXi || compound word1 uwwarapaxa1)
                (* To establish a relation between rAma and gawaH in 'rAma saH gawaH', but to stop such a relation in 'rAma gawaH saH mama puwraH aswi. *)
     (*           
 Counter ex for napum: anawa-rUpa wvayA viSvam wawam
@@ -1932,25 +1956,6 @@ value rlaXikaraNam m1 m2 text_type = match m2 with
    ]
 ;
 
-value rlafgavikAra m1 m2 text_type = match m2 with
-   [ Sup (id2,mid2,_,rt2,_,_,_,_,_,_)
-   | Kqw (id2,mid2,_,_,_,_,_,_,_,_,rt2,_,_,_,_,_,_)
-   | WaxXiwa (id2,mid2,_,rt2,_,_,_,_,_,_,_) -> 
-      match m1 with
-      [ Sup (id1,mid1,_,rt1,_,_,_,viBakwiH1,_,_)
-      | Kqw (id1,mid1,_,_,_,_,_,_,_,_,rt1,_,_,_,viBakwiH1,_,_)
-      | WaxXiwa (id1,mid1,_,rt1,_,_,_,_,viBakwiH1,_,_) ->
-       let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
-       if   rt2 = get_assoc rt1 afgavikaara_list 
-         && (id1 = previous id2 || id1 = next id2)
-         && viBakwiH1 = 3
-       then [ Relation (id1,mid1,"afgavikAraH",id2,mid2,"11.1",d12)] 
-       else []
-      | _ -> []
-      ]
-   | _ -> []
-   ]
-;
 (* ;saH prasannaH BUwvA mAwaram avaxaw. 
  ;saH api paramAwmA iva pUrNaH Baviwum icCawi
 ;   saH prasannaH aBavaw.
@@ -3738,41 +3743,43 @@ value rlavy_wif_mA m1 m2 text_type = match m2 with
  wasya bahu-SakwiH ugra-SakwiH ananwa-SakwiH ca iwi wrayaH puwrAH Asan
    api ca miwraprApwi-miwraBexa-kAkolUkIya-labXapraNASa-aparIkRiwa-kArakANi iwi paFca wanwrANi racayiwvA wAn pATiwavAn *) 
 value rl_nAma m1 m2 m3 text_type = match m3 with
-  [ Sup (id3,mid3,_,rt3,_,_,_,viBakwiH3,vacanam3,_)
-  | Kqw (id3,mid3,_,_,_,_,_,_,_,_,rt3,_,_,_,viBakwiH3,vacanam3,_)
-  | WaxXiwa (id3,mid3,_,rt3,_,_,_,_,viBakwiH3,vacanam3,_) -> match m1 with
+  [ Sup (id3,mid3,_,rt3,_,_,lifgam3,viBakwiH3,vacanam3,_)
+  | Kqw (id3,mid3,_,_,_,_,_,_,_,_,rt3,_,_,lifgam3,viBakwiH3,vacanam3,_)
+  | WaxXiwa (id3,mid3,_,rt3,_,_,_,lifgam3,viBakwiH3,vacanam3,_) -> match m1 with
 
-       [ Sup (id1,mid1,_,rt1,_,_,_,viBakwiH1,_,_)
-       | Kqw (id1,mid1,_,_,_,_,_,_,_,_,rt1,_,_,_,viBakwiH1,_,_)
-       | WaxXiwa (id1,mid1,_,rt1,_,_,_,_,viBakwiH1,_,_) ->  
-       let  d13 = if id1 > id3 then id1-id3 else id3-id1 in
-       match m2 with
-
+       [ Sup (id1,mid1,_,rt1,_,_,lifgam1,viBakwiH1,_,_)
+       | Kqw (id1,mid1,_,_,_,_,_,_,_,_,rt1,_,_,lifgam1,viBakwiH1,_,_)
+       | WaxXiwa (id1,mid1,_,rt1,_,_,_,lifgam1,viBakwiH1,_,_) ->  
+	if lifgam1 = lifgam3 then
+        let  d13 = if id1 > id3 then id1-id3 else id3-id1 in
+        match m2 with
              [ Avy (id2,mid2,word2,_,_,_,_) ->
+               let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
                if  (word2="nAma" || word2="iwi") (* we can have mArIca nAma rAkRaseNa ... paFca wanwrANi racayiwvA ...*)
-               then if id2 < id3 (* This need not be just before the category
+               then if (* id2 < id3 ; This need not be just before the category
                     e.g. X nAma ekam nagaram  -- see the presence of ekam! 
+			id2 need not be < id3; rAkRasaM saMxaxarSa kabanXa nAma; here RAkRasaM (id3) is before nAma (id2)
                     nAma1 -- similar to prawiyogi;
                     nAma2 -- similar to anuyogi  *)
-                    && not (member_of rt3 saMKyeya)
+                    not (member_of rt3 saMKyeya)
                     && (not (pronominal123 rt3) || rt3="kim")
                     && not (rt3="kiFciw" || rt3="kiFcana") 
                     then if id1=previous id2 && word2="nAma" && viBakwiH1=viBakwiH3
                          then [ Relation (id1,mid1,"saFjFA",id3,mid3,"39.2",d13)
-                              ;  Relation (id2,mid2,"saFjFA_xyowakaH",id1,mid1,"39.3",d13)]
+                              ;  Relation (id2,mid2,"saFjFA_xyowakaH",id1,mid1,"39.3",d12)]
                          else if word2="iwi" && viBakwiH1=1
                               then if (id1=previous id2) && vacanam3="eka" 
                                    then [ Relation (id1,mid1,"saFjFA",id3,mid3,"39.4",d13)
-                                        ;  Relation (id2,mid2,"saFjFA_xyowakaH",id1,mid1,"39.5",d13)]
+                                        ;  Relation (id2,mid2,"saFjFA_xyowakaH",id1,mid1,"39.5",d12)]
                                    else if (id1 < id2) && vacanam3="bahu" 
                                    then [ Relation (id1,mid1,"Gataka",id3,mid3,"39.6",d13)
-                                       ;  Relation (id2,mid2,"Gataka_xyowakaH",id1,mid1,"39.7",d13)]
+                                       ;  Relation (id2,mid2,"Gataka_xyowakaH",id1,mid1,"39.7",d12)]
                                    else []
                               else []
                     else []
                 else []
               | _ -> []
-              ]
+              ] else []
       | _ -> []
       ]
   | _ -> []

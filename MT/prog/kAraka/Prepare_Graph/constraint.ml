@@ -345,8 +345,8 @@ value no_crossing text_type rel m1 m2=match m1 with
           where karaNa and sup_samucciwaH cross *)
              && not (r1=101 || r1=102 || r1=22 || r1=49 || r1=28 || r1=30 || r1=33)
              && not (r2=101 || r2=102 || r2=22 || r2=49 || r2=29 || r2=30 || r2=33)
-             && (((not ((r1=36) || (r1=37) || (r1=38) || (r1=80) || (r1=9) ||
-                     (r2=36) || (r2=37) || (r2=38) || (r2=80) || (r2=9)))
+             && (((not ((r1=36) || (r1=37) || (r1=38) || (r1=80) || (r1=9) || (r1=53) ||
+                     (r2=36) || (r2=37) || (r2=38) || (r2=80) || (r2=9) || (r2=53)))
                     && text_type="Sloka")
                  || (text_type="Prose" && not (r1=9 || r2=9))) 
              && not (r1=6 && r2=40) (* prayojana and karwA crossing allowed. EG wvaM samarWaH asi jFAwum evaMviXaM naraM *)
@@ -438,6 +438,7 @@ value not_allowed_sequence_rels rpair = match rpair with
   |(36,50)
   |(38,26)
   |(50,26)
+  |(53,36) (* viSeRaNa of saFjFA not allowed *)
   (*|(38,36) -- removed, since viSeRaNa of RaRTI is possible as in vIrasya rAmasya puwraH *)
   |(50,36)
    (* a viSeRaNa of a viSeRaNa is not allowed *)
