@@ -45,8 +45,9 @@ AyuRmanwam	AyuRmat<vargaH:nA><lifgam:puM><viBakwiH:2><vacanam:eka><level:1>
 BIruwvam	BIruwva<vargaH:nA><lifgam:napuM><viBakwiH:2><vacanam:eka><level:1>/BIruwva<vargaH:nA><lifgam:napuM><viBakwiH:1><vacanam:eka><level:1>
 BUH	BU1<prayogaH:karwari><lakAraH:mA_luf><puruRaH:ma><vacanam:eka><paxI:parasmEpaxI><XAwuH:BU><gaNaH:BvAxiH><level:1>
 BUmipO	BUmipa<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:xvi><level:1>
-BaRamANAn	BaR1<kqw_prawyayaH:SAnac><XAwuH:BaRaz><gaNaH:BvAxiH><kqw_pratipadika:BaRamANa><vargaH:nA><lifgam:puM><viBakwiH:2><vacanam:bahu><level:1>
-BaRamANaH	BaR1<kqw_prawyayaH:SAnac><XAwuH:BaRaz><gaNaH:BvAxiH><kqw_pratipadika:BaRamANa><vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
+mArgamANaH	mArg1<kqw_prawyayaH:SAnac_lat><XAwuH:mArga><gaNaH:curAxiH><kqw_pratipadika:mArgamANa><vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
+BaRamANAn	BaR1<kqw_prawyayaH:SAnac_lat><XAwuH:BaRaz><gaNaH:BvAxiH><kqw_pratipadika:BaRamANa><vargaH:nA><lifgam:puM><viBakwiH:2><vacanam:bahu><level:1>
+BaRamANaH	BaR1<kqw_prawyayaH:SAnac_lat><XAwuH:BaRaz><gaNaH:BvAxiH><kqw_pratipadika:BaRamANa><vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 BakRayiwvA	BakR2<vargaH:avy><sanAxi_prawyayaH:Nic><kqw_prawyayaH:kwvA><XAwuH:BakRaz><gaNaH:curAxiH><level:1>/BakR2<vargaH:avy><kqw_prawyayaH:kwvA><XAwuH:BakRaz><gaNaH:curAxiH><level:1>
 BakRiwavAn	BakRiwavaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 BarawarRaBa	BarawarRaBa<vargaH:nA><lifgam:puM><viBakwiH:8><vacanam:eka><level:1>
@@ -64,7 +65,7 @@ KAxayanwaH	KAxayaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:bahu><level:1>
 SaMsasi	SaMs1<prayogaH:karwari><lakAraH:lat><puruRaH:ma><vacanam:eka><paxI:parasmEpaxI><XAwuH:SaMsuz><gaNaH:BvAxiH><level:1>
 SaSakaH	SaSaka<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 Samayiwum	Sam1<vargaH:avy><sanAxi_prawyayaH:Nic><kqw_prawyayaH:wumun><XAwuH:Samu><gaNaH:xibAxiH><level:1>
-SayAna	SI1<kqw_prawyayaH:SAnac><XAwuH:SIf><gaNaH:axAxiH><level:1>
+SayAna	SI1<kqw_prawyayaH:SAnac_lat><XAwuH:SIf><gaNaH:axAxiH><level:1>
 SikRayiwum	SikR1<vargaH:avy><sanAxi_prawyayaH:Nic><kqw_prawyayaH:wumun><XAwuH:SikRa><gaNaH:BvAxiH><level:1>
 SqNvan	SqNvaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 SqNvawaH	SqNvaw<vargaH:nA><lifgam:puM><viBakwiH:2><vacanam:bahu><level:1>/SqNvaw<vargaH:nA><lifgam:puM><viBakwiH:5><vacanam:eka><level:1>/SqNvaw<vargaH:nA><lifgam:puM><viBakwiH:6><vacanam:eka><level:1>

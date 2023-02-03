@@ -151,17 +151,22 @@ while(($in = <STDIN>) && !$solnfound){
             }
             $k_rel_nm = $kAraka_name{$rel_nm};
             if (&cluster_relations($k_rel_nm) || $rel_nm == 0) {
-              if($cluster[$cluster_no] =~ /#$d_w_no;$d_w_a_no,/) {
-                 if($cluster[$cluster_no] !~ /#$s_w_no;$s_w_a_no,/) {
-                    $cluster[$cluster_no] .= "#".$s_w_no.";".$s_w_a_no.",";
+	      $cluster_found = 0;
+              for($j=0;$j<=$cluster_no;$j++){
+                 if($cluster[$j] =~ /#$d_w_no;$d_w_a_no,/) {
+                    if($cluster[$j] !~ /#$s_w_no;$s_w_a_no,/) {
+                       $cluster[$j] .= "#".$s_w_no.";".$s_w_a_no.",";
+                       $is_cluster = 1;
+                    }
+                    $cluster_found = 1;
+                 }
+              } 
+                 if($cluster_found == 0) {
+                    $cluster_no++;
+                    $cluster[$cluster_no] = "#".$s_w_no.";".$s_w_a_no.",";
+                    $cluster[$cluster_no] .= "#".$d_w_no.";".$d_w_a_no.",";
                     $is_cluster = 1;
                  }
-              } else {
-                 $cluster_no++;
-                 $cluster[$cluster_no] = "#".$s_w_no.";".$s_w_a_no.",";
-                 $cluster[$cluster_no] .= "#".$d_w_no.";".$d_w_a_no.",";
-                 $is_cluster = 1;
-             }
            } 
            if ($is_cluster == 0) {
                  if($non_cluster !~ /#$s_w_no;$s_w_a_no,/) {
