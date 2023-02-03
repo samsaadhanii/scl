@@ -1,5 +1,6 @@
 value non_neuter_kartaa_dhaatu_list = [
+"iR2";
 "jFA1";
-"iR2"
+"sam_xqS1";
 ]
 ;

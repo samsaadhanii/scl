@@ -13,6 +13,7 @@ value afgavikaara_list = [
 ("pAxa","KaFja");
 ("pAxa","kuNi");
 ("pqRTa","kubja");
+("rUpa","vikqwa");
 ("Srowra","baXira");
 ("wvac","kuRTa")
 ]

@@ -126,7 +126,7 @@ value kriyAviSeRaNa_list =
 ("purA avy");
 ("puraH avy");
 ("pUrvakam 2");
-("rUpeNa 3");
+("zrUpeNa 3"); (* Need an example for rUpeNa to be a kriyAviSeRaNa *)
 ("safgraheNa 3");
 ("sahasA avy");
 ("saha avy");
