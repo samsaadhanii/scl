@@ -329,7 +329,7 @@ value single_relation_label m1 m2= match m1 with
 value no_crossing text_type rel m1 m2=match m1 with
     [ Relationc (to_id1,to_mid1,r1,from_id1,from_mid1,dist1) -> match m2 with
       [Relationc (to_id2,to_mid2,r2,from_id2,from_mid2,dist2) -> 
-           (* Crossing edges not allowed except niwya_sambanXaH (=101,102) and samucciwa (=53) , upamAnaxyowakaH (=80) in some cases*)
+           (* Crossing edges not allowed except niwya_sambanXaH (=101,102) and samucciwa (=32) , upamAnaxyowakaH (=80) in some cases*)
            (* Crossing edges allowed even with RaRTI(=38), ViSeRaNa(=36) and aBexaH (=37) *)
          if  (   (    between to_id1 to_id2 from_id2
                    || between from_id1 to_id2 from_id2
