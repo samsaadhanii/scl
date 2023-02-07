@@ -13,7 +13,7 @@ while($in = <STDIN>){
   @flds = split(/\t/,$in);
   if($count > 1) { print "},\n";}
   print "{\n";
-  for ($i=0;$i<$tot_columns;$i++) {
+  for ($i=0;$i<$tot_columns-1;$i++) { # -1 since we do not want to produce the karwari output generated only for translation purpose
    print "\"$names[$i]\":\"$flds[$i]\",\n";
   } 
    print "\"$names[$#flds]\":\"$flds[$#flds]\"\n";
