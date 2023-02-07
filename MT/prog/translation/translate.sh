@@ -19,4 +19,4 @@
 
 
 SCLINSTALLDIR=$1
-cut -f1,18 | $SCLINSTALLDIR/MT/prog/translation/translate.out | $2 $1
+cut -f1,19 | $SCLINSTALLDIR/MT/prog/translation/translate.out | $2 $1

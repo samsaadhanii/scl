@@ -129,10 +129,10 @@ close(TMP);
 
 $wrd_fld = 3; #starting from 0;
 #$parse_ana_fld = 8; #starting from 0;
-$morph_kaaraka_anal = 13; #starting from 0;
-$ana_fld_for_calling_gen_after_lwg = 15; #starting from 0;
-$ana_fld_for_calling_gen_after_lwg_karwari = 16; #starting from 0;
-$flds = 16; # Starting from 0;
+$morph_kaaraka_anal = 14; #starting from 0;
+$ana_fld_for_calling_gen_after_lwg = 16; #starting from 0;
+$ana_fld_for_calling_gen_after_lwg_karwari = 17; #starting from 0;
+$flds = 17; # Starting from 0;
 
 #Read whole sentence
 $/ = "\n\n";

@@ -51,9 +51,10 @@ while($in = <STDIN>){
  @f = split(/\t/,$in);
 
  if($in) {
-   my $out = &call_gen($f[15],"ON","NOT");
-   print $out,"\t";
    my $out = &call_gen($f[16],"ON","NOT");
+   print $out,"\t";
+## next lines are for karwari prayoga output
+   my $out = &call_gen($f[17],"ON","NOT");
    print $out;
  } 
  print "\n";

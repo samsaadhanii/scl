@@ -57,24 +57,24 @@ while($in = <STDIN>){
     $i = 0;
     while($i < $#in) {
        @f = split(/\t/,$in[$i]);
-       $last[$i] = $f[11];
+       $last[$i] = $f[12];
        @s = split(/\t/,$in[$i+1]);
-       $last[$i+1] = $s[11];
+       $last[$i+1] = $s[12];
 #Join two words where first word has lat lakaara, and the second word is `sma'
 #or the first word is a kqw with the next word as any form of `as'.
-       if(($f[11] =~ /<lakAraH:lat>/) &&
-          ($s[11] =~ /<word:sma><rt:sma><vargaH:avy><level:1>/)) {
-           if ($s[11] =~ /<rel_nm:([^>]+)><relata_pos:([^>]+)>/){
+       if(($f[12] =~ /<lakAraH:lat>/) &&
+          ($s[12] =~ /<word:sma><rt:sma><vargaH:avy><level:1>/)) {
+           if ($s[12] =~ /<rel_nm:([^>]+)><relata_pos:([^>]+)>/){
                $rel_nm = $1;
                $relata_pos = $2;
                $last[$i] =~ s/<lakAraH:lat>/<lakAraH:lat_sma>/;
                $last[$i+1] = "-";
            }
        }
-       elsif(($f[11] =~ /<kqw_prawyayaH:Sawq_lat>/) &&
-          ($s[11] =~ /<rt:as[123]>.*<lakAraH:(l[auiq][tf]|ASIrlif)>/)) {
-          $f[11] =~ s/<kqw_prawyayaH:Sawq_lat>/<kqw_prawyayaH:Sawq_lat_$1>/;
-           if($s[11] =~ /<rel_nm:([^>]+)><relata_pos:([^>]+)>/){
+       elsif(($f[12] =~ /<kqw_prawyayaH:Sawq_lat>/) &&
+          ($s[12] =~ /<rt:as[123]>.*<lakAraH:(l[auiq][tf]|ASIrlif)>/)) {
+          $f[12] =~ s/<kqw_prawyayaH:Sawq_lat>/<kqw_prawyayaH:Sawq_lat_$1>/;
+           if($s[12] =~ /<rel_nm:([^>]+)><relata_pos:([^>]+)>/){
               $rel_nm = $1;
               $relata_pos = $2;
               $last[$i+1] = "-";

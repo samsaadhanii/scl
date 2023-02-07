@@ -80,26 +80,27 @@ shaabdabodha () {
   $ANU_MT_PATH/kAraka/shabdabodha.sh $SCLINSTALLDIR $GraphvizDot $temp_files_path $fbn.out $fbn.kAraka $OUTSCRIPT $PARSE $TEXT_TYPE
 # Field 9: morph analysis corresponding to the kaaraka role
 # Field 10: kaaraka role
+# Field 11: all possible relations
 }
 
 anaphora () {
-# anaphora in the 11th field
+# anaphora in the 12th field
      $ANU_MT_PATH/anaphora/anaphora.pl $SCLINSTALLDIR $ANU_MT_PATH/anaphora < $temp_files_path/$fbn.out > $temp_files_path/tmp
      mv $temp_files_path/tmp $temp_files_path/$fbn.out
 }
 
 wsd () {
-# wsd in the 12th field
+# wsd in the 13th field
     $ANU_MT_PATH/wsd/wsd_rules.sh $SCLINSTALLDIR $temp_files_path $fbn.out $fbn.wsd $fbn.wsd_upapaxa
 }
 
 ###########
 
 ### Map to hindi
-# Color Code in the 13th field
-# Chunk/LWG in the 14th field
-# map o/p in the 15th field and lwg o/p in 16th field and lwg o/p with karwari in 17th field
-# gen o/p in the 18th field and with karwari in 19th field
+# Color Code in the 14th field
+# Chunk/LWG in the 15th field
+# map o/p in the 16th field and lwg o/p in 17th field and lwg o/p with karwari in 18th field
+# gen o/p in the 19th field and with karwari in 20th field
 
 hnd_gen () {
     $ANU_MT_PATH/interface/add_colorcode.pl < $temp_files_path/$fbn.out |\

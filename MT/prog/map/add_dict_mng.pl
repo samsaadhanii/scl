@@ -105,7 +105,7 @@ while($tmpin = <STDIN>){
   if ($tmpin =~ /./) {
   @f = split(/\t/,$tmpin);
   $kAraka = $f[9];
-  $in = $f[13];
+  $in = $f[14];
   $ans = "";
 
   $in =~ s/\/.*//;
