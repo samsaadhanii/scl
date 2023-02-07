@@ -176,7 +176,7 @@ else
 
     fi # If Morph = UoHyd ends here
 
-    if [ $MORPH = "GH_auto" ] ; then
+    if [ $MORPH = "Heritage_auto" ] ; then
       sandhi_splitter
     fi
 
