@@ -19,8 +19,8 @@
 # 19: gen o/p
 # 20: gen o/p with karwari
 
-print "\@index\t\@word\t\@poem\t\@sandhied_\@word\t\@morph_\@analysis\t\@morph_\@in_\@context\t\@kaaraka_\@sambandha\t\@hindi_\@meaning\t\@English_\@meaning\t\@samAsa\t\@prayoga\t\@sarvanAma\t\@Name-\@classification\n";
-#print "index\tword\tpoem\tsandhied_word\tmorph_analysis\tmorph_in_context\tkaaraka_sambandha\thindi_meaning\tEnglish_meaning\tsamAsa\tprayoga\tsarvanAma\tName-classification\n";
+print "\@index\t\@word\t\@poem\t\@sandhied_\@word\t\@morph_\@analysis\t\@morph_\@in_\@context\t\@kaaraka_\@sambandha\t\@possible_\@relations\t\@hindi_\@meaning\t\@English_\@meaning\t\@samAsa\t\@prayoga\t\@sarvanAma\t\@Name-\@classification\n";
+#print "index\tword\tpoem\tsandhied_word\tmorph_analysis\tmorph_in_context\tkaaraka_sambandha\t\tpossible_relations\thindi_meaning\tEnglish_meaning\tsamAsa\tprayoga\tsarvanAma\tName-classification\n";
 
 while($in = <STDIN>){
 chomp($in);
@@ -53,9 +53,10 @@ if($in) {
   if($grpwith == $flds[0]) {
 # When the current word is to be grouped with the previous word
     $relation = $flds[2]."_".$flds[9];
+    $poss_relation = $tmp_poss_rel."_".$flds[10];
     $mng = $tmpmng."_".$flds[18];
     $mng1 = $tmpmng1."_".$flds[19];
-    print $tmpgrp,$relation,"\t",$mng,"\t",$mng1,"\n";
+    print $tmpgrp,$relation,"\t",$poss_relation,"\t",$mng,"\t",$mng1,"\n";
     $tmpgrp = "";
     $tmpmng = "";
     $tmpmng1 = "";
@@ -64,12 +65,13 @@ if($in) {
     $relation = "";
   } elsif ($flds[9] !~ /^,/) {  
 ## When the relation is not blank
-    print $flds[0],"\t",$flds[2],"\t\t",$flds[3],"\t",$flds[6],"\t",$flds[8],"\t",$flds[9],"\t",$flds[18],"\t",$flds[19],"\n";
+    print $flds[0],"\t",$flds[2],"\t\t",$flds[3],"\t",$flds[6],"\t",$flds[8],"\t",$flds[9],"\t",$flds[10],"\t",$flds[18],"\t",$flds[19],"\n";
   } else {
 ## When the relation is blank -- that is the current word is to be grouped with the following word
     $tmpgrp = $flds[0]."\t".$flds[2]."\t\t".$flds[3]."\t".$flds[6]."\t".$flds[8]."\t";
     $grpwith = $flds[9];
     $grpwith =~ s/,//;
+    $tmp_poss_rel = $flds[10];
     $tmpmng = $flds[18];
     $tmpmng1 = $flds[19];
   }
