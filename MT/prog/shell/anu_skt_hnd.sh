@@ -208,13 +208,14 @@ fi
 # 6-8: morph
 # 9: morph in context
 # 10: kaaraka role
-# 11: Anaphora
-# 12: WSD
+# 11: possible relations
+# 12: Anaphora
+# 13: WSD
 # ** 13: POS
-# 13: Color code
-# 14: Chunk/LWG
-# 15:  map o/p
-# 16: lwg o/p
-# 17: lwg o/p with karwari
-# 18: gen o/p
-# 19: gen o/p with karwari
+# 14: Color code
+# 15: Chunk/LWG
+# 16:  map o/p
+# 17: lwg o/p
+# 18: lwg o/p with karwari
+# 19: gen o/p
+# 20: gen o/p with karwari
