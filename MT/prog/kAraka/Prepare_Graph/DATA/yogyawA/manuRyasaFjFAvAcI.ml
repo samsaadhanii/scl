@@ -2,12 +2,13 @@ value manuRyasaFjFAvAci = [
 "BArawa";
 "Barawa";
 "SabarI";
+"SakuntalA";
 "SawqGna";
 "balarAma";
-"nala";
-"SakuntalA";
 "lakRmaNa";
+"kEkayI";
 "maXusUxana";
+"nala";
 "rAGava";
 "rAma";
 "sIwA";
