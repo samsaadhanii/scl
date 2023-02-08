@@ -26,30 +26,33 @@ var rows_visibility = [
 0, // row4
 1, // row5
 0, // row6
-1, // row7
-0, // row8
+0, // row7
 1, // row8
+1, // row9
+1, // row10
 ]; // The array can be of different size than the number of rows at hand
 
 var row_labels = [
 "Sanskrit Original(A)",
 "Morph Analysis (Monier Williams)(B)",
-"Morph Analysis (Apte)(C)",
+"Sanskrit:sandhied(C)",
 "Morph Analysis pruned (D)",
 "Morph in Context (E)",
 "kAraka-relations (F)",
-"Hindi Generation (G)",
-"Hindi Generation kartari (H)",
-"Original Word Order (I)",
+"possible-relations (G)",
+"Hindi Generation (H)",
+"Hindi Generation kartari (I)",
+"Original Word Order (J)",
 ];
 
 var row_descriptions = [
 "Original Sanskrit text",
 "Shows Morph analysis (with roots from Monier Williams)",
-"Gives Morph analysis (with roots from Apte)",
+"Sanskrit text, if given in Sandhied form",
 "Gives Morph analysis (after pruning)",
 "Gives Morph analysis (in context)",
 "kAraka-relations",
+"All possible relations with this word",
 "Shows Hindi Generation",
 "Shows Hindi Generation in Kartari prayoga",
 "Shows Original Word Order",

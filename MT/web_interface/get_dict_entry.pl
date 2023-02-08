@@ -75,6 +75,7 @@ if($dic_name eq "apte"){
 elsif($dic_name eq "heritage"){
         $sword =~ s/_//;
 	$l = &get_Heritage_Index($sword);
+	#print "l = $l\n";
 	if($l eq "") {
            print "<br/> $sword not found in ";
            print "Heritage Sanskrit-French dictionary\n";

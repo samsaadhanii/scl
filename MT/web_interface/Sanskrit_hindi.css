@@ -29,6 +29,7 @@ tr.row3  { white-space: normal; display: none; }
 tr.row4  { white-space: normal; display: none; }
 tr.row5  { white-space: normal; display: ; }
 tr.row6  { white-space: normal; display: none; }
-tr.row7  { white-space: normal; display: ; }
-tr.row8  { white-space: normal; display: none; }
-tr.row9  { white-space: normal; display: ; }
+tr.row7  { white-space: normal; display: none; }
+tr.row8  { white-space: normal; display: ; }
+tr.row9  { white-space: normal; display: none; }
+tr.row10  { white-space: normal; display: ; }

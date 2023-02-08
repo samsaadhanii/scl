@@ -33,9 +33,9 @@ my $word = $param{word};
 
 print "Content-type:text/html;charset:UTF-8\n\n";
 print "[\n";
-&call_dict("apte",$word);
-&call_dict("mw",$word);
 &call_dict("heritage",$word);
+&call_dict("mw",$word);
+&call_dict("apte",$word);
 print "]\n";
 
 

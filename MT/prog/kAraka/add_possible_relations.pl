@@ -31,6 +31,7 @@ while($in = <STDIN>){
   chomp($in);
   $REL{$index} =~ s/^#//;
   $REL{$index} =~ s/#/\//g;
+  if ($REL{$index} eq "") { $REL{$indx} = "-";}
   print $in,"\t",$REL{$index},"\n";
   $index++;
 }

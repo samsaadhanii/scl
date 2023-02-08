@@ -7,7 +7,7 @@
 # 6-8: morph
 # 9: morph in context
 # 10: kaaraka role
-# 12: all possible relations
+# 11: all possible relations
 # 12: Anaphora
 # 13: WSD
 # ** 13: POS
@@ -52,7 +52,7 @@ if($in) {
 
   if($grpwith == $flds[0]) {
 # When the current word is to be grouped with the previous word
-    $relation = $flds[2]."_".$flds[9];
+    $relation = $grpwith."_".$flds[9];
     $poss_relation = $tmp_poss_rel."_".$flds[10];
     $mng = $tmpmng."_".$flds[18];
     $mng1 = $tmpmng1."_".$flds[19];
@@ -63,7 +63,8 @@ if($in) {
     $mng = "";
     $mng1 = "";
     $relation = "";
-  } elsif ($flds[9] !~ /^,/) {  
+    $poss_relation = "";
+  } elsif (($flds[9] !~ /^,/) && ($flds[10] !~ /^,/)) {  
 ## When the relation is not blank
     print $flds[0],"\t",$flds[2],"\t\t",$flds[3],"\t",$flds[6],"\t",$flds[8],"\t",$flds[9],"\t",$flds[10],"\t",$flds[18],"\t",$flds[19],"\n";
   } else {

@@ -10,7 +10,7 @@ chomp($in);
 @flds = split(/\t/,$in);
 
 $shloka_anvaya .= " ". $flds[1];
-$trans_anvaya .= " ". $flds[7];
+$trans_anvaya .= " ". $flds[8];
 $trans_anvaya =~ s/_/ /g;
 }
 $shloka_anvaya .= " ";
