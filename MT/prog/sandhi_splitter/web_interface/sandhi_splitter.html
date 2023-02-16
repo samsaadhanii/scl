@@ -50,27 +50,6 @@ setInterval(blinker, 1000);
 
 </script>
 
-<div id="description"> 
-<div class="dept-name-sandhi">
- <table>
-      <tr>
-      <td><span class="title">&nbsp;&nbsp;&nbsp;&nbsp;सन्धि-विच्छेदिका (Sandhi-Splitter)</span></td>
-      <td id="description-sandhi"> <font size="5" color="yellow">&#x261E</font> <span id="desc-hide"><font size="3">सन्धि-विच्छेदिका इत्युपकरणम् उपयोक्तुं ध्यातव्याः अंशाः <span id="focus">जुगुप्सन्ताम्</span></font></span>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-      </tr>
- </table>
-</div>
-
-<p>
-Sandhi-Splitter segments a given Sanskrit string into different meaningful components. If the input string is a compound, you may help machine reducing the search space by indicating the type of split as पदच्छेदः. In case the input string is a compound, choose the समासच्छेदः option. In case you are unsure, choose उभयोरपि.</p>
-
- <p>If more than one splittings is possible machine ranks them according to the probabilities. The detailed description of how the splits are ranked is available <a href="http://sanskrit.uohyd.ac.in/faculty/amba/PUBLICATIONS/scl_anil.pdf">here</a>. Only the most probable is displayed as a result, and other splits are available on demand. Machine also shows the morphological analysis of each of the components, when a mouse is placed over the word. </p>
-
-<br />
-<br />
-
-</div><!--description ends here -->
-
-
 
 <div class="input-dashboard-sandhi">
 
@@ -80,9 +59,6 @@ Sandhi-Splitter segments a given Sanskrit string into different meaningful compo
  <td>
  <span class="title">&nbsp;&nbsp;&nbsp;&nbsp;सन्धि-विच्छेदिका (Sandhi-Splitter)</span>
  </td>
- <td id="description-sandhi">
-  <span id="desc-sandhi"><font size="3">सन्धि-विच्छेदिका इत्युपकरणम् उपयोक्तुं ध्यातव्याः अंशाः <span id="focus2">दृश्यन्ताम् </span></font></span><font size="5" color="yellow">&#x261C;</font>&nbsp;&nbsp;&nbsp;&nbsp;
-  </td>
   </tr>
   </table>
 </div>
@@ -98,8 +74,9 @@ Sandhi-Splitter segments a given Sanskrit string into different meaningful compo
 </tr>
 <tr>
 <td>
+       Input Encoding:
        <select name="encoding"  id="encoding" onchange="livetrans()">
-        <!-- <option value="Unicode">Select Encoding</option> -->
+        <!-- <option value="Unicode">Input Encoding</option> -->
 	<option value="Unicode">Unicode-Devanagari</option>
 	<option value="WX">WX-Alphabetic</option>
 	<option value="Itrans">Itrans-5.3</option>
@@ -111,13 +88,15 @@ Sandhi-Splitter segments a given Sanskrit string into different meaningful compo
 </td>
 
 <td>
-     <select name="sandhi_type"  id="sandhi_type">
-     <!-- <option>Select Split-Type</option> -->
-     <option value="S">समासच्छेदः</option>
-     <option value="s">पदच्छेदः</option>
-     <option value="b">उभयोरपि</option> -
+       Output Encoding:
+     <select name="out_encoding"  id="out_encoding">
+     <!-- <option value="D">Output Encoding</option> -->
+     <option value="D">Devanagari</option>
+     <option value="I">IAST</option>
      </select>
 </td>
+</tr>
+<tr>
 <td>
     <input name="word" type="text" id="word"  oninput="livetrans()" placeholder="Enter the string to be split"/>
 </td>

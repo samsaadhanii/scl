@@ -20,13 +20,13 @@
 
 
 use utf8;
-require "../paths.pl";
-require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
-
-
 use strict;
 use warnings;
-#use CGI qw( :standard );
+require "../paths.pl";
+require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
+
+
 
  print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
@@ -39,36 +39,47 @@ if($GlblVar::LOG eq "true") {
    open(TMP1,">>$GlblVar::TFPATH/sandhi_splitter.log") || die "Can't open $GlblVar::TFPATH/sandhi_splitter.log for writing";
 }
 
-#print header(-type=>"text/html" , -charset=>"utf-8");
-
 my $word;
 my $encoding;
-my $sandhi_type;
 my $sandhi_splitter_out;
+my $sentences;
+my $cmd;
+my $Hscript;
+my $out_encoding;
+my $out_converter;
 
 #if (param){
   $word = $param{word};
   $encoding=$param{encoding};
-  $sandhi_type=$param{sandhi_type};
+  $out_encoding=$param{out_encoding};
+
+  if ($out_encoding eq "D") { $Hscript = "deva";}
+  if ($out_encoding eq "I") { $Hscript = "roma";}
+
+  if ($out_encoding eq "I") {$out_converter="$GlblVar::SCLINSTALLDIR/converters/wx2utf8roman.out";}
+  if ($out_encoding eq "D") {$out_converter="$GlblVar::SCLINSTALLDIR/converters/wx2utf8.sh $GlblVar::SCLINSTALLDIR";}
+
+  $sentences=&convert($encoding,$word,$GlblVar::SCLINSTALLDIR);
+  chomp($sentences);
 
   if($GlblVar::LOG eq "true"){
-     print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."encoding:$encoding\t"."word:$word\t"."sandhi_type:$sandhi_type\n";
+     print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."encoding:$encoding\t"."word:$word\n";
   }
   #}
 
-system("$GlblVar::SCLINSTALLDIR/MT/prog/sandhi_splitter/web_interface/callsandhi_splitter.pl $GlblVar::SCLINSTALLDIR $encoding $word $sandhi_type $$");
 
-if(-z "$GlblVar::TFPATH/seg_$$/full_output") {
- print "<br><center> No Sandhi Splits for the given word</center> </br>";
-} else {
-print "<div id='finalout' style='border-style:solid; border-width:1px;padding:10px;color:blue;font-size:14px;height:200px'>";
-print `/bin/cat $GlblVar::TFPATH/seg_$$/most_probable_output_utf.txt`;
-print "<script type=\"text/javascript\"> \n function toggleMe(a){ \n var e=document.getElementById(a); \n if(!e)return true; \n if(e.style.display==\"none\"){ \n e.style.display=\"block\";document.getElementById(\"more\").style.display=\"none\"; document.getElementById(\"less\").style.display=\"block\";\n } \n else{ \n e.style.display=\"none\";document.getElementById(\"less\").style.display=\"none\"; document.getElementById(\"more\").style.display=\"block\"; \n } \n return true; \n } \n </script>\n";
-
-print "<input type=\"button\" onclick=\"return toggleMe('para1')\" value=\"More\" id=\"more\"> <input type=\"button\" onclick=\"return toggleMe('para1')\" value=\"Less\" id=\"less\" style=\"display:none;\" > <div id=\"para1\" style=\"display:none; height:15px; border-style:none;border-width:1px;\"> \n";
-print `/bin/cat $GlblVar::TFPATH/seg_$$/all_possible_outputs.txt`;
-print "</div><br />";
-}
+    print "<div id='finalout' style='border-style:solid; border-width:1px;padding:10px;color:blue;font-size:14px;height:200px'>";
+    $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=$Hscript\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=s&pipeline=t&fmode=w\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI";
+    system("mkdir $GlblVar::TFPATH/seg_$$");
+    system("$cmd | $out_converter > $GlblVar::TFPATH/seg_$$/out");
+    open (TMP,"< $GlblVar::TFPATH/seg_$$/out");
+    my $ans = <TMP>; # Ignore the html header
+    $ans = <TMP>;
+    $ans = <TMP>;
+    $ans =~ s/.*": \["([^"]+).*/$1/;
+    print $ans;
+    close(TMP);
+    print "</div><br />";
 
 if($GlblVar::LOG eq "true"){
    close(TMP1);

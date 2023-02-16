@@ -44,6 +44,7 @@ if($("#text").val()==""){
 function callsandhisplitter(){
   var x = document.getElementById("encoding").value;
   var y = document.getElementById("word").value;
+  var z = document.getElementById("out_encoding").value;
   if (avalidation(x,y) == 1){return false;}
   
 if($("#word").val()==""){
@@ -52,7 +53,7 @@ if($("#word").val()==""){
                }
                else{
                		$("#output").html("कृपया प्रतीक्ष्यताम्....");
-               		$.post("/cgi-bin/scl/sandhi_splitter/sandhi_splitter.cgi",{"word":$("#word").val(),"sandhi_type":$("#sandhi_type").val(),"encoding":$("#encoding").val()},function(data){
+               		$.post("/cgi-bin/scl/sandhi_splitter/sandhi_splitter.cgi",{"word":$("#word").val(),"out_encoding":$("#out_encoding").val(),"encoding":$("#encoding").val()},function(data){
                		
                			$("#output").html(data);
                		});
