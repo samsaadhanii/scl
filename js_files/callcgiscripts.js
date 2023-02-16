@@ -45,7 +45,7 @@ function callsandhisplitter(){
   var x = document.getElementById("encoding").value;
   var y = document.getElementById("word").value;
   var z = document.getElementById("out_encoding").value;
-  if (avalidation(x,y) == 1){return false;}
+  if (avalidationwithspace(x,y) == 1){return false;}
   
 if($("#word").val()==""){
                        alert("Please enter a word the in textbox.");
@@ -157,6 +157,7 @@ function callashtadhyayisimulator(){
 
 // validation program start from here //
 
+
  function avalidation(encoding,word){
         var inputlang = encoding;
         var data = word;
@@ -168,6 +169,113 @@ function callashtadhyayisimulator(){
 	var regvel=/[aiurleomhkgncjtdpbyszv \~\"\?\-\_\.\,\!\-]/;
 	var regrom=/[aÃ„ÂiÃ„Â«uÃ…Â«Ã¡Â¹â€º?leoÃ¡Â¹Æ’Ã¡Â¸Â¥khgÃ¡Â¹â€¦cjÃƒÂ±Ã¡Â¹Â­Ã¡Â¸ÂÃ¡Â¹â€¡tdnpbmyrlvÃ…â€ºÃ¡Â¹Â£s\-]/;
 	var regkh=/[aAiIuUlReaoMHkghGcjJTDNtdnpbmyrlvzSs\-]/;
+	     	
+	
+		if(inputlang=="Unicode"){
+			for(var i=0;i<data.length;i++){
+			if(reguni.test(data[i])){
+				
+			}
+			else{
+				alert("Please check encoding notation and input text notation; the input text is not in Unicode Devanagari");
+				stat = 1;
+				return stat;
+			}
+			}
+                 return stat;
+		}
+		else if(inputlang=="Itrans"){
+			for(var i=0;i<data.length;i++){
+				if(regitrans.test(data[i])){
+				}
+				else {
+					alert("Please check encoding notation and input text notation; the input text is not in Itrans");
+					stat = 1;
+					return stat;
+				}
+			}
+			
+		 return stat;	
+		}
+		else if(inputlang=="SLP"){
+			for(var i=0;i<data.length;i++){
+                                if(regslp.test(data[i])){
+                                }
+                                else {
+                                	alert("Please check encoding notation and input text notation; The input text is not in SLP");
+                                       stat = 1;
+					return stat;
+                                }
+                        }
+		 return stat;	
+      		}
+		else if(inputlang=="roman"){
+                        for(var i=0;i<data.length;i++){
+                                if(regrom.test(data[i])){
+                                }
+                                else {	
+                                	alert("Please check encoding notation and input text notation; the input text is not in roman");
+                                        stat = 1;
+					 return stat;
+                                }
+                        }
+      
+		 return stat;	
+                }		
+
+		else if(inputlang=="KH"){
+                        for(var i=0;i<data.length;i++){
+                                if(regkh.test(data[i])){
+                                }
+                                else {
+                                	alert("Please check encoding notation and input text notation; the input tet is not in Harvard Kyoto");
+                                        stat = 1;
+					 return stat;
+                                }
+                        }
+      
+		 return stat;	
+                }
+
+		else if(inputlang=="VH"){
+                        for(var i=0;i<data.length;i++){
+                                if(regvel.test(data[i])){
+                                }
+                                else {
+                                	alert("Please check encoding notation and input text notation; the input text is not in Velthuis-Huet");
+                                        stat = 1;
+					 return stat;
+                                }
+                        }
+      
+		 return stat;	
+                }
+
+		else if(inputlang=="WX"){
+                        for(var i=0;i<data.length;i++){
+                                if(reg.test(data[i])){ }
+                                else {
+                                	alert("Please check encoding notation and input text notation; the input text is not in WX");
+                                        stat = 1;
+					 return stat;
+                                }
+                        }
+                       
+		 return stat;	
+                }
+               
+}
+ function avalidationwithspace(encoding,word){
+        var inputlang = encoding;
+        var data = word;
+        var stat = 0;
+	var reguni=/[ अआइईउऊऋॠऌएऐओऔअंअःकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह ्ािीुूृॄॢेैोौंःळ\-ऽ]/;
+	var reg=/[ aAiIuUqQlLeEoOMHzkKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRshZ\-]/;
+	var regitrans=/[ aiuURiLIeoMH.Nkgh~NcChj~nThDtdpbmyrlvwGYsSA\^\-]/;
+	var regslp=/[ aAiIuUfFlxeEoOMHkKgGNcCqQjJwWQRtTdDnpPbBmyrlvSzsh\-]/;
+	var regvel=/[ aiurleomhkgncjtdpbyszv \~\"\?\-\_\.\,\!\-]/;
+	var regrom=/[ aÃ„ÂiÃ„Â«uÃ…Â«Ã¡Â¹â€º?leoÃ¡Â¹Æ’Ã¡Â¸Â¥khgÃ¡Â¹â€¦cjÃƒÂ±Ã¡Â¹Â­Ã¡Â¸ÂÃ¡Â¹â€¡tdnpbmyrlvÃ…â€ºÃ¡Â¹Â£s\-]/;
+	var regkh=/[ aAiIuUlReaoMHkghGcjJTDNtdnpbmyrlvzSs\-]/;
 	     	
 	
 		if(inputlang=="Unicode"){
