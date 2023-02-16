@@ -389,6 +389,8 @@ value outgoing_incompatible_rels rpair = match rpair with
    |(11,200) 
    |(81,7) (*With sahAyaka kriyA, there cannot be a karwA *)
    |(7,81)
+   |(7,6) (* karWA and karwA_be_verbs *)
+   |(6,7)
    |(12,14) (* If there is a vAkyakarma, then there can not be a karma  and muKya karma, but there can be gONa karma*)
    |(14,12)
    |(12,11)
@@ -497,6 +499,9 @@ value not_allowed_sequence_rels rpair = match rpair with
   |(9,1009)
   |(1009,1009)
   |(1009,9) -> (*do { print_string "MYF";*)False (*}*)
+  (* pUrvakAla of karwA/karma not allowed *)
+  | (7,25)
+  | (14,25) -> False
   | (_,_) -> (*do { print_string "MYT";*)True (*}*)
   ]
  (* a samboXyaH can be only of the root verb  or an embeded verb in iwi clause 

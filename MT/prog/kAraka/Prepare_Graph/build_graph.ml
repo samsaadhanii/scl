@@ -361,7 +361,7 @@ value no_boundary_crossing1 id1 id2 =
         no_boundary_crossing2 id1 id2 kinwu_pos.val
     &&  no_boundary_crossing2 id1 id2 apiwu_pos.val
     &&  no_boundary_crossing2 id1 id2 paranwu_pos.val
-    &&  no_boundary_crossing2 id1 id2 aWa_pos.val
+    (*&&  no_boundary_crossing2 id1 id2 aWa_pos.val  We can have aWa in between in a single sentence *)
     &&  no_boundary_crossing2 id1 id2 wasmAw_pos.val
     &&  no_boundary_crossing2 id1 id2 yawaH_pos.val
     (* &&  no_boundary_crossing2 id1 id2 wawaH_pos.val *)
@@ -788,6 +788,10 @@ value handle_sp_compounds id1 mid1 id2 mid2 rt1 word1 pUrvapaxa1 uwwarapaxa1 lif
    then [ Relation (id1,mid1,"kAlAXikaraNam",id2,mid2,"1.6", d)]
    else if uwwarapaxa1="sahiwaH" && compound word1 uwwarapaxa1
    then [ Relation (id1,mid1,"sahArWaH",id2,mid2,"1.6a", d)]
+   else if rt1="saxqSa" && compound word1 uwwarapaxa1
+   then [ Relation (id1,mid1,"viSeRaNam",id2,mid2,"1.6b", d)]
+   else if rt1="safkASa" && compound word1 uwwarapaxa1
+   then [ Relation (id1,mid1,"viSeRaNam",id2,mid2,"1.6c", d)]
    else if (rt1="pramuKa") || (rt1="pUrveNa")
    then [ Relation (id1,mid1,"kriyAviSeRaNam",id2,mid2,"1.2", d)]
    else if (pUrvapaxa1="yaWA") && lifgam1="napuM"
@@ -960,11 +964,13 @@ value wifkarwA_karma m1 m2 text_type = match m2 with
                       | "xvikarmaka2" -> 
                              let rel = handle_sp_compounds id1 mid1 id2 mid2 rt1 word1 pUrvapaxa1 uwwarapaxa1 lifgam1 in
 			     if (not (rel=[])) then rel 
-                             else [ Relation (id1,mid1,"gONakarma",id2,mid2,"2.16" , d)
+                             else (*if member_of rt1 manuRyasaFjFAvAcI  || member_of rt1 prANivAcI then*)
+                                  [ Relation (id1,mid1,"gONakarma",id2,mid2,"2.16" , d)
                               (* karmaNi xviwIyA  - rAjAnaM vasuXAM yAcawe*)
                                   ; Relation (id1,mid1,"muKyakarma",id2,mid2,"2.17" , d) 
                               (* karmaNi xviwIyA - gAM xogXi payaH *)
                                   ]
+			      (*else []*)
                       | "gawi"
                       | "buxXi" 
                       | "Sabxakarma" 
@@ -2163,7 +2169,13 @@ value rlviSeRaNam m1 m2 text_type = match m2 with
               && (noun_agreement_vibh vacanam1 vacanam2 lifgam1 lifgam2 viBakwiH1 viBakwiH2) 
               &&  prose_order id1 id2 text_type
            then if (( member_of rt1 saMKyeya || member_of rt1 pUraNa || member_of rt1 kqxanwas || member_of rt1 taddhitaantas || member_of rt1 guNavacana 
-                  || pronoun3 rt1  || compound word1 uwwarapaxa1) || ((rt1 = "sarva" || rt1 = "sarvA") &&  id1 > id2 && text_type = "Sloka"))
+                  || compound word1 uwwarapaxa1) || ((rt1 = "sarva" || rt1 = "sarvA") &&  id1 > id2 && text_type = "Sloka") 
+                  || (pronoun3 rt1 && (member_of rt2 manuRyasaFjFAvAcI || member_of rt2 sambanXavAcI || member_of rt2 upAXi))
+                  )
+			(* pronoun3 rt1 is removed, since pronoun is preferred as a viSeRya in the absence of a manuRyasaFjFAvAci Sabxa *)
+                && not (member_of rt1 sambanXavAcI) 
+                && not (member_of rt1 upAXi) 
+                && not (member_of rt1 manuRyasaFjFAvAcI) 
                    (* && (not (compound word1 uwwarapaxa1)  || not (member_of uwwarapaxa1 xravyavAcI))  -- problematic with bahuvrIhi compounds *)
                    && (not (rt1=rt2) || compound word1 uwwarapaxa1 || compound word2 uwwarapaxa2 )
                                           (* && not (member_of rt1 sambanXavAcI) 
@@ -2176,7 +2188,7 @@ value rlviSeRaNam m1 m2 text_type = match m2 with
                    && not (rt1 = "wax" && lifgam1 = "napuM")
                    && not ((rt1 = "ewax" || rt1="wax") && lifgam1 = "napuM" && (rt2="asmax" || rt2 = "yuRmax"))
 		   && not (member_of rt2 saMKyeya)
-		   && not (pronoun3 rt2)  (* && member_of rt1 upAXi; I think a pronoun can not be a viSeRya except in some rare cases such as sA aham .. etc. These should be listed seperately as exceptions *)
+		   (* && not (pronoun3 rt2)  && member_of rt1 upAXi; pronoun is always preferred as a viSeRya in the absence of a  prANisaFjFAvAci Sabxa *)
            then [ Relation (id1,mid1,"viSeRaNam",id2,mid2,"17.1",d12)]
 
            else if rt2 = get_assoc rt1 parAjAwi_list && not (finite_verb_in_sentence.val = 50 && karwqsamverbs.val = 50)
@@ -3404,6 +3416,11 @@ Consider a sent with X Y v1 v2, where X and Y are karwA and karwAsamAnAXikaraNa 
   else []
 ;
 
+value vikArya rt1 rt2 =
+  if (rt1="savarNa" && rt2 = "kuNdala") then True
+  else if (rt1="mqwwikA" && rt2 = "Gata") then True else False
+;
+  
 value rlkarmasamAnAXikaraNam m1 m2 m3 text_type = 
     match m2 with
     [ Sup (id2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,gen2,viB2,vac2,_) ->
@@ -3428,12 +3445,14 @@ value rlkarmasamAnAXikaraNam m1 m2 m3 text_type =
                       else*) 
                if   members_of rt3 upasarga3 karmasamAnAXikaraNa_verbs 
                  && viB1=2 (*|| ((prawyayaH3="kwa" || prawyayaH3="kwavawu") && viB1=1))*)
+                 && (vikArya rt1 rt2 || not (rt3="kq3"))
                then [ Relation (id2,mid2,"karmasamAnAXikaraNam",id3,mid3,"35.1",d23) ]
                 (* waxA AyojakAH neharUM sanwuRtaM kqwavanwaH *)
                else []
             | Wif (id3,mid3,_,rt3,_,_,upasarga3,_,prayogaH3,_,_,_,_,_,_,_) ->
                let  d23 = if id2 > id3 then id2-id3 else id3-id2 in
                if  members_of rt3 upasarga3 karmasamAnAXikaraNa_verbs
+               && (vikArya rt1 rt2 || not (rt3="kq3"))
                then if    prayogaH3="karwari" && viB1=2
                     then [ Relation (id2,mid2,"karmasamAnAXikaraNam",id3,mid3,"35.2",d23) ]
                     else if prayogaH3="karmaNi" && viB1=1
@@ -3457,12 +3476,12 @@ value rlkarmasamAnAXikaraNam m1 m2 m3 text_type =
               [ Kqw (id3,mid3,_,rt3,upasarga3,_,_,_,_,_,_,_,_,_,_,_,_)
               | Avykqw (id3,mid3,_,rt3,_,_,upasarga3,_,_,_,_,_) ->
        let  d23 = if id2 > id3 then id2-id3 else id3-id2 in
-                if rt3="kq3" && prose_order id2 id3 text_type
+                if rt3="kq3" && prose_order id2 id3 text_type && (vikArya rt1 rt2)
                 then [ Relation (id2,mid2,"karmasamAnAXikaraNam",id3,mid3,"35.4",d23) ]
                 else []
               | Wif (id3,mid3,_,rt3,_,_,upasarga3,_,prayogaH3,_,_,_,_,_,_,_) ->
        let  d23 = if id2 > id3 then id2-id3 else id3-id2 in
-                if rt3="kq3" && prose_order id2 id3 text_type
+                if rt3="kq3" && prose_order id2 id3 text_type && (vikArya rt1 rt2)
                 then [ Relation (id2,mid2,"karmasamAnAXikaraNam",id3,mid3,"35.5",d23) ]
                 else []
               | _ -> []
@@ -3489,6 +3508,7 @@ value rlkarmasamAnAXikaraNam m1 m2 m3 text_type =
             else if   noun_agreement_vibh vac1 vac2 gen1 gen2 viB1 viB2 
                    && members_of rt3 upasarga3 karmasamAnAXikaraNa_verbs 
                    && (viB1=2 || ((prawyayaH3="kwa" || prawyayaH3="kwavawu") && viB1=1))
+                   && ((vikArya rt1 rt2) || not (rt3="kq3"))
                    (* to avoid kIxqSam vyavahAram as karma, karmasamAnAXikaraNam*)
             then [ Relation (id2,mid2,"karmasamAnAXikaraNam",id3,mid3,"35.6",d23) ]
              (* waxA AyojakAH neharUM sanwuRtaM kqwavanwaH *)
@@ -3502,8 +3522,10 @@ value rlkarmasamAnAXikaraNam m1 m2 m3 text_type =
             if   noun_agreement_vibh vac1 vac2 gen1 gen1 viB1 viB2 
             then if members_of rt3 upasarga3 karmasamAnAXikaraNa_verbs
             then if    prayogaH3="karwari" && viB1=2
+                   && ((vikArya rt1 rt2) || not (rt3="kq3"))
                  then [ Relation (id2,mid2,"karmasamAnAXikaraNam",id3,mid3,"35.7",d23) ]
                  else if prayogaH3="karmaNi" && viB1=1
+                   && ((vikArya rt1 rt2) || not (rt3="kq3"))
                  then [ Relation (id2,mid2,"karmasamAnAXikaraNam",id3,mid3,"35.8",d23) ]
                  else []
                    (* to avoid kIxqSam vyavahAram as karma, karmasamAnAXikaraNam*)
