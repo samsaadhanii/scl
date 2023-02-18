@@ -51,7 +51,7 @@ my $out_converter;
 #if (param){
   $word = $param{word};
   $encoding=$param{encoding};
-  $out_encoding=$param{out_encoding};
+  $out_encoding=$param{outencoding};
 
   if ($out_encoding eq "D") { $Hscript = "deva";}
   if ($out_encoding eq "I") { $Hscript = "roma";}

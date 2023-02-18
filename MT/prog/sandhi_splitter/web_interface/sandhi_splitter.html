@@ -66,15 +66,10 @@ setInterval(blinker, 1000);
 <form name="f1" method="get" onsubmit="return callsandhisplitter();">
 
 <div class="dashboard-sandhi">
-<table>
+<table width="100%">
 <tr>
-	<td></td> <td></td>
-<td id="devtext"></td>
-<td></td>
-</tr>
-<tr>
-<td>
-       Input Encoding:
+<td width="15%">
+	<span> Input Encoding: </span>
        <select name="encoding"  id="encoding" onchange="livetrans()">
         <!-- <option value="Unicode">Input Encoding</option> -->
 	<option value="Unicode">Unicode-Devanagari</option>
@@ -86,21 +81,23 @@ setInterval(blinker, 1000);
 	<option value="IAST">IAST(Roman-Diacritic)</option>
       </select>
 </td>
-
-<td>
+<td width="15%">
        Output Encoding:
-     <select name="out_encoding"  id="out_encoding">
+     <select name="outencoding"  id="outencoding" style="width:100px;">
      <!-- <option value="D">Output Encoding</option> -->
      <option value="D">Devanagari</option>
      <option value="I">IAST</option>
      </select>
 </td>
-</tr>
-<tr>
-<td>
-    <input name="word" type="text" id="word"  oninput="livetrans()" placeholder="Enter the string to be split"/>
-</td>
-<td>
+<!-- </tr> 
+	<tr> --!>
+<td width="60%">
+    <span id="devtext"> </span> <br>
+    <input name="word" type="text" id="word"  oninput="livetrans()" placeholder="Enter the string to be split" style="width:100% !important" />
+    </td>
+<!-- </tr>
+	<tr> --!>
+<td width="10%">
  <input value="submit" type="submit" id="submit-sandhi" class="styled-sandhi" /> 
 
 </td>
@@ -108,13 +105,18 @@ setInterval(blinker, 1000);
 </tr>
 <tr>
 <td>
+</td>
+
+<td>
 <center><a href='#' style="color:blue;" onclick="window.open('table.html','Details','width=800, height=500,scrollbars=yes');">Encoding Table</a></center>
 </td>
+
+
 <td>
 For instance: सर्वेन्द्रियम्, ग्राममागच्छ etc.
 </td>
-<td>
 
+<td>
 </td>
 </tr>
 
@@ -124,7 +126,18 @@ For instance: सर्वेन्द्रियम्, ग्राममा�
 </div>
 </form>
 
+<br>
+<div class="dept-name-sandhi">
+ <table>
+ <tr>
+ <td>
+ <center> Powered by <a href="https://sanskrit.inria.fr/" style="color:white; margin-top:5px;"> Heritage Platform </a> </center>
+ </td>
+  </tr>
+  </table>
+</div>
+
 </div> <!-- Input dashboard ends here -->
 
-<div id="output"></div>
+<div id="output" style="font-size:20px"></div>
 
