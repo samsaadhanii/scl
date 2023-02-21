@@ -75,7 +75,7 @@ if($("#rt").val()==""){
                else{
 			
                		$("#output").html("कृपया प्रतीक्ष्यताम्....");
-               		$.post("/cgi-bin/scl/skt_gen/noun/noun_gen_web.cgi",{"rt":$("#rt").val(),"jAwi":$("#jAwi-opt").val(),"gen":$("#gen-opt").val(),"encoding":$("#encoding").val(),"outencoding":$("#outencoding").val(),"level":$("#level").val()},function(data){
+               		$.post("/cgi-bin/scl/skt_gen/noun/noun_gen.cgi",{"rt":$("#rt").val(),"jAwi":$("#jAwi-opt").val(),"gen":$("#gen-opt").val(),"encoding":$("#encoding").val(),"outencoding":$("#outencoding").val(),"level":$("#level").val()},function(data){
                		
                			$("#output").html(data);
                		});

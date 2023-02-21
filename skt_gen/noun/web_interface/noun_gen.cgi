@@ -25,26 +25,51 @@ require "$GlblVar::CGIDIR/scl/skt_gen/noun/noun_gen_subroutines.pl";
 #
 ###################  Main function #################
 #
-## Call this as below
-# noun_gen_json.cgi?rt=rAma&gen=puM&jAwi=nA&level=1
+#
+## Call json as below
+# noun_gen.cgi?rt=rAma&gen=puM&jAwi=nA&level=1&mode=json&encoding=WX&outencoding=Unicode
 # gen: napuM, puM, swrI, a
 # jawi: nA, sarva, saMKyeyam, saMkyA, pUraNam
 # level: 1,2,3,4
-
-print "Access-Control-Allow-Origin: *\n";
- print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
-        my %param = &get_parameters();
+# mode: json
+# encoding: WX, SLP, VH, KH, IAST, Unicode, Itrans
+# outencoding: Unicode, IAST
 
 package main;
 
+        my $format = "web";
 	my %param = &get_parameters();
+	my $encoding=$param{encoding};
+	my $outencoding=$param{outencoding};
 	my $rt=$param{rt};
 	my $gen=$param{gen};
 	my $jAwi=$param{jAwi};
 	my $level=$param{level};
+        
+        if($param{mode} eq "json") { $format = "JSON";}
 
-	$format="JSON";
-	$conversion_program = "";
-	$outencoding="";
-	my @forms= &gen_noun_forms($rt,$jAwi,$gen,$level,$format,$conversion_program,$outencoding);
+        if($format eq "web") {
+           &open_log($GlblVar::LOG, $GlblVar::TFPATH);
+   	   &print_header();
+        }
+
+         if($format eq "JSON") {
+           print "Access-Control-Allow-Origin: *\n";
+           print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
+         }
+
+	$rt_wx = &convert($encoding,$rt);
+
+	if ($outencoding eq "IAST") {
+	 $conversion_program = "$GlblVar::CGIDIR/scl/converters/wx2utf8roman.out";
+	} else {
+	 $conversion_program = "$GlblVar::CGIDIR/scl/converters/ri_skt | $GlblVar::CGIDIR/scl/converters/iscii2utf8.py 1";
+	}
+
+	my @forms= &gen_noun_forms($rt_wx,$jAwi,$gen,$level,$format,$conversion_program,$outencoding);
 	print @forms;
+		
+        if($format eq "web") {
+	   &register_log_and_close($GlblVar::LOG,$rt,$gen,$encoding,$jAwi,%ENV);
+        }
+
