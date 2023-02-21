@@ -61,4 +61,5 @@ z	{printf("S");}
 \.s	{printf("R");}
 \.h	{printf("H");}
 \.m	{printf("M");}
+\'	{printf("Z");}
 %%
