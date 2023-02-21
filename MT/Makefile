@@ -2,7 +2,7 @@ SHELL = /bin/sh
 
 include ../paths.sh
 
-SUBDIRS = prog/format prog/Normalisation prog/hn/word_gen/test prog/sandhi_splitter prog/Heritage_morph_interface prog/translation prog/kAraka/Prepare_Graph prog/wsd
+SUBDIRS = prog/format prog/Normalisation prog/hn/word_gen/test prog/Heritage_morph_interface prog/translation prog/kAraka/Prepare_Graph prog/wsd
 
 all: $(SUBDIRS)
 test: test
@@ -31,7 +31,6 @@ clean:
 	cd prog/format; make clean
 	cd prog/Normalisation; make clean
 	cd prog/hn/word_gen/test; make clean
-	cd prog/sandhi_splitter; make clean
 	cd prog/Heritage_morph_interface; make clean
 	cd prog/translation; make clean
 	cd prog/kAraka/Prepare_Graph/; make clean
