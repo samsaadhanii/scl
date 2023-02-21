@@ -987,7 +987,7 @@ sub gen_noun_forms{
  chomp($LTPROC_IN); # To chomp the last \n, else it produces an extra blank line in the o/p of lt-proc
 
  if($format eq "JSON") {
-    $str = "echo '".$LTPROC_IN."' | $generator | grep . | sed '1,\$s/^#.*/-/' | $GlblVar::CGIDIR/scl/skt_gen/noun/json_format.pl";
+    $str = "echo '".$LTPROC_IN."' | $generator | grep . | sed '1,\$s/^#.*/-/' | $conversion_program| $GlblVar::CGIDIR/scl/skt_gen/noun/json_format.pl $outencoding";
  }
  else {# $format = web
 	 $str = "echo '".$LTPROC_IN."' | $generator | grep . | sed '1,\$s/^#.*/-/' | pr -3 -a -t -w 150 | tr ' ' '\t' | $conversion_program | $GlblVar::CGIDIR/scl/skt_gen/noun/html_format.pl $pUrvapaxa $rt_wx $lifga_wx $outencoding";
