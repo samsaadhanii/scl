@@ -30,6 +30,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 ## http://sanskrit.uohyd.ac.in/cgi-bin/scl/sandhi_splitter/sandhi_splitter.cgi?word=rAmAlayaH&encoding=WX&outencoding=D&mode=word&disp_mode=json
 ## encoding: WX/VH/SLP/IAST/Itrans/Unicode
 ## outencoding: D/I
+## mode: sent/word
 
  print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
