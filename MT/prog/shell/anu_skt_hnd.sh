@@ -123,12 +123,12 @@ hnd_gen () {
    $ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out > $temp_files_path/table.tsv
    #
    ## Temporary commented. Sanal has to fix the programme.
-   #$MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py -i $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv -s $SCLINSTALLDIR -t hi
+   $MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py -i $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv -s $SCLINSTALLDIR -t hi
    #
-   cut -f1 $temp_files_path/table.tsv > $temp_files_path/1
-   cut -f2 $temp_files_path/table.tsv > $temp_files_path/2
-   cut -f4- $temp_files_path/table.tsv > $temp_files_path/3
-   paste $temp_files_path/1 $temp_files_path/2 $temp_files_path/1 $temp_files_path/3 > $temp_files_path/anvaya.tsv
+   #cut -f1 $temp_files_path/table.tsv > $temp_files_path/1
+   #cut -f2 $temp_files_path/table.tsv > $temp_files_path/2
+   #cut -f4- $temp_files_path/table.tsv > $temp_files_path/3
+   #paste $temp_files_path/1 $temp_files_path/2 $temp_files_path/1 $temp_files_path/3 > $temp_files_path/anvaya.tsv
    $my_converter < $temp_files_path/table.tsv > $temp_files_path/table_outscript.tsv
    $dev_converter < $temp_files_path/table.tsv > $temp_files_path/table_dev.tsv
    $my_converter < $temp_files_path/anvaya.tsv > $temp_files_path/anvaya_outscript.tsv
