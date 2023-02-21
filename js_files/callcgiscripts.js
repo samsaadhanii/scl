@@ -45,6 +45,7 @@ function callsandhisplitter(){
   var x = document.getElementById("encoding").value;
   var y = document.getElementById("word").value;
   var z = document.getElementById("outencoding").value;
+  var w = document.getElementById("mode").value;
   if (avalidationwithspace(x,y) == 1){return false;}
   
 if($("#word").val()==""){
@@ -53,7 +54,7 @@ if($("#word").val()==""){
                }
                else{
                		$("#output").html("कृपया प्रतीक्ष्यताम्....");
-               		$.post("/cgi-bin/scl/sandhi_splitter/sandhi_splitter.cgi",{"word":$("#word").val(),"outencoding":$("#outencoding").val(),"encoding":$("#encoding").val()},function(data){
+               		$.post("/cgi-bin/scl/sandhi_splitter/sandhi_splitter.cgi",{"word":$("#word").val(),"outencoding":$("#outencoding").val(),"encoding":$("#encoding").val(),"mode":$("#mode").val()},function(data){
                		
                			$("#output").html(data);
                		});
@@ -166,7 +167,7 @@ function callashtadhyayisimulator(){
 	var reg=/[aAiIuUqQlLeEoOMHzkKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRshZ\-]/;
 	var regitrans=/[aiuURiLIeoMH.Nkgh~NcChj~nThDtdpbmyrlvwGYsSA\^\-]/;
 	var regslp=/[aAiIuUfFlxeEoOMHkKgGNcCqQjJwWQRtTdDnpPbBmyrlvSzsh\-]/;
-	var regvel=/[aiurleomhkgncjtdpbyszv \~\"\?\-\_\.\,\!\-]/;
+	var regvel=/[aiurleomhkgncjtdpbyszv\~\"\?\-\_\.\,\!\-\']/;
 	var regrom=/[aÃ„ÂiÃ„Â«uÃ…Â«Ã¡Â¹â€º?leoÃ¡Â¹Æ’Ã¡Â¸Â¥khgÃ¡Â¹â€¦cjÃƒÂ±Ã¡Â¹Â­Ã¡Â¸ÂÃ¡Â¹â€¡tdnpbmyrlvÃ…â€ºÃ¡Â¹Â£s\-]/;
 	var regkh=/[aAiIuUlReaoMHkghGcjJTDNtdnpbmyrlvzSs\-]/;
 	     	
@@ -269,18 +270,18 @@ function callashtadhyayisimulator(){
         var inputlang = encoding;
         var data = word;
         var stat = 0;
-	var reguni=/[ अआइईउऊऋॠऌएऐओऔअंअःकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह ्ािीुूृॄॢेैोौंःळ\-ऽ]/;
-	var reg=/[ aAiIuUqQlLeEoOMHzkKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRshZ\-]/;
-	var regitrans=/[ aiuURiLIeoMH.Nkgh~NcChj~nThDtdpbmyrlvwGYsSA\^\-]/;
-	var regslp=/[ aAiIuUfFlxeEoOMHkKgGNcCqQjJwWQRtTdDnpPbBmyrlvSzsh\-]/;
-	var regvel=/[ aiurleomhkgncjtdpbyszv \~\"\?\-\_\.\,\!\-]/;
-	var regrom=/[ aÃ„ÂiÃ„Â«uÃ…Â«Ã¡Â¹â€º?leoÃ¡Â¹Æ’Ã¡Â¸Â¥khgÃ¡Â¹â€¦cjÃƒÂ±Ã¡Â¹Â­Ã¡Â¸ÂÃ¡Â¹â€¡tdnpbmyrlvÃ…â€ºÃ¡Â¹Â£s\-]/;
-	var regkh=/[ aAiIuUlReaoMHkghGcjJTDNtdnpbmyrlvzSs\-]/;
+	var regunisp=/[ अआइईउऊऋॠऌएऐओऔअंअःकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह ्ािीुूृॄॢेैोौंःळ\-ऽ]/;
+	var regsp=/[ aAiIuUqQlLeEoOMHzkKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRshZ\-]/;
+	var regitranssp=/[ aiuURiLIeoMH.Nkgh~NcChj~nThDtdpbmyrlvwGYsSA\^\-]/;
+	var regslpsp=/[ aAiIuUfFlxeEoOMHkKgGNcCqQjJwWQRtTdDnpPbBmyrlvSzsh\-]/;
+	var regvelsp=/[ aiurleomhkgncjtdpbyszv\~\"\?\-\_\.\,\!\-\']/;
+	var regromsp=/[ aÃ„ÂiÃ„Â«uÃ…Â«Ã¡Â¹â€º?leoÃ¡Â¹Æ’Ã¡Â¸Â¥khgÃ¡Â¹â€¦cjÃƒÂ±Ã¡Â¹Â­Ã¡Â¸ÂÃ¡Â¹â€¡tdnpbmyrlvÃ…â€ºÃ¡Â¹Â£s\-]/;
+	var regkhsp=/[ aAiIuUlReaoMHkghGcjJTDNtdnpbmyrlvzSs\-]/;
 	     	
 	
 		if(inputlang=="Unicode"){
 			for(var i=0;i<data.length;i++){
-			if(reguni.test(data[i])){
+			if(regunisp.test(data[i])){
 				
 			}
 			else{
@@ -293,7 +294,7 @@ function callashtadhyayisimulator(){
 		}
 		else if(inputlang=="Itrans"){
 			for(var i=0;i<data.length;i++){
-				if(regitrans.test(data[i])){
+				if(regitranssp.test(data[i])){
 				}
 				else {
 					alert("Please check encoding notation and input text notation; the input text is not in Itrans");
@@ -306,7 +307,7 @@ function callashtadhyayisimulator(){
 		}
 		else if(inputlang=="SLP"){
 			for(var i=0;i<data.length;i++){
-                                if(regslp.test(data[i])){
+                                if(regslpsp.test(data[i])){
                                 }
                                 else {
                                 	alert("Please check encoding notation and input text notation; The input text is not in SLP");
@@ -318,7 +319,7 @@ function callashtadhyayisimulator(){
       		}
 		else if(inputlang=="roman"){
                         for(var i=0;i<data.length;i++){
-                                if(regrom.test(data[i])){
+                                if(regromsp.test(data[i])){
                                 }
                                 else {	
                                 	alert("Please check encoding notation and input text notation; the input text is not in roman");
@@ -332,7 +333,7 @@ function callashtadhyayisimulator(){
 
 		else if(inputlang=="KH"){
                         for(var i=0;i<data.length;i++){
-                                if(regkh.test(data[i])){
+                                if(regkhsp.test(data[i])){
                                 }
                                 else {
                                 	alert("Please check encoding notation and input text notation; the input tet is not in Harvard Kyoto");
@@ -346,7 +347,7 @@ function callashtadhyayisimulator(){
 
 		else if(inputlang=="VH"){
                         for(var i=0;i<data.length;i++){
-                                if(regvel.test(data[i])){
+                                if(regvelsp.test(data[i])){
                                 }
                                 else {
                                 	alert("Please check encoding notation and input text notation; the input text is not in Velthuis-Huet");
@@ -360,7 +361,7 @@ function callashtadhyayisimulator(){
 
 		else if(inputlang=="WX"){
                         for(var i=0;i<data.length;i++){
-                                if(reg.test(data[i])){ }
+                                if(regsp.test(data[i])){ }
                                 else {
                                 	alert("Please check encoding notation and input text notation; the input text is not in WX");
                                         stat = 1;

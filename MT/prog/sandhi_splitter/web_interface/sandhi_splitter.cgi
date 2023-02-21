@@ -26,7 +26,10 @@ require "../paths.pl";
 require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 
-
+## Usage for json: 
+## http://sanskrit.uohyd.ac.in/cgi-bin/scl/sandhi_splitter/sandhi_splitter.cgi?word=rAmAlayaH&encoding=WX&outencoding=D&mode=word&disp_mode=json
+## encoding: WX/VH/SLP/IAST/Itrans/Unicode
+## outencoding: D/I
 
  print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
@@ -47,11 +50,18 @@ my $cmd;
 my $Hscript;
 my $out_encoding;
 my $out_converter;
+my $t;
+my $st;
+my $mode;
+my $disp_mode;
 
+$disp_mode = "web";
 #if (param){
   $word = $param{word};
   $encoding=$param{encoding};
   $out_encoding=$param{outencoding};
+  $mode=$param{mode};
+  if($param{disp_mode} eq "json") { $disp_mode = "json";}
 
   if ($out_encoding eq "D") { $Hscript = "deva";}
   if ($out_encoding eq "I") { $Hscript = "roma";}
@@ -59,28 +69,44 @@ my $out_converter;
   if ($out_encoding eq "I") {$out_converter="$GlblVar::SCLINSTALLDIR/converters/wx2utf8roman.out";}
   if ($out_encoding eq "D") {$out_converter="$GlblVar::SCLINSTALLDIR/converters/wx2utf8.sh $GlblVar::SCLINSTALLDIR";}
 
-  $sentences=&convert($encoding,$word,$GlblVar::SCLINSTALLDIR);
-  chomp($sentences);
+  if($encoding eq "Itrans"|| $encoding eq "IAST" || $encoding eq "Unicode") { $word=&convert($encoding,$word,$GlblVar::SCLINSTALLDIR);}  
+   #Since Heritage encode.ml fails on these schemes.
+
+  if ($mode eq "sent") { $st = "t";}
+  elsif ($mode eq "word") { $st = "f";}
 
   if($GlblVar::LOG eq "true"){
      print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."encoding:$encoding\t"."word:$word\n";
   }
   #}
 
+    if ($encoding eq "WX") { $t = "WX";}
+    elsif ($encoding eq "VH") { $t = "VH";}
+    elsif ($encoding eq "KH") { $t = "KH";}
+    elsif ($encoding eq "SLP") { $t = "SL";}
+    elsif ($encoding eq "IAST") { $t = "WX";}
+    elsif ($encoding eq "Unicode") { $t = "WX";}
+    elsif ($encoding eq "Itrans") { $t = "WX";}
 
-    print "<div id='finalout' style='border-style:solid; border-width:1px;padding:10px;color:blue;font-size:14px;height:200px'>";
-    $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=$Hscript\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=s&pipeline=t&fmode=w\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI";
-    system("mkdir $GlblVar::TFPATH/seg_$$");
-    system("$cmd | $out_converter > $GlblVar::TFPATH/seg_$$/out");
-    open (TMP,"< $GlblVar::TFPATH/seg_$$/out");
-    my $ans = <TMP>; # Ignore the html header
-    $ans = <TMP>;
-    $ans = <TMP>;
-    $ans =~ s/.*": \["([^"]+).*/$1/;
-    print $ans;
-    close(TMP);
-    print "</div><br />";
+    #if($sentences =~ /[	\t]/) { $st = "t";} else {$st = "f";}
 
+    $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=$st\&us=f\&font=$Hscript\&cp=t\&text=$word\&t=$t\&topic=\&mode=s&pipeline=t&fmode=w\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI";
+
+  if($disp_mode eq "web"){
+      print "<div id='finalout' style='border-style:solid; border-width:1px;padding:10px;color:blue;font-size:14px;height:200px'>";
+      system("mkdir $GlblVar::TFPATH/seg_$$");
+      system("$cmd | $out_converter > $GlblVar::TFPATH/seg_$$/out");
+      open (TMP,"< $GlblVar::TFPATH/seg_$$/out");
+      my $ans = <TMP>; # Ignore the html header
+      $ans = <TMP>;
+      $ans = <TMP>;
+      $ans =~ s/.*": \["([^"]+).*/$1/;
+      print $ans;
+      close(TMP);
+      print "</div><br />";
+   } else {
+      system("$cmd | tail -1 | sed 's/input/\@input/' | sed 's/segmentation/\@segmentation/' | $out_converter");
+   }
 if($GlblVar::LOG eq "true"){
    close(TMP1);
 }
