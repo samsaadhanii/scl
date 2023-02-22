@@ -51,6 +51,9 @@ my %param = &get_parameters();
      $word2_wx=&convert($encoding,$word2,$GlblVar::SCLINSTALLDIR);
      chomp($word2_wx);
 
+     print "Access-Control-Allow-Origin: *\n";
+     print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
+
      $results = &call_sandhi($word1_wx,$word2_wx);
 
      if($outencoding eq "IAST") {
@@ -61,8 +64,6 @@ my %param = &get_parameters();
 
      $ans = `$cmd`;
 
-     print "Access-Control-Allow-Origin: *\n";
-     print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
      print "[".$ans."]";
 
 
@@ -70,12 +71,7 @@ my %param = &get_parameters();
 sub call_sandhi {
   my ($w1, $w2) = @_;
  my(@word1chars, @word2chars, @forms, @pra_steps, @sutras);
- my($results,$ans,$size, $lletter, $fletter, $fspelling, $x);
- #extracting last and first letter from both the words
- $w1 =~ /(.$)/;
- $lletter = $1;
- $w2 =~ /(^.)/;
- $fletter = $1;
+ my($results,$ans,$size, $fspelling, $x);
 
 #seperating all letters from word 1
     @word1chars = split(//, $w1);
@@ -102,16 +98,53 @@ sub call_sandhi {
        $results .= '"@'.'word2":"'.$w2.'",';
        $results .= '"@'.'spelling_@'.'word1":"'.$w1spell.'",';
        $results .= '"@'.'spelling_@'.'word2":"'.$w2spell.'",';
+       ($lletter, $fletter, $modified) = split(/:/, &get_first_last_modified($w1,$w2,$forms[$x]));
        $results .= '"@'.'last_@'.'letter":"'.$lletter.'",';
        $results .= '"@'.'first_@'.'letter":"'.$fletter.'",';
+       $results .= '"@'.'modified_@'.'letter":"'.$modified.'",';
        $results .= '"@'.'saMhiwapaxam":"'.$forms[$x].'",';
        $results .= '"@'.'sanXiH":"'.$pra_steps[$x].'",';
        $results .= '"@'.'sUwram":"'.$sutras[$x].'"},';
      }
     }
-
+    
     $results =~ s/,$//;
     $results =~ s/%//;
  $results;
 }
+1;
+
+
+   sub get_first_last_modified {
+      my($f, $s, $form) = @_;
+      my $cont, $i, $f1, $ff1, $s2, $ff2, $ans;
+
+        $cont = 1;
+        $len = length($f);
+        for($i = 0; $i < $len-1 && $cont; $i++) {
+            $f =~ /^(.)(.*)/;
+            $f1 = $1;
+            $f = $2;
+            $form =~ /^(.)(.*)/;
+            $ff1 = $1;
+            $form = $2;
+            if($f1 eq $ff1) { $cont = 1;}
+            else { $cont = 0; $form = $ff1.$form; $f = $f1.$f;} 
+        }
+
+        $len = length($s);
+        $cont = 1;
+        for($i = 0; $i < $len-1 && $cont; $i++) {
+            $s =~ /(.*)(.)$/;
+            $s = $1;
+            $s2 = $2;
+            $form =~ /(.*)(.)$/;
+            $form = $1;
+            $ff2 = $2;
+            if($s2 eq $ff2) { $cont = 1;} 
+            else {$cont = 0; $form = $form.$ff2; $s = $s.$s2;}
+        }
+     $ans = $f.":".$s.":".$form;
+     $ans;
+     }
 1;
