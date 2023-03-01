@@ -97,6 +97,8 @@ $disp_mode = "web";
       my $ans = `$cmd | $out_converter | tail -1 | perl -p -e 's/"]}//; s/.*"//;'`;
       print $ans;
       print "<br />";
+      print "<br />";
+      print "<br />";
       print "Click <a href=\"/cgi-bin/SKT/sktgraph.cgi?lex=MW\&cache=f\&st=$st\&us=f\&font=$Hscript\&cp=t\&text=$word\&t=$t\&topic=\&mode=g&pipeline=f\">here</a> to see all possible solutions.";
       print "</div><br />";
    } else {
