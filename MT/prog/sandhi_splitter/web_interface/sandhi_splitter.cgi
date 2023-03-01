@@ -96,6 +96,8 @@ $disp_mode = "web";
       print "<div id='finalout' style='border-style:solid; border-width:1px;padding:10px;color:blue;font-size:14px;height:200px'>";
       my $ans = `$cmd | $out_converter | tail -1 | perl -p -e 's/"]}//; s/.*"//;'`;
       print $ans;
+      print "<br />";
+      print "Click <a href=\"/cgi-bin/SKT/sktgraph.cgi?lex=MW\&cache=f\&st=$st\&us=f\&font=$Hscript\&cp=t\&text=$word\&t=$t\&topic=\&mode=g&pipeline=f\">here</a> to see all possible solutions.";
       print "</div><br />";
    } else {
       system("$cmd | tail -1 | sed 's/input/\@input/' | sed 's/segmentation/\@segmentation/' | $out_converter");
