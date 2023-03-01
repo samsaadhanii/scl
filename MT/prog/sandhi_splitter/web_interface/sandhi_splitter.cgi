@@ -57,12 +57,12 @@ my $mode;
 my $disp_mode;
 
 $disp_mode = "web";
-#if (param){
+
   $word = $param{word};
   $encoding=$param{encoding};
   $out_encoding=$param{outencoding};
   $mode=$param{mode};
-  if($param{disp_mode} eq "json") { $disp_mode = "json";}
+  if (defined ($param{disp_mode}) && ($param{disp_mode} eq "json")) { $disp_mode = "json";}
 
   if ($out_encoding eq "D") { $Hscript = "deva";}
   if ($out_encoding eq "I") { $Hscript = "roma";}
@@ -70,7 +70,9 @@ $disp_mode = "web";
   if ($out_encoding eq "I") {$out_converter="$GlblVar::SCLINSTALLDIR/converters/wx2utf8roman.out";}
   if ($out_encoding eq "D") {$out_converter="$GlblVar::SCLINSTALLDIR/converters/wx2utf8.sh $GlblVar::SCLINSTALLDIR";}
 
-  if($encoding eq "Itrans"|| $encoding eq "IAST" || $encoding eq "Unicode") { $word=&convert($encoding,$word,$GlblVar::SCLINSTALLDIR);}  
+  if($encoding eq "Itrans"|| $encoding eq "IAST" || $encoding eq "Unicode") { 
+     $word=&convert($encoding,$word,$GlblVar::SCLINSTALLDIR);
+  }
    #Since Heritage encode.ml fails on these schemes.
 
   if ($mode eq "sent") { $st = "t";}
@@ -79,7 +81,6 @@ $disp_mode = "web";
   if($GlblVar::LOG eq "true"){
      print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."encoding:$encoding\t"."word:$word\n";
   }
-  #}
 
     if ($encoding eq "WX") { $t = "WX";}
     elsif ($encoding eq "VH") { $t = "VH";}
@@ -89,21 +90,12 @@ $disp_mode = "web";
     elsif ($encoding eq "Unicode") { $t = "WX";}
     elsif ($encoding eq "Itrans") { $t = "WX";}
 
-    #if($sentences =~ /[	\t]/) { $st = "t";} else {$st = "f";}
-
     $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=$st\&us=f\&font=$Hscript\&cp=t\&text=$word\&t=$t\&topic=\&mode=s&pipeline=t&fmode=w\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI";
 
   if($disp_mode eq "web"){
       print "<div id='finalout' style='border-style:solid; border-width:1px;padding:10px;color:blue;font-size:14px;height:200px'>";
-      system("mkdir $GlblVar::TFPATH/seg_$$");
-      system("$cmd | $out_converter > $GlblVar::TFPATH/seg_$$/out");
-      open (TMP,"< $GlblVar::TFPATH/seg_$$/out");
-      my $ans = <TMP>; # Ignore the html header
-      $ans = <TMP>;
-      $ans = <TMP>;
-      $ans =~ s/.*": \["([^"]+).*/$1/;
+      my $ans = `$cmd | $out_converter | tail -1 | perl -p -e 's/"]}//; s/.*"//;'`;
       print $ans;
-      close(TMP);
       print "</div><br />";
    } else {
       system("$cmd | tail -1 | sed 's/input/\@input/' | sed 's/segmentation/\@segmentation/' | $out_converter");
