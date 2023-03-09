@@ -1,13 +1,24 @@
 SHELL = /bin/sh
 
-.PHONY: all clean
+TARGETS = lwg.out
 
-TARGETS = get_std_spelling.out
+LIBPATH = /usr/lib
 
-all: get_std_spelling.out
+all: $(TARGETS)
+FLEX = lex
+CC = gcc
+CFLAGS = -L$(LIBPATH) -Wall -g -o
 
-get_std_spelling.out: get_std_spelling.c
-	gcc -g -Wall -o get_std_spelling.out get_std_spelling.c
+define run_lex
+$(FLEX) $^
+$(CC) $(CFLAGS) $@ lex.yy.c -ll
+rm lex.yy.c
+endef
+
+lwg.out: lwg.lex
+	$(run_lex)
+
+.PHONY: all
 
 clean:
 	rm -f $(TARGETS)

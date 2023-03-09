@@ -21,47 +21,34 @@ $SCLINSTALLDIR=$ARGV[0];
 
 require "$SCLINSTALLDIR/MT/prog/Normalisation/get_std_spelling_fn.pl";
 
-$sent_count = 1;
 
 $/ = "\n\n";
 while($in = <STDIN>){
-  $file_nm = $sent_count.".clp";
 
- open(TMP,">$ARGV[1]/parser_files/$file_nm") || die "Can't open file $ARGV[1]/parser_files/$file_nm";
-
- #print TMP $head;
-  #print TMP "; $in";
-     
-     $word_count = 1;
      @ana = split(/\n/,$in);
      $sent = "";
 
      foreach $ana (@ana) {
-        @wrd_ana= split(/\t/,$ana);
-        $wrd = &get_std_spelling_fn($wrd_ana[2]);
-        $w_ana = $wrd_ana[7];
-        if($wrd =~ /.*\-([^\-]+)$/) { $uwwarapaxa = $1;} else {$uwwarapaxa = $wrd;}
-        if($wrd =~ /^([^\-]+)\-.*/) { $pUrvapaxa = $1;} else {$pUrvapaxa = $wrd;}
-        $w_ana =~ s/.*\-//;
-        @wrd_ana = split(/\//,$w_ana);
         $ana_count = 1;
+        @wrd_ana= split(/\t/,$ana);
+        ($wrd_id,$comp_id) = split(/\./,$wrd_ana[0]);
+        $wrd = &get_std_spelling_fn($wrd_ana[1]);
+        $w_ana = $wrd_ana[5];
+        if($wrd =~ /.*\-$/) { $pUrvapaxa = "y";} else {$pUrvapaxa = "n";}
+        if($wrd =~ /^\-.*/) { $uwwarapaxa = "y";} else {$uwwarapaxa = "n";}
+        if($w_ana eq "") {
+           print  "(avy (id $wrd_id) (cid $comp_id) (mid $ana_count) (word $wrd) (rt $wrd) (pUrvapaxa $pUrvapaxa) (uwwarapaxa $uwwarapaxa) (level 1) )\n";
+        } else {
+          @w_ana = split(/\//,$w_ana);
+          $ana_count = 1;
         
-        foreach $wrd_ana (@wrd_ana) {
-         # $wrd_ana =~ s/<level:[1-4]>//g;
-
+        foreach $wrd_ana (@w_ana) {
           $cat = &get_cat($wrd_ana);
 
           if($wrd_ana =~ /<upapaxa_cp:/) {
              $wrd_ana =~ s/^([^<]+)<upapaxa_cp:([^>]+)>/$2/;
-             if($pUrvapaxa ne $wrd) { $pUrvapaxa .= "-".$1;}
-             else { $pUrvapaxa = $1;}
-             if($uwwarapaxa ne $wrd) { $uwwarapaxa .= "-".$1;} # ??
-             else {$uwwarapaxa = $2;}
           }
-          #if($cat eq "waxXiwa") {
-          #  $wrd_ana =~ s/<vargaH:nA_([^>]+)>/<waxXiwa_prawyayaH:$1>/;
-          #  $wrd_ana =~ s/^([^<]+)</$1<waxXiwa_rt:$1></;
-          #}
+
           if(($cat ne "samAsa") && ($cat ne "ajFAwa")){
             $wrd_ana =~ s/<vargaH:[^>]+>//;
 
@@ -85,6 +72,7 @@ while($in = <STDIN>){
             } else { 
                  $wrd_ana =~ s/^([^<]+)</(rt $1)(pUrvapaxa $pUrvapaxa)(uwwarapaxa $uwwarapaxa)</;
             }
+	   
 
             $wrd_ana =~ s/^([^<]+)$//g;
             $wrd_ana =~ s/<([^:]+):([^>]+)>/($1 $2)/g;
@@ -94,24 +82,21 @@ while($in = <STDIN>){
             if($wrd_ana =~ /level ([0-9]+)\)(.*)/) { $wrd_ana =~ s/\(level ([0-9]+)\)(.*)/$2(level $1)/;}
             if($wrd_ana !~ /level/) { $wrd_ana =~ s/$/(level 1)/;}
 
-             print TMP "($cat (id $word_count) (mid $ana_count) (word $wrd) $wrd_ana )\n";
+             print  "($cat (id $wrd_id) (cid $comp_id) (mid $ana_count) (word $wrd) $wrd_ana )\n";
              $ana_count++;
           }
         }
-          $sent .= " ".$wrd."(".$word_count.")";
-            if(($cat ne "samAsa") && ($wrd !~ /-$/)){ $word_count++;}
+      }
+          $sent .= " ".$wrd."(".$word_id.")";
         }
- $sent_count++;
- print TMP $tail;
- close(TMP);
 }
 
 sub get_cat{
   my($in) = @_;
   my($cat);
 
-  $cat = "";
-   if($wrd_ana =~ /<vargaH:avy><waxXiwa_prawyayaH:/) {
+   $cat = "";
+   if($in =~ /<vargaH:avy><waxXiwa_prawyayaH:/) {
            $cat="avywaxXiwa";
    }elsif($in =~ /waxXiwa_prawyayaH:/) {
       $cat="waxXiwa";
@@ -119,18 +104,20 @@ sub get_cat{
            $cat="kqw";
    } elsif($in =~ /<kqw_prawyayaH:.*<kqw_pratipadika:/) {
            $cat="kqw";
-   } elsif($wrd_ana =~ /<vargaH:SaUPa/) {
+   } elsif($in =~ /<vargaH:SaUPa/) {
            $cat="samAsa";
-   } elsif($wrd_ana =~ /<vargaH:sapUp/) {
+   } elsif($in =~ /<vargaH:sapUp/) {
            $cat="samAsa";
-   } elsif($wrd_ana =~ /<vargaH:(nA|sarva|pUraNam|saMKyeyam|saMKyA)/) {
+   } elsif($in =~ /<vargaH:(nA|sarva|pUraNam|saMKyeyam|saMKyA)/) {
            $cat="sup";
-   } elsif($wrd_ana =~ /<vargaH:avy>.*<kqw_prawyayaH:/) {
+   } elsif($in =~ /<vargaH:avy>.*<kqw_prawyayaH:/) {
            $cat="avykqw";
-   } elsif($wrd_ana =~ /<vargaH:avy/) {
+   } elsif($in =~ /<vargaH:avy/) {
            $cat="avy";
-   } elsif($wrd_ana =~ /<XAwuH:/) {
+   } elsif($in =~ /<XAwuH:/) {
            $cat="wif";
+   } elsif($in eq "") {
+           $cat="avy";   # To handle unrecognised/OOV words
    } else {$cat = "ajFAwa";}
 $cat;
 }

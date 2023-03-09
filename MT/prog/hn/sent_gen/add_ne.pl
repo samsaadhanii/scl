@@ -48,7 +48,7 @@ sub add_ne{
        $var_nm = "wrd_ana_flds_".$j;
 
 #If the word is karwA, and
-      if(${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karwA><relata_pos:([0-9]+)>/){
+      if(${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karwA><relata_pos:([0-9\.]+)>/){
          $verb_pos = $1;
          $karwA_found = 1;
           $new_var_nm = "wrd_ana_flds_".$verb_pos;
@@ -75,16 +75,16 @@ sub add_ne{
                      $karma_nm = "wrd_ana_flds_".$karma_pos;
                      if (${$karma_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) 0/){
 # rAmaH Palam aKAxaw
-                        ${$new_var_nm}[$morph_kaaraka_anal] =~ s/<rel_nm:aBihiwa_karwA><relata_pos:[0-9]+>/<rel_nm:aBihiwa_karma><relata_pos:$karma_pos>/;
+                        ${$new_var_nm}[$morph_kaaraka_anal] =~ s/<rel_nm:aBihiwa_karwA><relata_pos:[0-9\.]+>/<rel_nm:aBihiwa_karma><relata_pos:$karma_pos>/;
                      }
                      else {
-			   ${$new_var_nm}[$morph_kaaraka_anal] =~ s/<rel_nm:aBihiwa_karwA><relata_pos:[0-9]+>/<rel_nm:><relata_pos:>/;
+			   ${$new_var_nm}[$morph_kaaraka_anal] =~ s/<rel_nm:aBihiwa_karwA><relata_pos:[0-9\.]+>/<rel_nm:><relata_pos:>/;
                            ${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) /$1 $2 m s $5 /;
                            ${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg+1] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) /$1 $2 m s $5 /;
 # ramaH mohanam awAdayaw
                      }
                  } else {
-                     ${$new_var_nm}[$morph_kaaraka_anal] =~ s/<rel_nm:aBihiwa_karwA><relata_pos:[0-9]+>/<rel_nm:><relata_pos:>/;
+                     ${$new_var_nm}[$morph_kaaraka_anal] =~ s/<rel_nm:aBihiwa_karwA><relata_pos:[0-9\.]+>/<rel_nm:><relata_pos:>/;
                      ${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) /$1 $2 m s $5 /;
                      ${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg+1] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) /$1 $2 m s $5 /;
 # rAmaH aKAxaw
@@ -99,7 +99,7 @@ sub add_ne{
       $karma_pos = -1;
       for($k=1;$k<=$#wrd_ana+1;$k++){
           $tmp_var_nm = "wrd_ana_flds_".$k;
-          if(${$tmp_var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karma><relata_pos:([0-9]+)>/){
+          if(${$tmp_var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karma><relata_pos:([0-9\.]+)>/){
 	    $verb_pos = $1;
 	    $karma_pos = $k;
           }
@@ -111,7 +111,7 @@ sub add_ne{
     if($karwA_found == 0) {
      for($j=1;$j<=$#wrd_ana+1;$j++){
          $var_nm = "wrd_ana_flds_".$j;
-	      if((${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karwA><relata_pos:([0-9]+)>/) || (${$var_nm}[$morph_kaaraka_anal] =~ /puruRaH:u/) || (${$var_nm}[$morph_kaaraka_anal] =~ /puruRaH:ma/)){
+	      if((${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karwA><relata_pos:([0-9\.]+)>/) || (${$var_nm}[$morph_kaaraka_anal] =~ /puruRaH:u/) || (${$var_nm}[$morph_kaaraka_anal] =~ /puruRaH:ma/)){
 	     if ($karma_pos != -1) {
 		     	 	     ${$var_nm}[$morph_kaaraka_anal] =~ s/<rel_nm:><relata_pos:>/<rel_nm:aBihiwa_karma><relata_pos:$karma_pos>/;
 	     }

@@ -1,5 +1,5 @@
 #Path for ZEN Library
-ZENDIR=/Users/ambakulkarni/amba/SKT/zen/ML/
+ZENDIR=/Users/ambakulkarni/amba/SKT/zen/ML
 
 #Path for installation of all package. 
 SCLINSTALLDIR=/Users/ambakulkarni/amba/scl
@@ -25,6 +25,7 @@ MYPYTHONPATH=/opt/homebrew/bin/python3
 
 #Heritage installation path (for interface)
 HERITAGE_CGI=SKT/sktgraph2.cgi
+HERITAGE_Graph_CGI=SKT/sktgraph.cgi
 
 #Path for temporary files
 TFPATH=/private/tmp/SKT_TEMP

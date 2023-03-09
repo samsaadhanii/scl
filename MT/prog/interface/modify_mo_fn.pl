@@ -21,33 +21,15 @@
 
 
 sub modify_mo{
- my($xin) = @_;
- my($in,@in);
- #print "\nB IN = $xin"; 
- if($xin) {
-  #$in =~ s/^([^\/]+)(>[a-zA-Z]+)(<[^\/]+>)/<\@a \@mouseover="\@Tip($1)">$2<\/\@a>$3/;
-  #$in =~ s/\/([^\/]+)(>[a-zA-Z]+)(<[^\/]+>)/\/<\@a \@mouseover="\@Tip($1)">$2<\/\@a>$3/;
-  @in = split(/-/,$xin);
+ my($in) = @_;
+ if($in) {
   $ans = "";
-  foreach $in (@in) {
-   #print "\nB III = $in"; 
   $in =~ s/^([^\/]+>)([a-zA-Z]+)(<[^\/]+>)/$2$3($1)/;
   $in =~ s/\/([^\/]+>)([a-zA-Z]+)(<[^\/]+>)/\/$2$3($1)/g;
-  #print "\nYYYY = $in\n";
-
- # if($in =~ /^<word:([^>]+\-)/) {
- #   $pUrvapaxa = $1;
- #   $in =~ s/^<word:[^>]+>//g;
- # } elsif($in =~ /^([^><]+\-)/) {
- #   $pUrvapaxa = $1;
- # } else {
- #   $pUrvapaxa = "";
- # }
 
   $in =~ s/^([^\/]+>)(<kqw_pratipadika:[a-zA-Z]+>)(<[^\-\/]+>)/$2$3($1)/;
   $in =~ s/([\-\/])([^\/]+>)(<kqw_pratipadika:[a-zA-Z]+>)(<[^\-\/]+>)/$1$3$4($2)/g;
 
-  #print "\nXXXX = $in\n";
   $in =~ s/>-/>}-/g;
   $in =~ s/<vargaH:avy>/ avya/g;
   $in =~ s/<kqw_pratipadika:([^>]+)>/$1/g;
@@ -76,7 +58,6 @@ sub modify_mo{
   $in =~ s/<rel_nm:([^>]*)>//g;
   $in =~ s/<relata_pos:[0-9]*>//g;
   $in =~ s/<XAwuH:([^>]+)>/ $1/g;
-  #print "\nINPUT = $in\n";
   if ($in !~ /<upasarga:X>/ ) {
     $in =~ s/\/([^<]+-)?([^\-<]+)<upasarga:([a-zA-Z_]+)>/\/$1$3_$2\{/g;
     $in =~ s/^([^<]+-)?([^\-<]+)<upasarga:([a-zA-Z_]+)>/$1$3_$2\{/g;
@@ -84,7 +65,6 @@ sub modify_mo{
   $in =~ s/<kqw_XAwu:([^>]+)><upasarga:([^>]+)>/$2_$1/g;
   $in =~ s/<kqw_XAwu:([^>]+)>/$1/g;
   #$in =~ s/<rt:([^>]+)><upasarga:([^>]+)>/$2_$1/g;
-  #print "OUTPUT = $in\n";
   $in =~ s/<upapaxa_cp:([^>]+)>/-$1/g;
   $in =~ s/\/([^<]+)<upapaxa_cp:([^>]+)>/\/$1-$2/g;
   $in =~ s/^([^<]+)<upapaxa_cp:([^>]+)>/$1-$2/g;
@@ -92,8 +72,6 @@ sub modify_mo{
   $in =~ s/ [ ]+/ /g;
   $in =~ s/\$//g;
   $in =~ s/<level:[0-4]>//g;
-#  $in =~ s/Y/</g;
-#  $in =~ s/Z/>/g;
   $in =~ s/<rt:([^>]+)>/$1/g;
   $in =~ s/{TITLE}/<TITLE>/g;
   $in =~ s/{\/TITLE}/<\/TITLE>/g;
@@ -102,6 +80,5 @@ sub modify_mo{
   }
   $ans =~ s/^-//;
   $ans;
- }
 }
 1;

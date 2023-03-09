@@ -46,7 +46,7 @@ while($in = <STDIN>){
  $sent = "";
  foreach $in (@in) {
    @columns = split(/\t/,$in);
-   $sent .= "_".$columns[3]; # Word 
+   $sent .= "_".$columns[1]; # Word 
  }
  $sent =~ s/^_//;
 
@@ -60,7 +60,7 @@ while($in = <STDIN>){
          print $in[$j],"\t---\n";
       }
       @columns = split(/\t/,$in[$i+2]);
-      $last = $#columns;
+      $last = $columns[$#columns];
       $last =~ s/^([^ ]+)/$LWG{$lwg_str}/;
       print $in[$j],"\t",$last,"\n";
       $i += 3;
@@ -77,8 +77,8 @@ while($in = <STDIN>){
          $i += 2;
      } else { 
          @columns = split(/\t/,$in[$i]);
-         $last = $#columns;
-         print $in[$i],"\t",$columns[$last],"\n"; 
+         $last = $columns[$#columns];
+         print $in[$i],"\t",$last,"\n"; 
          $i++;
      }
    }

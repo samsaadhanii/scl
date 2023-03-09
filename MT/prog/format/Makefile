@@ -1,6 +1,6 @@
 SHELL = /bin/sh
 
-TARGETS = add_snt_mrkr.out gen_table.out
+TARGETS = gen_table.out
 
 LIBPATH = /usr/lib
 
@@ -15,8 +15,8 @@ $(CC) $(CFLAGS) $@ lex.yy.c -ll
 rm lex.yy.c
 endef
 
-add_snt_mrkr.out: add_snt_mrkr.lex
-	$(run_lex)
+#add_snt_mrkr.out: add_snt_mrkr.lex
+#	$(run_lex)
 
 gen_table.out: gen_table.lex
 	$(run_lex)

@@ -1,15 +1,6 @@
 #!/usr/bin/env perl
 
 
-#BEGIN{require "$ARGV[0]/paths.pl";}
-
-#use lib $GlblVar::LIB_PERL_PATH;
-
-#use GDBM_File;
-#tie(%VERBLIST, GDBM_File, "$ARGV[1]/asm-yuRm.gdbm", GDBM_READER, 0644);
-#tie(%SRULIST, GDBM_File, "$ARGV[1]/Sru-xqS.gdbm", GDBM_READER, 0644);
-
-
 open(TMP,"$ARGV[1]/asm-yuRm.txt");
 while(<TMP>) {
 chomp;

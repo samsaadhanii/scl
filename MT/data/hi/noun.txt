@@ -20956,7 +20956,7 @@ svAxuSuxXa,napuM,seMXA_namaka^samuxrI_namaka,puM
 svAxvamla,puM,anAra{vqkRa},puM
 svAxvanna,napuM,mITA_Bojana^svAxiRta_KAxya^pakvAnna,puM
 svAxvI,swrI,aMgUra,swrI
-svAXyAya,puM,svAXyAya{mana_meM_pATa_karanA_yA_mana_mana_meM_isake_jApa_karanA_yA_vexoM_kA_paDZanA_yA_vExika_pATa},puM
+svAXyAya,puM,svAXyAya,puM
 svayamarjiwa,napuM,AwmArjiwa,puM
 svayamarjiwa,puM,AwmArjiwa,puM
 svayamBU,napuM,Apa_hI_Apa_uwpanna_hone_vAlA,puM

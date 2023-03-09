@@ -7,11 +7,6 @@ $CGIURL = $ARGV[3];
 $HERITAGE_CGI = $ARGV[4];
 if($ARGV[5] eq "A") {$anvaya = 1;} else {$anvaya = 0;}
 
-#open (TMP,">/tmp/mmm");
-#print TMP $ARGV[3];
-#print TMP $ARGV[4];
-#close(TMP);
-
 print <<header
 <?xml version="1.0"?>
 <div id="navigation">
@@ -50,7 +45,7 @@ header1
 
 @in = <STDIN>;
 if ($anvaya == 1) {@new_in = &get_anvaya_order(@in);} else {@new_in = @in;}
-for ($word = 1; $word <=$#in; $word++) {
+for ($word = 1; $word <$#in; $word++) {
 $in = $new_in[$word];
 chomp($in);
 
@@ -63,8 +58,7 @@ foreach ($fld=1;$fld<=$#flds;$fld++){
       if($word == 1) {
         print "<td class=\"number\">";
         if($fld == 1) { # words
-          print "<a href=\"/",$CGIURL,"/scl/MT/prog/interface/call_parser_summary.cgi?filename=",$TFPATH,"\&amp;outscript=",$outscript,"&rel=''&sentnum=1&save=no&translate=no\"  onmouseover=\"Tip('<img src=/scl/MT/DEMO/tmp_",$fbn,"/1.1.svg >' ,FONTSIZE,'18pt',HEIGHT,400,WIDTH,900,STICKY,true,CLOSEBTN,true)\">\n";
-          #print "<a href=\"/",$CGIURL,"/scl/MT/prog/interface/call_parser_summary.cgi?filename=",$TFPATH,"\&amp;outscript=",$outscript,"&rel=''&sentnum=1&save=no&translate=no\"  onmouseover=\"my_render()\">\n";
+          print "<a href=\"/",$CGIURL,"/scl/MT/prog/interface/call_parser_summary.cgi?filename=",$TFPATH,"\&amp;outscript=",$outscript,"&rel=''&sentnum=1&save=no&translate=no\"  onmouseover=\"Tip('<img src=/scl/MT/DEMO/tmp_",$fbn,"/1.svg >' ,FONTSIZE,'18pt',HEIGHT,400,WIDTH,900,STICKY,true,CLOSEBTN,true)\">\n";
         }
         if($fld == 3) { # sandhied words
           open(TMP,"<$TFPATH/sandhied_in$pid");
@@ -75,13 +69,14 @@ foreach ($fld=1;$fld<=$#flds;$fld++){
           print "<a href=\"/$CGIURL/$HERITAGE_CGI?lex=MW\&cache=t\&st=t\&us=f\&font=deva\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=b\&pipeline=f\">\n";
         }
         print "<span Onclick=\"toggle();\">";
-        print "1.",chr(64+$fld);
+        $sent_no = $flds[0];
+        $sent_no =~ s/\.[0-9]+$//;
+        print $sent_no,".",chr(64+$fld);
         print "<\/span>";
         if (($fld == 1) || ($fld == 3)) { print "<\/a>";}
         print "<\/td>";
       }
-      $color_code = &color_code($flds[5]);
-      print "<td class=\"",$color_code,"\">";
+      print "<td class=\"",$flds[8],"\">";
   
       if (($fld==4) || ($fld==5)) {
        @ana = split(/\//,$flds[$fld]);
@@ -99,45 +94,28 @@ foreach ($fld=1;$fld<=$#flds;$fld++){
         if($word == 1) { 
            print "<td class=\"number\">";
            print "<span Onclick=\"toggle();\">";
-           print "1.",chr(64+$#flds+1);
+           print $sent_no,".",chr(64+$#flds+1);
            print "<\/span>";
            print "<\/td>";
         }
-        print "<td class=\"$color_code\">";
+        print "<td class=\"$flds[8]\">";
         print "$flds[0]<\/td><\/tr>\n";
  	print "<\/table>\n";
 }
 
-sub color_code{
-  my($in) = @_;
-  my($colorcode) = "-";
-   #print "in = $in\n";
-   if($in =~ /पुं;([1-8])/) { $colorcode = "N$1";}
-   elsif($in =~ /स्त्री;([1-8])/) { $colorcode = "N$1";}
-   elsif($in =~ /सर्वनाम;([1-8])/) { $colorcode = "N$1";}
-   elsif($in =~ /कर्तरि/) { $colorcode = "KP";}
-   elsif($in =~ /कर्मणि/) { $colorcode = "KP";}
-   elsif($in =~ /भावे/) { $colorcode = "KP";}
-   elsif($in =~ /अव्य;/) { $colorcode = "NA";}
-   elsif($in =~ /अव्य}/) { $colorcode = "NA";}
-   elsif($in =~ /puṃ;([1-8])/) { $colorcode = "N$1";}
-   elsif($in =~ /strī;([1-8])/) { $colorcode = "N$1";}
-   elsif($in =~ /sarvanāma;([1-8])/) { $colorcode = "N$1";}
-   elsif($in =~ /kartari/) { $colorcode = "KP";}
-   elsif($in =~ /karmaṇi/) { $colorcode = "KP";}
-   elsif($in =~ /bhāve/) { $colorcode = "KP";}
-   elsif($in =~ /avya;/) { $colorcode = "NA";}
-   elsif($in =~ /avya}/) { $colorcode = "NA";}
-  $colorcode;
-}
-1;
-
 sub get_anvaya_order {
  my(@in) = @_;
- my(@new_in);
+ my(@new_in, $indx);
+ $indx = 1;
  for ($i=1;$i<=$#in;$i++) {
   @flds = split('\t',$in[$i]);
-  $new_in[$flds[2]] = $in[$i];
+  $index{$flds[0]} = $indx;
+  $indx++;
+ }
+ for ($i=1;$i<=$#in;$i++) {
+  @flds = split('\t',$in[$i]);
+  $indx = $index{$flds[2]};
+  $new_in[$indx] = $in[$i];
  }
 @new_in;
 }

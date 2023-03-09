@@ -25,6 +25,7 @@ MYPYTHONPATH=/opt/homebrew/bin/python3
 
 #Heritage installation path (for interface)
 HERITAGE_CGI=SKT/sktgraph2.cgi
+HERITAGE_Grapph_CGI=SKT/sktgraph.cgi
 
 #Path for temporary files
 TFPATH=/private/tmp/SKT_TEMP

@@ -19,104 +19,92 @@
 
 
 
-$sent_count = 1;
-
 $/ = "\n\n";
 while($in = <STDIN>){
-    #  print "SENT = $in END";
-  $file_nm = "rl".$sent_count.".clp";
-  open(TMP,">$ARGV[0]/wsd_files/$file_nm") || die "Can't open file $ARGV[0]/wsd_files/$file_nm";
-
-     $word_count = 1;
      @ana = split(/\n/,$in);
      $sent = "";
 
      foreach $ana (@ana) {
-        $ana =~ s/.*\$-//;
+        #$ana =~ s/.*\$-//;
         @wrd_ana = split(/\//,$ana);
-        $ana_count = 1;
-        $rt_part1 = "";
         
         $cat = "ajFAwa";
         foreach $wrd_ana (@wrd_ana) {
           $wrd_ana =~ s/<level:[0-4]>//g;
 
-          if($wrd_ana =~ /<waxXiwa_prawyayaH.*waxXiwa_rt/) {
-              $cat="waxXiwa";
-              $sent .= "(waxXiwa ";
-          } elsif($wrd_ana =~ /<waxXiwa_prawyayaH.*/) {
-              $cat="waxXiwa";
-              $sent .= "(waxXiwa ";
-          } elsif($wrd_ana =~ /<kqw_prawyayaH.*<lifgam/) {
-              $cat="kqw";
-              $sent .= "(kqw ";
-          } elsif($wrd_ana =~ /<kqw_prawyayaH.*<XAwuH/) {
-              $cat="kqw";
-              $sent .= "(avykqw ";
-          } elsif($wrd_ana =~ /<vargaH:sa-/) {
-              $cat="samAsa";
-              $sent .= "(sup ";
-          } elsif($wrd_ana =~ /<vargaH:(nA|sarva|pUraNam|saMKyeyam|saMKyA)/) {
-              $cat="sup";
-              $sent .= "(sup ";
-          } elsif($wrd_ana =~ /<vargaH:avy><waxXiwa_prawyayaH:/) {
-              $cat="avywaxXiwa";
-              $sent .= "(avywaxXiwa ";
-         # } elsif($wrd_ana =~ /<vargaH:avy><kqw_prawyayaH:/) {
-         #     $cat="avykqw";
-         #     $sent .= "(avykqw ";
-          } elsif($wrd_ana =~ /<vargaH:avy/) {
-              $cat="avy";
-              $sent .= "(avy ";
-          } elsif($wrd_ana =~ /<XAwuH:/) {
-              $cat="wif";
-              $sent .= "(wif ";
-          } else {$cat = "ajFAwa";}
+          ($cat, $sent) = &get_cat($wrd_ana);
 
-          if(($cat ne "samAsa") && ($cat ne "ajFAwa")){
+          if($cat ne "ajFAwa"){
               $wrd_ana =~ s/<vargaH:[^>]+>//;
-          }
 
-          if($wrd_ana !~ /\-/) {
-             if($wrd_ana =~ /<rt:([^>]+)>/){
-                $t = $rt_part1.$1;
-             } elsif($wrd_ana !~ /<word:/) {
-                     $wrd_ana =~ s/^([^<]+)/<word:$word><rt:$1>/;
-             }
-          } else {
-             if ($wrd_ana =~ /<word:([^>]+)-/){
-                 $rt_part1 = $1;
-             }
-             if($wrd_ana =~ s/<rt:.*-([^><]+)>?</<rt:$rt_part1$1></){
-               $t = $1;
-             }
-          }
-          if($t =~ /.*\-([^\-]+)$/) { $compound_hd = $1;} 
-          else {$compound_hd = $t;}
-          $wrd_ana =~ s/<rt:([^>]+)>/<rt:$t><compound_hd:$compound_hd>/;
+          if($wrd_ana =~ /<word:[^>\-]+\->/) { $pUrvapaxa = "y";} else {$pUrvapaxa = "n";}
+          if($wrd_ana =~ /<word:-/) { $uwwarapaxa = "y";} else {$uwwarapaxa = "n";}
 
-           if(($wrd_ana !~ /<upasarga:/) && (($cat eq "kqw") || ($cat eq "wif") || ($cat eq "avykqw"))){
-               $wrd_ana =~ s/(<compound_hd:[^>]+>)</$1<upasarga:X></;
-            }
-            if(($wrd_ana !~ /<sanAxi_prawyayaH:/) && (($cat eq "kqw") || ($cat eq "wif") || ($cat eq "avykqw"))){
+          $wrd_ana =~ s/<rt:([^>]*)>/<rt:$1><pUrvapaxa:$pUrvapaxa><uwwarapaxa:$uwwarapaxa>/;
+
+          if(($wrd_ana !~ /<upasarga:/) && (($cat eq "kqw") || ($cat eq "wif") || ($cat eq "avykqw"))){
+               $wrd_ana =~ s/(<uwwarapaxa:[^>]+>)</$1<upasarga:X></;
+          }
+          if(($wrd_ana !~ /<sanAxi_prawyayaH:/) && (($cat eq "kqw") || ($cat eq "wif") || ($cat eq "avykqw"))){
                $wrd_ana =~ s/(<upasarga:[a-zA-Z_]+>)</$1<sanAxi_prawyayaH:X></;
-            }
+          }
 
           $wrd_ana =~ s/^([^<]+)$//g;
+          $wrd_ana =~ s/<relata_pos:([0-9]+)\.([0-9]+)>/(relata_pos_id $1) (relata_pos_cid $2)/g;
           $wrd_ana =~ s/<([^:]+):([^>]+)>/($1 $2)/g;
+          $wrd_ana =~ s/<relata_pos:>/(relata_pos_id 0) (relata_pos_cid 0)/g;
           $wrd_ana =~ s/<rel_nm:>/(rel_nm X)/g;
-          $wrd_ana =~ s/<relata_pos:>/(relata_pos 0)/g;
-	  #$wrd_ana =~ s/<([^:]+):>//g;
+	  $wrd_ana =~ s/<([^:]+):>/($1 X)/g;
           $wrd_ana =~ s/\$//g;
 
-        $sent .= "(id $word_count) ";
-        $sent .= "(mid $ana_count) ";
-        $sent .= " ".$wrd_ana.")\n";
-        if(($cat ne "samAsa") && ($cat ne "ajFAwa")){ $ana_count++;}
+          print $sent, " ",$wrd_ana,")\n";
+       }# else { print $sent, " \n";}
+       }
       }
-          if(($cat ne "samAsa") && ($cat ne "ajFAwa")){ $word_count++;}
-      }
-      $sent_count++;
-      print TMP "$sent\n";
-      close(TMP);
 }
+
+
+sub get_cat{
+    my($wrd_ana) = @_;
+
+    my($cat,$sent);
+
+          $sent = "";
+          if($wrd_ana =~ /<waxXiwa_prawyayaH.*waxXiwa_rt/) {
+              $cat="waxXiwa";
+              $sent = "(waxXiwa ";
+          } elsif($wrd_ana =~ /<waxXiwa_prawyayaH.*/) {
+              $cat="waxXiwa";
+              $sent = "(waxXiwa ";
+          } elsif($wrd_ana =~ /<kqw_prawyayaH.*<lifgam/) {
+              $cat="kqw";
+              $sent = "(kqw ";
+          } elsif($wrd_ana =~ /<kqw_prawyayaH.*<XAwuH/) {
+              $cat="kqw";
+              $sent = "(avykqw ";
+          #} elsif($wrd_ana =~ /<vargaH:sa-/) {
+          #    $cat="samAsa";
+          #    $sent = "(sup ";
+          } elsif($wrd_ana =~ /<vargaH:(nA|sarva|pUraNam|saMKyeyam|saMKyA)/) {
+              $cat="sup";
+              $sent = "(sup ";
+          } elsif($wrd_ana =~ /<vargaH:avy><waxXiwa_prawyayaH:/) {
+              $cat="avywaxXiwa";
+              $sent = "(avywaxXiwa ";
+         # } elsif($wrd_ana =~ /<vargaH:avy><kqw_prawyayaH:/) {
+         #     $cat="avykqw";
+         #     $sent = "(avykqw ";
+          } elsif($wrd_ana =~ /<vargaH:avy/) {
+              $cat="avy";
+              $sent = "(avy ";
+          } elsif($wrd_ana =~ /<XAwuH:/) {
+              $cat="wif";
+              $sent = "(wif ";
+          } else {
+              $cat = "ajFAwa";
+              $sent = "";
+          }
+
+  ($cat,$sent);
+}
+1;

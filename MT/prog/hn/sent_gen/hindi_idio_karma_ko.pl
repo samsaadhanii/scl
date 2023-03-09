@@ -48,8 +48,8 @@ my($j,$k,$verb_pos,$dvikarmaka,$karma_lifgam,$karma_rt,$karwA_rt,$karwA_lifgam);
 
 #If the word is karma
  if(
-   (${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karma><relata_pos:([0-9]+)>/)
-|| (${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:muKyakarma><relata_pos:([0-9]+)>/)){
+   (${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karma><relata_pos:([0-9\.]+)>/)
+|| (${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:muKyakarma><relata_pos:([0-9\.]+)>/)){
          $verb_pos = $1;
 	 $karma_rt = &get_rt_gen(${$var_nm}[$morph_kaaraka_anal]);
 

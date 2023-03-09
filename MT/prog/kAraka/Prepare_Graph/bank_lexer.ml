@@ -148,6 +148,7 @@ value next_token_fun =
     | [: c = ident_char; s = ident2 (store buff c) :] -> 
       if s = "(sup" then KEYWORD "(sup" else 
       if s = "(id" then KEYWORD "(id" else
+      if s = "(cid" then KEYWORD "(cid" else
       if s = "(mid" then KEYWORD "(mid" else
       if s = "(word" then KEYWORD "(word" else
       if s = "(rt" then KEYWORD "(rt" else 

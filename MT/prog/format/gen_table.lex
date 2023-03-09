@@ -1,34 +1,48 @@
 %option noinput
 %option nounput
- char pre_tag[10];
- char post_tag[10];
  char word[1000];
- int word_no, sent_no, new_line;
+ int word_no, comp_no;
 %%
-[a-zA-Z0-9\-]+		{ 
-			   strcpy(word,yytext); word_no++;
+[a-zA-Z0-9]+/\-		{ 
+		   	   strcpy(word,yytext); 
+		  	   strcat(word,"-"); 
+			   printf("%d.%d\t%s\n",word_no,comp_no,word); 
+		  	   comp_no++;
+                	}
+[a-zA-Z0-9]+/[\. \n]	{ 
+		   	   strcpy(word,yytext); 
+			   printf("%d.%d\t%s\n",word_no,comp_no,word); 
+                      	   word_no++;
+		  	   comp_no = 1;
                         }
-[^a-zA-Z0-9 \t\n<>\-]+/[a-zA-Z0-9]	{ strcat(pre_tag,yytext);}
-\<s\>			{
-				strcat(pre_tag,"<s>");
-                                word_no = 0; 
-                                sent_no++;
+\-[a-zA-Z0-9]+/\-	{ 
+		   	   strcpy(word,yytext); 
+		  	   strcat(word,"-"); 
+			   printf("%d.%d\t%s\n",word_no,comp_no,word); 
+		  	   comp_no++;
+                	}
+\-[a-zA-Z0-9]+/[\. \n]	{ 
+		   	   strcpy(word,yytext); 
+			   printf("%d.%d\t%s\n",word_no,comp_no,word); 
+                      	   word_no++;
+		  	   comp_no = 1;
                         }
-[^a-zA-Z0-9 \t\n<>\-]+	{ strcat(post_tag,yytext);}
-\<\/s\>			{
-			     strcat(post_tag,"</s>");
-                             new_line = 1;
-			}
-[ \t\n]+	{ printf("%d.%d\t%s\t%s\t%s\n",sent_no,word_no,pre_tag,word,post_tag); 
-		  if(new_line) { printf("\n"); new_line = 0;}
-		  pre_tag[0] = '\0'; 
-		  post_tag[0] = '\0'; 
-		}
-.		{ printf("Error %s\n",yytext);}
+
+\.			{  
+			   printf("%d.%d\t.\n",word_no,comp_no); 
+                      	   word_no = 1; 
+		  	   comp_no = 1;
+               		}
+[ \n]			{}
+,			{  
+			   printf("%d.%d\t,\n",word_no,comp_no); 
+                      	   word_no = 1; 
+		  	   comp_no = 1;
+               		}
+.			{  printf("Error %s\n",yytext);}
 %%
-int word_no = 0;
-int sent_no = 0;
-int new_line = 0;
+int word_no = 1;
+int comp_no = 1;
 
 int main(){
    yylex();

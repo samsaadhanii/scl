@@ -1,32 +1,44 @@
 #!/usr/bin/env perl
 
-# 1-2: format
-# 3: word
-# 4: sandhied_word
-# 5: format
-# 6-8: morph
-# 9: morph in context
-# 10: kaaraka role
-# 11: all possible relations
-# 12: Anaphora
-# 13: WSD
-# ** 13: POS
-# 14: Color code
-# 15: Chunk/LWG
-# 16:  map o/p
-# 17: lwg o/p
-# 18: lwg o/p with karwari
-# 19: gen o/p
-# 20: gen o/p with karwari
+# 1: word index
+# 2: word
+# 3: sandhied_word
+# 4-6: morph
+# 7: morph in context
+# 8: kaaraka role
+# 9: all possible relations
+# 10: Anaphora
+# 11: WSD
+# 12: Color code
+# 13: Chunk/LWG
+# 14: map o/p
+# 15: lwg o/p
+# 16: lwg o/p with karwari
+# 17: gen o/p
+# 18: gen o/p with karwari
 
 print "\@index\t\@word\t\@poem\t\@sandhied_\@word\t\@morph_\@analysis\t\@morph_\@in_\@context\t\@kaaraka_\@sambandha\t\@possible_\@relations\t\@hindi_\@meaning\t\@English_\@meaning\t\@samAsa\t\@prayoga\t\@sarvanAma\t\@Name-\@classification\n";
 #print "index\tword\tpoem\tsandhied_word\tmorph_analysis\tmorph_in_context\tkaaraka_sambandha\t\tpossible_relations\thindi_meaning\tEnglish_meaning\tsamAsa\tprayoga\tsarvanAma\tName-classification\n";
 
+$index = 1;
 while($in = <STDIN>){
 chomp($in);
 if($in) {
   @flds = split(/\t/,$in);
-  $flds[0] =~ s/^[^\.]+\.//;
+  #$flds[0] =~ /^([0-9]+)\.([0-9]+)/;
+  #$id = $1;
+  #$cid = $2;
+
+  $flds[3] =~ s/^([a-zA-Z_0-9]+) /$1\{/;
+  $flds[3] =~ s/([^\-]+\-[^ \-]+) /$1\{/g;
+  $flds[3] =~ s/\{\{/\{/;
+  $flds[3] =~ s/ /;/g;
+  $flds[3] =~ s/\{;/\{/g;
+  $flds[3] =~ s/\//}\//g;
+  $flds[3] =~ s/(\/[^;]+);/\1\{/g;
+  if($flds[3] =~ /\{/) {$c1 = $flds[3] =~ s/\{/\{/g;} else {$c1 = 0;}
+  if($flds[3] =~ /\}/) {$c2 = $flds[3] =~ s/\}/\}/g;} else {$c2 = 0;}
+  if ($c1 > $c2) { $flds[3] =~ s/$/}/;}
 
   $flds[6] =~ s/^([a-zA-Z_0-9]+) /$1\{/;
   $flds[6] =~ s/([^\-]+\-[^ \-]+) /$1\{/g;
@@ -39,24 +51,13 @@ if($in) {
   if($flds[6] =~ /\}/) {$c2 = $flds[6] =~ s/\}/\}/g;} else {$c2 = 0;}
   if ($c1 > $c2) { $flds[6] =~ s/$/}/;}
 
-  $flds[8] =~ s/^([a-zA-Z_0-9]+) /$1\{/;
-  $flds[8] =~ s/([^\-]+\-[^ \-]+) /$1\{/g;
-  $flds[8] =~ s/\{\{/\{/;
-  $flds[8] =~ s/ /;/g;
-  $flds[8] =~ s/\{;/\{/g;
-  $flds[8] =~ s/\//}\//g;
-  $flds[8] =~ s/(\/[^;]+);/\1\{/g;
-  if($flds[8] =~ /\{/) {$c1 = $flds[8] =~ s/\{/\{/g;} else {$c1 = 0;}
-  if($flds[8] =~ /\}/) {$c2 = $flds[8] =~ s/\}/\}/g;} else {$c2 = 0;}
-  if ($c1 > $c2) { $flds[8] =~ s/$/}/;}
-
   if($grpwith == $flds[0]) {
 # When the current word is to be grouped with the previous word
-    $relation = $grpwith."_".$flds[9];
-    $poss_relation = $tmp_poss_rel."_".$flds[10];
-    $mng = $tmpmng."_".$flds[18];
-    $mng1 = $tmpmng1."_".$flds[19];
-    print $tmpgrp,$relation,"\t",$poss_relation,"\t",$mng,"\t",$mng1,"\n";
+    $relation = $grpwith."_".$flds[7];
+    $poss_relation = $tmp_poss_rel."_".$flds[8];
+    $mng = $tmpmng."_".$flds[16];
+    $mng1 = $tmpmng1."_".$flds[17];
+    print $tmpgrp,$relation,"\t",$poss_relation,"\t",$flds[11],"\t",$mng,"\t",$mng1,"\n";
     $tmpgrp = "";
     $tmpmng = "";
     $tmpmng1 = "";
@@ -64,18 +65,19 @@ if($in) {
     $mng1 = "";
     $relation = "";
     $poss_relation = "";
-  } elsif (($flds[9] !~ /^,/) && ($flds[10] !~ /^,/)) {  
+  } elsif (($flds[6] !~ /^,/) && ($flds[8] !~ /^,/)) {  
 ## When the relation is not blank
-    print $flds[0],"\t",$flds[2],"\t\t",$flds[3],"\t",$flds[6],"\t",$flds[8],"\t",$flds[9],"\t",$flds[10],"\t",$flds[18],"\t",$flds[19],"\n";
+    print $flds[0],"\t",$flds[1],"\t\t",$flds[2],"\t",$flds[3],"\t",$flds[6],"\t",$flds[7],"\t",$flds[8],"\t",$flds[11],"\t",$flds[16],"\t",$flds[17],"\n";
   } else {
 ## When the relation is blank -- that is the current word is to be grouped with the following word
-    $tmpgrp = $flds[0]."\t".$flds[2]."\t\t".$flds[3]."\t".$flds[6]."\t".$flds[8]."\t";
-    $grpwith = $flds[9];
+    $tmpgrp = $flds[0]."\t".$flds[1]."\t\t".$flds[2]."\t".$flds[3]."\t".$flds[6]."\t";
+    $grpwith = $flds[7];
     $grpwith =~ s/,//;
-    $tmp_poss_rel = $flds[10];
-    $tmpmng = $flds[18];
-    $tmpmng1 = $flds[19];
+    $tmp_poss_rel = $flds[8];
+    $tmpmng = $flds[16];
+    $tmpmng1 = $flds[17];
   }
 # In case of upapada grouping the name of the relation is blank
 } else { print "\n";}
+$index++;
 }

@@ -32,35 +32,115 @@
 
     <script src="../js_files/devtrans.js"></script>
     <script language="Javascript" type="text/javascript">
-      function check() {
+
+ function avalidationwithspace(){
         var data=document.test.text.value;
-        if (data == "") {
-          alert("Please enter some sentence(s)");
-          return false;
-        }
-        else {
-          var inputlang=document.getElementById("encoding").value;
-          var noreg_wxe=/[^aAiIuUqQlLeEoOMHzkKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRshZ \.\?\-\_\!\^\,\r\n]/;
-          var noreg_uni=/[^अआइईउऊऋॠऌएऐओऔअंअःकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह ्ािीुूृॄॢेैोौंः  -_?.,!+/|।॥ऽ\r\r\n]/;
-          var noreg_itr=/[^AaiuRiLIeoMH.Nkgh~NcChjnThDtdpbmyrlvsS \?\-\_\.\,\!\^\r\n]/;
-          var noreg_slp=/[^aAiIuUfFlxeEoOMHkKgGNcCqQjJwWQRtTdDnpPbBmyrlvSzsh \.\?\r\n\-]/;
-          var noreg_vel=/[^aiurleomhkgncjtdpbvysz \~\"\?\-\_\.\,\!\r\n]/;
-          var noreg_rom=/[^ aāiīuūeṛṝoṃḥkhgṅcjñṭḍṇtdnpbmyrlvśṣs\-\.\?\r\n]/;
-          var noreg_kyo=/[^aAiIuUlReaoMHkghGcjJTDNtdnpbmyrlvzSs \.\?\r\n]/;
-          switch (inputlang) {
-            case "Unicode": if (!noreg_uni.test(data)) break;
-            case "Itrans" : if (!noreg_itr.test(data)) break;
-            case "SLP"    : if (!noreg_slp.test(data)) break;
-            case "IAST"  : if (!noreg_rom.test(data)) break;
-            case "KH"     : if (!noreg_kyo.test(data)) break;
-            case "VH"     : if (!noreg_vel.test(data)) break;
-            case "WX"     : if (!noreg_wxe.test(data)) break;
-            default: {
-              alert("Please check encoding notation and input text notation"); return false;
-            }
-          }
-        }
-      }
+        var inputlang=document.getElementById("encoding").value;
+	var stat = 1;
+
+	var regunisp=/[ अआइईउऊऋॠऌएऐओऔअंअःकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह ्ािीुूृॄॢेैोौंःळ\-ऽ\.]/;
+	var regsp=/[ aAiIuUqQlLeEoOMHzkKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRshZ\-\.]/;
+	var regitranssp=/[ aiuURiLIeoMH.Nkgh~NcChj~nThDtdpbmyrlvwGYsSA\^\-\.]/;
+	var regslpsp=/[ aAiIuUfFlxeEoOMHkKgGNcCqQjJwWQRtTdDnpPbBmyrlvSzsh\-\.]/;
+	var regvelsp=/[ aiurleomhkgncjtdpbyszv\~\"\?\-\_\.\,\!\-\'\.]/;
+	var regromsp=/[ aÃ„ÂiÃ„Â«uÃ…Â«Ã¡Â¹â€º?leoÃ¡Â¹Æ’Ã¡Â¸Â¥khgÃ¡Â¹â€¦cjÃƒÂ±Ã¡Â¹Â­Ã¡Â¸ÂÃ¡Â¹â€¡tdnpbmyrlvÃ…â€ºÃ¡Â¹Â£s\-\.]/;
+	var regkhsp=/[ aAiIuUlReaoMHkghGcjJTDNtdnpbmyrlvzSs\-]/;
+	     	
+	
+		if(inputlang=="Unicode"){
+			for(var i=0;i<data.length;i++){
+			if(regunisp.test(data[i])){
+				
+			}
+			else{
+				alert("Please check encoding notation and input text notation; the input text is not in Unicode Devanagari");
+				stat = 0;
+				return stat;
+			}
+			}
+                 return stat;
+		}
+		else if(inputlang=="Itrans"){
+			for(var i=0;i<data.length;i++){
+				if(regitranssp.test(data[i])){
+				}
+				else {
+					alert("Please check encoding notation and input text notation; the input text is not in Itrans");
+					stat = 0;
+					return stat;
+				}
+			}
+			
+		 return stat;	
+		}
+		else if(inputlang=="SLP"){
+			for(var i=0;i<data.length;i++){
+                                if(regslpsp.test(data[i])){
+                                }
+                                else {
+                                	alert("Please check encoding notation and input text notation; The input text is not in SLP");
+                                       stat = 0;
+					return stat;
+                                }
+                        }
+		 return stat;	
+      		}
+		else if(inputlang=="roman"){
+                        for(var i=0;i<data.length;i++){
+                                if(regromsp.test(data[i])){
+                                }
+                                else {	
+                                	alert("Please check encoding notation and input text notation; the input text is not in roman");
+                                        stat = 0;
+					 return stat;
+                                }
+                        }
+      
+		 return stat;	
+                }		
+
+		else if(inputlang=="KH"){
+                        for(var i=0;i<data.length;i++){
+                                if(regkhsp.test(data[i])){
+                                }
+                                else {
+                                	alert("Please check encoding notation and input text notation; the input tet is not in Harvard Kyoto");
+                                        stat = 0;
+					 return stat;
+                                }
+                        }
+      
+		 return stat;	
+                }
+
+		else if(inputlang=="VH"){
+                        for(var i=0;i<data.length;i++){
+                                if(regvelsp.test(data[i])){
+                                }
+                                else {
+                                	alert("Please check encoding notation and input text notation; the input text is not in Velthuis-Huet");
+                                        stat = 0;
+					 return stat;
+                                }
+                        }
+      
+		 return stat;	
+                }
+
+		else if(inputlang=="WX"){
+                        for(var i=0;i<data.length;i++){
+                                if(regsp.test(data[i])){ }
+                                else {
+                                	alert("Please check encoding notation and input text notation; the input text is not in WX");
+                                        stat = 0;
+					 return stat;
+                                }
+                        }
+                       
+		 return stat;	
+                }
+               
+}
 
 
 function livetrans () {
@@ -87,8 +167,6 @@ function livetrans () {
   }
   document.getElementById("devtext").innerHTML = otext;
 }
-
-setInterval(blinker, 1000);
 
     </script>
     <!-- All css links for all modules -->
@@ -125,7 +203,7 @@ setInterval(blinker, 1000);
   </div>
   <div id="input-dashboard">
     <center>
-      <form name="test" method="post" action="/cgi-bin/scl/MT/anusaaraka.cgi"  onsubmit="return check();">
+      <form name="test" method="post" action="/cgi-bin/scl/MT/anusaaraka.cgi"  onsubmit="return avalidationwithspace();">
         <div id="selection-area">
           <table>
             <tr>

@@ -20,18 +20,17 @@
 open (TMP,"<$ARGV[0]");
 while(($in = <TMP>) && ($in ne "\n")){
 @flds = split(/ /,$in);
-if($REL{$flds[0]} !~ /$flds[5],$flds[3]/) {
-   $REL{$flds[0]} .= $flds[5].",".$flds[3];
+  $key = $flds[0].".".$flds[1];
+if($REL{$key} !~ /$flds[7],$flds[4]/) {
+   $REL{$key} .= "#".$flds[7].",".$flds[4].".".$flds[5];
 }
 }
 close(TMP);
 
-$index = 1;
 while($in = <STDIN>){
   chomp($in);
-  $REL{$index} =~ s/^#//;
-  $REL{$index} =~ s/#/\//g;
-  if ($REL{$index} eq "") { $REL{$indx} = "-";}
-  print $in,"\t",$REL{$index},"\n";
-  $index++;
+  @flds = split(/\t/,$in);
+  if ($REL{$flds[0]} eq "") { $REL{$flds[0]} = "-";}
+  $REL{$flds[0]} =~ s/^#//;
+  print $in,"\t",$REL{$flds[0]},"\n";
 }

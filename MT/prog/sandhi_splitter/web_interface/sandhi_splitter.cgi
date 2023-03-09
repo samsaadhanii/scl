@@ -21,7 +21,7 @@
 
 use utf8;
 use strict;
-use warnings;
+#use warnings;
 require "../paths.pl";
 require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
@@ -82,13 +82,14 @@ $disp_mode = "web";
      print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."encoding:$encoding\t"."word:$word\n";
   }
 
-    if ($encoding eq "WX") { $t = "WX";}
-    elsif ($encoding eq "VH") { $t = "VH";}
-    elsif ($encoding eq "KH") { $t = "KH";}
-    elsif ($encoding eq "SLP") { $t = "SL";}
-    elsif ($encoding eq "IAST") { $t = "WX";}
-    elsif ($encoding eq "Unicode") { $t = "WX";}
-    elsif ($encoding eq "Itrans") { $t = "WX";}
+## Heritage splitter needs the terminal anusvAra to be m
+    if ($encoding eq "WX") { $t = "WX"; if ($word =~ /M$/) { $word =~ s/M$/m/;}}
+    elsif ($encoding eq "VH") { $t = "VH"; if ($word =~ /\/.m$/) { $word =~ s/\/.m$/m/;}}
+    elsif ($encoding eq "KH") { $t = "KH"; if ($word =~ /M$/) { $word =~ s/M$/m/;}}
+    elsif ($encoding eq "SLP") { $t = "SL"; if ($word =~ /M$/) { $word =~ s/M$/m/;}}
+    elsif ($encoding eq "IAST") { $t = "WX"; if ($word =~ /M$/) { $word =~ s/M$/m/;}}
+    elsif ($encoding eq "Unicode") { $t = "WX"; if ($word =~ /M$/) { $word =~ s/M$/m/;}}
+    elsif ($encoding eq "Itrans") { $t = "WX"; if ($word =~ /M$/) { $word =~ s/M$/m/;}}
 
     $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=$st\&us=f\&font=$Hscript\&cp=t\&text=$word\&t=$t\&topic=\&mode=s&pipeline=t&fmode=w\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI";
 
@@ -99,7 +100,7 @@ $disp_mode = "web";
       print "<br />";
       print "<br />";
       print "<br />";
-      print "Click <a href=\"/cgi-bin/SKT/sktgraph.cgi?lex=MW\&cache=f\&st=$st\&us=f\&font=$Hscript\&cp=t\&text=$word\&t=$t\&topic=\&mode=g&pipeline=f\">here</a> to see all possible solutions.";
+      print "Click <a href=\"/cgi-bin/$GlblVar::HERITAGE_Graph_CGI?lex=MW\&cache=f\&st=$st\&us=f\&font=$Hscript\&cp=t\&text=$word\&t=$t\&topic=\&mode=g&pipeline=f\">here</a> to see all possible solutions.";
       print "</div><br />";
    } else {
       system("$cmd | tail -1 | sed 's/input/\@input/' | sed 's/segmentation/\@segmentation/' | $out_converter");

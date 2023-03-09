@@ -32,6 +32,9 @@ while($in = <STDIN>){
     $tmp = "";    
     foreach ($i=0; $i<=$#analysis;$i++){
        if($analysis[$i] !~ /level:0/){ $tmp .= "/".$analysis[$i]; }
+       if($analysis[$i] =~ /level:0/){ 
+           if ($analysis[$i] =~ /vargaH:sapUpa/) { $tmp .= "/".$analysis[$i]; }
+       }
     }
     if($tmp ne "") { $tmp =~ s/^\///; print $tmp;} else {} # { print join("/",@analysis);} Since these are just derivational analysis, it is of no use; hence deleted completely.
     print "\n";

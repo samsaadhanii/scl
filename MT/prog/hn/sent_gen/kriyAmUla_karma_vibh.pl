@@ -50,7 +50,7 @@ my($j,$verb_pos,$kriyAmUla,$karma_marker);
 
        #print ${$var_nm}[$morph_kaaraka_anal],"\n";
 #If the word is karma
-      if((${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karma><relata_pos:([0-9]+)>/) || (${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:(muKya|gONa)karma><relata_pos:([0-9]+)>/)){
+      if((${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karma><relata_pos:([0-9\.]+)>/) || (${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:(muKya|gONa)karma><relata_pos:([0-9\.]+)>/)){
          $verb_pos = $1;
          $new_var_nm = "wrd_ana_flds_".$verb_pos;
          if(${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^([^_]+_([^ ])+)/){

@@ -60,7 +60,9 @@ set_tmp_path () {
 }
 
 format () {
-      $ANU_MT_PATH/format/format.sh $SCLINSTALLDIR < $TMP_DIR_PATH/$FILE_NM > $temp_files_path/$fbn.out
+    #  $ANU_MT_PATH/format/format.sh $SCLINSTALLDIR < $TMP_DIR_PATH/$FILE_NM > $temp_files_path/$fbn.out
+      $ANU_MT_PATH/Normalisation/lwg.out < $TMP_DIR_PATH/$FILE_NM |\
+      $ANU_MT_PATH/format/gen_table.out > $temp_files_path/$fbn.out
 }
 
 sandhi_splitter () {
@@ -78,38 +80,41 @@ morph () {
 
 shaabdabodha () {
   $ANU_MT_PATH/kAraka/shabdabodha.sh $SCLINSTALLDIR $GraphvizDot $temp_files_path $fbn.out $fbn.kAraka $OUTSCRIPT $PARSE $TEXT_TYPE
-# Field 9: morph analysis corresponding to the kaaraka role
-# Field 10: kaaraka role
-# Field 11: all possible relations
+# Field 7: morph analysis corresponding to the kaaraka role
+# Field 8: kaaraka role
+# Field 9: all possible relations
 }
 
 anaphora () {
-# anaphora in the 12th field
+# anaphora in the 10th field
      $ANU_MT_PATH/anaphora/anaphora.pl $SCLINSTALLDIR $ANU_MT_PATH/anaphora < $temp_files_path/$fbn.out > $temp_files_path/tmp
      mv $temp_files_path/tmp $temp_files_path/$fbn.out
 }
 
 wsd () {
-# wsd in the 13th field
+# wsd in the 11th field
     $ANU_MT_PATH/wsd/wsd_rules.sh $SCLINSTALLDIR $temp_files_path $fbn.out $fbn.wsd $fbn.wsd_upapaxa
+    cp $temp_files_path/$fbn.out $temp_files_path/jjj
 }
 
 ###########
 
 ### Map to hindi
-# Color Code in the 14th field
-# Chunk/LWG in the 15th field
-# map o/p in the 16th field and lwg o/p in 17th field and lwg o/p with karwari in 18th field
-# gen o/p in the 19th field and with karwari in 20th field
+# Color Code in the 12th field
+# Chunk/LWG in the 13th field
+# map o/p in the 14th field 
+# lwg o/p in 15th field and lwg o/p with karwari in 16th field
+# gen o/p in the 17th field and with karwari in 18th field
 
 hnd_gen () {
     $ANU_MT_PATH/interface/add_colorcode.pl < $temp_files_path/$fbn.out |\
-    $ANU_MT_PATH/chunker/lwg.pl |\
+    $ANU_MT_PATH/chunker/lwg.pl  |\
     $ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $ANU_MT_PATH/../data hi |\
     $ANU_MT_PATH/map/lwg_avy_avy.pl $SCLINSTALLDIR $ANU_MT_PATH/../data hi  |\
-    $ANU_MT_PATH/hn/sent_gen/agreement.pl $SCLINSTALLDIR $ANU_MT_PATH/../data $ANU_MT_PATH/hn/sent_gen  |\
+    $ANU_MT_PATH/hn/sent_gen/agreement.pl $ANU_MT_PATH/../data $ANU_MT_PATH/hn/sent_gen |\
     $ANU_MT_PATH/hn/sent_gen/call_gen.pl $SCLINSTALLDIR  |\
     $ANU_MT_PATH/interface/modify_mo_for_display.pl $SCLINSTALLDIR  > $temp_files_path/ttt
+    #cp $temp_files_path/ttt $temp_files_path/$fbn.out
     mv $temp_files_path/ttt $temp_files_path/$fbn.out
 }
 
@@ -123,12 +128,12 @@ hnd_gen () {
    $ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out > $temp_files_path/table.tsv
    #
    ## Temporary commented. Sanal has to fix the programme.
-   $MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py -i $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv -s $SCLINSTALLDIR -t hi
+   #$MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py -i $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv -s $SCLINSTALLDIR -t hi
    #
-   #cut -f1 $temp_files_path/table.tsv > $temp_files_path/1
-   #cut -f2 $temp_files_path/table.tsv > $temp_files_path/2
-   #cut -f4- $temp_files_path/table.tsv > $temp_files_path/3
-   #paste $temp_files_path/1 $temp_files_path/2 $temp_files_path/1 $temp_files_path/3 > $temp_files_path/anvaya.tsv
+   cut -f1 $temp_files_path/table.tsv > $temp_files_path/1
+   cut -f2 $temp_files_path/table.tsv > $temp_files_path/2
+   cut -f4- $temp_files_path/table.tsv > $temp_files_path/3
+   paste $temp_files_path/1 $temp_files_path/2 $temp_files_path/1 $temp_files_path/3 > $temp_files_path/anvaya.tsv
    $my_converter < $temp_files_path/table.tsv > $temp_files_path/table_outscript.tsv
    $dev_converter < $temp_files_path/table.tsv > $temp_files_path/table_dev.tsv
    $my_converter < $temp_files_path/anvaya.tsv > $temp_files_path/anvaya_outscript.tsv
@@ -155,6 +160,7 @@ hnd_gen () {
 ################
 
  csv2xlsx () {
+   $ANU_MT_PATH/kAraka/draw_graph.pl $GraphvizDot $temp_files_path < $temp_files_path/table_outscript.tsv
    $MYPYTHONPATH $ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table_outscript.tsv $temp_files_path/table.xlsx
  }
 
@@ -171,9 +177,9 @@ else
 
       format
       sandhi_splitter
-    #`date >> $temp_files_path/err`;
+    		#`date >> $temp_files_path/err`;
       morph
-    #`date >> $temp_files_path/err`;
+    		#`date >> $temp_files_path/err`;
 
     fi # If Morph = UoHyd ends here
 
@@ -181,11 +187,11 @@ else
       sandhi_splitter
     fi
 
-    #`date >> $temp_files_path/err`;
+    		#`date >> $temp_files_path/err`;
     cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.before_parse
     shaabdabodha
     cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.after_parse
-    #`date >> $temp_files_path/err`;
+    		#`date >> $temp_files_path/err`;
 
   fi  # PARSE != AVAILABLE ends here
   anaphora
@@ -200,22 +206,19 @@ else
 fi
 
 ###########
-
-# 1-2: format
+# 1: word index
+# 2: word
 # 3: sandhied_word
-# 4: word
-# 5: format
-# 6-8: morph
-# 9: morph in context
-# 10: kaaraka role
-# 11: possible relations
-# 12: Anaphora
-# 13: WSD
-# ** 13: POS
-# 14: Color code
-# 15: Chunk/LWG
-# 16:  map o/p
-# 17: lwg o/p
-# 18: lwg o/p with karwari
-# 19: gen o/p
-# 20: gen o/p with karwari
+# 4-6: morph
+# 7: morph in context
+# 8: kaaraka role
+# 9: all possible relations
+# 10: Anaphora
+# 11: WSD
+# 12: Color code
+# 13: Chunk/LWG
+# 14: map o/p
+# 15: lwg o/p
+# 16: lwg o/p with karwari
+# 17: gen o/p
+# 18: gen o/p with karwari

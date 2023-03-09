@@ -29,16 +29,14 @@ while($in = <STDIN>){
    if($in =~ /^$/) { 
       print $in;
    } else {
-      ($index,$ltag,$word,$rtag) = split(/\t/,$in,4);
-#      if (abs($lw-$ls) < 2){
+      chomp($in);
+      ($index,$word) = split(/\t/,$in,2);
           $word =~ /^(..)/;
           $fs = $1;
-          if ($sandhied_words[$i] =~ /^$fs/) { $word_s = $sandhied_words[$i]; $ls = length($word_s); $lw = length($word);$i++;} 
+          if ($word =~ /^\-/) { $word_s = "ZZ"; $lw += length($word);}
+          elsif ($sandhied_words[$i] =~ /^$fs/) { $word_s = $sandhied_words[$i]; $ls = length($word_s); $lw = length($word);$i++;} 
+          elsif ($sandhied_words[$i] =~ /^[\.,]/) { $word_s = $sandhied_words[$i]; $ls = length($word_s); $lw = length($word);$i++;} 
           else {$word_s = "ZZ"; $lw += length($word);}
-          print $index,"\t",$ltag,"\t",$word,"\t",$word_s,"\t",$rtag;
-#      } else {
-#         $word_s = ""; $lw += length($word);
-#         print $index,"\t",$ltag,"\t",$word,"\t-\t",$rtag;
-#      }
+          print $index,"\t",$word,"\t",$word_s,"\n";
   }
 }

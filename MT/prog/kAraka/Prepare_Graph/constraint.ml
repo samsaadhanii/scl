@@ -116,26 +116,31 @@ value intersection l1 l2=if List.length l1 < List.length l2
 ;
 
 value print_relation r=match r with
- [ Relationc (i1,i2,i3,i4,i5,i6)   -> do
+ [ Relationc (i1,i2,i3,i4,i5,i6,i7,i8)   -> do
     { print_string "("
     ; print_int (i1-1); print_string ","
     ; print_int (i2-1); print_string ","
-    ; if (i3 >= 2000) then print_int (i3 - (i3 mod 100)) 
-      else if (i3=1009) then print_int 9 
-      else if (i3=1080) then print_int 80 
-      else if (i3=70) then print_int 39  (* hewuH -> hewu *)
-      else if (i3=37) then print_int 36  (* aBexaH -> viSeRaNam *)
-      else if (i3=33) then print_int 32  (* sup_samucciwaH -> samucciwaH *)
-      else if (i3=35) then print_int 34  (* sup_anyawaraH -> anyawaraH *)
-      else if (i3=46) then print_int 45  (* sup_samucciwa_xyowakaH -> samucciwa_xyowakaH *)
-      else if (i3=48) then print_int 47  (* sup_anyawara_xyowakaH -> anyawara_xyowakaH *)
-      else if (i3=6) then print_int 7  (* karwA_be_verb -> karwA*)
-      else if (i3=8) then print_int 9  (* karwqrahiwakarwqsamAnAXikaraNa -> viXeya_viSeRaNam *)
-      else if (i3=40) then print_int 41  (* prayojanam1 -> prayojanam *)
-      else print_int i3
+    ; print_int (i3-1); print_string ","
+    ; if (i4 >= 2000) then print_int (i4 - (i4 mod 100)) 
+      else if (i4=1009) then print_int 9 
+      else if (i4=1080) then print_int 80 
+      else if (i4=70) then print_int 39  (* hewuH -> hewu *)
+      else if (i4=37) then print_int 36  (* aBexaH -> viSeRaNam *)
+      else if (i4=33) then print_int 32  (* sup_samucciwaH -> samucciwaH *)
+      else if (i4=35) then print_int 34  (* sup_anyawaraH -> anyawaraH *)
+      else if (i4=46) then print_int 45  (* sup_samucciwa_xyowakaH -> samucciwa_xyowakaH *)
+      else if (i4=48) then print_int 47  (* sup_anyawara_xyowakaH -> anyawara_xyowakaH *)
+      else if (i4=6) then print_int 7  (* karwA_be_verb -> karwA*)
+      else if (i4=202) then print_int 7  (* BkarwA -> karwA*)
+      else if (i4=203) then print_int 14  (* Bkarma -> karma*)
+      else if (i4=8) then print_int 9  (* karwqrahiwakarwqsamAnAXikaraNa -> viXeya_viSeRaNam *)
+      else if (i4=40) then print_int 41  (* prayojanam1 -> prayojanam *)
+      else print_int i4
     ; print_string ","
-    ; print_int (i4-1); print_string ","
-    ; print_int (i5-1); print_string ")\n"
+    ; print_int (i5-1); print_string ","
+    ; print_int (i6-1); print_string ","
+    ; print_int (i7-1); print_string ","
+    ; print_int (i8-1); print_string ")\n"
     }
  ]
 ;
@@ -145,66 +150,66 @@ value print_relation_in_dag relations r=
 	print_relation rel
 ;
 
-value join_relations a b c d e f u v w x y z =
+value join_relations a b1 b c d e1 e f u v1 v w x y1 y z =
     if d=u && e=v 
     then if c >= 2000 && c < 2100
-      then if w >= 4000 && w < 4100 then [Relationc (a,b,43,d,e,f);Relationc (u,v,20,x,y,z)]
-      else if w >= 4100 && w < 4200 then [Relationc (a,b,43,d,e,f); Relationc (u,v,21,x,y,z)]
-      else if w >= 4200 && w < 4300 then [Relationc (a,b,43,d,e,f); Relationc (u,v,7,x,y,z)] 
-      else if w >= 4300 && w < 4400 then [Relationc (a,b,43,d,e,f); Relationc (u,v,28,x,y,z)] 
-      else if w >= 4400 && w < 4500 then [Relationc (a,b,43,d,e,f); Relationc (u,v,9,x,y,z)] 
-      else if w >= 4500 && w < 4600 then [Relationc (a,b,43,d,e,f); Relationc (u,v,24,x,y,z)] 
-      else if w=21 && c >= 2000 && c < 2100 then [Relationc (a,b,43,d,e,f)] 
+      then if w >= 4000 && w < 4100 then [Relationc (a,b1,b,43,d,e1,e,f);Relationc (u,v1,v,20,x,y1,y,z)]
+      else if w >= 4100 && w < 4200 then [Relationc (a,b1,b,43,d,e1,e,f); Relationc (u,v1,v,21,x,y1,y,z)]
+      else if w >= 4200 && w < 4300 then [Relationc (a,b1,b,43,d,e1,e,f); Relationc (u,v1,v,7,x,y1,y,z)] 
+      else if w >= 4300 && w < 4400 then [Relationc (a,b1,b,43,d,e1,e,f); Relationc (u,v1,v,28,x,y1,y,z)] 
+      else if w >= 4400 && w < 4500 then [Relationc (a,b1,b,43,d,e1,e,f); Relationc (u,v1,v,9,x,y1,y,z)] 
+      else if w >= 4500 && w < 4600 then [Relationc (a,b1,b,43,d,e1,e,f); Relationc (u,v1,v,24,x,y1,y,z)] 
+      else if w=21 && c >= 2000 && c < 2100 then [Relationc (a,b1,b,43,d,e1,e,f)] 
       else []
-    (* else if c >= 2100 && c < 2200 then [Relationc (u,v,21,x,y,z)]  *)
-    else if c >= 2200 && c < 2300 then [Relationc (u,v,14,x,y,z)] 
+    (* else if c >= 2100 && c < 2200 then [Relationc (u,v1,v,21,x,y1,y,z)]  *)
+    else if c >= 2200 && c < 2300 then [Relationc (u,v1,v,14,x,y1,y,z)] 
     else if c >= 2400 && c < 2500 && w >= 4300 && w < 4400 then [
-            Relationc (u,v,95,x,y,z); Relationc(a,b,43,d,e,f)] 
-    else if c >= 2600 && c < 2700 then [Relationc (u,v,49,x,y,z)] 
-    (* else if c >= 2700 && c < 2800 then [Relationc (u,v,14,x,y,z)]  *)
-    (*else if c >= 3100 && c < 3200  && w >= 4300 && w < 4400 then [Relationc (a,b,c,d,e,f);Relationc (u,v,92,x,y,z)]*)
-    else if c >= 3200 && c < 3300  && w >= 4300 && w < 4400 then [Relationc (a,b,c,d,e,f);Relationc (u,v,93,x,y,z)] 
+            Relationc (u,v1,v,95,x,y1,y,z); Relationc(a,b1,b,43,d,e1,e,f)] 
+    else if c >= 2600 && c < 2700 then [Relationc (u,v1,v,49,x,y1,y,z)] 
+    (* else if c >= 2700 && c < 2800 then [Relationc (u,v1,v,14,x,y,y1,z)]  *)
+    (*else if c >= 3100 && c < 3200  && w >= 4300 && w < 4400 then [Relationc (a,b1,b,c,d,e1,e,f);Relationc (u,v1,v,92,x,y1,y,z)]*)
+    else if c >= 3200 && c < 3300  && w >= 4300 && w < 4400 then [Relationc (a,b1,b,c,d,e1,e,f);Relationc (u,v1,v,93,x,y1,y,z)] 
     else if c >= 2300 && c < 2400 && w >= 4300 && w < 4400 
-    then [Relationc (a,b,c,d,e,f);Relationc (u,v,w,x,y,z)] 
+    then [Relationc (a,b1,b,c,d,e,e1,f);Relationc (u,v1,v,w,x,y1,y,z)] 
     else if c >= 2900 && c < 3000 && w >= 4300 && w < 4400 
-    then [Relationc (u,v,94,x,y,z)] 
+    then [Relationc (u,v1,v,94,x,y1,y,z)] 
     else []
     else []
 ;
 
-value collapse_upapada_relations relations part_dag a b c d e f=
+value collapse_upapada_relations relations part_dag a b1 b c d e1 e f=
     loop [] relations part_dag
     where rec loop acc relations=fun
     [ [] -> acc (* if (c >=2000 && c < 2300) || (c >= 2400 && c < 4000) 
 (*(c >= 2400)*)
             then if (acc=[]) then []
-            else  List.append acc  [Relationc (a,b,0,d,e,f)] 
-            (*else [Relationc (a,b,c,d,e,f)] *)
+            else  List.append acc  [Relationc (a,b1,b,0,d,e1,e,f)] 
+            (*else [Relationc (a,b1,b,c,d,e1,e,f)] *)
 (* We need to handle karma pravacanIya separately *)
             else if (c >= 2300 && c < 2400)
             then acc
             else [] *)
     | [r :: l ] -> let rel=List.nth relations (r-1) in
             match rel with
-            [Relationc (u,v,w,x,y,z) -> 
+            [Relationc (u,v1,v,w,x,y1,y,z) -> 
                     let acc1 =
                     if c >= 2000 && c < 4000 && w >= 4000
-                    then join_relations a b c d e f u v w x y z
+                    then join_relations a b1 b c d e e1 f u v1 v w x y1 y z
                     else if c >= 4000 && w >= 2000 && w < 4000
-                    then join_relations u v w x y z a b c d e f
+                    then join_relations u v1 v w x y1 y z a b1 b c d e1 e f
                     else if c >= 2000 &&  c < 2100 && w=21
-                    then join_relations a b c d e f u v w x y z
+                    then join_relations a b1 b c d e1 e f u v1 v w x y1 y z
                     else if c=21 && w >= 2000  && w < 2100
-                    then join_relations u v w x y z a b c d e f
+                    then join_relations u v1 v w x y1 y z a b1 b c d e1 e f
                     else []
                 in  let acc2=if acc1=[] then []
                     (*else if ((c >= 3100 && c < 3300)) -- removed, since now upa_vinA and upa_saha relations are being marked from translation point of view.
                      * Earlier we would group them together with the previous wqwIyA viBakwi word
                     (* else if ((c >= 2000 && c < 2300) || (c >=2400 && c < 4000)) *)
-                    then List.append acc1 [Relationc (a,b,0,d,e,f)]  *)
+                    then List.append acc1 [Relationc (a,b1,b,0,d,e1,e,f)]  *)
                      (* for saha and vinA grouping *)
                     (*else if (c >=4000)
-                    then List.append acc1 [Relationc (u,v,0,x,y,z)] *)
+                    then List.append acc1 [Relationc (u,v1,v,0,x,y1,y,z)] *)
 		    else acc1
                 in let acc3= List.append acc  acc2 
                 in  loop acc3 relations l
@@ -219,24 +224,24 @@ value lwg_and_collapse relations dag =
     | [ r :: l ] ->
            let rel=List.nth relations (r-1) in
             match rel with
-            [Relationc (a,b,c,d,e,f) -> 
+            [Relationc (a,b1,b,c,d,e1,e,f) -> 
                if c < 2000
                then let acc1=if c=91  (* avaXiH  not defined in build_graph.ml! *)
-                               then  List.append acc  [Relationc (a,b,0,d,e,f)] 
+                               then  List.append acc  [Relationc (a,b1,b,0,d,e1,e,f)] 
                                else if c =214
-                               then List.append acc  [Relationc (a,b,14,d,e,f)] 
+                               then List.append acc  [Relationc (a,b1,b,14,d,e1,e,f)] 
                                else if (c=200) (*gawikarwA -> karwA *)
-                               then List.append acc  [Relationc (a,b,7,d,e,f)] 
+                               then List.append acc  [Relationc (a,b1,b,7,d,e1,e,f)] 
                                else if (c=201) (*gawikarma -> karma *)
-                               then List.append acc  [Relationc (a,b,14,d,e,f)] 
+                               then List.append acc  [Relationc (a,b1,b,14,d,e1,e,f)] 
                                else if (c=10) (*muKyakarma -> karma *)
-                               then List.append acc  [Relationc (a,b,14,d,e,f)] 
+                               then List.append acc  [Relationc (a,b1,b,14,d,e1,e,f)] 
                                else if (c=11) (*gONakarma -> karma *)
-                               then List.append acc [Relationc (a,b,14,d,e,f)] 
+                               then List.append acc [Relationc (a,b1,b,14,d,e1,e,f)] 
                                else List.append acc  [rel] 
                     in loop acc1 relations l
                else let acc1=
-                    collapse_upapada_relations relations l a b c d e f
+                    collapse_upapada_relations relations l a b1 b c d e1 e f
                     in let acc2= List.append acc acc1
                     in loop acc2 relations l
             ]
@@ -274,8 +279,8 @@ value between b a c =
 ;
 
 value no_direct_cycle m1 m2=match m1 with
-    [ Relationc (to_id1,to_mid1,r1,from_id1,from_mid1,dist1) -> match m2 with
-      [Relationc (to_id2,to_mid2,r2,from_id2,from_mid2,dist2) -> 
+    [ Relationc (to_id1,to_cid1,to_mid1,r1,from_id1,from_cid1,from_mid1,dist1) -> match m2 with
+      [Relationc (to_id2,to_cid2,to_mid2,r2,from_id2,from_cid2,from_mid2,dist2) -> 
 
          if (to_id1=from_id2) && (to_mid1=from_mid2) && (from_id1=to_id2) && (from_mid1=to_mid2) 
          then False
@@ -285,8 +290,8 @@ value no_direct_cycle m1 m2=match m1 with
 ;
 
 value single_morph_per_word m1 m2=match m1 with
-    [ Relationc (to_id1,to_mid1,r1,from_id1,from_mid1,dist1) -> match m2 with
-      [Relationc (to_id2,to_mid2,r2,from_id2,from_mid2,dist2) -> 
+    [ Relationc (to_id1,to_cid1,to_mid1,r1,from_id1,from_cid1,from_mid1,dist1) -> match m2 with
+      [Relationc (to_id2,to_cid2,to_mid2,r2,from_id2,from_cid2,from_mid2,dist2) -> 
             (* Two morph analyses for a word *)
 
          if (to_id1=to_id2) && not (to_mid1=to_mid2) then False (* do { print_string "C1"; False} *)
@@ -299,8 +304,8 @@ value single_morph_per_word m1 m2=match m1 with
 ;
 
 value single_relation_label m1 m2= match m1 with
-    [ Relationc (to_id1,to_mid1,r1,from_id1,from_mid1,dist1) -> match m2 with
-      [Relationc (to_id2,to_mid2,r2,from_id2,from_mid2,dist2) -> 
+    [ Relationc (to_id1,to_cid1,to_mid1,r1,from_id1,from_cid1,from_mid1,dist1) -> match m2 with
+      [Relationc (to_id2,to_cid2,to_mid2,r2,from_id2,from_cid2,from_mid2,dist2) -> 
             (* Two incoming arrows (*with diff labels*) except niwya_sambanXaH (=101, & 102) *)
          if    (to_id1=to_id2) && (to_mid1=to_mid2) && (from_id1=from_id2) && (from_mid1=from_mid2) 
             && not (r1=r2) && not(r1=101) && not(r2=101)
@@ -327,8 +332,8 @@ value single_relation_label m1 m2= match m1 with
 ;
 
 value no_crossing text_type rel m1 m2=match m1 with
-    [ Relationc (to_id1,to_mid1,r1,from_id1,from_mid1,dist1) -> match m2 with
-      [Relationc (to_id2,to_mid2,r2,from_id2,from_mid2,dist2) -> 
+    [ Relationc (to_id1,to_cid1,to_mid1,r1,from_id1,from_cid1,from_mid1,dist1) -> match m2 with
+      [Relationc (to_id2,to_cid2,to_mid2,r2,from_id2,from_cid2,from_mid2,dist2) -> 
            (* Crossing edges not allowed except niwya_sambanXaH (=101,102) and samucciwa (=32) , upamAnaxyowakaH (=80) in some cases*)
            (* Crossing edges allowed even with RaRTI(=38), ViSeRaNa(=36) and aBexaH (=37) *)
          if  (   (    between to_id1 to_id2 from_id2
@@ -381,8 +386,10 @@ value same_root from_id1 from_id2 from_mid1 from_mid2 =
 ;
 
 value outgoing_incompatible_rels rpair = match rpair with
-   [(7,201) (* There can not be both gawi karma and karwA simultaneously *)
+   [(7,201) (* There can not be both gawi karma/BkarwA and karwA simultaneously *)
    |(201,7) 
+   |(202,7) 
+   |(7,202) 
    |(200,10)  (* There cannot be gawikarwA and karma simultaneously *)
    |(200,11) 
    |(10,200) 
@@ -427,7 +434,7 @@ value outgoing_incompatible_rels rpair = match rpair with
  ; 
 
  value sequence from_id from_mid to_id to_mid =
-       from_id=to_id && from_mid=to_mid
+      from_id=to_id && from_mid=to_mid
 ;
 
 value not_allowed_sequence_rels rpair = match rpair with
@@ -509,8 +516,8 @@ value not_allowed_sequence_rels rpair = match rpair with
 ;
 
 value relation_mutual_ayogyataa text_type m1 m2=match m1 with
-    [ Relationc (to_id1,to_mid1,r1,from_id1,from_mid1,dist1) -> match m2 with
-      [Relationc (to_id2,to_mid2,r2,from_id2,from_mid2,dist2) -> 
+    [ Relationc (to_id1,to_cid1,to_mid1,r1,from_id1,from_cid1,from_mid1,dist1) -> match m2 with
+      [Relationc (to_id2,to_cid2,to_mid2,r2,from_id2,from_cid2,from_mid2,dist2) -> 
 
 (* If there is any kAraka relation, or prayojana or hewu, there can not be viSeRaNa, in case of kqxanwas. 
  * --> prayojana/hewu is possible
@@ -585,7 +592,7 @@ value chk_compatible text_type rel m1 m2= (*do { print_string "==>";*)
 value rec add_cost text_type acc rels=fun
   [ [] -> acc
   |  [i :: r] ->  match List.nth rels (i-1) with
-       [ Relationc (a1,b1,rel,a2,b2,dist2) -> 
+       [ Relationc (a1,b1,c1,rel,a2,b2,c2,dist2) -> 
             let dist = if a2 > a1 then a2-a1 else a1-a2 in
             let res=
             if rel=101 then 0
@@ -624,6 +631,8 @@ value rec add_cost text_type acc rels=fun
             else if rel >= 4500 && rel < 4600 then 24 * dist (* aXikaraNa *)
             else if rel = 200  then 7 * dist (* gawi karwA -> karwA *)
             else if rel = 201  then 14 * dist (* gawi karma -> karma *)
+            else if rel = 202  then 7 * dist (* BkarwA -> karwA *)
+            else if rel = 203  then 14 * dist (* Bkarma -> karma *)
             else if rel >= 205  then (rel-200) * dist (* AvaSyakawA/pariNAma *)
             else if a1 > a2 
                  then if rel=32 then 0
@@ -672,7 +681,7 @@ value print_sint i=do
 ;
 
 value get_wrd_ids rel=match rel with
- [ Relationc (id1,id2,id3,id4,id5,dist1) -> [id1;id4]
+ [ Relationc (id1,cid1,mid1,rel,id2,cid2,mid2,dist1) -> [id1;id2]
  ]
 ;
 
@@ -933,15 +942,15 @@ value rec get_initial_dag acc start n=
 (* we mark the nodes as root node (2) , leaf node(1) and intermediate node(3) *)
 value rec populate_inout_rels length rel =match rel with
     [ [] -> ()
-    | [Relationc(a,b,c,d,e,f)::xs] ->  do {
+    | [Relationc(a,b1,b,c,d,e1,e,f)::xs] ->  do {
           (*print_string "inout_rels ="
-          ; print_int a
+          ; print_int b
           ; print_string "="
-          ; print_int inout_rels.(a)
+          ; print_int inout_rels.(b)
           ; print_string " "
-          ; print_int d
+          ; print_int e
           ; print_string "="
-          ; print_int inout_rels.(d)
+          ; print_int inout_rels.(e)
           ; print_newline()
           ;*)
           if (inout_rels.(a)=0) then inout_rels.(a) := 1
@@ -964,7 +973,7 @@ value mycount relid maprel=
     loop 0 maprel
     where rec loop acc=fun
     [ [] ->  acc
-    | [Relationc (a,b,c,d,e,f) :: r]  -> if c=relid
+    | [Relationc (a,b1,b,c,d,e1,e,f) :: r]  -> if c=relid
                                        then loop (acc+1) r
                                        else loop acc r
     ]
@@ -1010,14 +1019,14 @@ value rec seq_expectancy relations relsindag=
         loop maprel
         where rec loop=fun
             [ [] -> True
-            | [ Relationc (a,b,r1,c,d,dist1) :: rest] -> 
+            | [ Relationc (a,b1,b,r1,c,d1,d,dist1) :: rest] -> 
                  (*do { print_string "r1=";print_int r1; print_string "\n"; *)
                  match r1 with
                  [ 3 | 4 | 5 | 9 | 13 | 16 | 17 | 52 | 53 | 54 | 55 | 56 | 57 | 59 | 76 |  77 |  79 | 80 | 42 | 41 | 68 | 69 | 12 |  97 | 32 | 33 | 34 | 35 | 45 | 46 | 47 | 48  | 202 | 203 -> 
                   loop1 maprel
                        where rec loop1=fun
                        [ [] -> False
-                       | [Relationc (x,y,r2,z,t,dist2)::rest1] -> if not(r1=r2) then
+                       | [Relationc (x,y1,y,r2,z,t1,t,dist2)::rest1] -> if not(r1=r2) then
     			        (*do { 
                                    print_string "r2=";print_int r2; print_string " ";
                                    print_string "r1=";print_int r1; print_string " ";
@@ -1095,19 +1104,19 @@ let maprel=List.map (fun y -> List.nth relations (y-1) ) relsindag in
    loop maprel
    where rec loop=fun
    [ [] -> True
-   | [ Relationc (a,b,101,c,d,dist1) :: rest]     (* niwya_sambanXaH *)
-   | [ Relationc (a,b,102,c,d,dist1) :: rest] ->   (* niwya_sambanXaH1 *)
+   | [ Relationc (a,b1,b,101,c,d1,d,dist1) :: rest]     (* niwya_sambanXaH *)
+   | [ Relationc (a,b1,b,102,c,d1,d,dist1) :: rest] ->   (* niwya_sambanXaH1 *)
                   (*do { print_string "101/102 "; print_int a; print_int b; print_int c; print_string "==>"; *) 
                   loop1 maprel
                   where rec loop1=fun
                      [ [] ->  False (*  do { print_string "failed case 13"; False} *)
-                     | [Relationc (x,y,r1,z,t,dist1)::rest1] -> 
+                     | [Relationc (x,y1,y,r1,z,t1,t,dist1)::rest1] -> 
                        (* yaw word  2 incoming arrows *)
                        if    x=a && y=b && not (r1=101) && not (r1=102)
                        then (*do { print_string "yaw case ";*) loop2 maprel
                           where rec loop2=fun
                           [ [] -> False (* do { print_string "failed case 14"; False}*)
-                          | [Relationc (m,n,r2,o,p,dist2)::rest2] ->  (* waw word *)
+                          | [Relationc (m,n1,n,r2,o,p,p1,dist2)::rest2] ->  (* waw word *)
                                if    m=c && n=d && not (r2=101) && not (r2=102) && not(o=z && p=t)
                                then loop rest
                                else loop2 rest2
@@ -1116,7 +1125,7 @@ let maprel=List.map (fun y -> List.nth relations (y-1) ) relsindag in
                        then (*do { print_string "waw case ";*) loop3 maprel
                           where rec loop3=fun
                           [ [] ->  False  (*do { print_int r1; print_int x; print_int z; print_string " failed case 15 "; False} *)
-                          | [Relationc (m,n,r3,o,p,dist2)::rest3] ->  (*yaw word*)
+                          | [Relationc (m,n1,n,r3,o,p1,p,dist2)::rest3] ->  (*yaw word*)
 		   	      (*do {print_int r3; print_string " ";print_int m; print_int n; print_string " ";print_int o; print_string "-"; *)
                               (*if    o=a && p=b && not (r3=101) && not (r3=102)*)
                               if    m=a && n=b && not (r3=101) && not (r3=102) 
@@ -1127,14 +1136,14 @@ let maprel=List.map (fun y -> List.nth relations (y-1) ) relsindag in
                           ] (*}*)
                        else loop1 rest1
                      ] (*}*)
-   | [ Relationc (a,b,r1,c,d,dist1) :: rest] ->
+   | [ Relationc (a,b1,b,r1,c,d1,d,dist1) :: rest] ->
          if r1=9 || (r1 >= 4400 && r1 < 4500) then
                                (* viXeya_viSeRaNam, karwA *)
                                (* karwA, karwA_upa *)
          loop1 maprel
          where rec loop1=fun
                           [ [] -> False   (*do { print_string "failed case 5\n"; False}*)
-                          | [Relationc (x,y,r,z,t,dist1)::rest1] -> 
+                          | [Relationc (x,y1,y,r,z,t1,t,dist1)::rest1] -> 
                                                   (*do {
                                                   print_int r; print_string "\n";
                                                   print_int r1; print_string "\n";*)
@@ -1152,7 +1161,7 @@ let maprel=List.map (fun y -> List.nth relations (y-1) ) relsindag in
           loop1 maprel
           where rec loop1=fun
                           [ [] -> False
-                          | [Relationc (x,y,r,z,t,dist1)::rest1] -> 
+                          | [Relationc (x,y1,y,r,z,t1,t,dist1)::rest1] -> 
                             if (r>= 4000) 
                                  && ((z=a && t=b) || (x=c && y=d))
                             then loop rest
@@ -1162,7 +1171,7 @@ let maprel=List.map (fun y -> List.nth relations (y-1) ) relsindag in
           loop1 maprel
           where rec loop1=fun
                   [ [] -> False
-                          | [Relationc (x,y,r,z,t,dist1)::rest1] -> 
+                          | [Relationc (x,y1,y,r,z,t1,t,dist1)::rest1] -> 
                             if  (r < 4000 && r >= 2000) && ((z=a && t=b) || (x=c && y=d) )
                             then loop rest 
                             else loop1 rest1
@@ -1180,7 +1189,7 @@ value rec build_list rels acc dag =
     loop [] maprel
     where rec loop acc=fun 
     [ [] -> (*do { List.iter print_pair acc;*) acc
-    | [ Relationc (a,b,r,c,d,dist1) :: rest] -> let acc1= [(a,c) :: acc]
+    | [ Relationc (a,b1,b,r,c,d1,d,dist1) :: rest] -> let acc1= [(a,c) :: acc]
 					  (*in build_list rels acc1 rest*)
 					  in loop acc1 rest
     ]
@@ -1223,15 +1232,15 @@ value rec print_dag=fun
 value rec get_list_length acc rels = fun
   [ [] -> acc
   | [i :: r] ->  match List.nth rels (i-1) with
-                 [ Relationc (a1,b1,rel,a2,b2,dist1) -> if rel > 102 && rel < 200 then get_list_length acc rels r else get_list_length (acc+1) rels r
+                 [ Relationc (a1,cb1,b1,rel,a2,cb2,b2,dist1) -> if rel > 102 && rel < 200 then get_list_length acc rels r else get_list_length (acc+1) rels r
                  ]
   ]
 ;
 
 (*value rec merge_gONa_muKya_karma acc = fun
 [  [] -> acc
-| [a,b,c,d,e] :: s  -> let mod_c = if c=10 || c=11 then 14 else c in 
-                        let acc1 = List.append [(a,b,mod_c,d,e)] acc in merge_gONa_muKya_karma acc1 s
+| [a1,a,b1,b,c1,c,d1,d,e] :: s  -> let mod_c = if c=10 || c=11 then 14 else c in 
+                        let acc1 = List.append [(a1,a,b1,b,mod_c,d1,d,e1,e)] acc in merge_gONa_muKya_karma acc1 s
 ]
 ;
 *)
@@ -1355,7 +1364,7 @@ The word numbers start with 1. So the largest word index gives the total words *
 
 value rec largest rslt=fun
 [ [] -> rslt
-| [Relationc(a,b,c,d,e,f) :: r]  ->
+| [Relationc(a,b1,b,c,d,e1,e,f) :: r]  ->
          let intmd =
              if a > rslt
              then if a > d then a else d
@@ -1366,7 +1375,7 @@ value rec largest rslt=fun
 
 value rec wrd_boundaries acc rel_indx wrd_indx rel =match rel with
 [ [] ->  List.append acc  [rel_indx]
-| [Relationc(a,b,c,d,e,f)::xs] as t -> (*  do {
+| [Relationc(a,b1,b,c,d,e1,e,f)::xs] as t -> (*  do {
         print_string "curr index="
         ;print_int a
         ;print_string " rel index="

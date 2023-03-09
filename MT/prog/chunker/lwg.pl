@@ -50,6 +50,7 @@ License: GPL
 
 $/ = "\n\n";
 
+$morph_kaaraka_anal = 10; #counting starts from 0
 while($in = <STDIN>){
 
     @in = split(/\n/,$in);
@@ -57,24 +58,24 @@ while($in = <STDIN>){
     $i = 0;
     while($i < $#in) {
        @f = split(/\t/,$in[$i]);
-       $last[$i] = $f[12];
+       $last[$i] = $f[$morph_kaaraka_anal];
        @s = split(/\t/,$in[$i+1]);
-       $last[$i+1] = $s[12];
+       $last[$i+1] = $s[$morph_kaaraka_anal];
 #Join two words where first word has lat lakaara, and the second word is `sma'
 #or the first word is a kqw with the next word as any form of `as'.
-       if(($f[12] =~ /<lakAraH:lat>/) &&
-          ($s[12] =~ /<word:sma><rt:sma><vargaH:avy><level:1>/)) {
-           if ($s[12] =~ /<rel_nm:([^>]+)><relata_pos:([^>]+)>/){
+       if(($f[$morph_kaaraka_anal] =~ /<lakAraH:lat>/) &&
+          ($s[$morph_kaaraka_anal] =~ /<word:sma><rt:sma><vargaH:avy><level:1>/)) {
+           if ($s[$morph_kaaraka_anal] =~ /<rel_nm:([^>]+)><relata_pos:([^>]+)>/){
                $rel_nm = $1;
                $relata_pos = $2;
                $last[$i] =~ s/<lakAraH:lat>/<lakAraH:lat_sma>/;
                $last[$i+1] = "-";
            }
        }
-       elsif(($f[12] =~ /<kqw_prawyayaH:Sawq_lat>/) &&
-          ($s[12] =~ /<rt:as[123]>.*<lakAraH:(l[auiq][tf]|ASIrlif)>/)) {
-          $f[12] =~ s/<kqw_prawyayaH:Sawq_lat>/<kqw_prawyayaH:Sawq_lat_$1>/;
-           if($s[12] =~ /<rel_nm:([^>]+)><relata_pos:([^>]+)>/){
+       elsif(($f[$morph_kaaraka_anal] =~ /<kqw_prawyayaH:Sawq_lat>/) &&
+          ($s[$morph_kaaraka_anal] =~ /<rt:as[123]>.*<lakAraH:(l[auiq][tf]|ASIrlif)>/)) {
+          $f[$morph_kaaraka_anal] =~ s/<kqw_prawyayaH:Sawq_lat>/<kqw_prawyayaH:Sawq_lat_$1>/;
+           if($s[$morph_kaaraka_anal] =~ /<rel_nm:([^>]+)><relata_pos:([^>]+)>/){
               $rel_nm = $1;
               $relata_pos = $2;
               $last[$i+1] = "-";

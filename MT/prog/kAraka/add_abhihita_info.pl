@@ -39,19 +39,23 @@ while($in = <STDIN>){
          elsif($prayogaH eq "karmaNi")  { $abhihita = "karma";}
 	 else { $abhihita = "";}
       }
-      if($in[$i] =~ /karma,([0-9]+)/) { 
+      $in[$i] =~ /^([0-9\.]+)/;
+      $indx = $1;
+      $index{$indx} = $i;
+      if($in[$i] =~ /karma,([0-9\.]+)/) { 
 	      $sakarmaka = 1;
       }
   }
 
   for($i=0;$i<=$#in;$i++){
-      if(($in[$i] =~ /$abhihita,([0-9]+)/) && ($abhihita ne "")){
-         $verb_pos = $1-1;
-         $abhihita_pos = $i+1;
-         if($in[$verb_pos] =~ /\t$/) {
-            $in[$verb_pos] =~ s/\t$/\taBihiwa_$abhihita,$abhihita_pos/;
+      if(($in[$i] =~ /$abhihita,([0-9\.]+)/) && ($abhihita ne "")){
+         $verb_ndx = $index{$1};
+         $in[$i] =~ /^([0-9\.]+)/;
+         $abhihita_pos = $1;
+         if($in[$verb_ndx] =~ /\t$/) {
+            $in[$verb_ndx] =~ s/\t$/\taBihiwa_$abhihita,$abhihita_pos/;
 	    if($sakarmaka) {
-               $in[$verb_pos] =~ s/$/;sakarmaka/;
+               $in[$verb_ndx] =~ s/$/;sakarmaka/;
             }
          }
       }
@@ -61,5 +65,4 @@ while($in = <STDIN>){
       print $in[$i],"\n";
   }
 
-  print "\n";
 }

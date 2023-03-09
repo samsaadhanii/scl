@@ -50,10 +50,12 @@ License: GPL
 
 =cut
 
-my $Data_Path=$ARGV[1];
-my $prog_Path=$ARGV[2];
+my $Data_Path=$ARGV[0];
+my $prog_Path=$ARGV[1];
 
-if($ARGV[3] eq "D") { $DEBUG = 1;} else {$DEBUG = 0;}
+if($ARGV[2] eq "D") { $DEBUG = 1;} else {$DEBUG = 0;}
+
+$DEBUG = 1;
 
 require "$prog_Path/add_ne.pl";
 require "$prog_Path/handle_noun_verb_agr.pl";
@@ -67,18 +69,6 @@ require "$prog_Path/kriyAmUla_na_verb.pl";
 require "$prog_Path/misc_func.pl";
 require "$prog_Path/predicative_adj_agr.pl";
 require "$prog_Path/karmaNi_BAve_to_karwari.pl";
-
-#BEGIN{require "$ARGV[0]/paths.pl";}
-
-#use lib $GlblVar::LIB_PERL_PATH;
-
-#use GDBM_File;
-#tie(%FEM,GDBM_File,"$Data_Path/hi/fem_hnd_noun.dbm",GDBM_READER,0644) || die "Can't open fem_hnd_noun.dbm for reading";
-#tie(%HMN,GDBM_File,"$Data_Path/hi/human.dbm",GDBM_READER,0644) || die "Can't open human.dbm for reading";
-#tie(%ANMT,GDBM_File,"$Data_Path/hi/animate.dbm",GDBM_READER,0644) || die "Can't open animate.dbm for reading";
-#tie(%INANMT,GDBM_File,"$Data_Path/hi/inanimate.dbm",GDBM_READER,0644) || die "Can't open inanimate.dbm for reading";
-#tie(%EXCPT_NE,GDBM_File,"$Data_Path/hi/excpt_ne.dbm",GDBM_READER,0644) || die "Can't open excpt_ne.dbm for reading";
-#tie(%kriyAmUla_marker,GDBM_File,"$Data_Path/hi/kriyAmUla_marker.dbm",GDBM_READER,0644) || die "Can't open kriyAmUla_marker.dbm for reading";
 
 open(TMP,"$Data_Path/hi/fem_hnd_noun.lst") || die "Can't open fem_hnd_noun.txt for reading";
 while(<TMP>) {
@@ -127,12 +117,12 @@ close(TMP);
 
 #All the variables used are Global variables, except $i
 
-$wrd_fld = 3; #starting from 0;
-#$parse_ana_fld = 8; #starting from 0;
-$morph_kaaraka_anal = 14; #starting from 0;
-$ana_fld_for_calling_gen_after_lwg = 16; #starting from 0;
-$ana_fld_for_calling_gen_after_lwg_karwari = 17; #starting from 0;
-$flds = 17; # Starting from 0;
+$wrd_fld = 1; #starting from 0;
+#$parse_ana_fld = 7; #starting from 0;
+$morph_kaaraka_anal = 12; #starting from 0;
+$ana_fld_for_calling_gen_after_lwg = 14; #starting from 0;
+$ana_fld_for_calling_gen_after_lwg_karwari = 15; #starting from 0;
+$flds = 15; # Starting from 0;
 
 #Read whole sentence
 $/ = "\n\n";
@@ -145,9 +135,23 @@ while($in = <STDIN>){
 # Split analysis per line into fields separated by \t, 
 # and store in wrd_ana_flds_$i, where $i is the word index, 
 # which starts from 1, and not 0.
-for ($i=1; $i <= $#wrd_ana+1; $i++){
+#for ($i=1; $i <= $#wrd_ana+1; $i++){
+#    $var_nm = "wrd_ana_flds_".$i;
+#    @{$var_nm} = split(/\t/,$wrd_ana[$i-1]); 
+#}
+
+#After adding the cid, now the index is composite of id and cid.
+
+    $indx = 1;
+foreach $w_ana (@wrd_ana){
+    $w_ana =~ /<id:([0-9]+)><cid:([0-9]+)>/;
+    $i = $1.".".$2;
     $var_nm = "wrd_ana_flds_".$i;
-    @{$var_nm} = split(/\t/,$wrd_ana[$i-1]); 
+    $var_ndx = "wrd_ana_flds_".$indx;
+    @{$var_nm} = split(/\t/,$w_ana); 
+    @{$var_ndx} = split(/\t/,$w_ana); 
+    $index{$i} = $indx;
+    $indx++; 
 }
 
   &karmaNi_BAve();

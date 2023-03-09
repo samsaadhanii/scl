@@ -21,7 +21,11 @@
 while($in = <STDIN>){
  chomp($in);
  if($in) {
-    ($word,$ana,$kaaraka) = split(/\t/,$in);
+    ($id,$word,$ana,$kaaraka) = split(/\t/,$in);
+
+    ($wid,$cid) = split(/\./,$id);
+    print "<id:$wid>";
+    print "<cid:$cid>";
 
     if($ana =~ /-/) {
        $ana =~ s/.*-([^<]*)/$1/;

@@ -84,39 +84,6 @@ if($("#rt").val()==""){
                }
 }
 
-function callverbgen(){
-if($("#vb").val()==""){
-                       alert("Please select any one dhatu.");
-                       return false;
-               }
-               else{
-               		$("#output").html("कृपया प्रतीक्ष्यताम्....");
-               		$.post("/cgi-bin/scl/skt_gen/verb/verb_gen.cgi",{"vb":$("#select").val(),"prayoga_paxI":$("#prayoga_paxI").val(),"upasarga":$("#upasarga").val(),"encoding":$("#encoding").val(),"outencoding":$("#outencoding").val()},function(data){
-               		
-               			$("#output").html(data);
-               		});
-               	
-               	return false;
-               }
-}
-
-function callkrwgen(){
-if($("#vb").val()==""){
-                       alert("Please select any one dhatu.");
-                       return false;
-               }
-               else{
-              
-               		$("#output").html("कृपया प्रतीक्ष्यताम्....");
-               		$.post("/cgi-bin/scl/skt_gen/kqw/kqw_gen.cgi",{"vb":$("#select").val(),"upasarga":$("#upasarga").val(),"encoding":$("#encoding").val()},function(data){
-               		
-               			$("#output").html(data);
-               		});
-               	
-               	return false;
-               }
-}
-
 function callwaxXiwagen(){
   var x = document.getElementById("encoding").value;
   var y = document.getElementById("rt").value;

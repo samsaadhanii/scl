@@ -1,5 +1,6 @@
-type sup = ( int * int * string * string * string * string *string * int  * string * int )
+type sup = ( int * int * int * string * string * string * string *string * int  * string * int )
 (*{ id : int
+  ; cid : int
   ; mid : int
   ; word : string
   ; rt : string
@@ -10,8 +11,9 @@ type sup = ( int * int * string * string * string * string *string * int  * stri
   ; vacanam : string
   ; level : int
   } *)
-and wif = ( int * int * string * string * string * string * string *string * string * string * string * string * string * string * string * int )
+and wif = ( int * int * int * string * string * string * string * string *string * string * string * string * string * string * string * string * int )
 (*{ id : int  
+  ; cid : int   
   ; mid : int   
   ; word : string   
   ; rt : string   
@@ -28,8 +30,9 @@ and wif = ( int * int * string * string * string * string * string *string * str
   ; gaNaH : string   
   ; level : int
   }*)
-and kqw = ( int * int * string * string * string * string *string *string * string * string * string * string * string * string * int * string * int )
+and kqw = ( int * int * int * string * string * string * string *string *string * string * string * string * string * string * string * int * string * int )
 (*{ id : int   
+  ; cid : int   
   ; mid : int   
   ; word : string   
   ; kqw_vb_rt : string   
@@ -47,8 +50,9 @@ and kqw = ( int * int * string * string * string * string *string *string * stri
   ; vacanam : string   
   ; level : int
  }*)
-and avy = ( int * int * string * string * string *string * int )
+and avy = ( int * int * int * string * string * string *string * int )
 (*{ id : int   
+  ; cid : int   
   ; mid : int   
   ; word : string
   ; rt : string   
@@ -56,8 +60,9 @@ and avy = ( int * int * string * string * string *string * int )
   ; uwwarapaxa : string
   ; level : int
   }*)
-and avywaxXiwa = ( int * int * string * string * string *string * string  * int )
+and avywaxXiwa = ( int * int * int * string * string * string *string * string  * int )
 (*{ id : int   
+  ; cid : int   
   ; mid : int   
   ; word : string   
   ; rt : string   
@@ -66,8 +71,9 @@ and avywaxXiwa = ( int * int * string * string * string *string * string  * int 
   ; waxXiwa_prawyayaH : string
   ; level : int
   }*)
-and avykqw = ( int * int * string * string * string *string * string * string * string * string * string * int )
+and avykqw = ( int * int * int * string * string * string *string * string * string * string * string * string * int )
 (*{ id : int   
+  ; cid : int   
   ; mid : int   
   ; word : string   
   ; rt : string   
@@ -80,8 +86,9 @@ and avykqw = ( int * int * string * string * string *string * string * string * 
   ; gaNaH : string   
   ; level : int   
   }*)
-and waxXiwa = ( int * int * string * string * string * string * string * string * int * string * int )
+and waxXiwa = (  int * int * int * string * string * string * string * string * string * int * string * int )
 (*{ id : int   
+  ; cid : int   
   ; mid : int   
   ; word : string   
   ; rt : string   
@@ -93,20 +100,24 @@ and waxXiwa = ( int * int * string * string * string * string * string * string 
   ; vacanam : string
   ; level : int
   }*)
-and rel = ( int * int * string * int * int * string * int)
+and rel = ( int * int * int * string * int * int * int * string * int)
 (* { to_id : int
+   ; to_cid : int
    ; to_mid : int
    ; reltn : string
    ; from_id : int
+   ; from_cid : int
    ; from_mid : int
    ; rule : string
    ; dist : int
    }*)
-and relc = ( int * int * int * int * int  * int)
+and relc = ( int * int * int  * int * int * int * int * int)
 (* { to_id : int
+   ; to_cid : int
    ; to_mid : int
    ; reltn : int
    ; from_id : int
+   ; from_cid : int
    ; from_mid : int
    ; dist : int
    }*)

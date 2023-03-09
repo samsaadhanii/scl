@@ -57,12 +57,12 @@ my($j,$verb_pos);
            ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) v ([^ ]+) s m ([^ ]+)/$1 v $2 p m $3/;
            ${$var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) v ([^ ]+) s m ([^ ]+)/$1 v $2 p m $3/;
        }
-       if((${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karwA><relata_pos:([0-9]+)>/) && (${$var_nm}[$morph_kaaraka_anal] =~ /<rt:Bavaw>/)) {
-           ${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karwA><relata_pos:([0-9]+)>/;
+       if((${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karwA><relata_pos:([0-9\.]+)>/) && (${$var_nm}[$morph_kaaraka_anal] =~ /<rt:Bavaw>/)) {
+           ${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karwA><relata_pos:([0-9\.]+)>/;
            $verb_pos = $1;
 	   #print "verb_pos = $verb_pos\n";
            $new_var_nm = "wrd_ana_flds_".$verb_pos;
-	   if (${$new_var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:aBihiwa_karwA><relata_pos:[0-9]+>/) {
+	   if (${$new_var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:aBihiwa_karwA><relata_pos:[0-9\.]+>/) {
               ${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 p m $6/;
               ${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg_karwari] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+)/$1 $2 $3 p m $6/;
            }

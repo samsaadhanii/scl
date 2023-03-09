@@ -23,6 +23,14 @@
     This program does not work well when the file ends with a consonant. 
     An additional blank space or . is to be entered to get the final halant. 
     AMBA: 15th July 2015 */
+ /*
+	Following part is removed, since it converts even the '.' in real numbers.
+  \.					{
+					tmp ='Í';
+					printf("%c",tmp);
+					}
+ */
+
  char map[]="01234567890123456789012345678901234567890123456789012345678901234⁄Àπ¿‚º∂£‹ª¥L¢¡Ê…Q÷’æﬁV√≈YÈ      § ∏ø·∑µÿ€∫≥—Ã∆Â»ﬂœ◊Ω›‘¬ƒÕ° ";
  char tmp;
  char tmp1;
@@ -62,10 +70,6 @@ z{NUKTA}				{
                                         tmp='°';
                                         tmp1='È';
 					printf("%c%c",tmp,tmp1);
-					}
-\.					{
-					tmp ='Í';
-					printf("%c",tmp);
 					}
 \.{NUKTA}				{
 					tmp ='Í';

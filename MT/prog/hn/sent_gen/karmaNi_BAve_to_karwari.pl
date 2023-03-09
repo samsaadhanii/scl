@@ -59,7 +59,7 @@ sub karmaNi_BAve{
    if ($verb_pos > 0) {
      for($j=1;$j<=$#wrd_ana+1;$j++){
        $var_nm = "wrd_ana_flds_".$j;
-       if(${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:(karwA|karma)><relata_pos:([0-9]+)>/){
+       if(${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:(karwA|karma)><relata_pos:([0-9\.]+)>/){
             $verb_pos = $2;
             $var_nm1 = "wrd_ana_flds_".$verb_pos;
             if ((${$var_nm1}[$morph_kaaraka_anal] =~ /<prayogaH:karmaNi>/) || (${$var_nm1}[$morph_kaaraka_anal] =~ /<prayogaH:BAve>/)){

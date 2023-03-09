@@ -100,61 +100,45 @@ $rPRATIPADIKAM = \%PRATIPADIKAM;
    $default_tam = "0";
 
 while($tmpin = <STDIN>){
-  #print "in = $in\n";
+
   chomp($tmpin);
-  if ($tmpin =~ /./) {
-  @f = split(/\t/,$tmpin);
-  $kAraka = $f[9];
-  $in = $f[14];
   $ans = "";
+  if ($tmpin =~ /./) {
+    @f = split(/\t/,$tmpin);
+    $word = $f[1];
+    $kAraka = $f[7];
+    $in = $f[10];
 
-  $in =~ s/\/.*//;
-  $in =~ s/<rt:([^>]+)[^\-]+\-([a-zA-Z]+)</<rt:$1-$2;/g;
-  $in =~ s/></;/g;
-  $in =~ s/</{/g;
-  $in =~ s/>/}/g;
-  $in =~ s/(\{vargaH:sa\-pU\-pa;[^\}]+\}(\/[^\{]+)?)+\-/-/g;
+    $in =~ s/\/.*//;
+    $in =~ s/></;/g;
+    $in =~ s/</{/g;
+    $in =~ s/>/}/g;
 
 
-  #print "samAsa-pUrvapada mng = 
-  #print "in = $in\n";
-  @in = split(/\//,$in);
-  if($in ne ""){
-    if($ARGV[1] eq "ONE") { $LAST = 0; } else {$LAST = $#in;}
-    for($i=0;$i<=$LAST;$i++){
-  #    print "in = $in\n";
-      $cat = &get_cat($in[$i]);
-      ($samAsa_pUrvapaxa, $uwwarapaxa) = split(/#/,&split_samAsa($in[$i]));
-       if($samAsa_pUrvapaxa ne "") {
-          $in[$i] =~ s/rt:[^;]+/rt:$uwwarapaxa/;
-       }
-      #   print "cat = $cat\n";
+      $cat = &get_cat($in);
       if($cat eq "P") {
 
-        ($rt,$lifga,$viBakwi,$vacana,$rel) = split(/:/, &get_noun_features($in[$i]));
+        ($rt,$lifga,$viBakwi,$vacana,$rel) = split(/:/, &get_noun_features($in));
 
        $key = $rt."_".$lifga;
        $map_rt = &get_dict_mng($key, $rPRONOUN);
        if($map_rt =~ /(.*):(.*)/) { $map_rt = $1; $hn_lifga = &get_skt_hn_lifga($2);}
        $map_viBakwi = &get_dict_mng($viBakwi, $rTAM);
 
-       if($samAsa_pUrvapaxa ne "") { $map_rt = $samAsa_pUrvapaxa.$map_rt;}
-      
        $hn_lifga = &get_hn_P_lifga($map_rt,$lifga);
        $hn_vacana = &get_hn_vacana($vacana);
        $hn_puruRa = &get_hn_purURa_sarvanAma($rt);
-       $ans .= "/$map_rt $cat $hn_lifga $hn_vacana $hn_puruRa $map_viBakwi";
+       $ans = "$map_rt $cat $hn_lifga $hn_vacana $hn_puruRa $map_viBakwi";
 
       } elsif($cat eq "kqw_noun") {
 
        ($rt, $kqw, $XAwu, $gaNa, $kqw_pratipadika, $lifgam, $viBakwi, $vacana,$rel) = 
-        split(/:/, &get_kqw_noun_features($in[$i]));
+        split(/:/, &get_kqw_noun_features($in));
 
 	#	print "rt = $rt\n";
        $key = $kqw_pratipadika."_".$lifgam;
 
        $map_rt = &get_dict_mng($key, $rNOUN);
-       #if($samAsa_pUrvapaxa) { $map_rt = $samAsa_pUrvapaxa.$map_rt;}
        if($NOUN{$key} ne "") {
 	       #If the word is rUDa kqxanwa
           $cat = "n";
@@ -166,7 +150,7 @@ while($tmpin = <STDIN>){
          # $hn_lifga = &get_hn_lifga($map_rt,$lifgam);
           $hn_vacana = &get_hn_vacana($vacana);
 
-          $ans .= "/$samAsa_pUrvapaxa$map_rt $cat $hn_lifga $hn_vacana $default_puruRa $map_viBakwi";
+          $ans = "$map_rt $cat $hn_lifga $hn_vacana $default_puruRa $map_viBakwi";
        } else {
 	       #The word is not rUDa kqxanwa, and hence its meaning is compositional
          $cat = "v";
@@ -179,27 +163,25 @@ while($tmpin = <STDIN>){
          $hn_lifga = &get_skt_hn_lifga($lifgam);
          $hn_vacana = &get_hn_vacana($vacana);
 
-         $ans .=  "/$samAsa_pUrvapaxa$map_rt $cat $hn_lifga $hn_vacana $default_puruRa $map_kqw";
+         $ans =  "$map_rt $cat $hn_lifga $hn_vacana $default_puruRa $map_kqw";
       }
       } elsif($cat eq "waxXiwa_noun") {
       
        ($rt, $waxXiwa_prawyaya, $lifgam, $viBakwi, $vacana, $rel) = 
-        split(/:/, &get_waxXiwa_noun_features($in[$i]));
+        split(/:/, &get_waxXiwa_noun_features($in));
       
        $key = $rt."_".$lifga;
        $map_rt = &get_dict_mng($key, $rNOUN);
-       #if($samAsa_pUrvapaxa) { $map_rt = $samAsa_pUrvapaxa.$map_rt;}
        $map_waxXiwa = &get_dict_mng($waxXiwa_prawyaya, $rTAM);
        $rt .= $map_waxXiwa;
        $hn_lifga = &get_skt_hn_lifga($lifgam);
        $hn_vacana = &get_hn_vacana($vacana);
        $map_viBakwi = &get_dict_mng($viBakwi, $rTAM);
        $infl_map_waxXiwa = &get_inflected_waxXiwa($map_waxXiwa, $hn_lifga, $map_viBakwi);
-       $ans .=  "/$samAsa_pUrvapaxa$map_rt n $hn_lifga $hn_vacana $default_puruRa $infl_map_waxXiwa";
-      # #print "ans = $ans\n";
+       $ans =  "$map_rt n $hn_lifga $hn_vacana $default_puruRa $infl_map_waxXiwa";
       } elsif($cat eq "n") {
 
-        ($rt,$lifga,$viBakwi,$vacana,$rel) = split(/:/, &get_noun_features($in[$i]));
+        ($rt,$lifga,$viBakwi,$vacana,$rel) = split(/:/, &get_noun_features($in));
 	#print "rt = $rt\n";
 	#print "rel = $rel\n";
 	if (($rel eq "karwqsamAnAXikaraNam") || ($rel eq "viSeRaNam") || ($rel eq "aBexaH")) {
@@ -214,21 +196,16 @@ while($tmpin = <STDIN>){
            $map_rt = &get_dict_mng($key, $rNOUN);
        }
 
-       #print "map_rt = $map_rt\n";
-       #print "samAsa_pUrvapaxa = $samAsa_pUrvapaxa\n";
-       if($samAsa_pUrvapaxa) { $map_rt = $samAsa_pUrvapaxa.$map_rt;}
-       #print "map_rt = $map_rt\n";
-
        $map_viBakwi = &get_dict_mng($viBakwi, $rTAM);
       
        if($map_rt =~ /(.*):(.*)/) { $map_rt = $1; $hn_lifga = &get_skt_hn_lifga($2);}
        #$hn_lifga = &get_hn_lifga($map_rt,$lifga);
        $hn_vacana = &get_hn_vacana($vacana);
-       $ans .= "/$map_rt $cat $hn_lifga $hn_vacana $default_puruRa $map_viBakwi";
+       $ans = "$map_rt $cat $hn_lifga $hn_vacana $default_puruRa $map_viBakwi";
 
        #print "ans = $ans\n";
       } elsif($cat eq "kqw_avy") {
-        ($rt,$kqw,$XAwu,$gaNa,$rel) = (split/:/, &get_kqw_avy_features($in[$i]));
+        ($rt,$kqw,$XAwu,$gaNa,$rel) = (split/:/, &get_kqw_avy_features($in));
 
 	#print "rt = $rt\n";
        $map_rt = &get_dict_mng($rt, $rVERB_RT);
@@ -238,11 +215,11 @@ while($tmpin = <STDIN>){
        #print "map_kqw = $map_kqw\n";
 
        $cat = "v";
-       $ans .= "/$map_rt $cat $default_lifga $default_vacana $default_puruRa $map_kqw";
+       $ans = "$map_rt $cat $default_lifga $default_vacana $default_puruRa $map_kqw";
 
       } elsif($cat eq "waxXiwa_avy") {
 
-       ($rt, $waxXiwa, $lifga,$rel) =  split(/:/, &get_waxXiwa_avy_features($in[$i]));
+       ($rt, $waxXiwa, $lifga,$rel) =  split(/:/, &get_waxXiwa_avy_features($in));
        #print "rt = $rt waxXiwa = $waxXiwa lifga = $lifga\n";
 
        if($lifga eq "avy") {
@@ -252,32 +229,28 @@ while($tmpin = <STDIN>){
           $map_rt = &get_dict_mng($key, $rNOUN);
        }
 
-       if($samAsa_pUrvapaxa) { $map_rt = $samAsa_pUrvapaxa.$map_rt;}
-
        $map_waxXiwa = &get_dict_mng($waxXiwa, $rTAM);
       
        if($map_rt =~ /(.*):(.*)/) { $map_rt = $1; $hn_lifga = &get_skt_hn_lifga($2);}
 
        #$hn_lifga = &et_hn_lifga($map_rt,$lifga);
        $hn_cat = "n"; # The category of the rt word is n, while the resultant is an avy
-       $ans .= "/$map_rt $hn_cat $hn_lifga $default_vacana $default_puruRa $map_waxXiwa";
-       #$ans .= "/$map_rt $hn_cat NW NW NW $map_waxXiwa";
+       $ans = "$map_rt $hn_cat $hn_lifga $default_vacana $default_puruRa $map_waxXiwa";
 # Commented the previous line, since in case of vixyAlaya n NW NW NW se, machine produced vixyAlayaeyegA_se. Here 'se' corresponds to waxXiwa_prawyayaH:wasil
 
       } elsif($cat eq "avy"){
 
-          ($rt,$rel) = split(/:/,&get_avy_feature($in[$i]));
+          ($rt,$rel) = split(/:/,&get_avy_feature($in));
 	  #print "rt = ", $rt,"\n";
 
           $map_rt = &get_dict_mng($rt, $rAVY);
 	  #print "map_rt = ", $map_rt,"\n";
-          if($samAsa_pUrvapaxa) { $map_rt = $samAsa_pUrvapaxa.$map_rt;}
-          $ans .= "/$map_rt avy NW NW NW NW";
+          $ans = "$map_rt avy NW NW NW NW";
 
       } elsif($cat eq "v") {
 
        ($rt,$prayoga,$lakAra,$purURa,$vacana,$paxI,$XAwu,$gaNa,$rel) = 
-          split(/:/, &get_verb_features($in[$i]));
+          split(/:/, &get_verb_features($in));
        
 	  # If karma is absent in a sentence, then the verb is assumed 
 	  # to be akarmaka
@@ -321,10 +294,6 @@ while($tmpin = <STDIN>){
 	         $rt_pp = &get_dict_mng($key1, $rVERB);
      	         $key2 = $rt."_ap_sk";
 	         $rt_ap = &get_dict_mng($key2, $rVERB);
-		 #print "rt_pp = ", $rt_pp,"\n";
-		 # print "rt_ap = ", $rt_ap,"\n";
-		 # print "key1 = ", $key1,"\n";
-		 #print "key2 = ", $key2,"\n";
 	         if($rt_pp ne $key1) { 
 		      $map_rt = $rt_pp;
 		      if (($rt_ap ne $key2)  && ($rt_ap ne $rt_pp))
@@ -339,24 +308,21 @@ while($tmpin = <STDIN>){
        $hn_purURa = &get_hn_purURa($purURa);
        $hn_vacana = &get_hn_vacana($vacana);
 
-       $ans .= "/$map_rt $cat $default_lifga $hn_vacana $hn_purURa $map_lakAra";
+       $ans = "$map_rt $cat $default_lifga $hn_vacana $hn_purURa $map_lakAra";
 
    } else {
        # This is to handle the words unrecognised by morph
-       $cat = "n";
-       $map_rt = $in[$i];
-       $map_rt =~ s/{word:.*;rel_nm:;relata_pos:}//;
-       if($samAsa_pUrvapaxa) { $map_rt = $samAsa_pUrvapaxa.$map_rt;}
-       $ans .=  "/$map_rt $cat $default_lifga $default_vacana $default_puruRa $default_tam";
+       $map_rt = $word;
+       $map_rt =~ s/^\-//;
+       if($map_rt eq ".") { 
+         $ans = "$map_rt avy NW NW NW NW";
+       } else {
+         $cat = "n";
+         $ans =  "$map_rt $cat $default_lifga $default_vacana $default_puruRa $default_tam";
        }
+    }
   } # Do for each analysis
-     $ans =~ s/^\///; 
-     $ans =~ s/\/$//; 
-     print $tmpin,"\t",$ans;
-     $ans = "";
-  } # If input is non-empty
- } # If entry is non empty
-  print "\n";
+     print $tmpin,"\t",$ans,"\n";
 } # End while
 
 close(TMP_N);
@@ -625,7 +591,6 @@ my($in) = @_;
 my($rt);
 my $ans = "";
 
-#print "in = $in\n";
   if($in =~ /^.*rt:([^;]+).*vargaH:avy.*rel_nm:([^;]*;)/){
      $ans = join(":",$1,$2);
   }
@@ -634,12 +599,9 @@ $ans;
 1;
 
 sub get_dict_mng{
-#my($rt,$missing_fl_nm,$rdatabase) = @_;
 my($rt,$rdatabase) = @_;
-my $ans = "";
+my $ans = $rt;
        
-#print "rt = $rt\n";
-#print "val = $$rdatabase{$rt}\n";
        if($$rdatabase{$rt} ne "") {
           $ans = &clean($$rdatabase{$rt});
 	  #print "ans = $ans\n";
@@ -657,43 +619,11 @@ my $ans = "";
 		  #$rt =~ s/X_//; # In case of upasargas
 #This has been added to take care of Names that are not to be translated.
           $ans = $rt;
-#	  $ans =~ s/_puM/:puM/; 
-#	  $ans =~ s/_napuM/:napuM/; 
-#	  $ans =~ s/_swrI/:swrI/; 
 	  $ans =~ s/_puM//; 
 	  $ans =~ s/_napuM//; 
 	  $ans =~ s/_swrI//; 
        }
-       #print"ans = $ans\n";
 $ans;
-}
-1;
-
-sub split_samAsa {
-	my($in) = @_;
-	my($p_mng);
-	my($pUrvapaxa, $uwwarapaxa);
-
-	#print "in = $in\n";
-	if($in =~ /;-/) {
-		$in =~ /rt:([^;]+)/;
-		$pUrvapaxa = $1;
-		$in =~ s/.*;-//;
-		$uwwarapaxa = $in;
-		#print "1 pUrvapaxa = $pUrvapaxa\n";
-		#print "2 uwwarapaxa = $uwwarapaxa\n";
-	} elsif($in =~ /rt:([^;]+)\-([^;]+)/) { 
-	  $pUrvapaxa = $1;
-	  $uwwarapaxa = $2;
-	  #	  print "pUrvapaxa = $pUrvapaxa\n";
-	  #print "uwwarapaxa = $uwwarapaxa\n";
-	  @p = split(/-/,$pUrvapaxa);
-	  $p_mng = "";
-	  foreach $p (@p) {
-             $p_mng .= &get_dict_mng($p,$rPRATIPADIKAM)."-"; 
-	  }
-  } else { $p_mng = ""; }
- $p_mng."#".$uwwarapaxa;
 }
 1;
 

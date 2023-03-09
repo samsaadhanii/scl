@@ -47,7 +47,7 @@ sub karwA_and_karwA_samAnAXikaraNa_agr{
   for($j=1;$j<=$#wrd_ana+1;$j++){
        $var_nm = "wrd_ana_flds_".$j;
 
-     if(${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karwqsamAnAXikaraNam><relata_pos:([0-9]+)>/){
+     if(${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karwqsamAnAXikaraNam><relata_pos:([0-9\.]+)>/){
          $verb_pos = $1;
 	 #for($k=0;$k<=$flds;$k++){
 	 for($k=1;$k<=$#wrd_ana+1;$k++){
