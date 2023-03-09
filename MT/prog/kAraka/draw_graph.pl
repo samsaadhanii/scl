@@ -118,7 +118,8 @@ open TMP1, ">${path}/${dotfl_nm}" || die "Can't open ${path}/${dotfl_nm} for wri
 	        $rel_str .= "\nNode$s_id -> Node$d_id \[ $s_str label=\"".$rel_nm."\"  dir=\"$dir\" \]";
              }
            }
-        } else { $solnfound = 1;}
+	   $solnfound = 1;
+        }
       }
       if ($solnfound) {
          if ($rel_str ne "") {
