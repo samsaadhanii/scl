@@ -25,6 +25,7 @@ MYPYTHONPATH=/usr/bin/python3
 
 #Heritage installation path (for interface)
 HERITAGE_CGI=SKT/sktgraph2
+HERITAGE_Graph_CGI=SKT/sktgraph
 
 #Path for temporary files
 TFPATH=/tmp/SKT_TEMP

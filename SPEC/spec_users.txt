@@ -24,7 +24,7 @@ GraphvizDot=/usr/bin/dot
 MYPYTHONPATH=/usr/bin/python3
 
 #Heritage installation path (for interface)
-HERITAGE_CGIURL=/SKT/sktgraph
+HERITAGE_CGIURL=/SKT/sktgraph2
 HERITAGE_Graph_CGIURL=/SKT/sktgraph
 
 #Path for temporary files
