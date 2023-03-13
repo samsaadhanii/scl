@@ -17,9 +17,11 @@
  char paxI[10][40];
  char ans[1000];
  char tmp[200];
+ char iic[100];
  int count;
- int sent_no;
+ int comp_no;
  int word_no;
+ int iic_count;
  int i;
  void get_gana();
 %option nounput
@@ -27,9 +29,12 @@
 %%
 morph: 	{}
 \<form[ ]wx=\"[^\"]+/\"	{ if(strcmp(pv,"")){ strcpy(word,pv); strcat(word,"-");} 
+			  else if( iic_count > 0) { strcpy(word,"-");}
                           else {word[0] = '\0';}
+                          if (iic_count == 0) {word_no++;}
+			  if (iic_count > 0) { comp_no++;} else { comp_no = 1;}
                           strcat(word,yytext+10); 
-                          word_no++;strcpy(ans,""); 
+                          strcpy(ans,""); 
                           if(debug) {   printf("found form wx\n"); 
 					printf("word = %s\n",word);
 					printf("ans = %s\n",ans);
@@ -44,6 +49,7 @@ morph: 	{}
 			}
 \<entry[ ]wx=\"[^\"]+/\"\/\>\<krid	{
 			strcpy(kqw_prati,yytext+11);
+			/*iic_count=0;*/
 			if(!strcmp(vargaH,"nA")) {strcpy(vargaH,"kqw_nA");}
 			if(debug) {printf(" found krid = %s vargaH = %s",kqw_prati, vargaH);}
 			}
@@ -53,21 +59,26 @@ morph: 	{}
 				}
 
 \<tags[ ]phase=\"noun\"\>	{strcpy(vargaH,"nA"); 
+				 iic_count=0;
 				 if(debug) {printf(" in phase noun\n");}
 				}
 \<tags[ ]phase=\"unknown\"\>	{strcpy(vargaH,"UNKN"); 
+				 iic_count=0;
 				 if(debug) {printf(" in phase noun\n");}
 				}
 \<tags[ ]phase=\"iic\"\>	{strcpy(vargaH,"sapUpa"); 
+				 strcat(word,"-");
+                                 iic_count++;
 				 if(debug) {printf(" in phase iic\n");}
 				}
 \<tags[ ]phase=\"ifc\"\>	{strcpy(vargaH,"nA");
+				 iic_count=0;
 				 if(debug) { printf(" in phase ifc\n");}
 				}
-\<tags[ ]phase=\"unde\"\>	{strcpy(vargaH,"avy");}
-\<tags[ ]phase=\"inde\"\>	{strcpy(vargaH,"avy");}
-\<tags[ ]phase=\"root\"\>	{strcpy(vargaH,"KP");}
-\<tags[ ]phase=\"voca\"\>	{strcpy(vargaH,"nA");}
+\<tags[ ]phase=\"unde\"\>	{strcpy(vargaH,"avy"); iic_count = 0;}
+\<tags[ ]phase=\"inde\"\>	{strcpy(vargaH,"avy"); iic_count = 0;}
+\<tags[ ]phase=\"root\"\>	{strcpy(vargaH,"KP"); iic_count = 0;}
+\<tags[ ]phase=\"voca\"\>	{strcpy(vargaH,"nA"); iic_count = 0;}
 
 \<tag\>	{count=-1; 
 	 if(debug) {printf(" new tag starts\n");}
@@ -117,6 +128,7 @@ morph: 	{}
 \<adv\/\>	{}
 \<und\/\>	{}
 \<ind\/\>	{}
+\<iic\/\>	{}
 \<unknown\/\>	{}
 
 \<ca\/\>	{strcpy(san,"<sanAxi_prawyayaH:Nic>");}
@@ -172,6 +184,11 @@ morph: 	{}
 		   for(i=0;i<=count;i++) {
                       if(i >= 1) { strcat(ans,"/");}
                       if(!strcmp(vargaH,"nA")) {
+                         if(strcmp(iic,"") && (i == 0)){
+                           sprintf(tmp,"%s-",iic);
+			   strcat(ans,tmp);
+                           tmp[0] = '\0';
+                         }
                          sprintf(tmp,"%s<vargaH:%s>%s%s%s<level:1>",prati,vargaH,gen[i],vib[i],num[i]);
 			 strcat(ans,tmp);
                          tmp[0] = '\0';
@@ -196,7 +213,17 @@ morph: 	{}
 			 strcat(ans,tmp);
                          tmp[0] = '\0';
                       }
+                      else if(!strcmp(vargaH,"sapUpa")) {
+                         sprintf(tmp,"%s<vargaH:%s><lifgam:a><level:1>",word,vargaH);
+			 strcat(ans,tmp);
+                         tmp[0] = '\0';
+                      }
                       else if(!strcmp(vargaH,"kqw_nA")) {
+                         if(strcmp(iic,"") && (i == 0)){
+                           sprintf(tmp,"%s-",iic);
+			   strcat(ans,tmp);
+                           tmp[0] = '\0';
+                         }
                          if(!strcmp(pv,"")){ strcpy(pv,"X");}
                          sprintf(tmp,"%s<upasarga:%s>%s%s<kqw_pratipadika:%s><vargaH:nA>%s%s%s<level:1>",prati,pv,san,kqw,kqw_prati,gen[i],vib[i],num[i]);
 			 strcat(ans,tmp);
@@ -209,7 +236,7 @@ morph: 	{}
                       }
                    if(debug) { printf("i = %d ans = %s\n",i,ans);}
                   }
-                  if(!strcmp(vargaH,"avykqw") || !strcmp(vargaH,"kqw_nA") || !strcmp(vargaH,"KP") || !strcmp(vargaH,"nA")){ strcpy(pv,"");}
+                  if(!strcmp(vargaH,"avykqw") || !strcmp(vargaH,"kqw_nA") || !strcmp(vargaH,"KP") || !strcmp(vargaH,"nA")){ strcpy(pv,""); strcpy(iic,"");}
                   /*printf("finished tag\n"); */
 
                     for(i=0;i<10;i++) { 
@@ -225,13 +252,13 @@ morph: 	{}
                       paxI[i][0] = '\0';
                     }
                 }
-\<\/tags\>	{ if(!strcmp(pv,"")){
+\<\/tags\>	{ if((!strcmp(pv,"")) && (!strcmp(iic,""))){
                      if(word_no == 1) {
-                       printf("%d.%d\t\t%s\t%s\t\t%s\n",
-                           sent_no,word_no,word,word,ans);
+                       printf("%d.%d\t%s\t%s\n",
+                           word_no,comp_no,word,ans);
                      } else {
-                       printf("%d.%d\t\t%s\t%s\t\t%s\n",
-                           sent_no,word_no,word,word,ans);
+                       printf("%d.%d\t%s\t%s\n",
+                           word_no,comp_no,word,ans);
                      } 
                   }
                   if(debug) {printf(" finished with tags\n");}
@@ -256,9 +283,9 @@ void get_gana();
 
 int main(int argc, char *argv[])
 {
-extern int count, sent_no, word_no,i;
+extern int count, word_no, comp_no, i;
 extern int debug;
-extern char word[100], gen[10][20], num[10][20], per[10][20], vargaH[20], pv[20], vib[10][20], prayogaH[10][30], san[40], lakAraH[10][40], kqw[40], kqw_prati[40], prati[40], paxI[10][40], ans[1000], tmp[200];
+extern char word[100], gen[10][20], num[10][20], per[10][20], vargaH[20], pv[20], vib[10][20], prayogaH[10][30], san[40], lakAraH[10][40], kqw[40], kqw_prati[40], prati[40], paxI[10][40], ans[1000], tmp[200], iic[100];
 
 debug = 0;
 
@@ -269,9 +296,10 @@ if(argc == 2) {
   }
 }
 
-sent_no = 1;
+comp_no = 1;
 word_no = 0;
 count = 0;
+iic_count = 0;
 
 word[0] = '\0';
 vargaH[0] = '\0';
@@ -279,6 +307,7 @@ pv[0] = '\0';
 prati[0] = '\0';
 ans[0] = '\0';
 tmp[0] = '\0';
+iic[0] = '\0';
 
 for(i=0;i<10;i++) { gen[i][0] = '\0';num[i][0] = '\0'; per[i][0] = '\0'; vib[i][0] = '\0'; prayogaH[i][0] = '\0'; san[0] = '\0'; lakAraH[i][0] = '\0'; kqw[0] = '\0'; kqw_prati[0] = '\0'; paxI[i][0] = '\0';}
 

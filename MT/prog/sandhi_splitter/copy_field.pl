@@ -30,13 +30,15 @@ while($in = <STDIN>){
       print $in;
    } else {
       chomp($in);
-      ($index,$word) = split(/\t/,$in,2);
+      ($index,$word,$rem) = split(/\t/,$in,3);
           $word =~ /^(..)/;
           $fs = $1;
           if ($word =~ /^\-/) { $word_s = "ZZ"; $lw += length($word);}
           elsif ($sandhied_words[$i] =~ /^$fs/) { $word_s = $sandhied_words[$i]; $ls = length($word_s); $lw = length($word);$i++;} 
           elsif ($sandhied_words[$i] =~ /^[\.,]/) { $word_s = $sandhied_words[$i]; $ls = length($word_s); $lw = length($word);$i++;} 
           else {$word_s = "ZZ"; $lw += length($word);}
-          print $index,"\t",$word,"\t",$word_s,"\n";
+	  if ($rem ne "") { # In the case of Heritage splitter, first we get morph analysis and then we add the sandhied data. Hence $rem is non-empty
+              print $index,"\t",$word,"\t",$word_s,"\t",$rem,"\n";
+          } else { print $index,"\t",$word,"\t",$word_s,"\n";}
   }
 }
