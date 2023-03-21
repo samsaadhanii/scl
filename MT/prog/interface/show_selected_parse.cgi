@@ -29,12 +29,11 @@ print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
 my %param = &get_parameters();
 
-            my $dirname=$param{filename};
-            my $sentnum=$param{sentnum};
-            my $start=$param{start};
-            my $outscript=$param{outscript};
-
-	    my $my_converter;
+          my $dirname=$param{filename};
+          my $sentnum=$param{sentnum};
+          my $start=$param{start};
+          my $outscript=$param{outscript};
+          my $my_converter;
 
           print "<head>\n";
           print "</head>\n<body>";
@@ -49,8 +48,8 @@ my %param = &get_parameters();
 	  my $fn = $dirname;
           $fn =~ s/.*tmp_//;
 
-	  #system("cut -f1-6 $dirname/*.out.before_parse | $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/add_best_parse_output.pl $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt $dirname/parser_files/parseop_new.txt | $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/add_abhihita_info.pl | $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/add_possible_relations.pl $dirname/parser_files/graph.txt > $dirname/$fn.out");
 	  system("cut -f1-6 $dirname/*.out.before_parse | $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/add_best_parse_output.pl $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt $dirname/parser_files/parseop_new.txt | $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/add_abhihita_info.pl |  $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/add_possible_relations.pl $dirname/parser_files/graph.txt  > $dirname/$fn.out");
+
 	  my $lang = "hi";
 	  my $morph = "UoHyd";
 	  my $parse = "AVAILABLE";
@@ -58,4 +57,5 @@ my %param = &get_parameters();
 	  
 	  my $cmd = "$GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::CGIDIR/scl $dirname/$fn $GlblVar::TFPATH $lang $outscript $morph $parse $text_type 2>> $dirname/err$fn";
           system($cmd);
+
           print "<img src=\"/scl/MT/DEMO/tmp_$fn/${sentnum}.svg\" width=\"\" height=\"\" kddalt=\"graph for parse number 1\">\n";
