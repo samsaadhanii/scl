@@ -114,9 +114,11 @@ $disp_mode = "web";
       }
     } else {
       print "Access-Control-Allow-Origin: *\n";
+      print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
       if($error == 0) {
-         system("echo $ans | tail -1 | sed 's/input/\@input/' | sed 's/segmentation/\@segmentation/' | $out_converter");
-      } else  { print $ans;}
+         $ans = `echo "$ans" | tail -1 | sed 's/input/\@input/' | sed 's/segmentation/\@segmentation/' | $out_converter`;
+      } 
+         print $ans;
     }
 if($GlblVar::LOG eq "true"){
    close(TMP1);
