@@ -117,7 +117,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
          if($morph eq "Heritage_auto") {
          $sentences =~ s/\.//;
          $sentences =~ s/ /\+/g;
-	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=$Hscript\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=f&pipeline=t&fmode=w\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI > /tmp/ttt;  tail -1 /tmp/ttt | $GlblVar::SCLINSTALLDIR/MT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $pid";
+	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=$Hscript\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=f&pipeline=t&fmode=w\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI |  tail -1  | $GlblVar::SCLINSTALLDIR/MT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $pid";
          system($cmd);
 
          system("$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/$prog $GlblVar::CGIDIR/scl tmp_in${pid}/in$pid $GlblVar::TFPATH $lang $script $morph Full $text_type 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
@@ -129,7 +129,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
          close (TMP);
 
           `date > $GlblVar::TFPATH/tmp_in$pid/err$pid`;
-          $cmd = "$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/$prog $GlblVar::CGIDIR/scl tmp_in${pid}/in$pid $GlblVar::TFPATH $lang $script $morph $parse $text_type 2>> $GlblVar::TFPATH/tmp_in$pid/err$pid;";
+          $cmd = "$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/$prog $GlblVar::CGIDIR/scl tmp_in${pid}/in$pid $GlblVar::TFPATH $lang $script $morph $parse $text_type 2>> $GlblVar::TFPATH/tmp_in$pid/err$pid";
           $exec_status = system($cmd);
      }
      `date >> $GlblVar::TFPATH/tmp_in$pid/err$pid`;

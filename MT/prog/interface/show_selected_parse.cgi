@@ -29,41 +29,33 @@ print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
 my %param = &get_parameters();
 
-#          if (param) {
-            my $filename=$param{filename};
+            my $dirname=$param{filename};
             my $sentnum=$param{sentnum};
             my $start=$param{start};
             my $outscript=$param{outscript};
 
-open(TMP,"<$filename/parser_files/parseop_new.txt") || die "Can't open $filename/parser_files/parseop_new.txt for reading";
+	    my $my_converter;
 
-$sent_found = 0;
-$i=0;
-$parse_nos="";
-while($in = <TMP>){
-  chomp($in);
-  if($in =~ /./) {
-      if($in =~ /Solution:([0-9]+)/) { $parse_nos .= "#".$1;}
-  }
-}
-close(TMP);
-
-#my $cgi = new CGI;
-#          print $cgi->header (-charset => 'UTF-8');
           print "<head>\n";
           print "</head>\n<body>";
           print "<div id=\"imgitems\" class=\"parsetrees\">\n<center>\n<ul id=\"trees\">\n";
-          $parse_nos =~ s/^#//;
-          @parse_nos = split(/#/,$parse_nos);
 
 
-          foreach $i (@parse_nos) {
-            if($i != 1) {
-		    #system("$GlblVar::SCLINSTALLDIR/MT/prog/kAraka/prepare_dot_files.sh $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot $outscript $sentnum mk_kAraka_help.pl $SCLINSTALLDIR $filename/parser_files/morph$sentnum.out $filename/parser_files/parseop1.txt $filename $i");
-		    system("$GlblVar::SCLINSTALLDIR/MT/prog/kAraka/prepare_dot_files.sh $GlblVar::SCLINSTALLDIR $GlblVar::GraphvizDot $outscript $sentnum mk_kAraka_help.pl $filename/parser_files/morph$sentnum.out $filename/parser_files/parseop_new.txt $filename $i");
-            }
-            system("$GlblVar::GraphvizDot -Tsvg -o$filename/${sentnum}.$i.svg $filename/${sentnum}.$i.dot");
-             $filename =~ s/^$GlblVar::TFPATH//;
-             print "<img src=\"/scl/MT/DEMO/$filename/${sentnum}.$i.svg\" width=\"\" height=\"\" kddalt=\"graph for parse number $i\">\n";
+          if ($outscript eq "IAST" ){
+              $my_converter="$GlblVar::SCLINSTALLDIR/converters/wx2utf8roman.out";
+          } elsif ($outscript eq "DEV"){
+              $my_converter="$GlblVar::SCLINSTALLDIR/converters/wx2utf8.sh $GlblVar::SCLINSTALLDIR";
           }
-	  #}
+	  my $fn = $dirname;
+          $fn =~ s/.*tmp_//;
+
+	  #system("cut -f1-6 $dirname/*.out.before_parse | $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/add_best_parse_output.pl $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt $dirname/parser_files/parseop_new.txt | $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/add_abhihita_info.pl | $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/add_possible_relations.pl $dirname/parser_files/graph.txt > $dirname/$fn.out");
+	  system("cut -f1-6 $dirname/*.out.before_parse | $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/add_best_parse_output.pl $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt $dirname/parser_files/parseop_new.txt | $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/add_abhihita_info.pl |  $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/add_possible_relations.pl $dirname/parser_files/graph.txt  > $dirname/$fn.out");
+	  my $lang = "hi";
+	  my $morph = "UoHyd";
+	  my $parse = "AVAILABLE";
+	  my $text_type = "Prose";
+	  
+	  my $cmd = "$GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::CGIDIR/scl $dirname/$fn $GlblVar::TFPATH $lang $outscript $morph $parse $text_type 2>> $dirname/err$fn";
+          system($cmd);
+          print "<img src=\"/scl/MT/DEMO/tmp_$fn/${sentnum}.svg\" width=\"\" height=\"\" kddalt=\"graph for parse number 1\">\n";

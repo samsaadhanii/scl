@@ -54,8 +54,8 @@ open TMP1, ">${path}/${dotfl_nm}" || die "Can't open ${path}/${dotfl_nm} for wri
 
 	for ($i=1;$i<$#in;$i++) {  #The count starts with 1; since the 1st line that corresponds to the heading is to be ignored.
           @flds = split(/\t/,$in[$i]);
-          if($flds[1] =~ /^-/) {
-             $label .= $flds[1];
+          if($flds[1] =~ /^-(.*)/) {
+             $label .= $1;
           } else {$label = $flds[1];}
           $flds[0] =~ /^([0-9]+)[\.\।]/;
           $pos = $1;

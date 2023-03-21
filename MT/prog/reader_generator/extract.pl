@@ -29,16 +29,16 @@ if($in) {
   #$id = $1;
   #$cid = $2;
 
-  $flds[3] =~ s/^([a-zA-Z_0-9]+) /$1\{/;
-  $flds[3] =~ s/([^\-]+\-[^ \-]+) /$1\{/g;
-  $flds[3] =~ s/\{\{/\{/;
-  $flds[3] =~ s/ /;/g;
-  $flds[3] =~ s/\{;/\{/g;
-  $flds[3] =~ s/\//}\//g;
-  $flds[3] =~ s/(\/[^;]+);/\1\{/g;
-  if($flds[3] =~ /\{/) {$c1 = $flds[3] =~ s/\{/\{/g;} else {$c1 = 0;}
-  if($flds[3] =~ /\}/) {$c2 = $flds[3] =~ s/\}/\}/g;} else {$c2 = 0;}
-  if ($c1 > $c2) { $flds[3] =~ s/$/}/;}
+  $flds[5] =~ s/^([a-zA-Z_0-9]+) /$1\{/;
+  $flds[5] =~ s/([^\-]+\-[^ \-]+) /$1\{/g;
+  $flds[5] =~ s/\{\{/\{/;
+  $flds[5] =~ s/ /;/g;
+  $flds[5] =~ s/\{;/\{/g;
+  $flds[5] =~ s/\//}\//g;
+  $flds[5] =~ s/(\/[^;]+);/\1\{/g;
+  if($flds[5] =~ /\{/) {$c1 = $flds[5] =~ s/\{/\{/g;} else {$c1 = 0;}
+  if($flds[5] =~ /\}/) {$c2 = $flds[5] =~ s/\}/\}/g;} else {$c2 = 0;}
+  if ($c1 > $c2) { $flds[5] =~ s/$/}/;}
 
   $flds[6] =~ s/^([a-zA-Z_0-9]+) /$1\{/;
   $flds[6] =~ s/([^\-]+\-[^ \-]+) /$1\{/g;
@@ -67,10 +67,10 @@ if($in) {
     $poss_relation = "";
   } elsif (($flds[6] !~ /^,/) && ($flds[8] !~ /^,/)) {  
 ## When the relation is not blank
-    print $flds[0],"\t",$flds[1],"\t\t",$flds[2],"\t",$flds[3],"\t",$flds[6],"\t",$flds[7],"\t",$flds[8],"\t",$flds[11],"\t",$flds[16],"\t",$flds[17],"\n";
+    print $flds[0],"\t",$flds[1],"\t\t",$flds[2],"\t",$flds[5],"\t",$flds[6],"\t",$flds[7],"\t",$flds[8],"\t",$flds[11],"\t",$flds[16],"\t",$flds[17],"\n";
   } else {
 ## When the relation is blank -- that is the current word is to be grouped with the following word
-    $tmpgrp = $flds[0]."\t".$flds[1]."\t\t".$flds[2]."\t".$flds[3]."\t".$flds[6]."\t";
+    $tmpgrp = $flds[0]."\t".$flds[1]."\t\t".$flds[2]."\t".$flds[5]."\t".$flds[6]."\t";
     $grpwith = $flds[7];
     $grpwith =~ s/,//;
     $tmp_poss_rel = $flds[8];

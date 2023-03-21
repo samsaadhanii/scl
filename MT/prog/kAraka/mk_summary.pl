@@ -24,19 +24,19 @@ BEGIN{require "$ARGV[0]/paths.pl";}
 
 ##use GDBM_File;
 
-# ARGV[0]: Script : DEV / IAST 
+# ARGV[1]: Script : DEV / IAST 
 # Devanagari / Roman transliteration / Velthuis
 
-#ARGV[1]: input file:  Output of the parser
+#ARGV[2]: input file:  Output of the parser
 # Relevant fields:
 # First field: paragraph/line/word_no
 # Second field: word
 
-#ARGV[2]: file name containing names of the kaaraka tags
-#$ARGV[3]: name of the directory with temporary files
-#$ARGV[4]: selected relations
-#$ARGV[5]: sentence number
-#$ARGV[6]: parseop file name
+#ARGV[3]: file name containing names of the kaaraka tags
+#$ARGV[4]: name of the directory with temporary files
+#$ARGV[5]: selected relations
+#$ARGV[6]: sentence number
+#$ARGV[7]: parseop file name
 
 my $SCRIPT=$ARGV[1];
 my $filename=$ARGV[2];
@@ -68,6 +68,7 @@ $kAraka_name{$num}=$name;
 }
 }
 close(TMP);
+
 my $old_relations = $relations; # Needed for Undo operation
 $old_relations =~ s/:[^:]+$//; #old relations is the current relation minus the last addition.
 
@@ -93,6 +94,7 @@ $match = 0;
 $selected_constraints = ($relations =~ s/:/:/g);
 $selected_morph = ($relations =~ s/:\-/:\-/g);
 $selected_relations = $selected_constraints - $selected_morph;
+
 while($in = <STDIN>){
   chomp($in);
   if($in =~ /./) {
@@ -150,7 +152,6 @@ while($in = <STDIN>){
           print "<\/div>\n";
     }
   } elsif ($save eq "yes") {
-#       &display_selected_relations();
        &display_selected_relations($tot_words,$relations);
   }
 
@@ -160,7 +161,7 @@ while($in = <STDIN>){
 sub display_selected_relations{
 my($tot_words,$relations) = @_;
 
-my($i,$j,$indx,$pos,$mindx,$new_rel,$rel,$mpos1,$wpos1,$rel_num);
+my($i,$j,$indx,$pos,$mindx,$new_rel,$rel,$mpos,$rel_num);
 
 #This function uses the following global variables:
 # %wrd, %morph, %COL, %exists, %kAraka_name
@@ -170,7 +171,7 @@ my($i,$j,$indx,$pos,$mindx,$new_rel,$rel,$mpos1,$wpos1,$rel_num);
     $indx = $i;
     $pos = $i+1;
     print "<tr><td>",$pos,"<\/td><td>",$wrd{$indx},"<\/td>";
-    $j=0;
+    $j=1;
     while($j < 10) {
       $mindx = "$i,$j";
       if($morph{$mindx} && $exists{$mindx}) { 
@@ -183,13 +184,8 @@ my($i,$j,$indx,$pos,$mindx,$new_rel,$rel,$mpos1,$wpos1,$rel_num);
        $rel_pos = $1;
        if($rel_pos =~ /([^#]+)#([^,]+),([^,]+),(.*):(.*)/){
           $rel_num = $2;
-          $wpos1 = $3+1;
-          $mpos1 = $4+1;
-    #      if($rel_num > 100) {
-    #        $rel = $kAraka_name{$rel_num-100}.",".$wpos1.",".$mpos1;
-    #      } else {
-            $rel = $kAraka_name{$rel_num}.",".$wpos1.",".$mpos1;
-    #      }
+          $mpos1 = $4;
+            $rel = $kAraka_name{$rel_num}.",".$wpos.",".$mpos;
        }
        print "<td>",$rel,"<\/td>";
     }
@@ -205,96 +201,78 @@ my($filename) = @_;
 my($in,@in,$i,@flds,$w_no,$indx,$tmp,@tmp,@ana,$mindx,$i,$indx,$mana,$samAsa_pUrvapaxa,@ana,$tot_words);
 
 # %class, %wrd and %morph are global variables;
+## Field number and description
+$word_comp_id = 0;
+$word = 1;
+$morph = 4;
+
 $tot_words = 0;
 open(IN, "<$filename") || die "Can't open $filename for reading";
 while($in = <IN>){
       @in = split(/\n/,$in);
       foreach $in (@in) {
           @flds = split(/\t/,$in);
-          if(($flds[0] =~ /^[0-9]+।([0-9]+)/) || ( $flds[0] =~ /^[0-9]+.([0-9]+)/)){
-           $w_no = $1-1; 
-           $indx = $w_no;
-           $wrd{$indx} = $flds[2];
-           $tmp = $flds[7];
-           if($tmp =~ /\-/) {
-              $tmp =~ s/स\-पू\-प/स_पू_प/g;
-              $tmp =~ s/स\-पू\-प/स_पू_प/g;
-              $tmp =~ s/sa\-puu\-pa/sa_puu_pa/g;
-              $tmp =~ s/sa\-puu\-pa/sa_puu_pa/g;
-              @tmp = split(/-/,$tmp);
-              $tmp = "";
-              for ($i=0;$i< $#tmp; $i++) {
-               $tmp[$i] =~ s/<.*//;
-               $tmp .= "-" . $tmp[$i];
-              }
-              $tmp .= "-" . $tmp[$#tmp];
-              $tmp =~ s/^\-//;
-           }
-           if( $tmp =~ /^(.*)\-/) { 
-	       $samAsa_pUrvapaxa = $1; 
-               $tmp =~ s/^(.*)\-//;
-           } else { $samAsa_pUrvapaxa = "";}
+          if(($flds[$word_comp_id] =~ /^([0-9]+।[0-9]+)/) || ( $flds[$word_comp_id] =~ /^([0-9]+\.[0-9]+)/)){
+           $p = $1;
+	   $p =~ s/\./,/;
+	   $p =~ s/\।/,/;
+           $pos{$tot_words} = $p;
+           $wrd{$tot_words} = $flds[$word];
+           $tmp = $flds[$morph];
            @ana = split(/\//,$tmp);
            for ($i=0;$i <= $#ana; $i++) {
-               $mindx = $indx.",".$i;
-               if($samAsa_pUrvapaxa) { 
-                  $ana[$i] = $samAsa_pUrvapaxa."-".$ana[$i];
-               }
+               $mindx = $p.",".($i+1);
                $mana = &modify_mo($ana[$i]);
                $mana =~ s/<level:[0-4]>//;
                $mana =~ s/<लेवेल्:[0-4]>//;
                $morph{$mindx} = $mana;
-               if($ana[$i] =~ /^([^<]+).*<(विभक्तिः|vibhaktiḥ|vibhakti\.h):([1-8])>/){
-                $class{$mindx} = "N".$3;
-             }
-             elsif($ana[$i] =~ /^([^<]+).*<(कृत्_प्रत्ययः|kṛt_pratyayaḥ|k\.rt_pratyaya\.h)/){
-                $class{$mindx} = "NA";
-             }
-             elsif($ana[$i] =~ /^([^<]+).*<(varga\.h:avy|vargaḥ:avy|वर्गः:अव्य्)/){
-                $class{$mindx} = "NA";
-             }
-             elsif($ana[$i] =~ /^([^<]+).*<(लकारः|lakāraḥ|lakaara\.h):/){
-                $class{$mindx} = "KP";
-             }
+               if($ana[$i] =~ /;([1-8]);/){
+                    $class{$mindx} = "N".$1;
+               } elsif($ana[$i] =~ /;(kta|क्त);/){
+                    $class{$mindx} = "NA";
+               } elsif($ana[$i] =~ /;(लट्|लिट्|लुट्);/){
+                    $class{$mindx} = "KP";
+               } elsif($ana[$i] =~ /{(लट्|लिट्|लुट्);/){
+                    $class{$mindx} = "KP";
+               } elsif($ana[$i] =~ /^([^<]+).*<(varga\.h:avy|vargaḥ:avy|वर्गः:अव्य्)/){
+                    $class{$mindx} = "NA";
+               } elsif( $flds[$word] =~ /-$/){
+                    $class{$mindx} = "CP";
+               }
            }
-           if($tot_words < $w_no) { $tot_words = $w_no;}
+	   $tot_words++;
           }
       }
 }
 close(IN);
-$tot_words;
+$tot_words-1;
 }
 1;
 
 sub print_relations_for_each_word{
  my($tot_words,$SCRIPT,$dirname,$sentnum,$relations) = @_;
 
- my($i,$rel_pos,$mindx,$rel_num,$class,$mpos1,$wpos1,$rel,$mpos,$wpos,$new_rel,$rels,$from);
+ my($i,$rel_pos,$mindx,$rel_num,$class,$rel,$mpos,$wpos,$new_rel,$rels,$from);
 
 #Global variables used in this function:
 # %COL,%kAraka_name, %morph
  for($i=0; $i <= $tot_words; $i++){
  print "<td><ol>\n";
-    while($COL{$i} =~ /^([^;]+);/) {
-       $COL{$i} =~ s/^([^;]+);//;
+    $pos = $pos{$i};
+    while($COL{$pos} =~ /^([^;]+);/) {
+       $COL{$pos} =~ s/^([^;]+);//;
        $rel_pos = $1;
-       if($rel_pos =~ /([^#]+)#([^,]+),([^,]+),(.*):(.*)/){
+       if($rel_pos =~ /([^#]+)#([^,]+),([^,]+),([^,]+),([^,]+):(.*)/){
           $from = $1;
           $rel_num = $2;
-          $class = $5;
-          $mpos = $4;
           $wpos = $3;
-          $mpos1 = $4+1;
-          $wpos1 = $3+1;
+          $cpos = $5;
+          $mpos = $5;
+          $class = $6;
           $mindx = $from;
-      #    if($rel_num > 100) {
-      #      $rel = $kAraka_name{$rel_num-100}.",".$wpos1.",".$mpos1;
-      #    } else {
-      #      $rel = $kAraka_name{$rel_num}.",".$wpos1.",".$mpos1;
-      #    }
           if($rel_num < 100 || $rel_num >=2000 || $rel_num == 101 || $rel_num == 102 || ($rel_num > 200 && $rel_num < 300)) {
-             $rel = $kAraka_name{$rel_num}.",".$wpos1.",".$mpos1;
-             $new_rel = $from.",".$rel_num.",".$wpos.",".$mpos;
+             $rel = $kAraka_name{$rel_num}.",".$wpos.".".$cpos."(".$mpos.")";
+             $new_rel = $from.",".$rel_num.",".$wpos.",".$cpos.",".$mpos;
           if($relations !~ /:$new_rel/) { 
              $rels = $relations.":".$new_rel;
           } else {$rels = $relations;}
@@ -302,7 +280,7 @@ sub print_relations_for_each_word{
           print "<a href=\"/cgi-bin/scl/MT/prog/interface/call_parser_summary.cgi?filename=$dirname&amp;outscript=$SCRIPT&amp;rel=$rels&amp;sentnum=$sentnum&amp;save=no&amp;translate=no\" title=\"$morph{$mindx}\">";
           print " &#x2713; $rel </a> <\/li>\n";
          }
-       }
+       }  else { print "-\n";}
     }
   print "<\/ol><\/td>\n";
 }
@@ -319,21 +297,22 @@ sub print_morph_analysis{
 
  for($i=0; $i <= $tot_words; $i++){
          print "<td><ul>\n";
-         $j=0;
-         $mindx = "$i,$j";
+         $j=1;
+         $p = $pos{$i};
+         $mindx = "$p,$j";
          while($j < 10) { # assuming that there are < 10 morph solns
-         if($morph{$mindx}) { # assuming that there are < 10 morph solns
+         if($morph{$mindx} ne "" ) {
            $class = $class{$mindx};
-           if( $exists{$mindx} ){
-               $new_rel = "-,-,-,".$i.",".$j;
+           if( $exists{$mindx}  || ($wrd{$i} =~ /\-$/)){
+               $new_rel = "-,-,-,-,".$p.",".$j;
                if($relations !~ /:$new_rel/) { $rels = $relations.":".$new_rel;}
                else {$rels = $relations;}
                print "<li class=\"$class\">";
-               print $j+1,"<a href=\"/cgi-bin/scl/MT/prog/interface/call_parser_summary.cgi?filename=$dirname&amp;outscript=$SCRIPT&amp;rel=$rels&amp;sentnum=$sentnum&amp;save=no&amp;translate=no\" title=\"$morph{$mindx}\">&#x2713; $morph{$mindx} </a> <\/li>\n";
+               print $j,"<a href=\"/cgi-bin/scl/MT/prog/interface/call_parser_summary.cgi?filename=$dirname&amp;outscript=$SCRIPT&amp;rel=$rels&amp;sentnum=$sentnum&amp;save=no&amp;translate=no\" title=\"$morph{$mindx}\">&#x2713; $morph{$mindx} </a> <\/li>\n";
            }
          }
            $j++;
-           $mindx = "$i,$j";
+           $mindx = "$p,$j";
         }
   print "<\/ul><\/td>\n";
   }
@@ -344,11 +323,12 @@ sub print_sent{
  my($tot_words) = @_;
  my($i,$indx,$pos);
 #Global variables
-# %wrd
+# %wrd, %pos
  for($i=0; $i <= $tot_words; $i++){
     $indx = "$i";
-    $pos = $i+1;
-    print "<td align=\"center\" style=\"background-color:grey; color:yellow\">$wrd{$indx}($pos)<\/td>\n";
+    $p = $pos{$indx};
+    $p =~ s/,/./;
+    print "<td align=\"center\" style=\"background-color:grey; color:yellow\">$wrd{$indx}($p)<\/td>\n";
  }
 }
 1;
@@ -380,31 +360,36 @@ sub populate_data {
 
      @edges = split(/\n/,$parse);
      foreach $edge (@edges) {
+         if($edge =~ /\(/) {
            $edge =~ s/\(//;
            $edge =~ s/\)//;
-           $edge =~ /([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+)/;
-           $to_wrd = $1;
-           $to_mid = $2;
-           $rel_nm = $3;
-           $from_wrd = $4;
-           $from_mid = $5;
+           $edge =~ /([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+)/;
+           $to_wrd = $1+1;
+           $to_cid = $2+1;
+           $to_mid = $3+1;
+           $rel_nm = $4;
+           $from_wrd = $5+1;
+           $from_cid = $6+1;
+           $from_mid = $7+1;
 
-           $mindx = "$to_wrd,$to_mid";
+           $mindx = "$to_wrd,$to_cid,$to_mid";
            $exists{$mindx} = 1;
-           $mindx = "$from_wrd,$from_mid";
+           $mindx = "$from_wrd,$from_cid,$from_mid";
            $exists{$mindx} = 1;
+           $to_indx = $to_wrd.",".$to_cid;
 
-           $to = $to_wrd.",".$to_mid;
-           $from = $from_wrd.",".$from_mid;
+           $to = $to_wrd.",".$to_cid.",".$to_mid;
+           $from = $from_wrd.",".$from_cid.",".$from_mid;
            $rel = $rel_nm.",".$from;
            $relto = $rel_nm.",".$to;
 
            if(($RELS{$to} !~ /^$rel#/) && ($RELS{$to} !~ /#$rel#/)) {
                $RELS{$to} .= $rel."#";
                $mindx = "$to";
-               $COL{$to_wrd} .= $to."#".$rel.":$class{$mindx};";
+               $COL{$to_indx} .= $to."#".$rel.":$class{$mindx};";
            }
-    }
+         }
+     }
 }
 1;
 
@@ -416,15 +401,18 @@ sub compatible{
 # 1: count the matching relations
 # 2: Don't care condition
    
+   $in_node =~ /^([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+)/;
+   $in_node = ($1+1).",".($2+1).",".($3+1).",".$4.",".($5+1).",".($6+1).",".($7+1);
+   $relations =~ s/^://;
    @relations = split(/:/,$relations);
    foreach $r (@relations) {
       if ($r =~ /\-/) { 
-          $r =~ /\-,\-,\-,([0-9]+),([0-9]+)/;
-          $id = $1; $mid = $2;
-          $in_node =~ /^([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+)/;
-          $to = $1; $mto = $2; $from = $4, $mfrom = $5;
-          if ((($id == $to) && ($mid != $mto)) || 
-              (($id == $from) && ($mid != $mfrom))) { $ans = 0;}
+          $r =~ /\-,\-,\-,\-,([0-9]+),([0-9]+),([0-9]+)/;
+          $id = $1; $cid = $2; $mid = $3;
+          $in_node =~ /^([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+)/;
+          $to = $1; $cto = $2; $mto = $3; $from = $5; $cfrom = $6; $mfrom = $7;
+          if ((($id == $to) && (($cid != $cto) || ($mid != $mto))) || 
+              (($id == $from) && (($cid != $cfrom) || ($mid != $mfrom)))) { $ans = 0;}
       } elsif ($in_node =~ /$r/) { $ans = 1;}
    }
 #   print "ans = $ans<br>"; 

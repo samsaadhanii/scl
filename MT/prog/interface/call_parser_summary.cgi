@@ -36,7 +36,7 @@ my %param = &get_parameters();
       my $save=$param{save};
       my $translate=$param{translate};
 
-      $filename = "morph".$sentnum.".out.out";
+      $filename = "table_outscript.tsv";
       $pid = $dirname;
       $pid =~ s/.*\/tmp_in//;
 
@@ -57,20 +57,27 @@ my %param = &get_parameters();
       print "<\/head>\n<body>\n<div>\n";
       print "<center>\n";
       if($translate eq "yes") {
-         system("$GlblVar::SCLINSTALLDIR/MT/prog/shell/callmtshell_after_parse.sh $dirname $pid $outscript");
+	  my $lang = "hi";
+          my $morph = "UoHyd";
+          my $parse = "AVAILABLE";
+          my $text_type = "Prose";
+          my $fn = "in".$pid;
+         system("$GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::CGIDIR/scl $dirname/$fn $GlblVar::TFPATH $lang $outscript $morph $parse $text_type 2>> $dirname/err$pid");
+	 system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $outscript $pid A");
+         #system("$GlblVar::SCLINSTALLDIR/MT/prog/shell/callmtshell_after_parse.sh $dirname $pid $outscript");
       } elsif($save eq "yes") {
-        system("$GlblVar::SCLINSTALLDIR/MT/prog/kAraka/mk_summary.pl $GlblVar::SCLINSTALLDIR $outscript $dirname/parser_files/$filename $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/list_n $dirname $relations $sentnum $dirname/parser_files/parseop_new.txt $save < $dirname/parser_files/parseop$sentnum.txt");
+        system("$GlblVar::SCLINSTALLDIR/MT/prog/kAraka/mk_summary.pl $GlblVar::SCLINSTALLDIR $outscript $dirname/$filename $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/list_n $dirname $relations $sentnum $dirname/parser_files/parseop_new.txt $save < $dirname/parser_files/parseop$sentnum.txt");
       } else {
       open(TMP,"<$dirname/parser_files/parseop1.txt") || die "Can't open $dirname/parser_files/parseop1.txt for reading";
       @tmp = <TMP>;
       close(TMP);
-      if($tmp[1] =~/Total Complete Solutions=([0-9]+)/){
+      if($tmp[0] =~/Total Complete Solutions=([0-9]+)/){
          $total_filtered_solns = $1;
          print "<h2> Summary of Complete Parses <\/h2>\n";
       } else {
          print "<h2> Summary of Possible Relations <\/h2>\n";
       }
-        system("$GlblVar::SCLINSTALLDIR/MT/prog/kAraka/mk_summary.pl $GlblVar::SCLINSTALLDIR $outscript $dirname/parser_files/$filename $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/list_n $dirname $relations $sentnum $dirname/parser_files/parseop_new.txt $save < $dirname/parser_files/parseop$sentnum.txt");
+        system("$GlblVar::SCLINSTALLDIR/MT/prog/kAraka/mk_summary.pl $GlblVar::SCLINSTALLDIR $outscript $dirname/$filename $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/list_n $dirname $relations $sentnum $dirname/parser_files/parseop_new.txt $save < $dirname/parser_files/parseop$sentnum.txt");
       print "<\/center>\n";
       print "<\/div>\n";
       print "<\/body>\n<\/html>\n";

@@ -8,43 +8,47 @@ my($entry,$relations) = @_;
 my($wrd_no,$mid,$rel1,$from_wrd,$from_mid);
 my($cwrd_no,$cmid,$crel1,$cfrom_wrd,$cfrom_mid);
 
-$entry =~ /^([^,]+),([^,]+),([^,]+),([^,]+),([^,]+)/;
+$entry =~ /^([^,]+),([^,]+),([^,]+),([^,]+),([^,]+),([^,]+),([^,]+)/;
 $wrd_no = $1;
-$mid = $2;
-$rel1 = $3;
-$from_wrd = $4; 
-$from_mid = $5; 
+$comp_id = $2;
+$mid = $3;
+$rel1 = $4;
+$from_wrd = $5; 
+$from_comp_id = $6; 
+$from_mid = $7; 
 $relations =~ s/^://;
 @relations = split(/:/,$relations);
 
 foreach $rel (@relations) {
-  $rel =~ /^([^,]+),([^,]+),([^,]+),([^,]+),([^,]+)/;
+  $rel =~ /^([^,]+),([^,]+),([^,]+),([^,]+),([^,]+),([^,]+),([^,]+)/;
   $cwrd_no = $1;
-  $cmid = $2;
-  $crel1 = $3;
-  $cfrom_wrd = $4;
-  $cfrom_mid = $5;
-#If a word with a certain mid is chosen, then all the edges goin to or coming from other mids of the same id are to be rejected.
+  $c_comp_id = $2;
+  $cmid = $3;
+  $crel1 = $4;
+  $cfrom_wrd = $5;
+  $cfrom_comp_id = $6;
+  $cfrom_mid = $7;
+#If a word with a certain mid is chosen, then all the edges going to or coming from other mids of the same id are to be rejected.
   if (($crel1 != $kAraka_num{"niwya_sambanXaH"}) && ($rel1 != $kAraka_num{"niwya_sambanXaH"})) {
-  if(($from_wrd eq $cfrom_wrd) && ($from_mid eq $cfrom_mid) && ($rel1 eq $crel1) && ($rel1 < $multiple_relations_begin) && ($wrd_no ne $cwrd_no)) {  #print STDERR "cond1 failed"; 
+  if(($from_wrd eq $cfrom_wrd) && ($from_comp_id eq $cfrom_comp_id) && ($from_mid eq $cfrom_mid) && ($rel1 eq $crel1) && ($rel1 < $multiple_relations_begin) && ($wrd_no ne $cwrd_no)) {  #print STDERR "cond1 failed"; 
 return 0;} 
 # More than one outgoing arrows with same label
-  if(($wrd_no eq $cwrd_no) && ($mid eq $cmid) && ($rel1 eq $crel1) && ($from_wrd ne $cfrom_wrd)) { #print STDERR "cond2 failed"; 
+  if(($wrd_no eq $cwrd_no) && ($comp_id eq $c_comp_id) && ($mid eq $cmid) && ($rel1 eq $crel1) && ($from_wrd ne $cfrom_wrd)) { #print STDERR "cond2 failed"; 
 return 0;}
 # More than one incoming arrows with same label from different words
-  if(($wrd_no eq $cwrd_no) && ($mid eq $cmid) && ($rel1 ne $crel1)) { #print STDERR "cond3 failed"; 
+  if(($wrd_no eq $cwrd_no) && ($comp_id eq $c_comp_id) && ($mid eq $cmid) && ($rel1 ne $crel1)) { #print STDERR "cond3 failed"; 
 return 0;} #2: niwya_sambanXaH
 # More than one incoming arrows with different label
-  if(($wrd_no eq $cwrd_no) && ($mid ne $cmid)) { #print STDERR "cond4 failed"; 
+  if(($wrd_no eq $cwrd_no) && ($comp_id eq $c_comp_id) && ($mid ne $cmid)) { #print STDERR "cond4 failed"; 
 return 0;}
 #Single morph analysis per word
-  if(($wrd_no eq $cfrom_wrd) && ($mid ne $cfrom_mid)) { #print STDERR "cond5 failed"; 
+  if(($wrd_no eq $cfrom_wrd) && ($comp_id eq $c_comp_id) && ($mid ne $cfrom_mid)) { #print STDERR "cond5 failed"; 
 return 0;}
 #Single morph analysis per word
-  if(($from_wrd eq $cwrd_no) && ($from_mid ne $cmid)) { #print STDERR "cond6 failed"; 
+  if(($from_wrd eq $cfrom_wrd) && ($from_comp_id eq $cfrom_comp_id) && ($from_mid ne $cmid)) { #print STDERR "cond6 failed"; 
 return 0;}
 #Single morph analysis per word
-  if(($from_wrd eq $cfrom_wrd) && ($from_mid ne $cfrom_mid)) { #print STDERR "cond7 failed"; 
+  if(($from_wrd eq $cfrom_wrd) && ($from_comp_id ne $cfrom_comp_id) && ($from_mid eq $cfrom_mid)) { #print STDERR "cond7 failed"; 
 return 0;}
 #Single morph analysis per word
 }

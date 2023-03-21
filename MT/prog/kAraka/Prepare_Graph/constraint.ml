@@ -139,8 +139,7 @@ value print_relation r=match r with
     ; print_string ","
     ; print_int (i5-1); print_string ","
     ; print_int (i6-1); print_string ","
-    ; print_int (i7-1); print_string ","
-    ; print_int (i8-1); print_string ")\n"
+    ; print_int (i7-1); print_string ")\n"
     }
  ]
 ;

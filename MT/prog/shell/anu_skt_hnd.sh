@@ -50,7 +50,7 @@ display_usage () {
 
 set_tmp_path () {
   fbn=`basename $FILE_NM` #fbn = file base name
-  temp_files_path=$TMP_DIR_PATH/${dnm}/tmp_$fbn
+  temp_files_path=$TMP_DIR_PATH/tmp_$fbn
 
   if [ -f "tmp_$fbn"  ] ; then 
     echo "File tmp_$fbn exists. Remove or rename it, and rerun the command."
@@ -60,7 +60,6 @@ set_tmp_path () {
 }
 
 format () {
-    #  $ANU_MT_PATH/format/format.sh $SCLINSTALLDIR < $TMP_DIR_PATH/$FILE_NM > $temp_files_path/$fbn.out
       $ANU_MT_PATH/Normalisation/lwg.out < $TMP_DIR_PATH/$FILE_NM |\
       $ANU_MT_PATH/format/gen_table.out > $temp_files_path/$fbn.out
 }

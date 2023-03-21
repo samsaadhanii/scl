@@ -46,13 +46,9 @@
 	if [ $PARSE = "AVAILABLE" ]; then
 	     cp $TMP_FILES_PATH/parser_files/parseop_new.txt $TMP_FILES_PATH/parser_files/parseop1.txt 
         fi
-             $ANU_MT_PATH/kAraka/add_best_parse_output.pl $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt $TMP_FILES_PATH/parser_files/parseop1.txt < $TMP_FILES_PATH/$4 > /tmp/1
-             $ANU_MT_PATH/kAraka/add_abhihita_info.pl < /tmp/1 > $TMP_FILES_PATH/tmp_parse
-             #$ANU_MT_PATH/kAraka/draw_graph.pl $GraphvizDot $TMP_FILES_PATH < table.tsv
-             #$ANU_MT_PATH/kAraka/prepare_dot_files.sh $SCLINSTALLDIR $GraphvizDot $OUTSCRIPT 1 mk_kAraka_help.pl $TMP_FILES_PATH/$4 $TMP_FILES_PATH/parser_files/parseop1.txt $TMP_FILES_PATH 1
+             $ANU_MT_PATH/kAraka/add_best_parse_output.pl $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt $TMP_FILES_PATH/parser_files/parseop1.txt < $TMP_FILES_PATH/$4 |\
+             $ANU_MT_PATH/kAraka/add_abhihita_info.pl > $TMP_FILES_PATH/tmp_parse
 	
-             #cut -f1,2,7,8 $TMP_FILES_PATH/tmp_parse |  $my_converter | $ANU_MT_PATH/kAraka/mk_kAraka_help.pl $SCLINSTALLDIR $GraphvizDot $OUTSCRIPT $TMP_FILES_PATH
- 
   else
 
      touch $TMP_FILES_PATH/parser_files/graph.txt

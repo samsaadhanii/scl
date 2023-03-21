@@ -55,7 +55,7 @@ my $prog_Path=$ARGV[1];
 
 if($ARGV[2] eq "D") { $DEBUG = 1;} else {$DEBUG = 0;}
 
-$DEBUG = 1;
+$DEBUG = 0;
 
 require "$prog_Path/add_ne.pl";
 require "$prog_Path/handle_noun_verb_agr.pl";

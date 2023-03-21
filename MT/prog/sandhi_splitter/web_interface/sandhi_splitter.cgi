@@ -32,7 +32,6 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 ## outencoding: D/I
 ## mode: sent/word
 
- print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
   my %param = &get_parameters();
 
@@ -55,8 +54,10 @@ my $t;
 my $st;
 my $mode;
 my $disp_mode;
+my $error;
 
 $disp_mode = "web";
+
 
   $word = $param{word};
   $encoding=$param{encoding};
@@ -92,19 +93,31 @@ $disp_mode = "web";
     elsif ($encoding eq "Itrans") { $t = "WX"; if ($word =~ /M$/) { $word =~ s/M$/m/;}}
 
     $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=$st\&us=f\&font=$Hscript\&cp=t\&text=$word\&t=$t\&topic=\&mode=s&pipeline=t&fmode=w\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI";
-
+    my $ans = `$cmd`;
+    if($ans =~ /error/) { $ans = "No Output Found"; $error = 1;} else {$error = 0;}
+   
   if($disp_mode eq "web"){
+      print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
       print "<div id='finalout' style='border-style:solid; border-width:1px;padding:10px;color:blue;font-size:14px;height:200px'>";
-      my $ans = `$cmd | $out_converter | tail -1 | perl -p -e 's/"]}//; s/.*"//;'`;
-      print $ans;
-      print "<br />";
-      print "<br />";
-      print "<br />";
-      print "Click <a href=\"/cgi-bin/$GlblVar::HERITAGE_Graph_CGI?lex=MW\&cache=f\&st=$st\&us=f\&font=$Hscript\&cp=t\&text=$word\&t=$t\&topic=\&mode=g&pipeline=f\">here</a> to see all possible solutions.";
-      print "</div><br />";
-   } else {
-      system("$cmd | tail -1 | sed 's/input/\@input/' | sed 's/segmentation/\@segmentation/' | $out_converter");
-   }
+      if ($error == 0) {
+          #$ans = `echo "$ans" | $out_converter | tail -1 | perl -p -e 's/"]}//; s/.*"//;'`;
+          $ans = `echo "$ans" | $out_converter | tail -1 | perl -p -e 's/.*://; s/}//;'`;
+          print $ans;
+          print "<br />";
+          print "<br />";
+          print "<br />";
+          print "Click <a href=\"/cgi-bin/$GlblVar::HERITAGE_Graph_CGI?lex=MW\&cache=f\&st=$st\&us=f\&font=$Hscript\&cp=t\&text=$word\&t=$t\&topic=\&mode=g&pipeline=f\">here</a> to see all possible solutions.";
+          print "</div><br />";
+      } else {
+         print $ans;
+         print "</div><br />";
+      }
+    } else {
+      print "Access-Control-Allow-Origin: *\n";
+      if($error == 0) {
+         system("echo $ans | tail -1 | sed 's/input/\@input/' | sed 's/segmentation/\@segmentation/' | $out_converter");
+      } else  { print $ans;}
+    }
 if($GlblVar::LOG eq "true"){
    close(TMP1);
 }

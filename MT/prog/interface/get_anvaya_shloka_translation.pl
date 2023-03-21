@@ -11,6 +11,8 @@ chomp($in);
 $shloka_anvaya .= " ". $flds[1];
 $trans_anvaya .= " ". $flds[9];
 $trans_anvaya =~ s/_/ /g;
+$trans_anvaya =~ s/\- / /g;
+$shloka_anvaya =~ s/\- / /g;
 }
 $shloka_anvaya .= " ";
 $trans_anvaya .= " ";
