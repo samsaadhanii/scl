@@ -7,42 +7,6 @@ $CGIURL = $ARGV[3];
 $HERITAGE_CGI = $ARGV[4];
 if($ARGV[5] eq "A") {$anvaya = 1;} else {$anvaya = 0;}
 
-print <<header
-<?xml version="1.0"?>
-<div id="navigation">
-<form action="" onsubmit="goto_section(); return false;">
-<p><center>
-<a id="logo" href=\"/scl/index.html\"><font color=\"DarkBlue\"> संसाधनी-Saṃdha </font></a>
-<a id="about" href="/scl/MT/about.html" target="_new">About</a>
-&nbsp; &nbsp; &nbsp; &nbsp;
-<a id="help" href="/scl/MT/anu_help.html" target="_new">Help</a>
-<input type="hidden" name="no_of_rows" value="8"/>
-<input type="button" value="Show/Hide Rows..." onclick="window.open('/scl/MT/rows.html','ShowHideRowsWindow','top=200,left=200,height=500,width=300,location=no,menubar=no,toolbar=no,directories=no,statusbar=no');"/>
-<input type="checkbox" name="border_value" onchange="toggle_borders()"/>Borders
-<a href="/scl/MT/DEMO/./tmp_$fbn/table.xlsx">Save Annotation</a> 
-&nbsp; &nbsp; &nbsp; &nbsp;
-<a href="/cgi-bin/scl/skt_gen/Sentence/gen.cgi?filename=$TFPATH/table_dev.tsv">Generate</a> 
-&nbsp; &nbsp; &nbsp; &nbsp;
-header
-;
-
-$pid = $fbn;
-$pid =~ s/^in//;
-
-if($anvaya == 1) {
-print "<a href=\"/cgi-bin/scl/MT/toggle_order.cgi?out_encoding=$outscript&pid=$pid&order=S\">Shloka Order</a> \n";
-} else {
-print "<a href=\"/cgi-bin/scl/MT/toggle_order.cgi?out_encoding=$outscript&pid=$pid&order=A\">Anvaya Order</a> \n";
-}
-
-print <<header1
-</center></p>
-</form>
-</div>
-<div class="float_clear"/>
-header1
-;
-
 @in = <STDIN>;
 if ($anvaya == 1) {@new_in = &get_anvaya_order(@in);} else {@new_in = @in;}
 for ($word = 1; $word <$#in; $word++) {
@@ -51,7 +15,7 @@ chomp($in);
 
 @flds = split(/\t/,$in);
 
-print "<table cellspacing=\"0\" border=\"0\">\n";
+print "<table cellspacing=\"0\" border=\"0\" style=\"float: left\">\n";
 foreach ($fld=1;$fld<=$#flds;$fld++){
    if ($fld == 1 || $fld > 2) {
       print "<tr class=\"row",$fld,"\">";

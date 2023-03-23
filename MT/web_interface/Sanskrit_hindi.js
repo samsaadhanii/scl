@@ -22,15 +22,15 @@
 var rows_visibility = [
 1, // row1
 0, // row2
-1, // row3
+0, // row3
 0, // row4
 1, // row5
-1, // row6
+0, // row6
 0, // row7
 0, // row8
 1, // row9
 0, // row10
-1, // row10
+0, // row11
 ]; // The array can be of different size than the number of rows at hand
 
 var row_labels = [

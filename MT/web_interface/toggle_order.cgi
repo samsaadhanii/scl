@@ -25,8 +25,10 @@ require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 
   my $script=$param{out_encoding};
   my $pid=$param{pid};
+  my $sentences=$param{sentences};
   my $order=$param{order};
 
   print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
    
-  system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $script $pid $order");
+  system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $script $pid $sentences $order");
+  system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/print_table_bottom_menu.pl $pid $sentences $GlblVar::TFPATH $script $order");

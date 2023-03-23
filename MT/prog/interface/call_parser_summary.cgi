@@ -24,7 +24,7 @@ require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 package main;
 #use CGI qw/:standard/;
 
-print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
+#print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
 my %param = &get_parameters();
 
@@ -63,7 +63,7 @@ my %param = &get_parameters();
           my $text_type = "Prose";
           my $fn = "in".$pid;
          system("$GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::CGIDIR/scl $dirname/$fn $GlblVar::TFPATH $lang $outscript $morph $parse $text_type 2>> $dirname/err$pid");
-	 system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $outscript $pid A");
+	 system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $outscript $pid NIL A");
          #system("$GlblVar::SCLINSTALLDIR/MT/prog/shell/callmtshell_after_parse.sh $dirname $pid $outscript");
       } elsif($save eq "yes") {
         system("$GlblVar::SCLINSTALLDIR/MT/prog/kAraka/mk_summary.pl $GlblVar::SCLINSTALLDIR $outscript $dirname/$filename $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/list_n $dirname $relations $sentnum $dirname/parser_files/parseop_new.txt $save < $dirname/parser_files/parseop$sentnum.txt");
