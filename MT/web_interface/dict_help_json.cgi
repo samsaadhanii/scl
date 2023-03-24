@@ -33,9 +33,9 @@ my $word = $param{word};
 
 print "Content-type:text/html;charset:UTF-8\n\n";
 print "[\n";
-&call_dict("heritage",$word);
-&call_dict("mw",$word);
 &call_dict("apte",$word);
+&call_dict("mw",$word);
+&call_dict("heritage",$word);
 print "]\n";
 
 
@@ -47,7 +47,9 @@ sub call_dict{
            print "\"DICT\":\"Apte's Skt-Hnd Dict\",\n";
            $result = &get_dict_entry("apte",$word,"DEV");
            $result =~ s/<\/br>/ /g;
-           print "\"Meaning\":\"$result\"},\n";
+           $result =~ s/\/ /g;
+           $result =~ s/\n/ /g;
+           print "\"Meaning\":\'$result\'},\n";
         }
         if($dict eq "mw") {
            print "\"DICT\":\"Monier Williams' Skt-Eng Dict\",\n";
@@ -57,7 +59,7 @@ sub call_dict{
            $result =~ s/<p xmlns="">/ /g;
            $result =~ s/<hr xmlns="">/ /g;
            $result =~ s/<\/p>/ /g;
-           print "\"Meaning\":\"$result\"},\n";
+           print "\"Meaning\":\'$result\'},\n";
         }
         if($dict eq "heritage") {
            print "\"DICT\":\"Heritage Skt-French Dict\",\n";
@@ -65,7 +67,7 @@ sub call_dict{
            $result =~ s/\n/ /g;
            $result =~ s/<p><\/p>/ /g;
            $result =~ s/<br>/ /g;
-           print "\"Meaning\":\"$result\"}\n";
+           print "\"Meaning\":\'$result\'}\n";
         }
 }
 1;
