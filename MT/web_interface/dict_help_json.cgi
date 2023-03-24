@@ -46,16 +46,25 @@ sub call_dict{
         if($dict eq "apte") {
            print "\"DICT\":\"Apte's Skt-Hnd Dict\",\n";
            $result = &get_dict_entry("apte",$word,"DEV");
+           $result =~ s/<\/br>/ /g;
            print "\"Meaning\":\"$result\"},\n";
         }
         if($dict eq "mw") {
            print "\"DICT\":\"Monier Williams' Skt-Eng Dict\",\n";
            $result = &get_dict_entry("mw",$word,"DEV");
+           $result =~ s/\n/ /g;
+           $result =~ s/<p>/ /g;
+           $result =~ s/<p xmlns="">/ /g;
+           $result =~ s/<hr xmlns="">/ /g;
+           $result =~ s/<\/p>/ /g;
            print "\"Meaning\":\"$result\"},\n";
         }
         if($dict eq "heritage") {
            print "\"DICT\":\"Heritage Skt-French Dict\",\n";
            $result = &get_dict_entry("heritage",$word,"DEV");
+           $result =~ s/\n/ /g;
+           $result =~ s/<p><\/p>/ /g;
+           $result =~ s/<br>/ /g;
            print "\"Meaning\":\"$result\"}\n";
         }
 }
