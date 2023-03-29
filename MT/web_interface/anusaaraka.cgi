@@ -144,13 +144,16 @@ package main;
      }
 
     }
+    if ($mode eq "web") {
+        system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $script $Ppid $i $text_type");
+        if ($i == $#sentences+1) {
+          system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/print_table_bottom_menu.pl $Ppid $#sentences $GlblVar::TFPATH $script");
+        }
+	print "<\/body><\/html>\n";
+    } elsif ($mode eq "json") {
+        system("$GlblVar::SCLINSTALLDIR/MT/prog/reader_generator/csv2json.pl < $GlblVar::TFPATH/tmp_in$pid/table_outscript.tsv"); 
+    }
    }
-       if ($mode eq "web") {
-           system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $script $Ppid $#sentences A");
-           system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/print_table_bottom_menu.pl $Ppid $#sentences $GlblVar::TFPATH $script A");
-       } elsif ($mode eq "json") {
-           system("$GlblVar::SCLINSTALLDIR/MT/prog/reader_generator/csv2json.pl < $GlblVar::TFPATH/tmp_in$pid/table_outscript.tsv"); 
-       }
   if($GlblVar::LOG eq "true") {
     close(TMP1);
   }

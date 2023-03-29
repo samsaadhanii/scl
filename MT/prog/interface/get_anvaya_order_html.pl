@@ -7,6 +7,7 @@ $CGIURL = $ARGV[3];
 $HERITAGE_CGI = $ARGV[4];
 if($ARGV[5] eq "A") {$anvaya = 1;} else {$anvaya = 0;}
 
+
 @in = <STDIN>;
 if ($anvaya == 1) {@new_in = &get_anvaya_order(@in);} else {@new_in = @in;}
 for ($word = 1; $word <$#in; $word++) {
@@ -25,11 +26,12 @@ foreach ($fld=1;$fld<=$#flds;$fld++){
           print "<a href=\"/",$CGIURL,"/scl/MT/prog/interface/call_parser_summary.cgi?filename=",$TFPATH,"\&amp;outscript=",$outscript,"&rel=''&sentnum=1&save=no&translate=no\"  onmouseover=\"Tip('<img src=/scl/MT/DEMO/tmp_",$fbn,"/1.svg >' ,FONTSIZE,'18pt',HEIGHT,400,WIDTH,900,STICKY,true,CLOSEBTN,true)\">\n";
         }
         if($fld == 3) { # sandhied words
-          open(TMP,"<$TFPATH/sandhied_in$pid");
+          open(TMP,"<$TFPATH/sandhied_$fbn") || die "file $TFPATH/sandhied_$fbn not found\n";
           $sentences = <TMP>;
           close(TMP);
           chomp($sentences);
           $sentences =~ s/ /\+/g;
+	  $sentences =~ s/\.//;
           print "<a href=\"/$CGIURL/$HERITAGE_CGI?lex=MW\&cache=t\&st=t\&us=f\&font=deva\&cp=t\&text=$sentences\&t=WX\&topic=\&mode=b\&pipeline=f\">\n";
         }
         print "<span Onclick=\"toggle();\">";
