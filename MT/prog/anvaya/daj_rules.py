@@ -3,11 +3,21 @@
 import anytree
 import itertools
 
-hold_relations_sa = [28, 64, 65, 66, 67, 76, 77, 80, 97, 1002]
-hold_relations_hi = [28, 76, 77, 80, 97, 1002]
+hold_relations = {
+    'sambanXaH': ['sa', 'hi'],
+    'samuccaya_xyowakaH': ['sa'],
+    'sup_samuccaya_xyowakaH': ['sa'],
+    'anyawara_xyowakaH': ['sa'],
+    'sup_anyawara_xyowakaH': ['sa'],
+    'sahArWa_xyowakaH': ['sa', 'hi'],
+    'vinArWa_xyowakaH': ['sa', 'hi'],
+    'upamAna_xyowakaH': ['sa', 'hi'],
+    'vAkyakarma_xyowakaH': ['sa', 'hi'],
+    # '1002': ['sa', 'hi'],
+}
 
-# List of couplets for manual override due to mistakes in machine learning
-# due to sparse or wrong data.
+# List of couplets for manual override to handle mistakes in
+# machine learning due to sparse or wrong data.
 PROB_OVERRIDE = []
 
 
@@ -16,13 +26,13 @@ def create_tree(data):
 
     nodes = []
     roots = []
-    for ind, fields in data.iterrows():
+    for ind, fields in data.items():
         node = anytree.Node(
             ind,
-            r_id=fields.r_id,
-            p_id=fields.p_id,
-            niwya_p_id=fields.niwya_p_id)
-        if fields.p_id == 0:
+            rela=fields[12],
+            p_id=fields[13],
+            niwya_p_id=fields[14])
+        if fields[13] in ['0', '']:
             roots.append(node)
         else:
             nodes.append(node)
@@ -50,11 +60,11 @@ def sort_subtrees(trees):
     '''Sort subtrees connected by nitya_sambandha their natural order.'''
 
     sorted_trees = []
-    niwya_p_id = 0
+    niwya_p_id = ''
 
     for tree in trees:
         niwya_node = anytree.search.find(
-            tree, lambda node: node.niwya_p_id != 0)
+            tree, lambda node: node.niwya_p_id != '')
 
         if niwya_node:
             niwya_p_id = niwya_node.niwya_p_id
@@ -83,7 +93,7 @@ def sort_tree(tree, prob_data):
     2. Number of descendants (in descending order) and
     3. Original word order'''
 
-    sorted_tree = anytree.Node(tree.root.name, r_id=0, p_id=0)
+    sorted_tree = anytree.Node(tree.root.name, rela='', p_id='')
     for node in anytree.LevelOrderIter(tree):
         if node.is_leaf:
             continue
@@ -95,7 +105,7 @@ def sort_tree(tree, prob_data):
                 sorted_tree, lambda node: node.name == child.p_id)
             anytree.Node(
                 child.name,
-                r_id=child.r_id,
+                rela=child.rela,
                 p_id=child.p_id,
                 parent=parent)
             continue
@@ -118,7 +128,7 @@ def sort_tree(tree, prob_data):
                 sorted_tree, lambda node: node.name == child.p_id)
             anytree.Node(
                 child.name,
-                r_id=child.r_id,
+                rela=child.rela,
                 p_id=child.p_id,
                 parent=parent)
 
@@ -145,14 +155,16 @@ def calculate_scores(seq, prob_data):
         # If relations are the same or if the couplet is not found
         # in the learned probabilities list, the probability score is 0.5
         # Otherwise, gets probability score from the learned probabilities
-        if (one.r_id, two.r_id) in PROB_OVERRIDE:
+        if one.rela == two.rela:
+            prob_score *= 0.5
+        elif (one.rela, two.rela) in PROB_OVERRIDE:
             pass
-        elif (two.r_id, one.r_id) in PROB_OVERRIDE:
+        elif (two.rela, one.rela) in PROB_OVERRIDE:
             prob_score = 0
-        elif one.r_id == two.r_id or (one.r_id, two.r_id) not in prob_data:
+        elif (one.rela, two.rela) not in prob_data:
             prob_score *= 0.5
         else:
-            prob_score *= prob_data[(one.r_id, two.r_id)]
+            prob_score *= prob_data[(one.rela, two.rela)]
 
         # If first chunk is heavier than the second, score increments
         # If the second chunk is heavier, score decrements as a penalty
@@ -171,8 +183,8 @@ def calculate_scores(seq, prob_data):
     return prob_score, desc_score, order_score
 
 
-def linear_order_sa(tree):
-    '''Linearizes the tree into Sanskrit word order'''
+def linear_order(tree, lang):
+    '''Linearizes the tree into Sanskrit or Hindi word order'''
 
     held_back = {}
     word_order = []
@@ -181,34 +193,13 @@ def linear_order_sa(tree):
         # like _xyowakaH, sambanXaH etc. They will be inserted into the word
         # order after their parent node. Subtrees having multiples of such
         # relations like 'ca eva' are dealt reverse traversing from the leaf.
-        if node.is_leaf and node.r_id in hold_relations_sa:
+        if node.is_leaf \
+           and node.rela in hold_relations \
+           and lang in hold_relations[node.rela]:
             held_seq = []
             for hold_check in node.iter_path_reverse():
-                if hold_check.r_id in hold_relations_sa:
-                    held_seq.insert(0, [hold_check.p_id, hold_check.name])
-                else:
-                    break
-            held_back[held_seq[0][0]] = [x[1] for x in held_seq]
-        elif node.name in [x for v in held_back.values() for x in v]:
-            continue
-        else:
-            word_order.append(node.name)
-            if node.name in held_back:
-                word_order.extend(held_back[node.name])
-                del held_back[node.name]
-    return word_order
-
-
-def linear_order_hi(tree):
-    '''Linearizes the tree into Sanskrit word order'''
-
-    held_back = {}
-    word_order = []
-    for node in anytree.PostOrderIter(tree):
-        if node.is_leaf and node.r_id in hold_relations_hi:
-            held_seq = []
-            for hold_check in node.iter_path_reverse():
-                if hold_check.r_id in hold_relations_hi:
+                if hold_check.rela in hold_relations \
+                   and lang in hold_relations[node.rela]:
                     held_seq.insert(0, [hold_check.p_id, hold_check.name])
                 else:
                     break
