@@ -1807,18 +1807,18 @@ value rlAvy_kriyAviSeRaNam_or_aXikaraNam m1 m2 text_type = match m2 with
        if prose_order id1 id2 text_type 
        then if word1="yaxA" 
             then if id2 < waxA_pos.val 
-                 then kv_or_spl_aXi cid1 id1 mid1 id2 cid2 mid2 uwwarapaxa1 text_type
+                 then kv_or_spl_aXi cid1 id1 mid1 id2 cid2 mid2 word1 text_type
                  else []
-            else kv_or_spl_aXi id1 cid1 mid1 id2 cid2 mid2 uwwarapaxa1 text_type
+            else kv_or_spl_aXi id1 cid1 mid1 id2 cid2 mid2 word1 text_type
        else []
      | AvywaxXiwa (id1,cid1,mid1,word1,_,_,uwwarapaxa1,taddhita1,_) -> 
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
        if prose_order id1 id2 text_type && taddhita1="vaw" 
        then [ Relation (id1,cid1,mid1,"kriyAviSeRaNam",id2,cid2,mid2,"7.1",d12)]
-       else kv_or_spl_aXi id1 cid1 mid1 id2 cid2 mid2 uwwarapaxa1  text_type
+       else kv_or_spl_aXi id1 cid1 mid1 id2 cid2 mid2 word1  text_type
      (* | Sup (id1,cid1,mid1,word1,_,_,uwwarapaxa1,_,_,_,_)->
        if  prose_order id1 id2 text_type 
-       then kv_or_spl_aXi id1 cid1 mid1 id2 cid2 mid2 uwwarapaxa1 text_type
+       then kv_or_spl_aXi id1 cid1 mid1 id2 cid2 mid2 word1 text_type
        else [] 
     This is covered under anaBihiwe 3.20 *)
      |_ -> []
@@ -1832,18 +1832,18 @@ value rlAvy_kriyAviSeRaNam_or_aXikaraNam m1 m2 text_type = match m2 with
        if prose_order id1 id2 text_type 
        then if word1="yaxA" 
             then if id2 < waxA_pos.val 
-                 then kv_or_spl_aXi id1 cid1 mid1 id2 cid2 mid2 uwwarapaxa1  text_type
+                 then kv_or_spl_aXi id1 cid1 mid1 id2 cid2 mid2 word1  text_type
                  else []
-            else kv_or_spl_aXi id1 cid1 mid1 id2 cid2 mid2 uwwarapaxa1 text_type
+            else kv_or_spl_aXi id1 cid1 mid1 id2 cid2 mid2 word1 text_type
        else []
      | AvywaxXiwa (id1,cid1,mid1,word1,_,_,uwwarapaxa1,taddhita1,_) -> 
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
        if prose_order id1 id2 text_type && taddhita1="vaw" 
        then [ Relation (id1,cid1,mid1,"kriyAviSeRaNam",id2,cid2,mid2,"7.2",d12)]
-       else kv_or_spl_aXi id1 cid1 mid1 id2 cid2 mid2 uwwarapaxa1  text_type
+       else kv_or_spl_aXi id1 cid1 mid1 id2 cid2 mid2 word1  text_type
      (* | Sup (id1,cid1,mid1,word1,_,_,uwwarapaxa1,_,_,_,_)->
        if  prose_order id1 id2 text_type 
-       then kv_or_spl_aXi id1 cid1 mid1 id2 cid2 mid2 uwwarapaxa1 text_type
+       then kv_or_spl_aXi id1 cid1 mid1 id2 cid2 mid2 word1 text_type
        else [] 
     This is covered under anaBihiwe 3.20 *)
      |_ -> []
@@ -2174,8 +2174,8 @@ value rlviSeRaNam m1 m2 text_type = match m2 with
               && (noun_agreement_vibh vacanam1 vacanam2 lifgam1 lifgam2 viBakwiH1 viBakwiH2) 
               &&  prose_order id1 id2 text_type
            then if ( member_of rt1 saMKyeya || member_of rt1 pUraNa || member_of rt1 kqxanwas || member_of rt1 taddhitaantas || member_of rt1 guNavacana 
-                  || pUrvapaxa1="y" || uwwarapaxa1="y" || ((rt1 = "sarva" || rt1 = "sarvA") &&  id1 > id2 && text_type = "Sloka") 
-                  || (pronoun3 rt1 && (member_of rt2 manuRyasaFjFAvAcI || member_of rt2 sambanXavAcI || member_of rt2 upAXi))
+                  || pUrvapaxa1="y" || uwwarapaxa1="y" || ((rt1 = "sarva" || rt1 = "sarvA") &&  id1 > id2 && text_type = "Sloka")  || (pronoun3 rt1)
+                   (* || (pronoun3 rt1 && (member_of rt2 manuRyasaFjFAvAcI || member_of rt2 sambanXavAcI || member_of rt2 upAXi)) -- ewAn camUm paSya fails *)
                   )
 			(* pronoun3 rt1 is removed, since pronoun is preferred as a viSeRya in the absence of a manuRyasaFjFAvAci Sabxa *)
                 && not (member_of rt1 sambanXavAcI) 
