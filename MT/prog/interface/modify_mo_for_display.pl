@@ -23,6 +23,7 @@ require "$SCLINSTALLDIR/MT/prog/interface/modify_mo_fn.pl";
 
 $| = 1;
 while($in = <STDIN>){
+
 chomp $in;
 
 if($in =~ /./) {
@@ -31,8 +32,8 @@ if($in =~ /./) {
   $in =~ s/\t([a-zA-Z]+<vargaH:sapUpa><lifgam:[^>]+><level:0>\/)*([a-zA-Z]+)<vargaH:sapUpa><lifgam:[^>]+><level:0>\$/\t$2/g;
   $in =~ s/\-([a-zA-Z]+<vargaH:sapUpa><lifgam:[^>]+><level:0>\/)*([a-zA-Z]+)<vargaH:sapUpa><lifgam:[^>]+><level:0>/-$2/g;
   $in =~ s/\t([a-zA-Z]+<vargaH:sapUpa><lifgam:[^>]+><level:0>\/)*([a-zA-Z]+)<vargaH:sapUpa><lifgam:[^>]+><level:0>/\t$2/g;
- # print "in = $in\n";
  }
+
 
 @in = split(/\t/,$in);
 

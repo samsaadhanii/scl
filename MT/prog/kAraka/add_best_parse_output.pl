@@ -29,10 +29,16 @@ while(<TMP>) {
 }
 close(TMP);
 
+
+%ANA = {};
+%REL = {};
 ## Get the relations corresponding to each word from parseop1.txt, and also note down the correct pnalysis
 open(TMP,"$ARGV[1]") || die "Can't open $ARGV[1] for reading";
 
-while ($in = <TMP>) {
+$cont = 1;
+while ($cont) {
+           $in = <TMP>;
+           chomp($in);
         if($in =~ /\(/) {
 	    $in =~ s/\(//;
 	    $in =~ s/\)//;
@@ -49,7 +55,7 @@ while ($in = <TMP>) {
             if($ANA{$key} eq "") { $ANA{$key} = $ana;}
             if($ANA{$key1} eq "") { $ANA{$key1} = $ana1;}
             if($REL{$key} eq "") { $REL{$key} = $kAraka_name{$rel}.",".($wrd1+1).".".($comp1+1);}
-        } elsif ($in =~ /Cost/) {} 
+        } elsif ($in =~ /Cost/) {$cont = 0;} 
         else {} # print $in?
 }
 close(TMP);

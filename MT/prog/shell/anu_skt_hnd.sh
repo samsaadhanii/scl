@@ -94,7 +94,7 @@ anaphora () {
 wsd () {
 # wsd in the 11th field
     $ANU_MT_PATH/wsd/wsd_rules.sh $SCLINSTALLDIR $temp_files_path $fbn.out $fbn.wsd $fbn.wsd_upapaxa
-    cp $temp_files_path/$fbn.out $temp_files_path/jjj
+    #cp $temp_files_path/$fbn.out $temp_files_path/jjj
 }
 
 ###########
