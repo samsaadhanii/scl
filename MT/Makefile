@@ -16,6 +16,7 @@ install:
 	mkdir -p $(HTDOCSDIR)/scl/sandhi_splitter;mkdir -p $(CGIDIR)/scl/sandhi_splitter; cp prog/sandhi_splitter/web_interface/*.html $(HTDOCSDIR)/scl/sandhi_splitter; cp prog/sandhi_splitter/web_interface/*.cgi $(CGIDIR)/scl/sandhi_splitter;
 	mkdir -p $(CGIDIR)/scl/MT/prog/Word_order; cp prog/Word_order/*.cgi $(CGIDIR)/scl/MT/prog/Word_order
 	mkdir -p $(TFPATH); chown $(APACHE_USER_GROUP) $(TFPATH); cd $(HTDOCSDIR)/scl/MT; ln -sfn $(TFPATH) DEMO
+	mkdir -p $(CGIDIR)/scl/MT/data/en/MW; mkdir -p $(CGIDIR)/scl/MT/data/hi/Apte_dict; mkdir -p $(CGIDIR)/scl/MT/data/de; mkdir -p $(CGIDIR)/scl/MT/data/fr/Heritage; cp -pr data/en/MW/*.html $(CGIDIR)/scl/MT/data/en/MW; cp -pr data/hi/Apte_dict/*.xml $(CGIDIR)/scl/MT/data/hi/Apte_dict; cp -pr data/fr/Heritage/*.html $(CGIDIR)/scl/MT/data/fr/Heritage
 
 .PHONY: $(SUBDIRS)
 test:
