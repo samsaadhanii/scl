@@ -21,8 +21,7 @@ def load_probabilities(prob_file):
 
 
 def parse_data(fname):
-    '''Parses input spreadsheet file with dependency graph
-    into a Pandas dataframe'''
+    '''Parses input spreadsheet file with dependency graph'''
 
     fexte = os.path.splitext(fname)[1].strip('.')
 
@@ -56,8 +55,8 @@ def parse_data(fname):
     is_deptree = False
 
     for ind, fields in data.items():
-        if len(fields) < 12:
-            data[ind].extend([''] * (12 - len(fields)))
+        if len(fields) < 10:
+            data[ind].extend([''] * (10 - len(fields)))
         burst = parse_relation_field(dev2wx(fields[5]))
         data[ind].extend(burst)
         if burst[0]:
@@ -68,7 +67,7 @@ def parse_data(fname):
 
 def parse_relation_field(text):
     '''Splits the text in kaaraka_sambandha field into Relation Name
-    and Parent ID. Relation Name is further mapped to the Relation ID'''
+    and Parent ID.'''
 
     if text.startswith('aBihiwa') or not text.strip('-'):
         return '', '', ''
@@ -94,10 +93,32 @@ def add_order(data, word_order):
     and convert dict to list removing temporary columns.'''
 
     data_list = []
+    purvapaxa_ids = []
 
-    for ind in data.keys():
-        data[ind][1] = str(word_order.index(ind) + 1)
-        data_list.append([ind] + data[ind][0:12])
+    for ind, fields in data.items():
+        parts = ind.split('.')
+        if fields[0].endswith('-'):
+            purvapaxa_ids.append(parts)
+            continue
+        data[ind][1] = str(word_order.index(ind) + 1) + '.' + parts[1]
+        data_list.append([ind] + data[ind][0:10])
+
+    # Adding purvapadas
+    for parts in reversed(purvapaxa_ids):
+        uwwarapaxa_id = '.'.join([parts[0], str(int(parts[1]) + 1)])
+        insertion_point = 0
+        for i, this_data in enumerate(data_list):
+            if this_data[0] == uwwarapaxa_id:
+                insertion_point = i
+                break
+        original_id = '.'.join(parts)
+        reorder_id = data_list[insertion_point][2].split('.')[0]
+        data_list.insert(
+            insertion_point,
+            [original_id,
+             data[original_id][0],
+             '.'.join([reorder_id, parts[1]])] +
+            data[original_id][2:10])
 
     return data_list
 
@@ -114,12 +135,10 @@ def write_out(data, is_standalone, out_file):
         '@morph_@analysis',
         '@morph_@in_@context',
         '@kaaraka_@sambandha',
+        '@possible_@relations',
+        '@color_@code',
         '@hindi_@meaning',
-        '@English_@meaning',
-        '@samAsa',
-        '@prayoga',
-        '@sarvanAma',
-        '@Name-@classification']
+        '@hindi_@meaning_@active']
 
     if is_standalone:
         header_row = [x.replace('@', '') for x in header_row]
@@ -140,7 +159,7 @@ def write_out(data, is_standalone, out_file):
                 writer.writerows(data)
     else:
         print('Original Order:', ' '.join([x[1] for x in data]))
-        data.sort(key=lambda x: int(x[2]))
+        data.sort(key=lambda x: float(x[2]))
         print('Anvaya Order:', ' '.join([x[1] for x in data]))
 
 

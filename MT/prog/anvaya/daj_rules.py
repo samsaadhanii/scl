@@ -13,7 +13,7 @@ hold_relations = {
     'vinArWa_xyowakaH': ['sa', 'hi'],
     'upamAna_xyowakaH': ['sa', 'hi'],
     'vAkyakarma_xyowakaH': ['sa', 'hi'],
-    # '1002': ['sa', 'hi'],
+    'saFjFA_xyowakaH': ['sa', 'hi']
 }
 
 # List of couplets for manual override to handle mistakes in
@@ -27,12 +27,14 @@ def create_tree(data):
     nodes = []
     roots = []
     for ind, fields in data.items():
+        if fields[0].endswith('-'):
+            continue
         node = anytree.Node(
             ind,
-            rela=fields[12],
-            p_id=fields[13],
-            niwya_p_id=fields[14])
-        if fields[13] in ['0', '']:
+            rela=fields[10],
+            p_id=fields[11],
+            niwya_p_id=fields[12])
+        if fields[11] in ['0', '']:
             roots.append(node)
         else:
             nodes.append(node)
@@ -57,7 +59,7 @@ def add_children(root, nodes):
 
 
 def sort_subtrees(trees):
-    '''Sort subtrees connected by nitya_sambandha their natural order.'''
+    '''Sort subtrees connected by nitya_sambandha to their natural order.'''
 
     sorted_trees = []
     niwya_p_id = ''

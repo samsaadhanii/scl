@@ -131,7 +131,7 @@ $conv;
       }
       print "<tr>\n";
 
-      print " <td width=\"40%\" data-bs-toggle=\"collapse\" data-bs-target=\"#anuoutanv$sub_pid\" style=\"cursor:pointer\"> <div id=\"sanskrit-text\" style=\"height:35px; color:blue; overflow:scroll; border-style:solid; border-left-width:1px; border-top-width:1px; border-bottom-width:1px; border-right-width:1px;border-color:#C0C0C0;\">\n";
+      print " <td width=\"40%\" data-bs-toggle=\"collapse\" data-bs-target=\"#anuout$sub_pid\" style=\"cursor:pointer\"> <div id=\"sanskrit-text\" style=\"height:35px; color:blue; overflow:scroll; border-style:solid; border-left-width:1px; border-top-width:1px; border-bottom-width:1px; border-right-width:1px;border-color:#C0C0C0;\">\n";
 
           $skt = "tmp_in".$pid."_".$sub_pid."/wor.".$pid."_".$sub_pid;
           print "$sub_pid. ";
@@ -182,14 +182,16 @@ $conv;
  sub print_ana{
       my($ana,$pid,$sub_pid,$order) = @_;
 
-        print "<tr><td colspan=\"3\" id=\"anuoutorig$sub_pid\" class=\"collapse\">\n";
+        print "<tr><td colspan=\"3\" id=\"anuout$sub_pid\" class=\"collapse\">\n";
         $ana = "shloka_in".$pid."_".$sub_pid.".html";
         system("cat $TFPATH/$ana");
         print "</td></tr>\n";
 
-        print "<tr><td colspan=\"3\" id=\"anuoutanv$sub_pid\" class=\"collapse\">\n";
-        $ana = "anvaya_in".$pid."_".$sub_pid.".html";
-        system("cat $TFPATH/$ana");
-        print "</td></tr>\n";
+        if($order eq "Sloka") {
+         print "<tr><td colspan=\"3\" id=\"anuout$sub_pid\" class=\"collapse\">\n";
+         $ana = "anvaya_in".$pid."_".$sub_pid.".html";
+         system("cat $TFPATH/$ana");
+         print "</td></tr>\n";
+        }
 }
 1;

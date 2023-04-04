@@ -17,8 +17,7 @@
 # 17: gen o/p
 # 18: gen o/p with karwari
 
-print "\@index\t\@word\t\@poem\t\@sandhied_\@word\t\@morph_\@analysis\t\@morph_\@in_\@context\t\@kaaraka_\@sambandha\t\@possible_\@relations\t\@hindi_\@meaning\t\@English_\@meaning\t\@samAsa\t\@prayoga\t\@sarvanAma\t\@Name-\@classification\n";
-#print "index\tword\tpoem\tsandhied_word\tmorph_analysis\tmorph_in_context\tkaaraka_sambandha\t\tpossible_relations\thindi_meaning\tEnglish_meaning\tsamAsa\tprayoga\tsarvanAma\tName-classification\n";
+print "\@index\t\@word\t\@poem\t\@sandhied_\@word\t\@morph_\@analysis\t\@morph_\@in_\@context\t\@kaaraka_\@sambandha\t\@possible_\@relations\t\@color_\@code\t\@hindi_\@meaning\t\@hindi_\@meaning_\@active\n";
 
 $index = 1;
 while($in = <STDIN>){

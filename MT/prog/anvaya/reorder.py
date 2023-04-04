@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import os
 import argparse
 
 import daj_io
@@ -7,7 +8,8 @@ import daj_rules
 
 parser = argparse.ArgumentParser(
     description='''This tool linearizes Samsaadhanii's dependency parsed
-    tree into target language word order.''')
+    tree into target language word order.''',
+    epilog='''See README.md for detailed description on usage and options.''')
 
 parser.add_argument(
     '-i', metavar='input_file',
@@ -27,13 +29,13 @@ parser.add_argument(
 #     help='specifies the number of possible orders to calculate')
 
 parser.add_argument(
-    '--standalone', metavar='standalone', default=False,
-    action=argparse.BooleanOptionalAction,
-    help='specifies whether running standalone or within SCL toolchain')
+    '--standalone', action='store_true',
+    help='specifies whether running standalone')
 
 argument = parser.parse_args()
 
-prob_data = daj_io.load_probabilities('rel_probs.csv')
+prob_data = daj_io.load_probabilities(
+    os.path.join(os.path.split(__file__)[0], 'rel_probs.csv'))
 
 data, is_deptree = daj_io.parse_data(argument.i)
 

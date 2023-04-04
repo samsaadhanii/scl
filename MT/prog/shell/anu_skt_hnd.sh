@@ -27,6 +27,7 @@ OUTSCRIPT=$5
 MORPH=$6
 PARSE=$7
 TEXT_TYPE=$8
+SENT_NO=$9
 
 ANU_MT_PATH=$SCLINSTALLDIR/MT/prog
 export LC_ALL=POSIX
@@ -126,28 +127,35 @@ hnd_gen () {
  generate_anvaya () {
    $ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out > $temp_files_path/table.tsv
    
+   #   
+   if [ $TEXT_TYPE = "Sloka" ]; then
    # Temporary commented. Sanal has to fix the programme.
-   $MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py -i $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv -s $SCLINSTALLDIR -t hi
-   
-   #cut -f1 $temp_files_path/table.tsv > $temp_files_path/1
-   #cut -f2 $temp_files_path/table.tsv > $temp_files_path/2
-   #cut -f4- $temp_files_path/table.tsv > $temp_files_path/3
-   #paste $temp_files_path/1 $temp_files_path/2 $temp_files_path/1 $temp_files_path/3 > $temp_files_path/anvaya.tsv
+   $MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py -i $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv
+   #
+   else 
+   cp $temp_files_path/table.tsv $temp_files_path/anvaya.tsv
+   cut -f1 $temp_files_path/table.tsv > $temp_files_path/1
+   cut -f2 $temp_files_path/table.tsv > $temp_files_path/2
+   cut -f4- $temp_files_path/table.tsv > $temp_files_path/3
+   paste $temp_files_path/1 $temp_files_path/2 $temp_files_path/1 $temp_files_path/3 > $temp_files_path/anvaya.tsv
+   rm $temp_files_path/1 $temp_files_path/2 $temp_files_path/3
+   fi
+   #
+ 
    $my_converter < $temp_files_path/table.tsv > $temp_files_path/table_outscript.tsv
    $dev_converter < $temp_files_path/table.tsv > $temp_files_path/table_dev.tsv
    $my_converter < $temp_files_path/anvaya.tsv > $temp_files_path/anvaya_outscript.tsv
-   rm $temp_files_path/1 $temp_files_path/2 $temp_files_path/3
  }
 ##########
  #Generate Anvaya order anusaaraka output
  anvaya_anu_op () {
-   $ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin $HERITAGE_CGI A < $temp_files_path/anvaya_outscript.tsv > $temp_files_path/../anvaya_$fbn.html
+   $ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin $HERITAGE_CGI A $SENT_NO < $temp_files_path/anvaya_outscript.tsv > $temp_files_path/../anvaya_$fbn.html
    $ANU_MT_PATH/interface/get_anvaya_shloka_translation.pl ${temp_files_path}/anvaya_$fbn  ${temp_files_path}/anvaya_${fbn}_wx_trnsltn < $temp_files_path/anvaya.tsv
  }
 
 #Generate Shloka order anusaaraka output
  shloka_anu_op () {
-  $ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin $HERITAGE_CGI S < $temp_files_path/anvaya_outscript.tsv > $temp_files_path/../shloka_$fbn.html
+  $ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin $HERITAGE_CGI S $SENT_NO < $temp_files_path/anvaya_outscript.tsv > $temp_files_path/../shloka_$fbn.html
  }
 
 ################
