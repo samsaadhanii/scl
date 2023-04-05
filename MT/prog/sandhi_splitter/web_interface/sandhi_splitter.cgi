@@ -38,7 +38,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 if($GlblVar::LOG eq "true") {
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
-    }
+    }   
    open(TMP1,">>$GlblVar::TFPATH/sandhi_splitter.log") || die "Can't open $GlblVar::TFPATH/sandhi_splitter.log for writing";
 }
 
@@ -50,7 +50,7 @@ my $cmd;
 my $Hscript;
 my $out_encoding;
 my $out_converter;
-my $t;
+my $t; 
 my $st;
 my $mode;
 my $disp_mode;
@@ -68,10 +68,10 @@ $disp_mode = "web";
   if ($out_encoding eq "D") { $Hscript = "deva";}
   if ($out_encoding eq "I") { $Hscript = "roma";}
 
-  if ($out_encoding eq "I") {$out_converter="$GlblVar::SCLINSTALLDIR/converters/wx2utf8roman.out";}
+if ($out_encoding eq "I") {$out_converter="$GlblVar::SCLINSTALLDIR/converters/wx2utf8roman.out";}
   if ($out_encoding eq "D") {$out_converter="$GlblVar::SCLINSTALLDIR/converters/wx2utf8.sh $GlblVar::SCLINSTALLDIR";}
 
-  if($encoding eq "Itrans"|| $encoding eq "IAST" || $encoding eq "Unicode") { 
+  if($encoding eq "Itrans"|| $encoding eq "IAST" || $encoding eq "Unicode") {
      $word=&convert($encoding,$word,$GlblVar::SCLINSTALLDIR);
   }
    #Since Heritage encode.ml fails on these schemes.
@@ -95,14 +95,14 @@ $disp_mode = "web";
     $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=$st\&us=f\&font=$Hscript\&cp=t\&text=$word\&t=$t\&topic=\&mode=s&pipeline=t&fmode=w\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI";
     my $ans = `$cmd`;
     if($ans =~ /error/) { $ans = "No Output Found"; $error = 1;} else {$error = 0;}
-   
+
   if($disp_mode eq "web"){
       print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
       print "<div id='finalout' style='border-style:solid; border-width:1px;padding:10px;color:blue;font-size:14px;height:200px'>";
       if ($error == 0) {
-          #$ans = `echo "$ans" | $out_converter | tail -1 | perl -p -e 's/"]}//; s/.*"//;'`;
+
           $ans = `echo "$ans" | $out_converter | tail -1 | perl -p -e 's/.*://; s/}//;'`;
-          print $ans;
+	  print $ans;
           print "<br />";
           print "<br />";
           print "<br />";
@@ -117,9 +117,14 @@ $disp_mode = "web";
       print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
       if($error == 0) {
          $ans = `echo "$ans" | tail -1 | sed 's/input/\@input/' | sed 's/segmentation/\@segmentation/' | $out_converter`;
-      } 
+      }
+         $ans =~ s/input:/input: "/;
+         $ans =~ s/,/",/;
+         $ans =~ s/\[/["/;
+         $ans =~ s/\]/"]/;
          print $ans;
     }
 if($GlblVar::LOG eq "true"){
    close(TMP1);
 }
+
