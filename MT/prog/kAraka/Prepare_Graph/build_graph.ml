@@ -782,32 +782,35 @@ value supAxi_vIpsa id1 id2 cid1 cid2 mid1 mid2 word1 word2 rt1 rt2 vac1 vac2 gen
 ;
 
 value handle_sp_compounds id1 cid1 mid1 id2 cid2 mid2 rt1 word1 pUrvapaxa1 uwwarapaxa1 lifgam1 = 
-   if (pUrvapaxa1="y" || uwwarapaxa1="y") then
+
+       if uwwarapaxa1="y" then
        let d = if id1 > id2 then id1-id2 else id2-id1 in
-       if rt1="pUrvaka" && lifgam1="napuM"
+       if rt1="pUrvaka" && lifgam1="napuM" 
        then [ Relation (id1,cid1,mid1,"kriyAviSeRaNam",id2,cid2,mid2,"1.1", d)]
-       else if rt1="arWa" && uwwarapaxa1="y"
-       then [ Relation (id1,cid1,mid1,"prayojanam",id2,cid2,mid2,"1.5", d)]
-       else if rt1="ananwaram" && uwwarapaxa1="y"
+       else if rt1="arWa" 
+       then [ Relation (id1,cid1,mid1,"prayojanam1",id2,cid2,mid2,"1.5", d)]
+       else if rt1="ananwaram" 
        then [ Relation (id1,cid1,mid1,"kAlAXikaraNam",id2,cid2,mid2,"1.6", d)]
-       else if rt1="sahiwaH" && uwwarapaxa1="y"
+       else if rt1="sahiwaH" 
        then [ Relation (id1,cid1,mid1,"sahArWaH",id2,cid2,mid2,"1.6a", d)]
-       else if rt1="saxqSa" && uwwarapaxa1 = "y"
+       else if rt1="saxqSa" 
        then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"1.6b", d)]
-       else if rt1="safkASa" && uwwarapaxa1 = "y"
+       else if rt1="safkASa" 
        then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"1.6c", d)]
-       else if ((rt1="pramuKa") || (rt1="pUrveNa")) && uwwarapaxa1 = "y"
+       else if ((rt1="pramuKa") || (rt1="pUrveNa"))
        then [ Relation (id1,cid1,mid1,"kriyAviSeRaNam",id2,cid2,mid2,"1.2", d)]
-   (* else if (word1="yaWA") && lifgam1="napuM"
-   then [ Relation (id1,cid1,mid1,"kriyAviSeRaNam",id2,cid2,mid2,"1.4", d)] -- Need to handle in new system where components of compound are separated *)
- (*  else if word1="kqwe" && compound word1 uwwarapaxa1
-   then [ Relation (id1,cid1,mid1,"prayojanam",id2,cid2,mid2,"1.33c", d)]
- (* else if (pUrvapaxa1="sa") && lifgam1="napuM"
-   then [ Relation (id1,cid1,mid1,"kriyAviSeRaNam",id2,cid2,mid2,"1.30c", d)] -- Need to handle in new system where components of compound are separated *)
-Need example for sa- as a kriyAviSeRaNam (e.g. sa-Axaram)
-sa-Saram cApam - is not a kriyAviSeRaNam *)
        else []
-   else []
+       else []
+
+   (* else if (word1="yaWA") && lifgam1="napuM"
+      then [ Relation (id1,cid1,mid1,"kriyAviSeRaNam",id2,cid2,mid2,"1.4", d)] -- Need to handle in new system where components of compound are separated 
+      else if word1="kqwe" && compound word1 uwwarapaxa1
+      then [ Relation (id1,cid1,mid1,"prayojanam",id2,cid2,mid2,"1.33c", d)]
+      else if (pUrvapaxa1="sa") && lifgam1="napuM"
+      then [ Relation (id1,cid1,mid1,"kriyAviSeRaNam",id2,cid2,mid2,"1.30c", d)] -- Need to handle in new system where components of compound are separated
+         Need example for sa- as a kriyAviSeRaNam (e.g. sa-Axaram)
+         sa-Saram cApam - is not a kriyAviSeRaNam 
+   *)
 ;
 
 value is_human rt = member_of rt upAXi
@@ -2166,13 +2169,11 @@ value rlviSeRaNam m1 m2 text_type = match m2 with
                *)
    match m1 with
       [ Sup (id1,cid1,mid1,word1,rt1,pUrvapaxa1,uwwarapaxa1,lifgam1,viBakwiH1,vacanam1,_) -> 
-           (* let rel = handle_sp_compounds id1 cid1 mid1 id2 cid2 mid2 rt1 word1 pUrvapaxa1 uwwarapaxa1 lifgam1 in
-           if not (rel = []) then rel 
-           else  -- a relation which is between a sup and a wif *) 
            let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
-           if     no_boundary_crossing_except_kwvA id1 id2 text_type
+           if no_boundary_crossing_except_kwvA id1 id2 text_type
               && (noun_agreement_vibh vacanam1 vacanam2 lifgam1 lifgam2 viBakwiH1 viBakwiH2) 
               &&  prose_order id1 id2 text_type
+	      && (not ((rt1="arWa" || rt1 = "ananwaram" || rt1 = "sahiwaH" || rt1 = "saxqSa" || rt1 = "safjASa" || rt1 = "pramuKa" || rt1 = "pUrveNa") && (uwwarapaxa1 = "y")))
            then if ( member_of rt1 saMKyeya || member_of rt1 pUraNa || member_of rt1 kqxanwas || member_of rt1 taddhitaantas || member_of rt1 guNavacana 
                   || pUrvapaxa1="y" || uwwarapaxa1="y" || ((rt1 = "sarva" || rt1 = "sarvA") &&  id1 > id2 && text_type = "Sloka")  || (pronoun3 rt1)
                    (* || (pronoun3 rt1 && (member_of rt2 manuRyasaFjFAvAcI || member_of rt2 sambanXavAcI || member_of rt2 upAXi)) -- ewAn camUm paSya fails *)
@@ -2858,6 +2859,7 @@ value rlRaRTIsambanXaH m1 m2 text_type = match m1 with
                                         && not (member_of rt2 upapada6_list) (* This is needed, since in these cases the relation is sanxarBa_binxuH *)
                                         && (rt2="Awman" || not (pronominal123 rt2)) (* sEnyasya mama; mama should be related to sEnya and not the other way ; rAmasya AwmA should be parsed *)
                                         && not (rt2 = "maXya")
+                                        && not (rt2 = "arWa")
                                         && not (member_of rt2 taddhitaantas)
                                         (* && (not (member_of rt2 guNavacana)) *)
                                         && (not ((rt1="uBa" || rt1="uBA") && viBakwiH1=6))
@@ -4472,6 +4474,7 @@ value rl_exclamatory2 m1 m2 m3 text_type = match m1 with
    ]
 ;
 
+
 (* patuwaraH SyAmaH rAmAw aswi *)
 
 value rl_wulanA_binxu m2 m3 text_type viB1 rl1 =
@@ -4492,6 +4495,7 @@ value rl_wulanA_binxu m2 m3 text_type viB1 rl1 =
        |_ -> []
        ]
 ;
+
 
 value rl_wulanA m1 m2 m3 text_type = match m1 with
    [ WaxXiwa (id1,cid1,mid1,_,_,_,_,wax_prawyayaH,_,viB1,_,_) -> 
