@@ -11,6 +11,7 @@ $sent_no = $ARGV[6];
 
 @in = <STDIN>;
 if ($anvaya == 1) {@new_in = &get_anvaya_order(@in);} else {@new_in = @in;}
+
 for ($word = 1; $word <$#in; $word++) {
 $in = $new_in[$word];
 chomp($in);
@@ -71,7 +72,7 @@ foreach ($fld=1;$fld<=$#flds;$fld++){
 sub get_anvaya_order {
  my(@in) = @_;
  my(@new_in, $i);
- for ($i=1;$i<=$#in;$i++) {
+ for ($i=1;$i<$#in;$i++) {
   @flds = split('\t',$in[$i]);
   $shloka_order{$i} = $flds[2];
   $word_pos{$flds[2]} = $i;
