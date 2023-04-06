@@ -44,6 +44,7 @@ print "<html><head>
 <style type=\"text/css\"> #mw{font:22px bold sans-serif;width:100%;background:#333;color:#fff;}</style>
 <style type=\"text/css\"> #amara{font:22px bold sans-serif;width:100%;background:#333;color:#fff;}</style>
 <style type=\"text/css\"> #heritage{font:22px bold sans-serif;width:100%;background:#333;color:#fff;}</style>
+<style type=\"text/css\"> #ccs{font:22px bold sans-serif;width:100%;background:#333;color:#fff;}</style>
 <script>
 function generate_noun_forms(encod,prAwi,lifga){
 window.open('/cgi-bin/scl/skt_gen/noun/noun_gen_web.cgi?encoding='+encod+'&rt='+prAwi+'&gen='+lifga+'&jAwi=nA'+'&level=1&outencoding=Unicode'+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();
@@ -58,6 +59,7 @@ window.open('/cgi-bin/scl/skt_gen/noun/noun_gen_web.cgi?encoding='+encod+'&rt='+
         print "<td>Apte-dic<input type=\"checkbox\" onclick=\"showcontent(this.value)\"  name=\"apte\" value=\"apte\" id=\"apte\"/></td>\n";
 	print "<td>MW-dic<input type=\"checkbox\" name=\"mw\" id=\"mw\" value=\"mw\" onclick=\"showcontent(this.value)\"/></td>\n";
 	print "<td>Heritage<input type=\"checkbox\" name=\"heritage\" id=\"heritage\" value=\"heritage\" onclick=\"showcontent(this.value)\"/></td>\n";
+	print "<td>CCS-dic<input type=\"checkbox\" name=\"ccs\" id=\"ccs\" value=\"ccs\" onclick=\"showcontent(this.value)\"/></td>\n";
         print "</tr></table></form>";
 
 	print "<div id=\"result\"></div>";
