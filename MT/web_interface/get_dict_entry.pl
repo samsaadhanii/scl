@@ -257,7 +257,6 @@ sub ccs_result{
       	}
 		elsif($in =~ / $sword/) {
 			$result .= $in;
-			# print "condition (matched3) ----> $result";
 		}
 	}
 $result;
