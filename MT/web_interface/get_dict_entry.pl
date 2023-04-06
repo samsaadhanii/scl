@@ -95,6 +95,17 @@ elsif($dic_name eq "mw"){
 	   $filename = "$Files_Path/en/MW/$l.html";
         }
 }
+elsif($dic_name eq "ccs"){
+        $sword =~ s/_//;
+	$l = &get_CCS_Index($sword);
+	if($l eq "") {
+           print "<br/> $sword not found in ";
+           print "Cappeller's Skt-Ger dictionary\n";
+	   $filename = "";
+        } else {
+	   $filename = "$Files_Path/de/ccs/$l.html";
+        }
+}
 
 if($sword ne ""){
    if (($dic_name ne "amara") && ($filename ne "")){
@@ -104,7 +115,7 @@ if($sword ne ""){
 
 
 $result = "";
-         if($dic_name  eq "amara"){
+    if($dic_name  eq "amara"){
 	    system("$GlblVar::SCLINSTALLDIR/amarakosha/relations.sh NULL 'paryAyavAcI' $word_wx DEV $GlblVar::SCLINSTALLDIR");
 	 }
 	 elsif($dic_name  eq "apte"){
@@ -116,8 +127,12 @@ $result = "";
 	 elsif($dic_name  eq "heritage"){
 		$result = &heritage_result($word_wx); #finding word in Heritage files
 	 }
+	 elsif($dic_name eq "ccs"){
+		$result = &ccs_result($sword); #finding word in CCS files
+	 }
 close(TMP);
 
+# print "result is == $result";
 $result;
 }
 1;
@@ -222,6 +237,39 @@ $result;
 }
 1;
 
+#getting ccs result
+
+sub ccs_result{
+	my($sword) = @_;
+	my $result = "";
+	my ($count) = 0;
+	my($epno) = 0;
+	$sword1 = $sword;
+	$sword1 =~ s/ा//;
+     
+	$/ = "<p>";
+	while($in = <TMP>){
+		if($in =~ /<span class=\"Deva\">$sword<\/span>/){
+       			  $result .= $in;
+      	}
+		elsif($in =~ /<span class=\"Deva\">$sword1<\/span>/){
+       			  $result .= $in;
+      	}
+		elsif($in =~ / $sword/) {
+			$result .= $in;
+			# print "condition (matched3) ----> $result";
+		}
+		#elsif($count == 1 and $in !~/<\/xml>/){
+		#	 $result = $in;
+		#}
+		#elsif($count == 1 and $in =~ /<\/xml>/){
+		#	$count = 0;
+		#}
+	}
+$result;
+}
+1;
+
 # Following code corresponds to the Ocaml code ML/Chapters.ml
 sub get_Heritage_Index {
 	my ($w) = @_;
@@ -300,7 +348,10 @@ sub get_Heritage_Index {
 	$b[72] = "स्न";
 	$b[73] = "ह";
 	for ($i=1;$i<74;$i++){
-		if($w ge $b[$i]) { $index = $i;}
+		if($w ge $b[$i]) { 
+			$index = $i;
+		}
+		
 	}
 	$index;
 }
@@ -630,9 +681,63 @@ sub get_MW_Index {
 	$index = $mw_exception{$w}; 
 	if($index == 0) {
 	  for ($i=1;$i<318;$i++){
-		if($w ge $c[$i]) { $index = $i;}
+		if($w ge $c[$i]) {
+			$index = $i;
+		}
 	  }
         }
+	$index;
+}
+1;
+
+sub get_CCS_Index {
+	my ($w) = @_;
+	my $index = "";
+	$d[1] = "अ";
+	$d[2] = "आ";
+	$d[3] = "इ";
+	$d[4] = "ई";
+	$d[5] = "उ";
+	$d[6] = "ऊ";
+	$d[7] = "ऋ";
+	$d[8] = "ए";
+	$d[9] = "ऐ";
+	$d[10] = "ओ";
+	$d[11] = "औ";
+	$d[12] = "क";
+	$d[13] = "ख";
+	$d[14] = "ग";
+	$d[15] = "घ";
+	$d[16] = "च";
+	$d[17] = "ज";
+	$d[18] = "झं";
+	$d[19] = "ट";
+	$d[20] = "ठ";
+	$d[21] = "ड";
+	$d[22] = "ढ";
+	$d[23] = "णि";
+	$d[24] = "त";
+	$d[25] = "द";
+	$d[26] = "ध";
+	$d[27] = "न";
+	$d[28] = "प";
+	$d[29] = "फ";
+	$d[30] = "बं";
+	$d[31] = "भ";
+	$d[32] = "म";
+	$d[33] = "य";
+	$d[34] = "र";
+	$d[35] = "ल";
+	$d[36] = "व";
+	$d[37] = "श";
+	$d[38] = "ष";
+	$d[39] = "स";
+
+	for ($i=1;$i<40;$i++){
+		if($w ge $d[$i]) { 
+			$index = $i;
+		}
+	}
 	$index;
 }
 1;
