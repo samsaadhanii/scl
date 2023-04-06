@@ -250,7 +250,7 @@ sub ccs_result{
 	$/ = "<p>";
 	while($in = <TMP>){
 		if($in =~ /<span class=\"Deva\">$sword<\/span>/){
-       			  $result .= $in;
+			$result .= $in;
       	}
 		elsif($in =~ /<span class=\"Deva\">$sword1<\/span>/){
        			  $result .= $in;
@@ -259,12 +259,6 @@ sub ccs_result{
 			$result .= $in;
 			# print "condition (matched3) ----> $result";
 		}
-		#elsif($count == 1 and $in !~/<\/xml>/){
-		#	 $result = $in;
-		#}
-		#elsif($count == 1 and $in =~ /<\/xml>/){
-		#	$count = 0;
-		#}
 	}
 $result;
 }
