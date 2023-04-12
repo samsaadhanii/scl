@@ -69,7 +69,7 @@ my $paxI;
 
 if($GlblVar::LOG eq "true"){
   open(TMP1,">>$GlblVar::TFPATH/morph.log") || die "Can't open $GlblVar::TFPATH/morph.log for writing";
-  print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."encoding:$encoding\t"."morfword:$word\n"."tempnew_data:$ans\n############################\n\n";
+  print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."encoding:$encoding\t"."morfword:$word\n";
   close(TMP1);
 }
 
@@ -79,14 +79,14 @@ $word_wx = &convert($encoding,$word,$GlblVar::SCLINSTALLDIR);
 
 if($GlblVar::LOG eq "true"){
   open(TMP1,">>$GlblVar::TFPATH/morph.log") || die "Can't open $GlblVar::TFPATH/morph.log for writing";
-  print TMP1 $word_wx;
+  print TMP1 $word_wx,"\n";
 }
 
 chomp($word_wx);
 
 $ans = `$GlblVar::SCLINSTALLDIR/MT/prog/morph/webrun_morph.sh $word_wx`;
 if($GlblVar::LOG eq "true"){
-   print TMP1 $ans;
+   print TMP1 $ans,"######################\n";
    close(TMP1);
 }
 
