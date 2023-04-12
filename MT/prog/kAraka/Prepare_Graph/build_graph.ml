@@ -2197,7 +2197,7 @@ value rlviSeRaNam m1 m2 text_type = match m2 with
 		   (* && not (pronoun3 rt2)  && member_of rt1 upAXi; pronoun is always preferred as a viSeRya in the absence of a  prANisaFjFAvAci Sabxa *)
            then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.1",d12)]
 
-           else if rt2 = get_assoc rt1 parAjAwi_list && not (finite_verb_in_sentence.val = 50 && karwqsamverbs.val = 50)
+           else if rt2 = get_assoc rt1 parAjAwi_list  (* && not (finite_verb_in_sentence.val = 50 && karwqsamverbs.val = 50) *)
            then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.2",d12)]
 
            else if (((member_of rt1 sambanXavAcI) || (member_of rt1 upAXi)) && (member_of rt2 manuRyasaFjFAvAcI || (rt2="samuxra" && rt1="pawi")))
@@ -3829,6 +3829,7 @@ value rl_saha_vinA_kqwe m1 m2 m3 text_type = match m3 with
        let  d13 = if id1 > id3 then id1-id3 else id3-id1 in
              match viBakwiH1 with
              [ 3 -> if rt2="gam1" && upasarga2 = "sam_Af" then [ Relation (id1,cid1,mid1,"sahArWaH",id3,cid3,mid3,"40.1",d13)]
+                    else if rt2="gam1" && upasarga2 = "sam" then [ Relation (id1,cid1,mid1,"sahArWaH",id3,cid3,mid3,"40.1",d13)]
                     else match m2 with
                 [ Avy (id2,cid2,mid2,word2,_,_,_,_) -> 
                    let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
@@ -4053,7 +4054,7 @@ value vAkyakarma_iwi id1 id2 id3 cid1 cid2 cid3 mid1 mid2 mid3 text_type rl1 rl2
                if   no_boundary_crossing id1 id3 text_type
                  && no_boundary_crossing id1 id2 text_type
                then [ Relation (id2,cid2,mid2,"vAkyakarma_xyowakaH",id1,cid1,mid1,rl1,d12)
-               ; Relation (id2,cid1,mid1,"vAkyakarma",id3,cid3,mid3,rl2,d13)
+               ; Relation (id1,cid1,mid1,"vAkyakarma",id3,cid3,mid3,rl2,d13)
                ]
                else []
 ;
