@@ -1,5 +1,7 @@
 biBIRaNam	biBIRaNa<vargaH:nA><lifgam:puM><viBakwiH:2><vacanam:eka><level:1>
 AByanwaram	AByanwara<vargaH:nA><lifgam:napuM><viBakwiH:1><vacanam:eka><level:1>/AByanwara<vargaH:nA><lifgam:napuM><viBakwiH:2><vacanam:eka><level:1>/AByanwara<vargaH:nA><lifgam:puM><viBakwiH:2><vacanam:eka><level:1>
+mumoxa	mux1<prayogaH:karwari><lakAraH:lit><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:muxaz><gaNaH:BvAxiH><level:1>
+pramumoxa	mux1<upasarga:pra><prayogaH:karwari><lakAraH:lit><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:muxaz><gaNaH:BvAxiH><level:1>
 ASvAsayAmAsa	Svas1<upasarga:Af><sanAxi_prawyayaH:Nic><prayogaH:karwari><lakAraH:lit><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:Svasaz><gaNaH:axAxiH><level:1>
 ASvAsayaw	Svi1<upasarga:Af><sanAxi_prawyayaH:Nic><prayogaH:karwari><lakAraH:laf><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:tuOSvi><gaNaH:BvAxiH><level:1>
 ASvAsya	Svas1<upasarga:Af><vargaH:avy><kqw_prawyayaH:lyap><XAwuH:Svasaz><gaNaH:axAxiH><level:1>
@@ -35,6 +37,7 @@ ArakRisWAne	ArakRisWAna<vargaH:nA><lifgam:napuM><viBakwiH:1><vacanam:eka><level:
 AsAxya	Rax1<upasarga:Af><vargaH:avy><sanAxi_prawyayaH:Nic><kqw_prawyayaH:lyap><XAwuH:RaxL><gaNaH:BvAxiH><level:1>
 AsakwA	AsakwA<vargaH:nA><lifgam:swrI><viBakwiH:1><vacanam:eka><level:1>
 AsasAxa	sax1<upasarga:Af><prayogaH:karwari><lakAraH:lit><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:Saxlri><gaNaH:wuxAxiH><level:1>
+nijaGAna	han1<upasarga:ni><prayogaH:karwari><lakAraH:lit><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:hanaz><gaNaH:axAxiH><level:1>
 Asaxaw	sax1<prayogaH:karwari><lakAraH:lqf><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:SaxL><gaNaH:BvAxiH><level:1>
 AwIwAm	awIwa<vargaH:nA><lifgam:swrI><viBakwiH:2><vacanam:eka><level:1>
 AxiRtavAn	AxiRtavaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
@@ -198,6 +201,7 @@ puRpakeNa	puRpaka<vargaH:nA><lifgam:puM><viBakwiH:3><vacanam:eka><level:1>
 puRpakam	puRpaka<vargaH:nA><lifgam:puM><viBakwiH:2><vacanam:eka><level:1>
 gudAkeSa	gudAkeSa<vargaH:nA><lifgam:puM><viBakwiH:8><vacanam:eka><level:1>
 gurutvena	gurutva<vargaH:nA><lifgam:napuM><viBakwiH:3><vacanam:eka><level:1>
+hanumawA	hanumaw<vargaH:nA><lifgam:puM><viBakwiH:3><vacanam:eka><level:1>
 hArayiRyan	hq1<upasarga:X><sanAxi_prawyayaH:Nic><kqw_prawyayaH:Sawq_lqt><XAwuH:hq><gaNaH:BvAxiH>hArayiRyaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 havyavAt	havyavah<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 husEnam	husEna<vargaH:nA><lifgam:puM><viBakwiH:2><vacanam:eka><level:1>
