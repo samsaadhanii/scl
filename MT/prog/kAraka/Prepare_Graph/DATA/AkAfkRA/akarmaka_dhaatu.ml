@@ -469,6 +469,7 @@ value akarmaka_XAwu_list = [
 "saMgrAm1";
 "saMsw1";
 "sam_ava_I1";
+"sam_gam1";
 "sawra1";
 "sek1";
 "sparX1";

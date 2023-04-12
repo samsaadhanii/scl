@@ -6,6 +6,7 @@ value named_entity_list =
 "gArgya";
 "gudAkeSa";
 "hqRIkeSa";
+"hanumaw";
 "lakRmaNA";
 "manxoxarI";
 "nAraxa";

@@ -22,8 +22,8 @@ value upAXi_list = [
 "sAraWi";
 "sawI";
 "svAmin";
-"vAnara";
-"vAyasa";
+"zvAnara";
+"zvAyasa";
 "vExya";
 "vaNij";
 "vikrewq";
