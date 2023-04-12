@@ -39,6 +39,7 @@ $cont = 1;
 while ($cont) {
            $in = <TMP>;
            chomp($in);
+	   if($in eq "") { $cont = 0;}
         if($in =~ /\(/) {
 	    $in =~ s/\(//;
 	    $in =~ s/\)//;
