@@ -1,7 +1,9 @@
 #!/usr/bin/env perl
 
-$CSSPATH = "/scl/MT/";
-$CGIPATH = "/cgi-bin/scl/MT/";
+require "../paths.pl";
+
+$CSSPATH = "/$GlblVar::SCL_HTDOCS/MT/";
+$CGIPATH = "/cgi-bin/$GlblVar::SCL_CGI/MT/";
 
 $SCLINSTALLDIR = $ARGV[0];
 $TFPATH = $ARGV[1];
@@ -45,7 +47,7 @@ $conv;
       <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
       <link href=\"$CSSPATH/Sanskrit_style.css\" type=\"text/css\" rel=\"stylesheet\" />\n
       <link href=\"$CSSPATH/Sanskrit_hindi.css\" type=\"text/css\" rel=\"stylesheet\" />\n
-      <link rel=\"stylesheet\" href=\"/scl/css_files/sktmt.css\"/>\n
+      <link rel=\"stylesheet\" href=\"/$GlblVar::SCL_HTDOCS/css_files/sktmt.css\"/>\n
       <script src=\"$CSSPATH/script.js\" type=\"text/javascript\"></script>\n
       <script src=\"$CSSPATH/Sanskrit_hindi.js\" type=\"text/javascript\"></script>\n
       <link href=\"https://cdn.jsdelivr.net/npm/bootstrap\@5.2.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\">
@@ -64,7 +66,7 @@ $conv;
       <div id=\"container\">
          <center>
          <div id=\"project-name\">
-            <img src=\"/scl/imgs/sktmt.jpg\" alt=\"anusaaraka logo\" />
+            <img src=\"/$GlblVar::SCL_HTDOCS/imgs/sktmt.jpg\" alt=\"anusaaraka logo\" />
          </div>
          </center>
       </div> <!-- project name div ends here-->
@@ -75,7 +77,7 @@ $conv;
             <td width=\"10%\"> </td>
             <td width=\"65%\">
               <h3>
-                <a href=\"/scl\">
+                <a href=\"/$GlblVar::SCL_HTDOCS\">
                   <font color=\"DarkBlue\">संसाधनी- Saṃsādhanī</font>
                 </a>
               </h3>
@@ -131,26 +133,28 @@ $conv;
       }
       print "<tr>\n";
 
-	if($order eq "Sloka" ){ 
-           print " <td width=\"40%\" data-bs-toggle=\"collapse\" data-bs-target=\"#anuoutsloka$sub_pid\" style=\"cursor:pointer\"> <div id=\"sanskrit-text\" style=\"height:35px; color:blue; overflow:scroll; border-style:solid; border-left-width:1px; border-top-width:1px; border-bottom-width:1px; border-right-width:1px;border-color:#C0C0C0;\">\n";
-	} else {
-          print " <td width=\"40%\" data-bs-toggle=\"collapse\" data-bs-target=\"#anuout$sub_pid\" style=\"cursor:pointer\"> <div id=\"sanskrit-text\" style=\"height:35px; color:blue; overflow:scroll; border-style:solid; border-left-width:1px; border-top-width:1px; border-bottom-width:1px; border-right-width:1px;border-color:#C0C0C0;\">\n";
-	}
+          #print " <td width=\"40%\" data-bs-toggle=\"collapse\" data-bs-target=\"#anuout$sub_pid\" style=\"cursor:pointer\"> <div id=\"sanskrit-text\" style=\"height:35px; color:blue; overflow:scroll; border-style:solid; border-left-width:1px; border-top-width:1px; border-bottom-width:1px; border-right-width:1px;border-color:#C0C0C0;\">\n";
+          print " <td> <div id=\"sanskrit-text\" style=\"height:35px; color:blue; overflow:scroll; border-style:solid; border-left-width:1px; border-top-width:1px; border-bottom-width:1px; border-right-width:1px;border-color:#C0C0C0;\">\n";
 
           $skt = "tmp_in".$pid."_".$sub_pid."/wor.".$pid."_".$sub_pid;
+          print "<a href=\"#anuout$sub_pid\" data-bs-toggle=\"collapse\">";
           print "$sub_pid. ";
           if($order eq "Sloka") {
              if ($out_encoding eq "IAST") { print "(mūlam) ";} else { print "(मूलम्) ";} 
           }
+          
           system("cat $TFPATH/$skt | sed 's/\- \-/\-/g' | $my_converter ");
+          print "</a>\n";
           print "</div>\n<!--division for sanskrit orig text ends here-->\n";
 
        if($order eq "Sloka") {
          print " <div id=\"sanskrit-text\" style=\"height:35px;color:red; overflow: scroll; border-style:solid; border-left-width:1px; border-top-width:1px; border-bottom-width:1px; border-right-width:1px;border-color:#C0C0C0;\">\n";
          $skt = "tmp_in".$pid."_".$sub_pid."/anvaya_in".$pid."_".$sub_pid;
+         print "<a href=\"#anuoutsloka$sub_pid\" data-bs-toggle=\"collapse\">";
          print "$sub_pid. ";
          if ($out_encoding eq "IAST") { print "(anvayaḥ) ";} else { print "(अन्वयः) ";} 
          system("cat $TFPATH/$skt | sed 's/ \-/\-/g' | $my_converter ");
+         print "</a>\n";
          print "</div>\n <!--division for sanskrit anvaya texts ends here-->\n";
        }
        print "</td>\n";

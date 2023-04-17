@@ -1376,7 +1376,6 @@ BvAxiH	FiRvixAz	snehane	A.pa	-	Rvix1	svix
 BvAxiH	skanxizr	gawO	pa.pa	skanx	skanx1	skanx
 BvAxiH	skanxizr	SoRaNe	pa.pa	skanx	skanx1	skanx
 BvAxiH	yaBaz	viparIwamEWune	pa.pa	jaB#2,yaB	yaB1	yaB
-BvAxiH	Namaz	prahvawve	pa.pa	nam	Nam1	nam
 BvAxiH	Namaz	prahvawveSabxe	pa.pa	nam	Nam1	nam
 BvAxiH	gamLz	gawO	pa.pa	gam	gam1	gam
 BvAxiH	sqpLz	gawO	pa.pa	sqp	sqp1	sqp
@@ -1765,9 +1764,7 @@ xivAxiH	kRipaz	preraNe	pa.pa	-	kRip1	kRip
 xivAxiH	puRpaz	vikasane	pa.pa	-	puRp1	puRp
 xivAxiH	wimaz	ArxrIBAve	pa.pa	-	wim1	wim
 xivAxiH	wImaz	ArxrIBAve	pa.pa	-	wIm1	wIm
-xivAxiH	swimaz	ArxrIBAve	pa.pa	swim	swim1	swim
 xivAxiH	Rwimaz	ArxrIBAve	pa.pa	swim	Rwim1	swim
-xivAxiH	RtImaz	ArxrIBAve	pa.pa	-	RtIm1	swIm
 xivAxiH	RwImaz	ArxrIBAve	pa.pa	-	RwIm1	swIm
 xivAxiH	vrIdaz	coxane	pa.pa	vrId(1)	vrId1	vrId
 xivAxiH	iRaz	gawO	pa.pa	iR#2	iR1	iR
@@ -2006,8 +2003,8 @@ wuxAxiH	ozlasjIz	vrIdAyAm	A.pa	lajj	lasj1	lasj
 wuxAxiH	ozvrascUz	Cexane	pa.pa	vraSc	vrasc1	vrasc
 wuxAxiH	vyacaz	samBave	pa.pa	vyac(3)	vyac1	vyac
 wuxAxiH	vyacaz	vyAjIkaraNe	pa.pa	vyac(3)	vyac1	vyac
-wuxAxiH	uCiz	uFCe	pa.pa	vas#4	uC4	uFC
-wuxAxiH	uCIz	vivAse	pa.pa	vas#4	uC3	uFC
+#wuxAxiH	uCiz	uFCe	pa.pa	vas#4	uC4	uFC
+#wuxAxiH	uCIz	vivAse	pa.pa	vas#4	uC3	uFC
 wuxAxiH	qCaz	gawO	pa.pa	-	qC1	qC
 wuxAxiH	qCaz	inxriyapralaye	pa.pa	-	qC1	qC
 wuxAxiH	qCaz	mUrwiBAve	pa.pa	-	qC1	qC

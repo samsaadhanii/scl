@@ -19,8 +19,8 @@
 
 use utf8;
 require "../../paths.pl";
-require "$GlblVar::CGIDIR/scl/cgi_interface.pl";
-require "$GlblVar::CGIDIR/scl/converters/convert2WX_subroutines.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert2WX_subroutines.pl";
 
 my $DataPATH = $GlblVar::SCLINSTALLDIR;
 
@@ -953,11 +953,11 @@ sub print_header {
 	print "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\n";
         print "<script type=\"text/javascript\">\n";
         print "function show(word,encod){\n";
-        print "window.open('/cgi-bin/scl/MT/dict_options.cgi?word='+word+'&outencoding='+encod+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=yes').focus();\n }\n </script>";
+        print "window.open('/cgi-bin/$GlblVar::SCL_CGI/MT/dict_options.cgi?word='+word+'&outencoding='+encod+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=yes').focus();\n }\n </script>";
 
         print "</head>\n";
 
-        print "<body onload=\"register_keys()\"> <script src=\"/scl/MT/wz_tooltip.js\" type=\"text/javascript\"></script>\n";
+        print "<body onload=\"register_keys()\"> <script src=\"/$GlblVar::SCL_HTDOCS/MT/wz_tooltip.js\" type=\"text/javascript\"></script>\n";
 }
 1;
 
@@ -987,10 +987,10 @@ sub gen_noun_forms{
  chomp($LTPROC_IN); # To chomp the last \n, else it produces an extra blank line in the o/p of lt-proc
 
  if($format eq "JSON") {
-    $str = "echo '".$LTPROC_IN."' | $generator | grep . | sed '1,\$s/^#.*/-/' | $conversion_program| $GlblVar::CGIDIR/scl/skt_gen/noun/json_format.pl $outencoding";
+    $str = "echo '".$LTPROC_IN."' | $generator | grep . | sed '1,\$s/^#.*/-/' | $conversion_program| $GlblVar::CGIDIR/$GlblVar::SCL_HTDOCS/skt_gen/noun/json_format.pl $outencoding";
  }
  else {# $format = web
-	 $str = "echo '".$LTPROC_IN."' | $generator | grep . | sed '1,\$s/^#.*/-/' | pr -3 -a -t -w 150 | tr ' ' '\t' | $conversion_program | $GlblVar::CGIDIR/scl/skt_gen/noun/html_format.pl $pUrvapaxa $rt_wx $lifga_wx $outencoding";
+	 $str = "echo '".$LTPROC_IN."' | $generator | grep . | sed '1,\$s/^#.*/-/' | pr -3 -a -t -w 150 | tr ' ' '\t' | $conversion_program | $GlblVar::CGIDIR/$GlblVar::SCL_HTDOCS/skt_gen/noun/html_format.pl $pUrvapaxa $rt_wx $lifga_wx $outencoding";
 #open (TMP,">/tmp/aaa1");
 #print TMP $str;
 #close TMP;

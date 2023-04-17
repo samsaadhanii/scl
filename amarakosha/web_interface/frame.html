@@ -3,7 +3,7 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Amarakosha</title>
-<script type="text/javascript" src="/scl/js_files/jquery.tools.min.js"></script>
+<script type="text/javascript" src="/SCL_HTDOCS/js_files/jquery.tools.min.js"></script>
 <script type="text/javascript">
 	function amarakoshavalidation(){
 		 var data=$("#word").val();
@@ -116,14 +116,14 @@
                }
               // calling interface.cgi file here
 		$("#result").html("Loading data , please wait ...");
-            $.get("/cgi-bin/scl/amarakosha/interface.cgi",{"word":data,"encoding":inputlang,"relation":relation,"out_encoding":out_encoding},function(data){
+            $.get("/cgi-bin/SCL_CGI/amarakosha/interface.cgi",{"word":data,"encoding":inputlang,"relation":relation,"out_encoding":out_encoding},function(data){
 		data1 = data.replace(/@।/g,".");
  		$("#result").html(data1); 
               });
 	}
 function fvalidation(){
                         if($("#feedback").val()){
-                        $.post("/cgi-bin/scl/feedback.cgi",{"feedback":$("#feedback").val(),"module":"amarakosha"},function(data){
+                        $.post("/cgi-bin/SCL_CGI/feedback.cgi",{"feedback":$("#feedback").val(),"module":"amarakosha"},function(data){
                                 $("#fresult").html(data);
                                 $("#feedback").val('');
 
@@ -164,7 +164,7 @@ a{cursor:pointer;}
 </td><td align="center" width="40%"><font size="6">Amarakosha</font></td>
 <td>
 <label><a href="index.html">Home</a></label>&nbsp;&nbsp;&nbsp;
-<label><a href="/scl">Sanskrit Tools</a></label> &nbsp;&nbsp;&nbsp;
+<label><a href="/SCL_HTDOCS">Sanskrit Tools</a></label> &nbsp;&nbsp;&nbsp;
 <a id="feedbackbutton"><font color="Green"><b>Feedback</b></font></a>
 </td></tr></table>
 

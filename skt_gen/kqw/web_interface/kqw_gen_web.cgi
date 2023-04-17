@@ -19,8 +19,8 @@
 
 use utf8;
 require "../../paths.pl";
-require "$GlblVar::CGIDIR/scl/cgi_interface.pl";
-require "$GlblVar::CGIDIR/scl/skt_gen/kqw/kqw_gen_subroutines.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/kqw/kqw_gen_subroutines.pl";
 
 #
 ###################  Main function #################
@@ -37,14 +37,14 @@ package main;
 
         #print "<script>\n";
         #print "function generate_noun_forms(prAwi,lifga,$encoding,$out_encoding){\n";
-        #print "  window.open('/cgi-bin/scl/skt_gen/noun/noun_gen_web.cgi?encoding=$encoding&rt='+prAwi+'&gen='+lifga+'&jAwi='nA'&level=1&outencoding=out_encoding'+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
+        #print "  window.open('/cgi-bin/$GlblVar::SCL_CGI/skt_gen/noun/noun_gen_web.cgi?encoding=$encoding&rt='+prAwi+'&gen='+lifga+'&jAwi='nA'&level=1&outencoding=out_encoding'+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
         #print "}\n";
         #print "</script>\n";
 
 	if ($encoding eq "IAST") {
-	 $conversion_program = "$GlblVar::CGIDIR/scl/converters/wx2utf8roman.out";
+	 $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8roman.out";
 	} else {
-	 $conversion_program = "$GlblVar::CGIDIR/scl/converters/ri_skt | $GlblVar::CGIDIR/scl/converters/iscii2utf8.py 1";
+	 $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1";
 	}
 
 	$format="web";

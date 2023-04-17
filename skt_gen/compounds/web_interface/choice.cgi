@@ -224,7 +224,7 @@ select{margin-top:10px; width:200px !important; padding:3px !important;}
 	<h3>समस्तपदव्युत्पादिका</h3>   
 	<h3>A Compound stem generator</h3>
 	<h4>Department of Sanskrit Studies, University of Hyderabad.</h4>
-<h3><a href=\"/scl/start.html\">Samsaadhanii</a></h3>
+<h3><a href=\"/$GlblVar::SCL_HTDOCS/start.html\">Samsaadhanii</a></h3>
 </center>
 <br /> <br />";
 #print $cgi->start_html(-title => 'समस्त-पद-निर्माण-प्रक्रिया ',
@@ -347,7 +347,7 @@ sub call_generator{
 sub call_choice{
   my($avigraha,$ch_table,$rem_ques_nos,$user_choices) = @_;
   my($form);
-          $form =  "<form name=\"f1\" method=\"get\" action=\"/cgi-bin/scl/skt_gen/compounds/choice.cgi\">\n";
+          $form =  "<form name=\"f1\" method=\"get\" action=\"/cgi-bin/$GlblVar::SCL_CGI/skt_gen/compounds/choice.cgi\">\n";
           $form .= "<input type=\"hidden\" name=\"vigraha\" id=\"vigraha_vAkya\" value=\"$avigraha\" />";
           $form .= $ch_table;
           $form .= "<input type=\"hidden\" name=\"ques_nos\" id=\"rem_ques_nos\" value=\"$rem_ques_nos\" />";

@@ -27,12 +27,12 @@ while($in = <STDIN>){
 chomp $in;
 
 if($in =~ /./) {
- while($in =~ /([a-zA-Z]+)<vargaH:sapUpa><lifgam:(napuM|puM|swrI)><level:0>/) {
-  $in =~ s/\-([a-zA-Z]+<vargaH:sapUpa><lifgam:[^>]+><level:0>\/)*([a-zA-Z]+)<vargaH:sapUpa><lifgam:[^>]+><level:0>\$/-$2/g;
-  $in =~ s/\t([a-zA-Z]+<vargaH:sapUpa><lifgam:[^>]+><level:0>\/)*([a-zA-Z]+)<vargaH:sapUpa><lifgam:[^>]+><level:0>\$/\t$2-/g;
-  $in =~ s/\-([a-zA-Z]+<vargaH:sapUpa><lifgam:[^>]+><level:0>\/)*([a-zA-Z]+)<vargaH:sapUpa><lifgam:[^>]+><level:0>/-$2/g;
-  $in =~ s/\t([a-zA-Z]+<vargaH:sapUpa><lifgam:[^>]+><level:0>\/)*([a-zA-Z]+)<vargaH:sapUpa><lifgam:[^>]+><level:0>/\t$2-/g;
- }
+ #while($in =~ /([a-zA-Z]+)<vargaH:sapUpa><lifgam:(napuM|puM|swrI)><level:0>/) {
+ # $in =~ s/\-([a-zA-Z]+<vargaH:sapUpa><lifgam:[^>]+><level:0>\/)*([a-zA-Z]+)<vargaH:sapUpa><lifgam:[^>]+><level:0>\$/-$2/g;
+ # $in =~ s/\t([a-zA-Z]+<vargaH:sapUpa><lifgam:[^>]+><level:0>\/)*([a-zA-Z]+)<vargaH:sapUpa><lifgam:[^>]+><level:0>\$/\t$2-/g;
+ # $in =~ s/\-([a-zA-Z]+<vargaH:sapUpa><lifgam:[^>]+><level:0>\/)*([a-zA-Z]+)<vargaH:sapUpa><lifgam:[^>]+><level:0>/-$2/g;
+ # $in =~ s/\t([a-zA-Z]+<vargaH:sapUpa><lifgam:[^>]+><level:0>\/)*([a-zA-Z]+)<vargaH:sapUpa><lifgam:[^>]+><level:0>/\t$2-/g;
+ #}
 
 
 @in = split(/\t/,$in);
@@ -48,7 +48,7 @@ if($in =~ /./) {
    print $in,"\n";
  } else { print "\n";}
 }
-1;
+
 
 sub clean_other_info {
 my ($in) = @_;
@@ -58,7 +58,7 @@ $in =~ s/<vargaH:sarvanAma>//g;
 $in =~ s/<vargaH:pUraNam>//g;
 $in =~ s/<vargaH:safKyA>//g;
 $in =~ s/<vargaH:safKeya>//g;
-$in =~ s/<vargaH:sapUpa>/-/g;
+$in =~ s/<vargaH:sapUpa>//g;
 $in =~ s/<vargaH:SaUPa[^>]+>//g;
 $in =~ s/\(([^<]+)<upasarga:([^>]+)>/\($2_$1/g;
 

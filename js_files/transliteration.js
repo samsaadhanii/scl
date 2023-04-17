@@ -128,7 +128,7 @@ else if(srclang!="1" && tarlang!="1" && src!=""){
                        
                 }
 	
-$.post("/cgi-bin/scl/transliteration/transliterate.cgi",{'src':src,'srclang':srclang,'tarlang':tarlang},function(data){
+$.post("/cgi-bin/SCL_CGI/transliteration/transliterate.cgi",{'src':src,'srclang':srclang,'tarlang':tarlang},function(data){
 $("#target").html(data);
 
 });

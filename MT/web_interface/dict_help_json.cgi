@@ -69,6 +69,14 @@ sub call_dict{
            $result =~ s/<br>/ /g;
            print "\"Meaning\":\'$result\'}\n";
         }
+	if($dict eq "ccs") {
+           print "\"DICT\":\"Cappeller's Skt-Ger Dict\",\n";
+           $result = &get_dict_entry("ccs",$word,"DEV");
+           $result =~ s/\n/ /g;
+           $result =~ s/<p><\/p>/ /g;
+           $result =~ s/<br>/ /g;
+           print "\"Meaning\":\'$result\'}\n";
+        }
 }
 1;
 

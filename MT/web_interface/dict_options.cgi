@@ -20,14 +20,10 @@
 
 use utf8;
 package main;
-#use CGI qw/:standard/;
 
 require "../paths.pl";
 require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 
-
-#my $cgi = new CGI;
-#print $cgi->header(-charset => 'UTF-8');
 
 print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
@@ -38,18 +34,20 @@ $encod = $param{outencoding};
 
 print "<html><head>
 <meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"/>
-<script type=\"text/javascript\" src=\"/scl/js_files/jquery.tools.min.js\"></script>
-<script type=\"text/javascript\" src =\"/scl/MT/dict_options.js\"></script>
+<script type=\"text/javascript\" src=\"/$GlblVar::SCL_HTDOCS/js_files/jquery.tools.min.js\"></script>
+<script type=\"text/javascript\" src =\"/$GlblVar::SCL_HTDOCS/MT/dict_options.js\"></script>
 <style type=\"text/css\"> #apte{font:22px bold sans-serif;width:100%;background:#333;color:#fff;}</style>
 <style type=\"text/css\"> #mw{font:22px bold sans-serif;width:100%;background:#333;color:#fff;}</style>
 <style type=\"text/css\"> #amara{font:22px bold sans-serif;width:100%;background:#333;color:#fff;}</style>
 <style type=\"text/css\"> #heritage{font:22px bold sans-serif;width:100%;background:#333;color:#fff;}</style>
+<style type=\"text/css\"> #ccs{font:22px bold sans-serif;width:100%;background:#333;color:#fff;}</style>
 <script>
 function generate_noun_forms(encod,prAwi,lifga){
-window.open('/cgi-bin/scl/skt_gen/noun/noun_gen_web.cgi?encoding='+encod+'&rt='+prAwi+'&gen='+lifga+'&jAwi=nA'+'&level=1&outencoding=Unicode'+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();
+window.open('/cgi-bin/$GlblVar::SCL_CGI/skt_gen/noun/noun_gen_web.cgi?encoding='+encod+'&rt='+prAwi+'&gen='+lifga+'&jAwi=nA'+'&level=1&outencoding=Unicode'+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();
 }
 </script>
 </head><body><div id=\"check\">";
+
         print "<form name=\"dicthelp\" method=\"post\">\n";
 	print "<input type=\"hidden\" name=\"word\" value=\"$word\" id=\"word\"/>\n";
 	print "<input type=\"hidden\" name=\"outencoding\" value=\"$encod\" id=\"outencoding\"/>\n";
@@ -58,6 +56,7 @@ window.open('/cgi-bin/scl/skt_gen/noun/noun_gen_web.cgi?encoding='+encod+'&rt='+
         print "<td>Apte-dic<input type=\"checkbox\" onclick=\"showcontent(this.value)\"  name=\"apte\" value=\"apte\" id=\"apte\"/></td>\n";
 	print "<td>MW-dic<input type=\"checkbox\" name=\"mw\" id=\"mw\" value=\"mw\" onclick=\"showcontent(this.value)\"/></td>\n";
 	print "<td>Heritage<input type=\"checkbox\" name=\"heritage\" id=\"heritage\" value=\"heritage\" onclick=\"showcontent(this.value)\"/></td>\n";
+	print "<td>CCS-dic<input type=\"checkbox\" name=\"ccs\" id=\"ccs\" value=\"ccs\" onclick=\"showcontent(this.value)\"/></td>\n";
         print "</tr></table></form>";
 
 	print "<div id=\"result\"></div>";

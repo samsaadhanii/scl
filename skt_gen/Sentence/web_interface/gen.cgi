@@ -43,15 +43,15 @@ print <<FIRSTPART;
   <title>Sanskrit Sentence Generator</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/scl/skt_gen/Sentence/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="/scl/skt_gen/Sentence/bootstrap/jquery/jquery.min.js"></script>
-  <script src="/scl/skt_gen/Sentence/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/$GlblVar::SCL_HTDOCS/skt_gen/Sentence/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="/$GlblVar::SCL_HTDOCS/skt_gen/Sentence/bootstrap/jquery/jquery.min.js"></script>
+  <script src="/$GlblVar::SCL_HTDOCS/skt_gen/Sentence/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
 <script type="text/javascript">
 
 function callgen () {
       \$.ajax({
-        url:"/cgi-bin/scl/skt_gen/Sentence/run_skt_gen.cgi", //the page containing php script
+        url:"/cgi-bin/$GlblVar::SCL_CGI/skt_gen/Sentence/run_skt_gen.cgi", //the page containing php script
         type: "GET", //request type
         data : \$("#inpts").serialize(),
         success:function(result){

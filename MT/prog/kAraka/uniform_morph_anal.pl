@@ -96,7 +96,9 @@ sub get_cat{
   my($cat);
 
    $cat = "";
-   if($in =~ /<vargaH:avy><waxXiwa_prawyayaH:/) {
+   if($in =~ /<vargaH:sapUp/) {
+           $cat="samAsa";
+   }elsif($in =~ /<vargaH:avy><waxXiwa_prawyayaH:/) {
            $cat="avywaxXiwa";
    }elsif($in =~ /waxXiwa_prawyayaH:/) {
       $cat="waxXiwa";
@@ -105,8 +107,6 @@ sub get_cat{
    } elsif($in =~ /<kqw_prawyayaH:.*<kqw_pratipadika:/) {
            $cat="kqw";
    } elsif($in =~ /<vargaH:SaUPa/) {
-           $cat="samAsa";
-   } elsif($in =~ /<vargaH:sapUp/) {
            $cat="samAsa";
    } elsif($in =~ /<vargaH:(nA|sarva|pUraNam|saMKyeyam|saMKyA)/) {
            $cat="sup";

@@ -234,7 +234,7 @@ while($in = <IN>){
                     $class{$mindx} = "KP";
                } elsif($ana[$i] =~ /{(लट्|लिट्|लुट्);/){
                     $class{$mindx} = "KP";
-               } elsif($ana[$i] =~ /^([^<]+).*<(varga\.h:avy|vargaḥ:avy|वर्गः:अव्य्)/){
+               } elsif($ana[$i] =~ /(avy|अव्य)/){
                     $class{$mindx} = "NA";
                } elsif( $flds[$word] =~ /-$/){
                     $class{$mindx} = "CP";
@@ -266,7 +266,7 @@ sub print_relations_for_each_word{
           $from = $1;
           $rel_num = $2;
           $wpos = $3;
-          $cpos = $5;
+          $cpos = $4;
           $mpos = $5;
           $class = $6;
           $mindx = $from;
@@ -277,7 +277,7 @@ sub print_relations_for_each_word{
              $rels = $relations.":".$new_rel;
           } else {$rels = $relations;}
           print "<li class =\"$class\">";
-          print "<a href=\"/cgi-bin/scl/MT/prog/interface/call_parser_summary.cgi?filename=$dirname&amp;outscript=$SCRIPT&amp;rel=$rels&amp;sentnum=$sentnum&amp;save=no&amp;translate=no\" title=\"$morph{$mindx}\">";
+          print "<a href=\"/cgi-bin/$GlblVar::SCL_CGI/MT/prog/interface/call_parser_summary.cgi?filename=$dirname&amp;outscript=$SCRIPT&amp;rel=$rels&amp;sentnum=$sentnum&amp;save=no&amp;translate=no\" title=\"$morph{$mindx}\">";
           print " &#x2713; $rel </a> <\/li>\n";
          }
        }  else { print "-\n";}
@@ -308,7 +308,7 @@ sub print_morph_analysis{
                if($relations !~ /:$new_rel/) { $rels = $relations.":".$new_rel;}
                else {$rels = $relations;}
                print "<li class=\"$class\">";
-               print $j,"<a href=\"/cgi-bin/scl/MT/prog/interface/call_parser_summary.cgi?filename=$dirname&amp;outscript=$SCRIPT&amp;rel=$rels&amp;sentnum=$sentnum&amp;save=no&amp;translate=no\" title=\"$morph{$mindx}\">&#x2713; $morph{$mindx} </a> <\/li>\n";
+               print $j,"<a href=\"/cgi-bin/$SCL_CGI/MT/prog/interface/call_parser_summary.cgi?filename=$dirname&amp;outscript=$SCRIPT&amp;rel=$rels&amp;sentnum=$sentnum&amp;save=no&amp;translate=no\" title=\"$morph{$mindx}\">&#x2713; $morph{$mindx} </a> <\/li>\n";
            }
          }
            $j++;
@@ -338,12 +338,12 @@ sub print_sent{
 
 
       if(($total_solns == 1) || ($soln == 1)){
-         print "<h3> <a href=\"/cgi-bin/scl/MT/prog/interface/call_parser_summary.cgi?filename=$dirname&amp;outscript=$SCRIPT&amp;rel=$old_relations&amp;sentnum=$sentnum&amp;save=no&amp;translate=no\"> &#x2713;<\/a> Undo\n";
-         print "<a href=\"/cgi-bin/scl/MT/prog/interface/show_selected_parse.cgi?filename=$dirname&amp;sentnum=$sentnum&amp;start=0&amp;outscript=$SCRIPT\"> &#x2713; <\/a>Unique parse tree \n";
-	 #print " <a href=\"/cgi-bin/scl/MT/prog/interface/call_parser_summary.cgi?filename=$dirname&amp;outscript=$SCRIPT&amp;rel=$old_relations&amp;sentnum=$sentnum&amp;save=yes&amp;translate=no\"> &#x2713;<\/a> Save\n";
-        print " <a href=\"/cgi-bin/scl/MT/prog/interface/call_parser_summary.cgi?filename=$dirname&amp;outscript=$SCRIPT&amp;rel=$old_relations&amp;sentnum=$sentnum&amp;save=no&amp;translate=yes\"> &#x2713;<\/a>Translate into hindi</h3>\n";
+         print "<h3> <a href=\"/cgi-bin/$SCL_CGI/MT/prog/interface/call_parser_summary.cgi?filename=$dirname&amp;outscript=$SCRIPT&amp;rel=$old_relations&amp;sentnum=$sentnum&amp;save=no&amp;translate=no\"> &#x2713;<\/a> Undo\n";
+         print "<a href=\"/cgi-bin/$SCL_CGI/MT/prog/interface/show_selected_parse.cgi?filename=$dirname&amp;sentnum=$sentnum&amp;start=0&amp;outscript=$SCRIPT\"> &#x2713; <\/a>Unique parse tree \n";
+	 #print " <a href=\"/cgi-bin/$SCL_CGI/MT/prog/interface/call_parser_summary.cgi?filename=$dirname&amp;outscript=$SCRIPT&amp;rel=$old_relations&amp;sentnum=$sentnum&amp;save=yes&amp;translate=no\"> &#x2713;<\/a> Save\n";
+        print " <a href=\"/cgi-bin/$SCL_CGI/MT/prog/interface/call_parser_summary.cgi?filename=$dirname&amp;outscript=$SCRIPT&amp;rel=$old_relations&amp;sentnum=$sentnum&amp;save=no&amp;translate=yes\"> &#x2713;<\/a>Translate into hindi</h3>\n";
       } else {
-        print "<h3> <a href=\"/cgi-bin/scl/MT/prog/interface/call_parser_summary.cgi?filename=$dirname&amp;outscript=$SCRIPT&amp;rel=$old_relations&amp;sentnum=$sentnum&amp;save=no&amp;translate=no\"> &#x2713;<\/a> Undo\n";
+        print "<h3> <a href=\"/cgi-bin/$SCL_CGI/MT/prog/interface/call_parser_summary.cgi?filename=$dirname&amp;outscript=$SCRIPT&amp;rel=$old_relations&amp;sentnum=$sentnum&amp;save=no&amp;translate=no\"> &#x2713;<\/a> Undo\n";
         print "$soln filtered trees\n";
         print "<\/h3>\n";
       }

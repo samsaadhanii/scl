@@ -267,7 +267,7 @@ value rec print_cost_soln_list n count rel=fun
   [ [] -> ()
   | [ (len,a,l) :: r ] -> do
       { (*print_string "n="; print_int n; print_newline() ; *) 
-         if (len > count && n < 100) then print_cost_soln (len,a,l) n count rel else ()
+         if (len > count && n < 200) then print_cost_soln (len,a,l) n count rel else ()
        ; print_cost_soln_list (n+1) count rel r
       }
   ]
