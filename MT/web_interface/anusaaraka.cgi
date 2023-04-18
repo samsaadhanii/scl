@@ -145,7 +145,7 @@ package main;
 
     }
     if ($mode eq "web") {
-        system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $script $Ppid $i $text_type");
+        system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $script $Ppid $i $text_type $GlblVar::SCL_HTDOCS $GlblVar::SCL_CGI");
         if ($i == $#sentences+1) {
           system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/print_table_bottom_menu.pl $Ppid $#sentences $GlblVar::TFPATH $script");
         }

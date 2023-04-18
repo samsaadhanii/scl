@@ -1,9 +1,6 @@
 #!/usr/bin/env perl
 
-require "../paths.pl";
-
-$CSSPATH = "/$GlblVar::SCL_HTDOCS/MT/";
-$CGIPATH = "/cgi-bin/$GlblVar::SCL_CGI/MT/";
+#require "../paths.pl";
 
 $SCLINSTALLDIR = $ARGV[0];
 $TFPATH = $ARGV[1];
@@ -11,6 +8,17 @@ $out_encoding = $ARGV[2];
 $pid = $ARGV[3];
 $sub_pid = $ARGV[4];
 $order = $ARGV[5]; # Prose or Shloka
+$SCL_HTDOCS = $ARGV[6];
+$SCL_CGI = $ARGV[7];
+
+if($sub_pid eq "NIL") {
+   $pid =~ /^(.*)_([0-9])$/;
+   $pid = $1;
+   $sub_pid = $2;
+}
+
+$CSSPATH = "/$SCL_HTDOCS/MT";
+$CGIPATH = "/cgi-bin/$SCL_CGI/MT";
 
 require "$SCLINSTALLDIR/converters/convert.pl";
 
@@ -47,7 +55,7 @@ $conv;
       <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">
       <link href=\"$CSSPATH/Sanskrit_style.css\" type=\"text/css\" rel=\"stylesheet\" />\n
       <link href=\"$CSSPATH/Sanskrit_hindi.css\" type=\"text/css\" rel=\"stylesheet\" />\n
-      <link rel=\"stylesheet\" href=\"/$GlblVar::SCL_HTDOCS/css_files/sktmt.css\"/>\n
+      <link rel=\"stylesheet\" href=\"/$SCL_HTDOCS/css_files/sktmt.css\"/>\n
       <script src=\"$CSSPATH/script.js\" type=\"text/javascript\"></script>\n
       <script src=\"$CSSPATH/Sanskrit_hindi.js\" type=\"text/javascript\"></script>\n
       <link href=\"https://cdn.jsdelivr.net/npm/bootstrap\@5.2.3/dist/css/bootstrap.min.css\" rel=\"stylesheet\">
@@ -66,7 +74,7 @@ $conv;
       <div id=\"container\">
          <center>
          <div id=\"project-name\">
-            <img src=\"/$GlblVar::SCL_HTDOCS/imgs/sktmt.jpg\" alt=\"anusaaraka logo\" />
+            <img src=\"/$SCL_HTDOCS/imgs/sktmt.jpg\" alt=\"anusaaraka logo\" />
          </div>
          </center>
       </div> <!-- project name div ends here-->
@@ -77,7 +85,7 @@ $conv;
             <td width=\"10%\"> </td>
             <td width=\"65%\">
               <h3>
-                <a href=\"/$GlblVar::SCL_HTDOCS\">
+                <a href=\"/$SCL_HTDOCS\">
                   <font color=\"DarkBlue\">संसाधनी- Saṃsādhanī</font>
                 </a>
               </h3>
@@ -126,7 +134,7 @@ $conv;
   sub print_skt_hnd_tables {
      my ($TFPATH, $pid,$sub_pid,$order) = @_;
      
-      if($sub_pid == 1) {
+      if ($sub_pid == 1){
          print "<div class=\"container mt-3\">\n";
          print "<table width=\"100%\" style=\"border-style:none;border-width:1px;border-color:#C0C0C0;\">\n";
          &print_skt_hnd_table_hdrs ("orig");
@@ -139,12 +147,11 @@ $conv;
           $skt = "tmp_in".$pid."_".$sub_pid."/wor.".$pid."_".$sub_pid;
           print "<a href=\"#anuout$sub_pid\" data-bs-toggle=\"collapse\">";
           print "$sub_pid. ";
+          print "</a>\n";
           if($order eq "Sloka") {
              if ($out_encoding eq "IAST") { print "(mūlam) ";} else { print "(मूलम्) ";} 
           }
-          
           system("cat $TFPATH/$skt | sed 's/\- \-/\-/g' | $my_converter ");
-          print "</a>\n";
           print "</div>\n<!--division for sanskrit orig text ends here-->\n";
 
        if($order eq "Sloka") {
@@ -152,9 +159,9 @@ $conv;
          $skt = "tmp_in".$pid."_".$sub_pid."/anvaya_in".$pid."_".$sub_pid;
          print "<a href=\"#anuoutsloka$sub_pid\" data-bs-toggle=\"collapse\">";
          print "$sub_pid. ";
+         print "</a>\n";
          if ($out_encoding eq "IAST") { print "(anvayaḥ) ";} else { print "(अन्वयः) ";} 
          system("cat $TFPATH/$skt | sed 's/ \-/\-/g' | $my_converter ");
-         print "</a>\n";
          print "</div>\n <!--division for sanskrit anvaya texts ends here-->\n";
        }
        print "</td>\n";

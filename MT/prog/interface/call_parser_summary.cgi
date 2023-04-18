@@ -21,6 +21,7 @@ use utf8;
 require "../../../paths.pl";
 require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 
+
 package main;
 
 print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
@@ -40,6 +41,20 @@ my %param = &get_parameters();
 
       #  my $cgi = new CGI;
       #print $cgi->header (-charset => 'UTF-8');
+
+      if($relations eq "") { $relations = "''";}
+
+      my $total_filtered_solns = 0;
+      if($translate eq "yes") {
+	  my $lang = "hi";
+          my $morph = "UoHyd";
+          my $parse = "AVAILABLE";
+          my $text_type = "Prose";
+          $pid =~ /_([0-9])/;
+          my $sentno = $1;
+          system("$GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::CGIDIR/scl $dirname/in$pid $GlblVar::TFPATH $lang $outscript $morph $parse $text_type $sentno 2>> $dirname/err$pid");
+	  system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $outscript $pid NIL $text_type $GlblVar::SCL_HTDOCS $GlblVar::SCL_CGI");
+      } else {
       print "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n";
       print "<html xmlns=\"http://www.w3.org/1999/xhtml\">";
       print "<html><head><title>Anusaaraka</title>\n";
@@ -48,21 +63,9 @@ my %param = &get_parameters();
       print "<style type=\"text/css\">\n";
       print "table { margin-top:20px;}\n";
       print "<\/style>\n";
-
-      if($relations eq "") { $relations = "''";}
-
-      my $total_filtered_solns = 0;
       print "<\/head>\n<body>\n<div>\n";
       print "<center>\n";
-      if($translate eq "yes") {
-	  my $lang = "hi";
-          my $morph = "UoHyd";
-          my $parse = "AVAILABLE";
-          my $text_type = "Prose";
-          my $fn = "in".$pid;
-         system("$GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::CGIDIR/scl $dirname/$fn $GlblVar::TFPATH $lang $outscript $morph $parse $text_type 2>> $dirname/err$pid");
-	 system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $outscript $pid NIL $text_type");
-      } elsif($save eq "yes") {
+      if($save eq "yes") {
         system("$GlblVar::SCLINSTALLDIR/MT/prog/kAraka/mk_summary.pl $GlblVar::SCLINSTALLDIR $outscript $dirname/$filename $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/list_n $dirname $relations $sentnum $dirname/parser_files/parseop_new.txt $save < $dirname/parser_files/parseop$sentnum.txt");
       } else {
       open(TMP,"<$dirname/parser_files/parseop1.txt") || die "Can't open $dirname/parser_files/parseop1.txt for reading";
@@ -78,4 +81,5 @@ my %param = &get_parameters();
       print "<\/center>\n";
       print "<\/div>\n";
       print "<\/body>\n<\/html>\n";
+    }
     }

@@ -149,13 +149,13 @@ hnd_gen () {
 ##########
  #Generate Anvaya order anusaaraka output
  anvaya_anu_op () {
-   $ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin $HERITAGE_CGI A $SENT_NO < $temp_files_path/anvaya_outscript.tsv > $temp_files_path/../anvaya_$fbn.html
+   $ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT cgi-bin $HERITAGE_CGI A $SENT_NO $SCL_CGI < $temp_files_path/anvaya_outscript.tsv > $temp_files_path/../anvaya_$fbn.html
    $ANU_MT_PATH/interface/get_anvaya_shloka_translation.pl ${temp_files_path}/anvaya_$fbn  ${temp_files_path}/anvaya_${fbn}_wx_trnsltn < $temp_files_path/anvaya.tsv
  }
 
 #Generate Shloka order anusaaraka output
  shloka_anu_op () {
-  $ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin $HERITAGE_CGI S $SENT_NO < $temp_files_path/anvaya_outscript.tsv > $temp_files_path/../shloka_$fbn.html
+  $ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT  cgi-bin $HERITAGE_CGI S $SENT_NO $SCL_CGI < $temp_files_path/anvaya_outscript.tsv > $temp_files_path/../shloka_$fbn.html
  }
 
 ################
@@ -193,14 +193,16 @@ else
     if [ $MORPH = "Heritage_auto" ] ; then
       sandhi_splitter
     fi
-
     		#`date >> $temp_files_path/err`;
     cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.before_parse
+  else
+    cp $temp_files_path/$fbn.out.before_parse $temp_files_path/$fbn.out
+  fi  # PARSE != AVAILABLE ends here
+
     shaabdabodha
     cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.after_parse
     		#`date >> $temp_files_path/err`;
 
-  fi  # PARSE != AVAILABLE ends here
   anaphora
   wsd
   hnd_gen

@@ -1876,16 +1876,19 @@ value rlkriyAviSeRaNam_wqwIyA m1 m2 text_type = match m2 with
 value spl_aXikaraNa id1 id2 cid1 cid2 mid1 mid2 word1 text_type wif_kqw rl1 rl2 rl3 rl4 =
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
        if    prose_order id1 id2 text_type 
-          && (word1="yaxA" && id2 < waxA_pos.val ) 
-(* In the case of waxA, only if there is no finite verb, link it with the kqw *)
-       then [ Relation (id1,cid1,mid1,"kAlAXikaraNam",id2,cid2,mid2,rl1,d12) ]
-       else if (word1="waxA" && finite_verb_in_sentence.val == 50 && wif_kqw="kqw")
-            then [ Relation (id1,cid1,mid1,"kAlAXikaraNam",id2,cid2,mid2,rl2,d12) ]
-            else if (word1="waxA" && finite_verb_in_sentence.val < 50 && wif_kqw="wif")
-                 then [ Relation (id1,cid1,mid1,"kAlAXikaraNam",id2,cid2,mid2,rl3,d12) ]
-                 else if (word1="yawra" && id2 < wawra_pos.val ) || word1="wawra"
-                      then [ Relation (id1,cid1,mid1,"xeSAXikaraNam",id2,cid2,mid2,rl4,d12) ]
-                      else []
+	  && no_boundary_crossing1 id1 id2 
+       then
+          if (word1="yaxA" && id2 < waxA_pos.val )
+                  (* In the case of waxA, only if there is no finite verb, link it with the kqw *)
+          then [ Relation (id1,cid1,mid1,"kAlAXikaraNam",id2,cid2,mid2,rl1,d12) ]
+          else if (word1="waxA" && finite_verb_in_sentence.val == 50 && wif_kqw="kqw")
+               then [ Relation (id1,cid1,mid1,"kAlAXikaraNam",id2,cid2,mid2,rl2,d12) ]
+               else if (word1="waxA" && finite_verb_in_sentence.val < 50 && wif_kqw="wif")
+                    then [ Relation (id1,cid1,mid1,"kAlAXikaraNam",id2,cid2,mid2,rl3,d12) ]
+                    else if (word1="yawra" && id2 < wawra_pos.val ) || word1="wawra"
+                         then [ Relation (id1,cid1,mid1,"xeSAXikaraNam",id2,cid2,mid2,rl4,d12) ]
+                         else []
+       else []
 ;
 
 (* This is needed here, since waxA should not be marked as an aXikaraNa, if it occurs single with kwvA, lyap etc. *)
@@ -3554,7 +3557,7 @@ value rlkarmasamAnAXikaraNam m1 m2 m3 text_type =
    We need to prepare a list of avyayas from avayayakosha  *)
 value rlsambanXa1 m1 m2 text_type = match m2 with
   [ Avy (id2,cid2,mid2,_,rt2,_,_,_) ->
-          if (rt2="eva"|| rt2="wu"||rt2="uwa"||rt2="nu"|| rt2="ha"|| rt2="cEva" || rt2="hi"|| rt2="Kalu" || rt2="vE" || rt2="api") (* iva removed *)
+          if (rt2="eva"|| rt2="wu"||rt2="uwa"||rt2="nu"|| rt2="ha"|| rt2="cEva" || rt2="hi"|| rt2="Kalu" || rt2="vE" || rt2="api" || rt2="COMMA" || rt2=",") (* iva removed *)
           then match m1 with
         [ Wif (id1,cid1,mid1,word1,_,_,_,_,_,_,_,_,_,_,_,_,_)
         | Kqw (id1,cid1,mid1,word1,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
@@ -4861,7 +4864,7 @@ value init_sentence_feature_variables morphs  =
           | "apiwu" -> do { (); apiwu_pos.val := id;}
           | "kinwu" -> do { (); kinwu_pos.val := id;}
           | "paranwu" -> do { (); paranwu_pos.val := id;}
-          | "," -> do { (); manual_boundary1.val := id;}
+          | "COMMA" -> do { (); manual_boundary1.val := id;}
           | _ -> ()
           ] 
           }

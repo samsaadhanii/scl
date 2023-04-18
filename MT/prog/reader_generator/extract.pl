@@ -24,11 +24,9 @@ while($in = <STDIN>){
 chomp($in);
 if($in) {
   @flds = split(/\t/,$in);
-  #$flds[0] =~ /^([0-9]+)\.([0-9]+)/;
-  #$id = $1;
-  #$cid = $2;
 
   $flds[1] =~ s/^-//;
+
 
   $flds[5] =~ s/^([a-zA-Z_0-9]+) /$1\{/;
   $flds[5] =~ s/([^\-]+\-[^ \-]+) /$1\{/g;
@@ -66,7 +64,7 @@ if($in) {
     $mng1 = "";
     $relation = "";
     $poss_relation = "";
-  } elsif (($flds[6] !~ /^,/) && ($flds[8] !~ /^,/)) {  
+  } elsif (($flds[7] !~ /^,/) && ($flds[8] !~ /^,/)) {  
 ## When the relation is not blank
     print $flds[0],"\t",$flds[1],"\t\t",$flds[2],"\t",$flds[5],"\t",$flds[6],"\t",$flds[7],"\t",$flds[8],"\t",$flds[11],"\t",$flds[16],"\t",$flds[17],"\n";
   } else {

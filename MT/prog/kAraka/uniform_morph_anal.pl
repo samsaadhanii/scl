@@ -33,6 +33,7 @@ while($in = <STDIN>){
         @wrd_ana= split(/\t/,$ana);
         ($wrd_id,$comp_id) = split(/\./,$wrd_ana[0]);
         $wrd = &get_std_spelling_fn($wrd_ana[1]);
+	if($wrd eq ",") { $wrd = "COMMA";}
         $w_ana = $wrd_ana[5];
         if($wrd =~ /.*\-$/) { $pUrvapaxa = "y";} else {$pUrvapaxa = "n";}
         if($wrd =~ /^\-.*/) { $uwwarapaxa = "y";} else {$uwwarapaxa = "n";}
@@ -51,6 +52,7 @@ while($in = <STDIN>){
 
           if(($cat ne "samAsa") && ($cat ne "ajFAwa")){
             $wrd_ana =~ s/<vargaH:[^>]+>//;
+	    $wrd_ana =~ s/,/COMMA/g;
 
             if(($wrd_ana !~ /<upasarga:/) && (($cat eq "kqw") || ($cat eq "wif") || ($cat eq "avykqw"))){
                if($wrd_ana =~ /^[^<]+</) {
@@ -113,6 +115,8 @@ sub get_cat{
    } elsif($in =~ /<vargaH:avy>.*<kqw_prawyayaH:/) {
            $cat="avykqw";
    } elsif($in =~ /<vargaH:avy/) {
+           $cat="avy";
+   } elsif($in =~ /<vargaH:PUNCT/) {
            $cat="avy";
    } elsif($in =~ /<XAwuH:/) {
            $cat="wif";

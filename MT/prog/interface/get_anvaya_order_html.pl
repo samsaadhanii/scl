@@ -7,7 +7,7 @@ $CGIURL = $ARGV[3];
 $HERITAGE_CGI = $ARGV[4];
 if($ARGV[5] eq "A") {$anvaya = 1;} else {$anvaya = 0;}
 $sent_no = $ARGV[6];
-
+$SCL_CGI = $ARGV[7];
 
 @in = <STDIN>;
 if ($anvaya == 1) {@new_in = &get_anvaya_order(@in);} else {@new_in = @in;}
@@ -25,7 +25,7 @@ foreach ($fld=1;$fld<=$#flds;$fld++){
       if($word == 1) {
         print "<td class=\"number\">";
         if($fld == 1) { # words
-          print "<a href=\"/",$CGIURL,"/scl/MT/prog/interface/call_parser_summary.cgi?filename=",$TFPATH,"\&amp;outscript=",$outscript,"&rel=''&sentnum=$sent_no&save=no&translate=no\"  onmouseover=\"Tip('<img src=/scl/MT/DEMO/tmp_",$fbn,"/1.svg >' ,FONTSIZE,'18pt',HEIGHT,400,WIDTH,900,STICKY,true,CLOSEBTN,true)\">\n";
+          print "<a href=\"/",$CGIURL,"/$SCL_CGI/MT/prog/interface/call_parser_summary.cgi?filename=",$TFPATH,"\&amp;outscript=",$outscript,"&rel=''&sentnum=$sent_no&save=no&translate=no\"  onmouseover=\"Tip('<img src=/$SCL_CGI/MT/DEMO/tmp_",$fbn,"/1.svg >' ,FONTSIZE,'18pt',HEIGHT,400,WIDTH,900,STICKY,true,CLOSEBTN,true)\">\n";
         }
         if($fld == 3) { # sandhied words
           open(TMP,"<$TFPATH/sandhied_$fbn") || die "file $TFPATH/sandhied_$fbn not found\n";

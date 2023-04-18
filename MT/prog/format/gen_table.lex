@@ -36,7 +36,7 @@
 [ \n]			{}
 ,			{  
 			   printf("%d.%d\t,\n",word_no,comp_no); 
-                      	   word_no = 1; 
+                      	   word_no++;
 		  	   comp_no = 1;
                		}
 .			{  printf("Error %s\n",yytext);}

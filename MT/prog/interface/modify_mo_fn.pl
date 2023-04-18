@@ -35,6 +35,7 @@ sub modify_mo{
   $in =~ s/<vargaH:avy>/ avya/g;
   $in =~ s/<kqw_pratipadika:([^>]+)>/$1/g;
   #$in =~ s/<kqw_vrb_rt:[^>]+>//g;
+  $in =~ s/<vargaH:PUNCT>/ /g;
   $in =~ s/<vargaH:saMKyeyam>/ saMKyeyam/g;
   $in =~ s/<vargaH:saMKyA>/ saMKyA/g;
   $in =~ s/<vargaH:sarva>/ sarvanAma/g;
