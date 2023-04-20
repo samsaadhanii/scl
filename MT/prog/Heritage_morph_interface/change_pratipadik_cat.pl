@@ -75,7 +75,7 @@ while($in = <STDIN>){
   chomp($in);
   if($in) {
    ($no,$sword,$ana) = split(/\t/,$in);
-   print $no,"\t",$sword,"\t";
+   print $no,"\t",$sword,"\t",$sword,"\t";
    @ana = split(/\//,$ana);
    $ans = "";
    foreach $ana (@ana) {

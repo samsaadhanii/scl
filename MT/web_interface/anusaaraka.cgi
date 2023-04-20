@@ -116,7 +116,7 @@ package main;
       if($morph eq "Heritage_manual") {
          $sent =~ s/\.//;
          $sent =~ s/ /\+/g;
-	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=$Hscript\&cp=t\&text=$sent\&t=WX\&topic=\&mode=b&pipeline=f&fmode=n\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI";
+	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=$Hscript\&cp=t\&text=$sent\&t=WX\&topic=\&mode=b&pipeline=f&fmode=n\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_Graph_CGI";
          system($cmd);
       } else {
          if($morph eq "Heritage_auto") {
@@ -143,7 +143,6 @@ package main;
          &increment_curr_id;
      }
 
-    }
     if ($mode eq "web") {
         system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $script $Ppid $i $text_type $GlblVar::SCL_HTDOCS $GlblVar::SCL_CGI");
         if ($i == $#sentences+1) {
@@ -152,6 +151,7 @@ package main;
 	print "<\/body><\/html>\n";
     } elsif ($mode eq "json") {
         system("$GlblVar::SCLINSTALLDIR/MT/prog/reader_generator/csv2json.pl < $GlblVar::TFPATH/tmp_in$pid/table_outscript.tsv"); 
+    }
     }
    }
   if($GlblVar::LOG eq "true") {
@@ -180,6 +180,7 @@ package main;
 	  }
 	  $p;
   }
+1;
     
   sub increment_curr_id {
           my($p);
@@ -194,6 +195,7 @@ package main;
 	  print TMP $p;
 	  close(TMP);
   }
+1;
 
   sub get_curr_id {
 	  my($p);
@@ -212,3 +214,4 @@ package main;
 	  }
 	  $p;
   }
+1;

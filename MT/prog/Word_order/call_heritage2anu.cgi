@@ -42,7 +42,7 @@ read(STDIN, $b, $ENV{'CONTENT_LENGTH'});
        $field_nm = "field".$i;
        $buffer .= $param{$field_nm};
  }
- my $pid = $$;
+ my $pid = $$."_1";
  if (-d "$GlblVar::TFPATH/tmp_in$pid") {
 	system ("rm -rf $GlblVar::TFPATH/tmp_in$pid");
  }
@@ -60,7 +60,7 @@ system("echo '$buffer' | $GlblVar::SCLINSTALLDIR/MT/prog/Heritage_morph_interfac
 
 if($display eq "") { $display = "DEV";}
 
-system("$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::CGIDIR/scl tmp_in${pid}/in$pid $GlblVar::TFPATH hi $display GH Full Sloka 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
+system("$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::CGIDIR/scl tmp_in${pid}/in$pid $GlblVar::TFPATH hi $display GH Full Sloka 1 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
 
 system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $display $pid NIL A $GlblVar::SCL_HTDOCS $GlblVar::SCL_CGI");
 
