@@ -65,7 +65,9 @@ open TMP1, ">${path}/${dotfl_nm}" || die "Can't open ${path}/${dotfl_nm} for wri
           $wcolor[$pos] = $color{$tmp}; 
          
          if ($flds[1] !~ /-$/) {  #If not compound pUrvapaxa, write the node
-             if($flds[6] =~ /([^,]+),([0-9]+)[\.\।]/) {
+             @rels = split(/;/,$flds[6]);
+             for ($z=0;$z<=$#rels;$z++) {
+             if($rels[$z] =~ /([^,]+),([0-9]+)[\.\।]/) {
                 $rel_nm = $1;
                 $d_id = $2;
                 $s_id = $flds[0];
@@ -76,7 +78,10 @@ open TMP1, ">${path}/${dotfl_nm}" || die "Can't open ${path}/${dotfl_nm} for wri
                       $style = "dashed color=\"red\"";
                       $rank .= "{rank = same; Node$s_id; Node$d_id;}\n"; 
                       $dir = "both";
-                } else{
+                } elsif ($z > 0) {
+                      $style = "dotted"; 
+                      $dir = "back";
+                } else {
                       $style = ""; 
                       $dir = "back";
                 }
@@ -117,6 +122,7 @@ open TMP1, ">${path}/${dotfl_nm}" || die "Can't open ${path}/${dotfl_nm} for wri
              if (($rel_nm !~ /abhihita/) && ($rel_nm !~ /अभिहित/)){
 	        $rel_str .= "\nNode$s_id -> Node$d_id \[ $s_str label=\"".$rel_nm."\"  dir=\"$dir\" \]";
              }
+            }
            }
 	   $solnfound = 1;
         }
