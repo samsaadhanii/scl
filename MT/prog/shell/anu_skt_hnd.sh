@@ -130,15 +130,14 @@ hnd_gen () {
    #   
    if [ $TEXT_TYPE = "Sloka" ]; then
    # Temporary commented. Sanal has to fix the programme.
-   #$MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py -i $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv
+   $MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py -i $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv
    #
-   cp $temp_files_path/table.tsv $temp_files_path/anvaya.tsv
    else 
    cut -f1 $temp_files_path/table.tsv > $temp_files_path/1
    cut -f2 $temp_files_path/table.tsv > $temp_files_path/2
    cut -f4- $temp_files_path/table.tsv > $temp_files_path/3
    paste $temp_files_path/1 $temp_files_path/2 $temp_files_path/1 $temp_files_path/3 > $temp_files_path/anvaya.tsv
-   #rm $temp_files_path/1 $temp_files_path/2 $temp_files_path/3
+   rm $temp_files_path/1 $temp_files_path/2 $temp_files_path/3
    fi
    #
  

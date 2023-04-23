@@ -50,8 +50,8 @@ while($in = <STDIN>){
       }elsif($in !~ /^\(/){
          $ans .= $in."\n";
       } elsif($in =~ /\(/){
-         $in =~ /([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+)/;
-         $rel_nm = $3;
+         $in =~ /([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+)/;
+         $rel_nm = $4;
          $k_rel_nm[$i] = $kAraka_name{$rel_nm};
          $in[$i] = $in;
          $i++;
@@ -60,16 +60,16 @@ while($in = <STDIN>){
     for($j=$i-1;$j>=0;$j--){
 #If it is pUrvakAla
      if (($k_rel_nm[$j] eq "pUrvakAlaH")  || ($k_rel_nm[$j] eq "samAnakAlaH")) {
-         $in[$j] =~ /([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+)/;
+         $in[$j] =~ /([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+)/;
 # Get main verb position
-         $verb_pos = $4.",".$5;
-         $pUrvakAla_pos = $1.",".$2;
+         $verb_pos = $5.",".$6.",".$7;
+         $pUrvakAla_pos = $1.",".$2.",".$3;
          #print "Calling sub routine karwA \n";   
        if(!&karwA($i, $pUrvakAla_pos)) {
          for($k=0;$k<$i;$k++){
-            $in[$k] =~ /([0-9]+),([0-9]+),([0-9]+),$verb_pos/;
-            $rel = $3;
-            if(($in[$k] =~ /([0-9]+),([0-9]+),$rel,$verb_pos/) &&
+            $in[$k] =~ /([0-9]+),([0-9]+),([0-9]+),([0-9]+),$verb_pos/;
+            $rel = $4;
+            if(($in[$k] =~ /([0-9]+),([0-9]+),([0-9]+),$rel,$verb_pos/) &&
                (($k_rel_nm[$k] eq "karwA") || ($rel == $kAraka_num{"karwA"}+100) || ($k_rel_nm[$k] eq "prayojakakarwA"))) {
 #Get the karwA of main verb
                $in[$i] = $in[$k];
