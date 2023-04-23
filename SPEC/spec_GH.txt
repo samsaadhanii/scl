@@ -21,7 +21,7 @@ LTPROCBIN=/usr/local/bin/lt-proc
 GraphvizDot=/usr/local/bin/dot
 
 #Path for PYTHON
-MYPYTHONPATH=/opt/homebrew/bin/python3
+MYPYTHONPATH=/usr/bin/python3
 
 #Heritage installation path (for interface)
 HERITAGE_CGI_DIR=SKT
@@ -41,5 +41,5 @@ LOG=false
 
 #TIMEOUT with SIGTERM signal
 #TIMEOUT="timeout -15 3m"
-TIMEOUT="" 
-# suggested till this problem is solved
+#TIMEOUT="timeout -s15 3m" # other syntax
+TIMEOUT="" # suggested till this problem is solved
