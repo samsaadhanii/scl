@@ -1050,6 +1050,7 @@ value rec seq_expectancy relations relsindag=
                                      else if r1=41 then if r2=42 then loop rest else loop1 rest1
                                      else if r1=68 then if r2=69 then loop rest else loop1 rest1
                                      else if r1=12 then if r2=97 then loop rest else loop1 rest1
+                                     else if r1=6 then if r2=9 then loop rest else loop1 rest1
                                      else loop1 rest1
                                else if (c=x && d=y) then
                                      if (r2 = 3 || r2 = 4 || r2 = 5) then if (r1 = 202 || r1 = 203 || r2 = 24) then True else loop1 rest1 
@@ -1065,6 +1066,7 @@ value rec seq_expectancy relations relsindag=
                                      else if r1=42 then if r2=41 then loop rest else loop1 rest1
                                      else if r1=69 then if r2=68 then loop rest else loop1 rest1
                                      else if r1=97 then if r2=12 then loop rest else loop1 rest1
+                                     else if r1=9 then if r2=6 then loop rest else loop1 rest1
                                      else loop1 rest1 
                                else if (c=z && d=t) then
                                      if r2=32 then if r1=45 then loop rest else loop1 rest1
