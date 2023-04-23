@@ -114,7 +114,7 @@ open TMP1, ">${path}/${dotfl_nm}" || die "Can't open ${path}/${dotfl_nm} for wri
             
              if($style ne "") { $s_str = "style=$style";} else {$s_str = "";}
 
-             if (($rel_nm !~ /abhihiwa/) && ($rel_nm !~ /अभिहित/)){
+             if (($rel_nm !~ /abhihita/) && ($rel_nm !~ /अभिहित/)){
 	        $rel_str .= "\nNode$s_id -> Node$d_id \[ $s_str label=\"".$rel_nm."\"  dir=\"$dir\" \]";
              }
            }
