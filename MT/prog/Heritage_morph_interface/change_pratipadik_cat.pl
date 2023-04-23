@@ -18,15 +18,8 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 
-#BEGIN {require "$ARGV[0]/paths.pl";}
 
-#use lib $GlblVar::LIB_PERL_PATH;
-
-#use GDBM_File;
-#tie(%LEX,GDBM_File,$ARGV[1],GDBM_READ,0644) || die "Can't open $ARGV[1] for reading";
-#tie(%RK,GDBM_File,$ARGV[2],GDBM_READ,0644) || die "Can't open $ARGV[2] for reading";
-
-open(TMP,$ARGV[1]) || die "Can't open $ARGV[1] for reading";
+open(TMP,$ARGV[0]) || die "Can't open $ARGV[0] for reading";
 while($in = <TMP>) {
 chomp($in);
  ($gaNa,$XAwu,$dummy1,$paxI,$Heritage_rt,$SaMsAXanI_rt) = split(/\t/,$in);
@@ -44,7 +37,7 @@ chomp($in);
 }
 close(TMP);
 
-open(TMP,$ARGV[2]) || die "Can't open $ARGV[2] for reading";
+open(TMP,$ARGV[1]) || die "Can't open $ARGV[1] for reading";
 while(<TMP>) {
 chomp;
 $RK{$_}=1;
@@ -55,7 +48,7 @@ $RK{$_}=1;
 
 %saMKyeyam = ('cawur',1,'wri',1,'xvi',1,'eka',1,'paFcan',1,'koti',1,'wriMSaw',1,'aRtan',1,'sahasra',1);
 
-open(TMP,"<$ARGV[3]");
+open(TMP,"<$ARGV[2]");
 while($in = <TMP>){
    chomp($in);
    ($rt, $fem) = split(/\t/,$in); 
@@ -63,7 +56,7 @@ while($in = <TMP>){
 }
 close(TMP);
 
-open(TMP,"<$ARGV[4]");
+open(TMP,"<$ARGV[3]");
 while($in = <TMP>){
    chomp($in);
    ($G_rt, $A_rt) = split(/\t/,$in); 
@@ -228,9 +221,11 @@ while($in = <STDIN>){
   $ans =~ s/^\///;
   $ans =~ s/\/$//;
   print $ans,"\t",$ans,"\t",$ans,"\n";
- } else { printf "\n";}
+ } else { print "\n";}
 }
-#close(TMP);
+$no =~ s/\.[0-9]$//;
+$no++;
+print "$no.1\t.\t.\t-\t-\t-\n";
 
 sub sandhi{
 my($rt) = @_;
