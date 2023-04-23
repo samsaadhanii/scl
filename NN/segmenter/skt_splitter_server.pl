@@ -37,7 +37,8 @@ if(!$daemon_running){
       }
       `rm $GlblVar::TFPATH/skt_splitter_daemonid`;
     }
-    system("nohup $GlblVar::SCLINSTALLDIR/NN/segmenter/skt_splitter_server.sh > /dev/null &");
+    #system("nohup $GlblVar::SCLINSTALLDIR/NN/segmenter/skt_splitter_server.sh > /dev/null &");
+    system("nice $GlblVar::SCLINSTALLDIR/NN/segmenter/skt_splitter_server.sh > /dev/null &");
     #print "Skt Morph Daemon Successfully started\n";
 } else {
   #print "Skt Morph Daemon is already running\n";

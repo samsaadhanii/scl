@@ -1,5 +1,8 @@
 #!/usr/bin/env perl
 
+
+require "../../../paths.pl";
+
 package NN;
 
 #This has the definitions for style required by an html file
@@ -10,13 +13,13 @@ $style_header = "<!DOCTYPE html>
 <meta charset=\"UTF-8\">
 <meta http-equiv=\"CONTENT-TYPE\" content=\"text/html; charset=UTF-8\">
 <title>Nyaayacitradeepika</title>
-<link rel=\"stylesheet\" href=\"/scl/NN/css_files/bootstrap.min.css\">
-<link rel=\"stylesheet\" href=\"/scl/NN/css_files/bootstrap-theme.min.css\">
-<link rel=\"stylesheet\" href=\"/scl/css_files/menu.css\">
-<link rel=\"stylesheet\" href=\"/scl/css_files/samsaadhanii.css\">
-<script src=\"/scl/NN/js_files/jquery.min.js\"></script>
-<script src=\"/scl/NN/js_files/bootstrap.min.js\"></script>
-<script src=\"/scl/NN/js_files/jquery.autosize.js\"></script>
+<link rel=\"stylesheet\" href=\"/$GlblVar::SCL_HTDOCS/NN/css_files/bootstrap.min.css\">
+<link rel=\"stylesheet\" href=\"/$GlblVar::SCL_HTDOCS/NN/css_files/bootstrap-theme.min.css\">
+<link rel=\"stylesheet\" href=\"/$GlblVar::SCL_HTDOCS/css_files/menu.css\">
+<link rel=\"stylesheet\" href=\"/$GlblVar::SCL_HTDOCS/css_files/samsaadhanii.css\">
+<script src=\"/$GlblVar::SCL_HTDOCS/NN/js_files/jquery.min.js\"></script>
+<script src=\"/$GlblVar::SCL_HTDOCS/NN/js_files/bootstrap.min.js\"></script>
+<script src=\"/$GlblVar::SCL_HTDOCS/NN/js_files/jquery.autosize.js\"></script>
 <style>
 .head_div{background:none repeat scroll 0px 0px #5678AA; color:#fff;}
 h3{margin-top:2px !important; font-size:30px;}
@@ -59,9 +62,9 @@ sub tail {
  my($ans,$file) = @_;
  print "<center><div id=\"navigation\">
         <p >Constituency parse: $ans</p></div>
-        <a href=\"/cgi-bin/scl/NN/CG/generate.cgi?nne=$ans&amp;type=C\" target=\"_blank\">Conceptual Graph</a><br>
-        <a href=\"/cgi-bin/scl/NN/CG/generate.cgi?nne=$ans&amp;type=R\" target=\"_blank\">Compressed Conceptual Graph</a></br>
-        <a href=\"/scl/NN/segmenter/index.html\">Try Another<\/a>
+        <a href=\"/cgi-bin/$GlblVar::SCL_CGI/NN/CG/generate.cgi?nne=$ans&amp;type=C\" target=\"_blank\">Conceptual Graph</a><br>
+        <a href=\"/cgi-bin/$GlblVar::SCL_CGI/NN/CG/generate.cgi?nne=$ans&amp;type=R\" target=\"_blank\">Compressed Conceptual Graph</a></br>
+        <a href=\"/$GlblVar::SCL_CGI/NN/segmenter/index.html\">Try Another<\/a>
         </div></center></body></html>";
 }
 1;
@@ -72,7 +75,7 @@ $title = "<div class=\"container-full\">
 	<h3>न्यायचित्रदीपिका</h3>
 	<p>A Segmenter for Navya-Nyaya Expressions</p>
 	<p>Department of Sanskrit Studies, University of Hyderabad.</p>
-	<h3><a href=\"/scl/\">Samsaadhanii</a></h3>
+	<h3><a href=\"/$GlblVar::SCL_HTDOCS/\">Samsaadhanii</a></h3>
 </header> 
 <section id=\"inputarea\">
 <div class=\"container-full\">

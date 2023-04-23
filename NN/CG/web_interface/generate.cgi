@@ -24,15 +24,9 @@ use Encode qw/ decode /;
 require "../../paths.pl";
 require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 
-#use CGI qw/:standard/;
-#use CGI::Carp qw(fatalsToBrowser);
-
 my $converters_path="$GlblVar::SCLINSTALLDIR/converters";
 my $NNCG_path="$GlblVar::SCLINSTALLDIR/NN/CG";
 require "$GlblVar::SCLINSTALLDIR/NN/common/style.pl";
-
-#      my $cgi = new CGI;
-#      print $cgi->header (-charset => 'UTF-8');
 
       print "Content-type:text/html;charset:UTF-8\n\n";
       print $NN::style_header;
@@ -40,7 +34,6 @@ require "$GlblVar::SCLINSTALLDIR/NN/common/style.pl";
 
       my %param = &get_parameters();
 
-      #if (param) {
         my $nne=$param{nne};
         my $type=$param{type};
 
@@ -51,7 +44,7 @@ require "$GlblVar::SCLINSTALLDIR/NN/common/style.pl";
 
         system("echo '$nne' | $converters_path/utf82iscii.pl | $converters_path/ir_skt | $NNCG_path/nne2diagram.out $type | $converters_path/ri_skt | $converters_path/iscii2utf8.py 1 | $GlblVar::GraphvizDot -Tsvg ");
         print "<br>";
-	#}
+
       print $NN::style_tail;
 
 

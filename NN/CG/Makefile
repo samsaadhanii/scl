@@ -18,4 +18,4 @@ nne2diagram.out:  nne2diagram.lex nne2diagram.y
 	rm lex.yy.c
 
 clean: 
-	rm -f $(TARGETS)
+	rm -f nne2diagram.out 

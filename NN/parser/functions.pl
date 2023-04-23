@@ -3,6 +3,7 @@
 use strict;
 use warnings;
 
+open "../../../paths.pl";
 #Given a user's choice for an anuyogin, this programme removes all the anuyogins corresponding to the choice of a word as well as other words that are incompatible with this choice, and prints the table.
 # It returns more_choices=1, if still there are words with multiple possible anuyogins, where user input is required.
 
@@ -73,12 +74,12 @@ sub print_table{
                @anu = split(/,/,$possible_anu);
                for($j=0;$j<$#anu;$j++) {
                 $tmp = $rel.":".$count.",".$anu[$j];
-                print "<a href=\"/cgi-bin/scl/NN/parser/select.cgi?pid=$pid&amp;instr=$tmp\">$anu[$j]</a>";
+                print "<a href=\"/cgi-bin/$GlblVar::SCL_CGI/NN/parser/select.cgi?pid=$pid&amp;instr=$tmp\">$anu[$j]</a>";
 		print ",";
                 $more_choices = 1;
                }
                 $tmp = $rel.":".$count.",".$anu[$j];
-                print "<a href=\"/cgi-bin/scl/NN/parser/select.cgi?pid=$pid&amp;instr=$tmp\">$anu[$j]</a>";
+                print "<a href=\"/cgi-bin/$GlblVar::SCL_CGI/NN/parser/select.cgi?pid=$pid&amp;instr=$tmp\">$anu[$j]</a>";
 	    }
            print "</td></tr>";
       }

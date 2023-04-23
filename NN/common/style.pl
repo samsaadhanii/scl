@@ -2,6 +2,9 @@
 
 #This has the definitions for style required by an html file
 
+
+require "../../paths.pl";
+
 package NN;
 
 $NN::style_header = "<!DOCTYPE html>
@@ -10,13 +13,13 @@ $NN::style_header = "<!DOCTYPE html>
 <meta charset=\"UTF-8\">
 <meta http-equiv=\"CONTENT-TYPE\" content=\"text/html; charset=UTF-8\">
 <title>Nyaayacitradeepika</title>
-<link rel=\"stylesheet\" href=\"/scl/NN/css_files/bootstrap.min.css\">
-<link rel=\"stylesheet\" href=\"/scl/NN/css_files/bootstrap-theme.min.css\">
-<link rel=\"stylesheet\" href=\"/scl/css_files/menu.css\">
-<link rel=\"stylesheet\" href=\"/scl/css_files/samsaadhanii.css\">
-<script src=\"/scl/NN/js_files/jquery.min.js\"></script>
-<script src=\"/scl/NN/js_files/bootstrap.min.js\"></script>
-<script src=\"/scl/NN/js_files/jquery.autosize.js\"></script>
+<link rel=\"stylesheet\" href=\"/$GlblVar::SCL_HTDOCS/NN/css_files/bootstrap.min.css\">
+<link rel=\"stylesheet\" href=\"/$GlblVar::SCL_HTDOCS/NN/css_files/bootstrap-theme.min.css\">
+<link rel=\"stylesheet\" href=\"/$GlblVar::SCL_HTDOCS/css_files/menu.css\">
+<link rel=\"stylesheet\" href=\"/$GlblVar::SCL_HTDOCS/css_files/samsaadhanii.css\">
+<script src=\"/$GlblVar::SCL_HTDOCS/NN/js_files/jquery.min.js\"></script>
+<script src=\"/$GlblVar::SCL_HTDOCS/NN/js_files/bootstrap.min.js\"></script>
+<script src=\"/$GlblVar::SCL_HTDOCS/NN/js_files/jquery.autosize.js\"></script>
 <style>
 .head_div{background:none repeat scroll 0px 0px #5678AA; color:#fff;}
 h3{margin-top:2px !important; font-size:30px;}
@@ -82,10 +85,10 @@ sub tail {
  $ans1 =~ s/:[0-9]+//g;
  $ans1 =~ s/\-\^/\^/;
  print "<div id = \"navigation\"><center> Constituency parse:$ans1 <br />";
-        print "<a href=\"/cgi-bin/scl/NN/CG/generate.cgi?nne=$ans&amp;type=C\" target=\"_blank\">View Conceptual Graph</a><br />";
-        print "<a href=\"/cgi-bin/scl/NN/CG/generate.cgi?nne=$ans&amp;type=R\" target=\"_blank\">View Compressed Conceptual Graph</a><br />";
-        print "<a href=\"/cgi-bin/scl/NN/Type_identifier/generate.cgi?nne=$ans1;\" target=\"_blank\">Compound Type-identifier</a><br />";
- print "<a href=\"/scl/NN/segmenter/index.html\">Try Another<\/a></center>
+        print "<a href=\"/cgi-bin/$GlblVar::SCL_CGI/NN/CG/generate.cgi?nne=$ans&amp;type=C\" target=\"_blank\">View Conceptual Graph</a><br />";
+        print "<a href=\"/cgi-bin/$GlblVar::SCL_CGI/NN/CG/generate.cgi?nne=$ans&amp;type=R\" target=\"_blank\">View Compressed Conceptual Graph</a><br />";
+        print "<a href=\"/cgi-bin/$GlblVar::SCL_CGI/NN/Type_identifier/generate.cgi?nne=$ans1;\" target=\"_blank\">Compound Type-identifier</a><br />";
+ print "<a href=\"/$GlblVar::SCL_CGI/NN/segmenter/index.html\">Try Another<\/a></center>
         <br />
 </div>
 <font color=\"black\"><font style=\"background-color:white;\">";
@@ -95,10 +98,10 @@ sub tail {
 $NN::title = "<div class=\"container-full\">
 
 <header class=\"head_div col-md-12\">
-    <div class=\"col-md-6 text-right\"><h2><a class=\"link\" href=\"/scl/NN/segmenter/index.html\"><font color=\"white\">न्यायचित्रदीपिका</font></a></h2>
+    <div class=\"col-md-6 text-right\"><h2><a class=\"link\" href=\"/$GlblVar::SCL_CGI/NN/segmenter/index.html\"><font color=\"white\">न्यायचित्रदीपिका</font></a></h2>
     <p>A Segmenter for Navya-Nyāya Expressions</p>
         </div>
-<div class=\"col-md-6 text-left\"><h2><a class=\"link\" href=\"/scl/index.html\"><font color=\"white\">संसाधनी-Saṃsādhanī  </font></a></h2>
+<div class=\"col-md-6 text-left\"><h2><a class=\"link\" href=\"/$GlblVar::SCL_CGI/index.html\"><font color=\"white\">संसाधनी-Saṃsādhanī  </font></a></h2>
     <p>Department of Sanskrit Studies, University of Hyderabad.</p>
     </div>
 
@@ -126,14 +129,14 @@ $NN::style_tail = "<font color=\"white\" size=2>
 </center>
  <div class=\"col-md-6 text-left\">
     <a href=\"http://validator.w3.org/check?uri=referer\"><img
-        src=\"/scl/imgs/w3c.jpg\"
+        src=\"/$GlblVar::SCL_HTDOCS/imgs/w3c.jpg\"
         alt=\"Valid XHTML 1.0 Transitional\" height=\"31\" width=\"\" style=\"border-style:none;\" /></a>
   </div>
 <!-- <img src=\"http://scl.samsaadhanii.in/cgi-bin/Count.cgi?ft=0&df=sample.dat\" alt=\"Count\"> -->
     
  <div class=\"col-md-6 text-right\">
 <!-- Start of StatCounter Code for Default Guide -->
-<script type=\"text/javascript\" src=\"/scl/statcounter_dummy.js\">
+<script type=\"text/javascript\" src=\"/$GlblVar::SCL_HTDOCS/statcounter_dummy.js\">
 </script>
 <noscript><div class=\"statcounter\"><a title=\"web analytics\" href=\"http://statcounter.com/\" target=\"_blank\"><img class=\"statcounter\" src=\"https://c.statcounter.com/8421849/0/34917efe/0/\" alt=\"web analytics\"></a></div></noscript>
 <!-- End of StatCounter Code for Default Guide -->

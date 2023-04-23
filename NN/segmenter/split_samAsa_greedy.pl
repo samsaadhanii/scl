@@ -2,14 +2,6 @@
 
 BEGIN {require "../../paths.pl";}
 
-#use lib $GlblVar::LIB_PERL_PATH;
-
-#use GDBM_File;
-#tie(%LEX1,GDBM_File,"$GlblVar::SCLINSTALLDIR/NN/segmenter/S1.dbm",GDBM_READER,0644) || die "can't open S1.dbm ";
-#tie(%LEX2,GDBM_File,"$GlblVar::SCLINSTALLDIR/NN/segmenter/S2.dbm",GDBM_READER,0644) || die "can't open S2.dbm ";
-#tie(%LEX3,GDBM_File,"$GlblVar::SCLINSTALLDIR/NN/segmenter/S3.dbm",GDBM_READER,0644) || die "can't open S3.dbm ";
-#tie(%LEX4,GDBM_File,"$GlblVar::SCLINSTALLDIR/NN/segmenter/S4.dbm",GDBM_READER,0644) || die "can't open S4.dbm ";
-#
 
 open(TMP,"<$GlblVar::SCLINSTALLDIR/NN/segmenter/samAsa_rules_sorted.txt") || die "Can't open samAsa_rules_sorted.txt for reading";
 

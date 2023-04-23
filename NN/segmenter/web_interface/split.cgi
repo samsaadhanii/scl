@@ -52,7 +52,7 @@ system("mkdir -p $GlblVar::TFPATH");
         cursor on the hyphen '-'.<br /> <span>\"Parse\", will take you 
         to the interactive interface for constituency parseing.</span> 
         <br /></center><ul class=\"list-inline\"><center>";
-        #$output = `$ENV{SCLINSTALLDIR}/NN/segmenter/start_server.sh; echo $textwx | $ENV{SCLINSTALLDIR}/NN/segmenter/split_samAsa_greedy.pl | $ENV{SCLINSTALLDIR}/converters/wx2utf8.sh | $ENV{SCLINSTALLDIR}/NN/segmenter/format.pl`;
+        #$output = `$GlblVar::SCLINSTALLDIR/NN/segmenter/skt_splitter_server.pl; echo $textwx | $GlblVar::SCLINSTALLDIR/NN/segmenter/split_samAsa_greedy.pl | $GlblVar::SCLINSTALLDIR/converters/ri_skt |$GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1 | $GlblVar::SCLINSTALLDIR/NN/segmenter/format.pl`;
         $output = `$GlblVar::SCLINSTALLDIR/NN/segmenter/skt_splitter_server.pl; echo $textwx | $GlblVar::SCLINSTALLDIR/NN/segmenter/split_samAsa_greedy.pl | $GlblVar::SCLINSTALLDIR/converters/ri_skt |$GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1 | $GlblVar::SCLINSTALLDIR/NN/segmenter/format.pl`;
        print "<font color=\"red\">$textutf</font>";
        print "$output";

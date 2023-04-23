@@ -2,20 +2,23 @@
 
 #This has the definitions for style required by an html file
 
+
+require "../../paths.pl";
+
 $style_header = "<!DOCTYPE html>
 <html>
 <head>
 <meta charset=\"UTF-8\">
 <meta http-equiv=\"CONTENT-TYPE\" content=\"text/html; charset=UTF-8\">
 <title>Nyaayacitradeepika</title>
-<link rel=\"stylesheet\" href=\"/scl/css_files/bootstrap.min.css\">
-<link rel=\"stylesheet\" href=\"/scl/css_files/bootstrap-theme.min.css\">
-<link rel=\"stylesheet\" href=\"/scl/css_files/menu.css\">
-<link rel=\"stylesheet\" href=\"/scl/css_files/samsaadhanii.css\">
-<script src=\"/scl/js_files/callcgiscripts.js\"></script>
-<script src=\"/scl/js_files/jquery.min.js\"></script>
-<script src=\"/scl/js_files/bootstrap.min.js\"></script>
-<script src=\"/scl/js_files/jquery.autosize.js\"></script>
+<link rel=\"stylesheet\" href=\"/$GlblVar::SCL_HTDOCS/css_files/bootstrap.min.css\">
+<link rel=\"stylesheet\" href=\"/$GlblVar::SCL_HTDOCS/css_files/bootstrap-theme.min.css\">
+<link rel=\"stylesheet\" href=\"/$GlblVar::SCL_HTDOCS/css_files/menu.css\">
+<link rel=\"stylesheet\" href=\"/$GlblVar::SCL_HTDOCS/css_files/samsaadhanii.css\">
+<script src=\"/$GlblVar::SCL_HTDOCS/js_files/callcgiscripts.js\"></script>
+<script src=\"/$GlblVar::SCL_HTDOCS/js_files/jquery.min.js\"></script>
+<script src=\"/$GlblVar::SCL_HTDOCS/js_files/bootstrap.min.js\"></script>
+<script src=\"/$GlblVar::SCL_HTDOCS/js_files/jquery.autosize.js\"></script>
 <style>
 .head_div{background:none repeat scroll 0px 0px #5678AA; color:#fff;}
 h3{margin-top:2px !important; font-size:30px;}
@@ -80,10 +83,10 @@ sub tail {
  $ans1 =~ s/>/&gt;/g;
  $ans1 =~ s/\-\^/\^/;
  print "<div id = \"navigation\"><center> Constituency parse:$ans1 <br />";
-        print "<a href=\"/cgi-bin/scl/NN/CG/generate.cgi?nne=$ans&amp;type=C\" target=\"_blank\">View Conceptual Graph</a><br />";
-        print "<a href=\"/cgi-bin/scl/NN/CG/generate.cgi?nne=$ans&amp;type=R\" target=\"_blank\">View Compressed Conceptual Graph</a><br />";
-        print "<a href=\"/cgi-bin/scl/NN/Type_identifier/generate.cgi?nne=$ans;\" target=\"_blank\">Type-identifier</a><br />";
- print "<a href=\"/scl/NN/segmenter/index.html\">Try Another<\/a></center>
+        print "<a href=\"/cgi-bin/$GlblVar::SCL_CGI/NN/CG/generate.cgi?nne=$ans&amp;type=C\" target=\"_blank\">View Conceptual Graph</a><br />";
+        print "<a href=\"/cgi-bin/$GlblVar::SCL_CGI/NN/CG/generate.cgi?nne=$ans&amp;type=R\" target=\"_blank\">View Compressed Conceptual Graph</a><br />";
+        print "<a href=\"/cgi-bin/$GlblVar::SCL_CGI/NN/Type_identifier/generate.cgi?nne=$ans;\" target=\"_blank\">Type-identifier</a><br />";
+ print "<a href=\"/$GlblVar::SCL_HTDOCS/NN/segmenter/index.html\">Try Another<\/a></center>
         <br />
 </div>
 </div>
@@ -98,7 +101,7 @@ $title = "<div class=\"container-full\">
 	<h3>न्यायचित्रदीपिका</h3>
 	<p>A Constituency Parser for Navya-Nyaya Expressions</p>
 	<p>Department of Sanskrit Studies, University of Hyderabad.</p>
-	<h3><a href=\"/scl/\">Samsaadhanii</a></h3>
+	<h3><a href=\"/$GlblVar::SCL_HTDOCS/\">Samsaadhanii</a></h3>
 </header> 
 </center>";
 
@@ -109,7 +112,7 @@ $contribution = "<div class=\"tail\"> &nbsp; </div>
 <td id=\"copy-verify\">
 <p>
     <a href=\"http://validator.w3.org/check?uri=referer\"><img
-        src=\"/scl/images/w3c.jpg\"
+        src=\"/$GlblVar::SCL_HTDOCS/images/w3c.jpg\"
         alt=\"Valid XHTML 1.0 Transitional\" height=\"31\" width=\"\" style=\"border-style:none;\" /></a>
 </p>
 </td>
@@ -120,7 +123,7 @@ $contribution = "<div class=\"tail\"> &nbsp; </div>
 </td>
 <td>
 <center>
-<p> <span class=\"cons1\"><a href=\"/scl/contributors.html\">Contributors</a></span></p>
+<p> <span class=\"cons1\"><a href=\"/$GlblVar::SCL_HTDOCS/contributors.html\">Contributors</a></span></p>
 </center>
 </td>
 </tr>
