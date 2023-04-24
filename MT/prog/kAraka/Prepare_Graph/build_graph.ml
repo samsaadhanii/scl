@@ -356,7 +356,10 @@ value no_boundary_crossing2 id1 id2 boundary =
 value no_boundary_crossing_hi id1 id2 hi_pos =
   if ((id1=hi_pos-1)  && (id2 < hi_pos)) then False else True
 (* In the case of hi, the word previous to hi should be related to the words after hi, and hot before hi. 
-ewax icCAmi aham Srowum param kOwUhalam hi me *)
+ewax icCAmi aham Srowum param kOwUhalam hi me 
+
+This condition is not correct.
+For example, kupyawi ekaH hi a-lABawaH, in this example ekaH is related to kupyawi.*)
 ;
 
 value no_boundary_crossing1 id1 id2 =
@@ -367,7 +370,7 @@ value no_boundary_crossing1 id1 id2 =
     &&  no_boundary_crossing2 id1 id2 wasmAw_pos.val
     &&  no_boundary_crossing2 id1 id2 yawaH_pos.val
     (* &&  no_boundary_crossing2 id1 id2 wawaH_pos.val *)
-    &&  no_boundary_crossing_hi id1 id2 hi_pos.val
+    (* &&  no_boundary_crossing_hi id1 id2 hi_pos.val -- condition removed, see the counter example below the definition of this function *)
     &&  (no_boundary_crossing2 id1 id2 wawra_pos.val || yawra_pos.val = 50)
     &&  no_boundary_crossing2 id1 id2 waWApi_pos.val
     &&  no_boundary_crossing2 id1 id2 warhi_pos.val
@@ -2406,26 +2409,33 @@ value rlnirXAraNam m1 m2 text_type = match m1 with
 (* A sort of phrase formation: upapaxa and vIpsA *)
 
 value rlvIpsA m1 m2 text_type = match m2 with
-  [ Sup (id2,cid2,mid2,word2,rt2,_,_,lifgam2,viBakwiH2,vacanam2,_) -> match m1 with
-     [ Sup (id1,cid1,mid1,word1,rt1,_,_,lifgam1,viBakwiH1,vacanam1,_) -> 
-      supAxi_vIpsa id1 cid1 mid1 id2 cid2 mid2 word1 word2 rt1 rt2 vacanam1 vacanam2 lifgam1 lifgam2 viBakwiH1 viBakwiH2 "21.1"
+  [ Sup (id2,cid2,mid2,word2,rt2,_,uwwarapaxa2,lifgam2,viBakwiH2,vacanam2,_) -> match m1 with
+     [ Sup (id1,cid1,mid1,word1,rt1,_,uwwarapaxa1,lifgam1,viBakwiH1,vacanam1,_) -> 
+	if not (uwwarapaxa1 = "y") && not (uwwarapaxa2 = "y")
+        then supAxi_vIpsa id1 cid1 mid1 id2 cid2 mid2 word1 word2 rt1 rt2 vacanam1 vacanam2 lifgam1 lifgam2 viBakwiH1 viBakwiH2 "21.1"
+	else []
      | _ -> []
      ]
-  | Kqw (id2,cid2,mid2,word2,_,_,_,_,_,_,_,rt2,_,_,lifgam2,viBakwiH2,vacanam2,_) -> match m1 with
-     [ Kqw (id1,cid1,mid1,word1,_,_,_,_,_,_,_,rt1,_,_,lifgam1,viBakwiH1,vacanam1,_) ->
-      supAxi_vIpsa id1 cid1 mid1 id2 cid2 mid2 word1 word2 rt1 rt2 vacanam1 vacanam2 lifgam1 lifgam2 viBakwiH1 viBakwiH2 "22.2"
+  | Kqw (id2,cid2,mid2,word2,_,_,_,_,_,_,_,rt2,_,uwwarapaxa2,lifgam2,viBakwiH2,vacanam2,_) -> match m1 with
+     [ Kqw (id1,cid1,mid1,word1,_,_,_,_,_,_,_,rt1,_,uwwarapaxa1,lifgam1,viBakwiH1,vacanam1,_) ->
+	if not (uwwarapaxa1 = "y") && not (uwwarapaxa2 = "y")
+        then supAxi_vIpsa id1 cid1 mid1 id2 cid2 mid2 word1 word2 rt1 rt2 vacanam1 vacanam2 lifgam1 lifgam2 viBakwiH1 viBakwiH2 "22.2"
+	else []
      | _ -> []
      ]
-  | WaxXiwa (id2,cid2,mid2,word2,rt2,_,_,_,lifgam2,viBakwiH2,vacanam2,_) -> match m1 with
-     [ WaxXiwa (id1,cid1,mid1,word1,rt1,_,_,_,lifgam1,viBakwiH1,vacanam1,_) ->
-      supAxi_vIpsa id1 cid1 mid1 id2 cid2 mid2 word1 word2 rt1 rt2 vacanam1 vacanam2 lifgam1 lifgam2 viBakwiH1 viBakwiH2 "23.3"
+  | WaxXiwa (id2,cid2,mid2,word2,rt2,_,_,uwwarapaxa2,lifgam2,viBakwiH2,vacanam2,_) -> match m1 with
+     [ WaxXiwa (id1,cid1,mid1,word1,rt1,_,_,uwwarapaxa1,lifgam1,viBakwiH1,vacanam1,_) ->
+	if not (uwwarapaxa1 = "y") && not (uwwarapaxa2 = "y")
+        then supAxi_vIpsa id1 cid1 mid1 id2 cid2 mid2 word1 word2 rt1 rt2 vacanam1 vacanam2 lifgam1 lifgam2 viBakwiH1 viBakwiH2 "23.3"
+	else []
      | _ -> []
      ]
-  | Avy (id2,cid2,mid2,word2,_,_,_,_) -> match m1 with
-     [ Avy (id1,cid1,mid1,word1,_,_,_,_) ->
+  | Avy (id2,cid2,mid2,word2,_,_,uwwarapaxa2,_) -> match m1 with
+     [ Avy (id1,cid1,mid1,word1,_,_,uwwarapaxa1,_) ->
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
        if   id1=previous id2 
          && word1=word2
+	 && not (uwwarapaxa1 = "y") && not (uwwarapaxa2 = "y")
        then [ Relation (id1,cid1,mid1,"vIpsA",id2,cid2,mid2,"24.4",d12)]
        else []
      | _ -> []
