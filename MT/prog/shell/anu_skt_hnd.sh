@@ -167,7 +167,7 @@ hnd_gen () {
 
  csv2xlsx () {
    $ANU_MT_PATH/kAraka/draw_graph.pl $GraphvizDot $temp_files_path < $temp_files_path/table_outscript.tsv
-   $MYPYTHONPATH $ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table_outscript.tsv $temp_files_path/table.xlsx
+   #$MYPYTHONPATH $ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table_outscript.tsv $temp_files_path/table.xlsx
  }
 
 ########      Main routine starts here
