@@ -119,6 +119,8 @@ if ($out_encoding eq "I") {$out_converter="$GlblVar::SCLINSTALLDIR/converters/wx
          $ans = `echo "$ans" | tail -1 | sed 's/input/\@input/' | sed 's/segmentation/\@segmentation/' | $out_converter`;
       }
          $ans =~ s/input:/input: "/;
+	 $ans =~ s/input/"input"/;
+         $ans =~ s/segmentation/"segmentation"/;
          $ans =~ s/,/",/;
          $ans =~ s/\[/["/;
          $ans =~ s/\]/"]/;
