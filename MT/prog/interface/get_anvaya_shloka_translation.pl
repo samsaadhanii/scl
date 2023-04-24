@@ -33,7 +33,7 @@ sub get_anvaya_order {
   $word_pos{$flds[2]} = $i;
  }
 
- @new_order = sort (values %shloka_order);
+ @new_order = sort {10*$a <=> 10*$b} (values %shloka_order);
  $i = 1;
  foreach $new_order (@new_order) {
    $new_in[$i] = $in[$word_pos{$new_order}];
