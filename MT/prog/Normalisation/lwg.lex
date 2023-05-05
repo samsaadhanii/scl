@@ -45,8 +45,8 @@
 [ ]waWA[ ]hi	{printf(" waWAhi");}
 ^waWA[ ]iwi	{printf("waWewi");}
 [ ]waWA[ ]iwi	{printf(" waWewi");}
-^na[ ]ca	{printf("naca");}
-[ ]na[ ]ca	{printf(" naca");}
+   /* ^na[ ]ca	{printf("naca");}
+[ ]na[ ]ca	{printf(" naca");} */
 ^na[ ]hi	{printf("nahi");}
 [ ]na[ ]hi	{printf(" nahi");}
 ^no[ ]cew	{printf("nocew");}
