@@ -14,49 +14,49 @@ all:
 	cd NN; make
 
 install:
-	rm -rf $(HTDOCSDIR)/scl
-	rm -rf $(CGIDIR)/scl
+	rm -rf $(HTDOCSDIR)/$(SCL_HTDOCS)
+	rm -rf $(CGIDIR)/$(SCL_CGI)
 	cd converters; make install
 	cd sandhi; make install
 	cd MT; make install
 	cd htdocs; make install
 	cd skt_gen; make install
 	cd transliteration; make install
-	cp paths.pl paths.sh cgi_interface.pl $(CGIDIR)/scl
+	cp paths.pl paths.sh cgi_interface.pl $(CGIDIR)/$(SCL_CGI)
 	cd ashtadhyayi_simulator/june12; make install
 	cd amarakosha; make install
 	cd NN; make install
-	cp -r dhaatupaatha $(HTDOCSDIR)/scl
-	cp scl_help.pdf $(HTDOCSDIR)/scl
-	mkdir -p $(HTDOCSDIR)/scl/e-readers
-	cp -r e-readers/sankshepa_ramayanam $(HTDOCSDIR)/scl/e-readers
-	cp -r e-readers/shishu $(HTDOCSDIR)/scl/e-readers
+	cp -r dhaatupaatha $(HTDOCSDIR)/$(SCL_HTDOCS)
+	cp scl_help.pdf $(HTDOCSDIR)/$(SCL_HTDOCS)
+	mkdir -p $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers
+	cp -r e-readers/sankshepa_ramayanam $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers
+	cp -r e-readers/shishu $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers
 	cd e-readers/sbg; make install
-	cp -r GOLD_DATA $(HTDOCSDIR)/scl
+	cp -r GOLD_DATA $(HTDOCSDIR)/$(SCL_HTDOCS)
 
 install_server:
-	rm -rf $(HTDOCSDIR)/scl
-	rm -rf $(CGIDIR)/scl
+	rm -rf $(HTDOCSDIR)/$(SCL_HTDOCS)
+	rm -rf $(CGIDIR)/$(SCL_CGI)
 	cp htdocs/statcounter.js htdocs/statcounter_dummy.js
 	cd sandhi; make install
 	cd MT; make install
 	cd htdocs; make install
 	cd skt_gen; make install
 	cd transliteration; make install
-	cp paths.pl paths.sh $(CGIDIR)/scl
+	cp paths.pl paths.sh $(CGIDIR)/$(SCL_CGI)
 	cd ashtadhyayi_simulator/june12; make install
 	cd amarakosha; make install
 	cd NN; make install
-	cp -r dhaatupaatha $(HTDOCSDIR)/scl
-	cp scl_help.pdf $(HTDOCSDIR)/scl
-	mkdir -p $(HTDOCSDIR)/scl/e-readers
-	cp -r e-readers/sankshepa_ramayanam $(HTDOCSDIR)/scl/e-readers
+	cp -r dhaatupaatha $(HTDOCSDIR)/$(SCL_HTDOCS)
+	cp scl_help.pdf $(HTDOCSDIR)/$(SCL_HTDOCS)
+	mkdir -p $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers
+	cp -r e-readers/sankshepa_ramayanam $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers
 	cd e-readers/sbg; make install
-	#cp -r e-readers/shishu $(HTDOCSDIR)/scl/e-readers
-	cp -r GOLD_DATA $(HTDOCSDIR)/scl
+	#cp -r e-readers/shishu $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers
+	cp -r GOLD_DATA $(HTDOCSDIR)/$(SCL_HTDOCS)
 
 uninstall:
-	rm -r $(HTDOCSDIR)/scl $(CGIDIR)/scl $(TFPATH)
+	rm -r $(HTDOCSDIR)/$(SCL_HTDOCS) $(CGIDIR)/$(SCL_HTDOCS) $(TFPATH)
 
 clean:	
 	cd converters; make clean
