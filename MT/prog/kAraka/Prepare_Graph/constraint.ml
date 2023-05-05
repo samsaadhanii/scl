@@ -505,6 +505,7 @@ value not_allowed_sequence_rels rpair = match rpair with
   |(9,1009)
   |(1009,1009)
   |(1009,9) -> (*do { print_string "MYF";*)False (*}*)
+  | (76,36) (* viSeRaNa of sahArWa xyowaka not allowed*)
   (* pUrvakAla of karwA/karma not allowed *)
   | (7,25)
   | (14,25) -> False
@@ -1330,7 +1331,7 @@ value rec construct_dags init final wrdb dags text_type rel=
             ; print_newline()
             ; print_acc_len_cost dag8
             ; print_newline()
-            ; *) let dag9 = get_first 200 (final-init-4) [] (List.sort comparecostlength1 (List.sort_uniq compare_int dag8)) in  (* do {
+            ; *) let dag9 = get_first 300 (final-init-4) [] (List.sort comparecostlength1 (List.sort_uniq compare_int dag8)) in  (* do {
              print_string "dag9= "
             ; print_string "size of dag9="
             ; print_int (List.length dag9)
