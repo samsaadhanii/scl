@@ -33,9 +33,9 @@ my $lifga_wx = $ARGV[2];
 my $encoding = $ARGV[3];
 
 if ($encoding eq "IAST") {
-         $conversion_program = "$GlblVar::CGIDIR/scl/converters/wx2utf8roman.out";
+         $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8roman.out";
  } else {
-         $conversion_program = "$GlblVar::CGIDIR/scl/converters/ri_skt | $GlblVar::CGIDIR/scl/converters/iscii2utf8.py 1";
+         $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1";
 	 $encoding = "DEV";
  }
 
@@ -97,15 +97,15 @@ while($in = <STDIN>){
 #### Sub routines ####
 #
 sub script_header{
-print "<script type=\"text/javascript\" src=\"/scl/js_files/jquery.min.js\"></script>";
-print "<script type=\"text/javascript\" src=\"/scl/js_files/callcgiscripts.js\"></script>";
-print "<script type=\"text/javascript\" src=\"/scl/js_files/transliteration.js\"></script>";
+print "<script type=\"text/javascript\" src=\"/$GlblVar::SCL_HTDOCS/js_files/jquery.min.js\"></script>";
+print "<script type=\"text/javascript\" src=\"/$GlblVar::SCL_HTDOCS/js_files/callcgiscripts.js\"></script>";
+print "<script type=\"text/javascript\" src=\"/$GlblVar::SCL_HTDOCS/js_files/transliteration.js\"></script>";
 
-print "<script src=\"/scl/js_files/jquery-ui.js\"></script>";
+print "<script src=\"/$GlblVar::SCL_HTDOCS/js_files/jquery-ui.js\"></script>";
 
-print "<link rel=\"stylesheet\" href=\"/scl/css_files/samsaadhanii.css\"/>";
-print "<link rel=\"stylesheet\" href=\"/scl/css_files/menu.css\"/>";
-print "<link rel=\"stylesheet\" href=\"/scl/css_files/sktmt.css\"/>";
+print "<link rel=\"stylesheet\" href=\"/$GlblVar::SCL_HTDOCS/css_files/samsaadhanii.css\"/>";
+print "<link rel=\"stylesheet\" href=\"/$GlblVar::SCL_HTDOCS/css_files/menu.css\"/>";
+print "<link rel=\"stylesheet\" href=\"/$GlblVar::SCL_HTDOCS/css_files/sktmt.css\"/>";
 }
 1;
 

@@ -42,12 +42,12 @@ print "Content-type:text/html;charset:UTF-8\n\n";
        print "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />";
       print "<script type=\"text/javascript\">\n";
       print "function show(word,encod){\n";
-      print "window.open('/cgi-bin/scl/MT/dict_options.cgi?word='+word+'&outencoding='+encod+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=yes').focus();\n }\n </script>";
+      print "window.open('/cgi-bin/$GlblVar::SCL_CGI/MT/dict_options.cgi?word='+word+'&outencoding='+encod+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=yes').focus();\n }\n </script>";
 
       print "</head>\n";
-      print "<body onload=\"register_keys()\"> <script src=\"/scl/MT/wz_tooltip.js\" type=\"text/javascript\"></script>\n";
+      print "<body onload=\"register_keys()\"> <script src=\"/$GlblVar::SCL_HTDOCS/MT/wz_tooltip.js\" type=\"text/javascript\"></script>\n";
 
-      my $result = `$GlblVar::CGIDIR/scl/skt_gen/waxXiwa/gen_waxXiwa.pl $word $encoding`;
+      my $result = `$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/waxXiwa/gen_waxXiwa.pl $word $encoding`;
       print $result;
       if($GlblVar::LOG eq "true"){
         print TMP1 "running:","calling gen_waxXiwa.pl from waxXiwa generator";

@@ -27,14 +27,15 @@ $RD_KQW{$_}=1;
 close(TMP);
 
 while($in = <STDIN>){
+  $pUrvapaxa = 0;
   #if($in !~ /<level:1/){ # Why this condition?
      chomp($in);
      $in =~ s/=/\//;
     ($word,@analysis) = split(/\//, $in);
  
     print $word,"=";
-    if ($word =~ /^-/) { $word =~ s/^-//;}
-    if ($word =~ /-\$/) { $word =~ s/-\$//;}
+    if ($word =~ /^-/) { $word =~ s/^-//; }
+    if ($word =~ /-\$/) { $word =~ s/-\$//; $pUrvapaxa = 1;}
 #    print "analysis = @analysis\n";
  
 # Split the word and its analysis.
@@ -42,7 +43,7 @@ while($in = <STDIN>){
     $tmp = "";    
     foreach ($i=0; $i<=$#analysis;$i++){
         $rt = &get_rt($analysis[$i]);
-        if( ($rt ne "") && ($RD_KQW{$rt} || $RD_KQW{$word})) {
+        if( ($rt ne "") && ($RD_KQW{$rt} || $RD_KQW{$word}) && ($pUrvapaxa == 1)) {
            $analysis[$i] =~ s/^([^\/]+)>$rt</$rt</;
            $analysis[$i] =~ s/^([^\-]+)\-([^\/]+)>$rt</$1-$rt</;
 	#For new kqw analysis:

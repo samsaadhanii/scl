@@ -113,6 +113,7 @@ value relations_encodings = [
 	("AvaSyakawA_pariNAma_sambanXaH",209);
 	("samAnAXikaraNam",1009);
 	("upamAnam_rahiwa_upamAna_xyowakaH",1080);
+	("T6",5006);
         ]
 ;
 

@@ -24,8 +24,8 @@ use utf8;
 use Encode qw/ decode /;
 
 require "../paths.pl";
-require "$GlblVar::CGIDIR/scl/cgi_interface.pl";
-require "$GlblVar::CGIDIR/scl/MT/get_dict_entry.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/MT/get_dict_entry.pl";
 
 package main;
 

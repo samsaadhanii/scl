@@ -11,15 +11,15 @@ $(SUBDIRS):
 	$(MAKE) -C $@
 
 install:
-	mkdir -p $(HTDOCSDIR)/scl/NN/CG; mkdir -p $(CGIDIR)/scl/NN/CG; mkdir -p $(TFPATH)/NN/CG; chown $(APACHE_USER_GROUP) $(TFPATH)/NN; chown $(APACHE_USER_GROUP) $(TFPATH)/NN/CG; cd CG/web_interface; sh install.sh html $(HTDOCSDIR)/scl/NN/CG; cp *.cgi $(CGIDIR)/scl/NN/CG; 
-	mkdir -p $(CGIDIR)/scl/NN/parser; mkdir -p $(HTDOCSDIR)/scl/NN/parser; mkdir -p $(TFPATH)/NN/parser; chown $(APACHE_USER_GROUP) $(TFPATH)/NN/parser; cp parser/web_interface/*.cgi $(CGIDIR)/scl/NN/parser; cd parser/web_interface; sh install.sh html $(HTDOCSDIR)/scl/NN/parser;
-	mkdir -p $(CGIDIR)/scl/NN/segmenter; mkdir -p $(HTDOCSDIR)/scl/NN/segmenter; mkdir -p $(TFPATH)/NN/segmenter;  chown $(APACHE_USER_GROUP) $(TFPATH)/NN/segmenter; cp segmenter/web_interface/*.cgi $(CGIDIR)/scl/NN/segmenter; cd segmenter/web_interface; sh install.sh html $(HTDOCSDIR)/scl/NN/segmenter;
-	mkdir -p $(CGIDIR)/scl/NN/Type_identifier; mkdir -p $(HTDOCSDIR)/scl/NN/Type_identifier; mkdir -p $(TFPATH)/NN/Type_identifier;  chown $(APACHE_USER_GROUP) $(TFPATH)/NN/Type_identifier; cp Type_identifier/web_interface/*.cgi $(CGIDIR)/scl/NN/Type_identifier; cd Type_identifier/web_interface; sh install.sh html $(HTDOCSDIR)/scl/NN/Type_identifier;
-	cd $(HTDOCSDIR)/scl/NN/CG; ln -sf $(TFPATH)/NN/CG DOT
-	cd $(HTDOCSDIR)/scl/NN/parser; ln -sf $(TFPATH)/NN/parser DOT
-	cd $(HTDOCSDIR)/scl/NN/Type_identifier; ln -sf $(TFPATH)/NN/Type_identifier DOT
-	cp -r css_files $(HTDOCSDIR)/scl/NN
-	cp -r js_files $(HTDOCSDIR)/scl/NN
+	mkdir -p $(HTDOCSDIR)/$GlblVar::SCL_HTDOCS/NN/CG; mkdir -p $(CGIDIR)/$GlblVar::SCL_CGI/NN/CG; mkdir -p $(TFPATH)/NN/CG; chown $(APACHE_USER_GROUP) $(TFPATH)/NN; chown $(APACHE_USER_GROUP) $(TFPATH)/NN/CG; cd CG/web_interface; sh install.sh html $(HTDOCSDIR)/$GlblVar::SCL_HTDOCS/NN/CG; cp *.cgi $(CGIDIR)/$GlblVar::SCL_CGI/NN/CG; 
+	mkdir -p $(CGIDIR)/$GlblVar::SCL_CGI/NN/parser; mkdir -p $(HTDOCSDIR)/$GlblVar::SCL_HTDOCS/NN/parser; mkdir -p $(TFPATH)/NN/parser; chown $(APACHE_USER_GROUP) $(TFPATH)/NN/parser; cp parser/web_interface/*.cgi $(CGIDIR)/$GlblVar::SCL_CGI/NN/parser; cd parser/web_interface; sh install.sh html $(HTDOCSDIR)/$GlblVar::SCL_HTDOCS/NN/parser;
+	mkdir -p $(CGIDIR)/$GlblVar::SCL_CGI/NN/segmenter; mkdir -p $(HTDOCSDIR)/$GlblVar::SCL_HTDOCS/NN/segmenter; mkdir -p $(TFPATH)/NN/segmenter;  chown $(APACHE_USER_GROUP) $(TFPATH)/NN/segmenter; cp segmenter/web_interface/*.cgi $(CGIDIR)/$GlblVar::SCL_CGI/NN/segmenter; cd segmenter/web_interface; sh install.sh html $(HTDOCSDIR)/$GlblVar::SCL_HTDOCS/NN/segmenter;
+	mkdir -p $(CGIDIR)/$GlblVar::SCL_CGI/NN/Type_identifier; mkdir -p $(HTDOCSDIR)/$GlblVar::SCL_HTDOCS/NN/Type_identifier; mkdir -p $(TFPATH)/NN/Type_identifier;  chown $(APACHE_USER_GROUP) $(TFPATH)/NN/Type_identifier; cp Type_identifier/web_interface/*.cgi $(CGIDIR)/$GlblVar::SCL_CGI/NN/Type_identifier; cd Type_identifier/web_interface; sh install.sh html $(HTDOCSDIR)/$GlblVar::SCL_HTDOCS/NN/Type_identifier;
+	cd $(HTDOCSDIR)/$GlblVar::SCL_HTDOCS/NN/CG; ln -sf $(TFPATH)/NN/CG DOT
+	cd $(HTDOCSDIR)/$GlblVar::SCL_HTDOCS/NN/parser; ln -sf $(TFPATH)/NN/parser DOT
+	cd $(HTDOCSDIR)/$GlblVar::SCL_HTDOCS/NN/Type_identifier; ln -sf $(TFPATH)/NN/Type_identifier DOT
+	cp -r css_files $(HTDOCSDIR)/$GlblVar::SCL_HTDOCS/NN
+	cp -r js_files $(HTDOCSDIR)/$GlblVar::SCL_HTDOCS/NN
 
 clean:
 	cd CG; make clean

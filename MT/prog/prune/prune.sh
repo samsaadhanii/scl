@@ -42,7 +42,7 @@ $BIN_PATH/remove_derived_prAtipadikas.pl |\
 
 #Earlier we added the kqw analysis later. Now derivational analysis is produced simultaneously with the inflectional morph analysis. Hence this programme is removed.
 
-$BIN_PATH/remove_derivational_analysis_of_rUDa_kqws.pl $BIN_PATH/../morph/rUDa_kqw.txt  |\
+$BIN_PATH/remove_derivational_analysis_of_rUDa_kqws.pl $BIN_PATH/../morph/rUDa_kqw.txt |\
 $BIN_PATH/remove_inflectional_analysis_of_derived_words.pl  |\
 $BIN_PATH/rm_saMKyA.pl |\
 $BIN_PATH/handle_samboXana.pl D  2> /dev/null  |\

@@ -49,10 +49,10 @@ print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
       print "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />";
       print "<script type=\"text/javascript\">\n";
       print "function show(word,encod){\n";
-      print "window.open('/cgi-bin/scl/MT/dict_options.cgi?word='+word+'&outencoding='+encod+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=yes').focus();\n }\n </script>";
+      print "window.open('/cgi-bin/$GlblVar::SCL_CGI/MT/dict_options.cgi?word='+word+'&outencoding='+encod+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no, status=yes').focus();\n }\n </script>";
 
       print "</head>\n";
-      print "<body onload=\"register_keys()\"> <script src=\"/scl/MT/wz_tooltip.js\" type=\"text/javascript\"></script>\n";
+      print "<body onload=\"register_keys()\"> <script src=\"/$GlblVar::SCL_HTDOCS/MT/wz_tooltip.js\" type=\"text/javascript\"></script>\n";
       my $result = &gen_waxXiwa_noun($rt,$gen,$encoding,$prawyaya);
       print $result;
       if($GlblVar::LOG eq "true"){
@@ -92,7 +92,7 @@ sub gen_waxXiwa_noun {
  #print TMP $LTPROC_IN;
  #close (TMP);
 
- $str = "echo '".$LTPROC_IN."' | $generator | grep . | pr -3 -a -t | tr ' ' '\t' | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1| $GlblVar::CGIDIR/scl/skt_gen/waxXiwa/html_format.pl $rt_wx $lifga_wx $encoding";
+ $str = "echo '".$LTPROC_IN."' | $generator | grep . | pr -3 -a -t | tr ' ' '\t' | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1| $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/waxXiwa/html_format.pl $rt_wx $lifga_wx $encoding";
  system($str);
 }
 1;

@@ -39,9 +39,9 @@ require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 	  print "<div id=\"imgitems\" class=\"parsetrees\">\n<center>\n<ul id=\"trees\">\n"; 
           $filename =~ s/^..//;
           $filename =~ s/\/$//;
-          if(-e "$GlblVar::HTDOCSDIR/scl/MT/DEMO/$filename/$sentnum.dot") {
-               system("$GlblVar::GraphvizDot -Tsvg -o$GlblVar::HTDOCSDIR/scl/MT/DEMO/$filename/$sentnum.svg $GlblVar::HTDOCSDIR/scl/MT/DEMO/$filename/$sentnum.dot");
-               print "<img src=\"/scl/MT/DEMO/$filename/$sentnum.svg\" width=\"\" height=\"\" kddalt=\"graph showing all relations\"></li>\n";
+          if(-e "$GlblVar::HTDOCSDIR/$GlblVar::SCL_HTDOCS/MT/DEMO/$filename/$sentnum.dot") {
+               system("$GlblVar::GraphvizDot -Tsvg -o$GlblVar::HTDOCSDIR/$GlblVar::SCL_HTDOCS/MT/DEMO/$filename/$sentnum.svg $GlblVar::HTDOCSDIR/$GlblVar::SCL_HTDOCS/MT/DEMO/$filename/$sentnum.dot");
+               print "<img src=\"/$GlblVar::SCL_HTDOCS/MT/DEMO/$filename/$sentnum.svg\" width=\"\" height=\"\" kddalt=\"graph showing all relations\"></li>\n";
           }
           print "</ul> </center> </div> </body> </html>\n";
 #      }

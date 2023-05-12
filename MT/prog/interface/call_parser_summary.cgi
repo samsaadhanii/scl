@@ -52,14 +52,14 @@ my %param = &get_parameters();
           my $text_type = "Prose";
           $pid =~ /_([0-9])/;
           my $sentno = $1;
-          system("$GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::CGIDIR/scl $dirname/in$pid $GlblVar::TFPATH $lang $outscript $morph $parse $text_type $sentno 2>> $dirname/err$pid");
+          system("$GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::CGIDIR/$GlblVar::SCL_CGI $dirname/in$pid $GlblVar::TFPATH $lang $outscript $morph $parse $text_type $sentno 2>> $dirname/err$pid");
 	  system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $outscript $pid NIL $text_type $GlblVar::SCL_HTDOCS $GlblVar::SCL_CGI");
       } else {
       print "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n";
       print "<html xmlns=\"http://www.w3.org/1999/xhtml\">";
       print "<html><head><title>Anusaaraka</title>\n";
       print "<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=UTF-8\" />\n";
-      print "<link href=\"/scl/MT/Sanskrit_style.css\" type=\"text/css\" rel=\"stylesheet\" />\n ";
+      print "<link href=\"/$GlblVar::SCL_HTDOCS/MT/Sanskrit_style.css\" type=\"text/css\" rel=\"stylesheet\" />\n ";
       print "<style type=\"text/css\">\n";
       print "table { margin-top:20px;}\n";
       print "<\/style>\n";

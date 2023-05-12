@@ -55,7 +55,7 @@ my %param = &get_parameters();
 	  my $parse = "AVAILABLE";
 	  my $text_type = "Prose";
 	  
-	  my $cmd = "$GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::CGIDIR/scl $dirname/$fn $GlblVar::TFPATH $lang $outscript $morph $parse $text_type 2>> $dirname/err$fn";
+	  my $cmd = "$GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::CGIDIR/$GlblVar:SCL_CGI $dirname/$fn $GlblVar::TFPATH $lang $outscript $morph $parse $text_type 2>> $dirname/err$fn";
           system($cmd);
 
-          print "<img src=\"/scl/MT/DEMO/tmp_$fn/${sentnum}.svg\" width=\"\" height=\"\" kddalt=\"graph for parse number 1\">\n";
+          print "<img src=\"/$GlblVar::SCL_HTDOCS/MT/DEMO/tmp_$fn/${sentnum}.svg\" width=\"\" height=\"\" kddalt=\"graph for parse number 1\">\n";

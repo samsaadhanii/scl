@@ -19,8 +19,8 @@
 
 use utf8;
 require "../../paths.pl";
-require "$GlblVar::CGIDIR/scl/cgi_interface.pl";
-require "$GlblVar::CGIDIR/scl/skt_gen/kqw/kqw_gen_subroutines.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/kqw/kqw_gen_subroutines.pl";
 
 #
 ###################  Main function #################

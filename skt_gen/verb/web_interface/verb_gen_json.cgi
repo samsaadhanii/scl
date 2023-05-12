@@ -37,5 +37,5 @@ package main;
 
       $upasarga =~ s/Y/_/g;
 
-      my $result = `$GlblVar::CGIDIR/scl/skt_gen/verb/gen_verb.pl $encoding $outencoding $prayoga $upasarga $word $paxI json`;
+      my $result = `$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/verb/gen_verb.pl $encoding $outencoding $prayoga $upasarga $word $paxI json`;
       print $result;

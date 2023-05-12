@@ -23,7 +23,7 @@ use utf8;
 require "../../paths.pl";
 require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 
-my $myPATH ="$GlblVar::HTDOCSDIR/scl/skt_gen/compounds";
+my $myPATH ="$GlblVar::HTDOCSDIR/$GlblVar::SCL_HTDOCS/skt_gen/compounds";
 
 use warnings;
 #use CGI ':standard';

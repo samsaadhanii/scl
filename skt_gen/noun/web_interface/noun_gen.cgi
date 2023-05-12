@@ -19,8 +19,8 @@
 
 use utf8;
 require "../../paths.pl";
-require "$GlblVar::CGIDIR/scl/cgi_interface.pl";
-require "$GlblVar::CGIDIR/scl/skt_gen/noun/noun_gen_subroutines.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/noun/noun_gen_subroutines.pl";
 
 #
 ###################  Main function #################
@@ -61,9 +61,9 @@ package main;
 	$rt_wx = &convert($encoding,$rt);
 
 	if ($outencoding eq "IAST") {
-	 $conversion_program = "$GlblVar::CGIDIR/scl/converters/wx2utf8roman.out";
+	 $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8roman.out";
 	} else {
-	 $conversion_program = "$GlblVar::CGIDIR/scl/converters/ri_skt | $GlblVar::CGIDIR/scl/converters/iscii2utf8.py 1";
+	 $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1";
 	}
 
 	my @forms= &gen_noun_forms($rt_wx,$jAwi,$gen,$level,$format,$conversion_program,$outencoding);

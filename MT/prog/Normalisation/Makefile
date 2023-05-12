@@ -1,6 +1,6 @@
 SHELL = /bin/sh
 
-TARGETS = lwg.out
+TARGETS = lwg.out get_std_spelling.out
 
 LIBPATH = /usr/lib
 
@@ -18,7 +18,10 @@ endef
 lwg.out: lwg.lex
 	$(run_lex)
 
-.PHONY: all
+get_std_spelling.out: get_std_spelling.c
+	$(CC) -g -Wall get_std_spelling.c -o get_std_spelling.out
+
+.PHONY: all clean
 
 clean:
 	rm -f $(TARGETS)

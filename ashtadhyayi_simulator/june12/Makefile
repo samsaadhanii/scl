@@ -59,7 +59,7 @@ clean:
 	rm -f $(TARGETS)
 
 install:
-	mkdir -p $(HTDOCSDIR)/scl/ashtadhyayi_simulator
-	mkdir -p $(CGIDIR)/scl/ashtadhyayi_simulator
-	cp ../web_interface/*.html $(HTDOCSDIR)/scl/ashtadhyayi_simulator
-	cp ../web_interface/*.cgi $(CGIDIR)/scl/ashtadhyayi_simulator
+	mkdir -p $(HTDOCSDIR)/$(SCL_HTDOCS)/ashtadhyayi_simulator
+	mkdir -p $(CGIDIR)/$(SCL_CGI)/ashtadhyayi_simulator
+	cp ../web_interface/*.html $(HTDOCSDIR)/$(SCL_HTDOCS)/ashtadhyayi_simulator
+	cp ../web_interface/*.cgi $(CGIDIR)/$(SCL_CGI)/ashtadhyayi_simulator

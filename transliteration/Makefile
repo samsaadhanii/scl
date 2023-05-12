@@ -3,4 +3,4 @@ SHELL = /bin/sh
 include ../paths.sh
 
 install:
-	mkdir -p $(HTDOCSDIR)/scl/transliteration; mkdir -p $(CGIDIR)/scl/transliteration; cp *.html $(HTDOCSDIR)/scl/transliteration; cp *.cgi $(CGIDIR)/scl/transliteration;
+	mkdir -p $(HTDOCSDIR)/$(SCL_HTDOCS)/transliteration; mkdir -p $(CGIDIR)/$(SCL_CGI)/transliteration; cp *.html $(HTDOCSDIR)/$(SCL_HTDOCS)/transliteration; cp *.cgi $(CGIDIR)/$(SCL_CGI)/transliteration;

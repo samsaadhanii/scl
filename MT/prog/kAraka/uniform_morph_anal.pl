@@ -44,13 +44,16 @@ while($in = <STDIN>){
           $ana_count = 1;
         
         foreach $wrd_ana (@w_ana) {
+          #if (($pUrvapaxa eq "y") || ($uwwarapaxa eq "y")) {$cat = "samAsa";}
+          #else { $cat = &get_cat($wrd_ana);}
           $cat = &get_cat($wrd_ana);
 
           if($wrd_ana =~ /<upapaxa_cp:/) {
              $wrd_ana =~ s/^([^<]+)<upapaxa_cp:([^>]+)>/$2/;
           }
 
-          if(($cat ne "samAsa") && ($cat ne "ajFAwa")){
+          #if(($cat ne "samAsa") && ($cat ne "ajFAwa")){
+          if($cat ne "ajFAwa"){
             $wrd_ana =~ s/<vargaH:[^>]+>//;
 	    $wrd_ana =~ s/,/COMMA/g;
 
@@ -71,6 +74,7 @@ while($in = <STDIN>){
             if($cat eq "kqw") {
                $wrd_ana =~ s/^([^<]+)</(kqw_XAwu $1)</;
                $wrd_ana =~ s/<kqw_pratipadika:([^>]+)>/(rt $1)(pUrvapaxa $pUrvapaxa)(uwwarapaxa $uwwarapaxa)/g;
+		if($pUrvapaxa eq "y") { $wrd_ana =~ s/<level:2>/(viBakwiH 0) (vacanam n) (level 2)/;}
             } else { 
                  $wrd_ana =~ s/^([^<]+)</(rt $1)(pUrvapaxa $pUrvapaxa)(uwwarapaxa $uwwarapaxa)</;
             }
@@ -98,9 +102,10 @@ sub get_cat{
   my($cat);
 
    $cat = "";
-   if($in =~ /<vargaH:sapUp/) {
-           $cat="samAsa";
-   }elsif($in =~ /<vargaH:avy><waxXiwa_prawyayaH:/) {
+   #if($in =~ /<vargaH:sapUp/) {
+   #        $cat="samAsa";
+   #}els
+   if($in =~ /<vargaH:avy><waxXiwa_prawyayaH:/) {
            $cat="avywaxXiwa";
    }elsif($in =~ /waxXiwa_prawyayaH:/) {
       $cat="waxXiwa";

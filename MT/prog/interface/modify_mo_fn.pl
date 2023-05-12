@@ -39,7 +39,7 @@ sub modify_mo{
   $in =~ s/<vargaH:saMKyeyam>/ saMKyeyam/g;
   $in =~ s/<vargaH:saMKyA>/ saMKyA/g;
   $in =~ s/<vargaH:sarva>/ sarvanAma/g;
-  $in =~ s/<vargaH:sapUpa><lifgam:[^>]+>/-/g;
+  #$in =~ s/<vargaH:sapUpa><lifgam:[^>]+>//g;
   $in =~ s/<vargaH:nA_[^>]+>/<vargaH:nA>/g;
   #$in =~ s/<vargaH:[^>]+>//g; # nA is needed for morph display
   $in =~ s/<lifgam:a>/ /g;

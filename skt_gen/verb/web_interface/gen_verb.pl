@@ -93,7 +93,7 @@ package main;
 #$str =~ s/>/&gt;/g;
 #print "str = $str\n";
   if ($format eq "web") {
-     $str = "echo '".$LTPROC_IN."' | $ltproc_cmd | $conv_program |$GlblVar::CGIDIR/scl/skt_gen/verb/verb_format_html.pl $outencoding";
+     $str = "echo '".$LTPROC_IN."' | $ltproc_cmd | $conv_program |$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/verb/verb_format_html.pl $outencoding";
      system($str);
   } else { # if $format = "json"
      $str = "echo '".$LTPROC_IN."' | $ltproc_cmd ";
@@ -123,7 +123,7 @@ package main;
 #$str =~ s/>/&gt;/g;
 #print "str = $str\n";
   if ($format eq "web") {
-     $str = "echo '".$LTPROC_IN."' | $ltproc_cmd | $conv_program |$GlblVar::CGIDIR/scl/skt_gen/verb/verb_format_html.pl $outencoding";
+     $str = "echo '".$LTPROC_IN."' | $ltproc_cmd | $conv_program |$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/verb/verb_format_html.pl $outencoding";
      system($str);
   } else { # if $format = "json"
      $str = "echo '".$LTPROC_IN."' | $ltproc_cmd ";

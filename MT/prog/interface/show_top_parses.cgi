@@ -48,8 +48,8 @@ require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
           $filename =~ s/^..//;
           $filename =~ s/\/$//;
           $i=1;
-          while(-e "$GlblVar::HTDOCSDIR/scl/MT/DEMO/$filename/${sentnum}$i.dot") {
-            print "<li>Solution $i: <img src=\"/scl/MT/DEMO/$filename/${sentnum}$i.svg\" width=\"\" height=\"\" kddalt=\"graph showing all relations\"></li>\n";
+          while(-e "$GlblVar::HTDOCSDIR/$GlblVar::SCL_HTDOCS/MT/DEMO/$filename/${sentnum}$i.dot") {
+            print "<li>Solution $i: <img src=\"/$GlblVar::SCL_HTDOCS/MT/DEMO/$filename/${sentnum}$i.svg\" width=\"\" height=\"\" kddalt=\"graph showing all relations\"></li>\n";
      $i++;
     }
         print "</ul> </center> </div> </body> </html>\n";

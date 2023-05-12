@@ -22,12 +22,12 @@ rm lex.yy.c
 endef
 
 install:
-	mkdir -p $(CGIDIR)/scl/converters
-	cp *.out $(CGIDIR)/scl/converters
-	cp *.pl $(CGIDIR)/scl/converters
-	cp *.sh $(CGIDIR)/scl/converters
-	cp *.py $(CGIDIR)/scl/converters
-	cp ir ir_skt ri ri_skt $(CGIDIR)/scl/converters
+	mkdir -p $(CGIDIR)/$(SCL_CGI)/converters
+	cp *.out $(CGIDIR)/$(SCL_CGI)/converters
+	cp *.pl $(CGIDIR)/$(SCL_CGI)/converters
+	cp *.sh $(CGIDIR)/$(SCL_CGI)/converters
+	cp *.py $(CGIDIR)/$(SCL_CGI)/converters
+	cp ir ir_skt ri ri_skt $(CGIDIR)/$(SCL_CGI)/converters
 
 
 add_vowel_sep.out: add_vowel_sep.lex

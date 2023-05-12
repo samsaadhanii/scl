@@ -465,11 +465,11 @@ value not_allowed_sequence_rels rpair = match rpair with
   |(9,37)
  (* viSeRaNa of gawikarwA not allowed *)
   |(36,200)
- (* samucciwa of samucciwa is not allowed  -- Why? 
+ (* samucciwa of samucciwa is not allowed *)
   |(32,32)
   |(33,33)
   |(34,34)
-  |(35,35)    We can have rAmaH sIwA ca lakRmaNaH ca, where we will have samucciwa of samucciwa *)
+  |(35,35) (* rAmaH sIwA ca lakRmaNaH ca -- here it is not samucciwa of samucciwa, but several samucciwas, just like viSeRaNa *)
 (* karwA / karma of a karmasamAnAXikaraNam not allowed *)
   |(13,7)
   |(13,10)
@@ -634,6 +634,7 @@ value rec add_cost text_type acc rels=fun
             else if rel = 202  then 7 * dist (* BkarwA -> karwA *)
             else if rel = 203  then 14 * dist (* Bkarma -> karma *)
             else if rel >= 205  then (rel-200) * dist (* AvaSyakawA/pariNAma *)
+            else if rel = 5006  then 0
             else if a1 > a2 
                  then if rel=32 then 0
                       else if text_type="Prose" && rel=38
@@ -1018,16 +1019,17 @@ value rec seq_expectancy relations relsindag=
     let maprel=List.map (fun y -> List.nth relations (y-1) ) relsindag in
         loop maprel
         where rec loop=fun
-            [ [] -> True
+            [ [] -> True (*do { print_string "True\n"; True}*)
             | [ Relationc (a,b1,b,r1,c,d1,d,dist1) :: rest] -> 
                  (*do { print_string "r1=";print_int r1; print_string "\n"; *)
                  match r1 with
                  [ 3 | 4 | 5 | 9 | 13 | 16 | 17 | 52 | 53 | 54 | 55 | 56 | 57 | 59 | 76 |  77 |  79 | 80 | 42 | 41 | 68 | 69 | 12 |  97 | 32 | 33 | 34 | 35 | 45 | 46 | 47 | 48  | 202 | 203 -> 
                   loop1 maprel
                        where rec loop1=fun
-                       [ [] -> False
-                       | [Relationc (x,y1,y,r2,z,t1,t,dist2)::rest1] -> if not(r1=r2) then
-    			        (*do { 
+                       [ [] -> False (* do { print_string "False\n"; False} *)
+                       | [Relationc (x,y1,y,r2,z,t1,t,dist2)::rest1] -> 
+                              if not(r1=r2) then
+    			        (* do {
                                    print_string "r2=";print_int r2; print_string " ";
                                    print_string "r1=";print_int r1; print_string " ";
                                    print_int a; print_string " ";
@@ -1039,8 +1041,8 @@ value rec seq_expectancy relations relsindag=
                                    print_int z; print_string " ";
                                    print_int t; print_string "\n" ; *)
                                if (z=a && t=b) then 
-                                     if (r1 = 3 || r1 = 4 || r1 = 5) then if (r2 = 202 || r2 = 203 || r2 = 24) then True else loop1 rest1 
-                                     else if (r1 = 202 || r1 = 203) then if (r2 = 3 || r2 = 4 || r2 = 5) then True else loop1 rest1 
+                                     if (r1 = 3 || r1 = 4 || r1 = 5) then if (r2 = 202 || r2 = 203 || r2 = 24) then loop rest else loop1 rest1 
+                                     else if (r1 = 202 || r1 = 203) then if (r2 = 3 || r2 = 4 || r2 = 5) then loop rest else loop1 rest1 
                                      (* rAme vanam gacCawi sIwA anusarawi ; SAswra-sampAwe pravqwwe XanuH uxyamya pANdavaH ixam abravIw *)
                                      else if r1=53 then if r2=52 then loop rest else loop1 rest1
                                      else if r1=54 then if r2=55 then loop rest else loop1 rest1
@@ -1054,8 +1056,8 @@ value rec seq_expectancy relations relsindag=
                                      else if r1=6 then if r2=9 then loop rest else loop1 rest1
                                      else loop1 rest1
                                else if (c=x && d=y) then
-                                     if (r2 = 3 || r2 = 4 || r2 = 5) then if (r1 = 202 || r1 = 203 || r2 = 24) then True else loop1 rest1 
-                                     else if (r2 = 202 || r2 = 203) then if (r1 = 3 || r1 = 4 || r1 = 5) then True else loop1 rest1 
+                                     if (r2 = 3 || r2 = 4 || r2 = 5) then if (r1 = 202 || r1 = 203 || r2 = 24) then loop rest else loop1 rest1 
+                                     else if (r2 = 202 || r2 = 203) then if (r1 = 3 || r1 = 4 || r1 = 5) then loop rest else loop1 rest1 
                                      (* rAme vanam gacCawi sIwA anusarawi ; SAswra-sampAwe pravqwwe XanuH uxyamya pANdavaH ixam abravIw *)
                                      else if r1=52 then if r2=53 then loop rest else loop1 rest1
                                      else if r1=55 then if r2=54 then loop rest else loop1 rest1
@@ -1089,11 +1091,11 @@ value rec seq_expectancy relations relsindag=
                                      else if r1=92 then if (r2=7 || r2 = 14 || r2 = 18) then loop rest else loop1 rest1 (*If there is sahArWa, then there should be either karwA,karma or karaNa relation *)
                                      else if r2=92 then if (r1=7 || r1 = 14 || r1 = 18) then loop rest else loop1 rest1 (*If there is sahArWa, then there should be either karwA,karma or karaNa relation *)
                                      else loop1 rest1 
-                                else loop1 rest1   (*}*)
+                                else loop1 rest1   (* } *)
                                 else loop1 rest1
                        ]  (*} *)
                |_ -> loop rest
-               ] 
+               ] (*}*)
             ]
 ;
 

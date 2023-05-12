@@ -127,18 +127,18 @@ hnd_gen () {
  generate_anvaya () {
    $ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out > $temp_files_path/table.tsv
    
-   #   
-   if [ $TEXT_TYPE = "Sloka" ]; then
-   # Temporary commented. Sanal has to fix the programme.
-   $MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py -i $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv
-   #
-   else 
+   ##   
+   #if [ $TEXT_TYPE = "Sloka" ]; then
+   ## Temporary commented. Sanal has to fix the programme.
+   #$MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py -i $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv
+   ##
+   #else 
    cut -f1 $temp_files_path/table.tsv > $temp_files_path/1
    cut -f2 $temp_files_path/table.tsv > $temp_files_path/2
    cut -f4- $temp_files_path/table.tsv > $temp_files_path/3
    paste $temp_files_path/1 $temp_files_path/2 $temp_files_path/1 $temp_files_path/3 > $temp_files_path/anvaya.tsv
    rm $temp_files_path/1 $temp_files_path/2 $temp_files_path/3
-   fi
+   #fi
    #
  
    $my_converter < $temp_files_path/table.tsv > $temp_files_path/table_outscript.tsv

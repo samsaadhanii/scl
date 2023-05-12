@@ -35,11 +35,11 @@ package main;
 
 print "<script>\n";
 print "function generate_waxXiwa_noun_forms(encod,prAwi,lifga,suff){\n";
-print "  window.open('/cgi-bin/scl/skt_gen/waxXiwa/waxXiwa_noun_gen.cgi?encoding='+encod+'&rt='+prAwi+'&gen='+lifga+'&suffix='+suff+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
+print "  window.open('/cgi-bin/$GlblVar::SCL_CGI/skt_gen/waxXiwa/waxXiwa_noun_gen.cgi?encoding='+encod+'&rt='+prAwi+'&gen='+lifga+'&suffix='+suff+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
 print "}\n";
 
 print "function generate_waxXiwa_forms(encod,rt,gen){\n";
-print "  window.open('/cgi-bin/scl/skt_gen/waxXiwa/waxXiwa_gen.cgi?encoding='+encod+'&rt='+rt+'&gen='+gen+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
+print "  window.open('/cgi-bin/$GlblVar::SCL_CGI/skt_gen/waxXiwa/waxXiwa_gen.cgi?encoding='+encod+'&rt='+rt+'&gen='+gen+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
 print "}\n";
 print "</script>\n";
 
@@ -70,12 +70,12 @@ $rtutf8 = `echo $rt_wx | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::S
       } 
    }
 
-   $str1 = "echo '".$LTPROC_IN."' | $ltproc_cmd3 | $GlblVar::CGIDIR/scl/skt_gen/waxXiwa/waxXiwa_format_html.pl $rt_wx";
+   $str1 = "echo '".$LTPROC_IN."' | $ltproc_cmd3 | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/waxXiwa/waxXiwa_format_html.pl $rt_wx";
 
   $LTPROC_IN2 = "^"."${rt_wx}<vargaH:nA><waxXiwa_prawyayaH:wal><lifgam:swrI><level:0>"."\$";
   $LTPROC_IN2 .= "\n^"."${rt_wx}<vargaH:nA><waxXiwa_prawyayaH:wva><lifgam:napuM><level:0>"."\$";
 
-   $str2 = "echo '".$LTPROC_IN2."' | $ltproc_cmd1 | $GlblVar::CGIDIR/scl/skt_gen/waxXiwa/waxXiwa_ind_html.pl $rt_wx";
+   $str2 = "echo '".$LTPROC_IN2."' | $ltproc_cmd1 | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/waxXiwa/waxXiwa_ind_html.pl $rt_wx";
 
    #  print "str2 = ", $str2;
    $LTPROC_IN1 = "";
@@ -84,7 +84,7 @@ $rtutf8 = `echo $rt_wx | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::S
       $LTPROC_IN1 .=  $str."\n";
   }
 
-   $str3 = "echo '".$LTPROC_IN1."' | $ltproc_cmd1 | $GlblVar::CGIDIR/scl/skt_gen/waxXiwa/waxXiwa_avy_html.pl";
+   $str3 = "echo '".$LTPROC_IN1."' | $ltproc_cmd1 | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/waxXiwa/waxXiwa_avy_html.pl";
 
 print "<html><body>\n";
   print "<table border=0 width=100%>\n";
