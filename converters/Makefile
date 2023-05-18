@@ -25,7 +25,7 @@ install:
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/converters
 	cp *.out $(CGIDIR)/$(SCL_CGI)/converters
 	cp *.pl $(CGIDIR)/$(SCL_CGI)/converters
-	sed 'CGIDIR\/SCL_CGI/$(CGIDIR)\/$(SCL_CGI)/' < convert2WX_subroutines.pl > $(CGIDIR)/$(SCL_CGI)/converters
+	perl add_url_install.pl < convert2WX_subroutines.pl > $(CGIDIR)/$(SCL_CGI)/converters/convert2WX_subroutines.pl
 	cp *.sh $(CGIDIR)/$(SCL_CGI)/converters
 	cp *.py $(CGIDIR)/$(SCL_CGI)/converters
 	cp ir ir_skt ri ri_skt $(CGIDIR)/$(SCL_CGI)/converters

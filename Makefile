@@ -30,7 +30,7 @@ install:
 	cp scl_help.pdf $(HTDOCSDIR)/$(SCL_HTDOCS)
 	mkdir -p $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers
 	cp -r e-readers/sankshepa_ramayanam $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers
-	cp -r e-readers/shishu $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers; cd e-readers/shishu; sed 's/SCL_CGI/$(SCL_CGI)/' < assets/dicturl.json > $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers/shishu/assets/
+	cp -r e-readers/shishu $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers; cd e-readers/shishu/assets; perl add_url_install.pl < dicturl.json > $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers/shishu/assets/dicturl.json
 	cd e-readers/sbg; make install
 	cp -r GOLD_DATA $(HTDOCSDIR)/$(SCL_HTDOCS)
 
