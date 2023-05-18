@@ -31,7 +31,7 @@ require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 my $tmp_path="$GlblVar::TFPATH/NN/CG";
 my $converters_path="$GlblVar::SCLINSTALLDIR/converters";
 my $NNCG_path="$GlblVar::SCLINSTALLDIR/NN/CG";
-my $CG_htdocspath="/scl/NN/CG";
+my $CG_htdocspath="/$GlblVar::SCL_HTDOCS/NN/CG";
 
 #      my $cgi = new CGI;
 #      print $cgi->header (-charset => 'UTF-8');

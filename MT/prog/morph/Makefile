@@ -2,7 +2,7 @@ SHELL = /bin/sh
 include ../../../paths.sh
 
 install:
-	mkdir -p $(HTDOCSDIR)/$GlblVar::SCL_HTDOCS/morph;mkdir -p $(CGIDIR)/$GlblVar::SCL_CGI/morph; cp web_interface/*.html $(HTDOCSDIR)/$GlblVar::SCL_HTDOCS/morph; cp web_interface/*.cgi $(CGIDIR)/$GlblVar::SCL_CGI/morph; cp web_interface/*.css $(HTDOCSDIR)/$GlblVar::SCL_HTDOCS/morph; cp -r web_interface/images $(HTDOCSDIR)/$GlblVar::SCL_HTDOCS/morph/; cp web_interface/*.js $(HTDOCSDIR)/$GlblVar::SCL_HTDOCS/morph;
+	mkdir -p $(HTDOCSDIR)/$(SCL_HTDOCS)/morph;mkdir -p $(CGIDIR)/$(SCL_CGI)/morph; cp web_interface/*.html $(HTDOCSDIR)/$(SCL_HTDOCS)/morph; cp web_interface/*.cgi $(CGIDIR)/$(SCL_CGI)/morph; cp web_interface/*.css $(HTDOCSDIR)/$(SCL_HTDOCS)/morph; cp -r web_interface/images $(HTDOCSDIR)/$(SCL_HTDOCS)/morph/; cp web_interface/*.js $(HTDOCSDIR)/$(SCL_HTDOCS)/morph;
 #	mkdir -p /tmp/DEMO; chown APACHE_USER_GROUP /tmp/DEMO;ln -sfn /tmp/DEMO DEMO
 #	mkdir -p /tmp/DEMO/dot;
 

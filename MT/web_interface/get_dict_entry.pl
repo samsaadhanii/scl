@@ -37,7 +37,7 @@ sub get_dict_entry{
 
 my $word_wx = "";
 
-$Files_Path = "$GlblVar::HTDOCSDIR/scl/MT/data";
+$Files_Path = "$GlblVar::HTDOCSDIR/$GlblVar::SCL_HTDOCS/MT/data";
 
 chomp $word;
 # converting word utf8 to wx to get filename

@@ -18,9 +18,9 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 use utf8;
-require "$GlblVar::CGIDIR/paths.pl";
-require "$GlblVar::CGIDIR/cgi_interface.pl";
-require "$GlblVar::CGIDIR/convert2WX_subroutines.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/paths.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/convert2WX_subroutines.pl";
 
 package main;
 

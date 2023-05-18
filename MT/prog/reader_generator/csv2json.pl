@@ -6,7 +6,8 @@ chomp($in);
 $tot_columns = $#names;
 
 $first = 1;
-print "[";
+print "{";
+print "\"sent\":[";
 while($in = <STDIN>){
  chomp($in);
  if($in =~ /./) {
@@ -24,4 +25,4 @@ while($in = <STDIN>){
    $first = 0;
  }
 }
-print "}]";
+print "}]}";

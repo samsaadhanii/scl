@@ -18,8 +18,8 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 use utf8;
-require "$GlblVar::CGIDIR/$(SCL_CGI)/paths.pl";
-my $myPATH = "$GlblVar::CGIDIR/$(SCL_CGI)/converters";
+require "CGIDIR/SCL_CGI/paths.pl";
+my $myPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters";
 
 sub convert{
         my($encoding,$in_word) = @_;

@@ -1,6 +1,3 @@
-#/home/ambaji/scl/MT/prog/reader_generator/convert_anvya.pl < $1_a.txt |\
-#/home/ambaji/scl/MT/prog/reader_generator/convert.pl < $1_a.txt > $1_a.html
-
 source ../../../paths.sh
 $SCLINSTALLDIR/MT/prog/reader_generator/convert.pl $SCLINSTALLDIR $2 < $1.txt > $1.html
 

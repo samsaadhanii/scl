@@ -19,15 +19,15 @@
 
 require "../paths.pl";
 
-print "<script type=\"text/javascript\" src=\"/scl/js_files/jquery.min.js\"></script>";
-print "<script type=\"text/javascript\" src=\"/scl/js_files/callcgiscripts.js\"></script>";
-print "<script type=\"text/javascript\" src=\"/scl/js_files/transliteration.js\"></script>";
+print "<script type=\"text/javascript\" src=\"/$GlblVar::SCL_HTDOCS/js_files/jquery.min.js\"></script>";
+print "<script type=\"text/javascript\" src=\"/$GlblVar::SCL_HTDOCS/js_files/callcgiscripts.js\"></script>";
+print "<script type=\"text/javascript\" src=\"/$GlblVar::SCL_HTDOCS/js_files/transliteration.js\"></script>";
 
-print "<script src=\"/scl/js_files/jquery-ui.js\"></script>";
+print "<script src=\"/$GlblVar::SCL_HTDOCS/js_files/jquery-ui.js\"></script>";
 
-print "<link rel=\"stylesheet\" href=\"/scl/css_files/samsaadhanii.css\"/>";
-print "<link rel=\"stylesheet\" href=\"/scl/css_files/menu.css\"/>";
-print "<link rel=\"stylesheet\" href=\"/scl/css_files/sktmt.css\"/>";
+print "<link rel=\"stylesheet\" href=\"/$GlblVar::SCL_HTDOCS/css_files/samsaadhanii.css\"/>";
+print "<link rel=\"stylesheet\" href=\"/$GlblVar::SCL_HTDOCS/css_files/menu.css\"/>";
+print "<link rel=\"stylesheet\" href=\"/$GlblVar::SCL_HTDOCS/css_files/sktmt.css\"/>";
 
 @vib = ("प्रथमा","द्वितीया","तृतीया","चतुर्थी","पञ्चमी","षष्ठी","सप्तमी","सं.प्र");
 @vib_num = ("praWamA","xviwIyA","wqwIyA","cawurWI","paFcamI","RaRTI","sapwamI","samboXana");

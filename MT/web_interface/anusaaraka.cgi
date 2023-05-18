@@ -150,10 +150,13 @@ package main;
         }
 	print "<\/body><\/html>\n";
     } elsif ($mode eq "json") {
+        if ($i == 1) {print "[";}
         system("$GlblVar::SCLINSTALLDIR/MT/prog/reader_generator/csv2json.pl < $GlblVar::TFPATH/tmp_in$pid/table_outscript.tsv"); 
+	if ($i <= $#sentences) { print ",";}
     }
     }
    }
+   if ($mode eq "json") { print "]";}
   if($GlblVar::LOG eq "true") {
     close(TMP1);
   }
