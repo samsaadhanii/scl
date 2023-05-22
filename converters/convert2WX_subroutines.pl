@@ -19,7 +19,7 @@
 
 use utf8;
 require "CGIDIR/SCL_CGI/paths.pl";
-my $myPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters";
+my $myPATH = "CGIDIR/SCL_CGI/converters";
 
 sub convert{
         my($encoding,$in_word) = @_;

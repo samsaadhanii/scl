@@ -74,12 +74,12 @@ while($in = <STDIN>){
             if($cat eq "kqw") {
                $wrd_ana =~ s/^([^<]+)</(kqw_XAwu $1)</;
                $wrd_ana =~ s/<kqw_pratipadika:([^>]+)>/(rt $1)(pUrvapaxa $pUrvapaxa)(uwwarapaxa $uwwarapaxa)/g;
-		if($pUrvapaxa eq "y") { $wrd_ana =~ s/<level:2>/(viBakwiH 0) (vacanam n) (level 2)/;}
             } else { 
                  $wrd_ana =~ s/^([^<]+)</(rt $1)(pUrvapaxa $pUrvapaxa)(uwwarapaxa $uwwarapaxa)</;
             }
 	   
 
+	    if($pUrvapaxa eq "y") { $wrd_ana =~ s/<level:([0-4])>/(viBakwiH 0) (vacanam n) (level $1)/;}
             $wrd_ana =~ s/^([^<]+)$//g;
             $wrd_ana =~ s/<([^:]+):([^>]+)>/($1 $2)/g;
             $wrd_ana =~ s/\)\(/\) \(/g;
@@ -113,8 +113,8 @@ sub get_cat{
            $cat="kqw";
    } elsif($in =~ /<kqw_prawyayaH:.*<kqw_pratipadika:/) {
            $cat="kqw";
-   } elsif($in =~ /<vargaH:SaUPa/) {
-           $cat="samAsa";
+   } elsif($in =~ /<vargaH:sapUpa/) {
+           $cat="sup";
    } elsif($in =~ /<vargaH:(nA|sarva|pUraNam|saMKyeyam|saMKyA)/) {
            $cat="sup";
    } elsif($in =~ /<vargaH:avy>.*<kqw_prawyayaH:/) {
