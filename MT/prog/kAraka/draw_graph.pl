@@ -48,31 +48,32 @@ $parse = 1;
 
 $dotfl_nm = "$parse.dot"; 
 open TMP1, ">${path}/${dotfl_nm}" || die "Can't open ${path}/${dotfl_nm} for writing";
+#open TMP1, ">/Users/ambakulkarni/a.dot";
  print TMP1 $hdr;
 
 @in = <STDIN>;
 
 	for ($i=1;$i<$#in;$i++) {  #The count starts with 1; since the 1st line that corresponds to the heading is to be ignored.
           @flds = split(/\t/,$in[$i]);
-          if ($flds[0] =~ /^([0-9]+)[\.\।]([2-9])/) {
-             $label .= $flds[1];
-          } else {$label = $flds[1];}
+         # if ($flds[0] =~ /^([0-9]+)[\.\।]([2-9])/) {
+         #    $label .= $flds[1];
+         # } else {$label = $flds[1];}
+         $label = $flds[1];
           $flds[0] =~ /^([0-9]+)[\.\।]/;
-          $pos = $1;
-          $word[$pos] = $label."(".$pos.")";
+          $word{$flds[0]} = $label."(".$flds[0].")";
           $tmp = $flds[8];
           $tmp =~ s/@//;
-          $wcolor[$pos] = $color{$tmp}; 
+          $wcolor{$flds[0]} = $color{$tmp}; 
          
-         if ($flds[1] !~ /-$/) {  #If not compound pUrvapaxa, write the node
+         #if ($flds[1] !~ /-$/) {  #If not compound pUrvapaxa, write the node
              @rels = split(/;/,$flds[6]);
              for ($z=0;$z<=$#rels;$z++) {
-             if($rels[$z] =~ /([^,]+),([0-9]+)[\.\।]/) {
+             if($rels[$z] =~ /([^,]+),([0-9\.\।]+)/) {
                 $rel_nm = $1;
                 $d_id = $2;
                 $s_id = $flds[0];
-                $s_id =~ s/^([0-9]+).*/$1/; # Remove the component id
-                $d_id =~ s/^([0-9]+).*/$1/; # Remove the component id
+                #$s_id =~ s/^([0-9]+).*/$1/; # Remove the component id
+                #$d_id =~ s/^([0-9]+).*/$1/; # Remove the component id
                 $is_cluster = 0;
                 if (&niwya_relations($rel_nm)){ # niwya sambanXaH or niwya_sambanXaH1
                       $style = "dashed color=\"red\"";
@@ -120,12 +121,14 @@ open TMP1, ">${path}/${dotfl_nm}" || die "Can't open ${path}/${dotfl_nm} for wri
              if($style ne "") { $s_str = "style=$style";} else {$s_str = "";}
 
              if (($rel_nm !~ /abhihita/) && ($rel_nm !~ /अभिहित/)){
+                $s_id =~ s/\./_/;
+                $d_id =~ s/\./_/;
 	        $rel_str .= "\nNode$s_id -> Node$d_id \[ $s_str label=\"".$rel_nm."\"  dir=\"$dir\" \]";
              }
             }
            }
 	   $solnfound = 1;
-        }
+        #}
       }
       if ($solnfound) {
          if ($rel_str ne "") {
@@ -166,17 +169,17 @@ my($i,@rel_str,$node,$nodes,@nodes,$node_id,$indx_id,$z,$r,$from,$to);
  ## Add all the nodes that were not printed earlier.
     for ($z=1;$z<=$tot_words;$z++){
             @flds = split(/\t/,$in[$z]);
-            if ($flds[0] =~ /^([0-9]+)[\.\।]([2-9])/) {
-             $label .=  $flds[1];
-            } else {$label = $flds[1];}
+            #if ($flds[0] =~ /^([0-9]+)[\.\।]([2-9])/) {
+            # $label .=  $flds[1];
+            #} else {$label = $flds[1];}
+            $label = $flds[1];
             $flds[0] =~ /^([0-9]+)[\.\।]/;
-            $pos = $1;
-            $word[$pos] = $label."(".$pos.")";
+            $word{$flds[0]} = $label."(".$flds[0].")";
             $tmp = $flds[8];
             $tmp =~ s/@//;
-            $wcolor[$pos] = $color{$tmp}; 
+            $wcolor{$flds[0]} = $color{$tmp}; 
             if (($flds[1] =~ /^-/) && ($word_found{$flds[0]} != 1)){
-                 &print_node_info($z,$word[$pos],$wcolor[$pos]);
+                 &print_node_info($z,$word{$flds[0]},$wcolor{$flds[0]});
             }
     }
          @rel_str = split(/\n/,$rel_str);
@@ -211,13 +214,14 @@ sub print_all_nodes_info{
    $nodes =~ s/#//g;
    @nodes = split(/,/,$nodes);
    foreach $node (@nodes) {
-      &print_node_info($node,$word[$node],$wcolor[$node]);
+      &print_node_info($node,$word{$node},$wcolor{$node});
    }
 }
 1;
 
 sub print_node_info{
     my($node,$word,$color) = @_;
+    $node =~ s/\./_/;
     print TMP1 "Node$node [style=filled, color=\"$color\" ";
     if($color eq "#FFAEB9") { print TMP1 "shape=rectangle ";}
     print TMP1 "label = \"$word\"]\n";
