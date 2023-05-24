@@ -111,3 +111,4 @@ iṣkarma 214
 āvaśyakatā_pariṇāma_sambandhaḥ 209
 samānādhikaraṇam 1009
 upamānam_rahita_upamāna_dyotakaḥ 1080
+ṣaṣṭhīsambandhaḥ_samāsa 5006
