@@ -121,7 +121,7 @@ value print_relation r=match r with
     ; print_int (i1-1); print_string ","
     ; print_int (i2-1); print_string ","
     ; print_int (i3-1); print_string ","
-    ; if (i4 >= 2000) then print_int (i4 - (i4 mod 100)) 
+    ; if (i4 >= 2000)  && (i4 < 5000) then print_int (i4 - (i4 mod 100)) 
       else if (i4=1009) then print_int 9 
       else if (i4=1080) then print_int 80 
       else if (i4=70) then print_int 39  (* hewuH -> hewu *)
@@ -135,6 +135,7 @@ value print_relation r=match r with
       else if (i4=203) then print_int 14  (* Bkarma -> karma*)
       else if (i4=8) then print_int 9  (* karwqrahiwakarwqsamAnAXikaraNa -> viXeya_viSeRaNam *)
       else if (i4=40) then print_int 41  (* prayojanam1 -> prayojanam *)
+      else if (i4=5006) then print_int 38  (* RaRTIsambaXaH_samAsaH -> RaRTIsambanXaH *)
       else print_int i4
     ; print_string ","
     ; print_int (i5-1); print_string ","
@@ -192,9 +193,9 @@ value collapse_upapada_relations relations part_dag a b1 b c d e1 e f=
             match rel with
             [Relationc (u,v1,v,w,x,y1,y,z) -> 
                     let acc1 =
-                    if c >= 2000 && c < 4000 && w >= 4000
+                    if c >= 2000 && c < 4000 && w >= 4000 && w < 5000
                     then join_relations a b1 b c d e e1 f u v1 v w x y1 y z
-                    else if c >= 4000 && w >= 2000 && w < 4000
+                    else if c >= 4000 && c < 5000 && w >= 2000 && w < 4000
                     then join_relations u v1 v w x y1 y z a b1 b c d e1 e f
                     else if c >= 2000 &&  c < 2100 && w=21
                     then join_relations a b1 b c d e1 e f u v1 v w x y1 y z
@@ -219,12 +220,12 @@ value collapse_upapada_relations relations part_dag a b1 b c d e1 e f=
 value lwg_and_collapse relations dag =
     loop [] relations dag
     where rec loop acc relations=fun
-    [ [] -> acc
+    [ [] -> acc 
     | [ r :: l ] ->
            let rel=List.nth relations (r-1) in
             match rel with
             [Relationc (a,b1,b,c,d,e1,e,f) -> 
-               if c < 2000
+               if c < 2000 || c > 5000
                then let acc1=if c=91  (* avaXiH  not defined in build_graph.ml! *)
                                then  List.append acc  [Relationc (a,b1,b,0,d,e1,e,f)] 
                                else if c =214
@@ -288,16 +289,28 @@ value no_direct_cycle m1 m2=match m1 with
     ]
 ;
 
+
+value distinct m1 m2 = match m1 with
+    [ Relationc (to_id1,to_cid1,to_mid1,r1,from_id1,from_cid1,from_mid1,dist1) -> match m2 with
+      [Relationc (to_id2,to_cid2,to_mid2,r2,from_id2,from_cid2,from_mid2,dist2) -> 
+	if to_id1 = to_id2 && to_cid1 = to_cid2 && to_mid1 = to_mid2  &&
+	   from_id1 = from_id2 && from_cid1 = from_cid2 && from_mid1 = from_mid2 
+        then False else True
+      ]
+    ]
+;
+
+
 value single_morph_per_word m1 m2=match m1 with
     [ Relationc (to_id1,to_cid1,to_mid1,r1,from_id1,from_cid1,from_mid1,dist1) -> match m2 with
       [Relationc (to_id2,to_cid2,to_mid2,r2,from_id2,from_cid2,from_mid2,dist2) -> 
             (* Two morph analyses for a word *)
 
-         if (to_id1=to_id2) && not (to_mid1=to_mid2) then False (* do { print_string "C1"; False} *)
-         else if (to_id1=from_id2) && not (to_mid1=from_mid2) then False (* do { print_string "C2"; False} *)
-         else if (from_id1=from_id2) && not (from_mid1=from_mid2) then False (* do { print_string "C3"; False} *)
-         else if (from_id1=to_id2) && not (from_mid1=to_mid2) then False (* do { print_string "C4"; False} *)
-         else True
+         if (to_id1=to_id2) && (to_cid1=to_cid2) && not (to_mid1=to_mid2) then  False (*  do { print_int to_id1; print_int to_id2;print_int to_cid1; print_int to_cid2;print_string "C1\n"; False} *)
+         else if (to_id1=from_id2) && (to_cid1=from_cid2) && not (to_mid1=from_mid2) then  False (*  do { print_int to_id1; print_int from_id2;print_int to_cid1; print_int from_cid2;print_string "C2\n"; False} *)
+         else if (from_id1=from_id2) && (from_cid1=from_cid2) && not (from_mid1=from_mid2) then  False  (* do { print_int from_id1; print_int from_id2; print_int from_cid1; print_int from_cid2; print_string "C3\n"; False} *)
+         else if (from_id1=to_id2) && (from_cid1=to_cid2) && not (from_mid1=to_mid2) then  False  (* do { print_int from_id1; print_int to_id2; print_int from_cid1; print_int to_cid2; print_string "C4\n"; False} *)
+         else True 
       ]
     ]
 ;
@@ -306,23 +319,23 @@ value single_relation_label m1 m2= match m1 with
     [ Relationc (to_id1,to_cid1,to_mid1,r1,from_id1,from_cid1,from_mid1,dist1) -> match m2 with
       [Relationc (to_id2,to_cid2,to_mid2,r2,from_id2,from_cid2,from_mid2,dist2) -> 
             (* Two incoming arrows (*with diff labels*) except niwya_sambanXaH (=101, & 102) *)
-         if    (to_id1=to_id2) && (to_mid1=to_mid2) && (from_id1=from_id2) && (from_mid1=from_mid2) 
+         if    (to_id1=to_id2) && (to_cid1=to_cid2) && (to_mid1=to_mid2) && (from_id1=from_id2) && (from_cid1=from_cid2) && (from_mid1=from_mid2) 
             && not (r1=r2) && not(r1=101) && not(r2=101)
          then False
-         else if (to_id1=to_id2) && (to_mid1=to_mid2) (*&& not (r1=r2) *)
+         else if (to_id1=to_id2) && (to_cid1=to_cid2) && (to_mid1=to_mid2) (*&& not (r1=r2) *)
          && not (r1=101) && not(r2=102) 
          && not (r1=102) && not(r2=101) 
          then False  (*do { print_string "C5"; False}*)
             (* Two outgoing arrows with same label *)
-         else if (from_id1=from_id2) && (from_mid1=from_mid2) && (r1=r2)
+         else if (from_id1=from_id2) && (from_cid1=from_cid2) && (from_mid1=from_mid2) && (r1=r2)
               && ( (r1 < multiple_relations_begin  && not (r1=101))
                   || (r1 > multiple_relations_end && not (r1=102) && not (r1=32) && not (r1=33) && not (r1=34) && not (r1=35)) || (r1=38)
                   ) (* niwya sambanXaH (=101,102)*)
          then False (*do { print_string "C9"; False}*)
             (* there can not be another outgoing rel with an upapaxa sambanXa*)
-         else if (from_id1=from_id2) && (from_mid1=from_mid2) && ((r1 >= 2000  && r1 < 4000) || (r2 >= 2000 && r2 < 4000)) 
+         else if (from_id1=from_id2) && (from_cid1=from_cid2) && (from_mid1=from_mid2) && ((r1 >= 2000  && r1 < 4000) || (r2 >= 2000 && r2 < 4000)) 
          then False  (*do { print_string "C9"; print_int r1; print_int r2;False} *)
-         else if  (from_id1=to_id2) && (from_mid1=to_mid2) 
+         else if  (from_id1=to_id2) && (from_cid1=from_cid2) && (from_mid1=to_mid2) 
                && r1=82 (*vIpsA*) && (r2=101 || r2=102)
               then False  (*do { print_string "C10"; False} *)
          else True  (*do {print_string "C11"; True}*)
@@ -366,10 +379,10 @@ value no_crossing text_type rel m1 m2=match m1 with
                match List.nth rel j with
                [ Relationc (id1,mid1,r,id2,mid2,dist2)  ->
                   if (r=32) &&
-                   ((id1=to_id1 && mid1=to_mid1 && id2=from_id2 && mid2=from_mid2) ||
-                   (id1=from_id2 && mid1=from_mid2 && id2=to_id1 && mid2=to_mid1) ||
-                   (id1=to_id2 && mid1=to_mid2 && id2=from_id1 && mid2=from_mid1) ||
-                   (id1=from_id1 && mid1=from_mid1 && id2=to_id2 && mid2=to_mid2))
+                   ((id1=to_id1 && cid1=to_cid1 && mid1=to_mid1 && id2=from_id2 && mid2=from_mid2) ||
+                   (id1=from_id2 && cid1=from_cid2 && mid1=from_mid2 && id2=to_id1 && mid2=to_mid1) ||
+                   (id1=to_id2 && cid1=to_cid2 && mid1=to_mid2 && id2=from_id1 && mid2=from_mid1) ||
+                   (id1=from_id1 && cid1=from_cid1 && mid1=from_mid1 && id2=to_id2 && mid2=to_mid2))
                   then loop True (length+1) 
                   else loop False (j+1) 
                | _  ->  True
@@ -379,8 +392,8 @@ value no_crossing text_type rel m1 m2=match m1 with
     ]
 ;
 
-value same_root from_id1 from_id2 from_mid1 from_mid2 =
-         if (from_id1=from_id2) && (from_mid1=from_mid2) then True else False
+value same_root from_id1 from_id2 from_cid1 from_cid2 from_mid1 from_mid2 =
+         if (from_id1=from_id2) && (from_cid1=from_cid2) && (from_mid1=from_mid2) then True else False
 
 ;
 
@@ -432,8 +445,8 @@ value outgoing_incompatible_rels rpair = match rpair with
    ]
  ; 
 
- value sequence from_id from_mid to_id to_mid =
-      from_id=to_id && from_mid=to_mid
+ value sequence from_id from_cid from_mid to_id to_cid to_mid =
+      from_id=to_id && from_cid=to_cid && from_mid=to_mid
 ;
 
 value not_allowed_sequence_rels rpair = match rpair with
@@ -508,8 +521,8 @@ value not_allowed_sequence_rels rpair = match rpair with
   | (76,36) (* viSeRaNa of sahArWa xyowaka not allowed*)
   (* pUrvakAla of karwA/karma not allowed *)
   | (7,25)
-  | (14,25) -> False
-  | (_,_) -> (*do { print_string "MYT";*)True (*}*)
+  | (14,25) ->  False
+  | (_,_) -> True
   ]
  (* a samboXyaH can be only of the root verb  or an embeded verb in iwi clause 
       else if top=47  && not (bottom=13)  then False *)
@@ -525,7 +538,7 @@ value relation_mutual_ayogyataa text_type m1 m2=match m1 with
          (* Allow viRayAXikaraNam;
            xAsyoH vacaneRu mahiRyAH nirAwiSayA SraxXA Bavawi *)
 (* need example *)
-       if (from_id1=from_id2) && (from_mid1=from_mid2)
+       if (from_id1=from_id2) && (from_cid1=from_cid2) && (from_mid1=from_mid2)
               && (  ((r2 > 9 && r2 < 22) && ((r1=36) || (r1=8) || (r1=9)))
                  || ((r1 > 9 && r1 < 22) && ((r2=36) || (r2=8) || (r1=9))))
          then False  (* do { print_string "C13"; False} *)
@@ -533,19 +546,19 @@ value relation_mutual_ayogyataa text_type m1 m2=match m1 with
       (* There can not be a samboXya of a verb, which is viSeRaNa/pUrvakAla etc. Only 'iwi' relation with such verbs are allowed. 
               samboXya=48; vAkyakarama=12 ; prawiyogi=3*)
 (* need example *)
-         else if (from_id2=to_id1) && (from_mid2=to_mid1)
+         else if (from_id2=to_id1) && (from_cid2=to_cid1) && (from_mid2=to_mid1)
                 && (r2=48) && (r1=12)
          then False
-         else if (from_id1=to_id2) && (from_mid1=to_mid2)
+         else if (from_id1=to_id2) && (from_cid1=to_cid2) && (from_mid1=to_mid2)
                 && (r1=48) && not (r2=12)
          then False
-         else if same_root from_id1 from_id2 from_mid1 from_mid2
+         else if same_root from_id1 from_id2 from_cid1 from_cid2 from_mid1 from_mid2
          then outgoing_incompatible_rels (r1,r2)
-         else if sequence from_id2 from_mid2 to_id1 to_mid1
+         else if sequence from_id2 from_cid2 from_mid2 to_id1 to_cid1 to_mid1
          then not_allowed_sequence_rels (r1,r2)
-         else if sequence from_id1 from_mid1 to_id2 to_mid2
+         else if sequence from_id1 from_cid1 from_mid1 to_id2 to_cid2 to_mid2
          then not_allowed_sequence_rels (r2,r1)
-         else True
+         else True  (*do { print_string "RA\n"; True}*)
       ]
     ]
 ;
@@ -555,7 +568,7 @@ value relation_mutual_ayogyataa text_type m1 m2=match m1 with
     [ Relationc (to_id1,to_mid1,r1,from_id1,from_mid1,dist1) -> match m2 with
       [Relationc (to_id2,to_mid2,r2,from_id2,from_mid2,dist2) -> 
 
-         if from_id1=to_id2 && from_mid1=to_mid2
+         if from_id1=to_id2 && from_cid1=to_cid2 && from_mid1=to_mid2
                 && r1=25 && not (r2=300) && not (r2=45) (* pUrvakAla is allowed only if either it is directly connected to the main verb, in case there exists another relation then the other relation is either a pratoyogi / anuyogi *)
          then False
          else True
@@ -575,7 +588,49 @@ value relation_mutual_ayogyataa text_type m1 m2=match m1 with
     ]
 ;*)
 
+(* Needed only for debugging
+*)
+value print_sint i=do
+ { print_int i
+ ; print_string ";"
+ }
+;
+
+value rec print_acc=fun
+[[] -> ()
+|[(a,b)::xs] -> do { List.iter print_sint a; print_string " => "
+                   ; List.iter print_sint b; print_string "\n"
+                   ; print_acc xs
+                   }
+                   
+]
+;
+
+value rec print_acc_len=fun
+[[] -> ()
+|[(l,c,a)::xs] -> do { 
+                     print_sint l;
+                     print_sint c;
+                     List.iter print_sint a; print_string " => ";
+                     print_acc_len xs
+                   }
+]
+;
+
+value rec print_acc_len_cost=fun
+[[] -> ()
+|[(l,c,a,b)::xs] -> do { 
+                     print_sint l;
+                     print_sint c;
+                     List.iter print_sint a; print_string " => ";
+                     List.iter print_sint b; print_string "\n";
+                     print_acc_len_cost xs
+                   }
+                   
+]
+;
 value chk_compatible text_type rel m1 m2= (*do { print_string "==>";*)
+     if distinct m1 m2 then
          single_morph_per_word m1 m2 (*then do { print_string "sm;";*)
           && single_relation_label m1 m2 (*then do { print_string "srl;";*)
           && no_crossing text_type rel m1 m2  (*then do { print_string "nc;";*)
@@ -587,6 +642,7 @@ value chk_compatible text_type rel m1 m2= (*do { print_string "==>";*)
        (*else do {print_string "SM;"; False};}*)
       (*&& relation_mutual_yogyataa m1 m2 *)
       (*&& relation_mutual_expectancy m1 m2*)
+    else False
 ;
 
 value rec add_cost text_type acc rels=fun
@@ -650,19 +706,26 @@ value lwg_and_collapse_all_solns text_type rel solns =
         loop [] rel solns
         where rec loop acc rel=fun
         [ [] -> acc
-        | [ (len,cost,l)  :: rest ] -> let l1=lwg_and_collapse rel l in
+        | [ (len,cost,l)  :: rest ] -> let l1=lwg_and_collapse rel l in do {
                          let len1 = List.length l1 in 
                          let triplet=(len1, cost, l1) in
                          (*let new_acc= if (List.filter (fun (a,b,c) -> if c=l1 then True else False) acc = []) then List.append [triplet] acc *)
                          let new_acc= if (List.filter (fun (a,b,c) -> c=l1) acc = []) then List.append [triplet]  acc
                          else acc in
                          loop new_acc rel rest
+		         }
         ]
 ;
 
 value compare_int i j =
   if i = j then 0
   else if i > j then 1 else -1
+;
+
+
+value compare_pair (a1,b1) (a2,b2) = 
+  if a1 = a2 then if b1 = b2 then 0 else if b1 > b2 then 1 else -1
+  else if a1 > a2 then 1 else -1
 ;
 
 (* Min cost, and largest length *)
@@ -675,14 +738,16 @@ value comparecostlength1 (l1,c1,_,_) (l2,c2,_,_) =
     if l1=l2 then compare_int c1 c2 else compare_int l2 l1
 ;
 
-value print_sint i=do
+value print_spair (i,j) =do
  { print_int i
+ ; print_string "."
+ ; print_int j
  ; print_string ";"
  }
 ;
 
 value get_wrd_ids rel=match rel with
- [ Relationc (id1,cid1,mid1,rel,id2,cid2,mid2,dist1) -> [id1;id2]
+ [ Relationc (id1,cid1,mid1,rel,id2,cid2,mid2,dist1) -> [(id1,cid1);(id2,cid2)]
  ]
 ;
 
@@ -702,7 +767,6 @@ value incoming_outgoing rel a b =
  ]
 ; 
  
-(*
 value rec remove_incoming_outgoing_rels acc l_bndry r_bndry = 
 [ [] -> acc
 |[r::s] -> if incoming_outgoing r l_bndry r_bndry 
@@ -714,7 +778,6 @@ value rec remove_incoming_outgoing_rels acc l_bndry r_bndry =
 value remove_incoming_outgoing_rels_island acc rel total_wrds =
 
 ;
-*)
 
 value rec get_rel_wrds  = fun
  [ [] -> ()
@@ -748,19 +811,19 @@ value populate_compatible_lists text_type rel total_wrds=
    { for i=0 to length do
      { let reli=List.nth rel i in do
          { 				
-                                        (* print_int i ;print_string "=>" ;print_relation reli ; *)
+                                        (* print_int i ;print_string " =>" ;print_relation reli ;*)
           let l=get_wrd_ids reli in
             compatible_words.(i+1) :=  List.append l compatible_words.(i+1) 
           				(* a word is compatible with self *)
          ;for j=i+1 to length do
-        { let relj=List.nth rel j in
+        {   let relj=List.nth rel j in
           do {
            let l=get_wrd_ids relj in
            compatible_words.(j+1) := List.append l compatible_words.(j+1)
           				(* a word is compatible with self *)
           ;if (chk_compatible text_type rel reli relj)
-          then do {
-           				(* print_int j
+          then  do {
+           				(*  print_int j
            				;print_string " "
            				;print_relation relj ; *)
              compatible_relations.(i+1) := List.append [j+1] compatible_relations.(i+1)
@@ -770,14 +833,14 @@ value populate_compatible_lists text_type rel total_wrds=
                compatible_words.(j+1) :=  List.append l compatible_words.(j+1)
           }
           else ()
-          } 
+          }
         }
-     }
+       }
      }
     
    ; for i=0 to length do {
       compatible_relations.(i+1) := List.sort_uniq compare_int compatible_relations.(i+1)
-      ;compatible_all_words.(i+1) := List.length (List.sort_uniq compare_int compatible_words.(i+1)) = total_wrds
+      ;compatible_all_words.(i+1) := List.length (List.sort_uniq compare_pair compatible_words.(i+1)) = total_wrds
 
  (* compatible_all_words.(i+1) is a boolean, it is true if the i+1th word is potentially related to all other words in the sentence.
 This condition is added to ensure that the necessary condition that all the words are related is satisfied.
@@ -786,46 +849,22 @@ Thus, for ungrammatical sentences such as rAmaH granWam svapiwi, the parser halt
      (*; print_string "compatible words for "
      ; print_int (i+1)
      ; print_string "="
-     ; List.iter print_sint (List.sort_uniq compare_int compatible_words.(i+1))
+     ; List.iter print_spair (List.sort_uniq compare_pair compatible_words.(i+1))
      ; print_newline() 
-     ; print_int (List.length (List.sort_uniq compare_int compatible_words.(i+1)))
+     ; print_int (List.length (List.sort_uniq compare_pair compatible_words.(i+1)))
      ; print_newline() 
      ; print_int total_wrds
      ; print_newline() 
-    ; print_string "compatible relations for "
+     ; if compatible_all_words.(i+1) then print_string "YES\n" else print_string "NO\n"
+     ; print_string "compatible relations for "
      ; print_int (i+1)
      ; print_string "="
      ; List.iter print_sint compatible_relations.(i+1)
-     ; print_newline() 
-   *) 
+     ; print_newline() *)
    }
   }
 ;
 
-(* Needed only for debugging
-*)
-value rec print_acc=fun
-[[] -> ()
-|[(a,b)::xs] -> do { List.iter print_sint a; print_string " => "
-                   ; List.iter print_sint b; print_string "\n"
-                   ; print_acc xs
-                   }
-                   
-]
-;
-
-value rec print_acc_len_cost=fun
-[[] -> ()
-|[(l,c,a,b)::xs] -> do { 
-                     print_sint l;
-                     print_sint c;
-                     List.iter print_sint a; print_string " => ";
-                     List.iter print_sint b; print_string "\n";
-                     print_acc_len_cost xs
-                   }
-                   
-]
-;
 
 (* value rec delete_small size acc=fun
 [[] -> acc
@@ -920,11 +959,11 @@ value rec get_initial_dag acc start n=
                        let dag1=cartesian_product_initial_dags dag dag in
                        let dag2 = if dag1=[] then dag else List.append dag dag1 in dag2
                       (*}*)
-                (* else do { print_int n
-                 ; if n=0 || compatible_all_words.(n) then print_string "True" else print_string "False"
-                ;[]
-                } *)
-   else  do { (* print_int n
+                  (*else   do { print_int n
+                 ;  if n=0 || compatible_all_words.(n) then True else False
+                 ;[] 
+                 }*)
+   else  (* do {  print_int n
            ; print_newline()
            ; print_string "start="
            ; print_int start
@@ -937,7 +976,7 @@ value rec get_initial_dag acc start n=
                  let l= List.append acc [([n],p)] in
                    get_initial_dag l start (n-1) 
             else get_initial_dag acc start (n-1) 
-         } 
+         (*} *)
 ;
 
 (* we mark the nodes as root node (2) , leaf node(1) and intermediate node(3) *)
@@ -1009,10 +1048,12 @@ value samucciwa_anyawara_constraint relations relsindag =
       and sup_anya_c=mycount 35 maprel
       and anya_xyowaka_c=mycount 47 maprel
       and sup_anya_xyowaka_c=mycount 48 maprel in
+       (*if*)
           ca_vA_compatibility sup_samu_c sup_samu_xyowaka_c
        && ca_vA_compatibility samu_c samu_xyowaka_c
        && ca_vA_compatibility sup_anya_c sup_anya_xyowaka_c
        && ca_vA_compatibility anya_c anya_xyowaka_c
+       (*then do { print_string "SATRUE\n"; True} else do { print_string "SAFALSE\n"; False}*)
 ;
 
 value rec seq_expectancy relations relsindag=
@@ -1021,7 +1062,7 @@ value rec seq_expectancy relations relsindag=
         where rec loop=fun
             [ [] -> True (*do { print_string "True\n"; True}*)
             | [ Relationc (a,b1,b,r1,c,d1,d,dist1) :: rest] -> 
-                 (*do { print_string "r1=";print_int r1; print_string "\n"; *)
+                 (*do { print_string "AAA\n"; print_sint a; print_sint b1; print_sint b;print_sint r1; print_sint c; print_sint d1; print_sint d; print_string "\n"; *)
                  match r1 with
                  [ 3 | 4 | 5 | 9 | 13 | 16 | 17 | 52 | 53 | 54 | 55 | 56 | 57 | 59 | 76 |  77 |  79 | 80 | 42 | 41 | 68 | 69 | 12 |  97 | 32 | 33 | 34 | 35 | 45 | 46 | 47 | 48  | 202 | 203 -> 
                   loop1 maprel
@@ -1093,7 +1134,7 @@ value rec seq_expectancy relations relsindag=
                                      else loop1 rest1 
                                 else loop1 rest1   (* } *)
                                 else loop1 rest1
-                       ]  (*} *)
+                       ]  (*}*)
                |_ -> loop rest
                ] (*}*)
             ]
@@ -1103,11 +1144,12 @@ value rec seq_expectancy relations relsindag=
 BuFjawe we wu aGam, pApAH ye pacanwi Awma-kAraNAw 
 BuFjawe -> we  ->(102) ye <- pacanwi
 *)
+
 value global_compatible text_type relations relsindag =
 let maprel=List.map (fun y -> List.nth relations (y-1) ) relsindag in
    loop maprel
    where rec loop=fun
-   [ [] -> True
+   [ [] -> (* do { print_string "True";*) True
    | [ Relationc (a,b1,b,101,c,d1,d,dist1) :: rest]     (* niwya_sambanXaH *)
    | [ Relationc (a,b1,b,102,c,d1,d,dist1) :: rest] ->   (* niwya_sambanXaH1 *)
                   (*do { print_string "101/102 "; print_int a; print_int b; print_int c; print_string "==>"; *) 
@@ -1119,7 +1161,7 @@ let maprel=List.map (fun y -> List.nth relations (y-1) ) relsindag in
                        if    x=a && y=b && not (r1=101) && not (r1=102)
                        then (*do { print_string "yaw case ";*) loop2 maprel
                           where rec loop2=fun
-                          [ [] -> False (* do { print_string "failed case 14"; False}*)
+                          [ [] -> (*False*) do { print_string "failed case 14"; False}
                           | [Relationc (m,n1,n,r2,o,p,p1,dist2)::rest2] ->  (* waw word *)
                                if    m=c && n=d && not (r2=101) && not (r2=102) && not(o=z && p=t)
                                then loop rest
@@ -1128,7 +1170,7 @@ let maprel=List.map (fun y -> List.nth relations (y-1) ) relsindag in
                        else if  x=c && y=d && not (r1=101) && not (r1=102) (* waw case *)
                        then (*do { print_string "waw case ";*) loop3 maprel
                           where rec loop3=fun
-                          [ [] ->  False  (*do { print_int r1; print_int x; print_int z; print_string " failed case 15 "; False} *)
+                          [ [] ->  (*False*)  do { print_int r1; print_int x; print_int z; print_string " failed case 15 "; False} 
                           | [Relationc (m,n1,n,r3,o,p1,p,dist2)::rest3] ->  (*yaw word*)
 		   	      (*do {print_int r3; print_string " ";print_int m; print_int n; print_string " ";print_int o; print_string "-"; *)
                               (*if    o=a && p=b && not (r3=101) && not (r3=102)*)
@@ -1141,12 +1183,13 @@ let maprel=List.map (fun y -> List.nth relations (y-1) ) relsindag in
                        else loop1 rest1
                      ] (*}*)
    | [ Relationc (a,b1,b,r1,c,d1,d,dist1) :: rest] ->
+	 (*do { print_string "BBB\n"; print_sint a; print_sint b1; print_sint b; print_sint r1; print_sint c; print_sint d1; print_sint d; print_string "\n";*)
          if r1=9 || (r1 >= 4400 && r1 < 4500) then
                                (* viXeya_viSeRaNam, karwA *)
                                (* karwA, karwA_upa *)
          loop1 maprel
          where rec loop1=fun
-                          [ [] -> False   (*do { print_string "failed case 5\n"; False}*)
+                          [ [] -> (* False *)   do { print_string "failed case 5\n"; False}
                           | [Relationc (x,y1,y,r,z,t1,t,dist1)::rest1] -> 
                                                   (*do {
                                                   print_int r; print_string "\n";
@@ -1164,23 +1207,23 @@ let maprel=List.map (fun y -> List.nth relations (y-1) ) relsindag in
           else if ( r1 >= 2000  && r1 < 4000 ) then
           loop1 maprel
           where rec loop1=fun
-                          [ [] -> False
+                          [ [] -> do { print_string "failed case 6\n"; False}
                           | [Relationc (x,y1,y,r,z,t1,t,dist1)::rest1] -> 
-                            if (r>= 4000) 
+                            if (r>= 4000)  && (r < 5000) 
                                  && ((z=a && t=b) || (x=c && y=d))
                             then loop rest
                             else loop1 rest1
                           ] 
-          else if ( r1 >= 4000 ) then
+          else if ( r1 >= 4000)  && (r1 < 5000) then
           loop1 maprel
           where rec loop1=fun
-                  [ [] -> False
+                  [ [] -> do { print_string "Failed case 7\n"; False}
                           | [Relationc (x,y1,y,r,z,t1,t,dist1)::rest1] -> 
                             if  (r < 4000 && r >= 2000) && ((z=a && t=b) || (x=c && y=d) )
                             then loop rest 
                             else loop1 rest1
                           ] 
-         else loop rest
+         else loop rest  (*}*)
    ]
 ;
 
@@ -1193,22 +1236,22 @@ value rec build_list rels acc dag =
     loop [] maprel
     where rec loop acc=fun 
     [ [] -> (*do { List.iter print_pair acc;*) acc
-    | [ Relationc (a,b1,b,r,c,d1,d,dist1) :: rest] -> let acc1= [(a,c) :: acc]
+    | [ Relationc (a,b1,b,r,c,d1,d,dist1) :: rest] -> let acc1= [(a,b1,c,d1) :: acc]
 					  (*in build_list rels acc1 rest*)
 					  in loop acc1 rest
     ]
 ;
 
-value rec chk_cycles key_list v acc =
+value rec chk_cycles key_list v v1 acc =
     (*do { List.iter print_sint key_list;
         print_string "v=";print_int v; print_string "\n";*)
-     let acc1=List.filter (fun (k1,v1) -> if k1=v then True else False) acc in
+     let acc1=List.filter (fun (k,k1,v,v1) -> if k=v  && k1 = v1 then True else False) acc in
      if acc1=[] then False else loop acc1
      where rec loop=fun
      [[] -> (*do { print_string "chk cycle = False";*) False (*}*)
-     | [(k1,v1)::r] -> let key_list1= [k1 :: key_list] in
-                       if List.mem v1 key_list then True
-                       else if chk_cycles key_list1 v1 acc then True
+     | [(k,k1,v,v1)::r] -> let key_list1= [(k,k1,v,v1) :: key_list] in
+                       if List.mem (k,k1,v,v1) key_list then True
+                       else if chk_cycles key_list1 v v1 acc then True
 		       else loop r
      ]
   (*}*)
@@ -1218,9 +1261,9 @@ value no_cycles relations relsindag=(*do
     { List.iter print_sint relsindag; print_string "\n"; *)
       let acc=build_list relations [] relsindag in loop acc
       where rec loop=fun
-      [ [] -> (*do { print_string "no cylcle "; *) True (*}*)
-      |[(k,v)::r] -> let key_list=[k] in
-                         if not (chk_cycles key_list v acc) then loop r else False
+      [ [] -> (*do { print_string "no cycle "; *) True (*}*)
+      |[(k,k1,v,v1)::r] -> let key_list=[(k,k1,v,v1)] in
+                         if not (chk_cycles key_list v v1 acc) then loop r else do { print_string "found cycle\n"; False}
       ]
 (* } *)
 ;
@@ -1269,7 +1312,7 @@ value rec chk_global_comp text_type rel acc = fun
                     && global_compatible text_type rel a (*then do { print_string "GC";*)
                     && seq_expectancy rel a (*then do { print_string "SE";*)
                     && no_cycles rel a (*then do {print_string "NC";*)
-                    then (*   List.iter print_sint a; print_string " AFTER\n"; *)
+                    then  (*  List.iter print_sint a; print_string " AFTER\n"; *)
                          let acc1= List.append [(l,c,a)] acc in
                          chk_global_comp text_type rel acc1 tl  (*}*)
                     else     chk_global_comp text_type rel acc tl 
@@ -1286,7 +1329,7 @@ value rec construct_dags init final wrdb dags text_type rel=
    then 
         let mid=(init + final) /2 in
          let dag1=construct_dags init mid wrdb dags text_type rel in
-          let dag2=construct_dags (mid+1) final wrdb dags text_type rel in (* do {
+          let dag2=construct_dags (mid+1) final wrdb dags text_type rel in  (* do {
              print_int init; print_string " "
             ;print_int mid; print_string " "
             ;print_int final; print_newline()
@@ -1307,17 +1350,17 @@ value rec construct_dags init final wrdb dags text_type rel=
             ; print_string " "
             ; print_int inout_rels.(mid+1)
             ; print_newline() 
-            ;*)  let dag3 = cartesian_product_dags dag1 dag2 text_type rel in (* do { 
+            ;*)  let dag3 = cartesian_product_dags dag1 dag2 text_type rel in  (* do { 
               print_string "dag3= "
              ;print_acc_len_cost dag3 
-             ;*)  let dag4=if (inout_rels.(init+1)=3 || init=mid || dag1=[])
+             ; *) let dag4=if (inout_rels.(init+1)=3 || init=mid || dag1=[])
              then List.sort_uniq compare_int (List.append dag2 dag3) else dag3 in 
              let dag5=if (inout_rels.(final+1)=3 || final=mid+1 || dag2=[])
-             then List.sort_uniq compare_int (List.append dag1 dag4) else dag4 in(* do {
+             then List.sort_uniq compare_int (List.append dag1 dag4) else dag4 in (* do {
               print_string "dag5= "
             ; print_acc_len_cost dag5
             ;print_newline()
-            ; *)  let dag8=if dag5=[] then List.sort_uniq compare_int (List.append dag1 dag2) else dag5 in  (* do {
+            ; *)  let dag8=if dag5=[] then List.sort_uniq compare_int (List.append dag1 dag2) else dag5 in  (*  do {
              print_string "dag8= "
             ; print_acc_len_cost dag8
             ;print_newline()
@@ -1333,16 +1376,16 @@ value rec construct_dags init final wrdb dags text_type rel=
             ; print_newline()
             ; print_acc_len_cost dag8
             ; print_newline()
-            ; *) let dag9 = get_first 300 (final-init-4) [] (List.sort comparecostlength1 (List.sort_uniq compare_int dag8)) in  (* do {
+            ;*)  let dag9 = get_first 300 (final-init-4) [] (List.sort comparecostlength1 (List.sort_uniq compare_int dag8)) in (*  do {
              print_string "dag9= "
             ; print_string "size of dag9="
             ; print_int (List.length dag9)
             ; print_newline()
             ; print_acc_len_cost dag9
             ; print_newline() 
-            ;  *)
+            ;*) 
             dag9 
-               (*} } } } } *)
+               (*} } } } }*)
    else 
         if init=0 
         then (*do {
@@ -1361,11 +1404,16 @@ value rec construct_dags init final wrdb dags text_type rel=
         else []
 ;
 (* To get the total number of words in the sentence
-The input is a quintuple (a,b,c,d,e) with a and d the word numbers, c the relation
-So we find the largest among all a's and d's to get the total words.
-The word numbers start with 1. So the largest word index gives the total words *)
-(* largest : int * Relationc list -> int *)
+The input is a 8-tuple (a,b1,b,c,d,e1,e,f) with a and d the word numbers, c the relation
 
+Old algo: So we find the largest among all a's and d's to get the total words.
+The word numbers start with 1. So the largest word index gives the total words 
+
+New algo: Now since we mark the relations between the compounds as well, we count the words with id and cid both.
+Hence the algo is changed from largest -> wrd_count 
+*)
+(* largest : int * Relationc list -> int *)
+(* Deprecated 
 value rec largest rslt=fun
 [ [] -> rslt
 | [Relationc(a,b1,b,c,d,e1,e,f) :: r]  ->
@@ -1376,8 +1424,24 @@ value rec largest rslt=fun
              in largest intmd r
 ]
 ;
+*)
 
-value rec wrd_boundaries acc rel_indx wrd_indx rel =match rel with
+value rec wrd_count acc = fun
+[ [] -> List.length acc 
+| [Relationc(a,b1,b,c,d,e1,e,f) :: r]  -> 
+	if  not (List.mem (a,b1) acc) 
+        then let acc = List.append acc [(a,b1)] in
+                    if not (List.mem (d,e1) acc) 
+                    then let acc1 = List.append acc [(d,e1)] in wrd_count acc1 r
+                    else wrd_count acc r
+        else if not (List.mem (d,e1) acc) 
+             then let acc1 = List.append acc [(d,e1)] in wrd_count acc1 r
+             else wrd_count acc r
+]
+;
+
+
+value rec wrd_boundaries acc rel_indx wrd_indx = fun
 [ [] ->  List.append acc  [rel_indx]
 | [Relationc(a,b1,b,c,d,e1,e,f)::xs] as t -> (*  do {
         print_string "curr index="
@@ -1406,21 +1470,21 @@ value rec wrd_boundaries acc rel_indx wrd_indx rel =match rel with
 ;
 *)
 value solver rel_lst text_type =
-  let total_wrds=(largest 0 rel_lst) in do
+  let total_wrds=( wrd_count [] rel_lst)  in do 
   { 				(*get_rel_wrds rel_lst;*)
      populate_compatible_lists text_type rel_lst total_wrds
     ;flush stdout
-    							(*; print_string "initialise inout_rels="
+    							(* ; print_string "initialise inout_rels="
     								; print_int inout_rels.(1)
-    								; print_newline() *)
+    								; print_newline()  *)
     ;populate_inout_rels (List.length rel_lst -1) rel_lst
     ;let wrdb=wrd_boundaries [0] 0 1 rel_lst in 				(* do {*)
     								(* List.iter print_int wrdb; *)
       let final=
          if List.length wrdb > total_wrds 
          then List.length wrdb-1 
-         else (total_wrds-1) in 				(* do {*)
-         				(* print_string "final=";
+         else (total_wrds-1) in 				 (*do {
+         				 print_string "final=";
       				  	   print_int final; *)
       let soln=construct_dags 0 final wrdb [] text_type rel_lst in 
 						 (*do { 
@@ -1428,11 +1492,14 @@ value solver rel_lst text_type =
 
      						 print_string "DAGS=" ;
      						print_acc_len_cost soln ;  *)
-            let l = get_first 200 (final-4) []  (List.sort comparecostlength1 soln) in
-              (*soln in *) do { 
-     						(* print_string "DAGS=" ;
-     						print_acc_len_cost l ; *)
-                     let l1 = chk_global_comp text_type rel_lst [] l in 
+            let l = get_first 300 (final-4) []  (List.sort comparecostlength1 soln) in
+              (*soln in *) (*do { 
+                                                print_string "DAGS=" ;
+                                                print_acc_len_cost l ; *)
+                     let l1 = chk_global_comp text_type rel_lst [] l in  (*do {
+                                                print_string "DAGS1=" ;
+                                                print_acc_len l1 ; 
+						print_string "\n";*)
                      let collapsed_soln=lwg_and_collapse_all_solns text_type rel_lst l1 in
                      let uniq_collapsed_soln= get_first_n 0 [] (List.sort comparecostlength collapsed_soln) in do {
                        if (List.length uniq_collapsed_soln > 0)
@@ -1442,7 +1509,8 @@ value solver rel_lst text_type =
                    ; print_newline ()
                    ; print_cost_soln_list 1 0 rel_lst uniq_collapsed_soln
                   } 
-                }
+                (*}*)
+           (*}*)
      (*}*)
  (*}*)
  (*}*)

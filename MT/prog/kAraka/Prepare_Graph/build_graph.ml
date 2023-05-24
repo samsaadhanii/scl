@@ -317,21 +317,21 @@ value analyse strm = let morphs =
 ;
 
 value distinct_2 m1 m2 = match m1 with
-  [ Wif (id1,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
-  | Kqw (id1,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
-  | Avykqw (id1,_,_,_,_,_,_,_,_,_,_,_,_)
-  | AvywaxXiwa (id1,_,_,_,_,_,_,_,_)
-  | Sup (id1,_,_,_,_,_,_,_,_,_,_)
-  | Avy (id1,_,_,_,_,_,_,_)
-  | WaxXiwa (id1,_,_,_,_,_,_,_,_,_,_,_) -> match m2 with
-  	[ Wif (id2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
-  	| Kqw (id2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
- 	| Avykqw (id2,_,_,_,_,_,_,_,_,_,_,_,_)
- 	| AvywaxXiwa (id2,_,_,_,_,_,_,_,_)
- 	| Sup (id2,_,_,_,_,_,_,_,_,_,_)
- 	| Avy (id2,_,_,_,_,_,_,_)
- 	| WaxXiwa (id2,_,_,_,_,_,_,_,_,_,_,_) -> 
-                if not (id1 = id2) 
+  [ Wif (id1,_,_,_,_,pUrvapaxa1,_,_,_,_,_,_,_,_,_,_,_)
+  | Kqw (id1,_,_,_,_,_,_,_,_,_,_,_,pUrvapaxa1,_,_,_,_,_)
+  | Avykqw (id1,_,_,_,_,pUrvapaxa1,_,_,_,_,_,_,_)
+  | AvywaxXiwa (id1,_,_,_,_,pUrvapaxa1,_,_,_)
+  | Sup (id1,_,_,_,_,pUrvapaxa1,_,_,_,_,_)
+  | Avy (id1,_,_,_,_,pUrvapaxa1,_,_)
+  | WaxXiwa (id1,_,_,_,_,pUrvapaxa1,_,_,_,_,_,_) -> match m2 with
+  	[ Wif (id2,_,_,_,_,pUrvapaxa2,_,_,_,_,_,_,_,_,_,_,_)
+  	| Kqw (id2,_,_,_,_,pUrvapaxa2,_,_,_,_,_,_,_,_,_,_,_,_)
+ 	| Avykqw (id2,_,_,_,_,pUrvapaxa2,_,_,_,_,_,_,_)
+ 	| AvywaxXiwa (id2,_,_,_,_,pUrvapaxa2,_,_,_)
+ 	| Sup (id2,_,_,_,_,pUrvapaxa2,_,_,_,_,_)
+ 	| Avy (id2,_,_,_,_,pUrvapaxa2,_,_)
+ 	| WaxXiwa (id2,_,_,_,_,_,pUrvapaxa2,_,_,_,_,_) -> 
+                if not (id1 = id2) && not (pUrvapaxa1="y") && not (pUrvapaxa2 = "y")
                 then True
                 else False
         ]
@@ -343,6 +343,27 @@ value distinct_3 m1 m2 m3 =   distinct_2 m1 m2
                            && distinct_2 m2 m3
 ;
 
+value compound_pUrvapaxa_uwwarapaxa m1 m2 = match m1 with
+  [ Wif (id1,cid1,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+  | Kqw (id1,cid1,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+  | Avykqw (id1,cid1,_,_,_,_,_,_,_,_,_,_,_)
+  | AvywaxXiwa (id1,cid1,_,_,_,_,_,_,_)
+  | Sup (id1,cid1,_,_,_,_,_,_,_,_,_)
+  | Avy (id1,cid1,_,_,_,_,_,_)
+  | WaxXiwa (id1,cid1,_,_,_,_,_,_,_,_,_,_) -> match m2 with
+  	[ Wif (id2,cid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+  	| Kqw (id2,cid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+ 	| Avykqw (id2,cid2,_,_,_,_,_,_,_,_,_,_,_)
+ 	| AvywaxXiwa (id2,cid2,_,_,_,_,_,_,_)
+ 	| Sup (id2,cid2,_,_,_,_,_,_,_,_,_)
+ 	| Avy (id2,cid2,_,_,_,_,_,_)
+ 	| WaxXiwa (id2,cid2,_,_,_,_,_,_,_,_,_,_) -> 
+                if (id1 = id2) && not (cid1 = cid2)
+                then True
+                else False
+        ]
+   ]
+;
 
 value no_boundary_crossing2 id1 id2 boundary =
       if boundary < 50 
@@ -470,8 +491,8 @@ value print_relation cho = fun
 *)
 value mk_tuple r = match r with
    [ Relation (id1,cid1,mid1,rel,id2,cid2,mid2,rl,dist) -> let erel = encode rel in
-          if erel >= 4000 then [Relationc (id1,cid1,mid1,(erel + id1),id2,cid2,mid2,dist)]
-          else if erel >= 2000 then [Relationc (id1,cid1,mid1,(erel + id2),id2,cid2,mid2,dist)]
+          if erel >= 4000  && erel < 5000 then [Relationc (id1,cid1,mid1,(erel + id1),id2,cid2,mid2,dist)]
+          else if erel >= 2000  && erel < 4000 then [Relationc (id1,cid1,mid1,(erel + id2),id2,cid2,mid2,dist)]
           else [Relationc (id1,cid1,mid1,erel,id2,cid2,mid2,dist)]
    ]
  ;
@@ -4822,11 +4843,9 @@ value rl_compound_T6 m1 m2 text_type = match m2 with
      [ Sup (id1,cid1,mid1,_,_,pUrvapaxa1,uwwarapaxa1,_,_,_,_)
      | Kqw (id1,cid1,mid1,_,_,_,_,_,_,_,_,_,pUrvapaxa1,uwwarapaxa1,_,_,_,_)
      | WaxXiwa (id1,cid1,mid1,_,_,pUrvapaxa1,uwwarapaxa1,_,_,_,_,_) -> 
-	  do { print_string pUrvapaxa1; print_string uwwarapaxa2; print_string "\n";
-	  if (id1 = id2) && not (cid1 = cid2) && (pUrvapaxa1="y") && (uwwarapaxa2="y")
-	  then [ Relation (id1,cid1,mid1,"T6",id2,cid2,mid2,"200.1",0) ]
+	  if (id1 = id2) && not (cid1 = cid2) && (pUrvapaxa1="y") && ((uwwarapaxa2="y") || (pUrvapaxa2="y"))
+	  then [ Relation (id1,cid1,mid1,"RaRTIsambanXaH_samAsa",id2,cid2,mid2,"200.1",0) ]
 	  else []
-	  }
      |_ -> []
      ]
    |_ -> []
@@ -4912,10 +4931,14 @@ value init_sentence_feature_variables morphs  =
 
 value all_rules2 = 
 [
-rlwifkarwA_karma; rlkqwkarwA_karma; rlanaBihiwe; rlapAxAna_wasil; rlAvy_kriyAviSeRaNam_or_aXikaraNam; rlpUrvakAla; rlwumun1; rlwumun2; rlkwa_as; rlsamAnakAla; rlviSeRaNam; rlavy_viSeRaNam; rlvIpsA; rlsamboXana_xyowakaH; rlnirXAraNam; rlupapaxa_other_rel; rlupapaxa; rlsambanXa1; rlavy_wif_mA; rlavy_wifkqw_special; rl_sma; rlavy_sent_connector; rl_kAraka_RaRTI1; rl_kAraka_RaRTI2; rl_kAraka_RaRTI3; rlAvykqw_karma; rlevamkarma; rl_last_iwi; rlRaRTIsambanXaH; rlviRayAXikaraNam; rlhewuprayoge; rlniwya_sambanXa_avy; rlniwya_sambanXa_sup; (* rl_initial_avy;*)  rl_ca; rlsent_beginning_connectives; (*rlparimANa_viSeRaNam;*) rl_exclamatory1; (*rlhewu_sup;*) rlkarwqrahiwakarwqsamAnAXikaraNam; rlafgavikAra;  rl_spl_aXikaraNam; (* rlkarwqsamAnAXikarana_noverb;  This is over-generating  we need more stringent conditions *) rlkriyAviSeRaNam_wqwIyA; rlaXikaraNam ; rl_compound_T6]
+rlwifkarwA_karma; rlkqwkarwA_karma; rlanaBihiwe; rlapAxAna_wasil; rlAvy_kriyAviSeRaNam_or_aXikaraNam; rlpUrvakAla; rlwumun1; rlwumun2; rlkwa_as; rlsamAnakAla; rlviSeRaNam; rlavy_viSeRaNam; rlvIpsA; rlsamboXana_xyowakaH; rlnirXAraNam; rlupapaxa_other_rel; rlupapaxa; rlsambanXa1; rlavy_wif_mA; rlavy_wifkqw_special; rl_sma; rlavy_sent_connector; rl_kAraka_RaRTI1; rl_kAraka_RaRTI2; rl_kAraka_RaRTI3; rlAvykqw_karma; rlevamkarma; rl_last_iwi; rlRaRTIsambanXaH; rlviRayAXikaraNam; rlhewuprayoge; rlniwya_sambanXa_avy; rlniwya_sambanXa_sup; (* rl_initial_avy;*)  rl_ca; rlsent_beginning_connectives; (*rlparimANa_viSeRaNam;*) rl_exclamatory1; (*rlhewu_sup;*) rlkarwqrahiwakarwqsamAnAXikaraNam; rlafgavikAra;  rl_spl_aXikaraNam; (* rlkarwqsamAnAXikarana_noverb;  This is over-generating  we need more stringent conditions *) rlkriyAviSeRaNam_wqwIyA; rlaXikaraNam ]
 ;
 
 value all_rules3 = [rlkarwqsamAnAXikaraNam; rlkarmasamAnAXikaraNam; rlvAkyakarma; rlvAkyakarma1; rlsent_connectives; rlupamAna_upameya_sup; rlca_samucciwa; rl_exclamatory2; rl_ca_wif_aBihiwa_karwA_karma; rl_wulanA; rl_nAma; rl_saha_vinA_kqwe; (*rl_wif_kriyA_kriyA; *) rlBAvalakRaNa_sapwamI1;]
+;
+
+value all_compound_rules = [
+rl_compound_T6]
 ;
 
 value kAraka_engine3 morphs text_type =
@@ -4931,6 +4954,12 @@ value kAraka_engine3 morphs text_type =
                      where rec loop3 acc3 = fun
                      [ [] -> if distinct_2 m1 m2  then
                                List.fold_left collate acc2 all_rules2 where
+                               collate rls rule = match rule m1 m2 text_type with
+                               [ [] -> List2.union rls acc3
+                               | r -> List.append r rls
+                               ]
+                              else if compound_pUrvapaxa_uwwarapaxa m1 m2  then
+                               List.fold_left collate acc2 all_compound_rules where
                                collate rls rule = match rule m1 m2 text_type with
                                [ [] -> List2.union rls acc3
                                | r -> List.append r rls
