@@ -21,7 +21,6 @@
 *.output
 *.tab.c
 *.dSYM
-GOLD_DATA/POS_GOLD/
 MT/data/hi/MW/MW_html_new.tgz
 MT/prog/Heritage_morph_interface/Makefile_bak
 MT/prog/kAraka/Prepare_Graph/.depend
@@ -55,6 +54,12 @@ MT/prog/kAraka/Prepare_Graph/paths.ml
 MT/prog/reader_generator/Canto-I/
 MT/prog/wsd/.depend
 MT/prog/wsd/wsd
+MT/prog/map/mar/
+MT/prog/mar/
+MT/data/mr/
+MT/prog/map/tel/
+MT/prog/tel/
+MT/data/te/
 NN/CG/nne2diagram.tab.h
 NN/parser/nneparse.tab.h
 NN/Type_identifier/typeidentifier.tab.h

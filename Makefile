@@ -13,6 +13,12 @@ all:
 	cd ashtadhyayi_simulator/june12; make
 	cd NN; make
 
+mar:
+	rsync -r submodules/mod_mar/MT/ MT/
+
+tel:
+	rsync -r submodules/mod_tel/MT/ MT/
+
 install:
 	rm -rf $(HTDOCSDIR)/$(SCL_HTDOCS)
 	rm -rf $(CGIDIR)/$(SCL_CGI)
