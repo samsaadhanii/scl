@@ -1,0 +1,6 @@
+[submodule "mod_tel"]
+	path = mod_tel
+	url = https://github.com/samsaadhanii/mod_tel.git
+[submodule "mod_mar"]
+	path = mod_mar
+	url = https://github.com/samsaadhanii/mod_mar.git
