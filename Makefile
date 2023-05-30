@@ -14,10 +14,10 @@ all:
 	cd NN; make
 
 mar:
-	rsync -r submodules/mod_mar/MT/ MT/
+	rsync -r mod_mar/MT/ MT/
 
 tel:
-	rsync -r submodules/mod_tel/MT/ MT/
+	rsync -r mod_tel/MT/ MT/
 
 install:
 	rm -rf $(HTDOCSDIR)/$(SCL_HTDOCS)

@@ -11401,7 +11401,7 @@ ANALYSIS:
 2 xoRaH karwA 5
 3 na sambanXaH 5
 4 kaScana viSeRaNam 2
-5(aswi)
+5 (aswi)
 
 SENT:  SaTena SaTawAkArI SaTena vaFcyawe na hi 
 ANALYSIS:
@@ -15333,7 +15333,7 @@ ANALYSIS:
 3 saH viSeRaNam 5 
 4 mahASakwiSAlI viSeRaNam 5 
 5 rAjA karwA 6
-6(aswi)
+6 (aswi)
 
 SENT:  evam kaWayawi eva wasmin rAjA api wawra AgawaH 
 ANALYSIS:
@@ -28059,7 +28059,7 @@ ANALYSIS:
 2 yaw(i-) viSeRaNam 4
 3 niyawaM viSeRaNam 4
 4 kAryaM karma 5
-5(aswi)
+5 (aswi)
 6 saH karwA 9
 7 eva sambanXaH 6
 8 waw(i+) karma 9
