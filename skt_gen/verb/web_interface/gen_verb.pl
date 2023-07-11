@@ -76,7 +76,7 @@ $ltproc_cmd = "$generator | sed '1,\$s/#.*/-/g' | grep . | pr -3 -a -t -w 300| t
  }
 
  if ($format eq "JSON") {
-    print "[ {\"rt\":\"${upasarga}$rtutf8 ($gaNautf8)\",";
+    print "[ {\"rt\":\"${upasarga}$rtutf8($gaNautf8)\",";
  }
 
  if ($paxI eq "uBayapaxI") {
