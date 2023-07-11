@@ -941,8 +941,8 @@ sub register_log_and_close {
 
        if($log eq "true"){
           print TMP1 $e{'REMOTE_ADDR'}."\t".$e{'HTTP_USER_AGENT'}."\n"."rt:$rt\t"."gen:$gen\t"."encoding:$encoding\t"."jAwi:$jAwi\n##########################\n\n";
+          close(TMP1);
        }
-       if($log eq "true"){ close(TMP1); }
 }
 1;
 
