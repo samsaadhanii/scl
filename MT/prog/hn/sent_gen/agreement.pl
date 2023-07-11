@@ -55,7 +55,7 @@ my $prog_Path=$ARGV[1];
 
 if($ARGV[2] eq "D") { $DEBUG = 1;} else {$DEBUG = 0;}
 
-$DEBUG = 0;
+#$DEBUG = 0;
 
 require "$prog_Path/add_ne.pl";
 require "$prog_Path/handle_noun_verb_agr.pl";
@@ -144,14 +144,15 @@ while($in = <STDIN>){
 
     $indx = 1;
 foreach $w_ana (@wrd_ana){
-    $w_ana =~ /<id:([0-9]+)><cid:([0-9]+)>/;
-    $i = $1.".".$2;
-    $var_nm = "wrd_ana_flds_".$i;
-    $var_ndx = "wrd_ana_flds_".$indx;
-    @{$var_nm} = split(/\t/,$w_ana); 
-    @{$var_ndx} = split(/\t/,$w_ana); 
-    $index{$i} = $indx;
-    $indx++; 
+       #$w_ana =~ /<id:([0-9]+)><cid:([0-9]+)>/;
+       $w_ana =~ /^([0-9\.]+)\t/;
+       $i = $1;
+       $var_nm = "wrd_ana_flds_".$i;
+       $var_ndx = "wrd_ana_flds_".$indx;
+       @{$var_nm} = split(/\t/,$w_ana); 
+       @{$var_ndx} = split(/\t/,$w_ana); 
+       $index{$i} = $indx;
+       $indx++; 
 }
 
   &karmaNi_BAve();

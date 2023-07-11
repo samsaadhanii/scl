@@ -48,10 +48,13 @@ sub add_ne{
        $var_nm = "wrd_ana_flds_".$j;
 
 #If the word is karwA, and
+#	print "morph = ", ${$var_nm}[$morph_kaaraka_anal], "\n";
       if(${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:karwA><relata_pos:([0-9\.]+)>/){
          $verb_pos = $1;
          $karwA_found = 1;
           $new_var_nm = "wrd_ana_flds_".$verb_pos;
+	 #print "verb_pos = ", $verb_pos, "\n";
+	 #print "morph = ", ${$new_var_nm}[$morph_kaaraka_anal], "\n";
 # If the verb has yA tam
           if(${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /yA$/) {
 # Then change the viBakwi to ne, if the verb is not from exceptional verb list
