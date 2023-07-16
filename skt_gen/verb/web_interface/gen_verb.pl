@@ -64,7 +64,9 @@ $ltproc_cmd = "$generator | sed '1,\$s/#.*/-/g' | grep . | pr -3 -a -t -w 300| t
     if ($upasarga ne "-") { $upasargastr = "<upasarga:$upasarga>";} else { $upasargastr = "";}
 
   $rtutf8 = `echo $rt | sed 's/[1-5]//' | $conv_program`;
+  chomp($rtutf8);
   $gaNautf8 = `echo $gaNa | $conv_program`;
+  chomp($gaNautf8);
   if ($upasarga ne "-") {$upasarga = `echo $upasarga | $conv_program`."_";} else {$upasarga = "";}
 
   if($format eq "web") {
