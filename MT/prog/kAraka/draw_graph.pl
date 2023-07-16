@@ -21,8 +21,6 @@
 $GraphvizDot = $ARGV[0];
 $path = $ARGV[1]; # path for temporary files
 
-$parse = 1;
-
 #These color codes are taken from Sanskrit_style.css (MT/web_interface/Sanskrit_style.css)
 
 $color{"N1"} = "#00BFFF";
@@ -47,13 +45,13 @@ $dir = "back";
 $parse = 1;
 
 $dotfl_nm = "$parse.dot"; 
+
 open TMP1, ">${path}/${dotfl_nm}" || die "Can't open ${path}/${dotfl_nm} for writing";
-#open TMP1, ">/Users/ambakulkarni/a.dot";
- print TMP1 $hdr;
+print TMP1 $hdr;
 
 @in = <STDIN>;
 
-	for ($i=1;$i<$#in;$i++) {  #The count starts with 1; since the 1st line that corresponds to the heading is to be ignored.
+	for ($i=1;$i<=$#in;$i++) {  #The count starts with 1; since the 1st line that corresponds to the heading is to be ignored.
           @flds = split(/\t/,$in[$i]);
          # if ($flds[0] =~ /^([0-9]+)[\.\।]([2-9])/) {
          #    $label .= $flds[1];
