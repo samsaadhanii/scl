@@ -10,4 +10,5 @@
 \-[a-zA-Z\-\/]+	{printf("%s",yytext+1);}
 [a-zA-Z\-\/]+	{printf("%s",yytext);}
 _	{printf(" ");}
+\.	{printf(".");}
 .	{}
