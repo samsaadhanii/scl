@@ -67,7 +67,7 @@ function mycallverbgen() {
   }
 
   $.post(
-    "/cgi-bin/SCL_CGI/skt_gen/verb/verb_gen_web.cgi",
+    "/cgi-bin/SCL_CGI/skt_gen/verb/verb_gen.cgi",
     {
       "vb": $("#XAwu").val(),
       "prayoga_paxI": prayogaH_paxI,
