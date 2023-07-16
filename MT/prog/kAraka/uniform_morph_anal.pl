@@ -79,7 +79,7 @@ while($in = <STDIN>){
             }
 	   
 
-	    if($pUrvapaxa eq "y") { $wrd_ana =~ s/<level:([0-4])>/(viBakwiH 0) (vacanam n) (level $1)/;}
+	    if($pUrvapaxa eq "y") { $wrd_ana =~ s/<level:([0-4])>/<lifgam:a><viBakwiH:0><vacanam:a><level:$1>/;}
             $wrd_ana =~ s/^([^<]+)$//g;
             $wrd_ana =~ s/<([^:]+):([^>]+)>/($1 $2)/g;
             $wrd_ana =~ s/\)\(/\) \(/g;
