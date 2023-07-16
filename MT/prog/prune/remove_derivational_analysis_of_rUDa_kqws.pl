@@ -27,7 +27,6 @@ $RD_KQW{$_}=1;
 close(TMP);
 
 while($in = <STDIN>){
-  $pUrvapaxa = 0;
   #if($in !~ /<level:1/){ # Why this condition?
      chomp($in);
      $in =~ s/=/\//;
@@ -35,7 +34,7 @@ while($in = <STDIN>){
  
     print $word,"=";
     if ($word =~ /^-/) { $word =~ s/^-//; }
-    if ($word =~ /-\$/) { $word =~ s/-\$//; $pUrvapaxa = 1;}
+    if ($word =~ /-\$/) { $word =~ s/-\$//;}
 #    print "analysis = @analysis\n";
  
 # Split the word and its analysis.
@@ -43,7 +42,9 @@ while($in = <STDIN>){
     $tmp = "";    
     foreach ($i=0; $i<=$#analysis;$i++){
         $rt = &get_rt($analysis[$i]);
-        if( ($rt ne "") && ($RD_KQW{$rt} || $RD_KQW{$word}) && ($pUrvapaxa == 1)) {
+        #if( ($rt ne "") && ($RD_KQW{$rt} || $RD_KQW{$word}) && ($pUrvapaxa == 1)) {
+#Whether the kqw is a purvapaxa or not, the kqw analysis is to be removed.
+        if( ($rt ne "") && ($RD_KQW{$rt} || $RD_KQW{$word})) {
            $analysis[$i] =~ s/^([^\/]+)>$rt</$rt</;
            $analysis[$i] =~ s/^([^\-]+)\-([^\/]+)>$rt</$1-$rt</;
 	#For new kqw analysis:
