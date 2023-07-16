@@ -339,7 +339,7 @@ sub print_sent{
 
       if(($total_solns == 1) || ($soln == 1)){
          print "<h3> <a href=\"/cgi-bin/$GlblVar::SCL_CGI/MT/prog/interface/call_parser_summary.cgi?filename=$dirname&amp;outscript=$SCRIPT&amp;rel=$old_relations&amp;sentnum=$sentnum&amp;save=no&amp;translate=no\"> &#x2713;<\/a> Undo\n";
-         print "<a href=\"/cgi-bin/$GlblVar::SCL_CGI/MT/prog/interface/show_selected_parse.cgi?filename=$dirname&amp;sentnum=$sentnum&amp;start=0&amp;outscript=$SCRIPT\"> &#x2713; <\/a>Unique parse tree \n";
+         #print "<a href=\"/cgi-bin/$GlblVar::SCL_CGI/MT/prog/interface/show_selected_parse.cgi?filename=$dirname&amp;sentnum=$sentnum&amp;start=0&amp;outscript=$SCRIPT\"> &#x2713; <\/a>Unique parse tree \n";
         print " <a href=\"/cgi-bin/$GlblVar::SCL_CGI/MT/prog/interface/call_parser_summary.cgi?filename=$dirname&amp;outscript=$SCRIPT&amp;rel=$old_relations&amp;sentnum=$sentnum&amp;save=no&amp;translate=yes\"> &#x2713;<\/a>Translate into hindi</h3>\n";
       } else {
         print "<h3> <a href=\"/cgi-bin/$GlblVar::SCL_CGI/MT/prog/interface/call_parser_summary.cgi?filename=$dirname&amp;outscript=$SCRIPT&amp;rel=$old_relations&amp;sentnum=$sentnum&amp;save=no&amp;translate=no\"> &#x2713;<\/a> Undo\n";
