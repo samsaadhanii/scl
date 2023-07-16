@@ -282,7 +282,7 @@ value no_direct_cycle m1 m2=match m1 with
     [ Relationc (to_id1,to_cid1,to_mid1,r1,from_id1,from_cid1,from_mid1,dist1) -> match m2 with
       [Relationc (to_id2,to_cid2,to_mid2,r2,from_id2,from_cid2,from_mid2,dist2) -> 
 
-         if (to_id1=from_id2) && (to_mid1=from_mid2) && (from_id1=to_id2) && (from_mid1=to_mid2) 
+         if (to_id1=from_id2) && (to_mid1=from_mid2) && (from_id1=to_id2) && (from_mid1=to_mid2) && (to_cid1=from_cid2) && (to_cid2=from_cid2)
          then False
          else True
       ]
@@ -293,9 +293,36 @@ value no_direct_cycle m1 m2=match m1 with
 value distinct m1 m2 = match m1 with
     [ Relationc (to_id1,to_cid1,to_mid1,r1,from_id1,from_cid1,from_mid1,dist1) -> match m2 with
       [Relationc (to_id2,to_cid2,to_mid2,r2,from_id2,from_cid2,from_mid2,dist2) -> 
+	(*do {
+        print_int to_id1;
+        print_string " ";
+        print_int to_cid1;
+        print_string " ";
+        print_int to_mid1;
+        print_string " ";
+        print_int from_id1;
+        print_string " ";
+        print_int from_cid1;
+        print_string " ";
+        print_int from_mid1;
+        print_string " ";
+        print_int to_id2;
+        print_string " ";
+        print_int to_cid2;
+        print_string " ";
+        print_int to_mid2;
+        print_string " ";
+        print_int from_id2;
+        print_string " ";
+        print_int from_cid2;
+        print_string " ";
+        print_int from_mid2;
+        print_string " ";
+	print_newline(); *)
 	if to_id1 = to_id2 && to_cid1 = to_cid2 && to_mid1 = to_mid2  &&
 	   from_id1 = from_id2 && from_cid1 = from_cid2 && from_mid1 = from_mid2 
         then False else True
+       (*}*)
       ]
     ]
 ;
@@ -329,7 +356,7 @@ value single_relation_label m1 m2= match m1 with
             (* Two outgoing arrows with same label *)
          else if (from_id1=from_id2) && (from_cid1=from_cid2) && (from_mid1=from_mid2) && (r1=r2)
               && ( (r1 < multiple_relations_begin  && not (r1=101))
-                  || (r1 > multiple_relations_end && not (r1=102) && not (r1=32) && not (r1=33) && not (r1=34) && not (r1=35)) || (r1=38)
+                  || (r1 > multiple_relations_end && not (r1=102) && not (r1=32) && not (r1=33) && not (r1=34) && not (r1=35)) || (r1=38) || (r1=5006)
                   ) (* niwya sambanXaH (=101,102)*)
          then False (*do { print_string "C9"; False}*)
             (* there can not be another outgoing rel with an upapaxa sambanXa*)
@@ -642,7 +669,7 @@ value chk_compatible text_type rel m1 m2= (*do { print_string "==>";*)
        (*else do {print_string "SM;"; False};}*)
       (*&& relation_mutual_yogyataa m1 m2 *)
       (*&& relation_mutual_expectancy m1 m2*)
-    else False
+    else  False
 ;
 
 value rec add_cost text_type acc rels=fun
@@ -811,7 +838,7 @@ value populate_compatible_lists text_type rel total_wrds=
    { for i=0 to length do
      { let reli=List.nth rel i in do
          { 				
-                                        (* print_int i ;print_string " =>" ;print_relation reli ;*)
+                                      (*   print_int i ;print_string " =>" ;print_relation reli ;*)
           let l=get_wrd_ids reli in
             compatible_words.(i+1) :=  List.append l compatible_words.(i+1) 
           				(* a word is compatible with self *)
@@ -823,7 +850,7 @@ value populate_compatible_lists text_type rel total_wrds=
           				(* a word is compatible with self *)
           ;if (chk_compatible text_type rel reli relj)
           then  do {
-           				(*  print_int j
+           			(*	 print_int j
            				;print_string " "
            				;print_relation relj ; *)
              compatible_relations.(i+1) := List.append [j+1] compatible_relations.(i+1)
@@ -860,7 +887,7 @@ Thus, for ungrammatical sentences such as rAmaH granWam svapiwi, the parser halt
      ; print_int (i+1)
      ; print_string "="
      ; List.iter print_sint compatible_relations.(i+1)
-     ; print_newline() *)
+     ; print_newline()  *)
    }
   }
 ;
@@ -1064,7 +1091,8 @@ value rec seq_expectancy relations relsindag=
             | [ Relationc (a,b1,b,r1,c,d1,d,dist1) :: rest] -> 
                  (*do { print_string "AAA\n"; print_sint a; print_sint b1; print_sint b;print_sint r1; print_sint c; print_sint d1; print_sint d; print_string "\n"; *)
                  match r1 with
-                 [ 3 | 4 | 5 | 9 | 13 | 16 | 17 | 52 | 53 | 54 | 55 | 56 | 57 | 59 | 76 |  77 |  79 | 80 | 42 | 41 | 68 | 69 | 12 |  97 | 32 | 33 | 34 | 35 | 45 | 46 | 47 | 48  | 202 | 203 -> 
+                 [ 3 | 4 | 5 | 9 | 13 | 16 | 17 | 52 | 53 | 54 | 55 | (*56 | 57 | 59 |*) 76 |  77 |  79 | 80 | 42 | 41 | 68 | 69 | 12 |  97 | 32 | 33 | 34 | 35 | 45 | 46 | 47 | 48  | 202 | 203 -> 
+(* relaxed condition for 56-57-59 yaxyapi-waWApi - kArya-kAraNA-BAva *)
                   loop1 maprel
                        where rec loop1=fun
                        [ [] -> False (* do { print_string "False\n"; False} *)
@@ -1087,7 +1115,7 @@ value rec seq_expectancy relations relsindag=
                                      (* rAme vanam gacCawi sIwA anusarawi ; SAswra-sampAwe pravqwwe XanuH uxyamya pANdavaH ixam abravIw *)
                                      else if r1=53 then if r2=52 then loop rest else loop1 rest1
                                      else if r1=54 then if r2=55 then loop rest else loop1 rest1
-                                     else if r1=59 then if (r2=56|| r2=57) then loop rest else loop1 rest1
+                                     (*else if r1=59 then if (r2=56|| r2=57) then loop rest else loop1 rest1*)
                                      (* else if r1=92 then if r2=76 then loop rest else loop1 rest1  for sahArWaH sahArWa_xyowaka is not needed *)
                                      (* else if r1=93 then if r2=77 then loop rest else loop1 rest1   for vinArWaH vinArWaH_xyowaka is not needed *)
                                      else if r1=79 then if r2=80 then loop rest else loop1 rest1
@@ -1102,8 +1130,8 @@ value rec seq_expectancy relations relsindag=
                                      (* rAme vanam gacCawi sIwA anusarawi ; SAswra-sampAwe pravqwwe XanuH uxyamya pANdavaH ixam abravIw *)
                                      else if r1=52 then if r2=53 then loop rest else loop1 rest1
                                      else if r1=55 then if r2=54 then loop rest else loop1 rest1
-                                     else if r1=56 then if r2=59 then loop rest else loop1 rest1
-                                     else if r1=57 then if r2=59 then loop rest else loop1 rest1
+                                     (*else if r1=56 then if r2=59 then loop rest else loop1 rest1
+                                     else if r1=57 then if r2=59 then loop rest else loop1 rest1*)
                                      else if r1=76 then if r2=92 then loop rest else loop1 rest1
                                      else if r1=77 then if r2=93 then loop rest else loop1 rest1  
                                      else if r1=80 then if r2=79 then loop rest else loop1 rest1
@@ -1350,10 +1378,10 @@ value rec construct_dags init final wrdb dags text_type rel=
             ; print_string " "
             ; print_int inout_rels.(mid+1)
             ; print_newline() 
-            ;*)  let dag3 = cartesian_product_dags dag1 dag2 text_type rel in  (* do { 
+            ; *) let dag3 =  if dag1 = dag2 then dag1 else cartesian_product_dags dag1 dag2 text_type rel in (* do { 
               print_string "dag3= "
              ;print_acc_len_cost dag3 
-             ; *) let dag4=if (inout_rels.(init+1)=3 || init=mid || dag1=[])
+             ;*) let dag4=if (inout_rels.(init+1)=3 || init=mid || dag1=[])
              then List.sort_uniq compare_int (List.append dag2 dag3) else dag3 in 
              let dag5=if (inout_rels.(final+1)=3 || final=mid+1 || dag2=[])
              then List.sort_uniq compare_int (List.append dag1 dag4) else dag4 in (* do {
@@ -1376,21 +1404,22 @@ value rec construct_dags init final wrdb dags text_type rel=
             ; print_newline()
             ; print_acc_len_cost dag8
             ; print_newline()
-            ;*)  let dag9 = get_first 300 (final-init-4) [] (List.sort comparecostlength1 (List.sort_uniq compare_int dag8)) in (*  do {
+            ;*)  let dag9 = get_first 400 (final-init-4) [] (List.sort comparecostlength1 (List.sort_uniq compare_int dag8)) in   (* do {
              print_string "dag9= "
             ; print_string "size of dag9="
             ; print_int (List.length dag9)
             ; print_newline()
             ; print_acc_len_cost dag9
             ; print_newline() 
-            ;*) 
-            dag9 
-               (*} } } } }*)
+            ; *)
+            dag9
+               (*} } } }*)
    else 
         if init=0 
         then (*do {
          print_string "calling get_initial"
          ; print_newline()
+         ;print_int (List.length wrdb)
          ;print_int (List.nth wrdb init)
          ; print_newline()
          ;print_int (List.nth wrdb (init+1))
@@ -1398,11 +1427,23 @@ value rec construct_dags init final wrdb dags text_type rel=
          ; *) let dag = get_initial_dag [] 0 (List.nth wrdb 1) in
               let dag1 = add_length_cost text_type rel [] dag in dag1
         (*}*)
-        else if (init = 1) || (init < List.length wrdb)
-        then let dag = get_initial_dag [] (List.nth wrdb (init-1)) (List.nth wrdb init) in
-             let dag1 = add_length_cost text_type rel [] dag in dag1
+        else (*do{
+        print_string "init = ";
+        print_int init;
+        print_string "  final = ";
+        print_int final;
+        print_string " Length wrdb "; 
+        print_int (List.length wrdb); 
+	print_string "\n"; *)
+        if (init = 1) || (init < (List.length wrdb))
+        then do { 
+             let dag = get_initial_dag [] (List.nth wrdb (init-1)) (List.nth wrdb init) in
+             let dag1 = add_length_cost text_type rel [] dag in dag1 
+             }
         else []
 ;
+
+
 (* To get the total number of words in the sentence
 The input is a 8-tuple (a,b1,b,c,d,e1,e,f) with a and d the word numbers, c the relation
 
@@ -1441,7 +1482,7 @@ value rec wrd_count acc = fun
 ;
 
 
-value rec wrd_boundaries acc rel_indx wrd_indx = fun
+value rec wrd_boundaries acc rel_indx wrd_indx comp_indx = fun
 [ [] ->  List.append acc  [rel_indx]
 | [Relationc(a,b1,b,c,d,e1,e,f)::xs] as t -> (*  do {
         print_string "curr index="
@@ -1453,11 +1494,11 @@ value rec wrd_boundaries acc rel_indx wrd_indx = fun
         ;print_newline ()
         ;List.iter print_int acc
         ;print_newline ()
-        ;*)  if a=wrd_indx then
-              (* if not (c=2 )
-              then  *) wrd_boundaries acc (rel_indx+1) wrd_indx xs
-              (* else  wrd_boundaries (List.append acc [rel_indx]) (rel_indx+1) (wrd_indx) xs  *)
-             else wrd_boundaries (List.append acc [rel_indx]) (rel_indx) (wrd_indx+1) t
+        ;*)     if a=wrd_indx 
+                then if b1=comp_indx
+                     then wrd_boundaries acc (rel_indx+1) wrd_indx comp_indx xs
+                     else wrd_boundaries (List.append acc [rel_indx]) (rel_indx) wrd_indx (comp_indx+1) t
+                else wrd_boundaries (List.append acc [rel_indx]) (rel_indx) (wrd_indx+1) 1 t
          (*} *)
 ]
 ;
@@ -1478,12 +1519,13 @@ value solver rel_lst text_type =
     								; print_int inout_rels.(1)
     								; print_newline()  *)
     ;populate_inout_rels (List.length rel_lst -1) rel_lst
-    ;let wrdb=wrd_boundaries [0] 0 1 rel_lst in 				(* do {*)
+    ;let wrdb=wrd_boundaries [0] 0 1 1 rel_lst in 				(* do {*)
+
     								(* List.iter print_int wrdb; *)
       let final=
          if List.length wrdb > total_wrds 
          then List.length wrdb-1 
-         else (total_wrds-1) in 				 (*do {
+         else (total_wrds-1) in 	(*			 do {
          				 print_string "final=";
       				  	   print_int final; *)
       let soln=construct_dags 0 final wrdb [] text_type rel_lst in 
@@ -1492,7 +1534,7 @@ value solver rel_lst text_type =
 
      						 print_string "DAGS=" ;
      						print_acc_len_cost soln ;  *)
-            let l = get_first 300 (final-4) []  (List.sort comparecostlength1 soln) in
+            let l = get_first 400 (final-4) []  (List.sort comparecostlength1 soln) in
               (*soln in *) (*do { 
                                                 print_string "DAGS=" ;
                                                 print_acc_len_cost l ; *)
