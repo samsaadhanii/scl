@@ -396,6 +396,7 @@ value akarmaka_XAwu_list = [
 "niR_pax1";
 "ni_Bq1";
 "ni_viS1";
+"ni_vqw1";
 "nqw1";
 "pAra1";
 "pIv1";

@@ -1047,7 +1047,6 @@ value sakarmaka_XAwu_list = [
 "ni_vix5";
 "ni_vq1";
 "ni_vq2";
-"ni_vqw1";
 "ni_yam1";
 "ni_yuj2";
 "nir_Af_cakR1";
@@ -1843,6 +1842,7 @@ value sakarmaka_XAwu_list = [
 "yuj1";
 "yuj3";
 "yup1";
+"zni_vqw1";
 "zsaha1";
 ]
 ;
