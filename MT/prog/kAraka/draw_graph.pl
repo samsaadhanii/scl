@@ -70,6 +70,8 @@ print TMP1 $hdr;
                 $rel_nm = $1;
                 $d_id = $2;
                 $s_id = $flds[0];
+  		#$s_id =~ s/\./_/g;
+  		#$d_id =~ s/\./_/g;
                 #$s_id =~ s/^([0-9]+).*/$1/; # Remove the component id
                 #$d_id =~ s/^([0-9]+).*/$1/; # Remove the component id
                 $is_cluster = 0;
@@ -119,8 +121,8 @@ print TMP1 $hdr;
              if($style ne "") { $s_str = "style=$style";} else {$s_str = "";}
 
              if (($rel_nm !~ /abhihita/) && ($rel_nm !~ /अभिहित/)){
-                $s_id =~ s/\./_/;
-                $d_id =~ s/\./_/;
+                $s_id =~ s/\./_/g;
+                $d_id =~ s/\./_/g;
 	        $rel_str .= "\nNode$s_id -> Node$d_id \[ $s_str label=\"".$rel_nm."\"  dir=\"$dir\" \]";
              }
             }
@@ -219,7 +221,7 @@ sub print_all_nodes_info{
 
 sub print_node_info{
     my($node,$word,$color) = @_;
-    $node =~ s/\./_/;
+    $node =~ s/\./_/g;
     print TMP1 "Node$node [style=filled, color=\"$color\" ";
     if($color eq "#FFAEB9") { print TMP1 "shape=rectangle ";}
     print TMP1 "label = \"$word\"]\n";

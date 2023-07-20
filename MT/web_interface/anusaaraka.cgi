@@ -83,6 +83,8 @@ package main;
      @sentences = split(/\./,$sentences);
     
      print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
+     system("mkdir -p $GlblVar::TFPATH/tmp_in$Ppid");
+
      for ($i=1;$i<=$#sentences+1;$i++) {
        $pid = $Ppid."_".$i;
        $sent = $sentences[$i-1]. ".";
@@ -155,7 +157,18 @@ package main;
 	if ($i <= $#sentences) { print ",";}
     }
     }
+	if($i==1) {
+	 system("cp $GlblVar::TFPATH/tmp_in$pid/table_outscript.tsv $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv");
+        } 
+	 system("$GlblVar::SCLINSTALLDIR/MT/prog/Discourse/discourse_analysis.pl $i $out_encoding $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv  $GlblVar::TFPATH/tmp_in$pid/table_outscript.tsv > $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv_$i; cp $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv_$i $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv");
    }
+    if ($#sentences > 1) {
+    system("$GlblVar::SCLINSTALLDIR/MT/prog/kAraka/draw_graph.pl $GlblVar::GraphvizDot $GlblVar::TFPATH/tmp_in$Ppid < $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv");
+	print "<h2> Discourse Graph </h2>";
+	print "<img src=/$GlblVar::SCL_HTDOCS/MT/DEMO/tmp_in$Ppid/1.svg width=\"\" height=\"\" > ";
+	print "<\/center>\n";
+    }
+
    if ($mode eq "json") { print "]";}
   if($GlblVar::LOG eq "true") {
     close(TMP1);

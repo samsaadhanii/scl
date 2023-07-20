@@ -53,7 +53,7 @@ while ($cont) {
             $ana1 = $flds[6];
             $key = $wrd.".".$comp;
             $key1 = $wrd1.".".$comp1;
-            if (($rel > 100)  && ($rel < 5000)) { $rel = $rel - 100;}
+            if (($rel > 100)  && ($rel < 200)) { $rel = $rel - 100;}
             if($ANA{$key} eq "") { $ANA{$key} = $ana;}
             if($ANA{$key1} eq "") { $ANA{$key1} = $ana1;}
             if($REL{$key} eq "") { $REL{$key} = $kAraka_name{$rel}.",".($wrd1+1).".".($comp1+1);}
