@@ -10,17 +10,17 @@ $wrd_fld_id = 1; #counted from 0
 $karaka_rel_fld = 6; #counted from 0
 $color_code_fld = 8; #counted from 0
 
-open(TMP,">>/tmp/xyz");
+#open(TMP,">>/tmp/xyz");
 if($sent_id > 1) {
- print TMP "Reading first file\n";
+ #print TMP "Reading first file\n";
  ($discourse_connective1,$last_verb_indx) = split(/#/,&read_and_print_first_file($para_anal_fl,$sent_id,$color_code_fld));
 }
 
- print TMP "Reading second file\n";
+ #print TMP "Reading second file\n";
 ($samuccaya_xyowakaH_indx,$anyawara_xyowakaH_indx,$discourse_connective2,$verb_indx) = split(/#/,&read_second_file($sent_id,$sent_anal_fl,$color_code_fld,$wrd_fld_id));
- print TMP "marking discourse rels\n";
+ #print TMP "marking discourse rels\n";
 &mark_discourse_rels($sent_anal_fl,$sent_id,$wrd_fld_id, $color_code_fld, $karaka_rel_fld, $samuccaya_xyowakaH_indx, $anyatara_xyowakaH_indx, $discourse_connective2, $verb_indx, $discourse_connective1, $last_verb_indx,$tab);
-close(TMP);
+#close(TMP);
 
 
 sub read_and_print_first_file {
@@ -31,9 +31,9 @@ sub read_and_print_first_file {
   $discourse_connective1 = "";
   $sent_id--;	# search for the verb index of the previous sentence
 
-  open (TMP,"<$fl_nm");
+  open (TMP1,"<$fl_nm");
 
-  while($in = <TMP>){
+  while($in = <TMP1>){
    @flds = split(/\t/,$in);
    $flds[0] =~ /^([0-9\.]+)/;
    $indx = $1;
@@ -47,7 +47,7 @@ sub read_and_print_first_file {
    }
  print $in;
  }
- close ($TMP);
+ close ($TMP1);
 join ('#', $discourse_connective1,$last_verb_indx);
 }
 1;
@@ -61,12 +61,12 @@ sub read_second_file {
  $samuccaya_xyowakaH_indx = -1;
  $verb_indx = -1;
 
- open (TMP,"<$sent_anal_fl");
+ open (TMP1,"<$sent_anal_fl");
 
- $in = <TMP>;  # print title if it is the 1st file. Ignore the titles of the subsequent files
+ $in = <TMP1>;  # print title if it is the 1st file. Ignore the titles of the subsequent files
  if($sent_id == 1) { print $in; }
 
- while($in = <TMP>){
+ while($in = <TMP1>){
    @flds = split(/\t/,$in);
    $flds[0] =~ /^([0-9\.]+)/;
    $indx = $1;
@@ -84,7 +84,7 @@ sub read_second_file {
    }
    if($flds[$color_code_fld] eq "KP") { $verb_indx = $indx;}
  }
- close(TMP);
+ close(TMP1);
 
 join('#',$samuccaya_xyowakaH_indx,$anyawara_xyowakaH_index,$discourse_connective2,$verb_indx);
 }
@@ -94,20 +94,20 @@ sub mark_discourse_rels {
   my($sent_anal_fl, $sent_id,$wrd_fld_id, $color_code_fld, $karaka_rel_fld, $samuccaya_xyowakaH_indx, $anyatara_xyowakaH_indx, $discourse_connective2, $verb_indx, $discourse_connective1, $last_verb_indx,$tab) = @_;
 
 
-open (TMP,">>/tmp/xyz");
-print TMP "D1",$discourse_connective1,"\n";
-print TMP "D2",$discourse_connective2,"\n";
-print TMP "S",$samuccaya_xyowakaH_indx,"\n";
-print TMP "A",$anyatara_xyowakaH_indx,"\n";
-close(TMP);
+#open (TMP,">>/tmp/xyz");
+#print TMP "D1",$discourse_connective1,"\n";
+#print TMP "D2",$discourse_connective2,"\n";
+#print TMP "S",$samuccaya_xyowakaH_indx,"\n";
+#print TMP "A",$anyatara_xyowakaH_indx,"\n";
+#close(TMP);
 
  my($wrd_id, @flds );
 
- open (TMP,"<$sent_anal_fl");
+ open (TMP1,"<$sent_anal_fl");
 
-  $in = <TMP>; # ignore the title
+  $in = <TMP1>; # ignore the title
 
-  while($in = <TMP>) {
+  while($in = <TMP1>) {
   chomp($in);
   if($in) {
    $in =~ /^([0-9]+)/;
@@ -167,7 +167,7 @@ close(TMP);
   }
    print $in, "\n";
  }
- close (TMP);
+ close (TMP1);
 }
 1;
 

@@ -162,7 +162,7 @@ package main;
         } 
 	 system("$GlblVar::SCLINSTALLDIR/MT/prog/Discourse/discourse_analysis.pl $i $out_encoding $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv  $GlblVar::TFPATH/tmp_in$pid/table_outscript.tsv > $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv_$i; cp $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv_$i $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv");
    }
-    if ($#sentences > 1) {
+    if ($#sentences >= 1) {
     system("$GlblVar::SCLINSTALLDIR/MT/prog/kAraka/draw_graph.pl $GlblVar::GraphvizDot $GlblVar::TFPATH/tmp_in$Ppid < $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv");
 	print "<h2> Discourse Graph </h2>";
 	print "<img src=/$GlblVar::SCL_HTDOCS/MT/DEMO/tmp_in$Ppid/1.svg width=\"\" height=\"\" > ";
