@@ -433,8 +433,9 @@ value outgoing_incompatible_rels rpair = match rpair with
    |(200,11) 
    |(10,200) 
    |(11,200) 
-   |(81,7) (*With sahAyaka kriyA, there cannot be a karwA *)
-   |(7,81)
+   (*  Now that sahAyaka kriyA arrow is from Sak, XqR, etc to the wumun, this condition does not arise  -- 19th July 2023
+|(81,7) (*With sahAyaka kriyA, there cannot be a karwA *)
+   |(7,81) *)
    |(7,6) (* karWA and karwA_be_verbs *)
    |(6,7)
    |(12,14) (* If there is a vAkyakarma, then there can not be a karma  and muKya karma, but there can be gONa karma*)
@@ -1404,7 +1405,7 @@ value rec construct_dags init final wrdb dags text_type rel=
             ; print_newline()
             ; print_acc_len_cost dag8
             ; print_newline()
-            ;*)  let dag9 = get_first 400 (final-init-4) [] (List.sort comparecostlength1 (List.sort_uniq compare_int dag8)) in   (* do {
+            ;*)  let dag9 = get_first 1000 (final-init-4) [] (List.sort comparecostlength1 (List.sort_uniq compare_int dag8)) in   (* do {
              print_string "dag9= "
             ; print_string "size of dag9="
             ; print_int (List.length dag9)
@@ -1534,7 +1535,7 @@ value solver rel_lst text_type =
 
      						 print_string "DAGS=" ;
      						print_acc_len_cost soln ;  *)
-            let l = get_first 400 (final-4) []  (List.sort comparecostlength1 soln) in
+            let l = get_first 1000 (final-4) []  (List.sort comparecostlength1 soln) in
               (*soln in *) (*do { 
                                                 print_string "DAGS=" ;
                                                 print_acc_len_cost l ; *)
