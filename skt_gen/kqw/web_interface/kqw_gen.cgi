@@ -38,8 +38,10 @@ package main;
         if($param{mode} eq "json") { $format = "JSON";}
         if($param{outencoding} eq "IAST") { $outencoding = "IAST";} else { $outencoding = "Devanagari";}
 
-        &open_log($GlblVar::LOG, $GlblVar::TFPATH);
-	&print_header();
+	if($format eq "web") {
+           &open_log($GlblVar::LOG, $GlblVar::TFPATH);
+	   &print_header();
+        }
 
 	if ($encoding eq "IAST") {
 	 $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8roman.out";
@@ -50,4 +52,6 @@ package main;
 	my @forms= &gen_kqw_forms($word,$upasarga,$format,$conversion_program,$encoding,$outencoding);
 	print @forms;
 		
-	&register_log_and_close($GlblVar::LOG,$word,$upasarga,$encoding,%ENV);
+	if($format eq "web") {
+	   &register_log_and_close($GlblVar::LOG,$word,$upasarga,$encoding,%ENV);
+        }
