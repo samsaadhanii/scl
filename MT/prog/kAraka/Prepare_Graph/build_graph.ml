@@ -4314,9 +4314,9 @@ value sent_beginning_connectives id1 cid1 mid1 id2 cid2 mid2 rt2 upasarga2 word1
 			    else []
               |"iwaH"
               (*|"param" -- What is an example for this? *)
-              |"warhi" -> if id1 = 1  && no_boundary_crossing_with_iwi id1 id2 text_type 
+              (* |"warhi" -> if id1 = 1  && no_boundary_crossing_with_iwi id1 id2 text_type 
                           then [ Relation (id1,cid1,mid1,"sambanXaH",id2,cid2,mid2,"47.4",d12) ]
-			  else []
+			  else []   -- covered under 37.2 *)
               |"nocew"
               |"anyaWA"
               |"aWavA"
