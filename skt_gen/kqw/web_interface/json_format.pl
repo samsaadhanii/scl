@@ -1,38 +1,61 @@
 #!/usr/bin/perl
 
-@kqw_prawyayaH = ("wqc","wavyaw","yak","Sawq_lat","SAnac_lat_karwari","SAnac_lat_karmaNi","GaF","Nvul","Nyaw","lyut","yaw","kwa","kwavawu","anIyar");
-@kqw_avy_prawyayaH = ("wumun","Namul","kwvA");
-@kqw_avy_upa_prawyayaH = ("wumun","Namul","lyap");
-@lifga =("puM","swrI","napuM");
+
+$out_encoding = $ARGV[0];
+
+@kqw_prawyayaH = ("तृच्","तव्यत्", "यक्" ,"शतृ_लट्", "शानच्_लट्_कर्तरि", "शानच्_लट्_कर्मणि", "घञ्","ण्वुल्","ण्यत्","ल्युट्","यत्","क्त","क्तवतु","अनीयर्");
+@kqw_avy_prawyayaH = ("तुमुन्","णमुल्","क्त्वा");
+@kqw_avy_upa_prawyayaH = ("तुमुन्","णमुल्","ल्यप्");
+@lifga = ("पुं","स्त्री","नपुं");
+@kqw_prawyayaH_IAST = ("tṛc","tavyat","yak","śatṛ_laṭ","śānac_laṭ_kartari","śānac_laṭ_karmaṇi","ghañ","ṇvul","ṇyat","lyuṭ","yat","kta","ktavatu","anīyar");
+@kqw_avy_prawyayaH_IAST = ("tumun","ṇamul","ktvā");
+@kqw_avy_upa_prawyayaH_IAST = ("tumun","ṇamul","lyap");
+@lifga_IAST = ("puṃ","strī","napuṃ");
 
 my($str);
 $str = "";
 $str= "[";
 @list = <STDIN>;
-$k=0;
+$count=0;
 for ($k=0;$k<14;$k++) {
   for ($l=0;$l<3;$l++) {
-          chomp($list[$k]);
+          chomp($list[$count]);
 	  $str .= "{";
-	  $str .= "\"form\":\"$list[$k]\",";
-	  $str .= "\"kqw_prawyayaH\":\"$kqw_prawyayaH[$k]\",";
-	  $str .= "\"lifgam\":\"$lifga[$l]\"";
-	  $str .= "},";
-          $k++;
-  }
-  for ($l=0;$l<3;$l++) {
-          chomp($list[$k]);
-	  $str .= "{";
-	  $str .= "\"form\":\"$list[$k]\",";
-          if($upasarga eq "-") {
-	     $str .= "\"kqw_prawyayaH\":\"$kqw_avy_prawyayaH[$l]\",";
+	  $str .= "\"form\":\"$list[$count]\",";
+          if($out_encoding eq "IAST") {
+	     $str .= "\"kqw_prawyayaH\":\"$kqw_prawyayaH_IAST[$k]\",";
           } else {
-	     $str .= "\"kqw_prawyayaH\":\"$kqw_avy_upa_prawyayaH[$l]\",";
+	     $str .= "\"kqw_prawyayaH\":\"$kqw_prawyayaH[$k]\",";
+          }
+          if($out_encoding eq "IAST") {
+	     $str .= "\"lifgam\":\"$lifga_IAST[$l]\"";
+	  } else { 
+             $str .= "\"lifgam\":\"$lifga[$l]\"";
           }
 	  $str .= "},";
-          $k++;
+          $count++;
   }
-}
+ }
+  for ($l=0;$l<3;$l++) {
+          chomp($list[$count]);
+	  $str .= "{";
+	  $str .= "\"form\":\"$list[$count]\",";
+          if($upasarga eq "-") {
+            if($out_encoding eq "IAST") {
+	       $str .= "\"kqw_prawyayaH\":\"$kqw_avy_prawyayaH_IAST[$l]\"";
+            } else {
+	       $str .= "\"kqw_prawyayaH\":\"$kqw_avy_prawyayaH[$l]\"";
+            }
+          } else {
+            if($out_encoding eq "IAST") {
+	       $str .= "\"kqw_prawyayaH\":\"$kqw_avy_upa_prawyayaH_IAST[$l]\"";
+	    } else {
+               $str .= "\"kqw_prawyayaH\":\"$kqw_avy_upa_prawyayaH[$l]\"";
+            }
+          }
+	  $str .= "},";
+          $count++;
+  }
 chomp($str);
 $str =~ s/,$//;
 $str .= "]";

@@ -76,6 +76,7 @@ sub gen_kqw_forms{
 	my($rt_wx,$upa_wx,$format,$conversion_program,$outencoding) = @_;
 	my($str,$str1,$LTPROC_IN);
 
+
 my @kqw_prawyayaH = ("wqc","wavyaw","Sawq_lat","SAnac_lat><prayogaH:karwari","SAnac_lat><prayogaH:karmaNi","GaF","Nvul","Nyaw","lyut","yaw","kwa","kwavawu","anIyar");
 my @kqw_avy_prawyayaH = ("wumun","Namul","kwvA");
 my @kqw_avy_upa_prawyayaH = ("wumun","Namul","lyap");
@@ -110,7 +111,7 @@ $LTPROC_IN = "";
   chomp($LTPROC_IN); # To chomp the last \n, else it produces an extra blank line in the o/p of lt-proc
 
  if($format eq "JSON") {
-    $str = "echo '".$LTPROC_IN."' | $generator | grep . | sed '1,\$s/^.*\///' | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/kqw/json_format.pl";
+    $str = "echo '".$LTPROC_IN."' | $generator | sed '1,\$s/#.*/-/g' | grep . | $conversion_program | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/kqw/json_format.pl $outencoding";
  }
  else {# $format = web
 	 $str = "echo '".$LTPROC_IN."' | $generator | sed '1,\$s/#.*/-/g' | grep . | pr -3 -a -t -w 150 | tr ' ' '\t' | $conversion_program | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/kqw/html_format.pl $rt_wx $upa_wx $outencoding $XAwu $gaNa";
@@ -128,7 +129,7 @@ $LTPROC_IN = "";
 
 sub gen_kqwnoun_forms{
 
- my ($prAwi, $lifga, $rt, $upasarga, $kqw_prawyaya, $XAwu, $gaNa, $encoding) = @_;
+ my ($prAwi, $lifga, $rt, $upasarga, $kqw_prawyaya, $XAwu, $gaNa, $encoding, $outencoding) = @_;
  my($conversion_program);
 
 my $generator = "$GlblVar::LTPROCBIN -cg $DataPATH/morph_bin/all_gen.bin";
@@ -141,7 +142,7 @@ my @vacanam = ("eka","xvi","bahu");
  chomp($prAwi_wx);
  chomp($kqw_prawyaya_wx);
 
- if ($encoding eq "IAST") {
+ if ($outencoding eq "IAST") {
         $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8roman.out";
  } else {
         $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1";
@@ -166,7 +167,7 @@ my @vacanam = ("eka","xvi","bahu");
  } #vib
  chomp($LTPROC_IN); # To chomp the last \n, else it produces an extra blank line in the o/p of lt-proc
 
- $str = "echo '".$LTPROC_IN."' | $generator | grep . | pr -3 -a -t  | tr ' ' '\t' | $conversion_program  | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/noun/html_format.pl '' $prAwi_wx $lifga $encoding";
+ $str = "echo '".$LTPROC_IN."' | $generator | grep . | pr -3 -a -t  | tr ' ' '\t' | $conversion_program  | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/noun/html_format.pl '' $prAwi_wx $lifga $outencoding";
  
 
  my @out = `$str`;
