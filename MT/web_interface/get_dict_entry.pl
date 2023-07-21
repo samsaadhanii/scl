@@ -83,6 +83,7 @@ elsif($dic_name eq "heritage"){
         } else {
 	   $filename = "$Files_Path/fr/Heritage/$l.html";
         }
+        print "filename = $filename\n";
 }
 elsif($dic_name eq "mw"){
         $sword =~ s/_//;
@@ -218,18 +219,15 @@ $result;
 sub heritage_result{
 	my($word_wx) = @_;
 	my $result = "";
-	$w = `echo $word_wx | $GlblVar::SCLINSTALLDIR/converters/wx-velthuis.out`;
-	chomp($w);
+        my($w);
+	$w = `echo "$word_wx" | $GlblVar::SCLINSTALLDIR/converters/wx-velthuis.out`;
 	$w =~ s/[ \t\n]//g;
-	#print "w = $w###\n";
 	$/ = "<span class=\"deva\" lang=\"sa\">";
 	while($in = <TMP>){
 		if($in =~ /<a class=\"navy\" name=\"$w#/){
-		#print $in;
        			  $result = $in;
       		}
 		elsif($in =~ /<a class=\"navy\" name=\"$w\"/){
-		#print $in;
        			  $result = $in;
       		}
 	}

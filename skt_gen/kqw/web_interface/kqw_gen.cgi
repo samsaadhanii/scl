@@ -22,6 +22,9 @@ require "../../paths.pl";
 require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
 require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/kqw/kqw_gen_subroutines.pl";
 
+
+#Usage:
+#https://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/kqw/kqw_gen.cgi?vb=gam1_gamLz_BvAxiH_gawO&upasarga=-&encoding=WX&outencoding=Devanagari&mode=json
 #
 ###################  Main function #################
 #
