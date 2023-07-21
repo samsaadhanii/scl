@@ -27,19 +27,16 @@ require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/kqw/kqw_gen_subroutines.pl";
 #
 package main;
 
+	my $format="web";
 	my %param = &get_parameters();
         my $word=$param{vb};
         my $upasarga=$param{upasarga};
         my $encoding=$param{encoding};
+        if($param{mode} eq "json") { $format = "JSON";}
+        if($param{outencoding} eq "IAST") { $outencoding = "IAST";} else { $outencoding = "Devanagari";}
 
         &open_log($GlblVar::LOG, $GlblVar::TFPATH);
 	&print_header();
-
-        #print "<script>\n";
-        #print "function generate_noun_forms(prAwi,lifga,$encoding,$out_encoding){\n";
-        #print "  window.open('/cgi-bin/$GlblVar::SCL_CGI/skt_gen/noun/noun_gen_web.cgi?encoding=$encoding&rt='+prAwi+'&gen='+lifga+'&jAwi='nA'&level=1&outencoding=out_encoding'+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
-        #print "}\n";
-        #print "</script>\n";
 
 	if ($encoding eq "IAST") {
 	 $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8roman.out";
@@ -47,8 +44,7 @@ package main;
 	 $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1";
 	}
 
-	$format="web";
-	my @forms= &gen_kqw_forms($word,$upasarga,$format,$conversion_program,$encoding);
+	my @forms= &gen_kqw_forms($word,$upasarga,$format,$conversion_program,$encoding,$outencoding);
 	print @forms;
 		
 	&register_log_and_close($GlblVar::LOG,$word,$upasarga,$encoding,%ENV);
