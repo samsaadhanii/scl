@@ -84,7 +84,7 @@ $ltproc_cmd = "$generator | sed '1,\$s/#.*/-/g' | grep . | pr -3 -a -t -w 300| t
  if ($paxI eq "uBayapaxI") {
      &gen_verb_forms_paxI($outencoding, $rt, $upasargastr, $sanAxi, $prayogaH, $XAwu, $gaNa, "AwmanepaxI", $format, $conv_program);
      if($format eq "JSON") {
-        print ",";
+        print "],";
      }
      &gen_verb_forms_paxI($outencoding, $rt, $upasargastr, $sanAxi, $prayogaH, $XAwu, $gaNa, "parasmEpaxI", $format, $conv_program);
      if($format eq "JSON") {
