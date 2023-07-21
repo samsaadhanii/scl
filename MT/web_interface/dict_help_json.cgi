@@ -34,11 +34,16 @@ my $word = $param{word};
 print "Access-Control-Allow-Origin: *\n";
 print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
+open TMP1,">/tmp/xyz";
+print TMP1 "[\n";
+
 print "[\n";
 &call_dict("apte",$word);
 &call_dict("mw",$word);
 &call_dict("heritage",$word);
 print "]\n";
+print TMP1 "]\n";
+close TMP1;
 
 
 sub call_dict{
@@ -47,41 +52,62 @@ sub call_dict{
         print "{\"Word\":\"$word\",\n";
         if($dict eq "apte") {
            print "\"DICT\":\"Apte's Skt-Hnd Dict\",\n";
+           print TMP1 "\"DICT\":\"Apte's Skt-Hnd Dict\",\n";
            $result = &get_dict_entry("apte",$word,"DEV");
+	   chomp($result);
            $result =~ s/<\/br>/ /g;
            #$result =~ s/\// /g;
-           $result =~ s/\\n/ /g;
+           $result =~ s/\n/ /g;
            $result =~ s/"/'/g;
            print "\"Meaning\":\"$result\"},\n";
+           print TMP1 "\"Meaning\":\"$result\"},\n";
         }
         if($dict eq "mw") {
            print "\"DICT\":\"Monier Williams' Skt-Eng Dict\",\n";
+           print TMP1 "\"DICT\":\"Monier Williams' Skt-Eng Dict\",\n";
            $result = &get_dict_entry("mw",$word,"DEV");
-           $result =~ s/\\n/ /g;
+	   chomp($result);
+           $result =~ s/\n/ /g;
            $result =~ s/<p>/ /g;
            $result =~ s/<p xmlns="">/ /g;
            $result =~ s/<hr xmlns="">/ /g;
            $result =~ s/<\/p>/ /g;
            $result =~ s/"/'/g;
+           $result =~ s/<div [^>]+>//g;
+           $result =~ s/<span [^>]+>//g;
+           $result =~ s/<\/span>//g;
+           $result =~ s/<a [^>]+>//g;
+           $result =~ s/<\/a>//g;
+           $result =~ s/<\/i>//g;
+           $result =~ s/<i>//g;
+           $result =~ s/^[ \t]+//g;
+
            print "\"Meaning\":\"$result\"},\n";
+           print TMP1 "\"Meaning\":\"$result\"},\n";
         }
         if($dict eq "heritage") {
            print "\"DICT\":\"Heritage Skt-French Dict\",\n";
+           print TMP1 "\"DICT\":\"Heritage Skt-French Dict\",\n";
            $result = &get_dict_entry("heritage",$word,"DEV");
-           $result =~ s/\\n/ /g;
+	   chomp($result);
+           $result =~ s/\n/ /g;
            $result =~ s/<p><\/p>/ /g;
            $result =~ s/<br>/ /g;
            $result =~ s/"/'/g;
            print "\"Meaning\":\"$result\"}\n";
+           print TMP1 "\"Meaning\":\"$result\"}\n";
         }
 	if($dict eq "ccs") {
            print "\"DICT\":\"Cappeller's Skt-Ger Dict\",\n";
+           print TMP1 "\"DICT\":\"Cappeller's Skt-Ger Dict\",\n";
            $result = &get_dict_entry("ccs",$word,"DEV");
-           $result =~ s/\\n/ /g;
+	   chomp($result);
+           $result =~ s/\n/ /g;
            $result =~ s/<p><\/p>/ /g;
            $result =~ s/<br>/ /g;
            $result =~ s/"/'/g;
            print "\"Meaning\":\"$result\"}\n";
+           print TMP1 "\"Meaning\":\"$result\"}\n";
         }
 }
 1;

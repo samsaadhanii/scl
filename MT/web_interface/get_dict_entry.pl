@@ -83,7 +83,6 @@ elsif($dic_name eq "heritage"){
         } else {
 	   $filename = "$Files_Path/fr/Heritage/$l.html";
         }
-        print "filename = $filename\n";
 }
 elsif($dic_name eq "mw"){
         $sword =~ s/_//;
