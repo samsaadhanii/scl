@@ -43,6 +43,11 @@ package main;
 	   &print_header();
         }
 
+         if($format eq "JSON") {
+           print "Access-Control-Allow-Origin: *\n";
+           print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
+         }
+
 	if ($encoding eq "IAST") {
 	 $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8roman.out";
 	} else {
