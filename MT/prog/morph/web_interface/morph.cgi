@@ -143,32 +143,32 @@ my $format;
                if ($ans =~ /(पुं|नपुं|स्त्री)/){ $lifga = $1;}
 	       $lifga_wx = &get_lifga_wx($lifga);
                if($format eq "web") {$link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga_wx','nA','$outencoding','1')\">$rt</a>";}
-	      else { $link = "\"APP\":\"noun\",\"encoding\":\"Unicode\",\"rt\":\"$rt\",\"linga\",\"$lifga\",\"cat\":\"nA\",\"outencoding\":\"$outencoding\",\"RT\":\"$rt\"";}
+	      else { $link = "\"APP\":\"noun\",\"encoding\":\"Unicode\",\"rt\":\"$rt\",\"linga\":\"$lifga\",\"cat\":\"nA\",\"outencoding\":\"$outencoding\",\"RT\":\"$rt\"";}
                $color = "skyblue";
             } elsif ($ans =~ /{वर्गः ना}/ ) {
                 $ans =~ s/{वर्गः ना}//;
                 if ($ans =~ /(पुं|नपुं|स्त्री)/){ $lifga = $1;}
 	        $lifga_wx = &get_lifga_wx($lifga);
                 if($format eq "web") {$link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga_wx','nA','$outencoding','1')\">$rt</a>";}
-	      else { $link = "\"APP\":\"noun\",\"encoding\":\"Unicode\",\"rt\":\"$rt\",\"linga\",\"$lifga\",\"cat\":\"nA\",\"outencoding\":\"$outencoding\",\"RT\":\"$rt\"";}
+	      else { $link = "\"APP\":\"noun\",\"encoding\":\"Unicode\",\"rt\":\"$rt\",\"linga\":\"$lifga\",\"cat\":\"nA\",\"outencoding\":\"$outencoding\",\"RT\":\"$rt\"";}
                 $color = "skyblue";
            } elsif ($ans =~ /संख्या/)  {
               if ($ans =~ /(पुं|नपुं|स्त्री)/){ $lifga = $1;} else  {$lifga = "अ";}
 	      $lifga_wx = &get_lifga_wx($lifga);
               if($format eq "web") {$link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$outencoding','$rt','$lifga_wx','saMKyA','$outencoding','1')\">$rt</a>";}
-	      else { $link = "\"APP\":\"noun\",\"encoding\":\"Unicode\",\"rt\":\"$rt\",\"linga\",\"$lifga\",\"cat\":\"saMKyA\",\"outencoding\":\"$outencoding\",\"RT\":\"$rt\"";}
+	      else { $link = "\"APP\":\"noun\",\"encoding\":\"Unicode\",\"rt\":\"$rt\",\"linga\":\"$lifga\",\"cat\":\"saMKyA\",\"outencoding\":\"$outencoding\",\"RT\":\"$rt\"";}
               $color = "skyblue";
            } elsif ($ans =~ /संख्येय/) {
               if ($ans =~ /(पुं|नपुं|स्त्री)/){ $lifga = $1;} else  {$lifga = "अ";}
 	      $lifga_wx = &get_lifga_wx($lifga);
               if($format eq "web") {$link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga_wx','saMKyeyam','$outencoding','1')\">$rt</a>";}
-	      else { $link = "\"APP\":\"noun\",\"encoding\":\"Unicode\",\"rt\":\"$rt\",\"linga\",\"$lifga\",\"cat\":\"saMKyeyam\",\"outencoding\":\"$outencoding\",\"RT\":\"$rt\"";}
+	      else { $link = "\"APP\":\"noun\",\"encoding\":\"Unicode\",\"rt\":\"$rt\",\"linga\":\"$lifga\",\"cat\":\"saMKyeyam\",\"outencoding\":\"$outencoding\",\"RT\":\"$rt\"";}
               $color = "skyblue";
            } elsif ($ans =~ /सर्वनाम/){
               if ($ans =~ /(पुं|नपुं|स्त्री)/){ $lifga = $1;} else  {$lifga = "अ";}
 	      $lifga_wx = &get_lifga_wx($lifga);
               if($format eq "web") {$link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga_wx','sarva','$outencoding','1')\">$rt</a>";}
-	      else { $link = "\"APP\":\"noun\",\"encoding\":\"Unicode\",\"rt\":\"$rt\",\"linga\",\"$lifga_wx\",\"cat\":\"sarva\",\"outencoding\":\"$outencoding\",\"RT\":\"$rt\"";}
+	      else { $link = "\"APP\":\"noun\",\"encoding\":\"Unicode\",\"rt\":\"$rt\",\"linga\":\"$lifga_wx\",\"cat\":\"sarva\",\"outencoding\":\"$outencoding\",\"RT\":\"$rt\"";}
               $color = "skyblue";
           } elsif (($ans =~ /(लट्|लिट्|लुट्|लोट्|लृट्|लङ्|लृङ|लुङ्|लिङ्)/) || ($ans =~ /अव्य.*कृदन्त/)) {
           	if($ans =~ /([^ ]+) ([^ ]+दिः)/) {  $XAwu = $1;$gaNa = $2;}
