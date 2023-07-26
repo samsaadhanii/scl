@@ -41,6 +41,14 @@ sub read_and_print_first_file {
    $indx = $1;
    if($flds[0] =~ /^$sent_id\./) {
       if($flds[$color_code_fld] eq "KP") { $last_verb_indx = $indx;}
+      else { 
+         if ($flds[$karaka_rel_fld] =~ /^(कारण|कार्य|आवश्यकता|परिणाम)_द्योतकः,([0-9\.]+)/) {
+             $last_verb_indx = $indx;
+         }
+         if ($flds[$karaka_rel_fld] =~ /^(kāraṇa|kārya|āvaśyakatā|pariṇāma)_dyotakaḥ,([0-9\.]+)/) {
+             $last_verb_indx = $indx;
+         }
+      }
    }
    if (&member_discourse_connective1($flds[$wrd_fld_id])) {
        $discourse_connective1 = $flds[$wrd_fld_id];
@@ -92,6 +100,14 @@ sub read_second_file {
       elsif ( ($flds[$wrd_fld_id] eq "वा") || ($flds[$wrd_fld_id] eq "vāā")) { $anyawara_xyowakaH_indx = $indx;}
    }
    if($flds[$color_code_fld] eq "KP") { $verb_indx = $indx;}
+   else { 
+      if ($flds[$karaka_rel_fld] =~ /^(कारण|कार्य|आवश्यकता|परिणाम)_द्योतकः,([0-9\.]+)/) {
+          $verb_indx = $indx;
+      }
+      if ($flds[$karaka_rel_fld] =~ /^(kāraṇa|kārya|āvaśyakatā|pariṇāma)_dyotakaḥ,([0-9\.]+)/) {
+          $verb_indx = $indx;
+      }
+   }
  }
  close(TMP1);
 
@@ -117,6 +133,7 @@ sub mark_discourse_rels {
    $in =~ s/,([0-9\.]+)/,$sent_id.$1/;
    @flds = split(/\t/,$in);
 
+    print "$DC2 = $discourse_connective2,\n";
    if($discourse_connective2 ne "") {
       if ($flds[0] =~ /^$sent_id.$verb_indx/) {
          $rel = &get_rel($discourse_connective2);

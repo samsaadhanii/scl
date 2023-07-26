@@ -1092,8 +1092,8 @@ value rec seq_expectancy relations relsindag=
             | [ Relationc (a,b1,b,r1,c,d1,d,dist1) :: rest] -> 
                  (*do { print_string "AAA\n"; print_sint a; print_sint b1; print_sint b;print_sint r1; print_sint c; print_sint d1; print_sint d; print_string "\n"; *)
                  match r1 with
-                 [ 3 | 4 | 5 | 9 | 13 | 16 | 17 | 52 | 53 | 54 | 55 | (*56 | 57 | 59 |*) 76 |  77 |  79 | 80 | 42 | 41 | 68 | 69 | 12 |  97 | 32 | 33 | 34 | 35 | 45 | 46 | 47 | 48  | 202 | 203 -> 
-(* relaxed condition for 56-57-59 yaxyapi-waWApi - kArya-kAraNA-BAva *)
+                 [ 3 | 4 | 5 | 9 | 13 | 16 | 17 | 52 | 53 | 54 | 55 | (*56 | 57 | 60 |*) 76 |  77 |  79 | 80 | 42 | 41 | 68 | 69 | 12 |  97 | 32 | 33 | 34 | 35 | 45 | 46 | 47 | 48  | 202 | 203 -> 
+(* relaxed condition for 56-57-60 yaxyapi-waWApi - kArya-kAraNA-BAva *)
                   loop1 maprel
                        where rec loop1=fun
                        [ [] -> False (* do { print_string "False\n"; False} *)
@@ -1116,7 +1116,7 @@ value rec seq_expectancy relations relsindag=
                                      (* rAme vanam gacCawi sIwA anusarawi ; SAswra-sampAwe pravqwwe XanuH uxyamya pANdavaH ixam abravIw *)
                                      else if r1=53 then if r2=52 then loop rest else loop1 rest1
                                      else if r1=54 then if r2=55 then loop rest else loop1 rest1
-                                     (*else if r1=59 then if (r2=56|| r2=57) then loop rest else loop1 rest1*)
+                                     (*else if r1=60 then if (r2=56|| r2=57) then loop rest else loop1 rest1*)
                                      (* else if r1=92 then if r2=76 then loop rest else loop1 rest1  for sahArWaH sahArWa_xyowaka is not needed *)
                                      (* else if r1=93 then if r2=77 then loop rest else loop1 rest1   for vinArWaH vinArWaH_xyowaka is not needed *)
                                      else if r1=79 then if r2=80 then loop rest else loop1 rest1
@@ -1131,8 +1131,8 @@ value rec seq_expectancy relations relsindag=
                                      (* rAme vanam gacCawi sIwA anusarawi ; SAswra-sampAwe pravqwwe XanuH uxyamya pANdavaH ixam abravIw *)
                                      else if r1=52 then if r2=53 then loop rest else loop1 rest1
                                      else if r1=55 then if r2=54 then loop rest else loop1 rest1
-                                     (*else if r1=56 then if r2=59 then loop rest else loop1 rest1
-                                     else if r1=57 then if r2=59 then loop rest else loop1 rest1*)
+                                     (*else if r1=56 then if r2=60 then loop rest else loop1 rest1
+                                     else if r1=57 then if r2=60 then loop rest else loop1 rest1*)
                                      else if r1=76 then if r2=92 then loop rest else loop1 rest1
                                      else if r1=77 then if r2=93 then loop rest else loop1 rest1  
                                      else if r1=80 then if r2=79 then loop rest else loop1 rest1
