@@ -44,7 +44,7 @@ value sambanXavAci_list = [
 "zmiwra";
 "nananxq";
 "pawi";
-"pawni";
+"pawnI";
 "piwAmaha";
 "piwarO";
 "piwq";

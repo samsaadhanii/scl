@@ -8,5 +8,6 @@ value karmasamAnAXikaraNa_XAwu_list = [
 "pari_cakR1";
 "vi_XA1";
 "vix1";
+"vac1"; (* anwavanwaH ime xehAH ukwAH -- BhG 2.18 *)
 ]
 ;
