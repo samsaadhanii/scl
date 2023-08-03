@@ -29,7 +29,6 @@ while(<TMP>) {
 }
 close(TMP);
 
-
 %ANA = {};
 %REL = {};
 ## Get the relations corresponding to each word from parseop1.txt, and also note down the correct pnalysis
@@ -81,17 +80,8 @@ while($in = <STDIN>){
         $w_ana[5] =~ s/^\///;
 
         @mo_ana = split(/\//,$w_ana[5]);
-        $ana_count = 0;
-        $found=0; 
-        foreach $mo_ana (@mo_ana) {
-          if(defined($ANA{$key}) && ($ANA{$key} == $ana_count)) {
-           print $mo_ana;         
-           print "\t",$REL{$key};
-           $found=1;
-          }
-          $ana_count++;
-        }
-        if(!$found) { print &pick_one_morph($w_ana[5]),"\t-";}
+        if(!defined($ANA{$key})) { print &pick_one_morph($w_ana[5]),"\t-";}
+        else { $ana_count = $ANA{$key}; print $mo_ana[$ana_count],"\t",$REL{$key};}
         print "\n";
       }
 }
