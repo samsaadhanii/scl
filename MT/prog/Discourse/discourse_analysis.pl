@@ -9,26 +9,29 @@ $tab = "	";
 $wrd_fld_id = 1; #counted from 0
 $karaka_rel_fld = 6; #counted from 0
 $color_code_fld = 8; #counted from 0
+$morph_fld = 5; #counted from 0
 
 $discourse_connective1 = "";
+$niwya_connective1 = "";
 $niwya_connective1_pos = -1;
 $last_verb_indx = -1;
 
 if($sent_id > 1) {
- ($discourse_connective1,$niwya_connective1_pos,$last_verb_indx) = split(/#/,&read_and_print_first_file($para_anal_fl,$sent_id,$color_code_fld));
+ ($discourse_connective1,$niwya_connective1,$niwya_connective1_pos,$last_verb_indx) = split(/#/,&read_and_print_first_file($para_anal_fl,$sent_id,$color_code_fld));
 }
 
-($samuccaya_xyowakaH_indx,$anyawara_xyowakaH_indx,$discourse_connective2,$niwya_connective2_pos,$verb_indx) = 
+($samuccaya_xyowakaH_indx,$anyawara_xyowakaH_indx,$discourse_connective2,$niwya_connective2,$niwya_connective2_pos,$verb_indx) = 
    split(/#/,&read_second_file($sent_id,$sent_anal_fl,$color_code_fld,$wrd_fld_id));
-   &mark_discourse_rels($sent_anal_fl,$sent_id,$wrd_fld_id, $color_code_fld, $karaka_rel_fld, $samuccaya_xyowakaH_indx, $anyatara_xyowakaH_indx, $discourse_connective2, $niwya_connective2_pos, $verb_indx, $discourse_connective1, $niwya_connective1_pos, $last_verb_indx,$tab);
+   &mark_discourse_rels($sent_anal_fl,$sent_id,$wrd_fld_id, $color_code_fld, $karaka_rel_fld, $samuccaya_xyowakaH_indx, $anyatara_xyowakaH_indx, $discourse_connective2, $niwya_connective2, $niwya_connective2_pos, $verb_indx, $discourse_connective1, $niwya_connective1, $niwya_connective1_pos, $last_verb_indx,$tab);
 
 
 sub read_and_print_first_file {
   my($fl_nm,$sent_id,$color_code_fld) = @_;
 
-  my($in,$indx,@flds,$niwya_connective1_pos,$last_verb_indx);
+  my($in,$indx,@flds,$niwya_connective1_pos,$niwya_connective1,$last_verb_indx);
   $last_verb_indx = -1;
   $discourse_connective1 = "";
+  $niwya_connective1 = "";
   $niwya_connective1_pos = -1;
 
   $sent_id--;	# search for the verb index of the previous sentence
@@ -45,7 +48,10 @@ sub read_and_print_first_file {
          if ($flds[$karaka_rel_fld] =~ /^(कारण|कार्य|आवश्यकता|परिणाम)_द्योतकः,([0-9\.]+)/) {
              $last_verb_indx = $indx;
          }
-         if ($flds[$karaka_rel_fld] =~ /^(kāraṇa|kārya|āvaśyakatā|pariṇāma)_dyotakaḥ,([0-9\.]+)/) {
+         elsif ($flds[$karaka_rel_fld] =~ /^(kāraṇa|kārya|āvaśyakatā|pariṇāma)_dyotakaḥ,([0-9\.]+)/) {
+             $last_verb_indx = $indx;
+         }
+	 elsif (($flds[$morph_fld] =~ /(क्त|क्तवतु)/) && ($flds[$color_code_fld] eq "N1")){ 
              $last_verb_indx = $indx;
          }
       }
@@ -57,19 +63,21 @@ sub read_and_print_first_file {
    }
    if (&member_niwya_connective1($flds[$wrd_fld_id])) {
        $niwya_connective1_pos = $indx;
+       $niwya_connective1 = $flds[$wrd_fld_id];
    }
  print $in;
  }
  close ($TMP1);
-join ('#', $discourse_connective1,$niwya_connective1_pos,$last_verb_indx);
+join ('#', $discourse_connective1,$niwya_connective1,$niwya_connective1_pos,$last_verb_indx);
 }
 1;
 
 sub read_second_file {
  my($sent_id,$sent_anal_fl,$color_code_fld,$wrd_fld_id) = @_;
 
- my($in,$wrd_id,$indx,$samuccaya_xyowakaH_indx,$anyawara_xyowakaH_indx,$discourse_connective2,$niwya_connective2_pos,$verb_indx); 
+ my($in,$wrd_id,$indx,$samuccaya_xyowakaH_indx,$anyawara_xyowakaH_indx,$discourse_connective2,$niwya_connective2,$niwya_connective2_pos,$verb_indx); 
  $discourse_connective2 = "";
+ $niwya_connective2 = "";
  $niwya_connective2_pos = -1;
  $anyawara_xyowakaH_indx = -1;
  $samuccaya_xyowakaH_indx = -1;
@@ -93,6 +101,7 @@ sub read_second_file {
    }
    elsif (&member_niwya_connective2($flds[$wrd_fld_id])) {
        $niwya_connective2_pos = $indx;
+       $niwya_connective2 = $flds[$wrd_fld_id];
    }
    elsif($wrd_id == 2) {
       if ( ($flds[$wrd_fld_id] eq "च") || ($flds[$wrd_fld_id] eq "ca")) { $samuccaya_xyowakaH_indx = $indx;}
@@ -104,22 +113,27 @@ sub read_second_file {
       if ($flds[$karaka_rel_fld] =~ /^(कारण|कार्य|आवश्यकता|परिणाम)_द्योतकः,([0-9\.]+)/) {
           $verb_indx = $indx;
       }
-      if ($flds[$karaka_rel_fld] =~ /^(kāraṇa|kārya|āvaśyakatā|pariṇāma)_dyotakaḥ,([0-9\.]+)/) {
+      elsif ($flds[$karaka_rel_fld] =~ /^(kāraṇa|kārya|āvaśyakatā|pariṇāma)_dyotakaḥ,([0-9\.]+)/) {
+          $verb_indx = $indx;
+      }
+      elsif (($flds[$morph_fld] =~ /(क्त|क्तवतु)/) && ($flds[$color_code_fld] eq "N1")){ 
           $verb_indx = $indx;
       }
    }
  }
  close(TMP1);
 
-join('#',$samuccaya_xyowakaH_indx,$anyawara_xyowakaH_indx,$discourse_connective2,$niwya_connective2_pos,$verb_indx);
+join('#',$samuccaya_xyowakaH_indx,$anyawara_xyowakaH_indx,$discourse_connective2,$niwya_connective2,$niwya_connective2_pos,$verb_indx);
 }
 1;
 
 sub mark_discourse_rels {
-  my($sent_anal_fl, $sent_id,$wrd_fld_id, $color_code_fld, $karaka_rel_fld, $samuccaya_xyowakaH_indx, $anyatara_xyowakaH_indx, $discourse_connective2, $niwya_connective2_pos,$verb_indx, $discourse_connective1, $niwya_connective1_pos,$last_verb_indx,$tab) = @_;
+  my($sent_anal_fl, $sent_id,$wrd_fld_id, $color_code_fld, $karaka_rel_fld, $samuccaya_xyowakaH_indx, $anyatara_xyowakaH_indx, $discourse_connective2, $niwya_connective1, $niwya_connective2_pos,$verb_indx, $discourse_connective1, $niwya_connective1, $niwya_connective1_pos,$last_verb_indx,$tab) = @_;
 
  my($wrd_id, @flds );
 
+print "LVI = $last_verb_indx\n";
+print "VI = $verb_indx\n";
  open (TMP1,"<$sent_anal_fl");
 
   $in = <TMP1>; # ignore the title
@@ -130,10 +144,9 @@ sub mark_discourse_rels {
    $in =~ /^([0-9]+)/;
    $wrd_id = $1;
    $in =~ s/^/$sent_id./;
-   $in =~ s/,([0-9\.]+)/,$sent_id.$1/;
+   $in =~ s/,([0-9\.]+)/,$sent_id.$1/g;
    @flds = split(/\t/,$in);
 
-    print "$DC2 = $discourse_connective2,\n";
    if($discourse_connective2 ne "") {
       if ($flds[0] =~ /^$sent_id.$verb_indx/) {
          $rel = &get_rel($discourse_connective2);
@@ -149,7 +162,7 @@ sub mark_discourse_rels {
       $in = join("$tab",@flds);
    }
    elsif (($niwya_connective1_pos > -1) && ($niwya_connective2_pos > -1)) {
-         if ($flds[0] =~ /^$sent_id.$niwya_connective2_pos/) {
+         if (($flds[0] =~ /^$sent_id.$niwya_connective2_pos/) && (&pair($niwya_connective1,$niwya_connective2))) {
             if($out_encoding eq "IAST") { 
                $flds[$karaka_rel_fld] .= ";nitya_sambandhaḥ,$niwya_connective1_pos";
             } else {
@@ -230,6 +243,7 @@ my ($word) = "";
      ($fld eq "सन्नपि") || 
      ($fld eq "तर्ह्यपि") || 
      ($fld eq "ततः") || 
+     ($fld eq "तस्मात्") || 
      ($fld eq "अतः") || 
      ($fld eq "tarhi")  ||
      ($fld eq "tathāpi") ||
@@ -269,6 +283,7 @@ elsif ($discourse_connective eq "चेदपि") { $rel = "व्यभिच�
 elsif ($discourse_connective eq "cedapi") { $rel = "vyabhicāraḥ";}
 elsif ($discourse_connective eq "यतः") { $rel = "कार्य-कारण-भावः";}
 elsif ($discourse_connective eq "ततः") { $rel = "कार्य-कारण-भावः";}
+elsif ($discourse_connective eq "तस्मात्") { $rel = "कार्य-कारण-भावः";}
 elsif ($discourse_connective eq "अतः") { $rel = "कार्य-कारण-भावः";}
 elsif ($discourse_connective eq "yataḥ") { $rel = "kārya-kāraṇa-bhāvaḥ";}
 elsif ($discourse_connective eq "ataḥ") { $rel = "kārya-kāraṇa-bhāvaḥ";}
@@ -285,9 +300,11 @@ my($fld) = @_;
 my ($word) = "";
  if (($fld eq "यदा") || 
      ($fld eq "यथा") ||
+     ($fld eq "यद्वत्") ||
      ($fld eq "यत्र") || 
      ($fld eq "yadā") ||
      ($fld eq "yathā") ||
+     ($fld eq "yadvat") ||
      ($fld eq "yatra")) {
    $word = $fld;
  }
@@ -302,12 +319,31 @@ my($fld) = @_;
 my ($word) = "";
  if (($fld eq "तदा") || 
      ($fld eq "तथा") ||
+     ($fld eq "तद्वत्") ||
      ($fld eq "तत्र") || 
      ($fld eq "tadā") ||
      ($fld eq "tathā") ||
+     ($fld eq "tadvat") ||
      ($fld eq "tatra")) {
    $word = $fld;
  }
  $word;
 }
 1;
+
+sub pair {
+my($c1, $c2) = @_;
+
+ if ((($c2 eq "तदा") && ($c1 eq "यदा")) || 
+     (($c2 eq "तथा")  && ($c1 eq "यथा")) ||
+     (($c2 eq "तद्वत्")  && ($c1 eq "यद्वत्")) ||
+     (($c2 eq "तत्र")  && ($c1 eq "यत्र")) || 
+     (($c2 eq "tadā") && ($c1 eq "yadā")) ||
+     (($c2 eq "tathā") &&  ($c1 eq "yathā")) ||
+     (($c2 eq "tadvat") &&  ($c1 eq "yadvat")) ||
+     (($c2 eq "tatra") && ($c1 eq "yatra"))) {
+  return 1;
+} else { return 0;}
+}
+1;
+ 

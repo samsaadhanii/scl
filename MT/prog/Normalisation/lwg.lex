@@ -63,6 +63,8 @@
 [ ]yaxi[ ]api	{printf(" yaxyapi");}
 ^warhi[ ]api	{printf("warhyapi");}
 [ ]warhi[ ]api	{printf(" warhyapi");}
+^hi[ ]api	{printf("hyapi");}
+[ ]hi[ ]api	{printf(" hyapi");}
 ^warhi[ ]eva	{printf("warhyeva");}
 [ ]warhi[ ]eva	{printf(" warhyeva");}
 %%
