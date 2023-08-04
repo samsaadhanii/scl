@@ -2076,7 +2076,7 @@ value wumun id1 cid1 mid1 id2 cid2 mid2 rt2 upasarga2 text_type rl1 rl2 rl3 =
       then if (rt2="iR2" || rt2="icCuka") 
            then [ Relation ( id1,cid1,mid1,"iRkarma",id2,cid2,mid2,rl1,d12)] 
            else if (members_of rt2 upasarga2 shakAxi)
-            then [ Relation (id1,cid1,mid1,"karma",id2,cid2,mid2,rl2,d12)]
+            then [ Relation (id1,cid1,mid1,"wumunkarma",id2,cid2,mid2,rl2,d12)]
             else if not (rt2="as2") then [ Relation (id1,cid1,mid1,"prayojanam1",id2,cid2,mid2,rl3,d12)]
                  else []
       else []

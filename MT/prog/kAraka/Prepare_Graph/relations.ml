@@ -70,7 +70,7 @@ value relations_encodings = [
 	("lyapkarmAXikaraNam",78);
 	("upamAnam",79);
 	("upamAna_xyowakaH",80);
-	("sahAyakakriyA",81);
+	("wumunkarma",81);
 	("vIpsA",82);
 	("apAxAnam_vIpsA",83);
 	("karaNam_vIpsA",84);
