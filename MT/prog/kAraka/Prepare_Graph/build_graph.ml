@@ -2076,7 +2076,7 @@ value wumun id1 cid1 mid1 id2 cid2 mid2 rt2 upasarga2 text_type rl1 rl2 rl3 =
       then if (rt2="iR2" || rt2="icCuka") 
            then [ Relation ( id1,cid1,mid1,"iRkarma",id2,cid2,mid2,rl1,d12)] 
            else if (members_of rt2 upasarga2 shakAxi)
-            then [ Relation (id1,cid1,mid1,"sahAyakakriyA",id2,cid2,mid2,rl2,d12)]
+            then [ Relation (id1,cid1,mid1,"karma",id2,cid2,mid2,rl2,d12)]
             else if not (rt2="as2") then [ Relation (id1,cid1,mid1,"prayojanam1",id2,cid2,mid2,rl3,d12)]
                  else []
       else []
@@ -3123,7 +3123,7 @@ value rlkarwqsamAnAXikaraNam m1 m2 m3 text_type = match m2 with
            && (not (pronominal123 rt1 && viBakwiH1=1 && rt1="kim") || (rt1="kim" && viBakwiH1=viBakwiH2 && vacanam1=vacanam2 && lifgam1=lifgam2))
            (* parIkRA-arWinaH mArge kim aBavaw -- parIkRA-arWinaH should not be karwqsamAnAXikaraNam *)
            && not (rt2 = get_assoc rt1 parAjAwi_list)
-           (*&& not (member_of rt1 guNavacana)*) (* yogyawA *)
+           && (member_of rt2 guNavacana) (* yogyawA  awra SuxXaM jalaM aswi; jalam should not be marked as a viXeya viSeRaNam *)
            (* && not (pUrva2=uwwara2) || (member_of rt2 guNavacana)) *)
            && not (rt1="kiFciw" || rt1="kiFcana"|| rt1="yAvaw" || rt1="wAvaw" ) (* yogyawA  To stop: kA hAniH Bavawi hAniH is karwqsamAnAXikaraNa of kA
            Earlier kim was also included in the above list. But hAniH as karwqsam is OK. This is similar to sunxara-kANde kim na sunxaram bhavawi *)
@@ -4865,6 +4865,12 @@ value rlca_samucciwa m1 m2 m3 text_type = match m2 with
               | Sup(id1,cid1,mid1,word1,rt1,_,_,_,viBakwiH1,vacanam1,_)
               | WaxXiwa (id1,cid1,mid1,word1,rt1,_,_,_,_,viBakwiH1,vacanam1,_) ->
                   mark_sup_samucchiwa id1 id2 id3 cid1 cid2 cid3 mid1 mid2 mid3 viBakwiH1 viBakwiH3 vacanam1 vacanam3 word2 "58.17" "58.18"
+              |  _ -> []
+              ]
+        | Avy (id3,cid3,mid3,_,word3,_,_,_) -> 
+              match m1 with
+	      [ Avy (id1,cid1,mid1,_,word1,_,_,_) -> 
+                 mark_sup_samucchiwa id1 id2 id3 cid1 cid2 cid3 mid1 mid2 mid3 0 0 0 0 word2 "58.15" "58.16"
               |  _ -> []
               ]
         | _ -> [] 
