@@ -18,15 +18,6 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 
-#BEGIN{require "$ARGV[0]/paths.pl";}
-
-#use lib $GlblVar::LIB_PERL_PATH;
-
-#use GDBM_File;
-
-#tie(%kAraka_name,GDBM_File,"$ARGV[1]",GDBM_READER,0644) || die "Can't open $ARGV[1] for reading";
-#tie(%kAraka_num,GDBM_File,"$ARGV[2]",GDBM_READER,0644) || die "Can't open $ARGV[2] for reading";
-
 open(TMP,"$ARGV[1]") || die "Can't open $ARGV[1] for reading";
 while(<TMP>) {
 chomp;
@@ -59,7 +50,7 @@ while($in = <STDIN>){
   } else {
     for($j=$i-1;$j>=0;$j--){
 #If it is pUrvakAla
-     if (($k_rel_nm[$j] eq "pUrvakAlaH")  || ($k_rel_nm[$j] eq "samAnakAlaH")) {
+     if (($k_rel_nm[$j] eq "pUrvakAlaH")  || ($k_rel_nm[$j] eq "samAnakAlaH") || ($k_rel_nm[$j] eq "wumunkarma")) {
          $in[$j] =~ /([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+)/;
 # Get main verb position
          $verb_pos = $5.",".$6.",".$7;
