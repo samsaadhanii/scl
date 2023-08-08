@@ -33,7 +33,7 @@ value guNavacana_list = [
 "GaniRTa";
 "Gora";
 "IRawpANdu";
-"ISvara";
+"zISvara";
 "Kara";
 "SASvawI";
 "SASvawa";
@@ -46,6 +46,8 @@ value guNavacana_list = [
 "Sabala";
 "Siwi";
 "SoNa";
+"SoBana";
+"SoBanA";
 "zSrI";
 "SramaNA";
 "SraxxaXAna";

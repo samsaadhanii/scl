@@ -119,6 +119,7 @@ value kriyAviSeRaNa_list =
 ("pramuKawaH avy");
 ("prasaBam 2");
 ("prasannena 3");
+("prawixinam avy");
 ("praWamam 2");
 ("prAXAnyawaH avy");
 ("prewya avy");
