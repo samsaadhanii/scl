@@ -1236,9 +1236,9 @@ This condition is added, to rule out the possibility of karwA in Sloka form when
                       AxikarmaNi--rAmaH kataM prakqwaH,gawyarWa- rAmaH gqhaM gawaH... *)
                    (* ; Relation (id1,cid1,mid1,"karma",id2,cid2,mid2,"2.2",d12) 
                         samavewAH yuyuwsvaH; here in shloka order, yuyuwsavaH is marked as a karma of samavewAH, which is wrong. *) 
-                       (* kwayoreva.. *)  (* ?? DO Not mark karma; this is just samAnAXikaraNam *)
+                       (* kwayoreva 3-4-71 *)  (* ?? Do not mark karma; this is just samAnAXikaraNam *)
                    else if members_of rt2 upasarga2 sakarmaka_verbs 
-                        (* && finite_verb_in_sentence.val == 50 -- mayA sIwA xqRtA iwi sH nyavexayaw, final verb is present, and sIwA is karma for xqRtA 
+                        && finite_verb_in_sentence.val == 50 (* -- mayA sIwA xqRtA iwi saH nyavexayaw, final verb is present, and sIwA is karma for xqRtA : Solution -- Treat these as two different sentences with a full stop before iwi.
                            Here is a problematic sentence: waM vrajanwaM priyaH BrAwA lakRmaNaH anujagAma snehAw vinaya-sampannaH sumiwrAnanxa-varXanaH BrAwaraM xayiwaH BrAwuH sOBrAwram anuxarSayan
 			   In this sumiwrAnanxa-varXanaH is marked as karma of vinaya-sampannaH, which is wrong *)
                           (* && (pUrvapaxa2=uwwarapaxa2 || pUrvapaxa2="a") *)
@@ -1600,7 +1600,7 @@ e.g. saH prAwaH BramaNAya gacCawi -- Amruta   14 July 2020
                 (* manyakarmaNyanAxare viBARAZprANiRu 2-3-17 ahaM wvAM wqNAya manye / aham wvA wqNAya manye *)
                          else if kqw1 = 0 && not (pUrvapaxa2 = "y") && not (uwwarapaxa2 = "y")
                               then [ Relation (id1,cid1,mid1,"prayojanam1",id2,cid2,mid2,"4.16",d12)] (* puwrAya puswakaM krINAwi *) 
-                              else []
+                         else [ Relation (id1,cid1,mid1,"prayojanam1",id2,cid2,mid2,"4.17",d12)] (* prakRAlanAya xaxAwi *)
        | 5 -> if members_of rt2 upasarga2 apAxAna_verbs
               then if pronominal123 rt1
                    then if word1="wasmAw"
@@ -2541,7 +2541,7 @@ value rlupapaxa m1 m2 text_type = match m2 with
                     "prAFca" | "prawyaFca" | "prawyak" |"paScimA" | "paScimam" | "paScimAn" |
                    "samIpam" | "samIpAw" | "samIpena" | "samIpe" | "uwwarA" |
                    "uwwarAhi"  | "prawIcI" | "uxac" | "uxak" | "uxIcI" |"prAcI" | "prAk" | "pUrvA" | "pUrvaH" |
-                  "pUrvam" | "pUrvAn" | "uwwaram" | "viprakqRtam" | "paScAw" |
+                   "pUrvam" | "pUrvAn" | "uwwaram" | "viprakqRtam" | "paScAw" |
                    "viprakqRtAw" | "viprakqRtena" | "viprakqRte" |"viprakqRtA" |
                    "xakRiNAhi" | "xakRiNA" | "xakRiNam"|"xakRiNAn" |"uwwarAn" | "xUram" | "xUreNa" |
                    "xUrAw" | "xUrA" | "xUre" ->
@@ -2665,7 +2665,9 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
            if (id1 < id2)  && no_boundary_crossing_with_iwi id1 id2 text_type
            then if word1 = "sahiwaH"
            then [ Relation (id1,cid1,mid1,"sambanXa_upa",id2,cid2,mid2,"26.1",d12)] 
-           else [ Relation (id1,cid1,mid1,"xeSAXikaraNam_upa",id2,cid2,mid2,"26.2",d12)] 
+           else if word1 = "pUrvam" 
+           then [ Relation (id1,cid1,mid1,"aXikaraNam_upa",id2,cid2,mid2,"26.2",d12)] 
+           else [ Relation (id1,cid1,mid1,"xeSAXikaraNam_upa",id2,cid2,mid2,"26.3",d12)] 
            else []
          |_ -> []
          ]
@@ -2859,7 +2861,7 @@ value rlRaRTIsambanXaH m1 m2 text_type = match m1 with
       [ Sup (id1,cid1,mid1,_,rt1,_,_,lifga1,viBakwiH1,vacana1,_)
       | Kqw (id1,cid1,mid1,_,rt1,_,_,_,_,_,_,_,_,_,lifga1,viBakwiH1,vacana1,_)
       | WaxXiwa (id1,cid1,mid1,_,rt1,_,_,_,lifga1,viBakwiH1,vacana1,_) ->
-           if viBakwiH1=6 && not (member_of rt1 guNavacana)
+           if viBakwiH1=6 && (not (member_of rt1 guNavacana) || rt1="xayA" || rt1 = "mAyA")
            then match m2 with 
                  [ Kqw (id2,cid2,mid2,_,rt2,_,_,kqw2,_,_,_,_,pUrvapaxa2,uwwarapaxa2,_,viBakwiH2,_,_) -> 
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
@@ -2871,7 +2873,7 @@ value rlRaRTIsambanXaH m1 m2 text_type = match m1 with
                                  * Here we are dealing with only SeRe RaRTI *)
 				(* pawriNAm viruwena Removed Sawq_l?t, SAnac_l?t, kwa and kwavawu *)
                        && not (viBakwiH2 = 8)
-                       && (not (member_of rt2 guNavacana))
+                       && (not (member_of rt2 guNavacana) || (rt2="xayA") || (rt2 = "kqpA") || (rt2 = "karuNA") || (rt2 = "mAyA"))
                    then [ Relation (id1,cid1,mid1,"RaRTIsambanXaH",id2,cid2,mid2,"28.1",d12)]
                    else if   not (pUrvapaxa2=uwwarapaxa2)    (* Compound *)
                    then if   member_of pUrvapaxa2 sambanXavAcI 
@@ -3123,7 +3125,7 @@ value rlkarwqsamAnAXikaraNam m1 m2 m3 text_type = match m2 with
            && (not (pronominal123 rt1 && viBakwiH1=1 && rt1="kim") || (rt1="kim" && viBakwiH1=viBakwiH2 && vacanam1=vacanam2 && lifgam1=lifgam2))
            (* parIkRA-arWinaH mArge kim aBavaw -- parIkRA-arWinaH should not be karwqsamAnAXikaraNam *)
            && not (rt2 = get_assoc rt1 parAjAwi_list)
-           && (member_of rt2 guNavacana) (* yogyawA  awra SuxXaM jalaM aswi; jalam should not be marked as a viXeya viSeRaNam *)
+           && ((member_of rt2 guNavacana) || member_of rt2 sambanXavAcI || member_of rt2 upAXi || rt1="ewax" || rt1="wax") (* yogyawA  awra SuxXaM jalaM aswi; jalam should not be marked as a viXeya viSeRaNam ; eRA SobanA velA aswi. velA is not a guNavacana*)
            (* && not (pUrva2=uwwara2) || (member_of rt2 guNavacana)) *)
            && not (rt1="kiFciw" || rt1="kiFcana"|| rt1="yAvaw" || rt1="wAvaw" ) (* yogyawA  To stop: kA hAniH Bavawi hAniH is karwqsamAnAXikaraNa of kA
            Earlier kim was also included in the above list. But hAniH as karwqsam is OK. This is similar to sunxara-kANde kim na sunxaram bhavawi *)
@@ -5253,7 +5255,8 @@ value process morphs text_type tfpath =
         let tpl_lst = mk_tuple_lst [] sorted_lst3 in 			 (*do {
           			List.iter Constraint.print_relation tpl_lst ; *)
         (*let t1 = Unix.time() in do { *)
-        Constraint.solver tpl_lst text_type
+        let max_soln = 200 in
+        Constraint.solver tpl_lst max_soln text_type
         (*let t2 = Unix.time() in do {
          print_float t2;
          print_float t1

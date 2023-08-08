@@ -498,17 +498,17 @@ value not_allowed_sequence_rels rpair = match rpair with
   |(26,50)
   |(36,38)
   |(28,36) (* viSeRaNa of sambanXa not allowed *)
-  |(9,38) (* RaRTI of viXeya viSeRaNam is not allowed *)
+  (* |(9,38) inxraH svargasya rAjA aswi. -- RaRTI of viXeya viSeRaNam *)
   |(36,50)
   |(38,26)
   |(50,26)
   |(53,36) (* viSeRaNa of saFjFA not allowed *)
   (*|(38,36) -- removed, since viSeRaNa of RaRTI is possible as in vIrasya rAmasya puwraH *)
   |(50,36)
+  |(36,9) 
    (* a viSeRaNa of a viSeRaNa is not allowed *)
-  |(36,9)
   |(36,36)
-  |(9,36)
+  (*|(9,36) ?? Why is this condition? We can have eRA SobanA velA aswi *)
   |(9,9)
  (* an aBexa of an aBexa is not allowed *)
   |(37,37)
@@ -1391,12 +1391,12 @@ value rec chk_global_comp text_type rel acc = fun
        ]
 ;
 
-value rec construct_dags init final wrdb dags text_type rel=
+value rec construct_dags init final wrdb dags text_type max_soln rel=
    if ( final - init > 0 ) 
    then 
         let mid=(init + final) /2 in
-         let dag1=construct_dags init mid wrdb dags text_type rel in
-          let dag2=construct_dags (mid+1) final wrdb dags text_type rel in  (* do {
+         let dag1=construct_dags init mid wrdb dags text_type max_soln rel in
+          let dag2=construct_dags (mid+1) final wrdb dags text_type max_soln rel in  (* do {
              print_int init; print_string " "
             ;print_int mid; print_string " "
             ;print_int final; print_newline()
@@ -1443,7 +1443,7 @@ value rec construct_dags init final wrdb dags text_type rel=
             ; print_newline()
             ; print_acc_len_cost dag8
             ; print_newline()
-            ;*)  let dag9 = get_first 1000 (final-init-4) [] (List.sort comparecostlength1 (List.sort_uniq compare_int dag8)) in   (* do {
+            ;*)  let dag9 = get_first max_soln (final-init-4) [] (List.sort comparecostlength1 (List.sort_uniq compare_int dag8)) in   (* do {
              print_string "dag9= "
             ; print_string "size of dag9="
             ; print_int (List.length dag9)
@@ -1549,7 +1549,8 @@ value rec wrd_boundaries acc rel_indx wrd_indx comp_indx = fun
    get_rel_wrds rel_lst
 ;
 *)
-value solver rel_lst text_type =
+
+value solver rel_lst max_soln text_type =
   let total_wrds=( wrd_count [] rel_lst)  in do 
   { 				(*get_rel_wrds rel_lst;*)
      populate_compatible_lists text_type rel_lst total_wrds
@@ -1567,13 +1568,13 @@ value solver rel_lst text_type =
          else (total_wrds-1) in 	(*			 do {
          				 print_string "final=";
       				  	   print_int final; *)
-      let soln=construct_dags 0 final wrdb [] text_type rel_lst in 
+      let soln=construct_dags 0 final wrdb [] text_type max_soln rel_lst in 
 						 (*do { 
                                                    print_string "final = "; print_int final;
 
      						 print_string "DAGS=" ;
      						print_acc_len_cost soln ;  *)
-            let l = get_first 1000 (final-4) []  (List.sort comparecostlength1 soln) in
+            let l = get_first max_soln (final-4) []  (List.sort comparecostlength1 soln) in
               (*soln in *) (*do { 
                                                 print_string "DAGS=" ;
                                                 print_acc_len_cost l ; *)
