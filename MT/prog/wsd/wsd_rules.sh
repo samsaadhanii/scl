@@ -27,7 +27,7 @@ mkdir $TMP_FILES_PATH/wsd_files
 
 touch $TMP_FILES_PATH/wsd_files/wsd.txt
 cut -f1,2,7,8 $TMP_FILES_PATH/$3 | $ANU_MT_PATH/wsd/add_kaaraka_info.pl > $TMP_FILES_PATH/$4
-$ANU_MT_PATH/wsd/cnvrtkaaraka2uniform_format.pl < $TMP_FILES_PATH/$4 |\
+$ANU_MT_PATH/wsd/cnvrtkaaraka2uniform_format.pl < $TMP_FILES_PATH/$4  |\
 $ANU_MT_PATH/wsd/wsd $ANU_MT_PATH/wsd/ > $TMP_FILES_PATH/wsd_files/wsd.txt
 
 cat $TMP_FILES_PATH/$4 | $ANU_MT_PATH/wsd/create_wsd.pl $TMP_FILES_PATH/wsd_files/wsd.txt > $TMP_FILES_PATH/$5

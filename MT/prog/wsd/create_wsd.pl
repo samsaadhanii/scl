@@ -50,14 +50,14 @@ while($in = <STDIN>){
                 $ans =~ s/(.*)<viBakwiH:$old_vib>/$1<viBakwiH:$MSG{$key}>/;
             }
         }
-        elsif ($ans =~ /<rt:([^>]+)>/){
+        if ($ans =~ /<rt:([^>]+)>/){
             $old_rt = $1;
             $key = $id.".".$cid.".".$old_rt;
             if (defined($MSG{$key})) { 
                 $ans =~ s/(.*)<rt:$old_rt>/$1<rt:$MSG{$key}>/;
             }
         }
-        elsif ($ans =~ /<kqw_prawyayaH:([^>]+)>/){
+        if ($ans =~ /<kqw_prawyayaH:([^>]+)>/){
             $old_prawyaya = $1;
             $key = $id.".".$cid.".".$old_prawyaya;
             if (defined($MSG{$key})) { 
