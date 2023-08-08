@@ -68,13 +68,13 @@ print TMP1 $hdr;
           $tmp =~ s/@//;
           $wcolor{$flds[0]} = $color{$tmp}; 
          
-         #if ($flds[$wrd_fld_id] !~ /-$/) {  #If not compound pUrvapaxa, write the node
              @rels = split(/;/,$flds[$rel_fld_id]);
              for ($z=0;$z<=$#rels;$z++) {
-             if($rels[$z] =~ /([^,]+),([0-9\.\।]+)/) {
+             if ($rels[$z] =~ /([^,]+),([0-9\.\।]+)/) {
                 $rel_nm = $1;
                 $d_id = $2;
-                $s_id = $flds[0];
+            } else { $rel_nm = ""; $d_id = "";}
+                if ($label ne ".") {$s_id = $flds[0];} else {$s_id = "";}
                 $is_cluster = 0;
                 if (&niwya_relations($rel_nm)){ # niwya sambanXaH or niwya_sambanXaH1
                       $style = "dashed color=\"red\"";
@@ -94,8 +94,8 @@ print TMP1 $hdr;
                 if (&cluster_relations($rel_nm)) {
 	            $cluster_found = 0;
                     for($j=0;$j<=$cluster_no;$j++){
-                       if($cluster[$j] =~ /#$d_id,/) {
-                          if($cluster[$j] !~ /#$s_id,/) {
+                       if(( $d_id ne "") && ($cluster[$j] =~ /#$d_id,/)) {
+                          if( ($s_id ne "") && ($cluster[$j] !~ /#$s_id,/)) {
                              $cluster[$j] .= "#".$s_id.",";
                              $is_cluster = 1;
                              $word_found{$s_id} = 1;
@@ -105,19 +105,16 @@ print TMP1 $hdr;
                     } 
                     if($cluster_found == 0) {
                        $cluster_no++;
-                       $cluster[$cluster_no] = "#".$s_id.",";
-                       $cluster[$cluster_no] .= "#".$d_id.",";
-                       $is_cluster = 1;
-                       $word_found{$s_id} = 1;
-                       $word_found{$d_id} = 1;
+                       if ($s_id ne "") { $cluster[$cluster_no] = "#".$s_id.",";  $word_found{$s_id} = 1; $is_cluster = 1;}
+                       if ($d_id ne "") { $cluster[$cluster_no] .= "#".$d_id.",";  $word_found{$d_id} = 1; $is_cluster = 1;}
                     }
                }
                if ($is_cluster == 0) {
-                 if($non_cluster !~ /#$s_id,/) {
+                 if( ($s_id ne "") && ($non_cluster !~ /#$s_id,/)) {
                     $non_cluster .= "#".$s_id.",";
                     $word_found{$s_id} = 1;
                  }
-                 if($non_cluster !~ /#$d_id,/) {
+                 if( ($s_id ne "") && ($non_cluster !~ /#$d_id,/)) {
                     $non_cluster .= "#".$d_id.",";
                     $word_found{$d_id} = 1;
                  }
@@ -125,15 +122,13 @@ print TMP1 $hdr;
             
              if($style ne "") { $s_str = "style=$style";} else {$s_str = "";}
 
-             if (($rel_nm !~ /abhihita/) && ($rel_nm !~ /अभिहित/)){
+             if (($d_id ne "") && ($rel_nm !~ /abhihita/) && ($rel_nm !~ /अभिहित/)){
                 $s_id =~ s/\./_/g;
                 $d_id =~ s/\./_/g;
 	        $rel_str .= "\nNode$s_id -> Node$d_id \[ $s_str label=\"".$rel_nm."\"  dir=\"$dir\" \]";
              }
             }
-           }
 	   $solnfound = 1;
-        #}
       }
       if ($solnfound) {
          if ($rel_str ne "") {
