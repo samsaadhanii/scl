@@ -19,7 +19,7 @@
 
 
 
-#Remove the xvivacana analysis, if the total analysis > 5
+#Remove the xvivacana analysis of a noun, if the total analysis > 5
 
 while($in = <STDIN>){
      chomp($in);
@@ -30,7 +30,7 @@ while($in = <STDIN>){
     else {
        $ans = "";
        foreach ($i=0; $i<=$#analysis;$i++){
-          if($analysis[$i] !~ /<vacanam:xvi>/) { $ans .= "/". $analysis[$i]; }
+          if($analysis[$i] !~ /<vargaH:nA>.*<vacanam:xvi>/) { $ans .= "/". $analysis[$i]; }
        }
        $ans =~ s/^\///; 
        if($ans eq "") { print $in,"\n";}
