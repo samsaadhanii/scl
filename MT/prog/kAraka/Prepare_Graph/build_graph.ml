@@ -4437,10 +4437,15 @@ value mark_upamAna id1 cid1 mid1 id2 cid2 mid2 id3 cid3 mid3 rl1 rl2 =
          let d13 = if id1 > id3 then id1-id3 else id3-id1 in
       if  (id1 < id2) && (id2 < id3)  (* A iva B *)
       then  if id2 = next id1 
+(* saH aBigawaH saxBiH samuxraH iva sinXuBiH *)
             then [ Relation (id1,cid1,mid1,"upamAnam",id3,cid3,mid3,"91",d13)
                  ; Relation (id2,cid2,mid2,"upamAna_xyowakaH",id1,cid1,mid1,"92",d12)
                  ]
-            else [ Relation (id1,cid1,mid1,"upamAnam",id3,cid3,mid3,"93",d13)]
+            else  if id3 = next id2 
+            then [ Relation (id3,cid3,mid3,"upamAnam",id1,cid1,mid1,"91a",d13)
+                 ; Relation (id2,cid2,mid2,"upamAna_xyowakaH",id3,cid3,mid3,"92a",d12)
+                 ]
+            else [ Relation (id3,cid3,mid3,"upamAnam",id1,cid1,mid1,"93a",d13)]
       else if  id1 < id2 && id3 < id2 (* B A iva *)
            then  if  d12 > d23 
                  then  if id2 = next id3 

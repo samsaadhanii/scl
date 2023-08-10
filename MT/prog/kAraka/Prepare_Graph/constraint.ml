@@ -476,6 +476,7 @@ value outgoing_incompatible_rels rpair = match rpair with
    |(19,11)
    |(7,8)     (* With karwqrahiwaviXeya_viSeRaNam there can not be karwA *)
    |(8,7) 
+   |(9,79)   (* viXeya viSeRaNa and upamAna *)
    |(13,11)   (* With karmasamAnAXikaraNa there can not be gONa-karma 
                * brU1 and vax1 dhaatus are xvikarmaka, and if there is karmasamaanaadhikarana relation with them, then gONa karma should be absent *)
    |(11,13) -> False

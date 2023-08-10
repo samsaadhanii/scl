@@ -1,5 +1,6 @@
 value karaNa_XAwu_list = [
 "aBi_arc1";
+"aBi_gam1";
 "aBi_jFA2";
 "aBi_pra_i1";
 "aBi_xru1";
