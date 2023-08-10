@@ -2213,8 +2213,9 @@ value rlviSeRaNam m1 m2 text_type = match m2 with
               &&  prose_order id1 id2 text_type
 	      && (not ((rt1="arWa" || rt1 = "ananwaram" || word1 = "sahiwaH" || rt1 = "saxqSa" || rt1 = "safjASa" || rt1 = "pramuKa" || rt1 = "pUrveNa") && (uwwarapaxa1 = "y")))
            then if ( member_of rt1 saMKyeya || member_of rt1 pUraNa || member_of rt1 kqxanwas || member_of rt1 taddhitaantas || member_of rt1 guNavacana 
-                  || pUrvapaxa1="y" || uwwarapaxa1="y" || ((rt1 = "sarva" || rt1 = "sarvA") &&  id1 > id2 && text_type = "Sloka")  (*|| (pronoun3 rt1) || (pronominal12 rt1)*)
+                  || pUrvapaxa1="y" || uwwarapaxa1="y" || ((rt1 = "sarva" || rt1 = "sarvA") &&  id1 > id2 && text_type = "Sloka")  || (pronoun3 rt1 ) (* || (pronominal12 rt1)*)
 (* pronominal12 rt is added to allow a viSeRaNa for asmax such as prapaSxBiH asmaxBiH -- SBG 1.39 *)
+
                    (* || (pronoun3 rt1 && (member_of rt2 manuRyasaFjFAvAcI || member_of rt2 sambanXavAcI || member_of rt2 upAXi)) -- ewAn camUm paSya fails *)
                   )
 			(* pronoun3 rt1 is removed, since pronoun is preferred as a viSeRya in the absence of a manuRyasaFjFAvAci Sabxa *)
@@ -2284,6 +2285,7 @@ value rlviSeRaNam m1 m2 text_type = match m2 with
         && noun_agreement_vibh vacanam1 vacanam2 lifgam1 lifgam2 viBakwiH1 viBakwiH2
         && not (member_of (word2^" "^string_of_int viBakwiH2) kriyAviSeRaNas) (* Why is this cond? *)
         && not(rt1=rt2) && no_boundary_crossing_except_kwvA id1 id2 text_type
+	&& not (rt2 = "kim")
        then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.5",d12)]
        else []
      | Kqw (id1,cid1,mid1,_,_,_,_,kqw_prawyayaH1,_,_,_,rt1,_,_,lifgam1,viBakwiH1,vacanam1,_) -> 
@@ -3209,7 +3211,7 @@ E.g. grAmasya aXareNa vanam aswi.*)
            && ((vacanam1=vacanam2) || (rt1="mAsa" && (rt2="xakRiNAyana" || rt2="uwwarAyaNa"))|| (rt2="xArA") || (rt1 = "vexa" && rt2="pramANa"))
            && not (member_of rt1 saMKyeya) (* yogyawA *)
            (*&& not (member_of rt1 guNavacana) (* yogyawA *)*)
-           && not (rt1="kim" || rt1="kiFciw" || rt1="kiFcana"|| rt1="yAvaw" || rt1="wAvaw" ) (* yogyawA  To stop: kA hAniH Bavawi hAniH is not karwqsamAnAXikaraNa of kA*)
+           && not ( rt1="kiFciw" || rt1="kiFcana"|| rt1="yAvaw" || rt1="wAvaw" )  (* kim is removed, since we can have kaH guNavAn aswi *)
            (* && prose_order id1 id2 text_type 
             * samarWaH aswi janaH / janaH samarWaH aswi -- 25 Jul 2020 *)
             && id1 < id2 
