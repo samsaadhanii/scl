@@ -57,6 +57,7 @@ print TMP1 $hdr;
 @in = <STDIN>;
 
 	for ($i=1;$i<=$#in;$i++) {  #The count starts with 1; since the 1st line that corresponds to the heading is to be ignored.
+	  chomp($in[$i]);
           @flds = split(/\t/,$in[$i]);
          # if ($flds[0] =~ /^([0-9]+)[\.\।]([2-9])/) {
          #    $label .= $flds[$wrd_fld_id];
