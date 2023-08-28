@@ -255,7 +255,7 @@ elsif($an=~/(.*)([^aiuqL])([fNn])\+([aAiIuUqQLeEoO])(.*)/){$ans = "$1$2$3$4$5";$
 
 if($an=~/(.*)([iIuUqQLeEoO])H\+([aAiIuUqQLeEoOgGfjJFdDNxXnbBmylvh])(.*)/){$ans = "$1$2r$3$4";$ans1 = "rePa"; $ans2 = "sasajuRo ruH (8.2.66)";$cont=0;}
 
-if($an=~/^(eRa|sa)H\+([kKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRsh])(.*)/){$ans ="$1 $2$2";$ans1="visargalopa",$ans2= "ewawwaxoH sulopoZkoranaFsamAse hali (6.1.132)";}
+if($an=~/^(eRa|sa)H\+([kKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRsh])(.*)/){$ans ="$1 $2$3";$ans1="visargalopa",$ans2= "ewawwaxoH sulopoZkoranaFsamAse hali (6.1.132)"; $cont=0;}
 elsif($an=~/(.*)aH\+([gGfjJFdDNxXnbBmyrlvh])(.*)/){$ans ="$1o $2$3"; $ans1 ="ruwva-> uwva-> guNa";$ans2 = "sasajuRo ruH (8.2.66)-> haSi ca (6.1.114)-> Ax guNaH (6.1.87)" ;$cont=0;}
 elsif($an=~/^BoH\+([kKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRsh])(.*)/){ $ans="Bos$1$2";$ans1="";$ans2="sasajuRo ruH (8.2.66)-> KaravasAnayorvisarjanIyaH (8.3.15)-> visarjanIyasya saH (8.3.34)";$cont=0;}
 elsif($an=~/^(Bago|aGo)H\+([kKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRsh])(.*)/){ $ans="$1 $2$3";$ans1="yawvalopaH";$ans2="sasajuRo ruH (8.2.66)->BoBagoaGo apUrvasyayoZSi (8.3.17)->hali sarveRAm (8.3.22)";$cont=0;}
