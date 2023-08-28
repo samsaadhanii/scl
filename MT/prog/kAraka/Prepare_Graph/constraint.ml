@@ -20,7 +20,7 @@ value multiple_relations_begin=25 (* inclusive *)
 (* Two or more aXikaraNa, kAla-aXikaraNa, xeSa-aXikaraNa, pUrvaAlaH, ... are possible 
 Ex: ekaxA yaxA .. waxA *)
 ;
-value multiple_relations_end=41 (* inclusive *)
+value multiple_relations_end=42 (* inclusive *)
 ;
 value max_rels=600 (* Max relations in a sentence *)
 ;
@@ -135,7 +135,6 @@ value print_relation r=match r with
       else if (i4=203) then print_int 14  (* Bkarma -> karma*)
       else if (i4=8) then print_int 9  (* karwqrahiwakarwqsamAnAXikaraNa -> viXeya_viSeRaNam *)
       else if (i4=40) then print_int 41  (* prayojanam1 -> prayojanam *)
-      else if (i4=5006) then print_int 38  (* RaRTIsambaXaH_samAsaH -> RaRTIsambanXaH *)
       else print_int i4
     ; print_string ","
     ; print_int (i5-1); print_string ","
@@ -225,7 +224,7 @@ value lwg_and_collapse relations dag =
            let rel=List.nth relations (r-1) in
             match rel with
             [Relationc (a,b1,b,c,d,e1,e,f) -> 
-               if c < 2000 || c > 5000
+               if c < 2000 
                then let acc1=if c=91  (* avaXiH  not defined in build_graph.ml! *)
                                then  List.append acc  [Relationc (a,b1,b,0,d,e1,e,f)] 
                                else if c =214
@@ -356,7 +355,7 @@ value single_relation_label m1 m2= match m1 with
             (* Two outgoing arrows with same label *)
          else if (from_id1=from_id2) && (from_cid1=from_cid2) && (from_mid1=from_mid2) && (r1=r2)
               && ( (r1 < multiple_relations_begin  && not (r1=101))
-                  || (r1 > multiple_relations_end && not (r1=102) && not (r1=32) && not (r1=33) && not (r1=34) && not (r1=35)) || (r1=38) || (r1=5006)
+                  || (r1 > multiple_relations_end && not (r1=102) && not (r1=32) && not (r1=33) && not (r1=34) && not (r1=35)) || (r1=38) || (r1=71)
                   ) (* niwya sambanXaH (=101,102)*)
          then False (*do { print_string "C9"; False}*)
             (* there can not be another outgoing rel with an upapaxa sambanXa*)
@@ -476,7 +475,10 @@ value outgoing_incompatible_rels rpair = match rpair with
    |(19,11)
    |(7,8)     (* With karwqrahiwaviXeya_viSeRaNam there can not be karwA *)
    |(8,7) 
+   |(9,36)   (* viXeya viSeRaNa and viSeRaNa *)
+   |(36,9)   (* viXeya viSeRaNa and viSeRaNa *)
    |(9,79)   (* viXeya viSeRaNa and upamAna *)
+   |(79,9)   (* viXeya viSeRaNa and upamAna *)
    |(13,11)   (* With karmasamAnAXikaraNa there can not be gONa-karma 
                * brU1 and vax1 dhaatus are xvikarmaka, and if there is karmasamaanaadhikarana relation with them, then gONa karma should be absent *)
    |(11,13) -> False
@@ -498,6 +500,7 @@ value not_allowed_sequence_rels rpair = match rpair with
   (26,38)
   |(26,50)
   |(36,38)
+  |(33,28) (* sambanXa of samucciwa is not allowed *)
   |(28,36) (* viSeRaNa of sambanXa not allowed *)
   (* |(9,38) inxraH svargasya rAjA aswi. -- RaRTI of viXeya viSeRaNam *)
   |(36,50)
@@ -507,6 +510,7 @@ value not_allowed_sequence_rels rpair = match rpair with
   (*|(38,36) -- removed, since viSeRaNa of RaRTI is possible as in vIrasya rAmasya puwraH *)
   |(50,36)
   |(36,9) 
+  |(9,36) 
    (* a viSeRaNa of a viSeRaNa is not allowed *)
   |(36,36)
   (*|(9,36) ?? Why is this condition? We can have eRA SobanA velA aswi *)
@@ -559,7 +563,7 @@ value not_allowed_sequence_rels rpair = match rpair with
   |(36,79) (* upamAna of viSeRaNa *)
   |(79,79) (* upamAna of upamAna is not allowed *)
 (* viSeRaNam of a varwamAna samAnakAla not allowd *)
-  |(75,36)
+  |(42,36)
 (* viXeya_viSeRaNam/samAnAXikaraNam of a viXeya_viSeRaNam/samAnAXikaraNam not allowed *)
   |(9,1009)
   |(1009,1009)
@@ -589,7 +593,9 @@ print_int r1; print_string " "; print_int r2; print_string "\n";
        print_int to_id2; print_string " "; print_int from_id2; print_string "\n"; *)
        if same_root from_id1 from_id2 from_cid1 from_cid2 from_mid1 from_mid2
               && (  (((r2 > 9 && r2 < 22) || (r2 = 6) || (r2 = 7))  && ((r1=36) || (r1=8) || (r1=9)))
-                 || (((r1 > 9 && r1 < 22)  || (r2 = 6) || (r2 = 7)) && ((r2=36) || (r2=8) || (r1=9))))
+                 || (((r1 > 9 && r1 < 22)  || (r1 = 6) || (r1 = 7)) && ((r2=36) || (r2=8) || (r2=9)))
+                 || (r1 = 46 && r2 = 36)
+                 || (r2 = 46 && r1 = 36))
          then False  (* do { print_string "C13\n"; False} *)
 
       (* There can not be a samboXya of a verb, which is viSeRaNa/pUrvakAla etc. Only 'iwi' relation with such verbs are allowed. 
@@ -720,6 +726,7 @@ value rec add_cost text_type acc rels=fun
             else if rel=1079 then 79 * dist (* upamAna *)
             else if rel=1009 then 9 * dist (* viXeya_viSeRaNam *)
             else if rel=45 then 0 (* samuccaya_xyowakaH *)
+            else if rel=28 then 0 (* sambanXaH  Since samuccaya_xyowakaH is not counted, and sometimes the words ca and api can also come under sambanXaH, we are not counting this relation as well*)
             else if rel=46 then 0 (* sup_samuccaya_xyowakaH *)
             else if rel=47 then 0 (* anyawara_xyowakaH *)
             else if rel=48 then 0 (* sup_anyawara_xyowakaH *)
@@ -731,6 +738,7 @@ value rec add_cost text_type acc rels=fun
             else if rel=77 then 1 * dist (* vinArWa_xyowakaH *)
             else if  rel=78 then 100 (* lyapkarmAXikaraNam ; select this only if there is no other analysis possible *)
             else if rel=79 then 1 * dist (*upamAna *)
+            else if rel=33 then rel * 1 (*samucciwa *)
             else if rel=80 then 1 * dist (* upamAnaxyowakaH *)
             else if  rel> 80 && rel < 90 then 0 (* upapada-LWG relations *)
             else if rel=92 then 1 * dist (* sahArWaH *)
@@ -752,7 +760,7 @@ value rec add_cost text_type acc rels=fun
             else if rel = 202  then 7 * dist (* BkarwA -> karwA *)
             else if rel = 203  then 14 * dist (* Bkarma -> karma *)
             else if rel >= 205  then (rel-200) * dist (* AvaSyakawA/pariNAma *)
-            else if rel = 5006  then 0
+            else if rel = 71  then 0
             else if a1 > a2 
                  then if rel=32 then 0
                       else if text_type="Prose" && rel=38
@@ -1096,7 +1104,7 @@ value ca_vA_compatibility group_count marker_count =
 (* If samucciwa exists, there should be either same number of samucciwa Xyowakas or exactly one samucciwa xyowaka
    If there is no samucciwa, there should not be samucciwa xyowaka *)
     if (group_count > 0) then  
-        if  (marker_count = 1 || marker_count = group_count+1) then True else False 
+        if  (marker_count = 1 || marker_count = group_count) then True else False 
     else if marker_count = 0 then True else False
 ; 
 
@@ -1126,7 +1134,7 @@ value rec seq_expectancy relations relsindag=
             | [ Relationc (a,b1,b,r1,c,d1,d,dist1) :: rest] -> 
                  (*do { print_string "AAA\n"; print_sint a; print_sint b1; print_sint b;print_sint r1; print_sint c; print_sint d1; print_sint d; print_string "\n"; *)
                  match r1 with
-                 [ 3 | 4 | 5 | 9 | 13 | 16 | 17 | 52 | 53 | 54 | 55 | (*56 | 57 | 60 |*) 76 |  77 |  (*79 | *) 80 |  42 | 41 | 68 | 69 | 12 |  97 | 32 | 33 | 34 | 35 | 45 | 46 | 47 | 48  | 202 | 203 -> 
+                 [ 3 | 4 | 5 | 9 | 13 | 16 | 17 | 52 | 53 | 54 | 55 | (*56 | 57 | 60 |*) 76 |  77 |  (*79 | *) 80 |  75 | 41 | 68 | 69 | 12 |  97 | 32 | 33 | 34 | 35 | 45 | 46 | 47 | 48  | 202 | 203 -> 
 (* relaxed condition for 56-57-60 yaxyapi-waWApi - kArya-kAraNA-BAva *)
                   loop1 maprel
                        where rec loop1=fun
@@ -1154,7 +1162,8 @@ value rec seq_expectancy relations relsindag=
                                      (* else if r1=92 then if r2=76 then loop rest else loop1 rest1  for sahArWaH sahArWa_xyowaka is not needed *)
                                      (* else if r1=93 then if r2=77 then loop rest else loop1 rest1   for vinArWaH vinArWaH_xyowaka is not needed *)
                                     (* else if r1=79 then if r2=80 then loop rest else loop1 rest1*)
-                                     else if r1=41 then if r2=42 then loop rest else loop1 rest1
+                                     else if r1=33 then if r2=46 then loop rest else loop1 rest1
+                                     else if r1=41 then if r2=75 then loop rest else loop1 rest1
                                      else if r1=68 then if r2=69 then loop rest else loop1 rest1
                                      else if r1=12 then if r2=97 then loop rest else loop1 rest1
                                      else if r1=6 then if r2=9 then loop rest else loop1 rest1
@@ -1170,10 +1179,11 @@ value rec seq_expectancy relations relsindag=
                                      else if r1=76 then if r2=92 then loop rest else loop1 rest1
                                      else if r1=77 then if r2=93 then loop rest else loop1 rest1  
                                      else if r1=80 then if r2=79 then loop rest else loop1 rest1
-                                     else if r1=42 then if r2=41 then loop rest else loop1 rest1
+                                     else if r1=75 then if r2=41 then loop rest else loop1 rest1
                                      else if r1=69 then if r2=68 then loop rest else loop1 rest1
                                      else if r1=97 then if r2=12 then loop rest else loop1 rest1
                                      else if r1=9 then if r2=6 then loop rest else loop1 rest1
+                                     else if r1=46 then if r2=33 then loop rest else loop1 rest1
                                      else loop1 rest1 
                                else if (c=z && d=t) then
                                      if r2=32 then if r1=45 then loop rest else loop1 rest1
@@ -1252,7 +1262,7 @@ let maprel=List.map (fun y -> List.nth relations (y-1) ) relsindag in
                                (* karwA, karwA_upa *)
          loop1 maprel
          where rec loop1=fun
-                          [ [] -> (* False *)   do { print_string "failed case 5\n"; False}
+                          [ [] ->  False   (* do { print_string "failed case 5\n"; False} *)
                           | [Relationc (x,y1,y,r,z,t1,t,dist1)::rest1] -> 
                                                   (*do {
                                                   print_int r; print_string "\n";
@@ -1290,52 +1300,70 @@ let maprel=List.map (fun y -> List.nth relations (y-1) ) relsindag in
    ]
 ;
 
-value print_pair (a,b) =
-  do {print_int a; print_string " "; print_int b; print_string "\n";}
+value print_triplet (a,b,c,a1,b1,c1) =
+  do {print_int a; print_string " "; print_int b; print_string " "; print_int c; print_string " ";
+  print_int a1; print_string " "; print_int b1; print_string " "; print_int c1; print_string "\n";}
 ;
 
 value rec build_list rels acc dag = 
     let maprel=List.map (fun a -> List.nth rels (a-1) ) dag in
     loop [] maprel
     where rec loop acc=fun 
-    [ [] -> (*do { List.iter print_pair acc;*) acc
-    | [ Relationc (a,b1,b,r,c,d1,d,dist1) :: rest] -> let acc1= [(a,b1,c,d1) :: acc]
+    [ [] -> (*do { List.iter print_triplet acc; *) acc (*}*)
+    | [ Relationc (a,b1,b,r,c,d1,d,dist1) :: rest] -> let acc1= [(a,b1,b,c,d1,d) :: acc]
 					  (*in build_list rels acc1 rest*)
 					  in loop acc1 rest
     ]
 ;
 
-value rec chk_cycles key_list v v1 acc =
-    (*do { List.iter print_sint key_list;
-        print_string "v=";print_int v; print_string "\n";*)
-     let acc1=List.filter (fun (k,k1,v,v1) -> if k=v  && k1 = v1 then True else False) acc in
-     if acc1=[] then False else loop acc1
+(*
+value rec chk_cycles key_list v v1 v2 acc =
+    (*do { (*List.iter print_sint key_list;*)
+        print_int v; print_string ";";
+        print_int v1; print_string ";";
+        print_int v2; print_string "\n"; *)
+     let acc1=List.filter (fun (k,k1,k2,v,v1,v2) -> if k=v  && k1 = v1  && k2 = v2 then True else False) acc in
+     if not (acc1=[])  then False else loop acc
      where rec loop=fun
-     [[] -> (*do { print_string "chk cycle = False";*) False (*}*)
-     | [(k,k1,v,v1)::r] -> do {
-		       print_int k; print_string " "; print_int k1; print_string " ";
-		       print_int v; print_string " "; print_int v1; print_string "\n";
-                    let key_list1= [(k,k1,v,v1) :: key_list] in
-                       if List.mem (k,k1,v,v1) key_list then True
-                       else if List.mem (v,v1,k,k1) key_list then True
-                       else if chk_cycles key_list1 v v1 acc then True
+     [[] -> do { print_string "chk cycle = False\n"; False  }
+     | [(k,k1,k2,v,v1,v2)::r] ->  (*do {
+		       print_int k; print_string " "; print_int k1; print_string " "; print_int k2; print_string "##";
+		       print_int v; print_string " "; print_int v1; print_string " "; print_int k2; print_string "\n"; *)
+                    let key_list1= [(k,k1,k2,v,v1,v2) :: key_list] in
+                       if List.mem (k,k1,k2,v,v1,v2) key_list then True
+                       else if List.mem (v,v1,v2,k,k1,k2) key_list then True
+                       else if chk_cycles key_list1 v v1 v2 acc then True
 		       else loop r 
 		       }
      ]
-  (*}*)
+  }
 ;
 
-value no_cycles relations relsindag=(*do
+value no_cycles relations relsindag=do
+    { List.iter print_sint relsindag; print_string "\n"; 
+      let acc=build_list relations [] relsindag in loop acc
+      where rec loop=fun
+      [ [] -> (*do { print_string "no cycle "; *) True (*}*)
+      |[(k,k1,k2,v,v1,v2)::r] -> let key_list=[(k,k1,k2,v,v1,v2)] in
+                         if not (chk_cycles key_list v v1 v2 acc) then loop r else do { print_string "found cycle\n"; False}
+      ]
+ } 
+;
+*)
+
+value no_cycles relations relsindag= (* do
     { List.iter print_sint relsindag; print_string "\n"; *)
       let acc=build_list relations [] relsindag in loop acc
       where rec loop=fun
       [ [] -> (*do { print_string "no cycle "; *) True (*}*)
-      |[(k,k1,v,v1)::r] -> let key_list=[(k,k1,v,v1)] in
-                         if not (chk_cycles key_list v v1 acc) then loop r else do { print_string "found cycle\n"; False}
+      |[(k,k1,k2,v,v1,v2)::r] -> if List.mem (v,v1,v2,k,k1,k2) acc then (*do { 
+		       print_int k; print_string " "; print_int k1; print_string " "; print_int k2; print_string "##";
+		       print_int v; print_string " "; print_int v1; print_string " "; print_int k2; print_string "\n";
+                       print_string "Cycle found "; *) False (* } *)
+                                 else loop r 
       ]
-(* } *)
+  (* } *)
 ;
-
 value rec print_dag=fun
         [ [] -> ()
         | [(a,b,c)::tl] -> do { print_int a; print_int b; List.iter print_int c;
