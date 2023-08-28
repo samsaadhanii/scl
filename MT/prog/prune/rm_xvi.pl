@@ -17,8 +17,6 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
-
-
 #Remove the xvivacana analysis of a noun, if the total analysis > 5
 
 while($in = <STDIN>){
@@ -27,6 +25,8 @@ while($in = <STDIN>){
      @analysis = split(/\//, $in1);
 
     if ($#analysis < 5 ) { print $in,"\n";}
+    elsif ($in1 =~ /uBa</) { print $in,"\n"}
+    elsif ($word =~ /^\-/) { print $in,"\n";}
     else {
        $ans = "";
        foreach ($i=0; $i<=$#analysis;$i++){
