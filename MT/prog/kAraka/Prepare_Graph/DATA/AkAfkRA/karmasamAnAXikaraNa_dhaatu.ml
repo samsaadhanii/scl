@@ -1,4 +1,5 @@
 value karmasamAnAXikaraNa_XAwu_list = [
+"brU1";
 "gaNa1";
 "kq1";
 "kq3";
@@ -6,8 +7,8 @@ value karmasamAnAXikaraNa_XAwu_list = [
 "ni_banX1";
 "nis_ci1";
 "pari_cakR1";
+"vac1";
 "vi_XA1";
 "vix1";
-"vac1"; (* anwavanwaH ime xehAH ukwAH -- BhG 2.18 *)
 ]
 ;

@@ -19,7 +19,7 @@ value apAxAna_XAwu_list = [
 "Bram1";
 "BrI1";
 "BraMs1";
-"BU1";
+"zBU1"; (* How can BU be in apAxAna list? *)
 "Buj1";
 "Byas1";
 "cal1";

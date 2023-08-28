@@ -415,6 +415,7 @@ value guNavacana_list = [
 "viniyawa";
 "vipulA";
 "vipula";
+"vixvas";
 "vqxXA";
 "vqxXa";
 "vrajanwa";

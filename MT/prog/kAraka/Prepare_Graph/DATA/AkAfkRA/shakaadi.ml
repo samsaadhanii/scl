@@ -1,10 +1,8 @@
 value shakaadi_list = [
 "Af_raB1";
-"BU1";
 "Gat1";
 "Rah1";
 "Sak3";
-"as2";
 "arh1";
 "glE1";
 "jFA1";

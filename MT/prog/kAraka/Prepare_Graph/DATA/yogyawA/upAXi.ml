@@ -15,6 +15,7 @@ value upAXi_list = [
 "niRAxa";
 "nqpa";
 "paNdiwa";
+"praBu";
 "qRi";
 "rAjan";
 "rAkRasI";
