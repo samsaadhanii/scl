@@ -25,6 +25,7 @@ value vAkyakarma_XAwu_list = [
 "vax1";
 "vi_car1";
 "vi_ciw2";
+"vix1";
 "xqS1";
 ]
 ;
