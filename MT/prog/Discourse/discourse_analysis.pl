@@ -103,7 +103,7 @@ sub read_second_file {
        $niwya_connective2_pos = $indx;
        $niwya_connective2 = $flds[$wrd_fld_id];
    }
-   elsif($wrd_id == 2) {
+   elsif(($wrd_id == 2) || ($wrd_id == 3)) {
       if ( ($flds[$wrd_fld_id] eq "च") || ($flds[$wrd_fld_id] eq "ca")) { $samuccaya_xyowakaH_indx = $indx;}
       elsif ( ($flds[$wrd_fld_id] eq "अपि") || ($flds[$wrd_fld_id] eq "api")) { $samuccaya_xyowakaH_indx = $indx;}
       elsif ( ($flds[$wrd_fld_id] eq "वा") || ($flds[$wrd_fld_id] eq "vāā")) { $anyawara_xyowakaH_indx = $indx;}
@@ -132,8 +132,8 @@ sub mark_discourse_rels {
 
  my($wrd_id, @flds );
 
-print "LVI = $last_verb_indx\n";
-print "VI = $verb_indx\n";
+#print "LVI = $last_verb_indx\n";
+#print "VI = $verb_indx\n";
  open (TMP1,"<$sent_anal_fl");
 
   $in = <TMP1>; # ignore the title
