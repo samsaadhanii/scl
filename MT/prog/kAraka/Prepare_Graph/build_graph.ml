@@ -1971,8 +1971,8 @@ value rl_spl_aXikaraNam m1 m2 text_type = match m2 with
            spl_aXikaraNa id1 id2 cid1 cid2 mid1 mid2 word1 text_type "wif" "9.1" "9.2" "9.3" "9.4"
      | _ -> []
      ]
-  | Kqw (id2,cid2,mid2,_,_,_,_,kqw2,_,_,_,_,_,_,_,_,_,_) ->
-     if kqw2 = "anIyar" || kqw2 = "yaw" || kqw2 = "kwa" || kqw2 = "kwavawu"|| kqw2 = "wavyaw"
+  | Kqw (id2,cid2,mid2,_,_,_,_,kqw2,_,_,_,_,pUrvapaxa2,_,_,_,_,_) ->
+     if (kqw2 = "anIyar" || kqw2 = "yaw" || kqw2 = "kwa" || kqw2 = "kwavawu"|| kqw2 = "wavyaw") && (pUrvapaxa2="n")
      then match m1 with
      [ Avy (id1,cid1,mid1,word1,_,_,uwwarapaxa1,_) -> 
          spl_aXikaraNa id1 id2 cid1 cid2 mid1 mid2 word1 text_type "kqw" "9.5" "9.6" "9.7" "9.8"
@@ -3121,7 +3121,7 @@ value rlkarwqrahiwakarwqsamAnAXikaraNam m1 m2 text_type = match m1 with
         ]
         else []
     | Sup (id1,cid1,mid1,word1,rt1,pUrvapaxa1,uwwarapaxa1,_,viBakwiH1,_,_) ->
-        if viBakwiH1 = 1 && (pUrvapaxa1="y" || uwwarapaxa1="y") || member_of rt1 guNavacana || member_of rt1 upAXi || member_of rt1 pUraNa || member_of rt1 taddhitaantas
+        if viBakwiH1 = 1  (* && pUrvapaxa1="y" ||  uwwarapaxa1="y"  || member_of rt1 guNavacana || member_of rt1 upAXi || member_of rt1 pUraNa || member_of rt1 taddhitaantas -- Do we really need to check these categories? somaH BUwvA, here to which category will somaH belong to? *)
         then match m2 with
         [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,lakAraH2,puruRaH2,_,_,_,_,_) ->
               if   ((puruRaH2="ma"  && wvam_pos.val = 50) || (puruRaH2="u" && aham_pos.val=50))
@@ -3820,6 +3820,7 @@ value rlavy_wifkqw_special m1 m2 text_type = match m2 with
            | "nahi" 
            | "na" ->  (*if prose_order id1 id2 text_type this overgenerates; e.g. virakwaH awra na hqRyawi na kupyawi*)
 		      if ((id1 < id2) || (id2 = 1)) && (pUrvapaxa2="n")
+			(* BaviwA na ca ....*)
                       then [ Relation (id1,cid1,mid1,"prawiReXaH",id2,cid2,mid2,"38.1",d12)]
                       else []
            | "kacciw" | "Sam" | "svaswi" | "svAhA" | "svaXA" | "vaRat" | "namaH"
@@ -4871,7 +4872,7 @@ value mark_sup_samucchiwa id1 id2 id3 cid1 cid2 cid3 mid1 mid2 mid3 viBakwiH1 vi
 
 value rlca_samucciwa m1 m2 m3 text_type = match m2 with
      [ Avy (id2,cid2,mid2,_,word2,_,_,_) -> 
-        if word2 = "ca" || word2 = "cEva" || word2 = "aWa" || word2="waWA" || word2 = "api"
+        if word2 = "ca" || word2 = "cEva" || word2 = "aWa" (*|| word2="waWA"  nned example; this is more a manner adverb than samucciwa *) || word2 = "api"
         then match m3 with
         [ Wif (id3,cid3,mid3,_,_,_,_,_,_,prayogaH3,lakAra3,puruRaH3,_,_,_,_,_) ->
            (* if id3 = next id2 then ; not necessary. e.g. rAmaH SAlAm gacCawi pATam ca paTawi*) 

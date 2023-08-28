@@ -16,7 +16,7 @@ open Bank_lexer.Token
 (*value relations=Gram.Entry.mk "relations"
 ;
 *)
-value multiple_relations_begin=25 (* inclusive *)
+value multiple_relations_begin=22 (* inclusive *)
 (* Two or more aXikaraNa, kAla-aXikaraNa, xeSa-aXikaraNa, pUrvaAlaH, ... are possible 
 Ex: ekaxA yaxA .. waxA *)
 ;
@@ -153,14 +153,14 @@ value join_relations a b1 b c d e1 e f u v1 v w x y1 y z =
     if d=u && e=v 
     then if c >= 2000 && c < 2100
       then if w >= 4000 && w < 4100 then [Relationc (a,b1,b,43,d,e1,e,f);Relationc (u,v1,v,20,x,y1,y,z)]
-      else if w >= 4100 && w < 4200 then [Relationc (a,b1,b,43,d,e1,e,f); Relationc (u,v1,v,21,x,y1,y,z)]
+      else if w >= 4100 && w < 4200 then [Relationc (a,b1,b,43,d,e1,e,f); Relationc (u,v1,v,22,x,y1,y,z)]
       else if w >= 4200 && w < 4300 then [Relationc (a,b1,b,43,d,e1,e,f); Relationc (u,v1,v,7,x,y1,y,z)] 
       else if w >= 4300 && w < 4400 then [Relationc (a,b1,b,43,d,e1,e,f); Relationc (u,v1,v,28,x,y1,y,z)] 
       else if w >= 4400 && w < 4500 then [Relationc (a,b1,b,43,d,e1,e,f); Relationc (u,v1,v,9,x,y1,y,z)] 
       else if w >= 4500 && w < 4600 then [Relationc (a,b1,b,43,d,e1,e,f); Relationc (u,v1,v,24,x,y1,y,z)] 
-      else if w=21 && c >= 2000 && c < 2100 then [Relationc (a,b1,b,43,d,e1,e,f)] 
+      else if w=22 && c >= 2000 && c < 2100 then [Relationc (a,b1,b,43,d,e1,e,f)] 
       else []
-    (* else if c >= 2100 && c < 2200 then [Relationc (u,v1,v,21,x,y1,y,z)]  *)
+    (* else if c >= 2100 && c < 2200 then [Relationc (u,v1,v,22,x,y1,y,z)]  *)
     else if c >= 2200 && c < 2300 then [Relationc (u,v1,v,14,x,y1,y,z)] 
     else if c >= 2400 && c < 2500 && w >= 4300 && w < 4400 then [
             Relationc (u,v1,v,95,x,y1,y,z); Relationc(a,b1,b,43,d,e1,e,f)] 
@@ -196,9 +196,9 @@ value collapse_upapada_relations relations part_dag a b1 b c d e1 e f=
                     then join_relations a b1 b c d e e1 f u v1 v w x y1 y z
                     else if c >= 4000 && c < 5000 && w >= 2000 && w < 4000
                     then join_relations u v1 v w x y1 y z a b1 b c d e1 e f
-                    else if c >= 2000 &&  c < 2100 && w=21
+                    else if c >= 2000 &&  c < 2100 && w=22
                     then join_relations a b1 b c d e1 e f u v1 v w x y1 y z
-                    else if c=21 && w >= 2000  && w < 2100
+                    else if c=22 && w >= 2000  && w < 2100
                     then join_relations u v1 v w x y1 y z a b1 b c d e1 e f
                     else []
                 in  let acc2=if acc1=[] then []
@@ -386,8 +386,8 @@ value no_crossing text_type rel m1 m2=match m1 with
          (* 33=sup_samucciwaH added to allow the followiing construction:
             बिभेद च पुनः सालान् सप्त एकेन महा-इषुणा गिरिं रसातलं च एव जनयन् प्रत्ययं तदा
           where karaNa and sup_samucciwaH cross *)
-             && not (r1=101 || r1=102 || r1=22 || r1=49 || r1=28 || r1=30 || r1=33 || r1=79)
-             && not (r2=101 || r2=102 || r2=22 || r2=49 || r2=29 || r2=30 || r2=33 || r2=79)
+             && not (r1=101 || r1=102 || r1=23 || r1=49 || r1=28 || r1=30 || r1=33 || r1=79)
+             && not (r2=101 || r2=102 || r2=23 || r2=49 || r2=29 || r2=30 || r2=33 || r2=79)
              && (((not ((r1=36) || (r1=37) || (r1=38) || (r1=9) || (r1=53) ||
                      (r2=36) || (r2=37) || (r2=38) || (r2=9) || (r2=53)))
                     && text_type="Sloka")
@@ -750,7 +750,7 @@ value rec add_cost text_type acc rels=fun
             else if rel >= 3200 && rel < 3300 then 93 * dist (*vinArWaH *)
             (*else if rel >= 3100 && rel < 3200 then 92 * dist (*sahArWaH *)*)
             else if rel >= 4000 && rel < 4100 then 20 * dist (* apAxAnam *)
-            else if rel >= 4100 && rel < 4200 then 21 * dist (* xeSAXi *)
+            else if rel >= 4100 && rel < 4200 then 22 * dist (* xeSAXi *)
             else if rel >= 4200 && rel < 4300 then 9 * dist (* viXeya_viSeRaNam *)
             else if rel >= 4300 && rel < 4400 then 28 * dist (* sambanXaH *)
             else if rel >= 4400 && rel < 4500 then 7 * dist (* karwA *)
