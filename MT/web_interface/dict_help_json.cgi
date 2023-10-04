@@ -35,9 +35,11 @@ print "Access-Control-Allow-Origin: *\n";
 print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
 print "[\n";
+#&call_dict("amara",$word);
 &call_dict("apte",$word);
 &call_dict("mw",$word);
 &call_dict("heritage",$word);
+&call_dict("ccs",$word);
 print "]\n";
 
 
@@ -45,6 +47,13 @@ sub call_dict{
 	my($dict,$word) = @_;
 
         print "{\"Word\":\"$word\",\n";
+        if($dict eq "apte") {
+           print "\"DICT\":\"Amarakosha\",\n";
+           $result = &get_dict_entry("amara",$word,"DEV");
+	   chomp($result);
+           print "\"Meaning\":\"$result\"},\n";
+	## This needs to be improved further. Amarakosha output is in html format!
+        }
         if($dict eq "apte") {
            print "\"DICT\":\"Apte's Skt-Hnd Dict\",\n";
            $result = &get_dict_entry("apte",$word,"DEV");
@@ -84,7 +93,7 @@ sub call_dict{
            $result =~ s/<p><\/p>/ /g;
            $result =~ s/<br>/ /g;
            $result =~ s/"/'/g;
-           print "\"Meaning\":\"$result\"}\n";
+           print "\"Meaning\":\"$result\"},\n";
         }
 	if($dict eq "ccs") {
            print "\"DICT\":\"Cappeller's Skt-Ger Dict\",\n";
