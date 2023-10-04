@@ -107,7 +107,7 @@ while($tmpin = <STDIN>){
     @f = split(/\t/,$tmpin);
     $word = $f[1];
     $kAraka = $f[7];
-    $in = $f[10];
+    $in = $f[12];
 
     $in =~ s/\/.*//;
     $in =~ s/></;/g;
@@ -242,6 +242,7 @@ while($tmpin = <STDIN>){
 
           ($rt,$rel) = split(/:/,&get_avy_feature($in));
 	  #print "rt = ", $rt,"\n";
+	  #print "in = ", $in,"\n";
 
           $map_rt = &get_dict_mng($rt, $rAVY);
 	  #print "map_rt = ", $map_rt,"\n";
@@ -314,7 +315,8 @@ while($tmpin = <STDIN>){
        # This is to handle the words unrecognised by morph
        $map_rt = $word;
        $map_rt =~ s/^\-//;
-       if($map_rt eq ".") { 
+       if($in eq "-") { $ans = "- avy NW NW NW NW";} # Case of sma
+       elsif($map_rt eq ".") { 
          $ans = "$map_rt avy NW NW NW NW";
        } else {
          $cat = "n";

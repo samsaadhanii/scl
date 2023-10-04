@@ -10865,6 +10865,13 @@
 <sense no="1">खाने के योग्य</sense>
 </lexhead>
 
+<lexhead no="6960">
+<dentry>अद्य</dentry>
+<prAwipaxikam>अद्य</prAwipaxikam>
+<grammar>अव्य</grammar>
+<sense n="1">आज, इस दिन   अद्य त्वां त्वरयति दारुणः कृतान्तः-<citation>माल* ५/२५</citation></sense>
+</lexhead>
+
 <lexhead no="697">
 <dentry>अद्यम्</dentry>
 <prAwipaxikam>अद्य</prAwipaxikam>
@@ -10873,7 +10880,6 @@
 <kind_of>दिवसः</kind_of>
 <jAwi>कालः</jAwi>
 <sense no="1">भोजन, खाने के योग्य पदार्थ</sense>
-<sense n="2">आज, इस दिनअद्य त्वां त्वरयति दारुणः कृतान्तः-<citation>माल* ५/२५</citation></sense>
 </lexhead>
 
 <lexhead no="698">

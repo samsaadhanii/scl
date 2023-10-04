@@ -96,6 +96,7 @@ sub read_second_file {
    $indx = $1;
    $flds[0] =~ /^([0-9]+)/;
    $wrd_id = $1;
+	print "###", $flds[$wrd_fld_id],"\n";
    if ( &member_discourse_connective2($flds[$wrd_fld_id]) && 
        ($flds[$karaka_rel_fld] =~ /सम्बन्धः/ || $flds[$karaka_rel_fld] =~ /_द्योतकः/ ||
        $flds[$karaka_rel_fld] =~ /sambandhaḥ/ || $flds[$karaka_rel_fld] =~ /_dyotakaḥ/)
@@ -103,6 +104,7 @@ sub read_second_file {
        $discourse_connective2 = $flds[$wrd_fld_id];
        $flds[$karaka_rel_fld] =~ /,([0-9\.]+)/;
        $verb_indx = $1;
+	print "###", $discourse_connective2,"\n";
    }
    if (&member_niwya_connective2($flds[$wrd_fld_id])) {
        $niwya_connective2_pos = $indx;
@@ -229,11 +231,9 @@ my($fld) = @_;
 my ($word) = "";
  if (($fld eq "यदि") || 
      ($fld eq "यद्यपि") ||
-     ($fld eq "अथापि") || 
      ($fld eq "यतः") || 
      ($fld eq "yadi")  ||
      ($fld eq "yadyapi") ||
-     ($fld eq "athāpi") ||
      ($fld eq "yataḥ")) {
    $word = $fld;
  }
@@ -254,6 +254,8 @@ my ($word) = "";
      ($fld eq "ततः") || 
      ($fld eq "तस्मात्") || 
      ($fld eq "अतः") || 
+     ($fld eq "अथापि") || 
+     ($fld eq "अथ") || 
      ($fld eq "tarhi")  ||
      ($fld eq "tathāpi") ||
      ($fld eq "cedapi") ||
@@ -261,7 +263,9 @@ my ($word) = "";
      ($fld eq "tarhyapi") ||
      ($fld eq "tataḥ") ||
      ($fld eq "tasmāt") ||
-     ($fld eq "ataḥ")) {
+     ($fld eq "ataḥ") ||
+     ($fld eq "athāpi") ||
+     ($fld eq "atha")) {
       $word = $fld;
   }
  $word;
@@ -277,12 +281,14 @@ $rel = "";
 
 if ($discourse_connective eq "yadi") { $rel = "āvaśyakatā-pariṇāma-sambandhaḥ";}
 elsif ($discourse_connective eq "यदि") { $rel = "आवश्यकता-परिणाम-सम्बन्धः";}
-elsif ($discourse_connective eq "तर्हि") { $rel = "आवश्यकता-परिणाम-सम्बन्धः";}
 elsif ($discourse_connective eq "tarhi") { $rel = "āvaśyakatā-pariṇāma-sambandhaḥ";}
+elsif ($discourse_connective eq "तर्हि") { $rel = "आवश्यकता-परिणाम-सम्बन्धः";}
 elsif ($discourse_connective eq "यद्यपि") { $rel = "व्यभिचारः";}
 elsif ($discourse_connective eq "yaxyapi") { $rel = "vyabhicāraḥ";}
 elsif ($discourse_connective eq "तर्ह्यपि") { $rel = "व्यभिचारः";}
 elsif ($discourse_connective eq "tarhyapi") { $rel = "vyabhicāraḥ";}
+elsif ($discourse_connective eq "अथ") { $rel = "अनन्तरकालः";}
+elsif ($discourse_connective eq "atha") { $rel = "anantarakālaḥ";}
 elsif ($discourse_connective eq "अथापि") { $rel = "व्यभिचारः";}
 elsif ($discourse_connective eq "athāpi") { $rel = "vyabhicāraḥ";}
 elsif ($discourse_connective eq "तथापि") { $rel = "व्यभिचारः";}

@@ -1,5 +1,7 @@
 #!/usr/bin/perl
 
+#require "../../../paths.pl";
+
 $pid = $ARGV[0];
 $sub_pid = $ARGV[1];
 $TFPATH = $ARGV[2];

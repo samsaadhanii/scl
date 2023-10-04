@@ -396,6 +396,8 @@ value no_crossing text_type rel m1 m2=match m1 with
              && not (r2=6 && r1=40)
              && not (r2=6 && r1=41)
              && not (r1=6 && r2=41)
+             && not (r1=36 && r2=79)
+             && not (r1=79 && r2=36)
              (* removed RaRTI, viSeRaNa, aBexa, temporarily *)
          then False else True
              (* let length=List.length rel -1 in
@@ -560,7 +562,8 @@ value not_allowed_sequence_rels rpair = match rpair with
 (* uwprekRA_xyowaka of a karwA/viSeRaNam not allowd *)
   |(7,89)
   |(36,89)
-  |(36,79) (* upamAna of viSeRaNa *)
+  |(36,79) (* upamAna of a viSeRaNa *)
+  |(37,79) (* upamAna of an aBexa *)
   |(79,79) (* upamAna of upamAna is not allowed *)
 (* viSeRaNam of a varwamAna samAnakAla not allowd *)
   |(42,36)
@@ -609,10 +612,11 @@ print_int r1; print_string " "; print_int r2; print_string "\n";
          then False (* do { print_string "C15\n"; False} *)
          else if same_root from_id1 from_id2 from_cid1 from_cid2 from_mid1 from_mid2
          then (* do { print_string "C16\n"; *) outgoing_incompatible_rels (r1,r2) (*}*)
-         else if sequence from_id1 from_cid1 from_mid1 to_id2 to_cid2 to_mid2 && r2 = 79 && r1 = 36 && ((to_id1 - from_id1 > 1) || (from_id1 - to_id1 > 1))
+         (* else if sequence from_id1 from_cid1 from_mid1 to_id2 to_cid2 to_mid2 && r2 = 79 && r1 = 36 && ((to_id1 - from_id1 > 1) || (from_id1 - to_id1 > 1))
          then False (*do { print_string "C17\n"; False} *)
          else if sequence from_id2 from_cid2 from_mid2 to_id1 to_cid1 to_mid1  && r1 = 79 && r2 = 36 && ((to_id2 - from_id2) > 1 || (from_id2 - to_id2) > 1)
-         then  False (*do { print_string "C18\n"; False} *)
+         then  False (*do { print_string "C18\n"; False} *) 
+         counter example: purIM xaSaraWaH SasAsa SamiwA-miwraH nakRawrANi iva canxramAH; SamiwA-miwraH is a viSeRaNa of canxramAH *)
          else if sequence from_id2 from_cid2 from_mid2 to_id1 to_cid1 to_mid1
          then  (*do { print_string "C19\n";  *)
               if (not_allowed_sequence_rels (r1,r2)) 

@@ -100,6 +100,7 @@ value hi_pos = ref 50;
 value yax_pos = ref 50; 
 value wvam_pos = ref 50; 
 value aham_pos = ref 50; 
+value iva_pos = ref 50; 
 value karwqsamverbs = ref 50; 
 value kwvA_lyap_pos1 = ref 50; 
 value kwvA_lyap_pos2 = ref 50; 
@@ -428,7 +429,8 @@ value no_boundary_crossing_kwvA_lyap id1 id2 =
 
 
 value no_boundary_crossing_with_iwi id1 id2 text_type =
-  if text_type="Prose" then
+  if (id1 = iva_pos.val -1) || (id2 = iva_pos.val -1) then False
+  else if text_type="Prose" then
            no_boundary_crossing1 id1 id2
        &&  no_boundary_crossing2 id1 id2 iwi_pos.val 
        &&  no_boundary_crossing_kwvA_lyap id1 id2
@@ -444,7 +446,8 @@ yaw SreyaH syAw niSciwaM brUhi waw me ; here there is no crossing, wince yaw waw
 ;
 
 value no_boundary_crossing_except_kwvA id1 id2 text_type =
-  if text_type="Prose" then
+  if (id1 = iva_pos.val -1) || (id2 = iva_pos.val -1) then False
+  else if text_type="Prose" then
            no_boundary_crossing1 id1 id2
        &&  no_boundary_crossing2 id1 id2 iwi_pos.val 
    else if text_type="Sloka" then
@@ -455,8 +458,10 @@ yaw SreyaH syAw niSciwaM brUhi waw me ; here there is no crossing, wince yaw waw
    else False 
   else True (* text_type does not match ; Should produce error in such case *)
 ;
+
 value no_boundary_crossing id1 id2 text_type =
-  if text_type="Prose" then
+  if (id1 = iva_pos.val -1) || (id2 = iva_pos.val -1) then False
+  else if text_type="Prose" then
       no_boundary_crossing1 id1 id2
    && no_boundary_crossing_kwvA_lyap id1 id2
   (* else if text_type="Sloka" then
@@ -4508,13 +4513,17 @@ value mark_upamAna id1 cid1 mid1 id2 cid2 mid2 id3 cid3 mid3 rl1 rl2 =
                    then [ Relation (id3,cid3,mid3,"upamAnam",id1,cid1,mid1,"94",d13)
                         ; Relation (id2,cid2,mid2,"upamAna_xyowakaH",id3,cid3,mid3,"95",d12)
                         ]
-                   else [ Relation (id3,cid3,mid3,"upamAnam",id1,cid1,mid1,"96",d13)]
+		   else if id2-id3 < 5 (* To ensure that the upamAna is not far away from iva *)
+                   then [ Relation (id3,cid3,mid3,"upamAnam",id1,cid1,mid1,"96",d13)]
+		   else []
                  else if  d23 > d12 
                   then  if id2 = next id1 
                         then [ Relation (id1,cid1,mid1,"upamAnam",id3,cid3,mid3,"97",d13)
                              ; Relation (id2,cid2,mid2,"upamAna_xyowakaH",id1,cid1,mid1,"98",d12)
                              ]
-                        else [ Relation (id1,cid1,mid1,"upamAnam",id3,cid3,mid3,"99",d13)]
+		        else if id2-id1 < 5 (* To ensure that the upamAna is not far away from iva *)
+                        then [ Relation (id1,cid1,mid1,"upamAnam",id3,cid3,mid3,"99",d13)]
+		        else []
 	          else []
 	  else []
 ;
@@ -4525,17 +4534,25 @@ value rlupamAna_upameya_sup m1 m2 m3 text_type = match m2 with
         [ Sup (id3,cid3,mid3,_,rt3,_,uwwarapaxa3,_,viBakwiH3,_,_) ->
         (*| Kqw (id3,cid3,mid3,_,_,_,_,_,_,_,_,_,_,_,_,viBakwiH3,_,_)
         | WaxXiwa (id3,cid3,mid3,_,_,_,_,_,_,viBakwiH3,_,_) -> *)
-               if (not (member_of rt3 sambanXavAcI) || uwwarapaxa3="y")  (* to handle sva-aXIna-pawnI as a upamAna *)
-               && not (member_of rt3 upAXi) 
-               && not (member_of rt3 manuRyasaFjFAvAcI) 
-               && not ( member_of rt3 saMKyeya || member_of rt3 pUraNa || member_of rt3 kqxanwas || member_of rt3 taddhitaantas || member_of rt3 guNavacana) then
+               (* if (not (member_of rt3 sambanXavAcI) || uwwarapaxa3="y")  -- to handle sva-aXIna-pawnI as a upamAna ; we can also have mAwA iva piwA api ...  Hence this condition is commented totally Similarly we can have upAXi as well e.g. rAjA iva prajA ...
+                not (member_of rt3 upAXi) *)
+               (* && not (member_of rt3 manuRyasaFjFAvAcI)   xaSaraWena pAliwA inxreNa iva *)
+               if not (member_of rt3 guNavacana) 
+                (*&& not (pronominal123 rt3)  -- saH parama-prIwaH baBUva piwAmahaH iva; here saH is the upameya *)
+                && (not (member_of rt3 upAXi) || uwwarapaxa3="y")
+                (* && not (uwwarapaxa3="y") *) (* This is added on trial basis to avoid upamAna upameya to be compounds *)
+                &&  not ( member_of rt3 saMKyeya || member_of rt3 pUraNa || member_of rt3 kqxanwas || member_of rt3 taddhitaantas || member_of rt3 guNavacana) then
              match m1 with
              [ Sup (id1,cid1,mid1,_,rt1,_,uwwarapaxa1,_,viBakwiH1,_,_) ->
              (*| WaxXiwa (id1,cid1,mid1,_,rt1,_,_,_,_,viBakwiH1,_,_) -> *)
                    if viBakwiH1=viBakwiH3 (* || viBakwiH3 = 1 *)
-                     && (not (member_of rt1 sambanXavAcI) || uwwarapaxa1="y")  (* to handle sva-aXIna-pawnI as a upamAna *)
+                      &&  not (member_of rt1 guNavacana) 
+                      (*&& not (pronominal123 rt1)  -- saH parama-prIwaH baBUva piwAmahaH iva; here saH is the upameya *)
+                      (* && (not (member_of rt1 sambanXavAcI) || uwwarapaxa1="y")  (* to handle sva-aXIna-pawnI as a upamAna *)
                      && not (member_of rt1 upAXi) 
-                     && not (member_of rt1 manuRyasaFjFAvAcI) 
+                     && not (member_of rt1 manuRyasaFjFAvAcI) *)
+                     && (not (member_of rt1 upAXi) || uwwarapaxa1="y")
+                     (* && not (uwwarapaxa1="y") *) (* This is added on trial basis to avoid upamAna upameya to be compounds *)
                      && not ( member_of rt1 saMKyeya || member_of rt1 pUraNa || member_of rt1 kqxanwas || member_of rt1 taddhitaantas || member_of rt1 guNavacana)
                    (* && id2 < id3 aSmanA iva nirmiwaM xuRtAnAm hqxayam  *) 
                    then mark_upamAna id1 cid1 mid1 id2 cid2 mid2 id3 cid3 mid3 "50.1" "50.2"
@@ -5114,6 +5131,7 @@ value init_sentence_feature_variables morphs  =
           | "apiwu" -> do { (); apiwu_pos.val := id;}
           | "kinwu" -> do { (); kinwu_pos.val := id;}
           | "paranwu" -> do { (); paranwu_pos.val := id;}
+          | "iva" -> do { (); iva_pos.val := id;}
           (*| "COMMA" -> do { (); manual_boundary1.val := id;} *)
           | _ -> ()
           ] 
