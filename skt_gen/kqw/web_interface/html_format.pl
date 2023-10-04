@@ -35,9 +35,9 @@ require "../../paths.pl";
 $column_headings_avy_IAST = "<tr bgcolor='tan'><td>kṛdavyayaṃ</td></tr>\n";
 $column_headings_avy_DEV = "<tr bgcolor='tan'><td>कृदव्ययम्</td></tr>\n";
 
-$column_headings_IAST= "<tr bgcolor='tan'><td>kṛtnāma</td><td align=\"center\"><font color=\"white\" size=\"4\">puṃ</font> </td><td align=\"center\"><font color=\"white\" size=\"4\">strī</font></td><td align=\"center\"><font color=\"white\" size=\"4\">napuṃ</font></td></tr>\n";
+$column_headings_IAST= "<tr bgcolor='tan'><td>kṛnnāma</td><td align=\"center\"><font color=\"white\" size=\"4\">puṃ</font> </td><td align=\"center\"><font color=\"white\" size=\"4\">strī</font></td><td align=\"center\"><font color=\"white\" size=\"4\">napuṃ</font></td></tr>\n";
 
-$column_headings_DEV="<tr bgcolor='tan'><td>कृत्नाम</td><td align=\"center\"><font color=\"white\" size=\"4\">पुं</font> </td><td align=\"center\"><font color=\"white\" size=\"4\">स्त्री</font></td><td align=\"center\"><font color=\"white\" size=\"4\">नपुं</font></td></tr>\n";
+$column_headings_DEV="<tr bgcolor='tan'><td>कृन्नाम</td><td align=\"center\"><font color=\"white\" size=\"4\">पुं</font> </td><td align=\"center\"><font color=\"white\" size=\"4\">स्त्री</font></td><td align=\"center\"><font color=\"white\" size=\"4\">नपुं</font></td></tr>\n";
 
 my $word = $ARGV[0];
 my $upa = $ARGV[1];
