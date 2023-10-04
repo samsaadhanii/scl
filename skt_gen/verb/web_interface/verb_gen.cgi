@@ -26,7 +26,7 @@ package main;
 #use CGI qw/:standard/;
 
 ## Usage:
-# https://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen_json.cgi?vb=gam1_gamLz_BvAxiH_gawO&prayoga_paxI=karwari-parasmEpaxI&upasarga=-&encoding=WX&outencoding=Devanagari&mode=json
+# https://sanskrit.uohyd.ac.in/cgi-bin/scl/skt_gen/verb/verb_gen.cgi?vb=gam1_gamLz_BvAxiH_gawO&prayoga_paxI=karwari-parasmEpaxI&upasarga=-&encoding=WX&outencoding=Devanagari&mode=json
 #prayoga_paxI:karwari-AwmanepaxI/karwari-parasmEpaxI/karmaNi/Nickarwari-AwmanepaxI/Nickarwari-parasmEpaxI
 #upasarga:-/pra/ni/Af/ava/apa/...
 #vb: list is available in scl/js_files/verb_gen.js
