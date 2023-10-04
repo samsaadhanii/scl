@@ -19,18 +19,12 @@
 
 BEGIN{require "../paths.pl";}
 
-#use lib $GlblVar::LIB_PERL_PATH;
-
-#use GDBM_File;
-
 my $rel_dbm = $ARGV[0];
 my $heading = $ARGV[1];
 my $word = $ARGV[2];
 my $out_encoding = $ARGV[3];
 
 my(%LEX,%LEX1,%LEX2,%LEX3,$head,$vargaH,$synset,$heading_info,$relata_info,$synset_info);
-
-#tie(%LEX,GDBM_File,"$GlblVar::SCLINSTALLDIR/amarakosha/DBM/stem2head.gdbm",GDBM_READER,0666) || die "can't open DBM/stem2head.gdbm";
 
 require "$GlblVar::SCLINSTALLDIR/MT/prog/morph/web_interface/scripts.pl";
 require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
@@ -57,8 +51,6 @@ while(<TMP>) {
 }
 close(TMP);
 
-#tie(%LEX1,GDBM_File,"$GlblVar::SCLINSTALLDIR/amarakosha/DBM/synset_info.gdbm",GDBM_READER,0666) || die "can't open DBM/synsetinfo.gdbm";
-
 open(TMP,"$GlblVar::SCLINSTALLDIR/amarakosha/DBM/all_kANdas") || die "can't open DBM/all_kANdas";
 #Fields: Word(0), Reference(1), Gender(2), Varga(3), Head_word(4), is_a_part_of(5), is_a_kind_of(6), janya_janaka(7), pawi_pawnI(8), svasvAmI(9), vESiRtya(10), saMbanXiwa(11), vqwwi(12), English name(13),
 
@@ -77,7 +69,6 @@ while(<TMP>) {
 close(TMP);
 
 if($rel_dbm ne "NULL") {
-#   tie(%LEX2,GDBM_File,"$GlblVar::SCLINSTALLDIR/amarakosha/DBM/$rel_dbm.gdbm",GDBM_READER,0666) || die "can't open DBM/$rel_dbm.gdbm";
 open(TMP,"$GlblVar::SCLINSTALLDIR/amarakosha/DBM/all_kANdas");
 if($rel_dbm eq "onto") {
 while(<TMP>) {
