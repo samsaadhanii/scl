@@ -110,6 +110,7 @@ my $format;
           $ans =~ s/^([^{ ]+)([ {])/$2/;  # Remove rt from the ans; since we need to provide a link to it in web version.
           $rt = $1;
 	  $rt_outencoding = &my_convert($rt,$outencoding);
+          chomp($rt_outencoding);
 
 
           # We need to separate the upasarga from the rts for generation purpose.
@@ -155,6 +156,7 @@ my $format;
            }
 	   $ans =~ s/{vargaH:nA}/ /;
            $ans_outencoding = &my_convert($ans,$outencoding);
+           chomp($ans_outencoding);
 
 	   if($format eq "web") { 
               $ans_outencoding =~ s/{[^:]+://g;
