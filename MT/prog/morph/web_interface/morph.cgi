@@ -38,15 +38,15 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 my $word;
 my $word_wx;
 my $ans="";
-my $ans_iast="";
+my $ans_outencoding = "";
 my $encoding="";
 my $outencoding="";
 my $rt;
+my $rt_outencoding;
 my $rt_XAwu_gaNa;
 my $XAwu;
 my $gaNa;
 my $lifga;
-my $lifga_wx;
 my $link;
 my $upasarga;
 my $prayogaH;
@@ -55,7 +55,7 @@ my $disp_rt;
 my $paxI;
 my $i;
 my @ans;
-my $mode;
+my $mode = "";
 my $k;
 my $format;
 
@@ -72,9 +72,7 @@ my $format;
     if (! (-e "$GlblVar::TFPATH")){
         mkdir "$GlblVar::TFPATH" or die "Error creating directory $GlblVar::TFPATH";
     }
-  }
-
-  if($format eq "JSON") { 
+  } else {
      print "Access-Control-Allow-Origin: *\n";
   }
 
@@ -90,121 +88,87 @@ my $format;
      &printscripts();
 
      if($GlblVar::LOG eq "true"){
-       open(TMP1,">>$GlblVar::TFPATH/morph.log") || die "Can't open $GlblVar::TFPATH/morph.log for writing";
-       print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."encoding:$encoding\t"."morfword:$word\n";
-       print TMP1 $word_wx,"\n";
-       print TMP1 $ans,"######################\n";
-       close(TMP1);
+       &logbook($word, $word_wx, $ans);
      }
      print "<table style=\"border-collapse: collapse;\" bordercolor='brown' valign='middle' bgcolor='#297e96' border='1' cellpadding='2' cellspacing='2' > <tr>";
 
-  }
+  } 
+  if ($format eq "JSON") { print "[";}
 
-    if ($format eq "JSON") { print "[";}
     @ans=split(/\//,$ans);
     $i = 0;
     if($ans ne "") {
        for($k=0;$k<=$#ans;$k++){
           $ans = $ans[$k];
           if ($format eq "JSON") { print "{";}
-          if($ans =~ /^[^{]+{लेवेल् 4}/) { $ans =~ s/^[^{]+{लेवेल् 4}//;}
+          if($ans =~ /^[^{]+{level:4}/) { $ans =~ s/^[^{]+{level:4}//;}
         # Why only level 4 entry in the beginning is deleted, why not all?
-          if($ans =~ /लेवेल् [01]/) { $ans =~ s/{लेवेल् [01]}//;}
-          if($ans =~ /लेवेल् 2/) { $ans =~ s/लेवेल् 2/कृदन्त/;}
-          if($ans =~ /लेवेल् 3/) { $ans =~ s/लेवेल् 3/तद्धित/;}
+          if($ans =~ /level:[0123]/) { $ans =~ s/{level:[0123]}//;}
+         # if($ans =~ /level:2/) { $ans =~ s/level:2/kqxanwa/;}
+         # if($ans =~ /level:3/) { $ans =~ s/level:3/waxXiwa/;}
 
           $ans =~ s/^([^{ ]+)([ {])/$2/;  # Remove rt from the ans; since we need to provide a link to it in web version.
           $rt = $1;
+	  $rt_outencoding = &my_convert($rt,$outencoding);
+
+
           # We need to separate the upasarga from the rts for generation purpose.
-          if ($ans =~ /उपसर्ग ([^}]+)/) { 
+          if ($ans =~ /upasarga:([^}]+)/) { 
 	          $upasarga = $1;
-   	          $ans =~ s/{उपसर्ग [^}]+}//;
+   	          $ans =~ s/{upasarga:[^}]+}//;
           } elsif ($rt =~ /^(.+)_([^_]+)/){
        	          $upasarga = $1; $rt = $2;
           } else { $upasarga = "-"; }
 
-          if (($rt ne $word) && ($ans =~ /कृत्_प्रत्ययः/ )){
-             if($ans =~ /{धातुः ([^}]+)/) { $XAwu = $1;}
-             if($ans =~ /{गणः ([^}]+)/) { $gaNa = $1;}
-             $rt_XAwu_gaNa = $rt."_".$XAwu."_".$gaNa;
-             if($upasarga ne "-"){
-	        $disp_rt = $upasarga."_".$rt;
-             } else {$disp_rt = $rt;}
-               if($format eq "web") {$link = "<a href=\"javascript:generate_kqw_forms('Unicode','$rt_XAwu_gaNa','$upasarga')\">$disp_rt</a>";}
-	       else { $link = "\"APP\":\"kqw\",\"encoding\":\"Unicode\",\"rt\":\"$rt_XAwu_gaNa\",\"upasarga\":\"$upasarga\",\"RT\":\"$disp_rt\"";}
-               $color = "lavendar";
-             } elsif ($ans =~ /तद्धित/){
-               $ans =~ s/{वर्गः ना}//;
-               if($format eq "web") { $link = "<a href=\"javascript:generate_waxXiwa_forms('Unicode','$rt','$lifga')\">$rt</a>";}
-	       else { $link = "\"APP\":\"waxXiwa\",\"encoding\":\"Unicode\",\"rt\":\"$rt\",\"linga\":\"$lifga\",\"RT\":\"$rt\"";}
-               $color = "lavendar";
-            } elsif(($ans =~ /कृदन्त/) && ($ans !~ /अव्य/)) {
-               $ans =~ s/{वर्गः ना}//;
-               if ($ans =~ /(पुं|नपुं|स्त्री)/){ $lifga = $1;}
-	       $lifga_wx = &get_lifga_wx($lifga);
-               if($format eq "web") {$link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga_wx','nA','$outencoding','1')\">$rt</a>";}
-	      else { $link = "\"APP\":\"noun\",\"encoding\":\"Unicode\",\"rt\":\"$rt\",\"linga\":\"$lifga\",\"cat\":\"nA\",\"outencoding\":\"$outencoding\",\"RT\":\"$rt\"";}
+            if ($ans =~ /kqw_prawyayaH/){
+               $ans =~ s/}([^{]+){/}{kqw_prAwipaxikam:$1}{/;
+               $link = &handle_kqw($format,$rt,$upasarga,$ans);
+               $color = "lavender";
+            } elsif ($ans =~ /waxXiwa/){
+               #$link = &handle_waxXiwa($format,$rt,$rt_outencoding,$ans); 
+		$link = $rt_outencoding;
+               $color = "lightgreen";
+            } elsif(($ans =~ /kqxanwa/) && ($ans !~ /avy/)) {
+               $link = &handle_noun($format,$rt,$rt_outencoding,$lifga,'nA',$outencoding,$ans); 
                $color = "skyblue";
-            } elsif ($ans =~ /{वर्गः ना}/ ) {
-                $ans =~ s/{वर्गः ना}//;
-                if ($ans =~ /(पुं|नपुं|स्त्री)/){ $lifga = $1;}
-	        $lifga_wx = &get_lifga_wx($lifga);
-                if($format eq "web") {$link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga_wx','nA','$outencoding','1')\">$rt</a>";}
-	      else { $link = "\"APP\":\"noun\",\"encoding\":\"Unicode\",\"rt\":\"$rt\",\"linga\":\"$lifga\",\"cat\":\"nA\",\"outencoding\":\"$outencoding\",\"RT\":\"$rt\"";}
+            } elsif ($ans =~ /{vargaH:nA}/ ) {
+                $link = &handle_noun($format,$rt,$rt_outencoding,$lifga,'nA',$outencoding,$ans); 
                 $color = "skyblue";
-           } elsif ($ans =~ /संख्या/)  {
-              if ($ans =~ /(पुं|नपुं|स्त्री)/){ $lifga = $1;} else  {$lifga = "अ";}
-	      $lifga_wx = &get_lifga_wx($lifga);
-              if($format eq "web") {$link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$outencoding','$rt','$lifga_wx','saMKyA','$outencoding','1')\">$rt</a>";}
-	      else { $link = "\"APP\":\"noun\",\"encoding\":\"Unicode\",\"rt\":\"$rt\",\"linga\":\"$lifga\",\"cat\":\"saMKyA\",\"outencoding\":\"$outencoding\",\"RT\":\"$rt\"";}
+            } elsif ($ans =~ /saMKyA/)  {
+              $link = &handle_noun($format,$rt,$rt_outencoding,$lifga,'saMKyA',$outencoding,$ans); 
               $color = "skyblue";
-           } elsif ($ans =~ /संख्येय/) {
-              if ($ans =~ /(पुं|नपुं|स्त्री)/){ $lifga = $1;} else  {$lifga = "अ";}
-	      $lifga_wx = &get_lifga_wx($lifga);
-              if($format eq "web") {$link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga_wx','saMKyeyam','$outencoding','1')\">$rt</a>";}
-	      else { $link = "\"APP\":\"noun\",\"encoding\":\"Unicode\",\"rt\":\"$rt\",\"linga\":\"$lifga\",\"cat\":\"saMKyeyam\",\"outencoding\":\"$outencoding\",\"RT\":\"$rt\"";}
+            } elsif ($ans =~ /saMKyeya/) {
+              $link = &handle_noun($format,$rt,$rt_outencoding,$lifga,'saMKyeyam',$outencoding,$ans); 
               $color = "skyblue";
-           } elsif ($ans =~ /सर्वनाम/){
-              if ($ans =~ /(पुं|नपुं|स्त्री)/){ $lifga = $1;} else  {$lifga = "अ";}
-	      $lifga_wx = &get_lifga_wx($lifga);
-              if($format eq "web") {$link = "<a href=\"javascript:generate_any_noun_forms('Unicode','$rt','$lifga_wx','sarva','$outencoding','1')\">$rt</a>";}
-	      else { $link = "\"APP\":\"noun\",\"encoding\":\"Unicode\",\"rt\":\"$rt\",\"linga\":\"$lifga_wx\",\"cat\":\"sarva\",\"outencoding\":\"$outencoding\",\"RT\":\"$rt\"";}
+            } elsif ($ans =~ /sarvanAma/){
+              $link = &handle_noun($format,$rt,$rt_outencoding,$lifga,'sarva',$outencoding,$ans); 
               $color = "skyblue";
-          } elsif (($ans =~ /(लट्|लिट्|लुट्|लोट्|लृट्|लङ्|लृङ|लुङ्|लिङ्)/) || ($ans =~ /अव्य.*कृदन्त/)) {
-          	if($ans =~ /([^ ]+) ([^ ]+दिः)/) {  $XAwu = $1;$gaNa = $2;}
-                if($ans =~ /{सनादि:णिच}/) { $prayogaH = "णिजन्त-कर्तरि";} 
-        	elsif ($ans =~ /(कर्तरि|कर्मणि)/) {$prayogaH = $1;}
-        	else { $prayogaH = "कर्तरि";}
-                if($ans =~ /परस्मैपदी/) { $paxI = "parasmEpaxI";} 
-                elsif($ans =~ /आत्मनेपदी/) { $paxI = "AwmanepaxI";} 
-        	else { $paxI = "uBayapaxI";}
-                $rt_XAwu_gaNa = $rt."_".$XAwu."_".$gaNa;
-                $rt =~ s/[1-9]//;
-                if($upasarga ne "-"){
-	           $disp_rt = $upasarga."_".$rt;
-                 } else {$disp_rt = $rt;}
-                 if ($format eq "web") { $link = "<a href=\"javascript:generate_verb_forms('Unicode','$outencoding','$rt_XAwu_gaNa','$prayogaH','$upasarga','$paxI')\">$disp_rt</a>";}
-                 else { $link = "\"APP\":\"verb\",\"encoding\":\"Unicode\",\"outencoding\":\"$outencoding\",\"rt\":\"$rt_XAwu_gaNa\",\"prayogaH\":\"$prayogaH\",\"upasarga\":\"$upasarga\",\"paxI\":\"$paxI\",\"RT\":\"$disp_rt\"";}
+            } elsif (($ans =~ /(lat|llit|lut|lot|lqt|laf|lqf|luf|lif)/) || ($ans =~ /avy.*kqxanwa/)) {
+                 $link = &handle_verb($format,$rt,$upasarga,$outencoding,$ans);
                  $color = "pink";
             } else {
                 $rt =~ s/[1-9]//;
-                if ($format eq "web") { $link = "<a href=\"javascript:show('$rt','DEV')\">$rt</a>";}
-                else { $link = "\"RT\":\"$rt\",\"App\":\"dict_help\"";}
-                $color = "lightgreen";
-            }
-           if($outencoding eq "IAST") {
-              $ans_iast = `echo $ans | $GlblVar::SCLINSTALLDIR/converters/utf82wx.sh $GlblVar::SCLINSTALLDIR | $GlblVar::SCLINSTALLDIR/converters/wx2utf8roman.out`;
-	      $ans = $ans_iast;
+                $rt_outencoding = &my_convert($rt,$outencoding);
+                if ($format eq "web") { $link = "<a href=\"javascript:show('$rt_outencoding','DEV')\">$rt_outencoding</a>";}
+                else { $link = "\"RT\":\"$rt_outencoding\",\"APP\":\"dict_help\"";}
+                if ($ans =~ /avy/){ $color = "lavender";} else { $color = "lightgreen";}
            }
-           if($format eq "web") { print "<td bgcolor='$color'>",$link,$ans,"</td>";}
+	   $ans =~ s/{vargaH:nA}/ /;
+           $ans_outencoding = &my_convert($ans,$outencoding);
+
+	   if($format eq "web") { 
+              $ans_outencoding =~ s/{[^:]+://g;
+              $ans_outencoding =~ s/}/ /g;
+           }
+           if($format eq "web") { print "<td bgcolor='$color'>",$link,$ans_outencoding,"</td>";}
            else { 
-            print "\"COLOR\":\"$color\",$link,\"ANS\":\"$ans\"";
+            print "\"COLOR\":\"$color\",$link,\"ANS\":\"$ans_outencoding\"";
             if($k < $#ans)  { print "},";} else { print "}";}
             if($k == $#ans)  { print "]";}
           }
          $i++;
          if (($i % 6 == 0) && ($format eq "web")) {print "</tr><tr>";}
-        } # endof foreach
+        } # end of foreach
         } else { 
            if ($format eq "web") { print "No answer found\n";} 
            else { print "\"ANS\":\"No answer found\"";}
@@ -212,15 +176,87 @@ my $format;
        }
 
 
- sub get_lifga_wx{
-	 my($linga) = @_;
-	 my($linga_wx) = "";
+sub logbook{
+       my($word, $word_wx, $ans) = @_;
+       open(TMP1,">>$GlblVar::TFPATH/morph.log") || die "Can't open $GlblVar::TFPATH/morph.log for writing";
+       print TMP1 $ENV{'REMOTE_ADDR'}."\t".$ENV{'HTTP_USER_AGENT'}."\n"."encoding:$encoding\t"."morfword:$word\n";
+       print TMP1 $word_wx,"\n";
+       print TMP1 $ans,"\n######################\n";
+       close(TMP1);
+}
 
-	 if($linga eq "नपुं") { $linga_wx = "napuM";}
-	 elsif($linga eq "पुं") { $linga_wx = "puM";}
-	 elsif($linga eq "स्त्री") { $linga_wx = "swrI";}
-	 else { $linga_wx = "a";}
+sub handle_kqw{
+   my($format,$rt,$upasarga,$ans) = @_;
+   my($link, $rt_XAwu_gaNa, $disp_rt,$disp_rt_outencoding);
 
-	 $linga_wx;
+   if($ans =~ /{XAwuH:([^}]+)/) { $XAwu = $1;}
+   if($ans =~ /{gaNaH:([^}]+)/) { $gaNa = $1;}
+
+   $rt_XAwu_gaNa = $rt."_".$XAwu."_".$gaNa;
+
+   if($upasarga ne "-"){
+      $disp_rt = $upasarga."_".$rt;
+   } else {$disp_rt = $rt;}
+
+     $disp_rt_outencoding = &my_convert($disp_rt,$outencoding);
+     if($format eq "web") {$link = "<a href=\"javascript:generate_kqw_forms('WX','$rt_XAwu_gaNa','$upasarga')\">$disp_rt_outencoding</a>";}
+     else { $link = "\"APP\":\"kqw\",\"encoding\":\"WX\",\"rt\":\"$rt_XAwu_gaNa\",\"upasarga\":\"$upasarga\",\"RT\":\"$disp_rt_outencoding\"";}
+
+$link;
+}
+1;
+
+sub handle_waxXiwa{
+    my($format,$rt,$rt_outencoding,$ans) = @_;
+    my($link,$lifga);
+    if ($ans =~ /(puM|napuM|swrI)/){ $lifga = $1;}
+    if($format eq "web") { $link = "<a href=\"javascript:generate_waxXiwa_forms('WX','$rt','$lifga')\">$rt_outencoding</a>";}
+     else { $link = "\"APP\":\"waxXiwa\",\"encoding\":\"WX\",\"rt\":\"$rt\",\"linga\":\"$lifga\",\"RT\":\"$rt_outencoding\"";}
+  $link;
+}
+1;
+
+sub handle_noun{
+  my($format,$rt,$rt_outencoding,$lifga,$cat,$outencoding,$ans) = @_;
+  my($link);
+  if ($ans =~ /(puM|napuM|swrI)/){ $lifga = $1;}
+  if($format eq "web") {$link = "<a href=\"javascript:generate_any_noun_forms('WX','$rt','$lifga','$cat','$outencoding','1')\">$rt_outencoding</a>";}
+  else { $link = "\"APP\":\"noun\",\"encoding\":\"WX\",\"rt\":\"$rt\",\"linga\":\"$lifga\",\"cat\":\"$cat\",\"outencoding\":\"$outencoding\",\"RT\":\"$rt_outencoding\"";}
+  $link;
+}
+1;
+
+sub handle_verb{
+       my($format,$rt,$upasarga,$outencoding,$ans) = @_;
+       my($link, $rt_XAwu_gaNa, $prayogaH, $paxI, $disp_rt, $disp_rt_outencoding);
+
+     	if($ans =~ /([^:]+):([^:]+xiH)/) {  $XAwu = $1;$gaNa = $2;}
+        if($ans =~ /{sanAxi:Nic}/) { $prayogaH ="Nijanwa-karwari";} 
+      	elsif ($ans =~ /(karwari|karmaNi)/) {$prayogaH = $1;}
+      	else { $prayogaH = "karwari";}
+        if($ans =~ /parasmEpaxI/) { $paxI = "parasmEpaxI";} 
+        elsif($ans =~ /AwmanepaxI/) { $paxI = "AwmanepaxI";} 
+      	else { $paxI = "uBayapaxI";}
+        $rt_XAwu_gaNa = $rt."_".$XAwu."_".$gaNa;
+        $rt =~ s/[1-9]//;
+        if($upasarga ne "-"){
+           $disp_rt = $upasarga."_".$rt;
+        } else {$disp_rt = $rt;}
+	$disp_rt_outencoding = &my_convert($disp_rt,$outencoding);
+        if ($format eq "web") { $link = "<a href=\"javascript:generate_verb_forms('WX','$outencoding','$rt_XAwu_gaNa','$prayogaH','$upasarga','$paxI')\">$disp_rt_outencoding</a>";}
+         else { $link = "\"APP\":\"verb\",\"encoding\":\"WX\",\"outencoding\":\"$outencoding\",\"rt\":\"$rt_XAwu_gaNa\",\"prayogaH\":\"$prayogaH\",\"upasarga\":\"$upasarga\",\"paxI\":\"$paxI\",\"RT\":\"$disp_rt_outencoding\"";}
+  $link;
+}
+1;
+
+sub my_convert {
+    my($rt,$outencoding) = @_;
+    my($rt_outencoding);
+          if ($outencoding eq "IAST") {
+              $rt_outencoding = `echo $rt | $GlblVar::SCLINSTALLDIR/converters/wx2utf8roman.out`;
+          } else {
+              $rt_outencoding = `echo $rt | $GlblVar::SCLINSTALLDIR/converters/wx2utf8.sh $GlblVar::SCLINSTALLDIR`;
+          }
+    $rt_outencoding;
 }
 1;

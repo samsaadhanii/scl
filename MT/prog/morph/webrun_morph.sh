@@ -24,6 +24,7 @@ source ../paths.sh
 word=$1
 
 echo $word | $SCLINSTALLDIR/MT/prog/Normalisation/get_std_spelling.out |\
-$LTPROCBIN -c $SCLINSTALLDIR/morph_bin/all_morf.bin | grep . | perl -p -e 's/\//=/' | perl -p -e 's/^.*=\*.*//' | perl -p -e 's/.*=//' | perl -p -e 's/^^//' |\
-$SCLINSTALLDIR/MT/prog/interface/modify_mo_for_mo_display.pl $SCLINSTALLDIR |\
-perl -p -e 's/\/\/\+/\//g' | perl -p -e 's/\/$//' | perl -p -e  's/^\///' | perl -pe 's/\$//' | perl -pe 's/</{/g' | perl -pe 's/>/}/g' | perl -pe 's/:/ /g' | $SCLINSTALLDIR/converters/ri_skt | $SCLINSTALLDIR/converters/iscii2utf8.py 1 
+$LTPROCBIN -c $SCLINSTALLDIR/morph_bin/all_morf.bin | grep . | perl -p -e 's/\//=/' | perl -p -e 's/^.*=\*.*//' | perl -p -e 's/.*=//' | perl -p -e 's/^^//' | perl -pe 's/ /:/g' |\
+#$SCLINSTALLDIR/MT/prog/interface/modify_mo_for_mo_display.pl $SCLINSTALLDIR |\
+perl -p -e 's/\/\/\+/\//g' | perl -p -e 's/\/$//' | perl -p -e  's/^\///' | perl -pe 's/\$//' | perl -pe 's/</{/g' | perl -pe 's/>/}/g' 
+#| $SCLINSTALLDIR/converters/ri_skt | $SCLINSTALLDIR/converters/iscii2utf8.py 1 
