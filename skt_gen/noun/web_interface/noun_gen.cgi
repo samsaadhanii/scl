@@ -22,6 +22,7 @@ require "../../paths.pl";
 require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
 require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert2WX_subroutines.pl";
 require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/noun/noun_gen_subroutines.pl";
+require "$GlblVar::SCLINSTALLDIR/MT/prog/Normalisation/get_std_spelling_fn.pl";
 
 #
 ###################  Main function #################
@@ -60,6 +61,7 @@ package main;
          }
 
 	$rt_wx = &convert($encoding,$rt);
+	$rt_new = &get_std_spelling_fn($rt_wx);
 
 	if ($outencoding eq "IAST") {
 	 $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8roman.out";
@@ -67,7 +69,7 @@ package main;
 	 $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1";
 	}
 
-	my @forms= &gen_noun_forms($rt_wx,$jAwi,$gen,$level,$format,$conversion_program,$outencoding);
+	my @forms= &gen_noun_forms($rt_new,$jAwi,$gen,$level,$format,$conversion_program,$outencoding);
 	print @forms;
 		
         if($format eq "web") {
