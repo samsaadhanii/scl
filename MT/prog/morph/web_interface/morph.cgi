@@ -231,8 +231,9 @@ sub handle_noun{
 sub handle_verb{
        my($format,$rt,$upasarga,$outencoding,$ans) = @_;
        my($link, $rt_XAwu_gaNa, $prayogaH, $paxI, $disp_rt, $disp_rt_outencoding);
-
-     	if($ans =~ /([^:]+):([^:]+xiH)/) {  $XAwu = $1;$gaNa = $2;}
+        chomp($ans);
+     	if($ans =~ /XAwuH:([^:}]+)/) { $XAwu = $1;}
+     	if($ans =~ /gaNaH:([^:}]+)/) { $gaNa = $1;}
         if($ans =~ /{sanAxi:Nic}/) { $prayogaH ="Nijanwa-karwari";} 
       	elsif ($ans =~ /(karwari|karmaNi)/) {$prayogaH = $1;}
       	else { $prayogaH = "karwari";}
