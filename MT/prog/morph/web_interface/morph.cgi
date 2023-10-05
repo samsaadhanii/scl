@@ -245,6 +245,7 @@ sub handle_verb{
            $disp_rt = $upasarga."_".$rt;
         } else {$disp_rt = $rt;}
 	$disp_rt_outencoding = &my_convert($disp_rt,$outencoding);
+	chomp($disp_rt_outencoding);
         if ($format eq "web") { $link = "<a href=\"javascript:generate_verb_forms('WX','$outencoding','$rt_XAwu_gaNa','$prayogaH','$upasarga','$paxI')\">$disp_rt_outencoding</a>";}
          else { $link = "\"APP\":\"verb\",\"encoding\":\"WX\",\"outencoding\":\"$outencoding\",\"rt\":\"$rt_XAwu_gaNa\",\"prayogaH\":\"$prayogaH\",\"upasarga\":\"$upasarga\",\"paxI\":\"$paxI\",\"RT\":\"$disp_rt_outencoding\"";}
   $link;
