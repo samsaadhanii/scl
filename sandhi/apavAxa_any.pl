@@ -40,7 +40,7 @@ $first = $1; $second = $2;
 
 # Following are two special rules where morphological analyser is invoked.
 if ($second =~ /^A/ && `echo "$second" | $GlblVar::LTPROCBIN -c $GlblVar::SCLINSTALLDIR/morph_bin/all_morf.bin | grep 'upasarga:Af'`) { 
-   if($an=~/^(.*)[aA]\+(.*)/) {$ans = "$1$2";$ans1="pararUpa";$ans2="omAfoSca(6.1.95)"; $cont = 0;} # To do: show morph analysis in a tooltip
+   if($an=~/^(.*)[aA]\+(.*)/) {$ans = "$1$2";$ans1="pararUpa";$ans2="omAfoSca(6.1.95)"; $cont = 0;} # To do:show morph analysis in a tooltip
 }
 else {
    if ($first =~ /[IUe]$/) {
@@ -107,7 +107,7 @@ if($an=~/^(BA|aha)H\+karaH$/){$ans = "$1skaraH";$ans1="sakAra";$ans2="kaskAxiRu 
 
 if($an=~/^(nama|pura)H\+([kp].*)/){$ans = "$1s$2";$ans1="sakAra";$ans2="namaspurasorgawyoH (8.3.40)"; $cont = 0;}
 
-if($an=~/^wiraH\+([kp].*)/){$ans = "wiras$1: wiraH $1";$ans1="sakAra: sawwvABAve";$ans2="wirasoZnyawarasyAm (8.3.42)"; $cont = 0;}
+if($an=~/^wiraH\+([kp].*)/){$ans = "wiras$1:wiraH $1";$ans1="sakAra:sawwvABAve";$ans2="wirasoZnyawarasyAm (8.3.42)"; $cont = 0;}
 
 if($an=~/^(ap|av|up)a\+q(.*)/){$ans = "$1Ar$2";$ans1="vqxXi";$ans2="upasargAxqwi XAwoH(6.1.91)"; $cont = 0;}
 
@@ -146,27 +146,27 @@ if($an=~/(.*)([wWxX])\+S([aAiIuUqQLeEoOhyvr])(.*)/){$ans = "$1cC$3$4";$ans1="jaS
 
 if($an=~/(.*)([pPbB])\+S([aAiIuUqQLeEoOhyvr])(.*)/){$ans = "$1pC$3$4";$ans1="jaSwva->carwva->Cawva";$ans2="JalAM jaSoZnwe (8.2.39)->Kari ca (8.4.55)->SaSCoZti (8.4.63)";$cont=1;}
 
-if($an=~/(.*)(n)\+S([aAiIuUqQLeEoOhyvr])(.*)/){$ans = "$1FC$3$4: $1FcC$3$4";$ans1="wugAgama->Scuwva->carwva->Cawva->lopaH: wugAgama->Scuwva->carwva->Cawva->lopABAvaH";$ans2="Si wuk (8.3.31)->swoH ScunA ScuH (8.4.40)->Kari ca (8.4.55)->SaSCoZti (8.4.63)->Jaro Jari savarNe (8.4.65): wugAgama->Scuwva->carwva->Cawva->lopABAvaH";$ans2=$ans2.":"."Si wuk (8.3.31)->swoH ScunA ScuH (8.4.40)->Kari ca (8.4.55)->SaSCoZti (8.4.63)";$cont=1;}
+if($an=~/(.*)(n)\+S([aAiIuUqQLeEoOhyvr])(.*)/){$ans = "$1FC$3$4:$1FcC$3$4";$ans1="wugAgama->Scuwva->carwva->Cawva->lopaH:wugAgama->Scuwva->carwva->Cawva->lopABAvaH";$ans2="Si wuk (8.3.31)->swoH ScunA ScuH (8.4.40)->Kari ca (8.4.55)->SaSCoZti (8.4.63)->Jaro Jari savarNe (8.4.65):wugAgama->Scuwva->carwva->Cawva->lopABAvaH";$ans2=$ans2.":"."Si wuk (8.3.31)->swoH ScunA ScuH (8.4.40)->Kari ca (8.4.55)->SaSCoZti (8.4.63)";$cont=1;}
 
-if($an=~/(.*)([kKgG])\+S([lfmFNn])(.*)/){$ans = "$1kC$3$4 : $1kS$3$4";$ans1="jaSwva->carwva->Cawva: jaSwva->carwva->CawvABAva";$ans2="JalAM jaSoZnwe (8.2.39)->Kari ca (8.4.55)->CawvamamIwi vAcyam (vA 5025): JalAM jaSoZnwe (8.2.39)->Kari ca (8.4.55)";$cont=0;}
+if($an=~/(.*)([kKgG])\+S([lfmFNn])(.*)/){$ans = "$1kC$3$4:$1kS$3$4";$ans1="jaSwva->carwva->Cawva:jaSwva->carwva->CawvABAva";$ans2="JalAM jaSoZnwe (8.2.39)->Kari ca (8.4.55)->CawvamamIwi vAcyam (vA 5025):JalAM jaSoZnwe (8.2.39)->Kari ca (8.4.55)";$cont=0;}
 
-if($an=~/(.*)([cCjJ])\+S([lFmfNn])(.*)/){$ans = "$1cC$3$4: $1cS$3$4";$ans1="jaSwva->carwva->Cawva: jaSwva->carwva->CawvABAva";$ans2="JalAM jaSoZnwe (8.2.39)->Kari ca (8.4.55)->CawvamamIwi vAcyam (vA 5025):JalAM jaSoZnwe (8.2.39)->Kari ca (8.4.55)";$cont=0;}
+if($an=~/(.*)([cCjJ])\+S([lFmfNn])(.*)/){$ans = "$1cC$3$4:$1cS$3$4";$ans1="jaSwva->carwva->Cawva:jaSwva->carwva->CawvABAva";$ans2="JalAM jaSoZnwe (8.2.39)->Kari ca (8.4.55)->CawvamamIwi vAcyam (vA 5025):JalAM jaSoZnwe (8.2.39)->Kari ca (8.4.55)";$cont=0;}
 
 if($an=~/(.*)([tTdD])\+S([lFmfNn])(.*)/){$ans = "$1tC$3$4:$1tS$3$4";$ans1="jaSwva->carwva->Cawva:jaSwva->carwva->CawvABAva";$ans2="JalAM jaSoZnwe (8.2.39)->Kari ca (8.4.55)->CawvamamIwi vAcyam (vA 5025):JalAM jaSoZnwe (8.2.39)->Kari ca (8.4.55)";$cont=0;}
 
-if($an=~/(.*)([wWxX])\+S([lFmfNn])(.*)/){$ans = "$1cC$3$4: $1cS$3$4";$ans1="jaSwva->Scuwva->carwva->Cawva:jaSwva->carwva->CawvABAva";$ans2="JalAM jaSoZnwe (8.2.39)->swoH ScunA ScuH (8.4.40)->Kari ca (8.4.55)->CawvamamIwi vAcyam (vA 5025):JalAM jaSoZnwe (8.2.39)->swoH ScunA ScuH (8.4.40)->Kari ca (8.4.55)";$cont=0;}
+if($an=~/(.*)([wWxX])\+S([lFmfNn])(.*)/){$ans = "$1cC$3$4:$1cS$3$4";$ans1="jaSwva->Scuwva->carwva->Cawva:jaSwva->carwva->CawvABAva";$ans2="JalAM jaSoZnwe (8.2.39)->swoH ScunA ScuH (8.4.40)->Kari ca (8.4.55)->CawvamamIwi vAcyam (vA 5025):JalAM jaSoZnwe (8.2.39)->swoH ScunA ScuH (8.4.40)->Kari ca (8.4.55)";$cont=0;}
 
-if($an=~/(.*)([pPbB])\+S([lfFmnN])(.*)/){$ans = "$1pC$3$4: $1pS$3$4";$ans1="jaSwva->carwva->Cawva: jaSwva->carwva->CawvABAva";$ans2="JalAM jaSoZnwe (8.2.39)->Kari ca (8.4.55)->CawvamamIwi vAcyam (vA 5025): JalAM jaSoZnwe (8.2.39)->Kari ca (8.4.55)";$cont=0;}
+if($an=~/(.*)([pPbB])\+S([lfFmnN])(.*)/){$ans = "$1pC$3$4:$1pS$3$4";$ans1="jaSwva->carwva->Cawva:jaSwva->carwva->CawvABAva";$ans2="JalAM jaSoZnwe (8.2.39)->Kari ca (8.4.55)->CawvamamIwi vAcyam (vA 5025):JalAM jaSoZnwe (8.2.39)->Kari ca (8.4.55)";$cont=0;}
 
 if($an=~/^praSAn\+([cC])([aAiIuUqQLeEoOhyvr])(.*)/){$ans = "praSAF$1$2$3";$ans1="ruwvaniReXa->Scuwva";$ans2="naSCavyapraSAn (8.3.7)-> swoH ScunA ScuH (8.4.40)";$cont=0;}
 if($an=~/^praSAn\+([tT])([aAiIuUqQLeEoOhyvr])(.*)/){$ans = "praSAN$1$2$3";$ans1="ruwvaniReXa->Rtuwva";$ans2="naSCavyapraSAn (8.3.7)-> RtunA RtuH (8.4.41)";$cont=0;}
 if($an=~/^praSAn\+([wW])([aAiIuUqQLeEoOhyvr])(.*)/){$ans = "praSAn$1$2$3";$ans1="ruwvaniReXa";$ans2="naSCavyapraSAn (8.3.7)";$cont=0;}
 
-if($an=~/(.*)n\+([cC])([aAiIuUqQLeEoOhyvr])(.*)/){$ans = "$1zS$2$3$4: $1MS$2$3$4";$ans1="ruwva:ruwva";$ans2="naSCavyapraSAn (8.3.7)-> awrAnunAsikaH pUrvasya wu vA (8.3.2)-> KaravasAnayorvisarjanIyaH (8.3.15)-> visarjanIyasya saH (8.3.34)-> swoH ScunA ScuH (8.4.40): naSCavyapraSAn (8.3.7)-> awrAnunAsikaH pUrvasya wu vA (8.3.2)-> KaravasAnayorvisarjanIyaH (8.3.15)-> visarjanIyasya saH (8.3.34)-> swoH ScunA ScuH (8.4.40)";$cont=0;}
+if($an=~/(.*)n\+([cC])([aAiIuUqQLeEoOhyvr])(.*)/){$ans = "$1zS$2$3$4:$1MS$2$3$4";$ans1="ruwva:ruwva";$ans2="naSCavyapraSAn (8.3.7)-> awrAnunAsikaH pUrvasya wu vA (8.3.2)-> KaravasAnayorvisarjanIyaH (8.3.15)-> visarjanIyasya saH (8.3.34)-> swoH ScunA ScuH (8.4.40):naSCavyapraSAn (8.3.7)-> awrAnunAsikaH pUrvasya wu vA (8.3.2)-> KaravasAnayorvisarjanIyaH (8.3.15)-> visarjanIyasya saH (8.3.34)-> swoH ScunA ScuH (8.4.40)";$cont=0;}
 
-if($an=~/(.*)n\+([tT])([aAiIuUqQLeEoOhyvr])(.*)/){$ans = "$1zR$2$3$4: $1MR$2$3$4";$ans1="ruwva:ruwva";$ans2="naSCavyapraSAn (8.3.7)->awrAnunAsikaH pUrvasya wu vA (8.3.2)->KaravasAnayorvisarjanIyaH (8.3.15)->visarjanIyasya saH (8.3.34)->RtunA RtuH (8.4.41): naSCavyapraSAn (8.3.7)->anunAsikAw paroZnusvAraH (8.3.4)->KaravasAnayorvisarjanIyaH (8.3.15)->visarjanIyasya saH (8.3.34)->RtunA RtuH (8.4.41)";$cont=0;}
+if($an=~/(.*)n\+([tT])([aAiIuUqQLeEoOhyvr])(.*)/){$ans = "$1zR$2$3$4:$1MR$2$3$4";$ans1="ruwva:ruwva";$ans2="naSCavyapraSAn (8.3.7)->awrAnunAsikaH pUrvasya wu vA (8.3.2)->KaravasAnayorvisarjanIyaH (8.3.15)->visarjanIyasya saH (8.3.34)->RtunA RtuH (8.4.41):naSCavyapraSAn (8.3.7)->anunAsikAw paroZnusvAraH (8.3.4)->KaravasAnayorvisarjanIyaH (8.3.15)->visarjanIyasya saH (8.3.34)->RtunA RtuH (8.4.41)";$cont=0;}
 
-if($an=~/(.*)n\+([wW])([aAiIuUqQLeEoOhyvr])(.*)/){$ans = "$1zs$2$3$4: $1Ms$2$3$4";$ans1="ruwva:ruwva";$ans2="naSCavyapraSAn (8.3.7)->awrAnunAsikaH pUrvasya wu vA (8.3.2)->KaravasAnayorvisarjanIyaH (8.3.15)->visarjanIyasya saH (8.3.34) : naSCavyapraSAn (8.3.7)->anunAsikAw paroZnusvAraH (8.3.4)->KaravasAnayorvisarjanIyaH (8.3.15)->visarjanIyasya saH (8.3.34)";$cont=0;}
+if($an=~/(.*)n\+([wW])([aAiIuUqQLeEoOhyvr])(.*)/){$ans = "$1zs$2$3$4:$1Ms$2$3$4";$ans1="ruwva:ruwva";$ans2="naSCavyapraSAn (8.3.7)->awrAnunAsikaH pUrvasya wu vA (8.3.2)->KaravasAnayorvisarjanIyaH (8.3.15)->visarjanIyasya saH (8.3.34) :naSCavyapraSAn (8.3.7)->anunAsikAw paroZnusvAraH (8.3.4)->KaravasAnayorvisarjanIyaH (8.3.15)->visarjanIyasya saH (8.3.34)";$cont=0;}
 
 if($an=~/^nQn\+p(.*)/){
    $ans = "nQz><p$1:nQM><p$1:nQzHp$1:nQMHp$1:nQnp$1";
@@ -182,32 +182,32 @@ if($an=~/^kAn\+kAn$/){
    $cont=0;
 }
 
-if($an=~/pum\+([kKcCtTwWpP])([aAiIuUqQLeEoOhyvr])(.*)/){$ans = "puMs$1$2$3: puzs$1$2$3";$ans1="ruwva:ruwva";$ans2="pumaH Kayyampare (8.3.6)->anunAsikAw paroZnusvAraH (8.3.4)->KaravasAnayorvisarjanIyaH (8.3.15)->saMpuMkAnAM so vakwavyaH (vA 4892): pumaH Kayyampare (8.3.6)->awrAnunAsikaH pUrvasya wu vA (8.3.2)->KaravasAnayorvisarjanIyaH (8.3.15)->saMpuMkAnAM so vakwavyaH (vA 4892)";$cont=0;}
+if($an=~/pum\+([kKcCtTwWpP])([aAiIuUqQLeEoOhyvr])(.*)/){$ans = "puMs$1$2$3:puzs$1$2$3";$ans1="ruwva:ruwva";$ans2="pumaH Kayyampare (8.3.6)->anunAsikAw paroZnusvAraH (8.3.4)->KaravasAnayorvisarjanIyaH (8.3.15)->saMpuMkAnAM so vakwavyaH (vA 4892):pumaH Kayyampare (8.3.6)->awrAnunAsikaH pUrvasya wu vA (8.3.2)->KaravasAnayorvisarjanIyaH (8.3.15)->saMpuMkAnAM so vakwavyaH (vA 4892)";$cont=0;}
 
 if($an=~/(.*)H\+([KPCTWctwkpSRs])([SRs])(.*)/){ $ans="$1H $2$3$4";$ans1="visarga";$ans2="Sarpare visarjanIyaH (8.3.35)";$cont=0;}
 
-if($an=~/(.*)H\+([SRs])([KPCTWctwkpSRs])(.*)/){ $ans="$1 $2$3$4: $1H $2$3$4: $1$2$2$3$4";$ans1="visargalopaH:visargalopABAve:sawva";$ans2="Karpare Sari vA visargalopo vakwavyaH (vA 4906): Karpare Sari vA visargalopo vakwavyaH (vA 4906): visarjanIyasya saH (8.3.34)";$cont=0;}
+if($an=~/(.*)H\+([SRs])([KPCTWctwkpSRs])(.*)/){ $ans="$1 $2$3$4:$1H $2$3$4:$1$2$2$3$4";$ans1="visargalopaH:visargalopABAve:sawva";$ans2="Karpare Sari vA visargalopo vakwavyaH (vA 4906):Karpare Sari vA visargalopo vakwavyaH (vA 4906):visarjanIyasya saH (8.3.34)";$cont=0;}
 
 if($an=~/^sam\+rAt/){ $ans="samrAt";$ans1="mawva";$ans2="mo rAji samaH kvO (8.2.35)";$cont=0;}
 
 if($an=~/(.*)m\+hm(.*)/){ 
-   $ans ="$1n hm$2: $1M hm$2";
-   $ans1="mawva: anusvAraH";
-   $ans2="he mapare vA (8.3.26): moZnusvAraH (8.3.23)";
+   $ans ="$1n hm$2:$1M hm$2";
+   $ans1="mawva:anusvAraH";
+   $ans2="he mapare vA (8.3.26):moZnusvAraH (8.3.23)";
    $cont=0;
 }
 
 if($an=~/(.*)m\+h([yvl])(.*)/){ 
-   $ans="$1$2z h$2$3: $1M h$2$3";
-   $ans1="anunAsika: anusvAraH";
-   $ans2="yavalapare yavalA vewi vakwavyam (vA 4902): moZnusvAraH (8.3.23)";
+   $ans="$1$2z h$2$3:$1M h$2$3";
+   $ans1="anunAsika:anusvAraH";
+   $ans2="yavalapare yavalA vewi vakwavyam (vA 4902):moZnusvAraH (8.3.23)";
    $cont=0;
 }
 
 if($an=~/(.*)m\+hn(.*)/){ 
-   $ans ="$1n hn$2: $1M hn$2";
-   $ans1="nawva: anusvAraH";
-   $ans2="na pare naH (8.3.27): moZnusvAraH (8.3.23)";
+   $ans ="$1n hn$2:$1M hn$2";
+   $ans1="nawva:anusvAraH";
+   $ans2="na pare naH (8.3.27):moZnusvAraH (8.3.23)";
    $cont=0;
 }
 
@@ -223,27 +223,27 @@ if($an =~ /(.*)[aA]\+Uha(.*)/){$ans="$1Oha$2";$ans1="vqxXi";$ans2="ewyeXawyUTsu 
 if($an=~/^ahan\+(rUpa|rAwr|raWanwara)(.*)/){$ans="aho $1$2";$ans1="ruwva-> uwva-> guNa";$ans2="roZsupi (8.2.69)(prApwe) -> rUparAwri raWanwareRuruwvam vAcyam (vA 4847)-> haSi ca (6.1.114)-> Ax guNaH (6.1.87)";$cont=0;}
 
 if($an=~/^ahan\+(pawi|puwra)(.*)/){
-   $ans="ahar$1$2: ahaH $1$2: aha><$1$2";
-   $ans1="rePa: visarga:upaXmAnIya";
-   $ans2="roZsupi (8.2.69)-> KaravasAnayorvisarjanIyaH (8.3.15) (prApwe)-> aharAxInAm pawyAxiRu vA rePaH (vA 4851): roZsupi (8.2.69) -> KaravasAnayorvisarjanIyaH (8.3.15)-> kupvo><ka><pO ca (8.3.37): roZsupi (8.2.69) -> KaravasAnayorvisarjanIyaH (8.3.15)-> kupvo><ka><pO ca (8.3.37)";
+   $ans="ahar$1$2:ahaH $1$2:aha><$1$2";
+   $ans1="rePa:visarga:upaXmAnIya";
+   $ans2="roZsupi (8.2.69)-> KaravasAnayorvisarjanIyaH (8.3.15) (prApwe)-> aharAxInAm pawyAxiRu vA rePaH (vA 4851):roZsupi (8.2.69) -> KaravasAnayorvisarjanIyaH (8.3.15)-> kupvo><ka><pO ca (8.3.37):roZsupi (8.2.69) -> KaravasAnayorvisarjanIyaH (8.3.15)-> kupvo><ka><pO ca (8.3.37)";
    $cont=0;
 }
 
 if($an=~/^ahan\+gaNa(.*)/){$ans="ahargaNa$1";$ans1="rePa";$ans2="roZsupi (8.2.69)";$cont=0;}
 
 if($an=~/^gIr\+(pawi|puwra)(.*)/){
-   $ans="gIr$1$2: gI><$1$2: gIH $1$2";
-   $ans1="rePa: upaXmAnIya: visarga";
-   $ans2="KaravasAnayorvisarjanIyaH (8.3.15)(prApwe) -> aharAxInAm pawyAxiRu vA rePaH (vA 4851): KaravasAnayorvisarjanIyaH (8.3.15)-> kupvo><ka><pO ca (8.3.37): KaravasAnayorvisarjanIyaH (8.3.15)-> kupvo><ka><pO ca (8.3.37)";
+   $ans="gIr$1$2:gI><$1$2:gIH $1$2";
+   $ans1="rePa:upaXmAnIya:visarga";
+   $ans2="KaravasAnayorvisarjanIyaH (8.3.15)(prApwe) -> aharAxInAm pawyAxiRu vA rePaH (vA 4851):KaravasAnayorvisarjanIyaH (8.3.15)-> kupvo><ka><pO ca (8.3.37):KaravasAnayorvisarjanIyaH (8.3.15)-> kupvo><ka><pO ca (8.3.37)";
    $cont=0;
 }
 
 if($an=~/^gIr\+gaNa(.*)/){$ans="gIrgaNa$1";$ans1="rePa";$ans2="roZsupi (8.2.69)";$cont=0;}
 
 if($an=~/^XUr\+(pawi|puwra)(.*)/){
-   $ans="XUr$1$2: XU><$1$: XUH $1$2";
-   $ans1="rePa: upaXmAnIya: visarga";
-   $ans2="KaravasAnayorvisarjanIyaH (8.3.15)(prApwe)-> aharAxInAm pawyAxiRu vA rePaH (vA 4851): KaravasAnayorvisarjanIyaH (8.3.15)-> kupvo><ka><pO ca (8.3.37): KaravasAnayorvisarjanIyaH (8.3.15)-> kupvo><ka><pO ca (8.3.37)";
+   $ans="XUr$1$2:XU><$1$:XUH $1$2";
+   $ans1="rePa:upaXmAnIya:visarga";
+   $ans2="KaravasAnayorvisarjanIyaH (8.3.15)(prApwe)-> aharAxInAm pawyAxiRu vA rePaH (vA 4851):KaravasAnayorvisarjanIyaH (8.3.15)-> kupvo><ka><pO ca (8.3.37):KaravasAnayorvisarjanIyaH (8.3.15)-> kupvo><ka><pO ca (8.3.37)";
    $cont=0;
 }
 
@@ -260,9 +260,9 @@ elsif($an=~/(.*)aH\+([gGfjJFdDNxXnbBmyrlvh])(.*)/){$ans ="$1o $2$3"; $ans1 ="ruw
 elsif($an=~/^BoH\+([kKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRsh])(.*)/){ $ans="Bos$1$2";$ans1="";$ans2="sasajuRo ruH (8.2.66)-> KaravasAnayorvisarjanIyaH (8.3.15)-> visarjanIyasya saH (8.3.34)";$cont=0;}
 elsif($an=~/^(Bago|aGo)H\+([kKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRsh])(.*)/){ $ans="$1 $2$3";$ans1="yawvalopaH";$ans2="sasajuRo ruH (8.2.66)->BoBagoaGo apUrvasyayoZSi (8.3.17)->hali sarveRAm (8.3.22)";$cont=0;}
 elsif($an=~/^(Bo|Bago|aGo)H\+([aAiIuUqQLeEoO])(.*)/){ 
-      $ans="$1y$2$3: $1 $2$3";
+      $ans="$1y$2$3:$1 $2$3";
       $ans1="sawva->yawva->laGuprayawnAxeSaH sawva->yawva->laGuprayawnABAve yawvalop";
-      $ans2="sasajuRo ruH (8.2.66)->BoBagoaGo apUrvasyayoZSi (8.3.17)->vyorlaGuprayawnawaraH SAkatAyanasya (8.3.18): sasajuRo ruH (8.2.66)->BoBagoaGo apUrvasyayoZSi (8.3.17)->owo gArgyasya (8.3.20)";
+      $ans2="sasajuRo ruH (8.2.66)->BoBagoaGo apUrvasyayoZSi (8.3.17)->vyorlaGuprayawnawaraH SAkatAyanasya (8.3.18):sasajuRo ruH (8.2.66)->BoBagoaGo apUrvasyayoZSi (8.3.17)->owo gArgyasya (8.3.20)";
       $cont=0;
 }
 elsif($an=~/(.*)([aAiIuUqQLeEoO])H\+([wW])([^sSR].*)/){$ans = "$1$2s$3$4";$ans1 = "sawva";$ans2 = "visarjanIyasya saH (8.3.34)";$cont=0;}
@@ -276,23 +276,23 @@ if($an=~/^([aiuqLeEoO])\+([aAiIuUqQLeEoO])(.*)/){$ans = "$1 $2$3";$ans1 ="pragqh
 
 
 if($an=~/^uF\+iwi/){
-   $ans = "u iwi: Uz iwi: viwi";
-   $ans1 = "vikalpena pragqhyawva-> prakqwiBAva: vikalpena Uz AxeSa->pragqhyawva->prakqwiBAva : vikalpABAve yaN";
-   $ans2="uFaH (1.1.17)-> pluwapragqhyA aci niwyam (6.1.125): Uz (1.1.18)-> pluwapragqhyA aci niwyam (6.1.125): iko yaNaci (6.1.77)";
+   $ans = "u iwi:Uz iwi:viwi";
+   $ans1 = "vikalpena pragqhyawva-> prakqwiBAva:vikalpena Uz AxeSa->pragqhyawva->prakqwiBAva :vikalpABAve yaN";
+   $ans2="uFaH (1.1.17)-> pluwapragqhyA aci niwyam (6.1.125):Uz (1.1.18)-> pluwapragqhyA aci niwyam (6.1.125):iko yaNaci (6.1.77)";
    $cont=0;
 }
 
 if($an=~/^(kR|j)i\+ya(.*)/){
-   $ans = "$1ayya$2: $1eya$2";
-   $ans1 = "SakyArWe ayAxeSa nipAwana: SakyArWABAve guNa";
-   $ans2 = "kRayyajayyO SakyArWe (6.1.81): sArvaXAwukArXaXAwukayoH (7.3.84";
+   $ans = "$1ayya$2:$1eya$2";
+   $ans1 = "SakyArWe ayAxeSa nipAwana:SakyArWABAve guNa";
+   $ans2 = "kRayyajayyO SakyArWe (6.1.81):sArvaXAwukArXaXAwukayoH (7.3.84";
    $cont=0;
 }
 
 if($an=~/^krI\+ya(.*)/){
    $ans = "krayya$1:kreya$1";
    $ans1 = "krayaNArhe ayAxeSa nipAwanam:krayaNArhABAve guNa";
-   $ans2 = "krayyaswaxarWe (6.1.82): sArvaXAwukArXaXAwukayoH (7.3.84)";
+   $ans2 = "krayyaswaxarWe (6.1.82):sArvaXAwukArXaXAwukayoH (7.3.84)";
    $cont=0;
 }
 
@@ -304,8 +304,8 @@ if($an=~/^(aXa|Sira)H\+paxa(.*)/){
 }
 
 if($an=~/(.*[iu])H\+([kKpP])(.*)/){
-   $ans = "$1iR$2$3: $1i><$2$3: $1iH $2$3"; 
-   $ans1 = "sAmarWye Rawvam: RawvABAve jihvAmUlIya: RawvABAve visarga";
+   $ans = "$1iR$2$3:$1i><$2$3:$1iH $2$3"; 
+   $ans1 = "sAmarWye Rawvam:RawvABAve jihvAmUlIya:RawvABAve visarga";
    $ans2 = "isusoH sAmarWye (8.3.44):kupvo><ka ><pO ca (8.3.37):kupvo><ka ><pO ca (8.3.37)"; 
    $cont=0;
 }
