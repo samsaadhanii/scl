@@ -55,4 +55,5 @@ P	{printf("ph");}
 B	{printf("bh");}
 S	{printf("z");}
 R	{printf(".s");}
+z	{printf("\"m");}
 %%
