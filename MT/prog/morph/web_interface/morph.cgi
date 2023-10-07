@@ -159,8 +159,9 @@ my $format;
            chomp($ans_outencoding);
 
 	   if($format eq "web") { 
-              $ans_outencoding =~ s/{[^:]+://g;
-              $ans_outencoding =~ s/}/ /g;
+	      $ans_outencoding =~ s/{/ {/; # add a space after the rt and before the first feature
+              $ans_outencoding =~ s/{[^:]+://g; # Remove the feature name
+              $ans_outencoding =~ s/}/ /g; # Add a space at the end of the last feature
            }
            if($format eq "web") { print "<td bgcolor='$color'>",$link,$ans_outencoding,"</td>";}
            else { 
@@ -191,6 +192,7 @@ sub handle_kqw{
    my($format,$rt,$upasarga,$ans) = @_;
    my($link, $rt_XAwu_gaNa, $disp_rt,$disp_rt_outencoding);
 
+   chomp($ans);
    if($ans =~ /{XAwuH:([^}]+)/) { $XAwu = $1;}
    if($ans =~ /{gaNaH:([^}]+)/) { $gaNa = $1;}
 
@@ -232,8 +234,8 @@ sub handle_verb{
        my($format,$rt,$upasarga,$outencoding,$ans) = @_;
        my($link, $rt_XAwu_gaNa, $prayogaH, $paxI, $disp_rt, $disp_rt_outencoding);
         chomp($ans);
-     	if($ans =~ /XAwuH:([^:}]+)/) { $XAwu = $1;}
-     	if($ans =~ /gaNaH:([^:}]+)/) { $gaNa = $1;}
+     	if($ans =~ /XAwuH:([^}]+)/) { $XAwu = $1;}
+     	if($ans =~ /gaNaH:([^}]+)/) { $gaNa = $1;}
         if($ans =~ /{sanAxi:Nic}/) { $prayogaH ="Nijanwa-karwari";} 
       	elsif ($ans =~ /(karwari|karmaNi)/) {$prayogaH = $1;}
       	else { $prayogaH = "karwari";}
