@@ -101,6 +101,7 @@ if($GlblVar::LOG eq "true"){
 	print "<td><center><font color='blue'>$san[1]</font></center></td>";
         print "<td><center><font color='blue'>$san2[$i]</font></center></td>";
 	print "<td><center><font color='blue'>$san3[$i]</font></center></td>"; 
+	$san4[$i] =~ s/(([1-8])\.([1-4])\.([0-9]+))/<a href="https:\/\/ashtadhyayi.com\/sutraani\/$2\/$3\/$4">$1<\/a>/g;
 	print"<td><center><font color='blue'>$san4[$i]</font><center></td></tr>";
       }
  print  "</table>\n</center>\n";

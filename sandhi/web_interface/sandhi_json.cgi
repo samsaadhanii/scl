@@ -105,6 +105,10 @@ sub call_sandhi {
        $results .= '"@'.'saMhiwapaxam":"'.$forms[$x].'",';
        $results .= '"@'.'sanXiH":"'.$pra_steps[$x].'",';
        $results .= '"@'.'sUwram":"'.$sutras[$x].'"},';
+       #$sutras[$x] =~ s/.*\(//;
+       #$sutras[$x] =~ s/\)//;
+       #$sutras[$x] =~ s/\./\//g;
+       #$results .= '"@'.'sUwra_@'.'link":"@'.'https://@'.'ashtadhyayi.@'.'com/@'.'sutraani/'.$sutras[$x].'"},';
      }
     }
     
