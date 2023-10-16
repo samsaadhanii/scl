@@ -47,7 +47,7 @@ sub call_dict{
 	my($dict,$word) = @_;
 
         print "{\"Word\":\"$word\",\n";
-        if($dict eq "apte") {
+        if($dict eq "amara") {
            print "\"DICT\":\"Amarakosha\",\n";
            $result = &get_dict_entry("amara",$word,"DEV");
 	   chomp($result);
