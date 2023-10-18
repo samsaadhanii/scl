@@ -62,6 +62,7 @@ sub call_dict{
            #$result =~ s/\// /g;
            $result =~ s/\n/ /g;
            $result =~ s/"/'/g;
+	   $result =~ s/<[^>]+>//g;
            print "\"Meaning\":\"$result\"},\n";
         }
         if($dict eq "mw") {
@@ -83,6 +84,7 @@ sub call_dict{
            $result =~ s/<i>//g;
            $result =~ s/^[ \t]+//g;
 
+	   $result =~ s/<[^>]+>//g;
            print "\"Meaning\":\"$result\"},\n";
         }
         if($dict eq "heritage") {
@@ -93,6 +95,7 @@ sub call_dict{
            $result =~ s/<p><\/p>/ /g;
            $result =~ s/<br>/ /g;
            $result =~ s/"/'/g;
+	   $result =~ s/<[^>]+>//g;
            print "\"Meaning\":\"$result\"},\n";
         }
 	if($dict eq "ccs") {
@@ -103,6 +106,7 @@ sub call_dict{
            $result =~ s/<p><\/p>/ /g;
            $result =~ s/<br>/ /g;
            $result =~ s/"/'/g;
+	   $result =~ s/<[^>]+>//g;
            print "\"Meaning\":\"$result\"}\n";
         }
 }
