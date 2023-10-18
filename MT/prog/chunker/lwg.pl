@@ -50,7 +50,7 @@ License: GPL
 
 $/ = "\n\n";
 
-$last[0] = "NULL";
+$last[0] = ""; # It was marked as NULL, which should not be. Look at the condition in AAA below.
 $morph_kaaraka_anal = 10; #counting starts from 0
 while($in = <STDIN>){
 
@@ -60,7 +60,7 @@ while($in = <STDIN>){
     while($i < $#in) {
        chomp($in[$i]);
        @f = split(/\t/,$in[$i]);
-       if ($last[$i] eq "") {	  # This is to ensure that the last[$i+1] defined below does not get overwritten.
+       if ($last[$i] eq "") {	  # This is to ensure that the last[$i+1] defined below does not get overwritten. AAA
 	  print $last[$i],"\n";
           $last[$i] = $f[$morph_kaaraka_anal];
        }
