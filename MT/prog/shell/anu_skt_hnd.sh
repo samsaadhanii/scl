@@ -94,7 +94,7 @@ anaphora () {
 wsd () {
 # wsd in the 11th field
     $ANU_MT_PATH/wsd/wsd_rules.sh $SCLINSTALLDIR $temp_files_path $fbn.out $fbn.wsd $fbn.wsd_upapaxa
-    cp $temp_files_path/$fbn.out $temp_files_path/jjj
+    #cp $temp_files_path/$fbn.out $temp_files_path/jjj
 }
 
 ###########
@@ -114,8 +114,8 @@ hnd_gen () {
     $ANU_MT_PATH/hn/sent_gen/agreement.pl $ANU_MT_PATH/../data $ANU_MT_PATH/hn/sent_gen |\
     $ANU_MT_PATH/hn/sent_gen/call_gen.pl $SCLINSTALLDIR   |\
     $ANU_MT_PATH/interface/modify_mo_for_display.pl $SCLINSTALLDIR  > $temp_files_path/ttt
-    cp $temp_files_path/ttt $temp_files_path/$fbn.out
-    #mv $temp_files_path/ttt $temp_files_path/$fbn.out
+    #cp $temp_files_path/ttt $temp_files_path/$fbn.out
+    mv $temp_files_path/ttt $temp_files_path/$fbn.out
 }
 
 ##########
@@ -127,17 +127,17 @@ hnd_gen () {
  generate_anvaya () {
    $ANU_MT_PATH/reader_generator/extract.pl < $temp_files_path/$fbn.out > $temp_files_path/table.tsv
    
-   ##   
+   #   
    #if [ $TEXT_TYPE = "Sloka" ]; then
-   ## Temporary commented. Sanal has to fix the programme.
-   #$MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py -i $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv
-   ##
+   # Temporary commented. Sanal has to fix the programme.
+   $MYPYTHONPATH $ANU_MT_PATH/anvaya/reorder.py -i $temp_files_path/table.tsv -o $temp_files_path/anvaya.tsv
+   #
    #else 
-   cut -f1 $temp_files_path/table.tsv > $temp_files_path/1
-   cut -f2 $temp_files_path/table.tsv > $temp_files_path/2
-   cut -f4- $temp_files_path/table.tsv > $temp_files_path/3
-   paste $temp_files_path/1 $temp_files_path/2 $temp_files_path/1 $temp_files_path/3 > $temp_files_path/anvaya.tsv
-   rm $temp_files_path/1 $temp_files_path/2 $temp_files_path/3
+   #cut -f1 $temp_files_path/table.tsv > $temp_files_path/1
+   #cut -f2 $temp_files_path/table.tsv > $temp_files_path/2
+   #cut -f4- $temp_files_path/table.tsv > $temp_files_path/3
+   #paste $temp_files_path/1 $temp_files_path/2 $temp_files_path/1 $temp_files_path/3 > $temp_files_path/anvaya.tsv
+   #rm $temp_files_path/1 $temp_files_path/2 $temp_files_path/3
    #fi
    #
  
