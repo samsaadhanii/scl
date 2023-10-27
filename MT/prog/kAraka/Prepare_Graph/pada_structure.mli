@@ -11,7 +11,7 @@ type sup = ( int * int * int * string * string * string * string *string * int  
   ; vacanam : string
   ; level : int
   } *)
-and wif = ( int * int * int * string * string * string * string * string *string * string * string * string * string * string * string * string * int )
+and wif = ( int * int * int * string * string * string * string * string *string * string * string * string * string * string * string * int )
 (*{ id : int  
   ; cid : int   
   ; mid : int   
@@ -26,7 +26,7 @@ and wif = ( int * int * int * string * string * string * string * string *string
   ; puruRaH : string   
   ; vacanam : string   
   ; paxI : string   
-  ; dhatu : string  (* XAwuH *)
+ (* ; dhatu : string  (* XAwuH *) *)
   ; gaNaH : string   
   ; level : int
   }*)

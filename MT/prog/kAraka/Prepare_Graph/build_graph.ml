@@ -170,11 +170,11 @@ EXTEND Gram
         "(puruRaH"; per = IDENT; ")"; 
         "(vacanam"; vac = IDENT; ")"; 
         "(paxI"; padi = IDENT; ")"; 
-        "(XAwuH"; rtwithiw = IDENT; ")"; 
+         (*"(XAwuH"; rtwithiw = IDENT; ")"; *)
         "(gaNaH"; gana = IDENT; ")"; 
         "(level"; lev = INT; ")";
     ")" -> 
-    (int_of_string i, int_of_string c,int_of_string m,w,r,cp,cu,upa,san,voice,la,per,vac,padi,rtwithiw,gana,int_of_string lev)
+    (int_of_string i, int_of_string c,int_of_string m,w,r,cp,cu,upa,san,voice,la,per,vac,padi,gana,int_of_string lev)
     ] ] ;
 
   kqw:
@@ -319,14 +319,14 @@ value analyse strm = let morphs =
 ;
 
 value distinct_2 m1 m2 = match m1 with
-  [ Wif (id1,_,_,_,_,pUrvapaxa1,_,_,_,_,_,_,_,_,_,_,_)
+  [ Wif (id1,_,_,_,_,pUrvapaxa1,_,_,_,_,_,_,_,_,_,_)
   | Kqw (id1,_,_,_,_,_,_,_,_,_,_,_,pUrvapaxa1,_,_,_,_,_)
   | Avykqw (id1,_,_,_,_,pUrvapaxa1,_,_,_,_,_,_,_)
   | AvywaxXiwa (id1,_,_,_,_,pUrvapaxa1,_,_,_)
   | Sup (id1,_,_,_,_,pUrvapaxa1,_,_,_,_,_)
   | Avy (id1,_,_,_,_,pUrvapaxa1,_,_)
   | WaxXiwa (id1,_,_,_,_,pUrvapaxa1,_,_,_,_,_,_) -> match m2 with
-  	[ Wif (id2,_,_,_,_,pUrvapaxa2,_,_,_,_,_,_,_,_,_,_,_)
+  	[ Wif (id2,_,_,_,_,pUrvapaxa2,_,_,_,_,_,_,_,_,_,_)
   	| Kqw (id2,_,_,_,_,pUrvapaxa2,_,_,_,_,_,_,_,_,_,_,_,_)
  	| Avykqw (id2,_,_,_,_,pUrvapaxa2,_,_,_,_,_,_,_)
  	| AvywaxXiwa (id2,_,_,_,_,pUrvapaxa2,_,_,_)
@@ -346,14 +346,14 @@ value distinct_3 m1 m2 m3 =   distinct_2 m1 m2
 ;
 
 value compound_pUrvapaxa_uwwarapaxa m1 m2 = match m1 with
-  [ Wif (id1,cid1,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+  [ Wif (id1,cid1,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
   | Kqw (id1,cid1,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
   | Avykqw (id1,cid1,_,_,_,_,_,_,_,_,_,_,_)
   | AvywaxXiwa (id1,cid1,_,_,_,_,_,_,_)
   | Sup (id1,cid1,_,_,_,_,_,_,_,_,_)
   | Avy (id1,cid1,_,_,_,_,_,_)
   | WaxXiwa (id1,cid1,_,_,_,_,_,_,_,_,_,_) -> match m2 with
-  	[ Wif (id2,cid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+  	[ Wif (id2,cid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
   	| Kqw (id2,cid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
  	| Avykqw (id2,cid2,_,_,_,_,_,_,_,_,_,_,_)
  	| AvywaxXiwa (id2,cid2,_,_,_,_,_,_,_)
@@ -898,7 +898,7 @@ IVg	D.2      	3           3          		2 1       (prayojya karwA is anaBihiwa; h
 
 *) 
 value wifkarwA_karma m1 m2 text_type = match m2 with
-  [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,sanAxiH2,prayogaH2,_,puruRaH2,vacanam2,_,_,_,_) ->
+  [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,sanAxiH2,prayogaH2,_,puruRaH2,vacanam2,_,_,_) ->
      match m1 with
      [ WaxXiwa (id1,cid1,mid1,word1,rt1,pUrvapaxa1,uwwarapaxa1,_,lifgam1,viBakwiH1,vacanam1,_)
      | Kqw (id1,cid1,mid1,word1,_,_,_,_,_,_,_,rt1,pUrvapaxa1,uwwarapaxa1,lifgam1,viBakwiH1,vacanam1,_)
@@ -1093,7 +1093,7 @@ value wifkarwA_karma m1 m2 text_type = match m2 with
   ;
 
 value rlwifkarwA_karma m1 m2 text_type = match m2 with
-  [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,sanAxiH2,prayogaH2,_,puruRaH2,vacanam2,_,_,_,_) ->
+  [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,sanAxiH2,prayogaH2,_,puruRaH2,vacanam2,_,_,_) ->
      match m1 with
      [ WaxXiwa (id1,cid1,mid1,word1,rt1,pUrvapaxa1,uwwarapaxa1,_,lifgam1,viBakwiH1,vacanam1,_)
      | Sup (id1,cid1,mid1,word1,rt1,pUrvapaxa1,uwwarapaxa1,lifgam1,viBakwiH1,vacanam1,_) -> 
@@ -1140,7 +1140,7 @@ Ref: Kale's Higher Sanskrit grammar; 789
 value rl_ca_wif_aBihiwa_karwA_karma m1 m2 m3 text_type = match m2 with
  [ Avy (id2,cid2,mid2,word2,_,_,_,_) -> 
    if word2="ca" then match m3 with
-   [ Wif (id3,cid3,mid3,_,rt3,_,_,upasarga3,sanAxiH3,prayogaH3,_,puruRaH3,vacanam3,_,_,_,_) ->
+   [ Wif (id3,cid3,mid3,_,rt3,_,_,upasarga3,sanAxiH3,prayogaH3,_,puruRaH3,vacanam3,_,_,_) ->
      match m1 with
      [ WaxXiwa (id1,cid1,mid1,word1,rt1,pUrvapaxa1,uwwarapaxa1,_,_,viBakwiH1,_,_)
      | Kqw (id1,cid1,mid1,word1,_,_,_,_,_,_,_,rt1,pUrvapaxa1,uwwarapaxa1,_,viBakwiH1,_,_)
@@ -1678,7 +1678,7 @@ e.g. saH prAwaH BramaNAya gacCawi -- Amruta   14 July 2020
                       else []
                ]
        | 8 ->  match m2 with
-           [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,sanAxiH2,_,lakAraH2,puruRaH2,_,_,_,_,_) -> 
+           [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,sanAxiH2,_,lakAraH2,puruRaH2,_,_,_,_) -> 
            if (rt1="brahma" || rt1 = "miwra" || not (lifgam1 = "napuM")) 
             && ((id1 <= 2 && text_type = "Prose") || text_type = "Sloka")
             && kqw1=0 (* the word should not be a kqxanwa to be in samboXana ; this was over-generating in the case of upasafgamya abravIw; upasafgamya being marked as a samboXya *)
@@ -1716,7 +1716,7 @@ if (not (lifgam1="napuM") && kqw_prawyayaH2="kwa" || kqw_prawyayaH2="kwavawu" ||
 ;
 
 value rlanaBihiwe m1 m2 text_type = match m2 with
-  [ Wif (id2,cid2,mid2,_,rt2,pUrvapaxa2,uwwarapaxa2,upasarga2,_,_,_,_,_,_,_,_,_) ->
+  [ Wif (id2,cid2,mid2,_,rt2,pUrvapaxa2,uwwarapaxa2,upasarga2,_,_,_,_,_,_,_,_) ->
      match m1 with
      [ Sup (id1,cid1,mid1,word1,rt1,pUrvapaxa1,uwwarapaxa1,lifgam1,viBakwiH1,_,_) ->
        if prose_order id1 id2 text_type
@@ -1846,7 +1846,7 @@ value rlAvykqw_karma m1 m2 text_type = match m2 with
 
 (* Examples: grAmawaH ganwum icCanwam rAmam SyAmaH kaWAm kaWayawi *)
 value rlapAxAna_wasil m1 m2 text_type = match m2 with
-  [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_,_,_,_,_)
+  [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_,_,_,_)
   | Kqw (id2,cid2,mid2,_,rt2,upasarga2,_,_,_,_,_,_,_,_,_,_,_,_) 
   | Avykqw (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_) ->
      match m1 with
@@ -1877,7 +1877,7 @@ value rlapAxAna_wasil m1 m2 text_type = match m2 with
 (* aSvaH vegena XAvawi.*)
 (* ;rAmaH brAhmaNavaw aXIwe *)
 value rlAvy_kriyAviSeRaNam_or_aXikaraNam m1 m2 text_type = match m2 with
-  [ Wif (id2,cid2,mid2,word2,_,pUrvapaxa2,uwwarapaxa2,_,_,_,_,_,_,_,_,_,_) 
+  [ Wif (id2,cid2,mid2,word2,_,pUrvapaxa2,uwwarapaxa2,_,_,_,_,_,_,_,_,_) 
   | Avykqw (id2,cid2,mid2,word2,_,pUrvapaxa2,uwwarapaxa2,_,_,_,_,_,_) -> 
      if  pUrvapaxa2="y" || uwwarapaxa2="y" then []
      else match m1 with
@@ -1934,7 +1934,7 @@ value rlAvy_kriyAviSeRaNam_or_aXikaraNam m1 m2 text_type = match m2 with
   ;
 
 value rlkriyAviSeRaNam_wqwIyA m1 m2 text_type = match m2 with
-  [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_) 
+  [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_) 
   | Kqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)  
   | Avykqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_) -> 
      match m1 with
@@ -1970,7 +1970,7 @@ value spl_aXikaraNa id1 id2 cid1 cid2 mid1 mid2 word1 text_type wif_kqw rl1 rl2 
 
 (* This is needed here, since waxA should not be marked as an aXikaraNa, if it occurs single with kwvA, lyap etc. *)
 value rl_spl_aXikaraNam m1 m2 text_type = match m2 with
-  [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_) ->
+  [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_) ->
      match m1 with
      [ Avy (id1,cid1,mid1,word1,_,_,uwwarapaxa1,_) -> 
            spl_aXikaraNa id1 id2 cid1 cid2 mid1 mid2 word1 text_type "wif" "9.1" "9.2" "9.3" "9.4"
@@ -2022,7 +2022,7 @@ value xeSakAlAXikaraNam id1 cid1 mid1 id2 cid2 mid2 word1 rl1 rl2 =
 ;
 
 value rlaXikaraNam m1 m2 text_type = match m2 with
-   [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_) 
+   [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_) 
    | Kqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
    | Avykqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_) -> 
       match m1 with
@@ -2075,7 +2075,7 @@ aWa ... xqRtvA ... waxA .. Aha;  xqRtvA is related to Aha *)
 (* rAmaH xugXam pIwvA vanam gacCawi *)
 (* assign_assign_prayojana_avykqw *)
 value rlpUrvakAla m1 m2 text_type = match m2 with
-  [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_) ->
+  [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_) ->
      match m1 with
      [ Avykqw (id1,cid1,mid1,_,_,_,_,_,_,kqw1,_,_,_) ->
        kwvA_lyap id1 cid1 mid1 id2 cid2 mid2 kqw1 text_type "12.1"
@@ -2132,7 +2132,7 @@ value wumun id1 cid1 mid1 id2 cid2 mid2 rt2 upasarga2 text_type rl1 rl2 rl3 =
 value rlwumun1 m1 m2 text_type = match m1 with
   [ Avykqw (id1,cid1,mid1,_,_,_,_,_,_,kqw1,_,_,_) -> 
     if kqw1 ="wumun" then match m2 with
-    [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_,_,_,_,_) ->
+    [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_,_,_,_) ->
           wumun id1 cid1 mid1 id2 cid2 mid2 rt2 upasarga2 text_type "13.1" "13.2" "13.3"
     | Avykqw (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,kqw2,_,_,_) -> 
          if not (kqw2 = "wumun") then
@@ -2183,7 +2183,7 @@ value rlwumun2 m1 m2 text_type = match m2 with
 
 value rlkwa_as m1 m2 text_type = 
   match m2 with
-  [ Wif (id2,cid2,mid2,_,rt2,_,_,_,_,_,_,_,_,_,_,_,_) ->
+  [ Wif (id2,cid2,mid2,_,rt2,_,_,_,_,_,_,_,_,_,_,_) ->
      match m1 with
      [ Kqw (id1,cid1,mid1,_,_,_,_,kqw1,_,_,_,_,_,_,_,_,_,_) ->
       let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
@@ -2218,7 +2218,7 @@ value rlsamAnakAla m1 m2 text_type = match m1 with
   [ Kqw (id1,cid1,mid1,word1,_,_,_,kqw1,_,_,_,_,pu1,uw1,_,viBakwiH1,vacanam1,_) -> 
         if not(pu1="y" || uw1="y") then
 	match m2 with
-       [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,vacanam2,_,_,_,_) ->
+       [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,vacanam2,_,_,_) ->
           samAna_ananwarakAla id1 cid1 mid1 id2 cid2 mid2 text_type kqw1 viBakwiH1 vacanam1 vacanam2 "16.1" "16.2"
        | Kqw (id2,cid2,mid2,word2,_,_,_,kqw2,_,_,_,_,pu2,uw2,_,viBakwiH2,vacanam2,_) ->
             if   not(pu2="y" || uw2="y")
@@ -2438,7 +2438,7 @@ value rlsamboXana_xyowakaH m1 m2 text_type = match m2 with
        else []
      | _ -> []
      ]
-  (*| Wif (id2,cid2,mid2,_,rt2,_,_,_,_,_,_,_,_,_,_,_,_) ->
+  (*| Wif (id2,cid2,mid2,_,rt2,_,_,_,_,_,_,_,_,_,_,_) ->
     match m1 with
      [ Avy (id1,cid1,mid1,word1,_,_,_,_) ->
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
@@ -2711,7 +2711,7 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
          "viprakqRte" | "viprakqRtena" | "xakRiNam" |"xakRiNAn" | "uwwarAn" | "xakRiNe" | "samakRam" | 
          "xUram" | "xUrAw" | "xUre" | "xUrA" | "xUreNa" | "nikatam" | "nikatAw" | "nikatena" | "nikate" | "sahiwaH" ->
         match m2 with 
-         [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+         [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_)
          | Kqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
          | Avykqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_) ->
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
@@ -2726,7 +2726,7 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
          ]
        | _ -> 
            match m2 with
-           [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+           [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_)
            | Kqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
            | Avykqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_) ->
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
@@ -2749,7 +2749,7 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
             "samAna" | "samAnA" | "saxqkRA" | "saxqSa" | "saxqSA" | 
             "saxqkRa" | "wulya" | "wulyA" ->
            match m2 with
-           [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_,_,_,_,_)
+           [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_,_,_,_)
            | Kqw (id2,cid2,mid2,_,rt2,upasarga2,_,_,_,_,_,_,_,_,_,_,_,_)
            | Avykqw (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_) ->
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
@@ -2772,7 +2772,7 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
             "namaH" | "nAnA" | "pari" | "prawi" |
             "upa"  ->
               match m2 with
-             [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+             [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_)
              | Kqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
              | Avykqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_) ->
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
@@ -2784,7 +2784,7 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
        
           | "alam" ->
              match m2 with
-             [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_,_,_,_,_)
+             [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_,_,_,_)
              | Kqw (id2,cid2,mid2,_,rt2,upasarga2,_,_,_,_,_,_,_,_,_,_,_,_)
              | Avykqw (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_) ->
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
@@ -2801,7 +2801,7 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
              "avarawaH" | "puraH" | "purawaH" | "pqRTawaH" | "upari" | "upariRtAw" | "paScAw" | 
              "uwwarAw" | "aXarAw" | "xakRiNAw" | "maXye"  ->
              match m2 with 
-             [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_,_,_,_,_)
+             [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_,_,_,_)
              | Kqw (id2,cid2,mid2,_,rt2,upasarga2,_,_,_,_,_,_,_,_,_,_,_,_)
              | Avykqw (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_) ->
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
@@ -2826,7 +2826,7 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
              ]
 	| "uwwareNa" | "aXareNa" | "xakRiNena" | "xakRiNA" | "xakRiNAhi" | "uwwarA" | "uwwarAhi" | "avaswAw" ->
 	match m2 with
-         [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_,_,_,_,_)
+         [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_,_,_,_)
          | Kqw (id2,cid2,mid2,_,rt2,upasarga2,_,_,_,_,_,_,_,_,_,_,_,_)
          | Avykqw (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_) ->
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
@@ -2843,7 +2843,7 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
              "bahiH" | "nikaRA" | "samayA" | "uBayawaH" | "uparyupari" |
              "pariwaH" | "sarvawaH"  | "ArAw" ->
              match m2 with
-              [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+              [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_)
               | Kqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
               | Avykqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_) ->
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
@@ -2914,7 +2914,7 @@ value rlRaRTIsambanXaH m1 m2 text_type = match m1 with
       [ Sup (id1,cid1,mid1,_,rt1,_,_,lifga1,viBakwiH1,vacana1,_)
       | Kqw (id1,cid1,mid1,_,rt1,_,_,_,_,_,_,_,_,_,lifga1,viBakwiH1,vacana1,_)
       | WaxXiwa (id1,cid1,mid1,_,rt1,_,_,_,lifga1,viBakwiH1,vacana1,_) ->
-           if viBakwiH1=6 && (not (member_of rt1 guNavacana) || rt1="xayA" || rt1 = "mAyA")
+           if viBakwiH1=6  (*&& (not (member_of rt1 guNavacana)  THIS is removed, since there can be an ellipsis of the viSeRya ||  rt1="xayA" || rt1 = "mAyA") *)
            then match m2 with 
                  [ Kqw (id2,cid2,mid2,_,rt2,_,_,kqw2,_,_,_,_,pUrvapaxa2,uwwarapaxa2,_,viBakwiH2,_,_) -> 
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
@@ -2942,7 +2942,7 @@ value rlRaRTIsambanXaH m1 m2 text_type = match m1 with
                    else []
                  | Sup (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_,viBakwiH2,_,_)
                  | WaxXiwa (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_,_,viBakwiH2,_,_) -> 
-       let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
+       		   let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
                    if     prose_order id1 id2 text_type
                    then if member_of rt2 sambanXavAcI 
                         then if not (lifga1="napuM")
@@ -2967,14 +2967,14 @@ value rlRaRTIsambanXaH m1 m2 text_type = match m1 with
                                         then  [ Relation (id1,cid1,mid1,"RaRTIsambanXaH",id2,cid2,mid2,"28.8",d12)]
                         (* else if   not (pUrvapaxa2=uwwarapaxa2) 
                            then  [ Relation (id1,cid1,mid1,"RaRTIsambanXaH",id2,cid2,mid2,"28.8",d12)] *)
-                   else []
-                   else []
+                   			else  []
+                  else  []
                  (*| Avykqw (id2,cid2,mid2,word2,_,_,_,_,_,_,_,_,_)
                  | AvywaxXiwa (id2,cid2,mid2,word2,_,_,_,_,_) ->
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
                    if    prose_order id1 id2 text_type
                       && (no_boundary_crossing_with_iwi id1 id2)
-                   then [ Relation (id1,cid1,mid1,"RaRTIsambanXaH",id2,cid2,mid2,"28.8",d12)]
+                   then [ Relation (id1,cid1,mid1,"RaRTIsambanXaH",id2,cid2,mid2,"28.11",d12)]
                    else []
                   There can not be RaRTI sambanXa with kwvA, mawup etc.*)
                  | _ -> []
@@ -3111,7 +3111,7 @@ value rlkarwqrahiwakarwqsamAnAXikaraNam m1 m2 text_type = match m1 with
     | WaxXiwa (id1,cid1,mid1,_,_,_,_,_,_,viBakwiH1,_,_) ->
         if viBakwiH1 = 1
         then match m2 with
-        [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,lakAraH2,puruRaH2,_,_,_,_,_) ->
+        [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,lakAraH2,puruRaH2,_,_,_,_) ->
               if    ((puruRaH2="ma"  && wvam_pos.val = 50) || (puruRaH2="u" && aham_pos.val=50))
                  && (lakAraH2="lot" || lakAraH2 = "ASIrlif"|| lakAraH2 = "viXilif" || lakAraH2 = "lat")
                  && wvam_pos.val = 50
@@ -3128,7 +3128,7 @@ value rlkarwqrahiwakarwqsamAnAXikaraNam m1 m2 text_type = match m1 with
     | Sup (id1,cid1,mid1,word1,rt1,pUrvapaxa1,uwwarapaxa1,_,viBakwiH1,_,_) ->
         if viBakwiH1 = 1  (* && pUrvapaxa1="y" ||  uwwarapaxa1="y"  || member_of rt1 guNavacana || member_of rt1 upAXi || member_of rt1 pUraNa || member_of rt1 taddhitaantas -- Do we really need to check these categories? somaH BUwvA, here to which category will somaH belong to? *)
         then match m2 with
-        [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,lakAraH2,puruRaH2,_,_,_,_,_) ->
+        [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,lakAraH2,puruRaH2,_,_,_,_) ->
               if   ((puruRaH2="ma"  && wvam_pos.val = 50) || (puruRaH2="u" && aham_pos.val=50))
                 && (lakAraH2="lot" || lakAraH2 = "ASIrlif"|| lakAraH2 = "viXilif" || lakAraH2 = "lat")
               then   karwqrahiwakarwqsamAnAXikaraNam id1 cid1 mid1 id2 cid2 mid2 rt2 upasarga2 "33.3"
@@ -3160,7 +3160,7 @@ value rlkarwqsamAnAXikaraNam m1 m2 m3 text_type = match m2 with
        else 
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
         match m3 with
-        [ Wif (id3,cid3,mid3,_,rt3,_,_,upasarga3,_,_,_,puruRaH3,vacanam3,_,_,_,_) ->
+        [ Wif (id3,cid3,mid3,_,rt3,_,_,upasarga3,_,_,_,puruRaH3,vacanam3,_,_,_) ->
           if    (aBihiwa rt1 vacanam1 vacanam3 puruRaH3 || pronominal12 rt2)
              && (aBihiwa rt2 vacanam2 vacanam3 puruRaH3 || pronominal12 rt1)
              &&  members_of rt3 upasarga3 karwqsamAnAXikaraNa_verbs
@@ -3222,7 +3222,7 @@ Consider a sent with X Y v1 v2, where X and Y are karwA and karwAsamAnAXikaraNa 
 E.g. grAmasya aXareNa vanam aswi.*)
       | Avy (id1,cid1,mid1,word1,_,_,_,_)
       | AvywaxXiwa (id1,cid1,mid1,word1,_,_,_,_,_) -> match m3 with
-        [ Wif (id3,cid3,mid3,_,rt3,_,_,upasarga3,_,_,_,_,_,_,_,_,_)
+        [ Wif (id3,cid3,mid3,_,rt3,_,_,upasarga3,_,_,_,_,_,_,_,_)
         | Kqw (id3,cid3,mid3,_,rt3,upasarga3,_,_,_,_,_,_,_,_,_,_,_,_)
         | Avykqw (id3,cid3,mid3,_,rt3,_,_,upasarga3,_,_,_,_,_) ->
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
@@ -3257,7 +3257,7 @@ E.g. grAmasya aXareNa vanam aswi.*)
       | WaxXiwa (id1,cid1,mid1,_,rt1,_,_,_,lifgam1,viBakwiH1,vacanam1,_) ->
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
         match m3 with
-        [ Wif (id3,cid3,mid3,_,rt3,_,_,upasarga3,_,prayogaH3,_,puruRaH3,vacanam3,_,_,_,_) ->
+        [ Wif (id3,cid3,mid3,_,rt3,_,_,upasarga3,_,prayogaH3,_,puruRaH3,vacanam3,_,_,_) ->
           if    aBihiwa rt1 vacanam1 vacanam3 puruRaH3
              && members_of rt3 upasarga3 karwqsamAnAXikaraNa_verbs
              && viBakwiH1=viBakwiH2 && prayogaH3 = "karwari"
@@ -3303,7 +3303,7 @@ Consider a sent with X Y v1 v2, where X and Y are karwA and karwAsamAnAXikaraNa 
       | AvywaxXiwa (id1,cid1,mid1,word1,_,_,_,_,_) -> 
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
        match m3 with
-        [ Wif (id3,cid3,mid3,_,rt3,_,_,upasarga3,_,_,_,_,_,_,_,_,_)
+        [ Wif (id3,cid3,mid3,_,rt3,_,_,upasarga3,_,_,_,_,_,_,_,_)
         | Kqw (id3,cid3,mid3,_,rt3,upasarga3,_,_,_,_,_,_,_,_,_,_,_,_)
         | Avykqw (id3,cid3,mid3,_,rt3,_,_,upasarga3,_,_,_,_,_) ->
           if members_of rt3 upasarga3 karwqsamAnAXikaraNa_verbs
@@ -3343,7 +3343,7 @@ Consider a sent with X Y v1 v2, where X and Y are karwA and karwAsamAnAXikaraNa 
          | WaxXiwa (id1,cid1,mid1,_,rt1,_,_,_,_,viBakwiH1,_,_) ->
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
            match m3 with
-           [ Wif (id3,cid3,mid3,_,rt3,_,_,upasarga3,_,_,_,puruRaH3,_,_,_,_,_) ->
+           [ Wif (id3,cid3,mid3,_,rt3,_,_,upasarga3,_,_,_,puruRaH3,_,_,_,_) ->
                 if members_of rt3 upasarga3 karwqsamAnAXikaraNa_verbs
               (*&& ((noun_agreement_vibh rt1 vacanam1 vacanam2 lifgam1 lifgam2 viBakwiH1 viBakwiH2) || pronominal12 rt1)  to account for jyowiH agniH Bavawi *)
 (* || pronominal12 rt1 *)
@@ -3562,7 +3562,7 @@ value rlkarmasamAnAXikaraNam m1 m2 m3 text_type =
                then [ Relation (id2,cid2,mid2,"karmasamAnAXikaraNam",id3,cid3,mid3,"35.1",d23) ]
                 (* waxA AyojakAH neharUM sanwuRtaM kqwavanwaH *)
                else []
-            | Wif (id3,cid3,mid3,_,rt3,_,_,upasarga3,_,prayogaH3,_,_,_,_,_,_,_) ->
+            | Wif (id3,cid3,mid3,_,rt3,_,_,upasarga3,_,prayogaH3,_,_,_,_,_,_) ->
                let  d23 = if id2 > id3 then id2-id3 else id3-id2 in
                if  members_of rt3 upasarga3 karmasamAnAXikaraNa_verbs
                && (vikArya rt1 rt2 || not (rt3="kq3"))
@@ -3592,7 +3592,7 @@ value rlkarmasamAnAXikaraNam m1 m2 m3 text_type =
                 if rt3="kq3" && prose_order id2 id3 text_type && (vikArya rt1 rt2)
                 then [ Relation (id2,cid2,mid2,"karmasamAnAXikaraNam",id3,cid3,mid3,"35.4",d23) ]
                 else []
-              | Wif (id3,cid3,mid3,_,rt3,_,_,upasarga3,_,prayogaH3,_,_,_,_,_,_,_) ->
+              | Wif (id3,cid3,mid3,_,rt3,_,_,upasarga3,_,prayogaH3,_,_,_,_,_,_) ->
        let  d23 = if id2 > id3 then id2-id3 else id3-id2 in
                 if rt3="kq3" && prose_order id2 id3 text_type && (vikArya rt1 rt2)
                 then [ Relation (id2,cid2,mid2,"karmasamAnAXikaraNam",id3,cid3,mid3,"35.5",d23) ]
@@ -3630,7 +3630,7 @@ value rlkarmasamAnAXikaraNam m1 m2 m3 text_type =
             then [ Relation (id2,cid2,mid2,"karmasamAnAXikaraNam",id3,cid3,mid3,"26.1b",d23) ]
             else [] *)
             else []
-            | Wif (id3,cid3,mid3,_,rt3,_,_,upasarga3,_,prayogaH3,_,_,_,_,_,_,_) ->
+            | Wif (id3,cid3,mid3,_,rt3,_,_,upasarga3,_,prayogaH3,_,_,_,_,_,_) ->
        let  d23 = if id2 > id3 then id2-id3 else id3-id2 in
             if   noun_agreement_vibh vac1 vac2 gen1 gen1 viB1 viB2 
             then if members_of rt3 upasarga3 karmasamAnAXikaraNa_verbs
@@ -3653,6 +3653,36 @@ value rlkarmasamAnAXikaraNam m1 m2 m3 text_type =
    ]
 ;
 
+value rl_hi m1 m2 m3 text_type = 
+        match m3 with
+        [ Wif (id3,cid3,mid3,word3,_,_,_,_,_,_,_,_,_,_,_,_) ->
+            match m2 with
+            [ Avy (id1,cid1,mid1,_,rt1,_,_,_) ->
+              let  d13 = if id1 > id3 then id1-id3 else id3-id1 in
+              if rt1 = "hi" then match m2 with
+                   [ Sup (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,gen2,viB2,vac2,_) ->
+                         let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
+                        if id1 = 2
+			then if (pronominal123 rt2)
+                             then [ Relation (id1,cid1,mid1,"sambanXaH",id2,cid2,mid2,"50.1",d12)]
+                             else [ Relation (id1,cid1,mid1,"kAraNa_xyowakaH",id3,cid3,mid3,"50.2",d12)]
+			else [ Relation (id1,cid1,mid1,"sambanXaH",id2,cid2,mid2,"50.3",d12)]
+                   | Avy (id2,cid2,mid2,_,rt2,_,_,_) ->
+                         let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
+			if rt2 = "na"  && id1 = 2
+                        then [ Relation (id1,cid1,mid1,"kAraNa_xyowakaH",id3,cid3,mid3,"50.4",d13)]
+                        else [ Relation (id1,cid1,mid1,"sambanXaH",id2,cid2,mid2,"50.5",d12)]
+		   | _ -> []
+                   ]
+              else []
+	   | _ -> []
+           ]
+ 
+        | _ -> []
+        ]
+
+;
+
 (* Special rules for specific words *)
 
 (* rAmaH eva vanam gacCawi. 
@@ -3660,9 +3690,9 @@ value rlkarmasamAnAXikaraNam m1 m2 m3 text_type =
    We need to prepare a list of avyayas from avayayakosha  *)
 value rlsambanXa1 m1 m2 text_type = match m2 with
   [ Avy (id2,cid2,mid2,_,rt2,_,_,_) ->
-          if (rt2="eva"|| rt2="wu"||rt2="uwa"||rt2="nu"|| rt2="ha"|| rt2="cEva" || rt2="hi"|| rt2="Kalu" || rt2="vE" || rt2="api" || rt2="COMMA" || rt2=",") (* iva removed *)
+          if (rt2="eva"|| rt2="wu"||rt2="uwa"||rt2="nu"|| rt2="ha"|| rt2="cEva" ||  rt2="Kalu" || rt2="vE" || rt2="api" || rt2="COMMA" || rt2=",") (* iva removed *)
           then match m1 with
-        [ Wif (id1,cid1,mid1,word1,_,_,_,_,_,_,_,_,_,_,_,_,_)
+        [ Wif (id1,cid1,mid1,word1,_,_,_,_,_,_,_,_,_,_,_,_)
         | Kqw (id1,cid1,mid1,word1,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
         | Avykqw (id1,cid1,mid1,word1,_,_,_,_,_,_,_,_,_)
         | AvywaxXiwa (id1,cid1,mid1,word1,_,_,_,_,_)
@@ -3747,7 +3777,7 @@ value rlsambanXa1 m1 m2 text_type = match m2 with
   ; *)
 
 value rl_sma m1 m2 text_type = match m2 with
-  [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_) ->
+  [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_) ->
      match m1 with
      [ Avy (id1,cid1,mid1,word1,_,_,_,_) -> 
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
@@ -3802,7 +3832,7 @@ value discourse_rel1 m1 id2 cid2 mid2 text_type = match m1 with
      ]
 ;
 value rlavy_sent_connector m1 m2 text_type = match m2 with
-  [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_) ->
+  [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_) ->
        discourse_rel1 m1 id2 cid2 mid2 text_type
   | Kqw (id2,cid2,mid2,_,_,_,_,kqw2,_,_,_,_,_,_,_,viB1,_,_) ->
        if(kqw2 = "kwa" || kqw2 = "kwavawu") && viB1=1 && finite_verb_in_sentence.val == 50
@@ -3814,7 +3844,7 @@ value rlavy_sent_connector m1 m2 text_type = match m2 with
 
 (* ;wvaM mA gacCa. *)
 value rlavy_wifkqw_special m1 m2 text_type = match m2 with
-  [ Wif (id2,cid2,mid2,_,_,pUrvapaxa2,_,_,_,_,_,_,_,_,_,_,_) ->
+  [ Wif (id2,cid2,mid2,_,_,pUrvapaxa2,_,_,_,_,_,_,_,_,_,_) ->
      match m1 with
      [ Avy (id1,cid1,mid1,word1,_,_,_,_) -> 
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
@@ -3933,7 +3963,7 @@ value rlavy_wifkqw_special m1 m2 text_type = match m2 with
   ;
 
 value rlavy_wif_mA m1 m2 text_type = match m2 with
-  [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,lakAraH2,_,_,_,_,_,_) ->
+  [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,lakAraH2,_,_,_,_,_) ->
      match m1 with
      [ Avy (id1,cid1,mid1,word1,_,_,_,_) ->
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
@@ -3997,7 +4027,7 @@ value rl_nAma m1 m2 m3 text_type = match m3 with
 
 (*  rAmeNa saha sIwA vanam gacCawi; bAlAnAm kqwe samyak aswi *)
 value rl_saha_vinA_kqwe m1 m2 m3 text_type = match m3 with
-  [ Wif (id3,cid3,mid3,word3,rt3,_,_,upasarga3,_,_,_,_,_,_,_,_,_)
+  [ Wif (id3,cid3,mid3,word3,rt3,_,_,upasarga3,_,_,_,_,_,_,_,_)
   | Kqw (id3,cid3,mid3,word3,rt3,upasarga3,_,_,_,_,_,_,_,_,_,_,_,_)
   | Avykqw (id3,cid3,mid3,word3,rt3,_,_,upasarga3,_,_,_,_,_) -> match m1 with
 
@@ -4091,7 +4121,7 @@ value rlevamkarma m1 m2 text_type = match m1 with
       [ Avy (id1,cid1,mid1,word1,_,_,_,_) -> 
            if (word1="iwi" || word1="evam") && id1 = 1
            then match m2 with
-            [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_,_,_,_,_)
+            [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_,_,_,_)
             | Kqw (id2,cid2,mid2,_,rt2,upasarga2,_,_,_,_,_,_,_,_,_,_,_,_)
             | Avykqw (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_) ->
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
@@ -4124,7 +4154,7 @@ value rl_last_iwi m1 m2 text_type = match m1 with
   [ Avy (id1,cid1,mid1,word1,_,_,_,_) ->
      if word1="iwi"
      then match m2 with
-          (*| Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+          (*| Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_)
             | Avykqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_) *)
      [ Sup(id2,cid2,mid2,_,_,_,_,_,_,_,_) ->
           (*| Avy (id2,cid2,mid2,_,_,_,_,_)
@@ -4189,7 +4219,7 @@ value rlBAvalakRaNa_sapwamI1 m1 m2 m3 text_type = match m3 with
                    then "Bkarma"
                    else ""
                     in match m2 with
-                       [ Wif (id2,cid2,mid2,_,rt2,_,_,_,_,_,_,_,_,_,_,_,_) ->
+                       [ Wif (id2,cid2,mid2,_,rt2,_,_,_,_,_,_,_,_,_,_,_) ->
                          bhAvalakRaNa_sapwamI id1 id2 id3 cid1 cid2 cid3 mid1 mid2 mid3 text_type kqw3 karwA_karma "42.1" "42.2" "42.3"
                        | Kqw (id2,cid2,mid2,_,rt2,_,_,kqw2,_,_,_,_,_,_,_,viBakwiH2,_,_) ->
                           if   viBakwiH2=1  && (kqw2="kwa" || kqw2="kwavawu")
@@ -4253,14 +4283,14 @@ value rlvAkyakarma m1 m2 m3 text_type = match m2 with
       [ Avy (id2,cid2,mid2,word2,_,_,_,_) ->
            if (word2="iwi" || word2="evam") 
            then match m3 with
-           [ Wif (id3,cid3,mid3,_,rt3,_,_,upasarga3,_,_,_,_,_,_,_,_,_)
+           [ Wif (id3,cid3,mid3,_,rt3,_,_,upasarga3,_,_,_,_,_,_,_,_)
            | Kqw (id3,cid3,mid3,_,rt3,upasarga3,_,_,_,_,_,_,_,_,_,_,_,_)
            | Avykqw (id3,cid3,mid3,_,rt3,_,_,upasarga3,_,_,_,_,_) ->
               if (* id2 < id3 does not hold good in Sloka; see BhG1-23-24 below *) 
               prose_order id2 id3 text_type 
               && members_of rt3 upasarga3 vAkyakarma_verbs
               then  match m1 with
-                 [ Wif (id1,cid1,mid1,_,_,_,_,_,_,_,_,_,_,_,_,_,_) ->
+                 [ Wif (id1,cid1,mid1,_,_,_,_,_,_,_,_,_,_,_,_,_) ->
                      (* if prose_order id1 id2 text_type *)
                     (*  if id1 = previous id2 
                       BhG 1.23-24; evam ukwvA hqRIkeSaH gudAkeSena BArawa, uvAca pArWa paSya ewAn samavewAn kurun iwi 
@@ -4282,7 +4312,7 @@ value rlvAkyakarma m1 m2 m3 text_type = match m2 with
               else []
            | Sup (id3,cid3,mid3,word3,rt3,_,_,_,_,_,_) -> 
                  if rt3="mawi" || rt3 = "mawa" then match m1 with
-                 [ Wif (id1,cid1,mid1,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+                 [ Wif (id1,cid1,mid1,_,_,_,_,_,_,_,_,_,_,_,_,_)
                  | Kqw (id1,cid1,mid1,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_) ->
                     if id1 = previous id2 
                     then vAkyakarma_iwi id1 id2 id3 cid1 cid2 cid3 mid1 mid2 mid3 text_type "45.5" "45.6"
@@ -4321,7 +4351,7 @@ value vAkyakarma_sub m1 m2 id3 cid3 mid3 text_type rl1 rl2 rl3 rl4 =
                 && no_boundary_crossing id2 id3 text_type
                 && word2="yaw"
              then match m1 with
-             [ Wif (id1,cid1,mid1,_,rt1,_,_,upasarga1,_,_,_,_,_,_,_,_,_) ->
+             [ Wif (id1,cid1,mid1,_,rt1,_,_,upasarga1,_,_,_,_,_,_,_,_) ->
                  (*| Kqw (id1,cid1,mid1,_,rt1,upasarga1,_,_,_,_,_,_,_,_,_,_,_,_)
                    | Avykqw (id1,cid1,mid1,_,rt1,_,_,upasarga1,_,_,_,_,_) ->
                      Need examples where we get kqw or Avykqw with yaw 
@@ -4341,7 +4371,7 @@ value vAkyakarma_sub m1 m2 id3 cid3 mid3 text_type rl1 rl2 rl3 rl4 =
 (* saH avaxaw yaw aham gacCAmi *)
 
 value rlvAkyakarma1 m1 m2 m3 text_type = match m3 with
-       [ Wif (id3,cid3,mid3,_,_,_,_,_,_,_,_,_,_,_,_,_,_) -> 
+       [ Wif (id3,cid3,mid3,_,_,_,_,_,_,_,_,_,_,_,_,_) -> 
              (* | Avykqw (id3,cid3,mid3,_,rt3,_,_,_,_,_,_,_,_) -> Any example for Avykqw ? *)
            vAkyakarma_sub m1 m2 id3 cid3 mid3 text_type "46.7" "46.8" "46.9" "46.10"
        | Kqw (id3,cid3,mid3,_,rt3,_,_,kqw_prawyayaH3,_,_,_,_,_,_,_,_,_,_) -> 
@@ -4411,7 +4441,7 @@ value rlsent_beginning_connectives m1 m2 text_type = match m1 with
      (*| Sup (id1,cid1,mid1,word1,_,_,_,_,_,_,_) -> match m2 with  
          All the words in Sent_beginning_connectives should be avyas only.
          *)
-         [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_,_,_,_,_)  ->
+         [ Wif (id2,cid2,mid2,_,rt2,_,_,upasarga2,_,_,_,_,_,_,_,_)  ->
            sent_beginning_connectives id1 cid1 mid1 id2 cid2 mid2 rt2 upasarga2 word1 text_type
           | Kqw (id2,cid2,mid2,_,rt2,upasarga2,_,kqw2,_,_,_,_,_,_,_,viB1,_,_) -> 
              (*if member_of kqw2 bhaavavaaci_kqw --  why BAvavAci ? *)
@@ -4429,7 +4459,7 @@ value rlsent_beginning_connectives m1 m2 text_type = match m1 with
 
 value rl_avaXiH m1 m2 text_type = match m1 with
      [ Avy (id1,cid1,mid1,word1,_,_,_,_) -> match m2 with
-       [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_) -> 
+       [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_) -> 
          let d12 = if id1 > id2 then id1-id2 else id2-id1 in
               if    id1 < id2  && (word1="yAvaw" || word1="wAvaw")
               then [ Relation (id1,cid1,mid1,"avaXiH",id2,cid2,mid2,"48.1",d12)]
@@ -4465,8 +4495,8 @@ value sent_connectives id1 cid1 mid1 id2 cid2 mid2 id3 cid3 mid3 rt1 upasarga1 w
 
 value rlsent_connectives m1 m2 m3 text_type = match m2 with
      [ Avy (id2,cid2,mid2,word2,_,_,_,_) -> match m3 with
-       [ Wif (id3,cid3,mid3,_,_,_,_,_,_,_,_,_,_,_,_,_,_) -> match m1 with
-         [ Wif (id1,cid1,mid1,_,rt1,_,_,upasarga1,_,_,_,_,_,_,_,_,_)  ->
+       [ Wif (id3,cid3,mid3,_,_,_,_,_,_,_,_,_,_,_,_,_) -> match m1 with
+         [ Wif (id1,cid1,mid1,_,rt1,_,_,upasarga1,_,_,_,_,_,_,_,_)  ->
              sent_connectives id1 cid1 mid1 id2 cid2 mid2 id3 cid3 mid3 rt1 upasarga1 word2 "49.1" "49.2" "49.3" "49.4"
          | Kqw (id1,cid1,mid1,word1,rt1,upasarga1,_,kqw1,_,_,_,_,_,uwwarapaxa1,_,_,_,_) ->
               if  (kqw1 = "kwa" || kqw1 = "kwavawu") 
@@ -4476,7 +4506,7 @@ value rlsent_connectives m1 m2 m3 text_type = match m2 with
          | _ -> []
          ]
        | Kqw (id3,cid3,mid3,word3,_,_,_,kqw3,_,_,_,_,_,uwwarapaxa3,_,_,_,_) -> match m1 with
-         [ Wif (id1,cid1,mid1,_,rt1,_,_,upasarga1,_,_,_,_,_,_,_,_,_)  ->
+         [ Wif (id1,cid1,mid1,_,rt1,_,_,upasarga1,_,_,_,_,_,_,_,_)  ->
              sent_connectives id1 cid1 mid1 id2 cid2 mid2 id3 cid3 mid3 rt1 upasarga1 word2 "49.9" "49.10" "49.11" "49.12"
          | Kqw (id1,cid1,mid1,word1,rt1,upasarga1,_,kqw1,_,_,_,_,_,uwwarapaxa1,_,_,_,_) ->
               if    (kqw1 = "kwa" || kqw1 = "kwavawu") 
@@ -4569,9 +4599,9 @@ value rlupamAna_upameya_sup m1 m2 m3 text_type = match m2 with
              | _ -> []
              ]
 	     else []
-        | Wif (id3,cid3,mid3,_,_,_,_,_,_,_,_,_,_,_,_,_,_) -> 
+        | Wif (id3,cid3,mid3,_,_,_,_,_,_,_,_,_,_,_,_,_) -> 
              match m1 with
-             [ Wif (id1,cid1,mid1,_,_,_,_,_,_,_,_,_,_,_,_,_,_) ->
+             [ Wif (id1,cid1,mid1,_,_,_,_,_,_,_,_,_,_,_,_,_) ->
                    if id2 < id3
                    then mark_upamAna id1 cid1 mid1 id2 cid2 mid2 id3 cid3 mid3 "50.5" "50.6"
                    else []
@@ -4647,7 +4677,7 @@ value rl_ca m1 m2 text_type = match m2 with
     [ Avy (id2,cid2,mid2,_,_,_,_,_) 
     | Kqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
     | WaxXiwa (id2,cid2,mid2,_,_,_,_,_,_,_,_,_)
-    | Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+    | Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_)
     | Avykqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_) 
     | Sup(id2,cid2,mid2,_,_,_,_,_,_,_,_)  -> match m1 with
       [ Avy (id1,cid1,mid1,word1,_,_,_,_) -> 
@@ -4667,7 +4697,7 @@ value rl_ca m1 m2 text_type = match m2 with
 
 value rl_exclamatory1 m1 m2 text_type = match m1 with
    [ Avy (id1,cid1,mid1,_,word1,_,_,_) ->  match m2 with
-         [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+         [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_)
          | Kqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_) -> 
          let d12 = if id1 > id2 then id1-id2 else id2-id1 in
               if id1 < id2
@@ -4685,7 +4715,7 @@ value rl_exclamatory1 m1 m2 text_type = match m1 with
 value rl_exclamatory2 m1 m2 m3 text_type = match m1 with
    [ Avy (id1,cid1,mid1,_,word1,_,_,_) ->  match m2 with
       [ Avy (id2,cid2,mid2,_,word2,_,_,_) -> match m3 with
-         [ Wif (id3,cid3,mid3,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+         [ Wif (id3,cid3,mid3,_,_,_,_,_,_,_,_,_,_,_,_,_)
          | Kqw (id3,cid3,mid3,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_) -> 
          let d12 = if id1 > id2 then id1-id2 else id2-id1 in
           let d23 = if id2 > id3 then id2-id3 else id3-id2 in
@@ -4754,7 +4784,7 @@ value rl_wulanA m1 m2 m3 text_type = match m1 with
                        			rl_wulanA_binxu m2 m3 text_type  viB1  id1 cid1 mid1 "56.2"
                    | _  -> []
                    ]
-   | Wif (id1,cid1,mid1,_,rt1,_,_,upasarga1,_,_,_,_,_,_,_,_,_) ->
+   | Wif (id1,cid1,mid1,_,rt1,_,_,upasarga1,_,_,_,_,_,_,_,_) ->
                if (rt1="ric1" && upasarga1="awi") || (rt1="SiR2" && upasarga1="vi")
                then
                  match m2 with
@@ -4829,7 +4859,7 @@ value rl_wulanA m1 m2 m3 text_type = match m1 with
 
 
 value dis_rel_pair2 m1 id2 cid2 mid2 id3 cid3 mid3 word2 tense3 = match m1 with
-    [ Wif (id1,cid1,mid1,_,_,_,_,_,_,_,lat1,_,_,_,_,_,_) ->
+    [ Wif (id1,cid1,mid1,_,_,_,_,_,_,_,lat1,_,_,_,_,_) ->
         if (lat1 = tense3) || (lat1 = "lat" && tense3 = "kwavawu") || (lat1 = "laf" && tense3 = "kwa") then
 	   dis_rel_pair id1 cid1 mid1 id3 cid3 mid3 id2 cid2 mid2 word2
 	else []
@@ -4849,7 +4879,7 @@ value rl_wif_kriyA_kriyA m1 m2 m3 text_type = match m2 with
            || word2 = "yawaH" || word2 = "wawaH" || word2="awaH"
            || word2 = "yaxA" || word2 = "waxA" || word2="yaw"
         then match m3 with
-        [ Wif (id3,cid3,mid3,_,_,_,_,_,_,_,lat3,_,_,_,_,_,_) ->
+        [ Wif (id3,cid3,mid3,_,_,_,_,_,_,_,lat3,_,_,_,_,_) ->
 	   dis_rel_pair2 m1 id2 cid2 mid2 id3 cid3 mid3 word2 lat3
         | Kqw (id3,cid3,mid3,_,_,_,_,kqw3,_,_,_,_,_,_,_,_,_,_) ->
            if(kqw3 = "kwa" || kqw3 = "kwavawu") && not (word2="waxA")
@@ -4891,10 +4921,10 @@ value rlca_samucciwa m1 m2 m3 text_type = match m2 with
      [ Avy (id2,cid2,mid2,_,word2,_,_,_) -> 
         if word2 = "ca" || word2 = "cEva" || word2 = "aWa" (*|| word2="waWA"  nned example; this is more a manner adverb than samucciwa *) || word2 = "api"
         then match m3 with
-        [ Wif (id3,cid3,mid3,_,_,_,_,_,_,prayogaH3,lakAra3,puruRaH3,_,_,_,_,_) ->
+        [ Wif (id3,cid3,mid3,_,_,_,_,_,_,prayogaH3,lakAra3,puruRaH3,_,_,_,_) ->
            (* if id3 = next id2 then ; not necessary. e.g. rAmaH SAlAm gacCawi pATam ca paTawi*) 
              match m1 with
-              [ Wif (id1,cid1,mid1,_,_,_,_,_,_,prayogaH1,lakAra1,puruRaH1,_,_,_,_,_) ->
+              [ Wif (id1,cid1,mid1,_,_,_,_,_,_,prayogaH1,lakAra1,puruRaH1,_,_,_,_) ->
                         (*  id2 > id1 + 1 
                             not id2 > id1 To avoid rAmaH joining with gacCawi in rAmaH ca vanam gacCawi 
                             rAmaH can never be conjoined with gacCawi, since the puruRa is different. So the above argument is not convincing.  *)
@@ -4993,9 +5023,9 @@ value mark_anyawara id1 id2 id3 cid1 cid2 cid3 mid1 mid2 mid3 rl1 rl2 =
 value rl_anyawara m1 m2 m3 text_type = match m2 with
      [ Avy (id2,cid2,mid2,_,word2,_,_,_) -> if word2 = "vA" 
         then match m3 with
-        [ Wif (id3,cid3,mid3,_,_,_,_,_,_,prayogaH3,lakAra3,puruRaH3,_,_,_,_,_) ->
+        [ Wif (id3,cid3,mid3,_,_,_,_,_,_,prayogaH3,lakAra3,puruRaH3,_,_,_,_) ->
              match m1 with
-              [ Wif (id1,cid1,mid1,_,_,_,_,_,_,prayogaH1,lakAra1,puruRaH1,_,_,_,_,_) ->
+              [ Wif (id1,cid1,mid1,_,_,_,_,_,_,prayogaH1,lakAra1,puruRaH1,_,_,_,_) ->
                   if prayogaH1=prayogaH3 
                   && lakAra1=lakAra3 
                   && puruRaH1=puruRaH3 
@@ -5070,7 +5100,7 @@ relation_array.(index) := ident
 value init_sentence_feature_variables morphs  = 
  List.iter 
  (fun m -> match m with 
-     [ Wif (id,cid,_,word,rt,_,_,upasarga,_,_,_,_,_,_,_,_,_) -> 
+     [ Wif (id,cid,_,word,rt,_,_,upasarga,_,_,_,_,_,_,_,_) -> 
              do { 
              (*(); *) finite_verb_in_sentence.val := id; 
              aswi_pos.val := id; 
@@ -5145,11 +5175,10 @@ value all_rules2 =
 rlwifkarwA_karma; rlkqwkarwA_karma; rlanaBihiwe; rlapAxAna_wasil; rlAvy_kriyAviSeRaNam_or_aXikaraNam; rlpUrvakAla; rlwumun1; rlwumun2; rlkwa_as; rlsamAnakAla; rlviSeRaNam; rlavy_viSeRaNam; rlvIpsA; rlsamboXana_xyowakaH; rlnirXAraNam; rlupapaxa_other_rel; rlupapaxa; rlsambanXa1; rlavy_wif_mA; rlavy_wifkqw_special; rl_sma; rlavy_sent_connector; rl_kAraka_RaRTI1; rl_kAraka_RaRTI2; rl_kAraka_RaRTI3; rlAvykqw_karma; rlevamkarma; rl_last_iwi; rlRaRTIsambanXaH; rlviRayAXikaraNam; rlhewuprayoge; rlniwya_sambanXa_avy; rlniwya_sambanXa_sup; (* rl_initial_avy;*)  rl_ca; rlsent_beginning_connectives; (*rlparimANa_viSeRaNam;*) rl_exclamatory1; (*rlhewu_sup;*) rlkarwqrahiwakarwqsamAnAXikaraNam; rlafgavikAra;  rl_spl_aXikaraNam; (* rlkarwqsamAnAXikarana_noverb;  This is over-generating  we need more stringent conditions *) rlkriyAviSeRaNam_wqwIyA; rlaXikaraNam ]
 ;
 
-value all_rules3 = [rlkarwqsamAnAXikaraNam; rlkarmasamAnAXikaraNam; rlvAkyakarma; rlvAkyakarma1; rlsent_connectives; rlupamAna_upameya_sup; rlca_samucciwa; rl_exclamatory2; rl_ca_wif_aBihiwa_karwA_karma; rl_wulanA; rl_nAma; rl_saha_vinA_kqwe; (*rl_wif_kriyA_kriyA; *) rlBAvalakRaNa_sapwamI1;]
+value all_rules3 = [rlkarwqsamAnAXikaraNam; rlkarmasamAnAXikaraNam; rlvAkyakarma; rlvAkyakarma1; rlsent_connectives; rlupamAna_upameya_sup; rlca_samucciwa; rl_exclamatory2; rl_ca_wif_aBihiwa_karwA_karma; rl_wulanA; rl_nAma; rl_saha_vinA_kqwe; (*rl_wif_kriyA_kriyA; *) rlBAvalakRaNa_sapwamI1; rl_hi]
 ;
 
-value all_compound_rules = [
-rl_compound_T6]
+value all_compound_rules = [ rl_compound_T6]
 ;
 
 value kAraka_engine3 morphs text_type =

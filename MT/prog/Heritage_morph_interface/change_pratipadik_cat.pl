@@ -133,7 +133,8 @@ while($in = <STDIN>){
                   if (($g eq "X") || ($gaNaH eq $g)) {
                     $tana = $ana;
                     $tana =~ s/<gaNaH:[^>]+>//;
-                    $tana =~ s/^[^<]+(<upasarga:[^>]+>.*<prayogaH:[^>]+><lakAraH:[^>]+><puruRaH:[^>]+><vacanam:[^>]+>(<paxI:[^>]+>)?)/${A_rt}$1<XAwuH:$XAwuH><gaNaH:$gaNaH>/;
+                    #$tana =~ s/^[^<]+(<upasarga:[^>]+>.*<prayogaH:[^>]+><lakAraH:[^>]+><puruRaH:[^>]+><vacanam:[^>]+>(<paxI:[^>]+>)?)/${A_rt}$1<XAwuH:$XAwuH><gaNaH:$gaNaH>/;
+                    $tana =~ s/^[^<]+(<upasarga:[^>]+>.*<prayogaH:[^>]+><lakAraH:[^>]+><puruRaH:[^>]+><vacanam:[^>]+>(<paxI:[^>]+>)?)/${A_rt}$1<gaNaH:$gaNaH>/;
                     $tans .= "/".$tana;
                     $found = 1;
                   } else {} #skip this mapping
@@ -143,7 +144,8 @@ while($in = <STDIN>){
          if ($found == 0)  { 
              $A_rt = $rt; $A_rt =~ s/#.*/1/;
              $ana =~ s/<gaNaH:[^>]+>//;
-             $ana =~ s/^[^<]+(<upasarga:[^>]+>.*<prayogaH:[^>]+><lakAraH:[^>]+><puruRaH:[^>]+><vacanam:[^>]+>(<paxI:[^>]+>)?)/${A_rt}$1<XAwuH:$XAwuH><gaNaH:$gaNaH>/;
+             #$ana =~ s/^[^<]+(<upasarga:[^>]+>.*<prayogaH:[^>]+><lakAraH:[^>]+><puruRaH:[^>]+><vacanam:[^>]+>(<paxI:[^>]+>)?)/${A_rt}$1<XAwuH:$XAwuH><gaNaH:$gaNaH>/;
+             $ana =~ s/^[^<]+(<upasarga:[^>]+>.*<prayogaH:[^>]+><lakAraH:[^>]+><puruRaH:[^>]+><vacanam:[^>]+>(<paxI:[^>]+>)?)/${A_rt}$1<gaNaH:$gaNaH>/;
          }
     } elsif($ana =~ /^([^<]+)(.*)<kqw_prawyayaH:[^>]+>/){
 	   $rt = $1;
@@ -190,7 +192,8 @@ while($in = <STDIN>){
                    $tana =~ s/<kqw_pratipadika:([^>]+)>/$rt_m/;
                }
             } else {
-               $tana =~ s/^[^<]+(<upasarga:[^>]+>.*<kqw_prawyayaH:[^>]+>)/${A_rt}$1<XAwuH:$XAwuH><gaNaH:$gaNaH>/;
+               #$tana =~ s/^[^<]+(<upasarga:[^>]+>.*<kqw_prawyayaH:[^>]+>)/${A_rt}$1<XAwuH:$XAwuH><gaNaH:$gaNaH>/;
+               $tana =~ s/^[^<]+(<upasarga:[^>]+>.*<kqw_prawyayaH:[^>]+>)/${A_rt}$1<gaNaH:$gaNaH>/;
             }
 	       if (($tans !~ /^$tana/) && ($tans !~ /\/$tana/)){
                     $tans .= "/".$tana;
@@ -211,7 +214,8 @@ while($in = <STDIN>){
                $ana =~ s/^[^<]+(<upasarga:[^>]+>.*<kqw_prawyayaH:[^>]+>)//;
                $ana =~ s/<kqw_pratipadika:([^>]+)>/$1/g;
             } else {
-               $ana =~ s/^[^<]+(<upasarga:[^>]+>.*<kqw_prawyayaH:[^>]+>)/${A_rt}$1<XAwuH:$XAwuH><gaNaH:$gaNaH>/;
+               #$ana =~ s/^[^<]+(<upasarga:[^>]+>.*<kqw_prawyayaH:[^>]+>)/${A_rt}$1<XAwuH:$XAwuH><gaNaH:$gaNaH>/;
+               $ana =~ s/^[^<]+(<upasarga:[^>]+>.*<kqw_prawyayaH:[^>]+>)/${A_rt}$1<gaNaH:$gaNaH>/;
             }
          }
    }

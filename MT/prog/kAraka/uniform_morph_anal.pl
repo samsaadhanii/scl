@@ -123,7 +123,9 @@ sub get_cat{
            $cat="avy";
    } elsif($in =~ /<vargaH:PUNCT/) {
            $cat="avy";
-   } elsif($in =~ /<XAwuH:/) {
+   #} elsif($in =~ /<XAwuH:/) {
+   #        $cat="wif";
+   } elsif($in =~ /<gaNaH:/) {
            $cat="wif";
    } elsif($in eq "") {
            $cat="avy";   # To handle unrecognised/OOV words

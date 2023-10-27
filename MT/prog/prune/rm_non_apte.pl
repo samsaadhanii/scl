@@ -53,6 +53,7 @@ while($in = <STDIN>){
        $analysis[$i] =~ /<lifgam:([^>]+)>/;
        $lifga = $1;
 
+	if($analysis[$i] =~ /lakAraH/) { $analysis[$i] .= "<level:1>";}
        #print "ana = $analysis[$i]\n";
        #if($analysis[$i] =~ /<level:[1234]>/)
        if($analysis[$i] =~ /<level:1>/) {

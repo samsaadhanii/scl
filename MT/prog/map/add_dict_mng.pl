@@ -250,7 +250,7 @@ while($tmpin = <STDIN>){
 
       } elsif($cat eq "v") {
 
-       ($rt,$prayoga,$lakAra,$purURa,$vacana,$paxI,$XAwu,$gaNa,$rel) = 
+       ($rt,$prayoga,$lakAra,$purURa,$vacana,$paxI,$gaNa,$rel) = 
           split(/:/, &get_verb_features($in));
        
 	  # If karma is absent in a sentence, then the verb is assumed 
@@ -502,7 +502,7 @@ sub get_verb_features{
 my($in) = @_;
 my $ans = "";
 
-    if($in =~ /^.*rt:([^;]+).*prayogaH:([^;]+);lakAraH:([^;]+);puruRaH:([^;]+);vacanam:([^;]+);.*paxI:([^;]+);.*XAwuH:([^;]+);gaNaH:([^;]+)/){
+    if($in =~ /^.*rt:([^;]+).*prayogaH:([^;]+);lakAraH:([^;]+);puruRaH:([^;]+);vacanam:([^;]+);.*paxI:([^;]+);.*gaNaH:([^;]+)/){
 
      $rt = $1;
      $prayoga = $2;
@@ -510,13 +510,12 @@ my $ans = "";
      $puruRa = $4;
      $vacana = $5;
      $paxI = $6;
-     $XAwu = $7;
      $gaNa = $7;
      $in =~ s/upasarga:X;//;
      if($paxI eq "parasmEpaxI") { $paxI = "pp";} else {$paxI = "ap";}
      if ($in =~ /upasarga:([^;]+)/) { $rt = $1."_".$rt;}
      if ($in =~ /sanAxi_prawyayaH:([^;]+)/) { $rt = $rt."_".$1;}
-     $ans = join(":",$rt,$prayoga,$lakAra,$puruRa,$vacana,$paxI,$XAwu,$gaNa);
+     $ans = join(":",$rt,$prayoga,$lakAra,$puruRa,$vacana,$paxI,$gaNa);
     }
 $ans;
 }

@@ -12,7 +12,7 @@ type sup = ( int * int * string * string * string * string * string * int  * str
   ; relata_pos_id : int
   ; relata_pos_cid : int
   } *)
-and wif = ( int * int * string * string * string * string * string * string * string * string * string * string * string * string * string * string * int * int)
+and wif = ( int * int * string * string * string * string * string * string * string * string * string * string * string * string * string * int * int)
 (*{ id : int  
   ; cid : int   
   ; word : string   
@@ -26,7 +26,7 @@ and wif = ( int * int * string * string * string * string * string * string * st
   ; puruRaH : string   
   ; vacanam : string   
   ; paxI : string   
-  ; dhatu : string  (* XAwuH *)
+  (*; dhatu : string  (* XAwuH *) *)
   ; gaNaH : string   
   ; rel_nm : string
   ; relata_pos_id : int

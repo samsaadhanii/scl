@@ -243,7 +243,7 @@ sub handle_verb{
         elsif($ans =~ /AwmanepaxI/) { $paxI = "AwmanepaxI";} 
       	else { $paxI = "uBayapaxI";}
         $rt_XAwu_gaNa = $rt."_".$XAwu."_".$gaNa;
-        $rt =~ s/[1-9]//;
+        $rt =~ s/[1-9]/ /;
         if($upasarga ne "-"){
            $disp_rt = $upasarga."_".$rt;
         } else {$disp_rt = $rt;}

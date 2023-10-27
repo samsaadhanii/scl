@@ -115,7 +115,8 @@ sub get_generator_string {
                 $person = $person[$per];
                 for($num=0;$num<3;$num++){
                      $vacanam = $vacanam[$num];
-                     $str = "^"."${rt}${upasarga}${sanAxi}<prayogaH:$prayogaH><lakAraH:$lakAra><puruRaH:$person><vacanam:$vacanam><paxI:$paxI><XAwuH:$XAwu><gaNaH:$gaNa><level:1>"."\$";
+                     #$str = "^"."${rt}${upasarga}${sanAxi}<prayogaH:$prayogaH><lakAraH:$lakAra><puruRaH:$person><vacanam:$vacanam><paxI:$paxI><XAwuH:$XAwu><gaNaH:$gaNa><level:1>"."\$";
+                     $str = "^"."${rt}${upasarga}${sanAxi}<prayogaH:$prayogaH><lakAraH:$lakAra><puruRaH:$person><vacanam:$vacanam><paxI:$paxI><gaNaH:$gaNa>"."\$";
                    $STR .=  $str."\n";
                 } # number
             } #person

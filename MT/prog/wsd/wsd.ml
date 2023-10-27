@@ -67,13 +67,13 @@ EXTEND Gram
         "(puruRaH"; per = IDENT; ")"; 
         "(vacanam"; vac = IDENT; ")"; 
         "(paxI"; padi = IDENT; ")"; 
-        "(XAwuH"; rtwithiw = IDENT; ")"; 
+        (*"(XAwuH"; rtwithiw = IDENT; ")"; *)
         "(gaNaH"; gana = IDENT; ")"; 
         "(rel_nm"; rel = IDENT; ")";
         "(relata_pos_id"; rel_pos_id = INT; ")";
         "(relata_pos_cid"; rel_pos_cid = INT; ")";
     ")" -> 
-    (int_of_string i,int_of_string m,w,r,cp,cu,upa,san,voice,la,per,vac,padi,rtwithiw,gana, rel, int_of_string rel_pos_id, int_of_string rel_pos_cid)
+    (int_of_string i,int_of_string m,w,r,cp,cu,upa,san,voice,la,per,vac,padi,gana,rel, int_of_string rel_pos_id, int_of_string rel_pos_cid)
     ] ] ;
 
   kqw:
@@ -532,14 +532,14 @@ value kaalavaaci = build_trie kaalavaaci_list
 ;
 
 value distinct_2 m1 m2 = match m1 with
-  [ Wif (id1,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+  [ Wif (id1,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
   | Kqw (id1,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
   | Avykqw (id1,_,_,_,_,_,_,_,_,_,_,_,_,_)
   | AvywaxXiwa (id1,_,_,_,_,_,_,_,_,_)
   | Sup (id1,_,_,_,_,_,_,_,_,_,_,_)
   | Avy (id1,_,_,_,_,_,_,_,_)
   | WaxXiwa (id1,_,_,_,_,_,_,_,_,_,_,_,_) -> match m2 with
-  	[ Wif (id2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+  	[ Wif (id2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
   	| Kqw (id2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
  	| Avykqw (id2,_,_,_,_,_,_,_,_,_,_,_,_,_)
  	| AvywaxXiwa (id2,_,_,_,_,_,_,_,_,_)
@@ -622,7 +622,7 @@ value disambiguate_viBakwiH m1 m2 = match m1 with
   | Kqw (id1,cid1,word1,_,_,_,_,_,_,_,rt1,_,_,viBakwiH1,_,rel,relata_pos_id,relata_pos_cid) ->
       match viBakwiH1 with
       [ 2 -> match m2 with
-             [ Wif (id2,cid2,_,rt2,_,_,_,sanAxiH2,_,_,_,_,_,_,_,_,_,_)->
+             [ Wif (id2,cid2,_,rt2,_,_,_,sanAxiH2,_,_,_,_,_,_,_,_,_)->
                if rt2="aBi_kruX1" 
                then  [ Relation (id1,cid1,"viBakwiH","2","2para","3.1")]
                else if rt2="aBi_xruh1"
@@ -685,7 +685,7 @@ value disambiguate_viBakwiH m1 m2 = match m1 with
              | _ -> [] 
              ]
       | 3 -> match m2 with
-             [ Wif (id2,cid2,_,rt2,_,_,_,sanAxiH2,_,_,_,_,_,_,_,_,_,_)->
+             [ Wif (id2,cid2,_,rt2,_,_,_,sanAxiH2,_,_,_,_,_,_,_,_,_)->
                if rt2="sam_jFA2" 
                then  [ Relation (id1,cid1,"viBakwiH","3","2","3.5")]
                else if rt2="sam_gam1"
@@ -696,7 +696,7 @@ value disambiguate_viBakwiH m1 m2 = match m1 with
              | _ -> [] 
              ]
       | 4 -> match m2 with
-             [ Wif (id2,cid2,_,rt2,_,_,_,sanAxiH2,_,_,_,_,_,_,_,_,_,_)->
+             [ Wif (id2,cid2,_,rt2,_,_,_,sanAxiH2,_,_,_,_,_,_,_,_,_)->
                if rt2="kruX1" 
                then  [ Relation (id1,cid1,"viBakwiH","4","4para","3.8")]
                else if rt2="xruh1" || rt1="IrRy1" || rt1="apa_rAX1"
@@ -715,7 +715,7 @@ value disambiguate_viBakwiH m1 m2 = match m1 with
              | _ -> [] 
              ]
       | 6 -> match m2 with
-             [ Wif (id2,cid2,_,rt2,_,_,_,sanAxiH2,_,_,_,_,_,_,_,_,_,_)->
+             [ Wif (id2,cid2,_,rt2,_,_,_,sanAxiH2,_,_,_,_,_,_,_,_,_)->
                if rt2="xiv1" 
                then  [ Relation (id1,cid1,"viBakwiH","6","20","3.15")]
                else [] 
@@ -854,7 +854,7 @@ value disambiguate_wumun m1 m2 = match m1 with
   [ Avykqw (id1,cid1,word1,_,_,_,_,_,kqw_prawyayaH1,_,_,rel1,relata_pos_id,relata_pos_cid) ->
           if kqw_prawyayaH1 ="wumun"
                then match m2 with
-               [ Wif (id2,cid2,_,rt2,_,_,upasarga2,sanAxiH2,_,_,_,_,_,_,_,rel2,_,_)->
+               [ Wif (id2,cid2,_,rt2,_,_,upasarga2,sanAxiH2,_,_,_,_,_,_,rel2,_,_)->
                         if rel1="wumunkarma" then
                   match rt2 with
                   [ "Sak3" 
@@ -882,7 +882,7 @@ value handle_lvc m1 m2 = match m1 with
      [ Sup (id1,cid1,_,rt1,_,_,_,viBakwiH1,_,rel,relata_pos_id,relata_pos_cid) ->
           if rel="karma" || rel = "gONakarma" || rel="muKyakarma" || rel="karmasamAnAXikaraNam" 
           then match m2 with
-          [ Wif (id2,cid2,_,rt2,_,_,upasarga2,sanAxiH2,_,_,_,_,_,_,_,_,_,_)->
+          [ Wif (id2,cid2,_,rt2,_,_,upasarga2,sanAxiH2,_,_,_,_,_,_,_,_,_)->
                 if (id2=relata_pos_id) && (cid2 = relata_pos_cid) then 
                   if rt2 = "kq3" && member_of rt1 amuurwa
                   then [ Relation (id2,cid2,"rt",rt2,"kara","11.2")]
