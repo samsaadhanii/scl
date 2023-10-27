@@ -96,7 +96,7 @@ sub read_second_file {
    $indx = $1;
    $flds[0] =~ /^([0-9]+)/;
    $wrd_id = $1;
-	print "###", $flds[$wrd_fld_id],"\n";
+	#print "###", $flds[$wrd_fld_id],"\n";
    if ( &member_discourse_connective2($flds[$wrd_fld_id]) && 
        ($flds[$karaka_rel_fld] =~ /सम्बन्धः/ || $flds[$karaka_rel_fld] =~ /_द्योतकः/ ||
        $flds[$karaka_rel_fld] =~ /sambandhaḥ/ || $flds[$karaka_rel_fld] =~ /_dyotakaḥ/)
@@ -104,7 +104,7 @@ sub read_second_file {
        $discourse_connective2 = $flds[$wrd_fld_id];
        $flds[$karaka_rel_fld] =~ /,([0-9\.]+)/;
        $verb_indx = $1;
-	print "###", $discourse_connective2,"\n";
+	#print "###", $discourse_connective2,"\n";
    }
    if (&member_niwya_connective2($flds[$wrd_fld_id])) {
        $niwya_connective2_pos = $indx;

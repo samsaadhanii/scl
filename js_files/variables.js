@@ -2612,9 +2612,9 @@ var root_info = {
     dev: "गुध् (गुधँ) रोषे क्र्यादिः",
     rom: "gudh (gudhaṁ) roṣe kryādiḥ"
   },
-  'guX1_gqXuz_xivAxiH_pariveRtane': {
-    dev: "गुध् (गृधुँ) परिवेष्टने दिवादिः",
-    rom: "gudh (gṛdhuṁ) pariveṣṭane divādiḥ"
+  'guX1_guXaz_xivAxiH_pariveRtane': {
+    dev: "गुध् (गुधँ) परिवेष्टने दिवादिः",
+    rom: "gudh (gudhaṁ) pariveṣṭane divādiḥ"
   },
   'gunP1_gunPaz_wuxAxiH_granWe': {
     dev: "गुन्फ् (गुन्फँ) ग्रन्थे तुदादिः",
@@ -7744,9 +7744,9 @@ var root_info = {
     dev: "याच् (टुयाचृँ) याञ्चायाम् भ्वादिः",
     rom: "yāc (ṭuyācṛṁ) yāñcāyām bhvādiḥ"
   },
-  'yAc2_duyAcqz_BvAxiH_yAFcAyAm': {
-    dev: "याच् (डुयाचृँ) याञ्चायाम् भ्वादिः",
-    rom: "yāc (ḍuyācṛṁ) yāñcāyām bhvādiḥ"
+ // 'yAc2_duyAcqz_BvAxiH_yAFcAyAm': {  -- verb not found in Dhaatuv.rtti
+ //   dev: "याच् (डुयाचृँ) याञ्चायाम् भ्वादिः",
+ //   rom: "yāc (ḍuyācṛṁ) yāñcāyām bhvādiḥ"
   },
   'yu3_yu_curAxiH_jugupsAyAm': {
     dev: "यु (यु) जुगुप्सायाम् चुरादिः",
