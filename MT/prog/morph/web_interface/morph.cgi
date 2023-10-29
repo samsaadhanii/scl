@@ -122,7 +122,7 @@ my $format;
           } else { $upasarga = "-"; }
 
             if ($ans =~ /kqw_prawyayaH/){
-               $ans =~ s/}([^{]+){/}{kqw_prAwipaxikam:$1}{/;
+               $ans =~ s/\}([^\{]+)\{/\}\{kqw_prAwipaxikam:$1\}\{/;
                $link = &handle_kqw($format,$rt,$upasarga,$ans);
                $color = "lavender";
             } elsif ($ans =~ /waxXiwa/){
