@@ -7744,9 +7744,9 @@ var root_info = {
     dev: "याच् (टुयाचृँ) याञ्चायाम् भ्वादिः",
     rom: "yāc (ṭuyācṛṁ) yāñcāyām bhvādiḥ"
   },
- // 'yAc2_duyAcqz_BvAxiH_yAFcAyAm': {  -- verb not found in Dhaatuv.rtti
- //   dev: "याच् (डुयाचृँ) याञ्चायाम् भ्वादिः",
- //   rom: "yāc (ḍuyācṛṁ) yāñcāyām bhvādiḥ"
+  'yAc2_duyAcqz_BvAxiH_yAFcAyAm': {
+    dev: "याच् (डुयाचृँ) याञ्चायाम् भ्वादिः",
+    rom: "yāc (ḍuyācṛṁ) yāñcāyām bhvādiḥ"
   },
   'yu3_yu_curAxiH_jugupsAyAm': {
     dev: "यु (यु) जुगुप्सायाम् चुरादिः",
