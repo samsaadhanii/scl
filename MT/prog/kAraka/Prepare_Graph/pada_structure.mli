@@ -30,7 +30,7 @@ and wif = ( int * int * int * string * string * string * string * string *string
   ; gaNaH : string   
   ; level : int
   }*)
-and kqw = ( int * int * int * string * string * string * string *string *string * string * string * string * string * string * string * int * string * int )
+and kqw = ( int * int * int * string * string *  string *string *string * string * string * string * string * string * string * int * string * int )
 (*{ id : int   
   ; cid : int   
   ; mid : int   
@@ -40,7 +40,7 @@ and kqw = ( int * int * int * string * string * string * string *string *string 
   ; sanAxi_prawyayaH : string   
   ; kqw_prawyayaH : string 
   ; prayogaH : string 
-  ; dhatu : string   
+  (*; dhatu : string  *) 
   ; gaNaH : string
   ; rt : string   
   ; pUrvapaxa : string
@@ -71,7 +71,7 @@ and avywaxXiwa = ( int * int * int * string * string * string *string * string  
   ; waxXiwa_prawyayaH : string
   ; level : int
   }*)
-and avykqw = ( int * int * int * string * string * string *string * string * string * string * string * string * int )
+and avykqw = ( int * int * int * string *  string *string * string * string * string * string * string * int )
 (*{ id : int   
   ; cid : int   
   ; mid : int   
@@ -82,7 +82,7 @@ and avykqw = ( int * int * int * string * string * string *string * string * str
   ; upasarga : string
   ; sanAxi_prawyayaH : string
   ; kqw_prawyayaH : string   
-  ; dhatu : string
+ (* ; dhatu : string*)
   ; gaNaH : string   
   ; level : int   
   }*)
