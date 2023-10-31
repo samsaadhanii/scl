@@ -39,7 +39,7 @@ cut -d= -f2 $TMP_FILES_PATH/tmp_mo > $PRUNEOUT
 
 $MY_PATH/morph/bin/add_kqw_analy.pl $SCLINSTALLDIR $MY_PATH/morph/local_analysis/kqw_mo_ana.txt < $PRUNEOUT > $KQWOUT
 
-paste $INFILE $OUTFILE $PRUNEOUT $KQWOUT| perl -pe 's/^\t//;s/^\t//;s/^\t//; s/\t\t/\t-\t/; s/\t\t/\t-\t/; s/\t$/\t-/; s/,\/,/,/g;' > $TMP_FILES_PATH/tmptmp
+paste $INFILE $OUTFILE $PRUNEOUT $KQWOUT| perl -pe 's/^\t//;s/^\t//;s/^\t//; s/\t\t/\t-\t/; s/\t\t/\t-\t/; s/\t$/\t-/; s/,\/,/,/g; s/<XAwuH:[^>]+>//g' > $TMP_FILES_PATH/tmptmp
 #cp $TMP_FILES_PATH/tmptmp $INFILE
 mv $TMP_FILES_PATH/tmptmp $INFILE
 
