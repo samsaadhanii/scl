@@ -111,7 +111,7 @@ $LTPROC_IN = "";
   chomp($LTPROC_IN); # To chomp the last \n, else it produces an extra blank line in the o/p of lt-proc
 
  if($format eq "JSON") {
-    $str = "echo '".$LTPROC_IN."' | $generator | sed '1,\$s/#.*/-/g' | grep . | $conversion_program | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/kqw/json_format.pl $outencoding";
+    $str = "echo '".$LTPROC_IN."' | $generator | sed '1,\$s/#.*/-/g' | grep . | $conversion_program | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/kqw/json_format.pl $outencoding $upa_wx";
  }
  else {# $format = web
 	 $str = "echo '".$LTPROC_IN."' | $generator | sed '1,\$s/#.*/-/g' | grep . | pr -3 -a -t -w 150 | tr ' ' '\t' | $conversion_program | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/kqw/html_format.pl $rt_wx $upa_wx $outencoding $XAwu $gaNa";
