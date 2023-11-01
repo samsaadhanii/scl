@@ -3658,22 +3658,24 @@ value rl_hi m1 m2 m3 text_type = match m1 with
               if rt1 = "hi" then match m3 with
               [ Wif (id3,cid3,mid3,word3,_,_,_,_,_,_,_,_,_,_,_,_) ->
                      let  d13 = if id1 > id3 then id1-id3 else id3-id1 in
-		     if (id1 > 3) then [ Relation (id1,cid1,mid1,"sambaXaH",id3,cid3,mid3,"50.1",d13)]
+		     if (id1 > 3) then [ Relation (id1,cid1,mid1,"sambanXaH",id3,cid3,mid3,"50.1",d13)]
 		     else
                      match m2 with
                      [ Sup (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,gen2,viB2,vac2,_) ->
                         let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
-                        if (id2 = id1-1)  && (pronominal123 rt2)  && (id1 = 2 || id1 = 3)
-                        then [ Relation (id1,cid1,mid1,"sambanXaH",id2,cid2,mid2,"50.2",d12)]
-                        else [ Relation (id1,cid1,mid1,"kAraNa_xyowakaH",id3,cid3,mid3,"50.3",d12)]
+                        if (id2 = id1-1) then
+                           if (pronominal123 rt2)  && (id1 = 2 || id1 = 3)
+                           then [ Relation (id1,cid1,mid1,"sambanXaH",id2,cid2,mid2,"50.2",d12)]
+                           else [ Relation (id1,cid1,mid1,"kAraNa_xyowakaH",id3,cid3,mid3,"50.3",d12)]
+                        else [ Relation (id1,cid1,mid1,"kAraNa_xyowakaH",id3,cid3,mid3,"50.4",d12)]
                      | Avy (id2,cid2,mid2,_,rt2,_,_,_) ->
                          let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
 			 if (id1 = 2 || id1 = 3)
                          then if (((id2 = id1-1)  && ((rt2="na") || (rt2="eva"))) ||
                                   ((id2 = id1+1)  && (rt2="eva")))
-                              then [ Relation (id1,cid1,mid1,"sambanXaH",id2,cid2,mid2,"50.4",d12)]
-                              else [ Relation (id1,cid1,mid1,"kAraNa_xyowakaH",id3,cid3,mid3,"50.5",d13)]
-                         else [ Relation (id1,cid1,mid1,"kAraNa_xyowakaH",id3,cid3,mid3,"50.6",d13)]
+                              then [ Relation (id1,cid1,mid1,"sambanXaH",id2,cid2,mid2,"50.5",d12)]
+                              else [ Relation (id1,cid1,mid1,"kAraNa_xyowakaH",id3,cid3,mid3,"50.6",d13)]
+                         else [ Relation (id1,cid1,mid1,"kAraNa_xyowakaH",id3,cid3,mid3,"50.7",d13)]
 		     | _ -> []
                      ]
 	      | _ -> []
