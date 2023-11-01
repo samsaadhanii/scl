@@ -37,7 +37,7 @@ if($in){
   }
   if($line_no == 0) {
      if ($outencoding eq "IAST") {
-         print "\"lakāra_$lakAra_no\":\"$disp_lakAra_iast[$lakAra_no]\",\"l_forms_$lakAra_no\":[";
+         print "\"lakAra_$lakAra_no\":\"$disp_lakAra_iast[$lakAra_no]\",\"l_forms_$lakAra_no\":[";
      } else {
          print "\"lakAra_$lakAra_no\":\"$disp_lakAra[$lakAra_no]\",\"l_forms_$lakAra_no\":[";
      }
