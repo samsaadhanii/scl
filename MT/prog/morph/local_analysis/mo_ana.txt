@@ -710,5 +710,4 @@ yawawaH	yawaw<vargaH:nA><lifgam:puM><viBakwiH:2><vacanam:bahu><level:1>/yawaw<va
 yawawi	yaw1<prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><gaNaH:BvAxiH><level:1>
 yogeSvara	yogeSvara<vargaH:nA><lifgam:puM><viBakwiH:8><vacanam:eka><level:1>
 yowsyamAnAn	yowsyamAna<vargaH:nA><lifgam:puM><viBakwiH:2><vacanam:bahu><level:1>
-yuxXyasva	yuX1<prayogaH:karwari><lakAraH:lot><puruRaH:ma><vacanam:eka><paxI:AwmanepaxI><gaNaH:xivAxiH><level:1>
 zsanwuRtaH	wuR1<upasarga:sam><kqw_prawyayaH:kwa><XAwuH:wuRaz><gaNaH:xivAxiH>sanwuRta<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
