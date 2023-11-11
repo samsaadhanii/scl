@@ -9,7 +9,6 @@ all:
 	cd MT; make
 	cd skt_gen/compounds; make
 	cd skt_gen/Sentence; make
-	cp htdocs/index_server.html htdocs/index.html
 	cd ashtadhyayi_simulator/june12; make
 	cd NN; make
 
