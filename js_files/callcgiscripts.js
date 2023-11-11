@@ -1,3 +1,23 @@
+function callymkanu(){
+  var x = document.getElementById("encoding").value;
+  var y = document.getElementById("text").value;
+  if (avalidationwithspace(x,y) == 1){return false;}
+  
+  if($("#text").val()==""){
+                       alert("।कृपया एकं श्लोकं ददातु. तदनन्तरमेव नुद्यताम्। (Please Enter any Sanskrit shloka in the textbox and then submit.)");
+                       return false;
+               }
+               else{
+               		$("#output").html("कृपया प्रतीक्ष्यताम्....");
+               		$.post("/cgi-bin/SCL_CGI/YMK/yamaka_anu.cgi",{"encoding":$("#encoding").val(),"text":$("#text").val(),"outencoding":$("#outencoding").val()},function(data){
+               		
+               			$("#output").html(data);
+               		});
+               	
+               	return false;
+               }
+}
+
 function callmorphanalyser(){
   var x = document.getElementById("encoding").value;
   var y = document.getElementById("morphword").value;
@@ -238,7 +258,7 @@ function callashtadhyayisimulator(){
         var data = word;
         var stat = 0;
 	var regunisp=/[ अआइईउऊऋॠऌएऐओऔअंअःकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह ्ािीुूृॄॢेैोौंःळ\-ऽ]/;
-	var regsp=/[ aAiIuUqQlLeEoOMHzkKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRshZ\-]/;
+	var regsp=/[ aAiIuUqQLeEoOMHzkKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRshZ\-\.\n]/;
 	var regitranssp=/[ aiuURiLIeoMH.Nkgh~NcChj~nThDtdpbmyrlvwGYsSA\^\-]/;
 	var regslpsp=/[ aAiIuUfFlxeEoOMHkKgGNcCqQjJwWQRtTdDnpPbBmyrlvSzsh\-]/;
 	var regvelsp=/[ aiurleomhkgncjtdpbyszv\~\"\?\-\_\.\,\!\-\']/;

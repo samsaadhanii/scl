@@ -32,6 +32,7 @@ install:
 	cd ashtadhyayi_simulator/june12; make install
 	cd amarakosha; make install
 	cd NN; make install
+	cd YMK; make install
 	cp -r dhaatupaatha $(HTDOCSDIR)/$(SCL_HTDOCS)
 	cp scl_help.pdf $(HTDOCSDIR)/$(SCL_HTDOCS)
 	mkdir -p $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers

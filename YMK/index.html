@@ -18,18 +18,6 @@
 -->
 
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <!-- <script type="text/javascript" src="js/jquery.min.js"></script> -->
-    <meta http-equiv="CONTENT-TYPE" content="text/html; charset=utf-8" />
-    <meta name ="keywords" content="india,indology,sanskrit,lexicography,linguistics,computational linguistics,tools, morph analyser" />
-    <meta name ="date" content="2011-10-5" />
-    <meta name="classification" content="computational linguistics, sanskrit, morphology, lexicography, indology" />
-    <meta name="description" content="This site provides tools for Analysis of Sanskrit processing: morphological analysis and generation, segmentation, sandhi splitter, and parsing." />
-
-
     <script src="../js_files/devtrans.js"></script>
     <script language="Javascript" type="text/javascript">
       function check() {
@@ -65,7 +53,7 @@
 
 function livetrans () {
   var codec = document.getElementById("encoding").value;
-  var itext = document.getElementById("textbox-mt").value;
+  var itext = document.getElementById("text").value;
   var otext = "";
   if (codec == "WX") {
     otext = slp2dev(wx2slp(itext));
@@ -88,25 +76,26 @@ function livetrans () {
   document.getElementById("devtext").innerHTML = otext;
 }
 
-setInterval(blinker, 1000);
 
     </script>
-    <!-- All css links for all modules -->
-    <link rel="stylesheet" href="../css_files/sktmt.css"/>
-    <title> Yamaka Type Identifier </title>
-  </head>
-
-  <body>
 
   <div id="input-dashboard">
-    <center>
-      <form name="test" method="post" action="/cgi-bin/scl/YMK/yamaka.cgi"  onsubmit="return check();">
-        <div id="selection-area">
+  <table border=0>
+  <center>
+  <tr>
+  <td class="input-dashboard-div1">
+
+  <div class="dept-name">
+    <span class="title" id="desc-morph">&nbsp;&nbsp;&nbsp;&nbsp;यमक-अनुप्रास (yamaka-anuspaasa-identifier)</span>
+  </div>
+
+      <form name="test" method="post" onsubmit="return callymkanu();">
           <table>
+	   <center>
+            <tr> <td></td> <td></td> <td id="devtext"></td> <td></td> </tr>
             <tr>
               <td>
                 <a href='#' style="color:blue;" onclick="window.open('table.html','Details','width=800, height=500,scrollbars=yes');">Input Encoding</a>
-                <br />
                 <select name="encoding" id="encoding" onchange="livetrans()">
                   <!--	    <option value="Unicode">Select encoding for Input</option> -->
                   <option value="Unicode">Unicode-Devanagari</option>
@@ -120,81 +109,25 @@ setInterval(blinker, 1000);
               </td>
               <td>
                 <a href='#' style="color:blue;" onclick="window.open('table.html','Details','width=800, height=500,scrollbars=yes');">Output Encoding</a>
-                <br />
-                <select name="out_encoding">
+                <select name="out_encoding" id="out_encoding">
                   <!--          <option>Select encoding for Output</option> -->
                   <option value="Devanagari">Devanagari</option>
                   <option value="IAST">IAST(Roman-Diacritic)</option>
                 </select>
               </td>
-            </tr>
-          </table>
-        </div>
-        <div id="input-area">
-          <table border="0">
-            <tr>
-            <td id="devtext"></td>
-            </tr>
-            <tr>
               <td>
-                <br />
-                <textarea name="text" cols="100" rows="2" id="textbox-mt" oninput="livetrans()" placeholder="Type the sentence"></textarea>
+                <textarea name="text" style=" min-width:500px" rows="2" id="text" oninput="livetrans()" placeholder="Type the shloka"></textarea>
               </td>
-            </tr>
-            <tr>
               <td>
                 <center>
-                  <input type="submit" value="Submit" id="translatebutton" />
+                  <input value="submit" type="submit" id="submit-bttn" class="styled-button-3" />
                 </center>
               </td>
             </tr>
-          </table>
-        </div>
+       </center>
+       </table>
       </form>
-    </center>
+     </center>
+    </table>
+   <div id="output"> </div>
   </div> <!-- input-dashboard -->
-
-  <div id="line"> &nbsp; </div>
-
-  <div id="copy">
-    <center>
-      <table>
-        <tr>
-          <td id="copy-verify">
-            <p>
-              <a href="http://validator.w3.org/check?uri=referer"><img src="../imgs/w3c.jpg" alt="Valid XHTML 1.0 Transitional" height="31" width="" style="border-style:none;" /></a>
-            </p>
-          </td>
-          <td id="copy-info">
-            <p>
-              <span class="cons">© 2002-23 <a href="http://sanskrit.uohyd.ac.in/faculty/amba">Amba Kulkarni</a></span>
-            </p>
-          </td>
-          <td>
-            <p>
-              <span class="cons1"><a href="/scl/contributors.html">Contributors</a></span>
-            </p>
-          </td>
-        </tr>
-      </table>
-    </center>
-  </div><!--container-div ends here -->
-  <!-- <img src="http://scl.samsaadhanii.in/cgi-bin/Count.cgi?ft=0&df=sample.dat" alt="Count"> -->
-
-  <div id="outout"> </div>
-
-  <div>
-    <div id="counter">
-      <!-- Start of StatCounter Code for Default Guide -->
-      <script type="text/javascript" src="/scl/statcounter_dummy.js"></script>
-      <noscript>
-        <div class="statcounter">
-          <a title="web analytics" href="http://statcounter.com/" target="_blank">
-            <img class="statcounter" src="https://c.statcounter.com/8421849/0/34917efe/0/" alt="web analytics"/>
-          </a>
-        </div>
-      </noscript>
-      <!-- End of StatCounter Code for Default Guide -->
-    </div>
-  </body>
-</html>

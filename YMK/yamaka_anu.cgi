@@ -27,16 +27,26 @@ package main;
 require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 
 
+  my $conversion_program;
   my %param = &get_parameters();
 
+  my $format = "web";
 
   my $encoding=$param{encoding};
   my $shloka=$param{text};
   my $out_encoding=$param{out_encoding};
 
+  if ($param{mode} eq "json") { $format = $param{mode};}
+
 
   if ($out_encoding eq "Devanagari") { $script = "DEV";}
   if ($out_encoding eq "IAST") { $script = "IAST";}
+
+  if ($out_encoding eq "IAST") {
+      $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8roman.out";
+  } else {
+      $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1";
+  }
 
   $shloka_wx=&convert($encoding,$shloka,$GlblVar::SCLINSTALLDIR);
   chomp($shloka_wx);
@@ -45,6 +55,8 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
   close(TMP);
 
   print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
-#  system("python3 ./ymk_code_93.py < /private/tmp/a");
-  system("python3 ./ymk_main.py < /private/tmp/a");
+  if ($out_encoding eq "IAST") { print "<h3><font color=\"green\"> Yamaka </font></h3>";} else { print "<h3><font color=\"green\"> यमक अलंकार:  </font></h3>";}
+  system("python3 ./ymk_main.py $format < /private/tmp/a | $conversion_program");
+  if ($out_encoding eq "IAST") { print "<h3><font color=\"green\"> Anuprāsa</font> </h3>";} else { print "<h3><font color=\"green\"> अनुप्रास अलंकार:</font></h3>";}
+  system("python3 ./anuprAsa_main.py $format $out_encoding < /private/tmp/a | $conversion_program");
 
