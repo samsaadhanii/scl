@@ -28,10 +28,6 @@ else:
                yy1 = re.sub("_","<@font @color=\"@blue\">",y["@outp"])
                yy2 = re.sub("\*","</@font>",yy1)
                print ("<@td><@font @color=\"@magenta\">",yy2,"</@font></@td></@tr>")
-               print ("<@tr><@td></@td><@td><@font @color=\"@SlateBlue\">",y["@prakAra"],"</@font></@td>")
-               yy1 = re.sub("_","<@font @color=\"@blue\">",y["@outp"])
-               yy2 = re.sub("\*","</@font>",yy1)
-               print ("<@td><@font @color=\"@magenta\">",yy2,"</@font></@td></@tr>")
        elif x["@prakAra"] == "SqwyanuprAsa" or x["@prakAra"] == "śṛtyanuprāsa":
             outp = x["@outp"]
             for y in outp:
