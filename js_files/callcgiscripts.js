@@ -9,7 +9,7 @@ function callymkanu(){
                }
                else{
                		$("#output").html("कृपया प्रतीक्ष्यताम्....");
-               		$.post("/cgi-bin/SCL_CGI/YMK/yamaka_anu.cgi",{"encoding":$("#encoding").val(),"text":$("#text").val(),"outencoding":$("#outencoding").val()},function(data){
+               		$.post("/cgi-bin/SCL_CGI/YMK/yamaka_anu.cgi",{"encoding":$("#encoding").val(),"text":$("#text").val(),"out_encoding":$("#out_encoding").val()},function(data){
                		
                			$("#output").html(data);
                		});
