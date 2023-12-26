@@ -66,4 +66,4 @@ scan_input.out: scan_input.lex
 include .depend
 
 clean:
-	rm -f *.cmo *.cmi *.cmx *.ppi *.ppo *.o scan_input.out
+	rm -f *.cmo *.cmi *.cmx *.ppi *.ppo *.o scan_input.out data/*.cmo data/*.cmi data/*.o 

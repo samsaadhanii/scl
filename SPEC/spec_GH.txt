@@ -26,7 +26,7 @@ MYPYTHONPATH=/usr/bin/python3
 #Heritage installation path (for interface)
 HERITAGE_CGI_DIR=SKT
 HERITAGE_CGI=SKT/sktgraph2.cgi
-HERITAGE_Grapph_CGI=SKT/sktgraph.cgi
+HERITAGE_Graph_CGI=SKT/sktgraph.cgi
 
 #SCL installation Path 
 SCL_CGI=scl

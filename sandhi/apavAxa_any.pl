@@ -55,9 +55,9 @@ else {
    }
    if($found) {
 	   $ftmp = $first;
-	   $ftmp =~ s/I$/i/;
-	   $ftmp =~ s/U$/u/;
-	   $ans = $ftmp." ".$second;$ans1="pragqhya";$ans2="IxUxexxvivacanam pragqhyam (1.1.11)-> pluwapragqhyA aci niwyam (6.1.125); *$first paxasya xvivacana viSleRaNam aXikqwya";$cont =1;}
+	   #$ftmp =~ s/I$/i/;	kavI + ewO -> kavI ewO, and not kavi ewO
+	   #$ftmp =~ s/U$/u/;
+	   $ans = $ftmp." ".$second;$ans1="pragqhya";$ans2="IxUxexxvivacanam pragqhyam (1.1.11)-> pluwapragqhyA aci niwyam (6.1.125); *$first paxasya xvivacana-viSleRaNam aXikqwya";$cont =0;}
    }
 
 #From here onwards it is just a pattern matching.
