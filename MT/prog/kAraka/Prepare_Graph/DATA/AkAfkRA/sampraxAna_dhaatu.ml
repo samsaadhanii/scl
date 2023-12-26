@@ -5,6 +5,7 @@ value sampraxAna_XAwu_list = [
 "Af_xA3";
 "anu_prawi_gqNa1";
 "apa_rAX1";
+"asUya";
 "BAm1";
 "BAma1";
 "brU1";

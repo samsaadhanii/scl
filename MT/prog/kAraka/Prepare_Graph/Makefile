@@ -93,4 +93,4 @@ debug: ascii.cmo trie.cmo debug.ml
 include .depend
 
 clean:
-	rm -f *.cmo *.cmi *.cmx *.ppi *.ppo *.o $(APATH)/*.cmo $(APATH)/*cmi $(APATH)/*.cmx $(YPATH)/*cmi $(YPATH)/*.cmx 
+	rm -f *.cmo *.cmi *.cmx *.ppi *.ppo *.o $(APATH)/*.cmo $(APATH)/*cmi $(APATH)/*.cmx $(YPATH)/*cmi $(YPATH)/*.cmx Heritage_ML/*.o Heritage_ML/*.cmx Heritage_ML/*.cmi
