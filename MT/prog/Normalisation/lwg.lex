@@ -47,8 +47,8 @@
 [ ]waWA[ ]iwi	{printf(" waWewi");}
    /* ^na[ ]ca	{printf("naca");}
 [ ]na[ ]ca	{printf(" naca");} */
-^na[ ]hi	{printf("nahi");}
-[ ]na[ ]hi	{printf(" nahi");}
+   /*^na[ ]hi	{printf("nahi");} -- To mark hi as kAryakAraNa, na hi should not be grouped  -- Discuss with Saee*/
+   /* [ ]na[ ]hi	{printf(" nahi");} -- To mark hi as kAryakAraNa, na hi should not be grouped  -- Discuss with Saee*/
 ^no[ ]cew	{printf("nocew");}
 [ ]no[ ]cew	{printf(" nocew");}
 ^prawi[ ]uwa	{printf("prawuwa");}
@@ -63,8 +63,8 @@
 [ ]yaxi[ ]api	{printf(" yaxyapi");}
 ^warhi[ ]api	{printf("warhyapi");}
 [ ]warhi[ ]api	{printf(" warhyapi");}
-^hi[ ]api	{printf("hyapi");}
-[ ]hi[ ]api	{printf(" hyapi");}
+   /* ^hi[ ]api	{printf("hyapi");} -- To mark hi as a kArya kAraNa, hi api should not be grouped  -- Discuss with Saee*/
+   /* [ ]hi[ ]api	{printf(" hyapi");} -- To mark hi as a kArya kAraNa, hi api should not be grouped  -- Discuss with Saee*/
 ^warhi[ ]eva	{printf("warhyeva");}
 [ ]warhi[ ]eva	{printf(" warhyeva");}
 %%
