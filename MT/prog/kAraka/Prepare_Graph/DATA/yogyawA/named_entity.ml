@@ -1,21 +1,7 @@
 value named_entity_list = 
 [
-"arjuna";
-"Barawa";
-"garga";
-"gArgya";
-"gudAkeSa";
-"hqRIkeSa";
-"hanumaw";
-"lakRmaNA";
-"manxoxarI";
-"nAraxa";
-"rAma";
-"rAvaNa";
-"Sanwanu";
-"SawqGna";
-"sIwA";
-"xaSaraWa";
-"xASaraWI"
+"gafgA";
+"himAlaya";
+"vinXya";
 ]
 ;

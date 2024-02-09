@@ -1179,7 +1179,6 @@ value sakarmaka_XAwu_list = [
 "pra_XmA1";
 "pra_aS1";
 "pra_arWa1";
-"pra_brU1";
 "pra_buX1";
 "pra_cal1";
 "pra_hA1";

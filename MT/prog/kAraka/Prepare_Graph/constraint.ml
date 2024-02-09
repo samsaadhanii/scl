@@ -1,4 +1,4 @@
-(* Copyright: Amba Kulkarni (2014-2023)                             *)
+(* Copyright: Amba Kulkarni (2014-2024)                             *)
 (* Indian Institute of Advanced Study, Shimla (Nov 2015 - Oct 2017)             *)
 
 (* To add: gam1 can not have both karma and aXikaraNa *)
@@ -477,8 +477,8 @@ value outgoing_incompatible_rels rpair = match rpair with
    |(19,11)
    |(7,8)     (* With karwqrahiwaviXeya_viSeRaNam there can not be karwA *)
    |(8,7) 
-   |(9,36)   (* viXeya viSeRaNa and viSeRaNa *)
-   |(36,9)   (* viXeya viSeRaNa and viSeRaNa *)
+   (*|(9,36)   (* viXeya viSeRaNa and viSeRaNa *) 
+   |(36,9)   (* viXeya viSeRaNa and viSeRaNa *) -- These two are commented. We can have we mawA buxXiH karmaNaH jyAyasI aswi, where mawAi is a viSeRaNam and jyAyasI is a viXeya-viSeRaNam *) 
    |(9,79)   (* viXeya viSeRaNa and upamAna *)
    |(79,9)   (* viXeya viSeRaNa and upamAna *)
    |(13,11)   (* With karmasamAnAXikaraNa there can not be gONa-karma 

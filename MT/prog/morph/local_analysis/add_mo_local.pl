@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2009-2023 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2009-2024 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -47,6 +47,10 @@ while($in = <STDIN>){
     if($MO{$1}) { 
        if($ana) { print "\/";}
        print $MO{$1};
+    }
+    if (($wrd =~ /-$/) && ($ana eq "")) {
+	 $wrd =~ s/\-$//;
+	print "$wrd<vargaH:sapUpa><level:0>";
     }
  } else {
     print $in;

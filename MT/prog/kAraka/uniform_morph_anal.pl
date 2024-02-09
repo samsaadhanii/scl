@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2010-2023 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2010-2024 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -88,6 +88,7 @@ while($in = <STDIN>){
             if($wrd_ana =~ /level ([0-9]+)\)(.*)/) { $wrd_ana =~ s/\(level ([0-9]+)\)(.*)/$2(level $1)/;}
             if($wrd_ana !~ /level/) { $wrd_ana =~ s/$/(level 1)/;}
 
+	     if (($cat eq "avy") && ($pUrvapaxa eq "y")) { $cat = "sup";} # This is to handle saha- as a pUrvapaxa
              print  "($cat (id $wrd_id) (cid $comp_id) (mid $ana_count) (word $wrd) $wrd_ana )\n";
              $ana_count++;
           }

@@ -58,6 +58,7 @@ pravyaWiw	vyaW1<upasarga:pra><kqw_prawyayaH:kwa><lifgam:puM><XAwuH:vyaWaz><gaNaH
 vimukwa	muc1<upasarga:vi><kqw_prawyayaH:kwa><lifgam:puM><XAwuH:mucLz><gaNaH:wuxAxiH>
 viyukwa	yuj2<upasarga:vi><kqw_prawyayaH:kwa><lifgam:puM><XAwuH:yujIzr><gaNaH:ruXAxiH>
 anuXAviwa	XAv1<upasarga:anu><kqw_prawyayaH:kwa><lifgam:puM><XAwuH:XAvuz><gaNaH:BvAxiH>
+prawiRTiwa	RWA1<upasarga:pra><kqw_prawyayaH:kwa><lifgam:puM><XAwuH:RWA><gaNaH:BvAxiH>
 anviwa	i1<upasarga:anu><kqw_prawyayaH:kwa><lifgam:puM><XAwuH:iN><gaNaH:axAxiH>
 niveSiwA	viS1<upasarga:ni><lifgam:swrI><kqw_prawyayaH:kwa><XAwuH:viS1><gaNaH:wuxAxiH>
 samAgawa	gam1<upasarga:sam_Af><kqw_prawyayaH:kwa><lifgam:puM><XAwuH:gamL><gaNaH:BvAxiH>

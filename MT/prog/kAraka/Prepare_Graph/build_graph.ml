@@ -1,4 +1,4 @@
-(* Copyright: Amba Kulkarni (2014-2023) 
+(* Copyright: Amba Kulkarni (2014-2024) 
  * Sanjeev Panchal (2015-2020) *)
 
 
@@ -429,7 +429,7 @@ value no_boundary_crossing_kwvA_lyap id1 id2 =
 
 
 value no_boundary_crossing_with_iwi id1 id2 text_type =
-  if (id1 = iva_pos.val -1) || (id2 = iva_pos.val -1) then False
+  if (id1 = iva_pos.val -1) || (id2 = iva_pos.val -1) then True
   else if text_type="Prose" then
            no_boundary_crossing1 id1 id2
        &&  no_boundary_crossing2 id1 id2 iwi_pos.val 
@@ -446,7 +446,7 @@ yaw SreyaH syAw niSciwaM brUhi waw me ; here there is no crossing, wince yaw waw
 ;
 
 value no_boundary_crossing_except_kwvA id1 id2 text_type =
-  if (id1 = iva_pos.val -1) || (id2 = iva_pos.val -1) then False
+  if (id1 = iva_pos.val -1) || (id2 = iva_pos.val -1) then True
   else if text_type="Prose" then
            no_boundary_crossing1 id1 id2
        &&  no_boundary_crossing2 id1 id2 iwi_pos.val 
@@ -460,7 +460,7 @@ yaw SreyaH syAw niSciwaM brUhi waw me ; here there is no crossing, wince yaw waw
 ;
 
 value no_boundary_crossing id1 id2 text_type =
-  if (id1 = iva_pos.val -1) || (id2 = iva_pos.val -1) then False
+  if (id1 = iva_pos.val -1) || (id2 = iva_pos.val -1) then True
   else if text_type="Prose" then
       no_boundary_crossing1 id1 id2
    && no_boundary_crossing_kwvA_lyap id1 id2
@@ -1685,17 +1685,21 @@ e.g. saH prAwaH BramaNAya gacCawi -- Amruta   14 July 2020
              (* if ((lakAraH2="lot") && (puruRaH2="ma"))
               then [ Relation (id1,cid1,mid1,"samboXyaH",id2,cid2,mid2,"3.14",d12)]
               else [] *)
-              && (member_of rt1 manuRyasaFjFAvAcI || member_of rt1 upAXi ) && not (pUrvapaxa1="y"|| uwwarapaxa1="y")
+               (* && (member_of rt1 manuRyasaFjFAvAcI || member_of rt1 upAXi ) && not (pUrvapaxa1="y"|| uwwarapaxa1="y") --
+These conditions under-generate. In the case of manuRyasaFjFAvAcI, the list needs to be populated. But more importantly, we have various adjectives such as anaGa, etc which are used for samboXana. *)
               then [ Relation (id1,cid1,mid1,"samboXyaH",id2,cid2,mid2,"4.34",d12)]
               else [ ]
            | Kqw (id2,cid2,mid2,_,_,_,_,kqw_prawyayaH2,_,_,_,_,_,_,viBakwiH2,_,_) -> 
                if (kqw_prawyayaH2="kwa" || kqw_prawyayaH2="kwavawu" || kqw_prawyayaH2="ac" || kqw_prawyayaH2="yaw") 
                  && (viBakwiH2=1) 
-                 && (id2 = total_wrds.val)
+                 (*&& (id2 = total_wrds.val)*)
           (* Need an example where the kwAnwa is not at the end, and has a relation with kamboXya, in Sloka form. This was overgenerating solutions. Only when an example is provided, we can uncomment this condition 
-           * || text_type="Sloka")  *)
+           * || text_type="Sloka")  
+-- Here is an example: लोके अस्मिन् द्विविधा निष्ठा पुरा प्रोक्ता मया अन्-अघ  
+In order to handle the over-generation, we add a constraint that samboXya can be attached only to the root *)
                  && ((id1 < 2 && text_type = "Prose") || text_type = "Sloka")
-                 && (member_of rt1 manuRyasaFjFAvAcI || member_of rt1 upAXi ) && not (pUrvapaxa1="y"|| uwwarapaxa1="y")
+               (* && (member_of rt1 manuRyasaFjFAvAcI || member_of rt1 upAXi ) && not (pUrvapaxa1="y"|| uwwarapaxa1="y") --
+These conditions under-generate. In the case of manuRyasaFjFAvAcI, the list needs to be populated. But more importantly, we have various adjectives such as anaGa, etc which are used for samboXana.  30th dec 2023 *)
 (* we need to think about how to allow compound names for samboXya  -- 2nd Aug 2023 *)
                (* To establish a relation between rAma and gawaH in 'rAma saH gawaH', but to stop such a relation in 'rAma gawaH saH mama puwraH aswi. *)
     (*           
@@ -2253,7 +2257,8 @@ value rlviSeRaNam m1 m2 text_type = match m2 with
            if no_boundary_crossing_except_kwvA id1 id2 text_type
               && (noun_agreement_vibh vacanam1 vacanam2 lifgam1 lifgam2 viBakwiH1 viBakwiH2) 
               &&  prose_order id1 id2 text_type
-	      && (not ((rt1="arWa" || rt1 = "ananwaram" || word1 = "sahiwaH" || rt1 = "saxqSa" || rt1 = "safjASa" || rt1 = "pramuKa" || rt1 = "pUrveNa") && (uwwarapaxa1 = "y")))
+	      (* && (not ((rt1="arWa" || rt1 = "ananwaram" || word1 = "sahiwaH" || rt1 = "saxqSa" || rt1 = "saFjASa" || rt1 = "pramuKa" || rt1 = "pUrveNa") && (uwwarapaxa1 = "y")))   Why this condition? Need examples. -- arWa is removed, since waw-arWam karma samAcara is possible. *)
+	      && (not ((rt1 = "ananwaram" || word1 = "sahiwaH" || rt1 = "saxqSa" || rt1 = "saFjASa" || rt1 = "pramuKa" || rt1 = "pUrveNa") && (uwwarapaxa1 = "y")))  
            then if ( member_of rt1 saMKyeya || member_of rt1 pUraNa || member_of rt1 kqxanwas || member_of rt1 taddhitaantas || member_of rt1 guNavacana  ||member_of rt2 sambanXavAcI
                   || pUrvapaxa1="y" || uwwarapaxa1="y" || ((rt1 = "sarva" || rt1 = "sarvA") &&  id1 > id2 && text_type = "Sloka")  || (pronoun3 rt1 ) (* || (pronominal12 rt1)*)
 (* pronominal12 rt is added to allow a viSeRaNa for asmax such as prapaSxBiH asmaxBiH -- SBG 1.39 *)
@@ -2285,8 +2290,8 @@ value rlviSeRaNam m1 m2 text_type = match m2 with
 	   then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.1b",d12)]
 	   else if pronoun3 rt2 && uwwarapaxa1="y"
 	   then [ Relation (id2,cid2,mid2,"viSeRaNam",id1,cid1,mid1,"17.1a",d12)]
-	   else [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.1c",d12)]
-
+	   else if rt2="yuRmax" then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.1c",d12)]
+	   else if rt1="arWa"  && uwwarapaxa1 = "y" then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.1d",d12)] 
            else if rt2 = get_assoc rt1 parAjAwi_list  (* && not (finite_verb_in_sentence.val = 50 && karwqsamverbs.val = 50) *)
            then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.2",d12)]
 
@@ -2300,6 +2305,7 @@ value rlviSeRaNam m1 m2 text_type = match m2 with
 
            else if rt1="miwra" && viBakwiH1=viBakwiH2 && vacanam1=vacanam2 && not ( member_of rt2 saMKyeya || member_of rt2 pUraNa )
            then [ Relation (id1,cid1,mid1,"aBexaH",id2,cid2,mid2,"17.4",d12)]
+	   else [ Relation (id2,cid2,mid2,"viSeRaNam",id1,cid1,mid1,"17.5",d12)]
            else []
 
            (*not (finite_verb_in_sentence.val = 50 && karwqsamverbs.val = 50)
@@ -2606,7 +2612,7 @@ value rlupapaxa m1 m2 text_type = match m2 with
                        [Relation (id1,cid1,mid1,"upa_AramBa_binxuH",id2,cid2,mid2,"25.16",d12)]
                  | _ -> match rt2 with
                      [  "Binna" | "BinnA" | "iwara" | "iwarA" | "pUrvA" | "pUrva" | "vilakRaNa" | 
-                       "vilakRaNA"| "anya" | "anyA" ->
+                       "vilakRaNA"| "anya" | "anyA" | "anyawra" ->
                        [Relation (id1,cid1,mid1,"wulanA_binxuH",id2,cid2,mid2,"25.17",d12)]
                      | _ -> []
                      ]
@@ -2962,6 +2968,8 @@ value rlRaRTIsambanXaH m1 m2 text_type = match m1 with
                                         && not (rt2 = "maXya")
                                         && not (rt2 = "arWa")
                                         && not (member_of rt2 taddhitaantas)
+                                        && not (rt2="jyAyas") (* This has IyasUna suffix, sense of warap is there *)
+                                        && not (rt2="jyAyasI") (* This has IyasUna suffix, sense of warap is there *)
                                         (* && (not (member_of rt2 guNavacana)) *)
                                         && (not ((rt1="uBa" || rt1="uBA") && viBakwiH1=6))
                                         then  [ Relation (id1,cid1,mid1,"RaRTIsambanXaH",id2,cid2,mid2,"28.8",d12)]
@@ -3660,6 +3668,8 @@ value rl_hi m1 m2 m3 text_type = match m1 with
 		     if (cid3 > 1) then [] else
                      let  d13 = if id1 > id3 then id1-id3 else id3-id1 in
 		     if (id1 > 3) then [ Relation (id1,cid1,mid1,"sambanXaH",id3,cid3,mid3,"50.1",d13)]
+		     else if ((id1=id3+1) && (id1 < 4)) 
+                     then [ Relation (id1,cid1,mid1,"kAraNa_xyowakaH",id3,cid3,mid3,"50.1",d13)]
 		     else
                      match m2 with
                      [ Sup (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,gen2,viB2,vac2,_) ->
@@ -4059,7 +4069,7 @@ value rl_nAma m1 m2 m3 text_type = match m3 with
                     nAma1 -- similar to prawiyogi;
                     nAma2 -- similar to anuyogi  *)
                     not (member_of rt3 saMKyeya)
-                    && (not (pronominal123 rt3) || rt3="kim")
+                    (* && (not (pronominal123 rt3) || rt3="kim") saFjFi can be a pronoun *)
                     && not (rt3="kiFciw" || rt3="kiFcana") 
                     then if id1=previous id2 && word2="nAma" && viBakwiH1=viBakwiH3
                          then [ Relation (id1,cid1,mid1,"saFjFA",id3,cid3,mid3,"39.2",d13)
@@ -4658,6 +4668,9 @@ value rlupamAna_upameya_sup m1 m2 m3 text_type = match m2 with
              ]
 	     else []
         | Wif (id3,cid3,mid3,_,_,_,_,_,_,_,_,_,_,_,_,_) -> 
+	     if (id3 = id2-1) 
+             then [ Relation (id2,cid2,mid2,"uwprekRA_xyowakaH",id3,cid3,mid3,"50.4",1)]
+             else
              match m1 with
              [ Wif (id1,cid1,mid1,_,_,_,_,_,_,_,_,_,_,_,_,_) ->
                    if id2 < id3
@@ -5047,7 +5060,9 @@ value rlca_samucciwa m1 m2 m3 text_type = match m2 with
         | Avy (id3,cid3,mid3,_,word3,_,_,_) -> 
               match m1 with
 	      [ Avy (id1,cid1,mid1,_,word1,_,_,_) -> 
+		 if not (word1 = "na") then
                  mark_sup_samucchiwa id1 id2 id3 cid1 cid2 cid3 mid1 mid2 mid3 0 0 0 0 word2 "58.15" "58.16"
+		 else []
               |  _ -> []
               ]
         | _ -> [] 
