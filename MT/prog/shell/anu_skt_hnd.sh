@@ -136,7 +136,8 @@ hnd_gen () {
    cut -f1 $temp_files_path/table.tsv > $temp_files_path/1
    cut -f2 $temp_files_path/table.tsv > $temp_files_path/2
    cut -f4- $temp_files_path/table.tsv > $temp_files_path/3
-   paste $temp_files_path/1 $temp_files_path/2 $temp_files_path/1 $temp_files_path/3  | grep -v '\t\t$' | grep . > $temp_files_path/anvaya.tsv
+   paste $temp_files_path/1 $temp_files_path/2 $temp_files_path/1 $temp_files_path/3  | grep -v '^	' | grep . > $temp_files_path/anvaya.tsv
+   # Damm linux does not allow \t, hence I had to type CTRL V + Tab!
    rm $temp_files_path/1 $temp_files_path/2 $temp_files_path/3
    fi
    #
