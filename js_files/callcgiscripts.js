@@ -257,7 +257,7 @@ function callashtadhyayisimulator(){
         var inputlang = encoding;
         var data = word;
         var stat = 0;
-	var regunisp=/[ अआइईउऊऋॠऌएऐओऔअंअःकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह ्ािीुूृॄॢेैोौंःळ\-ऽ]/;
+	var regunisp=/[।॥ अआइईउऊऋॠऌएऐओऔअंअःकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह ्ािीुूृॄॢेैोौंःळ\-ऽ]/;
 	var regsp=/[ aAiIuUqQLeEoOMHzkKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRshZ\-\.\n]/;
 	var regitranssp=/[ aiuURiLIeoMH.Nkgh~NcChj~nThDtdpbmyrlvwGYsSA\^\-]/;
 	var regslpsp=/[ aAiIuUfFlxeEoOMHkKgGNcCqQjJwWQRtTdDnpPbBmyrlvSzsh\-]/;
