@@ -969,9 +969,12 @@ sub gen_noun_forms{
 
  if(!&check_cat($rt_wx,$lcat)) {
       print "<center> <b>Please check your input. </b></center>";
- } else {
- if(($rt_wx eq "asmax") || ($rt_wx eq "yuRmax")) { $lifga_wx = "a";}# $lcat = "sarva";
-}
+ } 
+#else {
+ if ((($rt_wx eq "asmax") || ($rt_wx eq "yuRmax")) && ($lcat eq "sarva")) { $lifga_wx = "a";}# $lcat = "sarva";
+ if (($lcat eq "saMKyeyam") && (($rt_wx ne "eka") && ($rt_wx ne "eka") && ($rt_wx ne "xvi") && ($rt_wx ne "wri") && ($rt_wx ne "cawur"))) { $lifga_wx = "a";}
+ if (($lcat eq "saMKyA") && (($rt_wx ne "eka") && ($rt_wx ne "eka") && ($rt_wx ne "xvi") && ($rt_wx ne "wri") && ($rt_wx ne "cawur"))) { $lifga_wx = "a";}
+#}
 
  if($rt_wx =~ /^(.*-)([^\-]+)/) { $pUrvapaxa = $1; $rt_wx = $2;}
  else { $pUrvapaxa = "''";}
