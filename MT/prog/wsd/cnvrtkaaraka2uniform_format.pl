@@ -82,7 +82,7 @@ sub get_cat{
           } elsif($wrd_ana =~ /<kqw_prawyayaH.*<lifgam/) {
               $cat="kqw";
               $sent = "(kqw ";
-          } elsif($wrd_ana =~ /<kqw_prawyayaH.*<XAwuH/) {
+          } elsif($wrd_ana =~ /<vargaH:avy>.*<kqw_prawyayaH/) {
               $cat="kqw";
               $sent = "(avykqw ";
           } elsif($wrd_ana =~ /<vargaH:(nA|sarva|pUraNam|saMKyeyam|saMKyA)/) {

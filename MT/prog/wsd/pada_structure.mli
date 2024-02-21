@@ -32,7 +32,7 @@ and wif = ( int * int * string * string * string * string * string * string * st
   ; relata_pos_id : int
   ; relata_pos_cid : int
   }*)
-and kqw = ( int * int * string * string * string * string * string * string * string * string * string * string * string * int * string * string * int * int)
+and kqw = ( int * int * string *  string * string * string * string * string * string * string * string * string * int * string * string * int * int)
 (*{ id : int   
   ; cid : int   
   ; word : string   
@@ -40,7 +40,7 @@ and kqw = ( int * int * string * string * string * string * string * string * st
   ; upasarga : string
   ; sanAxiH : string   
   ; kqw_prawyayaH : string   
-  ; dhatu : string   
+   (*; dhatu : string   *)
   ; gaNaH : string
   ; kqw_pratipadika : string   
   ; pUrvapaxa : string
@@ -75,7 +75,7 @@ and avywaxXiwa = ( int * int * string * string * string * string * string  * str
   ; relata_pos_id : int
   ; relata_pos_cid : int
   }*)
-and avykqw = ( int * int * string * string * string * string * string * string * string * string * string * string * int * int)
+and avykqw = ( int * int * string * string * string * string * string * string * string * string * string * int * int)
 (*{ id : int   
   ; cid : int   
   ; word : string   
@@ -85,7 +85,7 @@ and avykqw = ( int * int * string * string * string * string * string * string *
   ; upasarga : string
   ; sanAxiH : string
   ; kqw_prawyayaH : string   
-  ; dhatu : string
+  (*; dhatu : string *)
   ; gaNaH : string   
   ; rel_nm : string
   ; relata_pos_id : int

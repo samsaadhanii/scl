@@ -3661,6 +3661,16 @@ value rlkarmasamAnAXikaraNam m1 m2 m3 text_type =
    ]
 ;
 
+(* Algo for 'hi' disambiguation
+    
+ pos(hi) > 3 -- sambanXaH
+ X Y 'hi' -> sambanXaH, where X and Y are not wif
+ X wif 'hi'  / wif 'hi' --> kAraNa_xyowakaH
+ wif 'yax' 'hi' ->  kAraNa_xyowakaH
+ wif 'yaxA' 'hi' ->  sambanXaH
+ wif Pronoun 'hi' ->  sambanXaH
+ wif Noun 'hi' ->  kAraNa_xyowaka
+
 value rl_hi m1 m2 m3 text_type = match m1 with
         [ Avy (id1,cid1,mid1,_,rt1,_,_,_) ->
               if rt1 = "hi" then match m3 with

@@ -132,8 +132,8 @@ while($tmpin = <STDIN>){
 
       } elsif($cat eq "kqw_noun") {
 
-       ($rt, $kqw, $XAwu, $gaNa, $kqw_pratipadika, $lifgam, $viBakwi, $vacana,$rel) = 
-        split(/:/, &get_kqw_noun_features($in));
+      # ($rt, $kqw, $XAwu, $gaNa, $kqw_pratipadika, $lifgam, $viBakwi, $vacana,$rel) = split(/:/, &get_kqw_noun_features($in));
+       ($rt, $kqw, $gaNa, $kqw_pratipadika, $lifgam, $viBakwi, $vacana,$rel) = split(/:/, &get_kqw_noun_features($in));
 
 	#	print "rt = $rt\n";
        $key = $kqw_pratipadika."_".$lifgam;
@@ -205,7 +205,8 @@ while($tmpin = <STDIN>){
 
        #print "ans = $ans\n";
       } elsif($cat eq "kqw_avy") {
-        ($rt,$kqw,$XAwu,$gaNa,$rel) = (split/:/, &get_kqw_avy_features($in));
+       # ($rt,$kqw,$XAwu,$gaNa,$rel) = (split/:/, &get_kqw_avy_features($in));
+        ($rt,$kqw,$gaNa,$rel) = (split/:/, &get_kqw_avy_features($in));
 
 	#print "rt = $rt\n";
        $map_rt = &get_dict_mng($rt, $rVERB_RT);
@@ -483,16 +484,18 @@ sub get_kqw_avy_features{
 my($in) = @_;
 
 my $ans = "";
-if($in =~ /^.*rt:([^;]+).*vargaH:avy;.*kqw_prawyayaH:([^;]+);XAwuH:([^;]+);gaNaH:([^;]+).*rel_nm:([^;]*;)/){
+#if($in =~ /^.*rt:([^;]+).*vargaH:avy;.*kqw_prawyayaH:([^;]+);XAwuH:([^;]+);gaNaH:([^;]+).*rel_nm:([^;]*;)/){
+if($in =~ /^.*rt:([^;]+).*vargaH:avy;.*kqw_prawyayaH:([^;]+);gaNaH:([^;]+).*rel_nm:([^;]*;)/){
      $rt = $1;
      $kqw_prawyayaH = $2;
-     $XAwu = $3;
-     $gaNa = $4;
-     $rel = $5;
+     #$XAwu = $3;
+     $gaNa = $3;
+     $rel = $4;
      $in =~ s/upasarga:X;//;
      if ($in =~ /upasarga:([^;]+)/) { $rt = $1."_".$rt;}
      if ($in =~ /sanAxi_prawyayaH:([^;]+)/) { $rt = $rt."_".$1;}
- $ans = join(":",$rt,$kqw_prawyayaH,$XAwu,$gaNa,$rel);
+ #$ans = join(":",$rt,$kqw_prawyayaH,$XAwu,$gaNa,$rel);
+ $ans = join(":",$rt,$kqw_prawyayaH,$gaNa,$rel);
 }
 $ans;
 }
@@ -526,17 +529,18 @@ my($in) = @_;
 
 my $ans = "";
 
-  if($in =~ /^.*rt:([^;]+).*kqw_prawyayaH:([^;]+);.*XAwuH:([^;]+);gaNaH:([^;]+).*kqw_pratipadika:([^;]+).*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;}]+).*rel_nm:([^;]*;)/){
+  #if($in =~ /^.*rt:([^;]+).*kqw_prawyayaH:([^;]+);.*XAwuH:([^;]+);gaNaH:([^;]+).*kqw_pratipadika:([^;]+).*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;}]+).*rel_nm:([^;]*;)/){
+  if($in =~ /^.*rt:([^;]+).*kqw_prawyayaH:([^;]+);.*gaNaH:([^;]+).*kqw_pratipadika:([^;]+).*lifgam:([^;]+).*viBakwiH:([^;]+).*vacanam:([^;}]+).*rel_nm:([^;]*;)/){
 
      $rt = $1;
      $kqw_prawyayaH = $2;
-     $XAwu = $3;
-     $gaNa = $4;
-     $kqw_prAwipaxika = $5;
-     $lifgam = $6;
-     $viB = $7;
-     $vacana = $8;
-     $rel = $9;
+     #$XAwu = $3;
+     $gaNa = $3;
+     $kqw_prAwipaxika = $4;
+     $lifgam = $5;
+     $viB = $6;
+     $vacana = $7;
+     $rel = $8;
      if($in =~ /kqw_prawyayaH:([^;]+);prayogaH:([^;]+)/) {
         $kqw_prawyayaH = $1."_".$2;
       }
@@ -547,7 +551,8 @@ my $ans = "";
   if ($in =~ /upasarga:([^;]+)/) { $rt = $1."_".$rt;}
   if ($in =~ /sanAxi_prawyayaH:([^;]+)/) { $rt = $rt."_".$1;}
   #print "rt = $rt\n";
-  $ans = join(":",$rt,$kqw_prawyayaH,$XAwu,$gaNa,$kqw_prAwipaxika,$lifgam,$viB,$vacana,$rel);
+  #$ans = join(":",$rt,$kqw_prawyayaH,$XAwu,$gaNa,$kqw_prAwipaxika,$lifgam,$viB,$vacana,$rel);
+  $ans = join(":",$rt,$kqw_prawyayaH,$gaNa,$kqw_prAwipaxika,$lifgam,$viB,$vacana,$rel);
   }
 $ans;
 }

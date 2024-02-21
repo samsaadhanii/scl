@@ -970,11 +970,18 @@ sub gen_noun_forms{
  if(!&check_cat($rt_wx,$lcat)) {
       print "<center> <b>Please check your input. </b></center>";
  } 
-#else {
  if ((($rt_wx eq "asmax") || ($rt_wx eq "yuRmax")) && ($lcat eq "sarva")) { $lifga_wx = "a";}# $lcat = "sarva";
- if (($lcat eq "saMKyeyam") && (($rt_wx ne "eka") && ($rt_wx ne "eka") && ($rt_wx ne "xvi") && ($rt_wx ne "wri") && ($rt_wx ne "cawur"))) { $lifga_wx = "a";}
- if (($lcat eq "saMKyA") && (($rt_wx ne "eka") && ($rt_wx ne "eka") && ($rt_wx ne "xvi") && ($rt_wx ne "wri") && ($rt_wx ne "cawur"))) { $lifga_wx = "a";}
-#}
+ elsif ($lcat eq "saMKyeyam") {
+     if ($rt_wx =~ /n$/) { $lifga_wx = "a";}
+     elsif ($rt_wx =~ /RaR$/) { $lifga_wx = "a";}
+     elsif ($rt_wx =~ /wi$/) { $lifga_wx = "swrI";}
+     elsif ($rt_wx =~ /wI$/) { $lifga_wx = "swrI";}
+     elsif ($rt_wx =~ /w$/) { $lifga_wx = "swrI";}
+     elsif (($rt_wx ne "eka") && ($rt_wx ne "ekA") && ($rt_wx ne "xvi") && ($rt_wx ne "wri") && ($rt_wx ne "cawur")) { $lifga_wx = "swrI";}
+     else { $lifga_wx = "napuM";}
+ } elsif ($lcat eq "saMKyA") {
+    if (($rt_wx !~ /wi$/) && ($rt_wx !~ /w$/)) { $lifga_wx = "napuM";} else { $lifga_wx = "swrI";}
+ }
 
  if($rt_wx =~ /^(.*-)([^\-]+)/) { $pUrvapaxa = $1; $rt_wx = $2;}
  else { $pUrvapaxa = "''";}
