@@ -3669,7 +3669,7 @@ value rlkarmasamAnAXikaraNam m1 m2 m3 text_type =
  wif 'yax' 'hi' ->  kAraNa_xyowakaH
  wif 'yaxA' 'hi' ->  sambanXaH
  wif Pronoun 'hi' ->  sambanXaH
- wif Noun 'hi' ->  kAraNa_xyowaka
+ wif Noun 'hi' ->  kAraNa_xyowaka *)
 
 value rl_hi m1 m2 m3 text_type = match m1 with
         [ Avy (id1,cid1,mid1,_,rt1,_,_,_) ->
