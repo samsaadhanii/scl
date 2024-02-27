@@ -59,7 +59,7 @@ function mycallverbgen() {
     prayogaH_paxI = 'karmaNi';
   }
 
-  if (enc == "dev") {
+  if ($("#outenc").val() == 'dev') {
     outenc = "Unicode";
   }
   else {
