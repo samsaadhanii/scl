@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 
-import os
 import csv
-import openpyxl
 
 
 def load_probabilities(prob_file):
@@ -23,34 +21,15 @@ def load_probabilities(prob_file):
 def parse_data(fname):
     '''Parses input spreadsheet file with dependency graph'''
 
-    fexte = os.path.splitext(fname)[1].strip('.')
-
     data = {}
 
-    if fexte in ('csv', 'tsv'):
-        with open(fname) as ifile:
-            reader = csv.reader(ifile, delimiter='\t')
-            next(reader)
-            for row in reader:
-                if not row:
-                    continue
-                data[row[0]] = row[1:]
-
-    elif fexte in ('xls', 'xlsx'):
-        wb = openpyxl.load_workbook(fname)
-        ws = wb.active
-        for row in ws.values:
-            if row[0] == 'index':
+    with open(fname) as ifile:
+        reader = csv.reader(ifile, delimiter='\t')
+        next(reader)
+        for row in reader:
+            if not row:
                 continue
-            fields = []
-            for field in row:
-                if type(field) in [int, float]:
-                    fields.append(str(field))
-                elif field is None:
-                    fields.append('')
-                else:
-                    fields.append(field)
-            data[fields[0]] = fields[1:]
+            data[row[0]] = row[1:]
 
     is_deptree = False
 
@@ -144,19 +123,10 @@ def write_out(data, is_standalone, out_file):
         header_row = [x.replace('@', '') for x in header_row]
 
     if out_file:
-        fexte = os.path.splitext(out_file)[1]
-        if fexte == '.xlsx':
-            wb = openpyxl.Workbook()
-            ws = wb.active
-            ws.append(header_row)
-            for row in data:
-                ws.append(row)
-            wb.save(out_file)
-        else:
-            with open(out_file, 'w') as ofile:
-                writer = csv.writer(ofile, delimiter='\t')
-                writer.writerow(header_row)
-                writer.writerows(data)
+        with open(out_file, 'w') as ofile:
+            writer = csv.writer(ofile, delimiter='\t')
+            writer.writerow(header_row)
+            writer.writerows(data)
     else:
         print('Original Order:', ' '.join([x[1] for x in data]))
         data.sort(key=lambda x: float(x[2]))
