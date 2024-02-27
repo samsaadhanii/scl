@@ -214,7 +214,7 @@ morph: 	{}
                          tmp[0] = '\0';
                       }
                       else if(!strcmp(vargaH,"sapUpa")) {
-                         sprintf(tmp,"%s<vargaH:%s><lifgam:a><level:1>",word,vargaH);
+                         sprintf(tmp,"%s<vargaH:%s><level:0>",word,vargaH);
 			 strcat(ans,tmp);
                          tmp[0] = '\0';
                       }
