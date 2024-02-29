@@ -13,21 +13,31 @@
     
     <table>
     
+      <tr>
+        <td colspan="2">
+          <label for="enc">लिपिः / Input Encoding</label>
+          <select class="form-select" name="enc" id="enc" onchange="update_encoding();">
+            <option value="dev">देवनागरी</option>
+            <option value="wx">WX</option>
+            <option value="rom">Roman IAST</option>
+          </select>
+        </td>
+        <td colspan="2">
+          <label for="outenc">लिपिः / Output Encoding</label>
+          <select class="form-select" name="outenc" id="outenc">
+            <option value="dev">देवनागरी</option>
+            <option value="rom">Roman IAST</option>
+          </select>
+        </td>
+      </tr>
+
       <tr class="no-pad">
-        <td><label for="enc">लिपिः / Encoding</label></td>
         <td><label for="upasargaH" id="lbl-upasargaH">उपसर्गः</label></td>
         <td><label for="XAwu" id="lbl-XAwu">धातु</label></td>
         <td></td>
       </tr>
     
       <tr>
-    
-        <td>
-          <select class="form-select" name="enc" id="enc" onchange="update_encoding();">
-            <option value="dev">देवनागरी</option>
-            <option value="rom">Roman IAST</option>
-          </select>
-        </td>
     
         <td>
           <select name="upasargaH" id="upasargaH"></select>

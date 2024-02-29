@@ -35,8 +35,9 @@ package main;
         my $word=$param{vb};
         my $upasarga=$param{upasarga};
         my $encoding=$param{encoding};
+        my $outencoding=$param{outencoding};
         if($param{mode} eq "json") { $format = "JSON";}
-        if($param{outencoding} eq "IAST") { $outencoding = "IAST";} else { $outencoding = "Devanagari";}
+        #if($param{outencoding} eq "IAST") { $outencoding = "IAST";} else { $outencoding = "Devanagari";}
 
 	if($format eq "web") {
            &open_log($GlblVar::LOG, $GlblVar::TFPATH);
@@ -48,13 +49,13 @@ package main;
            print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
          }
 
-	if ($encoding eq "IAST") {
+	if ($outencoding eq "IAST") {
 	 $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8roman.out";
 	} else {
 	 $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1";
 	}
 
-	my @forms= &gen_kqw_forms($word,$upasarga,$format,$conversion_program,$encoding,$outencoding);
+	my @forms= &gen_kqw_forms($word,$upasarga,$format,$conversion_program,$outencoding);
 	print @forms;
 		
 	if($format eq "web") {

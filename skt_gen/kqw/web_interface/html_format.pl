@@ -41,15 +41,15 @@ $column_headings_DEV="<tr bgcolor='tan'><td>कृन्नाम</td><td align=
 
 my $word = $ARGV[0];
 my $upa = $ARGV[1];
-my $encoding = $ARGV[2];
+my $outencoding = $ARGV[2];
 my $XAwu = $ARGV[3];
 my $gaNa = $ARGV[4];
 
-if ($encoding eq "IAST") {
+if ($outencoding eq "IAST") {
          $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8roman.out";
  } else {
          $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1";
-	 $encoding = "DEV";
+	 $outencoding = "DEV";
  }
 
 
@@ -67,14 +67,14 @@ while($in = <STDIN>){
   chomp($in);
 
   if($line_no == 0) {
-     &table_header($upa_rt_en,$encoding);
-     if ($encoding eq "IAST") { print $column_headings_IAST; } 
+     &table_header($upa_rt_en,$outencoding);
+     if ($outencoding eq "IAST") { print $column_headings_IAST; } 
      else { print $column_headings_DEV; }
   }
   if($line_no == 13) {
      &table_end;
      &table_header("","");
-     if ($encoding eq "IAST") { print $column_headings_avy_IAST; } 
+     if ($outencoding eq "IAST") { print $column_headings_avy_IAST; } 
      else { print $column_headings_avy_DEV; }
   }
 
@@ -89,7 +89,7 @@ while($in = <STDIN>){
   if($line_no < 13) {
      print "<tr><td  width='10%' bgcolor='#461B7E'  align='middle'>\n";
      print "<font color=\"white\" size=\"4\">";
-     if ($encoding eq "IAST") {
+     if ($outencoding eq "IAST") {
         $k = $kqw_prawyayaH_IAST[$line_no];
      } else {
         $k = $kqw_prawyayaH[$line_no];
@@ -101,7 +101,7 @@ while($in = <STDIN>){
         print "<font color=\"black\" size=\"4\">\n";
         if ($in[$c] eq "-" ) { print "$in[$c]</font></td>\n";}
         else {
-           print "<a href=\"javascript:generate_kqwnoun_forms('$in[$c]','$rt','$upa','$k','$XAwu','$gaNa','$lifga_wx[$c]','$encoding')\">$in[$c]</a></font></td>\n";
+           print "<a href=\"javascript:generate_kqwnoun_forms('$in[$c]','$rt','$upa','$k','$XAwu','$gaNa','$lifga_wx[$c]','$outencoding','$outencoding')\">$in[$c]</a></font></td>\n";
         }
       }
      } else {
@@ -109,13 +109,13 @@ while($in = <STDIN>){
        print "<tr><td  width='10%' bgcolor='#461B7E'  align='middle'>\n";
        print "<font color=\"white\" size=\"4\">";
        if($upa eq "-") {
-        if ($encoding eq "IAST") {
+        if ($outencoding eq "IAST") {
          print $kqw_avy_prawyayaH_IAST[$c];
         } else {
          print $kqw_avy_prawyayaH[$c];
         }
        } else {
-         if ($encoding eq "IAST") {
+         if ($outencoding eq "IAST") {
            print $kqw_avy_upa_prawyayaH_IAST[$c];
          } else {
            print $kqw_avy_upa_prawyayaH[$c];
@@ -137,8 +137,8 @@ while($in = <STDIN>){
 sub script_header{
 
 print "<script>\n";
-print "function generate_kqwnoun_forms(prAwi,rt,upasarga,kqw_prawyaya,XAwu,gaNa,lifga,encod){\n";
-print "  window.open('/cgi-bin/$GlblVar::SCL_CGI/skt_gen/kqw/kqwnoun_gen.cgi?encoding='+encod+'&prAwi='+prAwi+'&gen='+lifga+'&rt='+rt+'&upasarga='+upasarga+'&kqw_prawyaya='+kqw_prawyaya+'&XAwu='+XAwu+'&gaNa='+gaNa+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
+print "function generate_kqwnoun_forms(prAwi,rt,upasarga,kqw_prawyaya,XAwu,gaNa,lifga,encod,outencod){\n";
+print "  window.open('/cgi-bin/$GlblVar::SCL_CGI/skt_gen/kqw/kqwnoun_gen.cgi?encoding='+encod+'&prAwi='+prAwi+'&gen='+lifga+'&rt='+rt+'&upasarga='+upasarga+'&kqw_prawyaya='+kqw_prawyaya+'&XAwu='+XAwu+'&gaNa='+gaNa+'&outencoding='+outencod+'','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes').focus();\n";
 print "}\n";
 print "</script>\n";
 
@@ -157,9 +157,9 @@ print "</body></html>\n";
 1;
 
 sub table_header{
-     my($upa_rt_en,$encoding) = @_;
+     my($upa_rt_en,$outencoding) = @_;
      print "<center>\n";
-     print "<a href=\"javascript:show('$upa_rt_en','$encoding')\">";
+     print "<a href=\"javascript:show('$upa_rt_en','$outencoding')\">";
      print "$upa_rt_en<\/a>\n";
      print "<table bordercolor=\"blue\" border=0 cellpadding=2 cellspacing=2 width='50%'>\n"; 
 }

@@ -64,9 +64,8 @@ my $myPATH = "$GlblVar::SCLINSTALLDIR/skt_gen/noun";
         #print "kqw_prawyaya = $kqw_prawyaya\n";
         #print "XAwu = $XAwu\n";
         #print "gaNa = $gaNa\n";
-        #print "encoding = $encoding\n";
 
-	my @forms= &gen_kqwnoun_forms($prAwi,$gen,$rt, $upasarga,$kqw_prawyaya, $XAwu, $gaNa, $encoding, $outencoding);
+	my @forms= &gen_kqwnoun_forms($prAwi,$gen,$rt, $upasarga,$kqw_prawyaya, $XAwu, $gaNa, $encoding, $encoding);
         print @forms;
 
        if($GlblVar::LOG eq "true"){

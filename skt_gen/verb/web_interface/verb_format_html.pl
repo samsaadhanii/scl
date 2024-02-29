@@ -25,47 +25,51 @@
 @person_iast = ("prathamapuruṣaḥ","madhyamapuruṣaḥ","uttamapuruṣaḥ");
 
 my $outencoding = $ARGV[0];
-$line_no = 0;
-$lakAra_no = 0;
+my $line_no = 0;
+my $lakAra_no = 0;
+my $table = "";
+my $value = "nil";
 while($in = <STDIN>){
   chomp($in);
- #if($in && ($in !~ /\?/))
-if($in){
-  if($in=~/\?/){
+  if($in){
+    if($in=~/\?/){
          $in ="-";
-  }
-  if($line_no == 0) {
-     print "<table border=0>\n";
-     print "<center><tr><td colspan=4 align=\"center\"><font color=\"brown\" size=\"5\"><b>";
+    }
+    if($line_no == 0) {
+     $table .=  "<table border=0>\n";
+     $table .= "<center><tr><td colspan=4 align=\"center\"><font color=\"brown\" size=\"5\"><b>";
      if ($outencoding eq "IAST") {
-     print $disp_lakAra_iast[$lakAra_no];
+        $table .= $disp_lakAra_iast[$lakAra_no];
      } else {
-     print $disp_lakAra[$lakAra_no];
+        $table .= $disp_lakAra[$lakAra_no];
      }
-     print "</b></font></td></tr>\n";
+        $table .= "</b></font></td></tr>\n";
      if ($outencoding eq "IAST") {
-     print "<tr  bgcolor='tan'><td></td><td align=\"center\"><font color=\"white\" size=\"4\">ekavacanam</font></td><td align=\"center\"><font color=\"white\" size=\"4\">dvivacanam</font></td><td align=\"center\"><font color=\"white\" size=\"4\">bahuvacanam</font></td></tr>\n";
-     }else {
-     print "<tr  bgcolor='tan'><td></td><td align=\"center\"><font color=\"white\" size=\"4\">एकवचनम्</font></td><td align=\"center\"><font color=\"white\" size=\"4\">द्विवचनम्</font></td><td align=\"center\"><font color=\"white\" size=\"4\">बहुवचनम्</font></td></tr>\n";
+        $table .= "<tr  bgcolor='tan'><td></td><td align=\"center\"><font color=\"white\" size=\"4\">ekavacanam</font></td><td align=\"center\"><font color=\"white\" size=\"4\">dvivacanam</font></td><td align=\"center\"><font color=\"white\" size=\"4\">bahuvacanam</font></td></tr>\n";
+     } else {
+        $table .= "<tr  bgcolor='tan'><td></td><td align=\"center\"><font color=\"white\" size=\"4\">एकवचनम्</font></td><td align=\"center\"><font color=\"white\" size=\"4\">द्विवचनम्</font></td><td align=\"center\"><font color=\"white\" size=\"4\">बहुवचनम्</font></td></tr>\n";
      }
+    }
+    $in =~ s/[ \t][ \t]*/ /g;
+    if($in eq "") { $in = "-\t-\t-";}
+    @in = split(/ /,$in);
+    if($in[0] eq "") { $in[0] = "-";} 
+    if($in[1] eq "") { $in[1] = "-";}
+    if($in[2] eq "") { $in[2] = "-";}
+    if (($in[0] ne "-") || ($in[1] ne "-") || ($in[2] ne "-")) { $value = "yes"}
+       $table .= "<tr><td width=20% bgcolor='#461B7E'  align='middle'><font color=\"white\" size=\"4\">";
+    if ($outencoding eq "IAST") {
+       $table .=  $person_iast[$line_no];
+    } else {
+       $table .=  $person[$line_no];
+    }
+       $table .= "</font></td><td width=27% align=\"center\" bgcolor='#E6CCFF'><font color=\"black\" size=\"4\"> $in[0]</font> </td><td width=27% align=\"center\" bgcolor='#E6CCFF'><font color=\"black\" size=\"4\">$in[1]</font></td><td width=27% align=\"center\" bgcolor='#E6CCFF'><font color=\"black\" size=\"4\">$in[2]</font></td></tr>\n";
+    if($line_no == 2) {
+            $table .=  "</center></table>\n";
+    }
+    $line_no++;
+    if($line_no == 3) {$line_no = 0; $lakAra_no++;}
   }
-  $in =~ s/[ \t][ \t]*/ /g;
-  if($in eq "") { $in = "-\t-\t-";}
-  @in = split(/ /,$in);
-  if($in[0] eq "") { $in[0] = "-";}
-  if($in[1] eq "") { $in[1] = "-";}
-  if($in[2] eq "") { $in[2] = "-";}
-  print "<tr><td width=20% bgcolor='#461B7E'  align='middle'><font color=\"white\" size=\"4\">";
-  if ($outencoding eq "IAST") {
-    print $person_iast[$line_no];
-  } else {
-    print $person[$line_no];
-  }
-  print "</font></td><td width=27% align=\"center\" bgcolor='#E6CCFF'><font color=\"black\" size=\"4\"> $in[0]</font> </td><td width=27% align=\"center\" bgcolor='#E6CCFF'><font color=\"black\" size=\"4\">$in[1]</font></td><td width=27% align=\"center\" bgcolor='#E6CCFF'><font color=\"black\" size=\"4\">$in[2]</font></td></tr>\n";
-	if($line_no == 2) {
-           print "</center></table>\n";
-        }
-  $line_no++;
-  if($line_no == 3) {$line_no = 0; $lakAra_no++;}
- }
 }
+if ($value eq "nil") { print " <center>\n <font color=\"green\" size=\"6\"><b> Forms not found\n </font></center>";}
+else { print $table;}
