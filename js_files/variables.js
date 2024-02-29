@@ -540,9 +540,9 @@ var pref_info = {
 
 var root_info = {
   'aMSa1_aMSa_curAxiH_samaGAwe': {
-    dev: "अंश (अंश) समघाते चुरादिः",
-    rom: "aṃśa (aṃśa) samaghāte curādiḥ",
-    wx: "aMSa (aMSa) samaGAwe curAxiH"
+    dev: "अंस -> अंश (अंश) समघाते चुरादिः",
+    rom: "aṃsa -> aṃśa (aṃśa) samaghāte curādiḥ",
+    wx: "aMsa -> aMSa (aMSa) samaGAwe curAxiH"
   },
   'aMsa1_aMsa_curAxiH_samAGAwe': {
     dev: "अंस (अंस) समाघाते चुरादिः",
@@ -575,19 +575,19 @@ var root_info = {
     wx: "akR (akRUṁ) safGAwe BvAxiH"
   },
   'ag1_agaz_BvAxiH_kutilAyAM_gawO': {
-    dev: "अग् (अगँ) कुटिलायां_गतौ भ्वादिः",
-    rom: "ag (agaṁ) kuṭilāyāṃ_gatau bhvādiḥ",
-    wx: "ag (agaṁ) kutilAyAM_gawO BvAxiH"
+    dev: "अङ्ग् -> अग् (अगँ) कुटिलायां_गतौ भ्वादिः",
+    rom: "aṅg -> ag (agaṁ) kuṭilāyāṃ_gatau bhvādiḥ",
+    wx: "afg -> ag (agaṁ) kutilAyAM_gawO BvAxiH"
   },
   'ag2_agiz_BvAxiH_gawO': {
-    dev: "अग् (अगिँ) गतौ भ्वादिः",
-    rom: "ag (agiṁ) gatau bhvādiḥ",
-    wx: "ag (agiṁ) gawO BvAxiH"
+    dev: "अङ्ग् -> अग् (अगिँ) गतौ भ्वादिः",
+    rom: "aṅg -> ag (agiṁ) gatau bhvādiḥ",
+    wx: "afg -> ag (agiṁ) gawO BvAxiH"
   },
   'aG1_aGiz_BvAxiH_gawyAkRepe': {
-    dev: "अघ् (अघिँ) गत्याक्षेपे भ्वादिः",
-    rom: "agh (aghiṁ) gatyākṣepe bhvādiḥ",
-    wx: "aG (aGiṁ) gawyAkRepe BvAxiH"
+    dev: "अङ्घ् -> अघ् (अघिँ) गत्याक्षेपे भ्वादिः",
+    rom: "aṅgh -> agh (aghiṁ) gatyākṣepe bhvādiḥ",
+    wx: "afG -> aG (aGiṁ) gawyAkRepe BvAxiH"
   },
   'afka1_afka_curAxiH_paxe': {
     dev: "अङ्क (अङ्क) पदे चुरादिः",
@@ -615,44 +615,44 @@ var root_info = {
     wx: "ac (aciṁ) gawO BvAxiH"
   },
   'aj1_ajaz_BvAxiH_kRepaNe': {
-    dev: "अज् (अजँ) क्षेपणे भ्वादिः",
-    rom: "aj (ajaṁ) kṣepaṇe bhvādiḥ",
-    wx: "aj (ajaṁ) kRepaNe BvAxiH"
+    dev: "अञ्ज् -> अज् (अजँ) क्षेपणे भ्वादिः",
+    rom: "añj -> aj (ajaṁ) kṣepaṇe bhvādiḥ",
+    wx: "aFj -> aj (ajaṁ) kRepaNe BvAxiH"
   },
   'aj1_ajaz_BvAxiH_gawO': {
-    dev: "अज् (अजँ) गतौ भ्वादिः",
-    rom: "aj (ajaṁ) gatau bhvādiḥ",
-    wx: "aj (ajaṁ) gawO BvAxiH"
+    dev: "अञ्ज् -> अज् (अजँ) गतौ भ्वादिः",
+    rom: "añj -> aj (ajaṁ) gatau bhvādiḥ",
+    wx: "aFj -> aj (ajaṁ) gawO BvAxiH"
   },
   'aj2_ajiz_curAxiH_BARArWe': {
-    dev: "अज् (अजिँ) भाषार्थे चुरादिः",
-    rom: "aj (ajiṁ) bhāṣārthe curādiḥ",
-    wx: "aj (ajiṁ) BARArWe curAxiH"
+    dev: "अञ्ज् -> अज् (अजिँ) भाषार्थे चुरादिः",
+    rom: "añj -> aj (ajiṁ) bhāṣārthe curādiḥ",
+    wx: "aFj -> aj (ajiṁ) BARArWe curAxiH"
   },
   'aj2_ajiz_curAxiH_BAsArWe': {
-    dev: "अज् (अजिँ) भासार्थे चुरादिः",
-    rom: "aj (ajiṁ) bhāsārthe curādiḥ",
-    wx: "aj (ajiṁ) BAsArWe curAxiH"
+    dev: "अञ्ज् -> अज् (अजिँ) भासार्थे चुरादिः",
+    rom: "añj -> aj (ajiṁ) bhāsārthe curādiḥ",
+    wx: "aFj -> aj (ajiṁ) BAsArWe curAxiH"
   },
   'at1_ataz_BvAxiH_gawO': {
-    dev: "अट् (अटँ) गतौ भ्वादिः",
-    rom: "aṭ (aṭaṁ) gatau bhvādiḥ",
-    wx: "at (ataṁ) gawO BvAxiH"
+    dev: "अन्ट् -> अट् (अटँ) गतौ भ्वादिः",
+    rom: "anṭ -> aṭ (aṭaṁ) gatau bhvādiḥ",
+    wx: "ant -> at (ataṁ) gawO BvAxiH"
   },
   'at2_atiz_BvAxiH_gawO': {
-    dev: "अट् (अटिँ) गतौ भ्वादिः",
-    rom: "aṭ (aṭiṁ) gatau bhvādiḥ",
-    wx: "at (atiṁ) gawO BvAxiH"
+    dev: "अन्ट् -> अट् (अटिँ) गतौ भ्वादिः",
+    rom: "anṭ -> aṭ (aṭiṁ) gatau bhvādiḥ",
+    wx: "ant -> at (atiṁ) gawO BvAxiH"
   },
   'aT1_aTaz_BvAxiH_gawO': {
-    dev: "अठ् (अठँ) गतौ भ्वादिः",
-    rom: "aṭh (aṭhaṁ) gatau bhvādiḥ",
-    wx: "aT (aTaṁ) gawO BvAxiH"
+    dev: "अण्ठ् -> अठ् (अठँ) गतौ भ्वादिः",
+    rom: "aṇṭh -> aṭh (aṭhaṁ) gatau bhvādiḥ",
+    wx: "aNT -> aT (aTaṁ) gawO BvAxiH"
   },
   'aT2_aTiz_BvAxiH_gawO': {
-    dev: "अठ् (अठिँ) गतौ भ्वादिः",
-    rom: "aṭh (aṭhiṁ) gatau bhvādiḥ",
-    wx: "aT (aTiṁ) gawO BvAxiH"
+    dev: "अण्ठ् -> अठ् (अठिँ) गतौ भ्वादिः",
+    rom: "aṇṭh -> aṭh (aṭhiṁ) gatau bhvādiḥ",
+    wx: "aNT -> aT (aTiṁ) gawO BvAxiH"
   },
   'ad1_adaz_BvAxiH_uxyamane': {
     dev: "अड् (अडँ) उद्यमने भ्वादिः",
@@ -670,49 +670,49 @@ var root_info = {
     wx: "aN (aNaṁ) Sabxe BvAxiH"
   },
   'aw1_awaz_BvAxiH_sAwawyagamane': {
-    dev: "अत् (अतँ) सातत्यगमने भ्वादिः",
-    rom: "at (ataṁ) sātatyagamane bhvādiḥ",
-    wx: "aw (awaṁ) sAwawyagamane BvAxiH"
+    dev: "अन्त् -> अत् (अतँ) सातत्यगमने भ्वादिः",
+    rom: "ant -> at (ataṁ) sātatyagamane bhvādiḥ",
+    wx: "anw -> aw (awaṁ) sAwawyagamane BvAxiH"
   },
   'aw2_awiz_BvAxiH_banXane': {
-    dev: "अत् (अतिँ) बन्धने भ्वादिः",
-    rom: "at (atiṁ) bandhane bhvādiḥ",
-    wx: "aw (awiṁ) banXane BvAxiH"
+    dev: "अन्त् -> अत् (अतिँ) बन्धने भ्वादिः",
+    rom: "ant -> at (atiṁ) bandhane bhvādiḥ",
+    wx: "anw -> aw (awiṁ) banXane BvAxiH"
   },
   'awt1_awtaz_BvAxiH_awikramaNe': {
-    dev: "अत्ट् (अत्टँ) अतिक्रमणे भ्वादिः",
-    rom: "atṭ (atṭaṁ) atikramaṇe bhvādiḥ",
-    wx: "awt (awtaṁ) awikramaNe BvAxiH"
+    dev: "अट्ट् -> अत्ट् (अत्टँ) अतिक्रमणे भ्वादिः",
+    rom: "aṭṭ -> atṭ (atṭaṁ) atikramaṇe bhvādiḥ",
+    wx: "att -> awt (awtaṁ) awikramaNe BvAxiH"
   },
   'awt2_awtaz_curAxiH_anAxare': {
-    dev: "अत्ट् (अत्टँ) अनादरे चुरादिः",
-    rom: "atṭ (atṭaṁ) anādare curādiḥ",
-    wx: "awt (awtaṁ) anAxare curAxiH"
+    dev: "अट्ट् -> अत्ट् (अत्टँ) अनादरे चुरादिः",
+    rom: "aṭṭ -> atṭ (atṭaṁ) anādare curādiḥ",
+    wx: "att -> awt (awtaṁ) anAxare curAxiH"
   },
   'awt1_awtaz_BvAxiH_hiMsAyAm': {
-    dev: "अत्ट् (अत्टँ) हिंसायाम् भ्वादिः",
-    rom: "atṭ (atṭaṁ) hiṃsāyām bhvādiḥ",
-    wx: "awt (awtaṁ) hiMsAyAm BvAxiH"
+    dev: "अट्ट् -> अत्ट् (अत्टँ) हिंसायाम् भ्वादिः",
+    rom: "aṭṭ -> atṭ (atṭaṁ) hiṃsāyām bhvādiḥ",
+    wx: "att -> awt (awtaṁ) hiMsAyAm BvAxiH"
   },
   'ax2_axaz_axAxiH_BakRaNe': {
-    dev: "अद् (अदँ) भक्षणे अदादिः",
-    rom: "ad (adaṁ) bhakṣaṇe adādiḥ",
-    wx: "ax (axaṁ) BakRaNe axAxiH"
+    dev: "अन्द् -> अद् (अदँ) भक्षणे अदादिः",
+    rom: "and -> ad (adaṁ) bhakṣaṇe adādiḥ",
+    wx: "anx -> ax (axaṁ) BakRaNe axAxiH"
   },
   'ax1_axiz_BvAxiH_banXane': {
-    dev: "अद् (अदिँ) बन्धने भ्वादिः",
-    rom: "ad (adiṁ) bandhane bhvādiḥ",
-    wx: "ax (axiṁ) banXane BvAxiH"
+    dev: "अन्द् -> अद् (अदिँ) बन्धने भ्वादिः",
+    rom: "and -> ad (adiṁ) bandhane bhvādiḥ",
+    wx: "anx -> ax (axiṁ) banXane BvAxiH"
   },
   'axd1_axdaz_BvAxiH_aBiyoge': {
-    dev: "अद्ड् (अद्डँ) अभियोगे भ्वादिः",
-    rom: "adḍ (adḍaṁ) abhiyoge bhvādiḥ",
-    wx: "axd (axdaṁ) aBiyoge BvAxiH"
+    dev: "अड्ड् -> अद्ड् (अद्डँ) अभियोगे भ्वादिः",
+    rom: "aḍḍ -> adḍ (adḍaṁ) abhiyoge bhvādiḥ",
+    wx: "add -> axd (axdaṁ) aBiyoge BvAxiH"
   },
   'anu-ruX1_anu-ruXaz_xivAxiH_kAme': {
-    dev: "अनु-रुध् (अनु-रुधँ) कामे दिवादिः",
-    rom: "anu-rudh (anu-rudhaṁ) kāme divādiḥ",
-    wx: "anu-ruX (anu-ruXaṁ) kAme xivAxiH"
+    dev: "अनोरुध् -> अनु-रुध् (अनु-रुधँ) कामे दिवादिः",
+    rom: "anorudh -> anu-rudh (anu-rudhaṁ) kāme divādiḥ",
+    wx: "anoruX -> anu-ruX (anu-ruXaṁ) kAme xivAxiH"
   },
   'an1_anaz_axAxiH_prANane': {
     dev: "अन् (अनँ) प्राणने अदादिः",
@@ -720,44 +720,44 @@ var root_info = {
     wx: "an (anaṁ) prANane axAxiH"
   },
   'anc1_ancuz_BvAxiH_gawO': {
-    dev: "अन्च् (अन्चुँ) गतौ भ्वादिः",
-    rom: "anc (ancuṁ) gatau bhvādiḥ",
-    wx: "anc (ancuṁ) gawO BvAxiH"
+    dev: "अञ्च् -> अन्च् (अन्चुँ) गतौ भ्वादिः",
+    rom: "añc -> anc (ancuṁ) gatau bhvādiḥ",
+    wx: "aFc -> anc (ancuṁ) gawO BvAxiH"
   },
   'anc1_ancuz_BvAxiH_pUjane': {
-    dev: "अन्च् (अन्चुँ) पूजने भ्वादिः",
-    rom: "anc (ancuṁ) pūjane bhvādiḥ",
-    wx: "anc (ancuṁ) pUjane BvAxiH"
+    dev: "अञ्च् -> अन्च् (अन्चुँ) पूजने भ्वादिः",
+    rom: "añc -> anc (ancuṁ) pūjane bhvādiḥ",
+    wx: "aFc -> anc (ancuṁ) pUjane BvAxiH"
   },
   'anc1_ancuz_BvAxiH_yAFcAyAm': {
-    dev: "अन्च् (अन्चुँ) याञ्चायाम् भ्वादिः",
-    rom: "anc (ancuṁ) yāñcāyām bhvādiḥ",
-    wx: "anc (ancuṁ) yAFcAyAm BvAxiH"
+    dev: "अञ्च् -> अन्च् (अन्चुँ) याञ्चायाम् भ्वादिः",
+    rom: "añc -> anc (ancuṁ) yāñcāyām bhvādiḥ",
+    wx: "aFc -> anc (ancuṁ) yAFcAyAm BvAxiH"
   },
   'anc2_ancuz_curAxiH_viSeRaNe': {
-    dev: "अन्च् (अन्चुँ) विशेषणे चुरादिः",
-    rom: "anc (ancuṁ) viśeṣaṇe curādiḥ",
-    wx: "anc (ancuṁ) viSeRaNe curAxiH"
+    dev: "अञ्च् -> अन्च् (अन्चुँ) विशेषणे चुरादिः",
+    rom: "añc -> anc (ancuṁ) viśeṣaṇe curādiḥ",
+    wx: "aFc -> anc (ancuṁ) viSeRaNe curAxiH"
   },
   'anj1_anjUz_ruXAxiH_kAnwO': {
-    dev: "अन्ज् (अन्जूँ) कान्तौ रुधादिः",
-    rom: "anj (anjūṁ) kāntau rudhādiḥ",
-    wx: "anj (anjUṁ) kAnwO ruXAxiH"
+    dev: "अञ्ज् -> अन्ज् (अन्जूँ) कान्तौ रुधादिः",
+    rom: "añj -> anj (anjūṁ) kāntau rudhādiḥ",
+    wx: "aFj -> anj (anjUṁ) kAnwO ruXAxiH"
   },
   'anj1_anjUz_ruXAxiH_gawO': {
-    dev: "अन्ज् (अन्जूँ) गतौ रुधादिः",
-    rom: "anj (anjūṁ) gatau rudhādiḥ",
-    wx: "anj (anjUṁ) gawO ruXAxiH"
+    dev: "अञ्ज् -> अन्ज् (अन्जूँ) गतौ रुधादिः",
+    rom: "añj -> anj (anjūṁ) gatau rudhādiḥ",
+    wx: "aFj -> anj (anjUṁ) gawO ruXAxiH"
   },
   'anj1_anjUz_ruXAxiH_mrakRaNe': {
-    dev: "अन्ज् (अन्जूँ) म्रक्षणे रुधादिः",
-    rom: "anj (anjūṁ) mrakṣaṇe rudhādiḥ",
-    wx: "anj (anjUṁ) mrakRaNe ruXAxiH"
+    dev: "अञ्ज् -> अन्ज् (अन्जूँ) म्रक्षणे रुधादिः",
+    rom: "añj -> anj (anjūṁ) mrakṣaṇe rudhādiḥ",
+    wx: "aFj -> anj (anjUṁ) mrakRaNe ruXAxiH"
   },
   'anj1_anjUz_ruXAxiH_vyakwO': {
-    dev: "अन्ज् (अन्जूँ) व्यक्तौ रुधादिः",
-    rom: "anj (anjūṁ) vyaktau rudhādiḥ",
-    wx: "anj (anjUṁ) vyakwO ruXAxiH"
+    dev: "अञ्ज् -> अन्ज् (अन्जूँ) व्यक्तौ रुधादिः",
+    rom: "añj -> anj (anjūṁ) vyaktau rudhādiḥ",
+    wx: "aFj -> anj (anjUṁ) vyakwO ruXAxiH"
   },
   'anXa1_anXa_curAxiH_xqRtyupaGAwe': {
     dev: "अन्ध (अन्ध) दृष्ट्युपघाते चुरादिः",
@@ -765,9 +765,9 @@ var root_info = {
     wx: "anXa (anXa) xqRtyupaGAwe curAxiH"
   },
   'ab1_abiz_BvAxiH_Sabxe': {
-    dev: "अब् (अबिँ) शब्दे भ्वादिः",
-    rom: "ab (abiṁ) śabde bhvādiḥ",
-    wx: "ab (abiṁ) Sabxe BvAxiH"
+    dev: "अम्ब् -> अब् (अबिँ) शब्दे भ्वादिः",
+    rom: "amb -> ab (abiṁ) śabde bhvādiḥ",
+    wx: "amb -> ab (abiṁ) Sabxe BvAxiH"
   },
   'aBr1_aBraz_BvAxiH_gawO': {
     dev: "अभ्र् (अभ्रँ) गतौ भ्वादिः",
@@ -1010,29 +1010,29 @@ var root_info = {
     wx: "asw (aswaṁ) safGAwe curAxiH"
   },
   'ah2_ahaz_svAxiH_vyApwO': {
-    dev: "अह् (अहँ) व्याप्तौ स्वादिः",
-    rom: "ah (ahaṁ) vyāptau svādiḥ",
-    wx: "ah (ahaṁ) vyApwO svAxiH"
+    dev: "अंह् -> अह् (अहँ) व्याप्तौ स्वादिः",
+    rom: "aṃh -> ah (ahaṁ) vyāptau svādiḥ",
+    wx: "aMh -> ah (ahaṁ) vyApwO svAxiH"
   },
   'ah1_ahiz_BvAxiH_gawO': {
-    dev: "अह् (अहिँ) गतौ भ्वादिः",
-    rom: "ah (ahiṁ) gatau bhvādiḥ",
-    wx: "ah (ahiṁ) gawO BvAxiH"
+    dev: "अंह् -> अह् (अहिँ) गतौ भ्वादिः",
+    rom: "aṃh -> ah (ahiṁ) gatau bhvādiḥ",
+    wx: "aMh -> ah (ahiṁ) gawO BvAxiH"
   },
   'ah3_ahiz_curAxiH_BARArWe': {
-    dev: "अह् (अहिँ) भाषार्थे चुरादिः",
-    rom: "ah (ahiṁ) bhāṣārthe curādiḥ",
-    wx: "ah (ahiṁ) BARArWe curAxiH"
+    dev: "अंह् -> अह् (अहिँ) भाषार्थे चुरादिः",
+    rom: "aṃh -> ah (ahiṁ) bhāṣārthe curādiḥ",
+    wx: "aMh -> ah (ahiṁ) BARArWe curAxiH"
   },
   'ah3_ahiz_curAxiH_BAsArWe': {
-    dev: "अह् (अहिँ) भासार्थे चुरादिः",
-    rom: "ah (ahiṁ) bhāsārthe curādiḥ",
-    wx: "ah (ahiṁ) BAsArWe curAxiH"
+    dev: "अंह् -> अह् (अहिँ) भासार्थे चुरादिः",
+    rom: "aṃh -> ah (ahiṁ) bhāsārthe curādiḥ",
+    wx: "aMh -> ah (ahiṁ) BAsArWe curAxiH"
   },
   'AC1_ACiz_BvAxiH_AyAme': {
-    dev: "आछ् (आछिँ) आयामे भ्वादिः",
-    rom: "āch (āchiṁ) āyāme bhvādiḥ",
-    wx: "AC (ACiṁ) AyAme BvAxiH"
+    dev: "आञ्छ् -> आछ् (आछिँ) आयामे भ्वादिः",
+    rom: "āñch -> āch (āchiṁ) āyāme bhvādiḥ",
+    wx: "AFC -> AC (ACiṁ) AyAme BvAxiH"
   },
   'Ap2_ApLz_curAxiH_lamBane': {
     dev: "आप् (आपॢँ) लम्भने चुरादिः",
@@ -1070,19 +1070,19 @@ var root_info = {
     wx: "i (iN) gawO axAxiH"
   },
   'iK1_iKaz_BvAxiH_gawO': {
-    dev: "इख् (इखँ) गतौ भ्वादिः",
-    rom: "ikh (ikhaṁ) gatau bhvādiḥ",
-    wx: "iK (iKaṁ) gawO BvAxiH"
+    dev: "इङ्ख् -> इख् (इखँ) गतौ भ्वादिः",
+    rom: "iṅkh -> ikh (ikhaṁ) gatau bhvādiḥ",
+    wx: "ifK -> iK (iKaṁ) gawO BvAxiH"
   },
   'iK2_iKiz_BvAxiH_gawO': {
-    dev: "इख् (इखिँ) गतौ भ्वादिः",
-    rom: "ikh (ikhiṁ) gatau bhvādiḥ",
-    wx: "iK (iKiṁ) gawO BvAxiH"
+    dev: "इङ्ख् -> इख् (इखिँ) गतौ भ्वादिः",
+    rom: "iṅkh -> ikh (ikhiṁ) gatau bhvādiḥ",
+    wx: "ifK -> iK (iKiṁ) gawO BvAxiH"
   },
   'ig1_igiz_BvAxiH_gawO': {
-    dev: "इग् (इगिँ) गतौ भ्वादिः",
-    rom: "ig (igiṁ) gatau bhvādiḥ",
-    wx: "ig (igiṁ) gawO BvAxiH"
+    dev: "इङ्ग् -> इग् (इगिँ) गतौ भ्वादिः",
+    rom: "iṅg -> ig (igiṁ) gatau bhvādiḥ",
+    wx: "ifg -> ig (igiṁ) gawO BvAxiH"
   },
   'it1_itaz_BvAxiH_gawO': {
     dev: "इट् (इटँ) गतौ भ्वादिः",
@@ -1090,9 +1090,9 @@ var root_info = {
     wx: "it (itaṁ) gawO BvAxiH"
   },
   'ix1_ixiz_BvAxiH_paramESvarye': {
-    dev: "इद् (इदिँ) परमैश्वर्ये भ्वादिः",
-    rom: "id (idiṁ) paramaiśvarye bhvādiḥ",
-    wx: "ix (ixiṁ) paramESvarye BvAxiH"
+    dev: "इन्द् -> इद् (इदिँ) परमैश्वर्ये भ्वादिः",
+    rom: "ind -> id (idiṁ) paramaiśvarye bhvādiḥ",
+    wx: "inx -> ix (ixiṁ) paramESvarye BvAxiH"
   },
   'inX1_FiinXIz_ruXAxiH_xIpwO': {
     dev: "इन्ध् (ञिइन्धीँ) दीप्तौ रुधादिः",
@@ -1115,14 +1115,14 @@ var root_info = {
     wx: "il (ilaṁ) svapne wuxAxiH"
   },
   'iv1_iviz_BvAxiH_prINane': {
-    dev: "इव् (इविँ) प्रीणने भ्वादिः",
-    rom: "iv (iviṁ) prīṇane bhvādiḥ",
-    wx: "iv (iviṁ) prINane BvAxiH"
+    dev: "इन्व् -> इव् (इविँ) प्रीणने भ्वादिः",
+    rom: "inv -> iv (iviṁ) prīṇane bhvādiḥ",
+    wx: "inv -> iv (iviṁ) prINane BvAxiH"
   },
   'iv1_iviz_BvAxiH_vyApwO': {
-    dev: "इव् (इविँ) व्याप्तौ भ्वादिः",
-    rom: "iv (iviṁ) vyāptau bhvādiḥ",
-    wx: "iv (iviṁ) vyApwO BvAxiH"
+    dev: "इन्व् -> इव् (इविँ) व्याप्तौ भ्वादिः",
+    rom: "inv -> iv (iviṁ) vyāptau bhvādiḥ",
+    wx: "inv -> iv (iviṁ) vyApwO BvAxiH"
   },
   'iR4_iRaz_kryAxiH_ABIkRNye': {
     dev: "इष् (इषँ) आभीक्ष्ण्ये क्र्यादिः",
@@ -1155,9 +1155,9 @@ var root_info = {
     wx: "IkR (IkRaṁ) xarSane BvAxiH"
   },
   'IK1_IKiz_BvAxiH_gawO': {
-    dev: "ईख् (ईखिँ) गतौ भ्वादिः",
-    rom: "īkh (īkhiṁ) gatau bhvādiḥ",
-    wx: "IK (IKiṁ) gawO BvAxiH"
+    dev: "ईङ्ख् -> ईख् (ईखिँ) गतौ भ्वादिः",
+    rom: "īṅkh -> īkh (īkhiṁ) gatau bhvādiḥ",
+    wx: "IfK -> IK (IKiṁ) gawO BvAxiH"
   },
   'Ij1_Ijaz_BvAxiH_kuwsAyAm': {
     dev: "ईज् (ईजँ) कुत्सायाम् भ्वादिः",
@@ -1250,14 +1250,14 @@ var root_info = {
     wx: "ukR (ukRaṁ) secane BvAxiH"
   },
   'uK2_uKaz_BvAxiH_gawO': {
-    dev: "उख् (उखँ) गतौ भ्वादिः",
-    rom: "ukh (ukhaṁ) gatau bhvādiḥ",
-    wx: "uK (uKaṁ) gawO BvAxiH"
+    dev: "उङ्ख् -> उख् (उखँ) गतौ भ्वादिः",
+    rom: "uṅkh -> ukh (ukhaṁ) gatau bhvādiḥ",
+    wx: "ufK -> uK (uKaṁ) gawO BvAxiH"
   },
   'uK1_uKiz_BvAxiH_gawO': {
-    dev: "उख् (उखिँ) गतौ भ्वादिः",
-    rom: "ukh (ukhiṁ) gatau bhvādiḥ",
-    wx: "uK (uKiṁ) gawO BvAxiH"
+    dev: "उङ्ख् -> उख् (उखिँ) गतौ भ्वादिः",
+    rom: "uṅkh -> ukh (ukhiṁ) gatau bhvādiḥ",
+    wx: "ufK -> uK (uKiṁ) gawO BvAxiH"
   },
   'uc1_ucaz_xivAxiH_samavAye': {
     dev: "उच् (उचँ) समवाये दिवादिः",
@@ -1265,24 +1265,24 @@ var root_info = {
     wx: "uc (ucaṁ) samavAye xivAxiH"
   },
   'uC4_uCiz_wuxAxiH_uFCe': {
-    dev: "उछ् (उछिँ) उञ्छे तुदादिः",
-    rom: "uch (uchiṁ) uñche tudādiḥ",
-    wx: "uC (uCiṁ) uFCe wuxAxiH"
+    dev: "उञ्छ् -> उछ् (उछिँ) उञ्छे तुदादिः",
+    rom: "uñch -> uch (uchiṁ) uñche tudādiḥ",
+    wx: "uFC -> uC (uCiṁ) uFCe wuxAxiH"
   },
   'uC2_uCiz_BvAxiH_uFCe': {
-    dev: "उछ् (उछिँ) उञ्छे भ्वादिः",
-    rom: "uch (uchiṁ) uñche bhvādiḥ",
-    wx: "uC (uCiṁ) uFCe BvAxiH"
+    dev: "उञ्छ् -> उछ् (उछिँ) उञ्छे भ्वादिः",
+    rom: "uñch -> uch (uchiṁ) uñche bhvādiḥ",
+    wx: "uFC -> uC (uCiṁ) uFCe BvAxiH"
   },
   'uC3_uCIz_wuxAxiH_vivAse': {
-    dev: "उछ् (उछीँ) विवासे तुदादिः",
-    rom: "uch (uchīṁ) vivāse tudādiḥ",
-    wx: "uC (uCIṁ) vivAse wuxAxiH"
+    dev: "उञ्छ् -> उछ् (उछीँ) विवासे तुदादिः",
+    rom: "uñch -> uch (uchīṁ) vivāse tudādiḥ",
+    wx: "uFC -> uC (uCIṁ) vivAse wuxAxiH"
   },
   'uC1_uCIz_BvAxiH_vivAse': {
-    dev: "उछ् (उछीँ) विवासे भ्वादिः",
-    rom: "uch (uchīṁ) vivāse bhvādiḥ",
-    wx: "uC (uCIṁ) vivAse BvAxiH"
+    dev: "उञ्छ् -> उछ् (उछीँ) विवासे भ्वादिः",
+    rom: "uñch -> uch (uchīṁ) vivāse bhvādiḥ",
+    wx: "uFC -> uC (uCIṁ) vivAse BvAxiH"
   },
   'uT1_uTaz_BvAxiH_upaGAwe': {
     dev: "उठ् (उठँ) उपघाते भ्वादिः",
@@ -1300,9 +1300,9 @@ var root_info = {
     wx: "unx (unxIṁ) klexane ruXAxiH"
   },
   'unB1_unBaz_wuxAxiH_pUraNe': {
-    dev: "उन्भ् (उन्भँ) पूरणे तुदादिः",
-    rom: "unbh (unbhaṁ) pūraṇe tudādiḥ",
-    wx: "unB (unBaṁ) pUraNe wuxAxiH"
+    dev: "उम्भ् -> उन्भ् (उन्भँ) पूरणे तुदादिः",
+    rom: "umbh -> unbh (unbhaṁ) pūraṇe tudādiḥ",
+    wx: "umB -> unB (unBaṁ) pUraNe wuxAxiH"
   },
   'ubj1_ubjaz_wuxAxiH_Arjave': {
     dev: "उब्ज् (उब्जँ) आर्जवे तुदादिः",
@@ -1375,19 +1375,19 @@ var root_info = {
     wx: "Uh (Uhaṁ) viwarke BvAxiH"
   },
   'q1_q_BvAxiH_gawO': {
-    dev: "ऋ (ऋ) गतौ भ्वादिः",
-    rom: "ṛ (ṛ) gatau bhvādiḥ",
-    wx: "q (q) gawO BvAxiH"
+    dev: "सृ -> ऋ (ऋ) गतौ भ्वादिः",
+    rom: "sṛ -> ṛ (ṛ) gatau bhvādiḥ",
+    wx: "sq -> q (q) gawO BvAxiH"
   },
   'q1_q_BvAxiH_prApaNe': {
-    dev: "ऋ (ऋ) प्रापणे भ्वादिः",
-    rom: "ṛ (ṛ) prāpaṇe bhvādiḥ",
-    wx: "q (q) prApaNe BvAxiH"
+    dev: "सृ -> ऋ (ऋ) प्रापणे भ्वादिः",
+    rom: "sṛ -> ṛ (ṛ) prāpaṇe bhvādiḥ",
+    wx: "sq -> q (q) prApaNe BvAxiH"
   },
   'q2_q_juhowyAxiH_gawO': {
-    dev: "ऋ (ऋ) गतौ जुहोत्यादिः",
-    rom: "ṛ (ṛ) gatau juhotyādiḥ",
-    wx: "q (q) gawO juhowyAxiH"
+    dev: "सृ -> ऋ (ऋ) गतौ जुहोत्यादिः",
+    rom: "sṛ -> ṛ (ṛ) gatau juhotyādiḥ",
+    wx: "sq -> q (q) gawO juhowyAxiH"
   },
   'qc1_qcaz_wuxAxiH_swuwO': {
     dev: "ऋच् (ऋचँ) स्तुतौ तुदादिः",
@@ -1410,24 +1410,24 @@ var root_info = {
     wx: "qC (qCaṁ) mUrwiBAve wuxAxiH"
   },
   'qj1_qjaz_BvAxiH_upArjane': {
-    dev: "ऋज् (ऋजँ) उपार्जने भ्वादिः",
-    rom: "ṛj (ṛjaṁ) upārjane bhvādiḥ",
-    wx: "qj (qjaṁ) upArjane BvAxiH"
+    dev: "ऋञ्ज् -> ऋज् (ऋजँ) उपार्जने भ्वादिः",
+    rom: "ṛñj -> ṛj (ṛjaṁ) upārjane bhvādiḥ",
+    wx: "qFj -> qj (qjaṁ) upArjane BvAxiH"
   },
   'qj1_qjaz_BvAxiH_gawO': {
-    dev: "ऋज् (ऋजँ) गतौ भ्वादिः",
-    rom: "ṛj (ṛjaṁ) gatau bhvādiḥ",
-    wx: "qj (qjaṁ) gawO BvAxiH"
+    dev: "ऋञ्ज् -> ऋज् (ऋजँ) गतौ भ्वादिः",
+    rom: "ṛñj -> ṛj (ṛjaṁ) gatau bhvādiḥ",
+    wx: "qFj -> qj (qjaṁ) gawO BvAxiH"
   },
   'qj1_qjaz_BvAxiH_sWAnArjane': {
-    dev: "ऋज् (ऋजँ) स्थानार्जने भ्वादिः",
-    rom: "ṛj (ṛjaṁ) sthānārjane bhvādiḥ",
-    wx: "qj (qjaṁ) sWAnArjane BvAxiH"
+    dev: "ऋञ्ज् -> ऋज् (ऋजँ) स्थानार्जने भ्वादिः",
+    rom: "ṛñj -> ṛj (ṛjaṁ) sthānārjane bhvādiḥ",
+    wx: "qFj -> qj (qjaṁ) sWAnArjane BvAxiH"
   },
   'qj2_qjiz_BvAxiH_Barjane': {
-    dev: "ऋज् (ऋजिँ) भर्जने भ्वादिः",
-    rom: "ṛj (ṛjiṁ) bharjane bhvādiḥ",
-    wx: "qj (qjiṁ) Barjane BvAxiH"
+    dev: "ऋञ्ज् -> ऋज् (ऋजिँ) भर्जने भ्वादिः",
+    rom: "ṛñj -> ṛj (ṛjiṁ) bharjane bhvādiḥ",
+    wx: "qFj -> qj (qjiṁ) Barjane BvAxiH"
   },
   'qN1_qNuz_wanAxiH_gawO': {
     dev: "ऋण् (ऋणुँ) गतौ तनादिः",
@@ -1450,9 +1450,9 @@ var root_info = {
     wx: "qX (qXuṁ) vqxXO svAxiH"
   },
   'qnP1_qnPaz_wuxAxiH_hiMsAyAm': {
-    dev: "ऋन्फ् (ऋन्फँ) हिंसायाम् तुदादिः",
-    rom: "ṛnph (ṛnphaṁ) hiṃsāyām tudādiḥ",
-    wx: "qnP (qnPaṁ) hiMsAyAm wuxAxiH"
+    dev: "ऋम्फ् -> ऋन्फ् (ऋन्फँ) हिंसायाम् तुदादिः",
+    rom: "ṛmph -> ṛnph (ṛnphaṁ) hiṃsāyām tudādiḥ",
+    wx: "qmP -> qnP (qnPaṁ) hiMsAyAm wuxAxiH"
   },
   'qP1_qPaz_wuxAxiH_hiMsAyAm': {
     dev: "ऋफ् (ऋफँ) हिंसायाम् तुदादिः",
@@ -1540,19 +1540,19 @@ var root_info = {
     wx: "oN (oNqṁ) apanayane BvAxiH"
   },
   'kak1_kakaz_BvAxiH_lOlye': {
-    dev: "कक् (ककँ) लौल्ये भ्वादिः",
-    rom: "kak (kakaṁ) laulye bhvādiḥ",
-    wx: "kak (kakaṁ) lOlye BvAxiH"
+    dev: "कङ्क् -> कक् (ककँ) लौल्ये भ्वादिः",
+    rom: "kaṅk -> kak (kakaṁ) laulye bhvādiḥ",
+    wx: "kafk -> kak (kakaṁ) lOlye BvAxiH"
   },
   'kak2_kakiz_BvAxiH_gawO': {
-    dev: "कक् (ककिँ) गतौ भ्वादिः",
-    rom: "kak (kakiṁ) gatau bhvādiḥ",
-    wx: "kak (kakiṁ) gawO BvAxiH"
+    dev: "कङ्क् -> कक् (ककिँ) गतौ भ्वादिः",
+    rom: "kaṅk -> kak (kakiṁ) gatau bhvādiḥ",
+    wx: "kafk -> kak (kakiṁ) gawO BvAxiH"
   },
   'kakK1_kakKaz_BvAxiH_hasane': {
-    dev: "कक्ख् (कक्खँ) हसने भ्वादिः",
-    rom: "kakkh (kakkhaṁ) hasane bhvādiḥ",
-    wx: "kakK (kakKaṁ) hasane BvAxiH"
+    dev: "कख् -> कक्ख् (कक्खँ) हसने भ्वादिः",
+    rom: "kakh -> kakkh (kakkhaṁ) hasane bhvādiḥ",
+    wx: "kaK -> kakK (kakKaṁ) hasane BvAxiH"
   },
   'kaK1_kaKaz_BvAxiH_hasane': {
     dev: "कख् (कखँ) हसने भ्वादिः",
@@ -1570,19 +1570,19 @@ var root_info = {
     wx: "kag (kageṁ) anekArWawve BvAxiH"
   },
   'kac1_kacaz_BvAxiH_banXane': {
-    dev: "कच् (कचँ) बन्धने भ्वादिः",
-    rom: "kac (kacaṁ) bandhane bhvādiḥ",
-    wx: "kac (kacaṁ) banXane BvAxiH"
+    dev: "कञ्च् -> कच् (कचँ) बन्धने भ्वादिः",
+    rom: "kañc -> kac (kacaṁ) bandhane bhvādiḥ",
+    wx: "kaFc -> kac (kacaṁ) banXane BvAxiH"
   },
   'kac2_kaciz_BvAxiH_xIpwO': {
-    dev: "कच् (कचिँ) दीप्तौ भ्वादिः",
-    rom: "kac (kaciṁ) dīptau bhvādiḥ",
-    wx: "kac (kaciṁ) xIpwO BvAxiH"
+    dev: "कञ्च् -> कच् (कचिँ) दीप्तौ भ्वादिः",
+    rom: "kañc -> kac (kaciṁ) dīptau bhvādiḥ",
+    wx: "kaFc -> kac (kaciṁ) xIpwO BvAxiH"
   },
   'kac2_kaciz_BvAxiH_banXane': {
-    dev: "कच् (कचिँ) बन्धने भ्वादिः",
-    rom: "kac (kaciṁ) bandhane bhvādiḥ",
-    wx: "kac (kaciṁ) banXane BvAxiH"
+    dev: "कञ्च् -> कच् (कचिँ) बन्धने भ्वादिः",
+    rom: "kañc -> kac (kaciṁ) bandhane bhvādiḥ",
+    wx: "kaFc -> kac (kaciṁ) banXane BvAxiH"
   },
   'kaj1_kajaz_BvAxiH_maxe': {
     dev: "कज् (कजँ) मदे भ्वादिः",
@@ -1610,54 +1610,54 @@ var root_info = {
     wx: "kat (kateṁ) varRAyAm BvAxiH"
   },
   'kaT1_kaTaz_BvAxiH_kqcCrajIvane': {
-    dev: "कठ् (कठँ) कृच्छ्रजीवने भ्वादिः",
-    rom: "kaṭh (kaṭhaṁ) kṛcchrajīvane bhvādiḥ",
-    wx: "kaT (kaTaṁ) kqcCrajIvane BvAxiH"
+    dev: "कण्ठ् -> कठ् (कठँ) कृच्छ्रजीवने भ्वादिः",
+    rom: "kaṇṭh -> kaṭh (kaṭhaṁ) kṛcchrajīvane bhvādiḥ",
+    wx: "kaNT -> kaT (kaTaṁ) kqcCrajIvane BvAxiH"
   },
   'kaT1_kaTaz_BvAxiH_nivAse': {
-    dev: "कठ् (कठँ) निवासे भ्वादिः",
-    rom: "kaṭh (kaṭhaṁ) nivāse bhvādiḥ",
-    wx: "kaT (kaTaṁ) nivAse BvAxiH"
+    dev: "कण्ठ् -> कठ् (कठँ) निवासे भ्वादिः",
+    rom: "kaṇṭh -> kaṭh (kaṭhaṁ) nivāse bhvādiḥ",
+    wx: "kaNT -> kaT (kaTaṁ) nivAse BvAxiH"
   },
   'kaT1_kaTaz_BvAxiH_maxe': {
-    dev: "कठ् (कठँ) मदे भ्वादिः",
-    rom: "kaṭh (kaṭhaṁ) made bhvādiḥ",
-    wx: "kaT (kaTaṁ) maxe BvAxiH"
+    dev: "कण्ठ् -> कठ् (कठँ) मदे भ्वादिः",
+    rom: "kaṇṭh -> kaṭh (kaṭhaṁ) made bhvādiḥ",
+    wx: "kaNT -> kaT (kaTaṁ) maxe BvAxiH"
   },
   'kaT3_kaTiz_curAxiH_Soke': {
-    dev: "कठ् (कठिँ) शोके चुरादिः",
-    rom: "kaṭh (kaṭhiṁ) śoke curādiḥ",
-    wx: "kaT (kaTiṁ) Soke curAxiH"
+    dev: "कण्ठ् -> कठ् (कठिँ) शोके चुरादिः",
+    rom: "kaṇṭh -> kaṭh (kaṭhiṁ) śoke curādiḥ",
+    wx: "kaNT -> kaT (kaTiṁ) Soke curAxiH"
   },
   'kaT2_kaTiz_BvAxiH_Soke': {
-    dev: "कठ् (कठिँ) शोके भ्वादिः",
-    rom: "kaṭh (kaṭhiṁ) śoke bhvādiḥ",
-    wx: "kaT (kaTiṁ) Soke BvAxiH"
+    dev: "कण्ठ् -> कठ् (कठिँ) शोके भ्वादिः",
+    rom: "kaṇṭh -> kaṭh (kaṭhiṁ) śoke bhvādiḥ",
+    wx: "kaNT -> kaT (kaTiṁ) Soke BvAxiH"
   },
   'kad3_kadaz_wuxAxiH_Gasane': {
-    dev: "कड् (कडँ) घसने तुदादिः",
-    rom: "kaḍ (kaḍaṁ) ghasane tudādiḥ",
-    wx: "kad (kadaṁ) Gasane wuxAxiH"
+    dev: "कण्ड् -> कड् (कडँ) घसने तुदादिः",
+    rom: "kaṇḍ -> kaḍ (kaḍaṁ) ghasane tudādiḥ",
+    wx: "kaNd -> kad (kadaṁ) Gasane wuxAxiH"
   },
   'kad3_kadaz_wuxAxiH_maxe': {
-    dev: "कड् (कडँ) मदे तुदादिः",
-    rom: "kaḍ (kaḍaṁ) made tudādiḥ",
-    wx: "kad (kadaṁ) maxe wuxAxiH"
+    dev: "कण्ड् -> कड् (कडँ) मदे तुदादिः",
+    rom: "kaṇḍ -> kaḍ (kaḍaṁ) made tudādiḥ",
+    wx: "kaNd -> kad (kadaṁ) maxe wuxAxiH"
   },
   'kad1_kadaz_BvAxiH_maxe': {
-    dev: "कड् (कडँ) मदे भ्वादिः",
-    rom: "kaḍ (kaḍaṁ) made bhvādiḥ",
-    wx: "kad (kadaṁ) maxe BvAxiH"
+    dev: "कण्ड् -> कड् (कडँ) मदे भ्वादिः",
+    rom: "kaṇḍ -> kaḍ (kaḍaṁ) made bhvādiḥ",
+    wx: "kaNd -> kad (kadaṁ) maxe BvAxiH"
   },
   'kad4_kadiz_curAxiH_Bexane': {
-    dev: "कड् (कडिँ) भेदने चुरादिः",
-    rom: "kaḍ (kaḍiṁ) bhedane curādiḥ",
-    wx: "kad (kadiṁ) Bexane curAxiH"
+    dev: "कण्ड् -> कड् (कडिँ) भेदने चुरादिः",
+    rom: "kaṇḍ -> kaḍ (kaḍiṁ) bhedane curādiḥ",
+    wx: "kaNd -> kad (kadiṁ) Bexane curAxiH"
   },
   'kad2_kadiz_BvAxiH_maxe': {
-    dev: "कड् (कडिँ) मदे भ्वादिः",
-    rom: "kaḍ (kaḍiṁ) made bhvādiḥ",
-    wx: "kad (kadiṁ) maxe BvAxiH"
+    dev: "कण्ड् -> कड् (कडिँ) मदे भ्वादिः",
+    rom: "kaṇḍ -> kaḍ (kaḍiṁ) made bhvādiḥ",
+    wx: "kaNd -> kad (kadiṁ) maxe BvAxiH"
   },
   'kaN1_kaNaz_BvAxiH_gawO': {
     dev: "कण् (कणँ) गतौ भ्वादिः",
@@ -1700,24 +1700,24 @@ var root_info = {
     wx: "kaW (kaWaṁ) hiMsAyAm BvAxiH"
   },
   'kax1_kaxiz_BvAxiH_AhvAne': {
-    dev: "कद् (कदिँ) आह्वाने भ्वादिः",
-    rom: "kad (kadiṁ) āhvāne bhvādiḥ",
-    wx: "kax (kaxiṁ) AhvAne BvAxiH"
+    dev: "कन्द् -> कद् (कदिँ) आह्वाने भ्वादिः",
+    rom: "kand -> kad (kadiṁ) āhvāne bhvādiḥ",
+    wx: "kanx -> kax (kaxiṁ) AhvAne BvAxiH"
   },
   'kax1_kaxiz_BvAxiH_roxane': {
-    dev: "कद् (कदिँ) रोदने भ्वादिः",
-    rom: "kad (kadiṁ) rodane bhvādiḥ",
-    wx: "kax (kaxiṁ) roxane BvAxiH"
+    dev: "कन्द् -> कद् (कदिँ) रोदने भ्वादिः",
+    rom: "kand -> kad (kadiṁ) rodane bhvādiḥ",
+    wx: "kanx -> kax (kaxiṁ) roxane BvAxiH"
   },
   'kax2_kaxiz_BvAxiH_vEklavye': {
-    dev: "कद् (कदिँ) वैक्लव्ये भ्वादिः",
-    rom: "kad (kadiṁ) vaiklavye bhvādiḥ",
-    wx: "kax (kaxiṁ) vEklavye BvAxiH"
+    dev: "कन्द् -> कद् (कदिँ) वैक्लव्ये भ्वादिः",
+    rom: "kand -> kad (kadiṁ) vaiklavye bhvādiḥ",
+    wx: "kanx -> kax (kaxiṁ) vEklavye BvAxiH"
   },
   'kaxd1_kaxdaz_BvAxiH_kArkaSye': {
-    dev: "कद्ड् (कद्डँ) कार्कश्ये भ्वादिः",
-    rom: "kadḍ (kadḍaṁ) kārkaśye bhvādiḥ",
-    wx: "kaxd (kaxdaṁ) kArkaSye BvAxiH"
+    dev: "कड्ड् -> कद्ड् (कद्डँ) कार्कश्ये भ्वादिः",
+    rom: "kaḍḍ -> kadḍ (kadḍaṁ) kārkaśye bhvādiḥ",
+    wx: "kadd -> kaxd (kaxdaṁ) kArkaSye BvAxiH"
   },
   'kan1_kanIz_BvAxiH_kAnwO': {
     dev: "कन् (कनीँ) कान्तौ भ्वादिः",
@@ -1735,9 +1735,9 @@ var root_info = {
     wx: "kan (kanIṁ) xIpwO BvAxiH"
   },
   'kap1_kapiz_BvAxiH_calane': {
-    dev: "कप् (कपिँ) चलने भ्वादिः",
-    rom: "kap (kapiṁ) calane bhvādiḥ",
-    wx: "kap (kapiṁ) calane BvAxiH"
+    dev: "कम्प् -> कप् (कपिँ) चलने भ्वादिः",
+    rom: "kamp -> kap (kapiṁ) calane bhvādiḥ",
+    wx: "kamp -> kap (kapiṁ) calane BvAxiH"
   },
   'kab1_kabqz_BvAxiH_varNe': {
     dev: "कब् (कबृँ) वर्णे भ्वादिः",
@@ -1760,9 +1760,9 @@ var root_info = {
     wx: "karNa (karNa) Bexane curAxiH"
   },
   'karwq1_karwq_curAxiH_SEWilye': {
-    dev: "कर्तृ (कर्तृ) शैथिल्ये चुरादिः",
-    rom: "kartṛ (kartṛ) śaithilye curādiḥ",
-    wx: "karwq (karwq) SEWilye curAxiH"
+    dev: "कर्त -> कर्तृ (कर्तृ) शैथिल्ये चुरादिः",
+    rom: "karta -> kartṛ (kartṛ) śaithilye curādiḥ",
+    wx: "karwa -> karwq (karwq) SEWilye curAxiH"
   },
   'karx1_karxaz_BvAxiH_kuwsiwe_Sabxe': {
     dev: "कर्द् (कर्दँ) कुत्सिते_शब्दे भ्वादिः",
@@ -1780,14 +1780,14 @@ var root_info = {
     wx: "karv (karvaṁ) xarpe BvAxiH"
   },
   'kala1_kala_curAxiH_gawO': {
-    dev: "कल (कल) गतौ चुरादिः",
-    rom: "kala (kala) gatau curādiḥ",
-    wx: "kala (kala) gawO curAxiH"
+    dev: "कल् -> कल (कल) गतौ चुरादिः",
+    rom: "kal -> kala (kala) gatau curādiḥ",
+    wx: "kal -> kala (kala) gawO curAxiH"
   },
   'kala1_kala_curAxiH_safKyAne': {
-    dev: "कल (कल) सङ्ख्याने चुरादिः",
-    rom: "kala (kala) saṅkhyāne curādiḥ",
-    wx: "kala (kala) safKyAne curAxiH"
+    dev: "कल् -> कल (कल) सङ्ख्याने चुरादिः",
+    rom: "kal -> kala (kala) saṅkhyāne curādiḥ",
+    wx: "kal -> kala (kala) safKyAne curAxiH"
   },
   'kal2_kalaz_curAxiH_kRepe': {
     dev: "कल् (कलँ) क्षेपे चुरादिः",
@@ -1810,9 +1810,9 @@ var root_info = {
     wx: "kall (kallaṁ) avyakwe_Sabxe BvAxiH"
   },
   'kav1_kavaz_BvAxiH_Sabxe': {
-    dev: "कव् (कवँ) शब्दे भ्वादिः",
-    rom: "kav (kavaṁ) śabde bhvādiḥ",
-    wx: "kav (kavaṁ) Sabxe BvAxiH"
+    dev: "इकव् -> कव् (कवँ) शब्दे भ्वादिः",
+    rom: "ikav -> kav (kavaṁ) śabde bhvādiḥ",
+    wx: "ikav -> kav (kavaṁ) Sabxe BvAxiH"
   },
   'kaS1_kaSiz_curAxiH_BARArWe': {
     dev: "कश् (कशिँ) भाषार्थे चुरादिः",
@@ -1845,19 +1845,19 @@ var root_info = {
     wx: "kas (kasiṁ) SAsane axAxiH"
   },
   'kAkR1_kAkRiz_BvAxiH_kAfkRAyAm': {
-    dev: "काक्ष् (काक्षिँ) काङ्क्षायाम् भ्वादिः",
-    rom: "kākṣ (kākṣiṁ) kāṅkṣāyām bhvādiḥ",
-    wx: "kAkR (kAkRiṁ) kAfkRAyAm BvAxiH"
+    dev: "काङ्क्ष् -> काक्ष् (काक्षिँ) काङ्क्षायाम् भ्वादिः",
+    rom: "kāṅkṣ -> kākṣ (kākṣiṁ) kāṅkṣāyām bhvādiḥ",
+    wx: "kAfkR -> kAkR (kAkRiṁ) kAfkRAyAm BvAxiH"
   },
   'kAc1_kAciz_BvAxiH_xIpwO': {
-    dev: "काच् (काचिँ) दीप्तौ भ्वादिः",
-    rom: "kāc (kāciṁ) dīptau bhvādiḥ",
-    wx: "kAc (kAciṁ) xIpwO BvAxiH"
+    dev: "काञ्च् -> काच् (काचिँ) दीप्तौ भ्वादिः",
+    rom: "kāñc -> kāc (kāciṁ) dīptau bhvādiḥ",
+    wx: "kAFc -> kAc (kAciṁ) xIpwO BvAxiH"
   },
   'kAc1_kAciz_BvAxiH_banXane': {
-    dev: "काच् (काचिँ) बन्धने भ्वादिः",
-    rom: "kāc (kāciṁ) bandhane bhvādiḥ",
-    wx: "kAc (kAciṁ) banXane BvAxiH"
+    dev: "काञ्च् -> काच् (काचिँ) बन्धने भ्वादिः",
+    rom: "kāñc -> kāc (kāciṁ) bandhane bhvādiḥ",
+    wx: "kAFc -> kAc (kAciṁ) banXane BvAxiH"
   },
   'kAd1_kAdqz_BvAxiH_anAxare': {
     dev: "काड् (काडृँ) अनादरे भ्वादिः",
@@ -2000,44 +2000,44 @@ var root_info = {
     wx: "kuj (kujuṁ) sweyakaraNe BvAxiH"
   },
   'kut1_kutaz_wuxAxiH_kOtilye': {
-    dev: "कुट् (कुटँ) कौटिल्ये तुदादिः",
-    rom: "kuṭ (kuṭaṁ) kauṭilye tudādiḥ",
-    wx: "kut (kutaṁ) kOtilye wuxAxiH"
+    dev: "कुट्ट् -> कुट् (कुटँ) कौटिल्ये तुदादिः",
+    rom: "kuṭṭ -> kuṭ (kuṭaṁ) kauṭilye tudādiḥ",
+    wx: "kutt -> kut (kutaṁ) kOtilye wuxAxiH"
   },
   'kut2_kutaz_curAxiH_prawApane': {
-    dev: "कुट् (कुटँ) प्रतापने चुरादिः",
-    rom: "kuṭ (kuṭaṁ) pratāpane curādiḥ",
-    wx: "kut (kutaṁ) prawApane curAxiH"
+    dev: "कुट्ट् -> कुट् (कुटँ) प्रतापने चुरादिः",
+    rom: "kuṭṭ -> kuṭ (kuṭaṁ) pratāpane curādiḥ",
+    wx: "kutt -> kut (kutaṁ) prawApane curAxiH"
   },
   'kuT1_kuTiz_BvAxiH_gawiprawiGAwe': {
-    dev: "कुठ् (कुठिँ) गतिप्रतिघाते भ्वादिः",
-    rom: "kuṭh (kuṭhiṁ) gatipratighāte bhvādiḥ",
-    wx: "kuT (kuTiṁ) gawiprawiGAwe BvAxiH"
+    dev: "कुण्ठ् -> कुठ् (कुठिँ) गतिप्रतिघाते भ्वादिः",
+    rom: "kuṇṭh -> kuṭh (kuṭhiṁ) gatipratighāte bhvādiḥ",
+    wx: "kuNT -> kuT (kuTiṁ) gawiprawiGAwe BvAxiH"
   },
   'kuT1_kuTiz_BvAxiH_vEkalye': {
-    dev: "कुठ् (कुठिँ) वैकल्ये भ्वादिः",
-    rom: "kuṭh (kuṭhiṁ) vaikalye bhvādiḥ",
-    wx: "kuT (kuTiṁ) vEkalye BvAxiH"
+    dev: "कुण्ठ् -> कुठ् (कुठिँ) वैकल्ये भ्वादिः",
+    rom: "kuṇṭh -> kuṭh (kuṭhiṁ) vaikalye bhvādiḥ",
+    wx: "kuNT -> kuT (kuTiṁ) vEkalye BvAxiH"
   },
   'kud3_kudaz_wuxAxiH_bAlye': {
-    dev: "कुड् (कुडँ) बाल्ये तुदादिः",
-    rom: "kuḍ (kuḍaṁ) bālye tudādiḥ",
-    wx: "kud (kudaṁ) bAlye wuxAxiH"
+    dev: "कुण्ड् -> कुड् (कुडँ) बाल्ये तुदादिः",
+    rom: "kuṇḍ -> kuḍ (kuḍaṁ) bālye tudādiḥ",
+    wx: "kuNd -> kud (kudaṁ) bAlye wuxAxiH"
   },
   'kud2_kudiz_BvAxiH_xAhe': {
-    dev: "कुड् (कुडिँ) दाहे भ्वादिः",
-    rom: "kuḍ (kuḍiṁ) dāhe bhvādiḥ",
-    wx: "kud (kudiṁ) xAhe BvAxiH"
+    dev: "कुण्ड् -> कुड् (कुडिँ) दाहे भ्वादिः",
+    rom: "kuṇḍ -> kuḍ (kuḍiṁ) dāhe bhvādiḥ",
+    wx: "kuNd -> kud (kudiṁ) xAhe BvAxiH"
   },
   'kud4_kudiz_curAxiH_rakRaNe': {
-    dev: "कुड् (कुडिँ) रक्षणे चुरादिः",
-    rom: "kuḍ (kuḍiṁ) rakṣaṇe curādiḥ",
-    wx: "kud (kudiṁ) rakRaNe curAxiH"
+    dev: "कुण्ड् -> कुड् (कुडिँ) रक्षणे चुरादिः",
+    rom: "kuṇḍ -> kuḍ (kuḍiṁ) rakṣaṇe curādiḥ",
+    wx: "kuNd -> kud (kudiṁ) rakRaNe curAxiH"
   },
   'kud1_kudiz_BvAxiH_vEkalye': {
-    dev: "कुड् (कुडिँ) वैकल्ये भ्वादिः",
-    rom: "kuḍ (kuḍiṁ) vaikalye bhvādiḥ",
-    wx: "kud (kudiṁ) vEkalye BvAxiH"
+    dev: "कुण्ड् -> कुड् (कुडिँ) वैकल्ये भ्वादिः",
+    rom: "kuṇḍ -> kuḍ (kuḍiṁ) vaikalye bhvādiḥ",
+    wx: "kuNd -> kud (kudiṁ) vEkalye BvAxiH"
   },
   'kuNa1_kuNa_curAxiH_AmanwraNe': {
     dev: "कुण (कुण) आमन्त्रणे चुरादिः",
@@ -2055,24 +2055,24 @@ var root_info = {
     wx: "kuN (kuNaṁ) Sabxe wuxAxiH"
   },
   'kuwt1_kuwtaz_curAxiH_kuwsAyAm': {
-    dev: "कुत्ट् (कुत्टँ) कुत्सायाम् चुरादिः",
-    rom: "kutṭ (kutṭaṁ) kutsāyām curādiḥ",
-    wx: "kuwt (kuwtaṁ) kuwsAyAm curAxiH"
+    dev: "कुट्ट् -> कुत्ट् (कुत्टँ) कुत्सायाम् चुरादिः",
+    rom: "kuṭṭ -> kutṭ (kutṭaṁ) kutsāyām curādiḥ",
+    wx: "kutt -> kuwt (kuwtaṁ) kuwsAyAm curAxiH"
   },
   'kuwt1_kuwtaz_curAxiH_Cexane': {
-    dev: "कुत्ट् (कुत्टँ) छेदने चुरादिः",
-    rom: "kutṭ (kutṭaṁ) chedane curādiḥ",
-    wx: "kuwt (kuwtaṁ) Cexane curAxiH"
+    dev: "कुट्ट् -> कुत्ट् (कुत्टँ) छेदने चुरादिः",
+    rom: "kuṭṭ -> kutṭ (kutṭaṁ) chedane curādiḥ",
+    wx: "kutt -> kuwt (kuwtaṁ) Cexane curAxiH"
   },
   'kuwt1_kuwtaz_curAxiH_prawApane': {
-    dev: "कुत्ट् (कुत्टँ) प्रतापने चुरादिः",
-    rom: "kutṭ (kutṭaṁ) pratāpane curādiḥ",
-    wx: "kuwt (kuwtaṁ) prawApane curAxiH"
+    dev: "कुट्ट् -> कुत्ट् (कुत्टँ) प्रतापने चुरादिः",
+    rom: "kuṭṭ -> kutṭ (kutṭaṁ) pratāpane curādiḥ",
+    wx: "kutt -> kuwt (kuwtaṁ) prawApane curAxiH"
   },
   'kuwt1_kuwtaz_curAxiH_Barwsane': {
-    dev: "कुत्ट् (कुत्टँ) भर्त्सने चुरादिः",
-    rom: "kutṭ (kutṭaṁ) bhartsane curādiḥ",
-    wx: "kuwt (kuwtaṁ) Barwsane curAxiH"
+    dev: "कुट्ट् -> कुत्ट् (कुत्टँ) भर्त्सने चुरादिः",
+    rom: "kuṭṭ -> kutṭ (kutṭaṁ) bhartsane curādiḥ",
+    wx: "kutt -> kuwt (kuwtaṁ) Barwsane curAxiH"
   },
   'kuws1_kuwsaz_curAxiH_avakRepaNe': {
     dev: "कुत्स् (कुत्सँ) अवक्षेपणे चुरादिः",
@@ -2080,39 +2080,39 @@ var root_info = {
     wx: "kuws (kuwsaṁ) avakRepaNe curAxiH"
   },
   'kuW2_kuWaz_xivAxiH_pUwIBAve': {
-    dev: "कुथ् (कुथँ) पूतीभावे दिवादिः",
-    rom: "kuth (kuthaṁ) pūtībhāve divādiḥ",
-    wx: "kuW (kuWaṁ) pUwIBAve xivAxiH"
+    dev: "कुन्थ् -> कुथ् (कुथँ) पूतीभावे दिवादिः",
+    rom: "kunth -> kuth (kuthaṁ) pūtībhāve divādiḥ",
+    wx: "kunW -> kuW (kuWaṁ) pUwIBAve xivAxiH"
   },
   'kuW1_kuWiz_BvAxiH_safkleSane': {
-    dev: "कुथ् (कुथिँ) सङ्क्लेशने भ्वादिः",
-    rom: "kuth (kuthiṁ) saṅkleśane bhvādiḥ",
-    wx: "kuW (kuWiṁ) safkleSane BvAxiH"
+    dev: "कुन्थ् -> कुथ् (कुथिँ) सङ्क्लेशने भ्वादिः",
+    rom: "kunth -> kuth (kuthiṁ) saṅkleśane bhvādiḥ",
+    wx: "kunW -> kuW (kuWiṁ) safkleSane BvAxiH"
   },
   'kuW1_kuWiz_BvAxiH_hiMsAyAm': {
-    dev: "कुथ् (कुथिँ) हिंसायाम् भ्वादिः",
-    rom: "kuth (kuthiṁ) hiṃsāyām bhvādiḥ",
-    wx: "kuW (kuWiṁ) hiMsAyAm BvAxiH"
+    dev: "कुन्थ् -> कुथ् (कुथिँ) हिंसायाम् भ्वादिः",
+    rom: "kunth -> kuth (kuthiṁ) hiṃsāyām bhvādiḥ",
+    wx: "kunW -> kuW (kuWiṁ) hiMsAyAm BvAxiH"
   },
   'kuxr1_kuxriz_curAxiH_anqwaBARaNe': {
-    dev: "कुद्र् (कुद्रिँ) अनृतभाषणे चुरादिः",
-    rom: "kudr (kudriṁ) anṛtabhāṣaṇe curādiḥ",
-    wx: "kuxr (kuxriṁ) anqwaBARaNe curAxiH"
+    dev: "कुन्द्र् -> कुद्र् (कुद्रिँ) अनृतभाषणे चुरादिः",
+    rom: "kundr -> kudr (kudriṁ) anṛtabhāṣaṇe curādiḥ",
+    wx: "kunxr -> kuxr (kuxriṁ) anqwaBARaNe curAxiH"
   },
   'kunc1_kuncaz_BvAxiH_alpIBAve': {
-    dev: "कुन्च् (कुन्चँ) अल्पीभावे भ्वादिः",
-    rom: "kunc (kuncaṁ) alpībhāve bhvādiḥ",
-    wx: "kunc (kuncaṁ) alpIBAve BvAxiH"
+    dev: "कुञ्च् -> कुन्च् (कुन्चँ) अल्पीभावे भ्वादिः",
+    rom: "kuñc -> kunc (kuncaṁ) alpībhāve bhvādiḥ",
+    wx: "kuFc -> kunc (kuncaṁ) alpIBAve BvAxiH"
   },
   'kunc1_kuncaz_BvAxiH_kOtilye': {
-    dev: "कुन्च् (कुन्चँ) कौटिल्ये भ्वादिः",
-    rom: "kunc (kuncaṁ) kauṭilye bhvādiḥ",
-    wx: "kunc (kuncaṁ) kOtilye BvAxiH"
+    dev: "कुञ्च् -> कुन्च् (कुन्चँ) कौटिल्ये भ्वादिः",
+    rom: "kuñc -> kunc (kuncaṁ) kauṭilye bhvādiḥ",
+    wx: "kuFc -> kunc (kuncaṁ) kOtilye BvAxiH"
   },
   'kunc1_kuncaz_BvAxiH_gawikOtilye': {
-    dev: "कुन्च् (कुन्चँ) गतिकौटिल्ये भ्वादिः",
-    rom: "kunc (kuncaṁ) gatikauṭilye bhvādiḥ",
-    wx: "kunc (kuncaṁ) gawikOtilye BvAxiH"
+    dev: "कुञ्च् -> कुन्च् (कुन्चँ) गतिकौटिल्ये भ्वादिः",
+    rom: "kuñc -> kunc (kuncaṁ) gatikauṭilye bhvādiḥ",
+    wx: "kuFc -> kunc (kuncaṁ) gawikOtilye BvAxiH"
   },
   'kunW1_kunWaz_kryAxiH_saMSleRaNe': {
     dev: "कुन्थ् (कुन्थँ) संश्लेषणे क्र्यादिः",
@@ -2140,19 +2140,19 @@ var root_info = {
     wx: "kup (kupiṁ) CAxane curAxiH"
   },
   'kub1_kubiz_BvAxiH_arxane': {
-    dev: "कुब् (कुबिँ) अर्दने भ्वादिः",
-    rom: "kub (kubiṁ) ardane bhvādiḥ",
-    wx: "kub (kubiṁ) arxane BvAxiH"
+    dev: "कुम्ब् -> कुब् (कुबिँ) अर्दने भ्वादिः",
+    rom: "kumb -> kub (kubiṁ) ardane bhvādiḥ",
+    wx: "kumb -> kub (kubiṁ) arxane BvAxiH"
   },
   'kub2_kubiz_curAxiH_AcCAxane': {
-    dev: "कुब् (कुबिँ) आच्छादने चुरादिः",
-    rom: "kub (kubiṁ) ācchādane curādiḥ",
-    wx: "kub (kubiṁ) AcCAxane curAxiH"
+    dev: "कुम्ब् -> कुब् (कुबिँ) आच्छादने चुरादिः",
+    rom: "kumb -> kub (kubiṁ) ācchādane curādiḥ",
+    wx: "kumb -> kub (kubiṁ) AcCAxane curAxiH"
   },
   'kub1_kubiz_BvAxiH_AcCAxane': {
-    dev: "कुब् (कुबिँ) आच्छादने भ्वादिः",
-    rom: "kub (kubiṁ) ācchādane bhvādiḥ",
-    wx: "kub (kubiṁ) AcCAxane BvAxiH"
+    dev: "कुम्ब् -> कुब् (कुबिँ) आच्छादने भ्वादिः",
+    rom: "kumb -> kub (kubiṁ) ācchādane bhvādiḥ",
+    wx: "kumb -> kub (kubiṁ) AcCAxane BvAxiH"
   },
   'kumAra1_kumAra_curAxiH_krIdAyAm': {
     dev: "कुमार (कुमार) क्रीडायाम् चुरादिः",
@@ -2185,14 +2185,14 @@ var root_info = {
     wx: "kul (kulaṁ) saMswyAne BvAxiH"
   },
   'kuS1_kuSiz_curAxiH_BARArWe': {
-    dev: "कुश् (कुशिँ) भाषार्थे चुरादिः",
-    rom: "kuś (kuśiṁ) bhāṣārthe curādiḥ",
-    wx: "kuS (kuSiṁ) BARArWe curAxiH"
+    dev: "कुंश् -> कुश् (कुशिँ) भाषार्थे चुरादिः",
+    rom: "kuṃś -> kuś (kuśiṁ) bhāṣārthe curādiḥ",
+    wx: "kuMS -> kuS (kuSiṁ) BARArWe curAxiH"
   },
   'kuS1_kuSiz_curAxiH_BAsArWe': {
-    dev: "कुश् (कुशिँ) भासार्थे चुरादिः",
-    rom: "kuś (kuśiṁ) bhāsārthe curādiḥ",
-    wx: "kuS (kuSiṁ) BAsArWe curAxiH"
+    dev: "कुंश् -> कुश् (कुशिँ) भासार्थे चुरादिः",
+    rom: "kuṃś -> kuś (kuśiṁ) bhāsārthe curādiḥ",
+    wx: "kuMS -> kuS (kuSiṁ) BAsArWe curAxiH"
   },
   'kuR1_kuRaz_kryAxiH_niRkarRe': {
     dev: "कुष् (कुषँ) निष्कर्षे क्र्यादिः",
@@ -2200,19 +2200,19 @@ var root_info = {
     wx: "kuR (kuRaṁ) niRkarRe kryAxiH"
   },
   'kus1_kusaz_xivAxiH_SleRaNe': {
-    dev: "कुस् (कुसँ) श्लेषणे दिवादिः",
-    rom: "kus (kusaṁ) śleṣaṇe divādiḥ",
-    wx: "kus (kusaṁ) SleRaNe xivAxiH"
+    dev: "कुंस् -> कुस् (कुसँ) श्लेषणे दिवादिः",
+    rom: "kuṃs -> kus (kusaṁ) śleṣaṇe divādiḥ",
+    wx: "kuMs -> kus (kusaṁ) SleRaNe xivAxiH"
   },
   'kus2_kusiz_curAxiH_BARArWe': {
-    dev: "कुस् (कुसिँ) भाषार्थे चुरादिः",
-    rom: "kus (kusiṁ) bhāṣārthe curādiḥ",
-    wx: "kus (kusiṁ) BARArWe curAxiH"
+    dev: "कुंस् -> कुस् (कुसिँ) भाषार्थे चुरादिः",
+    rom: "kuṃs -> kus (kusiṁ) bhāṣārthe curādiḥ",
+    wx: "kuMs -> kus (kusiṁ) BARArWe curAxiH"
   },
   'kus2_kusiz_curAxiH_BAsArWe': {
-    dev: "कुस् (कुसिँ) भासार्थे चुरादिः",
-    rom: "kus (kusiṁ) bhāsārthe curādiḥ",
-    wx: "kus (kusiṁ) BAsArWe curAxiH"
+    dev: "कुंस् -> कुस् (कुसिँ) भासार्थे चुरादिः",
+    rom: "kuṃs -> kus (kusiṁ) bhāsārthe curādiḥ",
+    wx: "kuMs -> kus (kusiṁ) BAsArWe curAxiH"
   },
   'kusm1_kusmaz_curAxiH_kusmayane': {
     dev: "कुस्म् (कुस्मँ) कुस्मयने चुरादिः",
@@ -2230,9 +2230,9 @@ var root_info = {
     wx: "kUj (kUjaṁ) avyakwe_Sabxe BvAxiH"
   },
   'kUta1_kUta_curAxiH_pariwApe': {
-    dev: "कूट (कूट) परितापे चुरादिः",
-    rom: "kūṭa (kūṭa) paritāpe curādiḥ",
-    wx: "kUta (kUta) pariwApe curAxiH"
+    dev: "कूट् -> कूट (कूट) परितापे चुरादिः",
+    rom: "kūṭ -> kūṭa (kūṭa) paritāpe curādiḥ",
+    wx: "kUt -> kUta (kUta) pariwApe curAxiH"
   },
   'kUt1_kUtaz_curAxiH_apraxAne': {
     dev: "कूट् (कूटँ) अप्रदाने चुरादिः",
@@ -2290,14 +2290,14 @@ var root_info = {
     wx: "kqp (kqpUṁ) sAmarWye BvAxiH"
   },
   'kqv1_kqviz_BvAxiH_karaNe': {
-    dev: "कृव् (कृविँ) करणे भ्वादिः",
-    rom: "kṛv (kṛviṁ) karaṇe bhvādiḥ",
-    wx: "kqv (kqviṁ) karaNe BvAxiH"
+    dev: "कृण्व् -> कृव् (कृविँ) करणे भ्वादिः",
+    rom: "kṛṇv -> kṛv (kṛviṁ) karaṇe bhvādiḥ",
+    wx: "kqNv -> kqv (kqviṁ) karaNe BvAxiH"
   },
   'kqv1_kqviz_BvAxiH_hiMsAyAm': {
-    dev: "कृव् (कृविँ) हिंसायाम् भ्वादिः",
-    rom: "kṛv (kṛviṁ) hiṃsāyām bhvādiḥ",
-    wx: "kqv (kqviṁ) hiMsAyAm BvAxiH"
+    dev: "कृण्व् -> कृव् (कृविँ) हिंसायाम् भ्वादिः",
+    rom: "kṛṇv -> kṛv (kṛviṁ) hiṃsāyām bhvādiḥ",
+    wx: "kqNv -> kqv (kqviṁ) hiMsAyAm BvAxiH"
   },
   'kqS1_kqSaz_xivAxiH_wanUkaraNe': {
     dev: "कृश् (कृशँ) तनूकरणे दिवादिः",
@@ -2410,24 +2410,24 @@ var root_info = {
     wx: "kraW (kraWaṁ) hiMsAyAm BvAxiH"
   },
   'krax1_kraxaz_BvAxiH_vEklavye': {
-    dev: "क्रद् (क्रदँ) वैक्लव्ये भ्वादिः",
-    rom: "krad (kradaṁ) vaiklavye bhvādiḥ",
-    wx: "krax (kraxaṁ) vEklavye BvAxiH"
+    dev: "क्रन्द् -> क्रद् (क्रदँ) वैक्लव्ये भ्वादिः",
+    rom: "krand -> krad (kradaṁ) vaiklavye bhvādiḥ",
+    wx: "kranx -> krax (kraxaṁ) vEklavye BvAxiH"
   },
   'krax2_kraxiz_BvAxiH_AhvAne': {
-    dev: "क्रद् (क्रदिँ) आह्वाने भ्वादिः",
-    rom: "krad (kradiṁ) āhvāne bhvādiḥ",
-    wx: "krax (kraxiṁ) AhvAne BvAxiH"
+    dev: "क्रन्द् -> क्रद् (क्रदिँ) आह्वाने भ्वादिः",
+    rom: "krand -> krad (kradiṁ) āhvāne bhvādiḥ",
+    wx: "kranx -> krax (kraxiṁ) AhvAne BvAxiH"
   },
   'krax2_kraxiz_BvAxiH_roxane': {
-    dev: "क्रद् (क्रदिँ) रोदने भ्वादिः",
-    rom: "krad (kradiṁ) rodane bhvādiḥ",
-    wx: "krax (kraxiṁ) roxane BvAxiH"
+    dev: "क्रन्द् -> क्रद् (क्रदिँ) रोदने भ्वादिः",
+    rom: "krand -> krad (kradiṁ) rodane bhvādiḥ",
+    wx: "kranx -> krax (kraxiṁ) roxane BvAxiH"
   },
   'krax3_kraxiz_BvAxiH_vEklavye': {
-    dev: "क्रद् (क्रदिँ) वैक्लव्ये भ्वादिः",
-    rom: "krad (kradiṁ) vaiklavye bhvādiḥ",
-    wx: "krax (kraxiṁ) vEklavye BvAxiH"
+    dev: "क्रन्द् -> क्रद् (क्रदिँ) वैक्लव्ये भ्वादिः",
+    rom: "krand -> krad (kradiṁ) vaiklavye bhvādiḥ",
+    wx: "kranx -> krax (kraxiṁ) vEklavye BvAxiH"
   },
   'kranx1_kranxaz_curAxiH_sAwawye': {
     dev: "क्रन्द् (क्रन्दँ) सातत्ये चुरादिः",
@@ -2470,19 +2470,19 @@ var root_info = {
     wx: "kruX (kruXaṁ) kope xivAxiH"
   },
   'krunc1_kruncaz_BvAxiH_alpIBAve': {
-    dev: "क्रुन्च् (क्रुन्चँ) अल्पीभावे भ्वादिः",
-    rom: "krunc (kruncaṁ) alpībhāve bhvādiḥ",
-    wx: "krunc (kruncaṁ) alpIBAve BvAxiH"
+    dev: "क्रुञ्च् -> क्रुन्च् (क्रुन्चँ) अल्पीभावे भ्वादिः",
+    rom: "kruñc -> krunc (kruncaṁ) alpībhāve bhvādiḥ",
+    wx: "kruFc -> krunc (kruncaṁ) alpIBAve BvAxiH"
   },
   'krunc1_kruncaz_BvAxiH_kOtilye': {
-    dev: "क्रुन्च् (क्रुन्चँ) कौटिल्ये भ्वादिः",
-    rom: "krunc (kruncaṁ) kauṭilye bhvādiḥ",
-    wx: "krunc (kruncaṁ) kOtilye BvAxiH"
+    dev: "क्रुञ्च् -> क्रुन्च् (क्रुन्चँ) कौटिल्ये भ्वादिः",
+    rom: "kruñc -> krunc (kruncaṁ) kauṭilye bhvādiḥ",
+    wx: "kruFc -> krunc (kruncaṁ) kOtilye BvAxiH"
   },
   'krunc1_kruncaz_BvAxiH_gawO': {
-    dev: "क्रुन्च् (क्रुन्चँ) गतौ भ्वादिः",
-    rom: "krunc (kruncaṁ) gatau bhvādiḥ",
-    wx: "krunc (kruncaṁ) gawO BvAxiH"
+    dev: "क्रुञ्च् -> क्रुन्च् (क्रुन्चँ) गतौ भ्वादिः",
+    rom: "kruñc -> krunc (kruncaṁ) gatau bhvādiḥ",
+    wx: "kruFc -> krunc (kruncaṁ) gawO BvAxiH"
   },
   'kruS1_kruSaz_BvAxiH_AhvAne': {
     dev: "क्रुश् (क्रुशँ) आह्वाने भ्वादिः",
@@ -2500,24 +2500,24 @@ var root_info = {
     wx: "klaW (klaWaṁ) hiMsAyAm BvAxiH"
   },
   'klax1_klaxaz_BvAxiH_vEklavye': {
-    dev: "क्लद् (क्लदँ) वैक्लव्ये भ्वादिः",
-    rom: "klad (kladaṁ) vaiklavye bhvādiḥ",
-    wx: "klax (klaxaṁ) vEklavye BvAxiH"
+    dev: "क्लन्द् -> क्लद् (क्लदँ) वैक्लव्ये भ्वादिः",
+    rom: "kland -> klad (kladaṁ) vaiklavye bhvādiḥ",
+    wx: "klanx -> klax (klaxaṁ) vEklavye BvAxiH"
   },
   'klax2_klaxiz_BvAxiH_AhvAne': {
-    dev: "क्लद् (क्लदिँ) आह्वाने भ्वादिः",
-    rom: "klad (kladiṁ) āhvāne bhvādiḥ",
-    wx: "klax (klaxiṁ) AhvAne BvAxiH"
+    dev: "क्लन्द् -> क्लद् (क्लदिँ) आह्वाने भ्वादिः",
+    rom: "kland -> klad (kladiṁ) āhvāne bhvādiḥ",
+    wx: "klanx -> klax (klaxiṁ) AhvAne BvAxiH"
   },
   'klax2_klaxiz_BvAxiH_roxane': {
-    dev: "क्लद् (क्लदिँ) रोदने भ्वादिः",
-    rom: "klad (kladiṁ) rodane bhvādiḥ",
-    wx: "klax (klaxiṁ) roxane BvAxiH"
+    dev: "क्लन्द् -> क्लद् (क्लदिँ) रोदने भ्वादिः",
+    rom: "kland -> klad (kladiṁ) rodane bhvādiḥ",
+    wx: "klanx -> klax (klaxiṁ) roxane BvAxiH"
   },
   'klax2_klaxiz_BvAxiH_vEklavye': {
-    dev: "क्लद् (क्लदिँ) वैक्लव्ये भ्वादिः",
-    rom: "klad (kladiṁ) vaiklavye bhvādiḥ",
-    wx: "klax (klaxiṁ) vEklavye BvAxiH"
+    dev: "क्लन्द् -> क्लद् (क्लदिँ) वैक्लव्ये भ्वादिः",
+    rom: "kland -> klad (kladiṁ) vaiklavye bhvādiḥ",
+    wx: "klanx -> klax (klaxiṁ) vEklavye BvAxiH"
   },
   'klam1_klamuz_xivAxiH_glAnO': {
     dev: "क्लम् (क्लमुँ) ग्लानौ दिवादिः",
@@ -2525,14 +2525,14 @@ var root_info = {
     wx: "klam (klamuṁ) glAnO xivAxiH"
   },
   'klix1_klixiz_BvAxiH_parixevane': {
-    dev: "क्लिद् (क्लिदिँ) परिदेवने भ्वादिः",
-    rom: "klid (klidiṁ) paridevane bhvādiḥ",
-    wx: "klix (klixiṁ) parixevane BvAxiH"
+    dev: "क्लिन्द् -> क्लिद् (क्लिदिँ) परिदेवने भ्वादिः",
+    rom: "klind -> klid (klidiṁ) paridevane bhvādiḥ",
+    wx: "klinx -> klix (klixiṁ) parixevane BvAxiH"
   },
   'klix2_klixUz_xivAxiH_ArxrIBAve': {
-    dev: "क्लिद् (क्लिदूँ) आर्द्रीभावे दिवादिः",
-    rom: "klid (klidūṁ) ārdrībhāve divādiḥ",
-    wx: "klix (klixUṁ) ArxrIBAve xivAxiH"
+    dev: "क्लिन्द् -> क्लिद् (क्लिदूँ) आर्द्रीभावे दिवादिः",
+    rom: "klind -> klid (klidūṁ) ārdrībhāve divādiḥ",
+    wx: "klinx -> klix (klixUṁ) ArxrIBAve xivAxiH"
   },
   'kliS1_kliSaz_xivAxiH_upawApe': {
     dev: "क्लिश् (क्लिशँ) उपतापे दिवादिः",
@@ -2575,19 +2575,19 @@ var root_info = {
     wx: "kvaW (kvaWeṁ) niRpAke BvAxiH"
   },
   'kRaj2_kRajiz_curAxiH_kqcCrajIvane': {
-    dev: "क्षज् (क्षजिँ) कृच्छ्रजीवने चुरादिः",
-    rom: "kṣaj (kṣajiṁ) kṛcchrajīvane curādiḥ",
-    wx: "kRaj (kRajiṁ) kqcCrajIvane curAxiH"
+    dev: "क्षञ्ज् -> क्षज् (क्षजिँ) कृच्छ्रजीवने चुरादिः",
+    rom: "kṣañj -> kṣaj (kṣajiṁ) kṛcchrajīvane curādiḥ",
+    wx: "kRaFj -> kRaj (kRajiṁ) kqcCrajIvane curAxiH"
   },
   'kRaj1_kRajiz_BvAxiH_gawO': {
-    dev: "क्षज् (क्षजिँ) गतौ भ्वादिः",
-    rom: "kṣaj (kṣajiṁ) gatau bhvādiḥ",
-    wx: "kRaj (kRajiṁ) gawO BvAxiH"
+    dev: "क्षञ्ज् -> क्षज् (क्षजिँ) गतौ भ्वादिः",
+    rom: "kṣañj -> kṣaj (kṣajiṁ) gatau bhvādiḥ",
+    wx: "kRaFj -> kRaj (kRajiṁ) gawO BvAxiH"
   },
   'kRaj1_kRajiz_BvAxiH_xAne': {
-    dev: "क्षज् (क्षजिँ) दाने भ्वादिः",
-    rom: "kṣaj (kṣajiṁ) dāne bhvādiḥ",
-    wx: "kRaj (kRajiṁ) xAne BvAxiH"
+    dev: "क्षञ्ज् -> क्षज् (क्षजिँ) दाने भ्वादिः",
+    rom: "kṣañj -> kṣaj (kṣajiṁ) dāne bhvādiḥ",
+    wx: "kRaFj -> kRaj (kRajiṁ) xAne BvAxiH"
   },
   'kRaN1_kRaNuz_wanAxiH_hiMsAyAm': {
     dev: "क्षण् (क्षणुँ) हिंसायाम् तनादिः",
@@ -2600,9 +2600,9 @@ var root_info = {
     wx: "kRapa (kRapa) preraNe curAxiH"
   },
   'kRap1_kRapiz_curAxiH_kRAnwyAm': {
-    dev: "क्षप् (क्षपिँ) क्षान्त्याम् चुरादिः",
-    rom: "kṣap (kṣapiṁ) kṣāntyām curādiḥ",
-    wx: "kRap (kRapiṁ) kRAnwyAm curAxiH"
+    dev: "क्षम्प् -> क्षप् (क्षपिँ) क्षान्त्याम् चुरादिः",
+    rom: "kṣamp -> kṣap (kṣapiṁ) kṣāntyām curādiḥ",
+    wx: "kRamp -> kRap (kRapiṁ) kRAnwyAm curAxiH"
   },
   'kRam2_kRamUz_xivAxiH_sahane': {
     dev: "क्षम् (क्षमूँ) सहने दिवादिः",
@@ -2810,19 +2810,19 @@ var root_info = {
     wx: "Kac (Kacaṁ) BUwaprAxurBAve kryAxiH"
   },
   'Kaj1_Kajaz_BvAxiH_pAlane': {
-    dev: "खज् (खजँ) पालने भ्वादिः",
-    rom: "khaj (khajaṁ) pālane bhvādiḥ",
-    wx: "Kaj (Kajaṁ) pAlane BvAxiH"
+    dev: "खञ्ज् -> खज् (खजँ) पालने भ्वादिः",
+    rom: "khañj -> khaj (khajaṁ) pālane bhvādiḥ",
+    wx: "KaFj -> Kaj (Kajaṁ) pAlane BvAxiH"
   },
   'Kaj1_Kajaz_BvAxiH_manWe': {
-    dev: "खज् (खजँ) मन्थे भ्वादिः",
-    rom: "khaj (khajaṁ) manthe bhvādiḥ",
-    wx: "Kaj (Kajaṁ) manWe BvAxiH"
+    dev: "खञ्ज् -> खज् (खजँ) मन्थे भ्वादिः",
+    rom: "khañj -> khaj (khajaṁ) manthe bhvādiḥ",
+    wx: "KaFj -> Kaj (Kajaṁ) manWe BvAxiH"
   },
   'Kaj2_Kajiz_BvAxiH_gawivEkalye': {
-    dev: "खज् (खजिँ) गतिवैकल्ये भ्वादिः",
-    rom: "khaj (khajiṁ) gativaikalye bhvādiḥ",
-    wx: "Kaj (Kajiṁ) gawivEkalye BvAxiH"
+    dev: "खञ्ज् -> खज् (खजिँ) गतिवैकल्ये भ्वादिः",
+    rom: "khañj -> khaj (khajiṁ) gativaikalye bhvādiḥ",
+    wx: "KaFj -> Kaj (Kajiṁ) gawivEkalye BvAxiH"
   },
   'Kat1_Kataz_BvAxiH_kAfkRAyAm': {
     dev: "खट् (खटँ) काङ्क्षायाम् भ्वादिः",
@@ -2830,24 +2830,24 @@ var root_info = {
     wx: "Kat (Kataṁ) kAfkRAyAm BvAxiH"
   },
   'Kad2_Kadaz_curAxiH_Bexane': {
-    dev: "खड् (खडँ) भेदने चुरादिः",
-    rom: "khaḍ (khaḍaṁ) bhedane curādiḥ",
-    wx: "Kad (Kadaṁ) Bexane curAxiH"
+    dev: "खण्ड् -> खड् (खडँ) भेदने चुरादिः",
+    rom: "khaṇḍ -> khaḍ (khaḍaṁ) bhedane curādiḥ",
+    wx: "KaNd -> Kad (Kadaṁ) Bexane curAxiH"
   },
   'Kad3_Kadiz_curAxiH_Bexane': {
-    dev: "खड् (खडिँ) भेदने चुरादिः",
-    rom: "khaḍ (khaḍiṁ) bhedane curādiḥ",
-    wx: "Kad (Kadiṁ) Bexane curAxiH"
+    dev: "खण्ड् -> खड् (खडिँ) भेदने चुरादिः",
+    rom: "khaṇḍ -> khaḍ (khaḍiṁ) bhedane curādiḥ",
+    wx: "KaNd -> Kad (Kadiṁ) Bexane curAxiH"
   },
   'Kad1_Kadiz_BvAxiH_manWe': {
-    dev: "खड् (खडिँ) मन्थे भ्वादिः",
-    rom: "khaḍ (khaḍiṁ) manthe bhvādiḥ",
-    wx: "Kad (Kadiṁ) manWe BvAxiH"
+    dev: "खण्ड् -> खड् (खडिँ) मन्थे भ्वादिः",
+    rom: "khaṇḍ -> khaḍ (khaḍiṁ) manthe bhvādiḥ",
+    wx: "KaNd -> Kad (Kadiṁ) manWe BvAxiH"
   },
   'Kawt1_Kawtaz_curAxiH_saMvaraNe': {
-    dev: "खत्ट् (खत्टँ) संवरणे चुरादिः",
-    rom: "khatṭ (khatṭaṁ) saṃvaraṇe curādiḥ",
-    wx: "Kawt (Kawtaṁ) saMvaraNe curAxiH"
+    dev: "खट्ट् -> खत्ट् (खत्टँ) संवरणे चुरादिः",
+    rom: "khaṭṭ -> khatṭ (khatṭaṁ) saṃvaraṇe curādiḥ",
+    wx: "Katt -> Kawt (Kawtaṁ) saMvaraNe curAxiH"
   },
   'Kax1_Kaxaz_BvAxiH_sWErye': {
     dev: "खद् (खदँ) स्थैर्ये भ्वादिः",
@@ -2960,14 +2960,14 @@ var root_info = {
     wx: "Kuj (Kujuṁ) sweyakaraNe BvAxiH"
   },
   'Kud2_Kudiz_curAxiH_KaNdane': {
-    dev: "खुड् (खुडिँ) खण्डने चुरादिः",
-    rom: "khuḍ (khuḍiṁ) khaṇḍane curādiḥ",
-    wx: "Kud (Kudiṁ) KaNdane curAxiH"
+    dev: "खुण्ड् -> खुड् (खुडिँ) खण्डने चुरादिः",
+    rom: "khuṇḍ -> khuḍ (khuḍiṁ) khaṇḍane curādiḥ",
+    wx: "KuNd -> Kud (Kudiṁ) KaNdane curAxiH"
   },
   'Kud1_Kudiz_BvAxiH_gawivEkalye': {
-    dev: "खुड् (खुडिँ) गतिवैकल्ये भ्वादिः",
-    rom: "khuḍ (khuḍiṁ) gativaikalye bhvādiḥ",
-    wx: "Kud (Kudiṁ) gawivEkalye BvAxiH"
+    dev: "खुण्ड् -> खुड् (खुडिँ) गतिवैकल्ये भ्वादिः",
+    rom: "khuṇḍ -> khuḍ (khuḍiṁ) gativaikalye bhvādiḥ",
+    wx: "KuNd -> Kud (Kudiṁ) gawivEkalye BvAxiH"
   },
   'Kur1_Kuraz_wuxAxiH_KaNdane': {
     dev: "खुर् (खुरँ) खण्डने तुदादिः",
@@ -3035,34 +3035,34 @@ var root_info = {
     wx: "KyA (KyA) prakaWane axAxiH"
   },
   'gaj1_gajaz_BvAxiH_maxe': {
-    dev: "गज् (गजँ) मदे भ्वादिः",
-    rom: "gaj (gajaṁ) made bhvādiḥ",
-    wx: "gaj (gajaṁ) maxe BvAxiH"
+    dev: "गञ्ज् -> गज् (गजँ) मदे भ्वादिः",
+    rom: "gañj -> gaj (gajaṁ) made bhvādiḥ",
+    wx: "gaFj -> gaj (gajaṁ) maxe BvAxiH"
   },
   'gaj3_gajaz_curAxiH_Sabxe': {
-    dev: "गज् (गजँ) शब्दे चुरादिः",
-    rom: "gaj (gajaṁ) śabde curādiḥ",
-    wx: "gaj (gajaṁ) Sabxe curAxiH"
+    dev: "गञ्ज् -> गज् (गजँ) शब्दे चुरादिः",
+    rom: "gañj -> gaj (gajaṁ) śabde curādiḥ",
+    wx: "gaFj -> gaj (gajaṁ) Sabxe curAxiH"
   },
   'gaj1_gajaz_BvAxiH_Sabxe': {
-    dev: "गज् (गजँ) शब्दे भ्वादिः",
-    rom: "gaj (gajaṁ) śabde bhvādiḥ",
-    wx: "gaj (gajaṁ) Sabxe BvAxiH"
+    dev: "गञ्ज् -> गज् (गजँ) शब्दे भ्वादिः",
+    rom: "gañj -> gaj (gajaṁ) śabde bhvādiḥ",
+    wx: "gaFj -> gaj (gajaṁ) Sabxe BvAxiH"
   },
   'gaj2_gajiz_BvAxiH_Sabxe': {
-    dev: "गज् (गजिँ) शब्दे भ्वादिः",
-    rom: "gaj (gajiṁ) śabde bhvādiḥ",
-    wx: "gaj (gajiṁ) Sabxe BvAxiH"
+    dev: "गञ्ज् -> गज् (गजिँ) शब्दे भ्वादिः",
+    rom: "gañj -> gaj (gajiṁ) śabde bhvādiḥ",
+    wx: "gaFj -> gaj (gajiṁ) Sabxe BvAxiH"
   },
   'gad1_gadaz_BvAxiH_secane': {
-    dev: "गड् (गडँ) सेचने भ्वादिः",
-    rom: "gaḍ (gaḍaṁ) secane bhvādiḥ",
-    wx: "gad (gadaṁ) secane BvAxiH"
+    dev: "गण्ड् -> गड् (गडँ) सेचने भ्वादिः",
+    rom: "gaṇḍ -> gaḍ (gaḍaṁ) secane bhvādiḥ",
+    wx: "gaNd -> gad (gadaṁ) secane BvAxiH"
   },
   'gad2_gadiz_BvAxiH_vaxanEkaxeSe': {
-    dev: "गड् (गडिँ) वदनैकदेशे भ्वादिः",
-    rom: "gaḍ (gaḍiṁ) vadanaikadeśe bhvādiḥ",
-    wx: "gad (gadiṁ) vaxanEkaxeSe BvAxiH"
+    dev: "गण्ड् -> गड् (गडिँ) वदनैकदेशे भ्वादिः",
+    rom: "gaṇḍ -> gaḍ (gaḍiṁ) vadanaikadeśe bhvādiḥ",
+    wx: "gaNd -> gad (gadiṁ) vaxanEkaxeSe BvAxiH"
   },
   'gaNa1_gaNa_curAxiH_safKyAne': {
     dev: "गण (गण) सङ्ख्याने चुरादिः",
@@ -3070,9 +3070,9 @@ var root_info = {
     wx: "gaNa (gaNa) safKyAne curAxiH"
   },
   'gaxI1_gaxI_curAxiH_xevaSabxe': {
-    dev: "गदी (गदी) देवशब्दे चुरादिः",
-    rom: "gadī (gadī) devaśabde curādiḥ",
-    wx: "gaxI (gaxI) xevaSabxe curAxiH"
+    dev: "गद् -> गदी (गदी) देवशब्दे चुरादिः",
+    rom: "gad -> gadī (gadī) devaśabde curādiḥ",
+    wx: "gax -> gaxI (gaxI) xevaSabxe curAxiH"
   },
   'gax1_gaxaz_BvAxiH_vyakwAyAM_vAci': {
     dev: "गद् (गदँ) व्यक्तायां_वाचि भ्वादिः",
@@ -3215,39 +3215,39 @@ var root_info = {
     wx: "gu (guf) avyakwe_Sabxe BvAxiH"
   },
   'guj2_gujaz_wuxAxiH_Sabxe': {
-    dev: "गुज् (गुजँ) शब्दे तुदादिः",
-    rom: "guj (gujaṁ) śabde tudādiḥ",
-    wx: "guj (gujaṁ) Sabxe wuxAxiH"
+    dev: "गुञ्ज् -> गुज् (गुजँ) शब्दे तुदादिः",
+    rom: "guñj -> guj (gujaṁ) śabde tudādiḥ",
+    wx: "guFj -> guj (gujaṁ) Sabxe wuxAxiH"
   },
   'guj1_gujiz_BvAxiH_avyakwe_Sabxe': {
-    dev: "गुज् (गुजिँ) अव्यक्ते_शब्दे भ्वादिः",
-    rom: "guj (gujiṁ) avyakte_śabde bhvādiḥ",
-    wx: "guj (gujiṁ) avyakwe_Sabxe BvAxiH"
+    dev: "गुञ्ज् -> गुज् (गुजिँ) अव्यक्ते_शब्दे भ्वादिः",
+    rom: "guñj -> guj (gujiṁ) avyakte_śabde bhvādiḥ",
+    wx: "guFj -> guj (gujiṁ) avyakwe_Sabxe BvAxiH"
   },
   'guT1_guTiz_curAxiH_veRtane': {
-    dev: "गुठ् (गुठिँ) वेष्टने चुरादिः",
-    rom: "guṭh (guṭhiṁ) veṣṭane curādiḥ",
-    wx: "guT (guTiṁ) veRtane curAxiH"
+    dev: "गुण्ठ् -> गुठ् (गुठिँ) वेष्टने चुरादिः",
+    rom: "guṇṭh -> guṭh (guṭhiṁ) veṣṭane curādiḥ",
+    wx: "guNT -> guT (guTiṁ) veRtane curAxiH"
   },
   'gud1_gudaz_wuxAxiH_prawiGAwe': {
-    dev: "गुड् (गुडँ) प्रतिघाते तुदादिः",
-    rom: "guḍ (guḍaṁ) pratighāte tudādiḥ",
-    wx: "gud (gudaṁ) prawiGAwe wuxAxiH"
+    dev: "गुण्ड् -> गुड् (गुडँ) प्रतिघाते तुदादिः",
+    rom: "guṇḍ -> guḍ (guḍaṁ) pratighāte tudādiḥ",
+    wx: "guNd -> gud (gudaṁ) prawiGAwe wuxAxiH"
   },
   'gud1_gudaz_wuxAxiH_rakRaNe': {
-    dev: "गुड् (गुडँ) रक्षणे तुदादिः",
-    rom: "guḍ (guḍaṁ) rakṣaṇe tudādiḥ",
-    wx: "gud (gudaṁ) rakRaNe wuxAxiH"
+    dev: "गुण्ड् -> गुड् (गुडँ) रक्षणे तुदादिः",
+    rom: "guṇḍ -> guḍ (guḍaṁ) rakṣaṇe tudādiḥ",
+    wx: "guNd -> gud (gudaṁ) rakRaNe wuxAxiH"
   },
   'gud2_gudiz_curAxiH_rakRaNe': {
-    dev: "गुड् (गुडिँ) रक्षणे चुरादिः",
-    rom: "guḍ (guḍiṁ) rakṣaṇe curādiḥ",
-    wx: "gud (gudiṁ) rakRaNe curAxiH"
+    dev: "गुण्ड् -> गुड् (गुडिँ) रक्षणे चुरादिः",
+    rom: "guṇḍ -> guḍ (guḍiṁ) rakṣaṇe curādiḥ",
+    wx: "guNd -> gud (gudiṁ) rakRaNe curAxiH"
   },
   'gud2_gudiz_curAxiH_veRtane': {
-    dev: "गुड् (गुडिँ) वेष्टने चुरादिः",
-    rom: "guḍ (guḍiṁ) veṣṭane curādiḥ",
-    wx: "gud (gudiṁ) veRtane curAxiH"
+    dev: "गुण्ड् -> गुड् (गुडिँ) वेष्टने चुरादिः",
+    rom: "guṇḍ -> guḍ (guḍiṁ) veṣṭane curādiḥ",
+    wx: "guNd -> gud (gudiṁ) veRtane curAxiH"
   },
   'guNa1_guNa_curAxiH_AmanwraNe': {
     dev: "गुण (गुण) आमन्त्रणे चुरादिः",
@@ -3270,9 +3270,9 @@ var root_info = {
     wx: "guX (guXaṁ) pariveRtane xivAxiH"
   },
   'gunP1_gunPaz_wuxAxiH_granWe': {
-    dev: "गुन्फ् (गुन्फँ) ग्रन्थे तुदादिः",
-    rom: "gunph (gunphaṁ) granthe tudādiḥ",
-    wx: "gunP (gunPaṁ) granWe wuxAxiH"
+    dev: "गुम्फ् -> गुन्फ् (गुन्फँ) ग्रन्थे तुदादिः",
+    rom: "gumph -> gunph (gunphaṁ) granthe tudādiḥ",
+    wx: "gumP -> gunP (gunPaṁ) granWe wuxAxiH"
   },
   'gup2_gupaz_BvAxiH_kuwsAyAm': {
     dev: "गुप् (गुपँ) कुत्सायाम् भ्वादिः",
@@ -3375,14 +3375,14 @@ var root_info = {
     wx: "gq (gq) secane BvAxiH"
   },
   'gqj1_gqjaz_BvAxiH_Sabxe': {
-    dev: "गृज् (गृजँ) शब्दे भ्वादिः",
-    rom: "gṛj (gṛjaṁ) śabde bhvādiḥ",
-    wx: "gqj (gqjaṁ) Sabxe BvAxiH"
+    dev: "गृञ्ज् -> गृज् (गृजँ) शब्दे भ्वादिः",
+    rom: "gṛñj -> gṛj (gṛjaṁ) śabde bhvādiḥ",
+    wx: "gqFj -> gqj (gqjaṁ) Sabxe BvAxiH"
   },
   'gqj2_gqjiz_BvAxiH_Sabxe': {
-    dev: "गृज् (गृजिँ) शब्दे भ्वादिः",
-    rom: "gṛj (gṛjiṁ) śabde bhvādiḥ",
-    wx: "gqj (gqjiṁ) Sabxe BvAxiH"
+    dev: "गृञ्ज् -> गृज् (गृजिँ) शब्दे भ्वादिः",
+    rom: "gṛñj -> gṛj (gṛjiṁ) śabde bhvādiḥ",
+    wx: "gqFj -> gqj (gqjiṁ) Sabxe BvAxiH"
   },
   'gqX1_gqXuz_xivAxiH_aBikAfkRAyAm': {
     dev: "गृध् (गृधुँ) अभिकाङ्क्षायाम् दिवादिः",
@@ -3450,9 +3450,9 @@ var root_info = {
     wx: "goRt (goRtaṁ) safGAwe BvAxiH"
   },
   'graW1_graWiz_BvAxiH_kOtilye': {
-    dev: "ग्रथ् (ग्रथिँ) कौटिल्ये भ्वादिः",
-    rom: "grath (grathiṁ) kauṭilye bhvādiḥ",
-    wx: "graW (graWiṁ) kOtilye BvAxiH"
+    dev: "ग्रन्थ् -> ग्रथ् (ग्रथिँ) कौटिल्ये भ्वादिः",
+    rom: "granth -> grath (grathiṁ) kauṭilye bhvādiḥ",
+    wx: "granW -> graW (graWiṁ) kOtilye BvAxiH"
   },
   'granW2_granWaz_curAxiH_banXane': {
     dev: "ग्रन्थ् (ग्रन्थँ) बन्धने चुरादिः",
@@ -3505,9 +3505,9 @@ var root_info = {
     wx: "gluc (glucuṁ) sweyakaraNe BvAxiH"
   },
   'glunc1_gluncuz_BvAxiH_gawO': {
-    dev: "ग्लुन्च् (ग्लुन्चुँ) गतौ भ्वादिः",
-    rom: "glunc (gluncuṁ) gatau bhvādiḥ",
-    wx: "glunc (gluncuṁ) gawO BvAxiH"
+    dev: "ग्लुञ्च् -> ग्लुन्च् (ग्लुन्चुँ) गतौ भ्वादिः",
+    rom: "gluñc -> glunc (gluncuṁ) gatau bhvādiḥ",
+    wx: "gluFc -> glunc (gluncuṁ) gawO BvAxiH"
   },
   'glUh1_glUhUz_BvAxiH_grahaNe': {
     dev: "ग्लूह् (ग्लूहूँ) ग्रहणे भ्वादिः",
@@ -3545,9 +3545,9 @@ var root_info = {
     wx: "glE (glE) harRakRaye BvAxiH"
   },
   'GagG1_GagGaz_BvAxiH_hasane': {
-    dev: "घग्घ् (घग्घँ) हसने भ्वादिः",
-    rom: "ghaggh (ghagghaṁ) hasane bhvādiḥ",
-    wx: "GagG (GagGaṁ) hasane BvAxiH"
+    dev: "घघ् -> घग्घ् (घग्घँ) हसने भ्वादिः",
+    rom: "ghagh -> ghaggh (ghagghaṁ) hasane bhvādiḥ",
+    wx: "GaG -> GagG (GagGaṁ) hasane BvAxiH"
   },
   'GaG1_GaGaz_BvAxiH_hasane': {
     dev: "घघ् (घघँ) हसने भ्वादिः",
@@ -3555,44 +3555,44 @@ var root_info = {
     wx: "GaG (GaGaṁ) hasane BvAxiH"
   },
   'Gat1_Gataz_BvAxiH_ceRtAyAm': {
-    dev: "घट् (घटँ) चेष्टायाम् भ्वादिः",
-    rom: "ghaṭ (ghaṭaṁ) ceṣṭāyām bhvādiḥ",
-    wx: "Gat (Gataṁ) ceRtAyAm BvAxiH"
+    dev: "घण्ट् -> घट् (घटँ) चेष्टायाम् भ्वादिः",
+    rom: "ghaṇṭ -> ghaṭ (ghaṭaṁ) ceṣṭāyām bhvādiḥ",
+    wx: "GaNt -> Gat (Gataṁ) ceRtAyAm BvAxiH"
   },
   'Gat2_Gataz_curAxiH_BARArWe': {
-    dev: "घट् (घटँ) भाषार्थे चुरादिः",
-    rom: "ghaṭ (ghaṭaṁ) bhāṣārthe curādiḥ",
-    wx: "Gat (Gataṁ) BARArWe curAxiH"
+    dev: "घण्ट् -> घट् (घटँ) भाषार्थे चुरादिः",
+    rom: "ghaṇṭ -> ghaṭ (ghaṭaṁ) bhāṣārthe curādiḥ",
+    wx: "GaNt -> Gat (Gataṁ) BARArWe curAxiH"
   },
   'Gat2_Gataz_curAxiH_Bexane': {
-    dev: "घट् (घटँ) भेदने चुरादिः",
-    rom: "ghaṭ (ghaṭaṁ) bhedane curādiḥ",
-    wx: "Gat (Gataṁ) Bexane curAxiH"
+    dev: "घण्ट् -> घट् (घटँ) भेदने चुरादिः",
+    rom: "ghaṇṭ -> ghaṭ (ghaṭaṁ) bhedane curādiḥ",
+    wx: "GaNt -> Gat (Gataṁ) Bexane curAxiH"
   },
   'Gat2_Gataz_curAxiH_safGAwe': {
-    dev: "घट् (घटँ) सङ्घाते चुरादिः",
-    rom: "ghaṭ (ghaṭaṁ) saṅghāte curādiḥ",
-    wx: "Gat (Gataṁ) safGAwe curAxiH"
+    dev: "घण्ट् -> घट् (घटँ) सङ्घाते चुरादिः",
+    rom: "ghaṇṭ -> ghaṭ (ghaṭaṁ) saṅghāte curādiḥ",
+    wx: "GaNt -> Gat (Gataṁ) safGAwe curAxiH"
   },
   'Gat3_Gatiz_curAxiH_BARArWe': {
-    dev: "घट् (घटिँ) भाषार्थे चुरादिः",
-    rom: "ghaṭ (ghaṭiṁ) bhāṣārthe curādiḥ",
-    wx: "Gat (Gatiṁ) BARArWe curAxiH"
+    dev: "घण्ट् -> घट् (घटिँ) भाषार्थे चुरादिः",
+    rom: "ghaṇṭ -> ghaṭ (ghaṭiṁ) bhāṣārthe curādiḥ",
+    wx: "GaNt -> Gat (Gatiṁ) BARArWe curAxiH"
   },
   'Gat3_Gatiz_curAxiH_BAsArWe': {
-    dev: "घट् (घटिँ) भासार्थे चुरादिः",
-    rom: "ghaṭ (ghaṭiṁ) bhāsārthe curādiḥ",
-    wx: "Gat (Gatiṁ) BAsArWe curAxiH"
+    dev: "घण्ट् -> घट् (घटिँ) भासार्थे चुरादिः",
+    rom: "ghaṇṭ -> ghaṭ (ghaṭiṁ) bhāsārthe curādiḥ",
+    wx: "GaNt -> Gat (Gatiṁ) BAsArWe curAxiH"
   },
   'Gawt2_Gawtaz_curAxiH_calane': {
-    dev: "घत्ट् (घत्टँ) चलने चुरादिः",
-    rom: "ghatṭ (ghatṭaṁ) calane curādiḥ",
-    wx: "Gawt (Gawtaṁ) calane curAxiH"
+    dev: "घट्ट् -> घत्ट् (घत्टँ) चलने चुरादिः",
+    rom: "ghaṭṭ -> ghatṭ (ghatṭaṁ) calane curādiḥ",
+    wx: "Gatt -> Gawt (Gawtaṁ) calane curAxiH"
   },
   'Gawt1_Gawtaz_BvAxiH_calane': {
-    dev: "घत्ट् (घत्टँ) चलने भ्वादिः",
-    rom: "ghatṭ (ghatṭaṁ) calane bhvādiḥ",
-    wx: "Gawt (Gawtaṁ) calane BvAxiH"
+    dev: "घट्ट् -> घत्ट् (घत्टँ) चलने भ्वादिः",
+    rom: "ghaṭṭ -> ghatṭ (ghatṭaṁ) calane bhvādiḥ",
+    wx: "Gatt -> Gawt (Gawtaṁ) calane BvAxiH"
   },
   'Garb1_Garbaz_BvAxiH_gawO': {
     dev: "घर्ब् (घर्बँ) गतौ भ्वादिः",
@@ -3610,9 +3610,9 @@ var root_info = {
     wx: "Gas (GasLṁ) axane BvAxiH"
   },
   'GiN1_GiNiz_BvAxiH_grahaNe': {
-    dev: "घिण् (घिणिँ) ग्रहणे भ्वादिः",
-    rom: "ghiṇ (ghiṇiṁ) grahaṇe bhvādiḥ",
-    wx: "GiN (GiNiṁ) grahaNe BvAxiH"
+    dev: "घिण्ण् -> घिण् (घिणिँ) ग्रहणे भ्वादिः",
+    rom: "ghiṇṇ -> ghiṇ (ghiṇiṁ) grahaṇe bhvādiḥ",
+    wx: "GiNN -> GiN (GiNiṁ) grahaNe BvAxiH"
   },
   'Gu1_Guf_BvAxiH_Sabxe': {
     dev: "घु (घुङ्) शब्दे भ्वादिः",
@@ -3630,19 +3630,19 @@ var root_info = {
     wx: "Gut (Gutaṁ) prawiGAwe wuxAxiH"
   },
   'GuN3_GuNaz_wuxAxiH_BramaNe': {
-    dev: "घुण् (घुणँ) भ्रमणे तुदादिः",
-    rom: "ghuṇ (ghuṇaṁ) bhramaṇe tudādiḥ",
-    wx: "GuN (GuNaṁ) BramaNe wuxAxiH"
+    dev: "घुण्ण् -> घुण् (घुणँ) भ्रमणे तुदादिः",
+    rom: "ghuṇṇ -> ghuṇ (ghuṇaṁ) bhramaṇe tudādiḥ",
+    wx: "GuNN -> GuN (GuNaṁ) BramaNe wuxAxiH"
   },
   'GuN2_GuNaz_BvAxiH_BramaNe': {
-    dev: "घुण् (घुणँ) भ्रमणे भ्वादिः",
-    rom: "ghuṇ (ghuṇaṁ) bhramaṇe bhvādiḥ",
-    wx: "GuN (GuNaṁ) BramaNe BvAxiH"
+    dev: "घुण्ण् -> घुण् (घुणँ) भ्रमणे भ्वादिः",
+    rom: "ghuṇṇ -> ghuṇ (ghuṇaṁ) bhramaṇe bhvādiḥ",
+    wx: "GuNN -> GuN (GuNaṁ) BramaNe BvAxiH"
   },
   'GuN1_GuNiz_BvAxiH_grahaNe': {
-    dev: "घुण् (घुणिँ) ग्रहणे भ्वादिः",
-    rom: "ghuṇ (ghuṇiṁ) grahaṇe bhvādiḥ",
-    wx: "GuN (GuNiṁ) grahaNe BvAxiH"
+    dev: "घुण्ण् -> घुण् (घुणिँ) ग्रहणे भ्वादिः",
+    rom: "ghuṇṇ -> ghuṇ (ghuṇiṁ) grahaṇe bhvādiḥ",
+    wx: "GuNN -> GuN (GuNiṁ) grahaNe BvAxiH"
   },
   'Gur1_Guraz_wuxAxiH_BImArWe': {
     dev: "घुर् (घुरँ) भीमार्थे तुदादिः",
@@ -3655,24 +3655,24 @@ var root_info = {
     wx: "Gur (Guraṁ) Sabxe wuxAxiH"
   },
   'GuR1_GuRiz_BvAxiH_kAnwikaraNe': {
-    dev: "घुष् (घुषिँ) कान्तिकरणे भ्वादिः",
-    rom: "ghuṣ (ghuṣiṁ) kāntikaraṇe bhvādiḥ",
-    wx: "GuR (GuRiṁ) kAnwikaraNe BvAxiH"
+    dev: "घुंष् -> घुष् (घुषिँ) कान्तिकरणे भ्वादिः",
+    rom: "ghuṃṣ -> ghuṣ (ghuṣiṁ) kāntikaraṇe bhvādiḥ",
+    wx: "GuMR -> GuR (GuRiṁ) kAnwikaraNe BvAxiH"
   },
   'GuR3_GuRizr_curAxiH_aviSabxane': {
-    dev: "घुष् (घुषिँर्) अविशब्दने चुरादिः",
-    rom: "ghuṣ (ghuṣiṁr) aviśabdane curādiḥ",
-    wx: "GuR (GuRiṁr) aviSabxane curAxiH"
+    dev: "घुंष् -> घुष् (घुषिँर्) अविशब्दने चुरादिः",
+    rom: "ghuṃṣ -> ghuṣ (ghuṣiṁr) aviśabdane curādiḥ",
+    wx: "GuMR -> GuR (GuRiṁr) aviSabxane curAxiH"
   },
   'GuR3_GuRizr_curAxiH_viSabxane': {
-    dev: "घुष् (घुषिँर्) विशब्दने चुरादिः",
-    rom: "ghuṣ (ghuṣiṁr) viśabdane curādiḥ",
-    wx: "GuR (GuRiṁr) viSabxane curAxiH"
+    dev: "घुंष् -> घुष् (घुषिँर्) विशब्दने चुरादिः",
+    rom: "ghuṃṣ -> ghuṣ (ghuṣiṁr) viśabdane curādiḥ",
+    wx: "GuMR -> GuR (GuRiṁr) viSabxane curAxiH"
   },
   'GuR2_GuRizr_BvAxiH_Sabxe': {
-    dev: "घुष् (घुषिँर्) शब्दे भ्वादिः",
-    rom: "ghuṣ (ghuṣiṁr) śabde bhvādiḥ",
-    wx: "GuR (GuRiṁr) Sabxe BvAxiH"
+    dev: "घुंष् -> घुष् (घुषिँर्) शब्दे भ्वादिः",
+    rom: "ghuṃṣ -> ghuṣ (ghuṣiṁr) śabde bhvādiḥ",
+    wx: "GuMR -> GuR (GuRiṁr) Sabxe BvAxiH"
   },
   'GUr1_GUrIz_xivAxiH_vayohAnO': {
     dev: "घूर् (घूरीँ) वयोहानौ दिवादिः",
@@ -3705,14 +3705,14 @@ var root_info = {
     wx: "Gq (Gq) secane BvAxiH"
   },
   'GqN1_GqNiz_BvAxiH_grahaNe': {
-    dev: "घृण् (घृणिँ) ग्रहणे भ्वादिः",
-    rom: "ghṛṇ (ghṛṇiṁ) grahaṇe bhvādiḥ",
-    wx: "GqN (GqNiṁ) grahaNe BvAxiH"
+    dev: "घृण्ण् -> घृण् (घृणिँ) ग्रहणे भ्वादिः",
+    rom: "ghṛṇṇ -> ghṛṇ (ghṛṇiṁ) grahaṇe bhvādiḥ",
+    wx: "GqNN -> GqN (GqNiṁ) grahaNe BvAxiH"
   },
   'GqN2_GqNuz_wanAxiH_xIpwO': {
-    dev: "घृण् (घृणुँ) दीप्तौ तनादिः",
-    rom: "ghṛṇ (ghṛṇuṁ) dīptau tanādiḥ",
-    wx: "GqN (GqNuṁ) xIpwO wanAxiH"
+    dev: "घृण्ण् -> घृण् (घृणुँ) दीप्तौ तनादिः",
+    rom: "ghṛṇṇ -> ghṛṇ (ghṛṇuṁ) dīptau tanādiḥ",
+    wx: "GqNN -> GqN (GqNuṁ) xIpwO wanAxiH"
   },
   'GqR1_GqRuz_BvAxiH_safGarRe': {
     dev: "घृष् (घृषुँ) सङ्घर्षे भ्वादिः",
@@ -3760,14 +3760,14 @@ var root_info = {
     wx: "cat (cataṁ) Bexane curAxiH"
   },
   'cad2_cadiz_curAxiH_kope': {
-    dev: "चड् (चडिँ) कोपे चुरादिः",
-    rom: "caḍ (caḍiṁ) kope curādiḥ",
-    wx: "cad (cadiṁ) kope curAxiH"
+    dev: "चण्ड् -> चड् (चडिँ) कोपे चुरादिः",
+    rom: "caṇḍ -> caḍ (caḍiṁ) kope curādiḥ",
+    wx: "caNd -> cad (cadiṁ) kope curAxiH"
   },
   'cad1_cadiz_BvAxiH_kope': {
-    dev: "चड् (चडिँ) कोपे भ्वादिः",
-    rom: "caḍ (caḍiṁ) kope bhvādiḥ",
-    wx: "cad (cadiṁ) kope BvAxiH"
+    dev: "चण्ड् -> चड् (चडिँ) कोपे भ्वादिः",
+    rom: "caṇḍ -> caḍ (caḍiṁ) kope bhvādiḥ",
+    wx: "caNd -> cad (cadiṁ) kope BvAxiH"
   },
   'caN1_caNaz_BvAxiH_gawO': {
     dev: "चण् (चणँ) गतौ भ्वादिः",
@@ -3790,29 +3790,29 @@ var root_info = {
     wx: "caw (caweṁ) yAFcAyAm BvAxiH"
   },
   'cax2_caxiz_BvAxiH_AhlAxane': {
-    dev: "चद् (चदिँ) आह्लादने भ्वादिः",
-    rom: "cad (cadiṁ) āhlādane bhvādiḥ",
-    wx: "cax (caxiṁ) AhlAxane BvAxiH"
+    dev: "चन्द् -> चद् (चदिँ) आह्लादने भ्वादिः",
+    rom: "cand -> cad (cadiṁ) āhlādane bhvādiḥ",
+    wx: "canx -> cax (caxiṁ) AhlAxane BvAxiH"
   },
   'cax2_caxiz_BvAxiH_xIpwO': {
-    dev: "चद् (चदिँ) दीप्तौ भ्वादिः",
-    rom: "cad (cadiṁ) dīptau bhvādiḥ",
-    wx: "cax (caxiṁ) xIpwO BvAxiH"
+    dev: "चन्द् -> चद् (चदिँ) दीप्तौ भ्वादिः",
+    rom: "cand -> cad (cadiṁ) dīptau bhvādiḥ",
+    wx: "canx -> cax (caxiṁ) xIpwO BvAxiH"
   },
   'cax2_caxiz_BvAxiH_hlAxane': {
-    dev: "चद् (चदिँ) ह्लादने भ्वादिः",
-    rom: "cad (cadiṁ) hlādane bhvādiḥ",
-    wx: "cax (caxiṁ) hlAxane BvAxiH"
+    dev: "चन्द् -> चद् (चदिँ) ह्लादने भ्वादिः",
+    rom: "cand -> cad (cadiṁ) hlādane bhvādiḥ",
+    wx: "canx -> cax (caxiṁ) hlAxane BvAxiH"
   },
   'cax1_caxez_BvAxiH_pariBARaNe': {
-    dev: "चद् (चदेँ) परिभाषणे भ्वादिः",
-    rom: "cad (cadeṁ) paribhāṣaṇe bhvādiḥ",
-    wx: "cax (caxeṁ) pariBARaNe BvAxiH"
+    dev: "चन्द् -> चद् (चदेँ) परिभाषणे भ्वादिः",
+    rom: "cand -> cad (cadeṁ) paribhāṣaṇe bhvādiḥ",
+    wx: "canx -> cax (caxeṁ) pariBARaNe BvAxiH"
   },
   'cax1_caxez_BvAxiH_yAFcAyAm': {
-    dev: "चद् (चदेँ) याञ्चायाम् भ्वादिः",
-    rom: "cad (cadeṁ) yāñcāyām bhvādiḥ",
-    wx: "cax (caxeṁ) yAFcAyAm BvAxiH"
+    dev: "चन्द् -> चद् (चदेँ) याञ्चायाम् भ्वादिः",
+    rom: "cand -> cad (cadeṁ) yāñcāyām bhvādiḥ",
+    wx: "canx -> cax (caxeṁ) yAFcAyAm BvAxiH"
   },
   'can2_canaz_BvAxiH_hiMsAyAm': {
     dev: "चन् (चनँ) हिंसायाम् भ्वादिः",
@@ -3825,24 +3825,24 @@ var root_info = {
     wx: "can (canuṁ) hiMsAyAm BvAxiH"
   },
   'canc1_cancuz_BvAxiH_gawO': {
-    dev: "चन्च् (चन्चुँ) गतौ भ्वादिः",
-    rom: "canc (cancuṁ) gatau bhvādiḥ",
-    wx: "canc (cancuṁ) gawO BvAxiH"
+    dev: "चञ्च् -> चन्च् (चन्चुँ) गतौ भ्वादिः",
+    rom: "cañc -> canc (cancuṁ) gatau bhvādiḥ",
+    wx: "caFc -> canc (cancuṁ) gawO BvAxiH"
   },
   'cap2_capaz_curAxiH_kalkane': {
-    dev: "चप् (चपँ) कल्कने चुरादिः",
-    rom: "cap (capaṁ) kalkane curādiḥ",
-    wx: "cap (capaṁ) kalkane curAxiH"
+    dev: "चम्प् -> चप् (चपँ) कल्कने चुरादिः",
+    rom: "camp -> cap (capaṁ) kalkane curādiḥ",
+    wx: "camp -> cap (capaṁ) kalkane curAxiH"
   },
   'cap1_capaz_BvAxiH_sAnwvane': {
-    dev: "चप् (चपँ) सान्त्वने भ्वादिः",
-    rom: "cap (capaṁ) sāntvane bhvādiḥ",
-    wx: "cap (capaṁ) sAnwvane BvAxiH"
+    dev: "चम्प् -> चप् (चपँ) सान्त्वने भ्वादिः",
+    rom: "camp -> cap (capaṁ) sāntvane bhvādiḥ",
+    wx: "camp -> cap (capaṁ) sAnwvane BvAxiH"
   },
   'cap3_capiz_curAxiH_gawO': {
-    dev: "चप् (चपिँ) गतौ चुरादिः",
-    rom: "cap (capiṁ) gatau curādiḥ",
-    wx: "cap (capiṁ) gawO curAxiH"
+    dev: "चम्प् -> चप् (चपिँ) गतौ चुरादिः",
+    rom: "camp -> cap (capiṁ) gatau curādiḥ",
+    wx: "camp -> cap (capiṁ) gawO curAxiH"
   },
   'cam1_camuz_BvAxiH_axane': {
     dev: "चम् (चमुँ) अदने भ्वादिः",
@@ -3960,14 +3960,14 @@ var root_info = {
     wx: "caha (caha) parikalkane curAxiH"
   },
   'cah2_cahaz_curAxiH_parikalkane': {
-    dev: "चह् (चहँ) परिकल्कने चुरादिः",
-    rom: "cah (cahaṁ) parikalkane curādiḥ",
-    wx: "cah (cahaṁ) parikalkane curAxiH"
+    dev: "चह -> चह् (चहँ) परिकल्कने चुरादिः",
+    rom: "caha -> cah (cahaṁ) parikalkane curādiḥ",
+    wx: "caha -> cah (cahaṁ) parikalkane curAxiH"
   },
   'cah1_cahaz_BvAxiH_parikalkane': {
-    dev: "चह् (चहँ) परिकल्कने भ्वादिः",
-    rom: "cah (cahaṁ) parikalkane bhvādiḥ",
-    wx: "cah (cahaṁ) parikalkane BvAxiH"
+    dev: "चह -> चह् (चहँ) परिकल्कने भ्वादिः",
+    rom: "caha -> cah (cahaṁ) parikalkane bhvādiḥ",
+    wx: "caha -> cah (cahaṁ) parikalkane BvAxiH"
   },
   'cAy1_cAyqz_BvAxiH_niSAmane': {
     dev: "चाय् (चायृँ) निशामने भ्वादिः",
@@ -3995,19 +3995,19 @@ var root_info = {
     wx: "cit (citaṁ) paraprERye BvAxiH"
   },
   'ciw3_ciwaz_curAxiH_saFcewane': {
-    dev: "चित् (चितँ) सञ्चेतने चुरादिः",
-    rom: "cit (citaṁ) sañcetane curādiḥ",
-    wx: "ciw (ciwaṁ) saFcewane curAxiH"
+    dev: "चिन्त् -> चित् (चितँ) सञ्चेतने चुरादिः",
+    rom: "cint -> cit (citaṁ) sañcetane curādiḥ",
+    wx: "cinw -> ciw (ciwaṁ) saFcewane curAxiH"
   },
   'ciw2_ciwiz_curAxiH_smqwyAm': {
-    dev: "चित् (चितिँ) स्मृत्याम् चुरादिः",
-    rom: "cit (citiṁ) smṛtyām curādiḥ",
-    wx: "ciw (ciwiṁ) smqwyAm curAxiH"
+    dev: "चिन्त् -> चित् (चितिँ) स्मृत्याम् चुरादिः",
+    rom: "cint -> cit (citiṁ) smṛtyām curādiḥ",
+    wx: "cinw -> ciw (ciwiṁ) smqwyAm curAxiH"
   },
   'ciw1_ciwIz_BvAxiH_saMjFAne': {
-    dev: "चित् (चितीँ) संज्ञाने भ्वादिः",
-    rom: "cit (citīṁ) saṃjñāne bhvādiḥ",
-    wx: "ciw (ciwIṁ) saMjFAne BvAxiH"
+    dev: "चिन्त् -> चित् (चितीँ) संज्ञाने भ्वादिः",
+    rom: "cint -> cit (citīṁ) saṃjñāne bhvādiḥ",
+    wx: "cinw -> ciw (ciwIṁ) saMjFAne BvAxiH"
   },
   'ciwra1_ciwra_curAxiH_ciwrIkaraNe': {
     dev: "चित्र (चित्र) चित्रीकरणे चुरादिः",
@@ -4080,39 +4080,39 @@ var root_info = {
     wx: "cukk (cukkaṁ) vyaWane curAxiH"
   },
   'cut3_cutaz_curAxiH_Cexane': {
-    dev: "चुट् (चुटँ) छेदने चुरादिः",
-    rom: "cuṭ (cuṭaṁ) chedane curādiḥ",
-    wx: "cut (cutaṁ) Cexane curAxiH"
+    dev: "चुण्ट् -> चुट् (चुटँ) छेदने चुरादिः",
+    rom: "cuṇṭ -> cuṭ (cuṭaṁ) chedane curādiḥ",
+    wx: "cuNt -> cut (cutaṁ) Cexane curAxiH"
   },
   'cut2_cutaz_wuxAxiH_Cexane': {
-    dev: "चुट् (चुटँ) छेदने तुदादिः",
-    rom: "cuṭ (cuṭaṁ) chedane tudādiḥ",
-    wx: "cut (cutaṁ) Cexane wuxAxiH"
+    dev: "चुण्ट् -> चुट् (चुटँ) छेदने तुदादिः",
+    rom: "cuṇṭ -> cuṭ (cuṭaṁ) chedane tudādiḥ",
+    wx: "cuNt -> cut (cutaṁ) Cexane wuxAxiH"
   },
   'cut1_cutiz_BvAxiH_alpIBAve': {
-    dev: "चुट् (चुटिँ) अल्पीभावे भ्वादिः",
-    rom: "cuṭ (cuṭiṁ) alpībhāve bhvādiḥ",
-    wx: "cut (cutiṁ) alpIBAve BvAxiH"
+    dev: "चुण्ट् -> चुट् (चुटिँ) अल्पीभावे भ्वादिः",
+    rom: "cuṇṭ -> cuṭ (cuṭiṁ) alpībhāve bhvādiḥ",
+    wx: "cuNt -> cut (cutiṁ) alpIBAve BvAxiH"
   },
   'cut4_cutiz_curAxiH_Cexane': {
-    dev: "चुट् (चुटिँ) छेदने चुरादिः",
-    rom: "cuṭ (cuṭiṁ) chedane curādiḥ",
-    wx: "cut (cutiṁ) Cexane curAxiH"
+    dev: "चुण्ट् -> चुट् (चुटिँ) छेदने चुरादिः",
+    rom: "cuṇṭ -> cuṭ (cuṭiṁ) chedane curādiḥ",
+    wx: "cuNt -> cut (cutiṁ) Cexane curAxiH"
   },
   'cud2_cudaz_wuxAxiH_saMvaraNe': {
-    dev: "चुड् (चुडँ) संवरणे तुदादिः",
-    rom: "cuḍ (cuḍaṁ) saṃvaraṇe tudādiḥ",
-    wx: "cud (cudaṁ) saMvaraNe wuxAxiH"
+    dev: "चुण्ड् -> चुड् (चुडँ) संवरणे तुदादिः",
+    rom: "cuṇḍ -> cuḍ (cuḍaṁ) saṃvaraṇe tudādiḥ",
+    wx: "cuNd -> cud (cudaṁ) saMvaraNe wuxAxiH"
   },
   'cud1_cudiz_BvAxiH_alpIBAve': {
-    dev: "चुड् (चुडिँ) अल्पीभावे भ्वादिः",
-    rom: "cuḍ (cuḍiṁ) alpībhāve bhvādiḥ",
-    wx: "cud (cudiṁ) alpIBAve BvAxiH"
+    dev: "चुण्ड् -> चुड् (चुडिँ) अल्पीभावे भ्वादिः",
+    rom: "cuṇḍ -> cuḍ (cuḍiṁ) alpībhāve bhvādiḥ",
+    wx: "cuNd -> cud (cudiṁ) alpIBAve BvAxiH"
   },
   'cuwt1_cuwtaz_curAxiH_alpIBAve': {
-    dev: "चुत्ट् (चुत्टँ) अल्पीभावे चुरादिः",
-    rom: "cutṭ (cutṭaṁ) alpībhāve curādiḥ",
-    wx: "cuwt (cuwtaṁ) alpIBAve curAxiH"
+    dev: "चुट्ट् -> चुत्ट् (चुत्टँ) अल्पीभावे चुरादिः",
+    rom: "cuṭṭ -> cutṭ (cutṭaṁ) alpībhāve curādiḥ",
+    wx: "cutt -> cuwt (cuwtaṁ) alpIBAve curAxiH"
   },
   'cux1_cuxaz_curAxiH_saFcoxane': {
     dev: "चुद् (चुदँ) सञ्चोदने चुरादिः",
@@ -4120,14 +4120,14 @@ var root_info = {
     wx: "cux (cuxaṁ) saFcoxane curAxiH"
   },
   'cuxd1_cuxdaz_BvAxiH_BAvakaraNe': {
-    dev: "चुद्ड् (चुद्डँ) भावकरणे भ्वादिः",
-    rom: "cudḍ (cudḍaṁ) bhāvakaraṇe bhvādiḥ",
-    wx: "cuxd (cuxdaṁ) BAvakaraNe BvAxiH"
+    dev: "चुड्ड् -> चुद्ड् (चुद्डँ) भावकरणे भ्वादिः",
+    rom: "cuḍḍ -> cudḍ (cudḍaṁ) bhāvakaraṇe bhvādiḥ",
+    wx: "cudd -> cuxd (cuxdaṁ) BAvakaraNe BvAxiH"
   },
   'cuxd1_cuxdaz_BvAxiH_hAvavaraNe': {
-    dev: "चुद्ड् (चुद्डँ) हाववरणे भ्वादिः",
-    rom: "cudḍ (cudḍaṁ) hāvavaraṇe bhvādiḥ",
-    wx: "cuxd (cuxdaṁ) hAvavaraNe BvAxiH"
+    dev: "चुड्ड् -> चुद्ड् (चुद्डँ) हाववरणे भ्वादिः",
+    rom: "cuḍḍ -> cudḍ (cudḍaṁ) hāvavaraṇe bhvādiḥ",
+    wx: "cudd -> cuxd (cuxdaṁ) hAvavaraNe BvAxiH"
   },
   'cup1_cupaz_BvAxiH_manxAyAM_gawO': {
     dev: "चुप् (चुपँ) मन्दायां_गतौ भ्वादिः",
@@ -4135,14 +4135,14 @@ var root_info = {
     wx: "cup (cupaṁ) manxAyAM_gawO BvAxiH"
   },
   'cub1_cubiz_BvAxiH_vakwrasaMyoge': {
-    dev: "चुब् (चुबिँ) वक्त्रसंयोगे भ्वादिः",
-    rom: "cub (cubiṁ) vaktrasaṃyoge bhvādiḥ",
-    wx: "cub (cubiṁ) vakwrasaMyoge BvAxiH"
+    dev: "चुम्ब् -> चुब् (चुबिँ) वक्त्रसंयोगे भ्वादिः",
+    rom: "cumb -> cub (cubiṁ) vaktrasaṃyoge bhvādiḥ",
+    wx: "cumb -> cub (cubiṁ) vakwrasaMyoge BvAxiH"
   },
   'cub2_cubiz_curAxiH_hiMsAyAm': {
-    dev: "चुब् (चुबिँ) हिंसायाम् चुरादिः",
-    rom: "cub (cubiṁ) hiṃsāyām curādiḥ",
-    wx: "cub (cubiṁ) hiMsAyAm curAxiH"
+    dev: "चुम्ब् -> चुब् (चुबिँ) हिंसायाम् चुरादिः",
+    rom: "cumb -> cub (cubiṁ) hiṃsāyām curādiḥ",
+    wx: "cumb -> cub (cubiṁ) hiMsAyAm curAxiH"
   },
   'cur1_curaz_curAxiH_sweye': {
     dev: "चुर् (चुरँ) स्तेये चुरादिः",
@@ -4220,19 +4220,19 @@ var root_info = {
     wx: "ceRt (ceRtaṁ) ceRtAyAm BvAxiH"
   },
   'cyu2_cyu_curAxiH_sahane': {
-    dev: "च्यु (च्यु) सहने चुरादिः",
-    rom: "cyu (cyu) sahane curādiḥ",
-    wx: "cyu (cyu) sahane curAxiH"
+    dev: "च्य् -> च्यु (च्यु) सहने चुरादिः",
+    rom: "cy -> cyu (cyu) sahane curādiḥ",
+    wx: "cy -> cyu (cyu) sahane curAxiH"
   },
   'cyu2_cyu_curAxiH_hasane': {
-    dev: "च्यु (च्यु) हसने चुरादिः",
-    rom: "cyu (cyu) hasane curādiḥ",
-    wx: "cyu (cyu) hasane curAxiH"
+    dev: "च्य् -> च्यु (च्यु) हसने चुरादिः",
+    rom: "cy -> cyu (cyu) hasane curādiḥ",
+    wx: "cy -> cyu (cyu) hasane curAxiH"
   },
   'cyu1_cyuf_BvAxiH_gawO': {
-    dev: "च्यु (च्युङ्) गतौ भ्वादिः",
-    rom: "cyu (cyuṅ) gatau bhvādiḥ",
-    wx: "cyu (cyuf) gawO BvAxiH"
+    dev: "च्य् -> च्यु (च्युङ्) गतौ भ्वादिः",
+    rom: "cy -> cyu (cyuṅ) gatau bhvādiḥ",
+    wx: "cy -> cyu (cyuf) gawO BvAxiH"
   },
   'cyuw1_cyuwizr_BvAxiH_Asecane': {
     dev: "च्युत् (च्युतिँर्) आसेचने भ्वादिः",
@@ -4245,19 +4245,19 @@ var root_info = {
     wx: "Caxa (Caxa) apavAraNe curAxiH"
   },
   'Cax1_Caxaz_curAxiH_apavAraNe': {
-    dev: "छद् (छदँ) अपवारणे चुरादिः",
-    rom: "chad (chadaṁ) apavāraṇe curādiḥ",
-    wx: "Cax (Caxaṁ) apavAraNe curAxiH"
+    dev: "छन्द् -> छद् (छदँ) अपवारणे चुरादिः",
+    rom: "chand -> chad (chadaṁ) apavāraṇe curādiḥ",
+    wx: "Canx -> Cax (Caxaṁ) apavAraNe curAxiH"
   },
   'Cax1_Caxaz_curAxiH_saMvaraNe': {
-    dev: "छद् (छदँ) संवरणे चुरादिः",
-    rom: "chad (chadaṁ) saṃvaraṇe curādiḥ",
-    wx: "Cax (Caxaṁ) saMvaraNe curAxiH"
+    dev: "छन्द् -> छद् (छदँ) संवरणे चुरादिः",
+    rom: "chand -> chad (chadaṁ) saṃvaraṇe curādiḥ",
+    wx: "Canx -> Cax (Caxaṁ) saMvaraNe curAxiH"
   },
   'Cax2_Caxiz_curAxiH_saMvaraNe': {
-    dev: "छद् (छदिँ) संवरणे चुरादिः",
-    rom: "chad (chadiṁ) saṃvaraṇe curādiḥ",
-    wx: "Cax (Caxiṁ) saMvaraNe curAxiH"
+    dev: "छन्द् -> छद् (छदिँ) संवरणे चुरादिः",
+    rom: "chand -> chad (chadiṁ) saṃvaraṇe curādiḥ",
+    wx: "Canx -> Cax (Caxiṁ) saMvaraNe curAxiH"
   },
   'Cap1_Capiz_curAxiH_gawyAm': {
     dev: "छप् (छपिँ) गत्याम् चुरादिः",
@@ -4360,14 +4360,14 @@ var root_info = {
     wx: "jakR (jakRaṁ) hasane axAxiH"
   },
   'jaj1_jajaz_BvAxiH_yuxXe': {
-    dev: "जज् (जजँ) युद्धे भ्वादिः",
-    rom: "jaj (jajaṁ) yuddhe bhvādiḥ",
-    wx: "jaj (jajaṁ) yuxXe BvAxiH"
+    dev: "जञ्ज् -> जज् (जजँ) युद्धे भ्वादिः",
+    rom: "jañj -> jaj (jajaṁ) yuddhe bhvādiḥ",
+    wx: "jaFj -> jaj (jajaṁ) yuxXe BvAxiH"
   },
   'jaj2_jajiz_BvAxiH_yuxXe': {
-    dev: "जज् (जजिँ) युद्धे भ्वादिः",
-    rom: "jaj (jajiṁ) yuddhe bhvādiḥ",
-    wx: "jaj (jajiṁ) yuxXe BvAxiH"
+    dev: "जञ्ज् -> जज् (जजिँ) युद्धे भ्वादिः",
+    rom: "jañj -> jaj (jajiṁ) yuddhe bhvādiḥ",
+    wx: "jaFj -> jaj (jajiṁ) yuxXe BvAxiH"
   },
   'jat1_jataz_BvAxiH_safGAwe': {
     dev: "जट् (जटँ) सङ्घाते भ्वादिः",
@@ -4395,19 +4395,19 @@ var root_info = {
     wx: "jap (japaṁ) vyakwAyAM_vAci BvAxiH"
   },
   'jaB3_jaBaz_BvAxiH_gAwravinAme': {
-    dev: "जभ् (जभँ) गात्रविनामे भ्वादिः",
-    rom: "jabh (jabhaṁ) gātravināme bhvādiḥ",
-    wx: "jaB (jaBaṁ) gAwravinAme BvAxiH"
+    dev: "जम्भ् -> जभ् (जभँ) गात्रविनामे भ्वादिः",
+    rom: "jambh -> jabh (jabhaṁ) gātravināme bhvādiḥ",
+    wx: "jamB -> jaB (jaBaṁ) gAwravinAme BvAxiH"
   },
   'jaB2_jaBiz_curAxiH_nASane': {
-    dev: "जभ् (जभिँ) नाशने चुरादिः",
-    rom: "jabh (jabhiṁ) nāśane curādiḥ",
-    wx: "jaB (jaBiṁ) nASane curAxiH"
+    dev: "जम्भ् -> जभ् (जभिँ) नाशने चुरादिः",
+    rom: "jambh -> jabh (jabhiṁ) nāśane curādiḥ",
+    wx: "jamB -> jaB (jaBiṁ) nASane curAxiH"
   },
   'jaB1_jaBIz_BvAxiH_gAwravinAme': {
-    dev: "जभ् (जभीँ) गात्रविनामे भ्वादिः",
-    rom: "jabh (jabhīṁ) gātravināme bhvādiḥ",
-    wx: "jaB (jaBIṁ) gAwravinAme BvAxiH"
+    dev: "जम्भ् -> जभ् (जभीँ) गात्रविनामे भ्वादिः",
+    rom: "jambh -> jabh (jabhīṁ) gātravināme bhvādiḥ",
+    wx: "jamB -> jaB (jaBIṁ) gAwravinAme BvAxiH"
   },
   'jam1_jamuz_BvAxiH_axane': {
     dev: "जम् (जमुँ) अदने भ्वादिः",
@@ -4525,9 +4525,9 @@ var root_info = {
     wx: "jiri (jiri) hiMsAyAm svAxiH"
   },
   'jiv1_jiviz_BvAxiH_prINane': {
-    dev: "जिव् (जिविँ) प्रीणने भ्वादिः",
-    rom: "jiv (jiviṁ) prīṇane bhvādiḥ",
-    wx: "jiv (jiviṁ) prINane BvAxiH"
+    dev: "जिन्व् -> जिव् (जिविँ) प्रीणने भ्वादिः",
+    rom: "jinv -> jiv (jiviṁ) prīṇane bhvādiḥ",
+    wx: "jinv -> jiv (jiviṁ) prINane BvAxiH"
   },
   'jiR1_jiRuz_BvAxiH_secane': {
     dev: "जिष् (जिषुँ) सेचने भ्वादिः",
@@ -4545,9 +4545,9 @@ var root_info = {
     wx: "jIv (jIvaṁ) prANaXAraNe BvAxiH"
   },
   'jug1_jugiz_BvAxiH_varjane': {
-    dev: "जुग् (जुगिँ) वर्जने भ्वादिः",
-    rom: "jug (jugiṁ) varjane bhvādiḥ",
-    wx: "jug (jugiṁ) varjane BvAxiH"
+    dev: "जुङ्ग् -> जुग् (जुगिँ) वर्जने भ्वादिः",
+    rom: "juṅg -> jug (jugiṁ) varjane bhvādiḥ",
+    wx: "jufg -> jug (jugiṁ) varjane BvAxiH"
   },
   'juc1_juciz_curAxiH_BARArWe': {
     dev: "जुच् (जुचिँ) भाषार्थे चुरादिः",
@@ -4620,9 +4620,9 @@ var root_info = {
     wx: "jq (jq) aBiBave BvAxiH"
   },
   'jqB1_jqBiz_BvAxiH_gAwravinAme': {
-    dev: "जृभ् (जृभिँ) गात्रविनामे भ्वादिः",
-    rom: "jṛbh (jṛbhiṁ) gātravināme bhvādiḥ",
-    wx: "jqB (jqBiṁ) gAwravinAme BvAxiH"
+    dev: "जृम्भ् -> जृभ् (जृभिँ) गात्रविनामे भ्वादिः",
+    rom: "jṛmbh -> jṛbh (jṛbhiṁ) gātravināme bhvādiḥ",
+    wx: "jqmB -> jqB (jqBiṁ) gAwravinAme BvAxiH"
   },
   'jQ2_jQ_kryAxiH_vayohAnO': {
     dev: "जॄ (जॄ) वयोहानौ क्र्यादिः",
@@ -4795,9 +4795,9 @@ var root_info = {
     wx: "Jyu (Jyuf) gawO BvAxiH"
   },
   'tak1_takiz_curAxiH_banXane': {
-    dev: "टक् (टकिँ) बन्धने चुरादिः",
-    rom: "ṭak (ṭakiṁ) bandhane curādiḥ",
-    wx: "tak (takiṁ) banXane curAxiH"
+    dev: "टङ्क् -> टक् (टकिँ) बन्धने चुरादिः",
+    rom: "ṭaṅk -> ṭak (ṭakiṁ) bandhane curādiḥ",
+    wx: "tafk -> tak (takiṁ) banXane curAxiH"
   },
   'tal1_talaz_BvAxiH_vEklavye': {
     dev: "टल् (टलँ) वैक्लव्ये भ्वादिः",
@@ -4895,249 +4895,249 @@ var root_info = {
     wx: "DOk (DOkqṁ) gawO BvAxiH"
   },
   'NakR1_NakRaz_BvAxiH_gawO': {
-    dev: "णक्ष् (णक्षँ) गतौ भ्वादिः",
-    rom: "ṇakṣ (ṇakṣaṁ) gatau bhvādiḥ",
-    wx: "NakR (NakRaṁ) gawO BvAxiH"
+    dev: "नक्ष् -> णक्ष् (णक्षँ) गतौ भ्वादिः",
+    rom: "nakṣ -> ṇakṣ (ṇakṣaṁ) gatau bhvādiḥ",
+    wx: "nakR -> NakR (NakRaṁ) gawO BvAxiH"
   },
   'NaK1_NaKaz_BvAxiH_gawO': {
-    dev: "णख् (णखँ) गतौ भ्वादिः",
-    rom: "ṇakh (ṇakhaṁ) gatau bhvādiḥ",
-    wx: "NaK (NaKaṁ) gawO BvAxiH"
+    dev: "नङ्ख् -> णख् (णखँ) गतौ भ्वादिः",
+    rom: "naṅkh -> ṇakh (ṇakhaṁ) gatau bhvādiḥ",
+    wx: "nafK -> NaK (NaKaṁ) gawO BvAxiH"
   },
   'NaK2_NaKiz_BvAxiH_gawO': {
-    dev: "णख् (णखिँ) गतौ भ्वादिः",
-    rom: "ṇakh (ṇakhiṁ) gatau bhvādiḥ",
-    wx: "NaK (NaKiṁ) gawO BvAxiH"
+    dev: "नङ्ख् -> णख् (णखिँ) गतौ भ्वादिः",
+    rom: "naṅkh -> ṇakh (ṇakhiṁ) gatau bhvādiḥ",
+    wx: "nafK -> NaK (NaKiṁ) gawO BvAxiH"
   },
   'Nat1_Nataz_BvAxiH_nqwO': {
-    dev: "णट् (णटँ) नृतौ भ्वादिः",
-    rom: "ṇaṭ (ṇaṭaṁ) nṛtau bhvādiḥ",
-    wx: "Nat (Nataṁ) nqwO BvAxiH"
+    dev: "नट् -> णट् (णटँ) नृतौ भ्वादिः",
+    rom: "naṭ -> ṇaṭ (ṇaṭaṁ) nṛtau bhvādiḥ",
+    wx: "nat -> Nat (Nataṁ) nqwO BvAxiH"
   },
   'Nax1_Naxaz_BvAxiH_avyakwe_Sabxe': {
-    dev: "णद् (णदँ) अव्यक्ते_शब्दे भ्वादिः",
-    rom: "ṇad (ṇadaṁ) avyakte_śabde bhvādiḥ",
-    wx: "Nax (Naxaṁ) avyakwe_Sabxe BvAxiH"
+    dev: "नद् -> णद् (णदँ) अव्यक्ते_शब्दे भ्वादिः",
+    rom: "nad -> ṇad (ṇadaṁ) avyakte_śabde bhvādiḥ",
+    wx: "nax -> Nax (Naxaṁ) avyakwe_Sabxe BvAxiH"
   },
   'Nax2_Naxaz_curAxiH_BARArWe': {
-    dev: "णद् (णदँ) भाषार्थे चुरादिः",
-    rom: "ṇad (ṇadaṁ) bhāṣārthe curādiḥ",
-    wx: "Nax (Naxaṁ) BARArWe curAxiH"
+    dev: "नद् -> णद् (णदँ) भाषार्थे चुरादिः",
+    rom: "nad -> ṇad (ṇadaṁ) bhāṣārthe curādiḥ",
+    wx: "nax -> Nax (Naxaṁ) BARArWe curAxiH"
   },
   'Nax2_Naxaz_curAxiH_BAsArWe': {
-    dev: "णद् (णदँ) भासार्थे चुरादिः",
-    rom: "ṇad (ṇadaṁ) bhāsārthe curādiḥ",
-    wx: "Nax (Naxaṁ) BAsArWe curAxiH"
+    dev: "नद् -> णद् (णदँ) भासार्थे चुरादिः",
+    rom: "nad -> ṇad (ṇadaṁ) bhāsārthe curādiḥ",
+    wx: "nax -> Nax (Naxaṁ) BAsArWe curAxiH"
   },
   'Nax1_Naxaz_BvAxiH_Sabxe': {
-    dev: "णद् (णदँ) शब्दे भ्वादिः",
-    rom: "ṇad (ṇadaṁ) śabde bhvādiḥ",
-    wx: "Nax (Naxaṁ) Sabxe BvAxiH"
+    dev: "नद् -> णद् (णदँ) शब्दे भ्वादिः",
+    rom: "nad -> ṇad (ṇadaṁ) śabde bhvādiḥ",
+    wx: "nax -> Nax (Naxaṁ) Sabxe BvAxiH"
   },
   'NaB3_NaBaz_kryAxiH_hiMsAyAm': {
-    dev: "णभ् (णभँ) हिंसायाम् क्र्यादिः",
-    rom: "ṇabh (ṇabhaṁ) hiṃsāyām kryādiḥ",
-    wx: "NaB (NaBaṁ) hiMsAyAm kryAxiH"
+    dev: "नभ् -> णभ् (णभँ) हिंसायाम् क्र्यादिः",
+    rom: "nabh -> ṇabh (ṇabhaṁ) hiṃsāyām kryādiḥ",
+    wx: "naB -> NaB (NaBaṁ) hiMsAyAm kryAxiH"
   },
   'NaB2_NaBaz_xivAxiH_hiMsAyAm': {
-    dev: "णभ् (णभँ) हिंसायाम् दिवादिः",
-    rom: "ṇabh (ṇabhaṁ) hiṃsāyām divādiḥ",
-    wx: "NaB (NaBaṁ) hiMsAyAm xivAxiH"
+    dev: "नभ् -> णभ् (णभँ) हिंसायाम् दिवादिः",
+    rom: "nabh -> ṇabh (ṇabhaṁ) hiṃsāyām divādiḥ",
+    wx: "naB -> NaB (NaBaṁ) hiMsAyAm xivAxiH"
   },
   'NaB1_NaBaz_BvAxiH_hiMsAyAm': {
-    dev: "णभ् (णभँ) हिंसायाम् भ्वादिः",
-    rom: "ṇabh (ṇabhaṁ) hiṃsāyām bhvādiḥ",
-    wx: "NaB (NaBaṁ) hiMsAyAm BvAxiH"
+    dev: "नभ् -> णभ् (णभँ) हिंसायाम् भ्वादिः",
+    rom: "nabh -> ṇabh (ṇabhaṁ) hiṃsāyām bhvādiḥ",
+    wx: "naB -> NaB (NaBaṁ) hiMsAyAm BvAxiH"
   },
   'Nam1_Namaz_BvAxiH_prahvawve': {
-    dev: "णम् (णमँ) प्रह्वत्वे भ्वादिः",
-    rom: "ṇam (ṇamaṁ) prahvatve bhvādiḥ",
-    wx: "Nam (Namaṁ) prahvawve BvAxiH"
+    dev: "नम् -> णम् (णमँ) प्रह्वत्वे भ्वादिः",
+    rom: "nam -> ṇam (ṇamaṁ) prahvatve bhvādiḥ",
+    wx: "nam -> Nam (Namaṁ) prahvawve BvAxiH"
   },
   'Nam1_Namaz_BvAxiH_prahvawveSabxe': {
-    dev: "णम् (णमँ) प्रह्वत्वेशब्दे भ्वादिः",
-    rom: "ṇam (ṇamaṁ) prahvatveśabde bhvādiḥ",
-    wx: "Nam (Namaṁ) prahvawveSabxe BvAxiH"
+    dev: "नम् -> णम् (णमँ) प्रह्वत्वेशब्दे भ्वादिः",
+    rom: "nam -> ṇam (ṇamaṁ) prahvatveśabde bhvādiḥ",
+    wx: "nam -> Nam (Namaṁ) prahvawveSabxe BvAxiH"
   },
   'Nay1_Nayaz_BvAxiH_gawO': {
-    dev: "णय् (णयँ) गतौ भ्वादिः",
-    rom: "ṇay (ṇayaṁ) gatau bhvādiḥ",
-    wx: "Nay (Nayaṁ) gawO BvAxiH"
+    dev: "नय् -> णय् (णयँ) गतौ भ्वादिः",
+    rom: "nay -> ṇay (ṇayaṁ) gatau bhvādiḥ",
+    wx: "nay -> Nay (Nayaṁ) gawO BvAxiH"
   },
   'Nay1_Nayaz_BvAxiH_rakRaNe': {
-    dev: "णय् (णयँ) रक्षणे भ्वादिः",
-    rom: "ṇay (ṇayaṁ) rakṣaṇe bhvādiḥ",
-    wx: "Nay (Nayaṁ) rakRaNe BvAxiH"
+    dev: "नय् -> णय् (णयँ) रक्षणे भ्वादिः",
+    rom: "nay -> ṇay (ṇayaṁ) rakṣaṇe bhvādiḥ",
+    wx: "nay -> Nay (Nayaṁ) rakRaNe BvAxiH"
   },
   'Nal1_Nalaz_BvAxiH_ganXane': {
-    dev: "णल् (णलँ) गन्धने भ्वादिः",
-    rom: "ṇal (ṇalaṁ) gandhane bhvādiḥ",
-    wx: "Nal (Nalaṁ) ganXane BvAxiH"
+    dev: "नल् -> णल् (णलँ) गन्धने भ्वादिः",
+    rom: "nal -> ṇal (ṇalaṁ) gandhane bhvādiḥ",
+    wx: "nal -> Nal (Nalaṁ) ganXane BvAxiH"
   },
   'NaS1_NaSaz_xivAxiH_axarSane': {
-    dev: "णश् (णशँ) अदर्शने दिवादिः",
-    rom: "ṇaś (ṇaśaṁ) adarśane divādiḥ",
-    wx: "NaS (NaSaṁ) axarSane xivAxiH"
+    dev: "नश् -> णश् (णशँ) अदर्शने दिवादिः",
+    rom: "naś -> ṇaś (ṇaśaṁ) adarśane divādiḥ",
+    wx: "naS -> NaS (NaSaṁ) axarSane xivAxiH"
   },
   'Nas1_Nasaz_BvAxiH_kOtilye': {
-    dev: "णस् (णसँ) कौटिल्ये भ्वादिः",
-    rom: "ṇas (ṇasaṁ) kauṭilye bhvādiḥ",
-    wx: "Nas (Nasaṁ) kOtilye BvAxiH"
+    dev: "नस् -> णस् (णसँ) कौटिल्ये भ्वादिः",
+    rom: "nas -> ṇas (ṇasaṁ) kauṭilye bhvādiḥ",
+    wx: "nas -> Nas (Nasaṁ) kOtilye BvAxiH"
   },
   'Nah1_Nahaz_xivAxiH_baXane': {
-    dev: "णह् (णहँ) बधने दिवादिः",
-    rom: "ṇah (ṇahaṁ) badhane divādiḥ",
-    wx: "Nah (Nahaṁ) baXane xivAxiH"
+    dev: "नह् -> णह् (णहँ) बधने दिवादिः",
+    rom: "nah -> ṇah (ṇahaṁ) badhane divādiḥ",
+    wx: "nah -> Nah (Nahaṁ) baXane xivAxiH"
   },
   'Nah1_Nahaz_xivAxiH_banXane': {
-    dev: "णह् (णहँ) बन्धने दिवादिः",
-    rom: "ṇah (ṇahaṁ) bandhane divādiḥ",
-    wx: "Nah (Nahaṁ) banXane xivAxiH"
+    dev: "नह् -> णह् (णहँ) बन्धने दिवादिः",
+    rom: "nah -> ṇah (ṇahaṁ) bandhane divādiḥ",
+    wx: "nah -> Nah (Nahaṁ) banXane xivAxiH"
   },
   'NAX1_NAXqz_BvAxiH_ASiRi': {
-    dev: "णाध् (णाधृँ) आशिषि भ्वादिः",
-    rom: "ṇādh (ṇādhṛṁ) āśiṣi bhvādiḥ",
-    wx: "NAX (NAXqṁ) ASiRi BvAxiH"
+    dev: "नाध् -> णाध् (णाधृँ) आशिषि भ्वादिः",
+    rom: "nādh -> ṇādh (ṇādhṛṁ) āśiṣi bhvādiḥ",
+    wx: "nAX -> NAX (NAXqṁ) ASiRi BvAxiH"
   },
   'NAX1_NAXqz_BvAxiH_upawApe': {
-    dev: "णाध् (णाधृँ) उपतापे भ्वादिः",
-    rom: "ṇādh (ṇādhṛṁ) upatāpe bhvādiḥ",
-    wx: "NAX (NAXqṁ) upawApe BvAxiH"
+    dev: "नाध् -> णाध् (णाधृँ) उपतापे भ्वादिः",
+    rom: "nādh -> ṇādh (ṇādhṛṁ) upatāpe bhvādiḥ",
+    wx: "nAX -> NAX (NAXqṁ) upawApe BvAxiH"
   },
   'NAX1_NAXqz_BvAxiH_ESvarye': {
-    dev: "णाध् (णाधृँ) ऐश्वर्ये भ्वादिः",
-    rom: "ṇādh (ṇādhṛṁ) aiśvarye bhvādiḥ",
-    wx: "NAX (NAXqṁ) ESvarye BvAxiH"
+    dev: "नाध् -> णाध् (णाधृँ) ऐश्वर्ये भ्वादिः",
+    rom: "nādh -> ṇādh (ṇādhṛṁ) aiśvarye bhvādiḥ",
+    wx: "nAX -> NAX (NAXqṁ) ESvarye BvAxiH"
   },
   'NAX1_NAXqz_BvAxiH_yAFcAyAm': {
-    dev: "णाध् (णाधृँ) याञ्चायाम् भ्वादिः",
-    rom: "ṇādh (ṇādhṛṁ) yāñcāyām bhvādiḥ",
-    wx: "NAX (NAXqṁ) yAFcAyAm BvAxiH"
+    dev: "नाध् -> णाध् (णाधृँ) याञ्चायाम् भ्वादिः",
+    rom: "nādh -> ṇādh (ṇādhṛṁ) yāñcāyām bhvādiḥ",
+    wx: "nAX -> NAX (NAXqṁ) yAFcAyAm BvAxiH"
   },
   'NAs1_NAsqz_BvAxiH_Sabxe': {
-    dev: "णास् (णासृँ) शब्दे भ्वादिः",
-    rom: "ṇās (ṇāsṛṁ) śabde bhvādiḥ",
-    wx: "NAs (NAsqṁ) Sabxe BvAxiH"
+    dev: "नास् -> णास् (णासृँ) शब्दे भ्वादिः",
+    rom: "nās -> ṇās (ṇāsṛṁ) śabde bhvādiḥ",
+    wx: "nAs -> NAs (NAsqṁ) Sabxe BvAxiH"
   },
   'NikR1_NikRaz_BvAxiH_cumbane': {
-    dev: "णिक्ष् (णिक्षँ) चुम्बने भ्वादिः",
-    rom: "ṇikṣ (ṇikṣaṁ) cumbane bhvādiḥ",
-    wx: "NikR (NikRaṁ) cumbane BvAxiH"
+    dev: "निक्ष् -> णिक्ष् (णिक्षँ) चुम्बने भ्वादिः",
+    rom: "nikṣ -> ṇikṣ (ṇikṣaṁ) cumbane bhvādiḥ",
+    wx: "nikR -> NikR (NikRaṁ) cumbane BvAxiH"
   },
   'Nij1_Nijiz_axAxiH_SuxXO': {
-    dev: "णिज् (णिजिँ) शुद्धौ अदादिः",
-    rom: "ṇij (ṇijiṁ) śuddhau adādiḥ",
-    wx: "Nij (Nijiṁ) SuxXO axAxiH"
+    dev: "निज् -> णिज् (णिजिँ) शुद्धौ अदादिः",
+    rom: "nij -> ṇij (ṇijiṁ) śuddhau adādiḥ",
+    wx: "nij -> Nij (Nijiṁ) SuxXO axAxiH"
   },
   'Nij2_Nijizr_juhowyAxiH_poRaNe': {
-    dev: "णिज् (णिजिँर्) पोषणे जुहोत्यादिः",
-    rom: "ṇij (ṇijiṁr) poṣaṇe juhotyādiḥ",
-    wx: "Nij (Nijiṁr) poRaNe juhowyAxiH"
+    dev: "निज् -> णिज् (णिजिँर्) पोषणे जुहोत्यादिः",
+    rom: "nij -> ṇij (ṇijiṁr) poṣaṇe juhotyādiḥ",
+    wx: "nij -> Nij (Nijiṁr) poRaNe juhowyAxiH"
   },
   'Nij2_Nijizr_juhowyAxiH_SOce': {
-    dev: "णिज् (णिजिँर्) शौचे जुहोत्यादिः",
-    rom: "ṇij (ṇijiṁr) śauce juhotyādiḥ",
-    wx: "Nij (Nijiṁr) SOce juhowyAxiH"
+    dev: "निज् -> णिज् (णिजिँर्) शौचे जुहोत्यादिः",
+    rom: "nij -> ṇij (ṇijiṁr) śauce juhotyādiḥ",
+    wx: "nij -> Nij (Nijiṁr) SOce juhowyAxiH"
   },
   'Nix1_Nixiz_BvAxiH_kuwsAyAm': {
-    dev: "णिद् (णिदिँ) कुत्सायाम् भ्वादिः",
-    rom: "ṇid (ṇidiṁ) kutsāyām bhvādiḥ",
-    wx: "Nix (Nixiṁ) kuwsAyAm BvAxiH"
+    dev: "निन्द् -> णिद् (णिदिँ) कुत्सायाम् भ्वादिः",
+    rom: "nind -> ṇid (ṇidiṁ) kutsāyām bhvādiḥ",
+    wx: "ninx -> Nix (Nixiṁ) kuwsAyAm BvAxiH"
   },
   'Nix2_Nixqz_BvAxiH_kuwsAyAm': {
-    dev: "णिद् (णिदृँ) कुत्सायाम् भ्वादिः",
-    rom: "ṇid (ṇidṛṁ) kutsāyām bhvādiḥ",
-    wx: "Nix (Nixqṁ) kuwsAyAm BvAxiH"
+    dev: "निन्द् -> णिद् (णिदृँ) कुत्सायाम् भ्वादिः",
+    rom: "nind -> ṇid (ṇidṛṁ) kutsāyām bhvādiḥ",
+    wx: "ninx -> Nix (Nixqṁ) kuwsAyAm BvAxiH"
   },
   'Nix2_Nixqz_BvAxiH_sannikarRe': {
-    dev: "णिद् (णिदृँ) सन्निकर्षे भ्वादिः",
-    rom: "ṇid (ṇidṛṁ) sannikarṣe bhvādiḥ",
-    wx: "Nix (Nixqṁ) sannikarRe BvAxiH"
+    dev: "निन्द् -> णिद् (णिदृँ) सन्निकर्षे भ्वादिः",
+    rom: "nind -> ṇid (ṇidṛṁ) sannikarṣe bhvādiḥ",
+    wx: "ninx -> Nix (Nixqṁ) sannikarRe BvAxiH"
   },
   'Nil1_Nilaz_wuxAxiH_gahane': {
-    dev: "णिल् (णिलँ) गहने तुदादिः",
-    rom: "ṇil (ṇilaṁ) gahane tudādiḥ",
-    wx: "Nil (Nilaṁ) gahane wuxAxiH"
+    dev: "निल् -> णिल् (णिलँ) गहने तुदादिः",
+    rom: "nil -> ṇil (ṇilaṁ) gahane tudādiḥ",
+    wx: "nil -> Nil (Nilaṁ) gahane wuxAxiH"
   },
   'Niv1_Niviz_BvAxiH_secane': {
-    dev: "णिव् (णिविँ) सेचने भ्वादिः",
-    rom: "ṇiv (ṇiviṁ) secane bhvādiḥ",
-    wx: "Niv (Niviṁ) secane BvAxiH"
+    dev: "निन्व् -> णिव् (णिविँ) सेचने भ्वादिः",
+    rom: "ninv -> ṇiv (ṇiviṁ) secane bhvādiḥ",
+    wx: "ninv -> Niv (Niviṁ) secane BvAxiH"
   },
   'Niv1_Niviz_BvAxiH_sevane': {
-    dev: "णिव् (णिविँ) सेवने भ्वादिः",
-    rom: "ṇiv (ṇiviṁ) sevane bhvādiḥ",
-    wx: "Niv (Niviṁ) sevane BvAxiH"
+    dev: "निन्व् -> णिव् (णिविँ) सेवने भ्वादिः",
+    rom: "ninv -> ṇiv (ṇiviṁ) sevane bhvādiḥ",
+    wx: "ninv -> Niv (Niviṁ) sevane BvAxiH"
   },
   'Niv1_Niviz_BvAxiH_sraMsane': {
-    dev: "णिव् (णिविँ) स्रंसने भ्वादिः",
-    rom: "ṇiv (ṇiviṁ) sraṃsane bhvādiḥ",
-    wx: "Niv (Niviṁ) sraMsane BvAxiH"
+    dev: "निन्व् -> णिव् (णिविँ) स्रंसने भ्वादिः",
+    rom: "ninv -> ṇiv (ṇiviṁ) sraṃsane bhvādiḥ",
+    wx: "ninv -> Niv (Niviṁ) sraMsane BvAxiH"
   },
   'NiS1_NiSaz_BvAxiH_samAXO': {
-    dev: "णिश् (णिशँ) समाधौ भ्वादिः",
-    rom: "ṇiś (ṇiśaṁ) samādhau bhvādiḥ",
-    wx: "NiS (NiSaṁ) samAXO BvAxiH"
+    dev: "निश् -> णिश् (णिशँ) समाधौ भ्वादिः",
+    rom: "niś -> ṇiś (ṇiśaṁ) samādhau bhvādiḥ",
+    wx: "niS -> NiS (NiSaṁ) samAXO BvAxiH"
   },
   'NiRk1_NiRkaz_curAxiH_parimANe': {
-    dev: "णिष्क् (णिष्कँ) परिमाणे चुरादिः",
-    rom: "ṇiṣk (ṇiṣkaṁ) parimāṇe curādiḥ",
-    wx: "NiRk (NiRkaṁ) parimANe curAxiH"
+    dev: "निष्क् -> णिष्क् (णिष्कँ) परिमाणे चुरादिः",
+    rom: "niṣk -> ṇiṣk (ṇiṣkaṁ) parimāṇe curādiḥ",
+    wx: "niRk -> NiRk (NiRkaṁ) parimANe curAxiH"
   },
   'Nis1_Nisiz_axAxiH_gawO': {
-    dev: "णिस् (णिसिँ) गतौ अदादिः",
-    rom: "ṇis (ṇisiṁ) gatau adādiḥ",
-    wx: "Nis (Nisiṁ) gawO axAxiH"
+    dev: "निंस् -> णिस् (णिसिँ) गतौ अदादिः",
+    rom: "niṃs -> ṇis (ṇisiṁ) gatau adādiḥ",
+    wx: "niMs -> Nis (Nisiṁ) gawO axAxiH"
   },
   'Nis1_Nisiz_axAxiH_cumbane': {
-    dev: "णिस् (णिसिँ) चुम्बने अदादिः",
-    rom: "ṇis (ṇisiṁ) cumbane adādiḥ",
-    wx: "Nis (Nisiṁ) cumbane axAxiH"
+    dev: "निंस् -> णिस् (णिसिँ) चुम्बने अदादिः",
+    rom: "niṃs -> ṇis (ṇisiṁ) cumbane adādiḥ",
+    wx: "niMs -> Nis (Nisiṁ) cumbane axAxiH"
   },
   'Nis1_Nisiz_axAxiH_niSAne': {
-    dev: "णिस् (णिसिँ) निशाने अदादिः",
-    rom: "ṇis (ṇisiṁ) niśāne adādiḥ",
-    wx: "Nis (Nisiṁ) niSAne axAxiH"
+    dev: "निंस् -> णिस् (णिसिँ) निशाने अदादिः",
+    rom: "niṃs -> ṇis (ṇisiṁ) niśāne adādiḥ",
+    wx: "niMs -> Nis (Nisiṁ) niSAne axAxiH"
   },
   'NI1_NIF_BvAxiH_prApaNe': {
-    dev: "णी (णीञ्) प्रापणे भ्वादिः",
-    rom: "ṇī (ṇīñ) prāpaṇe bhvādiḥ",
-    wx: "NI (NIF) prApaNe BvAxiH"
+    dev: "नी -> णी (णीञ्) प्रापणे भ्वादिः",
+    rom: "nī -> ṇī (ṇīñ) prāpaṇe bhvādiḥ",
+    wx: "nI -> NI (NIF) prApaNe BvAxiH"
   },
   'NIl1_NIlaz_BvAxiH_varNe': {
-    dev: "णील् (णीलँ) वर्णे भ्वादिः",
-    rom: "ṇīl (ṇīlaṁ) varṇe bhvādiḥ",
-    wx: "NIl (NIlaṁ) varNe BvAxiH"
+    dev: "नील् -> णील् (णीलँ) वर्णे भ्वादिः",
+    rom: "nīl -> ṇīl (ṇīlaṁ) varṇe bhvādiḥ",
+    wx: "nIl -> NIl (NIlaṁ) varNe BvAxiH"
   },
   'NIv1_NIvaz_BvAxiH_sWOlye': {
-    dev: "णीव् (णीवँ) स्थौल्ये भ्वादिः",
-    rom: "ṇīv (ṇīvaṁ) sthaulye bhvādiḥ",
-    wx: "NIv (NIvaṁ) sWOlye BvAxiH"
+    dev: "नीव् -> णीव् (णीवँ) स्थौल्ये भ्वादिः",
+    rom: "nīv -> ṇīv (ṇīvaṁ) sthaulye bhvādiḥ",
+    wx: "nIv -> NIv (NIvaṁ) sWOlye BvAxiH"
   },
   'Nu1_Nu_axAxiH_swuwO': {
-    dev: "णु (णु) स्तुतौ अदादिः",
-    rom: "ṇu (ṇu) stutau adādiḥ",
-    wx: "Nu (Nu) swuwO axAxiH"
+    dev: "नु -> णु (णु) स्तुतौ अदादिः",
+    rom: "nu -> ṇu (ṇu) stutau adādiḥ",
+    wx: "nu -> Nu (Nu) swuwO axAxiH"
   },
   'Nux1_Nuxaz_wuxAxiH_preraNe': {
-    dev: "णुद् (णुदँ) प्रेरणे तुदादिः",
-    rom: "ṇud (ṇudaṁ) preraṇe tudādiḥ",
-    wx: "Nux (Nuxaṁ) preraNe wuxAxiH"
+    dev: "नुद् -> णुद् (णुदँ) प्रेरणे तुदादिः",
+    rom: "nud -> ṇud (ṇudaṁ) preraṇe tudādiḥ",
+    wx: "nux -> Nux (Nuxaṁ) preraNe wuxAxiH"
   },
   'NU1_NU_wuxAxiH_swavane': {
-    dev: "णू (णू) स्तवने तुदादिः",
-    rom: "ṇū (ṇū) stavane tudādiḥ",
-    wx: "NU (NU) swavane wuxAxiH"
+    dev: "नू -> णू (णू) स्तवने तुदादिः",
+    rom: "nū -> ṇū (ṇū) stavane tudādiḥ",
+    wx: "nU -> NU (NU) swavane wuxAxiH"
   },
   'Nex1_Nexqz_BvAxiH_kuwsAyAm': {
-    dev: "णेद् (णेदृँ) कुत्सायाम् भ्वादिः",
-    rom: "ṇed (ṇedṛṁ) kutsāyām bhvādiḥ",
-    wx: "Nex (Nexqṁ) kuwsAyAm BvAxiH"
+    dev: "नेद् -> णेद् (णेदृँ) कुत्सायाम् भ्वादिः",
+    rom: "ned -> ṇed (ṇedṛṁ) kutsāyām bhvādiḥ",
+    wx: "nex -> Nex (Nexqṁ) kuwsAyAm BvAxiH"
   },
   'Nex1_Nexqz_BvAxiH_sannikarRe': {
-    dev: "णेद् (णेदृँ) सन्निकर्षे भ्वादिः",
-    rom: "ṇed (ṇedṛṁ) sannikarṣe bhvādiḥ",
-    wx: "Nex (Nexqṁ) sannikarRe BvAxiH"
+    dev: "नेद् -> णेद् (णेदृँ) सन्निकर्षे भ्वादिः",
+    rom: "ned -> ṇed (ṇedṛṁ) sannikarṣe bhvādiḥ",
+    wx: "nex -> Nex (Nexqṁ) sannikarRe BvAxiH"
   },
   'NeR1_NeRqz_BvAxiH_gawO': {
     dev: "णेष् (णेषृँ) गतौ भ्वादिः",
@@ -5150,14 +5150,14 @@ var root_info = {
     wx: "Nes (Nesqṁ) gawO BvAxiH"
   },
   'wak1_wakaz_BvAxiH_hasane': {
-    dev: "तक् (तकँ) हसने भ्वादिः",
-    rom: "tak (takaṁ) hasane bhvādiḥ",
-    wx: "wak (wakaṁ) hasane BvAxiH"
+    dev: "तङ्क् -> तक् (तकँ) हसने भ्वादिः",
+    rom: "taṅk -> tak (takaṁ) hasane bhvādiḥ",
+    wx: "wafk -> wak (wakaṁ) hasane BvAxiH"
   },
   'wak2_wakiz_BvAxiH_kqcCrajIvane': {
-    dev: "तक् (तकिँ) कृच्छ्रजीवने भ्वादिः",
-    rom: "tak (takiṁ) kṛcchrajīvane bhvādiḥ",
-    wx: "wak (wakiṁ) kqcCrajIvane BvAxiH"
+    dev: "तङ्क् -> तक् (तकिँ) कृच्छ्रजीवने भ्वादिः",
+    rom: "taṅk -> tak (takiṁ) kṛcchrajīvane bhvādiḥ",
+    wx: "wafk -> wak (wakiṁ) kqcCrajIvane BvAxiH"
   },
   'wakR2_wakRaz_BvAxiH_wvacane': {
     dev: "तक्ष् (तक्षँ) त्वचने भ्वादिः",
@@ -5170,9 +5170,9 @@ var root_info = {
     wx: "wakR (wakRUṁ) wanUkaraNe BvAxiH"
   },
   'wag1_wagiz_BvAxiH_gawO': {
-    dev: "तग् (तगिँ) गतौ भ्वादिः",
-    rom: "tag (tagiṁ) gatau bhvādiḥ",
-    wx: "wag (wagiṁ) gawO BvAxiH"
+    dev: "तङ्ग् -> तग् (तगिँ) गतौ भ्वादिः",
+    rom: "taṅg -> tag (tagiṁ) gatau bhvādiḥ",
+    wx: "wafg -> wag (wagiṁ) gawO BvAxiH"
   },
   'wat1_wataz_BvAxiH_ucCrAye': {
     dev: "तट् (तटँ) उच्छ्राये भ्वादिः",
@@ -5180,19 +5180,19 @@ var root_info = {
     wx: "wat (wataṁ) ucCrAye BvAxiH"
   },
   'wad2_wadaz_curAxiH_AGAwe': {
-    dev: "तड् (तडँ) आघाते चुरादिः",
-    rom: "taḍ (taḍaṁ) āghāte curādiḥ",
-    wx: "wad (wadaṁ) AGAwe curAxiH"
+    dev: "तण्ड् -> तड् (तडँ) आघाते चुरादिः",
+    rom: "taṇḍ -> taḍ (taḍaṁ) āghāte curādiḥ",
+    wx: "waNd -> wad (wadaṁ) AGAwe curAxiH"
   },
   'wad1_wadiz_BvAxiH_wAdane': {
-    dev: "तड् (तडिँ) ताडने भ्वादिः",
-    rom: "taḍ (taḍiṁ) tāḍane bhvādiḥ",
-    wx: "wad (wadiṁ) wAdane BvAxiH"
+    dev: "तण्ड् -> तड् (तडिँ) ताडने भ्वादिः",
+    rom: "taṇḍ -> taḍ (taḍiṁ) tāḍane bhvādiḥ",
+    wx: "waNd -> wad (wadiṁ) wAdane BvAxiH"
   },
   'wawr1_wawriz_curAxiH_kutumbaXAraNe': {
-    dev: "तत्र् (तत्रिँ) कुटुम्बधारणे चुरादिः",
-    rom: "tatr (tatriṁ) kuṭumbadhāraṇe curādiḥ",
-    wx: "wawr (wawriṁ) kutumbaXAraNe curAxiH"
+    dev: "तन्त्र् -> तत्र् (तत्रिँ) कुटुम्बधारणे चुरादिः",
+    rom: "tantr -> tatr (tatriṁ) kuṭumbadhāraṇe curādiḥ",
+    wx: "wanwr -> wawr (wawriṁ) kutumbaXAraNe curAxiH"
   },
   'wan2_wanuz_curAxiH_upakaraNe': {
     dev: "तन् (तनुँ) उपकरणे चुरादिः",
@@ -5210,14 +5210,14 @@ var root_info = {
     wx: "wan (wanuṁ) SraxXe curAxiH"
   },
   'wanc1_wancuz_BvAxiH_gawO': {
-    dev: "तन्च् (तन्चुँ) गतौ भ्वादिः",
-    rom: "tanc (tancuṁ) gatau bhvādiḥ",
-    wx: "wanc (wancuṁ) gawO BvAxiH"
+    dev: "तञ्च् -> तन्च् (तन्चुँ) गतौ भ्वादिः",
+    rom: "tañc -> tanc (tancuṁ) gatau bhvādiḥ",
+    wx: "waFc -> wanc (wancuṁ) gawO BvAxiH"
   },
   'wanc2_wancUz_ruXAxiH_safkocane': {
-    dev: "तन्च् (तन्चूँ) सङ्कोचने रुधादिः",
-    rom: "tanc (tancūṁ) saṅkocane rudhādiḥ",
-    wx: "wanc (wancUṁ) safkocane ruXAxiH"
+    dev: "तञ्च् -> तन्च् (तन्चूँ) सङ्कोचने रुधादिः",
+    rom: "tañc -> tanc (tancūṁ) saṅkocane rudhādiḥ",
+    wx: "waFc -> wanc (wancUṁ) safkocane ruXAxiH"
   },
   'wap2_wapaz_xivAxiH_ESvarye': {
     dev: "तप् (तपँ) ऐश्वर्ये दिवादिः",
@@ -5385,44 +5385,44 @@ var root_info = {
     wx: "wIv (wIvaṁ) sWOlye BvAxiH"
   },
   'wuj1_wujaz_BvAxiH_hiMsAyAm': {
-    dev: "तुज् (तुजँ) हिंसायाम् भ्वादिः",
-    rom: "tuj (tujaṁ) hiṃsāyām bhvādiḥ",
-    wx: "wuj (wujaṁ) hiMsAyAm BvAxiH"
+    dev: "तुञ्ज् -> तुज् (तुजँ) हिंसायाम् भ्वादिः",
+    rom: "tuñj -> tuj (tujaṁ) hiṃsāyām bhvādiḥ",
+    wx: "wuFj -> wuj (wujaṁ) hiMsAyAm BvAxiH"
   },
   'wuj3_wujiz_curAxiH_nikewane': {
-    dev: "तुज् (तुजिँ) निकेतने चुरादिः",
-    rom: "tuj (tujiṁ) niketane curādiḥ",
-    wx: "wuj (wujiṁ) nikewane curAxiH"
+    dev: "तुञ्ज् -> तुज् (तुजिँ) निकेतने चुरादिः",
+    rom: "tuñj -> tuj (tujiṁ) niketane curādiḥ",
+    wx: "wuFj -> wuj (wujiṁ) nikewane curAxiH"
   },
   'wuj2_wujiz_BvAxiH_pAlane': {
-    dev: "तुज् (तुजिँ) पालने भ्वादिः",
-    rom: "tuj (tujiṁ) pālane bhvādiḥ",
-    wx: "wuj (wujiṁ) pAlane BvAxiH"
+    dev: "तुञ्ज् -> तुज् (तुजिँ) पालने भ्वादिः",
+    rom: "tuñj -> tuj (tujiṁ) pālane bhvādiḥ",
+    wx: "wuFj -> wuj (wujiṁ) pAlane BvAxiH"
   },
   'wuj3_wujiz_curAxiH_balAxAne': {
-    dev: "तुज् (तुजिँ) बलादाने चुरादिः",
-    rom: "tuj (tujiṁ) balādāne curādiḥ",
-    wx: "wuj (wujiṁ) balAxAne curAxiH"
+    dev: "तुञ्ज् -> तुज् (तुजिँ) बलादाने चुरादिः",
+    rom: "tuñj -> tuj (tujiṁ) balādāne curādiḥ",
+    wx: "wuFj -> wuj (wujiṁ) balAxAne curAxiH"
   },
   'wuj3_wujiz_curAxiH_BARArWe': {
-    dev: "तुज् (तुजिँ) भाषार्थे चुरादिः",
-    rom: "tuj (tujiṁ) bhāṣārthe curādiḥ",
-    wx: "wuj (wujiṁ) BARArWe curAxiH"
+    dev: "तुञ्ज् -> तुज् (तुजिँ) भाषार्थे चुरादिः",
+    rom: "tuñj -> tuj (tujiṁ) bhāṣārthe curādiḥ",
+    wx: "wuFj -> wuj (wujiṁ) BARArWe curAxiH"
   },
   'wuj3_wujiz_curAxiH_BAsArWe': {
-    dev: "तुज् (तुजिँ) भासार्थे चुरादिः",
-    rom: "tuj (tujiṁ) bhāsārthe curādiḥ",
-    wx: "wuj (wujiṁ) BAsArWe curAxiH"
+    dev: "तुञ्ज् -> तुज् (तुजिँ) भासार्थे चुरादिः",
+    rom: "tuñj -> tuj (tujiṁ) bhāsārthe curādiḥ",
+    wx: "wuFj -> wuj (wujiṁ) BAsArWe curAxiH"
   },
   'wuj3_wujiz_curAxiH_hiMsAyAm': {
-    dev: "तुज् (तुजिँ) हिंसायाम् चुरादिः",
-    rom: "tuj (tujiṁ) hiṃsāyām curādiḥ",
-    wx: "wuj (wujiṁ) hiMsAyAm curAxiH"
+    dev: "तुञ्ज् -> तुज् (तुजिँ) हिंसायाम् चुरादिः",
+    rom: "tuñj -> tuj (tujiṁ) hiṃsāyām curādiḥ",
+    wx: "wuFj -> wuj (wujiṁ) hiMsAyAm curAxiH"
   },
   'wuj2_wujiz_BvAxiH_hiMsAyAm': {
-    dev: "तुज् (तुजिँ) हिंसायाम् भ्वादिः",
-    rom: "tuj (tujiṁ) hiṃsāyām bhvādiḥ",
-    wx: "wuj (wujiṁ) hiMsAyAm BvAxiH"
+    dev: "तुञ्ज् -> तुज् (तुजिँ) हिंसायाम् भ्वादिः",
+    rom: "tuñj -> tuj (tujiṁ) hiṃsāyām bhvādiḥ",
+    wx: "wuFj -> wuj (wujiṁ) hiMsAyAm BvAxiH"
   },
   'wut1_wutaz_wuxAxiH_kalahakarmaNi': {
     dev: "तुट् (तुटँ) कलहकर्मणि तुदादिः",
@@ -5430,19 +5430,19 @@ var root_info = {
     wx: "wut (wutaṁ) kalahakarmaNi wuxAxiH"
   },
   'wud3_wudaz_wuxAxiH_wodane': {
-    dev: "तुड् (तुडँ) तोडने तुदादिः",
-    rom: "tuḍ (tuḍaṁ) toḍane tudādiḥ",
-    wx: "wud (wudaṁ) wodane wuxAxiH"
+    dev: "तुण्ड् -> तुड् (तुडँ) तोडने तुदादिः",
+    rom: "tuṇḍ -> tuḍ (tuḍaṁ) toḍane tudādiḥ",
+    wx: "wuNd -> wud (wudaṁ) wodane wuxAxiH"
   },
   'wud2_wudiz_BvAxiH_wodane': {
-    dev: "तुड् (तुडिँ) तोडने भ्वादिः",
-    rom: "tuḍ (tuḍiṁ) toḍane bhvādiḥ",
-    wx: "wud (wudiṁ) wodane BvAxiH"
+    dev: "तुण्ड् -> तुड् (तुडिँ) तोडने भ्वादिः",
+    rom: "tuṇḍ -> tuḍ (tuḍiṁ) toḍane bhvādiḥ",
+    wx: "wuNd -> wud (wudiṁ) wodane BvAxiH"
   },
   'wud1_wudqz_BvAxiH_wodane': {
-    dev: "तुड् (तुडृँ) तोडने भ्वादिः",
-    rom: "tuḍ (tuḍṛṁ) toḍane bhvādiḥ",
-    wx: "wud (wudqṁ) wodane BvAxiH"
+    dev: "तुण्ड् -> तुड् (तुडृँ) तोडने भ्वादिः",
+    rom: "tuṇḍ -> tuḍ (tuḍṛṁ) toḍane bhvādiḥ",
+    wx: "wuNd -> wud (wudqṁ) wodane BvAxiH"
   },
   'wuN1_wuNaz_wuxAxiH_kOtilye': {
     dev: "तुण् (तुणँ) कौटिल्ये तुदादिः",
@@ -5460,24 +5460,24 @@ var root_info = {
     wx: "wux (wuxaṁ) vyaWane wuxAxiH"
   },
   'wunp2_wunpaz_wuxAxiH_hiMsAyAm': {
-    dev: "तुन्प् (तुन्पँ) हिंसायाम् तुदादिः",
-    rom: "tunp (tunpaṁ) hiṃsāyām tudādiḥ",
-    wx: "wunp (wunpaṁ) hiMsAyAm wuxAxiH"
+    dev: "तुम्प् -> तुन्प् (तुन्पँ) हिंसायाम् तुदादिः",
+    rom: "tump -> tunp (tunpaṁ) hiṃsāyām tudādiḥ",
+    wx: "wump -> wunp (wunpaṁ) hiMsAyAm wuxAxiH"
   },
   'wunp1_wunpaz_BvAxiH_hiMsAyAm': {
-    dev: "तुन्प् (तुन्पँ) हिंसायाम् भ्वादिः",
-    rom: "tunp (tunpaṁ) hiṃsāyām bhvādiḥ",
-    wx: "wunp (wunpaṁ) hiMsAyAm BvAxiH"
+    dev: "तुम्प् -> तुन्प् (तुन्पँ) हिंसायाम् भ्वादिः",
+    rom: "tump -> tunp (tunpaṁ) hiṃsāyām bhvādiḥ",
+    wx: "wump -> wunp (wunpaṁ) hiMsAyAm BvAxiH"
   },
   'wunP2_wunPaz_wuxAxiH_hiMsAyAm': {
-    dev: "तुन्फ् (तुन्फँ) हिंसायाम् तुदादिः",
-    rom: "tunph (tunphaṁ) hiṃsāyām tudādiḥ",
-    wx: "wunP (wunPaṁ) hiMsAyAm wuxAxiH"
+    dev: "तुम्फ् -> तुन्फ् (तुन्फँ) हिंसायाम् तुदादिः",
+    rom: "tumph -> tunph (tunphaṁ) hiṃsāyām tudādiḥ",
+    wx: "wumP -> wunP (wunPaṁ) hiMsAyAm wuxAxiH"
   },
   'wunP1_wunPaz_BvAxiH_hiMsAyAm': {
-    dev: "तुन्फ् (तुन्फँ) हिंसायाम् भ्वादिः",
-    rom: "tunph (tunphaṁ) hiṃsāyām bhvādiḥ",
-    wx: "wunP (wunPaṁ) hiMsAyAm BvAxiH"
+    dev: "तुम्फ् -> तुन्फ् (तुन्फँ) हिंसायाम् भ्वादिः",
+    rom: "tumph -> tunph (tunphaṁ) hiṃsāyām bhvādiḥ",
+    wx: "wumP -> wunP (wunPaṁ) hiMsAyAm BvAxiH"
   },
   'wup2_wupaz_wuxAxiH_hiMsAyAm': {
     dev: "तुप् (तुपँ) हिंसायाम् तुदादिः",
@@ -5505,19 +5505,19 @@ var root_info = {
     wx: "wuP (wuPaṁ) hiMsAyAm BvAxiH"
   },
   'wub2_wubiz_curAxiH_axarSane': {
-    dev: "तुब् (तुबिँ) अदर्शने चुरादिः",
-    rom: "tub (tubiṁ) adarśane curādiḥ",
-    wx: "wub (wubiṁ) axarSane curAxiH"
+    dev: "तुम्ब् -> तुब् (तुबिँ) अदर्शने चुरादिः",
+    rom: "tumb -> tub (tubiṁ) adarśane curādiḥ",
+    wx: "wumb -> wub (wubiṁ) axarSane curAxiH"
   },
   'wub2_wubiz_curAxiH_arxane': {
-    dev: "तुब् (तुबिँ) अर्दने चुरादिः",
-    rom: "tub (tubiṁ) ardane curādiḥ",
-    wx: "wub (wubiṁ) arxane curAxiH"
+    dev: "तुम्ब् -> तुब् (तुबिँ) अर्दने चुरादिः",
+    rom: "tumb -> tub (tubiṁ) ardane curādiḥ",
+    wx: "wumb -> wub (wubiṁ) arxane curAxiH"
   },
   'wub1_wubiz_BvAxiH_arxane': {
-    dev: "तुब् (तुबिँ) अर्दने भ्वादिः",
-    rom: "tub (tubiṁ) ardane bhvādiḥ",
-    wx: "wub (wubiṁ) arxane BvAxiH"
+    dev: "तुम्ब् -> तुब् (तुबिँ) अर्दने भ्वादिः",
+    rom: "tumb -> tub (tubiṁ) ardane bhvādiḥ",
+    wx: "wumb -> wub (wubiṁ) arxane BvAxiH"
   },
   'wuB3_wuBaz_kryAxiH_hiMsAyAm': {
     dev: "तुभ् (तुभँ) हिंसायाम् क्र्यादिः",
@@ -5620,14 +5620,14 @@ var root_info = {
     wx: "wqx (uṁwqxiṁr) hiMsAyAm ruXAxiH"
   },
   'wqnP1_wqnPaz_wuxAxiH_wqpwO': {
-    dev: "तृन्फ् (तृन्फँ) तृप्तौ तुदादिः",
-    rom: "tṛnph (tṛnphaṁ) tṛptau tudādiḥ",
-    wx: "wqnP (wqnPaṁ) wqpwO wuxAxiH"
+    dev: "तृम्फ् -> तृन्फ् (तृन्फँ) तृप्तौ तुदादिः",
+    rom: "tṛmph -> tṛnph (tṛnphaṁ) tṛptau tudādiḥ",
+    wx: "wqmP -> wqnP (wqnPaṁ) wqpwO wuxAxiH"
   },
   'wqnh1_wqnhUz_wuxAxiH_hiMsAyAm': {
-    dev: "तृन्ह् (तृन्हूँ) हिंसायाम् तुदादिः",
-    rom: "tṛnh (tṛnhūṁ) hiṃsāyām tudādiḥ",
-    wx: "wqnh (wqnhUṁ) hiMsAyAm wuxAxiH"
+    dev: "तृंह् -> तृन्ह् (तृन्हूँ) हिंसायाम् तुदादिः",
+    rom: "tṛṃh -> tṛnh (tṛnhūṁ) hiṃsāyām tudādiḥ",
+    wx: "wqMh -> wqnh (wqnhUṁ) hiMsAyAm wuxAxiH"
   },
   'wqp4_wqpaz_curAxiH_wqpwO': {
     dev: "तृप् (तृपँ) तृप्तौ चुरादिः",
@@ -5670,24 +5670,24 @@ var root_info = {
     wx: "wqR (FiwqRAṁ) pipAsAyAm xivAxiH"
   },
   'wqh1_wqhaz_BvAxiH_vqxXO': {
-    dev: "तृह् (तृहँ) वृद्धौ भ्वादिः",
-    rom: "tṛh (tṛhaṁ) vṛddhau bhvādiḥ",
-    wx: "wqh (wqhaṁ) vqxXO BvAxiH"
+    dev: "तृंह् -> तृह् (तृहँ) वृद्धौ भ्वादिः",
+    rom: "tṛṃh -> tṛh (tṛhaṁ) vṛddhau bhvādiḥ",
+    wx: "wqMh -> wqh (wqhaṁ) vqxXO BvAxiH"
   },
   'wqh4_wqhaz_ruXAxiH_hiMsAyAm': {
-    dev: "तृह् (तृहँ) हिंसायाम् रुधादिः",
-    rom: "tṛh (tṛhaṁ) hiṃsāyām rudhādiḥ",
-    wx: "wqh (wqhaṁ) hiMsAyAm ruXAxiH"
+    dev: "तृंह् -> तृह् (तृहँ) हिंसायाम् रुधादिः",
+    rom: "tṛṃh -> tṛh (tṛhaṁ) hiṃsāyām rudhādiḥ",
+    wx: "wqMh -> wqh (wqhaṁ) hiMsAyAm ruXAxiH"
   },
   'wqh2_wqhiz_BvAxiH_vqxXO': {
-    dev: "तृह् (तृहिँ) वृद्धौ भ्वादिः",
-    rom: "tṛh (tṛhiṁ) vṛddhau bhvādiḥ",
-    wx: "wqh (wqhiṁ) vqxXO BvAxiH"
+    dev: "तृंह् -> तृह् (तृहिँ) वृद्धौ भ्वादिः",
+    rom: "tṛṃh -> tṛh (tṛhiṁ) vṛddhau bhvādiḥ",
+    wx: "wqMh -> wqh (wqhiṁ) vqxXO BvAxiH"
   },
   'wqh3_wqhUz_wuxAxiH_hiMsAyAm': {
-    dev: "तृह् (तृहूँ) हिंसायाम् तुदादिः",
-    rom: "tṛh (tṛhūṁ) hiṃsāyām tudādiḥ",
-    wx: "wqh (wqhUṁ) hiMsAyAm wuxAxiH"
+    dev: "तृंह् -> तृह् (तृहूँ) हिंसायाम् तुदादिः",
+    rom: "tṛṃh -> tṛh (tṛhūṁ) hiṃsāyām tudādiḥ",
+    wx: "wqMh -> wqh (wqhUṁ) hiMsAyAm wuxAxiH"
   },
   'wQ1_wQ_BvAxiH_waraNe': {
     dev: "तॄ (तॄ) तरणे भ्वादिः",
@@ -5725,9 +5725,9 @@ var root_info = {
     wx: "wyaj (wyajaṁ) hAnO BvAxiH"
   },
   'wrak1_wrakiz_BvAxiH_gawO': {
-    dev: "त्रक् (त्रकिँ) गतौ भ्वादिः",
-    rom: "trak (trakiṁ) gatau bhvādiḥ",
-    wx: "wrak (wrakiṁ) gawO BvAxiH"
+    dev: "त्रङ्क् -> त्रक् (त्रकिँ) गतौ भ्वादिः",
+    rom: "traṅk -> trak (trakiṁ) gatau bhvādiḥ",
+    wx: "wrafk -> wrak (wrakiṁ) gawO BvAxiH"
   },
   'wrag1_wragiz_BvAxiH_gawO': {
     dev: "त्रग् (त्रगिँ) गतौ भ्वादिः",
@@ -5735,9 +5735,9 @@ var root_info = {
     wx: "wrag (wragiṁ) gawO BvAxiH"
   },
   'wrax1_wraxiz_BvAxiH_ceRtAyAm': {
-    dev: "त्रद् (त्रदिँ) चेष्टायाम् भ्वादिः",
-    rom: "trad (tradiṁ) ceṣṭāyām bhvādiḥ",
-    wx: "wrax (wraxiṁ) ceRtAyAm BvAxiH"
+    dev: "त्रन्द् -> त्रद् (त्रदिँ) चेष्टायाम् भ्वादिः",
+    rom: "trand -> trad (tradiṁ) ceṣṭāyām bhvādiḥ",
+    wx: "wranx -> wrax (wraxiṁ) ceRtAyAm BvAxiH"
   },
   'wrap1_wrapUzR_BvAxiH_lajjAyAm': {
     dev: "त्रप् (त्रपूँष्) लज्जायाम् भ्वादिः",
@@ -5775,14 +5775,14 @@ var root_info = {
     wx: "wrut (wrutaṁ) Cexane wuxAxiH"
   },
   'wrunp1_wrunpaz_BvAxiH_hiMsAyAm': {
-    dev: "त्रुन्प् (त्रुन्पँ) हिंसायाम् भ्वादिः",
-    rom: "trunp (trunpaṁ) hiṃsāyām bhvādiḥ",
-    wx: "wrunp (wrunpaṁ) hiMsAyAm BvAxiH"
+    dev: "त्रुम्प् -> त्रुन्प् (त्रुन्पँ) हिंसायाम् भ्वादिः",
+    rom: "trump -> trunp (trunpaṁ) hiṃsāyām bhvādiḥ",
+    wx: "wrump -> wrunp (wrunpaṁ) hiMsAyAm BvAxiH"
   },
   'wrunP1_wrunPaz_BvAxiH_hiMsAyAm': {
-    dev: "त्रुन्फ् (त्रुन्फँ) हिंसायाम् भ्वादिः",
-    rom: "trunph (trunphaṁ) hiṃsāyām bhvādiḥ",
-    wx: "wrunP (wrunPaṁ) hiMsAyAm BvAxiH"
+    dev: "त्रुम्फ् -> त्रुन्फ् (त्रुन्फँ) हिंसायाम् भ्वादिः",
+    rom: "trumph -> trunph (trunphaṁ) hiṃsāyām bhvādiḥ",
+    wx: "wrumP -> wrunP (wrunPaṁ) hiMsAyAm BvAxiH"
   },
   'wrup1_wrupaz_BvAxiH_hiMsAyAm': {
     dev: "त्रुप् (त्रुपँ) हिंसायाम् भ्वादिः",
@@ -5815,14 +5815,14 @@ var root_info = {
     wx: "wvakR (wvakRUṁ) wanUkaraNe BvAxiH"
   },
   'wvag1_wvagiz_BvAxiH_kampane': {
-    dev: "त्वग् (त्वगिँ) कम्पने भ्वादिः",
-    rom: "tvag (tvagiṁ) kampane bhvādiḥ",
-    wx: "wvag (wvagiṁ) kampane BvAxiH"
+    dev: "त्वङ्ग् -> त्वग् (त्वगिँ) कम्पने भ्वादिः",
+    rom: "tvaṅg -> tvag (tvagiṁ) kampane bhvādiḥ",
+    wx: "wvafg -> wvag (wvagiṁ) kampane BvAxiH"
   },
   'wvag1_wvagiz_BvAxiH_gawO': {
-    dev: "त्वग् (त्वगिँ) गतौ भ्वादिः",
-    rom: "tvag (tvagiṁ) gatau bhvādiḥ",
-    wx: "wvag (wvagiṁ) gawO BvAxiH"
+    dev: "त्वङ्ग् -> त्वग् (त्वगिँ) गतौ भ्वादिः",
+    rom: "tvaṅg -> tvag (tvagiṁ) gatau bhvādiḥ",
+    wx: "wvafg -> wvag (wvagiṁ) gawO BvAxiH"
   },
   'wvac1_wvacaz_wuxAxiH_saMvaraNe': {
     dev: "त्वच् (त्वचँ) संवरणे तुदादिः",
@@ -5830,9 +5830,9 @@ var root_info = {
     wx: "wvac (wvacaṁ) saMvaraNe wuxAxiH"
   },
   'wvanc1_wvancuz_BvAxiH_gawO': {
-    dev: "त्वन्च् (त्वन्चुँ) गतौ भ्वादिः",
-    rom: "tvanc (tvancuṁ) gatau bhvādiḥ",
-    wx: "wvanc (wvancuṁ) gawO BvAxiH"
+    dev: "त्वञ्च् -> त्वन्च् (त्वन्चुँ) गतौ भ्वादिः",
+    rom: "tvañc -> tvanc (tvancuṁ) gatau bhvādiḥ",
+    wx: "wvaFc -> wvanc (wvancuṁ) gawO BvAxiH"
   },
   'wvar1_FiwvarAz_BvAxiH_samBrame': {
     dev: "त्वर् (ञित्वराँ) सम्भ्रमे भ्वादिः",
@@ -5885,24 +5885,24 @@ var root_info = {
     wx: "xakR (xakRaṁ) hiMsAyAm BvAxiH"
   },
   'xaG2_xaGaz_svAxiH_GAwane': {
-    dev: "दघ् (दघँ) घातने स्वादिः",
-    rom: "dagh (daghaṁ) ghātane svādiḥ",
-    wx: "xaG (xaGaṁ) GAwane svAxiH"
+    dev: "दङ्घ् -> दघ् (दघँ) घातने स्वादिः",
+    rom: "daṅgh -> dagh (daghaṁ) ghātane svādiḥ",
+    wx: "xafG -> xaG (xaGaṁ) GAwane svAxiH"
   },
   'xaG2_xaGaz_svAxiH_pAlane': {
-    dev: "दघ् (दघँ) पालने स्वादिः",
-    rom: "dagh (daghaṁ) pālane svādiḥ",
-    wx: "xaG (xaGaṁ) pAlane svAxiH"
+    dev: "दङ्घ् -> दघ् (दघँ) पालने स्वादिः",
+    rom: "daṅgh -> dagh (daghaṁ) pālane svādiḥ",
+    wx: "xafG -> xaG (xaGaṁ) pAlane svAxiH"
   },
   'xaG1_xaGiz_BvAxiH_pAlane': {
-    dev: "दघ् (दघिँ) पालने भ्वादिः",
-    rom: "dagh (daghiṁ) pālane bhvādiḥ",
-    wx: "xaG (xaGiṁ) pAlane BvAxiH"
+    dev: "दङ्घ् -> दघ् (दघिँ) पालने भ्वादिः",
+    rom: "daṅgh -> dagh (daghiṁ) pālane bhvādiḥ",
+    wx: "xafG -> xaG (xaGiṁ) pAlane BvAxiH"
   },
   'xaG1_xaGiz_BvAxiH_varjane': {
-    dev: "दघ् (दघिँ) वर्जने भ्वादिः",
-    rom: "dagh (daghiṁ) varjane bhvādiḥ",
-    wx: "xaG (xaGiṁ) varjane BvAxiH"
+    dev: "दङ्घ् -> दघ् (दघिँ) वर्जने भ्वादिः",
+    rom: "daṅgh -> dagh (daghiṁ) varjane bhvādiḥ",
+    wx: "xafG -> xaG (xaGiṁ) varjane BvAxiH"
   },
   'xaNda1_xaNda_curAxiH_xaNdanipAwane': {
     dev: "दण्ड (दण्ड) दण्डनिपातने चुरादिः",
@@ -5920,14 +5920,14 @@ var root_info = {
     wx: "xaX (xaXaṁ) XAraNe BvAxiH"
   },
   'xanB1_xanBuz_svAxiH_xamBe': {
-    dev: "दन्भ् (दन्भुँ) दम्भे स्वादिः",
-    rom: "danbh (danbhuṁ) dambhe svādiḥ",
-    wx: "xanB (xanBuṁ) xamBe svAxiH"
+    dev: "दम्भ् -> दन्भ् (दन्भुँ) दम्भे स्वादिः",
+    rom: "dambh -> danbh (danbhuṁ) dambhe svādiḥ",
+    wx: "xamB -> xanB (xanBuṁ) xamBe svAxiH"
   },
   'xanS1_xanSaz_BvAxiH_xaMSane': {
-    dev: "दन्श् (दन्शँ) दंशने भ्वादिः",
-    rom: "danś (danśaṁ) daṃśane bhvādiḥ",
-    wx: "xanS (xanSaṁ) xaMSane BvAxiH"
+    dev: "दंश् -> दन्श् (दन्शँ) दंशने भ्वादिः",
+    rom: "daṃś -> danś (danśaṁ) daṃśane bhvādiḥ",
+    wx: "xaMS -> xanS (xanSaṁ) xaMSane BvAxiH"
   },
   'xaB1_xaBaz_curAxiH_kRepe': {
     dev: "दभ् (दभँ) क्षेपे चुरादिः",
@@ -5980,59 +5980,59 @@ var root_info = {
     wx: "xal (xalaṁ) viSaraNe BvAxiH"
   },
   'xav1_xaviz_BvAxiH_gawO': {
-    dev: "दव् (दविँ) गतौ भ्वादिः",
-    rom: "dav (daviṁ) gatau bhvādiḥ",
-    wx: "xav (xaviṁ) gawO BvAxiH"
+    dev: "दन्व् -> दव् (दविँ) गतौ भ्वादिः",
+    rom: "danv -> dav (daviṁ) gatau bhvādiḥ",
+    wx: "xanv -> xav (xaviṁ) gawO BvAxiH"
   },
   'xaS2_xaSiz_curAxiH_xaMSane': {
-    dev: "दश् (दशिँ) दंशने चुरादिः",
-    rom: "daś (daśiṁ) daṃśane curādiḥ",
-    wx: "xaS (xaSiṁ) xaMSane curAxiH"
+    dev: "दंश् -> दश् (दशिँ) दंशने चुरादिः",
+    rom: "daṃś -> daś (daśiṁ) daṃśane curādiḥ",
+    wx: "xaMS -> xaS (xaSiṁ) xaMSane curAxiH"
   },
   'xaS1_xaSiz_curAxiH_BARArWe': {
-    dev: "दश् (दशिँ) भाषार्थे चुरादिः",
-    rom: "daś (daśiṁ) bhāṣārthe curādiḥ",
-    wx: "xaS (xaSiṁ) BARArWe curAxiH"
+    dev: "दंश् -> दश् (दशिँ) भाषार्थे चुरादिः",
+    rom: "daṃś -> daś (daśiṁ) bhāṣārthe curādiḥ",
+    wx: "xaMS -> xaS (xaSiṁ) BARArWe curAxiH"
   },
   'xaS1_xaSiz_curAxiH_BAsArWe': {
-    dev: "दश् (दशिँ) भासार्थे चुरादिः",
-    rom: "daś (daśiṁ) bhāsārthe curādiḥ",
-    wx: "xaS (xaSiṁ) BAsArWe curAxiH"
+    dev: "दंश् -> दश् (दशिँ) भासार्थे चुरादिः",
+    rom: "daṃś -> daś (daśiṁ) bhāsārthe curādiḥ",
+    wx: "xaMS -> xaS (xaSiṁ) BAsArWe curAxiH"
   },
   'xas3_xasiz_curAxiH_xaMSane': {
-    dev: "दस् (दसिँ) दंशने चुरादिः",
-    rom: "das (dasiṁ) daṃśane curādiḥ",
-    wx: "xas (xasiṁ) xaMSane curAxiH"
+    dev: "दंस् -> दस् (दसिँ) दंशने चुरादिः",
+    rom: "daṃs -> das (dasiṁ) daṃśane curādiḥ",
+    wx: "xaMs -> xas (xasiṁ) xaMSane curAxiH"
   },
   'xas3_xasiz_curAxiH_xarSane': {
-    dev: "दस् (दसिँ) दर्शने चुरादिः",
-    rom: "das (dasiṁ) darśane curādiḥ",
-    wx: "xas (xasiṁ) xarSane curAxiH"
+    dev: "दंस् -> दस् (दसिँ) दर्शने चुरादिः",
+    rom: "daṃs -> das (dasiṁ) darśane curādiḥ",
+    wx: "xaMs -> xas (xasiṁ) xarSane curAxiH"
   },
   'xas2_xasiz_curAxiH_BARArWe': {
-    dev: "दस् (दसिँ) भाषार्थे चुरादिः",
-    rom: "das (dasiṁ) bhāṣārthe curādiḥ",
-    wx: "xas (xasiṁ) BARArWe curAxiH"
+    dev: "दंस् -> दस् (दसिँ) भाषार्थे चुरादिः",
+    rom: "daṃs -> das (dasiṁ) bhāṣārthe curādiḥ",
+    wx: "xaMs -> xas (xasiṁ) BARArWe curAxiH"
   },
   'xas2_xasiz_curAxiH_BAsArWe': {
-    dev: "दस् (दसिँ) भासार्थे चुरादिः",
-    rom: "das (dasiṁ) bhāsārthe curādiḥ",
-    wx: "xas (xasiṁ) BAsArWe curAxiH"
+    dev: "दंस् -> दस् (दसिँ) भासार्थे चुरादिः",
+    rom: "daṃs -> das (dasiṁ) bhāsārthe curādiḥ",
+    wx: "xaMs -> xas (xasiṁ) BAsArWe curAxiH"
   },
   'xas3_xasiz_curAxiH_hiMsAyAm': {
-    dev: "दस् (दसिँ) हिंसायाम् चुरादिः",
-    rom: "das (dasiṁ) hiṃsāyām curādiḥ",
-    wx: "xas (xasiṁ) hiMsAyAm curAxiH"
+    dev: "दंस् -> दस् (दसिँ) हिंसायाम् चुरादिः",
+    rom: "daṃs -> das (dasiṁ) hiṃsāyām curādiḥ",
+    wx: "xaMs -> xas (xasiṁ) hiMsAyAm curAxiH"
   },
   'xas1_xasuz_xivAxiH_upakRaye': {
-    dev: "दस् (दसुँ) उपक्षये दिवादिः",
-    rom: "das (dasuṁ) upakṣaye divādiḥ",
-    wx: "xas (xasuṁ) upakRaye xivAxiH"
+    dev: "दंस् -> दस् (दसुँ) उपक्षये दिवादिः",
+    rom: "daṃs -> das (dasuṁ) upakṣaye divādiḥ",
+    wx: "xaMs -> xas (xasuṁ) upakRaye xivAxiH"
   },
   'xas1_xasuz_xivAxiH_prakRepaNe': {
-    dev: "दस् (दसुँ) प्रक्षेपणे दिवादिः",
-    rom: "das (dasuṁ) prakṣepaṇe divādiḥ",
-    wx: "xas (xasuṁ) prakRepaNe xivAxiH"
+    dev: "दंस् -> दस् (दसुँ) प्रक्षेपणे दिवादिः",
+    rom: "daṃs -> das (dasuṁ) prakṣepaṇe divādiḥ",
+    wx: "xaMs -> xas (xasuṁ) prakRepaNe xivAxiH"
   },
   'xah1_xahaz_BvAxiH_BasmIkaraNe': {
     dev: "दह् (दहँ) भस्मीकरणे भ्वादिः",
@@ -6065,9 +6065,9 @@ var root_info = {
     wx: "xAn (xAnaṁ) avaKaNdane BvAxiH"
   },
   'xASa1_xASa_svAxiH_hiMsAyAm': {
-    dev: "दाश (दाश) हिंसायाम् स्वादिः",
-    rom: "dāśa (dāśa) hiṃsāyām svādiḥ",
-    wx: "xASa (xASa) hiMsAyAm svAxiH"
+    dev: "दाश् -> दाश (दाश) हिंसायाम् स्वादिः",
+    rom: "dāś -> dāśa (dāśa) hiṃsāyām svādiḥ",
+    wx: "xAS -> xASa (xASa) hiMsAyAm svAxiH"
   },
   'xAS2_xASqz_curAxiH_xAne': {
     dev: "दाश् (दाशृँ) दाने चुरादिः",
@@ -6090,69 +6090,69 @@ var root_info = {
     wx: "xiB (xiBiṁ) kRepe curAxiH"
   },
   'xiv1_xiviz_BvAxiH_prINane': {
-    dev: "दिव् (दिविँ) प्रीणने भ्वादिः",
-    rom: "div (diviṁ) prīṇane bhvādiḥ",
-    wx: "xiv (xiviṁ) prINane BvAxiH"
+    dev: "दिन्व् -> दिव् (दिविँ) प्रीणने भ्वादिः",
+    rom: "dinv -> div (diviṁ) prīṇane bhvādiḥ",
+    wx: "xinv -> xiv (xiviṁ) prINane BvAxiH"
   },
   'xiv3_xivuz_curAxiH_arxane': {
-    dev: "दिव् (दिवुँ) अर्दने चुरादिः",
-    rom: "div (divuṁ) ardane curādiḥ",
-    wx: "xiv (xivuṁ) arxane curAxiH"
+    dev: "दिन्व् -> दिव् (दिवुँ) अर्दने चुरादिः",
+    rom: "dinv -> div (divuṁ) ardane curādiḥ",
+    wx: "xinv -> xiv (xivuṁ) arxane curAxiH"
   },
   'xiv2_xivuz_xivAxiH_kAnwO': {
-    dev: "दिव् (दिवुँ) कान्तौ दिवादिः",
-    rom: "div (divuṁ) kāntau divādiḥ",
-    wx: "xiv (xivuṁ) kAnwO xivAxiH"
+    dev: "दिन्व् -> दिव् (दिवुँ) कान्तौ दिवादिः",
+    rom: "dinv -> div (divuṁ) kāntau divādiḥ",
+    wx: "xinv -> xiv (xivuṁ) kAnwO xivAxiH"
   },
   'xiv2_xivuz_xivAxiH_krIdAyAm': {
-    dev: "दिव् (दिवुँ) क्रीडायाम् दिवादिः",
-    rom: "div (divuṁ) krīḍāyām divādiḥ",
-    wx: "xiv (xivuṁ) krIdAyAm xivAxiH"
+    dev: "दिन्व् -> दिव् (दिवुँ) क्रीडायाम् दिवादिः",
+    rom: "dinv -> div (divuṁ) krīḍāyām divādiḥ",
+    wx: "xinv -> xiv (xivuṁ) krIdAyAm xivAxiH"
   },
   'xiv2_xivuz_xivAxiH_gawO': {
-    dev: "दिव् (दिवुँ) गतौ दिवादिः",
-    rom: "div (divuṁ) gatau divādiḥ",
-    wx: "xiv (xivuṁ) gawO xivAxiH"
+    dev: "दिन्व् -> दिव् (दिवुँ) गतौ दिवादिः",
+    rom: "dinv -> div (divuṁ) gatau divādiḥ",
+    wx: "xinv -> xiv (xivuṁ) gawO xivAxiH"
   },
   'xiv2_xivuz_xivAxiH_xyuwO': {
-    dev: "दिव् (दिवुँ) द्युतौ दिवादिः",
-    rom: "div (divuṁ) dyutau divādiḥ",
-    wx: "xiv (xivuṁ) xyuwO xivAxiH"
+    dev: "दिन्व् -> दिव् (दिवुँ) द्युतौ दिवादिः",
+    rom: "dinv -> div (divuṁ) dyutau divādiḥ",
+    wx: "xinv -> xiv (xivuṁ) xyuwO xivAxiH"
   },
   'xiv3_xivuz_curAxiH_parikUjane': {
-    dev: "दिव् (दिवुँ) परिकूजने चुरादिः",
-    rom: "div (divuṁ) parikūjane curādiḥ",
-    wx: "xiv (xivuṁ) parikUjane curAxiH"
+    dev: "दिन्व् -> दिव् (दिवुँ) परिकूजने चुरादिः",
+    rom: "dinv -> div (divuṁ) parikūjane curādiḥ",
+    wx: "xinv -> xiv (xivuṁ) parikUjane curAxiH"
   },
   'xiv2_xivuz_xivAxiH_maxe': {
-    dev: "दिव् (दिवुँ) मदे दिवादिः",
-    rom: "div (divuṁ) made divādiḥ",
-    wx: "xiv (xivuṁ) maxe xivAxiH"
+    dev: "दिन्व् -> दिव् (दिवुँ) मदे दिवादिः",
+    rom: "dinv -> div (divuṁ) made divādiḥ",
+    wx: "xinv -> xiv (xivuṁ) maxe xivAxiH"
   },
   'xiv2_xivuz_xivAxiH_moxane': {
-    dev: "दिव् (दिवुँ) मोदने दिवादिः",
-    rom: "div (divuṁ) modane divādiḥ",
-    wx: "xiv (xivuṁ) moxane xivAxiH"
+    dev: "दिन्व् -> दिव् (दिवुँ) मोदने दिवादिः",
+    rom: "dinv -> div (divuṁ) modane divādiḥ",
+    wx: "xinv -> xiv (xivuṁ) moxane xivAxiH"
   },
   'xiv2_xivuz_xivAxiH_vijigIRAyAm': {
-    dev: "दिव् (दिवुँ) विजिगीषायाम् दिवादिः",
-    rom: "div (divuṁ) vijigīṣāyām divādiḥ",
-    wx: "xiv (xivuṁ) vijigIRAyAm xivAxiH"
+    dev: "दिन्व् -> दिव् (दिवुँ) विजिगीषायाम् दिवादिः",
+    rom: "dinv -> div (divuṁ) vijigīṣāyām divādiḥ",
+    wx: "xinv -> xiv (xivuṁ) vijigIRAyAm xivAxiH"
   },
   'xiv2_xivuz_xivAxiH_vyavahAre': {
-    dev: "दिव् (दिवुँ) व्यवहारे दिवादिः",
-    rom: "div (divuṁ) vyavahāre divādiḥ",
-    wx: "xiv (xivuṁ) vyavahAre xivAxiH"
+    dev: "दिन्व् -> दिव् (दिवुँ) व्यवहारे दिवादिः",
+    rom: "dinv -> div (divuṁ) vyavahāre divādiḥ",
+    wx: "xinv -> xiv (xivuṁ) vyavahAre xivAxiH"
   },
   'xiv2_xivuz_xivAxiH_swuwO': {
-    dev: "दिव् (दिवुँ) स्तुतौ दिवादिः",
-    rom: "div (divuṁ) stutau divādiḥ",
-    wx: "xiv (xivuṁ) swuwO xivAxiH"
+    dev: "दिन्व् -> दिव् (दिवुँ) स्तुतौ दिवादिः",
+    rom: "dinv -> div (divuṁ) stutau divādiḥ",
+    wx: "xinv -> xiv (xivuṁ) swuwO xivAxiH"
   },
   'xiv2_xivuz_xivAxiH_svapne': {
-    dev: "दिव् (दिवुँ) स्वप्ने दिवादिः",
-    rom: "div (divuṁ) svapne divādiḥ",
-    wx: "xiv (xivuṁ) svapne xivAxiH"
+    dev: "दिन्व् -> दिव् (दिवुँ) स्वप्ने दिवादिः",
+    rom: "dinv -> div (divuṁ) svapne divādiḥ",
+    wx: "xinv -> xiv (xivuṁ) svapne xivAxiH"
   },
   'xiS1_xiSaz_wuxAxiH_awisarjane': {
     dev: "दिश् (दिशँ) अतिसर्जने तुदादिः",
@@ -6280,9 +6280,9 @@ var root_info = {
     wx: "xq (xqf) Axare wuxAxiH"
   },
   'xqnP1_xqnPaz_wuxAxiH_uwkleSe': {
-    dev: "दृन्फ् (दृन्फँ) उत्क्लेशे तुदादिः",
-    rom: "dṛnph (dṛnphaṁ) utkleśe tudādiḥ",
-    wx: "xqnP (xqnPaṁ) uwkleSe wuxAxiH"
+    dev: "दृम्फ् -> दृन्फ् (दृन्फँ) उत्क्लेशे तुदादिः",
+    rom: "dṛmph -> dṛnph (dṛnphaṁ) utkleśe tudādiḥ",
+    wx: "xqmP -> xqnP (xqnPaṁ) uwkleSe wuxAxiH"
   },
   'xqp1_xqpaz_xivAxiH_mocane': {
     dev: "दृप् (दृपँ) मोचने दिवादिः",
@@ -6330,14 +6330,14 @@ var root_info = {
     wx: "xqS (xqSiṁr) prekRaNe BvAxiH"
   },
   'xqh1_xqhaz_BvAxiH_vqxXO': {
-    dev: "दृह् (दृहँ) वृद्धौ भ्वादिः",
-    rom: "dṛh (dṛhaṁ) vṛddhau bhvādiḥ",
-    wx: "xqh (xqhaṁ) vqxXO BvAxiH"
+    dev: "दृंह् -> दृह् (दृहँ) वृद्धौ भ्वादिः",
+    rom: "dṛṃh -> dṛh (dṛhaṁ) vṛddhau bhvādiḥ",
+    wx: "xqMh -> xqh (xqhaṁ) vqxXO BvAxiH"
   },
   'xqh2_xqhiz_BvAxiH_vqxXO': {
-    dev: "दृह् (दृहिँ) वृद्धौ भ्वादिः",
-    rom: "dṛh (dṛhiṁ) vṛddhau bhvādiḥ",
-    wx: "xqh (xqhiṁ) vqxXO BvAxiH"
+    dev: "दृंह् -> दृह् (दृहिँ) वृद्धौ भ्वादिः",
+    rom: "dṛṃh -> dṛh (dṛhiṁ) vṛddhau bhvādiḥ",
+    wx: "xqMh -> xqh (xqhiṁ) vqxXO BvAxiH"
   },
   'xQ1_xQ_BvAxiH_Baye': {
     dev: "दॄ (दॄ) भये भ्वादिः",
@@ -6395,14 +6395,14 @@ var root_info = {
     wx: "xrA (xrA) kuwsAyAM_gawO axAxiH"
   },
   'xrAkR1_xrAkRiz_BvAxiH_kAfkRAyAm': {
-    dev: "द्राक्ष् (द्राक्षिँ) काङ्क्षायाम् भ्वादिः",
-    rom: "drākṣ (drākṣiṁ) kāṅkṣāyām bhvādiḥ",
-    wx: "xrAkR (xrAkRiṁ) kAfkRAyAm BvAxiH"
+    dev: "द्राङ्क्ष् -> द्राक्ष् (द्राक्षिँ) काङ्क्षायाम् भ्वादिः",
+    rom: "drāṅkṣ -> drākṣ (drākṣiṁ) kāṅkṣāyām bhvādiḥ",
+    wx: "xrAfkR -> xrAkR (xrAkRiṁ) kAfkRAyAm BvAxiH"
   },
   'xrAkR1_xrAkRiz_BvAxiH_GoravAsiwe': {
-    dev: "द्राक्ष् (द्राक्षिँ) घोरवासिते भ्वादिः",
-    rom: "drākṣ (drākṣiṁ) ghoravāsite bhvādiḥ",
-    wx: "xrAkR (xrAkRiṁ) GoravAsiwe BvAxiH"
+    dev: "द्राङ्क्ष् -> द्राक्ष् (द्राक्षिँ) घोरवासिते भ्वादिः",
+    rom: "drāṅkṣ -> drākṣ (drākṣiṁ) ghoravāsite bhvādiḥ",
+    wx: "xrAfkR -> xrAkR (xrAkRiṁ) GoravAsiwe BvAxiH"
   },
   'xrAK1_xrAKqz_BvAxiH_alamarWe': {
     dev: "द्राख् (द्राखृँ) अलमर्थे भ्वादिः",
@@ -6520,9 +6520,9 @@ var root_info = {
     wx: "Xan (Xanaṁ) XAnye juhowyAxiH"
   },
   'Xav1_Xaviz_BvAxiH_gawO': {
-    dev: "धव् (धविँ) गतौ भ्वादिः",
-    rom: "dhav (dhaviṁ) gatau bhvādiḥ",
-    wx: "Xav (Xaviṁ) gawO BvAxiH"
+    dev: "धन्व् -> धव् (धविँ) गतौ भ्वादिः",
+    rom: "dhanv -> dhav (dhaviṁ) gatau bhvādiḥ",
+    wx: "Xanv -> Xav (Xaviṁ) gawO BvAxiH"
   },
   'XA1_duXAF_juhowyAxiH_xAne': {
     dev: "धा (डुधाञ्) दाने जुहोत्यादिः",
@@ -6580,9 +6580,9 @@ var root_info = {
     wx: "XikR (XikRaṁ) sanxIpane BvAxiH"
   },
   'Xiv1_Xiviz_BvAxiH_prINane': {
-    dev: "धिव् (धिविँ) प्रीणने भ्वादिः",
-    rom: "dhiv (dhiviṁ) prīṇane bhvādiḥ",
-    wx: "Xiv (Xiviṁ) prINane BvAxiH"
+    dev: "धिन्व् -> धिव् (धिविँ) प्रीणने भ्वादिः",
+    rom: "dhinv -> dhiv (dhiviṁ) prīṇane bhvādiḥ",
+    wx: "Xinv -> Xiv (Xiviṁ) prINane BvAxiH"
   },
   'XiR1_XiRaz_juhowyAxiH_Sabxe': {
     dev: "धिष् (धिषँ) शब्दे जुहोत्यादिः",
@@ -6700,14 +6700,14 @@ var root_info = {
     wx: "Xq (XqF) XAraNe BvAxiH"
   },
   'Xqj1_Xqjaz_BvAxiH_gawO': {
-    dev: "धृज् (धृजँ) गतौ भ्वादिः",
-    rom: "dhṛj (dhṛjaṁ) gatau bhvādiḥ",
-    wx: "Xqj (Xqjaṁ) gawO BvAxiH"
+    dev: "धृञ्ज् -> धृज् (धृजँ) गतौ भ्वादिः",
+    rom: "dhṛñj -> dhṛj (dhṛjaṁ) gatau bhvādiḥ",
+    wx: "XqFj -> Xqj (Xqjaṁ) gawO BvAxiH"
   },
   'Xqj2_Xqjiz_BvAxiH_gawO': {
-    dev: "धृज् (धृजिँ) गतौ भ्वादिः",
-    rom: "dhṛj (dhṛjiṁ) gatau bhvādiḥ",
-    wx: "Xqj (Xqjiṁ) gawO BvAxiH"
+    dev: "धृञ्ज् -> धृज् (धृजिँ) गतौ भ्वादिः",
+    rom: "dhṛñj -> dhṛj (dhṛjiṁ) gatau bhvādiḥ",
+    wx: "XqFj -> Xqj (Xqjiṁ) gawO BvAxiH"
   },
   'XqR1_FiXqRAz_svAxiH_prAgalBye': {
     dev: "धृष् (ञिधृषाँ) प्रागल्भ्ये स्वादिः",
@@ -6760,14 +6760,14 @@ var root_info = {
     wx: "XyE (XyE) cinwAyAm BvAxiH"
   },
   'Xraj1_Xrajaz_BvAxiH_gawO': {
-    dev: "ध्रज् (ध्रजँ) गतौ भ्वादिः",
-    rom: "dhraj (dhrajaṁ) gatau bhvādiḥ",
-    wx: "Xraj (Xrajaṁ) gawO BvAxiH"
+    dev: "ध्रञ्ज् -> ध्रज् (ध्रजँ) गतौ भ्वादिः",
+    rom: "dhrañj -> dhraj (dhrajaṁ) gatau bhvādiḥ",
+    wx: "XraFj -> Xraj (Xrajaṁ) gawO BvAxiH"
   },
   'Xraj2_Xrajiz_BvAxiH_gawO': {
-    dev: "ध्रज् (ध्रजिँ) गतौ भ्वादिः",
-    rom: "dhraj (dhrajiṁ) gatau bhvādiḥ",
-    wx: "Xraj (Xrajiṁ) gawO BvAxiH"
+    dev: "ध्रञ्ज् -> ध्रज् (ध्रजिँ) गतौ भ्वादिः",
+    rom: "dhrañj -> dhraj (dhrajiṁ) gatau bhvādiḥ",
+    wx: "XraFj -> Xraj (Xrajiṁ) gawO BvAxiH"
   },
   'XraN1_XraNaz_BvAxiH_Sabxe': {
     dev: "ध्रण् (ध्रणँ) शब्दे भ्वादिः",
@@ -6785,14 +6785,14 @@ var root_info = {
     wx: "Xras (uṁXrasaṁ) uFCe curAxiH"
   },
   'XrAkR1_XrAkRiz_BvAxiH_kAfkRAyAm': {
-    dev: "ध्राक्ष् (ध्राक्षिँ) काङ्क्षायाम् भ्वादिः",
-    rom: "dhrākṣ (dhrākṣiṁ) kāṅkṣāyām bhvādiḥ",
-    wx: "XrAkR (XrAkRiṁ) kAfkRAyAm BvAxiH"
+    dev: "ध्राङ्क्ष् -> ध्राक्ष् (ध्राक्षिँ) काङ्क्षायाम् भ्वादिः",
+    rom: "dhrāṅkṣ -> dhrākṣ (dhrākṣiṁ) kāṅkṣāyām bhvādiḥ",
+    wx: "XrAfkR -> XrAkR (XrAkRiṁ) kAfkRAyAm BvAxiH"
   },
   'XrAkR1_XrAkRiz_BvAxiH_GoravAsiwe': {
-    dev: "ध्राक्ष् (ध्राक्षिँ) घोरवासिते भ्वादिः",
-    rom: "dhrākṣ (dhrākṣiṁ) ghoravāsite bhvādiḥ",
-    wx: "XrAkR (XrAkRiṁ) GoravAsiwe BvAxiH"
+    dev: "ध्राङ्क्ष् -> ध्राक्ष् (ध्राक्षिँ) घोरवासिते भ्वादिः",
+    rom: "dhrāṅkṣ -> dhrākṣ (dhrākṣiṁ) ghoravāsite bhvādiḥ",
+    wx: "XrAfkR -> XrAkR (XrAkRiṁ) GoravAsiwe BvAxiH"
   },
   'XrAK1_XrAKqz_BvAxiH_alamarWe': {
     dev: "ध्राख् (ध्राखृँ) अलमर्थे भ्वादिः",
@@ -6845,14 +6845,14 @@ var root_info = {
     wx: "XrE (XrE) wqpwO BvAxiH"
   },
   'Xvaj1_Xvajaz_BvAxiH_gawO': {
-    dev: "ध्वज् (ध्वजँ) गतौ भ्वादिः",
-    rom: "dhvaj (dhvajaṁ) gatau bhvādiḥ",
-    wx: "Xvaj (Xvajaṁ) gawO BvAxiH"
+    dev: "ध्वञ्ज् -> ध्वज् (ध्वजँ) गतौ भ्वादिः",
+    rom: "dhvañj -> dhvaj (dhvajaṁ) gatau bhvādiḥ",
+    wx: "XvaFj -> Xvaj (Xvajaṁ) gawO BvAxiH"
   },
   'Xvaj2_Xvajiz_BvAxiH_gawO': {
-    dev: "ध्वज् (ध्वजिँ) गतौ भ्वादिः",
-    rom: "dhvaj (dhvajiṁ) gatau bhvādiḥ",
-    wx: "Xvaj (Xvajiṁ) gawO BvAxiH"
+    dev: "ध्वञ्ज् -> ध्वज् (ध्वजिँ) गतौ भ्वादिः",
+    rom: "dhvañj -> dhvaj (dhvajiṁ) gatau bhvādiḥ",
+    wx: "XvaFj -> Xvaj (Xvajiṁ) gawO BvAxiH"
   },
   'XvaN1_XvaNaz_BvAxiH_Sabxe': {
     dev: "ध्वण् (ध्वणँ) शब्दे भ्वादिः",
@@ -6870,29 +6870,29 @@ var root_info = {
     wx: "Xvan (Xvanaṁ) Sabxe BvAxiH"
   },
   'Xvans1_Xvansuz_BvAxiH_aXaHpawane': {
-    dev: "ध्वन्स् (ध्वन्सुँ) अधःपतने भ्वादिः",
-    rom: "dhvans (dhvansuṁ) adhaḥpatane bhvādiḥ",
-    wx: "Xvans (Xvansuṁ) aXaHpawane BvAxiH"
+    dev: "ध्वंस् -> ध्वन्स् (ध्वन्सुँ) अधःपतने भ्वादिः",
+    rom: "dhvaṃs -> dhvans (dhvansuṁ) adhaḥpatane bhvādiḥ",
+    wx: "XvaMs -> Xvans (Xvansuṁ) aXaHpawane BvAxiH"
   },
   'Xvans1_Xvansuz_BvAxiH_avasraMsane': {
-    dev: "ध्वन्स् (ध्वन्सुँ) अवस्रंसने भ्वादिः",
-    rom: "dhvans (dhvansuṁ) avasraṃsane bhvādiḥ",
-    wx: "Xvans (Xvansuṁ) avasraMsane BvAxiH"
+    dev: "ध्वंस् -> ध्वन्स् (ध्वन्सुँ) अवस्रंसने भ्वादिः",
+    rom: "dhvaṃs -> dhvans (dhvansuṁ) avasraṃsane bhvādiḥ",
+    wx: "XvaMs -> Xvans (Xvansuṁ) avasraMsane BvAxiH"
   },
   'Xvans1_Xvansuz_BvAxiH_gawO': {
-    dev: "ध्वन्स् (ध्वन्सुँ) गतौ भ्वादिः",
-    rom: "dhvans (dhvansuṁ) gatau bhvādiḥ",
-    wx: "Xvans (Xvansuṁ) gawO BvAxiH"
+    dev: "ध्वंस् -> ध्वन्स् (ध्वन्सुँ) गतौ भ्वादिः",
+    rom: "dhvaṃs -> dhvans (dhvansuṁ) gatau bhvādiḥ",
+    wx: "XvaMs -> Xvans (Xvansuṁ) gawO BvAxiH"
   },
   'XvAkR1_XvAkRiz_BvAxiH_kAfkRAyAm': {
-    dev: "ध्वाक्ष् (ध्वाक्षिँ) काङ्क्षायाम् भ्वादिः",
-    rom: "dhvākṣ (dhvākṣiṁ) kāṅkṣāyām bhvādiḥ",
-    wx: "XvAkR (XvAkRiṁ) kAfkRAyAm BvAxiH"
+    dev: "ध्वाङ्क्ष् -> ध्वाक्ष् (ध्वाक्षिँ) काङ्क्षायाम् भ्वादिः",
+    rom: "dhvāṅkṣ -> dhvākṣ (dhvākṣiṁ) kāṅkṣāyām bhvādiḥ",
+    wx: "XvAfkR -> XvAkR (XvAkRiṁ) kAfkRAyAm BvAxiH"
   },
   'XvAkR1_XvAkRiz_BvAxiH_GoravAsiwe': {
-    dev: "ध्वाक्ष् (ध्वाक्षिँ) घोरवासिते भ्वादिः",
-    rom: "dhvākṣ (dhvākṣiṁ) ghoravāsite bhvādiḥ",
-    wx: "XvAkR (XvAkRiṁ) GoravAsiwe BvAxiH"
+    dev: "ध्वाङ्क्ष् -> ध्वाक्ष् (ध्वाक्षिँ) घोरवासिते भ्वादिः",
+    rom: "dhvāṅkṣ -> dhvākṣ (dhvākṣiṁ) ghoravāsite bhvādiḥ",
+    wx: "XvAfkR -> XvAkR (XvAkRiṁ) GoravAsiwe BvAxiH"
   },
   'Xvq1_Xvq_BvAxiH_hUrcCane': {
     dev: "ध्वृ (ध्वृ) हूर्च्छने भ्वादिः",
@@ -6920,9 +6920,9 @@ var root_info = {
     wx: "nat (nataṁ) BARArWe curAxiH"
   },
   'nax1_tunaxiz_BvAxiH_samqxXO': {
-    dev: "नद् (टुनदिँ) समृद्धौ भ्वादिः",
-    rom: "nad (ṭunadiṁ) samṛddhau bhvādiḥ",
-    wx: "nax (tunaxiṁ) samqxXO BvAxiH"
+    dev: "नन्द् -> नद् (टुनदिँ) समृद्धौ भ्वादिः",
+    rom: "nand -> nad (ṭunadiṁ) samṛddhau bhvādiḥ",
+    wx: "nanx -> nax (tunaxiṁ) samqxXO BvAxiH"
   },
   'narx1_narxaz_BvAxiH_Sabxe': {
     dev: "नर्द् (नर्दँ) शब्दे भ्वादिः",
@@ -7010,19 +7010,19 @@ var root_info = {
     wx: "pakR (pakRaṁ) parigrahe BvAxiH"
   },
   'pac1_dupacazR_BvAxiH_pAke': {
-    dev: "पच् (डुपचँष्) पाके भ्वादिः",
-    rom: "pac (ḍupacaṁṣ) pāke bhvādiḥ",
-    wx: "pac (dupacaṁR) pAke BvAxiH"
+    dev: "पञ्च् -> पच् (डुपचँष्) पाके भ्वादिः",
+    rom: "pañc -> pac (ḍupacaṁṣ) pāke bhvādiḥ",
+    wx: "paFc -> pac (dupacaṁR) pAke BvAxiH"
   },
   'pac3_paciz_curAxiH_viswAre': {
-    dev: "पच् (पचिँ) विस्तारे चुरादिः",
-    rom: "pac (paciṁ) vistāre curādiḥ",
-    wx: "pac (paciṁ) viswAre curAxiH"
+    dev: "पञ्च् -> पच् (पचिँ) विस्तारे चुरादिः",
+    rom: "pañc -> pac (paciṁ) vistāre curādiḥ",
+    wx: "paFc -> pac (paciṁ) viswAre curAxiH"
   },
   'pac2_paciz_BvAxiH_vyakwIkaraNe': {
-    dev: "पच् (पचिँ) व्यक्तीकरणे भ्वादिः",
-    rom: "pac (paciṁ) vyaktīkaraṇe bhvādiḥ",
-    wx: "pac (paciṁ) vyakwIkaraNe BvAxiH"
+    dev: "पञ्च् -> पच् (पचिँ) व्यक्तीकरणे भ्वादिः",
+    rom: "pañc -> pac (paciṁ) vyaktīkaraṇe bhvādiḥ",
+    wx: "paFc -> pac (paciṁ) vyakwIkaraNe BvAxiH"
   },
   'pata1_pata_curAxiH_granWe': {
     dev: "पट (पट) ग्रन्थे चुरादिः",
@@ -7030,19 +7030,19 @@ var root_info = {
     wx: "pata (pata) granWe curAxiH"
   },
   'pat1_pataz_BvAxiH_gawO': {
-    dev: "पट् (पटँ) गतौ भ्वादिः",
-    rom: "paṭ (paṭaṁ) gatau bhvādiḥ",
-    wx: "pat (pataṁ) gawO BvAxiH"
+    dev: "पट -> पट् (पटँ) गतौ भ्वादिः",
+    rom: "paṭa -> paṭ (paṭaṁ) gatau bhvādiḥ",
+    wx: "pata -> pat (pataṁ) gawO BvAxiH"
   },
   'pat2_pataz_curAxiH_BARArWe': {
-    dev: "पट् (पटँ) भाषार्थे चुरादिः",
-    rom: "paṭ (paṭaṁ) bhāṣārthe curādiḥ",
-    wx: "pat (pataṁ) BARArWe curAxiH"
+    dev: "पट -> पट् (पटँ) भाषार्थे चुरादिः",
+    rom: "paṭa -> paṭ (paṭaṁ) bhāṣārthe curādiḥ",
+    wx: "pata -> pat (pataṁ) BARArWe curAxiH"
   },
   'pat2_pataz_curAxiH_BAsArWe': {
-    dev: "पट् (पटँ) भासार्थे चुरादिः",
-    rom: "paṭ (paṭaṁ) bhāsārthe curādiḥ",
-    wx: "pat (pataṁ) BAsArWe curAxiH"
+    dev: "पट -> पट् (पटँ) भासार्थे चुरादिः",
+    rom: "paṭa -> paṭ (paṭaṁ) bhāsārthe curādiḥ",
+    wx: "pata -> pat (pataṁ) BAsArWe curAxiH"
   },
   'paT1_paTaz_BvAxiH_vyakwAyAM_vAci': {
     dev: "पठ् (पठँ) व्यक्तायां_वाचि भ्वादिः",
@@ -7050,14 +7050,14 @@ var root_info = {
     wx: "paT (paTaṁ) vyakwAyAM_vAci BvAxiH"
   },
   'pad1_padiz_BvAxiH_gawO': {
-    dev: "पड् (पडिँ) गतौ भ्वादिः",
-    rom: "paḍ (paḍiṁ) gatau bhvādiḥ",
-    wx: "pad (padiṁ) gawO BvAxiH"
+    dev: "पण्ड् -> पड् (पडिँ) गतौ भ्वादिः",
+    rom: "paṇḍ -> paḍ (paḍiṁ) gatau bhvādiḥ",
+    wx: "paNd -> pad (padiṁ) gawO BvAxiH"
   },
   'pad2_padiz_curAxiH_nASane': {
-    dev: "पड् (पडिँ) नाशने चुरादिः",
-    rom: "paḍ (paḍiṁ) nāśane curādiḥ",
-    wx: "pad (padiṁ) nASane curAxiH"
+    dev: "पण्ड् -> पड् (पडिँ) नाशने चुरादिः",
+    rom: "paṇḍ -> paḍ (paḍiṁ) nāśane curādiḥ",
+    wx: "paNd -> pad (padiṁ) nASane curAxiH"
   },
   'paN1_paNaz_BvAxiH_vyavahAre': {
     dev: "पण् (पणँ) व्यवहारे भ्वादिः",
@@ -7080,19 +7080,19 @@ var root_info = {
     wx: "paw (pawLṁ) gawO BvAxiH"
   },
   'paW2_paWiz_curAxiH_gawO': {
-    dev: "पथ् (पथिँ) गतौ चुरादिः",
-    rom: "path (pathiṁ) gatau curādiḥ",
-    wx: "paW (paWiṁ) gawO curAxiH"
+    dev: "पन्थ् -> पथ् (पथिँ) गतौ चुरादिः",
+    rom: "panth -> path (pathiṁ) gatau curādiḥ",
+    wx: "panW -> paW (paWiṁ) gawO curAxiH"
   },
   'paW1_paWez_BvAxiH_gawO': {
-    dev: "पथ् (पथेँ) गतौ भ्वादिः",
-    rom: "path (patheṁ) gatau bhvādiḥ",
-    wx: "paW (paWeṁ) gawO BvAxiH"
+    dev: "पन्थ् -> पथ् (पथेँ) गतौ भ्वादिः",
+    rom: "panth -> path (patheṁ) gatau bhvādiḥ",
+    wx: "panW -> paW (paWeṁ) gawO BvAxiH"
   },
   'paxa1_paxa_curAxiH_gawO': {
-    dev: "पद (पद) गतौ चुरादिः",
-    rom: "pada (pada) gatau curādiḥ",
-    wx: "paxa (paxa) gawO curAxiH"
+    dev: "पद् -> पद (पद) गतौ चुरादिः",
+    rom: "pad -> pada (pada) gatau curādiḥ",
+    wx: "pax -> paxa (paxa) gawO curAxiH"
   },
   'pax1_paxaz_xivAxiH_gawO': {
     dev: "पद् (पदँ) गतौ दिवादिः",
@@ -7140,19 +7140,19 @@ var root_info = {
     wx: "parb (parbaṁ) gawO BvAxiH"
   },
   'parv1_parvaz_BvAxiH_gawO': {
-    dev: "पर्व् (पर्वँ) गतौ भ्वादिः",
-    rom: "parv (parvaṁ) gatau bhvādiḥ",
-    wx: "parv (parvaṁ) gawO BvAxiH"
+    dev: "पर्व -> पर्व् (पर्वँ) गतौ भ्वादिः",
+    rom: "parva -> parv (parvaṁ) gatau bhvādiḥ",
+    wx: "parva -> parv (parvaṁ) gawO BvAxiH"
   },
   'parv1_parvaz_BvAxiH_pUraNe': {
-    dev: "पर्व् (पर्वँ) पूरणे भ्वादिः",
-    rom: "parv (parvaṁ) pūraṇe bhvādiḥ",
-    wx: "parv (parvaṁ) pUraNe BvAxiH"
+    dev: "पर्व -> पर्व् (पर्वँ) पूरणे भ्वादिः",
+    rom: "parva -> parv (parvaṁ) pūraṇe bhvādiḥ",
+    wx: "parva -> parv (parvaṁ) pUraNe BvAxiH"
   },
   'parv1_parvaz_BvAxiH_pUrwO': {
-    dev: "पर्व् (पर्वँ) पूर्तौ भ्वादिः",
-    rom: "parv (parvaṁ) pūrtau bhvādiḥ",
-    wx: "parv (parvaṁ) pUrwO BvAxiH"
+    dev: "पर्व -> पर्व् (पर्वँ) पूर्तौ भ्वादिः",
+    rom: "parva -> parv (parvaṁ) pūrtau bhvādiḥ",
+    wx: "parva -> parv (parvaṁ) pUrwO BvAxiH"
   },
   'parR1_parRaz_BvAxiH_snehane': {
     dev: "पर्ष् (पर्षँ) स्नेहने भ्वादिः",
@@ -7225,9 +7225,9 @@ var root_info = {
     wx: "pi (pi) gawO wuxAxiH"
   },
   'picc1_piccaz_curAxiH_kuttane': {
-    dev: "पिच्च् (पिच्चँ) कुट्टने चुरादिः",
-    rom: "picc (piccaṁ) kuṭṭane curādiḥ",
-    wx: "picc (piccaṁ) kuttane curAxiH"
+    dev: "पिछ् -> पिच्च् (पिच्चँ) कुट्टने चुरादिः",
+    rom: "pich -> picc (piccaṁ) kuṭṭane curādiḥ",
+    wx: "piC -> picc (piccaṁ) kuttane curAxiH"
   },
   'piC1_piCaz_curAxiH_kuttane': {
     dev: "पिछ् (पिछँ) कुट्टने चुरादिः",
@@ -7235,34 +7235,34 @@ var root_info = {
     wx: "piC (piCaṁ) kuttane curAxiH"
   },
   'pij2_pijiz_curAxiH_nikewane': {
-    dev: "पिज् (पिजिँ) निकेतने चुरादिः",
-    rom: "pij (pijiṁ) niketane curādiḥ",
-    wx: "pij (pijiṁ) nikewane curAxiH"
+    dev: "पिन् -> पिज् (पिजिँ) निकेतने चुरादिः",
+    rom: "pin -> pij (pijiṁ) niketane curādiḥ",
+    wx: "pin -> pij (pijiṁ) nikewane curAxiH"
   },
   'pij2_pijiz_curAxiH_balAxAne': {
-    dev: "पिज् (पिजिँ) बलादाने चुरादिः",
-    rom: "pij (pijiṁ) balādāne curādiḥ",
-    wx: "pij (pijiṁ) balAxAne curAxiH"
+    dev: "पिन् -> पिज् (पिजिँ) बलादाने चुरादिः",
+    rom: "pin -> pij (pijiṁ) balādāne curādiḥ",
+    wx: "pin -> pij (pijiṁ) balAxAne curAxiH"
   },
   'pij2_pijiz_curAxiH_BARArWe': {
-    dev: "पिज् (पिजिँ) भाषार्थे चुरादिः",
-    rom: "pij (pijiṁ) bhāṣārthe curādiḥ",
-    wx: "pij (pijiṁ) BARArWe curAxiH"
+    dev: "पिन् -> पिज् (पिजिँ) भाषार्थे चुरादिः",
+    rom: "pin -> pij (pijiṁ) bhāṣārthe curādiḥ",
+    wx: "pin -> pij (pijiṁ) BARArWe curAxiH"
   },
   'pij2_pijiz_curAxiH_BAsArWe': {
-    dev: "पिज् (पिजिँ) भासार्थे चुरादिः",
-    rom: "pij (pijiṁ) bhāsārthe curādiḥ",
-    wx: "pij (pijiṁ) BAsArWe curAxiH"
+    dev: "पिन् -> पिज् (पिजिँ) भासार्थे चुरादिः",
+    rom: "pin -> pij (pijiṁ) bhāsārthe curādiḥ",
+    wx: "pin -> pij (pijiṁ) BAsArWe curAxiH"
   },
   'pij1_pijiz_axAxiH_varNe': {
-    dev: "पिज् (पिजिँ) वर्णे अदादिः",
-    rom: "pij (pijiṁ) varṇe adādiḥ",
-    wx: "pij (pijiṁ) varNe axAxiH"
+    dev: "पिन् -> पिज् (पिजिँ) वर्णे अदादिः",
+    rom: "pin -> pij (pijiṁ) varṇe adādiḥ",
+    wx: "pin -> pij (pijiṁ) varNe axAxiH"
   },
   'pij2_pijiz_curAxiH_hiMsAyAm': {
-    dev: "पिज् (पिजिँ) हिंसायाम् चुरादिः",
-    rom: "pij (pijiṁ) hiṃsāyām curādiḥ",
-    wx: "pij (pijiṁ) hiMsAyAm curAxiH"
+    dev: "पिन् -> पिज् (पिजिँ) हिंसायाम् चुरादिः",
+    rom: "pin -> pij (pijiṁ) hiṃsāyām curādiḥ",
+    wx: "pin -> pij (pijiṁ) hiMsAyAm curAxiH"
   },
   'pit1_pitaz_BvAxiH_Sabxe': {
     dev: "पिट् (पिटँ) शब्दे भ्वादिः",
@@ -7285,14 +7285,14 @@ var root_info = {
     wx: "piT (piTaṁ) hiMsAyAm BvAxiH"
   },
   'pid2_pidiz_curAxiH_safGAwe': {
-    dev: "पिड् (पिडिँ) सङ्घाते चुरादिः",
-    rom: "piḍ (piḍiṁ) saṅghāte curādiḥ",
-    wx: "pid (pidiṁ) safGAwe curAxiH"
+    dev: "पिण्ड् -> पिड् (पिडिँ) सङ्घाते चुरादिः",
+    rom: "piṇḍ -> piḍ (piḍiṁ) saṅghāte curādiḥ",
+    wx: "piNd -> pid (pidiṁ) safGAwe curAxiH"
   },
   'pid1_pidiz_BvAxiH_safGAwe': {
-    dev: "पिड् (पिडिँ) सङ्घाते भ्वादिः",
-    rom: "piḍ (piḍiṁ) saṅghāte bhvādiḥ",
-    wx: "pid (pidiṁ) safGAwe BvAxiH"
+    dev: "पिण्ड् -> पिड् (पिडिँ) सङ्घाते भ्वादिः",
+    rom: "piṇḍ -> piḍ (piḍiṁ) saṅghāte bhvādiḥ",
+    wx: "piNd -> pid (pidiṁ) safGAwe BvAxiH"
   },
   'pil1_pilaz_curAxiH_kRepe': {
     dev: "पिल् (पिलँ) क्षेपे चुरादिः",
@@ -7300,19 +7300,19 @@ var root_info = {
     wx: "pil (pilaṁ) kRepe curAxiH"
   },
   'piv1_piviz_BvAxiH_secane': {
-    dev: "पिव् (पिविँ) सेचने भ्वादिः",
-    rom: "piv (piviṁ) secane bhvādiḥ",
-    wx: "piv (piviṁ) secane BvAxiH"
+    dev: "पिन्व् -> पिव् (पिविँ) सेचने भ्वादिः",
+    rom: "pinv -> piv (piviṁ) secane bhvādiḥ",
+    wx: "pinv -> piv (piviṁ) secane BvAxiH"
   },
   'piv1_piviz_BvAxiH_sevane': {
-    dev: "पिव् (पिविँ) सेवने भ्वादिः",
-    rom: "piv (piviṁ) sevane bhvādiḥ",
-    wx: "piv (piviṁ) sevane BvAxiH"
+    dev: "पिन्व् -> पिव् (पिविँ) सेवने भ्वादिः",
+    rom: "pinv -> piv (piviṁ) sevane bhvādiḥ",
+    wx: "pinv -> piv (piviṁ) sevane BvAxiH"
   },
   'piv1_piviz_BvAxiH_sraMsane': {
-    dev: "पिव् (पिविँ) स्रंसने भ्वादिः",
-    rom: "piv (piviṁ) sraṃsane bhvādiḥ",
-    wx: "piv (piviṁ) sraMsane BvAxiH"
+    dev: "पिन्व् -> पिव् (पिविँ) स्रंसने भ्वादिः",
+    rom: "pinv -> piv (piviṁ) sraṃsane bhvādiḥ",
+    wx: "pinv -> piv (piviṁ) sraMsane BvAxiH"
   },
   'piS1_piSaz_wuxAxiH_avayave': {
     dev: "पिश् (पिशँ) अवयवे तुदादिः",
@@ -7325,19 +7325,19 @@ var root_info = {
     wx: "piR (piRLṁ) saFcUrNane ruXAxiH"
   },
   'pis2_pisaz_curAxiH_gawO': {
-    dev: "पिस् (पिसँ) गतौ चुरादिः",
-    rom: "pis (pisaṁ) gatau curādiḥ",
-    wx: "pis (pisaṁ) gawO curAxiH"
+    dev: "पिंस् -> पिस् (पिसँ) गतौ चुरादिः",
+    rom: "piṃs -> pis (pisaṁ) gatau curādiḥ",
+    wx: "piMs -> pis (pisaṁ) gawO curAxiH"
   },
   'pis3_pisiz_curAxiH_BARArWe': {
-    dev: "पिस् (पिसिँ) भाषार्थे चुरादिः",
-    rom: "pis (pisiṁ) bhāṣārthe curādiḥ",
-    wx: "pis (pisiṁ) BARArWe curAxiH"
+    dev: "पिंस् -> पिस् (पिसिँ) भाषार्थे चुरादिः",
+    rom: "piṃs -> pis (pisiṁ) bhāṣārthe curādiḥ",
+    wx: "piMs -> pis (pisiṁ) BARArWe curAxiH"
   },
   'pis1_pisqz_BvAxiH_gawO': {
-    dev: "पिस् (पिसृँ) गतौ भ्वादिः",
-    rom: "pis (pisṛṁ) gatau bhvādiḥ",
-    wx: "pis (pisqṁ) gawO BvAxiH"
+    dev: "पिंस् -> पिस् (पिसृँ) गतौ भ्वादिः",
+    rom: "piṃs -> pis (pisṛṁ) gatau bhvādiḥ",
+    wx: "piMs -> pis (pisqṁ) gawO BvAxiH"
   },
   'pI1_pIf_xivAxiH_pAne': {
     dev: "पी (पीङ्) पाने दिवादिः",
@@ -7380,39 +7380,39 @@ var root_info = {
     wx: "puta (puta) saMsarge curAxiH"
   },
   'put2_putaz_curAxiH_BARArWe': {
-    dev: "पुट् (पुटँ) भाषार्थे चुरादिः",
-    rom: "puṭ (puṭaṁ) bhāṣārthe curādiḥ",
-    wx: "put (putaṁ) BARArWe curAxiH"
+    dev: "पुण्ट् -> पुट् (पुटँ) भाषार्थे चुरादिः",
+    rom: "puṇṭ -> puṭ (puṭaṁ) bhāṣārthe curādiḥ",
+    wx: "puNt -> put (putaṁ) BARArWe curAxiH"
   },
   'put2_putaz_curAxiH_BAsArWe': {
-    dev: "पुट् (पुटँ) भासार्थे चुरादिः",
-    rom: "puṭ (puṭaṁ) bhāsārthe curādiḥ",
-    wx: "put (putaṁ) BAsArWe curAxiH"
+    dev: "पुण्ट् -> पुट् (पुटँ) भासार्थे चुरादिः",
+    rom: "puṇṭ -> puṭ (puṭaṁ) bhāsārthe curādiḥ",
+    wx: "puNt -> put (putaṁ) BAsArWe curAxiH"
   },
   'put1_putaz_wuxAxiH_saMSleRaNe': {
-    dev: "पुट् (पुटँ) संश्लेषणे तुदादिः",
-    rom: "puṭ (puṭaṁ) saṃśleṣaṇe tudādiḥ",
-    wx: "put (putaṁ) saMSleRaNe wuxAxiH"
+    dev: "पुण्ट् -> पुट् (पुटँ) संश्लेषणे तुदादिः",
+    rom: "puṇṭ -> puṭ (puṭaṁ) saṃśleṣaṇe tudādiḥ",
+    wx: "puNt -> put (putaṁ) saMSleRaNe wuxAxiH"
   },
   'put2_putaz_curAxiH_saFcUrNane': {
-    dev: "पुट् (पुटँ) सञ्चूर्णने चुरादिः",
-    rom: "puṭ (puṭaṁ) sañcūrṇane curādiḥ",
-    wx: "put (putaṁ) saFcUrNane curAxiH"
+    dev: "पुण्ट् -> पुट् (पुटँ) सञ्चूर्णने चुरादिः",
+    rom: "puṇṭ -> puṭ (puṭaṁ) sañcūrṇane curādiḥ",
+    wx: "puNt -> put (putaṁ) saFcUrNane curAxiH"
   },
   'put3_putiz_curAxiH_BARArWe': {
-    dev: "पुट् (पुटिँ) भाषार्थे चुरादिः",
-    rom: "puṭ (puṭiṁ) bhāṣārthe curādiḥ",
-    wx: "put (putiṁ) BARArWe curAxiH"
+    dev: "पुण्ट् -> पुट् (पुटिँ) भाषार्थे चुरादिः",
+    rom: "puṇṭ -> puṭ (puṭiṁ) bhāṣārthe curādiḥ",
+    wx: "puNt -> put (putiṁ) BARArWe curAxiH"
   },
   'pud2_pudaz_wuxAxiH_uwsarge': {
-    dev: "पुड् (पुडँ) उत्सर्गे तुदादिः",
-    rom: "puḍ (puḍaṁ) utsarge tudādiḥ",
-    wx: "pud (pudaṁ) uwsarge wuxAxiH"
+    dev: "पुण्ड् -> पुड् (पुडँ) उत्सर्गे तुदादिः",
+    rom: "puṇḍ -> puḍ (puḍaṁ) utsarge tudādiḥ",
+    wx: "puNd -> pud (pudaṁ) uwsarge wuxAxiH"
   },
   'pud1_pudiz_BvAxiH_KaNdane': {
-    dev: "पुड् (पुडिँ) खण्डने भ्वादिः",
-    rom: "puḍ (puḍiṁ) khaṇḍane bhvādiḥ",
-    wx: "pud (pudiṁ) KaNdane BvAxiH"
+    dev: "पुण्ड् -> पुड् (पुडिँ) खण्डने भ्वादिः",
+    rom: "puṇḍ -> puḍ (puḍiṁ) khaṇḍane bhvādiḥ",
+    wx: "puNd -> pud (pudiṁ) KaNdane BvAxiH"
   },
   'puN1_puNaz_wuxAxiH_karmaNi_SuBe': {
     dev: "पुण् (पुणँ) कर्मणि_शुभे तुदादिः",
@@ -7425,39 +7425,39 @@ var root_info = {
     wx: "puN (puNaṁ) kOtilye wuxAxiH"
   },
   'puwt1_puwtaz_curAxiH_alpIBAve': {
-    dev: "पुत्ट् (पुत्टँ) अल्पीभावे चुरादिः",
-    rom: "putṭ (putṭaṁ) alpībhāve curādiḥ",
-    wx: "puwt (puwtaṁ) alpIBAve curAxiH"
+    dev: "पुट्ट् -> पुत्ट् (पुत्टँ) अल्पीभावे चुरादिः",
+    rom: "puṭṭ -> putṭ (putṭaṁ) alpībhāve curādiḥ",
+    wx: "putt -> puwt (puwtaṁ) alpIBAve curAxiH"
   },
   'puW4_puWaz_curAxiH_BARArWe': {
-    dev: "पुथ् (पुथँ) भाषार्थे चुरादिः",
-    rom: "puth (puthaṁ) bhāṣārthe curādiḥ",
-    wx: "puW (puWaṁ) BARArWe curAxiH"
+    dev: "पुन्थ् -> पुथ् (पुथँ) भाषार्थे चुरादिः",
+    rom: "punth -> puth (puthaṁ) bhāṣārthe curādiḥ",
+    wx: "punW -> puW (puWaṁ) BARArWe curAxiH"
   },
   'puW4_puWaz_curAxiH_BAsArWe': {
-    dev: "पुथ् (पुथँ) भासार्थे चुरादिः",
-    rom: "puth (puthaṁ) bhāsārthe curādiḥ",
-    wx: "puW (puWaṁ) BAsArWe curAxiH"
+    dev: "पुन्थ् -> पुथ् (पुथँ) भासार्थे चुरादिः",
+    rom: "punth -> puth (puthaṁ) bhāsārthe curādiḥ",
+    wx: "punW -> puW (puWaṁ) BAsArWe curAxiH"
   },
   'puW3_puWaz_xivAxiH_hiMsAyAm': {
-    dev: "पुथ् (पुथँ) हिंसायाम् दिवादिः",
-    rom: "puth (puthaṁ) hiṃsāyām divādiḥ",
-    wx: "puW (puWaṁ) hiMsAyAm xivAxiH"
+    dev: "पुन्थ् -> पुथ् (पुथँ) हिंसायाम् दिवादिः",
+    rom: "punth -> puth (puthaṁ) hiṃsāyām divādiḥ",
+    wx: "punW -> puW (puWaṁ) hiMsAyAm xivAxiH"
   },
   'puW2_puWiz_BvAxiH_safkleSane': {
-    dev: "पुथ् (पुथिँ) सङ्क्लेशने भ्वादिः",
-    rom: "puth (puthiṁ) saṅkleśane bhvādiḥ",
-    wx: "puW (puWiṁ) safkleSane BvAxiH"
+    dev: "पुन्थ् -> पुथ् (पुथिँ) सङ्क्लेशने भ्वादिः",
+    rom: "punth -> puth (puthiṁ) saṅkleśane bhvādiḥ",
+    wx: "punW -> puW (puWiṁ) safkleSane BvAxiH"
   },
   'puW2_puWiz_BvAxiH_hiMsAyAm': {
-    dev: "पुथ् (पुथिँ) हिंसायाम् भ्वादिः",
-    rom: "puth (puthiṁ) hiṃsāyām bhvādiḥ",
-    wx: "puW (puWiṁ) hiMsAyAm BvAxiH"
+    dev: "पुन्थ् -> पुथ् (पुथिँ) हिंसायाम् भ्वादिः",
+    rom: "punth -> puth (puthiṁ) hiṃsāyām bhvādiḥ",
+    wx: "punW -> puW (puWiṁ) hiMsAyAm BvAxiH"
   },
   'puW1_puWez_BvAxiH_gawO': {
-    dev: "पुथ् (पुथेँ) गतौ भ्वादिः",
-    rom: "puth (putheṁ) gatau bhvādiḥ",
-    wx: "puW (puWeṁ) gawO BvAxiH"
+    dev: "पुन्थ् -> पुथ् (पुथेँ) गतौ भ्वादिः",
+    rom: "punth -> puth (putheṁ) gatau bhvādiḥ",
+    wx: "punW -> puW (puWeṁ) gawO BvAxiH"
   },
   'pur1_puraz_wuxAxiH_agragamane': {
     dev: "पुर् (पुरँ) अग्रगमने तुदादिः",
@@ -8055,14 +8055,14 @@ var root_info = {
     wx: "basw (baswaṁ) arxane curAxiH"
   },
   'bah2_bahiz_curAxiH_BAsArWe': {
-    dev: "बह् (बहिँ) भासार्थे चुरादिः",
-    rom: "bah (bahiṁ) bhāsārthe curādiḥ",
-    wx: "bah (bahiṁ) BAsArWe curAxiH"
+    dev: "बंह् -> बह् (बहिँ) भासार्थे चुरादिः",
+    rom: "baṃh -> bah (bahiṁ) bhāsārthe curādiḥ",
+    wx: "baMh -> bah (bahiṁ) BAsArWe curAxiH"
   },
   'bah1_bahiz_BvAxiH_vqxXO': {
-    dev: "बह् (बहिँ) वृद्धौ भ्वादिः",
-    rom: "bah (bahiṁ) vṛddhau bhvādiḥ",
-    wx: "bah (bahiṁ) vqxXO BvAxiH"
+    dev: "बंह् -> बह् (बहिँ) वृद्धौ भ्वादिः",
+    rom: "baṃh -> bah (bahiṁ) vṛddhau bhvādiḥ",
+    wx: "baMh -> bah (bahiṁ) vqxXO BvAxiH"
   },
   'bAX1_bAXqz_BvAxiH_rotane': {
     dev: "बाध् (बाधृँ) रोटने भ्वादिः",
@@ -8090,9 +8090,9 @@ var root_info = {
     wx: "bid (bidaṁ) AkroSe BvAxiH"
   },
   'bix1_bixiz_BvAxiH_avayave': {
-    dev: "बिद् (बिदिँ) अवयवे भ्वादिः",
-    rom: "bid (bidiṁ) avayave bhvādiḥ",
-    wx: "bix (bixiṁ) avayave BvAxiH"
+    dev: "बिन्द् -> बिद् (बिदिँ) अवयवे भ्वादिः",
+    rom: "bind -> bid (bidiṁ) avayave bhvādiḥ",
+    wx: "binx -> bix (bixiṁ) avayave BvAxiH"
   },
   'bil2_bilaz_curAxiH_Bexane': {
     dev: "बिल् (बिलँ) भेदने चुरादिः",
@@ -8170,24 +8170,24 @@ var root_info = {
     wx: "busw (buswaṁ) Axare curAxiH"
   },
   'bqh1_bqhaz_BvAxiH_vqxXO': {
-    dev: "बृह् (बृहँ) वृद्धौ भ्वादिः",
-    rom: "bṛh (bṛhaṁ) vṛddhau bhvādiḥ",
-    wx: "bqh (bqhaṁ) vqxXO BvAxiH"
+    dev: "बृंह् -> बृह् (बृहँ) वृद्धौ भ्वादिः",
+    rom: "bṛṃh -> bṛh (bṛhaṁ) vṛddhau bhvādiḥ",
+    wx: "bqMh -> bqh (bqhaṁ) vqxXO BvAxiH"
   },
   'bqh2_bqhiz_BvAxiH_vqxXO': {
-    dev: "बृह् (बृहिँ) वृद्धौ भ्वादिः",
-    rom: "bṛh (bṛhiṁ) vṛddhau bhvādiḥ",
-    wx: "bqh (bqhiṁ) vqxXO BvAxiH"
+    dev: "बृंह् -> बृह् (बृहिँ) वृद्धौ भ्वादिः",
+    rom: "bṛṃh -> bṛh (bṛhiṁ) vṛddhau bhvādiḥ",
+    wx: "bqMh -> bqh (bqhiṁ) vqxXO BvAxiH"
   },
   'bqh2_bqhiz_BvAxiH_Sabxe': {
-    dev: "बृह् (बृहिँ) शब्दे भ्वादिः",
-    rom: "bṛh (bṛhiṁ) śabde bhvādiḥ",
-    wx: "bqh (bqhiṁ) Sabxe BvAxiH"
+    dev: "बृंह् -> बृह् (बृहिँ) शब्दे भ्वादिः",
+    rom: "bṛṃh -> bṛh (bṛhiṁ) śabde bhvādiḥ",
+    wx: "bqMh -> bqh (bqhiṁ) Sabxe BvAxiH"
   },
   'bqh3_bqhuz_wuxAxiH_uxyamane': {
-    dev: "बृह् (बृहुँ) उद्यमने तुदादिः",
-    rom: "bṛh (bṛhuṁ) udyamane tudādiḥ",
-    wx: "bqh (bqhuṁ) uxyamane wuxAxiH"
+    dev: "बृंह् -> बृह् (बृहुँ) उद्यमने तुदादिः",
+    rom: "bṛṃh -> bṛh (bṛhuṁ) udyamane tudādiḥ",
+    wx: "bqMh -> bqh (bqhuṁ) uxyamane wuxAxiH"
   },
   'brIs1_brIsaz_curAxiH_hiMsAyAm': {
     dev: "ब्रीस् (ब्रीसँ) हिंसायाम् चुरादिः",
@@ -8225,19 +8225,19 @@ var root_info = {
     wx: "BakR (BakRaṁ) BakRaNe BvAxiH"
   },
   'Baj2_Bajaz_curAxiH_viSrANane': {
-    dev: "भज् (भजँ) विश्राणने चुरादिः",
-    rom: "bhaj (bhajaṁ) viśrāṇane curādiḥ",
-    wx: "Baj (Bajaṁ) viSrANane curAxiH"
+    dev: "भञ्ज् -> भज् (भजँ) विश्राणने चुरादिः",
+    rom: "bhañj -> bhaj (bhajaṁ) viśrāṇane curādiḥ",
+    wx: "BaFj -> Baj (Bajaṁ) viSrANane curAxiH"
   },
   'Baj1_Bajaz_BvAxiH_sevAyAm': {
-    dev: "भज् (भजँ) सेवायाम् भ्वादिः",
-    rom: "bhaj (bhajaṁ) sevāyām bhvādiḥ",
-    wx: "Baj (Bajaṁ) sevAyAm BvAxiH"
+    dev: "भञ्ज् -> भज् (भजँ) सेवायाम् भ्वादिः",
+    rom: "bhañj -> bhaj (bhajaṁ) sevāyām bhvādiḥ",
+    wx: "BaFj -> Baj (Bajaṁ) sevAyAm BvAxiH"
   },
   'Baj3_Bajiz_curAxiH_BARArWe': {
-    dev: "भज् (भजिँ) भाषार्थे चुरादिः",
-    rom: "bhaj (bhajiṁ) bhāṣārthe curādiḥ",
-    wx: "Baj (Bajiṁ) BARArWe curAxiH"
+    dev: "भञ्ज् -> भज् (भजिँ) भाषार्थे चुरादिः",
+    rom: "bhañj -> bhaj (bhajiṁ) bhāṣārthe curādiḥ",
+    wx: "BaFj -> Baj (Bajiṁ) BARArWe curAxiH"
   },
   'Bat1_Bataz_BvAxiH_pariBARaNe': {
     dev: "भट् (भटँ) परिभाषणे भ्वादिः",
@@ -8250,19 +8250,19 @@ var root_info = {
     wx: "Bat (Bataṁ) BqwO BvAxiH"
   },
   'Bad2_Badiz_curAxiH_kalyANe': {
-    dev: "भड् (भडिँ) कल्याणे चुरादिः",
-    rom: "bhaḍ (bhaḍiṁ) kalyāṇe curādiḥ",
-    wx: "Bad (Badiṁ) kalyANe curAxiH"
+    dev: "भण्ड् -> भड् (भडिँ) कल्याणे चुरादिः",
+    rom: "bhaṇḍ -> bhaḍ (bhaḍiṁ) kalyāṇe curādiḥ",
+    wx: "BaNd -> Bad (Badiṁ) kalyANe curAxiH"
   },
   'Bad1_Badiz_BvAxiH_pariBARaNe': {
-    dev: "भड् (भडिँ) परिभाषणे भ्वादिः",
-    rom: "bhaḍ (bhaḍiṁ) paribhāṣaṇe bhvādiḥ",
-    wx: "Bad (Badiṁ) pariBARaNe BvAxiH"
+    dev: "भण्ड् -> भड् (भडिँ) परिभाषणे भ्वादिः",
+    rom: "bhaṇḍ -> bhaḍ (bhaḍiṁ) paribhāṣaṇe bhvādiḥ",
+    wx: "BaNd -> Bad (Badiṁ) pariBARaNe BvAxiH"
   },
   'Bad1_Badiz_BvAxiH_parihAse': {
-    dev: "भड् (भडिँ) परिहासे भ्वादिः",
-    rom: "bhaḍ (bhaḍiṁ) parihāse bhvādiḥ",
-    wx: "Bad (Badiṁ) parihAse BvAxiH"
+    dev: "भण्ड् -> भड् (भडिँ) परिहासे भ्वादिः",
+    rom: "bhaṇḍ -> bhaḍ (bhaḍiṁ) parihāse bhvādiḥ",
+    wx: "BaNd -> Bad (Badiṁ) parihAse BvAxiH"
   },
   'BaN1_BaNaz_BvAxiH_Sabxe': {
     dev: "भण् (भणँ) शब्दे भ्वादिः",
@@ -8280,9 +8280,9 @@ var root_info = {
     wx: "Bax (Baxiṁ) suKe BvAxiH"
   },
   'Banj1_Banjoz_ruXAxiH_Amarxane': {
-    dev: "भन्ज् (भन्जोँ) आमर्दने रुधादिः",
-    rom: "bhanj (bhanjoṁ) āmardane rudhādiḥ",
-    wx: "Banj (Banjoṁ) Amarxane ruXAxiH"
+    dev: "भञ्ज् -> भन्ज् (भन्जोँ) आमर्दने रुधादिः",
+    rom: "bhañj -> bhanj (bhanjoṁ) āmardane rudhādiḥ",
+    wx: "BaFj -> Banj (Banjoṁ) Amarxane ruXAxiH"
   },
   'Barws1_Barwsaz_curAxiH_sanwarjane': {
     dev: "भर्त्स् (भर्त्सँ) सन्तर्जने चुरादिः",
@@ -8475,24 +8475,24 @@ var root_info = {
     wx: "Bqj (BqjIṁ) Barjane BvAxiH"
   },
   'BqS2_BqSiz_curAxiH_BARArWe': {
-    dev: "भृश् (भृशिँ) भाषार्थे चुरादिः",
-    rom: "bhṛś (bhṛśiṁ) bhāṣārthe curādiḥ",
-    wx: "BqS (BqSiṁ) BARArWe curAxiH"
+    dev: "भृंश् -> भृश् (भृशिँ) भाषार्थे चुरादिः",
+    rom: "bhṛṃś -> bhṛś (bhṛśiṁ) bhāṣārthe curādiḥ",
+    wx: "BqMS -> BqS (BqSiṁ) BARArWe curAxiH"
   },
   'BqS1_BqSuz_xivAxiH_aXaHpawane': {
-    dev: "भृश् (भृशुँ) अधःपतने दिवादिः",
-    rom: "bhṛś (bhṛśuṁ) adhaḥpatane divādiḥ",
-    wx: "BqS (BqSuṁ) aXaHpawane xivAxiH"
+    dev: "भृंश् -> भृश् (भृशुँ) अधःपतने दिवादिः",
+    rom: "bhṛṃś -> bhṛś (bhṛśuṁ) adhaḥpatane divādiḥ",
+    wx: "BqMS -> BqS (BqSuṁ) aXaHpawane xivAxiH"
   },
   'BqR1_BqRuz_BvAxiH_safGAwe': {
-    dev: "भृष् (भृषुँ) सङ्घाते भ्वादिः",
-    rom: "bhṛṣ (bhṛṣuṁ) saṅghāte bhvādiḥ",
-    wx: "BqR (BqRuṁ) safGAwe BvAxiH"
+    dev: "भृश् -> भृष् (भृषुँ) सङ्घाते भ्वादिः",
+    rom: "bhṛś -> bhṛṣ (bhṛṣuṁ) saṅghāte bhvādiḥ",
+    wx: "BqS -> BqR (BqRuṁ) safGAwe BvAxiH"
   },
   'BqR1_BqRuz_BvAxiH_hiMsAyAm': {
-    dev: "भृष् (भृषुँ) हिंसायाम् भ्वादिः",
-    rom: "bhṛṣ (bhṛṣuṁ) hiṃsāyām bhvādiḥ",
-    wx: "BqR (BqRuṁ) hiMsAyAm BvAxiH"
+    dev: "भृश् -> भृष् (भृषुँ) हिंसायाम् भ्वादिः",
+    rom: "bhṛś -> bhṛṣ (bhṛṣuṁ) hiṃsāyām bhvādiḥ",
+    wx: "BqS -> BqR (BqRuṁ) hiMsAyAm BvAxiH"
   },
   'BQ1_BQ_kryAxiH_BaraNe': {
     dev: "भॄ (भॄ) भरणे क्र्यादिः",
@@ -8530,24 +8530,24 @@ var root_info = {
     wx: "BraN (BraNaṁ) Sabxe BvAxiH"
   },
   'BranS2_BranSuz_xivAxiH_aXaHpawane': {
-    dev: "भ्रन्श् (भ्रन्शुँ) अधःपतने दिवादिः",
-    rom: "bhranś (bhranśuṁ) adhaḥpatane divādiḥ",
-    wx: "BranS (BranSuṁ) aXaHpawane xivAxiH"
+    dev: "भ्रंश् -> भ्रन्श् (भ्रन्शुँ) अधःपतने दिवादिः",
+    rom: "bhraṃś -> bhranś (bhranśuṁ) adhaḥpatane divādiḥ",
+    wx: "BraMS -> BranS (BranSuṁ) aXaHpawane xivAxiH"
   },
   'BranS1_BranSuz_BvAxiH_aXaHpawane': {
-    dev: "भ्रन्श् (भ्रन्शुँ) अधःपतने भ्वादिः",
-    rom: "bhranś (bhranśuṁ) adhaḥpatane bhvādiḥ",
-    wx: "BranS (BranSuṁ) aXaHpawane BvAxiH"
+    dev: "भ्रंश् -> भ्रन्श् (भ्रन्शुँ) अधःपतने भ्वादिः",
+    rom: "bhraṃś -> bhranś (bhranśuṁ) adhaḥpatane bhvādiḥ",
+    wx: "BraMS -> BranS (BranSuṁ) aXaHpawane BvAxiH"
   },
   'BranS1_BranSuz_BvAxiH_avasraMsane': {
-    dev: "भ्रन्श् (भ्रन्शुँ) अवस्रंसने भ्वादिः",
-    rom: "bhranś (bhranśuṁ) avasraṃsane bhvādiḥ",
-    wx: "BranS (BranSuṁ) avasraMsane BvAxiH"
+    dev: "भ्रंश् -> भ्रन्श् (भ्रन्शुँ) अवस्रंसने भ्वादिः",
+    rom: "bhraṃś -> bhranś (bhranśuṁ) avasraṃsane bhvādiḥ",
+    wx: "BraMS -> BranS (BranSuṁ) avasraMsane BvAxiH"
   },
   'Brans1_Bransuz_BvAxiH_avasraMsane': {
-    dev: "भ्रन्स् (भ्रन्सुँ) अवस्रंसने भ्वादिः",
-    rom: "bhrans (bhransuṁ) avasraṃsane bhvādiḥ",
-    wx: "Brans (Bransuṁ) avasraMsane BvAxiH"
+    dev: "भ्रंस् -> भ्रन्स् (भ्रन्सुँ) अवस्रंसने भ्वादिः",
+    rom: "bhraṃs -> bhrans (bhransuṁ) avasraṃsane bhvādiḥ",
+    wx: "BraMs -> Brans (Bransuṁ) avasraMsane BvAxiH"
   },
   'Bram2_Bramuz_xivAxiH_anavasWAne': {
     dev: "भ्रम् (भ्रमुँ) अनवस्थाने दिवादिः",
@@ -8635,9 +8635,9 @@ var root_info = {
     wx: "BleR (BleRqṁ) calane BvAxiH"
   },
   'mak1_makiz_BvAxiH_maNdane': {
-    dev: "मक् (मकिँ) मण्डने भ्वादिः",
-    rom: "mak (makiṁ) maṇḍane bhvādiḥ",
-    wx: "mak (makiṁ) maNdane BvAxiH"
+    dev: "मङ्क् -> मक् (मकिँ) मण्डने भ्वादिः",
+    rom: "maṅk -> mak (makiṁ) maṇḍane bhvādiḥ",
+    wx: "mafk -> mak (makiṁ) maNdane BvAxiH"
   },
   'makR1_makRaz_BvAxiH_roRe': {
     dev: "मक्ष् (मक्षँ) रोषे भ्वादिः",
@@ -8645,14 +8645,14 @@ var root_info = {
     wx: "makR (makRaṁ) roRe BvAxiH"
   },
   'maK1_maKaz_BvAxiH_gawO': {
-    dev: "मख् (मखँ) गतौ भ्वादिः",
-    rom: "makh (makhaṁ) gatau bhvādiḥ",
-    wx: "maK (maKaṁ) gawO BvAxiH"
+    dev: "मङ्ख् -> मख् (मखँ) गतौ भ्वादिः",
+    rom: "maṅkh -> makh (makhaṁ) gatau bhvādiḥ",
+    wx: "mafK -> maK (maKaṁ) gawO BvAxiH"
   },
   'maK2_maKiz_BvAxiH_gawO': {
-    dev: "मख् (मखिँ) गतौ भ्वादिः",
-    rom: "makh (makhiṁ) gatau bhvādiḥ",
-    wx: "maK (maKiṁ) gawO BvAxiH"
+    dev: "मङ्ख् -> मख् (मखिँ) गतौ भ्वादिः",
+    rom: "maṅkh -> makh (makhiṁ) gatau bhvādiḥ",
+    wx: "mafK -> maK (maKiṁ) gawO BvAxiH"
   },
   'mag1_magiz_BvAxiH_gawO': {
     dev: "मग् (मगिँ) गतौ भ्वादिः",
@@ -8660,39 +8660,39 @@ var root_info = {
     wx: "mag (magiṁ) gawO BvAxiH"
   },
   'maG1_maGiz_BvAxiH_kEwave': {
-    dev: "मघ् (मघिँ) कैतवे भ्वादिः",
-    rom: "magh (maghiṁ) kaitave bhvādiḥ",
-    wx: "maG (maGiṁ) kEwave BvAxiH"
+    dev: "मङ्घ् -> मघ् (मघिँ) कैतवे भ्वादिः",
+    rom: "maṅgh -> magh (maghiṁ) kaitave bhvādiḥ",
+    wx: "mafG -> maG (maGiṁ) kEwave BvAxiH"
   },
   'maG1_maGiz_BvAxiH_gawyAkRepe': {
-    dev: "मघ् (मघिँ) गत्याक्षेपे भ्वादिः",
-    rom: "magh (maghiṁ) gatyākṣepe bhvādiḥ",
-    wx: "maG (maGiṁ) gawyAkRepe BvAxiH"
+    dev: "मङ्घ् -> मघ् (मघिँ) गत्याक्षेपे भ्वादिः",
+    rom: "maṅgh -> magh (maghiṁ) gatyākṣepe bhvādiḥ",
+    wx: "mafG -> maG (maGiṁ) gawyAkRepe BvAxiH"
   },
   'maG2_maGiz_BvAxiH_maNdane': {
-    dev: "मघ् (मघिँ) मण्डने भ्वादिः",
-    rom: "magh (maghiṁ) maṇḍane bhvādiḥ",
-    wx: "maG (maGiṁ) maNdane BvAxiH"
+    dev: "मङ्घ् -> मघ् (मघिँ) मण्डने भ्वादिः",
+    rom: "maṅgh -> magh (maghiṁ) maṇḍane bhvādiḥ",
+    wx: "mafG -> maG (maGiṁ) maNdane BvAxiH"
   },
   'mac1_macaz_BvAxiH_kalkane': {
-    dev: "मच् (मचँ) कल्कने भ्वादिः",
-    rom: "mac (macaṁ) kalkane bhvādiḥ",
-    wx: "mac (macaṁ) kalkane BvAxiH"
+    dev: "मञ्च् -> मच् (मचँ) कल्कने भ्वादिः",
+    rom: "mañc -> mac (macaṁ) kalkane bhvādiḥ",
+    wx: "maFc -> mac (macaṁ) kalkane BvAxiH"
   },
   'mac2_maciz_BvAxiH_ucCrAye': {
-    dev: "मच् (मचिँ) उच्छ्राये भ्वादिः",
-    rom: "mac (maciṁ) ucchrāye bhvādiḥ",
-    wx: "mac (maciṁ) ucCrAye BvAxiH"
+    dev: "मञ्च् -> मच् (मचिँ) उच्छ्राये भ्वादिः",
+    rom: "mañc -> mac (maciṁ) ucchrāye bhvādiḥ",
+    wx: "maFc -> mac (maciṁ) ucCrAye BvAxiH"
   },
   'mac2_maciz_BvAxiH_XAraNe': {
-    dev: "मच् (मचिँ) धारणे भ्वादिः",
-    rom: "mac (maciṁ) dhāraṇe bhvādiḥ",
-    wx: "mac (maciṁ) XAraNe BvAxiH"
+    dev: "मञ्च् -> मच् (मचिँ) धारणे भ्वादिः",
+    rom: "mañc -> mac (maciṁ) dhāraṇe bhvādiḥ",
+    wx: "maFc -> mac (maciṁ) XAraNe BvAxiH"
   },
   'mac2_maciz_BvAxiH_pUjane': {
-    dev: "मच् (मचिँ) पूजने भ्वादिः",
-    rom: "mac (maciṁ) pūjane bhvādiḥ",
-    wx: "mac (maciṁ) pUjane BvAxiH"
+    dev: "मञ्च् -> मच् (मचिँ) पूजने भ्वादिः",
+    rom: "mañc -> mac (maciṁ) pūjane bhvādiḥ",
+    wx: "maFc -> mac (maciṁ) pUjane BvAxiH"
   },
   'maj1_majaz_BvAxiH_Sabxe': {
     dev: "मज् (मजँ) शब्दे भ्वादिः",
@@ -8700,44 +8700,44 @@ var root_info = {
     wx: "maj (majaṁ) Sabxe BvAxiH"
   },
   'maT1_maTaz_BvAxiH_nivAse': {
-    dev: "मठ् (मठँ) निवासे भ्वादिः",
-    rom: "maṭh (maṭhaṁ) nivāse bhvādiḥ",
-    wx: "maT (maTaṁ) nivAse BvAxiH"
+    dev: "मण्ठ् -> मठ् (मठँ) निवासे भ्वादिः",
+    rom: "maṇṭh -> maṭh (maṭhaṁ) nivāse bhvādiḥ",
+    wx: "maNT -> maT (maTaṁ) nivAse BvAxiH"
   },
   'maT1_maTaz_BvAxiH_maxe': {
-    dev: "मठ् (मठँ) मदे भ्वादिः",
-    rom: "maṭh (maṭhaṁ) made bhvādiḥ",
-    wx: "maT (maTaṁ) maxe BvAxiH"
+    dev: "मण्ठ् -> मठ् (मठँ) मदे भ्वादिः",
+    rom: "maṇṭh -> maṭh (maṭhaṁ) made bhvādiḥ",
+    wx: "maNT -> maT (maTaṁ) maxe BvAxiH"
   },
   'maT2_maTiz_BvAxiH_Soke': {
-    dev: "मठ् (मठिँ) शोके भ्वादिः",
-    rom: "maṭh (maṭhiṁ) śoke bhvādiḥ",
-    wx: "maT (maTiṁ) Soke BvAxiH"
+    dev: "मण्ठ् -> मठ् (मठिँ) शोके भ्वादिः",
+    rom: "maṇṭh -> maṭh (maṭhiṁ) śoke bhvādiḥ",
+    wx: "maNT -> maT (maTiṁ) Soke BvAxiH"
   },
   'mad3_madiz_curAxiH_BURAyAm': {
-    dev: "मड् (मडिँ) भूषायाम् चुरादिः",
-    rom: "maḍ (maḍiṁ) bhūṣāyām curādiḥ",
-    wx: "mad (madiṁ) BURAyAm curAxiH"
+    dev: "मण्ड् -> मड् (मडिँ) भूषायाम् चुरादिः",
+    rom: "maṇḍ -> maḍ (maḍiṁ) bhūṣāyām curādiḥ",
+    wx: "maNd -> mad (madiṁ) BURAyAm curAxiH"
   },
   'mad1_madiz_BvAxiH_BURAyAm': {
-    dev: "मड् (मडिँ) भूषायाम् भ्वादिः",
-    rom: "maḍ (maḍiṁ) bhūṣāyām bhvādiḥ",
-    wx: "mad (madiṁ) BURAyAm BvAxiH"
+    dev: "मण्ड् -> मड् (मडिँ) भूषायाम् भ्वादिः",
+    rom: "maṇḍ -> maḍ (maḍiṁ) bhūṣāyām bhvādiḥ",
+    wx: "maNd -> mad (madiṁ) BURAyAm BvAxiH"
   },
   'mad2_madiz_BvAxiH_viBAjane': {
-    dev: "मड् (मडिँ) विभाजने भ्वादिः",
-    rom: "maḍ (maḍiṁ) vibhājane bhvādiḥ",
-    wx: "mad (madiṁ) viBAjane BvAxiH"
+    dev: "मण्ड् -> मड् (मडिँ) विभाजने भ्वादिः",
+    rom: "maṇḍ -> maḍ (maḍiṁ) vibhājane bhvādiḥ",
+    wx: "maNd -> mad (madiṁ) viBAjane BvAxiH"
   },
   'mad2_madiz_BvAxiH_veRtane': {
-    dev: "मड् (मडिँ) वेष्टने भ्वादिः",
-    rom: "maḍ (maḍiṁ) veṣṭane bhvādiḥ",
-    wx: "mad (madiṁ) veRtane BvAxiH"
+    dev: "मण्ड् -> मड् (मडिँ) वेष्टने भ्वादिः",
+    rom: "maṇḍ -> maḍ (maḍiṁ) veṣṭane bhvādiḥ",
+    wx: "maNd -> mad (madiṁ) veRtane BvAxiH"
   },
   'mad3_madiz_curAxiH_harRe': {
-    dev: "मड् (मडिँ) हर्षे चुरादिः",
-    rom: "maḍ (maḍiṁ) harṣe curādiḥ",
-    wx: "mad (madiṁ) harRe curAxiH"
+    dev: "मण्ड् -> मड् (मडिँ) हर्षे चुरादिः",
+    rom: "maṇḍ -> maḍ (maḍiṁ) harṣe curādiḥ",
+    wx: "maNd -> mad (madiṁ) harRe curAxiH"
   },
   'maN1_maNaz_BvAxiH_Sabxe': {
     dev: "मण् (मणँ) शब्दे भ्वादिः",
@@ -8745,64 +8745,64 @@ var root_info = {
     wx: "maN (maNaṁ) Sabxe BvAxiH"
   },
   'mawr1_mawriz_curAxiH_gupwaBARaNe': {
-    dev: "मत्र् (मत्रिँ) गुप्तभाषणे चुरादिः",
-    rom: "matr (matriṁ) guptabhāṣaṇe curādiḥ",
-    wx: "mawr (mawriṁ) gupwaBARaNe curAxiH"
+    dev: "मन्त्र् -> मत्र् (मत्रिँ) गुप्तभाषणे चुरादिः",
+    rom: "mantr -> matr (matriṁ) guptabhāṣaṇe curādiḥ",
+    wx: "manwr -> mawr (mawriṁ) gupwaBARaNe curAxiH"
   },
   'maW2_maWiz_BvAxiH_safkleSane': {
-    dev: "मथ् (मथिँ) सङ्क्लेशने भ्वादिः",
-    rom: "math (mathiṁ) saṅkleśane bhvādiḥ",
-    wx: "maW (maWiṁ) safkleSane BvAxiH"
+    dev: "मन्थ् -> मथ् (मथिँ) सङ्क्लेशने भ्वादिः",
+    rom: "manth -> math (mathiṁ) saṅkleśane bhvādiḥ",
+    wx: "manW -> maW (maWiṁ) safkleSane BvAxiH"
   },
   'maW2_maWiz_BvAxiH_hiMsAyAm': {
-    dev: "मथ् (मथिँ) हिंसायाम् भ्वादिः",
-    rom: "math (mathiṁ) hiṃsāyām bhvādiḥ",
-    wx: "maW (maWiṁ) hiMsAyAm BvAxiH"
+    dev: "मन्थ् -> मथ् (मथिँ) हिंसायाम् भ्वादिः",
+    rom: "manth -> math (mathiṁ) hiṃsāyām bhvādiḥ",
+    wx: "manW -> maW (maWiṁ) hiMsAyAm BvAxiH"
   },
   'maW1_maWez_BvAxiH_vilodane': {
-    dev: "मथ् (मथेँ) विलोडने भ्वादिः",
-    rom: "math (matheṁ) viloḍane bhvādiḥ",
-    wx: "maW (maWeṁ) vilodane BvAxiH"
+    dev: "मन्थ् -> मथ् (मथेँ) विलोडने भ्वादिः",
+    rom: "manth -> math (matheṁ) viloḍane bhvādiḥ",
+    wx: "manW -> maW (maWeṁ) vilodane BvAxiH"
   },
   'max3_maxaz_curAxiH_wqpwiyoge': {
-    dev: "मद् (मदँ) तृप्तियोगे चुरादिः",
-    rom: "mad (madaṁ) tṛptiyoge curādiḥ",
-    wx: "max (maxaṁ) wqpwiyoge curAxiH"
+    dev: "मन्द् -> मद् (मदँ) तृप्तियोगे चुरादिः",
+    rom: "mand -> mad (madaṁ) tṛptiyoge curādiḥ",
+    wx: "manx -> max (maxaṁ) wqpwiyoge curAxiH"
   },
   'max1_maxiz_BvAxiH_kAnwO': {
-    dev: "मद् (मदिँ) कान्तौ भ्वादिः",
-    rom: "mad (madiṁ) kāntau bhvādiḥ",
-    wx: "max (maxiṁ) kAnwO BvAxiH"
+    dev: "मन्द् -> मद् (मदिँ) कान्तौ भ्वादिः",
+    rom: "mand -> mad (madiṁ) kāntau bhvādiḥ",
+    wx: "manx -> max (maxiṁ) kAnwO BvAxiH"
   },
   'max1_maxiz_BvAxiH_gawO': {
-    dev: "मद् (मदिँ) गतौ भ्वादिः",
-    rom: "mad (madiṁ) gatau bhvādiḥ",
-    wx: "max (maxiṁ) gawO BvAxiH"
+    dev: "मन्द् -> मद् (मदिँ) गतौ भ्वादिः",
+    rom: "mand -> mad (madiṁ) gatau bhvādiḥ",
+    wx: "manx -> max (maxiṁ) gawO BvAxiH"
   },
   'max1_maxiz_BvAxiH_maxe': {
-    dev: "मद् (मदिँ) मदे भ्वादिः",
-    rom: "mad (madiṁ) made bhvādiḥ",
-    wx: "max (maxiṁ) maxe BvAxiH"
+    dev: "मन्द् -> मद् (मदिँ) मदे भ्वादिः",
+    rom: "mand -> mad (madiṁ) made bhvādiḥ",
+    wx: "manx -> max (maxiṁ) maxe BvAxiH"
   },
   'max1_maxiz_BvAxiH_moxane': {
-    dev: "मद् (मदिँ) मोदने भ्वादिः",
-    rom: "mad (madiṁ) modane bhvādiḥ",
-    wx: "max (maxiṁ) moxane BvAxiH"
+    dev: "मन्द् -> मद् (मदिँ) मोदने भ्वादिः",
+    rom: "mand -> mad (madiṁ) modane bhvādiḥ",
+    wx: "manx -> max (maxiṁ) moxane BvAxiH"
   },
   'max1_maxiz_BvAxiH_swuwO': {
-    dev: "मद् (मदिँ) स्तुतौ भ्वादिः",
-    rom: "mad (madiṁ) stutau bhvādiḥ",
-    wx: "max (maxiṁ) swuwO BvAxiH"
+    dev: "मन्द् -> मद् (मदिँ) स्तुतौ भ्वादिः",
+    rom: "mand -> mad (madiṁ) stutau bhvādiḥ",
+    wx: "manx -> max (maxiṁ) swuwO BvAxiH"
   },
   'max1_maxiz_BvAxiH_svapne': {
-    dev: "मद् (मदिँ) स्वप्ने भ्वादिः",
-    rom: "mad (madiṁ) svapne bhvādiḥ",
-    wx: "max (maxiṁ) svapne BvAxiH"
+    dev: "मन्द् -> मद् (मदिँ) स्वप्ने भ्वादिः",
+    rom: "mand -> mad (madiṁ) svapne bhvādiḥ",
+    wx: "manx -> max (maxiṁ) svapne BvAxiH"
   },
   'max2_maxIz_xivAxiH_harRe': {
-    dev: "मद् (मदीँ) हर्षे दिवादिः",
-    rom: "mad (madīṁ) harṣe divādiḥ",
-    wx: "max (maxIṁ) harRe xivAxiH"
+    dev: "मन्द् -> मद् (मदीँ) हर्षे दिवादिः",
+    rom: "mand -> mad (madīṁ) harṣe divādiḥ",
+    wx: "manx -> max (maxIṁ) harRe xivAxiH"
   },
   'man1_manaz_xivAxiH_jFAne': {
     dev: "मन् (मनँ) ज्ञाने दिवादिः",
@@ -8940,24 +8940,24 @@ var root_info = {
     wx: "maha (maha) pUjAyAm curAxiH"
   },
   'mah1_mahaz_BvAxiH_pUjAyAm': {
-    dev: "मह् (महँ) पूजायाम् भ्वादिः",
-    rom: "mah (mahaṁ) pūjāyām bhvādiḥ",
-    wx: "mah (mahaṁ) pUjAyAm BvAxiH"
+    dev: "मंह् -> मह् (महँ) पूजायाम् भ्वादिः",
+    rom: "maṃh -> mah (mahaṁ) pūjāyām bhvādiḥ",
+    wx: "maMh -> mah (mahaṁ) pUjAyAm BvAxiH"
   },
   'mah3_mahiz_curAxiH_BARArWe': {
-    dev: "मह् (महिँ) भाषार्थे चुरादिः",
-    rom: "mah (mahiṁ) bhāṣārthe curādiḥ",
-    wx: "mah (mahiṁ) BARArWe curAxiH"
+    dev: "मंह् -> मह् (महिँ) भाषार्थे चुरादिः",
+    rom: "maṃh -> mah (mahiṁ) bhāṣārthe curādiḥ",
+    wx: "maMh -> mah (mahiṁ) BARArWe curAxiH"
   },
   'mah3_mahiz_curAxiH_BAsArWe': {
-    dev: "मह् (महिँ) भासार्थे चुरादिः",
-    rom: "mah (mahiṁ) bhāsārthe curādiḥ",
-    wx: "mah (mahiṁ) BAsArWe curAxiH"
+    dev: "मंह् -> मह् (महिँ) भासार्थे चुरादिः",
+    rom: "maṃh -> mah (mahiṁ) bhāsārthe curādiḥ",
+    wx: "maMh -> mah (mahiṁ) BAsArWe curAxiH"
   },
   'mah2_mahiz_BvAxiH_vqxXO': {
-    dev: "मह् (महिँ) वृद्धौ भ्वादिः",
-    rom: "mah (mahiṁ) vṛddhau bhvādiḥ",
-    wx: "mah (mahiṁ) vqxXO BvAxiH"
+    dev: "मंह् -> मह् (महिँ) वृद्धौ भ्वादिः",
+    rom: "maṃh -> mah (mahiṁ) vṛddhau bhvādiḥ",
+    wx: "maMh -> mah (mahiṁ) vqxXO BvAxiH"
   },
   'mA1_mA_axAxiH_mAne': {
     dev: "मा (मा) माने अदादिः",
@@ -9025,9 +9025,9 @@ var root_info = {
     wx: "miC (miCaṁ) uwkleSe wuxAxiH"
   },
   'mij1_mijiz_curAxiH_BARArWe': {
-    dev: "मिज् (मिजिँ) भाषार्थे चुरादिः",
-    rom: "mij (mijiṁ) bhāṣārthe curādiḥ",
-    wx: "mij (mijiṁ) BARArWe curAxiH"
+    dev: "मिञ्ज् -> मिज् (मिजिँ) भाषार्थे चुरादिः",
+    rom: "miñj -> mij (mijiṁ) bhāṣārthe curādiḥ",
+    wx: "miFj -> mij (mijiṁ) BARArWe curAxiH"
   },
   'miW1_miWqz_BvAxiH_meXAyAm': {
     dev: "मिथ् (मिथृँ) मेधायाम् भ्वादिः",
@@ -9040,29 +9040,29 @@ var root_info = {
     wx: "miW (miWqṁ) hiMsAyAm BvAxiH"
   },
   'mix3_FimixAz_xivAxiH_snehane': {
-    dev: "मिद् (ञिमिदाँ) स्नेहने दिवादिः",
-    rom: "mid (ñimidāṁ) snehane divādiḥ",
-    wx: "mix (FimixAṁ) snehane xivAxiH"
+    dev: "मिन्द् -> मिद् (ञिमिदाँ) स्नेहने दिवादिः",
+    rom: "mind -> mid (ñimidāṁ) snehane divādiḥ",
+    wx: "minx -> mix (FimixAṁ) snehane xivAxiH"
   },
   'mix2_FimixAz_BvAxiH_snehane': {
-    dev: "मिद् (ञिमिदाँ) स्नेहने भ्वादिः",
-    rom: "mid (ñimidāṁ) snehane bhvādiḥ",
-    wx: "mix (FimixAṁ) snehane BvAxiH"
+    dev: "मिन्द् -> मिद् (ञिमिदाँ) स्नेहने भ्वादिः",
+    rom: "mind -> mid (ñimidāṁ) snehane bhvādiḥ",
+    wx: "minx -> mix (FimixAṁ) snehane BvAxiH"
   },
   'mix4_mixiz_curAxiH_snehane': {
-    dev: "मिद् (मिदिँ) स्नेहने चुरादिः",
-    rom: "mid (midiṁ) snehane curādiḥ",
-    wx: "mix (mixiṁ) snehane curAxiH"
+    dev: "मिन्द् -> मिद् (मिदिँ) स्नेहने चुरादिः",
+    rom: "mind -> mid (midiṁ) snehane curādiḥ",
+    wx: "minx -> mix (mixiṁ) snehane curAxiH"
   },
   'mix1_mixqz_BvAxiH_meXAyAm': {
-    dev: "मिद् (मिदृँ) मेधायाम् भ्वादिः",
-    rom: "mid (midṛṁ) medhāyām bhvādiḥ",
-    wx: "mix (mixqṁ) meXAyAm BvAxiH"
+    dev: "मिन्द् -> मिद् (मिदृँ) मेधायाम् भ्वादिः",
+    rom: "mind -> mid (midṛṁ) medhāyām bhvādiḥ",
+    wx: "minx -> mix (mixqṁ) meXAyAm BvAxiH"
   },
   'mix1_mixqz_BvAxiH_hiMsAyAm': {
-    dev: "मिद् (मिदृँ) हिंसायाम् भ्वादिः",
-    rom: "mid (midṛṁ) hiṃsāyām bhvādiḥ",
-    wx: "mix (mixqṁ) hiMsAyAm BvAxiH"
+    dev: "मिन्द् -> मिद् (मिदृँ) हिंसायाम् भ्वादिः",
+    rom: "mind -> mid (midṛṁ) hiṃsāyām bhvādiḥ",
+    wx: "minx -> mix (mixqṁ) hiMsAyAm BvAxiH"
   },
   'mil1_milaz_wuxAxiH_SleRaNe': {
     dev: "मिल् (मिलँ) श्लेषणे तुदादिः",
@@ -9075,19 +9075,19 @@ var root_info = {
     wx: "mil (milaṁ) safgame wuxAxiH"
   },
   'miv1_miviz_BvAxiH_secane': {
-    dev: "मिव् (मिविँ) सेचने भ्वादिः",
-    rom: "miv (miviṁ) secane bhvādiḥ",
-    wx: "miv (miviṁ) secane BvAxiH"
+    dev: "मिन्व् -> मिव् (मिविँ) सेचने भ्वादिः",
+    rom: "minv -> miv (miviṁ) secane bhvādiḥ",
+    wx: "minv -> miv (miviṁ) secane BvAxiH"
   },
   'miv1_miviz_BvAxiH_sevane': {
-    dev: "मिव् (मिविँ) सेवने भ्वादिः",
-    rom: "miv (miviṁ) sevane bhvādiḥ",
-    wx: "miv (miviṁ) sevane BvAxiH"
+    dev: "मिन्व् -> मिव् (मिविँ) सेवने भ्वादिः",
+    rom: "minv -> miv (miviṁ) sevane bhvādiḥ",
+    wx: "minv -> miv (miviṁ) sevane BvAxiH"
   },
   'miv1_miviz_BvAxiH_sraMsane': {
-    dev: "मिव् (मिविँ) स्रंसने भ्वादिः",
-    rom: "miv (miviṁ) sraṃsane bhvādiḥ",
-    wx: "miv (miviṁ) sraMsane BvAxiH"
+    dev: "मिन्व् -> मिव् (मिविँ) स्रंसने भ्वादिः",
+    rom: "minv -> miv (miviṁ) sraṃsane bhvādiḥ",
+    wx: "minv -> miv (miviṁ) sraMsane BvAxiH"
   },
   'miS1_miSaz_BvAxiH_roRe': {
     dev: "मिश् (मिशँ) रोषे भ्वादिः",
@@ -9175,34 +9175,34 @@ var root_info = {
     wx: "mIv (mIvaṁ) sWOlye BvAxiH"
   },
   'muc3_mucaz_curAxiH_pramocane': {
-    dev: "मुच् (मुचँ) प्रमोचने चुरादिः",
-    rom: "muc (mucaṁ) pramocane curādiḥ",
-    wx: "muc (mucaṁ) pramocane curAxiH"
+    dev: "मुञ्च् -> मुच् (मुचँ) प्रमोचने चुरादिः",
+    rom: "muñc -> muc (mucaṁ) pramocane curādiḥ",
+    wx: "muFc -> muc (mucaṁ) pramocane curAxiH"
   },
   'muc3_mucaz_curAxiH_moxane': {
-    dev: "मुच् (मुचँ) मोदने चुरादिः",
-    rom: "muc (mucaṁ) modane curādiḥ",
-    wx: "muc (mucaṁ) moxane curAxiH"
+    dev: "मुञ्च् -> मुच् (मुचँ) मोदने चुरादिः",
+    rom: "muñc -> muc (mucaṁ) modane curādiḥ",
+    wx: "muFc -> muc (mucaṁ) moxane curAxiH"
   },
   'muc1_muciz_BvAxiH_kalkane': {
-    dev: "मुच् (मुचिँ) कल्कने भ्वादिः",
-    rom: "muc (muciṁ) kalkane bhvādiḥ",
-    wx: "muc (muciṁ) kalkane BvAxiH"
+    dev: "मुञ्च् -> मुच् (मुचिँ) कल्कने भ्वादिः",
+    rom: "muñc -> muc (muciṁ) kalkane bhvādiḥ",
+    wx: "muFc -> muc (muciṁ) kalkane BvAxiH"
   },
   'muc2_mucLz_wuxAxiH_mokRaNe': {
-    dev: "मुच् (मुचॢँ) मोक्षणे तुदादिः",
-    rom: "muc (mucḷṁ) mokṣaṇe tudādiḥ",
-    wx: "muc (mucLṁ) mokRaNe wuxAxiH"
+    dev: "मुञ्च् -> मुच् (मुचॢँ) मोक्षणे तुदादिः",
+    rom: "muñc -> muc (mucḷṁ) mokṣaṇe tudādiḥ",
+    wx: "muFc -> muc (mucLṁ) mokRaNe wuxAxiH"
   },
   'muj1_mujaz_BvAxiH_Sabxe': {
-    dev: "मुज् (मुजँ) शब्दे भ्वादिः",
-    rom: "muj (mujaṁ) śabde bhvādiḥ",
-    wx: "muj (mujaṁ) Sabxe BvAxiH"
+    dev: "मुञ्ज् -> मुज् (मुजँ) शब्दे भ्वादिः",
+    rom: "muñj -> muj (mujaṁ) śabde bhvādiḥ",
+    wx: "muFj -> muj (mujaṁ) Sabxe BvAxiH"
   },
   'muj2_mujiz_BvAxiH_Sabxe': {
-    dev: "मुज् (मुजिँ) शब्दे भ्वादिः",
-    rom: "muj (mujiṁ) śabde bhvādiḥ",
-    wx: "muj (mujiṁ) Sabxe BvAxiH"
+    dev: "मुञ्ज् -> मुज् (मुजिँ) शब्दे भ्वादिः",
+    rom: "muñj -> muj (mujiṁ) śabde bhvādiḥ",
+    wx: "muFj -> muj (mujiṁ) Sabxe BvAxiH"
   },
   'mut2_mutaz_wuxAxiH_AkRepe': {
     dev: "मुट् (मुटँ) आक्षेपे तुदादिः",
@@ -9225,34 +9225,34 @@ var root_info = {
     wx: "mut (mutaṁ) saFcUrNane curAxiH"
   },
   'muT1_muTiz_BvAxiH_palAyane': {
-    dev: "मुठ् (मुठिँ) पलायने भ्वादिः",
-    rom: "muṭh (muṭhiṁ) palāyane bhvādiḥ",
-    wx: "muT (muTiṁ) palAyane BvAxiH"
+    dev: "मुण्ठ् -> मुठ् (मुठिँ) पलायने भ्वादिः",
+    rom: "muṇṭh -> muṭh (muṭhiṁ) palāyane bhvādiḥ",
+    wx: "muNT -> muT (muTiṁ) palAyane BvAxiH"
   },
   'muT1_muTiz_BvAxiH_pAlane': {
-    dev: "मुठ् (मुठिँ) पालने भ्वादिः",
-    rom: "muṭh (muṭhiṁ) pālane bhvādiḥ",
-    wx: "muT (muTiṁ) pAlane BvAxiH"
+    dev: "मुण्ठ् -> मुठ् (मुठिँ) पालने भ्वादिः",
+    rom: "muṇṭh -> muṭh (muṭhiṁ) pālane bhvādiḥ",
+    wx: "muNT -> muT (muTiṁ) pAlane BvAxiH"
   },
   'mud2_mudiz_BvAxiH_KaNdane': {
-    dev: "मुड् (मुडिँ) खण्डने भ्वादिः",
-    rom: "muḍ (muḍiṁ) khaṇḍane bhvādiḥ",
-    wx: "mud (mudiṁ) KaNdane BvAxiH"
+    dev: "मुण्ड् -> मुड् (मुडिँ) खण्डने भ्वादिः",
+    rom: "muṇḍ -> muḍ (muḍiṁ) khaṇḍane bhvādiḥ",
+    wx: "muNd -> mud (mudiṁ) KaNdane BvAxiH"
   },
   'mud2_mudiz_BvAxiH_pramarxane': {
-    dev: "मुड् (मुडिँ) प्रमर्दने भ्वादिः",
-    rom: "muḍ (muḍiṁ) pramardane bhvādiḥ",
-    wx: "mud (mudiṁ) pramarxane BvAxiH"
+    dev: "मुण्ड् -> मुड् (मुडिँ) प्रमर्दने भ्वादिः",
+    rom: "muṇḍ -> muḍ (muḍiṁ) pramardane bhvādiḥ",
+    wx: "muNd -> mud (mudiṁ) pramarxane BvAxiH"
   },
   'mud1_mudiz_BvAxiH_majjane': {
-    dev: "मुड् (मुडिँ) मज्जने भ्वादिः",
-    rom: "muḍ (muḍiṁ) majjane bhvādiḥ",
-    wx: "mud (mudiṁ) majjane BvAxiH"
+    dev: "मुण्ड् -> मुड् (मुडिँ) मज्जने भ्वादिः",
+    rom: "muṇḍ -> muḍ (muḍiṁ) majjane bhvādiḥ",
+    wx: "muNd -> mud (mudiṁ) majjane BvAxiH"
   },
   'mud1_mudiz_BvAxiH_mArjane': {
-    dev: "मुड् (मुडिँ) मार्जने भ्वादिः",
-    rom: "muḍ (muḍiṁ) mārjane bhvādiḥ",
-    wx: "mud (mudiṁ) mArjane BvAxiH"
+    dev: "मुण्ड् -> मुड् (मुडिँ) मार्जने भ्वादिः",
+    rom: "muṇḍ -> muḍ (muḍiṁ) mārjane bhvādiḥ",
+    wx: "muNd -> mud (mudiṁ) mArjane BvAxiH"
   },
   'muN1_muNaz_wuxAxiH_prawijFAne': {
     dev: "मुण् (मुणँ) प्रतिज्ञाने तुदादिः",
@@ -9530,9 +9530,9 @@ var root_info = {
     wx: "mruc (mrucuṁ) gawO BvAxiH"
   },
   'mrunc1_mruncuz_BvAxiH_gawO': {
-    dev: "म्रुन्च् (म्रुन्चुँ) गतौ भ्वादिः",
-    rom: "mrunc (mruncuṁ) gatau bhvādiḥ",
-    wx: "mrunc (mruncuṁ) gawO BvAxiH"
+    dev: "म्रुञ्च् -> म्रुन्च् (म्रुन्चुँ) गतौ भ्वादिः",
+    rom: "mruñc -> mrunc (mruncuṁ) gatau bhvādiḥ",
+    wx: "mruFc -> mrunc (mruncuṁ) gawO BvAxiH"
   },
   'mret1_mretqz_BvAxiH_unmAxe': {
     dev: "म्रेट् (म्रेटृँ) उन्मादे भ्वादिः",
@@ -9545,9 +9545,9 @@ var root_info = {
     wx: "mluc (mlucuṁ) gawO BvAxiH"
   },
   'mlunc1_mluncuz_BvAxiH_gawO': {
-    dev: "म्लुन्च् (म्लुन्चुँ) गतौ भ्वादिः",
-    rom: "mlunc (mluncuṁ) gatau bhvādiḥ",
-    wx: "mlunc (mluncuṁ) gawO BvAxiH"
+    dev: "म्लुञ्च् -> म्लुन्च् (म्लुन्चुँ) गतौ भ्वादिः",
+    rom: "mluñc -> mlunc (mluncuṁ) gatau bhvādiḥ",
+    wx: "mluFc -> mlunc (mluncuṁ) gawO BvAxiH"
   },
   'mleC2_mleCaz_curAxiH_avyakwAyAM_vAci': {
     dev: "म्लेछ् (म्लेछँ) अव्यक्तायां_वाचि चुरादिः",
@@ -9630,9 +9630,9 @@ var root_info = {
     wx: "yaw (yawIṁ) prayawne BvAxiH"
   },
   'yawr1_yawriz_curAxiH_safkocane': {
-    dev: "यत्र् (यत्रिँ) सङ्कोचने चुरादिः",
-    rom: "yatr (yatriṁ) saṅkocane curādiḥ",
-    wx: "yawr (yawriṁ) safkocane curAxiH"
+    dev: "यन्त्र् -> यत्र् (यत्रिँ) सङ्कोचने चुरादिः",
+    rom: "yantr -> yatr (yatriṁ) saṅkocane curādiḥ",
+    wx: "yanwr -> yawr (yawriṁ) safkocane curAxiH"
   },
   'yaB1_yaBaz_BvAxiH_viparIwamEWune': {
     dev: "यभ् (यभँ) विपरीतमैथुने भ्वादिः",
@@ -9700,9 +9700,9 @@ var root_info = {
     wx: "yu (yuF) banXane kryAxiH"
   },
   'yug1_yugiz_BvAxiH_varjane': {
-    dev: "युग् (युगिँ) वर्जने भ्वादिः",
-    rom: "yug (yugiṁ) varjane bhvādiḥ",
-    wx: "yug (yugiṁ) varjane BvAxiH"
+    dev: "युङ्ग् -> युग् (युगिँ) वर्जने भ्वादिः",
+    rom: "yuṅg -> yug (yugiṁ) varjane bhvādiḥ",
+    wx: "yufg -> yug (yugiṁ) varjane BvAxiH"
   },
   'yuC1_yuCaz_BvAxiH_pramAxe': {
     dev: "युछ् (युछँ) प्रमादे भ्वादिः",
@@ -9770,44 +9770,44 @@ var root_info = {
     wx: "rakR (rakRaṁ) pAlane BvAxiH"
   },
   'raK1_raKaz_BvAxiH_gawO': {
-    dev: "रख् (रखँ) गतौ भ्वादिः",
-    rom: "rakh (rakhaṁ) gatau bhvādiḥ",
-    wx: "raK (raKaṁ) gawO BvAxiH"
+    dev: "रङ्ख् -> रख् (रखँ) गतौ भ्वादिः",
+    rom: "raṅkh -> rakh (rakhaṁ) gatau bhvādiḥ",
+    wx: "rafK -> raK (raKaṁ) gawO BvAxiH"
   },
   'raK2_raKiz_BvAxiH_gawO': {
-    dev: "रख् (रखिँ) गतौ भ्वादिः",
-    rom: "rakh (rakhiṁ) gatau bhvādiḥ",
-    wx: "raK (raKiṁ) gawO BvAxiH"
+    dev: "रङ्ख् -> रख् (रखिँ) गतौ भ्वादिः",
+    rom: "raṅkh -> rakh (rakhiṁ) gatau bhvādiḥ",
+    wx: "rafK -> raK (raKiṁ) gawO BvAxiH"
   },
   'rag3_ragaz_curAxiH_AsvAxane': {
-    dev: "रग् (रगँ) आस्वादने चुरादिः",
-    rom: "rag (ragaṁ) āsvādane curādiḥ",
-    wx: "rag (ragaṁ) AsvAxane curAxiH"
+    dev: "रङ्ग् -> रग् (रगँ) आस्वादने चुरादिः",
+    rom: "raṅg -> rag (ragaṁ) āsvādane curādiḥ",
+    wx: "rafg -> rag (ragaṁ) AsvAxane curAxiH"
   },
   'rag1_ragiz_BvAxiH_gawO': {
-    dev: "रग् (रगिँ) गतौ भ्वादिः",
-    rom: "rag (ragiṁ) gatau bhvādiḥ",
-    wx: "rag (ragiṁ) gawO BvAxiH"
+    dev: "रङ्ग् -> रग् (रगिँ) गतौ भ्वादिः",
+    rom: "raṅg -> rag (ragiṁ) gatau bhvādiḥ",
+    wx: "rafg -> rag (ragiṁ) gawO BvAxiH"
   },
   'rag2_ragez_BvAxiH_SafkAyAm': {
-    dev: "रग् (रगेँ) शङ्कायाम् भ्वादिः",
-    rom: "rag (rageṁ) śaṅkāyām bhvādiḥ",
-    wx: "rag (rageṁ) SafkAyAm BvAxiH"
+    dev: "रङ्ग् -> रग् (रगेँ) शङ्कायाम् भ्वादिः",
+    rom: "raṅg -> rag (rageṁ) śaṅkāyām bhvādiḥ",
+    wx: "rafg -> rag (rageṁ) SafkAyAm BvAxiH"
   },
   'raG1_raGiz_BvAxiH_gawO': {
-    dev: "रघ् (रघिँ) गतौ भ्वादिः",
-    rom: "ragh (raghiṁ) gatau bhvādiḥ",
-    wx: "raG (raGiṁ) gawO BvAxiH"
+    dev: "रङ्घ् -> रघ् (रघिँ) गतौ भ्वादिः",
+    rom: "raṅgh -> ragh (raghiṁ) gatau bhvādiḥ",
+    wx: "rafG -> raG (raGiṁ) gawO BvAxiH"
   },
   'raG2_raGiz_curAxiH_BARArWe': {
-    dev: "रघ् (रघिँ) भाषार्थे चुरादिः",
-    rom: "ragh (raghiṁ) bhāṣārthe curādiḥ",
-    wx: "raG (raGiṁ) BARArWe curAxiH"
+    dev: "रङ्घ् -> रघ् (रघिँ) भाषार्थे चुरादिः",
+    rom: "raṅgh -> ragh (raghiṁ) bhāṣārthe curādiḥ",
+    wx: "rafG -> raG (raGiṁ) BARArWe curAxiH"
   },
   'raG2_raGiz_curAxiH_BAsArWe': {
-    dev: "रघ् (रघिँ) भासार्थे चुरादिः",
-    rom: "ragh (raghiṁ) bhāsārthe curādiḥ",
-    wx: "raG (raGiṁ) BAsArWe curAxiH"
+    dev: "रङ्घ् -> रघ् (रघिँ) भासार्थे चुरादिः",
+    rom: "raṅgh -> ragh (raghiṁ) bhāsārthe curādiḥ",
+    wx: "rafG -> raG (raGiṁ) BAsArWe curAxiH"
   },
   'raca1_raca_curAxiH_prawiyawne': {
     dev: "रच (रच) प्रतियत्ने चुरादिः",
@@ -9850,14 +9850,14 @@ var root_info = {
     wx: "raX (raXaṁ) hiMsAyAm xivAxiH"
   },
   'ranj2_ranjaz_xivAxiH_rAge': {
-    dev: "रन्ज् (रन्जँ) रागे दिवादिः",
-    rom: "ranj (ranjaṁ) rāge divādiḥ",
-    wx: "ranj (ranjaṁ) rAge xivAxiH"
+    dev: "रञ्ज् -> रन्ज् (रन्जँ) रागे दिवादिः",
+    rom: "rañj -> ranj (ranjaṁ) rāge divādiḥ",
+    wx: "raFj -> ranj (ranjaṁ) rAge xivAxiH"
   },
   'ranj1_ranjaz_BvAxiH_rAge': {
-    dev: "रन्ज् (रन्जँ) रागे भ्वादिः",
-    rom: "ranj (ranjaṁ) rāge bhvādiḥ",
-    wx: "ranj (ranjaṁ) rAge BvAxiH"
+    dev: "रञ्ज् -> रन्ज् (रन्जँ) रागे भ्वादिः",
+    rom: "rañj -> ranj (ranjaṁ) rāge bhvādiḥ",
+    wx: "raFj -> ranj (ranjaṁ) rAge BvAxiH"
   },
   'rap1_rapaz_BvAxiH_vyakwAyAM_vAci': {
     dev: "रप् (रपँ) व्यक्तायां_वाचि भ्वादिः",
@@ -9865,19 +9865,19 @@ var root_info = {
     wx: "rap (rapaṁ) vyakwAyAM_vAci BvAxiH"
   },
   'raP1_raPaz_BvAxiH_gawO': {
-    dev: "रफ् (रफँ) गतौ भ्वादिः",
-    rom: "raph (raphaṁ) gatau bhvādiḥ",
-    wx: "raP (raPaṁ) gawO BvAxiH"
+    dev: "रम्फ् -> रफ् (रफँ) गतौ भ्वादिः",
+    rom: "ramph -> raph (raphaṁ) gatau bhvādiḥ",
+    wx: "ramP -> raP (raPaṁ) gawO BvAxiH"
   },
   'raP2_raPiz_BvAxiH_gawO': {
-    dev: "रफ् (रफिँ) गतौ भ्वादिः",
-    rom: "raph (raphiṁ) gatau bhvādiḥ",
-    wx: "raP (raPiṁ) gawO BvAxiH"
+    dev: "रम्फ् -> रफ् (रफिँ) गतौ भ्वादिः",
+    rom: "ramph -> raph (raphiṁ) gatau bhvādiḥ",
+    wx: "ramP -> raP (raPiṁ) gawO BvAxiH"
   },
   'rab1_rabiz_BvAxiH_Sabxe': {
-    dev: "रब् (रबिँ) शब्दे भ्वादिः",
-    rom: "rab (rabiṁ) śabde bhvādiḥ",
-    wx: "rab (rabiṁ) Sabxe BvAxiH"
+    dev: "रम्ब् -> रब् (रबिँ) शब्दे भ्वादिः",
+    rom: "ramb -> rab (rabiṁ) śabde bhvādiḥ",
+    wx: "ramb -> rab (rabiṁ) Sabxe BvAxiH"
   },
   'raB1_raBaz_BvAxiH_rABasye': {
     dev: "रभ् (रभँ) राभस्ये भ्वादिः",
@@ -9905,9 +9905,9 @@ var root_info = {
     wx: "rarPa (rarPa) gawO BvAxiH"
   },
   'rav1_raviz_BvAxiH_gawO': {
-    dev: "रव् (रविँ) गतौ भ्वादिः",
-    rom: "rav (raviṁ) gatau bhvādiḥ",
-    wx: "rav (raviṁ) gawO BvAxiH"
+    dev: "रण्व् -> रव् (रविँ) गतौ भ्वादिः",
+    rom: "raṇv -> rav (raviṁ) gatau bhvādiḥ",
+    wx: "raNv -> rav (raviṁ) gawO BvAxiH"
   },
   'rasa1_rasa_curAxiH_AsvAxane': {
     dev: "रस (रस) आस्वादने चुरादिः",
@@ -9935,24 +9935,24 @@ var root_info = {
     wx: "rahi (rahi) gawO curAxiH"
   },
   'rah4_rahaz_curAxiH_wyAge': {
-    dev: "रह् (रहँ) त्यागे चुरादिः",
-    rom: "rah (rahaṁ) tyāge curādiḥ",
-    wx: "rah (rahaṁ) wyAge curAxiH"
+    dev: "रंह् -> रह् (रहँ) त्यागे चुरादिः",
+    rom: "raṃh -> rah (rahaṁ) tyāge curādiḥ",
+    wx: "raMh -> rah (rahaṁ) wyAge curAxiH"
   },
   'rah2_rahaz_BvAxiH_wyAge': {
-    dev: "रह् (रहँ) त्यागे भ्वादिः",
-    rom: "rah (rahaṁ) tyāge bhvādiḥ",
-    wx: "rah (rahaṁ) wyAge BvAxiH"
+    dev: "रंह् -> रह् (रहँ) त्यागे भ्वादिः",
+    rom: "raṃh -> rah (rahaṁ) tyāge bhvādiḥ",
+    wx: "raMh -> rah (rahaṁ) wyAge BvAxiH"
   },
   'rah1_rahiz_BvAxiH_gawO': {
-    dev: "रह् (रहिँ) गतौ भ्वादिः",
-    rom: "rah (rahiṁ) gatau bhvādiḥ",
-    wx: "rah (rahiṁ) gawO BvAxiH"
+    dev: "रंह् -> रह् (रहिँ) गतौ भ्वादिः",
+    rom: "raṃh -> rah (rahiṁ) gatau bhvādiḥ",
+    wx: "raMh -> rah (rahiṁ) gawO BvAxiH"
   },
   'rah3_rahiz_curAxiH_BARArWe': {
-    dev: "रह् (रहिँ) भाषार्थे चुरादिः",
-    rom: "rah (rahiṁ) bhāṣārthe curādiḥ",
-    wx: "rah (rahiṁ) BARArWe curAxiH"
+    dev: "रंह् -> रह् (रहिँ) भाषार्थे चुरादिः",
+    rom: "raṃh -> rah (rahiṁ) bhāṣārthe curādiḥ",
+    wx: "raMh -> rah (rahiṁ) BARArWe curAxiH"
   },
   'rA1_rA_axAxiH_xAne': {
     dev: "रा (रा) दाने अदादिः",
@@ -10005,9 +10005,9 @@ var root_info = {
     wx: "ri (ri) hiMsAyAm svAxiH"
   },
   'rig1_rigiz_BvAxiH_gawO': {
-    dev: "रिग् (रिगिँ) गतौ भ्वादिः",
-    rom: "rig (rigiṁ) gatau bhvādiḥ",
-    wx: "rig (rigiṁ) gawO BvAxiH"
+    dev: "रिङ्ग् -> रिग् (रिगिँ) गतौ भ्वादिः",
+    rom: "riṅg -> rig (rigiṁ) gatau bhvādiḥ",
+    wx: "rifg -> rig (rigiṁ) gawO BvAxiH"
   },
   'ric2_ricaz_curAxiH_viyojane': {
     dev: "रिच् (रिचँ) वियोजने चुरादिः",
@@ -10050,9 +10050,9 @@ var root_info = {
     wx: "riP (riPaṁ) hiMsAyAm wuxAxiH"
   },
   'riv1_riviz_BvAxiH_gawO': {
-    dev: "रिव् (रिविँ) गतौ भ्वादिः",
-    rom: "riv (riviṁ) gatau bhvādiḥ",
-    wx: "riv (riviṁ) gawO BvAxiH"
+    dev: "रिण्व् -> रिव् (रिविँ) गतौ भ्वादिः",
+    rom: "riṇv -> riv (riviṁ) gatau bhvādiḥ",
+    wx: "riNv -> riv (riviṁ) gawO BvAxiH"
   },
   'riS1_riSaz_wuxAxiH_hiMsAyAm': {
     dev: "रिश् (रिशँ) हिंसायाम् तुदादिः",
@@ -10130,64 +10130,64 @@ var root_info = {
     wx: "ruj (rujoṁ) Bafge wuxAxiH"
   },
   'rut1_rutaz_BvAxiH_xIpwO': {
-    dev: "रुट् (रुटँ) दीप्तौ भ्वादिः",
-    rom: "ruṭ (ruṭaṁ) dīptau bhvādiḥ",
-    wx: "rut (rutaṁ) xIpwO BvAxiH"
+    dev: "रुण्ट् -> रुट् (रुटँ) दीप्तौ भ्वादिः",
+    rom: "ruṇṭ -> ruṭ (ruṭaṁ) dīptau bhvādiḥ",
+    wx: "ruNt -> rut (rutaṁ) xIpwO BvAxiH"
   },
   'rut1_rutaz_BvAxiH_prawiGAwe': {
-    dev: "रुट् (रुटँ) प्रतिघाते भ्वादिः",
-    rom: "ruṭ (ruṭaṁ) pratighāte bhvādiḥ",
-    wx: "rut (rutaṁ) prawiGAwe BvAxiH"
+    dev: "रुण्ट् -> रुट् (रुटँ) प्रतिघाते भ्वादिः",
+    rom: "ruṇṭ -> ruṭ (ruṭaṁ) pratighāte bhvādiḥ",
+    wx: "ruNt -> rut (rutaṁ) prawiGAwe BvAxiH"
   },
   'rut3_rutaz_curAxiH_BAsArWe': {
-    dev: "रुट् (रुटँ) भासार्थे चुरादिः",
-    rom: "ruṭ (ruṭaṁ) bhāsārthe curādiḥ",
-    wx: "rut (rutaṁ) BAsArWe curAxiH"
+    dev: "रुण्ट् -> रुट् (रुटँ) भासार्थे चुरादिः",
+    rom: "ruṇṭ -> ruṭ (ruṭaṁ) bhāsārthe curādiḥ",
+    wx: "ruNt -> rut (rutaṁ) BAsArWe curAxiH"
   },
   'rut3_rutaz_curAxiH_roRe': {
-    dev: "रुट् (रुटँ) रोषे चुरादिः",
-    rom: "ruṭ (ruṭaṁ) roṣe curādiḥ",
-    wx: "rut (rutaṁ) roRe curAxiH"
+    dev: "रुण्ट् -> रुट् (रुटँ) रोषे चुरादिः",
+    rom: "ruṇṭ -> ruṭ (ruṭaṁ) roṣe curādiḥ",
+    wx: "ruNt -> rut (rutaṁ) roRe curAxiH"
   },
   'rut2_rutiz_BvAxiH_sweye': {
-    dev: "रुट् (रुटिँ) स्तेये भ्वादिः",
-    rom: "ruṭ (ruṭiṁ) steye bhvādiḥ",
-    wx: "rut (rutiṁ) sweye BvAxiH"
+    dev: "रुण्ट् -> रुट् (रुटिँ) स्तेये भ्वादिः",
+    rom: "ruṇṭ -> ruṭ (ruṭiṁ) steye bhvādiḥ",
+    wx: "ruNt -> rut (rutiṁ) sweye BvAxiH"
   },
   'ruT1_ruTaz_BvAxiH_upaGAwe': {
-    dev: "रुठ् (रुठँ) उपघाते भ्वादिः",
-    rom: "ruṭh (ruṭhaṁ) upaghāte bhvādiḥ",
-    wx: "ruT (ruTaṁ) upaGAwe BvAxiH"
+    dev: "रुण्ठ् -> रुठ् (रुठँ) उपघाते भ्वादिः",
+    rom: "ruṇṭh -> ruṭh (ruṭhaṁ) upaghāte bhvādiḥ",
+    wx: "ruNT -> ruT (ruTaṁ) upaGAwe BvAxiH"
   },
   'ruT1_ruTaz_BvAxiH_prawiGAwe': {
-    dev: "रुठ् (रुठँ) प्रतिघाते भ्वादिः",
-    rom: "ruṭh (ruṭhaṁ) pratighāte bhvādiḥ",
-    wx: "ruT (ruTaṁ) prawiGAwe BvAxiH"
+    dev: "रुण्ठ् -> रुठ् (रुठँ) प्रतिघाते भ्वादिः",
+    rom: "ruṇṭh -> ruṭh (ruṭhaṁ) pratighāte bhvādiḥ",
+    wx: "ruNT -> ruT (ruTaṁ) prawiGAwe BvAxiH"
   },
   'ruT3_ruTaz_curAxiH_BARArWe': {
-    dev: "रुठ् (रुठँ) भाषार्थे चुरादिः",
-    rom: "ruṭh (ruṭhaṁ) bhāṣārthe curādiḥ",
-    wx: "ruT (ruTaṁ) BARArWe curAxiH"
+    dev: "रुण्ठ् -> रुठ् (रुठँ) भाषार्थे चुरादिः",
+    rom: "ruṇṭh -> ruṭh (ruṭhaṁ) bhāṣārthe curādiḥ",
+    wx: "ruNT -> ruT (ruTaṁ) BARArWe curAxiH"
   },
   'ruT2_ruTiz_BvAxiH_Alasye': {
-    dev: "रुठ् (रुठिँ) आलस्ये भ्वादिः",
-    rom: "ruṭh (ruṭhiṁ) ālasye bhvādiḥ",
-    wx: "ruT (ruTiṁ) Alasye BvAxiH"
+    dev: "रुण्ठ् -> रुठ् (रुठिँ) आलस्ये भ्वादिः",
+    rom: "ruṇṭh -> ruṭh (ruṭhiṁ) ālasye bhvādiḥ",
+    wx: "ruNT -> ruT (ruTiṁ) Alasye BvAxiH"
   },
   'ruT2_ruTiz_BvAxiH_gawiprawiGAwe': {
-    dev: "रुठ् (रुठिँ) गतिप्रतिघाते भ्वादिः",
-    rom: "ruṭh (ruṭhiṁ) gatipratighāte bhvādiḥ",
-    wx: "ruT (ruTiṁ) gawiprawiGAwe BvAxiH"
+    dev: "रुण्ठ् -> रुठ् (रुठिँ) गतिप्रतिघाते भ्वादिः",
+    rom: "ruṇṭh -> ruṭh (ruṭhiṁ) gatipratighāte bhvādiḥ",
+    wx: "ruNT -> ruT (ruTiṁ) gawiprawiGAwe BvAxiH"
   },
   'ruT2_ruTiz_BvAxiH_gawO': {
-    dev: "रुठ् (रुठिँ) गतौ भ्वादिः",
-    rom: "ruṭh (ruṭhiṁ) gatau bhvādiḥ",
-    wx: "ruT (ruTiṁ) gawO BvAxiH"
+    dev: "रुण्ठ् -> रुठ् (रुठिँ) गतौ भ्वादिः",
+    rom: "ruṇṭh -> ruṭh (ruṭhiṁ) gatau bhvādiḥ",
+    wx: "ruNT -> ruT (ruTiṁ) gawO BvAxiH"
   },
   'ruT2_ruTiz_BvAxiH_sweye': {
-    dev: "रुठ् (रुठिँ) स्तेये भ्वादिः",
-    rom: "ruṭh (ruṭhiṁ) steye bhvādiḥ",
-    wx: "ruT (ruTiṁ) sweye BvAxiH"
+    dev: "रुण्ठ् -> रुठ् (रुठिँ) स्तेये भ्वादिः",
+    rom: "ruṇṭh -> ruṭh (ruṭhiṁ) steye bhvādiḥ",
+    wx: "ruNT -> ruT (ruTiṁ) sweye BvAxiH"
   },
   'rux1_ruxizr_axAxiH_aSruvimocane': {
     dev: "रुद् (रुदिँर्) अश्रुविमोचने अदादिः",
@@ -10225,9 +10225,9 @@ var root_info = {
     wx: "ruR (ruRaṁ) hiMsAyAm BvAxiH"
   },
   'rus1_rusiz_curAxiH_BARArWe': {
-    dev: "रुस् (रुसिँ) भाषार्थे चुरादिः",
-    rom: "rus (rusiṁ) bhāṣārthe curādiḥ",
-    wx: "rus (rusiṁ) BARArWe curAxiH"
+    dev: "रुंश् -> रुस् (रुसिँ) भाषार्थे चुरादिः",
+    rom: "ruṃś -> rus (rusiṁ) bhāṣārthe curādiḥ",
+    wx: "ruMS -> rus (rusiṁ) BARArWe curAxiH"
   },
   'ruh1_ruhaz_BvAxiH_avagamane': {
     dev: "रुह् (रुहँ) अवगमने भ्वादिः",
@@ -10340,54 +10340,54 @@ var root_info = {
     wx: "lakR (lakRaṁ) xarSane curAxiH"
   },
   'laK1_laKaz_BvAxiH_gawO': {
-    dev: "लख् (लखँ) गतौ भ्वादिः",
-    rom: "lakh (lakhaṁ) gatau bhvādiḥ",
-    wx: "laK (laKaṁ) gawO BvAxiH"
+    dev: "लङ्ख् -> लख् (लखँ) गतौ भ्वादिः",
+    rom: "laṅkh -> lakh (lakhaṁ) gatau bhvādiḥ",
+    wx: "lafK -> laK (laKaṁ) gawO BvAxiH"
   },
   'laK2_laKiz_BvAxiH_gawO': {
-    dev: "लख् (लखिँ) गतौ भ्वादिः",
-    rom: "lakh (lakhiṁ) gatau bhvādiḥ",
-    wx: "laK (laKiṁ) gawO BvAxiH"
+    dev: "लङ्ख् -> लख् (लखिँ) गतौ भ्वादिः",
+    rom: "laṅkh -> lakh (lakhiṁ) gatau bhvādiḥ",
+    wx: "lafK -> laK (laKiṁ) gawO BvAxiH"
   },
   'lag3_lagaz_curAxiH_AsvAxane': {
-    dev: "लग् (लगँ) आस्वादने चुरादिः",
-    rom: "lag (lagaṁ) āsvādane curādiḥ",
-    wx: "lag (lagaṁ) AsvAxane curAxiH"
+    dev: "लङ्ग् -> लग् (लगँ) आस्वादने चुरादिः",
+    rom: "laṅg -> lag (lagaṁ) āsvādane curādiḥ",
+    wx: "lafg -> lag (lagaṁ) AsvAxane curAxiH"
   },
   'lag1_lagiz_BvAxiH_gawO': {
-    dev: "लग् (लगिँ) गतौ भ्वादिः",
-    rom: "lag (lagiṁ) gatau bhvādiḥ",
-    wx: "lag (lagiṁ) gawO BvAxiH"
+    dev: "लङ्ग् -> लग् (लगिँ) गतौ भ्वादिः",
+    rom: "laṅg -> lag (lagiṁ) gatau bhvādiḥ",
+    wx: "lafg -> lag (lagiṁ) gawO BvAxiH"
   },
   'lag2_lagez_BvAxiH_safge': {
-    dev: "लग् (लगेँ) सङ्गे भ्वादिः",
-    rom: "lag (lageṁ) saṅge bhvādiḥ",
-    wx: "lag (lageṁ) safge BvAxiH"
+    dev: "लङ्ग् -> लग् (लगेँ) सङ्गे भ्वादिः",
+    rom: "laṅg -> lag (lageṁ) saṅge bhvādiḥ",
+    wx: "lafg -> lag (lageṁ) safge BvAxiH"
   },
   'laG1_laGiz_BvAxiH_gawO': {
-    dev: "लघ् (लघिँ) गतौ भ्वादिः",
-    rom: "lagh (laghiṁ) gatau bhvādiḥ",
-    wx: "laG (laGiṁ) gawO BvAxiH"
+    dev: "लङ्घ् -> लघ् (लघिँ) गतौ भ्वादिः",
+    rom: "laṅgh -> lagh (laghiṁ) gatau bhvādiḥ",
+    wx: "lafG -> laG (laGiṁ) gawO BvAxiH"
   },
   'laG3_laGiz_curAxiH_BARArWe': {
-    dev: "लघ् (लघिँ) भाषार्थे चुरादिः",
-    rom: "lagh (laghiṁ) bhāṣārthe curādiḥ",
-    wx: "laG (laGiṁ) BARArWe curAxiH"
+    dev: "लङ्घ् -> लघ् (लघिँ) भाषार्थे चुरादिः",
+    rom: "laṅgh -> lagh (laghiṁ) bhāṣārthe curādiḥ",
+    wx: "lafG -> laG (laGiṁ) BARArWe curAxiH"
   },
   'laG3_laGiz_curAxiH_BAsArWe': {
-    dev: "लघ् (लघिँ) भासार्थे चुरादिः",
-    rom: "lagh (laghiṁ) bhāsārthe curādiḥ",
-    wx: "laG (laGiṁ) BAsArWe curAxiH"
+    dev: "लङ्घ् -> लघ् (लघिँ) भासार्थे चुरादिः",
+    rom: "laṅgh -> lagh (laghiṁ) bhāsārthe curādiḥ",
+    wx: "lafG -> laG (laGiṁ) BAsArWe curAxiH"
   },
   'laG1_laGiz_BvAxiH_BojananivqwwO': {
-    dev: "लघ् (लघिँ) भोजननिवृत्तौ भ्वादिः",
-    rom: "lagh (laghiṁ) bhojananivṛttau bhvādiḥ",
-    wx: "laG (laGiṁ) BojananivqwwO BvAxiH"
+    dev: "लङ्घ् -> लघ् (लघिँ) भोजननिवृत्तौ भ्वादिः",
+    rom: "laṅgh -> lagh (laghiṁ) bhojananivṛttau bhvādiḥ",
+    wx: "lafG -> laG (laGiṁ) BojananivqwwO BvAxiH"
   },
   'laG2_laGiz_BvAxiH_SoRaNe': {
-    dev: "लघ् (लघिँ) शोषणे भ्वादिः",
-    rom: "lagh (laghiṁ) śoṣaṇe bhvādiḥ",
-    wx: "laG (laGiṁ) SoRaNe BvAxiH"
+    dev: "लङ्घ् -> लघ् (लघिँ) शोषणे भ्वादिः",
+    rom: "laṅgh -> lagh (laghiṁ) śoṣaṇe bhvādiḥ",
+    wx: "lafG -> laG (laGiṁ) SoRaNe BvAxiH"
   },
   'laC1_laCaz_BvAxiH_lakRaNe': {
     dev: "लछ् (लछँ) लक्षणे भ्वादिः",
@@ -10395,54 +10395,54 @@ var root_info = {
     wx: "laC (laCaṁ) lakRaNe BvAxiH"
   },
   'laja1_laja_curAxiH_prakASane': {
-    dev: "लज (लज) प्रकाशने चुरादिः",
-    rom: "laja (laja) prakāśane curādiḥ",
-    wx: "laja (laja) prakASane curAxiH"
+    dev: "लज् -> लज (लज) प्रकाशने चुरादिः",
+    rom: "laj -> laja (laja) prakāśane curādiḥ",
+    wx: "laj -> laja (laja) prakASane curAxiH"
   },
   'laja1_laja_curAxiH_prANane': {
-    dev: "लज (लज) प्राणने चुरादिः",
-    rom: "laja (laja) prāṇane curādiḥ",
-    wx: "laja (laja) prANane curAxiH"
+    dev: "लज् -> लज (लज) प्राणने चुरादिः",
+    rom: "laj -> laja (laja) prāṇane curādiḥ",
+    wx: "laj -> laja (laja) prANane curAxiH"
   },
   'laj3_ozlajIz_wuxAxiH_vrIdAyAm': {
-    dev: "लज् (ओँलजीँ) व्रीडायाम् तुदादिः",
-    rom: "laj (oṁlajīṁ) vrīḍāyām tudādiḥ",
-    wx: "laj (oṁlajIṁ) vrIdAyAm wuxAxiH"
+    dev: "लञ्ज् -> लज् (ओँलजीँ) व्रीडायाम् तुदादिः",
+    rom: "lañj -> laj (oṁlajīṁ) vrīḍāyām tudādiḥ",
+    wx: "laFj -> laj (oṁlajIṁ) vrIdAyAm wuxAxiH"
   },
   'laj1_lajaz_BvAxiH_Barjane': {
-    dev: "लज् (लजँ) भर्जने भ्वादिः",
-    rom: "laj (lajaṁ) bharjane bhvādiḥ",
-    wx: "laj (lajaṁ) Barjane BvAxiH"
+    dev: "लञ्ज् -> लज् (लजँ) भर्जने भ्वादिः",
+    rom: "lañj -> laj (lajaṁ) bharjane bhvādiḥ",
+    wx: "laFj -> laj (lajaṁ) Barjane BvAxiH"
   },
   'laj1_lajaz_BvAxiH_Barwsane': {
-    dev: "लज् (लजँ) भर्त्सने भ्वादिः",
-    rom: "laj (lajaṁ) bhartsane bhvādiḥ",
-    wx: "laj (lajaṁ) Barwsane BvAxiH"
+    dev: "लञ्ज् -> लज् (लजँ) भर्त्सने भ्वादिः",
+    rom: "lañj -> laj (lajaṁ) bhartsane bhvādiḥ",
+    wx: "laFj -> laj (lajaṁ) Barwsane BvAxiH"
   },
   'laj4_lajiz_curAxiH_prakASane': {
-    dev: "लज् (लजिँ) प्रकाशने चुरादिः",
-    rom: "laj (lajiṁ) prakāśane curādiḥ",
-    wx: "laj (lajiṁ) prakASane curAxiH"
+    dev: "लञ्ज् -> लज् (लजिँ) प्रकाशने चुरादिः",
+    rom: "lañj -> laj (lajiṁ) prakāśane curādiḥ",
+    wx: "laFj -> laj (lajiṁ) prakASane curAxiH"
   },
   'laj2_lajiz_BvAxiH_Barjane': {
-    dev: "लज् (लजिँ) भर्जने भ्वादिः",
-    rom: "laj (lajiṁ) bharjane bhvādiḥ",
-    wx: "laj (lajiṁ) Barjane BvAxiH"
+    dev: "लञ्ज् -> लज् (लजिँ) भर्जने भ्वादिः",
+    rom: "lañj -> laj (lajiṁ) bharjane bhvādiḥ",
+    wx: "laFj -> laj (lajiṁ) Barjane BvAxiH"
   },
   'laj2_lajiz_BvAxiH_Barwsane': {
-    dev: "लज् (लजिँ) भर्त्सने भ्वादिः",
-    rom: "laj (lajiṁ) bhartsane bhvādiḥ",
-    wx: "laj (lajiṁ) Barwsane BvAxiH"
+    dev: "लञ्ज् -> लज् (लजिँ) भर्त्सने भ्वादिः",
+    rom: "lañj -> laj (lajiṁ) bhartsane bhvādiḥ",
+    wx: "laFj -> laj (lajiṁ) Barwsane BvAxiH"
   },
   'laj4_lajiz_curAxiH_BARArWe': {
-    dev: "लज् (लजिँ) भाषार्थे चुरादिः",
-    rom: "laj (lajiṁ) bhāṣārthe curādiḥ",
-    wx: "laj (lajiṁ) BARArWe curAxiH"
+    dev: "लञ्ज् -> लज् (लजिँ) भाषार्थे चुरादिः",
+    rom: "lañj -> laj (lajiṁ) bhāṣārthe curādiḥ",
+    wx: "laFj -> laj (lajiṁ) BARArWe curAxiH"
   },
   'laj4_lajiz_curAxiH_BAsArWe': {
-    dev: "लज् (लजिँ) भासार्थे चुरादिः",
-    rom: "laj (lajiṁ) bhāsārthe curādiḥ",
-    wx: "laj (lajiṁ) BAsArWe curAxiH"
+    dev: "लञ्ज् -> लज् (लजिँ) भासार्थे चुरादिः",
+    rom: "lañj -> laj (lajiṁ) bhāsārthe curādiḥ",
+    wx: "laFj -> laj (lajiṁ) BAsArWe curAxiH"
   },
   'lat1_lataz_BvAxiH_bAlye': {
     dev: "लट् (लटँ) बाल्ये भ्वादिः",
@@ -10455,19 +10455,19 @@ var root_info = {
     wx: "lat (lataṁ) BARArWe curAxiH"
   },
   'lad3_ozladiz_curAxiH_uwkRepaNe': {
-    dev: "लड् (ओँलडिँ) उत्क्षेपणे चुरादिः",
-    rom: "laḍ (oṁlaḍiṁ) utkṣepaṇe curādiḥ",
-    wx: "lad (oṁladiṁ) uwkRepaNe curAxiH"
+    dev: "लण्ड् -> लड् (ओँलडिँ) उत्क्षेपणे चुरादिः",
+    rom: "laṇḍ -> laḍ (oṁlaḍiṁ) utkṣepaṇe curādiḥ",
+    wx: "laNd -> lad (oṁladiṁ) uwkRepaNe curAxiH"
   },
   'lad2_ladaz_curAxiH_upasevAyAm': {
-    dev: "लड् (लडँ) उपसेवायाम् चुरादिः",
-    rom: "laḍ (laḍaṁ) upasevāyām curādiḥ",
-    wx: "lad (ladaṁ) upasevAyAm curAxiH"
+    dev: "लण्ड् -> लड् (लडँ) उपसेवायाम् चुरादिः",
+    rom: "laṇḍ -> laḍ (laḍaṁ) upasevāyām curādiḥ",
+    wx: "laNd -> lad (ladaṁ) upasevAyAm curAxiH"
   },
   'lad1_ladaz_BvAxiH_vilAse': {
-    dev: "लड् (लडँ) विलासे भ्वादिः",
-    rom: "laḍ (laḍaṁ) vilāse bhvādiḥ",
-    wx: "lad (ladaṁ) vilAse BvAxiH"
+    dev: "लण्ड् -> लड् (लडँ) विलासे भ्वादिः",
+    rom: "laṇḍ -> laḍ (laḍaṁ) vilāse bhvādiḥ",
+    wx: "laNd -> lad (ladaṁ) vilAse BvAxiH"
   },
   'lap1_lapaz_BvAxiH_vyakwAyAM_vAci': {
     dev: "लप् (लपँ) व्यक्तायां_वाचि भ्वादिः",
@@ -10475,14 +10475,14 @@ var root_info = {
     wx: "lap (lapaṁ) vyakwAyAM_vAci BvAxiH"
   },
   'lab1_labiz_BvAxiH_avasraMsane': {
-    dev: "लब् (लबिँ) अवस्रंसने भ्वादिः",
-    rom: "lab (labiṁ) avasraṃsane bhvādiḥ",
-    wx: "lab (labiṁ) avasraMsane BvAxiH"
+    dev: "लम्ब् -> लब् (लबिँ) अवस्रंसने भ्वादिः",
+    rom: "lamb -> lab (labiṁ) avasraṃsane bhvādiḥ",
+    wx: "lamb -> lab (labiṁ) avasraMsane BvAxiH"
   },
   'lab1_labiz_BvAxiH_Sabxe': {
-    dev: "लब् (लबिँ) शब्दे भ्वादिः",
-    rom: "lab (labiṁ) śabde bhvādiḥ",
-    wx: "lab (labiṁ) Sabxe BvAxiH"
+    dev: "लम्ब् -> लब् (लबिँ) शब्दे भ्वादिः",
+    rom: "lamb -> lab (labiṁ) śabde bhvādiḥ",
+    wx: "lamb -> lab (labiṁ) Sabxe BvAxiH"
   },
   'laB1_dulaBazR_BvAxiH_prApwO': {
     dev: "लभ् (डुलभँष्) प्राप्तौ भ्वादिः",
@@ -10545,29 +10545,29 @@ var root_info = {
     wx: "lAG (lAGqṁ) sAmarWye BvAxiH"
   },
   'lAC1_lACiz_BvAxiH_lakRaNe': {
-    dev: "लाछ् (लाछिँ) लक्षणे भ्वादिः",
-    rom: "lāch (lāchiṁ) lakṣaṇe bhvādiḥ",
-    wx: "lAC (lACiṁ) lakRaNe BvAxiH"
+    dev: "लाञ्छ् -> लाछ् (लाछिँ) लक्षणे भ्वादिः",
+    rom: "lāñch -> lāch (lāchiṁ) lakṣaṇe bhvādiḥ",
+    wx: "lAFC -> lAC (lACiṁ) lakRaNe BvAxiH"
   },
   'lAj1_lAjaz_BvAxiH_Barjane': {
-    dev: "लाज् (लाजँ) भर्जने भ्वादिः",
-    rom: "lāj (lājaṁ) bharjane bhvādiḥ",
-    wx: "lAj (lAjaṁ) Barjane BvAxiH"
+    dev: "लाञ्ज् -> लाज् (लाजँ) भर्जने भ्वादिः",
+    rom: "lāñj -> lāj (lājaṁ) bharjane bhvādiḥ",
+    wx: "lAFj -> lAj (lAjaṁ) Barjane BvAxiH"
   },
   'lAj1_lAjaz_BvAxiH_Barwsane': {
-    dev: "लाज् (लाजँ) भर्त्सने भ्वादिः",
-    rom: "lāj (lājaṁ) bhartsane bhvādiḥ",
-    wx: "lAj (lAjaṁ) Barwsane BvAxiH"
+    dev: "लाञ्ज् -> लाज् (लाजँ) भर्त्सने भ्वादिः",
+    rom: "lāñj -> lāj (lājaṁ) bhartsane bhvādiḥ",
+    wx: "lAFj -> lAj (lAjaṁ) Barwsane BvAxiH"
   },
   'lAj2_lAjiz_BvAxiH_Barjane': {
-    dev: "लाज् (लाजिँ) भर्जने भ्वादिः",
-    rom: "lāj (lājiṁ) bharjane bhvādiḥ",
-    wx: "lAj (lAjiṁ) Barjane BvAxiH"
+    dev: "लाञ्ज् -> लाज् (लाजिँ) भर्जने भ्वादिः",
+    rom: "lāñj -> lāj (lājiṁ) bharjane bhvādiḥ",
+    wx: "lAFj -> lAj (lAjiṁ) Barjane BvAxiH"
   },
   'lAj2_lAjiz_BvAxiH_Barwsane': {
-    dev: "लाज् (लाजिँ) भर्त्सने भ्वादिः",
-    rom: "lāj (lājiṁ) bhartsane bhvādiḥ",
-    wx: "lAj (lAjiṁ) Barwsane BvAxiH"
+    dev: "लाञ्ज् -> लाज् (लाजिँ) भर्त्सने भ्वादिः",
+    rom: "lāñj -> lāj (lājiṁ) bhartsane bhvādiḥ",
+    wx: "lAFj -> lAj (lAjiṁ) Barwsane BvAxiH"
   },
   'lABa1_lABa_curAxiH_preraNe': {
     dev: "लाभ (लाभ) प्रेरणे चुरादिः",
@@ -10580,14 +10580,14 @@ var root_info = {
     wx: "liK (liKaṁ) akRaravinyAse wuxAxiH"
   },
   'lig1_ligiz_BvAxiH_gawO': {
-    dev: "लिग् (लिगिँ) गतौ भ्वादिः",
-    rom: "lig (ligiṁ) gatau bhvādiḥ",
-    wx: "lig (ligiṁ) gawO BvAxiH"
+    dev: "लिङ्ग् -> लिग् (लिगिँ) गतौ भ्वादिः",
+    rom: "liṅg -> lig (ligiṁ) gatau bhvādiḥ",
+    wx: "lifg -> lig (ligiṁ) gawO BvAxiH"
   },
   'lig2_ligiz_curAxiH_ciwrIkaraNe': {
-    dev: "लिग् (लिगिँ) चित्रीकरणे चुरादिः",
-    rom: "lig (ligiṁ) citrīkaraṇe curādiḥ",
-    wx: "lig (ligiṁ) ciwrIkaraNe curAxiH"
+    dev: "लिङ्ग् -> लिग् (लिगिँ) चित्रीकरणे चुरादिः",
+    rom: "liṅg -> lig (ligiṁ) citrīkaraṇe curādiḥ",
+    wx: "lifg -> lig (ligiṁ) ciwrIkaraNe curAxiH"
   },
   'lip1_lipaz_wuxAxiH_upaxAhe': {
     dev: "लिप् (लिपँ) उपदाहे तुदादिः",
@@ -10630,99 +10630,99 @@ var root_info = {
     wx: "lI (lIf) SleRaNe xivAxiH"
   },
   'luj1_lujiz_curAxiH_nikewane': {
-    dev: "लुज् (लुजिँ) निकेतने चुरादिः",
-    rom: "luj (lujiṁ) niketane curādiḥ",
-    wx: "luj (lujiṁ) nikewane curAxiH"
+    dev: "लुञ्ज् -> लुज् (लुजिँ) निकेतने चुरादिः",
+    rom: "luñj -> luj (lujiṁ) niketane curādiḥ",
+    wx: "luFj -> luj (lujiṁ) nikewane curAxiH"
   },
   'luj1_lujiz_curAxiH_balAxAne': {
-    dev: "लुज् (लुजिँ) बलादाने चुरादिः",
-    rom: "luj (lujiṁ) balādāne curādiḥ",
-    wx: "luj (lujiṁ) balAxAne curAxiH"
+    dev: "लुञ्ज् -> लुज् (लुजिँ) बलादाने चुरादिः",
+    rom: "luñj -> luj (lujiṁ) balādāne curādiḥ",
+    wx: "luFj -> luj (lujiṁ) balAxAne curAxiH"
   },
   'luj1_lujiz_curAxiH_BARArWe': {
-    dev: "लुज् (लुजिँ) भाषार्थे चुरादिः",
-    rom: "luj (lujiṁ) bhāṣārthe curādiḥ",
-    wx: "luj (lujiṁ) BARArWe curAxiH"
+    dev: "लुञ्ज् -> लुज् (लुजिँ) भाषार्थे चुरादिः",
+    rom: "luñj -> luj (lujiṁ) bhāṣārthe curādiḥ",
+    wx: "luFj -> luj (lujiṁ) BARArWe curAxiH"
   },
   'luj1_lujiz_curAxiH_BAsArWe': {
-    dev: "लुज् (लुजिँ) भासार्थे चुरादिः",
-    rom: "luj (lujiṁ) bhāsārthe curādiḥ",
-    wx: "luj (lujiṁ) BAsArWe curAxiH"
+    dev: "लुञ्ज् -> लुज् (लुजिँ) भासार्थे चुरादिः",
+    rom: "luñj -> luj (lujiṁ) bhāsārthe curādiḥ",
+    wx: "luFj -> luj (lujiṁ) BAsArWe curAxiH"
   },
   'luj1_lujiz_curAxiH_hiMsAyAm': {
-    dev: "लुज् (लुजिँ) हिंसायाम् चुरादिः",
-    rom: "luj (lujiṁ) hiṃsāyām curādiḥ",
-    wx: "luj (lujiṁ) hiMsAyAm curAxiH"
+    dev: "लुञ्ज् -> लुज् (लुजिँ) हिंसायाम् चुरादिः",
+    rom: "luñj -> luj (lujiṁ) hiṃsāyām curādiḥ",
+    wx: "luFj -> luj (lujiṁ) hiMsAyAm curAxiH"
   },
   'lut1_lutaz_BvAxiH_prawiGAwe': {
-    dev: "लुट् (लुटँ) प्रतिघाते भ्वादिः",
-    rom: "luṭ (luṭaṁ) pratighāte bhvādiḥ",
-    wx: "lut (lutaṁ) prawiGAwe BvAxiH"
+    dev: "लुण्ट् -> लुट् (लुटँ) प्रतिघाते भ्वादिः",
+    rom: "luṇṭ -> luṭ (luṭaṁ) pratighāte bhvādiḥ",
+    wx: "luNt -> lut (lutaṁ) prawiGAwe BvAxiH"
   },
   'lut6_lutaz_curAxiH_BARArWe': {
-    dev: "लुट् (लुटँ) भाषार्थे चुरादिः",
-    rom: "luṭ (luṭaṁ) bhāṣārthe curādiḥ",
-    wx: "lut (lutaṁ) BARArWe curAxiH"
+    dev: "लुण्ट् -> लुट् (लुटँ) भाषार्थे चुरादिः",
+    rom: "luṇṭ -> luṭ (luṭaṁ) bhāṣārthe curādiḥ",
+    wx: "luNt -> lut (lutaṁ) BARArWe curAxiH"
   },
   'lut6_lutaz_curAxiH_BAsArWe': {
-    dev: "लुट् (लुटँ) भासार्थे चुरादिः",
-    rom: "luṭ (luṭaṁ) bhāsārthe curādiḥ",
-    wx: "lut (lutaṁ) BAsArWe curAxiH"
+    dev: "लुण्ट् -> लुट् (लुटँ) भासार्थे चुरादिः",
+    rom: "luṇṭ -> luṭ (luṭaṁ) bhāsārthe curādiḥ",
+    wx: "luNt -> lut (lutaṁ) BAsArWe curAxiH"
   },
   'lut4_lutaz_xivAxiH_vilotane': {
-    dev: "लुट् (लुटँ) विलोटने दिवादिः",
-    rom: "luṭ (luṭaṁ) viloṭane divādiḥ",
-    wx: "lut (lutaṁ) vilotane xivAxiH"
+    dev: "लुण्ट् -> लुट् (लुटँ) विलोटने दिवादिः",
+    rom: "luṇṭ -> luṭ (luṭaṁ) viloṭane divādiḥ",
+    wx: "luNt -> lut (lutaṁ) vilotane xivAxiH"
   },
   'lut2_lutaz_BvAxiH_vilotane': {
-    dev: "लुट् (लुटँ) विलोटने भ्वादिः",
-    rom: "luṭ (luṭaṁ) viloṭane bhvādiḥ",
-    wx: "lut (lutaṁ) vilotane BvAxiH"
+    dev: "लुण्ट् -> लुट् (लुटँ) विलोटने भ्वादिः",
+    rom: "luṇṭ -> luṭ (luṭaṁ) viloṭane bhvādiḥ",
+    wx: "luNt -> lut (lutaṁ) vilotane BvAxiH"
   },
   'lut5_lutaz_wuxAxiH_saMSleRaNe': {
-    dev: "लुट् (लुटँ) संश्लेषणे तुदादिः",
-    rom: "luṭ (luṭaṁ) saṃśleṣaṇe tudādiḥ",
-    wx: "lut (lutaṁ) saMSleRaNe wuxAxiH"
+    dev: "लुण्ट् -> लुट् (लुटँ) संश्लेषणे तुदादिः",
+    rom: "luṇṭ -> luṭ (luṭaṁ) saṃśleṣaṇe tudādiḥ",
+    wx: "luNt -> lut (lutaṁ) saMSleRaNe wuxAxiH"
   },
   'lut3_lutiz_BvAxiH_sweye': {
-    dev: "लुट् (लुटिँ) स्तेये भ्वादिः",
-    rom: "luṭ (luṭiṁ) steye bhvādiḥ",
-    wx: "lut (lutiṁ) sweye BvAxiH"
+    dev: "लुण्ट् -> लुट् (लुटिँ) स्तेये भ्वादिः",
+    rom: "luṇṭ -> luṭ (luṭiṁ) steye bhvādiḥ",
+    wx: "luNt -> lut (lutiṁ) sweye BvAxiH"
   },
   'luT1_luTaz_BvAxiH_Alasye': {
-    dev: "लुठ् (लुठँ) आलस्ये भ्वादिः",
-    rom: "luṭh (luṭhaṁ) ālasye bhvādiḥ",
-    wx: "luT (luTaṁ) Alasye BvAxiH"
+    dev: "लुण्ठ् -> लुठ् (लुठँ) आलस्ये भ्वादिः",
+    rom: "luṇṭh -> luṭh (luṭhaṁ) ālasye bhvādiḥ",
+    wx: "luNT -> luT (luTaṁ) Alasye BvAxiH"
   },
   'luT1_luTaz_BvAxiH_upaGAwe': {
-    dev: "लुठ् (लुठँ) उपघाते भ्वादिः",
-    rom: "luṭh (luṭhaṁ) upaghāte bhvādiḥ",
-    wx: "luT (luTaṁ) upaGAwe BvAxiH"
+    dev: "लुण्ठ् -> लुठ् (लुठँ) उपघाते भ्वादिः",
+    rom: "luṇṭh -> luṭh (luṭhaṁ) upaghāte bhvādiḥ",
+    wx: "luNT -> luT (luTaṁ) upaGAwe BvAxiH"
   },
   'luT1_luTaz_BvAxiH_prawiGAwe': {
-    dev: "लुठ् (लुठँ) प्रतिघाते भ्वादिः",
-    rom: "luṭh (luṭhaṁ) pratighāte bhvādiḥ",
-    wx: "luT (luTaṁ) prawiGAwe BvAxiH"
+    dev: "लुण्ठ् -> लुठ् (लुठँ) प्रतिघाते भ्वादिः",
+    rom: "luṇṭh -> luṭh (luṭhaṁ) pratighāte bhvādiḥ",
+    wx: "luNT -> luT (luTaṁ) prawiGAwe BvAxiH"
   },
   'luT3_luTaz_wuxAxiH_saMSleRaNe': {
-    dev: "लुठ् (लुठँ) संश्लेषणे तुदादिः",
-    rom: "luṭh (luṭhaṁ) saṃśleṣaṇe tudādiḥ",
-    wx: "luT (luTaṁ) saMSleRaNe wuxAxiH"
+    dev: "लुण्ठ् -> लुठ् (लुठँ) संश्लेषणे तुदादिः",
+    rom: "luṇṭh -> luṭh (luṭhaṁ) saṃśleṣaṇe tudādiḥ",
+    wx: "luNT -> luT (luTaṁ) saMSleRaNe wuxAxiH"
   },
   'luT2_luTiz_BvAxiH_Alasye': {
-    dev: "लुठ् (लुठिँ) आलस्ये भ्वादिः",
-    rom: "luṭh (luṭhiṁ) ālasye bhvādiḥ",
-    wx: "luT (luTiṁ) Alasye BvAxiH"
+    dev: "लुण्ठ् -> लुठ् (लुठिँ) आलस्ये भ्वादिः",
+    rom: "luṇṭh -> luṭh (luṭhiṁ) ālasye bhvādiḥ",
+    wx: "luNT -> luT (luTiṁ) Alasye BvAxiH"
   },
   'luT2_luTiz_BvAxiH_gawO': {
-    dev: "लुठ् (लुठिँ) गतौ भ्वादिः",
-    rom: "luṭh (luṭhiṁ) gatau bhvādiḥ",
-    wx: "luT (luTiṁ) gawO BvAxiH"
+    dev: "लुण्ठ् -> लुठ् (लुठिँ) गतौ भ्वादिः",
+    rom: "luṇṭh -> luṭh (luṭhiṁ) gatau bhvādiḥ",
+    wx: "luNT -> luT (luTiṁ) gawO BvAxiH"
   },
   'luT2_luTiz_BvAxiH_sweye': {
-    dev: "लुठ् (लुठिँ) स्तेये भ्वादिः",
-    rom: "luṭh (luṭhiṁ) steye bhvādiḥ",
-    wx: "luT (luTiṁ) sweye BvAxiH"
+    dev: "लुण्ठ् -> लुठ् (लुठिँ) स्तेये भ्वादिः",
+    rom: "luṇṭh -> luṭh (luṭhiṁ) steye bhvādiḥ",
+    wx: "luNT -> luT (luTiṁ) sweye BvAxiH"
   },
   'luNT1_luNTaz_curAxiH_sweye': {
     dev: "लुण्ठ् (लुण्ठँ) स्तेये चुरादिः",
@@ -10730,14 +10730,14 @@ var root_info = {
     wx: "luNT (luNTaṁ) sweye curAxiH"
   },
   'luW1_luWiz_BvAxiH_safkleSane': {
-    dev: "लुथ् (लुथिँ) सङ्क्लेशने भ्वादिः",
-    rom: "luth (luthiṁ) saṅkleśane bhvādiḥ",
-    wx: "luW (luWiṁ) safkleSane BvAxiH"
+    dev: "लुन्थ् -> लुथ् (लुथिँ) सङ्क्लेशने भ्वादिः",
+    rom: "lunth -> luth (luthiṁ) saṅkleśane bhvādiḥ",
+    wx: "lunW -> luW (luWiṁ) safkleSane BvAxiH"
   },
   'luW1_luWiz_BvAxiH_hiMsAyAm': {
-    dev: "लुथ् (लुथिँ) हिंसायाम् भ्वादिः",
-    rom: "luth (luthiṁ) hiṃsāyām bhvādiḥ",
-    wx: "luW (luWiṁ) hiMsAyAm BvAxiH"
+    dev: "लुन्थ् -> लुथ् (लुथिँ) हिंसायाम् भ्वादिः",
+    rom: "lunth -> luth (luthiṁ) hiṃsāyām bhvādiḥ",
+    wx: "lunW -> luW (luWiṁ) hiMsAyAm BvAxiH"
   },
   'lunc1_luncaz_BvAxiH_apanayane': {
     dev: "लुन्च् (लुन्चँ) अपनयने भ्वादिः",
@@ -10760,19 +10760,19 @@ var root_info = {
     wx: "lup (lupLṁ) Cexane wuxAxiH"
   },
   'lub2_lubiz_curAxiH_axarSane': {
-    dev: "लुब् (लुबिँ) अदर्शने चुरादिः",
-    rom: "lub (lubiṁ) adarśane curādiḥ",
-    wx: "lub (lubiṁ) axarSane curAxiH"
+    dev: "लुम्ब् -> लुब् (लुबिँ) अदर्शने चुरादिः",
+    rom: "lumb -> lub (lubiṁ) adarśane curādiḥ",
+    wx: "lumb -> lub (lubiṁ) axarSane curAxiH"
   },
   'lub2_lubiz_curAxiH_arxane': {
-    dev: "लुब् (लुबिँ) अर्दने चुरादिः",
-    rom: "lub (lubiṁ) ardane curādiḥ",
-    wx: "lub (lubiṁ) arxane curAxiH"
+    dev: "लुम्ब् -> लुब् (लुबिँ) अर्दने चुरादिः",
+    rom: "lumb -> lub (lubiṁ) ardane curādiḥ",
+    wx: "lumb -> lub (lubiṁ) arxane curAxiH"
   },
   'lub1_lubiz_BvAxiH_arxane': {
-    dev: "लुब् (लुबिँ) अर्दने भ्वादिः",
-    rom: "lub (lubiṁ) ardane bhvādiḥ",
-    wx: "lub (lubiṁ) arxane BvAxiH"
+    dev: "लुम्ब् -> लुब् (लुबिँ) अर्दने भ्वादिः",
+    rom: "lumb -> lub (lubiṁ) ardane bhvādiḥ",
+    wx: "lumb -> lub (lubiṁ) arxane BvAxiH"
   },
   'luB1_luBaz_xivAxiH_gArxXye': {
     dev: "लुभ् (लुभँ) गार्द्ध्ये दिवादिः",
@@ -10850,14 +10850,14 @@ var root_info = {
     wx: "lvI (lvI) gawO kryAxiH"
   },
   'vak1_vakiz_BvAxiH_kOtilye': {
-    dev: "वक् (वकिँ) कौटिल्ये भ्वादिः",
-    rom: "vak (vakiṁ) kauṭilye bhvādiḥ",
-    wx: "vak (vakiṁ) kOtilye BvAxiH"
+    dev: "वङ्क् -> वक् (वकिँ) कौटिल्ये भ्वादिः",
+    rom: "vaṅk -> vak (vakiṁ) kauṭilye bhvādiḥ",
+    wx: "vafk -> vak (vakiṁ) kOtilye BvAxiH"
   },
   'vak1_vakiz_BvAxiH_gawO': {
-    dev: "वक् (वकिँ) गतौ भ्वादिः",
-    rom: "vak (vakiṁ) gatau bhvādiḥ",
-    wx: "vak (vakiṁ) gawO BvAxiH"
+    dev: "वङ्क् -> वक् (वकिँ) गतौ भ्वादिः",
+    rom: "vaṅk -> vak (vakiṁ) gatau bhvādiḥ",
+    wx: "vafk -> vak (vakiṁ) gawO BvAxiH"
   },
   'vakR1_vakRaz_BvAxiH_roRe': {
     dev: "वक्ष् (वक्षँ) रोषे भ्वादिः",
@@ -10870,19 +10870,19 @@ var root_info = {
     wx: "vakR (vakRaṁ) safGAwe BvAxiH"
   },
   'vaK1_vaKaz_BvAxiH_gawO': {
-    dev: "वख् (वखँ) गतौ भ्वादिः",
-    rom: "vakh (vakhaṁ) gatau bhvādiḥ",
-    wx: "vaK (vaKaṁ) gawO BvAxiH"
+    dev: "वङ्ख् -> वख् (वखँ) गतौ भ्वादिः",
+    rom: "vaṅkh -> vakh (vakhaṁ) gatau bhvādiḥ",
+    wx: "vafK -> vaK (vaKaṁ) gawO BvAxiH"
   },
   'vaK2_vaKiz_BvAxiH_gawO': {
-    dev: "वख् (वखिँ) गतौ भ्वादिः",
-    rom: "vakh (vakhiṁ) gatau bhvādiḥ",
-    wx: "vaK (vaKiṁ) gawO BvAxiH"
+    dev: "वङ्ख् -> वख् (वखिँ) गतौ भ्वादिः",
+    rom: "vaṅkh -> vakh (vakhiṁ) gatau bhvādiḥ",
+    wx: "vafK -> vaK (vaKiṁ) gawO BvAxiH"
   },
   'vag1_vagiz_BvAxiH_gawO': {
-    dev: "वग् (वगिँ) गतौ भ्वादिः",
-    rom: "vag (vagiṁ) gatau bhvādiḥ",
-    wx: "vag (vagiṁ) gawO BvAxiH"
+    dev: "वङ्ग् -> वग् (वगिँ) गतौ भ्वादिः",
+    rom: "vaṅg -> vag (vagiṁ) gatau bhvādiḥ",
+    wx: "vafg -> vag (vagiṁ) gawO BvAxiH"
   },
   'vaG1_vaGiz_BvAxiH_gawyAkRepe': {
     dev: "वघ् (वघिँ) गत्याक्षेपे भ्वादिः",
@@ -10925,49 +10925,49 @@ var root_info = {
     wx: "vata (vata) viBAjane curAxiH"
   },
   'vat1_vataz_BvAxiH_pariBARaNe': {
-    dev: "वट् (वटँ) परिभाषणे भ्वादिः",
-    rom: "vaṭ (vaṭaṁ) paribhāṣaṇe bhvādiḥ",
-    wx: "vat (vataṁ) pariBARaNe BvAxiH"
+    dev: "वण्ट् -> वट् (वटँ) परिभाषणे भ्वादिः",
+    rom: "vaṇṭ -> vaṭ (vaṭaṁ) paribhāṣaṇe bhvādiḥ",
+    wx: "vaNt -> vat (vataṁ) pariBARaNe BvAxiH"
   },
   'vat1_vataz_BvAxiH_veRtane': {
-    dev: "वट् (वटँ) वेष्टने भ्वादिः",
-    rom: "vaṭ (vaṭaṁ) veṣṭane bhvādiḥ",
-    wx: "vat (vataṁ) veRtane BvAxiH"
+    dev: "वण्ट् -> वट् (वटँ) वेष्टने भ्वादिः",
+    rom: "vaṇṭ -> vaṭ (vaṭaṁ) veṣṭane bhvādiḥ",
+    wx: "vaNt -> vat (vataṁ) veRtane BvAxiH"
   },
   'vat3_vatiz_curAxiH_viBAjane': {
-    dev: "वट् (वटिँ) विभाजने चुरादिः",
-    rom: "vaṭ (vaṭiṁ) vibhājane curādiḥ",
-    wx: "vat (vatiṁ) viBAjane curAxiH"
+    dev: "वण्ट् -> वट् (वटिँ) विभाजने चुरादिः",
+    rom: "vaṇṭ -> vaṭ (vaṭiṁ) vibhājane curādiḥ",
+    wx: "vaNt -> vat (vatiṁ) viBAjane curAxiH"
   },
   'vat2_vatiz_BvAxiH_viBAjane': {
-    dev: "वट् (वटिँ) विभाजने भ्वादिः",
-    rom: "vaṭ (vaṭiṁ) vibhājane bhvādiḥ",
-    wx: "vat (vatiṁ) viBAjane BvAxiH"
+    dev: "वण्ट् -> वट् (वटिँ) विभाजने भ्वादिः",
+    rom: "vaṇṭ -> vaṭ (vaṭiṁ) vibhājane bhvādiḥ",
+    wx: "vaNt -> vat (vatiṁ) viBAjane BvAxiH"
   },
   'vaT1_vaTaz_BvAxiH_sWOlye': {
-    dev: "वठ् (वठँ) स्थौल्ये भ्वादिः",
-    rom: "vaṭh (vaṭhaṁ) sthaulye bhvādiḥ",
-    wx: "vaT (vaTaṁ) sWOlye BvAxiH"
+    dev: "वण्ठ् -> वठ् (वठँ) स्थौल्ये भ्वादिः",
+    rom: "vaṇṭh -> vaṭh (vaṭhaṁ) sthaulye bhvādiḥ",
+    wx: "vaNT -> vaT (vaTaṁ) sWOlye BvAxiH"
   },
   'vaT2_vaTiz_BvAxiH_ekacaryAyAm': {
-    dev: "वठ् (वठिँ) एकचर्यायाम् भ्वादिः",
-    rom: "vaṭh (vaṭhiṁ) ekacaryāyām bhvādiḥ",
-    wx: "vaT (vaTiṁ) ekacaryAyAm BvAxiH"
+    dev: "वण्ठ् -> वठ् (वठिँ) एकचर्यायाम् भ्वादिः",
+    rom: "vaṇṭh -> vaṭh (vaṭhiṁ) ekacaryāyām bhvādiḥ",
+    wx: "vaNT -> vaT (vaTiṁ) ekacaryAyAm BvAxiH"
   },
   'vad2_vadiz_curAxiH_viBAjane': {
-    dev: "वड् (वडिँ) विभाजने चुरादिः",
-    rom: "vaḍ (vaḍiṁ) vibhājane curādiḥ",
-    wx: "vad (vadiṁ) viBAjane curAxiH"
+    dev: "वण्ड् -> वड् (वडिँ) विभाजने चुरादिः",
+    rom: "vaṇḍ -> vaḍ (vaḍiṁ) vibhājane curādiḥ",
+    wx: "vaNd -> vad (vadiṁ) viBAjane curAxiH"
   },
   'vad1_vadiz_BvAxiH_viBAjane': {
-    dev: "वड् (वडिँ) विभाजने भ्वादिः",
-    rom: "vaḍ (vaḍiṁ) vibhājane bhvādiḥ",
-    wx: "vad (vadiṁ) viBAjane BvAxiH"
+    dev: "वण्ड् -> वड् (वडिँ) विभाजने भ्वादिः",
+    rom: "vaṇḍ -> vaḍ (vaḍiṁ) vibhājane bhvādiḥ",
+    wx: "vaNd -> vad (vadiṁ) viBAjane BvAxiH"
   },
   'vad1_vadiz_BvAxiH_veRtane': {
-    dev: "वड् (वडिँ) वेष्टने भ्वादिः",
-    rom: "vaḍ (vaḍiṁ) veṣṭane bhvādiḥ",
-    wx: "vad (vadiṁ) veRtane BvAxiH"
+    dev: "वण्ड् -> वड् (वडिँ) वेष्टने भ्वादिः",
+    rom: "vaṇḍ -> vaḍ (vaḍiṁ) veṣṭane bhvādiḥ",
+    wx: "vaNd -> vad (vadiṁ) veRtane BvAxiH"
   },
   'vaN1_vaNaz_BvAxiH_Sabxe': {
     dev: "वण् (वणँ) शब्दे भ्वादिः",
@@ -10975,24 +10975,24 @@ var root_info = {
     wx: "vaN (vaNaṁ) Sabxe BvAxiH"
   },
   'vax1_vaxaz_BvAxiH_vyakwAyAM_vAci': {
-    dev: "वद् (वदँ) व्यक्तायां_वाचि भ्वादिः",
-    rom: "vad (vadaṁ) vyaktāyāṃ_vāci bhvādiḥ",
-    wx: "vax (vaxaṁ) vyakwAyAM_vAci BvAxiH"
+    dev: "वन्द् -> वद् (वदँ) व्यक्तायां_वाचि भ्वादिः",
+    rom: "vand -> vad (vadaṁ) vyaktāyāṃ_vāci bhvādiḥ",
+    wx: "vanx -> vax (vaxaṁ) vyakwAyAM_vAci BvAxiH"
   },
   'vax3_vaxaz_curAxiH_sanxeSavacane': {
-    dev: "वद् (वदँ) सन्देशवचने चुरादिः",
-    rom: "vad (vadaṁ) sandeśavacane curādiḥ",
-    wx: "vax (vaxaṁ) sanxeSavacane curAxiH"
+    dev: "वन्द् -> वद् (वदँ) सन्देशवचने चुरादिः",
+    rom: "vand -> vad (vadaṁ) sandeśavacane curādiḥ",
+    wx: "vanx -> vax (vaxaṁ) sanxeSavacane curAxiH"
   },
   'vax2_vaxiz_BvAxiH_aBivAxane': {
-    dev: "वद् (वदिँ) अभिवादने भ्वादिः",
-    rom: "vad (vadiṁ) abhivādane bhvādiḥ",
-    wx: "vax (vaxiṁ) aBivAxane BvAxiH"
+    dev: "वन्द् -> वद् (वदिँ) अभिवादने भ्वादिः",
+    rom: "vand -> vad (vadiṁ) abhivādane bhvādiḥ",
+    wx: "vanx -> vax (vaxiṁ) aBivAxane BvAxiH"
   },
   'vax2_vaxiz_BvAxiH_swuwO': {
-    dev: "वद् (वदिँ) स्तुतौ भ्वादिः",
-    rom: "vad (vadiṁ) stutau bhvādiḥ",
-    wx: "vax (vaxiṁ) swuwO BvAxiH"
+    dev: "वन्द् -> वद् (वदिँ) स्तुतौ भ्वादिः",
+    rom: "vand -> vad (vadiṁ) stutau bhvādiḥ",
+    wx: "vanx -> vax (vaxiṁ) swuwO BvAxiH"
   },
   'van1_vanaz_BvAxiH_BakwO': {
     dev: "वन् (वनँ) भक्तौ भ्वादिः",
@@ -11020,14 +11020,14 @@ var root_info = {
     wx: "van (vanuṁ) yAFcAyAm wanAxiH"
   },
   'vanc1_vancuz_BvAxiH_gawO': {
-    dev: "वन्च् (वन्चुँ) गतौ भ्वादिः",
-    rom: "vanc (vancuṁ) gatau bhvādiḥ",
-    wx: "vanc (vancuṁ) gawO BvAxiH"
+    dev: "वञ्च् -> वन्च् (वन्चुँ) गतौ भ्वादिः",
+    rom: "vañc -> vanc (vancuṁ) gatau bhvādiḥ",
+    wx: "vaFc -> vanc (vancuṁ) gawO BvAxiH"
   },
   'vanc2_vancuz_curAxiH_pralamBane': {
-    dev: "वन्च् (वन्चुँ) प्रलम्भने चुरादिः",
-    rom: "vanc (vancuṁ) pralambhane curādiḥ",
-    wx: "vanc (vancuṁ) pralamBane curAxiH"
+    dev: "वञ्च् -> वन्च् (वन्चुँ) प्रलम्भने चुरादिः",
+    rom: "vañc -> vanc (vancuṁ) pralambhane curādiḥ",
+    wx: "vaFc -> vanc (vancuṁ) pralamBane curAxiH"
   },
   'vap1_duvapaz_BvAxiH_bIjasanwAne': {
     dev: "वप् (डुवपँ) बीजसन्ताने भ्वादिः",
@@ -11155,14 +11155,14 @@ var root_info = {
     wx: "valB (valBaṁ) Bojane BvAxiH"
   },
   'vall1_vallaz_BvAxiH_saMvaraNe': {
-    dev: "वल्ल् (वल्लँ) संवरणे भ्वादिः",
-    rom: "vall (vallaṁ) saṃvaraṇe bhvādiḥ",
-    wx: "vall (vallaṁ) saMvaraNe BvAxiH"
+    dev: "वल् -> वल्ल् (वल्लँ) संवरणे भ्वादिः",
+    rom: "val -> vall (vallaṁ) saṃvaraṇe bhvādiḥ",
+    wx: "val -> vall (vallaṁ) saMvaraNe BvAxiH"
   },
   'vall1_vallaz_BvAxiH_saFcaraNe': {
-    dev: "वल्ल् (वल्लँ) सञ्चरणे भ्वादिः",
-    rom: "vall (vallaṁ) sañcaraṇe bhvādiḥ",
-    wx: "vall (vallaṁ) saFcaraNe BvAxiH"
+    dev: "वल् -> वल्ल् (वल्लँ) सञ्चरणे भ्वादिः",
+    rom: "val -> vall (vallaṁ) sañcaraṇe bhvādiḥ",
+    wx: "val -> vall (vallaṁ) saFcaraNe BvAxiH"
   },
   'valh1_valhaz_BvAxiH_xAne': {
     dev: "वल्ह् (वल्हँ) दाने भ्वादिः",
@@ -11240,14 +11240,14 @@ var root_info = {
     wx: "vask (vaskaṁ) gawO BvAxiH"
   },
   'vah1_vahaz_BvAxiH_prApaNe': {
-    dev: "वह् (वहँ) प्रापणे भ्वादिः",
-    rom: "vah (vahaṁ) prāpaṇe bhvādiḥ",
-    wx: "vah (vahaṁ) prApaNe BvAxiH"
+    dev: "वंह् -> वह् (वहँ) प्रापणे भ्वादिः",
+    rom: "vaṃh -> vah (vahaṁ) prāpaṇe bhvādiḥ",
+    wx: "vaMh -> vah (vahaṁ) prApaNe BvAxiH"
   },
   'vah2_vahiz_BvAxiH_vqxXO': {
-    dev: "वह् (वहिँ) वृद्धौ भ्वादिः",
-    rom: "vah (vahiṁ) vṛddhau bhvādiḥ",
-    wx: "vah (vahiṁ) vqxXO BvAxiH"
+    dev: "वंह् -> वह् (वहिँ) वृद्धौ भ्वादिः",
+    rom: "vaṃh -> vah (vahiṁ) vṛddhau bhvādiḥ",
+    wx: "vaMh -> vah (vahiṁ) vqxXO BvAxiH"
   },
   'vA1_vA_axAxiH_gawO': {
     dev: "वा (वा) गतौ अदादिः",
@@ -11270,14 +11270,14 @@ var root_info = {
     wx: "vA (vA) suKasevane curAxiH"
   },
   'vAkR1_vAkRiz_BvAxiH_kAfkRAyAm': {
-    dev: "वाक्ष् (वाक्षिँ) काङ्क्षायाम् भ्वादिः",
-    rom: "vākṣ (vākṣiṁ) kāṅkṣāyām bhvādiḥ",
-    wx: "vAkR (vAkRiṁ) kAfkRAyAm BvAxiH"
+    dev: "वाङ्क्ष् -> वाक्ष् (वाक्षिँ) काङ्क्षायाम् भ्वादिः",
+    rom: "vāṅkṣ -> vākṣ (vākṣiṁ) kāṅkṣāyām bhvādiḥ",
+    wx: "vAfkR -> vAkR (vAkRiṁ) kAfkRAyAm BvAxiH"
   },
   'vAC1_vACiz_BvAxiH_icCAyAm': {
-    dev: "वाछ् (वाछिँ) इच्छायाम् भ्वादिः",
-    rom: "vāch (vāchiṁ) icchāyām bhvādiḥ",
-    wx: "vAC (vACiṁ) icCAyAm BvAxiH"
+    dev: "वाञ्छ् -> वाछ् (वाछिँ) इच्छायाम् भ्वादिः",
+    rom: "vāñch -> vāch (vāchiṁ) icchāyām bhvādiḥ",
+    wx: "vAFC -> vAC (vACiṁ) icCAyAm BvAxiH"
   },
   'vAd1_vAdqz_BvAxiH_AplAvye': {
     dev: "वाड् (वाडृँ) आप्लाव्ये भ्वादिः",
@@ -11460,9 +11460,9 @@ var root_info = {
     wx: "viRka (viRka) xarSane curAxiH"
   },
   'viRk1_viRkaz_curAxiH_hiMsAyAm': {
-    dev: "विष्क् (विष्कँ) हिंसायाम् चुरादिः",
-    rom: "viṣk (viṣkaṁ) hiṃsāyām curādiḥ",
-    wx: "viRk (viRkaṁ) hiMsAyAm curAxiH"
+    dev: "विष्क -> विष्क् (विष्कँ) हिंसायाम् चुरादिः",
+    rom: "viṣka -> viṣk (viṣkaṁ) hiṃsāyām curādiḥ",
+    wx: "viRka -> viRk (viRkaṁ) hiMsAyAm curAxiH"
   },
   'vis1_visaz_xivAxiH_preraNe': {
     dev: "विस् (विसँ) प्रेरणे दिवादिः",
@@ -11605,29 +11605,29 @@ var root_info = {
     wx: "vqR (vqRuṁ) secane BvAxiH"
   },
   'vqh1_vqhaz_BvAxiH_vqxXO': {
-    dev: "वृह् (वृहँ) वृद्धौ भ्वादिः",
-    rom: "vṛh (vṛhaṁ) vṛddhau bhvādiḥ",
-    wx: "vqh (vqhaṁ) vqxXO BvAxiH"
+    dev: "वृंह् -> वृह् (वृहँ) वृद्धौ भ्वादिः",
+    rom: "vṛṃh -> vṛh (vṛhaṁ) vṛddhau bhvādiḥ",
+    wx: "vqMh -> vqh (vqhaṁ) vqxXO BvAxiH"
   },
   'vqh4_vqhiz_curAxiH_BARArWe': {
-    dev: "वृह् (वृहिँ) भाषार्थे चुरादिः",
-    rom: "vṛh (vṛhiṁ) bhāṣārthe curādiḥ",
-    wx: "vqh (vqhiṁ) BARArWe curAxiH"
+    dev: "वृंह् -> वृह् (वृहिँ) भाषार्थे चुरादिः",
+    rom: "vṛṃh -> vṛh (vṛhiṁ) bhāṣārthe curādiḥ",
+    wx: "vqMh -> vqh (vqhiṁ) BARArWe curAxiH"
   },
   'vqh2_vqhiz_BvAxiH_vqxXO': {
-    dev: "वृह् (वृहिँ) वृद्धौ भ्वादिः",
-    rom: "vṛh (vṛhiṁ) vṛddhau bhvādiḥ",
-    wx: "vqh (vqhiṁ) vqxXO BvAxiH"
+    dev: "वृंह् -> वृह् (वृहिँ) वृद्धौ भ्वादिः",
+    rom: "vṛṃh -> vṛh (vṛhiṁ) vṛddhau bhvādiḥ",
+    wx: "vqMh -> vqh (vqhiṁ) vqxXO BvAxiH"
   },
   'vqh2_vqhiz_BvAxiH_Sabxe': {
-    dev: "वृह् (वृहिँ) शब्दे भ्वादिः",
-    rom: "vṛh (vṛhiṁ) śabde bhvādiḥ",
-    wx: "vqh (vqhiṁ) Sabxe BvAxiH"
+    dev: "वृंह् -> वृह् (वृहिँ) शब्दे भ्वादिः",
+    rom: "vṛṃh -> vṛh (vṛhiṁ) śabde bhvādiḥ",
+    wx: "vqMh -> vqh (vqhiṁ) Sabxe BvAxiH"
   },
   'vqh3_vqhUz_wuxAxiH_uxyamane': {
-    dev: "वृह् (वृहूँ) उद्यमने तुदादिः",
-    rom: "vṛh (vṛhūṁ) udyamane tudādiḥ",
-    wx: "vqh (vqhUṁ) uxyamane wuxAxiH"
+    dev: "वृंह् -> वृह् (वृहूँ) उद्यमने तुदादिः",
+    rom: "vṛṃh -> vṛh (vṛhūṁ) udyamane tudādiḥ",
+    wx: "vqMh -> vqh (vqhUṁ) uxyamane wuxAxiH"
   },
   'vQ2_vQ_kryAxiH_BaraNe': {
     dev: "वॄ (वॄ) भरणे क्र्यादिः",
@@ -11700,14 +11700,14 @@ var root_info = {
     wx: "vel (velqṁ) calane BvAxiH"
   },
   'vell1_vellaz_BvAxiH_calane': {
-    dev: "वेल्ल् (वेल्लँ) चलने भ्वादिः",
-    rom: "vell (vellaṁ) calane bhvādiḥ",
-    wx: "vell (vellaṁ) calane BvAxiH"
+    dev: "वेल् -> वेल्ल् (वेल्लँ) चलने भ्वादिः",
+    rom: "vel -> vell (vellaṁ) calane bhvādiḥ",
+    wx: "vel -> vell (vellaṁ) calane BvAxiH"
   },
   'vell2_vellqz_BvAxiH_calane': {
-    dev: "वेल्ल् (वेल्लृँ) चलने भ्वादिः",
-    rom: "vell (vellṛṁ) calane bhvādiḥ",
-    wx: "vell (vellqṁ) calane BvAxiH"
+    dev: "वेल् -> वेल्ल् (वेल्लृँ) चलने भ्वादिः",
+    rom: "vel -> vell (vellṛṁ) calane bhvādiḥ",
+    wx: "vel -> vell (vellqṁ) calane BvAxiH"
   },
   'vevI1_vevIf_axAxiH_vewinA_wulye': {
     dev: "वेवी (वेवीङ्) वेतिना_तुल्ये अदादिः",
@@ -11825,9 +11825,9 @@ var root_info = {
     wx: "vraN (vraNaṁ) Sabxe BvAxiH"
   },
   'vrasc1_ozvrascUz_wuxAxiH_Cexane': {
-    dev: "व्रस्च् (ओँव्रस्चूँ) छेदने तुदादिः",
-    rom: "vrasc (oṁvrascūṁ) chedane tudādiḥ",
-    wx: "vrasc (oṁvrascUṁ) Cexane wuxAxiH"
+    dev: "व्रश्च् -> व्रस्च् (ओँव्रस्चूँ) छेदने तुदादिः",
+    rom: "vraśc -> vrasc (oṁvrascūṁ) chedane tudādiḥ",
+    wx: "vraSc -> vrasc (oṁvrascUṁ) Cexane wuxAxiH"
   },
   'vrI2_vrI_kryAxiH_varaNe': {
     dev: "व्री (व्री) वरणे क्र्यादिः",
@@ -11855,19 +11855,19 @@ var root_info = {
     wx: "vlI (vlI) varaNe kryAxiH"
   },
   'Sak2_Sakaz_xivAxiH_viBARiwo_marRaNe': {
-    dev: "शक् (शकँ) विभाषितो_मर्षणे दिवादिः",
-    rom: "śak (śakaṁ) vibhāṣito_marṣaṇe divādiḥ",
-    wx: "Sak (Sakaṁ) viBARiwo_marRaNe xivAxiH"
+    dev: "शङ्क् -> शक् (शकँ) विभाषितो_मर्षणे दिवादिः",
+    rom: "śaṅk -> śak (śakaṁ) vibhāṣito_marṣaṇe divādiḥ",
+    wx: "Safk -> Sak (Sakaṁ) viBARiwo_marRaNe xivAxiH"
   },
   'Sak1_Sakiz_BvAxiH_SafkAyAm': {
-    dev: "शक् (शकिँ) शङ्कायाम् भ्वादिः",
-    rom: "śak (śakiṁ) śaṅkāyām bhvādiḥ",
-    wx: "Sak (Sakiṁ) SafkAyAm BvAxiH"
+    dev: "शङ्क् -> शक् (शकिँ) शङ्कायाम् भ्वादिः",
+    rom: "śaṅk -> śak (śakiṁ) śaṅkāyām bhvādiḥ",
+    wx: "Safk -> Sak (Sakiṁ) SafkAyAm BvAxiH"
   },
   'Sak3_SakLz_svAxiH_SakwO': {
-    dev: "शक् (शकॢँ) शक्तौ स्वादिः",
-    rom: "śak (śakḷṁ) śaktau svādiḥ",
-    wx: "Sak (SakLṁ) SakwO svAxiH"
+    dev: "शङ्क् -> शक् (शकॢँ) शक्तौ स्वादिः",
+    rom: "śaṅk -> śak (śakḷṁ) śaktau svādiḥ",
+    wx: "Safk -> Sak (SakLṁ) SakwO svAxiH"
   },
   'Sac1_Sacaz_BvAxiH_vyakwAyAM_vAci': {
     dev: "शच् (शचँ) व्यक्तायां_वाचि भ्वादिः",
@@ -11895,9 +11895,9 @@ var root_info = {
     wx: "Sat (Sataṁ) viSaraNe BvAxiH"
   },
   'SaTa1_SaTa_curAxiH_samyagABARaNe': {
-    dev: "शठ (शठ) सम्यगाभाषणे चुरादिः",
-    rom: "śaṭha (śaṭha) samyagābhāṣaṇe curādiḥ",
-    wx: "SaTa (SaTa) samyagABARaNe curAxiH"
+    dev: "शठ् -> शठ (शठ) सम्यगाभाषणे चुरादिः",
+    rom: "śaṭh -> śaṭha (śaṭha) samyagābhāṣaṇe curādiḥ",
+    wx: "SaT -> SaTa (SaTa) samyagABARaNe curAxiH"
   },
   'SaT2_SaTaz_curAxiH_asaMskAre': {
     dev: "शठ् (शठँ) असंस्कारे चुरादिः",
@@ -11930,14 +11930,14 @@ var root_info = {
     wx: "SaT (SaTaṁ) hiMsAyAm BvAxiH"
   },
   'Sad1_Sadiz_BvAxiH_rujAyAm': {
-    dev: "शड् (शडिँ) रुजायाम् भ्वादिः",
-    rom: "śaḍ (śaḍiṁ) rujāyām bhvādiḥ",
-    wx: "Sad (Sadiṁ) rujAyAm BvAxiH"
+    dev: "शण्ड् -> शड् (शडिँ) रुजायाम् भ्वादिः",
+    rom: "śaṇḍ -> śaḍ (śaḍiṁ) rujāyām bhvādiḥ",
+    wx: "SaNd -> Sad (Sadiṁ) rujAyAm BvAxiH"
   },
   'Sad1_Sadiz_BvAxiH_safGAwe': {
-    dev: "शड् (शडिँ) सङ्घाते भ्वादिः",
-    rom: "śaḍ (śaḍiṁ) saṅghāte bhvādiḥ",
-    wx: "Sad (Sadiṁ) safGAwe BvAxiH"
+    dev: "शण्ड् -> शड् (शडिँ) सङ्घाते भ्वादिः",
+    rom: "śaṇḍ -> śaḍ (śaḍiṁ) saṅghāte bhvādiḥ",
+    wx: "SaNd -> Sad (Sadiṁ) safGAwe BvAxiH"
   },
   'SaN1_SaNaz_BvAxiH_gawO': {
     dev: "शण् (शणँ) गतौ भ्वादिः",
@@ -11960,14 +11960,14 @@ var root_info = {
     wx: "Sax (SaxLṁ) SAwane BvAxiH"
   },
   'Sanb1_Sanbaz_curAxiH_sambanXe': {
-    dev: "शन्ब् (शन्बँ) सम्बन्धे चुरादिः",
-    rom: "śanb (śanbaṁ) sambandhe curādiḥ",
-    wx: "Sanb (Sanbaṁ) sambanXe curAxiH"
+    dev: "शम्ब् -> शन्ब् (शन्बँ) सम्बन्धे चुरादिः",
+    rom: "śamb -> śanb (śanbaṁ) sambandhe curādiḥ",
+    wx: "Samb -> Sanb (Sanbaṁ) sambanXe curAxiH"
   },
   'Sans1_Sansuz_BvAxiH_swuwO': {
-    dev: "शन्स् (शन्सुँ) स्तुतौ भ्वादिः",
-    rom: "śans (śansuṁ) stutau bhvādiḥ",
-    wx: "Sans (Sansuṁ) swuwO BvAxiH"
+    dev: "शंस् -> शन्स् (शन्सुँ) स्तुतौ भ्वादिः",
+    rom: "śaṃs -> śans (śansuṁ) stutau bhvādiḥ",
+    wx: "SaMs -> Sans (Sansuṁ) swuwO BvAxiH"
   },
   'Sap2_Sapaz_xivAxiH_AkroSe': {
     dev: "शप् (शपँ) आक्रोशे दिवादिः",
@@ -12100,14 +12100,14 @@ var root_info = {
     wx: "SikR (SikRaṁ) vixyopAxAne BvAxiH"
   },
   'SiG1_SiGiz_BvAxiH_AGrANe': {
-    dev: "शिघ् (शिघिँ) आघ्राणे भ्वादिः",
-    rom: "śigh (śighiṁ) āghrāṇe bhvādiḥ",
-    wx: "SiG (SiGiṁ) AGrANe BvAxiH"
+    dev: "शिङ्घ् -> शिघ् (शिघिँ) आघ्राणे भ्वादिः",
+    rom: "śiṅgh -> śigh (śighiṁ) āghrāṇe bhvādiḥ",
+    wx: "SifG -> SiG (SiGiṁ) AGrANe BvAxiH"
   },
   'Sij1_Sijiz_axAxiH_avyakwe_Sabxe': {
-    dev: "शिज् (शिजिँ) अव्यक्ते_शब्दे अदादिः",
-    rom: "śij (śijiṁ) avyakte_śabde adādiḥ",
-    wx: "Sij (Sijiṁ) avyakwe_Sabxe axAxiH"
+    dev: "शिञ्ज् -> शिज् (शिजिँ) अव्यक्ते_शब्दे अदादिः",
+    rom: "śiñj -> śij (śijiṁ) avyakte_śabde adādiḥ",
+    wx: "SiFj -> Sij (Sijiṁ) avyakwe_Sabxe axAxiH"
   },
   'Sit1_Sitaz_BvAxiH_anAxare': {
     dev: "शिट् (शिटँ) अनादरे भ्वादिः",
@@ -12220,29 +12220,29 @@ var root_info = {
     wx: "Sucy (SucyIṁ) aBiRave BvAxiH"
   },
   'SuT3_SuTaz_curAxiH_Alasye': {
-    dev: "शुठ् (शुठँ) आलस्ये चुरादिः",
-    rom: "śuṭh (śuṭhaṁ) ālasye curādiḥ",
-    wx: "SuT (SuTaṁ) Alasye curAxiH"
+    dev: "शुण्ठ् -> शुठ् (शुठँ) आलस्ये चुरादिः",
+    rom: "śuṇṭh -> śuṭh (śuṭhaṁ) ālasye curādiḥ",
+    wx: "SuNT -> SuT (SuTaṁ) Alasye curAxiH"
   },
   'SuT1_SuTaz_BvAxiH_gawiprawiGAwe': {
-    dev: "शुठ् (शुठँ) गतिप्रतिघाते भ्वादिः",
-    rom: "śuṭh (śuṭhaṁ) gatipratighāte bhvādiḥ",
-    wx: "SuT (SuTaṁ) gawiprawiGAwe BvAxiH"
+    dev: "शुण्ठ् -> शुठ् (शुठँ) गतिप्रतिघाते भ्वादिः",
+    rom: "śuṇṭh -> śuṭh (śuṭhaṁ) gatipratighāte bhvādiḥ",
+    wx: "SuNT -> SuT (SuTaṁ) gawiprawiGAwe BvAxiH"
   },
   'SuT2_SuTiz_BvAxiH_gawiprawiGAwe': {
-    dev: "शुठ् (शुठिँ) गतिप्रतिघाते भ्वादिः",
-    rom: "śuṭh (śuṭhiṁ) gatipratighāte bhvādiḥ",
-    wx: "SuT (SuTiṁ) gawiprawiGAwe BvAxiH"
+    dev: "शुण्ठ् -> शुठ् (शुठिँ) गतिप्रतिघाते भ्वादिः",
+    rom: "śuṇṭh -> śuṭh (śuṭhiṁ) gatipratighāte bhvādiḥ",
+    wx: "SuNT -> SuT (SuTiṁ) gawiprawiGAwe BvAxiH"
   },
   'SuT4_SuTiz_curAxiH_SoRaNe': {
-    dev: "शुठ् (शुठिँ) शोषणे चुरादिः",
-    rom: "śuṭh (śuṭhiṁ) śoṣaṇe curādiḥ",
-    wx: "SuT (SuTiṁ) SoRaNe curAxiH"
+    dev: "शुण्ठ् -> शुठ् (शुठिँ) शोषणे चुरादिः",
+    rom: "śuṇṭh -> śuṭh (śuṭhiṁ) śoṣaṇe curādiḥ",
+    wx: "SuNT -> SuT (SuTiṁ) SoRaNe curAxiH"
   },
   'SuT2_SuTiz_BvAxiH_SoRaNe': {
-    dev: "शुठ् (शुठिँ) शोषणे भ्वादिः",
-    rom: "śuṭh (śuṭhiṁ) śoṣaṇe bhvādiḥ",
-    wx: "SuT (SuTiṁ) SoRaNe BvAxiH"
+    dev: "शुण्ठ् -> शुठ् (शुठिँ) शोषणे भ्वादिः",
+    rom: "śuṇṭh -> śuṭh (śuṭhiṁ) śoṣaṇe bhvādiḥ",
+    wx: "SuNT -> SuT (SuTiṁ) SoRaNe BvAxiH"
   },
   'SuX1_SuXaz_xivAxiH_SOce': {
     dev: "शुध् (शुधँ) शौचे दिवादिः",
@@ -12265,19 +12265,19 @@ var root_info = {
     wx: "SunX (SunXaṁ) SOcakarmaNi curAxiH"
   },
   'SunB1_SunBaz_BvAxiH_BARaNe': {
-    dev: "शुन्भ् (शुन्भँ) भाषणे भ्वादिः",
-    rom: "śunbh (śunbhaṁ) bhāṣaṇe bhvādiḥ",
-    wx: "SunB (SunBaṁ) BARaNe BvAxiH"
+    dev: "शुम्भ् -> शुन्भ् (शुन्भँ) भाषणे भ्वादिः",
+    rom: "śumbh -> śunbh (śunbhaṁ) bhāṣaṇe bhvādiḥ",
+    wx: "SumB -> SunB (SunBaṁ) BARaNe BvAxiH"
   },
   'SunB2_SunBaz_wuxAxiH_SoBArWe': {
-    dev: "शुन्भ् (शुन्भँ) शोभार्थे तुदादिः",
-    rom: "śunbh (śunbhaṁ) śobhārthe tudādiḥ",
-    wx: "SunB (SunBaṁ) SoBArWe wuxAxiH"
+    dev: "शुम्भ् -> शुन्भ् (शुन्भँ) शोभार्थे तुदादिः",
+    rom: "śumbh -> śunbh (śunbhaṁ) śobhārthe tudādiḥ",
+    wx: "SumB -> SunB (SunBaṁ) SoBArWe wuxAxiH"
   },
   'SunB1_SunBaz_BvAxiH_hiMsAyAm': {
-    dev: "शुन्भ् (शुन्भँ) हिंसायाम् भ्वादिः",
-    rom: "śunbh (śunbhaṁ) hiṃsāyām bhvādiḥ",
-    wx: "SunB (SunBaṁ) hiMsAyAm BvAxiH"
+    dev: "शुम्भ् -> शुन्भ् (शुन्भँ) हिंसायाम् भ्वादिः",
+    rom: "śumbh -> śunbh (śunbhaṁ) hiṃsāyām bhvādiḥ",
+    wx: "SumB -> SunB (SunBaṁ) hiMsAyAm BvAxiH"
   },
   'SuB1_SuBaz_BvAxiH_xIpwO': {
     dev: "शुभ् (शुभँ) दीप्तौ भ्वादिः",
@@ -12440,14 +12440,14 @@ var root_info = {
     wx: "SyE (SyEf) gawO BvAxiH"
   },
   'Srak1_Srakiz_BvAxiH_gawO': {
-    dev: "श्रक् (श्रकिँ) गतौ भ्वादिः",
-    rom: "śrak (śrakiṁ) gatau bhvādiḥ",
-    wx: "Srak (Srakiṁ) gawO BvAxiH"
+    dev: "श्रङ्क् -> श्रक् (श्रकिँ) गतौ भ्वादिः",
+    rom: "śraṅk -> śrak (śrakiṁ) gatau bhvādiḥ",
+    wx: "Srafk -> Srak (Srakiṁ) gawO BvAxiH"
   },
   'Srag1_Sragiz_BvAxiH_gawO': {
-    dev: "श्रग् (श्रगिँ) गतौ भ्वादिः",
-    rom: "śrag (śragiṁ) gatau bhvādiḥ",
-    wx: "Srag (Sragiṁ) gawO BvAxiH"
+    dev: "श्रङ्ग् -> श्रग् (श्रगिँ) गतौ भ्वादिः",
+    rom: "śraṅg -> śrag (śragiṁ) gatau bhvādiḥ",
+    wx: "Srafg -> Srag (Sragiṁ) gawO BvAxiH"
   },
   'SraN1_SraNaz_BvAxiH_gawO': {
     dev: "श्रण् (श्रणँ) गतौ भ्वादिः",
@@ -12475,39 +12475,39 @@ var root_info = {
     wx: "SraWa (SraWa) xOrbalye curAxiH"
   },
   'SraW3_SraWaz_curAxiH_prawiyawne': {
-    dev: "श्रथ् (श्रथँ) प्रतियत्ने चुरादिः",
-    rom: "śrath (śrathaṁ) pratiyatne curādiḥ",
-    wx: "SraW (SraWaṁ) prawiyawne curAxiH"
+    dev: "श्रन्थ् -> श्रथ् (श्रथँ) प्रतियत्ने चुरादिः",
+    rom: "śranth -> śrath (śrathaṁ) pratiyatne curādiḥ",
+    wx: "SranW -> SraW (SraWaṁ) prawiyawne curAxiH"
   },
   'SraW3_SraWaz_curAxiH_prawiharRe': {
-    dev: "श्रथ् (श्रथँ) प्रतिहर्षे चुरादिः",
-    rom: "śrath (śrathaṁ) pratiharṣe curādiḥ",
-    wx: "SraW (SraWaṁ) prawiharRe curAxiH"
+    dev: "श्रन्थ् -> श्रथ् (श्रथँ) प्रतिहर्षे चुरादिः",
+    rom: "śranth -> śrath (śrathaṁ) pratiharṣe curādiḥ",
+    wx: "SranW -> SraW (SraWaṁ) prawiharRe curAxiH"
   },
   'SraW3_SraWaz_curAxiH_prayawne': {
-    dev: "श्रथ् (श्रथँ) प्रयत्ने चुरादिः",
-    rom: "śrath (śrathaṁ) prayatne curādiḥ",
-    wx: "SraW (SraWaṁ) prayawne curAxiH"
+    dev: "श्रन्थ् -> श्रथ् (श्रथँ) प्रयत्ने चुरादिः",
+    rom: "śranth -> śrath (śrathaṁ) prayatne curādiḥ",
+    wx: "SranW -> SraW (SraWaṁ) prayawne curAxiH"
   },
   'SraW3_SraWaz_curAxiH_mokRaNe': {
-    dev: "श्रथ् (श्रथँ) मोक्षणे चुरादिः",
-    rom: "śrath (śrathaṁ) mokṣaṇe curādiḥ",
-    wx: "SraW (SraWaṁ) mokRaNe curAxiH"
+    dev: "श्रन्थ् -> श्रथ् (श्रथँ) मोक्षणे चुरादिः",
+    rom: "śranth -> śrath (śrathaṁ) mokṣaṇe curādiḥ",
+    wx: "SranW -> SraW (SraWaṁ) mokRaNe curAxiH"
   },
   'SraW3_SraWaz_curAxiH_hiMsAyAm': {
-    dev: "श्रथ् (श्रथँ) हिंसायाम् चुरादिः",
-    rom: "śrath (śrathaṁ) hiṃsāyām curādiḥ",
-    wx: "SraW (SraWaṁ) hiMsAyAm curAxiH"
+    dev: "श्रन्थ् -> श्रथ् (श्रथँ) हिंसायाम् चुरादिः",
+    rom: "śranth -> śrath (śrathaṁ) hiṃsāyām curādiḥ",
+    wx: "SranW -> SraW (SraWaṁ) hiMsAyAm curAxiH"
   },
   'SraW2_SraWaz_BvAxiH_hiMsAyAm': {
-    dev: "श्रथ् (श्रथँ) हिंसायाम् भ्वादिः",
-    rom: "śrath (śrathaṁ) hiṃsāyām bhvādiḥ",
-    wx: "SraW (SraWaṁ) hiMsAyAm BvAxiH"
+    dev: "श्रन्थ् -> श्रथ् (श्रथँ) हिंसायाम् भ्वादिः",
+    rom: "śranth -> śrath (śrathaṁ) hiṃsāyām bhvādiḥ",
+    wx: "SranW -> SraW (SraWaṁ) hiMsAyAm BvAxiH"
   },
   'SraW1_SraWiz_BvAxiH_SEWilye': {
-    dev: "श्रथ् (श्रथिँ) शैथिल्ये भ्वादिः",
-    rom: "śrath (śrathiṁ) śaithilye bhvādiḥ",
-    wx: "SraW (SraWiṁ) SEWilye BvAxiH"
+    dev: "श्रन्थ् -> श्रथ् (श्रथिँ) शैथिल्ये भ्वादिः",
+    rom: "śranth -> śrath (śrathiṁ) śaithilye bhvādiḥ",
+    wx: "SranW -> SraW (SraWiṁ) SEWilye BvAxiH"
   },
   'SranW1_SranWaz_kryAxiH_prawiharRe': {
     dev: "श्रन्थ् (श्रन्थँ) प्रतिहर्षे क्र्यादिः",
@@ -12540,9 +12540,9 @@ var root_info = {
     wx: "SranW (SranWaṁ) harRe kryAxiH"
   },
   'SranB1_SranBuz_BvAxiH_pramAxe': {
-    dev: "श्रन्भ् (श्रन्भुँ) प्रमादे भ्वादिः",
-    rom: "śranbh (śranbhuṁ) pramāde bhvādiḥ",
-    wx: "SranB (SranBuṁ) pramAxe BvAxiH"
+    dev: "श्रम्भ् -> श्रन्भ् (श्रन्भुँ) प्रमादे भ्वादिः",
+    rom: "śrambh -> śranbh (śranbhuṁ) pramāde bhvādiḥ",
+    wx: "SramB -> SranB (SranBuṁ) pramAxe BvAxiH"
   },
   'Sram1_Sramuz_xivAxiH_Kexe': {
     dev: "श्रम् (श्रमुँ) खेदे दिवादिः",
@@ -12610,14 +12610,14 @@ var root_info = {
     wx: "SroN (SroNqṁ) safGAwe BvAxiH"
   },
   'Slak1_Slakiz_BvAxiH_gawO': {
-    dev: "श्लक् (श्लकिँ) गतौ भ्वादिः",
-    rom: "ślak (ślakiṁ) gatau bhvādiḥ",
-    wx: "Slak (Slakiṁ) gawO BvAxiH"
+    dev: "श्लङ्क् -> श्लक् (श्लकिँ) गतौ भ्वादिः",
+    rom: "ślaṅk -> ślak (ślakiṁ) gatau bhvādiḥ",
+    wx: "Slafk -> Slak (Slakiṁ) gawO BvAxiH"
   },
   'Slag1_Slagiz_BvAxiH_gawO': {
-    dev: "श्लग् (श्लगिँ) गतौ भ्वादिः",
-    rom: "ślag (ślagiṁ) gatau bhvādiḥ",
-    wx: "Slag (Slagiṁ) gawO BvAxiH"
+    dev: "श्लङ्ग् -> श्लग् (श्लगिँ) गतौ भ्वादिः",
+    rom: "ślaṅg -> ślag (ślagiṁ) gatau bhvādiḥ",
+    wx: "Slafg -> Slag (Slagiṁ) gawO BvAxiH"
   },
   'SlaW1_SlaWaz_BvAxiH_hiMsAyAm': {
     dev: "श्लथ् (श्लथँ) हिंसायाम् भ्वादिः",
@@ -12685,19 +12685,19 @@ var root_info = {
     wx: "Svag (Svagiṁ) gawO BvAxiH"
   },
   'Svac1_Svacaz_BvAxiH_gawO': {
-    dev: "श्वच् (श्वचँ) गतौ भ्वादिः",
-    rom: "śvac (śvacaṁ) gatau bhvādiḥ",
-    wx: "Svac (Svacaṁ) gawO BvAxiH"
+    dev: "श्वञ्च् -> श्वच् (श्वचँ) गतौ भ्वादिः",
+    rom: "śvañc -> śvac (śvacaṁ) gatau bhvādiḥ",
+    wx: "SvaFc -> Svac (Svacaṁ) gawO BvAxiH"
   },
   'Svac2_Svaciz_BvAxiH_gawO': {
-    dev: "श्वच् (श्वचिँ) गतौ भ्वादिः",
-    rom: "śvac (śvaciṁ) gatau bhvādiḥ",
-    wx: "Svac (Svaciṁ) gawO BvAxiH"
+    dev: "श्वञ्च् -> श्वच् (श्वचिँ) गतौ भ्वादिः",
+    rom: "śvañc -> śvac (śvaciṁ) gatau bhvādiḥ",
+    wx: "SvaFc -> Svac (Svaciṁ) gawO BvAxiH"
   },
   'SvaTa1_SvaTa_curAxiH_samyagABARaNe': {
-    dev: "श्वठ (श्वठ) सम्यगाभाषणे चुरादिः",
-    rom: "śvaṭha (śvaṭha) samyagābhāṣaṇe curādiḥ",
-    wx: "SvaTa (SvaTa) samyagABARaNe curAxiH"
+    dev: "श्वठ् -> श्वठ (श्वठ) सम्यगाभाषणे चुरादिः",
+    rom: "śvaṭh -> śvaṭha (śvaṭha) samyagābhāṣaṇe curādiḥ",
+    wx: "SvaT -> SvaTa (SvaTa) samyagABARaNe curAxiH"
   },
   'SvaT1_SvaTaz_curAxiH_asaMskAre': {
     dev: "श्वठ् (श्वठँ) असंस्कारे चुरादिः",
@@ -12755,9 +12755,9 @@ var root_info = {
     wx: "Sviw (SviwAṁ) varNe BvAxiH"
   },
   'Svix1_Svixiz_BvAxiH_SvEwye': {
-    dev: "श्विद् (श्विदिँ) श्वैत्ये भ्वादिः",
-    rom: "śvid (śvidiṁ) śvaitye bhvādiḥ",
-    wx: "Svix (Svixiṁ) SvEwye BvAxiH"
+    dev: "श्विन्द् -> श्विद् (श्विदिँ) श्वैत्ये भ्वादिः",
+    rom: "śvind -> śvid (śvidiṁ) śvaitye bhvādiḥ",
+    wx: "Svinx -> Svix (Svixiṁ) SvEwye BvAxiH"
   },
   'Svel1_Svelqz_BvAxiH_calane': {
     dev: "श्वेल् (श्वेलृँ) चलने भ्वादिः",
@@ -12765,114 +12765,114 @@ var root_info = {
     wx: "Svel (Svelqṁ) calane BvAxiH"
   },
   'Rag1_Ragez_BvAxiH_saMvaraNe': {
-    dev: "षग् (षगेँ) संवरणे भ्वादिः",
-    rom: "ṣag (ṣageṁ) saṃvaraṇe bhvādiḥ",
-    wx: "Rag (Rageṁ) saMvaraNe BvAxiH"
+    dev: "सग् -> षग् (षगेँ) संवरणे भ्वादिः",
+    rom: "sag -> ṣag (ṣageṁ) saṃvaraṇe bhvādiḥ",
+    wx: "sag -> Rag (Rageṁ) saMvaraNe BvAxiH"
   },
   'RaG1_RaGaz_svAxiH_hiMsAyAm': {
-    dev: "षघ् (षघँ) हिंसायाम् स्वादिः",
-    rom: "ṣagh (ṣaghaṁ) hiṃsāyām svādiḥ",
-    wx: "RaG (RaGaṁ) hiMsAyAm svAxiH"
+    dev: "सघ् -> षघ् (षघँ) हिंसायाम् स्वादिः",
+    rom: "sagh -> ṣagh (ṣaghaṁ) hiṃsāyām svādiḥ",
+    wx: "saG -> RaG (RaGaṁ) hiMsAyAm svAxiH"
   },
   'Rac2_Racaz_BvAxiH_samavAye': {
-    dev: "षच् (षचँ) समवाये भ्वादिः",
-    rom: "ṣac (ṣacaṁ) samavāye bhvādiḥ",
-    wx: "Rac (Racaṁ) samavAye BvAxiH"
+    dev: "सच् -> षच् (षचँ) समवाये भ्वादिः",
+    rom: "sac -> ṣac (ṣacaṁ) samavāye bhvādiḥ",
+    wx: "sac -> Rac (Racaṁ) samavAye BvAxiH"
   },
   'Rac1_Racaz_BvAxiH_secane': {
-    dev: "षच् (षचँ) सेचने भ्वादिः",
-    rom: "ṣac (ṣacaṁ) secane bhvādiḥ",
-    wx: "Rac (Racaṁ) secane BvAxiH"
+    dev: "सच् -> षच् (षचँ) सेचने भ्वादिः",
+    rom: "sac -> ṣac (ṣacaṁ) secane bhvādiḥ",
+    wx: "sac -> Rac (Racaṁ) secane BvAxiH"
   },
   'Rat1_Rataz_BvAxiH_avayave': {
-    dev: "षट् (षटँ) अवयवे भ्वादिः",
-    rom: "ṣaṭ (ṣaṭaṁ) avayave bhvādiḥ",
-    wx: "Rat (Rataṁ) avayave BvAxiH"
+    dev: "सट् -> षट् (षटँ) अवयवे भ्वादिः",
+    rom: "saṭ -> ṣaṭ (ṣaṭaṁ) avayave bhvādiḥ",
+    wx: "sat -> Rat (Rataṁ) avayave BvAxiH"
   },
   'RaN1_RaNaz_BvAxiH_BakwO': {
-    dev: "षण् (षणँ) भक्तौ भ्वादिः",
-    rom: "ṣaṇ (ṣaṇaṁ) bhaktau bhvādiḥ",
-    wx: "RaN (RaNaṁ) BakwO BvAxiH"
+    dev: "सन् -> षण् (षणँ) भक्तौ भ्वादिः",
+    rom: "san -> ṣaṇ (ṣaṇaṁ) bhaktau bhvādiḥ",
+    wx: "san -> RaN (RaNaṁ) BakwO BvAxiH"
   },
   'RaN1_RaNaz_BvAxiH_samBakwO': {
-    dev: "षण् (षणँ) सम्भक्तौ भ्वादिः",
-    rom: "ṣaṇ (ṣaṇaṁ) sambhaktau bhvādiḥ",
-    wx: "RaN (RaNaṁ) samBakwO BvAxiH"
+    dev: "सन् -> षण् (षणँ) सम्भक्तौ भ्वादिः",
+    rom: "san -> ṣaṇ (ṣaṇaṁ) sambhaktau bhvādiḥ",
+    wx: "san -> RaN (RaNaṁ) samBakwO BvAxiH"
   },
   'RaN2_RaNuz_wanAxiH_xAne': {
-    dev: "षण् (षणुँ) दाने तनादिः",
-    rom: "ṣaṇ (ṣaṇuṁ) dāne tanādiḥ",
-    wx: "RaN (RaNuṁ) xAne wanAxiH"
+    dev: "सन् -> षण् (षणुँ) दाने तनादिः",
+    rom: "san -> ṣaṇ (ṣaṇuṁ) dāne tanādiḥ",
+    wx: "san -> RaN (RaNuṁ) xAne wanAxiH"
   },
   'Rawt1_Rawtaz_curAxiH_hiMsAyAm': {
-    dev: "षत्ट् (षत्टँ) हिंसायाम् चुरादिः",
-    rom: "ṣatṭ (ṣatṭaṁ) hiṃsāyām curādiḥ",
-    wx: "Rawt (Rawtaṁ) hiMsAyAm curAxiH"
+    dev: "सट्ट् -> षत्ट् (षत्टँ) हिंसायाम् चुरादिः",
+    rom: "saṭṭ -> ṣatṭ (ṣatṭaṁ) hiṃsāyām curādiḥ",
+    wx: "satt -> Rawt (Rawtaṁ) hiMsAyAm curAxiH"
   },
   'Rax2_RaxLz_wuxAxiH_avasAxane': {
-    dev: "षद् (षदॢँ) अवसादने तुदादिः",
-    rom: "ṣad (ṣadḷṁ) avasādane tudādiḥ",
-    wx: "Rax (RaxLṁ) avasAxane wuxAxiH"
+    dev: "सद् -> षद् (षदॢँ) अवसादने तुदादिः",
+    rom: "sad -> ṣad (ṣadḷṁ) avasādane tudādiḥ",
+    wx: "sax -> Rax (RaxLṁ) avasAxane wuxAxiH"
   },
   'Rax1_RaxLz_BvAxiH_avasAxane': {
-    dev: "षद् (षदॢँ) अवसादने भ्वादिः",
-    rom: "ṣad (ṣadḷṁ) avasādane bhvādiḥ",
-    wx: "Rax (RaxLṁ) avasAxane BvAxiH"
+    dev: "सद् -> षद् (षदॢँ) अवसादने भ्वादिः",
+    rom: "sad -> ṣad (ṣadḷṁ) avasādane bhvādiḥ",
+    wx: "sax -> Rax (RaxLṁ) avasAxane BvAxiH"
   },
   'Rax2_RaxLz_wuxAxiH_gawO': {
-    dev: "षद् (षदॢँ) गतौ तुदादिः",
-    rom: "ṣad (ṣadḷṁ) gatau tudādiḥ",
-    wx: "Rax (RaxLṁ) gawO wuxAxiH"
+    dev: "सद् -> षद् (षदॢँ) गतौ तुदादिः",
+    rom: "sad -> ṣad (ṣadḷṁ) gatau tudādiḥ",
+    wx: "sax -> Rax (RaxLṁ) gawO wuxAxiH"
   },
   'Rax1_RaxLz_BvAxiH_gawO': {
-    dev: "षद् (षदॢँ) गतौ भ्वादिः",
-    rom: "ṣad (ṣadḷṁ) gatau bhvādiḥ",
-    wx: "Rax (RaxLṁ) gawO BvAxiH"
+    dev: "सद् -> षद् (षदॢँ) गतौ भ्वादिः",
+    rom: "sad -> ṣad (ṣadḷṁ) gatau bhvādiḥ",
+    wx: "sax -> Rax (RaxLṁ) gawO BvAxiH"
   },
   'Rax1_Raxaz_curAxiH_paxyarWe': {
-    dev: "षद् (षदँ) पद्यर्थे चुरादिः",
-    rom: "ṣad (ṣadaṁ) padyarthe curādiḥ",
-    wx: "Rax (Raxaṁ) paxyarWe curAxiH"
+    dev: "सद् -> षद् (षदँ) पद्यर्थे चुरादिः",
+    rom: "sad -> ṣad (ṣadaṁ) padyarthe curādiḥ",
+    wx: "sax -> Rax (Raxaṁ) paxyarWe curAxiH"
   },
   'Rax2_RaxLz_wuxAxiH_viSaraNe': {
-    dev: "षद् (षदॢँ) विशरणे तुदादिः",
-    rom: "ṣad (ṣadḷṁ) viśaraṇe tudādiḥ",
-    wx: "Rax (RaxLṁ) viSaraNe wuxAxiH"
+    dev: "सद् -> षद् (षदॢँ) विशरणे तुदादिः",
+    rom: "sad -> ṣad (ṣadḷṁ) viśaraṇe tudādiḥ",
+    wx: "sax -> Rax (RaxLṁ) viSaraNe wuxAxiH"
   },
   'Rax1_RaxLz_BvAxiH_viSaraNe': {
-    dev: "षद् (षदॢँ) विशरणे भ्वादिः",
-    rom: "ṣad (ṣadḷṁ) viśaraṇe bhvādiḥ",
-    wx: "Rax (RaxLṁ) viSaraNe BvAxiH"
+    dev: "सद् -> षद् (षदॢँ) विशरणे भ्वादिः",
+    rom: "sad -> ṣad (ṣadḷṁ) viśaraṇe bhvādiḥ",
+    wx: "sax -> Rax (RaxLṁ) viSaraNe BvAxiH"
   },
   'Ranj1_Ranjaz_BvAxiH_safge': {
-    dev: "षन्ज् (षन्जँ) सङ्गे भ्वादिः",
-    rom: "ṣanj (ṣanjaṁ) saṅge bhvādiḥ",
-    wx: "Ranj (Ranjaṁ) safge BvAxiH"
+    dev: "सञ्ज् -> षन्ज् (षन्जँ) सङ्गे भ्वादिः",
+    rom: "sañj -> ṣanj (ṣanjaṁ) saṅge bhvādiḥ",
+    wx: "saFj -> Ranj (Ranjaṁ) safge BvAxiH"
   },
   'Ranb1_Ranbaz_curAxiH_sambanXe': {
-    dev: "षन्ब् (षन्बँ) सम्बन्धे चुरादिः",
-    rom: "ṣanb (ṣanbaṁ) sambandhe curādiḥ",
-    wx: "Ranb (Ranbaṁ) sambanXe curAxiH"
+    dev: "सम्ब् -> षन्ब् (षन्बँ) सम्बन्धे चुरादिः",
+    rom: "samb -> ṣanb (ṣanbaṁ) sambandhe curādiḥ",
+    wx: "samb -> Ranb (Ranbaṁ) sambanXe curAxiH"
   },
   'Rap1_Rapaz_BvAxiH_samavAye': {
-    dev: "षप् (षपँ) समवाये भ्वादिः",
-    rom: "ṣap (ṣapaṁ) samavāye bhvādiḥ",
-    wx: "Rap (Rapaṁ) samavAye BvAxiH"
+    dev: "सप् -> षप् (षपँ) समवाये भ्वादिः",
+    rom: "sap -> ṣap (ṣapaṁ) samavāye bhvādiḥ",
+    wx: "sap -> Rap (Rapaṁ) samavAye BvAxiH"
   },
   'Ram1_Ramaz_BvAxiH_avEklavye': {
-    dev: "षम् (षमँ) अवैक्लव्ये भ्वादिः",
-    rom: "ṣam (ṣamaṁ) avaiklavye bhvādiḥ",
-    wx: "Ram (Ramaṁ) avEklavye BvAxiH"
+    dev: "सम् -> षम् (षमँ) अवैक्लव्ये भ्वादिः",
+    rom: "sam -> ṣam (ṣamaṁ) avaiklavye bhvādiḥ",
+    wx: "sam -> Ram (Ramaṁ) avEklavye BvAxiH"
   },
   'Ram1_Ramaz_BvAxiH_vEklavye': {
-    dev: "षम् (षमँ) वैक्लव्ये भ्वादिः",
-    rom: "ṣam (ṣamaṁ) vaiklavye bhvādiḥ",
-    wx: "Ram (Ramaṁ) vEklavye BvAxiH"
+    dev: "सम् -> षम् (षमँ) वैक्लव्ये भ्वादिः",
+    rom: "sam -> ṣam (ṣamaṁ) vaiklavye bhvādiḥ",
+    wx: "sam -> Ram (Ramaṁ) vEklavye BvAxiH"
   },
   'Rarj1_Rarjaz_BvAxiH_arjane': {
-    dev: "षर्ज् (षर्जँ) अर्जने भ्वादिः",
-    rom: "ṣarj (ṣarjaṁ) arjane bhvādiḥ",
-    wx: "Rarj (Rarjaṁ) arjane BvAxiH"
+    dev: "सर्ज् -> षर्ज् (षर्जँ) अर्जने भ्वादिः",
+    rom: "sarj -> ṣarj (ṣarjaṁ) arjane bhvādiḥ",
+    wx: "sarj -> Rarj (Rarjaṁ) arjane BvAxiH"
   },
   'Rarb1_Rarbaz_BvAxiH_gawO': {
     dev: "षर्ब् (षर्बँ) गतौ भ्वादिः",
@@ -12880,199 +12880,199 @@ var root_info = {
     wx: "Rarb (Rarbaṁ) gawO BvAxiH"
   },
   'Rarv1_Rarvaz_BvAxiH_hiMsAyAm': {
-    dev: "षर्व् (षर्वँ) हिंसायाम् भ्वादिः",
-    rom: "ṣarv (ṣarvaṁ) hiṃsāyām bhvādiḥ",
-    wx: "Rarv (Rarvaṁ) hiMsAyAm BvAxiH"
+    dev: "सर्व् -> षर्व् (षर्वँ) हिंसायाम् भ्वादिः",
+    rom: "sarv -> ṣarv (ṣarvaṁ) hiṃsāyām bhvādiḥ",
+    wx: "sarv -> Rarv (Rarvaṁ) hiMsAyAm BvAxiH"
   },
   'Ral1_Ralaz_BvAxiH_gawO': {
-    dev: "षल् (षलँ) गतौ भ्वादिः",
-    rom: "ṣal (ṣalaṁ) gatau bhvādiḥ",
-    wx: "Ral (Ralaṁ) gawO BvAxiH"
+    dev: "सल् -> षल् (षलँ) गतौ भ्वादिः",
+    rom: "sal -> ṣal (ṣalaṁ) gatau bhvādiḥ",
+    wx: "sal -> Ral (Ralaṁ) gawO BvAxiH"
   },
   'Ras1_Rasaz_axAxiH_svapne': {
-    dev: "षस् (षसँ) स्वप्ने अदादिः",
-    rom: "ṣas (ṣasaṁ) svapne adādiḥ",
-    wx: "Ras (Rasaṁ) svapne axAxiH"
+    dev: "सस् -> षस् (षसँ) स्वप्ने अदादिः",
+    rom: "sas -> ṣas (ṣasaṁ) svapne adādiḥ",
+    wx: "sas -> Ras (Rasaṁ) svapne axAxiH"
   },
   'Rasj1_Rasjaz_BvAxiH_gawO': {
-    dev: "षस्ज् (षस्जँ) गतौ भ्वादिः",
-    rom: "ṣasj (ṣasjaṁ) gatau bhvādiḥ",
-    wx: "Rasj (Rasjaṁ) gawO BvAxiH"
+    dev: "सस्ज् -> षस्ज् (षस्जँ) गतौ भ्वादिः",
+    rom: "sasj -> ṣasj (ṣasjaṁ) gatau bhvādiḥ",
+    wx: "sasj -> Rasj (Rasjaṁ) gawO BvAxiH"
   },
   'Rasw1_Raswiz_axAxiH_svapne': {
-    dev: "षस्त् (षस्तिँ) स्वप्ने अदादिः",
-    rom: "ṣast (ṣastiṁ) svapne adādiḥ",
-    wx: "Rasw (Raswiṁ) svapne axAxiH"
+    dev: "संस्त् -> षस्त् (षस्तिँ) स्वप्ने अदादिः",
+    rom: "saṃst -> ṣast (ṣastiṁ) svapne adādiḥ",
+    wx: "saMsw -> Rasw (Raswiṁ) svapne axAxiH"
   },
   'Rah3_Rahaz_curAxiH_marRaNe': {
-    dev: "षह् (षहँ) मर्षणे चुरादिः",
-    rom: "ṣah (ṣahaṁ) marṣaṇe curādiḥ",
-    wx: "Rah (Rahaṁ) marRaNe curAxiH"
+    dev: "सह् -> षह् (षहँ) मर्षणे चुरादिः",
+    rom: "sah -> ṣah (ṣahaṁ) marṣaṇe curādiḥ",
+    wx: "sah -> Rah (Rahaṁ) marRaNe curAxiH"
   },
   'Rah1_Rahaz_BvAxiH_marRaNe': {
-    dev: "षह् (षहँ) मर्षणे भ्वादिः",
-    rom: "ṣah (ṣahaṁ) marṣaṇe bhvādiḥ",
-    wx: "Rah (Rahaṁ) marRaNe BvAxiH"
+    dev: "सह् -> षह् (षहँ) मर्षणे भ्वादिः",
+    rom: "sah -> ṣah (ṣahaṁ) marṣaṇe bhvādiḥ",
+    wx: "sah -> Rah (Rahaṁ) marRaNe BvAxiH"
   },
   'Rah2_Rahaz_xivAxiH_SakyarWe': {
-    dev: "षह् (षहँ) शक्यर्थे दिवादिः",
-    rom: "ṣah (ṣahaṁ) śakyarthe divādiḥ",
-    wx: "Rah (Rahaṁ) SakyarWe xivAxiH"
+    dev: "सह् -> षह् (षहँ) शक्यर्थे दिवादिः",
+    rom: "sah -> ṣah (ṣahaṁ) śakyarthe divādiḥ",
+    wx: "sah -> Rah (Rahaṁ) SakyarWe xivAxiH"
   },
   'RAX1_RAXaz_svAxiH_saMsixXO': {
-    dev: "षाध् (षाधँ) संसिद्धौ स्वादिः",
-    rom: "ṣādh (ṣādhaṁ) saṃsiddhau svādiḥ",
-    wx: "RAX (RAXaṁ) saMsixXO svAxiH"
+    dev: "साध् -> षाध् (षाधँ) संसिद्धौ स्वादिः",
+    rom: "sādh -> ṣādh (ṣādhaṁ) saṃsiddhau svādiḥ",
+    wx: "sAX -> RAX (RAXaṁ) saMsixXO svAxiH"
   },
   'RAnwv1_RAnwvaz_curAxiH_sAmaprayoge': {
-    dev: "षान्त्व् (षान्त्वँ) सामप्रयोगे चुरादिः",
-    rom: "ṣāntv (ṣāntvaṁ) sāmaprayoge curādiḥ",
-    wx: "RAnwv (RAnwvaṁ) sAmaprayoge curAxiH"
+    dev: "सान्त्व् -> षान्त्व् (षान्त्वँ) सामप्रयोगे चुरादिः",
+    rom: "sāntv -> ṣāntv (ṣāntvaṁ) sāmaprayoge curādiḥ",
+    wx: "sAnwv -> RAnwv (RAnwvaṁ) sAmaprayoge curAxiH"
   },
   'Ri2_RiF_kryAxiH_banXane': {
-    dev: "षि (षिञ्) बन्धने क्र्यादिः",
-    rom: "ṣi (ṣiñ) bandhane kryādiḥ",
-    wx: "Ri (RiF) banXane kryAxiH"
+    dev: "सि -> षि (षिञ्) बन्धने क्र्यादिः",
+    rom: "si -> ṣi (ṣiñ) bandhane kryādiḥ",
+    wx: "si -> Ri (RiF) banXane kryAxiH"
   },
   'Ri1_RiF_svAxiH_banXane': {
-    dev: "षि (षिञ्) बन्धने स्वादिः",
-    rom: "ṣi (ṣiñ) bandhane svādiḥ",
-    wx: "Ri (RiF) banXane svAxiH"
+    dev: "सि -> षि (षिञ्) बन्धने स्वादिः",
+    rom: "si -> ṣi (ṣiñ) bandhane svādiḥ",
+    wx: "si -> Ri (RiF) banXane svAxiH"
   },
   'Ric1_Ricaz_wuxAxiH_kRaraNe': {
-    dev: "षिच् (षिचँ) क्षरणे तुदादिः",
-    rom: "ṣic (ṣicaṁ) kṣaraṇe tudādiḥ",
-    wx: "Ric (Ricaṁ) kRaraNe wuxAxiH"
+    dev: "सिच् -> षिच् (षिचँ) क्षरणे तुदादिः",
+    rom: "sic -> ṣic (ṣicaṁ) kṣaraṇe tudādiḥ",
+    wx: "sic -> Ric (Ricaṁ) kRaraNe wuxAxiH"
   },
   'Rit1_Ritaz_BvAxiH_anAxare': {
-    dev: "षिट् (षिटँ) अनादरे भ्वादिः",
-    rom: "ṣiṭ (ṣiṭaṁ) anādare bhvādiḥ",
-    wx: "Rit (Ritaṁ) anAxare BvAxiH"
+    dev: "सिट् -> षिट् (षिटँ) अनादरे भ्वादिः",
+    rom: "siṭ -> ṣiṭ (ṣiṭaṁ) anādare bhvādiḥ",
+    wx: "sit -> Rit (Ritaṁ) anAxare BvAxiH"
   },
   'RiX2_RiXuz_BvAxiH_gawyAm': {
-    dev: "षिध् (षिधुँ) गत्याम् भ्वादिः",
-    rom: "ṣidh (ṣidhuṁ) gatyām bhvādiḥ",
-    wx: "RiX (RiXuṁ) gawyAm BvAxiH"
+    dev: "सिध् -> षिध् (षिधुँ) गत्याम् भ्वादिः",
+    rom: "sidh -> ṣidh (ṣidhuṁ) gatyām bhvādiḥ",
+    wx: "siX -> RiX (RiXuṁ) gawyAm BvAxiH"
   },
   'RiX3_RiXuz_xivAxiH_saMrAxXO': {
-    dev: "षिध् (षिधुँ) संराद्धौ दिवादिः",
-    rom: "ṣidh (ṣidhuṁ) saṃrāddhau divādiḥ",
-    wx: "RiX (RiXuṁ) saMrAxXO xivAxiH"
+    dev: "सिध् -> षिध् (षिधुँ) संराद्धौ दिवादिः",
+    rom: "sidh -> ṣidh (ṣidhuṁ) saṃrāddhau divādiḥ",
+    wx: "siX -> RiX (RiXuṁ) saMrAxXO xivAxiH"
   },
   'RiX1_RiXUz_BvAxiH_mAfgalye': {
-    dev: "षिध् (षिधूँ) माङ्गल्ये भ्वादिः",
-    rom: "ṣidh (ṣidhūṁ) māṅgalye bhvādiḥ",
-    wx: "RiX (RiXUṁ) mAfgalye BvAxiH"
+    dev: "सिध् -> षिध् (षिधूँ) माङ्गल्ये भ्वादिः",
+    rom: "sidh -> ṣidh (ṣidhūṁ) māṅgalye bhvādiḥ",
+    wx: "siX -> RiX (RiXUṁ) mAfgalye BvAxiH"
   },
   'RiX1_RiXUz_BvAxiH_SAswre': {
-    dev: "षिध् (षिधूँ) शास्त्रे भ्वादिः",
-    rom: "ṣidh (ṣidhūṁ) śāstre bhvādiḥ",
-    wx: "RiX (RiXUṁ) SAswre BvAxiH"
+    dev: "सिध् -> षिध् (षिधूँ) शास्त्रे भ्वादिः",
+    rom: "sidh -> ṣidh (ṣidhūṁ) śāstre bhvādiḥ",
+    wx: "siX -> RiX (RiXUṁ) SAswre BvAxiH"
   },
   'Ril1_Rilaz_wuxAxiH_uFCe': {
-    dev: "षिल् (षिलँ) उञ्छे तुदादिः",
-    rom: "ṣil (ṣilaṁ) uñche tudādiḥ",
-    wx: "Ril (Rilaṁ) uFCe wuxAxiH"
+    dev: "सिल् -> षिल् (षिलँ) उञ्छे तुदादिः",
+    rom: "sil -> ṣil (ṣilaṁ) uñche tudādiḥ",
+    wx: "sil -> Ril (Rilaṁ) uFCe wuxAxiH"
   },
   'Riv1_Rivuz_xivAxiH_wanwusanwAne': {
-    dev: "षिव् (षिवुँ) तन्तुसन्ताने दिवादिः",
-    rom: "ṣiv (ṣivuṁ) tantusantāne divādiḥ",
-    wx: "Riv (Rivuṁ) wanwusanwAne xivAxiH"
+    dev: "सिव् -> षिव् (षिवुँ) तन्तुसन्ताने दिवादिः",
+    rom: "siv -> ṣiv (ṣivuṁ) tantusantāne divādiḥ",
+    wx: "siv -> Riv (Rivuṁ) wanwusanwAne xivAxiH"
   },
   'Ru2_Ru_axAxiH_ESvarye': {
-    dev: "षु (षु) ऐश्वर्ये अदादिः",
-    rom: "ṣu (ṣu) aiśvarye adādiḥ",
-    wx: "Ru (Ru) ESvarye axAxiH"
+    dev: "सु -> षु (षु) ऐश्वर्ये अदादिः",
+    rom: "su -> ṣu (ṣu) aiśvarye adādiḥ",
+    wx: "su -> Ru (Ru) ESvarye axAxiH"
   },
   'Ru1_Ru_BvAxiH_ESvarye': {
-    dev: "षु (षु) ऐश्वर्ये भ्वादिः",
-    rom: "ṣu (ṣu) aiśvarye bhvādiḥ",
-    wx: "Ru (Ru) ESvarye BvAxiH"
+    dev: "सु -> षु (षु) ऐश्वर्ये भ्वादिः",
+    rom: "su -> ṣu (ṣu) aiśvarye bhvādiḥ",
+    wx: "su -> Ru (Ru) ESvarye BvAxiH"
   },
   'Ru1_Ru_BvAxiH_gawO': {
-    dev: "षु (षु) गतौ भ्वादिः",
-    rom: "ṣu (ṣu) gatau bhvādiḥ",
-    wx: "Ru (Ru) gawO BvAxiH"
+    dev: "सु -> षु (षु) गतौ भ्वादिः",
+    rom: "su -> ṣu (ṣu) gatau bhvādiḥ",
+    wx: "su -> Ru (Ru) gawO BvAxiH"
   },
   'Ru2_Ru_axAxiH_prasave': {
-    dev: "षु (षु) प्रसवे अदादिः",
-    rom: "ṣu (ṣu) prasave adādiḥ",
-    wx: "Ru (Ru) prasave axAxiH"
+    dev: "सु -> षु (षु) प्रसवे अदादिः",
+    rom: "su -> ṣu (ṣu) prasave adādiḥ",
+    wx: "su -> Ru (Ru) prasave axAxiH"
   },
   'Ru1_Ru_BvAxiH_prasave': {
-    dev: "षु (षु) प्रसवे भ्वादिः",
-    rom: "ṣu (ṣu) prasave bhvādiḥ",
-    wx: "Ru (Ru) prasave BvAxiH"
+    dev: "सु -> षु (षु) प्रसवे भ्वादिः",
+    rom: "su -> ṣu (ṣu) prasave bhvādiḥ",
+    wx: "su -> Ru (Ru) prasave BvAxiH"
   },
   'Ru3_RuF_svAxiH_aBiRave': {
-    dev: "षु (षुञ्) अभिषवे स्वादिः",
-    rom: "ṣu (ṣuñ) abhiṣave svādiḥ",
-    wx: "Ru (RuF) aBiRave svAxiH"
+    dev: "सु -> षु (षुञ्) अभिषवे स्वादिः",
+    rom: "su -> ṣu (ṣuñ) abhiṣave svādiḥ",
+    wx: "su -> Ru (RuF) aBiRave svAxiH"
   },
   'Ruwt1_Ruwtaz_curAxiH_anAxare': {
-    dev: "षुत्ट् (षुत्टँ) अनादरे चुरादिः",
-    rom: "ṣutṭ (ṣutṭaṁ) anādare curādiḥ",
-    wx: "Ruwt (Ruwtaṁ) anAxare curAxiH"
+    dev: "सुट्ट् -> षुत्ट् (षुत्टँ) अनादरे चुरादिः",
+    rom: "suṭṭ -> ṣutṭ (ṣutṭaṁ) anādare curādiḥ",
+    wx: "sutt -> Ruwt (Ruwtaṁ) anAxare curAxiH"
   },
   'Rur1_Ruraz_wuxAxiH_ESvarye': {
-    dev: "षुर् (षुरँ) ऐश्वर्ये तुदादिः",
-    rom: "ṣur (ṣuraṁ) aiśvarye tudādiḥ",
-    wx: "Rur (Ruraṁ) ESvarye wuxAxiH"
+    dev: "सुर् -> षुर् (षुरँ) ऐश्वर्ये तुदादिः",
+    rom: "sur -> ṣur (ṣuraṁ) aiśvarye tudādiḥ",
+    wx: "sur -> Rur (Ruraṁ) ESvarye wuxAxiH"
   },
   'Rur1_Ruraz_wuxAxiH_xIpwO': {
-    dev: "षुर् (षुरँ) दीप्तौ तुदादिः",
-    rom: "ṣur (ṣuraṁ) dīptau tudādiḥ",
-    wx: "Rur (Ruraṁ) xIpwO wuxAxiH"
+    dev: "सुर् -> षुर् (षुरँ) दीप्तौ तुदादिः",
+    rom: "sur -> ṣur (ṣuraṁ) dīptau tudādiḥ",
+    wx: "sur -> Rur (Ruraṁ) xIpwO wuxAxiH"
   },
   'Ruh1_Ruhaz_xivAxiH_cakyarWe': {
-    dev: "षुह् (षुहँ) चक्यर्थे दिवादिः",
-    rom: "ṣuh (ṣuhaṁ) cakyarthe divādiḥ",
-    wx: "Ruh (Ruhaṁ) cakyarWe xivAxiH"
+    dev: "सुह् -> षुह् (षुहँ) चक्यर्थे दिवादिः",
+    rom: "suh -> ṣuh (ṣuhaṁ) cakyarthe divādiḥ",
+    wx: "suh -> Ruh (Ruhaṁ) cakyarWe xivAxiH"
   },
   'Ruh1_Ruhaz_xivAxiH_SakyarWe': {
-    dev: "षुह् (षुहँ) शक्यर्थे दिवादिः",
-    rom: "ṣuh (ṣuhaṁ) śakyarthe divādiḥ",
-    wx: "Ruh (Ruhaṁ) SakyarWe xivAxiH"
+    dev: "सुह् -> षुह् (षुहँ) शक्यर्थे दिवादिः",
+    rom: "suh -> ṣuh (ṣuhaṁ) śakyarthe divādiḥ",
+    wx: "suh -> Ruh (Ruhaṁ) SakyarWe xivAxiH"
   },
   'RU3_RU_wuxAxiH_preraNe': {
-    dev: "षू (षू) प्रेरणे तुदादिः",
-    rom: "ṣū (ṣū) preraṇe tudādiḥ",
-    wx: "RU (RU) preraNe wuxAxiH"
+    dev: "सू -> षू (षू) प्रेरणे तुदादिः",
+    rom: "sū -> ṣū (ṣū) preraṇe tudādiḥ",
+    wx: "sU -> RU (RU) preraNe wuxAxiH"
   },
   'RU1_RUf_axAxiH_prANigarBavimocane': {
-    dev: "षू (षूङ्) प्राणिगर्भविमोचने अदादिः",
-    rom: "ṣū (ṣūṅ) prāṇigarbhavimocane adādiḥ",
-    wx: "RU (RUf) prANigarBavimocane axAxiH"
+    dev: "सू -> षू (षूङ्) प्राणिगर्भविमोचने अदादिः",
+    rom: "sū -> ṣū (ṣūṅ) prāṇigarbhavimocane adādiḥ",
+    wx: "sU -> RU (RUf) prANigarBavimocane axAxiH"
   },
   'RU2_RUf_xivAxiH_prANiprasave': {
-    dev: "षू (षूङ्) प्राणिप्रसवे दिवादिः",
-    rom: "ṣū (ṣūṅ) prāṇiprasave divādiḥ",
-    wx: "RU (RUf) prANiprasave xivAxiH"
+    dev: "सू -> षू (षूङ्) प्राणिप्रसवे दिवादिः",
+    rom: "sū -> ṣū (ṣūṅ) prāṇiprasave divādiḥ",
+    wx: "sU -> RU (RUf) prANiprasave xivAxiH"
   },
   'RUx2_RUxaz_curAxiH_AsravaNe': {
-    dev: "षूद् (षूदँ) आस्रवणे चुरादिः",
-    rom: "ṣūd (ṣūdaṁ) āsravaṇe curādiḥ",
-    wx: "RUx (RUxaṁ) AsravaNe curAxiH"
+    dev: "सूद् -> षूद् (षूदँ) आस्रवणे चुरादिः",
+    rom: "sūd -> ṣūd (ṣūdaṁ) āsravaṇe curādiḥ",
+    wx: "sUx -> RUx (RUxaṁ) AsravaNe curAxiH"
   },
   'RUx2_RUxaz_curAxiH_kRaraNe': {
-    dev: "षूद् (षूदँ) क्षरणे चुरादिः",
-    rom: "ṣūd (ṣūdaṁ) kṣaraṇe curādiḥ",
-    wx: "RUx (RUxaṁ) kRaraNe curAxiH"
+    dev: "सूद् -> षूद् (षूदँ) क्षरणे चुरादिः",
+    rom: "sūd -> ṣūd (ṣūdaṁ) kṣaraṇe curādiḥ",
+    wx: "sUx -> RUx (RUxaṁ) kRaraNe curAxiH"
   },
   'RUx1_RUxaz_BvAxiH_kRaraNe': {
-    dev: "षूद् (षूदँ) क्षरणे भ्वादिः",
-    rom: "ṣūd (ṣūdaṁ) kṣaraṇe bhvādiḥ",
-    wx: "RUx (RUxaṁ) kRaraNe BvAxiH"
+    dev: "सूद् -> षूद् (षूदँ) क्षरणे भ्वादिः",
+    rom: "sūd -> ṣūd (ṣūdaṁ) kṣaraṇe bhvādiḥ",
+    wx: "sUx -> RUx (RUxaṁ) kRaraNe BvAxiH"
   },
   'RUrkR1_RUrkRaz_BvAxiH_anAxare': {
-    dev: "षूर्क्ष् (षूर्क्षँ) अनादरे भ्वादिः",
-    rom: "ṣūrkṣ (ṣūrkṣaṁ) anādare bhvādiḥ",
-    wx: "RUrkR (RUrkRaṁ) anAxare BvAxiH"
+    dev: "सूर्क्ष् -> षूर्क्ष् (षूर्क्षँ) अनादरे भ्वादिः",
+    rom: "sūrkṣ -> ṣūrkṣ (ṣūrkṣaṁ) anādare bhvādiḥ",
+    wx: "sUrkR -> RUrkR (RUrkRaṁ) anAxare BvAxiH"
   },
   'RUrkRy1_RUrkRyaz_BvAxiH_IrRyAyAm': {
-    dev: "षूर्क्ष्य् (षूर्क्ष्यँ) ईर्ष्यायाम् भ्वादिः",
-    rom: "ṣūrkṣy (ṣūrkṣyaṁ) īrṣyāyām bhvādiḥ",
-    wx: "RUrkRy (RUrkRyaṁ) IrRyAyAm BvAxiH"
+    dev: "सूर्क्ष्य् -> षूर्क्ष्य् (षूर्क्ष्यँ) ईर्ष्यायाम् भ्वादिः",
+    rom: "sūrkṣy -> ṣūrkṣy (ṣūrkṣyaṁ) īrṣyāyām bhvādiḥ",
+    wx: "sUrkRy -> RUrkRy (RUrkRyaṁ) IrRyAyAm BvAxiH"
   },
   'RUR1_RURaz_BvAxiH_prasave': {
     dev: "षूष् (षूषँ) प्रसवे भ्वादिः",
@@ -13080,19 +13080,19 @@ var root_info = {
     wx: "RUR (RURaṁ) prasave BvAxiH"
   },
   'RqX1_RqXqz_BvAxiH_unxe': {
-    dev: "षृध् (षृधृँ) उन्दे भ्वादिः",
-    rom: "ṣṛdh (ṣṛdhṛṁ) unde bhvādiḥ",
-    wx: "RqX (RqXqṁ) unxe BvAxiH"
+    dev: "शृध् -> षृध् (षृधृँ) उन्दे भ्वादिः",
+    rom: "śṛdh -> ṣṛdh (ṣṛdhṛṁ) unde bhvādiḥ",
+    wx: "SqX -> RqX (RqXqṁ) unxe BvAxiH"
   },
   'RqnB1_RqnBuz_BvAxiH_hiMsAyAm': {
-    dev: "षृन्भ् (षृन्भुँ) हिंसायाम् भ्वादिः",
-    rom: "ṣṛnbh (ṣṛnbhuṁ) hiṃsāyām bhvādiḥ",
-    wx: "RqnB (RqnBuṁ) hiMsAyAm BvAxiH"
+    dev: "सृम्भ् -> षृन्भ् (षृन्भुँ) हिंसायाम् भ्वादिः",
+    rom: "sṛmbh -> ṣṛnbh (ṣṛnbhuṁ) hiṃsāyām bhvādiḥ",
+    wx: "sqmB -> RqnB (RqnBuṁ) hiMsAyAm BvAxiH"
   },
   'RqB1_RqBuz_BvAxiH_hiMsAyAm': {
-    dev: "षृभ् (षृभुँ) हिंसायाम् भ्वादिः",
-    rom: "ṣṛbh (ṣṛbhuṁ) hiṃsāyām bhvādiḥ",
-    wx: "RqB (RqBuṁ) hiMsAyAm BvAxiH"
+    dev: "सृभ् -> षृभ् (षृभुँ) हिंसायाम् भ्वादिः",
+    rom: "sṛbh -> ṣṛbh (ṣṛbhuṁ) hiṃsāyām bhvādiḥ",
+    wx: "sqB -> RqB (RqBuṁ) hiMsAyAm BvAxiH"
   },
   'Reb1_Rebqz_BvAxiH_sevane': {
     dev: "षेब् (षेबृँ) सेवने भ्वादिः",
@@ -13100,14 +13100,14 @@ var root_info = {
     wx: "Reb (Rebqṁ) sevane BvAxiH"
   },
   'Rev1_Revqz_BvAxiH_secane': {
-    dev: "षेव् (षेवृँ) सेचने भ्वादिः",
-    rom: "ṣev (ṣevṛṁ) secane bhvādiḥ",
-    wx: "Rev (Revqṁ) secane BvAxiH"
+    dev: "सेव् -> षेव् (षेवृँ) सेचने भ्वादिः",
+    rom: "sev -> ṣev (ṣevṛṁ) secane bhvādiḥ",
+    wx: "sev -> Rev (Revqṁ) secane BvAxiH"
   },
   'Rev1_Revqz_BvAxiH_sevane': {
-    dev: "षेव् (षेवृँ) सेवने भ्वादिः",
-    rom: "ṣev (ṣevṛṁ) sevane bhvādiḥ",
-    wx: "Rev (Revqṁ) sevane BvAxiH"
+    dev: "सेव् -> षेव् (षेवृँ) सेवने भ्वादिः",
+    rom: "sev -> ṣev (ṣevṛṁ) sevane bhvādiḥ",
+    wx: "sev -> Rev (Revqṁ) sevane BvAxiH"
   },
   'RE1_RE_BvAxiH_kRaye': {
     dev: "षै (षै) क्षये भ्वादिः",
@@ -13115,44 +13115,44 @@ var root_info = {
     wx: "RE (RE) kRaye BvAxiH"
   },
   'Ro1_Ro_xivAxiH_anwakarmaNi': {
-    dev: "षो (षो) अन्तकर्मणि दिवादिः",
-    rom: "ṣo (ṣo) antakarmaṇi divādiḥ",
-    wx: "Ro (Ro) anwakarmaNi xivAxiH"
+    dev: "सो -> षो (षो) अन्तकर्मणि दिवादिः",
+    rom: "so -> ṣo (ṣo) antakarmaṇi divādiḥ",
+    wx: "so -> Ro (Ro) anwakarmaNi xivAxiH"
   },
   'RkaB1_RkaBiz_BvAxiH_prawibanXe': {
-    dev: "ष्कभ् (ष्कभिँ) प्रतिबन्धे भ्वादिः",
-    rom: "ṣkabh (ṣkabhiṁ) pratibandhe bhvādiḥ",
-    wx: "RkaB (RkaBiṁ) prawibanXe BvAxiH"
+    dev: "स्कम्भ् -> ष्कभ् (ष्कभिँ) प्रतिबन्धे भ्वादिः",
+    rom: "skambh -> ṣkabh (ṣkabhiṁ) pratibandhe bhvādiḥ",
+    wx: "skamB -> RkaB (RkaBiṁ) prawibanXe BvAxiH"
   },
   'RtIm1_RtImaz_xivAxiH_ArxrIBAve': {
-    dev: "ष्टीम् (ष्टीमँ) आर्द्रीभावे दिवादिः",
-    rom: "ṣṭīm (ṣṭīmaṁ) ārdrībhāve divādiḥ",
-    wx: "RtIm (RtImaṁ) ArxrIBAve xivAxiH"
+    dev: "स्तीम् -> ष्टीम् (ष्टीमँ) आर्द्रीभावे दिवादिः",
+    rom: "stīm -> ṣṭīm (ṣṭīmaṁ) ārdrībhāve divādiḥ",
+    wx: "swIm -> RtIm (RtImaṁ) ArxrIBAve xivAxiH"
   },
   'Rtuc1_Rtucaz_BvAxiH_prasAxe': {
-    dev: "ष्टुच् (ष्टुचँ) प्रसादे भ्वादिः",
-    rom: "ṣṭuc (ṣṭucaṁ) prasāde bhvādiḥ",
-    wx: "Rtuc (Rtucaṁ) prasAxe BvAxiH"
+    dev: "स्तुच् -> ष्टुच् (ष्टुचँ) प्रसादे भ्वादिः",
+    rom: "stuc -> ṣṭuc (ṣṭucaṁ) prasāde bhvādiḥ",
+    wx: "swuc -> Rtuc (Rtucaṁ) prasAxe BvAxiH"
   },
   'RtuB1_RtuBuz_BvAxiH_swamBe': {
-    dev: "ष्टुभ् (ष्टुभुँ) स्तम्भे भ्वादिः",
-    rom: "ṣṭubh (ṣṭubhuṁ) stambhe bhvādiḥ",
-    wx: "RtuB (RtuBuṁ) swamBe BvAxiH"
+    dev: "स्तुभ् -> ष्टुभ् (ष्टुभुँ) स्तम्भे भ्वादिः",
+    rom: "stubh -> ṣṭubh (ṣṭubhuṁ) stambhe bhvādiḥ",
+    wx: "swuB -> RtuB (RtuBuṁ) swamBe BvAxiH"
   },
   'RtqkR1_RtqkRaz_BvAxiH_gawO': {
-    dev: "ष्टृक्ष् (ष्टृक्षँ) गतौ भ्वादिः",
-    rom: "ṣṭṛkṣ (ṣṭṛkṣaṁ) gatau bhvādiḥ",
-    wx: "RtqkR (RtqkRaṁ) gawO BvAxiH"
+    dev: "स्तृक्ष् -> ष्टृक्ष् (ष्टृक्षँ) गतौ भ्वादिः",
+    rom: "stṛkṣ -> ṣṭṛkṣ (ṣṭṛkṣaṁ) gatau bhvādiḥ",
+    wx: "swqkR -> RtqkR (RtqkRaṁ) gawO BvAxiH"
   },
   'RtyE1_RtyE_BvAxiH_Sabxe': {
-    dev: "ष्ट्यै (ष्ट्यै) शब्दे भ्वादिः",
-    rom: "ṣṭyai (ṣṭyai) śabde bhvādiḥ",
-    wx: "RtyE (RtyE) Sabxe BvAxiH"
+    dev: "स्त्यै -> ष्ट्यै (ष्ट्यै) शब्दे भ्वादिः",
+    rom: "styai -> ṣṭyai (ṣṭyai) śabde bhvādiḥ",
+    wx: "swyE -> RtyE (RtyE) Sabxe BvAxiH"
   },
   'RtyE1_RtyE_BvAxiH_safGAwe': {
-    dev: "ष्ट्यै (ष्ट्यै) सङ्घाते भ्वादिः",
-    rom: "ṣṭyai (ṣṭyai) saṅghāte bhvādiḥ",
-    wx: "RtyE (RtyE) safGAwe BvAxiH"
+    dev: "स्त्यै -> ष्ट्यै (ष्ट्यै) सङ्घाते भ्वादिः",
+    rom: "styai -> ṣṭyai (ṣṭyai) saṅghāte bhvādiḥ",
+    wx: "swyE -> RtyE (RtyE) safGAwe BvAxiH"
   },
   'RTiv2_RTivuz_xivAxiH_nirasane': {
     dev: "ष्ठिव् (ष्ठिवुँ) निरसने दिवादिः",
@@ -13165,84 +13165,84 @@ var root_info = {
     wx: "RTiv (RTivuṁ) nirasane BvAxiH"
   },
   'RNE1_RNE_BvAxiH_veRtane': {
-    dev: "ष्णै (ष्णै) वेष्टने भ्वादिः",
-    rom: "ṣṇai (ṣṇai) veṣṭane bhvādiḥ",
-    wx: "RNE (RNE) veRtane BvAxiH"
+    dev: "स्नै -> ष्णै (ष्णै) वेष्टने भ्वादिः",
+    rom: "snai -> ṣṇai (ṣṇai) veṣṭane bhvādiḥ",
+    wx: "snE -> RNE (RNE) veRtane BvAxiH"
   },
   'Rwak1_Rwakaz_BvAxiH_prawiGAwe': {
-    dev: "ष्तक् (ष्तकँ) प्रतिघाते भ्वादिः",
-    rom: "ṣtak (ṣtakaṁ) pratighāte bhvādiḥ",
-    wx: "Rwak (Rwakaṁ) prawiGAwe BvAxiH"
+    dev: "स्तक् -> ष्तक् (ष्तकँ) प्रतिघाते भ्वादिः",
+    rom: "stak -> ṣtak (ṣtakaṁ) pratighāte bhvādiḥ",
+    wx: "swak -> Rwak (Rwakaṁ) prawiGAwe BvAxiH"
   },
   'Rwan1_Rwanaz_BvAxiH_Sabxe': {
-    dev: "ष्तन् (ष्तनँ) शब्दे भ्वादिः",
-    rom: "ṣtan (ṣtanaṁ) śabde bhvādiḥ",
-    wx: "Rwan (Rwanaṁ) Sabxe BvAxiH"
+    dev: "स्तन् -> ष्तन् (ष्तनँ) शब्दे भ्वादिः",
+    rom: "stan -> ṣtan (ṣtanaṁ) śabde bhvādiḥ",
+    wx: "swan -> Rwan (Rwanaṁ) Sabxe BvAxiH"
   },
   'RwaB1_RwaBiz_BvAxiH_prawibanXe': {
-    dev: "ष्तभ् (ष्तभिँ) प्रतिबन्धे भ्वादिः",
-    rom: "ṣtabh (ṣtabhiṁ) pratibandhe bhvādiḥ",
-    wx: "RwaB (RwaBiṁ) prawibanXe BvAxiH"
+    dev: "स्तम्भ् -> ष्तभ् (ष्तभिँ) प्रतिबन्धे भ्वादिः",
+    rom: "stambh -> ṣtabh (ṣtabhiṁ) pratibandhe bhvādiḥ",
+    wx: "swamB -> RwaB (RwaBiṁ) prawibanXe BvAxiH"
   },
   'Rwam1_Rwamaz_BvAxiH_avEklavye': {
-    dev: "ष्तम् (ष्तमँ) अवैक्लव्ये भ्वादिः",
-    rom: "ṣtam (ṣtamaṁ) avaiklavye bhvādiḥ",
-    wx: "Rwam (Rwamaṁ) avEklavye BvAxiH"
+    dev: "स्तम् -> ष्तम् (ष्तमँ) अवैक्लव्ये भ्वादिः",
+    rom: "stam -> ṣtam (ṣtamaṁ) avaiklavye bhvādiḥ",
+    wx: "swam -> Rwam (Rwamaṁ) avEklavye BvAxiH"
   },
   'Rwam1_Rwamaz_BvAxiH_vEklavye': {
-    dev: "ष्तम् (ष्तमँ) वैक्लव्ये भ्वादिः",
-    rom: "ṣtam (ṣtamaṁ) vaiklavye bhvādiḥ",
-    wx: "Rwam (Rwamaṁ) vEklavye BvAxiH"
+    dev: "स्तम् -> ष्तम् (ष्तमँ) वैक्लव्ये भ्वादिः",
+    rom: "stam -> ṣtam (ṣtamaṁ) vaiklavye bhvādiḥ",
+    wx: "swam -> Rwam (Rwamaṁ) vEklavye BvAxiH"
   },
   'RwiG1_RwiGaz_svAxiH_Askanxane': {
-    dev: "ष्तिघ् (ष्तिघँ) आस्कन्दने स्वादिः",
-    rom: "ṣtigh (ṣtighaṁ) āskandane svādiḥ",
-    wx: "RwiG (RwiGaṁ) Askanxane svAxiH"
+    dev: "स्तिघ् -> ष्तिघ् (ष्तिघँ) आस्कन्दने स्वादिः",
+    rom: "stigh -> ṣtigh (ṣtighaṁ) āskandane svādiḥ",
+    wx: "swiG -> RwiG (RwiGaṁ) Askanxane svAxiH"
   },
   'Rwip1_Rwipqz_BvAxiH_kRaraNe': {
-    dev: "ष्तिप् (ष्तिपृँ) क्षरणे भ्वादिः",
-    rom: "ṣtip (ṣtipṛṁ) kṣaraṇe bhvādiḥ",
-    wx: "Rwip (Rwipqṁ) kRaraNe BvAxiH"
+    dev: "स्तिप् -> ष्तिप् (ष्तिपृँ) क्षरणे भ्वादिः",
+    rom: "stip -> ṣtip (ṣtipṛṁ) kṣaraṇe bhvādiḥ",
+    wx: "swip -> Rwip (Rwipqṁ) kRaraNe BvAxiH"
   },
   'Rwim1_Rwimaz_xivAxiH_ArxrIBAve': {
-    dev: "ष्तिम् (ष्तिमँ) आर्द्रीभावे दिवादिः",
-    rom: "ṣtim (ṣtimaṁ) ārdrībhāve divādiḥ",
-    wx: "Rwim (Rwimaṁ) ArxrIBAve xivAxiH"
+    dev: "स्तिम् -> ष्तिम् (ष्तिमँ) आर्द्रीभावे दिवादिः",
+    rom: "stim -> ṣtim (ṣtimaṁ) ārdrībhāve divādiḥ",
+    wx: "swim -> Rwim (Rwimaṁ) ArxrIBAve xivAxiH"
   },
   'RwIm1_RwImaz_xivAxiH_ArxrIBAve': {
-    dev: "ष्तीम् (ष्तीमँ) आर्द्रीभावे दिवादिः",
-    rom: "ṣtīm (ṣtīmaṁ) ārdrībhāve divādiḥ",
-    wx: "RwIm (RwImaṁ) ArxrIBAve xivAxiH"
+    dev: "स्तीम् -> ष्तीम् (ष्तीमँ) आर्द्रीभावे दिवादिः",
+    rom: "stīm -> ṣtīm (ṣtīmaṁ) ārdrībhāve divādiḥ",
+    wx: "swIm -> RwIm (RwImaṁ) ArxrIBAve xivAxiH"
   },
   'Rwu1_RwuF_axAxiH_swuwO': {
-    dev: "ष्तु (ष्तुञ्) स्तुतौ अदादिः",
-    rom: "ṣtu (ṣtuñ) stutau adādiḥ",
-    wx: "Rwu (RwuF) swuwO axAxiH"
+    dev: "स्तु -> ष्तु (ष्तुञ्) स्तुतौ अदादिः",
+    rom: "stu -> ṣtu (ṣtuñ) stutau adādiḥ",
+    wx: "swu -> Rwu (RwuF) swuwO axAxiH"
   },
   'Rwuc1_Rwucaz_BvAxiH_prasAxe': {
-    dev: "ष्तुच् (ष्तुचँ) प्रसादे भ्वादिः",
-    rom: "ṣtuc (ṣtucaṁ) prasāde bhvādiḥ",
-    wx: "Rwuc (Rwucaṁ) prasAxe BvAxiH"
+    dev: "स्तुच् -> ष्तुच् (ष्तुचँ) प्रसादे भ्वादिः",
+    rom: "stuc -> ṣtuc (ṣtucaṁ) prasāde bhvādiḥ",
+    wx: "swuc -> Rwuc (Rwucaṁ) prasAxe BvAxiH"
   },
   'RwuB1_RwuBuz_BvAxiH_swamBe': {
-    dev: "ष्तुभ् (ष्तुभुँ) स्तम्भे भ्वादिः",
-    rom: "ṣtubh (ṣtubhuṁ) stambhe bhvādiḥ",
-    wx: "RwuB (RwuBuṁ) swamBe BvAxiH"
+    dev: "स्तुभ् -> ष्तुभ् (ष्तुभुँ) स्तम्भे भ्वादिः",
+    rom: "stubh -> ṣtubh (ṣtubhuṁ) stambhe bhvādiḥ",
+    wx: "swuB -> RwuB (RwuBuṁ) swamBe BvAxiH"
   },
   'RwUp1_RwUpaz_curAxiH_samucCrAye': {
-    dev: "ष्तूप् (ष्तूपँ) समुच्छ्राये चुरादिः",
-    rom: "ṣtūp (ṣtūpaṁ) samucchrāye curādiḥ",
-    wx: "RwUp (RwUpaṁ) samucCrAye curAxiH"
+    dev: "स्तुप् -> ष्तूप् (ष्तूपँ) समुच्छ्राये चुरादिः",
+    rom: "stup -> ṣtūp (ṣtūpaṁ) samucchrāye curādiḥ",
+    wx: "swup -> RwUp (RwUpaṁ) samucCrAye curAxiH"
   },
   'Rwep1_Rwepqz_BvAxiH_kRaraNe': {
-    dev: "ष्तेप् (ष्तेपृँ) क्षरणे भ्वादिः",
-    rom: "ṣtep (ṣtepṛṁ) kṣaraṇe bhvādiḥ",
-    wx: "Rwep (Rwepqṁ) kRaraNe BvAxiH"
+    dev: "ष्टेप् -> ष्तेप् (ष्तेपृँ) क्षरणे भ्वादिः",
+    rom: "ṣṭep -> ṣtep (ṣtepṛṁ) kṣaraṇe bhvādiḥ",
+    wx: "Rtep -> Rwep (Rwepqṁ) kRaraNe BvAxiH"
   },
   'RwE1_RwE_BvAxiH_veRtane': {
-    dev: "ष्तै (ष्तै) वेष्टने भ्वादिः",
-    rom: "ṣtai (ṣtai) veṣṭane bhvādiḥ",
-    wx: "RwE (RwE) veRtane BvAxiH"
+    dev: "स्तै -> ष्तै (ष्तै) वेष्टने भ्वादिः",
+    rom: "stai -> ṣtai (ṣtai) veṣṭane bhvādiḥ",
+    wx: "swE -> RwE (RwE) veRtane BvAxiH"
   },
   'RWag1_RWagez_BvAxiH_saMvaraNe': {
     dev: "ष्थग् (ष्थगेँ) संवरणे भ्वादिः",
@@ -13250,64 +13250,64 @@ var root_info = {
     wx: "RWag (RWageṁ) saMvaraNe BvAxiH"
   },
   'RWal1_RWalaz_BvAxiH_sWAne': {
-    dev: "ष्थल् (ष्थलँ) स्थाने भ्वादिः",
-    rom: "ṣthal (ṣthalaṁ) sthāne bhvādiḥ",
-    wx: "RWal (RWalaṁ) sWAne BvAxiH"
+    dev: "ष्ठल् -> ष्थल् (ष्थलँ) स्थाने भ्वादिः",
+    rom: "ṣṭhal -> ṣthal (ṣthalaṁ) sthāne bhvādiḥ",
+    wx: "RTal -> RWal (RWalaṁ) sWAne BvAxiH"
   },
   'RWA1_RWA_BvAxiH_gawinivqwwO': {
-    dev: "ष्था (ष्था) गतिनिवृत्तौ भ्वादिः",
-    rom: "ṣthā (ṣthā) gatinivṛttau bhvādiḥ",
-    wx: "RWA (RWA) gawinivqwwO BvAxiH"
+    dev: "स्था -> ष्था (ष्था) गतिनिवृत्तौ भ्वादिः",
+    rom: "sthā -> ṣthā (ṣthā) gatinivṛttau bhvādiḥ",
+    wx: "sWA -> RWA (RWA) gawinivqwwO BvAxiH"
   },
   'RWud1_RWudaz_wuxAxiH_saMvaraNe': {
-    dev: "ष्थुड् (ष्थुडँ) संवरणे तुदादिः",
-    rom: "ṣthuḍ (ṣthuḍaṁ) saṃvaraṇe tudādiḥ",
-    wx: "RWud (RWudaṁ) saMvaraNe wuxAxiH"
+    dev: "स्थुड् -> ष्थुड् (ष्थुडँ) संवरणे तुदादिः",
+    rom: "sthuḍ -> ṣthuḍ (ṣthuḍaṁ) saṃvaraṇe tudādiḥ",
+    wx: "sWud -> RWud (RWudaṁ) saMvaraNe wuxAxiH"
   },
   'Rnas1_Rnasuz_xivAxiH_nirasane': {
-    dev: "ष्नस् (ष्नसुँ) निरसने दिवादिः",
-    rom: "ṣnas (ṣnasuṁ) nirasane divādiḥ",
-    wx: "Rnas (Rnasuṁ) nirasane xivAxiH"
+    dev: "स्नस् -> ष्नस् (ष्नसुँ) निरसने दिवादिः",
+    rom: "snas -> ṣnas (ṣnasuṁ) nirasane divādiḥ",
+    wx: "snas -> Rnas (Rnasuṁ) nirasane xivAxiH"
   },
   'RnA1_RnA_axAxiH_SOce': {
-    dev: "ष्ना (ष्ना) शौचे अदादिः",
-    rom: "ṣnā (ṣnā) śauce adādiḥ",
-    wx: "RnA (RnA) SOce axAxiH"
+    dev: "स्ना -> ष्ना (ष्ना) शौचे अदादिः",
+    rom: "snā -> ṣnā (ṣnā) śauce adādiḥ",
+    wx: "snA -> RnA (RnA) SOce axAxiH"
   },
   'Rnih1_Rnihaz_xivAxiH_prIwO': {
-    dev: "ष्निह् (ष्निहँ) प्रीतौ दिवादिः",
-    rom: "ṣnih (ṣnihaṁ) prītau divādiḥ",
-    wx: "Rnih (Rnihaṁ) prIwO xivAxiH"
+    dev: "स्निह् -> ष्निह् (ष्निहँ) प्रीतौ दिवादिः",
+    rom: "snih -> ṣnih (ṣnihaṁ) prītau divādiḥ",
+    wx: "snih -> Rnih (Rnihaṁ) prIwO xivAxiH"
   },
   'Rnih2_Rnihaz_curAxiH_snehane': {
-    dev: "ष्निह् (ष्निहँ) स्नेहने चुरादिः",
-    rom: "ṣnih (ṣnihaṁ) snehane curādiḥ",
-    wx: "Rnih (Rnihaṁ) snehane curAxiH"
+    dev: "स्निह् -> ष्निह् (ष्निहँ) स्नेहने चुरादिः",
+    rom: "snih -> ṣnih (ṣnihaṁ) snehane curādiḥ",
+    wx: "snih -> Rnih (Rnihaṁ) snehane curAxiH"
   },
   'Rnu1_Rnu_axAxiH_prasravaNe': {
-    dev: "ष्नु (ष्नु) प्रस्रवणे अदादिः",
-    rom: "ṣnu (ṣnu) prasravaṇe adādiḥ",
-    wx: "Rnu (Rnu) prasravaNe axAxiH"
+    dev: "स्नु -> ष्नु (ष्नु) प्रस्रवणे अदादिः",
+    rom: "snu -> ṣnu (ṣnu) prasravaṇe adādiḥ",
+    wx: "snu -> Rnu (Rnu) prasravaNe axAxiH"
   },
   'Rnusa1_Rnusa_xivAxiH_nirasane': {
-    dev: "ष्नुस (ष्नुस) निरसने दिवादिः",
-    rom: "ṣnusa (ṣnusa) nirasane divādiḥ",
-    wx: "Rnusa (Rnusa) nirasane xivAxiH"
+    dev: "स्नुस् -> ष्नुस (ष्नुस) निरसने दिवादिः",
+    rom: "snus -> ṣnusa (ṣnusa) nirasane divādiḥ",
+    wx: "snus -> Rnusa (Rnusa) nirasane xivAxiH"
   },
   'Rnus1_Rnusuz_xivAxiH_axane': {
-    dev: "ष्नुस् (ष्नुसुँ) अदने दिवादिः",
-    rom: "ṣnus (ṣnusuṁ) adane divādiḥ",
-    wx: "Rnus (Rnusuṁ) axane xivAxiH"
+    dev: "स्नुस् -> ष्नुस् (ष्नुसुँ) अदने दिवादिः",
+    rom: "snus -> ṣnus (ṣnusuṁ) adane divādiḥ",
+    wx: "snus -> Rnus (Rnusuṁ) axane xivAxiH"
   },
   'Rnuh1_Rnuhaz_xivAxiH_uxgiraNe': {
-    dev: "ष्नुह् (ष्नुहँ) उद्गिरणे दिवादिः",
-    rom: "ṣnuh (ṣnuhaṁ) udgiraṇe divādiḥ",
-    wx: "Rnuh (Rnuhaṁ) uxgiraNe xivAxiH"
+    dev: "स्नुह् -> ष्नुह् (ष्नुहँ) उद्गिरणे दिवादिः",
+    rom: "snuh -> ṣnuh (ṣnuhaṁ) udgiraṇe divādiḥ",
+    wx: "snuh -> Rnuh (Rnuhaṁ) uxgiraNe xivAxiH"
   },
   'RnE1_RnE_BvAxiH_veRtane': {
-    dev: "ष्नै (ष्नै) वेष्टने भ्वादिः",
-    rom: "ṣnai (ṣnai) veṣṭane bhvādiḥ",
-    wx: "RnE (RnE) veRtane BvAxiH"
+    dev: "स्नै -> ष्नै (ष्नै) वेष्टने भ्वादिः",
+    rom: "snai -> ṣnai (ṣnai) veṣṭane bhvādiḥ",
+    wx: "snE -> RnE (RnE) veRtane BvAxiH"
   },
   'Rmi1_Rmif_BvAxiH_IRaxXasane': {
     dev: "ष्मि (ष्मिङ्) ईषद्धसने भ्वादिः",
@@ -13325,29 +13325,29 @@ var root_info = {
     wx: "Rvakv (Rvakvaṁ) gawO BvAxiH"
   },
   'Rvax2_Rvaxaz_curAxiH_AsvAxane': {
-    dev: "ष्वद् (ष्वदँ) आस्वादने चुरादिः",
-    rom: "ṣvad (ṣvadaṁ) āsvādane curādiḥ",
-    wx: "Rvax (Rvaxaṁ) AsvAxane curAxiH"
+    dev: "स्वद् -> ष्वद् (ष्वदँ) आस्वादने चुरादिः",
+    rom: "svad -> ṣvad (ṣvadaṁ) āsvādane curādiḥ",
+    wx: "svax -> Rvax (Rvaxaṁ) AsvAxane curAxiH"
   },
   'Rvax1_Rvaxaz_BvAxiH_AsvAxane': {
-    dev: "ष्वद् (ष्वदँ) आस्वादने भ्वादिः",
-    rom: "ṣvad (ṣvadaṁ) āsvādane bhvādiḥ",
-    wx: "Rvax (Rvaxaṁ) AsvAxane BvAxiH"
+    dev: "स्वद् -> ष्वद् (ष्वदँ) आस्वादने भ्वादिः",
+    rom: "svad -> ṣvad (ṣvadaṁ) āsvādane bhvādiḥ",
+    wx: "svax -> Rvax (Rvaxaṁ) AsvAxane BvAxiH"
   },
   'Rvax2_Rvaxaz_curAxiH_saMvaraNe': {
-    dev: "ष्वद् (ष्वदँ) संवरणे चुरादिः",
-    rom: "ṣvad (ṣvadaṁ) saṃvaraṇe curādiḥ",
-    wx: "Rvax (Rvaxaṁ) saMvaraNe curAxiH"
+    dev: "स्वद् -> ष्वद् (ष्वदँ) संवरणे चुरादिः",
+    rom: "svad -> ṣvad (ṣvadaṁ) saṃvaraṇe curādiḥ",
+    wx: "svax -> Rvax (Rvaxaṁ) saMvaraNe curAxiH"
   },
   'Rvanj1_Rvanjaz_BvAxiH_pariRvafge': {
-    dev: "ष्वन्ज् (ष्वन्जँ) परिष्वङ्गे भ्वादिः",
-    rom: "ṣvanj (ṣvanjaṁ) pariṣvaṅge bhvādiḥ",
-    wx: "Rvanj (Rvanjaṁ) pariRvafge BvAxiH"
+    dev: "स्वञ्ज् -> ष्वन्ज् (ष्वन्जँ) परिष्वङ्गे भ्वादिः",
+    rom: "svañj -> ṣvanj (ṣvanjaṁ) pariṣvaṅge bhvādiḥ",
+    wx: "svaFj -> Rvanj (Rvanjaṁ) pariRvafge BvAxiH"
   },
   'Rvap1_FiRvapaz_axAxiH_Saye': {
-    dev: "ष्वप् (ञिष्वपँ) शये अदादिः",
-    rom: "ṣvap (ñiṣvapaṁ) śaye adādiḥ",
-    wx: "Rvap (FiRvapaṁ) Saye axAxiH"
+    dev: "स्वप् -> ष्वप् (ञिष्वपँ) शये अदादिः",
+    rom: "svap -> ṣvap (ñiṣvapaṁ) śaye adādiḥ",
+    wx: "svap -> Rvap (FiRvapaṁ) Saye axAxiH"
   },
   'RvaRk1_RvaRkaz_BvAxiH_gawO': {
     dev: "ष्वष्क् (ष्वष्कँ) गतौ भ्वादिः",
@@ -13360,29 +13360,29 @@ var root_info = {
     wx: "RvixA (RvixA) gAwraprakRaraNe xivAxiH"
   },
   'Rvix2_FiRvixAz_xivAxiH_gAwraprakRaraNe': {
-    dev: "ष्विद् (ञिष्विदाँ) गात्रप्रक्षरणे दिवादिः",
-    rom: "ṣvid (ñiṣvidāṁ) gātraprakṣaraṇe divādiḥ",
-    wx: "Rvix (FiRvixAṁ) gAwraprakRaraNe xivAxiH"
+    dev: "स्विद् -> ष्विद् (ञिष्विदाँ) गात्रप्रक्षरणे दिवादिः",
+    rom: "svid -> ṣvid (ñiṣvidāṁ) gātraprakṣaraṇe divādiḥ",
+    wx: "svix -> Rvix (FiRvixAṁ) gAwraprakRaraNe xivAxiH"
   },
   'Rvix1_FiRvixAz_BvAxiH_gAwraprasravaNe': {
-    dev: "ष्विद् (ञिष्विदाँ) गात्रप्रस्रवणे भ्वादिः",
-    rom: "ṣvid (ñiṣvidāṁ) gātraprasravaṇe bhvādiḥ",
-    wx: "Rvix (FiRvixAṁ) gAwraprasravaNe BvAxiH"
+    dev: "स्विद् -> ष्विद् (ञिष्विदाँ) गात्रप्रस्रवणे भ्वादिः",
+    rom: "svid -> ṣvid (ñiṣvidāṁ) gātraprasravaṇe bhvādiḥ",
+    wx: "svix -> Rvix (FiRvixAṁ) gAwraprasravaNe BvAxiH"
   },
   'Rvix1_FiRvixAz_BvAxiH_mocane': {
-    dev: "ष्विद् (ञिष्विदाँ) मोचने भ्वादिः",
-    rom: "ṣvid (ñiṣvidāṁ) mocane bhvādiḥ",
-    wx: "Rvix (FiRvixAṁ) mocane BvAxiH"
+    dev: "स्विद् -> ष्विद् (ञिष्विदाँ) मोचने भ्वादिः",
+    rom: "svid -> ṣvid (ñiṣvidāṁ) mocane bhvādiḥ",
+    wx: "svix -> Rvix (FiRvixAṁ) mocane BvAxiH"
   },
   'Rvix1_FiRvixAz_BvAxiH_snehane': {
-    dev: "ष्विद् (ञिष्विदाँ) स्नेहने भ्वादिः",
-    rom: "ṣvid (ñiṣvidāṁ) snehane bhvādiḥ",
-    wx: "Rvix (FiRvixAṁ) snehane BvAxiH"
+    dev: "स्विद् -> ष्विद् (ञिष्विदाँ) स्नेहने भ्वादिः",
+    rom: "svid -> ṣvid (ñiṣvidāṁ) snehane bhvādiḥ",
+    wx: "svix -> Rvix (FiRvixAṁ) snehane BvAxiH"
   },
   'saMgrAm1_saMgrAmaz_curAxiH_yuxXe': {
-    dev: "संग्राम् (संग्रामँ) युद्धे चुरादिः",
-    rom: "saṃgrām (saṃgrāmaṁ) yuddhe curādiḥ",
-    wx: "saMgrAm (saMgrAmaṁ) yuxXe curAxiH"
+    dev: "संग्राम -> संग्राम् (संग्रामँ) युद्धे चुरादिः",
+    rom: "saṃgrāma -> saṃgrām (saṃgrāmaṁ) yuddhe curādiḥ",
+    wx: "saMgrAma -> saMgrAm (saMgrAmaṁ) yuxXe curAxiH"
   },
   'safkewa1_safkewa_curAxiH_AmanwraNe': {
     dev: "सङ्केत (सङ्केत) आमन्त्रणे चुरादिः",
@@ -13500,9 +13500,9 @@ var root_info = {
     wx: "sqj (sqjaṁ) visarge xivAxiH"
   },
   'sqnB1_sqnBuz_BvAxiH_hiMsAyAm': {
-    dev: "सृन्भ् (सृन्भुँ) हिंसायाम् भ्वादिः",
-    rom: "sṛnbh (sṛnbhuṁ) hiṃsāyām bhvādiḥ",
-    wx: "sqnB (sqnBuṁ) hiMsAyAm BvAxiH"
+    dev: "सृम्भ् -> सृन्भ् (सृन्भुँ) हिंसायाम् भ्वादिः",
+    rom: "sṛmbh -> sṛnbh (sṛnbhuṁ) hiṃsāyām bhvādiḥ",
+    wx: "sqmB -> sqnB (sqnBuṁ) hiMsAyAm BvAxiH"
   },
   'sqp1_sqpLz_BvAxiH_gawO': {
     dev: "सृप् (सृपॢँ) गतौ भ्वादिः",
@@ -13540,9 +13540,9 @@ var root_info = {
     wx: "skanx (skanxiṁr) SoRaNe BvAxiH"
   },
   'skaB1_skaBiz_BvAxiH_prawibanXe': {
-    dev: "स्कभ् (स्कभिँ) प्रतिबन्धे भ्वादिः",
-    rom: "skabh (skabhiṁ) pratibandhe bhvādiḥ",
-    wx: "skaB (skaBiṁ) prawibanXe BvAxiH"
+    dev: "स्कम्भ् -> स्कभ् (स्कभिँ) प्रतिबन्धे भ्वादिः",
+    rom: "skambh -> skabh (skabhiṁ) pratibandhe bhvādiḥ",
+    wx: "skamB -> skaB (skaBiṁ) prawibanXe BvAxiH"
   },
   'sku1_skuF_kryAxiH_ApravaNe': {
     dev: "स्कु (स्कुञ्) आप्रवणे क्र्यादिः",
@@ -13550,9 +13550,9 @@ var root_info = {
     wx: "sku (skuF) ApravaNe kryAxiH"
   },
   'skux1_skuxiz_BvAxiH_ApravaNe': {
-    dev: "स्कुद् (स्कुदिँ) आप्रवणे भ्वादिः",
-    rom: "skud (skudiṁ) āpravaṇe bhvādiḥ",
-    wx: "skux (skuxiṁ) ApravaNe BvAxiH"
+    dev: "स्कुन्द् -> स्कुद् (स्कुदिँ) आप्रवणे भ्वादिः",
+    rom: "skund -> skud (skudiṁ) āpravaṇe bhvādiḥ",
+    wx: "skunx -> skux (skuxiṁ) ApravaNe BvAxiH"
   },
   'sKax1_sKaxaz_BvAxiH_sKaxane': {
     dev: "स्खद् (स्खदँ) स्खदने भ्वादिः",
@@ -13610,9 +13610,9 @@ var root_info = {
     wx: "swqkR (swqkRaṁ) gawO BvAxiH"
   },
   'swqnhU1_swqnhU_wuxAxiH_hiMsAyAm': {
-    dev: "स्तृन्हू (स्तृन्हू) हिंसायाम् तुदादिः",
-    rom: "stṛnhū (stṛnhū) hiṃsāyām tudādiḥ",
-    wx: "swqnhU (swqnhU) hiMsAyAm wuxAxiH"
+    dev: "स्तृह् -> स्तृन्हू (स्तृन्हू) हिंसायाम् तुदादिः",
+    rom: "stṛh -> stṛnhū (stṛnhū) hiṃsāyām tudādiḥ",
+    wx: "swqh -> swqnhU (swqnhU) hiMsAyAm wuxAxiH"
   },
   'swqh1_swqhUz_wuxAxiH_hiMsAyAm': {
     dev: "स्तृह् (स्तृहूँ) हिंसायाम् तुदादिः",
@@ -13650,9 +13650,9 @@ var root_info = {
     wx: "sWag (sWageṁ) saMvaraNe BvAxiH"
   },
   'sWal1_sWalaz_BvAxiH_sWAne': {
-    dev: "स्थल् (स्थलँ) स्थाने भ्वादिः",
-    rom: "sthal (sthalaṁ) sthāne bhvādiḥ",
-    wx: "sWal (sWalaṁ) sWAne BvAxiH"
+    dev: "ष्ठल् -> स्थल् (स्थलँ) स्थाने भ्वादिः",
+    rom: "ṣṭhal -> sthal (sthalaṁ) sthāne bhvādiḥ",
+    wx: "RTal -> sWal (sWalaṁ) sWAne BvAxiH"
   },
   'sWud1_sWudaz_wuxAxiH_saMvaraNe': {
     dev: "स्थुड् (स्थुडँ) संवरणे तुदादिः",
@@ -13670,9 +13670,9 @@ var root_info = {
     wx: "snit (snitaṁ) snehane curAxiH"
   },
   'spax1_spaxiz_BvAxiH_kiFciccalane': {
-    dev: "स्पद् (स्पदिँ) किञ्चिच्चलने भ्वादिः",
-    rom: "spad (spadiṁ) kiñciccalane bhvādiḥ",
-    wx: "spax (spaxiṁ) kiFciccalane BvAxiH"
+    dev: "स्पन्द् -> स्पद् (स्पदिँ) किञ्चिच्चलने भ्वादिः",
+    rom: "spand -> spad (spadiṁ) kiñciccalane bhvādiḥ",
+    wx: "spanx -> spax (spaxiṁ) kiFciccalane BvAxiH"
   },
   'sparX1_sparXaz_BvAxiH_safGarRe': {
     dev: "स्पर्ध् (स्पर्धँ) सङ्घर्षे भ्वादिः",
@@ -13705,9 +13705,9 @@ var root_info = {
     wx: "spaS (spaSaṁ) sparSe BvAxiH"
   },
   'spud1_spudiz_curAxiH_parihAse': {
-    dev: "स्पुड् (स्पुडिँ) परिहासे चुरादिः",
-    rom: "spuḍ (spuḍiṁ) parihāse curādiḥ",
-    wx: "spud (spudiṁ) parihAse curAxiH"
+    dev: "स्पुण्ड् -> स्पुड् (स्पुडिँ) परिहासे चुरादिः",
+    rom: "spuṇḍ -> spuḍ (spuḍiṁ) parihāse curādiḥ",
+    wx: "spuNd -> spud (spudiṁ) parihAse curAxiH"
   },
   'spq1_spq_svAxiH_pAlane': {
     dev: "स्पृ (स्पृ) पालने स्वादिः",
@@ -13730,9 +13730,9 @@ var root_info = {
     wx: "spqha (spqha) IpsAyAm curAxiH"
   },
   'sPat1_sPatiz_BvAxiH_viSaraNe': {
-    dev: "स्फट् (स्फटिँ) विशरणे भ्वादिः",
-    rom: "sphaṭ (sphaṭiṁ) viśaraṇe bhvādiḥ",
-    wx: "sPat (sPatiṁ) viSaraNe BvAxiH"
+    dev: "स्फण्ट् -> स्फट् (स्फटिँ) विशरणे भ्वादिः",
+    rom: "sphaṇṭ -> sphaṭ (sphaṭiṁ) viśaraṇe bhvādiḥ",
+    wx: "sPaNt -> sPat (sPatiṁ) viSaraNe BvAxiH"
   },
   'sPar1_sParaz_wuxAxiH_calane': {
     dev: "स्फर् (स्फरँ) चलने तुदादिः",
@@ -13760,9 +13760,9 @@ var root_info = {
     wx: "sPit (sPitaṁ) hiMsAyAm curAxiH"
   },
   'sPiwt1_sPiwtaz_curAxiH_hiMsAyAm': {
-    dev: "स्फित्ट् (स्फित्टँ) हिंसायाम् चुरादिः",
-    rom: "sphitṭ (sphitṭaṁ) hiṃsāyām curādiḥ",
-    wx: "sPiwt (sPiwtaṁ) hiMsAyAm curAxiH"
+    dev: "स्फिट्ट् -> स्फित्ट् (स्फित्टँ) हिंसायाम् चुरादिः",
+    rom: "sphiṭṭ -> sphitṭ (sphitṭaṁ) hiṃsāyām curādiḥ",
+    wx: "sPitt -> sPiwt (sPiwtaṁ) hiMsAyAm curAxiH"
   },
   'sPut4_sPutaz_curAxiH_Bexane': {
     dev: "स्फुट् (स्फुटँ) भेदने चुरादिः",
@@ -13785,19 +13785,19 @@ var root_info = {
     wx: "sPut (sPutiṁr) viSaraNe BvAxiH"
   },
   'sPud2_sPudaz_wuxAxiH_saMvaraNe': {
-    dev: "स्फुड् (स्फुडँ) संवरणे तुदादिः",
-    rom: "sphuḍ (sphuḍaṁ) saṃvaraṇe tudādiḥ",
-    wx: "sPud (sPudaṁ) saMvaraNe wuxAxiH"
+    dev: "स्फुण्ड् -> स्फुड् (स्फुडँ) संवरणे तुदादिः",
+    rom: "sphuṇḍ -> sphuḍ (sphuḍaṁ) saṃvaraṇe tudādiḥ",
+    wx: "sPuNd -> sPud (sPudaṁ) saMvaraNe wuxAxiH"
   },
   'sPud3_sPudiz_curAxiH_parihAse': {
-    dev: "स्फुड् (स्फुडिँ) परिहासे चुरादिः",
-    rom: "sphuḍ (sphuḍiṁ) parihāse curādiḥ",
-    wx: "sPud (sPudiṁ) parihAse curAxiH"
+    dev: "स्फुण्ड् -> स्फुड् (स्फुडिँ) परिहासे चुरादिः",
+    rom: "sphuṇḍ -> sphuḍ (sphuḍiṁ) parihāse curādiḥ",
+    wx: "sPuNd -> sPud (sPudiṁ) parihAse curAxiH"
   },
   'sPud1_sPudiz_BvAxiH_vikasane': {
-    dev: "स्फुड् (स्फुडिँ) विकसने भ्वादिः",
-    rom: "sphuḍ (sphuḍiṁ) vikasane bhvādiḥ",
-    wx: "sPud (sPudiṁ) vikasane BvAxiH"
+    dev: "स्फुण्ड् -> स्फुड् (स्फुडिँ) विकसने भ्वादिः",
+    rom: "sphuṇḍ -> sphuḍ (sphuḍiṁ) vikasane bhvādiḥ",
+    wx: "sPuNd -> sPud (sPudiṁ) vikasane BvAxiH"
   },
   'sPur1_sPuraz_wuxAxiH_calane': {
     dev: "स्फुर् (स्फुरँ) चलने तुदादिः",
@@ -13905,19 +13905,19 @@ var root_info = {
     wx: "syam (syamuṁ) Sabxe BvAxiH"
   },
   'srak1_srakiz_BvAxiH_gawO': {
-    dev: "स्रक् (स्रकिँ) गतौ भ्वादिः",
-    rom: "srak (srakiṁ) gatau bhvādiḥ",
-    wx: "srak (srakiṁ) gawO BvAxiH"
+    dev: "स्रङ्क् -> स्रक् (स्रकिँ) गतौ भ्वादिः",
+    rom: "sraṅk -> srak (srakiṁ) gatau bhvādiḥ",
+    wx: "srafk -> srak (srakiṁ) gawO BvAxiH"
   },
   'sranB1_sranBuz_BvAxiH_pramAxe': {
-    dev: "स्रन्भ् (स्रन्भुँ) प्रमादे भ्वादिः",
-    rom: "sranbh (sranbhuṁ) pramāde bhvādiḥ",
-    wx: "sranB (sranBuṁ) pramAxe BvAxiH"
+    dev: "स्रम्भ् -> स्रन्भ् (स्रन्भुँ) प्रमादे भ्वादिः",
+    rom: "srambh -> sranbh (sranbhuṁ) pramāde bhvādiḥ",
+    wx: "sramB -> sranB (sranBuṁ) pramAxe BvAxiH"
   },
   'sranB1_sranBuz_BvAxiH_viSvAse': {
-    dev: "स्रन्भ् (स्रन्भुँ) विश्वासे भ्वादिः",
-    rom: "sranbh (sranbhuṁ) viśvāse bhvādiḥ",
-    wx: "sranB (sranBuṁ) viSvAse BvAxiH"
+    dev: "स्रम्भ् -> स्रन्भ् (स्रन्भुँ) विश्वासे भ्वादिः",
+    rom: "srambh -> sranbh (sranbhuṁ) viśvāse bhvādiḥ",
+    wx: "sramB -> sranB (sranBuṁ) viSvAse BvAxiH"
   },
   'srans1_sransuz_BvAxiH_aXaHpawane': {
     dev: "स्रन्स् (स्रन्सुँ) अधःपतने भ्वादिः",
@@ -14115,14 +14115,14 @@ var root_info = {
     wx: "hikk (hikkaṁ) avyakwe_Sabxe BvAxiH"
   },
   'hid1_hidiz_BvAxiH_anAxare': {
-    dev: "हिड् (हिडिँ) अनादरे भ्वादिः",
-    rom: "hiḍ (hiḍiṁ) anādare bhvādiḥ",
-    wx: "hid (hidiṁ) anAxare BvAxiH"
+    dev: "हिण्ड् -> हिड् (हिडिँ) अनादरे भ्वादिः",
+    rom: "hiṇḍ -> hiḍ (hiḍiṁ) anādare bhvādiḥ",
+    wx: "hiNd -> hid (hidiṁ) anAxare BvAxiH"
   },
   'hid1_hidiz_BvAxiH_gawO': {
-    dev: "हिड् (हिडिँ) गतौ भ्वादिः",
-    rom: "hiḍ (hiḍiṁ) gatau bhvādiḥ",
-    wx: "hid (hidiṁ) gawO BvAxiH"
+    dev: "हिण्ड् -> हिड् (हिडिँ) गतौ भ्वादिः",
+    rom: "hiṇḍ -> hiḍ (hiḍiṁ) gatau bhvādiḥ",
+    wx: "hiNd -> hid (hidiṁ) gawO BvAxiH"
   },
   'hil1_hilaz_wuxAxiH_BAvakaraNe': {
     dev: "हिल् (हिलँ) भावकरणे तुदादिः",
@@ -14135,9 +14135,9 @@ var root_info = {
     wx: "hil (hilaṁ) hAvakaraNe wuxAxiH"
   },
   'hiv1_hiviz_BvAxiH_prINane': {
-    dev: "हिव् (हिविँ) प्रीणने भ्वादिः",
-    rom: "hiv (hiviṁ) prīṇane bhvādiḥ",
-    wx: "hiv (hiviṁ) prINane BvAxiH"
+    dev: "हिन्व् -> हिव् (हिविँ) प्रीणने भ्वादिः",
+    rom: "hinv -> hiv (hiviṁ) prīṇane bhvādiḥ",
+    wx: "hinv -> hiv (hiviṁ) prINane BvAxiH"
   },
   'hiRk1_hiRkaz_curAxiH_hiMsAyAm': {
     dev: "हिष्क् (हिष्कँ) हिंसायाम् चुरादिः",
@@ -14145,14 +14145,14 @@ var root_info = {
     wx: "hiRk (hiRkaṁ) hiMsAyAm curAxiH"
   },
   'his2_hisiz_curAxiH_hiMsAyAm': {
-    dev: "हिस् (हिसिँ) हिंसायाम् चुरादिः",
-    rom: "his (hisiṁ) hiṃsāyām curādiḥ",
-    wx: "his (hisiṁ) hiMsAyAm curAxiH"
+    dev: "हिंस् -> हिस् (हिसिँ) हिंसायाम् चुरादिः",
+    rom: "hiṃs -> his (hisiṁ) hiṃsāyām curādiḥ",
+    wx: "hiMs -> his (hisiṁ) hiMsAyAm curAxiH"
   },
   'his1_hisiz_ruXAxiH_hiMsAyAm': {
-    dev: "हिस् (हिसिँ) हिंसायाम् रुधादिः",
-    rom: "his (hisiṁ) hiṃsāyām rudhādiḥ",
-    wx: "his (hisiṁ) hiMsAyAm ruXAxiH"
+    dev: "हिंस् -> हिस् (हिसिँ) हिंसायाम् रुधादिः",
+    rom: "hiṃs -> his (hisiṁ) hiṃsāyām rudhādiḥ",
+    wx: "hiMs -> his (hisiṁ) hiMsAyAm ruXAxiH"
   },
   'hu1_hu_juhowyAxiH_axane': {
     dev: "हु (हु) अदने जुहोत्यादिः",
@@ -14165,39 +14165,39 @@ var root_info = {
     wx: "hu (hu) xAne juhowyAxiH"
   },
   'hud3_hudaz_wuxAxiH_nimajjane': {
-    dev: "हुड् (हुडँ) निमज्जने तुदादिः",
-    rom: "huḍ (huḍaṁ) nimajjane tudādiḥ",
-    wx: "hud (hudaṁ) nimajjane wuxAxiH"
+    dev: "हुण्ड् -> हुड् (हुडँ) निमज्जने तुदादिः",
+    rom: "huṇḍ -> huḍ (huḍaṁ) nimajjane tudādiḥ",
+    wx: "huNd -> hud (hudaṁ) nimajjane wuxAxiH"
   },
   'hud3_hudaz_wuxAxiH_safGAwe': {
-    dev: "हुड् (हुडँ) सङ्घाते तुदादिः",
-    rom: "huḍ (huḍaṁ) saṅghāte tudādiḥ",
-    wx: "hud (hudaṁ) safGAwe wuxAxiH"
+    dev: "हुण्ड् -> हुड् (हुडँ) सङ्घाते तुदादिः",
+    rom: "huṇḍ -> huḍ (huḍaṁ) saṅghāte tudādiḥ",
+    wx: "huNd -> hud (hudaṁ) safGAwe wuxAxiH"
   },
   'hud3_hudaz_wuxAxiH_sahane': {
-    dev: "हुड् (हुडँ) सहने तुदादिः",
-    rom: "huḍ (huḍaṁ) sahane tudādiḥ",
-    wx: "hud (hudaṁ) sahane wuxAxiH"
+    dev: "हुण्ड् -> हुड् (हुडँ) सहने तुदादिः",
+    rom: "huṇḍ -> huḍ (huḍaṁ) sahane tudādiḥ",
+    wx: "huNd -> hud (hudaṁ) sahane wuxAxiH"
   },
   'hud1_hudiz_BvAxiH_varaNe': {
-    dev: "हुड् (हुडिँ) वरणे भ्वादिः",
-    rom: "huḍ (huḍiṁ) varaṇe bhvādiḥ",
-    wx: "hud (hudiṁ) varaNe BvAxiH"
+    dev: "हुण्ड् -> हुड् (हुडिँ) वरणे भ्वादिः",
+    rom: "huṇḍ -> huḍ (huḍiṁ) varaṇe bhvādiḥ",
+    wx: "huNd -> hud (hudiṁ) varaNe BvAxiH"
   },
   'hud1_hudiz_BvAxiH_safGAwe': {
-    dev: "हुड् (हुडिँ) सङ्घाते भ्वादिः",
-    rom: "huḍ (huḍiṁ) saṅghāte bhvādiḥ",
-    wx: "hud (hudiṁ) safGAwe BvAxiH"
+    dev: "हुण्ड् -> हुड् (हुडिँ) सङ्घाते भ्वादिः",
+    rom: "huṇḍ -> huḍ (huḍiṁ) saṅghāte bhvādiḥ",
+    wx: "huNd -> hud (hudiṁ) safGAwe BvAxiH"
   },
   'hud1_hudiz_BvAxiH_haraNe': {
-    dev: "हुड् (हुडिँ) हरणे भ्वादिः",
-    rom: "huḍ (huḍiṁ) haraṇe bhvādiḥ",
-    wx: "hud (hudiṁ) haraNe BvAxiH"
+    dev: "हुण्ड् -> हुड् (हुडिँ) हरणे भ्वादिः",
+    rom: "huṇḍ -> huḍ (huḍiṁ) haraṇe bhvādiḥ",
+    wx: "huNd -> hud (hudiṁ) haraNe BvAxiH"
   },
   'hud2_hudqz_BvAxiH_gawO': {
-    dev: "हुड् (हुडृँ) गतौ भ्वादिः",
-    rom: "huḍ (huḍṛṁ) gatau bhvādiḥ",
-    wx: "hud (hudqṁ) gawO BvAxiH"
+    dev: "हुण्ड् -> हुड् (हुडृँ) गतौ भ्वादिः",
+    rom: "huṇḍ -> huḍ (huḍṛṁ) gatau bhvādiḥ",
+    wx: "huNd -> hud (hudqṁ) gawO BvAxiH"
   },
   'hurC1_hurCAz_BvAxiH_kOtilye': {
     dev: "हुर्छ् (हुर्छाँ) कौटिल्ये भ्वादिः",

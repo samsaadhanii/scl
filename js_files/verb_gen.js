@@ -85,7 +85,7 @@ function mycallverbgen() {
 function mycallkrwgen () {
   $("#output").html(waiting_label[enc]);
 
-  if (enc == "dev") {
+  if ($("#outenc").val() == 'dev') {
     outenc = "Unicode";
   }
   else {
@@ -97,7 +97,8 @@ function mycallkrwgen () {
     {
       "vb": $("#XAwu").val(),
       "upasarga": $("#upasargaH").val(),
-      "encoding":  outenc,
+      "encoding":  "WX",
+      "outencoding":  outenc,
     },
     function (data) {
       $("#output").html(data);
