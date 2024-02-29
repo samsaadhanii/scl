@@ -21,7 +21,7 @@ LTPROCBIN=/usr/local/bin/lt-proc
 GraphvizDot=/usr/local/bin/dot
 
 #Path for PYTHON
-MYPYTHONPATH=/usr/bin/python3
+MYPYTHONPATH=/usr/local/bin/python3
 
 #Heritage installation path (for interface)
 HERITAGE_CGI_DIR=SKT
