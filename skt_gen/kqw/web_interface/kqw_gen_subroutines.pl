@@ -91,20 +91,20 @@ $LTPROC_IN = "";
 
     $upa_wx =~ s/Y/_/g;
     ($rt,$XAwu,$gaNa,$mean) = split(/_/,$rt_wx);
-    if($upa_wx ne "-") { $upasargastr = "<upasarga:$upasarga>";} else {$upasargastr = "";}
+    if($upa_wx ne "-") { $upasargastr = "<upasarga:$upa_wx>";} else {$upasargastr = "";}
     for($l=0;$l<13;$l++) {
        for($g=0;$g<3;$g++) {
            $lifga = $lifga[$g];
-	   $str = "^${rt}${upasargastr}<lifgam:$lifga><kqw_prawyayaH:$kqw_prawyayaH[$l]><XAwuH:$XAwu><gaNaH:$gaNa><level:0>\$"; 
+	   $str = "^<kqw_XAwu:$rt>${upasargastr}<lifgam:$lifga><kqw_prawyayaH:$kqw_prawyayaH[$l]><XAwuH:$XAwu><gaNaH:$gaNa><level:0>\$"; 
            $LTPROC_IN .=  $str."\n"; 
        }         
     }
 
    for($l=0;$l<3;$l++){
     if($upa_wx eq "-") {
-      $str = "^${rt}${upasargastr}<vargaH:avy><kqw_prawyayaH:$kqw_avy_prawyayaH[$l]><XAwuH:$XAwu><gaNaH:$gaNa><level:2>\$";
+      $str = "^<kqw_XAwu:$rt>${upasargastr}<vargaH:avy><kqw_prawyayaH:$kqw_avy_prawyayaH[$l]><XAwuH:$XAwu><gaNaH:$gaNa><level:2>\$";
     } else {
-      $str = "^${rt}${upasargastr}<vargaH:avy><kqw_prawyayaH:$kqw_avy_upa_prawyayaH[$l]><XAwuH:$XAwu><gaNaH:$gaNa><level:2>\$";
+      $str = "^<kqw_XAwu:$rt>${upasargastr}<vargaH:avy><kqw_prawyayaH:$kqw_avy_upa_prawyayaH[$l]><XAwuH:$XAwu><gaNaH:$gaNa><level:2>\$";
    }
       $LTPROC_IN .=  $str."\n";
   }
