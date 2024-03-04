@@ -116,7 +116,7 @@ sub get_generator_string {
                 for($num=0;$num<3;$num++){
                      $vacanam = $vacanam[$num];
                      #$str = "^"."${rt}${upasarga}${sanAxi}<prayogaH:$prayogaH><lakAraH:$lakAra><puruRaH:$person><vacanam:$vacanam><paxI:$paxI><XAwuH:$XAwu><gaNaH:$gaNa><level:1>"."\$";
-		     if ($upasarga eq "") {
+		     if (($upasarga eq "") && ($sanAxi eq "")) {
                          $str = "^"."${rt}${upasarga}${sanAxi}<prayogaH:$prayogaH><lakAraH:$lakAra><puruRaH:$person><vacanam:$vacanam><paxI:$paxI><gaNaH:$gaNa>"."\$";
 		     } else {
                          $str = "^"."${rt}${upasarga}${sanAxi}<prayogaH:$prayogaH><lakAraH:$lakAra><puruRaH:$person><vacanam:$vacanam><paxI:$paxI><XAwuH:$XAwu><gaNaH:$gaNa><level:1>"."\$";

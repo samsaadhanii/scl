@@ -8,7 +8,7 @@ while($in = <STDIN>){
   $flds[0] =~ /^([0-9]+)\.([0-9]+)/;
   $comp_no = $2;
   
-  if (($old_flds[1] eq $flds[1])) {
+  if (($old_flds[1] eq $flds[1]) && ($old_flds[2] ne $flds[2])) { # Two differenet analysis with same head word from two diff phases
      print "\/", $flds[2];
   } elsif (($old_flds[1] =~ /\-$flds[1]/)) {
      print "\/", $flds[2];
