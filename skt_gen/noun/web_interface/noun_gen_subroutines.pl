@@ -977,8 +977,9 @@ sub gen_noun_forms{
      elsif ($rt_wx =~ /wi$/) { $lifga_wx = "swrI";}
      elsif ($rt_wx =~ /wI$/) { $lifga_wx = "swrI";}
      elsif ($rt_wx =~ /w$/) { $lifga_wx = "swrI";}
-     elsif (($rt_wx ne "eka") && ($rt_wx ne "ekA") && ($rt_wx ne "xvi") && ($rt_wx ne "wri") && ($rt_wx ne "cawur")) { $lifga_wx = "swrI";}
-     else { $lifga_wx = "napuM";}
+     elsif ($rt_wx eq "koti") { $lifga_wx = "swrI";}
+     elsif (($rt_wx ne "eka") && ($rt_wx ne "ekA") && ($rt_wx ne "xvi") && ($rt_wx ne "wri") && ($rt_wx ne "cawur")) { $lifga_wx = "napuM";}
+     #else { $lifga_wx = "napuM";}
  } elsif ($lcat eq "saMKyA") {
     if (($rt_wx !~ /wi$/) && ($rt_wx !~ /w$/)) { $lifga_wx = "napuM";} else { $lifga_wx = "swrI";}
  }
