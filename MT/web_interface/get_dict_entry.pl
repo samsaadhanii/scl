@@ -53,8 +53,8 @@ if ($outencoding eq "DEV") {
   $sword = get_normalised_word($word_dev);
 }
 
-print "word = $word\n";
-print "sword = $sword\n";
+#print "word = $word\n";
+#print "sword = $sword\n";
 
 #grep the 1st character in a word;
 $word_wx =~ /^(.)/; $l = $1;
