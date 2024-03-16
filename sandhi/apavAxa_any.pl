@@ -27,13 +27,12 @@ require "../paths.pl";
 
 sub apavAdaniyamAH{
  my($an)=@_;
- my($first,$second,$ans,$ans1,$ans2,$found,$i,@ans);
+ my($first,$second,$ans,$ans1,$ans2,$pragqhya_cond,$others,$i,@ans);
  $first = "";
  $second = "";
  $ans = "";
  $ans1 = "";
  $ans2 = "";
- $found = 0;
  $cont = 1;
 $an =~ /^([^\+]+)\+(.*)/;
 $first = $1; $second = $2;
@@ -50,14 +49,18 @@ else {
    } elsif ($first =~ /[IUe]$/) {
    @ans = split(/\//,`echo "$first" | $GlblVar::LTPROCBIN -c $GlblVar::SCLINSTALLDIR/morph_bin/all_morf.bin`);
 
-     for ($i=1; $i<=$#ans && !$found;$i++){
-       if($ans[$i] =~ /<vacanam:xvi>/) { $found = 1;}
+   $pragqhya_cond = 0;
+   $others = 0;
+   for ($i=1; $i<=$#ans && !$found;$i++){
+       if($ans[$i] =~ /<vacanam:xvi>/) { $pragqhya_cond = 1;} else { $others = 1;}
    }
-   if($found) {
+   if($pragqhya_cond) {
 	   $ftmp = $first;
 	   #$ftmp =~ s/I$/i/;	kavI + ewO -> kavI ewO, and not kavi ewO
 	   #$ftmp =~ s/U$/u/;
-	   $ans = $ftmp." ".$second;$ans1="pragqhya";$ans2="IxUxexxvivacanam pragqhyam (1.1.11)-> pluwapragqhyA aci niwyam (6.1.125); *$first paxasya xvivacana-viSleRaNam aXikqwya";$cont =0;}
+           if($others = 1) { $cont = 1;} else { $cont = 0;}
+	   $ans = $ftmp." ".$second;$ans1="pragqhya";$ans2="IxUxexxvivacanam pragqhyam (1.1.11)-> pluwapragqhyA aci niwyam (6.1.125); *$first paxasya xvivacana-viSleRaNam aXikqwya";
+           }
    }
 
 #From here onwards it is just a pattern matching.
@@ -121,7 +124,7 @@ if (($an !~ /wava\+([eo].*)/) && ($an=~/(.*[aA])va\+([eo].*)/)) {$ans = "$1v$2";
 
 if($an=~/(.*)a\+(o[mzfFnN].*)/){$ans = "$1$2";$ans1="pararUpa";$ans2="omAfoSca(6.1.95)"; $cont = 0;}
 
-if($an=~/^go\+(a.*)/){$ans = "go $1". ":". "gavA$1";$ans1="prakqwiBAva:avafAxeSa";$ans2="sarvawra viBARA goH(6.1.122):avaf sPotAyanasya(6.1.123)-> akaH savarNe xIrGaH (6.1.101)"; $cont = 1;}
+if($an=~/^go\+a(.*)/){$ans = "go a$1". ":". "gavA$1";$ans1="prakqwiBAva:avafAxeSa";$ans2="sarvawra viBARA goH(6.1.122):avaf sPotAyanasya(6.1.123)-> akaH savarNe xIrGaH (6.1.101)"; $cont = 1;}
 
 # Why was it necessary to give another suutra inxre ca? Already with 6.1.123 '^i' is covered.
 if($an=~/^go\+inxr(.*)/){$ans = "gavenxr$1";$ans1="avafAxeSa";$ans2="inxre ca(6.1.124)-> Ax guNaH (6.1.87)"; $cont = 0;}
