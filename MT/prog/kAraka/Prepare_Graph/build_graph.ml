@@ -1219,11 +1219,11 @@ But in grAmam gawaH xevaxawwaH puswakaM paTawi, here xevaxawwa should not be mar
                     then match viBakwiH1 with
                 [ 1 -> let rel = handle_sp_compounds id1 cid1 mid1 id2 cid2 mid2 rt1 word1 pUrvapaxa1 uwwarapaxa1 lifgam1 in
 	               if (not (rel=[])) then rel 
-                      (*&&  (finite_verb_in_sentence.val=50 ||
+                       else if (finite_verb_in_sentence.val=50 ||
                            finite_verb_in_sentence.val=id2  ||
                            finite_verb_in_sentence.val=id1) 
-                      This condition creates a problem when a word has both sup and wif analysis and wif analysis is not the desired output. Ex: wena mama ayam mohaH vigawaH , here mohaH is not marked*)
-                       else if    noun_agreement vacanam1 vacanam2 lifgam1 lifgam2
+                      (*This condition creates a problem when a word has both sup and wif analysis and wif analysis is not the desired output. Ex: wena mama ayam mohaH vigawaH , here mohaH is not marked*)
+                      &&  noun_agreement vacanam1 vacanam2 lifgam1 lifgam2
                       && viBakwiH2=1
                       (* && (id1 < id2  || finite_verb_in_sentence.val == 50) This condition is removed to handle shlokas suc as mayA xqRtA sIwA 
 This condition is added, to rule out the possibility of karwA in Sloka form when kqw precedes the noun as in gawaH rAmaH, or samavewAH pANdavAH, where gawaH and samavewAH should be marked as viSeRaNas and not rAmaH or pANdavAH as karwA *)
@@ -2393,8 +2393,12 @@ gacCan bAlakaH wqNam spqSawi / bAlakaH gacCan wqNam spqSawi *)
               then 
 	      if rt2="yuRmax" 
               then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.1",d12)]
+              else if (rt2="samuxra" && rt1="pawi")
+              then [ Relation (id1,cid1,mid1,"aBexaH",id2,cid2,mid2,"17.7",d12)]
               else if member_of rt2 manuRyasaFjFAvAcI
-              then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.1",d12)]
+              then if ((member_of rt1 sambanXavAcI) || (member_of rt1 upAXi)) 
+              then [ Relation (id1,cid1,mid1,"aBexaH",id2,cid2,mid2,"17.7",d12)]
+              else [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.1",d12)]
 	      else if rt1="arWa"  && uwwarapaxa1 = "y" 
               then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.2",d12)] 
               else if (  member_of rt1 saMKyeya || 
@@ -2410,9 +2414,6 @@ gacCan bAlakaH wqNam spqSawi / bAlakaH gacCan wqNam spqSawi *)
 	      then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.5",d12)]
               else if (not (rt1 = "kim" && aswi_pos.val < 50)) && (pronoun3 rt1) 
 	      then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.6",d12)]
-              else if ( ((member_of rt1 sambanXavAcI) || (member_of rt1 upAXi)) && 
-                        (member_of rt2 manuRyasaFjFAvAcI || (rt2="samuxra" && rt1="pawi")))
-              then [ Relation (id1,cid1,mid1,"aBexaH",id2,cid2,mid2,"17.7",d12)]
               else if rt2 = get_assoc rt1 parAjAwi_list  
               then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.8",d12)]
               else []
@@ -5124,7 +5125,7 @@ value rlca_samucciwa m1 m2 m3 text_type = match m2 with
                         sIxanwi mama gAwrANi muKam ca pariSuRyawi  *)
                     (* && not (( pronoun3 rt1 || member_of rt1 saMKyeya || member_of rt1 pUraNa || (member_of rt1 guNavAcI && uwwarapaxa1=word1) || (member_of rt1 uwwara_guNavAcI && not (uwwarapaxa1=word1))|| member_of rt1 sambanXavAcI) )  What is its necessity? *)
                  (* then if id3 = next id2 *) (* yogyawA *)
-		  if not (rt1 = "kim") && not (rt3 = "kim")
+		  if not (rt1 = "kim") && not (rt3 = "kim") && not (rt1 = "yuyuwsu") && not (rt3 = "yuyuwsu")
                   then mark_sup_samucchiwa id1 id2 id3 cid1 cid2 cid3 mid1 mid2 mid3 viBakwiH1 viBakwiH3 vacanam1 vacanam3 word2 "58.9" "58.10"
 		  else []
               | _ -> []
@@ -5261,9 +5262,9 @@ relation_array.(index) := ident
 value init_sentence_feature_variables morphs  = 
  List.iter 
  (fun m -> match m with 
-     [ Wif (id,cid,_,word,rt,_,_,upasarga,_,_,_,_,_,_,_,_) -> 
+     [ Wif (id,cid,mid,word,rt,_,_,upasarga,_,_,_,_,_,_,_,_) -> 
              do { 
-             (*(); *) finite_verb_in_sentence.val := id; 
+              if (mid = 1 ) then finite_verb_in_sentence.val := id else ();  (* this condition should e strenthened further to see that there is no other sup sanalysis for this word *)
              aswi_pos.val := id; 
              if(total_wrds.val < id) then total_wrds.val := id else ();
              if members_of rt upasarga karwqsamAnAXikaraNa_verbs 
