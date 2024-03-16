@@ -20,7 +20,7 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 
-use utf8;
+#use utf8;
 use Encode qw/ decode /;
 
 require "../paths.pl";
@@ -50,12 +50,7 @@ elsif ($dic_name eq "ccs") {
 	$dic_long_name = "Cappeller's Sanskrit German Dictionary\n";
 }
 
-
-#$dic_name="apte";
-#$word="rAma";
-#$encoding="WX";
 $result = &get_dict_entry($dic_name,$word,$outencoding);
-#print "result = $result";
 
 if($dic_name eq "apte") {
      $result  =~ s/>$sword</><span style=\"background:yellow;\">$sword<\/span></g;
