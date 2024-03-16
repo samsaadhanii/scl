@@ -22,7 +22,6 @@ value gawyarWa_XAwu_list = [
 "ram1";
 "sam_Af_gam1";
 "sam_gam1";
-"sam_upa_RWA1";
 "upa_Af_Sri1";
 "uw_yam1";
 "vraj1";

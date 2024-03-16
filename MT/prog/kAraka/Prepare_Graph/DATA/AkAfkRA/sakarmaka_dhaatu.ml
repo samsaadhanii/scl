@@ -1379,7 +1379,6 @@ value sakarmaka_XAwu_list = [
 "sam_smq1";
 "sam_upa_Af_Sri1";
 "sam_upa_Af_gam1";
-"sam_upa_RWA1";
 "sam_uw_Ir2";
 "sam_uw_RWA1";
 "sam_vix1";
