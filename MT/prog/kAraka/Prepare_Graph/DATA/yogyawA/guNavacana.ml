@@ -210,6 +210,7 @@ value guNavacana_list = [
 "lavaNa";
 "lohiwa";
 "mAmikA";
+"mAnasa";
 "mEWilI";
 "mAnuRI";
 "mAnuRa";

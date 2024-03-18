@@ -2,6 +2,7 @@ value vAkyakarma_XAwu_list = [
 "Af_KyA1";
 "Af_mawr1";
 "Sru1";
+"aBi_XI1";
 "aBi_jFA1";
 "anu_Sru1";
 "ava_Xq1";
@@ -9,6 +10,7 @@ value vAkyakarma_XAwu_list = [
 "buX1";
 "ciw2";
 "jFA1";
+"kQw1";
 "kaWa1";
 "man1";
 "man2";
