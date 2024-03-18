@@ -58,7 +58,7 @@ else {
 	   $ftmp = $first;
 	   #$ftmp =~ s/I$/i/;	kavI + ewO -> kavI ewO, and not kavi ewO
 	   #$ftmp =~ s/U$/u/;
-           if($others = 1) { $cont = 1;} else { $cont = 0;}
+           if($others == 1) { $cont = 1;} else { $cont = 0;}
 	   $ans = $ftmp." ".$second;$ans1="pragqhya";$ans2="IxUxexxvivacanam pragqhyam (1.1.11)-> pluwapragqhyA aci niwyam (6.1.125); *$first paxasya xvivacana-viSleRaNam aXikqwya";
            }
    }
