@@ -211,6 +211,11 @@ var pref_info = {
     rom: "dur_ni",
     wx: "xur_ni"
   },
+  'xus': {
+    dev: "दुस्",
+    rom: "xus",
+    wx: "xus"
+  },
   'xusYsam': {
     dev: "दुस्_सम्",
     rom: "dus_sam",
@@ -225,6 +230,11 @@ var pref_info = {
     dev: "निर्",
     rom: "nir",
     wx: "nir"
+  },
+  'nis': {
+    dev: "निस्",
+    rom: "nis",
+    wx: "nis"
   },
   'nirYava': {
     dev: "निर्_अव",
@@ -6538,11 +6548,6 @@ var root_info = {
     dev: "धा (डुधाञ्) पोषणे जुहोत्यादिः",
     rom: "dhā (ḍudhāñ) poṣaṇe juhotyādiḥ",
     wx: "XA (duXAF) poRaNe juhowyAxiH"
-  },
-  'saMsAXanI_iw_XAwu_gaNa_mng': {
-    dev: "संसाधनी (इत्) गण_म्न्ग् धातु",
-    rom: "saṃsādhanī (it) gaṇa_mng dhātu",
-    wx: "saMsAXanI (iw) gaNa_mng XAwu"
   },
   'XAv1_XAvuz_BvAxiH_gawO': {
     dev: "धाव् (धावुँ) गतौ भ्वादिः",
