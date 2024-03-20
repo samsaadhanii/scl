@@ -61,7 +61,7 @@ $word_wx =~ /^(.)/; $l = $1;
 #forming file name using dic_name and Word
 chomp $dic_name;
 if($dic_name eq "apte"){
-        if($word_wx =~ /_/) { $word_wx =~ /_(.)/; $l = $1;}
+        if($word_wx =~ /_/) { $word_wx =~ /_(.)[^_]*$/; $l = $1;}
         else {$word_wx =~ /^(.)/; $l = $1;}
 	if ($l eq "A") { $l = "aa";}
 	elsif ($l eq "I") { $l = "ii";}
@@ -72,10 +72,11 @@ if($dic_name eq "apte"){
 	elsif ($l eq "N") { $l = "nn";}
 	elsif (uc($l) eq $l) {$l = lc($l)."h"};
 	$filename = "$Files_Path/hi/Apte_dict/$l.xml";
+        #print "l = $l\n";
 }
 elsif($dic_name eq "heritage"){
 	$l = &get_Heritage_Index($sword);
-	print "l = $l\n";
+	#print "l = $l\n";
 	if($l eq "") {
            print "<br/> $sword not found in ";
            print "Heritage Sanskrit-French dictionary\n";
@@ -123,7 +124,7 @@ $result = "";
 		$result = &mw_result($sword); #finding word in mw files
 	 }
 	 elsif($dic_name  eq "heritage"){
-		$result = &heritage_result($word_wx); #finding word in Heritage files
+		$result = &heritage_result($sword); #finding word in Heritage files
 	 }
 	 elsif($dic_name eq "ccs"){
 		$result = &ccs_result($sword); #finding word in CCS files
@@ -215,11 +216,13 @@ $result;
 1;
 
 sub heritage_result{
-	my($word_wx) = @_;
+	my($word) = @_;
 	my $result = "";
         my($w);
-	$w = `echo "$word_wx" | $GlblVar::SCLINSTALLDIR/converters/wx-velthuis.out`;
+	$w = `echo "$word" | $GlblVar::SCLINSTALLDIR/converters/utf82wx.sh $GlblVar::SCLINSTALLDIR/ | $GlblVar::SCLINSTALLDIR/converters/wx-velthuis.out`;
 	$w =~ s/[ \t\n]//g;
+        #print "Heritage word = $word\n";
+        #print "Heritage w = $w\n";
 	$/ = "<span class=\"deva\" lang=\"sa\">";
 	while($in = <TMP>){
 		if($in =~ /<a class=\"navy\" name=\"$w#/){
@@ -739,24 +742,27 @@ my($w) = @_;
 $w =~ s/आङ्_/आ/;
 
 
-$w =~ s/अ_अ/आ/;
-$w =~ s/इ_इ/ई/;
-$w =~ s/उ_उ/ऊ/;
-$w =~ s/ऋ_ऋ/ॠ/;
+$w =~ s/अ_अ/आ/g;
+$w =~ s/आ_अ/आ/g;
+$w =~ s/अ_आ/आ/g;
+$w =~ s/आ_आ/आ/g;
+$w =~ s/इ_इ/ई/g;
+$w =~ s/उ_उ/ऊ/g;
+$w =~ s/ऋ_ऋ/ॠ/g;
 
-$w =~ s/[इई]_([अउऋऌएऐओऔ])/य्\1/;
-$w =~ s/[उऊ]_([अइऋऌएऐओऔ])/व्\1/;
-$w =~ s/[ऋॠ]_([अइउऌएऐओऔ])/अर्\1/;
-$w =~ s/ऌ_([अइउऌएऐओऔ])/अल्\1/;
+$w =~ s/[िीइई]_([अआउऋऌएऐओऔ])/य्\1/;
+$w =~ s/[ुूउऊ]_([अइऋऌएऐओऔ])/व्\1/;
+$w =~ s/[ृऋऋॠ]_([अइउऌएऐओऔ])/अर्\1/;
+$w =~ s/[ॢऌ]_([अइउऌएऐओऔ])/अल्\1/;
 
-$w =~ s/ए_[अइउऋऌएऐओऔ]/य\1/;
-$w =~ s/ऐ_[अइउऋऌएऐओऔ]/या\1/;
-$w =~ s/ओ_[अइउऋऌएऐओऔ]/व\1/;
-$w =~ s/औ_[अइउऋऌएऐओऔ]/वा\1/;
+$w =~ s/ए_[अइउऋऌएऐओऔ]/य\1/g;
+$w =~ s/ऐ_[अइउऋऌएऐओऔ]/या\1/g;
+$w =~ s/ओ_[अइउऋऌएऐओऔ]/व\1/g;
+$w =~ s/औ_[अइउऋऌएऐओऔ]/वा\1/g;
 
-$w =~ s/[उऊ]_([अइऋऌएऐओऔ])/व्\1/;
-$w =~ s/[ऋॠ]_([अइउऌएऐओऔ])/अर्\1/;
-$w =~ s/ऌ_([अइउऌएऐओऔ])/अल्\1/;
+$w =~ s/[उऊ]_([अइऋऌएऐओऔ])/व्\1/g;
+$w =~ s/[ऋॠ]_([अइउऌएऐओऔ])/अर्\1/g;
+$w =~ s/ऌ_([अइउऌएऐओऔ])/अल्\1/g;
 
 $w =~ s/आछ्([1-9])/आञ्छ्\1/;
 $w =~ s/भड्([1-9])/भण्ड्\1/;
@@ -1162,6 +1168,9 @@ $w =~ s/दृन्फ्([1-9])/दृम्फ्\1/;
 $w =~ s/द्राक्ष्([1-9])/द्राङ्क्ष्\1/;
 $w =~ s/यत्र्([1-9])/यन्त्र्\1/;
 $w =~ s/युग्([1-9])/युङ्ग्\1/;
+
+$w =~ s/([कखगघङचछजझञटटडढणतथदधनपफबभमयरलवशषसह])_आ/\1ा/g; 
+$w =~ s/_//g;
 
 $w;
 }
