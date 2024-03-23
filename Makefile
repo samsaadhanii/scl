@@ -8,7 +8,7 @@ all:
 	cd converters; make
 	cd MT; make
 	cd skt_gen/compounds; make
-	cd skt_gen/Sentence; make
+	cd skt_gen/Sentence; make clean; make
 	cd ashtadhyayi_simulator/june12; make
 	cd NN; make
 
