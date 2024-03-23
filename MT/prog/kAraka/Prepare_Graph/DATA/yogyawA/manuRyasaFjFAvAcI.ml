@@ -15,6 +15,7 @@ value manuRyasaFjFAvAci = [
 "kOnweya";
 "maXusUxana";
 "mEwrAvaruNi";
+"mEWilI";
 "nala";
 "nAraxa";
 "pArWa";

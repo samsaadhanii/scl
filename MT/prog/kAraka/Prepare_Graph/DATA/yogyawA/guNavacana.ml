@@ -340,6 +340,8 @@ value guNavacana_list = [
 "sWira";
 "sahiwa";
 "saMyawa";
+"saMSriwA";
+"saMSriwa";
 "sakala";
 "samA";
 "samAXi";
