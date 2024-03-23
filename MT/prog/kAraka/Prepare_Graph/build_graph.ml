@@ -1285,10 +1285,12 @@ This condition is added, to rule out the possibility of karwA in Sloka form when
                      ]  *)
              | 2 -> let rel = handle_sp_compounds id1 cid1 mid1 id2 cid2 mid2 rt1 word1 pUrvapaxa1 uwwarapaxa1 lifgam1 in
 	             if (not (rel=[])) then rel 
-                     else if (not (viBakwiH1 = viBakwiH2)
+                     else (* if (not (viBakwiH1 = viBakwiH2)
                            || members_of rt2 upasarga2 gawyarWa_verbs)
-                     (* In case of gawyarWaka, we can have vanam gawaM raWam PaSya, where vanam is the karma of gawa, but if it is not a gawyarWaka verb then the karma will always be ukwa, and hence will have the same viBakwi as that of kwa, and in such cases we mark them as viSeRaNas, and do not mark the kaaraka relation *)
-                     then if not (member_of word1 kAlAXvas)
+                      In case of gawyarWaka, we can have vanam gawaM raWam PaSya, where vanam is the karma of gawa, but if it is not a gawyarWaka verb then the karma will always be ukwa, and hence will have the same viBakwi as that of kwa, and in such cases we mark them as viSeRaNas, and do not mark the kaaraka relation 
+			This condition is further relaxed for all the verbs.
+Ex: hqwAM mEWilIM SqwvA rAmaH vilalApa *)
+                     if not (member_of word1 kAlAXvas)
    			&& (  members_of rt2 upasarga2 shliR_Axi_verbs
                            || members_of rt2 upasarga2 aaxikarma_verbs
                            )
@@ -1305,10 +1307,11 @@ Counter example: sarva-BUwa-hiwe rawAH *)
                      else if members_of rt2 upasarga2 sakarmaka_verbs
                      then [ Relation (id1,cid1,mid1,"karma",id2,cid2,mid2,"3.7",d12)] *)
                      else if members_of rt2 upasarga2 xvikarmaka1
-                           ||  members_of rt2 upasarga2 xvikarmaka2
                      then [ Relation (id1,cid1,mid1,"gONakarma",id2,cid2,mid2,"3.8",d12)] 
+                     else if  members_of rt2 upasarga2 xvikarmaka2
+                     then [ Relation (id1,cid1,mid1,"muKyakarma",id2,cid2,mid2,"3.8a",d12)] 
                      else []
-                     else [] (*  Why 2.8 is needed? wawkAlam pravqwwAH -> wawkAlam is marked as a karma for pra_vqw, which is asakarmaka [ Relation (id1,cid1,mid1,"karma",id2,cid2,mid2,"2.8",d12)] *)
+                     (*  Why 2.8 is needed? wawkAlam pravqwwAH -> wawkAlam is marked as a karma for pra_vqw, which is asakarmaka [ Relation (id1,cid1,mid1,"karma",id2,cid2,mid2,"2.8",d12)] *)
                     (* anaBihiwe karmaNi xviwIyA gurum upaSliRtaH , grAmaM gawaH, kataM prakqwaH*)
                      (* else [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"2.5",d12)]  Any example for this rule? *)
                | 3 ->  (* if viBakwiH2=1; why this condition? puwreNa vyUDAm camUm paSya *)
@@ -2326,12 +2329,12 @@ value rlsamAnakAla m1 m2 text_type = match m1 with
                   (* && not (member_of rt2 guNavacana) ; this condition is not needed. If it is a viSeRaNa, then automatically, the constraint solver will reject 
                       this solution.  if this condition exists, xaSaraWasya puwraH rAmaH will not be parsed, since is in guNavacana list *)
                   (* && not (member_of rt2 sambanXavAcI) Why this condition? counter ex: wava XImawA SiRyeNa xrupaxa-puwreNa *)
-           then [ Relation (id1,cid1,mid1,"aBexaH",id2,cid2,mid2,"17.3",d12)]
+           then [ Relation (id1,cid1,mid1,"aBexaH",id2,cid2,mid2,"17.3a",d12)]
            else []
 
            else if rt1="miwra" && viBakwiH1=viBakwiH2 && vacanam1=vacanam2 && not ( member_of rt2 saMKyeya || member_of rt2 pUraNa )
-           then [ Relation (id1,cid1,mid1,"aBexaH",id2,cid2,mid2,"17.4",d12)]
-	   else [ Relation (id2,cid2,mid2,"viSeRaNam",id1,cid1,mid1,"17.5",d12)]
+           then [ Relation (id1,cid1,mid1,"aBexaH",id2,cid2,mid2,"17.4a",d12)]
+	   else [ Relation (id2,cid2,mid2,"viSeRaNam",id1,cid1,mid1,"17.5a",d12)]
            else []
 
            (*not (finite_verb_in_sentence.val = 50 && karwqsamverbs.val = 50)
@@ -2423,7 +2426,7 @@ gacCan bAlakaH wqNam spqSawi / bAlakaH gacCan wqNam spqSawi *)
                     member_of rt1 pUraNa || 
                     member_of rt1 kqxanwas || 
                     member_of rt1 taddhitaantas || 
-                    member_of rt1 guNavacana  )
+                    member_of rt1 guNavacana  ) && not (member_of rt1 manuRyasaFjFAvAcI)
 	      then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.3",d12)]
               else if (uwwarapaxa1 = "y") && 
                       not (rt1 = "ananwaram" || word1 = "sahiwaH" || rt1 = "saxqSa" || rt1 = "pramuKa")
