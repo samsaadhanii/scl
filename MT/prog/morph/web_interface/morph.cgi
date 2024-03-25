@@ -107,8 +107,14 @@ my $format;
          # if($ans =~ /level:2/) { $ans =~ s/level:2/kqxanwa/;}
          # if($ans =~ /level:3/) { $ans =~ s/level:3/waxXiwa/;}
 
-          $ans =~ s/^([^{ ]+)([ {])/$2/;  # Remove rt from the ans; since we need to provide a link to it in web version.
-          $rt = $1;
+	  #print "ans = $ans\n";
+          if ($ans =~ /^([^{ ]+)([ {])/) { 
+              $ans =~ s/^([^{ ]+)([ {])/$2/;  # Remove rt from the ans; since we need to provide a link to it in web version.
+              $rt = $1;
+          } elsif ($ans =~ /{kqw_XAwu:([^}]+)}/){
+             $ans =~ s/{kqw_XAwu:([^}]+)}//;
+             $rt = $1;
+          }
 	  $rt_outencoding = &my_convert($rt,$outencoding);
           chomp($rt_outencoding);
 

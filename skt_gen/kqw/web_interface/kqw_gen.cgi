@@ -32,7 +32,7 @@ package main;
 
 	my $format="web";
 	my %param = &get_parameters();
-        my $word=$param{vb};
+        my $vb=$param{vb};
         my $upasarga=$param{upasarga};
         my $encoding=$param{encoding};
         my $outencoding=$param{outencoding};
@@ -55,9 +55,9 @@ package main;
 	 $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1";
 	}
 
-	my @forms= &gen_kqw_forms($word,$upasarga,$format,$conversion_program,$outencoding);
+	my @forms= &gen_kqw_forms($vb,$upasarga,$format,$conversion_program,$outencoding);
 	print @forms;
 		
 	if($format eq "web") {
-	   &register_log_and_close($GlblVar::LOG,$word,$upasarga,$encoding,%ENV);
+	   &register_log_and_close($GlblVar::LOG,$vb,$upasarga,$encoding,%ENV);
         }

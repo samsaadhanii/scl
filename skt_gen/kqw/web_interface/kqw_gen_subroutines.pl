@@ -86,11 +86,12 @@ $LTPROC_IN = "";
 
    my $pid = $$;
 
-#   $rt_XAwu_gaNa = $rt_wx;
-#   chomp($rt_XAwu_gaNa);
+   $rt_XAwu_gaNa = $rt_wx;
+   chomp($rt_XAwu_gaNa);
 
     $upa_wx =~ s/Y/_/g;
     ($rt,$XAwu,$gaNa,$mean) = split(/_/,$rt_wx);
+    print "gaNa = $gaNa\n";
     if($upa_wx ne "-") { $upasargastr = "<upasarga:$upa_wx>";} else {$upasargastr = "";}
     for($l=0;$l<13;$l++) {
        for($g=0;$g<3;$g++) {
@@ -136,7 +137,9 @@ sub gen_kqwnoun_forms{
  my ($prAwi, $lifga, $rt, $upasarga, $kqw_prawyaya, $XAwu, $gaNa, $encoding, $outencoding) = @_;
  my($conversion_program);
 
-my $generator = "$GlblVar::LTPROCBIN -cg $DataPATH/morph_bin/all_gen.bin";
+#my $generator = "$GlblVar::LTPROCBIN -cg $DataPATH/morph_bin/all_gen.bin";
+## This produces an error, which I could not fix, with the forms of karwA in kq1 and kq3 - wqc suxxif
+my $generator = "$GlblVar::LTPROCBIN -cg $DataPATH/morph_bin/kqw_gen.bin";
 
 my @vacanam = ("eka","xvi","bahu");
 
@@ -175,8 +178,12 @@ my @vacanam = ("eka","xvi","bahu");
  } #vib
  chomp($LTPROC_IN); # To chomp the last \n, else it produces an extra blank line in the o/p of lt-proc
 
+
  $str = "echo '".$LTPROC_IN."' | $generator | grep . | pr -3 -a -t  | tr ' ' '\t' | $conversion_program  | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/noun/html_format.pl '' $prAwi_wx $lifga $outencoding";
  
+open (T,">/tmp/1111");
+print T $str;
+close(T);
 
  my @out = `$str`;
  if ($out[0] =~ /\*/) { print "Word Forms Could not be generated\n";}
