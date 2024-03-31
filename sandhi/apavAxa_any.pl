@@ -77,7 +77,7 @@ if($an=~/^pra\+U([hD].*)/){$ans = "prO$1";$ans1="vqxXi";$ans2="prAxUhoDoDyeRERye
 if($an=~/^pra\+eR(.*)/){$ans = "prER$1";$ans1="vqxXi";$ans2="prAxUhoDoDyeRERyeRu (vA 3605)";$cont =0;}
 
 # Since the suutras are different, we have two rules. I need to check if pra can be removed from the vaartika
-if($an=~/^(vawsawara|kambala|vasana|qNa|xaSa)\+qN(.*)/){$ans = "$1ArN$2";$ans1="vqxXi";$ans2="pravawsawarakambalavasanArNaxaSAnAmqNe (vA 3608-9)";$cont =0;}
+if($an=~/^(vawsawar|kambal|vasan|qN|xaS)a\+qN(.*)/){$ans = "$1ArN$2";$ans1="vqxXi";$ans2="pravawsawarakambalavasanArNaxaSAnAmqNe (vA 3608-9)";$cont =0;}
 if($an=~/^pra\+qN(.*)/){$ans = "prArN$1";$ans1="vqxXi";$ans2="pravawsawarakambalavasanArNaxaSAnAmqNe (vA 3608-9)";$cont =0;}
 elsif($an=~/^pra\+q(.*)/){$ans = "prAr$1";$ans1="vqxXi";$ans2="upasargAxqwi XAwoH (6.1.91)";$cont =0;}
 
@@ -91,9 +91,9 @@ if($an=~/^hala\+IRA$/){$ans = "halIRA";$ans1="pararUpa";$ans2="SakanXvAxiRu para
 if($an=~/^lAfgala\+IRA$/){$ans = "lAfgalIRA" ;$ans1="pararUpa";$ans2="SakanXvAxiRu pararUpam vAcyam (vA 3632)";$cont =0;}
 if($an=~/^manas\+IRA$/){$ans = "manIRA";$ans1="pararUpa";$ans2="SakanXvAxiRu pararUpam vAcyam (vA 3632)";$cont =0;}
 if($an=~/^mArwa\+aNdaH$/){$ans = "mArwaNdaH";$ans1="pararUpa";$ans2="SakanXvAxiRu pararUpam vAcyam (vA 3632)";$cont =0;}
+if($an=~/^pawaw\+aFjaliH$/){$ans = "pawaFjaliH";$ans1="pararUpa";$ans2="SakanXvAxiRu pararUpam vAcyam (vA 3632)";$cont =0;}
 if($an=~/^sIman\+anwaH$/){$ans = "sImanwaH";$ans1="pararUpa";$ans2="sImanwaH keSaveSe (vA 3633)";$cont =0;}
 if($an=~/^sAra\+afg(.*)/){$ans = "sArafg$1";$ans1="pararUpa";$ans2="sArafgaH paSupakRiNoH (gaNa sUwram 136)";$cont =0;}
-if($an=~/^pawaw\+aFjaliH$/){$ans = "pawaFjaliH";$ans1="pararUpa";$ans2="SakanXvAxiRu pararUpam vAcyam (vA 3632)";$cont =0;}
 if($an=~/(.*)([aA])\+owuH/){$ans = "$1owuH";$ans1="pararUpa";$ans2="owvoRTayoH samAse vA (vA 3634)";$cont =1;}
 if($an=~/(.*)([aA])\+oRT(.*)/){$ans = "$1oRT$3";$ans1="pararUpa";$ans2="owvoRTayoH samAse vA (vA 3634)"; $cont=1;}
 
