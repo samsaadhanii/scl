@@ -5,6 +5,7 @@ pramumoxa	mux1<upasarga:pra><prayogaH:karwari><lakAraH:lit><puruRaH:pra><vacanam
 ASvAsayAmAsa	Svas1<upasarga:Af><sanAxi_prawyayaH:Nic><prayogaH:karwari><lakAraH:lit><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:Svasaz><gaNaH:axAxiH><level:1>
 ASvAsayaw	Svi1<upasarga:Af><sanAxi_prawyayaH:Nic><prayogaH:karwari><lakAraH:laf><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:tuOSvi><gaNaH:BvAxiH><level:1>
 ASvAsya	Svas1<upasarga:Af><vargaH:avy><kqw_prawyayaH:lyap><XAwuH:Svasaz><gaNaH:axAxiH><level:1>
+vagAhya	gAh1<upasarga:ava><vargaH:avy><kqw_prawyayaH:lyap><XAwuH:gAhUz><gaNaH:BvAxiH><level:2>
 AcCannaH	Cax1<kqw_prawyayaH:kwa><lifgam:puM><XAwuH:Caxiz><gaNaH:curAxiH><level:1>
 Aganwum	gam1<vargaH:avy><upasarga:Af><kqw_prawyayaH:wumun><XAwuH:gamlqz><gaNaH:BvAxiH><level:1>
 AgawavAn	Agawavaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>

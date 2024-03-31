@@ -102,7 +102,7 @@ else {$out_converter="";}
       print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
       print "<div id='finalout' style='border-style:solid; border-width:1px;padding:10px;color:blue;font-size:14px;height:200px'>";
       if ($error == 0) {
-          if ($out_encoding == "W") {
+          if ($out_encoding eq "W") {
           $ans = `echo "$ans" | tail -1 | perl -p -e 's/.*://; s/}//;'`;
           } else {
           $ans = `echo "$ans" | $out_converter | tail -1 | perl -p -e 's/.*://; s/}//;'`;
