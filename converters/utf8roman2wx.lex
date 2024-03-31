@@ -34,6 +34,12 @@ AU	printf("O");
 Ṃ	printf("M");
 ḥ	printf("H");
 
+A	printf("a");
+I	printf("i");
+U	printf("u");
+E	printf("e");
+O	printf("o");
+
 ā	printf("A");
 ī	printf("I");
 ū	printf("U");
@@ -87,6 +93,7 @@ Th	printf("W");
 T	printf("w");
 Dh	printf("X");
 D	printf("x");
+N	printf("n");
 
 Ph	printf("P");
 P	printf("p");
@@ -104,4 +111,9 @@ R	printf("r");
 Ś	printf("S");
 Ṣ	printf("R");
 '	printf("Z");
+
+Y	printf("y");
+L	printf("l");
+V	printf("v");
+S	printf("s");
 %%
