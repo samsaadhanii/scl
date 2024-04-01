@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-#require "../../../paths.pl";
+require "../paths.pl";
 
 $pid = $ARGV[0];
 $sub_pid = $ARGV[1];
@@ -22,15 +22,18 @@ print <<header
 header
 ;
 
-if($#sentences == 1) {
+print "TFPATH = $TFPATH\n";
+print "pid = $pid\n";
+print "sub_pid = $sub_pid\n";
+#if($#sentences == 1) {
 print <<header1
-<a href="/$GlblVar::SCL_HTDOCS/MT/DEMO/./tmp_$fbn/table.xlsx">Save Annotation</a> 
+<a href="/$GlblVar::SCL_HTDOCS/MT/DEMO/./tmp_in${pid}_1/table_outscript.tsv">Save Annotation</a> 
 &nbsp; &nbsp; &nbsp; &nbsp;
-<a href="/cgi-bin/$GlblVar::SCL_CGI/skt_gen/Sentence/gen.cgi?filename=$TFPATH/table_dev.tsv">Generate</a> 
+<a href="/cgi-bin/$GlblVar::SCL_CGI/skt_gen/Sentence/gen.cgi?filename=$TFPATH/tmp_in${pid}_1/table_dev.tsv">Generate</a> 
 &nbsp; &nbsp; &nbsp; &nbsp;
 header1
 ;
-}
+#}
 
 print <<header2
 </center></p>
