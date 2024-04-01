@@ -49,7 +49,7 @@ my %param = &get_parameters();
           $fn =~ s/.*tmp_//;
 
 	  #system("cut -f1-6 $dirname/*.out.before_parse | $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/add_best_parse_output.pl $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt $dirname/parser_files/parseop_new.txt | $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/add_abhihita_info.pl |  $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/add_possible_relations.pl $dirname/parser_files/graph.txt  > $dirname/$fn.out");
-	  system("cut -f1-6 $dirname/*.out.before_parse | $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/add_best_parse_output.pl $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt $dirname/parser_files/parseop_new.txt | $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/add_abhihita_info.pl |  $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/add_possible_relations.pl $dirname/parser_files/graph.txt  > /tmp/xyz;  $GlblVar::SCLINSTALLDIR/MT/prog/reader_generator/extract.pl < /tmp/xyz | $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/draw_graph.pl $GlblVar::GraphvizDot $dirname ");
+	  system("cut -f1-6 $dirname/*.out.before_parse | $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/add_best_parse_output.pl $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt $dirname/parser_files/parseop_new.txt | $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/add_abhihita_info.pl |  $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/add_possible_relations.pl $dirname/parser_files/graph.txt | $GlblVar::SCLINSTALLDIR/MT/prog/reader_generator/extract.pl | $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/draw_graph.pl $GlblVar::GraphvizDot $dirname ");
 
 	  #my $lang = "hi";
 	  #my $morph = "UoHyd";
