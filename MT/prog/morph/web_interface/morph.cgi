@@ -20,8 +20,8 @@
 #use utf8;
 ## If utf8 is commented, then Devanagari input is not accepted
 ##If it is not commented, then we do not get proper colors in the output
-use strict;
-use warnings;
+#use strict;
+#use warnings;
 
 require "../../../paths.pl";
 require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
