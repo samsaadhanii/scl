@@ -19,7 +19,8 @@
 
 use utf8;
 require "../../../paths.pl";
-require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/cgi_interface.pl";
 
 
 package main;
@@ -36,7 +37,7 @@ my %param = &get_parameters();
       my $translate=$param{translate};
 
       $filename = "table_outscript.tsv";
-      $pid = $dirname;
+      my $pid = $dirname;
       $pid =~ s/.*\/tmp_in//;
 
       #  my $cgi = new CGI;
@@ -52,8 +53,10 @@ my %param = &get_parameters();
           my $text_type = "Prose";
           $pid =~ /_([0-9])/;
           my $sentno = $1;
-          system("$GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::CGIDIR/$GlblVar::SCL_CGI $dirname/in$pid $GlblVar::TFPATH $lang $outscript $morph $parse $text_type $sentno 2>> $dirname/err$pid");
-	  system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $outscript $pid NIL $text_type $GlblVar::SCL_HTDOCS $GlblVar::SCL_CGI");
+          system("$myPATH/MT/prog/shell/anu_skt_hnd.sh $myPATH $dirname/in$pid $GlblVar::TFPATH $lang $outscript $morph $parse $text_type $sentno 2>> $dirname/err$pid");
+	  system("$myPATH/MT/prog/interface/display_output.pl $myPATH $GlblVar::TFPATH $outscript $pid NIL $text_type $GlblVar::SCL_HTDOCS $GlblVar::SCL_CGI");
+	  $pid =~ s/_[0-9]//;
+	  system("$myPATH/MT/prog/interface/print_table_bottom_menu.pl $myPATH $pid $sent_no $GlblVar::TFPATH $script");
       } else {
       print "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n";
       print "<html xmlns=\"http://www.w3.org/1999/xhtml\">";
@@ -66,7 +69,7 @@ my %param = &get_parameters();
       print "<\/head>\n<body>\n<div>\n";
       print "<center>\n";
       if($save eq "yes") {
-        system("$GlblVar::SCLINSTALLDIR/MT/prog/kAraka/mk_summary.pl $GlblVar::SCLINSTALLDIR $outscript $dirname/$filename $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/list_n $dirname $relations $sentnum $dirname/parser_files/parseop_new.txt $save < $dirname/parser_files/parseop$sentnum.txt");
+        system("$myPATH/MT/prog/kAraka/mk_summary.pl $myPATH $outscript $dirname/$filename $myPATH/MT/prog/kAraka/list_n $dirname $relations $sentnum $dirname/parser_files/parseop_new.txt $save < $dirname/parser_files/parseop$sentnum.txt");
       } else {
       open(TMP,"<$dirname/parser_files/parseop1.txt") || die "Can't open $dirname/parser_files/parseop1.txt for reading";
       @tmp = <TMP>;
@@ -77,7 +80,7 @@ my %param = &get_parameters();
       } else {
          print "<h2> Summary of Possible Relations <\/h2>\n";
       }
-        system("$GlblVar::SCLINSTALLDIR/MT/prog/kAraka/mk_summary.pl $GlblVar::SCLINSTALLDIR $outscript $dirname/$filename $GlblVar::SCLINSTALLDIR/MT/prog/kAraka/list_n $dirname $relations $sentnum $dirname/parser_files/parseop_new.txt $save < $dirname/parser_files/parseop$sentnum.txt");
+        system("$myPATH/MT/prog/kAraka/mk_summary.pl $myPATH $outscript $dirname/$filename $myPATH/MT/prog/kAraka/list_n $dirname $relations $sentnum $dirname/parser_files/parseop_new.txt $save < $dirname/parser_files/parseop$sentnum.txt");
       print "<\/center>\n";
       print "<\/div>\n";
       print "<\/body>\n<\/html>\n";

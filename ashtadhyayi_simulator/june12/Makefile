@@ -63,3 +63,6 @@ install:
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/ashtadhyayi_simulator
 	cp ../web_interface/*.html $(HTDOCSDIR)/$(SCL_HTDOCS)/ashtadhyayi_simulator
 	cp ../web_interface/*.cgi $(CGIDIR)/$(SCL_CGI)/ashtadhyayi_simulator
+	cp run.sh $(CGIDIR)/$(SCL_CGI)/ashtadhyayi_simulator
+	cp *.class $(CGIDIR)/$(SCL_CGI)/ashtadhyayi_simulator
+	cp aRt_new BARiwapuMs Xawu nouns rule_niyama safKyA sarvanAma swrI waxXiwa $(CGIDIR)/$(SCL_CGI)/ashtadhyayi_simulator

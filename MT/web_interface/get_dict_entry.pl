@@ -26,7 +26,9 @@
 #binmode(STDOUT, "encoding(UTF-8)");
 
 require "../paths.pl";
-require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+$myDataPATH="$GlblVar::HTDOCSDIR/$GlblVar::SCL_HTDOCS";
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/cgi_interface.pl";
 
 package main;
 
@@ -37,19 +39,19 @@ sub get_dict_entry{
 
 my $word_wx = "";
 
-$Files_Path = "$GlblVar::HTDOCSDIR/$GlblVar::SCL_HTDOCS/MT/data";
+$Files_Path = "$myDataPATH/MT/data";
 
 chomp $word;
 # converting word utf8 to wx to get filename
 if ($outencoding eq "DEV") {
-  $word_wx = `echo $word | $GlblVar::SCLINSTALLDIR/converters/utf82wx.sh $GlblVar::SCLINSTALLDIR`;
+  $word_wx = `echo $word | $myPATH/converters/utf82wx.sh $myPATH`;
   chomp($word_wx);
 }elsif($outencoding eq "IAST"){
-  $word_wx = `echo $word | $GlblVar::SCLINSTALLDIR/converters/utf8roman2wx.out`;
+  $word_wx = `echo $word | $myPATH/converters/utf8roman2wx.out`;
   chomp($word_wx);
 }
   $sword_wx = get_normalised_word($word_wx);
-  $sword = `echo $sword_wx | $GlblVar::SCLINSTALLDIR/converters/wx2utf8.sh $GlblVar::SCLINSTALLDIR`;
+  $sword = `echo $sword_wx | $myPATH/converters/wx2utf8.sh $myPATH`;
   chomp($sword);
 
 #print "word = $word\n";
@@ -114,7 +116,7 @@ if($sword ne ""){
 
 $result = "";
     if($dic_name  eq "amara"){
-	    system("$GlblVar::SCLINSTALLDIR/amarakosha/relations.sh NULL 'paryAyavAcI' $word_wx DEV $GlblVar::SCLINSTALLDIR");
+	    system("$myPATH/amarakosha/relations.sh NULL 'paryAyavAcI' $word_wx DEV $myPATH");
 	 }
 	 elsif($dic_name  eq "apte"){
 		$result = &apte_result($sword); #finding word in apt xml files
@@ -218,7 +220,7 @@ sub heritage_result{
 	my($word) = @_;
 	my $result = "";
         my($w);
-	$w = `echo "$word" | $GlblVar::SCLINSTALLDIR/converters/utf82wx.sh $GlblVar::SCLINSTALLDIR/ | $GlblVar::SCLINSTALLDIR/converters/wx-velthuis.out`;
+	$w = `echo "$word" | $myPATH/converters/utf82wx.sh $myPATH/ | $myPATH/converters/wx-velthuis.out`;
 	$w =~ s/[ \t\n]//g;
         #print "Heritage word = $word\n";
         #print "Heritage w = $w\n";

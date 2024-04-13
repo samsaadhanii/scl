@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 
 require "../../paths.pl";
- my $mycPATH = "$GlblVar::SCLINSTALLDIR/converters";
+ my $mycPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters";
 
  sub cnvrt2utf {
   my($in) = @_;

@@ -19,12 +19,12 @@
 
 use utf8;
 require "../paths.pl";
-require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
 
 package main;
 
 
-require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert.pl";
 
 
   my $conversion_program;
@@ -48,7 +48,7 @@ require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
       $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1";
   }
 
-  $shloka_wx=&convert($encoding,$shloka,$GlblVar::SCLINSTALLDIR);
+  $shloka_wx=&convert($encoding,$shloka,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI");
   chomp($shloka_wx);
   open (TMP,">/tmp/a");
   print TMP $shloka_wx;

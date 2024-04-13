@@ -23,11 +23,11 @@
 use strict;
 use warnings;
 
-require "../paths.pl";
-require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+require "../../../paths.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
 
-require "$GlblVar::SCLINSTALLDIR/MT/prog/morph/web_interface/scripts.pl";
-require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/MT/prog/morph/scripts.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert.pl";
 
 
 #Usage:
@@ -78,9 +78,9 @@ my $format;
 
   print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
-  $word_wx = &convert($encoding,$word,$GlblVar::SCLINSTALLDIR);
+  $word_wx = &convert($encoding,$word,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI");
   chomp($word_wx);
-  $ans = `$GlblVar::SCLINSTALLDIR/MT/prog/morph/webrun_morph.sh $word_wx`;
+  $ans = `$GlblVar::CGIDIR/$GlblVar::SCL_CGI/MT/prog/morph/webrun_morph.sh $word_wx`;
   chomp($ans);
 
   if($format eq "web") {
@@ -265,9 +265,9 @@ sub my_convert {
     my($rt,$outencoding) = @_;
     my($rt_outencoding);
           if ($outencoding eq "IAST") {
-              $rt_outencoding = `echo $rt | $GlblVar::SCLINSTALLDIR/converters/wx2utf8roman.out`;
+              $rt_outencoding = `echo $rt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8roman.out`;
           } else {
-              $rt_outencoding = `echo $rt | $GlblVar::SCLINSTALLDIR/converters/wx2utf8.sh $GlblVar::SCLINSTALLDIR`;
+              $rt_outencoding = `echo $rt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8.sh $GlblVar::CGIDIR/$GlblVar::SCL_CGI`;
           }
     $rt_outencoding;
 }

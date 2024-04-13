@@ -31,7 +31,7 @@ open Bank_lexer.Token;
 exception Report of string
 ;
 
-value scl_morph_path = sclinstalldir^"/morph_bin/"
+value scl_morph_path = cgidir^"/"^scl_cgi^"/morph_bin/"
 ;
 
 value ltproc = ltprocbin ^ " -cg "
@@ -40,7 +40,7 @@ value ltproc = ltprocbin ^ " -cg "
 value parses = Gram.Entry.mk "parses"
 ;
 
-value datapath = sclinstalldir^"/skt_gen/Sentence/data/";
+value datapath = cgidir^"/"^scl_cgi^"/skt_gen/Sentence/data/";
 
 (* Grammar of parsed_analyses coming from sentence *)
 

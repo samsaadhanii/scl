@@ -22,11 +22,11 @@ use utf8;
 use Encode qw/ decode /;
 
 require "../../paths.pl";
-require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
 
-my $converters_path="$GlblVar::SCLINSTALLDIR/converters";
-my $NNCG_path="$GlblVar::SCLINSTALLDIR/NN/CG";
-require "$GlblVar::SCLINSTALLDIR/NN/common/style.pl";
+my $converters_path="$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters";
+my $NNCG_path="$GlblVar::CGIDIR/$GlblVar::SCL_CGI/NN/CG";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/NN/common/style.pl";
 
       print "Content-type:text/html;charset:UTF-8\n\n";
       print $NN::style_header;

@@ -21,10 +21,10 @@
 
 #use utf8;
 require "../../paths.pl";
-require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
 
 
-my $myPATH = "$GlblVar::SCLINSTALLDIR/skt_gen/compounds";
+my $myPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/compounds";
 require "$myPATH/cnvrt2utf.pl";
 require "$myPATH/cnvrt2utfr.pl";
 

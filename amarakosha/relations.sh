@@ -1,10 +1,10 @@
 OUTENCODING=$4
 
-SCLINSTALLDIR=$5
+CGIDIR=$5
 
 if [ $OUTENCODING = "DEV" ] ; then
-$SCLINSTALLDIR/amarakosha/relations.pl $1 $2 $3 $4 | $SCLINSTALLDIR/converters/ri_skt | $SCLINSTALLDIR/converters/iscii2utf8.py 1
+$CGIDIR/$SCL_CGI/amarakosha/relations.pl $1 $2 $3 $4 | $CGIDIR/$SCL_CGI/converters/ri_skt | $CGIDIR/$SCL_CGI/converters/iscii2utf8.py 1
 fi
 if [ $OUTENCODING = "IAST" ] ; then
-$SCLINSTALLDIR/amarakosha/relations.pl $1 $2 $3 $4 | $SCLINSTALLDIR/converters/wx2utf8roman.out
+$CGIDIR/$SCL_CGI/amarakosha/relations.pl $1 $2 $3 $4 | $CGIDIR/$SCL_CGI/converters/wx2utf8roman.out
 fi

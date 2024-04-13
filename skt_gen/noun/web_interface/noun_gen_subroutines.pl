@@ -22,7 +22,7 @@ require "../../paths.pl";
 require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
 require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert2WX_subroutines.pl";
 
-my $DataPATH = $GlblVar::SCLINSTALLDIR;
+my $DataPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
 
 #
 #### List of all pUraNa words

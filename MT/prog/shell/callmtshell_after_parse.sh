@@ -20,7 +20,7 @@
 
 source ../../../paths.sh
 
-MT_PATH=$SCLINSTALLDIR/MT/
+MT_PATH=$myPATH/MT/
 ANU_MT_PATH=$MT_PATH/prog
 
 TMP_FILES_PATH=$1
@@ -28,12 +28,12 @@ pid=$2
 OUTSCRIPT=$3
 outfilename="in"$pid".out"
 
- $ANU_MT_PATH/kAraka/add_parser_output.pl $SCLINSTALLDIR $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt $TMP_FILES_PATH/parser_files/parseop_new.txt 1 < $TMP_FILES_PATH/parser_files/morph1.out |\
+ $ANU_MT_PATH/kAraka/add_parser_output.pl $myPATH $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt $TMP_FILES_PATH/parser_files/parseop_new.txt 1 < $TMP_FILES_PATH/parser_files/morph1.out |\
   $ANU_MT_PATH/kAraka/add_abhihita_info.pl > $TMP_FILES_PATH/parser_files/$outfilename
 
-$ANU_MT_PATH/kAraka/prepare_dot_files.sh $SCLINSTALLDIR $GraphvizDot $OUTSCRIPT 1 mk_kAraka_help.pl $TMP_FILES_PATH/parser_files/morph1.out $TMP_FILES_PATH/parser_files/parseop_new.txt $TMP_FILES_PATH 1
+$ANU_MT_PATH/kAraka/prepare_dot_files.sh $myPATH $GraphvizDot $OUTSCRIPT 1 mk_kAraka_help.pl $TMP_FILES_PATH/parser_files/morph1.out $TMP_FILES_PATH/parser_files/parseop_new.txt $TMP_FILES_PATH 1
 
 cp $TMP_FILES_PATH/parser_files/parseop_new.txt $TMP_FILES_PATH/parser_files/parseop1.txt
-$GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::CGIDIR/$GlblVar::SCL_CGI tmp_in${pid}/in$pid $GlblVar::TFPATH hi DEV UoHyD AVAILABLE Prose 2> $GlblVar::TFPATH/tmp_in$pid/err1$pid
+$myPATH/MT/prog/shell/anu_skt_hnd.sh $myPATH tmp_in${pid}/in$pid $GlblVar::TFPATH hi DEV UoHyD AVAILABLE Prose 2> $GlblVar::TFPATH/tmp_in$pid/err1$pid
 
-$ANU_MT_PATH/interface/display_output.pl $SCLINSTALLDIR $TFPATH $OUTSCRIPT $pid A $GlblVar::SCL_HTDOCS $GlblVar::SCL_CGI
+$ANU_MT_PATH/interface/display_output.pl $myPATH $TFPATH $OUTSCRIPT $pid A $SCL_HTDOCS $SCL_CGI

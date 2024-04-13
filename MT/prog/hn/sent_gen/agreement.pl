@@ -70,7 +70,7 @@ require "$prog_Path/misc_func.pl";
 require "$prog_Path/predicative_adj_agr.pl";
 require "$prog_Path/karmaNi_BAve_to_karwari.pl";
 
-open(TMP,"$Data_Path/hi/fem_hnd_noun.lst") || die "Can't open fem_hnd_noun.txt for reading";
+open(TMP,"$Data_Path/hi/fem_hnd_noun.txt") || die "Can't open fem_hnd_noun.txt for reading";
 while(<TMP>) {
 chomp;
 $key = $_;

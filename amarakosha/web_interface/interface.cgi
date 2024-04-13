@@ -23,9 +23,9 @@ use warnings;
 use utf8;
 
 require "../paths.pl";
-require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
-require "$GlblVar::SCLINSTALLDIR/MT/prog/morph/web_interface/scripts.pl";
-require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/MT/prog/morph/scripts.pl";
+#require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert.pl";
 
 #use CGI qw( :standard );
 
@@ -61,7 +61,7 @@ my $out_encoding=$param{out_encoding};
     close(TMP1);
   }
 
-my $result = `$GlblVar::SCLINSTALLDIR/amarakosha/callrel.pl $word $relation $encoding $out_encoding`;
+my $result = `$GlblVar::CGIDIR/$GlblVar::SCL_CGI/amarakosha/callrel.pl $word $relation $encoding $out_encoding`;
 print $result;
 
 print "<center><font size=5 color=\"white\">&nbsp;</font></center>";

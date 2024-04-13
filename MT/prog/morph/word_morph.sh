@@ -17,16 +17,16 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
-SCLINSTALLDIR=$1
+source $1/paths.sh
 LTPROCBIN=$2
 TMP_FILES_PATH=$3
 
-export BIN_PATH=$SCLINSTALLDIR/morph_bin
+export BIN_PATH=$1/morph_bin
 
 DEBUG="ON"
 
-cut -f2 | $SCLINSTALLDIR/MT/prog/Normalisation/get_std_spelling.out |\
-$SCLINSTALLDIR/MT/prog/morph/bin/split-samAsa-wrds.pl $TMP_FILES_PATH/tmpall $TMP_FILES_PATH/tmpany $TMP_FILES_PATH/tmpsamb $TMP_FILES_PATH/tmpupaxa
+cut -f2 | $CGIDIR/$SCL_CGI/MT/prog/Normalisation/get_std_spelling.out |\
+$CGIDIR/$SCL_CGI/MT/prog/morph/bin/split-samAsa-wrds.pl $TMP_FILES_PATH/tmpall $TMP_FILES_PATH/tmpany $TMP_FILES_PATH/tmpsamb $TMP_FILES_PATH/tmpupaxa
 
 $LTPROCBIN -c $BIN_PATH/samAsa_upaxa.bin < $TMP_FILES_PATH/tmpupaxa | perl -pe 's/\//=/;s/^.*=\*.*//;s/.*=//;s/^^//;s/\$$//;' > $TMP_FILES_PATH/tmp_n1
 $LTPROCBIN -c $BIN_PATH/samboXana.bin < $TMP_FILES_PATH/tmpsamb | perl -pe 's/\//=/;s/^.*=\*.*//;s/.*=//;s/^^//;s/\$$//' > $TMP_FILES_PATH/tmp_n2
@@ -34,7 +34,7 @@ $LTPROCBIN -c $BIN_PATH/all_but_samboXana_morf.bin < $TMP_FILES_PATH/tmpany | pe
 
 paste -d'/' $TMP_FILES_PATH/tmp_n3 $TMP_FILES_PATH/tmp_n2 $TMP_FILES_PATH/tmp_n1 | perl -pe 's/\/\//\//g;' > $TMP_FILES_PATH/tmp_n
 
-$SCLINSTALLDIR/MT/prog/morph/bin/handle_Namul_next.pl < $TMP_FILES_PATH/tmp_n | $SCLINSTALLDIR/MT/prog/morph/bin/handle_Namul_prev.pl  | perl -pe 's/=\//=/;s/\$$//g' > $TMP_FILES_PATH/tmp_nn
+$CGIDIR/$SCL_CGI/MT/prog/morph/bin/handle_Namul_next.pl < $TMP_FILES_PATH/tmp_n | $CGIDIR/$SCL_CGI/MT/prog/morph/bin/handle_Namul_prev.pl  | perl -pe 's/=\//=/;s/\$$//g' > $TMP_FILES_PATH/tmp_nn
 
 paste -d= $TMP_FILES_PATH/tmpall $TMP_FILES_PATH/tmp_nn | perl -pe 's/\/$//;s/^=//;s/=\//=/; s/\-$//;'
 

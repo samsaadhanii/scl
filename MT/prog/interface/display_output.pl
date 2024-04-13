@@ -2,7 +2,7 @@
 
 #require "../paths.pl";
 
-$SCLINSTALLDIR = $ARGV[0];
+$myPATH = $ARGV[0];
 $TFPATH = $ARGV[1];
 $out_encoding = $ARGV[2];
 $pid = $ARGV[3];
@@ -20,9 +20,9 @@ if($sub_pid eq "NIL") {
 $CSSPATH = "/$SCL_HTDOCS/MT";
 $CGIPATH = "/cgi-bin/$SCL_CGI/MT";
 
-require "$SCLINSTALLDIR/converters/convert.pl";
+require "$myPATH/converters/convert.pl";
 
-$scl_conv = $SCLINSTALLDIR."/converters";
+$scl_conv = $myPATH."/converters";
 $my_converter = &get_conv($scl_conv, $out_encoding);
 
 ## Print Head

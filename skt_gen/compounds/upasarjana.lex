@@ -747,7 +747,7 @@ if((fp = fopen(fin,"w"))==NULL){
 fprintf(fp,"%s\n",str);
 fclose(fp);
 
-sprintf(cmd,"%s -c %s/morph_bin/all_morf.bin < %s | grep -c 'kqw_prawyayaH:%s' > %s",LTPROCBIN,SCLINSTALLDIR,fin,kqw_str,fout);
+sprintf(cmd,"%s -c %s/%s/morph_bin/all_morf.bin < %s | grep -c 'kqw_prawyayaH:%s' > %s",LTPROCBIN,CGIDIR,SCL_CGI,fin,kqw_str,fout);
 system(cmd);
 
 if((fp = fopen(fout,"r"))==NULL){

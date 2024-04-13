@@ -26,12 +26,12 @@ use utf8;
 use Encode qw/ decode /;
 
 require "../../paths.pl";
-require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
 
 my $tmp_path="$GlblVar::TFPATH/NN/CG";
-my $converters_path="$GlblVar::SCLINSTALLDIR/converters";
-my $NNCG_path="$GlblVar::SCLINSTALLDIR/NN/CG";
-my $CG_htdocspath="/$GlblVar::SCL_HTDOCS/NN/CG";
+my $converters_path="$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters";
+my $NNCG_path="$GlblVar::CGIDIR/$GlblVar::SCL_CGI/NN/CG";
+my $CG_htdocspath="/$GlblVar::CGIDIR/$GlblVar::SCL_CGI/NN/CG";
 
 #      my $cgi = new CGI;
 #      print $cgi->header (-charset => 'UTF-8');

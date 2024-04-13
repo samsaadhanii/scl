@@ -19,12 +19,12 @@
 
 use utf8;
 require "../../paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert2WX_subroutines.pl";
+my $myPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/cgi_interface.pl";
+require "$myPATH/converters/convert2WX_subroutines.pl";
 
-my $DataPATH = $GlblVar::SCLINSTALLDIR;
 
-my $generator = "$GlblVar::LTPROCBIN -cg $DataPATH/morph_bin/kqw_gen.bin";
+my $generator = "$GlblVar::LTPROCBIN -cg $myPATH/morph_bin/kqw_gen.bin";
 
 #
 ###################  Sub routines #################
@@ -91,7 +91,7 @@ $LTPROC_IN = "";
 
     $upa_wx =~ s/Y/_/g;
     ($rt,$XAwu,$gaNa,$mean) = split(/_/,$rt_wx);
-    print "gaNa = $gaNa\n";
+    #print "gaNa = $gaNa\n";
     if($upa_wx ne "-") { $upasargastr = "<upasarga:$upa_wx>";} else {$upasargastr = "";}
     for($l=0;$l<13;$l++) {
        for($g=0;$g<3;$g++) {
@@ -116,10 +116,10 @@ $LTPROC_IN = "";
   chomp($LTPROC_IN); # To chomp the last \n, else it produces an extra blank line in the o/p of lt-proc
 
  if($format eq "JSON") {
-    $str = "echo '".$LTPROC_IN."' | $generator | sed '1,\$s/#.*/-/g' | grep . | $conversion_program | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/kqw/json_format.pl $outencoding $upa_wx";
+    $str = "echo '".$LTPROC_IN."' | $generator | sed '1,\$s/#.*/-/g' | grep . | $conversion_program | $myPATH/skt_gen/kqw/json_format.pl $outencoding $upa_wx";
  }
  else {# $format = web
-	 $str = "echo '".$LTPROC_IN."' | $generator | sed '1,\$s/#.*/-/g' | grep . | pr -3 -a -t -w 150 | tr ' ' '\t' | $conversion_program | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/kqw/html_format.pl $rt_wx $upa_wx $outencoding $XAwu $gaNa";
+	 $str = "echo '".$LTPROC_IN."' | $generator | sed '1,\$s/#.*/-/g' | grep . | pr -3 -a -t -w 150 | tr ' ' '\t' | $conversion_program | $myPATH/skt_gen/kqw/html_format.pl $rt_wx $upa_wx $outencoding $XAwu $gaNa";
 	 #$str = "echo '".$LTPROC_IN."' | $generator ";
 	 #$LTPROC_IN =~ s/</;/g;
 	 #$LTPROC_IN =~ s/>/;/g;
@@ -137,22 +137,22 @@ sub gen_kqwnoun_forms{
  my ($prAwi, $lifga, $rt, $upasarga, $kqw_prawyaya, $XAwu, $gaNa, $encoding, $outencoding) = @_;
  my($conversion_program);
 
-#my $generator = "$GlblVar::LTPROCBIN -cg $DataPATH/morph_bin/all_gen.bin";
+#my $generator = "$GlblVar::LTPROCBIN -cg $myPATH/morph_bin/all_gen.bin";
 ## This produces an error, which I could not fix, with the forms of karwA in kq1 and kq3 - wqc suxxif
-my $generator = "$GlblVar::LTPROCBIN -cg $DataPATH/morph_bin/kqw_gen.bin";
+my $generator = "$GlblVar::LTPROCBIN -cg $myPATH/morph_bin/kqw_gen.bin";
 
 my @vacanam = ("eka","xvi","bahu");
 
  if ($encoding eq "DEV") { $encoding = "Unicode";}
- $prAwi_wx=&convert($encoding,$prAwi,$DataPATH);
- $kqw_prawyaya_wx=&convert($encoding,$kqw_prawyaya,$DataPATH);
+ $prAwi_wx=&convert($encoding,$prAwi,$myPATH);
+ $kqw_prawyaya_wx=&convert($encoding,$kqw_prawyaya,$myPATH);
  chomp($prAwi_wx);
  chomp($kqw_prawyaya_wx);
 
  if ($outencoding eq "IAST") {
-        $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8roman.out";
+        $conversion_program = "$myPATH/converters/wx2utf8roman.out";
  } else {
-        $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1";
+        $conversion_program = "$myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1";
  }
 
  if($upasarga ne "-") { $upasargastr = "<upasarga:$upasarga>";} else {$upasargastr = "";}
@@ -179,7 +179,7 @@ my @vacanam = ("eka","xvi","bahu");
  chomp($LTPROC_IN); # To chomp the last \n, else it produces an extra blank line in the o/p of lt-proc
 
 
- $str = "echo '".$LTPROC_IN."' | $generator | grep . | pr -3 -a -t  | tr ' ' '\t' | $conversion_program  | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/noun/html_format.pl '' $prAwi_wx $lifga $outencoding";
+ $str = "echo '".$LTPROC_IN."' | $generator | grep . | pr -3 -a -t  | tr ' ' '\t' | $conversion_program  | $myPATH/skt_gen/noun/html_format.pl '' $prAwi_wx $lifga $outencoding";
  
 open (T,">/tmp/1111");
 print T $str;

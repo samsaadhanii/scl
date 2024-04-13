@@ -20,9 +20,9 @@
 
 require "../paths.pl";
 
-require "$GlblVar::SCLINSTALLDIR/sandhi/apavAxa_any.pl";
-require "$GlblVar::SCLINSTALLDIR/sandhi/any_sandhi.pl";
-require "$GlblVar::SCLINSTALLDIR/sandhi/sandhi.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/sandhi/apavAxa_any.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/sandhi/any_sandhi.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/sandhi/sandhi.pl";
 
 
 

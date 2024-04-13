@@ -16,5 +16,5 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 
-SCLINSTALLDIR=$1
-$SCLINSTALLDIR/converters/ri_skt | $SCLINSTALLDIR/converters/iscii2utf8.py 7
+myPATH=$1
+$myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 7

@@ -29,7 +29,7 @@ function callmorphanalyser(){
                }
                else{
                		$("#output").html("कृपया प्रतीक्ष्यताम्....");
-               		$.post("/cgi-bin/SCL_CGI/morph/morph.cgi",{"morfword":$("#morphword").val(),"encoding":$("#encoding").val(),"outencoding":$("#outencoding").val()},function(data){
+               		$.post("/cgi-bin/SCL_CGI/MT/prog/morph/morph.cgi",{"morfword":$("#morphword").val(),"encoding":$("#encoding").val(),"outencoding":$("#outencoding").val()},function(data){
                		
                			$("#output").html(data);
                		});
@@ -74,7 +74,7 @@ if($("#word").val()==""){
                }
                else{
                		$("#output").html("कृपया प्रतीक्ष्यताम्....");
-               		$.post("/cgi-bin/SCL_CGI/sandhi_splitter/sandhi_splitter.cgi",{"word":$("#word").val(),"outencoding":$("#outencoding").val(),"encoding":$("#encoding").val(),"mode":$("#mode").val()},function(data){
+               		$.post("/cgi-bin/SCL_CGI/MT/prog/sandhi_splitter/sandhi_splitter.cgi",{"word":$("#word").val(),"outencoding":$("#outencoding").val(),"encoding":$("#encoding").val(),"mode":$("#mode").val()},function(data){
                		
                			$("#output").html(data);
                		});

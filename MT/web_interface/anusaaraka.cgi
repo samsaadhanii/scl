@@ -20,7 +20,8 @@
 use utf8;
 use Fcntl ':flock'; 
 require "../paths.pl";
-require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/cgi_interface.pl";
 
 package main;
 
@@ -31,7 +32,7 @@ package main;
     open(TMP1,">>$GlblVar::TFPATH/shmt.log") || die "Can't open $GlblVar::TFPATH/shmt.log for writing";
   }
 
-  require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
+  require "$myPATH/converters/convert.pl";
 
 
   my %param = &get_parameters();
@@ -77,7 +78,7 @@ package main;
       if ($sentences !~ /\.$/) { $sentences .= ".";}
       
 
-      $sentences=&convert($encoding,$sentences,$GlblVar::SCLINSTALLDIR);
+      $sentences=&convert($encoding,$sentences,$myPATH);
       chomp($sentences);
 
      @sentences = split(/\./,$sentences);
@@ -118,16 +119,16 @@ package main;
       if($morph eq "Heritage_manual") {
          $sent =~ s/\.//;
          $sent =~ s/ /\+/g;
-	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=$Hscript\&cp=t\&text=$sent\&t=WX\&topic=\&mode=b&pipeline=f&fmode=n\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_Graph_CGI";
+	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=$Hscript\&cp=t\&text=$sent\&t=WX\&topic=\&mode=b&pipeline=f&fmode=n\" \"$GlblVar::CGIDIR/$GlblVar::HERITAGE_Graph_CGI\"";
          system($cmd);
       } else {
          if($morph eq "Heritage_auto") {
          $sent =~ s/\.//;
          $sent =~ s/ /\+/g;
-	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=$Hscript\&cp=t\&text=$sent\&t=WX\&topic=\&mode=f&pipeline=t&fmode=w\" $GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI |  tail -1  | $GlblVar::SCLINSTALLDIR/MT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $pid";
+	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=$Hscript\&cp=t\&text=$sent\&t=WX\&topic=\&mode=f&pipeline=t&fmode=w\" \"$GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI\" |  tail -1  | $myPATH/MT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $myPATH $GlblVar::TFPATH $pid";
          system($cmd);
 
-         system("$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/$prog $GlblVar::CGIDIR/$GlblVar::SCL_CGI tmp_in${pid}/in$pid $GlblVar::TFPATH $lang $script $morph Full $text_type $i 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
+         system("$GlblVar::TIMEOUT $myPATH/MT/prog/shell/$prog $myPATH tmp_in${pid}/in$pid $GlblVar::TFPATH $lang $script $morph Full $text_type $i 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
          }  else {
 
          open (TMP,">$GlblVar::TFPATH/tmp_in${pid}/in$pid");
@@ -136,7 +137,7 @@ package main;
          close (TMP);
 
           `date > $GlblVar::TFPATH/tmp_in$pid/err$pid`;
-          $cmd = "$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/$prog $GlblVar::CGIDIR/$GlblVar::SCL_CGI tmp_in${pid}/in$pid $GlblVar::TFPATH $lang $script $morph $parse $text_type $i 2>> $GlblVar::TFPATH/tmp_in$pid/err$pid";
+          $cmd = "$GlblVar::TIMEOUT $myPATH/MT/prog/shell/$prog $myPATH tmp_in${pid}/in$pid $GlblVar::TFPATH $lang $script $morph $parse $text_type $i 2>> $GlblVar::TFPATH/tmp_in$pid/err$pid";
           $exec_status = system($cmd);
      }
      `date >> $GlblVar::TFPATH/tmp_in$pid/err$pid`;
@@ -146,24 +147,24 @@ package main;
      }
 
     if ($mode eq "web") {
-        system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $script $Ppid $i $text_type $GlblVar::SCL_HTDOCS $GlblVar::SCL_CGI");
+        system("$myPATH/MT/prog/interface/display_output.pl $myPATH $GlblVar::TFPATH $script $Ppid $i $text_type $GlblVar::SCL_HTDOCS $GlblVar::SCL_CGI");
         if ($i == $#sentences+1) {
-          system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/print_table_bottom_menu.pl $Ppid $#sentences $GlblVar::TFPATH $script");
+          system("$myPATH/MT/prog/interface/print_table_bottom_menu.pl $myPATH $Ppid $#sentences $GlblVar::TFPATH $script");
         }
 	print "<\/body><\/html>\n";
     } elsif ($mode eq "json") {
         if ($i == 1) {print "[";}
-        system("$GlblVar::SCLINSTALLDIR/MT/prog/reader_generator/csv2json.pl < $GlblVar::TFPATH/tmp_in$pid/table_outscript.tsv"); 
+        system("$myPATH/MT/prog/reader_generator/csv2json.pl < $GlblVar::TFPATH/tmp_in$pid/table_outscript.tsv"); 
 	if ($i <= $#sentences) { print ",";}
     }
     }
 	if($i==1) {
 	 system("cp $GlblVar::TFPATH/tmp_in$pid/table_outscript.tsv $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv");
         } 
-	 system("$GlblVar::SCLINSTALLDIR/MT/prog/Discourse/discourse_analysis.pl $i $out_encoding $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv  $GlblVar::TFPATH/tmp_in$pid/table_outscript.tsv > $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv_$i; cp $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv_$i $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv");
+	 system("$myPATH/MT/prog/Discourse/discourse_analysis.pl $i $out_encoding $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv  $GlblVar::TFPATH/tmp_in$pid/table_outscript.tsv > $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv_$i; cp $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv_$i $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv");
    }
     if ($#sentences >= 1) {
-    system("$GlblVar::SCLINSTALLDIR/MT/prog/kAraka/draw_graph.pl $GlblVar::GraphvizDot $GlblVar::TFPATH/tmp_in$Ppid < $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv");
+    system("$myPATH/MT/prog/kAraka/draw_graph.pl $GlblVar::GraphvizDot $GlblVar::TFPATH/tmp_in$Ppid < $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv");
 	print "<h2> Discourse Graph </h2>";
 	print "<img src=/$GlblVar::SCL_HTDOCS/MT/DEMO/tmp_in$Ppid/1.svg width=\"\" height=\"\" > ";
 	print "<\/center><br><br><br><br>";

@@ -2,7 +2,7 @@
 
 require "../../paths.pl";
 
- my $mycPATH = "$GlblVar::SCLINSTALLDIR/converters";
+ my $mycPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters";
 
  sub cnvrt2utfr {
   my($in) = @_;

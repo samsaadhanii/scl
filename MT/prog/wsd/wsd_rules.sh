@@ -17,10 +17,10 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 
-SCLINSTALLDIR=$1
+myPATH=$1
 TMP_FILES_PATH=$2
 
-ANU_MT_PATH=$SCLINSTALLDIR/MT/prog
+ANU_MT_PATH=$myPATH/MT/prog
 
 rm -rf $TMP_FILES_PATH/wsd_files
 mkdir $TMP_FILES_PATH/wsd_files

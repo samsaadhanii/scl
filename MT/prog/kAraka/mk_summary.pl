@@ -18,7 +18,7 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 BEGIN{require "$ARGV[0]/paths.pl";}
-##require "$SCLINSTALLDIR/MT/prog/kAraka/compatible.pl";
+##require "$myPATH/MT/prog/kAraka/compatible.pl";
 
 ##use lib $GlblVar::LIB_PERL_PATH;
 
@@ -53,9 +53,9 @@ my $save=$ARGV[8];
 my $translate=$ARGV[9];
 
 if($SCRIPT eq "IAST") {
-  require "$GlblVar::SCLINSTALLDIR/MT/prog/interface/modify_mo_fn_roman.pl";
+  require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/MT/prog/interface/modify_mo_fn_roman.pl";
 } else {
-  require "$GlblVar::SCLINSTALLDIR/MT/prog/interface/modify_mo_fn_".lc($SCRIPT).".pl";
+  require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/MT/prog/interface/modify_mo_fn_".lc($SCRIPT).".pl";
 }
 #tie(%kAraka_name,GDBM_File,$kAraka_name,GDBM_READER,0644) || die "Can't open $kAraka_name for reading";
 open(TMP,$kAraka_names) || die "Can't open $kAraka_names for reading";
@@ -338,7 +338,9 @@ sub print_sent{
 
 
       if(($total_solns == 1) || ($soln == 1)){
-         print "<h3> <a href=\"/cgi-bin/$GlblVar::SCL_CGI/MT/prog/interface/call_parser_summary.cgi?filename=$dirname&amp;outscript=$SCRIPT&amp;rel=$old_relations&amp;sentnum=$sentnum&amp;save=no&amp;translate=no\"> &#x2713;<\/a> Undo\n";
+	 $f = $dirname;
+	 $f =~ s/_[0-9]$//;
+         print "<h3> <a href=\"/cgi-bin/$GlblVar::SCL_CGI/MT/prog/interface/call_parser_summary.cgi?filename=$f&amp;outscript=$SCRIPT&amp;rel=$old_relations&amp;sentnum=$sentnum&amp;save=no&amp;translate=no\"> &#x2713;<\/a> Undo\n";
          #print "<a href=\"/cgi-bin/$GlblVar::SCL_CGI/MT/prog/interface/show_selected_parse.cgi?filename=$dirname&amp;sentnum=$sentnum&amp;start=0&amp;outscript=$SCRIPT\"> &#x2713; <\/a>Unique parse tree \n";
         print " <a href=\"/cgi-bin/$GlblVar::SCL_CGI/MT/prog/interface/call_parser_summary.cgi?filename=$dirname&amp;outscript=$SCRIPT&amp;rel=$old_relations&amp;sentnum=$sentnum&amp;save=no&amp;translate=yes\"> &#x2713;<\/a>Translate into hindi</h3>\n";
       } else {

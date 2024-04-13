@@ -24,13 +24,14 @@ package main;
 use utf8;
 
 require "../../paths.pl";
-require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/cgi_interface.pl";
 
-my $converters_path="$GlblVar::SCLINSTALLDIR/converters";
-my $NNtype_path="$GlblVar::SCLINSTALLDIR/NN/Type_identifier";
+my $converters_path="$myPATH/converters";
+my $NNtype_path="$myPATH/NN/Type_identifier";
 
-require "$GlblVar::SCLINSTALLDIR/NN/common/style.pl";
-require "$GlblVar::SCLINSTALLDIR/NN/Type_identifier/generate_samAsa_const_parse.pl";
+require "$myPATH/NN/common/style.pl";
+require "$myPATH/NN/Type_identifier/generate_samAsa_const_parse.pl";
 
 my $pid = $$;
 
@@ -51,7 +52,7 @@ my $pid = $$;
         my $samAsa = `echo '$nne' | $converters_path/utf82iscii.pl | $converters_path/ir_skt | $NNtype_path/typeidentifier.out $type | $converters_path/ri_skt | $converters_path/iscii2utf8.py 1`;
         my $dot = &get_dot($samAsa);
         print $samAsa,"<br />";
-        system ("echo '$dot' | dot -Tsvg;");
+        system ("echo '$dot' | $GlblVar::GraphvizDot -Tsvg;");
 
         print "</center><br />";
 	#}

@@ -20,7 +20,9 @@
 use utf8;
 
 require "../paths.pl";
-require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+
+require "$myPATH/cgi_interface.pl";
 
  if($GlblVar::LOG eq "true"){
     if (! (-e "$GlblVar::TFPATH")){
@@ -78,114 +80,114 @@ my($prgm_nm);
  
   if($src  eq "WX-Alphabetic"){
      if($trgt eq "Unicode-Devanagari"){
-        $prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
+        $prgm_nm = "$myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1";
      } elsif($trgt eq "Velthuis"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/wx-velthuis.out";
+	$prgm_nm = "$myPATH/converters/wx-velthuis.out";
      } elsif($trgt eq "Itrans"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/ra_itrans.out";
+	$prgm_nm = "$myPATH/converters/ra_itrans.out";
      } elsif($trgt eq "SLP"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/wx2slp.out";
+	$prgm_nm = "$myPATH/converters/wx2slp.out";
      } elsif($trgt eq "Unicode-Roman-Diacritic"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/wx2utf8roman.out";
+	$prgm_nm = "$myPATH/converters/wx2utf8roman.out";
      } elsif($trgt eq "Kyoto-Harvard"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/ra_kyoto.out ";
+	$prgm_nm = "$myPATH/converters/ra_kyoto.out ";
 	}
   }
 
   elsif($src  eq "Velthuis"){
      if($trgt eq "WX-Alphabetic"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/velthuis-wx.out";
+	$prgm_nm = "$myPATH/converters/velthuis-wx.out";
      }elsif($trgt eq "Unicode-Devanagari"){
-        $prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/velthuis-wx.out | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
+        $prgm_nm = "$myPATH/converters/velthuis-wx.out | $myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1";
      } elsif($trgt eq "Itrans"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/velthuis-wx.out | $GlblVar::SCLINSTALLDIR/converters/ra_itrans.out";
+	$prgm_nm = "$myPATH/converters/velthuis-wx.out | $myPATH/converters/ra_itrans.out";
      } elsif($trgt eq "SLP"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/velthuis-wx.out | $GlblVar::SCLINSTALLDIR/converters/wx2slp.out";
+	$prgm_nm = "$myPATH/converters/velthuis-wx.out | $myPATH/converters/wx2slp.out";
      } elsif($trgt eq "Unicode-Roman-Diacritic"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/velthuis-wx.out | $GlblVar::SCLINSTALLDIR/converters/wx2utf8roman.out";
+	$prgm_nm = "$myPATH/converters/velthuis-wx.out | $myPATH/converters/wx2utf8roman.out";
      } elsif($trgt eq "Kyoto-Harvard"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/velthuis-wx.out | $GlblVar::SCLINSTALLDIR/converters/ra_kyoto.out";
+	$prgm_nm = "$myPATH/converters/velthuis-wx.out | $myPATH/converters/ra_kyoto.out";
 	}
 	
   }
 
   elsif($src  eq "Unicode-Devanagari"){
      if($trgt eq "WX-Alphabetic"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/utf82iscii.pl | $GlblVar::SCLINSTALLDIR/converters/ir_skt";
+	$prgm_nm = "$myPATH/converters/utf82iscii.pl | $myPATH/converters/ir_skt";
      }elsif($trgt eq "Velthuis"){
-        $prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/utf82iscii.pl | $GlblVar::SCLINSTALLDIR/converters/ir_skt | $GlblVar::SCLINSTALLDIR/converters/wx-velthuis.out";
+        $prgm_nm = "$myPATH/converters/utf82iscii.pl | $myPATH/converters/ir_skt | $myPATH/converters/wx-velthuis.out";
      } elsif($trgt eq "Itrans"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/utf82iscii.pl | $GlblVar::SCLINSTALLDIR/converters/ir_skt | $GlblVar::SCLINSTALLDIR/converters/ra_itrans.out";
+	$prgm_nm = "$myPATH/converters/utf82iscii.pl | $myPATH/converters/ir_skt | $myPATH/converters/ra_itrans.out";
      } elsif($trgt eq "SLP"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/utf82iscii.pl | $GlblVar::SCLINSTALLDIR/converters/ir_skt | $GlblVar::SCLINSTALLDIR/converters/wx2slp.out";
+	$prgm_nm = "$myPATH/converters/utf82iscii.pl | $myPATH/converters/ir_skt | $myPATH/converters/wx2slp.out";
      } elsif($trgt eq "Unicode-Roman-Diacritic"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/utf82iscii.pl | $GlblVar::SCLINSTALLDIR/converters/ir_skt | $GlblVar::SCLINSTALLDIR/converters/wx2utf8roman.out";
+	$prgm_nm = "$myPATH/converters/utf82iscii.pl | $myPATH/converters/ir_skt | $myPATH/converters/wx2utf8roman.out";
      }elsif($trgt eq "Kyoto-Harvard") {
-		$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/utf82iscii.pl | $GlblVar::SCLINSTALLDIR/converters/ir_skt | $GlblVar::SCLINSTALLDIR/converters/ra_kyoto.out";
+		$prgm_nm = "$myPATH/converters/utf82iscii.pl | $myPATH/converters/ir_skt | $myPATH/converters/ra_kyoto.out";
    }
   }
 
   elsif($src  eq "Itrans"){
      if($trgt eq "WX-Alphabetic"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/itrans_ra.out | $GlblVar::SCLINSTALLDIR/converters/rm__between_vowels.out";
+	$prgm_nm = "$myPATH/converters/itrans_ra.out | $myPATH/converters/rm__between_vowels.out";
      }elsif($trgt eq "Velthuis"){
-        $prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/itrans_ra.out | $GlblVar::SCLINSTALLDIR/converters/rm__between_vowels.out| $GlblVar::SCLINSTALLDIR/converters/wx-velthuis.out";
+        $prgm_nm = "$myPATH/converters/itrans_ra.out | $myPATH/converters/rm__between_vowels.out| $myPATH/converters/wx-velthuis.out";
      } elsif($trgt eq "Unicode-Devanagari"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/itrans_ra.out | $GlblVar::SCLINSTALLDIR/converters/rm__between_vowels.out | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
+	$prgm_nm = "$myPATH/converters/itrans_ra.out | $myPATH/converters/rm__between_vowels.out | $myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1";
      } elsif($trgt eq "SLP"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/itrans_ra.out | $GlblVar::SCLINSTALLDIR/converters/rm__between_vowels.out | $GlblVar::SCLINSTALLDIR/converters/wx2slp.out";
+	$prgm_nm = "$myPATH/converters/itrans_ra.out | $myPATH/converters/rm__between_vowels.out | $myPATH/converters/wx2slp.out";
      } elsif($trgt eq "Unicode-Roman-Diacritic"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/itrans_ra.out | $GlblVar::SCLINSTALLDIR/converters/rm__between_vowels.out | $GlblVar::SCLINSTALLDIR/converters/wx2utf8roman.out";
+	$prgm_nm = "$myPATH/converters/itrans_ra.out | $myPATH/converters/rm__between_vowels.out | $myPATH/converters/wx2utf8roman.out";
      }elsif($trgt eq "Kyoto-Harvard") {
-		$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/itrans_ra.out | $GlblVar::SCLINSTALLDIR/converters/rm__between_vowels.out | $GlblVar::SCLINSTALLDIR/converters/ra_kyoto.out ";
+		$prgm_nm = "$myPATH/converters/itrans_ra.out | $myPATH/converters/rm__between_vowels.out | $myPATH/converters/ra_kyoto.out ";
 	}
   }
 
   elsif($src  eq "SLP"){
      if($trgt eq "WX-Alphabetic"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/slp2wx.out";
+	$prgm_nm = "$myPATH/converters/slp2wx.out";
      }elsif($trgt eq "Velthuis"){
-        $prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/slp2wx.out | $GlblVar::SCLINSTALLDIR/converters/wx-velthuis.out";
+        $prgm_nm = "$myPATH/converters/slp2wx.out | $myPATH/converters/wx-velthuis.out";
      } elsif($trgt eq "Unicode-Devanagari"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/slp2wx.out | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
+	$prgm_nm = "$myPATH/converters/slp2wx.out | $myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1";
      } elsif($trgt eq "Itrans"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/slp2wx.out | $GlblVar::SCLINSTALLDIR/converters/ra_itrans.out";
+	$prgm_nm = "$myPATH/converters/slp2wx.out | $myPATH/converters/ra_itrans.out";
      } elsif($trgt eq "Unicode-Roman-Diacritic"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/slp2wx.out | $GlblVar::SCLINSTALLDIR/converters/wx2utf8roman.out";
+	$prgm_nm = "$myPATH/converters/slp2wx.out | $myPATH/converters/wx2utf8roman.out";
      }elsif($trgt eq "Kyoto-Harvard"){
-        $prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/slp2wx.out | $GlblVar::SCLINSTALLDIR/converters/ra_kyoto.out";
+        $prgm_nm = "$myPATH/converters/slp2wx.out | $myPATH/converters/ra_kyoto.out";
      }
   }
 
   elsif($src  eq "Unicode-Roman-Diacritic"){
      if($trgt eq "WX-Alphabetic"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/utf8roman2wx.out";
+	$prgm_nm = "$myPATH/converters/utf8roman2wx.out";
      }elsif($trgt eq "Velthuis"){
-        $prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/utf8roman2wx.out | $GlblVar::SCLINSTALLDIR/converters/wx-velthuis.out";
+        $prgm_nm = "$myPATH/converters/utf8roman2wx.out | $myPATH/converters/wx-velthuis.out";
      } elsif($trgt eq "Unicode-Devanagari"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/utf8roman2wx.out | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
+	$prgm_nm = "$myPATH/converters/utf8roman2wx.out | $myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1";
      } elsif($trgt eq "Itrans"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/utf8roman2wx.out | $GlblVar::SCLINSTALLDIR/converters/ra_itrans.out";
+	$prgm_nm = "$myPATH/converters/utf8roman2wx.out | $myPATH/converters/ra_itrans.out";
      } elsif($trgt eq "SLP"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/utf8roman2wx.out | $GlblVar::SCLINSTALLDIR/converters/wx2slp.out";
+	$prgm_nm = "$myPATH/converters/utf8roman2wx.out | $myPATH/converters/wx2slp.out";
      }elsif($trgt eq "Kyoto-Harvard"){
-        $prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/utf8roman2wx.out | $GlblVar::SCLINSTALLDIR/converters/ra_kyoto.out";
+        $prgm_nm = "$myPATH/converters/utf8roman2wx.out | $myPATH/converters/ra_kyoto.out";
      }
   }
 
   elsif($src eq "Kyoto-Harvard") {
    if($trgt eq "WX-Alphabetic"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/kyoto_ra.out";
+	$prgm_nm = "$myPATH/converters/kyoto_ra.out";
      }elsif($trgt eq "Velthuis"){
-        $prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/kyoto_ra.out | $GlblVar::SCLINSTALLDIR/converters/wx-velthuis.out";
+        $prgm_nm = "$myPATH/converters/kyoto_ra.out | $myPATH/converters/wx-velthuis.out";
      } elsif($trgt eq "Unicode-Devanagari"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/kyoto_ra.out | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
+	$prgm_nm = "$myPATH/converters/kyoto_ra.out | $myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1";
      } elsif($trgt eq "Itrans"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/kyoto_ra.out | $GlblVar::SCLINSTALLDIR/converters/ra_itrans.out";
+	$prgm_nm = "$myPATH/converters/kyoto_ra.out | $myPATH/converters/ra_itrans.out";
      } elsif($trgt eq "SLP"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/kyoto_ra.out | $GlblVar::SCLINSTALLDIR/converters/wx2slp.out";
+	$prgm_nm = "$myPATH/converters/kyoto_ra.out | $myPATH/converters/wx2slp.out";
      }elsif($trgt eq "Unicode-Roman-Diacritic"){
-	$prgm_nm = "$GlblVar::SCLINSTALLDIR/converters/kyoto_ra.out | $GlblVar::SCLINSTALLDIR/converters/wx2utf8roman.out";
+	$prgm_nm = "$myPATH/converters/kyoto_ra.out | $myPATH/converters/wx2utf8roman.out";
      }
 
   }

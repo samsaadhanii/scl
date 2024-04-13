@@ -17,9 +17,9 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
-$SCLINSTALLDIR=$ARGV[0];
+$myPATH=$ARGV[0];
 
-require "$SCLINSTALLDIR/MT/prog/interface/modify_mo_fn.pl";
+require "$myPATH/MT/prog/interface/modify_mo_fn.pl";
 
 $| = 1;
 while($in = <STDIN>){

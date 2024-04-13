@@ -21,7 +21,7 @@ use utf8;
 package main;
 #use CGI qw/:standard/;
 require "../../../paths.pl";
-require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
 
 #use CGI::Carp qw(fatalsToBrowser);
 

@@ -32,7 +32,7 @@ void cnvrtwx2utf(char in[LARGE], char out[LARGE]){
   fprintf(fp,"%s ",in);
   fclose(fp);
 
-  sprintf(cmd,"%s/converters/ri_skt < %s | %s/converters/iscii2utf8.py 1 > %s",SCLINSTALLDIR,fin,SCLINSTALLDIR,fout);
+  sprintf(cmd,"%s/%s/converters/ri_skt < %s | %s/%s/converters/iscii2utf8.py 1 > %s",CGIDIR,SCL_CGI,fin,CGIDIR,SCL_CGI,fout);
   system(cmd);
 
   if((fp = fopen(fout,"r"))==NULL) {

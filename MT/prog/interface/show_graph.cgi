@@ -23,7 +23,7 @@ package main;
 #use CGI::Carp qw(fatalsToBrowser);
 
 require "../../../paths.pl";
-require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
 
  print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 

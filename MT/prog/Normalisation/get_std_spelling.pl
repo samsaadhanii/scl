@@ -17,10 +17,10 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 
-$SCLINSTALLDIR = $ARGV[0];
-require "$SCLINSTALLDIR/paths.pl";
+$BasePATH = $ARGV[0];
+require "$BasePATH/paths.pl";
 
-require "$SCLINSTALLDIR/MT/prog/morph/bin/get_std_spelling_fn.pl";
+require "$BasePATH/MT/prog/morph/bin/get_std_spelling_fn.pl";
 
 
 while($in = <STDIN>){

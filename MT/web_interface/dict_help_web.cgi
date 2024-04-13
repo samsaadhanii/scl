@@ -63,7 +63,7 @@ if($dic_name eq "mw") {
 }
 
 if($dic_name eq "heritage") {
-			$w = `echo $sword | $GlblVar::SCLINSTALLDIR/converters/utf82wx.sh $GlblVar::SCLINSTALLDIR | $GlblVar::SCLINSTALLDIR/converters/wx-velthuis.out`;
+			$w = `echo $sword | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/utf82wx.sh $GlblVar::CGIDIR/$GlblVar::SCL_CGI | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx-velthuis.out`;
         chomp($w);
         $w =~ s/[ \t\n]//g;
 		          if($result =~ /<a class=\"navy\" name=\"$w#/){

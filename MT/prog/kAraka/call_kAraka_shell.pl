@@ -18,9 +18,9 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 
-$SCLINSTALLDIR = $ARGV[0];
-require "$SCLINSTALLDIR/paths.pl";
-require "$SCLINSTALLDIR/converters/convert.pl";
+$myPATH = $ARGV[0];
+require "$myPATH/paths.pl";
+require "$myPATH/converters/convert.pl";
 
   $tmp_files_path = $ARGV[0];
   $sentences = $ARGV[1];
@@ -36,7 +36,7 @@ require "$SCLINSTALLDIR/converters/convert.pl";
 
   system("mkdir -p $tmp_files_path");
   open(TMP1,">$tmp_files_path/in$pid");
-  $sentences=&convert($encoding,$sentences,$SCLINSTALLDIR);
+  $sentences=&convert($encoding,$sentences,$myPATH);
   chomp($sentences);
   $sentences =~ s/#$//;
   $sentences =~ s/#/\n/g;
@@ -55,5 +55,5 @@ require "$SCLINSTALLDIR/converters/convert.pl";
 #  if($morph eq "GH") {
 #      system ("mkdir -p $tmp_files_path/tmp_in$pid; $GlblVar::HERITAGE_PATH/ML/reader_plugin  < $tmp_files_path/in$pid > $tmp_files_path/tmp_in$pid/in$pid.gh");
 #  }
-     $cmd = "cd $tmp_files_path; $SCLINSTALLDIR/MT/prog/kAraka/parser.sh in$pid $tmp_files_path hi $script $sandhi $morph $parse $text_type $echo $debug 2> $tmp_files_path/tmp_in$pid/err$pid;";
+     $cmd = "cd $tmp_files_path; $myPATH/MT/prog/kAraka/parser.sh in$pid $tmp_files_path hi $script $sandhi $morph $parse $text_type $echo $debug 2> $tmp_files_path/tmp_in$pid/err$pid;";
      system($cmd);

@@ -20,7 +20,7 @@
 use utf8;
 
 require "../../../paths.pl";
-require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
 
 #use CGI qw/:standard/;
 

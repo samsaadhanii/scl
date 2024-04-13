@@ -24,9 +24,9 @@ use utf8;
 #use CGI qw( :standard );
 
 require "../../paths.pl";
-require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
-require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
-require "$GlblVar::SCLINSTALLDIR/NN/common/style.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/NN/common/style.pl";
 
 system("mkdir -p $GlblVar::TFPATH");
 
@@ -43,8 +43,8 @@ system("mkdir -p $GlblVar::TFPATH");
         my $text=$param{nne};
         my $encoding=$param{encoding};
 
-        $textwx=&convert($encoding,$text,$GlblVar::SCLINSTALLDIR);
-        $textutf = `echo $textwx | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;
+        $textwx=&convert($encoding,$text,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI");
+        $textutf = `echo $textwx | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1`;
 
 
         print "<center>";
@@ -52,8 +52,8 @@ system("mkdir -p $GlblVar::TFPATH");
         cursor on the hyphen '-'.<br /> <span>\"Parse\", will take you 
         to the interactive interface for constituency parseing.</span> 
         <br /></center><ul class=\"list-inline\"><center>";
-        #$output = `$GlblVar::SCLINSTALLDIR/NN/segmenter/skt_splitter_server.pl; echo $textwx | $GlblVar::SCLINSTALLDIR/NN/segmenter/split_samAsa_greedy.pl | $GlblVar::SCLINSTALLDIR/converters/ri_skt |$GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1 | $GlblVar::SCLINSTALLDIR/NN/segmenter/format.pl`;
-        $output = `$GlblVar::SCLINSTALLDIR/NN/segmenter/skt_splitter_server.pl; echo $textwx | $GlblVar::SCLINSTALLDIR/NN/segmenter/split_samAsa_greedy.pl | $GlblVar::SCLINSTALLDIR/converters/ri_skt |$GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1 | $GlblVar::SCLINSTALLDIR/NN/segmenter/format.pl`;
+        #$output = `$GlblVar::CGIDIR/$GlblVar::SCL_CGI/NN/segmenter/skt_splitter_server.pl; echo $textwx | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/NN/segmenter/split_samAsa_greedy.pl | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt |$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1 | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/NN/segmenter/format.pl`;
+        $output = `$GlblVar::CGIDIR/$GlblVar::SCL_CGI/NN/segmenter/skt_splitter_server.pl; echo $textwx | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/NN/segmenter/split_samAsa_greedy.pl | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt |$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1 | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/NN/segmenter/format.pl`;
        print "<font color=\"red\">$textutf</font>";
        print "$output";
         print "<font color=\"black\">";

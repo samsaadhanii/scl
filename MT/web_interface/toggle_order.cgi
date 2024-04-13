@@ -19,7 +19,7 @@
 
 use utf8;
 require "../paths.pl";
-require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
 
   my %param = &get_parameters();
 
@@ -30,5 +30,5 @@ require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
 
   print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
    
-  system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $script $pid $sentences $order");
-  system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/print_table_bottom_menu.pl $pid $sentences $GlblVar::TFPATH $script $order");
+  system("$GlblVar::CGIDIR/$GlblVar::SCL_CGI/MT/prog/interface/display_output.pl $GlblVar::CGIDIR/$GlblVar::SCL_CGI $GlblVar::TFPATH $script $pid $sentences $order");
+  system("$GlblVar::CGIDIR/$GlblVar::SCL_CGI/MT/prog/interface/print_table_bottom_menu.pl $pid $sentences $GlblVar::TFPATH $script $order");

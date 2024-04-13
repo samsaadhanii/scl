@@ -17,16 +17,6 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
-#BEGIN{require "$ARGV[0]/paths.pl";}
-
-#use lib $GlblVar::LIB_PERL_PATH;
-
-#use GDBM_File;
-
-#require "$GlblVar::SCLINSTALLDIR/MT/prog/interface/modify_mo_fn.pl";
-
-#tie(%kAraka_name,GDBM_File,"$ARGV[2]/kAraka_name.gdbm",GDBM_READER,0644) || die "Can't open $ARGV[2]/kAraka_name.gdbm for reading";
-#tie(%kAraka_num,GDBM_File,"$ARGV[2]/kAraka_num.gdbm",GDBM_READER,0644) || die "Can't open $ARGV[2]/kAraka_num.gdbm for reading";
 
 open(TMP,"$ARGV[2]/kAraka_names.txt") || die "Can't open $ARGV[2]/kAraka_name.txt for reading";
 while(<TMP>) {

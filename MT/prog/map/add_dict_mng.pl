@@ -78,7 +78,7 @@ $AVY{$key}=$val;
 }
 close(TMP);
 
-open(TMP,"$Data_Path/hi/fem_hnd_noun.lst") || die "Can't open fem_hnd_noun.lst for reading";
+open(TMP,"$Data_Path/hi/fem_hnd_noun.txt") || die "Can't open fem_hnd_noun.txt for reading";
 while(<TMP>) {
 chomp;
 $key = $_;
@@ -618,7 +618,7 @@ my $ans = $rt;
 ## For example, rAmaH puswakam corayawi Versus rAmaH mohanena puswakam corayawi.
 ## In the first example, it is not Nic while in the second it is.
 	     chomp($hnd_rt);
-	     $ans = `/usr/bin/env python3 $GlblVar::SCLINSTALLDIR/MT/prog/map/causal_verb_handler.py $hnd_rt`;
+	     $ans = `/usr/bin/env python3 $GlblVar::CGIDIR/$GlblVar::SCL_CGI/MT/prog/map/causal_verb_handler.py $hnd_rt`;
            chomp($ans);
           } else {
 		  #if($rt =~ /1_/) { $rt =~ s/1_/_/;} 

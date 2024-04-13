@@ -45,6 +45,9 @@ scan_input.out: scan_input.lex
 	$(CC) $(CFLAGS) scan_input.out lex.yy.c -ll
 	rm lex.yy.c
 
+install:
+	mkdir -p $(HTDOCSDIR)/$(SCL_HTDOCS)/skt_gen/Sentence; mkdir -p $(CGIDIR)/$(SCL_CGI)/skt_gen/Sentence/data; cp web_interface/index.html $(HTDOCSDIR)/$(SCL_HTDOCS)/skt_gen/Sentence; cp web_interface/*.cgi $(CGIDIR)/$(SCL_CGI)/skt_gen/Sentence; cp -r web_interface/bootstrap $(HTDOCSDIR)/$(SCL_HTDOCS)/skt_gen/Sentence; cp scan_input.out $(CGIDIR)/$(SCL_CGI)/skt_gen/Sentence; cp sentence_generator $(CGIDIR)/$(SCL_CGI)/skt_gen/Sentence; cp data/dhatu_info_chart_uBaya_wx.txt $(CGIDIR)/$(SCL_CGI)/skt_gen/Sentence/data; cp data/dhatu_info_chart_uBaya_wx.rem $(CGIDIR)/$(SCL_CGI)/skt_gen/Sentence/data;
+
 .depend depend:: $(SOURCES)
 	> .depend.new
 	for i in $(ZENSOURCES); do \

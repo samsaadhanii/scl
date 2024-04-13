@@ -1,11 +1,11 @@
 #!/usr/bin/perl
 
-require "../paths.pl";
+require "$ARGV[0]/paths.pl";
 
-$pid = $ARGV[0];
-$sub_pid = $ARGV[1];
-$TFPATH = $ARGV[2];
-$outscript = $ARGV[3];
+$pid = $ARGV[1];
+$sub_pid = $ARGV[2];
+$TFPATH = $ARGV[3];
+$outscript = $ARGV[4];
 
 print <<header
 </table>
@@ -24,7 +24,6 @@ header
 
 print "TFPATH = $TFPATH\n";
 print "pid = $pid\n";
-print "sub_pid = $sub_pid\n";
 #if($#sentences == 1) {
 print <<header1
 <a href="/$GlblVar::SCL_HTDOCS/MT/DEMO/./tmp_in${pid}_1/table_outscript.tsv">Save Annotation</a> 

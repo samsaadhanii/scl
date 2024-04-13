@@ -177,7 +177,7 @@ char encoding[MEDIUM];
      print_samAsaprakAra(avigraha_utf,"समासप्रकारः",samAsaprakAra_utf,sUwrastr);
   }
 
-  sprintf(cmd,"%s/skt_gen/compounds/samAsAnwa.out \"%s\" \"%s\" \"%s\" \"%s\" \"%s\" \"%s\" \"%s\" \"%s\"",SCLINSTALLDIR, encoding,avigraha,argv[3],argv[4],argv[5],argv[6],sUwrasaMKyA,samAsaprakAra); 
+  sprintf(cmd,"%s/%s/skt_gen/compounds/samAsAnwa.out \"%s\" \"%s\" \"%s\" \"%s\" \"%s\" \"%s\" \"%s\" \"%s\"",CGIDIR,SCL_CGI, encoding,avigraha,argv[3],argv[4],argv[5],argv[6],sUwrasaMKyA,samAsaprakAra); 
   system(cmd);
   return 1; 
 }

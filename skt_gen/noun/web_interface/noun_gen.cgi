@@ -22,7 +22,7 @@ require "../../paths.pl";
 require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
 require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert2WX_subroutines.pl";
 require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/noun/noun_gen_subroutines.pl";
-require "$GlblVar::SCLINSTALLDIR/MT/prog/Normalisation/get_std_spelling_fn.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/MT/prog/Normalisation/get_std_spelling_fn.pl";
 
 #
 ###################  Main function #################

@@ -20,7 +20,7 @@
 use utf8;
 
 require "../../paths.pl";
-require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
 
 #use CGI qw/:standard/;
 
@@ -30,7 +30,7 @@ my %param = &get_parameters();
 
       open(TMP,"<$anal_fl");
       @in = <TMP>;
-      $input = `echo "@in" | $GlblVar::SCLINSTALLDIR/skt_gen/Sentence/input_from_parsed_struct.pl`;
+      $input = `echo "@in" | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/Sentence/input_from_parsed_struct.pl`;
       close(TMP);
       #}
 

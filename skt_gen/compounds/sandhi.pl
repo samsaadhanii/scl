@@ -9,7 +9,7 @@ $sut="sUwram/vArwikam";
 $pra1="prakriyA";
 
 require "../../paths.pl";
-$myPATH="$GlblVar::SCLINSTALLDIR/skt_gen/compounds";
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/compounds";
 
 require "$myPATH/apavAxa_any.pl";
 require "$myPATH/internal_sandhi.pl";

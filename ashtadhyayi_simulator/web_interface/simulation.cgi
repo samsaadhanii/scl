@@ -4,9 +4,9 @@ use utf8;
 use Encode qw/ decode /;
 
 require "../paths.pl";
-require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
 
-require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert.pl";
 
 package main;
 #use CGI qw/:standard/;
@@ -29,7 +29,7 @@ my %param = &get_parameters("decode");
       chomp($lifga);
       chomp($vac);
 
-      $praatipadika = &convert($encoding,$pra,$GlblVar::SCLINSTALLDIR);
+      $praatipadika = &convert($encoding,$pra,"$GlblVar::CGIDICR/$GlblVar::SCL_CGI");
 
       #my $cgi = new CGI;
       #print $cgi->header ( -charset => 'UTF-8');
@@ -38,7 +38,7 @@ my %param = &get_parameters("decode");
       print "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"/>\n\n";
       print "</head>\n\n";
       print "<body>\n\n";
-      system("cd $GlblVar::SCLINSTALLDIR/ashtadhyayi_simulator/june12; ./run.sh $praatipadika $vib $lifga $vac");
+      system("cd $GlblVar::CGIDIR/$GlblVar::SCL_CGI/ashtadhyayi_simulator/; ./run.sh $praatipadika $vib $lifga $vac");
 
 print "</BODY></HTML>";
 

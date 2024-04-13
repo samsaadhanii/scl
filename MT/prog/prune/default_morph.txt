@@ -10,6 +10,7 @@ mahAn=mahaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 XqwvA=Xq1<vargaH:avy><kqw_prawyayaH:kwvA><XAwuH:XqF><gaNaH:BvAxiH><level:0>
 aSiRtam=aSiRta<vargaH:nA><lifgam:puM><viBakwiH:2><vacanam:eka><level:1>
 aXirAjaH=aXirAja<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
+AxyAH=Axi<vargaH:nA><lifgam:swrI><viBakwiH:5><vacanam:eka><level:1>/Axi<vargaH:nA><lifgam:swrI><viBakwiH:6><vacanam:eka><level:1>/Axya<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:bahu><level:1>/AxyA<vargaH:nA><lifgam:swrI><viBakwiH:8><vacanam:bahu><level:1>
 agrawaH=agrawaH<vargaH:avy><level:1>
 ajAyawa=jan1<prayogaH:karwari><lakAraH:laf><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:janIz><gaNaH:xivAxiH><level:1>
 anAWam=anAWa<vargaH:nA><lifgam:puM><viBakwiH:2><vacanam:eka><level:1>

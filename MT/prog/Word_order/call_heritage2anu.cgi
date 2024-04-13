@@ -22,9 +22,9 @@ use utf8;
 #use warnings;
 
 require "../../../paths.pl";
-require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI/";
+require "$myPATH/cgi_interface.pl";
 
-require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
 
 print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
@@ -49,18 +49,18 @@ read(STDIN, $b, $ENV{'CONTENT_LENGTH'});
  chomp($buffer);
  $buffer =~ s/[ ]+$//;
  system("mkdir -p $GlblVar::TFPATH/tmp_in$pid");
-system("echo '$buffer' | $GlblVar::SCLINSTALLDIR/MT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $pid");
+system("echo '$buffer' | $myPATH/MT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $myPATH $GlblVar::TFPATH $pid");
 #system("cp $GlblVar::TFPATH/tmp_in$pid/in$pid.out $GlblVar::TFPATH/tmp_in$pid/in$pid.out.orig");
 #system("cut -f1-7 $GlblVar::TFPATH/tmp_in$pid/in$pid.out > $GlblVar::TFPATH/tmp_in$pid/in${pid}_tmp1_7");
 #system("cut -f3,8 $GlblVar::TFPATH/tmp_in$pid/in$pid.out | tr '\t' '=' > $GlblVar::TFPATH/tmp_in$pid/in${pid}_tmp");
-#system("$GlblVar::SCLINSTALLDIR/MT/prog/prune/prune.sh $GlblVar::SCLINSTALLDIR < $GlblVar::TFPATH/tmp_in$pid/in${pid}_tmp | sed '1,\$s/.*=//' > $GlblVar::TFPATH/tmp_in$pid/in${pid}_tmp8");
+#system("$myPATH/MT/prog/prune/prune.sh $myPATH < $GlblVar::TFPATH/tmp_in$pid/in${pid}_tmp | sed '1,\$s/.*=//' > $GlblVar::TFPATH/tmp_in$pid/in${pid}_tmp8");
 #system("paste $GlblVar::TFPATH/tmp_in$pid/in${pid}_tmp1_7 $GlblVar::TFPATH/tmp_in$pid/in${pid}_tmp8 > $GlblVar::TFPATH/tmp_in$pid/in${pid}.out");
 #system("cut -f4 $GlblVar::TFPATH/tmp_in$pid/in${pid}.out | tr '\n' ' ' > $GlblVar::TFPATH/tmp_in$pid/wor.$pid");
 #system("echo -n \"<s> \"> $GlblVar::TFPATH/in$pid; cat $GlblVar::TFPATH/tmp_in$pid/wor.$pid >> $GlblVar::TFPATH/in$pid; echo \"<\/s>\" >> $GlblVar::TFPATH/in$pid");
 
 if($display eq "") { $display = "DEV";}
 
-system("$GlblVar::TIMEOUT $GlblVar::SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $GlblVar::CGIDIR/$GlblVar::SCL_CGI tmp_in${pid}/in$pid $GlblVar::TFPATH hi $display GH Full Sloka 1 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
+system("$GlblVar::TIMEOUT $myPATH/MT/prog/shell/anu_skt_hnd.sh $myPATH/ tmp_in${pid}/in$pid $GlblVar::TFPATH hi $display GH Full Sloka 1 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
 
-system("$GlblVar::SCLINSTALLDIR/MT/prog/interface/display_output.pl $GlblVar::SCLINSTALLDIR $GlblVar::TFPATH $display $pid NIL A $GlblVar::SCL_HTDOCS $GlblVar::SCL_CGI");
+system("$myPATH/MT/prog/interface/display_output.pl $myPATH $GlblVar::TFPATH $display $pid NIL A $GlblVar::SCL_HTDOCS $GlblVar::SCL_CGI");
 

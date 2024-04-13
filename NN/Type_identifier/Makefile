@@ -18,4 +18,4 @@ typeidentifier.out:  typeidentifier.lex typeidentifier.y
 	rm lex.yy.c
 
 clean:
-	rm -f $(TARGETS)
+	rm -f typeidentifier.out

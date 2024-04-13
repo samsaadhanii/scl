@@ -19,29 +19,31 @@
 #
 
 
-   SCLINSTALLDIR=$1
+   myPATH=$1
    GraphvizDot=$2
    TMP_FILES_PATH=$3
    OUTSCRIPT=$6
    PARSE=$7
    TEXT_TYPE=$8
 
-   ANU_MT_PATH=$SCLINSTALLDIR/MT/prog
+source $1/paths.sh
+
+   ANU_MT_PATH=$myPATH/MT/prog
    mkdir -p $TMP_FILES_PATH/parser_files
 
   if [ $OUTSCRIPT = "IAST" ]; then
-     my_converter="$SCLINSTALLDIR/converters/wx2utf8roman.out"
+     my_converter="$CGIDIR/$SCL_CGI/converters/wx2utf8roman.out"
   fi
 
   if [ $OUTSCRIPT = "DEV" ]; then
-     my_converter="$SCLINSTALLDIR/converters/wx2utf8.sh $SCLINSTALLDIR"
+     my_converter="$CGIDIR/$SCL_CGI/converters/wx2utf8.sh $myPATH"
   fi
 
    if [ $PARSE != "NO" ] ; then
 	if [ $PARSE != "AVAILABLE" ]; then
-             $ANU_MT_PATH/kAraka/uniform_morph_anal.pl $SCLINSTALLDIR <  $TMP_FILES_PATH/$4  > $TMP_FILES_PATH/parser_files/morph.txt
+             $ANU_MT_PATH/kAraka/uniform_morph_anal.pl $myPATH <  $TMP_FILES_PATH/$4  > $TMP_FILES_PATH/parser_files/morph.txt
              $ANU_MT_PATH/kAraka/Prepare_Graph/build_graph $TMP_FILES_PATH/parser_files/ $TEXT_TYPE  < $TMP_FILES_PATH/parser_files/morph.txt |\
-             $ANU_MT_PATH/kAraka/kaaraka_sharing.pl $SCLINSTALLDIR $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt > $TMP_FILES_PATH/parser_files/parseop1.txt
+             $ANU_MT_PATH/kAraka/kaaraka_sharing.pl $myPATH $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt > $TMP_FILES_PATH/parser_files/parseop1.txt
         fi
 	if [ $PARSE = "AVAILABLE" ]; then
 	     cp $TMP_FILES_PATH/parser_files/parseop_new.txt $TMP_FILES_PATH/parser_files/parseop1.txt 

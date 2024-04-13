@@ -134,6 +134,7 @@ value print_relation r=match r with
       else if (i4=202) then print_int 7  (* BkarwA -> karwA*)
       else if (i4=203) then print_int 14  (* Bkarma -> karma*)
       else if (i4=8) then print_int 9  (* karwqrahiwakarwqsamAnAXikaraNa -> viXeya_viSeRaNam *)
+      else if (i4=13) then print_int 9  (* karmasamAnAXikaraNa -> viXeya_viSeRaNam *)
       else if (i4=40) then print_int 41  (* prayojanam1 -> prayojanam *)
       else print_int i4
     ; print_string ","
@@ -1176,6 +1177,8 @@ value rec seq_expectancy relations relsindag=
                                      if (r2 = 3 || r2 = 4 || r2 = 5) then if (r1 = 202 || r1 = 203 || r2 = 24) then loop rest else loop1 rest1 
                                      else if (r2 = 202 || r2 = 203) then if (r1 = 3 || r1 = 4 || r1 = 5) then loop rest else loop1 rest1 
                                      (* rAme vanam gacCawi sIwA anusarawi ; SAswra-sampAwe pravqwwe XanuH uxyamya pANdavaH ixam abravIw *)
+                                     else if r2=13 then if (r1=14 || r1=10) then loop rest else loop1 rest1
+                                     else if r1=13 then if (r2=14 || r2=10) then loop rest else loop1 rest1
                                      else if r1=52 then if r2=53 then loop rest else loop1 rest1
                                      else if r1=55 then if r2=54 then loop rest else loop1 rest1
                                      (*else if r1=56 then if r2=60 then loop rest else loop1 rest1
@@ -1198,8 +1201,6 @@ value rec seq_expectancy relations relsindag=
                                      else if r1=34 then if r2=47 then loop rest else loop1 rest1
                                      else if r2=35 then if r1=48 then loop rest else loop1 rest1
                                      else if r1=35 then if r2=48 then loop rest else loop1 rest1
-                                     else if r2=13 then if (r1=14 || r1=10) then loop rest else loop1 rest1
-                                     else if r1=13 then if (r2=14 || r2=10) then loop rest else loop1 rest1
                                      else if r2=17 then if r1=15 then loop rest else loop1 rest1
                                      else if r1=17 then if r1=15 then loop rest else loop1 rest1
                                      else if r2=16 then if r1=15 then loop rest else loop1 rest1

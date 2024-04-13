@@ -18,5 +18,5 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 
-SCLINSTALLDIR=$1
-cut -f1,17 | $SCLINSTALLDIR/MT/prog/translation/translate.out | $2 $1
+myPATH=$1
+cut -f1,17 | $myPATH/MT/prog/translation/translate.out | $2 $1

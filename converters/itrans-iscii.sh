@@ -18,9 +18,9 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 
-source ../paths.sh
+#source ../paths.sh
 
-conv_path=$SCLINSTALLDIR/converters
+conv_path=$1/converters
 $conv_path/itrans_ra.out |\
 $conv_path/rm__between_vowels.out |\
 $conv_path/ri

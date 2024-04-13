@@ -2,7 +2,7 @@
 
 require "../../paths.pl";
 
-my $myPATH = "$GlblVar::SCLINSTALLDIR/skt_gen/compounds";
+my $myPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/compounds";
 
 require "$myPATH/sandhi.pl";
 

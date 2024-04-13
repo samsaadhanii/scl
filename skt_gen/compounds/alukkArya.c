@@ -72,7 +72,7 @@ if(vacanam == 1){ vacanam = sup_vacanam;}
 
  sprintf(fout,"%s/tmp_gen%d",TFPATH,pid); 
 
-sprintf(cmd,"/bin/echo \"^%s<vargaH:nA><lifgam:%s><viBakwiH:%d><vacanam:%d><level:1>$\" | LTPROCBIN -c -g %s/morph_bin/sup_gen.bin > %s",prawi,lifgam,viBakwiH,vacanam,SCLINSTALLDIR,fout);
+sprintf(cmd,"/bin/echo \"^%s<vargaH:nA><lifgam:%s><viBakwiH:%d><vacanam:%d><level:1>$\" | LTPROCBIN -c -g %s/%s/morph_bin/sup_gen.bin > %s",prawi,lifgam,viBakwiH,vacanam,CGIDIR,SCL_CGI,fout);
 system(cmd);
 
 if((fp=fopen(fout,"r"))==NULL)

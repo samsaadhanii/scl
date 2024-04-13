@@ -29,19 +29,19 @@ PARSE=$7
 TEXT_TYPE=$8
 SENT_NO=$9
 
-ANU_MT_PATH=$SCLINSTALLDIR/MT/prog
+ANU_MT_PATH=$CGIDIR/$SCL_CGI/MT/prog
 export LC_ALL=POSIX
 
 my_converters (){
   if [ $OUTSCRIPT = "IAST" ]; then
-     my_converter="$SCLINSTALLDIR/converters/wx2utf8roman.out"
-     my_converter_wxHindi="$SCLINSTALLDIR/converters/wx2utf8roman.out"
+     my_converter="$CGIDIR/$SCL_CGI/converters/wx2utf8roman.out"
+     my_converter_wxHindi="$CGIDIR/scl/converters/wx2utf8roman.out"
   fi
 
   if [ $OUTSCRIPT = "DEV" ]; then
-     my_converter="$SCLINSTALLDIR/converters/wx2utf8.sh $SCLINSTALLDIR"
-     dev_converter="$SCLINSTALLDIR/converters/wx2utf8.sh $SCLINSTALLDIR"
-     my_converter_wxHindi="$SCLINSTALLDIR/converters/wxHindi-utf8.sh $SCLINSTALLDIR"
+     my_converter="$CGIDIR/$SCL_CGI/converters/wx2utf8.sh $CGIDIR/$SCL_CGI"
+     dev_converter="$CGIDIR/$SCL_CGI/converters/wx2utf8.sh $CGIDIR/$SCL_CGI"
+     my_converter_wxHindi="$CGIDIR/$SCL_CGI/converters/wxHindi-utf8.sh $CGIDIR/$SCL_CGI"
   fi
 }
 
@@ -71,7 +71,7 @@ sandhi_splitter () {
 }
 
 morph () {
-  $ANU_MT_PATH/morph/morph.sh $SCLINSTALLDIR $temp_files_path/$fbn.out $temp_files_path/$fbn.mo_all $temp_files_path/$fbn.mo_prune $temp_files_path/$fbn.mo_kqw $LTPROCBIN $temp_files_path
+  $ANU_MT_PATH/morph/morph.sh $CGIDIR/$SCL_CGI $temp_files_path/$fbn.out $temp_files_path/$fbn.mo_all $temp_files_path/$fbn.mo_prune $temp_files_path/$fbn.mo_kqw $LTPROCBIN $temp_files_path
      # $2.unkn contains the unrecognised words
      # $2.mo_all: Monier williams o/p
      # $2.mo_prune: After pruning with Apte's dict
@@ -79,7 +79,7 @@ morph () {
 }
 
 shaabdabodha () {
-  $ANU_MT_PATH/kAraka/shabdabodha.sh $SCLINSTALLDIR $GraphvizDot $temp_files_path $fbn.out $fbn.kAraka $OUTSCRIPT $PARSE $TEXT_TYPE
+  $ANU_MT_PATH/kAraka/shabdabodha.sh $CGIDIR/scl $GraphvizDot $temp_files_path $fbn.out $fbn.kAraka $OUTSCRIPT $PARSE $TEXT_TYPE
 # Field 7: morph analysis corresponding to the kaaraka role
 # Field 8: kaaraka role
 # Field 9: all possible relations
@@ -87,13 +87,13 @@ shaabdabodha () {
 
 anaphora () {
 # anaphora in the 10th field
-     $ANU_MT_PATH/anaphora/anaphora.pl $SCLINSTALLDIR $ANU_MT_PATH/anaphora < $temp_files_path/$fbn.out > $temp_files_path/tmp
+     $ANU_MT_PATH/anaphora/anaphora.pl $CGIDIR/$SCL_CGI $ANU_MT_PATH/anaphora < $temp_files_path/$fbn.out > $temp_files_path/tmp
      mv $temp_files_path/tmp $temp_files_path/$fbn.out
 }
 
 wsd () {
 # wsd in the 11th field
-    $ANU_MT_PATH/wsd/wsd_rules.sh $SCLINSTALLDIR $temp_files_path $fbn.out $fbn.wsd $fbn.wsd_upapaxa
+    $ANU_MT_PATH/wsd/wsd_rules.sh $CGIDIR/$SCL_CGI $temp_files_path $fbn.out $fbn.wsd $fbn.wsd_upapaxa
     #cp $temp_files_path/$fbn.out $temp_files_path/jjj
 }
 
@@ -109,18 +109,18 @@ wsd () {
 hnd_gen () {
     $ANU_MT_PATH/interface/add_colorcode.pl < $temp_files_path/$fbn.out |\
     $ANU_MT_PATH/chunker/lwg.pl |\
-    $ANU_MT_PATH/map/add_dict_mng.pl $SCLINSTALLDIR $ANU_MT_PATH/../data hi |\
-    $ANU_MT_PATH/map/lwg_avy_avy.pl $SCLINSTALLDIR $ANU_MT_PATH/../data hi  |\
+    $ANU_MT_PATH/map/add_dict_mng.pl $CGIDIR/$SCL_CGI $ANU_MT_PATH/../data hi |\
+    $ANU_MT_PATH/map/lwg_avy_avy.pl $CGIDIR/$SCL_CGI $ANU_MT_PATH/../data hi  |\
     $ANU_MT_PATH/hn/sent_gen/agreement.pl $ANU_MT_PATH/../data $ANU_MT_PATH/hn/sent_gen |\
-    $ANU_MT_PATH/hn/sent_gen/call_gen.pl $SCLINSTALLDIR   |\
-    $ANU_MT_PATH/interface/modify_mo_for_display.pl $SCLINSTALLDIR  > $temp_files_path/ttt
+    $ANU_MT_PATH/hn/sent_gen/call_gen.pl $CGIDIR/$SCL_CGI  |\
+    $ANU_MT_PATH/interface/modify_mo_for_display.pl $CGIDIR/$SCL_CGI > $temp_files_path/ttt
     #cp $temp_files_path/ttt $temp_files_path/$fbn.out
     mv $temp_files_path/ttt $temp_files_path/$fbn.out
 }
 
 ##########
   hnd_tr () {
-    $ANU_MT_PATH/translation/translate.sh $SCLINSTALLDIR $my_converter_wxHindi < $temp_files_path/$fbn.out > $temp_files_path/../${fbn}_trnsltn
+    $ANU_MT_PATH/translation/translate.sh $CGIDIR/$SCL_CGI $my_converter_wxHindi < $temp_files_path/$fbn.out > $temp_files_path/../${fbn}_trnsltn
  }
 ##########
 
@@ -143,14 +143,17 @@ hnd_gen () {
    #
  
    $my_converter < $temp_files_path/table.tsv > $temp_files_path/table_outscript.tsv
-   $dev_converter < $temp_files_path/table.tsv > $temp_files_path/table_dev.tsv
+   #$dev_converter < $temp_files_path/table.tsv > $temp_files_path/table_dev.tsv
    $my_converter < $temp_files_path/anvaya.tsv > $temp_files_path/anvaya_outscript.tsv
+   rm $temp_files_path/table.tsv $temp_files_path/anvaya.tsv
+   $temp_files_path/table.tsv
  }
 ##########
  #Generate Anvaya order anusaaraka output
  anvaya_anu_op () {
    $ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT cgi-bin $HERITAGE_CGI A $SENT_NO $SCL_CGI < $temp_files_path/anvaya_outscript.tsv > $temp_files_path/../anvaya_$fbn.html
    $ANU_MT_PATH/interface/get_anvaya_shloka_translation.pl ${temp_files_path}/anvaya_$fbn ${temp_files_path}/anvaya_${fbn}_wx_trnsltn < $temp_files_path/anvaya.tsv
+   rm $temp_files_path/anvaya.tsv $temp_files_path/anvaya_$fbn
  }
 
 #Generate Shloka order anusaaraka output
@@ -162,6 +165,7 @@ hnd_gen () {
 
  anvaya_order_tr () {
   $my_converter < $temp_files_path/anvaya_${fbn}_wx_trnsltn > $temp_files_path/anvaya_${fbn}_trnsltn
+  rm $temp_files_path/anvaya_${fbn}_wx_trnsltn
  }
 
 ################
@@ -171,6 +175,13 @@ hnd_gen () {
    #$MYPYTHONPATH $ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table_outscript.tsv $temp_files_path/table.xlsx
  }
 
+################
+  clean () {
+    rm $temp_files_path/tmp*
+    rm -r $temp_files_path/wsd_files
+    rm $temp_files_path/in* $temp_files_path/anvaya_* $temp_files_path/sandhied_in*
+    rm 1.dot wor.*
+  }
 ########      Main routine starts here
 
 if [ $# -lt 1 ] ; then
@@ -212,6 +223,7 @@ else
   shloka_anu_op
   anvaya_order_tr
   csv2xlsx
+  clean
 fi
 
 ###########

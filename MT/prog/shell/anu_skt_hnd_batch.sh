@@ -20,4 +20,4 @@
 
 
 source ../../../paths.sh
-$SCLINSTALLDIR/MT/prog/shell/anu_skt_hnd.sh $1 hi DEV NO NOECHO D
+$myPATH/MT/prog/shell/anu_skt_hnd.sh $1 hi DEV NO NOECHO D

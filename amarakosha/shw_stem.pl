@@ -23,10 +23,7 @@ BEGIN{require "../paths.pl";}
 
 #use GDBM_File;
 
-#my($LEX);
-#tie(%LEX,GDBM_File,"$GlblVar::SCLINSTALLDIR/amarakosha/DBM/stem2head.gdbm",GDBM_READER,0666) || die "can't open DBM/stem2head.gdbm";
-
-open(TMP,"$GlblVar::SCLINSTALLDIR/amarakosha/DBM/all_kANdas") || die "can't open DBM/all_kANdas";
+open(TMP,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI/amarakosha/DBM/all_kANdas") || die "can't open DBM/all_kANdas";
 $key = 0;
 $value = 4;
 while(<TMP>) {
@@ -56,7 +53,7 @@ untie(%LEX);
 sub shwMorph{
 my($word) = @_;
 $word =~ s/[^a-zA-Z]//g;
-$result = `echo $word | $GlblVar::LTPROCBIN -c $GlblVar::SCLINSTALLDIR/morph_bin/all_morf.bin`;
+$result = `echo $word | $GlblVar::LTPROCBIN -c $GlblVar::CGIDIR/$GlblVar::SCL_CGI/morph_bin/all_morf.bin`;
 $result=~ s/\^|\$//g;
 $result=~ s/\//#/g;
 @flds=split(/#/,$result);

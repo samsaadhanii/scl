@@ -33,7 +33,7 @@ void cnvrtutfd2r(char in[LARGE], char out[LARGE]){
   fprintf(fp,"%s ",in);
   fclose(fp);
 
-  sprintf(cmd,"%s/converters/utfd2r.sh %s < %s > %s",SCLINSTALLDIR,SCLINSTALLDIR,fin,fout);
+  sprintf(cmd,"%s/converters/utfd2r.sh %s/%s < %s/%s > %s",CGIDIR,SCL_CGI,CGIDIR,SCL_CGI,fin,fout);
   system(cmd);
 
   if((fp = fopen(fout,"r"))==NULL){

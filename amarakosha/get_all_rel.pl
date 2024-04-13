@@ -25,14 +25,9 @@ BEGIN{require "../paths.pl";}
 
 @rel = ("stem2head","avayava","avayavI","aparAjAwi","parAjAwi","janaka","janya","pawi","pawnI","svAmI","sevaka","vESiRtya","vESiRtyavaw","sambanXiwa","vqwwi","vqwwivAn");
 
-#for $rel (@rel){
-#$name = "LEX_".$rel;
-#tie(%{$name},GDBM_File,"$GlblVar::SCLINSTALLDIR/amarakosha/DBM/$rel.gdbm",GDBM_READER,0444);
-#}
-
 for $rel (@rel){
 $name = "LEX_".$rel;
-open(TMP,"$GlblVar::SCLINSTALLDIR/amarakosha/DBM/all_kANdas") || die "Can't open amarakosha/DBM/all_kANdas for reading";
+open(TMP,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI/amarakosha/DBM/all_kANdas") || die "Can't open amarakosha/DBM/all_kANdas for reading";
 if ($rel eq "stem2head") { $key = 0; $value = 4; }
 elsif ($rel eq "avayava") { $key = 5; $value = 4; }
 elsif ($rel eq "avayavI") { $key = 4; $value = 5; }
@@ -84,9 +79,9 @@ foreach $word (@word) {
 }
 
 if($out_encoding eq "DEV" ) {
-   open TMP, "| $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
+   open TMP, "| $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1";
 } elsif($out_encoding eq "IAST" ) {
-   open TMP, "| $GlblVar::SCLINSTALLDIR/converters/wx2utf8roman.out";
+   open TMP, "| $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8roman.out";
 }
 print TMP $nodes,$rels;
 close TMP;

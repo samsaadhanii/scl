@@ -27,7 +27,7 @@ void get_sandhied_word (char *prAwipaxikam1, char *prAwipaxikam2, char *sandhiw)
     strcat(f1out,tmp);
 
     cmd[0]='\0';
-    sprintf(cmd,"%s/skt_gen/compounds/main_sandhi.pl %s+%s > %s",SCLINSTALLDIR,prAwipaxikam1,prAwipaxikam2,fout);
+    sprintf(cmd,"%s/%s/skt_gen/compounds/main_sandhi.pl %s+%s > %s",CGIDIR,SCL_CGI,prAwipaxikam1,prAwipaxikam2,fout);
     system(cmd);
     sprintf(cmd,"cut -d, -f1 %s > %s ",fout,f1out);
     system(cmd);

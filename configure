@@ -2,18 +2,22 @@
 
 source ./spec.txt
 
-echo "value sclinstalldir = \"$SCLINSTALLDIR\"" > ./skt_gen/Sentence/paths.ml
-echo "and ltprocbin = \"$LTPROCBIN\" ;" >> ./skt_gen/Sentence/paths.ml
+#echo "value sclinstalldir = \"$SCLINSTALLDIR\"" > ./skt_gen/Sentence/paths.ml
+echo "value ltprocbin = \"$LTPROCBIN\"" > ./skt_gen/Sentence/paths.ml
+echo "and cgidir = \"$CGIDIR\"" >> ./skt_gen/Sentence/paths.ml
+echo "and scl_cgi = \"$SCL_CGI\";" >> ./skt_gen/Sentence/paths.ml
 
-echo "value sclinstalldir = \"$SCLINSTALLDIR\";" > ./MT/prog/kAraka/Prepare_Graph/paths.ml
+#echo "value sclinstalldir = \"$SCLINSTALLDIR\";" > ./MT/prog/kAraka/Prepare_Graph/paths.ml
 
-echo "#define SCLINSTALLDIR \"$SCLINSTALLDIR\"" > ./skt_gen/compounds/paths.h
+#echo "#define SCLINSTALLDIR \"$SCLINSTALLDIR\"" > ./skt_gen/compounds/paths.h
+echo "#define CGIDIR \"$CGIDIR\"" > ./skt_gen/compounds/paths.h
+echo "#define SCL_CGI \"$SCL_CGI\"" >> ./skt_gen/compounds/paths.h
 echo "#define TFPATH \"$TFPATH\"" >> ./skt_gen/compounds/paths.h
 echo "#define LTPROCBIN \"$LTPROCBIN\"" >> ./skt_gen/compounds/paths.h
 
 echo "#!/usr/bin/env perl" > ./paths.pl
 echo "package GlblVar;" >> ./paths.pl
-echo "\$SCLINSTALLDIR=\"$SCLINSTALLDIR\";" >> ./paths.pl
+#echo "\$SCLINSTALLDIR=\"$SCLINSTALLDIR\";" >> ./paths.pl
 echo "\$HTDOCSDIR=\"$HTDOCSDIR\";" >> ./paths.pl
 echo "\$CGIDIR=\"$CGIDIR\";" >> ./paths.pl
 echo "\$LTPROCBIN=\"$LTPROCBIN\";" >> ./paths.pl
@@ -31,7 +35,7 @@ echo "\$MYPYTHONPATH=\"$MYPYTHONPATH\";" >> ./paths.pl
 echo "1;" >> ./paths.pl
 
 echo "ZENDIR=$ZENDIR" > ./paths.sh
-echo "SCLINSTALLDIR=$SCLINSTALLDIR" >> ./paths.sh
+#echo "SCLINSTALLDIR=$SCLINSTALLDIR" >> ./paths.sh
 echo "LTPROCBIN=$LTPROCBIN" >> ./paths.sh
 echo "TFPATH=$TFPATH" >> ./paths.sh
 echo "HTDOCSDIR=$HTDOCSDIR" >> ./paths.sh

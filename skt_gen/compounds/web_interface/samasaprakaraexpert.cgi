@@ -21,11 +21,11 @@
 
 use utf8;
 require "../../paths.pl";
-require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
 
 
-my $myPATH = "$GlblVar::SCLINSTALLDIR/skt_gen/compounds";
-require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
+my $myPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/compounds";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert.pl";
 
 use warnings;
 #use CGI ':standard';
@@ -48,8 +48,8 @@ use warnings;
   my $s2 = $param{pratyaya2};
   my $viXAyakasUwra = $param{viXAyakasUwra};
 
-  $p1wx=&convert($input_encoding,$p1,$GlblVar::SCLINSTALLDIR);
-  $p2wx=&convert($input_encoding,$p2,$GlblVar::SCLINSTALLDIR);
+  $p1wx=&convert($input_encoding,$p1,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI");
+  $p2wx=&convert($input_encoding,$p2,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI");
   my $avigraha = $p1wx."+".$s1." ".$p2wx."+".$s2;
   #print "samAsaprakAra cgi avigraha = $avigraha\n";
 

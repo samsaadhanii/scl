@@ -1,4 +1,4 @@
-SHELL = /bin/sh
+SHELL=/bin/sh
 
 .PHONY: all clean
 
@@ -18,4 +18,4 @@ nneparse.out:  nneparse.lex nneparse.y
 	rm lex.yy.c
 
 clean:	
-	rm -f $(TARGETS)
+	rm -f nneparse.out

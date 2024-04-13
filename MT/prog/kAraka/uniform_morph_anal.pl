@@ -17,9 +17,9 @@
 #  along with this program; if not, write to the Free Software
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
-$SCLINSTALLDIR=$ARGV[0];
+$myPATH=$ARGV[0];
 
-require "$SCLINSTALLDIR/MT/prog/Normalisation/get_std_spelling_fn.pl";
+require "$myPATH/MT/prog/Normalisation/get_std_spelling_fn.pl";
 
 
 $/ = "\n\n";

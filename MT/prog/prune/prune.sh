@@ -18,15 +18,15 @@
 
 
 
-SCLINSTALLDIR=$1
+myPATH=$1
 
-export BIN_PATH=$SCLINSTALLDIR/MT/prog/prune
+export BIN_PATH=$myPATH/MT/prog/prune
 
 #wvam mawwaH SqNu; here we need wasil analysis
 #$BIN_PATH/rm_wasil.pl  |\
 
 $BIN_PATH/handle_special_words_repetitive.pl  |\
-$BIN_PATH/rm_non_apte.pl $SCLINSTALLDIR $BIN_PATH/default_gen.txt $BIN_PATH/../morph/rUDa_kqw.txt |\
+$BIN_PATH/rm_non_apte.pl $myPATH $BIN_PATH/default_gen.txt $BIN_PATH/../morph/rUDa_kqw.txt |\
 
 #$BIN_PATH/retain_only_inflectional_if_exists.pl  |\
 #Above line was commented. Uncommented by Amba on 28 Feb 2012

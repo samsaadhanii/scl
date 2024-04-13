@@ -3,11 +3,11 @@
 use strict;
 use warnings;
 
-$SCLINSTALLDIR = $ARGV[0];
+$myPATH = $ARGV[0];
 my $NO_OF_ROWS = $ARGV[1]-1;
 # This variable is required in header.pl
-require "$SCLINSTALLDIR/MT/prog/reader_generator/header.pl";
-require "$SCLINSTALLDIR/MT/prog/reader_generator/footer.pl";
+require "$myPATH/MT/prog/reader_generator/header.pl";
+require "$myPATH/MT/prog/reader_generator/footer.pl";
 $/="\n\n";
 my $shloka=0;
 my $compound=1;
@@ -52,7 +52,7 @@ $length=$#in+1;
 		   open(TMP,">samaasa$compound");
 		   print TMP $fields[$m];
 		   close(TMP);
-		   system ("$SCLINSTALLDIR/MT/prog/reader_generator/get_dot.pl < samaasa$compound | dot -Tjpg -o samaasa$compound.jpg; rm samaasa$compound");
+		   system ("$myPATH/MT/prog/reader_generator/get_dot.pl < samaasa$compound | dot -Tjpg -o samaasa$compound.jpg; rm samaasa$compound");
 		   print "<tr class=\"row$row_indx\"><td class=\"$div_id\"><a href=\"samaasa$compound.jpg\"  onmouseout=\"UnTip()\" onmouseover=\"Tip('<center><img src=samaasa$compound.jpg></center>',FONTSIZE,'18pt',HEIGHT,300,STICKY,true,CLOSEBTN,true) \">".$fields[$m]."</a></td></tr>\n";
 		   $compound++;
 		} else {

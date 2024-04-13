@@ -39,12 +39,12 @@ my $rt_wx = $ARGV[1];
 my $linga_wx = $ARGV[2];
 if($linga_wx eq "napuM") { $linga_wx = "napuMsaka";} #Idiosynchrasy of java simulator programme 
 
-$rt_linga = `echo $rt_wx '(' $linga_wx ')' | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;
+$rt_linga = `echo $rt_wx '(' $linga_wx ')' | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1`;
 
-$rt = `echo $rt_wx | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;
+$rt = `echo $rt_wx | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1`;
 
 if ($pUrvapaxa eq "''") { $pUrvapaxautf = "";}
-else { $pUrvapaxautf = `echo $pUrvapaxa | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;}
+else { $pUrvapaxautf = `echo $pUrvapaxa | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1`;}
 
 while($in = <STDIN>){
   chomp($in);

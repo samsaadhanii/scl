@@ -16,5 +16,5 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 
-SCLINSTALLDIR=$1
-$SCLINSTALLDIR/converters/utf82iscii.pl | $SCLINSTALLDIR/converters/ir | $SCLINSTALLDIR/converters/wx2utf8roman.out 
+myPATH=$1
+$myPATH/converters/utf82iscii.pl | $myPATH/converters/ir | $myPATH/converters/wx2utf8roman.out 

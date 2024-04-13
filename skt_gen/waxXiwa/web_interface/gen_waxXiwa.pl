@@ -19,7 +19,7 @@
 
 
 require "../../paths.pl";
-require "$GlblVar::SCLINSTALLDIR/converters/convert.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert.pl";
 
 package main;
 #use CGI qw/:standard/;
@@ -48,15 +48,15 @@ $encoding = $ARGV[1];
 
 $pid = $$;
 
-$rt_wx=&convert($encoding,$rt,$GlblVar::SCLINSTALLDIR);
+$rt_wx=&convert($encoding,$rt,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI");
 
 
 $LTPROC_IN = "";
-$ltproc_cmd3 = "$GlblVar::LTPROCBIN -cg $GlblVar::SCLINSTALLDIR/morph_bin/skt_taddhita_gen.bin | pr -3 -a -t | tr ' ' '\t' | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
+$ltproc_cmd3 = "$GlblVar::LTPROCBIN -cg $GlblVar::CGIDIR/$GlblVar::SCL_CGI/morph_bin/skt_taddhita_gen.bin | pr -3 -a -t | tr ' ' '\t' | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1";
 
-$ltproc_cmd1 = "$GlblVar::LTPROCBIN -cg $GlblVar::SCLINSTALLDIR/morph_bin/skt_taddhita_gen.bin | pr -1 -a -t | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1";
+$ltproc_cmd1 = "$GlblVar::LTPROCBIN -cg $GlblVar::CGIDIR/$GlblVar::SCL_CGI/morph_bin/skt_taddhita_gen.bin | pr -1 -a -t | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1";
 
-$rtutf8 = `echo $rt_wx | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;
+$rtutf8 = `echo $rt_wx | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1`;
 
   print "<center>\n";
   print "<a href=\"javascript:show('$rtutf8','DEV')\">$rtutf8<\/a>\n";

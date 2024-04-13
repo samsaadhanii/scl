@@ -1,4 +1,5 @@
 SHELL = /bin/bash
+include ../../paths.sh
 
 .PHONY: all clean
 
@@ -47,8 +48,7 @@ paxakArya.out:paxakArya.lex cnvrtwx2utf.c fgetword.c get_sandhied_word.c cnvrtut
 	rm lex.yy.c
 
 install:
-	source ../../spec.sh
-	mkdir -p $(HTDOCSDIR)/$(SCL_HTDOCS)/skt_gen/compounds;mkdir -p $(CGIDIR)/$(SCL_CGI)/skt_gen/compounds;cd web_interface; sh install.sh html $(HTDOCSDIR)/$(SCL_HTDOCS)/skt_gen/compounds; cp web_interface/*.cgi $(CGIDIR)/$(SCL_CGI)/skt_gen/compounds;
+	mkdir -p $(HTDOCSDIR)/$(SCL_HTDOCS)/skt_gen/compounds/; mkdir -p $(CGIDIR)/$(SCL_CGI)/skt_gen/compounds; cd web_interface/js; sh install.sh js $(HTDOCSDIR)/$(SCL_HTDOCS)/skt_gen/compounds/js; cd ../..; cp -r web_interface/css $(HTDOCSDIR)/$(SCL_HTDOCS)/skt_gen/compounds; cp web_interface/Samasa_Flowchart.jpg $(HTDOCSDIR)/$(SCL_HTDOCS)/skt_gen/compounds/; cp web_interface/*.cgi $(CGIDIR)/$(SCL_CGI)/skt_gen/compounds; cp *.out $(CGIDIR)/$(SCL_CGI)/skt_gen/compounds; cp *.pl $(CGIDIR)/$(SCL_CGI)/skt_gen/compounds; cd web_interface; sh install.sh html $(HTDOCSDIR)/$(SCL_HTDOCS)/skt_gen/compounds
 
 clean:	
 	rm -f alukkArya.out aluk.out nonalukkArya.out paxakArya.out samAsAnwa.out samAsaprakAra.out upasarjana.out uwwarapaxa.out

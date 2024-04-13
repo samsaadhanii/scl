@@ -27,7 +27,7 @@ package main;
 @person = ("pra","ma","u");
 @vacanam = ("eka","xvi","bahu");
 
-$generator = "$GlblVar::LTPROCBIN -cg $GlblVar::SCLINSTALLDIR/morph_bin/wif_gen.bin";
+$generator = "$GlblVar::LTPROCBIN -cg $GlblVar::CGIDIR/$GlblVar::SCL_CGI/morph_bin/wif_gen.bin";
 $ltproc_cmd = "$generator | sed '1,\$s/#.*/-/g' | grep . | pr -3 -a -t -w 300| tr ' ' '\t'" ;
 
  sub gen_verb_forms {
@@ -44,11 +44,11 @@ $ltproc_cmd = "$generator | sed '1,\$s/#.*/-/g' | grep . | pr -3 -a -t -w 300| t
 
 
  if($encoding ne "WX"){
-   $rt_XAwu_gaNa_mng = &convert($encoding,$rt,$GlblVar::SCLINSTALLDIR);
+   $rt_XAwu_gaNa_mng = &convert($encoding,$rt,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI");
    chomp($rt_XAwu_gaNa_mng);
-   $prayogaH = &convert($encoding,$prygH,$GlblVar::SCLINSTALLDIR);
+   $prayogaH = &convert($encoding,$prygH,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI");
    chomp($prayogaH);
-   $upasarga = &convert($encoding,$upasarga,$GlblVar::SCLINSTALLDIR);
+   $upasarga = &convert($encoding,$upasarga,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI");
    chomp($upasargaH);
  } else { $rt_XAwu_gaNa_mng = $rt; $prayogaH = $prygH; }
 

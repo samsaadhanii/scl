@@ -23,10 +23,10 @@ package main;
 use utf8;
 
 require "../../paths.pl";
-require "$GlblVar::SCLINSTALLDIR/cgi_interface.pl";
+require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
 require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/kqw/kqw_gen_subroutines.pl";
 
-my $myPATH = "$GlblVar::SCLINSTALLDIR/skt_gen/noun";
+my $myPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/noun";
 
   if($GlblVar::LOG eq "true"){
     if (! (-e "$GlblVar::TFPATH")){
