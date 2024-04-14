@@ -145,15 +145,13 @@ hnd_gen () {
    $my_converter < $temp_files_path/table.tsv > $temp_files_path/table_outscript.tsv
    #$dev_converter < $temp_files_path/table.tsv > $temp_files_path/table_dev.tsv
    $my_converter < $temp_files_path/anvaya.tsv > $temp_files_path/anvaya_outscript.tsv
-   rm $temp_files_path/table.tsv $temp_files_path/anvaya.tsv
-   $temp_files_path/table.tsv
  }
 ##########
  #Generate Anvaya order anusaaraka output
  anvaya_anu_op () {
    $ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT cgi-bin $HERITAGE_CGI A $SENT_NO $SCL_CGI < $temp_files_path/anvaya_outscript.tsv > $temp_files_path/../anvaya_$fbn.html
    $ANU_MT_PATH/interface/get_anvaya_shloka_translation.pl ${temp_files_path}/anvaya_$fbn ${temp_files_path}/anvaya_${fbn}_wx_trnsltn < $temp_files_path/anvaya.tsv
-   rm $temp_files_path/anvaya.tsv $temp_files_path/anvaya_$fbn
+   #rm $temp_files_path/anvaya_$fbn
  }
 
 #Generate Shloka order anusaaraka output
@@ -179,8 +177,8 @@ hnd_gen () {
   clean () {
     rm $temp_files_path/tmp*
     rm -r $temp_files_path/wsd_files
-    rm $temp_files_path/in* $temp_files_path/anvaya_* $temp_files_path/sandhied_in*
-    rm 1.dot wor.*
+    rm $temp_files_path/in*.mo* $temp_files_path/in*wsd* 
+    rm $temp_files_path/1.dot
   }
 ########      Main routine starts here
 
