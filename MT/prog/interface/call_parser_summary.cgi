@@ -50,7 +50,7 @@ my %param = &get_parameters();
 	  my $lang = "hi";
           my $morph = "UoHyd";
           my $parse = "AVAILABLE";
-          my $text_type = "Prose";
+          my $text_type = "Sloka";
           $pid =~ /_([0-9])/;
           my $sentno = $1;
           system("$myPATH/MT/prog/shell/anu_skt_hnd.sh $myPATH $dirname/in$pid $GlblVar::TFPATH $lang $outscript $morph $parse $text_type $sentno 2>> $dirname/err$pid");

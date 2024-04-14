@@ -22,8 +22,8 @@ print <<header
 header
 ;
 
-print "TFPATH = $TFPATH\n";
-print "pid = $pid\n";
+#print "TFPATH = $TFPATH\n";
+#print "pid = $pid\n";
 #if($#sentences == 1) {
 print <<header1
 <a href="/$GlblVar::SCL_HTDOCS/MT/DEMO/./tmp_in${pid}_1/table_outscript.tsv">Save Annotation</a> 
