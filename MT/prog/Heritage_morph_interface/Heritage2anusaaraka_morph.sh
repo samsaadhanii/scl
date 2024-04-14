@@ -34,3 +34,4 @@ cut -f2 $temp_path/tmp_in$pid/in${pid}.out | tr '\n' ' ' > $temp_path/tmp_in$pid
 #echo -n '"<s>"' > $temp_path/in$pid 
 cat $temp_path/tmp_in$pid/wor.$pid >> $temp_path/in$pid
 echo ' .' >> $temp_path/in$pid
+#rm $temp_path/tmp_in$pid/in${pid}_tmp*
