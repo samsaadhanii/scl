@@ -119,15 +119,18 @@ package main;
       if($morph eq "Heritage_manual") {
          $sent =~ s/\.//;
          $sent =~ s/ /\+/g;
-	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=$Hscript\&cp=t\&text=$sent\&t=WX\&topic=\&mode=b&pipeline=f&fmode=n\" \"$GlblVar::CGIDIR/$GlblVar::HERITAGE_Graph_CGI\"";
+         $path="$GlblVar::CGIDIR/$GlblVar::HERITAGE_Graph_CGI";
+	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=$Hscript\&cp=t\&text=$sent\&t=WX\&topic=\&mode=b&pipeline=f&fmode=n\" $path";
          system($cmd);
       } else {
          if($morph eq "Heritage_auto") {
          $sent =~ s/\.//;
          $sent =~ s/ /\+/g;
-	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=$Hscript\&cp=t\&text=$sent\&t=WX\&topic=\&mode=f&pipeline=t&fmode=w\" \"$GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI\" |  tail -1  | $myPATH/MT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $myPATH $GlblVar::TFPATH $pid";
+         $path="$GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI";
+	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=$Hscript\&cp=t\&text=$sent\&t=WX\&topic=\&mode=f&pipeline=t&fmode=w\" $path |  tail -1  | $myPATH/MT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $myPATH $GlblVar::TFPATH $pid";
          system($cmd);
 
+	 $text_type = "Prose"; ## Anvaya programme has some problem, and does not work properly on this
          system("$GlblVar::TIMEOUT $myPATH/MT/prog/shell/$prog $myPATH tmp_in${pid}/in$pid $GlblVar::TFPATH $lang $script $morph Full $text_type $i 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
          }  else {
 
