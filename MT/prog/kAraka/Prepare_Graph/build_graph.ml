@@ -3048,7 +3048,7 @@ value rlRaRTIsambanXaH m1 m2 text_type = match m1 with
        		   let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
                    if     prose_order id1 id2 text_type && not (uwwarapaxa2 = "y")
                    then if member_of rt2 sambanXavAcI 
-                        then if not (lifga1="napuM")
+                        then if (not (lifga1="napuM") || (rt1="vyAkaraNa"))
                              then [ Relation (id1,cid1,mid1,"RaRTIsambanXaH",id2,cid2,mid2,"28.5",d12)]
                              else []
                         else if member_of rt2 viRayi_list
@@ -5443,7 +5443,7 @@ value best2incoming sorted_lst =
                            let acc1 = List.append acc [Relation (b1,c1,d1,rel1,f1,g1,h1,rl1,dist1)] in 
                                loop acc1 b1 c1 d1 rel1 f1 g1 h1 dist1 count s
                            (* } *)
-                         else if (rel1="viSeRaNam" || rel1 = "upamAnam"|| rel1 = "viXeya_viSeRaNam" || rel1 = "karwA"|| rel1 = "karwA_be_verbs") then  (* do { print_string "viSeRaNam found\n"; *) (* karwA is added, since typically in prose form karwA is in the beginning, far away from thhe verb *)
+                         else if (rel1="viSeRaNam" || rel1 = "upamAnam"|| rel1 = "viXeya_viSeRaNam" || rel1 = "karwA"|| rel1 = "karwA_be_verbs" || rel1="aBexaH") then  (* do { print_string "viSeRaNam found\n"; *) (* karwA is added, since typically in prose form karwA is in the beginning, far away from thhe verb *)
                                 let acc1 = List.append acc [Relation (b1,c1,d1,rel1,f1,g1,h1,rl1,dist1)] in 
                                     loop acc1 b1 c1 d1 rel1 f1 g1 h1 dist1 count s
    (* It is possible that RaRTI sambanXaH with immediate next/previous words do not yield the correct answer;
