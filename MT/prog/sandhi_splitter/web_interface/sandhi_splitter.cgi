@@ -23,8 +23,9 @@ use utf8;
 use strict;
 #use warnings;
 require "../../../paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert.pl";
+my $myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/cgi_interface.pl";
+require "$myPATH/converters/convert.pl";
 
 ## Usage for json: 
 ## http://sanskrit.uohyd.ac.in/cgi-bin/scl/sandhi_splitter/sandhi_splitter.cgi?word=rAmAlayaH&encoding=WX&outencoding=D&mode=word&disp_mode=json
@@ -69,12 +70,12 @@ $disp_mode = "web";
   if ($out_encoding eq "I") { $Hscript = "roma";}
   if ($out_encoding eq "W") { $Hscript = "deva";}
 
-if ($out_encoding eq "I") {$out_converter="$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8roman.out";}
-elsif ($out_encoding eq "D") {$out_converter="$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8.sh $GlblVar::CGIDIR/$GlblVar::SCL_CGI";}
+if ($out_encoding eq "I") {$out_converter="$myPATH/converters/wx2utf8roman.out";}
+elsif ($out_encoding eq "D") {$out_converter="$myPATH/converters/wx2utf8.sh $myPATH";}
 else {$out_converter="";}
 
   if($encoding eq "Itrans"|| $encoding eq "IAST" || $encoding eq "Unicode") {
-     $word=&convert($encoding,$word,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI");
+     $word=&convert($encoding,$word,$myPATH);
   }
    #Since Heritage encode.ml fails on these schemes.
 

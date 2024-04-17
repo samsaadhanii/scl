@@ -19,7 +19,8 @@
 
 
 require "../../paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert.pl";
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/converters/convert.pl";
 
 package main;
 #use CGI qw/:standard/;
@@ -48,15 +49,15 @@ $encoding = $ARGV[1];
 
 $pid = $$;
 
-$rt_wx=&convert($encoding,$rt,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI");
+$rt_wx=&convert($encoding,$rt,"$myPATH");
 
 
 $LTPROC_IN = "";
-$ltproc_cmd3 = "$GlblVar::LTPROCBIN -cg $GlblVar::CGIDIR/$GlblVar::SCL_CGI/morph_bin/skt_taddhita_gen.bin | pr -3 -a -t | tr ' ' '\t' | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1";
+$ltproc_cmd3 = "$GlblVar::LTPROCBIN -cg $myPATH/morph_bin/skt_taddhita_gen.bin | pr -3 -a -t | tr ' ' '\t' | $myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1";
 
-$ltproc_cmd1 = "$GlblVar::LTPROCBIN -cg $GlblVar::CGIDIR/$GlblVar::SCL_CGI/morph_bin/skt_taddhita_gen.bin | pr -1 -a -t | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1";
+$ltproc_cmd1 = "$GlblVar::LTPROCBIN -cg $myPATH/morph_bin/skt_taddhita_gen.bin | pr -1 -a -t | $myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1";
 
-$rtutf8 = `echo $rt_wx | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1`;
+$rtutf8 = `echo $rt_wx | $myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1`;
 
   print "<center>\n";
   print "<a href=\"javascript:show('$rtutf8','DEV')\">$rtutf8<\/a>\n";
@@ -70,12 +71,12 @@ $rtutf8 = `echo $rt_wx | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | 
       } 
    }
 
-   $str1 = "echo '".$LTPROC_IN."' | $ltproc_cmd3 | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/waxXiwa/waxXiwa_format_html.pl $rt_wx";
+   $str1 = "echo '".$LTPROC_IN."' | $ltproc_cmd3 | $myPATH/skt_gen/waxXiwa/waxXiwa_format_html.pl $rt_wx";
 
   $LTPROC_IN2 = "^"."${rt_wx}<vargaH:nA><waxXiwa_prawyayaH:wal><lifgam:swrI><level:0>"."\$";
   $LTPROC_IN2 .= "\n^"."${rt_wx}<vargaH:nA><waxXiwa_prawyayaH:wva><lifgam:napuM><level:0>"."\$";
 
-   $str2 = "echo '".$LTPROC_IN2."' | $ltproc_cmd1 | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/waxXiwa/waxXiwa_ind_html.pl $rt_wx";
+   $str2 = "echo '".$LTPROC_IN2."' | $ltproc_cmd1 | $myPATH/skt_gen/waxXiwa/waxXiwa_ind_html.pl $rt_wx";
 
    #  print "str2 = ", $str2;
    $LTPROC_IN1 = "";
@@ -84,7 +85,7 @@ $rtutf8 = `echo $rt_wx | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | 
       $LTPROC_IN1 .=  $str."\n";
   }
 
-   $str3 = "echo '".$LTPROC_IN1."' | $ltproc_cmd1 | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/waxXiwa/waxXiwa_avy_html.pl";
+   $str3 = "echo '".$LTPROC_IN1."' | $ltproc_cmd1 | $myPATH/skt_gen/waxXiwa/waxXiwa_avy_html.pl";
 
 print "<html><body>\n";
   print "<table border=0 width=100%>\n";

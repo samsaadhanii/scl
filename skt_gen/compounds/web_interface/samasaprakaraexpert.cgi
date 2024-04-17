@@ -21,11 +21,12 @@
 
 use utf8;
 require "../../paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
+$myPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/cgi_interface.pl";
 
 
-my $myPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/compounds";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert.pl";
+my $compPATH = "$myPATH/skt_gen/compounds";
+require "$myPATH/converters/convert.pl";
 
 use warnings;
 #use CGI ':standard';
@@ -53,7 +54,7 @@ use warnings;
   my $avigraha = $p1wx."+".$s1." ".$p2wx."+".$s2;
   #print "samAsaprakAra cgi avigraha = $avigraha\n";
 
-  my $cmd = "$myPATH/samAsaprakAra.out \"$output_encoding\" \"$avigraha\" \"$p1wx\" \"$s1\" \"$p2wx\" \"$s2\" \"$viXAyakasUwra\"";
+  my $cmd = "$compPATH/samAsaprakAra.out \"$output_encoding\" \"$avigraha\" \"$p1wx\" \"$s1\" \"$p2wx\" \"$s2\" \"$viXAyakasUwra\"";
   system($cmd);
   #}
 

@@ -21,11 +21,12 @@
 use utf8;
 
 require "../paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/sandhi/sandhi.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/sandhi/apavAxa_any.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/sandhi/any_sandhi.pl";
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/cgi_interface.pl";
+require "$myPATH/converters/convert.pl";
+require "$myPATH/sandhi/sandhi.pl";
+require "$myPATH/sandhi/apavAxa_any.pl";
+require "$myPATH/sandhi/any_sandhi.pl";
 
 package main;
 
@@ -52,10 +53,10 @@ if($GlblVar::LOG eq "true"){
      $sandhi_type = "any";
 
 
-      $word1_wx=&convert($encoding,$word1,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI");
+      $word1_wx=&convert($encoding,$word1,$myPATH);
       chomp($word1_wx);
 
-      $word2_wx=&convert($encoding,$word2,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI");
+      $word2_wx=&convert($encoding,$word2,$myPATH);
       chomp($word2_wx);
       
       $ans = &sandhi($word1_wx,$word2_wx);
@@ -64,9 +65,9 @@ if($GlblVar::LOG eq "true"){
        $string = $word1_wx.",".$word2_wx.",".$ans[0].",".$ans[1].",".$ans[2].",".$ans[3].",".$ans[4].",".$ans[5].",".$ans[6].",".$ans[7].",";
 
       if($outencoding eq "IAST") {
-         $cmd = "echo \"$string\" | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8roman.out";
+         $cmd = "echo \"$string\" | $myPATH/converters/wx2utf8roman.out";
       } else {
-         $cmd = "echo \"$string\" | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1";
+         $cmd = "echo \"$string\" | $myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1";
       }
 
       $san = `$cmd`;

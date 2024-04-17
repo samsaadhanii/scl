@@ -19,7 +19,8 @@
 
 use utf8;
 require "../../paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/cgi_interface.pl";
 
 package main;
 #use CGI qw/:standard/;
@@ -29,8 +30,8 @@ my %param = &get_parameters();
       $texts_input=$param{texts};
       print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
-      $analysis = `echo "$texts_input" |$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/utf82iscii.pl | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ir_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/Sentence/scan_input.out | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/Sentence/sentence_generator | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1`;
-      #$analysis = `echo "$texts_input" |$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/utf82iscii.pl | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ir_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/Sentence/scan_input.out | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/Sentence/sentence_generator `;
+      $analysis = `echo "$texts_input" |$myPATH/converters/utf82iscii.pl | $myPATH/converters/ir_skt | $GlblVar::CGIDIR/$myPATH/scan_input.out | $myPATH/skt_gen/Sentence/sentence_generator | $myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1`;
+      #$analysis = `echo "$texts_input" |$myPATH/converters/utf82iscii.pl | $myPATH/converters/ir_skt | $GlblVar::CGIDIR/$myPATH/scan_input.out | $myPATH/skt_gen/Sentence/sentence_generator `;
 #print $analysis;
 
        #print "<table class=\"table table-bordered\">";

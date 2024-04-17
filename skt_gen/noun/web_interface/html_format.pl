@@ -19,6 +19,7 @@
 
 require "../../paths.pl";
 
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
 
 @vib = ("प्रथमा","द्वितीया","तृतीया","चतुर्थी","पञ्चमी","षष्ठी","सप्तमी","सं.प्र");
 @vib_IAST = ("prathamā","dvitīyā","tṛtīyā","caturthī","pañcamī","ṣaṣṭhī","saptamī","saṃ.pra");
@@ -33,9 +34,9 @@ my $lifga_wx = $ARGV[2];
 my $encoding = $ARGV[3];
 
 if ($encoding eq "IAST") {
-         $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8roman.out";
+         $conversion_program = "$myPATH/converters/wx2utf8roman.out";
  } else {
-         $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1";
+         $conversion_program = "$myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1";
 	 $encoding = "DEV";
  }
 

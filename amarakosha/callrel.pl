@@ -20,7 +20,8 @@
 require "../paths.pl";
 
 
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert.pl";
+$myPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/converters/convert.pl";
 
 my %headers = ("syns","paryAyavAcI(\@Synset)","onto","paxArWawawwvavicAraH(\@Ontology)","holo","avayavI(\@Holonymy)","mero","avayavaH(\@Meronymy)","hyper","parAjAwi(\@Hypernymy)","hypo","aparAjAwi(\@Hyponymy)","janaka","janaka","janya","janya","pawi","pawi","pawnI","pawnI","svAmi","svAmi","sevaka","sevaka","vESiRtya","vESiRtyam","saMbanXa","sambanXiwa","vqwwi","AjIvikA","tree","");
 
@@ -32,16 +33,16 @@ my $encoding = $ARGV[2];
 my $out_encoding = $ARGV[3];
 #my $pid = $ARGV[4];
 
-      $word_wx=&convert($encoding,$word,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI");
+      $word_wx=&convert($encoding,$word,$myPATH);
       chomp($word_wx);
       
       if($relation eq "tree"){
          print "<center>";
-         system("$GlblVar::CGIDIR/$GlblVar::SCL_CGI/amarakosha/get_all_rel.pl $word_wx $out_encoding | $GlblVar::GraphvizDot -Tsvg");
+         system("$myPATH/amarakosha/get_all_rel.pl $word_wx $out_encoding | $GlblVar::GraphvizDot -Tsvg");
          print "</center><br>";
       }else {
-         my $str =  "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/amarakosha/relations.pl $dbm_fl_nm{$relation} '$headers{$relation}' $word_wx $out_encoding | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/";
-         if ($out_encoding eq "DEV") { $str .=  "ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1"; } 
+         my $str =  "$myPATH/amarakosha/relations.pl $dbm_fl_nm{$relation} '$headers{$relation}' $word_wx $out_encoding | $myPATH/converters/";
+         if ($out_encoding eq "DEV") { $str .=  "ri_skt | $myPATH/converters/iscii2utf8.py 1"; } 
          elsif ($out_encoding eq "IAST"){ $str .=  "wx2utf8roman.out"; }
          system($str);
      }

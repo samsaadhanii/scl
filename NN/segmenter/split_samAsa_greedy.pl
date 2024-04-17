@@ -2,8 +2,9 @@
 
 BEGIN {require "../../paths.pl";}
 
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
 
-open(TMP,"<$GlblVar::CGIDIR/$GlblVar::SCL_CGI/NN/segmenter/samAsa_rules_sorted.txt") || die "Can't open samAsa_rules_sorted.txt for reading";
+open(TMP,"<$myPATH/NN/segmenter/samAsa_rules_sorted.txt") || die "Can't open samAsa_rules_sorted.txt for reading";
 
 @_ = <TMP>;
 $samAsa_freq = 0;
@@ -42,7 +43,7 @@ foreach $_ (@_) {
    }
 }
 
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/NN/segmenter/nyAya_words.pl";
+require "$myPATH/NN/segmenter/nyAya_words.pl";
 
 $Max_Word_Size=25;
 #$debug = 1;
@@ -190,7 +191,7 @@ sub get_morph_ana{
 # if(-s "/tmp/SKT_TEMP/tt") { $ans = 1;} else { $ans = 0;}
 # print "ans1 = $ans\n"; 
 # system("cat /tmp/SKT_TEMP/tt");
- $ans = `$GlblVar::CGIDIR/$GlblVar::SCL_CGI/NN/segmenter/client_splitter.sh $word1 | grep . | grep -v '\*'| wc -l`;
+ $ans = `$myPATH/NN/segmenter/client_splitter.sh $word1 | grep . | grep -v '\*'| wc -l`;
  if ($ans == 0) { $ans = $?;}
 return $ans;
 }

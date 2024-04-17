@@ -18,11 +18,9 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 use utf8;
-require "CGIDIR/SCL_CGI/paths.pl";
-my $myPATH = "CGIDIR/SCL_CGI/converters";
 
 sub convert{
-        my($encoding,$in_word) = @_;
+        my($encoding,$in_word,$myPATH) = @_;
         chomp($in_word);
 
         $conversion_program = "";

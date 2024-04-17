@@ -23,36 +23,28 @@ use utf8;
 require "../../paths.pl";
 require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
 
-my $myPATH ="$GlblVar::HTDOCSDIR/$GlblVar::SCL_CGI/skt_gen/compounds";
+my $compPATH ="$GlblVar::HTDOCSDIR/$GlblVar::SCL_HTDOCS/skt_gen/compounds";
 
 use warnings;
-#use CGI ':standard';
-
-#my $cgi = new CGI;
-
-#print $cgi->header(-type    => 'text/html',
-#                   -charset => 'utf-8');
 
  print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
   my %param = &get_parameters();
 
-#if (param) {
   my $expert = $param{expert};
 
   if(! (-e "$GlblVar::TFPATH")) { system("mkdir -p $GlblVar::TFPATH");}
   &display_index($expert);
 
-  #}
 
 sub display_index {
  my ($expert) = @_;
     if ($expert eq "No") {
-       system ("cat $myPATH/index_dev.html");
+       system ("cat $compPATH/index_dev.html");
     }
 
     if ($expert eq "Yes") {
-       system ("cat $myPATH/expert.html");
+       system ("cat $compPATH/expert.html");
     }
 }
 1;

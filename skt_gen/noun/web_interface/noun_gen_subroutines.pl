@@ -19,10 +19,10 @@
 
 use utf8;
 require "../../paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert2WX_subroutines.pl";
-
 my $DataPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$DataPATH/cgi_interface.pl";
+#require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert2WX_subroutines.pl";
+
 
 #
 #### List of all pUraNa words

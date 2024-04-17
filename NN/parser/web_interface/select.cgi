@@ -21,10 +21,11 @@ package main;
 #use CGI qw/:standard/;
 
 require "../../paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/cgi_interface.pl";
 
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/NN/common/style.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/NN/parser/functions.pl";
+require "$myPATH/NN/common/style.pl";
+require "$myPATH/NN/parser/functions.pl";
 
 #  my $cgi = new CGI;
 #  print $cgi->header (-charset => 'UTF-8');

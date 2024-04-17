@@ -26,18 +26,11 @@ require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
 my $myPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/compounds";
 
 use warnings;
-#use CGI ':standard';
-
-#my $cgi = new CGI;
-
-#print $cgi->header(-type    => 'text/html',
-#                   -charset => 'utf-8');
 
  print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
   my %param = &get_parameters();
 
- #if (param) {
   my $encoding = $param{encoding};
   my $avigraha = $param{vigraha};
 
@@ -56,4 +49,3 @@ use warnings;
   my $cmd = "$myPATH/samAsaprakAra.out \"$encoding\" \"$avigraha\" \"$p1\" \"$s1\" \"$p2\" \"$s2\" \"$sUwra\"";
   #print "cmd = $cmd";
   system($cmd);
-  #}

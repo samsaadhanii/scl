@@ -20,7 +20,8 @@
 
 use utf8;
 require "../../paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/cgi_interface.pl";
 
 use warnings;
 #use CGI ':standard';
@@ -224,7 +225,7 @@ select{margin-top:10px; width:200px !important; padding:3px !important;}
 	<h3>समस्तपदव्युत्पादिका</h3>   
 	<h3>A Compound stem generator</h3>
 	<h4>Department of Sanskrit Studies, University of Hyderabad.</h4>
-<h3><a href=\"/$GlblVar::CGIDIR/$GlblVar::SCL_CGI/start.html\">Samsaadhanii</a></h3>
+<h3><a href=\"/$myPATH/start.html\">Samsaadhanii</a></h3>
 </center>
 <br /> <br />";
 #print $cgi->start_html(-title => 'समस्त-पद-निर्माण-प्रक्रिया ',
@@ -269,7 +270,7 @@ my $avigraha = "";
           $ch6 = "";
 
 
-  my $a = `echo "$avigraha" | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1`;
+  my $a = `echo "$avigraha" | $myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1`;
 
   if($user_choices =~ /Y$/) { $rem_ques =~ s/^[0-9]+b;//;}
   
@@ -294,8 +295,8 @@ my $avigraha = "";
              my $sup2 = $4;
              my $sutra = $5;
 
-             my $prAwi1 = `echo "$prAwipaxikam1" | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1`; chomp($prAwi1);
-             my $prAwi2 = `echo "$prAwipaxikam2" | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1`; chomp($prAwi2);
+             my $prAwi1 = `echo "$prAwipaxikam1" | $myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1`; chomp($prAwi1);
+             my $prAwi2 = `echo "$prAwipaxikam2" | $myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1`; chomp($prAwi2);
 
              my $associated_question = 0;
    	     $ch_table = "<center><table>";
@@ -337,7 +338,7 @@ sub call_generator{
       print "<br />";
       #print "<div id=\"output2\">";
       print "<center><pre>\n";
-      my $cmd = "echo '$user_choices' | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/compounds/sanskrit_grammar.out \"$avigraha\" 1 | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1";
+      my $cmd = "echo '$user_choices' | $myPATH/skt_gen/compounds/sanskrit_grammar.out \"$avigraha\" 1 | $myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1";
       system($cmd);
       print "</pre></center>\n";
       #print "</div>";

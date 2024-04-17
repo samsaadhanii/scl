@@ -24,10 +24,11 @@
 #use warnings;
 
 require "../../../paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
+my $myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI/";
+require "$myPATH/cgi_interface.pl";
 
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/MT/prog/morph/scripts.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert.pl";
+require "$myPATH/MT/prog/morph/scripts.pl";
+require "$myPATH/converters/convert.pl";
 
 
 #Usage:
@@ -78,9 +79,9 @@ my $format;
 
   print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
-  $word_wx = &convert($encoding,$word,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI");
+  $word_wx = &convert($encoding,$word,$myPATH);
   chomp($word_wx);
-  $ans = `$GlblVar::CGIDIR/$GlblVar::SCL_CGI/MT/prog/morph/webrun_morph.sh $word_wx`;
+  $ans = `$myPATH/MT/prog/morph/webrun_morph.sh $word_wx`;
   chomp($ans);
 
   if($format eq "web") {
@@ -129,7 +130,7 @@ my $format;
 
             if ($ans =~ /kqw_prawyayaH/){
                $ans =~ s/\}([^\{]+)\{/\}\{kqw_prAwipaxikam:$1\}\{/;
-               $link = &handle_kqw($format,$rt,$upasarga,$ans);
+               $link = &handle_kqw($format,$rt,$upasarga,$outencoding,$ans);
                $color = "lavender";
             } elsif ($ans =~ /waxXiwa/){
                #$link = &handle_waxXiwa($format,$rt,$rt_outencoding,$ans); 
@@ -195,7 +196,7 @@ sub logbook{
 }
 
 sub handle_kqw{
-   my($format,$rt,$upasarga,$ans) = @_;
+   my($format,$rt,$upasarga,$outen,$ans) = @_;
    my($link, $rt_XAwu_gaNa, $disp_rt,$disp_rt_outencoding);
 
    chomp($ans);
@@ -209,8 +210,14 @@ sub handle_kqw{
    } else {$disp_rt = $rt;}
 
      $disp_rt_outencoding = &my_convert($disp_rt,$outencoding);
-     if($format eq "web") {$link = "<a href=\"javascript:generate_kqw_forms('WX','$rt_XAwu_gaNa','$upasarga')\">$disp_rt_outencoding</a>";}
-     else { $link = "\"APP\":\"kqw\",\"encoding\":\"WX\",\"rt\":\"$rt_XAwu_gaNa\",\"upasarga\":\"$upasarga\",\"RT\":\"$disp_rt_outencoding\"";}
+	#open (TMP,">/tmp/ab");
+	#print TMP $disp_rt_encoding;
+	#print TMP $rt_XAwu_gaNa;
+	#print TMP $upasarga;
+	#print TMP $format;
+	#close(TMP);
+     if($format eq "web") {$link = "<a href=\"javascript:generate_kqw_forms('WX','$rt_XAwu_gaNa','$upasarga','$outencoding')\">$disp_rt_outencoding</a>";}
+     else { $link = "\"APP\":\"kqw\",\"encoding\":\"WX\",\"rt\":\"$rt_XAwu_gaNa\",\"upasarga\":\"$upasarga\",\"outencoding\":\"$outencoding\",\"RT\":\"$disp_rt_outencoding\"";}
 
 $link;
 }
@@ -265,9 +272,9 @@ sub my_convert {
     my($rt,$outencoding) = @_;
     my($rt_outencoding);
           if ($outencoding eq "IAST") {
-              $rt_outencoding = `echo $rt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8roman.out`;
+              $rt_outencoding = `echo $rt | $myPATH/converters/wx2utf8roman.out`;
           } else {
-              $rt_outencoding = `echo $rt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8.sh $GlblVar::CGIDIR/$GlblVar::SCL_CGI`;
+              $rt_outencoding = `echo $rt | $myPATH/converters/wx2utf8.sh $myPATH`;
           }
     $rt_outencoding;
 }

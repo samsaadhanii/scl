@@ -23,10 +23,9 @@ package main;
 use utf8;
 
 require "../../paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/kqw/kqw_gen_subroutines.pl";
-
-my $myPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/noun";
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/cgi_interface.pl";
+require "$myPATH/skt_gen/kqw/kqw_gen_subroutines.pl";
 
   if($GlblVar::LOG eq "true"){
     if (! (-e "$GlblVar::TFPATH")){
@@ -64,6 +63,8 @@ my $myPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/noun";
         #print "kqw_prawyaya = $kqw_prawyaya\n";
         #print "XAwu = $XAwu\n";
         #print "gaNa = $gaNa\n";
+        #print "encoding = $encoding\n";
+        #print "outencoding = $encoding\n";
 
 	my @forms= &gen_kqwnoun_forms($prAwi,$gen,$rt, $upasarga,$kqw_prawyaya, $XAwu, $gaNa, $encoding, $encoding);
         print @forms;

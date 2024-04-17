@@ -19,12 +19,13 @@
 
 use utf8;
 require "../paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
+$myPATHS="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/cgi_interface.pl";
 
 package main;
 
 
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert.pl";
+require "$myPATH/converters/convert.pl";
 
 
   my $conversion_program;
@@ -43,12 +44,12 @@ require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert.pl";
   if ($out_encoding eq "IAST") { $script = "IAST";}
 
   if ($out_encoding eq "IAST") {
-      $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8roman.out";
+      $conversion_program = "$myPATH/converters/wx2utf8roman.out";
   } else {
-      $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1";
+      $conversion_program = "$myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1";
   }
 
-  $shloka_wx=&convert($encoding,$shloka,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI");
+  $shloka_wx=&convert($encoding,$shloka,$myPATH);
   chomp($shloka_wx);
   open (TMP,">/tmp/a");
   print TMP $shloka_wx;

@@ -19,12 +19,13 @@
 
 use utf8;
 require "../paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/cgi_interface.pl";
 
 package main;
 
 
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert.pl";
+require "$myPATH/converters/convert.pl";
 
 
   my %param = &get_parameters();
@@ -38,7 +39,7 @@ require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert.pl";
   if ($out_encoding eq "Devanagari") { $script = "DEV";}
   if ($out_encoding eq "IAST") { $script = "IAST";}
 
-  $shloka_wx=&convert($encoding,$shloka,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI");
+  $shloka_wx=&convert($encoding,$shloka,"$myPATH");
   chomp($shloka_wx);
   open (TMP,">/private/tmp/a");
   print TMP $shloka_wx;

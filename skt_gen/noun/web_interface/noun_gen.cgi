@@ -19,10 +19,12 @@
 
 use utf8;
 require "../../paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert2WX_subroutines.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/noun/noun_gen_subroutines.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/MT/prog/Normalisation/get_std_spelling_fn.pl";
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+
+require "$myPATH/cgi_interface.pl";
+require "$myPATH/converters/convert.pl";
+require "$myPATH/skt_gen/noun/noun_gen_subroutines.pl";
+require "$myPATH/MT/prog/Normalisation/get_std_spelling_fn.pl";
 
 #
 ###################  Main function #################
@@ -60,13 +62,13 @@ package main;
            print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
          }
 
-	$rt_wx = &convert($encoding,$rt);
+	$rt_wx = &convert($encoding,$rt,$myPATH);
 	$rt_new = &get_std_spelling_fn($rt_wx);
 
 	if ($outencoding eq "IAST") {
-	 $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8roman.out";
+	 $conversion_program = "$myPATH/converters/wx2utf8roman.out";
 	} else {
-	 $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1";
+	 $conversion_program = "$myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1";
 	}
 
 	my @forms= &gen_noun_forms($rt_new,$jAwi,$gen,$level,$format,$conversion_program,$outencoding);

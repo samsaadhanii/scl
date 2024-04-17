@@ -21,12 +21,13 @@
 
 use utf8;
 require "../../paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/cgi_interface.pl";
 
 
-my $myPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/compounds";
-require "$myPATH/cnvrt2utf.pl";
-require "$myPATH/cnvrt2utfr.pl";
+my $compPATH = "$myPATH/skt_gen/compounds";
+require "$compPATH/cnvrt2utf.pl";
+require "$compPATH/cnvrt2utfr.pl";
 
 use warnings;
 #use CGI ':standard';
@@ -87,6 +88,6 @@ use warnings;
 #      }
   }
       $p1pUrva = $pUrvapaxastr;
-      $cmd = "$myPATH/uwwarapaxa.out \"$encodingpUrva\" \"$p1pUrva\" \"$p2pUrva\" \"$samAsAnwapUrva\" \"$samAsaprakArapUrva\" $dividpUrva";
+      $cmd = "$compPATH/uwwarapaxa.out \"$encodingpUrva\" \"$p1pUrva\" \"$p2pUrva\" \"$samAsAnwapUrva\" \"$samAsaprakArapUrva\" $dividpUrva";
       system($cmd);
       #}

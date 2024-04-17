@@ -19,8 +19,9 @@
 
 use utf8;
 require "../../paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/verb/gen_verb.pl";
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/cgi_interface.pl";
+require "$myPATH/skt_gen/verb/gen_verb.pl";
 
 package main;
 #use CGI qw/:standard/;
@@ -60,7 +61,7 @@ package main;
            print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
          }
 
-      #my $result = `$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/verb/gen_verb.pl $encoding $outencoding $prayoga $upasarga $word $paxI web`;
+      #my $result = `$myPATH/skt_gen/verb/gen_verb.pl $encoding $outencoding $prayoga $upasarga $word $paxI web`;
       #print $result;
 
       my @forms = &gen_verb_forms($encoding,$outencoding,$prayoga,$upasarga,$word,$paxI,$format);

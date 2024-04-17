@@ -24,8 +24,9 @@
 use Encode qw/ decode /;
 
 require "../paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/MT/get_dict_entry.pl";
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/cgi_interface.pl";
+require "$myPATH/MT/get_dict_entry.pl";
 
 package main;
 
@@ -63,7 +64,7 @@ if($dic_name eq "mw") {
 }
 
 if($dic_name eq "heritage") {
-			$w = `echo $sword | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/utf82wx.sh $GlblVar::CGIDIR/$GlblVar::SCL_CGI | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx-velthuis.out`;
+			$w = `echo $sword | $myPATH/converters/utf82wx.sh $myPATH | $myPATH/converters/wx-velthuis.out`;
         chomp($w);
         $w =~ s/[ \t\n]//g;
 		          if($result =~ /<a class=\"navy\" name=\"$w#/){

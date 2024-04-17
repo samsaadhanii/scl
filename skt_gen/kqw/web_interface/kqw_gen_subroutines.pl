@@ -21,7 +21,7 @@ use utf8;
 require "../../paths.pl";
 my $myPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
 require "$myPATH/cgi_interface.pl";
-require "$myPATH/converters/convert2WX_subroutines.pl";
+require "$myPATH/converters/convert.pl";
 
 
 my $generator = "$GlblVar::LTPROCBIN -cg $myPATH/morph_bin/kqw_gen.bin";
@@ -92,6 +92,9 @@ $LTPROC_IN = "";
     $upa_wx =~ s/Y/_/g;
     ($rt,$XAwu,$gaNa,$mean) = split(/_/,$rt_wx);
     #print "gaNa = $gaNa\n";
+    #print "XAwu = $XAwu\n";
+    #print "rt = $rt\n";
+    #print "outencoding = $outencoding\n";
     if($upa_wx ne "-") { $upasargastr = "<upasarga:$upa_wx>";} else {$upasargastr = "";}
     for($l=0;$l<13;$l++) {
        for($g=0;$g<3;$g++) {
@@ -119,6 +122,12 @@ $LTPROC_IN = "";
     $str = "echo '".$LTPROC_IN."' | $generator | sed '1,\$s/#.*/-/g' | grep . | $conversion_program | $myPATH/skt_gen/kqw/json_format.pl $outencoding $upa_wx";
  }
  else {# $format = web
+         
+    #print "gaNa = $gaNa\n";
+    #print "XAwu = $XAwu\n";
+    #print "rt = $rt_wx\n";
+    #print "upa = $upa_wx\n";
+    #print "outencoding  = $outencoding \n";
 	 $str = "echo '".$LTPROC_IN."' | $generator | sed '1,\$s/#.*/-/g' | grep . | pr -3 -a -t -w 150 | tr ' ' '\t' | $conversion_program | $myPATH/skt_gen/kqw/html_format.pl $rt_wx $upa_wx $outencoding $XAwu $gaNa";
 	 #$str = "echo '".$LTPROC_IN."' | $generator ";
 	 #$LTPROC_IN =~ s/</;/g;
@@ -141,14 +150,30 @@ sub gen_kqwnoun_forms{
 ## This produces an error, which I could not fix, with the forms of karwA in kq1 and kq3 - wqc suxxif
 my $generator = "$GlblVar::LTPROCBIN -cg $myPATH/morph_bin/kqw_gen.bin";
 
+
+#print "prAwi = $prAwi\n";
+#print "lifga = $lifga\n";
+#print "rt = $rt\n";
+#print "upasarga = $upasarga\n";
+#print "kqw_prawyaya = $kqw_prawyaya\n";
+#print "XAwu = $XAwu\n";
+#print "gaNa = $gaNa\n";
 my @vacanam = ("eka","xvi","bahu");
 
  if ($encoding eq "DEV") { $encoding = "Unicode";}
- $prAwi_wx=&convert($encoding,$prAwi,$myPATH);
- $kqw_prawyaya_wx=&convert($encoding,$kqw_prawyaya,$myPATH);
- chomp($prAwi_wx);
- chomp($kqw_prawyaya_wx);
 
+# ### This is temporary fix. The input encoding and output encoding parameters are not being passed properly, when the kqw forms are generated starting from the morpjh analysis -> kqw -> kqwnoun
+ if($prAwi =~ /^[a-zA-Z]+$/) { $prAwi_wx = $prAwi;} ## --> Temp fix
+ else {  
+   $prAwi_wx=&convert($encoding,$prAwi,$myPATH);
+   chomp($prAwi_wx);
+ }
+ if($kqw_prawyaya =~ /^[a-zA-Z_]+$/) { $kqw_prawyaya_wx = $kqw_prawyaya;} ## --> Temp fix
+ else {  
+   $kqw_prawyaya_wx=&convert($encoding,$kqw_prawyaya,$myPATH);
+   chomp($kqw_prawyaya_wx);
+ }
+#######################
  if ($outencoding eq "IAST") {
         $conversion_program = "$myPATH/converters/wx2utf8roman.out";
  } else {
@@ -181,9 +206,9 @@ my @vacanam = ("eka","xvi","bahu");
 
  $str = "echo '".$LTPROC_IN."' | $generator | grep . | pr -3 -a -t  | tr ' ' '\t' | $conversion_program  | $myPATH/skt_gen/noun/html_format.pl '' $prAwi_wx $lifga $outencoding";
  
-open (T,">/tmp/1111");
-print T $str;
-close(T);
+#open (T,">/tmp/1111");
+#print T $str;
+#close(T);
 
  my @out = `$str`;
  if ($out[0] =~ /\*/) { print "Word Forms Could not be generated\n";}

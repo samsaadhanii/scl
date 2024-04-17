@@ -19,8 +19,9 @@
 
 use utf8;
 require "../../paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert.pl";
+$myPATH=""$GlblVar::CGIDIR/$GlblVar::SCL_CGI;
+require "$myPATH/cgi_interface.pl";
+require "$myPATH/converters/convert.pl";
 
 package main;
 
@@ -69,16 +70,16 @@ sub gen_waxXiwa_noun {
 
 @vacanam = ("eka","xvi","bahu");
 
- $lifga_wx=&convert($encoding,$gen,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI");
- $suffix_wx=&convert($encoding,$suffix,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI");
+ $lifga_wx=&convert($encoding,$gen,$myPATH);
+ $suffix_wx=&convert($encoding,$suffix,$myPATH);
 
  chomp($rt_wx);
  chomp($lifga_wx);
  chomp($suffix_wx);
 
- $rtutf8 = `echo $rt_wx | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1`;
+ $rtutf8 = `echo $rt_wx | $myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1`;
  
- $generator = "$GlblVar::LTPROCBIN -cg $GlblVar::CGIDIR/$GlblVar::SCL_CGI/morph_bin/skt_taddhita_gen.bin";
+ $generator = "$GlblVar::LTPROCBIN -cg $myPATH/morph_bin/skt_taddhita_gen.bin";
 
  $LTPROC_IN = "";
  for($vib=1;$vib<9;$vib++){
@@ -92,7 +93,7 @@ sub gen_waxXiwa_noun {
  #print TMP $LTPROC_IN;
  #close (TMP);
 
- $str = "echo '".$LTPROC_IN."' | $generator | grep . | pr -3 -a -t | tr ' ' '\t' | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1| $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/waxXiwa/html_format.pl $rt_wx $lifga_wx $encoding";
+ $str = "echo '".$LTPROC_IN."' | $generator | grep . | pr -3 -a -t | tr ' ' '\t' | $myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1| $myPATH/skt_gen/waxXiwa/html_format.pl $rt_wx $lifga_wx $encoding";
  system($str);
 }
 1;

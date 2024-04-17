@@ -26,11 +26,12 @@ my $out_encoding = $ARGV[3];
 
 my(%LEX,%LEX1,%LEX2,%LEX3,$head,$vargaH,$synset,$heading_info,$relata_info,$synset_info);
 
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/MT/prog/morph/scripts.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert.pl";
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/MT/prog/morph/scripts.pl";
+require "$myPATH/converters/convert.pl";
 
 
-open(TMP,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI/amarakosha/DBM/all_kANdas") || die "can't open DBM/all_kANdas";
+open(TMP,"$myPATH/amarakosha/DBM/all_kANdas") || die "can't open DBM/all_kANdas";
 $key = 0;
 $value = 4;
 while(<TMP>) {
@@ -51,7 +52,7 @@ while(<TMP>) {
 }
 close(TMP);
 
-open(TMP,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI/amarakosha/DBM/all_kANdas") || die "can't open DBM/all_kANdas";
+open(TMP,"$myPATH/amarakosha/DBM/all_kANdas") || die "can't open DBM/all_kANdas";
 #Fields: Word(0), Reference(1), Gender(2), Varga(3), Head_word(4), is_a_part_of(5), is_a_kind_of(6), janya_janaka(7), pawi_pawnI(8), svasvAmI(9), vESiRtya(10), saMbanXiwa(11), vqwwi(12), English name(13),
 
 while(<TMP>) {
@@ -69,7 +70,7 @@ while(<TMP>) {
 close(TMP);
 
 if($rel_dbm ne "NULL") {
-open(TMP,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI/amarakosha/DBM/all_kANdas");
+open(TMP,"$myPATH/amarakosha/DBM/all_kANdas");
 if($rel_dbm eq "onto") {
 while(<TMP>) {
   chomp;
@@ -126,7 +127,7 @@ close(TMP);
 }
 
 if($rel_dbm eq "onto") {
-   open(TMP,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI/amarakosha/DBM/rules_onto") || die "can't open DBM/rules_onto";
+   open(TMP,"$myPATH/amarakosha/DBM/rules_onto") || die "can't open DBM/rules_onto";
 while(<TMP>) {
   chomp;
   @flds = split(/,/,$_);
@@ -148,9 +149,9 @@ while(<TMP>) {
   if($rel_dbm eq "NULL") { print "<\@center>$heading_info</\@center>"; }
 
   if($LEX{$word} eq "") {
-     $out = `$GlblVar::CGIDIR/$GlblVar::SCL_CGI/amarakosha/shw_stem.pl $word | /usr/bin/sort -u`;
+     $out = `$myPATH/amarakosha/shw_stem.pl $word | /usr/bin/sort -u`;
      if ($out) {
-        ` echo $out | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/amarakosha/showMsg.pl $rel_dbm $out_encoding`;
+        ` echo $out | $myPATH/amarakosha/showMsg.pl $rel_dbm $out_encoding`;
      } else {print "\@Could \@not \@find $word \@in \@the \@Amarakosha\n";}
   } else {
     @head = split(/::/,$LEX{$word});
@@ -273,7 +274,7 @@ sub get_sloka_info1{
 		foreach $nums (@nums){
 		$nums =~ /([0-9]+\.[0-9]+\.[0-9]+)\.*/; $s = $1;
 		$count = 0;
-		die "can't open file for reading $!" unless open(TMP,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI/amarakosha/amara.wx");
+		die "can't open file for reading $!" unless open(TMP,"$myPATH/amarakosha/amara.wx");
            	 while(my $in = <TMP>){
 			chomp $in;
 			if($in =~ /<Sloka_$s>/ and $count ==0){  $result .= $in; $count =1; }

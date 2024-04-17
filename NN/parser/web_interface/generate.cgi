@@ -25,10 +25,11 @@ use utf8;
 use Encode qw/ decode /;
 
 require "../../paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/NN/common/style.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/NN/parser/functions.pl";
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/cgi_interface.pl";
+require "$myPATH/converters/convert.pl";
+require "$myPATH/NN/common/style.pl";
+require "$myPATH/NN/parser/functions.pl";
 
 #     my $cgi = new CGI;
 #     print $cgi->header (-charset => 'UTF-8');
@@ -45,15 +46,15 @@ require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/NN/parser/functions.pl";
         $pid = $$;
 
         system("mkdir -p $GlblVar::TFPATH/NN/parser");
-        $text=&convert($encoding,$text,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI");
+        $text=&convert($encoding,$text,$myPATH);
         chomp($text);
         $text = &get_canonical_form($text);
 
         $filepath="$GlblVar::TFPATH/NN/parser/tmp_in$pid";
         system("mkdir -p $filepath");
      
-        #system("echo $text | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/NN/parser/nneparse.out | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8.sh > $filepath/out.txt");
-        system("echo $text | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/NN/parser/prepare_parse_table.pl | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1 > $filepath/out.txt");
+        #system("echo $text | $myPATH/NN/parser/nneparse.out | $myPATH/converters/wx2utf8.sh > $filepath/out.txt");
+        system("echo $text | $myPATH/NN/parser/prepare_parse_table.pl | $myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1 > $filepath/out.txt");
 
    	print "<center>";
 	print $NN::instructions;
@@ -67,7 +68,7 @@ require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/NN/parser/functions.pl";
 
         if(!$more_choices){
            $ans = &get_parsed_string($rel,$filename);
-           #system("cd $filepath; $GlblVar::CGIDIR/$GlblVar::SCL_CGI/NN/parser/mk_tree.out < in > in.tex; xelatex in.tex > /dev/null;");
+           #system("cd $filepath; $myPATH/NN/parser/mk_tree.out < in > in.tex; xelatex in.tex > /dev/null;");
            #&tail($ans,"tmp_in$pid/in.pdf");
            &NN::tail($ans);
           } else { print "<div id=\"navigation\"></div>";}

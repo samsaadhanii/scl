@@ -18,9 +18,10 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 use utf8;
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/convert2WX_subroutines.pl";
+$myPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/paths.pl";
+require "$myPATH/cgi_interface.pl";
+require "$myPATH/convert2WX_subroutines.pl";
 
 package main;
 
@@ -29,5 +30,5 @@ package main;
         my $word=$param{word};
 	my($out_word);
 	
-	$out_word = &convert($encoding,$word);
+	$out_word = &convert($encoding,$word,$myPATH);
 	print $out_word;

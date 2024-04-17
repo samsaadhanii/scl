@@ -19,8 +19,9 @@
 
 use utf8;
 require "../../paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/kqw/kqw_gen_subroutines.pl";
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/cgi_interface.pl";
+require "$myPATH/skt_gen/kqw/kqw_gen_subroutines.pl";
 
 
 #Usage:
@@ -28,7 +29,7 @@ require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/kqw/kqw_gen_subroutines.pl";
 #
 ###################  Main function #################
 #
-package main;
+#package main;
 
 	my $format="web";
 	my %param = &get_parameters();
@@ -50,9 +51,9 @@ package main;
          }
 
 	if ($outencoding eq "IAST") {
-	 $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8roman.out";
+	 $conversion_program = "$myPATH/converters/wx2utf8roman.out";
 	} else {
-	 $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1";
+	 $conversion_program = "$myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1";
 	}
 
 	my @forms= &gen_kqw_forms($vb,$upasarga,$format,$conversion_program,$outencoding);

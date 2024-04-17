@@ -23,27 +23,18 @@ $| = 1;
 
 #use utf8;
 require "../../paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
+$myPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/cgi_interface.pl";
 
-
-my $myPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/compounds/";
-
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/compounds/cnvrt2utf.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/compounds/cnvrt2utfr.pl";
+require "$myPATH/skt_gen/compounds/cnvrt2utf.pl";
+require "$myPATH/skt_gen/compounds/cnvrt2utfr.pl";
 
 use warnings;
-#use CGI ':standard';
-
-#my $cgi = new CGI;
-
-#print $cgi->header(-type    => 'text/html',
-#                   -charset => 'utf-8');
 
  print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
   my %param = &get_parameters();
 
-#if (param) {
   my $encodingsamAsAnwa = $param{encodingsamAsAnwa};
   my $avigrahasamAsAnwa = $param{vigrahasamAsAnwa};
   my $p1samAsAnwa = $param{p1samAsAnwa};
@@ -117,6 +108,5 @@ use warnings;
         print "<td><font color=\"green\"> प्रातिपदिकसंज्ञा</font></td>";
         print "<td><font color=\"red\"> कृत्तद्धितसमासाश्च 1.2.46</font></td>";
       }
-      my $cmd = "$myPATH/upasarjana.out \"$encodingsamAsAnwa\" \"$avigrahasamAsAnwa\" \"$p1samAsAnwa\" \"$s1samAsAnwa\" \"$p2samAsAnwa\" \"$s2samAsAnwa\" \"$viXAyakasUwrasamAsAnwa\" \"$samAsaprakArasamAsAnwa\" \"$samAsAnwa\"";
+      my $cmd = "$myPATH/skt_gen/compounds/upasarjana.out \"$encodingsamAsAnwa\" \"$avigrahasamAsAnwa\" \"$p1samAsAnwa\" \"$s1samAsAnwa\" \"$p2samAsAnwa\" \"$s2samAsAnwa\" \"$viXAyakasUwrasamAsAnwa\" \"$samAsaprakArasamAsAnwa\" \"$samAsAnwa\"";
       system($cmd);
-      #}

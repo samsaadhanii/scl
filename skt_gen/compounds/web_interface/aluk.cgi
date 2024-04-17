@@ -20,10 +20,11 @@
 
 use utf8;
 require "../../paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
+$myPATH= "$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/cgi_interface.pl";
 
-my $myPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/compounds";
-require "$myPATH/cnvrt2utfr.pl";
+my $compPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/compounds";
+require "$compPATH/cnvrt2utfr.pl";
 
 use warnings;
 #use CGI ':standard';
@@ -67,11 +68,11 @@ my %param = &get_parameters();
          print "<font color = \"red\"> $sUwraaluk </font> <br/>";
        }
     }
-      $cmd = "$myPATH/alukkArya.out \"$encodingaluk\" \"$p1aluk\" \"$s1aluk\" \"$p2aluk\" \"$s2aluk\"";
+      $cmd = "$compPATH/alukkArya.out \"$encodingaluk\" \"$p1aluk\" \"$s1aluk\" \"$p2aluk\" \"$s2aluk\"";
       system($cmd);
   }
   if ($alukviBARA ne "1") {  # Do non-aluk kArya
-      $cmd = "$myPATH/nonalukkArya.out \"$encodingaluk\" \"$p1aluk\" \"$s1aluk\" \"$p2aluk\" \"$s2aluk\" \"$samAsAnwaaluk\" \"$samAsaprakAraaluk\" $dividaluk";
+      $cmd = "$compPATH/nonalukkArya.out \"$encodingaluk\" \"$p1aluk\" \"$s1aluk\" \"$p2aluk\" \"$s2aluk\" \"$samAsAnwaaluk\" \"$samAsaprakAraaluk\" $dividaluk";
       system($cmd);
   }
   #}

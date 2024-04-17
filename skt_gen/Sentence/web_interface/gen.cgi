@@ -20,7 +20,8 @@
 use utf8;
 
 require "../../paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/cgi_interface.pl";
 
 #use CGI qw/:standard/;
 
@@ -30,7 +31,7 @@ my %param = &get_parameters();
 
       open(TMP,"<$anal_fl");
       @in = <TMP>;
-      $input = `echo "@in" | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/Sentence/input_from_parsed_struct.pl`;
+      $input = `echo "@in" | $myPATH/skt_gen/Sentence/input_from_parsed_struct.pl`;
       close(TMP);
       #}
 
@@ -44,7 +45,7 @@ print <<FIRSTPART;
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/$GlblVar::SCL_HTDOCS/skt_gen/Sentence/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="/$GlblVar::SCL_HTDOCS/skt_gen/Sentence/bootstrap/jquery/jquery.min.js"></script>
+  <script src="/$myPATH/bootstrap/jquery/jquery.min.js"></script>
   <script src="/$GlblVar::SCL_HTDOCS/skt_gen/Sentence/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
 <script type="text/javascript">

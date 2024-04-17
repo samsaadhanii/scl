@@ -19,12 +19,16 @@
 
 require "../../paths.pl";
 
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/converters/convert.pl";
 
 @kqw_prawyayaH = ("तृच्","तव्यत्","शतृ_लट्","शानच्_लट्_कर्तरि","शानच्_लट्_कर्मणि","घञ्","ण्वुल्","ण्यत्","ल्युट्","यत्","क्त","क्तवतु","अनीयर्");
 @kqw_avy_prawyayaH = ("तुमुन्","णमुल्","क्त्वा");
 @kqw_avy_upa_prawyayaH = ("तुमुन्","णमुल्","ल्यप्");
 @lifga = ("पुं","स्त्री","नपुं");
 @lifga_wx = ("puM","swrI","napuM");
+
+@kqw_prawyayaH_wx = ("wqc","wavyaw","Sawq_lat","SAnac_lat_karwari","SAnac_lat_karmaNi","GaF","Nvul","Nyaw","lyut","yaw","kwa","kwavawu","anIyar");
 
 @kqw_prawyayaH_IAST = ("tṛc","tavyat","śatṛ_laṭ","śānac_laṭ_kartari","śānac_laṭ_karmaṇi","ghañ","ṇvul","ṇyat","lyuṭ","yat","kta","ktavatu","anīyar");
 @kqw_avy_prawyayaH_IAST = ("tumun","ṇamul","ktvā");
@@ -46,12 +50,11 @@ my $XAwu = $ARGV[3];
 my $gaNa = $ARGV[4];
 
 if ($outencoding eq "IAST") {
-         $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8roman.out";
+         $conversion_program = "$myPATH/converters/wx2utf8roman.out";
  } else {
-         $conversion_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1";
+         $conversion_program = "$myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1";
 	 $outencoding = "DEV";
  }
-
 
    $word =~ /^([^_]+).*/;
    $rt = $1;
@@ -95,13 +98,19 @@ while($in = <STDIN>){
         $k = $kqw_prawyayaH[$line_no];
      }
      print $k;
+	$k_wx = $kqw_prawyayaH_wx[$line_no];
      print "</font></td>\n";
      for ($c=0;$c<3;$c++){
         print "<td align=\"center\" bgcolor='#E6CCFF'>\n";
         print "<font color=\"black\" size=\"4\">\n";
         if ($in[$c] eq "-" ) { print "$in[$c]</font></td>\n";}
         else {
-           print "<a href=\"javascript:generate_kqwnoun_forms('$in[$c]','$rt','$upa','$k','$XAwu','$gaNa','$lifga_wx[$c]','$outencoding','$outencoding')\">$in[$c]</a></font></td>\n";
+	   if($outencoding="DEV") { $outencoding="Unicode";}
+	   $in = &convert($outencoding,$in[$c],$myPATH);
+	   #print "in = ",$in[$c];
+	   #print "out = ",$in;
+	   #print "encoding = ",$outencoding;
+           print "<a href=\"javascript:generate_kqwnoun_forms('$in','$rt','$upa','$k_wx','$XAwu','$gaNa','$lifga_wx[$c]','$outencoding','$outencoding')\">$in[$c]</a></font></td>\n";
         }
       }
      } else {
@@ -185,7 +194,7 @@ sub join {
 	$sandhi =~ s/u[uU]/U/;
 	$sandhi =~ s/[1-5]//;
 
-        #$ans = `echo $sandhi | $GlblVar::SCLINSTALLDIR/converters/ri_skt | $GlblVar::SCLINSTALLDIR/converters/iscii2utf8.py 1`;
+        #$ans = `echo $sandhi | $myPATH | $myPATH/converters/iscii2utf8.py 1`;
 	#$ans;
 	$sandhi;
 }

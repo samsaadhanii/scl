@@ -29,7 +29,7 @@ function callmorphanalyser(){
                }
                else{
                		$("#output").html("कृपया प्रतीक्ष्यताम्....");
-               		$.post("/cgi-bin/SCL_CGI/MT/prog/morph/morph.cgi",{"morfword":$("#morphword").val(),"encoding":$("#encoding").val(),"outencoding":$("#outencoding").val()},function(data){
+               		$.post("/cgi-bin/SCL_CGI/MT/prog/morph/morph.cgi",{"mode":$("mode").val(),"morfword":$("#morphword").val(),"encoding":$("#encoding").val(),"outencoding":$("#outencoding").val()},function(data){
                		
                			$("#output").html(data);
                		});
@@ -64,8 +64,6 @@ if($("#text").val()==""){
 function callsandhisplitter(){
   var x = document.getElementById("encoding").value;
   var y = document.getElementById("word").value;
-  var z = document.getElementById("outencoding").value;
-  var w = document.getElementById("mode").value;
   if (avalidationwithspace(x,y) == 1){return false;}
   
 if($("#word").val()==""){

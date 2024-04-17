@@ -18,7 +18,8 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 require "../../paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/convert.pl";
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/converters/convert.pl";
 
 package main;
 #use CGI qw/:standard/;
@@ -27,7 +28,7 @@ package main;
 @person = ("pra","ma","u");
 @vacanam = ("eka","xvi","bahu");
 
-$generator = "$GlblVar::LTPROCBIN -cg $GlblVar::CGIDIR/$GlblVar::SCL_CGI/morph_bin/wif_gen.bin";
+$generator = "$GlblVar::LTPROCBIN -cg $myPATH/morph_bin/wif_gen.bin";
 $ltproc_cmd = "$generator | sed '1,\$s/#.*/-/g' | grep . | pr -3 -a -t -w 300| tr ' ' '\t'" ;
 
  sub gen_verb_forms {
@@ -36,19 +37,19 @@ $ltproc_cmd = "$generator | sed '1,\$s/#.*/-/g' | grep . | pr -3 -a -t -w 300| t
 
 
  if ($outencoding eq "IAST") {
-         $conv_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/wx2utf8roman.out";
+         $conv_program = "$myPATH/converters/wx2utf8roman.out";
  } else {
-         $conv_program = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/ri_skt | $GlblVar::CGIDIR/$GlblVar::SCL_CGI/converters/iscii2utf8.py 1";
+         $conv_program = "$myPATH/converters/ri_skt | $myPATH/converters/iscii2utf8.py 1";
  	 $outencoding = "DEV";
  }
 
 
  if($encoding ne "WX"){
-   $rt_XAwu_gaNa_mng = &convert($encoding,$rt,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI");
+   $rt_XAwu_gaNa_mng = &convert($encoding,$rt,"$myPATH");
    chomp($rt_XAwu_gaNa_mng);
-   $prayogaH = &convert($encoding,$prygH,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI");
+   $prayogaH = &convert($encoding,$prygH,"$myPATH");
    chomp($prayogaH);
-   $upasarga = &convert($encoding,$upasarga,"$GlblVar::CGIDIR/$GlblVar::SCL_CGI");
+   $upasarga = &convert($encoding,$upasarga,"$myPATH");
    chomp($upasargaH);
  } else { $rt_XAwu_gaNa_mng = $rt; $prayogaH = $prygH; }
 
@@ -208,10 +209,10 @@ sub gen_verb_forms_paxI {
   $LTPROC_IN = &get_generator_string($rt,$upasargastr,$sanAxi,$prayogaH,$XAwu,$gaNa,$paxI);
 
   if ($format eq "web") {
-     $str = "echo '".$LTPROC_IN."' | $ltproc_cmd | $conv_program |$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/verb/verb_format_html.pl $outencoding";
+     $str = "echo '".$LTPROC_IN."' | $ltproc_cmd | $conv_program |$myPATH/skt_gen/verb/verb_format_html.pl $outencoding";
      system($str);
   } else { # if $format = "json"
-     $str = "echo '".$LTPROC_IN."' | $ltproc_cmd | $conv_program |$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/verb/verb_format_json.pl $outencoding";
+     $str = "echo '".$LTPROC_IN."' | $ltproc_cmd | $conv_program |$myPATH/skt_gen/verb/verb_format_json.pl $outencoding";
      system($str);
   }
 

@@ -21,12 +21,13 @@
 
 use utf8;
 require "../../paths.pl";
-require "$GlblVar::CGIDIR/$GlblVar::SCL_CGI/cgi_interface.pl";
+$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+require "$myPATH/cgi_interface.pl";
 
 
-$myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI/skt_gen/compounds";
-require "$myPATH/cnvrt2utf.pl";
-require "$myPATH/cnvrt2utfr.pl";
+$compPATH="$myPATH/skt_gen/compounds";
+require "$compPATH/cnvrt2utf.pl";
+require "$compPATH/cnvrt2utfr.pl";
 
 use warnings;
 #use CGI ':standard';
