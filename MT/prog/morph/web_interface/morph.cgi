@@ -36,31 +36,31 @@ require "$myPATH/converters/convert.pl";
 #Outencoding: IAST/DEV
 
 #Declaration of all the variables
-my $word;
-my $word_wx;
+my $word = "";
+my $word_wx = "";
 my $ans="";
 my $ans_outencoding = "";
 my $encoding="";
 my $outencoding="";
-my $rt;
-my $rt_outencoding;
-my $rt_XAwu_gaNa;
-my $XAwu;
-my $gaNa;
-my $lifga;
-my $link;
-my $upasarga;
-my $prayogaH;
-my $color;
-my $disp_rt;
-my $paxI;
+my $rt = "";
+my $kqw_rt = "";
+my $rt_XAwu_gaNa = "";
+my $XAwu = "";
+my $gaNa = "";
+my $lifga = "";
+my $link = "";
+my $upasarga = "";
+my $prayogaH = "";
+my $color = "";
+my $disp_rt = "";
+my $paxI = "";
 my $i;
 my @ans;
 my $mode = "";
 my $k;
-my $format;
 
-  $format = "web";
+my $format="web";
+
   my %param = &get_parameters();
     $mode = $param{mode};
     $word = $param{morfword};
@@ -80,7 +80,6 @@ my $format;
   print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
   $word_wx = &convert($encoding,$word,$myPATH);
-  chomp($word_wx);
   $ans = `$myPATH/MT/prog/morph/webrun_morph.sh $word_wx`;
   chomp($ans);
 
@@ -102,23 +101,15 @@ my $format;
        for($k=0;$k<=$#ans;$k++){
           $ans = $ans[$k];
           if ($format eq "JSON") { print "{";}
-          if($ans =~ /^[^{]+{level:4}/) { $ans =~ s/^[^{]+{level:4}//;}
-        # Why only level 4 entry in the beginning is deleted, why not all?
-          if($ans =~ /level:[0123]/) { $ans =~ s/{level:[0123]}//;}
-         # if($ans =~ /level:2/) { $ans =~ s/level:2/kqxanwa/;}
-         # if($ans =~ /level:3/) { $ans =~ s/level:3/waxXiwa/;}
+          if($ans =~ /level:[01234]/) { $ans =~ s/{level:[01234]}//;}
 
-	  #print "ans = $ans\n";
           if ($ans =~ /^([^{ ]+)([ {])/) { 
               $ans =~ s/^([^{ ]+)([ {])/$2/;  # Remove rt from the ans; since we need to provide a link to it in web version.
               $rt = $1;
-          } elsif ($ans =~ /{kqw_XAwu:([^}]+)}/){
-             $ans =~ s/{kqw_XAwu:([^}]+)}//;
-             $rt = $1;
+          } elsif ($ans =~ /^{kqw_XAwu/){
+              $ans =~ s/^{kqw_XAwu:([^}]+)//;  # Remove rt from the ans; since we need to provide a link to it in web version.
+              $rt = $1;
           }
-	  $rt_outencoding = &my_convert($rt,$outencoding);
-          chomp($rt_outencoding);
-
 
           # We need to separate the upasarga from the rts for generation purpose.
           if ($ans =~ /upasarga:([^}]+)/) { 
@@ -129,27 +120,31 @@ my $format;
           } else { $upasarga = "-"; }
 
             if ($ans =~ /kqw_prawyayaH/){
-               $ans =~ s/\}([^\{]+)\{/\}\{kqw_prAwipaxikam:$1\}\{/;
                $link = &handle_kqw($format,$rt,$upasarga,$outencoding,$ans);
-               $color = "lavender";
+               if($ans =~ /vargaH:nA/) {
+                  $ans =~ /(.*\})([^\{]+)(\{.*)/;
+                  $ans1 = $1;
+                  $rt = $2;
+                  $ans2 = $3;
+                  $rt_outencoding = &my_convert($rt,$outencoding);
+                  $link1 = "<a href=\"javascript:show('$rt_outencoding','DEV')\">$rt_outencoding</a>";
+                  $color = "skyblue";
+               } else {$link1 = ""; $color = "lavender"; }
             } elsif ($ans =~ /waxXiwa/){
-               #$link = &handle_waxXiwa($format,$rt,$rt_outencoding,$ans); 
+               #$link = &handle_waxXiwa($format,$rt,$ans); 
 		$link = $rt_outencoding;
                $color = "lightgreen";
-            } elsif(($ans =~ /kqxanwa/) && ($ans !~ /avy/)) {
-               $link = &handle_noun($format,$rt,$rt_outencoding,$lifga,'nA',$outencoding,$ans); 
-               $color = "skyblue";
             } elsif ($ans =~ /{vargaH:nA}/ ) {
-                $link = &handle_noun($format,$rt,$rt_outencoding,$lifga,'nA',$outencoding,$ans); 
+                $link = &handle_noun($format,$rt,'nA',$outencoding,$ans); 
                 $color = "skyblue";
             } elsif ($ans =~ /saMKyA/)  {
-              $link = &handle_noun($format,$rt,$rt_outencoding,$lifga,'saMKyA',$outencoding,$ans); 
+              $link = &handle_noun($format,$rt,'saMKyA',$outencoding,$ans); 
               $color = "skyblue";
             } elsif ($ans =~ /saMKyeya/) {
-              $link = &handle_noun($format,$rt,$rt_outencoding,$lifga,'saMKyeyam',$outencoding,$ans); 
+              $link = &handle_noun($format,$rt,'saMKyeyam',$outencoding,$ans); 
               $color = "skyblue";
             } elsif ($ans =~ /{vargaH:sarva}/){
-              $link = &handle_noun($format,$rt,$rt_outencoding,$lifga,'sarva',$outencoding,$ans); 
+              $link = &handle_noun($format,$rt,'sarva',$outencoding,$ans); 
               $color = "skyblue";
             } elsif (($ans =~ /(lat|lit|lut|lot|lqt|laf|lqf|luf|lif)/) || ($ans =~ /avy.*kqxanwa/)) {
                  $link = &handle_verb($format,$rt,$upasarga,$outencoding,$ans);
@@ -163,15 +158,27 @@ my $format;
            }
 	   $ans =~ s/{vargaH:nA}/ /;
            $ans_outencoding = &my_convert($ans,$outencoding);
-           chomp($ans_outencoding);
 
 	   if($format eq "web") { 
 	      $ans_outencoding =~ s/{/ {/; # add a space after the rt and before the first feature
               $ans_outencoding =~ s/{[^:]+://g; # Remove the feature name
               $ans_outencoding =~ s/}/ /g; # Add a space at the end of the last feature
            }
-           if($format eq "web") { print "<td bgcolor='$color'>",$link,$ans_outencoding,"</td>";}
-           else { 
+           if($format eq "web") { 
+	      if ($link1 eq "") {
+                  print "<td bgcolor='$color'>",$link,$ans_outencoding,"</td>";
+              } else {
+                  $ans1_outencoding = &my_convert($ans1,$outencoding);
+	          $ans1_outencoding =~ s/{/ {/; # add a space after the rt and before the first feature
+                  $ans1_outencoding =~ s/{[^:]+://g; # Remove the feature name
+                  $ans1_outencoding =~ s/}/ /g; # Add a space at the end of the last feature
+                  $ans2_outencoding = &my_convert($ans2,$outencoding);
+	          $ans2_outencoding =~ s/{/ {/; # add a space after the rt and before the first feature
+                  $ans2_outencoding =~ s/{[^:]+://g; # Remove the feature name
+                  $ans2_outencoding =~ s/}/ /g; # Add a space at the end of the last feature
+                  print "<td bgcolor='$color'>",$link,$ans1_outencoding,$link1,$ans2_outencoding,"</td>";
+              } 
+            } else { 
             print "\"COLOR\":\"$color\",$link,\"ANS\":\"$ans_outencoding\"";
             if($k < $#ans)  { print "},";} else { print "}";}
             if($k == $#ans)  { print "]";}
@@ -210,12 +217,6 @@ sub handle_kqw{
    } else {$disp_rt = $rt;}
 
      $disp_rt_outencoding = &my_convert($disp_rt,$outencoding);
-	#open (TMP,">/tmp/ab");
-	#print TMP $disp_rt_encoding;
-	#print TMP $rt_XAwu_gaNa;
-	#print TMP $upasarga;
-	#print TMP $format;
-	#close(TMP);
      if($format eq "web") {$link = "<a href=\"javascript:generate_kqw_forms('WX','$rt_XAwu_gaNa','$upasarga','$outencoding')\">$disp_rt_outencoding</a>";}
      else { $link = "\"APP\":\"kqw\",\"encoding\":\"WX\",\"rt\":\"$rt_XAwu_gaNa\",\"upasarga\":\"$upasarga\",\"outencoding\":\"$outencoding\",\"RT\":\"$disp_rt_outencoding\"";}
 
@@ -224,9 +225,10 @@ $link;
 1;
 
 sub handle_waxXiwa{
-    my($format,$rt,$rt_outencoding,$ans) = @_;
+    my($format,$rt,$ans) = @_;
     my($link,$lifga);
     if ($ans =~ /(puM|napuM|swrI)/){ $lifga = $1;}
+    $rt_outencoding = &my_convert($rt,$outencoding);
     if($format eq "web") { $link = "<a href=\"javascript:generate_waxXiwa_forms('WX','$rt','$lifga')\">$rt_outencoding</a>";}
      else { $link = "\"APP\":\"waxXiwa\",\"encoding\":\"WX\",\"rt\":\"$rt\",\"linga\":\"$lifga\",\"RT\":\"$rt_outencoding\"";}
   $link;
@@ -234,9 +236,11 @@ sub handle_waxXiwa{
 1;
 
 sub handle_noun{
-  my($format,$rt,$rt_outencoding,$lifga,$cat,$outencoding,$ans) = @_;
+  my($format,$rt,$cat,$outencoding,$ans) = @_;
   my($link);
+  my($rt_outencoding);
   if ($ans =~ /(puM|napuM|swrI)/){ $lifga = $1;}
+  $rt_outencoding = &my_convert($rt,$outencoding);
   if($format eq "web") {$link = "<a href=\"javascript:generate_any_noun_forms('WX','$rt','$lifga','$cat','$outencoding','1')\">$rt_outencoding</a>";}
   else { $link = "\"APP\":\"noun\",\"encoding\":\"WX\",\"rt\":\"$rt\",\"linga\":\"$lifga\",\"cat\":\"$cat\",\"outencoding\":\"$outencoding\",\"RT\":\"$rt_outencoding\"";}
   $link;
@@ -261,7 +265,6 @@ sub handle_verb{
            $disp_rt = $upasarga."_".$rt;
         } else {$disp_rt = $rt;}
 	$disp_rt_outencoding = &my_convert($disp_rt,$outencoding);
-	chomp($disp_rt_outencoding);
         if ($format eq "web") { $link = "<a href=\"javascript:generate_verb_forms('WX','$outencoding','$rt_XAwu_gaNa','$prayogaH','$upasarga','$paxI')\">$disp_rt_outencoding</a>";}
          else { $link = "\"APP\":\"verb\",\"encoding\":\"WX\",\"outencoding\":\"$outencoding\",\"rt\":\"$rt_XAwu_gaNa\",\"prayogaH\":\"$prayogaH\",\"upasarga\":\"$upasarga\",\"paxI\":\"$paxI\",\"RT\":\"$disp_rt_outencoding\"";}
   $link;
@@ -276,6 +279,7 @@ sub my_convert {
           } else {
               $rt_outencoding = `echo $rt | $myPATH/converters/wx2utf8.sh $myPATH`;
           }
+    chomp($rt_outencoding);
     $rt_outencoding;
 }
 1;
