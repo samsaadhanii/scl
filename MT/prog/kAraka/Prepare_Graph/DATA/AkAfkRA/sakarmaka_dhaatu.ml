@@ -36,6 +36,7 @@ value sakarmaka_XAwu_list = [
 "Af_vas1";
 "Af_viS1";
 "Af_viS_kq3";
+"Af_vix1";
 "Af_vq1";
 "Af_vqw1";
 "Af_wan1";
