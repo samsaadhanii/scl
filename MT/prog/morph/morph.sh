@@ -25,8 +25,6 @@ KQWOUT=$5
 LTPROCBIN=$6
 TMP_FILES_PATH=$7
 
-DEBUG="ON"
-
 export MY_PATH=$BasePATH/MT/prog
 
 
@@ -42,7 +40,3 @@ $MY_PATH/morph/bin/add_kqw_analy.pl $BasePATH $MY_PATH/morph/local_analysis/kqw_
 paste $INFILE $OUTFILE $PRUNEOUT $KQWOUT| perl -pe 's/^\t//;s/^\t//;s/^\t//; s/\t\t/\t-\t/; s/\t\t/\t-\t/; s/\t$/\t-/; s/,\/,/,/g; s/<XAwuH:[^>]+>//g' > $TMP_FILES_PATH/tmptmp
 #cp $TMP_FILES_PATH/tmptmp $INFILE
 mv $TMP_FILES_PATH/tmptmp $INFILE
-
-if [ $DEBUG = "OFF" ]; then
-rm $TMP_FILES_PATH/tmp_mo_all $TMP_FILES_PATH/tmp_mo  $TMP_FILES_PATH/$OUTFILE $TMP_FILES_PATH/$PRUNEOUT $TMP_FILES_PATH/$KQWOUT 
-fi
