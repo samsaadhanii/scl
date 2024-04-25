@@ -2360,6 +2360,7 @@ value rlsamAnakAla m1 m2 text_type = match m1 with
         && not (member_of (word2^" "^string_of_int viBakwiH2) kriyAviSeRaNas) (* Why is this cond? *)
         && not(rt1=rt2) && no_boundary_crossing_except_kwvA id1 id2 text_type
 	&& not (rt2 = "kim")
+	&& not (rt2 = "ixam")
        then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.6",d12)]
        else []
      | Kqw (id1,cid1,mid1,_,_,_,_,kqw_prawyayaH1,_,_,rt1,_,_,lifgam1,viBakwiH1,vacanam1,_) -> 
@@ -2422,8 +2423,11 @@ gacCan bAlakaH wqNam spqSawi / bAlakaH gacCan wqNam spqSawi *)
 	      then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.4",d12)]
               else if ((rt1 = "sarva" || rt1 = "sarvA") &&  id1 > id2 && text_type = "Sloka")
 	      then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.5",d12)]
-              else if (not (rt1 = "kim" && aswi_pos.val < 50)) && (pronoun3 rt1) 
-	      then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.6",d12)]
+              else if (not (rt2 = "kim" || rt2 = "ixam")) && (pronoun3 rt1)  (* There cannot be a viSeRaNa of kim/ixam *)
+	      then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.0",d12)]
+              else if (not (rt1 = "kim" )) && (aswi_pos.val < 50) && (pronoun3 rt1)  
+                      (* In the presence of aswi, kim cannot be a viSeRaNa; *kim puswakam aswi *)
+	      then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.7",d12)]
               else if rt2 = get_assoc rt1 parAjAwi_list  
               then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.8",d12)]
               else []
@@ -5280,8 +5284,8 @@ value init_sentence_feature_variables morphs  =
  (fun m -> match m with 
      [ Wif (id,cid,mid,word,rt,_,_,upasarga,_,_,_,_,_,_,_,_) -> 
              do { 
-              if (mid = 1 ) then finite_verb_in_sentence.val := id else ();  (* this condition should e strenthened further to see that there is no other sup sanalysis for this word *)
-             aswi_pos.val := id; 
+             if (mid = 1 ) then finite_verb_in_sentence.val := id else ();  (* this condition should e strenthened further to see that there is no other sup sanalysis for this word *)
+             if (rt = "as2") then aswi_pos.val := id  else ();
              if(total_wrds.val < id) then total_wrds.val := id else ();
              if members_of rt upasarga karwqsamAnAXikaraNa_verbs 
              then karwqsamverbs.val := id else ()
