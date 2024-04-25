@@ -40,7 +40,7 @@ $an =~ /^([^\+]+)\+(.*)/;
 $first = $1; $second = $2;
 
 # Following are two special rules where morphological analyser is invoked.
-if ($second =~ /^A/ && `echo "$second" | $GlblVar::LTPROCBIN -c $myPATH/morph_bin/all_morf.bin | grep 'upasarga:Af'`) { 
+if (`echo "$second" | $GlblVar::LTPROCBIN -c $myPATH/morph_bin/all_morf.bin | grep 'upasarga:Af'`) { 
    if($an=~/^(.*)[aA]\+(.*)/) {$ans = "$1$2";$ans1="pararUpa";$ans2="omAfoSca(6.1.95)"; $cont = 0;} # To do:show morph analysis in a tooltip
 }
 else {
