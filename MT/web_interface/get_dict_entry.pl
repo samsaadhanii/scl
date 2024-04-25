@@ -30,7 +30,7 @@ $myDataPATH="$GlblVar::HTDOCSDIR/$GlblVar::SCL_HTDOCS";
 $myPATH="$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
 require "$myPATH/cgi_interface.pl";
 
-package main;
+#package main;
 
 
 sub get_dict_entry{
@@ -41,26 +41,25 @@ my $word_wx = "";
 
 $Files_Path = "$myDataPATH/MT/data";
 
-chomp $word;
+### chomp does not work properly.
+#Hence all chomps are replaced by s/\n$//;  -- Amba 26th April 2024
+$word =~ s/\n$//;
 # converting word utf8 to wx to get filename
 if ($outencoding eq "DEV") {
   $word_wx = `echo $word | $myPATH/converters/utf82wx.sh $myPATH`;
-  chomp($word_wx);
 }elsif($outencoding eq "IAST"){
   $word_wx = `echo $word | $myPATH/converters/utf8roman2wx.out`;
-  chomp($word_wx);
 }
+  $word_wx =~ s/\n$//;
   $sword_wx = get_normalised_word($word_wx);
   $sword = `echo $sword_wx | $myPATH/converters/wx2utf8.sh $myPATH`;
-  chomp($sword);
+  $sword =~ s/\n$//;
 
-#print "word = $word\n";
-#print "sword = $sword\n";
 
 #grep the 1st character in a word;
 $word_wx =~ /^(.)/; $l = $1;
 #forming file name using dic_name and Word
-chomp $dic_name;
+$dic_name =~ s/\n$//;
 if($dic_name eq "apte"){
         if($word_wx =~ /_/) { $word_wx =~ /_(.)[^_]*$/; $l = $1;}
         else {$word_wx =~ /^(.)/; $l = $1;}

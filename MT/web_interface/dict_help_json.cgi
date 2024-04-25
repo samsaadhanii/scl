@@ -48,13 +48,13 @@ sub call_dict{
 	my($dict,$word) = @_;
 
         print "{\"Word\":\"$word\",\n";
-        if($dict eq "amara") {
-           print "\"DICT\":\"Amarakosha\",\n";
-           $result = &get_dict_entry("amara",$word,"DEV");
-	   chomp($result);
-           print "\"Meaning\":\"$result\"},\n";
-	## This needs to be improved further. Amarakosha output is in html format!
-        }
+#        if($dict eq "amara") {
+#           print "\"DICT\":\"Amarakosha\",\n";
+#           $result = &get_dict_entry("amara",$word,"DEV");
+#	   chomp($result);
+#           print "\"Meaning\":\"$result\"},\n";
+#	## This needs to be improved further. Amarakosha output is in html format!
+#        }
         if($dict eq "apte") {
            print "\"DICT\":\"Apte's Skt-Hnd Dict\",\n";
            $result = &get_dict_entry("apte",$word,"DEV");
