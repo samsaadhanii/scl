@@ -27,6 +27,7 @@ if ($ENV{'REQUEST_METHOD'} eq "POST") {
 @pairs = split(/&/, $buffer);
 
 foreach $pair (@pairs) {
+   chomp($pair);
    ($name, $value) = split(/=/, $pair);
    $value =~ tr/+/ /;
    $value =~ s/%(..)/pack("C", hex($1))/eg;
