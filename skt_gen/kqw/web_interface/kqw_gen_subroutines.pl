@@ -129,7 +129,6 @@ $LTPROC_IN = "";
     #print "upa = $upa_wx\n";
     #print "outencoding  = $outencoding \n";
 	 $str = "echo '".$LTPROC_IN."' | $generator | sed '1,\$s/#.*/-/g' | grep . | pr -3 -a -t -w 150 | tr ' ' '\t' | $conversion_program | $myPATH/skt_gen/kqw/html_format.pl $rt_wx $upa_wx $outencoding $XAwu $gaNa";
-	 #$str = "echo '".$LTPROC_IN."' | $generator ";
 	 #$LTPROC_IN =~ s/</;/g;
 	 #$LTPROC_IN =~ s/>/;/g;
 	 #print $LTPROC_IN;

@@ -85,7 +85,7 @@ while($in = <STDIN>){
   $in =~ s/\?\?*/-/g;
   @in = split(/\t/,$in);
   for($c=1;$c<3;$c++){
-     if($in[0] eq "-") { $in[$c] = "-";}
+     #if($in[0] eq "-") { $in[$c] = "-";}
      if($in[0] =~ /\*/) { $in[$c] = "-";}
   }
 
