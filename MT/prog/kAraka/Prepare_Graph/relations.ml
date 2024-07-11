@@ -39,7 +39,7 @@ value relations_encodings = [
 	("aBexaH",37);
 	("RaRTIsambanXaH",38);
 	("hewuH",39);
-	("hewuH5",70);
+	("hewuH5",29);
 	("prayojanam1",40);
 	("prayojanam",41);
 	("varwamAnasamAnakAlaH",42);
@@ -61,6 +61,7 @@ value relations_encodings = [
 	("vyaBicAraH",58);
 	("vyaBicAra_xyowakaH",59);
 	("kArya_kAraNa_BAvaH",60);
+	("prayojakakarwqrahiwaprayojyakarwA",1);
 	("viroXakaH",68);
 	("viroXa_xyowakaH",69);
 	("samAsaH",71);

@@ -1,5 +1,4 @@
 value karmasamAnAXikaraNa_XAwu_list = [
-"brU1";
 "gaNa1";
 "kq1";
 "kq3";

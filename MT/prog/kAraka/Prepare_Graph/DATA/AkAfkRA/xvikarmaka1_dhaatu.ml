@@ -18,6 +18,7 @@ value xvikarmaka_XAwu_list1 = [
 "sam_praC1";
 "vac1";
 "vax1";
+"vq2";
 "xaNda1";
 "xuh2";
 "yAc1";

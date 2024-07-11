@@ -34,11 +34,15 @@ while($in = <STDIN>){
           ($cat, $sent) = &get_cat($wrd_ana);
 
           if($cat ne "ajFAwa"){
-	   if($cat eq "samAsa") { $wrd_ana =~ s/<vargaH:[^>]+>.*<level:0>//;}
-           else { $wrd_ana =~ s/<vargaH:[^>]+>//; $wrd_ana =~ s/<level:[0-4]>//g;}
 
            if($wrd_ana =~ /<word:[^>\-]+\->/) { $pUrvapaxa = "y";} else {$pUrvapaxa = "n";}
            if($wrd_ana =~ /<word:-/) { $uwwarapaxa = "y";} else {$uwwarapaxa = "n";}
+
+           if($pUrvapaxa eq "y") { $wrd_ana =~ s/<level:([0-4])>/<lifgam:a><viBakwiH:0><vacanam:a><level:$1>/;}
+
+	   #if($cat eq "samAsa") { $wrd_ana =~ s/<vargaH:[^>]+>.*<level:0>//;}
+
+           $wrd_ana =~ s/<vargaH:[^>]+>//; $wrd_ana =~ s/<level:[0-4]>//g;
 
            $wrd_ana =~ s/<rt:([^>]*)>/<rt:$1><pUrvapaxa:$pUrvapaxa><uwwarapaxa:$uwwarapaxa>/;
 
@@ -48,6 +52,7 @@ while($in = <STDIN>){
            if(($wrd_ana !~ /<sanAxi_prawyayaH:/) && (($cat eq "kqw") || ($cat eq "wif") || ($cat eq "avykqw"))){
                 $wrd_ana =~ s/(<upasarga:[a-zA-Z_]+>)</$1<sanAxi_prawyayaH:X></;
            }
+
  
            $wrd_ana =~ s/^([^<]+)$//g;
            $wrd_ana =~ s/<relata_pos:([0-9]+)\.([0-9]+)>/(relata_pos_id $1) (relata_pos_cid $2)/g;
@@ -56,7 +61,7 @@ while($in = <STDIN>){
            $wrd_ana =~ s/<rel_nm:>/(rel_nm X)/g;
        	   $wrd_ana =~ s/<([^:]+):>/($1 X)/g;
            $wrd_ana =~ s/\$//g;
- 
+
            print $sent, " ",$wrd_ana,")\n";
        }# else { print $sent, " \n";}
        }
@@ -70,22 +75,26 @@ sub get_cat{
     my($cat,$sent);
 
           $sent = "";
-          if($wrd_ana =~ /<vargaH:sapUpa/) {
-              $cat="samAsa";
-              $sent = "(avy ";
-          } elsif($wrd_ana =~ /<waxXiwa_prawyayaH.*waxXiwa_rt/) {
+          #if($wrd_ana =~ /<vargaH:sapUpa/) {
+          #    $cat="samAsa";
+          #    $sent = "(avy ";
+          #} elsif($wrd_ana =~ /<waxXiwa_prawyayaH.*waxXiwa_rt/) {
+          if($wrd_ana =~ /<waxXiwa_prawyayaH.*waxXiwa_rt/) {
               $cat="waxXiwa";
               $sent = "(waxXiwa ";
           } elsif($wrd_ana =~ /<waxXiwa_prawyayaH.*/) {
               $cat="waxXiwa";
               $sent = "(waxXiwa ";
-          } elsif($wrd_ana =~ /<kqw_prawyayaH.*<lifgam/) {
-              $cat="kqw";
-              $sent = "(kqw ";
           } elsif($wrd_ana =~ /<vargaH:avy>.*<kqw_prawyayaH/) {
               $cat="kqw";
               $sent = "(avykqw ";
+          } elsif($wrd_ana =~ /<kqw_prawyayaH.*/) {
+              $cat="kqw";
+              $sent = "(kqw ";
           } elsif($wrd_ana =~ /<vargaH:(nA|sarva|pUraNam|saMKyeyam|saMKyA)/) {
+              $cat="sup";
+              $sent = "(sup ";
+          } elsif($wrd_ana =~ /<vargaH:sapUpa/) {
               $cat="sup";
               $sent = "(sup ";
           } elsif($wrd_ana =~ /<vargaH:avy><waxXiwa_prawyayaH:/) {

@@ -23,7 +23,7 @@ use warnings;
 use utf8;
 
 require "../paths.pl";
-$myPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
+my $myPATH = "$GlblVar::CGIDIR/$GlblVar::SCL_CGI";
 require "$myPATH/cgi_interface.pl";
 require "$myPATH/MT/prog/morph/scripts.pl";
 #require "$myPATH/converters/convert.pl";

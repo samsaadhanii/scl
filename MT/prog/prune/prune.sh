@@ -44,7 +44,8 @@ $BIN_PATH/remove_derived_prAtipadikas.pl |\
 
 $BIN_PATH/remove_derivational_analysis_of_rUDa_kqws.pl $BIN_PATH/../morph/rUDa_kqw.txt |\
 $BIN_PATH/remove_inflectional_analysis_of_derived_words.pl  |\
-$BIN_PATH/rm_saMKyA.pl |\
+#saMKyA analysis cannot be removed. See the comments inside the below programme.
+#$BIN_PATH/rm_saMKyA.pl |\
 $BIN_PATH/handle_samboXana.pl D  2> /dev/null  |\
 $BIN_PATH/keep_freq_mo.pl $BIN_PATH/default_morph.txt |\
 $BIN_PATH/handle_sawi_sapwami.pl |\

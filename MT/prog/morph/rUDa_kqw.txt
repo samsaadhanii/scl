@@ -126,6 +126,7 @@ goXikA
 grAhaka
 guNaka
 hiMsaka
+howq
 jAgaraNa
 jFApaka
 jFAwq
@@ -277,6 +278,7 @@ prayojana
 prekRaka
 preraka
 preya
+prIwa
 puraw
 puswaka
 rAjya
@@ -286,6 +288,7 @@ ramaNIya
 ramya
 rotikA
 sWAna
+sAyaka
 saFcAraka
 saFcArikA
 saFjaya
@@ -344,6 +347,7 @@ varwaka
 veRtaka
 veXaka
 vijaya
+virAXa
 viSeRaka
 viSiRtA
 viSiRta

@@ -259,6 +259,8 @@ while($tmpin = <STDIN>){
 	  if($kAraka =~ /sakarmaka/) { $transitivity = "sk";}
 	  else {$transitivity = "ak";}
 
+## The way the transitivity is decided, it fails to provide the correct transitivity in the case of Nic.
+#For exampe, RWA1 is ak, but RWA1_Nic is sk.
 
 	  # In the case of karwari prayoga,
 	  # if an entry that matches with both paxI and transitivity is found, we use that entry

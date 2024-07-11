@@ -3,11 +3,15 @@ value intensifiers_list = [
 "awIva";
 "param";
 "awi";
-"zbahu";
+"bahu"; (* why was bahu commented - need evidence. bahavaH xurlaBH -- here it is an intensifier  *)
 "aXika";
 "aXikA";
 "kevala";
 "kevalA";
-"mahaw"
+"mahaw";
+"uwwama";
+"uwwamA";
+"SreRTa";
+"SreRTA";
 ]
 ;

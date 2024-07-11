@@ -379,6 +379,9 @@ value sakarmaka_XAwu_list = [
 "Xvaj1";
 "Xvaj2";
 "XyE1";
+"Zsaha1";
+"Zvi_lap1";
+"Zyuj2";
 "aBi_BU1";
 "aBi_BU2";
 "aBi_Ric1";
@@ -1048,6 +1051,7 @@ value sakarmaka_XAwu_list = [
 "ni_vix5";
 "ni_vq1";
 "ni_vq2";
+"ni_vqw1";
 "ni_yam1";
 "ni_yuj2";
 "nir_Af_cakR1";
@@ -1195,6 +1199,7 @@ value sakarmaka_XAwu_list = [
 "pra_kRip2";
 "pra_kq3";
 "pra_max2";
+"pra_muc1";
 "pra_mux1";
 "pra_ni_XA1";
 "pra_sq1";
@@ -1611,7 +1616,6 @@ value sakarmaka_XAwu_list = [
 "vi_ji1";
 "vi_kQ1";
 "vi_krI1";
-"vi_lap1";
 "vi_liK1";
 "vi_lok1";
 "vi_mqS1";
@@ -1644,7 +1648,6 @@ value sakarmaka_XAwu_list = [
 "vix4";
 "vix5";
 "vlI1";
-"vq2";
 "vq3";
 "vqN1";
 "vqR1";
@@ -1840,8 +1843,5 @@ value sakarmaka_XAwu_list = [
 "yuj1";
 "yuj3";
 "yup1";
-"zni_vqw1";
-"zsaha1";
-"zyuj2";
 ]
 ;

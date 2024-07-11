@@ -221,7 +221,7 @@ else
   shloka_anu_op
   anvaya_order_tr
   csv2xlsx
-  clean
+  #clean
 fi
 
 ###########

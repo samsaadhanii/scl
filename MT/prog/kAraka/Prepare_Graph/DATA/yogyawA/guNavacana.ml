@@ -92,6 +92,7 @@ value guNavacana_list = [
 "aXamA";
 "aXama";
 "aXipawi";
+"agnija";
 "akRaya";
 "alpa";
 "amla";
@@ -140,6 +141,7 @@ value guNavacana_list = [
 "bahUxaka";
 "bahu";
 "bahuviXa";
+"balin";
 "cAnxramasa";
 "caFcala";
 "cawurviMSawi";
@@ -235,6 +237,7 @@ value guNavacana_list = [
 "mohinI";
 "mqxula";
 "muKya";
+"muxiwa";
 "munipufgava";
 "nERTikI";
 "nIla";
@@ -255,6 +258,7 @@ value guNavacana_list = [
 "nirmala";
 "nirmama";
 "nirmiwA";
+"nirmiwa";
 "niruxXa";
 "niwyA";
 "niwya";
@@ -298,6 +302,8 @@ value guNavacana_list = [
 "praNayin";
 "praNewq";
 "prabuxXa";
+"prahqRta";
+"samprahqRta";
 "pracaNda";
 "prajana";
 "pramuKA";
@@ -309,7 +315,7 @@ value guNavacana_list = [
 "prawApa";
 "preyas";
 "priya";
-"puNyazz";
+"puNya"; (* puNya was commented. I have uncommented not knowing why it was commented. ref to Sankshipta rAmAyanaM - 98.1 *)
 "puRpaka";
 "puRta";
 "pufgava";
@@ -362,6 +368,7 @@ value guNavacana_list = [
 "sanwarpaNa";
 "sanwuRtaH";
 "sawwva";
+"sawI";
 "saxqS";
 "saxqSA";
 "saxqSa";
@@ -381,6 +388,7 @@ value guNavacana_list = [
 "sunxarI";
 "sunxara";
 "supakva";
+"suvarNaka";
 "suwa";
 "svAmin";
 "svAminI";
@@ -397,6 +405,7 @@ value guNavacana_list = [
 "uwwara";
 "uxAsIna";
 "uxyukwaw";
+"vAyuja";
 "vIra";
 "vIryavaw";
 "vaFcaka";
@@ -421,7 +430,10 @@ value guNavacana_list = [
 "viniyawa";
 "vipulA";
 "vipula";
+"virUpiwa";
+"virUpiwA";
 "vixvas";
+"vixvaw";
 "vqxXA";
 "vqxXa";
 "vrajanwa";
@@ -456,7 +468,8 @@ value guNavacana_list = [
 "xakRiNA";
 "xakRiNa";
 "xayAlu";
-"zxayiwa";
+"zxayiwa"; (* why this is commented? *)
+"xayiwA"; (* rAmasya xayiwA BaryA *)
 "xivya";
 "xqDa";
 "xuHKa";

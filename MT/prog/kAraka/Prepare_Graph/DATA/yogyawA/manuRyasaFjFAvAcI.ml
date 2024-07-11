@@ -1,12 +1,16 @@
 value manuRyasaFjFAvAci = [
 "awri";
+"agni";
+"anaGa";
 "arjuna";
 "BArawa";
 "Barawa";
 "SabarI";
+"SUrpaNaKA";
 "SakuntalA";
 "SawqGna";
 "balarAma";
+"hanumaw";
 "guha";
 "janArxana";
 "lakRmaNa";

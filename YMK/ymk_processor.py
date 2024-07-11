@@ -373,7 +373,7 @@ def inp_processor_yamaka(s1):
 	
 	s1=s1.replace(" ","")# to check	
 
-	# print("\ninp", s1 )
+	#print("\ninp", s1 )
 	s1 = ''.join(s1.split())
 	s1=s1.split(".")####(".")
 

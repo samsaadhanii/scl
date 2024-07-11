@@ -59,6 +59,7 @@ kārya_dyotakaḥ 57
 vyabhicāraḥ 58
 vyabhicāra_dyotakaḥ 59
 kārya_kāraṇa_bhāvaḥ 60
+prayojakakartṛrahitaprayojyakartā 1
 virodhakaḥ 68
 virodha_dyotakaḥ 69
 samāsaḥ 71

@@ -4154,6 +4154,7 @@ ruX1,pp,sk,v,roka^Gera_le^Gera,AvaraNe
 Rvanj1,ap,sk,v,AliMgana_kara^gale_lagA^kOlI_Bara^Gera^maroda,NW
 Rvap1,pp,ak,v,so,NW
 RWA1,pp,ak,v,raha^KadA_ho^Tahara^SeRa_baca,
+RWA1_Nic,pp,sk,v,raKa
 RWag1,pp,sk,v,Daka^CipA^DAMpa^gupwa_raKa^paraxA_dAla^vyApwa_ho^Bara,NW
 Rwak1,pp,sk,v,mukAbalA_kara^harakawa_kara^prawiroXa_kara^pICe_Dakela^roka,NW
 Rwam1,pp,ak,v,dara^GabarA_jA^vyAkula_ho,NW
@@ -4213,6 +4214,7 @@ sam_Af_mnA1,pp,sk,v,soca^vicAra_kara^manana_kara,NW
 sam_Af_NI1,ap,sk,v,milA^jAkara_lA,NW
 sam_Af_NI1,pp,sk,v,milA^jAkara_lA,NW
 sam_Af_pax1,ap,sk,v,Gatiwa_ho^ho^hAsila_kara^prApwa_kara^upalabXa_kara,NW
+sam_Af_Rax1,pp,sk,v,jA,NW
 sam_Af_RWA1,pp,ak,v,saha^aByAsa_kara^vyaswa_kara^saMpAxana_kara^kAma_meM_lagA^anusaraNa_kara^pAlana_kara^,NW
 sam_Af_sax1,pp,sk,v,raha,
 sam_Af_SliR2,pp,sk,v,AliMgana_kara^cipake_raha^jame_raha^date_raha^sammiliwa_ho^grahaNa_kara^le^samaJa,NW

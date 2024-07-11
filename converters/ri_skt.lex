@@ -161,6 +161,12 @@ Hence everywhere a 'tmp' variable is introduced, and then it is printed.
 					printf("%c%c",tmp1,tmp);
 					BEGIN INITIAL;
 					}
+    /* y,v, and l are semi vowles which allow 'z' after them. So I have added the following rule. But this over generates, since it does not have the information of the prvious consonant. */
+<CONS>z					{
+					tmp1='è';
+					printf("%c%c",tmp1,map[(int)yytext[0] ]);
+					BEGIN INITIAL;
+					}
 <CONS>(.|\n)				{
 					tmp1='è';
 					printf("%c%c",tmp1,yytext[0]);

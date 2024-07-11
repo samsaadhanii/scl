@@ -48,14 +48,17 @@ while($in = <STDIN>){
           #else { $cat = &get_cat($wrd_ana);}
           $cat = &get_cat($wrd_ana);
 
+	  #print "cat = $cat\n";
           if($wrd_ana =~ /<upapaxa_cp:/) {
              $wrd_ana =~ s/^([^<]+)<upapaxa_cp:([^>]+)>/$2/;
           }
 
+	    #print "before wrd_ana = $wrd_ana\n";
           #if(($cat ne "samAsa") && ($cat ne "ajFAwa")){
           if($cat ne "ajFAwa"){
             $wrd_ana =~ s/<vargaH:[^>]+>//;
 	    $wrd_ana =~ s/,/COMMA/g;
+	    #print "wrd_ana = $wrd_ana\n";
 
             if(($wrd_ana !~ /<upasarga:/) && (($cat eq "kqw") || ($cat eq "wif") || ($cat eq "avykqw"))){
                if($wrd_ana =~ /^[^<]+</) {

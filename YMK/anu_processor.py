@@ -9,15 +9,40 @@ from ymk_processor import inp_processor_yamaka, answ
 #from inp_trans import translit_in, translit_out
 # LATA is coming in cheka and cheka not in vr, but if vr is a part of cheka then it should come.
 ##########################################
-
-
+def vowel_before (word, out_enc):# shifts _ before a preceeding consonant y_AH -> _yAH Used in antya_word
+    # vowel = ['a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U', 'q', 'Q', 'L']
+    out_wd = ""
+    ind = len(word)-1
+    # print("ind", ind)
+    if out_enc == "dev" and "_" in word:
+        while ind >= 0:
+            now = word[ind]
+            b4 = word[ind -1] 
+            # print("ind", ind, now)
+            # y_AH* gX_aM* wsn_am* kArwsny_am* 
+            if now =="_":
+                out_wd = now + b4 + out_wd
+                ind = ind - 2
+            else:
+                out_wd = now + out_wd
+                ind = ind - 1
+    else:
+        out_wd = word 
+    return out_wd
 #Antyanuprasa-
+def no_vowel(word):
+	vowels1 = ['a','A','e','E','i','I','o','O','u','U','q','Q','L']
+	strg = ""
+	for n in range(len(word)) :
+		if word[n] not in vowels1 and word[n] != '"':
+			strg = strg + word[n]
+	return strg
 
 def last (p1,k2):
 	vowel = ['a','A','e','E','i','I','o','O','u','U','q','Q','L']
 	k = 0
 	# print("i", p1)
-	if p1 != ["---"]or p1 !="." or p1 !="..":
+	if p1 != ["---"] or p1 !="." or p1 !=".." or p1 not in vowel:
 		pp1 = []
 		# for i in p1:
 		for n in range(len(p1)-1,-1,-1):
@@ -29,143 +54,162 @@ def last (p1,k2):
 	else:
 		pp1 = ["---"]		
 	return pp1
+
 # padas maMxaMhasaMwaHpulakaMvah,_a,MwaH* goRTaMBramaMwaScaRakapivaMwaH rawinayaMwaHsuvikASamaMwaH priyAMspqSaMwaHsvarivAvasaMwaH
 # p1 ['_H', 'a', 'M', 'x', 'a', 'M', 'h', 'a', 's', 'a', 'M', 'w', 'a', 'H', 'p', 'u', 'l', 'a', 'k', 'a', 'M', 'v', 'a', 'h', 'a', 'M', 'w', 'a', 'H*']
 def antya_feet(pp1,pp2,pp3,pp4,p1,p2,p3,p4):
+	# print("pp1", pp1)
 	#problem - all anunasikas are changed to M in ymk sp the anuprasa shloka do not match with antyanuprasa.
 	# - when the shloka is not in samavrutta the ends are not matched. in keSaH kASaH ...
+	vowel = ['a','A','e','E','i','I','o','O','u','U','q','Q','L']
 	a = b = c = d = e = f = g = h = i = 0
 	if p1 != ["---"]:
-		p1,p2,p3,p4= list(p1),list(p2),list(p3),list(p4)
+		p1,p2,p3,p4 = list(p1),list(p2),list(p3),list(p4)
 		# print("p1",p1,p2,p3,p4)	
 	
 		for n in range(len(pp1)-1,-1,-1):
-			n1=int(-n)
-			# print(n1)
-			if pp1[:n]==pp2[:n]==pp3[:n]==pp4[:n] and a==0:
-				# print("n1",p1[n1], pp1[n],"n",n)
+			# print("n",n)
+			n1 = int(-n)
+			# print("here")
+			if pp1[:n]==pp2[:n]==pp3[:n]==pp4[:n] and a==0 and n!=0:
+				# print("pp1", pp1, pp2, pp3, pp4, n)
+				# print("here",pp1[:n],pp2[:n],pp3[:n],pp4[:n])
 				p1[n1-1]="_"+pp1[n] #n1-n gives a negative value, try to make it automatically without adding -1
 				p2[n1-1]="_"+pp2[n]
 				p3[n1-1]="_"+pp3[n]
 				p4[n1-1]="_"+pp4[n]
 				
 				p1[-1]=pp1[0]+"*"
-				p2[-1]=pp2[0]+"*.<@br/>"
+				p2[-1]=pp2[0]+"*"
 				p3[-1]=pp3[0]+"*"
-				p4[-1]=pp4[0]+"*..<@br/>"
+				p4[-1]=pp4[0]+"*"
 
-				a = n 	 
-			if pp1[:n]==pp2[:n]==pp3[:n] and b==a==0:
+				a = 1 
+			if pp1[:n]==pp2[:n]==pp3[:n]  and b==a==0 and n!=0:
 				# feet_d.update({"b":["1","2"]})
+				# print("B",pp2[:n], pp3[:n])
 				p1[n1-1]="_"+pp1[n] #n1-n gives a negative value, try to make it automatically without adding -1
 				p2[n1-1]="_"+pp2[n]
 				p3[n1-1]="_"+pp3[n]
 				# p4[n1-1]="_"+pp4[n]
 				
 				p1[-1]=pp1[0]+"*"
-				p2[-1]=pp2[0]+"*.<@br/>"
+				p2[-1]=pp2[0]+"*"
 				p3[-1]=pp3[0]+"*"
-				p4[-1]=p4[-1]+"..<@br/>"
-				b = n
-			elif pp1[:n]==pp2[:n]==pp4[:n] and c==a==0:
+				# p4[-1]=p4[-1]+"..<@br/>"
+
+				b = 1
+			elif pp1[:n]==pp2[:n]==pp4[:n] and c==a==0 and n!=0:
 				p1[n1-1]="_"+pp1[n] #n1-n gives a negative value, try to make it automatically without adding -1
 				p2[n1-1]="_"+pp2[n]
 				# p3[n1-1]="_"+pp3[n]
 				p4[n1-1]="_"+pp4[n]
 				
 				p1[-1]=pp1[0]+"*"
-				p2[-1]=pp2[0]+"*.<@br/>"
+				p2[-1]=pp2[0]+"*."
 				# p3[-1]=pp3[0]+"*"
-				p4[-1]=pp4[0]+"*..<@br/>"
-				c = n	
-			elif pp1[:n]==pp3[:n]==pp4[:n] and d==a==0:
+				p4[-1]=pp4[0]+"*"
+				c = 1	
+			elif pp1[:n]==pp3[:n]==pp4[:n] and d==a==0 and n!=0:
 				p1[n1-1]="_"+pp1[n] #n1-n gives a negative value, try to make it automatically without adding -1
 				# p2[n1-1]="_"+pp2[n]
 				p3[n1-1]="_"+pp3[n]
 				p4[n1-1]="_"+pp4[n]
 				
 				p1[-1]=pp1[0]+"*"
-				p2[-1]=p2[-1]+".<@br/>"
+				# p2[-1]=p2[-1]+".<@br/>"
 				p3[-1]=pp3[0]+"*"
-				p4[-1]=pp4[0]+"*..<@br/>"
-				d = n	
-			elif pp2[:n]==pp3[:n]==pp4[:n] and e==a==0:
+				p4[-1]=pp4[0]+"*"
+				d = 1
+			elif pp2[:n]==pp3[:n]==pp4[:n] and e==a==0 and n!=0:
 				# p1[n1-1]="_"+pp1[n] #n1-n gives a negative value, try to make it automatically without adding -1
 				p2[n1-1]="_"+pp2[n]
 				p3[n1-1]="_"+pp3[n]
 				p4[n1-1]="_"+pp4[n]
 				
 				# p1[-1]=pp1[0]+"*"
-				p2[-1]=pp2[0]+"*.<@br/>"
+				p2[-1]=pp2[0]+"*"
 				p3[-1]=pp3[0]+"*"
-				p4[-1]=pp4[0]+"*..<@br/>"
-				e = n
+				p4[-1]=pp4[0]+"*"
+				e = 1
 				# 2 
-			elif pp1[:n]==pp2[:n] and a==b==c==f==0 :
+			elif pp1[:n]==pp2[:n] and a==b==c==f==0 and n!=0 :
 				p1[n1-1]="_"+pp1[n] #n1-n gives a negative value, try to make it automatically without adding -1
 				p2[n1-1]="_"+pp2[n]
 				# p3[n1-1]="_"+pp3[n]
 				# p4[n1-1]="_"+pp4[n]
 				
 				p1[-1]=pp1[0]+"*"
-				p2[-1]=pp2[0]+"*.<@br/>"
+				p2[-1]=pp2[0]+"*."
 				# p3[-1]=pp3[0]+"*"
-				p4[-1]=p4[-1]+"..<@br/>"
-				f = n	
-			elif pp3[:n]==pp4[:n] and a==d==e==g==0:	
+				# p4[-1]=p4[-1]+"..<@br/>"
+				f = 1
+			elif pp3[:n]==pp4[:n] and a==d==e==g==0 and n!=0:	
 				# p1[n1-1]="_"+pp1[n] #n1-n gives a negative value, try to make it automatically without adding -1
 				# p2[n1-1]="_"+pp2[n]
 				p3[n1-1]="_"+pp3[n]
 				p4[n1-1]="_"+pp4[n]
 				
 				# p1[-1]=pp1[0]+"*"
-				p2[-1]=pp2[0]+".<@br/>"
+				# p2[-1]=pp2[0]+".<@br/>"
 				p3[-1]=pp3[0]+"*"
-				p4[-1]=pp4[0]+"*..<@br/>"
-				g = n
-			elif pp1[:n]==pp3[:n] and a==b==c==d==e==h==0:	
-				p1[n1-1]="_"+pp1[n] #n1-n gives a negative value, try to make it automatically without adding -1
+				p4[-1]=pp4[0]+"*"
+				g = 1
+			elif pp1[:n]==pp3[:n] and a==b==c==d==e==h==0 and n!=0 and n!=1:	
+				# print(pp1)
+				# print("yes1","n1",n, n1,pp1[n], pp1[:n], "3", pp3[:n], n)
+				# print("pp1[-1]", pp1[-3], pp1[-2], pp1[-1], pp1[-5:])
+				p1[n1-1]=pp1[n]+"_" #n1-n gives a negative value, try to make it automatically without adding -1
 				# p2[n1-1]="_"+pp2[n]
-				p3[n1-1]="_"+pp3[n]
+				# print("p1", p1)
+				p3[n1-1]=pp3[n]+"_"
 				# p4[n1-1]="_"+pp4[n]
 				
 				p1[-1]=pp1[0]+"*"
-				p2[-1]=pp2[0]+".<@br/>"
+				# p2[-1]=pp2[0]+".<@br/>"
 				p3[-1]=pp3[0]+"*"
-				p4[-1]=pp4[0]+"..<@br/>"
-				h = n
-			elif pp2[:n]==pp4[:n] and a==b==c==d==e==i==0:	
+				# p4[-1]=pp4[0]+"..<@br/>"
+				h = 1
+				# print("1,3","p1","".join(p1),"\np2","".join(p2),"\np3", "".join(p3),"\np4", "".join(p4))	
+
+			elif pp2[:n]==pp4[:n] and a==b==c==d==e==i==0 and n!=0:	
 				# p1[n1-1]="_"+pp1[n] #n1-n gives a negative value, try to make it automatically without adding -1
-				#print("n1=",n1)
-				#print("n=",n)
-				####p2[n1-1]="_"+pp2[n]
+				p2[n1-1]="_"+pp2[n]
 				# p3[n1-1]="_"+pp3[n]
-				####p4[n1-1]="_"+pp4[n]
+				p4[n1-1]="_"+pp4[n]
 				
 				# p1[-1]=pp1[0]+"*"
-				p2[-1]=pp2[0]+"*.<@br/>"
+				p2[-1]=pp2[0]+"*"
 				# p3[-1]=pp3[0]+"*"
-				p4[-1]=pp4[0]+"*..<@br/>"
-				i = n	
+				p4[-1]=pp4[0]+"*"
+				i = 1	
+				# print("2,4","p1","".join(p1),"\np2","".join(p2),"\np3", "".join(p3),"\np4", "".join(p4))	
+	
+	p2=p2+[".<@br/>"]
+	p4=p4+["..<@br/>"]
 	p1,p2,p3,p4 = "".join(p1),"".join(p2),"".join(p3),"".join(p4)
 
-	feet = p1+p2+p3+p4
-
+	feet = p1+"| "+p2+p3+"| "+p4
+	# x= "ABC"
+	# print("\ntry", x[-1],x[-2], x[-3])
 	# print(a,b,c,d,e,f,g,h,i)			
 	# print("p1",p1,"\np2",p2,"\np3", p3,"\np4", p4)	
 	return feet
 
 # s1 maMxaM hasaMwaH pulakaM vahaMwaH goRTaM BramaMwaScaRakaMM pivaMwaH . rawiM nayaMwaH suvikASamaMwaH priyAM spqSaMwaH svarivAvasaMwaH.
-def antya_word (s1):
-# manx_aM*has_anwaH*pulak_aM*vah_anwaH*goRTIMSrayanwaScaRak_aM*pib_anwaH*.<@br/>rawinnay_anwaH*suvikASam_anwaH*priyAMspqS_anwaH*svarivAvas_anwaH*..<@br/>
+def antya_word (s1,enc):
+# manx_aM*has_anwaH*pulak_aM*vah_anwaH*goRTIMSrayanwaScaRak_aM*pib_anwaH*.<br/>rawinnay_anwaH*suvikASam_anwaH*priyAMspqS_anwaH*svarivAvas_anwaH*..<br/>
 	# not implemented - dist; freq is right now taken to be more than 1. 
 	# vowel = ['a','A','e','E','i','I','o','O','u','U','q','Q','L']
 	# print("s1_inp\n", s1)
 	ss1 = re.sub ("[Z(\n)(\r)]",r" ",s1)
-	ss1=ss1.split()
+	pattern = r'([a-zA-Z])(?=\.)'
+	# Replace matches with captured group followed by a space and period
+	ss1 = re.sub(pattern, r'\1 ', ss1)
 	# print ("ss1",ss1)
-	ind_ss2 = []#list of [ind and [endings]]
-	ind_ss1 = []#list of [ind and [endings]]
+	ss1=ss1.split()
+	ind_ss2 = []#list of [ind and [endings] upto 2 vowels]
+	ind_ss1 = []#list of [ind and [endings]upto 1 vowel]
 
 	n = 0
 	for i in ss1:
@@ -175,10 +219,16 @@ def antya_word (s1):
 	n1 = 0
 	for i in ss1:
 		last_seq = last(i,1)
+		# print(i, last_seq)
 		ind_ss1.append([n1,list(reversed(last_seq))])
-		n1+=1	
+		n1+=1
+	# checking the length for last 1 vowel sequence
+	ind_ss1_cp = copy.deepcopy(ind_ss1)
+	for item in ind_ss1_cp:
+		if len(item[1])<2:
+			ind_ss1.remove(item)
+			# print(i)
 	ind_ss1.sort()
-	
 	# print("ind_ss2",ind_ss2)
 	# print("ind_ss1",ind_ss1)
 
@@ -225,7 +275,7 @@ def antya_word (s1):
 	for sequence in freq_gr_2_for2:
 		covered_indices.update(sequence[-1])
 
-# Filter the smaller sequences, retaining only those with uncovered indices
+	# Filter the smaller sequences, retaining only those with uncovered indices
 	filtered_freq_gr_1_for1 = []
 	for sequence in freq_gr_2_for1:
 		smaller_seq, indices = sequence
@@ -244,12 +294,15 @@ def antya_word (s1):
 		# print("seq", seq1)
 		seq_pattern = re.compile(re.escape(seq1) + r'\Z')  # Match the end of the string
 		for index in indices:
-			if re.search(seq1, ss1[index]):
-				# print("22")
+			if re.search(seq1, ss1[index]) and seq1 !=".":
 				ss1[index] = seq_pattern.sub("_" + seq1 + "*", ss1[index])
+		
+	# print("ss1 word", ss1)
+	ss1 = [vowel_before(i, enc) for i in ss1]	
+	# print("ss1 new", ss1)
 	ss1 = " ".join(ss1)			
 	ss1 = ss1.replace(".",".<@br/>")
-	ss1 = ss1.replace(".<@br/>.<@br/>", "..<@br/>")			
+	ss1 = ss1.replace(".<@br/>.<@br/>", "..<@br/>")	
 
 	# print(ss1)					
 
@@ -311,21 +364,6 @@ def ak2 (ltf):
 		
 	return ltf
 	
-def dist_lata(ss, lst_lt):
-	nlt = []
-	for i in lst_lt:
-		l = len(i)
-		sp_ss = ss.split(i)
-		for k in range(0,len(sp_ss)):
-#			for s in ss:
-			if len(sp_ss[k]) > 0:
-				if ss[:len(sp_ss[k])] == sp_ss[k] != "" :
-					dis = int(len(sp_ss[k+1]))
-				else:
-					dis = int(len(sp_ss[k]))
-				if dis <= int(l) * 3:
-					nlt.append(i)
-	return nlt
 				
 def vowel(s): # can this be used ?
 	vowels = ['a','A','e','E','i','I','o','O','u','U','q','Q','L','H',"M"]
@@ -393,53 +431,58 @@ def ak22 (ltf): #raHKa
 
 def collat(lst, s):
 	# print("lst",lst)
+	# print("s",s)
+	
 	new_lst = []
 	if lst == ['-----']:
+	#	s = s
 		s = lst[0]
 	else:
 		for i in lst:
 			# print("ii", i)
 			if "," in i: # when 2 ymks in one answer like ["rama", "shyama"]
 				i_lst = i.split(",")
+				# print("ii", i)
 				for il in i_lst:
 					il = rmv_spl_char(il)[0] 
-					# print("\niiiiiiii",il)
 					if re.search(il,s):
 						s = re.sub(il,"_"+il+"*", s)
+						new_lst.append(il)
+
 					if il[-1]=="M":
 						il = il[:-1]+"M"
 						if re.search(il,s):
 							s = re.sub(il,"_"+il+"*", s)
+							new_lst.append(il)
 					if re.search(answ(il),s):
-						s = re.sub(answ(il),"_"+answ(il)+"*", s)		
+						s = re.sub(answ(il),"_"+answ(il)+"*", s)
+						new_lst.append(answ(il))		
 
 			else:
-				new_lst.append(i)
 				if i[-1]=="M":
-					il = i[:-1]+"M"
+					il = answ(i[:-1])+"M"
 					im = i[:-1]+'m'
 					# print("il", il)
 					if re.search(il,s):
 						s = re.sub(il,"_"+il+"*", s)
+						new_lst.append(il)
 					if re.search(im,s):
-						s = re.sub(im,"_"+im+"*", s)	
-				elif re.search(answ(i),s):
-					s = re.sub(answ(i),"_"+answ(i)+"*", s)			
-				elif re.search(i,s):
+						s = re.sub(im,"_"+im+"*", s)
+						new_lst.append(im)
+				if re.search(i,s):
 					s = re.sub(i,"_"+i+"*", s)
-				
+					new_lst.append(i)			
+				if re.search(answ(i),s):
+					s = re.sub(answ(i),"_"+answ(i)+"*", s)
+					new_lst.append(answ(i))	
 	# print("s",s, "\nnew_lst", new_lst )			
-
 	s = s.replace(".",".<@br/>")
 	s = s.replace(".<@br/>.<@br/>", "..<@br/>")
 	return s, new_lst
 	
-	
-	
 def can_add (s, ss, anu):
 	if s != None:
-		#anu[4]["@outp"].append({ss : s})		
-	        anu[4]["@outp"].append({"@prakAra":ss,"@outp": s})
+		anu[4]["@outp"].append({"@prakAra":ss,"@outp":s})		
 
 
 def Sthan(S, lst, ss):
@@ -458,9 +501,6 @@ def Sthan(S, lst, ss):
 		for n in range(0,len(varna_lst)-1):
 			# print("letter", varna_lst[n+1], varna_lst[n] )
 			if varna_lst[n+1][0]-varna_lst[n][0] <= 8:
-				# print("diff", varna_lst[n+1][0]-varna_lst[n][0] )
-				# print("diff2", varna_lst[n+1][0], varna_lst[n][0] )
-				# print("diff2", varna_lst[n+1][1], varna_lst[n][1] )
 				varna_lst1.append(varna_lst[n])
 				varna_lst1.append(varna_lst[n+1])
 	ss = [*ss]
@@ -511,8 +551,6 @@ def kngram(k,letters, ind): #used in cheka
 		kk = []
 		for n in range(0,len(kgram)):
 			if v == kgram[n]:
-#			print(v,n)
-#			print(m)
 				kk.append(n)
 				freq.update({v:kk})
 				kk.sort()
@@ -535,7 +573,7 @@ def kngram(k,letters, ind): #used in cheka
 		if len(v)> 1:
 			for n in range(len(v)):
 				v1.extend(ind_g[v[n]])
-#			print("\nv1", kk, v1)
+			# print("\nv1", kk, v1)
 			ch_ind.update({kk:v1})				
 				
 #	uniq_char = ""#for k-k, k-l-k-l  
@@ -550,7 +588,7 @@ def kngram(k,letters, ind): #used in cheka
 #				print("kk", len(uniq_set), k)
 #				return {},{}
 				ch_ind.pop(kk)
-#	print("ch_ind", ch_ind)																		
+	# print("ch_ind", ch_ind)																		
 	return ch_ind, freq2, freq	
 
 def kngram_vr (k,letters, ind): #used in cheka k= number, letters = cosonants, ind = original ind
@@ -675,35 +713,28 @@ def inp_processor_anuprasa (s1):
 
 	pp1, pp2, pp3, pp4 = last(p1,2), last(p2,2), last(p3,2), last(p4,2)
 
-	# print(pp1,pp2,pp3,pp4)
+	# print("og","p1", p1, pp1,pp2,pp3,pp4)
 	feet = answ(antya_feet(pp1,pp2,pp3,pp4,p1,p2,p3,p4))
 	paxa = answ(antya_word(s_pd))
 
 	# print ("\nPADA", paxa)
 
-	# feet = "manxaMhasanwaHpulakaMvah_anwaH*goRTIMSrayanwaScaRakaMpib_anwaH*.<@br/>rawiMnayanwaHsuvikASam_anwaH*priyAMspqSanwaHsvarivAvas_anwaH*..<@br/>"
-	# paxa = "manx_aM*has_anwaH*pulak_aM*vah_anwaH*goRTIMSrayanwaScaRak_aM*pib_anwaH*.<@br/>rawiMnay_anwaH*suvikASam_anwaH*priyAMspqS_anwaH*svarivAvas_anwaH*..<@br/>"
+	# feet = "manxaMhasanwaHpulakaMvah_anwaH*goRTIMSrayanwaScaRakaMpib_anwaH*.<br/>rawiMnayanwaHsuvikASam_anwaH*priyAMspqSanwaHsvarivAvas_anwaH*..<br/>"
+	# paxa = "manx_aM*has_anwaH*pulak_aM*vah_anwaH*goRTIMSrayanwaScaRak_aM*pib_anwaH*.<br/>rawiMnay_anwaH*suvikASam_anwaH*priyAMspqS_anwaH*svarivAvas_anwaH*..<br/>"
 
 	# print(antya_word(s_pd),"\nfeet",feet)
 
 	#=========================================
 
-	x1 = collat(ak22(lata), ss1)[1]
-	x = collat(ak22(lata), ss1)[0]
-	#print(x)			
-	#print("ss1",ss1)
-
+	x1 = collat(ak22(lata), ss1)[1]#lata list
+	x = collat(ak22(lata), ss1)[0]#actual latanuprasa output
 	
 	dict_all_let = {}
 
 	for n in range(len(ss1)):
 		dict_all_let.update({n:ss1[n]})
-	#print("sict_ss1",dict_all_let)
-
 	inp_s1 = re.sub ("[ Z(\n)(\r)]",r"",inp_s1)
-	# inp_s1 = rmv_spl_char(inp_s1)[2]
-	# print("iiiiiinp_s1",inp_s1)
-	
+
 #-----------------------------------------------------------------------------
 
 	#s = Counter(inp_s1)				
@@ -718,10 +749,14 @@ def inp_processor_anuprasa (s1):
 			dict_let.append([n,ss1[n]])
 			ind_l.append(n)
 		 
-
 	#=======================================CHEKANUPRASA
 	# print("letters", letters)
 	# print("\nind_l", ind_l)
+	elevengram = kngram(11,letters,ind_l)[0]
+	decagram = kngram(10,letters,ind_l)[0]
+	ninegram = kngram(9,letters,ind_l)[0]
+	octagram = kngram(8,letters,ind_l)[0]
+	septagram = kngram(7,letters,ind_l)[0]			
 	hexagram = kngram(6,letters,ind_l)[0]
 	pentagram = kngram(5,letters, ind_l)[0]
 	quad_gram = kngram(4,letters, ind_l)[0]
@@ -731,16 +766,14 @@ def inp_processor_anuprasa (s1):
 	# trigram1 = kngram(3,letters, ind_l)[1]
 	#print("trig3", trigram1)
 #	
-	total_ng = {**hexagram,**pentagram, **quad_gram, **trigram, **bigram}#, **onegram}
-	# final_ng = dict(itertools.islice(total_ng.items(), 1))
-	
+	total_ng = {**elevengram,**decagram, **ninegram, **octagram, **septagram,**hexagram,**pentagram, **quad_gram, **trigram, **bigram}#, **onegram}
 	# print("final_ng", final_ng)
 	# print("total_ng",total_ng)
 	#print(bigram)
 	final_c = {}
 	if len(total_ng) > 1 :
 		final_c = dict(itertools.islice(total_ng.items(),1))
-	#print("final_c",final_c)
+	# print("final_c",final_c)
 	count=0
 	for i,v in total_ng.items():
 		for j,vv in final_c.items():
@@ -749,11 +782,61 @@ def inp_processor_anuprasa (s1):
 		if count==0:
 			final_c.update({i:v})
 		count=0	
-	
-	#New_vr_======================
-	vr_check = final_c
+# =========================
+	# vr_check = final_c#for vrutti 
+	#============= If cheka in lata then remove it; Search example where cheka is index wise not a part=====
+	lata_index = {}						
+	if len(x1) > 0 :
+		for lat in x1 :
+			# strg = no_vowel(lat)
+			n = len(lat)
+			for v in range(len(inp_s1)):
+						if lat == inp_s1[v:v+n]:
+							# print("matched")	
+							lata_index.update({lat:list(range(v, v + n))})
+							# ind_count =+1
+	lata_index = [] #it used to dict of lata : indexes	"n grams done! counted 2 and more than 2 is also done but not validated the result. now dist and duplicate ngrams to be removed. Now what is counted in cheka will not be in 	Vq"
 
+
+	if len(x1) > 0:
+		for lat in x1:
+			strg = no_vowel(lat)
+			n = len(lat)
+			start = 0
+			while True:
+				index = inp_s1.find(lat, start)
+				if index == -1:
+					break
+				lata_index.extend(range(index, index + n))
+				start = index + 1
+	
+	copy_final_c = copy.deepcopy(final_c)#for iteration - index out of range error	
+	for chek_,c in copy_final_c.items():
+		# print(chek_)
+		if all(elem in lata_index for elem in c)== True:
+			del final_c[chek_]
+	
+	# print("inp_s1", inp_s1)
+	# print("\nlata_index", lata_index)
+	# print("\nfinal_c", final_c)
+	# print("\ncopy_final_c", copy_final_c)	
+
+	ind = list(final_c.values())
+	merge_ng = list(itertools.chain.from_iterable(ind))
+	merge_ng = list(set(merge_ng))
+	ss2 = [*ss1]
+	for v in merge_ng :
+		ss2[v] = "_"+ss2[v]+"*"
+	
+	ss2 = "".join(ss2)	
+	ss2 = ss2.replace(".",".<@br/>")
+	ss2 = ss2.replace(".<@br/>.<@br/>", "..<@br/>")
+	# if "*" not in ss2:
+	# 	ss2 = inp_s1
+
+	# print("\nCEKANUPRAS", ss2)
 	#========================New_Vrutti===================
+	vr_check = copy_final_c#for vrutti 
 
 	hexagram_vr = kngram_vr(6,letters,ind_l)[0]
 	pentagram_vr = kngram_vr(5,letters, ind_l)[0]
@@ -764,20 +847,17 @@ def inp_processor_anuprasa (s1):
 	# print("onegram_vr",onegram_vr)
 
 	total_ng_vr = {**hexagram_vr, **pentagram_vr, **quad_gram_vr, **trigram_vr, **bigram_vr, **onegram_vr} 
-#final_ng_vr = dict(itertools.islice(total_ng.items(), 1))
 	if len(total_ng_vr) > 1 :
-		# final_vr = dict(itertools.islice(total_ng_vr.items(),1)) #this takes the first item from the dict.
 		final_vr = total_ng_vr
 
-
 	# print("final_vr", final_vr)	
-#the folloiwng process is to remove the lata and cheka counted in onegram as vr in onegram is counted when the freq is equal or more than 1.  
+	#----the folloiwng process is to remove the lata and cheka counted in onegram as vr in onegram is counted when the freq is equal or more than 1.  
 	# print("vr_check", vr_check)
+		
 	for g, index in final_vr.items(): #creating prob in 'wawo'runa parispanda...
 		i = copy.deepcopy(index)
 		for ans, indx in vr_check.items():
 			if len(g) == 1:
-				# if len(g) == 1:
 				new_index = list(set(index) - set(indx))
 				index.clear()
 				if len(new_index) >= 2:
@@ -797,7 +877,6 @@ def inp_processor_anuprasa (s1):
 					vv1.remove(i)
 				final_vr1.update({kk:vv1})
 			
-		
 	# print("\nfinal_vr", final_vr1)
 	ind_vr = list(final_vr1.values()) #it is a list of  sublists. To merge them the following two steps are taken, then to remove the duplicate elements list(set()) method is used.
 	merge = list(itertools.chain.from_iterable(ind_vr))
@@ -815,56 +894,18 @@ def inp_processor_anuprasa (s1):
 	ss_vr = ss_vr.replace(".",".<@br/>")
 	ss_vr = ss_vr.replace(".<@br/>.<@br/>", "..<@br/>")
 	if "*" not in ss_vr:
-		ss_vr = "-----"
-
-#=============
-	vowels1 = ['a','A','e','E','i','I','o','O','u','U','q','Q','L']
-	if len(x1) > 0 :
-		for i in x1 :
-			# print("i", i)
-			strg = ""
-			for n in range(0,len(i)) :
-				# print(i,n)
-				if i[n] not in vowels1 and i[n] != '"':
-					strg = strg + i[n]
-			# print("strg",strg)		
-			fc = list(final_c.keys())	
-			for l in fc:
-				# print("l",l)
-				if strg == l :
-					final_c.pop(l)
-				elif answ(strg) == l:
-					final_c.pop(l)	
-
-	ind = list(final_c.values())
-	merge_ng = list(itertools.chain.from_iterable(ind))
-	# print("ind", merge_ng)
-	merge_ng = list(set(merge_ng))
-	ss2 = [*ss1]
-	# print("ind_ng",ind)# = list(set(ind))
-	for v in merge_ng :
-		# for v1 in v:
-		ss2[v] = "_"+ss2[v]+"*"
-		# print("CEKANUPRAS", ss2)
-	
-	ss2 = "".join(ss2)	
-	ss2 = ss2.replace(".",".<@br/>")
-	ss2 = ss2.replace(".<@br/>.<@br/>", "..<@br/>")
-	if "*" not in ss2:
-		ss2 = "-----"
-
-	# print("\nCEKANUPRAS", ss2)
+		ss_vr = inp_s1 # vrutti ends----
 	# print("\nVQWWYANUPRAS", ss_vr)	
     
 	#-----------------------------------to remove vq from ch		
+	# print("before",vowel_before ("kArwsny_am*"))
 
-	"n grams done! counted 2 and more than 2 is also done but not validated the result. now dist and duplicate ngrams to be removed. Now what is counted in cheka will not be in 	Vq"
 	#----------------------------------------------------------------------------------------------------------
 	anuprasa = [
 	{"@prakAra" :"lAtAnuprAsa", "@outp": x },
 	{"@prakAra":"CekAnuprAsa", "@outp" : ss2},
 	{"@prakAra" :"vqwwyanuprAsa","@outp" : ss_vr},
-	{"@prakAra" :"anwyAnuprAsa", "@outp" : [{"@prakAra":"pAxa","@outp":feet},{"@prakAra":"paxa","@outp": paxa}] },
+	{"@prakAra" :"anwyAnuprAsa", "@outp" : [{"@prakAra":"pAxa","@outp":feet},{"@prakAra":"paxa","@outp":paxa}] },
 	{"@prakAra" :"SqwyanuprAsa", "@outp" : [] }
 	]
 	#print ("\nSQWYANUPRASA:")	
@@ -875,7 +916,6 @@ def inp_processor_anuprasa (s1):
 	murdha = Sthan("tTdDNrR",dict_all_let, ss1)
 	danta = Sthan("wWxXnlsv",dict_all_let, ss1)
 	oshtha = Sthan("pPbBmv",dict_all_let, ss1)
-
 
 	can_add(kanth,"kaNTya", anuprasa)
 	can_add(talu,"wAlavya", anuprasa)		  

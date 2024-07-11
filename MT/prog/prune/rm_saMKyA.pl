@@ -21,6 +21,7 @@
 
 #Remove the saMKyA analysis, since this we find only in the ganita text.
 #So for general texts, this may be deleted.
+# There are constructions such as 5 of the daemons - rakRasAm paFcAni, where paFcAni would be have the kaaraka role, and not the rakRasAm. hence saMKyA analysis cannot be removed.
 
 while($in = <STDIN>){
   if($in =~ /<vargaH:saMKyA>/) {

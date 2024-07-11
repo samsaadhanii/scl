@@ -147,6 +147,7 @@ value akarmaka_XAwu_list = [
 "Xvan2";
 "Xvana1";
 "Xvq1";
+"ZAf_viS1";
 "aG1";
 "aN1";
 "aN2";
@@ -395,7 +396,6 @@ value akarmaka_XAwu_list = [
 "niR_pax1";
 "ni_Bq1";
 "ni_viS1";
-"ni_vqw1";
 "nqw1";
 "pAra1";
 "pIv1";
@@ -518,6 +518,7 @@ value akarmaka_XAwu_list = [
 "vi_ava_Ro1";
 "vi_car1";
 "vi_ciw2";
+"vi_lap1";
 "vi_smi1";
 "vi_xyuw1";
 "vij2";
@@ -586,6 +587,5 @@ value akarmaka_XAwu_list = [
 "yuX1";
 "yuj2";
 "yuw1";
-"zAf_viS1";
 ]
 ;

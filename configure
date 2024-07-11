@@ -7,7 +7,7 @@ echo "value ltprocbin = \"$LTPROCBIN\"" > ./skt_gen/Sentence/paths.ml
 echo "and cgidir = \"$CGIDIR\"" >> ./skt_gen/Sentence/paths.ml
 echo "and scl_cgi = \"$SCL_CGI\";" >> ./skt_gen/Sentence/paths.ml
 
-#echo "value sclinstalldir = \"$SCLINSTALLDIR\";" > ./MT/prog/kAraka/Prepare_Graph/paths.ml
+#echo "value sclinstalldir = \"$CGIDIR/$SCL_CGI\";" > ./MT/prog/kAraka/Prepare_Graph/paths.ml
 
 #echo "#define SCLINSTALLDIR \"$SCLINSTALLDIR\"" > ./skt_gen/compounds/paths.h
 echo "#define CGIDIR \"$CGIDIR\"" > ./skt_gen/compounds/paths.h
