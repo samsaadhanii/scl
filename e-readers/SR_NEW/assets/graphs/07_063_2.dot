@@ -1,0 +1,18 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+Node1_1 [style=filled, color="#00BFFF" label = "शङ्कितः(1.1)"]
+Node3_1 [style=filled, color="#FF1975" label = "आसीत्(3.1)"]
+Node2_1 [style=filled, color="#FF99FF" label = "च(2.1)"]
+Node4_1 [style=filled, color="#93DB70" label = "नित्यं(4.1)"]
+Node5_1 [style=filled, color="#40E0D0" label = "वीर्येण(5.1)"]
+Node6_1 [style=filled, color="#C6E2EB" label = "राघवे(6.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node3_1 [  label="कर्ता"  dir="back" ]
+Node2_1 -> Node1_1 [  label="सम्बन्धः"  dir="back" ]
+Node4_1 -> Node3_1 [  label="क्रियाविशेषणम्"  dir="back" ]
+Node5_1 -> Node1_1 [  label="कर्ता"  dir="back" ]
+Node6_1 -> Node1_1 [  label="अधिकरणम्"  dir="back" ]
+}

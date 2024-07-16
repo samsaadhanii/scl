@@ -1,0 +1,50 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node3_1 [style=filled, color="#00BFFF" label = "सः(3.1)"]
+Node10_3 [style=filled, color="#00BFFF" label = "पुरस्कृतः(10.3)"]
+
+}
+
+subgraph cluster_2{
+Node4_1 [style=filled, color="#93DB70" label = "महात्मानं(4.1)"]
+Node5_1 [style=filled, color="#93DB70" label = "रामं(5.1)"]
+Node6_2 [style=filled, color="#93DB70" label = "पराक्रमम्(6.2)"]
+
+}
+
+subgraph cluster_3{
+Node8_1 [style=filled, color="#93DB70" label = "भ्रातरं(8.1)"]
+Node9_1 [style=filled, color="#93DB70" label = "रामम्(9.1)"]
+
+}
+Node1_1 [style=filled, color="#FF99FF" label = "गत्वा(1.1)"]
+Node7_1 [style=filled, color="#FF1975" label = "अयाचत्(7.1)"]
+Node2_1 [style=filled, color="#FF99FF" label = "तु(2.1)"]
+Node5_1 [style=filled, color="#93DB70" label = "रामं(5.1)"]
+Node6_1 [style=filled, color="#FFFF00" label = "सत्य-(6.1)"]
+Node6_2 [style=filled, color="#93DB70" label = "पराक्रमम्(6.2)"]
+Node10_3 [style=filled, color="#00BFFF" label = "पुरस्कृतः(10.3)"]
+Node [style=filled, color="" label = "()"]
+Node9_1 [style=filled, color="#93DB70" label = "रामम्(9.1)"]
+Node10_1 [style=filled, color="#FFFF00" label = "आर्य-(10.1)"]
+Node10_2 [style=filled, color="#FFFF00" label = "भाव-(10.2)"]
+/* Start of Relations section */
+
+Node1_1 -> Node7_1 [  label="पूर्वकालः"  dir="back" ]
+Node2_1 -> Node1_1 [  label="सम्बन्धः"  dir="back" ]
+Node3_1 -> Node10_3 [  label="विशेषणम्"  dir="back" ]
+Node4_1 -> Node5_1 [  label="विशेषणम्"  dir="back" ]
+Node5_1 -> Node7_1 [  label="कर्म"  dir="back" ]
+Node6_1 -> Node6_2 [  label="षष्ठी-बहुव्रीहि"  dir="back" ]
+Node6_2 -> Node5_1 [  label="विशेषणम्"  dir="back" ]
+Node8_1 -> Node9_1 [  label="विशेषणम्"  dir="back" ]
+Node9_1 -> Node7_1 [  label="कर्म"  dir="back" ]
+Node10_1 -> Node10_2 [  label="कर्मधारय"  dir="back" ]
+Node10_2 -> Node10_3 [  label="तृतीया-तत्पुरुष"  dir="back" ]
+Node10_3 -> Node7_1 [  label="कर्ता"  dir="back" ]
+Node10_3 -> Node1_1 [ style=dotted label="कर्ता"  dir="back" ]
+}

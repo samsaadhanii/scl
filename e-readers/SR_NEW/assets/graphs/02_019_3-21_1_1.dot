@@ -1,0 +1,85 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node1_2 [style=filled, color="#00BFFF" label = "पतिः(1.2)"]
+Node2_1 [style=filled, color="#00BFFF" label = "दशरथः(2.1)"]
+
+}
+
+subgraph cluster_2{
+Node3_1 [style=filled, color="#93DB70" label = "तम्(3.1)"]
+Node13_1 [style=filled, color="#93DB70" label = "सुतम्(13.1)"]
+Node5_2 [style=filled, color="#93DB70" label = "पराक्रमम्(5.2)"]
+Node11_1 [style=filled, color="#93DB70" label = "प्रियं(11.1)"]
+Node12_1 [style=filled, color="#93DB70" label = "ज्येष्ठं(12.1)"]
+Node15_1 [style=filled, color="#93DB70" label = "रामं(15.1)"]
+
+}
+
+subgraph cluster_3{
+Node4_3 [style=filled, color="#93DB70" label = "सम्पन्नं(4.3)"]
+Node5_2 [style=filled, color="#93DB70" label = "पराक्रमम्(5.2)"]
+
+}
+
+subgraph cluster_4{
+Node7_1 [style=filled, color="#93DB70" label = "युक्तं(7.1)"]
+Node11_1 [style=filled, color="#93DB70" label = "प्रियं(11.1)"]
+Node10_1 [style=filled, color="#93DB70" label = "युक्तं(10.1)"]
+
+}
+Node1_1 [style=filled, color="#FFFF00" label = "मही-(1.1)"]
+Node1_2 [style=filled, color="#00BFFF" label = "पतिः(1.2)"]
+Node2_1 [style=filled, color="#00BFFF" label = "दशरथः(2.1)"]
+Node20_1 [style=filled, color="#FF1975" label = "ऐच्छत्(20.1)"]
+Node4_1 [style=filled, color="#FFFF00" label = "एवं-(4.1)"]
+Node4_2 [style=filled, color="#FFFF00" label = "गुण-(4.2)"]
+Node4_3 [style=filled, color="#93DB70" label = "सम्पन्नं(4.3)"]
+Node5_1 [style=filled, color="#FFFF00" label = "सत्य-(5.1)"]
+Node5_2 [style=filled, color="#93DB70" label = "पराक्रमम्(5.2)"]
+Node6_1 [style=filled, color="#FFFF00" label = "ज्येष्ठ-(6.1)"]
+Node6_2 [style=filled, color="#40E0D0" label = "गुणैः(6.2)"]
+Node7_1 [style=filled, color="#93DB70" label = "युक्तं(7.1)"]
+Node8_1 [style=filled, color="#87CEEB" label = "प्रकृतीनां(8.1)"]
+Node9_1 [style=filled, color="#40E0D0" label = "हितैः(9.1)"]
+Node10_1 [style=filled, color="#93DB70" label = "युक्तं(10.1)"]
+Node13_1 [style=filled, color="#93DB70" label = "सुतम्(13.1)"]
+Node19_1 [style=filled, color="#FF99FF" label = "संयोक्तुम्(19.1)"]
+Node14_1 [style=filled, color="#FF99FF" label = "च(14.1)"]
+Node16_1 [style=filled, color="#FFFF00" label = "प्रकृति-(16.1)"]
+Node16_2 [style=filled, color="#FFFF00" label = "प्रिय-(16.2)"]
+Node16_3 [style=filled, color="#40E0D0" label = "काम्यया(16.3)"]
+Node17_1 [style=filled, color="#40E0D0" label = "प्रीत्या(17.1)"]
+Node18_1 [style=filled, color="#40E0D0" label = "यौवराज्येन(18.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node1_2 [  label="षष्ठी-तत्पुरुष"  dir="back" ]
+Node1_2 -> Node2_1 [  label="विशेषणम्"  dir="back" ]
+Node2_1 -> Node20_1 [  label="कर्ता"  dir="back" ]
+Node3_1 -> Node13_1 [  label="समुच्चितः"  dir="back" ]
+Node4_1 -> Node4_2 [  label="कर्मधारय"  dir="back" ]
+Node4_2 -> Node4_3 [  label="तृतीया-तत्पुरुष"  dir="back" ]
+Node4_3 -> Node13_1 [  label="समुच्चितः"  dir="back" ]
+Node5_1 -> Node5_2 [  label="षष्ठी-बहुव्रीहि"  dir="back" ]
+Node5_2 -> Node13_1 [  label="समुच्चितः"  dir="back" ]
+Node6_1 -> Node6_2 [  label="कर्मधारय"  dir="back" ]
+Node6_2 -> Node7_1 [  label="सहार्थः"  dir="back" ]
+Node7_1 -> Node13_1 [  label="समुच्चितः"  dir="back" ]
+Node8_1 -> Node9_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node9_1 -> Node10_1 [  label="सहार्थः"  dir="back" ]
+Node10_1 -> Node13_1 [  label="समुच्चितः"  dir="back" ]
+Node11_1 -> Node13_1 [  label="समुच्चितः"  dir="back" ]
+Node12_1 -> Node13_1 [  label="समुच्चितः"  dir="back" ]
+Node15_1 -> Node19_1 [  label="कर्म"  dir="back" ]
+Node14_1 -> Node13_1 [  label="समुच्चय_द्योतकः"  dir="back" ]
+Node13_1 -> Node15_1 [  label="विशेषणम्"  dir="back" ]
+Node16_1 -> Node16_2 [  label="षष्ठी-तत्पुरुष"  dir="back" ]
+Node16_2 -> Node16_3 [  label="उपपद-तत्पुरुष"  dir="back" ]
+Node16_3 -> Node19_1 [  label="हेतुः"  dir="back" ]
+Node17_1 -> Node19_1 [  label="हेतुः"  dir="back" ]
+Node18_1 -> Node19_1 [  label="सहार्थः"  dir="back" ]
+Node19_1 -> Node20_1 [  label="इष्कर्म"  dir="back" ]
+}
