@@ -76,6 +76,7 @@ else {$out_converter="";}
 
   if($encoding eq "Itrans"|| $encoding eq "IAST" || $encoding eq "Unicode") {
      $word=&convert($encoding,$word,$myPATH);
+     if ($word =~ /\./) { $word =~ s/\./\|/g;}
   }
    #Since Heritage encode.ml fails on these schemes.
 
