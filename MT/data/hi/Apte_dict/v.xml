@@ -1144,7 +1144,7 @@
 <etymology>[वच्+ल्युट्]</etymology>
 <is_a_part>सरस्वती</is_a_part>
 <jAwi>शब्दः</jAwi>
-<sense no="1">बोलने, उच्चारण करने या कहने की क्रिमा</sense>
+<sense no="1">बोलने, उच्चारण करने या कहने की क्रिया</sense>
 <sense n="2">भाषण, उद्दागार, उक्ति, वाक्यननु वक्तृविशेषनिःस्पृहा गुणगृह्या वचने विपश्चितः<citation>कु* २/५</citation>प्रीतः प्रीतिप्रमुखवचनं स्वागतं व्याजहार<citation>मेघ* ४</citation></sense>
 <sense n="3">दोहराना, पाठ करना</sense>
 <sense n="4">मूल, वाक्य विन्यास, नियम, विधि, धार्मिक ग्रन्थ का सन्दर्भशास्त्रवचनं, श्रुतिवचनं, स्मृतिवचनम् आदि</sense>
@@ -28092,10 +28092,15 @@
 <etymology>[विशाल+दा+क, लस्य रः]</etymology>
 <kind_of>मनुष्यः</kind_of>
 <jAwi>मनुष्यः</jAwi>
-<jAwi>मनुष्यः</jAwi>
 <sense no="1">चतुर, कुशल, प्रवीण, विज्ञ, जानकार, मधुदान विशारदाः<citation>रघु* ९/२९</citation>८/१७, प्रायः समास में</sense>
 <sense n="2">विद्वान्, बुद्धिमान्</sense>
-<sense n="3">बकुलवृक्ष, मौलसिरी का पेड़</sense>
+</lexhead>
+
+<lexhead no="1847a">
+<dentry>विशारद</dentry>
+<prAwipaxikam>विशारद</prAwipaxikam>
+<grammar>पुं*</grammar>
+<sense n="1">बकुलवृक्ष, मौलसिरी का पेड़</sense>
 </lexhead>
 
 <lexhead no="1848">

@@ -15042,7 +15042,13 @@
 <jAwi>मनुष्यः</jAwi>
 <sense no="1">शौर्य के कार्य करना, शक्तिशाली होना</sense>
 <sense n="2">प्रबल उद्योग करना</sense>
-<sense n="3">बहादुर, वीर, पराक्रमी, ताकतवरशून्येषु शूरा न के<citation>काव्य* ७</citation></sense>
+</lexhead>
+
+<lexhead no="1184">
+<dentry>शूर</dentry>
+<prAwipaxikam>शूर</prAwipaxikam>
+<grammar>वि*</grammar>
+<sense n="1">बहादुर, वीर, पराक्रमी, ताकतवर  शून्येषु शूरा न के<citation>काव्य* ७</citation></sense>
 </lexhead>
 
 <lexhead no="761">
@@ -21812,7 +21818,7 @@
 <lexhead no="1176">
 <dentry>श्वेतः</dentry>
 <prAwipaxikam>श्वेत</prAwipaxikam>
-<grammar>वि*</grammar>
+<grammar>पुं</grammar>
 <prAwipaxikam gen="स्त्री">श्वेत</prAwipaxikam>
 <etymology>[श्वित्+घञ्, अच् वा]</etymology>
 <kind_of>परिमाणः</kind_of>
