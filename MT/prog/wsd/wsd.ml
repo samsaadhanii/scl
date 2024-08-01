@@ -653,7 +653,7 @@ value disambiguate_viBakwiH m1 m2 = match m1 with
                |"ji1"
                |"maW1"
                |"manW1"
-               |"muR1" -> [ Relation (id1,cid1,"viBakwiH",string_of_int viBakwiH1,"se","3.3") ]
+               |"muR1" -> [ Relation (id1,cid1,"viBakwiH",string_of_int viBakwiH1,"2se","3.3") ]
                | _ -> []
                ]
                else if rel="xeSAXikaraNam" 
