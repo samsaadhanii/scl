@@ -109,11 +109,15 @@ else {$out_converter="";}
           } else {
           $ans = `echo "$ans" | $out_converter | tail -1 | perl -p -e 's/.*://; s/}//;'`;
           }
+	  $ans =~ s/\[//;
+	  $ans =~ s/\]//;
 	  print $ans;
           print "<br />";
           print "<br />";
-          print "<br />";
           print "Click <a href=\"/cgi-bin/$GlblVar::HERITAGE_Graph_CGI?lex=MW\&cache=f\&st=$st\&us=f\&font=$Hscript\&cp=t\&text=$word\&t=$t\&topic=\&mode=g&pipeline=f\">here</a> to see all possible solutions.";
+          print "<br />";
+          print "<br />";
+	  print "<font color = \"red\">Please note that this segmenter shows the `best' solution which is decided on the basis of statistics. So sometimes, the displayed solution might not be the best one. Also, in a given context, the displayed solution may not be the correct one. In all such cases, the users are requested to use the <a href=\"https://sanskrit.inria.fr\">Heritage Platform</a>, which produces all possible solutions.</font>";
           print "</div><br />";
       } else {
          print $ans;
