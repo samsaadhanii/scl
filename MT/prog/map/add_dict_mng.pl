@@ -23,7 +23,7 @@ $Lang=$ARGV[2];
 
 if($ARGV[3] eq "D") { $DEBUG = 1; } else {$DEBUG = 0;}
 
-open(TMP,"$Data_Path/hi/noun.txt") || die "Can't open $Data_Path/hi/noun.txt for reading";
+open(TMP,"$Data_Path/$Lang/noun.txt") || die "Can't open $Data_Path/$Lang/noun.txt for reading";
 while(<TMP>) {
 chomp;
 $_ =~ /^([^,]+),([^,]+),([^,]+),([^,]+)/;
@@ -34,7 +34,7 @@ $NOUN{$key}=$val;
 }
 close(TMP);
 
-open(TMP,"$Data_Path/hi/pronoun.txt") || die "Can't open pronoun.txt for reading";
+open(TMP,"$Data_Path/$Lang/pronoun.txt") || die "Can't open pronoun.txt for reading";
 while(<TMP>) {
 chomp;
 $_ =~ /^([^,]+),([^,]+),([^,]+)$/;
@@ -44,7 +44,7 @@ $PRATIPADIKAM{$1}=$val;
 $PRONOUN{$key}=$val;
 }
 close(TMP);
-open(TMP,"$Data_Path/hi/tam.txt") || die "Can't open tam.txt for reading";
+open(TMP,"$Data_Path/$Lang/tam.txt") || die "Can't open tam.txt for reading";
 while(<TMP>) {
 chomp;
 $_ =~ /^([^,]+),(.*)$/;
@@ -54,7 +54,7 @@ $TAM{$key}=$val;
 }
 close(TMP);
 
-open(TMP,"$Data_Path/hi/verb.txt") || die "Can't open verb.tam for reading";
+open(TMP,"$Data_Path/$Lang/verb.txt") || die "Can't open verb.tam for reading";
 while(<TMP>) {
 chomp;
 $_ =~ /^([^,]+),([^,]+),([^,]+),v,([^,]+)(,.*)?$/;
@@ -68,7 +68,7 @@ $VERB_RT{$rt}=$val;
 }
 close(TMP);
 
-open(TMP,"$Data_Path/hi/avy.txt") || die "Can't open avy.txt for reading";
+open(TMP,"$Data_Path/$Lang/avy.txt") || die "Can't open avy.txt for reading";
 while(<TMP>) {
 chomp;
 $_ =~ /^([^,]+),avy,(.*)$/;
@@ -78,7 +78,7 @@ $AVY{$key}=$val;
 }
 close(TMP);
 
-open(TMP,"$Data_Path/hi/fem_hnd_noun.txt") || die "Can't open fem_hnd_noun.txt for reading";
+open(TMP,"$Data_Path/$Lang/fem_hnd_noun.txt") || die "Can't open fem_hnd_noun.txt for reading";
 while(<TMP>) {
 chomp;
 $key = $_;
