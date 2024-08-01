@@ -168,7 +168,7 @@ hnd_gen () {
 
 ################
 
- csv2xlsx () {
+ draw_graph () {
    $ANU_MT_PATH/kAraka/draw_graph.pl $GraphvizDot $temp_files_path < $temp_files_path/table_outscript.tsv
    #$MYPYTHONPATH $ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table_outscript.tsv $temp_files_path/table.xlsx
  }
@@ -220,7 +220,7 @@ else
   anvaya_anu_op
   shloka_anu_op
   anvaya_order_tr
-  csv2xlsx
+  draw_graph
   #clean
 fi
 
