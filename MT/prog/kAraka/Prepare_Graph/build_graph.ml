@@ -4079,7 +4079,7 @@ value rlavy_sent_connector m1 m2 text_type = match m2 with
 
 (* ;wvaM mA gacCa. *)
 value rlavy_wifkqw_special m1 m2 text_type = match m2 with
-  [ Wif (id2,cid2,mid2,_,_,pUrvapaxa2,_,_,_,_,_,_,_,_,_,_) ->
+  [ Wif (id2,cid2,mid2,word2,_,pUrvapaxa2,_,_,_,_,_,_,_,_,_,_) ->
      match m1 with
      [ Avy (id1,cid1,mid1,word1,_,_,_,_) -> 
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
@@ -4093,14 +4093,17 @@ value rlavy_wifkqw_special m1 m2 text_type = match m2 with
 			(* BaviwA na ca ....*)
                       then [ Relation (id1,cid1,mid1,"prawiReXaH",id2,cid2,mid2,"38.1",d12)]
                       else []
-           | "kacciw" | "Sam" | "svaswi" | "svAhA" | "svaXA" | "vaRat" | "namaH"
+           | "kacciw" | "Sam" | "svaswi" | "svAhA" | "svaXA" | "vaRat" | "namaH" ->
+			if word2="aswi"
+                        then [ Relation (id1,cid1,mid1,"karwA",id2,cid2,mid2,"38.2",d12)] (* suggested by Dr. Bhagyalata Pataskar *)
+			else []
            | "kim" ->  if id1 = total_wrds.val 
-                       then [ Relation (id1,cid1,mid1,"sambanXaH",id2,cid2,mid2,"38.2",d12)]
+                       then [ Relation (id1,cid1,mid1,"sambanXaH",id2,cid2,mid2,"38.3",d12)]
                        else if  id1 < id2 
                             then if not (id1 = 1) && id2 = id1+1
-                                 then [ Relation (id1,cid1,mid1,"prayojanam1",id2,cid2,mid2,"38.3",d12)]
-                                 else [ Relation (id1,cid1,mid1,"prayojanam1",id2,cid2,mid2,"38.4",d12)
-                                      ; Relation (id1,cid1,mid1,"sambanXaH",id2,cid2,mid2,"38.5",d12)
+                                 then [ Relation (id1,cid1,mid1,"prayojanam1",id2,cid2,mid2,"38.4",d12)]
+                                 else [ Relation (id1,cid1,mid1,"prayojanam1",id2,cid2,mid2,"38.5",d12)
+                                      ; Relation (id1,cid1,mid1,"sambanXaH",id2,cid2,mid2,"38.6",d12)
                                       ]
                             else []
                    (* kim wvam paTasi -> yes/no, prayojanam     29.5,29.6
