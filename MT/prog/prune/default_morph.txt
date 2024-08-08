@@ -81,4 +81,5 @@ xawwvA=xA1<vargaH:avy><kqw_prawyayaH:kwvA><XAwuH:xAN><gaNaH:BvAxiH><level:0>
 xayiwA=xay1<kqw_prawyayaH:wqc><XAwuH:xayaz><gaNaH:BvAxiH><kqw_pratipadika:xayiwq><vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:2>/xay1<kqw_prawyayaH:kwa><XAwuH:xayaz><gaNaH:BvAxiH><kqw_pratipadika:xayiwA><vargaH:nA><lifgam:swrI><viBakwiH:1><vacanam:eka><level:2>
 yaw=yaw<vargaH:avy><level:1>/yax<vargaH:sarva><lifgam:napuM><viBakwiH:1><vacanam:eka><level:1>/yax<vargaH:sarva><lifgam:napuM><viBakwiH:2><vacanam:eka><level:1>
 yawaH=yawaH<vargaH:avy><level:1>
-rAmaH=rAma<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
+#rAmaH=rAma<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1> 
+#We need the Verb analysis of rAmaH as well.
