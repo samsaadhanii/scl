@@ -32,6 +32,8 @@ install:
 	cd amarakosha; make install
 	cd NN; make install
 	cd YMK; make install
+	mkdir -p $(HTDOCSDIR)/$(SCL_HTDOCS)/Post-editing; cp Post-editing/ViewGraph.html $(HTDOCSDIR)/$(SCL_HTDOCS)/Post-editing
+	mkdir -p $(CGIDIR)/$(SCL_CGI)/Post-editing; cp Post-editing/ViewGraph.cgi $(CGIDIR)/$(SCL_CGI)/Post-editing
 	cp -r dhaatupaatha $(HTDOCSDIR)/$(SCL_HTDOCS)
 	cp scl_help.pdf $(HTDOCSDIR)/$(SCL_HTDOCS)
 	mkdir -p $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers
