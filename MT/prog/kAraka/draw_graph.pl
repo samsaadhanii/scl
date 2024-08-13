@@ -20,6 +20,7 @@
 
 $GraphvizDot = $ARGV[0];
 $path = $ARGV[1]; # path for temporary files
+$pid = $ARGV[2]; # pid for post-editing, and 1 for the normal parse
 
 #These color codes are taken from Sanskrit_style.css (MT/web_interface/Sanskrit_style.css)
 
@@ -47,9 +48,8 @@ $color_code_fld_id = 8; # Counted starting from 0
 
 $hdr = "digraph G\{\nrankdir=BT;\n compound=true;\n bgcolor=\"lemonchiffon1\";\n";
 $dir = "back";
-$parse = 1;
 
-$dotfl_nm = "$parse.dot"; 
+$dotfl_nm = "$pid.dot"; 
 
 open TMP1, ">${path}/${dotfl_nm}" || die "Can't open ${path}/${dotfl_nm} for writing";
 print TMP1 $hdr;
@@ -139,11 +139,11 @@ print TMP1 $hdr;
              &writeNclose($rel_str);
              $filehandle_status = "close";
              $rel_str = "";
-             system("$GraphvizDot -Tsvg -o${path}/$parse.svg ${path}/$parse.dot");
+             system("$GraphvizDot -Tsvg -o${path}/$pid.svg ${path}/$pid.dot");
 
          } elsif($filehandle_status eq "open"){
              &print_no_solution();
-             system("$GraphvizDot -Tsvg -o${path}/$parse.svg ${path}/$parse.dot");
+             system("$GraphvizDot -Tsvg -o${path}/$pid.svg ${path}/$pid.dot");
          }
       }
  
