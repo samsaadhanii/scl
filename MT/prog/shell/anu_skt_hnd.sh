@@ -169,7 +169,7 @@ hnd_gen () {
 ################
 
  draw_graph () {
-   $ANU_MT_PATH/kAraka/draw_graph.pl $GraphvizDot $temp_files_path < $temp_files_path/table_outscript.tsv
+   $ANU_MT_PATH/kAraka/draw_graph.pl $GraphvizDot $temp_files_path 1 < $temp_files_path/table_outscript.tsv
    #$MYPYTHONPATH $ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table_outscript.tsv $temp_files_path/table.xlsx
  }
 
