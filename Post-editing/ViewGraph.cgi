@@ -1,4 +1,4 @@
-#!/usr/bin/env perl -w
+#!/usr/bin/env perl
 
 #  Copyright (C) 2023-2024 Amba Kulkarni (ambapradeep@gmail.com)
 #
@@ -47,7 +47,7 @@ my $pid = $$;
 print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
 print "<br>\n<center>";
-open (TMP,">$TFPATH/tmp_$pid");
+open (TMP,">TFPATH/tmp_$pid");
 while (read ($file, my $Buffer, 1024)) {
     print TMP $Buffer;
 }
