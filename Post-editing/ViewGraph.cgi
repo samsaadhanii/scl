@@ -54,7 +54,7 @@ while (read ($file, my $Buffer, 1024)) {
 close (TMP);
 
 print "<body>";
-system ("$CGIDIR/scl/MT/prog/kAraka/draw_graph.pl $GraphvizDot $TFPATH  $pid < $TFPATH/tmp_$pid");
-print "<img src=\"/scl/MT/DEMO/$pid.svg\" width=\"\" height=\"\" \">\n";
+system ("CGIDIR/SCL_CGI/MT/prog/kAraka/draw_graph.pl GraphvizDot TFPATH  $pid < TFPATH/tmp_$pid");
+print "<img src=\"/SCL_CGI/MT/DEMO/$pid.svg\" width=\"\" height=\"\" \">\n";
 print "<\/body>";
 print "<\/html>";
