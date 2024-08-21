@@ -9,7 +9,7 @@ include ../../../../paths.sh
 APATH=./DATA/AkAfkRA
 YPATH=./DATA/yogyawA
 
-FILES = build_graph.ml constraint.ml paths.ml relations.ml $(APATH)/aaxikarma_dhaatu.ml $(APATH)/bhaava_kqw.ml $(APATH)/Sabxakarma_dhaatu.ml \
+FILES = build_graph.ml constraint.ml relations.ml $(APATH)/aaxikarma_dhaatu.ml $(APATH)/bhaava_kqw.ml $(APATH)/Sabxakarma_dhaatu.ml \
 $(APATH)/shakaadi.ml  $(APATH)/shlish_aadi.ml $(APATH)/afgavikaara.ml $(APATH)/akarmaka_dhaatu.ml $(APATH)/amarakosha_jaati.ml \
 $(APATH)/apAxAna_dhaatu.ml $(APATH)/buxXyarWa_dhaatu.ml $(APATH)/gawyarWa_dhaatu.ml $(APATH)/karaNa_dhaatu.ml \
 $(APATH)/karmasamAnAXikaraNa_dhaatu.ml $(APATH)/karwqsamAnAXikaraNa_dhaatu.ml $(APATH)/kqxanwa.ml $(APATH)/nirXAraNa.ml \
@@ -45,7 +45,7 @@ EXECS=$(HPATH)/min_lexer.cmx $(HPATH)/transduction.cmx
 
 VPATH=$(ZEN) $(HPATH)
 
-build_graph: pada_structure.cmi bank_lexer.cmx ascii.cmx trie.cmx min_lexer.cmx transduction.cmx constraint.cmx build_graph.cmx paths.cmx relations.cmx $(APATH)/aaxikarma_dhaatu.cmx $(APATH)/bhaava_kqw.cmx $(APATH)/Sabxakarma_dhaatu.cmx \
+build_graph: pada_structure.cmi bank_lexer.cmx ascii.cmx trie.cmx min_lexer.cmx transduction.cmx constraint.cmx build_graph.cmx relations.cmx $(APATH)/aaxikarma_dhaatu.cmx $(APATH)/bhaava_kqw.cmx $(APATH)/Sabxakarma_dhaatu.cmx \
 $(APATH)/shakaadi.cmx  $(APATH)/shlish_aadi.cmx $(APATH)/afgavikaara.cmx $(APATH)/akarmaka_dhaatu.cmx $(APATH)/amarakosha_jaati.cmx \
 $(APATH)/apAxAna_dhaatu.cmx $(APATH)/buxXyarWa_dhaatu.cmx $(APATH)/gawyarWa_dhaatu.cmx $(APATH)/karaNa_dhaatu.cmx \
 $(APATH)/karmasamAnAXikaraNa_dhaatu.cmx $(APATH)/karwqsamAnAXikaraNa_dhaatu.cmx $(APATH)/kqxanwa.cmx $(APATH)/nirXAraNa.cmx \
@@ -56,7 +56,7 @@ $(YPATH)/guNavacana.cmx $(YPATH)/intensifiers.cmx $(YPATH)/kAlAXikaraNa.cmx $(YP
 $(YPATH)/manuRyaparyAya.cmx $(YPATH)/manuRyasaFjFAvAcI.cmx $(YPATH)/named_entity.cmx $(YPATH)/non_RaRTI.cmx $(YPATH)/pUraNa.cmx \
 $(YPATH)/parAjAwi.cmx $(YPATH)/saMKyeya.cmx $(YPATH)/sambandhavaaci.cmx $(YPATH)/upAXi.cmx $(YPATH)/upapada6.cmx \
 $(YPATH)/waxXiwAnwa.cmx $(YPATH)/xeSAXikaraNa.cmx $(YPATH)/xravyavAcI.cmx $(YPATH)/non_neuter_kartaa_dhaatu.cmx $(YPATH)/jAwivAcaka.cmx
-	$(LINK) unix.cmxa bank_lexer.cmx $(CORE) $(EXECS) constraint.cmx paths.cmx relations.cmx $(APATH)/aaxikarma_dhaatu.cmx $(APATH)/bhaava_kqw.cmx \
+	$(LINK) unix.cmxa bank_lexer.cmx $(CORE) $(EXECS) constraint.cmx relations.cmx $(APATH)/aaxikarma_dhaatu.cmx $(APATH)/bhaava_kqw.cmx \
 $(APATH)/Sabxakarma_dhaatu.cmx $(APATH)/shakaadi.cmx  $(APATH)/shlish_aadi.cmx $(APATH)/afgavikaara.cmx $(APATH)/akarmaka_dhaatu.cmx $(APATH)/amarakosha_jaati.cmx \
 $(APATH)/apAxAna_dhaatu.cmx $(APATH)/buxXyarWa_dhaatu.cmx $(APATH)/gawyarWa_dhaatu.cmx $(APATH)/karaNa_dhaatu.cmx \
 $(APATH)/karmasamAnAXikaraNa_dhaatu.cmx $(APATH)/karwqsamAnAXikaraNa_dhaatu.cmx $(APATH)/kqxanwa.cmx $(APATH)/nirXAraNa.cmx \
