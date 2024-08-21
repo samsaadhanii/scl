@@ -9,12 +9,14 @@ from ymk_processor import inp_processor_yamaka, answ
 #from inp_trans import translit_in, translit_out
 # LATA is coming in cheka and cheka not in vr, but if vr is a part of cheka then it should come.
 ##########################################
-def vowel_before (word, out_enc):# shifts _ before a preceeding consonant y_AH -> _yAH Used in antya_word
+#def vowel_before (word, out_enc):# shifts _ before a preceeding consonant y_AH -> _yAH Used in antya_word
+def vowel_before (word):# shifts _ before a preceeding consonant y_AH -> _yAH Used in antya_word
     # vowel = ['a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U', 'q', 'Q', 'L']
     out_wd = ""
     ind = len(word)-1
     # print("ind", ind)
-    if out_enc == "dev" and "_" in word:
+    #if out_enc == "dev" and "_" in word:
+    if "_" in word:
         while ind >= 0:
             now = word[ind]
             b4 = word[ind -1] 
@@ -174,9 +176,10 @@ def antya_feet(pp1,pp2,pp3,pp4,p1,p2,p3,p4):
 
 			elif pp2[:n]==pp4[:n] and a==b==c==d==e==i==0 and n!=0:	
 				# p1[n1-1]="_"+pp1[n] #n1-n gives a negative value, try to make it automatically without adding -1
-				p2[n1-1]="_"+pp2[n]
+				print(n1)
+				#p2[n1-1]="_"+pp2[n]	 -- AMBA
 				# p3[n1-1]="_"+pp3[n]
-				p4[n1-1]="_"+pp4[n]
+				#p4[n1-1]="_"+pp4[n]	 -- AMBA
 				
 				# p1[-1]=pp1[0]+"*"
 				p2[-1]=pp2[0]+"*"
@@ -197,7 +200,8 @@ def antya_feet(pp1,pp2,pp3,pp4,p1,p2,p3,p4):
 	return feet
 
 # s1 maMxaM hasaMwaH pulakaM vahaMwaH goRTaM BramaMwaScaRakaMM pivaMwaH . rawiM nayaMwaH suvikASamaMwaH priyAM spqSaMwaH svarivAvasaMwaH.
-def antya_word (s1,enc):
+#def antya_word (s1,enc):
+def antya_word (s1):
 # manx_aM*has_anwaH*pulak_aM*vah_anwaH*goRTIMSrayanwaScaRak_aM*pib_anwaH*.<br/>rawinnay_anwaH*suvikASam_anwaH*priyAMspqS_anwaH*svarivAvas_anwaH*..<br/>
 	# not implemented - dist; freq is right now taken to be more than 1. 
 	# vowel = ['a','A','e','E','i','I','o','O','u','U','q','Q','L']
@@ -298,7 +302,8 @@ def antya_word (s1,enc):
 				ss1[index] = seq_pattern.sub("_" + seq1 + "*", ss1[index])
 		
 	# print("ss1 word", ss1)
-	ss1 = [vowel_before(i, enc) for i in ss1]	
+	#ss1 = [vowel_before(i, enc) for i in ss1]	
+	ss1 = [vowel_before(i) for i in ss1]	
 	# print("ss1 new", ss1)
 	ss1 = " ".join(ss1)			
 	ss1 = ss1.replace(".",".<@br/>")

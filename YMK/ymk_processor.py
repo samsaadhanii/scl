@@ -1,6 +1,4 @@
-
-'If we add a clause of minimun distance will the two syllable output stop??? '
-
+#'If we add a clause of minimun distance will the two syllable output stop??? '
 
 #from tabulate import tabulate
 import re
