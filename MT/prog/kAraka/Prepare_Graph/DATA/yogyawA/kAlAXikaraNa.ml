@@ -1,4 +1,5 @@
 value kAlAXikaraNa_list = [
+"AraBya";
 "agaswamAse";
 "ekaxA";
 "aktUbaramAse";
@@ -32,6 +33,7 @@ value kAlAXikaraNa_list = [
 "navambaramAse";
 "nimeRe";
 "parahyaH";
+"paryanwam";
 "zparam";
 "paraSvaH";
 "ParavarImAse";
