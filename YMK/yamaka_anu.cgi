@@ -51,15 +51,17 @@ require "$myPATH/converters/convert.pl";
 
   $shloka_wx=&convert($encoding,$shloka,$myPATH);
   chomp($shloka_wx);
-  open (TMP,">/tmp/a");
+  my $pid = $$;
+  open (TMP,">$GlblVar::TFPATH/$pid");
   print TMP $shloka_wx;
   close(TMP);
 
   print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
   if ($out_encoding eq "IAST") { print "<h3><font color=\"green\"> Yamaka </font></h3>";} else { print "<h3><font color=\"green\"> यमक अलंकार:  </font></h3>";}
-  system("python3 ./ymk_main.py $format < /tmp/a | $conversion_program");
+  system("python3 ./ymk_main.py $format < $GlblVar::TFPATH/$pid | $conversion_program");
   #system("echo $shloka_wx | python3 ./ymk_main.py $format | $conversion_program");
   if ($out_encoding eq "IAST") { print "<h3><font color=\"green\"> Anuprāsa</font> </h3>";} else { print "<h3><font color=\"green\"> अनुप्रास अलंकार:</font></h3>";}
-  system("python3 ./anuprAsa_main.py $format $out_encoding < /tmp/a | $conversion_program");
+  system("python3 ./anuprAsa_main.py $format $out_encoding < $GlblVar::TFPATH/$pid | $conversion_program");
   #system("echo shloka_wx | python3 ./anuprAsa_main.py $format $out_encoding | $conversion_program");
 
+  system("rm $GlblVar::TFPATH/$pid");

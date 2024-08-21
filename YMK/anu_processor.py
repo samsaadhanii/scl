@@ -176,7 +176,7 @@ def antya_feet(pp1,pp2,pp3,pp4,p1,p2,p3,p4):
 
 			elif pp2[:n]==pp4[:n] and a==b==c==d==e==i==0 and n!=0:	
 				# p1[n1-1]="_"+pp1[n] #n1-n gives a negative value, try to make it automatically without adding -1
-				print(n1)
+				#print(n1)
 				#p2[n1-1]="_"+pp2[n]	 -- AMBA
 				# p3[n1-1]="_"+pp3[n]
 				#p4[n1-1]="_"+pp4[n]	 -- AMBA
