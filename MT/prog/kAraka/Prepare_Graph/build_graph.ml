@@ -2,7 +2,7 @@
  * Sanjeev Panchal (2015-2020) *)
 
 
-open Paths;
+(* open Paths; *)
 open Scanf;
 
 open Pada_structure; 
@@ -2342,7 +2342,7 @@ value rlsamAnakAla m1 m2 text_type = match m1 with
                 && not (rt1 = "wax" && lifgam1 = "napuM")
                 && not ((rt1 = "ewax" || rt1="wax") && lifgam1 = "napuM" && (rt2="asmax" || rt2 = "yuRmax"))
 		&& not (member_of rt2 saMKyeya)
-		&& not (member_of rt2 intensifiers_list)
+		(* && not (member_of rt2 intensifiers_list) -- awIva can be a viSeRaNa; awIva XanaM aswi *)
 		   (* && not (pronoun3 rt2)  && member_of rt1 upAXi; pronoun is always preferred as a viSeRya in the absence of a  prANisaFjFAvAci Sabxa *)
            then 
 	   if pronoun3 rt1 && uwwarapaxa2="y"
@@ -2552,7 +2552,7 @@ value rlavy_viSeRaNam m1 m2 text_type = match m2 with
        if word1="iva" &&  (uwwarapaxa1="n") && id1 = id2-1
        then [ Relation (id1,cid1,mid1,"upamAnam_rahiwa_upamAna_xyowakaH",id2,cid2,mid2,"18.1",d12)]
        else
-       if id1 < id2 && member_of word1 avy_viSeRaNam_list
+       if id1 < id2 && (member_of word1 avy_viSeRaNam_list || member_of word1 intensifiers_list)
        then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"18.2",d12)]
        else if id1=previous id2 && member_of word1 intensifiers_list && not (pronominal123 rt2)
        && member_of rt2 guNavacana (* Once it is intensifier, we need not check if it is a guNavacana or not 
@@ -4223,7 +4223,7 @@ value rl_nAma m1 m2 m3 text_type = match m3 with
   | Kqw (id3,cid3,mid3,_,_,_,_,_,_,_,rt3,_,_,lifgam3,viBakwiH3,vacanam3,_)
   | WaxXiwa (id3,cid3,mid3,_,rt3,_,_,_,lifgam3,viBakwiH3,vacanam3,_) -> 
        if  (member_of rt3 jAwivAcaka) || (rt3="praBava")  then  
-(* ikRvAku vaMSaH praBavaH rAmaH nAm janEH SruwaH *)
+(* ikRvAku vaMSaH praBavaH rAmaH nAma janEH SruwaH *)
        match m1 with
        [ Sup (id1,cid1,mid1,_,rt1,_,_,lifgam1,viBakwiH1,_,_) ->
        (*| Kqw (id1,cid1,mid1,_,_,_,_,_,_,_,_,rt1,_,_,lifgam1,viBakwiH1,_,_)
@@ -4232,9 +4232,13 @@ value rl_nAma m1 m2 m3 text_type = match m3 with
 	if lifgam1 = lifgam3 then
         let  d13 = if id1 > id3 then id1-id3 else id3-id1 in
         match m2 with
-             [ Avy (id2,cid2,mid2,word2,_,_,_,_) ->
+             [ Avy (id2,cid2,mid2,word2,_,_,_,_) 
+             | Sup (id2,cid2,mid2,word2,_,_,_,_,_,_,_) ->
                let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
-               if  (word2="nAma" || word2="iwi") (* we can have mArIca nAma rAkRaseNa ... paFca wanwrANi racayiwvA ...*)
+               if  (word2="nAma" || word2="iwi" (* we can have mArIca nAma rAkRaseNa ... paFca wanwrANi racayiwvA ...*)
+                  || (word2 = "nAmakaH" && lifgam1 = "puM")
+                  || (word2 = "nAmakam" && lifgam1 = "napuM")
+                  || (word2 = "nAmikA" && lifgam1 = "swrI"))
                then if (* id2 < id3 ; This need not be just before the category
                     e.g. X nAma ekam nagaram  -- see the presence of ekam! 
 			id2 need not be < id3; rAkRasaM saMxaxarSa kabanXa nAma; here RAkRasaM (id3) is before nAma (id2)
@@ -4243,7 +4247,7 @@ value rl_nAma m1 m2 m3 text_type = match m3 with
                     not (member_of rt3 saMKyeya)
                     (* && (not (pronominal123 rt3) || rt3="kim") saFjFi can be a pronoun *)
                     && not (rt3="kiFciw" || rt3="kiFcana") 
-                    then if id1=previous id2 && word2="nAma" && viBakwiH1=viBakwiH3
+                    then if id1=previous id2 && (word2="nAma"|| word2="nAmakaH" || word2 = "nAmikA" || word2 = "nAmakam") && viBakwiH1=viBakwiH3
                          then [ Relation (id1,cid1,mid1,"saFjFA",id3,cid3,mid3,"39.2",d13)
                               ;  Relation (id2,cid2,mid2,"saFjFA_xyowakaH",id1,cid1,mid1,"39.3",d12)]
                          else if word2="iwi" && viBakwiH1=1
@@ -4650,6 +4654,7 @@ value sent_beginning_connectives id1 cid1 mid1 id2 cid2 mid2 rt2 upasarga2 word1
               |"awaH"
               |"wawaH"
               |"aWa"
+              |"aWakim"
               |"apiwu"
               |"kinwu"
               |"paranwu" -> if ((id1 = 1  && text_type="Prose") || (text_type = "Sloka"))  
