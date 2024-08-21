@@ -5,5 +5,6 @@ value jAwivAcaka_list = [
 "guNa";
 "xeva";
 "BUpawi";
+"bAla";
 ]
 ;
