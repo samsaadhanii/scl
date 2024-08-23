@@ -15,6 +15,7 @@ vagAhya	gAh1<upasarga:ava><vargaH:avy><kqw_prawyayaH:lyap><XAwuH:gAhUz><gaNaH:Bv
 AcCannaH	Cax1<upasarga:Af><kqw_prawyayaH:kwa><XAwuH:Caxiz><gaNaH:curAxiH><kqw_pratipadika:AcCanna><vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 prawijFAwaH	jFA1<upasarga:prawi><kqw_prawyayaH:kwa><XAwuH:jFA1><gaNaH:krayAxiH><kqw_pratipadika:prawijFAwa><vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 niRTiwaH	RWA1<upasarga:ni><kqw_prawyayaH:kwa><XAwuH:RWA1><gaNaH:BvAxiH><kqw_pratipadika:niRTiwa><vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
+BakRayiwum	BakRa2<vargaH:avy><kqw_prawyayaH:wumun><XAwuH:BakRa><gaNaH:curAxiH><level:1>
 Aganwum	gam1<vargaH:avy><upasarga:Af><kqw_prawyayaH:wumun><XAwuH:gamlqz><gaNaH:BvAxiH><level:1>
 AgawavAn	Agawavaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 AhvayAmaH	hve1<upasarga:Af><prayogaH:karwari><lakAraH:lat><puruRaH:u><vacanam:bahu><paxI:parasmEpaxI><XAwuH:hveF><gaNaH:BvAxiH><level:1>
