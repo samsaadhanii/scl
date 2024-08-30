@@ -495,7 +495,7 @@ saMnyAsinaH	saMnyAsin<vargaH:nA><lifgam:puM><viBakwiH:6><vacanam:eka><level:1>
 saMsWApya	RWA1<upasarga:sam><vargaH:avy><kqw_prawyayaH:lyap><XAwuH:RWA><gaNaH:BvAxiH><level:1>
 saMsixXim	saMsixXi<kqw_XAwu:RiX><upasarga:sam><kqw_prawyayaH:kwin><XAwuH:RiX><gaNaH:xivAxiH>sixXi<vargaH:nA><lifgam:swrI><viBakwiH:2><vacanam:eka><level:1>
 anusaMhqwiH	<kqw_XAwu:hq><upasarga:anu_sam><kqw_prawyayaH:kwin><XAwuH:hqF><gaNaH:BvAxiH>anusaMhqwi<vargaH:nA><lifgam:swrI><viBakwiH:2><vacanam:eka><level:1>
-apoxXqwya	Xq<upasarga:ap_uw><vargaH:avy><kqw_prawyayaH:lyap><XAwuH:XqF><gaNaH:BvAxiH><level:1>
+apoxXqwya	Xq<upasarga:apa_uw><vargaH:avy><kqw_prawyayaH:lyap><XAwuH:XqF><gaNaH:BvAxiH><level:1>
 saMswaBya	RwaB1<upasarga:sam><vargaH:avy><kqw_prawyayaH:lyap><XAwuH:RwaBiz><gaNaH:BvAxiH><level:1>
 saMvAhyamAnam	saMvAhyamAn<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:xvi><level:1>
 saMvarXiwaH	vqXuz<upasarga:sam><kqw_prawyayaH:kwa><XAwuH:vqXuz><gaNaH:BvAxiH><kqw_pratipadika:saMvarXiwa><vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>

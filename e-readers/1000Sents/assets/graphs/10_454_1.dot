@@ -1,0 +1,22 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+Node1_1 [style=filled, color="#FF99FF" label = "नहि(1.1)"]
+Node [style=filled, color="" label = "()"]
+Node2_1 [style=filled, color="#00BFFF" label = "अहं(2.1)"]
+Node8_1 [style=filled, color="#FF1975" label = "इच्छामि(8.1)"]
+Node3_1 [style=filled, color="#FF99FF" label = "पश्चात्(3.1)"]
+Node5_1 [style=filled, color="#FF99FF" label = "कृत्वा(5.1)"]
+Node4_1 [style=filled, color="#93DB70" label = "व्यायामं(4.1)"]
+Node6_1 [style=filled, color="#93DB70" label = "स्नानं(6.1)"]
+Node7_1 [style=filled, color="#FF99FF" label = "कर्तुम्(7.1)"]
+/* Start of Relations section */
+
+Node2_1 -> Node8_1 [  label="कर्ता"  dir="back" ]
+Node3_1 -> Node5_1 [  label="कालाधिकरणम्"  dir="back" ]
+Node4_1 -> Node5_1 [  label="कर्म"  dir="back" ]
+Node5_1 -> Node8_1 [  label="पूर्वकालः"  dir="back" ]
+Node6_1 -> Node7_1 [  label="कर्म"  dir="back" ]
+Node7_1 -> Node8_1 [  label="इष्कर्म"  dir="back" ]
+}

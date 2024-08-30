@@ -1,0 +1,29 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node1_1 [style=filled, color="#C6E2EB" label = "कस्मिंश्चित्(1.1)"]
+Node2_1 [style=filled, color="#C6E2EB" label = "ग्रामे(2.1)"]
+
+}
+
+subgraph cluster_2{
+Node3_2 [style=filled, color="#00BFFF" label = "नामकः(3.2)"]
+Node4_1 [style=filled, color="#00BFFF" label = "कृषीवलः(4.1)"]
+
+}
+Node2_1 [style=filled, color="#C6E2EB" label = "ग्रामे(2.1)"]
+Node5_1 [style=filled, color="#FF1975" label = "आसीत्(5.1)"]
+Node3_1 [style=filled, color="#FFFF00" label = "धर्मदत्त-(3.1)"]
+Node3_2 [style=filled, color="#00BFFF" label = "नामकः(3.2)"]
+Node4_1 [style=filled, color="#00BFFF" label = "कृषीवलः(4.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node2_1 [  label="विशेषणम्"  dir="back" ]
+Node2_1 -> Node5_1 [  label="अधिकरणम्"  dir="back" ]
+Node3_1 -> Node3_2 [  label="समासः"  dir="back" ]
+Node3_2 -> Node4_1 [  label="विशेषणम्"  dir="back" ]
+Node4_1 -> Node5_1 [  label="कर्ता"  dir="back" ]
+}

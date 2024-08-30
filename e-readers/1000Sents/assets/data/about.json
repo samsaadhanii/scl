@@ -1,0 +1,8 @@
+[
+    {
+	"para":"This version captures salient features of understanding analysis of simple Sanskrit sentences viz., पद-विभागः (word-separation), अन्वयः (sentence order), पद-परिचयः (word analysis), कारकसम्बन्धः (kāraka relations), सन्धि-विच्छेदः (sandhi-split) etc. following Samsaadhanii's new tagging guidelines."
+    },
+    {
+        "para":"The analysis of each of the sentences is done using Samsaadhanii Platform"
+    }
+]

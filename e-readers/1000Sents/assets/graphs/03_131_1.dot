@@ -1,0 +1,12 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+Node1_1 [style=filled, color="#B4FFB4" label = "ईश्वरात्(1.1)"]
+Node3_1 [style=filled, color="#FF1975" label = "भवति(3.1)"]
+Node2_1 [style=filled, color="#00BFFF" label = "ज्ञानं(2.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node3_1 [  label="अपादानम्"  dir="back" ]
+Node2_1 -> Node3_1 [  label="कर्ता"  dir="back" ]
+}
