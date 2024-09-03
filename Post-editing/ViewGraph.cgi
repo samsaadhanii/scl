@@ -24,37 +24,24 @@
 # prevents people from uploading
 # large files to slow down your
 # server:
-$CGI::POST_MAX=1024 * 100;
 
-use strict;
-use File::Copy;
-use CGI qw/:standard/;
 use strict;
 use warnings;
 
-
-# get filename args
-my $cgi = new CGI or die "new CGI: $!\n";
-
-# The contents of your file is contained
-# in this scalar:
-my $file = $cgi->param('file');
-$file =~ /.*\."?(\w*)"?$/;
-
-my $in; 
+my $buffer;
 my $pid = $$;
+
+open (TMP,">TFPATH/tmp_$pid");
+read(STDIN, $buffer, $ENV{'CONTENT_LENGTH'});
+print TMP $buffer;
+close (TMP);
 
 print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
 print "<br>\n<center>";
-open (TMP,">TFPATH/tmp_$pid");
-while (read ($file, my $Buffer, 1024)) {
-    print TMP $Buffer;
-}
-close (TMP);
 
 print "<body>";
 system ("CGIDIR/SCL_CGI/MT/prog/kAraka/draw_graph.pl GraphvizDot TFPATH  $pid < TFPATH/tmp_$pid");
-print "<img src=\"/SCL_CGI/MT/DEMO/$pid.svg\" width=\"\" height=\"\" \">\n";
+print "<img src=\"/scl/MT/DEMO/$pid.svg\" width=\"\" height=\"\" \">\n";
 print "<\/body>";
 print "<\/html>";
