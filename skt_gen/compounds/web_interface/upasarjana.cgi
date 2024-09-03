@@ -149,6 +149,6 @@ use warnings;
 
  #print "calling aluk with samAsAnwa = $samAsAnwaupasarjana<br/>";
   # Note the changed word order of components
-  my $cmd = "$myPATH/aluk.out \"$encodingupasarjana\" \"$avigrahaupasarjana\" \"$p1upasarjana\" \"$s1upasarjana\" \"$p2upasarjana\" \"$s2upasarjana\" \"$samAsaprakAraupasarjana\" \"$samAsAnwaupasarjana\" $dividupasarjana";
+  my $cmd = "$compPATH/aluk.out \"$encodingupasarjana\" \"$avigrahaupasarjana\" \"$p1upasarjana\" \"$s1upasarjana\" \"$p2upasarjana\" \"$s2upasarjana\" \"$samAsaprakAraupasarjana\" \"$samAsAnwaupasarjana\" $dividupasarjana";
   system($cmd);
   #}
