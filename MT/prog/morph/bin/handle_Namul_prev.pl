@@ -26,7 +26,7 @@ while($ana = <STDIN>){
   $found = 0; 
      if($ana =~ /<kqw_prawyayaH:Namul>/) {
 
-#If the following word has Namul analysis, then keep only the Namul analysis.
+#If the following word has Namul analysis, then keep only the Namul analysis. Ex: Bojam Bojam/ BukwvA BukwvA / pIwvA pIwvA / pAyam pAyam / smAram smAram
 
           foreach ($i=0; $i<=$#prev_ana;$i++){
             if($prev_ana[$i] =~ /<kqw_prawyayaH:Namul>/) {
