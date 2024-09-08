@@ -58,7 +58,7 @@ print TMP1 $hdr;
 
 	for ($i=0;$i<=$#in;$i++) { 
           chomp($in[$i]);
-	  if ($in[$i] !~ /^word/) { #ignore the header
+	  if ($in[$i] !~ /index\tword\t/) { #ignore the header
           @flds = split(/\t/,$in[$i]);
          # if ($flds[0] =~ /^([0-9]+)[\.\।]([2-9])/) {
          #    $label .= $flds[$wrd_fld_id];
