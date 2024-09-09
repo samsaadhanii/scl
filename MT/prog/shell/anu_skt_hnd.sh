@@ -35,7 +35,7 @@ export LC_ALL=POSIX
 my_converters (){
   if [ $OUTSCRIPT = "IAST" ]; then
      my_converter="$CGIDIR/$SCL_CGI/converters/wx2utf8roman.out"
-     my_converter_wxHindi="$CGIDIR/scl/converters/wx2utf8roman.out"
+     my_converter_wxHindi="$CGIDIR/$SCL_CGI/converters/wx2utf8roman.out"
   fi
 
   if [ $OUTSCRIPT = "DEV" ]; then
@@ -79,7 +79,7 @@ morph () {
 }
 
 shaabdabodha () {
-  $ANU_MT_PATH/kAraka/shabdabodha.sh $CGIDIR/scl $GraphvizDot $temp_files_path $fbn.out $fbn.kAraka $OUTSCRIPT $PARSE $TEXT_TYPE
+  $ANU_MT_PATH/kAraka/shabdabodha.sh $CGIDIR/$SCL_CGI $GraphvizDot $temp_files_path $fbn.out $fbn.kAraka $OUTSCRIPT $PARSE $TEXT_TYPE
 # Field 7: morph analysis corresponding to the kaaraka role
 # Field 8: kaaraka role
 # Field 9: all possible relations
