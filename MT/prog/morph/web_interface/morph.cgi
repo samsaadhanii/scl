@@ -131,9 +131,10 @@ my $format="web";
                   $color = "skyblue";
                } else {$link1 = ""; $color = "lavender"; }
             } elsif ($ans =~ /waxXiwa/){
-               #$link = &handle_waxXiwa($format,$rt,$ans); 
-		$link = $rt_outencoding;
-               $color = "lightgreen";
+                 $rt_outencoding = &my_convert($rt,$outencoding);
+                 #$link = &handle_waxXiwa($format,$rt,$rt_outencoding,$ans); 
+		 $link = $rt_outencoding;
+                 $color = "lightgreen";
             } elsif ($ans =~ /{vargaH:nA}/ ) {
                 $link = &handle_noun($format,$rt,'nA',$outencoding,$ans); 
                 $color = "skyblue";
@@ -225,10 +226,9 @@ $link;
 1;
 
 sub handle_waxXiwa{
-    my($format,$rt,$ans) = @_;
+    my($format,$rt,$rt_outencoding,$ans) = @_;
     my($link,$lifga);
     if ($ans =~ /(puM|napuM|swrI)/){ $lifga = $1;}
-    $rt_outencoding = &my_convert($rt,$outencoding);
     if($format eq "web") { $link = "<a href=\"javascript:generate_waxXiwa_forms('WX','$rt','$lifga')\">$rt_outencoding</a>";}
      else { $link = "\"APP\":\"waxXiwa\",\"encoding\":\"WX\",\"rt\":\"$rt\",\"linga\":\"$lifga\",\"RT\":\"$rt_outencoding\"";}
   $link;

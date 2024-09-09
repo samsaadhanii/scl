@@ -25,8 +25,8 @@
 [ ]uwa[ ]Aho[ ]sviw	{printf(" uwAhosviw");}
 ^upari[ ]upari	{printf("uparyupari");}
 [ ]upari[ ]upari	{printf(" uparyupari");}
-^ki[mM][ ]api	{printf("kimapi");}
-[ ]ki[mM][ ]api	{printf(" kimapi");}
+	/*^ki[mM][ ]api	{printf("kimapi");} */
+	/*[ ]ki[mM][ ]api	{printf(" kimapi");} */
 ^ki[mM][ ]arWa[mM]	{printf("kimarWam");}
 [ ]ki[mM][ ]arWa[mM]	{printf(" kimarWam");}
 ^ki[mM][ ]ca	{printf("kiFca");}

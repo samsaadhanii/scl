@@ -3351,7 +3351,7 @@ value rlkarwqsamAnAXikaraNam m1 m2 m3 text_type = match m2 with
            (*&& (not (viBakwiH1=1 && rt1="kim") || (rt1="kim" && viBakwiH1=viBakwiH2 && vacanam1=vacanam2 && lifgam1=lifgam2))*)
            (* parIkRA-arWinaH mArge kim aBavaw -- parIkRA-arWinaH should not be karwqsamAnAXikaraNam *)
            && not (rt2 = get_assoc rt1 parAjAwi_list)
-           && ((member_of rt2 guNavacana) || member_of rt2 sambanXavAcI || member_of rt2 upAXi || uwwarapaxa2 = "y" || rt1="ewax" || rt1="wax" || member_of rt2 taddhitaantas || member_of rt2 intensifiers_list) (* yogyawA  awra SuxXaM jalaM aswi; jalam should not be marked as a viXeya viSeRaNam ; eRA SobanA velA aswi. velA is not a guNavacana*)
+           && ((member_of rt2 guNavacana) || member_of rt2 sambanXavAcI || member_of rt2 upAXi || uwwarapaxa2 = "y" || rt1="ewax" || rt1="wax" || member_of rt2 taddhitaantas || member_of rt2 intensifiers_list|| rt2="kim") (* yogyawA  awra SuxXaM jalaM aswi; jalam should not be marked as a viXeya viSeRaNam ; eRA SobanA velA aswi. velA is not a guNavacana*)
            (* && not (pUrva2=uwwara2) || (member_of rt2 guNavacana)) *)
            && not (rt1="kiFciw" || rt1="kiFcana"|| rt1="yAvaw" || rt1="wAvaw" ) (* yogyawA  To stop: kA hAniH Bavawi hAniH is karwqsamAnAXikaraNa of kA
            Earlier kim was also included in the above list. But hAniH as karwqsam is OK. This is similar to sunxara-kANde kim na sunxaram bhavawi *)
