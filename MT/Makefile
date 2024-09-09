@@ -20,7 +20,7 @@ install:
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/chunker; cp prog/chunker/lwg.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/chunker;
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/Discourse; cp prog/Discourse/discourse_analysis.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/Discourse
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/format; cp prog/format/gen_table.out $(CGIDIR)/$(SCL_CGI)/MT/prog/format
-	cd prog/Heritage_morph_interface; make install
+	cd prog/Heritage_morph_interface; make; make install
 	cd prog/interface; make install
 	cd prog/kAraka; make install
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/map; cp prog/map/add_dict_mng.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/map; cp prog/map/lwg_avy_avy.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/map; cp prog/map/causal_verb_handler.py $(CGIDIR)/$(SCL_CGI)/MT/prog/map
