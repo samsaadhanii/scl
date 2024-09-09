@@ -9,6 +9,7 @@
 **/WIP
 **/OLD
 **/TRASH
+**/.DS_Store
 *.annot
 *.class
 *.cmi
