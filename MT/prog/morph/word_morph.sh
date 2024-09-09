@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 #  Copyright (C) 2009-2024 Amba Kulkarni (ambapradeep@gmail.com)
 #
