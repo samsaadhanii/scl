@@ -19852,7 +19852,7 @@
             Wi(
               "You selected Chapter ",
               t.chapterNo,
-              " and Sloka ",
+              " and Sentence ",
               t.slokaNo,
               "",
             ),
@@ -20032,7 +20032,7 @@
                                         (this.sentTwoBStat = "yes")));
             "" == this.sentOneStat
               ? (np.a.fire({
-                  text: "The Analysis Not Found for this Sloka!",
+                  text: "The Analysis Not Found for this Sentence!",
                   icon: "info",
                 }),
                 (this.shwAna = !1))
