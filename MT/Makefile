@@ -28,7 +28,7 @@ install:
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/morph_bin; cp  ../morph_bin/* $(CGIDIR)/$(SCL_CGI)/morph_bin;
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/Normalisation; cp prog/Normalisation/lwg.out $(CGIDIR)/$(SCL_CGI)/MT/prog/Normalisation; cp prog/Normalisation/get_std_spelling.out $(CGIDIR)/$(SCL_CGI)/MT/prog/Normalisation; cp prog/Normalisation/*.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/Normalisation;
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/prune; cp prog/prune/* $(CGIDIR)/$(SCL_CGI)/MT/prog/prune
-	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/reader_generator; cp prog/reader_generator/extract.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/reader_generator;
+	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/reader_generator; cp prog/reader_generator/extract.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/reader_generator; cp prog/readers_generator/csv2json.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/reader_generator;
 	cd prog/sandhi_splitter; make install
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/hn/sent_gen; cp prog/hn/sent_gen/agreement.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/hn/sent_gen; cp prog/hn/sent_gen/*.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/hn/sent_gen;
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/shell; cp prog/shell/anu_skt_hnd.sh $(CGIDIR)/$(SCL_CGI)/MT/prog/shell
