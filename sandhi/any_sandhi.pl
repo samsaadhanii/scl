@@ -1725,16 +1725,11 @@
 #"n,E,nE,diPAlt,,,", #Commented by Amba
 #"n,o,no,diPAlt,,,", #Commented by Amba
 #"n,O,nO,diPAlt,,,", #Commented by Amba
-#"n,k,nk,dePAlt,,,",#Commented by Amba
-#"n,K,nK,dePAlt,,,",#Commented by Amba
-#"n,g,ng,dePAlt,,,",#Commented by Amba
-#"n,G,nG,dePAlt,,,",#Commented by Amba
-#"n,f,nf,dePAlt,,,",#Commented by Amba
-"n,k,fk,dePAlt,,,", #Added by Amba
-"n,K,fK,dePAlt,,,", #Added by Amba
-"n,g,fg,dePAlt,,,", #Added by Amba
-"n,G,fG,dePAlt,,,", #Added by Amba
-"n,f,f,dePAlt,,,", #Added by Amba
+#"n,k,nk,dePAlt,,,",#Commented by Amba  n at the end of a pada does not undergo any change. Kale page 25, $36 a
+#"n,K,nK,dePAlt,,,",#Commented by Amba  n at the end of a pada does not undergo any change. Kale page 25, $36 a
+#"n,g,ng,dePAlt,,,",#Commented by Amba  n at the end of a pada does not undergo any change. Kale page 25, $36 a
+#"n,G,nG,dePAlt,,,",#Commented by Amba  n at the end of a pada does not undergo any change. Kale page 25, $36 a
+#"n,f,nf,dePAlt,,,",#Commented by Amba  n at the end of a pada does not undergo any change. Kale page 25, $36 a
 "n,c,Fc,dePAlt,,,",
 "n,C,FC,dePAlt,,,",
 "n,j,Fj,Scuwva,swoH ScunA ScuH (8.4.40),",
