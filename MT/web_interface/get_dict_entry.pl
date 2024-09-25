@@ -93,6 +93,7 @@ elsif($dic_name eq "mw"){
 	   $filename = "";
         } else {
 	   $filename = "$Files_Path/en/MW/$l.html";
+	   #print "filename = $filename\n";
         }
 }
 elsif($dic_name eq "ccs"){
@@ -194,7 +195,7 @@ sub mw_result{
 	my ($count) = 0;
 	my($epno) = 0;
 	$sword1 = $sword;
-	$sword1 =~ s/ा//;
+	$sword1 =~ s/ा$//;
      
 	$/ = "<hr xmlns=\"\">";
 	while($in = <TMP>){

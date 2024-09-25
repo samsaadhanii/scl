@@ -39,9 +39,12 @@ close (TMP);
 print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
 print "<br>\n<center>";
-
 print "<body>";
+
 system ("CGIDIR/SCL_CGI/MT/prog/kAraka/draw_graph.pl GraphvizDot TFPATH  $pid < TFPATH/tmp_$pid");
 print "<img src=\"/scl/MT/DEMO/$pid.svg\" width=\"\" height=\"\" \">\n";
+
+system("rm TFPATH/tmp_$pid");
+
 print "<\/body>";
 print "<\/html>";
