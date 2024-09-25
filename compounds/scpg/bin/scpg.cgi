@@ -30,7 +30,7 @@ open(TMPIN,">/tmp/scp/input_scpg$pid");
 	print TMPIN "$cnvrt_wrd";
 close(TMPIN);
 
-#	system("/bin/sh ../src/run.sh /tmp/scp/input_scpg$pid");
+#	system("/bin/bash ../src/run.sh /tmp/scp/input_scpg$pid");
 	system("/usr/bin/perl run.pl /tmp/scp/input_scpg$pid > /tmp/scp/output$pid ");
 	system("/bin/cat /tmp/scp/output$pid |../../converters/ri_skt | ../../converters/iscii2utf8.py 1 > /tmp/scp/output_fin$pid");
 

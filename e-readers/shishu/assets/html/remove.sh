@@ -1,4 +1,4 @@
-#!/usr/bin/sh
+#!/usr/bin/bash
 
 files=($(find . -type f -name SV-*.*))
 for fileName in ${files[*]}

@@ -1,4 +1,4 @@
-SHELL = /bin/sh
+SHELL = /bin/bash
 
 TARGETS = gen_table.out
 

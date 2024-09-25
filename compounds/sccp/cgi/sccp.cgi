@@ -28,7 +28,7 @@ open(TMPIN,">/tmp/scp/input$pid");
 	print TMPIN "$cnvrt_wrd";
 close(TMPIN);
 
-	system("/bin/sh ../src/run.sh /tmp/scp/input$pid");
+	system("/bin/bash ../src/run.sh /tmp/scp/input$pid");
 	system("/usr/bin/perl eval_new.pl bigram_full.dbm unigram_full.dbm /tmp/scp/output$pid < /tmp/scp/input$pid > /tmp/scp/output_log$pid");
 	system("/bin/cat /tmp/scp/output$pid |../../converters/ri_skt | ../../converters/iscii2utf8.py 1 > /tmp/scp/output_fin$pid");
 

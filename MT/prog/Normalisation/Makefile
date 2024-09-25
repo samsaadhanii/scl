@@ -1,4 +1,4 @@
-SHELL = /bin/sh
+SHELL = /bin/bash
 
 TARGETS = lwg.out get_std_spelling.out
 

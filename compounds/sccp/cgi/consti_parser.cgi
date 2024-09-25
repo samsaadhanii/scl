@@ -29,7 +29,7 @@ close(INP);
 
 my $path="/home/pankajvyas/public_html/SCP/consti_parse/cgi";
 
-#system("/bin/sh /home/anil/public_html/SCP/cgi/bin/rund.sh < /tmp/FCONV$$");
+#system("/bin/bash /home/anil/public_html/SCP/cgi/bin/rund.sh < /tmp/FCONV$$");
 
 system("/usr/bin/perl $path/eval_new.pl $path/bigram_full.dbm $path/unigram_full.dbm /tmp/output < /tmp/FCONV$$ >/tmp/consti_log");
 
