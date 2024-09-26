@@ -40,6 +40,7 @@ install:
 	cp -r e-readers/sankshepa_ramayanam $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers
 	cp -r e-readers/1000Sents $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers
 	cp -r e-readers/SR_NEW $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers
+	cp -r e-readers/AH $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers
 	cp -r e-readers/shishu $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers; cd e-readers/shishu/assets; perl add_url_install.pl < dicturl.json > $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers/shishu/assets/dicturl.json
 	cd e-readers/sbg; make install
 	cp -r GOLD_DATA $(HTDOCSDIR)/$(SCL_HTDOCS)
