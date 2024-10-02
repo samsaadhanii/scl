@@ -2,7 +2,7 @@ SHELL = /bin/bash
 
 include ../paths.sh
 
-SUBDIRS = prog/format prog/Normalisation prog/hn/word_gen/test prog/translation prog/kAraka/Prepare_Graph prog/wsd
+SUBDIRS = prog/format prog/Normalisation prog/hn/word_gen/test prog/translation prog/kAraka/Prepare_Graph prog/wsd prog/Heritage_morph_interface
 
 all: $(SUBDIRS)
 test: test
