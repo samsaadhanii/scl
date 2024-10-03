@@ -36,6 +36,7 @@ read(STDIN, $buffer, $ENV{'CONTENT_LENGTH'});
 print TMP $buffer;
 close (TMP);
 
+print "Access-Control-Allow-Origin: *\n";
 print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
 
 print "<br>\n<center>";
