@@ -41,10 +41,10 @@ $cluster_no = 0;
 $rel_str = "";
 $solnfound = 0;
 
-
-$wrd_fld_id = 1; # Counted starting from 0
-$rel_fld_id = 6; # Counted starting from 0
-$color_code_fld_id = 8; # Counted starting from 0
+$indx = 0;
+$wrd_fld_id = 1; # Counting starting from 0
+$rel_fld_id = 6; # Counting starting from 0
+$color_code_fld_id = 8; # Counting starting from 0
 
 $hdr = "digraph G\{\nrankdir=BT;\n compound=true;\n bgcolor=\"lemonchiffon1\";\n";
 $dir = "back";
@@ -56,19 +56,19 @@ print TMP1 $hdr;
 
 @in = <STDIN>;
 
-	for ($i=0;$i<=$#in;$i++) { 
+	for ($i=0;$i<=$#in;$i++) {
           chomp($in[$i]);
 	  if ($in[$i] !~ /index\tword\t/) { #ignore the header
           @flds = split(/\t/,$in[$i]);
-         # if ($flds[0] =~ /^([0-9]+)[\.\।]([2-9])/) {
+         # if ($flds[$indx] =~ /^([0-9]+)[\.\।]([2-9])/) {
          #    $label .= $flds[$wrd_fld_id];
          # } else {$label = $flds[$wrd_fld_id];}
          $label = $flds[$wrd_fld_id];
-          $flds[0] =~ /^([0-9]+)[\.\।]/;
-          $word{$flds[0]} = $label."(".$flds[0].")";
+          $flds[$indx] =~ /^([0-9]+)[\.\।]/;
+          $word{$flds[$indx]} = $label."(".$flds[$indx].")";
           $tmp = $flds[$color_code_fld_id];
           $tmp =~ s/@//;
-          $wcolor{$flds[0]} = $color{$tmp}; 
+          $wcolor{$flds[$indx]} = $color{$tmp}; 
          
              @rels = split(/;/,$flds[$rel_fld_id]);
              for ($z=0;$z<=$#rels;$z++) {
@@ -76,7 +76,7 @@ print TMP1 $hdr;
                 $rel_nm = $1;
                 $d_id = $2;
             } else { $rel_nm = ""; $d_id = "";}
-                if ($label ne ".") {$s_id = $flds[0];} else {$s_id = "";}
+                if ($label ne ".") {$s_id = $flds[$indx];} else {$s_id = "";}
                 $is_cluster = 0;
                 if (&niwya_relations($rel_nm)){ # niwya sambanXaH or niwya_sambanXaH1
                       $style = "dashed color=\"red\"";
@@ -172,17 +172,17 @@ my($i,@rel_str,$node,$nodes,@nodes,$node_id,$indx_id,$z,$r,$from,$to);
  ## Add all the nodes that were not printed earlier.
     for ($z=1;$z<=$tot_words;$z++){
             @flds = split(/\t/,$in[$z]);
-            #if ($flds[0] =~ /^([0-9]+)[\.\।]([2-9])/) {
+            #if ($flds[$indx] =~ /^([0-9]+)[\.\।]([2-9])/) {
             # $label .=  $flds[$wrd_fld_id];
             #} else {$label = $flds[$wrd_fld_id];}
             $label = $flds[$wrd_fld_id];
-            $flds[0] =~ /^([0-9]+)[\.\।]/;
-            $word{$flds[0]} = $label."(".$flds[0].")";
+            $flds[$indx] =~ /^([0-9]+)[\.\।]/;
+            $word{$flds[$indx]} = $label."(".$flds[$indx].")";
             $tmp = $flds[$color_code_fld_id];
             $tmp =~ s/@//;
-            $wcolor{$flds[0]} = $color{$tmp}; 
-            if (($flds[$wrd_fld_id] =~ /^-/) && ($word_found{$flds[0]} != 1)){
-                 &print_node_info($z,$word{$flds[0]},$wcolor{$flds[0]});
+            $wcolor{$flds[$indx]} = $color{$tmp}; 
+            if (($flds[$wrd_fld_id] =~ /^-/) && ($word_found{$flds[$indx]} != 1)){
+                 &print_node_info($z,$word{$flds[$indx]},$wcolor{$flds[$indx]});
             }
     }
          @rel_str = split(/\n/,$rel_str);
