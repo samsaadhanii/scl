@@ -87,6 +87,7 @@ value karaNa_XAwu_list = [
 "pAl1";
 "Pal2";
 "pari_krI1";
+"pari_IkR1";
 "paT1";
 "paw1";
 "pra_Af_raB1";
