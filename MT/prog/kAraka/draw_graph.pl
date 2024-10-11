@@ -69,7 +69,8 @@ print TMP1 $hdr;
           $word{$flds[$indx]} = $label."(".$flds[$indx].")";
           $tmp = $flds[$color_code_fld_id];
           $tmp =~ s/@//;
-          $wcolor{$flds[$indx]} = $color{$tmp}; 
+	  if ($tmp !~ /#/) { $wcolor{$flds[$indx]} = $color{$tmp}; }
+          else {$wcolor{$flds[$indx]} = $tmp;}
          
              @rels = split(/;/,$flds[$rel_fld_id]);
              for ($z=0;$z<=$#rels;$z++) {
