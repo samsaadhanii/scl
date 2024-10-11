@@ -36,6 +36,9 @@ $color{"NA"} = "#FF99FF";
 $color{"KP"} = "#FF1975";
 $color{"CP"} = "#FFFF00";
 
+$hdr = "digraph G\{\nrankdir=BT;\n compound=true;\n bgcolor=\"lemonchiffon1\";\n";
+$dir = "back";
+
 $/ = "\n";
 $cluster_no = 0;
 $rel_str = "";
@@ -46,8 +49,6 @@ $wrd_fld_id = 1; # Counting starting from 0
 $rel_fld_id = 6; # Counting starting from 0
 $color_code_fld_id = 8; # Counting starting from 0
 
-$hdr = "digraph G\{\nrankdir=BT;\n compound=true;\n bgcolor=\"lemonchiffon1\";\n";
-$dir = "back";
 
 $dotfl_nm = "$pid.dot"; 
 
@@ -180,7 +181,9 @@ my($i,@rel_str,$node,$nodes,@nodes,$node_id,$indx_id,$z,$r,$from,$to);
             $word{$flds[$indx]} = $label."(".$flds[$indx].")";
             $tmp = $flds[$color_code_fld_id];
             $tmp =~ s/@//;
-            $wcolor{$flds[$indx]} = $color{$tmp}; 
+	    if ($color{$tmp} !~ /#/) { # If it is not a hash code, map it to hash code
+               $wcolor{$flds[$indx]} = $color{$tmp}; 
+            }
             if (($flds[$wrd_fld_id] =~ /^-/) && ($word_found{$flds[$indx]} != 1)){
                  &print_node_info($z,$word{$flds[$indx]},$wcolor{$flds[$indx]});
             }
