@@ -18,13 +18,6 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 
-
-# important, this limits the size
-# of the file to upload.  This
-# prevents people from uploading
-# large files to slow down your
-# server:
-
 use strict;
 use warnings;
 
@@ -33,6 +26,7 @@ my $pid = $$;
 
 open (TMP,">TFPATH/tmp_$pid");
 read(STDIN, $buffer, $ENV{'CONTENT_LENGTH'});
+$buffer =~ s/"//g;
 print TMP $buffer;
 close (TMP);
 
@@ -45,7 +39,7 @@ print "<body>";
 system ("CGIDIR/SCL_CGI/MT/prog/kAraka/draw_graph.pl GraphvizDot TFPATH  $pid < TFPATH/tmp_$pid");
 print "<img src=\"/SCL_CGI/MT/DEMO/$pid.svg\" width=\"\" height=\"\" \">\n";
 
-system("rm TFPATH/tmp_$pid");
+#system("rm TFPATH/tmp_$pid");
 
 print "<\/body>";
 print "<\/html>";
