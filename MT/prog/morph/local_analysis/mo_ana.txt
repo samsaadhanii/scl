@@ -174,6 +174,7 @@ avalokayan	avalokayaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 avanamayya	nam1<upasarga:ava><vargaH:avy><kqw_prawyayaH:lyap><XAwuH:nam><gaNaH:BvAxiH><level:1>
 avaraswAw	avara<vargaH:avy><waxXiwa_prawyayaH:aswAwi><level:1>
 avasAxayew	sax1<upasarga:ava><sanAxi_prawyayaH:Nic><prayogaH:karwari><lakAraH:viXilif><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:RaxLz><gaNaH:BvAxiH><level:1>
+sAXayew	Rix1<sanAxi_prawyayaH:Nic><prayogaH:karwari><lakAraH:viXilif><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:Rix><gaNaH:BvAxiH><level:1>
 samuwWApya	RWA1<upasarga:sam_uw><vargaH:avy><sanAxi_prawyayaH:Nic><kqw_prawyayaH:lyap><XAwuH:RWA><gaNaH:BvAxiH><level:1>
 avasWApya	RWA1<upasarga:ava><vargaH:avy><sanAxi_prawyayaH:Nic><kqw_prawyayaH:lyap><XAwuH:RWA><gaNaH:BvAxiH><level:1>
 avaswAw	avara<vargaH:avy><waxXiwa_prawyayaH:aswAwi><level:1>
@@ -532,7 +533,8 @@ samaqpya	q1<upasarga:sam><vargaH:avy><sanAxi_prawyayaH:Nic><kqw_prawyayaH:lyap><
 samarpayawu	q1<upasarga:sam><sanAxi_prawyayaH:Nic><prayogaH:karwari><lakAraH:lot><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:q><gaNaH:BvAxiH><level:1>
 samarpiwavAn	samarpiwavaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 samarpya	q1<upasarga:sam><vargaH:avy><sanAxi_prawyayaH:Nic><kqw_prawyayaH:lyap><XAwuH:q><gaNaH:BvAxiH><level:1>
-samarpyewa	arpa1<upasarga:sam><prayogaH:karwari><lakAraH:viXi><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:q><gaNaH:BvAxiH><level:1>
+samarpyewa	arpa1<upasarga:sam><prayogaH:karwari><lakAraH:viXilif><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:q><gaNaH:BvAxiH><level:1>
+upakramewa	kram1<upasarga:upa><prayogaH:karwari><lakAraH:viXilif><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:kram><gaNaH:BvAxiH><level:1>/kram1<upasarga:upa><prayogaH:karmaNi><lakAraH:viXilif><puruRaH:ma><vacanam:ba><paxI:paramEpaxI><XAwuH:kram><gaNaH:BvAxiH><level:1>
 samavAhayaw	vAh1<upasarga:sam><prayogaH:karwari><lakAraH:laf><puruRaH:pra><vacanam:eka><paxI:pasamEpaxI><XAwuH:vAhi><gaNaH:BvAxiH><level:1>
 samawIwya	i1<upasarga:sam_awi><vargaH:avy><kqw_prawyayaH:lyap><XAwuH:i><gaNaH:axAxih><level:1>
 sammAnayawi	mAna1<upasarga:sam><prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:mAna><gaNaH:curAxiH><level:1>
