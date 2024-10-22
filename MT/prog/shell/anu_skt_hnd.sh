@@ -144,7 +144,7 @@ hnd_gen () {
  
    $my_converter < $temp_files_path/table.tsv > $temp_files_path/table_outscript.tsv
    #$dev_converter < $temp_files_path/table.tsv > $temp_files_path/table_dev.tsv
-   $my_converter < $temp_files_path/anvaya.tsv > $temp_files_path/anvaya_outscript.tsv
+   $my_converter < $temp_files_path/anvaya.tsv  > $temp_files_path/anvaya_outscript.tsv
  }
 ##########
  #Generate Anvaya order anusaaraka output
