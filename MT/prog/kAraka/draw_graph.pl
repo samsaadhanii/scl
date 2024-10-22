@@ -59,6 +59,7 @@ print TMP1 $hdr;
 
 	for ($i=0;$i<=$#in;$i++) {
           chomp($in[$i]);
+	  $in[$i] =~ s/\r//;# When the files are generated using Windows, there is a \r at the end.
 	  if (($in[$i] !~ /index\tword\t/) && ($in[$i] !~ /anvaya_no\tword\t/)) { #ignore the header
           @flds = split(/\t/,$in[$i]);
          # if ($flds[$indx] =~ /^([0-9]+)[\.\।]([2-9])/) {
@@ -69,8 +70,10 @@ print TMP1 $hdr;
           $word{$flds[$indx]} = $label."(".$flds[$indx].")";
           $tmp = $flds[$color_code_fld_id];
           $tmp =~ s/@//;
-	  if ($tmp !~ /#/) { $wcolor{$flds[$indx]} = $color{$tmp}; }
-          else {$wcolor{$flds[$indx]} = $tmp;}
+	  if ($tmp !~ /#/) { $wcolor{$flds[$indx]} = $color{$tmp}; }	
+              # If the field marks colors with mnemonics such as N1 etc , this function changes it to hash coded.
+          else {$wcolor{$flds[$indx]} = $tmp;}	
+              # Here it gets the hash code for color.
          
              @rels = split(/;/,$flds[$rel_fld_id]);
              for ($z=0;$z<=$#rels;$z++) {
