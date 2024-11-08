@@ -49,8 +49,8 @@ sub modify_mo{
   $in =~ s/<prawyayaH:([^>]+)>/ $1/g;
   $in =~ s/<waxXiwa_prawyayaH:([^>]+)>/ $1/g;
   $in =~ s/<kqw_prawyayaH:([^>]+)>/ $1/g;
-  $in =~ s/<sanAxi_prawyayaH:Nic>/ Nijanwa/g;
-  $in =~ s/<sanAxi_prawyayaH:([^>]+)>/ $1anwa/g;
+  #$in =~ s/<sanAxi_prawyayaH:Nic>/ Nic/g;
+  $in =~ s/<sanAxi_prawyayaH:([^>]+)>/ $1/g;
   $in =~ s/<prayogaH:([^>]+)>/ $1/g;
   $in =~ s/<puruRaH:([^>]+)>/ $1/g;
   $in =~ s/<gaNaH:([^>\-]+)>/ $1/g;

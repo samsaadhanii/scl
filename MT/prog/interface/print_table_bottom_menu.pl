@@ -28,7 +28,7 @@ header
 print <<header1
 <a href="/$GlblVar::SCL_HTDOCS/MT/DEMO/./tmp_in${pid}_1/table_outscript.tsv">Save Annotation</a> 
 &nbsp; &nbsp; &nbsp; &nbsp;
-<a href="/cgi-bin/$GlblVar::SCL_CGI/skt_gen/Sentence/gen.cgi?filename=$TFPATH/tmp_in${pid}_1/table_dev.tsv">Generate</a> 
+<a href="/cgi-bin/$GlblVar::SCL_CGI/skt_gen/Sentence/gen.cgi?filename=$TFPATH/tmp_in${pid}_1/table_outscript.tsv">Generate</a> 
 &nbsp; &nbsp; &nbsp; &nbsp;
 header1
 ;
