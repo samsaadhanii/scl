@@ -166,10 +166,13 @@ package main;
         } 
 	 system("$myPATH/MT/prog/Discourse/discourse_analysis.pl $i $out_encoding $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv  $GlblVar::TFPATH/tmp_in$pid/table_outscript.tsv > $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv_$i; cp $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv_$i $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv");
    }
-    if ($#sentences >= 1) {
-    system("$myPATH/MT/prog/kAraka/draw_graph.pl $GlblVar::GraphvizDot $GlblVar::TFPATH/tmp_in$Ppid < $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv");
+    if ($#sentences >= 0) {
+    system("$myPATH/MT/prog/Discourse/draw_graph.pl $GlblVar::GraphvizDot $GlblVar::TFPATH/tmp_in$Ppid 1 < $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv");
+    system("$GlblVar::GraphvizDot -Tsvg -o$GlblVar::TFPATH/tmp_in$Ppid/tmp.svg $GlblVar::TFPATH/tmp_in$Ppid/1.dot");
+    system("$myPATH/MT/prog/Discourse/add_hidden_sub.pl < $GlblVar::TFPATH/tmp_in$Ppid/tmp.svg > $GlblVar::TFPATH/tmp_in$Ppid/1.svg");
 	print "<h2> Discourse Graph </h2>";
-	print "<img src=/$GlblVar::SCL_HTDOCS/MT/DEMO/tmp_in$Ppid/1.svg width=\"\" height=\"\" > ";
+	#print "<img src=/$GlblVar::SCL_HTDOCS/MT/DEMO/tmp_in$Ppid/1.svg width=\"\" height=\"\" > ";
+	print "<object data=\"/$GlblVar::SCL_HTDOCS/MT/DEMO/tmp_in$Ppid/1.svg\" width=\"\" height=\"\"><\/object>";
 	print "<\/center><br><br><br><br>";
     }
 
