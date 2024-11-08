@@ -1,0 +1,78 @@
+/Users/ambakulkarni/amba/SKT/zen/ML/gen.cmo :
+/Users/ambakulkarni/amba/SKT/zen/ML/gen.cmx :
+/Users/ambakulkarni/amba/SKT/zen/ML/list2.cmo :
+/Users/ambakulkarni/amba/SKT/zen/ML/list2.cmx :
+/Users/ambakulkarni/amba/SKT/zen/ML/word.cmo : \
+    /Users/ambakulkarni/amba/SKT/zen/ML/list2.cmo
+/Users/ambakulkarni/amba/SKT/zen/ML/word.cmx : \
+    /Users/ambakulkarni/amba/SKT/zen/ML/list2.cmx
+/Users/ambakulkarni/amba/SKT/zen/ML/share.cmi :
+/Users/ambakulkarni/amba/SKT/zen/ML/share.cmo : \
+    /Users/ambakulkarni/amba/SKT/zen/ML/share.cmi
+/Users/ambakulkarni/amba/SKT/zen/ML/share.cmx : \
+    /Users/ambakulkarni/amba/SKT/zen/ML/share.cmi
+/Users/ambakulkarni/amba/SKT/zen/ML/unshare.cmo : \
+    /Users/ambakulkarni/amba/SKT/zen/ML/trie.cmo
+/Users/ambakulkarni/amba/SKT/zen/ML/unshare.cmx : \
+    /Users/ambakulkarni/amba/SKT/zen/ML/trie.cmx
+/Users/ambakulkarni/amba/SKT/zen/ML/trie.cmo : \
+    /Users/ambakulkarni/amba/SKT/zen/ML/word.cmo \
+    /Users/ambakulkarni/amba/SKT/zen/ML/list2.cmo \
+    /Users/ambakulkarni/amba/SKT/zen/ML/gen.cmo
+/Users/ambakulkarni/amba/SKT/zen/ML/trie.cmx : \
+    /Users/ambakulkarni/amba/SKT/zen/ML/word.cmx \
+    /Users/ambakulkarni/amba/SKT/zen/ML/list2.cmx \
+    /Users/ambakulkarni/amba/SKT/zen/ML/gen.cmx
+/Users/ambakulkarni/amba/SKT/zen/ML/mini.cmo : \
+    /Users/ambakulkarni/amba/SKT/zen/ML/trie.cmo \
+    /Users/ambakulkarni/amba/SKT/zen/ML/share.cmi \
+    /Users/ambakulkarni/amba/SKT/zen/ML/gen.cmo
+/Users/ambakulkarni/amba/SKT/zen/ML/mini.cmx : \
+    /Users/ambakulkarni/amba/SKT/zen/ML/trie.cmx \
+    /Users/ambakulkarni/amba/SKT/zen/ML/share.cmx \
+    /Users/ambakulkarni/amba/SKT/zen/ML/gen.cmx
+/Users/ambakulkarni/amba/SKT/zen/ML/deco.cmo : \
+    /Users/ambakulkarni/amba/SKT/zen/ML/word.cmo \
+    /Users/ambakulkarni/amba/SKT/zen/ML/trie.cmo \
+    /Users/ambakulkarni/amba/SKT/zen/ML/list2.cmo
+/Users/ambakulkarni/amba/SKT/zen/ML/deco.cmx : \
+    /Users/ambakulkarni/amba/SKT/zen/ML/word.cmx \
+    /Users/ambakulkarni/amba/SKT/zen/ML/trie.cmx \
+    /Users/ambakulkarni/amba/SKT/zen/ML/list2.cmx
+/Users/ambakulkarni/amba/SKT/zen/ML/lexmap.cmo : \
+    /Users/ambakulkarni/amba/SKT/zen/ML/word.cmo \
+    /Users/ambakulkarni/amba/SKT/zen/ML/list2.cmo \
+    /Users/ambakulkarni/amba/SKT/zen/ML/deco.cmo
+/Users/ambakulkarni/amba/SKT/zen/ML/lexmap.cmx : \
+    /Users/ambakulkarni/amba/SKT/zen/ML/word.cmx \
+    /Users/ambakulkarni/amba/SKT/zen/ML/list2.cmx \
+    /Users/ambakulkarni/amba/SKT/zen/ML/deco.cmx
+/Users/ambakulkarni/amba/SKT/zen/ML/minimap.cmi : \
+    /Users/ambakulkarni/amba/SKT/zen/ML/lexmap.cmo
+/Users/ambakulkarni/amba/SKT/zen/ML/minimap.cmo : \
+    /Users/ambakulkarni/amba/SKT/zen/ML/share.cmi \
+    /Users/ambakulkarni/amba/SKT/zen/ML/lexmap.cmo \
+    /Users/ambakulkarni/amba/SKT/zen/ML/deco.cmo \
+    /Users/ambakulkarni/amba/SKT/zen/ML/minimap.cmi
+/Users/ambakulkarni/amba/SKT/zen/ML/minimap.cmx : \
+    /Users/ambakulkarni/amba/SKT/zen/ML/share.cmx \
+    /Users/ambakulkarni/amba/SKT/zen/ML/lexmap.cmx \
+    /Users/ambakulkarni/amba/SKT/zen/ML/deco.cmx \
+    /Users/ambakulkarni/amba/SKT/zen/ML/minimap.cmi
+pada_structure.cmi :
+discourse.cmo : \
+    relations.cmo \
+    pada_structure.cmi \
+    bank_lexer.cmo
+discourse.cmx : \
+    relations.cmx \
+    pada_structure.cmi \
+    bank_lexer.cmx
+bank_lexer.cmo :
+bank_lexer.cmx :
+relations.cmo :
+relations.cmx :
+../kAraka/Prepare_Graph/Heritage_ML/min_lexer.cmo :
+../kAraka/Prepare_Graph/Heritage_ML/min_lexer.cmx :
+../kAraka/Prepare_Graph/Heritage_ML/transduction.cmo :
+../kAraka/Prepare_Graph/Heritage_ML/transduction.cmx :

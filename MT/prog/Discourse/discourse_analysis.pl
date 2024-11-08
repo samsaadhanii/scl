@@ -154,12 +154,12 @@ sub mark_discourse_rels {
   if($in) {
    $in =~ /^([0-9]+)/;
    $wrd_id = $1;
-   $in =~ s/^/$sent_id./;
-   $in =~ s/,([0-9\.]+)/,$sent_id.$1/g;
+   $in =~ s/^/S$sent_id./;
+   $in =~ s/,([0-9\.]+)/,S$sent_id.$1/g;
    @flds = split(/\t/,$in);
 
    if (($niwya_connective1_pos > -1) && ($niwya_connective2_pos > -1)) {
-         if (($flds[0] =~ /^$sent_id.$niwya_connective2_pos/) && (&pair($niwya_connective1,$niwya_connective2))) {
+         if (($flds[0] =~ /^S$sent_id.$niwya_connective2_pos/) && (&pair($niwya_connective1,$niwya_connective2))) {
             if($out_encoding eq "IAST") { 
                $flds[$karaka_rel_fld] .= ";nitya_sambandhaḥ,$niwya_connective1_pos";
             } else {
@@ -169,14 +169,14 @@ sub mark_discourse_rels {
       $in = join("$tab",@flds);
    }
    elsif($discourse_connective2 ne "") {
-      if ($flds[0] =~ /^$sent_id.$verb_indx/) {
+      if ($flds[0] =~ /^S$sent_id.$verb_indx/) {
          $rel = &get_rel($discourse_connective2);
          $flds[$karaka_rel_fld] = "$rel,$last_verb_indx";
       }
       $in = join("$tab",@flds);
    }
    elsif($discourse_connective1 ne "") {
-      if ($flds[0] =~ /^$sent_id.$verb_indx/) {
+      if ($flds[0] =~ /^S$sent_id.$verb_indx/) {
          $rel = &get_rel($discourse_connective1);
          $flds[$karaka_rel_fld] = "$rel,$last_verb_indx";
       }
@@ -185,21 +185,21 @@ sub mark_discourse_rels {
    else {
      if (($wrd_id == 2) && (($flds[$wrd_fld_id] eq "च") || ($flds[$wrd_fld_id] eq "ca"))){
       if($out_encoding eq "IAST") { 
-         $flds[$karaka_rel_fld] = "samuccaya_dyotakaḥ,$sent_id.$verb_indx";
+         $flds[$karaka_rel_fld] = "samuccaya_dyotakaḥ,S$sent_id.$verb_indx";
       } else {
-         $flds[$karaka_rel_fld] = "समुच्चय_द्योतकः,$sent_id.$verb_indx";
+         $flds[$karaka_rel_fld] = "समुच्चय_द्योतकः,S$sent_id.$verb_indx";
       }
       $in = join("$tab",@flds);
      }
      if (($wrd_id == 2) && (($flds[$wrd_fld_id] eq "वा") || ($flds[$wrd_fld_id] eq "vā"))){
       if($out_encoding eq "IAST") { 
-         $flds[$karaka_rel_fld] = "anyatara_dyotakaḥ,$sent_id.$verb_indx";
+         $flds[$karaka_rel_fld] = "anyatara_dyotakaḥ,S$sent_id.$verb_indx";
       } else {
-         $flds[$karaka_rel_fld] = "अन्यतर_द्योतकः,$sent_id.$verb_indx";
+         $flds[$karaka_rel_fld] = "अन्यतर_द्योतकः,S$sent_id.$verb_indx";
       }
       $in = join("$tab",@flds);
      }
-     if (($samuccaya_xyowakaH_indx > -1) && ($flds[0] =~ /^$sent_id.$verb_indx/)) { 
+     if (($samuccaya_xyowakaH_indx > -1) && ($flds[0] =~ /^S$sent_id.$verb_indx/)) { 
       if($out_encoding eq "IAST") { 
          $flds[$karaka_rel_fld] = "samuccitaḥ,$last_verb_indx";
       } else {
@@ -207,7 +207,7 @@ sub mark_discourse_rels {
       }
          $in = join("$tab",@flds);
      }
-     if (($anyawara_xyowakaH_indx > -1) && ($flds[0] =~ /^$sent_id.$verb_indx/)) { 
+     if (($anyawara_xyowakaH_indx > -1) && ($flds[0] =~ /^S$sent_id.$verb_indx/)) { 
       if($out_encoding eq "IAST") { 
          $flds[$karaka_rel_fld] = "anyataraḥ,$last_verb_indx";
       } else {
