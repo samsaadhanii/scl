@@ -37,6 +37,8 @@ print "<br>\n<center>";
 print "<body>";
 
 system ("CGIDIR/SCL_CGI/MT/prog/kAraka/draw_graph.pl GraphvizDot TFPATH  $pid < TFPATH/tmp_$pid");
+system ("GraphvizDot -Tsvg -oTFPATH/$pid.svg TFPATH/$pid.dot");
+system("CGIDIR/SCL_CGI/MT/prog/kAraka/add_hidden_sub.pl < TFPATH/$pid.svg > TFPATH/$pid.svg");
 print "<img src=\"/SCL_CGI/MT/DEMO/$pid.svg\" width=\"\" height=\"\" \">\n";
 
 #system("rm TFPATH/tmp_$pid");

@@ -20,6 +20,7 @@
 
 $GraphvizDot = $ARGV[0];
 $path = $ARGV[1]; # path for temporary files
+$parse = $ARGV[2]; #Name of the output file
 
 #### Initialisation #######
 $/ = "\n";	# \n is the input delimitor
@@ -34,7 +35,7 @@ $color_code_fld_id = 8; # Counting starts from 0
 
 $hdr = "digraph G\{\nrankdir=BT;\n compound=true;\n bgcolor=\"lemonchiffon1\";\n";
 $edgedir = "back";	# Default edge direction
-$parse = 1;
+#$parse = 1;
 
 $dotfl_nm = "$parse.dot"; 
 
