@@ -164,7 +164,7 @@ package main;
 	if($i==1) {
 	 system("cp $GlblVar::TFPATH/tmp_in$pid/table_outscript.tsv $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv");
         } 
-	 system("$myPATH/MT/prog/Discourse/discourse_analysis.pl $i $out_encoding $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv  $GlblVar::TFPATH/tmp_in$pid/table_outscript.tsv > $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv_$i; cp $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv_$i $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv");
+	 system("$myPATH/MT/prog/Discourse/discourse_analysis.pl $i $out_encoding $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv  $GlblVar::TFPATH/tmp_in$pid/table_outscript.tsv  > $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv_$i; cp $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv_$i $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv");
    }
     if ($#sentences >= 0) {
     system("$myPATH/MT/prog/Discourse/draw_graph.pl $GlblVar::GraphvizDot $GlblVar::TFPATH/tmp_in$Ppid 1 < $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv");

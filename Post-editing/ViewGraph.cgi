@@ -31,17 +31,12 @@ print TMP $buffer;
 close (TMP);
 
 print "Access-Control-Allow-Origin: *\n";
-print "Content-type:text/html;-expires:60*60*24;charset:UTF-8\n\n";
-
-print "<br>\n<center>";
-print "<body>";
+print "Content-type:image/svg+xml;-expires:60*60*24;charset:UTF-8\n\n";
 
 system ("CGIDIR/SCL_CGI/MT/prog/kAraka/draw_graph.pl GraphvizDot TFPATH  $pid < TFPATH/tmp_$pid");
-system ("GraphvizDot -Tsvg -oTFPATH/$pid.svg TFPATH/$pid.dot");
-system("CGIDIR/SCL_CGI/MT/prog/kAraka/add_hidden_sub.pl < TFPATH/$pid.svg > TFPATH/$pid.svg");
-print "<img src=\"/SCL_CGI/MT/DEMO/$pid.svg\" width=\"\" height=\"\" \">\n";
+system ("GraphvizDot -Tsvg -o TFPATH/tmp.svg TFPATH/$pid.dot");
+system("CGIDIR/SCL_CGI/MT/prog/kAraka/add_hidden_sub.pl < TFPATH/tmp.svg > TFPATH/$pid.svg");
+system ("rm TFPATH/tmp.svg");
+system("cat /SCL_CGI/MT/DEMO/$pid.svg");
 
-#system("rm TFPATH/tmp_$pid");
-
-print "<\/body>";
-print "<\/html>";
+system("rm TFPATH/tmp_$pid");
