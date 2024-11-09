@@ -46,6 +46,9 @@ sub convert{
         } 
 
         if($conversion_program ne "") {
+            if ($in_word =~ /'/) { $in_word =~ s/'/\\'/;}
+            if ($in_word =~ /\(/) { $in_word =~ s/\(/\\\(/;}
+            if ($in_word =~ /\)/) { $in_word =~ s/\)/\\\)/;}
             $out_word = `echo $in_word | $conversion_program`;
         } else { $out_word = $in_word;}
 
