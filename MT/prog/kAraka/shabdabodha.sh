@@ -20,11 +20,10 @@
 
 
    myPATH=$1
-   GraphvizDot=$2
-   TMP_FILES_PATH=$3
-   OUTSCRIPT=$6
-   PARSE=$7
-   TEXT_TYPE=$8
+   TMP_FILES_PATH=$2
+   OUTSCRIPT=$4
+   PARSE=$5
+   TEXT_TYPE=$6
 
 source $1/paths.sh
 
@@ -41,22 +40,22 @@ source $1/paths.sh
 
    if [ $PARSE != "NO" ] ; then
 	if [ $PARSE != "AVAILABLE" ]; then
-             $ANU_MT_PATH/kAraka/uniform_morph_anal.pl $myPATH <  $TMP_FILES_PATH/$4  > $TMP_FILES_PATH/parser_files/morph.txt
+             $ANU_MT_PATH/kAraka/uniform_morph_anal.pl $myPATH <  $TMP_FILES_PATH/$3  > $TMP_FILES_PATH/parser_files/morph.txt
              $ANU_MT_PATH/kAraka/Prepare_Graph/build_graph $TMP_FILES_PATH/parser_files/ $TEXT_TYPE  < $TMP_FILES_PATH/parser_files/morph.txt |\
              $ANU_MT_PATH/kAraka/kaaraka_sharing.pl $myPATH $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt > $TMP_FILES_PATH/parser_files/parseop1.txt
         fi
 	if [ $PARSE = "AVAILABLE" ]; then
 	     cp $TMP_FILES_PATH/parser_files/parseop_new.txt $TMP_FILES_PATH/parser_files/parseop1.txt 
         fi
-             $ANU_MT_PATH/kAraka/add_best_parse_output.pl $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt $TMP_FILES_PATH/parser_files/parseop1.txt < $TMP_FILES_PATH/$4 |\
+             $ANU_MT_PATH/kAraka/add_best_parse_output.pl $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt $TMP_FILES_PATH/parser_files/parseop1.txt < $TMP_FILES_PATH/$3 |\
              $ANU_MT_PATH/kAraka/add_abhihita_info.pl > $TMP_FILES_PATH/tmp_parse
 	
   else
 
      touch $TMP_FILES_PATH/parser_files/graph.txt
      touch $TMP_FILES_PATH/parser_files/parseop.txt
-     $ANU_MT_PATH/kAraka/handle_no_parse.pl < $TMP_FILES_PATH/$4 |\
+     $ANU_MT_PATH/kAraka/handle_no_parse.pl < $TMP_FILES_PATH/$3 |\
      $ANU_MT_PATH/kAraka/add_best_parse_output.pl $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt $TMP_FILES_PATH/parser_files/parseop.txt > $TMP_FILES_PATH/tmp_parse
 
   fi
-     $ANU_MT_PATH/kAraka/add_possible_relations.pl $TMP_FILES_PATH/parser_files/graph.txt < $TMP_FILES_PATH/tmp_parse > $TMP_FILES_PATH/$4
+     $ANU_MT_PATH/kAraka/add_possible_relations.pl $TMP_FILES_PATH/parser_files/graph.txt < $TMP_FILES_PATH/tmp_parse > $TMP_FILES_PATH/$3
