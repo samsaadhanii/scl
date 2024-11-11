@@ -79,7 +79,7 @@ morph () {
 }
 
 shaabdabodha () {
-  $ANU_MT_PATH/kAraka/shabdabodha.sh $CGIDIR/$SCL_CGI $GraphvizDot $temp_files_path $fbn.out $fbn.kAraka $OUTSCRIPT $PARSE $TEXT_TYPE
+  $ANU_MT_PATH/kAraka/shabdabodha.sh $CGIDIR/$SCL_CGI $temp_files_path $fbn.out $OUTSCRIPT $PARSE $TEXT_TYPE
 # Field 7: morph analysis corresponding to the kaaraka role
 # Field 8: kaaraka role
 # Field 9: all possible relations
@@ -169,7 +169,7 @@ hnd_gen () {
 ################
 
  draw_graph () {
-   $ANU_MT_PATH/kAraka/draw_graph.pl $GraphvizDot $temp_files_path 1 < $temp_files_path/table_outscript.tsv
+   $ANU_MT_PATH/kAraka/draw_graph.pl $temp_files_path 1 < $temp_files_path/table_outscript.tsv
    $GraphvizDot -Tsvg -o$temp_files_path/tmp.svg $temp_files_path/1.dot
    $ANU_MT_PATH/kAraka/add_hidden_sub.pl < $temp_files_path/tmp.svg > $temp_files_path/1.svg
    #$MYPYTHONPATH $ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table_outscript.tsv $temp_files_path/table.xlsx
