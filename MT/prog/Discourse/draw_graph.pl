@@ -18,9 +18,8 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 
-$GraphvizDot = $ARGV[0];
-$path = $ARGV[1]; # path for temporary files
-$parse = $ARGV[2]; # Name of the output file
+$path = $ARGV[0]; # path for temporary files
+$parse = $ARGV[1]; # Name of the output file
 
 #### Initialisation #######
 $/ = "\n";	# \n is the input delimitor
