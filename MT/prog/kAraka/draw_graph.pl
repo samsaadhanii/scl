@@ -26,6 +26,7 @@ $/ = "\n";	# \n is the input delimitor
 $cluster_no = 0;
 $rel_str = "";
 $solnfound = 0;
+$non_cluster = "";
 
 $index = 0;
 $wrd_fld_id = 1; # Counting starts from 0
@@ -34,7 +35,6 @@ $color_code_fld_id = 8; # Counting starts from 0
 
 $hdr = "digraph G\{\nrankdir=BT;\n compound=true;\n bgcolor=\"lemonchiffon1\";\n";
 $edgedir = "back";	# Default edge direction
-#$parse = 1;
 
 $dotfl_nm = "$parse.dot"; 
 
@@ -52,76 +52,36 @@ print TMP1 $hdr;
 	chomp($in[$i]);	# chop the newline
 	$in[$i] =~ s/\./_/g;	# Dot does not allow '.'s in the Node labels.
         @flds = split(/\t/,$in[$i]);	# split the input into fields
-        #print "flds[1] = $flds[1]\n";
         if ($flds[1] ne "_") {
-        #$flds[$index] =~ s/\./_/g;	# Dot does not allow '.'s in the Node labels.
-	$label{$flds[$index]} = &get_label($flds[$wrd_fld_id],$flds[$index]);
-        if ($label{$flds[$index]} ne "") {$s_id = $flds[$index];} else {$s_id = "";}
-        if ($s_id ne "") {	#define source word index
-	  $wcolor{$flds[$index]} = &get_color_code($flds[$color_code_fld_id]); #get color code for the node
+	   $label{$flds[$index]} = &get_label($flds[$wrd_fld_id],$flds[$index]);
+           if (($label{$flds[$index]} ne "") && ($label{$flds[$index]} ne ".")) {  #Process the row, onlyif the label is non empty
+             $s_id = $flds[$index]; 	
+	     $wcolor{$flds[$index]} = &get_color_code($flds[$color_code_fld_id]); #get color code for the node
        
-          $compound_found = 0;
-          $component_indx = 1;
-          while ($flds[$wrd_fld_id] =~ /\-/) {
-            $compound[$component_indx] = &add_compound_components($in[$i]);
-            $i++;
-            $component_indx++;
-            @flds = split(/\t/,$in[$i]);
-            $compound_found = 1;
-          }
-          if ($compound_found) {
-            $compound[$component_indx] = &add_compound_components($in[$i]);
-            &form_compound_constituency_tree($component_indx,@compound);
-          } else {
-            @rels = split(/;/,$flds[$rel_fld_id]);
-            for ($z=0;$z<=$#rels;$z++) {
-              if ($rels[$z] =~ /,/) {
-                ($rel_nm,$d_id) = split(/:/,&get_relnm_id ($rels[$z]));
-                 #print "d_id = $d_id\n";
-                 #print "New d_id = $new_index{$d_id}\n";
-                 #print "rel_nm = $rel_nm\n";
-                 #$d_id =~ s/\./_/g;
-                ($edgestyle,$edgedir) = split(/:/, &get_edgestyle_edge_dir($rel_nm,$z));
-              }
-
-              if (&niwya_relations($rel_nm)){ # niwya sambanXaH or niwya_sambanXaH1
-		$n1 = "Node".$s_id;
-		$n2 = "Node".$d_id;
-                $rank .= "{rank = same; $n1; $n2;}\n"; 
-              }
-
-	# classify the nodes into cluster / non-cluster
-              $is_cluster = 0;
-              if (&cluster_relations($rel_nm)) {
-                  ($is_cluster,$cluster_no) = split(/:/, &form_cluster($cluster_no,$d_id,$s_id));
-              }
-              if ($is_cluster == 0) {
-                 if( ($s_id ne "") && ($non_cluster !~ /#$s_id,/)) {
-                    $non_cluster .= "#".$s_id.",";
-                    #$word_found{$s_id} = 1;
-                 }
-                 if( ($d_id ne "") && ($non_cluster !~ /#$d_id,/)) {
-                    $non_cluster .= "#".$d_id.",";
-                    #$word_found{$d_id} = 1;
-                 }
-              }
-            
-              if($edgestyle ne "") { $s_str = "style=$edgestyle";} else {$s_str = "";}
-
-                if (($d_id ne "") && ($rel_nm !~ /abhihita/) && ($rel_nm !~ /अभिहित/)){
-                if($new_index{$d_id} ne "") { $d_id = $new_index{$d_id};} 
-                #print "d_id = $d_id\n";
-                #print "new_index = $new_index{$d_id}\n";
-	        $rel_str .= "\nNode$s_id -> Node$d_id \[ $s_str label=\"".$rel_nm."\"  dir=\"$edgedir\" \]";
-	    #print "REL2 = $rel_str\n";
-              }
-            }
-	 $solnfound = 1;
-         }
-       }
-       }
+             if ($flds[$wrd_fld_id] =~ /\-/) {
+                ($i,$component_indx,@compound) = split(/#/,&process_compound_entry($i));
+                $compound[$component_indx] = &add_compound_components($in[$i]);
+                $component_indx++;
+                &form_compound_constituency_tree($component_indx,@compound);
+             } else {
+                @rels = split(/;/,$flds[$rel_fld_id]);
+                for ($z=0;$z<=$#rels;$z++) {
+                     if ($rels[$z] =~ /,/) {
+                        ($rel_nm,$d_id) = split(/:/,&get_relnm_id ($rels[$z]));
+                        $rank .= &mark_niwya_sambanXa($rel_nm,$s_id,$d_id);
+                        ($cluster_no, $non_cluster) = split(/:/,&classify_cluster_non_cluster($rel_nm,$cluster_no,$non_cluster,$s_id,$d_id));
+                     } elsif (($s_id ne "") && ($non_cluster !~ /#$s_id,/)) {  # If the relation is empty, as in the case of verbs
+                               $non_cluster .= "#".$s_id.",";
+                     }
+	             $solnfound = 1;
+                }
+             }
+           }
+        }
        $i++;
-    }
+      }
+      #print "REL = $rel_str\n";
+      $rel_str = &add_relations($rel_str);
 
       if ($solnfound) {
          if ($rel_str ne "") {
@@ -163,14 +123,22 @@ my($i,@rel_str,$node,$nodes,@nodes,$node_id,$indx_id,$z,$r,$from,$to);
     @rel_str = split(/\n/,$rel_str);
     $rel_str = "";
     foreach $r (@rel_str) {
-      $r =~ /Node([0-9_]+) \-> Node([0-9_]+).*label="[^"]+"/;
-      $from = $1;
-      $to = $2;
+      #print "r = $r\n";
+      if($r =~ /Node([0-9_c]+) \-> Node([0-9_c]+).*label="[^"]+"/) {
+         $from = $1;
+         $to = $2;
+      } else {$from = ""; $to = "";}
       for($z=0;$z<=$cluster_no;$z++){
          if(($cluster[$z] =~ /#$from;/) && ($cluster[$z] !~ /#$to;/)){
              $r =~ s/]/ ltail=cluster_$z]/;
          }
       }
+      #print "from = $from to = $to\n";
+      #if ($new_index{$from} ne "") { $from = $new_index{$from};}
+      #if ($new_index{$to} ne "") { $to = $new_index{$to};}
+      #print "from = $from to = $to\n";
+      $r =~ s/Node[0-9_c]+ \-> Node[0-9_c]+(.*label="[^"]+")/Node$from -> Node$to$1/;
+      #print "RaRRR = $r\n";
       $rel_str .= "\n".$r;
 	    #print "REL3 = $rel_str\n";
     }
@@ -370,25 +338,38 @@ sub form_compound_constituency_tree {
   my ($component_indx, @compound) = @_;
 
   my ($i,$stack_index,$edgedir);
-  my ($i,$next,$diff,@f);
+  my ($next,$diff,@f);
   my (@new_label) = ();
 
-  for ($i=1;$i <= $component_indx; $i++){
-    @f = split(/:/,$compound[$i]);	# index, word, relation, to_index, color code
+  for ($i=0;$i < $component_indx; $i++){
+    @f = split(/:/,$compound[$i]);	# index, word, relation-to_index, color code
     $component{$f[0]} = $f[1];
   }
 
   #print TMP1 "\nsubgraph cluster_",$f[0],"{\n";  
 
-  $i = 1;
+  $i = 0;
   $edgedir = "back";
   $next = 1;
   @stack = ();
   $stack_index = 0;
 
-  while ($i <= $component_indx){
-    @f = split(/:/,$compound[$i]);	# fields: index(0), word(1), relation (2), to_index (3), color code (4)
+  while ($i < $component_indx){
+    @f = split(/:/,$compound[$i]);	# fields: index(0), word(1), relation(2), to_index (3), color code (4)
+    @rels = split(/;/,$f[2]);
+    #for ($z=0;$z<=$#rels;$z++) {
+    # if ($rels[$z] =~ /,/) {
+    #    ($rel_nm,$d_id) = split(/:/,&get_relnm_id ($rels[$z]));
+    #     print "d_id = $d_id\n";
+    #     #print "New d_id = $new_index{$d_id}\n";
+    #     print "rel_nm = $rel_nm\n";
+    #     #$d_id =~ s/\./_/g;
+    #     ($edgestyle,$edgedir) = split(/:/, &get_edgestyle_edge_dir($rel_nm,$z));
+    #print "i = $i\n";
+    #print "component_indx = $component_indx\n";
     #print "entry = $compound[$i]\n";
+    $f[3] =~ s/;.*//;
+    #print "TO INDEX = $f[3]\n";
     $diff = &get_diff($f[3], $f[0]);
     #print "diff = $diff\n";
     if (($diff == 1) || ($diff == 10))  {	# The diff should be equal to .1, but due to floating point representation, it is not exactly 0.1
@@ -397,10 +378,10 @@ sub form_compound_constituency_tree {
        #print "pUrvapada in Stack = $found_indx\n";
        if ($found_indx == -1 ) {  # pUrvapaxa not found in stack
        #print "pUrvapada Not Found in Stack\n";
-          if ($i < $component_indx) { $intmd = $f[3]."_".$next; $next++;}	# get compound root node
+          if ($i < $component_indx-1) { $intmd = $f[3]."_".$next; $next++;}	# get compound root node
           else {$intmd = "";}
         #print "intmd1 = $f[0] $intmd $f[3]\n";
-          if($i == $component_indx) { $last = 1;} else { $last = 0;}
+          if($i == $component_indx-1) { $last = 1;} else { $last = 0;}
           &print_subtree($f[0],$f[2],$f[3],$f[4],$intmd,$edgedir,$last);
        } else {
             while (($found_indx > -1) && ($stack_index > 0)) {
@@ -410,7 +391,7 @@ sub form_compound_constituency_tree {
                if ($pos < $component_indx) { $intmd = $f[3]."_".$next;$next++;}	# get compound root node
                else { $intmd = "";}
                #print " stack_index = $stack_index  found_indx = $found_indx intmd2 = $intmd\n";
-               if($pos == $component_indx) { $last = 1;} else { $last = 0;}
+               if($pos == $component_indx-1) { $last = 1;} else { $last = 0;}
                #print "$f[0],  $f[3],  $new_index{$f[3]}, $intmd\n";
                #print "$f[3] = $new_label{$f[3]}  $new_index{$f[3]} = $new_label{$new_index{$f[3]}}  $intmd = $label{$intmd}\n";
                &print_subtree($f[0],$f[2],$f[3],$f[4],$intmd,$edgedir,$last);
@@ -420,7 +401,7 @@ sub form_compound_constituency_tree {
           if ($i < $component_indx) { $intmd = $f[3]."_".$next; $next++;}	# get compound root node
           else {$intmd = "";}
         #print "intmd3 = $f[0] $intmd $f[3]\n";
-          if($i == $component_indx) { $last = 1;} else { $last = 0;}
+          if($i == $component_indx-1) { $last = 1;} else { $last = 0;}
           &print_subtree($f[0],$f[2],$f[3],$f[4],$intmd,$edgedir,$last);
        } 
     } else {
@@ -429,6 +410,8 @@ sub form_compound_constituency_tree {
           $stack_index++;
         #print "Stack index = $stack_index\n";
       }
+  # }
+  #}
   $i++;
   #print "i = $i\n";
 }
@@ -583,8 +566,97 @@ sub myfound {
 sub print_subtree {
   my ($a,$b,$c,$d,$intmd,$edgedir,$last) = @_;
 
+  #print "edgedir = $edgedir\n";
+  #print "a b c d intmd => $a###$b###$c###$d###$intmd\n";
   &get_intermediate_labels($a,$c,$intmd);
   &print_constituent_and_intermediate_nodes($a,$b,$c,$d,$intmd,$last);
   &print_samAsa_relations($a,$b,$c,$intmd,$edgedir,$last);
+}
+1;
+
+ sub process_compound_entry {
+    my($indx) = @_; 
+
+    my $component_indx = 0;
+    my @flds = split(/\t/,$in[$indx]);
+    while ($flds[$wrd_fld_id] =~ /\-/) {
+            $comp[$component_indx] = &add_compound_components($in[$indx]);
+            $indx++;
+            $component_indx++;
+            @flds = split(/\t/,$in[$indx]);
+    }
+    my $ans = join('#',$indx,$component_indx,@comp);
+    $ans;
+ }
+1;
+
+sub add_relations{
+   my($str) = @_;
+   my $i = 1; 		#The count starts with 1; since the 1st line corresponds to the heading and hence it is to be ignored.
+   my $index = 0;
+   my($z,$s_id, $d_id);
+
+   while($i <= $#in) {
+     @flds = split(/\t/,$in[$i]);	# split the input into fields
+     $s_id = $flds[$index]; 	
+        if (($s_id !~ /\./) && ($flds[$wrd_fld_id] !~ /\-/)) {
+        @rels = split(/;/,$flds[$rel_fld_id]);
+        for ($z=0;$z<=$#rels;$z++) {
+             if ($rels[$z] =~ /,/) {
+                ($rel_nm,$d_id) = split(/:/,&get_relnm_id ($rels[$z]));
+                ($edgestyle,$edgedir) = split(/:/, &get_edgestyle_edge_dir($rel_nm,$z));
+                if($edgestyle ne "") { $s_str = "style=$edgestyle";} else {$s_str = "";}
+                if (($d_id ne "") && ($rel_nm !~ /abhihita/) && ($rel_nm !~ /अभिहित/)){
+                    if($new_index{$d_id} ne "") { $d_id = $new_index{$d_id};} 
+                    if($new_index{$s_id} ne "") { $s_id = $new_index{$s_id};} 
+                    $str .= "\nNode$s_id -> Node$d_id \[ $s_str label=\"".$rel_nm."\"  dir=\"$edgedir\" \]";
+                }
+              }
+        }
+     }
+     $i++;
+   }
+$str;
+}
+1;
+
+ sub mark_niwya_sambanXa{
+  my($rel_nm,$s_id,$d_id) = @_;
+  my $rank = "";
+  my ($n1,$n2);
+  if (&niwya_relations($rel_nm)){ # niwya sambanXaH or niwya_sambanXaH1
+      $n1 = "Node".$s_id;
+      $n2 = "Node".$d_id;
+      $rank = "{rank = same; $n1; $n2;}\n"; 
+  }
+  $rank;
+}
+1;
+
+sub add_to_non_cluster{
+  my ($nc,$s,$d) = @_;
+    if (($s ne "") && ($nc !~ /#$s,/)) {
+         $nc .= "#".$s.",";
+    }
+    if (($d ne "") && ($nc !~ /#$d,/)) {
+         $nc .= "#".$d.",";
+    }
+  $nc;
+}
+1;
+
+sub classify_cluster_non_cluster{
+  my ($rel_nm,$cluster_no,$non_cluster,$s_id,$d_id) = @_;
+  my($is_cluster);
+
+  # classify the nodes into cluster / non-cluster
+    $is_cluster = 0;
+    if (&cluster_relations($rel_nm)) {
+       ($is_cluster,$cluster_no) = split(/:/, &form_cluster($cluster_no,$d_id,$s_id));
+    }
+    if ($is_cluster == 0) {
+        $non_cluster = &add_to_non_cluster($non_cluster,$s_id,$d_id);
+    }
+$ans = join (':',$cluster_no,$non_cluster);
 }
 1;

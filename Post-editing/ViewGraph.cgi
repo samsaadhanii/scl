@@ -18,9 +18,6 @@
 #  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 
 
-use strict;
-use warnings;
-
 my $buffer;
 my $pid = $$;
 
@@ -37,10 +34,7 @@ print "<br>\n<center>\n";
 print "<body>\n";
 system ("CGIDIR/SCL_CGI/MT/prog/kAraka/draw_graph.pl TFPATH  $pid < TFPATH/tmp_$pid");
 system ("GraphvizDot -Tsvg -o TFPATH/$pid.svg TFPATH/$pid.dot");
-#system("CGIDIR/SCL_CGI/MT/prog/kAraka/add_hidden_sub.pl < TFPATH/tmp.svg > TFPATH/$pid.svg");
-#system ("rm TFPATH/tmp.svg");
-print "<img src=\"/SCL_CGI/MT/DEMO/$pid.svg\" width=\"\" height=\"\" \">\n";
-print "<\/body>\n";
-print "<\/html>\n";
+system("CGIDIR/SCL_CGI/MT/prog/kAraka/add_hidden_sub.pl < TFPATH/tmp.svg);
 
 system("rm TFPATH/tmp_$pid");
+system("rm TFPATH/tmp.svg");
