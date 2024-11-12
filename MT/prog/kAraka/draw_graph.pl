@@ -85,7 +85,7 @@ print TMP1 $hdr;
 
       if ($solnfound) {
          if ($rel_str ne "") {
-             &draw_clusters($non_cluster,$cluster_no,$rel_str,@cluster);
+             $rel_str = &draw_clusters($non_cluster,$cluster_no,$rel_str,@cluster);
              print TMP1 $rank;
              print TMP1 "/* Start of Relations section */\n";
              &writeNclose($rel_str);
@@ -118,12 +118,13 @@ my($i,@rel_str,$node,$nodes,@nodes,$node_id,$indx_id,$z,$r,$from,$to);
     }
 
     $nodes = $non_cluster;
+	#print "NODES = $nodes\n";
     &print_all_nodes_info($nodes);
 
     @rel_str = split(/\n/,$rel_str);
     $rel_str = "";
     foreach $r (@rel_str) {
-      #print "r = $r\n";
+     # print "r = $r\n";
       if($r =~ /Node([0-9_c]+) \-> Node([0-9_c]+).*label="[^"]+"/) {
          $from = $1;
          $to = $2;
@@ -133,12 +134,12 @@ my($i,@rel_str,$node,$nodes,@nodes,$node_id,$indx_id,$z,$r,$from,$to);
              $r =~ s/]/ ltail=cluster_$z]/;
          }
       }
-      #print "from = $from to = $to\n";
-      #if ($new_index{$from} ne "") { $from = $new_index{$from};}
-      #if ($new_index{$to} ne "") { $to = $new_index{$to};}
-      #print "from = $from to = $to\n";
+     # print "from = $from to = $to\n";
+      if ($new_index{$from} ne "") { $from = $new_index{$from};}
+      if ($new_index{$to} ne "") { $to = $new_index{$to};}
+     # print "NEW from = $from to = $to\n";
       $r =~ s/Node[0-9_c]+ \-> Node[0-9_c]+(.*label="[^"]+")/Node$from -> Node$to$1/;
-      #print "RaRRR = $r\n";
+     # print "RaRRR = $r\n";
       $rel_str .= "\n".$r;
 	    #print "REL3 = $rel_str\n";
     }
@@ -380,7 +381,7 @@ sub form_compound_constituency_tree {
        #print "pUrvapada Not Found in Stack\n";
           if (($i < $component_indx-1) && ($diff == 1)) { $intmd = $f[3]."_".$next; $next++;}	# get compound root node
           else {$intmd = "";}
-       #print "intmd1 = $f[0] $intmd $f[3]\n";
+      # print "intmd1 = $f[0] $intmd $f[3]\n";
           if ($i == $component_indx-1) { $last = 1;} else { $last = 0;}
           &print_subtree($f[0],$f[2],$f[3],$f[4],$intmd,$edgedir,$last);
        } else {
@@ -519,7 +520,7 @@ sub print_constituent_and_intermediate_nodes{
           $rel_str .= " \nrank=same{Node$old_index{$from_id}, Node$tmp_indx_to} \nNode$tmp_indx_to -> Node$old_index{$from_id} \[style=\"invis\" dir=\"back\"\] ";
 	    #print "REL6 = $rel_str\n";
       } else {
-          $rel_str .= "\nNode$tmp_indx_to -> Node$tmp_indx_from \[ label = \"$rel\" dir=\"$edgedir\" \]";
+          $rel_str .= "\nNode$tmp_indx_to -> Node$tmp_indx_from \[ label=\"$rel\" dir=\"$edgedir\" \]";
 	    #print "REL7 = $rel_str\n";
       }
  }
@@ -568,11 +569,19 @@ sub myfound {
 sub print_subtree {
   my ($a,$b,$c,$d,$intmd,$edgedir,$last) = @_;
 
-  #print "edgedir = $edgedir\n";
-  #print "a b c d intmd => $a###$b###$c###$d###$intmd\n";
+ # print "edgedir = $edgedir\n";
+ # print "a b c d intmd last=> $a###$b###$c###$d###$intmd###$last\n";
   &get_intermediate_labels($a,$c,$intmd);
   &print_constituent_and_intermediate_nodes($a,$b,$c,$d,$intmd,$last);
-  &print_samAsa_relations($a,$b,$c,$intmd,$edgedir,$last);
+  if ($last == 0) {
+     if (($a ne "") && ($non_cluster !~ /#$a,/)) {  # If the relation is empty, as in the case of verbs
+          $non_cluster .= "#".$a.",";
+     } 
+     if (($c ne "") && ($non_cluster !~ /#$c,/)) {  # If the relation is empty, as in the case of verbs
+          $non_cluster .= "#".$c.",";
+     } 
+   } 
+   &print_samAsa_relations($a,$b,$c,$intmd,$edgedir,$last);
 }
 1;
 
@@ -609,8 +618,10 @@ sub add_relations{
                 ($edgestyle,$edgedir) = split(/:/, &get_edgestyle_edge_dir($rel_nm,$z));
                 if($edgestyle ne "") { $s_str = "style=$edgestyle";} else {$s_str = "";}
                 if (($d_id ne "") && ($rel_nm !~ /abhihita/) && ($rel_nm !~ /अभिहित/)){
+		   # print "s_id d_id = $s_id $d_id\n";
                     if($new_index{$d_id} ne "") { $d_id = $new_index{$d_id};} 
                     if($new_index{$s_id} ne "") { $s_id = $new_index{$s_id};} 
+		   # print "NEW s_id d_id = $s_id $d_id\n";
                     $str .= "\nNode$s_id -> Node$d_id \[ $s_str label=\"".$rel_nm."\"  dir=\"$edgedir\" \]";
                 }
               }
