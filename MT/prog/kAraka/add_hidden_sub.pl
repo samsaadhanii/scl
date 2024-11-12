@@ -53,10 +53,10 @@ while($in = <STDIN>){
  #print "IN = $in NI \n";
  #print "HOLD P $hold_parent\n";
  #print "HOLD C $hold_children\n";
-        if  ($in =~ /<\!\-\-.* Node([0-9]_[0-9]_[0-9]c) .*\-\->/) {
+        if  ($in =~ /<\!\-\-.* Node([0-9]+_[0-9]_[0-9]c) .*\-\->/) {
 		  $in =~ s/<g id="(node[^"]+)" class="node">/<g class="$1" onclick="toggleChildren('children_node$hidden_count');">/;
 		  $hold_parent = $in;
-        } elsif  ($in =~ /Node([0-9]_[0-9]_[0-9])&#45;&gt;Node([0-9]_[0-9]_[0-9])c/) {
+        } elsif  ($in =~ /Node([0-9]+_[0-9]_[0-9])&#45;&gt;Node([0-9]+_[0-9]_[0-9])c/) {
                  #print "ONE = $1\n";
                  #print "TWO = $2\n";
                  if ($1 eq $2) {
@@ -73,7 +73,7 @@ while($in = <STDIN>){
                     } 
                   } else { print $hold_parent; print $hold_children; print $in; $hold_parent = ""; $hold_children = "";}
                   $hidden_count++;
-        } elsif($in =~ /Node([0-9])/) {
+        } elsif($in =~ /Node([0-9]+)/) {
 	           $current_compound_node_no = $1;
 	           if ($old_compound_node_no != $current_compound_node_no) {
                       if ($hold_children ne "") { print $hold_children; $hold_children = "";}

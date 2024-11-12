@@ -173,7 +173,7 @@ sub print_node_info{
     my($node,$word,$color) = @_;
     #$node =~ s/\./_/g;
     #print "$node generated\n";
-    print TMP1 "Node$node [style=filled, color=\"$color\" ";
+    print TMP1 "Node$node [shape=\"rectangle\", style=filled, color=\"$color\" ";
     print TMP1 "label = \"$word\"]\n";
 }
 
@@ -372,23 +372,23 @@ sub form_compound_constituency_tree {
     #print "TO INDEX = $f[3]\n";
     $diff = &get_diff($f[3], $f[0]);
     #print "diff = $diff\n";
-    if (($diff == 1) || ($diff == 10))  {	# The diff should be equal to .1, but due to floating point representation, it is not exactly 0.1
+    if (($diff == 1) || ($diff == 10))  {	#  if next word then diff=10; if next component then diff = 1
        $srch_entry = $f[0];
        $found_indx = &myfound($srch_entry,$stack_index,@stack);
        #print "pUrvapada in Stack = $found_indx\n";
        if ($found_indx == -1 ) {  # pUrvapaxa not found in stack
        #print "pUrvapada Not Found in Stack\n";
-          if ($i < $component_indx-1) { $intmd = $f[3]."_".$next; $next++;}	# get compound root node
+          if (($i < $component_indx-1) && ($diff == 1)) { $intmd = $f[3]."_".$next; $next++;}	# get compound root node
           else {$intmd = "";}
-        #print "intmd1 = $f[0] $intmd $f[3]\n";
-          if($i == $component_indx-1) { $last = 1;} else { $last = 0;}
+       #print "intmd1 = $f[0] $intmd $f[3]\n";
+          if ($i == $component_indx-1) { $last = 1;} else { $last = 0;}
           &print_subtree($f[0],$f[2],$f[3],$f[4],$intmd,$edgedir,$last);
        } else {
             while (($found_indx > -1) && ($stack_index > 0)) {
                ($pos,@f) = split(/:/, $stack[$found_indx]); #POP
                #print "$srch_entry found at $pos # $found_indx\n";
 	       $stack_index--;
-               if ($pos < $component_indx) { $intmd = $f[3]."_".$next;$next++;}	# get compound root node
+               if (($pos < $component_indx)) { $intmd = $f[3]."_".$next;$next++;}	# get compound root node
                else { $intmd = "";}
                #print " stack_index = $stack_index  found_indx = $found_indx intmd2 = $intmd\n";
                if($pos == $component_indx-1) { $last = 1;} else { $last = 0;}
@@ -398,8 +398,9 @@ sub form_compound_constituency_tree {
                $found_indx = &myfound($srch_entry,$stack_index,@stack);
             }
           @f = split(/:/,$compound[$i]);	# fields: index(0), word(1), relation (2), to_index (3), color code (4)
-          if ($i < $component_indx) { $intmd = $f[3]."_".$next; $next++;}	# get compound root node
+          if ($i < $component_indx - 1) { $intmd = $f[3]."_".$next; $next++;}	# get compound root node
           else {$intmd = "";}
+          #print "i = $i  component_indx = $component_indx\n";
         #print "intmd3 = $f[0] $intmd $f[3]\n";
           if($i == $component_indx-1) { $last = 1;} else { $last = 0;}
           &print_subtree($f[0],$f[2],$f[3],$f[4],$intmd,$edgedir,$last);
@@ -408,7 +409,7 @@ sub form_compound_constituency_tree {
           #print "entry pushed to stack\n";
           $stack[$stack_index] = $i.":".$compound[$i];	## Push
           $stack_index++;
-        #print "Stack index = $stack_index\n";
+          #print "Stack index = $stack_index\n";
       }
   # }
   #}
@@ -431,6 +432,7 @@ sub form_compound_constituency_tree {
 #Define new intermediate labels
 sub get_intermediate_labels{
   my ($s,$d,$intmd) = @_;
+       #print "$s $d $intmd\n";
        if ($intmd ne "" ) {
            if($new_index{$d} != 0) { $old_index{$d} = $new_index{$d};} else {$old_index{$d} = $d;}
            $new_index{$d} = $intmd;
@@ -486,7 +488,7 @@ sub print_constituent_and_intermediate_nodes{
                #print "$from_id generated\n";
            }
            if($intmd ne "") {
-            $intmd_label = $new_label{$to_id}."-".$new_label{$from_id};
+            $intmd_label = $new_label{$to_id}.$new_label{$from_id};
             if($last == 0) { $intmd_label =  "<". $intmd_label.">($samAsa_type)";} 
             $new_label{$from_id} = $intmd_label;
             $intmd_label =~ s/\(([0-9]+)_[0-9]+\)/\($1\)/;
