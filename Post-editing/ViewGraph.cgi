@@ -24,6 +24,8 @@ my $pid = $$;
 open (TMP,">TFPATH/tmp_$pid");
 read(STDIN, $buffer, $ENV{'CONTENT_LENGTH'});
 $buffer =~ s/"//g;
+$buffer =~ s/ /\t/g;
+$buffer =~ s/^M//g;
 print TMP $buffer;
 close (TMP);
 
