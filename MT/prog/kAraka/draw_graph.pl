@@ -240,18 +240,21 @@ sub get_color_code {
 
 #These color codes are taken from Sanskrit_style.css (MT/web_interface/Sanskrit_style.css)
 
- $color_code =~ s/@//;
- if($color_code eq "N1") { $color_hash_code = "#00BFFF";}
- elsif($color_code eq "N2") { $color_hash_code = "#93DB70";}
- elsif($color_code eq "N3") { $color_hash_code = "#40E0D0";}
- elsif($color_code eq "N4") { $color_hash_code = "#B0E2FF";}
- elsif($color_code eq "N5") { $color_hash_code = "#B4FFB4";}
- elsif($color_code eq "N6") { $color_hash_code = "#87CEEB";}
- elsif($color_code eq "N7") { $color_hash_code = "#C6E2EB";}
- elsif($color_code eq "N8") { $color_hash_code = "#6FFFC3";}
- elsif($color_code eq "NA") { $color_hash_code = "#FF99FF";}
- elsif($color_code eq "KP") { $color_hash_code = "#FF1975";}
- elsif($color_code eq "CP") { $color_hash_code = "#FFFF00";}
+ if ($color_code =~ /\#/) { $color_hash_code = $color_code;}
+ else { 
+   $color_code =~ s/@//;
+   if($color_code eq "N1") { $color_hash_code = "#00BFFF";}
+   elsif($color_code eq "N2") { $color_hash_code = "#93DB70";}
+   elsif($color_code eq "N3") { $color_hash_code = "#40E0D0";}
+   elsif($color_code eq "N4") { $color_hash_code = "#B0E2FF";}
+   elsif($color_code eq "N5") { $color_hash_code = "#B4FFB4";}
+   elsif($color_code eq "N6") { $color_hash_code = "#87CEEB";}
+   elsif($color_code eq "N7") { $color_hash_code = "#C6E2EB";}
+   elsif($color_code eq "N8") { $color_hash_code = "#6FFFC3";}
+   elsif($color_code eq "NA") { $color_hash_code = "#FF99FF";}
+   elsif($color_code eq "KP") { $color_hash_code = "#FF1975";}
+   elsif($color_code eq "CP") { $color_hash_code = "#FFFF00";}
+ }
  
 $color_hash_code;
 }
