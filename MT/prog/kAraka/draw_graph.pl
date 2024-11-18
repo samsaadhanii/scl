@@ -60,7 +60,7 @@ print TMP1 $hdr;
 	     $wcolor{$flds[$index]} = &get_color_code($flds[$color_code_fld_id]); #get color code for the node
        
              if ($flds[$wrd_fld_id] =~ /\-/) {
-                ($i,$component_indx,@compound) = split(/#/,&process_compound_entry($i));
+                ($i,$component_indx,@compound) = split(/%/,&process_compound_entry($i));
                 $compound[$component_indx] = &add_compound_components($in[$i]);
                 $component_indx++;
                 &form_compound_constituency_tree($component_indx,@compound);
@@ -604,7 +604,7 @@ sub print_subtree {
             $component_indx++;
             @flds = split(/\t/,$in[$indx]);
     }
-    my $ans = join('#',$indx,$component_indx,@comp);
+    my $ans = join('%',$indx,$component_indx,@comp);
     $ans;
  }
 1;
