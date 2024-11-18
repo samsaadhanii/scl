@@ -50,6 +50,7 @@ print TMP1 $hdr;
 
       while($i <= $#in) {
 	chomp($in[$i]);	# chop the newline
+	$in[$i] =~ s///g;
 	$in[$i] =~ s/\./_/g;	# Dot does not allow '.'s in the Node labels.
         @flds = split(/\t/,$in[$i]);	# split the input into fields
         #if ($flds[1] ne "_") {
@@ -597,11 +598,15 @@ sub print_subtree {
     my($indx) = @_; 
 
     my $component_indx = 0;
+    chomp($in[$indx]);
+    $in[$indx] =~ s///g;
     my @flds = split(/\t/,$in[$indx]);
     while ($flds[$wrd_fld_id] =~ /\-/) {
             $comp[$component_indx] = &add_compound_components($in[$indx]);
             $indx++;
             $component_indx++;
+            chomp($in[$indx]);
+            $in[$indx] =~ s///g;
             @flds = split(/\t/,$in[$indx]);
     }
     my $ans = join('%',$indx,$component_indx,@comp);
