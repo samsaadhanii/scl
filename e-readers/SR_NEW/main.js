@@ -19984,7 +19984,7 @@
               (this.sentTwoBStat = "");
             for (let n of this.compAna)
               (this.showAnalysis = []),
-                n.chpatno == t &&
+                n.chaptno == t &&
                   n.slokano == e &&
                   ("1" == n.sentno
                     ? (this.sentOneAna.push(n),
