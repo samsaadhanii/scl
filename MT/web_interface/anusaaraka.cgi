@@ -170,7 +170,7 @@ package main;
     #system("$myPATH/MT/prog/Discourse/draw_graph.pl $GlblVar::TFPATH/tmp_in$Ppid 1 < $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv");
     system("$myPATH/MT/prog/kAraka/draw_graph_gen.pl $GlblVar::TFPATH/tmp_in$Ppid 1 Yes < $GlblVar::TFPATH/tmp_in$Ppid/table_outscript.tsv");
     system("$GlblVar::GraphvizDot -Tsvg -o$GlblVar::TFPATH/tmp_in$Ppid/tmp.svg $GlblVar::TFPATH/tmp_in$Ppid/1.dot");
-    system("$myPATH/MT/prog/Discourse/add_hidden_sub.pl < $GlblVar::TFPATH/tmp_in$Ppid/tmp.svg > $GlblVar::TFPATH/tmp_in$Ppid/1.svg");
+    system("$myPATH/MT/prog/kAraka/add_hidden_sub_gen.pl Yes < $GlblVar::TFPATH/tmp_in$Ppid/tmp.svg > $GlblVar::TFPATH/tmp_in$Ppid/1.svg");
 	print "<h2> Discourse Graph </h2>";
 	#print "<img src=/$GlblVar::SCL_HTDOCS/MT/DEMO/tmp_in$Ppid/1.svg width=\"\" height=\"\" > ";
 	print "<object data=\"/$GlblVar::SCL_HTDOCS/MT/DEMO/tmp_in$Ppid/1.svg\" width=\"\" height=\"\"><\/object>";
