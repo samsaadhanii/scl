@@ -4,6 +4,7 @@
 
 
 $sent = $ARGV[0];  #Yes/No
+$pid = $$;
 
 if($sent eq "No") { $sent = "";} else { $sent = "S[0-9]_";}
 sub print_script_N_style {
@@ -26,10 +27,10 @@ print "
 1;
 
 sub print_hidden_hdr_open {
- my ($label) = @_;
+ my ($label,$pid) = @_;
 
- my($str) = "<g id=\"children_node$label\" class=\"hidden\">
-    <g class=\"node\" onclick=\"toggleChildren('children_node$label');\">\n";
+ my($str) = "<g id=\"children_node${label}_${pid}\" class=\"hidden\">
+    <g class=\"node\" onclick=\"toggleChildren('children_node${label}_${pid}');\">\n";
 
 print $str;
 }
@@ -78,11 +79,11 @@ my ($i,$node,$index);
             }
          }
      }
-     &print_hidden_hdr_open($i); 
+     &print_hidden_hdr_open($i,$pid); 
      print $children_node; 
      &print_hidden_hdr_close; 
      
-     $parent_node =~ s/<g id="(node[^"]+)" class="node">/<g class="$1" onclick="toggleChildren('children_node$i');">/;
+     $parent_node =~ s/<g id="(node[^"]+)" class="node">/<g class="$1" onclick="toggleChildren('children_node${i}_${pid}');">/;
      print $parent_node;
  }
  for ($j=0;$j<=$#in; $j++)  {
