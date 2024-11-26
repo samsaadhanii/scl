@@ -120,8 +120,8 @@ for($j=0;$j<=$relations;$j++){
   $in[$j] =~ /([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+),([0-9]+)/;
   $k = $4;
   $current_pos = $5.",".$6.",".$7;
-  #print "k = $k current_pos = $current_pos\n";
-  #print "$k_rel_nm[$j]\n";
+#  print "k = $k current_pos = $current_pos\n";
+#  print "$k_rel_nm[$j]\n";
   if((($k_rel_nm[$j] eq "karwA") || ( $k == $k_rel_num{"karwA"}+100) || ($k_rel_nm[$j] eq "prayojakakarwA")) && ($pos eq $current_pos)){
      #print "found\n";
     return 1;

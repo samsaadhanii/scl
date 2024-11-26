@@ -37,7 +37,7 @@ $rel_fld_id = 6; # Counting starts from 0
 $color_code_fld_id = 8; # Counting starts from 0
 
 $hdr = "digraph G\{\nrankdir=BT;\n compound=true;\n bgcolor=\"lemonchiffon1\";\n";
-$edgedir = "back";	# Default edge direction
+$edgedir = "dir = \"back\"";	# Default edge direction
 
 $dotfl_nm = "$parse.dot"; 
 
@@ -291,14 +291,14 @@ $ans;
   my($edgedir) = "";
 
   if (&niwya_relations($rel_nm)){ # niwya sambanXaH or niwya_sambanXaH1
-      $edgestyle = "dashed color=\"red\"";
-      $edgedir = "both";
+      $edgestyle = "\"dashed\" color=\"red\"";
+      $edgedir = "dir = \"both\"";
   } elsif ($rel_indx > 0) {	# If it is a relation after ';'
-      $edgestyle = "dotted"; 
-      $edgedir = "back";
+      $edgestyle = "\"dotted\""; 
+      $edgedir = "dir = \"back\"";
   } else {
       $edgestyle = ""; 
-      $edgedir = "back";
+      $edgedir = "dir = \"back\"";
   }
 $ans = join (':', $edgestyle, $edgedir);
 $ans;
@@ -363,7 +363,7 @@ sub form_compound_constituency_tree {
   #print TMP1 "\nsubgraph cluster_",$f[0],"{\n";  
 
   $i = 0;
-  $edgedir = "back";
+  $edgedir = "dir = \"back\"";
   $next = 1;
   @stack = ();
   $stack_index = 0;
@@ -382,7 +382,7 @@ sub form_compound_constituency_tree {
     #print "i = $i\n";
     #print "component_indx = $component_indx\n";
     #print "entry = $compound[$i]\n";
-    $f[3] =~ s/;.*//;
+    #$f[3] =~ s/;.*//;
     #print "TO INDEX = $f[3]\n";
     $diff = &get_diff($f[3], $f[0]);
     #print "diff = $diff\n";
@@ -485,7 +485,7 @@ sub print_constituent_and_intermediate_nodes{
 	     #print "$new_dummy_index{$to_id} generated\n";
              $word_found{$new_dummy_index{$to_id}} = 1;
            }
-           $rel_str .= "\nNode$new_index{$to_id} -> Node$new_dummy_index{$to_id} \[ dir=\"$edgedir\" \]";
+           $rel_str .= "\nNode$new_index{$to_id} -> Node$new_dummy_index{$to_id} \[ $edgedir \]";
            $new_index{$to_id} = $new_dummy_index{$to_id};
          } else { 
            $intmd_label_to = $new_label{$to_id};
@@ -528,13 +528,13 @@ sub print_constituent_and_intermediate_nodes{
 
       #print "ZZZ $tmp_indx_from $tmp_indx_to $intmd\n";
       if ($intmd ne ""){
-          $rel_str .= " \nNode$old_index{$from_id} -> Node$intmd \[ dir=\"$edgedir\" \]";
+          $rel_str .= " \nNode$old_index{$from_id} -> Node$intmd \[ $edgedir \]";
 	    #print "REL5 = $rel_str\n";
-          $rel_str .= "\nNode$tmp_indx_to -> Node$intmd \[ dir=\"$edgedir\" \]";
+          $rel_str .= "\nNode$tmp_indx_to -> Node$intmd \[ $edgedir \]";
           $rel_str .= " \nrank=same{Node$old_index{$from_id}, Node$tmp_indx_to} \nNode$tmp_indx_to -> Node$old_index{$from_id} \[style=\"invis\" dir=\"back\"\] ";
 	    #print "REL6 = $rel_str\n";
       } else {
-          $rel_str .= "\nNode$tmp_indx_to -> Node$tmp_indx_from \[ label=\"$rel\" dir=\"$edgedir\" \]";
+          $rel_str .= "\nNode$tmp_indx_to -> Node$tmp_indx_from \[ label=\"$rel\" $edgedir \]";
 	    #print "REL7 = $rel_str\n";
       }
  }
@@ -595,6 +595,19 @@ sub print_subtree {
           $non_cluster .= "#".$c.",";
      } 
    } 
+   my $first = 1;
+   while ($c =~ /;/) {
+          $c =~ /^([^;]+);(.*)/;
+          $c = $1;
+          $rem = $2;
+          if ($first == 0) { $edgedir .= " style=\"dotted\"";}
+          &print_samAsa_relations($a,$b,$c,$intmd,$edgedir,$last);
+          $first = 0;
+          $rem =~ /^([^,]+),(.*)/;
+          $b = $1;
+          $c = $2;
+   }
+   if ($first == 0) { $edgedir .= " style=\"dotted\"";} 
    &print_samAsa_relations($a,$b,$c,$intmd,$edgedir,$last);
 }
 1;
@@ -633,6 +646,7 @@ sub add_relations{
         for ($z=0;$z<=$#rels;$z++) {
              if ($rels[$z] =~ /,/) {
                 ($rel_nm,$d_id) = split(/:/,&get_relnm_id ($rels[$z]));
+                 $rank .= &mark_niwya_sambanXa($rel_nm,$s_id,$d_id);
                 ($edgestyle,$edgedir) = split(/:/, &get_edgestyle_edge_dir($rel_nm,$z));
                 if($edgestyle ne "") { $s_str = "style=$edgestyle";} else {$s_str = "";}
                 if (($d_id ne "") && ($rel_nm !~ /abhihita/) && ($rel_nm !~ /अभिहित/)){
@@ -640,7 +654,7 @@ sub add_relations{
                     if($new_index{$d_id} ne "") { $d_id = $new_index{$d_id};} 
                     if($new_index{$s_id} ne "") { $s_id = $new_index{$s_id};} 
 		   # print "NEW s_id d_id = $s_id $d_id\n";
-                    $str .= "\nNode$s_id -> Node$d_id \[ $s_str label=\"".$rel_nm."\"  dir=\"$edgedir\" \]";
+                    $str .= "\nNode$s_id -> Node$d_id \[ $s_str label=\"".$rel_nm."\"  $edgedir \]";
                 }
               }
         }
