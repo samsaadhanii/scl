@@ -656,6 +656,7 @@ while($in = <STDIN>){
  $in =~ s/
 //;
  @flds = split(/\t/,$in);
+ print "in = $in\n";
  $wrd_no = $flds[0];
  $mo = $flds[5];
  $rel = $flds[6];

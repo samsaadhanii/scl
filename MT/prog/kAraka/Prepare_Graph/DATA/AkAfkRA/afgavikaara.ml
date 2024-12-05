@@ -3,7 +3,7 @@ value afgavikaara_list = [
 ("cakRus","kANa");
 ("caraNa","KaFja");
 ("caraNa","kuNi");
-("carme","kuRTa");
+("carma","kuRTa");
 ("haswa","kuNTa");
 ("kara","kuNTa");
 ("karNa","baXira");

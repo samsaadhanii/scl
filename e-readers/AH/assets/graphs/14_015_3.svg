@@ -1,0 +1,67 @@
+<svg width="168pt" height="218pt"
+ viewBox="0.00 0.00 168.00 218.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 214)">
+<title>G</title>
+<polygon fill="#fffacd" stroke="transparent" points="-4,4 -4,-214 164,-214 164,4 -4,4"/>
+<!-- Node1_1 -->
+<style>
+ .hidden { display: none; }
+ .node { cursor: pointer; }
+ </style>
+<script>
+     function toggleChildren(id) {
+      const children = document.getElementById(id);
+      if (children.classList.contains('hidden')) {
+        children.classList.remove('hidden');
+      } else {
+        children.classList.add('hidden');
+      }
+    }
+</script>
+
+<g id="node1" class="node">
+<title>Node1_1</title>
+<polygon fill="#93db70" stroke="#93db70" points="153.5,-123 92.5,-123 92.5,-87 153.5,-87 153.5,-123"/>
+<text text-anchor="middle" x="123" y="-101.3" font-family="Times,serif" font-size="14.00">बृंह्यान्(1)</text>
+</g>
+<!-- Node4_1 -->
+<g id="node2" class="node">
+<title>Node4_1</title>
+<polygon fill="#ff1975" stroke="#ff1975" points="107.5,-210 42.5,-210 42.5,-174 107.5,-174 107.5,-210"/>
+<text text-anchor="middle" x="75" y="-188.3" font-family="Times,serif" font-size="14.00">लङ्घयेत्(4)</text>
+</g>
+<!-- Node1_1&#45;&gt;Node4_1 -->
+<g id="edge1" class="edge">
+<title>Node1_1&#45;&gt;Node4_1</title>
+<path fill="none" stroke="black" d="M112.66,-132.5C109.28,-140.25 105.29,-148.62 101,-156 97.5,-162.02 93.16,-168.23 89.03,-173.72"/>
+<polygon fill="black" stroke="black" points="115.95,-133.71 116.58,-123.13 109.49,-131 115.95,-133.71"/>
+<text text-anchor="middle" x="117" y="-144.8" font-family="Times,serif" font-size="14.00">कर्म</text>
+</g>
+<!-- Node2_1 -->
+<g id="node3" class="node">
+<title>Node2_1</title>
+<polygon fill="#ff99ff" stroke="#ff99ff" points="150,-36 96,-36 96,0 150,0 150,-36"/>
+<text text-anchor="middle" x="123" y="-14.3" font-family="Times,serif" font-size="14.00">तु(2)</text>
+</g>
+<!-- Node2_1&#45;&gt;Node1_1 -->
+<g id="edge2" class="edge">
+<title>Node2_1&#45;&gt;Node1_1</title>
+<path fill="none" stroke="black" d="M123,-46.27C123,-59.58 123,-75.19 123,-86.82"/>
+<polygon fill="black" stroke="black" points="126.5,-46.2 123,-36.2 119.5,-46.2 126.5,-46.2"/>
+<text text-anchor="middle" x="141.5" y="-57.8" font-family="Times,serif" font-size="14.00">सम्बन्धः</text>
+</g>
+<!-- Node3_1 -->
+<g id="node4" class="node">
+<title>Node3_1</title>
+<polygon fill="#00bfff" stroke="#00bfff" points="54,-123 0,-123 0,-87 54,-87 54,-123"/>
+<text text-anchor="middle" x="27" y="-101.3" font-family="Times,serif" font-size="14.00">मृदु(3)</text>
+</g>
+<!-- Node3_1&#45;&gt;Node4_1 -->
+<g id="edge3" class="edge">
+<title>Node3_1&#45;&gt;Node4_1</title>
+<path fill="none" stroke="black" d="M20.24,-133.23C19.65,-140.95 20.38,-149.12 24,-156 28.15,-163.89 34.97,-170.34 42.3,-175.46"/>
+<polygon fill="black" stroke="black" points="23.73,-133.54 21.71,-123.14 16.8,-132.54 23.73,-133.54"/>
+<text text-anchor="middle" x="60.5" y="-144.8" font-family="Times,serif" font-size="14.00">क्रियाविशेषणम्</text>
+</g>
+</g>
+</svg>

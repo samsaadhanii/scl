@@ -1,0 +1,339 @@
+<svg width="1006pt" height="451pt"
+ viewBox="0.00 0.00 1005.50 451.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 447)">
+<title>G</title>
+<polygon fill="#fffacd" stroke="transparent" points="-4,4 -4,-447 1001.5,-447 1001.5,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_1</title>
+<polygon fill="#fffacd" stroke="black" points="346.5,-225 346.5,-277 528.5,-277 528.5,-225 346.5,-225"/>
+</g>
+<!-- Node3_1 -->
+<style>
+ .hidden { display: none; }
+ .node { cursor: pointer; }
+ </style>
+<script>
+     function toggleChildren(id) {
+      const children = document.getElementById(id);
+      if (children.classList.contains('hidden')) {
+        children.classList.remove('hidden');
+      } else {
+        children.classList.add('hidden');
+      }
+    }
+</script>
+<g id="children_node0_87854" class="hidden">
+    <g class="node" onclick="toggleChildren('children_node0_87854');">
+</g>
+</g>
+<g id="children_node1_87854" class="hidden">
+    <g class="node" onclick="toggleChildren('children_node1_87854');">
+
+<g id="node1" class="node">
+<title>Node3_1</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="650,-36 591,-36 591,0 650,0 650,-36"/>
+<text text-anchor="middle" x="620.5" y="-14.3" font-family="Times,serif" font-size="14.00">पिण्डिक&#45;</text>
+</g>
+<!-- Node3_2 -->
+<g id="node2" class="node">
+<title>Node3_2</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="739.5,-36 685.5,-36 685.5,0 739.5,0 739.5,-36"/>
+<text text-anchor="middle" x="712.5" y="-14.3" font-family="Times,serif" font-size="14.00">उद्वेष्ट&#45;</text>
+</g>
+<!-- Node3_1&#45;&gt;Node3_2 -->
+<!-- Node3_2_1 -->
+<g id="node3" class="node">
+<title>Node3_2_1</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="761,-109 588,-109 588,-73 761,-73 761,-109"/>
+<text text-anchor="middle" x="674.5" y="-87.3" font-family="Times,serif" font-size="14.00">&lt;पिण्डिक&#45;उद्वेष्ट&#45;&gt;(षष्ठी&#45;तत्पुरुषः)</text>
+</g>
+<!-- Node3_1&#45;&gt;Node3_2_1 -->
+<g id="edge2" class="edge">
+<title>Node3_1&#45;&gt;Node3_2_1</title>
+<path fill="none" stroke="black" d="M639.67,-44.21C646.92,-53.74 655,-64.36 661.55,-72.97"/>
+<polygon fill="black" stroke="black" points="642.41,-42.03 633.57,-36.19 636.84,-46.27 642.41,-42.03"/>
+</g>
+<!-- Node3_2&#45;&gt;Node3_2_1 -->
+<g id="edge1" class="edge">
+<title>Node3_2&#45;&gt;Node3_2_1</title>
+<path fill="none" stroke="black" d="M698.54,-45.08C693.56,-54.39 688.08,-64.62 683.61,-72.97"/>
+<polygon fill="black" stroke="black" points="701.67,-46.66 703.3,-36.19 695.5,-43.35 701.67,-46.66"/>
+</g>
+<!-- Node3_4_2 -->
+<g id="node6" class="node">
+<title>Node3_4_2</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="986.5,-109 796.5,-109 796.5,-73 986.5,-73 986.5,-109"/>
+<text text-anchor="middle" x="891.5" y="-87.3" font-family="Times,serif" font-size="14.00">&lt;प्रतिश्याय&#45;शिरोरुजः&gt;(इतरेतर&#45;द्वन्द्वः)</text>
+</g>
+<!-- Node3_2_1&#45;&gt;Node3_4_2 -->
+<!-- Node3_4_3 -->
+<g id="node7" class="node">
+<title>Node3_4_3</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="997.5,-182 569.5,-182 569.5,-146 997.5,-146 997.5,-182"/>
+<text text-anchor="middle" x="783.5" y="-160.3" font-family="Times,serif" font-size="14.00">&lt;&lt;पिण्डिक&#45;उद्वेष्ट&#45;&gt;(षष्ठी&#45;तत्पुरुषः)&lt;प्रतिश्याय&#45;शिरोरुजः&gt;(इतरेतर&#45;द्वन्द्वः)&gt;(इतरेतर&#45;द्वन्द्वः)</text>
+</g>
+<!-- Node3_2_1&#45;&gt;Node3_4_3 -->
+<g id="edge8" class="edge">
+<title>Node3_2_1&#45;&gt;Node3_4_3</title>
+<path fill="none" stroke="black" d="M709.41,-114.74C724.93,-124.85 742.88,-136.54 757.23,-145.89"/>
+<polygon fill="black" stroke="black" points="710.9,-111.53 700.61,-109.01 707.08,-117.4 710.9,-111.53"/>
+</g>
+<!-- Node3_3 -->
+<g id="node4" class="node">
+<title>Node3_3</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="875.5,-36 809.5,-36 809.5,0 875.5,0 875.5,-36"/>
+<text text-anchor="middle" x="842.5" y="-14.3" font-family="Times,serif" font-size="14.00">प्रतिश्याय&#45;</text>
+</g>
+<!-- Node3_4 -->
+<g id="node5" class="node">
+<title>Node3_4</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="969.5,-36 911.5,-36 911.5,0 969.5,0 969.5,-36"/>
+<text text-anchor="middle" x="940.5" y="-14.3" font-family="Times,serif" font-size="14.00">शिरोरुजः</text>
+</g>
+<!-- Node3_3&#45;&gt;Node3_4 -->
+<!-- Node3_3&#45;&gt;Node3_4_2 -->
+<g id="edge5" class="edge">
+<title>Node3_3&#45;&gt;Node3_4_2</title>
+<path fill="none" stroke="black" d="M860.1,-44.5C866.63,-53.96 873.87,-64.45 879.75,-72.97"/>
+<polygon fill="black" stroke="black" points="862.92,-42.43 854.36,-36.19 857.16,-46.41 862.92,-42.43"/>
+</g>
+<!-- Node3_4&#45;&gt;Node3_4_2 -->
+<g id="edge4" class="edge">
+<title>Node3_4&#45;&gt;Node3_4_2</title>
+<path fill="none" stroke="black" d="M922.9,-44.5C916.37,-53.96 909.13,-64.45 903.25,-72.97"/>
+<polygon fill="black" stroke="black" points="925.84,-46.41 928.64,-36.19 920.08,-42.43 925.84,-46.41"/>
+</g>
+<!-- Node3_4_2&#45;&gt;Node3_4_3 -->
+<g id="edge7" class="edge">
+<title>Node3_4_2&#45;&gt;Node3_4_3</title>
+<path fill="none" stroke="black" d="M856.91,-114.74C841.54,-124.85 823.75,-136.54 809.53,-145.89"/>
+<polygon fill="black" stroke="black" points="859.2,-117.42 865.63,-109.01 855.35,-111.58 859.2,-117.42"/>
+</g>
+<!-- Node3_4_3&#45;&gt;Node3_4_3c -->
+<g id="edge10" class="edge">
+<title>Node3_4_3&#45;&gt;Node3_4_3c</title>
+<path fill="none" stroke="black" d="M783.5,-192.27C783.5,-205.58 783.5,-221.19 783.5,-232.82"/>
+<polygon fill="black" stroke="black" points="787,-192.2 783.5,-182.2 780,-192.2 787,-192.2"/>
+</g>
+</g>
+</g>
+<!-- Node3_4_3c -->
+<g class="node8" onclick="toggleChildren('children_node1_87854');">
+<title>Node3_4_3c</title>
+<polygon fill="#00bfff" stroke="#00bfff" points="880,-269 687,-269 687,-233 880,-233 880,-269"/>
+<text text-anchor="middle" x="783.5" y="-247.3" font-family="Times,serif" font-size="14.00">पिण्डिक&#45;उद्वेष्ट&#45;प्रतिश्याय&#45;शिरोरुजः(3)</text>
+</g>
+<g id="children_node2_87854" class="hidden">
+    <g class="node" onclick="toggleChildren('children_node2_87854');">
+<!-- Node9_1 -->
+<g id="node13" class="node">
+<title>Node9_1</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="270.5,-182 216.5,-182 216.5,-146 270.5,-146 270.5,-182"/>
+<text text-anchor="middle" x="243.5" y="-160.3" font-family="Times,serif" font-size="14.00">विट्&#45;</text>
+</g>
+<!-- Node9_2 -->
+<g id="node14" class="node">
+<title>Node9_2</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="360.5,-182 306.5,-182 306.5,-146 360.5,-146 360.5,-182"/>
+<text text-anchor="middle" x="333.5" y="-160.3" font-family="Times,serif" font-size="14.00">प्रवृत्तिः</text>
+</g>
+<!-- Node9_1&#45;&gt;Node9_2 -->
+<!-- Node9_2_1 -->
+<g id="node15" class="node">
+<title>Node9_2_1</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="337,-269 182,-269 182,-233 337,-233 337,-269"/>
+<text text-anchor="middle" x="259.5" y="-247.3" font-family="Times,serif" font-size="14.00">&lt;विट्&#45;प्रवृत्तिः&gt;(षष्ठी&#45;तत्पुरुषः)</text>
+</g>
+<!-- Node9_1&#45;&gt;Node9_2_1 -->
+<g id="edge18" class="edge">
+<title>Node9_1&#45;&gt;Node9_2_1</title>
+<path fill="none" stroke="black" d="M248.63,-192.27C251.14,-205.58 254.08,-221.19 256.27,-232.82"/>
+<polygon fill="black" stroke="black" points="252.03,-191.38 246.74,-182.2 245.15,-192.68 252.03,-191.38"/>
+</g>
+<!-- Node9_2&#45;&gt;Node9_2_1 -->
+<g id="edge17" class="edge">
+<title>Node9_2&#45;&gt;Node9_2_1</title>
+<path fill="none" stroke="black" d="M311.81,-189.92C299.8,-203.71 285.18,-220.5 274.45,-232.82"/>
+<polygon fill="black" stroke="black" points="314.6,-192.04 318.52,-182.2 309.32,-187.45 314.6,-192.04"/>
+</g>
+<!-- Node9_2_1&#45;&gt;Node9_2_1c -->
+<g id="edge20" class="edge">
+<title>Node9_2_1&#45;&gt;Node9_2_1c</title>
+<path fill="none" stroke="black" d="M303.68,-273.71C332.94,-288.08 370.76,-306.66 397.84,-319.97"/>
+<polygon fill="black" stroke="black" points="305.03,-270.47 294.51,-269.2 301.94,-276.75 305.03,-270.47"/>
+</g>
+</g>
+</g>
+<!-- Node9_2_1c -->
+<g class="node16" onclick="toggleChildren('children_node2_87854');">
+<title>Node9_2_1c</title>
+<polygon fill="#00bfff" stroke="#00bfff" points="475,-356 390,-356 390,-320 475,-320 475,-356"/>
+<text text-anchor="middle" x="432.5" y="-334.3" font-family="Times,serif" font-size="14.00">विट्&#45;प्रवृत्तिः(9)</text>
+</g>
+<g id="children_node3_87854" class="hidden">
+    <g class="node" onclick="toggleChildren('children_node3_87854');">
+<!-- Node4_1 -->
+<g id="node9" class="node">
+<title>Node4_1</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="82.5,-109 28.5,-109 28.5,-73 82.5,-73 82.5,-109"/>
+<text text-anchor="middle" x="55.5" y="-87.3" font-family="Times,serif" font-size="14.00">ऊर्ध्व&#45;</text>
+</g>
+<!-- Node4_2 -->
+<g id="node10" class="node">
+<title>Node4_2</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="172.5,-109 118.5,-109 118.5,-73 172.5,-73 172.5,-109"/>
+<text text-anchor="middle" x="145.5" y="-87.3" font-family="Times,serif" font-size="14.00">वायुः</text>
+</g>
+<!-- Node4_1&#45;&gt;Node4_2 -->
+<!-- Node4_2_1 -->
+<g id="node11" class="node">
+<title>Node4_2_1</title>
+<polygon fill="#ffff00" stroke="#ffff00" points="192.5,-182 52.5,-182 52.5,-146 192.5,-146 192.5,-182"/>
+<text text-anchor="middle" x="122.5" y="-160.3" font-family="Times,serif" font-size="14.00">&lt;ऊर्ध्व&#45;वायुः&gt;(कर्मधारयः)</text>
+</g>
+<!-- Node4_1&#45;&gt;Node4_2_1 -->
+<g id="edge13" class="edge">
+<title>Node4_1&#45;&gt;Node4_2_1</title>
+<path fill="none" stroke="black" d="M78.74,-116.63C87.88,-126.31 98.14,-137.19 106.43,-145.97"/>
+<polygon fill="black" stroke="black" points="81.13,-114.06 71.72,-109.19 76.04,-118.86 81.13,-114.06"/>
+</g>
+<!-- Node4_2&#45;&gt;Node4_2_1 -->
+<g id="edge12" class="edge">
+<title>Node4_2&#45;&gt;Node4_2_1</title>
+<path fill="none" stroke="black" d="M136.77,-118.95C133.83,-128.02 130.64,-137.88 128.02,-145.97"/>
+<polygon fill="black" stroke="black" points="140.18,-119.78 139.93,-109.19 133.52,-117.62 140.18,-119.78"/>
+</g>
+<!-- Node4_2_1&#45;&gt;Node4_2_1c -->
+<g id="edge15" class="edge">
+<title>Node4_2_1&#45;&gt;Node4_2_1c</title>
+<path fill="none" stroke="black" d="M122.5,-192.27C122.5,-205.58 122.5,-221.19 122.5,-232.82"/>
+<polygon fill="black" stroke="black" points="126,-192.2 122.5,-182.2 119,-192.2 126,-192.2"/>
+</g>
+</g>
+</g>
+<!-- Node4_2_1c -->
+<g class="node12" onclick="toggleChildren('children_node3_87854');">
+<title>Node4_2_1c</title>
+<polygon fill="#00bfff" stroke="#00bfff" points="164,-269 81,-269 81,-233 164,-233 164,-269"/>
+<text text-anchor="middle" x="122.5" y="-247.3" font-family="Times,serif" font-size="14.00">ऊर्ध्व&#45;वायुः(4)</text>
+</g>
+<!-- Node3_4_3c&#45;&gt;Node9_2_1c -->
+<g id="edge11" class="edge">
+<title>Node3_4_3c&#45;&gt;Node9_2_1c</title>
+<path fill="none" stroke="black" d="M743.19,-273.64C722.82,-283.71 697.41,-294.98 673.5,-302 605.75,-321.88 523.83,-330.72 475.07,-334.46"/>
+<polygon fill="black" stroke="black" points="744.81,-276.75 752.17,-269.12 741.66,-270.49 744.81,-276.75"/>
+<text text-anchor="middle" x="736" y="-290.8" font-family="Times,serif" font-size="14.00">समुच्चितः</text>
+</g>
+<!-- Node4_2_1c&#45;&gt;Node9_2_1c -->
+<g id="edge16" class="edge">
+<title>Node4_2_1c&#45;&gt;Node9_2_1c</title>
+<path fill="none" stroke="black" d="M163.08,-273.27C166.23,-274.62 169.39,-275.88 172.5,-277 246.82,-303.73 337.48,-321.47 389.74,-330.34"/>
+<polygon fill="black" stroke="black" points="164.3,-269.98 153.74,-269.03 161.4,-276.35 164.3,-269.98"/>
+<text text-anchor="middle" x="273" y="-290.8" font-family="Times,serif" font-size="14.00">समुच्चितः</text>
+</g>
+<!-- Node11_1 -->
+<g id="node21" class="node">
+<title>Node11_1</title>
+<polygon fill="#ff1975" stroke="#ff1975" points="289,-443 218,-443 218,-407 289,-407 289,-443"/>
+<text text-anchor="middle" x="253.5" y="-421.3" font-family="Times,serif" font-size="14.00">जायन्ते(11)</text>
+</g>
+<!-- Node9_2_1c&#45;&gt;Node11_1 -->
+<g id="edge21" class="edge">
+<title>Node9_2_1c&#45;&gt;Node11_1</title>
+<path fill="none" stroke="black" d="M387.15,-360.54C356.72,-374.98 317.21,-393.75 289.06,-407.11"/>
+<polygon fill="black" stroke="black" points="388.74,-363.65 396.28,-356.2 385.74,-357.33 388.74,-363.65"/>
+<text text-anchor="middle" x="365.5" y="-377.8" font-family="Times,serif" font-size="14.00">कर्ता</text>
+</g>
+<!-- Node5_1 -->
+<g id="node17" class="node">
+<title>Node5_1</title>
+<polygon fill="#00bfff" stroke="#00bfff" points="424,-269 355,-269 355,-233 424,-233 424,-269"/>
+<text text-anchor="middle" x="389.5" y="-247.3" font-family="Times,serif" font-size="14.00">परीकर्तः(5)</text>
+</g>
+<!-- Node5_1&#45;&gt;Node9_2_1c -->
+<g id="edge24" class="edge">
+<title>Node5_1&#45;&gt;Node9_2_1c</title>
+<path fill="none" stroke="black" d="M394.23,-279.3C396.17,-286.91 398.84,-295 402.5,-302 405.84,-308.38 410.53,-314.6 415.22,-319.99"/>
+<polygon fill="black" stroke="black" points="397.6,-278.37 392.01,-269.37 390.77,-279.89 397.6,-278.37"/>
+<text text-anchor="middle" x="425" y="-290.8" font-family="Times,serif" font-size="14.00">समुच्चितः</text>
+</g>
+<!-- Node7_1 -->
+<g id="node18" class="node">
+<title>Node7_1</title>
+<polygon fill="#00bfff" stroke="#00bfff" points="520.5,-269 442.5,-269 442.5,-233 520.5,-233 520.5,-269"/>
+<text text-anchor="middle" x="481.5" y="-247.3" font-family="Times,serif" font-size="14.00">उपरोधनम्(7)</text>
+</g>
+<!-- Node7_1&#45;&gt;Node9_2_1c -->
+<g id="edge26" class="edge">
+<title>Node7_1&#45;&gt;Node9_2_1c</title>
+<path fill="none" stroke="black" d="M466.46,-278.09C458.64,-291.65 449.3,-307.85 442.4,-319.82"/>
+<polygon fill="black" stroke="black" points="469.62,-279.61 471.58,-269.2 463.56,-276.12 469.62,-279.61"/>
+<text text-anchor="middle" x="482" y="-290.8" font-family="Times,serif" font-size="14.00">समुच्चितः</text>
+</g>
+<!-- Node1_1 -->
+<g id="node19" class="node">
+<title>Node1_1</title>
+<polygon fill="#87ceeb" stroke="#87ceeb" points="63,-269 0,-269 0,-233 63,-233 63,-269"/>
+<text text-anchor="middle" x="31.5" y="-247.3" font-family="Times,serif" font-size="14.00">शकृतः(1)</text>
+</g>
+<!-- Node2_1 -->
+<g id="node20" class="node">
+<title>Node2_1</title>
+<polygon fill="#40e0d0" stroke="#40e0d0" points="237.5,-356 181.5,-356 181.5,-320 237.5,-320 237.5,-356"/>
+<text text-anchor="middle" x="209.5" y="-334.3" font-family="Times,serif" font-size="14.00">रोधेन(2)</text>
+</g>
+<!-- Node1_1&#45;&gt;Node2_1 -->
+<g id="edge22" class="edge">
+<title>Node1_1&#45;&gt;Node2_1</title>
+<path fill="none" stroke="black" d="M57.06,-275.89C67.95,-285.08 81.2,-295.02 94.5,-302 122.41,-316.64 157.4,-326.19 181.41,-331.55"/>
+<polygon fill="black" stroke="black" points="59.07,-273.01 49.23,-269.08 54.48,-278.29 59.07,-273.01"/>
+<text text-anchor="middle" x="122.5" y="-290.8" font-family="Times,serif" font-size="14.00">षष्ठीसम्बन्धः</text>
+</g>
+<!-- Node2_1&#45;&gt;Node11_1 -->
+<g id="edge23" class="edge">
+<title>Node2_1&#45;&gt;Node11_1</title>
+<path fill="none" stroke="black" d="M223,-365.09C230.02,-378.65 238.41,-394.85 244.61,-406.82"/>
+<polygon fill="black" stroke="black" points="226.11,-363.47 218.4,-356.2 219.89,-366.69 226.11,-363.47"/>
+<text text-anchor="middle" x="244" y="-377.8" font-family="Times,serif" font-size="14.00">हेतुः</text>
+</g>
+<!-- Node6_1 -->
+<g id="node22" class="node">
+<title>Node6_1</title>
+<polygon fill="#87ceeb" stroke="#87ceeb" points="515.5,-182 447.5,-182 447.5,-146 515.5,-146 515.5,-182"/>
+<text text-anchor="middle" x="481.5" y="-160.3" font-family="Times,serif" font-size="14.00">हृदयस्य(6)</text>
+</g>
+<!-- Node6_1&#45;&gt;Node7_1 -->
+<g id="edge25" class="edge">
+<title>Node6_1&#45;&gt;Node7_1</title>
+<path fill="none" stroke="black" d="M481.5,-192.27C481.5,-205.58 481.5,-221.19 481.5,-232.82"/>
+<polygon fill="black" stroke="black" points="485,-192.2 481.5,-182.2 478,-192.2 485,-192.2"/>
+<text text-anchor="middle" x="509.5" y="-203.8" font-family="Times,serif" font-size="14.00">षष्ठीसम्बन्धः</text>
+</g>
+<!-- Node8_1 -->
+<g id="node23" class="node">
+<title>Node8_1</title>
+<polygon fill="#40e0d0" stroke="#40e0d0" points="596,-269 539,-269 539,-233 596,-233 596,-269"/>
+<text text-anchor="middle" x="567.5" y="-247.3" font-family="Times,serif" font-size="14.00">मुखेन(8)</text>
+</g>
+<!-- Node8_1&#45;&gt;Node9_2_1c -->
+<g id="edge27" class="edge">
+<title>Node8_1&#45;&gt;Node9_2_1c</title>
+<path fill="none" stroke="black" d="M542.3,-275.97C532.26,-284.81 520.29,-294.49 508.5,-302 498.09,-308.63 486.21,-314.72 474.99,-319.89"/>
+<polygon fill="black" stroke="black" points="544.82,-278.42 549.9,-269.13 540.13,-273.22 544.82,-278.42"/>
+<text text-anchor="middle" x="545" y="-290.8" font-family="Times,serif" font-size="14.00">करणम्</text>
+</g>
+<!-- Node10_1 -->
+<g id="node24" class="node">
+<title>Node10_1</title>
+<polygon fill="#ff99ff" stroke="#ff99ff" points="668.5,-269 614.5,-269 614.5,-233 668.5,-233 668.5,-269"/>
+<text text-anchor="middle" x="641.5" y="-247.3" font-family="Times,serif" font-size="14.00">च(10)</text>
+</g>
+<!-- Node10_1&#45;&gt;Node9_2_1c -->
+<g id="edge28" class="edge">
+<title>Node10_1&#45;&gt;Node9_2_1c</title>
+<path fill="none" stroke="black" d="M608.75,-274.84C607.66,-275.57 606.57,-276.29 605.5,-277 588,-288.54 584.74,-293.68 565.5,-302 536.46,-314.55 501.85,-323.49 475.22,-329.19"/>
+<polygon fill="black" stroke="black" points="610.9,-277.61 617.21,-269.11 606.97,-271.82 610.9,-277.61"/>
+<text text-anchor="middle" x="630" y="-290.8" font-family="Times,serif" font-size="14.00">समुच्चय_द्योतकः</text>
+</g>
+</g>
+</svg>
