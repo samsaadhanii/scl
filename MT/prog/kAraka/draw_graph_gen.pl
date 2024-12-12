@@ -33,6 +33,7 @@ $non_cluster = "";
 
 $index = 0;
 $wrd_fld_id = 1; # Counting starts from 0
+$morph_fld_id = 5; # Counting starts from 0
 $rel_fld_id = 6; # Counting starts from 0
 $color_code_fld_id = 8; # Counting starts from 0
 
@@ -58,6 +59,7 @@ print TMP1 $hdr;
         @flds = split(/\t/,$in[$i]);	# split the input into fields
 	if (($flds[1] ne "_")  && ($flds[0] =~ /[0-9]/)) {
 	   $label{$flds[$index]} = &get_label($flds[$wrd_fld_id],$flds[$index]);
+	   $kqw{$flds[$index]} = &is_kqw($flds[$morph_fld_id]);
            if (($label{$flds[$index]} ne "") && ($label{$flds[$index]} ne ".")) {  #Process the row, onlyif the label is non empty
              $s_id = $flds[$index]; 	
 	     $wcolor{$flds[$index]} = &get_color_code($flds[$color_code_fld_id]); #get color code for the node
@@ -128,7 +130,7 @@ my($i,@rel_str,$node,$nodes,@nodes,$node_id,$indx_id,$z,$r,$from,$to);
     @rel_str = split(/\n/,$rel_str);
     $rel_str = "";
     foreach $r (@rel_str) {
-     # print "r = $r\n";
+     #print "r = $r\n";
       if($r =~ /Node($sent[0-9_c]+) \-> Node($sent[0-9_c]+).*label="[^"]+"/) {
          $from = $1;
          $to = $2;
@@ -138,12 +140,12 @@ my($i,@rel_str,$node,$nodes,@nodes,$node_id,$indx_id,$z,$r,$from,$to);
              $r =~ s/]/ ltail=cluster_$z]/;
          }
       }
-     # print "from = $from to = $to\n";
+     #print "from = $from to = $to\n";
       if ($new_index{$from} ne "") { $from = $new_index{$from};}
       if ($new_index{$to} ne "") { $to = $new_index{$to};}
-     # print "NEW from = $from to = $to\n";
+     #print "NEW from = $from to = $to\n";
       $r =~ s/Node$sent[0-9_c]+ \-> Node$sent[0-9_c]+(.*label="[^"]+")/Node$from -> Node$to$1/;
-     # print "RaRRR = $r\n";
+     #print "RaRRR = $r\n";
       $rel_str .= "\n".$r;
 	    #print "REL3 = $rel_str\n";
     }
@@ -167,9 +169,10 @@ sub print_all_nodes_info{
    foreach $node (@nodes) {
       #print $node, " ", $word_found{$node}, "\n";
       #print  "label =  ", $label{$node}, "\n";
-      #print  "color =  ", $wcolor{$node}, "\n";
+      #print  "fillcolor =  ", $wcolor{$node}, "\n";
+      #print  "color =  ", $kqw{$node}, "\n";
       if ($word_found{$node} != 1) {
-         &print_node_info($node,$label{$node},$wcolor{$node});
+         &print_node_info($node,$label{$node},$wcolor{$node},$kqw{$node});
 	 #print "$node generated\n";
       }
    }
@@ -177,10 +180,11 @@ sub print_all_nodes_info{
 1;
 
 sub print_node_info{
-    my($node,$word,$color) = @_;
+    my($node,$word,$color,$kqw) = @_;
     #$node =~ s/\./_/g;
-    #print "$node generated\n";
-    print TMP1 "Node$node [shape=\"rectangle\", style=filled, color=\"$color\" ";
+    #print "$node generated with word = $word and kqw = $kqw\n";
+    print TMP1 "Node$node [shape=\"rectangle\", style=filled, fillcolor=\"$color\" ";
+    if ($kqw == 1) { print TMP1 "color=\"red\" ";}
     print TMP1 "label = \"$word\"]\n";
 }
 
@@ -341,7 +345,10 @@ sub add_compound_components {
   $f[$rel_fld_id] =~ s/,/:/;	# In the case of compounds, the ',' in the relation field is changed to ':'
   #print TMP1 " f = ",$f[7],"\n";
   #print TMP1 "REL FLD $f[0] = ",$f[$rel_fld_id],"\n";
-  $out_str = join (':',$f[$index],$f[$wrd_fld_id],$f[$rel_fld_id],$f[$color_code_fld_id]);
+  $kqw = &is_kqw($f[$morph_fld_id]);
+  #print "morph = $f[$morph_fld_id]\n";
+  #print "kqw = $kqw\n";
+  $out_str = join (':',$f[$index],$f[$wrd_fld_id],$f[$rel_fld_id],$kqw,$f[$color_code_fld_id]);
   $out_str;
 }
 1;
@@ -369,7 +376,7 @@ sub form_compound_constituency_tree {
   $stack_index = 0;
 
   while ($i < $component_indx){
-    @f = split(/:/,$compound[$i]);	# fields: index(0), word(1), relation(2), to_index (3), color code (4)
+    @f = split(/:/,$compound[$i]);	# fields: index(0), word(1), relation(2), to_index (3), kqw_or_not (4), color code (5)
     @rels = split(/;/,$f[2]);
     #for ($z=0;$z<=$#rels;$z++) {
     # if ($rels[$z] =~ /,/) {
@@ -388,17 +395,28 @@ sub form_compound_constituency_tree {
     #print "diff = $diff\n";
     if (($diff == 1) || ($diff == 10))  {	#  if next word then diff=10; if next component then diff = 1
        $srch_entry = $f[0];
-       $found_indx = &myfound($srch_entry,$stack_index,@stack);
-       #print "pUrvapada in Stack = $found_indx\n";
-       if ($found_indx == -1 ) {  # pUrvapaxa not found in stack
+       $found_pUrvapaxa_indx = &myfound($srch_entry,$stack_index,@stack);
+       #print "pUrvapada in Stack = $found_pUrvapaxa_indx\n";
+       $srch_entry = $f[3];
+       $found_uwwarapaxa_indx = &myfound($srch_entry,$stack_index,@stack);
+       #print "uwwarapada in Stack = $found_uwwarapaxa_indx\n";
+       #print "Stack index = $stack_index\n";
+       for (my $l = 0; $l < $stack_index; $l++) {
+            #print "Stack index $l = $stack[$l]\n";
+       }
+       if ($found_pUrvapaxa_indx == -1 ) {  # pUrvapaxa not found in stack
        #print "pUrvapada Not Found in Stack\n";
           if (($i < $component_indx-1) && ($diff == 1)) { $intmd = $f[3]."_".$next; $next++;}	# get compound root node
           else {$intmd = "";}
           #print "intmd1 = $f[0] $intmd $f[3]\n";
           if ($i == $component_indx-1) { $last = 1;} else { $last = 0;}
-          &print_subtree($f[0],$f[2],$f[3],$f[4],$intmd,$edgedir,$last);
-       } else {
-            while (($found_indx > -1) && ($stack_index > 0)) {
+          &print_subtree($f[0],$f[2],$f[3],$f[4],$f[5],$intmd,$edgedir,$last);
+       } 
+#else 
+	   if ($found_uwwarapaxa_indx == $stack_index-1) {
+   #print "UWWARAPAXA Found\n";
+               $found_indx = $found_uwwarapaxa_indx;
+               while (($found_indx == $stack_index-1) && ($stack_index > 0)) {
                ($pos,@f) = split(/:/, $stack[$found_indx]); #POP
                #print "$srch_entry found at $pos # $found_indx\n";
 	       $stack_index--;
@@ -408,7 +426,24 @@ sub form_compound_constituency_tree {
                if($pos == $component_indx-1) { $last = 1;} else { $last = 0;}
                #print "$f[0],  $f[3],  $new_index{$f[3]}, $intmd\n";
                #print "$f[3] = $new_label{$f[3]}  $new_index{$f[3]} = $new_label{$new_index{$f[3]}}  $intmd = $label{$intmd}\n";
-               &print_subtree($f[0],$f[2],$f[3],$f[4],$intmd,$edgedir,$last);
+               &print_subtree($f[0],$f[2],$f[3],$f[4],$f[5],$intmd,$edgedir,$last);
+               $found_indx = &myfound($srch_entry,$stack_index,@stack);
+            }
+           }
+           if ($found_pUrvapaxa_indx > -1)  { 
+   #print "PURVAPAXA Found\n";
+               $found_indx = $found_pUrvaapaxa_indx; 
+               while (($found_indx > -1) && ($stack_index > 0)) {
+               ($pos,@f) = split(/:/, $stack[$found_indx]); #POP
+               #print "$srch_entry found at $pos # $found_indx\n";
+	       $stack_index--;
+               if (($pos < $component_indx)) { $intmd = $f[3]."_".$next;$next++;}	# get compound root node
+               else { $intmd = "";}
+               #print " stack_index = $stack_index  found_indx = $found_indx intmd2 = $intmd\n";
+               if($pos == $component_indx-1) { $last = 1;} else { $last = 0;}
+               #print "$f[0],  $f[3],  $new_index{$f[3]}, $intmd\n";
+               #print "$f[3] = $new_label{$f[3]}  $new_index{$f[3]} = $new_label{$new_index{$f[3]}}  $intmd = $label{$intmd}\n";
+               &print_subtree($f[0],$f[2],$f[3],$f[4],$f[5],$intmd,$edgedir,$last);
                $found_indx = &myfound($srch_entry,$stack_index,@stack);
             }
           @f = split(/:/,$compound[$i]);	# fields: index(0), word(1), relation (2), to_index (3), color code (4)
@@ -417,11 +452,13 @@ sub form_compound_constituency_tree {
           #print "i = $i  component_indx = $component_indx\n";
         #print "intmd3 = $f[0] $intmd $f[3]\n";
           if($i == $component_indx-1) { $last = 1;} else { $last = 0;}
-          &print_subtree($f[0],$f[2],$f[3],$f[4],$intmd,$edgedir,$last);
-       } 
+          &print_subtree($f[0],$f[2],$f[3],$f[4],$f[5],$intmd,$edgedir,$last);
+       }
     } else {
           #print "entry pushed to stack\n";
-          $stack[$stack_index] = $i.":".$compound[$i];	## Push
+          #print "$i  $compound[$i]\n";
+          #$stack[$stack_index] = $i.":".$compound[$i];	## Push
+          $stack[$stack_index] = $stack_index.":".$compound[$i];	## Push
           $stack_index++;
           #print "Stack index = $stack_index\n";
       }
@@ -434,7 +471,7 @@ sub form_compound_constituency_tree {
             if ($stack_index < $component_indx) { $intmd = $f[3]."_".$next;$next++;}	# get compound root node
             else { $intmd = "";}
             if($stack_index == 0) { $last = 1;} else { $last = 0;}
-            &print_subtree($f[0],$f[2],$f[3],$f[4],$intmd,$edgedir,$last);
+            &print_subtree($f[0],$f[2],$f[3],$f[4],$f[5],$intmd,$edgedir,$last);
 	    $stack_index--;
   }
 
@@ -464,24 +501,27 @@ sub get_intermediate_labels{
 #Print the constituent nodes and the root node
 sub print_constituent_and_intermediate_nodes{
 
-  my ($to_id,$samAsa_type,$from_id,$color,$intmd,$last) = @_;
+  my ($to_id,$samAsa_type,$from_id,$kqw,$color,$intmd,$last) = @_;
+     # $kqw corresponds to $to_id
 
        my($wcolor,$intmd_label);
     #Print the constituent nodes and the root node
        $wcolor = &get_color_code($color);
   
+       #print " $to_id $kqw \n";
+       #print " $from_id $kqw \n";
 #print "YYY $to_id $samAsa_type $from_id $intmd last=$last\n";
        if ($last == 1) {
 	   $intmd_label = $new_label{$to_id};
            #print "intmd label = $intmd_label\n";
-	   $intmd_label =~ s/\([^)]+\)//g;
+	   $intmd_label =~ s/\(.*\)//g;
 	   $intmd_label =~ s/[<>]//g;
 	   $intmd_label =~ s/$/\($to_id\)/g;
            $intmd_label =~ s/$sent([0-9]+)_[0-9]+/$1/;
            $new_dummy_index{$to_id} = $new_index{$to_id}."c";
            #print "NDI = $new_dummy_index{$to_id}\n";
            if ($word_found{$new_dummy_index{$to_id}} != 1) {
-             &print_node_info($new_dummy_index{$to_id},$intmd_label,$wcolor); 
+             &print_node_info($new_dummy_index{$to_id},$intmd_label,$wcolor,$kqw); 
 	     #print "$new_dummy_index{$to_id} generated\n";
              $word_found{$new_dummy_index{$to_id}} = 1;
            }
@@ -493,22 +533,28 @@ sub print_constituent_and_intermediate_nodes{
            $intmd_label_from = $new_label{$from_id};
            $intmd_label_from =~ s/$sent([0-9]+)_[0-9]+/$1/;
            if ($word_found{$to_id} == 0) { 
-               &print_node_info($to_id,$intmd_label_to,$wcolor); 
+               &print_node_info($to_id,$intmd_label_to,$wcolor,$kqw); 
                $word_found{$to_id} = 1; 
                #print "$to_id generated\n";
            }
            if ($word_found{$from_id} == 0) { 
-               &print_node_info($from_id,$intmd_label_from,$wcolor); 
+               &print_node_info($from_id,$intmd_label_from,$wcolor,$kqw); 
                $word_found{$from_id} = 1; 
                #print "$from_id generated\n";
            }
            if($intmd ne "") {
-            $intmd_label = $new_label{$to_id}.$new_label{$from_id};
-            if($last == 0) { $intmd_label =  "<". $intmd_label.">($samAsa_type)";} 
+            $new_label{$to_id} =~  s/\-$//;
+            $new_label{$from_id} =~  s/\-$//;
+            $new_label{$to_id} =~  s/\(.*\)//;
+            $new_label{$from_id} =~  s/\(.*\)//;
+            $intmd_label = $new_label{$to_id}."-".$new_label{$from_id};
+            if($last == 0) { 
+               $intmd_label =  "<". $intmd_label.">($samAsa_type)";
+            }
             $new_label{$from_id} = $intmd_label;
             $intmd_label =~ s/$sent([0-9]+)_[0-9]+/$1/;
             if ($word_found{$intmd} == 0) { 
-                &print_node_info($intmd,$intmd_label,$wcolor); 
+                &print_node_info($intmd,$intmd_label,$wcolor,$kqw); 
                 $word_found{$intmd} = 1; 
                 #print "$intmd geneated\n";
             }
@@ -576,17 +622,18 @@ sub myfound {
            $pos = $i;
       }
  }
+           #print "pos = $pos\n";
  $pos;
 }
 1;
 
 sub print_subtree {
-  my ($a,$b,$c,$d,$intmd,$edgedir,$last) = @_;
+  my ($a,$b,$c,$d,$e,$intmd,$edgedir,$last) = @_;
 
- # print "edgedir = $edgedir\n";
- # print "a b c d intmd last=> $a###$b###$c###$d###$intmd###$last\n";
+ #print "edgedir = $edgedir\n";
+ #print "a b c d e intmd last=> $a###$b###$c###$d###$e###$intmd###$last\n";
   &get_intermediate_labels($a,$c,$intmd);
-  &print_constituent_and_intermediate_nodes($a,$b,$c,$d,$intmd,$last);
+  &print_constituent_and_intermediate_nodes($a,$b,$c,$d,$e,$intmd,$last);
   if ($last == 0) {
      if (($a ne "") && ($non_cluster !~ /#$a,/)) {  # If the relation is empty, as in the case of verbs
           $non_cluster .= "#".$a.",";
@@ -650,10 +697,10 @@ sub add_relations{
                 ($edgestyle,$edgedir) = split(/:/, &get_edgestyle_edge_dir($rel_nm,$z));
                 if($edgestyle ne "") { $s_str = "style=$edgestyle";} else {$s_str = "";}
                 if (($d_id ne "") && ($rel_nm !~ /abhihita/) && ($rel_nm !~ /अभिहित/)){
-		   # print "s_id d_id = $s_id $d_id\n";
+		   #print "s_id d_id = $s_id $d_id\n";
                     if($new_index{$d_id} ne "") { $d_id = $new_index{$d_id};} 
                     if($new_index{$s_id} ne "") { $s_id = $new_index{$s_id};} 
-		   # print "NEW s_id d_id = $s_id $d_id\n";
+		   #print "NEW s_id d_id = $s_id $d_id\n";
                     $str .= "\nNode$s_id -> Node$d_id \[ $s_str label=\"".$rel_nm."\"  $edgedir \]";
                 }
               }
@@ -703,5 +750,12 @@ sub classify_cluster_non_cluster{
         $non_cluster = &add_to_non_cluster($non_cluster,$s_id,$d_id);
     }
 $ans = join (':',$cluster_no,$non_cluster);
+}
+1;
+
+sub is_kqw {
+  my ($m) = @_;
+
+ if ($m =~ /\(.*\)/) { return 1;} else {return 0;}
 }
 1;
