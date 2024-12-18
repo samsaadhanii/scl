@@ -671,7 +671,7 @@ sub print_subtree {
                 if ($component_indx > 0) {$component_indx--;}
                 if ($comp[$component_indx] ne "" ) {
                     $comp[$component_indx] =~ s/:/:$flds[$wrd_fld_id]_/;
-		    print "CC = ", $comp[$component_indx],"\n";
+		    #print "CC = ", $comp[$component_indx],"\n";
                 } else { $comp[$component_indx] = &add_compound_components($in[$indx]); }
             } else {
               $comp[$component_indx] = &add_compound_components($in[$indx]);
