@@ -549,7 +549,7 @@ sub print_constituent_and_intermediate_nodes{
             $new_label{$from_id} =~  s/\(.*\)//;
             $intmd_label = $new_label{$to_id}."-".$new_label{$from_id};
             if($last == 0) { 
-               $intmd_label =  "<". $intmd_label.">($samAsa_type)";
+                  $intmd_label =  "<". $intmd_label.">($samAsa_type)";
             }
             $new_label{$from_id} = $intmd_label;
             $intmd_label =~ s/$sent([0-9]+)_[0-9]+/$1/;
@@ -667,9 +667,17 @@ sub print_subtree {
     $in[$indx] =~ s///g;
     my @flds = split(/\t/,$in[$indx]);
     while ($flds[$wrd_fld_id] =~ /\-/) {
-            $comp[$component_indx] = &add_compound_components($in[$indx]);
-            $indx++;
+            if ($flds[$rel_fld_id] =~ /द्वन्द्व/) {
+                if ($component_indx > 0) {$component_indx--;}
+                if ($comp[$component_indx] ne "" ) {
+                    $comp[$component_indx] =~ s/:/:$flds[$wrd_fld_id]_/;
+		    print "CC = ", $comp[$component_indx],"\n";
+                } else { $comp[$component_indx] = &add_compound_components($in[$indx]); }
+            } else {
+              $comp[$component_indx] = &add_compound_components($in[$indx]);
+            }
             $component_indx++;
+            $indx++;
             chomp($in[$indx]);
             $in[$indx] =~ s///g;
             @flds = split(/\t/,$in[$indx]);
