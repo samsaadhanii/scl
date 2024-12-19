@@ -1,0 +1,38 @@
+anya,puM,anya^xUsarA^nirAlYA^Binna^vegalA
+anyA,swrI,anya^xUsarI^Binna
+asmax,a,mI
+#Bavaw,napuM,wumhI^ApaNa #The roopas for napuM entry is not possible
+Bavaw,puM,wumhI^ApaNa
+BavawI,swrI,wumhI^ApaNa
+ewax,napuM,he
+ewax,puM,hA
+ewax,swrI,hI
+ixam,napuM,he
+kiFciw,puM,koNi^#kuCa
+kiFciw,napuM,kAhI_warI
+kiFciw,swrI,koNI
+kiFcana,puM,koNI
+kiFcana,napuM,koNI
+ixam,puM,hA
+ixam,swrI,hI
+kawi,a,kiwI
+kim,napuM,kAya
+kim_1,napuM,kAya
+kim,puM,koNa
+kim,swrI,koNa
+sarva,puM,sagalYe
+sarva,napuM,sagalYe
+sarvA,swrI,sagalYA
+uBa,puM,xoGe
+uBA,swrI,xoGI
+uBaya,puM,xoGe
+wax,napuM,we
+wax,puM,wo
+wax,swrI,wI
+yax,napuM,je
+yax,puM,jo
+yax,swrI,jI
+yuRmax,a,wU
+#kimciw,puM,koNI #why this entry is here? Already kiFciw entry is there. This entry should be removed.
+#kimciw,napuM,koNI #why this entry is here? Already kiFciw entry is there. This entry should be removed.
+#kimciw,swrI,koNI #why this entry is here? Already kiFciw entry is there. This entry should be removed.
