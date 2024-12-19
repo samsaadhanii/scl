@@ -30,7 +30,7 @@ install:
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/prune; cp prog/prune/* $(CGIDIR)/$(SCL_CGI)/MT/prog/prune
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/reader_generator; cp prog/reader_generator/extract.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/reader_generator; cp prog/reader_generator/csv2json.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/reader_generator;
 	cd prog/sandhi_splitter; make install
-	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/hn/sent_gen; cp prog/hn/sent_gen/agreement.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/hn/sent_gen; cp prog/hn/sent_gen/*.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/hn/sent_gen;
+	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/hn/sent_gen; cp prog/hn/sent_gen/*.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/hn/sent_gen;
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/shell; cp prog/shell/anu_skt_hnd.sh $(CGIDIR)/$(SCL_CGI)/MT/prog/shell
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/translation; cp prog/translation/translate.sh $(CGIDIR)/$(SCL_CGI)/MT/prog/translation; cp prog/translation/translate.out $(CGIDIR)/$(SCL_CGI)/MT/prog/translation;
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/hn/word_gen/test; cp prog/hn/word_gen/test/new_gen.out $(CGIDIR)/$(SCL_CGI)/MT/prog/hn/word_gen/test;
