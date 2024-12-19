@@ -1278,7 +1278,7 @@ aXyAwma,napuM,aXyAwma,napuM
 aXyAwma,puM,aXyAwma,napuM
 axyawva,napuM,Ajace^hallIce^varwamAna_kAlYace,napuM
 aXyAya,puM,aXyAya^SikaNArA^vexapaTaNa^paTaNAcA_kAlYa^XadA^aByAsa^graMWAcA_BAga,puM
-aXyayana,npuM,aByAsa^aXyayana^praNavAcA_japa^vexapaTaNa,napuM
+aXyayana,napuM,aByAsa^aXyayana^praNavAcA_japa^vexapaTaNa,puM
 aXyewq,puM,vixyArWI,puM
 aXyURuR,puM,rAhaNArA,puM
 ayana,napuM,mArga^ayana^gawI^xeha^kAla^sEnyapraveSamArga^BramaNakAla,puM

@@ -69,7 +69,7 @@ my($out,$str,$ans);
       $in =~ s/\/$//;
       ($rt,$cat,$gen,$num,$per,$tam) = split(/ /,$in);
 
-      if($rt =~ /^(.*-)([^\-]+)$/) { $pUrva = $1; $rt = $2;} else {$pUrva = "";}
+      if($rt =~ /^(.*[-_])([^\-]+)$/) { $pUrva = $1; $rt = $2;} else {$pUrva = "";}
       if($rt =~ /\-/) {$rt =~ s/\-/__/g;}
  
       

@@ -83,7 +83,7 @@ $key = $_;
 $ANMT{$key}=1;
 }
 close(TMP);
-open(TMP,"$Data_Path/hi/inanimate.txt") || die "Can't open inanimate.txt for reading";
+open(TMP,"$Data_Path/mr/inanimate.txt") || die "Can't open inanimate.txt for reading";
 while(<TMP>) {
 chomp;
 $key = $_;

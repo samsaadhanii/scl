@@ -68,7 +68,7 @@ my($j,$k,$verb_pos,$dvikarmaka,$karma_lifgam,$karma_rt,$karwA_rt,$karwA_lifgam);
 	 #print STDERR &onto_cat($karwA_rt),"\n";
          if( &onto_cat($karwA_rt) > &onto_cat($karma_rt)) 
 	      { $karma_vibh = 0; }
-	 else { $karma_vibh = "ko";}
+	 else { $karma_vibh = "lA";}
 
         if($karma_vibh eq "0") {
            ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ko/$1 $2 $3 $4 $5 $karma_vibh/;
