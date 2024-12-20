@@ -111,13 +111,14 @@ my($out,$str,$ans);
       }
 	
       $ans = "echo '$str' | $LTPROCBIN -c $MYPATH/MT/prog/mar/word_gen/mar_gen.bin | sed '1,\$s/.*>.//' | sed 's/.\$//' ";
-      #open (TMP,">>/tmp/xx");
-      #print TMP $ans,"\n";
-      #close(TMP);
+      open (TMP,">>/tmp/xx");
+      print TMP $ans,"\n";
+      close(TMP);
       $out = `$ans`;
-      #open (TMP,">>/tmp/yy");
-      #print TMP $out;
-      #close(TMP);
+      if ($out =~ /\//) { $out =~ s/\/.*//;} ## This is the case when the word is not found in Mar dix file
+      open (TMP,">>/tmp/yy");
+      print TMP $out;
+      close(TMP);
 
       $out =~ s/__/-/g;
       $out = $pUrva.$out;

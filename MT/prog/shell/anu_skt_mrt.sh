@@ -212,7 +212,9 @@ else
   generate_anvaya
   anvaya_anu_op
   shloka_anu_op
+  if [ $TEXT_TYPE = "Sloka" ]; then
   anvaya_order_tr
+  fi
   draw_graph
   #clean
 fi

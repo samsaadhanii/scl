@@ -28634,6 +28634,9 @@ xOrmanasya,napuM,Kexa^xuRtapaNA^vEra,puM
 xos,napuM,bAhU^BujA,puM
 xos,puM,bAhU^BujA,puM
 xOvArika,puM,xvArapAla,puM
+XOwa,napuM,Xuwalele,napuM
+XOwa,puM,XUwalelA,puM
+XOwA,swrI,XUwalelI,swrI
 XOwamUlA,swrI,wejasvI^camakaNArI,swrI
 xOwya,napuM,niropa^xUwakarma^SiRtAI,puM
 xOwya,puM,niropa^xUwakarma^SiRtAI,puM
