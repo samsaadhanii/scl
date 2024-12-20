@@ -123,6 +123,7 @@ kenApi,avy,koNIhI #I didn't find an entry of this avyaya in Apates dict as well 
 kiFciw,avy,Wodese
 #kiMciw,avy,kuCa_xarje_waka^kuCa^WodZA_sA #Amruta hence we are allowing the combinations of anunasikas from here I have added # to it.
 kiMvA,avy,aWavA^paraMwu
+kim_1,avy,kA
 kila,avy,KaroKara^lokavArwA^DoMga^ASA^asamAXAna^niMxA
 kimapi,avy,kAhIhI^avarNanIya^awiSaya
 kimarWam,avy,kaSAsATI^kaSAkariwA

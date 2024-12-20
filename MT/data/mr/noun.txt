@@ -18845,6 +18845,7 @@ SqfgAtaka,puM,SruMgAta_parvawa,puM
 SqfgAta,napuM,cavATA^SiMgAdA^xAra,puM
 SqfgAta,puM,SruMgAta_parvawa,puM
 Sqfgavaw,puM,parvawa,puM
+Sqfgavera,puM,Ale,napuM
 SqfgiH,swrI,maxgura_mASAcI_mAxI,swrI
 SqfgIkanaka,napuM,xAginyAsATI_sone,napuM
 Sqfgika,napuM,viRa,napuM
