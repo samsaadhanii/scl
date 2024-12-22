@@ -5,6 +5,7 @@ $out_encoding = $ARGV[1];
 $para_anal_fl = $ARGV[2];
 $sent_anal_fl = $ARGV[3];
 
+
 $tab = "	";
 $wrd_fld_id = 1; #counted from 0
 $karaka_rel_fld = 6; #counted from 0
@@ -143,8 +144,6 @@ sub mark_discourse_rels {
 
  my($wrd_id, @flds );
 
-#print "LVI = $last_verb_indx\n";
-#print "VI = $verb_indx\n";
  open (TMP1,"<$sent_anal_fl");
 
   $in = <TMP1>; # ignore the title
@@ -199,7 +198,7 @@ sub mark_discourse_rels {
       }
       $in = join("$tab",@flds);
      }
-     if (($samuccaya_xyowakaH_indx > -1) && ($flds[0] =~ /^S$sent_id.$verb_indx/)) { 
+     if (($samuccaya_xyowakaH_indx > -1) && ($flds[0] =~ /^S$sent_id.$verb_indx/) && ($last_verb_indx > 0)) { 
       if($out_encoding eq "IAST") { 
          $flds[$karaka_rel_fld] = "samuccitaḥ,$last_verb_indx";
       } else {
