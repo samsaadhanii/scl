@@ -237,7 +237,7 @@ sub cluster_relations{
  my($wrd,$indx) = @_;
  my $label = "";
 
- $indx =~ s/$sent([0-9])_.*/$1/;
+ $indx =~ s/$sent([0-9]+)_.*/$1/;
  if($wrd ne ".") { $label = $wrd."(".$indx.")";}
  $label;
 }
