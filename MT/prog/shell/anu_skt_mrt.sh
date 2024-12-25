@@ -133,11 +133,11 @@ mar_gen(){
    cut -f2 $temp_files_path/table.tsv > $temp_files_path/2
    cut -f4- $temp_files_path/table.tsv > $temp_files_path/3
    paste $temp_files_path/1 $temp_files_path/2 $temp_files_path/1 $temp_files_path/3 | grep -v '^	' | grep . > $temp_files_path/anvaya.tsv
+   fi
    # Damm linux does not allow \t, hence I had to type CTRL V + Tab!
    $my_converter < $temp_files_path/table.tsv > $temp_files_path/table_outscript.tsv
    $my_converter < $temp_files_path/anvaya.tsv > $temp_files_path/anvaya_outscript.tsv
    rm $temp_files_path/1 $temp_files_path/2 $temp_files_path/3
-   fi
 #
  }
 ##########
@@ -145,7 +145,7 @@ mar_gen(){
  anvaya_anu_op () {
    $ANU_MT_PATH/interface/get_anvaya_order_html.pl $fbn $temp_files_path $OUTSCRIPT cgi-bin $HERITAGE_CGI A $SENT_NO $SCL_CGI < $temp_files_path/anvaya_outscript.tsv > $temp_files_path/../anvaya_$fbn.html
    $ANU_MT_PATH/interface/get_anvaya_shloka_translation.pl ${temp_files_path}/anvaya_$fbn ${temp_files_path}/anvaya_${fbn}_wx_trnsltn < $temp_files_path/anvaya.tsv
-   rm $temp_files_path/anvaya_${fbn}_wx_trnsltn
+   #rm $temp_files_path/anvaya_${fbn}_wx_trnsltn
  }
 
 #Generate Shloka order anusaaraka output
