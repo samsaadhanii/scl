@@ -57,7 +57,7 @@ print TMP1 $hdr;
         $in[$i] =~ s///g;
 	$in[$i] =~ s/\./_/g;	# Dot does not allow '.'s in the Node labels.
         @flds = split(/\t/,$in[$i]);	# split the input into fields
-	if (($flds[1] ne "_")  && ($flds[0] =~ /[0-9]/)) {
+	if (($flds[1] ne "_")  && ($flds[0] =~ /[0-9]/) && ($in[$i] !~ /WebKit/) && ($flds[0] !~ /-/)) {
 	   $label{$flds[$index]} = &get_label($flds[$wrd_fld_id]);
 	   $kqw{$flds[$index]} = &is_kqw($flds[$morph_fld_id]);
            if (($label{$flds[$index]} ne "") && ($label{$flds[$index]} ne ".")) {  #Process the row, onlyif the label is non empty
