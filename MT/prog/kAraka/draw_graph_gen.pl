@@ -21,7 +21,6 @@
 $path = $ARGV[0]; # path for temporary files
 $parse = $ARGV[1]; #Name of the output file
 $sent = $ARGV[2]; # Yes/No
-$Anvaya = $ARGV[3]; # Y if graph is to be generated for anvaya order. All the tsv files by default are for verse order
 
 
 if ($sent eq "No") { $sent = "";} else {$sent = "S[0-9]_";}
@@ -32,15 +31,11 @@ $rel_str = "";
 $solnfound = 0;
 $non_cluster = "";
 
-$verse_index_fld_id = 0; # Counting starts from 0
+$index = 0;
 $wrd_fld_id = 1; # Counting starts from 0
-$Anvaya_index_fld_id = 2; # Counting starts from 0
 $morph_fld_id = 5; # Counting starts from 0
 $rel_fld_id = 6; # Counting starts from 0
 $color_code_fld_id = 8; # Counting starts from 0
-
-if($Anvaya eq "Y") { $indx_fld = $Anvaya_index_fld_id;} else {$indx_fld = $verse_index_fld_id;}
-
 
 $hdr = "digraph G\{\nrankdir=BT;\n compound=true;\n bgcolor=\"lemonchiffon1\";\n";
 $edgedir = "dir = \"back\"";	# Default edge direction
@@ -62,13 +57,12 @@ print TMP1 $hdr;
         $in[$i] =~ s///g;
 	$in[$i] =~ s/\./_/g;	# Dot does not allow '.'s in the Node labels.
         @flds = split(/\t/,$in[$i]);	# split the input into fields
-	#if (($flds[1] ne "_")  && ($flds[$indx_fld] =~ /[0-9]/)) {
-         if (($flds[1] ne "_")  && ($flds[$indx_fld] =~ /[0-9]/) && ($in[$i] !~ /WebKit/) && ($flds[$indx_fld] !~ /-/)) {
-	   $label{$flds[$indx_fld]} = &get_label($flds[$wrd_fld_id],$flds[$indx_fld]);
-	   $kqw{$flds[$indx_fld]} = &is_kqw($flds[$morph_fld_id]);
-           if (($label{$flds[$indx_fld]} ne "") && ($label{$flds[$indx_fld]} ne ".")) {  #Process the row, onlyif the label is non empty
-             $s_id = $flds[$indx_fld]; 	
-	     $wcolor{$flds[$indx_fld]} = &get_color_code($flds[$color_code_fld_id]); #get color code for the node
+	if (($flds[1] ne "_")  && ($flds[0] =~ /[0-9]/)) {
+	   $label{$flds[$index]} = &get_label($flds[$wrd_fld_id]);
+	   $kqw{$flds[$index]} = &is_kqw($flds[$morph_fld_id]);
+           if (($label{$flds[$index]} ne "") && ($label{$flds[$index]} ne ".")) {  #Process the row, onlyif the label is non empty
+             $s_id = $flds[$index]; 	
+	     $wcolor{$flds[$index]} = &get_color_code($flds[$color_code_fld_id]); #get color code for the node
        
              if ($flds[$wrd_fld_id] =~ /\-/) {
                 ($i,$component_indx,@compound) = split(/%/,&process_compound_entry($i));
@@ -76,8 +70,6 @@ print TMP1 $hdr;
                 $component_indx++;
                 &form_compound_constituency_tree($component_indx,@compound);
              } else {
-                if ($Anvaya eq "Y") { $flds[$rel_fld_id] =~ s/.*\///;} else { $flds[$rel_fld_id] =~ s/\/.*//;} 
-                #print "### $flds[$rel_fld_id]\n";
                 @rels = split(/;/,$flds[$rel_fld_id]);
                 for ($z=0;$z<=$#rels;$z++) {
                      if ($rels[$z] =~ /,/) {
@@ -242,11 +234,10 @@ sub cluster_relations{
 1;
 
  sub  get_label{
- my($wrd,$indx) = @_;
+ my($wrd) = @_;
  my $label = "";
 
- $indx =~ s/$sent([0-9]+)_.*/$1/;
- if($wrd ne ".") { $label = $wrd."(".$indx.")";}
+ if($wrd ne ".") { $label = $wrd;}
  $label;
 }
 1;
@@ -350,15 +341,13 @@ sub add_compound_components {
 
   $in_str =~ s/\./_/g;
   @f = split(/\t/,$in_str);
-  if ($Anvaya eq "Y") { $f[$rel_fld_id] =~ s/.*\///;} else { $f[$rel_fld_id] =~ s/\/.*//;} 
   $f[$rel_fld_id] =~ s/,/:/;	# In the case of compounds, the ',' in the relation field is changed to ':'
-  #print " f = ",$f[7],"\n";
-  #print "REL FLD $f[$indx_fld] = ",$f[$rel_fld_id],"\n";
+  #print TMP1 " f = ",$f[7],"\n";
+  #print TMP1 "REL FLD $f[0] = ",$f[$rel_fld_id],"\n";
   $kqw = &is_kqw($f[$morph_fld_id]);
   #print "morph = $f[$morph_fld_id]\n";
   #print "kqw = $kqw\n";
-  $out_str = join (':',$f[$indx_fld],$f[$wrd_fld_id],$f[$rel_fld_id],$kqw,$f[$color_code_fld_id]);
-  #print "out_str = $out_str\n";
+  $out_str = join (':',$f[$index],$f[$wrd_fld_id],$f[$rel_fld_id],$kqw,$f[$color_code_fld_id]);
   $out_str;
 }
 1;
@@ -377,7 +366,7 @@ sub form_compound_constituency_tree {
     $component{$f[0]} = $f[1];
   }
 
-  #print TMP1 "\nsubgraph cluster_",$f[$indx_fld],"{\n";  
+  #print TMP1 "\nsubgraph cluster_",$f[0],"{\n";  
 
   $i = 0;
   $edgedir = "dir = \"back\"";
@@ -526,7 +515,7 @@ sub print_constituent_and_intermediate_nodes{
            #print "intmd label = $intmd_label\n";
 	   $intmd_label =~ s/\(.*\)//g;
 	   $intmd_label =~ s/[<>]//g;
-	   $intmd_label =~ s/$/\($to_id\)/g;
+	   #$intmd_label =~ s/$/\($to_id\)/g;
            $intmd_label =~ s/$sent([0-9]+)_[0-9]+/$1/;
            $new_dummy_index{$to_id} = $new_index{$to_id}."c";
            #print "NDI = $new_dummy_index{$to_id}\n";
@@ -700,14 +689,13 @@ sub print_subtree {
 sub add_relations{
    my($str) = @_;
    my $i = 1; 		#The count starts with 1; since the 1st line corresponds to the heading and hence it is to be ignored.
-   #my $index = 0;
+   my $index = 0;
    my($z,$s_id, $d_id);
 
    while($i <= $#in) {
      @flds = split(/\t/,$in[$i]);	# split the input into fields
-     $s_id = $flds[$indx_fld]; 	
-      if (($s_id !~ /\./) && ($flds[$wrd_fld_id] !~ /\-/)) {
-        if ($Anvaya eq "Y") { $flds[$rel_fld_id] =~ s/.*\///;} else { $flds[$rel_fld_id] =~ s/\/.*//;} 
+     $s_id = $flds[$index]; 	
+        if (($s_id !~ /\./) && ($flds[$wrd_fld_id] !~ /\-/)) {
         @rels = split(/;/,$flds[$rel_fld_id]);
         for ($z=0;$z<=$#rels;$z++) {
              if ($rels[$z] =~ /,/) {
