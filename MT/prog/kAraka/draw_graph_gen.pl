@@ -57,19 +57,34 @@ print TMP1 $hdr;
         $in[$i] =~ s///g;
 	$in[$i] =~ s/\./_/g;	# Dot does not allow '.'s in the Node labels.
         @flds = split(/\t/,$in[$i]);	# split the input into fields
+        # Process only genuine lines and ignore other
 	if (($flds[1] ne "_")  && ($flds[0] =~ /[0-9]/) && ($in[$i] !~ /WebKit/) && ($flds[0] !~ /-/)) {
+		print "11 Processing $in[$i] \n";
 	   $label{$flds[$index]} = &get_label($flds[$wrd_fld_id]);
 	   $kqw{$flds[$index]} = &is_kqw($flds[$morph_fld_id]);
-           if (($label{$flds[$index]} ne "") && ($label{$flds[$index]} ne ".")) {  #Process the row, onlyif the label is non empty
+           #Process the row, only if the label is non empty
+           if (($label{$flds[$index]} ne "") && ($label{$flds[$index]} ne ".")) {
              $s_id = $flds[$index]; 	
-	     $wcolor{$flds[$index]} = &get_color_code($flds[$color_code_fld_id]); #get color code for the node
+             #get color code for the node
+	     $wcolor{$flds[$index]} = &get_color_code($flds[$color_code_fld_id]); 
        
+	     #If it is a compound entry 
              if ($flds[$wrd_fld_id] =~ /\-/) {
+                #process 1 to n-1 components of a compound
                 ($i,$component_indx,@compound) = split(/%/,&process_compound_entry($i));
-                $compound[$component_indx] = &add_compound_components($in[$i]);
+                # If the (n-1)th component is a part of **itaretara dvandva**, it is joined with the following component
+                if($compound[$component_indx] ne "") {
+                       $compound[$component_indx] =~ /:([^:]+):/;
+                       my $comp = $1;
+                       $compound[$component_indx] = &add_compound_components($in[$i]);
+                       $compound[$component_indx] =~ s/:([^:]+):/:${comp}_$1:/;
+                } else {  # Otherwise, add the last compound component as a separate entry
+                      $compound[$component_indx] = &add_compound_components($in[$i]);
+                }
                 $component_indx++;
+		# Form a constituency tree
                 &form_compound_constituency_tree($component_indx,@compound);
-             } else {
+             } else { # If not a compound entry
                 @rels = split(/;/,$flds[$rel_fld_id]);
                 for ($z=0;$z<=$#rels;$z++) {
                      if ($rels[$z] =~ /,/) {
@@ -348,6 +363,7 @@ sub add_compound_components {
   #print "morph = $f[$morph_fld_id]\n";
   #print "kqw = $kqw\n";
   $out_str = join (':',$f[$index],$f[$wrd_fld_id],$f[$rel_fld_id],$kqw,$f[$color_code_fld_id]);
+  #print "OUT_STR = $out_str\n";
   $out_str;
 }
 1;
@@ -364,6 +380,7 @@ sub form_compound_constituency_tree {
   for ($i=0;$i < $component_indx; $i++){
     @f = split(/:/,$compound[$i]);	# index, word, relation-to_index, color code
     $component{$f[0]} = $f[1];
+    #print "$i $f[1]\n";
   }
 
   #print TMP1 "\nsubgraph cluster_",$f[0],"{\n";  
@@ -374,6 +391,12 @@ sub form_compound_constituency_tree {
   @stack = ();
   $stack_index = 0;
 
+  if ($component_indx == 1) {
+  @f = split(/:/,$compound[$i]);
+  #print "Entering subtree\n";
+  &print_subtree($f[0],$f[2],$f[3],$f[4],$f[5],$intmd,$edgedir,$last);
+  $i++;
+  }
   while ($i < $component_indx){
     @f = split(/:/,$compound[$i]);	# fields: index(0), word(1), relation(2), to_index (3), kqw_or_not (4), color code (5)
     @rels = split(/;/,$f[2]);
@@ -483,17 +506,13 @@ sub form_compound_constituency_tree {
 sub get_intermediate_labels{
   my ($s,$d,$intmd) = @_;
        #print "$s $d $intmd\n";
-       if ($intmd ne "" ) {
-           if($new_index{$d} != 0) { $old_index{$d} = $new_index{$d};} else {$old_index{$d} = $d;}
-           $new_index{$d} = $intmd;
-	   #print "d = $d new_index = $new_index{$d}\n";
-           $old_label{$s} = $component{$s};
-           $old_label{$d} = $component{$d};
-           if($new_label{$s} eq "") { $new_label{$s} = $old_label{$s};}
-           if($new_label{$d} eq "") { $new_label{$d} = $old_label{$d};}
-           #print " $s --> $new_label{$s}\n";
-           #print " $d --> $new_label{$d}\n";
-       }
+       $old_label{$s} = $component{$s};
+       $old_label{$d} = $component{$d};
+       if($new_index{$d} != 0) { $old_index{$d} = $new_index{$d};} else {$old_index{$d} = $d;}
+       $new_index{$d} = $intmd;
+       #print "d = $d new_index = $new_index{$d}\n";
+       if($new_label{$s} eq "") { $new_label{$s} = $old_label{$s};}
+       if($new_label{$d} eq "") { $new_label{$d} = $old_label{$d};}
 }
 1;
 
@@ -504,12 +523,12 @@ sub print_constituent_and_intermediate_nodes{
      # $kqw corresponds to $to_id
 
        my($wcolor,$intmd_label);
-    #Print the constituent nodes and the root node
+       #Print the constituent nodes and the root node
        $wcolor = &get_color_code($color);
   
        #print " $to_id $kqw \n";
        #print " $from_id $kqw \n";
-#print "YYY $to_id $samAsa_type $from_id $intmd last=$last\n";
+       #print "YYY $to_id $samAsa_type $from_id $intmd last=$last\n";
        if ($last == 1) {
 	   $intmd_label = $new_label{$to_id};
            #print "intmd label = $intmd_label\n";
@@ -517,14 +536,18 @@ sub print_constituent_and_intermediate_nodes{
 	   $intmd_label =~ s/[<>]//g;
 	   #$intmd_label =~ s/$/\($to_id\)/g;
            $intmd_label =~ s/$sent([0-9]+)_[0-9]+/$1/;
-           $new_dummy_index{$to_id} = $new_index{$to_id}."c";
+           if($new_index{$to_id} eq "") { $new_index{$to_id} = $to_id;
+              $new_dummy_index{$to_id} = $new_index{$to_id}; }
+           else { $new_dummy_index{$to_id} = $new_index{$to_id}."c";}
            #print "NDI = $new_dummy_index{$to_id}\n";
            if ($word_found{$new_dummy_index{$to_id}} != 1) {
              &print_node_info($new_dummy_index{$to_id},$intmd_label,$wcolor,$kqw); 
 	     #print "$new_dummy_index{$to_id} generated\n";
              $word_found{$new_dummy_index{$to_id}} = 1;
            }
-           $rel_str .= "\nNode$new_index{$to_id} -> Node$new_dummy_index{$to_id} \[ $edgedir \]";
+           if ($new_dummy_index{$to_id} ne $new_index{$to_id}) {
+               $rel_str .= "\nNode$new_index{$to_id} -> Node$new_dummy_index{$to_id} \[ $edgedir \]";
+           }
            $new_index{$to_id} = $new_dummy_index{$to_id};
          } else { 
            $intmd_label_to = $new_label{$to_id};
@@ -662,16 +685,21 @@ sub print_subtree {
     my($indx) = @_; 
 
     my $component_indx = 0;
+    my @comp;
+    my @flds;
+   
     chomp($in[$indx]);
     $in[$indx] =~ s///g;
+    print "22 Processing $in[$indx] \n";
     my @flds = split(/\t/,$in[$indx]);
-    while ($flds[$wrd_fld_id] =~ /\-/) {
+    while (($flds[$wrd_fld_id] =~ /\-/ && $in[$indx] !~ /WebKit/)) {
+            print "33 Processing $in[$indx] \n";
             if ($flds[$rel_fld_id] =~ /द्वन्द्व/) {
-                if ($component_indx > 0) {$component_indx--;}
                 if ($comp[$component_indx] ne "" ) {
-                    $comp[$component_indx] =~ s/:/:$flds[$wrd_fld_id]_/;
-		    #print "CC = ", $comp[$component_indx],"\n";
+                    $comp[$component_indx] =~ s/:([^:]+):/:${1}_$flds[$wrd_fld_id]:/;
+                    $comp[$component_indx] =~ s/\-_/_/;
                 } else { $comp[$component_indx] = &add_compound_components($in[$indx]); }
+                $component_indx--;
             } else {
               $comp[$component_indx] = &add_compound_components($in[$indx]);
             }
@@ -682,6 +710,7 @@ sub print_subtree {
             @flds = split(/\t/,$in[$indx]);
     }
     my $ans = join('%',$indx,$component_indx,@comp);
+    #print "ANS = $ans\n";
     $ans;
  }
 1;
