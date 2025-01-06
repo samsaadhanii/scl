@@ -59,7 +59,7 @@ print TMP1 $hdr;
         @flds = split(/\t/,$in[$i]);	# split the input into fields
         # Process only genuine lines and ignore other
 	if (($flds[1] ne "_")  && ($flds[0] =~ /[0-9]/) && ($in[$i] !~ /WebKit/) && ($flds[0] !~ /-/)) {
-		print "11 Processing $in[$i] \n";
+		#print "11 Processing $in[$i] \n";
 	   $label{$flds[$index]} = &get_label($flds[$wrd_fld_id]);
 	   $kqw{$flds[$index]} = &is_kqw($flds[$morph_fld_id]);
            #Process the row, only if the label is non empty
@@ -690,10 +690,10 @@ sub print_subtree {
    
     chomp($in[$indx]);
     $in[$indx] =~ s///g;
-    print "22 Processing $in[$indx] \n";
+    #print "22 Processing $in[$indx] \n";
     my @flds = split(/\t/,$in[$indx]);
     while (($flds[$wrd_fld_id] =~ /\-/ && $in[$indx] !~ /WebKit/)) {
-            print "33 Processing $in[$indx] \n";
+            #print "33 Processing $in[$indx] \n";
             if ($flds[$rel_fld_id] =~ /द्वन्द्व/) {
                 if ($comp[$component_indx] ne "" ) {
                     $comp[$component_indx] =~ s/:([^:]+):/:${1}_$flds[$wrd_fld_id]:/;
