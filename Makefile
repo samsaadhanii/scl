@@ -44,6 +44,7 @@ install:
 	cp -r e-readers/shishu $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers; cd e-readers/shishu/assets; perl add_url_install.pl < dicturl.json > $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers/shishu/assets/dicturl.json
 	cd e-readers/sbg; make install
 	cp -r GOLD_DATA $(HTDOCSDIR)/$(SCL_HTDOCS)
+	cp cron.sh $(CGIDIR)/$(SCL_CGI)
 
 install_mar:
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/data/mr; cp MT/data/mr/*.txt $(CGIDIR)/$(SCL_CGI)/MT/data/mr
