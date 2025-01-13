@@ -180,6 +180,7 @@ my($i,@rel_str,$node,$nodes,@nodes,$node_id,$indx_id,$z,$r,$from,$to);
       if ($new_index{$from} ne "") { $from = $new_index{$from};}
       if ($new_index{$to} ne "") { $to = $new_index{$to};}
       $r =~ s/Node$sent[0-9_c]+ \-> Node$sent[0-9_c]+(.*label="[^"]+")/Node$from -> Node$to$1/;
+      #print "r = $r\n";
       $rel_str .= "\n".$r;
     }
 $rel_str;
@@ -540,8 +541,11 @@ sub get_intermediate_labels{
       #print "s = $s d = $d intmd = $intmd\n";
        $old_label{$s} = $component{$s};
        $old_label{$d} = $component{$d};
-       if($new_index{$d} != 0) { $old_index{$d} = $new_index{$d};} else {$old_index{$d} = $d;}
+       #print "XXX $d $old_index{$d} $new_index{$d}\n";
+       if($new_index{$d} ne "") { $old_index{$d} = $new_index{$d};} else {$old_index{$d} = $d;}
+       #print "YYY $d $old_index{$d} $new_index{$d}\n";
        if ($intmd ne "") { $new_index{$d} = $intmd;}
+	#print " ZZZ intmd = $intmd\n";
        if($new_label{$s} eq "") { $new_label{$s} = $old_label{$s};}
        if($new_label{$d} eq "") { $new_label{$d} = $old_label{$d};}
 }
@@ -562,10 +566,11 @@ sub print_constituent_and_intermediate_nodes{
   
        if ($last == 1) {
 	   $intmd_label = $new_label{$to_id};
-	   $intmd_label =~ s/\(.*\)//g;
-	   $intmd_label =~ s/[<>]//g;
-	   $intmd_label =~ s/$/\($to_id\)/g;
-           $intmd_label =~ s/$sent([0-9]+)_[0-9]+/$1/;
+	   #$intmd_label =~ s/\(.*\)//g;
+	   #$intmd_label =~ s/[<>]//g;
+	   #$intmd_label =~ s/$/\($to_id\)/g;
+           #$intmd_label =~ s/$sent([0-9]+)_[0-9]+/$1/;
+           #print "intmd_label = $intmd_label\n";
            if($new_index{$to_id} eq "") { $new_index{$to_id} = $to_id;
               $new_dummy_index{$to_id} = $new_index{$to_id}; }
            else { $new_dummy_index{$to_id} = $new_index{$to_id}."c";}
@@ -584,6 +589,8 @@ sub print_constituent_and_intermediate_nodes{
            }
            if ($new_dummy_index{$to_id} ne $new_index{$to_id}) {
                $rel_str .= "\nNode$new_index{$to_id} -> Node$new_dummy_index{$to_id} \[ $edgedir \]";
+               #print "$rel_str = Node$new_index{$to_id} -> Node$new_dummy_index{$to_id} \[ $edgedir \]\n";
+     
            }
            $new_index{$to_id} = $new_dummy_index{$to_id};
          } else { 
@@ -591,8 +598,6 @@ sub print_constituent_and_intermediate_nodes{
            $intmd_label_to =~ s/$sent([0-9]+)_[0-9]+/$1/;
            $intmd_label_from = $new_label{$from_id};
            $intmd_label_from =~ s/$sent([0-9]+)_[0-9]+/$1/;
-           #print "$intmd_label_to\n";
-           #print "$intmd_label_from\n";
            if ($word_found{$to_id} == 0) { 
                &print_node_info($to_id,$intmd_label_to,$wcolor,$kqw); 
                $word_found{$to_id} = 1; 
@@ -634,14 +639,22 @@ sub print_constituent_and_intermediate_nodes{
       my($tmp_indx_from);
       if ($new_index{$to_id} ne "") { $tmp_indx_to = $new_index{$to_id};} else { $tmp_indx_to = $to_id;}
       if ($new_index{$from_id} ne "") { $tmp_indx_from = $new_index{$from_id};} else { $tmp_indx_from = $from_id;}
+      #print "tmp_indx_to = $tmp_indx_to\n";
+      #print "tmp_indx_from = $tmp_indx_from\n";
 
       if ($intmd ne ""){
-          $rel_str .= " \nNode$old_index{$from_id} -> Node$intmd \[ $edgedir \]";
+          $rel_str .= "\nNode$old_index{$from_id} -> Node$intmd \[ $edgedir \]";
           $rel_str .= "\nNode$tmp_indx_to -> Node$intmd \[ $edgedir \]";
-          $rel_str .= " \nrank=same{Node$old_index{$from_id}, Node$tmp_indx_to} \nNode$tmp_indx_to -> Node$old_index{$from_id} \[style=\"invis\" dir=\"back\"\] ";
+          $rel_str .= "\nrank=same{Node$old_index{$from_id}, Node$tmp_indx_to}";
+          $rel_str .= "\nNode$tmp_indx_to -> Node$old_index{$from_id} \[style=\"invis\" dir=\"back\"\]";
+          #print "A rel_str = Node$old_index{$from_id} -> Node$intmd \[ $edgedir \]\n";
+          #print "B rel_str = Node$tmp_indx_to -> Node$intmd \[ $edgedir \]\n";
+          #print "rel_str = rank=same{Node$old_index{$from_id}, Node$tmp_indx_to}\n";
+          #print "rel_str = Node$tmp_indx_to -> Node$old_index{$from_id} \[style=\"invis\" dir=\"back\"\]\n";
       } else {
           if ($rel =~ /द्वन्द्व/) {
               $rel_str .= "\nNode$tmp_indx_to -> Node$tmp_indx_from \[ $edgedir \]";
+              #print "C rel_str = Node$tmp_indx_to -> Node$tmp_indx_from \[ $edgedir \]\n";
           } else {
               $rel_str .= "\nNode$tmp_indx_to -> Node$tmp_indx_from \[ label=\"$rel\" $edgedir \]";
           }
@@ -704,17 +717,13 @@ sub print_subtree {
          $intmd = "";
      } else {
          $dvandva_found = 1;
-         #&get_intermediate_labels($a,$c,$intmd);
      }
   } else {
          $dvandva_found = 0;
-         #&get_intermediate_labels($a,$c,$intmd);
   }
 	#print "intmd = $intmd\n";
          &get_intermediate_labels($a,$c,$intmd);
          &print_constituent_and_intermediate_nodes($a,$b,$c,$d,$e,$intmd,$last);
-    # &get_intermediate_labels($a,$c,$intmd);
-    # &print_constituent_and_intermediate_nodes($a,$b,$c,$d,$e,$intmd,$last);
   if ($last == 0) {
      if (($a ne "") && ($non_cluster !~ /#$a,/)) {  # If the relation is empty, as in the case of verbs
           $non_cluster .= "#".$a.",";
