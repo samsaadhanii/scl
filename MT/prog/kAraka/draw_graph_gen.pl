@@ -67,7 +67,7 @@ $dvandva_found = 0;
         @flds = split(/\t/,$rows[$i]);	# split the input into fields
         # Process only genuine lines and ignore others
 	if (($flds[1] ne "_")  && ($flds[0] =~ /[0-9]/) && ($rows[$i] !~ /WebKit/) && ($flds[0] !~ /-/)) {
-	   $label{$flds[$index]} = &get_node_label($flds[$wrd_fld_id]); # Node label
+	   $label{$flds[$index]} = &get_node_label($flds[$wrd_fld_id],$flds[$index]); # Node label
 	   $kqw{$flds[$index]} = &is_kqw($flds[$morph_fld_id]);	# This is needed to add a red boundary to the kqxanwas
            #Process the row, only if the label is non empty
            if (($label{$flds[$index]} ne "") && ($label{$flds[$index]} ne ".")) {
@@ -121,6 +121,22 @@ $dvandva_found = 0;
 
 
 ############  Sub routines start ############
+
+sub print_cluster {
+      my($i,$nodes) = @_;
+      my($count);
+      #print "i = $i nodes = $nodes\n";
+      $count = $nodes =~ s/#//g;
+      if ($count > 1) { 
+         print TMP1 "\nsubgraph cluster_",$i,"{\n";
+         &print_all_nodes_info($nodes);
+         print TMP1 "\n}\n";
+      } else {
+         &print_all_nodes_info($nodes);
+      }
+ }
+1;
+
 sub draw_clusters{
 my($non_cluster,$cluster_no,$rel_str,@cluster) = @_;
 
@@ -129,13 +145,16 @@ my($i,@rel_str,$node,$nodes,@nodes,$node_id,$indx_id,$z,$r,$from,$to);
 #Global variables: $wcolor
 
 # print all nodes from various clusters
-    for($i=1; $i <= $cluster_no;$i++){
+    for($i=0; $i <= $cluster_no;$i++){
+       &print_cluster($i,$cluster[$i]);
+    }
 
-      print TMP1 "\nsubgraph cluster_",$i,"{\n";
+    for($i=29; $i <= $cluster_no+29;$i++){
+       &print_cluster($i,$cluster[$i]);
+    }
 
-      $nodes = $cluster[$i];
-      &print_all_nodes_info($nodes);
-      print TMP1 "\n}\n";
+    for($i=49; $i <= $cluster_no+49;$i++){
+       &print_cluster($i,$cluster[$i]);
     }
 
 # Print all non cluster nodes
@@ -181,8 +200,11 @@ sub print_all_nodes_info{
    $nodes =~ s/#//g;
    @nodes = split(/,/,$nodes);
    foreach $node (@nodes) {
+      if($new_dummy_index{$node} ne "") { $node = $new_dummy_index{$node};} # $word_found{$node} = 0;}
+      #print "node = $node found = $word_found{$node}\n";
       if ($word_found{$node} != 1) {
          &print_node_info($node,$label{$node},$wcolor{$node},$kqw{$node});
+	 $word_found{$node} = 1;
       }
    }
 }
@@ -211,19 +233,38 @@ sub niwya_relations{
 }
 1;
 
-sub cluster_relations{
+sub cluster_relations1{
   my($rel) = @_;
   if(   ($rel =~ /समुच्चित/) 
+  #   || ($rel =~ /समुच्चय_द्योतकः/)
      || ($rel =~ /अन्यतरः/)
-     || (   ($rel =~ /विशेषणम्/) 
+     || ($rel =~ /samuccitaḥ/) 
+  #   || ($rel =~ /samuccaya_xyowakaḥ/) 
+     || ($rel =~ /anyataraḥ/)
+     || ($rel =~ /anyatara.h/)) {
+    return 1;
+  } else { return 0;}
+}
+1;
+
+sub cluster_relations2{
+  my($rel) = @_;
+  if((   ($rel =~ /विशेषणम्/) 
           && ($rel !~ /क्रियाविशे/) 
           && ($rel !~ /विधेय/))
-     || ($rel =~ /samuccitaḥ/) 
-     || ($rel =~ /anyataraḥ/)
-     || ($rel =~ /anyatara.h/) 
      || (   ($rel =~ /viśeṣaṇam/) 
           && ($rel !~ /kriyāvi/)
           && ($rel !~ /vidheya/))) { 
+    return 1;
+  } else { return 0;}
+}
+1;
+
+sub cluster_relations3{
+  my($rel) = @_;
+  if(   ($rel =~ /घटकः/) 
+     ||  ($rel =~ /ghatakaḥ/) 
+    ) { 
     return 1;
   } else { return 0;}
 }
@@ -241,10 +282,12 @@ sub cluster_relations{
 1;
 
  sub  get_node_label{
- my($wrd) = @_;
+ my($wrd,$indx) = @_;
  my $label = "";
 
- if($wrd ne ".") { $label = $wrd;}
+ $indx =~ s/^$sent//;
+ $indx =~ s/_.*//;
+ if($wrd ne ".") { $label = $wrd. "(". $indx.")";}
  $label;
 }
 1;
@@ -315,24 +358,50 @@ $ans;
 1;
 
 sub form_cluster {
-   my($cluster_no, $d_id, $s_id) = @_;
+   my($start,$cluster_no, $d_id, $s_id) = @_;
    my ($cluster_found) = 0;
    my($is_cluster) = 0;
    my($j);
    
-   for($j=0;$j<=$cluster_no;$j++){
-      if(( $d_id ne "") && ($cluster[$j] =~ /#$d_id,/)) {
-          if( ($s_id ne "") && ($cluster[$j] !~ /#$s_id,/)) {
-              $cluster[$j] .= "#".$s_id.",";
-              $is_cluster = 1;
+
+   #if ($new_dummy_index{$s_id} ne "") { $s_id = $new_dummy_index{$s_id};}
+   #if ($new_dummy_index{$d_id} ne "") { $d_id = $new_dummy_index{$d_id};}
+   for($j=0;$j<=$cluster_no+49;$j++){
+      if(( $s_id ne "") && ($cluster[$j] =~ /#$s_id,/)) {
+          if( ($d_id ne "") && ($cluster[$j] !~ /#$d_id,/)) {
+               if (($start == 0) && ($j < 29)) { $add = 1;}
+               elsif (($start == 29) && ($j >= 29) && ($j < 49)) { $add = 1;}
+               elsif (($start == 49) && ($j >= 49)) { $add = 1;}
+               else {$add = 0;}
+               if ($add == 1) {
+                   $cluster[$j] .= "#".$d_id.",";
+                   $is_cluster = 1;
+               }
           }
           $cluster_found = 1;
+          #print "XXXX cluster $j = $cluster[$j]\n";
       }
-   } 
+      elsif(( $d_id ne "") && ($cluster[$j] =~ /#$d_id,/)) {
+          if( ($s_id ne "") && ($cluster[$j] !~ /#$s_id,/)) {
+               if (($start == 0) && ($j < 29)) { $add = 1;}
+               elsif (($start == 29) && ($j >= 29) && ($j < 49)) { $add = 1;}
+               elsif (($start == 49) && ($j >= 49)) { $add = 1;}
+               else {$add = 0;}
+               if ($add == 1) {
+                   $cluster[$j] .= "#".$s_id.",";
+                   $is_cluster = 1;
+               }
+          }
+          $cluster_found = 1;
+          #print "YYYY cluster $j = $cluster[$j]\n";
+      }
+   }
+
    if($cluster_found == 0) {
       $cluster_no++;
-      if ($s_id ne "") { $cluster[$cluster_no] = "#".$s_id.",";  $is_cluster = 1; } #$word_found{$s_id} = 1;
-      if ($d_id ne "") { $cluster[$cluster_no] .= "#".$d_id.",";  $is_cluster = 1; } #$word_found{$d_id} = 1;
+      if ($s_id ne "") { $cluster[$cluster_no+$start] = "#".$s_id.",";  $is_cluster = 1;} # $word_found{$s_id} = 1;}
+      if ($d_id ne "") { $cluster[$cluster_no+$start] .= "#".$d_id.",";  $is_cluster = 1;} # $word_found{$d_id} = 1;}
+      #print "ZZZZ cluster $cluster_no = $cluster[$cluster_no+$start]\n";
    }
 $ans = join (':', $is_cluster, $cluster_no);
 $ans;
@@ -365,7 +434,6 @@ sub form_compound_constituency_tree {
   for ($i=0;$i < $component_indx; $i++){
     @f = split(/:/,$compound[$i]);	# index, word, relation,to_index, kqw, color code
     $component{$f[0]} = $f[1];		# Global variable
-   # print "i = $i comp = $compound[$i] \n";
   }
 
   $i = 0;
@@ -374,14 +442,6 @@ sub form_compound_constituency_tree {
   @stack = ();
   $stack_index = 0;
 
-## Handle 2 component compounds - No need to use stack. Just a binary tree.
-  #if ($component_indx == 1) {
-  #@f = split(/:/,$compound[$i]);
-  #print "ZZZ\n";
-  #&print_subtree($f[0],$f[2],$f[3],$f[4],$f[5],$intmd,$edgedir,$last);
-  #$i++;
-  #}
-
 # Stack contains all the unprocessed components.
 # If the component is not conncted to the next, then push it to the stack
 # If the component is connected to the next, 
@@ -389,16 +449,12 @@ sub form_compound_constituency_tree {
   # Check if the stack contains any entries with the same uwwarapaxa as of the current component entry
   # If yes, then pop up those entries and process, and finally proces sthe current entry
   # If not, process this entry
-# 
+
   while ($i < $component_indx){
- # print "393 i = $i\n";
- # print "component_indx = $component_indx\n";
   for ($y=0;$y < $stack_index; $y++){
-   #print "STACK" ,$stack[$y],"\n";
   }
   for ($y=0;$y < $component_indx; $y++){
     @f = split(/:/,$compound[$y]);	# index, word, relation,to_index, kqw, color code
-   # print " COMP y = $y comp = $compound[$y] \n";
   }
     @f = split(/:/,$compound[$i]);	# fields: index(0), word(1), relation(2), to_index (3), kqw_or_not (4), color code (5)
     @rels = split(/;/,$f[2]);
@@ -474,20 +530,6 @@ sub form_compound_constituency_tree {
   $i++;
  # print "ABC i = $i\n";
 }
-#  while ($stack_index >0) {
-#            print "stack index = $stack_index\n";
-#            print "component_indx = $component_indx\n";
-#            if ($stack_index < $component_indx) { 
-#                $intmd = $f[3]."_".$next;
-#	        if ($f[2] !~ /द्वन्द्व/) { $next++;}
-#            }
-#            else { $intmd = "";}
-#            if($stack_index == 0) { $last = 1;} else { $last = 0;}
-#               print "UUU\n";
-#            &print_subtree($f[0],$f[2],$f[3],$f[4],$f[5],$intmd,$edgedir,$last);
-#	    $stack_index--;
-#  }
-
 }
 1;
 
@@ -522,13 +564,23 @@ sub print_constituent_and_intermediate_nodes{
 	   $intmd_label = $new_label{$to_id};
 	   $intmd_label =~ s/\(.*\)//g;
 	   $intmd_label =~ s/[<>]//g;
+	   $intmd_label =~ s/$/\($to_id\)/g;
            $intmd_label =~ s/$sent([0-9]+)_[0-9]+/$1/;
            if($new_index{$to_id} eq "") { $new_index{$to_id} = $to_id;
               $new_dummy_index{$to_id} = $new_index{$to_id}; }
            else { $new_dummy_index{$to_id} = $new_index{$to_id}."c";}
+	    #print "$to_id $new_dummy_index{$to_id}\n";
+	    #print "$from_id $new_dummy_index{$from_id}\n";
+           #print "from = $from_id new_form = $new_index{$from_id} to_id = $to_id dummy id = $new_dummy_index{$to_id} \n";
            if ($word_found{$new_dummy_index{$to_id}} != 1) {
-             &print_node_info($new_dummy_index{$to_id},$intmd_label,$wcolor,$kqw); 
-             $word_found{$new_dummy_index{$to_id}} = 1;
+             #($cluster_no, $non_cluster) = split(/:/,&classify_cluster_non_cluster($samAsa_type,$cluster_no,$non_cluster,$from_id,$new_dummy_index{$to_id}));
+             ($cluster_no, $non_cluster) = split(/:/,&classify_cluster_non_cluster($samAsa_type,$cluster_no,$non_cluster,$from_id,$to_id));
+             $label{$new_dummy_index{$to_id}} = $intmd_label;
+             $wcolor{$new_dummy_index{$to_id}} = $wcolor;
+             $kqw{$new_dummy_index{$to_id}} = $kqw;
+             $label{$to_id} = $intmd_label;
+             $wcolor{$to_id} = $wcolor;
+             $kqw{$to_id} = $kqw;
            }
            if ($new_dummy_index{$to_id} ne $new_index{$to_id}) {
                $rel_str .= "\nNode$new_index{$to_id} -> Node$new_dummy_index{$to_id} \[ $edgedir \]";
@@ -774,8 +826,12 @@ sub classify_cluster_non_cluster{
 
   # classify the nodes into cluster / non-cluster
     $is_cluster = 0;
-    if (&cluster_relations($rel_nm)) {
-       ($is_cluster,$cluster_no) = split(/:/, &form_cluster($cluster_no,$d_id,$s_id));
+    if (&cluster_relations1($rel_nm)) {
+       ($is_cluster,$cluster_no) = split(/:/, &form_cluster(0,$cluster_no,$d_id,$s_id));
+    } elsif (&cluster_relations2($rel_nm)) {
+       ($is_cluster,$cluster_no) = split(/:/, &form_cluster(29,$cluster_no,$d_id,$s_id));
+    } elsif (&cluster_relations3($rel_nm)) {
+       ($is_cluster,$cluster_no) = split(/:/, &form_cluster(49,$cluster_no,$d_id,$s_id));
     }
     if ($is_cluster == 0) {
         $non_cluster = &add_to_non_cluster($non_cluster,$s_id,$d_id);
