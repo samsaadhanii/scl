@@ -66,6 +66,8 @@ sub karmaNi_BAve{
                  ${$var_nm}[$ana_fld_for_calling_gen_after_lwg+1] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) 0/$1 $2 $3 $4 $5 ko/;
                  ${$var_nm}[$ana_fld_for_calling_gen_after_lwg+1] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ke\~xvArA/$1 $2 $3 $4 $5 0/;
                  ${$var_nm1}[$ana_fld_for_calling_gen_after_lwg+1] =~ s/yA_jAwA_hE/wA_hE/;
+                 ${$var_nm1}[$ana_fld_for_calling_gen_after_lwg+1] =~ s/yA_jAyegA/gA/;
+		 #print "XXX ${$var_nm1}[$ana_fld_for_calling_gen_after_lwg+1]\n";
 		## we need to add this for all the mappings in karmaNI_lakAra and BAve_lakAra
             }
        }
