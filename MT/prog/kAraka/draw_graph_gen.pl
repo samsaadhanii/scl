@@ -566,21 +566,15 @@ sub print_constituent_and_intermediate_nodes{
   
        if ($last == 1) {
 	   $intmd_label = $new_label{$to_id};
-	   #$intmd_label =~ s/\(.*\)//g;
-	   #$intmd_label =~ s/[<>]//g;
-	   #$intmd_label =~ s/$/\($to_id\)/g;
-           #$intmd_label =~ s/$sent([0-9]+)_[0-9]+/$1/;
-           #print "intmd_label = $intmd_label\n";
            if($new_index{$to_id} eq "") { $new_index{$to_id} = $to_id;
               $new_dummy_index{$to_id} = $new_index{$to_id}; }
            else { $new_dummy_index{$to_id} = $new_index{$to_id}."c";}
-	    #print "$to_id $new_dummy_index{$to_id}\n";
-	    #print "$from_id $new_dummy_index{$from_id}\n";
-           #print "from = $from_id new_form = $new_index{$from_id} to_id = $to_id dummy id = $new_dummy_index{$to_id} \n";
            if ($word_found{$new_dummy_index{$to_id}} != 1) {
              #($cluster_no, $non_cluster) = split(/:/,&classify_cluster_non_cluster($samAsa_type,$cluster_no,$non_cluster,$from_id,$new_dummy_index{$to_id}));
              ($cluster_no, $non_cluster) = split(/:/,&classify_cluster_non_cluster($samAsa_type,$cluster_no,$non_cluster,$from_id,$to_id));
-             $label{$new_dummy_index{$to_id}} = $intmd_label;
+             my $index = $to_id;
+             $index =~ s/_.*//;
+             $label{$new_dummy_index{$to_id}} = $intmd_label."(".$index.")";
              $wcolor{$new_dummy_index{$to_id}} = $wcolor;
              $kqw{$new_dummy_index{$to_id}} = $kqw;
              $label{$to_id} = $intmd_label;
