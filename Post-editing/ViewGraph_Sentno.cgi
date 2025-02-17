@@ -39,12 +39,14 @@ my $pid = $$;
 open (TMP,">TFPATH/tmp_$pid");
 read(STDIN, $buffer, $ENV{'CONTENT_LENGTH'});
 $buffer =~ s/"//g;
-#$buffer =~ s/ /\t/g;
+$buffer =~ s/ /\t/g;
 $buffer =~ s/^M//g;
 print TMP $buffer;
 close (TMP);
 
 print "Access-Control-Allow-Origin: *\n";
+print "Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS\n";
+print "Access-Control-Allow-Headers: Content-Type, Authorization\n";
 print "Content-type:image/svg+xml;-expires:60*60*24;charset:UTF-8\n\n";
 
 system ("CGIDIR/SCL_CGI/MT/prog/kAraka/draw_graph_gen.pl TFPATH $pid Yes < TFPATH/tmp_$pid");
