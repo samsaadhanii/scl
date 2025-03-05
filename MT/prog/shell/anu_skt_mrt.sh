@@ -133,11 +133,11 @@ mar_gen(){
    cut -f2 $temp_files_path/table.tsv > $temp_files_path/2
    cut -f4- $temp_files_path/table.tsv > $temp_files_path/3
    paste $temp_files_path/1 $temp_files_path/2 $temp_files_path/1 $temp_files_path/3 | grep -v '^	' | grep . > $temp_files_path/anvaya.tsv
+   rm $temp_files_path/1 $temp_files_path/2 $temp_files_path/3
    fi
    # Damm linux does not allow \t, hence I had to type CTRL V + Tab!
    $my_converter < $temp_files_path/table.tsv > $temp_files_path/table_outscript.tsv
    $my_converter < $temp_files_path/anvaya.tsv > $temp_files_path/anvaya_outscript.tsv
-   rm $temp_files_path/1 $temp_files_path/2 $temp_files_path/3
 #
  }
 ##########
