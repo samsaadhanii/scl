@@ -354,6 +354,9 @@ value single_relation_label m1 m2= match m1 with
          && not (r1=101) && not(r2=102) 
          && not (r1=102) && not(r2=101) 
          then False  (*do { print_string "C5"; False}*)
+         (* Condition for compounds: there cannot be two incoming arrows from outside compound word *)
+         else if (to_id1=to_id2) && (not (to_cid1=to_cid2)) && (not (from_id1=to_id1)) && (not (from_id2=to_id1))
+         then False
             (* Two outgoing arrows with same label *)
          else if (from_id1=from_id2) && (from_cid1=from_cid2) && (from_mid1=from_mid2) && (r1=r2)
               && ( (r1 < multiple_relations_begin  && not (r1=101))
@@ -580,7 +583,8 @@ So for example if viSeRaNa (36) below sambanXa (28) is not allowed, then we writ
   (* pUrvakAla of karwA/karma not allowed *)
   | (7,25)
   | (26,36) (* viSeRaNa of kriyAviSeRaNa *)
-  | (14,25) -> True
+  | (14,25)
+  | (26,71) -> True
   | (_,_) -> False
   ]
  (* a samboXyaH can be only of the root verb  or an embeded verb in iwi clause 

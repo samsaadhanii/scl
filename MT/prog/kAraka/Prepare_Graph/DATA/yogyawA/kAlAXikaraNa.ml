@@ -75,5 +75,19 @@ value kAlAXikaraNa_list = [
 "yaWA-samayam";
 "ZyaxA"; (* yaxA and waxA overgenerate with kwvA, lyap etc. and hence removed. A seperate function spl_aXikaraNam is written to handle them *)
 "ZwaxA";
+(* The following list of compounds which are kAlAXikaraNas, are from the wiRTaxgu-gaNa (2.1.17 ) *)
+"wiRTaxgu";
+"vahaxgu";
+"AyawIgavam";
+"Kaleyavam";
+"Kalebusam";
+"lUnayavam";
+"lUyamAnayavam";
+"pUwayavam";
+"pUyamAnayavam";
+"saMhqwayavam";
+"saMhriyamANayavam";
+"saMhqwabusam";
+"saMhriyamANabusam";
 ]
 ;

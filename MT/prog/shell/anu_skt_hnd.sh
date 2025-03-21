@@ -78,6 +78,10 @@ morph () {
      # $2.mo_kqw: After adding derivational morph analysis
 }
 
+xvanxva_analysis () {
+  $ANU_MT_PATH/samAsa/xvanxva_analysis.sh $CGIDIR/$SCL_CGI $temp_files_path/$fbn.out.before_parse $temp_files_path/$fbn.out.after_xvanxva
+}
+
 shaabdabodha () {
   $ANU_MT_PATH/kAraka/shabdabodha.sh $CGIDIR/$SCL_CGI $temp_files_path $fbn.out $OUTSCRIPT $PARSE $TEXT_TYPE
 # Field 7: morph analysis corresponding to the kaaraka role
@@ -94,7 +98,11 @@ anaphora () {
 wsd () {
 # wsd in the 11th field
     $ANU_MT_PATH/wsd/wsd_rules.sh $CGIDIR/$SCL_CGI $temp_files_path $fbn.out $fbn.wsd $fbn.wsd_upapaxa
-    #cp $temp_files_path/$fbn.out $temp_files_path/jjj
+    #cp $temp_files_path/$fbn.out $temp_files_path/wsd.out
+}
+
+discourse () {
+    $ANU_MT_PATH/Discourse/discourse.sh $CGIDIR/$SCL_CGI $temp_files_path $SENT_NO $fbn.out $fbn.discourse
 }
 
 ###########
@@ -191,32 +199,36 @@ else
   my_converters
   set_tmp_path
 
-   if [ $PARSE != "AVAILABLE" ] ; then
-    if [ $MORPH = "UoHyd" ] ; then
-
+   if [ $MORPH = "UoHyd" ] ; then
       format
       sandhi_splitter
     		#`date >> $temp_files_path/err`;
       morph
     		#`date >> $temp_files_path/err`;
+      cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.before_parse
+   fi # If Morph = UoHyd ends here
 
-    fi # If Morph = UoHyd ends here
-
-    if [ $MORPH = "Heritage_auto" ] ; then
+   if [ $MORPH = "Heritage_auto" ] ; then
       sandhi_splitter
-    fi
-    		#`date >> $temp_files_path/err`;
-    cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.before_parse
-  else
-    cp $temp_files_path/$fbn.out.before_parse $temp_files_path/$fbn.out
-  fi  # PARSE != AVAILABLE ends here
+      cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.before_parse
+   fi
 
+   if [ $MORPH = "AVAILABLE" ] ; then
+    #cp $temp_files_path/$1 $temp_files_path/$fbn.out
+    cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.before_parse
+   fi  
+
+     # add xvanxva_analysis
+     xvanxva_analysis
+     cp $temp_files_path/$fbn.out.after_xvanxva $temp_files_path/$fbn.out
+     
     shaabdabodha
     cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.after_parse
     		#`date >> $temp_files_path/err`;
 
   anaphora
   wsd
+  #discourse
   hnd_gen
   hnd_tr
   generate_anvaya

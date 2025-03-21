@@ -228,6 +228,10 @@ value kriyAviSeRaNa_list =
 ("yaWecCa avy");
 ("yaWecCam avy");
 ("zyaxqcCayA 3");
-("yugapaw avy")
+("yugapaw avy");
+("xaNdAxaNdi avy");
+("musalAmusali avy");
+("keSAkeSi avy");
+("muRtAmuRti avy");
 ]
 ;

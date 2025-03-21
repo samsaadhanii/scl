@@ -970,7 +970,8 @@ value wifkarwA_karma m1 m2 text_type = match m2 with
            ["karwari" ->  match sanAxiH2 with
                   [ "Nic" -> match verb_type rt2 upasarga2 with
                      [ "xvikarmaka2" 
-                     | "xvikarmaka1" -> [ Relation (id1,cid1,mid1,"karma",id2,cid2,mid2,"2.11", d)]  
+                     | "xvikarmaka1" -> [ Relation (id1,cid1,mid1,"muKyakarma",id2,cid2,mid2,"2.11", d)
+                                        ; Relation (id1,cid1,mid1,"gONakarma",id2,cid2,mid2,"2.11a", d)]  
                                  (* karmaNi xviwIyA - yajFaxawwaH xevaxawwena rAjAnaM vasuXAM yAcayawi  *)
                      | "akarmaka" -> let rel = handle_sp_compounds id1 cid1 mid1 id2 cid2 mid2 rt1 word1 pUrvapaxa1 uwwarapaxa1 lifgam1 in
 				     if (not (rel=[])) then rel 
@@ -5176,8 +5177,8 @@ value rl_wif_kriyA_kriyA m1 m2 m3 text_type = match m2 with
 value mark_samucchiwa id1 id2 id3 cid1 cid2 cid3 mid1 mid2 mid3 rl1 rl2 =
      let  d13 = if id1 > id3 then id1-id3 else id3-id1 in
       let   d23 = if id2 > id3 then id2-id3 else id3-id2 in
-                 [ Relation (id1,cid1,mid1,"samucciwaH",id3,cid3,mid3,rl1,d13)
-                 ; Relation (id2,cid2,mid2,"samuccaya_xyowakaH",id3,cid3,mid3,rl2,d23)
+                 [ Relation (id3,cid3,mid3,"samucciwaH",id1,cid1,mid1,rl1,d13)
+                 ; Relation (id2,cid2,mid2,"samuccaya_xyowakaH",id1,cid1,mid1,rl2,d23)
                  ]
 ;
 
@@ -5481,8 +5482,8 @@ rlwifkarwA_karma; rlkqwkarwA_karma; rlanaBihiwe; rlapAxAna_wasil; rlAvy_kriyAviS
 value all_rules3 = [rlkarwqsamAnAXikaraNam; rlkarmasamAnAXikaraNam; rlvAkyakarma; rlvAkyakarma1; rlsent_connectives; rlupamAna_upameya_sup; rlca_samucciwa; rl_exclamatory2; rl_ca_wif_aBihiwa_karwA_karma; rl_wulanA; rl_nAma; rl_saha_vinA_kqwe; (*rl_wif_kriyA_kriyA; *) rlBAvalakRaNa_sapwamI1; rl_hi; rl_anyawara]
 ;
 
-value all_compound_2_rules = [ rl_compound_T6]
-;
+(*value all_compound_2_rules = [ rl_compound_T6]
+; *)
 
 value all_compound_3_rules = [ rlsamAsa_upamAna]
 ;
@@ -5504,12 +5505,12 @@ value kAraka_engine3 morphs text_type =
                                [ [] -> List2.union rls acc3
                                | r -> List.append r rls
                                ]
-                              else if compound_pUrvapaxa_uwwarapaxa m1 m2  then
+                              (* else if compound_pUrvapaxa_uwwarapaxa m1 m2  then
                                List.fold_left collate acc2 all_compound_2_rules where
                                collate rls rule = match rule m1 m2 text_type with
                                [ [] -> List2.union rls acc3
                                | r -> List.append r rls
-                               ]
+                               ] *)
                              else acc3
                      | [m3 :: r3 ] -> 
                                if distinct_3 m1 m2 m3 then
@@ -5678,7 +5679,9 @@ value process morphs text_type tfpath =
   let cho = open_out offline_file in do
   { 			(*List.iter print_morph_id morphs *) (* we print the input for verification *)
     let rel_lst = List.sort_uniq compare (kAraka_engine3 morphs text_type) in
-    let sorted_lst = List.rev (List.sort_uniq compare rel_lst) in do {
+    let cpd_lst = List.sort_uniq compare (Build_graph_cpd.compound_engine morphs text_type) in
+    let all_rel_lst = List.append cpd_lst rel_lst in
+    let sorted_lst = List.rev (List.sort_uniq compare all_rel_lst) in do {
     			List.iter (print_relation cho) sorted_lst;
      let sorted_lst1 = best2incoming sorted_lst in do {
       			 output_string cho "\nAFTER best2incoming\n";

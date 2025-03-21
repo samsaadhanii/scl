@@ -5,6 +5,7 @@ include ../../../paths.sh
 install:
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/kAraka/Prepare_Graph/DATA/AkAfkRA
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/kAraka/list_n
+	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/samAsa
 	cp shabdabodha.sh $(CGIDIR)/$(SCL_CGI)/MT/prog/kAraka/
 	cp Prepare_Graph/build_graph $(CGIDIR)/$(SCL_CGI)/MT/prog/kAraka/Prepare_Graph
 	cp uniform_morph_anal.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/kAraka/
@@ -18,3 +19,6 @@ install:
 	cp draw_graph_gen.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/kAraka/
 	cp Prepare_Graph/DATA/AkAfkRA/relations.txt $(CGIDIR)/$(SCL_CGI)/MT/prog/kAraka/Prepare_Graph/DATA/AkAfkRA
 	cp list_n/kAraka_names_*.txt $(CGIDIR)/$(SCL_CGI)/MT/prog/kAraka/list_n/
+	cp ../samAsa/run_xvanxva.py $(CGIDIR)/$(SCL_CGI)/MT/prog/samAsa
+	cp ../samAsa/xvanxva_analysis.py $(CGIDIR)/$(SCL_CGI)/MT/prog/samAsa
+	cp ../samAsa/xvanxva_analysis.sh $(CGIDIR)/$(SCL_CGI)/MT/prog/samAsa
