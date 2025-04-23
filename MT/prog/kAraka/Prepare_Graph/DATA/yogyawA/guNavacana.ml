@@ -251,7 +251,7 @@ value guNavacana_list = [
 "nirAmaya";
 "nirXana";
 "niravaXi";
-"nirawa";
+(* "nirawa"; This is kwa prawyayAnwa, and hence removed from teh guNavacana list *)
 "nirawiSayA";
 "nirawiSaya";
 "nirmakRika";

@@ -457,7 +457,8 @@ value rl_compound_kwa m1 m2 text_type = match m1 with
             else if is_swokAxi word1 then 
               (* 2-1-39 *)
               [ Relation (id1,cid1,mid1,"wa_pu_5",id2,cid2,mid2,"200.9",0) ]
-            else if (members_of base2 upasarga2 karaNa_verbs) || (not (verb_type base2 upasarga2 = "akarmaka")) then 
+            (*else if (members_of base2 upasarga2 karaNa_verbs) || (not (verb_type base2 upasarga2 = "akarmaka")) then *)
+            else if (members_of base2 upasarga2 karaNa_verbs) then
               (* karwqkaraNe kqwA bahulam (2.1.32 *)
               [ Relation (id1,cid1,mid1,"wa_pu_3",id2,cid2,mid2,"200.10",0) ]
             else []
@@ -1184,18 +1185,27 @@ value other_cpd_rules = [ rl_compound_A1; rl_compound_A2; rl_compound_A6; rl_com
 
 value rl_handle_compound m1 m2 text_type = 
   match m1 with
-  [ Sup (id1,cid1,mid1,word1,_,pUrvapaxa1,uwwarapaxa1,_,_,_,_)
+  [ 
+    Sup (id1,cid1,mid1,word1,_,pUrvapaxa1,uwwarapaxa1,_,_,_,_)
   | Kqw (id1,cid1,mid1,word1,_,_,_,_,_,_,_,pUrvapaxa1,uwwarapaxa1,_,_,_,_)
   | WaxXiwa (id1,cid1,mid1,word1,_,pUrvapaxa1,uwwarapaxa1,_,_,_,_,_)
   | Avy (id1,cid1,mid1,word1,_,pUrvapaxa1,uwwarapaxa1,_)
   | Wif (id1,cid1,mid1,word1,_,pUrvapaxa1,uwwarapaxa1,_,_,_,_,_,_,_,_,_) 
   | Avykqw (id1,cid1,mid1,word1,_,pUrvapaxa1,uwwarapaxa1,_,_,_,_,_)
-  | AvywaxXiwa (id1,cid1,mid1,word1,_,pUrvapaxa1,uwwarapaxa1,_,_)
-    -> if pUrvapaxa1 = "n" then []
-       else if (word1 = "a-") || (word1 = "an-") then
-        rl_compound_naF m1 m2 text_type
-       else 
-          let rel = exceptional_cpds m1 m2 in 
+  | AvywaxXiwa (id1,cid1,mid1,word1,_,pUrvapaxa1,uwwarapaxa1,_,_) ->
+    match m2 with
+    [ Sup (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_,_,_,_)
+    | Kqw (id2,cid2,mid2,word2,rt2,_,_,_,_,_,_,pUrvapaxa2,uwwarapaxa2,_,_,_,_)
+    | WaxXiwa (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_,_,_,_,_)
+    | Avy (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_)
+    | Wif (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_,_,_,_,_,_,_,_,_) 
+    | Avykqw (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_,_,_,_,_)
+    | AvywaxXiwa (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_,_) 
+      -> if pUrvapaxa1 = "n" then []
+         else if (word1 = "a-") || (word1 = "an-") then
+         rl_compound_naF m1 m2 text_type
+         else if (rt2 = "sva") then []
+         else let rel = exceptional_cpds m1 m2 in 
           if rel = [] then 
             List.fold_left collate [] other_cpd_rules where
             collate rls rule = match rule m1 m2 text_type with
@@ -1205,37 +1215,10 @@ value rl_handle_compound m1 m2 text_type =
             | r -> List.append r rls
             ]
           else rel
-  (* | _ -> [] *)
+     ]
   ]
 ;
 
-
-value rl_compound_T6 m1 m2 text_type = match m2 with
-  [ Kqw (id2,cid2,mid2,_,rt2,_,_,_,_,_,_,pUrvapaxa2,uwwarapaxa2,_,_,_,_)
-  | Sup (id2,cid2,mid2,_,rt2,pUrvapaxa2,uwwarapaxa2,_,_,_,_)
-  | WaxXiwa (id2,cid2,mid2,_,rt2,pUrvapaxa2,uwwarapaxa2,_,_,_,_,_) -> 
-     match m1 with
-     [ Sup (id1,cid1,mid1,word1,rt1,pUrvapaxa1,uwwarapaxa1,_,_,_,_)
-     | Kqw (id1,cid1,mid1,word1,rt1,_,_,_,_,_,_,pUrvapaxa1,uwwarapaxa1,_,_,_,_)
-     | WaxXiwa (id1,cid1,mid1,word1,rt1,pUrvapaxa1,uwwarapaxa1,_,_,_,_,_) -> 
-	  if (id1 = id2) && (cid2 = cid1+1) && (pUrvapaxa1="y") && ((uwwarapaxa2="y") || (pUrvapaxa2="y"))
-	  then if not ((rt2="sama") || (rt2 = "saxqRa"))
-	       then  [ Relation (id1,cid1,mid1,"samAsaH",id2,cid2,mid2,"200.2",0) ]
-	       else  []
-	  else []
-     |_ -> []
-     ]
-   | Avykqw (id2,cid2,mid2,word2,_,pUrvapaxa2,_,_,_,_,_,_) ->
-        match m1 with
-     [ Sup (id1,cid1,mid1,word1,rt1,pUrvapaxa1,uwwarapaxa1,_,_,_,_) ->
-          if (word1 = "an-" || word1="a-")
-	  then [ Relation (id1,cid1,mid1,"samAsaH",id2,cid2,mid2,"200.3",0) ]
-	  else []
-     |_ -> []
-     ]
-   |_ -> []
- ]
-;
 
 value pUrvapaxa_rules = [ rl_avyayIBAva_kriyAviSeRaNa ]
 ;
