@@ -182,7 +182,7 @@ foreach $w_ana (@wrd_ana){
   if($DEBUG) {&print_array("STDERR","pred_adj_agr",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg,$ana_fld_for_calling_gen_after_lwg_karwari);}
 
   ###BG sloka 1.4 telugu does not require adj_noun agr
-  #&chunk_viSeRaNa();
+  &chunk_viSeRaNa();
   #if($DEBUG) {&print_array("STDERR","viSeRaNa_agr",$wrd_fld,$morph_kaaraka_anal,$ana_fld_for_calling_gen_after_lwg);}
 
   &handle_RaRTI_lifgam();
