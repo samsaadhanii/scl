@@ -7707,7 +7707,7 @@ kqwalakRaNa,napuM,dAga_xilele^guNAMnI_praKyAwa,napuM
 kqwalakRaNa,puM,dAga_xilelA^guNAMnI_praKyAwa,puM
 kqwamuKa,napuM,vixvAna^buxXimAna,napuM
 kqwamuKa,puM,vixvAna^buxXimAna,puM
-kqwa,napuM,kelele^Gadavalele^kqwrima^SikRiwa^kRoBiwa^hiMsiwa^milYavalele^karma^upakAra^upAsanA_va_karma^pariNAma^kArya^PalYa^xyUwAwIla_cawuraMka_PAsA^kAraNa^hewU^kqwayuga^kuswIwIla_eka_peca,napuM
+kqwa,napuM,kelelA^GadavalelA^kqwrima^SikRiwa^kRoBiwa^hiMsiwa^milYavalele^karma^upakAra^upAsanA_va_karma^pariNAma^kArya^PalYa^xyUwAwIla_cawuraMka_PAsA^kAraNa^hewU^kqwayuga^kuswIwIla_eka_peca,napuM
 kqwanirNejana,puM,paScAwwApI,puM
 kqwaniScaya,napuM,kqwasaMkalpa^xqDaprawijFa,napuM
 kqwaniScaya,puM,kqwasaMkalpa^xqDaprawijFa,puM

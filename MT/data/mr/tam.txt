@@ -74,7 +74,7 @@ SAnac,tam:NArA
 SAnac_lat,tam:wAnA
 wumun,tam:Ne_sATI
 wumunkI,Ne_cI
-wumun0,0_U
+wumun0,U
 wumun_nA,Ne
 wqc,NArA
 lyut,Ne
