@@ -18,7 +18,7 @@ install:
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/anaphora; cp prog/anaphora/anaphora.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/anaphora/;
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/anvaya; cp prog/anvaya/reorder.py $(CGIDIR)/$(SCL_CGI)/MT/prog/anvaya; cp prog/anvaya/*.py $(CGIDIR)/$(SCL_CGI)/MT/prog/anvaya; cp -r prog/anvaya/anytree $(CGIDIR)/$(SCL_CGI)/MT/prog/anvaya; cp prog/anvaya/rel_probs.csv $(CGIDIR)/$(SCL_CGI)/MT/prog/anvaya;
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/chunker; cp prog/chunker/lwg.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/chunker;
-	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/Discourse; cp prog/Discourse/*.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/Discourse
+	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/Discourse; cp prog/Discourse/cnvrt2discourse_format.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/Discourse;cp prog/Discourse/discourse $(CGIDIR)/$(SCL_CGI)/MT/prog/Discourse; cp prog/Discourse/discourse.sh $(CGIDIR)/$(SCL_CGI)/MT/prog/Discourse
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/format; cp prog/format/gen_table.out $(CGIDIR)/$(SCL_CGI)/MT/prog/format
 	cd prog/Heritage_morph_interface; make install
 	cd prog/interface; make install
