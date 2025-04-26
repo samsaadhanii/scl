@@ -5034,10 +5034,10 @@ value rl_wulanA_binxu m2 m3 text_type viB1 id1 cid1 mid1 rl1 =
            [ Kqw (id3,cid3,mid3,_,_,_,_,_,_,_,_,_,_,_,viB3,_,_)
            | WaxXiwa (id3,cid3,mid3,_,_,_,_,_,_,viB3,_,_)
            | Sup(id3,cid3,mid3,_,_,_,_,_,viB3,_,_)  -> 
-              let d23 = if id2 > id3 then id2-id3 else id3-id2 in
+              let d21 = if id2 > id1 then id2-id1 else id1-id2 in
               if viB3=5 && viB1=viB2
               && no_boundary_crossing_with_iwi id2 id3 text_type
-              then [ Relation (id3,cid3,mid3,"wulanA_binxuH",id1,cid1,mid1,rl1,d23)]
+              then [ Relation (id3,cid3,mid3,"wulanA_binxuH",id1,cid1,mid1,rl1,d21)]
               else []
            |_ -> []
            ]

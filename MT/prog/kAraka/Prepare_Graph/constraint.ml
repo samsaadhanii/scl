@@ -403,6 +403,8 @@ value no_crossing text_type rel m1 m2=match m1 with
              && not (r1=6 && r2=41)
              && not (r1=36 && r2=79)
              && not (r1=79 && r2=36)
+             && not (r1=6 && r2=44)
+             && not (r2=6 && r1=44)
              && not (r1=6 && r2=92) (* karwA_be_verbs & sahArWa -- cAriwreNa kaH yukwaH aswi. *)
              && not (r1=92 && r2=6)
              (* removed RaRTI, viSeRaNa, aBexa, temporarily *)
