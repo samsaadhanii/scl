@@ -148,13 +148,13 @@ function callashtadhyayisimulator(){
         var inputlang = encoding;
         var data = word;
         var stat = 0;
-	var reguni=/[अआइईउऊऋॠऌएऐओऔअंअःकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह ्ािीुूृॄॢेैोौंःळ\-ऽ]/;
-	var reg=/[aAiIuUqQlLeEoOMHzkKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRshZ\-]/;
-	var regitrans=/[aiuURiLIeoMH.Nkgh~NcChj~nThDtdpbmyrlvwGYsSA\^\-]/;
-	var regslp=/[aAiIuUfFlxeEoOMHkKgGNcCqQjJwWQRtTdDnpPbBmyrlvSzsh\-]/;
-	var regvel=/[aiurleomhkgncjtdpbyszv\~\"\?\-\_\.\,\!\-\']/;
-	var regrom=/[aÃ„ÂiÃ„Â«uÃ…Â«Ã¡Â¹â€º?leoÃ¡Â¹Æ’Ã¡Â¸Â¥khgÃ¡Â¹â€¦cjÃƒÂ±Ã¡Â¹Â­Ã¡Â¸ÂÃ¡Â¹â€¡tdnpbmyrlvÃ…â€ºÃ¡Â¹Â£s\-]/;
-	var regkh=/[aAiIuUlReaoMHkghGcjJTDNtdnpbmyrlvzSs\-]/;
+	var reguni=/[01-9अआइईउऊऋॠऌएऐओऔअंअःकखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसह ्ािीुूृॄॢेैोौंःळ\-ऽ]/;
+	var reg=/[01-9aAiIuUqQlLeEoOMHzkKgGfcCjJFtTdDNwWxXnpPbBmyrlvSRshZ\-]/;
+	var regitrans=/[01-9aiuURiLIeoMH.Nkgh~NcChj~nThDtdpbmyrlvwGYsSA\^\-]/;
+	var regslp=/[01-9aAiIuUfFlxeEoOMHkKgGNcCqQjJwWQRtTdDnpPbBmyrlvSzsh\-]/;
+	var regvel=/[01-9aiurleomhkgncjtdpbyszv\~\"\?\-\_\.\,\!\-\']/;
+	var regrom=/[01-9aÃ„ÂiÃ„Â«uÃ…Â«Ã¡Â¹â€º?leoÃ¡Â¹Æ’Ã¡Â¸Â¥khgÃ¡Â¹â€¦cjÃƒÂ±Ã¡Â¹Â­Ã¡Â¸ÂÃ¡Â¹â€¡tdnpbmyrlvÃ…â€ºÃ¡Â¹Â£s\-]/;
+	var regkh=/[01-9aAiIuUlReaoMHkghGcjJTDNtdnpbmyrlvzSs\-]/;
 	     	
 	
 		if(inputlang=="Unicode"){
