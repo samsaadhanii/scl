@@ -70,7 +70,7 @@ my($gen,$num,$per,$vibh,$continue);
         }
 
 	#print STDERR "var_nm = ",$var_nm,"\n";
-        if ((${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^[^ ]+ (n|P|adj) [^ ]+ [^ ]+ [^ ]+ k[Ao]/) && (${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:(RaRTIsambanXaH|karwA|karma|upa_saha|upa_vinA|prawiyogI|viSeRaNam|sanxarBa_binxuH|nirXAraNam)><relata_pos:([0-9\.]+)>/)){
+        if ((${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^[^ ]+ (n|P|adj) [^ ]+ [^ ]+ [^ ]+ [cl]A/) && (${$var_nm}[$morph_kaaraka_anal] =~ /<rel_nm:(RaRTIsambanXaH|karwA|karma|upa_saha|upa_vinA|prawiyogI|viSeRaNam|sanxarBa_binxuH|nirXAraNam)><relata_pos:([0-9\.]+)>/)){
           $new_var_nm = "wrd_ana_flds_".$2;
 	  #print STDERR "new_var_nm = ",$new_var_nm,"\n";
        #if(${$new_var_nm}[$parse_ana_fld] =~ /(RaRTI_sambanXaH|kAraka_RaRTI|upapaxa_sambanXaH),([0-9]+)/){
