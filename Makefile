@@ -49,7 +49,6 @@ install:
 install_mar:
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/data/mr; cp MT/data/mr/*.txt $(CGIDIR)/$(SCL_CGI)/MT/data/mr
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/mar/sent_gen; cp MT/prog/mar/sent_gen/*.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/mar/sent_gen; chmod 755 $(CGIDIR)/$(SCL_CGI)/MT/prog/mar/sent_gen/*.pl
-	cp MT/prog/mar/sent_gen/kriyAmUla_marker.txt $(CGIDIR)/$(SCL_CGI)/MT/prog/mar/sent_gen;
 	cp MT/prog/shell/anu_skt_mrt.sh $(CGIDIR)/$(SCL_CGI)/MT/prog/shell ; chmod 755 $(CGIDIR)/$(SCL_CGI)/MT/prog/shell/anu_skt_mrt.sh
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/mar/word_gen; cp MT/prog/mar/word_gen/call_gen.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/mar/word_gen/; chmod 755 $(CGIDIR)/$(SCL_CGI)/MT/prog/mar/word_gen/*.pl
 	mkdir -p $(CGIDIR)/$(SCL_CGI)/MT/prog/mar/word_gen; cp MT/prog/mar/word_gen/mar_gen.bin $(CGIDIR)/$(SCL_CGI)/MT/prog/mar/word_gen/;
