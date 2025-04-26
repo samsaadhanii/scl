@@ -61,6 +61,7 @@ while($in = <STDIN>){
            $wrd_ana =~ s/<rel_nm:>/(rel_nm X)/g;
        	   $wrd_ana =~ s/<([^:]+):>/($1 X)/g;
            $wrd_ana =~ s/\$//g;
+           $wrd_ana =~ s/;[^	]+//g;
 
            print $sent, " ",$wrd_ana,")\n";
        }# else { print $sent, " \n";}

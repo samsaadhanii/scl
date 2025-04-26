@@ -886,7 +886,7 @@ value handle_lvc m1 m2 = match m1 with
                 if (id2=relata_pos_id) && (cid2 = relata_pos_cid) then 
                   if rt2 = "kq3" && member_of rt1 amuurwa
                   then [ Relation (id2,cid2,"rt",rt2,"kara","11.2")]
-                  else if rt2 = "kq3" && member_of rt1 muurwa
+                  else if rt2 = "kq3" && upasarga2 ="" && member_of rt1 muurwa
                   then [ Relation (id2,cid2,"rt",rt2,"banA","11.2")]
                   else if rt2 = "NI1" && member_of rt1 kaalavaaci
                   then [ Relation (id2,cid2,"rt",rt2,"bIwA","11.2")]
