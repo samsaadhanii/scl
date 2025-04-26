@@ -236,7 +236,7 @@ else
   shloka_anu_op
   anvaya_order_tr
   draw_graph
-  clean
+  #clean
 fi
 
 ###########

@@ -93,8 +93,9 @@ anaphora () {
 
 wsd () {
 # wsd in the 11th field
+    #cp $temp_files_path/$fbn.out $temp_files_path/$fbn.wsd
     $ANU_MT_PATH/wsd/wsd_rules.sh $CGIDIR/$SCL_CGI $temp_files_path $fbn.out $fbn.wsd $fbn.wsd_upapaxa
-    cp $temp_files_path/$fbn.out $temp_files_path/$fbn.wsd
+    cp $temp_files_path/$fbn.out $temp_files_path/$fbn.wsd1
 }
 
 ###########
