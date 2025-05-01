@@ -37,6 +37,8 @@ my $pid = $$;
 #10.1 .  . - - - - FS - -";
 # cat $in | ./Viewgraph.cgi
 open (TMP,">TFPATH/tmp_$pid");
+
+## Only relevant fields are 1,2,6,7,9  So we cut only these filelds, and pass it on to the graph generator programme
 read(STDIN, $buffer, $ENV{'CONTENT_LENGTH'});
 $buffer =~ s/"//g;
 #$buffer =~ s/ /\t/g;
@@ -47,7 +49,8 @@ close (TMP);
 print "Access-Control-Allow-Origin: *\n";
 print "Content-type:image/svg+xml;-expires:60*60*24;charset:UTF-8\n\n";
 
-system ("CGIDIR/SCL_CGI/MT/prog/kAraka/draw_graph_gen.pl TFPATH $pid No < TFPATH/tmp_$pid");
+#system ("CGIDIR/SCL_CGI/MT/prog/kAraka/draw_graph_gen.pl TFPATH $pid No < TFPATH/tmp_$pid");
+system ("cut -f1,2,6,7,9 TFPATH/tmp_$pid | CGIDIR/SCL_CGI/MT/prog/kAraka/draw_graph_gen.pl TFPATH $pid No");
 system ("GraphvizDot -Tsvg -o TFPATH/$pid.svg TFPATH/$pid.dot");
 system("CGIDIR/SCL_CGI/MT/prog/kAraka/add_hidden_sub_gen.pl No < TFPATH/$pid.svg");
 
