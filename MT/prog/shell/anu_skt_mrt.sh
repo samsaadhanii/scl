@@ -46,7 +46,7 @@ my_converters (){
 }
 
 display_usage () {
-    echo "Usage: anu_skt_mrt.sh <file> tmp_dir_path hi [DEV|IAST|VH] [NO|YES] [UoHyd|GH] [NO|Partial|Full] [ECHO|NOECHO] [D]."
+    echo "Usage: anu_skt_mrt.sh <file> tmp_dir_path mr [DEV|IAST|VH] [NO|YES] [UoHyd|GH] [NO|Partial|Full] [ECHO|NOECHO] [D]."
 }
 
 set_tmp_path () {
@@ -76,6 +76,10 @@ morph () {
      # $2.mo_all: Monier williams o/p
      # $2.mo_prune: After pruning with Apte's dict
      # $2.mo_kqw: After adding derivational morph analysis
+}
+
+xvanxva_analysis () {
+  $ANU_MT_PATH/samAsa/xvanxva_analysis.sh $CGIDIR/$SCL_CGI $temp_files_path/$fbn.out.before_parse $temp_files_path/$fbn.out.after_xvanxva
 }
 
 shaabdabodha () {
@@ -164,7 +168,8 @@ mar_gen(){
 
  draw_graph () {
    #$ANU_MT_PATH/kAraka/draw_graph.pl $temp_files_path 1 < $temp_files_path/table_outscript.tsv
-   $ANU_MT_PATH/kAraka/draw_graph_gen.pl $temp_files_path 1 No < $temp_files_path/table_outscript.tsv
+   #$ANU_MT_PATH/kAraka/draw_graph_gen.pl $temp_files_path 1 No < $temp_files_path/table_outscript.tsv
+   cut -f1,2,6,7,9 $temp_files_path/table_outscript.tsv | $ANU_MT_PATH/kAraka/draw_graph_gen.pl $temp_files_path 1 No
    $GraphvizDot -Tsvg -o$temp_files_path/tmp.svg $temp_files_path/1.dot
    $ANU_MT_PATH/kAraka/add_hidden_sub_gen.pl No < $temp_files_path/tmp.svg > $temp_files_path/1.svg
  }

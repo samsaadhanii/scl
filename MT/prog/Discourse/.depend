@@ -63,10 +63,12 @@ pada_structure.cmi :
 discourse.cmo : \
     relations.cmo \
     pada_structure.cmi \
+    /Users/ambakulkarni/amba/SKT/zen/ML/list2.cmo \
     bank_lexer.cmo
 discourse.cmx : \
     relations.cmx \
     pada_structure.cmi \
+    /Users/ambakulkarni/amba/SKT/zen/ML/list2.cmx \
     bank_lexer.cmx
 bank_lexer.cmo :
 bank_lexer.cmx :

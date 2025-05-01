@@ -33,11 +33,17 @@ $rel_str = "";
 $solnfound = 0;
 $non_cluster = "";
 
+#$index = 0;
+#$wrd_fld_id = 1; # Counting starts from 0
+#$morph_fld_id = 5; # Counting starts from 0
+#$rel_fld_id = 6; # Counting starts from 0
+#$color_code_fld_id = 8; # Counting starts from 0
+
 $index = 0;
 $wrd_fld_id = 1; # Counting starts from 0
-$morph_fld_id = 5; # Counting starts from 0
-$rel_fld_id = 6; # Counting starts from 0
-$color_code_fld_id = 8; # Counting starts from 0
+$morph_fld_id = 2; # Counting starts from 0
+$rel_fld_id = 3; # Counting starts from 0
+$color_code_fld_id = 4; # Counting starts from 0
 
 $dotfl_nm = "$parse.dot"; 
 
@@ -66,7 +72,7 @@ $dvandva_found = 0;
 	$rows[$i] =~ s/\./_/g;	# Dot does not allow '.'s in the Node labels.
         @flds = split(/\t/,$rows[$i]);	# split the input into fields
         # Process only genuine lines and ignore others
-	if (($flds[1] ne "_")  && ($flds[0] =~ /[0-9]/) && ($rows[$i] !~ /WebKit/) && ($flds[0] !~ /-/)) {
+	if (($flds[$wrd_fld_id] ne "_")  && ($flds[0] =~ /[0-9]/) && ($rows[$i] !~ /WebKit/) && ($flds[0] !~ /-/)) {
 	   $label{$flds[$index]} = &get_node_label($flds[$wrd_fld_id],$flds[$index]); # Node label
 	   $kqw{$flds[$index]} = &is_kqw($flds[$morph_fld_id]);	# This is needed to add a red boundary to the kqxanwas
            #Process the row, only if the label is non empty
@@ -130,6 +136,16 @@ sub print_cluster {
       if ($count > 1) { 
          print TMP1 "\nsubgraph cluster_",$i,"{\n";
          &print_all_nodes_info($nodes);
+	 if ($i < 29) {
+            print TMP1 "rankdir=RL\n";
+            print TMP1 "rank = same {";
+            $nodes =~ s/#//g;
+	    @nodes = split(/,/,$nodes);
+            $s = "";
+            foreach $n (@nodes) { $s .= "Node".$n.",";}
+            $s =~ s/,$//;
+            print TMP1 "$s}\n";
+         }
          print TMP1 "\n}\n";
       } else {
          &print_all_nodes_info($nodes);

@@ -149,8 +149,8 @@ value next_token_fun =
     | [: c = ident_char; s = ident2 (store buff c) :] -> 
       if s = "(sup" then KEYWORD "(sup" else 
       if s = "(id" then KEYWORD "(id" else
+      if s = "(sid" then KEYWORD "(sid" else
       if s = "(cid" then KEYWORD "(cid" else
-      if s = "(mid" then KEYWORD "(mid" else
       if s = "(word" then KEYWORD "(word" else
       if s = "(rt" then KEYWORD "(rt" else 
       if s = "(pUrvapaxa" then KEYWORD "(pUrvapaxa" else 
@@ -177,9 +177,9 @@ value next_token_fun =
       if s = "(upasarga" then KEYWORD "(upasarga" else 
       if s = "(lifgam" then KEYWORD "(lifgam" else 
       if s = "(viBakwiH" then KEYWORD "(viBakwiH" else 
-      if s = "(rel" then KEYWORD "(rel" else 
-      if s = "(toid" then KEYWORD "(toid" else 
-      if s = "(level" then KEYWORD "(level" 
+      if s = "(rel_nm" then KEYWORD "(rel" else 
+      if s = "(relata_pos_id" then KEYWORD "(toid" else 
+      if s = "(relata_pos_cid" then KEYWORD "(tocid" 
       else IDENT s
     | [: `c :] _ep -> KEYWORD (String.make 1 c)
     ] in

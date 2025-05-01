@@ -101,10 +101,6 @@ wsd () {
     #cp $temp_files_path/$fbn.out $temp_files_path/wsd.out
 }
 
-discourse () {
-    $ANU_MT_PATH/Discourse/discourse.sh $CGIDIR/$SCL_CGI $temp_files_path $SENT_NO $fbn.out $fbn.discourse
-}
-
 ###########
 
 ### Map to hindi
@@ -178,7 +174,8 @@ hnd_gen () {
 
  draw_graph () {
    #$ANU_MT_PATH/kAraka/draw_graph.pl $temp_files_path 1 < $temp_files_path/table_outscript.tsv
-   $ANU_MT_PATH/kAraka/draw_graph_gen.pl $temp_files_path 1 No < $temp_files_path/table_outscript.tsv
+   #$ANU_MT_PATH/kAraka/draw_graph_gen.pl $temp_files_path 1 No < $temp_files_path/table_outscript.tsv
+   cut -f1,2,6,7,9 $temp_files_path/table_outscript.tsv | $ANU_MT_PATH/kAraka/draw_graph_gen.pl $temp_files_path 1 No
    $GraphvizDot -Tsvg -o$temp_files_path/tmp.svg $temp_files_path/1.dot
    $ANU_MT_PATH/kAraka/add_hidden_sub_gen.pl No < $temp_files_path/tmp.svg > $temp_files_path/1.svg
    #$MYPYTHONPATH $ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table_outscript.tsv $temp_files_path/table.xlsx
@@ -228,7 +225,6 @@ else
 
   anaphora
   wsd
-  #discourse
   hnd_gen
   hnd_tr
   generate_anvaya

@@ -1,8 +1,7 @@
-type sup = ( int * int * int * int * string * string * string * string *string * int  * string * string * int * int)
+type sup = ( int * int *  int * string * string * string * string *string * int  * string * string * int * int )
 (*{ sid : int
   ; id : int
   ; cid : int
-  ; mid : int
   ; word : string
   ; rt : string
   ; pUrvapaxa : string
@@ -12,13 +11,12 @@ type sup = ( int * int * int * int * string * string * string * string *string *
   ; vacanam : string
   ; rel : string
   ; toid : int
-  ; level : int
+  ; tocid : int
   } *)
-and wif = ( int * int * int * int * string * string * string * string * string *string * string * string * string * string * string * string * string * int * int )
+and wif = ( int * int * int * string * string * string * string * string *string * string * string * string * string * string * string * string * int * int )
 (*{ sid : int  
   ; id : int   
   ; cid : int   
-  ; mid : int   
   ; word : string   
   ; rt : string   
   ; pUrvapaxa : string
@@ -34,13 +32,12 @@ and wif = ( int * int * int * int * string * string * string * string * string *
   ; gaNaH : string
   ; rel : string
   ; toid : int
-  ; level : int
+  ; tocid : int
   }*)
-and kqw = ( int * int * int * int * string * string *  string *string *string * string * string * string * string * string * string * int * string * string * int * int )
+and kqw = ( int * int * int * string * string *  string *string * string * string * string * string * string * string * string * string * string * int * string * string * int * int )
 (*{ sid : int   
   ; id : int   
   ; cid : int   
-  ; mid : int   
   ; word : string   
   ; kqw_vb_rt : string   
   ; upasarga : string
@@ -57,26 +54,24 @@ and kqw = ( int * int * int * int * string * string *  string *string *string * 
   ; vacanam : string   
   ; rel : string
   ; toid : int
-  ; level : int
+  ; tocid : int
  }*)
-and avy = ( int * int * int * int * string * string * string *string * string * int * int )
+and avy = (  int * int * int * string * string * string *string * string * int * int)
 (*{ sid : int   
   ; id : int   
   ; cid : int   
-  ; mid : int   
   ; word : string
   ; rt : string   
   ; pUrvapaxa : string
   ; uwwarapaxa : string
   ; rel : string
-  ; toid : int
-  ; level : int
+  ; tocid : int
+  ; tomid : int
   }*)
-and avywaxXiwa = ( int * int * int * int * string * string * string *string * string  * string * int * int )
+and avywaxXiwa = (  int * int * int * string * string * string *string * string  * string * int * int )
 (*{ sid : int   
   ; id : int   
   ; cid : int   
-  ; mid : int   
   ; word : string   
   ; rt : string   
   ; pUrvapaxa : string
@@ -84,13 +79,12 @@ and avywaxXiwa = ( int * int * int * int * string * string * string *string * st
   ; waxXiwa_prawyayaH : string
   ; rel : string
   ; toid : int
-  ; level : int
+  ; tocid : int
   }*)
-and avykqw = ( int * int * int * int * string *  string *string * string * string * string * string * string * string * int * int )
+and avykqw = ( int * int * int * string *  string *string * string * string * string * string * string * string * int * int )
 (*{ sid : int   
   ; id : int   
   ; cid : int   
-  ; mid : int   
   ; word : string   
   ; rt : string   
   ; pUrvapaxa : string
@@ -102,13 +96,12 @@ and avykqw = ( int * int * int * int * string *  string *string * string * strin
   ; gaNaH : string   
   ; rel : string
   ; toid : int
-  ; level : int   
+  ; tocid : int
   }*)
-and waxXiwa = (  int * int * int * int * string * string * string * string * string * string * int * string * string * int * int )
+and waxXiwa = (  int * int * int * string * string * string * string * string * string * int * string * string * int * int )
 (*{ sid : int   
   ; id : int   
   ; cid : int   
-  ; mid : int   
   ; word : string   
   ; rt : string   
   ; pUrvapaxa : string
@@ -119,31 +112,27 @@ and waxXiwa = (  int * int * int * int * string * string * string * string * str
   ; vacanam : string
   ; rel : string
   ; toid : int
-  ; level : int
+  ; tocid : int
   }*)
-and discrel = ( int * int * int * int * string * int * int * int * int * string * int)
+and discrel = ( int * int * int * string * int * int * int * string * int)
 (* { to_sid : int
    ; to_id : int
    ; to_cid : int
-   ; to_mid : int
    ; reltn : string
    ; from_sid : int
    ; from_id : int
    ; from_cid : int
-   ; from_mid : int
    ; rule : string
    ; dist : int
    }*)
-and discrelc = ( int * int * int * int  * int * int * int * int * int * int)
+and discrelc = ( int * int  * int * int * int * int * int * int)
 (* { to_aid : int
    ; to_id : int
    ; to_cid : int
-   ; to_mid : int
    ; reltn : int
    ; from_sid : int
    ; from_id : int
    ; from_cid : int
-   ; from_mid : int
    ; dist : int
    }*)
 ;
