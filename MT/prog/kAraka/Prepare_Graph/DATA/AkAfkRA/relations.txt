@@ -134,7 +134,7 @@ karmaXArayaH_3 1032
 karmaXArayaH_4 1033
 karmaXArayaH_5 1034
 naF_wawpuruRaH 1035
-wa_pu_xvigu 1036
+xvigu_wawpuruRaH 1036
 upapaxa_wawpuruRaH 1037
 bahuvrIhiH 1038
 RaRTI_wawpuruRaH 1039

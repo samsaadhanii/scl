@@ -709,14 +709,14 @@ value rl_compound_xvigu m1 m2 text_type = match m1 with
       if (id1 = id2) && (pUrvapaxa1="y") && (uwwarapaxa2="y") && (cid2 > cid1) then
         if member_of rt1 waxXiwAnwa_safKyA_vAcI then
           (* 2-1-52 *)
-          [ Relation (id1,cid1,mid1,"wa_pu_xvigu",id2,cid2,mid2,"200.41",0) ] 
+          [ Relation (id1,cid1,mid1,"xvigu_wawpuruRaH",id2,cid2,mid2,"200.41",0) ] 
         else if member_of rt1 safKyA_vAcI then 
           if lifga2 = "napuM" then
             (* 2-1-51 *)
-            [ Relation (id1,cid1,mid1,"wa_pu_xvigu",id2,cid2,mid2,"200.42",0) ] 
+            [ Relation (id1,cid1,mid1,"xvigu_wawpuruRaH",id2,cid2,mid2,"200.42",0) ] 
           else if member_of (word1 ^ rt2) named_entity then
             (* 2-1-50 *)
-            [ Relation (id1,cid1,mid1,"wa_pu_xvigu",id2,cid2,mid2,"200.43",0) ] 
+            [ Relation (id1,cid1,mid1,"xvigu_wawpuruRaH",id2,cid2,mid2,"200.43",0) ] 
           else []
         else []
       else []
@@ -1177,7 +1177,7 @@ value rl_compound_others_3 m1 m2 m3 =
           (* let _ = print_string ("\nm2 matched " ^ word2 ^ "; " ^ (string_of_int id2) ^ "; " ^ (string_of_int cid2) ^ "; " ^ (string_of_int mid2)) in *)
           let stripped_rt2 = remove_leading_hyphen rt2 in 
           if member_of rt1 safKyA_vAcI then 
-            [ Relation (id1,cid1,mid1,"wa_pu_xvigu",id2,cid2,mid2,"200.70",0); Relation (id2,cid2,mid2,"ba_vrI",id3,cid3,mid3,"200.71",0) ]
+            [ Relation (id1,cid1,mid1,"xvigu_wawpuruRaH",id2,cid2,mid2,"200.70",0); Relation (id2,cid2,mid2,"ba_vrI",id3,cid3,mid3,"200.71",0) ]
           else if member_of rt1 xik_vAcI then 
             [ Relation (id1,cid1,mid1,"wa_pu",id2,cid2,mid2,"200.72",0); Relation (id2,cid2,mid2,"ba_vrI",id3,cid3,mid3,"200.73",0) ]
           else if (word2 = "-a-") || (word2 = "-an-") then 

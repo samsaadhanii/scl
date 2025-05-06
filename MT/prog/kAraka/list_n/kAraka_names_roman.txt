@@ -134,7 +134,7 @@ karmadhārayaḥ_3 1032
 karmadhārayaḥ_4 1033
 karmadhārayaḥ_5 1034
 nañ_tatpuruṣaḥ 1035
-ta_pu_dvigu 1036
+dvigu_tatpuruṣaḥ 1036
 upapada_tatpuruṣaḥ 1037
 bahuvrīhiḥ 1038
 ṣaṣṭhī_tatpuruṣaḥ 1039
