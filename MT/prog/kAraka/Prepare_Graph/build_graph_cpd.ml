@@ -43,6 +43,7 @@ open WaxXiwAnwa_xik_vAcI;
 open Xik_vAcI;
 open Exceptional_cpd_list;
 open NaxI_vAcI;
+open ApAxAna_dhaatu;
 
 value morphs = Gram.Entry.mk "morphs"
 ;
@@ -346,6 +347,9 @@ value vyAGrAxi = build_trie vyAGrAxi_list
 value naxI_vAcI = build_trie naxI_vAcI_list
 ;
 
+value apAxAna_verbs = build_trie apAxAna_XAwu_list
+;
+
 value verb_type rt upasarga =  
           if members_of rt upasarga akarmaka_verbs then "akarmaka"
           else if members_of rt upasarga xvikarmaka2 then "xvikarmaka2"
@@ -502,6 +506,11 @@ value rl_compound_viBakwi_wa_pu m1 m2 text_type = match m1 with
     | Kqw (id2,cid2,mid2,_,_,_,_,_,_,_,rt2,pUrvapaxa2,uwwarapaxa2,_,_,_,_)
       -> 
         if (id1 = id2) && (pUrvapaxa1="y") && (uwwarapaxa2="y") && (cid2 > cid1) then
+          let kqw_XAwu2 = 
+            match m2 with 
+            [ Kqw (id2,cid2,mid2,_,kqw_XAwu2,_,_,_,_,_,rt2,pUrvapaxa2,uwwarapaxa2,_,_,_,_)
+              -> kqw_XAwu2
+            | _ -> "" ] in
           if member_of rt1 kAla_vAcI then
             if rl_compound_yaw_2 m2 then 
               (* kqwyErqNe 2.1.43 *)
@@ -509,6 +518,9 @@ value rl_compound_viBakwi_wa_pu m1 m2 text_type = match m1 with
             else 
               (* awyanwasaMyoge ca 2.1.29 *)
               [ Relation (id1,cid1,mid1,"xviwIyA_wawpuruRaH",id2,cid2,mid2,"200.14",0)]
+          else if member_of kqw_XAwu2 apAxAna_verbs then
+            (* Example - prakqwi-samBavAH *)
+            [ Relation (id1,cid1,mid1,"paFcamI_wawpuruRaH",id2,cid2,mid2,"200.14a",0)]
           else match rt2 with 
           [ "pUrva" | "saxqSa" | "sama" | "Una" | "kalaha" | "miSra" | "SlakRNa"
             (* pUrvasaxqSasamonArWakalahanipuNamiSraSlakRNEH (2-1-31) *)
@@ -519,6 +531,10 @@ value rl_compound_viBakwi_wa_pu m1 m2 text_type = match m1 with
             -> [ Relation (id1,cid1,mid1,"wqwIyA_wawpuruRaH",id2,cid2,mid2,"200.16",0) ]
           | "Baya" | "BIwi" | "BI" 
             (* paFcamI Bayena 2-1-35 *)
+          | "samBava" | "samBavA" | "uxBava" | "samuxBava" | "samBUwa"
+            (* Temporarily these stems are added. The best solution is to
+               get the morph analysis of samBava as samBU so that it will be
+               handled through apAxAna_verbs. Example - prakqwi-samBavAH (BG) *)
             -> [ Relation (id1,cid1,mid1,"paFcamI_wawpuruRaH",id2,cid2,mid2,"200.17",0) ]
             (* sapwamI SONdEH 2-1-40 *)
           | "SONda" | "XUrwa" | "kiwava" | "vyAda" | "pravINa" 
@@ -1207,13 +1223,15 @@ value rl_handle_compound m1 m2 text_type =
          else if (rt2 = "sva") then []
          else let rel = exceptional_cpds m1 m2 in 
           if rel = [] then 
-            List.fold_left collate [] other_cpd_rules where
-            collate rls rule = match rule m1 m2 text_type with
-            [ [] -> if rls = [] then 
-                      rl_wa_pu_6 m1 m2
-                    else rls 
-            | r -> List.append r rls
-            ]
+            let relations = 
+              List.fold_left collate [] other_cpd_rules where
+              collate rls rule = match rule m1 m2 text_type with
+              [ [] -> rls
+              | r -> List.append r rls
+              ] in 
+            if relations = [] then 
+              rl_wa_pu_6 m1 m2
+            else relations
           else rel
      ]
   ]
