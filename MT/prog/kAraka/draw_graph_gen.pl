@@ -131,7 +131,6 @@ $dvandva_found = 0;
 sub print_cluster {
       my($i,$nodes) = @_;
       my($count);
-      #print "i = $i nodes = $nodes\n";
       $count = $nodes =~ s/#//g;
       if ($count > 1) { 
          print TMP1 "\nsubgraph cluster_",$i,"{\n";
@@ -467,12 +466,13 @@ sub form_compound_constituency_tree {
   # If yes, then pop up those entries and process, and finally proces sthe current entry
   # If not, process this entry
 
-  while ($i < $component_indx){
-  for ($y=0;$y < $stack_index; $y++){
-  }
   for ($y=0;$y < $component_indx; $y++){
     @f = split(/:/,$compound[$y]);	# index, word, relation,to_index, kqw, color code
+    #print "compound y = $compound[$y]\n";
   }
+  while ($i < $component_indx){
+  #for ($y=0;$y < $stack_index; $y++){ }
+    #print "compound i = $compound[$i]\n";
     @f = split(/:/,$compound[$i]);	# fields: index(0), word(1), relation(2), to_index (3), kqw_or_not (4), color code (5)
     @rels = split(/;/,$f[2]);
     $diff = &get_diff($f[3], $f[0]);
@@ -589,6 +589,7 @@ sub print_constituent_and_intermediate_nodes{
              #($cluster_no, $non_cluster) = split(/:/,&classify_cluster_non_cluster($samAsa_type,$cluster_no,$non_cluster,$from_id,$new_dummy_index{$to_id}));
              ($cluster_no, $non_cluster) = split(/:/,&classify_cluster_non_cluster($samAsa_type,$cluster_no,$non_cluster,$from_id,$to_id));
              my $index = $to_id;
+             $index =~ s/^S[0-9]+_//;
              $index =~ s/_.*//;
              $label{$new_dummy_index{$to_id}} = $intmd_label."(".$index.")";
              $wcolor{$new_dummy_index{$to_id}} = $wcolor;

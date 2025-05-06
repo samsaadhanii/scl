@@ -28,7 +28,7 @@ while($in = <STDIN>){
  } elsif (($rel !~ /sambanXaH/) && ($rels !~ /_xyowakaH/)) {
       $rels = $rel.","."\@S".$sid.".".$relata_pos_id.".".$relata_pos_cid;
  }
- if ($DISCOURSE{$key} !~ /,\@S$sid.$relata_pos_id.$relata_pos_cid/) {
+ if (($DISCOURSE{$key} !~ /,\@S$sid.$relata_pos_id.$relata_pos_cid/) && ($DISCOURSE{$key} ne "")) {
      if ($rels ne "") { $rels .= ";".$DISCOURSE{$key};} else {$rels = $DISCOURSE{$key};}
  } 
 
