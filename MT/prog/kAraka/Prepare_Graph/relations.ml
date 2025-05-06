@@ -129,7 +129,7 @@ value relations_encodings = [
         ("paFcamI_wawpuruRaH",1025);
         ("sapwamI_wawpuruRaH",1027);
         ("wawpuruRaH",1028);
-        ("karamaXArayaH_1",1029);
+        ("karmaXArayaH_1",1029);
         ("karmaXArayaH",1030);
         ("karmaXArayaH_2",1031);
         ("karmaXArayaH_3",1032);
