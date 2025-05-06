@@ -2934,10 +2934,15 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
              [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_)
              | Kqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
              | Avykqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_) ->
-       let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
+               let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
                if (id1 < id2) && no_boundary_crossing_with_iwi id1 id2 text_type
                then [ Relation (id1,cid1,mid1,"sambanXa_upa",id2,cid2,mid2,"26.4",d12)] 
                else []
+             | Avy (id2,cid2,mid2,word2,rt2,_,_,_)  ->
+                   let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
+                   if (word2 = "aswu") && (id1=id2-1)
+                   then [ Relation (id1,cid1,mid1,"sambanXaH",id2,cid2,mid2,"26.4",d12)] 
+		   else []
              |_ -> []
              ]
        
