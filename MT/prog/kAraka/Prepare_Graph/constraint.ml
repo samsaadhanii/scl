@@ -374,6 +374,20 @@ value single_relation_label m1 m2= match m1 with
     ]
 ;
 
+value no_crossing_compound text_type rel m1 m2=match m1 with
+    [ Relationc (to_id1,to_cid1,to_mid1,r1,from_id1,from_cid1,from_mid1,dist1) -> match m2 with
+      [Relationc (to_id2,to_cid2,to_mid2,r2,from_id2,from_cid2,from_mid2,dist2) -> 
+           if  (     to_id1 = from_id1
+	      &&     to_id2 = from_id2
+	      &&     to_id1 = from_id2
+	      &&     between from_cid1 to_cid2 from_cid2
+              &&     between to_cid2 to_cid1 from_cid1 )
+           then False else True
+      
+      ]
+    ]
+;
+
 value no_crossing text_type rel m1 m2=match m1 with
     [ Relationc (to_id1,to_cid1,to_mid1,r1,from_id1,from_cid1,from_mid1,dist1) -> match m2 with
       [Relationc (to_id2,to_cid2,to_mid2,r2,from_id2,from_cid2,from_mid2,dist2) -> 
@@ -710,6 +724,7 @@ value chk_compatible text_type rel m1 m2= (*do { print_string "==>";*)
          single_morph_per_word m1 m2 (*then do { print_string "sm;";*)
           && single_relation_label m1 m2 (*then do { print_string "srl;";*)
           && no_crossing text_type rel m1 m2  (*then do { print_string "nc;";*)
+          && no_crossing_compound text_type rel m1 m2  (*then do { print_string "nc;";*)
           && relation_mutual_ayogyataa text_type m1 m2  (*then  do { print_string "my;"; True}*)
           && no_direct_cycle m1 m2  (*then  do { print_string "oc;"; True}*)
                 (*else do {print_string "MY;"; False}}*)

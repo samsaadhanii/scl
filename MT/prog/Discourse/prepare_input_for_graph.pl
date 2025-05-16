@@ -7,12 +7,13 @@ while($in = <TMP>) {
       $key = "\@S".$flds[0].".".$flds[1].".".$flds[2];
       $value = $flds[3].",\@S".$flds[4].".".$flds[5].".".$flds[6];
       $DISCOURSE{$key} = $value;
+#	print "$key=$value\n";
 }
 
 print "\n";
 while($in = <STDIN>){
 
- my ($rels);
+#print "IN = $in\n";
  $rels = "";
  if($in =~ /\(sid ([0-9]+)/) { $sid = $1;}
  if($in =~ /\(id ([0-9]+)/) { $id = $1;}
@@ -23,23 +24,42 @@ while($in = <STDIN>){
  if($in =~ /\(rel_nm ([^) ]+)/) { $rel = $1;}
  if($in =~ /\(relata_pos_id ([1-9][0-9]*)/) { $relata_pos_id = $1;} else {$relata_pos_id = "";}
  if($in =~ /\(relata_pos_cid ([1-9][0-9]*)/) { $relata_pos_cid = $1;} else {$relata_pos_cid = "";}
+
+
+#print "  ***** rel = $rel\n";
+#print "  ***** Key = $key\n";
+#print "  ***** value = $DISCOURSE{$key}\n";
+
  if ($DISCOURSE{$key} eq "") {
       $rels = $rel.","."\@S".$sid.".".$relata_pos_id.".".$relata_pos_cid;
- } elsif (($rel !~ /sambanXaH/) && ($rels !~ /_xyowakaH/)) {
-      $rels = $rel.","."\@S".$sid.".".$relata_pos_id.".".$relata_pos_cid;
+#	print "444 $rels\n";
+ }  else {
+     if (($rel !~ /sambanXaH/) && ($rel !~ /_xyowakaH/) && ($rel ne "X")) {
+          $rels = $rel.","."\@S".$sid.".".$relata_pos_id.".".$relata_pos_cid;
+#	  print "111 $rels\n";
+     }
+
+     if (($rel =~ /sambanXaH/) || ($rel =~ /_xyowakaH/)) {
+           if ($rels ne "") { $rels .= ";".$DISCOURSE{$key};} else {$rels = $DISCOURSE{$key};}
+#	  print "222 $rels\n";
+     }
+
+     if (($DISCOURSE{$key} !~ /,\@S$sid.$relata_pos_id.$relata_pos_cid/)) {
+          if ($rels ne "") { $rels .= ";".$DISCOURSE{$key};} else {$rels = $DISCOURSE{$key};}
+#	  print "333 $rels\n";
+     } 
  }
- if (($DISCOURSE{$key} !~ /,\@S$sid.$relata_pos_id.$relata_pos_cid/) && ($DISCOURSE{$key} ne "")) {
-     if ($rels ne "") { $rels .= ";".$DISCOURSE{$key};} else {$rels = $DISCOURSE{$key};}
- } 
 
  $code = &get_color_code($in);
   
- if($relata_pos_id ne "") {
-    print "$key\t$word\t$kqw\t$rels\t$code\n";
- } else {
+#print "rel = $rel ####  rels = $rels\n";
+ if (($rels eq "") || ($rel eq "-")) {
     print "\@S$sid.$id.$cid\t$word\t-\t-\t$code\n";
+ } else {
+    print "$key\t$word\t$kqw\t$rels\t$code\n";
  }
 
+#  print "--------\n";
 }
 
 sub get_color_code {
