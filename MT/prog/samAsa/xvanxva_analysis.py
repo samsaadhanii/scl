@@ -13,6 +13,130 @@ xvanxva_samples = [
     "lava-kuSa",
     "jFAna-yoga",
     "mAna-moha",
+    
+    # From Bagavad-gIwA
+    "cara-acara", # 11_007
+    "mAna-apamAna", # 06_007, 12_018
+    "SIwa-uRNa-suKa-xuHKa", # 02_014, 06_007, 12_018
+    "ninxA-swuwi", # 12_018
+    "apara-para", # 16_008
+    "aparaH-para", # 16_008
+    "suhqw-miwra-ari-uxAsIna-maXyasWa-xveRya-banXu", # 06_009
+    "Bava-apyaya", # 11_002
+    "Axi-maXya-anwa", # 11_019
+    "SaSin-sUrya", # 07_008, 11_019
+    "kAma-kroXa", # 16_012, 05_026, 05_023
+    "vakwra-nayana", # 11_011 - 11_009-011
+    "mAlya-ambara", # 11_011 - 11_009-011
+    "kArya-akArya", # 16_024, 18_030
+    "yajFa-wapas", # 05_029
+    "rAga-xveRa", # , 02_064, 03_034, 18_023, 18_051, 18_053 (18_051-53)
+    "vihAra-SayyA-Asana-Bojana", # 11_041
+    "kAya-Siras-grIva", # 06_013-014
+    "ruxra-Axiwya", # 11_022
+    "ganXarva-yakRa-asura-sixXa", # 11_022
+    "guNa-karman", # 03_028, 04_013
+    "prANa-apAna", # 04_029, 05_027-028, 15_014
+    "janma-karman", # 02_042-044
+    "Boga-ESvarya", # 02_042-044
+    "kRewra-kRewrajFa", # 13_002, 13_026, 13_034
+    "vakwra-newra", # 11_023
+    "bAhu-uru-pAxa", # 11_023
+    "suKa-xuHKa", # 02_038, 13_020, 15_005
+    "lABa-alABa", # 02_038
+    "jaya-ajaya", # 02_038
+    "keSava-arjuna", # 18_076
+    "Axi-anwa", # 05_022
+    "SuBa-aSuBa", # 02_057, 09_028, 12_017
+    "sawkAra-mAna-pUjA", # 17_018
+    "Xqwi-uwsAha", # 18_026
+    "sixXi-asixXi", # 18_026
+    "cEla-ajina-kuSa", # 06_011-012
+    "ciwwa-inxriya", # 06_011-012
+    "katu-amla-lavaNa-awyuRNa-wIkRNa-rUkRa-vixAhin", # 17_009
+    "xuHKa-Soka-Amaya", # 17_009
+    "BIRma-xroNa", # 01_024-025
+    "rAga-Baya-kroXa", # 02_056, 04_010
+    "aXiBUwa-aXixEva", # 07_030
+    "pramAxa-Alasya-nixrA", # 14_008
+    "vAc-kAya-mAnasa", # 18_051-53
+    "XyAna-yoga", # 18_051-53
+    "wqRNA-safga", # 14_007
+    "Xana-mAna-maxa", # 16_017
+    "suGoRa-maNipuRpaka", # 01_016
+    "ahan-rAwra", # 08_017
+    "anala-arka", # 11_017
+    "yajFa-xAna-wapas-kriyA", # 17_024
+    "xeva-xvija-guru-prAjFa", # 17_014
+    "Baya-aBaya", # 18_030
+    "paNava-Anaka-gomuKa", # 01_013
+    "viRaya-inxriya", # 18_038
+    "pOrva-xehika", # 06_043
+    "kqRi-gOrakRya-vANijya", # 18_044
+    "jFAna-vijFAna", # 03_041, 06_008
+    "loRta-aSman-kAFcana", # 06_008
+    "janma-mqwyu-jarA-xuHKa", # 14_020
+    "harRa-amarRa-Baya-uxvega", # 12_015
+    "vixyA-vinaya", # 05_018
+    "sAfKya-yoga", # 05_004
+    "Xarma-kAma-arWa", # 18_034
+    "yajFa-wapas-kriyA", # 17_025
+    "xamBa-mAna-maxa", # 16_010
+    "yakRa-rakRasa", # 10_023
+    "ciwwa-Awman", # 04_021
+    "Ayus-sawwva-bala-Arogya-suKa-prIwi", # 17_008
+    "maharRi-sixXa", # 11_021
+    "Sukla-kqRNa", # 08_026
+    "SarIra-vAc-manas", # 18_015
+    "inxriya-manas-buxXi", # 05_027-028
+    "icCA-Baya-kroXa", # 05_027-028
+    "harRa-Soka", # 18_027
+    "yajFa-xAna-wapas-karman", # 18_003-005
+    "icCA-xveRa", # 07_027
+    "saw-asaw", # 13_021
+    "sukqwa-duRkqwa", # 02_050
+    "arWa-kAma", # 02_005
+    "kAma-safkalpa", # 04_019
+    "pANi-pAxa", # 13_013
+    "akRi-Siras-muKa", # 13_013
+    "Awman-para", # 16_018
+    "mAna-moha", # 15_005
+    "xuHKa-suKa", # 12_013-014
+    "manas-buxXi", # 08_007, 12_013-014
+    "kAla-anala", # 11_025
+    "brAhmaNa-kRawriya-viS", # 18_041
+    "xyAvA-pqWivI", # 11_020
+    "lupwa-piNda-uxaka", # 01_042
+    "inxriya-arWa", # 13_007-011
+    "janma-mqwyu-jarA-vyAXi-xuHKa-xoRa", # 13_007-011
+    "puwra-xAra-gqha", # 13_007-011
+    "iRta-aniRTa-upapawwi", # 13_007-011
+    "jFAna-arWa", # 13_007-011
+    "bAhu-uxara-vakwra-newra", # 11_016
+    "xamBa-ahafkAra", # 17_005
+    "kAma-rAga-bala", # 17_005
+    "kArya-kAraNa", # 13_020
+    "BIma-arjuna", # 01_004-006
+    "Agama-apAyin", # 02_014
+    "jarA-maraNa", # 07_029
+    "AhAra-vihAra", # 06_017
+    "manas-prANa-inxriya", # 18_033
+    "BAva-uxBava", # 08_003
+    "nixrA-Alasya-pramAxa", # 18_039
+    "yakRa-rakRas", # 17_004
+    "kAma-rAga", # 07_011
+    "xeSa-kAla", # 17_022
+    "yoga-kRema", # 02_045
+    "aXyAya-aByasana", # 17_015
+    "miwra-ari", # 14_024
+    "gawa-Agawa", # 09_021
+    "pramAxa-moha", # 14_017
+    "sWAvara-jafgama", # 13_027
+    "vexa-yajFa-aXyayana", # 11_048
+    "svapna-avaboXa", # 06_017
+    
+    # aRtAfgahqxayam
+    "Xarma-arWa-suKa", # 01_002
 ]
 
 
