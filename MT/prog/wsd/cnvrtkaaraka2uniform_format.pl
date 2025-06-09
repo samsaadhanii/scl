@@ -35,7 +35,7 @@ while($in = <STDIN>){
 
           if($cat ne "ajFAwa"){
 
-           if($wrd_ana =~ /<word:[^>\-]+\->/) { $pUrvapaxa = "y";} else {$pUrvapaxa = "n";}
+           if($wrd_ana =~ /<word:[^>]+\->/) { $pUrvapaxa = "y";} else {$pUrvapaxa = "n";}
            if($wrd_ana =~ /<word:-/) { $uwwarapaxa = "y";} else {$uwwarapaxa = "n";}
 
            if($pUrvapaxa eq "y") { $wrd_ana =~ s/<level:([0-4])>/<lifgam:a><viBakwiH:0><vacanam:a><level:$1>/;}
