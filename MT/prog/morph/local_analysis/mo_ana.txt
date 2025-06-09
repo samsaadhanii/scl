@@ -1,4 +1,5 @@
 rAmacariwam	rAmacariwa<vargaH:nA><lifgam:napuM><viBakwiH:2><vacanam:eka><level:1>
+vasawim	vasawi<vargaH:nA><lifgam:swrI><viBakwiH:2><vacanam:eka><level:1>
 virUpiwA	virUpiwA<vargaH:nA><lifgam:swrI><viBakwiH:1><vacanam:eka><level:1>
 virUpiwaH	virUpiwa<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 biBIRaNam	biBIRaNa<vargaH:nA><lifgam:puM><viBakwiH:2><vacanam:eka><level:1>
