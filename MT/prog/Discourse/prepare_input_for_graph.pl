@@ -21,7 +21,7 @@ while($in = <STDIN>){
   $key = "\@S".$sid.".".$id.".".$cid;
  if($in =~ /\(word ([^) ]+)/) { $word = $1; $word =~ s/^-//;}
  if($in =~ /^\(kqw/) { $kqw = "(kqw)";} else {$kqw = "";}
- if($in =~ /\(rel_nm ([^) ]+)/) { $rel = $1;}
+ if($in =~ /\(rel_nm ([^)]+)\)/) { if ($1 eq "X") {$rel = "";} else {$rel = $1;}}
  if($in =~ /\(relata_pos_id ([1-9][0-9]*)/) { $relata_pos_id = $1;} else {$relata_pos_id = "";}
  if($in =~ /\(relata_pos_cid ([1-9][0-9]*)/) { $relata_pos_cid = $1;} else {$relata_pos_cid = "";}
 
@@ -31,7 +31,9 @@ while($in = <STDIN>){
 #print "  ***** value = $DISCOURSE{$key}\n";
 
  if ($DISCOURSE{$key} eq "") {
-      $rels = $rel.","."\@S".$sid.".".$relata_pos_id.".".$relata_pos_cid;
+      if($rel ne "") {
+         $rels = $rel.","."\@S".$sid.".".$relata_pos_id.".".$relata_pos_cid;
+      }
 #	print "444 $rels\n";
  }  else {
      if (($rel !~ /sambanXaH/) && ($rel !~ /_xyowakaH/) && ($rel ne "X")) {

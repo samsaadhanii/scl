@@ -270,7 +270,7 @@ sub print_relations_for_each_word{
           $mpos = $5;
           $class = $6;
           $mindx = $from;
-          if($rel_num < 100 || $rel_num >=2000 || $rel_num == 101 || $rel_num == 102 || ($rel_num > 200 && $rel_num < 300)) {
+          if($rel_num < 100 || $rel_num >=1000 || $rel_num == 101 || $rel_num == 102 || ($rel_num > 200 && $rel_num < 300)) {
              $rel = $kAraka_name{$rel_num}.",".$wpos.".".$cpos."(".$mpos.")";
              $new_rel = $from.",".$rel_num.",".$wpos.",".$cpos.",".$mpos;
           if($relations !~ /:$new_rel/) { 
