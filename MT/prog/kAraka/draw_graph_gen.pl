@@ -328,7 +328,7 @@ sub get_color_code {
     elsif($color_code eq "N7") { $color_hash_code = "#C6E2EB";}
     elsif($color_code eq "N8") { $color_hash_code = "#6FFFC3";}
     elsif($color_code eq "NA") { $color_hash_code = "#FF99FF";}
-    elsif($color_code eq "KP") { $color_hash_code = "#FF1975";}
+    elsif($color_code eq "KP") { $color_hash_code = "#FF3075";}
     elsif($color_code eq "CP") { $color_hash_code = "#FFFF00";}
  }
  
@@ -599,7 +599,7 @@ sub print_constituent_and_intermediate_nodes{
              $kqw{$to_id} = $kqw;
            }
            if ($new_dummy_index{$to_id} ne $new_index{$to_id}) {
-               $rel_str .= "\nNode$new_index{$to_id} -> Node$new_dummy_index{$to_id} \[ $edgedir \]";
+               $rel_str .= "\nNode$new_index{$to_id} -> Node$new_dummy_index{$to_id} \[ $edgedir  style=\"dashed\"\]";
                #print "$rel_str = Node$new_index{$to_id} -> Node$new_dummy_index{$to_id} \[ $edgedir \]\n";
      
            }
