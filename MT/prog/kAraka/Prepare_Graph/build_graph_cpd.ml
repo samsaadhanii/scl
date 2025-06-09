@@ -558,11 +558,17 @@ value rl_compound_viBakwi_wa_pu m1 m2 text_type = match m1 with
             -> (* cawurWI waxarWArWabalihiwasuKarakRiwEH (2-1-36) *) 
                if not (rt2 = "SAswra") then [ Relation (id1,cid1,mid1,"RaRTI_wawpuruRaH",id2,cid2,mid2,"200.20",0) ]
                else []  (* SAswra-arWa -> here arWa is not prayojana but meaning *)
-          | "nipuNa" -> [ Relation (id1,cid1,mid1,"wqwIyA_wawpuruRaH",id2,cid2,mid2,"200.14",0); Relation (id1,cid1,mid1,"sapwamI_wawpuruRaH",id2,cid2,mid2,"200.19",0) ]
+          | "nipuNa"  (* Apte's dict aXikaraNa / karaNa ke sAWa; MW: skilled in / conversant with *)
+            -> [ Relation (id1,cid1,mid1,"wqwIyA_wawpuruRaH",id2,cid2,mid2,"200.19a",0) 
+             ; Relation (id1,cid1,mid1,"sapwamI_wawpuruRaH",id2,cid2,mid2,"200.19b",0) ]
+          | "nirawa" | "pufgava" -> (*added by Amba -- examples from RamayaNa *)
+             [ Relation (id1,cid1,mid1,"sapwamI_wawpuruRaH",id2,cid2,mid2,"200.19c",0) ]
           | _ -> 
             if member_of rt2 guNavacana then 
               (* wqwIyA wawkqwArWena guNavacanena (2-1-30) *)
-              [ Relation (id1,cid1,mid1,"wqwIyA_wawpuruRaH",id2,cid2,mid2,"200.20a",0) ]
+              if not (member_of rt1 safKyA_vAcI) then (* to stop combining eka-priya, in the case of eka-priya-xaraSanaH*)
+                 [ Relation (id1,cid1,mid1,"wqwIyA_wawpuruRaH",id2,cid2,mid2,"200.20a",0) ]
+              else []
             else []
           ]
         else []
@@ -591,6 +597,14 @@ value is_kriyA m = match m with
   ]
 ;
 
+value bahuvrIhi_morph_condition m2 = match m2 with 
+  [ Sup (_,_,_,_,rt2,pUrvapaxa2,_,lifgam2,_,_,level)
+    -> if level = 4 && pUrvapaxa2="n" then True
+       else False 
+  | _ -> False
+  ]
+;
+
 value rl_compound_K m1 m2 text_type = match m1 with
   [ Sup (id1,cid1,mid1,_,rt1,pUrvapaxa1,uwwarapaxa1,_,_,_,_)
   | Kqw (id1,cid1,mid1,_,_,_,_,_,_,_,rt1,pUrvapaxa1,uwwarapaxa1,_,_,_,_)
@@ -607,7 +621,7 @@ value rl_compound_K m1 m2 text_type = match m1 with
               if (rt2 = "Kalawi" || rt2 = "paliwa" || rt2 = "valina" || rt2 = "jarawi" || rt2 = "jaran") then
                 [ Relation (id1,cid1,mid1,"karmaXArayaH_2",id2,cid2,mid2,"200.21",0) ]
               else []
-          | "eka" | "sarva" | "jaraw" | "purANa" | "nava" | "kevala" 
+          | "eka" | "sarva" | "jaraw" | "purANa" | "nava" | "kevala" (* 2.1.49 *)
             -> [ Relation (id1,cid1,mid1,"karmaXArayaH_1",id2,cid2,mid2,"200.22",0) ]
           | "pUrva" | "apara" | "praWama" | "carama" | "jaGanya" 
           | "samAna" | "maXya" | "maXyama" | "vIra"
@@ -666,13 +680,14 @@ value rl_compound_K m1 m2 text_type = match m1 with
                             && member_of rt1 xravyavAcI then 
                       (* 2-1-55 *)
                       [ Relation (id1,cid1,mid1,"karmaXArayaH_4",id2,cid2,mid2,"200.38",0) ]
-                    else if member_of rt2 jAwivAcaka && 
-                      ((member_of rt1 guNavacana || member_of rt1 guNa_not_guNavacana) 
+                    else if 
+			(* member_of rt2 jAwivAcaka &&  -- Wjy is this condition necessary? -- AMBA *)
+                      ((member_of rt1 guNavacana || member_of rt1 guNa_not_guNavacana)
                       (* All guNas can be classified as either guNavacana, or non_guNavacana. 
-                        Hence checking both the lists guNavacana and guNa_not_guNavacana *)
+                        Hence checking both the lists guNavacana and guNa_not_guNavacana  -- AMBA CHK_WITH_SRIRAM*)
                         (*|| member_of rt1 saFjFA_vAcI *) (* NOTE: How to collect list of saFjFA_vAcI *)
                       (* if m1 is captured as kqw or wif, then it considered as kriyA *)  
-                        || is_kriyA m1) then 
+                        || is_kriyA m1) && not ( bahuvrIhi_morph_condition m2) then 
                       (* 2-1-57 *)
                       [ Relation (id1,cid1,mid1,"karmaXArayaH_1",id2,cid2,mid2,"200.39",0) ] 
                     else []
@@ -710,7 +725,8 @@ value rl_compound_xvigu m1 m2 text_type = match m1 with
     [ Sup (id2,cid2,mid2,_,rt2,pUrvapaxa2,uwwarapaxa2,lifga2,_,_,_)
     | Kqw (id2,cid2,mid2,_,_,_,_,_,_,_,rt2,pUrvapaxa2,uwwarapaxa2,lifga2,_,_,_)
     | WaxXiwa (id2,cid2,mid2,_,rt2,pUrvapaxa2,uwwarapaxa2,_,lifga2,_,_,_) -> 
-      if (id1 = id2) && (pUrvapaxa1="y") && (uwwarapaxa2="y") then
+      if (id1 = id2) && (pUrvapaxa1="y") && (uwwarapaxa2="y") && (cid2-cid1 = 1) then
+        (* in the case of xvigu, the two components should be next to each other such as wri-loka; In the case of wri-loka-jFaH, wri should not get connected to jFAH *)
         if member_of rt1 waxXiwAnwa_safKyA_vAcI then
           (* 2-1-52 *)
           [ Relation (id1,cid1,mid1,"xvigu_wawpuruRaH",id2,cid2,mid2,"200.41",0) ] 
@@ -718,6 +734,9 @@ value rl_compound_xvigu m1 m2 text_type = match m1 with
           if lifga2 = "napuM" then
             (* 2-1-51 *)
             [ Relation (id1,cid1,mid1,"xvigu_wawpuruRaH",id2,cid2,mid2,"200.42",0) ] 
+	    (* Added by Amba to handle ((wri-loka)Td-jFAH)Bs6 *)
+        else if (id1 = id2) && (pUrvapaxa1="y") && (uwwarapaxa2="y") then
+            [ Relation (id1,cid1,mid1,"xvigu_wawpuruRaH",id2,cid2,mid2,"200.42a",0) ] 
           else if member_of (word1 ^ rt2) named_entity then
             (* 2-1-50 *)
             [ Relation (id1,cid1,mid1,"xvigu_wawpuruRaH",id2,cid2,mid2,"200.43",0) ] 
@@ -743,7 +762,7 @@ value is_prAxi rt =
 
 value upapaxa_list rt = 
   match rt with 
-  [ "xa" | "ja" | "kAra" | "jFa" 
+  [ "xa" | "ja" | "kAra" | "jFa" | "vix"
   | "nibarhaNa" | "niRUxana" | "xarSana" | "xama" | "arxana" 
   | "sUxana" | "BOjI" -> True
   | _ -> False
@@ -837,6 +856,11 @@ value rl_compound_B m1 m2 text_type = match m1 with
         else if word1 = "sa-" && not (lifgam2 = "napuM") then 
           (* 2-2-28 *)
           [ Relation (id1,cid1,mid1,"bahuvrIhiH",id2,cid2,mid2,"200.58",0) ] 
+        else if not (member_of rt1 safKyA_vAcI) && bahuvrIhi_morph_condition m2 && not (upapaxa_list rt2)  then
+          (* In the case of jFaH etc also we get the same morphology, and hence they are to be discarded *)
+          (* If the final component has a different lifgam2 than the original 
+             lifgam of its stem, then assign bahuvrIhi *)
+          [ Relation (id1,cid1,mid1,"bahuvrIhiH",id2,cid2,mid2,"200.65",0) ] 
         else []
       else []
     | _ -> []
@@ -1180,10 +1204,11 @@ value rl_compound_others_3 m1 m2 m3 =
         if (id1 = id2) && (id1 = id3) && (cid1 < cid2) && (cid2 < cid3) then 
           (* let _ = print_string ("\nm2 matched " ^ word2 ^ "; " ^ (string_of_int id2) ^ "; " ^ (string_of_int cid2) ^ "; " ^ (string_of_int mid2)) in *)
           let stripped_rt2 = remove_leading_hyphen rt2 in 
-          if member_of rt1 safKyA_vAcI then 
-            [ Relation (id1,cid1,mid1,"xvigu_wawpuruRaH",id2,cid2,mid2,"200.70",0); Relation (id2,cid2,mid2,"ba_vrI",id3,cid3,mid3,"200.71",0) ]
+          if member_of rt1 safKyA_vAcI  && (cid2-cid1 = 1) then 
+	   (* In the case of xvigu, the components should be next to each other *)
+            [ Relation (id1,cid1,mid1,"xvigu_wawpuruRaH",id2,cid2,mid2,"200.70",0); Relation (id2,cid2,mid2,"bahuvrIhiH",id3,cid3,mid3,"200.71",0) ]
           else if member_of rt1 xik_vAcI then 
-            [ Relation (id1,cid1,mid1,"wawpuruRaH",id2,cid2,mid2,"200.72",0); Relation (id2,cid2,mid2,"ba_vrI",id3,cid3,mid3,"200.73",0) ]
+            [ Relation (id1,cid1,mid1,"wawpuruRaH",id2,cid2,mid2,"200.72",0); Relation (id2,cid2,mid2,"bahuvrIhiH",id3,cid3,mid3,"200.73",0) ]
           else if (word2 = "-a-") || (word2 = "-an-") then 
             (* 2-1-60 kwena naFviSiRtenAnaF *)
             [ Relation (id2,cid2,mid2,"naF_wawpuruRaH",id3,cid3,mid3,"200.66",0); Relation (id1,cid1,mid1,"karmaXArayaH_2",id3,cid3,mid3,"200.67",0); ]
@@ -1220,10 +1245,14 @@ value rl_handle_compound m1 m2 text_type =
     | Wif (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_,_,_,_,_,_,_,_,_) 
     | Avykqw (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_,_,_,_,_)
     | AvywaxXiwa (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_,_) 
-      -> if (cid2 - cid1 < 4) then
+      -> if (id1 = id2) 
+            then if (cid2 - cid1 < 4) then
             if pUrvapaxa1 = "n" then []
-            else if (word1 = "a-") || (word1 = "an-") then
-            rl_compound_naF m1 m2 text_type
+            else if (word2 = "-a-") || (word2 = "-an-") 
+              then [] (* a or an cannot be second component of a compound *)
+            else if (word1 = "a-") || (word1 = "an-") || (word1 = "-a-") || (word1 = "-an-")
+              (* a or an can be the initial component or a middle component *)
+              then rl_compound_naF m1 m2 text_type
             else if (rt2 = "sva") then []
             else let rel = exceptional_cpds m1 m2 in 
              if rel = [] then 
@@ -1238,6 +1267,7 @@ value rl_handle_compound m1 m2 text_type =
                else relations
              else rel
 	 else []
+       else []
      ]
   ]
 ;
