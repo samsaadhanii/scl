@@ -9,7 +9,7 @@ $color{"N6"} = "#87CEEB";
 $color{"N7"} = "#C6E2EB";
 $color{"N8"} = "#6FFFC3";
 $color{"NA"} = "#FF99FF";
-$color{"KP"} = "#FF1975";
+$color{"KP"} = "#FF3075";
 $color{"CP"} = "#FFFF00";
 
 $in = <STDIN>;
