@@ -29,6 +29,7 @@ cut -f1-6 $temp_path/tmp_in$pid/in$pid.out > $temp_path/tmp_in$pid/in${pid}_tmp1
 cut -f2,7 $temp_path/tmp_in$pid/in$pid.out | tr '\t' '=' > $temp_path/tmp_in$pid/in${pid}_tmp
 $BasePATH/MT/prog/prune/prune.sh $BasePATH < $temp_path/tmp_in$pid/in${pid}_tmp | sed '1,$s/.*=//' > $temp_path/tmp_in$pid/in${pid}_tmp7
 paste $temp_path/tmp_in$pid/in${pid}_tmp1_6 $temp_path/tmp_in$pid/in${pid}_tmp7 > $temp_path/tmp_in$pid/in${pid}.out
+cp $temp_path/tmp_in$pid/in${pid}.out $temp_path/tmp_in$pid/in${pid}.out.orig1
 cut -f2 $temp_path/tmp_in$pid/in${pid}.out | tr '\n' ' ' > $temp_path/tmp_in$pid/wor.$pid
 cut -f2 $temp_path/tmp_in$pid/in${pid}.out | tr '\n' ' ' > $temp_path/tmp_in$pid/sandhied_in$pid
 #echo -n '"<s>"' > $temp_path/in$pid 

@@ -195,7 +195,8 @@ if [ $# -lt 1 ] ; then
 else 
   my_converters
   set_tmp_path
-
+  if [ $PARSE != "AVAILABLE" ] ; then
+ 
    if [ $MORPH = "UoHyd" ] ; then
       format
       sandhi_splitter
@@ -210,6 +211,11 @@ else
       cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.before_parse
    fi
 
+   if [ $MORPH = "Heritage_manual" ] ; then
+      sandhi_splitter
+      cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.before_parse
+   fi
+
    if [ $MORPH = "AVAILABLE" ] ; then
     #cp $temp_files_path/$1 $temp_files_path/$fbn.out
     cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.before_parse
@@ -218,6 +224,8 @@ else
      # add xvanxva_analysis
      xvanxva_analysis
      cp $temp_files_path/$fbn.out.after_xvanxva $temp_files_path/$fbn.out
+
+   fi
      
     shaabdabodha
     cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.after_parse

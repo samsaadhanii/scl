@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2009-2024 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2009-2025 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -48,7 +48,8 @@ my %param = &get_parameters();
       my $total_filtered_solns = 0;
       if($translate eq "yes") {
 	  my $lang = "hi";
-          my $morph = "UoHyd";
+          #my $morph = "UoHyd"; We need to do the morph analysis again; since it is already available.
+          my $morph = "AVAILABLE";
           my $parse = "AVAILABLE";
           my $text_type = "Sloka";
           $pid =~ /_([0-9])/;

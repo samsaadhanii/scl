@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-#  Copyright (C) 2017-2024 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2017-2025 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -60,7 +60,8 @@ system("echo '$buffer' | $myPATH/MT/prog/Heritage_morph_interface/Heritage2anusa
 
 if($display eq "") { $display = "DEV";}
 
-system("$GlblVar::TIMEOUT $myPATH/MT/prog/shell/anu_skt_hnd.sh $myPATH/ tmp_in${pid}/in$pid $GlblVar::TFPATH hi $display GH Full Sloka 1 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
+#system("$GlblVar::TIMEOUT $myPATH/MT/prog/shell/anu_skt_hnd.sh $myPATH/ tmp_in${pid}/in$pid $GlblVar::TFPATH hi $display GH Full Sloka 1 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
+system("$GlblVar::TIMEOUT $myPATH/MT/prog/shell/anu_skt_hnd.sh $myPATH/ tmp_in${pid}/in$pid $GlblVar::TFPATH hi $display Heritage_manual Full Sloka 1 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
 
 system("$myPATH/MT/prog/interface/display_output.pl $myPATH $GlblVar::TFPATH $display $pid NIL A $GlblVar::SCL_HTDOCS $GlblVar::SCL_CGI");
 

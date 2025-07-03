@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 
 #  Copyright (C) 2002-2012 Pankaj Vyays, Sivaja Nair
-#  Copyright (C) 2002-2024 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2002-2025 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
