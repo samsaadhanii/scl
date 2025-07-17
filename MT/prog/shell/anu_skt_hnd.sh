@@ -28,6 +28,7 @@ MORPH=$6
 PARSE=$7
 TEXT_TYPE=$8
 SENT_NO=$9
+COMPOUND_ANALYSIS=${10}
 
 ANU_MT_PATH=$CGIDIR/$SCL_CGI/MT/prog
 export LC_ALL=POSIX
@@ -83,7 +84,7 @@ xvanxva_analysis () {
 }
 
 shaabdabodha () {
-  $ANU_MT_PATH/kAraka/shabdabodha.sh $CGIDIR/$SCL_CGI $temp_files_path $fbn.out $OUTSCRIPT $PARSE $TEXT_TYPE
+  $ANU_MT_PATH/kAraka/shabdabodha.sh $CGIDIR/$SCL_CGI $temp_files_path $fbn.out $OUTSCRIPT $PARSE $TEXT_TYPE $COMPOUND_ANALYSIS
 # Field 7: morph analysis corresponding to the kaaraka role
 # Field 8: kaaraka role
 # Field 9: all possible relations
@@ -221,15 +222,18 @@ else
     cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.before_parse
    fi  
 
+   if [ $COMPOUND_ANALYSIS = "YES" ] ; then
      # add xvanxva_analysis
      xvanxva_analysis
-     cp $temp_files_path/$fbn.out.after_xvanxva $temp_files_path/$fbn.out
-
+   else
+     cp $temp_files_path/$fbn.out.before_parse $temp_files_path/$fbn.out.after_xvanxva
    fi
-     
+   cp $temp_files_path/$fbn.out.after_xvanxva $temp_files_path/$fbn.out
+
     shaabdabodha
     cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.after_parse
     		#`date >> $temp_files_path/err`;
+  fi    
 
   anaphora
   wsd

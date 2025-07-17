@@ -533,6 +533,7 @@ So for example if viSeRaNa (36) below sambanXa (28) is not allowed, then we writ
   |(36,50)
   |(38,26)
   |(50,26)
+  |(52,36) (* viSeRaNa of saFjFA_xyowaka not allowed *)
   |(53,36) (* viSeRaNa of saFjFA not allowed *)
   (*|(38,36) -- removed, since viSeRaNa of RaRTI is possible as in vIrasya rAmasya puwraH *)
   |(50,36)

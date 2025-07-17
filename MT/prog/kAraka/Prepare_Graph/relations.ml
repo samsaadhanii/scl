@@ -141,5 +141,6 @@ value relations_encodings = [
         ("bahuvrIhiH",1038);
         ("RaRTI_wawpuruRaH",1039);
         ("xvanxvaH",1040);
+				("samAsaH",1050);
         ]
 ;

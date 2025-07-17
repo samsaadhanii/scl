@@ -560,16 +560,17 @@ value rl_compound_viBakwi_wa_pu m1 m2 text_type = match m1 with
                else []  (* SAswra-arWa -> here arWa is not prayojana but meaning *)
           | "nipuNa"  (* Apte's dict aXikaraNa / karaNa ke sAWa; MW: skilled in / conversant with *)
             -> [ Relation (id1,cid1,mid1,"wqwIyA_wawpuruRaH",id2,cid2,mid2,"200.19a",0) 
-             ; Relation (id1,cid1,mid1,"sapwamI_wawpuruRaH",id2,cid2,mid2,"200.19b",0) ]
+               ; Relation (id1,cid1,mid1,"sapwamI_wawpuruRaH",id2,cid2,mid2,"200.19b",0) ]
           | "nirawa" | "pufgava" -> (*added by Amba -- examples from RamayaNa *)
              [ Relation (id1,cid1,mid1,"sapwamI_wawpuruRaH",id2,cid2,mid2,"200.19c",0) ]
-          | _ -> 
-            if member_of rt2 guNavacana then 
+          | "kANa" | "KaFja" | "kuNi" | "kuRta" | "baXira" | "kuNTa" | "kubja" | "vikqwa"
+               -> 
               (* wqwIyA wawkqwArWena guNavacanena (2-1-30) *)
-              if not (member_of rt1 safKyA_vAcI) then (* to stop combining eka-priya, in the case of eka-priya-xaraSanaH*)
-                 [ Relation (id1,cid1,mid1,"wqwIyA_wawpuruRaH",id2,cid2,mid2,"200.20a",0) ]
-              else []
-            else []
+              [ Relation (id1,cid1,mid1,"wqwIyA_wawpuruRaH",id2,cid2,mid2,"200.20a",0) ]
+          | "KaNda"  (* | "arWa" --> check with the arWa above -- Needs to be resolved *)
+              (* list of words whose kqw analysis is missing *)
+              -> [ Relation (id1,cid1,mid1,"wqwIyA_wawpuruRaH",id2,cid2,mid2,"200.20b",0) ]
+          | _ ->  []
           ]
         else []
     | _ -> []
@@ -622,7 +623,9 @@ value rl_compound_K m1 m2 text_type = match m1 with
                 [ Relation (id1,cid1,mid1,"karmaXArayaH_2",id2,cid2,mid2,"200.21",0) ]
               else []
           | "eka" | "sarva" | "jaraw" | "purANa" | "nava" | "kevala" (* 2.1.49 *)
-            -> [ Relation (id1,cid1,mid1,"karmaXArayaH_1",id2,cid2,mid2,"200.22",0) ]
+             -> if not (member_of rt2 guNavacana)  (* To stop the grouping of eka-priya in eka-prya-xarSanaH *)
+                then [ Relation (id1,cid1,mid1,"karmaXArayaH_1",id2,cid2,mid2,"200.22",0) ]
+                else []
           | "pUrva" | "apara" | "praWama" | "carama" | "jaGanya" 
           | "samAna" | "maXya" | "maXyama" | "vIra"
             -> [ Relation (id1,cid1,mid1,"karmaXArayaH_1",id2,cid2,mid2,"200.23",0) ]
@@ -884,8 +887,11 @@ value rl_compound_A1 m1 m2 text_type = match m2 with
   [ Kqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,pUrvapaxa2,uwwarapaxa2,lifgam2,viBakwiH2,_,_)
   | Sup (id2,cid2,mid2,_,_,pUrvapaxa2,uwwarapaxa2,lifgam2,viBakwiH2,_,_)
   | WaxXiwa (id2,cid2,mid2,_,_,pUrvapaxa2,uwwarapaxa2,_,lifgam2,viBakwiH2,_,_) -> 
-     if (lifgam2 = "napuM") && (viBakwiH2 = 1) (* Add a good comment here - uwwarapaxa in an A1 will always be in the form similar to the one in praWamA viBakwi in napuMsaka lifga *)
-     then
+if (lifgam2 = "napuM" || lifgam2 = "a") && (viBakwiH2 = 1 || viBakwiH2 = 0) 
+       then (* Add a good comment here - uwwarapaxa in an A1 will always be in the form similar to the one in praWamA viBakwi in napuMsaka lifga.
+               For avyayIBAva embedded in another compound, it can be in any lifga and without viBakwi *)
+            (* NOTE: Check examples like nir-malawvAw
+               Also anu-sanwawAni if vacanam needs to be considered. *)
      match m1 with
      [ Sup (id1,cid1,mid1,word1,rt1,pUrvapaxa1,_,_,_,_,_) (* Needs to be deleted after pUrvapaxa morph analysis *)
      | Avy (id1,cid1,mid1,word1,rt1,pUrvapaxa1,_,_) -> 
@@ -1272,7 +1278,33 @@ value rl_handle_compound m1 m2 text_type =
   ]
 ;
 
-
+value rl_compound_T6 m1 m2 text_type = match m2 with
+   [ Kqw (id2,cid2,mid2,_,rt2,_,_,_,_,_,_,pUrvapaxa2,uwwarapaxa2,_,_,_,_)
+   | Sup (id2,cid2,mid2,_,rt2,pUrvapaxa2,uwwarapaxa2,_,_,_,_)
+   | WaxXiwa (id2,cid2,mid2,_,rt2,pUrvapaxa2,uwwarapaxa2,_,_,_,_,_) -> 
+      match m1 with
+      [ Sup (id1,cid1,mid1,word1,rt1,pUrvapaxa1,uwwarapaxa1,_,_,_,_)
+      | Kqw (id1,cid1,mid1,word1,rt1,_,_,_,_,_,_,pUrvapaxa1,uwwarapaxa1,_,_,_,_)
+      | WaxXiwa (id1,cid1,mid1,word1,rt1,pUrvapaxa1,uwwarapaxa1,_,_,_,_,_) -> 
+         if (id1 = id2) && (cid2 = cid1+1) && (pUrvapaxa1="y") && ((uwwarapaxa2="y") || (pUrvapaxa2="y"))
+         then if not ((rt2="sama") || (rt2 = "saxqRa"))
+              then  [ Relation (id1,cid1,mid1,"samAsaH",id2,cid2,mid2,"200.2",0) ]
+              else  []
+         else []
+      |_ -> []
+      ]
+    | Avykqw (id2,cid2,mid2,word2,_,pUrvapaxa2,_,_,_,_,_,_) ->
+         match m1 with
+      [ Sup (id1,cid1,mid1,word1,rt1,pUrvapaxa1,uwwarapaxa1,_,_,_,_) ->
+           if (word1 = "an-" || word1="a-")
+         then [ Relation (id1,cid1,mid1,"samAsaH",id2,cid2,mid2,"200.3",0) ]
+         else []
+      |_ -> []
+      ]
+    |_ -> []
+  ]
+ ;
+ 
 value pUrvapaxa_rules = [ rl_avyayIBAva_kriyAviSeRaNa ]
 ;
 
@@ -1285,7 +1317,7 @@ value pUrvapaxa_rules_3 = [ rl_avyayIBAva_rel ]
 value compound_rules = [ rl_handle_compound(*;  rl_compound_kwa; rl_compound_viBakwi_wa_pu; rl_compound_K; rl_compound_A1; rl_compound_A2; rl_compound_A6; rl_compound_A7; rl_compound_naF*) ]
 ;
 
-value compound_engine morphs text_type =
+value compound_engine morphs text_type compound_analysis =
   loop1 [] morphs 
   where rec loop1 acc1 = fun
   [ [] -> acc1
@@ -1297,8 +1329,13 @@ value compound_engine morphs text_type =
           let relations_m1_m2 = loop3 [] morphs
           where rec loop3 acc3 = fun
           [ [] -> if compound_pUrvapaxa_uwwarapaxa m1 m2  then
-                    List.fold_left collate acc2 compound_rules where
-                    collate rls rule = match rule m1 m2 text_type with
+                   let cpd_rules = 
+                       if compound_analysis = "YES" then
+                         compound_rules
+                       else 
+                         [ rl_compound_T6 ] in
+                    List.fold_left collate acc2 cpd_rules
+                    where collate rls rule = match rule m1 m2 text_type with
                     [ [] -> List2.union rls acc3
                     | r -> List.append r rls
                     ]
@@ -1310,13 +1347,15 @@ value compound_engine morphs text_type =
                     ] *)
                   else acc3
           | [m3 :: r3 ] -> 
-                  if compound_pUrvapaxa_uwwarapaxa_3 m1 m2 m3 then
+		  if compound_analysis = "YES" then
+                   if compound_pUrvapaxa_uwwarapaxa_3 m1 m2 m3 then
                     let relations_m1_m2_m3 = 
                     List.fold_left collate acc3 all_compound_3_rules where
                     collate rls rule = match rule m1 m2 m3 with
                     [ [] -> rls
                     | r -> List2.union r rls
                     ] in loop3 (List2.union relations_m1_m2_m3 acc3) r3
+                   else loop3 acc3 r3
                   else loop3 acc3 r3
                  (* in let _ = print_string ("\nNumber of relations_m1_m2_m3: " ^ (string_of_int (List.length relations_m1_m2_m3))) 
                  in let _ = print_string ("\nNumber of acc3: " ^ (string_of_int (List.length acc3)))  *)

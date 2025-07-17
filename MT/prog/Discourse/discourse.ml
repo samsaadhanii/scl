@@ -375,7 +375,8 @@ value rec mark_relations acc finite_verbs = fun
                                     let (sid_v1, id_v1, cid_v1, word_v1, rt_v1) =  get_verb_pos verb1_pos sid1 finite_verbs in
                                     let (sid_v2, id_v2, cid_v2, word_v2, rt_v2) = get_verb_pos verb2_pos sid1 finite_verbs in
                                     let dist = if sid_v2> sid_v1 then sid_v2-sid_v1 else sid_v1-sid_v2 in
-                                match word1 with
+                                if (sid_v1 = 0 || sid_v2 = 0) then mark_relations acc finite_verbs s
+                                else match word1 with
                                 ["aWa" ->  (*wawaH  is ambiguous and hence not included *)
                                     let acc1 = List2.union acc [Relation (sid_v2,id_v2,cid_v2,"ananwarakAlaH",sid_v1,id_v1,cid_v1,"rule1",dist)] in
 				    let acc2 = List2.union acc1 [Relation (sid1,id1,cid1,"ananwara_xyowakaH",sid_v2,id_v2,cid_v2,"rule2",dist)] in

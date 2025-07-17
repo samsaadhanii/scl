@@ -192,6 +192,7 @@ value guNavacana_list = [
 "karmaTa";
 "karuNA";
 "karuNa";
+"karwq";
 "katu";
 "kaxru";
 "kiFcana";
@@ -220,6 +221,7 @@ value guNavacana_list = [
 "mOnI";
 "mUDa";
 "mUla";
+"malina";
 "maXurA";
 "maXura";
 "mahABAga";
@@ -260,8 +262,8 @@ value guNavacana_list = [
 "nirmiwA";
 "nirmiwa";
 "niruxXa";
-"niwyA";
-"niwya";
+"zniwyA";
+"zniwya";
 "nqSaMsa";
 "pANdara";
 "pANdu";
@@ -320,6 +322,7 @@ value guNavacana_list = [
 "puRta";
 "pufgava";
 "punarAvawina";
+"purANa";
 "purANI";
 "purAwana";
 "rAkRasI";
@@ -330,6 +333,7 @@ value guNavacana_list = [
 "ramaNIyA";
 "ramaNIya";
 "ramya";
+"ramyA";
 "rohiwa";
 "rugNA";
 "rugNa";
@@ -366,7 +370,7 @@ value guNavacana_list = [
 "sanAwana";
 "sanwapwa";
 "sanwarpaNa";
-"sanwuRtaH";
+"sanwuRta";
 "sawwva";
 "sawI";
 "saxqS";
@@ -395,6 +399,7 @@ value guNavacana_list = [
 "svAxu";
 "svIya";
 "svakIya";
+"svakIyA";
 "svasWa";
 "uRNa";
 "ugra";
@@ -488,6 +493,7 @@ value guNavacana_list = [
 "yaSasvinI";
 "yanwrin";
 "yukwa";
+"yuvan";
 "yuyuwsu";
 "zBarawa";
 "zvivAsana";

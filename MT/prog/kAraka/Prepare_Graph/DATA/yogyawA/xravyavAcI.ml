@@ -871,7 +871,7 @@ value xravyavAci_list = [
 "nikaRa";
 "nikata";
 "nirjaras";
-"niwya";
+"zniwya";
 "nixAGa";
 "oRaXISa";
 "ojas";

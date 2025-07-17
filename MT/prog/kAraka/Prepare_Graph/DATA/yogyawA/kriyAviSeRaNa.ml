@@ -30,6 +30,7 @@ value kriyAviSeRaNa_list =
 ("ASu avy");
 ("avaSaH 1");
 ("avaSyam avy");
+("awIva avy"); (* mAM buBUkRA awIva pIdayawi *)
 ("aWazz avy");
 ("awanxriwaH avy");
 ("awyanwA avy");

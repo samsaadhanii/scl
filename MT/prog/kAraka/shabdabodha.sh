@@ -24,6 +24,7 @@
    OUTSCRIPT=$4
    PARSE=$5
    TEXT_TYPE=$6
+   COMPOUND_ANALYSIS=$7
 
 source $1/paths.sh
 
@@ -41,7 +42,7 @@ source $1/paths.sh
    if [ $PARSE != "NO" ] ; then
 	if [ $PARSE != "AVAILABLE" ]; then
              $ANU_MT_PATH/kAraka/uniform_morph_anal.pl $myPATH <  $TMP_FILES_PATH/$3  > $TMP_FILES_PATH/parser_files/morph.txt
-             $ANU_MT_PATH/kAraka/Prepare_Graph/build_graph $TMP_FILES_PATH/parser_files/ $TEXT_TYPE  < $TMP_FILES_PATH/parser_files/morph.txt |\
+             $ANU_MT_PATH/kAraka/Prepare_Graph/build_graph $TMP_FILES_PATH/parser_files/ $TEXT_TYPE   $COMPOUND_ANALYSIS < $TMP_FILES_PATH/parser_files/morph.txt |\
              $ANU_MT_PATH/kAraka/kaaraka_sharing.pl $myPATH $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt > $TMP_FILES_PATH/parser_files/parseop1.txt
         fi
    if [ $PARSE = "AVAILABLE" ]; then

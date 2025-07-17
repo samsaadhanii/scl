@@ -6,6 +6,7 @@ value upAXi_list = [
 "aXipa";
 "aXyApaka";
 "guru";
+"inxriya";
 "mahArAja";
 "maharRi";
 "mahIpawi";
