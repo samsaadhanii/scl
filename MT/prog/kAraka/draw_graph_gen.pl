@@ -33,12 +33,6 @@ $rel_str = "";
 $solnfound = 0;
 $non_cluster = "";
 
-#$index = 0;
-#$wrd_fld_id = 1; # Counting starts from 0
-#$morph_fld_id = 5; # Counting starts from 0
-#$rel_fld_id = 6; # Counting starts from 0
-#$color_code_fld_id = 8; # Counting starts from 0
-
 $index = 0;
 $wrd_fld_id = 1; # Counting starts from 0
 $morph_fld_id = 2; # Counting starts from 0
@@ -194,7 +188,7 @@ my($i,@rel_str,$node,$nodes,@nodes,$node_id,$indx_id,$z,$r,$from,$to);
 # New node numbers are obtained after the compound processing. Hence the old numbers to be replaced by the new numbers before the relations are printed.
       if ($new_index{$from} ne "") { $from = $new_index{$from};}
       if ($new_index{$to} ne "") { $to = $new_index{$to};}
-      $r =~ s/Node$sent[0-9_c]+ \-> Node$sent[0-9_c]+(.*label="[^"]+")/Node$from -> Node$to$1/;
+         $r =~ s/Node$sent[0-9_c]+ \-> Node$sent[0-9_c]+(.*label="[^"]+")/Node$from -> Node$to$1/;
       #print "r = $r\n";
       $rel_str .= "\n".$r;
     }
