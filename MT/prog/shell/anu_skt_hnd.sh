@@ -197,7 +197,7 @@ else
   my_converters
   set_tmp_path
   if [ $PARSE != "AVAILABLE" ] ; then
- 
+
    if [ $MORPH = "UoHyd" ] ; then
       format
       sandhi_splitter
@@ -233,7 +233,7 @@ else
     shaabdabodha
     cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.after_parse
     		#`date >> $temp_files_path/err`;
-  fi    
+  fi
 
   anaphora
   wsd

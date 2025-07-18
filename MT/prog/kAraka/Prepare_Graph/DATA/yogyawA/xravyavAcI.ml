@@ -685,7 +685,7 @@ value xravyavAci_list = [
 "kqSAnurewas";
 "kqpItayoni";
 "kqwAnwa";
-"kqwa";
+"zkqwa";
 "kqwwivAsas";
 "kqwyA";
 "krOFcaxAraNa";
@@ -871,7 +871,7 @@ value xravyavAci_list = [
 "nikaRa";
 "nikata";
 "nirjaras";
-"zniwya";
+"zniwya"; (* niwya cannot be xravya *)
 "nixAGa";
 "oRaXISa";
 "ojas";

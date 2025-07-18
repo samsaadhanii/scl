@@ -263,7 +263,7 @@ value guNavacana_list = [
 "nirmiwa";
 "niruxXa";
 "zniwyA";
-"zniwya";
+"zniwya"; (* niwya cannot be a guNavacana *)
 "nqSaMsa";
 "pANdara";
 "pANdu";

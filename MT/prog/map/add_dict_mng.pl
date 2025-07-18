@@ -181,6 +181,7 @@ while($tmpin = <STDIN>){
        $ans =  "$map_rt n $hn_lifga $hn_vacana $default_puruRa $infl_map_waxXiwa";
       } elsif($cat eq "n") {
 
+        #print "in = $in\n";
         ($rt,$lifga,$viBakwi,$vacana,$rel) = split(/:/, &get_noun_features($in));
 	#print "rt = $rt\n";
 	#print "rel = $rel\n";
@@ -194,6 +195,7 @@ while($tmpin = <STDIN>){
        } else {
            $key = $rt."_".$lifga;
            $map_rt = &get_dict_mng($key, $rNOUN);
+           #print "map_rt = $map_rt\n";
        }
 
        $map_viBakwi = &get_dict_mng($viBakwi, $rTAM);
@@ -203,7 +205,6 @@ while($tmpin = <STDIN>){
        $hn_vacana = &get_hn_vacana($vacana);
        $ans = "$map_rt $cat $hn_lifga $hn_vacana $default_puruRa $map_viBakwi";
 
-       #print "ans = $ans\n";
       } elsif($cat eq "kqw_avy") {
        # ($rt,$kqw,$XAwu,$gaNa,$rel) = (split/:/, &get_kqw_avy_features($in));
         ($rt,$kqw,$gaNa,$rel) = (split/:/, &get_kqw_avy_features($in));
@@ -627,9 +628,9 @@ my $ans = $rt;
 		  #$rt =~ s/X_//; # In case of upasargas
 #This has been added to take care of Names that are not to be translated.
           $ans = $rt;
-	  $ans =~ s/_puM//; 
-	  $ans =~ s/_napuM//; 
-	  $ans =~ s/_swrI//; 
+	  $ans =~ s/_puM/:puM/; 
+	  $ans =~ s/_napuM/:napuM/; 
+	  $ans =~ s/_swrI/:swrI/; 
        }
 $ans;
 }

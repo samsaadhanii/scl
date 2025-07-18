@@ -110,7 +110,7 @@ xvanxva_samples = [
     "inxriya-arWa", # 13_007-011
     "janma-mqwyu-jarA-vyAXi-xuHKa-xoRa", # 13_007-011
     "puwra-xAra-gqha", # 13_007-011
-    "iRta-aniRTa-upapawwi", # 13_007-011
+    "iRta-aniRta", # 13_007-011
     "jFAna-arWa", # 13_007-011
     "bAhu-uxara-vakwra-newra", # 11_016
     "xamBa-ahafkAra", # 17_005

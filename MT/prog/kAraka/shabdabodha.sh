@@ -42,10 +42,10 @@ source $1/paths.sh
    if [ $PARSE != "NO" ] ; then
 	if [ $PARSE != "AVAILABLE" ]; then
              $ANU_MT_PATH/kAraka/uniform_morph_anal.pl $myPATH <  $TMP_FILES_PATH/$3  > $TMP_FILES_PATH/parser_files/morph.txt
-             $ANU_MT_PATH/kAraka/Prepare_Graph/build_graph $TMP_FILES_PATH/parser_files/ $TEXT_TYPE   $COMPOUND_ANALYSIS < $TMP_FILES_PATH/parser_files/morph.txt |\
+             $ANU_MT_PATH/kAraka/Prepare_Graph/build_graph $TMP_FILES_PATH/parser_files/ $TEXT_TYPE $COMPOUND_ANALYSIS < $TMP_FILES_PATH/parser_files/morph.txt |\
              $ANU_MT_PATH/kAraka/kaaraka_sharing.pl $myPATH $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt > $TMP_FILES_PATH/parser_files/parseop1.txt
         fi
-   if [ $PARSE = "AVAILABLE" ]; then
+	if [ $PARSE = "AVAILABLE" ]; then
 	     cp $TMP_FILES_PATH/parser_files/parseop_new.txt $TMP_FILES_PATH/parser_files/parseop1.txt 
         fi
              $ANU_MT_PATH/kAraka/add_best_parse_output.pl $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt $TMP_FILES_PATH/parser_files/parseop1.txt < $TMP_FILES_PATH/$3 |\

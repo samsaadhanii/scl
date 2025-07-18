@@ -76,6 +76,7 @@ for line in in_lines:
         final_cpd_lst = []
         
         new_compound = []
+        new_compound_iic_form = []
         for i in range(len(compound_components)):
             if cpd_markers[i] == 0: # Indicates not a part of xvanxva compound
                 cur_cmpnt_id += 1
@@ -84,18 +85,19 @@ for line in in_lines:
                 compound_lines.append("\t".join((new_cmpnt_id, "\t".join(cpd_details[i].split("\t")[1:]))))
             elif cpd_markers[i] == 1: # iic of a xvanxva compound
                 # new_compound.append(compound_components[i])
-                new_compound.append(compound_components_iic_form[i])
+                new_compound.append(compound_components[i])
+                new_compound_iic_form.append(compound_components_iic_form[i])
             elif cpd_markers[i] == 2: # ifc of a xvanxva compound
                 new_xvanxva_cpd = new_compound + [ compound_components[i] ]
-                new_xvanxva_cpd_iic_form = new_compound + [ compound_components_iic_form[i] ]
+                new_xvanxva_cpd_iic_form = new_compound_iic_form + [ compound_components_iic_form[i] ]
                 
                 # For including the inflected word for the final component of the overall compound
                 if i == len(compound_components) - 1:
-                    new_compound.append(word.replace("-", ""))
+                    new_compound_iic_form.append(word.replace("-", ""))
                 else:
-                    new_compound.append(compound_components_iic_form[i])
+                    new_compound_iic_form.append(compound_components_iic_form[i])
                 
-                new_cpd_str = "_".join(new_compound)
+                new_cpd_str = "_".join(new_compound_iic_form)
                 final_cpd_lst.append(new_cpd_str)
                 
                 # All the entries in the morph analysis corresponding to the prAwipaxika
@@ -107,8 +109,8 @@ for line in in_lines:
                 last_prAwipaxika_iic_form = compound_components_iic_form[i]
                 new_xvanxva_cpd_str = "_".join(new_xvanxva_cpd)
                 new_xvanxva_cpd_str_iic_form = "_".join(new_xvanxva_cpd_iic_form)
-                last_cmpnt_details = cpd_details[i].replace(last_prAwipaxika,new_xvanxva_cpd_str).split("\t")
-                last_cmpnt_details = cpd_details[i].replace(last_prAwipaxika_iic_form,new_xvanxva_cpd_str_iic_form).split("\t")
+                last_cmpnt_details_str = cpd_details[i].replace(last_prAwipaxika,new_xvanxva_cpd_str)
+                last_cmpnt_details = last_cmpnt_details_str.replace(last_prAwipaxika_iic_form,new_xvanxva_cpd_str_iic_form).split("\t")
                 
                 # To check for possible stem differences in the morph analysis
                 # and replace with new compound prAwipaxika
@@ -131,6 +133,7 @@ for line in in_lines:
                 compound_lines.append("\t".join((new_cmpnt_id, new_cpd_str, "\t".join(last_cmpnt_details[2:]))))
                 
                 new_compound = []
+                new_compound_iic_form = []
         
         first_items = compound_lines[0].split("\t")
         
