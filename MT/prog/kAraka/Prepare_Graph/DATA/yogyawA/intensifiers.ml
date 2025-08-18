@@ -9,9 +9,9 @@ value intensifiers_list = [
 "kevala";
 "kevalA";
 "mahaw";
-"uwwama";
-"uwwamA";
-"SreRTa";
-"SreRTA";
+"zuwwama";
+"zuwwamA";
+"zSreRTa";	(*SreRTaH Acarawi *)
+"zSreRTA";
 ]
 ;

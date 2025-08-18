@@ -23,6 +23,7 @@ value karaNa_XAwu_list = [
 "apa_kq3";
 "arc1";
 "aS1";
+"ax2";
 "ava_gam1";
 "ava_i1";
 "aXi_gam1";

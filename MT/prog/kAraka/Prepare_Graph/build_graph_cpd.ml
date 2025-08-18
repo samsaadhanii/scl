@@ -716,6 +716,8 @@ value rl_compound_naF m1 m2 text_type = match m1 with
       match m2 with
       [ Sup (id2,cid2,mid2,_,_,_,uwwarapaxa2,_,_,_,_)
       | Kqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,uwwarapaxa2,_,_,_,_)
+      | Avy (id2,cid2,mid2,_,_,_,uwwarapaxa2,_)
+      | Avykqw (id2,cid2,mid2,_,_,_,uwwarapaxa2,_,_,_,_,_)
       | WaxXiwa (id2,cid2,mid2,_,_,_,uwwarapaxa2,_,_,_,_,_) -> 
         if uwwarapaxa2 = "y" && (id1 = id2) then
           (* 2-2-06 *)
@@ -1171,15 +1173,17 @@ value remove_leading_hyphen s =
 value rl_compound_kwa_3 m1 m2 m3 = 
 (*  let _ = print_string "\n\nrl_compound_kwa_3" in*)
   match m1 with
-  [ Kqw (id1,cid1,mid1,word1,_,_,_,_,_,_,rt1,pUrvapaxa1,uwwarapaxa1,_,_,_,_) -> 
+  [ Kqw (id1,cid1,mid1,word1,_,_,_,_,_,_,rt1,_,_,_,_,_,_) -> 
 (*    let _ = print_string ("\nm1 matched " ^ word1 ^ "; " ^ (string_of_int id1) ^ "; " ^ (string_of_int id1) ^ "; " ^ (string_of_int cid1) ^ "; " ^ (string_of_int mid1)) in *)
     match m3 with 
-    [ Kqw (id3,cid3,mid3,word3,_,_,_,_,_,_,rt3,pUrvapaxa3,uwwarapaxa3,_,_,_,_) -> 
+    [ Kqw (id3,cid3,mid3,word3,_,_,_,_,_,_,rt3,_,_,_,_,_,_)
+    | Avy (id3,cid3,mid3,word3,rt3,_,_,_) ->
 (*      let _ = print_string ("\nm3 matched " ^ word3 ^ "; " ^ (string_of_int id3) ^ "; " ^ (string_of_int id3) ^ "; " ^ (string_of_int cid3) ^ "; " ^ (string_of_int mid3)) in *)
       match m2 with 
-      [ Sup (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_,_,_,_)
-      | Kqw (id2,cid2,mid2,word2,_,_,_,_,_,_,rt2,pUrvapaxa2,uwwarapaxa2,_,_,_,_)
-      | WaxXiwa (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_,_,_,_,_) -> 
+      [ Sup (id2,cid2,mid2,word2,rt2,_,_,_,_,_,_)
+      | Kqw (id2,cid2,mid2,word2,_,_,_,_,_,_,rt2,_,_,_,_,_,_)
+      | Avy (id2,cid2,mid2,word2,rt2,_,_,_)
+      | WaxXiwa (id2,cid2,mid2,word2,rt2,_,_,_,_,_,_,_) -> 
 (*        let _ = print_string ("\nm2 matched " ^ word2 ^ "; " ^ (string_of_int id2) ^ "; " ^ (string_of_int id2) ^ "; " ^ (string_of_int cid2) ^ "; " ^ (string_of_int mid2)) in *)
         if (id1 = id2) && (id1 = id3) && (cid1 < cid2) && (cid2 < cid3) then 
           let stripped_rt2 = remove_leading_hyphen rt2 in 
@@ -1212,9 +1216,10 @@ value rl_compound_others_3 m1 m2 m3 =
     | WaxXiwa (id3,cid3,mid3,word3,rt3,pUrvapaxa3,uwwarapaxa3,_,_,_,_,_) -> 
 (*      let _ = print_string ("\nm3 matched " ^ word3 ^ "; " ^ (string_of_int id3) ^ "; " ^ (string_of_int id3) ^ "; " ^ (string_of_int cid3) ^ "; " ^ (string_of_int mid3)) in *)
       match m2 with 
-      [ Sup (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_,_,_,_)
-      | Kqw (id2,cid2,mid2,word2,_,_,_,_,_,_,rt2,pUrvapaxa2,uwwarapaxa2,_,_,_,_)
-      | WaxXiwa (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_,_,_,_,_) -> 
+      [ Sup (id2,cid2,mid2,word2,rt2,_,_,_,_,_,_)
+      | Kqw (id2,cid2,mid2,word2,_,_,_,_,_,_,rt2,_,_,_,_,_,_)
+      | Avy (id2,cid2,mid2,word2,rt2,_,_,_)
+      | WaxXiwa (id2,cid2,mid2,word2,rt2,_,_,_,_,_,_,_) -> 
         if (id1 = id2) && (id1 = id3) && (cid1 < cid2) && (cid2 < cid3) then 
           (* let _ = print_string ("\nm2 matched " ^ word2 ^ "; " ^ (string_of_int id2) ^ "; " ^ (string_of_int cid2) ^ "; " ^ (string_of_int mid2)) in *)
           let stripped_rt2 = remove_leading_hyphen rt2 in 
@@ -1258,8 +1263,7 @@ value rl_handle_compound m1 m2 text_type =
     | Avy (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_)
     | Wif (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_,_,_,_,_,_,_,_,_) 
     | Avykqw (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_,_,_,_,_)
-    | AvywaxXiwa (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_,_) 
-      -> 
+    | AvywaxXiwa (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_,_)  ->
           if (cid2 - cid1 < 4) then
             if pUrvapaxa1 = "n" then []
             else if (word2 = "-a-") || (word2 = "-an-") 
@@ -1280,7 +1284,7 @@ value rl_handle_compound m1 m2 text_type =
                  rl_wa_pu_6 m1 m2
                else relations
              else rel
-	       else []
+	       else [] 
      ]
   ]
 ;

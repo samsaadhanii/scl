@@ -283,7 +283,8 @@ value no_direct_cycle m1 m2=match m1 with
     [ Relationc (to_id1,to_cid1,to_mid1,r1,from_id1,from_cid1,from_mid1,dist1) -> match m2 with
       [Relationc (to_id2,to_cid2,to_mid2,r2,from_id2,from_cid2,from_mid2,dist2) -> 
 
-         if (to_id1=from_id2) && (to_mid1=from_mid2) && (from_id1=to_id2) && (from_mid1=to_mid2) && (to_cid1=from_cid2) && (to_cid2=from_cid2)
+         (* if (to_id1=from_id2) && (to_mid1=from_mid2) && (from_id1=to_id2) && (from_mid1=to_mid2) && (to_cid1=from_cid2) && (to_cid2=from_cid2) *)
+          if (to_id1=from_id2) && (to_mid1=from_mid2) && (from_id1=to_id2) && (from_mid1=to_mid2)  (* component ids are ignored, since one can have a relation from outside word to 1st component of a compound, and then from the last component of a compound to the same outside word *)
          then False
          else True
       ]
@@ -338,6 +339,8 @@ value single_morph_per_word m1 m2=match m1 with
          else if (to_id1=from_id2) && (to_cid1=from_cid2) && not (to_mid1=from_mid2) then  False (*  do { print_int to_id1; print_int from_id2;print_int to_cid1; print_int from_cid2;print_string "C2\n"; False} *)
          else if (from_id1=from_id2) && (from_cid1=from_cid2) && not (from_mid1=from_mid2) then  False  (* do { print_int from_id1; print_int from_id2; print_int from_cid1; print_int from_cid2; print_string "C3\n"; False} *)
          else if (from_id1=to_id2) && (from_cid1=to_cid2) && not (from_mid1=to_mid2) then  False  (* do { print_int from_id1; print_int to_id2; print_int from_cid1; print_int to_cid2; print_string "C4\n"; False} *)
+         else if (from_id1=to_id2) && (from_cid1=to_cid2) && (from_mid1=to_mid2) && (to_id1=from_id2) && not (to_cid1=from_cid2) then False  
+         else if (from_id2=to_id1) && (from_cid2=to_cid1) && (from_mid2=to_mid1) && (to_id2=from_id1) && not (to_cid2=from_cid1) then False
          else True 
       ]
     ]
@@ -374,7 +377,7 @@ value single_relation_label m1 m2= match m1 with
     ]
 ;
 
-value no_crossing_compound text_type rel m1 m2=match m1 with
+value no_crossing_compound text_type m1 m2=match m1 with
     [ Relationc (to_id1,to_cid1,to_mid1,r1,from_id1,from_cid1,from_mid1,dist1) -> match m2 with
       [Relationc (to_id2,to_cid2,to_mid2,r2,from_id2,from_cid2,from_mid2,dist2) -> 
            if  (     to_id1 = from_id1
@@ -388,7 +391,7 @@ value no_crossing_compound text_type rel m1 m2=match m1 with
     ]
 ;
 
-value no_crossing text_type rel m1 m2=match m1 with
+value no_crossing text_type m1 m2=match m1 with
     [ Relationc (to_id1,to_cid1,to_mid1,r1,from_id1,from_cid1,from_mid1,dist1) -> match m2 with
       [Relationc (to_id2,to_cid2,to_mid2,r2,from_id2,from_cid2,from_mid2,dist2) -> 
            (* Crossing edges not allowed except niwya_sambanXaH (=101,102) and samucciwa (=32), ananwarakAlaH (=30), upamAna (=79) upamAnaxyowakaH (=80) in some cases*)
@@ -406,7 +409,7 @@ value no_crossing text_type rel m1 m2=match m1 with
             बिभेद च पुनः सालान् सप्त एकेन महा-इषुणा गिरिं रसातलं च एव जनयन् प्रत्ययं तदा
           where karaNa and sup_samucciwaH cross *)
              && not (r1=101 || r1=102 || r1=25 || r1=49 || r1=28 || r1=30 || r1=33 || r1=79)
-             && not (r2=101 || r2=102 || r2=25 || r2=49 || r2=30 || r2=33 || r2=79)
+             && not (r2=101 || r2=102 || r2=25 || r2=49 || r2=28 || r2=30 || r2=33 || r2=79)
              && (((not ((r1=36) || (r1=37) || (r1=38) || (r1=9) || (r1=53) ||
                      (r2=36) || (r2=37) || (r2=38) || (r2=9) || (r2=53)))
                     && text_type="Sloka")
@@ -720,12 +723,12 @@ value rec print_acc_len_cost=fun
                    
 ]
 ;
-value chk_compatible text_type rel m1 m2= (*do { print_string "==>";*)
+value chk_compatible text_type m1 m2= (*do { print_string "==>";*)
      if distinct m1 m2 then
          single_morph_per_word m1 m2 (*then do { print_string "sm;";*)
           && single_relation_label m1 m2 (*then do { print_string "srl;";*)
-          && no_crossing text_type rel m1 m2  (*then do { print_string "nc;";*)
-          && no_crossing_compound text_type rel m1 m2  (*then do { print_string "nc;";*)
+          && no_crossing text_type m1 m2  (*then do { print_string "nc;";*)
+          && no_crossing_compound text_type m1 m2  (*then do { print_string "nc;";*)
           && relation_mutual_ayogyataa text_type m1 m2  (*then  do { print_string "my;"; True}*)
           && no_direct_cycle m1 m2  (*then  do { print_string "oc;"; True}*)
                 (*else do {print_string "MY;"; False}}*)
@@ -801,12 +804,12 @@ value lwg_and_collapse_all_solns text_type rel solns =
         where rec loop acc rel=fun
         [ [] -> acc
         | [ (len,cost,l)  :: rest ] -> let l1=lwg_and_collapse rel l in do {
-                         let len1 = List.length l1 in 
-                         let triplet=(len1, cost, l1) in
-                         (*let new_acc= if (List.filter (fun (a,b,c) -> if c=l1 then True else False) acc = []) then List.append [triplet] acc *)
-                         let new_acc= if (List.filter (fun (a,b,c) -> c=l1) acc = []) then List.append [triplet]  acc
-                         else acc in
-                         loop new_acc rel rest
+                            let len1 = List.length l1 in 
+                            let triplet=(len1, cost, l1) in
+                            (*let new_acc= if (List.filter (fun (a,b,c) -> if c=l1 then True else False) acc = []) then List.append [triplet] acc *)
+                            let new_acc= if (List.filter (fun (a,b,c) -> c=l1) acc = []) then List.append [triplet]  acc
+                            else acc in
+                            loop new_acc rel rest
 		         }
         ]
 ;
@@ -915,7 +918,7 @@ value populate_compatible_lists text_type rel total_wrds=
            let l=get_wrd_ids relj in
            compatible_words.(j+1) := List.append l compatible_words.(j+1)
           				(* a word is compatible with self *)
-          ;if (chk_compatible text_type rel reli relj)
+          ;if (chk_compatible text_type reli relj)
           then  do {
            			(*	 print_int j
            				;print_string " "
@@ -1339,42 +1342,7 @@ value rec build_list rels acc dag =
     ]
 ;
 
-(*
-value rec chk_cycles key_list v v1 v2 acc =
-    (*do { (*List.iter print_sint key_list;*)
-        print_int v; print_string ";";
-        print_int v1; print_string ";";
-        print_int v2; print_string "\n"; *)
-     let acc1=List.filter (fun (k,k1,k2,v,v1,v2) -> if k=v  && k1 = v1  && k2 = v2 then True else False) acc in
-     if not (acc1=[])  then False else loop acc
-     where rec loop=fun
-     [[] -> do { print_string "chk cycle = False\n"; False  }
-     | [(k,k1,k2,v,v1,v2)::r] ->  (*do {
-		       print_int k; print_string " "; print_int k1; print_string " "; print_int k2; print_string "##";
-		       print_int v; print_string " "; print_int v1; print_string " "; print_int k2; print_string "\n"; *)
-                    let key_list1= [(k,k1,k2,v,v1,v2) :: key_list] in
-                       if List.mem (k,k1,k2,v,v1,v2) key_list then True
-                       else if List.mem (v,v1,v2,k,k1,k2) key_list then True
-                       else if chk_cycles key_list1 v v1 v2 acc then True
-		       else loop r 
-		       }
-     ]
-  }
-;
-
-value no_cycles relations relsindag=do
-    { List.iter print_sint relsindag; print_string "\n"; 
-      let acc=build_list relations [] relsindag in loop acc
-      where rec loop=fun
-      [ [] -> (*do { print_string "no cycle "; *) True (*}*)
-      |[(k,k1,k2,v,v1,v2)::r] -> let key_list=[(k,k1,k2,v,v1,v2)] in
-                         if not (chk_cycles key_list v v1 v2 acc) then loop r else do { print_string "found cycle\n"; False}
-      ]
- } 
-;
-*)
-
-value no_cycles relations relsindag= (* do
+value no_self_loop relations relsindag= (* do
     { List.iter print_sint relsindag; print_string "\n"; *)
       let acc=build_list relations [] relsindag in loop acc
       where rec loop=fun
@@ -1430,7 +1398,7 @@ value rec chk_global_comp text_type rel acc = fun
                     if samucciwa_anyawara_constraint rel a (*then do { print_string "SA";*)
                     && global_compatible text_type rel a (*then do { print_string "GC";*)
                     && seq_expectancy rel a (*then do { print_string "SE";*)
-                    && no_cycles rel a (*then do {print_string "NC";*)
+                    && no_self_loop rel a (*then do {print_string "NC";*)
                     then  (*  List.iter print_sint a; print_string " AFTER\n"; *)
                          let acc1= List.append [(l,c,a)] acc in
                          chk_global_comp text_type rel acc1 tl  (*}*)
@@ -1602,6 +1570,69 @@ value rec wrd_boundaries acc rel_indx wrd_indx comp_indx = fun
 ;
 *)
 
+value rec print_acc_len_cost=fun
+[[] -> ()
+|[(l,c,a,b)::xs] -> do { 
+                     print_sint l;
+                     print_sint c;
+                     List.iter print_sint a; print_string " => ";
+                     List.iter print_sint b; print_string "\n";
+                     print_acc_len_cost xs
+                   }
+                   
+]
+;
+
+value no_cycle relations rels =
+   loop [] (-1,-1,-1) relations rels
+   where rec loop acc t relations = fun
+   [ [] -> True
+   | [ r1 :: xs] -> let r=List.nth relations (r1-1) in
+                   match r with
+                   [Relationc (a,b1,b,c,d,e1,e,f) -> 
+ 		     do {
+			 print_int a; print_string " ";
+			 print_int b1; print_string " ";
+			 print_int b; print_string " ";
+			 print_int c; print_string " ";
+			 print_int d; print_string " ";
+			 print_int e1; print_string " ";
+			 print_int e; print_string "\n";
+                     match t with
+                     [ (-1,-1,-1) -> let  acc1 = List.append [(a,b1,b)] acc in
+                                     let  acc2 = List.append [(d,e1,e)] acc1 in
+                                     let  t = (a,b1,b) in loop acc2 t relations xs
+                     | (x,y,z) -> do { 
+					  print_int x; print_string " ";
+                                          print_int y; print_string " ";
+                                          print_int z; print_string "\n";
+                                  if x=a && y=b1 && z=c
+                                  then if List.mem (a,b1,b) acc then False 
+                                       else do { 
+					  print_int a; print_string " ";
+                                          print_int b1; print_string " ";
+                                          print_int b; print_string "\n";
+                                          let acc1 = List.append [(d,e1,e)] acc 
+				          and t = (a,b1,b) in 
+                                          loop acc1 t relations rels
+					  }
+				  else loop acc t relations xs
+			          }
+                     ]
+		     }
+                   ]
+   ]
+;
+
+value rec remove_cycle acc relations=fun
+[ [] -> acc
+| [(l,c,a,b)::xs] -> let acc1 = if (no_cycle relations a) 
+                                    then List.append acc [(l,c,a,b)] 
+                                    else acc in remove_cycle acc1 relations xs
+]
+;
+
+
 value solver rel_lst max_soln text_type =
   let total_wrds=( wrd_count [] rel_lst)  in do 
   { 				(*get_rel_wrds rel_lst;*)
@@ -1621,12 +1652,14 @@ value solver rel_lst max_soln text_type =
          				 print_string "final=";
       				  	   print_int final; *)
       let soln=construct_dags 0 final wrdb [] text_type max_soln rel_lst in 
-						 (*do { 
+						 (* do { 
                                                    print_string "final = "; print_int final;
 
      						 print_string "DAGS=" ;
-     						print_acc_len_cost soln ;  *)
-            let l = get_first max_soln (final-4) []  (List.sort comparecostlength1 soln) in
+     						print_acc_len_cost soln; *)
+	    let no_cycle_solns = remove_cycle [] rel_lst soln in
+     	    (*do { print_string "NO CYCLE SOLNS"; print_acc_len_cost soln; *)
+            let l = get_first max_soln (final-4) []  (List.sort comparecostlength1 no_cycle_solns) in
               (*soln in *) (*do { 
                                                 print_string "DAGS=" ;
                                                 print_acc_len_cost l ; *)

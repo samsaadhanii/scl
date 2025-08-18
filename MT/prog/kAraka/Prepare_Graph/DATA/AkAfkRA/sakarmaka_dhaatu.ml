@@ -395,6 +395,8 @@ value sakarmaka_XAwu_list = [
 "aBi_gam1";
 "aBi_han1";
 "aBi_jFA1";
+"aBi_jFA2";
+"aBi_kAkR1";
 "aBi_kruX1";
 "aBi_nax1";
 "aBi_ni_viS1";

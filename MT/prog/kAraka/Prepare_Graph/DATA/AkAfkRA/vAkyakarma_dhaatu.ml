@@ -4,6 +4,7 @@ value vAkyakarma_XAwu_list = [
 "Sru1";
 "aBi_XI1";
 "aBi_jFA1";
+"aBi_jFA2";
 "anu_Sru1";
 "ava_Xq1";
 "brU1";

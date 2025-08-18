@@ -479,6 +479,7 @@ value guNavacana_list = [
 "xqDa";
 "xuHKa";
 "xuHKiwa";
+"xurawyayA";
 "xuRkara";
 "xuRta";
 "xurAsaxa";

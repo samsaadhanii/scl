@@ -3,8 +3,12 @@ value jAwivAcaka_list = [
 "rAkRasa";
 "manuRya";
 "guNa";
+"nagara";
+"nagarI";
+"bAla";
+"bAlaka";
+"bAlikA";
 "xeva";
 "BUpawi";
-"bAla";
 ]
 ;
