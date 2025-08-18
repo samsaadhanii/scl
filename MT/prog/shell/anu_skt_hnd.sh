@@ -230,10 +230,12 @@ else
    fi
    cp $temp_files_path/$fbn.out.after_xvanxva $temp_files_path/$fbn.out
 
+  else 
+    cp $temp_files_path/$fbn.out.after_xvanxva $temp_files_path/$fbn.out
+  fi
     shaabdabodha
     cp $temp_files_path/$fbn.out $temp_files_path/$fbn.out.after_parse
     		#`date >> $temp_files_path/err`;
-  fi
 
   anaphora
   wsd
