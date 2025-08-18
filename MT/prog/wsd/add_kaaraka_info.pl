@@ -21,7 +21,8 @@
 while($in = <STDIN>){
  chomp($in);
  if($in) {
-    ($id,$word,$ana,$kaaraka) = split(/\t/,$in);
+  ($id,$word,$ana,$kaaraka) = split(/\t/,$in);
+  if ($id ne "") {
 
     ($wid,$cid) = split(/\./,$id);
     print "<id:$wid>";
@@ -50,6 +51,7 @@ while($in = <STDIN>){
        }
        print $kaaraka;
     }else { print "<rel_nm:><relata_pos:>";}
+   }
  }
  print "\n";
 }
