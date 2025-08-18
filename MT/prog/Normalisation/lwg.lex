@@ -6,7 +6,13 @@
 ^aWa[ ]ki[mM]	{printf("aWakim");}
 [ ]aWa[ ]ki[mM]	{printf(" aWakim");}
 ^aWa[ ]vA	{printf("aWavA");}
-[ ]^aWa[ ]vA	{printf(" aWavA");}
+[ ]aWa[ ]vA	{printf(" aWavA");}
+^aWa[ ]ca	{printf("aWaca");}
+[ ]aWa[ ]ca	{printf(" aWaca");}
+^aWa[ ]api	{printf("aWApi");}
+[ ]aWa[ ]api	{printf(" aWApi");}
+^api[ ]vA	{printf("apivA");}
+[ ]api[ ]vA	{printf(" apivA");}
 ^Aho[ ]sviw	{printf("Ahosviw");}
 [ ]Aho[ ]sviw	{printf(" Ahosviw");}
 ^iwaH[ ]para[mM]	{printf("iwaHparam");}
@@ -35,8 +41,10 @@
 [ ]ki[mM][ ]vA	{printf(" kiMvA");}
 ^ki[mM][ ]uwa	{printf("kimuwa");}
 [ ]ki[mM][ ]uwa	{printf(" kimuwa");}
-^ki[mM][ ]u	{printf("kimu");}
-[ ]ki[mM][ ]u	{printf(" kimu");}
+^ki[mM][ ]u[ ]	{printf("kimu ");}
+[ ]ki[mM][ ]u[ ]	{printf(" kimu ");}
+^ki[mM][ ]wu	{printf("kinwu");}
+[ ]ki[mM][ ]wu	{printf(" kinwu");}
 ^ki[mM][ ]afga	{printf("kimafga");}
 [ ]ki[mM][ ]afga	{printf(" kimafga");}
 ^kim[ ]punar	{printf("kimpunar");}
@@ -53,6 +61,10 @@
 [ ]no[ ]cew	{printf(" nocew");}
 ^prawi[ ]uwa	{printf("prawuwa");}
 [ ]prawi[ ]uwa	{printf(" prawuwa");}
+^para[mM][ ]wu	{printf("paraMwu");}
+[ ]para[mM][ ]wu	{printf(" paraMwu");}
+^sviw[ ]vA	{printf("sviwvA");}
+[ ]sviw[ ]vA	{printf(" sviwvA");}
 ^yaw[ ]sawyam	{printf("yawsawyam");}
 [ ]yaw[ ]sawyam	{printf(" yawsawyam");}
 ^yaWA[ ]yaWam	{printf("yaWAyaWam");}

@@ -47,17 +47,17 @@ while($in = <STDIN>){
        if ($compound_word[$j] ne "") 
          { $compound_word[$j] .= "-".$pratipadikam;}
        else { $compound_word[$j] = $pratipadikam;}
-       if ($COMPOUND{$compound_word[$j]} == 1) {
-	 for(my $k=1;$k<$j;$k++){
+       if ($COMPOUND{$compound_word[$j]} == 1) {	# Words starting from jth component is a compound.
+	 for(my $k=1;$k<$j;$k++){	# print previous j-1 components
              print $in[$k];
          }
-         my $ans = &join_purvapadas($hold[$j],$j,$sandhied_word);
+         my $ans = &join_purvapadas($hold[$j],$j,$sandhied_word);	# Join the entries from jth component
          print $ans,"\n";
          $not_found = 0;
        }
     }
   } else { 
-     if ($not_found) { print $hold[1]; $not_found = 0; }
+     if ($not_found) { print $hold[1]; $not_found = 0; $hold[1] = "";}
      print $in;
   }
 }
