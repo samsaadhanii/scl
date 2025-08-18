@@ -72,6 +72,9 @@ sub get_cat{
           if($wrd_ana =~ /<waxXiwa_prawyayaH.*waxXiwa_rt/) {
               $cat="waxXiwa";
               $sent = "(waxXiwa ";
+          } elsif($wrd_ana =~ /<vargaH:avy><waxXiwa_prawyayaH:/) {
+              $cat="avywaxXiwa";
+              $sent = "(avywaxXiwa ";
           } elsif($wrd_ana =~ /<waxXiwa_prawyayaH.*/) {
               $cat="waxXiwa";
               $sent = "(waxXiwa ";
@@ -87,9 +90,6 @@ sub get_cat{
           } elsif($wrd_ana =~ /<vargaH:sapUpa/) {
               $cat="sup";
               $sent = "(sup ";
-          } elsif($wrd_ana =~ /<vargaH:avy><waxXiwa_prawyayaH:/) {
-              $cat="avywaxXiwa";
-              $sent = "(avywaxXiwa ";
           } elsif($wrd_ana =~ /<vargaH:avy/) {
               $cat="avy";
               $sent = "(avy ";

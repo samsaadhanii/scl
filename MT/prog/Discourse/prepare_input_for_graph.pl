@@ -33,23 +33,30 @@ while($in = <STDIN>){
  if ($DISCOURSE{$key} eq "") {
       if($rel ne "") {
          $rels = $rel.","."\@S".$sid.".".$relata_pos_id.".".$relata_pos_cid;
+      #} else {
+      #   $rels = "\@S".$sid.".".$relata_pos_id.".".$relata_pos_cid;
       }
 #	print "444 $rels\n";
  }  else {
-     if (($rel !~ /sambanXaH/) && ($rel !~ /_xyowakaH/) && ($rel ne "X")) {
-          $rels = $rel.","."\@S".$sid.".".$relata_pos_id.".".$relata_pos_cid;
+     if (($rel !~ /sambanXaH/) && ($rel !~ /_xyowakaH/) && ($rel ne "X") && ($rel ne "") && ($rel !~ /aBihiwa_/)) {
+          if ($rels ne "") {$rels .= $rel.","."\@S".$sid.".".$relata_pos_id.".".$relata_pos_cid; $rels .= ";".$DISCOURSE{$key};} 
+          else { $rels = $rel.","."\@S".$sid.".".$relata_pos_id.".".$relata_pos_cid; $rels .= ";".$DISCOURSE{$key};}
 #	  print "111 $rels\n";
      }
 
-     if (($rel =~ /sambanXaH/) || ($rel =~ /_xyowakaH/)) {
+     if (($rel =~ /sambanXaH/) || ($rel =~ /_xyowakaH/) || ($rel =~ /aBihiwa_/)) {
            if ($rels ne "") { $rels .= ";".$DISCOURSE{$key};} else {$rels = $DISCOURSE{$key};}
 #	  print "222 $rels\n";
      }
+     if ($rel eq "") {
+           if ($rels ne "") { $rels .= ";".$DISCOURSE{$key};} else {$rels = $DISCOURSE{$key};}
+#	  print "555 $rels\n";
+     }
 
-     if (($DISCOURSE{$key} !~ /,\@S$sid.$relata_pos_id.$relata_pos_cid/)) {
-          if ($rels ne "") { $rels .= ";".$DISCOURSE{$key};} else {$rels = $DISCOURSE{$key};}
+#     if (($DISCOURSE{$key} !~ /,\@S$sid.$relata_pos_id.$relata_pos_cid/)) {
+#          if ($rels ne "") { $rels .= ";".$DISCOURSE{$key};} else {$rels = $DISCOURSE{$key};}
 #	  print "333 $rels\n";
-     } 
+#     } 
  }
 
  $code = &get_color_code($in);
@@ -69,6 +76,7 @@ sub get_color_code {
  my($code) = "";
  if ($in =~ /^\(sup.*viBakwiH ([1-8])/) { $code = "\@N$1";}
  if ($in =~ /^\(kqw.*viBakwiH ([1-8])/) { $code = "\@N$1";}
+ if ($in =~ /^\(waxXiwa.*viBakwiH ([1-8])/) { $code = "\@N$1";}
  if ($in =~ /^\(wif/) { $code = "\@KP";}
  if ($in =~ /^\(avy/) { $code = "\@NA";}
  if ($word =~ /\-$/) { $code = "\@CP";}

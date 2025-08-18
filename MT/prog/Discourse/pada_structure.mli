@@ -34,21 +34,20 @@ and wif = ( int * int * int * string * string * string * string * string *string
   ; toid : int
   ; tocid : int
   }*)
-and kqw = ( int * int * int * string * string *  string *string * string * string * string * string * string * string * string * string * string * int * string * string * int * int )
+and kqw = ( int * int * int * string * string * string * string * string * string * string * string * string * string * int * string * string * int * int )
 (*{ sid : int   
   ; id : int   
   ; cid : int   
   ; word : string   
   ; kqw_vb_rt : string   
+  ; pUrvapaxa : string
+  ; uwwarapaxa : string
   ; upasarga : string
   ; sanAxi_prawyayaH : string   
   ; kqw_prawyayaH : string 
-  ; prayogaH : string 
   (*; dhatu : string  *) 
   ; gaNaH : string
   ; rt : string   
-  ; pUrvapaxa : string
-  ; uwwarapaxa : string
   ; lifgam : string   
   ; viBakwiH : int   
   ; vacanam : string   
