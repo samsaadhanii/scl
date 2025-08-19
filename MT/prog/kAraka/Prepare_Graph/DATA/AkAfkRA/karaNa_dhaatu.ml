@@ -10,6 +10,7 @@ value karaNa_XAwu_list = [
 "Af_raB1";
 "Af_RWA1";
 "Af_svax2";
+"ax2";
 "Af_SliR2";
 "Af_vq1";
 "Af_vqw1";
@@ -23,7 +24,6 @@ value karaNa_XAwu_list = [
 "apa_kq3";
 "arc1";
 "aS1";
-"ax2";
 "ava_gam1";
 "ava_i1";
 "aXi_gam1";
@@ -104,6 +104,7 @@ value karaNa_XAwu_list = [
 "pra_vac1";
 "pra_vi_Baj1";
 "pra_viS1";
+"pra_kRal1";
 "prawi_Af_cakR1";
 "prawi_pax1";
 "prawi_Sru1";

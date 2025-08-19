@@ -535,6 +535,7 @@ value xravyavAci_list = [
 "inxrAri";
 "inxrAvaraja";
 "inxra";
+"inxriya";
 "inxu";
 "irA";
 "iwarexyus";
@@ -1450,6 +1451,7 @@ value xravyavAci_list = [
 "xarpaka";
 "xasrO";
 "xeSa";
+"xeha";
 "xeva";
 "xevakInanxana";
 "xevawA";

@@ -33,5 +33,6 @@ value xeSAXikaraNa_list = [
 "wawra";
 "yawra";
 "wvayi";
+"xUram";
 ]
 ;

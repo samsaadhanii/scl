@@ -52,6 +52,7 @@ value apAxAna_XAwu_list = [
 "ni_grah1";
 "ni_rah1";
 "ni_vqw1";
+"nis_ci1";
 "pari_mArg1";
 "para_Af_ji1";
 "paT1";

@@ -5,6 +5,7 @@ value viRayAXikaraNa_list = [
 "kuSala";
 "xakRa";
 "nipuNa";
+"niScaya";
 "paNdiwa";
 "prIwi";
 "ruci";

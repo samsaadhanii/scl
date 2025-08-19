@@ -35,6 +35,7 @@ value guNavacana_list = [
 "IRawpANdu";
 "zISvara";
 "Kara";
+"sulaBa";
 "SASvawI";
 "SASvawa";
 "SAra";
@@ -298,6 +299,7 @@ value guNavacana_list = [
 "prAcIna";
 "prAkwana";
 "prIwa";
+"pravINa";
 "praBUwa";
 "praBu";
 "praBava";
@@ -467,6 +469,7 @@ value guNavacana_list = [
 "xEnya";
 "xEvI";
 "xIrGa";
+"xurawyayA";
 "xURaNa";
 "xUra";
 "xakRa";
@@ -479,7 +482,6 @@ value guNavacana_list = [
 "xqDa";
 "xuHKa";
 "xuHKiwa";
-"xurawyayA";
 "xuRkara";
 "xuRta";
 "xurAsaxa";
