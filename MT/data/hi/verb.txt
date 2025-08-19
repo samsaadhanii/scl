@@ -231,8 +231,8 @@ aBi_yaj1,pp,sk,v,yajFa_kara^Ahuwi_xe^pUjA_kara^suBURiwa_kara^sammAna_kara^Axara_
 aBi_yuj2,pp,sk,v,bola^xoRa_lagA,
 aBr1,pp,sk,v,jA,gawyarWaH
 aByA_hq1,pp,sk,v,warka_viwarka_kara^vAxa,
-aByanwarI_kq2,ap,sk,v,xIkRiwa_kara^miwra_banA,NW
-aByanwarI_kq2,pp,sk,v,xIkRiwa_kara^miwra_banA,NW
+zaByanwarI_kq2,ap,sk,v,xIkRiwa_kara^miwra_banA,NW
+zaByanwarI_kq2,pp,sk,v,xIkRiwa_kara^miwra_banA,NW
 aByanwarI_kq3,ap,sk,v,xIkRiwa_kara^miwra_banA,NW
 aByanwarI_kq3,pp,sk,v,xIkRiwa_kara^miwra_banA,NW
 aByup_i1,pp,sk,v,afgIkAra_kara^svIkAra_kara^sAmane_A,
@@ -279,8 +279,8 @@ afg1,pp,sk,v,jA,gawyarWaH
 afga1,pp,sk,v,cihna_kara^gina^tahala^akada_ke_cala^goxa_meM_le,paxe_lakRaNe_ca
 Af_gal1,pp,sk,v,nigala^KA,NW
 Af_gam1,pp,sk,v,A,
-afgi_kq2,ap,sk,v,svIkAra_kara^apanA^mAna_le^prawijFA_kara^xamana_kara^apanA_banA^anugraha_kara,NW
-afgi_kq2,pp,sk,v,svIkAra_kara^apanA^mAna_le^prawijFA_kara^xamana_kara^apanA_banA^anugraha_kara,NW
+zafgi_kq2,ap,sk,v,svIkAra_kara^apanA^mAna_le^prawijFA_kara^xamana_kara^apanA_banA^anugraha_kara,NW
+zafgi_kq2,pp,sk,v,svIkAra_kara^apanA^mAna_le^prawijFA_kara^xamana_kara^apanA_banA^anugraha_kara,NW
 afgi_kq3,ap,sk,v,svIkAra_kara^apanA^mAna_le^prawijFA_kara^xamana_kara^apanA_banA^anugraha_kara,NW
 afgi_kq3,pp,sk,v,svIkAra_kara^apanA^mAna_le^prawijFA_kara^xamana_kara^apanA_banA^anugraha_kara,NW
 Af_GrA1,pp,sk,v,sUzGa^pawA_lagA^cuMbana_kara,NW
@@ -532,8 +532,8 @@ aj1,pp,sk,v,jA^hAMka^xOdA^PeMka,gawi-kRepaNayoH
 ak1,pp,sk,v,teDA_cala,kutilAyAM_gawO
 akR1,pp,sk,v,vyApwa_ho,vyApwO
 al1,pp,sk,v,BURiwa_kara^nivAraNa_kara^pUrA_kara,BURaNa-paryApwi-vAraNeRu
-alaM_kq2,ap,sk,v,viBURiwa_kara^sajA^SoBA_baDA,NW
-alaM_kq2,pp,sk,v,viBURiwa_kara^sajA^SoBA_baDA,NW
+zalaM_kq2,ap,sk,v,viBURiwa_kara^sajA^SoBA_baDA,NW
+zalaM_kq2,pp,sk,v,viBURiwa_kara^sajA^SoBA_baDA,NW
 alaM_kq3,ap,sk,v,alaMkqwa_kara,
 alaM_kq3,pp,sk,v,alaMkqwa_kara,
 am1,pp,sk,v,jA^Sabxa_kara^sevA_kara,gawi-Sabxa-samBakwiRu
@@ -752,8 +752,8 @@ Ap2,pp,sk,v,prApwa_ho^pA,lamBane
 apa_Af_hA1,ap,sk,v,xUra_jA^hata^bAjU_meM_ho,NW
 apa_Af_hA2,pp,sk,v,Coda^wyAga,NW
 apa_Af_kQ1,pp,sk,v,asvIkAra_kara^nirAkaraNa_kara^uwAra_PeMka,NW
-apa_Af_kq2,ap,sk,v,hiMsA_kara^mAra_dAla,NW
-apa_Af_kq2,pp,sk,v,hiMsA_kara^mAra_dAla,NW
+zapa_Af_kq2,ap,sk,v,hiMsA_kara^mAra_dAla,NW
+zapa_Af_kq2,pp,sk,v,hiMsA_kara^mAra_dAla,NW
 apa_Af_kq3,ap,sk,v,xUra_kara^wyAga_xe^hatA^mitA^PeMka_xe^asvIkAra_kara^Coda_xe,NW
 apa_Af_kq3,pp,sk,v,xUra_kara^wyAga_xe^hatA^mitA^PeMka_xe^asvIkAra_kara^Coda_xe,NW
 apa_Af_vq1,ap,sk,v,KulA_ho,
