@@ -2478,7 +2478,7 @@ gacCan bAlakaH wqNam spqSawi / bAlakaH gacCan wqNam spqSawi *)
 	      then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.9",d12)]
               else if ((rt1 = "sarva" || rt1 = "sarvA") &&  id1 > id2 && text_type = "Sloka")
 	      then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.10",d12)]
-              else if (not (rt2 = "kim" || rt2 = "ixam")) && (pronoun3 rt1)  (* There cannot be a viSeRaNa of kim/ixam *)
+              else if (not (rt2 = "kim" || rt2 = "ixam"|| rt2 = "arWa")) && (pronoun3 rt1)  (* There cannot be a viSeRaNa of kim/ixam/arWa wvam kim-arWam, wvam is not a viSeRaNa of kim-arWam *)
 	      then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"17.11",d12)]
               (* else if (not (rt1 = "kim" )) && (aswi_pos.val < 50) && (pronoun3 rt1)  
                       (* In the presence of aswi, kim cannot be a viSeRaNa; *kim puswakam aswi  -- counter example -- kim puswakam sunxaram aswi  -- This is handled in a separate function rl_kim_aswi *)
@@ -3401,8 +3401,8 @@ Consider a sent with X Y v1 v2, where X and Y are karwA and karwAsamAnAXikaraNa 
              &&  members_of rt3 upasarga3 karwqsamAnAXikaraNa_verbs
              then if (member_of rt1 pUraNa)
              then [ Relation (id2,cid2,mid2,"viXeya_viSeRaNam",id1,cid1,mid1,"34.1a",d12) ]
-             else if ((rt1 = "vexa" && rt2 = "pramANa") || (rt1 = "inxriya" && (rt2 = "jihvA")|| (rt2 = "wvac")))
-             then [ Relation (id2,cid2,mid2,"viXeya_viSeRaNam",id1,cid1,mid1,"34.1a",d12) ]
+             else if ((rt1 = "vexa" && rt2 = "pramANa") || (rt1 = "inxriya" && (rt2 = "jihvA"|| rt2 = "wvac"))|| (rt1="saxAcAra" && rt2="Xarma"))
+             then [ Relation (id2,cid2,mid2,"viXeya_viSeRaNam",id1,cid1,mid1,"34.1b",d12) ]
              else []
          else []
       | Kqw (id3,cid3,mid3,_,rt3,upasarga3,_,_,_,_,_,_,_,_,_,_,_)
@@ -4201,7 +4201,7 @@ value rlavy_wifkqw_special m1 m2 text_type = match m2 with
       | _ -> []
       ]
   | Kqw (id2,cid2,mid2,_,_,_,_,kqw_prawyayaH2,_,_,_,pUrvapaxa2,uwwarapaxa2,_,_,_,_) ->
-	if (kqw_prawyayaH2="kwa" || kqw_prawyayaH2="kwavawu" || kqw_prawyayaH2="yaw" || kqw_prawyayaH2 = "anIyar") && (finite_verb_in_sentence.val == 50)
+	if (kqw_prawyayaH2="kwa" || kqw_prawyayaH2="kwavawu" || kqw_prawyayaH2="yaw" || kqw_prawyayaH2 = "anIyar" || kqw_prawyayaH2="wavyaw") && (finite_verb_in_sentence.val == 50)
         then match m1 with
         [ Avy (id1,cid1,mid1,word1,_,_,_,_) -> 
            let  d12 = if id1 > id2 then id1-id2 else id2-id1 in

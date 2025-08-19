@@ -908,7 +908,7 @@ value populate_compatible_lists text_type rel total_wrds=
    { for i=0 to length do
      { let reli=List.nth rel i in do
          { 				
-                                      (*   print_int i ;print_string " =>" ;print_relation reli ;*)
+                                         print_int i ;print_string " =>" ;print_relation reli ;
           let l=get_wrd_ids reli in
             compatible_words.(i+1) :=  List.append l compatible_words.(i+1) 
           				(* a word is compatible with self *)
@@ -920,9 +920,9 @@ value populate_compatible_lists text_type rel total_wrds=
           				(* a word is compatible with self *)
           ;if (chk_compatible text_type reli relj)
           then  do {
-           			(*	 print_int j
+           				 print_int j
            				;print_string " "
-           				;print_relation relj ; *)
+           				;print_relation relj ; 
              compatible_relations.(i+1) := List.append [j+1] compatible_relations.(i+1)
              ;let l=get_wrd_ids relj in
              compatible_words.(i+1) := List.append l compatible_words.(i+1)
@@ -1159,7 +1159,7 @@ value rec seq_expectancy relations relsindag=
         where rec loop=fun
             [ [] -> True (*do { print_string "True\n"; True}*)
             | [ Relationc (a,b1,b,r1,c,d1,d,dist1) :: rest] -> 
-                 (*do { print_string "AAA\n"; print_sint a; print_sint b1; print_sint b;print_sint r1; print_sint c; print_sint d1; print_sint d; print_string "\n"; *)
+                 do { print_string "AAA\n"; print_sint a; print_sint b1; print_sint b;print_sint r1; print_sint c; print_sint d1; print_sint d; print_string "\n";
                  match r1 with
                  [ 3 | 4 | 5 | 9 | 13 | 16 | 17 | 52 | 53 | 54 | 55 | (*56 | 57 | 60 |*) 76 |  77 |  (*79 | *) 80 |  75 | 41 | 68 | 69 | 12 |  97 | 32 | 33 | 34 | 35 | 45 | 46 | 47 | 48  | 202 | 203 -> 
 (* relaxed condition for 56-57-60 yaxyapi-waWApi - kArya-kAraNA-BAva *)
@@ -1168,7 +1168,7 @@ value rec seq_expectancy relations relsindag=
                        [ [] -> False (* do { print_string "False\n"; False} *)
                        | [Relationc (x,y1,y,r2,z,t1,t,dist2)::rest1] -> 
                               if not(r1=r2) then
-    			        (* do {
+    			         do {
                                    print_string "r2=";print_int r2; print_string " ";
                                    print_string "r1=";print_int r1; print_string " ";
                                    print_int a; print_string " ";
@@ -1178,8 +1178,8 @@ value rec seq_expectancy relations relsindag=
                                    print_int x; print_string " ";
                                    print_int y; print_string " ";
                                    print_int z; print_string " ";
-                                   print_int t; print_string "\n" ; *)
-                               if (z=a && t=b) then 
+                                   print_int t; print_string "\n" ; 
+                               if (z=a && t=b && t1=b1) then 
                                      if (r1 = 3 || r1 = 4 || r1 = 5) then if (r2 = 202 || r2 = 203 || r2 = 24) then loop rest else loop1 rest1 
                                      (* rAme vanam gacCawi sIwA anusarawi ; SAswra-sampAwe pravqwwe XanuH uxyamya pANdavaH ixam abravIw *)
                                      else if r1=53 then if r2=52 then loop rest else loop1 rest1
@@ -1194,12 +1194,10 @@ value rec seq_expectancy relations relsindag=
                                      else if r1=12 then if r2=97 then loop rest else loop1 rest1
                                      else if r1=6 then if r2=9 then loop rest else loop1 rest1
                                      else loop1 rest1
-                               else if (c=x && d=y) then
+                               else if (c=x && d=y && d1=y1) then
                                      if (r2 = 3 || r2 = 4 || r2 = 5) then if (r1 = 202 || r1 = 203 || r2 = 24) then loop rest else loop1 rest1 
                                      (*else if (r2 = 202 || r2 = 203) then if (r1 = 3 || r1 = 4 || r1 = 5) then loop rest else loop1 rest1 *)
                                      (* rAme vanam gacCawi sIwA anusarawi ; SAswra-sampAwe pravqwwe XanuH uxyamya pANdavaH ixam abravIw *)
-                                     else if r2=13 then if (r1=14 || r1=10) then loop rest else loop1 rest1
-                                     else if r1=13 then if (r2=14 || r2=10) then loop rest else loop1 rest1
                                      else if r1=52 then if r2=53 then loop rest else loop1 rest1
                                      else if r1=55 then if r2=54 then loop rest else loop1 rest1
                                      (*else if r1=56 then if r2=60 then loop rest else loop1 rest1
@@ -1213,7 +1211,7 @@ value rec seq_expectancy relations relsindag=
                                      else if r1=9 then if r2=6 then loop rest else loop1 rest1
                                      else if r1=46 then if r2=33 then loop rest else loop1 rest1
                                      else loop1 rest1 
-                               else if (c=z && d=t) then
+                               else if (c=z && d=t && d1=t1) then	 (* siblings, and not sequential *)
                                      if r2=32 then if r1=45 then loop rest else loop1 rest1
                                      else if r1=32 then if r2=45 then loop rest else loop1 rest1
                                      else if r2=33 then if r1=46 then loop rest else loop1 rest1
@@ -1222,6 +1220,8 @@ value rec seq_expectancy relations relsindag=
                                      else if r1=34 then if r2=47 then loop rest else loop1 rest1
                                      else if r2=35 then if r1=48 then loop rest else loop1 rest1
                                      else if r1=35 then if r2=48 then loop rest else loop1 rest1
+                                     else if r2=13 then if (r1=14 || r1=10) then loop rest else loop1 rest1
+                                     else if r1=13 then if (r2=14 || r2=10) then loop rest else loop1 rest1
                                      else if r2=17 then if r1=15 then loop rest else loop1 rest1
                                      else if r1=17 then if r1=15 then loop rest else loop1 rest1
                                      else if r2=16 then if r1=15 then loop rest else loop1 rest1
@@ -1231,11 +1231,11 @@ value rec seq_expectancy relations relsindag=
                                      else if r1=92 then if (r2=7 || r2 = 14 || r2 = 18) then loop rest else loop1 rest1 (*If there is sahArWa, then there should be either karwA,karma or karaNa relation *)
                                      else if r2=92 then if (r1=7 || r1 = 14 || r1 = 18) then loop rest else loop1 rest1 (*If there is sahArWa, then there should be either karwA,karma or karaNa relation *)
                                      else loop1 rest1 
-                                else loop1 rest1   (* } *)
+                                else loop1 rest1    }
                                 else loop1 rest1
                        ]  (*}*)
                |_ -> loop rest
-               ] (*}*)
+               ] }
             ]
 ;
 
@@ -1652,17 +1652,17 @@ value solver rel_lst max_soln text_type =
          				 print_string "final=";
       				  	   print_int final; *)
       let soln=construct_dags 0 final wrdb [] text_type max_soln rel_lst in 
-						 (* do { 
+						  do { 
                                                    print_string "final = "; print_int final;
 
      						 print_string "DAGS=" ;
-     						print_acc_len_cost soln; *)
+     						print_acc_len_cost soln; 
 	    let no_cycle_solns = remove_cycle [] rel_lst soln in
      	    (*do { print_string "NO CYCLE SOLNS"; print_acc_len_cost soln; *)
             let l = get_first max_soln (final-4) []  (List.sort comparecostlength1 no_cycle_solns) in
-              (*soln in *) (*do { 
+              (*soln in *) (*do {
                                                 print_string "DAGS=" ;
-                                                print_acc_len_cost l ; *)
+                                                print_acc_len_cost l ;  *)
                      let l1 = chk_global_comp text_type rel_lst [] l in  (*do {
                                                 print_string "DAGS1=" ;
                                                 print_acc_len l1 ; 
@@ -1677,8 +1677,8 @@ value solver rel_lst max_soln text_type =
                    ; print_cost_soln_list 1 0 rel_lst uniq_collapsed_soln
                   } 
                 (*}*)
-           (*}*)
-     (*}*)
+           (* } *)
+     }
  (*}*)
  (*}*)
  }

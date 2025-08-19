@@ -137,6 +137,9 @@ xvanxva_samples = [
     
     # aRtAfgahqxayam
     "Xarma-arWa-suKa", # 01_002
+
+    # Others
+    "BIma-jarAsanXa",
 ]
 
 
