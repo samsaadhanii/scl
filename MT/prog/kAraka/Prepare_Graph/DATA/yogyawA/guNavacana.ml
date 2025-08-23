@@ -242,6 +242,7 @@ value guNavacana_list = [
 "muKya";
 "muxiwa";
 "munipufgava";
+"nAnA";
 "nERTikI";
 "nIla";
 "nIrasa";

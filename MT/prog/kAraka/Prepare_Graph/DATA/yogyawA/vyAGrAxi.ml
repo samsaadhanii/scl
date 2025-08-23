@@ -17,6 +17,7 @@ value vyAGrAxi_list = [
 "kamala";
 "kisalaya";
 "canxra";
-"soma"
+"soma";
+"pravAla"; (* viRaya-pravAlAH BG 15.02*)
 ]
 ;

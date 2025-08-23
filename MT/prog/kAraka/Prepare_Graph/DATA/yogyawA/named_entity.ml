@@ -6,6 +6,7 @@ value named_entity_list =
 "navaxvAra";
 "himAlaya";
 "vinXya";
+"Barawa";
 "sapwa-qRi";
 "pUrva-iRukAmaSamI";
 "apara-iRukAmaSamI"
