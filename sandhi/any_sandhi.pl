@@ -2611,7 +2611,7 @@
 "eH,R,eH R,visarga,vA Sari (8.3.36),",
 "eH,s,ess,sawva,visarjanIyasya saH (8.3.34),",
 "eH,s,eH s,visarga,vA Sari (8.3.36),",
-"oH,r,orr,rePaH,sasajuRo ruH (8.2.66),",
+"oH,r,or,rePalopa,sasajuRo ruH (8.2.66)-> ro ri (8.3.14)",
 "oH,S,oSS,sawva -> Scuwva,visarjanIyasya saH (8.3.34)-> swoH ScunA ScuH (8.4.40),",
 "oH,S,oH S,visarga,vA Sari (8.3.36),",
 "oH,R,oRR,sawva -> Rtuwva,visarjanIyasya saH (8.3.34)-> RtunA RtuH (8.4.41),",
