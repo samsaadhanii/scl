@@ -421,7 +421,7 @@ value rec mark_relations acc finite_verbs = fun
 				| "yawra" |"wawra"  ->
                                     let acc1 = List2.union acc [Relation (sid_v2,id_v2,cid_v2,"samAnAXikaraNaH",sid_v1,id_v1,cid_v1,"rule16",dist)] in
 			            mark_relations acc1 finite_verbs s
-				| "yaxvaw" |"waxvaw"  ->
+				| "yaxvaw" |"waxvaw"  | "yaWA" | "waWA" ->
                                     let acc1 = List2.union acc [Relation (sid_v2,id_v2,cid_v2,"sAxqSyam",sid_v1,id_v1,cid_v1,"rule17",dist)] in
 			            mark_relations acc1 finite_verbs s
 				| "ca" | "api" | "cApi" | "aWaca" | "evaFca"  ->  (*aWApi *)
