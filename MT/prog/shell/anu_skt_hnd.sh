@@ -92,8 +92,8 @@ shaabdabodha () {
 
 anaphora () {
 # anaphora in the 10th field
-     $ANU_MT_PATH/anaphora/anaphora.pl $CGIDIR/$SCL_CGI $ANU_MT_PATH/anaphora < $temp_files_path/$fbn.out > $temp_files_path/tmp
-     mv $temp_files_path/tmp $temp_files_path/$fbn.out
+     $ANU_MT_PATH/anaphora/anaphora.pl $CGIDIR/$SCL_CGI $ANU_MT_PATH/anaphora < $temp_files_path/$fbn.out > $temp_files_path/tmp.anaphora
+     mv $temp_files_path/tmp.anaphora $temp_files_path/$fbn.out
 }
 
 wsd () {
@@ -244,7 +244,9 @@ else
   generate_anvaya
   anvaya_anu_op
   shloka_anu_op
+  if [ $TEXT_TYPE = "Sloka" ]; then
   anvaya_order_tr
+  fi
   draw_graph
   #clean
 fi
