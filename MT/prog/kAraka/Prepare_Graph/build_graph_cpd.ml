@@ -44,6 +44,7 @@ open Xik_vAcI;
 open Exceptional_cpd_list;
 open NaxI_vAcI;
 open ApAxAna_dhaatu;
+open AmUrwa;
 
 value morphs = Gram.Entry.mk "morphs"
 ;
@@ -350,6 +351,9 @@ value naxI_vAcI = build_trie naxI_vAcI_list
 value apAxAna_verbs = build_trie apAxAna_XAwu_list
 ;
 
+value amUrwa = build_trie amUrwa_list
+;
+
 value verb_type rt upasarga =  
           if members_of rt upasarga akarmaka_verbs then "akarmaka"
           else if members_of rt upasarga xvikarmaka2 then "xvikarmaka2"
@@ -445,7 +449,7 @@ value rl_compound_kwa m1 m2 text_type = match m1 with
             else if rt2 = "ArUDa" then 
               (* 2-1-24 (extended) yoga-ArUDaH *)
               [ Relation (id1,cid1,mid1,"xviwIyA_wawpuruRaH",id2,cid2,mid2,"200.4a",0) ]
-            else if rt2 = "hiwa" || rt2 = "rakRiwa" then 
+            else if (rt2 = "hiwa" && not (rt1 = "priya")) || rt2 = "rakRiwa" then 
               (* 2-1-36 *)
               [ Relation (id1,cid1,mid1,"cawurWI_wawpuruRaH",id2,cid2,mid2,"200.5",0) ]
             else if rt2 = "BIwa" || rt2 = "apewa" || rt2 = "apoDa" || rt2 = "mukwa" || rt2 = "apawraswa" then 
@@ -727,13 +731,13 @@ value rl_compound_K m1 m2 text_type = match m1 with
                  | "KasUci" | "kiwava" 
                    -> (* 2-1-53 *)
                       [ Relation (id1,cid1,mid1,"karmaXArayaH_2",id2,cid2,mid2,"200.34a",0) ]
-                 | "muKya" 
-                   (* yoXa-muKyEH *)
+                 | "muKya" | "vIra"
+                   (* yoXa-muKyEH, yoXa-vIrAn *)
                    -> [ Relation (id1,cid1,mid1,"karmaXArayaH_2",id2,cid2,mid2,"200.34b",0) ]
                  | _ -> 
                     if member_of rt1 varNa_vAcI && member_of rt2 varNa_vAcI then 
                       (* 2-1-69 *)
-                      [ Relation (id1,cid1,mid1,"karmaXArayaH_3",id2,cid2,mid2,"200.35",0) ]
+                      [ Relation (id1,cid1,mid1,"karmaXArayaH_3",id2,cid2,mid2,"200.35a",0) ]
                     else if (member_of rt2 jAwivAcaka) = False && 
                       (rl_compound_kqwya_1 m1 || rt1 = "wulya" || rt1 = "saxqSa") then
                       (* 2-1-68 *)
@@ -752,12 +756,23 @@ value rl_compound_K m1 m2 text_type = match m1 with
                         Hence checking both the lists guNavacana and guNa_not_guNavacana  -- AMBA CHK_WITH_SRIRAM*)
                         (*|| member_of rt1 saFjFA_vAcI *) (* NOTE: How to collect list of saFjFA_vAcI *)
                       (* if m1 is captured as kqw or wif, then it considered as kriyA *)  
-                        || is_kriyA m1) && not ( bahuvrIhi_morph_condition m2) then 
+                        || is_kriyA m1) && not ( bahuvrIhi_morph_condition m2) && (not (member_of rt2 guNavacana)) then 
                       (* 2-1-57 *)
                       [ Relation (id1,cid1,mid1,"karmaXArayaH_1",id2,cid2,mid2,"200.39a",0) ] 
-                    else if rl_compound_kwAnwa_2 m1 then 
+                    else if rl_compound_kwAnwa_2 m1 && (not (member_of rt2 guNavacana)) then 
                       (* Cinna-aBram *)
                       [ Relation (id1,cid1,mid1,"karmaXArayaH_1",id2,cid2,mid2,"200.39b",0) ] 
+                    else if member_of rt1 amUrwa && member_of rt2 xravyavAcI then 
+                      [ Relation (id1,cid1,mid1,"karmaXArayaH_6",id2,cid2,mid2,"200.39c",0) ] 
+                    else if member_of rt1 guNavacana && member_of rt2 guNavacana then 
+                      if rl_compound_kwAnwa_2 m1 then 
+                        [ Relation (id1,cid1,mid1,"bahuvrIhiH",id2,cid2,mid2,"200.66b",0) ]
+                      else 
+                      (* 2-1-69 *)
+                      [ Relation (id1,cid1,mid1,"karmaXArayaH_3",id2,cid2,mid2,"200.35b",0) ]
+                    else if member_of rt1 named_entity && member_of rt2 jAwivAcaka then 
+                      (* svarga-lokam, ayoXyA-nagarI *)
+                      [ Relation (id1,cid1,mid1,"karmaXArayaH_7",id2,cid2,mid2,"200.40a",0) ]
                     else []
                  ]
           ]
@@ -932,6 +947,9 @@ value rl_compound_B m1 m2 text_type = match m1 with
           (* If the final component has a different lifgam2 than the original 
              lifgam of its stem, then assign bahuvrIhi *)
           [ Relation (id1,cid1,mid1,"bahuvrIhiH",id2,cid2,mid2,"200.65",0) ] 
+        else if rl_compound_kwAnwa_2 m1 && (member_of rt2 guNavacana) then
+          (* samqxXa-vegAH *)
+          [ Relation (id1,cid1,mid1,"bahuvrIhiH",id2,cid2,mid2,"200.66a",0) ]
         else []
       else []
     | _ -> []
