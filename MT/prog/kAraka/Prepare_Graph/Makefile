@@ -21,7 +21,8 @@ $(YPATH)/manuRyaparyAya.ml $(YPATH)/manuRyasaFjFAvAcI.ml $(YPATH)/named_entity.m
 $(YPATH)/parAjAwi.ml $(YPATH)/saMKyeya.ml $(YPATH)/sambandhavaaci.ml $(YPATH)/upAXi.ml $(YPATH)/upapada6.ml \
 $(YPATH)/waxXiwAnwa.ml $(YPATH)/xeSAXikaraNa.ml $(YPATH)/xravyavAcI.ml $(YPATH)/non_neuter_kartaa_dhaatu.ml $(YPATH)/jAwivAcaka.ml \
 $(YPATH)/safKyA_vAcI.ml $(YPATH)/kAla_vAcI.ml $(YPATH)/cawuRpAxa_jAwi_vAcI.ml $(YPATH)/varNavAcI.ml $(YPATH)/vyAGrAxi.ml \
-$(YPATH)/waxXiwAnwa_safKyA_vAcI.ml $(YPATH)/waxXiwAnwa_xik_vAcI.ml $(YPATH)/xik_vAcI.ml $(YPATH)/exceptional_cpd_list.ml  $(YPATH)/naxI_vAcI.ml
+$(YPATH)/waxXiwAnwa_safKyA_vAcI.ml $(YPATH)/waxXiwAnwa_xik_vAcI.ml $(YPATH)/xik_vAcI.ml $(YPATH)/exceptional_cpd_list.ml  $(YPATH)/naxI_vAcI.ml \
+$(YPATH)/amUrwa.ml
 
 INTERFACES = pada_structure.mli
 SYNTAX = .ocamlinit
@@ -59,7 +60,7 @@ $(YPATH)/manuRyaparyAya.cmx $(YPATH)/manuRyasaFjFAvAcI.cmx $(YPATH)/named_entity
 $(YPATH)/parAjAwi.cmx $(YPATH)/saMKyeya.cmx $(YPATH)/sambandhavaaci.cmx $(YPATH)/upAXi.cmx $(YPATH)/upapada6.cmx \
 $(YPATH)/waxXiwAnwa.cmx $(YPATH)/xeSAXikaraNa.cmx $(YPATH)/xravyavAcI.cmx $(YPATH)/non_neuter_kartaa_dhaatu.cmx $(YPATH)/jAwivAcaka.cmx \
 $(YPATH)/safKyA_vAcI.cmx $(YPATH)/waxXiwAnwa_safKyA_vAcI.cmx $(YPATH)/waxXiwAnwa_xik_vAcI.cmx $(YPATH)/xik_vAcI.cmx $(YPATH)/kAla_vAcI.cmx \
-$(YPATH)/cawuRpAxa_jAwi_vAcI.cmx $(YPATH)/varNavAcI.cmx $(YPATH)/vyAGrAxi.cmx $(YPATH)/exceptional_cpd_list.cmx $(YPATH)/naxI_vAcI.cmx
+$(YPATH)/cawuRpAxa_jAwi_vAcI.cmx $(YPATH)/varNavAcI.cmx $(YPATH)/vyAGrAxi.cmx $(YPATH)/exceptional_cpd_list.cmx $(YPATH)/naxI_vAcI.cmx $(YPATH)/amUrwa.cmx
 	$(LINK) unix.cmxa bank_lexer.cmx $(CORE) $(EXECS) constraint.cmx relations.cmx $(APATH)/aaxikarma_dhaatu.cmx $(APATH)/bhaava_kqw.cmx \
 $(APATH)/Sabxakarma_dhaatu.cmx $(APATH)/shakaadi.cmx  $(APATH)/shlish_aadi.cmx $(APATH)/afgavikaara.cmx $(APATH)/akarmaka_dhaatu.cmx $(APATH)/amarakosha_jaati.cmx \
 $(APATH)/apAxAna_dhaatu.cmx $(APATH)/buxXyarWa_dhaatu.cmx $(APATH)/gawyarWa_dhaatu.cmx $(APATH)/karaNa_dhaatu.cmx \
@@ -72,7 +73,7 @@ $(YPATH)/manuRyaparyAya.cmx $(YPATH)/manuRyasaFjFAvAcI.cmx $(YPATH)/named_entity
 $(YPATH)/parAjAwi.cmx $(YPATH)/saMKyeya.cmx $(YPATH)/sambandhavaaci.cmx $(YPATH)/upAXi.cmx $(YPATH)/upapada6.cmx \
 $(YPATH)/waxXiwAnwa.cmx $(YPATH)/xeSAXikaraNa.cmx $(YPATH)/xravyavAcI.cmx  $(YPATH)/non_neuter_kartaa_dhaatu.cmx $(YPATH)/jAwivAcaka.cmx \
 $(YPATH)/safKyA_vAcI.cmx $(YPATH)/waxXiwAnwa_safKyA_vAcI.cmx $(YPATH)/waxXiwAnwa_xik_vAcI.cmx $(YPATH)/xik_vAcI.cmx $(YPATH)/kAla_vAcI.cmx \
-$(YPATH)/cawuRpAxa_jAwi_vAcI.cmx $(YPATH)/varNavAcI.cmx $(YPATH)/vyAGrAxi.cmx $(YPATH)/exceptional_cpd_list.cmx  $(YPATH)/naxI_vAcI.cmx build_graph_cpd.cmx build_graph.cmx -o build_graph
+$(YPATH)/cawuRpAxa_jAwi_vAcI.cmx $(YPATH)/varNavAcI.cmx $(YPATH)/vyAGrAxi.cmx $(YPATH)/exceptional_cpd_list.cmx  $(YPATH)/naxI_vAcI.cmx $(YPATH)/amUrwa.cmx build_graph_cpd.cmx build_graph.cmx -o build_graph
 	#cd $(APATH); ./extract.sh
 
 debug: ascii.cmo trie.cmo debug.ml
