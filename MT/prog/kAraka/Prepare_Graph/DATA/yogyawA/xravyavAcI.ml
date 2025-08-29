@@ -371,6 +371,8 @@ value xravyavAci_list = [
 "axya";
 "ayana";
 "ayas";
+"banXa";
+"banXana";
 "bANa";
 "bARpa";
 "bAhu";
@@ -1073,6 +1075,7 @@ value xravyavAci_list = [
 "rukma";
 "ruxrANI";
 "ruxra";
+"saFjFiwa";
 "sAXya";
 "sAci";
 "sAgarAmbarA";
@@ -1379,7 +1382,7 @@ value xravyavAci_list = [
 "wapa";
 "wapanIya";
 "wapana";
-"wapas";
+"wapas"; (* BAva-vAcI-kqw needs to be separated from xravyavAcI list *)
 "wapasvin";
 "wapasya";
 "waraNi";
@@ -1499,6 +1502,7 @@ value xravyavAci_list = [
 "yAwu";
 "yAwuXAna";
 "yAxasAmpawi";
+"yajFa";
 "yajFapuruRa";
 "yakRa";
 "yakRarAj";
@@ -1510,6 +1514,7 @@ value xravyavAci_list = [
 "yawi";
 "yawin";
 "yuga";
+"yoga";
 "yugapaw"
 ]
 ;

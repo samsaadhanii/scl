@@ -89,7 +89,7 @@ value guNavacana_list = [
 "aByAgawa";
 "aGa";
 "aKila";
-"aMSa";
+"zaMSa"; (* aMSa is not a guNa and cannot be a viSeRaNa. *)
 "aXamA";
 "aXama";
 "aXipawi";
@@ -143,6 +143,7 @@ value guNavacana_list = [
 "bahu";
 "bahuviXa";
 "balin";
+"bAhya";
 "cAnxramasa";
 "caFcala";
 "cawurviMSawi";
@@ -501,5 +502,6 @@ value guNavacana_list = [
 "yuyuwsu";
 "zBarawa";
 "zvivAsana";
+"vega";
 ]
 ;
