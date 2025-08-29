@@ -20,10 +20,13 @@ cpd_details = []
 
 for line in in_lines:
     items = line.split("\t")
+    # index, word / compound component, sandhied_word, morphs, morphs, morphs
     
     word = items[1]
     id_ = items[0].split(".")
     
+    # For multiple sentences, ids can be of the form
+    # sent_id.wrd_id.cmpnt_id
     if len(id_) == 3:
         sent_id = id_[0]
         wrd_id = sent_id + "." + id_[1]
@@ -144,6 +147,7 @@ for line in in_lines:
         new_lines += [ "\t".join(new_items) ] + compound_lines[1:]
         
         compound_components = []
+        compound_components_iic_form = []
         cpd_details = []        
         
     else:
