@@ -906,9 +906,9 @@ value rec get_rel_wrds  = fun
 value populate_compatible_lists text_type rel total_wrds=
   let length=List.length rel - 1 in do 
    { for i=0 to length do
-     { let reli=List.nth rel i in do
-         { 				
-                                         print_int i ;print_string " =>" ;print_relation reli ;
+     { let reli=List.nth rel i in  do
+          { 				
+                                   (*      print_int i ;print_string " =>" ;print_relation reli ; *)
           let l=get_wrd_ids reli in
             compatible_words.(i+1) :=  List.append l compatible_words.(i+1) 
           				(* a word is compatible with self *)
@@ -920,19 +920,19 @@ value populate_compatible_lists text_type rel total_wrds=
           				(* a word is compatible with self *)
           ;if (chk_compatible text_type reli relj)
           then  do {
-           				 print_int j
+           			(*	 print_int j
            				;print_string " "
-           				;print_relation relj ; 
+           				;print_relation relj ; *)
              compatible_relations.(i+1) := List.append [j+1] compatible_relations.(i+1)
              ;let l=get_wrd_ids relj in
              compatible_words.(i+1) := List.append l compatible_words.(i+1)
              ;let l=get_wrd_ids reli in
                compatible_words.(j+1) :=  List.append l compatible_words.(j+1)
-          }
+           }
           else ()
           }
         }
-       }
+        }
      }
     
    ; for i=0 to length do {
@@ -1159,7 +1159,7 @@ value rec seq_expectancy relations relsindag=
         where rec loop=fun
             [ [] -> True (*do { print_string "True\n"; True}*)
             | [ Relationc (a,b1,b,r1,c,d1,d,dist1) :: rest] -> 
-                 do { print_string "AAA\n"; print_sint a; print_sint b1; print_sint b;print_sint r1; print_sint c; print_sint d1; print_sint d; print_string "\n";
+                 (*do { print_string "AAA\n"; print_sint a; print_sint b1; print_sint b;print_sint r1; print_sint c; print_sint d1; print_sint d; print_string "\n"; *)
                  match r1 with
                  [ 3 | 4 | 5 | 9 | 13 | 16 | 17 | 52 | 53 | 54 | 55 | (*56 | 57 | 60 |*) 76 |  77 |  (*79 | *) 80 |  75 | 41 | 68 | 69 | 12 |  97 | 32 | 33 | 34 | 35 | 45 | 46 | 47 | 48  | 202 | 203 -> 
 (* relaxed condition for 56-57-60 yaxyapi-waWApi - kArya-kAraNA-BAva *)
@@ -1168,7 +1168,7 @@ value rec seq_expectancy relations relsindag=
                        [ [] -> False (* do { print_string "False\n"; False} *)
                        | [Relationc (x,y1,y,r2,z,t1,t,dist2)::rest1] -> 
                               if not(r1=r2) then
-    			         do {
+    			         (*do {
                                    print_string "r2=";print_int r2; print_string " ";
                                    print_string "r1=";print_int r1; print_string " ";
                                    print_int a; print_string " ";
@@ -1178,7 +1178,7 @@ value rec seq_expectancy relations relsindag=
                                    print_int x; print_string " ";
                                    print_int y; print_string " ";
                                    print_int z; print_string " ";
-                                   print_int t; print_string "\n" ; 
+                                   print_int t; print_string "\n" ;  *)
                                if (z=a && t=b && t1=b1) then 
                                      if (r1 = 3 || r1 = 4 || r1 = 5) then if (r2 = 202 || r2 = 203 || r2 = 24) then loop rest else loop1 rest1 
                                      (* rAme vanam gacCawi sIwA anusarawi ; SAswra-sampAwe pravqwwe XanuH uxyamya pANdavaH ixam abravIw *)
@@ -1231,11 +1231,11 @@ value rec seq_expectancy relations relsindag=
                                      else if r1=92 then if (r2=7 || r2 = 14 || r2 = 18) then loop rest else loop1 rest1 (*If there is sahArWa, then there should be either karwA,karma or karaNa relation *)
                                      else if r2=92 then if (r1=7 || r1 = 14 || r1 = 18) then loop rest else loop1 rest1 (*If there is sahArWa, then there should be either karwA,karma or karaNa relation *)
                                      else loop1 rest1 
-                                else loop1 rest1    }
+                                else loop1 rest1     (*}*)
                                 else loop1 rest1
                        ]  (*}*)
                |_ -> loop rest
-               ] }
+               ]  (* } *)
             ]
 ;
 
@@ -1306,7 +1306,7 @@ let maprel=List.map (fun y -> List.nth relations (y-1) ) relsindag in
           else if ( r1 >= 2000  && r1 < 4000 ) then
           loop1 maprel
           where rec loop1=fun
-                          [ [] -> do { print_string "failed case 6\n"; False}
+                          [ [] -> (*do { print_string "failed case 6\n"; *)  False (* } *)
                           | [Relationc (x,y1,y,r,z,t1,t,dist1)::rest1] -> 
                             if (r>= 4000)  && (r < 5000) 
                                  && ((z=a && t=b) || (x=c && y=d))
@@ -1652,11 +1652,11 @@ value solver rel_lst max_soln text_type =
          				 print_string "final=";
       				  	   print_int final; *)
       let soln=construct_dags 0 final wrdb [] text_type max_soln rel_lst in 
-						  do { 
+						  (*do { 
                                                    print_string "final = "; print_int final;
 
      						 print_string "DAGS=" ;
-     						print_acc_len_cost soln; 
+     						print_acc_len_cost soln;  *)
 	    let no_cycle_solns = remove_cycle [] rel_lst soln in
      	    (*do { print_string "NO CYCLE SOLNS"; print_acc_len_cost soln; *)
             let l = get_first max_soln (final-4) []  (List.sort comparecostlength1 no_cycle_solns) in
@@ -1678,7 +1678,7 @@ value solver rel_lst max_soln text_type =
                   } 
                 (*}*)
            (* } *)
-     }
+     (* } *)
  (*}*)
  (*}*)
  }
