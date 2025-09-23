@@ -135,7 +135,7 @@ value print_relation r=match r with
       else if (i4=203) then print_int 14  (* Bkarma -> karma*)
       else if (i4=8) then print_int 9  (* karwqrahiwakarwqsamAnAXikaraNa -> viXeya_viSeRaNam *)
       else if (i4=1) then print_int 16  (* prayojakakarwqrahiwaprayojyakarwA -> prayojyakarwA *)
-      else if (i4=13) then print_int 9  (* karmasamAnAXikaraNa -> viXeya_viSeRaNam *)
+      (*else if (i4=13) then print_int 9  (* karmasamAnAXikaraNa -> viXeya_viSeRaNam *) *)
       else if (i4=40) then print_int 41  (* prayojanam1 -> prayojanam *)
       else print_int i4
     ; print_string ","
@@ -625,8 +625,8 @@ value relation_mutual_ayogyataa text_type m1 m2=match m1 with
 print_int r1; print_string " "; print_int r2; print_string "\n";
        print_int to_id2; print_string " "; print_int from_id2; print_string "\n"; *)
        if same_root from_id1 from_id2 from_cid1 from_cid2 from_mid1 from_mid2
-              && (  (((r2 > 13 && r2 < 25) || (r2 = 6) || (r2 = 7) || (r2 = 10) || (r2 = 11) || (r2 = 12))  && ((r1=36) || (r1=8) || (r1=9) || (r1=13)))
-                 || (((r1 > 13 && r1 < 25)  || (r1 = 6) || (r1 = 7) || (r1 = 10) || (r1 = 11) || (r1 = 12)) && ((r2=36) || (r2=8) || (r2=9) || (r2=13)))
+              && (  (((r2 > 13 && r2 < 25) || (r2 = 6) || (r2 = 7) || (r2 = 10) || (r2 = 11) || (r2 = 12))  && ((r1=36) || (r1=8) || (r1=9) ))
+                 || (((r1 > 13 && r1 < 25)  || (r1 = 6) || (r1 = 7) || (r1 = 10) || (r1 = 11) || (r1 = 12)) && ((r2=36) || (r2=8) || (r2=9) ))
                  || (r1 = 46 && r2 = 36)
                  || (r2 = 46 && r1 = 36))
          then False  (* do { print_string "C13\n"; False} *)
@@ -1590,36 +1590,36 @@ value no_cycle relations rels =
    | [ r1 :: xs] -> let r=List.nth relations (r1-1) in
                    match r with
                    [Relationc (a,b1,b,c,d,e1,e,f) -> 
- 		     do {
+ 		     (*do {
 			 print_int a; print_string " ";
 			 print_int b1; print_string " ";
 			 print_int b; print_string " ";
 			 print_int c; print_string " ";
 			 print_int d; print_string " ";
 			 print_int e1; print_string " ";
-			 print_int e; print_string "\n";
+			 print_int e; print_string "\n"; *)
                      match t with
                      [ (-1,-1,-1) -> let  acc1 = List.append [(a,b1,b)] acc in
                                      let  acc2 = List.append [(d,e1,e)] acc1 in
                                      let  t = (a,b1,b) in loop acc2 t relations xs
-                     | (x,y,z) -> do { 
+                     | (x,y,z) ->  (* do { 
 					  print_int x; print_string " ";
                                           print_int y; print_string " ";
-                                          print_int z; print_string "\n";
+                                          print_int z; print_string "\n"; *)
                                   if x=a && y=b1 && z=c
                                   then if List.mem (a,b1,b) acc then False 
-                                       else do { 
+                                       else (* do { 
 					  print_int a; print_string " ";
                                           print_int b1; print_string " ";
-                                          print_int b; print_string "\n";
+                                          print_int b; print_string "\n"; *)
                                           let acc1 = List.append [(d,e1,e)] acc 
 				          and t = (a,b1,b) in 
                                           loop acc1 t relations rels
-					  }
+					   (*} *)
 				  else loop acc t relations xs
-			          }
+			           (*} *)
                      ]
-		     }
+		      (*} *)
                    ]
    ]
 ;

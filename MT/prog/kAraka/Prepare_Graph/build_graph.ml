@@ -853,6 +853,19 @@ value is_human rt = member_of rt upAXi
                    || member_of rt manuRyasaFjFAvAcI
 ;
 
+value sawq_sanac_kqw m1 =
+     match m1 with
+     [ Kqw (id1,cid1,mid1,word1,_,_,_,kqw_prawyayaH1,_,_,rt1,pUrvapaxa1,uwwarapaxa1,lifgam1,viBakwiH1,vacanam1,_) ->
+           if  ((kqw_prawyayaH1 = "Sawq_lat")
+            ||  (kqw_prawyayaH1 = "Sawq_lqt")
+            ||  (kqw_prawyayaH1 = "SAnac_lat")
+            ||  (kqw_prawyayaH1 = "SAnac_lqt")) 
+           then True
+           else False
+     | _ -> False
+     ]
+;
+
 (* Section on kAraka relations *)
 
 (* Notes on karta and karma vibhkati
@@ -927,10 +940,12 @@ value wifkarwA_karma m1 m2 text_type = match m2 with
                              then if members_of rt2 upasarga2 karwqsamAnAXikaraNa_verbs
                                   then [ Relation (id1,cid1,mid1,"karwA_be_verbs",id2,cid2,mid2,"2.2", d)]  
                                   else if members_of rt2 upasarga2 non_neuter_kartaa_dhaatu_list 
-                                       then if not (lifgam1="napuM") || (rt1="miwra") || (rt1 = "kalawra") then
-				               [ Relation (id1,cid1,mid1,"karwA",id2,cid2,mid2,"2.2a", d)]  
+                                       then if not (lifgam1="napuM") || (rt1="miwra") || (rt1 = "kalawra")
+				            then  [ Relation (id1,cid1,mid1,"karwA",id2,cid2,mid2,"2.2a", d)]  
 				            else []
-				       else  [ Relation (id1,cid1,mid1,"karwA",id2,cid2,mid2,"2.2b", d)]  
+				       else  if not (sawq_sanac_kqw m1)  (* We decided not to mark karwA for gacCan in grAmam gacCan wqNam spqSawi *)
+                                             then [ Relation (id1,cid1,mid1,"karwA",id2,cid2,mid2,"2.2b", d)]  
+				             else []
                              else []
                       (* aBihiwe praWamA -xevaxawwaH:karwA paTawi*)
                  ]
@@ -1231,11 +1246,12 @@ But in grAmam gawaH xevaxawwaH puswakaM paTawi, here xevaxawwa should not be mar
                     then match viBakwiH1 with
                 [ 1 -> let rel = handle_sp_compounds id1 cid1 mid1 id2 cid2 mid2 rt1 word1 pUrvapaxa1 uwwarapaxa1 lifgam1 in
 	               if (not (rel=[])) then rel 
-                       else if (finite_verb_in_sentence.val=50 ||
+                       else if 
+                           (* (finite_verb_in_sentence.val=50 ||
                            finite_verb_in_sentence.val=id2  ||
                            finite_verb_in_sentence.val=id1 || iwi_pos.val = id2+1)
                       (*This condition creates a problem when a word has both sup and wif analysis and wif analysis is not the desired output. Ex: wena mama ayam mohaH vigawaH , here mohaH is not marked*)
-                      &&  noun_agreement vacanam1 vacanam2 lifgam1 lifgam2
+                      &&  *)  noun_agreement vacanam1 vacanam2 lifgam1 lifgam2
                       && (pUrvapaxa2="n")  (* word should not be related to the pUrvapaxa -- I have examples with other kaarakas but not with karma *)
                       && viBakwiH2=1
                       && (uwwarapaxa2 = "n")  (* If it is an uwwarapaxa && kwa, with Tatpurusha, its karma would have been the pUrvapaxa *)
@@ -1253,6 +1269,8 @@ This condition is added, to rule out the possibility of karwA in Sloka form when
                         ; Relation (id1,cid1,mid1,"karma",id2,cid2,mid2,"3.2",d12) ]
                    else if members_of rt2 upasarga2 gawyarWa_verbs && uwwarapaxa2="n"
                    then [ Relation (id1,cid1,mid1,"gawikarwA",id2,cid2,mid2,"3.3a" ,d12) ]
+                   else if members_of rt2 upasarga2 karwqsamAnAXikaraNa_verbs
+                   then [ Relation (id1,cid1,mid1,"karwA_be_verbs",id2,cid2,mid2,"3.3b", d12)]  
                    else if members_of rt2 upasarga2 akarmaka_verbs && uwwarapaxa2="n"
                    then [ Relation (id1,cid1,mid1,"karwA",id2,cid2,mid2,"3.3" ,d12) ]
                     (*3-4-71 AxikarmaNi kwaH karwari ca . 3-4-72 gawyarWAkarmakaSliRaSIfsWAZZsavasajanaruhajIryawiByaSca.
@@ -1264,7 +1282,7 @@ This condition is added, to rule out the possibility of karwA in Sloka form when
                          then [ Relation (id1,cid1,mid1,"karmasamAnAXikaraNam",id2,cid2,mid2,"3.5",d12)
                               ; Relation (id1,cid1,mid1,"muKyakarma",id2,cid2,mid2,"3.6",d12)]  
                    else if members_of rt2 upasarga2 sakarmaka_verbs  && uwwarapaxa2="n"
-                        &&  (finite_verb_in_sentence.val == 50 || iwi_pos.val = id2+1)
+                        (* &&  (finite_verb_in_sentence.val == 50 || iwi_pos.val = id2+1) -- this is commented to allow the karma relation between AgacCan and KaNdiwaH in bAlakasya samIpam AgacCan sarpaH KaNdiwaH -- AgacCa has both wif and kqw readings. Hence finite_verb_in_sentence.val == 50 cannnot be used *)
 (* -- mayA sIwA xqRtA iwi saH nyavexayaw, final verb is present, and sIwA is karma for xqRtA : Solution -- Treat these as two different sentences with a full stop before iwi.
                            Here is a problematic sentence: waM vrajanwaM priyaH BrAwA lakRmaNaH anujagAma snehAw vinaya-sampannaH sumiwrAnanxa-varXanaH BrAwaraM xayiwaH BrAwuH sOBrAwram anuxarSayan
 			   In this sumiwrAnanxa-varXanaH is marked as karma of vinaya-sampannaH, which is wrong *)
@@ -2290,8 +2308,9 @@ value rlsamAnakAla m1 m2 text_type = match m1 with
           samAna_ananwarakAla id1 cid1 mid1 id2 cid2 mid2 text_type kqw1 viBakwiH1 vacanam1 vacanam2 "16.1" "16.2"
        | Kqw (id2,cid2,mid2,word2,_,_,_,kqw2,_,_,_,pu2,uw2,_,viBakwiH2,vacanam2,_) ->
             if   not(pu2="y" || uw2="y")
-             &&  not (viBakwiH2 = 8) &&  (kqw2 = "kwa" || kqw2 = "kwavawu" || kqw2 = "aNiyar" || kqw2 = "wavyaw") && finite_verb_in_sentence.val == 50
-            then samAna_ananwarakAla id1 cid1 mid1 id2 cid2 mid2 text_type kqw1 viBakwiH1 vacanam1 vacanam2 "16.1" "16.2"
+             &&  not (viBakwiH2 = 8) &&  (kqw2 = "kwa" || kqw2 = "kwavawu" || kqw2 = "aNiyar" || kqw2 = "wavyaw") 
+(* && finite_verb_in_sentence.val == 50  -- This is commented, because in the case of AgacCan, there are both finite verb analysis as well as kqw analysis, and due to this condition, the samAna kAla was not marked for it. *)
+            then samAna_ananwarakAla id1 cid1 mid1 id2 cid2 mid2 text_type kqw1 viBakwiH1 vacanam1 vacanam2 "16.3" "16.4"
             else []
        |_ -> []
        ] else []
