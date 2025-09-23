@@ -3,5 +3,6 @@ value karwqsamAnAXikaraNa_XAwu_list = [
 "SuB2";
 "as2";
 "vqw1";
+"jan2"; (* mama SarIram jvareNa kqRam jAwam *)
 ]
 ;
