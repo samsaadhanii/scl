@@ -1083,7 +1083,9 @@
 <prAwipaxikam>भज्</prAwipaxikam>
 <grammar><gaNa>चुरा*</gaNa><paxI>उभ*</paxI><vform>भाजयति</vform>,<vform>भाजयते</vform></grammar>
 <sense no="1">पकाना</sense>
-<sense no="2">देनाकई विद्वानों के मतानुसार यह ’भज्’ के ही प्रेर* रूप है</sense></segmenthd></lexhead>
+<sense no="2">देनाकई विद्वानों के मतानुसार यह ’भज्’ के ही प्रेर* रूप है</sense></segmenthd>
+</lexhead>
+
 <lexhead no="48">
 <dentry>भजकः</dentry>
 <prAwipaxikam>भजक</prAwipaxikam>
@@ -7979,6 +7981,7 @@
 <grammar><gaNa>भ्वा*</gaNa><paxI>पर*</paxI></grammar>
 <sense no="1">व्यर्थ होना</sense></compound>
 </lexhead>
+
 <lexhead  no="422a">
 <dentry>भू_णिच्</dentry>
 <prAwipaxikam>भू_णिच्</prAwipaxikam>
