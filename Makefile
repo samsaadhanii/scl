@@ -30,6 +30,7 @@ install:
 	cp paths.pl paths.sh cgi_interface.pl $(CGIDIR)/$(SCL_CGI)
 	cd ashtadhyayi_simulator/june12; make install
 	cd amarakosha; make install
+	cp -r kosha_concordance $(HTDOCSDIR)/$(SCL_HTDOCS)
 	cd NN; make install
 	cd YMK; make install
 	mkdir -p $(HTDOCSDIR)/$(SCL_HTDOCS)/Post-editing; cp Post-editing/ViewGraph*.html $(HTDOCSDIR)/$(SCL_HTDOCS)/Post-editing
