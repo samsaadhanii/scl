@@ -1,0 +1,48 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node4_1 [style=filled, color="#93DB70" label = "लङ्काम्(4.1)"]
+Node3_1 [style=filled, color="#93DB70" label = "पुरीम्(3.1)"]
+
+}
+
+subgraph cluster_2{
+Node8_1 [style=filled, color="#93DB70" label = "मैथिलीम्(8.1)"]
+Node6_1 [style=filled, color="#93DB70" label = "सीताम्(6.1)"]
+
+}
+Node1_1 [style=filled, color="#FF99FF" label = "ततः(1.1)"]
+Node13_1 [style=filled, color="#FF1975" label = "आयात्(13.1)"]
+Node2_1 [style=filled, color="#FF99FF" label = "दग्ध्वा(2.1)"]
+Node3_1 [style=filled, color="#93DB70" label = "पुरीम्(3.1)"]
+Node5_1 [style=filled, color="#FF99FF" label = "ऋते(5.1)"]
+Node6_1 [style=filled, color="#93DB70" label = "सीताम्(6.1)"]
+Node7_1 [style=filled, color="#FF99FF" label = "च(7.1)"]
+Node9_1 [style=filled, color="#B0E2FF" label = "रामाय(9.1)"]
+Node11_1 [style=filled, color="#FF99FF" label = "आख्यातुम्(11.1)"]
+Node10_1 [style=filled, color="#93DB70" label = "प्रियम्(10.1)"]
+Node12_1 [style=filled, color="#FF99FF" label = "पुनः(12.1)"]
+Node14_2 [style=filled, color="#00BFFF" label = "कपिः(14.2)"]
+Node [style=filled, color="" label = "()"]
+Node14_1 [style=filled, color="#FFFF00" label = "महा-(14.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node13_1 [  label="सम्बन्धः"  dir="back" ]
+Node2_1 -> Node13_1 [  label="पूर्वकालः"  dir="back" ]
+Node3_1 -> Node2_1 [  label="कर्म"  dir="back" ]
+Node4_1 -> Node3_1 [  label="विशेषणम्"  dir="back" ]
+Node5_1 -> Node6_1 [  label="विनार्थ_द्योतकः"  dir="back" ]
+Node6_1 -> Node13_1 [  label="विनार्थः"  dir="back" ]
+Node7_1 -> Node6_1 [  label="सम्बन्धः"  dir="back" ]
+Node8_1 -> Node6_1 [  label="विशेषणम्"  dir="back" ]
+Node9_1 -> Node11_1 [  label="प्रयोजनम्"  dir="back" ]
+Node10_1 -> Node11_1 [  label="कर्म"  dir="back" ]
+Node11_1 -> Node13_1 [  label="प्रयोजनम्"  dir="back" ]
+Node12_1 -> Node13_1 [  label="क्रियाविशेषणम्"  dir="back" ]
+Node14_1 -> Node14_2 [  label="कर्मधारयः"  dir="back" ]
+Node14_2 -> Node13_1 [  label="कर्ता"  dir="back" ]
+Node14_2 -> Node2_1 [ style=dotted label="कर्ता"  dir="back" ]
+}

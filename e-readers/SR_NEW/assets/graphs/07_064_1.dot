@@ -1,0 +1,37 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node5_1 [style=filled, color="#93DB70" label = "उत्तमम्(5.1)"]
+Node4_1 [style=filled, color="#93DB70" label = "कायम्(4.1)"]
+Node8_3 [style=filled, color="#93DB70" label = "संनिभम्(8.3)"]
+
+}
+Node1_1 [style=filled, color="#FFFF00" label = "राघव-(1.1)"]
+Node1_2 [style=filled, color="#FFFF00" label = "प्रत्यय-(1.2)"]
+Node1_3 [style=filled, color="#93DB70" label = "अर्थम्(1.3)"]
+Node6_1 [style=filled, color="#FF1975" label = "दर्शयामास(6.1)"]
+Node2_1 [style=filled, color="#FF99FF" label = "तु(2.1)"]
+Node3_1 [style=filled, color="#87CEEB" label = "दुन्दुभेः(3.1)"]
+Node4_1 [style=filled, color="#93DB70" label = "कायम्(4.1)"]
+Node7_1 [style=filled, color="#00BFFF" label = "सुग्रीवः(7.1)"]
+Node [style=filled, color="" label = "()"]
+Node8_1 [style=filled, color="#FFFF00" label = "महा-(8.1)"]
+Node8_2 [style=filled, color="#FFFF00" label = "पर्वत-(8.2)"]
+Node8_3 [style=filled, color="#93DB70" label = "संनिभम्(8.3)"]
+/* Start of Relations section */
+
+Node1_1 -> Node1_2 [  label="षष्ठी-तत्पुरुषः"  dir="back" ]
+Node1_2 -> Node1_3 [  label="चतुर्थी-तत्पुरुषः"  dir="back" ]
+Node1_3 -> Node6_1 [  label="प्रयोजनम्"  dir="back" ]
+Node2_1 -> Node1_3 [  label="सम्बन्धः"  dir="back" ]
+Node3_1 -> Node4_1 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node4_1 -> Node6_1 [  label="कर्म"  dir="back" ]
+Node5_1 -> Node4_1 [  label="विशेषणम्"  dir="back" ]
+Node7_1 -> Node6_1 [  label="प्रयोजककर्ता"  dir="back" ]
+Node8_1 -> Node8_2 [  label="कर्मधारयः"  dir="back" ]
+Node8_2 -> Node8_3 [  label="तृतीया-तत्पुरुषः"  dir="back" ]
+Node8_3 -> Node4_1 [  label="विशेषणम्"  dir="back" ]
+}

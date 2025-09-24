@@ -1,0 +1,21 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+Node1_1 [style=filled, color="#93DB70" label = "प्रतिज्ञातम्(1.1)"]
+Node [style=filled, color="" label = "()"]
+Node2_1 [style=filled, color="#FF99FF" label = "च(2.1)"]
+Node3_1 [style=filled, color="#40E0D0" label = "रामेण(3.1)"]
+Node4_1 [style=filled, color="#FF99FF" label = "तदा(4.1)"]
+Node5_1 [style=filled, color="#FFFF00" label = "वालि-(5.1)"]
+Node5_2 [style=filled, color="#93DB70" label = "वधम्(5.2)"]
+Node6_1 [style=filled, color="#FF99FF" label = "प्रति(6.1)"]
+/* Start of Relations section */
+
+Node2_1 -> Node1_1 [  label="सम्बन्धः"  dir="back" ]
+Node3_1 -> Node1_1 [  label="कर्ता"  dir="back" ]
+Node4_1 -> Node1_1 [  label="कालाधिकरणम्"  dir="back" ]
+Node5_1 -> Node5_2 [  label="षष्ठी-तत्पुरुषः"  dir="back" ]
+Node5_2 -> Node1_1 [  label="आभिमुख्यम्"  dir="back" ]
+Node6_1 -> Node1_1 [  label="आभिमुख्य_द्योतकः"  dir="back" ]
+}

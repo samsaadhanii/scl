@@ -1,0 +1,50 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node3_1 [style=filled, color="#93DB70" label = "तत्(3.1)"]
+Node4_1 [style=filled, color="#93DB70" label = "वाक्यम्(4.1)"]
+
+}
+
+subgraph cluster_2{
+Node6_2 [style=filled, color="#00BFFF" label = "चोदितः(6.2)"]
+Node5_1 [style=filled, color="#00BFFF" label = "रावणः(5.1)"]
+Node8_2 [style=filled, color="#00BFFF" label = "मारीचः(8.2)"]
+
+}
+Node1_1 [style=filled, color="#FFFF00" label = "अन्-(1.1)"]
+Node1_2 [style=filled, color="#FF99FF" label = "आदृत्य(1.2)"]
+Node7_1 [style=filled, color="#FF1975" label = "जगाम(7.1)"]
+Node2_1 [style=filled, color="#FF99FF" label = "तु(2.1)"]
+Node4_1 [style=filled, color="#93DB70" label = "वाक्यम्(4.1)"]
+Node5_1 [style=filled, color="#00BFFF" label = "रावणः(5.1)"]
+Node6_1 [style=filled, color="#FFFF00" label = "काल-(6.1)"]
+Node6_2 [style=filled, color="#00BFFF" label = "चोदितः(6.2)"]
+Node [style=filled, color="" label = "()"]
+Node8_1 [style=filled, color="#FFFF00" label = "सह-(8.1)"]
+Node8_2 [style=filled, color="#00BFFF" label = "मारीचः(8.2)"]
+Node9_1 [style=filled, color="#87CEEB" label = "तस्य(9.1)"]
+Node10_2 [style=filled, color="#93DB70" label = "पदम्(10.2)"]
+Node10_1 [style=filled, color="#FFFF00" label = "आश्रम-(10.1)"]
+Node11_1 [style=filled, color="#FF99FF" label = "तदा(11.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node1_2 [  label="नञ्-तत्पुरुषः"  dir="back" ]
+Node1_2 -> Node7_1 [  label="पूर्वकालः"  dir="back" ]
+Node2_1 -> Node1_2 [  label="सम्बन्धः"  dir="back" ]
+Node3_1 -> Node4_1 [  label="विशेषणम्"  dir="back" ]
+Node4_1 -> Node1_2 [  label="कर्म"  dir="back" ]
+Node5_1 -> Node7_1 [  label="कर्ता"  dir="back" ]
+Node5_1 -> Node1_2 [ style=dotted label="कर्ता"  dir="back" ]
+Node6_1 -> Node6_2 [  label="तृतीया-तत्पुरुषः"  dir="back" ]
+Node6_2 -> Node5_1 [  label="विशेषणम्"  dir="back" ]
+Node8_1 -> Node8_2 [  label="सहपूर्वपद-व्यधिकरण-बहुव्रीहिः"  dir="back" ]
+Node8_2 -> Node5_1 [  label="विशेषणम्"  dir="back" ]
+Node9_1 -> Node10_2 [  label="षष्ठीसम्बन्धः"  dir="back" ]
+Node10_1 -> Node10_2 [  label="कर्मधारयः"  dir="back" ]
+Node10_2 -> Node7_1 [  label="कर्म"  dir="back" ]
+Node11_1 -> Node7_1 [  label="कालाधिकरणम्"  dir="back" ]
+}

@@ -1,0 +1,48 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node1_1 [style=filled, color="#93DB70" label = "एतत्(1.1)"]
+Node2_1 [style=filled, color="#93DB70" label = "आख्यानम्(2.1)"]
+Node3_1 [style=filled, color="#93DB70" label = "आयुष्यम्(3.1)"]
+Node5_1 [style=filled, color="#93DB70" label = "रामायणम्(5.1)"]
+
+}
+
+subgraph cluster_2{
+Node4_1 [style=filled, color="#00BFFF" label = "पठन्(4.1)"]
+Node6_1 [style=filled, color="#00BFFF" label = "नरः(6.1)"]
+Node7_3 [style=filled, color="#00BFFF" label = "पौत्रः(7.3)"]
+Node8_2 [style=filled, color="#00BFFF" label = "-गणः(8.2)"]
+
+}
+Node2_1 [style=filled, color="#93DB70" label = "आख्यानम्(2.1)"]
+Node4_1 [style=filled, color="#00BFFF" label = "पठन्(4.1)"]
+Node6_1 [style=filled, color="#00BFFF" label = "नरः(6.1)"]
+Node11_1 [style=filled, color="#FF1975" label = "महीयते(11.1)"]
+Node9_1 [style=filled, color="#FF99FF" label = "प्रेत्य(9.1)"]
+Node7_1 [style=filled, color="#FFFF00" label = "स-(7.1)"]
+Node7_3 [style=filled, color="#00BFFF" label = "पौत्रः(7.3)"]
+Node7_2 [style=filled, color="#FFFF00" label = "-पुत्र-(7.2)"]
+Node8_1 [style=filled, color="#FFFF00" label = "स-(8.1)"]
+Node8_2 [style=filled, color="#00BFFF" label = "-गणः(8.2)"]
+Node10_1 [style=filled, color="#C6E2EB" label = "स्वर्गे(10.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node2_1 [  label="विशेषणम्"  dir="back" ]
+Node2_1 -> Node4_1 [  label="कर्म"  dir="back" ]
+Node3_1 -> Node2_1 [  label="विशेषणम्"  dir="back" ]
+Node4_1 -> Node6_1 [  label="विशेषणम्"  dir="back" ]
+Node5_1 -> Node2_1 [  label="विशेषणम्"  dir="back" ]
+Node6_1 -> Node11_1 [  label="कर्ता"  dir="back" ]
+Node6_1 -> Node9_1 [ style=dotted label="कर्ता"  dir="back" ]
+Node7_1 -> Node7_3 [  label="बहुव्रीहिः"  dir="back" ]
+Node7_2 -> Node7_3 [  label="इतरेतर-द्वन्द्वः"  dir="back" ]
+Node7_3 -> Node6_1 [  label="विशेषणम्"  dir="back" ]
+Node8_1 -> Node8_2 [  label="बहुव्रीहिः"  dir="back" ]
+Node8_2 -> Node6_1 [  label="विशेषणम्"  dir="back" ]
+Node9_1 -> Node11_1 [  label="पूर्वकालः"  dir="back" ]
+Node10_1 -> Node11_1 [  label="अधिकरणम्"  dir="back" ]
+}

@@ -1,0 +1,10 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+Node1_1 [style=filled, color="#FF1975" label = "स्यात्(1.1)"]
+Node2_1 [style=filled, color="#00BFFF" label = "क्षत्रियः(2.1)"]
+/* Start of Relations section */
+
+Node2_1 -> Node1_1 [  label="कर्ता"  dir="back" ]
+}

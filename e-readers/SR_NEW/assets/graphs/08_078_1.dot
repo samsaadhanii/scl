@@ -1,0 +1,48 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+
+subgraph cluster_1{
+Node1_1 [style=filled, color="#00BFFF" label = "सः(1.1)"]
+Node8_2 [style=filled, color="#00BFFF" label = "आत्मा(8.2)"]
+
+}
+
+subgraph cluster_2{
+Node3_2 [style=filled, color="#93DB70" label = "आत्मानम्(3.2)"]
+Node5_1 [style=filled, color="#93DB70" label = "रामम्(5.1)"]
+
+}
+Node2_1 [style=filled, color="#FF99FF" label = "अभिगम्य(2.1)"]
+Node7_1 [style=filled, color="#FF1975" label = "न्यवेदयत्(7.1)"]
+Node3_1 [style=filled, color="#FFFF00" label = "महा-(3.1)"]
+Node3_2 [style=filled, color="#93DB70" label = "आत्मानम्(3.2)"]
+Node4_1 [style=filled, color="#FF99FF" label = "कृत्वा(4.1)"]
+Node5_1 [style=filled, color="#93DB70" label = "रामम्(5.1)"]
+Node6_1 [style=filled, color="#93DB70" label = "प्रदक्षिणम्(6.1)"]
+Node8_2 [style=filled, color="#00BFFF" label = "आत्मा(8.2)"]
+Node [style=filled, color="" label = "()"]
+Node8_1 [style=filled, color="#FFFF00" label = "अमेय-(8.1)"]
+Node9_1 [style=filled, color="#00BFFF" label = "दृष्टा(9.1)"]
+Node10_1 [style=filled, color="#00BFFF" label = "सीता(10.1)"]
+Node11_1 [style=filled, color="#FF99FF" label = "इति(11.1)"]
+Node12_1 [style=filled, color="#FF99FF" label = "तत्त्वतः(12.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node8_2 [  label="विशेषणम्"  dir="back" ]
+Node2_1 -> Node7_1 [  label="पूर्वकालः"  dir="back" ]
+Node3_1 -> Node3_2 [  label="बहुव्रीहिः"  dir="back" ]
+Node3_2 -> Node5_1 [  label="विशेषणम्"  dir="back" ]
+Node4_1 -> Node7_1 [  label="पूर्वकालः"  dir="back" ]
+Node5_1 -> Node2_1 [  label="कर्म"  dir="back" ]
+Node6_1 -> Node4_1 [  label="कर्म"  dir="back" ]
+Node8_1 -> Node8_2 [  label="बहुव्रीहिः"  dir="back" ]
+Node8_2 -> Node7_1 [  label="कर्ता"  dir="back" ]
+Node8_2 -> Node4_1 [ style=dotted label="कर्ता"  dir="back" ]
+Node8_2 -> Node2_1 [ style=dotted label="कर्ता"  dir="back" ]
+Node9_1 -> Node7_1 [  label="वाक्यकर्म"  dir="back" ]
+Node10_1 -> Node9_1 [  label="कर्म"  dir="back" ]
+Node11_1 -> Node9_1 [  label="वाक्यकर्म_द्योतकः"  dir="back" ]
+Node12_1 -> Node9_1 [  label="क्रियाविशेषणम्"  dir="back" ]
+}

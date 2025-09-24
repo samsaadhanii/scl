@@ -1,0 +1,26 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+Node1_1 [style=filled, color="#00BFFF" label = "सः(1.1)"]
+Node6_1 [style=filled, color="#FF1975" label = "(अस्ति)(6.1)"]
+Node2_1 [style=filled, color="#FF99FF" label = "च(2.1)"]
+Node3_1 [style=filled, color="#FFFF00" label = "सर्व-(3.1)"]
+Node3_2 [style=filled, color="#FFFF00" label = "गुण-(3.2)"]
+Node3_3 [style=filled, color="#00BFFF" label = "उपेतः(3.3)"]
+Node4_1 [style=filled, color="#FFFF00" label = "कौसल्या-(4.1)"]
+Node4_2 [style=filled, color="#FFFF00" label = "आनन्द-(4.2)"]
+Node4_3 [style=filled, color="#00BFFF" label = "वर्धनः(4.3)"]
+Node5_1 [style=filled, color="#FF99FF" label = "(च)(5.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node6_1 [  label="कर्ता"  dir="back" ]
+Node2_1 -> Node1_1 [  label="सम्बन्धः"  dir="back" ]
+Node3_1 -> Node3_2 [  label="कर्मधारयः"  dir="back" ]
+Node3_2 -> Node3_3 [  label="तृतीया-तत्पुरुषः"  dir="back" ]
+Node3_3 -> Node1_1 [  label="विधेय_विशेषणम्"  dir="back" ]
+Node4_1 -> Node4_2 [  label="षष्ठी-तत्पुरुषः"  dir="back" ]
+Node4_2 -> Node4_3 [  label="षष्ठी-तत्पुरुषः"  dir="back" ]
+Node4_3 -> Node1_1 [  label="विधेय_विशेषणम्"  dir="back" ]
+Node5_1 -> Node4_3 [  label="सम्बन्धः"  dir="back" ]
+}

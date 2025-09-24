@@ -1,0 +1,70 @@
+#maindiv {
+/*width:80%;*/
+margin:0 auto;
+/*margin-right:10%;
+border:1px solid gray;*/
+height:auto;
+width:1150px;
+position:relative;
+font-family:verdana;
+}
+
+#banner {
+height:150px;
+border:1px solid gray;
+background-color:white;
+
+}
+#heading {
+color:blue;
+font-size:25px;
+
+}
+#image {
+height:200px;
+border:1px solid gray;
+margin-top:5px;
+background-color:white;
+}
+#information {
+/*height:480px;*/
+height:auto;
+border:1px solid gray;
+margin-top:5px;
+background-color:white;
+
+}
+#information1 {
+height:300px;
+border:1px solid gray;
+margin-top:5px;
+background-color:white;
+
+}
+#information2 {
+/*height:395px;*/
+height:auto;
+border:1px solid gray;
+margin-top:5px;
+background-color:white;
+}
+#information3 {
+height:100px;
+border:1px solid gray;
+margin-top:5px;
+background-color:white;
+}
+a {
+color:blue;
+text-decoration:none;
+}
+a:hover {
+color:blue;
+text-decoration:underline;
+border:1px dashed #ccc;
+}
+a:active {
+}
+link.td {
+background-color:#ccc;
+}

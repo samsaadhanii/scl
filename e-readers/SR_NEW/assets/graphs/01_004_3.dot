@@ -1,0 +1,16 @@
+digraph G{
+rankdir=BT;
+ compound=true;
+ bgcolor="lemonchiffon1";
+Node1_1 [style=filled, color="#00BFFF" label = "कः(1.1)"]
+Node4_1 [style=filled, color="#FF1975" label = "(अस्ति)(4.1)"]
+Node2_1 [style=filled, color="#FFFF00" label = "अन्-(2.1)"]
+Node2_2 [style=filled, color="#00BFFF" label = "असूयकः(2.2)"]
+Node3_1 [style=filled, color="#FF99FF" label = "(च)(3.1)"]
+/* Start of Relations section */
+
+Node1_1 -> Node4_1 [  label="कर्ता"  dir="back" ]
+Node2_1 -> Node2_2 [  label="नञ्-तत्पुरुषः"  dir="back" ]
+Node2_2 -> Node1_1 [  label="विधेय_विशेषणम्"  dir="back" ]
+Node3_1 -> Node2_2 [  label="सम्बन्धः"  dir="back" ]
+}
