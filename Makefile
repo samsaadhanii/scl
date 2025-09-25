@@ -38,7 +38,7 @@ install:
 	cp -r dhaatupaatha $(HTDOCSDIR)/$(SCL_HTDOCS)
 	cp scl_help.pdf $(HTDOCSDIR)/$(SCL_HTDOCS)
 	mkdir $(HTDOCSDIR)/$(SCL_HTDOCS)/API_DOC; cp API_DOC/API_DOC.pdf $(HTDOCSDIR)/$(SCL_HTDOCS)/API_DOC
-	#mkdir -p $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers
+	mkdir -p $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers
 	cp -r e-readers/sankshepa_ramayanam $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers
 	#cp -r e-readers/1000Sents $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers
 	cp -r e-readers/SR_NEW $(HTDOCSDIR)/$(SCL_HTDOCS)/e-readers
