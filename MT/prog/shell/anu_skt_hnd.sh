@@ -116,7 +116,7 @@ hnd_gen () {
     $ANU_MT_PATH/chunker/lwg.pl |\
     $ANU_MT_PATH/map/add_dict_mng.pl $CGIDIR/$SCL_CGI $ANU_MT_PATH/../data hi |\
     $ANU_MT_PATH/map/lwg_avy_avy.pl $CGIDIR/$SCL_CGI $ANU_MT_PATH/../data hi  |\
-    $ANU_MT_PATH/hn/sent_gen/agreement.pl $ANU_MT_PATH/../data $ANU_MT_PATH/hn/sent_gen |\
+    $ANU_MT_PATH/hn/sent_gen/agreement.pl $ANU_MT_PATH/../data $ANU_MT_PATH/hn/sent_gen D |\
     $ANU_MT_PATH/hn/sent_gen/call_gen.pl $CGIDIR/$SCL_CGI  |\
     $ANU_MT_PATH/interface/modify_mo_for_display.pl $CGIDIR/$SCL_CGI > $temp_files_path/ttt
     #cp $temp_files_path/ttt $temp_files_path/$fbn.out

@@ -87,6 +87,7 @@ EXTEND Gram
         "(sanAxi_prawyayaH"; san = IDENT; ")"; 
         "(kqw_prawyayaH"; kp = IDENT; ")"; 
         (*"(XAwuH"; rtwithiw = IDENT; ")"; *)
+        "(prayogaH"; prayoga = IDENT; ")"; 
         "(gaNaH"; gana = IDENT; ")"; 
         "(kqw_pratipadika"; r = IDENT; ")"; 
         "(lifgam"; ling = IDENT; ")"; 
@@ -96,7 +97,7 @@ EXTEND Gram
         "(relata_pos_id"; rel_pos_id = INT; ")";
         "(relata_pos_cid"; rel_pos_cid = INT; ")";
     ")" -> 
-    (int_of_string i,int_of_string m,w,kqwrt,cp,cu,upa,san,kp,gana,r,ling,int_of_string vib,vac, rel, int_of_string rel_pos_id, int_of_string rel_pos_cid)
+    (int_of_string i,int_of_string m,w,kqwrt,cp,cu,upa,san,kp,prayoga,gana,r,ling,int_of_string vib,vac, rel, int_of_string rel_pos_id, int_of_string rel_pos_cid)
     ] ] ;
 
   avy:
@@ -533,14 +534,14 @@ value kaalavaaci = build_trie kaalavaaci_list
 
 value distinct_2 m1 m2 = match m1 with
   [ Wif (id1,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
-  | Kqw (id1,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+  | Kqw (id1,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
   | Avykqw (id1,_,_,_,_,_,_,_,_,_,_,_,_)
   | AvywaxXiwa (id1,_,_,_,_,_,_,_,_,_)
   | Sup (id1,_,_,_,_,_,_,_,_,_,_,_)
   | Avy (id1,_,_,_,_,_,_,_,_)
   | WaxXiwa (id1,_,_,_,_,_,_,_,_,_,_,_,_) -> match m2 with
   	[ Wif (id2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
-  	| Kqw (id2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
+  	| Kqw (id2,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
  	| Avykqw (id2,_,_,_,_,_,_,_,_,_,_,_,_)
  	| AvywaxXiwa (id2,_,_,_,_,_,_,_,_,_)
  	| Sup (id2,_,_,_,_,_,_,_,_,_,_,_)
@@ -598,9 +599,9 @@ value next id = id+1
 value remove_viSeRaNa_viBakwiH m1 = match m1 with
   [ Sup (id1,cid1,word1,rt1,_,_,_,viBakwiH1,_,rel,_,_)
   | WaxXiwa (id1,cid1,word1,rt1,_,_,_,_,viBakwiH1,_,rel,_,_)
-  | Kqw (id1,cid1,word1,_,_,_,_,_,_,rt1,_,_,viBakwiH1,_,rel,_,_) ->
+  | Kqw (id1,cid1,word1,_,_,_,_,_,_,_,rt1,_,_,viBakwiH1,_,rel,_,_) ->
       if rel="viSeRaNam" then
-           [ Relation (id1,cid1,"viBakwiH",string_of_int viBakwiH1,"0","1.1")]
+           [ Relation (id1,cid1,"viBakwiH",string_of_int viBakwiH1,"0","1.4")]
       else []
   | _ -> []
   ]
@@ -609,7 +610,7 @@ value remove_viSeRaNa_viBakwiH m1 = match m1 with
 value change_nirXAraNa_viBakwiH m1 = match m1 with
   [ Sup (id1,cid1,word1,rt1,_,_,_,viBakwiH1,_,rel,_,_)
   | WaxXiwa (id1,cid1,word1,rt1,_,_,_,_,viBakwiH1,_,rel,_,_)
-  | Kqw (id1,cid1,word1,_,_,_,_,_,_,rt1,_,_,viBakwiH1,_,rel,_,_) ->
+  | Kqw (id1,cid1,word1,_,_,_,_,_,_,_,rt1,_,_,viBakwiH1,_,rel,_,_) ->
       if rel="nirXAraNam"  && viBakwiH1 = 6 then
            [ Relation (id1,cid1,"viBakwiH",string_of_int viBakwiH1,"7meM","2.1")]
       else []
@@ -619,7 +620,7 @@ value change_nirXAraNa_viBakwiH m1 = match m1 with
 
 value disambiguate_viBakwiH m1 m2 = match m1 with
   [ Sup (id1,cid1,word1,rt1,_,_,_,viBakwiH1,_,rel,relata_pos_id,relata_pos_cid) 
-  | Kqw (id1,cid1,word1,_,_,_,_,_,_,rt1,_,_,viBakwiH1,_,rel,relata_pos_id,relata_pos_cid) ->
+  | Kqw (id1,cid1,word1,_,_,_,_,_,_,_,rt1,_,_,viBakwiH1,_,rel,relata_pos_id,relata_pos_cid) ->
       match viBakwiH1 with
       [ 2 -> match m2 with
              [ Wif (id2,cid2,_,rt2,_,_,_,sanAxiH2,_,_,_,_,_,_,_,_,_)->
@@ -910,11 +911,11 @@ value handle_lvc m1 m2 = match m1 with
  * kwa/kwavawu = yA_huA in Hindi, but kwa final is yA
  * *)
 value disambiguate_final_kqw m1 = match m1 with
-  [ Kqw (id1,cid1,word1,_,_,_,_,kqw_prawyayaH,_,rt1,_,_,_,_,rel,_,_) ->
-      if rel="X"  && kqw_prawyayaH = "kwa" then
+  [ Kqw (id1,cid1,word1,_,_,_,_,_,_,kqw_prawyayaH,_,rt1,_,_,_,rel,_,_) ->
+      if (rel="X" && kqw_prawyayaH = "kwa") then
         [ Relation (id1,cid1,"kqw_prawyayaH",kqw_prawyayaH,"kwa_fin","1.1") ]
-        else if rel="X"  && kqw_prawyayaH = "kwavawu" then
-        [ Relation (id1,cid1,"kqw_prawyayaH",kqw_prawyayaH,"kwavawu_fin","1.1") ]
+      else if (rel="X" && kqw_prawyayaH = "kwavawu") then
+        [ Relation (id1,cid1,"kqw_prawyayaH",kqw_prawyayaH,"kwavawu_fin","1.2") ]
       else []
   | _ -> []
   ]
@@ -923,10 +924,10 @@ value disambiguate_final_kqw m1 = match m1 with
 (* To Disambiguate the Sawq - varwamAnasamAnakAlaH / viSeRaNam
  *  Sawq = wA_huA in Hindi if viSeRaNam, if adv it is we_hue
  *)
-value disambiguate_final_kqw m1 = match m1 with
-  [ Kqw (id1,cid1,word1,_,_,_,_,kqw_prawyayaH,_,rt1,_,_,_,_,rel,_,_) ->
+value disambiguate_Sawq m1 = match m1 with
+  [ Kqw (id1,cid1,word1,_,_,_,_,_,kqw_prawyayaH,_,rt1,_,_,_,_,rel,_,_) ->
       if rel="varwamAnasamAnakAlaH"  && kqw_prawyayaH = "Sawq_lat" then
-        [ Relation (id1,cid1,"kqw_prawyayaH",kqw_prawyayaH,"Sawq_lat_adv","1.1") ]
+        [ Relation (id1,cid1,"kqw_prawyayaH",kqw_prawyayaH,"Sawq_lat_adv","1.3") ]
       else []
   | _ -> []
   ]
@@ -944,7 +945,7 @@ value all_rules2 =
 
 value all_rules1 = 
 [
-        disambiguate_avys; disambiguate_kim; remove_viSeRaNa_viBakwiH; disambiguate_final_kqw; change_nirXAraNa_viBakwiH
+        disambiguate_avys; disambiguate_kim; remove_viSeRaNa_viBakwiH; disambiguate_final_kqw; disambiguate_Sawq; change_nirXAraNa_viBakwiH
 ]
 ;
 
@@ -956,7 +957,8 @@ value wsd_engine3 morphs =
            let relations_m1 = loop2 [] morphs
            where rec loop2 acc2 = fun
            [ [] -> List.fold_left collate acc1 all_rules1 where
-                   collate rls rule = match rule m1 with
+                   collate rls rule = 
+                   match rule m1 with
                    [ [] -> List2.union rls acc2
                    | r -> [ r :: rls ]
                    ]
@@ -987,7 +989,7 @@ value wsd_engine3 morphs =
 value process morphs = do
   { (* List.iter print_morph_id morphs *) (* we print the input for verification *)
    
-   List.iter print_relation_list (wsd_engine3 morphs)
+    List.iter print_relation_list (wsd_engine3 morphs)
 (*   ;List.iter print_relation_list (wsd_engine2 morphs text_type) *)
   }
 ;

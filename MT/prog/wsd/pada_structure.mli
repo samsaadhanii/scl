@@ -32,7 +32,7 @@ and wif = ( int * int * string * string * string * string * string * string * st
   ; relata_pos_id : int
   ; relata_pos_cid : int
   }*)
-and kqw = ( int * int * string *  string * string * string * string * string * string * string * string * string * int * string * string * int * int)
+and kqw = ( int * int * string *  string * string * string * string * string * string * string * string * string * string * int * string * string * int * int)
 (*{ id : int   
   ; cid : int   
   ; word : string   
@@ -42,6 +42,7 @@ and kqw = ( int * int * string *  string * string * string * string * string * s
   ; kqw_prawyayaH : string   
    (*; dhatu : string   *)
   ; gaNaH : string
+  ; prayogaH : string
   ; kqw_pratipadika : string   
   ; pUrvapaxa : string
   ; uwwarapaxa : string
