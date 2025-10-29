@@ -21,7 +21,6 @@ value vAkyakarma_XAwu_list = [
 "pra_brU1";
 "pra_kaWa1";
 "pra_pax1";
-"pqR1";
 "prawi_jFA1";
 "sUca1";
 "sam_Af_XA1";

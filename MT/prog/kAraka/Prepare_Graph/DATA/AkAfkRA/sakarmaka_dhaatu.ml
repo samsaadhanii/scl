@@ -1625,6 +1625,7 @@ value sakarmaka_XAwu_list = [
 "vi_muh1";
 "vi_ni_vix1";
 "vi_ni_yam2";
+"vi_nir_muc1";
 "vi_smq1";
 "vi_smq2";
 "vi_sq2";
