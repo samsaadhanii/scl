@@ -6,7 +6,7 @@ while($in = <TMP>) {
       @flds = split(/ /,$in);
       $key = "\@S".$flds[0].".".$flds[1].".".$flds[2];
       $value = $flds[3].",\@S".$flds[4].".".$flds[5].".".$flds[6];
-      $DISCOURSE{$key} = $value;
+      if($DISCOURSE{$key} eq "") {$DISCOURSE{$key} = $value;} elsif ($DISCOURSE{$key} !~ /$value/) {$DISCOURSE{$key} .=";".$value;}
 #	print "$key=$value\n";
 }
 
@@ -36,26 +36,26 @@ while($in = <STDIN>){
       #} else {
       #   $rels = "\@S".$sid.".".$relata_pos_id.".".$relata_pos_cid;
       }
-#	print "444 $rels\n";
+	#print "444 $rels\n";
  }  else {
      if (($rel !~ /sambanXaH/) && ($rel !~ /_xyowakaH/) && ($rel ne "X") && ($rel ne "") && ($rel !~ /aBihiwa_/)) {
           if ($rels ne "") {$rels .= $rel.","."\@S".$sid.".".$relata_pos_id.".".$relata_pos_cid; $rels .= ";".$DISCOURSE{$key};} 
           else { $rels = $rel.","."\@S".$sid.".".$relata_pos_id.".".$relata_pos_cid; $rels .= ";".$DISCOURSE{$key};}
-#	  print "111 $rels\n";
+	 # print "111 $rels\n";
      }
 
      if (($rel =~ /sambanXaH/) || ($rel =~ /_xyowakaH/) || ($rel =~ /aBihiwa_/)) {
            if ($rels ne "") { $rels .= ";".$DISCOURSE{$key};} else {$rels = $DISCOURSE{$key};}
-#	  print "222 $rels\n";
+	  #print "222 $rels\n";
      }
      if ($rel eq "") {
            if ($rels ne "") { $rels .= ";".$DISCOURSE{$key};} else {$rels = $DISCOURSE{$key};}
-#	  print "555 $rels\n";
+	 # print "555 $rels\n";
      }
 
 #     if (($DISCOURSE{$key} !~ /,\@S$sid.$relata_pos_id.$relata_pos_cid/)) {
 #          if ($rels ne "") { $rels .= ";".$DISCOURSE{$key};} else {$rels = $DISCOURSE{$key};}
-#	  print "333 $rels\n";
+	  #print "333 $rels\n";
 #     } 
  }
 
