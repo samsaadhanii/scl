@@ -584,7 +584,7 @@
 <etymology>[इष्+श+टाप्]</etymology>
 <kind_of>मनोविकारः</kind_of>
 <jAwi>मानसिकभावः</jAwi>
-<sense no="1">कामना, अभिलाष, रुचि</sense>Hp	इच्छया		NP	स्त्री*		रुचि के अनुसार				--- at else part
+<sense no="1">कामना, अभिलाष, रुचि</sense>
 <sense n="2">प्रश्न या समस्यागणित में</sense>
 <sense n="3">सन्नन्त का रूपव्या० में</sense>
 <segmenthd>
@@ -726,8 +726,20 @@
 <sense no="1">अन्य दूसरा, दो में से अवशिष्ट, इतरो दहने स्वकर्मणाम्<citation>रघु*८।२०</citation>अने०पा०, स्त्री*- इतरा, नपुं* इतरम्</sense>
 <sense n="2">शेष या दूसरेब०ब०</sense>
 <sense n="3">दूसरा, से भिन्नइतरतापशतानि यथेच्छया वितर तानि सहे चतुरानन<citation>उद्भट*</citation>इतरो रावणादेव राघवानुचरो यदि<citation>भट्टि*८।१०६अपा० के साथ</citation></sense>
-<sense n="4">विरोधी, या तो अकेला स्वतन्त्र रूप से प्रयुक्त होता है अथवा विशेषण के साथ, या समास के अन्त मेंजङ्गमानीतराणि च रामा*, विजयायेतराय वा महा* इसी प्रकार</sense>Hp	दक्षिणेतर	दक्षिण-इतर	SNV	सा*वि*		वायां				--- at else partHp	वामेतर	वाम-इतर	SNV	सा*वि*		दायां				--- at else part
+<sense n="4">विरोधी, या तो अकेला स्वतन्त्र रूप से प्रयुक्त होता है अथवा विशेषण के साथ, या समास के अन्त मेंजङ्गमानीतराणि च रामा*, विजयायेतराय वा महा* इसी प्रकार</sense>
 <sense n="5">नीच, अधम, गंवार, सामान्यइतर इव परिभूय ज्ञानं मन्मथेन जडीकृतः<citation>का०१५४</citation></sense>
+<segmenthd>
+<dentry>दक्षिणेतर</dentry>
+<seg>दक्षिण-इतर</seg>
+<grammar>सा*वि*</grammar>
+<sense no="1">वायां</sense>
+</segmenthd>
+<segmenthd>
+<dentry>वामेतर</dentry>
+<seg>वाम-इतर</seg>
+<grammar>सा*वि*</grammar>
+<sense no="1">दायां</sense>
+</segmenthd>
 <segmenthd>
 <dentry>इतरेतर</dentry>
 <prAwipaxikam>इतरेतर</prAwipaxikam>
