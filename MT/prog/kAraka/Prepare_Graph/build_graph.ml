@@ -1252,7 +1252,7 @@ But in grAmam gawaH xevaxawwaH puswakaM paTawi, here xevaxawwa should not be mar
                            finite_verb_in_sentence.val=id1 || iwi_pos.val = id2+1)
                       (*This condition creates a problem when a word has both sup and wif analysis and wif analysis is not the desired output. Ex: wena mama ayam mohaH vigawaH , here mohaH is not marked*)
                       &&  *)  noun_agreement vacanam1 vacanam2 lifgam1 lifgam2
-                      && (pUrvapaxa2="n")  (* word should not be related to the pUrvapaxa -- I have examples with other kaarakas but not with karma *)
+                      then if (pUrvapaxa2="n")  (* word should not be related to the pUrvapaxa -- I have examples with other kaarakas but not with karma *)
                       && viBakwiH2=1
                       && (uwwarapaxa2 = "n")  (* If it is an uwwarapaxa && kwa, with Tatpurusha, its karma would have been the pUrvapaxa *)
                       (* && (id1 < id2  || finite_verb_in_sentence.val == 50) This condition is removed to handle shlokas suc as mayA xqRtA sIwA 
@@ -1292,6 +1292,7 @@ This condition is added, to rule out the possibility of karwA in Sloka form when
                    then [ Relation (id1,cid1,mid1,"muKyakarma",id2,cid2,mid2,"3.7",d12)]
                    else if members_of rt2 upasarga2 xvikarmaka2  && uwwarapaxa2="n"
                    then [ Relation (id1,cid1,mid1,"gONakarma",id2,cid2,mid2,"3.7a",d12)]
+                   else []
                    else []
                    else []
                    (* Do not mark karma, this is samAnAXikarNa
@@ -1351,7 +1352,9 @@ Counter example: sarva-BUwa-hiwe rawAH *)
 			let rel = rlafgavikAra m1 m2 text_type in
 			if rel = [] then [ Relation (id1,cid1,mid1,"karwA",id2,cid2,mid2,"3.11",d12)] (* karwq_karaNayoH_wqwIyA rAmeNa granWaH paTiwaH*) 
                         else []
-                    else []
+                   else if members_of rt2 upasarga2 gawyarWa_verbs && uwwarapaxa2="n"  (* wvayA suKam prApwam *)
+                   then [ Relation (id1,cid1,mid1,"gawikarwA",id2,cid2,mid2,"3.11a" ,d12) ]
+                   else []
                | _ -> []
                ]
                else []
@@ -5342,13 +5345,14 @@ value rlca_samucciwa m1 m2 m3 text_type = match m2 with
                         sIxanwi mama gAwrANi muKam ca pariSuRyawi  *)
                     (* && not (( pronoun3 rt1 || member_of rt1 saMKyeya || member_of rt1 pUraNa || (member_of rt1 guNavAcI && uwwarapaxa1=word1) || (member_of rt1 uwwara_guNavAcI && not (uwwarapaxa1=word1))|| member_of rt1 sambanXavAcI) )  What is its necessity? *)
                  (* then if id3 = next id2 *) (* yogyawA *)
-		  if not (rt1 = "kim") && not (rt3 = "kim") && not (rt1 = "yuyuwsu") && not (rt3 = "yuyuwsu")
-                   && no_boundary_crossing_with_iwi id1 id3 text_type
+		  if not (rt1 = "kim") && not (rt3 = "kim") && not (rt1 = "yuyuwsu") && not (rt3 = "yuyuwsu") && not (rt1="yax") && not(rt1="wax") && not (rt3="yax") && not(rt3="wax")
+                   then if no_boundary_crossing_with_iwi id1 id3 text_type
 		   (*then if (id2-id3 = 1) && (word2="waWA") -- Why only waWA? *)
                     then mark_sup_samucchiwa id1 id2 id3 cid1 cid2 cid3 mid1 mid2 mid3 viBakwiH1 viBakwiH3 vacanam1 vacanam3 word2 "58.9" "58.10"
                     else if (id3 < id2) && (id1 < id2) (* all the samucciwa should be to the left of ca/api etc *)
                     && not (member_of rt1 sambanXavAcI)
                   then mark_sup_samucchiwa id1 id2 id3 cid1 cid2 cid3 mid1 mid2 mid3 viBakwiH1 viBakwiH3 vacanam1 vacanam3 word2 "58.11" "58.12"
+		  else []
 		  else []
               | _ -> []
               ]

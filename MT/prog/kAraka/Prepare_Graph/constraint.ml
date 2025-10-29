@@ -124,7 +124,8 @@ value print_relation r=match r with
     ; if (i4 >= 2000)  && (i4 < 5000) then print_int (i4 - (i4 mod 100)) 
       else if (i4=1009) then print_int 9 
       else if (i4=1080) then print_int 80 
-      else if (i4=29) then print_int 39  (* hewuH -> hewu *)
+      (* else if (i4=29) then print_int 39   hewuH -> hewu *)
+      else if (i4=70) then print_int 39  (* hewuH5 -> hewuH *)
       else if (i4=37) then print_int 36  (* aBexaH -> viSeRaNam *)
       else if (i4=33) then print_int 32  (* sup_samucciwaH -> samucciwaH *)
       else if (i4=35) then print_int 34  (* sup_anyawaraH -> anyawaraH *)
@@ -509,7 +510,9 @@ value outgoing_incompatible_rels rpair = match rpair with
    |(79,9)    viXeya viSeRaNa and upamAna  -- saH prajApawi-samaH SrImAn aswi*)
    |(13,11)   (* With karmasamAnAXikaraNa there can not be gONa-karma 
                * brU1 and vax1 dhaatus are xvikarmaka, and if there is karmasamaanaadhikarana relation with them, then gONa karma should be absent *)
-   |(11,13) -> False
+   |(11,13)
+   |(24,9)
+   |(9,24) -> False  (* There cannot be a viXeya viSeRaNa and aXikaraNa together. kAvya-SabxaH ayam Sabxa-arWayoH varwawe *)
    |(_,_) -> True
    ]
  ; 
@@ -760,7 +763,8 @@ value rec add_cost text_type acc rels=fun
             else if rel=51 then 0 (* wIvrawAxarSI *)
             else if rel=55 then 0 (* Gataka_xyowakaH *)
            (* avaXiH not yet defined in build_graph.ml  else if rel=91 then 0 (*  avaXiH *) *)
-            else if rel=29 then 39 * dist  (* hewuH -> hewu *)
+            (* else if rel=29 then 39 * dist  hewuH -> hewu *)
+             else if rel=70 then 39 * dist  (* hewuH5 -> hewuH *)
             else if rel=76 then 1 * dist (* sahArWa_xyowakaH *)
             else if rel=77 then 1 * dist (* vinArWa_xyowakaH *)
             else if  rel=78 then 100 (* lyapkarmAXikaraNam ; select this only if there is no other analysis possible *)
