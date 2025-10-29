@@ -59,13 +59,16 @@ sub add_ne{
           if(${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /yA$/) {
 # Then change the viBakwi to ne, if the verb is not from exceptional verb list
 #Also now verb is no longer in agreement with the karwA, and hence remove the aBihiwa_karwA info.
-             ${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) yA/;
-             ${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg+1] =~ /^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) yA/;
+             ${$new_var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ /^([^ ]+)/;
              $hnd_verb = $1;
              if($EXCPT_NE{$hnd_verb} != 1) {
                  ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) 0/$1 $2 $3 $4 $5 ne/;
                  ${$var_nm}[$ana_fld_for_calling_gen_after_lwg+1] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) 0/$1 $2 $3 $4 $5 ne/;
-           
+
+                # We add se also, to handle final_kwa cases as in rAmeNa Palam KAxiwam, where rAmeNa would be rAma_se first, then change to ne
+                 ${$var_nm}[$ana_fld_for_calling_gen_after_lwg] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) se/$1 $2 $3 $4 $5 ne/;
+                 ${$var_nm}[$ana_fld_for_calling_gen_after_lwg+1] =~ s/^([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) ([^ ]+) se/$1 $2 $3 $4 $5 ne/;
+
                  $karma_pos = -1;
                  for($k=1;$k<=$#wrd_ana+1;$k++){
                     $tmp_var_nm = "wrd_ana_flds_".$k;
