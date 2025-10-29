@@ -76,6 +76,7 @@ aByASa
 aByAsa
 aXikAra
 aXyayana
+aXyAya
 ambakam
 anXikA
 anuBAvaka
@@ -297,6 +298,7 @@ saFcAraka
 saFcArikA
 saFjaya
 saMskqwa
+saMskqwA
 saMswyAya
 saMvAhaka
 saMvarXaka
@@ -305,6 +307,7 @@ safGAtikA
 sahiwa
 samAXAna
 samApaka
+samAsa
 samBAra
 samIra
 samUha
@@ -365,6 +368,7 @@ vilAsikA
 vilambikA
 vilapana
 vimarxaka
+viswAra
 vivAha
 vivaraNa
 viwwa

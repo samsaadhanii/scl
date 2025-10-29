@@ -45,6 +45,7 @@ kqwaH=<kqw_XAwu:kq3><kqw_prawyayaH:kwa><XAwuH:dukqF><gaNaH:wanAxiH>kqwa<vargaH:n
 kqwe=kqwe<vargaH:avy><level:1>
 kriyanwe=kq3<prayogaH:karmaNi><lakAraH:lat><puruRaH:pra><vacanam:bahu><paxI:AwmanepaxI><XAwuH:dukqF><gaNaH:wanAxiH><level:1>
 kriyawe=kq3<prayogaH:karmaNi><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:dukqF><gaNaH:wanAxiH><level:1>
+loke=loka<vargaH:nA><lifgam:puM><viBakwiH:7><vacanam:eka><level:1>
 mA=mA<vargaH:avy><level:1>
 mAm=asmax<vargaH:sarva><lifgam:a><viBakwiH:2><vacanam:eka><level:1>
 mAwA=mAwq<vargaH:nA><lifgam:swrI><viBakwiH:1><vacanam:eka><level:1>
