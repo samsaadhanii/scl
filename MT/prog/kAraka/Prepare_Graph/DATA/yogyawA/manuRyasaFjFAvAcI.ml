@@ -6,6 +6,7 @@ value manuRyasaFjFAvAci = [
 "acyuwa";
 "BArawa";
 "Barawa";
+"ISvara";
 "SabarI";
 "savyasAcin";
 "SUrpaNaKA";
