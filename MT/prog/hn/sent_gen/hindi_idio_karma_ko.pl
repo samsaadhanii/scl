@@ -67,7 +67,7 @@ my($j,$k,$verb_pos,$dvikarmaka,$karma_lifgam,$karma_rt,$karwA_rt,$karwA_lifgam);
 	 #print STDERR &onto_cat($karma_rt),"\n";
 	 #print STDERR &onto_cat($karwA_rt),"\n";
          if( &onto_cat($karwA_rt) > &onto_cat($karma_rt)) 
-	      { $karma_vibh = 0; }
+	      { $karma_vibh = "0"; }
 	 else { $karma_vibh = "ko";}
 
         if($karma_vibh eq "0") {
