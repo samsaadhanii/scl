@@ -23,9 +23,9 @@ value apAxAna_XAwu_list = [
 "Buj1";
 "Byas1";
 "cal1";
-"car1";
+"zcar1";
 "carc1";
-"Cix1";
+"zCix1";
 "gal1";
 "gam1";
 "gqh1";
