@@ -284,8 +284,8 @@ value no_direct_cycle m1 m2=match m1 with
     [ Relationc (to_id1,to_cid1,to_mid1,r1,from_id1,from_cid1,from_mid1,dist1) -> match m2 with
       [Relationc (to_id2,to_cid2,to_mid2,r2,from_id2,from_cid2,from_mid2,dist2) -> 
 
-         (* if (to_id1=from_id2) && (to_mid1=from_mid2) && (from_id1=to_id2) && (from_mid1=to_mid2) && (to_cid1=from_cid2) && (to_cid2=from_cid2) *)
-          if (to_id1=from_id2) && (to_mid1=from_mid2) && (from_id1=to_id2) && (from_mid1=to_mid2)  (* component ids are ignored, since one can have a relation from outside word to 1st component of a compound, and then from the last component of a compound to the same outside word *)
+          if   (to_id1=from_id2) && (to_cid1=from_mid2) && (to_mid1=from_mid2) 
+            && (to_id2=from_id1) && (to_cid2=from_mid1) && (to_mid2=from_mid1) 
          then False
          else True
       ]
@@ -335,7 +335,6 @@ value single_morph_per_word m1 m2=match m1 with
     [ Relationc (to_id1,to_cid1,to_mid1,r1,from_id1,from_cid1,from_mid1,dist1) -> match m2 with
       [Relationc (to_id2,to_cid2,to_mid2,r2,from_id2,from_cid2,from_mid2,dist2) -> 
             (* Two morph analyses for a word *)
-
          if (to_id1=to_id2) && (to_cid1=to_cid2) && not (to_mid1=to_mid2) then  False (*  do { print_int to_id1; print_int to_id2;print_int to_cid1; print_int to_cid2;print_string "C1\n"; False} *)
          else if (to_id1=from_id2) && (to_cid1=from_cid2) && not (to_mid1=from_mid2) then  False (*  do { print_int to_id1; print_int from_id2;print_int to_cid1; print_int from_cid2;print_string "C2\n"; False} *)
          else if (from_id1=from_id2) && (from_cid1=from_cid2) && not (from_mid1=from_mid2) then  False  (* do { print_int from_id1; print_int from_id2; print_int from_cid1; print_int from_cid2; print_string "C3\n"; False} *)
@@ -350,30 +349,39 @@ value single_morph_per_word m1 m2=match m1 with
 value single_relation_label m1 m2= match m1 with
     [ Relationc (to_id1,to_cid1,to_mid1,r1,from_id1,from_cid1,from_mid1,dist1) -> match m2 with
       [Relationc (to_id2,to_cid2,to_mid2,r2,from_id2,from_cid2,from_mid2,dist2) -> 
-            (* Two incoming arrows (*with diff labels*) except niwya_sambanXaH (=101, & 102) *)
-         if    (to_id1=to_id2) && (to_cid1=to_cid2) && (to_mid1=to_mid2) && (from_id1=from_id2) && (from_cid1=from_cid2) && (from_mid1=from_mid2) 
+
+         (* CASE 1: Two incoming arrows  from the SAME HEAD with diff relation labels except niwya_sambanXaH (=101, & 102) *)
+         if  (to_id1=to_id2) && (to_cid1=to_cid2) && (to_mid1=to_mid2) && (from_id1=from_id2) && (from_cid1=from_cid2) && (from_mid1=from_mid2) 
             && not (r1=r2) && not(r1=101) && not(r2=101)
-         then False
+         then False  (*do { print_string "C1"; False}*)
+
+         (* CASE 2: Two incoming arrows  from different HEADs with diff relation labels except niwya_sambanXaH (=101, & 102) *)
          else if (to_id1=to_id2) && (to_cid1=to_cid2) && (to_mid1=to_mid2) (*&& not (r1=r2) *)
          && not (r1=101) && not(r2=102) 
          && not (r1=102) && not(r2=101) 
-         then False  (*do { print_string "C5"; False}*)
-         (* Condition for compounds: there cannot be two incoming arrows from outside compound word *)
+         then  False  (* do { print_string "C5"; False}*)
+
+         (* CASE 3: Condition for compounds: there cannot be two incoming arrows from outside compound word *)
          else if (to_id1=to_id2) && (not (to_cid1=to_cid2)) && (not (from_id1=to_id1)) && (not (from_id2=to_id1))
-         then False
-            (* Two outgoing arrows with same label *)
+         then  False  (*do { print_string "C6"; False} *)
+
+         (* CASE 4: Two outgoing arrows with same label *)
          else if (from_id1=from_id2) && (from_cid1=from_cid2) && (from_mid1=from_mid2) && (r1=r2)
-              && ( (r1 < multiple_relations_begin  && not (r1=101))
-                  || (r1 > multiple_relations_end && not (r1=102) && not (r1=32) && not (r1=33) && not (r1=34) && not (r1=35)) || (r1=38) || (r1=71)
+              && ( (r1 < multiple_relations_begin )
+                  || ((r1 > multiple_relations_end) && not (r1=102 || r1=101 || r1=32 || r1 = 33 || r1 = 34 || r1 = 35 || r1 = 38 || (r1 > 1000 && r1 < 2000)))
                   ) (* niwya sambanXaH (=101,102)*)
-         then False (*do { print_string "C9"; False}*)
-            (* there can not be another outgoing rel with an upapaxa sambanXa*)
+         then  False  (* do { print_string "C9"; False} *)
+
+         (* CASE 5: there can not be another outgoing rel with an upapaxa sambanXa*)
          else if (from_id1=from_id2) && (from_cid1=from_cid2) && (from_mid1=from_mid2) && ((r1 >= 2000  && r1 < 4000) || (r2 >= 2000 && r2 < 4000)) 
-         then False  (*do { print_string "C9"; print_int r1; print_int r2;False} *)
-         else if  (from_id1=to_id2) && (from_cid1=from_cid2) && (from_mid1=to_mid2) 
-               && r1=82 (*vIpsA*) && (r2=101 || r2=102)
-              then False  (*do { print_string "C10"; False} *)
-         else True  (*do {print_string "C11"; True}*)
+         then  False   (* do { print_string "C9"; print_int r1; print_int r2;False}  *)
+
+		         (* WHAT IS THIS COND? I don't follow 
+            		   else if  (from_id1=to_id2) && (from_cid1=to_cid2) && (from_mid1=to_mid2) 
+            		   && r1=82 (*vIpsA*) && (r2=101 || r2=102)
+            		  then (* False *)  do { print_string "C10"; False} *)
+
+         else  True
       ]
     ]
 ;
@@ -728,19 +736,22 @@ value rec print_acc_len_cost=fun
 ;
 value chk_compatible text_type m1 m2= (*do { print_string "==>";*)
      if distinct m1 m2 then
-         single_morph_per_word m1 m2 (*then do { print_string "sm;";*)
-          && single_relation_label m1 m2 (*then do { print_string "srl;";*)
-          && no_crossing text_type m1 m2  (*then do { print_string "nc;";*)
-          && no_crossing_compound text_type m1 m2  (*then do { print_string "nc;";*)
-          && relation_mutual_ayogyataa text_type m1 m2  (*then  do { print_string "my;"; True}*)
-          && no_direct_cycle m1 m2  (*then  do { print_string "oc;"; True}*)
-                (*else do {print_string "MY;"; False}}*)
-             (*else do {print_string "NC;"; False}}*)
-          (*else do {print_string "SRL;"; False}}*)
-       (*else do {print_string "SM;"; False};}*)
+         if single_morph_per_word m1 m2  (*then do { print_string "sm;"; *)
+           && single_relation_label m1 m2  (*then do { print_string "srl;"; *)
+           && no_crossing text_type m1 m2   (*then do { print_string "nc;"; *)
+           && no_crossing_compound text_type m1 m2   (*then do { print_string "ncc;"; *)
+           && relation_mutual_ayogyataa text_type m1 m2   (*then  do { print_string "my;";  *)
+           && no_direct_cycle m1 m2  then  (* do { print_string "oc;"; True} *) True
+                (* else do {print_string "OC;"; False}} 
+                else do {print_string "MY;"; False}}
+             else do {print_string "NCC;"; False}}
+             else do {print_string "NC;"; False}}
+          else do {print_string "SRL;"; False}} 
+       else do {print_string "SM;"; False}  *)
+       else False
+       else False
       (*&& relation_mutual_yogyataa m1 m2 *)
       (*&& relation_mutual_expectancy m1 m2*)
-    else  False
 ;
 
 value rec add_cost text_type acc rels=fun
