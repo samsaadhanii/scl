@@ -69,6 +69,7 @@ bahuXA,avy,kaI_prakAra_se^viviXa_prakAra_se^bahuwa_waraha_se
 balavaw,avy,majabUwI_se^Sakwi_ke_sAWa
 bawa,avy,oha^saMboXana^pukaranA^sanwoRa^Kexa^AScarya
 ca,avy,Ora
+ca1,avy,BI
 cana,avy,na_kevala
 cew,avy,wo
 ciram,avy,aXika
@@ -128,6 +129,7 @@ kimapi,avy,kuCa_BI^kuCa_aMSa_waka^kuCa^bahuwa_aMSo_waka
 kimarWam,avy,kisalie
 kimiwi,avy,kisalie^kyoM_nissanxeha^niScayArWa^kisa_prayojana_ke_lie
 kimu,avy,kyA
+kim_1,avy,kyA
 kinwu,avy,kinwu
 kqwe,avy,ke_lie^ke_nimiwwa^ke_kAraNa
 kramaSaH,avy,kramaSaH
@@ -139,7 +141,7 @@ kuwra,avy,kahAz^kisa_bAwa_meM
 kuwraciw,avy,kahIM
 kva,avy,kahAz^kiXara
 kvaciw,avy,kahIM
-mA,avy,nahI
+mA,avy,nahIM
 maXyawaH,avy,bIca_se^maXya_se^meM_se
 mafkRu,avy,wuranwa^jalxI_se^SIGra
 manAk,avy,jarA^WodZA_sA^alpamAwrA_meM^
@@ -175,8 +177,8 @@ pariwaH,avy,cAroM_ora
 pqWak,avy,pqWak
 prAXAnyawaH,avy,muKya_rUpa_se^praXAna_rUpa_se^viSeRa_rUpa_se
 prAk,avy,pahale
-prAwaH,avy,prAwaH
-prAyaH,avy,prAya
+prAwaH,avy,prAwaH^subaha
+prAyaH,avy,prAyaH
 praBqwi,avy,se^se_lekara^Suru_karake
 prawi,avy,ora
 prawixinam,avy,prawixina
@@ -194,7 +196,8 @@ sAmprawam,avy,aba^isa_samaya
 sArXam,avy,AXA^sAWa_sAWa^ke_sAWa^ke_sAWa_meM
 sArawaH,avy,Xana_ke_anusAra
 sAw,avy,waxXiwa_kA_eka_prawyaya_jo_kisI_Sabxa_ke_sAWa_isalie_jodZA_jAwA_hEM^yA_vaha_vaswu_pUrNa_rupa_se_waxaXIna_yA_usake_niyaMwraNa_meM_ho_jAwI_hEM
-sAyam,avy,saMXyAkAla
+sawvara,avy,SIKra
+sAyam,avy,SAm_meM^saMXyAkAla
 saha,avy,sAWa
 sahasA,avy,acAnaka
 sahasraSaH,avy,hajZAra-hajZAra_karake
@@ -250,7 +253,7 @@ viswaraSaH,avy,viswArapUrvaka
 vqWA,avy,vqWA
 wAvaw,avy,waba_waka
 wURNIm,avy,cupacApa
-waWA,avy,Ora^vEse^isa_prakAra^usa_rIwi_se
+waWA,avy,vEse^Ora^isa_prakAra^usa_rIwi_se
 waWAhi,avy,isIliye
 waWApi,avy,Pira_BI
 waWEva,avy,vEse_hI

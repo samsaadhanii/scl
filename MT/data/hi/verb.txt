@@ -367,6 +367,7 @@ Af_luB2,pp,sk,v,BrAMwa_ho^mawiBraMSa_ho,NW
 Af_mIl1,pp,sk,v,baMxa_kara,NW
 Af_mqS1,pp,sk,v,sparSa_kara^KA_jA^AkramaNa_kara,NW
 Af_mawr1,ap,sk,v,Amanwriwa_kara,NW,#Added by Amba - ap/pp to be confirmed
+Af_mnA1,pp,sk,v,manana_kara,
 Af_mux1,ap,ak,v,prasanna_ho^harRa_manA^sugaMXiwa_ho,NW
 Af_narx1,pp,ak,v,garaja^xahAda^Sabxa_kara^jA^gawiSIla_ho,NW
 Af_nax1,pp,ak,v,KuSa_ho^harRa_prakata_kara^prasanna_ho^saMwuRta_ho,NW
@@ -1462,7 +1463,7 @@ cap1,pp,sk,v,SAnwa_kara,sAnwvane
 cap2,pp,sk,v,Taga^xuRkarmI_ho,parikalkane
 caR1,ap,sk,v,KA^svAxa_le,BakRaNe
 CaR1,ap,sk,v,mAra,hiMsAyAm
-car1,pp,sk,v,GUma^jA,gawyarWaH
+car1,pp,sk,v,GUma^jA^AcaraNa_kara,gawyarWaH
 caR1,pp,sk,v,KA^svAxa_le,BakRaNe
 CaR1,pp,sk,v,mAra,hiMsAyAm
 car2,pp,sk,v,sanxeha_kara^saMSaya_kara,saMSaye
@@ -3237,8 +3238,8 @@ pra_Af_vq1,ap,sk,v,pahana^XaraNa_kara,NW
 pra_Af_vq1,pp,sk,v,pahana^XaraNa_kara,NW
 pra_Af_vqw1,ap,ak,v,lOta^vApisa_A,NW
 pra_Af_xus_as2,pp,ak,v,uwpanna_ho^prAxuraBUwa_ho^prakata_ho,NW
-pra_Ap1,ap,sk,v,prApwa_ho,NW 
-pra_Ap1,pp,sk,v,prApwa_ho,NW
+pra_Ap1,ap,sk,v,prApwa_kara,NW 
+pra_Ap1,pp,sk,v,prApwa_kara,NW
 pra_A_raB1,pp,sk,v,prAramBa_kara,
 pra_arc1,pp,sk,v,swuwi_kara^swuwigAna_kara^sammAna_kara^pUjA_kara,NW
 pra_arj1,pp,sk,v,prApwa_kara^upArjana_kara^kamA^upalabXa_kara^grahaNa_kara,NW
@@ -4153,7 +4154,7 @@ rux1,pp,ak,v,ro,aSruvimocane
 ruX1,pp,sk,v,roka^Gera_le^Gera,AvaraNe
 Rvanj1,ap,sk,v,AliMgana_kara^gale_lagA^kOlI_Bara^Gera^maroda,NW
 Rvap1,pp,ak,v,so,NW
-RWA1,pp,ak,v,raha^KadA_ho^Tahara^SeRa_baca,
+RWA1,pp,ak,v,raha^Tahara^KadA_ho^SeRa_baca,
 RWA1_Nic,pp,sk,v,raKa
 RWag1,pp,sk,v,Daka^CipA^DAMpa^gupwa_raKa^paraxA_dAla^vyApwa_ho^Bara,NW
 Rwak1,pp,sk,v,mukAbalA_kara^harakawa_kara^prawiroXa_kara^pICe_Dakela^roka,NW
@@ -6032,9 +6033,9 @@ vye1,ap,sk,v,AcCAxana_kara^Daka^sI,saMvaraNe
 vye1,pp,sk,v,AcCAxana_kara^Daka^sI,saMvaraNe
 vyuR1,pp,sk,v,jalA^jala^BUna^alaga_kara,xAhe_viBAge_ca
 vyuR2,pp,sk,v,alaga_kara,viBAge
-wad1,pp,sk,v,mAra^wAdana_kara,AGAwe
-wad1,ap,sk,v,mAra^wAdana_kara,AGAwe
-wad2,pp,sk,v,bola,BARArWaH
+wad1,ap,sk,v,mAra,wAdane
+wad2,pp,sk,v,mAra,AGAwe
+zwad2,pp,sk,v,bola,BARArWaH
 waFc1,pp,sk,v,jA,gawyarWaH
 waFc2,pp,sk,v,safkuciwa_ho^safkoca_ho,safkocane
 wafg1,pp,sk,v,jA,gawyarWaH
