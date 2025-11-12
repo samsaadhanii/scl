@@ -305,11 +305,20 @@ value discourse_marker word = match word with
 
 value get_two_root_pos word_marker = match word_marker with
                                      [
-				     "yaxi" | "cew"| "yaxyapi" | "yawaH" | "yasmAw" | "yaxA" | "yawra" | "yaWA" | "yena" -> ("curr","next")
-                                     | "warhi" | "waWApi" | "aWApi" | "sannapi" | "cexapi" | "wawaH" | "wasmAw" | "awaH" | "ca" | "vA" | "waxA" | "wawra" | "waWA" | "wena" | "warhyapi" | "paranwu" | "kinwu" | "aWa" | "hi" | "aWavA" | "yaxvA" | "uwa" | "uwApi" | "uwasviw" | "aWaca" | "cApi" | "evaFca" | "ananwaram" -> ("prev","curr")
+				     "yaxi" | "cew"| "yaxyapi" | "cexapi" | "sannapi" | "yawaH" | "yasmAw" | "yaxA" | "yawra" | "yaWA" | "yena" -> ("curr","next")
+                                     | "warhi" | "waWApi" | "aWApi" | "wawaH" | "wasmAw" | "awaH" | "ca" | "vA" | "waxA" | "wawra" | "waWA" | "wena" | "warhyapi" | "paranwu" | "kinwu" | "aWa" | "hi" | "aWavA" | "yaxvA" | "uwa" | "uwApi" | "uwasviw" | "aWaca" | "cApi" | "evaFca" | "ananwaram" -> ("prev","curr")
 				     | _ -> ("","")
                                      ] 
 ;
+
+				     (*Unambiguous: "yaxi" | "cew"| "yaxyapi" | "cexapi" | "sannapi" | "yaxA" | "yawra"
+                                     Unambiguous: "warhi" | "waWApi" | "aWApi" | "warhyapi" | "paranwu" | "kinwu" | "ananwaram" | "aWa"
+
+                                     Ammbiguous: "yawaH" | "yasmAw" | "yena" (kArya-kAraNa, apAxAna)
+                                     Ambiguous: "wawaH" | "wasmAw" | "wena" | "awaH" 
+					Not a discourse marker if alone: waxA, wawra
+
+					Structural Ambiguity: "ca" | "vA" | "waWA" |  "hi" | "aWavA" | "yaxvA" | "uwa" | "uwApi" | "uwasviw" | "aWaca" | "cApi" | "evaFca"  *)
 
 value rec mark_niwya word sid id cid = fun
    [ [] -> []
@@ -401,16 +410,19 @@ value rec mark_relations acc finite_verbs = fun
                                     let acc1 = List2.union acc [Relation (sid_v2,id_v2,cid_v2,"AvaSyakawA_pariNAma_sambanXaH",sid_v1,id_v1,cid_v1,"rule5",dist)] in
 				    let acc2 = List2.union acc1 [Relation (sid1,id1,cid1,"pariNAma_xyowakaH",sid_v2,id_v2,cid_v2,"rule6",dist)] in
 			            mark_relations acc2 finite_verbs s
-				| "yawaH" |"yasmAw" | "yena"  ->
+			(* Needs information of yogyawA
+				 yawaH saH gacCawi, wawaH aham api gacCAmi -- ambiguous between apAxAna & hewu, hence discourse analysis postponed 
+				 | "yawaH" |"yasmAw" | "yena"  -> 
                                     let acc1 = List2.union acc [Relation (sid_v1,id_v1,cid_v1,"kArya_kAraNa_BAvaH",sid_v2,id_v2,cid_v2,"rule7",dist)] in
 				    let acc2 = List2.union acc1 [Relation (sid1,id1,cid1,"kAraNa_xyowakaH",sid_v1,id_v1,cid_v1,"rule8",dist)] in
 			            mark_relations acc2 finite_verbs s
 				| "wawaH" |"wasmAw" | "awaH" ->
                                     let acc1 = List2.union acc [Relation (sid_v1,id_v1,cid_v1,"kArya_kAraNa_BAvaH",sid_v2,id_v2,cid_v2,"rule9",dist)] in
 				    let acc2 = List2.union acc1 [Relation (sid1,id1,cid1,"kArya_xyowakaH",sid_v2,id_v2,cid_v2,"rule10",dist)] in
-			            mark_relations acc2 finite_verbs s
+			            mark_relations acc2 finite_verbs s  
+                         *)
 				| "wena"  ->
-				    if(rel1 = "sambanXaH") 
+				    if(rel1 = "sambanXaH") || (rel1 = "hewuH")
                                     then let acc1 = List2.union acc [Relation (sid_v1,id_v1,cid_v1,"kArya_kAraNa_BAvaH",sid_v2,id_v2,cid_v2,"rule9",dist)] in
 				         let acc2 = List2.union acc1 [Relation (sid1,id1,cid1,"kArya_xyowakaH",sid_v2,id_v2,cid_v2,"rule10",dist)] in
 			                 mark_relations acc2 finite_verbs s
@@ -419,25 +431,25 @@ value rec mark_relations acc finite_verbs = fun
                                     let acc1 = List2.union acc [Relation (sid_v2,id_v2,cid_v2,"kArya_kAraNa_BAvaH",sid_v1,id_v1,cid_v1,"rule9a",dist)] in
 			            mark_relations acc1 finite_verbs s
 				    else []
-				| "yaxyapi"  ->  (*aWApi *)
+				| "yaxyapi" | "cexapi"  ->  (*aWApi *)
                                     let acc1 = List2.union acc [Relation (sid_v2,id_v2,cid_v2,"vyaBicAraH",sid_v1,id_v1,cid_v1,"rule11",dist)] in
-				    let acc2 = List2.union acc1 [Relation (sid1,id1,cid1,"vyaBicAra_xyowakaH",sid_v1,id_v1,cid_v1,"rule12",dist)] in
+				    let acc2 = List2.union acc1 [Relation (sid1,id1,cid1,"kAraNa_xyowakaH",sid_v1,id_v1,cid_v1,"rule12",dist)] in
 			            mark_relations acc2 finite_verbs s
-				| "waWApi" | "sannapi" | "warhyapi" | "cexapi" ->  (*aWApi *)
+				| "waWApi" | "sannapi" | "warhyapi"  ->  (*aWApi *)
                                     let acc1 = List2.union acc [Relation (sid_v2,id_v2,cid_v2,"vyaBicAraH",sid_v1,id_v1,cid_v1,"rule11a",dist)] in
-				    let acc2 = List2.union acc1 [Relation (sid1,id1,cid1,"vyaBicAra_xyowakaH",sid_v2,id_v2,cid_v2,"rule12a",dist)] in
+				    let acc2 = List2.union acc1 [Relation (sid1,id1,cid1,"kArya_xyowakaH",sid_v2,id_v2,cid_v2,"rule12a",dist)] in
 			            mark_relations acc2 finite_verbs s
 				| "paranwu" |"kinwu"  ->
                                     let acc1 = List2.union acc [Relation (sid_v2,id_v2,cid_v2,"viroXaH",sid_v1,id_v1,cid_v1,"rule13",dist)] in
 				    let acc2 = List2.union acc1 [Relation (sid1,id1,cid1,"viroXa_xyowakaH",sid_v2,id_v2,cid_v2,"rule14",dist)] in
 			            mark_relations acc2 finite_verbs s
-				| "yaxA" |"waxA"  ->
+				| "yaxA" (* |"waxA" only with yaxA -- to implement *) ->
                                     let acc1 = List2.union acc [Relation (sid_v2,id_v2,cid_v2,"samAnakAlaH",sid_v1,id_v1,cid_v1,"rule15",dist)] in
 			            mark_relations acc1 finite_verbs s
-				| "yawra" |"wawra"  ->
+				| "yawra" (* |"wawra" only with yawra -- to implement *) ->
                                     let acc1 = List2.union acc [Relation (sid_v2,id_v2,cid_v2,"samAnAXikaraNaH",sid_v1,id_v1,cid_v1,"rule16",dist)] in
 			            mark_relations acc1 finite_verbs s
-				(* | "waxvaw" | "waWA" ->
+				(* | "waWA" ->
                                     let acc1 = List2.union acc [Relation (sid_v2,id_v2,cid_v2,"sAxqSyam",sid_v1,id_v1,cid_v1,"rule17",dist)] in
                                     let acc2 = List2.union acc1 [Relation (sid1,id1,cid1,"sAxqSya_xyowakaH",sid_v2,id_v2,cid_v2,"rule17a",dist)] in
 			            mark_relations acc2 finite_verbs s
@@ -448,10 +460,6 @@ value rec mark_relations acc finite_verbs = fun
                                          let acc2 = List2.union acc1 [Relation (sid1,id1,cid1,"ananwarakAla_xyowakaH",sid_v2,id_v2,cid_v2,"rule18a",dist)] in
 			                 mark_relations acc2 finite_verbs s
 				    else mark_relations acc finite_verbs s
-				| "yaxvaw"  ->
-                                    let acc1 = List2.union acc [Relation (sid_v2,id_v2,cid_v2,"sAxqSyam",sid_v1,id_v1,cid_v1,"rule17b",dist)] in
-                                    let acc2 = List2.union acc1 [Relation (sid1,id1,cid1,"sAxqSya_xyowakaH",sid_v1,id_v1,cid_v1,"rule17c",dist)] in
-			            mark_relations acc2 finite_verbs s
 				| "yaWA"  ->
 				    do { yaWA_found.val := 1;
                                     let acc1 = List2.union acc [Relation (sid_v2,id_v2,cid_v2,"sAxqSyam",sid_v1,id_v1,cid_v1,"rule17b",dist)] in
@@ -465,8 +473,10 @@ value rec mark_relations acc finite_verbs = fun
 			                 mark_relations acc2 finite_verbs s
 				    else mark_relations acc finite_verbs s
 				| "vA" | "uwa" | "yaxvA" | "aWavA" | "uwApi" | "uwasviw" ->
-                                    let acc1 = List2.union acc [Relation (sid_v2,id_v2,cid_v2,"anyawaraH",sid_v1,id_v1,cid_v1,"rule19",dist)] in
-			            mark_relations acc1 finite_verbs s
+				    if(rel1 = "sambanXaH") 
+                                    then let acc1 = List2.union acc [Relation (sid_v2,id_v2,cid_v2,"anyawaraH",sid_v1,id_v1,cid_v1,"rule19",dist)] in
+			                 mark_relations acc1 finite_verbs s
+				    else mark_relations acc finite_verbs s
 				| _ -> mark_relations acc finite_verbs s
 
 				]
