@@ -77,7 +77,7 @@ sub gen_kqw_forms{
 	my($str,$str1,$LTPROC_IN);
 
 
-my @kqw_prawyayaH = ("wqc","wavyaw","Sawq_lat","SAnac_lat><prayogaH:karwari","SAnac_lat><prayogaH:karmaNi","GaF","Nvul","Nyaw","lyut","yaw","kwa","kwavawu","anIyar");
+my @kqw_prawyayaH = ("wqc><prayogaH:X","wavyaw><prayogaH:X","Sawq_lat><prayogaH:X","SAnac_lat><prayogaH:karwari","SAnac_lat><prayogaH:karmaNi","GaF><prayogaH:X","Nvul><prayogaH:X","Nyaw><prayogaH:X","lyut><prayogaH:X","yaw><prayogaH:X","kwa><prayogaH:X","kwavawu><prayogaH:X","anIyar><prayogaH:X");
 my @kqw_avy_prawyayaH = ("wumun","Namul","kwvA");
 my @kqw_avy_upa_prawyayaH = ("wumun","Namul","lyap");
 my @lifga =("puM","swrI","napuM");
