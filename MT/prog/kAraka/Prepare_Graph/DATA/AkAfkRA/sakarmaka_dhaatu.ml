@@ -453,6 +453,7 @@ value sakarmaka_XAwu_list = [
 "anu_RWA1";
 "anu_Sru1";
 "anu_Suc1";
+"anu_XAv1";
 "anu_XI1";
 "anu_Xi1";
 "anu_gam1";
