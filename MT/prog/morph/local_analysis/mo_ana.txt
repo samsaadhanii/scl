@@ -93,6 +93,7 @@ XArayan	Xq1<kqw_prawyayaH:Sawq_lat><XAwuH:Xqf><gaNaH:BvAxiH>XArayaw<vargaH:nA><l
 XArayiwvA	Xq1<vargaH:avy><sanAxi_prawyayaH:Nic><kqw_prawyayaH:kwvA><XAwuH:XqF><gaNaH:BvAxiH><level:1>
 XAryawe	Xq1<sanAxi_prawyayaH:Nic><prayogaH:karmaNi><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:XqF><gaNaH:BvAxiH><level:1>
 XAvIwavAn	XAv1<sanAxi_prawyayaH:Nic><kqw_prawyayaH:kwavawu><XAwuH:XAvu><gaNaH:BAxiH><kqw_pratipadika:XAvIwavaw><vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
+anuXAviwavanwam	XAv1<upasarga:anu><kqw_prawyayaH:kwavawu><XAwuH:XAvu><gaNaH:BAxiH><kqw_pratipadika:anuXAviwavaw><vargaH:nA><lifgam:puM><viBakwiH:2><vacanam:eka><level:1>
 XUrwawAm	XUrwawA<vargaH:nA><lifgam:swrI><viBakwiH:2><vacanam:eka><level:1>
 XanavaxByaH	Xana<vargaH:nA><waxXiwa_prawyayaH:mawup><lifgam:puM><viBakwiH:4><vacanam:bahu><level:3>/Xana<vargaH:nA><waxXiwa_prawyayaH:mawup><lifgam:puM><viBakwiH:5><vacanam:bahu><level:3>/Xana<vargaH:nA><waxXiwa_prawyayaH:mawup><lifgam:napuM><viBakwiH:4><vacanam:bahu><level:3>/Xana<vargaH:nA><waxXiwa_prawyayaH:mawup><lifgam:napuM><viBakwiH:5><vacanam:bahu><level:3>
 XanikaH	Xanika<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
