@@ -47,9 +47,8 @@ while($in = <STDIN>){
       $ans = "";
       foreach ($i=0; $i<=$#analysis;$i++){
 
-       if($analysis[$i] =~ /^\-?([a-zA-Z]+)<[^\-]+/){
-          $head_wrd = $1;
-       }
+       if($analysis[$i] =~ /^\-?([a-zA-Z]+)<[^\-]+/){ $head_wrd = $1;} 
+       elsif ($analysis[$i] =~ /<kqw_pratipadika:([^>]+)>/) { $head_wrd = $1;}
        $analysis[$i] =~ /<lifgam:([^>]+)>/;
        $lifga = $1;
 
@@ -58,7 +57,7 @@ while($in = <STDIN>){
         }
        #print "ana = $analysis[$i]\n";
        #if($analysis[$i] =~ /<level:[1234]>/)
-       if($analysis[$i] =~ /<level:1>/) {
+       if($analysis[$i] =~ /<level:1>/) { 
 #At present we remove only those analysis at level 1, for which there is no entry in the Apte's dictionary.
 #Thus all the entries at the 2,3 and 4th level will be retained. 
 #However, in the later stages, if an analysis with level 1 exists, others will not be shown. If analysis at level 1 does not exist, then analysis at level 2 will be shown, and so on.
@@ -73,13 +72,14 @@ while($in = <STDIN>){
 	      # else { print "\n$analysis[$i] IGNORING\n";}
           } else { $ans .= "/".$analysis[$i];}
       } elsif($analysis[$i] =~ /<level:[23]>/) {
-          if(($analysis[$i] =~ /<vargaH:nA/) || ($analysis[$i] =~ /<vargaH:sarva/) || ($analysis[$i] =~ /<vargaH:sa\-u\-pa/)){ 
+          if(($analysis[$i] =~ /<vargaH:nA/) || ($analysis[$i] =~ /<vargaH:sarva/) || ($analysis[$i] =~ /<vargaH:sa\-u\-pa/) || ($analysis[$i] =~ /<kqw_pratipadika:/)){ 
               #if ($analysis[$i] =~ /<rt:([^>]+)>/) { $head_wrd = $1;}
+		#print "head_wrd = $head_wrd\n";
               $key = $head_wrd."_".$lifga;
               if(!$rUDa{$head_wrd}) { $ans .= "/".$analysis[$i];}
               elsif($APTE{$key} && $rUDa{$head_wrd}) { $ans .= "/".$analysis[$i]; }
           } else { $ans .= "/".$analysis[$i];}
-    # else { $ans .= "/".$analysis[$i];} # For handline 0 level analysis
+    # else { $ans .= "/".$analysis[$i];} # For handling 0 level analysis
 #Adding this condition had resulted into an error for the 1st shloka of Gita.
 #Why was this condition added at all? -- amba 20th may 2013
     } elsif ($analysis[$i] =~ /<level:4>/) { $ans .= "/".$analysis[$i];}
