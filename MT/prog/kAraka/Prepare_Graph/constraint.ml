@@ -167,7 +167,7 @@ value join_relations a b1 b c d e1 e f u v1 v w x y1 y z =
     else if c >= 2200 && c < 2300 then [Relationc (u,v1,v,14,x,y1,y,z)] 
     else if c >= 2400 && c < 2500 && w >= 4300 && w < 4400 then [
             Relationc (u,v1,v,95,x,y1,y,z); Relationc(a,b1,b,43,d,e1,e,f)] 
-    else if c >= 2600 && c < 2700 then [Relationc (u,v1,v,49,x,y1,y,z)] 
+    else if c >= 2600 && c < 2700 then [Relationc (u,v1,v,50,x,y1,y,z)] 
     (* else if c >= 2700 && c < 2800 then [Relationc (u,v1,v,14,x,y,y1,z)]  *)
     (*else if c >= 3100 && c < 3200  && w >= 4300 && w < 4400 then [Relationc (a,b1,b,c,d,e1,e,f);Relationc (u,v1,v,92,x,y1,y,z)]*)
     else if c >= 3200 && c < 3300  && w >= 4300 && w < 4400 then [Relationc (a,b1,b,c,d,e1,e,f);Relationc (u,v1,v,93,x,y1,y,z)] 
@@ -643,13 +643,13 @@ print_int r1; print_string " "; print_int r2; print_string "\n";
          then False  (* do { print_string "C13\n"; False} *)
 
       (* There can not be a samboXya of a verb, which is viSeRaNa/pUrvakAla etc. Only 'iwi' relation with such verbs are allowed. 
-              samboXya=48; vAkyakarama=12 ; prawiyogi=3*)
+              samboXya=49; vAkyakarama=12 ; prawiyogi=3*)
 (* need example *)
          else if sequence from_id2 from_cid2 from_mid2 to_id1 to_cid1 to_mid1
-                && (r2=48) && not (r1=12)
+                && (r2=49) && not (r1=12)
          then False (* do { print_string "C14\n"; False} *)
          else if sequence from_id1 from_cid1 from_mid1 to_id2 to_cid2 to_mid2
-                && (r1=48) && not (r2=12)
+                && (r1=49) && not (r2=12)
          then False (* do { print_string "C15\n"; False} *)
          else if same_root from_id1 from_id2 from_cid1 from_cid2 from_mid1 from_mid2
          then (* do { print_string "C16\n"; *) outgoing_incompatible_rels (r1,r2) (*}*)
@@ -757,7 +757,8 @@ value chk_compatible text_type m1 m2= (*do { print_string "==>";*)
 value rec add_cost text_type acc rels=fun
   [ [] -> acc
   |  [i :: r] ->  match List.nth rels (i-1) with
-       [ Relationc (a1,b1,c1,rel,a2,b2,c2,dist2) -> 
+       [ Relationc (a1,b1,c1,rel,a2,b2,c2,dist) -> 
+	    (* dist is not always the dist, but also is used to count the number of relations; hence dist is calculated a fresh here for calculating the cost *)
             let dist = if a2 > a1 then a2-a1 else a1-a2 in
             let res=
             if rel=101 then 0
@@ -809,7 +810,7 @@ value rec add_cost text_type acc rels=fun
                       then rel * dist * 10 (* if the kaarakas or RaRTI are to the right, give penalty *)
                       else rel * dist (* no penalty in case of Sloka *)
                  else rel * dist
-        in  add_cost text_type (acc+res) rels r
+        in   add_cost text_type (acc+res) rels r
        ]
   ]
 ;
