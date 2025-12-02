@@ -35,7 +35,7 @@ value karaNa_XAwu_list = [
 "baxXa";
 "Bram2";
 "Bix1";
-"BU1";
+"zBU1"; (* How can BU have a karaNa ? *)
 "BUR1";
 "BUR2";
 "Bq1";
@@ -60,7 +60,7 @@ value karaNa_XAwu_list = [
 "kap1";
 "Kan1";
 "KAx1";
-"kq3";
+"zkq3"; (* if the there are vikArya karmas, then for kq3 karaNa is possible. saH aByAsaM karowi -- karaNa for kq3 is not there *)
 "kqw1";
 "kRal1";
 "kRip2";
@@ -82,6 +82,7 @@ value karaNa_XAwu_list = [
 "ni_banX1";
 "ni_vq1";
 "nis_vA1";
+"nis_gam1";
 "ni_han1";
 "ni_yam1";
 "nqw1";
