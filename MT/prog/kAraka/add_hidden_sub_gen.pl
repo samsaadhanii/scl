@@ -72,7 +72,7 @@ my ($i,$node,$index);
              #print "IN = $in[$j]\n";
              $children_node .= $in[$j];
              $visited[$j] = 1;
-         } elsif  ($in[$j] =~ /Node($sent[0-9]+_[0-9]_[0-9])&#45;&gt;Node(($sent[0-9]+_[0-9]_[0-9])c)/) {
+         } elsif  ($in[$j] =~ /Node($sent[0-9]+_[0-9]+_[0-9]+)&#45;&gt;Node(($sent[0-9]+_[0-9]+_[0-9]+)c)/) {
             if (($1 eq $3) && ($2 eq $node)) { 
                  $children_node .= $in[$j];
                  $visited[$j] = 1;
@@ -88,11 +88,11 @@ my ($i,$node,$index);
  }
  for ($j=0;$j<=$#in; $j++)  {
     if ($visited[$j] != 1) {
-       if  ($in =~ /Node($sent[0-9_]+)&#45;&gt;Node($sent[0-9]+_[0-9]_[0-9])c/) {
+       if  ($in =~ /Node($sent[0-9_]+)&#45;&gt;Node($sent[0-9]+_[0-9]+_[0-9]+)c/) {
             if ($1 ne $2) { print $in[$j];
                 #print "IN1 = $in NI \n";
             }
-       } elsif  ($in =~ /Node($sent[0-9]+_[0-9]_[0-9])&#45;&gt;Node($sent[0-9]+_[0-9]_[0-9])c /) {
+       } elsif  ($in =~ /Node($sent[0-9]+_[0-9]+_[0-9]+)&#45;&gt;Node($sent[0-9]+_[0-9]+_[0-9]+)c /) {
             if ($1 ne $2) { print $in[$j];
                 #print "IN2 = $in NI \n";
             }
@@ -111,7 +111,7 @@ sub get_dummy_nodes_list {
   my ($hidden_count) = 1;
 
   foreach $node (@svg_nodes) {
-    if  ($node =~ /<\!\-\-.* Node($sent[0-9]+_[0-9]_[0-9]c) .*\-\->/) {
+    if  ($node =~ /<\!\-\-.* Node($sent[0-9]+_[0-9]+_[0-9]+c) .*\-\->/) {
          $dummy_node[$hidden_count] = $1;
          $hidden_count++;
     }
