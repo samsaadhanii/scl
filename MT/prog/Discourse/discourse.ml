@@ -569,7 +569,7 @@ value rec mark_relations3 acc finite_verbs = fun
                                          let acc2 = List2.union acc1 [Relation (sid1,id1,cid1,"samuccaya_xyowakaH",sid_v2,id_v2,cid_v2,"rule18a",dist)] in
 			                 mark_relations3 acc2 finite_verbs s
 				    else mark_relations3 acc finite_verbs s
-				| "vA" | "uwa" | "yaxvA" | "aWavA" | "uwApi" | "uwasviw" ->
+				| "vA" | "uwa"| "yaxvA" | "aWavA" | "uwApi" | "uwasviw" ->
 				    if(rel1 = "sambanXaH") 
                                     then let acc1 = List2.union acc [Relation (sid_v2,id_v2,cid_v2,"anyawaraH",sid_v1,id_v1,cid_v1,"rule19",dist)] in
 			                 mark_relations3 acc1 finite_verbs s
