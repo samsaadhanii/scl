@@ -61,6 +61,7 @@ $dvandva_found = 0;
       $i = 1; 		#The count starts with 1; since the 1st line corresponds to the headers and hence it is to be ignored.
 
       while($i <= $#rows) {
+	#print $i, "\t", $rows[$i],"\n";
 	chomp($rows[$i]);	# chop the newline
         $rows[$i] =~ s///g;
 	$rows[$i] =~ s/\./_/g;	# Dot does not allow '.'s in the Node labels.
@@ -470,7 +471,7 @@ sub form_compound_constituency_tree {
     @f = split(/:/,$compound[$i]);	# fields: index(0), word(1), relation(2), to_index (3), kqw_or_not (4), color code (5)
     @rels = split(/;/,$f[2]);
     $diff = &get_diff($f[3], $f[0]);
-    if (($diff == 1) || ($diff == 10))  {	#  if next word then diff=10; if next component then diff = 1
+    if (($diff == 1) || ($diff == 20))  {	#  if next word then diff=10; if next component then diff = 1
        $found_pUrvapaxa_indx = &myfound($f[0],$stack_index,@stack);
        $found_uwwarapaxa_indx = &myfound($f[3],$stack_index,@stack);
       # print "$f[0] $f[3]\n";
@@ -498,7 +499,7 @@ sub form_compound_constituency_tree {
                else { $intmd = "";}
                if($pos == $component_indx-1) { $last = 1;} else { $last = 0;}
                #print " f0 = $f[0]  f2 = $f[2] \n";
-               p#rint "XXX\n";
+               #print "XXX\n";
                &print_subtree($f[0],$f[2],$f[3],$f[4],$f[5],$intmd,$edgedir,$last);
                $found_indx = &myfound($f[3],$stack_index,@stack);
             }
@@ -539,7 +540,7 @@ sub form_compound_constituency_tree {
           $stack_index++;
       }
   $i++;
- # print "ABC i = $i\n";
+  #print "ABC i = $i\n";
 }
 }
 1;
@@ -687,7 +688,7 @@ $from_first_digit = &get_first_digit($from);
 $to_first_digit = &get_first_digit($to);
 
 if ($from_first_digit != $to_first_digit) { 
-    $diff = 10; # Next word
+    $diff = 20; # Next word
 } else {
    $from =~ s/.*_//g;
    $to =~ s/.*_//g;
