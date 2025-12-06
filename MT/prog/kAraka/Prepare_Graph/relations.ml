@@ -80,7 +80,8 @@ value relations_encodings = [
 	("aXyAhqwakriyAkarma",87);
 	("afgavikAraH",88);
         ("uwprekRA_xyowakaH",89);
-	("ZavaXiH",91);
+	("avaXi_prAramBaH",90);
+	("avaXi_anwaH",91);
 	("sahArWaH",92);
 	("vinArWaH",93);
 	("AramBa_binxuH",94);

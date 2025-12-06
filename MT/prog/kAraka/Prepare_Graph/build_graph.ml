@@ -1654,11 +1654,11 @@ e.g. saH prAwaH BramaNAya gacCawi -- Amruta   14 July 2020
                          else [ Relation (id1,cid1,mid1,"prayojanam1",id2,cid2,mid2,"4.17",d12)] (* prakRAlanAya xaxAwi *)
        | 5 -> if members_of rt2 upasarga2 apAxAna_verbs
               then if pronominal123 rt1
-                   then if word1="wasmAw"
+                   then (*if word1="wasmAw"
                         then if kqw2=0
                              then [ Relation (id1,cid1,mid1,"kArya_xyowakaH",id2,cid2,mid2,"4.17c",d12)]  
 			     else []
-                        else [ Relation (id1,cid1,mid1,"apAxAnam",id2,cid2,mid2,"4.17d",d12)
+                        else*) [ Relation (id1,cid1,mid1,"apAxAnam",id2,cid2,mid2,"4.17d",d12)
                              ; Relation (id1,cid1,mid1,"hewuH5",id2,cid2,mid2,"4.18",d12) ]
                    else if not(member_of rt1 guNa_not_guNavacana) || (kqw1=1)  (* allow kqxanwas also  -- xAwqByaH Xanam laBanwe *)
                         then [ Relation (id1,cid1,mid1,"apAxAnam",id2,cid2,mid2,"4.19",d12)  (* apAxAne paFcamI  - rAmaH grAmAw AgacCawi / raveH lokaH prakASam aXigacCawi *) 
@@ -4013,7 +4013,7 @@ value rl_hi m1 m2 m3 text_type = match m1 with
    We need to prepare a list of avyayas from avayayakosha  *)
 value rlsambanXa1 m1 m2 text_type = match m2 with
   [ Avy (id2,cid2,mid2,_,rt2,_,_,_) ->
-       if (rt2="aWaca" || rt2="eva"|| rt2="wu"||rt2="nu"|| rt2="ha"|| rt2="cEva" ||  rt2="Kalu" || rt2="vE" || rt2="api" || rt2="COMMA" || rt2=",") (* iva removed *)
+       if (rt2="aWaca" || rt2="eva"|| rt2="wu"||rt2="nu"|| rt2="ha"|| rt2="cEva" ||  rt2="Kalu" || rt2="vE" || rt2="api" || rt2="iwoZpi" || rt2="yaxvA" || rt2="COMMA" || rt2=",") (* iva removed *)
        then match m1 with
         [ Wif (id1,cid1,mid1,word1,_,_,_,_,_,_,_,_,_,_,_,_)
         | Kqw (id1,cid1,mid1,word1,_,_,_,_,_,_,_,_,_,_,_,_,_)
@@ -4022,14 +4022,16 @@ value rlsambanXa1 m1 m2 text_type = match m2 with
         | Avy (id1,cid1,mid1,word1,_,_,_,_)
         | WaxXiwa (id1,cid1,mid1,word1,_,_,_,_,_,_,_,_) -> 
          let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
-             if (rt2="aWaca" || id1 = previous id2)
-             then [ Relation (id2,cid2,mid2,"sambanXaH",id1,cid1,mid1,"35.9",d12)]
-             else if (rt2 = "api" && id2 = 2)
-                  then [ Relation (id2,cid2,mid2,"sambanXaH",id1,cid1,mid1,"35.10",d12)]
-		  else []
+             if (rt2="aWaca" || rt2 = "iwoZpi" || rt2 = "yaxvA") 
+                 then if (id1 > id2) 
+                      then [ Relation (id2,cid2,mid2,"sambanXaH",id1,cid1,mid1,"35.9",d12)]
+		      else []
+                 else if (id1 = previous id2)
+                 then [ Relation (id2,cid2,mid2,"sambanXaH",id1,cid1,mid1,"35.10",d12)]
+		 else []
        | Sup (id1,cid1,mid1,word1,rt1,_,_,_,viBakwiH1,_,_) ->
          let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
-         if     not(viBakwiH1=8) && id1 = previous id2  && (not (rt2 = "api") || id2 > 2 ) (* if id2 = 1 & word2 = api - Question type; if id2 = 2; word2 = api, then sambanXa with verb -- conjunction with previous sentence *)
+         if     not(viBakwiH1=8) && id1 = previous id2  && (not (rt2 = "api") || id2 > 1 ) (* if id2 = 1 & word2 = api - Question type;  id2 > 1; word2 = api, then sambanXa with verb -- conjunction with previous sentence *)
          then [ Relation (id2,cid2,mid2,"sambanXaH",id1,cid1,mid1,"35.11",d12)]
          else []
        ]
@@ -4097,6 +4099,32 @@ value rlsambanXa1 m1 m2 text_type = match m2 with
   ]
   ; *)
 
+(*
+praBqwi should be connected to the verb by avaXi_prAramBa, and wawaH will be the sanxarBa-binxuH
+saH wawaH praBqwi na AgacCawi
+saH wawaH param prawixinam pATam paTawi
+value rl_avaXi m1 m2 text_type = match m2 with
+  [ Avy (id2,cid2,mid2,word2,_,_,_,_) -> 
+     if (word2 = "wawaH") || (word2 = "awaH") 
+     then  match m1 with
+     [ Avy (id1,cid1,mid1,word1,_,_,_,_) -> 
+       let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
+       match word1 with
+       [ "praBqwi" 
+       | "param"   -> if  (id1 = next id2) 
+                      then [ Relation (id1,cid1,mid1,"avaXi_prAramBaH",id2,cid2,mid2,"36.1a",d12)]
+                      else []
+       | "paryanwam"  -> if  (id1 = next id2) 
+                      then [ Relation (id1,cid1,mid1,"avaXi_anwaH",id2,cid2,mid2,"36.1b",d12)]
+                      else []
+       | _ -> []
+       ]
+     | _ -> []
+     ] else []
+  | _ -> []
+  ]
+  ; *)
+
 value rl_sma m1 m2 text_type = match m2 with
   [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_) ->
      match m1 with
@@ -4145,6 +4173,7 @@ value discourse_rel1 m1 id2 cid2 mid2 text_type = match m1 with
        | "cew" -> if (id1 < id2) || (id1 = id2+1)  (* na aswi cew Xarme sWiwA janawA --> id1 = id2+1 *)
           then [ Relation (id1,cid1,mid1,"AvaSyakawA_xyowakaH",id2,cid2,mid2,"37.5",d12)]
           else []
+       | "waxvA" 
        | "warhi" -> if (id1 < id2)
           then [ Relation (id1,cid1,mid1,"pariNAma_xyowakaH",id2,cid2,mid2,"37.6",d12)]
           else [] 
@@ -4789,6 +4818,8 @@ value sent_beginning_connectives id1 cid1 mid1 id2 cid2 mid2 rt2 upasarga2 word1
               |"anyaWA"
               |"aWavA"
               |"uwa"
+              |"uwApi"
+              |"uwasviw"
               (*|"yaWA" -- yaWA is always a kriyAviSeRaNam *)
               |"yaxvaw"
               |"waWA"
@@ -4826,7 +4857,7 @@ value rlsent_beginning_connectives m1 m2 text_type = match m1 with
      ]
 ; 
 
-value rl_avaXiH m1 m2 text_type = match m1 with
+(* value rl_avaXiH m1 m2 text_type = match m1 with
      [ Avy (id1,cid1,mid1,word1,_,_,_,_) -> match m2 with
        [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_) -> 
          let d12 = if id1 > id2 then id1-id2 else id2-id1 in
@@ -4837,7 +4868,7 @@ value rl_avaXiH m1 m2 text_type = match m1 with
        ]
      | _ -> []
      ]
-;
+; *)
 
 
 value sent_connectives id1 cid1 mid1 id2 cid2 mid2 id3 cid3 mid3 rt1 upasarga1 word2 rl1 rl2 rl3 rl4 =
@@ -5315,7 +5346,7 @@ value mark_sup_samucchiwa id1 id2 id3 cid1 cid2 cid3 mid1 mid2 mid3 viBakwiH1 vi
            if viBakwiH1=viBakwiH3 
            && not (viBakwiH1 = 8) 
            (* && vacanam1 = vacanam3 ; hqxayAni naBaH ca vyanunAxaya BhG 1.19 *)
-           then if (   ((word2="ca" || word2 = "evaFca" || word2 = "aWaca" || word2="cEva" || word2="api") && not (id2=2)) (* yAnam api vanam gacCawi, here yAnam and vanam cannot be joined with samucciwa  Normally api in the second position connectes the curr sent with the previous one *)
+           then if   ((word2="ca" || word2 = "evaFca" || word2 = "aWaca" || word2="cEva") (* yAnam api vanam gacCawi, here yAnam and vanam cannot be joined with samucciwa  Normally api in the second position connectes the curr sent with the previous one. Hence api not added *)
                      || (word2="waWA" && yaWA_pos.val = 50))
                   && (id2 = next id3)
 		  (* if id2< id3 iinsteadof id2 = id3+1, then 3 words X Y and waWA ANYWHERE in the sentence get joined. To avoid this the condition that waWA should be just next to the word it would be connected with is added *)
@@ -5334,7 +5365,7 @@ value mark_sup_samucchiwa id1 id2 id3 cid1 cid2 cid3 mid1 mid2 mid3 viBakwiH1 vi
 
 value rlca_samucciwa m1 m2 m3 text_type = match m2 with
      [ Avy (id2,cid2,mid2,_,word2,_,_,_) -> 
-        if word2 = "ca" || word2 = "evaFca" || word2 = "aWaca" || word2 = "api" || word2 = "cEva" || word2 = "aWa" || word2="waWA"  (* agaswyaM ca agaswya-BrAwaraM waWA xaxarSa ha -- Sanskshepa Ramayanam 41-42 *)
+        if word2 = "ca" || word2 = "evaFca" || word2 = "aWaca" || word2 = "cEva" || word2 = "aWa" || word2="waWA"  (* agaswyaM ca agaswya-BrAwaraM waWA xaxarSa ha -- Sanskshepa Ramayanam 41-42 *)
         then match m3 with
         [ Wif (id3,cid3,mid3,_,_,_,_,_,_,prayogaH3,lakAra3,puruRaH3,_,_,_,_) ->
            (* if id3 = next id2 then ; not necessary. e.g. rAmaH SAlAm gacCawi pATam ca paTawi*) 
@@ -5351,7 +5382,7 @@ value rlca_samucciwa m1 m2 m3 text_type = match m2 with
                    (* && vacanam1=vacanam2  muKam pariSuRyawi gAwrANi ca sIxanwi *)
 
                   (*then if (((word2="ca" || word2="cEva")  && ((id2 = id1+2)|| (id2=next id3))) *)
-                  then if (((word2="ca" || word2="cEva" || word2 = "api")  && ((id2 > id1)|| (id2=next id3)))
+                  then if (((word2="ca" || word2="cEva" )  && ((id2 > id1)|| (id2=next id3)))
                              (* id2 is the second word in the second sentence i.e. (id2 = id1+2)  
                                 or it is next to the second/last verb 
                                --  rAmaH gAyawi sIwA ca paTawi; rAmaH gAyawi sIwA paTawi ca

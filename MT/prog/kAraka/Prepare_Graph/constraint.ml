@@ -228,11 +228,7 @@ value lwg_and_collapse relations dag =
             match rel with
             [Relationc (a,b1,b,c,d,e1,e,f) -> 
                if c < 2000 
-               then let acc1=if c=91  (* avaXiH  not defined in build_graph.ml! *)
-                               then  List.append acc  [Relationc (a,b1,b,0,d,e1,e,f)] 
-                               (*else if c =214
-                               then List.append acc  [Relationc (a,b1,b,14,d,e1,e,f)] *)
-                               else if (c=200) (*gawikarwA -> karwA *)
+               then let acc1=  if (c=200) (*gawikarwA -> karwA *)
                                then List.append acc  [Relationc (a,b1,b,7,d,e1,e,f)] 
                                else if (c=201) (*gawikarma -> karma *)
                                then List.append acc  [Relationc (a,b1,b,14,d,e1,e,f)] 
@@ -774,7 +770,6 @@ value rec add_cost text_type acc rels=fun
             else if rel=48 then 0 (* sup_anyawara_xyowakaH *)
             else if rel=51 then 0 (* wIvrawAxarSI *)
             else if rel=55 then 0 (* Gataka_xyowakaH *)
-           (* avaXiH not yet defined in build_graph.ml  else if rel=91 then 0 (*  avaXiH *) *)
             (* else if rel=29 then 39 * dist  hewuH -> hewu *)
              else if rel=70 then 39 * dist  (* hewuH5 -> hewuH *)
             else if rel=76 then 1 * dist (* sahArWa_xyowakaH *)
