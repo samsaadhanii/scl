@@ -247,10 +247,12 @@ sub niwya_relations{
 sub cluster_relations1{
   my($rel) = @_;
   if(   ($rel =~ /समुच्चित/) 
-  #   || ($rel =~ /समुच्चय_द्योतकः/)
+     || ($rel =~ /समुच्चय_द्योतकः/)
      || ($rel =~ /अन्यतरः/)
+     || ($rel =~ /अन्यतर_द्योतकः/)
      || ($rel =~ /samuccitaḥ/) 
-  #   || ($rel =~ /samuccaya_xyowakaḥ/) 
+     || ($rel =~ /samuccaya_xyowakaḥ/) 
+     || ($rel =~ /anyawara_xyowakaḥ/) 
      || ($rel =~ /anyataraḥ/)
      || ($rel =~ /anyatara.h/)) {
     return 1;
