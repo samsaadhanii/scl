@@ -99,6 +99,8 @@
 [ ]gaNa[ \-]kqwvas	{printf(" gaNakqwvas");}
 ^pra[ \-]hi	{printf("prahi");}
 [ ]pra[ \-]hi	{printf(" prahi");}
+^iwaH[ \-]api	{printf("iwoZpi");}
+[ ]iwaH[ \-]api	{printf(" iwoZpi");}
 ^iwi[ \-]arWa[Mm]	{printf("iwyarWam");}
 [ ]iwi[ \-]arWa[Mm]	{printf(" iwyarWam");}
 ^iwWa[Mm][ \-]kAra[Mm]	{printf("iwWafkAram");}
@@ -816,6 +818,10 @@
 [ ]upa\-aMSu	{printf(" upAMSu");}
 ^upa\-akRa[Mm]	{printf("upAkRam");}
 [ ]upa\-akRa[Mm]	{printf(" upAkRam");}
+^uwa[ ]api	{printf("uwApi");}
+[ ]uwa[ ]api	{printf(" uwApi");}
+^wawaH[ \-]ca	{printf("wawaSca");}
+[ ]wawaH[ \-]ca	{printf(" wawaSca");}
 ^wawra[ \-]wawra	{printf("wawra wawra");}
 [ ]wawra[ \-]wawra	{printf(" wawra wawra");}
 ^waWEva[ \-]ca	{printf("waWEva ca");}
