@@ -82,7 +82,7 @@ value karaNa_XAwu_list = [
 "ni_banX1";
 "ni_vq1";
 "nis_vA1";
-"nis_gam1";
+"nir_gam1";
 "ni_han1";
 "ni_yam1";
 "nqw1";

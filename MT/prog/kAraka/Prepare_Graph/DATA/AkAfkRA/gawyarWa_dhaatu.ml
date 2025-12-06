@@ -13,6 +13,7 @@ value gawyarWa_XAwu_list = [
 "awi_i1";
 "gam1";
 "laG3";
+"nir_gam1";
 "palA_ay1";
 "parA_ay1";
 "pra_Ap1";

@@ -1061,6 +1061,7 @@ value sakarmaka_XAwu_list = [
 "nir_IkR1";
 "nir_NI1";
 "nir_RWA1";
+"nir_gam1";
 "nir_mA1";
 "nis_ci1";
 "nis_piR1";
