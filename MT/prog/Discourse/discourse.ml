@@ -436,7 +436,7 @@ value rec mark_relations1 acc finite_verbs = fun
 			                 mark_relations1 acc1 finite_verbs s
 				     else mark_relations1 acc finite_verbs s
 				| "wawaH" | "awaH" ->
-				     if (rel1 = "sambanXaH") then
+				     if (rel1 = "sambanXaH" || rel1 = "hewuH") then
                                          let acc1 = List2.union acc [Relation (sid_v1,id_v1,cid_v1,"kArya_kAraNa_BAvaH",sid_v2,id_v2,cid_v2,"rule12",dist)] in
 				         let acc2 = List2.union acc1 [Relation (sid1,id1,cid1,"kArya_xyowakaH",sid_v2,id_v2,cid_v2,"rule13",dist)] in
 			                 mark_relations1 acc2 finite_verbs s  

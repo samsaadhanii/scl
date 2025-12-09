@@ -78,7 +78,8 @@ svāmī 86
 adhyāhṛtakriyākarma 87
 aṅgavikāraḥ 88
 utprekṣā_dyotakaḥ 89
-'avadhiḥ 91
+avadhi_prārambhaḥ 90
+avadhi_antaḥ 91
 sahārthaḥ 92
 vinārthaḥ 93
 ārambha_binduḥ 94
@@ -139,3 +140,6 @@ upapada_tatpuruṣaḥ 1037
 bahuvrīhiḥ 1038
 ṣaṣṭhī_tatpuruṣaḥ 1039
 dvandvaḥ 1040
+samāsaḥ 1050
+karmadhārayaḥ_6 1041
+kevala_samāsaḥ 1042
