@@ -4,7 +4,7 @@ value apAxAna_XAwu_list = [
 "Af_NI1";
 "al1";
 "anu_xqS1";
-"Ap1";
+"zAp1"; (* How can Ap1 be in this list? - Ap1 = to reach / prApwa karanA ?  *)
 "apa_hq1";
 "apa_sqp1";
 "as29";
