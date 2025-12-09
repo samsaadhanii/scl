@@ -1849,16 +1849,27 @@ Why this condition of 3 & 5 and hewu? We should write this in anaBihiwe itself!
             then let kqw1=0 in let kqw2=1 in anaBihiwe m1 m2 id1 cid1 mid1 rt1 word1 pUrvapaxa1 uwwarapaxa1 lifgam1 viBakwiH1 id2 cid2 mid2 rt2 pUrvapaxa2 uwwarapaxa2 upasarga2 kqw1 kqw2 text_type
             else let kqw1=1 in let kqw2=1 in anaBihiwe m1 m2 id1 cid1 mid1 rt1 word1 pUrvapaxa1 uwwarapaxa1 lifgam1 viBakwiH1 id2 cid2 mid2 rt2 pUrvapaxa2 uwwarapaxa2 upasarga2 kqw1 kqw2 text_type
             else []
-     | Avy (id1,cid1,mid1,word1,_,_,uwwarapaxa1,_) -> 
-       let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
+       | Avy (id1,cid1,mid1,word1,_,_,uwwarapaxa1,_) -> 
+           let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
            if ((word1 = "yawaH") || (word1 = "wawaH")) 
-           then if members_of rt2 upasarga2 apAxAna_verbs
-                then [ Relation (id1,cid1,mid1,"apAxAnam",id2,cid2,mid2,"4.43a",d12)
-                     ; Relation (id1,cid1,mid1,"hewuH5",id2,cid2,mid2,"4.43b",d12) ]
-		else [ Relation (id1,cid1,mid1,"hewuH5",id2,cid2,mid2,"4.43c",d12) ]
+           then if members_of rt2 upasarga2 apAxAna_verbs 
+                then [ Relation (id1,cid1,mid1,"apAxAnam",id2,cid2,mid2,"4.43a",d12)]
+                     (*; Relation (id1,cid1,mid1,"hewuH5",id2,cid2,mid2,"4.43b",d12) ]
+		else [ Relation (id1,cid1,mid1,"hewuH5",id2,cid2,mid2,"4.43c",d12) ]  -- removed, since typically yawaH and wawaH mark the relation with the wif and not kqw *)
+		else []
 	   else []
        | _ -> []
        ]
+   | Sup (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,lifgam2,viBakwiH2,_,_) -> 
+       if (rt2 = "samBava" || rt2 = "viswAra")  (* samBava = sam+BU+ap; we still do not have kqw analyser that analyses with ap suffix  ; Add here all the words for which kqw analysis is not avalilable -- Amba 9.12.2025 *)
+       then match m1 with
+       [ Avy (id1,cid1,mid1,word1,_,_,uwwarapaxa1,_) -> 
+           let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
+           if ((word1 = "yawaH") || (word1 = "wawaH")) 
+           then [ Relation (id1,cid1,mid1,"apAxAnam",id2,cid2,mid2,"4.43a",d12)]
+	   else []
+       | _ -> []
+       ] else []
   | _ -> []
   ]
   ;
@@ -1946,8 +1957,10 @@ value rlapAxAna_wasil m1 m2 text_type = match m2 with
        then if members_of rt2 upasarga2 apAxAna_verbs
             then [ Relation (id1,cid1,mid1,"apAxAnam",id2,cid2,mid2,"6.4",d12)] 
             else (*if id1 > 1  -- Why this condition necessary? kuwaH na pAsyAmi -- here it is hewuH5
-                 then*) [ Relation (id1,cid1,mid1,"hewuH5",id2,cid2,mid2,"6.5",d12)]
-                 (*else []*)
+                 then*) 
+            if not (word1 = "wawaH")  (* this condition is added to handle several example from BhG such as मम योनिः महत् ब्रह्म अस्ति. तस्मिन् गर्भम् दधामि अहम्. सम्भवः सर्व-भूतानाम् ततः भवति भारत.*)
+            then [ Relation (id1,cid1,mid1,"hewuH5",id2,cid2,mid2,"6.5",d12)] 
+            else []
        else []
      |_ -> []
      ]
