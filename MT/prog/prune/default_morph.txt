@@ -76,6 +76,7 @@ ucyawe=brU1<prayogaH:karmaNi><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:Awmane
 vaNijaH=vaNija<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 varXayanwi=vqX1_Nic<prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:bahu><paxI:parasmEpaxI><XAwuH:vqXuz><gaNaH:BvAxiH><level:1>
 varwawe=vqw1<prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:AwmanepaxI><XAwuH:vqwuz><gaNaH:BvAxiH><level:1>
+wawaH=wawaH<vargaH:avy><level:1>
 wasya=wax<vargaH:sarva><lifgam:napuM><viBakwiH:6><vacanam:eka><level:1>/wax<vargaH:sarva><lifgam:puM><viBakwiH:6><vacanam:eka><level:1>
 xIyanwe=xA1<prayogaH:karmaNi><lakAraH:lat><puruRaH:pra><vacanam:bahu><paxI:AwmanepaxI><XAwuH:xAN><gaNaH:BvAxiH><level:1>
 xUraxarSane=xUraxarSana<vargaH:nA><lifgam:napuM><viBakwiH:7><vacanam:eka><level:1>
