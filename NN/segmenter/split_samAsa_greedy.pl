@@ -107,16 +107,16 @@ $len = length($in);
            if((length($wrd1) < $Max_Word_Size) && !$MO_CHECKED{$wrd1}){
               if($debug) {print "Calling morph for $wrd1\n";}
               $MO{$wrd1} = &get_morph_ana($wrd1);
-              if($debug) {print "$MO{$wrd1}\n";}
+              if($debug) {print "MO for wrd1 = $MO{$wrd1}\n";}
               $MO_CHECKED{$wrd1} = 1;
            }
           if((length($wrd2) < $Max_Word_Size) && !$MO_CHECKED{$wrd2}){
               if($debug) {print "Calling morph for $wrd2\n";}
               $MO{$wrd2} = &get_morph_ana($wrd2);
-              if($debug) {print "$MO{$wrd2}\n";}
+              if($debug) {print "MO for wrd2= $MO{$wrd2}\n";}
               $MO_CHECKED{$wrd2} = 1;
           }
-          if($MO{$wrd1} && $MO{$wrd2}) {
+          if($MO{$wrd1} == 1 && $MO{$wrd2}== 1 ) {
            #print "Morph for $wrd1 and $wrd2 found\n";
            #$local_ans .= "/".$wrd1." ".$wrd2.";".$fld3;
            $local_ans .= "/".$wrd1."{$fld3}".$wrd2;
@@ -124,7 +124,7 @@ $len = length($in);
             $local_found = &add_position($local_found,$position);
            }
           } 
-          elsif($MO{$wrd1}) {
+          elsif($MO{$wrd1}== 1 ) {
             #print "Morph for $wrd1 found Splitting $wrd2\n";
             if(!$SPLIT_CHECKED{$wrd2}) {
                 ($ans,$sub_found) = split(/#/,&split_recursive_sandhi($wrd2,$wrd2_position-1,$found));
@@ -191,8 +191,14 @@ sub get_morph_ana{
 # if(-s "/tmp/SKT_TEMP/tt") { $ans = 1;} else { $ans = 0;}
 # print "ans1 = $ans\n"; 
 # system("cat /tmp/SKT_TEMP/tt");
- $ans = `$myPATH/NN/segmenter/client_splitter.sh $word1 | grep . | grep -v '\*'| wc -l`;
- if ($ans == 0) { $ans = $?;}
+# Daemon version
+# $ans = `$myPATH/NN/segmenter/client_splitter.sh $word1 | grep . | grep -v '\*'| wc -l`;
+ #$ans = `$myPATH/NN/segmenter/client_splitter.sh $word1 | grep . | grep -v '\*'| wc -l`;
+#system("echo $word1 >> /tmp/tt");
+#system("echo $word1 | $GlblVar::LTPROCBIN -cz $GlblVar::CGIDIR/$GlblVar::SCL_CGI/morph_bin/nyAya_morf.bin >> /tmp/tt");
+ $ans = `echo $word1 | $GlblVar::LTPROCBIN -c $GlblVar::CGIDIR/$GlblVar::SCL_CGI/morph_bin/nyAya_morf.bin | grep . | grep -v '\*' | wc -l`;
+ #if ($ans == 0) { $ans = $?;} # $? stands for the error code of the child process
+ #print "$word1  $ans\n";
 return $ans;
 }
 1;

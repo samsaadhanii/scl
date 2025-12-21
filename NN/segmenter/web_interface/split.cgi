@@ -53,8 +53,9 @@ system("mkdir -p $GlblVar::TFPATH");
         cursor on the hyphen '-'.<br /> <span>\"Parse\", will take you 
         to the interactive interface for constituency parseing.</span> 
         <br /></center><ul class=\"list-inline\"><center>";
+# Daemon version
         #$output = `$myPATH/NN/segmenter/skt_splitter_server.pl; echo $textwx | $myPATH/NN/segmenter/split_samAsa_greedy.pl | $myPATH/converters/ri_skt |$myPATH/converters/iscii2utf8.py 1 | $myPATH/NN/segmenter/format.pl`;
-        $output = `$myPATH/NN/segmenter/skt_splitter_server.pl; echo $textwx | $myPATH/NN/segmenter/split_samAsa_greedy.pl | $myPATH/converters/ri_skt |$myPATH/converters/iscii2utf8.py 1 | $myPATH/NN/segmenter/format.pl`;
+        $output = `echo $textwx | $myPATH/NN/segmenter/split_samAsa_greedy.pl | $myPATH/converters/ri_skt |$myPATH/converters/iscii2utf8.py 1 | $myPATH/NN/segmenter/format.pl`;
        print "<font color=\"red\">$textutf</font>";
        print "$output";
         print "<font color=\"black\">";
