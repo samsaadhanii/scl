@@ -35,6 +35,10 @@ value upAXi_list = [
 "xUwa";
 "xevI";
 "zxeva";  (* xevI ahilyA is possible, but for xeva XXX I need examples *)
-"xayiwa"
+"xayiwa";
+"gAyaka"; (* Check if all these ending in aka can be considered seperately under some kqw suffix *)
+"cAlaka";
+"vAxaka";
+"kAraka"
 ]
 ;

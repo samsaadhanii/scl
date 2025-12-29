@@ -13,6 +13,7 @@ value sambanXavAci_list = [
 "bAnXakineya";
 "bAnXava";
 "banXu";
+"bAnXava";
 "banXula";
 "Barwq";
 "BAryA";

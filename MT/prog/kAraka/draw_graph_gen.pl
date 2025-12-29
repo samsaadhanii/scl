@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2023-2025 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2023-2026 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
@@ -181,8 +181,23 @@ my($i,@rel_str,$node,$nodes,@nodes,$node_id,$indx_id,$z,$r,$from,$to);
          $to = $2;
       } else {$from = ""; $to = "";}
 
+	#print "from = $from<br/>";
+	#print "to = $to<br/>";
       for($z=0;$z<=$cluster_no;$z++){
-         if(($cluster[$z] =~ /#$from;/) && ($cluster[$z] !~ /#$to;/)){
+	 #print "cluster $z = $cluster[$z]<br/>";
+         if(($cluster[$z] =~ /#$from,/) && ($cluster[$z] !~ /#$to,/)){
+             $r =~ s/]/ ltail=cluster_$z]/;
+         }
+      }
+      for($z=29;$z<=$cluster_no+29;$z++){
+	 #print "cluster $z = $cluster[$z]<br/>";
+         if(($cluster[$z] =~ /#$from,/) && ($cluster[$z] !~ /#$to,/)){
+             $r =~ s/]/ ltail=cluster_$z]/;
+         }
+      }
+      for($z=49;$z<=$cluster_no+49;$z++){
+	 #print "cluster $z = $cluster[$z]<br/>";
+         if(($cluster[$z] =~ /#$from,/) && ($cluster[$z] !~ /#$to,/)){
              $r =~ s/]/ ltail=cluster_$z]/;
          }
       }
@@ -800,7 +815,12 @@ sub add_relations{
                 if (($d_id ne "") && ($rel_nm !~ /abhihita/) && ($rel_nm !~ /अभिहित/)){
                     if($new_index{$d_id} ne "") { $d_id = $new_index{$d_id};} 
                     if($new_index{$s_id} ne "") { $s_id = $new_index{$s_id};} 
-                    $str .= "\nNode$s_id -> Node$d_id \[ $s_str label=\"".$rel_nm."\"  $edgedir \]";
+		    if (($rel_nm !~ /samuccita/) && ($rel_nm !~ /समुच्चित/) && ($rel_nm ne "viśeṣaṇa") && ($rel_nm ne "विशेषणम्")) {
+                        $str .= "\nNode$s_id -> Node$d_id \[ $s_str label=\"".$rel_nm."\"  $edgedir \]";
+                    }
+		    #if (($rel_nm ne "viśeṣaṇa) && ($rel_nm ne "विशेषणम्")) {
+                    #    $str .= "\nNode$s_id -> Node$d_id \[ $s_str label=\"".$rel_nm."\"  $edgedir \]";
+                    #}
                 }
                 $rank .= &mark_niwya_sambanXa($rel_nm,$s_id,$d_id);
               }

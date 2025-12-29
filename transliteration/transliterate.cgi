@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 
-#  Copyright (C) 2010-2012 Karunakar 2013-18 Amba Kulkarni
+#  Copyright (C) 2010-2012 Karunakar 2013-26 Amba Kulkarni
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License

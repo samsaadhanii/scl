@@ -139,11 +139,12 @@ value relations_encodings = [
         ("naF_wawpuruRaH",1035);
         ("xvigu_wawpuruRaH",1036);
         ("upapaxa_wawpuruRaH",1037);
-        ("bahuvrIhiH",1038);
-        ("RaRTI_wawpuruRaH",1039);
+        ("RaRTI_wawpuruRaH",1038); (* if a compound can both be bahuvrIhi and Tatpurusha, and there is no other way to decide which one is preferable, then Tatpurush is preferable, by default *)
+        ("bahuvrIhiH",1039);
         ("xvanxvaH",1040);
-				("karmaXArayaH_6",1041);
-				("kevala_samAsaH",1042);
-				("samAsaH",1050);
+	("karmaXArayaH_6",1041);
+	("kevala_samAsaH",1042);
+        ("naF_bahuvrIhiH",1043);
+	("samAsaH",1050);
         ]
 ;

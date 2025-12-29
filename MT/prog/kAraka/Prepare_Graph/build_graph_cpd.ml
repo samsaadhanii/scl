@@ -1,5 +1,5 @@
-(* Copyright: Amba Kulkarni (2014-2024) 
- * Sanjeev Panchal (2015-2020) *)
+(* Copyright: Amba Kulkarni (2024-2026) 
+   Sriram Krishnan (2024-2026) *) 
 
 
 (* open Paths; *)
@@ -45,6 +45,7 @@ open Exceptional_cpd_list;
 open NaxI_vAcI;
 open ApAxAna_dhaatu;
 open AmUrwa;
+open UpAXi;
 
 value morphs = Gram.Entry.mk "morphs"
 ;
@@ -330,6 +331,9 @@ value guNa_not_guNavacana = build_trie guNa_not_guNavacana_list
 value xravyavAcI = build_trie xravyavAci_list
 ;
 
+value manuRyasaFjFAvAcI = build_trie manuRyasaFjFAvAci
+;
+
 value xik_vAcI = build_trie xik_vAcI_list
 ;
 
@@ -352,6 +356,9 @@ value apAxAna_verbs = build_trie apAxAna_XAwu_list
 ;
 
 value amUrwa = build_trie amUrwa_list
+;
+
+value upAXi = build_trie upAXi_list
 ;
 
 value verb_type rt upasarga =  
@@ -469,10 +476,10 @@ value rl_compound_kwa m1 m2 text_type = match m1 with
               (* 2-1-39 *)
               [ Relation (id1,cid1,mid1,"paFcamI_wawpuruRaH",id2,cid2,mid2,"200.9",0) ]
             (*else if (members_of base2 upasarga2 karaNa_verbs) || (not (verb_type base2 upasarga2 = "akarmaka")) then *)
-            else if (member_of rt1 guNavacana || member_of rt1 xravyavAcI) && (members_of base2 upasarga2 karaNa_verbs) then
-              (* karwqkaraNe kqwA bahulam (2.1.32 *)
-              [ Relation (id1,cid1,mid1,"wqwIyA_wawpuruRaH",id2,cid2,mid2,"200.10",0) ]
-            else []
+            else if (member_of rt1 guNavacana || member_of rt1 guNa_not_guNavacana || member_of rt1 xravyavAcI) 
+              (* karwqkaraNe kqwA bahulam (2.1.32) --  (members_of base2 upasarga2 karaNa_verbs) -- this condition is not needed. The relation can be of karwA, karaNa or hewu. *)
+              then [ Relation (id1,cid1,mid1,"wqwIyA_wawpuruRaH",id2,cid2,mid2,"200.10",0) ]
+              else []
           else []
         else []
      | Sup (id2,cid2,mid2,_,rt2,pUrvapaxa2,uwwarapaxa2,_,_,_,_)
@@ -532,13 +539,18 @@ value rl_compound_viBakwi_wa_pu m1 m2 text_type = match m1 with
             else 
               (* awyanwasaMyoge ca 2.1.29 *)
               [ Relation (id1,cid1,mid1,"xviwIyA_wawpuruRaH",id2,cid2,mid2,"200.14",0)]
-          else if member_of kqw_XAwu2 apAxAna_verbs then
+          else if member_of kqw_XAwu2 apAxAna_verbs 
+                  && not (member_of kqw_XAwu2 sakarmaka_verbs) then (* added by Amba -- BIRma-aBirakRiwam - not a T5, but a T3 *)
             (* Example - prakqwi-samBavAH *)
             [ Relation (id1,cid1,mid1,"paFcamI_wawpuruRaH",id2,cid2,mid2,"200.14a",0)]
           else if kqw_prawyaya2 = "yaw" || kqw_prawyaya2 = "Nyaw" then 
             if (member_of rt1 xravyavAcI) then 
               (* kqwyEraXikArWavacane (2.1.33) *)
               [ Relation (id1,cid1,mid1,"wqwIyA_wawpuruRaH",id2,cid2,mid2,"200.11",0) ]
+            else []
+          else if kqw_prawyaya2 = "kwa" then  (* added by Amba compounding with karwA - BIRma-aBirakRiwam T3 *)
+            if (member_of rt1 manuRyasaFjFAvAcI) then 
+              [ Relation (id1,cid1,mid1,"wqwIyA_wawpuruRaH",id2,cid2,mid2,"200.11a",0) ]
             else []
           else match rt2 with 
           [ "pUrva" -> match rt1 with 
@@ -756,7 +768,7 @@ value rl_compound_K m1 m2 text_type = match m1 with
                         Hence checking both the lists guNavacana and guNa_not_guNavacana  -- AMBA CHK_WITH_SRIRAM*)
                         (*|| member_of rt1 saFjFA_vAcI *) (* NOTE: How to collect list of saFjFA_vAcI *)
                       (* if m1 is captured as kqw or wif, then it considered as kriyA *)  
-                        || is_kriyA m1) && not ( bahuvrIhi_morph_condition m2) && (not (member_of rt2 guNavacana)) then 
+                        || is_kriyA m1) && not ( bahuvrIhi_morph_condition m2) && (not (member_of rt2 guNavacana))  && (not (member_of rt2 guNa_not_guNavacana)) then 
                       (* 2-1-57 *)
                       [ Relation (id1,cid1,mid1,"karmaXArayaH_1",id2,cid2,mid2,"200.39a",0) ] 
                     else if rl_compound_kwAnwa_2 m1 && (not (member_of rt2 guNavacana)) then 
@@ -794,7 +806,8 @@ value rl_compound_naF m1 m2 text_type = match m1 with
       | WaxXiwa (id2,cid2,mid2,_,_,_,uwwarapaxa2,_,_,_,_,_) -> 
         if uwwarapaxa2 = "y" && (id1 = id2) then
           (* 2-2-06 *)
-          [ Relation (id1,cid1,mid1,"naF_wawpuruRaH",id2,cid2,mid2,"200.40",0) ] 
+          [ Relation (id1,cid1,mid1,"naF_wawpuruRaH",id2,cid2,mid2,"200.40a",0)
+          ; Relation (id1,cid1,mid1,"naF_bahuvrIhiH",id2,cid2,mid2,"200.40b",0) ] 
         else []
       | _ -> []
       ]
@@ -1097,6 +1110,7 @@ value rl_compound_A3 m1 m2 text_type = match m1 with
   ]
 ;
 
+(* -- Amba, merged with rl_avyayIBAva_rel
 value rl_avyayIBAva_kriyAviSeRaNa m1 m2 text_type = match m2 with
   [ Kqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
   | Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_) 
@@ -1104,7 +1118,6 @@ value rl_avyayIBAva_kriyAviSeRaNa m1 m2 text_type = match m2 with
      match m1 with
      [ Sup (id1,cid1,mid1,word1,rt1,pUrvapaxa1,uwwarapaxa1,_,_,_,_)
      | Avy (id1,cid1,mid1,word1,rt1,pUrvapaxa1,uwwarapaxa1,_) -> 
-     do {
 	  if (pUrvapaxa1="y")
 	  then 
 	    match rt1 with 
@@ -1120,14 +1133,14 @@ value rl_avyayIBAva_kriyAviSeRaNa m1 m2 text_type = match m2 with
 	    | _ -> []
 	    ]
 	  else []
-	}
      | _ -> []
      ]
    | _ -> []
  ]
 ;
+*)
 
-value rl_avyayIBAva_rel m1 m2 m3 text_type = match m3 with
+value rl_avyayIBAva_rel m1 m2 m3 = match m3 with
   [ Kqw (id3,cid3,mid3,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
   | Wif (id3,cid3,mid3,_,_,_,_,_,_,_,_,_,_,_,_,_) 
   | Avykqw (id3,cid3,mid3,_,_,_,_,_,_,_,_,_) -> 
@@ -1135,30 +1148,39 @@ value rl_avyayIBAva_rel m1 m2 m3 text_type = match m3 with
      [ Sup (id1,cid1,mid1,word1,rt1,pUrvapaxa1,_,_,_,_,_)
      | Avy (id1,cid1,mid1,word1,rt1,pUrvapaxa1,_,_) 
        -> 
-	  match m2 with 
+	  if (pUrvapaxa1="y") then match m2 with 
 	  [ Sup (id2,cid2,mid2,word2,rt2,_,uwwarapaxa2,_,viBakwiH2,_,_)
-	    -> if (id1 = id2) && (cid2 = cid1 + 1) && (pUrvapaxa1="y") && (uwwarapaxa2="y")
-	       then
+	    -> if (id1 = id2) && (cid2 = cid1 + 1) && (uwwarapaxa2="y")
+	       then 
 	         match rt1 with 
-	         [ "pAre" | "maXye"
+	         [ "yaWA" (* yaWAZsAxqSye (2-1-7) *)
+	         | "yAvaw" (* yAvaxavaXAraNe (2-1-8) *) (* Check *)
+	         | "apa" | "pari" | "bahir" | "aFcu" | "prAk" (* apaparibahiraFcavaH paFcamyAH (2-1-12) *)
+	         | "Af" (* Af maryAxAZBiviXyoH (2-1-13);Af:maryAxArWe *)
+	         | "aBi" (* lakRaNenAZBiprawI ABimuKye (2-1-14);maryAxArWe *) 
+	         | "prawi" (* lakRaNenAZBiprawI ABimuKye (2-1-14);maryAxArWe *)
+	         | "anu" (* anuryawsamayA (2-1-15);anu:sAmIpyArWe/yasya cAyAmaH (2-1-16);anu:AyAmArWe *)
+	         | "aXi" | "awi" | "xur" | "xus" | "su" | "nir" | "sa" | "upa" | "waw" | "iwi" (* avyayaM viBakwi.. (2-1-6) *)
+	           -> [ Relation (id2,cid2,mid2,"kriyAviSeRaNam",id3,cid3,mid3,"300.100",0) ]
+	         | "pAre" | "maXye"
 	           -> match viBakwiH2 with 
-	              [ 1 -> [ Relation (id1,cid1,mid1,"aXikaraNam",id3,cid3,mid3,"300.99",0) ]
-	              | 2 -> [ Relation (id1,cid1,mid1,"karma",id3,cid3,mid3,"300.98",0) ]
-	              | 5 -> [ Relation (id1,cid1,mid1,"apAxAnam",id3,cid3,mid3,"300.97",0) ]
+	              [ 1 -> [ Relation (id2,cid2,mid2,"aXikaraNam",id3,cid3,mid3,"300.99",0) ]
+	              | 2 -> [ Relation (id2,cid2,mid2,"karma",id3,cid3,mid3,"300.98",0) ]
+	              | 5 -> [ Relation (id2,cid2,mid2,"apAxAnam",id3,cid3,mid3,"300.97",0) ]
 	              | _ -> []
 	              ]
 	         | _ -> []
 	         ]
 	       else []
 	   | _ -> []
-	   ]
+	   ] else []
      | _ -> []
      ]
    | _ -> []
  ]
 ;
 
-value rl_avyayIBAva_karwA m1 m2 text_type = match m2 with
+value rl_avyayIBAva_karwA m1 m2 = match m2 with
   [ Kqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_)
   | Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_) 
   | Avykqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_) -> 
@@ -1227,8 +1249,12 @@ value rl_wa_pu_6 m1 m2 =
        [ Sup (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_,_,_,_)
        | Kqw (id2,cid2,mid2,word2,_,_,_,_,_,_,rt2,pUrvapaxa2,uwwarapaxa2,_,_,_,_)
        | WaxXiwa (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_,_,_,_,_)
-         -> if (id1 = id2) && (pUrvapaxa1="y") && (uwwarapaxa2="y") && not (rt1=rt2) then
-              [ Relation (id1,cid1,mid1,"RaRTI_wawpuruRaH",id2,cid2,mid2,"200.64",0) ]
+         -> if (id1 = id2) && (pUrvapaxa1="y") && (uwwarapaxa2="y") && not (rt1=rt2)  then
+              if (member_of rt2 upAXi) then
+              [ Relation (id1,cid1,mid1,"RaRTI_wawpuruRaH",id2,cid2,mid2,"200.64a",0) ]
+              else
+              [ Relation (id1,cid1,mid1,"RaRTI_wawpuruRaH",id2,cid2,mid2,"200.64b",0)
+              ; Relation (id1,cid1,mid1,"bahuvrIhiH",id2,cid2,mid2,"200.64c",0) ]
             else []
        | _ -> []
        ]
@@ -1314,7 +1340,7 @@ value rl_compound_others_3 m1 m2 m3 =
             [ Relation (id2,cid2,mid2,"wawpuruRaH",id3,cid3,mid3,"200.68",0); Relation (id1,cid1,mid1,"karmaXArayaH_2",id3,cid3,mid3,"200.69",0) ]
           (* NOTE: Add condition for list of avayavavAcI words in word1, ahorAwra in word2, kwAnwa word in word3*)
           else []
-        else []
+        else [] 
       | _ -> []
       ]
     | _ -> []
@@ -1397,16 +1423,16 @@ value rl_compound_T6 m1 m2 text_type =
   ]
 ;
 
-value pUrvapaxa_rules = [ rl_avyayIBAva_kriyAviSeRaNa ]
-;
+(*value pUrvapaxa_rules = [ rl_avyayIBAva_kriyAviSeRaNa ]
+; *)
 
-value all_compound_3_rules = [ rl_compound_others_3 ]
+value all_compound_3_rules = [ rl_compound_others_3]
 ;
 
 value pUrvapaxa_rules_3 = [ rl_avyayIBAva_rel ]
 ;
 
-value compound_rules = [ rl_handle_compound(*;  rl_compound_kwa; rl_compound_viBakwi_wa_pu; rl_compound_K; rl_compound_A1; rl_compound_A2; rl_compound_A6; rl_compound_A7; rl_compound_naF*) ]
+value compound_rules = [ rl_handle_compound (*;  rl_compound_kwa; rl_compound_viBakwi_wa_pu; rl_compound_K; rl_compound_A1; rl_compound_A2; rl_compound_A6; rl_compound_A7; rl_compound_naF*) ]
 ;
 
 value compound_engine morphs text_type compound_analysis =
@@ -1426,17 +1452,11 @@ value compound_engine morphs text_type compound_analysis =
                         compound_rules
                       else 
                         [ rl_compound_T6 ] in 
-                    List.fold_left collate acc2 cpd_rules
+                    List.fold_left collate acc3 cpd_rules
                     where collate rls rule = match rule m1 m2 text_type with
                     [ [] -> List2.union rls acc3
                     | r -> List.append r rls
                     ]
-                  (* else if distinct_2_pUrvapaxa m1 m2 then
-                    List.fold_left collate acc2 pUrvapaxa_rules where
-                    collate rls rule = match rule m1 m2 text_type with
-                    [ [] -> List2.union rls acc3
-                    | r -> List.append r rls
-                    ] *)
                   else acc3
           | [m3 :: r3 ] -> 
                   if compound_analysis = "YES" then
@@ -1446,18 +1466,24 @@ value compound_engine morphs text_type compound_analysis =
                       collate rls rule = match rule m1 m2 m3 with
                       [ [] -> rls
                       | r -> List2.union r rls
-                      ] in loop3 (List2.union relations_m1_m2_m3 acc3) r3
-                    else loop3 acc3 r3
+                      ] in loop3 (List2.union relations_m1_m2_m3 acc3) r3 
+                    else 
+                      let relations_m1_m2_m3 = 
+                      List.fold_left collate acc3 pUrvapaxa_rules_3 where
+                      collate rls rule = match rule m1 m2 m3 with
+                      [ [] -> rls
+                      | r ->  List2.union r rls
+                      ] in loop3 (List2.union relations_m1_m2_m3 acc3) r3 
+                 (*in let _ = print_string ("\nNumber of relations_m1_m2_m3: " ^ (string_of_int (List.length relations_m1_m2_m3))) 
+                 in let _ = print_string ("\nNumber of acc3: " ^ (string_of_int (List.length acc3))) *)
                   else loop3 acc3 r3
-                 (* in let _ = print_string ("\nNumber of relations_m1_m2_m3: " ^ (string_of_int (List.length relations_m1_m2_m3))) 
-                 in let _ = print_string ("\nNumber of acc3: " ^ (string_of_int (List.length acc3)))  *)
-               ] in 
+         ] in 
                (* let _ = print_string ("\n\nNumber of relations_m1_m2: " ^ (string_of_int (List.length relations_m1_m2))) in
                let _ = print_string ("\n\nNumber of acc2: " ^ (string_of_int (List.length acc2))) in *)
                loop2 (List2.union relations_m1_m2 acc2) r2
        ] in 
-       (* let _ = print_string ("\n\nNumber of relations_m1: " ^ (string_of_int (List.length relations_m1))) in
-       let _ = print_string ("\n\nNumber of acc1: " ^ (string_of_int (List.length acc1))) in *)
-       loop1 (List2.union relations_m1 acc1) r1
-  ] 
+           (* let _ = print_string ("\n\nNumber of relations_m1: " ^ (string_of_int (List.length relations_m1))) in
+           let _ = print_string ("\n\nNumber of acc1: " ^ (string_of_int (List.length acc1))) in *)
+          loop1 (List2.union relations_m1 acc1) r1
+  ]
 ;

@@ -7,6 +7,7 @@ value guNa_not_guNavacana_list = [
 "woRa";
 "kroXa";
 "icCA";
+"loBa";
 "xveRa";
 "Ananxa";
 "jFAna";

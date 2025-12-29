@@ -1,4 +1,4 @@
-(* Copyright: Amba Kulkarni (2014-2024)                             *)
+(* Copyright: Amba Kulkarni (2014-2026)                             *)
 (* Indian Institute of Advanced Study, Shimla (Nov 2015 - Oct 2017)             *)
 
 (* To add: gam1 can not have both karma and aXikaraNa *)
@@ -335,8 +335,11 @@ value single_morph_per_word m1 m2=match m1 with
          else if (to_id1=from_id2) && (to_cid1=from_cid2) && not (to_mid1=from_mid2) then  False (*  do { print_int to_id1; print_int from_id2;print_int to_cid1; print_int from_cid2;print_string "C2\n"; False} *)
          else if (from_id1=from_id2) && (from_cid1=from_cid2) && not (from_mid1=from_mid2) then  False  (* do { print_int from_id1; print_int from_id2; print_int from_cid1; print_int from_cid2; print_string "C3\n"; False} *)
          else if (from_id1=to_id2) && (from_cid1=to_cid2) && not (from_mid1=to_mid2) then  False  (* do { print_int from_id1; print_int to_id2; print_int from_cid1; print_int to_cid2; print_string "C4\n"; False} *)
-         else if (from_id1=to_id2) && (from_cid1=to_cid2) && (from_mid1=to_mid2) && (to_id1=from_id2) && not (to_cid1=from_cid2) then False  
-         else if (from_id2=to_id1) && (from_cid2=to_cid1) && (from_mid2=to_mid1) && (to_id2=from_id1) && not (to_cid2=from_cid1) then False
+      (*   else if (from_id1=to_id2) && (from_cid1=to_cid2) && (from_mid1=to_mid2) && (to_id1=from_id2) && not (to_cid1=from_cid2) then False  
+         else if (from_id2=to_id1) && (from_cid2=to_cid1) && (from_mid2=to_mid1) && (to_id2=from_id1) && not (to_cid2=from_cid1) then False  -- this creates problems with compound components:
+000 -> 010 and 010 -> 020 are considered to be incompatible; hence cid is changed to mid in the following*)
+         else if (from_id1=to_id2) && (from_cid1=to_cid2) && (from_mid1=to_mid2) && (to_id1=from_id2) && (to_cid1=from_cid2) && not (to_mid1=from_mid2) then False  
+         else if (from_id2=to_id1) && (from_cid2=to_cid1) && (from_mid2=to_mid1) && (to_id2=from_id1) && (to_cid2=from_cid1) && not (to_mid2=from_mid1) then False
          else True 
       ]
     ]
@@ -537,6 +540,8 @@ So for example if viSeRaNa (36) below sambanXa (28) is not allowed, then we writ
   (26,38)
   |(26,50)
   |(36,38)
+  |(36,1038) (* A viSeRaNa of wawpuruRa is not allowed *)
+  |(36,1035) (* A viSeRaNa of naF_wawpuruRa is not allowed *)
   |(33,28) (* sambanXa of samucciwa is not allowed *)
   |(28,36) (* viSeRaNa of sambanXa not allowed *)
   (* |(9,38) inxraH svargasya rAjA aswi. -- RaRTI of viXeya viSeRaNam *)
@@ -755,32 +760,41 @@ value rec add_cost text_type acc rels=fun
   |  [i :: r] ->  match List.nth rels (i-1) with
        [ Relationc (a1,b1,c1,rel,a2,b2,c2,dist) -> 
 	    (* dist is not always the dist, but also is used to count the number of relations; hence dist is calculated a fresh here for calculating the cost *)
-            let dist = if a2 > a1 then a2-a1 else a1-a2 in
+            let dist = if a2 > a1 then a2-a1 
+                       else if a1 > a2 then a1-a2 
+                       else if b2 > b1 then b2-b1 (* in the case of compounds a1=a2; hence the dist between the components is measured *)
+                       else b1-b2 in
             let res=
-            if rel=101 then 0
-            else if rel=102 then 0
-            else if rel=6 then 7 * dist (* karwA_be_verbs -> karwA *)
+                 if rel=6 then 7 * dist (* karwA_be_verbs -> karwA *)
             else if rel=8 then 9 * dist (* viXeya_viSeRaNam *)
-            else if rel=1079 then 79 * dist (* upamAna *)
-            else if rel=1009 then 9 * dist (* viXeya_viSeRaNam *)
-            else if rel=45 then 0 (* samuccaya_xyowakaH *)
             else if rel=28 then 0 (* sambanXaH  Since samuccaya_xyowakaH is not counted, and sometimes the words ca and api can also come under sambanXaH, we are not counting this relation as well*)
+            else if rel=33 then rel * 1 (*samucciwa *)
+            else if rel=36 then 0 (* viSeRaNam *)
+            else if rel=45 then 0 (* samuccaya_xyowakaH *)
             else if rel=46 then 0 (* sup_samuccaya_xyowakaH *)
             else if rel=47 then 0 (* anyawara_xyowakaH *)
             else if rel=48 then 0 (* sup_anyawara_xyowakaH *)
             else if rel=51 then 0 (* wIvrawAxarSI *)
             else if rel=55 then 0 (* Gataka_xyowakaH *)
             (* else if rel=29 then 39 * dist  hewuH -> hewu *)
-             else if rel=70 then 39 * dist  (* hewuH5 -> hewuH *)
+            else if rel=70 then 39 * dist  (* hewuH5 -> hewuH *)
+            else if rel=71  then 0
             else if rel=76 then 1 * dist (* sahArWa_xyowakaH *)
             else if rel=77 then 1 * dist (* vinArWa_xyowakaH *)
-            else if  rel=78 then 100 (* lyapkarmAXikaraNam ; select this only if there is no other analysis possible *)
+            else if rel=78 then 100 (* lyapkarmAXikaraNam ; select this only if there is no other analysis possible *)
             else if rel=79 then 1 * dist (*upamAna *)
-            else if rel=33 then rel * 1 (*samucciwa *)
             else if rel=80 then 1 * dist (* upamAnaxyowakaH *)
-            else if  rel> 80 && rel < 90 then 0 (* upapada-LWG relations *)
+            else if rel > 80 && rel < 90 then 0 (* upapada-LWG relations *)
             else if rel=92 then 1 * dist (* sahArWaH *)
             else if rel=93 then 1 * dist (* vinArWaH *)
+	    else if rel > 100 && rel < 200 then 0
+            else if rel = 200  then 7 * dist (* gawi karwA -> karwA *)
+            else if rel = 201  then 14 * dist (* gawi karma -> karma *)
+            else if rel = 202  then 7 * dist (* BkarwA -> karwA *)
+            else if rel = 203  then 14 * dist (* Bkarma -> karma *)
+            else if rel >= 205  && rel < 300 then (rel-200) * dist (* AvaSyakawA/pariNAma *)
+            else if rel=1009 then 9 * dist (* viXeya_viSeRaNam *)
+            else if rel=1079 then 79 * dist (* upamAna *)
             else if rel >= 2000 && rel < 2100 then 43 * dist (*sanxarBa_binxuH *)
             else if rel >= 2200 && rel < 2300 then 14 * dist (* karma *)
             else if rel >= 2400 && rel < 2500 then 95 * dist  (*ABimuKyam *)
@@ -793,18 +807,12 @@ value rec add_cost text_type acc rels=fun
             else if rel >= 4300 && rel < 4400 then 28 * dist (* sambanXaH *)
             else if rel >= 4400 && rel < 4500 then 7 * dist (* karwA *)
             else if rel >= 4500 && rel < 4600 then 24 * dist (* aXikaraNa *)
-            else if rel = 200  then 7 * dist (* gawi karwA -> karwA *)
-            else if rel = 201  then 14 * dist (* gawi karma -> karma *)
-            else if rel = 202  then 7 * dist (* BkarwA -> karwA *)
-            else if rel = 203  then 14 * dist (* Bkarma -> karma *)
-            else if rel >= 205  then (rel-200) * dist (* AvaSyakawA/pariNAma *)
-            else if rel = 71  then 0
             else if a1 > a2 
                  then if rel=32 then 0
                       else if text_type="Prose" && rel=38
                       then rel * dist * 10 (* if the kaarakas or RaRTI are to the right, give penalty *)
                       else rel * dist (* no penalty in case of Sloka *)
-                 else rel * dist
+                      else rel * dist
         in   add_cost text_type (acc+res) rels r
        ]
   ]
@@ -919,7 +927,7 @@ value populate_compatible_lists text_type rel total_wrds=
    { for i=0 to length do
      { let reli=List.nth rel i in  do
           { 				
-                                   (*      print_int i ;print_string " =>" ;print_relation reli ; *)
+                                         (* print_int i ;print_string " =>" ;print_relation reli ; *)
           let l=get_wrd_ids reli in
             compatible_words.(i+1) :=  List.append l compatible_words.(i+1) 
           				(* a word is compatible with self *)
@@ -933,7 +941,7 @@ value populate_compatible_lists text_type rel total_wrds=
           then  do {
            			(*	 print_int j
            				;print_string " "
-           				;print_relation relj ; *)
+           				;print_relation relj ;  *)
              compatible_relations.(i+1) := List.append [j+1] compatible_relations.(i+1)
              ;let l=get_wrd_ids relj in
              compatible_words.(i+1) := List.append l compatible_words.(i+1)

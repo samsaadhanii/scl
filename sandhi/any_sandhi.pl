@@ -2,7 +2,7 @@
 
 #  Copyright (C) 2002-2012 Pankaj Vyas
 #  Copyright (C) 2002-2012 Sivaja Nair
-#  Copyright (C) 2002-2025 Amba Kulkarni (ambapradeep@gmail.com)
+#  Copyright (C) 2002-2026 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License

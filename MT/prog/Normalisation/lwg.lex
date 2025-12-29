@@ -505,8 +505,8 @@
 [ ]yaWA[ \-]prArWiwa[Mm]	{printf(" yaWAprArWiwam");}
 ^yaWA[ \-]bala[Mm]	{printf("yaWAbalam");}
 [ ]yaWA[ \-]bala[Mm]	{printf(" yaWAbalam");}
-^yaWA[ \-]BAga[Mm]	{printf("yaWABAgam");}
-[ ]yaWA[ \-]BAga[Mm]	{printf(" yaWABAgam");}
+	/* ^yaWA[ \-]BAga[Mm]	{printf("yaWABAgam");}
+[ ]yaWA[ \-]BAga[Mm]	{printf(" yaWABAgam");}  -- We need these groupings for meaning, but not for compound type identification */
 ^yaWA[ \-]BAgaSaH	{printf("yaWABAgaSaH");}
 [ ]yaWA[ \-]BAgaSaH	{printf(" yaWABAgaSaH");}
 ^yaWA[ \-]BUwa[Mm]	{printf("yaWABUwam");}

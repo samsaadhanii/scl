@@ -91,7 +91,7 @@ $conv;
               </h3>
             </td>
             <td text-align=\"center\" width=\"25%\">
-              <font color=\"magenta\" size=\"3\">Updated on 23rd Jun 2025</font>
+              <font color=\"magenta\" size=\"3\">Updated on 25th Dec 2025</font>
             </td>
             <td text-align=\"right\"> </td>
           </tr>

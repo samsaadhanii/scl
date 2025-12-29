@@ -137,9 +137,10 @@ karmadhārayaḥ_5 1034
 nañ_tatpuruṣaḥ 1035
 dvigu_tatpuruṣaḥ 1036
 upapada_tatpuruṣaḥ 1037
-bahuvrīhiḥ 1038
-ṣaṣṭhī_tatpuruṣaḥ 1039
+ṣaṣṭhī_tatpuruṣaḥ 1038
+bahuvrīhiḥ 1039
 dvandvaḥ 1040
-samāsaḥ 1050
 karmadhārayaḥ_6 1041
 kevala_samāsaḥ 1042
+nañ_bahuvrīhiḥ 1043
+samāsaḥ 1050

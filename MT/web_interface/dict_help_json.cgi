@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 #
-#  2021-2025 Amba Kulkarni (ambapradeep@gmail.com)
+#  2021-2026 Amba Kulkarni (ambapradeep@gmail.com)
 #
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
