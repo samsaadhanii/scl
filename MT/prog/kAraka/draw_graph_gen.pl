@@ -130,17 +130,18 @@ sub print_cluster {
       if ($count > 1) { 
          print TMP1 "\nsubgraph cluster_",$i,"{\n";
          &print_all_nodes_info($nodes);
-	 if ($i < 29) {
-            print TMP1 "rankdir=RL\n";
-            print TMP1 "rank = same {";
-            $nodes =~ s/#//g;
-	    @nodes = split(/,/,$nodes);
-            $s = "";
-            foreach $n (@nodes) { $s .= "Node".$n.",";}
-            $s =~ s/,$//;
-            print TMP1 "$s}\n";
-         }
-         print TMP1 "\n}\n";
+	 #@nodes = split(/,/,$nodes);
+	  #if (($i < 29) & ($#nodes > 3)) {
+	  #  print TMP1 "rankdir=RL\n";
+	  #  print TMP1 "rank = same {";
+	  #  $nodes =~ s/#//g;
+	  #  @nodes = split(/,/,$nodes);
+	  #  $s = "";
+	  #  foreach $n (@nodes) { $s .= "Node".$n.",";}
+	  #  $s =~ s/,$//;
+	  #  print TMP1 "$s}\n";
+	  #  }
+	   print TMP1 "\n}\n";
       } else {
          &print_all_nodes_info($nodes);
       }
@@ -174,31 +175,47 @@ my($i,@rel_str,$node,$nodes,@nodes,$node_id,$indx_id,$z,$r,$from,$to);
     @rel_str = split(/\n/,$rel_str);
     $rel_str = "";
     foreach $r (@rel_str) {
-     #print "r = $r\n";
+	    #print "r = $r\n";
 
       if($r =~ /Node($sent[0-9_c]+) \-> Node($sent[0-9_c]+).*label="[^"]+"/) {
          $from = $1;
          $to = $2;
+	 $from =~ s/_[0-9]c$//;
+	 $to =~ s/_[0-9]c$//;
       } else {$from = ""; $to = "";}
 
-	#print "from = $from<br/>";
-	#print "to = $to<br/>";
+      #print "from = $from\n";
+      #print "to = $to\n";
       for($z=0;$z<=$cluster_no;$z++){
-	 #print "cluster $z = $cluster[$z]<br/>";
+	      #print "cluster $z = $cluster[$z]\n";
          if(($cluster[$z] =~ /#$from,/) && ($cluster[$z] !~ /#$to,/)){
              $r =~ s/]/ ltail=cluster_$z]/;
          }
+	  $count = ($cluster[$z] =~ s/,/,/g);
+	  #print "count = $count\n";
+         if( ($count > 3) && ($cluster[$z] =~ /#$from,/) && ($cluster[$z] =~ /#$to,/)){
+             $r = "";
+         }
+	 # print "r = $r\n";
       }
       for($z=29;$z<=$cluster_no+29;$z++){
 	 #print "cluster $z = $cluster[$z]<br/>";
          if(($cluster[$z] =~ /#$from,/) && ($cluster[$z] !~ /#$to,/)){
              $r =~ s/]/ ltail=cluster_$z]/;
          }
+	  $count = ($cluster[$z] =~ s/,/,/g);
+         if( ($count > 3) && ($cluster[$z] =~ /#$from,/) && ($cluster[$z] =~ /#$to,/)){
+             $r = "";
+         }
       }
       for($z=49;$z<=$cluster_no+49;$z++){
 	 #print "cluster $z = $cluster[$z]<br/>";
          if(($cluster[$z] =~ /#$from,/) && ($cluster[$z] !~ /#$to,/)){
              $r =~ s/]/ ltail=cluster_$z]/;
+         }
+	  $count = ($cluster[$z] =~ s/,/,/g);
+         if( ($count > 3) && ($cluster[$z] =~ /#$from,/) && ($cluster[$z] =~ /#$to,/)){
+             $r = "";
          }
       }
 # New node numbers are obtained after the compound processing. Hence the old numbers to be replaced by the new numbers before the relations are printed.
@@ -815,9 +832,9 @@ sub add_relations{
                 if (($d_id ne "") && ($rel_nm !~ /abhihita/) && ($rel_nm !~ /अभिहित/)){
                     if($new_index{$d_id} ne "") { $d_id = $new_index{$d_id};} 
                     if($new_index{$s_id} ne "") { $s_id = $new_index{$s_id};} 
-		    if (($rel_nm !~ /samuccita/) && ($rel_nm !~ /समुच्चित/) && ($rel_nm ne "viśeṣaṇa") && ($rel_nm ne "विशेषणम्")) {
+		    #if (($rel_nm !~ /samuccita/) && ($rel_nm !~ /समुच्चित/) && ($rel_nm ne "viśeṣaṇa") && ($rel_nm ne "विशेषणम्")) {
                         $str .= "\nNode$s_id -> Node$d_id \[ $s_str label=\"".$rel_nm."\"  $edgedir \]";
-                    }
+                    #}
 		    #if (($rel_nm ne "viśeṣaṇa) && ($rel_nm ne "विशेषणम्")) {
                     #    $str .= "\nNode$s_id -> Node$d_id \[ $s_str label=\"".$rel_nm."\"  $edgedir \]";
                     #}
