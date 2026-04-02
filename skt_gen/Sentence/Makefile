@@ -20,11 +20,14 @@ FLEX = lex
 CC = gcc
 CFLAGS = -L$(LIBPATH) -g -Wall -o
 
-COMPILE=ocamlopt -pp "camlp4r pa_extend.cmo" -I $(ZEN)  -I $(HPATH) -I $(APATH) -I $(DPATH) -I +camlp4 -c
+#COMPILE=ocamlopt -pp "camlp4r pa_extend.cmo" -I $(ZEN)  -I $(HPATH) -I $(APATH) -I $(DPATH) -I +camlp4 -c
+COMPILE=ocamlfind ocamlopt -package camlp-streams -package camlp4.extend -syntax camlp4r  -I $(ZEN)  -I $(HPATH) -I $(APATH) -I $(DPATH) -I +camlp4 -c
 
-COMPILEI=ocamlc -pp "camlp4r pa_extend.cmo" -I $(ZEN)  -I $(HPATH) -I $(APATH) -I $(DPATH) -I +camlp4 -c
+#COMPILEI=ocamlc -pp "camlp4r pa_extend.cmo" -I $(ZEN)  -I $(HPATH) -I $(APATH) -I $(DPATH) -I +camlp4 -c
+COMPILEI=ocamlfind ocamlc -package camlp-streams -package camlp4.extend -syntax camlp4r  -I $(ZEN)  -I $(HPATH) -I $(APATH) -I $(DPATH) -I +camlp4 -c
 
-LINK=ocamlopt -I $(ZEN) -I +camlp4 dynlink.cmxa camlp4lib.cmxa
+#LINK=ocamlopt -I $(ZEN) -I +camlp4 dynlink.cmxa camlp4lib.cmxa
+LINK=ocamlfind ocamlopt -I $(ZEN) -I . -I +dynlink -I +unix -I +str -package camlp4 -package camlp-streams -linkpkg dynlink.cmxa camlp4lib.cmxa
 
 ZENSOURCES=gen.ml list2.ml word.ml share.mli share.ml unshare.ml trie.ml \
 mini.ml deco.ml lexmap.ml minimap.mli minimap.ml
@@ -51,9 +54,11 @@ install:
 .depend depend:: $(SOURCES)
 	> .depend.new
 	for i in $(ZENSOURCES); do \
-	ocamldep -pp camlp4rf -I $(ZEN) -I . $(ZEN)/$$i >> .depend.new ; done
+	#ocamldep -pp camlp4rf -I $(ZEN) -I . $(ZEN)/$$i >> .depend.new ; done
+	ocamlfind ocamldep -package camlp-streams -package camlp4 -syntax camlp4r -I $(ZEN) -I . $(ZEN)/$$i >> .depend.new ; done
 	for i in $(SOURCES); do \
-	ocamldep -pp camlp4rf -I $(ZEN) -I . $$i >> .depend.new ; done
+	#ocamldep -pp camlp4rf -I $(ZEN) -I . $$i >> .depend.new ; done
+	ocamlfind ocamldep -package camlp-streams -package camlp4 -syntax camlp4r -I $(ZEN) -I . $$i >> .depend.new ; done
 	mv .depend.new .depend
 .SUFFIXES: .ml .mli .cmx .cmo .cmi
 
