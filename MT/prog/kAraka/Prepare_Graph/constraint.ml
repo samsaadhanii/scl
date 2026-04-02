@@ -766,10 +766,11 @@ value rec add_cost text_type acc rels=fun
                        else b1-b2 in
             let res=
                  if rel=6 then 7 * dist (* karwA_be_verbs -> karwA *)
-            else if rel=8 then 9 * dist (* viXeya_viSeRaNam *)
+            else if rel=8 then 0 * dist (* karwqrahiwa-viXeya_viSeRaNam *)
             else if rel=28 then 0 (* sambanXaH  Since samuccaya_xyowakaH is not counted, and sometimes the words ca and api can also come under sambanXaH, we are not counting this relation as well*)
             else if rel=33 then rel * 1 (*samucciwa *)
             else if rel=36 then 0 (* viSeRaNam *)
+            else if rel=9 then 0 (* viXeya_viSeRaNam *)
             else if rel=45 then 0 (* samuccaya_xyowakaH *)
             else if rel=46 then 0 (* sup_samuccaya_xyowakaH *)
             else if rel=47 then 0 (* anyawara_xyowakaH *)

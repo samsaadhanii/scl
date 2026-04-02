@@ -145,6 +145,7 @@ value relations_encodings = [
 	("karmaXArayaH_6",1041);
 	("kevala_samAsaH",1042);
         ("naF_bahuvrIhiH",1043);
+				("karmaXArayaH_7",1044);
 	("samAsaH",1050);
         ]
 ;

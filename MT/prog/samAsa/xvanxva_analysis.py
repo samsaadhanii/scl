@@ -106,7 +106,7 @@ xvanxva_samples = [
     "kAla-anala", # 11_025
     "brAhmaNa-kRawriya-viS", # 18_041
     "xyAvA-pqWivI", # 11_020
-    "lupwa-piNda-uxaka", # 01_042
+    "piNda-uxaka", # 01_042
     "inxriya-arWa", # 13_007-011
     "janma-mqwyu-jarA-vyAXi-xuHKa-xoRa", # 13_007-011
     "puwra-xAra-gqha", # 13_007-011

@@ -1,3 +1,5 @@
+samuwWAya	RWA1<upasarga:sam_uw><vargaH:avy><kqw_prawyayaH:lyap><XAwuH:RWA><gaNaH:BvAxiH><level:1>
+prAwaH	prA1<prayogaH:karwari><lakAraH:lat><puruRaH:a><vacanam:xvi><paxI:parasmEpaxI><XAwuH:prA><gaNaH:axAxiH><level:1>
 AByanwaram	AByanwara<vargaH:nA><lifgam:napuM><viBakwiH:1><vacanam:eka><level:1>/AByanwara<vargaH:nA><lifgam:napuM><viBakwiH:2><vacanam:eka><level:1>/AByanwara<vargaH:nA><lifgam:puM><viBakwiH:2><vacanam:eka><level:1>
 ASvAsayAmAsa	Svas1<upasarga:Af><sanAxi_prawyayaH:Nic><prayogaH:karwari><lakAraH:lit><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:Svasaz><gaNaH:axAxiH><level:1>
 ASvAsayaw	Svi1<upasarga:Af><sanAxi_prawyayaH:Nic><prayogaH:karwari><lakAraH:laf><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:tuOSvi><gaNaH:BvAxiH><level:1>

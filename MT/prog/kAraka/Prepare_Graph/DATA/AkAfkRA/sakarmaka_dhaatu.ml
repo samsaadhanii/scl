@@ -33,6 +33,7 @@ value sakarmaka_XAwu_list = [
 "Af_raB1";
 "Af_ruh1";
 "Af_vah1";
+"Af_vakR1";
 "Af_vas1";
 "Af_viS1";
 "Af_viS_kq3";
@@ -1483,6 +1484,7 @@ value sakarmaka_XAwu_list = [
 "upa_SIf1";
 "upa_SliR1";
 "upa_Sri1";
+"upa_XA1";
 "upa_Xq1";
 "upa_han1";
 "upa_hu1";

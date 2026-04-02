@@ -143,4 +143,5 @@ dvandvaḥ 1040
 karmadhārayaḥ_6 1041
 kevala_samāsaḥ 1042
 nañ_bahuvrīhiḥ 1043
+karmadhārayaḥ_7 1044
 samāsaḥ 1050

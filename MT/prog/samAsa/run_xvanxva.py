@@ -2,9 +2,27 @@ import sys
 
 import re
 
+from itertools import product
+
 import xvanxva_analysis as xa
 
 script, in_, out_ = sys.argv
+
+
+def get_prAwipaxika(morphs):
+    """ """
+
+    prAwipaxika = ""
+
+    if "kqw_pratipadika" in morphs:
+        prAwipaxika = re.sub(r'^.*?<kqw_pratipadika:(.*?)>.*?$', r'\1', morphs)
+    elif morphs:
+        prAwipaxika = re.sub(r'^(.*?)<.*?$', r'\1', morphs)
+    else:
+        # If there is no morph, then assign the word directly
+        prAwipaxika = word.replace("-", "")
+    
+    return prAwipaxika
 
 
 with open(in_, "r", encoding="utf-8") as f:
@@ -38,26 +56,24 @@ for line in in_lines:
     sandhied_word = items[2]
     morphs = items[5]
     
-#    print(morphs)
-    # NOTE: Check each of the morphs
+    morphs_lst = morphs.split("/")
     
-    if "kqw_pratipadika" in morphs:
-        prAwipaxika = re.sub(r'^.*?<kqw_pratipadika:(.*?)>.*?$', r'\1', morphs)
-    elif morphs:
-        prAwipaxika = re.sub(r'^(.*?)<.*?$', r'\1', morphs)
-    else:
-        # If there is no morph, then assign the word directly
-        prAwipaxika = word.replace("-", "")
+    prAwipaxika_lst = []
+    for morph_item in morphs_lst:
+        cur_prAwipaxika = get_prAwipaxika(morph_item)
+        cur_prAwipaxika = cur_prAwipaxika.replace("-", "")
+        prAwipaxika_lst.append(cur_prAwipaxika)
     
-    prAwipaxika = prAwipaxika.replace("-", "")
+    prAwipaxika_lst = list(set(prAwipaxika_lst))
+
     # Collect all the components first and then 
     # run xvanxva analysis on the entire compound
     if word.endswith("-"): # Includes all the iics
-        compound_components.append(prAwipaxika)
+        compound_components.append(prAwipaxika_lst)
         compound_components_iic_form.append(word.replace("-", ""))
         cpd_details.append(line)
     elif word.startswith("-") and not word.endswith("-"): # For the ifcs
-        compound_components.append(prAwipaxika)
+        compound_components.append(prAwipaxika_lst)
         compound_components_iic_form.append(word.replace("-", ""))
         cpd_details.append(line)
         
@@ -66,8 +82,26 @@ for line in in_lines:
         # 1 - pUrvapaxa (iic) of a xvanxva compound
         # 2 - uwwarapaxa (ifc) of a xvanxva compound
         # These are used ahead for merging the xvanxva compounds with an "_"
+        compound_components_for_xvanxva = list(product(*compound_components))
         
-        cpd_markers = xa.check_all("-".join(compound_components))
+        updated_cpd_markers = [ 0 for i in compound_components_iic_form]
+        true_xvanxva = []
+
+        for cpd_cpnts in compound_components_for_xvanxva:
+            cpd_markers = xa.check_all("-".join(cpd_cpnts))
+            if not updated_cpd_markers:
+                updated_cpd_markers = cpd_markers[:]
+                continue
+            
+            for i in range(len(updated_cpd_markers)):
+                if updated_cpd_markers[i] == 0 and not cpd_markers[i] == 0:
+                    updated_cpd_markers[i] = cpd_markers[i]
+                    true_xvanxva.append(cpd_cpnts)
+        
+        true_xvanxva = list(set(true_xvanxva))
+        compound_components_new = true_xvanxva[0] if true_xvanxva else compound_components_for_xvanxva[0]
+        
+        cpd_markers = updated_cpd_markers[:]
         
         # NOTE: Add condition to check if the markers contain 1 or 2
         # Else, continue to next line
@@ -80,22 +114,21 @@ for line in in_lines:
         
         new_compound = []
         new_compound_iic_form = []
-        for i in range(len(compound_components)):
+        for i in range(len(compound_components_new)):
             if cpd_markers[i] == 0: # Indicates not a part of xvanxva compound
                 cur_cmpnt_id += 1
                 new_cmpnt_id = wrd_id + "." + str(cur_cmpnt_id)
-                final_cpd_lst.append(compound_components[i])
+                final_cpd_lst.append(compound_components_new[i])
                 compound_lines.append("\t".join((new_cmpnt_id, "\t".join(cpd_details[i].split("\t")[1:]))))
             elif cpd_markers[i] == 1: # iic of a xvanxva compound
-                # new_compound.append(compound_components[i])
-                new_compound.append(compound_components[i])
+                new_compound.append(compound_components_new[i])
                 new_compound_iic_form.append(compound_components_iic_form[i])
             elif cpd_markers[i] == 2: # ifc of a xvanxva compound
-                new_xvanxva_cpd = new_compound + [ compound_components[i] ]
+                new_xvanxva_cpd = new_compound + [ compound_components_new[i] ]
                 new_xvanxva_cpd_iic_form = new_compound_iic_form + [ compound_components_iic_form[i] ]
                 
                 # For including the inflected word for the final component of the overall compound
-                if i == len(compound_components) - 1:
+                if i == len(compound_components_new) - 1:
                     new_compound_iic_form.append(word.replace("-", ""))
                 else:
                     new_compound_iic_form.append(compound_components_iic_form[i])
@@ -108,24 +141,48 @@ for line in in_lines:
                 # compound string
                 # This creates a problem when there are multiple different prAwipaxikas 
                 # for the same word.  Hence use the next approach
-                last_prAwipaxika = compound_components[i]
+                last_prAwipaxika = compound_components_new[i]
                 last_prAwipaxika_iic_form = compound_components_iic_form[i]
                 new_xvanxva_cpd_str = "_".join(new_xvanxva_cpd)
                 new_xvanxva_cpd_str_iic_form = "_".join(new_xvanxva_cpd_iic_form)
-                last_cmpnt_details_str = cpd_details[i].replace(last_prAwipaxika,new_xvanxva_cpd_str)
+                
+                # remove stems which are not forming xvanxva compounds
+                cur_line_values = cpd_details[i].split("\t")
+                fourth = cur_line_values[3]
+                fifth = cur_line_values[4]
+                sixth = cur_line_values[5]
+
+                def get_modified_morphs(morphs_str):
+                    """ """
+                    morphs_list = morphs_str.split("/")
+                    new_morphs = []
+                    for f in morphs_list:
+                        f_prAwipaxika = get_prAwipaxika(f)
+                        if f_prAwipaxika == last_prAwipaxika:
+                            new_morphs.append(f)
+                    return "/".join(new_morphs)
+                
+                fourth_morphs = get_modified_morphs(fourth)
+                fifth_morphs = get_modified_morphs(fifth)
+                sixth_morphs = get_modified_morphs(sixth)
+
+                modified_line = cur_line_values[:3] + [ fourth_morphs, fifth_morphs, sixth_morphs ]
+                modified_line_str = "\t".join(modified_line)
+
+                last_cmpnt_details_str = modified_line_str.replace(last_prAwipaxika,new_xvanxva_cpd_str)
                 last_cmpnt_details = last_cmpnt_details_str.replace(last_prAwipaxika_iic_form,new_xvanxva_cpd_str_iic_form).split("\t")
                 
                 # To check for possible stem differences in the morph analysis
                 # and replace with new compound prAwipaxika
-#                new_cpd_details = re.sub(r'\t[^<]+?(<[^\t]+?)', rf'\t{new_xvanxva_cpd_str}\1', cpd_details[i])
-#                new_cpd_details = re.sub(r'/[^<]+?(<[^/]+?)', rf'/{new_xvanxva_cpd_str}\1', cpd_details[i])
+                # new_cpd_details = re.sub(r'\t[^<]+?(<[^\t]+?)', rf'\t{new_xvanxva_cpd_str}\1', cpd_details[i])
+                # new_cpd_details = re.sub(r'/[^<]+?(<[^/]+?)', rf'/{new_xvanxva_cpd_str}\1', cpd_details[i])
                 # incomplete
                 
                 # To insert "-" accordingly
                 if cur_cmpnt_id == 0:
-                    if i < len(compound_components) - 1:
+                    if i < len(compound_components_new) - 1:
                         new_cpd_str = new_cpd_str + "-"
-                elif i == len(compound_components) - 1:
+                elif i == len(compound_components_new) - 1:
                     new_cpd_str = "-" + new_cpd_str
                 else:
                     new_cpd_str = "-" + new_cpd_str + "-"
@@ -140,13 +197,12 @@ for line in in_lines:
         
         first_items = compound_lines[0].split("\t")
         
-        # print(first_items)
-        # print(final_cpd_lst)
         new_items = (first_items[0], first_items[1], "-".join(final_cpd_lst), "\t".join(first_items[3:]))
         
         new_lines += [ "\t".join(new_items) ] + compound_lines[1:]
         
         compound_components = []
+        compound_components_new = []
         compound_components_iic_form = []
         cpd_details = []        
         

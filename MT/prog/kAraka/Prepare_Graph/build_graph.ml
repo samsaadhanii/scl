@@ -1403,9 +1403,7 @@ Counter example: sarva-BUwa-hiwe rawAH *)
         | "wavya"  
         | "wavyaw"  
         | "anIyar"  
-        | "yaw"  
         | "kyap"  
-        | "Nyaw"
         | "Kal"
         | "yuc"   -> match viBakwiH1 with
                  [ 1 -> if members_of rt2 upasarga2 sakarmaka_verbs && (pUrvapaxa2=uwwarapaxa2|| pUrvapaxa2="a")
@@ -1414,6 +1412,12 @@ Counter example: sarva-BUwa-hiwe rawAH *)
                  else []
                  | 3 -> [ Relation (id1,cid1,mid1,"karwA",id2,cid2,mid2,"3.17a",d12)]  
                     (* karwq_karaNayoH_wqwIyA rAmeNa granWaH paTiwavyaH/paTanIyaH*)
+                 | _ -> []
+                 ]
+        | "yaw"  
+        | "Nyaw"  -> (* Seperated from the above list, since Nyaw expresses karma. For example, agniH pUrvEH uwa nUwanEH qRiBiH IdyaH Rig 1.1.2 *)
+		 match viBakwiH1 with
+                 [ 3 -> [ Relation (id1,cid1,mid1,"karwA",id2,cid2,mid2,"3.17b",d12)]  
                  | _ -> []
                  ]
         | "SAnac_lat" 

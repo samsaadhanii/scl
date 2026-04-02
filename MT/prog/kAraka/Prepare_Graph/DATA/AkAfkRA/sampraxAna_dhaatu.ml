@@ -32,6 +32,7 @@ value sampraxAna_XAwu_list = [
 "pari_krI1";
 "pari_viR1";
 "pra_brU1";
+"pra_xA2";
 "pra_vac1";
 "pra_vah1";
 "pra_vax1";

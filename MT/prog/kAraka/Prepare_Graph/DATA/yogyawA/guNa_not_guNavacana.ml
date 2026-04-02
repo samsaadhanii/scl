@@ -14,6 +14,9 @@ value guNa_not_guNavacana_list = [
 "vinaya";
 "Bexa";
 "vyAja";
-"sneha"
+"sneha";
+"sOkRmya";
+"ahafkAra"; (* wvam ahafkArAw na SroRyasi BG *)
+"moha" (* mohAw gqhIwvA asaw-grAhAn pravarwanwi *)
 ]
 ;

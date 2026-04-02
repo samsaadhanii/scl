@@ -9,6 +9,10 @@ value named_entity_list =
 "Barawa";
 "sapwa-qRi";
 "pUrva-iRukAmaSamI";
-"apara-iRukAmaSamI"
+"apara-iRukAmaSamI";
+"ayoXyA";
+"amqwasara";
+"araba";
+"Xarmaxawwa"
 ]
 ;

@@ -23,9 +23,9 @@ value apAxAna_XAwu_list = [
 "Buj1";
 "Byas1";
 "cal1";
-"zcar1";
+"zcar1"; (* balAw pApam carawi *)
 "carc1";
-"zCix1";
+"zCix1"; (* AwmanaH saMSayam CiwwvA *)
 "gal1";
 "gam1";
 "gqh1";
