@@ -9,7 +9,7 @@ include ../../../../paths.sh
 APATH=./DATA/AkAfkRA
 YPATH=./DATA/yogyawA
 
-FILES = build_graph.ml build_graph_cpd.ml constraint.ml relations.ml $(APATH)/aaxikarma_dhaatu.ml $(APATH)/bhaava_kqw.ml $(APATH)/Sabxakarma_dhaatu.ml \
+FILES=relations.ml $(APATH)/aaxikarma_dhaatu.ml $(APATH)/bhaava_kqw.ml $(APATH)/Sabxakarma_dhaatu.ml \
 $(APATH)/shakaadi.ml  $(APATH)/shlish_aadi.ml $(APATH)/afgavikaara.ml $(APATH)/akarmaka_dhaatu.ml $(APATH)/amarakosha_jaati.ml \
 $(APATH)/apAxAna_dhaatu.ml $(APATH)/buxXyarWa_dhaatu.ml $(APATH)/gawyarWa_dhaatu.ml $(APATH)/karaNa_dhaatu.ml \
 $(APATH)/karmasamAnAXikaraNa_dhaatu.ml $(APATH)/karwqsamAnAXikaraNa_dhaatu.ml $(APATH)/kqxanwa.ml $(APATH)/nirXAraNa.ml \
@@ -22,10 +22,10 @@ $(YPATH)/parAjAwi.ml $(YPATH)/saMKyeya.ml $(YPATH)/sambandhavaaci.ml $(YPATH)/up
 $(YPATH)/waxXiwAnwa.ml $(YPATH)/xeSAXikaraNa.ml $(YPATH)/xravyavAcI.ml $(YPATH)/non_neuter_kartaa_dhaatu.ml $(YPATH)/jAwivAcaka.ml \
 $(YPATH)/safKyA_vAcI.ml $(YPATH)/kAla_vAcI.ml $(YPATH)/cawuRpAxa_jAwi_vAcI.ml $(YPATH)/varNavAcI.ml $(YPATH)/vyAGrAxi.ml \
 $(YPATH)/waxXiwAnwa_safKyA_vAcI.ml $(YPATH)/waxXiwAnwa_xik_vAcI.ml $(YPATH)/xik_vAcI.ml $(YPATH)/exceptional_cpd_list.ml  $(YPATH)/naxI_vAcI.ml \
-$(YPATH)/amUrwa.ml
+$(YPATH)/amUrwa.ml build_graph.ml build_graph_cpd.ml constraint.ml 
 
-INTERFACES = pada_structure.mli
-SYNTAX = .ocamlinit
+INTERFACES=pada_structure.mli
+SYNTAX=.ocamlinit
 ZEN=$(ZENDIR)
 HPATH=./Heritage_ML
 
@@ -43,7 +43,7 @@ LINK=ocamlfind ocamlopt -I $(ZEN) -I . -I +dynlink -I +unix -I +str -package cam
 ZENSOURCES=gen.ml list2.ml word.ml share.mli share.ml unshare.ml trie.ml \
 mini.ml deco.ml lexmap.ml minimap.mli minimap.ml min_lexer.ml
 
-SOURCES= $(INTERFACES) $(FILES) $(HPATH)/min_lexer.ml $(HPATH)/transduction.ml
+SOURCES=$(INTERFACES) $(FILES) $(HPATH)/min_lexer.ml $(HPATH)/transduction.ml
 
 CORE=$(ZEN)/list2.cmx $(ZEN)/ascii.cmx $(ZEN)/gen.cmx $(ZEN)/trie.cmx $(ZEN)/zen_lexer.cmx
 
@@ -51,7 +51,7 @@ EXECS=$(HPATH)/min_lexer.cmx $(HPATH)/transduction.cmx
 
 VPATH=$(ZEN) $(HPATH)
 
-build_graph: pada_structure.cmi bank_lexer.cmx ascii.cmx trie.cmx min_lexer.cmx transduction.cmx constraint.cmx build_graph_cpd.cmx build_graph.cmx relations.cmx $(APATH)/aaxikarma_dhaatu.cmx $(APATH)/bhaava_kqw.cmx $(APATH)/Sabxakarma_dhaatu.cmx \
+build_graph: pada_structure.cmi bank_lexer.cmx ascii.cmx trie.cmx min_lexer.cmx transduction.cmx constraint.cmx $(APATH)/aaxikarma_dhaatu.cmx $(APATH)/bhaava_kqw.cmx $(APATH)/Sabxakarma_dhaatu.cmx \
 $(APATH)/shakaadi.cmx  $(APATH)/shlish_aadi.cmx $(APATH)/afgavikaara.cmx $(APATH)/akarmaka_dhaatu.cmx $(APATH)/amarakosha_jaati.cmx \
 $(APATH)/apAxAna_dhaatu.cmx $(APATH)/buxXyarWa_dhaatu.cmx $(APATH)/gawyarWa_dhaatu.cmx $(APATH)/karaNa_dhaatu.cmx \
 $(APATH)/karmasamAnAXikaraNa_dhaatu.cmx $(APATH)/karwqsamAnAXikaraNa_dhaatu.cmx $(APATH)/kqxanwa.cmx $(APATH)/nirXAraNa.cmx \
@@ -63,7 +63,8 @@ $(YPATH)/manuRyaparyAya.cmx $(YPATH)/manuRyasaFjFAvAcI.cmx $(YPATH)/named_entity
 $(YPATH)/parAjAwi.cmx $(YPATH)/saMKyeya.cmx $(YPATH)/sambandhavaaci.cmx $(YPATH)/upAXi.cmx $(YPATH)/upapada6.cmx \
 $(YPATH)/waxXiwAnwa.cmx $(YPATH)/xeSAXikaraNa.cmx $(YPATH)/xravyavAcI.cmx $(YPATH)/non_neuter_kartaa_dhaatu.cmx $(YPATH)/jAwivAcaka.cmx \
 $(YPATH)/safKyA_vAcI.cmx $(YPATH)/waxXiwAnwa_safKyA_vAcI.cmx $(YPATH)/waxXiwAnwa_xik_vAcI.cmx $(YPATH)/xik_vAcI.cmx $(YPATH)/kAla_vAcI.cmx \
-$(YPATH)/cawuRpAxa_jAwi_vAcI.cmx $(YPATH)/varNavAcI.cmx $(YPATH)/vyAGrAxi.cmx $(YPATH)/exceptional_cpd_list.cmx $(YPATH)/naxI_vAcI.cmx $(YPATH)/amUrwa.cmx
+$(YPATH)/cawuRpAxa_jAwi_vAcI.cmx $(YPATH)/varNavAcI.cmx $(YPATH)/vyAGrAxi.cmx $(YPATH)/exceptional_cpd_list.cmx $(YPATH)/naxI_vAcI.cmx $(YPATH)/amUrwa.cmx \
+relations.cmx build_graph_cpd.cmx build_graph.cmx 
 	$(LINK) unix.cmxa bank_lexer.cmx $(CORE) $(EXECS) constraint.cmx relations.cmx $(APATH)/aaxikarma_dhaatu.cmx $(APATH)/bhaava_kqw.cmx \
 $(APATH)/Sabxakarma_dhaatu.cmx $(APATH)/shakaadi.cmx  $(APATH)/shlish_aadi.cmx $(APATH)/afgavikaara.cmx $(APATH)/akarmaka_dhaatu.cmx $(APATH)/amarakosha_jaati.cmx \
 $(APATH)/apAxAna_dhaatu.cmx $(APATH)/buxXyarWa_dhaatu.cmx $(APATH)/gawyarWa_dhaatu.cmx $(APATH)/karaNa_dhaatu.cmx \
@@ -85,12 +86,13 @@ debug: ascii.cmo trie.cmo debug.ml
 .depend depend:: $(SOURCES)
 	> .depend.new
 	for i in $(ZENSOURCES); do \
-	#ocamldep -pp camlp4rf -I $(ZEN) -I . $(ZEN)/$$i >> .depend.new ; done
-	ocamlfind ocamldep -package camlp4.extend -syntax camlp4rf -I $(ZEN) -I . $(ZEN)/$$i >> .depend.new ; done
+        ocamldep -one-line -pp camlp4rf -I . $$i >> .depend.new ; done
+	#ocamlfind ocamldep -package camlp4.extend -syntax camlp4 -I $(ZEN) -I . $(ZEN)/$$i >> .depend.new ; done
 	for i in $(SOURCES); do \
-	#ocamldep -pp camlp4rf -I $(ZEN) -I . -I $(APATH)  -I $(YPATH)  $$i >> .depend.new ; done
-	ocamlfind ocamldep -package camlp4.extend -syntax camlp4rf -I $(ZEN) -I . -I $(APATH)  -I $(YPATH)  $$i >> .depend.new ; done
+        ocamldep -one-line -pp camlp4rf -I . $$i >> .depend.new ; done
+	#ocamlfind ocamldep -package camlp4.extend -syntax camlp4 -I $(ZEN) -I . -I $(APATH)  -I $(YPATH)  $$i >> .depend.new ; done
 	mv .depend.new .depend
+
 .SUFFIXES: .ml .mli .cmx .cmo .cmi
 
 .ml.cmo:
