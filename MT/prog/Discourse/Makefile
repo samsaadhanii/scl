@@ -44,11 +44,9 @@ debug: ascii.cmo trie.cmo debug.ml
 .depend depend:: $(SOURCES)
 	> .depend.new
 	for i in $(ZENSOURCES); do \
-	#ocamldep -pp camlp4rf -I $(ZEN) -I . $(ZEN)/$$i >> .depend.new ; done
-	ocamlfind ocamldep -package camlp4 -syntax camlp4r -I $(ZEN) -I . $(ZEN)/$$i >> .depend.new ; done
+	ocamldep -pp camlp4rf -I $(ZEN) -I . $(ZEN)/$$i >> .depend.new ; done
 	for i in $(SOURCES); do \
-	#ocamldep -pp camlp4rf -I $(ZEN) -I .  $$i >> .depend.new ; done
-	ocamlfind ocamldep -package camlp4 -syntax camlp4r -I $(ZEN) -I .  $$i >> .depend.new ; done
+	ocamldep -pp camlp4rf -I $(ZEN) -I .  $$i >> .depend.new ; done
 	mv .depend.new .depend
 .SUFFIXES: .ml .mli .cmx .cmo .cmi
 

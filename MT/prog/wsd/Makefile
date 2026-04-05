@@ -40,11 +40,9 @@ wsd: pada_structure.cmi bank_lexer.cmx ascii.cmx trie.cmx min_lexer.cmx transduc
 .depend depend:: $(SOURCES)
 	> .depend.new
 	for i in $(ZENSOURCES); do \
-	#ocamldep -pp camlp4rf -I $(ZEN) -I . $(ZEN)/$$i >> .depend.new ; done
-	ocamlfind ocamldep -package camlp4 -syntax camlp4rf -I $(ZEN) -I . $(ZEN)/$$i >> .depend.new ; done
+	ocamldep -pp camlp4rf -I $(ZEN) -I . $(ZEN)/$$i >> .depend.new ; done
 	for i in $(SOURCES); do \
-	#ocamldep -pp camlp4rf -I $(ZEN) -I . $$i >> .depend.new ; done
-	ocamlfind ocamldep -package camlp4 -syntax camlp4rf -I $(ZEN) -I . $$i >> .depend.new ; done
+	ocamldep -pp camlp4rf -I $(ZEN) -I . $$i >> .depend.new ; done
 	mv .depend.new .depend
 .SUFFIXES: .ml .mli .cmx .cmo .cmi
 
