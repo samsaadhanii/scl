@@ -1487,7 +1487,8 @@ value pUrvapaxa_rules_3 = [ rl_avyayIBAva_rel ]
 value compound_rules = [ rl_handle_compound (*;  rl_compound_kwa; rl_compound_viBakwi_wa_pu; rl_compound_K; rl_compound_A1; rl_compound_A2; rl_compound_A6; rl_compound_A7; rl_compound_naF*) ]
 ;
 
-value compound_engine morphs text_type compound_analysis =
+(*value compound_engine morphs text_type compound_analysis = *)
+value compound_engine morphs text_type =
   loop1 [] morphs 
   where rec loop1 acc1 = fun
   [ [] -> acc1
@@ -1500,10 +1501,10 @@ value compound_engine morphs text_type compound_analysis =
           where rec loop3 acc3 = fun
           [ [] -> if compound_pUrvapaxa_uwwarapaxa m1 m2 then
                     let cpd_rules = 
-                      if compound_analysis = "YES" then
+                      (* if compound_analysis = "YES" then*)
                         compound_rules
-                      else 
-                        [ rl_compound_T6 ] in 
+                      (* else 
+                        [ rl_compound_T6 ]*) in 
                     List.fold_left collate acc3 cpd_rules
                     where collate rls rule = match rule m1 m2 text_type with
                     [ [] -> List2.union rls acc3
@@ -1511,7 +1512,7 @@ value compound_engine morphs text_type compound_analysis =
                     ]
                   else acc3
           | [m3 :: r3 ] -> 
-                  if compound_analysis = "YES" then
+                  (* if compound_analysis = "YES" then *)
                     if compound_pUrvapaxa_uwwarapaxa_3 m1 m2 m3 then
                       let relations_m1_m2_m3 = 
                       List.fold_left collate acc3 all_compound_3_rules where
@@ -1526,7 +1527,7 @@ value compound_engine morphs text_type compound_analysis =
                       [ [] -> rls
                       | r ->  List2.union r rls
                       ] in loop3 (List2.union relations_m1_m2_m3 acc3) r3 
-                  else loop3 acc3 r3
+                  (* else loop3 acc3 r3 *)
           ] in loop2 (List2.union relations_m1_m2 acc2) r2
       ] in loop1 (List2.union relations_m1 acc1) r1
   ] 

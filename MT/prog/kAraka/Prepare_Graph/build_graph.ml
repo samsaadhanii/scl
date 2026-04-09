@@ -5867,12 +5867,14 @@ value compare_size m1 m2 =
     ]
 ;
 
-value process morphs text_type tfpath compound_analysis = 
+(* value process morphs text_type tfpath compound_analysis = *)
+value process morphs text_type tfpath = 
   let offline_file = tfpath^"graph.txt"  in
   let cho = open_out offline_file in do
   { 			(*List.iter print_morph_id morphs *) (* we print the input for verification *)
     let rel_lst = List.sort_uniq compare (kAraka_engine3 morphs text_type) in
-    let cpd_lst = List.sort_uniq compare (Build_graph_cpd.compound_engine morphs text_type compound_analysis) in
+    (* let cpd_lst = List.sort_uniq compare (Build_graph_cpd.compound_engine morphs text_type compound_analysis) in *)
+    let cpd_lst = List.sort_uniq compare (Build_graph_cpd.compound_engine morphs text_type) in
     let all_rel_lst = List.append cpd_lst rel_lst in
     let sorted_lst = List.rev (List.sort_uniq compare all_rel_lst) in do {
     			List.iter (print_relation cho) sorted_lst;
@@ -5919,12 +5921,13 @@ value main () = if (Array.length Sys.argv < 3 ) then do
 	     init_relation_encoding_array()
            ; let text_type = Sys.argv.(2)
              and tfpath = Sys.argv.(1)
-             and compound_analysis = Sys.argv.(3)
+             (*and compound_analysis = Sys.argv.(3) *)
              and morphs = analyse (Stream.of_channel stdin) in
              do
              {
               init_sentence_feature_variables morphs
-             ; process morphs text_type tfpath compound_analysis
+             (*; process morphs text_type tfpath compound_analysis *)
+             ; process morphs text_type tfpath
              (*; Sys.command("date")*)
              }
            }

@@ -45,7 +45,7 @@ package main;
       my $parse=$param{parse};
       my $tlang=$param{tlang};
       my $text_type=$param{text_type};
-      my $compound_analysis=$param{compound_analysis};
+      #my $compound_analysis=$param{compound_analysis};
       my $mode=$param{mode};
 
 
@@ -132,7 +132,8 @@ package main;
          system($cmd);
 
 	 $text_type = "Prose"; ## Anvaya programme has some problem, and does not work properly on this
-         system("$GlblVar::TIMEOUT $myPATH/MT/prog/shell/$prog $myPATH tmp_in${pid}/in$pid $GlblVar::TFPATH $lang $script $morph Full $text_type $i $compound_analysis 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
+         #system("$GlblVar::TIMEOUT $myPATH/MT/prog/shell/$prog $myPATH tmp_in${pid}/in$pid $GlblVar::TFPATH $lang $script $morph Full $text_type $i $compound_analysis 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
+         system("$GlblVar::TIMEOUT $myPATH/MT/prog/shell/$prog $myPATH tmp_in${pid}/in$pid $GlblVar::TFPATH $lang $script $morph Full $text_type $i 2> $GlblVar::TFPATH/tmp_in$pid/err$pid");
          }  else {
 
          open (TMP,">$GlblVar::TFPATH/tmp_in${pid}/in$pid");
@@ -141,7 +142,8 @@ package main;
          close (TMP);
 
           `date > $GlblVar::TFPATH/tmp_in$pid/err$pid`;
-          $cmd = "$GlblVar::TIMEOUT $myPATH/MT/prog/shell/$prog $myPATH tmp_in${pid}/in$pid $GlblVar::TFPATH $lang $script $morph $parse $text_type $i $compound_analysis 2>> $GlblVar::TFPATH/tmp_in$pid/err$pid";
+          #$cmd = "$GlblVar::TIMEOUT $myPATH/MT/prog/shell/$prog $myPATH tmp_in${pid}/in$pid $GlblVar::TFPATH $lang $script $morph $parse $text_type $i $compound_analysis 2>> $GlblVar::TFPATH/tmp_in$pid/err$pid";
+          $cmd = "$GlblVar::TIMEOUT $myPATH/MT/prog/shell/$prog $myPATH tmp_in${pid}/in$pid $GlblVar::TFPATH $lang $script $morph $parse $text_type $i 2>> $GlblVar::TFPATH/tmp_in$pid/err$pid";
           $exec_status = system($cmd);
      }
      `date >> $GlblVar::TFPATH/tmp_in$pid/err$pid`;
