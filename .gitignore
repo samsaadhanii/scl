@@ -26,7 +26,6 @@
 *.dSYM
 MT/data/hi/MW/MW_html_new.tgz
 MT/prog/Heritage_morph_interface/Makefile_bak
-MT/prog/kAraka/Prepare_Graph/.depend
 MT/prog/kAraka/Prepare_Graph/DATA/AkAfkRA/Axikarma_XAwu_list
 MT/prog/kAraka/Prepare_Graph/DATA/AkAfkRA/BAK/
 MT/prog/kAraka/Prepare_Graph/DATA/AkAfkRA/Sabxakarma_XAwu_list
@@ -55,7 +54,6 @@ MT/prog/kAraka/Prepare_Graph/ZEN/unshare
 MT/prog/kAraka/Prepare_Graph/build_graph
 MT/prog/kAraka/Prepare_Graph/paths.ml
 MT/prog/reader_generator/Canto-I/
-MT/prog/wsd/.depend
 MT/prog/wsd/wsd
 MT/prog/map/tel/
 MT/prog/tel/
@@ -71,7 +69,6 @@ converters/ri_skt
 e-readers/shishu_bak/
 paths.pl
 paths.sh
-skt_gen/Sentence/.depend
 skt_gen/Sentence/dump
 skt_gen/Sentence/dump.ml
 skt_gen/Sentence/paths.ml
