@@ -2233,10 +2233,10 @@ mal1,ap,sk,v,XAraNa_kara,XAraNe
 mall1,ap,sk,v,XAraNa_kara,XAraNe
 maMh1,pp,sk,v,baDa,vqxXO
 maMh2,pp,sk,v,camaka^Age_baDa_jA^bola,BARArWaH
-man1,ap,sk,v,jAna^samaJa,jFAne
+man1,ap,sk,v,samaJa^jAna,jFAne
 maN1,pp,ak,v,Sabxa_kara,SabxArWaH
 mAn1,pp,sk,v,jFAna_prApwi_kI_icCA_kara,pUjAyAm
-man2,ap,sk,v,jAna^samaJa^vicAra_kara^mAna,avaboXane
+man2,ap,sk,v,mAna^samaJa^vicAra_kara^mAna,avaboXane
 mAn2,pp,sk,v,sawkAra_kara^mAna,pUjAyAm
 man3,ap,ak,v,,swamBe
 maNd1,pp,sk,v,alaga_kara,viBAjane
