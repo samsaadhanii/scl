@@ -76,7 +76,6 @@ GAwakaH	GAwaka<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 KAxayanwaH	KAxayaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:bahu><level:1>
 SaSakaH	SaSaka<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 Samayiwum	Sam1<vargaH:avy><sanAxi_prawyayaH:Nic><kqw_prawyayaH:wumun><XAwuH:Samu><gaNaH:xibAxiH><level:1>
-SayAna	SI1<kqw_prawyayaH:SAnac_lat><XAwuH:SIf><gaNaH:axAxiH><level:1>
 SikRayiwum	SikR1<vargaH:avy><sanAxi_prawyayaH:Nic><kqw_prawyayaH:wumun><XAwuH:SikRa><gaNaH:BvAxiH><level:1>
 SqNvan	SqNvaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 SqNvawaH	SqNvaw<vargaH:nA><lifgam:puM><viBakwiH:2><vacanam:bahu><level:1>/SqNvaw<vargaH:nA><lifgam:puM><viBakwiH:5><vacanam:eka><level:1>/SqNvaw<vargaH:nA><lifgam:puM><viBakwiH:6><vacanam:eka><level:1>
