@@ -423,6 +423,7 @@ value sakarmaka_XAwu_list = [
 "aXi_SIf1";
 "aXi_gam1";
 "aXi_i2";
+"aXi_iR2";
 "aXi_kram1";
 "aXi_ruh1";
 "aXi_vas1";

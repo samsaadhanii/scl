@@ -180,6 +180,7 @@ value guNavacana_list = [
 "jyAyasI";
 "jyeRTa";
 "kAmin";
+"kANa";
 "kAminI";
 "kIxqSI";
 "kIxqSa";

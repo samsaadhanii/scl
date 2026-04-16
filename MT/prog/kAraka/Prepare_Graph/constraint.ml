@@ -158,20 +158,19 @@ value join_relations a b1 b c d e1 e f u v1 v w x y1 y z =
       then if w >= 4000 && w < 4100 then [Relationc (a,b1,b,43,d,e1,e,f);Relationc (u,v1,v,20,x,y1,y,z)]
       else if w >= 4100 && w < 4200 then [Relationc (a,b1,b,43,d,e1,e,f); Relationc (u,v1,v,22,x,y1,y,z)]
       else if w >= 4200 && w < 4300 then [Relationc (a,b1,b,43,d,e1,e,f); Relationc (u,v1,v,7,x,y1,y,z)] 
-      else if w >= 4300 && w < 4400 then [Relationc (a,b1,b,43,d,e1,e,f); Relationc (u,v1,v,28,x,y1,y,z)] 
+      else if w >= 4300 && w < 4400 then [Relationc (a,b1,b,43,d,e1,e,f); Relationc (u,v1,v,54,x,y1,y,z)] 
       else if w >= 4400 && w < 4500 then [Relationc (a,b1,b,43,d,e1,e,f); Relationc (u,v1,v,9,x,y1,y,z)] 
       else if w >= 4500 && w < 4600 then [Relationc (a,b1,b,43,d,e1,e,f); Relationc (u,v1,v,24,x,y1,y,z)] 
       else if w=22 && c >= 2000 && c < 2100 then [Relationc (a,b1,b,43,d,e1,e,f)] 
       else []
-    (* else if c >= 2100 && c < 2200 then [Relationc (u,v1,v,22,x,y1,y,z)]  *)
     else if c >= 2200 && c < 2300 then [Relationc (u,v1,v,14,x,y1,y,z)] 
     else if c >= 2400 && c < 2500 && w >= 4300 && w < 4400 then [
             Relationc (u,v1,v,95,x,y1,y,z); Relationc(a,b1,b,43,d,e1,e,f)] 
     else if c >= 2600 && c < 2700 then [Relationc (u,v1,v,50,x,y1,y,z)] 
-    (* else if c >= 2700 && c < 2800 then [Relationc (u,v1,v,14,x,y,y1,z)]  *)
-    (*else if c >= 3100 && c < 3200  && w >= 4300 && w < 4400 then [Relationc (a,b1,b,c,d,e1,e,f);Relationc (u,v1,v,92,x,y1,y,z)]*)
     else if c >= 3200 && c < 3300  && w >= 4300 && w < 4400 then [Relationc (a,b1,b,c,d,e1,e,f);Relationc (u,v1,v,93,x,y1,y,z)] 
     else if c >= 2300 && c < 2400 && w >= 4300 && w < 4400 
+    then [Relationc (a,b1,b,c,d,e,e1,f);Relationc (u,v1,v,w,x,y1,y,z)] 
+    else if c >= 2100 && c < 2200 && w >= 4600 && w < 4700 
     then [Relationc (a,b1,b,c,d,e,e1,f);Relationc (u,v1,v,w,x,y1,y,z)] 
     else if c >= 2900 && c < 3000 && w >= 4300 && w < 4400 
     then [Relationc (u,v1,v,94,x,y1,y,z)] 
@@ -416,8 +415,8 @@ value no_crossing text_type m1 m2=match m1 with
          (* 33=sup_samucciwaH added to allow the followiing construction:
             बिभेद च पुनः सालान् सप्त एकेन महा-इषुणा गिरिं रसातलं च एव जनयन् प्रत्ययं तदा
           where karaNa and sup_samucciwaH cross *)
-             && not (r1=101 || r1=102 || r1=25 || r1=49 || r1=28 || r1=30 || r1=33 || r1=79)
-             && not (r2=101 || r2=102 || r2=25 || r2=49 || r2=28 || r2=30 || r2=33 || r2=79)
+             && not (r1=101 || r1=102 || r1=25 || r1=49 || r1=54 || r1=30 || r1=33 || r1=79)
+             && not (r2=101 || r2=102 || r2=25 || r2=49 || r2=54 || r2=30 || r2=33 || r2=79)
              && (((not ((r1=36) || (r1=37) || (r1=38) || (r1=9) || (r1=53) ||
                      (r2=36) || (r2=37) || (r2=38) || (r2=9) || (r2=53)))
                     && text_type="Sloka")
@@ -536,14 +535,14 @@ value outgoing_incompatible_rels rpair = match rpair with
 value not_allowed_sequence_rels rpair = match rpair with
   [ (* a RaRTI/prawiReXaH of a kriyAviSeRaNa or a viSeRaNa is not allowed ; removed aBexa; RaRTI of aBexa is allowed; SriyaH pawiH*)
 (* The sequence is written as: (top,bottom) 
-So for example if viSeRaNa (36) below sambanXa (28) is not allowed, then we write (28,36) *)
+So for example if viSeRaNa (36) below sambanXa (54) is not allowed, then we write (54,36) *)
   (26,38)
   |(26,50)
   |(36,38)
   |(36,1038) (* A viSeRaNa of wawpuruRa is not allowed *)
   |(36,1035) (* A viSeRaNa of naF_wawpuruRa is not allowed *)
-  |(33,28) (* sambanXa of samucciwa is not allowed *)
-  |(28,36) (* viSeRaNa of sambanXa not allowed *)
+  |(33,54) (* sambanXa of samucciwa is not allowed *)
+  |(54,36) (* viSeRaNa of sambanXa not allowed *)
   (* |(9,38) inxraH svargasya rAjA aswi. -- RaRTI of viXeya viSeRaNam *)
   |(36,50)
   |(38,26)
@@ -675,6 +674,7 @@ print_int r1; print_string " "; print_int r2; print_string "\n";
       [Relationc (to_id2,to_mid2,r2,from_id2,from_mid2,dist2) -> 
 
          if from_id1=to_id2 && from_cid1=to_cid2 && from_mid1=to_mid2
+(* TODO -- 300 needs to be removed. It is no longer being used. 45 is not relevant here, and also 25  -- 14th Apr 2026 *)
                 && r1=25 && not (r2=300) && not (r2=45) (* pUrvakAla is allowed only if either it is directly connected to the main verb, in case there exists another relation then the other relation is either a pratoyogi / anuyogi *)
          then False
          else True
@@ -767,14 +767,14 @@ value rec add_cost text_type acc rels=fun
             let res=
                  if rel=6 then 7 * dist (* karwA_be_verbs -> karwA *)
             else if rel=8 then 0 * dist (* karwqrahiwa-viXeya_viSeRaNam *)
-            else if rel=28 then 0 (* sambanXaH  Since samuccaya_xyowakaH is not counted, and sometimes the words ca and api can also come under sambanXaH, we are not counting this relation as well*)
-            else if rel=33 then rel * 1 (*samucciwa *)
-            else if rel=36 then 0 (* viSeRaNam *)
+            (* else if rel=54 then 0 (* sambanXaH  Since samuccaya_xyowakaH is not counted, and sometimes the words ca and api can also come under sambanXaH, we are not counting this relation as well*) *)
+            (* else if rel=33 then rel * 1 (*samucciwa *) *)
+            (*else if rel=36 then 0 (* viSeRaNam *) *)
             else if rel=9 then 0 (* viXeya_viSeRaNam *)
-            else if rel=45 then 0 (* samuccaya_xyowakaH *)
+            (* else if rel=45 then 0 (* samuccaya_xyowakaH *)
             else if rel=46 then 0 (* sup_samuccaya_xyowakaH *)
             else if rel=47 then 0 (* anyawara_xyowakaH *)
-            else if rel=48 then 0 (* sup_anyawara_xyowakaH *)
+            else if rel=48 then 0 (* sup_anyawara_xyowakaH *) *)
             else if rel=51 then 0 (* wIvrawAxarSI *)
             else if rel=55 then 0 (* Gataka_xyowakaH *)
             (* else if rel=29 then 39 * dist  hewuH -> hewu *)
@@ -805,15 +805,16 @@ value rec add_cost text_type acc rels=fun
             else if rel >= 4000 && rel < 4100 then 20 * dist (* apAxAnam *)
             else if rel >= 4100 && rel < 4200 then 22 * dist (* xeSAXi *)
             else if rel >= 4200 && rel < 4300 then 9 * dist (* viXeya_viSeRaNam *)
-            else if rel >= 4300 && rel < 4400 then 28 * dist (* sambanXaH *)
+            else if rel >= 4300 && rel < 4400 then 54 * dist (* sambanXaH *)
             else if rel >= 4400 && rel < 4500 then 7 * dist (* karwA *)
             else if rel >= 4500 && rel < 4600 then 24 * dist (* aXikaraNa *)
             else if a1 > a2 
-                 then if rel=32 then 0
+                 then if rel=32 
+                      then 0
                       else if text_type="Prose" && rel=38
-                      then rel * dist * 10 (* if the kaarakas or RaRTI are to the right, give penalty *)
-                      else rel * dist (* no penalty in case of Sloka *)
-                      else rel * dist
+                           then rel * dist * 10 (* if the kaarakas or RaRTI are to the right, give penalty *)
+                           else rel * dist (* no penalty in case of Sloka *)
+                 else rel * dist
         in   add_cost text_type (acc+res) rels r
        ]
   ]
@@ -1181,7 +1182,7 @@ value rec seq_expectancy relations relsindag=
             | [ Relationc (a,b1,b,r1,c,d1,d,dist1) :: rest] -> 
                  (*do { print_string "AAA\n"; print_sint a; print_sint b1; print_sint b;print_sint r1; print_sint c; print_sint d1; print_sint d; print_string "\n"; *)
                  match r1 with
-                 [ 3 | 4 | 5 | 9 | 13 | 16 | 17 | 52 | 53 | 54 | 55 | (*56 | 57 | 60 |*) 76 |  77 |  (*79 | *) 80 |  75 | 41 | 68 | 69 | 12 |  97 | 32 | 33 | 34 | 35 | 45 | 46 | 47 | 48  | 202 | 203 -> 
+                 [ 3 | 4 | 5 | 9 | 13 | 16 | 17 | 52 | 53 | 29 | 55 | (*56 | 57 | 60 |*) 76 |  77 |  (*79 | *) 80 |  75 | 41 | 68 | 69 | 12 |  97 | 32 | 33 | 34 | 35 | 45 | 46 | 47 | 48  | 202 | 203 -> 
 (* relaxed condition for 56-57-60 yaxyapi-waWApi - kArya-kAraNA-BAva *)
                   loop1 maprel
                        where rec loop1=fun
@@ -1203,7 +1204,6 @@ value rec seq_expectancy relations relsindag=
                                      if (r1 = 3 || r1 = 4 || r1 = 5) then if (r2 = 202 || r2 = 203 || r2 = 24) then loop rest else loop1 rest1 
                                      (* rAme vanam gacCawi sIwA anusarawi ; SAswra-sampAwe pravqwwe XanuH uxyamya pANdavaH ixam abravIw *)
                                      else if r1=53 then if r2=52 then loop rest else loop1 rest1
-                                     else if r1=54 then if r2=55 then loop rest else loop1 rest1
                                      (*else if r1=60 then if (r2=56|| r2=57) then loop rest else loop1 rest1*)
                                      (* else if r1=92 then if r2=76 then loop rest else loop1 rest1  for sahArWaH sahArWa_xyowaka is not needed *)
                                      (* else if r1=93 then if r2=77 then loop rest else loop1 rest1   for vinArWaH vinArWaH_xyowaka is not needed *)
@@ -1219,7 +1219,6 @@ value rec seq_expectancy relations relsindag=
                                      (*else if (r2 = 202 || r2 = 203) then if (r1 = 3 || r1 = 4 || r1 = 5) then loop rest else loop1 rest1 *)
                                      (* rAme vanam gacCawi sIwA anusarawi ; SAswra-sampAwe pravqwwe XanuH uxyamya pANdavaH ixam abravIw *)
                                      else if r1=52 then if r2=53 then loop rest else loop1 rest1
-                                     else if r1=55 then if r2=54 then loop rest else loop1 rest1
                                      (*else if r1=56 then if r2=60 then loop rest else loop1 rest1
                                      else if r1=57 then if r2=60 then loop rest else loop1 rest1*)
                                      else if r1=76 then if r2=92 then loop rest else loop1 rest1
@@ -1246,6 +1245,8 @@ value rec seq_expectancy relations relsindag=
                                      else if r1=17 then if r1=15 then loop rest else loop1 rest1
                                      else if r2=16 then if r1=15 then loop rest else loop1 rest1
                                      else if r1=16 then if r2=15 then loop rest else loop1 rest1
+                                     (*else if r1=55 then if r2=29 then loop rest else loop1 rest1 *)
+                                     else if r1=29 then if r2=55 then loop rest else loop1 rest1
                                      else if r1=9 then if r2=36 && a > x then loop rest else loop1 rest1 (* viXeya viSeRaNa should always be to the right of viSeRaNa *)
                                      else if r2=9 then if r1=36 && x > a then loop rest else loop1 rest1
                                      else if r1=92 then if (r2=7 || r2 = 14 || r2 = 18) then loop rest else loop1 rest1 (*If there is sahArWa, then there should be either karwA,karma or karaNa relation *)
