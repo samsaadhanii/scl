@@ -184,8 +184,10 @@ my @vacanam = ("eka","xvi","bahu");
  if($kqw_prawyaya_wx eq "SAnac_lat_karwari") {
 	 $kqw_prawyaya_wx = "SAnac_lat><prayogaH:karwari";
  }
- if($kqw_prawyaya_wx eq "SAnac_lat_karmaNi") {
+ elsif($kqw_prawyaya_wx eq "SAnac_lat_karmaNi") {
 	 $kqw_prawyaya_wx = "SAnac_lat><prayogaH:karmaNi";
+ }else {
+	 $kqw_prawyaya_wx = $kqw_prawyaya_wx."><prayogaH:X";
  }
 
  $LTPROC_IN = "";
