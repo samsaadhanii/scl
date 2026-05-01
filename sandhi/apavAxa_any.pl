@@ -250,7 +250,7 @@ if($an=~/^gIr\+(pawi|puwra)(.*)/){
 if($an=~/^gIr\+gaNa(.*)/){$ans="gIrgaNa$1";$ans1="rePa";$ans2="roZsupi (8.2.69)";$cont=0;}
 
 if($an=~/^XUr\+(pawi|puwra)(.*)/){
-   $ans="XUr$1$2:XU><$1$:XUH $1$2";
+   $ans="XUr$1$2:XU><$1$2:XUH $1$2";
    $ans1="rePa:upaXmAnIya:visarga";
    $ans2="KaravasAnayorvisarjanIyaH (8.3.15)(prApwe)-> aharAxInAm pawyAxiRu vA rePaH (vA 4851):KaravasAnayorvisarjanIyaH (8.3.15)-> kupvo><ka><pO ca (8.3.37):KaravasAnayorvisarjanIyaH (8.3.15)-> kupvo><ka><pO ca (8.3.37)";
    $cont=0;
@@ -306,7 +306,7 @@ if($an=~/^krI\+ya(.*)/){
 }
 
 if($an=~/^(aXa|Sira)H\+paxa(.*)/){
-   $ans = "$1spaxa$2:aXa><paxa$1:aXaH paxa$1";
+   $ans = "$1spaxa$2:$1><paxa$2:$1H paxa$2";
    $ans1 = "samAse sawva:upaXmAnIya:visarga";
    $ans2 = "aXaSSirasI paxe (8.3.47):kupvo ><ka ><pO ca (8.3.37):kupvo ><ka ><pO ca (8.3.37)";
    $cont=0;
