@@ -11,7 +11,7 @@
 ##  This program is distributed in the hope that it will be useful,
 ##  but WITHOUT ANY WARRANTY; without even the implied warranty of
 ##  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-##  GNU General Public License for more details.
+##  GNU Generl Public License for more details.
 ##
 ##  You should have received a copy of the GNU General Public License
 ##  along with this program; if not, write to the Free Software
@@ -42,7 +42,7 @@ source $1/paths.sh
    if [ $PARSE != "NO" ] ; then
 	if [ $PARSE != "AVAILABLE" ]; then
              $ANU_MT_PATH/kAraka/uniform_morph_anal.pl $myPATH <  $TMP_FILES_PATH/$3  > $TMP_FILES_PATH/parser_files/morph.txt
-             $$ANU_MT_PATH/kAraka/Prepare_Graph/build_graph $TMP_FILES_PATH/parser_files/ $TEXT_TYPE $COMPOUND_ANALYSIS < $TMP_FILES_PATH/parser_files/morph.txt |\
+             #$ANU_MT_PATH/kAraka/Prepare_Graph/build_graph $TMP_FILES_PATH/parser_files/ $TEXT_TYPE $COMPOUND_ANALYSIS < $TMP_FILES_PATH/parser_files/morph.txt |\
              $ANU_MT_PATH/kAraka/Prepare_Graph/build_graph $TMP_FILES_PATH/parser_files/ $TEXT_TYPE < $TMP_FILES_PATH/parser_files/morph.txt |\
              $ANU_MT_PATH/kAraka/kaaraka_sharing.pl $myPATH $ANU_MT_PATH/kAraka/Prepare_Graph/DATA/AkAfkRA/relations.txt > $TMP_FILES_PATH/parser_files/parseop1.txt
         fi

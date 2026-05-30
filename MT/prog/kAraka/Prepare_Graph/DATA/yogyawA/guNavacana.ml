@@ -182,6 +182,8 @@ value guNavacana_list = [
 "kAmin";
 "kANa";
 "kAminI";
+"kIrwanIya";
+"kIrwanIyA";
 "kIxqSI";
 "kIxqSa";
 "kRAra";

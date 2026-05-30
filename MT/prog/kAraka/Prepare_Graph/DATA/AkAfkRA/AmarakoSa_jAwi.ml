@@ -1,4 +1,4 @@
-value amarakosha_jaati_list = [
+value amarakoSa_jAwi_list = [
 "Sabxa A";
 "buxXi A";
 "Sabxa ABARaNa";

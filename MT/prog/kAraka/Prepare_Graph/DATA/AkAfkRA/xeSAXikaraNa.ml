@@ -1,17 +1,4 @@
 value xeSAXikaraNa_list = [
-"ZaXaH";
-"ZpurawaH";
-"zaBiwaH";
-"zanwikAw";
-"zanwikam";
-"zanwike";
-"zanwikeNa";
-"zgrAma";
-"zsammuKam";
-"zxUrAw";
-"zxUram";
-"zxUre";
-"zxUreNa";
 "mayi";
 "aXaH";
 "agre";
@@ -33,6 +20,6 @@ value xeSAXikaraNa_list = [
 "wawra";
 "yawra";
 "wvayi";
-"xUram";
+"xUram"
 ]
 ;

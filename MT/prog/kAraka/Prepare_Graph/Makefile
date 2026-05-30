@@ -9,20 +9,38 @@ include ../../../../paths.sh
 APATH=./DATA/AkAfkRA
 YPATH=./DATA/yogyawA
 
-FILES=relations.ml $(APATH)/aaxikarma_dhaatu.ml $(APATH)/bhaava_kqw.ml $(APATH)/Sabxakarma_dhaatu.ml \
-$(APATH)/shakaadi.ml  $(APATH)/shlish_aadi.ml $(APATH)/afgavikaara.ml $(APATH)/akarmaka_dhaatu.ml $(APATH)/amarakosha_jaati.ml \
-$(APATH)/apAxAna_dhaatu.ml $(APATH)/buxXyarWa_dhaatu.ml $(APATH)/gawyarWa_dhaatu.ml $(APATH)/karaNa_dhaatu.ml \
-$(APATH)/karmasamAnAXikaraNa_dhaatu.ml $(APATH)/karwqsamAnAXikaraNa_dhaatu.ml $(APATH)/kqxanwa.ml $(APATH)/nirXAraNa.ml \
-$(APATH)/prawyavasAnArWa_dhaatu.ml $(APATH)/sakarmaka_dhaatu.ml $(APATH)/samboXana_sUcaka.ml $(APATH)/sampraxAna_dhaatu.ml \
-$(APATH)/vAkyakarma_dhaatu.ml $(APATH)/viRayAXikaraNa.ml $(APATH)/viRayi.ml $(APATH)/xvikarmaka1_dhaatu.ml $(APATH)/xvikarmaka2_dhaatu.ml \
-$(YPATH)/SabxavAci.ml $(YPATH)/animate.ml $(YPATH)/avy_viSeRaNam.ml $(YPATH)/buxXivAci.ml $(YPATH)/guNa_not_guNavacana.ml \
-$(YPATH)/guNavacana.ml $(YPATH)/intensifiers.ml $(YPATH)/kAlAXikaraNa.ml $(YPATH)/kAlAXva.ml $(YPATH)/kriyAviSeRaNa.ml \
+
+FILES=relations.ml adata.ml morph.ml global_var.ml common.ml $(APATH)/afgavikaara.ml $(APATH)/nirXAraNa.ml kaaraka.ml aXikaraNa.ml viBakwi345.ml kqw.ml viSeRaNa.ml sent.ml samboXana.ml upapaxa.ml default_sambanXaH.ml sma_mA.ml ShaRTI.ml nAma_iwi_Gataka.ml vIpsA_nirXAraNa_kriyAviSeRaNam.ml conj_disj.ml vAkyakarma.ml upamAna.ml sawi_sapwami.ml hi_wsd.ml build_graph_cpd.ml constraint.ml build_graph.ml
+
+AFILES=$(APATH)/aaxikarma_dhaatu.ml $(APATH)/shakaadi.ml  $(APATH)/shlish_aadi.ml \
+$(APATH)/gawyarWa_dhaatu.ml $(APATH)/buxXyarWa_dhaatu.ml $(APATH)/prawyavasAnArWa_dhaatu.ml $(APATH)/Sabxakarma_dhaatu.ml $(APATH)/akarmaka_dhaatu.ml \
+$(APATH)/sakarmaka_dhaatu.ml $(APATH)/karaNa_dhaatu.ml $(APATH)/sampraxAna_dhaatu.ml $(APATH)/apAxAna_dhaatu.ml \
+$(APATH)/vAkyakarma_dhaatu.ml $(APATH)/xvikarmaka1_dhaatu.ml $(APATH)/xvikarmaka2_dhaatu.ml \
+$(APATH)/kqxanwa.ml $(APATH)/bhaava_kqw.ml $(APATH)/viRayi.ml $(APATH)/viRayAXikaraNa.ml $(APATH)/samboXana_sUcaka.ml \
+$(APATH)/xeSAXikaraNa.ml $(APATH)/karwqsamAnAXikaraNa_dhaatu.ml $(APATH)/karmasamAnAXikaraNa_dhaatu.ml $(APATH)/kAlAXikaraNa.ml $(APATH)/amarakoSa_jAwi.ml 
+
+AEXECS=$(APATH)/aaxikarma_dhaatu.cmx $(APATH)/shakaadi.cmx  $(APATH)/shlish_aadi.cmx \
+$(APATH)/gawyarWa_dhaatu.cmx $(APATH)/buxXyarWa_dhaatu.cmx $(APATH)/prawyavasAnArWa_dhaatu.cmx $(APATH)/Sabxakarma_dhaatu.cmx  $(APATH)/akarmaka_dhaatu.cmx \
+$(APATH)/sakarmaka_dhaatu.cmx $(APATH)/karaNa_dhaatu.cmx $(APATH)/sampraxAna_dhaatu.cmx  $(APATH)/apAxAna_dhaatu.cmx \
+$(APATH)/vAkyakarma_dhaatu.cmx $(APATH)/xvikarmaka1_dhaatu.cmx $(APATH)/xvikarmaka2_dhaatu.cmx \
+$(APATH)/kqxanwa.cmx $(APATH)/bhaava_kqw.cmx $(APATH)/viRayi.cmx $(APATH)/viRayAXikaraNa.cmx $(APATH)/samboXana_sUcaka.cmx \
+$(APATH)/xeSAXikaraNa.cmx $(APATH)/karwqsamAnAXikaraNa_dhaatu.cmx $(APATH)/karmasamAnAXikaraNa_dhaatu.cmx $(APATH)/kAlAXikaraNa.cmx $(APATH)/amarakoSa_jAwi.cmx 
+
+YFILES=$(YPATH)/SabxavAci.ml $(YPATH)/animate.ml $(YPATH)/avy_viSeRaNam.ml $(YPATH)/buxXivAci.ml $(YPATH)/guNa_not_guNavacana.ml \
+$(YPATH)/guNavacana.ml $(YPATH)/intensifiers.ml $(YPATH)/kAlAXva.ml $(YPATH)/kriyAviSeRaNa.ml $(YPATH)/parAjAwi.ml \
 $(YPATH)/manuRyaparyAya.ml $(YPATH)/manuRyasaFjFAvAcI.ml $(YPATH)/named_entity.ml $(YPATH)/non_RaRTI.ml $(YPATH)/pUraNa.ml \
-$(YPATH)/parAjAwi.ml $(YPATH)/saMKyeya.ml $(YPATH)/sambandhavaaci.ml $(YPATH)/upAXi.ml $(YPATH)/upapada6.ml \
-$(YPATH)/waxXiwAnwa.ml $(YPATH)/xeSAXikaraNa.ml $(YPATH)/xravyavAcI.ml $(YPATH)/non_neuter_kartaa_dhaatu.ml $(YPATH)/jAwivAcaka.ml \
-$(YPATH)/safKyA_vAcI.ml $(YPATH)/kAla_vAcI.ml $(YPATH)/cawuRpAxa_jAwi_vAcI.ml $(YPATH)/varNavAcI.ml $(YPATH)/vyAGrAxi.ml \
-$(YPATH)/waxXiwAnwa_safKyA_vAcI.ml $(YPATH)/waxXiwAnwa_xik_vAcI.ml $(YPATH)/xik_vAcI.ml $(YPATH)/exceptional_cpd_list.ml  $(YPATH)/naxI_vAcI.ml \
-$(YPATH)/amUrwa.ml build_graph.ml build_graph_cpd.ml constraint.ml 
+$(YPATH)/saMKyeya.ml $(YPATH)/sambandhavaaci.ml $(YPATH)/upAXi.ml $(YPATH)/upapada6.ml $(YPATH)/waxXiwAnwa.ml \
+ $(YPATH)/xravyavAcI.ml $(YPATH)/non_neuter_kartaa_dhaatu.ml $(YPATH)/jAwivAcaka.ml $(YPATH)/safKyA_vAcI.ml \
+$(YPATH)/kAla_vAcI.ml $(YPATH)/cawuRpAxa_jAwi_vAcI.ml $(YPATH)/varNavAcI.ml $(YPATH)/vyAGrAxi.ml $(YPATH)/waxXiwAnwa_safKyA_vAcI.ml \
+$(YPATH)/waxXiwAnwa_xik_vAcI.ml $(YPATH)/xik_vAcI.ml $(YPATH)/exceptional_cpd_list.ml  $(YPATH)/naxI_vAcI.ml $(YPATH)/amUrwa.ml
+
+YEXECS=$(YPATH)/SabxavAci.cmx $(YPATH)/animate.cmx $(YPATH)/avy_viSeRaNam.cmx $(YPATH)/buxXivAci.cmx $(YPATH)/guNa_not_guNavacana.cmx \
+$(YPATH)/guNavacana.cmx $(YPATH)/intensifiers.cmx $(YPATH)/kAlAXva.cmx $(YPATH)/kriyAviSeRaNa.cmx $(YPATH)/parAjAwi.cmx \
+$(YPATH)/manuRyaparyAya.cmx $(YPATH)/manuRyasaFjFAvAcI.cmx $(YPATH)/named_entity.cmx $(YPATH)/non_RaRTI.cmx $(YPATH)/pUraNa.cmx \
+$(YPATH)/saMKyeya.cmx $(YPATH)/sambandhavaaci.cmx $(YPATH)/upAXi.cmx $(YPATH)/upapada6.cmx $(YPATH)/waxXiwAnwa.cmx \
+$(YPATH)/xravyavAcI.cmx $(YPATH)/non_neuter_kartaa_dhaatu.cmx $(YPATH)/jAwivAcaka.cmx $(YPATH)/safKyA_vAcI.cmx \
+$(YPATH)/kAla_vAcI.cmx $(YPATH)/cawuRpAxa_jAwi_vAcI.cmx $(YPATH)/varNavAcI.cmx $(YPATH)/vyAGrAxi.cmx $(YPATH)/waxXiwAnwa_safKyA_vAcI.cmx \
+$(YPATH)/waxXiwAnwa_xik_vAcI.cmx $(YPATH)/xik_vAcI.cmx $(YPATH)/exceptional_cpd_list.cmx  $(YPATH)/naxI_vAcI.cmx $(YPATH)/amUrwa.cmx
 
 INTERFACES=pada_structure.mli
 SYNTAX=.ocamlinit
@@ -40,44 +58,18 @@ COMPILEI=ocamlfind ocamlc -package camlp4.extend -syntax camlp4r -I $(ZEN)  -I .
 #LINK=ocamlopt -I $(ZEN) -I +camlp4 dynlink.cmxa camlp4lib.cmxa
 LINK=ocamlfind ocamlopt -I $(ZEN) -I . -I +dynlink -I +unix -I +str -package camlp-streams -package camlp4 -linkpkg dynlink.cmxa camlp4lib.cmxa
 
+
 ZENSOURCES=gen.ml list2.ml word.ml share.mli share.ml unshare.ml trie.ml \
 mini.ml deco.ml lexmap.ml minimap.mli minimap.ml min_lexer.ml
 
-SOURCES=$(INTERFACES) $(FILES) $(HPATH)/min_lexer.ml $(HPATH)/transduction.ml
+SOURCES=$(INTERFACES) $(AFILES) $(YFILES) $(FILES) $(HPATH)/min_lexer.ml $(HPATH)/transduction.ml
 
 CORE=$(ZEN)/list2.cmx $(ZEN)/ascii.cmx $(ZEN)/gen.cmx $(ZEN)/trie.cmx $(ZEN)/zen_lexer.cmx
 
 EXECS=$(HPATH)/min_lexer.cmx $(HPATH)/transduction.cmx 
 
-VPATH=$(ZEN) $(HPATH)
-
-build_graph: pada_structure.cmi bank_lexer.cmx ascii.cmx trie.cmx min_lexer.cmx transduction.cmx constraint.cmx $(APATH)/aaxikarma_dhaatu.cmx $(APATH)/bhaava_kqw.cmx $(APATH)/Sabxakarma_dhaatu.cmx \
-$(APATH)/shakaadi.cmx  $(APATH)/shlish_aadi.cmx $(APATH)/afgavikaara.cmx $(APATH)/akarmaka_dhaatu.cmx $(APATH)/amarakosha_jaati.cmx \
-$(APATH)/apAxAna_dhaatu.cmx $(APATH)/buxXyarWa_dhaatu.cmx $(APATH)/gawyarWa_dhaatu.cmx $(APATH)/karaNa_dhaatu.cmx \
-$(APATH)/karmasamAnAXikaraNa_dhaatu.cmx $(APATH)/karwqsamAnAXikaraNa_dhaatu.cmx $(APATH)/kqxanwa.cmx $(APATH)/nirXAraNa.cmx \
-$(APATH)/prawyavasAnArWa_dhaatu.cmx $(APATH)/sakarmaka_dhaatu.cmx $(APATH)/samboXana_sUcaka.cmx $(APATH)/sampraxAna_dhaatu.cmx \
-$(APATH)/vAkyakarma_dhaatu.cmx $(APATH)/viRayAXikaraNa.cmx $(APATH)/viRayi.cmx $(APATH)/xvikarmaka1_dhaatu.cmx $(APATH)/xvikarmaka2_dhaatu.cmx \
-$(YPATH)/SabxavAci.cmx $(YPATH)/animate.cmx $(YPATH)/avy_viSeRaNam.cmx $(YPATH)/buxXivAci.cmx $(YPATH)/guNa_not_guNavacana.cmx \
-$(YPATH)/guNavacana.cmx $(YPATH)/intensifiers.cmx $(YPATH)/kAlAXikaraNa.cmx $(YPATH)/kAlAXva.cmx $(YPATH)/kriyAviSeRaNa.cmx \
-$(YPATH)/manuRyaparyAya.cmx $(YPATH)/manuRyasaFjFAvAcI.cmx $(YPATH)/named_entity.cmx $(YPATH)/non_RaRTI.cmx $(YPATH)/pUraNa.cmx \
-$(YPATH)/parAjAwi.cmx $(YPATH)/saMKyeya.cmx $(YPATH)/sambandhavaaci.cmx $(YPATH)/upAXi.cmx $(YPATH)/upapada6.cmx \
-$(YPATH)/waxXiwAnwa.cmx $(YPATH)/xeSAXikaraNa.cmx $(YPATH)/xravyavAcI.cmx $(YPATH)/non_neuter_kartaa_dhaatu.cmx $(YPATH)/jAwivAcaka.cmx \
-$(YPATH)/safKyA_vAcI.cmx $(YPATH)/waxXiwAnwa_safKyA_vAcI.cmx $(YPATH)/waxXiwAnwa_xik_vAcI.cmx $(YPATH)/xik_vAcI.cmx $(YPATH)/kAla_vAcI.cmx \
-$(YPATH)/cawuRpAxa_jAwi_vAcI.cmx $(YPATH)/varNavAcI.cmx $(YPATH)/vyAGrAxi.cmx $(YPATH)/exceptional_cpd_list.cmx $(YPATH)/naxI_vAcI.cmx $(YPATH)/amUrwa.cmx \
-relations.cmx build_graph_cpd.cmx build_graph.cmx 
-	$(LINK) unix.cmxa bank_lexer.cmx $(CORE) $(EXECS) constraint.cmx relations.cmx $(APATH)/aaxikarma_dhaatu.cmx $(APATH)/bhaava_kqw.cmx \
-$(APATH)/Sabxakarma_dhaatu.cmx $(APATH)/shakaadi.cmx  $(APATH)/shlish_aadi.cmx $(APATH)/afgavikaara.cmx $(APATH)/akarmaka_dhaatu.cmx $(APATH)/amarakosha_jaati.cmx \
-$(APATH)/apAxAna_dhaatu.cmx $(APATH)/buxXyarWa_dhaatu.cmx $(APATH)/gawyarWa_dhaatu.cmx $(APATH)/karaNa_dhaatu.cmx \
-$(APATH)/karmasamAnAXikaraNa_dhaatu.cmx $(APATH)/karwqsamAnAXikaraNa_dhaatu.cmx $(APATH)/kqxanwa.cmx $(APATH)/nirXAraNa.cmx \
-$(APATH)/prawyavasAnArWa_dhaatu.cmx $(APATH)/sakarmaka_dhaatu.cmx $(APATH)/samboXana_sUcaka.cmx $(APATH)/sampraxAna_dhaatu.cmx \
-$(APATH)/vAkyakarma_dhaatu.cmx $(APATH)/viRayAXikaraNa.cmx $(APATH)/viRayi.cmx $(APATH)/xvikarmaka1_dhaatu.cmx $(APATH)/xvikarmaka2_dhaatu.cmx \
-$(YPATH)/SabxavAci.cmx $(YPATH)/animate.cmx $(YPATH)/avy_viSeRaNam.cmx $(YPATH)/buxXivAci.cmx $(YPATH)/guNa_not_guNavacana.cmx \
-$(YPATH)/guNavacana.cmx $(YPATH)/intensifiers.cmx $(YPATH)/kAlAXikaraNa.cmx $(YPATH)/kAlAXva.cmx $(YPATH)/kriyAviSeRaNa.cmx \
-$(YPATH)/manuRyaparyAya.cmx $(YPATH)/manuRyasaFjFAvAcI.cmx $(YPATH)/named_entity.cmx $(YPATH)/non_RaRTI.cmx $(YPATH)/pUraNa.cmx \
-$(YPATH)/parAjAwi.cmx $(YPATH)/saMKyeya.cmx $(YPATH)/sambandhavaaci.cmx $(YPATH)/upAXi.cmx $(YPATH)/upapada6.cmx \
-$(YPATH)/waxXiwAnwa.cmx $(YPATH)/xeSAXikaraNa.cmx $(YPATH)/xravyavAcI.cmx  $(YPATH)/non_neuter_kartaa_dhaatu.cmx $(YPATH)/jAwivAcaka.cmx \
-$(YPATH)/safKyA_vAcI.cmx $(YPATH)/waxXiwAnwa_safKyA_vAcI.cmx $(YPATH)/waxXiwAnwa_xik_vAcI.cmx $(YPATH)/xik_vAcI.cmx $(YPATH)/kAla_vAcI.cmx \
-$(YPATH)/cawuRpAxa_jAwi_vAcI.cmx $(YPATH)/varNavAcI.cmx $(YPATH)/vyAGrAxi.cmx $(YPATH)/exceptional_cpd_list.cmx  $(YPATH)/naxI_vAcI.cmx $(YPATH)/amUrwa.cmx build_graph_cpd.cmx build_graph.cmx -o build_graph
+build_graph: pada_structure.cmi bank_lexer.cmx  $(EXECS) global_var.cmx $(APATH)/afgavikaara.cmx $(APATH)/nirXAraNa.cmx morph.cmx constraint.cmx relations.cmx $(AEXECS)  $(YEXECS) adata.cmx common.cmx kaaraka.cmx aXikaraNa.cmx viBakwi345.cmx kqw.cmx sent.cmx samboXana.cmx upapaxa.cmx default_sambanXaH.cmx sma_mA.cmx shaRTI.cmx nAma_iwi_Gataka.cmx vIpsA_nirXAraNa_kriyAviSeRaNam.cmx conj_disj.cmx vAkyakarma.cmx upamAna.cmx sawi_sapwami.cmx hi_wsd.cmx viSeRaNa.cmx build_graph_cpd.cmx build_graph.cmx 
+	$(LINK) unix.cmxa bank_lexer.cmx $(CORE) $(EXECS) global_var.cmx $(APATH)/afgavikaara.cmx $(APATH)/nirXAraNa.cmx morph.cmx constraint.cmx relations.cmx $(AEXECS) $(YEXECS) adata.cmx common.cmx kaaraka.cmx aXikaraNa.cmx viBakwi345.cmx kqw.cmx sent.cmx samboXana.cmx upapaxa.cmx default_sambanXaH.cmx sma_mA.cmx shaRTI.cmx nAma_iwi_Gataka.cmx vIpsA_nirXAraNa_kriyAviSeRaNam.cmx conj_disj.cmx vAkyakarma.cmx upamAna.cmx sawi_sapwami.cmx hi_wsd.cmx viSeRaNa.cmx build_graph_cpd.cmx build_graph.cmx -o build_graph
 	#cd $(APATH); ./extract.sh
 
 debug: ascii.cmo trie.cmo debug.ml

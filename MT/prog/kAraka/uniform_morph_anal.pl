@@ -21,6 +21,10 @@ $myPATH=$ARGV[0];
 
 require "$myPATH/MT/prog/Normalisation/get_std_spelling_fn.pl";
 
+$index_fld = 0;
+$word_fld  = 1;
+$morph_fld = 5;
+
 
 $/ = "\n\n";
 while($in = <STDIN>){
@@ -31,10 +35,10 @@ while($in = <STDIN>){
      foreach $ana (@ana) {
         $ana_count = 1;
         @wrd_ana= split(/\t/,$ana);
-        ($wrd_id,$comp_id) = split(/\./,$wrd_ana[0]);
-        $wrd = &get_std_spelling_fn($wrd_ana[1]);
+        ($wrd_id,$comp_id) = split(/\./,$wrd_ana[$index_fld]);
+        $wrd = &get_std_spelling_fn($wrd_ana[$word_fld]);
 	if($wrd eq ",") { $wrd = "COMMA";}
-        $w_ana = $wrd_ana[5];
+        $w_ana = $wrd_ana[$morph_fld];
         if($wrd =~ /.*\-$/) { $pUrvapaxa = "y";} else {$pUrvapaxa = "n";}
         if($wrd =~ /^\-.*/) { $uwwarapaxa = "y";} else {$uwwarapaxa = "n";}
         if($w_ana eq "") {

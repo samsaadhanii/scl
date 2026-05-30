@@ -28,7 +28,7 @@ value relations_encodings = [
 (* earlier it was pUrvakAla = 24, and aXikaraNa = 25. But now we want to impose a condition that there can be only one adhikarana, hence the order changed *)
 	("kriyAviSeRaNam",26);
 	("nirXAraNam",27);
-	("Gataka",29 );
+	("GatakaH",29 );
 	("ananwarakAlaH",30);
 	("samboXana_xyowakaH",31);
 	("samucciwaH",32);
@@ -58,14 +58,14 @@ value relations_encodings = [
 	("Gataka_xyowakaH",55);
 	("kAraNa_xyowakaH",56);
 	("kArya_xyowakaH",57);
-	("vyaBicAraH",58);
-	("vyaBicAra_xyowakaH",59);
-	("kArya_kAraNa_BAvaH",60);
+	("vyaBicAraH",58); (*This is used in Discourse *)
+	("ZvyaBicAra_xyowakaH",59);
+	("kArya_kAraNa_sambanXaH",60); (*This is used in Discourse *)
 	("prayojakakarwqrahiwaprayojyakarwA",1);
 	("viroXakaH",68);
 	("viroXa_xyowakaH",69);
 	("samAnakAlaH",74);
-	("prayojanam_xyowakaH",75);
+	("prayojana_xyowakaH",75);
 	("sahArWa_xyowakaH",76);
 	("vinArWa_xyowakaH",77);
 	("lyapkarmAXikaraNam",78);
@@ -76,8 +76,7 @@ value relations_encodings = [
 	("apAxAnam_vIpsA",83);
 	("karaNam_vIpsA",84);
 	("uxgAravAcakaH",85);
-	("svAmI",86);
-	("aXyAhqwakriyAkarma",87);
+	("ZsvAmI",86);
 	("afgavikAraH",88);
         ("uwprekRA_xyowakaH",89);
 	("avaXi_prAramBaH",90);
@@ -111,10 +110,10 @@ value relations_encodings = [
 	("gawikarma",201);
 	("BkarwA",202);
 	("Bkarma",203);
-	("iRkarma",214);
+	("ZiRkarma",214);
 	("AvaSyakawA_xyowakaH",206);
 	("pariNAma_xyowakaH",207);
-	("AvaSyakawA_pariNAma_sambanXaH",209);
+	("AvaSyakawA_pariNAma_sambanXaH",209); (* This is used in Discourse *)
 	("samAnAXikaraNam",1009);
 	("upamAnam_rahiwa_upamAna_xyowakaH",1080);
         ("avyayIBAvaH_1",1010);

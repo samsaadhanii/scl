@@ -106,6 +106,9 @@ elsif($dic_name eq "ccs"){
 	   $filename = "$Files_Path/de/ccs/$l.html";
         }
 }
+elsif($dic_name eq "math"){
+	   $filename = "$Files_Path/en/math/math.html";
+        }
 
 if($sword ne ""){
    if (($dic_name ne "amara") && ($filename ne "")){

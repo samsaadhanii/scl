@@ -57,6 +57,7 @@ window.open('/cgi-bin/$GlblVar::SCL_CGI/skt_gen/noun/noun_gen.cgi?encoding='+enc
 	print "<td>MW-dic<input type=\"checkbox\" name=\"mw\" id=\"mw\" value=\"mw\" onclick=\"showcontent(this.value)\"/></td>\n";
 	print "<td>Heritage<input type=\"checkbox\" name=\"heritage\" id=\"heritage\" value=\"heritage\" onclick=\"showcontent(this.value)\"/></td>\n";
 	print "<td>CCS-dic<input type=\"checkbox\" name=\"ccs\" id=\"ccs\" value=\"ccs\" onclick=\"showcontent(this.value)\"/></td>\n";
+	print "<td>Math-dic<input type=\"checkbox\" name=\"math\" id=\"math\" value=\"math\" onclick=\"showcontent(this.value)\"/></td>\n";
         print "</tr></table></form>";
 
 	print "<div id=\"result\"></div>";

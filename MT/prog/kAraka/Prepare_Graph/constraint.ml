@@ -164,8 +164,8 @@ value join_relations a b1 b c d e1 e f u v1 v w x y1 y z =
       else if w=22 && c >= 2000 && c < 2100 then [Relationc (a,b1,b,43,d,e1,e,f)] 
       else []
     else if c >= 2200 && c < 2300 then [Relationc (u,v1,v,14,x,y1,y,z)] 
-    else if c >= 2400 && c < 2500 && w >= 4300 && w < 4400 then [
-            Relationc (u,v1,v,95,x,y1,y,z); Relationc(a,b1,b,43,d,e1,e,f)] 
+    (* else if c >= 2400 && c < 2500 && w >= 4300 && w < 4400 then [
+            Relationc (u,v1,v,95,x,y1,y,z); Relationc(a,b1,b,43,d,e1,e,f)]  -- Not being used *)
     else if c >= 2600 && c < 2700 then [Relationc (u,v1,v,50,x,y1,y,z)] 
     else if c >= 3200 && c < 3300  && w >= 4300 && w < 4400 then [Relationc (a,b1,b,c,d,e1,e,f);Relationc (u,v1,v,93,x,y1,y,z)] 
     else if c >= 2300 && c < 2400 && w >= 4300 && w < 4400 

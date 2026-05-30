@@ -50,6 +50,9 @@ elsif ($dic_name eq "heritage") {
 elsif ($dic_name eq "ccs") {
 	$dic_long_name = "Cappeller's Sanskrit German Dictionary\n";
 }
+elsif ($dic_name eq "math") {
+	$dic_long_name = "Dictionary of Mathematics Technical Terms\n";
+}
 
 $result = &get_dict_entry($dic_name,$word,$outencoding);
 
@@ -75,6 +78,11 @@ if($dic_name eq "heritage") {
 }
 
 if($dic_name eq "ccs") {
+ 	$result =~ s/<span class=\"Deva\">$sword<\/span>/<span class=\"Deva\" style=\"background:yellow;\">$sword<\/span>/g;;
+     print "<div style=\"border:1px solid #2175bc;text-align:justify; margin-top:10px;\"><div id=\"$dic_name\">$dic_long_name</div>$result</div><br/>";
+}
+
+if($dic_name eq "math") {
  	$result =~ s/<span class=\"Deva\">$sword<\/span>/<span class=\"Deva\" style=\"background:yellow;\">$sword<\/span>/g;;
      print "<div style=\"border:1px solid #2175bc;text-align:justify; margin-top:10px;\"><div id=\"$dic_name\">$dic_long_name</div>$result</div><br/>";
 }

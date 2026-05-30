@@ -63,7 +63,7 @@ prayojakakarwqrahiwaprayojyakarwA 1
 viroXakaH 68
 viroXa_xyowakaH 69
 samAnakAlaH 74
-prayojanam_xyowakaH 75
+prayojana_xyowakaH 75
 sahArWa_xyowakaH 76
 vinArWa_xyowakaH 77
 lyapkarmAXikaraNam 78
@@ -75,7 +75,6 @@ apAxAnam_vIpsA 83
 karaNam_vIpsA 84
 uxgAravAcakaH 85
 svAmI 86
-aXyAhqwakriyAkarma 87
 afgavikAraH 88
 uwprekRA_xyowakaH 89
 avaXi_prAramBaH 90
