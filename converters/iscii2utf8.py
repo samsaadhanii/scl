@@ -22,6 +22,7 @@ ISCII_ATR                 = 0x00EF
 ATR_MASK                  = 0x004F
 DANDA                     = 0x0964
 DELTA                     = 0x0080
+DEV_ABBR_SIGN             = 0x0970
 DEV_SVARITA               = 0x0951
 DEV_ANUDATTA              = 0x0952
 DOUBLE_DANDA              = 0x0965

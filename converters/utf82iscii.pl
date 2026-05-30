@@ -85,7 +85,7 @@ my %table = (
 	'2381' => "\xe8",
 	# 2382 - 2383
 	'2384' => "\xa1\xe9",	# om
-	'2385' => '?',		# stress sign udatta
+	'2385' => "\xf0\xb5",		# stress sign udatta
 	'2386' => "\xf0\xb8",	# Ã°Â¸ stress sign anudatta (uses EXT)
 	# 2387 - 2391
 	'2392' => "\xb3\xe9",	# Â³Ã© letter qa 

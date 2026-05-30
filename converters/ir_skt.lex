@@ -45,17 +45,18 @@ KADI_PAI ê
 ISCII_NUM [ñ-ú]
 ROM_WORD [A-Za-z]+
 /* Vedic accents */
+/* Svarita ISCII CODE: 240 181 */
 SVARITA ðµ
+/* Anudatta ISCII CODE: 240 184 */
 ANUDATTA ð¸
+/* ABBR ISCII CODE 240 191 */
+ABBR ð¿
 %option noinput
 %option nounput
 %%
-{SVARITA}				{
-					printf("\\|");
-					}
-{ANUDATTA}				{
-					printf("\\_");
-					}
+{SVARITA}				{ printf("\\|"); }
+{ANUDATTA}				{ printf("\\_"); }
+{ABBR}					{ printf("\\o"); }
 @{ROM_WORD}				{
 					printf("%s",yytext);
 					}

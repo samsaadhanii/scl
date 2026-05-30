@@ -58,6 +58,12 @@ ROM_WORD [A-Za-z0-9]+
 					tmp1='¸';
 					printf("%c%c",tmp,tmp1);
 					}
+\\o					{
+					tmp='ð';
+					tmp1='¿';
+					printf("%c%c",tmp,tmp1);
+					}
+					printf("%c%c",tmp,tmp1);
 @{ROM_WORD}				{printf("%s",yytext+1);}
 @\.					{printf("%s",yytext+1);}
 
