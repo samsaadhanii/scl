@@ -10,7 +10,7 @@ APATH=./DATA/AkAfkRA
 YPATH=./DATA/yogyawA
 
 
-FILES=relations.ml adata.ml morph.ml global_var.ml common.ml $(APATH)/afgavikaara.ml $(APATH)/nirXAraNa.ml kaaraka.ml aXikaraNa.ml viBakwi345.ml kqw.ml viSeRaNa.ml sent.ml samboXana.ml upapaxa.ml default_sambanXaH.ml sma_mA.ml ShaRTI.ml nAma_iwi_Gataka.ml vIpsA_nirXAraNa_kriyAviSeRaNam.ml conj_disj.ml vAkyakarma.ml upamAna.ml sawi_sapwami.ml hi_wsd.ml build_graph_cpd.ml constraint.ml build_graph.ml
+FILES=relations.ml adata.ml morph.ml global_var.ml common.ml $(APATH)/afgavikaara.ml $(APATH)/nirXAraNa.ml kaaraka.ml aXikaraNa.ml viBakwi345.ml kqw.ml viSeRaNa.ml sent.ml samboXana.ml upapaxa.ml default_sambanXaH.ml sma_mA.ml shaRTI.ml nAma_iwi_Gataka.ml vIpsA_nirXAraNa_kriyAviSeRaNam.ml conj_disj.ml vAkyakarma.ml upamAna.ml sawi_sapwami.ml hi_wsd.ml build_graph_cpd.ml constraint.ml build_graph.ml
 
 AFILES=$(APATH)/aaxikarma_dhaatu.ml $(APATH)/shakaadi.ml  $(APATH)/shlish_aadi.ml \
 $(APATH)/gawyarWa_dhaatu.ml $(APATH)/buxXyarWa_dhaatu.ml $(APATH)/prawyavasAnArWa_dhaatu.ml $(APATH)/Sabxakarma_dhaatu.ml $(APATH)/akarmaka_dhaatu.ml \
