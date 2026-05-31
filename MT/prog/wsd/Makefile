@@ -14,7 +14,7 @@ HPATH=../kAraka/Prepare_Graph/Heritage_ML
 
 all: wsd
 
-COMPILE=ocamlopt -package "camlp4r pa_extend.cmo" -I $(ZEN)  -I $(HPATH) -I +camlp4 -c
+#COMPILE=ocamlopt -pp "camlp4r pa_extend.cmo" -I $(ZEN)  -I $(HPATH) -I +camlp4 -c
 COMPILE=ocamlfind ocamlopt -package camlp-streams -package camlp4.extend -syntax camlp4r -I $(ZEN)  -I $(HPATH) -I +camlp4 -c
 
 #COMPILEI=ocamlc -pp "camlp4r pa_extend.cmo" -I $(ZEN)  -I $(HPATH) -I +camlp4 -c

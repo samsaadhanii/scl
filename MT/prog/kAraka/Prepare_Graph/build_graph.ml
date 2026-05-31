@@ -30,7 +30,7 @@ open AXikaraNa;
 open Conj_disj;
 open VAkyakarma;
 open UpamAna;
-open Sawi_sapwami;
+open Sawi_sapwamI;
 open Hi_wsd;
 open ViSeRaNa;
 

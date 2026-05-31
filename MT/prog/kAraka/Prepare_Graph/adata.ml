@@ -1,5 +1,4 @@
 (* Akanksha *)
-
 open Aaxikarma_dhaatu;
 open Shlish_aadi; 
 open Shakaadi; 
@@ -64,6 +63,22 @@ open SaMKyeya;
 
 open Upapada6;
 open WaxXiwAnwa;
+
+
+(* Compounds *)
+
+open SafKyA_vAcI;
+open KAla_vAcI;
+open CawuRpAxa_jAwi_vAcI;
+open VarNavAcI;
+open VyAGrAxi;
+open WaxXiwAnwa_safKyA_vAcI;
+open WaxXiwAnwa_xik_vAcI;
+open Xik_vAcI;
+open NaxI_vAcI;
+open AmUrwa;
+
+
 
 (* various required functions *)
 
@@ -180,6 +195,28 @@ value upapada6_list = build_trie upapada6_list ;
 value non_neuter_kartaa_dhaatu_list = build_trie non_neuter_kartaa_dhaatu_list ;
 
 value amarakosha_jAwi = build_trie amarakoSa_jAwi_list ;
+
+
+(*compounds *) 
+value safKyA_vAcI = build_trie safKyA_vAcI_list ;
+
+value waxXiwAnwa_safKyA_vAcI = build_trie waxXiwAnwa_safKyA_vAcI_list ;
+
+value waxXiwAnwa_xik_vAcI = build_trie waxXiwAnwa_xik_vAcI_list ;
+
+value xik_vAcI = build_trie xik_vAcI_list ;
+
+value kAla_vAcI = build_trie kAla_vAcI_list ;
+
+value cawuRpAxa_jAwi_vAcI = build_trie cawuRpAxa_jAwi_vAcI_list ;
+
+value varNa_vAcI = build_trie varNavAcI_list ;
+
+value vyAGrAxi = build_trie vyAGrAxi_list ;
+
+value naxI_vAcI = build_trie naxI_vAcI_list ;
+
+value amUrwa = build_trie amUrwa_list ;
 
 (* These are different from sarvaadi ga.na of Panini. Here we are looking only for those words for which we seek antecedent Panini's sarvanaamas are morphological in nature *)
 value pronoun3 rt = (rt="yax" || rt="wax" || rt="ewax" || rt="ixam" || rt="sarva" || rt="sarvA" || rt="svIya" || rt="svIyA" || rt="kim" || rt="Bavaw" || rt="uBa"|| rt="uBA" || rt="yAvaw" || rt = "wAvaw" || rt = "axas" || rt="kiFciw" || rt="kiFcana" || rt="Awman" || rt="sva" || rt="svA" || rt="anya" || rt = "anyA" || rt="IxqS" || rt="kIxqS" || rt="kIxqSa" || rt = "IxqSa") 
