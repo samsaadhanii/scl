@@ -23,7 +23,7 @@ value rlAvy_kriyAviSeRaNam_or_aXikaraNam m1 m2 text_type = match m2 with
      | AvywaxXiwa (id1,cid1,mid1,word1,_,_,uwwarapaxa1,taddhita1,_) -> 
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
        if prose_order id1 id2 text_type && taddhita1="vaw" 
-       then [ Relation (id1,cid1,mid1,"kriyAviSeRaNam",id2,cid2,mid2,"7.1",d12)]
+       then [ Relation (id1,cid1,mid1,"kri_vi",id2,cid2,mid2,"7.1",d12)]
        else kv_or_spl_aXi id1 cid1 mid1 id2 cid2 mid2 word1  text_type
      (* | Sup (id1,cid1,mid1,word1,_,_,uwwarapaxa1,_,_,_,_)->
        if  prose_order id1 id2 text_type 
@@ -50,7 +50,7 @@ value rlAvy_kriyAviSeRaNam_or_aXikaraNam m1 m2 text_type = match m2 with
      | AvywaxXiwa (id1,cid1,mid1,word1,_,_,uwwarapaxa1,taddhita1,_) -> 
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
        if prose_order id1 id2 text_type && taddhita1="vaw" 
-       then [ Relation (id1,cid1,mid1,"kriyAviSeRaNam",id2,cid2,mid2,"7.2",d12)]
+       then [ Relation (id1,cid1,mid1,"kri_vi",id2,cid2,mid2,"7.2",d12)]
        else kv_or_spl_aXi id1 cid1 mid1 id2 cid2 mid2 word1  text_type
      (* | Sup (id1,cid1,mid1,word1,_,_,uwwarapaxa1,_,_,_,_)->
        if  prose_order id1 id2 text_type 
@@ -74,7 +74,7 @@ value rlkriyAviSeRaNam_wqwIyA m1 m2 text_type = match m2 with
      | Sup (id1,cid1,mid1,word1,_,_,uwwarapaxa1,_,viBakwiH1,_,_) -> 
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
             if (member_of (word1^" "^string_of_int viBakwiH1) kriyAviSeRaNas) (* yogyawA *) (*&& lifgam1="napuM"*)
-            then [ Relation (id1,cid1,mid1,"kriyAviSeRaNam",id2,cid2,mid2,"8.1",d12)] (* vegena XAvawi *)  (* yogyawA *)
+            then [ Relation (id1,cid1,mid1,"kri_vi",id2,cid2,mid2,"8.1",d12)] (* vegena XAvawi *)  (* yogyawA *)
             else []
      | _ -> []
      ]
@@ -86,7 +86,7 @@ value nirXAraNam id1 cid1 mid1 id2 cid2 mid2 vacanam2 viBakwiH2 text_type rl1 =
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
            if  ((id1=previous id2 && text_type = "Prose") || text_type = "Sloka")
                (* && vacanam2="eka" -- asmAkam viSiRtAH ye wAn niboXa xvija-uwwama *) (* && not(viBakwiH2=8) -- xehaBUwAm vara *)
-           then [ Relation (id1,cid1,mid1,"nirXAraNam",id2,cid2,mid2,rl1,d12)]
+           then [ Relation (id1,cid1,mid1,"nirXA",id2,cid2,mid2,rl1,d12)]
            else []
 ;
 
@@ -126,52 +126,38 @@ value rlnirXAraNam m1 m2 text_type = match m1 with
 
 (* vqkRAw vqkRam kUxawi  -- apAxAnam_vIpsA *)
 (* vanena vanam gacCawi -- karaNam_vIpsA *)
-value supAxi_vIpsa id1 cid1 mid1 id2 cid2 mid2 word1 word2 rt1 rt2 vac1 vac2 gen1 gen2 vib1 vib2 rlid =
+value supAxi_vIpsa id1 cid1 mid1 id2 cid2 mid2 word1 word2 vac1 vac2 gen1 gen2 vib1 vib2 rlid =
    let d = if id1 > id2 then id1-id2 else id2-id1 in
-   if    id1=previous id2 
-   then if  word1=word2
-          && noun_agreement_vibh vac1 vac2 gen1 gen2 vib1 vib2
-        then [ Relation (id1,cid1,mid1,"vIpsA",id2,cid2,mid2,rlid,d)]
-         else if  rt1 = rt2
-              then if  vib1 = 5 && vib2 = 2
-                   then [ Relation (id1,cid1,mid1,"apAxAnam_vIpsA",id2,cid2,mid2,rlid,d)]
-                   else if vib1 = 3 && vib2 = 2
-                        then [ Relation (id1,cid1,mid1,"karaNam_vIpsA",id2,cid2,mid2,rlid,d)]
-                        else []
-              else []
-   else []
+   if  word1=word2 && noun_agreement_vibh vac1 vac2 gen1 gen2 vib1 vib2
+   then [ Relation (id1,cid1,mid1,"vIpsA",id2,cid2,mid2,rlid,d)]
+   else if  vib1 = 5 && vib2 = 2
+        then [ Relation (id1,cid1,mid1,"apA_vIpsA",id2,cid2,mid2,rlid,d)]
+        else if vib1 = 3 && vib2 = 2
+             then [ Relation (id1,cid1,mid1,"karaNa_vIpsA",id2,cid2,mid2,rlid,d)]
+             else []
 ;
 
 value rlvIpsA m1 m2 text_type = match m2 with
-  [ Sup (id2,cid2,mid2,word2,rt2,_,uwwarapaxa2,lifgam2,viBakwiH2,vacanam2,_) -> match m1 with
-     [ Sup (id1,cid1,mid1,word1,rt1,_,uwwarapaxa1,lifgam1,viBakwiH1,vacanam1,_) -> 
-	if not (uwwarapaxa1 = "y") && not (uwwarapaxa2 = "y")
-        then supAxi_vIpsa id1 cid1 mid1 id2 cid2 mid2 word1 word2 rt1 rt2 vacanam1 vacanam2 lifgam1 lifgam2 viBakwiH1 viBakwiH2 "21.1"
-	else []
+  [ Sup (id2,cid2,mid2,word2,rt2,_,uwwarapaxa2,lifgam2,viBakwiH2,vacanam2,_) 
+  | Kqw (id2,cid2,mid2,word2,_,_,_,_,_,_,rt2,_,uwwarapaxa2,lifgam2,viBakwiH2,vacanam2,_) 
+  | WaxXiwa (id2,cid2,mid2,word2,rt2,_,_,uwwarapaxa2,lifgam2,viBakwiH2,vacanam2,_) ->
+     match m1 with
+     [ Sup (id1,cid1,mid1,word1,rt1,_,uwwarapaxa1,lifgam1,viBakwiH1,vacanam1,_) 
+     | Kqw (id1,cid1,mid1,word1,_,_,_,_,_,_,rt1,_,uwwarapaxa1,lifgam1,viBakwiH1,vacanam1,_)
+     | WaxXiwa (id1,cid1,mid1,word1,rt1,_,_,uwwarapaxa1,lifgam1,viBakwiH1,vacanam1,_) ->
+        let cat1 = get_cat m1
+        and cat2 = get_cat m2 in
+        if cat1 = cat2 && not (uwwarapaxa1 = "y") && not (uwwarapaxa2 = "y") && rt1 = rt2 && id1 = previous id2
+        then supAxi_vIpsa id1 cid1 mid1 id2 cid2 mid2 word1 word2 vacanam1 vacanam2 lifgam1 lifgam2 viBakwiH1 viBakwiH2 "21.1"
+        else []
      | _ -> []
      ]
-  | Kqw (id2,cid2,mid2,word2,_,_,_,_,_,_,rt2,_,uwwarapaxa2,lifgam2,viBakwiH2,vacanam2,_) -> match m1 with
-     [ Kqw (id1,cid1,mid1,word1,_,_,_,_,_,_,rt1,_,uwwarapaxa1,lifgam1,viBakwiH1,vacanam1,_) ->
-	if not (uwwarapaxa1 = "y") && not (uwwarapaxa2 = "y")
-        then supAxi_vIpsa id1 cid1 mid1 id2 cid2 mid2 word1 word2 rt1 rt2 vacanam1 vacanam2 lifgam1 lifgam2 viBakwiH1 viBakwiH2 "22.2"
-	else []
-     | _ -> []
-     ]
-  | WaxXiwa (id2,cid2,mid2,word2,rt2,_,_,uwwarapaxa2,lifgam2,viBakwiH2,vacanam2,_) -> match m1 with
-     [ WaxXiwa (id1,cid1,mid1,word1,rt1,_,_,uwwarapaxa1,lifgam1,viBakwiH1,vacanam1,_) ->
-	if not (uwwarapaxa1 = "y") && not (uwwarapaxa2 = "y")
-        then supAxi_vIpsa id1 cid1 mid1 id2 cid2 mid2 word1 word2 rt1 rt2 vacanam1 vacanam2 lifgam1 lifgam2 viBakwiH1 viBakwiH2 "23.3"
-	else []
-     | _ -> []
-     ]
-  | Avy (id2,cid2,mid2,word2,_,_,uwwarapaxa2,_) -> match m1 with
+  | Avy (id2,cid2,mid2,word2,_,_,uwwarapaxa2,_) ->  match m1 with
      [ Avy (id1,cid1,mid1,word1,_,_,uwwarapaxa1,_) ->
-       let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
-       if   id1=previous id2 
-         && word1=word2
-	 && not (uwwarapaxa1 = "y") && not (uwwarapaxa2 = "y")
-       then [ Relation (id1,cid1,mid1,"vIpsA",id2,cid2,mid2,"24.4",d12)]
-       else []
+        let d = if id1 > id2 then id1-id2 else id2-id1 in
+        if not (uwwarapaxa1 = "y") && not (uwwarapaxa2 = "y") && word1 = word2 && id1 = previous id2
+        then [ Relation (id1,cid1,mid1,"vIpsA",id2,cid2,mid2,"21.2",d)]
+        else []
      | _ -> []
      ]
   | _ -> []
@@ -196,10 +182,10 @@ value rl_avaXi m1 m2 text_type = match m2 with
        [ "praBqwi" 
        | "AraBya" 
        | "param"   -> if  (id1 = next id2) 
-                      then [ Relation (id1,cid1,mid1,"avaXi_prAramBaH",id2,cid2,mid2,"36.1a",d12)]
+                      then [ Relation (id1,cid1,mid1,"avaXi_Axi",id2,cid2,mid2,"36.1a",d12)]
                       else []
        | "paryanwam"  -> if  (id1 = next id2) 
-                      then [ Relation (id1,cid1,mid1,"avaXi_anwaH",id2,cid2,mid2,"36.1b",d12)]
+                      then [ Relation (id1,cid1,mid1,"avaXi_anwa",id2,cid2,mid2,"36.1b",d12)]
                       else []
        | _ -> []
        ]

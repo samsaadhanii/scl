@@ -29,26 +29,26 @@ value rl_ca_wif_aBihiwa_karwA_karma m1 m2 m3 text_type = match m2 with
        then match viBakwiH1 with
        [ 1 -> match prayogaH3 with
            [ "karwari" -> match sanAxiH3 with
-                 [ "Nic" -> [ Relation (id1,cid1,mid1,"prayojakakarwA",id3,cid3,mid3,"2.31", d13)]  
+                 [ "Nic" -> [ Relation (id1,cid1,mid1,"prayojaka_karwA",id3,cid3,mid3,"2.31", d13)]  
                       (* aBihiwe praWamA  - xevaxawwaH:prayojakakarwA pATayawi*)
                  | _     -> [ Relation (id1,cid1,mid1,"karwA",id3,cid3,mid3,"2.32", d13)]
                       (* rAmaH sIwA ca gacCawaH; rAmaH sIwA ramA ca gacCanwi *)
                  ]
            |"karmaNi" -> match verb_type rt3 upasarga3 with
-                 [ "xvikarmaka2" -> [ Relation (id1,cid1,mid1,"muKyakarma",id3,cid3,mid3,"2.33", d13)]  
+                 [ "xvikarmaka2" -> [ Relation (id1,cid1,mid1,"muKya_karma",id3,cid3,mid3,"2.33", d13)]  
                          (*praXAne nIhqkqRvah  - ajA:muKyakarma grAmaM nIyawe *)
                  | "xvikarmaka1" -> 
-                       [ Relation (id1,cid1,mid1,"gONakarma",id3,cid3,mid3,"2.34", d13)]  
+                       [ Relation (id1,cid1,mid1,"gONa_karma",id3,cid3,mid3,"2.34", d13)]  
                          (*apraXAne xuhAxinAm.. - gOH xugXaM:gONakarma xuhyawe *)
                  | _ -> match sanAxiH3 with
                     ["Nic" ->  match verb_type rt3 upasarga3 with
                            [ "gawi" -> 
-                                [ Relation (id1,cid1,mid1,"prayojyakarwA",id3,cid3,mid3,"2.35", d13)]  
+                                [ Relation (id1,cid1,mid1,"prayojya_karwA",id3,cid3,mid3,"2.35", d13)]  
                            (*gawibuxXi.. -> karma; aBihiwa   yajFaxawwena xevaxawwaH:prayojyakarwA  grAmaM  gamyawe *)
                            | "buxXi"
                            | "Sabxakarma"
                            | "prawyavasAnArWa"  -> 
-                                   [ Relation (id1,cid1,mid1,"prayojyakarwA",id3,cid3,mid3,"2.36", d13)  
+                                   [ Relation (id1,cid1,mid1,"prayojya_karwA",id3,cid3,mid3,"2.36", d13)  
                                        (*yajFaxawwena  xevaxawwaH PalaM KAxyawe *)
                                    ; Relation (id1,cid1,mid1,"karma",id3,cid3,mid3,"2.37", d13) 
                                    ]
@@ -80,8 +80,8 @@ value rl_ca_wif_aBihiwa_karwA_karma m1 m2 m3 text_type = match m2 with
 value mark_samucchiwa id1 id2 id3 cid1 cid2 cid3 mid1 mid2 mid3 rl1 rl2 =
      let  d13 = if id1 > id3 then id1-id3 else id3-id1 in
       let   d23 = if id2 > id3 then id2-id3 else id3-id2 in
-                 [ Relation (id3,cid3,mid3,"samucciwaH",id1,cid1,mid1,rl1,d13)
-                 ; Relation (id2,cid2,mid2,"samuccaya_xyowakaH",id1,cid1,mid1,rl2,d23)
+                 [ Relation (id3,cid3,mid3,"samu",id1,cid1,mid1,rl1,d13)
+                 ; Relation (id2,cid2,mid2,"samu_xyo",id1,cid1,mid1,rl2,d23)
                  ]
 ;
 
@@ -217,8 +217,8 @@ value mark_sup_anyawara id1 id2 id3 cid1 cid2 cid3 mid1 mid2 mid3 viBakwiH1 viBa
 value mark_anyawara id1 id2 id3 cid1 cid2 cid3 mid1 mid2 mid3 rl1 rl2 =
       let  d23 = if id2 > id3 then id2-id3 else id3-id2 in
        let  d13 = if id1 > id3 then id1-id3 else id3-id1 in
-           [ Relation (id1,cid1,mid1,"anyawaraH",id3,cid3,mid3,rl1,d13)
-           ; Relation (id2,cid2,mid2,"anyawara_xyowakaH",id3,cid3,mid3,rl2,d23)
+           [ Relation (id1,cid1,mid1,"anyawara",id3,cid3,mid3,rl1,d13)
+           ; Relation (id2,cid2,mid2,"anyawara_xyo",id3,cid3,mid3,rl2,d23)
            ] 
 ;
 
@@ -288,7 +288,7 @@ value rl_ca m1 m2 text_type = match m2 with
          match word1 with
             [ "ca" 
             | "vA" -> if id2 = previous id1
-                      then [ Relation (id1,cid1,mid1,"sambanXaH",id2,cid2,mid2,"53.1",d12)]
+                      then [ Relation (id1,cid1,mid1,"saM",id2,cid2,mid2,"53.1",d12)]
                       else []
             | _ -> []
             ]

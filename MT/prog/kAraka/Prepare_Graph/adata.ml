@@ -217,11 +217,3 @@ value vyAGrAxi = build_trie vyAGrAxi_list ;
 value naxI_vAcI = build_trie naxI_vAcI_list ;
 
 value amUrwa = build_trie amUrwa_list ;
-
-(* These are different from sarvaadi ga.na of Panini. Here we are looking only for those words for which we seek antecedent Panini's sarvanaamas are morphological in nature *)
-value pronoun3 rt = (rt="yax" || rt="wax" || rt="ewax" || rt="ixam" || rt="sarva" || rt="sarvA" || rt="svIya" || rt="svIyA" || rt="kim" || rt="Bavaw" || rt="uBa"|| rt="uBA" || rt="yAvaw" || rt = "wAvaw" || rt = "axas" || rt="kiFciw" || rt="kiFcana" || rt="Awman" || rt="sva" || rt="svA" || rt="anya" || rt = "anyA" || rt="IxqS" || rt="kIxqS" || rt="kIxqSa" || rt = "IxqSa") 
-;
-value pronominal12 rt = (rt="yuRmax" || rt="asmax")
-;
-value pronominal123 rt = pronominal12 rt || pronoun3 rt
-;

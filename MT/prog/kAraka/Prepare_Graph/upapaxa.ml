@@ -16,37 +16,38 @@ value rlupapaxa m1 m2 text_type = match m2 with
       | Kqw (id1,cid1,mid1,_,_,_,_,_,_,_,rt1,_,_,_,viBakwiH1,_,_)
       | WaxXiwa (id1,cid1,mid1,_,rt1,_,_,_,_,viBakwiH1,_,_) ->
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
-         if   (id1=previous id2 || id1 = id2-2 (* to handle 'rAmeNa ca saha *)
-               || (id1=next id2  && text_type = "Sloka") || ((word2="hA" || word2 = "Xik") && id1=next id2) || ((word2="alam") && id1=next id2) || (id1= id2+2  && text_type = "Sloka")) (* namaH Bagavawe vAsuxevAya -- id1 = id2+2 *)
+         if   (   id1=previous id2 || (id1=next id2  && text_type = "Sloka") 
+               || id1 = id2-2 (* to handle 'rAmeNa ca saha *)
+               || (id1= id2+2  && text_type = "Sloka") (* namaH Bagavawe vAsuxevAya -- id1 = id2+2 *)
+               || ((word2="hA" || word2 = "Xik") && id1=next id2) 
+               || ((word2="alam") && id1=next id2)) 
          then match viBakwiH1 with
          [ 2  -> match word2 with
                  [ "aBiwaH" | "pariwaH" | "nikaRA" | "samayA" 
-                   | "uparyupari" | "aXoXaH" | "aXoZXaH" | "aXyaXi" | "uBayawaH" 
-                   | "sarvawaH" 
-		   | "anwarA" | "uwwareNa" | "xakRiNena" | "aXareNa" -> 
+                 | "uparyupari" | "aXoXaH" | "aXoZXaH" | "aXyaXi" | "uBayawaH" 
+                 | "sarvawaH" 
+		 | "anwarA" | "uwwareNa" | "xakRiNena" | "aXareNa" -> 
                     [Relation (id1,cid1,mid1,"upa_apekRA",id2,cid2,mid2,"25.1",d12)]
                  | "hA" | "Xik" ->
-                    [Relation (id2,cid2,mid2,"uxgAravAcakaH",id1,cid1,mid1,"25.2",d12)]
+                    [Relation (id2,cid2,mid2,"uxgAra",id1,cid1,mid1,"25.2",d12)]
                  | "prawi" ->
-                    [ (*Relation (id1,cid1,mid1,"upa_ABimuKyam",id2,cid2,mid2,"25.3",d12) -- Not being used
-                    ; *)Relation (id1,cid1,mid1,"karmapravacanIya_anviwam",id2,cid2,mid2,"25.4",d12)
-                    ]
+                    [ Relation (id1,cid1,mid1,"karma_pra_anviwam",id2,cid2,mid2,"25.4",d12) ]
                  | "aBi" | "anu" (* |"api"   Discuss with Sanjeev *) ->
-                    [Relation (id1,cid1,mid1,"karmapravacanIya_anviwam",id2,cid2,mid2,"25.5",d12)]
+                    [Relation (id1,cid1,mid1,"karma_pra_anviwam",id2,cid2,mid2,"25.5",d12)]
 		 | "praxakRiNam" -> 
-                    [Relation (id1,cid1,mid1,"sanxarBa_binxuH",id2,cid2,mid2,"25.6",d12)]
+                    [Relation (id1,cid1,mid1,"sanxarBa",id2,cid2,mid2,"25.6",d12)]
                  | _ -> []
                  ]
          | 3  -> match rt2 with
                  [ "samAna" | "samAnA" | "saxqkRa" | 
                    "saxqkRA" | "saxqkRI" | "saxqSA" | "saxqSa" | "saxqS" | 
                    "wulya" | "wulyA" | (* "yukwa" | *)  "samA" ->  (* yukwa cannot have wulanA binxu *)
-                    [Relation (id2,cid2,mid2,"upamAna_xyowakaH",id1,cid1,mid1,"25.7",d12)]
+                    [Relation (id2,cid2,mid2,"upamAna_xyo",id1,cid1,mid1,"25.7",d12)]
                  | "uwsuka" | "prasiwa" | "uwsukA" | "prasiwA" ->
-                    [Relation (id1,cid1,mid1,"viRayAXikaraNam",id2,cid2,mid2,"25.8",d12)]
+                    [Relation (id1,cid1,mid1,"viRaya_aXi",id2,cid2,mid2,"25.8",d12)]
                  | _ -> match word2 with
                     [ "alam" ->
-                      [Relation (id2,cid2,mid2,"prawiReXaH",id1,cid1,mid1,"25.9",d12)]
+                      [Relation (id2,cid2,mid2,"prawiReXa",id1,cid1,mid1,"25.9",d12)]
                     | _ -> []
                     ]
                  ]
@@ -75,15 +76,15 @@ value rlupapaxa m1 m2 text_type = match m2 with
                    "xUrAw" | "xUrA" | "xUre" ->
                     [Relation (id1,cid1,mid1,"upa_apekRA",id2,cid2,mid2,"25.13",d12)]
                  | "apa" | "pari" | "prawi" ->
-                    [Relation (id1,cid1,mid1,"karmapravacanIya_anviwam",id2,cid2,mid2,"25.14",d12)]
+                    [Relation (id1,cid1,mid1,"karma_pra_anviwam",id2,cid2,mid2,"25.14",d12)]
                  | "A" ->
-                    [Relation (id1,cid1,mid1,"karmapravacanIya_anviwam",id2,cid2,mid2,"25.15",d12)]
+                    [Relation (id1,cid1,mid1,"karma_pra_anviwam",id2,cid2,mid2,"25.15",d12)]
                  | "AraBya" | "praBqwiH" ->
-                       [Relation (id1,cid1,mid1,"upa_AramBa_binxuH",id2,cid2,mid2,"25.16",d12)]
+                       [Relation (id1,cid1,mid1,"upa_AramBa",id2,cid2,mid2,"25.16",d12)]
                  | _ -> match rt2 with
                      [  "Binna" | "BinnA" | "iwara" | "iwarA" | "pUrvA" | "pUrva" | "vilakRaNa" | 
                        "vilakRaNA"| "anya" | "anyA" | "anyawra" ->
-                       [Relation (id1,cid1,mid1,"wulanA_binxuH",id2,cid2,mid2,"25.17",d12)]
+                       [Relation (id1,cid1,mid1,"wulanA",id2,cid2,mid2,"25.17",d12)]
                      | _ -> []
                      ]
                  ]
@@ -110,18 +111,18 @@ value rlupapaxa m1 m2 text_type = match m2 with
         (* | "kqwe" *) ->
                     [Relation (id1,cid1,mid1,"prayojanam1",id2,cid2,mid2,"25.19",d12)]
                  | "xakRiNe" | "uwware" ->
-                         [Relation (id1,cid1,mid1,"aXikaraNam",id2,cid2,mid2,"25.20",d12)]
+                         [Relation (id1,cid1,mid1,"aXikaraNa",id2,cid2,mid2,"25.20",d12)]
                  | _ -> match rt2 with
                    [ "samAna" | "samAnA" | "saxqkRa" | "saxqkRI" |
                      "saxqS" |  "saxqkRA" |  "saxqSA" | "saxqSa" |
                      "wulya" | "wulyA" | (*"yukwa" |*) "samA"| "sama"  -> (*yukwa has an expectancy of 3/karaNa *)
-                       [Relation (id1,cid1,mid1,"wulanA_binxuH",id2,cid2,mid2,"25.21",d12)]
+                       [Relation (id1,cid1,mid1,"wulanA",id2,cid2,mid2,"25.21",d12)]
                    | "prasUwA" | "prasUwa" ->
-                       [Relation (id1,cid1,mid1,"nirXAraNam",id2,cid2,mid2,"25.22",d12)]
+                       [Relation (id1,cid1,mid1,"nirXA",id2,cid2,mid2,"25.22",d12)]
                    | "aXipawi" | "ISvara"  | "prawiBU" | "sAkRin" | "sAkRiNI" |
                      "xAyAxa" | "svAmin" | "svAminI" ->
                        (*[Relation (id1,cid1,mid1,"aBexaH",id2,cid2,mid2,"25.23",d12)] -- How can it be aBexaH? Should it not be sva-svAmIBAva/RaRTIsambanXaH?  25th Aug 2023 *)
-                       [Relation (id1,cid1,mid1,"RaRTIsambanXaH",id2,cid2,mid2,"25.23",d12)]
+                       [Relation (id1,cid1,mid1,"RaRTI_saM",id2,cid2,mid2,"25.23",d12)]
                    | _ -> []
                    ] 
                  ]
@@ -130,21 +131,21 @@ value rlupapaxa m1 m2 text_type = match m2 with
                 "Ayukwa" | "AyukwA" | (*"yukwa" | *) "kuSala" |"kuSAlA" | "lagna"|
                 "lagnA" | "nipuNA" | "nipuNa" | "prasiwa" | "prasiwA" | "kOSala" | "pravqwwa" |
                 "uwsuka" | "uwsukA" | "sAXu" | "sAXvI" | "asAXvI" | "asAXu" ->
-                       [Relation (id1,cid1,mid1,"viRayAXikaraNam",id2,cid2,mid2,"25.24",d12)]
+                       [Relation (id1,cid1,mid1,"viRaya_aXi",id2,cid2,mid2,"25.24",d12)]
                        (* why should yukwa have viRayAXikaraNa ? any example? *)
                | "prawiBU" |"sAkRiNI" | "sAkRin" | "svAmin" | "svAminI" | 
                   "ISvara" | "xAyAxa" | "aXipawi" ->
                        [Relation (id1,cid1,mid1,"aBexaH",id2,cid2,mid2,"25.25",d12)]
                | "prasUwA" | "prasUwa"  ->
-                       [Relation (id1,cid1,mid1,"nirXAraNam",id2,cid2,mid2,"25.26",d12)]
+                       [Relation (id1,cid1,mid1,"nirXA",id2,cid2,mid2,"25.26",d12)]
                | _ -> match word2 with
                      [ "aXi" | "upa" ->
-                         [Relation (id1,cid1,mid1,"karmapravacanIya_anviwam",id2,cid2,mid2,"25.27",d12)]
+                         [Relation (id1,cid1,mid1,"karma_pra_anviwam",id2,cid2,mid2,"25.27",d12)]
                       | _ -> [] 
                       ]
                ]
         | 8 -> if rt2="namaH" 
-               then [Relation (id1,cid1,mid1,"samboXyaH",id2,cid2,mid2,"25.28",d12)]
+               then [Relation (id1,cid1,mid1,"samboXya",id2,cid2,mid2,"25.28",d12)]
                else []
         | _ -> []
         ]
@@ -152,19 +153,12 @@ value rlupapaxa m1 m2 text_type = match m2 with
      | AvywaxXiwa (id1,cid1,mid1,word1,rt1,_,_,waxXiwaprawyayaH1,_) ->
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
             if waxXiwaprawyayaH1 = "wasil" && rt2 = "prawi" 
-            then  [Relation (id1,cid1,mid1,"karmapravacanIya_anviwam",id2,cid2,mid2,"25.29",d12)]
+            then  [Relation (id1,cid1,mid1,"karma_pra_anviwam",id2,cid2,mid2,"25.29",d12)]
             else []
      | Avy (id1,cid1,mid1,word1,rt1,_,_,_) -> 
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
-                if word1="axya"
-                then match word2 with
-                 ["AraBya" | "praBqwiH" ->
-                     [Relation (id1,cid1,mid1,"upa_AramBa_binxuH",id2,cid2,mid2,"25.30",d12)]
-                 | _ -> []
-                 ]
-                 else 
 	          if word2 = "SarmaNe" && (rt1="awra" || rt1 = "wawra" || rt1 = "parawra")
-                  then [Relation (id1,cid1,mid1,"kAlAXikaraNam",id2,cid2,mid2,"25.30a",d12)]
+                  then [Relation (id1,cid1,mid1,"kAla_aXi",id2,cid2,mid2,"25.30a",d12)]
 		  else []
      | _ -> []
      ]
@@ -256,12 +250,12 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
              | Avykqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_) ->
                let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
                if (id1 < id2) && no_boundary_crossing_with_iwi id1 id2 text_type
-               then [ Relation (id1,cid1,mid1,"karmapravacanIyaH",id2,cid2,mid2,"26.4a",d12)] 
+               then [ Relation (id1,cid1,mid1,"karma_pra",id2,cid2,mid2,"26.4a",d12)] 
                else []
              | Avy (id2,cid2,mid2,word2,rt2,_,_,_)  ->
                    let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
                    if (word2 = "aswu") && (id1=previous id2)
-                   then [ Relation (id1,cid1,mid1,"sambanXaH",id2,cid2,mid2,"26.4b",d12)] 
+                   then [ Relation (id1,cid1,mid1,"saM",id2,cid2,mid2,"26.4b",d12)] 
 		   else []
              |_ -> []
              ]
@@ -406,7 +400,7 @@ value rl_wulanA_binxu m2 m3 text_type viB1 id1 cid1 mid1 rl1 =
               let d21 = if id2 > id1 then id2-id1 else id1-id2 in
               if viB3=5 && viB1=viB2
               && no_boundary_crossing_with_iwi id2 id3 text_type
-              then [ Relation (id3,cid3,mid3,"wulanA_binxuH",id1,cid1,mid1,rl1,d21)]
+              then [ Relation (id3,cid3,mid3,"wulanA",id1,cid1,mid1,rl1,d21)]
               else []
            |_ -> []
            ]
@@ -444,7 +438,7 @@ value rl_wulanA m1 m2 m3 text_type = match m1 with
                   | Sup(id2,cid2,mid2,_,_,_,_,_,viB2,_,_) ->
                         let d12 = if id1 > id2 then id1-id2 else id2-id1 in
                         if viB2=5 
-                        then [ Relation (id2,cid2,mid2,"wulanA_binxuH",id1,cid1,mid1,"56.3",d12)]
+                        then [ Relation (id2,cid2,mid2,"wulanA",id1,cid1,mid1,"56.3",d12)]
                         else []
                   |_ -> []
                   ]
@@ -477,27 +471,27 @@ value rl_saha_vinA_kqwe m1 m2 m3 text_type = match m3 with
               
        let  d13 = if id1 > id3 then id1-id3 else id3-id1 in
              match viBakwiH1 with
-             [ 3 -> if rt3="gam1" && upasarga3 = "sam_Af" then [ Relation (id1,cid1,mid1,"sahArWaH",id3,cid3,mid3,"40.1a",d13)]
-                    else if rt3="gam1" && upasarga3 = "sam" then [ Relation (id1,cid1,mid1,"sahArWaH",id3,cid3,mid3,"40.1b",d13)]
-                    else if rt3="yuj2" && word3 = "yukwaH" then [ Relation (id1,cid1,mid1,"sahArWaH",id3,cid3,mid3,"40.1c",d13)]
+             [ 3 -> if rt3="gam1" && upasarga3 = "sam_Af" then [ Relation (id1,cid1,mid1,"sahArWa",id3,cid3,mid3,"40.1a",d13)]
+                    else if rt3="gam1" && upasarga3 = "sam" then [ Relation (id1,cid1,mid1,"sahArWa",id3,cid3,mid3,"40.1b",d13)]
+                    else if rt3="yuj2" && word3 = "yukwaH" then [ Relation (id1,cid1,mid1,"sahArWa",id3,cid3,mid3,"40.1c",d13)]
                     else match m2 with
                 [ Avy (id2,cid2,mid2,word2,_,_,_,_) -> 
                    let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
                     match word2 with
                     [ "saha" | "sAkam" | "sArXam" | "samam"  ->
-                         [ Relation (id1,cid1,mid1,"sahArWaH",id3,cid3,mid3,"40.2a",d13)
-                         ; Relation (id2,cid2,mid2,"sahArWa_xyowakaH",id1,cid1,mid1,"40.2b",d12)]
+                         [ Relation (id1,cid1,mid1,"sahArWa",id3,cid3,mid3,"40.2a",d13)
+                         ; Relation (id2,cid2,mid2,"sahArWa_xyo",id1,cid1,mid1,"40.2b",d12)]
 		    | "anwareNa" | "vinA" | "nAnA" | "pqWak" | "qwe" ->
-                         [ Relation (id1,cid1,mid1,"vinArWaH",id3,cid3,mid3,"40.2c",d13)
-                         ; Relation (id2,cid2,mid2,"vinArWa_xyowakaH",id1,cid1,mid1,"40.2d",d12)]
+                         [ Relation (id1,cid1,mid1,"vinArWa",id3,cid3,mid3,"40.2c",d13)
+                         ; Relation (id2,cid2,mid2,"vinArWa_xyo",id1,cid1,mid1,"40.2d",d12)]
 
                     | _ -> []
                     ]
                  | Sup (id2,cid2,mid2,word2,rt2,_,_,_,viBakwiH2,_,_) ->
                    let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
                      if (word2 = "sahiwaH") then
-                         [ Relation (id1,cid1,mid1,"sahArWaH",id3,cid3,mid3,"40.3a",d13)
-                         ; Relation (id2,cid2,mid2,"sahArWa_xyowakaH",id1,cid1,mid1,"40.3b",d12)]
+                         [ Relation (id1,cid1,mid1,"sahArWa",id3,cid3,mid3,"40.3a",d13)
+                         ; Relation (id2,cid2,mid2,"sahArWa_xyo",id1,cid1,mid1,"40.3b",d12)]
 		     else []
                  | _ -> []
                 ]
@@ -506,8 +500,8 @@ value rl_saha_vinA_kqwe m1 m2 m3 text_type = match m3 with
                     let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
                            match word2 with
 		    [ "miWaH" ->
-                         [ Relation (id1,cid1,mid1,"sahArWaH",id3,cid3,mid3,"40.4",d13)
-                         ; Relation (id2,cid2,mid2,"sahArWa_xyowakaH",id1,cid1,mid1,"40.5",d12)]
+                         [ Relation (id1,cid1,mid1,"sahArWa",id3,cid3,mid3,"40.4",d13)
+                         ; Relation (id2,cid2,mid2,"sahArWa_xyo",id1,cid1,mid1,"40.5",d12)]
                     | _ -> []
                     ]
                    | _ -> []
@@ -517,8 +511,8 @@ value rl_saha_vinA_kqwe m1 m2 m3 text_type = match m3 with
                     let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
                            match word2 with
 		    [ "qwe" ->
-                         [ Relation (id1,cid1,mid1,"vinArWaH",id3,cid3,mid3,"40.6",d13)
-                         ; Relation (id2,cid2,mid2,"vinArWa_xyowakaH",id1,cid1,mid1,"40.7",d12)]
+                         [ Relation (id1,cid1,mid1,"vinArWa",id3,cid3,mid3,"40.6",d13)
+                         ; Relation (id2,cid2,mid2,"vinArWa_xyo",id1,cid1,mid1,"40.7",d12)]
                     | _ -> []
                     ]
                    | _ -> []
@@ -529,8 +523,8 @@ value rl_saha_vinA_kqwe m1 m2 m3 text_type = match m3 with
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
               match word2 with
                       ["kqwe" ->
-                         [ Relation (id1,cid1,mid1,"prayojanam",id3,cid3,mid3,"40.8",d13)
-                         ; Relation (id2,cid2,mid2,"prayojana_xyowakaH",id1,cid1,mid1,"40.9",d12)]
+                         [ Relation (id1,cid1,mid1,"prayojana",id3,cid3,mid3,"40.8",d13)
+                         ; Relation (id2,cid2,mid2,"prayojana_xyo",id1,cid1,mid1,"40.9",d12)]
                       | _ -> []
                       ]
                     | _ -> []

@@ -2,6 +2,7 @@ value apAxAna_XAwu_list = [
 "aBi_jan2";
 "Af_gam1";
 "Af_NI1";
+"Af_hq1";
 "al1";
 "anu_xqS1";
 "zAp1"; (* How can Ap1 be in this list? - Ap1 = to reach / prApwa karanA ?  *)

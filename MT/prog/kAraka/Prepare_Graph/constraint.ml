@@ -712,6 +712,7 @@ value rec print_acc=fun
 ]
 ;
 
+(* l: length; c = cost *)
 value rec print_acc_len=fun
 [[] -> ()
 |[(l,c,a)::xs] -> do { 
@@ -1437,7 +1438,7 @@ value rec construct_dags init final wrdb dags text_type max_soln rel=
    then 
         let mid=(init + final) /2 in
          let dag1=construct_dags init mid wrdb dags text_type max_soln rel in
-          let dag2=construct_dags (mid+1) final wrdb dags text_type max_soln rel in  (* do {
+          let dag2=construct_dags (mid+1) final wrdb dags text_type max_soln rel in (* do {
              print_int init; print_string " "
             ;print_int mid; print_string " "
             ;print_int final; print_newline()
@@ -1493,7 +1494,7 @@ value rec construct_dags init final wrdb dags text_type max_soln rel=
             ; print_newline() 
             ; *)
             dag9
-               (*} } } }*)
+              (*} } } }*)
    else 
         if init=0 
         then (*do {

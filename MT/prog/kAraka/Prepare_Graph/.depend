@@ -141,16 +141,14 @@ kqw.cmo : pada_structure.cmi global_var.cmo common.cmo adata.cmo
 kqw.cmx : pada_structure.cmi global_var.cmx common.cmx adata.cmx
 viSeRaNa.cmo : pada_structure.cmi global_var.cmo common.cmo adata.cmo
 viSeRaNa.cmx : pada_structure.cmi global_var.cmx common.cmx adata.cmx
-sent.cmo : pada_structure.cmi global_var.cmo common.cmo adata.cmo
-sent.cmx : pada_structure.cmi global_var.cmx common.cmx adata.cmx
 samboXana.cmo : pada_structure.cmi common.cmo adata.cmo
 samboXana.cmx : pada_structure.cmi common.cmx adata.cmx
 upapaxa.cmo : pada_structure.cmi common.cmo adata.cmo
 upapaxa.cmx : pada_structure.cmi common.cmx adata.cmx
-default_sambanXaH.cmo : pada_structure.cmi common.cmo adata.cmo
-default_sambanXaH.cmx : pada_structure.cmi common.cmx adata.cmx
-sma_mA.cmo : pada_structure.cmi global_var.cmo common.cmo adata.cmo
-sma_mA.cmx : pada_structure.cmi global_var.cmx common.cmx adata.cmx
+default_sambanXaH.cmo : pada_structure.cmi global_var.cmo common.cmo adata.cmo
+default_sambanXaH.cmx : pada_structure.cmi global_var.cmx common.cmx adata.cmx
+sma_mA_sawi.cmo : pada_structure.cmi global_var.cmo common.cmo adata.cmo
+sma_mA_sawi.cmx : pada_structure.cmi global_var.cmx common.cmx adata.cmx
 shaRTI.cmo : pada_structure.cmi common.cmo adata.cmo
 shaRTI.cmx : pada_structure.cmi common.cmx adata.cmx
 nAma_iwi_Gataka.cmo : pada_structure.cmi global_var.cmo common.cmo adata.cmo
@@ -171,8 +169,8 @@ build_graph_cpd.cmo : relations.cmo pada_structure.cmi morph.cmo common.cmo adat
 build_graph_cpd.cmx : relations.cmx pada_structure.cmi morph.cmx common.cmx adata.cmx
 constraint.cmo : pada_structure.cmi bank_lexer.cmo
 constraint.cmx : pada_structure.cmi bank_lexer.cmx
-build_graph.cmo : viSeRaNa.cmo viBakwi345.cmo vIpsA_nirXAraNa_kriyAviSeRaNam.cmo vAkyakarma.cmo upapaxa.cmo upamAna.cmo sma_mA.cmo shaRTI.cmo sent.cmo sawi_sapwamI.cmo samboXana.cmo relations.cmo pada_structure.cmi nAma_iwi_Gataka.cmo morph.cmo kqw.cmo kaaraka.cmo hi_wsd.cmo global_var.cmo default_sambanXaH.cmo constraint.cmo conj_disj.cmo common.cmo build_graph_cpd.cmo adata.cmo aXikaraNa.cmo
-build_graph.cmx : viSeRaNa.cmx viBakwi345.cmx vIpsA_nirXAraNa_kriyAviSeRaNam.cmx vAkyakarma.cmx upapaxa.cmx upamAna.cmx sma_mA.cmx shaRTI.cmx sent.cmx sawi_sapwamI.cmx samboXana.cmx relations.cmx pada_structure.cmi nAma_iwi_Gataka.cmx morph.cmx kqw.cmx kaaraka.cmx hi_wsd.cmx global_var.cmx default_sambanXaH.cmx constraint.cmx conj_disj.cmx common.cmx build_graph_cpd.cmx adata.cmx aXikaraNa.cmx
+build_graph.cmo : viSeRaNa.cmo viBakwi345.cmo vIpsA_nirXAraNa_kriyAviSeRaNam.cmo vAkyakarma.cmo upapaxa.cmo upamAna.cmo sma_mA_sawi.cmo shaRTI.cmo sawi_sapwamI.cmo samboXana.cmo relations.cmo pada_structure.cmi nAma_iwi_Gataka.cmo morph.cmo kqw.cmo kaaraka.cmo hi_wsd.cmo global_var.cmo default_sambanXaH.cmo constraint.cmo conj_disj.cmo common.cmo build_graph_cpd.cmo adata.cmo aXikaraNa.cmo
+build_graph.cmx : viSeRaNa.cmx viBakwi345.cmx vIpsA_nirXAraNa_kriyAviSeRaNam.cmx vAkyakarma.cmx upapaxa.cmx upamAna.cmx sma_mA_sawi.cmx shaRTI.cmx sawi_sapwamI.cmx samboXana.cmx relations.cmx pada_structure.cmi nAma_iwi_Gataka.cmx morph.cmx kqw.cmx kaaraka.cmx hi_wsd.cmx global_var.cmx default_sambanXaH.cmx constraint.cmx conj_disj.cmx common.cmx build_graph_cpd.cmx adata.cmx aXikaraNa.cmx
 ./Heritage_ML/min_lexer.cmo :
 ./Heritage_ML/min_lexer.cmx :
 ./Heritage_ML/transduction.cmo :

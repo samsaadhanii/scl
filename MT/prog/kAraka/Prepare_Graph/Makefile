@@ -10,7 +10,7 @@ APATH=./DATA/AkAfkRA
 YPATH=./DATA/yogyawA
 
 
-FILES=relations.ml adata.ml morph.ml global_var.ml common.ml $(APATH)/afgavikaara.ml $(APATH)/nirXAraNa.ml kaaraka.ml aXikaraNa.ml viBakwi345.ml kqw.ml viSeRaNa.ml sent.ml samboXana.ml upapaxa.ml default_sambanXaH.ml sma_mA.ml shaRTI.ml nAma_iwi_Gataka.ml vIpsA_nirXAraNa_kriyAviSeRaNam.ml conj_disj.ml vAkyakarma.ml upamAna.ml sawi_sapwamI.ml hi_wsd.ml build_graph_cpd.ml constraint.ml build_graph.ml
+FILES=relations.ml adata.ml morph.ml global_var.ml common.ml $(APATH)/afgavikaara.ml $(APATH)/nirXAraNa.ml kaaraka.ml aXikaraNa.ml viBakwi345.ml kqw.ml viSeRaNa.ml samboXana.ml upapaxa.ml default_sambanXaH.ml sma_mA_sawi.ml shaRTI.ml nAma_iwi_Gataka.ml vIpsA_nirXAraNa_kriyAviSeRaNam.ml conj_disj.ml vAkyakarma.ml upamAna.ml sawi_sapwamI.ml hi_wsd.ml build_graph_cpd.ml constraint.ml build_graph.ml
 
 AFILES=$(APATH)/aaxikarma_dhaatu.ml $(APATH)/shakaadi.ml  $(APATH)/shlish_aadi.ml \
 $(APATH)/gawyarWa_dhaatu.ml $(APATH)/buxXyarWa_dhaatu.ml $(APATH)/prawyavasAnArWa_dhaatu.ml $(APATH)/Sabxakarma_dhaatu.ml $(APATH)/akarmaka_dhaatu.ml \
@@ -68,8 +68,8 @@ CORE=$(ZEN)/list2.cmx $(ZEN)/ascii.cmx $(ZEN)/gen.cmx $(ZEN)/trie.cmx $(ZEN)/zen
 
 EXECS=$(HPATH)/min_lexer.cmx $(HPATH)/transduction.cmx 
 
-build_graph: pada_structure.cmi bank_lexer.cmx  $(EXECS) global_var.cmx $(APATH)/afgavikaara.cmx $(APATH)/nirXAraNa.cmx morph.cmx constraint.cmx relations.cmx $(AEXECS)  $(YEXECS) adata.cmx common.cmx kaaraka.cmx aXikaraNa.cmx viBakwi345.cmx kqw.cmx sent.cmx samboXana.cmx upapaxa.cmx default_sambanXaH.cmx sma_mA.cmx shaRTI.cmx nAma_iwi_Gataka.cmx vIpsA_nirXAraNa_kriyAviSeRaNam.cmx conj_disj.cmx vAkyakarma.cmx upamAna.cmx sawi_sapwamI.cmx hi_wsd.cmx viSeRaNa.cmx build_graph_cpd.cmx build_graph.cmx 
-	$(LINK) unix.cmxa bank_lexer.cmx $(CORE) $(EXECS) global_var.cmx $(APATH)/afgavikaara.cmx $(APATH)/nirXAraNa.cmx morph.cmx constraint.cmx relations.cmx $(AEXECS) $(YEXECS) adata.cmx common.cmx kaaraka.cmx aXikaraNa.cmx viBakwi345.cmx kqw.cmx sent.cmx samboXana.cmx upapaxa.cmx default_sambanXaH.cmx sma_mA.cmx shaRTI.cmx nAma_iwi_Gataka.cmx vIpsA_nirXAraNa_kriyAviSeRaNam.cmx conj_disj.cmx vAkyakarma.cmx upamAna.cmx sawi_sapwamI.cmx hi_wsd.cmx viSeRaNa.cmx build_graph_cpd.cmx build_graph.cmx -o build_graph
+build_graph: pada_structure.cmi bank_lexer.cmx  $(EXECS) global_var.cmx $(APATH)/afgavikaara.cmx $(APATH)/nirXAraNa.cmx morph.cmx constraint.cmx relations.cmx $(AEXECS)  $(YEXECS) adata.cmx common.cmx kaaraka.cmx aXikaraNa.cmx viBakwi345.cmx kqw.cmx samboXana.cmx upapaxa.cmx default_sambanXaH.cmx sma_mA_sawi.cmx shaRTI.cmx nAma_iwi_Gataka.cmx vIpsA_nirXAraNa_kriyAviSeRaNam.cmx conj_disj.cmx vAkyakarma.cmx upamAna.cmx sawi_sapwamI.cmx hi_wsd.cmx viSeRaNa.cmx build_graph_cpd.cmx build_graph.cmx 
+	$(LINK) unix.cmxa bank_lexer.cmx $(CORE) $(EXECS) global_var.cmx $(APATH)/afgavikaara.cmx $(APATH)/nirXAraNa.cmx morph.cmx constraint.cmx relations.cmx $(AEXECS) $(YEXECS) adata.cmx common.cmx kaaraka.cmx aXikaraNa.cmx viBakwi345.cmx kqw.cmx samboXana.cmx upapaxa.cmx default_sambanXaH.cmx sma_mA_sawi.cmx shaRTI.cmx nAma_iwi_Gataka.cmx vIpsA_nirXAraNa_kriyAviSeRaNam.cmx conj_disj.cmx vAkyakarma.cmx upamAna.cmx sawi_sapwamI.cmx hi_wsd.cmx viSeRaNa.cmx build_graph_cpd.cmx build_graph.cmx -o build_graph
 	#cd $(APATH); ./extract.sh
 
 debug: ascii.cmo trie.cmo debug.ml

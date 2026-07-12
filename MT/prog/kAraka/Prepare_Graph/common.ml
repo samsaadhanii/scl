@@ -3,6 +3,16 @@ open Global_var;
 open Adata;
 open Afgavikaara;
 
+(* These are different from sarvaadi ga.na of Panini. Here we are looking only for those words for which we seek antecedent Panini's sarvanaamas are morphological in nature *)
+value pronoun3 rt = (rt="yax" || rt="wax" || rt="ewax" || rt="ixam" || rt="sarva" || rt="sarvA" || rt="svIya" || rt="svIyA" || rt="kim" || rt="Bavaw" || rt="uBa"|| rt="uBA" || rt="yAvaw" || rt = "wAvaw" || rt = "axas" || rt="kiFciw" || rt="kiFcana" || rt="Awman" || rt="sva" || rt="svA" || rt="anya" || rt = "anyA" || rt="IxqS" || rt="kIxqS" || rt="kIxqSa" || rt = "IxqSa") 
+;
+
+value pronominal12 rt = (rt="yuRmax" || rt="asmax")
+;
+
+value pronominal123 rt = pronominal12 rt || pronoun3 rt
+;
+
 value member_of word trie =
        Trie.mem (Transduction.code_raw_WX word) trie
 ;
@@ -72,21 +82,8 @@ value no_boundary_crossing1 id1 id2 =
         no_boundary_crossing2 id1 id2 wasmAw_pos.val
     &&  no_boundary_crossing2 id1 id2 yawaH_pos.val
     &&  (no_boundary_crossing2 id1 id2 wawra_pos.val || yawra_pos.val = 50)
-    &&  no_boundary_crossing2 id1 id2 waWApi_pos.val
-    &&  no_boundary_crossing2 id1 id2 warhi_pos.val
     &&  (no_boundary_crossing2 id1 id2 waxA_pos.val || yaxA_pos.val = 50)
     &&  (no_boundary_crossing2 id1 id2 waWA_pos.val || yaWA_pos.val = 50)
-
-     (* else if id1 < yaw_pos.val && id2 > yaw_pos.val then False
-yaw is ambiguous. It can be a pronoun as well. *)
-      (* else if id1 < iwi_pos.val && id2 > iwi_pos.val then False 
- mawwaH eva iwi vixXi; mawwaH is connected to vixXi, intervenned by iwi. *)
-      (*else if id1 < evam_pos.val && id2 > evam_pos.val then False*)
- (*yaH buxXiwvAw wawra kevalam AwmAnam paSyawi ...*)
-(* If there is waw, then there should be either yaw or cew or yaxi, else it is not a boundary marker *)
-(* For yaxi ... waw refer to BhG 1.46 *)
- (* This condition is added to account for the boundary crossing with only waxA as in
-    xqRtvA wu pANdavAnIkam vyUDam xuryoXanaswaxA AcAryam upasafgamya vacanam abravIw BhG1.2 *)
 ;
 
 value no_boundary_crossing_kwvA_lyap id1 id2 =
@@ -159,7 +156,7 @@ value rlafgavikAra m1 m2 text_type = match m2 with
        if   rt2 = get_assoc rt1 afgavikaara_list 
          && (id1 = previous id2 || id1 = next id2)
          && viBakwiH1 = 3
-       then [ Relation (id1,cid1,mid1,"afgavikAraH",id2,cid2,mid2,"11.1",d12)] 
+       then [ Relation (id1,cid1,mid1,"afga_vi",id2,cid2,mid2,"11.1",d12)] 
        else []
       | _ -> []
       ]
@@ -234,3 +231,57 @@ value rec mk_tuple_lst acc = fun
    ]
 ;
 
+value get_cat m1 = match m1 with
+  [ Sup (_,_,_,_,_,_,_,_,_,_,_) -> "sup"
+  | Wif (_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_) -> "wif"
+  | Kqw (_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_,_) -> "kqw"
+  | WaxXiwa (_,_,_,_,_,_,_,_,_,_,_,_) ->  "waxXiwa"
+  | Avy (_,_,_,_,_,_,_,_) -> "avy"
+  | Avykqw (_,_,_,_,_,_,_,_,_,_,_,_) -> "avykqw"
+  | AvywaxXiwa (_,_,_,_,_,_,_,_,_) -> "avywaxXiwa"
+  ]
+;
+
+value get_viB m1 = match m1 with
+  [ Sup (_,_,_,_,_,_,_,_,viBakwiH1,_,_) 
+  | Kqw (_,_,_,_,_,_,_,_,_,_,_,_,_,_,viBakwiH1,_,_) -> viBakwiH1
+  | _ -> 0
+  ]
+;
+
+value get_kqw_suff m1 = match m1 with
+  [ Kqw (_,_,_,_,_,_,_,kqw,_,_,_,_,_,_,_,_,_) 
+  | Avykqw (_,_,_,_,_,_,_,_,_,kqw,_,_) -> kqw
+  | _ -> ""
+  ]
+;
+
+value get_per m1 = match m1 with
+  [ Wif (_,_,_,_,_,_,_,_,_,_,_,per,_,_,_,_) -> per
+  | _ -> ""
+  ]
+;
+
+value get_vac m1 = match m1 with
+  [ Wif (_,_,_,_,_,_,_,_,_,_,_,_,vac,_,_,_) -> vac
+  | _ -> ""
+  ]
+;
+
+value get_upasarga m1 = match m1 with
+  [ Wif (id,cid,mid,_,rt,_,_,upasarga,_,_,_,_,_,_,_,_) 
+  | Kqw (id,cid,mid,_,rt,upasarga,_,_,_,_,_,_,_,_,_,_,_) -> upasarga
+  | _ -> ""
+  ]
+;
+
+value get_rt m1 = match m1 with
+  [ Sup (id1,cid1,mid1,word1,rt1,_,_,_,_,_,_) 
+  | Wif (id1,cid1,mid1,word1,rt1,_,_,_,_,_,_,_,_,_,_,_)
+  | Kqw (id1,cid1,mid1,word1,rt1,_,_,_,_,_,_,_,_,_,_,_,_)
+  | WaxXiwa (id1,cid1,mid1,word1,rt1,_,_,_,_,_,_,_) 
+  | Avy (id1,cid1,mid1,word1,rt1,_,_,_) 
+  | Avykqw (id1,cid1,mid1,word1,rt1,_,_,_,_,_,_,_)
+  | AvywaxXiwa (id1,cid1,mid1,word1,rt1,_,_,_,_) -> rt1
+  ]
+;

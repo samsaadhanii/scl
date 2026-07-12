@@ -292,8 +292,8 @@ Af_gUr2,ap,sk,v,prayawna_kara^uxyoga_kara,NW
 Af_GuR2,pp,sk,v,DiDorA_pIta^milakara_ro,
 Af_han1,pp,sk,v,Toka^mAra,
 Af_hi1,pp,sk,v,Beja^ukasA^dAla_xe^PeMka^wIra_calA^baMxUka_xAga^uwwejiwa_kara^unnawa_kara^Age_baDA^wqpwa_kara^prasanna_kara^jA^pragawi_kara,NW
-Af_hq1,ap,sk,v,kara,
-Af_hq1,pp,sk,v,kara,
+Af_hq1,ap,sk,v,lA,
+Af_hq1,pp,sk,v,lA,
 Af_hu1,pp,sk,v,bulA,
 Af_hve1,ap,sk,v,lalakAra,
 Af_hve1,pp,sk,v,bulA,

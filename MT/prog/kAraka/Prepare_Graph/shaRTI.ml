@@ -6,96 +6,67 @@ value rlRaRTIsambanXaH m1 m2 text_type = match m1 with
       [ Sup (id1,cid1,mid1,_,rt1,pUrvapaxa1,_,lifga1,viBakwiH1,vacana1,_)
       | Kqw (id1,cid1,mid1,_,rt1,pUrvapaxa1,_,_,_,_,_,_,_,lifga1,viBakwiH1,vacana1,_)
       | WaxXiwa (id1,cid1,mid1,_,rt1,pUrvapaxa1,_,_,lifga1,viBakwiH1,vacana1,_) ->
-           if not (pUrvapaxa1="y") && viBakwiH1=6  (*&& (not (member_of rt1 guNavacana)  THIS is removed, since there can be an ellipsis of the viSeRya ||  rt1="xayA" || rt1 = "mAyA") *)
+           if not (pUrvapaxa1="y") && viBakwiH1=6 && (not (member_of rt1 guNavacana))
            then match m2 with 
                  [ Kqw (id2,cid2,mid2,word2,rt2,_,_,kqw2,_,_,_,pUrvapaxa2,uwwarapaxa2,_,viBakwiH2,_,_) -> 
                    let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
-		   if   prose_order id1 id2 text_type
-                     && not (pUrvapaxa2="y")
-                   then if no_boundary_crossing_with_iwi id1 id2 text_type
-                        && ((kqw2="GaF" || kqw2="wavyaw" || kqw2="wqc" || kqw2 = "kwin" || kqw2 = "ac" || kqw2="Nvul"))
-                         (*|| (kqw2="kwa" && not (viBakwiH2 = 1))  -- Need example for kwa *)
-                                (* Rules for kAraka RaRTI are given below.
-                                 * Here we are dealing with only SeRe RaRTI *)
-				(* pawriNAm viruwena Removed Sawq_l?t, SAnac_l?t, kwa and kwavawu *)
-                       && not (viBakwiH2 = 8)
-                       && (not (member_of rt2 guNavacana) || (rt2="xayA") || (rt2 = "kqpA") || (rt2 = "karuNA") || (rt2 = "mAyA"))
-			&& not (pronominal123 rt2)
-                       then [ Relation (id1,cid1,mid1,"RaRTIsambanXaH",id2,cid2,mid2,"28.1",d12)]
-                       else if   pUrvapaxa2="y"     (* asamartha padavidhi - xevaxawwasya guru-kulam; piwuH vacana-nirxeSAw *)
-                            then if   member_of rt2 sambanXavAcI 
-                                    || word2="hiwa-" 
-                                    || word2="vacana-"  (* We should add all rUDa kqxanwas here *) (*rAmasya hiwakAmyayA, rAmasya vacanAnusAreNa *)
-                                     (* asamarWa compound *)
-                                 then [ Relation (id1,cid1,mid1,"RaRTIsambanXaH",id2,cid2,mid2,"28.2",d12)]
-                   			(* We need to mark this relation with the puurvapaxa and not the uwwarapaxa *)
-                   		 else [ Relation (id1,cid1,mid1,"RaRTIsambanXaH",id2,cid2,mid2,"28.3",d12)]
-                           else if member_of rt2 viRayi_list || member_of rt1 sambanXavAcI
-                                then [ Relation (id1,cid1,mid1,"RaRTIsambanXaH",id2,cid2,mid2,"28.4",d12)]
-                                else []
+		   if    prose_order id1 id2 text_type
+                      && no_boundary_crossing_with_iwi id1 id2 text_type
+                      && not (viBakwiH2 = 8)
+                      && (kqw2="GaF" || kqw2="wavyaw" || kqw2="wqc" || kqw2 = "kwin" || kqw2 = "ac" || kqw2="Nvul")
+                               (* With other kqw suffixes such as lyut etc., it is a kAraka RaRTI *)
+                   then if  (not (member_of rt2 guNavacana)) 
+                         ||  member_of rt2 viRayi_list 
+                        then [ Relation (id1,cid1,mid1,"RaRTI_saM",id2,cid2,mid2,"28.1",d12)]
+                        else []
                    else []
                  | Sup (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_,viBakwiH2,_,_)
                  | WaxXiwa (id2,cid2,mid2,word2,rt2,pUrvapaxa2,uwwarapaxa2,_,_,viBakwiH2,_,_) -> 
        		   let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
                    if     prose_order id1 id2 text_type (*&& not (uwwarapaxa2 = "y")*)
                        && not (pUrvapaxa2="y")
-                          then if no_boundary_crossing_with_iwi id1 id2 text_type
-                               && (not (member_of rt2 guNavacana) || (rt2="xayA") || (rt2 = "kqpA") || (rt2 = "karuNA") || (rt2 = "mAyA") || (rt2="guru") || (rt2 = "kqRNa")|| (rt2="priya")) (* saH mama priyaH aswi *)
-				(* guru & kqRNa are both guNavacana as well as nouns in different meanings  -- as a noun, it can have a RaRTI sambanXa *)
-			       && not (pronominal123 rt2)
-                               then [ Relation (id1,cid1,mid1,"RaRTIsambanXaH",id2,cid2,mid2,"28.5",d12)]
-                               else if (rt2="ayuwa") || (rt2="sahasra")  (* ayuwa = 10 thousand; gavAM ayuwaM thousands of cows *)
-                                    then [ Relation (id1,cid1,mid1,"RaRTIsambanXaH",id2,cid2,mid2,"28.5a",d12)]
-                                    else if   pUrvapaxa2="y"     (* asamartha padavidhi - xevaxawwasya guru-kulam; piwuH vacana-nirxeSAw *)
-                                         then if   member_of rt2 sambanXavAcI 
-                                                || word2="hiwa-" 
-                                                || word2="vacana-"  (* We should add all rUDa kqxanwas here *) (*rAmasya hiwakAmyayA, rAmasya vacanAnusAreNa *)
-                                                   (* asamarWa compound *)
-                                                || (not (lifga1="napuM") || (rt1="vyAkaraNa"))
-                                              then [ Relation (id1,cid1,mid1,"RaRTIsambanXaH",id2,cid2,mid2,"28.2",d12)]
-                                              else []
-                                        else if (rt2="vaXa")   (* han1 + ap *)
-                                             then [ Relation (id1,cid1,mid1,"RaRTIsambanXaH",id2,cid2,mid2,"28.5a",d12)]
-					     else if member_of rt1 sambanXavAcI || member_of rt2 viRayi_list 
-                                                  then [ Relation (id1,cid1,mid1,"RaRTIsambanXaH",id2,cid2,mid2,"28.6",d12)]
-                                                  else if rt2 = "maXya" &&  vacana1 = "xvi"
-                                                       then [ Relation (id1,cid1,mid1,"RaRTIsambanXaH",id2,cid2,mid2,"28.7",d12)]
-                                                       else  if no_boundary_crossing_with_iwi id1 id2 text_type
-                                                           && not (viBakwiH2 = 8) 
-                                                           && not (member_of rt2 non_RaRTI_list) (* These are the words which can not be related to a word in RaRTI. e.g. paryApwa  We can not have X{6} paryApwa *)
-                                                           && not (member_of rt2 manuRyasaFjFAvAcI) (* These are the names of human beings, and hence we can not have X{6} rt2 *)
-                                                           && not (member_of rt2 named_entity) (* These are the names of entities, and hence we can not have X{6} rt2 *)
-                                                           && not (member_of rt2 upapada6_list) (* This is needed, since in these cases the relation is sanxarBa_binxuH *)
-                                                           && (rt2="Awman" || not (pronominal123 rt2)) (* sEnyasya mama; mama should be related to sEnya and not the other way ; rAmasya AwmA should be parsed *)
-                                                           && not (rt2 = "maXya")
-                                                           && not (rt2 = "arWa")
-                                                           && not (member_of rt2 taddhitaantas)
-                                                           && not (rt2="jyAyas") (* This has IyasUna suffix, sense of warap is there *)
-                                                           && not (rt2="jyAyasI") (* This has IyasUna suffix, sense of warap is there *)
-                                                         (* && (not (member_of rt2 guNavacana)) *)
-                                                         && (not ((rt1="uBa" || rt1="uBA") && viBakwiH1=6))
-                                                           then  [ Relation (id1,cid1,mid1,"RaRTIsambanXaH",id2,cid2,mid2,"28.8",d12)]
-                   					   else  []
-                   	else  []
-                 (*| Avykqw (id2,cid2,mid2,word2,_,_,_,_,_,_,_,_)
-                 | AvywaxXiwa (id2,cid2,mid2,word2,_,pUrvapaxa2,_,_,_) ->
-                   let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
-                   if    prose_order id1 id2 text_type
-                      && not (pUrvapaxa2="y")
-                      && (no_boundary_crossing_with_iwi id1 id2)
-                   then [ Relation (id1,cid1,mid1,"RaRTIsambanXaH",id2,cid2,mid2,"28.11",d12)]
-                   else []
-                  There can not be RaRTI sambanXa with kwvA, mawup etc.*)
+                       && not (viBakwiH2 = 8) 
+                       && no_boundary_crossing_with_iwi id1 id2 text_type
+	   	       && not (pronominal123 rt2)
+                    then if  member_of rt2 sambanXavAcI || member_of rt2 viRayi_list 
+                         then [ Relation (id1,cid1,mid1,"RaRTI_saM",id2,cid2,mid2,"28.5a",d12)]
+                         else  match rt2 with
+                         [ "xayA" | "kqpA"| "karuNA"| "mAyA"| "priya" (* saH mama priyaH aswi *)
+                         | "kqRNa" (* guru & kqRNa are both guNavacana as well as nouns in different meanings  -- as a noun, it can have a RaRTI sambanXa *)
+                         | "ayuwa"|"sahasra"  (* ayuwa = 10 thousand; gavAM ayuwaM thousands of cows *)
+                               -> if vacana1 = "bahu"
+                                  then [ Relation (id1,cid1,mid1,"RaRTI_saM",id2,cid2,mid2,"28.5a",d12)]
+                                  else []
+                         | "AwmA"   (* rAmasya Awma *)
+                         | "vaXa"   (* han1 + ap *)
+                               -> [ Relation (id1,cid1,mid1,"RaRTI_saM",id2,cid2,mid2,"28.5",d12)]
+                         | "maXya" ->  if vacana1 = "xvi"
+                                       then [ Relation (id1,cid1,mid1,"RaRTI_saM",id2,cid2,mid2,"28.5a",d12)]
+                                       else []
+                         | "uBa" 
+                         | "uBA"
+                         | "arWa"
+                         | "jAyas"
+                         | "jAyasI" -> []
+                         | _ ->  if    not (member_of rt2 guNavacana) 
+                                    && not (member_of rt2 saMKyeya) 
+                                    && not (member_of rt2 non_RaRTI_list) (* These are the words which can not be related to a word in RaRTI. e.g. paryApwa  We can not have X{6} paryApwa *)
+                                    && not (member_of rt2 manuRyasaFjFAvAcI) (* These are the names of human beings, and hence we can not have X{6} rt2 *)
+                                    && not (member_of rt2 named_entity) (* These are the names of entities, and hence we can not have X{6} rt2 *)
+                                    && not (member_of rt2 upapada6_list) (* This is needed, since in these cases the relation is sanxarBa_binxuH *)
+                                    && not (pronominal123 rt2) (* sEnyasya mama; mama should be related to sEnya and not the other way *)
+                                    && not (member_of rt2 taddhitaantas)
+                                then  [ Relation (id1,cid1,mid1,"RaRTI_saM",id2,cid2,mid2,"28.8",d12)]
+                   	        else  []
+                          ]
+                     else  []
                  | Avy (id2,cid2,mid2,word2,_,pUrvapaxa2,_,_) ->
                        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
                        if word2 = "nAma"
                        && not (pUrvapaxa2="y")
-                       then [ Relation (id1,cid1,mid1,"RaRTIsambanXaH",id2,cid2,mid2,"28.11",d12)]
+                       then [ Relation (id1,cid1,mid1,"RaRTI_saM",id2,cid2,mid2,"28.11",d12)]
 		       else []
                  | _ -> []
- (* if not ( pronoun3 rt1 || member_of rt1 saMKyeya || member_of rt1 pUraNa || member_of rt1 guNavAcI || member_of rt1 uwwara_guNavAcI) then 
-   mama wqwIyam wasya cawurWam,  mama kqRNam wasya pIwam, ...
-member_of rt1 sambanXavAcI *)
                 ]
         else []
    | _ -> []
@@ -114,27 +85,28 @@ value rl_kAraka_RaRTI1 m1 m2 text_type = match m2 with
      | Kqw (id1,cid1,mid1,_,_,_,_,_,_,_,_,_,_,_,viBakwiH1,_,_)
      | WaxXiwa (id1,cid1,mid1,_,_,_,_,_,_,viBakwiH1,_,_) -> 
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
-                     if id2 > id1 (* id2 = next id1; we may have some kriyAviSeRaNa etc in between; e.g. BavawAm ekawra avasWAnam *)
-       && viBakwiH1=6
-       && no_boundary_crossing_with_iwi id1 id2 text_type
-      && not (
-             (kqw2="Sawq_lat" && not (rt2="xviR1")) 
-          || (kqw2="ukaF" && not (kqw_rt2="kAmuka")) 
-          || kqw2="SAnac_lat" || kqw2="Kal" || kqw2="yuc" || kqw2="u" || kqw2="wqN" || kqw2="SAnan" 
-          || kqw2="cAnaS" || kqw2="wqc" || kqw2="kAnac" || kqw2="kvasu" || kqw2="ki" 
-          || kqw2="kin" || kqw2="kwvA" || kqw2="Namul" || kqw2="kvasun" || kqw2="wosun" || kqw2="lyap" 
-          (* || kqw2 = "Nyaw" *)
-          || kqw2="wumun" || kqw2="se" || kqw2="ase" || kqw2="ken"
-          || (kqw2="kwa" && not(rt2="man1" || rt2="buX1" || rt2="buX2" || rt2="buX3" || rt2="pUj1"))
+       if   id2 > id1 (* id2 = next id1; we may have some kriyAviSeRaNa etc in between; e.g. BavawAm ekawra avasWAnam *)
+         && viBakwiH1=6
+         && no_boundary_crossing_with_iwi id1 id2 text_type
+         && not (
+                 (kqw2="Sawq_lat" && not (rt2="xviR1")) 
+              || (kqw2="ukaF" && not (kqw_rt2="kAmuka")) 
+              || kqw2="SAnac_lat" || kqw2="Kal" || kqw2="yuc" || kqw2="u" || kqw2="wqN" || kqw2="SAnan" 
+              || kqw2="cAnaS" || kqw2="wqc" || kqw2="kAnac" || kqw2="kvasu" || kqw2="ki" 
+              || kqw2="kin" || kqw2="kwvA" || kqw2="Namul" || kqw2="kvasun" || kqw2="wosun" || kqw2="lyap" 
+              || kqw2="wumun" || kqw2="se" || kqw2="ase" || kqw2="ken"
+              || (kqw2="kwa" && not(rt2="man1" || rt2="buX1" || rt2="buX2" || rt2="buX3" || rt2="pUj1"))
+              (* || kqw2 = "Nyaw" *)
          )
-       then  
-           match verb_type rt2 upasarga2 with
+       then match verb_type rt2 upasarga2 with
            [ "xvikarmaka1" 
-           | "xvikarmaka2" -> [ Relation (id1,cid1,mid1,"muKyakarma",id2,cid2,mid2,"29.1",d12)
-                              ; Relation (id1,cid1,mid1,"gONakarma",id2,cid2,mid2,"29.2",d12)]
+           | "xvikarmaka2" -> [ Relation (id1,cid1,mid1,"muKya_karma",id2,cid2,mid2,"29.1",d12)
+                              ; Relation (id1,cid1,mid1,"gONa_karma",id2,cid2,mid2,"29.2",d12)
+                              ]
            | "akarmaka" ->    [ Relation (id1,cid1,mid1,"karwA",id2,cid2,mid2,"29.3",d12)]
            | _ ->             [ Relation (id1,cid1,mid1,"karwA",id2,cid2,mid2,"29.4",d12)
-                               ; Relation (id1,cid1,mid1,"karma",id2,cid2,mid2,"29.5",d12)]
+                              ; Relation (id1,cid1,mid1,"karma",id2,cid2,mid2,"29.5",d12)
+                              ]
            ]
        else []
      |_ -> []
@@ -179,10 +151,6 @@ value rl_kAraka_RaRTI3 m1 m2 text_type = match m2 with
           && viBakwiH1=6 
           && no_boundary_crossing_with_iwi id1 id2 text_type
           && kqw2="wumun"
-           (* I do not understand how can there be karwA ?
-              then  [ Relation (id1,cid1,mid1,"karwA",id2,cid2,mid2,"23.1",d12) 
-                    ; Relation (id1,cid1,mid1,"karma",id2,cid2,mid2,"23.2",d12) 
-                    ] (* karwq_karmaNoH_kqwi *) *)
        then  [ Relation (id1,cid1,mid1,"karma",id2,cid2,mid2,"31.2",d12) 
              ]
        else []
@@ -192,25 +160,35 @@ value rl_kAraka_RaRTI3 m1 m2 text_type = match m2 with
  ]
 ;
 
-value rlhewuprayoge m1 m2 text_type = match m2 with
-     [ Sup(id2,cid2,mid2,_,rt2,_,_,_,viBakwiH2,_,_) ->
-     if rt2="hewu"
-     then match m1 with
+value rlhewuprayoge m1 m2 m3 text_type = match m3 with
+     [ Wif (id3,cid3,mid3,_,_,_,_,_,_,_,_,_,_,_,_,_) -> match m2 with
+       [ Sup(id2,cid2,mid2,_,rt2,_,_,_,viBakwiH2,_,_) ->
+          match m1 with
           [ Sup(id1,cid1,mid1,_,rt1,_,_,_,viBakwiH1,_,_) ->
-       let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
-                if   viBakwiH1=6
-                  && no_boundary_crossing_with_iwi id1 id2 text_type
-                then [ Relation (id1,cid1,mid1,"hewuH",id2,cid2,mid2,"32.1",d12)]
-                else if    pronoun3 rt1 
-                     (* sarvanAmnaswqwIyA ca 2.3.37; 
-                        nimiwwakAraNahewuRu sarvAsAM prAyaxarSanaM  kasya hewoH, kene hewunA, kam hewum, kasmina hewO *)
-                        && viBakwiH1=viBakwiH2
-                     then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"32.2",d12)]
-                     else []
+             let  d12 = if id1 > id2 then id1-id2 else id2-id1 
+             and  d13 = if id1 > id3 then id1-id3 else id3-id1 in
+                  if    rt2="hewu"    (* RaRTI hewuprayoge 2.3.26 *) 
+                     && viBakwiH1=6   (* annasya hewoH vasawi *)
+                     && id1=previous id2
+                  then [ Relation (id1,cid1,mid1,"hewu",id3,cid3,mid3,"32.1",d13)
+                       ; Relation (id2,cid2,mid2,"vAkya:kAraNa_xyo",id1,cid1,mid1,"32.2",d12)
+                       ]
+                  else if   pronoun3 rt1   
+                            (* sarvanAmnAswqwIyA ca 2.3.27
+                            nimiwwakAraNahewuRu sarvAsAM prAyaxarSanaM  kasya hewoH, kena hewunA, kam hewum, kasmin hewO *)
+                         && (viBakwiH1 = 3 || viBakwiH1 = 2) 
+                         && (rt2 = "hewu" || rt2 = "kAraNa" || rt2 = "prayojana" || rt2 = "nimiwwa")
+                         && viBakwiH1=viBakwiH2
+                         && id1=previous id2
+                       then [ Relation (id1,cid1,mid1,"hewu",id3,cid3,mid3,"32.1",d13)
+                            ; Relation (id2,cid2,mid2,"vAkya:kAraNa_xyo",id1,cid1,mid1,"32.2",d12)
+                            ]
+                       else []
           | _ -> []
           ]
-     else []
      | _ -> []
      ]
-; 
+   | _ -> []
+   ]
+;
 

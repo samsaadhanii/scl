@@ -16,14 +16,13 @@ open Adata;
 open Common;
 open Kaaraka;
 open ViBakwi345;
-open Sent;
 open VIpsA_nirXAraNa_kriyAviSeRaNam;
 open Kqw;
 open ViSeRaNa;
 open SamboXana;
 open Upapaxa;
 open Default_sambanXaH;
-open Sma_mA;
+open Sma_mA_sawi;
 open ShaRTI;
 open NAma_iwi_Gataka;
 open AXikaraNa;
@@ -36,10 +35,10 @@ open ViSeRaNa;
 
 value all_rules2 = 
 [
-rlwifkarwA_karma; rlkqwkarwA_karma; rlanaBihiwe; rlapAxAna_wasil; rlAvy_kriyAviSeRaNam_or_aXikaraNam; rlpUrvakAla; rlwumun1; rlwumun2; (*rlkwa_as;*) rlsamAnakAla; rlviSeRaNam; rlavy_viSeRaNam; rlvIpsA; rlsamboXana_xyowakaH; rlnirXAraNam; rlupapaxa_other_rel; rlupapaxa; rlsambanXa1; rlavy_wif_mA; rlavy_wifkqw_special; rl_sma; (*rlavy_sent_connector; *) rl_kAraka_RaRTI1; rl_kAraka_RaRTI2; rl_kAraka_RaRTI3; rlAvykqw_karma; rlevamkarma; rl_last_iwi; rlRaRTIsambanXaH; rlviRayAXikaraNam; rlhewuprayoge; (*rlniwya_sambanXa_avy; rlniwya_sambanXa_sup;  rl_initial_avy;*)  rl_ca; rlsent_beginning_connectives; (*rlparimANa_viSeRaNam;*) rl_exclamatory1; (*rlhewu_sup;*) rlkarwqrahiwakarwqsamAnAXikaraNam; rlafgavikAra;  rl_spl_aXikaraNam; (* rlkarwqsamAnAXikarana_noverb;  This is over-generating  we need more stringent conditions *) rlkriyAviSeRaNam_wqwIyA; rlaXikaraNam; rl_avaXi ]
+rlwifkarwA_karma; rlkqwkarwA_karma; rlanaBihiwe; rlapAxAna_wasil; rlAvy_kriyAviSeRaNam_or_aXikaraNam; rlpUrvakAla; rlwumun1; rlwumun2; (*rlkwa_as;*) rlsamAnakAla; rlviSeRaNam; rlavy_viSeRaNam; rlvIpsA; rlsamboXana_xyowakaH; rlnirXAraNam; rlupapaxa_other_rel; rlupapaxa; rlsambanXa1; rlavy_wif_mA; rlavy_wifkqw_special; rl_sma_sawi; (*rlavy_sent_connector; *) rl_kAraka_RaRTI1; rl_kAraka_RaRTI2; rl_kAraka_RaRTI3; rlAvykqw_karma; rlevamkarma; rl_last_iwi; rlRaRTIsambanXaH; rlviRayAXikaraNam; (*rlniwya_sambanXa_avy; rlniwya_sambanXa_sup;  rl_initial_avy;*)  rl_ca; (*rlsent_beginning_connectives; rlparimANa_viSeRaNam;*) rl_exclamatory1; (*rlhewu_sup;*) rlkarwqrahiwakarwqsamAnAXikaraNam; rlafgavikAra;  rl_spl_aXikaraNam; (* rlkarwqsamAnAXikarana_noverb;  This is over-generating  we need more stringent conditions *) rlkriyAviSeRaNam_wqwIyA; rlaXikaraNam; rl_avaXi ]
 ;
 
-value all_rules3 = [rlkarwqsamAnAXikaraNam; rlkarmasamAnAXikaraNam; rlvAkyakarma; rlvAkyakarma1; (*rlsent_connectives;*) rlupamAna_upameya_sup; rlca_samucciwa; rl_exclamatory2; rl_ca_wif_aBihiwa_karwA_karma; rl_wulanA; rl_nAma; rl_saha_vinA_kqwe; (*rl_wif_kriyA_kriyA; *) rlBAvalakRaNa_sapwamI1; rl_hi; rl_anyawara]
+value all_rules3 = [rlkarwqsamAnAXikaraNam; rlkarmasamAnAXikaraNam; rlvAkyakarma; rlvAkyakarma1; (*rlsent_connectives;*) rlupamAna_upameya_sup; rlca_samucciwa; rl_exclamatory2; rl_ca_wif_aBihiwa_karwA_karma; rl_wulanA; rl_nAma; rl_saha_vinA_kqwe; (*rl_wif_kriyA_kriyA; *) rlBAvalakRaNa_sapwamI1; rl_hi; rl_anyawara; rlhewuprayoge]
 ;
 
 value distinct_2 m1 m2 = match m1 with
@@ -148,13 +147,13 @@ value best2incoming sorted_lst =
                            let acc1 = List.append acc [Relation (b1,c1,d1,rel1,f1,g1,h1,rl1,dist1)] in 
                                loop acc1 b1 c1 d1 rel1 f1 g1 h1 dist1 count s
                            (* } *)
-                         else if (   rel1="viSeRaNam" 
-                                  || rel1 = "upamAnam"
-                                  || rel1 = "viXeya_viSeRaNam" 
+                         else if (   rel1="viSe" 
+                                  || rel1 = "upamAna"
+                                  || rel1 = "vi_viSe" 
                                   || rel1 = "karwA"
                                   || rel1 = "karwA_be_verbs" 
                                   || rel1="aBexaH" 
-                                  || rel1 = "samAsaH") then  (* do { print_string "viSeRaNam found\n"; *) (* karwA is added, since typically in prose form karwA is in the beginning, far away from the verb *)
+                                  || rel1 = "samAsa") then  (* do { print_string "viSeRaNam found\n"; *) (* karwA is added, since typically in prose form karwA is in the beginning, far away from the verb *)
                                 let acc1 = List.append acc [Relation (b1,c1,d1,rel1,f1,g1,h1,rl1,dist1)] in 
                                     loop acc1 b1 c1 d1 rel1 f1 g1 h1 dist1 count s
    (* It is possible that RaRTI sambanXaH with immediate next/previous words do not yield the correct answer;
@@ -298,7 +297,6 @@ value init_sentence_feature_variables morphs  =
           | "wax" -> do { (); waw_pos.val := id;}
           | "awaH" -> do { (); awaH_pos.val := id;}
           | "wawaH" -> do { (); wawaH_pos.val := id;}
-          | "cew" -> do { (); cew_pos.val := id;}
           | "waWA" -> do { (); waWA_pos.val := id;}
           | "aWa" -> do { (); aWa_pos.val := id;}
           | "yaw" -> do { (); yaw_pos.val := id;}
@@ -307,7 +305,6 @@ value init_sentence_feature_variables morphs  =
           | "wasmAw" -> do { (); wasmAw_pos.val := id;}
           | "hi" -> do { (); hi_pos.val := id;}
           | "iva" -> do { (); iva_pos.val := id;}
-          (*| "COMMA" -> do { (); manual_boundary1.val := id;} *)
           | _ -> ()
           ] 
           }
@@ -398,9 +395,9 @@ main()
        else if word1="-sahiwaH" 
        then [ Relation (id1,cid1,mid1,"sahArWaH",id2,cid2,mid2,"1.6a", d)]
        else if rt1="saxqSa" 
-       then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"1.6b", d)]
+       then [ Relation (id1,cid1,mid1,"viSe",id2,cid2,mid2,"1.6b", d)]
        else if rt1="safkASa" 
-       then [ Relation (id1,cid1,mid1,"viSeRaNam",id2,cid2,mid2,"1.6c", d)]
+       then [ Relation (id1,cid1,mid1,"viSe",id2,cid2,mid2,"1.6c", d)]
        else if (rt1="pUrveNa") (* || (rt1="pramuKeH") Why pramuKa?? vasiRTa-pramuKEH niyujyamAnaH -- not kriyAviSeRaNa*)
        then [ Relation (id1,cid1,mid1,"kriyAviSeRaNam",id2,cid2,mid2,"1.2", d)]
        else []
@@ -457,8 +454,8 @@ main()
        then  match m1 with
        [ Sup (id1,cid1,mid1,word1,rt1,pUrvapaxa1,_,_,_,_,_) -> 
             if (id1 = id2) && (cid1 = previous cid2)  && (pUrvapaxa1 = "y")
-            then [ Relation (id1,cid1,mid1,"upamAnam",id3,cid3,mid3,"18.1a",d23)
-                 ; Relation (id2,cid2,mid2,"upamAna_xyowakaH",id1,cid1,mid1,"18.1b",0)
+            then [ Relation (id1,cid1,mid1,"upamAna",id3,cid3,mid3,"18.1a",d23)
+                 ; Relation (id2,cid2,mid2,"upamAna_xyo",id1,cid1,mid1,"18.1b",0)
                  ]
             else []
        | _ -> []

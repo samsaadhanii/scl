@@ -59,6 +59,7 @@ kAvyawvam	kAvyawva<vargaH:nA><lifgam:napuM><viBakwiH:1><vacanam:eka><level:1>/kA
 kawaraw	kawaraw<vargaH:nA><lifgam:napuM><viBakwiH:1><vacanam:eka><level:1>
 klibiREH	kilbiRa<vargaH:nA><lifgam:puM><viBakwiH:3><vacanam:bahu><level:1>
 kqRiwaH	kqRi<vargaH:avy><waxXiwa_prawyayaH:wasil><level:1>
+anyawaH	anya<vargaH:avy><waxXiwa_prawyayaH:wasil><level:1>
 kqwavanwAn	kqwavaw<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:bahu><level:1>
 mamaH	mama<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 mArgamANaH	mArg1<kqw_prawyayaH:SAnac_lat><XAwuH:mArga><gaNaH:curAxiH><kqw_pratipadika:mArgamANa><vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>

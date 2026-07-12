@@ -23,6 +23,7 @@ value saMKyeya_list = [
 "cawuHsapwawi";
 "cawuHSawI";
 "cawur";
+"cawurA";
 "cawuraSIwi";
 "cawurnavawi";
 "cawurviMSawi";
@@ -71,6 +72,7 @@ value saMKyeya_list = [
 "niyuwa";
 "paFcacawvAriMSaw";
 "paFcan";
+"paFcA";
 "paFcanavawi";
 "paFcapaFcASaw";
 "paFcaRaRti";

@@ -10,15 +10,15 @@ value bhAvalakRaNa_sapwamI id1 id2 id3 cid1 cid2 cid3 mid1 mid2 mid3 text_type k
            && no_boundary_crossing_except_kwvA id1 id2 text_type
         then if  (kqw1="Sawq_lat" || kqw1="SAnac_lat")
              then [ Relation (id1,cid1,mid1,karwA_karma,id3,cid3,mid3,rl1,d13)
-                  ; Relation (id3,cid3,mid3,"BAvalakRaNasapwamI_samAnakAlaH",id2,cid2,mid2,rl1,d23)
+                  ; Relation (id3,cid3,mid3,"BAva_samAna",id2,cid2,mid2,rl1,d23)
                   ] 
              else if (kqw1="kwa" || kqw1="kwavawu")
                   then [ Relation (id1,cid1,mid1,karwA_karma,id3,cid3,mid3,rl3,d13)
-                       ; Relation (id3,cid3,mid3,"BAvalakRaNasapwamI_pUrvakAlaH",id2,cid2,mid2,rl2,d23)
+                       ; Relation (id3,cid3,mid3,"BAva_pU",id2,cid2,mid2,rl2,d23)
                        ]
                   else if (kqw1="Sawq_lqt" || kqw1="SAnac_lqt")
                        then [ Relation (id1,cid1,mid1,karwA_karma,id3,cid3,mid3,rl3,d13)
-                            ; Relation (id3,cid3,mid3,"BAvalakRaNasapwamI_ananwarakAlaH",id2,cid2,mid2,rl1,d23)
+                            ; Relation (id3,cid3,mid3,"BAva_ananwara",id2,cid2,mid2,rl1,d23)
                             ] 
                        else []
         else []
@@ -38,7 +38,9 @@ value rlBAvalakRaNa_sapwamI1 m1 m2 m3 text_type = match m3 with
            && no_boundary_crossing_except_kwvA id1 id3 text_type
           then let karwA_karma =
                    if (viBakwiH1=7 || viBakwiH1=6) && ((id1 < id3) || (id1=next id3) || (id1=id3+2)) (* in the case of intervening particles such as wu *)
-                   then  if  (kqw3="Sawq_lat" || kqw3="SAnac_lat" || kqw3="kwa" || kqw3="kwavawu") 
+                   then  if     kqw3="Sawq_lat" || kqw3="SAnac_lat" 
+                             || kqw3="Sawq_lqt" || kqw3="SAnac_lqt" 
+                             || kqw3="kwa" || kqw3="kwavawu"
                          then "BkarwA"
 			 else ""
                    else if viBakwiH1=2  && ((id1 < id3) || (id1=next id3) || (id1=id3+2)) (* अष्ट-अङ्ग-सङ्ग्रहे ज्ञाते वृथा प्राक्-तन्त्रयोः श्रमः भवति *) (* in the case of intervening particles such as wu *)
@@ -62,31 +64,3 @@ value rlBAvalakRaNa_sapwamI1 m1 m2 m3 text_type = match m3 with
   | _ -> []
   ]
 ;
-
-
-(*
-value rlBAvalakRaNa_sapwamI2 m1 m2 text_type = match m2 with
-    [ Kqw (id2,cid2,mid2,_,rt2,upasarga2,_,kqw2,_,_,_,_,_,_,viBakwiH2,_,_) ->
-       match m1 with
-       [ Sup (id1,cid1,mid1,_,_,_,_,_,viBakwiH1,_,_) ->
-       let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
-     if  prose_order id1 id2 text_type 
-           && no_boundary_crossing_except_kwvA id1 id2 text_type
-     then if viBakwiH1=viBakwiH2 
-           && (viBakwiH1=7 || viBakwiH1=6)
-               && (kqw2="Sawq_lat" || kqw2="SAnac_lat" || kqw2="kwa" || kqw2="kwavawu")
-          then [ Relation (id1,cid1,mid1,"BkarwA",id2,cid2,mid2,"44.1",d12) 
-              ]
-          else if viBakwiH1=2 && viBakwiH2=7
-                   && (kqw2="kwa" || kqw2="kwavawu")
-                   && not ((verb_type rt2 upasarga2) = "akarmaka")
-               then [ Relation (id1,cid1,mid1,"Bkarma",id2,cid2,mid2,"44.2",d12) ]
-               else []
-     else []
-       | _ -> []
-       ]
-    | _ -> []
-    ]
-;
-
-*)
