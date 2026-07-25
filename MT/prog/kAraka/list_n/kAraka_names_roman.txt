@@ -26,7 +26,7 @@ adhikaraṇam 24
 pūrvakālaḥ 25
 kriyāviśeṣaṇam 26
 nirdhāraṇam 27
-sambandhaḥ 28
+ghaṭaka 29 
 anantarakālaḥ 30
 sambodhana_dyotakaḥ 31
 samuccitaḥ 32
@@ -52,7 +52,7 @@ pratiṣedhaḥ 50
 tīvratādarśī 51
 sañjñā_dyotakaḥ 52
 sañjñā 53
-ghaṭaka 54 
+sambandhaḥ 54
 ghaṭaka_dyotakaḥ 55
 kāraṇa_dyotakaḥ 56
 kārya_dyotakaḥ 57
@@ -63,7 +63,7 @@ prayojakakartṛrahitaprayojyakartā 1
 virodhakaḥ 68
 virodha_dyotakaḥ 69
 samānakālaḥ 74
-prayojanam_dyotakaḥ 75
+prayojana_dyotakaḥ 75
 sahārtha_dyotakaḥ 76
 vinārtha_dyotakaḥ 77
 lyapkarmādhikaraṇam 78
@@ -75,7 +75,6 @@ apādānam_vīpsā 83
 karaṇam_vīpsā 84
 udgāravācakaḥ 85
 svāmī 86
-adhyāhṛtakriyākarma 87
 aṅgavikāraḥ 88
 utprekṣā_dyotakaḥ 89
 avadhi_prārambhaḥ 90
@@ -87,10 +86,10 @@ vinārthaḥ 93
 apavarga_sambandhaḥ 96
 vākyakarma_dyotakaḥ 97
 'itthambhūtaḥ 98
-atyantasaṃyoga_sambandhaḥ 99
+atyantasaṃyogaḥ 99
+karmapravacanīya_anvitaḥ 2100
 upa_apekṣā 2000
 upa_karma 2200
-upa_karmapravacanīyaḥ 2300
 upa_ābhimukhyam 2400
 upa_nirdhāraṇam 2500
 upa_pratisiddhaḥ 2600
@@ -104,6 +103,7 @@ kartṛsamānādhikaraṇam_upa 4200
 sambandha_upa 4300
 kartā_upa 4400
 adhikaraṇam_upa 4500
+karmapravacanīyaḥ 4600
 gatikartā 200
 gatikarma 201
 bhkartā 202

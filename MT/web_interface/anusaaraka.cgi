@@ -174,7 +174,7 @@ package main;
          #system("$myPATH/MT/prog/Discourse/discourse < $GlblVar::TFPATH/tmp_in$Ppid/discourse_input.txt > $GlblVar::TFPATH/tmp_in$Ppid/discourse.txt");
          #system("$myPATH/MT/prog/Discourse/prepare_input_for_graph.pl $GlblVar::TFPATH/tmp_in$Ppid/discourse.txt < $GlblVar::TFPATH/tmp_in$Ppid/discourse_input.txt | $myPATH/converters/wx2utf8.sh $myPATH > $GlblVar::TFPATH/tmp_in$Ppid/graph_input.txt ");
     if (($#sentences >= 0)  && ($mode eq "web")){
-        system("$myPATH/MT/prog/kAraka/draw_graph_gen.pl $GlblVar::TFPATH/tmp_in$Ppid 1 Yes < $GlblVar::TFPATH/tmp_in$Ppid/graph_input.txt");
+        system("$myPATH/MT/prog/kAraka/draw_graph_gen.pl $GlblVar::TFPATH/tmp_in$Ppid 1 Yes \"$script\" < $GlblVar::TFPATH/tmp_in$Ppid/graph_input.txt");
         system("$GlblVar::GraphvizDot -Tsvg -o$GlblVar::TFPATH/tmp_in$Ppid/tmp.svg $GlblVar::TFPATH/tmp_in$Ppid/1.dot");
         system("$myPATH/MT/prog/kAraka/add_hidden_sub_gen.pl Yes < $GlblVar::TFPATH/tmp_in$Ppid/tmp.svg > $GlblVar::TFPATH/tmp_in$Ppid/1.svg");
 	print "<h2> Discourse Graph </h2>";

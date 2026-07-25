@@ -1,4 +1,5 @@
 #!/usr/bin/perl
+# Copyright: Amba Kulkarni and Sriram Krishnan 
 
 ## Usage: perl add_hidden_sub.pl < 2.svg > 2_2.svg
 
@@ -48,7 +49,17 @@ $in = <STDIN>;
 print  "<svg", $in;
 &print_script_N_style;
 $/ = "</g>\n";
-@in = <STDIN>;
+@raw_in = <STDIN>;
+
+# Safely stitch chunked nested tooltip tags back together
+my @in;
+foreach my $chunk (@raw_in) {
+    if ($chunk =~ /<\!\-\-/ || @in == 0) {
+        push(@in, $chunk);
+    } else {
+        $in[-1] .= $chunk; # Append orphaned closing tags
+    }
+}
 
 my ($i,$node,$index);
 
@@ -88,15 +99,16 @@ my ($i,$node,$index);
  }
  for ($j=0;$j<=$#in; $j++)  {
     if ($visited[$j] != 1) {
-       if  ($in =~ /Node($sent[0-9_]+)&#45;&gt;Node($sent[0-9]+_[0-9]+_[0-9]+)c/) {
+       if  ($in[$j] =~ /Node($sent[0-9_]+)&#45;&gt;Node($sent[0-9]+_[0-9]+_[0-9]+)c/) {
             if ($1 ne $2) { print $in[$j];
                 #print "IN1 = $in NI \n";
             }
-       } elsif  ($in =~ /Node($sent[0-9]+_[0-9]+_[0-9]+)&#45;&gt;Node($sent[0-9]+_[0-9]+_[0-9]+)c /) {
+       } elsif  ($in[$j] =~ /Node($sent[0-9]+_[0-9]+_[0-9]+)&#45;&gt;Node($sent[0-9]+_[0-9]+_[0-9]+)c /) {
             if ($1 ne $2) { print $in[$j];
                 #print "IN2 = $in NI \n";
-            }
-       } elsif ($in =~ /Node($sent[0-9_]+)/) {
+            } 
+        } else {
+             # This catch-all ensures closing </svg> and structure tags are NOT deleted
              print $in[$j]; 
              #print "IN3 = $in NI \n";
        }

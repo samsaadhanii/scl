@@ -17,6 +17,8 @@ install:
 	cp handle_no_parse.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/kAraka/
 	cp mk_summary.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/kAraka/
 	cp draw_graph_gen.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/kAraka/
+	cp cpd_tags_iast.tsv $(CGIDIR)/$(SCL_CGI)/MT/prog/kAraka/
+	cp cpd_tags_dev.tsv $(CGIDIR)/$(SCL_CGI)/MT/prog/kAraka/
 	cp Prepare_Graph/DATA/AkAfkRA/relations.txt $(CGIDIR)/$(SCL_CGI)/MT/prog/kAraka/Prepare_Graph/DATA/AkAfkRA
 	cp list_n/kAraka_names_*.txt $(CGIDIR)/$(SCL_CGI)/MT/prog/kAraka/list_n/
 	cp ../samAsa/run_xvanxva.py $(CGIDIR)/$(SCL_CGI)/MT/prog/samAsa

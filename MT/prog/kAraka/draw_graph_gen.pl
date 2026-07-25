@@ -1,7 +1,8 @@
 #!/usr/bin/env perl
+use FindBin qw($Bin);
 
 #  Copyright (C) 2023-2026 Amba Kulkarni (ambapradeep@gmail.com)
-#
+#  and Sriram Krishnan (2026-)
 #  This program is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU General Public License
 #  as published by the Free Software Foundation; either
@@ -21,7 +22,16 @@
 $path = $ARGV[0]; # path for temporary files
 $parse = $ARGV[1]; #Name of the output file
 $sent = $ARGV[2]; # Yes/No
+$outscript = $ARGV[3]; # This will now receive "DEV" or "IAST" from Bash
 
+# Use FindBin to safely build the path to the correct file
+my $map_file;
+if (defined $outscript && $outscript eq "IAST") {
+    $map_file = "$Bin/cpd_tags_iast.tsv";
+} else {
+    # Default to DEV if it's DEV, or if nothing was passed
+    $map_file = "$Bin/cpd_tags_dev.tsv"; 
+}
 
 ## Sentence numbers are added for Discourse level analysis
 if ($sent eq "No") { $sent = "";} else {$sent = "S[0-9]_";}
@@ -57,13 +67,53 @@ $dvandva_found = 0;
 
 @rows = <STDIN>;	# Read the table of analysis
 
+######### Load Compound tags #############
+
+my %compound_map = ();
+sub load_compound_map {
+  my ($filepath) = @_;
+  if (-e $filepath) {
+    open(my $fh, '<', $filepath) or die "Could not open '$filepath' $!\n";
+    while (my $row = <$fh>) {
+        chomp $row;
+        $row =~ s/\r//g;
+        next if $row =~ /^\s*$/; # Skip empty lines
+
+        my @cols = split(/\s+/, $row, 2);
+
+        if (scalar @cols == 2) {
+            $cols[1] =~ s/\s+$//;
+            $compound_map{$cols[0]} = [$cols[0], $cols[1]]; 
+        }
+    }
+    close $fh;
+  } else {
+        print STDERR "Warning: cpd_tags file not found at $map_file. Tooltips may not expand.\n";
+  }
+}
+
+&load_compound_map($map_file);
+
+sub get_compound_map {
+    my ($tag) = @_;
+
+    # If the tag exists in our loaded TSV dictionary, return the mapped pair
+    if (exists $compound_map{$tag}) {
+        return ($compound_map{$tag}[0], $compound_map{$tag}[1]);
+    }
+    
+    # Fallback: if the tag isn't mapped, return the tag unmodified for both
+    return ($tag, $tag);
+}
+
 ######### Main routine begins ############
       $i = 1; 		#The count starts with 1; since the 1st line corresponds to the headers and hence it is to be ignored.
 
       while($i <= $#rows) {
 	#print $i, "\t", $rows[$i],"\n";
 	chomp($rows[$i]);	# chop the newline
-        $rows[$i] =~ s///g;
+        $rows[$i] =~ s/
+//g;
 	$rows[$i] =~ s/\./_/g;	# Dot does not allow '.'s in the Node labels.
         @flds = split(/\t/,$rows[$i]);	# split the input into fields
         # Process only genuine lines and ignore others
@@ -246,7 +296,7 @@ sub print_all_nodes_info{
       if($new_dummy_index{$node} ne "") { $node = $new_dummy_index{$node};} # $word_found{$node} = 0;}
       #print "node = $node found = $word_found{$node}\n";
       if ($word_found{$node} != 1) {
-         &print_node_info($node,$label{$node},$wcolor{$node},$kqw{$node});
+         &print_node_info($node,$label{$node},$wcolor{$node},$kqw{$node},$hover_label{$node});
 	 $word_found{$node} = 1;
       }
    }
@@ -254,11 +304,13 @@ sub print_all_nodes_info{
 1;
 
 sub print_node_info{
-    my($node,$word,$color,$kqw) = @_;
+    my($node,$word,$color,$kqw,$custom_hover) = @_;
     print TMP1 "Node$node [shape=\"rectangle\", style=filled, fillcolor=\"$color\" ";
     #print "Node$node [shape=\"rectangle\", style=filled, fillcolor=\"$color\" \n";
     if ($kqw == 1) { print TMP1 "color=\"red\" ";}
-    print TMP1 "label = \"$word\"]\n";
+    my $hover_text = (defined($custom_hover) && $custom_hover ne "") ? $custom_hover : $word;
+    $hover_text =~ s/[<>"']//g; # Strip brackets AND quotes to protect tooltip string
+    print TMP1 "label=\"$word\", tooltip=\"$hover_text\"]\n";
 }
 
 sub writeNclose{
@@ -539,7 +591,7 @@ sub form_compound_constituency_tree {
             }
        }
        if ($found_pUrvapaxa_indx > -1)  {
-               $found_indx = $found_pUrvaapaxa_indx; 
+               $found_indx = $found_pUrvapaxa_indx; 
                while (($found_indx > -1) && ($stack_index > 0)) {
                ($pos,@f) = split(/:/, $stack[$found_indx]); #POP
 	       $stack_index--;
@@ -610,7 +662,10 @@ sub print_constituent_and_intermediate_nodes{
        if (($intmd eq "") && ($dvandva_found == 1)) { $intmd = $new_index{$from_id};}
   
        if ($last == 1) {
-	   $intmd_label = $new_label{$to_id};
+	         $intmd_label = $new_label{$to_id};
+           
+          my $final_hover = $hover_label{$to_id};
+
            if($new_index{$to_id} eq "") { $new_index{$to_id} = $to_id;
               $new_dummy_index{$to_id} = $new_index{$to_id}; }
            else { $new_dummy_index{$to_id} = $new_index{$to_id}."c";}
@@ -623,9 +678,16 @@ sub print_constituent_and_intermediate_nodes{
              $label{$new_dummy_index{$to_id}} = $intmd_label."(".$index.")";
              $wcolor{$new_dummy_index{$to_id}} = $wcolor;
              $kqw{$new_dummy_index{$to_id}} = $kqw;
+             
+             # Apply the full form to the hover_label hash
+             $hover_label{$new_dummy_index{$to_id}} = $final_hover;
+
              $label{$to_id} = $intmd_label;
              $wcolor{$to_id} = $wcolor;
              $kqw{$to_id} = $kqw;
+             
+             # Apply the full form to the hover_label hash
+             $hover_label{$to_id} = $final_hover;
            }
            if ($new_dummy_index{$to_id} ne $new_index{$to_id}) {
                $rel_str .= "\nNode$new_index{$to_id} -> Node$new_dummy_index{$to_id} \[ $edgedir  style=\"dashed\"\]";
@@ -638,12 +700,19 @@ sub print_constituent_and_intermediate_nodes{
            $intmd_label_to =~ s/$sent([0-9]+)_[0-9]+/$1/;
            $intmd_label_from = $new_label{$from_id};
            $intmd_label_from =~ s/$sent([0-9]+)_[0-9]+/$1/;
+           
+           my $hover_to = (defined $hover_label{$to_id}) ? $hover_label{$to_id} : $intmd_label_to;
+           my $hover_from = (defined $hover_label{$from_id}) ? $hover_label{$from_id} : $intmd_label_from;
+             
+           $hover_to =~ s/$sent([0-9]+)_[0-9]+/$1/;
+           $hover_from =~ s/$sent([0-9]+)_[0-9]+/$1/;
+           
            if ($word_found{$to_id} == 0) { 
-               &print_node_info($to_id,$intmd_label_to,$wcolor,$kqw); 
+               &print_node_info($to_id,$intmd_label_to,$wcolor,$kqw, $hover_to); 
                $word_found{$to_id} = 1; 
            }
            if ($word_found{$from_id} == 0) { 
-               &print_node_info($from_id,$intmd_label_from,$wcolor,$kqw); 
+               &print_node_info($from_id,$intmd_label_from,$wcolor,$kqw, $hover_from); 
                $word_found{$from_id} = 1; 
            }
            #print "intmd = $intmd\n";
@@ -654,15 +723,28 @@ sub print_constituent_and_intermediate_nodes{
             $new_label{$to_id} =~  s/\(.*\)//;
             $new_label{$from_id} =~  s/\(.*\)//;
             $intmd_label = $new_label{$to_id}."-".$new_label{$from_id};
-	    $intmd_label =~ s/[<>]//g;
+	          $intmd_label =~ s/[<>]//g;
+
+            # Look up the abbreviation and full form based on $samAsa_type
+            my ($display_tag, $hover_full_form) = &get_compound_map($samAsa_type);
+            my $hover_tooltip = "";
+
             #print "intmd_label = $intmd_label\n";
             if($last == 0) { 
-                  $intmd_label =  "<". $intmd_label.">($samAsa_type)";
+                  $intmd_label_display =  $intmd_label." (".$display_tag.")";
+                  $hover_tooltip =  $intmd_label." (".$hover_full_form.")";
             }
-            $new_label{$from_id} = $intmd_label;
-            $intmd_label =~ s/$sent([0-9]+)_[0-9]+/$1/;
+            else {
+                 $intmd_label_display = $intmd_label;
+                 $hover_tooltip = $intmd_label;
+            }
+            $new_label{$from_id} = $intmd_label_display;
+            $hover_label{$from_id} = $hover_tooltip;
+            
+            $intmd_label_display =~ s/$sent([0-9]+)_[0-9]+/$1/;
+            $hover_tooltip =~ s/$sent([0-9]+)_[0-9]+/$1/;
             if (($word_found{$intmd} == 0)  || $dvandva_found == 1){ 
-                &print_node_info($intmd,$intmd_label,$wcolor,$kqw); 
+                &print_node_info($intmd,$intmd_label_display,$wcolor,$kqw, $hover_tooltip); 
                 $word_found{$intmd} = 1; 
             }
          }
@@ -682,6 +764,9 @@ sub print_constituent_and_intermediate_nodes{
       #print "tmp_indx_to = $tmp_indx_to\n";
       #print "tmp_indx_from = $tmp_indx_from\n";
 
+      my ($display_rel, $hover_rel) = &get_compound_map($rel);
+      $hover_rel =~ s/[<>"']//g;
+
       if ($intmd ne ""){
           $rel_str .= "\nNode$old_index{$from_id} -> Node$intmd \[ $edgedir \]";
           $rel_str .= "\nNode$tmp_indx_to -> Node$intmd \[ $edgedir \]";
@@ -696,7 +781,7 @@ sub print_constituent_and_intermediate_nodes{
               $rel_str .= "\nNode$tmp_indx_to -> Node$tmp_indx_from \[ $edgedir \]";
               #print "C rel_str = Node$tmp_indx_to -> Node$tmp_indx_from \[ $edgedir \]\n";
           } else {
-              $rel_str .= "\nNode$tmp_indx_to -> Node$tmp_indx_from \[ label=\"$rel\" $edgedir \]";
+              $rel_str .= "\nNode$tmp_indx_to -> Node$tmp_indx_from \[ label=\"$display_rel\" tooltip=\"$hover_rel\" edgetooltip=\"$hover_rel\" labeltooltip=\"$hover_rel\" $edgedir \]";
           }
       }
       #print "tmp_indx_to = $tmp_indx_to from = $tmp_indx_from \n";
@@ -798,14 +883,16 @@ sub print_subtree {
     my $component_indx = 0;
     my(@comp);
     chomp($rows[$indx]);
-    $rows[$indx] =~ s///g;
+    $rows[$indx] =~ s/
+//g;
     my @flds = split(/\t/,$rows[$indx]);
     while ($flds[$wrd_fld_id] =~ /\-/) {
               $comp[$component_indx] = &add_compound_components($rows[$indx]);
             $component_indx++;
             $indx++;
             chomp($rows[$indx]);
-            $rows[$indx] =~ s///g;
+            $rows[$indx] =~ s/
+//g;
             @flds = split(/\t/,$rows[$indx]);
     }
     my $ans = join('%',$indx,$component_indx,@comp);
@@ -833,7 +920,7 @@ sub add_relations{
                     if($new_index{$d_id} ne "") { $d_id = $new_index{$d_id};} 
                     if($new_index{$s_id} ne "") { $s_id = $new_index{$s_id};} 
 		    #if (($rel_nm !~ /samuccita/) && ($rel_nm !~ /समुच्चित/) && ($rel_nm ne "viśeṣaṇa") && ($rel_nm ne "विशेषणम्")) {
-                        $str .= "\nNode$s_id -> Node$d_id \[ $s_str label=\"".$rel_nm."\"  $edgedir \]";
+                        $str .= "\nNode$s_id -> Node$d_id \[ $s_str label=\"".$rel_nm."\" tooltip=\"Relation: ".$rel_nm."\" edgetooltip=\"".$rel_nm."\" labeltooltip=\"".$rel_nm."\" $edgedir \]";
                     #}
 		    #if (($rel_nm ne "viśeṣaṇa) && ($rel_nm ne "विशेषणम्")) {
                     #    $str .= "\nNode$s_id -> Node$d_id \[ $s_str label=\"".$rel_nm."\"  $edgedir \]";

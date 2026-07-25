@@ -169,8 +169,14 @@ for line in in_lines:
                 modified_line = cur_line_values[:3] + [ fourth_morphs, fifth_morphs, sixth_morphs ]
                 modified_line_str = "\t".join(modified_line)
 
-                last_cmpnt_details_str = modified_line_str.replace(last_prAwipaxika,new_xvanxva_cpd_str)
-                last_cmpnt_details = last_cmpnt_details_str.replace(last_prAwipaxika_iic_form,new_xvanxva_cpd_str_iic_form).split("\t")
+                if last_prAwipaxika_iic_form in modified_line_str:
+                    last_cmpnt_details_str = modified_line_str.replace(last_prAwipaxika_iic_form,new_xvanxva_cpd_str_iic_form)
+                elif last_prAwipaxika in modified_line_str:
+                    last_cmpnt_details_str = modified_line_str.replace(last_prAwipaxika,new_xvanxva_cpd_str)
+                else:
+                    last_cmpnt_details_str = modified_line_str
+                
+                last_cmpnt_details = last_cmpnt_details_str.split("\t")
                 
                 # To check for possible stem differences in the morph analysis
                 # and replace with new compound prAwipaxika

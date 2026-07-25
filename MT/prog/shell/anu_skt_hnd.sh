@@ -117,7 +117,8 @@ hnd_gen () {
     $ANU_MT_PATH/chunker/lwg.pl |\
     $ANU_MT_PATH/map/add_dict_mng.pl $CGIDIR/$SCL_CGI $ANU_MT_PATH/../data hi |\
     $ANU_MT_PATH/map/lwg_avy_avy.pl $CGIDIR/$SCL_CGI $ANU_MT_PATH/../data hi  |\
-    $ANU_MT_PATH/hn/sent_gen/agreement.pl $ANU_MT_PATH/../data $ANU_MT_PATH/hn/sent_gen D |\
+    #$ANU_MT_PATH/hn/sent_gen/agreement.pl $ANU_MT_PATH/../data $ANU_MT_PATH/hn/sent_gen D |\
+    $ANU_MT_PATH/hn/sent_gen/agreement.pl $ANU_MT_PATH/../data $ANU_MT_PATH/hn/sent_gen |\
     $ANU_MT_PATH/hn/sent_gen/call_gen.pl $CGIDIR/$SCL_CGI  |\
     $ANU_MT_PATH/interface/modify_mo_for_display.pl $CGIDIR/$SCL_CGI > $temp_files_path/ttt
     #cp $temp_files_path/ttt $temp_files_path/$fbn.out
@@ -177,7 +178,9 @@ hnd_gen () {
  draw_graph () {
    #$ANU_MT_PATH/kAraka/draw_graph.pl $temp_files_path 1 < $temp_files_path/table_outscript.tsv
    #$ANU_MT_PATH/kAraka/draw_graph_gen.pl $temp_files_path 1 No < $temp_files_path/table_outscript.tsv
-   cut -f1,2,6,7,9 $temp_files_path/table_outscript.tsv | $ANU_MT_PATH/kAraka/draw_graph_gen.pl $temp_files_path 1 No
+   cut -f1,2,6,7,9 $temp_files_path/table_outscript.tsv > $temp_files_path/table_outscript_for_graph.txt
+   #| $ANU_MT_PATH/kAraka/draw_graph_gen.pl $temp_files_path 1 No "$OUTSCRIPT" < $temp_files_path/table_outscript.tsv
+   $ANU_MT_PATH/kAraka/draw_graph_gen.pl $temp_files_path 1 No "$OUTSCRIPT" < $temp_files_path/table_outscript_for_graph.txt
    $GraphvizDot -Tsvg -o$temp_files_path/tmp.svg $temp_files_path/1.dot
    $ANU_MT_PATH/kAraka/add_hidden_sub_gen.pl No < $temp_files_path/tmp.svg > $temp_files_path/1.svg
    #$MYPYTHONPATH $ANU_MT_PATH/reader_generator/csv2xlsx.py $temp_files_path/table_outscript.tsv $temp_files_path/table.xlsx
