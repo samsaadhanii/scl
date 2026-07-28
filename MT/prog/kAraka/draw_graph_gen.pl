@@ -112,8 +112,7 @@ sub get_compound_map {
       while($i <= $#rows) {
 	#print $i, "\t", $rows[$i],"\n";
 	chomp($rows[$i]);	# chop the newline
-        $rows[$i] =~ s/
-//g;
+        $rows[$i] =~ s///g;
 	$rows[$i] =~ s/\./_/g;	# Dot does not allow '.'s in the Node labels.
         @flds = split(/\t/,$rows[$i]);	# split the input into fields
         # Process only genuine lines and ignore others
@@ -140,7 +139,7 @@ sub get_compound_map {
                 @rels = split(/;/,$flds[$rel_fld_id]);
                 for ($z=0;$z<=$#rels;$z++) { 
                      if ($rels[$z] =~ /,/) {
-                        ($rel_nm,$d_id) = split(/:/,&get_relnm_id ($rels[$z]));
+                        ($rel_nm,$d_id) = split(/#/,&get_relnm_id ($rels[$z]));
                         $rank .= &mark_niwya_sambanXa($rel_nm,$s_id,$d_id);
                         ($cluster_no, $non_cluster) = split(/:/,&classify_cluster_non_cluster($rel_nm,$cluster_no,$non_cluster,$s_id,$d_id));
                      } elsif (($s_id ne "") && ($non_cluster !~ /#$s_id,/)) {  # If the relation is empty, as in the case of verbs, the node is added to non cluster list
@@ -428,7 +427,7 @@ my($rel) = @_;
    $d_id = $2;
  }
 
-$ans = join (':',$rel_nm,$d_id);
+$ans = join ('#',$rel_nm,$d_id);
 $ans;
 }
 1;
@@ -913,7 +912,7 @@ sub add_relations{
         @rels = split(/;/,$flds[$rel_fld_id]);
         for ($z=0;$z<=$#rels;$z++) {
              if ($rels[$z] =~ /,/) {
-                ($rel_nm,$d_id) = split(/:/,&get_relnm_id ($rels[$z]));
+                ($rel_nm,$d_id) = split(/#/,&get_relnm_id ($rels[$z]));
                 ($edgestyle,$edgedir) = split(/:/, &get_edgestyle_edge_dir($rel_nm,$z));
                 if($edgestyle ne "") { $s_str = "style=$edgestyle";} else {$s_str = "";}
                 if (($d_id ne "") && ($rel_nm !~ /abhihita/) && ($rel_nm !~ /अभिहित/)){
