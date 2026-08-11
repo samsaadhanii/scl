@@ -67,6 +67,7 @@ morph: 	{}
 				 if(debug) {printf(" in phase noun\n");}
 				}
 \<tags[ ]phase=\"iic\"\>	{strcpy(vargaH,"sapUpa"); 
+				 strcpy(prati,word);
 				 strcat(word,"-");
                                  iic_count++;
 				 if(debug) {printf(" in phase iic\n");}
@@ -185,7 +186,7 @@ morph: 	{}
                       if(i >= 1) { strcat(ans,"/");}
                       if(!strcmp(vargaH,"nA")) {
                          if(strcmp(iic,"") && (i == 0)){
-                           sprintf(tmp,"%s-",iic);
+                           sprintf(tmp,"%s-",iic); 
 			   strcat(ans,tmp);
                            tmp[0] = '\0';
                          }
@@ -214,7 +215,7 @@ morph: 	{}
                          tmp[0] = '\0';
                       }
                       else if(!strcmp(vargaH,"sapUpa")) {
-                         sprintf(tmp,"%s<vargaH:%s><level:0>",word,vargaH);
+                         sprintf(tmp,"%s<vargaH:%s><level:0>",prati,vargaH);
 			 strcat(ans,tmp);
                          tmp[0] = '\0';
                       }
