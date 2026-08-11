@@ -6,6 +6,6 @@ value xvikarmaka_XAwu_list2 = [
 "kqR1";
 "prawi_NI1";
 "upa_Af_NI1";
-"vah1"
+"vah1";
 ]
 ;

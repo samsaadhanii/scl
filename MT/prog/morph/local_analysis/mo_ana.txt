@@ -44,6 +44,7 @@ CalayawAm	Calayaw<vargaH:nA><lifgam:napuM><viBakwiH:6><vacanam:bahu><level:1>
 camU	camU<vargaH:nA><lifgam:swrI><viBakwiH:1><vacanam:eka><level:1>
 cikIrRuH	kq1<sanAxi_prawyayaH:san><kqw_prawyayaH:u><XAwuH:dukqF><gaNaH:wanAxiH><kqw_pratipadika:cikIrRu><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 cIwkarowi	kq3<upasarga:cIw><prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:dukqF><gaNaH:wanAxiH><level:1>
+svIkariRyawi	kq3<upasarga:svI><prayogaH:karwari><lakAraH:lqt><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:dukqF><gaNaH:wanAxiH><level:1>
 cUrNiwE	cUrNiwa<vargaH:nA><lifgam:puM><viBakwiH:3><vacanam:bahu><level:1>
 eke	eka<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:bahu><level:1>
 guhyawamam	guhyawama<vargaH:nA><lifgam:napuM><viBakwiH:2><vacanam:eka><level:1>
@@ -106,6 +107,7 @@ sawwama	sawwama<vargaH:nA><lifgam:puM><viBakwiH:8><vacanam:eka><level:1>
 sawwvavawAm	sawwvavaw<vargaH:nA><lifgam:puM><viBakwiH:6><vacanam:bahu><level:1>
 saxqS	saxqS<vargaH:nA><lifgam:puM><viBakwiH:1><vacanam:eka><level:1>
 senAnInAm	senAnin<vargaH:nA><lifgam:puM><viBakwiH:6><vacanam:bahu><level:1>
+vimarxayawi	mqx1<upasarga:vi><sanAxi_prawyayaH:Nic><prayogaH:karwari><lakAraH:lat><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:mqx1><gaNaH:kryAxiH><level:1>
 svIkariRyawi	svIkq1<prayogaH:karwari><lakAraH:lqt><puruRaH:pra><vacanam:eka><paxI:parasmEpaxI><XAwuH:svIkq><gaNaH:wanAxiH><level:1>
 upakArArWam	upakAra<vargaH:nA><lifgam:napuM><viBakwiH:1><vacanam:eka><level:1>
 upakramewa	kram1<upasarga:upa><prayogaH:karmaNi><lakAraH:viXilif><puruRaH:ma><vacanam:ba><paxI:paramEpaxI><XAwuH:kram><gaNaH:BvAxiH><level:1>

@@ -148,5 +148,8 @@ value relations_encodings = [
         ("@Bsmn",1043); (* naF_bahuvrIhiH *)
 	("@K7",1044); (* karmaXArayaH_7 *)
 	("samAsaH",1050); (* samAsaH *)
+        ("@Tds",1051); (* samAhAra-xvigu_wawpuruRaH *)
+        ("@Tdt",1052); (* waxXiwAnwa-xvigu_wawpuruRaH *)
+        ("@Tdu",1053); (* uwwarapaxa-xvigu_wawpuruRaH *)
         ]
 ;

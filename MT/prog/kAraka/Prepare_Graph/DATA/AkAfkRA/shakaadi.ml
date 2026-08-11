@@ -12,6 +12,6 @@ value shakaadi_list = [
 "upa_Af_laB1";
 "vix2";
 "vqw1";
-"xqS1"
+"xqS1";
 ]
 ;

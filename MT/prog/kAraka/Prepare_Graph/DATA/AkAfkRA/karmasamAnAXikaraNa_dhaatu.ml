@@ -9,6 +9,6 @@ value karmasamAnAXikaraNa_XAwu_list = [
 "pra_brU1";
 "vac1";
 "vi_XA1";
-"vix1"
+"vix1";
 ]
 ;

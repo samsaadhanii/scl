@@ -145,3 +145,6 @@ upamAnam_rahiwa_upamAna_xyowakaH 1080
 @Bsmn 1043
 @K7 1044
 samAsaH 1050
+@Tds 1051
+@Tdt 1052
+@Tdu 1053

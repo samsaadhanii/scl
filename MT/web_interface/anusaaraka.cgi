@@ -129,6 +129,9 @@ package main;
          $sent =~ s/ /\+/g;
          $path="$GlblVar::CGIDIR/$GlblVar::HERITAGE_CGI";
 	 $cmd = "QUERY_STRING=\"lex=MW\&cache=f\&st=t\&us=f\&font=$Hscript\&cp=t\&text=$sent\&t=WX\&topic=\&mode=f&pipeline=t&fmode=w\" $path |  tail -1  | $myPATH/MT/prog/Heritage_morph_interface/Heritage2anusaaraka_morph.sh $myPATH $GlblVar::TFPATH $pid";
+         open (TMP,">/tmp/abcd123");
+         print TMP $cmd;
+         close (TMP);
          system($cmd);
 
 	 $text_type = "Prose"; ## Anvaya programme has some problem, and does not work properly on this

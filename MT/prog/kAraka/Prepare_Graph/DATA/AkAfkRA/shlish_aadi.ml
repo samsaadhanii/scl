@@ -13,6 +13,6 @@ value shlish_aadi_list = [
 "upa_RWA1";
 "upa_SIf1";
 "upa_SliR1";
-"vas1"
+"vas1";
 ]
 ;

@@ -323,7 +323,7 @@ value rl_compound_viBakwi_wa_pu m1 m2 text_type = match m1 with
               -> [ Relation (id1,cid1,mid1,"@T3",id2,cid2,mid2,"200.15a",0) ]
             | _ -> [] 
             ]
-          | "saxqSa" | "sama" | "Una" | "kalaha" | "miSra" | "SlakRNa"
+          | "saxqSa" | "sama" | "Una" | "kalaha" | "miSra" | "SlakRNa" | "kRINa" (* vyAXi-kRINAn snehayanwi *)
             (* pUrvasaxqSasamonArWakalahanipuNamiSraSlakRNEH (2-1-31) *)
             -> [ Relation (id1,cid1,mid1,"@T3",id2,cid2,mid2,"200.15b",0) ]
           | "XAna" | "anna" | "oxana" | "pqWuka" 
@@ -568,15 +568,15 @@ value rl_compound_xvigu m1 m2 text_type = match m1 with
           (* 2-1-52 *)
           [ Relation (id1,cid1,mid1,"@Tdt",id2,cid2,mid2,"200.41",0) ] 
         else if member_of rt1 safKyA_vAcI then 
-          if lifga2 = "napuM" then
+          if lifga2 = "napuM" || lifga2 = "a" then (* wri-xoRAn; here wri is marked with lifgam = a *)
             (* 2-1-51 *)
-            [ Relation (id1,cid1,mid1,"Tds",id2,cid2,mid2,"200.42",0) ] 
+            [ Relation (id1,cid1,mid1,"@Tds",id2,cid2,mid2,"200.42",0) ] 
           (* Added by Amba to handle ((wri-loka)Td-jFAH)Bs6 *)
           else if (id1 = id2) && (pUrvapaxa1="y") && (uwwarapaxa2="y") then
-            [ Relation (id1,cid1,mid1,"Tds",id2,cid2,mid2,"200.42a",0) ] 
+            [ Relation (id1,cid1,mid1,"@Tds",id2,cid2,mid2,"200.42a",0) ] 
           else if member_of (word1 ^ rt2) named_entity then
             (* 2-1-50 *)
-            [ Relation (id1,cid1,mid1,"Tds",id2,cid2,mid2,"200.43",0) ] 
+            [ Relation (id1,cid1,mid1,"@Tds",id2,cid2,mid2,"200.43",0) ] 
           else []
         else []
       else []
