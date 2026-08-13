@@ -482,11 +482,11 @@ value outgoing_incompatible_rels rpair = match rpair with
    |(7,81) *)
    |(7,6) (* karWA and karwA_be_verbs *)
    |(6,7)
-   |(12,14) (* If there is a vAkyakarma, then there can not be a karma  and muKya karma, but there can be gONa karma*)
+   |(12,14) (* If there is a vAkya:karma, then there can not be a karma  and muKya karma, but there can be gONa karma*)
    |(14,12)
    |(12,11)
    |(11,12) 
-   |(13,12) (* If there is a vAkyakarma, there can not be a karmasamAnAXikaraNa *)
+   |(13,12) (* If there is a vAkya:karma, there can not be a karmasamAnAXikaraNa *)
    |(12,13)
    (* |(12,10) *)
   (* |(10,12) *)
@@ -643,7 +643,7 @@ print_int r1; print_string " "; print_int r2; print_string "\n";
          then False  (* do { print_string "C13\n"; False} *)
 
       (* There can not be a samboXya of a verb, which is viSeRaNa/pUrvakAla etc. Only 'iwi' relation with such verbs are allowed. 
-              samboXya=49; vAkyakarama=12 ; prawiyogi=3*)
+              samboXya=49; vAkya:karama=12 ; prawiyogi=3*)
 (* need example *)
          else if sequence from_id2 from_cid2 from_mid2 to_id1 to_cid1 to_mid1
                 && (r2=49) && not (r1=12)
