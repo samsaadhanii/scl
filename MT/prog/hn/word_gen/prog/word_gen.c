@@ -5,13 +5,13 @@
 #include <string.h>
 #include "../headers/all_purpose.h"
 
-extern void strcpy_till();
-extern void noun_gen();
-extern void pron_gen();
-extern void verb_gen();
-extern void adj_gen();
+extern void strcpy_till(char *, char *, char *, char);
+extern void noun_gen(char *, char *, char *, char *, char *);
+extern void pron_gen(char *, char *, char *, char *, char *);
+extern void verb_gen(char *, char *, char *, char *, char *, char *, int);
+extern void adj_gen(char *, char *, char *, char *, char *);
 
-void word_gen(result,root,category,gender,number,person,TAM,GNP_FLAG,SHOW_FLAG)
+/*void word_gen(result,root,category,gender,number,person,TAM,GNP_FLAG,SHOW_FLAG)
 char result[VERY_LARGE];
 char root[VERY_LARGE];
 char category[MEDIUM];
@@ -20,7 +20,8 @@ char number[SMALL];
 char person[SMALL];
 char TAM[MEDIUM];
 int GNP_FLAG;
-int SHOW_FLAG;
+int SHOW_FLAG; */
+void word_gen(char result[VERY_LARGE],char root[VERY_LARGE],char category[MEDIUM],char gender[SMALL],char number[SMALL],char person[SMALL],char TAM[MEDIUM],int GNP_FLAG,int SHOW_FLAG)
 {
 	char jnk[VERY_LARGE];
 	strcpy(jnk,"");

@@ -2,8 +2,9 @@
 #include <string.h>
 /* #include "/usr/ucbinclude/strings.h" */
 
-int sufix(str1,str2)
-char *str1, *str2;
+/*int sufix(str1,str2)
+char *str1, *str2; */
+int sufix(char *str1, char *str2)
 /* Check if str2 is the suffix for str1 */
 {
    int len1,len2;
@@ -17,9 +18,10 @@ char *str1, *str2;
    return 1;
 }
 
-void delete_from_end(word,no_of_char)
+/*void delete_from_end(word,no_of_char)
 char *word;
-int no_of_char;
+int no_of_char; */
+void delete_from_end(char *word, int no_of_char)
 {
   int i,j;
 

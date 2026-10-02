@@ -3,7 +3,7 @@
 extern char ques[LARGE];
 extern char p1_utf[MEDIUMUTF];
 extern char p2_utf[MEDIUMUTF];
-extern void gawi_cgi_interface();
+extern void gawi_cgi_interface(char *, int, char *);
 %}
 %option nounput
 %option noinput

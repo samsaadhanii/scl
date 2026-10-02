@@ -6,7 +6,7 @@
 #include "struct.h"
 #include "paths.h"
 
-extern void fgetword();
+extern void fgetword(FILE *, char *, char);
 
 void get_sandhied_word (char *prAwipaxikam1, char *prAwipaxikam2, char *sandhiw)
 {

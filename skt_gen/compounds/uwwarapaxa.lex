@@ -3,7 +3,7 @@
 extern char ques[LARGE];
 extern char ustr[MEDIUMUTF];
 extern char sUwrastr[LARGE];
-extern void uwwarapaxa_cgi_interface();
+extern void uwwarapaxa_cgi_interface(char *, char *, char *);
 %}
 %option nounput
 %option noinput
@@ -50,7 +50,8 @@ kumBAxi	(kumBa|eka|jAla|SUla|muni|guNa|Sawa|sUwra|goXA|kalaSI|vi|wqNa|xvi|wri|Ra
 ^{prA}[ ]ciwi[ ].*		{uwwarapaxa_cgi_interface("NULL","ciwI","चितेः कपि 6.3.127");}
 ^(Sara|ikRu|plakRa|Amra|kArRya|Kaxira|pIyUkRA)[ ]vana[ ].*	{uwwarapaxa_cgi_interface("NULL","vaNa","प्रनिरन्तःशरेक्षुप्लक्षाम्रकार्ष्यखदिरपीयूक्षाभ्योऽसंज्ञायामपि 8.4.5");}
 ^(pra|nir|anwar)[ ]vana[ ].*	{uwwarapaxa_cgi_interface("NULL","vaNa","प्रनिरन्तःशरेक्षुप्लक्षाम्रकार्ष्यखदिरपीयूक्षाभ्योऽसंज्ञायामपि 8.4.5");}
-^(puragA|miSrakA|siXrakA|sArikA|kotara|agra)[ ]vana[ ].*	{uwwarapaxa_cgi_interface("NULL","vaNa"); strcpy(sUwrastr,"वनं पुरगामिश्रकासिध्रकासारिकाकोटराग्रेभ्यः 8.4.4");}
+  /*^(puragA|miSrakA|siXrakA|sArikA|kotara|agra)[ ]vana[ ].*	{uwwarapaxa_cgi_interface("NULL","vaNa"); strcpy(sUwrastr,"वनं पुरगामिश्रकासिध्रकासारिकाकोटराग्रेभ्यः 8.4.4");}*/
+^(puragA|miSrakA|siXrakA|sArikA|kotara|agra)[ ]vana[ ].*	{uwwarapaxa_cgi_interface("NULL","vaNa","वनं पुरगामिश्रकासिध्रकासारिकाकोटराग्रेभ्यः 8.4.4");}
 ^(sarva|saMkyAwa|pUrva|maXya)[ ]ahan[ ].*	{uwwarapaxa_cgi_interface("NULL","ahna","अह्नोऽह्न एतेभ्यः 5.4.88");}
 ^{safKyA}[ ]ahan[ ].*	{ uwwarapaxa_cgi_interface("NULL","","न संख्यादेः समाहारे 5.4.89");}
 ^(puNya|eka)[ ]ahan[ ].*	{ uwwarapaxa_cgi_interface("NULL","","उत्तमैकाभ्याम् च 5.4.90");}
@@ -88,9 +89,9 @@ char samAsaprakAra[MEDIUM];
 char encoding[MEDIUM];
 int divid;
 
-void uwwarapaxa_cgi_interface();
-void call_uwwarapaxalex();
-extern void cnvrtutfd2r();
+/*void uwwarapaxa_cgi_interface(char *, char *, char *);*/
+void call_uwwarapaxalex(char *);
+extern void cnvrtutfd2r(char *, char *);
 
 int main (int argc, char *argv[]) {
 char in[MEDIUM];

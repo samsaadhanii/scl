@@ -5,7 +5,7 @@ extern char alukviBARA[MEDIUM];
 extern char sUwrastr[LARGE];
 extern char p1_utf[MEDIUMUTF];
 extern char p2_utf[MEDIUMUTF];
-extern void aluk_cgi_interface();
+extern void aluk_cgi_interface(char *, int, char *);
 %}
 %option nounput
 %option noinput
@@ -103,10 +103,10 @@ char avigraha[MEDIUM];
 char encoding[MEDIUM];
 int divid;
 
-void aluk_cgi_interface();
-void call_aluklex();
-void cnvrtwx2utf();
-void cnvrtutfd2r();
+/*void aluk_cgi_interface();*/
+void call_aluklex(char *);
+void cnvrtwx2utf(char *, char *);
+void cnvrtutfd2r(char *, char *);
 int yywrap();
 
 void call_aluklex(char *in){

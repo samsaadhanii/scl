@@ -20,7 +20,7 @@ char tmp[100];
 extern int debug;
 
 int yylex();
-int yyerror();
+int yyerror(char *);
 %}
 
 %token <nodeinfo> sambanXaH

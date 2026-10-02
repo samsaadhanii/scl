@@ -496,7 +496,8 @@ value rl_compound_K m1 m2 text_type = match m1 with
                       (* 2-1-56 *)
                       [ Relation (id1,cid1,mid1,"@K5",id2,cid2,mid2,"200.37",0) ]
                     else if (member_of rt2 guNavacana || member_of rt2 guNa_not_guNavacana) 
-                            && member_of rt1 xravyavAcI then 
+                            && member_of rt1 xravyavAcI 
+                            && not (rt2="sahiwa") then 
                       (* 2-1-55 *)
                       [ Relation (id1,cid1,mid1,"@K4",id2,cid2,mid2,"200.38",0) ]
                     else if 

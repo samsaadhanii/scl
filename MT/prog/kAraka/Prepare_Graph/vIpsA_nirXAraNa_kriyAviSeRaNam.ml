@@ -10,6 +10,7 @@ value rlAvy_kriyAviSeRaNam_or_aXikaraNam m1 m2 text_type = match m2 with
   [ Wif (id2,cid2,mid2,word2,_,pUrvapaxa2,uwwarapaxa2,_,_,_,_,_,_,_,_,_) 
   | Avykqw (id2,cid2,mid2,word2,_,pUrvapaxa2,uwwarapaxa2,_,_,_,_,_) -> 
      if  pUrvapaxa2="y" || uwwarapaxa2="y" then []
+     else if word2 = "AraBya" then []  (* wawA eva ... AraBya .. paryanwam ....Bavew *)
      else match m1 with
      [ Avykqw (id1,cid1,mid1,word1,_,_,uwwarapaxa1,_,_,_,_,_)
      | Avy (id1,cid1,mid1,word1,_,_,uwwarapaxa1,_) -> 
@@ -172,25 +173,61 @@ value rlvIpsA m1 m2 text_type = match m2 with
 saH wawaH praBqwi na AgacCawi
 saH wawaH param prawixinam pATam paTawi *)
 
-value rl_avaXi m1 m2 text_type = match m2 with
-  [ Avy (id2,cid2,mid2,word2,_,_,_,_) 
-  | Sup (id2,cid2,mid2,word2,_,_,_,_,_,_,_) ->
-      match m1 with
-     [ Avy (id1,cid1,mid1,word1,_,_,_,_) -> 
-       let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
-       match word1 with
-       [ "praBqwi" 
-       | "AraBya" 
-       | "param"   -> if  (id1 = next id2) 
-                      then [ Relation (id1,cid1,mid1,"avaXi_Axi",id2,cid2,mid2,"36.1a",d12)]
-                      else []
-       | "paryanwam"  -> if  (id1 = next id2) 
-                      then [ Relation (id1,cid1,mid1,"avaXi_anwa",id2,cid2,mid2,"36.1b",d12)]
-                      else []
-       | _ -> []
-       ]
+value rl_avaXi3 m1 m2 m3 text_type = match m3 with
+  [ Wif (id3,cid3,mid3,_,_,_,_,_,_,_,_,_,_,_,_,_) 
+  | Kqw (id3,cid3,mid3,_,_,_,_,_,_,_,_,_,_,_,_,_,_)  
+  | Avykqw (id3,cid3,mid3,_,_,_,_,_,_,_,_,_) ->  match m2 with
+     [ Avy (id2,cid2,mid2,word2,_,_,_,_) 
+     | Sup (id2,cid2,mid2,word2,_,_,_,_,_,_,_) -> match m1 with
+        [ Avy (id1,cid1,mid1,word1,_,_,_,_)
+        | Sup (id1,cid1,mid1,word1,_,_,_,_,_,_,_) -> 
+          let     d12 = if id1 > id2 then id1-id2 else id2-id1
+             and  d23 = if id2 > id3 then id2-id3 else id3-id2 in
+          match word1 with
+          [ "praBqwi" 
+          | "AraBya" 
+          | "param"   -> if  (id1 = next id2) 
+                         then [ Relation (id1,cid1,mid1,"sanxarBa",id2,cid2,mid2,"36.1a",d12)
+                              ; Relation (id2,cid2,mid2,"avaXi_Axi",id3,cid3,mid3,"36.1a",d23)]
+                         else []
+          | "paryanwam"  -> if  (id1 = next id2) 
+                         then [ Relation (id1,cid1,mid1,"sanxarBa",id2,cid2,mid2,"36.1b",d12)
+                              ; Relation (id2,cid2,mid2,"avaXi_anwa",id3,cid3,mid3,"36.1b",d23)]
+                         else []
+          | _ -> []
+          ]
+        | _ -> []
+        ] 
      | _ -> []
-     ] 
+     ]
   | _ -> []
   ]
   ;
+
+value rl_avaXi2 m1 m2 text_type = match m2 with
+  [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_) 
+  | Kqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_)  -> match m1 with
+        [ Avy (id1,cid1,mid1,_,rt1,_,_,_) -> 
+          let     d12 = if id1 > id2 then id1-id2 else id2-id1 in
+          match rt1 with
+          [ "praBqwi" 
+          | "param"     -> [ Relation (id1,cid1,mid1,"avaXi_Axi",id2,cid2,mid2,"36.1a",d12)]
+          | _ -> []
+          ]
+        | Sup (id1,cid1,mid1,_,rt1,_,_,_,_,_,_) -> 
+          let     d12 = if id1 > id2 then id1-id2 else id2-id1 in
+          match rt1 with
+          [ "paryanwa"  -> [ Relation (id1,cid1,mid1,"avaXi_anwa",id2,cid2,mid2,"36.1b",d12)]
+          | _ -> []
+          ]
+        | Avykqw (id1,cid1,mid1,word1,_,_,_,_,_,_,_,_) -> 
+          let     d12 = if id1 > id2 then id1-id2 else id2-id1 in
+          match word1 with
+          [ "AraBya"     -> [ Relation (id1,cid1,mid1,"avaXi_Axi",id2,cid2,mid2,"36.1c",d12)]
+          | _ -> []
+          ]
+        | _ -> []
+        ]
+  | _ -> []
+  ]
+;

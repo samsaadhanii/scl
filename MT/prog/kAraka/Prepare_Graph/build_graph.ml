@@ -35,10 +35,10 @@ open ViSeRaNa;
 
 value all_rules2 = 
 [
-rlwifkarwA_karma; rlkqwkarwA_karma; rlanaBihiwe; rlapAxAna_wasil; rlAvy_kriyAviSeRaNam_or_aXikaraNam; rlpUrvakAla; rlwumun1; rlwumun2; (*rlkwa_as;*) rlsamAnakAla; rlviSeRaNam; rlavy_viSeRaNam; rlvIpsA; rlsamboXana_xyowakaH; rlnirXAraNam; rlupapaxa_other_rel; rlupapaxa; rlsambanXa1; rlavy_wif_mA; rlavy_wifkqw_special; rl_sma_sawi; (*rlavy_sent_connector; *) rl_kAraka_RaRTI1; rl_kAraka_RaRTI2; rl_kAraka_RaRTI3; rlAvykqw_karma; rlevamkarma; rl_last_iwi; rlRaRTIsambanXaH; rlviRayAXikaraNam; (*rlniwya_sambanXa_avy; rlniwya_sambanXa_sup;  rl_initial_avy;*)  rl_ca; (*rlsent_beginning_connectives; rlparimANa_viSeRaNam;*) rl_exclamatory1; (*rlhewu_sup;*) rlkarwqrahiwakarwqsamAnAXikaraNam; rlafgavikAra;  rl_spl_aXikaraNam; (* rlkarwqsamAnAXikarana_noverb;  This is over-generating  we need more stringent conditions *) rlkriyAviSeRaNam_wqwIyA; rlaXikaraNam; rl_avaXi ]
+rlwifkarwA_karma; rlkqwkarwA_karma; rlanaBihiwe; rlapAxAna_wasil; rlAvy_kriyAviSeRaNam_or_aXikaraNam; rlpUrvakAla; rlwumun1; rlwumun2; (*rlkwa_as;*) rlsamAnakAla; rlviSeRaNam; rlavy_viSeRaNam; rlvIpsA; rlsamboXana_xyowakaH; rlnirXAraNam; rlupapaxa_other_rel; rlupapaxa; rlsambanXa1; rlavy_wif_mA; rlavy_wifkqw_special; rl_sma_sawi; (*rlavy_sent_connector; *) rl_kAraka_RaRTI1; rl_kAraka_RaRTI2; rl_kAraka_RaRTI3; rlAvykqw_karma; rlevamkarma; rl_last_iwi; rl_iwi_uxXaraNa; rlRaRTIsambanXaH; rlviRayAXikaraNam; (*rlniwya_sambanXa_avy; rlniwya_sambanXa_sup;  rl_initial_avy;*)  rl_ca; (*rlsent_beginning_connectives; rlparimANa_viSeRaNam;*) rl_exclamatory1; (*rlhewu_sup;*) rlkarwqrahiwakarwqsamAnAXikaraNam; rlafgavikAra;  rl_spl_aXikaraNam; (* rlkarwqsamAnAXikarana_noverb;  This is over-generating  we need more stringent conditions *) rlkriyAviSeRaNam_wqwIyA; rlaXikaraNam; rl_avaXi2 ]
 ;
 
-value all_rules3 = [rlkarwqsamAnAXikaraNam; rlkarmasamAnAXikaraNam; rlvAkyakarma; rlvAkyakarma1; (*rlsent_connectives;*) rlupamAna_upameya_sup; rlca_samucciwa; rl_exclamatory2; rl_ca_wif_aBihiwa_karwA_karma; rl_wulanA; rl_nAma; rl_saha_vinA_kqwe; (*rl_wif_kriyA_kriyA; *) rlBAvalakRaNa_sapwamI1; rl_hi; rl_anyawara; rlhewuprayoge]
+value all_rules3 = [rlkarwqsamAnAXikaraNam; rlkarmasamAnAXikaraNam; rlvAkyakarma; rlvAkyakarma1; (*rlsent_connectives;*) rlupamAna_upameya_sup; rlca_samucciwa; rl_exclamatory2; rl_ca_wif_aBihiwa_karwA_karma; rl_wulanA; rl_nAma; rl_saha_vinA_kqwe; (*rl_wif_kriyA_kriyA; *) rlBAvalakRaNa_sapwamI1; rl_hi; rl_anyawara; rlhewuprayoge; rl_avaXi3]
 ;
 
 value distinct_2 m1 m2 = match m1 with

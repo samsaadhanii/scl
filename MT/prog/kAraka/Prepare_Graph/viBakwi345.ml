@@ -55,7 +55,7 @@ value anaBihiwe m1 m2 id1 cid1 mid1 rt1 word1 pUrvapaxa1 uwwarapaxa1 lifgam1 viB
                                   then [ Relation (id1,cid1,mid1,"karaNa",id2,cid2,mid2,"4.3",d12) ]  (*karwq karaNayoswqwIyA - yAnena gacCawi*) 
                                   else if member_of rt1 saMKyeya
                                        then [ Relation (id1,cid1,mid1,"karaNa",id2,cid2,mid2,"4.5",d12)]   (*karwq karaNayoswqwIyA - yAnena gacCawi*) 
- 				       else if not (member_of rt1 guNa_not_guNavacana) && not (is_human rt1) && not (rt1 = "asmax") && not (rt1 = "yuRmax") && not (member_of rt1 kqxanwas) 
+ 				       else if not (member_of rt1 guNa_not_guNavacana) && not (is_human rt1) && not (rt1 = "asmax") && not (rt1 = "yuRmax") && not (member_of rt1 kqxanwas) && not (rt1="xiv")
                                        then [ Relation (id1,cid1,mid1,"karaNa",id2,cid2,mid2,"4.6",d12)   (*karwq karaNayoswqwIyA - yAnena gacCawi*) 
                                             ; Relation (id1,cid1,mid1,"hewu",id2,cid2,mid2,"4.7",d12) ]
                                        else [ Relation (id1,cid1,mid1,"hewu",id2,cid2,mid2,"4.8",d12) ]
@@ -238,9 +238,9 @@ Why this condition of 3 & 5 and hewu? We should write this in anaBihiwe itself!
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
            if ((word1 = "yawaH") || (word1 = "wawaH")) 
            then if members_of rt2 upasarga2 apAxAna_verbs
-                then [ Relation (id1,cid1,mid1,"apA",id2,cid2,mid2,"4.39a",d12)
-                     ; Relation (id1,cid1,mid1,"hewuH5",id2,cid2,mid2,"4.39b",d12) ]
-		else [ Relation (id1,cid1,mid1,"hewuH5",id2,cid2,mid2,"4.39c",d12) ]
+                then [ (* Relation (id1,cid1,mid1,"apA",id2,cid2,mid2,"4.39a",d12)  -- This looks rare 
+                     ; *) Relation (id1,cid1,mid1,"vAkya:kAraNa_xyo",id2,cid2,mid2,"4.39b",d12) ]
+		else [ Relation (id1,cid1,mid1,"vAkya:kAraNa_xyo",id2,cid2,mid2,"4.39c",d12) ]
 	   else []
      | _ -> []
      ]
@@ -274,9 +274,9 @@ Why this condition of 3 & 5 and hewu? We should write this in anaBihiwe itself!
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
            if ((word1 = "yawaH") || (word1 = "wawaH")) 
            then if members_of rt2 upasarga2 apAxAna_verbs
-                then [ Relation (id1,cid1,mid1,"apA",id2,cid2,mid2,"4.42a",d12)
-                     ; Relation (id1,cid1,mid1,"hewuH5",id2,cid2,mid2,"4.42b",d12) ]
-		else [ Relation (id1,cid1,mid1,"hewuH5",id2,cid2,mid2,"4.42c",d12) ]
+                then [ (* Relation (id1,cid1,mid1,"apA",id2,cid2,mid2,"4.42a",d12)  -- it looks rare
+                     ; *) Relation (id1,cid1,mid1,"vAkya:kAraNa_xyo",id2,cid2,mid2,"4.42b",d12) ]
+		else [ Relation (id1,cid1,mid1,"vAkya:kAraNa_xyo",id2,cid2,mid2,"4.42c",d12) ]
 	   else []
      | _ -> []
      ]
@@ -298,11 +298,10 @@ Why this condition of 3 & 5 and hewu? We should write this in anaBihiwe itself!
        | Avy (id1,cid1,mid1,word1,_,_,uwwarapaxa1,_) -> 
            let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
            if ((word1 = "yawaH") || (word1 = "wawaH")) 
-           then if members_of rt2 upasarga2 apAxAna_verbs 
-                then [ Relation (id1,cid1,mid1,"apA",id2,cid2,mid2,"4.43a",d12)]
-                     (*; Relation (id1,cid1,mid1,"hewuH5",id2,cid2,mid2,"4.43b",d12) ]
-		else [ Relation (id1,cid1,mid1,"hewuH5",id2,cid2,mid2,"4.43c",d12) ]  -- removed, since typically yawaH and wawaH mark the relation with the wif and not kqw *)
-		else []
+           then if (members_of rt2 upasarga2 apAxAna_verbs) && (kqw2="kwa" || kqw2="kwavawu")
+                then [ (* Relation (id1,cid1,mid1,"apA",id2,cid2,mid2,"4.43a",d12)]
+                     ; *) Relation (id1,cid1,mid1,"vAkya:kAraNa_xyo",id2,cid2,mid2,"4.43b",d12) ]
+		else [ Relation (id1,cid1,mid1,"vAkya:kAraNa_xyo",id2,cid2,mid2,"4.43c",d12) ] 
 	   else []
        | _ -> []
        ]

@@ -15,17 +15,17 @@ value sawq_sanac_kqw m1 =
      ]
 ;
 
-value sp_uwwarapaxa rt word lifgam =
+(* value sp_uwwarapaxa rt word lifgam =
        if (rt="pUrvaka" && lifgam="napuM")
          || rt="arWa" 
          || rt="ananwaram" 
-         || word="sahiwaH" 
          || rt="saxqSa" 
          || rt="safkASa" 
          || rt="safkASa" 
-         || word="pUrveNa" 
+         || word="-sahiwaH" 
+         || word="-pUrveNa" 
        then True else False
-;
+;  Already present in common.ml *)
 
 (* Section on kAraka relations *)
 
@@ -86,14 +86,15 @@ value wifkarwA_karma m1 m2 text_type = match m2 with
        let d = if id1 > id2 then id1-id2 else id2-id1 in
        if    prose_order id1 id2 text_type
           && no_boundary_crossing1 id1 id2
-          && d < 8  
+          (* && d < 8   -- if this condition is there, some long sentences totally fail. *)
               (* karma and karwA cannot be far away from the verb; upto 7 is allowed, assuming that the verb will be in the same shloka; 
                *  since in some cases, the viSeRaNa is near the verb, and the viSeRya is far away e.g. SruwvA ewaw wrilokajFaH vAlmIkeH nAraxo vacaH; 
                *  vacaH is far away from SruwvA, which has ewaw next to it, the adjective of vacaH *)
        then  match viBakwiH1 with
        [ 1 ->  if aBihiwa rt1 vacanam1 vacanam2 puruRaH2
                then match prayogaH2 with
-               [ "karwari" -> if uwwarapaxa1="y" && sp_uwwarapaxa rt1 word1 lifgam1 then []
+               [ "karwari" -> if uwwarapaxa1="y" &&  (*sp_uwwarapaxa rt1 word1 lifgam1 then [] *)
+                                 word1="-sahiwaH" then [ Relation (id1,cid1,mid1,"sahArWa",id2,cid2,mid2,"2.1a", d)]  
 			      else match sanAxiH2 with
                               [ "Nic" ->  [ Relation (id1,cid1,mid1,"prayojaka_karwA",id2,cid2,mid2,"2.1", d)]  
                                                (* aBihiwe praWamA  - xevaxawwaH:prayojakakarwA pATayawi*)

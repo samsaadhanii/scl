@@ -63,21 +63,22 @@ int SHOW_FLAG;/* flag to show GNP in result */
 int EXCPTION;
 
 int GEN_WORD_CNT; /* Generator word counter */
-extern void strcpy_till();
-extern void strcpy_till_last();
-extern void *my_bsearch();
-extern void word_gen();
-extern void trim_word();
-extern void cooked_TAM_suff();
-extern void prefix_suffix();
-extern int exceptional();
-extern int substring();
+extern void strcpy_till(char *, char *, char *, char);
+extern void strcpy_till_last(char *, char *, char *, char);
+extern void *my_bsearch(char *, char *, int, int,  int (const char *, const char *));
+extern void word_gen(char *, char *, char *, char *, char *, char *, char *, int);
+extern void trim_word(char *);
+extern void cooked_TAM_suff(char *, char *, char *);
+extern void prefix_suffix(char *, char *, char *);
+extern int exceptional(char *, char *, char *);
+/* extern int substring(); */
 
 char word_num_str[MEDIUM],map_wc[SMALL], root[VERY_LARGE];
 
-int main(argc,argv)
+/*int main(argc,argv)
 int argc;
-char *argv[];
+char *argv[]; */
+int main(int argc,char *argv[])
 {
    
     char result[VERY_LARGE],prefix[VERY_LARGE],suffix[VERY_LARGE];

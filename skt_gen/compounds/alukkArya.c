@@ -7,13 +7,13 @@
 #include "struct.h"
 #include "paths.h"
 
-void get_viBakwi_vacanam();
-void subanwa_kArya();
-void get_sandhied_word();
-void fgetword();
-extern void prAwipaxika_info();
-extern void cnvrtwx2utf();
-extern void cnvrtutfd2r();
+void get_viBakwi_vacanam(char *, int *, int *);
+void subanwa_kArya(char *, char *, char *, int, char *);
+void get_sandhied_word(char *, char *, char *);
+void fgetword(FILE *, char *, char);
+extern void prAwipaxika_info(char *, struct prAwipaxikam *);
+extern void cnvrtwx2utf(char *, char *);
+extern void cnvrtutfd2r(char *, char *);
 
 int main (int argc, char *argv[]) {
 char prAwipaxikam1[MEDIUM];

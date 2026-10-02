@@ -6,7 +6,7 @@
 #include "struct.h"
 #include "paths.h"
 
-extern void fgetword();
+extern void fgetword(FILE *, char *, char);
 
 void cnvrtutfd2r(char in[LARGE], char out[LARGE]){
   int pid;

@@ -23,8 +23,9 @@ yaha -> isa (s,o), ina(p,o), ye (p,d)
 vaha -> usa (s,o), una(p,o), ve (p,d)
 --- Added by Amba OVER
 */
-void form_adjective(result,match_word,gender,number,vibhakti)
-char match_word[VERY_LARGE],gender[SMALL],vibhakti[SMALL],number[SMALL],result[VERY_LARGE];
+/*void form_adjective(result,match_word,gender,number,vibhakti)
+char match_word[VERY_LARGE],gender[SMALL],vibhakti[SMALL],number[SMALL],result[VERY_LARGE]; */
+void form_adjective(char result[VERY_LARGE],char match_word[VERY_LARGE],char gender[SMALL],char number[SMALL],char vibhakti[SMALL])
 {
   char ch,vib;
   int len;
@@ -79,9 +80,10 @@ Comment End
    else strcpy(result,match_word);
 }
 
-void adj_gen(result,input_word,gender,number,vibhakti)
+/*void adj_gen(result,input_word,gender,number,vibhakti)
 char input_word[VERY_LARGE],number[SMALL],gender[SMALL],vibhakti[SMALL];
-char *result;
+char *result; */
+void adj_gen(char *result,char input_word[VERY_LARGE],char gender[SMALL],char number[SMALL],char vibhakti[SMALL])
 {
     form_adjective(result,input_word,gender,number,vibhakti);
 }

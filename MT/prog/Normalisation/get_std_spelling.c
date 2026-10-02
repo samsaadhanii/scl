@@ -6,27 +6,37 @@ OUTPUT:
 kAFcana kafgana kANt kAnw karwA karwwyA
 */
 
-extern int getword();
-void get_std_spelling();
-void get_white_sp();
+//extern int getword();
+// void get_std_spelling();
 
-int main(int argc, char *argv[]) 
+int getword(char *word)
 {
- char word[1000];
- char std_spell[1000];
- char wh_sp[100];
+        int c,i = 0;
 
-  get_white_sp(wh_sp);
-  printf("%s",wh_sp);
+        c=getchar();
+        while ((c != EOF) && ( c != ' ') && ( c != '\n') && (c != '\t'))
+        {
+           word[i++] = c; 
+           c = getchar();
+        }
+        ungetc(c,stdin);
+        word[i] = '\0';
+return i;
+}
 
-  while(getword(word) > 0) {
-    get_std_spelling(word, std_spell);
-    printf("%s",std_spell);
- 
-    get_white_sp(wh_sp);
-    printf("%s",wh_sp);
+//void get_white_sp();
+
+void get_white_sp(char *wh_sp)
+{
+  int c, i=0;
+  c = getchar();
+  while ((c == ' ') || (c == '\n') || (c == '\t')){
+     wh_sp[i++] = c;
+     c = getchar();
   }
-  return 0;
+  ungetc(c,stdin);
+  wh_sp[i]= '\0';
+ // return i;
 }
 
 void get_std_spelling(char *in, char *out){
@@ -93,31 +103,22 @@ while(i < len) {
 }
 out[j] = '\0';
 }
-
-int getword(char *word)
+int main(int argc, char *argv[]) 
 {
-        int c,i = 0;
+ char word[1000];
+ char std_spell[1000];
+ char wh_sp[100];
 
-        c=getchar();
-        while ((c != EOF) && ( c != ' ') && ( c != '\n') && (c != '\t'))
-        {
-           word[i++] = c; 
-           c = getchar();
-        }
-        ungetc(c,stdin);
-        word[i] = '\0';
-return i;
-}
+  get_white_sp(wh_sp);
+  printf("%s",wh_sp);
 
-void get_white_sp(char *wh_sp)
-{
-  int c, i=0;
-  c = getchar();
-  while ((c == ' ') || (c == '\n') || (c == '\t')){
-     wh_sp[i++] = c;
-     c = getchar();
+  while(getword(word) > 0) {
+    get_std_spelling(word, std_spell);
+    printf("%s",std_spell);
+ 
+    get_white_sp(wh_sp);
+    printf("%s",wh_sp);
   }
-  ungetc(c,stdin);
-  wh_sp[i]= '\0';
- // return i;
+  return 0;
 }
+

@@ -3,10 +3,10 @@
 #include <stddef.h>
 #include <stdlib.h> */
 void *
-my_bsearch(key,base,nel,width,compar)
-char *base,*key;
+my_bsearch( char *key, char *base,int nel,int width, int (*compar)(char *, char *))
+/*char *base,*key;
 int nel,width;
-int (* compar)();
+int (* compar)();*/
 {
 /* Given the table start address - base,
 	 the table size - nel,

@@ -13,17 +13,18 @@
 
 struct dict_entry *tag;
 
-extern void * my_bsearch();
+extern void * my_bsearch(char *, char *, int, int, int (const char *, const char *));
 extern struct dict_entry dict_parad_list[];
 extern struct parad_tbl parad_tbl_entry[];
-extern void  form_word();
-extern int get_tabl_entry_no();
-extern void connect_vibhakti();
+extern void  form_word(char *, int, char *, char *);
+extern int get_tabl_entry_no(char *, char *);
+extern void connect_vibhakti(char *, char *, char *);
  
 /* Function to find default paradim no */
 
-int find_default_word(match_word,gender)
-char match_word[VERY_LARGE],gender[SMALL];
+/*int find_default_word(match_word,gender)
+char match_word[VERY_LARGE],gender[SMALL]; */
+int find_default_word(char match_word[VERY_LARGE], char gender[SMALL])
 {
   char ch;
   int eqvi_parad_no;
@@ -69,8 +70,9 @@ char match_word[VERY_LARGE],gender[SMALL];
 
 /* function to find a word in dict. or its default */
 
-int search_word(word_to_be_searched,gender)
-char word_to_be_searched[VERY_LARGE],gender[SMALL];
+/* int search_word(word_to_be_searched,gender)
+char word_to_be_searched[VERY_LARGE],gender[SMALL]; */
+int search_word(char word_to_be_searched[VERY_LARGE], char gender[SMALL])
 {
  int no_of_records=4200;
  int parad_num;
@@ -87,8 +89,9 @@ return(parad_num);
 }
  
 
-void noun_gen(final_word,input_word,gender,number,vibhakti)
-char final_word[VERY_LARGE],input_word[VERY_LARGE],gender[SMALL],number[SMALL],vibhakti[SMALL];
+/* void noun_gen(final_word,input_word,gender,number,vibhakti)
+char final_word[VERY_LARGE],input_word[VERY_LARGE],gender[SMALL],number[SMALL],vibhakti[SMALL]; */
+void noun_gen(char final_word[VERY_LARGE],char input_word[VERY_LARGE],char gender[SMALL],char number[SMALL],char vibhakti[SMALL])
 {
  char add_str[SMALL];
  int no,offset,array_element,no_del;

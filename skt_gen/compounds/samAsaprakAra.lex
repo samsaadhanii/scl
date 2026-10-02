@@ -126,10 +126,10 @@ extern char samAsaprakAra[MEDIUM];
 
 char samAsaprakAra[MEDIUM];
 char sUwrastr[LARGE];
-void print_samAsaprakAra();
-void call_samAsaprakAralex();
-void cnvrtwx2utf();
-void cnvrtutfd2r();
+void print_samAsaprakAra(char *, char *, char *, char *);
+void call_samAsaprakAralex(char *);
+void cnvrtwx2utf(char *, char *);
+void cnvrtutfd2r(char *, char *);
 
 int main (int argc, char *argv[]) {
 char cmd[LARGE];

@@ -23,7 +23,8 @@
  int word_no;
  int iic_count;
  int i;
- void get_gana();
+ void get_gana(char *, char *);
+ static void append_to_ans(char *ans, size_t ans_size, const char *tmp);
 %option nounput
 %option noinput
 %%
@@ -186,23 +187,27 @@ morph: 	{}
                       if(i >= 1) { strcat(ans,"/");}
                       if(!strcmp(vargaH,"nA")) {
                          if(strcmp(iic,"") && (i == 0)){
-                           sprintf(tmp,"%s-",iic); 
-			   strcat(ans,tmp);
+                           snprintf(tmp,sizeof(tmp),"%s-",iic); 
+			   /*strcat(ans,tmp);*/
+                           append_to_ans(ans, sizeof(ans), tmp);
                            tmp[0] = '\0';
                          }
-                         sprintf(tmp,"%s<vargaH:%s>%s%s%s<level:1>",prati,vargaH,gen[i],vib[i],num[i]);
-			 strcat(ans,tmp);
+                         snprintf(tmp,sizeof(tmp),"%s<vargaH:%s>%s%s%s<level:1>",prati,vargaH,gen[i],vib[i],num[i]);
+			 /* strcat(ans,tmp);*/
+                           append_to_ans(ans, sizeof(ans), tmp);
                          tmp[0] = '\0';
                       }
                       else if(!strcmp(vargaH,"KP")) {
                          if(!strcmp(pv,"")){ strcpy(pv,"X");}
-                         sprintf(tmp,"%s<upasarga:%s>%s%s%s%s%s%s<gaNaH:%s><level:1>",prati,pv,san,prayogaH[i],lakAraH[i],per[i],num[i],paxI[i],gaNa[i]);
-			 strcat(ans,tmp);
+                         snprintf(tmp,sizeof(tmp),"%s<upasarga:%s>%s%s%s%s%s%s<gaNaH:%s><level:1>",prati,pv,san,prayogaH[i],lakAraH[i],per[i],num[i],paxI[i],gaNa[i]);
+			 /*strcat(ans,tmp);*/
+                           append_to_ans(ans, sizeof(ans), tmp);
                          tmp[0] = '\0';
                       }
                       else if(!strcmp(vargaH,"avy")) {
-                         sprintf(tmp,"%s<vargaH:%s><level:1>",prati,vargaH);
-			 strcat(ans,tmp);
+                         snprintf(tmp,sizeof(tmp),"%s<vargaH:%s><level:1>",prati,vargaH);
+			 /*strcat(ans,tmp);*/
+                           append_to_ans(ans, sizeof(ans), tmp);
                          tmp[0] = '\0';
                       }
                       else if(!strcmp(vargaH,"avykqw")) {
@@ -210,29 +215,34 @@ morph: 	{}
                          else if(!strcmp(kqw,"<kqw_prawyayaH:kwvA>")) { 
                              strcpy(kqw,"<kqw_prawyayaH:lyap>");
                          }
-                         sprintf(tmp,"%s<upasarga:%s><vargaH:avy>%s%s<level:1>",prati,pv,san,kqw);
-			 strcat(ans,tmp);
+                         snprintf(tmp,sizeof(tmp),"%s<upasarga:%s><vargaH:avy>%s%s<level:1>",prati,pv,san,kqw);
+			 /*strcat(ans,tmp);*/
+                           append_to_ans(ans, sizeof(ans), tmp);
                          tmp[0] = '\0';
                       }
                       else if(!strcmp(vargaH,"sapUpa")) {
-                         sprintf(tmp,"%s<vargaH:%s><level:0>",prati,vargaH);
-			 strcat(ans,tmp);
+                         snprintf(tmp,sizeof(tmp),"%s<vargaH:%s><level:0>",prati,vargaH);
+			 /*strcat(ans,tmp);*/
+                           append_to_ans(ans, sizeof(ans), tmp);
                          tmp[0] = '\0';
                       }
                       else if(!strcmp(vargaH,"kqw_nA")) {
                          if(strcmp(iic,"") && (i == 0)){
-                           sprintf(tmp,"%s-",iic);
-			   strcat(ans,tmp);
+                           snprintf(tmp,sizeof(tmp),"%s-",iic);
+			   /*strcat(ans,tmp);*/
+                           append_to_ans(ans, sizeof(ans), tmp);
                            tmp[0] = '\0';
                          }
                          if(!strcmp(pv,"")){ strcpy(pv,"X");}
-                         sprintf(tmp,"%s<upasarga:%s>%s%s<kqw_pratipadika:%s><vargaH:nA>%s%s%s<level:1>",prati,pv,san,kqw,kqw_prati,gen[i],vib[i],num[i]);
-			 strcat(ans,tmp);
+                         snprintf(tmp,sizeof(tmp),"%s<upasarga:%s>%s%s<kqw_pratipadika:%s><vargaH:nA>%s%s%s<level:1>",prati,pv,san,kqw,kqw_prati,gen[i],vib[i],num[i]);
+			 /*strcat(ans,tmp);*/
+                           append_to_ans(ans, sizeof(ans), tmp);
                          tmp[0] = '\0';
                       }
                       else if(!strcmp(vargaH,"UNKN")) {
-                         sprintf(tmp,"%s",prati);
-			 strcat(ans,tmp);
+                         snprintf(tmp,sizeof(tmp),"%s",prati);
+			 /*strcat(ans,tmp);*/
+                           append_to_ans(ans, sizeof(ans), tmp);
                          tmp[0] = '\0';
                       }
                    if(debug) { printf("i = %d ans = %s\n",i,ans);}
@@ -280,7 +290,17 @@ morph: 	{}
 .	{}
 \n	{ if(debug) {printf(" ignore new line\n");}}
 %%
-void get_gana();
+void get_gana(char *, char *);
+
+static void append_to_ans(char *ans, size_t ans_size, const char *tmp)
+{
+    size_t used = strlen(ans);
+
+    if (used >= ans_size - 1)
+        return;
+
+    strncat(ans, tmp, ans_size - used - 1);
+}
 
 int main(int argc, char *argv[])
 {

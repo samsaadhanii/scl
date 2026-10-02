@@ -62,11 +62,11 @@ value sp_uwwarapaxa rt word lifgam =
        if (rt="pUrvaka" && lifgam="napuM")
          || rt="arWa" 
          || rt="ananwaram" 
-         || word="sahiwaH" 
          || rt="saxqSa" 
          || rt="safkASa" 
          || rt="safkASa" 
-         || word="pUrveNa" 
+         || word="-sahiwaH" 
+         || word="-pUrveNa" 
        then True else False
 ;
 value no_boundary_crossing2 id1 id2 boundary =

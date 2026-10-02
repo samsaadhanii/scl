@@ -241,7 +241,7 @@ value rlupapaxa_other_rel m1 m2 text_type = match m1 with
            match word1 with
           [ "praBqwiH"|
            "aBi" | "anu" | "apa" | (*"api" | -- removed, since it overgenerates. We need to allow this only after examining examples with api *)
-            "AraBya" | "A" | "aXi" | "vaRat" |
+            (* "AraBya" | *) "A" | "aXi" | "vaRat" |
             "namaH" | "nAnA" | "pari" | "prawi" |
             "upa"  ->
               match m2 with
@@ -452,7 +452,7 @@ value rl_wulanA m1 m2 m3 text_type = match m1 with
        [ Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_) -> 
          let d12 = if id1 > id2 then id1-id2 else id2-id1 in
               if    id1 < id2  && (word1="yAvaw" || word1="wAvaw" || word1 = "ewAvaw")
-              then [ Relation (id1,cid1,mid1,"avaXi_anwaH",id2,cid2,mid2,"48.1",d12)]
+              then [ Relation (id1,cid1,mid1,"avaXi_anwa",id2,cid2,mid2,"48.1",d12)]
               else []
        | _ -> []
        ]
@@ -487,13 +487,13 @@ value rl_saha_vinA_kqwe m1 m2 m3 text_type = match m3 with
 
                     | _ -> []
                     ]
-                 | Sup (id2,cid2,mid2,word2,rt2,_,_,_,viBakwiH2,_,_) ->
+                | Sup (id2,cid2,mid2,word2,rt2,_,_,_,viBakwiH2,_,_) ->
                    let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
                      if (word2 = "sahiwaH") then
                          [ Relation (id1,cid1,mid1,"sahArWa",id3,cid3,mid3,"40.3a",d13)
                          ; Relation (id2,cid2,mid2,"sahArWa_xyo",id1,cid1,mid1,"40.3b",d12)]
 		     else []
-                 | _ -> []
+                | _ -> []
                 ]
               | 2 ->  match m2 with
                   [ Avy (id2,cid2,mid2,word2,_,_,_,_) -> 

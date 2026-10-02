@@ -66,16 +66,16 @@ char encoding[MEDIUM];
 
 int divid;
 
-void do_samAsAnwaprawyaya_kArya();
-void get_sandhied_word();
-void do_tilopa();
-void do_apaxAnwa_sandhi();
-void get_iw();
-void call_paxalex();
-int ajAxi();
-int isvowel();
-extern void cnvrtwx2utf();
-extern void cnvrtutfd2r();
+void do_samAsAnwaprawyaya_kArya(char *, char *, char *, char *);
+void get_sandhied_word(char *, char *, char *);
+void do_tilopa(char *, char *);
+void do_apaxAnwa_sandhi(char *, char *, char *);
+void get_iw(char *, char *);
+void call_paxalex(char *);
+int ajAxi(char *);
+int isvowel(int);
+extern void cnvrtwx2utf(char *, char *);
+extern void cnvrtutfd2r(char *, char *);
 
 int main (int argc, char *argv[]) {
 char sandhiwutfr[MEDIUMUTF]; /* utf takes 3 times space */

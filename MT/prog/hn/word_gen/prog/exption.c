@@ -8,11 +8,12 @@
 #include <stdio.h>
 #include "../headers/all_purpose.h"
 
-extern int sufix();
-extern void delete_from_end();
+extern int sufix(char *, char *);
+/*extern void delete_from_end(); */
 
-int exceptional(result,root,my_tam)
-char result[VERY_LARGE],my_tam[MEDIUM],root[VERY_LARGE];
+/*int exceptional(result,root,my_tam)
+char result[VERY_LARGE],my_tam[MEDIUM],root[VERY_LARGE]; */
+int exceptional (char result[VERY_LARGE],char my_tam[MEDIUM],char root[VERY_LARGE])
 {
     /* If the root is "xe" and the tam is "nA_xenA" then the word becomes 
        "xe_xenA"  - This is hardwired here */

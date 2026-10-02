@@ -3,9 +3,11 @@
 #include <string.h>
 #include "../headers/vsmt.h"
 
-extern char *index();
-void strcpy_till(str,sec_str,ori_str,ch)
-char str[VERY_LARGE],sec_str[VERY_LARGE],ori_str[VERY_LARGE],ch;
+/*extern char *index();*/
+
+/*void strcpy_till(str,sec_str,ori_str,ch)
+char str[VERY_LARGE],sec_str[VERY_LARGE],ori_str[VERY_LARGE],ch; */
+void strcpy_till(char str[VERY_LARGE],char sec_str[VERY_LARGE],char ori_str[VERY_LARGE],char ch)
 {
   char temp[VERY_LARGE],*indx;
 
@@ -21,8 +23,9 @@ char str[VERY_LARGE],sec_str[VERY_LARGE],ori_str[VERY_LARGE],ch;
   	strcpy(sec_str,"");
   }
 }
-void strcpy_till_last(str,sec_str,ori_str,ch)
-char str[VERY_LARGE],sec_str[VERY_LARGE],ori_str[VERY_LARGE],ch;
+/*void strcpy_till_last(str,sec_str,ori_str,ch)
+char str[VERY_LARGE],sec_str[VERY_LARGE],ori_str[VERY_LARGE],ch; */
+void strcpy_till_last(char str[VERY_LARGE],char sec_str[VERY_LARGE],char ori_str[VERY_LARGE],char ch)
 {
   char temp[VERY_LARGE],*indx;
 

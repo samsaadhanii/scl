@@ -4,7 +4,7 @@ extern char ques[LARGE];
 extern char samAsaprakAra[MEDIUM];
 extern char p1_utf[MEDIUMUTF];
 extern char p2_utf[MEDIUMUTF];
-extern void samAsAnwa_cgi_interface();
+extern void samAsAnwa_cgi_interface(char *, char *, char *);
 %}
 %option nounput
 %option noinput
@@ -350,10 +350,9 @@ char avigraha[MEDIUMUTF];
 char encoding[MEDIUM];
 void samAsAnwalex();
 int samAsAnwawrap();
-void samAsAnwa_cgi_interface();
-void call_samAsAnwalex();
-void cnvrtwx2utf();
-void cnvrtutfd2r();
+void call_samAsAnwalex(char *);
+void cnvrtwx2utf(char *, char *);
+void cnvrtutfd2r(char *, char *);
 
 int main (int argc, char *argv[]) {
 char input[MEDIUM];

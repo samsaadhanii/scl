@@ -7,14 +7,15 @@
 #include <string.h>
 #include "../headers/all_purpose.h"
 
-extern void strcpy_till();
+extern void strcpy_till(char *, char *, char *, char);
 
 char prsrg[VERY_LARGE],sec_str[VERY_LARGE],suffix1[VERY_LARGE];
 /* function to seprate prefix & suffix in first look */
-void prefix_suffix(TAM,prefix,suffix)
+/*void prefix_suffix(TAM,prefix,suffix)
 char TAM[LARGE];
 char prefix[VERY_LARGE];
-char suffix[VERY_LARGE];
+char suffix[VERY_LARGE]; */
+void prefix_suffix(char TAM[LARGE],char prefix[VERY_LARGE],char suffix[VERY_LARGE])
 {
     strcpy(sec_str,"");
     strcpy(prsrg,"");
@@ -40,8 +41,9 @@ char suffix[VERY_LARGE];
 
 /* function to give complete suffix when GNP OFF */
 
-void cooked_TAM_suff(suffix,TAM,suffix2)
-char *suffix,*TAM,*suffix2;
+/*void cooked_TAM_suff(suffix,TAM,suffix2)
+char *suffix,*TAM,*suffix2; */
+void cooked_TAM_suff(char * suffix,char * TAM,char * suffix2)
 {
     extern int GNP_FLAG;
     char sec_str[VERY_LARGE],rsuffix[VERY_LARGE];

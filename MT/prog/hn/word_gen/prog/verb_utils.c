@@ -7,7 +7,8 @@ extern struct verb_correction verb_subj_list[];
 extern struct verb_correction verb_future_list[];
 extern struct verb_correction verb_yA_list[];
 
-extern void form_word();
+/*extern void form_word(); */
+extern void form_word(char *,int,char *,char *);
 
 static char *verb_jA_list[]={
                 "gayA",
@@ -44,8 +45,9 @@ static char *verb_hE_list[]={
                "hEM",
  };
 
-int get_offset_subj(per,num)
-char per[SMALL],num[SMALL];
+/*int get_offset_subj(per,num)
+char per[SMALL],num[SMALL]; */
+int get_offset_subj(char per[SMALL],char num[SMALL])
 { 
   int subj_off = 0;
 
@@ -63,9 +65,9 @@ char per[SMALL],num[SMALL];
  return(subj_off);
 } 
 
-
-int get_offset_hE(per,num)
-char per[SMALL],num[SMALL];
+/*int get_offset_hE(per,num)
+char per[SMALL],num[SMALL];*/
+int get_offset_hE(char per[SMALL],char num[SMALL])
 { 
   int subj_off = 0;
 
@@ -82,8 +84,10 @@ char per[SMALL],num[SMALL];
   if (num[0] == 'p') subj_off = subj_off + 3;
  return(subj_off);
 } 
-int get_offset_future(gen,num,per)
-char gen[SMALL],per[SMALL],num[SMALL];
+
+/*int get_offset_future(gen,num,per)
+char gen[SMALL],per[SMALL],num[SMALL]; */
+int get_offset_future(char gen[SMALL],char num[SMALL],char per[SMALL])
 { 
   int future_off = 0;
   int local;
@@ -103,8 +107,9 @@ char gen[SMALL],per[SMALL],num[SMALL];
  return(future_off);
 }
 
-int get_offset_yA(gen,num)
-char gen[SMALL],num[SMALL];
+/*int get_offset_yA(gen,num)
+char gen[SMALL],num[SMALL]; */
+int get_offset_yA(char gen[SMALL],char num[SMALL])
 { 
   int yA_off;
  
@@ -118,8 +123,9 @@ char gen[SMALL],num[SMALL];
 
 
 
-int get_correct_form(verb)
-char verb[VERY_LARGE];
+/*int get_correct_form(verb)
+char verb[VERY_LARGE]; */
+int get_correct_form(char verb[VERY_LARGE])
 {
   char ch;
   int no=0;
@@ -152,10 +158,11 @@ char verb[VERY_LARGE];
   return(no);
 }   
 
-void process_fut_verb(result,verb,gender,person,number,no)
+/*void process_fut_verb(result,verb,gender,person,number,no)
 char verb[VERY_LARGE], gender[SMALL],person[SMALL],number[SMALL];
 int no;
-char result[VERY_LARGE];
+char result[VERY_LARGE]; */
+void process_fut_verb(char result[VERY_LARGE],char verb[VERY_LARGE],char gender[SMALL],char person[SMALL],char number[SMALL],int no)
 {
  int file_entry_num,offset_num;
  
@@ -164,8 +171,9 @@ char result[VERY_LARGE];
    form_word(verb,verb_future_list[file_entry_num].no_of_chars,verb_future_list[file_entry_num].rep_str,result);
  }
 
-void process_hE_verb(result,person,number)
-char person[SMALL],number[SMALL],result[VERY_LARGE];
+/* void process_hE_verb(result,person,number)
+char person[SMALL],number[SMALL],result[VERY_LARGE]; */
+void process_hE_verb(char result[VERY_LARGE],char person[SMALL],char number[SMALL])
 {
  int offset_num;
 
@@ -174,10 +182,11 @@ char person[SMALL],number[SMALL],result[VERY_LARGE];
  }
 
 
-void process_subj_verb(result,verb,person,number,no)
+/* void process_subj_verb(result,verb,person,number,no)
 char verb[VERY_LARGE],person[SMALL],number[SMALL];
 int no;
-char result[VERY_LARGE];
+char result[VERY_LARGE]; */
+void process_subj_verb(char result[VERY_LARGE],char verb[VERY_LARGE],char person[SMALL],char number[SMALL],int no)
 {
  int file_entry_num,offset_num;
  
@@ -187,10 +196,11 @@ char result[VERY_LARGE];
  }
 
 
-void process_yA_verb(result,verb,gender,number,no)
+/*void process_yA_verb(result,verb,gender,number,no)
 char verb[VERY_LARGE],gender[SMALL],number[SMALL];
 int no;
-char result[VERY_LARGE];
+char result[VERY_LARGE]; */
+void process_yA_verb(char result[VERY_LARGE],char verb[VERY_LARGE],char gender[SMALL],char number[SMALL],int no)
 {
  int file_entry_num,offset_num;
 
@@ -200,24 +210,27 @@ char result[VERY_LARGE];
  }
 
 
-void process_WA_verb(result,gender,number)
-char gender[SMALL],number[SMALL],result[VERY_LARGE];
+/*void process_WA_verb(result,gender,number)
+char gender[SMALL],number[SMALL],result[VERY_LARGE]; */
+void process_WA_verb(char result[VERY_LARGE],char gender[SMALL],char number[SMALL])
 {
  int offset_num;
  
    offset_num = get_offset_yA(gender,number);
    strcpy(result,verb_WA_list[offset_num]);
  }
-void process_wA_verb(result,gender,number)
-char gender[SMALL],number[SMALL],result[VERY_LARGE];
+/* void process_wA_verb(result,gender,number)
+char gender[SMALL],number[SMALL],result[VERY_LARGE]; */
+void process_wA_verb(char result[VERY_LARGE],char gender[SMALL],char number[SMALL])
 {
  int offset_num;
  
    offset_num = get_offset_yA(gender,number);
    strcpy(result,verb_wA_list[offset_num]);
  }
-void process_nA_verb(result,gender,number)
-char gender[SMALL],number[SMALL],result[VERY_LARGE];
+/*void process_nA_verb(result,gender,number)
+char gender[SMALL],number[SMALL],result[VERY_LARGE]; */
+void process_nA_verb(char result[VERY_LARGE],char gender[SMALL],char number[SMALL])
 {
  int offset_num;
  
@@ -225,8 +238,9 @@ char gender[SMALL],number[SMALL],result[VERY_LARGE];
    strcpy(result,verb_nA_list[offset_num]);
  }
 
-void process_jA_verb(result,gender,number)
-char gender[SMALL],number[SMALL],result[VERY_LARGE];
+/* void process_jA_verb(result,gender,number)
+char gender[SMALL],number[SMALL],result[VERY_LARGE]; */
+ void process_jA_verb(char result[VERY_LARGE],char gender[SMALL],char number[SMALL])
 {
  int offset_num;
  
@@ -235,10 +249,11 @@ char gender[SMALL],number[SMALL],result[VERY_LARGE];
  }
 
 
-void verb_gen(result,root_verb,gender,number,person,tam,GNP_FLAG)
+/*void verb_gen(result,root_verb,gender,number,person,tam,GNP_FLAG)
  char result[VERY_LARGE],root_verb[VERY_LARGE],person[SMALL],number[SMALL],gender[SMALL];
  char tam[MEDIUM];
- int GNP_FLAG;
+ int GNP_FLAG; */
+void verb_gen(char result[VERY_LARGE],char root_verb[VERY_LARGE],char gender[SMALL],char number[SMALL],char person[SMALL],char tam[MEDIUM],int GNP_FLAG)
 {
  int num;
  char orignal_gnp[MEDIUM];

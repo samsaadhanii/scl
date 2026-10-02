@@ -4,9 +4,10 @@
 #include <string.h>
 #include "../headers/all_purpose.h"
 
-void form_word(root_word,chars_to_be_del,sfx_to_be_added,result)
+/*void form_word(root_word,chars_to_be_del,sfx_to_be_added,result)
 char root_word[VERY_LARGE],sfx_to_be_added[SMALL],result[VERY_LARGE];
-int chars_to_be_del;
+int chars_to_be_del; */
+void form_word(char root_word[VERY_LARGE],int chars_to_be_del,char sfx_to_be_added[SMALL],char result[VERY_LARGE])
 {
 
   strcpy(result,root_word);

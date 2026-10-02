@@ -4,9 +4,9 @@
 
 #include "struct.h"
 
-void subluk();
-void cnvrtwx2utf();
-void cnvrtutfd2r();
+void subluk(char *, char *, char *, char *, char *);
+void cnvrtwx2utf(char *, char *);
+void cnvrtutfd2r(char *, char *);
 void fgetword();
 void call_pUrvapaxalex();
 

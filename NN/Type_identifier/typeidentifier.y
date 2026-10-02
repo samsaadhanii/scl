@@ -12,7 +12,7 @@ char head[100];
 char type[10];
 
 int yylex();
-int yyerror();
+int yyerror(char *);
 %}
 
 %token <padainfo> niRTa

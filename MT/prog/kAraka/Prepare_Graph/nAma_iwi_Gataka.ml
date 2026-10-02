@@ -42,7 +42,7 @@ value rl_last_iwi m1 m2 text_type = match m1 with
      | WaxXiwa (id2,cid2,mid2,_,_,_,_,_,_,_,_,_)
      | Avy (id2,cid2,mid2,_,_,_,_,_)
      | Avykqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_) 
-     | AvywaxXiwa (id2,cid2,mid2,_,_,_,_,_,_) ->
+     | AvywaxXiwa (id2,cid2,mid2,_,_,_,_,_,_)  ->
        let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
        if    id1=next id2 
             then [ Relation (id1,cid1,mid1,"saM",id2,cid2,mid2,"41.1",d12)]
@@ -53,6 +53,26 @@ value rl_last_iwi m1 m2 text_type = match m1 with
   ]
 ;
 
+value rl_iwi_uxXaraNa m1 m2 text_type = match m1 with
+  [ Avy (id1,cid1,mid1,word1,_,_,_,_) ->
+     if word1="iwi" then match m2 with
+     [ Sup(id2,cid2,mid2,_,rt2,_,_,_,_,_,_)
+    (* | Wif (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_)
+     | Kqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_,_,_,_,_,_) 
+     | WaxXiwa (id2,cid2,mid2,_,_,_,_,_,_,_,_,_)
+     | Avy (id2,cid2,mid2,_,_,_,_,_)
+     | Avykqw (id2,cid2,mid2,_,_,_,_,_,_,_,_,_) 
+     | AvywaxXiwa (id2,cid2,mid2,_,_,_,_,_,_) *) ->
+       let  d12 = if id1 > id2 then id1-id2 else id2-id1 in
+       if    id1=next id2 && member_of rt2 manuRyasaFjFAvAcI
+            then [ Relation (id1,cid1,mid1,"saM",id2,cid2,mid2,"41.1a",d12)]
+            else []
+     | _ -> []
+     ]
+     else []
+  | _ -> []
+  ]
+;
 (* canxraH nAma BUpawiH prawivasawi sma
  wasya bahu-SakwiH ugra-SakwiH ananwa-SakwiH ca iwi wrayaH puwrAH Asan
    api ca miwraprApwi-miwraBexa-kAkolUkIya-labXapraNASa-aparIkRiwa-kArakANi iwi paFca wanwrANi racayiwvA wAn pATiwavAn 
@@ -83,7 +103,7 @@ value rl_nAma m1 m2 m3 text_type = match m3 with
                                 not (member_of rt3 saMKyeya)
                                   (* && (not (pronominal123 rt3) || rt3="kim") saFjFi can be a pronoun *)
                               && not (rt3="kiFciw" || rt3="kiFcana") 
-                              then if id1=previous id2 && (word2="nAma"|| word2="nAmakaH" || word2 = "nAmikA" || word2 = "nAmakam") && viBakwiH1=viBakwiH3
+                              then if id1=previous id2 && (word2="nAma"|| word2="nAmakaH" || word2 = "nAmikA" || word2 = "nAmakam" || word2 = "iwi" ) && viBakwiH1=viBakwiH3
                                    then [ Relation (id1,cid1,mid1,"saFjFA",id3,cid3,mid3,"39.2",d13)
                                         ;  Relation (id2,cid2,mid2,"saFjFA_xyo",id1,cid1,mid1,"39.3",d12)
                                         ]

@@ -9,9 +9,9 @@
 * upon vibhakti and number
 */
 
-int get_tabl_entry_no(vibh,number)
-char vibh[SMALL];
-char number[SMALL];
+int get_tabl_entry_no(char vibh[SMALL],char number[SMALL])
+/* char vibh[SMALL];
+char number[SMALL]; */
 {
  char case_type;
  int parad_off=0;/* paradigm offset */
@@ -29,9 +29,9 @@ char number[SMALL];
  return(parad_off);
 }
 
-void connect_vibhakti(word,vibhakti,new_word)
-char word[VERY_LARGE],new_word[VERY_LARGE];
-char vibhakti[SMALL];
+void connect_vibhakti(char word[VERY_LARGE],char vibhakti[SMALL],char new_word[VERY_LARGE])
+/* char word[VERY_LARGE],new_word[VERY_LARGE];
+char vibhakti[SMALL]; */
 {
  strcpy(new_word,word);
  if(strcmp(vibhakti,"0")  && strcmp(vibhakti,"1")){

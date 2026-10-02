@@ -6,8 +6,8 @@ extern char p1[MEDIUM];
 extern char p2[MEDIUM];
 extern char p1_utf[MEDIUMUTF];
 extern char p2_utf[MEDIUMUTF];
-extern void upasarjana_cgi_interface();
-extern int chk_kqw();
+extern void upasarjana_cgi_interface(char *, int, char *);
+extern int chk_kqw(char *, char *);
 %}
 %option nounput
 %option noinput
@@ -145,9 +145,9 @@ vyAGrAxi	(vyAGra|siMha|qkRa|qRaBa|canxana|vqka|vqRa|varAha|haswin|waru|kuFjara|r
 
 ^(Sriwa|awIwa|pawiwa|gawa|awyaswa|prApwa|Apanna)\+{sup}[ ]{prA}\+{xviwIyA}[ ]\(2\.1\.24\)	{ upasarjana_cgi_interface("NULL",2,"");}
 
-^svayam[ ]{word}[ ]\(2\.1\.25\)	{ if(chk_kqw(p2,"kwa")) {upasarjana_cgi_interface("NULL",1);} else {upasarjana_cgi_interface("NULL",0,"");}}
+^svayam[ ]{word}[ ]\(2\.1\.25\)	{ if(chk_kqw(p2,"kwa")) {upasarjana_cgi_interface("NULL",1,"");} else {upasarjana_cgi_interface("NULL",0,"");}}
 
-^{word}[ ]svayam[ ]\(2\.1\.25\)	{ if(chk_kqw(p1,"kwa")) { upasarjana_cgi_interface("NULL",2); }else {upasarjana_cgi_interface("NULL",0,"");} }
+^{word}[ ]svayam[ ]\(2\.1\.25\)	{ if(chk_kqw(p1,"kwa")) { upasarjana_cgi_interface("NULL",2,""); }else {upasarjana_cgi_interface("NULL",0,"");} }
 
 ^KatvA\+{xviwIyA}[ ]{word}[ ]\(2\.1\.26\)	{ if(chk_kqw(p2,"kwa")) {upasarjana_cgi_interface("NULL",1,"");} else {upasarjana_cgi_interface("NULL",0,"");}}
 
@@ -605,18 +605,18 @@ char viXAyakasUwra[LARGE];
 char samAsAnwa[MEDIUM];
 char samAsaprakAra[MEDIUM];
 
-void call_pUrvanipAwa_xvanxva();
-void call_pUrvanipAwa_bahuvrIhi();
-void cnvrtwx2utf();
-void cnvrtutfd2r();
-void call_gawilex();
-void call_upasarjanalex();
-int chk_kqw();
-int rAjaxanwAxigaNa();
-int GI();
-int count_ac();
-int ajAxi();
-int axanwa();
+void call_pUrvanipAwa_xvanxva(char *, char *, char *, char *);
+void call_pUrvanipAwa_bahuvrIhi(char *, char *, char *, char *);
+void cnvrtwx2utf(char *, char *);
+void cnvrtutfd2r(char *, char *);
+void call_gawilex(char *);
+void call_upasarjanalex(char *);
+int chk_kqw(char *, char *);
+int rAjaxanwAxigaNa(char *, char *);
+int GI(char *);
+int count_ac(char *);
+int ajAxi(char *);
+int axanwa(char *);
 
 
 int main (int argc, char *argv[]) {

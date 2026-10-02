@@ -3,11 +3,12 @@
 
 #include "../headers/all_purpose.h"
 
-extern void modify_prefix();
-extern void modify_star_suffix();
+extern void modify_prefix(char *);
+extern void modify_star_suffix(char *);
 
-char last_char(word)
-char word[VERY_LARGE];
+/*char last_char(word)
+char word[VERY_LARGE]; */
+char last_char(char word[VERY_LARGE])
 {
    int i;
    for(i=0;word[i]!='\0';i++);
@@ -15,16 +16,18 @@ char word[VERY_LARGE];
 }
 
 
-void trim_word(strn)
-char *strn;
+/* void trim_word(strn)
+char *strn; */
+void trim_word(char *strn)
 {
   modify_prefix(strn);
   modify_star_suffix(strn);
 }
 
 /* substring searches a searchstr in str and returns the start index in str if the searchstr in found else returns -1 */
-int substring (str,searchstr)
-char str[VERY_LARGE], searchstr[VERY_LARGE];
+/* int substring (str,searchstr)
+char str[VERY_LARGE], searchstr[VERY_LARGE]; */
+int substring (char str[VERY_LARGE], char searchstr[VERY_LARGE])
 {
 int count1 = 0;
 int count2 = 0;
@@ -44,5 +47,5 @@ for(i=0;i<=count1-count2;i++) {
   }
 if (flag >= 0) break;
 }
-flag;
+return flag;
 }

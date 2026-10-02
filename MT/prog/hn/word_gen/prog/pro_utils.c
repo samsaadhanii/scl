@@ -58,8 +58,9 @@ static char *pro_ko_list[]={
                "inako",
  };  
 
- int form_ne_pronoun(root_verb,number)
- char root_verb[VERY_LARGE],number[SMALL];
+/* int form_ne_pronoun(root_verb,number)
+ char root_verb[VERY_LARGE],number[SMALL]; */
+int form_ne_pronoun(char root_verb[VERY_LARGE],char number[SMALL])
  {
  int ne_off,no;
 
@@ -81,8 +82,9 @@ static char *pro_ko_list[]={
 return(ne_off);
 }
 
-void form_0_pronoun(result,root,num)
-char *result,*root,*num;
+/*void form_0_pronoun(result,root,num)
+char *result,*root,*num; */
+void form_0_pronoun(char *result,char *root,char *num)
 {
 if(strcmp(num,"p"))
 	{strcpy(result,root);
@@ -99,8 +101,9 @@ else
 			      else strcpy(result,root);
 }
 		
-void form_default_pronoun(result,root_verb,no,vibhakti)
- char root_verb[VERY_LARGE],vibhakti[SMALL],result[VERY_LARGE],no[SMALL];
+/*void form_default_pronoun(result,root_verb,no,vibhakti)
+ char root_verb[VERY_LARGE],vibhakti[SMALL],result[VERY_LARGE],no[SMALL]; */
+void form_default_pronoun(char result[VERY_LARGE],char root_verb[VERY_LARGE],char no[SMALL],char vibhakti[SMALL])
  {
   int ne_offset; 
    ne_offset=form_ne_pronoun(root_verb,no);
@@ -114,8 +117,9 @@ void form_default_pronoun(result,root_verb,no,vibhakti)
 	   strcat(result,vibhakti);
 }
 
-void form_RaR_pronoun(result,number,root_verb,gender,TAM)
-char number[SMALL],gender[SMALL],root_verb[VERY_LARGE],result[VERY_LARGE],TAM[SMALL];
+/*void form_RaR_pronoun(result,number,root_verb,gender,TAM)
+char number[SMALL],gender[SMALL],root_verb[VERY_LARGE],result[VERY_LARGE],TAM[SMALL];*/
+void form_RaR_pronoun(char result[VERY_LARGE],char number[SMALL],char root_verb[VERY_LARGE],char gender[SMALL],char TAM[SMALL])
 {
  int pron_num,pro_offset=0,entry_num;
 
@@ -133,9 +137,10 @@ char number[SMALL],gender[SMALL],root_verb[VERY_LARGE],result[VERY_LARGE],TAM[SM
   }
 }
 
-void pron_gen(result,root_verb,gender,number,TAM)
+/*void pron_gen(result,root_verb,gender,number,TAM)
 char TAM[MEDIUM],root_verb[VERY_LARGE],number[SMALL],gender[SMALL];
-char result[VERY_LARGE];
+char result[VERY_LARGE];*/
+void pron_gen(char result[VERY_LARGE],char root_verb[VERY_LARGE],char gender[SMALL],char number[SMALL],char TAM[MEDIUM])
 {
 int num;
  

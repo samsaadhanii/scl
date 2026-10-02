@@ -2,11 +2,12 @@
 #include <ctype.h>
 #include "../headers/all_purpose.h"
 
-extern int sufix();
-extern void delete_from_end();
+extern int sufix(char *, char *);
+extern void delete_from_end(char *, int);
 
-void shift_right(word)
-char *word;
+/*void shift_right(word)
+char *word; */
+void shift_right(char *word)
 {
   char temp[VERY_LARGE];
   int i;
@@ -17,8 +18,9 @@ char *word;
   strcpy(word,temp);
 }
 
-void modify_prefix(word)
-char *word;
+/*void modify_prefix(word)
+char *word; */
+void modify_prefix(char *word)
 {
   char temp[VERY_LARGE];
   char backword[VERY_LARGE];
@@ -46,8 +48,9 @@ char *word;
   if(!isalpha(word[0])) strcpy(word,backword);
 }
 
-void modify_star_suffix(word)
-char *word;
+/*void modify_star_suffix(word)
+char *word; */
+void modify_star_suffix(char *word)
 {
    if(sufix(word,"<*0*>")) delete_from_end(word,5);
    if(sufix(word,"<*>")) delete_from_end(word,3);

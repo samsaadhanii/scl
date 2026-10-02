@@ -8,7 +8,7 @@ all: Heritage_anusaaraka_morph.out
 
 Heritage_anusaaraka_morph.out: Heritage_anusaaraka_morph.lex
 	lex Heritage_anusaaraka_morph.lex
-	gcc -g -L$(LIBPATH) -Wall -Wextra -o Heritage_anusaaraka_morph.out lex.yy.c -ll
+	gcc -g -L$(LIBPATH) -Wall -Wextra -Wno-sign-compare -o Heritage_anusaaraka_morph.out lex.yy.c -ll
 	rm lex.yy.c
 
 install:
@@ -18,4 +18,4 @@ install:
 	cp *.pl $(CGIDIR)/$(SCL_CGI)/MT/prog/Heritage_morph_interface
 	cp *.txt $(CGIDIR)/$(SCL_CGI)/MT/prog/Heritage_morph_interface
 clean: 
-	rm -f $(TARGETS)
+	rm -f Heritage_anusaaraka_morph.out

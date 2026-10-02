@@ -1,4 +1,4 @@
-(* Akanksha *)
+(* AkAfkRA *)
 open Aaxikarma_dhaatu;
 open Shlish_aadi; 
 open Shakaadi; 

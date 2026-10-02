@@ -10,9 +10,9 @@ extern char p2_utf[MEDIUMUTF];
 extern struct prAwipaxikam prAwi;
 extern char p1[MEDIUM];
 extern char p2[MEDIUM];
-extern void pUrvapaxa_cgi_interface();
-extern void prAwipaxika_info();
-extern int chk_kqw();
+extern void pUrvapaxa_cgi_interface(char *, char *, char *, char *);
+extern void prAwipaxika_info(char *, struct prAwipaxikam *);
+extern int chk_kqw(char *, char *);
 %}
 %option nounput
 %option noinput
@@ -187,8 +187,8 @@ extern char p1[MEDIUM];
 extern char p2[MEDIUM];
 extern char p1_utf[MEDIUMUTF];
 extern char p2_utf[MEDIUMUTF];
-extern void cnvrtutfd2r();
-extern void cnvrtwx2utfr();
+extern void cnvrtutfd2r(char *, char *);
+extern void cnvrtwx2utfr(char *, char *);
 
 char paxa[LARGE];
 char sUwrastr[LARGE];

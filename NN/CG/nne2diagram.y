@@ -28,10 +28,10 @@ int T_counter;
 int rel_counter;
 int i,j,k,found,min,max;
 extern int debug, cg_or_real;
-extern int getmin(), getmax();
+extern int getmin(int, int), getmax(int, int);
 extern char level[10][100];
 int yylex();
-int yyerror();
+int yyerror(char *);
 %}
 %token <nodeinfo> sambanXaH
 %token <nodeinfo> concept
