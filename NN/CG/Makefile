@@ -9,7 +9,7 @@ all: $(TARGETS)
 LIBPATH = /usr/lib
 FLEX = lex
 CC = gcc
-CFLAGS = -L$(LIBPATH) -g -Wall -o
+CFLAGS = -L$(LIBPATH) -g -Wall -Wno-format-overflow -o
 
 nne2diagram.out:  nne2diagram.lex nne2diagram.y
 	lex nne2diagram.lex

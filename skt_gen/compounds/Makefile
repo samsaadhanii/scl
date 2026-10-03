@@ -10,7 +10,7 @@ all: $(TARGETS)
 LIBPATH = /usr/lib
 FLEX = lex 
 CC = gcc
-CFLAGS = -L$(LIBPATH) -g -Wall -o
+CFLAGS = -L$(LIBPATH) -g -Wall -Wno-format-overflow -o
 
 aluk.out: aluk.lex cnvrtutfd2r.c cnvrtwx2utf.c fgetword.c
 	lex -B -v --warn aluk.lex

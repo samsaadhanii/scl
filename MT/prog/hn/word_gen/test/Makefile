@@ -22,9 +22,9 @@ new_gen.out     : ${OBJECTF}
 amba_eng_intfc.o       : ${INCLUDE}/amba_eng_intfc.c ${INCLUDE}/tam.c
 	   	cc -Wall -g -c ${INCLUDE}/amba_eng_intfc.c ${INCLUDE}/tam.c
 amba_new.o       : ${INCLUDE}/amba_new.c ${INCLUDE}/tam.c
-	   	cc -Wall -g -c ${INCLUDE}/amba_new.c ${INCLUDE}/tam.c
+	   	cc -Wall -Wno-format-overflow -g -c ${INCLUDE}/amba_new.c ${INCLUDE}/tam.c
 fix.o       : ${INCLUDE}/fix.c
-	   	cc -Wall -g -c ${INCLUDE}/fix.c
+	   	cc -Wall -Wno-format-overflow -g -c ${INCLUDE}/fix.c
 word_gen.o       : ${INCLUDE}/word_gen.c
 	   	cc -Wall -g -c ${INCLUDE}/word_gen.c
 trim.o      : ${INCLUDE}/trim.c
