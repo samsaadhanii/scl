@@ -126,8 +126,8 @@ extern char samAsaprakAra[MEDIUM];
 
 char samAsaprakAra[MEDIUM];
 char sUwrastr[LARGE];
-void print_samAsaprakAra(char *, char *, char *, char *);
-void call_samAsaprakAralex(char *);
+/* void print_samAsaprakAra(char *, char *, char *, char *);
+void call_samAsaprakAralex(char *); */
 void cnvrtwx2utf(char *, char *);
 void cnvrtutfd2r(char *, char *);
 
