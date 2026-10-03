@@ -9,7 +9,7 @@ all: $(TARGETS)
 LIBPATH = /usr/lib
 FLEX = lex
 CC = gcc
-CFLAGS = -L$(LIBPATH) -g -Wall -Wno-format-overflow  -o
+CFLAGS = -L$(LIBPATH) -g -Wall -Wno-format-overflow -Wimplicit-function-declaration  -o
 
 typeidentifier.out:  typeidentifier.lex typeidentifier.y
 	lex typeidentifier.lex
