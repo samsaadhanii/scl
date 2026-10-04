@@ -911,6 +911,7 @@ sub add_relations{
         if (($s_id !~ /\./) && ($flds[$wrd_fld_id] !~ /\-/)) {
         @rels = split(/;/,$flds[$rel_fld_id]);
         for ($z=0;$z<=$#rels;$z++) {
+		 $rels[$z] =~ s/\-,//;	# start introduces (--) blank relation. This was creating an empty node
              if ($rels[$z] =~ /,/) {
                 ($rel_nm,$d_id) = split(/#/,&get_relnm_id ($rels[$z]));
                 ($edgestyle,$edgedir) = split(/:/, &get_edgestyle_edge_dir($rel_nm,$z));
