@@ -89,7 +89,7 @@ char samAsaprakAra[MEDIUM];
 char encoding[MEDIUM];
 int divid;
 
-/*void uwwarapaxa_cgi_interface(char *, char *, char *);*/
+void uwwarapaxa_cgi_interface(char *, char *, char *);
 void call_uwwarapaxalex(char *);
 extern void cnvrtutfd2r(char *, char *);
 
